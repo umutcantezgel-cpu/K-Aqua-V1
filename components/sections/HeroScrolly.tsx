@@ -222,8 +222,8 @@ export default function HeroScrolly() {
           <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
             {heroCopy}
             <div className="flex justify-center items-center w-full">
-              <div className="w-full max-w-[480px] aspect-square relative">
-                {mounted && <Globe size={480} interactive={true} speed={0.004} markers={testMarkers} />}
+              <div className="w-full max-w-[580px] aspect-square relative">
+                {mounted && <Globe size={580} interactive={true} speed={0.004} markers={testMarkers} />}
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@ export default function HeroScrolly() {
             </div>
             <div ref={globeWrapRef} className="k-scrolly-globe">
               {mounted && !showStatic && (
-                <Globe size={640} interactive={false} speed={0.02} markers={testMarkers} />
+                <Globe size={800} interactive={false} speed={0.02} markers={testMarkers} />
               )}
             </div>
             {scrollyCardEls}

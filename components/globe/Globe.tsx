@@ -462,7 +462,7 @@ export const Globe = forwardRef<GlobeRef, GlobeProps>(
         const width = rect.width || entry.target.getBoundingClientRect().width;
         currentSizeRef.current = width;
 
-        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const dpr = Math.min(window.devicePixelRatio || 1, 3);
         canvas.width = width * dpr;
         canvas.height = width * dpr;
 

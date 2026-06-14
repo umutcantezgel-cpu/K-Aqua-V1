@@ -1,6 +1,5 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
 export const alt = 'K-Aqua';
 export const size = {
   width: 1200,
@@ -10,11 +9,6 @@ export const contentType = 'image/png';
 
 export default async function Image({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-
-  // Fetch font data
-  const fontData = await fetch(
-    new URL('../../fonts/outfit-bold.ttf', import.meta.url)
-  ).then((res) => res.arrayBuffer());
 
   const titles: Record<string, string> = {
     de: 'Premium PP-R & PP-RCT Rohrleitungssysteme',
@@ -40,7 +34,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
           justifyContent: 'space-between',
           background: 'linear-gradient(135deg, #5B2D8C 0%, #0081A5 100%)',
           padding: '80px',
-          fontFamily: 'Outfit',
+          fontFamily: 'sans-serif',
           color: '#ffffff',
           textAlign: isRtl ? 'right' : 'left',
           direction: isRtl ? 'rtl' : 'ltr',
@@ -119,14 +113,6 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: 'Outfit',
-          data: fontData,
-          style: 'normal',
-          weight: 700,
-        },
-      ],
     }
   );
 }
