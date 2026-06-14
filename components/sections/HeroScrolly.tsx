@@ -140,21 +140,20 @@ export default function HeroScrolly() {
   ];
 
   const heroCopy = (
-    <div ref={copyRef} className="relative z-10 w-full max-w-lg flex flex-col gap-5 sm:gap-6 text-start pt-4 sm:pt-8">
+    <div ref={copyRef} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
       <Reveal delay={0.08}>
-        <h1 className="text-3xl min-[375px]:text-4xl md:text-5xl lg:text-display font-heading font-extrabold tracking-tight leading-[1.1] text-balance">
-          {t('h1a')}
-          <br />
-          <span className="text-primary inline-block break-keep whitespace-nowrap">{t('h1b')}</span>
+        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
+          {t('h1a')}{' '}
+          <span className="text-primary">{t('h1b')}</span>
         </h1>
       </Reveal>
       <Reveal delay={0.16}>
-        <p className="text-base sm:text-lg lg:text-lead text-muted-foreground leading-relaxed max-w-md">
+        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
           {t('lead')}
         </p>
       </Reveal>
       <Reveal delay={0.24}>
-        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-2 sm:mt-4">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
           <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
             {t('ctaProducts')}
           </Button>
