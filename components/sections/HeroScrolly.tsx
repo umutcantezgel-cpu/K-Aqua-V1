@@ -140,7 +140,7 @@ export default function HeroScrolly() {
   ];
 
   const heroCopy = (
-    <div ref={copyRef} className="relative z-10 w-full max-w-2xl flex flex-col gap-5 sm:gap-8 text-start pt-4 sm:pt-8">
+    <div ref={copyRef} className="relative z-10 w-full max-w-lg flex flex-col gap-5 sm:gap-6 text-start pt-4 sm:pt-8">
       <Reveal delay={0.08}>
         <h1 className="text-3xl min-[375px]:text-4xl md:text-5xl lg:text-display font-heading font-extrabold tracking-tight leading-[1.1] text-balance">
           {t('h1a')}
@@ -149,7 +149,7 @@ export default function HeroScrolly() {
         </h1>
       </Reveal>
       <Reveal delay={0.16}>
-        <p className="text-base sm:text-lg lg:text-lead text-muted-foreground leading-relaxed max-w-[42rem]">
+        <p className="text-base sm:text-lg lg:text-lead text-muted-foreground leading-relaxed max-w-md">
           {t('lead')}
         </p>
       </Reveal>
