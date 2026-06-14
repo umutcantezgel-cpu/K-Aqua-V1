@@ -140,26 +140,25 @@ export default function HeroScrolly() {
   ];
 
   const heroCopy = (
-    <div ref={copyRef} className="relative z-10 max-w-lg flex flex-col gap-6 text-start">
-
+    <div ref={copyRef} className="relative z-10 w-full max-w-2xl flex flex-col gap-5 sm:gap-8 text-start pt-4 sm:pt-8">
       <Reveal delay={0.08}>
-        <h1 className="text-display font-heading font-extrabold tracking-tight leading-tight [overflow-wrap:anywhere] [hyphens:auto]">
+        <h1 className="text-3xl min-[375px]:text-4xl md:text-5xl lg:text-display font-heading font-extrabold tracking-tight leading-[1.1] text-balance">
           {t('h1a')}
           <br />
-          <span className="text-primary">{t('h1b')}</span>
+          <span className="text-primary inline-block break-keep whitespace-nowrap">{t('h1b')}</span>
         </h1>
       </Reveal>
       <Reveal delay={0.16}>
-        <p className="text-lead text-muted-foreground leading-relaxed">
+        <p className="text-base sm:text-lg lg:text-lead text-muted-foreground leading-relaxed max-w-[42rem]">
           {t('lead')}
         </p>
       </Reveal>
       <Reveal delay={0.24}>
-        <div className="flex flex-wrap gap-4 mt-2">
-          <Button variant="primary" size="lg" href="/produkte">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-2 sm:mt-4">
+          <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
             {t('ctaProducts')}
           </Button>
-          <Button variant="ghost" size="lg" href="/projektanfrage">
+          <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
             {t('ctaContact')}
           </Button>
         </div>
