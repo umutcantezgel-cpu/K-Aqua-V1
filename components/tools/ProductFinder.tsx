@@ -123,7 +123,7 @@ export default function ProductFinder() {
                     </h3>
                     <input
                       type="range"
-                      className="w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
+                      className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
                       min={20}
                       max={630}
                       step={5}
@@ -255,7 +255,7 @@ export default function ProductFinder() {
             </p>
           </Reveal>
           <Reveal delay={0.18}>
-            <Link href="/co2-rechner" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[56px] px-8 text-lead">
+            <Link href="/co2-rechner" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[56px] px-5 sm:px-8 text-lead">
                 {t("nextCta")}
                 <ArrowRight className="w-5 h-5" />
             </Link>

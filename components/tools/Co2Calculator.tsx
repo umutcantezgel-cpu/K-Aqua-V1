@@ -111,7 +111,7 @@ export default function Co2Calculator() {
                   <input
                     id="co2-d"
                     type="range"
-                    className="w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
+                    className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
                     min={20}
                     max={250}
                     step={5}
@@ -134,7 +134,7 @@ export default function Co2Calculator() {
                   <input
                     id="co2-len"
                     type="range"
-                    className="w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
+                    className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
                     min={50}
                     max={10000}
                     step={50}
@@ -202,9 +202,9 @@ export default function Co2Calculator() {
                   </h3>
                   <div className="flex flex-col gap-4">
                     {results.map((r) => (
-                      <div key={r.id} className="flex items-center gap-4 w-full">
+                      <div key={r.id} className="flex flex-col sm:flex-row items-start sm:items-center gap-1 sm:gap-4 w-full">
                         <span
-                          className="w-[120px] text-sm shrink-0 text-start"
+                          className="w-full sm:w-[120px] text-sm shrink-0 text-start"
                           style={{
                             fontWeight: r.id === "kaqua" ? 700 : 500,
                             color:
@@ -224,7 +224,7 @@ export default function Co2Calculator() {
                             }}
                           />
                         </div>
-                        <span className="w-[80px] text-sm tabular-nums text-end shrink-0">
+                        <span className="w-full sm:w-[80px] text-sm tabular-nums text-end sm:text-end shrink-0">
                           {formatCo2(r.total)}
                         </span>
                       </div>

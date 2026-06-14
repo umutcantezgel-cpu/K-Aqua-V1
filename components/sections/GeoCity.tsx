@@ -141,11 +141,11 @@ export default function GeoCity({
             </Reveal>
             <Reveal delay={0.24}>
               <div className="flex flex-wrap gap-4 mt-4">
-                <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[48px] px-6 text-body">
+                <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[48px] px-6 text-body w-full sm:w-auto">
                     {geoTrans.request}
                     <ArrowRight size={18} />
                 </Link>
-                <Link href="/produkte/finder" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-transparent text-foreground border border-card-border hover:border-primary hover:text-primary hover:bg-primary-soft min-h-[48px] px-6 text-body">
+                <Link href="/produkte/finder" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-transparent text-foreground border border-card-border hover:border-primary hover:text-primary hover:bg-primary-soft min-h-[48px] px-6 text-body w-full sm:w-auto">
                     {geoTrans.finder}
                 </Link>
               </div>
@@ -185,7 +185,7 @@ export default function GeoCity({
             
             {/* Card 1: Regulatorik-Karte (span 3) */}
             <Reveal className="md:col-span-3">
-              <Card tint className="h-full flex flex-col gap-5 text-start p-8">
+              <Card tint className="h-full flex flex-col gap-5 text-start p-5 sm:p-8">
                 <IconChip>
                   <Shield size={24} />
                 </IconChip>
@@ -212,7 +212,7 @@ export default function GeoCity({
 
             {/* Card 2: Wasserprofil (span 3) */}
             <Reveal className="md:col-span-3" delay={0.08}>
-              <Card className="h-full flex flex-col gap-5 text-start p-8">
+              <Card className="h-full flex flex-col gap-5 text-start p-5 sm:p-8">
                 <IconChip>
                   <Droplet size={24} />
                 </IconChip>
@@ -229,7 +229,7 @@ export default function GeoCity({
 
             {/* Card 3: Fokus-Projekte + Logistik (span 4) */}
             <Reveal className="md:col-span-4" delay={0.12}>
-              <Card className="h-full flex flex-col gap-6 text-start p-8">
+              <Card className="h-full flex flex-col gap-6 text-start p-5 sm:p-8">
                 <IconChip>
                   <Factory size={24} />
                 </IconChip>
@@ -253,7 +253,7 @@ export default function GeoCity({
 
             {/* Card 4: Academy-Verweis (span 2) */}
             <Reveal className="md:col-span-2" delay={0.18}>
-              <Card className="h-full flex flex-col gap-5 text-start p-8 justify-between">
+              <Card className="h-full flex flex-col gap-5 text-start p-5 sm:p-8 justify-between">
                 <IconChip>
                   <Wrench size={24} />
                 </IconChip>
@@ -267,7 +267,7 @@ export default function GeoCity({
                 </div>
                 <Link 
                   href="/academy" 
-                  className="inline-flex items-center gap-2 text-primary font-semibold hover:underline mt-4 group"
+                  className="inline-flex items-center gap-2 text-primary font-semibold hover:underline mt-4 group min-h-[44px]"
                 >
                   {geoTrans.toAcademy}
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 group-hover:rtl:-translate-x-1" />

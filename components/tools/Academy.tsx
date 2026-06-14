@@ -177,7 +177,7 @@ export function Academy({ data }: AcademyProps) {
           </Reveal>
 
           <Reveal delay={0.12}>
-            <Card className="min-h-[320px] flex flex-col justify-center p-8 text-start bg-card border-card-border shadow-lift mt-8">
+            <Card className="min-h-[320px] flex flex-col justify-center p-5 sm:p-8 text-start bg-card border-card-border shadow-lift mt-8">
               {quizStep === -1 ? (
                 /* Step -1: Intro */
                 <div className="flex flex-col items-center text-center gap-6 max-w-md mx-auto py-6">

@@ -261,7 +261,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
 
           {/* Wizard Card */}
           <Reveal delay={0.08}>
-            <Card className="min-h-[380px] p-8 flex flex-col justify-between text-start bg-card">
+            <Card className="min-h-[380px] p-4 sm:p-8 flex flex-col justify-between text-start bg-card">
               <div>
                 {/* Step 0: Project Type */}
                 {step === 0 && (

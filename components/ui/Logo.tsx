@@ -33,7 +33,7 @@ export function Logo({ height = 30, className }: LogoProps) {
         />
       </svg>
       <span
-        className="font-heading font-extrabold tracking-tight leading-none text-foreground"
+        className="font-heading font-extrabold tracking-tight leading-none text-foreground whitespace-nowrap"
         style={{ fontSize: `${fontSize}px` }}
       >
         {logoText}

@@ -257,7 +257,7 @@ export default function Career({ careerData }: CareerProps) {
           />
 
           <Reveal>
-            <Card className="min-h-[300px] flex flex-col justify-center items-center p-8 text-center bg-card">
+            <Card className="min-h-[300px] flex flex-col justify-center items-center p-5 sm:p-8 text-center bg-card">
               {cStep === -1 ? (
                 <div className="flex flex-col gap-6 items-center">
                   <div className="w-16 h-16 rounded-[20px] grid place-items-center bg-primary-soft text-primary shrink-0">

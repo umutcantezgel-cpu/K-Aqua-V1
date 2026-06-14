@@ -152,7 +152,7 @@ export default function HeroScrolly() {
         </Chip>
       </Reveal>
       <Reveal delay={0.08}>
-        <h1 className="text-display font-heading font-extrabold tracking-tight leading-tight">
+        <h1 className="text-display font-heading font-extrabold tracking-tight leading-tight [overflow-wrap:anywhere] [hyphens:auto]">
           {t('h1a')}
           <br />
           <span className="text-primary">{t('h1b')}</span>
@@ -228,7 +228,7 @@ export default function HeroScrolly() {
     <>
       {/* Static Mode container: visible on mobile / tablet or prefers-reduced-motion */}
       <div className={mounted ? (showStatic ? "block" : "hidden") : "block lg:hidden"}>
-        <section className="relative overflow-hidden pt-[72px] bg-background">
+        <section className="relative overflow-hidden bg-background">
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
             {heroCopy}

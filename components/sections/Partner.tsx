@@ -118,7 +118,7 @@ export function Partner({ data }: PartnerProps) {
 
             {/* Right: Ring Description Card */}
             <Reveal delay={0.12}>
-              <Card tint className="p-8 text-start min-h-[260px] flex flex-col justify-center">
+              <Card tint className="p-5 sm:p-8 text-start min-h-[260px] flex flex-col justify-center">
                 <span className="text-small font-bold uppercase tracking-wider text-primary mb-2">
                   {activeRing.l}
                 </span>
@@ -150,7 +150,7 @@ export function Partner({ data }: PartnerProps) {
 
               return (
                 <Reveal key={card.t} delay={idx * 0.08}>
-                  <Card className="h-full flex flex-col justify-between text-start p-8">
+                  <Card className="h-full flex flex-col justify-between text-start p-5 sm:p-8">
                     <div>
                       <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
                         <Icon size={ICON_SIZE} />

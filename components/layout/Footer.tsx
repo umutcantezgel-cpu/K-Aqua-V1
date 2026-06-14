@@ -31,19 +31,19 @@ export default function Footer() {
             <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
               {t('footer.colTools')}
             </span>
-            <Link href="/produkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/produkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('products')}
             </Link>
-            <Link href="/produkte/finder" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/produkte/finder" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('finder')}
             </Link>
-            <Link href="/co2-rechner" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/co2-rechner" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('co2')}
             </Link>
-            <Link href="/loesungen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/loesungen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('solutions')}
             </Link>
-            <Link href="/academy" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/academy" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('academy')}
             </Link>
           </div>
@@ -53,25 +53,25 @@ export default function Footer() {
             <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
               {t('footer.colCompany')}
             </span>
-            <Link href="/unternehmen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/unternehmen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('about')}
             </Link>
-            <Link href="/maerkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/maerkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('markets')}
             </Link>
-            <Link href="/trust-center" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/trust-center" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('trust')}
             </Link>
-            <Link href="/partnerschaft" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/partnerschaft" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('partner')}
             </Link>
-            <Link href="/referenzen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/referenzen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('references')}
             </Link>
-            <Link href="/news" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/news" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('news')}
             </Link>
-            <Link href="/karriere" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/karriere" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('career')}
             </Link>
           </div>
@@ -81,19 +81,19 @@ export default function Footer() {
             <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
               {t('footer.colContact')}
             </span>
-            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {getPageTitle('contact')}
             </Link>
-            <a href={`tel:${t('footer.phone').replace(/\s+/g, '')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1 font-body">
+            <a href={`tel:${t('footer.phone').replace(/\s+/g, '')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center font-body">
               {t('footer.phone')}
             </a>
-            <a href={`mailto:${t('footer.email')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1 font-body">
+            <a href={`mailto:${t('footer.email')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center font-body">
               {t('footer.email')}
             </a>
-            <span className="text-body opacity-75 py-1 font-body select-text">
+            <span className="text-body opacity-75 py-2 font-body select-text">
               {t('footer.address')}
             </span>
-            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1">
+            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
               {t('footer.directions')}
             </Link>
           </div>
@@ -105,10 +105,10 @@ export default function Footer() {
             {t('footer.copyright')} {t('footer.rights')}
           </span>
           <div className="flex gap-6 font-body">
-            <Link href="/impressum" className="text-small opacity-75 hover:opacity-100 transition-colors">
+            <Link href="/impressum" className="text-small opacity-75 hover:opacity-100 transition-colors py-2 min-h-[44px] inline-flex items-center">
               {t('footer.imprint')}
             </Link>
-            <Link href="/datenschutz" className="text-small opacity-75 hover:opacity-100 transition-colors">
+            <Link href="/datenschutz" className="text-small opacity-75 hover:opacity-100 transition-colors py-2 min-h-[44px] inline-flex items-center">
               {t('footer.privacy')}
             </Link>
           </div>

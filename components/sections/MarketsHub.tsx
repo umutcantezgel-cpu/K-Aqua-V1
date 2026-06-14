@@ -182,7 +182,7 @@ export default function MarketsHub({
             {/* Left: Globe Column */}
             <div className="lg:col-span-7 flex justify-center items-center relative min-h-[350px] sm:min-h-[500px]">
               <LazyGlobe 
-                className="relative flex items-center justify-center border border-card-border/30 rounded-full p-6 bg-background/50 shadow-diffuse select-none w-[368px] h-[368px] sm:w-[428px] sm:h-[428px] lg:w-[508px] lg:h-[508px]"
+                className="relative flex items-center justify-center border border-card-border/30 rounded-full p-6 bg-background/50 shadow-diffuse select-none w-full max-w-[368px] aspect-square sm:w-[428px] sm:h-[428px] lg:w-[508px] lg:h-[508px]"
                 aria-label={geoTrans.canvasAria}
               >
                 <Globe

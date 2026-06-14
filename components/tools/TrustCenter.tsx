@@ -124,7 +124,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
 
               return (
                 <Reveal key={name} delay={idx * 0.08}>
-                  <Card className="h-full flex flex-col justify-between items-start text-start p-8">
+                  <Card className="h-full flex flex-col justify-between items-start text-start p-5 sm:p-8">
                     <div className="flex flex-col gap-4 items-start w-full">
                       <div className="flex justify-between items-start w-full gap-2">
                         <h3 className="font-heading font-extrabold text-2xl text-foreground">
@@ -199,7 +199,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
             {/* Active Details Box */}
             <div className="lg:col-span-7">
               <Reveal key={activeGenauIdx}>
-                <Card className="p-8 text-start">
+                <Card className="p-5 sm:p-8 text-start">
                   <h3 className="font-heading font-extrabold text-2xl text-primary mb-4">
                     {data.genau[activeGenauIdx]?.[0]}
                   </h3>
@@ -254,7 +254,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
 
             {/* Request Status Box */}
             <div className="lg:col-span-5">
-              <Card tint className="p-8 text-start h-full flex flex-col justify-between">
+              <Card tint className="p-5 sm:p-8 text-start h-full flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-center mb-6">
                     <h3 className="font-heading font-bold text-xl text-foreground">

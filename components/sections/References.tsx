@@ -104,7 +104,7 @@ export default function References({ referencesData }: ReferencesProps) {
             {/* Globe Canvas Container */}
             <div className="lg:col-span-7 flex justify-center items-center min-h-[350px] sm:min-h-[500px]">
               <LazyGlobe 
-                className="relative flex items-center justify-center border border-card-border/30 rounded-full p-6 bg-background/50 shadow-diffuse select-none w-[368px] h-[368px] md:w-[508px] md:h-[508px]"
+                className="relative flex items-center justify-center border border-card-border/30 rounded-full p-6 bg-background/50 shadow-diffuse select-none w-full max-w-[368px] aspect-square md:w-[508px] md:h-[508px]"
                 aria-label={referencesData.canvasAria}
               >
                 <Globe
