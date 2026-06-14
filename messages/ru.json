@@ -1,0 +1,1342 @@
+{
+  "toggle_theme_light": "Switch to light theme",
+  "toggle_theme_dark": "Switch to dark theme",
+  "nav": {
+    "home": "Главная",
+    "products": "Продукция",
+    "finder": "Подбор",
+    "co2": "CO₂-калькулятор",
+    "markets": "Рынки",
+    "trust": "Trust Center",
+    "contact": "Контакты",
+    "quote": "Request a quote",
+    "menu": "Меню",
+    "lang": "Язык",
+    "skipToContent": "Перейти к содержанию",
+    "menuPlaceholder": "Placeholder (Mega Menu)"
+  },
+  "groups": {
+    "tools": "Продукция и инструменты",
+    "knowledge": "Знания и доверие",
+    "company": "Компания"
+  },
+  "pages": {
+    "products": [
+      "Система продукции",
+      "Обзор PP-R/PP-RCT, d20–d630"
+    ],
+    "finder": [
+      "Подбор продукции",
+      "Живой фильтр вместо PDF"
+    ],
+    "co2": [
+      "CO₂-калькулятор",
+      "Сравнение с медью, сталью, ПВХ"
+    ],
+    "solutions": [
+      "Преимущества материала",
+      "Почему полипропилен"
+    ],
+    "academy": [
+      "Academy",
+      "Видео по сварке + квиз"
+    ],
+    "trust": [
+      "Trust Center",
+      "ISO, GENAU, пакет RFP"
+    ],
+    "service": [
+      "Сервис и загрузки",
+      "Каталоги и документы"
+    ],
+    "partner": [
+      "Партнёрство KESSEL",
+      "Два бренда — одна позиция"
+    ],
+    "markets": [
+      "Рынки и локации",
+      "Интерактивный мир, 27 страниц"
+    ],
+    "references": [
+      "Глобус референсов",
+      "Проекты по всему миру"
+    ],
+    "about": [
+      "О нас",
+      "KWT GmbH и система GENAU"
+    ],
+    "career": [
+      "Карьера",
+      "Калькулятор бенефитов"
+    ],
+    "news": [
+      "Новости",
+      "Тройная сертификация ISO"
+    ],
+    "contact": [
+      "Контакты",
+      "Продажи и поддержка"
+    ],
+    "rfq": [
+      "Project Enquiry",
+      "A quote in four steps"
+    ]
+  },
+  "home": {
+    "chip": "сертифицированы с октября 2025",
+    "h1a": "Leading in",
+    "h1b": "Water Supply.",
+    "globeAria": "Interactive globe — drag to rotate",
+    "scrolly": [
+      {
+        "t": "Made in Germany",
+        "d": "Engineering and production in Waldsolms — every pipe, every fitting."
+      },
+      {
+        "t": "d20 to d630",
+        "d": "One complete system: five pressure ratings, fittings, valves and welding technology."
+      },
+      {
+        "t": "Triple certified",
+        "d": "ISO 9001, 14001 and 50001 — quality, environment and energy in one management system."
+      },
+      {
+        "t": "27 markets worldwide",
+        "d": "From Frankfurt to NEOM: validated against local standards and water profiles."
+      }
+    ],
+    "lead": "K-Aqua разрабатывает и производит трубопроводные системы PP-R/PP-RCT для питьевой воды — от 20 до 630 мм, в партнёрстве с премиальным производителем KESSEL.",
+    "ctaProducts": "Изучить систему",
+    "ctaContact": "Связаться",
+    "toolsEyebrow": "Интерактивные инструменты",
+    "toolsTitle1": "Никаких стен текста.",
+    "toolsTitle2": "Инструменты.",
+    "toolsLead": "Сайт работает на вас: фильтруйте, считайте, учитесь.",
+    "bandTitle": "Готовы к новому поколению водоснабжения?",
+    "bandLead": "Обсудите ваш проект с нашей командой — от планирования до сварки.",
+    "bandBtn": "Связаться сейчас",
+    "bandBtn2": "Загрузки и сервис"
+  },
+  "geo": {
+    "eyebrow": "Рынки и локации",
+    "title1": "Мир, полный",
+    "title2": "рынков.",
+    "lead": "{n} рынков в {c} странах — у каждого своя страница: нормы, профиль воды, применения, логистика. Возьмите глобус и вращайте его свободно.",
+    "all": "Все",
+    "cityTitle": "Трубопроводные системы PP-R/PP-RCT в {city}.",
+    "cityLead": "Системы питьевой воды d20–d630, проверенные по местным требованиям —",
+    "allMarkets": "Все рынки",
+    "request": "Запросить проект",
+    "finder": "Подбор продукции",
+    "fromPlant": "км от завода Вальдзольмс",
+    "regFrame": "Нормативная база",
+    "water": "Профиль воды и ответ материала",
+    "typical": "Типичные проекты: {city}",
+    "onSite": "Монтаж на объекте",
+    "onSiteText": "Инструктаж по сварке и видеодокументация для вашей бригады — в Academy.",
+    "toAcademy": "В Academy",
+    "nearbyEyebrow": "Связанные рынки",
+    "nearby": "Рядом.",
+    "prodNote": "Примечание по производству: Эти страницы соответствуют шаблону программного SEO (срез данных: продукт × регулирование × регион). В Next.js они генерируются через ISR из Headless CMS — включая hreflang, схему продукта/предложения и семантическую внутреннюю перелинковку.",
+    "km": "км"
+  },
+  "footer": {
+    "tagline": "K-Aqua — Leading in Water Supply. Трубопроводные системы PP-R/PP-RCT для питьевой воды, производство KWT GmbH, Вальдзольмс, Германия.",
+    "colTools": "Продукция и инструменты",
+    "colCompany": "Компания",
+    "colContact": "Контакты",
+    "directions": "Как добраться",
+    "rights": "Все права защищены.",
+    "imprint": "Выходные данные",
+    "privacy": "Конфиденциальность",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Германия",
+    "copyright": "© 2026 KWT GmbH."
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europe",
+    "nahost": "Middle East",
+    "global": "Africa & Asia-Pacific"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "largest pipe dimension in the range"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "pressure classes: SDR 6 / 7.4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "certified for quality, environment & energy"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "of production waste is recycled"
+      }
+    ],
+    "heroBadgeLabel": "pipe dimensions, SDR 6 to SDR 17",
+    "marquee": [
+      "Leading in Water Supply",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Made in Waldsolms",
+      "100% recycling",
+      "Partner: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Product Finder",
+        "d": "Filter 500+ article variants live — dimension, SDR, wall thickness instantly.",
+        "cta": "Filter now"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂ Calculator",
+        "d": "Your project vs. copper, stainless steel and PVC — in trees and car kilometres.",
+        "cta": "Calculate now"
+      },
+      {
+        "id": "academy",
+        "t": "Academy + Quiz",
+        "d": "Four welding methods on video, then the Welding Master quiz.",
+        "cta": "Become a master"
+      },
+      {
+        "id": "references",
+        "t": "Reference Globe",
+        "d": "Spin the planet, discover projects — from Waldsolms to Singapore.",
+        "cta": "Spin the globe"
+      },
+      {
+        "id": "trust",
+        "t": "Trust Center",
+        "d": "Check certificates and build your own RFP document package.",
+        "cta": "Build a package"
+      },
+      {
+        "id": "career",
+        "t": "Benefits Calculator",
+        "d": "What tax-free extras mean net — plus a 60-second culture match.",
+        "cta": "Check your net"
+      }
+    ],
+    "vsEyebrow": "The Difference",
+    "vsTitle": "Industry standard vs. K-Aqua digital.",
+    "vsBadTitle": "How the industry does it",
+    "vsGoodTitle": "How K-Aqua does it",
+    "vsBad": [
+      "220-page PDF catalogues with no search",
+      "Certificates only on written request",
+      "Technical data buried in table deserts",
+      "Careers page: a letterbox"
+    ],
+    "vsGood": [
+      "Product finder: filter in seconds",
+      "Trust Center: downloads as self-service",
+      "CO₂ calculator turns data into arguments",
+      "Benefits calculator + culture match"
+    ],
+    "coEyebrow": "The Company",
+    "coTitle1": "Building-material supplier and manufacturer —",
+    "coTitle2": "from a single source.",
+    "coLead": "KWT GmbH manufactures pipes and fittings for water supply in several plastics, positioning the company in the construction value chain as supplier and manufacturer at once.",
+    "kesselTitle": "Strong partnership with KESSEL",
+    "kesselText": "A close, long-standing partnership connects us with premium manufacturer KESSEL — \"Leading in drainage\". We carry these decades of experience into the future.",
+    "kesselCta": "More about the partnership",
+    "worldTitle": "Proven worldwide",
+    "worldText": "For decades, K-Aqua products have proven themselves countless times in projects all over the world.",
+    "worldCta": "Reference globe",
+    "cards": [
+      {
+        "t": "GENAU management system",
+        "d": "Continuous improvement of occupational, environmental and health protection — per DIN EN ISO 14001 and 50001."
+      },
+      {
+        "t": "Made in Germany",
+        "d": "Development and production in Waldsolms — quality, cost and schedule always in balance."
+      },
+      {
+        "t": "Ecological responsibility",
+        "d": "Resource conservation and environmental compatibility are integral to our understanding of quality."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title1": "PP-R/PP-RCT pipes & fittings for",
+    "titleGrad": "drinking water.",
+    "lead": "A complete piping system for hot and cold drinking water — from pipe to fitting to welding technology.",
+    "ctaCatalog": "Product catalogue (PDF)",
+    "ctaVideos": "Installation videos",
+    "sysEyebrow": "The System",
+    "sysTitle": "Four building blocks, one system.",
+    "range": [
+      {
+        "t": "Pipes — mono & multilayer",
+        "d": "Monolayer and glass-fibre reinforced multilayer pipes in SDR 6, 7.4, 9, 11 and 17. Dimensions from 20 mm to 630 mm."
+      },
+      {
+        "t": "Fittings & valves",
+        "d": "Fittings from 20 mm to 315 mm, complemented by valves, unions and transition pieces."
+      },
+      {
+        "t": "Welding technology & tools",
+        "d": "Cutting tools, welding devices and welding machines for socket, butt and electrofusion welding."
+      },
+      {
+        "t": "Hot & cold water",
+        "d": "Designed for drinking water — hot and cold — with high temperature and pressure resistance over decades."
+      }
+    ],
+    "techEyebrow": "Technical Data",
+    "techTitle": "Dimensions & pressure classes",
+    "techLead": "Depending on pipe type from 20 mm to 630 mm — fittings up to 315 mm.",
+    "ctaFeatures": "Product features (PDF)",
+    "tableHead": [
+      "Component",
+      "Dimension",
+      "Pressure classes"
+    ],
+    "tableRows": [
+      [
+        "Monolayer pipes",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Multilayer pipes (GF-reinforced)",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Fittings",
+        "20 – 315 mm",
+        "system-compatible"
+      ],
+      [
+        "Valves & unions",
+        "system-dependent",
+        "—"
+      ],
+      [
+        "Welding technology & tools",
+        "all dimensions",
+        "—"
+      ]
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title1": "An",
+    "titleGrad": "environmentally responsible",
+    "title2": "product.",
+    "lead": "Why polypropylene is the right material for tomorrow’s water supply — ecologically, technically and economically.",
+    "benefits": [
+      {
+        "t": "Environmentally friendly",
+        "d": "Polypropylene is made from gases that used to be burned off uselessly — drastically reducing air pollution. Production uses water in a closed cooling loop, protecting rivers, streams and lakes."
+      },
+      {
+        "t": "Recyclable",
+        "d": "PP carries recycling code \"5\" and can be separated by type. We recycle all production waste and offcuts — amid high demand for PP recyclate."
+      },
+      {
+        "t": "Superior",
+        "d": "As an engineering plastic, PP is unusually resistant to solvents, alkalis and acids — and injection-moulds complex geometries at low cost and high volume."
+      },
+      {
+        "t": "Durable",
+        "d": "PP products last significantly longer than comparable materials: low-maintenance, wear-resistant and stable against ageing and temperature extremes."
+      }
+    ],
+    "nextEyebrow": "Next Step",
+    "nextTitle": "From material to system.",
+    "nextLead": "See how these material benefits become concrete in the K-Aqua product range.",
+    "nextCta": "To the product range"
+  },
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Customer service &",
+    "titleGrad": "know-how.",
+    "lead": "Technical documents for download and step-by-step videos for all welding methods.",
+    "dlEyebrow": "Downloads",
+    "dlTitle": "Technical documents",
+    "downloads": [
+      {
+        "t": "K-Aqua Product Range",
+        "s": "Complete catalogue with dimensions & articles"
+      },
+      {
+        "t": "K-Aqua Product Features",
+        "s": "Technical properties & material data"
+      },
+      {
+        "t": "K-Aqua Quality Assurance",
+        "s": "Test methods & quality standards"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Welding methods on video",
+    "vidLead": "Four methods, four videos — straight from practice.",
+    "videos": [
+      {
+        "t": "Socket welding by hand",
+        "s": "PP-R/PP-RCT pipe & fitting"
+      },
+      {
+        "t": "Socket welding by machine",
+        "s": "PP-R socket welding"
+      },
+      {
+        "t": "Electrofusion welding",
+        "s": "PP-R/PP-RCT pipe & fitting"
+      },
+      {
+        "t": "Butt fusion welding",
+        "s": "PP-R/PP-RCT large dimensions"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title1": "Experience is your",
+    "titleGrad": "advantage.",
+    "lead": "New strategies, grown knowledge: KWT GmbH combines decades of manufacturing experience with a clear view ahead.",
+    "h2": "K-Aqua — Leading in Water Supply",
+    "p1": "The business field of KWT GmbH is manufacturing pipes and fittings for water supply in several plastics — positioning the company in the construction value chain as building-material supplier and manufacturer.",
+    "p2": "A close, long-standing partnership exists with premium manufacturer KESSEL — \"Leading in drainage\". With these decades of experience we carry our success into the future.",
+    "polEyebrow": "Company Policy",
+    "polTitle": "Value emerges from interplay.",
+    "polLead": "No customer value without employee value, no employee value without company value — and no company value without value for the environment and society.",
+    "cards": [
+      {
+        "t": "People at the centre",
+        "d": "All employees are involved in the continuous improvement process — quality always remains compatible with cost and schedule."
+      },
+      {
+        "t": "Reliability",
+        "d": "Wishes of customers and all stakeholders are recognised, taken seriously and implemented in compliance with legal and social standards."
+      },
+      {
+        "t": "Ecological responsibility",
+        "d": "All company activities respect resource conservation, environmental compatibility and strict compliance with all obligations."
+      }
+    ],
+    "genauEyebrow": "GENAU Management System",
+    "genauTitle": "Look closely. Improve precisely.",
+    "genauLead": "The GENAU management system is integrated into the House of KWT — a central element of our philosophy.",
+    "points": [
+      "Continuous improvement of occupational, environmental and health protection",
+      "Optimisation of energy efficiency",
+      "Prevention, ongoing hazard identification and risk assessment",
+      "Every employee is obliged to report hazards and participate actively"
+    ],
+    "certTitle": "Certified to standard",
+    "certText": "Our lived GENAU management meets the requirements of DIN EN ISO 14001 and 50001 — extended by ISO 9001:2015 since October 2025."
+  },
+  "news": {
+    "eyebrow": "News & Events",
+    "title1": "Latest from",
+    "titleGrad": "K-Aqua.",
+    "date": "October 2025",
+    "h2": "We are triple ISO certified",
+    "p": "Our ISO management system has been expanded and now covers quality, environmental and energy management:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Quality management system"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental management system"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy management system"
+      ]
+    ],
+    "btnDe": "Certificate (DE)",
+    "btnEn": "Certificate (EN)",
+    "eventsTitle": "Trade fairs & events",
+    "eventsText": "Visit K-Aqua at upcoming events. No dates are currently announced — check back soon."
+  },
+  "career": {
+    "eyebrow": "Careers",
+    "title1": "More than",
+    "titleGrad": "salary.",
+    "lead": "Calculate what tax-free benefits mean net — and test in 60 seconds whether K-Aqua fits you.",
+    "benEyebrow": "Net Pay Optimisation",
+    "benTitle": "The benefits calculator.",
+    "benLead": "Tax-free and flat-taxed extras often beat a gross raise. Build your package:",
+    "benefits": {
+      "sachbezug": [
+        "Benefit card",
+        "Tax-free benefit in kind — monthly onto the card account."
+      ],
+      "lunch": [
+        "Meal allowance",
+        "Digital meal vouchers for lunch & supermarket."
+      ],
+      "internet": [
+        "Internet allowance",
+        "Subsidy for private internet use."
+      ],
+      "jobrad": [
+        "Bike leasing",
+        "Dream bike via salary conversion — savings vs. private purchase."
+      ],
+      "kita": [
+        "Childcare subsidy",
+        "Tax-free subsidy for childcare."
+      ],
+      "vwl": [
+        "Capital-forming benefits",
+        "Monthly savings contribution from the employer."
+      ]
+    },
+    "resultLabel": "More net per month",
+    "resultNote1": "That roughly equals a",
+    "resultNote2": "gross raise of ~€{n}",
+    "resultNote3": "— without deductions.",
+    "resultNote4": "(Guide value, depends on tax class.)",
+    "apply": "Apply now",
+    "call": "Or call: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "Does K-Aqua fit you?",
+    "cmIntro": "Five honest questions about working style and everyday manufacturing life. Not a personality test — a reality check.",
+    "cmStart": "Start the test",
+    "qLabel": "Question",
+    "cmQ": [
+      {
+        "q": "How do you prefer to work?",
+        "o": [
+          "Clear processes, well-rehearsed team",
+          "Try something new every day"
+        ]
+      },
+      {
+        "q": "Series production is running. A machine reports a deviation.",
+        "o": [
+          "Look immediately, find the cause",
+          "Let it keep running for now"
+        ]
+      },
+      {
+        "q": "What motivates you more?",
+        "o": [
+          "A product that lasts 50 years",
+          "Fast, visible results"
+        ]
+      },
+      {
+        "q": "Shift work is …",
+        "o": [
+          "Plannable and fine",
+          "Rather difficult"
+        ]
+      },
+      {
+        "q": "Your relationship with technology?",
+        "o": [
+          "I want to understand how things work",
+          "As long as it runs"
+        ]
+      }
+    ],
+    "resHigh": "Strong match — precision, reliability and technical understanding: exactly our profile.",
+    "resMid": "Good match worth a conversation — best to call directly and clarify the day-to-day.",
+    "resLow": "Honest result: everyday manufacturing at K-Aqua is probably not your environment — sales or administration might fit better.",
+    "sendApp": "Send application",
+    "again": "Again"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title1": "Let’s talk about your",
+    "titleGrad": "project.",
+    "locTitle": "Location Germany",
+    "salesTitle": "Sales",
+    "supportTitle": "Quality & technical support",
+    "supportText": "Our support team helps with technical questions around planning, material and processing."
+  },
+  "imprint": {
+    "eyebrow": "Legal",
+    "title": "Imprint",
+    "rows": [
+      [
+        "Company",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Management",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Register court",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Registered office",
+        "Waldsolms"
+      ],
+      [
+        "VAT ID",
+        "DE 296238486"
+      ],
+      [
+        "Phone / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Email",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Product Finder",
+    "title1": "No PDF desert.",
+    "titleGrad": "Instant data.",
+    "lead": "Instead of 220-page catalogues: filter the complete PP-R/PP-RCT system interactively — dimension, pressure class, wall thickness, all live.",
+    "type": "Product type",
+    "types": {
+      "mono": "PP-R monolayer",
+      "fiber": "PP-RCT fibre composite (GF)",
+      "fitting": "Fittings"
+    },
+    "sdr": "Pressure class (SDR)",
+    "maxD": "Max. outer diameter",
+    "upTo": "up to",
+    "maxDAria": "Maximum outer diameter in millimetres",
+    "found": "article variants found — each instantly with wall thickness, inner diameter and nominal pressure.",
+    "catalog": "Catalogue (PDF)",
+    "tableHead": [
+      "Type",
+      "d (mm)",
+      "SDR",
+      "Wall (mm)",
+      "di (mm)",
+      "Nominal pressure"
+    ],
+    "more": "+ {n} more — refine filters for the full list.",
+    "none": "No results — loosen the filters.",
+    "nextEyebrow": "Think Ahead",
+    "nextTitle": "How climate-friendly is your design?",
+    "nextLead": "Hand dimension and length straight to the CO₂ calculator and compare against copper, stainless steel and PVC.",
+    "nextCta": "To the CO₂ calculator"
+  },
+  "co2": {
+    "eyebrow": "CO₂ & Life-Cycle Calculator",
+    "title1": "Calculate",
+    "titleGrad": "green.",
+    "lead": "Model your construction project and compare the K-Aqua system directly with copper, stainless steel and PVC — as an argument for LEED, BREEAM and DGNB.",
+    "project": "Your project",
+    "dia": "Nominal diameter",
+    "length": "Pipe length",
+    "sdrClass": "SDR class",
+    "disclaimer": "Demonstration values. Binding factors come from the ecoinvent database or product-specific Type III EPDs (EN 15804).",
+    "savedLabel": "Savings vs. best metal alternative",
+    "savedBody1": "CO₂ equivalent over the construction phase — equals the annual absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "System comparison (kg CO₂e total)",
+    "materials": {
+      "kaqua": "K-Aqua PP-RCT",
+      "pvc": "PVC-C",
+      "copper": "Copper",
+      "steel": "Stainless steel"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package — in the",
+    "trustLink": "Trust Center"
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Trust is",
+    "titleGrad": "measurable.",
+    "lead": "Certificates, GENAU framework and audit documents — as self-service. No waiting days for manual delivery.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Quality management"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental management"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy management"
+      ]
+    ],
+    "accred": "DAkkS-accredited",
+    "certNo": "Certificate no.",
+    "valid": "Valid",
+    "download": "Download",
+    "genauEyebrow": "GENAU Framework",
+    "genauTitle": "Five letters. One system.",
+    "genauLead": "The GENAU management system is anchored in the House of KWT — click through the five pillars.",
+    "genau": [
+      [
+        "Health",
+        "Occupational health and safety with continuous hazard identification — every employee is obliged to actively report risks."
+      ],
+      [
+        "Energy",
+        "Optimising energy efficiency per ISO 50001 — from the extruder to the closed cooling-water loop."
+      ],
+      [
+        "Sustainability",
+        "100% of offcuts and production waste go back into the material cycle."
+      ],
+      [
+        "Work safety",
+        "Prevention and risk assessment as daily practice — not an annual compliance exercise."
+      ],
+      [
+        "Environment",
+        "Environmental management per ISO 14001: resource conservation is part of our understanding of quality."
+      ]
+    ],
+    "rfpEyebrow": "Self-Service",
+    "rfpTitle": "Your RFP document package.",
+    "rfpLead": "Assemble your audit and tender package yourself — instead of waiting days for manual delivery.",
+    "docs": [
+      "ISO 9001:2015 certificate (DE/EN)",
+      "ISO 14001:2015 certificate (DE/EN)",
+      "ISO 50001:2018 certificate (DE/EN)",
+      "GENAU policy & risk assessment",
+      "Drinking-water conformity (DVGW/KTW)",
+      "EPD data sheets (Type III, EN 15804)",
+      "GAEB tender texts",
+      "Quality assurance manual"
+    ],
+    "inPackage": "documents in the package.",
+    "pickLeft": "Select on the left.",
+    "requestZip": "Request as ZIP with one click:",
+    "requestBtn": "Request package",
+    "mailSubject": "RFP document package",
+    "mailBody": "Please send me the following documents:",
+    "scope3": "Scope 3 emission data and raw EPD data on request — proactive transparency instead of box-ticking."
+  },
+  "partner": {
+    "eyebrow": "Partnership",
+    "title1": "Two brands.",
+    "titleGrad": "One attitude.",
+    "lead": "The close, decades-long partnership with KESSEL transfers premium trust from drainage into water supply.",
+    "onionAria": "Onion-layer model of the partnership",
+    "rings": [
+      {
+        "l": "Core brand",
+        "t": "KESSEL — Leading in Drainage",
+        "d": "Premium manufacturer of drainage technology. World-leading fairs like ISH, the PlanerPortal and the KundenForum make KESSEL an authority of the building-services industry."
+      },
+      {
+        "l": "System",
+        "t": "K-Aqua — Leading in Water Supply",
+        "d": "The supply side of the same engineering DNA: complete PP-R/PP-RCT system d20–d630, made in Germany. Drainage and supply from one community of values."
+      },
+      {
+        "l": "Service",
+        "t": "Shared ecosystem",
+        "d": "Planners benefit twice: training, welding support and digital planning tools — prospectively up to a parametric pipe-network configurator."
+      }
+    ],
+    "whyEyebrow": "Why PP-R/PP-RCT",
+    "whyTitle": "The backbone of the product promise.",
+    "cards": [
+      {
+        "t": "Absolute corrosion freedom",
+        "d": "Immune to electrochemical corrosion — no pitting, no pipe bursts as with copper or galvanised steel."
+      },
+      {
+        "t": "Thermal efficiency",
+        "d": "Minimal heat loss in hot-water circulation — direct energy savings over decades."
+      },
+      {
+        "t": "Hygienic neutrality",
+        "d": "Taste- and odour-neutral; the extremely smooth inner surface prevents biofilm and incrustation."
+      }
+    ]
+  },
+  "academy": {
+    "eyebrow": "K-Aqua Academy",
+    "title1": "Knowledge that",
+    "titleGrad": "connects.",
+    "lead": "Four welding methods on video — and a quiz that makes you a Welding Master. Optimised for the site: big targets, high contrast.",
+    "videos": [
+      {
+        "t": "Socket welding by hand",
+        "s": "up to d63 — hand welding device"
+      },
+      {
+        "t": "Socket welding by machine",
+        "s": "medium dimensions"
+      },
+      {
+        "t": "Electrofusion welding",
+        "s": "heating-coil fittings"
+      },
+      {
+        "t": "Butt fusion welding",
+        "s": "large dimensions up to d630"
+      }
+    ],
+    "quizEyebrow": "Welding Master Quiz",
+    "quizTitle": "Five questions. One badge.",
+    "intro": "Test your PP-R/PP-RCT processing knowledge. Flawless = \"Welding Master\" badge (+75 points).",
+    "start": "Start quiz",
+    "qLabel": "Question",
+    "quiz": [
+      {
+        "q": "Which welding method is standard for large dimensions (e.g. d630)?",
+        "o": [
+          "Socket welding by hand",
+          "Butt fusion",
+          "Gluing"
+        ]
+      },
+      {
+        "q": "What does SDR stand for in piping systems?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Safety Pressure Reserve"
+        ]
+      },
+      {
+        "q": "What distinguishes PP-RCT from classic PP-R?",
+        "o": [
+          "Lower price",
+          "Modified crystal structure → more temperature & pressure reserve",
+          "Metallic reinforcement"
+        ]
+      },
+      {
+        "q": "Which recycling code does polypropylene carry?",
+        "o": [
+          "Code 3",
+          "Code 5",
+          "Code 7"
+        ]
+      },
+      {
+        "q": "In electrofusion welding the heat comes …",
+        "o": [
+          "from a heating-element mirror",
+          "from embedded heating coils in the fitting",
+          "from hot air"
+        ]
+      }
+    ],
+    "resPerfect": "Perfect — \"Welding Master\" badge earned!",
+    "resGood": "Solid! \"Welding Journeyman\" badge secured. For the master: all five correct.",
+    "resLow": "The videos above help — then the master will follow.",
+    "retry": "Try again",
+    "titlePerfect": "Welding Master",
+    "titleGood": "Welding Journeyman"
+  },
+  "refs": {
+    "eyebrow": "References",
+    "title1": "A globe full of",
+    "titleGrad": "projects.",
+    "lead": "Spin the globe, tap a marker — every mark stands for proven K-Aqua technology in use. (Sample projects as placeholders for real references.)",
+    "canvasAria": "Interactive globe with reference projects — drag to rotate",
+    "note": "Real project names, photos and figures should be added editorially — the stage is set.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Deutschland",
+        "d": "Stammwerk & Entwicklung — hier entsteht jedes K-Aqua-Rohr."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, VAE",
+        "d": "Hochhaus-Steigleitungen — PP-RCT für Heißwasser unter Wüstenbedingungen."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warschau, Polen",
+        "d": "Wohnquartier-Neubau — komplette Trinkwasserinstallation d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Türkei",
+        "d": "Hotelkomplex — Zirkulationsleitungen mit Faserverbundrohr."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infrastrukturprojekt — Großdimensionen bis d630 im Stumpfschweißverfahren."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Kapstadt, Südafrika",
+        "d": "Krankenhausneubau — hygienische Trinkwasserverteilung."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Bürosanierung — korrosionsfreier Ersatz für Bestandsleitungen."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "For planners, procurement & installers",
+    "title1": "You plan, calculate or install.",
+    "titleGrad": "We provide the foundation.",
+    "lead": "Every role finds exactly the information it needs for the next decision at K-Aqua — no PDF hunting, no callback queue.",
+    "personas": [
+      {
+        "t": "Planners & engineers",
+        "d": "Standard-compliant technical data, SDR tables and CO₂ evidence for the tender — ready to use.",
+        "cta": "View technical data",
+        "goto": "products"
+      },
+      {
+        "t": "Procurement & purchasing",
+        "d": "Factory-direct supply, predictable logistics from Waldsolms and one contact instead of middlemen.",
+        "cta": "Start project enquiry",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installers & fabricators",
+        "d": "Four welding methods on video, tool overview and clear processing limits — confidence on site.",
+        "cta": "Go to Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Why K-Aqua",
+    "whyTitle": "Six reasons that land in the calculation.",
+    "why": [
+      {
+        "t": "Pressure & hot-water rated",
+        "d": "PP-RCT with modified crystalline structure — more temperature and pressure reserve over decades."
+      },
+      {
+        "t": "Corrosion-free",
+        "d": "No rust, no scaling, no pitting risks as with metallic pipes."
+      },
+      {
+        "t": "Recyclable & low-CO₂",
+        "d": "Recycling code 5, far smaller footprint than copper or steel — provable in the CO₂ calculator."
+      },
+      {
+        "t": "One single contact",
+        "d": "Pipe, fitting, valve and welding technology from one hand — from the manufacturer, not the middleman."
+      }
+    ],
+    "promise": [
+      "Factory-direct",
+      "Reply < 24 h",
+      "No obligation"
+    ],
+    "ctaAll": "Project enquiry in 2 minutes"
+  },
+  "rfq": {
+    "eyebrow": "Project enquiry",
+    "title1": "Your project,",
+    "titleGrad": "our quote.",
+    "lead": "Four short steps to a no-obligation enquiry. You receive a personal reply from our sales team within one business day.",
+    "steps": [
+      "Project type",
+      "Demand",
+      "Timing & region",
+      "Contact"
+    ],
+    "types": [
+      {
+        "t": "New build / construction",
+        "d": "Drinking-water installation in residential or commercial buildings."
+      },
+      {
+        "t": "Infrastructure / civil",
+        "d": "Supply lines, large dimensions, networks."
+      },
+      {
+        "t": "Renovation / replacement",
+        "d": "Replacing existing metal or PVC pipework."
+      },
+      {
+        "t": "Trade / resale",
+        "d": "Distribution, stock or project business."
+      }
+    ],
+    "fType": "Project type",
+    "fDims": "Required dimensions",
+    "fMeters": "Estimated run length",
+    "dimsHint": "Rough figures are enough — we refine together. Multiple selection possible.",
+    "fTime": "Planned timeframe",
+    "fRegion": "Delivery region",
+    "timelines": [
+      "Immediate / ongoing",
+      "In 1–3 months",
+      "In 3–6 months",
+      "Planning phase"
+    ],
+    "regions": [
+      "Germany",
+      "DACH",
+      "Europe",
+      "Middle East",
+      "Worldwide"
+    ],
+    "fName": "Name",
+    "fCompany": "Company",
+    "fEmail": "Email",
+    "fPhone": "Phone",
+    "fMsg": "Message (optional)",
+    "privacy": "On submitting, a pre-filled email to info@k-aqua.de opens. No data is stored on this page.",
+    "back": "Back",
+    "next": "Next",
+    "send": "Send enquiry",
+    "mailSubject": "K-Aqua project enquiry",
+    "promise": [
+      "Reply < 24 h",
+      "No obligation",
+      "Direct from manufacturer"
+    ],
+    "doneTitle": "Almost there.",
+    "doneText": "Your email client has opened with the pre-filled enquiry. Send it off — we will be in touch within one business day. Prefer to talk directly?",
+    "doneBack": "Back to home"
+  },
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Drinking Water Ordinance (TrinkwV)",
+      "water": "Hard water (14–20 °dH) — corrosion-free PP-R/PP-RCT prevents scale incrustation on rough metal surfaces.",
+      "focus": [
+        "High-rise riser pipes (Banking District)",
+        "Hotel & office renovation",
+        "Data center cooling water"
+      ],
+      "note": "In the Rhine-Main region, K-Aqua delivers ex-works Waldsolms — often on the same day.",
+      "focusHeading": "Typical projects in Frankfurt am Main"
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Moderately hard water from bank filtrate — hygienic neutrality of PP prevents biofilm formation in extensive networks.",
+      "focus": [
+        "New residential quarters",
+        "School & administrative buildings",
+        "Renovation of existing old buildings"
+      ],
+      "note": "Major projects in the capital region are delivered via forwarding partners within 24 hours.",
+      "focusHeading": "Typical projects in Berlin"
+    },
+    "muenchen": {
+      "regulator": "DVGW / TrinkwV, SWM",
+      "water": "Soft Alpine water with a low pH range — PP is stable where copper faces increased solubility.",
+      "focus": [
+        "Premium residential construction",
+        "Hospital & laboratory construction",
+        "Brewery & process water"
+      ],
+      "note": "Southern Germany logistics via overnight delivery; on-site welding training can be booked.",
+      "focusHeading": "Typical projects in München"
+    },
+    "hamburg": {
+      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+      "water": "Soft to moderately hard groundwater — taste-neutral PP systems preserve the high raw water quality.",
+      "focus": [
+        "HafenCity new development",
+        "Hotels",
+        "Maritime utility engineering"
+      ],
+      "note": "Northern Germany from stock; large dimensions d250+ project-specific directly from extrusion.",
+      "focusHeading": "Typical projects in Hamburg"
+    },
+    "wien": {
+      "regulator": "ÖVGW / Drinking Water Ordinance (AT)",
+      "water": "Mountain spring water of excellent quality — value preservation through absolutely inert pipe materials.",
+      "focus": [
+        "Municipal housing renovation",
+        "Hotel & commercial projects",
+        "District heating sub-distribution"
+      ],
+      "note": "EU internal market: no customs formalities, delivery in 48 hours.",
+      "focusHeading": "Typical projects in Wien"
+    },
+    "zuerich": {
+      "regulator": "SVGW / TBDV",
+      "water": "Lake and spring water mix — Swiss hygiene requirements demand certified material neutrality.",
+      "focus": [
+        "High-end residential construction",
+        "Bank & office renovation",
+        "Hospital construction"
+      ],
+      "note": "Export processing including Swiss certificates of conformity from a single source.",
+      "focusHeading": "Typical projects in Zürich"
+    },
+    "london": {
+      "regulator": "WRAS — Water Regulations Approval Scheme",
+      "water": "Very hard water (Thames Basin) — PP-RCT remains free from scale build-up and cross-section narrowing.",
+      "focus": [
+        "High-rise residential",
+        "Heritage renovation",
+        "District-wide hot water networks"
+      ],
+      "note": "WRAS-compliant documentation and English data sheets available.",
+      "focusHeading": "Typical projects in London"
+    },
+    "paris": {
+      "regulator": "ACS — Attestation de Conformité Sanitaire",
+      "water": "Hard Seine water with lime load — smooth PP inner surfaces keep pressure losses constant over decades.",
+      "focus": [
+        "Grand Paris residential quarters",
+        "Hotel & heritage renovation",
+        "Olympic legacy reuse"
+      ],
+      "note": "ACS certificates of conformity and French installation guidelines included.",
+      "focusHeading": "Typical projects in Paris"
+    },
+    "mailand": {
+      "regulator": "DM 174/2004 (Drinking Water Contact, IT)",
+      "water": "Groundwater from the Po Valley with high hardness — scale-free systems perceptibly reduce maintenance costs.",
+      "focus": [
+        "Porta Nuova high-rise cluster",
+        "Fashion & retail flagships",
+        "Northern Italy industry"
+      ],
+      "note": "Alpine transit logistics 48–72 hours; Italian documentation available.",
+      "focusHeading": "Typical projects in Mailand"
+    },
+    "warschau": {
+      "regulator": "PZH Hygiene Certificate (Państwowy Zakład Higieny)",
+      "water": "Vistula bank filtrate — fast-growing housing market with high demand for fast-to-install systems.",
+      "focus": [
+        "New residential quarters",
+        "Logistics & industrial halls",
+        "Modernization of prefabricated concrete buildings"
+      ],
+      "note": "EU logistics 24–48 hours; Polish processing guidelines available.",
+      "focusHeading": "Typical projects in Warschau"
+    },
+    "prag": {
+      "regulator": "SZÚ Hygiene Approval (CZ)",
+      "water": "Vltava reservoir water — stable quality, strong renovation market in historical buildings.",
+      "focus": [
+        "Old building riser renovation",
+        "Hotels",
+        "Automotive supply industry"
+      ],
+      "note": "Neighboring market ex-works: delivery in 24 hours, technical hotline in German and English.",
+      "focusHeading": "Typical projects in Prag"
+    },
+    "dubai": {
+      "regulator": "DEWA — Dubai Electricity & Water Authority",
+      "water": "Desalinated seawater with high chloride load and continuous temperatures >30 °C — the core scenario for PP-RCT temperature reserves.",
+      "focus": [
+        "Super-high-rise towers",
+        "Hotel resorts",
+        "District cooling make-up"
+      ],
+      "note": "Ocean freight FCL from Hamburg; butt fusion welding supervision can be booked on site.",
+      "focusHeading": "Typical projects in Dubai"
+    },
+    "abudhabi": {
+      "regulator": "DoE Abu Dhabi / Estidama",
+      "water": "Desalinated water with post-hardening — Estidama sustainability points reward recyclable pipe materials.",
+      "focus": [
+        "Government & cultural buildings",
+        "Saadiyat resorts",
+        "KIZAD industrial zones"
+      ],
+      "note": "Estidama Pearl Rating documentation (material transparency) is attached to the quote.",
+      "focusHeading": "Typical projects in Abu Dhabi"
+    },
+    "doha": {
+      "regulator": "Kahramaa — Qatar General Electricity & Water Corp.",
+      "water": "99% desalinated water, network temperatures up to 40 °C in summer — long-term hydrostatic strength is the key selection criterion.",
+      "focus": [
+        "Lusail city development",
+        "Stadium legacy reuse",
+        "Hospitality"
+      ],
+      "note": "Kahramaa QCS-compliant submittal packages and third-party test reports available.",
+      "focusHeading": "Typical projects in Doha"
+    },
+    "riad": {
+      "regulator": "SASO / Saudi Water Authority",
+      "water": "Mix of desalination (SWCC pipelines) and fossil groundwater — extreme summer heat demands PP-RCT reserves.",
+      "focus": [
+        "Vision 2030 Giga projects",
+        "King Salman Park",
+        "Residential city expansions"
+      ],
+      "note": "SASO certification and SABER registration are provided on a project-specific basis.",
+      "focusHeading": "Typical projects in Riad"
+    },
+    "dschidda": {
+      "regulator": "SASO / SWCC",
+      "water": "Red Sea desalination with high local salt load — absolute freedom from corrosion is a knock-out criterion against metal here.",
+      "focus": [
+        "Jeddah Central Project",
+        "Port & logistics buildings",
+        "Pilgrim hospitality (Makkah corridor)"
+      ],
+      "note": "Ocean freight directly to Jeddah Islamic Port; Arabic data sheets in progress.",
+      "focusHeading": "Typical projects in Dschidda"
+    },
+    "neom": {
+      "regulator": "NEOM Authority / SASO",
+      "water": "100% renewable-powered desalination planned — the project demands fully circular materials: Recycling Code 5 included.",
+      "focus": [
+        "Linear city infrastructure",
+        "Oxagon industrial port",
+        "Trojena mountain resorts"
+      ],
+      "note": "Early planning phase: K-Aqua supports with EPD data and parametric piping network models.",
+      "focusHeading": "Typical projects in NEOM / The Line"
+    },
+    "kuwait": {
+      "regulator": "MEW — Ministry of Electricity & Water",
+      "water": "Desalinated Gulf water mixed with brackish water — chloride-resistant plastic systems are the standard recommendation.",
+      "focus": [
+        "Silk City planning",
+        "Residential cities (PAHW)",
+        "Oil & gas auxiliary infrastructure"
+      ],
+      "note": "MEW pre-qualification via local partners; delivery via Shuwaikh Port.",
+      "focusHeading": "Typical projects in Kuwait-Stadt"
+    },
+    "maskat": {
+      "regulator": "Nama Water Services (formerly Diam)",
+      "water": "Desalination plus Aflaj tradition — Oman rewards durable, low-maintenance systems in public tenders.",
+      "focus": [
+        "Duqm port city",
+        "Hotel & tourism projects",
+        "Mosque & cultural buildings"
+      ],
+      "note": "GCC logistics corridor via Jebel Ali; technical acceptance according to Nama protocol.",
+      "focusHeading": "Typical projects in Maskat"
+    },
+    "manama": {
+      "regulator": "EWA — Electricity & Water Authority",
+      "water": "Fully desalinated network with high summer temperatures — PP-RCT maintains the pressure reserve where PVC ages.",
+      "focus": [
+        "Bahrain Bay",
+        "Banking district renovation",
+        "Island developments"
+      ],
+      "note": "Compact market with short distances — complete packages including welding equipment rental.",
+      "focusHeading": "Typical projects in Manama"
+    },
+    "amman": {
+      "regulator": "WAJ — Water Authority of Jordan / Miyahuna",
+      "water": "One of the most water-scarce countries in the world — leak-free welded joints are active water conservation policy (Non-Revenue Water < 2%).",
+      "focus": [
+        "Disi pipeline sub-networks",
+        "Hospital & university construction",
+        "Refugee camp infrastructure"
+      ],
+      "note": "Development bank funded projects: K-Aqua delivers tender-compliant documentation.",
+      "focusHeading": "Typical projects in Amman"
+    },
+    "kairo": {
+      "regulator": "HCWW — Holding Company for Water & Wastewater",
+      "water": "Nile water with seasonal turbidity — smooth PP surfaces minimize deposition in domestic installations.",
+      "focus": [
+        "New Administrative Capital",
+        "Residential cities (NUCA)",
+        "Red Sea hotel corridor"
+      ],
+      "note": "EOS registration via local partners; Mediterranean sea freight from Hamburg 10–14 days.",
+      "focusHeading": "Typical projects in Kairo"
+    },
+    "istanbul": {
+      "regulator": "İSKİ / TSE Certification",
+      "water": "Reservoir water with seasonal variations — earthquake-safe, ductile pipe behavior is a key design criterion.",
+      "focus": [
+        "Hotel complexes",
+        "High-rise residential",
+        "New hospital construction"
+      ],
+      "note": "Flexible supply chains via road (5–7 days) or ocean freight.",
+      "focusHeading": "Typical projects in Istanbul"
+    },
+    "singapur": {
+      "regulator": "PUB — Public Utilities Board",
+      "water": "NEWater & desalinated water, tropical continuous heat — highest demands on long-term hydrostatic strength.",
+      "focus": [
+        "Public Housing (HDB)",
+        "Marina high-rises",
+        "Semiconductor ultra-pure water pre-stages"
+      ],
+      "note": "Ocean freight from Hamburg; complete PUB submission documents available.",
+      "focusHeading": "Typical projects in Singapur"
+    },
+    "kualalumpur": {
+      "regulator": "SPAN — National Water Services Commission",
+      "water": "Tropical surface water, high ambient humidity — UV and aging-resistant systems are standard.",
+      "focus": [
+        "TRX Financial District",
+        "Mixed-use towers",
+        "Johor industrial corridor"
+      ],
+      "note": "SPAN listing via distribution partners; ASEAN hub for the region.",
+      "focusHeading": "Typical projects in Kuala Lumpur"
+    },
+    "mumbai": {
+      "regulator": "BIS — Bureau of Indian Standards",
+      "water": "Monsoon-influenced reservoir supply with intermittent operation — pressure surge resistant welded joints count twice.",
+      "focus": [
+        "High-rise redevelopment",
+        "Hospital & pharmaceutical construction",
+        "Smart Cities program"
+      ],
+      "note": "BIS compliance on a project-specific basis; technical training remote + on-site.",
+      "focusHeading": "Typical projects in Mumbai"
+    },
+    "kapstadt": {
+      "regulator": "SABS / SANS standards system",
+      "water": "Water scarcity after 'Day Zero' — leak-free welded joints are active water conservation policy here.",
+      "focus": [
+        "Hospital & hotel construction",
+        "Township infrastructure",
+        "Winery process water"
+      ],
+      "note": "Project business with local partner network; training of welding teams included.",
+      "focusHeading": "Typical projects in Kapstadt"
+    },
+    "nairobi": {
+      "regulator": "KEBS — Kenya Bureau of Standards",
+      "water": "Reservoir and groundwater mix in rapidly growing metropolis — robust, easy-to-train connection technology in demand.",
+      "focus": [
+        "Affordable Housing Program",
+        "Tatu City",
+        "Hospital & education buildings"
+      ],
+      "note": "East Africa hub: delivery via Mombasa; welding training as capacity building.",
+      "focusHeading": "Typical projects in Nairobi"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The requested page does not exist or has been moved.",
+    "backHome": "Back to home"
+  }
+}

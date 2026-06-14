@@ -1,0 +1,291 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
+import { motion, useReducedMotion } from 'motion/react';
+import { Link, usePathname } from '@/lib/i18n/navigation';
+import { useTranslations } from 'next-intl';
+import {
+  Package,
+  Search,
+  Leaf,
+  FileText,
+  Lightbulb,
+  GraduationCap,
+  ShieldCheck,
+  Wrench,
+  Handshake,
+  Globe,
+  Star,
+  Building2,
+  Users,
+  Newspaper,
+  Phone,
+} from 'lucide-react';
+
+interface MegaMenuProps {
+  onClose: () => void;
+}
+
+const ICON_MAP: Record<string, React.ElementType> = {
+  products: Package,
+  finder: Search,
+  co2: Leaf,
+  rfq: FileText,
+  solutions: Lightbulb,
+  academy: GraduationCap,
+  trust: ShieldCheck,
+  service: Wrench,
+  partner: Handshake,
+  markets: Globe,
+  references: Star,
+  about: Building2,
+  career: Users,
+  news: Newspaper,
+  contact: Phone,
+};
+
+const MEGA_LAYOUT = [
+  {
+    group: 'tools',
+    items: [
+      { id: 'products', href: '/produkte' },
+      { id: 'finder', href: '/produkte/finder' },
+      { id: 'co2', href: '/co2-rechner' },
+      { id: 'rfq', href: '/projektanfrage' },
+      { id: 'solutions', href: '/loesungen' },
+    ],
+  },
+  {
+    group: 'knowledge',
+    items: [
+      { id: 'academy', href: '/academy' },
+      { id: 'trust', href: '/trust-center' },
+      { id: 'service', href: '/service' },
+      { id: 'partner', href: '/partnerschaft' },
+    ],
+  },
+  {
+    group: 'company',
+    items: [
+      { id: 'markets', href: '/maerkte' },
+      { id: 'references', href: '/referenzen' },
+      { id: 'about', href: '/unternehmen' },
+      { id: 'career', href: '/karriere' },
+      { id: 'news', href: '/news' },
+      { id: 'contact', href: '/kontakt' },
+    ],
+  },
+] as const;
+
+export default function MegaMenu({ onClose }: MegaMenuProps) {
+  const t = useTranslations();
+  const pathname = usePathname();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const shouldReduceMotion = useReducedMotion();
+
+  // Close when the route changes (but not on initial mount)
+  const initialPathRef = useRef(pathname);
+  useEffect(() => {
+    if (initialPathRef.current !== pathname) {
+      onClose();
+    }
+  }, [pathname, onClose]);
+
+  // Close on Escape key press
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
+
+  // Focus Restoration
+  useEffect(() => {
+    const activeElementBeforeOpen = document.activeElement as HTMLElement | null;
+    return () => {
+      if (
+        activeElementBeforeOpen &&
+        document.body.contains(activeElementBeforeOpen) &&
+        typeof activeElementBeforeOpen.focus === 'function'
+      ) {
+        activeElementBeforeOpen.focus();
+      }
+    };
+  }, []);
+
+  // Keyboard focus trap inside the overlay
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const getFocusableElements = () => {
+      if (!containerRef.current) return [];
+      return Array.from(
+        containerRef.current.querySelectorAll(
+          'a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        )
+      ) as HTMLElement[];
+    };
+
+    const focusable = getFocusableElements();
+    if (focusable.length > 0) {
+      const activeElement = focusable.find(
+        (el) =>
+          el.classList.contains('is-active') ||
+          el.getAttribute('aria-current') === 'page'
+      ) || focusable[0];
+      if (activeElement) {
+        activeElement.focus();
+      }
+    }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab') return;
+      const elements = getFocusableElements();
+      if (elements.length === 0) return;
+
+      const first = elements[0];
+      const last = elements[elements.length - 1];
+      if (!first || !last) return;
+
+      if (e.shiftKey) {
+        if (document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
+  const getPageMeta = (id: string): [string, string] => {
+    try {
+      const arr = t.raw(`pages.${id}`);
+      if (Array.isArray(arr) && arr.length >= 2) {
+        return [arr[0], arr[1]];
+      }
+      return [id, ''];
+    } catch {
+      return [id, ''];
+    }
+  };
+
+  // Animation variants
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: shouldReduceMotion ? 0 : 0.03,
+        delayChildren: shouldReduceMotion ? 0 : 0.08,
+      },
+    },
+  };
+
+  const sectionVariants = {
+    hidden: {
+      opacity: 0,
+      y: shouldReduceMotion ? 0 : 20,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: 'spring',
+        stiffness: 300,
+        damping: 28,
+        staggerChildren: shouldReduceMotion ? 0 : 0.025,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: {
+      opacity: 0,
+      y: shouldReduceMotion ? 0 : 10,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: 'spring',
+        stiffness: 400,
+        damping: 30,
+      },
+    },
+  };
+
+  return (
+    <div
+      className="k-mega"
+      role="dialog"
+      aria-modal="true"
+      aria-label={t('nav.menu')}
+      onClick={handleBackdropClick}
+      ref={containerRef}
+    >
+      <motion.div
+        className="k-mega-inner"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        {MEGA_LAYOUT.map((sec) => (
+          <motion.section
+            key={sec.group}
+            className="k-mega-section"
+            variants={sectionVariants}
+          >
+            <span className="k-mega-head">
+              {t(`groups.${sec.group}`)}
+            </span>
+            <div className="k-mega-group">
+              {sec.items.map((item) => {
+                const [title, subtitle] = getPageMeta(item.id);
+                const isActive = pathname === item.href;
+                const IconComp = ICON_MAP[item.id] || Package;
+                return (
+                  <motion.div
+                    key={item.id}
+                    variants={itemVariants}
+                  >
+                    <Link
+                      href={item.href}
+                      className={`k-mega-item ${isActive ? 'is-active' : ''}`}
+                      aria-current={isActive ? 'page' : undefined}
+                      onClick={onClose}
+                    >
+                      <span className="k-mega-icon" aria-hidden="true">
+                        <IconComp size={20} strokeWidth={1.8} />
+                      </span>
+                      <span className="k-mega-text">
+                        <span className="t">{title}</span>
+                        {subtitle && <span className="s">{subtitle}</span>}
+                      </span>
+                    </Link>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </motion.section>
+        ))}
+      </motion.div>
+    </div>
+  );
+}
