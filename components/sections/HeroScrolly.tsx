@@ -6,7 +6,7 @@ import { useReducedMotion } from 'motion/react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Factory, Ruler, Award, Globe as GlobeIcon, ArrowRight, Droplet } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Chip } from '@/components/ui/Chip';
+
 import { IconChip } from '@/components/ui/IconChip';
 import { Reveal } from '@/components/ui/Reveal';
 
@@ -16,8 +16,8 @@ const Globe = dynamic(
   { ssr: false }
 );
 
-const ISO_TEXT = 'ISO 9001 · 14001 · 50001';
-const SPACE = ' ';
+
+
 
 const cardIcons = [Factory, Ruler, Award, GlobeIcon];
 
@@ -141,16 +141,7 @@ export default function HeroScrolly() {
 
   const heroCopy = (
     <div ref={copyRef} className="relative z-10 max-w-lg flex flex-col gap-6 text-start">
-      <Reveal>
-        <Chip className="mb-2">
-          <Award className="w-4 h-4 text-primary" />
-          <span>
-            <strong className="font-bold">{ISO_TEXT}</strong>
-            {SPACE}
-            {t('chip')}
-          </span>
-        </Chip>
-      </Reveal>
+
       <Reveal delay={0.08}>
         <h1 className="text-display font-heading font-extrabold tracking-tight leading-tight [overflow-wrap:anywhere] [hyphens:auto]">
           {t('h1a')}
