@@ -51,7 +51,7 @@ export function row(d: number, sdr: number): DimRow {
   const di = round1(d - 2 * s);
   const water = round2((Math.PI * Math.pow(di / 2, 2)) / 1000);
   const weight = round2((Math.PI * (d - s) * s * 0.905) / 1000);
-  return { d, sdr, s, di, pn: PN_BY_SDR[sdr] ?? 0, water, weight };
+  return { d, sdr, s, di, pn: PN_BY_SDR[sdr]!, water, weight };
 }
 
 export function tableForSdr(sdr: number): DimRow[] {

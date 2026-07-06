@@ -5,8 +5,8 @@
 // SDR-Tab-gesteuerte Dimensionstabelle + Auslegungsanker, Werkstoffdaten-Tabelle,
 // Normen-Tabelle, FAQ-Akkordeon).
 // ANGEPASST: usePageL('productsx') -> useTranslations('productsx') + t.raw() für
-// strukturierte Felder (pipes/anchors/matRows/norms/faq — siehe 00-FINDINGS.md §0.8).
-// K_DEEP.tableForSdr/fmtPn -> lib/data/deep.ts (I01). BentoCard -> Card. Reveal-Delays
+// strukturierte Felder (pipes/anchors/matRows/norms/faq — siehe PROMPT.txt).
+// K_DEEP.tableForSdr/fmtPn -> lib/data/deep.ts. BentoCard -> Card. Reveal-Delays
 // von ms auf s umgerechnet.
 // Eigener State (aktive SDR) -> "use client".
 "use client";
@@ -17,8 +17,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
-import { getDeepDimensionTable } from "@/lib/data/repositories";
-import { formatPN, SDRS } from "@/lib/data/deep";
+import { formatPN, SDRS, tableForSdr } from "@/lib/data/deep";
 
 interface PipeFamily {
   t: string;
@@ -46,7 +45,7 @@ export function ProductsDeep() {
   const dimHead = t.raw("dimHead") as string[];
 
   const fmtSdr = (s: number) => "SDR " + (locale === "de" ? String(s).replace(".", ",") : String(s));
-  const rows = getDeepDimensionTable(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
+  const rows = tableForSdr(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
 
   return (
     <React.Fragment>

@@ -1,26 +1,26 @@
-/* eslint-disable react/jsx-no-literals */
 // K-Aqua — CatalogBrowser: echter Produktkatalog-Browser (71 Artikelfamilien, 7 Kategorien,
 // reale Artikelnummern aus dem Alt-System).
 //
 // QUELLE: kaqua-catalog-view.jsx (CatalogDeep) + kaqua-catalog-data.js.
 // PORTIERT 1:1: Kategorie-Tabs mit Live-Zähler, Suche über Titel+Artikelnummer, Akkordeon
 // mit Eigenschaften-Chips + Maßtabelle. `note`-Feld bewusst NUR bei locale==='de' gezeigt
-// (geerbte, noch offene Entscheidung — siehe 00-FINDINGS.md §0.7 — hier NICHT eigenmächtig
+// (geerbte, noch offene Entscheidung — siehe PROMPT.txt — hier NICHT eigenmächtig
 // geändert).
 // ANGEPASST: usePageL('catalogx')/useT() -> useTranslations('catalogx')/useLocale() (next-intl).
 // Strukturierte Werte (cats) über t.raw(), da next-intl t() nur Strings liefert (siehe
-// 00-FINDINGS.md §0.8). window.K_REAL_CATALOG -> getCatalogCategories()/resolveCatalogHead()
-// aus lib/data/repositories.ts (I01). Icons.ChevronDown -> benannter Import (Vorbedingung:
-// components/ui/icon.tsx muss ChevronDown exportieren, siehe INTEGRATION-PIPELINE.md I03).
+// PROMPT.txt). window.K_REAL_CATALOG -> CATALOG/resolveCatalogHead()
+// aus lib/data/catalog.ts. Icons.ChevronDown -> benannter Import (Vorbedingung:
+// components/ui/icon.tsx muss ChevronDown exportieren, siehe PROMPT.txt (Icon-Segment)).
 // Eigener State (Kategorie/Suche/offene Zeile) -> "use client".
 "use client";
+/* eslint-disable react/jsx-no-literals */
 import React, { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { ChevronDown } from "@/components/ui/icon";
-import { getCatalogCategories, resolveCatalogHead } from "@/lib/data/repositories";
+import { CATALOG, resolveCatalogHead } from "@/lib/data/catalog";
 import type { CatalogItem } from "@/lib/data/catalog";
 
 interface CatalogTabMeta {
@@ -35,17 +35,12 @@ export function CatalogBrowser() {
   const [q, setQ] = useState("");
   const [openIdx, setOpenIdx] = useState(-1);
 
-  const CATS = getCatalogCategories();
+  const CATS = CATALOG;
   const active = CATS[cat] ?? CATS[0];
   const catsMeta = t.raw("cats") as Record<string, CatalogTabMeta>;
-  
-  if (!active) {
-    return null;
-  }
+  const activeMeta = catsMeta[active!.id];
 
-  const activeMeta = catsMeta[active.id];
-
-  const items: CatalogItem[] = active.items.filter((it) => {
+  const items: CatalogItem[] = active!.items.filter((it) => {
     const query = q.trim().toLowerCase();
     if (!query) return true;
     return it.title.toLowerCase().includes(query) || it.codes.toLowerCase().includes(query);
@@ -135,27 +130,37 @@ export function CatalogBrowser() {
                         <div className="mb-4 flex flex-wrap gap-2">
                           {it.material ? (
                             <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("materialLabel")}{":"} <strong>{it.material}</strong>
+                              {t("materialLabel")}
+                              {": "}
+                              <strong>{it.material}</strong>
                             </span>
                           ) : null}
                           {it.sdr ? (
                             <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("sdrLabel")}{":"} <strong>{it.sdr}</strong>
+                              {t("sdrLabel")}
+                              {": "}
+                              <strong>{it.sdr}</strong>
                             </span>
                           ) : null}
                           {it.series ? (
                             <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("seriesLabel")}{":"} <strong>{it.series}</strong>
+                              {t("seriesLabel")}
+                              {": "}
+                              <strong>{it.series}</strong>
                             </span>
                           ) : null}
                           {it.pressure ? (
                             <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("pressureLabel")}{":"} <strong>{it.pressure}</strong>
+                              {t("pressureLabel")}
+                              {": "}
+                              <strong>{it.pressure}</strong>
                             </span>
                           ) : null}
                           {it.len ? (
                             <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("lenLabel")}{":"} <strong>{it.len}</strong>
+                              {t("lenLabel")}
+                              {": "}
+                              <strong>{it.len}</strong>
                             </span>
                           ) : null}
                         </div>

@@ -7,7 +7,7 @@
 // ANGEPASST: JS-IIFE (window.K_REAL_CATALOG) -> typisiertes TS-Modul. colLabels/resolveHead
 //           Logik 1:1 portiert, nur Typannotationen ergänzt.
 // GEPRÜFT (2026-07-04, automatisierte Extraktion+Zählung): Summe der Artikelfamilien ist
-//           71 — siehe kaqua-integration-package/00-FINDINGS.md für den
+//           71 — siehe die PROMPT.txt dieses Segments für den
 //           Abgleich gegen die in Planungsdokumenten kolportierte Zahl "79".
 // NICHT VERÄNDERN: codes, rows, material/sdr/series/pressure/len — reale Herstellerdaten.
 
@@ -35,7 +35,7 @@ export interface CatalogItem {
   series?: string;
   pressure?: string;
   len?: string;
-  /** Free-text engineering note. Currently DE-only in the source — see 00-FINDINGS.md open question. */
+  /** Free-text engineering note. Currently DE-only in the source — see PROMPT.txt. */
   note?: string;
   /** Column headers. Entries starting with "#" are keys into CATALOG_COL_LABELS[locale]; everything else (d, s, L, H, DN, Rp, R, di, kg/m…) is a universal symbol and stays unlocalized. */
   head: string[];

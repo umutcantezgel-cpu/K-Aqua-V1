@@ -2,7 +2,7 @@
 //
 // QUELLE: kaqua-deep-sections-3.jsx (ContactDeep). PORTIERT 1:1 (3 Abschnitte).
 // ANGEPASST: usePageL('contactx') -> getTranslations('contactx') (Server Component).
-// BentoCard -> Card, KButton -> Button (variant="secondary" -> "ghost", siehe 00-FINDINGS.md §0.8).
+// BentoCard -> Card, KButton -> Button (variant="secondary" -> "ghost", siehe PROMPT.txt).
 // Reine Server Component -> KEIN "use client".
 import React from "react";
 import { getTranslations } from "next-intl/server";

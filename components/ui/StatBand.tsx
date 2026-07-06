@@ -3,7 +3,7 @@
 // QUELLE: kaqua-deep-ui.jsx (StatBand). PORTIERT 1:1 (Layout: auto-fit Grid, min. Spaltenbreite
 // per `cols`-Prop steuerbar).
 // ANGEPASST: BentoCard -> Card (components/ui/Card, deckungsgleiche Props — siehe
-// 00-FINDINGS.md §0.8). Reveal-Delay von Millisekunden (Prototyp: `i * 70`) auf Sekunden
+// PROMPT.txt). Reveal-Delay von Millisekunden (Prototyp: `i * 70`) auf Sekunden
 // umgerechnet (`i * 0.07`) — reales Reveal.tsx (Framer Motion) erwartet Sekunden.
 // Reine Anzeige (Reveal kapselt seine eigene Motion-Logik) -> KEIN "use client" hier nötig.
 import React from "react";

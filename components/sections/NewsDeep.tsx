@@ -3,7 +3,7 @@
 // QUELLE: kaqua-deep-sections-3.jsx (NewsDeep). PORTIERT 1:1 (Read-more-Toggle pro Karte,
 // ein Artikel gleichzeitig offen — wie im Prototyp, kein Multi-Open).
 // ANGEPASST: usePageL('newsx') -> useTranslations('newsx') + t.raw() für posts[] (next-intl
-// t() liefert nur Strings). Icons.ChevronDown -> benannter Import (siehe 00-FINDINGS.md §0.8:
+// t() liefert nur Strings). Icons.ChevronDown -> benannter Import (siehe PROMPT.txt:
 // ChevronDown muss in components/ui/icon.tsx ergänzt werden).
 // Eigener State (offener Artikel-Index) -> "use client".
 "use client";

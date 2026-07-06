@@ -1,7 +1,7 @@
 // K-Aqua — DeepCard: Icon + Titel + Text-Karte, der Standardbaustein der Deep-Sections.
 //
 // QUELLE: kaqua-deep-ui.jsx (DeepCard). PORTIERT 1:1.
-// ANGEPASST: BentoCard -> Card (siehe 00-FINDINGS.md §0.8). Icons-Objektzugriff (Icons[icon])
+// ANGEPASST: BentoCard -> Card (siehe PROMPT.txt). Icons-Objektzugriff (Icons[icon])
 // -> Named-Import-Lookup aus components/ui/icon.
 // HINWEIS: In den 14 portierten *Deep-Sections (components/sections/) wird aktuell direkt
 // <Card> statt <DeepCard> verwendet (deckt sich mit dem Prototyp-Quellcode: kaqua-deep-sections-

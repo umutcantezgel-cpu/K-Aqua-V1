@@ -4,7 +4,7 @@
 // PORTIERT 1:1: 4 Abschnitte (Parameter-Matrix, Tab-gesteuerte Verfahren-Schritte,
 // Fehler-Matrix, Glossar-Grid) in exakt dieser Reihenfolge.
 // ANGEPASST: usePageL('academyx') -> useTranslations('academyx') + t.raw() für
-// procTabs/procs/errRows/gloss (strukturiert). K_DEEP.WELD -> getSocketWeldParams() (I01).
+// procTabs/procs/errRows/gloss (strukturiert). K_DEEP.WELD -> SOCKET_WELD_PARAMS.
 // Eigener State (aktives Verfahren) -> "use client".
 "use client";
 import React, { useState } from "react";
@@ -15,7 +15,7 @@ import { Card } from "@/components/ui/Card";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { StepFlow } from "@/components/ui/StepFlow";
-import { getSocketWeldParams } from "@/lib/data/repositories";
+import { SOCKET_WELD_PARAMS } from "@/lib/data/deep";
 
 interface Procedure {
   t: string;
@@ -32,7 +32,7 @@ export function AcademyDeep() {
   const errHead = t.raw("errHead") as string[];
   const errRows = t.raw("errRows") as string[][];
   const gloss = t.raw("gloss") as Array<[string, string]>;
-  const weldRows = getSocketWeldParams();
+  const weldRows = SOCKET_WELD_PARAMS;
 
   return (
     <React.Fragment>
@@ -72,12 +72,10 @@ export function AcademyDeep() {
             </div>
           </Reveal>
           <Reveal delay={0.12}>
-            {procs && procs[proc] ? (
-              <Card>
-                <h3 className="mb-3 font-heading text-body font-bold text-foreground">{procs[proc].t}</h3>
-                <StepFlow steps={procs[proc].steps} />
-              </Card>
-            ) : null}
+            <Card>
+              <h3 className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</h3>
+              <StepFlow steps={procs![proc]!.steps} />
+            </Card>
           </Reveal>
         </div>
       </section>

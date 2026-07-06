@@ -4,7 +4,7 @@
 // Prototyp bewusst immer "aufgeklappt" (kein Akkordeon, nur je eine Zeile mit
 // Download-Button ODER "im Trust Center anfordern"-Chip) — hier beibehalten.
 // ANGEPASST: usePageL('servicex') -> getTranslations('servicex') (Server Component).
-// KButton -> Button, variant="secondary" -> variant="ghost" (siehe 00-FINDINGS.md §0.8/§0.10.4).
+// KButton -> Button, variant="secondary" -> variant="ghost" (siehe PROMPT.txt).
 // Reine Server Component -> KEIN "use client".
 import React from "react";
 import { getTranslations } from "next-intl/server";
