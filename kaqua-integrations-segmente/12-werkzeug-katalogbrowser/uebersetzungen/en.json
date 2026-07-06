@@ -1,0 +1,46 @@
+{
+  "catalogx": {
+    "eyebrow": "Full Product Catalogue",
+    "title": "All 79 article families — with real article numbers.",
+    "lead": "Pipes, fittings, transition fittings, valves, weld-in saddles, accessories and tools — every row comes from the binding K-Aqua catalogue. Pick a category, expand an article, check the code.",
+    "searchPlaceholder": "Search article number or product name — e.g. \"AQ200P20\" or \"Elbow\"",
+    "noResults": "No matches — adjust the search or pick another category.",
+    "codesLabel": "Article codes",
+    "sizesLabel": "Sizes",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Series",
+    "pressureLabel": "Operating pressure",
+    "lenLabel": "Bar length",
+    "cats": {
+      "pipes": {
+        "label": "Pipes",
+        "desc": "PP-R and PP-RCT pipes — standard, fibre-reinforced and UV-stabilised, 12 series."
+      },
+      "fittings": {
+        "label": "Fittings",
+        "desc": "Socket-fusion and electrofusion fittings, d20–d125, 13 article families."
+      },
+      "transitionFittings": {
+        "label": "Transition Fittings",
+        "desc": "Transitions to thread and brass — for legacy connections and valves, 13 families."
+      },
+      "valves": {
+        "label": "Valves",
+        "desc": "Ball valves, concealed valves, distribution manifolds — 9 article families."
+      },
+      "weldInSaddles": {
+        "label": "Weld-in Saddles",
+        "desc": "Branch connections without cutting the pipe — threaded and unthreaded, 3 families."
+      },
+      "accessories": {
+        "label": "Accessories",
+        "desc": "Pipe clamps, backing flanges, gaskets, plugs — 5 article families."
+      },
+      "tools": {
+        "label": "Tools",
+        "desc": "Pipe cutters, welding machines and dies for all four jointing methods, 14 families."
+      }
+    }
+  }
+}

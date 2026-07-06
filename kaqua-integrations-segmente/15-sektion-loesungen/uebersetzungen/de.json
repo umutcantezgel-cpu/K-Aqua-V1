@@ -1,0 +1,153 @@
+{
+  "solutionsx": {
+    "segEyebrow": "Einsatzfelder",
+    "segTitle": "Bewährt, wo Wasser kritisch ist.",
+    "segLead": "K-Aqua-Systeme arbeiten weltweit in Projekten vom Krankenhaus bis zum Gewächshaus — jedes Einsatzfeld nutzt andere Stärken des Werkstoffs.",
+    "segments": [
+      {
+        "t": "Krankenhäuser & Gesundheitsbau",
+        "d": "Hygiene ist hier nicht verhandelbar: Die glatte Innenfläche (0,007 mm) hemmt Biofilm und Inkrustation, der Werkstoff bleibt geschmacks- und geruchsneutral.",
+        "pts": [
+          "Hygienische Neutralität",
+          "Korrosionsfrei — kein Lochfraß",
+          "Referenz: Krankenhausneubau Kapstadt"
+        ]
+      },
+      {
+        "t": "Hotels & Wohnhochbau",
+        "d": "Warmwasser-Zirkulation rund um die Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PP-RCT hält 70 °C Dauerbetrieb.",
+        "pts": [
+          "Thermische Effizienz",
+          "PP-RCT für Zirkulation",
+          "Referenz: Hotelkomplex Istanbul"
+        ]
+      },
+      {
+        "t": "Industrie & Gewerbebau",
+        "d": "Beständig gegen Lösungsmittel, Laugen und Säuren — wo Metallleitungen korrodieren, bleibt Polypropylen unbeeindruckt.",
+        "pts": [
+          "Chemische Beständigkeit",
+          "Lange Wartungsintervalle",
+          "Prozess- und Brauchwasser"
+        ]
+      },
+      {
+        "t": "Gewächshäuser & Agrar",
+        "d": "UV-stabilisierte Ausführungen für die Bewässerung unter Glas und im Freien — leicht, schnell verlegt, frostunempfindlicher als starre Systeme.",
+        "pts": [
+          "UV-beständige Ausführung",
+          "Geringes Gewicht",
+          "Einsatzfeld aus dem Referenzprogramm"
+        ]
+      },
+      {
+        "t": "Kommunale Infrastruktur",
+        "d": "Versorgungsleitungen und Netze in Großdimensionen bis d630 — stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.",
+        "pts": [
+          "d bis 630 mm",
+          "Stumpfschweißen (Butt Fusion)",
+          "Referenz: Infrastruktur Singapur"
+        ]
+      },
+      {
+        "t": "Sanierung & Austausch",
+        "d": "Ersatz korrodierter Metall- oder PVC-Bestandsleitungen: Übergangsstücke mit Messing-Gewinde binden den Bestand sauber an das neue System an.",
+        "pts": [
+          "Übergänge auf Metall-Gewinde",
+          "Abschnittsweise Sanierung",
+          "Korrosionsproblem dauerhaft gelöst"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Werkstoffvergleich",
+    "cmpTitle": "PP-R/PP-RCT im Vergleich.",
+    "cmpLead": "Vier Leitungswerkstoffe, acht Kriterien — eine vereinfachte Gegenüberstellung als Startpunkt für die projektspezifische Werkstoffwahl.",
+    "cmpHead": [
+      "Kriterium",
+      "K-Aqua PP-R/PP-RCT",
+      "Kupfer",
+      "Edelstahl",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Korrosion",
+        "korrosionsfrei — immun gegen elektrochemische Korrosion",
+        "Lochfraß möglich",
+        "beständig (güteabhängig)",
+        "korrosionsfrei"
+      ],
+      [
+        "Inkrustation & Biofilm",
+        "sehr gering — Innenrauheit 0,007 mm",
+        "möglich",
+        "gering",
+        "gering"
+      ],
+      [
+        "Wärmeleitfähigkeit",
+        "0,24 W/(m·K) — geringe Verluste",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0,14 W/(m·K)"
+      ],
+      [
+        "Dichte / Gewicht",
+        "0,905 g/cm³",
+        "8,9 g/cm³",
+        "7,9 g/cm³",
+        "1,55 g/cm³"
+      ],
+      [
+        "Verbindungstechnik",
+        "stoffschlüssig geschweißt — homogener Strang",
+        "gelötet / gepresst",
+        "gepresst / geschweißt",
+        "geklebt"
+      ],
+      [
+        "Geschmack & Geruch",
+        "neutral",
+        "Metallabgabe möglich",
+        "neutral",
+        "neutral"
+      ],
+      [
+        "CO₂ (Errichtung)",
+        "niedrig — im CO₂-Rechner vergleichen",
+        "hoch",
+        "hoch",
+        "mittel"
+      ],
+      [
+        "Recycling",
+        "Code 5, sortenrein — 100 % Produktionsabfälle im Kreislauf",
+        "Schrottkreislauf",
+        "Schrottkreislauf",
+        "eingeschränkt"
+      ]
+    ],
+    "cmpNote": "Vereinfachte Gegenüberstellung mit typischen Werkstoffkennwerten; die Werkstoffwahl bleibt projektspezifisch. Zahlenbasis für den CO₂-Vergleich: siehe CO₂-Rechner und EPD-Datenblätter.",
+    "lifeEyebrow": "Lebenszyklus",
+    "lifeTitle": "Vom Rohgas bis zum Rezyklat.",
+    "lifeLead": "Verantwortung über den gesamten Zyklus — vier Stationen, die das Produkt ökologisch tragfähig machen.",
+    "life": [
+      {
+        "t": "Rohstoff mit Geschichte",
+        "d": "Polypropylen entsteht aus Gasen, die früher nutzlos abgefackelt wurden — die Nutzung als Werkstoff reduziert Luftverschmutzung an der Quelle."
+      },
+      {
+        "t": "Fertigung im Kreislauf",
+        "d": "Die Produktion in Waldsolms kühlt im geschlossenen Wasserkreislauf und schützt damit Flüsse, Bäche und Seen; die Energieeffizienz steuert ISO 50001."
+      },
+      {
+        "t": "50 Jahre im Betrieb",
+        "d": "Ausgelegt nach den Zeitstandkurven der DIN 8077/8078 auf 50 Jahre Betriebsdauer — pflegeleicht, verschleißfest, alterungsbeständig."
+      },
+      {
+        "t": "Zurück in den Kreislauf",
+        "d": "Recycling-Code 5: sortenrein trennbar bei hoher Nachfrage nach PP-Rezyklat. 100 % der Schnittreste und Produktionsabfälle werden recycelt."
+      }
+    ]
+  }
+}

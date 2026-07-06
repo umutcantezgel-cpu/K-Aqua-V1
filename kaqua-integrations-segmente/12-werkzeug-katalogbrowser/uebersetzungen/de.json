@@ -1,0 +1,46 @@
+{
+  "catalogx": {
+    "eyebrow": "Vollständiger Produktkatalog",
+    "title": "Alle 79 Artikelfamilien — mit echten Artikelnummern.",
+    "lead": "Rohre, Formteile, Übergangsfittings, Armaturen, Einschweißsattel, Zubehör und Werkzeuge — jede Zeile stammt aus dem verbindlichen K-Aqua-Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
+    "searchPlaceholder": "Artikelnummer oder Produktname suchen — z. B. „AQ200P20\" oder „Elbow\"",
+    "noResults": "Keine Treffer — Suche anpassen oder andere Kategorie wählen.",
+    "codesLabel": "Artikelnummern",
+    "sizesLabel": "Größen",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Baureihe",
+    "pressureLabel": "Betriebsdruck",
+    "lenLabel": "Stablänge",
+    "cats": {
+      "pipes": {
+        "label": "Rohre",
+        "desc": "PP-R- und PP-RCT-Rohre — Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+      },
+      "fittings": {
+        "label": "Formteile",
+        "desc": "Muffenschweiß- und Elektroschweiß-Formteile, d20–d125, 13 Artikelfamilien."
+      },
+      "transitionFittings": {
+        "label": "Übergangsfittings",
+        "desc": "Übergänge auf Gewinde und Messing — für Bestandsanschlüsse und Armaturen, 13 Familien."
+      },
+      "valves": {
+        "label": "Armaturen",
+        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien — 9 Artikelfamilien."
+      },
+      "weldInSaddles": {
+        "label": "Einschweißsattel",
+        "desc": "Abzweige ohne Rohrtrennung — mit und ohne Gewinde, 3 Familien."
+      },
+      "accessories": {
+        "label": "Zubehör",
+        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen — 5 Artikelfamilien."
+      },
+      "tools": {
+        "label": "Werkzeuge",
+        "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+      }
+    }
+  }
+}

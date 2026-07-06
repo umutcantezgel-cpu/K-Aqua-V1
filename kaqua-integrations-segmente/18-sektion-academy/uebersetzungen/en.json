@@ -1,0 +1,209 @@
+{
+  "academyx": {
+    "paramEyebrow": "Welding Parameters",
+    "paramTitle": "Socket welding: the reference values.",
+    "paramLead": "Heating, changeover and cooling times for socket welding to DVS 2207-11 (heating element 250–270 °C) — the basis demonstrated in the videos.",
+    "paramHead": [
+      "d (mm)",
+      "Insertion depth (mm)",
+      "Heating (s)",
+      "Changeover max. (s)",
+      "Cooling (min)"
+    ],
+    "paramNote": "Reference values to DVS 2207-11 for PP at 250–270 °C element temperature. The welding-device manufacturer’s specifications and the processing instructions remain binding — in doubt: watch the video, check the device parameters.",
+    "stepEyebrow": "Methods Step by Step",
+    "stepTitle": "Four methods, one quality standard.",
+    "stepLead": "Each method has its dimension range — and five steps that decide the quality of the joint.",
+    "procTabs": [
+      "Socket (hand)",
+      "Socket (machine)",
+      "Electrofusion",
+      "Butt fusion"
+    ],
+    "procs": [
+      {
+        "t": "Socket welding by hand — up to d63",
+        "steps": [
+          {
+            "t": "Cut & deburr",
+            "d": "Cut the pipe square, deburr and chamfer cleanly — use the pipe cutters from the K-Aqua tool programme."
+          },
+          {
+            "t": "Mark the insertion depth",
+            "d": "Mark the depth per table (e.g. 14 mm at d20) on the pipe — it defines the fusion zone."
+          },
+          {
+            "t": "Heat both parts together",
+            "d": "Pipe into the heating socket, fitting onto the spigot — push on simultaneously and hold the heating time exactly."
+          },
+          {
+            "t": "Join swiftly — never twist",
+            "d": "Join axially within the changeover time. Never rotate: twisting destroys the plasticised structure."
+          },
+          {
+            "t": "Fix & cool",
+            "d": "Hold the joint for a few seconds, then respect the cooling time before applying any mechanical load."
+          }
+        ]
+      },
+      {
+        "t": "Socket welding by machine — medium dimensions",
+        "steps": [
+          {
+            "t": "Prepare as for hand welding",
+            "d": "Cutting, deburring, marking the depth — the ground rules stay identical."
+          },
+          {
+            "t": "Clamp pipe & fitting",
+            "d": "The machine holds both parts coaxially — offset and tilt errors are mechanically excluded."
+          },
+          {
+            "t": "Heat with the element",
+            "d": "Heating socket and spigot per DVS reference values; the machine holds position and time reproducibly."
+          },
+          {
+            "t": "Join by machine",
+            "d": "The feed joins axially and evenly — at d75 to d125 the key to consistent quality."
+          },
+          {
+            "t": "Cool while clamped",
+            "d": "Unclamp and continue working only after the cooling time has elapsed."
+          }
+        ]
+      },
+      {
+        "t": "Electrofusion — heating-coil fittings",
+        "steps": [
+          {
+            "t": "Scrape the surface",
+            "d": "Scrape and clean the pipe surface in the fusion zone — oxide skin and dirt prevent fusion."
+          },
+          {
+            "t": "Mark the insertion depth",
+            "d": "Mark the depth on the pipe, push the pipe into the fitting up to the stop."
+          },
+          {
+            "t": "Fix stress-free",
+            "d": "Use holding clamps — the fitting must not be under bending stress during welding."
+          },
+          {
+            "t": "Start the fusion cycle",
+            "d": "The unit energises the heating coils embedded in the fitting — parameters come from the fitting, not from gut feeling."
+          },
+          {
+            "t": "Respect the cooling time",
+            "d": "Move or load only after the stated cooling time — check the indicators on the fitting."
+          }
+        ]
+      },
+      {
+        "t": "Butt fusion — large bores up to d630",
+        "steps": [
+          {
+            "t": "Face the ends",
+            "d": "Plane both pipe ends in the machine until continuous shavings appear — plane-parallel faces are mandatory."
+          },
+          {
+            "t": "Align & check offset",
+            "d": "Offset no more than 10 % of the wall thickness — at d630 every millimetre counts."
+          },
+          {
+            "t": "Heat at the element",
+            "d": "Equalise under pressure until the bead forms, then heat-soak without pressure — times per DVS 2207-11."
+          },
+          {
+            "t": "Change over & join",
+            "d": "Remove the element swiftly and bring the ends together under the defined joining pressure."
+          },
+          {
+            "t": "Cool under joining pressure",
+            "d": "Joining pressure stays on until the cooling time ends — producing the homogeneous, permanently tight run."
+          }
+        ]
+      }
+    ],
+    "errEyebrow": "Failure Prevention",
+    "errTitle": "The six costliest mistakes — and their prevention.",
+    "errHead": [
+      "Mistake",
+      "Consequence",
+      "Prevention"
+    ],
+    "errRows": [
+      [
+        "Overheating",
+        "The bead grows inwards and narrows the cross-section",
+        "Stop the heating time by the table — not by feel"
+      ],
+      [
+        "Twisting while joining",
+        "The plasticised structure is destroyed, the joint leaks",
+        "Join axially only, use the depth mark as a control"
+      ],
+      [
+        "No deburring/chamfering",
+        "Material piles up, the fusion zone becomes uneven",
+        "Deburr every cut — the tool is part of the system"
+      ],
+      [
+        "Dirty heating element",
+        "Residues burn and embed themselves in the seam",
+        "Wipe the heating surfaces with a lint-free cloth before every weld"
+      ],
+      [
+        "Loading too early",
+        "The seam deforms before it solidifies",
+        "Respect cooling times — 8 minutes at d110"
+      ],
+      [
+        "Wrong insertion depth",
+        "Too short: small fusion area · too deep: narrowed bore",
+        "Always mark the depth, never estimate"
+      ]
+    ],
+    "glossEyebrow": "Glossary",
+    "glossTitle": "The vocabulary of piping technology.",
+    "gloss": [
+      [
+        "SDR",
+        "Standard Dimension Ratio = outer diameter divided by wall thickness (d/s). Smaller SDR = thicker wall = higher nominal pressure."
+      ],
+      [
+        "PN",
+        "Nominal pressure in bar at 20 °C across the design horizon — SDR 6 corresponds to PN 20, SDR 17 to PN 6."
+      ],
+      [
+        "d / di / s",
+        "Outer diameter / inner diameter / wall thickness in millimetres — di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylene random copolymer — the proven standard material for drinking-water installations."
+      ],
+      [
+        "PP-RCT",
+        "PP-R with modified crystalline structure (\"crystallinity temperature\") — more temperature and pressure reserve at the same wall."
+      ],
+      [
+        "K-Fiber / GF",
+        "Glass-fibre reinforced multilayer construction — cuts thermal expansion to roughly a quarter."
+      ],
+      [
+        "Socket welding",
+        "Pipe and fitting are plasticised over a heating socket and spigot and pushed together."
+      ],
+      [
+        "Electrofusion",
+        "Heating coils embedded in the fitting generate the fusion heat — parameter-controlled."
+      ],
+      [
+        "Butt fusion",
+        "Plane-parallel pipe ends are heated at an element and joined under pressure — standard up to d630."
+      ],
+      [
+        "DVS 2207-11",
+        "The rulebook for welding polypropylene — source of the reference values on this page."
+      ]
+    ]
+  }
+}
