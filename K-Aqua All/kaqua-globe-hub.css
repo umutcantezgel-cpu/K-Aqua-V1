@@ -1,0 +1,52 @@
+/* K-Aqua — Globus-Hub: fullscreen geo navigation (light, token-driven). */
+.k-hub {
+  position: fixed; inset: 0; z-index: 90;
+  background: var(--background);
+  display: grid; grid-template-columns: minmax(300px, 430px) 1fr;
+  overflow: hidden;
+  /* NOTE: no entrance keyframe animation here. A `k-hub-in` fade stuck
+     permanently pending at 0% in this environment (same class of bug as the
+     theme-token transition fixes in kaqua-tokens.css), leaving the overlay
+     invisible while intercepting clicks. The hub appears instantly instead. */
+}
+
+.k-hub::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(55% 65% at 72% 50%, var(--primary-soft), transparent 70%);
+  opacity: 0.55;
+}
+
+.k-hub-list {
+  position: relative; overflow-y: auto;
+  padding: 88px clamp(20px, 3vw, 40px) 48px;
+  display: flex; flex-direction: column; gap: 6px;
+  border-inline-end: 1px solid var(--card-border);
+  background: var(--background-subtle);
+}
+.k-hub-list .k-mega-head { margin-top: 18px; }
+.k-hub-list .k-mega-head:first-child { margin-top: 0; }
+
+.k-hub-stage { position: relative; display: grid; place-items: center; }
+.k-hub-stage canvas { cursor: grab; touch-action: none; }
+.k-hub-stage canvas:active { cursor: grabbing; }
+
+.k-hub-active {
+  position: absolute; bottom: clamp(20px, 4vh, 44px); left: 50%; transform: translateX(-50%);
+  font-family: var(--font-heading); font-weight: 700; font-size: 15px;
+  color: var(--foreground);
+  background: var(--card); border: 1px solid var(--card-border);
+  border-radius: var(--radius-full); padding: 10px 22px;
+  box-shadow: var(--shadow-diffuse);
+  display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;
+}
+.k-hub-active i { width: 8px; height: 8px; border-radius: 50%; background: var(--primary); }
+
+.k-hub-close { position: absolute; top: 18px; inset-inline-end: 22px; z-index: 2; background: var(--card); }
+.k-hub-brand { position: absolute; top: 22px; inset-inline-start: clamp(20px, 3vw, 40px); z-index: 2; display: inline-flex; }
+
+@media (max-width: 860px) {
+  .k-hub { grid-template-columns: 1fr; grid-template-rows: minmax(300px, 44vh) 1fr; }
+  .k-hub-stage { order: 0; }
+  .k-hub-list { order: 1; border-inline-end: none; border-top: 1px solid var(--card-border); padding-top: 20px; }
+  .k-hub-active { bottom: 12px; }
+}

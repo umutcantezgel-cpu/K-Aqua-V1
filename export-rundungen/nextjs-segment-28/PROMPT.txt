@@ -1,0 +1,69 @@
+SEGMENT 28 VON 27+1 (OPTIONAL, NACH SEGMENT 27) — UI-Baustein: Formen-Bibliothek „Dynamische Rundungen"
+
+Dieser Prompt ist in sich geschlossen: Zusammen mit den Dateien in diesem Segment-Ordner enthält er alles, was zur Umsetzung nötig ist. Das Segment ist ein nachträgliches, optionales Add-on und setzt lediglich voraus, dass die Integration grundsätzlich eingerichtet ist (Segment 01).
+
+AUFGABE
+
+Eine rein geometrische Formen-Bibliothek für Bild-Container und Sektionsübergänge ergänzen: geschwungene, angeschrägte und organische Rundungen (Signaturform „Sweep", echtes Trapez „Taper", „Düne", „Kiesel", „Blatt", „Bogen", „Kapsel", „Blob", Hohlkehle, Fase, Welle sowie Sektionskanten). Referenz und visuelle Abnahmegrundlage ist die Katalogseite „K-Aqua Rundungen Studio.html" im Design-Projekt. Es entstehen drei neue Dateien; bestehende Dateien erhalten nur zwei einzeilige Ergänzungen (ein CSS-Import, ein Komponenten-Mount).
+
+KONTEXT ZUM ZIELPROJEKT (gilt vollständig, auch wenn dieses Segment einzeln ausgeführt wird)
+
+Das Zielprojekt ist das GitHub-Repository umutcantezgel-cpu/K-Aqua-V1, Hauptzweig main. Es enthält die fertige, bereits live geschaltete Firmen-Website des Rohrsystem-Herstellers K-Aqua (erreichbar unter k-aqua-v1.vercel.app) in drei Sprachen: Deutsch, Englisch und Arabisch. Arabisch läuft von rechts nach links. Die Website ist produktiv und funktioniert — deshalb wird ausschließlich hinzugefügt; bestehender Code wird niemals umgebaut, umbenannt, gelöscht oder eigenmächtig verbessert.
+
+So ist das Zielprojekt aufgebaut (alles ist vorhanden, nichts davon neu einrichten):
+- Next.js mit App-Router. Die Seiten liegen unter app/[locale]/ mit deutschen Routennamen.
+- TypeScript im strikten Modus.
+- Tailwind CSS in Version 4. Farben, Abstände und Schriftgrößen kommen ausschließlich aus den im Projekt definierten semantischen Token-Klassen. Es dürfen keine Hex-Farbwerte und keine frei erfundenen Größen neu in den Code geschrieben werden. Diese Formen-Bibliothek ist damit vereinbar: Sie definiert ausschließlich Geometrie (Transformationen, Radien, Masken, Clip-Pfade) und als einzige „Farbe" currentColor.
+- Mehrsprachigkeit über next-intl. Dieses Segment enthält keinerlei sichtbaren Text — es werden keine Schlüssel in den Sprachdateien ergänzt, die Paritätsprüfung bleibt unberührt.
+- Wiederverwendbare Bausteine liegen unter components/ui, Seitenabschnitte unter components/sections.
+
+Alle beiliegenden Code-Dateien dieses Ordners sind fertig geschrieben, aufeinander abgestimmt und geprüft. Sie werden unverändert kopiert — nicht neu geschrieben, nicht umformatiert, nicht umbenannt und nicht verbessert.
+
+VORAUSSETZUNGEN
+
+- Segment 01 (Vorbereitung) ist abgeschlossen: Arbeitszweig, fehlerfreie Prüfläufe zu Beginn, docs/INTEGRATIONS-PROTOKOLL.md vorhanden.
+- Segmente 02–27 sind NICHT Voraussetzung; dieses Segment ist unabhängig von ihnen.
+
+BEILIEGENDE DATEIEN UND ZIELORTE
+
+- code/shapes.css     → app/shapes.css (neben die globale Stylesheet-Datei des Projekts)
+- code/ShapeDefs.tsx  → components/ui/ShapeDefs.tsx
+- code/Shaped.tsx     → components/ui/Shaped.tsx
+
+VORGEHEN
+
+1. Die drei Dateien unverändert an die genannten Zielorte kopieren. Liegt die globale Stylesheet-Datei nicht direkt in app/, shapes.css stattdessen in denselben Ordner wie diese legen und den Importpfad in Schritt 2 entsprechend anpassen.
+2. In der globalen Stylesheet-Datei des Projekts (die Datei mit dem Tailwind-Import) direkt unterhalb der vorhandenen @import-Zeilen genau eine Zeile ergänzen: @import "./shapes.css";
+3. Im Root-Layout (die Layout-Datei, die das <body>-Element rendert) die Komponente ShapeDefs aus components/ui/ShapeDefs importieren und <ShapeDefs /> genau einmal direkt nach dem öffnenden <body>-Tag einfügen. Nichts anderes an der Datei ändern.
+4. Prüfskripte des Projekts ausführen (Produktions-Build, Lint, Typprüfung). Sprachdateien wurden nicht berührt; die Paritätsprüfung läuft unverändert durch.
+5. Kurzen Eintrag in docs/INTEGRATIONS-PROTOKOLL.md ergänzen (Segmentnummer 28, Datum, Prüfergebnis, Besonderheiten) und dieses Segment in der CHECKLISTE.txt des Paket-Ordners als zusätzliche Zeile nachtragen und abhaken.
+
+VERWENDUNG (zur Information, keine Pflichtänderung an Seiten)
+
+- Bild-Container:  <Shaped variant="sweep-r" bleed="l" zoom> <Image src={…} alt="…" fill /> </Shaped>
+- Sektionskanten:  className="kq-band kq-band--curve-b" (weitere: --slant-b, --slant-t, --slant-tb, --basin-b, --wave-b, --sweep mit innerem kq-band__inner)
+- Text auf der Form: <div class="kq-story kq-story--in|--out|--edge-l"> um die Form legen; Text im inneren kq-story__panel (kq-story__kicker/__title/__text). Drei Muster: voll integriert (Glas-Panel), außen angedockt, halb hineinragend. Justage: --kq-overlap, --kq-reserve, --kq-out.
+- Kanten in Bewegung: Zusatzklassen kq-band-fx--tide (Wellendrift), --duo (Interferenz zweier Wellen), --swell (atmende Kante, kombiniert mit --slant/--curve-b/--basin-b), --reveal (Kante wächst scroll-gekoppelt) und --tilt (Sektion richtet sich auf, inneres kq-band__inner nötig). Rein CSS; respektieren prefers-reduced-motion, --reveal/--tilt sind Progressive Enhancement (Scroll-Timeline). Die Offscreen-Pause des Prototyps (data-kq-pause) ist optional und nicht Teil dieses Segments.
+- Interaktion (Cursor/Scroll): Klassen kq-liquid (kontinuierliche Flüssig-Simulation der ganzen Oberfläche), kq-ix, kq-ix-tilt, kq-ix-glow, kq-ix-liquid, kq-float, kq-rise, kq-lava. Die CSS-Seite liegt vollständig in shapes.css; die Liquid-Engine (morpht Silhouetten pro Frame, setzt --kq-px/--kq-py/--kq-mx/--kq-my/--kq-par/--kq-lq-*/--kq-lm-*, data-kq-hover/data-kq-in und die Lava-Blasen) gehört zum Prototyp-Skript kaqua-shapes.js und würde bei Bedarf separat als Client-Komponente portiert — nicht Teil dieses Segments. kq-ix-liquid wirkt als reines CSS-Hover auch ohne Engine; ohne Engine bleibt alles statisch und vollständig sichtbar.
+- Feinjustage pro Element über CSS-Variablen: --kq-skew-x, --kq-r, --kq-r-lg, --kq-scoop, --kq-cut, --kq-edge
+- Arabisch (RTL): Formen spiegeln nicht automatisch. Für RTL-Layouts bewusst die gespiegelte Variante wählen (sweep-l statt sweep-r, taper-l statt taper-r, scoop-tl statt scoop-br) oder die Form beibehalten, wenn sie dekorativ gemeint ist.
+- Empfehlung Formensprache: pro Seite eine Leitform (z. B. Sweep) plus höchstens eine Zweitform; Sektionskanten sparsam (1–2 Arten pro Seite).
+
+VERBINDLICHE REGELN
+
+- Auf dem für diese Integration angelegten Arbeitszweig arbeiten, niemals direkt auf dem Hauptzweig.
+- Nur die drei genannten Dateien anlegen und exakt die zwei genannten einzeiligen Ergänzungen machen. Keine weiteren Dateien anfassen, nichts umsortieren, nichts umformatieren.
+- Keine bestehenden Seiten eigenmächtig auf die neuen Formen umstellen — der Einsatz auf Seiten ist Gestaltungsentscheidung und passiert separat.
+- Keine Inhalte erfinden. Dieses Segment enthält bewusst keinen sichtbaren Text.
+- Bei Unklarheiten oder Widersprüchen zum vorgefundenen Zustand: anhalten und nachfragen statt raten.
+
+PRÜFUNG (ABNAHME)
+
+Das Segment gilt erst als abgeschlossen, wenn alle folgenden Punkte erfüllt sind:
+- Alle Prüfskripte des Projekts laufen fehlerfrei durch.
+- Die drei Dateien liegen an den Zielorten; der CSS-Import und der ShapeDefs-Mount existieren genau einmal.
+- Sichtprüfung: Auf einer beliebigen Testseite ein Bild testweise in <Shaped variant="sweep-r"> rendern — die Form entspricht der Signaturform der Katalogseite. Teständerung danach wieder entfernen.
+
+RÜCKBAU, FALLS ETWAS SCHIEFGEHT
+
+Die drei kopierten Dateien löschen und die zwei ergänzten Zeilen (CSS-Import, ShapeDefs-Mount samt Import) wieder entfernen.

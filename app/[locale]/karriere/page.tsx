@@ -1,6 +1,7 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import Career from "@/components/tools/Career";
+import ApplicationPortal from "@/components/tools/ApplicationPortal";
 import { CareerDeep } from "@/components/sections/CareerDeep";
 import { constructMetadata } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
@@ -75,8 +76,16 @@ export default async function KarrierePage({ params }: Props) {
   return (
     <>
       <JsonLd schema={webPageSchema} />
+      {/* 1. Quick Contact / Culture Match */}
       <Career careerData={careerData} />
+      
+      {/* 2. Deep Dive / Benefits & Culture */}
       <CareerDeep />
+      
+      {/* 3. Detailed Application Portal with Job Listings & CV Upload */}
+      <div id="application-portal" className="bg-background-subtle border-t border-card-border">
+        <ApplicationPortal />
+      </div>
     </>
   );
 }

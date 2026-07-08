@@ -1,0 +1,257 @@
+/* ============================================================
+   K-Aqua — globals.css
+   Complete design-token layer for the Next.js build.
+
+   Architecture: Tailwind CSS 4 (@theme inline) + semantic tokens
+   switched by [data-theme]. Reconciles the K-Aqua brand palette
+   with the Coday Design System conventions:
+     · Type families  Outfit (display) + Inter (body)          ← Coday
+     · φ-based type scale (--text-*)                           ← Coday
+     · Fibonacci spacing, radii, shadow elevations            ← Coday
+     · Semantic-token discipline (no raw hex in markup)       ← Coday
+     · K-Aqua brand hue stays purple #5B2D8C + aqua accent    ← K-Aqua
+   See docs/DESIGN_SYSTEM_BRIDGE.md for the full mapping.
+   ============================================================ */
+
+@import "tailwindcss";
+
+/* Dark mode is attribute-driven (next-themes attribute="data-theme"). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ─────────────────────────────────────────────────────────────
+   @theme inline — exposes the semantic tokens as Tailwind utilities.
+   `bg-background`, `text-foreground`, `text-primary`, `bg-card`,
+   `border-card-border`, `rounded-lg`, `shadow-lift`, `text-h1`, …
+   Values resolve to the CSS variables defined under :root/[data-theme].
+   ───────────────────────────────────────────────────────────── */
+@theme inline {
+  /* semantic colors */
+  --color-background: var(--background);
+  --color-background-subtle: var(--background-subtle);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-faint-foreground: var(--faint-foreground);
+  --color-card: var(--card);
+  --color-card-border: var(--card-border);
+  --color-card-tint: var(--card-tint);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-ring: var(--ring);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-foreground: var(--inverse-foreground);
+
+  /* brand ramp (escape hatch — prefer the semantic names above) */
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-300: var(--brand-300);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-brand-800: var(--brand-800);
+  --color-brand-900: var(--brand-900);
+  --color-aqua-300: var(--aqua-300);
+  --color-aqua-400: var(--aqua-400);
+  --color-aqua-500: var(--aqua-500);
+  --color-aqua-600: var(--aqua-600);
+
+  /* fonts */
+  --font-heading: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* φ-based fluid type scale (Coday) */
+  --text-display: var(--fs-display);
+  --text-h1: var(--fs-h1);
+  --text-h2: var(--fs-h2);
+  --text-h3: var(--fs-h3);
+  --text-h4: var(--fs-h4);
+  --text-lead: var(--fs-lead);
+  --text-body: var(--fs-body);
+  --text-small: var(--fs-small);
+  --text-tiny: var(--fs-tiny);
+
+  /* radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;   /* buttons, inputs */
+  --radius-xl: 24px;   /* cards */
+  --radius-full: 9999px;
+
+  /* shadows */
+  --shadow-diffuse: var(--elev-diffuse);
+  --shadow-lift: var(--elev-lift);
+  --shadow-glow: var(--elev-glow);
+
+  /* easings */
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-wipe: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PRIMITIVES (theme-independent)
+   ───────────────────────────────────────────────────────────── */
+:root {
+  /* brand hue ramp — K-Aqua purple, base #5B2D8C ≈ --brand-600 */
+  --brand-50:  oklch(0.97 0.02 305);
+  --brand-100: oklch(0.93 0.045 305);
+  --brand-200: oklch(0.86 0.08 305);
+  --brand-300: oklch(0.76 0.12 305);
+  --brand-400: oklch(0.62 0.16 303);
+  --brand-500: oklch(0.51 0.18 302);
+  --brand-600: oklch(0.44 0.17 302);
+  --brand-700: oklch(0.38 0.15 302);
+  --brand-800: oklch(0.31 0.12 302);
+  --brand-900: oklch(0.25 0.09 302);
+
+  /* aqua accent ramp */
+  --aqua-300: oklch(0.85 0.09 210);
+  --aqua-400: oklch(0.77 0.11 215);
+  --aqua-500: oklch(0.68 0.12 220);
+  --aqua-600: oklch(0.56 0.11 225);
+
+  /* φ-based type scale (phi = 1.618) — Coday convention */
+  --fs-tiny:   0.786rem;  /* ~12.6px — overlines, meta */
+  --fs-small:  0.875rem;  /* 14px    — captions */
+  --fs-body:   1rem;      /* 16px    — body (min on web) */
+  --fs-lead:   1.188rem;  /* ~19px   — lead paragraphs */
+  --fs-h4:     clamp(1.125rem, 1.5vw + 0.5rem, 1.375rem);
+  --fs-h3:     clamp(1.25rem, 2vw + 0.5rem, 1.75rem);
+  --fs-h2:     clamp(1.875rem, 3.6vw + 0.5rem, 2.875rem);
+  --fs-h1:     clamp(2.5rem, 6vw + 0.5rem, 4.75rem);
+  --fs-display:clamp(2.875rem, 7vw + 0.5rem, 6.854rem);
+
+  /* weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  /* tracking */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.12em;
+
+  /* spacing — 4 / 8pt + Fibonacci-adjacent (mirrors prototype --sp-*) */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-6: 24px; --sp-8: 32px; --sp-12: 48px; --sp-16: 64px; --sp-24: 96px;
+  --space-section: clamp(64px, 9vw, 120px);
+  --space-container: clamp(20px, 4vw, 48px);
+  --container: 1200px;
+
+  /* motion durations */
+  --dur-fast: 150ms;
+  --dur: 250ms;
+  --dur-slow: 500ms;
+  --dur-slower: 700ms;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   SEMANTIC — LIGHT
+   ───────────────────────────────────────────────────────────── */
+[data-theme="light"] {
+  color-scheme: light;
+  --background: oklch(0.985 0.004 300);
+  --background-subtle: oklch(0.965 0.008 302);
+  --foreground: oklch(0.22 0.03 300);
+  --muted-foreground: oklch(0.48 0.025 300);
+  --faint-foreground: oklch(0.62 0.02 300);
+  --card: #ffffff;
+  --card-border: oklch(0.91 0.012 302);
+  --card-tint: var(--brand-50);
+  --primary: var(--brand-600);
+  --primary-hover: var(--brand-700);
+  --primary-foreground: #ffffff;
+  --primary-soft: oklch(0.95 0.03 305);
+  --accent: var(--aqua-500);
+  --accent-strong: var(--aqua-600);
+  --ring: var(--brand-400);
+  --inverse-surface: oklch(0.21 0.04 300);
+  --inverse-foreground: oklch(0.97 0.01 300);
+  --nav-glass: oklch(0.985 0.004 300 / 0.72);
+  --nav-border: oklch(0.5 0.03 300 / 0.12);
+  --elev-diffuse: 0 1px 2px oklch(0.3 0.05 300 / 0.05), 0 8px 24px -8px oklch(0.3 0.08 300 / 0.12);
+  --elev-lift: 0 2px 4px oklch(0.3 0.05 300 / 0.06), 0 16px 40px -12px oklch(0.3 0.1 300 / 0.22);
+  --elev-glow: 0 0 28px oklch(0.44 0.17 302 / 0.28);
+  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.93 0.05 305 / 0.85), transparent 65%),
+               radial-gradient(900px 480px at 12% 110%, oklch(0.93 0.05 215 / 0.7), transparent 60%);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   SEMANTIC — DARK (OLED, #0A0A0F — never pure black in markup)
+   ───────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0A0A0F;
+  --background-subtle: oklch(0.17 0.015 300);
+  --foreground: oklch(0.94 0.008 300);
+  --muted-foreground: oklch(0.7 0.015 300);
+  --faint-foreground: oklch(0.55 0.015 300);
+  --card: oklch(0.185 0.02 300);
+  --card-border: oklch(0.3 0.025 300 / 0.7);
+  --card-tint: oklch(0.22 0.04 302);
+  --primary: var(--brand-400);
+  --primary-hover: var(--brand-300);
+  --primary-foreground: oklch(0.13 0.02 300);
+  --primary-soft: oklch(0.24 0.06 302);
+  --accent: var(--aqua-400);
+  --accent-strong: var(--aqua-300);
+  --ring: var(--brand-300);
+  --inverse-surface: oklch(0.94 0.008 300);
+  --inverse-foreground: oklch(0.17 0.02 300);
+  --nav-glass: oklch(0.12 0.015 300 / 0.66);
+  --nav-border: oklch(0.9 0.02 300 / 0.1);
+  --elev-diffuse: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -8px rgb(0 0 0 / 0.6);
+  --elev-lift: 0 2px 4px rgb(0 0 0 / 0.5), 0 16px 40px -12px rgb(0 0 0 / 0.7);
+  --elev-glow: 0 0 28px oklch(0.62 0.16 303 / 0.4);
+  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.3 0.08 302 / 0.55), transparent 65%),
+               radial-gradient(900px 480px at 12% 110%, oklch(0.3 0.06 220 / 0.4), transparent 60%);
+}
+
+/* Default theme when next-themes hasn't resolved yet (SSR/first paint). */
+:root:not([data-theme]) {
+  color-scheme: light;
+  --background: oklch(0.985 0.004 300);
+  --foreground: oklch(0.22 0.03 300);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   BASE
+   ───────────────────────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection { background: var(--primary); color: var(--primary-foreground); }
+
+/* RTL: arrow-style icons flip; logical properties do the rest. */
+[dir="rtl"] .rtl-flip { transform: scaleX(-1); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 5px; }
+::-webkit-scrollbar-track { background: transparent; }

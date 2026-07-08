@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-Aqua Loading Indicator — Demo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: #FAF9F7;
+      display: grid;
+      place-items: center;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="globe" width="200" height="200" aria-label="Ladeanimation: rotierender Globus"></canvas>
+  <script src="kaqua-loader.js"></script>
+  <script>
+    KAquaLoader.createGlobe(document.getElementById('globe'));
+  </script>
+</body>
+</html>

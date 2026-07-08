@@ -14,7 +14,10 @@
    ============================================================ */
 
 @import "tailwindcss";
-
+@plugin "@tailwindcss/typography";
+@import "./globe-hub.css";
+@import "./enterprise.css";
+@import "./shapes.css";
 /* Dark mode is attribute-driven (next-themes attribute="data-theme"). */
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
@@ -234,6 +237,8 @@
   color-scheme: light;
   --background: oklch(0.985 0.004 300);
   --foreground: oklch(0.22 0.03 300);
+  --nav-glass: oklch(0.985 0.004 300 / 0.72);
+  --nav-border: oklch(0.5 0.03 300 / 0.12);
 }
 
 /* ─────────────────────────────────────────────────────────────
@@ -260,6 +265,10 @@ body {
 
 /* RTL: arrow-style icons flip; logical properties do the rest. */
 [dir="rtl"] .rtl-flip { transform: scaleX(-1); }
+[dir="rtl"] {
+  --font-heading: var(--font-tajawal), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-tajawal), ui-sans-serif, system-ui, sans-serif;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -281,7 +290,9 @@ body {
   position: fixed;
   inset: 0;
   z-index: 70;
-  background: var(--background);
+  background: var(--nav-glass, var(--background));
+  -webkit-backdrop-filter: blur(28px) saturate(1.5);
+  backdrop-filter: blur(28px) saturate(1.5);
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
@@ -717,7 +728,5 @@ textarea.k-input { resize: vertical; }
 .k-doc-check:hover { border-color: var(--primary); }
 .k-doc-check input { width: 20px; height: 20px; accent-color: var(--primary); cursor: pointer; }
 .k-doc-check.is-on { border-color: var(--primary); background: var(--primary-soft); }
-
-
 
 

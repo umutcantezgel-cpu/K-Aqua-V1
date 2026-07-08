@@ -1,0 +1,44 @@
+{
+  "finderx": {
+    "helpEyebrow": "Reading Aid",
+    "helpTitle": "How to read the table.",
+    "helpLead": "Five terms are enough to understand every row of the range.",
+    "help": [
+      [
+        "d",
+        "Outer diameter in millimetres — the key size of every dimension from d20 to d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Smaller SDR means thicker wall and higher nominal pressure."
+      ],
+      [
+        "Wall (s)",
+        "Wall thickness in millimetres — follows from d and SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Inner diameter = d − 2s. Decisive for flow rate and pressure loss."
+      ],
+      [
+        "Nominal pressure (PN)",
+        "Permissible continuous operating pressure in bar at 20 °C across the design horizon — SDR 6 = PN 20 down to SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "From Filter to Quote",
+    "flow": [
+      {
+        "t": "Filter & search",
+        "d": "Narrow down type, SDR and maximum dimension — or type \"d110\" straight into the search."
+      },
+      {
+        "t": "Check & export",
+        "d": "Click a row for wall thickness, di and nominal pressure in detail — the result list flows into your costing via CSV."
+      },
+      {
+        "t": "Hand over the enquiry",
+        "d": "From the detail panel straight into the project enquiry — we finalise dimensions and quantities together."
+      }
+    ]
+  }
+}

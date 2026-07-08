@@ -1,134 +1,127 @@
-# K-Aqua — Corporate Website
+# K-Aqua — Language Switch Module (3D-Globus)
 
-> **K-Aqua (KWT GmbH)** — High-end PP-R & PP-RCT Piping Systems  
-> Next.js 15 · TypeScript · Tailwind CSS 4 · Framer Motion · next-intl
+Drop-in-Integration des Sprachen-Hubs in die K-Aqua-Codebase
+(Next.js 15 App Router · TypeScript · Tailwind CSS 4 · Framer Motion ·
+next-intl · @react-three/fiber · lucide-react).
 
----
+## 1 · Ordnerstruktur
 
-## Quick Start
+```
+├── lib/
+│   └── i18n/
+│       └── languages.ts              ← Sprachdatenbank (65 Sprachen, Farben, Anker, Locales)
+├── components/
+│   ├── globe/
+│   │   ├── geo.ts                    ← Geo-Kern: TopoJSON-Loader, Hit-Test, MapPainter (Textur)
+│   │   └── LanguageGlobe.tsx         ← R3F-Globus (Drag, Trägheit, flyTo, Hover, Anker-Projektion)
+│   └── navigation/
+│       ├── LanguageGlobeHub.tsx      ← Hauptmodul (Drop-In) — State, next-intl, Layout
+│       ├── LanguageConfirmPanel.tsx  ← Glassmorphism-Panel, folgt der Region räumlich
+│       ├── LanguageCarousel.tsx      ← Mobile-Hybrid: Swipe-Karussell ↔ Globus-Sync
+│       ├── LanguageSearch.tsx        ← Sprachsuche (Overlay)
+│       └── lang-ui.tsx               ← geteilte Glass-/Farb-Utilities (cssVars, LangDot)
+└── public/
+    └── data/
+        └── countries-110m.json       ← Weltkarten-TopoJSON (siehe „3 · Assets“)
+```
+
+`lib/i18n/navigation.ts` existiert bei euch bereits (next-intl-Exporte) und wird
+unverändert importiert: `import { useRouter, usePathname } from '@/lib/i18n/navigation';`
+
+## 2 · Einbau
+
+```tsx
+// app/[locale]/language/page.tsx (Beispiel)
+import { LanguageGlobeHub } from '@/components/navigation/LanguageGlobeHub';
+
+export default function LanguagePage() {
+  return (
+    <main className="h-dvh">
+      <LanguageGlobeHub />
+    </main>
+  );
+}
+```
+
+- Das Modul füllt seinen Container (`h-full w-full`) — dem Parent eine Höhe geben (`h-dvh`).
+- `LanguageGlobeHub` ist eine Client-Komponente; der WebGL-Canvas rendert erst nach Mount
+  (SSR-sicher). Optionaler zusätzlicher Schutz: `next/dynamic` mit `ssr: false`.
+- Props: `dark` (Theme), `tint` (Ruhetönung 0–0.35), `glow` (0–1),
+  `autorotate`, `speed` (°/s), `dataUrl`, `className`.
+
+### Sprachwechsel-Logik
+
+`LanguageGlobeHub.confirm()` macht exakt:
+
+```ts
+router.replace(pathname, { locale: lang.locale });
+```
+
+Die aktive Sprache wird aus `useLocale()` abgeleitet — kein eigener Persistenz-Layer nötig,
+next-intl (Cookie/Routing) ist die Source of Truth.
+
+**Wichtig:** Alle 65 Locale-Codes müssen in eurer next-intl-Routing-Config stehen.
+`languages.ts` exportiert sie fertig:
+
+```ts
+import { ALL_LOCALE_CODES } from '@/lib/i18n/languages';
+// in routing.ts:  locales: ALL_LOCALE_CODES
+```
+
+Regionale Varianten nutzen BCP-47 (`en-GB`, `es-419`, `pt-BR`, `zh-Hans`, `fr-SN`, …).
+Wenn ihr andere Codes verwendet, nur das `locale`-Feld in `languages.ts` anpassen.
+
+## 3 · Assets / Daten
+
+Ländergeometrie ist **world-atlas 110m** (TopoJSON, ~108 KB, abgeleitet aus Natural
+Earth, public domain). Einmalig ins Repo holen:
 
 ```bash
-# Prerequisites: Node.js ≥ 20.11, pnpm ≥ 9.15
-pnpm install
-pnpm dev
+mkdir -p public/data
+curl -o public/data/countries-110m.json https://unpkg.com/world-atlas@2.0.2/countries-110m.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — the middleware will redirect to `/de`.
+Geladen wird zur Laufzeit via `fetch('/data/countries-110m.json')` (ein Request,
+danach gecacht). Länder→Sprache-Zuordnung läuft über ISO-3166-numerische IDs in
+`languages.ts`.
 
-## Scripts
+## 4 · NPM-Pakete
 
-| Command | Description |
-|---|---|
-| `pnpm dev` | Start development server |
-| `pnpm build` | Production build (SSG) |
-| `pnpm start` | Start production server |
-| `pnpm lint` | ESLint (includes i18n guard) |
-| `pnpm typecheck` | TypeScript type checking |
-| `pnpm i18n:check` | Verify locale key parity across all message files |
-| `pnpm vendor:geo` | Vendor world-atlas TopoJSON to `public/data/` |
+Zusätzlich zum bestehenden Stack:
 
-## Architecture
-
-```
-├── app/
-│   ├── [locale]/          # Localized routes (de, en, ar)
-│   │   ├── layout.tsx     # Root layout with ThemeProvider + NextIntlClientProvider
-│   │   ├── template.tsx   # Page-wipe transition (AnimatePresence)
-│   │   ├── page.tsx       # Home page
-│   │   ├── not-found.tsx  # Localized 404 page
-│   │   └── <route>/      # Feature routes (produkte, maerkte, service, etc.)
-│   ├── globals.css        # Design tokens + utility classes
-│   ├── fonts.ts           # Outfit + Inter font definitions
-│   ├── manifest.ts        # PWA manifest
-│   ├── robots.ts          # robots.txt generation
-│   └── sitemap.ts         # Dynamic sitemap generation
-├── components/
-│   ├── globe/             # 3D globe (Three.js / Canvas)
-│   ├── layout/            # Header, Footer, SkipLink, ScrollProgress
-│   ├── sections/          # Page section components
-│   ├── seo/               # JSON-LD structured data
-│   ├── tools/             # Interactive tools (CO₂ calc, Finder, Career, etc.)
-│   └── ui/                # Design primitives (Button, Card, Chip, MediaSlot, etc.)
-├── lib/
-│   ├── data/
-│   │   ├── geo.ts         # Geo market data (27 markets, 4 regions)
-│   │   ├── products.ts    # Product catalog (PP-R/PP-RCT matrix)
-│   │   └── repositories.ts # Repository abstraction (Phase 2 CMS-ready)
-│   ├── i18n/
-│   │   ├── routing.ts     # Locale config (de, en, ar)
-│   │   ├── request.ts     # Server-side message loading
-│   │   └── navigation.ts  # Typed Link, redirect, usePathname, useRouter
-│   └── seo/
-│       └── metadata.ts    # Metadata + JSON-LD generators
-├── messages/              # i18n dictionaries (de.json, en.json, ar.json + 9 locked)
-├── middleware.ts           # Locale negotiation + redirect (/ → /de)
-├── next.config.ts          # Security headers, image config, optimizations
-├── docs/                   # Project documentation
-└── agents/                 # Agent work package specifications (00–26)
+```bash
+npm install d3-geo topojson-client
+npm install -D @types/d3-geo @types/topojson-client @types/geojson
 ```
 
-## Key Design Decisions
+(`three`, `@react-three/fiber`, `framer-motion`, `next-intl`, `lucide-react` sind bereits vorhanden.)
 
-### i18n (Internationalization)
-- **Source language:** German (`de`)
-- **Enabled locales:** `de`, `en`, `ar` (RTL)
-- **Locked locales:** `fr`, `es`, `it`, `pt`, `nl`, `pl`, `tr`, `ru`, `zh` (pending 100% translation)
-- All visible text via `useTranslations()` — ESLint enforced (`react/jsx-no-literals`)
-- Brand names stay English across all locales (K-Aqua, PP-R, PP-RCT, Trust Center, Academy)
+## Architektur-Notizen
 
-### Images & Media
-- No images in code — every image surface uses `<MediaSlot>` placeholder
-- Real photography comes from CMS in Phase 2 (see `docs/CMS_PLAN.md`)
-
-### Styling
-- Semantic Tailwind tokens only — no hex values in markup
-- Dark mode via `next-themes` (`[data-theme="dark"]`)
-- 4/8pt spacing grid, asymmetric Bento layouts
-
-### Motion
-- Framer Motion for reveals and page transitions
-- `useReducedMotion()` respected — fade-only fallback
-- Page-wipe transition in `template.tsx`
-
-### Accessibility
-- WCAG AA target (≥ 4.5:1 contrast in both themes)
-- Skip link, proper focus order, `aria-current`, `aria-pressed`
-- Touch targets ≥ 44×44px
-- RTL fully supported via logical properties (`ps-/pe-/ms-/me-`, `start/end`)
-
-## Documentation
-
-| Document | Description |
-|---|---|
-| [`docs/AGENT_LOG.md`](docs/AGENT_LOG.md) | Build progress checklist (Agents 00–26) |
-| [`docs/TOKENS.md`](docs/TOKENS.md) | Design token reference |
-| [`docs/DATA_CONTRACTS.md`](docs/DATA_CONTRACTS.md) | TypeScript data interfaces |
-| [`docs/ROUTE_MAP.md`](docs/ROUTE_MAP.md) | Route → page mapping |
-| [`docs/DESIGN_SYSTEM_BRIDGE.md`](docs/DESIGN_SYSTEM_BRIDGE.md) | Prototype → Next.js design system bridge |
-| [`docs/CONTENT_TODO.md`](docs/CONTENT_TODO.md) | All placeholder content requiring real data |
-| [`docs/CMS_PLAN.md`](docs/CMS_PLAN.md) | Phase 2 CMS integration plan |
-| [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) | Vercel deployment guide |
-| [`docs/lighthouse.md`](docs/lighthouse.md) | Lighthouse audit results |
-| [`agents/RULES.md`](agents/RULES.md) | Binding rules for all agents |
-
-## Phase 2 Outlook
-
-The following items are planned for Phase 2:
-
-1. **CMS Integration** — Connect Sanity/Storyblok/Payload; swap static TS modules for CMS fetch (see [`docs/CMS_PLAN.md`](docs/CMS_PLAN.md))
-2. **Real Content** — Fill in all `// TODO(content)` markers (see [`docs/CONTENT_TODO.md`](docs/CONTENT_TODO.md)):
-   - CO₂/EPD factors from real datasheets
-   - Certificate IDs + PDF uploads
-   - Reference projects with photos
-   - Validated norms per market
-   - Actual benefits amounts from HR
-3. **Real Images** — Replace `<MediaSlot>` with `next/image` + CMS assets
-4. **ISR + Webhooks** — Incremental Static Regeneration with CMS publish triggers
-5. **RFQ/Contact Form** — Email delivery via Resend API (currently mailto:)
-6. **Analytics** — Connect analytics platform
-7. **Additional Locales** — Enable `fr`, `es`, `it`, etc. after 100% translation review
-8. **Lighthouse CI** — Automated performance checks on every PR
-
-## License
-
-Private — K-Aqua / KWT GmbH. All rights reserved.
+- **Rendering:** Der Globus ist eine R3F-Kugel mit dynamischer `CanvasTexture`.
+  `MapPainter` (geo.ts) malt die äquirektangulare Karte im „physischen Atlas“-Look
+  (Pergament-Landmassen mit deterministischem Jitter, Papierkorn, Gradnetz) und
+  legt Sprach-Tönungen als Heat-Layer darüber. Statische Ebenen sind als
+  Offscreen-Canvas/Path2D gecacht → Repaints nur während Hover/Auswahl-Animationen,
+  wenige ms bei 2048×1024.
+- **Hit-Test:** Raycast auf die Kugel → lat/lon → Bounds-Prefilter + `geoContains`.
+  Klick-Toleranz: nächster sichtbarer Sprach-Anker < 22 px (Kleinstaaten).
+- **Panel-Tracking:** Die Szene schreibt die projizierte Anker-Position jeden Frame
+  in eine Ref (`anchorOut`), das Panel positioniert sich in einem eigenen rAF-Loop
+  imperativ — 60 fps ohne React-Re-Render. Framer Motion animiert nur Entrance/Exit.
+  Rotiert die Region auf die Rückseite, dimmt das Panel auf 15 % und wird
+  click-transparent.
+- **Mobile-Hybrid:** `< lg` erscheint das Karussell. Tap → `globeRef.flyTo(id)`
+  (kürzester Rotationsweg, ease-in-out, 0.7–1.5 s) + Pending-State → Panel.
+  Pending/aktive Karte wird per `scrollTo` mittig eingescrollt.
+- **Tailwind-only Styling:** Dynamische Laufzeitwerte (65 Leitfarben, Panel-/Tooltip-
+  Transforms) laufen über CSS-Custom-Properties (`bg-(--lc)`, gesetzt per Ref-Callback
+  `cssVars()`) bzw. imperative Transforms — die von Tailwind vorgesehene Methode;
+  JSX enthält keine `style`-Props.
+- **Farben:** Leitfarben deterministisch über den Goldenen Winkel (gleiche
+  Chroma/Helligkeit, oklch). Reihenfolge in `languages.ts` nicht ändern.
+- **A11y / Motion:** `prefers-reduced-motion` deaktiviert Autorotation & Flüge
+  (Sprung statt Animation), Framer-Entrances via `useReducedMotion`. Hit-Targets ≥ 44 px,
+  RTL-Sprachen mit `dir="rtl"`. Escape schließt Panel/Suche.
+- **Dark Mode:** über die `dark`-Prop (Map-Textur + UI wechseln gemeinsam) — an euer
+  Theme-System anbinden, z. B. `dark={resolvedTheme === 'dark'}`.

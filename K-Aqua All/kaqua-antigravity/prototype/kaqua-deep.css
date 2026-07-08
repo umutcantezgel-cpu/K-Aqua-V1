@@ -1,0 +1,236 @@
+/* K-Aqua Deep-Content — Styles für Accordion, Prozess-Schritte, Matrix, Artikel.
+   Nur Token-Variablen, kein Hex. Light & Dark via bestehende Tokens. */
+
+.k-acc {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+.k-acc-item {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.k-acc-item.is-open {
+  border-color: var(--brand-300, var(--primary));
+}
+.k-acc-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  width: 100%;
+  min-height: 56px;
+  padding: var(--sp-4) var(--sp-5);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-align: start;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 16.5px;
+  color: var(--foreground);
+}
+.k-acc-btn:focus-visible {
+  outline: 2px solid var(--ring, var(--primary));
+  outline-offset: -2px;
+}
+.k-acc-caret {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.k-acc-item.is-open .k-acc-caret {
+  transform: rotate(180deg);
+}
+.k-acc-panel {
+  padding: 0 var(--sp-5) var(--sp-5);
+  color: var(--muted-foreground);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.k-acc-panel p + p {
+  margin-top: var(--sp-3);
+}
+
+/* Nummerierte Prozess-Schritte */
+.k-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  counter-reset: kstep;
+}
+.k-step {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: var(--sp-4);
+  position: relative;
+  padding-block: var(--sp-4);
+}
+.k-step + .k-step {
+  border-top: 1px dashed var(--card-border);
+}
+.k-step-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+.k-step h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 16.5px;
+  color: var(--foreground);
+  margin-bottom: 4px;
+}
+.k-step p {
+  color: var(--muted-foreground);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+/* Vergleichs-/Datenmatrix */
+.k-matrix-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.k-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+  min-width: 640px;
+}
+.k-matrix th,
+.k-matrix td {
+  padding: 12px 16px;
+  text-align: start;
+  border-bottom: 1px solid var(--card-border);
+  vertical-align: top;
+}
+.k-matrix thead th {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+  background: var(--background-subtle);
+  position: sticky;
+  top: 0;
+}
+.k-matrix tbody tr:last-child th,
+.k-matrix tbody tr:last-child td {
+  border-bottom: 0;
+}
+.k-matrix tbody th {
+  font-weight: 650;
+  color: var(--foreground);
+  white-space: nowrap;
+}
+.k-matrix td.is-hero {
+  color: var(--primary);
+  font-weight: 650;
+  background: var(--primary-soft);
+}
+.k-matrix td {
+  color: var(--muted-foreground);
+}
+.k-matrix tbody tr:hover td,
+.k-matrix tbody tr:hover th {
+  background: var(--background-subtle);
+}
+.k-matrix tbody tr:hover td.is-hero {
+  background: var(--primary-soft);
+}
+
+/* Artikel-Karten (News) */
+.k-article {
+  text-align: start;
+}
+.k-article .k-article-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--faint-foreground);
+}
+.k-article .k-article-tag {
+  color: var(--primary);
+  background: var(--primary-soft);
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.k-article-body p {
+  color: var(--muted-foreground);
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+.k-article-body p + p {
+  margin-top: var(--sp-3);
+}
+
+/* Glossar */
+.k-gloss {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--sp-3);
+}
+.k-gloss-item {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: var(--sp-4);
+}
+.k-gloss-item dt {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 15.5px;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+.k-gloss-item dd {
+  color: var(--muted-foreground);
+  font-size: 13.5px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Kleine Fußnote unter Tabellen */
+.k-table-note {
+  font-size: 12.5px;
+  color: var(--faint-foreground);
+  line-height: 1.5;
+  margin-top: var(--sp-3);
+}
+
+/* Badge-Leiste (Home) */
+.k-badge-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .k-matrix {
+    min-width: 560px;
+  }
+  .k-step {
+    grid-template-columns: 36px minmax(0, 1fr);
+  }
+  .k-step-num {
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,27 @@
+AUFTRAG: DATEIEN EINS ZU EINS UEBERNEHMEN — NICHTS ERZEUGEN, NICHTS VERAENDERN
+
+Dir liegt ein Paketordner vor. Darin spiegelt der Unterordner namens repo die
+Ordnerstruktur dieses Projekts. Deine gesamte Aufgabe besteht aus Kopieren und Pruefen.
+Du schreibst keinen eigenen Code, du erzeugst keine Inhalte, du triffst keine
+Gestaltungsentscheidungen.
+
+VORGEHEN
+
+1. Stelle sicher, dass der Arbeitsstand sauber ist, und lege einen neuen Arbeitszweig an.
+   Arbeite niemals direkt auf dem Hauptzweig.
+2. Uebertrage jede Datei aus dem Ordner repo an den gleichnamigen Pfad im Projekt — der
+   Ordnername repo selbst entfaellt dabei. Existiert die Zieldatei bereits, ersetze sie
+   vollstaendig durch die Paketversion. Existiert sie nicht, lege sie neu an. Fuehre nichts
+   zusammen, formatiere nichts um, verbessere nichts, lasse nichts aus.
+3. Gleiche mit der beiliegenden Dateiliste ab: alle dort genannten Dateien muessen jetzt in
+   der Paketversion im Projekt liegen, und es darf keine weitere Datei angefasst worden sein.
+4. Fuehre die vier Pruefbefehle des Projekts aus: Produktions-Build, Lint, Typpruefung und
+   die Sprachdatei-Paritaetspruefung (alle in der Paketverwaltungsdatei des Projekts hinterlegt).
+5. Sind alle vier fehlerfrei: Aufgabe beendet. Fasse kurz zusammen, welche Dateien neu sind
+   und welche ersetzt wurden. Ist etwas rot: repariere NICHTS eigenmaechtig, sondern melde
+   die vollstaendige Fehlermeldung woertlich zurueck und stoppe.
+
+VERBOTEN: bestehende Dateien ausserhalb der Dateiliste anfassen; Inhalte der Paketdateien
+aendern; Abhaengigkeiten hinzufuegen; Formatierungs- oder Strukturaenderungen; jede Form
+von "Verbesserung". Die Fachdaten in den Dateien (Artikelnummern, Masse, Schweisswerte)
+sind reale Herstellerdaten und bleiben exakt wie geliefert.

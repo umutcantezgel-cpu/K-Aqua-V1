@@ -1,0 +1,121 @@
+{
+  "markdown": "# Applying new strategies - our experience is your advantage\n\n![](https://www.k-aqua.de/Pics/mobile_k-aqua.jpg)\n\n## K-Aqua - Leading in Water Supply\n\nThe business field of KWT GmbH is manufacturing pipes and fittings for water supply in several\nplastic materials which positions the company in the construction value chain as a construction\nmaterial supplier and manufacturer. With the premium manufacturer KESSEL – Leading in drainage –it exists a close and long partnership. With this experience of decades we will transport our success\nto the future.\n\n![](https://www.k-aqua.de/Pics/mobile_kessel.jpg)\n\n## Company policy KWT GmbH\n\n\nThe goal is to create mutual benefits through the interaction of people and institutions in contact with us. There is no customer benefit without employee benefits, no employee benefits without company benefits and no company benefits without any benefit for our environment and the world around us.\n\nThus, quality must always be compatible with the aspects of costs and deadlines. This will result in the\ninvolvement of all our employees in the process of continuous improvement.\n\nIn compliance with legal and social standards, we will recognize, take seriously and implement the\nwishes of our customers and all other interested parties at all times.\nEcological responsibility is part of our understanding of quality, to which the employees of KWT\nGmbH\n\nFor this reason, all company activities occur under consideration of resource conservation and\nenvironmental compatibility as well as a strict adherence to all commitments. The GENAU\nmanagement system is integrated into the House of KWT and for this reason an important element of\nour philosophy.\n\nThe Goal of the GENAU management system is the continuous improvement of the company’s work\n, environment- and health protection. This also contains the optimization of energy efficiency. The\nprevention, continuous threat identification and risk evaluation as well as the implementation of\nremedial actions in the aspects of environment, energy and work-security are therefore an important\ncomponents of the GENAU-policy.\n\n\nThe GENAU-policy is directed to all employees and departments of KWT. All employees daily work\nis equally responsible for the realization of the GENAU-actions. Every employee is obligated to report\nthreats and actively participate in the improvement of the GENAU-management. The practiced\nGENAU management meets the requirements of DIN EN ISO 14001 and 50001.\n\n\n[Visit K-Aqua on the following events](https://www.k-aqua.de/events.php)",
+  "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-610188c7-4480-46c0-9313-c647321966f7.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1781708028&Signature=Ao1yU0Vc9IihQCofMX4yF%2FvSG31YJt2eX9OcWTK4wlu6Kpr5J5vu9cB%2Bm6XYdoTdVEZBBKM3A9QCvXAh8BLb9Dao%2FiIWh6lPfBuRvhSf8gRt4FAMQvKCxRMTsTDyiZA5Ucbe654MKuaPq7XVNPU7KX%2Bg6ceK0J7jSjmsfrBXf%2FRfmjuxu0rhuLqATuBfotoQwt%2BA3ASbKmmaklal7hXuRl%2F4TMnqjH7kOYz1JVQauRqUUiuNtplRNwflsjrR2Mh%2Foqmt7im%2BjSoyqz%2BzRPWKzRPFkOitgbuDZB8yTQgFMVbH7%2F8%2FEqTqSqSGKdi7xzr4yJmMC3OtxJxZfp3b66M9FA%3D%3D",
+  "branding": {
+    "colorScheme": "dark",
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "colors": {
+      "primary": "#7E65A5",
+      "secondary": "#8064A9",
+      "accent": "#5B2D8C",
+      "background": "#FFFFFF",
+      "textPrimary": "#5B2D8C",
+      "link": "#5B2D8C"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Roboto",
+        "heading": "Roboto"
+      },
+      "fontStacks": {
+        "heading": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "body": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "paragraph": [
+          "Roboto",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "28.8px",
+        "h2": "16px",
+        "body": "14px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "0px"
+    },
+    "components": {},
+    "images": {
+      "logo": "https://www.k-aqua.de/Svgs/kaqua_logo.svg",
+      "favicon": null,
+      "ogImage": null,
+      "logoHref": "index.php",
+      "logoAlt": "logo_k-aqua"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+      "confidence": 0.9,
+      "source": "llm"
+    },
+    "personality": {
+      "tone": "professional",
+      "energy": "medium",
+      "targetAudience": "business professionals in water supply industry"
+    },
+    "designSystem": {
+      "framework": "custom",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0,
+      "colors": 0.95,
+      "overall": 0.475
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+          "confidence": 0.9
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": false,
+        "llmSucceeded": false
+      }
+    }
+  },
+  "metadata": {
+    "title": "K-Aqua - About us",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "scrapeId": "019eb206-2dae-7260-a6e0-7ab36c0ed525",
+    "sourceURL": "https://www.k-aqua.de/about.php",
+    "url": "https://www.k-aqua.de/about.php",
+    "statusCode": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "stealth",
+    "indexId": "75b2a52a-478f-49d7-81aa-8a10dd222c75",
+    "creditsUsed": 5
+  },
+  "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan.",
+  "html": "<!DOCTYPE html><html>\n\n<body class=\"page-id-2\">\n\n<div class=\"page\">\n\n    \n\n\n    <section class=\"main\">\n\n        <div class=\"main-inner\">\n\n            \n\n            <div class=\"content-main\">\n\n                <h1>Applying new strategies - our experience is your advantage</h1>\n\n                <div class=\"pic-hidden\">\n                    <div class=\"pic-box-inner\">\n                        <img src=\"https://www.k-aqua.de/Pics/mobile_k-aqua.jpg\">\n                    </div>\n                </div>\n\n                <h2>K-Aqua - Leading in Water Supply</h2>\n                <p>\n                    The business field of KWT GmbH is manufacturing pipes and fittings for water supply in several \nplastic materials which positions the company in the construction value chain as a construction \nmaterial supplier and manufacturer. With the premium manufacturer KESSEL – Leading in drainage –it exists a close and long partnership. With this experience of decades we will transport our success\n to the future.                </p>\n\n                <div class=\"pic-hidden\">\n                    <div class=\"pic-box-inner\">\n                        <img src=\"https://www.k-aqua.de/Pics/mobile_kessel.jpg\">\n                        <div class=\"titleBox\">\n                            <p class=\"boxtext\"></p>\n                        </div>\n                    </div>\n                </div>\n\n                <h2>Company policy KWT GmbH</h2>\n                <p>\n                                     </p>\n\n                <h2> </h2>\n\n                <p>\n                    \nThe goal is to create mutual benefits through the interaction of people and institutions in contact with us. There is no customer benefit without employee benefits, no employee benefits without company benefits and no company benefits without any benefit for our environment and the world around us.\n<br><br>\nThus, quality must always be compatible with the aspects of costs and deadlines. This will result in the \ninvolvement of all our employees in the process of continuous improvement.  \n<br><br>\nIn compliance with legal and social standards, we will recognize, take seriously and implement the \nwishes of our customers and all other interested parties at all times.  \nEcological responsibility is part of our understanding of quality, to which the employees of KWT \nGmbH \n<br><br>\nFor this reason, all company activities occur under consideration of resource conservation and \nenvironmental compatibility as well as a strict adherence to all commitments. The GENAU\nmanagement system is integrated into the House of KWT and for this reason an important element of \nour philosophy.  \n<br><br>\nThe Goal of the GENAU management system is the continuous improvement of the company’s work\n, environment- and health protection. This also contains the optimization of energy efficiency. The \nprevention, continuous threat identification and risk evaluation as well as the implementation of \nremedial actions in the aspects of environment, energy and work-security are therefore an important \ncomponents of the GENAU-policy. \n<br><br> \nThe GENAU-policy is directed to all employees and departments of KWT. All employees daily work \nis equally responsible for the realization of the GENAU-actions. Every employee is obligated to report \nthreats and actively participate in the improvement of the GENAU-management. The practiced \nGENAU management meets the requirements of  DIN EN ISO 14001 and 50001. \n                </p>\n                <p>\n                                    </p>\n                <p>\n                                    </p>\n                <p>\n                                    </p>\n                <p>\n                                    </p>\n                <p>\n                                    </p>\n                <p>\n                                    </p>\n\n                <div class=\"download\">\n                    <a href=\"https://www.k-aqua.de/events.php\" class=\"arrow\">Visit K-Aqua on the following events</a>\n                </div>\n\n            </div>\n\n        </div>\n\n    </section>\n</div>\n\n\n\n\n</body></html>",
+  "links": [
+    "https://www.k-aqua.de/events.php"
+  ],
+  "images": [
+    "https://www.k-aqua.de/Pics/mobile_k-aqua.jpg",
+    "https://www.k-aqua.de/Pics/mobile_kessel.jpg"
+  ],
+  "json": {
+    "company_name": "KWT GmbH",
+    "company_description": "KWT GmbH is a manufacturer of pipes and fittings for water supply, utilizing various plastic materials. The company is positioned in the construction value chain as a supplier and manufacturer of construction materials. It fosters a partnership with KESSEL, a leader in drainage, leveraging decades of experience to ensure future success."
+  },
+  "summary": "KWT GmbH specializes in manufacturing pipes and fittings for water supply, partnering closely with KESSEL, a leader in drainage. The company's philosophy emphasizes mutual benefits for customers, employees, and the environment, ensuring quality aligns with cost and deadlines through continuous improvement involving all staff. They are committed to ecological responsibility and adhere to legal and social standards. The GENAU management system focuses on ongoing enhancement of work conditions, environmental protection, and energy efficiency, with compliance to DIN EN ISO 14001 and 50001. All employees are encouraged to participate in threat reporting and management improvement."
+}

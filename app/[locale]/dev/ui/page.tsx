@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ArrowRight, Download } from 'lucide-react';
+import { Download } from 'lucide-react';
+import { ArrowRight } from '@/components/ui/icon';
 import ThemeToggle from '@/components/layout/ThemeToggle';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';

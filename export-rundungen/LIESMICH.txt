@@ -1,0 +1,39 @@
+K-AQUA RUNDUNGEN — KOMPLETTPAKET
+
+INHALT
+
+1) Katalog / Referenz
+   K-Aqua Rundungen Studio.html   Übersicht aller Formen, Text-Integrationen,
+                                  Sektionskanten, Motion- und Liquid-Varianten.
+                                  Öffnet direkt im Browser (benötigt die
+                                  Dateien daneben: kaqua-tokens.css,
+                                  kaqua-shapes.css, kaqua-shapes.js, image-slot.js).
+
+2) Bibliothek (für beliebige HTML-Seiten)
+   kaqua-shapes.css   Alle Klassen: Formen (kq-shape--…), Text-Integration
+                      (kq-story--in/--out/--edge-l), Sektionskanten (kq-band--…),
+                      Kanten-Motion (kq-band-fx--…), Interaktion & Liquid
+                      (kq-liquid, kq-ix, kq-ix-tilt, kq-ix-glow, kq-float,
+                      kq-rise, kq-lava).
+   kaqua-shapes.js    SVG-Clip-Defs + Liquid-/Interaktions-Engine
+                      (Cursor-Energie, Scroll-Schwappen, Offscreen-Pause,
+                      Reduced-Motion-Fallback).
+   kaqua-tokens.css   Design-Tokens (Farben, Typo, Radien) — nur nötig,
+                      wenn das Zielprojekt keine eigenen Tokens hat.
+
+   Einbindung pro Seite:
+     <link rel="stylesheet" href="kaqua-shapes.css">
+     <script src="kaqua-shapes.js" defer></script>
+
+   Grundmuster:
+     <div class="kq-shape kq-liquid kq-ix kq-ix-tilt kq-ix-glow kq-float kq-rise kq-shape--sweep-r">
+       <div class="kq-shape__media"><img src="…" alt="…"></div>
+     </div>
+
+3) Next.js-Integration (Live-Website)
+   nextjs-segment-28/   Fertiges Segment nach dem Muster der übrigen
+                        Integrations-Segmente: PROMPT.txt (Anleitung),
+                        code/shapes.css, code/ShapeDefs.tsx, code/Shaped.tsx.
+                        Hinweis: Die Liquid-/Interaktions-Engine ist Teil des
+                        Prototyp-Skripts und wird bei Bedarf separat als
+                        Client-Komponente portiert (im PROMPT vermerkt).

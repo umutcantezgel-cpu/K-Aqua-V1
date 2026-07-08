@@ -4,7 +4,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useReducedMotion } from 'motion/react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Factory, Ruler, Award, Globe as GlobeIcon, ArrowRight, Droplet } from 'lucide-react';
+import { Factory, Ruler, Award, Globe as GlobeIcon, Droplet } from 'lucide-react';
+import { ArrowRight } from '@/components/ui/icon';
 import { Button } from '@/components/ui/Button';
 
 import { IconChip } from '@/components/ui/IconChip';

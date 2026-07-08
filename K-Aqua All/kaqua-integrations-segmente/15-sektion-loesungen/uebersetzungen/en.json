@@ -1,0 +1,153 @@
+{
+  "solutionsx": {
+    "segEyebrow": "Application Fields",
+    "segTitle": "Proven where water is critical.",
+    "segLead": "K-Aqua systems run in projects worldwide, from hospitals to greenhouses — each field draws on different strengths of the material.",
+    "segments": [
+      {
+        "t": "Hospitals & Healthcare",
+        "d": "Hygiene is non-negotiable here: the smooth bore (0.007 mm) inhibits biofilm and incrustation, and the material stays neutral in taste and odour.",
+        "pts": [
+          "Hygienic neutrality",
+          "Corrosion-free — no pitting",
+          "Reference: hospital build, Cape Town"
+        ]
+      },
+      {
+        "t": "Hotels & High-rise Residential",
+        "d": "Hot-water circulation around the clock: low thermal conductivity saves energy permanently, PP-RCT sustains 70 °C continuous operation.",
+        "pts": [
+          "Thermal efficiency",
+          "PP-RCT for circulation",
+          "Reference: hotel complex, Istanbul"
+        ]
+      },
+      {
+        "t": "Industry & Commercial",
+        "d": "Resistant to solvents, alkalis and acids — where metal pipes corrode, polypropylene remains unimpressed.",
+        "pts": [
+          "Chemical resistance",
+          "Long maintenance intervals",
+          "Process and service water"
+        ]
+      },
+      {
+        "t": "Greenhouses & Agriculture",
+        "d": "UV-stabilised versions for irrigation under glass and outdoors — lightweight, quickly installed, less frost-sensitive than rigid systems.",
+        "pts": [
+          "UV-resistant version",
+          "Low weight",
+          "Application field from the reference programme"
+        ]
+      },
+      {
+        "t": "Municipal Infrastructure",
+        "d": "Supply lines and networks in large bores up to d630 — butt-welded into homogeneous, permanently tight runs.",
+        "pts": [
+          "d up to 630 mm",
+          "Butt fusion welding",
+          "Reference: infrastructure, Singapore"
+        ]
+      },
+      {
+        "t": "Renovation & Replacement",
+        "d": "Replacing corroded metal or PVC legacy lines: transition pieces with brass threads tie the existing stock cleanly into the new system.",
+        "pts": [
+          "Transitions to metal threads",
+          "Section-by-section renovation",
+          "Corrosion problem solved for good"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Material Comparison",
+    "cmpTitle": "PP-R/PP-RCT compared.",
+    "cmpLead": "Four piping materials, eight criteria — a simplified side-by-side as a starting point for project-specific material selection.",
+    "cmpHead": [
+      "Criterion",
+      "K-Aqua PP-R/PP-RCT",
+      "Copper",
+      "Stainless steel",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Corrosion",
+        "corrosion-free — immune to electrochemical corrosion",
+        "pitting possible",
+        "resistant (grade-dependent)",
+        "corrosion-free"
+      ],
+      [
+        "Incrustation & biofilm",
+        "very low — bore roughness 0.007 mm",
+        "possible",
+        "low",
+        "low"
+      ],
+      [
+        "Thermal conductivity",
+        "0.24 W/(m·K) — low losses",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0.14 W/(m·K)"
+      ],
+      [
+        "Density / weight",
+        "0.905 g/cm³",
+        "8.9 g/cm³",
+        "7.9 g/cm³",
+        "1.55 g/cm³"
+      ],
+      [
+        "Jointing",
+        "fusion-welded — homogeneous run",
+        "soldered / pressed",
+        "pressed / welded",
+        "solvent-cemented"
+      ],
+      [
+        "Taste & odour",
+        "neutral",
+        "metal release possible",
+        "neutral",
+        "neutral"
+      ],
+      [
+        "CO₂ (construction)",
+        "low — compare in the CO₂ calculator",
+        "high",
+        "high",
+        "medium"
+      ],
+      [
+        "Recycling",
+        "code 5, single-sort — 100 % of production waste recycled",
+        "scrap cycle",
+        "scrap cycle",
+        "limited"
+      ]
+    ],
+    "cmpNote": "Simplified comparison using typical material figures; material selection remains project-specific. Numeric basis for the CO₂ comparison: see the CO₂ calculator and EPD data sheets.",
+    "lifeEyebrow": "Life Cycle",
+    "lifeTitle": "From flare gas to recyclate.",
+    "lifeLead": "Responsibility across the whole cycle — four stations that make the product ecologically sound.",
+    "life": [
+      {
+        "t": "A raw material with history",
+        "d": "Polypropylene is made from gases that used to be flared off uselessly — using them as a material cuts air pollution at the source."
+      },
+      {
+        "t": "Closed-loop production",
+        "d": "The Waldsolms plant cools in a closed water circuit, protecting rivers, streams and lakes; energy efficiency is governed by ISO 50001."
+      },
+      {
+        "t": "50 years in service",
+        "d": "Designed to the long-term curves of DIN 8077/8078 for 50 years of operation — low-maintenance, wear-resistant, ageing-proof."
+      },
+      {
+        "t": "Back into the loop",
+        "d": "Recycling code 5: separable by type, with strong demand for PP recyclate. 100 % of offcuts and production waste are recycled."
+      }
+    ]
+  }
+}

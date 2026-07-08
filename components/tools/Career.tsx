@@ -123,7 +123,7 @@ export default function Career({ careerData }: CareerProps) {
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border">
+      <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border kq-band kq-band--blob">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <Reveal>

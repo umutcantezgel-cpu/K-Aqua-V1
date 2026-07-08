@@ -1,0 +1,18 @@
+--- lib/products.ts
++++ lib/products.ts
+@@ -73,3 +73,15 @@
+     content: processedContent.toString()
+   };
+ }
++
++export async function getProductsIndex(): Promise<string | null> {
++  const indexPath = path.join(contentDir, 'index.md');
++  if (!fs.existsSync(indexPath)) return null;
++  const fileContent = fs.readFileSync(indexPath, 'utf8');
++  const { content } = matter(fileContent);
++  const processedContent = await remark()
++    .use(remarkGfm)
++    .use(html)
++    .process(content);
++  return processedContent.toString();
++}

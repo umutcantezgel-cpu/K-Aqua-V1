@@ -1,0 +1,5 @@
+/* K-Aqua Design Library — global entry point.
+   Consumers link ONLY this file; everything below ships with it. */
+@import url("kaqua-tokens.css");
+@import url("kaqua-components.css");
+@import url("kaqua-fx.css");

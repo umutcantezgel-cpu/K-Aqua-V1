@@ -1,0 +1,120 @@
+{
+  "markdown": "# Contact Information\n\n## Germany\n\nKWT GmbH\n\nAuweg 3\n\n35647 Waldsolms-Brandoberndorf\n\nSales department:\n\nTel. +49 (0)60 85 / 9868-410\n\nFax +49 (0)60 85 / 9868-420\n\n[info@k-aqua.de](mailto: info@k-aqua.de) ● [www.k-aqua.de](https://www.k-aqua.de/)\n\nQuality /Technical support:\n\n[support@k-aqua.de](mailto: support@k-aqua.de)",
+  "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-eb2fba2e-7c7c-480c-99e6-0108e020678b.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1781708192&Signature=Oe9gEZwvRkjjCwja4LuHYySvHpw4QitiUCFtG2q7YmC2aJxoDcmwJAZJD2jRq3hY4hmVGnAg79AkfRds0Vym6uh9MBoIrB8zE6wD5vS1k2BmkYZQXlLvSrsqPIs9A%2Fg76RWejGpZNqrFzELj87%2Fbpet6%2BOrD2el2Yq2H6aWYt7knrSGjPfqh759kMlkz7gbWPTwF%2FtBWt5Pw2HanfPlOd5iZ2WEk3RbH3cyuhht7lvlTShxDZr99JuQcz2mEHfgPjcCdjP%2FWG3qM0B%2FiDfhOx4GbbSE7ZzzVtQYEd63BXYji%2FBmTU%2Fs%2B0%2FcRVzdEF%2BPBkEFCzWBAQTaSKwvgwcngqA%3D%3D",
+  "branding": {
+    "colorScheme": "dark",
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "colors": {
+      "primary": "#8064A9",
+      "secondary": "#7E65A5",
+      "accent": "#5B2D8C",
+      "background": "#FFFFFF",
+      "textPrimary": "#5B2D8C",
+      "link": "#5B2D8C"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Roboto",
+        "heading": "Roboto"
+      },
+      "fontStacks": {
+        "heading": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "body": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "paragraph": [
+          "Roboto",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "28.8px",
+        "h2": "16px",
+        "body": "14px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "0px"
+    },
+    "components": {},
+    "images": {
+      "logo": "https://www.k-aqua.de/Svgs/kaqua_logo.svg",
+      "favicon": null,
+      "ogImage": null,
+      "logoHref": "index.php",
+      "logoAlt": "logo_k-aqua"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+      "confidence": 0.9,
+      "source": "llm"
+    },
+    "personality": {
+      "tone": "professional",
+      "energy": "medium",
+      "targetAudience": "businesses in water technology"
+    },
+    "designSystem": {
+      "framework": "custom",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0,
+      "colors": 0.95,
+      "overall": 0.475
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+          "confidence": 0.9
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": false,
+        "llmSucceeded": false
+      }
+    }
+  },
+  "metadata": {
+    "title": "K-Aqua - Contact",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "scrapeId": "019eb207-ad21-71f3-be46-be45e9c93f9f",
+    "sourceURL": "https://www.k-aqua.de/contact.php?lang=en",
+    "url": "https://www.k-aqua.de/contact.php?lang=en",
+    "statusCode": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "stealth",
+    "indexId": "94c9d510-412b-45a2-990f-5a8fd6bf9bce",
+    "creditsUsed": 5
+  },
+  "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan.",
+  "html": "<!DOCTYPE html><html>\n\n<body class=\"page-id-2\">\n\n<div class=\"page\">\n\n    \n\n\n    <section class=\"main\">\n\n        <div class=\"main-inner\">\n\n            \n\n            <div class=\"content-main\">\n\n                <h1>Contact Information</h1>\n\n                <div style=\"float: left;padding: 10px;\">\n\n                    <h2>Germany</h2>\n\n                    <p>\n                        KWT GmbH <br> Auweg 3 <br> 35647 Waldsolms-Brandoberndorf <br>                    </p>\n\n                    <p>\n                        Sales department: <br> Tel. +49 (0)60 85 / 9868-410 <br> Fax +49 (0)60 85 / 9868-420 <br>                        <a href=\"mailto: info@k-aqua.de\">info@k-aqua.de</a> ● <a href=\"https://www.k-aqua.de/\">www.k-aqua.de</a>\n                    </p>\n\n                    <p>\n                        Quality /Technical support:                        <br>\n                        <a href=\"mailto: support@k-aqua.de\">support@k-aqua.de</a>\n                    </p>\n\n                </div>\n                <div style=\"float: left;padding: 10px;\">\n\n                    <h2></h2>\n\n                    <p>\n                                            </p>\n\n                    <p>\n                                            </p>\n\n                </div>\n                <div style=\"float: left;padding: 10px;\">\n\n                    <h2></h2>\n\n                    <p>\n                                            </p>\n\n                    <p>\n                                            </p>\n\n                </div>\n\n            </div>\n\n        </div>\n\n    </section>\n\n</div>\n\n\n\n\n</body></html>",
+  "links": [
+    "mailto: info@k-aqua.de",
+    "https://www.k-aqua.de/",
+    "mailto: support@k-aqua.de"
+  ],
+  "images": [],
+  "json": {
+    "company_name": "KWT GmbH",
+    "company_description": "KWT GmbH is located in Waldsolms-Brandoberndorf, Germany. They provide sales and technical support for their products."
+  },
+  "summary": "Contact information for KWT GmbH in Germany, including their address, sales department contact details, and technical support email."
+}

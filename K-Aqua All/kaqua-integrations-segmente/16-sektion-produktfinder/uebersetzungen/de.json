@@ -1,0 +1,44 @@
+{
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie die Tabelle.",
+    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Außendurchmesser in Millimetern — die Kenngröße jeder Dimension von d20 bis d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandstärke in Millimetern — ergibt sich aus d und SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont — SDR 6 = PN 20 bis SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
+      {
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR und maximale Dimension eingrenzen — oder direkt „d110\" in die Suche tippen."
+      },
+      {
+        "t": "Prüfen & exportieren",
+        "d": "Zeile anklicken für Wandstärke, di und Nenndruck im Detail — die Trefferliste wandert per CSV in Ihre Kalkulation."
+      },
+      {
+        "t": "Anfrage übergeben",
+        "d": "Aus dem Detailfenster direkt in die Projektanfrage — Dimensionen und Mengen klären wir gemeinsam."
+      }
+    ]
+  }
+}

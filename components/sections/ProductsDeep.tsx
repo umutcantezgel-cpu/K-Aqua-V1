@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 // K-Aqua — ProductsDeep: Rohrfamilien, Dimensionstabellen, Werkstoffdaten, Normen, FAQ.
 //
 // QUELLE: kaqua-deep-sections-1.jsx (ProductsDeep) + kaqua-deep-data.js (K_DEEP).
@@ -17,6 +18,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
+import { PipeFX } from "@/components/ui/PipeFX";
 import { formatPN, SDRS, tableForSdr } from "@/lib/data/deep";
 
 interface PipeFamily {
@@ -71,6 +73,33 @@ export function ProductsDeep() {
                 </Card>
               </Reveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PipeFX Showcase */}
+      <section className="py-[clamp(64px,9vw,120px)] border-t border-card-border" data-screen-label="products-pipefx">
+        <div className="mx-auto max-w-[1200px] px-6">
+          <Reveal>
+            <SectionHead eyebrow="Visualisierung" title="K-Aqua PipeFX" lead="Echtzeit-Simulationen unserer Produktionsprozesse." />
+          </Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+              <PipeFX variant="flow" size={240} />
+              <h4 className="font-heading font-bold text-foreground">Flow</h4>
+            </Card>
+            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+              <PipeFX variant="blueprint" size={240} />
+              <h4 className="font-heading font-bold text-foreground">Blueprint</h4>
+            </Card>
+            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+              <PipeFX variant="pressure" size={240} />
+              <h4 className="font-heading font-bold text-foreground">Pressure</h4>
+            </Card>
+            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+              <PipeFX variant="isonet" size={240} />
+              <h4 className="font-heading font-bold text-foreground">Isometric</h4>
+            </Card>
           </div>
         </div>
       </section>

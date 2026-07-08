@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-no-literals */
 "use client";
 
 import React, { useState, useRef, useMemo } from "react";
 import dynamic from "next/dynamic";
 import { useReducedMotion } from "motion/react";
-import { Link, useRouter } from "@/lib/i18n/navigation";
+import { Link } from "@/lib/i18n/navigation";
 import { GEO_MARKETS, REGIONS, haversineKm, WALDSOLMS, GeoMarket } from "@/lib/data/geo";
 import { FilterChip } from "@/components/ui/FilterChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -45,13 +46,12 @@ export default function MarketsHub({
   regionsTrans,
   geoContentTrans,
 }: MarketsHubProps) {
-  const router = useRouter();
   const shouldReduceMotion = useReducedMotion();
   const globeRef = useRef<GlobeRef | null>(null);
 
   // States
   const [selectedRegion, setSelectedRegion] = useState<string>("all");
-  const [hoveredSlug, setHoveredSlug] = useState<string | null>(null);
+  const [activeSlug, setActiveSlug] = useState<string | null>(null);
 
   // Filtered markets
   const filteredMarkets = useMemo(() => {
@@ -63,8 +63,8 @@ export default function MarketsHub({
 
   // Active market details
   const activeMarket = useMemo(() => {
-    return GEO_MARKETS.find((g) => g.slug === hoveredSlug);
-  }, [hoveredSlug]);
+    return GEO_MARKETS.find((g) => g.slug === activeSlug);
+  }, [activeSlug]);
 
   // Distance calculations
   const distance = useMemo(() => {
@@ -90,17 +90,17 @@ export default function MarketsHub({
     });
   }, [regionsTrans]);
 
-  // Sync the globe hover/highlight
-  const handleMarketHover = (g: GeoMarket | null) => {
+  // Sync the globe focus
+  const handleMarketSelect = (g: GeoMarket | null) => {
     if (!g) {
-      setHoveredSlug(null);
+      setActiveSlug(null);
       if (globeRef.current?.setActive) {
         globeRef.current.setActive(null);
       }
       return;
     }
     
-    setHoveredSlug(g.slug);
+    setActiveSlug(g.slug);
     if (globeRef.current) {
       globeRef.current.flyTo(g.lon, g.lat);
       if (globeRef.current.setActive) {
@@ -121,13 +121,21 @@ export default function MarketsHub({
 
   // Click handler for Globe markers
   const handleMarkerClick = (mk: GlobeMarker) => {
-    router.push(`/maerkte/${mk.title}`);
+    const market = GEO_MARKETS.find((g) => g.slug === mk.title);
+    if (market) {
+      handleMarketSelect(market);
+      // scroll to the list item if possible
+      const el = document.getElementById(`market-item-${market.slug}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
   };
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border">
+      <section className="relative overflow-hidden py-24 lg:py-32 kq-band kq-band--curve-b">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <Reveal>
@@ -180,16 +188,16 @@ export default function MarketsHub({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left: Globe Column */}
-            <div className="lg:col-span-7 flex justify-center items-center relative min-h-[350px] sm:min-h-[500px]">
+            <div className="lg:col-span-7 flex justify-center items-center relative min-h-[400px] lg:min-h-[600px]">
               <LazyGlobe 
-                className="relative flex items-center justify-center border border-card-border/30 rounded-full p-6 bg-background/50 shadow-diffuse select-none w-full max-w-[368px] aspect-square sm:w-[428px] sm:h-[428px] lg:w-[508px] lg:h-[508px]"
+                className="relative flex items-center justify-center select-none w-full max-w-[600px] aspect-square shrink-0 kq-liquid kq-ix-whirl"
                 aria-label={geoTrans.canvasAria}
               >
                 <Globe
                   ref={globeRef}
                   markers={globeMarkers}
                   interactive={true}
-                  whirl={false}
+                  whirl={true}
                   speed={shouldReduceMotion ? 0 : 0.006}
                   onMarkerClick={handleMarkerClick}
                 />
@@ -210,39 +218,67 @@ export default function MarketsHub({
             </div>
 
             {/* Right: Scrollable Markets List Column */}
-            <div className="lg:col-span-5 flex flex-col gap-1.5 max-h-[580px] overflow-y-auto pe-1.5 text-start scrollbar-thin scrollbar-thumb-card-border">
+            <div className="lg:col-span-5 flex flex-col gap-2 max-h-[600px] overflow-y-auto pe-1.5 text-start scrollbar-thin scrollbar-thumb-card-border">
               {filteredMarkets.map((g) => {
-                const isHovered = hoveredSlug === g.slug;
+                const isActive = activeSlug === g.slug;
                 const localizedRegulator = geoContentTrans[g.slug]?.regulator || g.regulator;
                 const parts = localizedRegulator.split("—")[0]?.split("/");
                 const shortRegulator = (parts?.[0] || "").trim();
                 
                 return (
-                  <Link
+                  <div
                     key={g.slug}
-                    href={`/maerkte/${g.slug}`}
-                    className={`w-full text-start flex flex-col items-start gap-0.5 min-h-[56px] py-2.5 ps-4 pe-12 rounded-xl border border-transparent transition-all duration-fast relative group outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:border-transparent motion-reduce:transition-none motion-reduce:transform-none ${
-                      isHovered
-                        ? "bg-primary-soft border-card-border translate-x-1 rtl:-translate-x-1"
-                        : "hover:bg-primary-soft hover:border-card-border hover:translate-x-1 hover:rtl:-translate-x-1"
+                    id={`market-item-${g.slug}`}
+                    className={`w-full text-start flex flex-col items-start gap-0.5 py-3 ps-4 pe-4 rounded-xl border transition-all duration-300 relative group outline-none focus-visible:ring-2 focus-visible:ring-primary motion-reduce:transition-none ${
+                      isActive
+                        ? "bg-card border-card-border shadow-sm"
+                        : "border-transparent hover:bg-background-subtle cursor-pointer"
                     }`}
-                    onMouseEnter={() => handleMarketHover(g)}
-                    onFocus={() => handleMarketHover(g)}
-                    onMouseLeave={() => handleMarketHover(null)}
-                    onBlur={() => handleMarketHover(null)}
-                    aria-label={`${g.city}, ${g.country}. ${shortRegulator}`}
+                    onClick={() => {
+                      if (!isActive) handleMarketSelect(g);
+                    }}
                   >
-                    <span className="font-heading font-bold text-[17px] text-foreground">{g.city}</span>
-                    <span className="text-[13px] text-muted-foreground">
-                      {g.country} · {shortRegulator}
-                    </span>
-                    <ArrowRight 
-                      size={18} 
-                      className={`absolute end-4 top-1/2 -translate-y-1/2 text-primary transition-opacity duration-fast motion-reduce:transition-none ${
-                        isHovered ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-                      }`} 
-                    />
-                  </Link>
+                    <div className="flex w-full items-center justify-between">
+                      <div className="flex flex-col">
+                        <span className="font-heading font-bold text-[17px] text-foreground">{g.city}</span>
+                        <span className="text-[13px] text-muted-foreground">
+                          {g.country} · {shortRegulator}
+                        </span>
+                      </div>
+                      {!isActive && (
+                        <ArrowRight 
+                          size={18} 
+                          className="text-muted-foreground transition-transform group-hover:translate-x-1" 
+                        />
+                      )}
+                    </div>
+                    
+                    {/* Expanded Content */}
+                    {isActive && (
+                      <div className="mt-4 pt-4 border-t border-card-border w-full flex flex-col gap-3 animate-in fade-in slide-in-from-top-2 duration-300">
+                        <p className="text-sm text-muted-foreground">
+                          {geoContentTrans[g.slug]?.note || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-2 mt-1">
+                          <Link
+                            href={`/maerkte/${g.slug}`}
+                            className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
+                          >
+                            Marktseite öffnen
+                          </Link>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleMarketSelect(null);
+                            }}
+                            className="inline-flex items-center justify-center font-heading font-semibold rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle h-10 px-4 text-sm transition-colors"
+                          >
+                            Schließen
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 );
               })}
             </div>

@@ -1,0 +1,76 @@
+<!-- @dsCard group="Colors" -->
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<title>K-Aqua — Farben</title>
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { padding: 28px; }
+  .wrap { display: flex; flex-direction: column; gap: 24px; max-width: 880px; }
+  h2 { font-family: var(--font-heading); font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-foreground); }
+  .ramp { display: grid; grid-template-columns: repeat(10, 1fr); border-radius: 12px; overflow: hidden; border: 1px solid var(--card-border); }
+  .ramp div { height: 56px; display: flex; align-items: flex-end; padding: 6px; font: 600 10px var(--font-body); }
+  .sem { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .sw { border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; background: var(--card); }
+  .sw .c { height: 48px; }
+  .sw .l { padding: 8px 10px; font: 600 11.5px var(--font-body); color: var(--foreground); }
+  .sw .l small { display: block; font-weight: 400; color: var(--muted-foreground); }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .panel { border-radius: 16px; padding: 18px; border: 1px solid var(--card-border); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <h2>Brand-Ramp — Violett (Kern ≈ #5B2D8C)</h2>
+    <div class="ramp">
+      <div style="background:var(--brand-50)">50</div>
+      <div style="background:var(--brand-100)">100</div>
+      <div style="background:var(--brand-200)">200</div>
+      <div style="background:var(--brand-300)">300</div>
+      <div style="background:var(--brand-400);color:#fff">400</div>
+      <div style="background:var(--brand-500);color:#fff">500</div>
+      <div style="background:var(--brand-600);color:#fff">600</div>
+      <div style="background:var(--brand-700);color:#fff">700</div>
+      <div style="background:var(--brand-800);color:#fff">800</div>
+      <div style="background:var(--brand-900);color:#fff">900</div>
+    </div>
+  </div>
+  <div>
+    <h2>Aqua-Akzent</h2>
+    <div class="ramp" style="grid-template-columns: repeat(4, 1fr);">
+      <div style="background:var(--aqua-300)">300</div>
+      <div style="background:var(--aqua-400)">400</div>
+      <div style="background:var(--aqua-500);color:#fff">500</div>
+      <div style="background:var(--aqua-600);color:#fff">600</div>
+    </div>
+  </div>
+  <div>
+    <h2>Semantische Tokens (immer diese verwenden)</h2>
+    <div class="sem">
+      <div class="sw"><div class="c" style="background:var(--background)"></div><div class="l">--background<small>Seitengrund</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--background-subtle)"></div><div class="l">--background-subtle<small>Wechselsektionen</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--card)"></div><div class="l">--card<small>Kartenfläche</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--card-tint)"></div><div class="l">--card-tint<small>Hervorhebung</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--primary)"></div><div class="l">--primary<small>Aktionen, Links</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--primary-soft)"></div><div class="l">--primary-soft<small>Hover-Flächen, Icon-Chips</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--accent)"></div><div class="l">--accent<small>Akzentstriche, Einheiten</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--inverse-surface)"></div><div class="l">--inverse-surface<small>CTA-Bänder, Footer</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--foreground)"></div><div class="l">--foreground<small>Text</small></div></div>
+      <div class="sw"><div class="c" style="background:var(--muted-foreground)"></div><div class="l">--muted-foreground<small>Fließtext</small></div></div>
+    </div>
+  </div>
+  <div class="duo">
+    <div class="panel" data-theme="light" style="background:#FAF9F7">
+      <strong style="font-family:var(--font-heading)">Light</strong>
+      <p style="color:var(--muted-foreground);font-size:13.5px">Fast-weißer Grund, Karten reinweiß, Violett 600 als Primary.</p>
+    </div>
+    <div class="panel" data-theme="dark" style="background:#0A0A0F;color:oklch(0.94 0.008 300)">
+      <strong style="font-family:var(--font-heading)">Dark (OLED)</strong>
+      <p style="color:var(--muted-foreground);font-size:13.5px">#0A0A0F — nie reines Schwarz. Primary hellt auf Violett 400 auf.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+K-AQUA DROP-IN-PAKET
+Fertige Dateien fuer das Repository umutcantezgel-cpu/K-Aqua-V1 — kein KI-Agent noetig.
+
+WAS DAS IST
+
+Der Ordner repo/ spiegelt die Ordnerstruktur des Projekts und enthaelt 49 fertige Dateien:
+22 neue Dateien und 27 Ersatz-Versionen bestehender Dateien. Jede Ersatz-Version ist der
+unveraenderte Original-Inhalt des Hauptzweigs (Stand: 6. Juli 2026) PLUS der noetigen
+Ergaenzung — direkt aus dem echten Repository erzeugt, nicht nachgebaut. Es muss nichts
+mehr editiert oder interpretiert werden: nur kopieren, ueberschreiben, bauen.
+
+Inhaltlich: der durchsuchbare Produktkatalog (71 reale Artikelfamilien, 7 Kategorien) auf
+der Produktseite sowie 14 vertiefende Inhaltsabschnitte auf den bestehenden Seiten —
+vollstaendig dreisprachig (Deutsch, Englisch, Arabisch); die 9 weiteren Sprachdateien
+erhalten wie im Projekt ueblich den englischen Inhalt, damit die Schluessel-Paritaet gewahrt bleibt.
+
+EINBAU (5 SCHRITTE)
+
+1. Projektordner auf den aktuellen Stand des Hauptzweigs bringen:  git pull
+   WICHTIG: Wurde seit dem 6. Juli 2026 etwas am Repository geaendert, NICHT kopieren,
+   sondern zuerst melden — die Ersatzdateien basieren exakt auf diesem Stand und wuerden
+   neuere Aenderungen ueberschreiben.
+2. Arbeitszweig anlegen:  git checkout -b integration/deep-content
+3. Inhalt von repo/ ins Projekt kopieren, Dateien ueberschreiben. Sicherster Weg ist das
+   Terminal, ausgefuehrt im Ordner dieses Pakets:
+      cp -R repo/. /pfad/zum/projekt/          (macOS / Linux)
+      xcopy repo\* C:\pfad\zum\projekt\ /E /Y  (Windows)
+   Windows-Explorer geht auch (Inhalt von repo/ kopieren, im Projektordner einfuegen,
+   "Dateien ersetzen"). VORSICHT macOS-Finder: "Ersetzen" tauscht ganze ORDNER aus und
+   loescht deren uebrigen Inhalt — im Finder nur per gedrueckter Wahltaste ziehen und
+   "Zusammenfuehren" waehlen, sonst Terminal benutzen.
+4. Kontrolle: git status muss genau die Dateien aus DATEILISTE.txt als geaendert/neu zeigen.
+   Dann pruefen:  pnpm build   pnpm lint   pnpm typecheck   pnpm i18n:check
+   Alle vier muessen fehlerfrei durchlaufen.
+5. Ansehen mit pnpm dev — Sichtpruefung siehe unten. Danach committen und als Pull Request
+   zusammenfassen; erst nach Freigabe in den Hauptzweig uebernehmen.
+
+RUECKBAU
+
+Alles liegt auf dem Arbeitszweig. Kompletter Rueckzug:  git checkout main  und den
+Arbeitszweig loeschen. Es wurde nichts am Hauptzweig veraendert.
+
+SICHTPRUEFUNG NACH DEM EINBAU
+
+- Startseite: neuer Abschnitt mit Werk-Kennzahlen und Zertifikaten direkt VOR dem blauen
+  Abschluss-Band.
+- Produkte: fuenf neue Abschnitte (Rohrfamilien, umschaltbare Dimensionstabelle, Werkstoff,
+  Normen, FAQ) und dahinter der Katalog-Browser: 7 Kategorie-Chips, Suche, aufklappbare
+  Artikel mit Masstabellen. Summe der Chip-Zahlen: 71.
+- Produkte/Finder, Loesungen, CO2-Rechner, Academy, Trust Center, Partnerschaft, Service,
+  Unternehmen, News, Kontakt, Karriere, Referenzen: je neue Abschnitte am Seitenende.
+- Sprachen: /de, /en, /ar stichprobenartig — /ar spiegelt von rechts nach links.
+- Schmales Fenster (ca. 390px): Tabellen sind seitlich scrollbar.
+- Hinweis: die kurzen fachlichen Artikel-Hinweise im Katalog erscheinen absichtlich nur
+  auf Deutsch. Die Formteil-Texte in den Uebersetzungen ohne sichtbaren Abschnitt sind
+  bewusst mitgeliefert (Reserve) — kein Fehler.
+
+Soll doch ein KI-Agent kopieren: KI-PROMPT.txt verwenden.

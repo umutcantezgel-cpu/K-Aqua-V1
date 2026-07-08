@@ -55,7 +55,7 @@ export default async function ProduktePage({ params }: Props) {
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border">
+      <section className="relative overflow-hidden py-24 lg:py-32 kq-band kq-band--dune">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
@@ -93,14 +93,14 @@ export default async function ProduktePage({ params }: Props) {
               </Reveal>
             </div>
             <Reveal delay={0.16}>
-              <MediaSlot label={t("eyebrow")} aspectRatio="4/3.4" className="shadow-lift" />
+              <MediaSlot label={t("eyebrow")} aspectRatio="4/3.4" className="shadow-lift" shapeVariant="taper-r" />
             </Reveal>
           </div>
         </div>
       </section>
 
       {/* 4-Component Range System */}
-      <section className="py-20 bg-background-subtle border-b border-card-border">
+      <section className="py-24 lg:py-32 bg-background-subtle kq-band kq-band--slant-b">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-start">
             <SectionHead

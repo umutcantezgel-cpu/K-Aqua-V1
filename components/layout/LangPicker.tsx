@@ -73,8 +73,7 @@ export default function LangPicker() {
       {open && (
         <div
           className={clsx(
-            "absolute top-full mt-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none animate-in fade-in slide-in-from-top-2 duration-fast",
-            locale === 'ar' ? "left-0 origin-top-left" : "right-0 origin-top-right"
+            "absolute top-full mt-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none animate-in fade-in slide-in-from-top-2 duration-fast end-0 origin-top"
           )}
           role="listbox"
           aria-label={t('lang') || "Languages"}
@@ -89,17 +88,16 @@ export default function LangPicker() {
                 aria-selected={isSelected}
                 onClick={() => handleLanguageChange(lang.id)}
                 className={clsx(
-                  "flex items-center w-full min-h-[44px] px-4 text-left font-body text-[14px] transition-colors focus-visible:bg-background-subtle focus-visible:text-foreground hover:bg-background-subtle hover:text-foreground active:scale-[0.98] outline-none cursor-pointer",
-                  isSelected ? "font-bold text-primary bg-primary-soft/30" : "text-muted-foreground",
-                  locale === 'ar' && "text-right flex-row-reverse"
+                  "flex items-center w-full min-h-[44px] px-4 text-start font-body text-[14px] transition-colors focus-visible:bg-background-subtle focus-visible:text-foreground hover:bg-background-subtle hover:text-foreground active:scale-[0.98] outline-none cursor-pointer",
+                  isSelected ? "font-bold text-primary bg-primary-soft/30" : "text-muted-foreground"
                 )}
               >
-                <span className={clsx("uppercase font-bold tracking-wider text-[12px] min-w-[24px]", locale === 'ar' ? "ml-2" : "mr-2")}>
+                <span className="uppercase font-bold tracking-wider text-[12px] min-w-[24px] me-2">
                   {lang.id}
                 </span>
                 <span className="flex-1">{lang.name}</span>
                 {isSelected && (
-                  <Check className={clsx("w-4 h-4 shrink-0 text-primary", locale === 'ar' ? "mr-auto" : "ml-auto")} />
+                  <Check className="w-4 h-4 shrink-0 text-primary ms-auto" />
                 )}
               </button>
             );

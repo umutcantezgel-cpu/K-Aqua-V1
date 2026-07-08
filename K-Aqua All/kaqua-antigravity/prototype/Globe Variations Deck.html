@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="design_doc_mode" content="canvas">
+  <title>K-Aqua — Globus-Varianten (Design-Review)</title>
+  <link rel="stylesheet" href="kaqua-tokens.css" />
+  <link rel="stylesheet" href="kaqua-globe-variants.css" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    body { margin: 0; }
+    .frame {
+      width: 420px; background: var(--card); border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg); box-shadow: var(--shadow-lift);
+      display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 28px 20px 22px;
+    }
+    .frame canvas { opacity: 1 !important; transform: none !important; }
+    .frame .cap { font-family: var(--font-heading); font-weight: 700; font-size: 14px; color: var(--muted-foreground); letter-spacing: 0.02em; }
+    .rail { display: flex; gap: 20px; }
+    .rail .frame { width: 260px; padding: 20px 16px 16px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="kaqua-globe-engine.js"></script>
+  <script type="text/babel" src="kaqua-globe-variants.jsx"></script>
+  <script type="text/babel">
+    function Frame({ label, children }) {
+      return <div className="frame"><span className="cap">{label}</span>{children}<span className="cap" style={{ opacity: 0.4, fontWeight: 500 }}>textfrei · eigene Animation</span></div>;
+    }
+    function Deck() {
+      return (
+        <React.Fragment>
+          <div style={{ position: 'absolute', left: 40, top: 24, fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: 22 }}>Globus-Varianten — Design-Review</div>
+          <div style={{ position: 'absolute', left: 40, top: 100, display: 'flex', gap: 28 }}>
+            <Frame label="01 — Clean Blueprint"><GlobeBlueprint size={360} /></Frame>
+            <Frame label="02 — Purple Fluid Core"><GlobeFluid size={360} /></Frame>
+            <Frame label="03 — Telemetry Matrix"><GlobeMatrix size={360} /></Frame>
+            <Frame label="04 — Orbit Network"><GlobeNetwork size={360} /></Frame>
+            <Frame label="05 — Contour Grid"><GlobeContour size={360} /></Frame>
+          </div>
+          <div style={{ position: 'absolute', left: 40, top: 620, fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: 16, color: 'var(--muted-foreground)' }}>Im Einsatz: gleiche Varianten, kleiner, als Scroll-Reveal-Segmente auf Produkte / Lösungen / Trust / Karriere</div>
+          <div style={{ position: 'absolute', left: 40, top: 660, display: 'flex', gap: 20 }}>
+            <div className="rail"><Frame label="Blueprint · Produkte"><GlobeBlueprint size={220} /></Frame></div>
+            <div className="rail"><Frame label="Fluid · Lösungen"><GlobeFluid size={220} /></Frame></div>
+            <div className="rail"><Frame label="Matrix · Trust Center"><GlobeMatrix size={220} /></Frame></div>
+            <div className="rail"><Frame label="Fluid · Karriere"><GlobeFluid size={220} /></Frame></div>
+            <div className="rail"><Frame label="Network · Kontakt"><GlobeNetwork size={220} /></Frame></div>
+            <div className="rail"><Frame label="Contour · Karriere/CV"><GlobeContour size={220} /></Frame></div>
+          </div>
+        </React.Fragment>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Deck />);
+  </script>
+</body>
+</html>

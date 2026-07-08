@@ -1,0 +1,122 @@
+{
+  "markdown": "# PP-R/PP-RCT Pipes and Fittings for drinkable hot and cold water\n\n[![](https://www.k-aqua.de/Pics/products_kaqua_house.jpg)](https://www.k-aqua.de/Pics/products_kaqua_house_zoom.jpg)\n\n## K-Aqua product range\n\nThe K-Aqua PP-R/PP-RCT piping system includes different types of pipes (mono layer and multilayer reinforced pipes with glass fiber) with several wall thicknesses in SDR 6, SDR 7,4, SDR9, SDR 11 and SDR 17. Depending of the pipe type the available dimensions starts from size 20 mm up to 630 mm. The fittings are available in sizes 20 mm up to 315 mm as well ascomplementary products like valves, unions, cutting tools, welding equipment, welding devices, and more...\n\n![](https://www.k-aqua.de/Pics/mobile_products.jpg)\n\n[PDF K-Aqua product range](https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf)",
+  "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-17282009-c8fe-4002-a37f-9e012a27030b.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1781708063&Signature=vVlYdPlVRAt4XzUN9AUDrkWYMr5IrSQkeSwJ3bol%2FieccVDQ%2BAxiTwt1CvEyoYK2yfO70PCiqSmDjXdOl2E7%2BSqR%2BRPcBpCkQ33EtNFC0YUqgISKx2Vi6ghnkPR3EAprpkySfOe9GCgL70EmPfuagphJE43FIVrFX4V3P7IKP%2FW7tXOontG2fT1p19w7o1Y5KTYQpPKflmAYnXJV5VBV8ofcxSUT67xVA55s8A5Dr8F9eQgzV4fVq3ghBuSxzXkuE004v0run4Ip92ahJS70yTznPszOHQC%2FSikYqiAmtpGQoaXUiwx5SK3jvA%2FQ074gTG2onhj7odBTP%2FumMTGOFw%3D%3D",
+  "branding": {
+    "colorScheme": "dark",
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "colors": {
+      "primary": "#7E65A5",
+      "secondary": "#8064A9",
+      "accent": "#5B2D8C",
+      "background": "#FFFFFF",
+      "textPrimary": "#5B2D8C",
+      "link": "#5B2D8C"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Roboto",
+        "heading": "Roboto"
+      },
+      "fontStacks": {
+        "heading": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "body": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "paragraph": [
+          "Roboto",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "28.8px",
+        "h2": "16px",
+        "body": "14px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "0px"
+    },
+    "components": {},
+    "images": {
+      "logo": "https://www.k-aqua.de/Svgs/kaqua_logo.svg",
+      "favicon": null,
+      "ogImage": null,
+      "logoHref": "index.php",
+      "logoAlt": "logo_k-aqua"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+      "confidence": 0.95,
+      "source": "llm"
+    },
+    "personality": {
+      "tone": "professional",
+      "energy": "medium",
+      "targetAudience": "industrial and commercial clients"
+    },
+    "designSystem": {
+      "framework": "custom",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0,
+      "colors": 0.9,
+      "overall": 0.45
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL. It is the most prominent logo in the header area.",
+          "confidence": 0.95
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": false,
+        "llmSucceeded": false
+      }
+    }
+  },
+  "metadata": {
+    "title": "K-Aqua - Products",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "scrapeId": "019eb206-2dfb-75d5-af7f-109ab455288f",
+    "sourceURL": "https://www.k-aqua.de/products.php",
+    "url": "https://www.k-aqua.de/products.php",
+    "statusCode": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "stealth",
+    "indexId": "3a8de6fb-9bad-4cee-ae97-7aea3dc55032",
+    "creditsUsed": 5
+  },
+  "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan.",
+  "html": "<!DOCTYPE html><html>\n\n<body class=\"page-id-2\">\n\n<div class=\"page\">\n\n    \n\n\n    <section class=\"main\">\n\n        <div class=\"main-inner\">\n\n            \n\n            <div class=\"content-main\">\n\n                <h1>PP-R/PP-RCT Pipes and Fittings for drinkable hot and cold water</h1>\n\n                <div class=\"pic-in-text-box\">\n                    <div class=\"pic-box-inner\">\n                        <a href=\"https://www.k-aqua.de/Pics/products_kaqua_house_zoom.jpg\" target=\"_blank\"> <img src=\"https://www.k-aqua.de/Pics/products_kaqua_house.jpg\"></a>\n                    </div>\n                </div>\n\n                <h2>K-Aqua product range</h2>\n                <p>\n                    The K-Aqua PP-R/PP-RCT piping system includes different types of pipes (mono layer and multilayer reinforced pipes with glass fiber) with several wall thicknesses in SDR 6, SDR 7,4, SDR9, SDR 11 and SDR 17. Depending of the pipe type the available dimensions starts from size 20 mm up to 630 mm. The fittings are available in sizes 20 mm up to 315 mm as well ascomplementary products like valves, unions, cutting tools, welding equipment, welding devices, and more...                </p>\n                <p>\n                                    </p>\n\n                <div class=\"pic-hidden\">\n                    <div class=\"pic-box-inner\">\n                        <img src=\"https://www.k-aqua.de/Pics/mobile_products.jpg\">\n                    </div>\n                </div>\n\n                <p class=\"space\">\n                                    </p>\n\n                <div class=\"download\">\n                    <a href=\"https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf\" class=\"arrow\" target=\"_blank\">PDF K-Aqua product range</a>\n                </div>\n\n            </div>\n\n        </div>\n\n    </section>\n\n</div>\n\n\n\n\n</body></html>",
+  "links": [
+    "https://www.k-aqua.de/Pics/products_kaqua_house_zoom.jpg",
+    "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+  ],
+  "images": [
+    "https://www.k-aqua.de/Pics/products_kaqua_house.jpg",
+    "https://www.k-aqua.de/Pics/mobile_products.jpg"
+  ],
+  "json": {
+    "company_name": "K-Aqua",
+    "company_description": "The K-Aqua PP-R/PP-RCT piping system includes different types of pipes (mono layer and multilayer reinforced pipes with glass fiber) with several wall thicknesses in SDR 6, SDR 7,4, SDR 9, SDR 11 and SDR 17. The available dimensions start from size 20 mm up to 630 mm. The fittings are available in sizes 20 mm up to 315 mm as well as complementary products like valves, unions, cutting tools, welding equipment, welding devices, and more."
+  },
+  "summary": "The K-Aqua product range features PP-R/PP-RCT pipes and fittings designed for both hot and cold drinking water applications. The system includes mono layer and multilayer reinforced pipes, available in various wall thicknesses (SDR 6, SDR 7.4, SDR 9, SDR 11, SDR 17) and sizes ranging from 20 mm to 630 mm. Fittings are offered in sizes from 20 mm to 315 mm, along with complementary products such as valves, unions, cutting tools, and welding equipment."
+}

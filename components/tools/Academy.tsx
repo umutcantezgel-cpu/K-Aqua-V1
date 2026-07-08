@@ -6,13 +6,15 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
+import { LocalVideo } from "@/components/ui/LocalVideo";
 import { Play, Flame, Award, ArrowRight } from "@/components/ui/icon";
 
-const YOUTUBE_URLS = [
-  "https://www.youtube.com/watch?v=d56p048YB2o&t=20s",
-  "https://www.youtube.com/watch?v=yD99teROIKc&t=59s",
-  "https://www.youtube.com/watch?v=ob2wMFZgm0k",
-  "https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s"
+// Mappings for Academy videos: local path and YouTube SEO fallback
+const VIDEO_ASSETS = [
+  { src: '/videos/socket-welding-hand.mp4', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
+  { src: '/videos/socket-welding-machine.mp4', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
+  { src: '/videos/electrofusion.mp4', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
+  { src: '/videos/butt-fusion.mp4', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
 const CORRECT_ANSWERS = [1, 0, 1, 1, 1];
@@ -131,25 +133,20 @@ export function Academy({ data }: AcademyProps) {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {data.videos.map((video, idx) => {
-              const youtubeUrl = YOUTUBE_URLS[idx] || "";
+              const asset = VIDEO_ASSETS[idx] || VIDEO_ASSETS[0];
 
               return (
                 <Reveal key={video.t} delay={idx * 0.07}>
-                  <a
-                    href={youtubeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex flex-col h-full outline-none"
-                  >
+                  <div className="flex flex-col h-full">
                     <Card className="h-full flex flex-col gap-4 text-start p-6 hover:-translate-y-1 transition-all duration-200">
-                      {/* Gradient Play Preview Container */}
-                      <div className="aspect-video w-full rounded-lg bg-gradient-to-br from-inverse-surface to-brand-800 grid place-items-center text-white relative overflow-hidden">
-                        <span className="w-12 h-12 rounded-full bg-white/15 border border-white/30 grid place-items-center group-hover:bg-white/25 transition-colors duration-200">
-                          <Play size={24} className="text-white fill-white" />
-                        </span>
-                      </div>
+                      <LocalVideo
+                        src={asset.src}
+                        title={video.t}
+                        description={video.s}
+                        fallbackYoutubeUrl={asset.fallback}
+                      />
                       <div className="flex flex-col gap-1 mt-2">
-                        <h3 className="font-heading font-bold text-base text-foreground leading-snug group-hover:text-primary transition-colors duration-200">
+                        <h3 className="font-heading font-bold text-base text-foreground leading-snug">
                           {video.t}
                         </h3>
                         <p className="text-tiny text-muted-foreground">
@@ -157,7 +154,7 @@ export function Academy({ data }: AcademyProps) {
                         </p>
                       </div>
                     </Card>
-                  </a>
+                  </div>
                 </Reveal>
               );
             })}

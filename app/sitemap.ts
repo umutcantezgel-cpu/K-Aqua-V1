@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { GEO_MARKETS } from '@/lib/data/geo';
+import { getAllProducts } from '@/lib/products';
 
 const locales = ['de', 'en', 'ar'];
 
@@ -46,6 +47,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url,
+        lastModified: new Date(),
+        changeFrequency: route === '' ? 'weekly' : 'monthly',
+        priority: route === '' ? 1.0 : 0.8,
         alternates: {
           languages: alternateLanguages,
         },
@@ -67,6 +71,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       entries.push({
         url,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.9,
+        alternates: {
+          languages: alternateLanguages,
+        },
+      });
+    }
+  }
+
+  // 3. Dynamic product routes (all products * 3 locales)
+  const products = getAllProducts();
+  for (const product of products) {
+    const route = `produkte/${product.category}/${product.slug}`;
+    for (const locale of locales) {
+      const url = `${domain}/${locale}/${route}`;
+
+      const alternateLanguages: Record<string, string> = {};
+      for (const loc of locales) {
+        alternateLanguages[loc] = `${domain}/${loc}/${route}`;
+      }
+      alternateLanguages['x-default'] = `${domain}/de/${route}`;
+
+      entries.push({
+        url,
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.6,
         alternates: {
           languages: alternateLanguages,
         },

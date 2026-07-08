@@ -1,0 +1,50 @@
+<!-- @dsCard group="Components" -->
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<title>K-Aqua — Formulare</title>
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { padding: 28px; }
+  .wrap { display: flex; flex-direction: column; gap: 24px; max-width: 680px; }
+  h2 { font-family: var(--font-heading); font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-foreground); margin-bottom: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <h2>CheckItem — Paket-Builder / Rechner</h2>
+    <div style="display:grid;gap:10px">
+      <label class="k-doc-check is-on">
+        <input type="checkbox" checked />
+        <span><strong style="display:block;font-family:var(--font-heading)">ISO-Zertifikate <span style="color:var(--primary)">3 PDFs</span></strong>
+        <span style="font-size:13.5px;color:var(--muted-foreground)">9001, 14001, 50001 — DE + EN</span></span>
+      </label>
+      <label class="k-doc-check">
+        <input type="checkbox" />
+        <span><strong style="display:block;font-family:var(--font-heading)">Produktkatalog</strong>
+        <span style="font-size:13.5px;color:var(--muted-foreground)">Vollständiges Programm mit Artikeln</span></span>
+      </label>
+    </div>
+  </div>
+  <div>
+    <h2>Slider — Rechner-Muster</h2>
+    <div class="k-card" style="gap:6px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline">
+        <label for="r1" style="font-weight:600;font-size:15px">Leitungslänge</label>
+        <span style="font-family:var(--font-heading);font-weight:700;color:var(--primary)">1.200 m</span>
+      </div>
+      <input id="r1" class="k-range" type="range" min="50" max="5000" step="50" value="1200" />
+    </div>
+  </div>
+  <div>
+    <h2>Quiz-Option — Antwort-Buttons</h2>
+    <div style="display:grid;gap:8px">
+      <button class="k-quiz-opt">Sofort hinschauen, Ursache finden</button>
+      <button class="k-quiz-opt">Erstmal weiterlaufen lassen</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

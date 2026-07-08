@@ -43,11 +43,14 @@ const K_DL_LINKS = [
   "https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf",
 ];
 
-const K_VIDEO_LINKS = [
-  "https://www.youtube.com/watch?v=d56p048YB2o&t=20s",
-  "https://www.youtube.com/watch?v=yD99teROIKc&t=59s",
-  "https://www.youtube.com/watch?v=ob2wMFZgm0k",
-  "https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s",
+import { LocalVideo } from "@/components/ui/LocalVideo";
+
+// Mappings for Service videos: local path and YouTube SEO fallback
+const VIDEO_ASSETS = [
+  { src: '/videos/socket-welding-hand.mp4', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
+  { src: '/videos/socket-welding-machine.mp4', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
+  { src: '/videos/electrofusion.mp4', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
+  { src: '/videos/butt-fusion.mp4', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
 
@@ -144,32 +147,32 @@ export default async function ServicePage({ params }: Props) {
               />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-              {videos.map((v, i) => (
-                <Reveal key={v.t} delay={i * 0.08} className="h-full">
-                  <a
-                    href={K_VIDEO_LINKS[i]}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="no-underline block h-full focus-visible:outline-none"
-                  >
-                    <Card className="h-full flex flex-col justify-between text-start p-6 hover:border-primary transition-colors">
-                      <div>
-                        <div className="aspect-video rounded-lg bg-[linear-gradient(135deg,var(--inverse-surface),oklch(0.3_0.08_302))] flex items-center justify-center text-white relative overflow-hidden group mb-4">
-                          <span className="w-14 h-14 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/30 group-hover:scale-110 transition-transform">
-                            <Play className="w-6 h-6 fill-white text-white" />
-                          </span>
+              {videos.map((v, i) => {
+                const asset = VIDEO_ASSETS[i] || VIDEO_ASSETS[0];
+                return (
+                  <Reveal key={v.t} delay={i * 0.08} className="h-full">
+                    <div className="block h-full">
+                      <Card className="h-full flex flex-col justify-between text-start p-6 hover:-translate-y-1 transition-all duration-200">
+                        <div>
+                          <LocalVideo
+                            src={asset.src}
+                            title={v.t}
+                            description={v.s}
+                            fallbackYoutubeUrl={asset.fallback}
+                            className="mb-4"
+                          />
+                          <h3 className="font-heading font-bold text-[17px] text-foreground leading-snug mb-2">
+                            {v.t}
+                          </h3>
+                          <p className="text-small text-muted-foreground leading-normal">
+                            {v.s}
+                          </p>
                         </div>
-                        <h3 className="font-heading font-bold text-[17px] text-foreground leading-snug mb-2">
-                          {v.t}
-                        </h3>
-                        <p className="text-small text-muted-foreground leading-normal">
-                          {v.s}
-                        </p>
-                      </div>
-                    </Card>
-                  </a>
-                </Reveal>
-              ))}
+                      </Card>
+                    </div>
+                  </Reveal>
+                );
+              })}
             </div>
           </div>
         </section>

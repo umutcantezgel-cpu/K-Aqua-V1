@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useEffect, useRef } from 'react';
@@ -20,13 +21,17 @@ import {
   Users,
   Newspaper,
   Phone,
+  LucideIcon,
+  MessageSquare
 } from 'lucide-react';
+import LangPicker from './LangPicker';
+import ThemeToggle from './ThemeToggle';
 
 interface MegaMenuProps {
   onClose: () => void;
 }
 
-const ICON_MAP: Record<string, React.ElementType> = {
+const ICON_MAP: Record<string, LucideIcon> = {
   products: Package,
   finder: Search,
   co2: Leaf,
@@ -46,10 +51,19 @@ const ICON_MAP: Record<string, React.ElementType> = {
 
 const MEGA_LAYOUT = [
   {
+    group: 'products',
+    items: [
+      { id: 'finder', href: '/produkte/finder' },
+      { id: 'menu.pipes', href: '/produkte/finder?category=Pipes' },
+      { id: 'menu.fittings', href: '/produkte/finder?category=Fittings' },
+      { id: 'menu.transition', href: '/produkte/finder?category=Transition Fittings' },
+      { id: 'menu.valves', href: '/produkte/finder?category=Valves' },
+      { id: 'menu.tools', href: '/produkte/finder?category=Tools' },
+    ],
+  },
+  {
     group: 'tools',
     items: [
-      { id: 'products', href: '/produkte' },
-      { id: 'finder', href: '/produkte/finder' },
       { id: 'co2', href: '/co2-rechner' },
       { id: 'rfq', href: '/projektanfrage' },
       { id: 'solutions', href: '/loesungen' },
@@ -75,7 +89,7 @@ const MEGA_LAYOUT = [
       { id: 'contact', href: '/kontakt' },
     ],
   },
-] as const;
+];
 
 export default function MegaMenu({ onClose }: MegaMenuProps) {
   const t = useTranslations();
@@ -192,42 +206,33 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: shouldReduceMotion ? 0 : 0.03,
-        delayChildren: shouldReduceMotion ? 0 : 0.08,
+        staggerChildren: shouldReduceMotion ? 0 : 0.04,
+        delayChildren: shouldReduceMotion ? 0 : 0.25,
       },
     },
   };
 
   const sectionVariants = {
-    hidden: {
-      opacity: 0,
-      y: shouldReduceMotion ? 0 : 20,
-    },
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 25 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
         type: 'spring',
         stiffness: 300,
-        damping: 28,
-        staggerChildren: shouldReduceMotion ? 0 : 0.025,
+        damping: 30,
+        staggerChildren: shouldReduceMotion ? 0 : 0.03,
       },
     },
   };
 
   const itemVariants = {
-    hidden: {
-      opacity: 0,
-      y: shouldReduceMotion ? 0 : 10,
-    },
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, scale: 0.98 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        type: 'spring',
-        stiffness: 400,
-        damping: 30,
-      },
+      scale: 1,
+      transition: { type: 'spring', stiffness: 350, damping: 25 },
     },
   };
 
@@ -257,7 +262,15 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
             </span>
             <div className="k-mega-group">
               {sec.items.map((item) => {
-                const [title, subtitle] = getPageMeta(item.id);
+                let title = '';
+                let subtitle = '';
+                if (item.id.startsWith('menu.')) {
+                  title = t(item.id as any);
+                } else {
+                  const [transTitle, sub] = getPageMeta(item.id);
+                  title = transTitle;
+                  subtitle = sub;
+                }
                 const isActive = pathname === item.href;
                 const IconComp = ICON_MAP[item.id] || Package;
                 return (
@@ -285,6 +298,25 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
             </div>
           </motion.section>
         ))}
+
+        {/* Mobile Action Bar (Only visible on small screens where header items are hidden) */}
+        <motion.div
+          className="flex sm:hidden items-center justify-between gap-4 mt-4 pt-6 border-t border-card-border col-span-full"
+          variants={sectionVariants}
+        >
+          <div className="flex items-center gap-2">
+            <LangPicker />
+            <ThemeToggle />
+          </div>
+          <Link
+            href="/projektanfrage"
+            onClick={onClose}
+            className="flex-1 inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-xl transition-all duration-fast ease-out bg-primary text-primary-foreground hover:bg-primary-hover h-11 px-4 text-sm"
+          >
+            <MessageSquare size={18} />
+            {t('quote')}
+          </Link>
+        </motion.div>
       </motion.div>
     </div>
   );

@@ -1,0 +1,13 @@
+ERGÄNZUNG FÜR DIE BESTEHENDE DATEI components/ui/icon.tsx
+(nur diese eine Ergänzung — sonst nichts an der Datei ändern)
+
+Die Datei exportiert bereits viele benannte Icons nach einem einheitlichen Muster
+auf Basis der eingebundenen Bibliothek lucide-react. Ergänze nach exakt diesem
+Muster einen weiteren Export für das "Chevron nach unten"-Symbol, unter dem
+Exportnamen: ChevronDown
+
+Typisches Muster (an das tatsächlich vorgefundene Muster der Datei anpassen,
+falls es leicht abweicht):
+
+import { ChevronDown as LucideChevronDown } from "lucide-react";
+export const ChevronDown = createIcon(LucideChevronDown);

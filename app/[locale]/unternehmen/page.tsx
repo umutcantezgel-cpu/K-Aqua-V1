@@ -55,7 +55,7 @@ export default async function UnternehmenPage({ params }: Props) {
       <JsonLd schema={webPageSchema} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
+        <section className="relative overflow-hidden py-24 lg:py-32 kq-band kq-band--slant-b">
           <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
           <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
             <Reveal>
@@ -78,11 +78,11 @@ export default async function UnternehmenPage({ params }: Props) {
         </section>
 
         {/* History / Partner Section */}
-        <section className="py-20 bg-background border-b border-card-border">
+        <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <Reveal>
-                <MediaSlot label={t("h2")} aspectRatio="4/3" className="shadow-lift" />
+                <MediaSlot label={t("h2")} aspectRatio="4/3" className="shadow-lift" shapeVariant="sweep-r" />
               </Reveal>
               <Reveal delay={0.12}>
                 <div className="text-start flex flex-col gap-6">

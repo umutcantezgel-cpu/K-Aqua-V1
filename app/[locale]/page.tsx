@@ -1,6 +1,6 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from '@/components/ui/icon';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { StatNumber } from '@/components/ui/StatNumber';
@@ -10,8 +10,8 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
-import { constructMetadata, getOrganizationJsonLd } from '@/lib/seo/metadata';
-import JsonLd from '@/components/seo/JsonLd';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { getOrganizationSchema, getLocalBusinessSchema } from '@/lib/seo/schema';
 import type { Metadata } from 'next';
 
 const DOT = '•';
@@ -119,7 +119,8 @@ export default async function Page({ params }: Props) {
     { t: tHomex('cards.2.t'), d: tHomex('cards.2.d') },
   ];
 
-  const orgJsonLd = await getOrganizationJsonLd(locale);
+  const orgJsonLd = getOrganizationSchema();
+  const localBusinessJsonLd = getLocalBusinessSchema();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const webSiteJsonLd = {
     "@context": "https://schema.org",
@@ -130,7 +131,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      <JsonLd schema={[orgJsonLd, webSiteJsonLd]} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([orgJsonLd, localBusinessJsonLd, webSiteJsonLd]) }} />
       {/* 1) Hero (Hero-Scrollytelling) */}
       <HeroScrolly />
 
@@ -161,7 +162,7 @@ export default async function Page({ params }: Props) {
       <HomeBuyers />
 
       {/* 5) Tools Bento */}
-      <section className="py-20 bg-background border-t border-card-border">
+      <section className="py-24 lg:py-32 bg-background kq-band kq-band--slant-b">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={tHome('toolsEyebrow')}
@@ -202,7 +203,7 @@ export default async function Page({ params }: Props) {
       </section>
 
       {/* 6) "Branche vs. K-Aqua"-Vergleich */}
-      <section className="py-20 bg-background border-t border-card-border">
+      <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={tHomex('vsEyebrow')}
@@ -245,7 +246,7 @@ export default async function Page({ params }: Props) {
       </section>
 
       {/* 7) Unternehmens-Bento */}
-      <section className="py-20 bg-background border-t border-card-border">
+      <section className="py-24 lg:py-32 bg-background kq-band kq-band--dune">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={tHomex('coEyebrow')}
@@ -276,7 +277,7 @@ export default async function Page({ params }: Props) {
                 </div>
               </div>
               <div className="w-full md:w-1/3 shrink-0">
-                <MediaSlot label={tHomex('kesselTitle')} aspectRatio="4/3" />
+                <MediaSlot label={tHomex('kesselTitle')} aspectRatio="4/3" shapeVariant="sweep-r" />
               </div>
             </Card>
 
@@ -291,7 +292,7 @@ export default async function Page({ params }: Props) {
                 </p>
               </div>
               <div className="mt-6 flex flex-col gap-4">
-                <MediaSlot label={tHomex('worldTitle')} aspectRatio="16/9" />
+                <MediaSlot label={tHomex('worldTitle')} aspectRatio="16/9" shapeVariant="sweep-l" />
                 <Button
                   variant="ghost"
                   href="/referenzen"

@@ -6,7 +6,8 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Chip } from '@/components/ui/Chip';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
+import { ArrowRight } from '@/components/ui/icon';
 
 export default function HomeBuyers() {
   const t = useTranslations('buyers');

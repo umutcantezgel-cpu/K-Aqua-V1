@@ -13,6 +13,7 @@ import { Card } from "@/components/ui/Card";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { StepFlow } from "@/components/ui/StepFlow";
 import { Check } from "@/components/ui/icon";
+import EnterpriseSection from "./EnterpriseSection";
 
 interface Segment {
   t: string;
@@ -29,6 +30,8 @@ export async function SolutionsDeep() {
 
   return (
     <React.Fragment>
+      <EnterpriseSection />
+      
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="solutions-segments">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>

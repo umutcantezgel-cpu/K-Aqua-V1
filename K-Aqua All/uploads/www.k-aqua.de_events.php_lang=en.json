@@ -1,0 +1,116 @@
+{
+  "markdown": "# Visit K-Aqua on the following events",
+  "screenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b71447f0-cbd2-40a7-8d1b-2502d0de60e2.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1781708143&Signature=qMaf8I%2BmdSSlbdw0KbGDm7OFSnFrvQEyCmB3dJxQGzvni%2FiER7MR7BV4Zg4fWwqhtGrrbJskkFYNt8gSaWMFFciuVxDMTmAV5RjPFrvQfmC82ZMa0GDePx%2FGBUPr4BQ1lCDaAmGNXDB4m76kQzetRe7ib%2FljaosKXXr62N8z5tF0H%2B7c5641bSmV9qYGjoTg76xmtvJWdvQmrbDRI0EnkvrGXPeMgpq2Ke%2Fk5h5cRDsybLydbaGDoDo03JI40JO1ZWQar0aDQj%2Fn%2FEAyepYzYQxPOyZX7%2B6quhyuQdijV5I%2FL6ZfuSowVntahB4%2FwDjejOmLiqKlyprCqYMVeU0Czg%3D%3D",
+  "branding": {
+    "colorScheme": "dark",
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "colors": {
+      "primary": "#7E65A5",
+      "secondary": "#8064A9",
+      "accent": "#5B2D8C",
+      "background": "#FFFFFF",
+      "textPrimary": "#5B2D8C",
+      "link": "#5B2D8C"
+    },
+    "typography": {
+      "fontFamilies": {
+        "primary": "Roboto",
+        "heading": "Roboto"
+      },
+      "fontStacks": {
+        "heading": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "body": [
+          "Roboto",
+          "sans-serif"
+        ],
+        "paragraph": [
+          "Roboto",
+          "sans-serif"
+        ]
+      },
+      "fontSizes": {
+        "h1": "28.8px",
+        "h2": "28.8px",
+        "body": "14px"
+      }
+    },
+    "spacing": {
+      "baseUnit": 4,
+      "borderRadius": "0px"
+    },
+    "components": {},
+    "images": {
+      "logo": "https://www.k-aqua.de/Svgs/kaqua_logo.svg",
+      "favicon": null,
+      "ogImage": null,
+      "logoHref": "index.php",
+      "logoAlt": "logo_k-aqua"
+    },
+    "__llm_logo_reasoning": {
+      "selectedIndex": 0,
+      "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL.",
+      "confidence": 0.95,
+      "source": "llm"
+    },
+    "personality": {
+      "tone": "professional",
+      "energy": "medium",
+      "targetAudience": "business professionals"
+    },
+    "designSystem": {
+      "framework": "custom",
+      "componentLibrary": ""
+    },
+    "confidence": {
+      "buttons": 0,
+      "colors": 0.9,
+      "overall": 0.45
+    },
+    "__llm_metadata": {
+      "logoSelection": {
+        "llmCalled": true,
+        "llmSucceeded": true,
+        "finalSource": "llm",
+        "rawLogoSelection": {
+          "selectedLogoIndex": 0,
+          "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand name 'K-Aqua' from the page title and URL.",
+          "confidence": 0.95
+        }
+      },
+      "buttonClassification": {
+        "llmCalled": false,
+        "llmSucceeded": false
+      }
+    }
+  },
+  "metadata": {
+    "title": "K-Aqua - Events",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "scrapeId": "019eb206-af05-700e-89c0-ebcee260fe29",
+    "sourceURL": "https://www.k-aqua.de/events.php?lang=en",
+    "url": "https://www.k-aqua.de/events.php?lang=en",
+    "statusCode": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "timezone": "America/New_York",
+    "proxyUsed": "stealth",
+    "indexId": "7e4954f3-07bb-4c61-a000-27faba71c5fa",
+    "creditsUsed": 5
+  },
+  "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan.",
+  "html": "<!DOCTYPE html><html>\n\n<body class=\"page-id-2\">\n\n<div class=\"page\">\n\n    \n\n\n    <section class=\"main\">\n\n        <div class=\"main-inner\">\n\n            \n\n            <div class=\"content-main\">\n\n                <h1>Visit K-Aqua on the following events</h1>\n\t\t\t\t\n\t\t\t\t<div class=\"events-wrap\">\n                    <div class=\"events-inner\">\n<!--\t\t\t\t\t\t<div class=\"event-item\">-->\n<!--                            <img src=\"Pics/events_aquatherm_moscow.jpg\" />-->\n<!--                            <div class=\"image-caption\">-->\n<!--                                --><!--                            </div>-->\n<!--                        </div>-->\n<!--                        <div class=\"event-item\">-->\n<!--                            <img src=\"Pics/events_mce_2018.jpg\" />-->\n<!--                            <div class=\"image-caption\">-->\n<!--                                --><!--                            </div>-->\n<!--                        </div>-->\n                        <!--\n\t\t\t\t\t\t<div class=\"event-item\">\n                            <img src=\"Pics/events_project_qatar.jpg\" />\n                            <div class=\"image-caption\">\n                                <b>Project Qatar</b></br>Qatar</br>08.05. - 11.05.2017                            </div>\n                        </div>\n                        -->\n<!--                        <div class=\"event-item\">-->\n<!--                            <img src=\"Pics/events_big5.jpg\" />-->\n<!--                            <div class=\"image-caption\">-->\n<!--                                --><!--                            </div>-->\n<!--                        </div>-->\n                    </div>\n                </div>\n\t\t\t\t<!--\n                <div class=\"events-wrap\">\n                    <div class=\"events-inner\">\n                        <div class=\"event-item\">\n                            <img src=\"Pics/events_big5.jpg\" />\n                            <div class=\"image-caption\">\n                                <b>Big 5 Show 2015</b></br>Dubai</br>23.11. - 26.11.2015                            </div>\n                        </div>\n                        <div class=\"event-item\">\n                            <img src=\"Pics/events_aquatherm.jpg\" />\n                            <div class=\"image-caption\">\n                                <b>Aquatherm 2016</b></br>Moscow</br>02.02. - 05.02.2016                            </div>\n                        </div>\n                        <div class=\"event-item\">\n                            <img src=\"Pics/events_mce.jpg\" />\n                            <div class=\"image-caption\">\n                                <b>MCE 2016</b></br>Milano</br>15.03. - 18.03.2016                            </div>\n                        </div>\n                    </div>\n                </div>\n\t\t\t\t-->\n            </div>\n\n\n        </div>\n\n    </section>\n\n</div>\n\n\n\n\n</body></html>",
+  "links": [],
+  "images": [],
+  "json": {
+    "company_name": "K-Aqua",
+    "company_description": "Visit K-Aqua on the following events."
+  },
+  "summary": "K-Aqua will be participating in several events, providing opportunities for attendees to learn about their products and services."
+}

@@ -3,18 +3,21 @@ import { ThemeProvider } from 'next-themes';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '@/lib/i18n/routing';
-import { outfit, inter } from '../fonts';
+import { routing, coreLocales } from '@/lib/i18n/routing';
+import { outfit, inter, tajawal } from '../fonts';
 import '../globals.css';
 import SkipLink from '@/components/layout/SkipLink';
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import { CookieBanner } from '@/components/layout/CookieBanner';
+import { ShapeDefs } from '@/components/ui/ShapeDefs';
+import { LiquidEngine } from '@/components/ui/LiquidEngine';
 import { getOrganizationJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return coreLocales.map((locale) => ({ locale }));
 }
 
 interface LayoutProps {
@@ -38,10 +41,13 @@ export default async function LocaleLayout({
   const orgJsonLd = await getOrganizationJsonLd(locale);
 
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
+  const isArabic = locale === 'ar';
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
-      <body className={`${outfit.variable} ${inter.variable}`}>
+      <body className={`${isArabic ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
+        <ShapeDefs />
+        <LiquidEngine />
         <JsonLd schema={orgJsonLd} />
         <ThemeProvider
           attribute="data-theme"
@@ -56,11 +62,10 @@ export default async function LocaleLayout({
               {children}
             </main>
             <Footer />
+            <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>
   );
 }
-
-

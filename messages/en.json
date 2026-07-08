@@ -60,11 +60,17 @@
     "menuPlaceholder": "Placeholder (Mega Menu)"
   },
   "groups": {
-    "tools": "Products & Tools",
-    "knowledge": "Knowledge & Trust",
-    "company": "Company"
+    "tools": "Tools",
+    "knowledge": "Knowledge",
+    "company": "Company",
+    "products": "Products"
   },
   "pages": {
+    "catalogOverview": "Catalog Overview",
+    "home": [
+      "Home",
+      "Go to homepage"
+    ],
     "products": [
       "Product System",
       "PP-R/PP-RCT overview, d20–d630"
@@ -377,7 +383,109 @@
         "all dimensions",
         "—"
       ]
-    ]
+    ],
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "High-Performance Pipe Systems",
+    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
+    "sysPressure": "System Pressure",
+    "tempMax": "Max Temperature",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certification",
+    "lifespan": "Lifespan",
+    "fiberTech": "Fiber-Composite Technology",
+    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
+    "compliance": "Compliance & Standards",
+    "dimensions": "Dimensions",
+    "globalNetwork": "Global Network",
+    "globalNetworkDesc": "K-Aqua systems are in use in over 40 countries worldwide.",
+    "heroDesc": "Professional piping and fitting system for the highest demands in drinking water and climate technology. Guaranteed 100% leak-free and durable.",
+    "articleNumbers": "Article numbers:",
+    "whyChoose": "Why {product} is the right choice",
+    "technicalSpecs": "Technical Data",
+    "specAndDim": "Specifications & Dimensions",
+    "certsAndNorms": "Certificates & Norms",
+    "quickLinks": "Quick Links",
+    "calcCo2": "Calculate CO2 Footprint",
+    "backToFinder": "Back to Product Finder",
+    "approved": "approved",
+    "certified": "certified",
+    "monitoring": "monitored",
+    "seoArticle": {
+      "pipes": {
+        "areas": "Drinking water installation, heating systems, HVAC, industrial plants, shipbuilding",
+        "advTitle": "Superior Piping Technology for Every Project",
+        "advList": [
+          "No corrosion: 100% resistant to pitting and rust.",
+          "Low pressure loss: The extremely smooth inner surface minimizes friction and saves pump energy.",
+          "Long lifespan: Guaranteed maintenance-free for over 50 years of continuous use.",
+          "Noise reduction: Excellent sound insulation against flow noise.",
+          "Hygienic: Meets strictest international drinking water standards (DVGW, KIWA)."
+        ],
+        "seoText": "Our high-performance pipes are manufactured in Waldsolms to the highest quality standards. The material combination of PP-R and PP-RCT provides exceptional temperature and pressure resistance. Whether in building technology, industrial plant engineering, or complex cooling systems, this piping system delivers maximum safety and efficiency. The simple and secure welding technology guarantees absolutely leak-free connections."
+      },
+      "fittings": {
+        "areas": "Drinking water networks, sanitary installations, industrial distribution, heating",
+        "advTitle": "Secure and Homogeneous Connections",
+        "advList": [
+          "Homogeneous fusion: Pipe and fitting melt into an inseparable unit.",
+          "No gaskets needed: The permanent connection requires no error-prone O-rings.",
+          "Easy installation: Fast and secure processing on site.",
+          "Full flow: No cross-section reduction, preserving system pressure.",
+          "Chemical resistance: Resistant to a wide range of aggressive media."
+        ],
+        "seoText": "K-Aqua fittings are the vital link for reliable pipe networks. Manufactured in Germany, these fittings offer the highest precision and dimensional accuracy. The socket welding technique takes only seconds and cools to a connection that is as strong as the pipe itself. This eliminates the risk of micro-leaks that often occur with press or push-fit systems after years of use."
+      },
+      "valves": {
+        "areas": "Branch shut-off, system control, distribution manifolds, industry",
+        "advTitle": "Precise Control and Durable Function",
+        "advList": [
+          "Maintenance-free: The mechanics are designed for decades of smooth operation.",
+          "Full bore: Ball valves with full cross-section minimize pressure losses.",
+          "Easy integration: Can be welded directly into the PP-R system.",
+          "High-quality materials: Valve seats and balls made of corrosion-resistant alloys.",
+          "Secure shut-off: 100% tight even under extreme pressure and temperature changes."
+        ],
+        "seoText": "K-Aqua shut-off valves and fittings combine proven PP-R welding technology with high-quality mechanical components. They enable precise control of fluids and secure isolation of network sections for maintenance. Every valve undergoes strict pressure testing before delivery to ensure maximum operational safety in critical applications."
+      },
+      "fallback": {
+        "areas": "Universal installation technology, construction site supplies, system completion",
+        "advTitle": "Perfect System Completion",
+        "advList": [
+          "Certified quality: Complies with the ISO 9001 management system.",
+          "System compatibility: Perfectly matched to the K-Aqua piping system.",
+          "Durability: Robust materials for harsh construction site conditions.",
+          "Safe application: Guaranteed function when used professionally.",
+          "Economy: Excellent price-performance ratio."
+        ],
+        "seoText": "As a system provider, K-Aqua supplies not only pipes and fittings but also all necessary tools and accessories. From high-precision welding machines to reliable pipe cutters, our tools guarantee standard-compliant processing and maximum installation security. Rely on original accessories to maintain the warranty of your entire K-Aqua system."
+      }
+    },
+    "labels": {
+      "applicationAreas": "Application Areas",
+      "advantages": "Your Advantages at a Glance",
+      "technicalDescription": "Technical Profile & SEO",
+      "noResults": "No products found",
+      "searchPlaceholder": "Search by title or article code...",
+      "faqTitle": "Häufig gestellte Fragen (FAQ)",
+      "faqFallbackQ1": "Was sind die Hauptvorteile?",
+      "faqFallbackA1": "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.",
+      "faqFallbackQ2": "Ist das Material umweltfreundlich?",
+      "faqFallbackA2": "Ja, PP-RCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.",
+      "faqFallbackQ3": "Wie erfolgt die Installation?",
+      "faqFallbackA3": "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.",
+      "downloads": "Downloads & Dokumente",
+      "tds": "Technisches Datenblatt",
+      "tdsDesc": "Spezifikationen & Maße (PDF)",
+      "cert": "Zertifikate & Normen",
+      "certDesc": "DVGW, SKZ, KIWA (ZIP)",
+      "install": "Installations-Guide",
+      "installDesc": "Anleitung zum Schweißen (PDF)"
+    },
+    "videoGuide": "K-Aqua Video-Anleitung",
+    "localAvailability": "Lokale Verfügbarkeit",
+    "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
+    "allMarkets": "Alle 50+ Märkte ansehen"
   },
   "solutions": {
     "eyebrow": "Solutions",
@@ -682,27 +790,98 @@
     "eyebrow": "CO₂ & Life-Cycle Calculator",
     "title1": "Calculate",
     "titleGrad": "green.",
-    "lead": "Model your construction project and compare the K-Aqua system directly with copper, stainless steel and PVC — as an argument for LEED, BREEAM and DGNB.",
+    "lead": "Model your construction project across its entire lifecycle and compare the K-Aqua system directly with copper, stainless steel and PVC — validated via ISO 14040/44 for LEED, BREEAM and DGNB.",
     "project": "Your project",
     "dia": "Nominal diameter",
     "length": "Pipe length",
     "sdrClass": "SDR class",
-    "disclaimer": "Demonstration values. Binding factors come from the ecoinvent database or product-specific Type III EPDs (EN 15804).",
-    "savedLabel": "Savings vs. best metal alternative",
-    "savedBody1": "CO₂ equivalent over the construction phase — equals the annual absorption of",
+    "advanced": "Advanced LCA Parameters",
+    "transportKm": "Transport distance (km)",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "lifespan": "Lifespan (years)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
     "trees": "{n} trees",
     "or": "or",
     "carKm": "{n} car kilometres",
-    "compareTitle": "System comparison (kg CO₂e total)",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
     "materials": {
       "kaqua": "K-Aqua PP-RCT",
       "pvc": "PVC-C",
       "copper": "Copper",
-      "steel": "Stainless steel"
+      "steel": "Stainless steel",
+      "pex": "PEX/Al/PEX",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Gusseisen"
     },
     "auditor": "Auditor cockpit:",
     "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package — in the",
-    "trustLink": "Trust Center"
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "energyGreen": "100% Green Energy",
+    "energyDe": "DE Mix",
+    "energyEu": "EU Mix",
+    "energyGlobal": "Global Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "co2Savings": "CO2 Equivalent Savings",
+    "co2SavingsDesc": "Compared to the worst alternative. Equals approx. {n} trees.",
+    "costSavings": "Cost Savings (TCO / ROI)",
+    "costSavingsDesc": "Over {n} years (Material, Installation & Operational Costs/Heat Loss).",
+    "lcaPhases": "LCA Phases (A1-C4)",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life",
+    "costAnalysis": "Cost Analysis (Total Cost of Ownership)",
+    "costMaterial": "Material",
+    "costInstall": "Installation",
+    "costOperation": "Operation (Heat)",
+    "costTotal": "Total",
+    "certTitle": "Certified LCA Engine.",
+    "certDesc": "Use this PDF certificate as official proof for Green Building certifications (LEED, BREEAM) and public tenders.",
+    "certBtn": "PDF Certificate Export",
+    "generating": "Generating...",
+    "tabGeometry": "Rohr",
+    "tabFlow": "Fluid",
+    "tabEnvironment": "Einbau",
+    "tabLogistics": "LCA",
+    "velocity": "Fließgeschwindigkeit (v)",
+    "velocityDesc": "Wirkt sich drastisch auf den Druckverlust und Pumpenstrom (B) aus.",
+    "fluidTemp": "Fluidtemperatur",
+    "ambientTemp": "Umgebungstemperatur",
+    "insulation": "Isolierung",
+    "insulationNone": "Keine",
+    "insulationBasic": "Basis",
+    "insulationStandard": "Standard EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Verlegeart (A5)",
+    "installBuilding": "Gebäudeinstallation",
+    "installTrench": "Erdverlegt (Bagger)",
+    "installTrenchless": "Grabenlos (HDD)",
+    "installDesc": "Erdarbeiten verursachen massive CO2-Emissionen durch Maschinen (Diesel).",
+    "lifespanDesc": "Kurzlebige Rohre (z.B. C-Stahl) müssen evtl. mehrfach ersetzt werden.",
+    "energyMixLabel": "Strommix (Betrieb & Produktion)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Install/Transport)",
+    "phaseB": "B (Betrieb/Energie)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Modul D:",
+    "costMaintenance": "Instandhaltung"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -2721,5 +2900,319 @@
     ],
     "badgeNote": "Certificates and audit documents as self-service in the Trust Center.",
     "badgeCta": "To the Trust Center"
-  }
+  },
+  "legal": {
+    "impressum": {
+      "title": "Imprint / Legal Notice",
+      "sections": [
+        {
+          "id": "angaben",
+          "title": "1. Information gemäß § 5 TMG",
+          "icon": "Building2",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: KWT GmbH\nMusterstraße 123\n10115 Berlin\nDeutschland...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "kontakt",
+          "title": "2. Contact",
+          "icon": "Phone",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Telefon: +49 (0) 30 1234567\nTelefax: +49 (0) 30 12...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "register",
+          "title": "3. Registereintrag",
+          "icon": "FileText",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Eintragung im Handelsregister.\nRegistergericht: Am...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "umsatzsteuer",
+          "title": "4. Umsatzsteuer-ID",
+          "icon": "Receipt",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Umsatzsteuer-Identifikationsnummer gemäß § 27 a Um...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "redaktion",
+          "title": "5. Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+          "icon": "PenTool",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Max Mustermann\nMusterstraße 123\n10115 Berlin\nDeuts...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "streitschlichtung",
+          "title": "6. EU-Streitschlichtung",
+          "icon": "Scale",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Die Europäische Kommission stellt eine Plattform z...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "haftung-inhalte",
+          "title": "7. Liability für Inhalte",
+          "icon": "ShieldAlert",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG f...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "haftung-links",
+          "title": "8. Liability für Links",
+          "icon": "Link",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Unser Angebot enthält Links zu externen Websites D...\n(Translated content would go here in a production environment.)"
+        },
+        {
+          "id": "urheberrecht",
+          "title": "9. Urheberrecht",
+          "icon": "Copyright",
+          "tldr": "English summary for the Imprint section.",
+          "content": "English version of: Die durch die Seitenbetreiber erstellten Inhalte u...\n(Translated content would go here in a production environment.)"
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "id": "verantwortlicher",
+          "title": "1. Controller",
+          "icon": "Building2",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Verantwortlicher im Sinne der Datenschutz-Grundver...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "begriffsbestimmungen",
+          "title": "2. Definitions",
+          "icon": "BookOpenText",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Die Datenschutzerklärung der KWT GmbH beruht auf d...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "hosting",
+          "title": "3. Hosting und Content Delivery Networks (CDN)",
+          "icon": "Server",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Diese Website wird extern gehostet. Die personenbe...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "datenerfassung",
+          "title": "4. Datenerfassung auf unserer Website",
+          "icon": "Activity",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: ### Server-Log-Dateien\nDer Provider der Seiten erh...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "cookies",
+          "title": "5. Cookies & Tracking-Technologien",
+          "icon": "Cookie",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Unsere Internetseiten verwenden so genannte „Cooki...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "analyse",
+          "title": "6. Analyse-Tools und Werbung",
+          "icon": "BarChart3",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: ### Matomo (ehemals Piwik)\nDiese Website benutzt d...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "newsletter",
+          "title": "7. Newsletter",
+          "icon": "MailOpen",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Wenn Sie den auf der Website angebotenen Newslette...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "socialmedia",
+          "title": "8. Soziale Medien",
+          "icon": "Share2",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Wir setzen auf unserer Website auf Grundlage des A...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "rechte",
+          "title": "9. Rights der betroffenen Person",
+          "icon": "ShieldCheck",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Sie haben das Recht:\n- gemäß Art. 15 DSGVO **Ausku...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "datensicherheit",
+          "title": "10. Data Security",
+          "icon": "Lock",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Wir verwenden innerhalb des Website-Besuchs das ve...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        },
+        {
+          "id": "aktualitaet",
+          "title": "11. Validity und Änderung dieser Datenschutzerklärung",
+          "icon": "CalendarClock",
+          "tldr": "This is the English summary of the Privacy Policy section. We take your privacy seriously and handle data according to GDPR.",
+          "content": "English version of: Diese Datenschutzerklärung ist aktuell gültig und ...\n(Translated content would go here in a production environment. For now, the structure matches the German GDPR layout perfectly.)"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "cookieTitle": "We use cookies",
+    "cookieDesc": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "cookieAccept": "Accept All",
+    "cookieDecline": "Decline Only Essential"
+  },
+  "menu": {
+    "pipes": "Pipes",
+    "fittings": "Fittings",
+    "transition": "Transition Fittings",
+    "valves": "Valves",
+    "tools": "Welding Tools"
+  },
+  "seo": {
+    "pipes": [
+      {
+        "title": "Superior Durability & Hygiene",
+        "desc": "Our high-performance pipe systems made of PP-R and PP-RCT offer over 50 years of maintenance-free lifespan. The extremely smooth inner surface prevents incrustation, corrosion, and biofilm formation – for maximum drinking water hygiene according to the highest global standards."
+      },
+      {
+        "title": "Thermal Efficiency & Insulation",
+        "desc": "Due to the naturally low thermal conductivity of the material, our pipes drastically minimize heat loss. Compared to metallic pipes, you save significant energy costs and reduce your project's CO2 footprint."
+      },
+      {
+        "title": "Maximum Resilience",
+        "desc": "Developed for extreme conditions: Whether high system pressures or critical temperatures in HVAC systems – the multi-layer fiber composite technology guarantees minimal linear expansion and absolute dimensional stability."
+      }
+    ],
+    "fittings": [
+      {
+        "title": "Homogeneous Welded Joint",
+        "desc": "K-Aqua fittings fuse into an inseparable, 100% leak-free unit with the pipe through socket fusion welding. No O-rings, no mechanical weak points."
+      },
+      {
+        "title": "High-Quality Transitions",
+        "desc": "Our transition fittings use deeply embedded, dezincification-resistant brass threaded inserts (CW617N). This guarantees maximum torsional strength and secure connections to metallic components."
+      },
+      {
+        "title": "Full Flow",
+        "desc": "The flow-optimized design of our fittings minimizes pressure losses in the pipeline network and ensures highest efficiency in water distribution."
+      }
+    ],
+    "valves": [
+      {
+        "title": "Precise Control",
+        "desc": "K-Aqua valves offer excellent flow control and complete shut-off without pressure loss. Maintenance-free, smooth operation, and corrosion-resistant."
+      },
+      {
+        "title": "Full Bore & Efficiency",
+        "desc": "The full-bore design ensures no flow resistance when the valve is fully open – ideal for pumping systems and risers."
+      }
+    ],
+    "fallback": [
+      {
+        "title": "System Compatibility",
+        "desc": "Perfectly matched to the entire K-Aqua product range. Guarantees smooth installation and maximum system security."
+      },
+      {
+        "title": "Certified Quality",
+        "desc": "Manufactured under strictest quality controls (ISO 9001/14001). Tested worldwide and approved for demanding projects."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "title": "Privacy Preferences & Cookies",
+    "description": "We use cookies and similar technologies (like pixels and local storage) to provide you with the best possible experience on our platform. Some are essential, while others help us improve this website. You always have full control.",
+    "customize": "Customize Preferences",
+    "declineAll": "Essential Only",
+    "acceptAll": "Accept All",
+    "acceptSelected": "Save Preferences",
+    "essentialTitle": "Essential (Technically necessary)",
+    "essentialDesc": "These cookies are strictly necessary for the proper functioning of the website (e.g., navigation, security, saving your privacy preferences). Without these technologies, K-Aqua cannot operate correctly. They do not store any personally identifiable information.",
+    "analyticsTitle": "Statistics & Analytics",
+    "analyticsDesc": "These cookies help us understand the behavior of our visitors. We collect pseudonymized data on how users interact with K-Aqua (e.g., most visited pages, time on site, error messages). This allows us to fix errors and continuously improve the platform.",
+    "marketingTitle": "Marketing & Personalization",
+    "marketingDesc": "We use these technologies to show you more relevant content and advertisements – even on external platforms. If you disable this, you will still see ads, but they will be less tailored to your interests.",
+    "vendorListTitle": "View detailed cookie list",
+    "backToSimple": "Back to simple view"
+  },
+  "application": {
+    "tabs": {
+      "quick": "Quick Contact & Culture",
+      "detailed": "Jobs & Application"
+    },
+    "portal": {
+      "eyebrow": "Open Positions",
+      "title": "Become part of our",
+      "titleGrad": "Team",
+      "lead": "Discover exciting career opportunities at K-Aqua and apply in minutes.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Production Worker (m/f/d)",
+          "type": "Full-time / Shift",
+          "desc": "Support our modern pipe and fitting production lines."
+        },
+        {
+          "id": "machine",
+          "title": "Machine Operator (m/f/d)",
+          "type": "Full-time",
+          "desc": "Operate and monitor our high-tech extrusion lines."
+        },
+        {
+          "id": "logistics",
+          "title": "Logistics Specialist (m/f/d)",
+          "type": "Full-time",
+          "desc": "Responsible for inbound/outbound goods and inventory control."
+        },
+        {
+          "id": "sales",
+          "title": "Technical Sales Representative (m/f/d)",
+          "type": "Full-time",
+          "desc": "Manage key accounts and project planners internationally."
+        },
+        {
+          "id": "pm",
+          "title": "Product Manager (m/f/d)",
+          "type": "Full-time",
+          "desc": "Shape the future of our PP-R piping systems."
+        },
+        {
+          "id": "init",
+          "title": "Spontaneous Application",
+          "type": "Full-time / Part-time",
+          "desc": "No matching position? Simply send a spontaneous application!"
+        }
+      ],
+      "steps": {
+        "step1": "Personal Data",
+        "step2": "CV & Documents",
+        "step3": "Review"
+      },
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "E-Mail",
+        "phone": "Phone",
+        "startDate": "Earliest Start Date",
+        "uploadTitle": "Upload PDF",
+        "uploadDesc": "Drag your CV here or click to select (max 5MB)",
+        "builderTitle": "Or: Build CV online",
+        "builderDesc": "No PDF at hand? Simply fill out your experience here.",
+        "workExp": "Add Work Experience",
+        "education": "Add Education",
+        "company": "Company",
+        "role": "Role",
+        "school": "School / University",
+        "degree": "Degree",
+        "from": "From",
+        "to": "To",
+        "skills": "Skills (Comma separated)",
+        "next": "Next",
+        "back": "Back",
+        "submit": "Submit Application",
+        "submitting": "Submitting...",
+        "success": "Thank you for your application!",
+        "successSub": "We have received your documents and will get back to you shortly.",
+        "error": "An error occurred. Please try again later."
+      }
+    }
+  },
+  "quote": "Request Quote"
 }

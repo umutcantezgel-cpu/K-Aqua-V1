@@ -1,0 +1,27 @@
+/* K-Aqua — decorative globe dividers (textless, page-segmented). Sizing +
+   entrance-reveal only; the canvases paint themselves via kaqua-globe-engine.js. */
+.k-globe-divider {
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(28px, 5vw, 56px) 0;
+  overflow: hidden;
+}
+.k-globe-divider canvas {
+  opacity: 0;
+  transform: scale(0.82);
+  transition: opacity 900ms var(--ease-out), transform 900ms var(--ease-out);
+}
+.k-globe-divider.is-in canvas { opacity: 1; transform: scale(1); }
+@media (prefers-reduced-motion: reduce) {
+  .k-globe-divider canvas { transition: none; opacity: 1; transform: scale(1); }
+}
+
+/* scroll-FX wrapper: canvas always visible, wrapper div carries the motion */
+.k-globe-fx { padding: clamp(40px, 6vw, 72px) 0; }
+.k-globe-fx canvas { opacity: 1; transform: none; transition: none; }
+.k-globe-fx-inner { will-change: transform, opacity, filter; display: grid; place-items: center; }
+.k-globe-divider--fade::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(60% 70% at 50% 50%, var(--background-subtle), transparent 75%);
+  pointer-events: none; z-index: -1;
+}

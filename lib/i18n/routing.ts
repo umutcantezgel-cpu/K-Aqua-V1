@@ -1,13 +1,15 @@
 import { defineRouting } from 'next-intl/routing';
+import { ALL_LOCALE_CODES } from '@/lib/i18n/languages';
+
+export const coreLocales = ['de', 'en'];
+export const lazyLocales = ALL_LOCALE_CODES.filter(code => !coreLocales.includes(code as any));
 
 export const routing = defineRouting({
   // A list of all locales that are supported
-  // Other locales (e.g. 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'tr', 'ru', 'zh') should only be enabled
-  // after 100% translation is complete (RULES §2).
-  locales: ['de', 'en', 'ar', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'tr', 'ru', 'zh'],
+  // Core locales are built statically (SSG), lazy locales are built on-demand (ISR)
+  locales: [...coreLocales, ...lazyLocales],
 
   // Used when no locale matches
   defaultLocale: 'de',
   localePrefix: 'always'
 });
-
