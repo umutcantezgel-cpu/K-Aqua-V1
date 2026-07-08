@@ -5,13 +5,22 @@ import React, { useState, useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Card } from "@/components/ui/Card";
 import { FilterChip } from "@/components/ui/FilterChip";
-import { Award, ChevronDown, Download, TrendingDown, Factory, Truck, Waves, Thermometer, Shield } from "lucide-react";
-import { Reveal } from "@/components/ui/Reveal";
-import { Link } from "@/lib/i18n/navigation";
+import { Award, Download, TrendingDown, Factory, Truck, Waves, Shield, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { calculateCo2, Co2Input, TransportMode, EnergyMix, MATERIALS, MaterialId, InstallationMethod, InsulationClass } from "@/lib/co2-engine";
+import { calculateCo2, Co2Input, TransportMode, EnergyMix, InstallationMethod, InsulationClass } from "@/lib/co2-engine";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  Cell
+} from "recharts";
 
 const STRINGS = {
   dPrefix: "d",
@@ -24,7 +33,6 @@ const STRINGS = {
   dot: ".",
 };
 
-// Colors for advanced LCA phases
 const PHASE_COLORS = {
   a13: "oklch(0.5 0.15 250)",   // Production (Blue/Primary)
   a45: "oklch(0.6 0.15 40)",    // Transport & Install (Orange)
@@ -33,31 +41,55 @@ const PHASE_COLORS = {
   d: "oklch(0.65 0.15 150)",    // Recycling Credit (Green)
 };
 
+const CustomTooltip = ({ active, payload, label, t }: any) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="bg-popover text-popover-foreground border border-border p-3 rounded-lg shadow-xl text-sm min-w-[200px]">
+        <p className="font-bold mb-2 border-b border-border pb-2">{label}</p>
+        {payload.map((entry: any, index: number) => (
+          <div key={index} className="flex justify-between items-center py-1 gap-4">
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: entry.color }} />
+              <span className="text-muted-foreground">{entry.name}</span>
+            </div>
+            <span className="font-mono font-medium">
+              {Math.round(entry.value).toLocaleString()} kg
+            </span>
+          </div>
+        ))}
+        {payload[0]?.payload?.d < 0 && (
+          <div className="flex justify-between items-center py-1 gap-4 mt-1 pt-1 border-t border-border">
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: PHASE_COLORS.d }} />
+              <span className="text-muted-foreground">{t("moduleD")}</span>
+            </div>
+            <span className="font-mono font-medium text-green-500">
+              {Math.round(payload[0].payload.d).toLocaleString()} kg
+            </span>
+          </div>
+        )}
+      </div>
+    );
+  }
+  return null;
+};
+
 export default function Co2Calculator() {
   const t = useTranslations("co2");
   const locale = useLocale();
   const reportRef = useRef<HTMLDivElement>(null);
   const [isExporting, setIsExporting] = useState(false);
-
-  // === UI STATE ===
   const [activeTab, setActiveTab] = useState<"geometry" | "flow" | "environment" | "logistics">("geometry");
 
   // === INPUTS ===
-  // Geometry
   const [d, setD] = useState<number>(110);
   const [len, setLen] = useState<number>(1000);
   const [sdr, setSdr] = useState<number>(11);
-  
-  // Flow Dynamics
   const [velocity, setVelocity] = useState<number>(1.5);
   const [fluidTemp, setFluidTemp] = useState<number>(60);
   const [ambientTemp, setAmbientTemp] = useState<number>(20);
-  
-  // Environment & Install
   const [insulation, setInsulation] = useState<InsulationClass>('basic');
   const [installMethod, setInstallMethod] = useState<InstallationMethod>('building');
-  
-  // Logistics & Lifespan
   const [transportKm, setTransportKm] = useState<number>(500);
   const [transportMode, setTransportMode] = useState<TransportMode>('truck');
   const [energyMix, setEnergyMix] = useState<EnergyMix>('de');
@@ -97,6 +129,17 @@ export default function Co2Calculator() {
     return new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);
   };
 
+  const chartData = results.map(r => ({
+    name: t(`materials.${r.id}`),
+    id: r.id,
+    a13: r.phases.a13,
+    a45: r.phases.a45,
+    b: r.phases.b,
+    c: r.phases.c > 0 ? r.phases.c : 0,
+    d: r.phases.d,
+    total: r.phases.total
+  }));
+
   const handleExportPDF = async () => {
     if (!reportRef.current) return;
     setIsExporting(true);
@@ -104,16 +147,9 @@ export default function Co2Calculator() {
       await new Promise(r => setTimeout(r, 100));
       const canvas = await html2canvas(reportRef.current, { scale: 2, useCORS: true });
       const imgData = canvas.toDataURL('image/jpeg', 0.95);
-      
-      const pdf = new jsPDF({
-        orientation: "portrait",
-        unit: "mm",
-        format: "a4"
-      });
-      
+      const pdf = new jsPDF({ orientation: "landscape", unit: "mm", format: "a4" });
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
-      
       pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
       pdf.save(`LCA-Report-K-Aqua-${d}mm.pdf`);
     } catch (e) {
@@ -123,359 +159,289 @@ export default function Co2Calculator() {
     }
   };
 
+  // Reusable Input Slider Component
+  const InputSlider = ({ label, value, suffix, min, max, step, onChange, desc }: any) => (
+    <div className="flex flex-col gap-2">
+      <div className="flex justify-between items-end">
+        <label className="text-sm font-semibold text-foreground">{label}</label>
+        <span className="font-mono text-sm font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-md">
+          {typeof value === 'number' ? value.toLocaleString(locale) : value}{suffix}
+        </span>
+      </div>
+      <input
+        type="range"
+        className="k-range w-full h-1.5 bg-muted rounded-full appearance-none cursor-pointer accent-primary"
+        min={min} max={max} step={step} value={value} onChange={onChange}
+      />
+      {desc && <p className="text-[11px] text-muted-foreground leading-tight mt-1">{desc}</p>}
+    </div>
+  );
+
   return (
-    <div className="flex flex-col w-full min-h-screen bg-background">
-      <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border">
-        <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
-        <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <Reveal>
-            <span className="inline-block px-3 py-1 text-[13px] font-bold tracking-[0.1em] text-primary bg-primary-soft rounded-full uppercase mb-4">
-              {t("eyebrow")}
-            </span>
-          </Reveal>
-          <Reveal delay={0.06}>
-            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
-              {t("title1")}{" "}
-              <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                {t("titleGrad")}
-              </span>
-            </h1>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-              {t("lead")}
-            </p>
-          </Reveal>
+    <div className="flex flex-col lg:flex-row w-full min-h-[calc(100vh-70px)] bg-background overflow-hidden border-t border-border">
+      
+      {/* SIDEBAR - INPUTS (Scrollable independently) */}
+      <div className="w-full lg:w-[400px] xl:w-[450px] shrink-0 border-r border-border bg-card flex flex-col h-auto lg:h-[calc(100vh-70px)]">
+        
+        {/* Header / Intro */}
+        <div className="p-6 pb-4 border-b border-border bg-background">
+          <h1 className="text-2xl font-heading font-extrabold tracking-tight mb-2">
+            {t("title1")} <span className="text-primary">{t("titleGrad")}</span>
+          </h1>
+          <p className="text-sm text-muted-foreground leading-snug">
+            {t("lead")}
+          </p>
         </div>
-      </section>
 
-      <section className="py-16 bg-background">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-[0.35fr_0.65fr] gap-8 items-start">
-            
-            {/* INPUT COLUMN */}
-            <Reveal>
-              <Card className="flex flex-col text-start overflow-hidden">
-                <div className="flex items-center overflow-x-auto border-b border-card-border bg-background-subtle hide-scrollbar">
-                  {[
-                    { id: "geometry", icon: Factory, label: t("tabGeometry") },
-                    { id: "flow", icon: Waves, label: t("tabFlow") },
-                    { id: "environment", icon: Shield, label: t("tabEnvironment") },
-                    { id: "logistics", icon: Truck, label: t("tabLogistics") },
-                  ].map(tab => (
-                    <button
-                      key={tab.id}
-                      onClick={() => setActiveTab(tab.id as any)}
-                      className={`flex items-center gap-2 px-4 py-4 text-sm font-semibold whitespace-nowrap transition-colors border-b-2 ${activeTab === tab.id ? 'border-primary text-primary bg-card' : 'border-transparent text-muted-foreground hover:text-foreground hover:bg-card/50'}`}
-                    >
-                      <tab.icon className="w-4 h-4" />
-                      {tab.label}
-                    </button>
-                  ))}
-                </div>
+        {/* Tab Navigation */}
+        <div className="flex w-full overflow-x-auto hide-scrollbar border-b border-border bg-background/50 sticky top-0 z-20 backdrop-blur-md">
+          {[
+            { id: "geometry", icon: Factory, label: t("tabGeometry") },
+            { id: "flow", icon: Waves, label: t("tabFlow") },
+            { id: "environment", icon: Shield, label: t("tabEnvironment") },
+            { id: "logistics", icon: Truck, label: t("tabLogistics") },
+          ].map(tab => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id as any)}
+              className={`flex-1 flex flex-col items-center justify-center gap-1.5 py-3 px-2 text-xs font-semibold transition-colors border-b-2 ${
+                activeTab === tab.id ? 'border-primary text-primary bg-primary/5' : 'border-transparent text-muted-foreground hover:text-foreground hover:bg-muted/50'
+              }`}
+            >
+              <tab.icon className="w-4 h-4" />
+              <span className="hidden sm:inline-block">{tab.label}</span>
+            </button>
+          ))}
+        </div>
 
-                <div className="p-6 flex flex-col gap-8 bg-card">
-                  {/* GEOMETRY TAB */}
-                  {activeTab === "geometry" && (
-                    <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-6">
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("dia")}</label>
-                          <strong className="text-primary text-body">{STRINGS.dPrefix}{d.toLocaleString(locale)}</strong>
-                        </div>
-                        <input
-                          type="range"
-                          className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
-                          min={20} max={630} step={5} value={d} onChange={(e) => setD(Number(e.target.value))}
-                        />
-                      </div>
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("length")}</label>
-                          <strong className="text-primary text-body">{len.toLocaleString(locale)}{STRINGS.mSuffix}</strong>
-                        </div>
-                        <input
-                          type="range"
-                          className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
-                          min={10} max={25000} step={10} value={len} onChange={(e) => setLen(Number(e.target.value))}
-                        />
-                      </div>
-                      <div>
-                        <span className="block font-semibold text-[15px] text-foreground mb-3">{t("sdrClass")}</span>
-                        <div className="flex flex-wrap gap-2">
-                          {[6, 7.4, 9, 11].map((s) => (
-                            <FilterChip key={s} pressed={sdr === s} onClick={() => setSdr(s)}>
-                              {STRINGS.sdrChipPrefix}{s.toLocaleString(locale)}
-                            </FilterChip>
-                          ))}
-                        </div>
-                      </div>
-                    </motion.div>
-                  )}
-
-                  {/* FLOW TAB */}
-                  {activeTab === "flow" && (
-                    <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-6">
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("velocity")}</label>
-                          <strong className="text-primary text-body">{velocity.toLocaleString(locale)}{STRINGS.velocitySuffix}</strong>
-                        </div>
-                        <input
-                          type="range"
-                          className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
-                          min={0.1} max={5.0} step={0.1} value={velocity} onChange={(e) => setVelocity(Number(e.target.value))}
-                        />
-                        <p className="text-xs text-muted-foreground mt-2">{t("velocityDesc")}</p>
-                      </div>
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("fluidTemp")}</label>
-                          <strong className="text-primary text-body">{fluidTemp.toLocaleString(locale)}{STRINGS.tempSuffix}</strong>
-                        </div>
-                        <input
-                          type="range"
-                          className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
-                          min={0} max={95} step={1} value={fluidTemp} onChange={(e) => setFluidTemp(Number(e.target.value))}
-                        />
-                      </div>
-                    </motion.div>
-                  )}
-
-                  {/* ENVIRONMENT TAB */}
-                  {activeTab === "environment" && (
-                    <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-6">
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("ambientTemp")}</label>
-                          <strong className="text-primary text-body">{ambientTemp.toLocaleString(locale)}{STRINGS.tempSuffix}</strong>
-                        </div>
-                        <input
-                          type="range"
-                          className="k-range w-full h-2 bg-muted rounded-lg appearance-none cursor-pointer accent-primary"
-                          min={-20} max={40} step={1} value={ambientTemp} onChange={(e) => setAmbientTemp(Number(e.target.value))}
-                        />
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <label className="font-semibold text-[15px] text-foreground">{t("insulation")}</label>
-                        <div className="grid grid-cols-2 gap-2">
-                          <FilterChip pressed={insulation === 'none'} onClick={() => setInsulation('none')}>{t("insulationNone")}</FilterChip>
-                          <FilterChip pressed={insulation === 'basic'} onClick={() => setInsulation('basic')}>{t("insulationBasic")}</FilterChip>
-                          <FilterChip pressed={insulation === 'standard'} onClick={() => setInsulation('standard')}>{t("insulationStandard")}</FilterChip>
-                          <FilterChip pressed={insulation === 'premium'} onClick={() => setInsulation('premium')}>{t("insulationPremium")}</FilterChip>
-                        </div>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <label className="font-semibold text-[15px] text-foreground">{t("installMethod")}</label>
-                        <div className="grid grid-cols-1 gap-2">
-                          <FilterChip pressed={installMethod === 'building'} onClick={() => setInstallMethod('building')}>{t("installBuilding")}</FilterChip>
-                          <FilterChip pressed={installMethod === 'trench'} onClick={() => setInstallMethod('trench')}>{t("installTrench")}</FilterChip>
-                          <FilterChip pressed={installMethod === 'trenchless'} onClick={() => setInstallMethod('trenchless')}>{t("installTrenchless")}</FilterChip>
-                        </div>
-                        <p className="text-xs text-muted-foreground mt-1">{t("installDesc")}</p>
-                      </div>
-                    </motion.div>
-                  )}
-
-                  {/* LOGISTICS & LIFESPAN TAB */}
-                  {activeTab === "logistics" && (
-                    <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-6">
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("lifespan")}</label>
-                          <span className="text-primary font-bold">{lifespan}</span>
-                        </div>
-                        <input type="range" className="k-range w-full h-2 bg-muted rounded-lg accent-primary" min={10} max={100} step={5} value={lifespan} onChange={(e) => setLifespan(Number(e.target.value))} />
-                        <p className="text-xs text-muted-foreground mt-2">{t("lifespanDesc")}</p>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <label className="font-semibold text-[15px] text-foreground">{t("energyMixLabel")}</label>
-                        <div className="grid grid-cols-2 gap-2">
-                          <FilterChip pressed={energyMix === 'green'} onClick={() => setEnergyMix('green')}>{t("energyGreen")}</FilterChip>
-                          <FilterChip pressed={energyMix === 'de'} onClick={() => setEnergyMix('de')}>{t("energyDe")}</FilterChip>
-                          <FilterChip pressed={energyMix === 'eu'} onClick={() => setEnergyMix('eu')}>{t("energyEu")}</FilterChip>
-                          <FilterChip pressed={energyMix === 'global'} onClick={() => setEnergyMix('global')}>{t("energyGlobal")}</FilterChip>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="flex justify-between items-center mb-2">
-                          <label className="font-semibold text-[15px] text-foreground">{t("transportKm")}</label>
-                          <span className="text-primary font-bold">{transportKm.toLocaleString(locale)}</span>
-                        </div>
-                        <input type="range" className="k-range w-full h-2 bg-muted rounded-lg accent-primary" min={50} max={20000} step={50} value={transportKm} onChange={(e) => setTransportKm(Number(e.target.value))} />
-                      </div>
-                    </motion.div>
-                  )}
-                </div>
-              </Card>
-            </Reveal>
-
-            {/* RESULTS COLUMN */}
-            <div className="flex flex-col gap-6" ref={reportRef}>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {/* CO2 Savings Card */}
-                <Reveal delay={0.08}>
-                  <Card tint className="p-8 flex flex-col h-full text-start relative overflow-hidden group">
-                    <div className="absolute top-0 end-0 p-6 opacity-10">
-                      <Award className="w-24 h-24 text-primary" />
+        {/* Scrollable Tab Content */}
+        <div className="p-6 flex-1 overflow-y-auto hide-scrollbar">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0, y: 5 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -5 }}
+              transition={{ duration: 0.2 }}
+              className="flex flex-col gap-8"
+            >
+              {activeTab === "geometry" && (
+                <>
+                  <InputSlider label={t("dia")} value={d} min={20} max={630} step={5} onChange={(e:any) => setD(Number(e.target.value))} />
+                  <InputSlider label={t("length")} value={len} suffix={STRINGS.mSuffix} min={10} max={25000} step={10} onChange={(e:any) => setLen(Number(e.target.value))} />
+                  <div className="flex flex-col gap-3">
+                    <label className="text-sm font-semibold text-foreground">{t("sdrClass")}</label>
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+                      {[6, 7.4, 9, 11].map((s) => (
+                        <FilterChip key={s} pressed={sdr === s} onClick={() => setSdr(s)}>
+                          {STRINGS.sdrChipPrefix}{s.toLocaleString(locale)}
+                        </FilterChip>
+                      ))}
                     </div>
-                    <div className="relative z-10 flex-1 flex flex-col">
-                      <span className="text-xs font-bold tracking-[0.08em] uppercase text-muted-foreground mb-2">
-                        {t("co2Savings")}
-                      </span>
-                      <motion.div key={saved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-[48px] font-heading font-extrabold text-foreground leading-none">
-                        {formatCo2(saved)}
-                      </motion.div>
-                      <p className="text-sm text-muted-foreground leading-relaxed mt-auto pt-6">
-                        {t("co2SavingsDesc", { n: trees.toLocaleString(locale) })}
-                      </p>
-                    </div>
-                  </Card>
-                </Reveal>
+                  </div>
+                </>
+              )}
 
-                {/* Financial ROI Card */}
-                <Reveal delay={0.10}>
-                  <Card className="p-8 flex flex-col h-full text-start relative overflow-hidden">
-                    <div className="absolute top-0 end-0 p-6 opacity-5">
-                      <TrendingDown className="w-24 h-24 text-foreground" />
+              {activeTab === "flow" && (
+                <>
+                  <InputSlider label={t("velocity")} value={velocity} suffix={STRINGS.velocitySuffix} min={0.1} max={5.0} step={0.1} desc={t("velocityDesc")} onChange={(e:any) => setVelocity(Number(e.target.value))} />
+                  <InputSlider label={t("fluidTemp")} value={fluidTemp} suffix={STRINGS.tempSuffix} min={0} max={95} step={1} onChange={(e:any) => setFluidTemp(Number(e.target.value))} />
+                </>
+              )}
+
+              {activeTab === "environment" && (
+                <>
+                  <InputSlider label={t("ambientTemp")} value={ambientTemp} suffix={STRINGS.tempSuffix} min={-20} max={40} step={1} onChange={(e:any) => setAmbientTemp(Number(e.target.value))} />
+                  <div className="flex flex-col gap-3">
+                    <label className="text-sm font-semibold text-foreground">{t("insulation")}</label>
+                    <div className="grid grid-cols-2 gap-2">
+                      <FilterChip pressed={insulation === 'none'} onClick={() => setInsulation('none')}>{t("insulationNone")}</FilterChip>
+                      <FilterChip pressed={insulation === 'basic'} onClick={() => setInsulation('basic')}>{t("insulationBasic")}</FilterChip>
+                      <FilterChip pressed={insulation === 'standard'} onClick={() => setInsulation('standard')}>{t("insulationStandard")}</FilterChip>
+                      <FilterChip pressed={insulation === 'premium'} onClick={() => setInsulation('premium')}>{t("insulationPremium")}</FilterChip>
                     </div>
-                    <div className="relative z-10 flex-1 flex flex-col">
-                      <span className="text-xs font-bold tracking-[0.08em] uppercase text-muted-foreground mb-2">
-                        {t("costSavings")}
-                      </span>
-                      <motion.div key={costSaved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-[48px] font-heading font-extrabold text-primary leading-none">
-                        {formatEuro(costSaved)}
-                      </motion.div>
-                      <p className="text-sm text-muted-foreground leading-relaxed mt-auto pt-6">
-                        {t("costSavingsDesc", { n: lifespan })}
-                      </p>
+                  </div>
+                  <div className="flex flex-col gap-3">
+                    <label className="text-sm font-semibold text-foreground">{t("installMethod")}</label>
+                    <div className="flex flex-col gap-2">
+                      <FilterChip pressed={installMethod === 'building'} onClick={() => setInstallMethod('building')}>{t("installBuilding")}</FilterChip>
+                      <FilterChip pressed={installMethod === 'trench'} onClick={() => setInstallMethod('trench')}>{t("installTrench")}</FilterChip>
+                      <FilterChip pressed={installMethod === 'trenchless'} onClick={() => setInstallMethod('trenchless')}>{t("installTrenchless")}</FilterChip>
                     </div>
-                  </Card>
-                </Reveal>
+                  </div>
+                </>
+              )}
+
+              {activeTab === "logistics" && (
+                <>
+                  <InputSlider label={t("lifespan")} value={lifespan} suffix={STRINGS.yrsSuffix} min={10} max={100} step={5} desc={t("lifespanDesc")} onChange={(e:any) => setLifespan(Number(e.target.value))} />
+                  <InputSlider label={t("transportKm")} value={transportKm} suffix={STRINGS.kmSuffix} min={50} max={20000} step={50} onChange={(e:any) => setTransportKm(Number(e.target.value))} />
+                  <div className="flex flex-col gap-3">
+                    <label className="text-sm font-semibold text-foreground">{t("energyMixLabel")}</label>
+                    <div className="grid grid-cols-2 gap-2">
+                      <FilterChip pressed={energyMix === 'green'} onClick={() => setEnergyMix('green')}>{t("energyGreen")}</FilterChip>
+                      <FilterChip pressed={energyMix === 'de'} onClick={() => setEnergyMix('de')}>{t("energyDe")}</FilterChip>
+                      <FilterChip pressed={energyMix === 'eu'} onClick={() => setEnergyMix('eu')}>{t("energyEu")}</FilterChip>
+                      <FilterChip pressed={energyMix === 'global'} onClick={() => setEnergyMix('global')}>{t("energyGlobal")}</FilterChip>
+                    </div>
+                  </div>
+                </>
+              )}
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </div>
+
+      {/* MAIN AREA - RESULTS (Live updating) */}
+      <div className="flex-1 bg-background-subtle relative h-[calc(100vh-70px)] overflow-y-auto" ref={reportRef}>
+        
+        {/* Export Button Overlay (Desktop) */}
+        <div className="hidden lg:flex absolute top-6 right-8 z-30">
+          <button 
+            onClick={handleExportPDF}
+            disabled={isExporting}
+            className="flex items-center gap-2 px-4 py-2 bg-card border border-border text-foreground font-semibold text-sm rounded-lg hover:bg-primary hover:text-white transition-all shadow-sm"
+          >
+            <Download className="w-4 h-4" />
+            {isExporting ? t("generating") : "Export Report"}
+          </button>
+        </div>
+
+        <div className="p-4 sm:p-6 lg:p-8 flex flex-col gap-6 lg:gap-8 max-w-[1200px] mx-auto pb-24 lg:pb-8">
+          
+          {/* KPI ROW */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+            <Card tint className="p-6 flex flex-col relative overflow-hidden group border-none shadow-md">
+              <div className="absolute top-0 end-0 p-4 opacity-10">
+                <Award className="w-20 h-20 text-primary" />
               </div>
+              <span className="text-[11px] font-bold tracking-[0.08em] uppercase text-primary/80 mb-1">
+                {t("co2Savings")}
+              </span>
+              <motion.div key={saved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-4xl lg:text-5xl font-heading font-extrabold text-foreground leading-none my-2">
+                {formatCo2(saved)}
+              </motion.div>
+              <p className="text-sm text-muted-foreground mt-1 max-w-[250px]">
+                {t("co2SavingsDesc", { n: trees.toLocaleString(locale) })}
+              </p>
+            </Card>
 
-              {/* CO2 LCA Chart Card */}
-              <Reveal delay={0.12}>
-                <Card className="p-8 flex flex-col gap-6 text-start">
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                    <h3 className="font-heading font-bold text-xl text-foreground">
-                      {t("lcaPhases")}
-                    </h3>
-                    <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs font-semibold text-muted-foreground">
-                      <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded-sm" style={{backgroundColor: PHASE_COLORS.a13}}/> {t("phaseA13")}</div>
-                      <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded-sm" style={{backgroundColor: PHASE_COLORS.a45}}/> {t("phaseA45")}</div>
-                      <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded-sm" style={{backgroundColor: PHASE_COLORS.b}}/> {t("phaseB")}</div>
-                      <div className="flex items-center gap-1.5"><div className="w-2.5 h-2.5 rounded-sm" style={{backgroundColor: PHASE_COLORS.c}}/> {t("phaseC")}</div>
-                    </div>
-                  </div>
+            <Card className="p-6 flex flex-col relative overflow-hidden border-none shadow-md">
+              <div className="absolute top-0 end-0 p-4 opacity-5">
+                <TrendingDown className="w-20 h-20 text-foreground" />
+              </div>
+              <span className="text-[11px] font-bold tracking-[0.08em] uppercase text-muted-foreground mb-1">
+                {t("costSavings")}
+              </span>
+              <motion.div key={costSaved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-4xl lg:text-5xl font-heading font-extrabold text-primary leading-none my-2">
+                {formatEuro(costSaved)}
+              </motion.div>
+              <p className="text-sm text-muted-foreground mt-1 max-w-[250px]">
+                {t("costSavingsDesc", { n: lifespan })}
+              </p>
+            </Card>
+          </div>
 
-                  <div className="flex flex-col gap-5 pt-2">
-                    {results.map((r) => {
-                      const maxScale = Math.max(...results.map(res => res.phases.a13 + res.phases.a45 + res.phases.b + (res.phases.c > 0 ? res.phases.c : 0)));
-                      const pA13 = (r.phases.a13 / maxScale) * 100;
-                      const pA45 = (r.phases.a45 / maxScale) * 100;
-                      const pB = (r.phases.b / maxScale) * 100;
-                      const pC = r.phases.c > 0 ? (r.phases.c / maxScale) * 100 : 0;
-                      
-                      const matName = t(`materials.${r.id}`);
-
-                      return (
-                        <div key={r.id} className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 w-full">
-                          <span className="w-full sm:w-[140px] text-[14px] shrink-0 text-start" style={{ fontWeight: r.id === "kaqua" ? 800 : 500, color: r.id === "kaqua" ? "var(--primary)" : "var(--foreground)" }}>
-                            {matName}
-                          </span>
-                          
-                          <div className="flex-1 w-full h-6 bg-muted/50 rounded-md overflow-hidden relative flex">
-                            {pA13 > 0 && <motion.div className="h-full border-e border-background/20" initial={{ width: 0 }} animate={{ width: `${pA13}%` }} transition={{ duration: 0.8 }} style={{ backgroundColor: PHASE_COLORS.a13 }} />}
-                            {pA45 > 0 && <motion.div className="h-full border-e border-background/20" initial={{ width: 0 }} animate={{ width: `${pA45}%` }} transition={{ duration: 0.8, delay: 0.1 }} style={{ backgroundColor: PHASE_COLORS.a45 }} />}
-                            {pB > 0 && <motion.div className="h-full border-e border-background/20" initial={{ width: 0 }} animate={{ width: `${pB}%` }} transition={{ duration: 0.8, delay: 0.2 }} style={{ backgroundColor: PHASE_COLORS.b }} />}
-                            {pC > 0 && <motion.div className="h-full border-e border-background/20" initial={{ width: 0 }} animate={{ width: `${pC}%` }} transition={{ duration: 0.8, delay: 0.3 }} style={{ backgroundColor: PHASE_COLORS.c }} />}
-                          </div>
-
-                          <div className="w-full sm:w-[120px] flex flex-col items-end shrink-0">
-                            <span className="text-[14px] tabular-nums font-bold text-foreground">
-                              {formatCo2(r.phases.total)}
-                            </span>
-                            {r.phases.d < 0 && (
-                              <span className="text-[11px] text-green-500 font-semibold">
-                                {t("moduleD")} {formatCo2(r.phases.d)}
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </Card>
-              </Reveal>
-
-              {/* TCO Breakdown Chart */}
-              <Reveal delay={0.14}>
-                <Card className="p-8 flex flex-col gap-6 text-start">
-                  <h3 className="font-heading font-bold text-xl text-foreground border-b border-card-border pb-4">
-                    {t("costAnalysis", { n: lifespan })}
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
-                    {results.map((r) => (
-                      <div key={r.id} className="flex flex-col gap-2 p-4 rounded-xl border border-card-border bg-background-subtle">
-                        <strong className="text-foreground">{t(`materials.${r.id}`)}</strong>
-                        <div className="flex justify-between mt-2">
-                          <span className="text-muted-foreground">{t("costMaterial")}</span>
-                          <span className="font-mono">{formatEuro(r.financial.materialCost)}</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-muted-foreground">{t("costInstall")}</span>
-                          <span className="font-mono">{formatEuro(r.financial.installationCost)}</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-muted-foreground">{t("costOperation")}</span>
-                          <span className="font-mono">{formatEuro(r.financial.operationalCost)}</span>
-                        </div>
-                        {r.financial.maintenanceCost > 0 && (
-                          <div className="flex justify-between text-destructive">
-                            <span className="text-muted-foreground">{t("costMaintenance")}</span>
-                            <span className="font-mono">{formatEuro(r.financial.maintenanceCost)}</span>
-                          </div>
-                        )}
-                        <div className="flex justify-between pt-2 border-t border-card-border">
-                          <span className="font-bold text-foreground">{t("costTotal")}</span>
-                          <span className="font-mono font-bold text-primary">{formatEuro(r.financial.totalCost)}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Card>
-              </Reveal>
-
-              {/* Export Bar */}
-              <Reveal delay={0.16}>
-                <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-4">
-                  <Card className="flex flex-row items-center gap-4 p-5 text-start flex-1">
-                    <div className="w-10 h-10 rounded-[12px] grid place-items-center bg-muted text-muted-foreground shrink-0">
-                      <Award className="w-5 h-5" />
-                    </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      <strong className="text-foreground">{t("certTitle")}</strong>{" "}
-                      {t("certDesc")}
-                    </p>
-                  </Card>
+          {/* RECHARTS - LCA CHART */}
+          <Card className="p-6 flex flex-col gap-4 border-none shadow-sm bg-card">
+            <h3 className="font-heading font-bold text-lg text-foreground flex items-center gap-2">
+              <Factory className="w-5 h-5 text-primary" /> {t("lcaPhases")}
+            </h3>
+            
+            <div className="w-full h-[350px] lg:h-[400px]">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={chartData}
+                  margin={{ top: 20, right: 10, left: 0, bottom: 20 }}
+                  barSize={40}
+                >
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="hsl(var(--border))" />
+                  <XAxis 
+                    dataKey="name" 
+                    axisLine={false} 
+                    tickLine={false} 
+                    tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 12, fontWeight: 500 }} 
+                    dy={10}
+                  />
+                  <YAxis 
+                    axisLine={false} 
+                    tickLine={false} 
+                    tickFormatter={(value) => `${(value/1000).toFixed(0)}t`}
+                    tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 12 }} 
+                    dx={-5}
+                  />
+                  <Tooltip 
+                    content={<CustomTooltip t={t} />}
+                    cursor={{ fill: 'hsl(var(--muted)/0.4)' }}
+                  />
+                  <Legend 
+                    wrapperStyle={{ paddingTop: '20px', fontSize: '12px' }}
+                    iconType="circle"
+                  />
                   
-                  <button 
-                    onClick={handleExportPDF}
-                    disabled={isExporting}
-                    className="flex items-center justify-center gap-2 px-6 py-5 bg-foreground text-background font-semibold rounded-2xl hover:bg-primary hover:text-white transition-all disabled:opacity-50"
-                  >
-                    <Download className="w-5 h-5" />
-                    {isExporting ? t("generating") : t("certBtn")}
-                  </button>
-                </div>
-              </Reveal>
-
+                  <Bar dataKey="a13" name={t("phaseA13")} stackId="a" fill={PHASE_COLORS.a13} radius={[0,0,4,4]}>
+                     {chartData.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={PHASE_COLORS.a13} />
+                      ))}
+                  </Bar>
+                  <Bar dataKey="a45" name={t("phaseA45")} stackId="a" fill={PHASE_COLORS.a45} />
+                  <Bar dataKey="b" name={t("phaseB")} stackId="a" fill={PHASE_COLORS.b} />
+                  <Bar dataKey="c" name={t("phaseC")} stackId="a" fill={PHASE_COLORS.c} radius={[4,4,0,0]} />
+                </BarChart>
+              </ResponsiveContainer>
             </div>
+          </Card>
+
+          {/* FINANCIAL BREAKDOWN */}
+          <Card className="p-6 flex flex-col gap-4 border-none shadow-sm bg-card">
+            <h3 className="font-heading font-bold text-lg text-foreground pb-2 border-b border-border">
+              {t("costAnalysis", { n: lifespan })}
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+              {results.map((r) => (
+                <div key={r.id} className="flex flex-col gap-2 p-4 rounded-xl bg-background border border-border hover:border-primary/50 transition-colors">
+                  <strong className="text-foreground text-[15px]">{t(`materials.${r.id}`)}</strong>
+                  <div className="flex justify-between mt-2 text-sm">
+                    <span className="text-muted-foreground">{t("costMaterial")}</span>
+                    <span className="font-mono">{formatEuro(r.financial.materialCost)}</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-muted-foreground">{t("costInstall")}</span>
+                    <span className="font-mono">{formatEuro(r.financial.installationCost)}</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-muted-foreground">{t("costOperation")}</span>
+                    <span className="font-mono">{formatEuro(r.financial.operationalCost)}</span>
+                  </div>
+                  {r.financial.maintenanceCost > 0 && (
+                    <div className="flex justify-between text-sm text-destructive">
+                      <span className="text-muted-foreground">{t("costMaintenance")}</span>
+                      <span className="font-mono">{formatEuro(r.financial.maintenanceCost)}</span>
+                    </div>
+                  )}
+                  <div className="flex justify-between pt-3 mt-1 border-t border-border">
+                    <span className="font-bold text-foreground text-sm">{t("costTotal")}</span>
+                    <span className="font-mono font-bold text-primary">{formatEuro(r.financial.totalCost)}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+          
+          {/* Mobile Export Button */}
+          <div className="lg:hidden flex mt-4">
+            <button 
+              onClick={handleExportPDF}
+              disabled={isExporting}
+              className="flex w-full items-center justify-center gap-2 px-6 py-4 bg-foreground text-background font-semibold rounded-xl hover:bg-primary transition-all"
+            >
+              <Download className="w-5 h-5" />
+              {isExporting ? t("generating") : t("certBtn")}
+            </button>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }
+
