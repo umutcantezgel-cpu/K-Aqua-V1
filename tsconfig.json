@@ -21,5 +21,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "prototype", "kaqua-integration-package", "kaqua-integrations-segmente", "K-Aqua All", "kaqua-drop-in", "export-language-hub", "export-language-hub 2", "components/ui/LiquidEngine.tsx", "components/ui/MediaSlot.tsx"]
+  "exclude": ["node_modules", "prototype", "kaqua-integration-package", "kaqua-integrations-segmente", "K-Aqua All", "kaqua-drop-in", "export-language-hub", "export-language-hub 2", "kaqua-antigravity 6"]
 }

@@ -140,10 +140,10 @@ export function Academy({ data }: AcademyProps) {
                   <div className="flex flex-col h-full">
                     <Card className="h-full flex flex-col gap-4 text-start p-6 hover:-translate-y-1 transition-all duration-200">
                       <LocalVideo
-                        src={asset.src}
+                        src={asset?.src || ""}
                         title={video.t}
                         description={video.s}
-                        fallbackYoutubeUrl={asset.fallback}
+                        fallbackYoutubeUrl={asset?.fallback}
                       />
                       <div className="flex flex-col gap-1 mt-2">
                         <h3 className="font-heading font-bold text-base text-foreground leading-snug">

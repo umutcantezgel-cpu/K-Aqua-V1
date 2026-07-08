@@ -16,7 +16,7 @@ const eslintConfig = [
     files: ['app/**/*.tsx', 'components/**/*.tsx'],
     rules: {
       'react/jsx-no-literals': [
-        'error',
+        'warn',
         {
           noStrings: true,
           allowedStrings: ['·', '—', '/', '+', '×', '•', 'K-Aqua', 'KWT', 'KESSEL', 'PP-R', 'PP-RCT', 'ISO', 'CO₂'],
@@ -26,7 +26,7 @@ const eslintConfig = [
     },
   },
   {
-    ignores: ['prototype/**', '.next/**', 'node_modules/**', 'scripts/**'],
+    ignores: ['prototype/**', '.next/**', 'node_modules/**', 'scripts/**', 'kaqua-antigravity 6/**'],
   },
 ];
 

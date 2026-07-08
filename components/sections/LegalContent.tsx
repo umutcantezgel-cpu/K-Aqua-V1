@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-literals */
+
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';

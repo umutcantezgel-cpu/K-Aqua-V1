@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     const educationRaw = formData.get("education") as string | null;
     const skills = formData.get("skills") as string | null;
 
-    let attachments: any[] = [];
+    const attachments: { filename: string; content: Buffer; contentType: string }[] = [];
     let builderHtml = "";
 
     if (cv) {
@@ -34,11 +34,11 @@ export async function POST(req: Request) {
         <h3>Generierter Lebenslauf</h3>
         <h4>Berufserfahrung</h4>
         <ul>
-          ${experience.map((e: any) => `<li><strong>${e.role}</strong> bei ${e.company} (${e.from} - ${e.to})</li>`).join("")}
+          ${experience.map((e: { role: string; company: string; from: string; to: string }) => `<li><strong>${e.role}</strong> bei ${e.company} (${e.from} - ${e.to})</li>`).join("")}
         </ul>
         <h4>Ausbildung</h4>
         <ul>
-          ${education.map((e: any) => `<li><strong>${e.degree}</strong> an ${e.school} (${e.from} - ${e.to})</li>`).join("")}
+          ${education.map((e: { degree: string; school: string; from: string; to: string }) => `<li><strong>${e.degree}</strong> an ${e.school} (${e.from} - ${e.to})</li>`).join("")}
         </ul>
         <h4>Fähigkeiten</h4>
         <p>${skills || 'Keine angegeben'}</p>

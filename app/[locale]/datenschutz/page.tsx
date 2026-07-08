@@ -27,7 +27,7 @@ export default async function DatenschutzPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
 
   const title = t("title");
-  const sections = t.raw("sections") as any[];
+  const sections = t.raw("sections") as { title?: string; text?: string; content?: string; items?: string[] }[];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const webPageSchema = {

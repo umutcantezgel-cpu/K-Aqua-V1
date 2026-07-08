@@ -155,10 +155,10 @@ export default async function ServicePage({ params }: Props) {
                       <Card className="h-full flex flex-col justify-between text-start p-6 hover:-translate-y-1 transition-all duration-200">
                         <div>
                           <LocalVideo
-                            src={asset.src}
+                            src={asset?.src || ""}
                             title={v.t}
                             description={v.s}
-                            fallbackYoutubeUrl={asset.fallback}
+                            fallbackYoutubeUrl={asset?.fallback}
                             className="mb-4"
                           />
                           <h3 className="font-heading font-bold text-[17px] text-foreground leading-snug mb-2">

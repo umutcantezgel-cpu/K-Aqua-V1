@@ -42,13 +42,15 @@ export interface ShapedProps {
   /** Blob-Morphing aktivieren (nur sinnvoll mit variant="blob"). */
   anim?: boolean;
   className?: string;
+  style?: React.CSSProperties;
   /** Bildinhalt, z. B. <Image fill … /> oder <img>. */
   children: React.ReactNode;
 }
 
-export function Shaped({ variant, bleed, echo, zoom, anim, className, children }: ShapedProps) {
+export function Shaped({ variant, bleed, echo, zoom, anim, className, style, children }: ShapedProps) {
   return (
     <div
+      style={style}
       className={clsx(
         "kq-shape",
         `kq-shape--${variant}`,

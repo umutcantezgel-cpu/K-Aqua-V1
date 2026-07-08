@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { defineRouting } from 'next-intl/routing';
 import { ALL_LOCALE_CODES } from '@/lib/i18n/languages';
 

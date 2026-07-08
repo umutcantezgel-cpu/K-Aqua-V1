@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-literals */
+
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any */
 "use client";
 
@@ -170,7 +172,7 @@ export default function Co2Calculator() {
       </div>
       <input
         type="range"
-        className="k-range w-full h-1.5 bg-muted rounded-full appearance-none cursor-pointer accent-primary"
+        className="w-full h-2 bg-muted rounded-full appearance-none cursor-pointer accent-primary outline-none focus:ring-2 focus:ring-primary/50"
         min={min} max={max} step={step} value={value} onChange={onChange}
       />
       {desc && <p className="text-[11px] text-muted-foreground leading-tight mt-1">{desc}</p>}
@@ -178,10 +180,10 @@ export default function Co2Calculator() {
   );
 
   return (
-    <div className="flex flex-col lg:flex-row w-full min-h-[calc(100vh-70px)] bg-background overflow-hidden border-t border-border">
+    <div className="flex flex-col lg:flex-row w-full bg-background border-t border-border relative">
       
-      {/* SIDEBAR - INPUTS (Scrollable independently) */}
-      <div className="w-full lg:w-[400px] xl:w-[450px] shrink-0 border-r border-border bg-card flex flex-col h-auto lg:h-[calc(100vh-70px)]">
+      {/* SIDEBAR - INPUTS (Sticky on Desktop) */}
+      <div className="w-full lg:w-[400px] xl:w-[450px] shrink-0 border-b lg:border-b-0 lg:border-r border-border bg-card flex flex-col relative lg:sticky lg:top-[70px] lg:h-[calc(100vh-70px)] lg:overflow-y-auto">
         
         {/* Header / Intro */}
         <div className="p-6 pb-4 border-b border-border bg-background">
@@ -214,8 +216,8 @@ export default function Co2Calculator() {
           ))}
         </div>
 
-        {/* Scrollable Tab Content */}
-        <div className="p-6 flex-1 overflow-y-auto hide-scrollbar">
+        {/* Tab Content */}
+        <div className="p-6 flex-1 flex flex-col">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
@@ -292,8 +294,8 @@ export default function Co2Calculator() {
         </div>
       </div>
 
-      {/* MAIN AREA - RESULTS (Live updating) */}
-      <div className="flex-1 bg-background-subtle relative h-[calc(100vh-70px)] overflow-y-auto" ref={reportRef}>
+      {/* MAIN AREA - RESULTS (Flows naturally, scrolls with window) */}
+      <div className="flex-1 bg-background-subtle relative" ref={reportRef}>
         
         {/* Export Button Overlay (Desktop) */}
         <div className="hidden lg:flex absolute top-6 right-8 z-30">
@@ -310,7 +312,7 @@ export default function Co2Calculator() {
         <div className="p-4 sm:p-6 lg:p-8 flex flex-col gap-6 lg:gap-8 max-w-[1200px] mx-auto pb-24 lg:pb-8">
           
           {/* KPI ROW */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
             <Card tint className="p-6 flex flex-col relative overflow-hidden group border-none shadow-md">
               <div className="absolute top-0 end-0 p-4 opacity-10">
                 <Award className="w-20 h-20 text-primary" />

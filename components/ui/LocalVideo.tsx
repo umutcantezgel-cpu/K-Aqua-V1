@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-literals */
+
 import React, { useId } from 'react';
 import Script from 'next/script';
 

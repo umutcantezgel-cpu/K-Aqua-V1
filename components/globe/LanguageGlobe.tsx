@@ -365,8 +365,10 @@ function GlobeEffects({ dark }: { dark: boolean }) {
     const ey = (tmpEdge.y * 0.5 + 0.5) * h;
     const radius = Math.sqrt((ex - cx) ** 2 + (ey - cy) ** 2);
 
-    mat.uniforms.uCenter.value.set(cx, cy);
-    mat.uniforms.uRadius.value = radius;
+    if (mat.uniforms && mat.uniforms.uCenter && mat.uniforms.uRadius) {
+      mat.uniforms.uCenter.value.set(cx, cy);
+      mat.uniforms.uRadius.value = radius;
+    }
   });
 
   return (

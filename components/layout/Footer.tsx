@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] gap-8 md:gap-12 text-start">
           {/* Column 1: Logo & Tagline */}
           <div className="flex flex-col gap-4 items-start">
-            <Logo height={26} className="[&_span]:text-inverse-foreground" />
+            <Logo height={26} className="text-inverse-foreground" />
             <p className="text-small opacity-65 max-w-[320px] text-wrap-pretty font-body">
               {t('footer.tagline')}
             </p>

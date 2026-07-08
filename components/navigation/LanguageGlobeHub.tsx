@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-literals */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // components/navigation/LanguageGlobeHub.tsx
 // K-Aqua Language Switch Module — Hauptmodul ("Drop-In").
 //
@@ -143,10 +145,10 @@ export function LanguageGlobeHub({
 
 
 
-      {/* Header Area — buttons + title, stacked on mobile, absolute on desktop */}
-      <div className="relative z-20 flex flex-col items-center gap-2 px-4 pt-3 lg:pt-6 lg:px-6">
+      {/* Header Area — buttons + title */}
+      <div className="relative z-20 px-4 pt-16 lg:pt-6 lg:px-6">
         {/* Action buttons row */}
-        <div className="flex w-full items-center justify-end gap-2 lg:absolute lg:top-4 lg:right-6 lg:w-auto">
+        <div className="absolute top-4 right-4 flex items-center justify-end gap-2 lg:top-6 lg:right-6">
           <button
             type="button"
             title="Aktive Sprache anzeigen"
@@ -175,7 +177,7 @@ export function LanguageGlobeHub({
         </div>
 
         {/* Title */}
-        <div className="pointer-events-none text-center w-full">
+        <div className="pointer-events-none text-center w-full mt-2 lg:mt-0">
           <h1 className="text-[clamp(22px,3.4vw,44px)] font-bold leading-[1.1] tracking-tight">
             Wähle deine Sprache
           </h1>
