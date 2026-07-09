@@ -14,8 +14,8 @@ import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import {
-  AreaChart,
-  Area,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -395,18 +395,10 @@ export default function Co2Calculator() {
             
             <div className="w-full h-[350px] lg:h-[400px]">
               <ResponsiveContainer width="100%" height="100%">
-                <AreaChart
+                <LineChart
                   data={timeSeriesData}
                   margin={{ top: 20, right: 10, left: 0, bottom: 20 }}
                 >
-                  <defs>
-                    {results.map((r) => (
-                      <linearGradient key={`color-${r.id}`} id={`color-${r.id}`} x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor={MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)"} stopOpacity={r.id === "kaqua" ? 0.4 : 0.1} />
-                        <stop offset="95%" stopColor={MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)"} stopOpacity={0} />
-                      </linearGradient>
-                    ))}
-                  </defs>
                   <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="hsl(var(--border))" />
                   <XAxis 
                     dataKey="year" 
@@ -436,19 +428,19 @@ export default function Co2Calculator() {
                     const isKaqua = r.id === "kaqua";
                     const color = MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)";
                     return (
-                      <Area
+                      <Line
                         key={r.id}
-                        type="monotone"
+                        type="linear"
                         dataKey={`${r.id}_${chartMode}`}
                         name={t(`materials.${r.id}`)}
                         stroke={color}
-                        strokeWidth={isKaqua ? 3 : 2}
-                        fillOpacity={1}
-                        fill={`url(#color-${r.id})`}
+                        strokeWidth={isKaqua ? 4 : 2}
+                        dot={false}
+                        activeDot={{ r: isKaqua ? 8 : 5, strokeWidth: 0, fill: color }}
                       />
                     );
                   })}
-                </AreaChart>
+                </LineChart>
               </ResponsiveContainer>
             </div>
           </Card>

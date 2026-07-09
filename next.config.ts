@@ -44,7 +44,16 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
   experimental: {
-    optimizePackageImports: ['lucide-react', 'motion', 'motion/react'],
+    optimizePackageImports: [
+      'lucide-react', 
+      'motion', 
+      'motion/react',
+      'recharts',
+      'framer-motion',
+      'three',
+      '@react-three/fiber',
+      '@react-three/drei'
+    ],
   },
   eslint: {
     ignoreDuringBuilds: true,

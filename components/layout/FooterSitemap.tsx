@@ -1,11 +1,10 @@
 "use client";
 
 import { Link } from '@/lib/i18n/navigation';
-import { useTranslations } from 'next-intl';
+
 import { motion } from 'framer-motion';
 
 export default function FooterSitemap() {
-  const t = useTranslations('FooterSitemap');
 
   const sitemapGroups = [
     {
@@ -82,18 +81,10 @@ export default function FooterSitemap() {
     },
   ];
 
-  const getTranslation = (key: string, fallback: string) => {
-    try {
-      const translation = t(key);
-      return translation && typeof translation === 'string' ? translation : fallback;
-    } catch {
-      return fallback;
-    }
-  };
 
   return (
-    <div className="bg-inverse-surface/95 border-t border-inverse-foreground/10 py-16 md:py-24 relative z-10 text-inverse-foreground">
-      <div className="max-w-[1200px] mx-auto px-4 md:px-6">
+    <div className="w-full relative z-10 text-inverse-foreground">
+      <div className="w-full">
         <motion.div 
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-8 gap-y-12"
           initial="hidden"
@@ -119,7 +110,7 @@ export default function FooterSitemap() {
               }}
             >
               <h3 className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
-                {getTranslation(`${group.id}.title`, group.fallback)}
+                {group.fallback}
               </h3>
               <ul className="flex flex-col gap-3">
                 {group.links.map((link) => (
@@ -128,7 +119,7 @@ export default function FooterSitemap() {
                       href={link.href as any}
                       className="text-body text-small opacity-75 hover:opacity-100 hover:text-primary transition-colors py-1 inline-flex items-center"
                     >
-                      {getTranslation(`${group.id}.links.${link.labelId}`, link.fallback)}
+                      {link.fallback}
                     </Link>
                   </li>
                 ))}

@@ -73,7 +73,7 @@ export default function LangPicker() {
       {open && (
         <div
           className={clsx(
-            "absolute top-full mt-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none animate-in fade-in slide-in-from-top-2 duration-fast end-0 origin-top"
+            "absolute bottom-full mb-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none animate-in fade-in slide-in-from-bottom-2 duration-fast end-0 origin-bottom"
           )}
           role="listbox"
           aria-label={t('lang') || "Languages"}

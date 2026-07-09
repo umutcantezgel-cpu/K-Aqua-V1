@@ -1,7 +1,0 @@
-K-AQUA INTEGRATIONS-SEGMENTE
-
-Start: Ordner 00-START-HIER, Datei START-PROMPT.txt.
-
-Diesen kompletten Ordner dem ausführenden KI-Agenten übergeben und den START-PROMPT hineinkopieren. Der Agent arbeitet dann die Segment-Ordner 01 bis 27 in Reihenfolge ab.
-
-Jedes Segment ist auch einzeln nutzbar: Segment-Ordner öffnen, dessen PROMPT.txt als Auftrag geben, beiliegende Dateien (Unterordner code und uebersetzungen) verwenden. Jeder Prompt enthält den vollständigen Kontext.

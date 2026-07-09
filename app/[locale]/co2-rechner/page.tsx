@@ -1,10 +1,18 @@
 import React from "react";
-import Co2Calculator from "@/components/tools/Co2Calculator";
-import { CO2Deep } from "@/components/sections/CO2Deep";
+import dynamic from "next/dynamic";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
+import { CO2Deep } from "@/components/sections/CO2Deep";
 import type { Metadata } from "next";
+
+const Co2Calculator = dynamic(() => import("@/components/tools/Co2Calculator"), {
+  loading: () => <div className="w-full h-[600px] animate-pulse bg-muted rounded-xl"></div>,
+});
+
+const MaterialComparator = dynamic(() => import("@/components/tools/MaterialComparator").then(mod => mod.MaterialComparator), {
+  loading: () => <div className="w-full h-[600px] animate-pulse bg-muted rounded-xl"></div>,
+});
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -40,6 +48,9 @@ export default async function Co2RechnerPage({ params }: Props) {
     <>
       <JsonLd schema={webPageSchema} />
       <Co2Calculator />
+      <div className="bg-muted/30">
+        <MaterialComparator />
+      </div>
       <CO2Deep />
     </>
   );

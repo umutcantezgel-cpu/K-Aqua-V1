@@ -1,8 +1,13 @@
 'use client';
 
-import { LanguageGlobeHub } from '@/components/navigation/LanguageGlobeHub';
+import dynamic from 'next/dynamic';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+
+const LanguageGlobeHub = dynamic(
+  () => import('@/components/navigation/LanguageGlobeHub').then(mod => mod.LanguageGlobeHub),
+  { ssr: false, loading: () => <div className="w-full h-full animate-pulse bg-muted rounded-xl" /> }
+);
 
 export default function LanguagePage() {
   const { resolvedTheme } = useTheme();

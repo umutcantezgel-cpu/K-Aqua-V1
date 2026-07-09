@@ -4,7 +4,7 @@
   "private": true,
   "description": "K-Aqua (KWT GmbH) — corporate website. Next.js 15 App Router · TypeScript · Tailwind CSS 4 · Framer Motion · next-intl.",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
