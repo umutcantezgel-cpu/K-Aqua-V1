@@ -22,17 +22,7 @@ export default function Header() {
   const [globeHubOpen, setGlobeHubOpen] = useState(false);
   const pathname = usePathname();
   const t = useTranslations('nav');
-  const tPages = useTranslations('pages');
   const shouldReduceMotion = useReducedMotion();
-
-  const getPageTitle = (id: string) => {
-    try {
-      const arr = tPages.raw(id);
-      return Array.isArray(arr) ? arr[0] : id;
-    } catch {
-      return id;
-    }
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -105,14 +95,14 @@ export default function Header() {
             {/* Group 1: Produkte & Tools */}
             <div className="relative group">
               <Link href="/produkte" className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle">
-                {getPageTitle('products')}
+                {t('products')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </Link>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/produkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{getPageTitle('products')}</Link>
-                <Link href="/produkte/finder" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Produktfinder</Link>
-                <Link href="/co2-rechner" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">CO₂-Rechner</Link>
-                <Link href="/loesungen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Lösungen</Link>
+                <Link href="/produkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('products')}</Link>
+                <Link href="/produkte/finder" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('finder')}</Link>
+                <Link href="/co2-rechner" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('co2')}</Link>
+                <Link href="/loesungen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('solutions')}</Link>
               </div>
             </div>
 
@@ -123,25 +113,25 @@ export default function Header() {
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </span>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/academy" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{getPageTitle('academy')}</Link>
-                <Link href="/trust-center" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Trust Center</Link>
-                <Link href="/service" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{getPageTitle('service')}</Link>
-                <Link href="/partnerschaft" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Partnerschaft</Link>
+                <Link href="/academy" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('academy')}</Link>
+                <Link href="/trust-center" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('trust')}</Link>
+                <Link href="/service" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('service')}</Link>
+                <Link href="/partnerschaft" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('partners')}</Link>
               </div>
             </div>
 
             {/* Group 3: Unternehmen */}
             <div className="relative group">
               <Link href="/unternehmen" className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle">
-                {getPageTitle('about')}
+                {t('about')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </Link>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/unternehmen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{getPageTitle('about')}</Link>
-                <Link href="/maerkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{getPageTitle('markets')}</Link>
-                <Link href="/referenzen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Referenzen</Link>
-                <Link href="/karriere" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">Karriere</Link>
-                <Link href="/news" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">News</Link>
+                <Link href="/unternehmen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('about')}</Link>
+                <Link href="/maerkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('markets')}</Link>
+                <Link href="/referenzen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('references')}</Link>
+                <Link href="/karriere" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('career')}</Link>
+                <Link href="/news" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('news')}</Link>
               </div>
             </div>
           </nav>
