@@ -3,7 +3,6 @@
 import { Link } from '@/lib/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { Logo } from '@/components/ui/Logo';
-import LangPicker from './LangPicker';
 
 import FooterSitemap from './FooterSitemap';
 import FooterTrustBadges from './FooterTrustBadges';
@@ -13,7 +12,7 @@ export default function Footer() {
   const t = useTranslations();
 
   return (
-    <footer className="bg-[oklch(0.18_0.02_260)] text-[oklch(0.95_0.02_260)] relative pt-24 pb-8 md:pt-32 md:pb-12">
+    <footer className="bg-[oklch(0.18_0.02_260)] text-[oklch(0.95_0.02_260)] relative overflow-hidden pt-24 pb-8 md:pt-32 md:pb-12">
       {/* Background Glow */}
       <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.15),transparent_65%)] pointer-events-none" />
 
@@ -57,10 +56,6 @@ export default function Footer() {
             <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
               {t('footer.privacy')}
             </Link>
-          </div>
-
-          <div className="flex shrink-0">
-            <LangPicker />
           </div>
         </div>
 
