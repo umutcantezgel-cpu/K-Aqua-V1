@@ -27,12 +27,13 @@ export default async function FinderPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
-  const products = getAllProducts().map(p => ({
-    slug: p.slug,
-    category: p.category,
-    title: p.title,
-    article_codes: p.article_codes || "",
-  }));
+  const products = getAllProducts().map(p => {
+    const { content, ...rest } = p;
+    return {
+      ...rest,
+      article_codes: rest.article_codes || "",
+    };
+  });
   const indexContent = await getProductsIndex();
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
