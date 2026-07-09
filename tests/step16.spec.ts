@@ -1,6 +1,15 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Step 16: Referenzen (Globus)", () => {
+  test.beforeEach(async ({ context }) => {
+    await context.addInitScript(() => {
+      window.localStorage.setItem('k-aqua-cookie-consent', 'all');
+      window.localStorage.setItem('cookie_essential', 'true');
+      window.localStorage.setItem('cookie_analytics', 'true');
+      window.localStorage.setItem('cookie_marketing', 'true');
+    });
+  });
+
   test.describe("German Locale /de/referenzen", () => {
     test.beforeEach(async ({ page }) => {
       await page.goto("http://localhost:3001/de/referenzen");
@@ -13,7 +22,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       await expect(heading).toContainText("Projekte.");
 
       // Check default project (Waldsolms) details inside the Bento Card
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       const cardDesc = page.locator("div.bg-card-tint p");
       
       await expect(cardTitle).toContainText("Waldsolms, Deutschland");
@@ -26,7 +35,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       await dubaiChip.click();
 
       // Card title and description should be updated
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       const cardDesc = page.locator("div.bg-card-tint p");
 
       await expect(cardTitle).toContainText("Dubai, VAE");
@@ -44,7 +53,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       await expect(heading).toContainText("projects.");
 
       // Check default project (Waldsolms) details in English
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       const cardDesc = page.locator("div.bg-card-tint p");
 
       await expect(cardTitle).toContainText("Waldsolms, Germany");
@@ -62,7 +71,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       await expect(heading).toContainText("بالمشاريع.");
 
       // Check default project in Arabic
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       const cardDesc = page.locator("div.bg-card-tint p");
 
       await expect(cardTitle).toContainText("فالدسولمس، ألمانيا");

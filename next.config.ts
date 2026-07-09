@@ -29,6 +29,10 @@ const securityHeaders = [
     key: 'X-DNS-Prefetch-Control',
     value: 'on',
   },
+  {
+    key: 'X-XSS-Protection',
+    value: '1; mode=block',
+  },
 ];
 
 const nextConfig: NextConfig = {

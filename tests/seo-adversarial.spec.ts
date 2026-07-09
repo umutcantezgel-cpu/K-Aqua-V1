@@ -221,7 +221,7 @@ test.describe('Adversarial SEO & JSON-LD Compliance Verification', () => {
     expect(responseGeo?.status()).toBe(404);
 
     // Invalid locale
-    const responseLocale = await page.goto('http://localhost:3001/fr/produkte');
+    const responseLocale = await page.goto('http://localhost:3001/xx/produkte');
     expect(responseLocale?.status()).toBe(404);
   });
 });

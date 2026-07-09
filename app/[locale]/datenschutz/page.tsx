@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
   return constructMetadata({
     title: t("title"),
-    description: t("title"),
+    description: `${t("title")} - K-Aqua`,
     path: "/datenschutz",
     locale,
   });
@@ -27,14 +27,14 @@ export default async function DatenschutzPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
 
   const title = t("title");
-  const sections = t.raw("sections") as { title?: string; text?: string; content?: string; items?: string[] }[];
+  const sections = t.raw("sections") as { id?: string; title: string; icon?: string; tldr?: string; content: string }[];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": title,
-    "description": title,
+    "description": `${title} - K-Aqua`,
     "url": `${siteUrl}/${locale}/datenschutz`,
   };
 

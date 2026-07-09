@@ -9,7 +9,9 @@ import { Button } from "@/components/ui/Button";
 import { Download, ArrowRight } from "@/components/ui/icon";
 import { Search } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
-import { Link } from "@/lib/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/lib/i18n/navigation";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 
 interface ProductMeta {
   slug: string;
@@ -33,8 +35,39 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
   const t = useTranslations("finder");
   const locale = useLocale();
 
-  const [activeCategory, setActiveCategory] = useState<string>("all");
-  const [searchQuery, setSearchQuery] = useState("");
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const activeCategory = searchParams.get("category") || "all";
+  const searchQuery = searchParams.get("q") || "";
+  const [localSearchQuery, setLocalSearchQuery] = useState(searchQuery);
+
+  useEffect(() => {
+    setLocalSearchQuery(searchQuery);
+  }, [searchQuery]);
+
+  const updateParams = (newParams: { category?: string; q?: string }) => {
+    const params = new URLSearchParams(searchParams.toString());
+    
+    if (newParams.category !== undefined) {
+      if (newParams.category === "all") {
+        params.delete("category");
+      } else {
+        params.set("category", newParams.category);
+      }
+    }
+    
+    if (newParams.q !== undefined) {
+      if (newParams.q === "") {
+        params.delete("q");
+      } else {
+        params.set("q", newParams.q);
+      }
+    }
+    
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+  };
 
   const rows = useMemo(() => {
     return initialProducts.filter((p) => {
@@ -92,7 +125,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                         <FilterChip
                           key={cat.id}
                           pressed={activeCategory === cat.id}
-                          onClick={() => setActiveCategory(cat.id)}
+                          onClick={() => updateParams({ category: cat.id })}
                         >
                           {cat.label}
                         </FilterChip>
@@ -112,8 +145,11 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                         type="text"
                         placeholder="Artikelnummer oder Name..."
                         className="k-input ps-10 w-full bg-background-subtle border-card-border focus:border-primary focus:ring-1 focus:ring-primary rounded-lg transition-all"
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
+                        value={localSearchQuery}
+                        onChange={(e) => {
+                          setLocalSearchQuery(e.target.value);
+                          updateParams({ q: e.target.value });
+                        }}
                       />
                     </div>
                   </div>
@@ -200,8 +236,8 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                           variant="secondary" 
                           className="mt-6"
                           onClick={() => {
-                            setSearchQuery("");
-                            setActiveCategory("all");
+                            setLocalSearchQuery("");
+                            updateParams({ category: "all", q: "" });
                           }}
                         >
                           Filter zurücksetzen

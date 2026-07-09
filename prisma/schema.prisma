@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  role      String   @default("USER") // USER, ADMIN, B2B_PARTNER
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ProductCategory {
+  id          String    @id @default(uuid())
+  name        String
+  slug        String    @unique
+  description String?
+  products    Product[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Product {
+  id              String           @id @default(uuid())
+  name            String
+  sku             String           @unique
+  description     String?
+  price           Float?
+  categoryId      String
+  category        ProductCategory  @relation(fields: [categoryId], references: [id])
+  co2Data         Co2MaterialData?
+  materials       String[]         // e.g., ["Edelstahl", "Messing"]
+  isActive        Boolean          @default(true)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+}
+
+model Co2MaterialData {
+  id                String   @id @default(uuid())
+  productId         String   @unique
+  product           Product  @relation(fields: [productId], references: [id])
+  embodiedCarbon    Float    // kg CO2e
+  transportCarbon   Float    // kg CO2e
+  endOfLifeCarbon   Float    // kg CO2e
+  totalCarbon       Float    // kg CO2e
+  waterUsage        Float?   // L
+  recycledContent   Float?   // Percentage 0-100
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}

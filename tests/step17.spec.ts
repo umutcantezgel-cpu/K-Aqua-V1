@@ -1,7 +1,15 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
-  
+  test.beforeEach(async ({ context }) => {
+    await context.addInitScript(() => {
+      window.localStorage.setItem('k-aqua-cookie-consent', 'all');
+      window.localStorage.setItem('cookie_essential', 'true');
+      window.localStorage.setItem('cookie_analytics', 'true');
+      window.localStorage.setItem('cookie_marketing', 'true');
+    });
+  });
+
   test.describe("German Locale /de/maerkte", () => {
     test.beforeEach(async ({ page }) => {
       await page.goto("http://localhost:3001/de/maerkte");
@@ -38,7 +46,7 @@ test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
 
     test("should filter list items when clicking a region chip", async ({ page }) => {
       // Initially, we should see 28 list items
-      const listItems = page.locator("a[href^='/de/maerkte/']");
+      const listItems = page.locator("div[id^='market-item-']");
       const initialCount = await listItems.count();
       expect(initialCount).toBe(28);
 
@@ -51,15 +59,15 @@ test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
       expect(filteredCount).toBe(5);
 
       // Check some cities visibility
-      const londonItem = page.locator("a[href='/de/maerkte/london']");
+      const londonItem = page.locator("#market-item-london");
       await expect(londonItem).toBeVisible();
-      const frankfurtItem = page.locator("a[href='/de/maerkte/frankfurt']");
+      const frankfurtItem = page.locator("#market-item-frankfurt");
       await expect(frankfurtItem).not.toBeVisible();
     });
 
     test("should update the tooltip when hovering over a list item", async ({ page }) => {
       // Hover over Frankfurt item
-      const frankfurtItem = page.locator("a[href='/de/maerkte/frankfurt']");
+      const frankfurtItem = page.locator("#market-item-frankfurt");
       await frankfurtItem.hover();
 
       // Tooltip card should appear and contain details
@@ -72,7 +80,7 @@ test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
 
     test("should work with keyboard tab-navigation and focus styles", async ({ page }) => {
       // Focus on Frankfurt link
-      const frankfurtItem = page.locator("a[href='/de/maerkte/frankfurt']");
+      const frankfurtItem = page.locator("#market-item-frankfurt");
       await frankfurtItem.focus();
       await expect(frankfurtItem).toBeFocused();
 
@@ -83,8 +91,12 @@ test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
     });
 
     test("should navigate to /maerkte/<slug> when clicking a list item", async ({ page }) => {
-      const frankfurtItem = page.locator("a[href='/de/maerkte/frankfurt']");
+      const frankfurtItem = page.locator("#market-item-frankfurt");
       await frankfurtItem.click();
+
+      // Click the link inside expanded content to navigate
+      const openLink = frankfurtItem.locator("a");
+      await openLink.click();
 
       // It should navigate to /de/maerkte/frankfurt
       await expect(page).toHaveURL(/.*\/maerkte\/frankfurt/);
@@ -105,7 +117,7 @@ test.describe("Step 17: Geo: Märkte-Hub (360°-Welt)", () => {
       await expect(heading).toContainText("عالم مليء");
 
       // Verify list item count in Arabic
-      const listItems = page.locator("a[href^='/ar/maerkte/']");
+      const listItems = page.locator("div[id^='market-item-']");
       expect(await listItems.count()).toBe(28);
     });
   });

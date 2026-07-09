@@ -10,18 +10,18 @@ import { FilterChip } from "@/components/ui/FilterChip";
 import { Award, Download, TrendingDown, Factory, Truck, Waves, Shield, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { calculateCo2, Co2Input, TransportMode, EnergyMix, InstallationMethod, InsulationClass } from "@/lib/co2-engine";
+import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import {
-  BarChart,
-  Bar,
+  AreaChart,
+  Area,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
-  Cell
+  ResponsiveContainer
 } from "recharts";
 
 const STRINGS = {
@@ -35,41 +35,39 @@ const STRINGS = {
   dot: ".",
 };
 
-const PHASE_COLORS = {
-  a13: "oklch(0.5 0.15 250)",   // Production (Blue/Primary)
-  a45: "oklch(0.6 0.15 40)",    // Transport & Install (Orange)
-  b: "oklch(0.4 0.05 280)",     // Operation (Dark Navy)
-  c: "oklch(0.7 0.05 320)",     // EoL (Purple/Pink)
-  d: "oklch(0.65 0.15 150)",    // Recycling Credit (Green)
+const MATERIAL_COLORS: Record<string, string> = {
+  kaqua: "oklch(0.5 0.15 250)",    // Primary blue
+  steel: "oklch(0.6 0.05 250)",    // Muted blue-gray
+  copper: "oklch(0.7 0.1 50)",     // Copperish/orange-gray
+  pex: "oklch(0.5 0.05 180)",      // Greenish-gray
+  ppr: "oklch(0.6 0.1 200)",       // Cyan-gray
 };
 
-const CustomTooltip = ({ active, payload, label, t }: any) => {
+const CustomTooltip = ({ active, payload, label, t, mode, locale }: any) => {
   if (active && payload && payload.length) {
+    const sorted = [...payload].sort((a, b) => b.value - a.value);
     return (
-      <div className="bg-popover text-popover-foreground border border-border p-3 rounded-lg shadow-xl text-sm min-w-[200px]">
-        <p className="font-bold mb-2 border-b border-border pb-2">{label}</p>
-        {payload.map((entry: any, index: number) => (
-          <div key={index} className="flex justify-between items-center py-1 gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: entry.color }} />
-              <span className="text-muted-foreground">{entry.name}</span>
+      <div className="bg-popover/95 backdrop-blur-md text-popover-foreground border border-border p-3 rounded-lg shadow-xl text-sm min-w-[220px]">
+        <p className="font-bold mb-2 border-b border-border pb-2 text-muted-foreground">{t("year")} {label}</p>
+        {sorted.map((entry: any, index: number) => {
+          const val = mode === 'co2' 
+            ? `${Math.round(entry.value).toLocaleString(locale)} kg`
+            : new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(entry.value);
+          const isKaqua = entry.dataKey.startsWith('kaqua');
+          return (
+            <div key={index} className="flex justify-between items-center py-1 gap-4">
+              <div className="flex items-center gap-2">
+                <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: entry.stroke || entry.color }} />
+                <span className={isKaqua ? "font-bold text-foreground" : "text-muted-foreground"}>
+                  {entry.name}
+                </span>
+              </div>
+              <span className={`font-mono ${isKaqua ? "font-bold text-primary" : "font-medium"}`}>
+                {val}
+              </span>
             </div>
-            <span className="font-mono font-medium">
-              {Math.round(entry.value).toLocaleString()} kg
-            </span>
-          </div>
-        ))}
-        {payload[0]?.payload?.d < 0 && (
-          <div className="flex justify-between items-center py-1 gap-4 mt-1 pt-1 border-t border-border">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: PHASE_COLORS.d }} />
-              <span className="text-muted-foreground">{t("moduleD")}</span>
-            </div>
-            <span className="font-mono font-medium text-green-500">
-              {Math.round(payload[0].payload.d).toLocaleString()} kg
-            </span>
-          </div>
-        )}
+          );
+        })}
       </div>
     );
   }
@@ -82,6 +80,7 @@ export default function Co2Calculator() {
   const reportRef = useRef<HTMLDivElement>(null);
   const [isExporting, setIsExporting] = useState(false);
   const [activeTab, setActiveTab] = useState<"geometry" | "flow" | "environment" | "logistics">("geometry");
+  const [chartMode, setChartMode] = useState<"co2" | "cost">("co2");
 
   // === INPUTS ===
   const [d, setD] = useState<number>(110);
@@ -131,16 +130,39 @@ export default function Co2Calculator() {
     return new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(n);
   };
 
-  const chartData = results.map(r => ({
-    name: t(`materials.${r.id}`),
-    id: r.id,
-    a13: r.phases.a13,
-    a45: r.phases.a45,
-    b: r.phases.b,
-    c: r.phases.c > 0 ? r.phases.c : 0,
-    d: r.phases.d,
-    total: r.phases.total
-  }));
+  // Generate time-series data for stock chart effect
+  const timeSeriesData: any[] = [];
+  const YEARS_INTERVAL = Math.max(1, Math.floor(lifespan / 10)); // e.g. every 5 years for a 50-yr lifespan
+
+  for (let year = 0; year <= lifespan; year += YEARS_INTERVAL) {
+    if (year > 0 && year < lifespan && year % YEARS_INTERVAL !== 0) continue; 
+    
+    // Ensure we include the final year exactly
+    const currentYear = (year + YEARS_INTERVAL > lifespan && year !== lifespan) ? lifespan : year;
+    if (timeSeriesData.some(d => d.year === currentYear)) continue;
+
+    const dataPoint: any = { year: currentYear };
+    
+    results.forEach(r => {
+      // Year 0: A13 + A45 (Production, transport, install)
+      // Year t: + (B / lifespan) * year (Operational cost over time)
+      // Year lifespan: + C + D (EoL + Recycling)
+      let cumulativeCo2 = r.phases.a13 + r.phases.a45 + (r.phases.b / lifespan) * currentYear;
+      let cumulativeCost = r.financial.materialCost + r.financial.installationCost + (r.financial.operationalCost / lifespan) * currentYear;
+      
+      cumulativeCost += (r.financial.maintenanceCost / lifespan) * currentYear;
+
+      if (currentYear === lifespan) {
+        cumulativeCo2 += r.phases.c + r.phases.d;
+      }
+      
+      dataPoint[`${r.id}_co2`] = cumulativeCo2;
+      dataPoint[`${r.id}_cost`] = cumulativeCost;
+    });
+
+    timeSeriesData.push(dataPoint);
+    if (currentYear === lifespan) break;
+  }
 
   const handleExportPDF = async () => {
     if (!reportRef.current) return;
@@ -320,9 +342,11 @@ export default function Co2Calculator() {
               <span className="text-[11px] font-bold tracking-[0.08em] uppercase text-primary/80 mb-1">
                 {t("co2Savings")}
               </span>
-              <motion.div key={saved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-4xl lg:text-5xl font-heading font-extrabold text-foreground leading-none my-2">
-                {formatCo2(saved)}
-              </motion.div>
+              <AnimatedCounter 
+                value={saved} 
+                formatFn={formatCo2} 
+                className="text-4xl lg:text-5xl font-heading font-extrabold text-foreground leading-none my-2" 
+              />
               <p className="text-sm text-muted-foreground mt-1 max-w-[250px]">
                 {t("co2SavingsDesc", { n: trees.toLocaleString(locale) })}
               </p>
@@ -335,61 +359,96 @@ export default function Co2Calculator() {
               <span className="text-[11px] font-bold tracking-[0.08em] uppercase text-muted-foreground mb-1">
                 {t("costSavings")}
               </span>
-              <motion.div key={costSaved} initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="text-4xl lg:text-5xl font-heading font-extrabold text-primary leading-none my-2">
-                {formatEuro(costSaved)}
-              </motion.div>
+              <AnimatedCounter 
+                value={costSaved} 
+                formatFn={formatEuro} 
+                className="text-4xl lg:text-5xl font-heading font-extrabold text-primary leading-none my-2" 
+              />
               <p className="text-sm text-muted-foreground mt-1 max-w-[250px]">
                 {t("costSavingsDesc", { n: lifespan })}
               </p>
             </Card>
           </div>
 
-          {/* RECHARTS - LCA CHART */}
+          {/* TIME SERIES CHART (STOCK-LIKE) */}
           <Card className="p-6 flex flex-col gap-4 border-none shadow-sm bg-card">
-            <h3 className="font-heading font-bold text-lg text-foreground flex items-center gap-2">
-              <Factory className="w-5 h-5 text-primary" /> {t("lcaPhases")}
-            </h3>
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-border pb-4">
+              <h3 className="font-heading font-bold text-lg text-foreground flex items-center gap-2">
+                <TrendingDown className="w-5 h-5 text-primary" /> {t("lcaPhases")}
+              </h3>
+              
+              <div className="flex bg-muted/50 p-1 rounded-lg border border-border/50">
+                <button
+                  onClick={() => setChartMode("co2")}
+                  className={`px-4 py-1.5 text-sm font-semibold rounded-md transition-all ${chartMode === "co2" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
+                >
+                  CO2
+                </button>
+                <button
+                  onClick={() => setChartMode("cost")}
+                  className={`px-4 py-1.5 text-sm font-semibold rounded-md transition-all ${chartMode === "cost" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
+                >
+                  Cost
+                </button>
+              </div>
+            </div>
             
             <div className="w-full h-[350px] lg:h-[400px]">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart
-                  data={chartData}
+                <AreaChart
+                  data={timeSeriesData}
                   margin={{ top: 20, right: 10, left: 0, bottom: 20 }}
-                  barSize={40}
                 >
+                  <defs>
+                    {results.map((r) => (
+                      <linearGradient key={`color-${r.id}`} id={`color-${r.id}`} x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor={MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)"} stopOpacity={r.id === "kaqua" ? 0.4 : 0.1} />
+                        <stop offset="95%" stopColor={MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)"} stopOpacity={0} />
+                      </linearGradient>
+                    ))}
+                  </defs>
                   <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="hsl(var(--border))" />
                   <XAxis 
-                    dataKey="name" 
+                    dataKey="year" 
                     axisLine={false} 
                     tickLine={false} 
                     tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 12, fontWeight: 500 }} 
                     dy={10}
+                    tickFormatter={(val) => `${val} ${t("year")}`}
                   />
                   <YAxis 
                     axisLine={false} 
                     tickLine={false} 
-                    tickFormatter={(value) => `${(value/1000).toFixed(0)}t`}
+                    tickFormatter={(value) => chartMode === 'co2' ? `${(value/1000).toFixed(0)}t` : `${(value/1000).toFixed(0)}k€`}
                     tick={{ fill: 'hsl(var(--muted-foreground))', fontSize: 12 }} 
                     dx={-5}
                   />
                   <Tooltip 
-                    content={<CustomTooltip t={t} />}
-                    cursor={{ fill: 'hsl(var(--muted)/0.4)' }}
+                    content={<CustomTooltip t={t} mode={chartMode} locale={locale} />}
+                    cursor={{ stroke: 'hsl(var(--primary))', strokeWidth: 1, strokeDasharray: '4 4' }}
                   />
                   <Legend 
                     wrapperStyle={{ paddingTop: '20px', fontSize: '12px' }}
                     iconType="circle"
                   />
                   
-                  <Bar dataKey="a13" name={t("phaseA13")} stackId="a" fill={PHASE_COLORS.a13} radius={[0,0,4,4]}>
-                     {chartData.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={PHASE_COLORS.a13} />
-                      ))}
-                  </Bar>
-                  <Bar dataKey="a45" name={t("phaseA45")} stackId="a" fill={PHASE_COLORS.a45} />
-                  <Bar dataKey="b" name={t("phaseB")} stackId="a" fill={PHASE_COLORS.b} />
-                  <Bar dataKey="c" name={t("phaseC")} stackId="a" fill={PHASE_COLORS.c} radius={[4,4,0,0]} />
-                </BarChart>
+                  {results.map((r) => {
+                    const isKaqua = r.id === "kaqua";
+                    const color = MATERIAL_COLORS[r.id] || "oklch(0.6 0 0)";
+                    return (
+                      <Area
+                        key={r.id}
+                        type="monotone"
+                        dataKey={`${r.id}_${chartMode}`}
+                        name={t(`materials.${r.id}`)}
+                        stroke={color}
+                        strokeWidth={isKaqua ? 3 : 2}
+                        fillOpacity={1}
+                        fill={`url(#color-${r.id})`}
+                      />
+                    );
+                  })}
+                </AreaChart>
               </ResponsiveContainer>
             </div>
           </Card>

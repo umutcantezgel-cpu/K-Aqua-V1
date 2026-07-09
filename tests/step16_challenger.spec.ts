@@ -1,7 +1,15 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Challenger Step 16: Referenzen (Globus) Deep Verification", () => {
-  
+  test.beforeEach(async ({ context }) => {
+    await context.addInitScript(() => {
+      window.localStorage.setItem('k-aqua-cookie-consent', 'all');
+      window.localStorage.setItem('cookie_essential', 'true');
+      window.localStorage.setItem('cookie_analytics', 'true');
+      window.localStorage.setItem('cookie_marketing', 'true');
+    });
+  });
+
   test.describe("Page Load & Canvas Rendering", () => {
     test("should load /de/referenzen and render a visible canvas", async ({ page }) => {
       await page.goto("http://localhost:3001/de/referenzen");
@@ -74,7 +82,7 @@ test.describe("Challenger Step 16: Referenzen (Globus) Deep Verification", () =>
           await expect(chip).toHaveAttribute("aria-pressed", "true");
 
           // Bento Card assertions
-          const cardTitle = page.locator("h3");
+          const cardTitle = page.locator("div.bg-card-tint h3");
           const cardDesc = page.locator("div.bg-card-tint p");
           
           await expect(cardTitle).toContainText(proj.title);
@@ -89,7 +97,7 @@ test.describe("Challenger Step 16: Referenzen (Globus) Deep Verification", () =>
       await page.goto("http://localhost:3001/de/referenzen");
 
       // Verify the default is Waldsolms
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       await expect(cardTitle).toContainText("Waldsolms, Deutschland");
 
       // Focus/click the first chip to establish keyboard focus

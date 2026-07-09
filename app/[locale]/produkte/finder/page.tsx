@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ProductFinder from "@/components/tools/ProductFinder";
 import { FinderDeep } from "@/components/sections/FinderDeep";
 import { getTranslations } from "next-intl/server";
@@ -47,7 +47,13 @@ export default async function FinderPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={webPageSchema} />
-      <ProductFinder initialProducts={products} />
+      <Suspense fallback={
+        <div className="flex items-center justify-center min-h-[400px]">
+          <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary"></div>
+        </div>
+      }>
+        <ProductFinder initialProducts={products} />
+      </Suspense>
       
       {/* Dynamic SEO Catalog Index Injection */}
       {indexContent && (

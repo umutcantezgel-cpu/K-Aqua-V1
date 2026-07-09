@@ -13,10 +13,10 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const titles: Record<string, string> = {
     de: 'Premium PP-R & PP-RCT Rohrleitungssysteme',
     en: 'Premium PP-R & PP-RCT Piping Systems',
-    ar: 'أنظمة أنابيب PP-R و PP-RCT الفاخرة',
+    ar: 'Premium PP-R & PP-RCT Piping Systems',
   };
 
-  const subtitle = locale === 'ar' ? 'صنع في ألمانيا' : 'Made in Germany';
+  const subtitle = 'Made in Germany';
   const titleText = titles[locale] || titles.en;
   const brandName = 'K-AQUA';
 

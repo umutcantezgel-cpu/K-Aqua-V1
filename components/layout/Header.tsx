@@ -65,13 +65,13 @@ export default function Header() {
     setMenuOpen(false);
   }, []);
 
-  const isScrolledOrOpen = scrolled || menuOpen;
-
   const headerClass = clsx(
     "fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-out h-[72px] flex items-center text-foreground",
-    isScrolledOrOpen
-      ? "bg-[var(--nav-glass)] backdrop-blur-[16px] saturate-[1.4] border-b border-[var(--nav-border)] shadow-sm"
-      : "bg-transparent border-b border-transparent"
+    menuOpen
+      ? "bg-background"
+      : scrolled
+        ? "bg-[var(--nav-glass)] backdrop-blur-[16px] saturate-[1.4] border-b border-[var(--nav-border)] shadow-sm"
+        : "bg-transparent border-b border-transparent"
   );
 
   // Animated hamburger line props
@@ -96,7 +96,7 @@ export default function Header() {
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
             aria-label={t('home')}
           >
-            <Logo height={28} />
+            <Logo height={48} />
           </Link>
 
           {/* Desktop Navigation (Dropdowns) */}
@@ -214,7 +214,7 @@ export default function Header() {
           <motion.div
             id="mega-menu"
             key="mega-menu-overlay"
-            style={{ position: 'fixed', inset: 0, zIndex: 9999 }}
+            style={{ position: 'fixed', inset: 0, zIndex: 70, willChange: 'opacity' }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

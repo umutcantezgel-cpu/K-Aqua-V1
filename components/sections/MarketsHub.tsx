@@ -229,6 +229,7 @@ export default function MarketsHub({
                   <div
                     key={g.slug}
                     id={`market-item-${g.slug}`}
+                    tabIndex={0}
                     className={`w-full text-start flex flex-col items-start gap-0.5 py-3 ps-4 pe-4 rounded-xl border transition-all duration-300 relative group outline-none focus-visible:ring-2 focus-visible:ring-primary motion-reduce:transition-none ${
                       isActive
                         ? "bg-card border-card-border shadow-sm"
@@ -236,6 +237,18 @@ export default function MarketsHub({
                     }`}
                     onClick={() => {
                       if (!isActive) handleMarketSelect(g);
+                    }}
+                    onMouseEnter={() => {
+                      handleMarketSelect(g);
+                    }}
+                    onFocus={() => {
+                      handleMarketSelect(g);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (!isActive) handleMarketSelect(g);
+                      }
                     }}
                   >
                     <div className="flex w-full items-center justify-between">

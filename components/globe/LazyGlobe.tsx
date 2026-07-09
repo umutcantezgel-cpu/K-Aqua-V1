@@ -15,7 +15,8 @@ export function LazyGlobe({ children, className, style, ...props }: LazyGlobePro
 
     // Check if we are in a testing or headless browser environment
     const isTestEnv = 
-      /playwright|headless/i.test(window.navigator.userAgent) ||
+      navigator.webdriver ||
+      /playwright|headless/i.test(navigator.userAgent) ||
       '__playwright__' in window;
 
     if (isTestEnv) {

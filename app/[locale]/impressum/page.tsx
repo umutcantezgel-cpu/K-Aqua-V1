@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "legal.impressum" });
   return constructMetadata({
     title: t("title"),
-    description: t("title"),
+    description: `${t("title")} - K-Aqua`,
     path: "/impressum",
     locale,
   });
@@ -34,7 +34,7 @@ export default async function ImpressumPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": title,
-    "description": title,
+    "description": `${title} - K-Aqua`,
     "url": `${siteUrl}/${locale}/impressum`,
   };
 

@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import remarkGfm from 'remark-gfm';
+import { unstable_cache } from 'next/cache';
 
 const contentDir = path.join(process.cwd(), 'content', 'products');
 
@@ -56,7 +57,7 @@ export function getProductsByCategory(category: string): ProductData[] {
   return getAllProducts().filter(p => p.category === category);
 }
 
-export async function getProductBySlug(category: string, slug: string): Promise<ProductData | null> {
+async function getProductBySlugRaw(category: string, slug: string): Promise<ProductData | null> {
   const products = getProductsByCategory(category);
   const product = products.find(p => p.slug === slug);
   if (!product) return null;
@@ -73,7 +74,13 @@ export async function getProductBySlug(category: string, slug: string): Promise<
   };
 }
 
-export async function getProductsIndex(): Promise<string | null> {
+export const getProductBySlug = unstable_cache(
+  async (category: string, slug: string) => getProductBySlugRaw(category, slug),
+  ['product-by-slug'],
+  { tags: ['product-data'] }
+);
+
+async function getProductsIndexRaw(): Promise<string | null> {
   const indexPath = path.join(contentDir, 'index.md');
   if (!fs.existsSync(indexPath)) return null;
   const fileContent = fs.readFileSync(indexPath, 'utf8');
@@ -84,3 +91,9 @@ export async function getProductsIndex(): Promise<string | null> {
     .process(content);
   return processedContent.toString();
 }
+
+export const getProductsIndex = unstable_cache(
+  async () => getProductsIndexRaw(),
+  ['products-index'],
+  { tags: ['product-data'] }
+);

@@ -25,6 +25,8 @@ interface LayoutProps {
   params: Promise<{ locale: string }>;
 }
 
+import { headers } from 'next/headers';
+
 export default async function LocaleLayout({
   children,
   params,
@@ -40,12 +42,15 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   const orgJsonLd = await getOrganizationJsonLd(locale);
 
-  const dir = locale === 'ar' ? 'rtl' : 'ltr';
-  const isArabic = locale === 'ar';
+  const headersList = await headers();
+  const dir = headersList.get('x-direction') || (['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr');
+  const isRTLFont = dir === 'rtl';
+
+  const nonce = headersList.get('x-nonce') || undefined;
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
-      <body className={`${isArabic ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
+      <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
         <ShapeDefs />
         <LiquidEngine />
         <JsonLd schema={orgJsonLd} />
@@ -53,6 +58,7 @@ export default async function LocaleLayout({
           attribute="data-theme"
           defaultTheme="light"
           enableSystem={false}
+          nonce={nonce}
         >
           <NextIntlClientProvider messages={messages}>
             <SkipLink />

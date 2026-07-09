@@ -18,7 +18,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const subtitles: Record<string, string> = {
     de: 'Globale Märkte & Referenzen · K-Aqua',
     en: 'Global Markets & References · K-Aqua',
-    ar: 'الأسواق العالمية والمراجع · K-Aqua',
+    ar: 'Global Markets & References · K-Aqua',
   };
 
   const subtitle = subtitles[locale] || subtitles.en;

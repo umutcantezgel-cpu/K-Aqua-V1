@@ -1,32 +1,36 @@
-# Orchestration Plan - K-Aqua Corporate Website
+# Orchestration Plan - K-Aqua V2 Enterprise Platform
 
-We are executing 26 sequential work packages to implement the K-Aqua corporate website:
+This plan outlines the milestones and steps required to implement K-Aqua V2 Frontend Architecture and 3D WebGL Pipeline.
 
-1. **Step 01: Scaffold & Toolchain** - Set up folders, verify setup, ensure build works.
-2. **Step 02: Design-Tokens verifizieren** - Verify variables in globals.css, theme configuration.
-3. **Step 03: UI-Primitives** - Build basic UI components (MediaSlot, Buttons, Cards, Badge).
-4. **Step 04: Icons & Motion-Primitives** - Icon system wrapper, Motion primitives (AnimatePresence, template.tsx).
-5. **Step 05: i18n-Infrastruktur** - Set up next-intl routing, middleware, basic locales.
-6. **Step 06: i18n-Inhalte & Übersetzung** - Populate message dictionaries, check key sets.
-7. **Step 07: App-Shell** - Layout, Navbar, Footer components.
-8. **Step 08: Mega-Menü & Sprachwähler** - Interactive header/navigation and language switching.
-9. **Step 09: Page-Transitions** - Route transition animations with droplet wipe.
-10. **Step 10: Globus-Engine** - Package kaqua-loader.js with D3 and topojson.
-11. **Step 11: Home Page** - Hero scrollytelling and Buyers section.
-12. **Step 12: Statische Kernseiten** - Products, Solutions, Company/About, Service, News, Imprint, Contact.
-13. **Step 13: Produktfinder & CO₂ Rechner** - Product filter UI and comparative calculator.
-14. **Step 14: Trust, Partner, Academy** - Specific static/interactive views.
-15. **Step 15: Karriere & RFQ** - Form flows and application.
-16. **Step 16: Referenzen Globus** - Reference map page integration with the Globe component.
-17. **Step 17: Geo Hub** - Markets hub page with region filter.
-18. **Step 18: Geo City Pages (pSEO)** - Programmatic SEO pages for 27 cities.
-19. **Step 19: SEO Metadata & JSON-LD** - Canonical paths and Schema markup.
-20. **Step 20: Sitemap, Robots, OG** - Search engine files and OpenGraph.
-21. **Step 21: Performance Optimization** - Web Vitals, SSG checking, LCP improvement.
-22. **Step 22: Accessibility Audit** - Keyboard navigation, contrast, screen readers.
-23. **Step 23: Testing & CI** - Script verification, CI check config.
-24. **Step 24: Content Layer / CMS** - Simple content model.
-25. **Step 25: Vercel Deployment** - Edge config/adapters.
-26. **Step 26: Handover & Visual Regression** - Validation.
+## Milestones
 
-Each step will be delegated to a worker/explorer agent. The Orchestrator will verify each step and update the checkpoint.
+1. **Milestone 1: Exploration, Gap Analysis & Environment Check**
+   - Goal: Explore current K-Aqua V1 codebase, determine configuration, routing structure, global state, current 3D globus setup, dependency versions, and outline specific implementation targets.
+   - Tasks:
+     - Spawn Explorer agent to inspect file layout, components, package dependencies, page routes, and 3D assets.
+     - Document gaps between current implementation and V2 vision docs.
+
+2. **Milestone 2: Frontend Architecture Migration (R1)**
+   - Goal: Transition layout and routing structures to support Next.js 15 RSC boundaries, Suspense streaming, custom caching layers, hierarchical error handlers, and URL-driven state.
+   - Tasks:
+     - Refactor app layout and routing to Next.js 15 RSC standard.
+     - Establish progressive rendering using granular Suspense boundaries and custom Skeletons.
+     - Configure Next.js caching tiers and implement tag-based On-Demand Revalidation via Server Actions.
+     - Replace complex client state with URL `searchParams`.
+     - Implement global and nested Error Boundaries, and `useOptimistic` for UI state changes.
+
+3. **Milestone 3 & 4: 3D WebGL Pipeline Implementation (R2)**
+   - Goal: Configure Draco/KTX2 decoders, set up R3F Canvas with post-processing (SSAO, Bloom, SMAA), and implement custom GLSL water shaders, instanced bubble systems, mesh-bvh raycasting, GSAP camera animations, exploded views, and Zustand store integration.
+   - Tasks:
+     - Install dependencies: `three-mesh-bvh`, `@react-three/postprocessing`, `gsap`, `zustand`.
+     - Copy Draco and Basis decoders from `node_modules/three` to `public/`.
+     - Update `Product3DViewer.tsx` to implement R3F Canvas, custom GLSL shaders, instanced particle systems, and post-processing.
+     - Add GSAP camera animation controller and exploded view modes.
+     - Sync Canvas interactions with Zustand store.
+
+4. **Milestone 5: Verification, Quality Assurance & Forensic Audit**
+   - Goal: Build verification, check for hydration/console errors, run unit and integration tests, and run Forensic Auditor verification.
+   - Tasks:
+     - Propose running `npm run build` (or `pnpm build`) to verify clean builds.
+     - Inspect console output/initial render for hydration warnings or errors.
+     - Run reviewer validation and Forensic Auditor verification.

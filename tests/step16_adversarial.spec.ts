@@ -3,7 +3,15 @@ import fs from "fs";
 import path from "path";
 
 test.describe("Step 16: Referenzen (Globus) - Extended & Keyboard Verification", () => {
-  
+  test.beforeEach(async ({ context }) => {
+    await context.addInitScript(() => {
+      window.localStorage.setItem('k-aqua-cookie-consent', 'all');
+      window.localStorage.setItem('cookie_essential', 'true');
+      window.localStorage.setItem('cookie_analytics', 'true');
+      window.localStorage.setItem('cookie_marketing', 'true');
+    });
+  });
+
   test.describe("German Locale /de/referenzen", () => {
     test.beforeEach(async ({ page }) => {
       await page.goto("http://localhost:3001/de/referenzen");
@@ -21,7 +29,7 @@ test.describe("Step 16: Referenzen (Globus) - Extended & Keyboard Verification",
     });
 
     test("should update BentoCard details and active chip classes when clicking filter chips", async ({ page }) => {
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       const cardDesc = page.locator("div.bg-card-tint p");
 
       // Initially Waldsolms is active
@@ -71,7 +79,7 @@ test.describe("Step 16: Referenzen (Globus) - Extended & Keyboard Verification",
       await page.keyboard.press("Space");
 
       // Verify the page updated to Dubai
-      const cardTitle = page.locator("h3");
+      const cardTitle = page.locator("div.bg-card-tint h3");
       await expect(cardTitle).toContainText("Dubai, VAE");
       await expect(dubaiChip).toHaveAttribute("aria-pressed", "true");
       await expect(waldsolmsChip).toHaveAttribute("aria-pressed", "false");

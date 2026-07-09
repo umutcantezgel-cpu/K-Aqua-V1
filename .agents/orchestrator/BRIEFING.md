@@ -1,21 +1,21 @@
-# BRIEFING — 2026-06-14T15:38:00Z
+# BRIEFING — 2026-07-09T10:38:17Z
 
 ## Mission
-Orchestrate the implementation of the K-Aqua corporate website Next.js port by executing 26 work packages sequentially via subagents and verifying results.
+Orchestrate the implementation of K-Aqua V2: Frontend Architecture & 3D WebGL Pipeline, executing milestones sequentially via subagents and verifying results.
 
 ## 🔒 My Identity
 - Archetype: Project Orchestrator
 - Roles: orchestrator, user_liaison, human_reporter, successor
-- Working directory: /Users/umurey/Downloads/kaqua-antigravity 2/.agents/orchestrator
-- Original parent: main agent
-- Original parent conversation ID: 28a88cdf-6508-4abe-952b-a300e6fa999d
+- Working directory: /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator
+- Original parent: Sentinel
+- Original parent conversation ID: a031bbd4-a16e-4717-97b9-28b407db768b
 
 ## 🔒 My Workflow
 - **Pattern**: Project
-- **Scope document**: /Users/umurey/Downloads/kaqua-antigravity 2/docs/AGENT_LOG.md
-1. **Decompose**: We have 26 pre-defined sequential work packages in `agents/`. We will run them one by one.
+- **Scope document**: /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator/plan.md
+1. **Decompose**: We have 5 milestones in `plan.md`. We will run them one by one.
 2. **Dispatch & Execute**:
-   - **Direct (iteration loop)**: For each package, we will spawn a worker/explorer/reviewer as needed, run build/lint checks, and verify.
+   - **Direct (iteration loop)**: For each milestone, we will spawn worker/explorer/reviewer/auditor agents as needed, run build/lint checks, and verify.
 3. **On failure** (in this order):
    - Retry: nudge stuck agent or re-send task
    - Replace: spawn fresh agent with partial progress
@@ -25,93 +25,49 @@ Orchestrate the implementation of the K-Aqua corporate website Next.js port by e
    - Escalate: report to parent (sub-orchestrators only, last resort)
 4. **Succession**: Self-succeed at 16 spawns. Write handoff.md, spawn successor, and exit.
 - **Work items**:
-  - Step 00: Orientation [done]
-  - Step 01: Scaffold & Toolchain [done]
-  - Step 02: Design-Tokens [done]
-  - Step 03: UI-Primitives [done]
-  - Step 04: Icons & Motion-Primitives [done]
-  - Step 05: i18n-Infrastruktur [done]
-  - Step 06: i18n-Inhalte & Übersetzung [done]
-  - Step 07: App-Shell (Nav/Footer) [done]
-  - Step 08: Mega-Menü & Sprachwähler [done]
-  - Step 09: Page-Transitions [done]
-  - Step 10: Globus-Engine [done]
-  - Step 11: Home (Hero-Scrollytelling) [done]
-  - Step 12: Statische Kernseiten [done]
-  - Step 13: Produktfinder & CO₂ [done]
-  - Step 14: Trust / Partner / Academy [done]
-  - Step 15: Karriere & RFQ [done]
-  - Step 16: Referenzen (Globus) [done]
-  - Step 17: Geo — Märkte-Hub [done]
-  - Step 18: Geo — Stadt-Seiten (pSEO) [done]
-  - Step 19: SEO: Metadata & JSON-LD [done]
-  - Step 20: Sitemap / robots / OG [done]
-  - Step 21: Performance [in-progress]
-  - Step 22: Accessibility-Audit [pending]
-  - Step 23: Testing & CI [pending]
-  - Step 24: Content-Layer / CMS [pending]
-  - Step 25: Deployment (Vercel) [pending]
-  - Step 26: Visuelle Regression + Übergabe [pending]
+  - Milestone 1: Exploration, Gap Analysis & Environment Check [done]
+  - Milestone 2: Frontend Architecture Migration (R1) [done]
+  - Milestone 3 & 4: 3D WebGL Pipeline Implementation (R2) [done]
+  - Milestone 5: Verification, Quality Assurance & Forensic Audit [in-progress]
 - **Current phase**: 1
-- **Current focus**: Step 21: Performance Optimization
+- **Current focus**: Milestone 5: Verification, Quality Assurance & Forensic Audit
 
 ## 🔒 Key Constraints
 - NEVER write, modify, or create source code files directly.
 - NEVER run build/test commands yourself — require workers to do so.
-- All translations must be 100% complete for de, en, ar. No hardcoded text.
-- Follow all constraints in `/Users/umurey/Downloads/kaqua-antigravity 2/agents/RULES.md`.
+- All implementations must be genuine (no hardcoding, dummy logic, or circumvention).
+- Verified by Independent Auditor Agent.
 
 ## Current Parent
-- Conversation ID: 28a88cdf-6508-4abe-952b-a300e6fa999d
-- Updated: 2026-06-14T15:20:00Z
+- Conversation ID: a031bbd4-a16e-4717-97b9-28b407db768b
+- Updated: 2026-07-09T10:38:17Z
 
 ## Key Decisions Made
-- Starting the orchestration sequence from step 01, since step 00 (Orientation) is already completed.
-- Successfully completed Step 20 and transitioned to Step 21 in gen5.
-- Dispatched 3 Explorer subagents, completed Worker implementation, and completed Reviewers verification.
-- Spawned replacement Forensic Auditor subagents after rate limit failures.
+- Re-initialized orchestration for K-Aqua V2 scope.
+- Structured V2 scope into 5 distinct milestones.
 
 ## Team Roster
 | Agent | Type | Work Item | Status | Conv ID |
 |-------|------|-----------|--------|---------|
-| explorer_step21_1 | teamwork_preview_explorer | Step 21: Globe Performance | completed | e4781a97-322f-463a-930a-5ea7f44d07d1 |
-| explorer_step21_2 | teamwork_preview_explorer | Step 21: Fonts & Images | completed | b42daa2a-a68f-46b8-bb37-5bda0ca5cd4d |
-| explorer_step21_3 | teamwork_preview_explorer | Step 21: JS & Interaction | completed | 83b8c504-6713-4edb-8f8d-6779c4d90bf4 |
-| explorer_step21_1_rep | teamwork_preview_explorer | Step 21: Globe Performance (rep) | completed | 4e925d49-edfa-4cb3-a231-a2978387b3cf |
-| explorer_step21_2_rep | teamwork_preview_explorer | Step 21: Fonts & Images (rep) | completed | fc37ec2d-1837-41c0-a8ad-9ee92cf5fae1 |
-| explorer_step21_3_rep | teamwork_preview_explorer | Step 21: JS & Interaction (rep) | completed | 0834dc3d-9918-4a0f-9bbb-080fc098f1fc |
-| worker_step21 | teamwork_preview_worker | Step 21: Performance Optimization | completed | f1feaaab-6f00-4886-b783-3fc3df571ea8 |
-| worker_step21_rep | teamwork_preview_worker | Step 21: Performance Optimization (rep) | completed | 092c8cc5-ec3d-41ed-af82-15877282845c |
-| reviewer_step21_1 | teamwork_preview_reviewer | Step 21: Review 1 | failed-init | 15fa0208-b280-4a30-be35-cd3ec3b841b5 |
-| reviewer_step21_2 | teamwork_preview_reviewer | Step 21: Review 2 | failed-init | a8073455-ca35-4016-8040-a7606405d42f |
-| reviewer_step21_1_rep | teamwork_preview_reviewer | Step 21: Review 1 (rep) | failed-init | 8e9de060-f017-400d-af2c-5efffa3f45b5 |
-| reviewer_step21_2_rep | teamwork_preview_reviewer | Step 21: Review 2 (rep) | failed-init | f3f901bf-67b6-4b36-8a27-cb747313e2cb |
-| reviewer_step21_1_rep2 | teamwork_preview_reviewer | Step 21: Review 1 (rep2) | completed | c2c90d69-e18c-4603-a873-5fd30a14a315 |
-| reviewer_step21_2_rep2 | teamwork_preview_reviewer | Step 21: Review 2 (rep2) | failed-init | d684b9ea-bfa9-4889-b671-b9367fbca97a |
-| reviewer_step21_2_rep3 | teamwork_preview_reviewer | Step 21: Review 2 (rep3) | failed-init | 9eee5ccf-97b1-451a-84ab-abce2a28b948 |
-| reviewer_step21_2_rep4 | teamwork_preview_reviewer | Step 21: Review 2 (rep4) | failed-init | 5c4e8c47-4d33-4dcb-a9c7-feba7a1e3a83 |
-| reviewer_step21_2_rep5 | teamwork_preview_reviewer | Step 21: Review 2 (rep5) | failed-init | cf081876-06c3-4531-9619-832300f1f70f |
-| reviewer_step21_2_rep6 | teamwork_preview_reviewer | Step 21: Review 2 (rep6) | completed | 4dffa09b-acae-476e-94f2-505d232c81c8 |
-| auditor_step21 | teamwork_preview_auditor | Step 21: Forensic Audit | failed-init | 73069c94-5e74-4640-a2e8-2a6f7b1be498 |
-| auditor_step21_rep | teamwork_preview_auditor | Step 21: Forensic Audit (rep) | failed-init | 48705c12-fdb9-45c2-80ff-7b4b16d46e5e |
-| auditor_step21_rep2 | teamwork_preview_auditor | Step 21: Forensic Audit (rep2) | failed-init | 8b02d184-cb45-46f8-a9be-cec1e74dc601 |
-| auditor_step21_rep3 | teamwork_preview_auditor | Step 21: Forensic Audit (rep3) | in-progress | c72adb92-a23e-4675-ad84-f1da6faa8815 |
+| explorer_m1_1 | teamwork_preview_explorer | Milestone 1: Exploration & Gap Analysis | completed | 19959b60-53e2-4eff-8374-ad93bf641bc0 |
+| worker_m2 | teamwork_preview_worker | Milestone 2: Frontend Architecture Migration | completed | eaba8c24-3647-4038-aae0-cdfabc8a9b5d |
+| worker_m3_4 | teamwork_preview_worker | Milestone 3 & 4: 3D WebGL Pipeline Implementation | completed | e50e1dc0-1568-4100-a665-963e430b2030 |
+| worker_m5 | teamwork_preview_worker | Milestone 5: Verification & Quality Assurance | failed | bd2d0004-6e55-408e-98cd-a9e1e0465037 |
+| worker_m5_rep | teamwork_preview_worker | Milestone 5: Verification & Quality Assurance (rep) | in-progress | 33eb047b-05f2-4df7-a1ed-52cbbd11913d |
 
 ## Succession Status
-- Succession required: yes
-- Spawn count: 18 / 16
-- Pending subagents: c72adb92-a23e-4675-ad84-f1da6faa8815
-- Predecessor: 004dbd53-c82e-441e-b68d-51bec1d526c2
+- Succession required: no
+- Spawn count: 5 / 16
+- Pending subagents: 33eb047b-05f2-4df7-a1ed-52cbbd11913d
+- Predecessor: 28a88cdf-6508-4abe-952b-a300e6fa999d
 - Successor: not yet spawned
-- Successor generation: gen5
 
 ## Active Timers
-- Heartbeat cron: 4663fec2-ec69-4345-9c96-13d47297d75f/task-608
-- Safety timer: 4663fec2-ec69-4345-9c96-13d47297d75f/task-610
+- Heartbeat cron: 52f52575-716f-493f-8ae5-31771f432b25/task-43
+- Safety timer: 52f52575-716f-493f-8ae5-31771f432b25/task-222
 
 ## Artifact Index
-- /Users/umurey/Downloads/kaqua-antigravity 2/.agents/orchestrator/ORIGINAL_REQUEST.md — Original user request
-- /Users/umurey/Downloads/kaqua-antigravity 2/docs/AGENT_LOG.md — Project agent log and checklist
-- /Users/umurey/Downloads/kaqua-antigravity 2/.agents/orchestrator/progress.md — Progress tracking
-- /Users/umurey/Downloads/kaqua-antigravity 2/.agents/orchestrator/plan.md — Orchestration plan
-- /Users/umurey/Downloads/kaqua-antigravity 2/.agents/orchestrator/context.md — Context tracking
+- /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator/ORIGINAL_REQUEST.md — Original user request
+- /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator/progress.md — Progress tracking
+- /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator/plan.md — Orchestration plan
+- /Users/umurey/Downloads/K-Aqua-V1-main/.agents/orchestrator/context.md — Context tracking

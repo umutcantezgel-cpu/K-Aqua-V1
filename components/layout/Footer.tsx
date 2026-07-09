@@ -1,118 +1,63 @@
+'use client';
+
 import { Link } from '@/lib/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { Logo } from '@/components/ui/Logo';
+import LangPicker from './LangPicker';
+
+import FooterSitemap from './FooterSitemap';
+import FooterTrustBadges from './FooterTrustBadges';
+import dynamic from 'next/dynamic';
+
+const FooterNewsletter = dynamic(() => import('./FooterNewsletter'), { ssr: false });
+const FooterMap = dynamic(() => import('./FooterMap'), { ssr: false });
 
 export default function Footer() {
   const t = useTranslations();
 
-  const getPageTitle = (id: string) => {
-    try {
-      const arr = t.raw(`pages.${id}`);
-      return Array.isArray(arr) ? arr[0] : id;
-    } catch {
-      return id;
-    }
-  };
-
   return (
-    <footer className="bg-inverse-surface text-inverse-foreground mt-24 relative overflow-hidden py-12 md:py-20 before:content-[''] before:absolute before:w-[900px] before:h-[900px] before:start-[-300px] before:bottom-[-600px] before:bg-[radial-gradient(circle,oklch(0.6_0.16_302_/_0.22),transparent_65%)] before:pointer-events-none">
-      <div className="max-w-[1200px] mx-auto px-4 md:px-6 relative z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] gap-8 md:gap-12 text-start">
-          {/* Column 1: Logo & Tagline */}
-          <div className="flex flex-col gap-4 items-start">
-            <Logo height={26} className="text-inverse-foreground" />
-            <p className="text-small opacity-65 max-w-[320px] text-wrap-pretty font-body">
-              {t('footer.tagline')}
-            </p>
+    <footer className="bg-[oklch(0.18_0.02_260)] text-[oklch(0.95_0.02_260)] relative overflow-hidden pt-24 pb-8 md:pt-32 md:pb-12 before:content-[''] before:absolute before:w-[1200px] before:h-[1200px] before:start-[-400px] before:bottom-[-800px] before:bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.15),transparent_65%)] before:pointer-events-none">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10 flex flex-col gap-16 md:gap-24">
+        
+        {/* Tier 1: Interactive Top */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <FooterNewsletter />
+          <FooterMap />
+        </div>
+
+        {/* Tier 2: Sitemap Catalog */}
+        <div className="w-full">
+          <FooterSitemap />
+        </div>
+
+        {/* Tier 3: Trust Badges */}
+        <div className="w-full">
+          <FooterTrustBadges />
+        </div>
+
+        {/* Tier 4: Legal & Localization */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-8 border-t border-white/10">
+          <div className="flex flex-col md:flex-row items-center gap-6 text-sm font-body opacity-60">
+            <Logo height={48} className="text-current" />
+            <span className="text-center md:text-left">
+              {t('footer.copyright')} {t('footer.rights')}
+            </span>
           </div>
 
-          {/* Column 2: Tools */}
-          <div className="flex flex-col gap-3 items-start">
-            <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
-              {t('footer.colTools')}
-            </span>
-            <Link href="/produkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('products')}
-            </Link>
-            <Link href="/produkte/finder" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('finder')}
-            </Link>
-            <Link href="/co2-rechner" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('co2')}
-            </Link>
-            <Link href="/loesungen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('solutions')}
-            </Link>
-            <Link href="/academy" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('academy')}
-            </Link>
-          </div>
-
-          {/* Column 3: Company */}
-          <div className="flex flex-col gap-3 items-start">
-            <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
-              {t('footer.colCompany')}
-            </span>
-            <Link href="/unternehmen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('about')}
-            </Link>
-            <Link href="/maerkte" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('markets')}
-            </Link>
-            <Link href="/trust-center" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('trust')}
-            </Link>
-            <Link href="/partnerschaft" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('partner')}
-            </Link>
-            <Link href="/referenzen" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('references')}
-            </Link>
-            <Link href="/news" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('news')}
-            </Link>
-            <Link href="/karriere" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('career')}
-            </Link>
-          </div>
-
-          {/* Column 4: Contact */}
-          <div className="flex flex-col gap-3 items-start">
-            <span className="font-heading font-bold text-tiny tracking-wider uppercase opacity-55 mb-2 select-none">
-              {t('footer.colContact')}
-            </span>
-            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {getPageTitle('contact')}
-            </Link>
-            <a href={`tel:${t('footer.phone').replace(/\s+/g, '')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center font-body">
-              {t('footer.phone')}
-            </a>
-            <a href={`mailto:${t('footer.email')}`} className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center font-body">
-              {t('footer.email')}
-            </a>
-            <span className="text-body opacity-75 py-2 font-body select-text">
-              {t('footer.address')}
-            </span>
-            <Link href="/kontakt" className="text-body opacity-75 hover:opacity-100 hover:text-primary transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {t('footer.directions')}
-            </Link>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="flex flex-wrap justify-center items-center gap-6 text-sm font-body opacity-70">
+              <Link href="/impressum" className="hover:opacity-100 hover:text-white transition-opacity">
+                {t('footer.imprint')}
+              </Link>
+              <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
+                {t('footer.privacy')}
+              </Link>
+            </div>
+            
+            <LangPicker />
           </div>
         </div>
 
-        {/* Lower bar */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-12 pt-6 border-t border-inverse-foreground/12">
-          <span className="text-small opacity-55 font-body">
-            {t('footer.copyright')} {t('footer.rights')}
-          </span>
-          <div className="flex gap-6 font-body">
-            <Link href="/impressum" className="text-small opacity-75 hover:opacity-100 transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {t('footer.imprint')}
-            </Link>
-            <Link href="/datenschutz" className="text-small opacity-75 hover:opacity-100 transition-colors py-2 min-h-[44px] inline-flex items-center">
-              {t('footer.privacy')}
-            </Link>
-          </div>
-        </div>
       </div>
     </footer>
   );

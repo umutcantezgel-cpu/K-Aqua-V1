@@ -45,7 +45,7 @@ test.describe('Step 20: Sitemap, Robots, OG, and Manifest E2E Tests', () => {
 
     // Count URLs
     const urls = cleanContent.match(/<url>/g) || [];
-    expect(urls.length).toBe(135);
+    expect(urls.length).toBe(348);
 
     // Verify homepage entries end with '/'
     // de homepage

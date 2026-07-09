@@ -126,6 +126,10 @@
     "rfq": [
       "Projektanfrage",
       "Angebot in vier Schritten"
+    ],
+    "home": [
+      "Home",
+      "Go to homepage"
     ]
   },
   "home": {
@@ -315,7 +319,9 @@
         "t": "Ökologische Verantwortung",
         "d": "Ressourcenschonung und Umweltverträglichkeit sind fester Bestandteil unseres Qualitätsverständnisses."
       }
-    ]
+    ],
+    "manifestTitle": "Unsere Mission",
+    "manifestText": "Wasser ist unsere wertvollste Ressource. Wir schützen sie mit zukunftsweisenden Rohrsystemen."
   },
   "products": {
     "heroDesc": "Entdecken Sie die Spezifikationen, Dimensionen und Einsatzbereiche. Für detaillierte Informationen laden Sie das Technische Datenblatt herunter.",
@@ -465,7 +471,23 @@
     "certified": "zertifiziert",
     "quickLinks": "Schnellzugriff",
     "calcCo2": "CO2-Fußabdruck berechnen",
-    "backToFinder": "Zurück zum Produktfinder"
+    "backToFinder": "Zurück zum Produktfinder",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "High-Performance Pipe Systems",
+    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
+    "sysPressure": "System Pressure",
+    "tempMax": "Max Temperature",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certification",
+    "lifespan": "Lifespan",
+    "fiberTech": "Fiber-Composite Technology",
+    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
+    "compliance": "Compliance & Standards",
+    "dimensions": "Dimensions",
+    "globalNetwork": "Global Network",
+    "globalNetworkDesc": "K-Aqua systems are in use in over 40 countries worldwide.",
+    "whyChoose": "Why {product} is the right choice"
   },
   "solutions": {
     "eyebrow": "Lösungen",
@@ -828,7 +850,40 @@
       "pex": "Mehrschichtverbund (PEX)",
       "pehd": "PE 100 (HDPE)",
       "castiron": "Gusseisen"
-    }
+    },
+    "project": "Your project",
+    "advanced": "Advanced LCA Parameters",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package — in the",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life"
   },
   "trust": {
     "eyebrow": "Trust Center",

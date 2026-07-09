@@ -131,7 +131,9 @@ export default async function Page({ params }: Props) {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([orgJsonLd, localBusinessJsonLd, webSiteJsonLd]) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }} />
       {/* 1) Hero (Hero-Scrollytelling) */}
       <HeroScrolly />
 
@@ -261,23 +263,23 @@ export default async function Page({ params }: Props) {
             align="left"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            {/* KESSEL Partnership */}
+            {/* K-Aqua Manifest */}
             <Card span={2} className="flex flex-col md:flex-row gap-6 items-center justify-between">
               <div className="flex-1 flex flex-col gap-4 text-start">
                 <h3 className="font-heading font-bold text-xl text-foreground">
-                  {tHomex('kesselTitle')}
+                  {tHomex('manifestTitle')}
                 </h3>
-                <p className="text-body text-muted-foreground leading-relaxed">
-                  {tHomex('kesselText')}
+                <p className="text-body text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                  {tHomex('manifestText')}
                 </p>
                 <div className="mt-2">
-                  <Button variant="ghost" href="/ueber-uns">
+                  <Button variant="ghost" href="/unternehmen">
                     {tHomex('kesselCta')}
                   </Button>
                 </div>
               </div>
               <div className="w-full md:w-1/3 shrink-0">
-                <MediaSlot label={tHomex('kesselTitle')} aspectRatio="4/3" shapeVariant="sweep-r" />
+                <MediaSlot label={tHomex('manifestTitle')} aspectRatio="4/3" shapeVariant="sweep-r" />
               </div>
             </Card>
 

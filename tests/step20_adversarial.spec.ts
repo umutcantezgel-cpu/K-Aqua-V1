@@ -14,20 +14,20 @@ test.describe('Adversarial Verification for Sitemap, Robots, Manifest, and Dynam
     // Check if it starts with xml declaration
     expect(body.trim().startsWith('<?xml')).toBe(true);
     
-    // Count opening/closing url tags to ensure they match and are exactly 135
+    // Count opening/closing url tags to ensure they match and are exactly 348
     const openUrlTags = (body.match(/<url>/g) || []).length;
     const closeUrlTags = (body.match(/<\/url>/g) || []).length;
-    expect(openUrlTags).toBe(135);
-    expect(closeUrlTags).toBe(135);
+    expect(openUrlTags).toBe(348);
+    expect(closeUrlTags).toBe(348);
     
     const openLocTags = (body.match(/<loc>/g) || []).length;
     const closeLocTags = (body.match(/<\/loc>/g) || []).length;
-    expect(openLocTags).toBe(135);
-    expect(closeLocTags).toBe(135);
+    expect(openLocTags).toBe(348);
+    expect(closeLocTags).toBe(348);
     
     // Count hreflang links (xhtml:link) - each url entry should have 4 alternate link tags (de, en, ar, x-default)
     const alternateTags = (body.match(/<xhtml:link/g) || []).length;
-    expect(alternateTags).toBe(540);
+    expect(alternateTags).toBe(1392);
   });
 
   test('Robots.txt should have correct Content-Type header and valid structure', async ({ request }) => {

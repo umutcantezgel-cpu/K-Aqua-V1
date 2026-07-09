@@ -18,7 +18,7 @@ import { feature } from 'topojson-client';
 import type { Feature, FeatureCollection, Geometry } from 'geojson';
 import { LANGUAGES, LANGUAGES_BY_COUNTRY } from '@/lib/i18n/languages';
 
-type Topology = unknown;
+
 
 export const MAP_W = 4096;
 export const MAP_H = 2048;
@@ -41,8 +41,9 @@ export interface WorldData {
 export async function loadWorld(url = '/data/countries-110m.json'): Promise<WorldData> {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Kartendaten nicht ladbar: ${res.status} ${url}`);
-  const topo = (await res.json()) as Topology;
-  const fc = feature(topo, (topo as import("topojson-specification").Topology).objects.countries) as unknown as FeatureCollection<Geometry>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const topo = (await res.json()) as any;
+  const fc = feature(topo, topo.objects.countries) as unknown as FeatureCollection<Geometry>;
   const features = fc.features;
   const seeds: number[] = [];
   const assigned: AssignedRegion[] = [];

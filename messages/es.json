@@ -60,11 +60,13 @@
     "menuPlaceholder": "Placeholder (Mega Menu)"
   },
   "groups": {
+    "products": "Productos",
     "tools": "Products & Tools",
     "knowledge": "Knowledge & Trust",
     "company": "Company"
   },
   "pages": {
+    "catalogOverview": "Resumen del catálogo",
     "products": [
       "Product System",
       "PP-R/PP-RCT overview, d20–d630"
@@ -124,6 +126,10 @@
     "rfq": [
       "Project Enquiry",
       "A quote in four steps"
+    ],
+    "home": [
+      "Home",
+      "Go to homepage"
     ]
   },
   "home": {
@@ -313,7 +319,9 @@
         "t": "Ecological responsibility",
         "d": "Resource conservation and environmental compatibility are integral to our understanding of quality."
       }
-    ]
+    ],
+    "manifestTitle": "Unsere Mission",
+    "manifestText": "Wasser ist unsere wertvollste Ressource. Wir schützen sie mit zukunftsweisenden Rohrsystemen."
   },
   "products": {
     "eyebrow": "Products",
@@ -378,24 +386,8 @@
         "—"
       ]
     ],
-    "enterpriseCore": "Enterprise Core",
-    "highPerformance": "High-Performance Pipe Systems",
-    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
-    "sysPressure": "System Pressure",
-    "tempMax": "Max Temperature",
-    "material": "Material",
-    "norm": "Standard",
-    "certification": "Certification",
-    "lifespan": "Lifespan",
-    "fiberTech": "Fiber-Composite Technology",
-    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
-    "compliance": "Compliance & Standards",
-    "dimensions": "Dimensions",
-    "globalNetwork": "Global Network",
-    "globalNetworkDesc": "K-Aqua systems are in use in over 40 countries worldwide.",
     "heroDesc": "Professional piping and fitting system for the highest demands in drinking water and climate technology. Guaranteed 100% leak-free and durable.",
     "articleNumbers": "Article numbers:",
-    "whyChoose": "Why {product} is the right choice",
     "technicalSpecs": "Technical Data",
     "specAndDim": "Specifications & Dimensions",
     "certsAndNorms": "Certificates & Standards",
@@ -479,7 +471,23 @@
     "videoGuide": "K-Aqua Video-Anleitung",
     "localAvailability": "Lokale Verfügbarkeit",
     "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
-    "allMarkets": "Alle 50+ Märkte ansehen"
+    "allMarkets": "Alle 50+ Märkte ansehen",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "High-Performance Pipe Systems",
+    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
+    "sysPressure": "System Pressure",
+    "tempMax": "Max Temperature",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certification",
+    "lifespan": "Lifespan",
+    "fiberTech": "Fiber-Composite Technology",
+    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
+    "compliance": "Compliance & Standards",
+    "dimensions": "Dimensions",
+    "globalNetwork": "Global Network",
+    "globalNetworkDesc": "K-Aqua systems are in use in over 40 countries worldwide.",
+    "whyChoose": "Why {product} is the right choice"
   },
   "solutions": {
     "eyebrow": "Solutions",
@@ -785,17 +793,9 @@
     "title1": "Calculate",
     "titleGrad": "green.",
     "lead": "Model your construction project and compare the K-Aqua system directly with copper, stainless steel and PVC — as an argument for LEED, BREEAM and DGNB.",
-    "project": "Your project",
     "dia": "Nominal diameter",
     "length": "Pipe length",
     "sdrClass": "SDR class",
-    "disclaimer": "Demonstration values. Binding factors come from the ecoinvent database or product-specific Type III EPDs (EN 15804).",
-    "savedLabel": "Savings vs. best metal alternative",
-    "savedBody1": "CO₂ equivalent over the construction phase — equals the annual absorption of",
-    "trees": "{n} trees",
-    "or": "or",
-    "carKm": "{n} car kilometres",
-    "compareTitle": "System comparison (kg CO₂e total)",
     "materials": {
       "kaqua": "K-Aqua PP-RCT",
       "pvc": "PVC-C",
@@ -805,31 +805,15 @@
       "pehd": "PE 100 (HDPE)",
       "castiron": "Gusseisen"
     },
-    "auditor": "Auditor cockpit:",
-    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package — in the",
-    "trustLink": "Trust Center",
-    "lcaLogistics": "LCA & Logistics Parameters",
-    "energyMix": "Production Energy Mix",
     "energyGreen": "100% Green Energy",
     "energyDe": "DE Mix",
     "energyEu": "EU Mix",
     "energyGlobal": "Global Mix",
-    "transportMode": "Transport Mode",
-    "transportTruck": "Truck",
-    "transportShip": "Ship",
-    "transportAir": "Air Freight",
-    "tempMode": "Operation Mode (Thermal Loss)",
-    "tempCold": "Cold Water",
-    "tempHot": "Hot Water / Heating",
     "co2Savings": "CO2 Equivalent Savings",
     "co2SavingsDesc": "Compared to the worst alternative. Equals approx. {n} trees.",
     "costSavings": "Cost Savings (TCO / ROI)",
     "costSavingsDesc": "Over {n} years (Material, Installation & Operational Costs/Heat Loss).",
     "lcaPhases": "LCA Phases (A1-C4)",
-    "phaseProduction": "Production",
-    "phaseTransport": "Transport",
-    "phaseOperation": "Operation",
-    "phaseEol": "End of Life",
     "costAnalysis": "Cost Analysis (Total Cost of Ownership)",
     "costMaterial": "Material",
     "costInstall": "Installation",
@@ -866,7 +850,40 @@
     "phaseB": "B (Betrieb/Energie)",
     "phaseC": "C (EoL)",
     "moduleD": "Modul D:",
-    "costMaintenance": "Instandhaltung"
+    "costMaintenance": "Instandhaltung",
+    "project": "Your project",
+    "advanced": "Advanced LCA Parameters",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package — in the",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -2888,8 +2905,72 @@
   },
   "legal": {
     "impressum": {
-      "title": "Imprint",
-      "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de\n\nManaging Director:\nPhilipp Nickel, Marcello Gallio\n\nCourt of Registry:\nWetzlar HRB 6732\n\nDomicile:\nWaldsolms\n\nUSt-IdNr/VAT No.:\nDE 296238486\n\nWebdesign:\nwww.a-mittel.de\n\nProgramming:\nArSolution LLC"
+      "sections": [
+        {
+          "id": "angaben",
+          "title": "1. Información según el § 5 de la TMG (Ley de Telemedios)",
+          "icon": "Building2",
+          "tldr": "Información básica sobre la empresa y la forma jurídica.",
+          "content": "KWT GmbH\nMusterstraße 123\n10115 Berlín\nAlemania\n\nRepresentada por:\nDirector General: Max Mustermann\n\nForma jurídica:\nSociedad de responsabilidad limitada (GmbH)"
+        },
+        {
+          "id": "kontakt",
+          "title": "2. Contacto",
+          "icon": "Phone",
+          "tldr": "Cómo puede comunicarse con nosotros por teléfono o por escrito.",
+          "content": "Teléfono: +49 (0) 30 1234567\nFax: +49 (0) 30 1234568\nCorreo electrónico: info@kwt-gmbh.de\nSitio web: www.kwt-gmbh.de"
+        },
+        {
+          "id": "register",
+          "title": "3. Inscripción en el registro",
+          "icon": "FileText",
+          "tldr": "Inscripción en el registro mercantil alemán.",
+          "content": "Inscripción en el registro mercantil.\nTribunal de registro: Juzgado de Primera Instancia de Berlín-Charlottenburg\nNúmero de registro: HRB 123456 B"
+        },
+        {
+          "id": "umsatzsteuer",
+          "title": "4. Número de identificación fiscal (IVA)",
+          "icon": "Receipt",
+          "tldr": "Nuestro número de identificación fiscal internacional.",
+          "content": "Número de identificación fiscal según el § 27 a de la Ley del Impuesto sobre el Valor Añadido:\nDE 123 456 789"
+        },
+        {
+          "id": "redaktion",
+          "title": "5. Responsable del contenido según el § 55 párr. 2 del RStV (Tratado Estatal de Radiodifusión)",
+          "icon": "PenTool",
+          "tldr": "La persona responsable según la ley de prensa.",
+          "content": "Max Mustermann\nMusterstraße 123\n10115 Berlín\nAlemania"
+        },
+        {
+          "id": "streitschlichtung",
+          "title": "6. Resolución de litigios en la UE",
+          "icon": "Scale",
+          "tldr": "No participamos en procedimientos ante una junta de arbitraje de consumidores.",
+          "content": "La Comisión Europea proporciona una plataforma para la resolución de litigios en línea (OS): https://ec.europa.eu/consumers/odr/.\nNuestra dirección de correo electrónico se puede encontrar en el aviso legal anterior.\n\nNo estamos dispuestos ni obligados a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumidores."
+        },
+        {
+          "id": "haftung-inhalte",
+          "title": "7. Responsabilidad por el contenido",
+          "icon": "ShieldAlert",
+          "tldr": "Revisamos nuestro contenido, pero no podemos asumir una garantía permanente.",
+          "content": "Como proveedor de servicios, somos responsables de nuestro propio contenido en estas páginas de acuerdo con el § 7, párr. 1 de la TMG y las leyes generales. De acuerdo con los §§ 8 a 10 de la TMG, como proveedores de servicios, no estamos obligados a monitorear la información de terceros transmitida o almacenada ni a investigar circunstancias que indiquen una actividad ilegal.\n\nLas obligaciones de eliminar o bloquear el uso de información de acuerdo con las leyes generales no se verán afectadas. Sin embargo, la responsabilidad a este respecto solo es posible a partir del momento en que se tiene conocimiento de una infracción específica. Tan pronto como tengamos conocimiento de dichas infracciones, eliminaremos este contenido de inmediato."
+        },
+        {
+          "id": "haftung-links",
+          "title": "8. Responsabilidad por los enlaces",
+          "icon": "Link",
+          "tldr": "No somos responsables de los sitios web externos enlazados.",
+          "content": "Nuestra oferta contiene enlaces a sitios web externos de terceros, sobre cuyo contenido no tenemos influencia. Por lo tanto, no podemos asumir ninguna responsabilidad por este contenido de terceros. El respectivo proveedor u operador de las páginas siempre es responsable del contenido de las páginas enlazadas.\n\nLas páginas enlazadas fueron revisadas en busca de posibles infracciones legales en el momento de la vinculación. No se reconoció contenido ilegal en el momento de la vinculación. Sin embargo, el control permanente del contenido de las páginas enlazadas no es razonable sin pruebas concretas de una infracción de la ley. Si tenemos conocimiento de infracciones legales, eliminaremos dichos enlaces de inmediato."
+        },
+        {
+          "id": "urheberrecht",
+          "title": "9. Derechos de autor",
+          "icon": "Copyright",
+          "tldr": "El contenido de esta página está sujeto a las leyes de derechos de autor alemanas.",
+          "content": "Los contenidos y obras creados por los operadores del sitio en estas páginas están sujetos a la ley alemana de derechos de autor. La reproducción, edición, distribución y cualquier tipo de uso fuera de los límites de la ley de derechos de autor requieren el consentimiento por escrito del respectivo autor o creador.\n\nLas descargas y copias de este sitio solo están permitidas para uso privado y no comercial. En la medida en que el contenido de este sitio no haya sido creado por el operador, se respetarán los derechos de autor de terceros. En particular, los contenidos de terceros se marcarán como tales. Si, no obstante, tiene conocimiento de una infracción de derechos de autor, le rogamos que nos lo notifique. Si tenemos conocimiento de infracciones legales, eliminaremos dicho contenido de inmediato."
+        }
+      ],
+      "title": "Imprint"
     },
     "datenschutz": {
       "title": "Privacy Policy",
@@ -3007,5 +3088,88 @@
     "marketingDesc": "We use these technologies to show you more relevant content and advertisements – even on external platforms. If you disable this, you will still see ads, but they will be less tailored to your interests.",
     "vendorListTitle": "View detailed cookie list",
     "backToSimple": "Back to simple view"
-  }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Contacto Rápido y Cultura",
+      "detailed": "Portal de Empleo y Solicitud"
+    },
+    "portal": {
+      "eyebrow": "Vacantes",
+      "title": "Forma parte de nuestro",
+      "titleGrad": "Equipo",
+      "lead": "Descubre emocionantes oportunidades profesionales en K-Aqua y presenta tu solicitud en minutos.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Trabajador de Producción (h/m/d)",
+          "type": "Tiempo completo / Turnos",
+          "desc": "Apóyanos en la producción moderna de tuberías y accesorios."
+        },
+        {
+          "id": "machine",
+          "title": "Operador de Máquinas e Instalaciones (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Operación y monitoreo de nuestras líneas de extrusión de alta tecnología."
+        },
+        {
+          "id": "logistics",
+          "title": "Especialista en Logística de Almacén (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Responsabilidad sobre las mercancías entrantes y salientes, así como el control de inventario."
+        },
+        {
+          "id": "sales",
+          "title": "Representante de Ventas Técnicas (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Atención a grandes cuentas y planificadores de proyectos a nivel internacional."
+        },
+        {
+          "id": "pm",
+          "title": "Gerente de Producto (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Da forma al futuro de nuestros sistemas de tuberías de PP-R."
+        },
+        {
+          "id": "init",
+          "title": "Candidatura Espontánea",
+          "type": "Tiempo completo / Medio tiempo",
+          "desc": "¿No encuentras un puesto adecuado? ¡Simplemente envíanos una candidatura espontánea!"
+        }
+      ],
+      "steps": {
+        "step1": "Datos personales",
+        "step2": "Currículum y documentos",
+        "step3": "Revisión"
+      },
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "startDate": "Fecha de inicio más temprana posible",
+        "uploadTitle": "Subir PDF",
+        "uploadDesc": "Arrastra tu currículum aquí o haz clic para seleccionar (máx. 5 MB)",
+        "builderTitle": "O: Crear CV en línea",
+        "builderDesc": "¿No tienes un PDF a mano? Simplemente completa tu historial aquí.",
+        "workExp": "Añadir experiencia profesional",
+        "education": "Añadir educación",
+        "company": "Empresa",
+        "role": "Puesto",
+        "school": "Escuela / Universidad",
+        "degree": "Título",
+        "from": "Desde",
+        "to": "Hasta",
+        "skills": "Habilidades (separadas por comas)",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "submit": "Enviar solicitud",
+        "submitting": "Enviando...",
+        "success": "¡Gracias por tu solicitud!",
+        "successSub": "Hemos recibido tus documentos y nos pondremos en contacto contigo en breve.",
+        "error": "Se ha producido un error. Por favor, inténtalo de nuevo más tarde."
+      }
+    }
+  },
+  "quote": "Consulta de Proyecto"
 }

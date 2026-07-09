@@ -4,7 +4,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import { Link, usePathname } from '@/lib/i18n/navigation';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import {
   Package,
   Search,
@@ -93,6 +93,7 @@ const MEGA_LAYOUT = [
 
 export default function MegaMenu({ onClose }: MegaMenuProps) {
   const t = useTranslations();
+  const locale = useLocale();
   const pathname = usePathname();
   const containerRef = useRef<HTMLDivElement>(null);
   const shouldReduceMotion = useReducedMotion();
@@ -251,6 +252,33 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
         initial="hidden"
         animate="visible"
       >
+        <motion.section
+          key="home"
+          className="k-mega-section"
+          variants={sectionVariants}
+        >
+          <span className="k-mega-head">
+            {t('nav.home') || 'Startseite'}
+          </span>
+          <div className="k-mega-group">
+            <motion.div variants={itemVariants}>
+              <Link
+                href="/"
+                className={`k-mega-item ${pathname === '/' ? 'is-active' : ''}`}
+                aria-current={pathname === '/' ? 'page' : undefined}
+                onClick={onClose}
+              >
+                <span className="k-mega-icon" aria-hidden="true">
+                  <Package size={20} strokeWidth={1.8} />
+                </span>
+                <span className="k-mega-text">
+                  <span className="t">{t('nav.home') || 'Startseite'}</span>
+                </span>
+              </Link>
+            </motion.div>
+          </div>
+        </motion.section>
+
         {MEGA_LAYOUT.map((sec) => (
           <motion.section
             key={sec.group}
@@ -305,7 +333,16 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
           variants={sectionVariants}
         >
           <div className="flex items-center gap-2">
-            <LangPicker />
+            <Link
+              href="/language"
+              onClick={onClose}
+              className="flex items-center justify-center min-h-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
+            >
+              <Globe className="w-5 h-5 shrink-0" />
+              <span className="text-small font-bold tracking-wider uppercase font-body select-none">
+                {locale.toUpperCase()}
+              </span>
+            </Link>
             <ThemeToggle />
           </div>
           <Link

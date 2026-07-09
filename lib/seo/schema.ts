@@ -10,17 +10,18 @@ export const DEFAULT_ORG_SCHEMA = {
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Industriestraße 1",
-    "addressLocality": "Waldsolms",
+    "streetAddress": "Auweg 3",
+    "addressLocality": "Waldsolms-Brandoberndorf",
     "postalCode": "35647",
     "addressCountry": "DE"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+49-0000-000000",
+    "telephone": "+49 6085 9868-410",
     "contactType": "customer service",
     "email": "info@k-aqua.de",
-    "availableLanguage": ["German", "English", "Arabic"]
+    "areaServed": "Global",
+    "availableLanguage": ["de", "en", "ar"]
   },
   "areaServed": "Worldwide"
 };
@@ -37,7 +38,7 @@ export function getLocalBusinessSchema() {
     "image": "https://k-aqua.de/logo.png",
     "@id": "https://k-aqua.de",
     "url": "https://k-aqua.de",
-    "telephone": "+49-0000-000000",
+    "telephone": "+49 6085 9868-410",
     "address": DEFAULT_ORG_SCHEMA.address,
     "geo": {
       "@type": "GeoCoordinates",

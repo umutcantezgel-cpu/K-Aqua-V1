@@ -1,6 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Step 15: Karriere & Projektanfrage (Käufer-Strecke)', () => {
+  test.beforeEach(async ({ context }) => {
+    await context.addInitScript(() => {
+      window.localStorage.setItem('k-aqua-cookie-consent', 'all');
+      window.localStorage.setItem('cookie_essential', 'true');
+      window.localStorage.setItem('cookie_analytics', 'true');
+      window.localStorage.setItem('cookie_marketing', 'true');
+    });
+  });
 
   test.describe('Netto-Rechner on /karriere', () => {
     test.beforeEach(async ({ page }) => {
