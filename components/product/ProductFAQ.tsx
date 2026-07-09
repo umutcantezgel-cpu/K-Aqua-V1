@@ -67,7 +67,9 @@ export default function ProductFAQ({ category }: Props) {
   // Extract FAQ items safely
   let rawFaqs: { q: string, a: string }[] = [];
   try {
-    rawFaqs = t.raw(`seoArticle.${faqCat}.faq`) || [];
+    if (t.has(`seoArticle.${faqCat}.faq`)) {
+      rawFaqs = t.raw(`seoArticle.${faqCat}.faq`) || [];
+    }
   } catch {
     // Fallback if translations don't exist yet
     rawFaqs = [];

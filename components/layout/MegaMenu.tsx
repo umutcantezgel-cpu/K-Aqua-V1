@@ -192,9 +192,11 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
 
   const getPageMeta = (id: string): [string, string] => {
     try {
-      const arr = t.raw(`pages.${id}`);
-      if (Array.isArray(arr) && arr.length >= 2) {
-        return [arr[0], arr[1]];
+      if (t.has(`pages.${id}`)) {
+        const arr = t.raw(`pages.${id}`);
+        if (Array.isArray(arr) && arr.length >= 2) {
+          return [arr[0], arr[1]];
+        }
       }
       return [id, ''];
     } catch {
