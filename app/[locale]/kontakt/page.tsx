@@ -5,7 +5,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { MapPin, Phone, Wrench, ArrowUpRight } from "@/components/ui/icon";
 import { ContactDeep } from "@/components/sections/ContactDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -39,22 +39,16 @@ const SUPPORT_EMAIL_HREF = "mailto:support@k-aqua.de";
 
 export default async function KontaktPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "contact");
   const t = await getTranslations({ locale, namespace: "contact" });
   const tFooter = await getTranslations({ locale, namespace: "footer" });
 
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${t("title1")} ${t("titleGrad")}`,
-    "description": `${t("locTitle")} - ${t("salesTitle")}`,
-    "url": `${siteUrl}/${locale}/kontakt`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">

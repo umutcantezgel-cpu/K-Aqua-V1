@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { LegalContent } from "@/components/sections/LegalContent";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -24,23 +24,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DatenschutzPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "legal.datenschutz");
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
 
   const title = t("title");
   const sections = t.raw("sections") as { id?: string; title: string; icon?: string; tldr?: string; content: string }[];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": title,
-    "description": `${title} - K-Aqua`,
-    "url": `${siteUrl}/${locale}/datenschutz`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
           <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />

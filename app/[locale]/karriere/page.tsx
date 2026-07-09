@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import Career from "@/components/tools/Career";
 import ApplicationPortal from "@/components/tools/ApplicationPortal";
 import { CareerDeep } from "@/components/sections/CareerDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function KarrierePage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "career");
   const t = await getTranslations({ locale, namespace: "career" });
 
 
@@ -65,17 +66,10 @@ export default async function KarrierePage({ params }: Props) {
   };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${careerData.title1} ${careerData.titleGrad}`,
-    "description": careerData.lead,
-    "url": `${siteUrl}/${locale}/karriere`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       {/* 1. Quick Contact / Culture Match */}
       <Career careerData={careerData} />
       

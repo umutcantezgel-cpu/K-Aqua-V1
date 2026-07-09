@@ -6,7 +6,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { Check, Download, MapPin } from "@/components/ui/icon";
 import { NewsDeep } from "@/components/sections/NewsDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -32,22 +32,16 @@ const DASH = " — ";
 
 export default async function NewsPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getArticleJsonLd(locale, "news");
   const t = await getTranslations({ locale, namespace: "news" });
 
   const iso = t.raw("iso") as string[][];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${t("title1")} ${t("titleGrad")}`,
-    "description": t("h2"),
-    "url": `${siteUrl}/${locale}/news`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">

@@ -2,7 +2,7 @@ import React from "react";
 import { getTranslations } from "next-intl/server";
 import { Academy } from "@/components/tools/Academy";
 import { AcademyDeep } from "@/components/sections/AcademyDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function AcademyPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getArticleJsonLd(locale, "academy");
   const t = await getTranslations({ locale, namespace: "academy" });
 
   const data = {
@@ -47,17 +48,10 @@ export default async function AcademyPage({ params }: Props) {
   };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${data.title1} ${data.titleGrad}`,
-    "description": data.lead,
-    "url": `${siteUrl}/${locale}/academy`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <Academy data={data} />
       <AcademyDeep />
     </>

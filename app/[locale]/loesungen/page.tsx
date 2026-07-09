@@ -8,7 +8,7 @@ import { MediaSlot } from "@/components/ui/MediaSlot";
 import { Reveal } from "@/components/ui/Reveal";
 import { Leaf, Recycle, Shield, Thermometer, ArrowRight } from "@/components/ui/icon";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -37,22 +37,16 @@ const BENEFIT_ICONS = [Leaf, Recycle, Shield, Thermometer];
 
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "solutions");
   const t = await getTranslations({ locale, namespace: "solutions" });
 
   const benefits = t.raw("benefits") as BenefitItem[];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${t("title1")} ${t("titleGrad")} ${t("title2")}`,
-    "description": t("lead"),
-    "url": `${siteUrl}/${locale}/loesungen`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border kq-band kq-band--wave-b">

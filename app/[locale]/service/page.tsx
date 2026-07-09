@@ -6,7 +6,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { FileText, Download, Play } from "@/components/ui/icon";
 import { ServiceDeep } from "@/components/sections/ServiceDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -56,23 +56,17 @@ const VIDEO_ASSETS = [
 
 export default async function ServicePage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "service");
   const t = await getTranslations({ locale, namespace: "service" });
 
   const downloads = t.raw("downloads") as DownloadItem[];
   const videos = t.raw("videos") as VideoItem[];
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${t("title1")} ${t("titleGrad")}`,
-    "description": t("eyebrow"),
-    "url": `${siteUrl}/${locale}/service`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">

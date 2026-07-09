@@ -7,6 +7,9 @@ import {
   ItemListJsonLd,
   ProductJsonLd,
   FAQPageJsonLd,
+  WebPageJsonLd,
+  ArticleJsonLd,
+  BreadcrumbListJsonLd,
 } from "@/components/seo/JsonLd";
 
 interface MetadataInput {
@@ -258,3 +261,64 @@ export async function getGeoCityJsonLd(
   return [productSchema, faqSchema];
 }
 export type { MetadataInput };
+
+/**
+ * Builds standard WebPage or ContactPage schemas.
+ */
+export async function getWebPageJsonLd(locale: string, pageKey: string, type: WebPageJsonLd["@type"] = "WebPage"): Promise<WebPageJsonLd> {
+  const t = await getTranslations({ locale, namespace: "pages" });
+  const meta = t.raw(pageKey) as string[];
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    name: meta[0] || "K-Aqua",
+    description: meta[1] || "",
+    url: `${siteUrl}/${locale}/${pageKey === 'home' ? '' : pageKey}`,
+    inLanguage: locale,
+  };
+}
+
+/**
+ * Builds Article/NewsArticle schemas for Academy and News.
+ */
+export async function getArticleJsonLd(locale: string, pageKey: string): Promise<ArticleJsonLd> {
+  const t = await getTranslations({ locale, namespace: "pages" });
+  const meta = t.raw(pageKey) as string[];
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: meta[0] || "K-Aqua News",
+    description: meta[1] || "",
+    image: [`${siteUrl}/images/og-default.jpg`],
+    publisher: {
+      "@type": "Organization",
+      name: "KWT GmbH",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/images/logo.png`,
+      }
+    }
+  };
+}
+
+/**
+ * Builds BreadcrumbList JSON-LD to help Google understand site structure.
+ */
+export function getBreadcrumbJsonLd(locale: string, paths: { name: string; path: string }[]): BreadcrumbListJsonLd {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: paths.map((p, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: p.name,
+      item: `${siteUrl}/${locale}${p.path}`,
+    })),
+  };
+}

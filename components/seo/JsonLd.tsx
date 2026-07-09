@@ -86,11 +86,56 @@ export interface FAQPageJsonLd {
   mainEntity: QuestionJsonLd[];
 }
 
+export interface ArticleJsonLd {
+  "@context": "https://schema.org";
+  "@type": "Article" | "NewsArticle";
+  headline: string;
+  description?: string;
+  image?: string[];
+  datePublished?: string;
+  dateModified?: string;
+  author?: {
+    "@type": "Organization" | "Person";
+    name: string;
+  };
+  publisher?: {
+    "@type": "Organization";
+    name: string;
+    logo?: {
+      "@type": "ImageObject";
+      url: string;
+    };
+  };
+}
+
+export interface BreadcrumbListJsonLd {
+  "@context": "https://schema.org";
+  "@type": "BreadcrumbList";
+  itemListElement: {
+    "@type": "ListItem";
+    position: number;
+    name: string;
+    item?: string;
+  }[];
+}
+
+export interface WebPageJsonLd {
+  "@context": "https://schema.org";
+  "@type": "WebPage" | "ContactPage" | "AboutPage" | "CollectionPage";
+  name: string;
+  description?: string;
+  url: string;
+  inLanguage?: string;
+}
+
 export type SchemaLd =
   | OrganizationJsonLd
   | ProductJsonLd
   | ItemListJsonLd
-  | FAQPageJsonLd;
+  | FAQPageJsonLd
+  | ArticleJsonLd
+  | BreadcrumbListJsonLd
+  | WebPageJsonLd;
 
 interface JsonLdProps {
   schema: SchemaLd | SchemaLd[] | unknown | unknown[];

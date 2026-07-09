@@ -10,8 +10,8 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
-import { constructMetadata } from '@/lib/seo/metadata';
-import { getOrganizationSchema, getLocalBusinessSchema } from '@/lib/seo/schema';
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 
 const DOT = '•';
@@ -119,21 +119,11 @@ export default async function Page({ params }: Props) {
     { t: tHomex('cards.2.t'), d: tHomex('cards.2.d') },
   ];
 
-  const orgJsonLd = getOrganizationSchema();
-  const localBusinessJsonLd = getLocalBusinessSchema();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webSiteJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "K-Aqua",
-    "url": `${siteUrl}/${locale}`,
-  };
+  const webPageJsonLd = await getWebPageJsonLd(locale, "home");
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }} />
+      <JsonLd schema={webPageJsonLd} />
       {/* 1) Hero (Hero-Scrollytelling) */}
       <HeroScrolly />
 

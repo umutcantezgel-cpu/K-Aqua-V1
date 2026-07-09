@@ -2,7 +2,7 @@ import React from "react";
 import { getTranslations } from "next-intl/server";
 import References from "@/components/sections/References";
 import { RefsDeep } from "@/components/sections/RefsDeep";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ReferenzenPage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "references");
   const t = await getTranslations({ locale, namespace: "refs" });
 
   const referencesData = {
@@ -44,17 +45,10 @@ export default async function ReferenzenPage({ params }: Props) {
   };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${referencesData.title1} ${referencesData.titleGrad}`,
-    "description": referencesData.lead,
-    "url": `${siteUrl}/${locale}/referenzen`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <References referencesData={referencesData} />
       <RefsDeep />
     </>

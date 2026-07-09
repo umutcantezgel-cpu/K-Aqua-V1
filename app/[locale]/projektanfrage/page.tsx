@@ -1,7 +1,7 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import RfqWizard from "@/components/tools/RfqWizard";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProjektanfragePage({ params }: Props) {
   const { locale } = await params;
+  const jsonLd = await getWebPageJsonLd(locale, "rfq");
   const tRfq = await getTranslations({ locale, namespace: "rfq" });
 
   const rfqData = {
@@ -58,17 +59,10 @@ export default async function ProjektanfragePage({ params }: Props) {
   };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${rfqData.title1} ${rfqData.titleGrad}`,
-    "description": rfqData.lead,
-    "url": `${siteUrl}/${locale}/projektanfrage`,
-  };
-
+  
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <RfqWizard rfqData={rfqData} />
     </>
   );
