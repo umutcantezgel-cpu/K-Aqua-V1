@@ -131,14 +131,16 @@
       "Project Enquiry & Request for Quotation",
       "Request a non-binding quotation for your next piping project in four easy steps. Receive a customized proposal from our B2B sales team within 24 hours."
     ],
-    "legal.datenschutz": [
-      "Data Privacy Policy",
-      "Comprehensive data privacy policy for K-Aqua website in accordance with GDPR regulations."
-    ],
-    "legal.impressum": [
-      "Imprint & Legal Notice",
-      "Legal notice and corporate information for KWT GmbH, the manufacturer of K-Aqua piping systems."
-    ]
+    "legal": {
+      "datenschutz": [
+        "Data Privacy Policy",
+        "Comprehensive data privacy policy for K-Aqua website in accordance with GDPR regulations."
+      ],
+      "impressum": [
+        "Imprint & Legal Notice",
+        "Legal notice and corporate information for KWT GmbH, the manufacturer of K-Aqua piping systems."
+      ]
+    }
   },
   "home": {
     "chip": "certified since October 2025",

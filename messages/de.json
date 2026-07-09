@@ -131,14 +131,16 @@
       "Hersteller für PP-R & PP-RCT Rohrsysteme",
       "K-Aqua produziert erstklassige PP-R und PP-RCT Kunststoff-Rohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
     ],
-    "legal.datenschutz": [
-      "Datenschutzerklärung",
-      "Umfassende Datenschutzerklärung für die K-Aqua Website gemäß DSGVO-Richtlinien."
-    ],
-    "legal.impressum": [
-      "Impressum & Rechtliche Hinweise",
-      "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K-Aqua."
-    ]
+    "legal": {
+      "datenschutz": [
+        "Datenschutzerklärung",
+        "Umfassende Datenschutzerklärung für die K-Aqua Website gemäß DSGVO-Richtlinien."
+      ],
+      "impressum": [
+        "Impressum & Rechtliche Hinweise",
+        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K-Aqua."
+      ]
+    }
   },
   "home": {
     "chip": "zertifiziert seit Oktober 2025",
