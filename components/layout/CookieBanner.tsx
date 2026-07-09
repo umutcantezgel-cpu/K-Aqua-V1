@@ -22,31 +22,39 @@ export function CookieBanner() {
   const t = useTranslations('cookieConsent');
 
   useEffect(() => {
-    const consent = localStorage.getItem('k-aqua-cookie-consent');
-    if (!consent) {
-      const timer = setTimeout(() => {
-        setIsVisible(true);
-      }, 1500);
-      return () => clearTimeout(timer);
+    try {
+      const consent = localStorage.getItem('k-aqua-cookie-consent');
+      if (!consent) {
+        const timer = setTimeout(() => {
+          setIsVisible(true);
+        }, 1500);
+        return () => clearTimeout(timer);
+      }
+    } catch (e) {
+      // Ignore localStorage errors in strict privacy browsers
     }
   }, []);
 
   const saveConsent = (type: 'all' | 'none' | 'custom') => {
-    if (type === 'all') {
-      localStorage.setItem('k-aqua-cookie-consent', 'all');
-      localStorage.setItem('cookie_essential', 'true');
-      localStorage.setItem('cookie_analytics', 'true');
-      localStorage.setItem('cookie_marketing', 'true');
-    } else if (type === 'none') {
-      localStorage.setItem('k-aqua-cookie-consent', 'none');
-      localStorage.setItem('cookie_essential', 'true');
-      localStorage.setItem('cookie_analytics', 'false');
-      localStorage.setItem('cookie_marketing', 'false');
-    } else {
-      localStorage.setItem('k-aqua-cookie-consent', 'custom');
-      localStorage.setItem('cookie_essential', 'true');
-      localStorage.setItem('cookie_analytics', String(preferences.analytics));
-      localStorage.setItem('cookie_marketing', String(preferences.marketing));
+    try {
+      if (type === 'all') {
+        localStorage.setItem('k-aqua-cookie-consent', 'all');
+        localStorage.setItem('cookie_essential', 'true');
+        localStorage.setItem('cookie_analytics', 'true');
+        localStorage.setItem('cookie_marketing', 'true');
+      } else if (type === 'none') {
+        localStorage.setItem('k-aqua-cookie-consent', 'none');
+        localStorage.setItem('cookie_essential', 'true');
+        localStorage.setItem('cookie_analytics', 'false');
+        localStorage.setItem('cookie_marketing', 'false');
+      } else {
+        localStorage.setItem('k-aqua-cookie-consent', 'custom');
+        localStorage.setItem('cookie_essential', 'true');
+        localStorage.setItem('cookie_analytics', String(preferences.analytics));
+        localStorage.setItem('cookie_marketing', String(preferences.marketing));
+      }
+    } catch (e) {
+      // Ignore localStorage errors
     }
     
     setIsVisible(false);
