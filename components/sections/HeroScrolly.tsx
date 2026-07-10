@@ -83,12 +83,13 @@ export default function HeroScrolly() {
         copy.style.pointerEvents = fade > 0.4 ? 'none' : '';
       }
 
-      // 2) Globe arcs from hero-right to center on a circular path + grows
+      // 2) Globe arcs from hero-right (or left in RTL) to center on a circular path + grows
       const e = ease(Math.min(1, p / 0.42));
       const x0 = Math.min(window.innerWidth * 0.27, 560);
-      const th = e * Math.PI * 1.12; // Circular arc: right -> bottom -> center
+      const th = e * Math.PI * 1.12; // Circular arc
       const R = x0 * (1 - e);
-      const x = Math.cos(th) * R;
+      const direction = isRtl ? -1 : 1;
+      const x = Math.cos(th) * R * direction;
       const y = Math.sin(th) * R * 0.55;
       const s = 0.92 + e * 0.5;
 
@@ -123,7 +124,7 @@ export default function HeroScrolly() {
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
     };
-  }, [staticMode]);
+  }, [staticMode, isRtl]);
 
   // Fallback markers for static mode
   const testMarkers = [

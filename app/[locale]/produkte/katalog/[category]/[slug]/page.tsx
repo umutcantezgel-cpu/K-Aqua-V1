@@ -169,9 +169,9 @@ export default async function CatalogDetailPage({ params }: Props) {
             {/* Sidebar (RFQ + Similar) */}
             <div className="flex flex-col gap-6">
               <Card className="p-6 bg-primary text-primary-foreground border-none">
-                <h3 className="font-heading text-xl font-bold mb-3">Projektanfrage</h3>
+                <h3 className="font-heading text-xl font-bold mb-3">{t("rfq.title")}</h3>
                 <p className="text-small text-primary-foreground/80 mb-6">
-                  Fordern Sie direkt ein Angebot für <strong>{item.title}</strong> an.
+                  {t.rich("rfq.desc", { title: item.title, strong: (chunks) => <strong>{chunks}</strong> })}
                 </p>
                 <Button 
                   href={`/projektanfrage?item=${item.slug}`} 
@@ -179,14 +179,14 @@ export default async function CatalogDetailPage({ params }: Props) {
                   className="w-full justify-center"
                   icon={<ArrowRight className="w-4 h-4 rtl:rotate-180" />}
                 >
-                  Zur Anfrage
+                  {t("rfq.button")}
                 </Button>
               </Card>
 
               {similarItems.length > 0 && (
                 <Card className="p-6">
                   <h3 className="font-heading text-lg font-bold text-foreground mb-4">
-                    Weitere aus {catLabel}
+                    {t("similar.title", { category: catLabel })}
                   </h3>
                   <div className="flex flex-col gap-3">
                     {similarItems.map((sim) => (

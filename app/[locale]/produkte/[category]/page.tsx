@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
 import { routing } from "@/lib/i18n/routing";
+import { useTranslations } from "next-intl";
 
 interface Props {
   params: Promise<{ locale: string; category: string }>;
@@ -113,6 +114,8 @@ export default async function CategoryPage({ params }: Props) {
     }
   };
 
+  const tc = await getTranslations({ locale, namespace: "products.category" });
+
   return (
     <>
       <JsonLd schema={webPageSchema} />
@@ -154,13 +157,13 @@ export default async function CategoryPage({ params }: Props) {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl font-heading font-bold text-foreground">
-              Alle Produkte ({products.length})
+              {tc("allProducts")} ({products.length})
             </h2>
             <Link 
               href={`/${locale}/produkte/finder?category=${encodeURIComponent(category.charAt(0).toUpperCase() + category.slice(1))}`}
               className="hidden sm:inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-primary-strong transition-colors"
             >
-              Im Finder öffnen <ArrowRight className="w-4 h-4" />
+              {tc("openInFinder")} <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -178,13 +181,13 @@ export default async function CategoryPage({ params }: Props) {
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="text-xs font-mono text-muted-foreground mb-2">
-                    {p.article_codes ? String(p.article_codes).split(',')[0] : 'Art. N/A'}
+                    {p.article_codes ? String(p.article_codes).split(',')[0] : tc("artNA")}
                   </div>
                   <h3 className="text-lg font-heading font-bold text-foreground line-clamp-2 mb-4 group-hover:text-primary transition-colors">
                     {p.title}
                   </h3>
                   <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all">
-                    Details ansehen <ArrowRight className="w-4 h-4" />
+                    {tc("viewDetails")} <ArrowRight className="w-4 h-4" />
                   </div>
                 </div>
               </Link>
@@ -200,16 +203,16 @@ export default async function CategoryPage({ params }: Props) {
             <PenTool className="w-8 h-8" />
           </div>
           <h2 className="text-3xl font-heading font-bold text-foreground mb-6">
-            Mehr erfahren im K-Aqua Fachwissen
+            {tc("learnMoreKnowledge")}
           </h2>
           <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-            Tauchen Sie tiefer in die technische Dokumentation ein und entdecken Sie Fachartikel zur Installation, Nachhaltigkeit und Zertifizierung unserer Systeme.
+            {tc("learnMoreDesc")}
           </p>
           <Link 
             href={`/${locale}/wissen`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary-strong transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20"
           >
-            Zur Wissensdatenbank <ArrowRight className="w-5 h-5" />
+            {tc("toKnowledgeBase")} <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>

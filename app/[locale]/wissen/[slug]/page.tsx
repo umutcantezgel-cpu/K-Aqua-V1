@@ -138,7 +138,7 @@ export default async function ArticlePage({ params }: Props) {
               prose-a:text-primary hover:prose-a:text-primary-strong
               prose-strong:text-foreground prose-strong:font-bold
               prose-ul:text-lg prose-ul:text-muted-foreground prose-li:marker:text-primary
-              prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary/5 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:text-foreground prose-blockquote:font-medium prose-blockquote:italic
+              prose-blockquote:border-s-4 prose-blockquote:border-primary prose-blockquote:bg-primary/5 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-e-xl prose-blockquote:text-foreground prose-blockquote:font-medium prose-blockquote:italic
             "
             dangerouslySetInnerHTML={{ __html: article.content }}
           />

@@ -13,9 +13,13 @@ import { useProductCatalogStore } from '@/lib/useProductCatalogStore';
 
 // Extend THREE prototypes for raycasting acceleration via three-mesh-bvh
 if (typeof window !== 'undefined') {
-  (THREE.BufferGeometry.prototype as any).computeBoundsTree = computeBoundsTree;
-  (THREE.BufferGeometry.prototype as any).disposeBoundsTree = disposeBoundsTree;
-  (THREE.Mesh.prototype as any).raycast = acceleratedRaycast;
+  try {
+    (THREE.BufferGeometry.prototype as any).computeBoundsTree = computeBoundsTree;
+    (THREE.BufferGeometry.prototype as any).disposeBoundsTree = disposeBoundsTree;
+    (THREE.Mesh.prototype as any).raycast = acceleratedRaycast;
+  } catch (e) {
+    console.warn('Failed to initialize three-mesh-bvh acceleration:', e);
+  }
 }
 
 // --- Custom WebGL 2.0 / GLSL 300 ES-ready Water Shader Material ---

@@ -277,6 +277,13 @@ export async function getWebPageJsonLd(locale: string, pageKey: string, type: We
     description: meta[1] || "",
     url: `${siteUrl}/${locale}/${pageKey === 'home' ? '' : pageKey}`,
     inLanguage: locale,
+    ...(pageKey === 'home' && {
+      creator: {
+        "@type": "Organization",
+        name: "Coday Web Agency",
+        url: "https://www.codayweb.de/"
+      }
+    })
   };
 }
 

@@ -41,6 +41,14 @@
         "label": "Tools",
         "desc": "Pipe cutters, welding machines and dies for all four jointing methods, 14 families."
       }
+    },
+    "rfq": {
+      "title": "Zapytanie o projekt",
+      "desc": "Poproś bezpośrednio o ofertę na <strong>{title</strong>.",
+      "button": "Na prośbę"
+    },
+    "similar": {
+      "title": "Więcej z {kategoria}"
     }
   },
   "toggle_theme_light": "Switch to light theme",
@@ -57,12 +65,22 @@
     "menu": "Menu",
     "lang": "Language",
     "skipToContent": "Skip to content",
-    "menuPlaceholder": "Placeholder (Mega Menu)"
+    "menuPlaceholder": "Placeholder (Mega Menu)",
+    "academy": "Akademia",
+    "service": "Serwis",
+    "about": "O firmie",
+    "solutions": "Rozwiązania",
+    "partners": "Partnerstwo",
+    "references": "Referencje",
+    "career": "Kariera",
+    "news": "Aktualności",
+    "knowledge_trust": "Wiedza i Zaufanie"
   },
   "groups": {
     "tools": "Products & Tools",
     "knowledge": "Knowledge & Trust",
-    "company": "Company"
+    "company": "Company",
+    "products": "Produkty"
   },
   "pages": {
     "products": [
@@ -124,7 +142,22 @@
     "rfq": [
       "Project Enquiry",
       "A quote in four steps"
-    ]
+    ],
+    "catalogOverview": "Pełny Katalog Produktów",
+    "home": [
+      "Producent systemów rurowych PP-R i PP-RCT",
+      "K-Aqua produkuje najwyższej klasy systemy rur z tworzyw sztucznych PP-R i PP-RCT do wody pitnej i zastosowań przemysłowych. Niemiecka inżynieria dla globalnych projektów."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Polityka Prywatności",
+        "Kompleksowa polityka prywatności dla strony internetowej K-Aqua zgodnie z wytycznymi RODO."
+      ],
+      "impressum": [
+        "Nota prawna",
+        "Nota prawna i informacje o firmie KWT GmbH, producencie K-Aqua."
+      ]
+    }
   },
   "home": {
     "chip": "certified since October 2025",
@@ -481,7 +514,573 @@
     "videoGuide": "K-Aqua Video-Anleitung",
     "localAvailability": "Lokale Verfügbarkeit",
     "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
-    "allMarkets": "Alle 50+ Märkte ansehen"
+    "allMarkets": "Alle 50+ Märkte ansehen",
+    "tools": {
+      "metaTitle": "Narzędzia i Akcesoria | K-Aqua",
+      "metaDesc": "Narzędzia i Akcesoria K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "heroEyebrow": "Niemiecka Inżynieria",
+      "heroTitle": "Narzędzia i Akcesoria.",
+      "heroSubtitle": "Absolutna Precyzja.",
+      "heroDesc": "Ten moduł zapewnia bezkompromisowe bezpieczeństwo dla najbardziej wymagających projektów na całym świecie. Wyprodukowane zgodnie z najsurowszymi standardami branżowymi, aby przetrwać pokolenia. Tam, gdzie awaria materiału nie wchodzi w grę.",
+      "heroBtnPrimary": "Zapytaj o Projekt",
+      "heroBtnSecondary": "Dane Techniczne",
+      "bentoEyebrow": "Ekosystem K-Aqua",
+      "bentoTitle": "Narzędzia dla globalnych megaprojektów.",
+      "bentoLead": "Kiedy międzynarodowi główni wykonawcy planują miliardowe projekty, nie polegają na obietnicach, ale na twardych faktach i precyzyjnym sprzęcie.",
+      "bento1Title": "Zgrzewarki mufowe z elementem grzejnym",
+      "bento1Desc": "Dla wymiarów od 20 mm do 125 mm. Kompaktowa, solidna konstrukcja do trudnych zastosowań na budowie.",
+      "bento2Title": "Obcinaki do rur i Nożyce",
+      "bento2Desc": "Ergonomiczne konstrukcje zapewniające pracę bez zmęczenia i idealne cięcia pod kątem 90°.",
+      "bento3Title": "Zgrzewarki doczołowe",
+      "bento3Desc": "Dla średnic nominalnych do 250 mm. Sterowane numerycznie dla absolutnej powtarzalności.",
+      "bento4Title": "Zestawy Naprawcze i Akcesoria",
+      "bento4Desc": "Głowice wiertnicze, siodła naprawcze i otwornice do późniejszych odgałęzień.",
+      "scrollEyebrow": "Głęboka Technologia",
+      "scrollTitle": "Brak miejsca na tolerancje błędów.",
+      "scrollLead": "Odkryj szczegóły technologiczne, które sprawiają, że nasze narzędzia są pierwszym wyborem dla certyfikowanych instalatorów.",
+      "scroll1Title": "Perfekcyjna termodynamika. Przy każdym zgrzewie.",
+      "scroll1Desc": "Nasze urządzenia do zgrzewania mufowego z elementem grzejnym są wyposażone w wysoce precyzyjne, pokryte teflonem trzpienie i tuleje grzewcze. Sterowana mikroprocesorowo regulacja temperatury gwarantuje stałą temperaturę zgrzewania na poziomie 260°C – nawet przy ekstremalnych temperaturach zewnętrznych na globalnych placach budowy. Pozwala to na stworzenie nierozerwalnego, jednorodnego połączenia na poziomie molekularnym.",
+      "scroll2Title": "Zgrzewanie doczołowe sterowane CNC.",
+      "scroll2Desc": "W przypadku dużych średnic nominalnych (do 250 mm i więcej) polegamy na zgrzewarkach doczołowych sterowanych CNC. Automatyczne obliczanie ciśnienia i czasu eliminuje błąd ludzki. Każdy cykl zgrzewania jest rejestrowany cyfrowo, aby zapewnić pełną identyfikowalność na potrzeby odbioru budynku. Niemiecka inżynieria na najwyższym poziomie.",
+      "scroll3Title": "Precyzyjne zdzieraki do rur. Dokładność do milimetra.",
+      "scroll3Desc": "Przygotowanie to 80% zgrzewu. Nasze mechaniczne i elektryczne zdzieraki do rur usuwają warstwę tlenku z rur K-Aqua ze z absolutnie jednolitą głębokością cięcia. Zapobiega to mikropęknięciom i tworzy idealną płaszczyznę fuzji. Narzędzie, które przetrwa pokolenia.",
+      "scroll4Title": "Piły tarczowe do cięcia na zimno zapewniające dokładne cięcia.",
+      "scroll4Desc": "Nożyce do rur mogą zniekształcać materiał. Nasze przemysłowe piły tarczowe do cięcia na zimno gwarantują idealnie prostokątne cięcia bez zadziorów. Rezultat: Brak pęknięć wywołanych naprężeniami, brak utraty ciśnienia, absolutna równoległość płaszczyzn przed procesem zgrzewania.",
+      "timelineTitle": "Proces Zgrzewania K-Aqua",
+      "timelineDesc": "Od cięcia do fuzji molekularnej. Znormalizowany proces, który prowadzi do 100% szczelnych i bezobsługowych systemów rurowych.",
+      "timeline1Year": "Faza 1: Przygotowanie Materiału",
+      "timeline1Title": "Idealne cięcie.",
+      "timeline1Text": "Cięcie pod kątem 90 stopni, bez zadziorów, jest podstawą każdego trwałego połączenia. Nasze precyzyjne nożyce i piły tarczowe do cięcia na zimno gwarantują absolutnie płaską powierzchnię bez mikrostrukturalnych odkształceń polipropylenu.",
+      "timeline2Year": "Faza 2: Kalibracja i Zdzieranie",
+      "timeline2Title": "Usuwanie warstwy tlenku.",
+      "timeline2Text": "Przed zgrzewaniem rura jest dokładnie kalibrowana, a zewnętrzna warstwa tlenku jest usuwana co do milimetra za pomocą naszych specjalnych narzędzi do zdzierania. Umożliwia to uzyskanie w 100% czystej powierzchni do procesu fuzji.",
+      "timeline3Year": "Faza 3: Fuzja Termiczna",
+      "timeline3Title": "Fuzja Molekularna.",
+      "timeline3Text": "Rura i kształtka są jednocześnie podgrzewane do dokładnie 260°C na matrycy grzewczej pokrytej teflonem. Sterowany mikroprocesorowo termostat urządzeń spawalniczych K-Aqua utrzymuje stałą temperaturę – niezależnie od wiatru i pogody.",
+      "timeline4Year": "Faza 4: Połączenie",
+      "timeline4Title": "Dożywotnie Bezpieczeństwo.",
+      "timeline4Text": "W określonym czasie przezbrajania podgrzane elementy są łączone ze sobą bez skręcania. Po fazie chłodzenia powstaje nowy, całkowicie jednorodny element obrabiany. Bezobsługowy przez ponad 50 lat.",
+      "specsTitle": "Autorytet Przemysłowy. <br/> W każdym szczególe.",
+      "specsP1": "Od dziesięcioleci łączymy rzemieślniczą dumę z najnowocześniejszą, wysoce zautomatyzowaną technologią produkcji w naszym głównym zakładzie w sercu Niemiec.",
+      "specsP2": "Wykorzystywany w najsurowszych warunkach na pustyniach i w najbardziej ekstremalnych klimatach na świecie, nasz materiał każdego dnia udowadnia swoją wartość. Wyznaczamy standardy, za którymi podąża reszta świata.",
+      "specsList1": "Certyfikat ISO 9001",
+      "specsList2": "Powłoka teflonowa PTFE klasy A",
+      "specsList3": "Cyfrowa Kalibracja Temperatury",
+      "ctaTitle": "Gotowy na bezkompromisową jakość?",
+      "ctaDesc": "Porozmawiaj z naszym zespołem inżynierów o swoim kolejnym megaprojekcie i zamów próbki naszych narzędzi.",
+      "ctaBtn": "Skontaktuj się ze Wsparciem Technicznym"
+    },
+    "valves": {
+      "metaTitle": "Armatura i Zawory | Niemiecka Inżynieria | K-Aqua",
+      "metaDesc": "Armatura i Zawory K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów. Poznaj perfekcję techniczną.",
+      "heroEyebrow": "Klasa Zaworów",
+      "heroTitle": "Absolutna Kontrola.",
+      "heroSubtitle": "Pod najwyższym ciśnieniem.",
+      "heroDesc": "Witamy w pierwszej lidze technologii przepływu. Zawory i armatura K-Aqua to nie tylko komponenty – to niezniszczalne serce globalnej infrastruktury. Zbudowane na wieczność.",
+      "heroBtnPrimary": "Zapytaj o Technologię",
+      "heroBtnSecondary": "Odkryj Architekturę",
+      "manifestoTitle": "Gdy materiał ustępuje, system ulega awarii. <br/><span class=\"text-primary\">My nie ustępujemy.</span>",
+      "manifestoP1": "W przemysłowej inżynierii płynów zawór nigdy nie jest tylko przełącznikiem dla cieczy. To krytyczny punkt węzłowy, w którym zderzają się energia kinetyczna, ekstremalne ciśnienie, rozszerzalność cieplna i agresywność chemiczna.",
+      "manifestoP2": "To tutaj banalne masowo produkowane dobra oddzielają się od prawdziwej sztuki inżynieryjnej. Nasza armatura jest masowo przewymiarowana, produkowana z paranoiczną precyzją i budowana dla scenariuszy, które inni producenci nazwaliby \"niemożliwymi\". To właśnie rozumiemy przez <strong class=\"text-foreground font-bold\">Niemiecką Inżynierię</strong>.",
+      "scrollEyebrow": "Geneza Perfekcji",
+      "scrollTitle": "Od surowca do niezniszczalnego zaworu.",
+      "scrollLead": "Towarzysz procesowi tworzenia zaworu K-Aqua. Bezkompromisowa ścieżka przez ciepło, ciśnienie i mikroskopijną precyzję.",
+      "scroll1Title": "Nieskazitelny Surowiec",
+      "scroll1Desc": "Nasze zawory i armatura rozpoczynają swoje istnienie jako czysty, certyfikowany przemysłowo materiał o wysokiej wydajności. Dzięki rygorystycznym badaniom analitycznym widmowym gwarantujemy, jeszcze przed użyciem pierwszej głowicy frezarskiej, że absolutnie nie ma w nim mikrostrukturalnych słabych punktów. Stanowi to bezkompromisową podstawę dla późniejszej absolutnej odporności na korozję i integralności mechanicznej podczas wieloletniego ciągłego użytkowania.",
+      "scroll2Title": "Obróbka CNC o Wysokiej Precyzji",
+      "scroll2Desc": "Każdy pojedynczy element jest wycinany z litego materiału w naszym zakładzie na najnowocześniejszych 5-osiowych centrach obróbczych CNC z absurdalną tolerancją mniejszą niż jedna tysięczna milimetra. Ta bezkompromisowa precyzja zapewnia idealne przyleganie do siebie powierzchni uszczelniających. Całkowicie eliminuje to ryzyko wycieków i gwarantuje absolutnie gładkie, jedwabiście miękkie i wolne od zużycia działanie - nawet po kilkudziesięciu latach.",
+      "scroll3Title": "Przepływ bez Kawitacji",
+      "scroll3Desc": "Zawór jest tylko tak dobry, jak jego wewnętrzny profil przepływu. Korzystając z zaawansowanej obliczeniowej mechaniki płynów (CFD), zaprojektowaliśmy wewnętrzne kontury tak, aby praktycznie wyeliminować turbulencje i kawitację. Oznacza to mniejszą utratę ciśnienia w całym systemie i absolutną minimalizację hałasu nawet przy najwyższych prędkościach przepływu.",
+      "scroll4Title": "100% Kontroli Końcowej. Żadnych Wyjątków.",
+      "scroll4Desc": "Próbki losowe to za mało, gdy w grę wchodzi infrastruktura warta miliardy dolarów. Zanim zawór opuści fabrykę K-Aqua, poddawany jest w pełni zautomatyzowanemu cyklowi testowemu, który wielokrotnie przewyższa rzeczywiste obciążenia. Hydrauliczne testy wysokociśnieniowe, testy szczelności z użyciem helu w próżni oraz testy szoku termicznego gwarantują nasz legendarny współczynnik zera defektów.",
+      "showcaseEyebrow": "Anatomia Niezawodności",
+      "showcaseTitle": "Brak słabych punktów. <br/> Brak martwych punktów.",
+      "showcaseP1": "Wewnętrzna architektura naszej armatury jest konsekwentnie dostosowana do <strong>zerowej przestrzeni martwej</strong>. Strefy stagnacji, w których mogłyby namnażać się bakterie, takie jak legionella, zostały geometrycznie wyeliminowane.",
+      "showcaseP2": "Woda przepływa przez korpus zaworu w idealnie ukierunkowanym przepływie laminarnym. Solidne gniazda uszczelniające są samoczyszczące i zamykają się hermetycznie nawet po milionowym cyklu.",
+      "showcaseList1": "Certyfikowana higiena wody pitnej zgodnie z najwyższymi standardami",
+      "showcaseList2": "Hermetyczne uszczelnienie przy maksymalnym ciśnieniu roboczym",
+      "showcaseList3": "Bezobsługowe uszczelnienia wrzeciona z podwójnym O-ringiem",
+      "bentoEyebrow": "Specyfikacje",
+      "bentoTitle": "Nagie liczby przewagi.",
+      "bentoLead": "Kiedy kończą się frazesy marketingowe, przemawiają dane. Odkryj parametry techniczne, które czynią naszą armaturę ostatecznym wyborem dla megaprojektów.",
+      "bento1Title": "Ciągłe Obciążenie Ciśnieniem PN25",
+      "bento1Desc": "Opracowane z myślą o ciągłych zastosowaniach wysokociśnieniowych wykraczających poza normę. Grubości ścianek i konstrukcje gwintów są tak masywne, że nie ustępują w najmniejszym stopniu, nawet przy ekstremalnych skokach ciśnienia i uderzeniach hydraulicznych. Monolityczny blok bezpieczeństwa.",
+      "bento2Title": "Suwerenność Termiczna",
+      "bento2Desc": "Od lodowatego zimna po wrzące temperatury zasilania. Wysokiej klasy materiał zachowuje swoją pełną elastyczność, nie kruszeje i jest wyjątkowo odporny na rozszerzalność cieplną.",
+      "bento3Title": "Odporność Chemiczna",
+      "bento3Desc": "Korozja to pojęcie z przeszłości. Nasza armatura jest odporna na agresywne warunki glebowe, twardą wodę i środki dezynfekcyjne zawierające chlor. Bez rdzewienia, bez wżerów.",
+      "bento4Title": "Ergonomia Przemysłowa i Haptyka",
+      "bento4Desc": "Design łączy się z surową funkcjonalnością. Masywne pokrętła ręczne, duże dźwignie i precyzyjnie wykonane wrzeciona zapewniają natychmiastowe, namacalne i absolutnie precyzyjne sprzężenie zwrotne podczas zamykania i otwierania, nawet w ciężkich rękawicach ochronnych.",
+      "timelineEyebrow": "Ścieżka Twardości.",
+      "timelineLead": "Oś czasu bezkompromisowego zapewnienia jakości. Jak pomysł staje się legendą przemysłu.",
+      "timeline1Year": "Faza 01",
+      "timeline1Title": "Selekcja Molekularna",
+      "timeline1Text": "Wybór stopów metali i wysokowydajnych polimerów opracowanych specjalnie dla K-Aqua. Stawiamy na absolutną odporność na pełzanie i maksymalną stabilność molekularną.",
+      "timeline2Year": "Faza 02",
+      "timeline2Title": "Optymalizacja Przepływu CFD",
+      "timeline2Text": "Przy użyciu superkomputerów wewnętrzne kanały przepływowe są obliczane w tysiącach iteracji w celu zminimalizowania oporów przepływu do zera.",
+      "timeline3Year": "Faza 03",
+      "timeline3Title": "Test Wytrzymałościowy w Komorze Klimatycznej",
+      "timeline3Text": "Prototypy przechodzą wielomiesięczne testy wytrzymałościowe w naszych komorach klimatycznych w temperaturze do 120°C, ciśnieniu 25 barów i przy użyciu ekstremalnych roztworów chemicznych.",
+      "timeline4Year": "Faza 04",
+      "timeline4Title": "Zautomatyzowana Produkcja Seryjna",
+      "timeline4Text": "Przejście na naszą wysoce zautomatyzowaną linię produkcyjną Przemysłu 4.0. Osiągamy maksymalną powtarzalność przy minimalnych tolerancjach bez czynnika ludzkiego.",
+      "timeline5Year": "Faza 05",
+      "timeline5Title": "Globalne Wdrożenie",
+      "timeline5Text": "Wdrażanie na najbardziej krytycznych placach budowy na świecie – od pustynnych megaprojektów po instalacje przybrzeżne. Przy wsparciu naszego zespołu inżynierów terenowych.",
+      "finalTitle": "Buduj dla pokoleń. <br/>Nie na kolejny przegląd.",
+      "finalDesc": "W świecie, w którym coraz częściej stawia się na szybkie starzenie się produktów i tanie zamienniki, my stanowimy stalową przeciwwagę. Zawór K-Aqua instaluje się – i zapomina. Ponieważ po prostu działa. Dekada po dekadzie. Zaufaj prawdziwemu autorytetowi w przemyśle.",
+      "ctaTitle": "Gotowy na absolutną kontrolę?",
+      "ctaDesc": "Porozmawiaj z naszymi głównymi inżynierami o specyfikacjach swojego kolejnego megaprojektu. Dostarczamy rozwiązania problemów, których inni jeszcze nawet nie zrozumieli.",
+      "ctaBtnPrimary": "Poproś o Konsultacje Techniczne",
+      "ctaBtnSecondary": "Specyfikacje w PDF"
+    },
+    "category": {
+      "allProducts": "Wszystkie produkty",
+      "openInFinder": "Otwórz w Wyszukiwarce",
+      "artNA": "Art. N/D",
+      "viewDetails": "Pokaż szczegóły",
+      "learnMoreKnowledge": "Dowiedz się więcej w K-Aqua Wiedza",
+      "learnMoreDesc": "Zanurz się głębiej w dokumentację techniczną i odkryj artykuły specjalistyczne na temat instalacji, zrównoważonego rozwoju i certyfikacji naszych systemów.",
+      "toKnowledgeBase": "Do Bazy Wiedzy"
+    },
+    "fittings": {
+      "meta": {
+        "title": "Kształtki i Złączki | K-Aqua",
+        "desc": "Kształtki i Złączki K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów."
+      },
+      "hero": {
+        "eyebrow": "Niemiecka Inżynieria",
+        "title1": "Kształtki i Złączki.",
+        "title2": "Absolutna Perfekcja.",
+        "desc": "Ten moduł zapewnia bezkompromisowe bezpieczeństwo dla najbardziej wymagających projektów na całym świecie. Produkowany zgodnie z najbardziej rygorystycznymi normami branżowymi, aby przetrwać pokolenia. Gdzie awaria materiału nie wchodzi w grę, tam zaczyna się K-Aqua.",
+        "ctaPrimary": "Złóż zapytanie o projekt",
+        "ctaSecondary": "Specyfikacje techniczne"
+      },
+      "intro": {
+        "eyebrow": "Autorytet Przemysłowy",
+        "title": "Bezpieczeństwo to nie przypadek. Jest obliczalne.",
+        "lead": "Kiedy międzynarodowi główni wykonawcy planują projekty o wartości miliardów dolarów, nie ufają obietnicom, ale twardym faktom. Wyznaczamy standardy, za którymi podąża reszta świata.",
+        "text1": "Od dziesięcioleci łączymy dumę z rzemiosła z najnowocześniejszą, wysoce zautomatyzowaną technologią produkcji w naszym głównym zakładzie w sercu Niemiec. Każde kolano, każda mufa, każdy trójnik nosi w sobie niezaprzeczalne DNA niemieckiej inżynierii. Nasz materiał, stosowany na najsurowszych pustyniach, w najbardziej ekstremalnych strefach klimatycznych i w najbardziej wymagających obiektach przemysłowych na świecie, codziennie udowadnia swoją wartość.",
+        "text2": "Połączenie makrocząsteczek w naszym systemie PP-R tworzy sieć rurociągów bez słabych punktów. Nie ma pierścieni uszczelniających, które mogłyby korodować, ani połączeń klejonych, które mogłyby zostać zaatakowane przez chemikalia. Rura i kształtka są termicznie łączone w jeden nierozerwalny element. To jest absolutna definicja bezpieczeństwa."
+      },
+      "sticky": {
+        "eyebrow": "Architektura Perfekcji",
+        "title": "Anatomia Niezawodności.",
+        "lead": "Głębokie zanurzenie we właściwości fizyczne i chemiczne, które sprawiają, że nasze kształtki są globalnym punktem odniesienia.",
+        "items": {
+          "0": {
+            "title": "Struktura molekularna",
+            "desc": "Nasze kształtki bazują na wysoce usieciowanym kopolimerze statystycznym polipropylenu PP-R. Dzięki kontrolowanym profilom temperatury i ciśnienia podczas wytłaczania uzyskujemy izotropową strukturę krystaliczną. Rezultat: Niespotykana odporność na pęknięcia naprężeniowe i ekstremalne wahania temperatury."
+          },
+          "1": {
+            "title": "Precyzja Termoplastyczna",
+            "desc": "Każda wypraska przechodzi przez proces formowania wtryskowego tworzyw termoplastycznych z tolerancjami gniazda w zakresie mikrometrów. Gwarantuje to, że wskaźniki szybkości płynięcia podczas spawania z naszymi rurami są absolutnie identyczne – zapewniając jednorodne, nierozłączne i w 100% szczelne połączenie materiałów."
+          },
+          "2": {
+            "title": "Tolerancja Zero Błędów",
+            "desc": "Nie zostawiamy niczego przypadkowi. Korzystając z ultradźwiękowego pomiaru grubości ścianki, hydrostatycznych prób pełzania pod ciśnieniem wewnętrznym oraz DSC (różnicowej kalorymetrii skaningowej), każda partia jest analizowana. Do użytku dopuszczany jest tylko materiał, który przewyższa nasze wewnętrzne standardy – znacznie wyższe niż DIN EN ISO 15874."
+          },
+          "3": {
+            "title": "Odporność na Kawitację",
+            "desc": "Zoptymalizowana pod kątem przepływu geometria wewnętrzna naszych kształtek skutecznie zapobiega spadkom ciśnienia i kawitacji, nawet przy ekstremalnych prędkościach przepływu w pionach przemysłowych. Minimalizuje to emisję hałasu i chroni system przed zużyciem ściernym od wewnątrz."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Dane Wydajnościowe",
+        "title": "Specyfikacje wykraczające poza normę.",
+        "lead": "Podczas gdy branża traktuje normy jako cel, my postrzegamy je jedynie jako absolutne minimum.",
+        "items": {
+          "0": {
+            "title": "DIN EN ISO 15874",
+            "desc": "Pełna zgodność i certyfikacja dla systemów rur z tworzyw sztucznych do instalacji ciepłej i zimnej wody."
+          },
+          "1": {
+            "title": "PN 20 / PN 25",
+            "desc": "Zaprojektowane do stałych obciążeń wysokociśnieniowych nawet w temperaturach krytycznych."
+          },
+          "2": {
+            "title": "Obojętność Chemiczna",
+            "desc": "Znakomita odporność na agresywne media. Niezależne od pH (pH 1 do 14) do zastosowań przemysłowych."
+          },
+          "3": {
+            "title": "Tłumienie Akustyczne",
+            "desc": "Właściwa elastyczność materiału PP-R absorbuje hałas materiałowy i redukuje hałas przepływu do absolutnego minimum, co jest idealnym rozwiązaniem dla luksusowych hoteli i szpitali."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Proces Genesis",
+        "desc": "Od molekularnej masy surowcowej do niezniszczalnego komponentu. Spojrzenie na naszą wysoce zautomatyzowaną matrycę produkcyjną.",
+        "items": {
+          "0": {
+            "year": "Krok 01",
+            "title": "Selekcja Granulatu",
+            "text": "Tylko granulat polipropylenowy o wysokiej czystości, wstępnie zsyntetyzowany, pochodzący z wiodących europejskich rafinerii przechodzi naszą kontrolę dostaw."
+          },
+          "1": {
+            "year": "Krok 02",
+            "title": "Kondycjonowanie Termiczne",
+            "text": "Przed formowaniem wtryskowym granulat jest stabilizowany termicznie w celu wyeliminowania resztkowej wilgoci i zagwarantowania jednorodnego stopu."
+          },
+          "2": {
+            "year": "Krok 03",
+            "title": "Wtrysk Wysokociśnieniowy",
+            "text": "W w pełni zautomatyzowanych, wspomaganych robotami gniazdach formowania wtryskowego, pod ogromnym ciśnieniem kształtujemy materiał w nieskazitelne kształtki."
+          },
+          "3": {
+            "year": "Krok 04",
+            "title": "Matryca Chłodząca",
+            "text": "Komputerowo kontrolowany profil chłodzenia zapobiega powstawaniu naprężeń wewnętrznych w materiale i zapewnia idealną stabilność wymiarową."
+          },
+          "4": {
+            "year": "Krok 05",
+            "title": "Certyfikacja i Logistyka",
+            "text": "Każda partia otrzymuje swój cyfrowy certyfikat. Gotowe do wysyłki na najbardziej wymagające place budowy na świecie."
+          }
+        }
+      },
+      "depth": {
+        "title": "Żywotność > 50 lat. Gwarantowana.",
+        "text": "Czas to ostateczny test obciążeniowy dla każdego materiału. Nasze kształtki są zaprojektowane tak, aby przetrwać czas eksploatacji samego budynku. Poprzez dodanie specjalnych przeciwutleniaczy i stabilizatorów termicznych do naszej matrycy PP-R, starzenie termiczno-oksydacyjne jest znacznie opóźnione. Nawet przy ciągłej temperaturze zasilania 70°C i obciążeniu ciśnieniem 10 bar gwarantujemy żywotność ponad pół wieku. To nie jest marketing. To jest stosowana fizyka polimerów.",
+        "badge": "W 100% Bezobsługowe"
+      },
+      "cta": {
+        "title": "Gotowy na bezkompromisową jakość?",
+        "desc": "Skontaktuj się z naszym zespołem inżynierów. Dostarczamy nie tylko produkty, zapewniamy bezpieczeństwo dla Twojego kolejnego megaprojektu.",
+        "primary": "Skontaktuj się z Pomocą Techniczną",
+        "secondary": "Zobacz Pełen Asortyment"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "Systemy rurowe PP-R i PP-RCT | K-Aqua",
+        "desc": "Wysokowydajne systemy rurowe z PP-R i PP-RCT. Niemiecka inżynieria dla wody pitnej, klimatu i przemysłu. Bezkompromisowe bezpieczeństwo megaprojektów."
+      },
+      "hero": {
+        "eyebrow": "Systemy rurowe K-Aqua",
+        "title1": "Podstawa",
+        "title2": "nowoczesną infrastrukturę.",
+        "desc": "Kiedy generalni wykonawcy planują ratunek dla projektów wartych miliardy dolarów, polegają na K-Aqua. Nasze wysoko usieciowane rury PP-R i PP-RCT zapewniają całkowitą wolność od korozji, w 100% jednorodne połączenia spawane i gwarantowaną żywotność ponad 50 lat.",
+        "ctaPrimary": "Poproś o projekt",
+        "ctaSecondary": "Karty danych technicznych"
+      },
+      "sticky": {
+        "eyebrow": "Nauka o materiałach",
+        "title": "Inżynieria polimerowa do perfekcji.",
+        "lead": "Struktura molekularna naszych rur PP-R i PP-RCT została zoptymalizowana pod kątem ekstremalnych obciążeń termomechanicznych. Arcydzieło niemieckiej inżynierii.",
+        "items": {
+          "0": {
+            "title": "Architektura wielowarstwowa PP-RCT",
+            "desc": "Nasze najnowszej generacji rury PP-RCT (kopolimery polipropylenowe o zmodyfikowanej krystaliczności i odporności na temperaturę) mają zintegrowaną warstwę związku włókna szklanego. Zmniejsza to liniową rozszerzalność cieplną nawet o 75% w porównaniu do standardowych rur PP-R, jednocześnie drastycznie zwiększa się odporność na ciśnienie w wysokich temperaturach. Rezultatem są cieńsze ścianki i zwiększona przepustowość."
+          },
+          "1": {
+            "title": "Jednorodne spawanie",
+            "desc": "W odróżnieniu od złączy zaciskowych czy połączeń klejonych stosujemy proces zgrzewania polifuzyjnego. Rury i kształtki łączą się w temperaturze 260°C, tworząc pojedynczą, nierozłączną całość molekularną. System działa całkowicie bez O-ringów i uszczelnień mechanicznych. Miejsce połączenia jest fizycznie mocniejsze niż sama rura - gwarantowana jest 100% szczelność użytkowania."
+          },
+          "2": {
+            "title": "Całkowita wolność od korozji",
+            "desc": "Systemy metaliczne kapitulują przed agresywnymi właściwościami wody, niskimi wartościami pH lub wysoką zawartością chlorków. Rury polimerowe K-Aqua są całkowicie obojętne. Wżery, korozja szczelinowa, korozja galwaniczna lub inkrustacje są fizycznie niemożliwe. Utrata tarcia rury (wartość chropowatości k=0,007 mm) nawet po 50 latach eksploatacji utrzymuje się na tym samym poziomie co pierwszego dnia, co znacząco zmniejsza energię pompy."
+          },
+          "3": {
+            "title": "Izolacja termiczna i akustyczna",
+            "desc": "Dzięki niskiej przewodności cieplnej PP-R (0,24 W/mK) w porównaniu ze stalą (50 W/mK) czy miedzią (380 W/mK) powstawanie kondensatu w układach chłodniczych jest znacznie opóźnione, a straty ciepła w układach grzewczych zminimalizowane. Ponadto nasze grubościenne rury polimerowe skutecznie pochłaniają hałas przepływu i uderzenia wodne, poprawiając komfort akustyczny w wieżowcach i hotelach."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Zerowa tolerancja błędów",
+        "items": {
+          "0": {
+            "year": "Poziom 01",
+            "title": "Surowiec premium",
+            "text": "Przetwarzamy wyłącznie granulaty PP-R i PP-RCT o wysokiej czystości od wiodących światowych producentów polimerów. Każda partia przechodzi test MFR (wskaźnik szybkości płynięcia) i pomiar czasu indukcji utleniania (OIT) w naszym wewnętrznym laboratorium przed dopuszczeniem do wytłaczania."
+          },
+          "1": {
+            "year": "Poziom 02",
+            "title": "Precyzyjne wytłaczanie",
+            "text": "Nasze najnowocześniejsze systemy wytłaczania produkują 3-warstwowe rury kompozytowe z włókien z precyzją mikrometryczną. Ultradźwiękowy pomiar grubości ścianki w czasie rzeczywistym w zakresie 360° gwarantuje, że nawet w przypadku rur SDR 6 nie zostaną zachowane minimalne dopuszczalne tolerancje."
+          },
+          "2": {
+            "year": "Poziom 03",
+            "title": "Kondycjonowanie termiczne",
+            "text": "Bezpośrednio po wytłoczeniu rury są stopniowo schładzane w specjalnie hartowanych łaźniach wodnych. Ten delikatny proces chłodzenia zapobiega naprężeniom wewnętrznym w materiale i zapewnia maksymalną stabilność wymiarową we wszystkich wymiarach."
+          },
+          "3": {
+            "year": "Poziom 04",
+            "title": "100% identyfikowalność",
+            "text": "Każda tuba otrzymuje nieusuwalny nadruk laserowy z dokładnymi informacjami o partii i czasie produkcji. Nawet po kilkudziesięciu latach spędzonych w ścianie pochodzenie każdej rury K-Aqua można całkowicie prześledzić wstecz do partii granulatu."
+          },
+          "4": {
+            "year": "Poziom 05",
+            "title": "Certyfikacja i wydanie",
+            "text": "Hydrauliczna próba ciśnienia rozrywającego w temperaturze 95°C przez 1000 godzin. Próby rozciągania, udarność z karbem i badania bezpieczeństwa toksykologicznego. Dopiero gdy produkt przekracza wszelkie normy (DIN 8077/8078, EN ISO 15874) opuszcza nasz warsztat."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Dane techniczne",
+        "title": "Wymiary spełniające każde wymagania.",
+        "lead": "Skalowalność od przyłączy domowych d20 do pionów przemysłowych d500. Nasz system rozrasta się wraz z wymiarami Twojego projektu.",
+        "items": {
+          "0": {
+            "title": "Wymiary od d20 do d500",
+            "desc": "Pełna oferta rur i kształtek. Niezależnie od tego, czy chodzi o trójniki, redukcje czy połączenia kołnierzowe o gigantycznych wymiarach – dostarczamy kompletny system z jednego źródła. Żadnych kompromisów, jeśli chodzi o hydraulikę."
+          },
+          "1": {
+            "title": "Klasy SDR od 6 do 11",
+            "desc": "Dostosowane poziomy ciśnienia (PN10 do PN25) dzięki różnym standardowym stosunkom wymiarów. Optymalizuj zużycie i przepływ materiałów."
+          },
+          "2": {
+            "title": "Higiena wody pitnej",
+            "desc": "Spełnia najsurowsze normy europejskie (UBA, DVGW). Całkowicie bezpieczny dla żywności, bez smaku i zapachu. Opcjonalna antybakteryjna powłoka wewnętrzna."
+          },
+          "3": {
+            "title": "Rury zewnętrzne odporne na promieniowanie UV",
+            "desc": "Oferujemy specjalne rury stabilizowane promieniami UV do instalacji zewnętrznych w ekstremalnych strefach klimatycznych (np. Bliski Wschód). Ochronna warstwa zewnętrzna blokuje promieniowanie UV i zapobiega degradacji polimeru."
+          }
+        }
+      },
+      "cta": {
+        "title": "Pozwól ekspertom ocenić Twój projekt.",
+        "desc": "Prześlij nam swoje izometrie lub plany P&ID. Nasz zespół inżynierów zajmuje się obliczeniami hydraulicznymi i tworzeniem zestawień materiałowych dla Twojego dużego projektu.",
+        "primary": "Skontaktuj się z pomocą techniczną"
+      }
+    },
+    "hero": {
+      "eyebrow": "ARCHITEKTURA SYSTEMU",
+      "title1": "K-AQUA: ABSOLUT",
+      "title2": "ARCHITEKTURA WODY.",
+      "desc": "Precyzja na poziomie molekularnym. Zaprojektowany, aby przetrwać. Nasze systemy rur, armatura i zawory wyznaczają światowy standard dla przemysłowej i cywilnej infrastruktury wodnej. Żadnych kompromisów. Po prostu czysta wydajność."
+    },
+    "sticky": {
+      "eyebrow": "OFERTA PRODUKTÓW",
+      "title": "BEZKOMPROMISOWA INŻYNIERIA.",
+      "lead": "Każdy komponent jest częścią zamkniętego, doskonałego systemu. Od wlotu do punktu końcowego kontrolujemy przepływ wody, chemikaliów i gazów z niesłabnącą niezawodnością.",
+      "items": {
+        "0": {
+          "title": "SYSTEMY RUR PPR: NIEZNISZCZALNE ŻYŁY",
+          "desc": "System K-Aqua PPR (kopolimer losowy polipropylenu) jest podstawą nowoczesnego transportu cieczy. Połączony termicznie w jednorodną całość, jest odporny na ekstremalne ciśnienia, ataki chemiczne i naprężenia termiczne. System, który nie przecieka, nie koroduje i działa przez dziesięciolecia."
+        },
+        "1": {
+          "title": "OKUCIA: DOSKONAŁOŚĆ GEOMETRYCZNA",
+          "desc": "Każda armatura K-Aqua jest arcydziełem mechaniki płynów. Zredukowana kawitacja, zoptymalizowane grubości ścianek i dokładne tolerancje w zakresie mikrometrów gwarantują minimalne straty ciśnienia i maksymalne bezpieczeństwo systemu. Nie zostawiamy rzeki przypadkowi."
+        },
+        "2": {
+          "title": "ZAWORY I ARMATURA: PEŁNA KONTROLA",
+          "desc": "Przemysłowa technologia izolacji i sterowania, która działa w najcięższych warunkach na całym świecie. Nasze zawory kulowe, zawory kątowe i zawory zwrotne są testowane przez dziesiątki tysięcy cykli bez utraty wydajności. Maksymalna szczelność przy maksymalnym obciążeniu."
+        },
+        "3": {
+          "title": "RURY KOMPOZYTOWE: SYNERGIA MATERIAŁÓW",
+          "desc": "Aluminium spotyka się z wysokowydajnym polimerem. Rury wielowarstwowe K-Aqua łączą w sobie stabilność mechaniczną metalu z elastycznością i odpornością chemiczną tworzywa sztucznego. 100% szczelne dla tlenu. Minimalna rozszerzalność liniowa. Najlepsze rozwiązanie dla złożonych systemów HVAC."
+        }
+      }
+    },
+    "bento": {
+      "eyebrow": "DANE WYDAJNOŚCIOWE",
+      "title": "WYŻSZOŚĆ TECHNOLOGICZNA. OPARTE NA DANYCH.",
+      "lead": "Systemy K-Aqua to nie tylko rury – to wysokowydajne sieci do cieczy. Opracowane zgodnie z najsurowszymi niemieckimi standardami branżowymi.",
+      "items": {
+        "0": {
+          "title": "Fuzja termiczna",
+          "desc": "Jednorodne szwy spawalnicze. Materiał staje się jednym. Bez kleju i bez pierścieni uszczelniających, które mogłyby ulec awarii. 100% zabezpieczenia przed wyciekami na poziomie molekularnym."
+        },
+        "1": {
+          "title": "Odporność na korozję",
+          "desc": "Całkowicie odporny na wżery, rdzę i korozję elektrochemiczną. Transportowane medium pozostaje w najczystszym stanie."
+        },
+        "2": {
+          "title": "Optymalizacja przepływu",
+          "desc": "Technologia gładkich ścian (chropowatość 0,007 mm) przy minimalnym współczynniku tarcia zapobiega osadzaniu się osadów i znacznie minimalizuje straty ciśnienia."
+        },
+        "3": {
+          "title": "Odporność na ciśnienie PN25+",
+          "desc": "Zaprojektowane z myślą o maksymalnym zastosowaniu w wieżowcach, obiektach przemysłowych i infrastrukturze krytycznej. Zaprojektowane z myślą o bezawaryjnej pracy przez ponad 50 lat."
+        }
+      }
+    },
+    "timeline": {
+      "title": "PROCES INSTALACJI. Zdefiniowane na nowo.",
+      "desc": "Szybciej. Bezpieczniej. Odkurzacz. Nasz system radykalnie skraca czas instalacji, ograniczając jednocześnie źródła błędów do minimum. Chronologia efektywności.",
+      "items": {
+        "0": {
+          "year": "FAZA 01",
+          "title": "PLANOWANIE I WYMIAROWANIE",
+          "text": "Dokładne obliczenia hydrauliczne i projektowanie średnic rur. Unikanie przewymiarowania dzięki doskonałym właściwościom płynięcia."
+        },
+        "1": {
+          "year": "FAZA 02",
+          "title": "CIĘCIE I PRZYGOTOWANIE",
+          "text": "Cięcie rur na zimno i bez wiórów. Absolutnie czyste krawędzie cięcia gwarantują doskonałe przygotowanie do spawania bez ryzyka zanieczyszczenia."
+        },
+        "2": {
+          "year": "FAZA 03",
+          "title": "SPAWANIE GNIAZD ELEMENTÓW GRZEJNYCH",
+          "text": "Narzędzie nagrzewa rurę i kształtkę do dokładnie 260°C. W ciągu kilku sekund powstaje połączenie molekularne, którego nie można złamać."
+        },
+        "3": {
+          "year": "FAZA 04",
+          "title": "PRÓBA CIŚNIENIOWA I ODBIÓR",
+          "text": "System jest poddawany ekstremalnemu ciśnieniu testowemu. Brak tolerancji dla wycieków. K-Aqua zapewnia 100% bezpieczeństwa już od pierwszego upadku."
+        },
+        "4": {
+          "year": "FAZA 05",
+          "title": "DZIAŁANIE OD DEKAD",
+          "text": "Bezobsługowy. Niski poziom hałasu. System działa za kulisami najnowocześniejszych budynków świata z niesłabnącą niezawodnością."
+        }
+      }
+    },
+    "sysLead": "Fundament naszego katalogu – cztery filary integracji systemów.",
+    "transitionFittings": {
+      "meta": {
+        "title": "Przejścia (łączniki przejściowe) | K-Aqua",
+        "desc": "Przejścia K-Aqua – absolutna najwyższej klasy łączność hybrydowa. Kiedy metal o wysokiej wytrzymałości spotyka się z innowacyjnym tworzywem sztucznym. Inżynieria niemiecka."
+      },
+      "hero": {
+        "eyebrow": "Mistrzostwo hybrydy",
+        "title1": "Przejścia.",
+        "title2": "Absolutny standard.",
+        "desc": "Idealne połączenie mosiądzu o wysokiej wytrzymałości, odpornego na odcynkowanie i zaawansowanego PP-RCT. Zaprojektowane do środowisk, w których zmęczenie materiału byłoby katastrofalne. Zaprojektowane w Niemczech na zawsze.",
+        "ctaPrimary": "Poproś o projekt",
+        "ctaSecondary": "Szczegóły inżynieryjne"
+      },
+      "intro": {
+        "eyebrow": "Wyzwanie",
+        "title": "Gdzie zderzają się światy.",
+        "lead": "Przejście ze sztywnych systemów rur metalowych na nowoczesne sieci z tworzyw termoplastycznych to nerw achillesowy każdego budynku i instalacji przemysłowej. Działają tu maksymalne termiczne i mechaniczne siły ścinające."
+      },
+      "sticky": {
+        "eyebrow": "Głęboka technologia",
+        "title": "Anatomia niezniszczalności.",
+        "lead": "Nie postrzegamy łącznika przejściowego jako akcesorium, ale raczej jako bardzo złożony instrument mechaniczny. Każdy milimetr grubości ścianki i każdy gwint jest wynikiem niezliczonych analiz metodą elementów skończonych (FEA).",
+        "items": {
+          "0": {
+            "title": "Symbioza metalu i polimeru",
+            "desc": "Nasze złączki przejściowe łączą w sobie niesłabnącą wytrzymałość mechaniczną odpornego na odcynkowanie mosiądzu CW617N z obojętnością chemiczną PP-RCT. To połączenie materiału nie następuje poprzez proste prasowanie, ale poprzez termomechaniczny proces formowania wtryskowego, który pozwala uzyskać nierozłączne połączenie molekularne."
+          },
+          "1": {
+            "title": "Ekstremalne skręcanie i moment obrotowy",
+            "desc": "Krytycznym kryterium awarii standardowych złączek jest przeciążenie momentem obrotowym podczas instalacji. Przejścia K-Aqua integrują opatentowany sześciokątny profil kotwiący w plastikowej osłonie. Wynik: ponad 300 Nm gwarantowana odporność na skręcanie bez rozwarstwiania warstwy granicznej."
+          },
+          "2": {
+            "title": "Współczynniki rozszerzalności cieplnej w równowadze",
+            "desc": "Metale i tworzywa sztuczne rozszerzają się inaczej pod wpływem wahań temperatury (Δα). Dzięki precyzyjnie obliczonym mikrodylatacjom we wkładce mosiężnej nasze złączki kompensują ekstremalne wstrząsy od -20°C do +95°C w ciągu milisekund - absolutnie bez wycieków."
+          },
+          "3": {
+            "title": "Kontrola jakości z zerową tolerancją",
+            "desc": "Każdy komponent hybrydowy przechodzi w pełni zautomatyzowany test szczelności helem i optyczny pomiar 3D. Jeśli wartość graniczna 10^-5 mbar·l/s zostanie naruszona choćby w niewielkim stopniu, nasz system rygorystycznie wyklucza tę część. German Engineering nie toleruje kompromisów."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Dane techniczne",
+        "title": "Architektura wydajności.",
+        "lead": "Planując megaprojekty z dziesiątkami tysięcy połączeń, najważniejszym ROI jest odporność statystyczna. K-Aqua zapewnia Ci tego fizyczną gwarancję.",
+        "items": {
+          "0": {
+            "title": "Rdzeń mosiężny DZR",
+            "desc": "Mosiądz odporny na odcynkowanie gatunku CW617N (wg DIN EN 12164) eliminuje ryzyko selektywnej korozji w wodzie o agresywnych właściwościach."
+          },
+          "1": {
+            "title": "Konstrukcja zapobiegająca obracaniu się",
+            "desc": "Wielokątne podcięcia tworzą geometryczny zamek, który przejmuje ekstremalne momenty dokręcania bez obciążania plastikowej osłony."
+          },
+          "2": {
+            "title": "Głęboko tłoczona nić",
+            "desc": "Gwinty stożkowe i cylindryczne ISO 7/1 lub ISO 228, nacinane maszynowo z tolerancją ±0,01mm dla doskonałej szczelności."
+          },
+          "3": {
+            "title": "Matryca PP-RCT",
+            "desc": "Wysoce krystaliczna struktura naszego bezładnego kopolimeru polipropylenu zapewnia wyjątkową długoterminową wytrzymałość na pełzanie w wysokich temperaturach."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Cykl produkcyjny",
+        "desc": "Zajrzyj do naszej fabryki. Droga od surowca do certyfikowanego złącza hybrydowego to orkiestra ciepła, ciśnienia i bezlitosnej precyzji.",
+        "items": {
+          "0": {
+            "year": "Faza 1",
+            "title": "Obróbka półfabrykatu (CW617N)",
+            "text": "Mosiądz jest prasowany w bardzo precyzyjne matryce w temperaturze 750°C, a następnie poddawany jest sterowanej numerycznie obróbce skrawaniem w zakresie mikrometrów w celu utworzenia profilu uszczelniającego."
+          },
+          "1": {
+            "year": "Faza 2",
+            "title": "Pasywacja powierzchni",
+            "text": "W celu wyeliminowania korozji galwanicznej wkładki gwintowe poddawane są wieloetapowemu procesowi pasywacji w elektrolitycznych kąpielach ultradźwiękowych."
+          },
+          "2": {
+            "year": "Faza 3",
+            "title": "Formowanie wtryskowe",
+            "text": "We wtryskarkach wysokociśnieniowych (2000 barów) stopiony PP-RCT otacza mosiądz. Plastik całkowicie wypełnia każde podcięcie."
+          },
+          "3": {
+            "year": "Faza 4",
+            "title": "Kontrolowane chłodzenie",
+            "text": "Programowane, stopniowe obniżanie temperatury zapobiega naprężeniom wewnętrznym w siatce z tworzywa sztucznego i zapewnia koncentryczny kształt kształtki."
+          },
+          "4": {
+            "year": "Faza 5",
+            "title": "Testy ciśnieniowe i skręcające",
+            "text": "Losowe testy na rozerwanie do 120 barów oraz testy zmęczeniowe symulują 50 lat najbardziej agresywnych obciążeń przemysłowych."
+          }
+        }
+      },
+      "stats": {
+        "eyebrow": "Certyfikaty i parametry",
+        "title": "Twarde fakty.",
+        "lead": "Nie tylko testujemy według standardów. Definiujemy je. Nasze wewnętrzne protokoły testów przewyższają wymagania DVGW, SKZ i ISO nawet o 300%.",
+        "items": {
+          "0": {
+            "label": "Ciśnienie robocze (PN)",
+            "value": "Do 25 barów",
+            "sub": "W wodzie o temperaturze 20°C"
+          },
+          "1": {
+            "label": "Spektrum temperatur",
+            "value": "-20°C do +95°C",
+            "sub": "Obciążenie szczytowe do 110°C"
+          },
+          "2": {
+            "label": "Standardy gwintów",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Gwint wewnętrzny i gwint zewnętrzny"
+          },
+          "3": {
+            "label": "Cykl życia",
+            "value": "> 50 lat",
+            "sub": "W warunkach przemysłowych"
+          },
+          "4": {
+            "label": "Stop mosiądzu",
+            "value": "CW617N/CW614N",
+            "sub": "Nie zawiera DZR / odcynkowania"
+          },
+          "5": {
+            "label": "plastikowy",
+            "value": "PP-RCT/PP-R",
+            "sub": "Certyfikat wody pitnej"
+          },
+          "6": {
+            "label": "Zgodność z wodą pitną",
+            "value": "UBA, DVGW",
+            "sub": "Opcje w 100% bezołowiowe"
+          },
+          "7": {
+            "label": "Zapewnienie jakości",
+            "value": "ISO 9001:2015",
+            "sub": "100% śledzenie partii"
+          }
+        }
+      },
+      "cta": {
+        "title": "Najsilniejsze połączenie w Twoim projekcie.",
+        "desc": "Zaufaj sprawdzonej niemieckiej inżynierii. Skontaktuj się z nami, aby uzyskać karty techniczne, modele BIM lub indywidualne porady projektowe.",
+        "primary": "Rozpocznij żądanie projektu",
+        "secondary": "CAD i specyfikacje"
+      }
+    }
   },
   "solutions": {
     "eyebrow": "Solutions",
@@ -510,7 +1109,415 @@
     "nextEyebrow": "Next Step",
     "nextTitle": "From material to system.",
     "nextLead": "See how these material benefits become concrete in the K-Aqua product range.",
-    "nextCta": "To the product range"
+    "nextCta": "To the product range",
+    "krankenhaus": {
+      "sticky": {
+        "items": {
+          "0": {
+            "title": "Zapobieganie legionelli na poziomie molekularnym",
+            "desc": "W krytycznej infrastrukturze szpitalnej higiena wody nie jest opcją, ale kwestią przetrwania. Nasze systemy rur K-Aqua wykorzystują wyjątkowo gładkie, pozbawione porów powierzchnie wewnętrzne, które fizycznie zapobiegają tworzeniu się biofilmów i namnażaniu Legionelli. Niemiecka inżynieria oznacza tutaj: zapobieganie poprzez doskonałą inżynierię materiałową, a nie poprzez chemiczną obróbkę końcową."
+          },
+          "1": {
+            "title": "Dezynfekcja termiczna bez zmęczenia materiału",
+            "desc": "Standardy kliniczne wymagają regularnej dezynfekcji termicznej w temperaturach powyżej 70°C. Podczas gdy konwencjonalne systemy szybko się starzeją, system K-Aqua PPR został zaprojektowany tak, aby wytrzymywał ekstremalne obciążenia termiczne przez dziesięciolecia. Żadnych mikropęknięć, żadnej kruchości, żadnych kompromisów."
+          },
+          "2": {
+            "title": "Absolutnie sterylne połączenia",
+            "desc": "Nasze opatentowane zgrzewanie kielichów elementów grzejnych łączy rurę i kształtkę w jednorodną, ​​całkowicie bezspoinową całość. Nie ma martwych przestrzeni, w których mogłaby gromadzić się stojąca woda. Rezultatem jest system rur wykonany z jednego kawałka – absolutna fizyczna bariera przed zanieczyszczeniami."
+          },
+          "3": {
+            "title": "Izolacja akustyczna oddziałów intensywnej terapii",
+            "desc": "Hałas jest ogromnym czynnikiem stresującym dla pacjentów i personelu medycznego. System K-Aqua ma nieodłączne właściwości dźwiękochłonne. Hałasy przepływu i skoki ciśnienia są pochłaniane przez sam materiał, co gwarantuje cichą dostawę wody nawet w zastosowaniach wysokociśnieniowych – co jest niezbędne na salach operacyjnych i oddziałach intensywnej terapii."
+          }
+        }
+      },
+      "timeline": {
+        "items": {
+          "0": {
+            "year": "Faza 01",
+            "title": "Rozmiar systemu i hydraulika",
+            "text": "Precyzyjne obliczanie przekrojów kabli w celu uniknięcia stref stagnacji. Każdy milimetr utraty ciśnienia jest symulowany i eliminowany przez naszych niemieckich inżynierów na cyfrowym bliźniaku na etapie planowania."
+          },
+          "1": {
+            "year": "Faza 02",
+            "title": "Specyfikacja materiału",
+            "text": "Wybór konkretnych mieszanek polimerów K-Aqua, zoptymalizowanych pod kątem wymagań klinicznych. Nasze surowce przechodzą 42 etapy kontroli jakości, zanim w ogóle dotrą do wytłaczarki."
+          },
+          "2": {
+            "year": "Faza 03",
+            "title": "Prefabrykacja i obsługa pomieszczeń czystych",
+            "text": "Wstępny montaż skomplikowanych dystrybutorów w kontrolowanych środowiskach. Minimalizacja szwów spawalniczych na budowie gwarantuje do 40% szybszy i bezbłędny montaż w warunkach clean room."
+          },
+          "3": {
+            "year": "Faza 04",
+            "title": "Uruchomienie i certyfikacja",
+            "text": "Pełna próba ciśnienia hydrostatycznego i wstępna dezynfekcja termiczna. Przekazanie generalnemu wykonawcy następuje z kompletną, cyfrową dokumentacją każdego pojedynczego szwu spawalniczego."
+          },
+          "4": {
+            "year": "Faza 05",
+            "title": "50 lat swobody konserwacji",
+            "text": "Po uruchomieniu system znika w ścianie i wykonuje swoją pracę cicho i całkowicie niezawodnie – gwarancja na co najmniej 50 lat bez zmęczenia materiału."
+          }
+        }
+      },
+      "hero": {
+        "eyebrow": "Infrastruktura o znaczeniu krytycznym",
+        "title1": "Szpitale.",
+        "title2": "Zerowa tolerancja błędów.",
+        "desc": "W przypadku maksymalnej opieki medycznej infrastruktura decyduje o życiu i śmierci. K-Aqua zapewnia hydrologiczny układ nerwowy dla najbardziej zaawansowanych megaprojektów klinicznych na świecie. Wyprodukowano w Niemczech. Zbudowany, aby przetrwać.",
+        "cta1": "Doradztwo inżynieryjne",
+        "cta2": "Pobierz dane BIM"
+      },
+      "intro": {
+        "title": "Gdzie kropla wody <br className=\"hidden md:block\"/> powoduje załamanie się systemu.",
+        "desc": "Generalni wykonawcy w przypadku projektów szpitalnych stają przed nierozwiązalnym paradoksem: ogromna presja czasu podczas budowy spełnia najsurowsze wymagania higieniczne w historii ludzkości. Pojedyncza martwa przestrzeń w sieci rurociągów, mikroskopijne pęknięcie, skorodowane połączenie – a wielomilionowe inwestycje są zagrożone. Rozwiązujemy ten paradoks poprzez czystą, bezkompromisową niemiecką inżynierię."
+      },
+      "stickySection": {
+        "eyebrow": "Przewaga technologiczna",
+        "title": "Anatomia bezpieczeństwa.",
+        "lead": "Szpital nie postrzegamy jako budynek, ale jako organizm biologiczny. System K-Aqua to jego niezniszczalny układ naczyniowy. Każdy milimetr naszych rurociągów jest kalibrowany pod kątem absolutnej niezawodności."
+      },
+      "bentoSection": {
+        "eyebrow": "Zwrot z inwestycji i cykl życia",
+        "title": "Wydajność dzięki perfekcji.",
+        "lead": "Jakość nie jest czynnikiem kosztowym, ale jedyną drogą do rentowności w automatyce budynków. K-Aqua minimalizuje całkowity koszt posiadania do niespotykanego dotąd poziomu, gwarantując jednocześnie maksymalne bezpieczeństwo pacjenta."
+      },
+      "bento": {
+        "items": {
+          "0": {
+            "title": "100% odporność na korozję",
+            "desc": "W przeciwieństwie do rur metalowych, K-Aqua jest całkowicie odporna na korozję elektrochemiczną, wżery i twardą wodę. Brak osadów i strat ciśnienia przez 50 lat ciągłej pracy."
+          },
+          "1": {
+            "title": "Błyskawiczna instalacja",
+            "desc": "Niska waga i jednorodna technologia spawania skracają czas montażu nawet o 40%. Mniej osobodni, mniejsze ryzyko na placu budowy.",
+            "badge": "-40% czasu"
+          },
+          "2": {
+            "title": "Elastyczność odporna na trzęsienia ziemi",
+            "desc": "Modułowa struktura molekularna materiału pozwala na pochłanianie wstrząsów sejsmicznych i budowanie osiadań bez pękania. Niezbędne w szpitalach znajdujących się w obszarach ryzyka.",
+            "badge": "Stopnie sejsmiczne"
+          },
+          "3": {
+            "title": "Certyfikowana jakość wody pitnej",
+            "desc": "Spełnia i przewyższa najsurowsze normy światowe (DIN, DVGW, SKZ, WRAS) dotyczące transportu ultraczystej wody i bardzo wrażliwych mediów klinicznych."
+          }
+        }
+      },
+      "timelineSection": {
+        "title": "Standard K-Aqua.",
+        "desc": "Od pierwszego rysunku CAD po ostatnią kroplę wody – nasz proces to symfonia precyzji, która nie pozostawia miejsca na przypadek."
+      },
+      "specs": {
+        "eyebrow": "Dane techniczne",
+        "title": "Twarde fakty.",
+        "lead": "Dla inżynierów, planistów i architektów: Fizyczne i chemiczne ograniczenia naszego systemu do zastosowań klinicznych. Przejrzystość jest podstawą zaufania.",
+        "therm": {
+          "title": "Odporność termiczna",
+          "items": {
+            "0": {
+              "label": "Stała temperatura pracy",
+              "value": "70°C"
+            },
+            "1": {
+              "label": "Maksymalna temperatura padania",
+              "value": "95°C (100 godz.)"
+            },
+            "2": {
+              "label": "Przewodność cieplna",
+              "value": "0,24 W/mK"
+            },
+            "3": {
+              "label": "Współczynnik rozszerzalności liniowej",
+              "value": "0,15 mm/mK"
+            }
+          }
+        },
+        "mech": {
+          "title": "Właściwości mechaniczne",
+          "items": {
+            "0": {
+              "label": "gęstość",
+              "value": "0,895 g/cm3"
+            },
+            "1": {
+              "label": "Wytrzymałość na rozciąganie",
+              "value": "23MPa"
+            },
+            "2": {
+              "label": "Wydłużenie przy zerwaniu",
+              "value": "> 50%"
+            },
+            "3": {
+              "label": "Moduł sprężystości",
+              "value": "800 MPa"
+            }
+          }
+        }
+      },
+      "bim": {
+        "title": "Zasoby BIM i CAD",
+        "desc": "Pobierz szczegółowe rodziny Revit, pliki AutoCAD i kompletne zestawy danych hydraulicznych do modelowania informacji o budynku (BIM). Bezpieczeństwo planowania z dokładnością do milimetra dla Twojego projektu.",
+        "cta": "Do centrum pobierania"
+      },
+      "cta": {
+        "eyebrow": "Następne kroki",
+        "title": "Gotowy na kolejny mega projekt?",
+        "desc": "Nasi inżynierowie ds. zastosowań są gotowi sprostać najbardziej złożonym wyzwaniom hydraulicznym Twojego projektu klinicznego. Żaden projekt nie jest zbyt duży, żaden standard nie jest zbyt rygorystyczny.",
+        "button": "Skontaktuj się z zespołem inżynierów"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Infrastruktura centrum danych | K-Aqua",
+        "desc": "Centra danych K-Aqua – bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów."
+      },
+      "scroll": {
+        "items": {
+          "0": {
+            "title": "Wyzwania termiczne związane ze sztuczną inteligencją i HPC",
+            "desc": "Nowoczesne szafy do obliczeń o wysokiej wydajności (HPC) i sztucznej inteligencji (AI) wytwarzają ogromne ilości ciepła odpadowego. Samo chłodzenie powietrzem osiąga swoje fizyczne granice. Przyszłość należy do chłodzenia cieczą – a zatem wody jako krytycznego nośnika ciepła bezpośrednio na chipie."
+          },
+          "1": {
+            "title": "Korozja jest wrogiem dostępności",
+            "desc": "Metalowe systemy rurowe są podatne na wżery, rdzę i rozkład chemiczny podczas ciągłej pracy. Mikropęknięcie w centrum danych może spowodować wielomilionowe szkody spowodowane awarią serwera. K-Aqua eliminuje to ryzyko dzięki w 100% odpornemu na korozję kopolimerowi statystycznemu polipropylenu (PP-R)."
+          },
+          "2": {
+            "title": "Połączenia molekularne zgrzewane ultradźwiękowo",
+            "desc": "Tam, gdzie konwencjonalne rury opierają się na podatnych na błędy uszczelkach lub połączeniach śrubowych, systemy K-Aqua łączą się na poziomie molekularnym. Wynik: Całkowicie jednorodna, absolutnie szczelna sieć rurociągów. Zero tolerancji dla wycieków."
+          },
+          "3": {
+            "title": "Zrównoważony rozwój i optymalizacja PUE",
+            "desc": "Niska wartość PUE (Efektywność zużycia energii) to święty graal operatorów centrów danych. Rury K-Aqua posiadają doskonałe właściwości termodynamiczne. Niższe straty spowodowane tarciem w rurze i optymalna izolacja termiczna znacznie minimalizują straty energii podczas obiegu wody chłodzącej."
+          }
+        }
+      },
+      "timeline": {
+        "items": {
+          "0": {
+            "year": "Faza 1",
+            "title": "Symulacja i projektowanie przepływu",
+            "text": "Nasi inżynierowie analizują wymagania dotyczące chłodzenia centrum danych. Obliczamy przepływy objętościowe, eliminujemy wąskie gardła i wymiarujemy sieć rurociągów w celu uzyskania maksymalnej wydajności hydrodynamicznej."
+          },
+          "1": {
+            "year": "Faza 2",
+            "title": "Precyzyjna prefabrykacja",
+            "text": "W głównej fabryce w Niemczech złożone rozdzielacze są prefabrykowane na wymiar. Dokładność co do centymetra, w pełni zautomatyzowana i gwarantowana jakość w warunkach laboratoryjnych."
+          },
+          "2": {
+            "year": "Faza 3",
+            "title": "Logistyka just-in-time",
+            "text": "Megaprojekty nie wybaczają opóźnień w dostawach. Koordynujemy globalną logistykę bezpośrednio na budowie, zsynchronizowaną ze ścisłym rytmem generalnych wykonawców."
+          },
+          "3": {
+            "year": "Faza 4",
+            "title": "Jednorodne spawanie",
+            "text": "Lokalne zespoły montażowe posiadają certyfikaty mistrzów spawalniczych K-Aqua. Spawanie molekularne na placu budowy gwarantuje w 100% szczelną, jednorodną strukturę rury bez słabych punktów."
+          },
+          "4": {
+            "year": "Faza 5",
+            "title": "Próby ciśnieniowe i certyfikacja",
+            "text": "Przed przekazaniem przeprowadzana jest bezlitosna próba hydrauliczna ciśnieniowa i obciążeniowa. Dopiero gdy system przejdzie te testy, wydajemy zgodę i przejmujemy pełną gwarancję na system."
+          }
+        },
+        "title": "Proces inżynieryjny",
+        "desc": "Od szkicu hydrodynamicznego do ostatecznej akceptacji: jak wdrażamy globalne infrastruktury hiperskalowe bez kompromisów i w rekordowym czasie."
+      },
+      "hero": {
+        "eyebrow": "Infrastruktura hiperskalowa i kolokacyjna",
+        "title1": "Infrastruktura z zerowymi przestojami.",
+        "title2": "Zaprojektowane w Niemczech.",
+        "desc": "Gdy systemy chłodzenia znajdują się w sercu globalnych centrów danych, awaria materiału nie wchodzi w grę. Odkryj najbezpieczniejsze, najbardziej wydajne i skalowalne rozwiązanie rurociągów PP-R do zastosowań w chłodnictwie i klimatyzacji o znaczeniu krytycznym.",
+        "cta1": "Poproś o projekt",
+        "cta2": "Biała księga techniczna"
+      },
+      "section1": {
+        "eyebrow": "Chłodzenie o znaczeniu krytycznym",
+        "title": "Dlaczego klasyczne rury zawodzą.",
+        "lead": "Wymagania nowoczesnych hiperskalerów i klastrów AI przekraczają fizyczne ograniczenia tradycyjnych systemów metalowych."
+      },
+      "section2": {
+        "eyebrow": "Przewaga PP-R",
+        "title": "Nauka o materiałach na miarę XXI wieku.",
+        "lead": "Każdy szczegół naszego systemu został zoptymalizowany pod kątem absolutnej niezawodności i trwałości."
+      },
+      "bento": {
+        "items": {
+          "0": {
+            "title": "Neutralność chemiczna i czystość",
+            "desc": "Zamknięte obiegi chłodzące wymagają środków kondycjonujących. K-Aqua jest całkowicie obojętny wobec agresywnych dodatków i całkowicie zapobiega tworzeniu się glonów i biofilmu. Brak rozkładu chemicznego, brak cząstek w wodzie chłodzącej."
+          },
+          "1": {
+            "title": "Odporność na ciśnienie w budynkach wysokościowych",
+            "desc": "Zaprojektowane do stałych maksymalnych obciążeń w ekstremalnych warunkach ciśnienia PN10 / PN20 w pionowych, wielopiętrowych centrach danych."
+          },
+          "2": {
+            "title": "Prefabrykacja niemiecka",
+            "desc": "W naszej głównej fabryce w Niemczech wstępnie spawamy złożone bloki rozdzielcze. Dostawa typu „plug and play” znacznie skraca czas budowy."
+          },
+          "3": {
+            "title": "Odporność na trzęsienia ziemi (odporność sejsmiczna)",
+            "desc": "W przeciwieństwie do sztywnych systemów metalowych, nasz system PP-R ma określoną elastyczność wewnętrzną. Fale uderzeniowe i masywne wibracje pochodzące z generatorów awaryjnych lub silnej aktywności sejsmicznej są pochłaniane, zamiast powodować niszczące pęknięcia."
+          }
+        }
+      },
+      "cta": {
+        "title": "Gotowy na bezkompromisowe bezpieczeństwo?",
+        "desc": "Połącz się z naszym zespołem inżynierów. Przeanalizujemy Twój kolejny megaprojekt centrum danych i dostarczymy infrastrukturę przyszłości.",
+        "button": "Zorganizuj dyskusję inżynierską"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Infrastruktura budowlana wysokościowa | K-Aqua",
+        "desc": "Wieżowiec K-Aqua – bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów."
+      },
+      "hero": {
+        "eyebrow": "Granica pionowa",
+        "title1": "Konstrukcja wieżowa.",
+        "title2": "Zaprojektowane w Niemczech.",
+        "desc": "Megaprojekty wymagają czegoś więcej niż tylko rur. Wymagają nieskazitelnego, bezobsługowego układu krążenia, który jest w stanie wytrzymać ekstremalne ciśnienie hydrostatyczne i wahania tektoniczne. K-Aqua zapewnia bezkompromisowe bezpieczeństwo najbardziej wymagających budynków na świecie.",
+        "cta1": "Poproś o projekt",
+        "cta2": "Specyfikacje techniczne"
+      },
+      "intro": {
+        "eyebrow": "Anatomia megastruktur",
+        "title": "Budynek jest tak mocny, jak jego żyły.",
+        "lead": "Na wysokości 500 metrów fizyka nie wybacza błędów projektowych. Pęknięcie włoskowate w pionie oznacza katastrofalne szkody liczone w milionach dolarów. Dlatego w K-Aqua nie pozostawiamy niczego przypadkowi.",
+        "p1": "Wysokie budynki to miasta pionowe. Pulsują, poruszają się, oddychają. Z każdym piętrem ciśnienie hydrostatyczne wzrasta wykładniczo. Obciążenia wiatrem powodują mikrowibracje w całej konstrukcji. Różnice temperatur między lodowym fundamentem a zalaną słońcem górą prowadzą do ogromnej liniowej rozszerzalności cieplnej.",
+        "p2": "Tradycyjne metalowe systemy rurowe osiągają tutaj swoje absolutne fizyczne granice. Korozja, wżery, inkrustacje i pęknięcia zmęczeniowe na szwach spawalniczych nie są kwestią „czy”, ale „kiedy”. W budownictwie wysokościowym wyciek to nie tylko problem techniczny – to ryzyko finansowe, które może zagrozić całemu projektowi.",
+        "p3": "Wysokowydajne polimery K-Aqua (PP-R i PP-RCT) zasadniczo zmieniają zasady gry w infrastrukturze wysokościowej. Nie korodują. Nie zwapniają. A dzięki naszej jednorodnej technologii zgrzewania termicznego rury i kształtki łączą się na poziomie molekularnym w jedną, nierozłączną całość. Układ krążenia staje się tak silny, jak sam materiał."
+      },
+      "sticky": {
+        "eyebrow": "Ekstremalne warunki",
+        "title": "Opanowanie fizyki wysokości.",
+        "lead": "Cztery podstawowe wyzwania w budownictwie wysokościowym – i jak niemieckie mistrzostwo inżynieryjne K-Aqua je pokonuje.",
+        "items": {
+          "0": {
+            "title": "Ekstremalne ciśnienie hydrostatyczne",
+            "desc": "Słup wody rośnie z każdym metrem wysokości. W megatalach powstaje ciśnienie przekraczające 30 barów. Rury K-Aqua PP-RCT (kopolimer losowy polipropylenu o zmodyfikowanej krystaliczności i odporności na temperaturę) zapewniają do 50% wyższą wytrzymałość na ściskanie w wysokich temperaturach w porównaniu do standardowego PP-R. Działają jako niezniszczalny szkielet wodociągu, nawet w strefach maksymalnego obciążenia statycznego."
+          },
+          "1": {
+            "title": "Termiczna rozszerzalność liniowa i kontrola naprężenia",
+            "desc": "Pompowanie gorącej wody przez 300-metrową rurę powoduje powstanie ogromnych sił rozszerzalności liniowej i ścinania. Nasza technologia kompozytów włóknistych zmniejsza rozszerzalność cieplną nawet o 75%. Oznacza to mniej punktów mocowania, brak pętli dylatacyjnych i najwyższą integralność strukturalną w lekkim, łatwym w montażu systemie."
+          },
+          "2": {
+            "title": "Jednorodność molekularna (brak wycieków)",
+            "desc": "W przypadku montażu pierścieni typu O-ring lub złączek zaprasowywanych z elastomerów nieuchronnie pojawiają się nieszczelności wynikające ze starzenia. K-Aqua całkowicie eliminuje uszczelki. Zgrzewanie kielichowe elementu grzejnego łączy rurę i kształtkę dokładnie w temperaturze 260°C. Powstałe połączenie jest tak samo wytrzymałe mechanicznie jak sama rura. Zero wycieków. Gwarancja na całe życie."
+          },
+          "3": {
+            "title": "Izolacja akustyczna (izolacja akustyczna)",
+            "desc": "W luksusowych penthouse'ach i ekskluzywnych biurach cisza jest najważniejszym towarem. Należy wyeliminować hałasy przepływu i wstrząsy ciśnieniowe. Wysoka gęstość materiału i właściwości dźwiękochłonne naszych polimerów PP-R znacznie tłumią hałas przenoszony przez konstrukcję i hałas przepływu, znacznie przekraczając rygorystyczne wymagania norm DIN 4109 i VDI 4100."
+          }
+        }
+      },
+      "bento": {
+        "eyebrow": "Dane techniczne",
+        "title": "Architektura na zawsze.",
+        "lead": "Precyzyjnie wyprodukowane zgodnie z najsurowszymi niemieckimi normami, co zapewnia 100% swobodę konserwacji. Definiujemy światowy standard w segmencie systemów rurociągów dla drapaczy chmur.",
+        "items": {
+          "0": {
+            "title": "Rewolucja PP-RCT",
+            "desc": "Następna generacja polipropylenu. Zmodyfikowana struktura krystaliczna zapewniająca niespotykaną odporność na ciśnienie i temperaturę przy zmniejszonej grubości ścianki. Maksymalizuje przepływ, minimalizuje wagę – kluczowy czynnik statyki dużych budynków."
+          },
+          "1": {
+            "title": "DIN EN ISO 15874",
+            "desc": "Bezpieczeństwo certyfikowane przez niezależne niemieckie instytuty badawcze, takie jak SKZ i DVGW. Najwyższa jakość wody pitnej, brak wymywania."
+          },
+          "2": {
+            "title": "Absolutna odporność na korozję",
+            "desc": "Niewrażliwy na wahania wartości pH, agresywne właściwości wody, chlorowanie i korozję elektrochemiczną (pitting)."
+          },
+          "3": {
+            "title": "Kompletna prefabrykacja",
+            "desc": "Czas to najdroższy towar na placu budowy. Dostarczamy prefabrykowane tablice rozdzielcze, listwy licznikowe i elementy pionów bezpośrednio „dokładnie na czas” z milimetrową precyzją. Skraca czas montażu nawet o 60% i eliminuje źródła błędów na budowie."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Cykl projektu",
+        "desc": "Od pierwszej symulacji przepływu po dziesięciolecia bezobsługowej pracy. Zespół inżynierów K-Aqua towarzyszy Twojemu wielkiemu projektowi od pomysłu do uruchomienia.",
+        "items": {
+          "0": {
+            "year": "Faza 1",
+            "title": "Inżynieria i BIM",
+            "text": "Nasi inżynierowie wspierają projektowanie pionów, obliczanie stref ciśnienia i dostarczają kompletne dane BIM (Revit) do sprawdzania kolizji i planowania TGA."
+          },
+          "1": {
+            "year": "Faza 2",
+            "title": "Precyzyjne wytłaczanie",
+            "text": "W naszych najnowocześniejszych zakładach w Niemczech rury i kształtki produkowane są pod stałą ultradźwiękową kontrolą grubości ścianek i najściślejszym monitorowaniem laboratoryjnym. Każda partia jest w 100% identyfikowalna."
+          },
+          "2": {
+            "year": "Faza 3",
+            "title": "Logistyka just-in-time",
+            "text": "Dzięki naszej globalnej sieci sprzedaży mamy pewność, że materiał dotrze na czas na plac budowy – czy to na pustyni w Dubaju, w Singapurze, czy we Frankfurcie nad Menem."
+          },
+          "3": {
+            "year": "Faza 4",
+            "title": "Jednorodna fuzja",
+            "text": "Lokalni instalatorzy są szkoleni na miejscu przez naszych techników. Połączenia zgrzewane termicznie powstają w ciągu kilku sekund i są w pełni odporne na ciśnienie natychmiast po ostygnięciu."
+          },
+          "4": {
+            "year": "dziesięciolecia",
+            "title": "Bezobsługowa praca",
+            "text": "Po końcowej próbie ciśnieniowej nasze systemy znikają w szybie lub betonie. Nigdy więcej nie będziesz musiał o niej myśleć przez następne 50 lat. Niewidzialna, doskonała sieć."
+          }
+        }
+      },
+      "data": {
+        "eyebrow": "Dane",
+        "title": "Przewaga oparta na faktach.",
+        "lead": "Generalni wykonawcy nie wierzą obietnicom marketingowym. Wierzą w wytrzymałość na rozciąganie, krzywe pełzania, odporność na ciśnienie dynamiczne i FNCT (testy pełzania z pełnym wycięciem).",
+        "h3_1": "Stabilność molekularna",
+        "p1": "Żywotność rury z tworzywa sztucznego pod ciśnieniem i temperaturą zależy od wytrzymałości na ciśnienie wewnętrzne przy pełzaniu (krzywe pełzania). Standardowe specyfikacje branżowe zakładają, że żywotność urządzenia wynosi 50 lat. Nasze wewnętrzne testy laboratoryjne i symulacje starzenia termooksydacyjnego weryfikują trwałość na okres ponad 100 lat. Materiał K-Aqua PP-RCT znacząco opóźnia początek degradacji termooksydacyjnej, nawet w rurach obiegowych, w których panuje stale wysoka temperatura.",
+        "h3_2": "Dynamika płynów hydraulicznych",
+        "p2": "Rury metalowe z biegiem lat stają się szorstkie w wyniku korozji i osadzania się osadów. Zwiększają się straty w wyniku tarcia w rurze, zwęża się przekrój poprzeczny, a energia wymagana dla pomp zasilających eksploduje. Rury K-Aqua mają bezwzględną chropowatość powierzchni k = 0,007 mm. Ta lustrzanie gładka powierzchnia pozostaje absolutnie niezmienna przez cały okres użytkowania. Rezultat: minimalne straty ciśnienia, ogromne oszczędności energii podczas obsługi pompy i absolutna higiena, ponieważ nie przyczepiają się ani biofilm, ani legionella.",
+        "stats": {
+          "0": {
+            "label": "Gęstość (g/cm3)",
+            "val": "0,905",
+            "standard": "ISO1183"
+          },
+          "1": {
+            "label": "Wskaźnik topnienia (g/10min)",
+            "val": "0,3",
+            "standard": "ISO1133"
+          },
+          "2": {
+            "label": "Moduł sprężystości przy rozciąganiu (MPa)",
+            "val": "800/900 (RCT)",
+            "standard": "ISO527"
+          },
+          "3": {
+            "label": "Przewodność cieplna (W/mK)",
+            "val": "0,24",
+            "standard": "DIN52612"
+          },
+          "4": {
+            "label": "Współczynnik rozszerzalności liniowej (mm/mK)",
+            "val": "0,15 (standard) / 0,035 (włókno)",
+            "standard": "DIN53752"
+          },
+          "5": {
+            "label": "Chropowatość powierzchni k (mm)",
+            "val": "0,007",
+            "standard": "Stanowisko testowe"
+          },
+          "6": {
+            "label": "Odporność chemiczna",
+            "val": "Wartość Ph od 1 do 14",
+            "standard": "DIN8078"
+          }
+        }
+      },
+      "cta": {
+        "title": "Gotowy do kształtowania panoramy przyszłości?",
+        "desc": "Porozmawiaj z naszym oddanym zespołem inżynierów zajmujących się wieżowcami na temat obliczeń przepływu, projektów konstrukcyjnych i dostosowanych do indywidualnych potrzeb rozwiązań prefabrykowanych dla Twojego kolejnego megaprojektu.",
+        "button1": "Poproś o projekt",
+        "button2": "Skontaktuj się z pomocą techniczną"
+      }
+    }
   },
   "service": {
     "eyebrow": "Service",
@@ -868,7 +1875,16 @@
     "phaseB": "B (Betrieb/Energie)",
     "phaseC": "C (EoL)",
     "moduleD": "Modul D:",
-    "costMaintenance": "Instandhaltung"
+    "costMaintenance": "Instandhaltung",
+    "advanced": "Zaawansowane parametry LCA",
+    "recycle": "Włącz kredyt na recykling po wycofaniu z eksploatacji",
+    "phases": {
+      "a13": "Produkcja (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Eksploatacja/Cieplna (B)",
+      "c": "Koniec cyklu życia (C)"
+    },
+    "downloadPdf": "Pobierz raport PDF"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -979,83 +1995,7 @@
       }
     ]
   },
-  "academy": {
-    "eyebrow": "K-Aqua Academy",
-    "title1": "Knowledge that",
-    "titleGrad": "connects.",
-    "lead": "Four welding methods on video — and a quiz that makes you a Welding Master. Optimised for the site: big targets, high contrast.",
-    "videos": [
-      {
-        "t": "Socket welding by hand",
-        "s": "up to d63 — hand welding device"
-      },
-      {
-        "t": "Socket welding by machine",
-        "s": "medium dimensions"
-      },
-      {
-        "t": "Electrofusion welding",
-        "s": "heating-coil fittings"
-      },
-      {
-        "t": "Butt fusion welding",
-        "s": "large dimensions up to d630"
-      }
-    ],
-    "quizEyebrow": "Welding Master Quiz",
-    "quizTitle": "Five questions. One badge.",
-    "intro": "Test your PP-R/PP-RCT processing knowledge. Flawless = \"Welding Master\" badge (+75 points).",
-    "start": "Start quiz",
-    "qLabel": "Question",
-    "quiz": [
-      {
-        "q": "Which welding method is standard for large dimensions (e.g. d630)?",
-        "o": [
-          "Socket welding by hand",
-          "Butt fusion",
-          "Gluing"
-        ]
-      },
-      {
-        "q": "What does SDR stand for in piping systems?",
-        "o": [
-          "Standard Dimension Ratio (d/s)",
-          "Static Density Rating",
-          "Safety Pressure Reserve"
-        ]
-      },
-      {
-        "q": "What distinguishes PP-RCT from classic PP-R?",
-        "o": [
-          "Lower price",
-          "Modified crystal structure → more temperature & pressure reserve",
-          "Metallic reinforcement"
-        ]
-      },
-      {
-        "q": "Which recycling code does polypropylene carry?",
-        "o": [
-          "Code 3",
-          "Code 5",
-          "Code 7"
-        ]
-      },
-      {
-        "q": "In electrofusion welding the heat comes …",
-        "o": [
-          "from a heating-element mirror",
-          "from embedded heating coils in the fitting",
-          "from hot air"
-        ]
-      }
-    ],
-    "resPerfect": "Perfect — \"Welding Master\" badge earned!",
-    "resGood": "Solid! \"Welding Journeyman\" badge secured. For the master: all five correct.",
-    "resLow": "The videos above help — then the master will follow.",
-    "retry": "Try again",
-    "titlePerfect": "Welding Master",
-    "titleGood": "Welding Journeyman"
-  },
+  "academy": "[obiekt obiektu]",
   "refs": {
     "eyebrow": "References",
     "title1": "A globe full of",
@@ -2891,7 +3831,29 @@
   "legal": {
     "impressum": {
       "title": "Imprint",
-      "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de\n\nManaging Director:\nPhilipp Nickel, Marcello Gallio\n\nCourt of Registry:\nWetzlar HRB 6732\n\nDomicile:\nWaldsolms\n\nUSt-IdNr/VAT No.:\nDE 296238486\n\nWebdesign:\nwww.a-mittel.de\n\nProgramming:\nArSolution LLC"
+      "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de\n\nManaging Director:\nPhilipp Nickel, Marcello Gallio\n\nCourt of Registry:\nWetzlar HRB 6732\n\nDomicile:\nWaldsolms\n\nUSt-IdNr/VAT No.:\nDE 296238486\n\nWebdesign:\nwww.a-mittel.de\n\nProgramming:\nArSolution LLC",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Informacje zgodnie z § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFaks +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Zarząd",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Sąd rejestrowy i siedziba",
+          "content": "Wetzlar HRB 6732\n\nSiedziba firmy:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "Numer identyfikacji VAT",
+          "content": "Numer identyfikacji podatkowej zgodnie z § 27 a Ustawy o podatku od wartości dodanej:\nDE 296238486"
+        }
+      ]
     },
     "datenschutz": {
       "title": "Privacy Policy",
@@ -3009,5 +3971,641 @@
     "marketingDesc": "We use these technologies to show you more relevant content and advertisements – even on external platforms. If you disable this, you will still see ads, but they will be less tailored to your interests.",
     "vendorListTitle": "View detailed cookie list",
     "backToSimple": "Back to simple view"
+  },
+  "application": {
+    "tabs": {
+      "quick": "Szybki kontakt i Kultura",
+      "detailed": "Portal kariery i Aplikacja"
+    },
+    "portal": {
+      "eyebrow": "Otwarte pozycje",
+      "title": "Zostań częścią naszego",
+      "titleGrad": "zespołu",
+      "lead": "Odkryj ekscytujące możliwości kariery w K-Aqua i aplikuj w kilka minut.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Pracownik produkcji",
+          "type": "Pełny etat / Zmianowa",
+          "desc": "Wesprzyj nas w nowoczesnej produkcji rur i kształtek."
+        },
+        {
+          "id": "machine",
+          "title": "Operator maszyn i urządzeń",
+          "type": "Pełny etat",
+          "desc": "Obsługa i monitorowanie naszych zaawansowanych technologicznie linii do wytłaczania."
+        },
+        {
+          "id": "logistics",
+          "title": "Specjalista ds. logistyki magazynowej",
+          "type": "Pełny etat",
+          "desc": "Odpowiedzialność za przyjmowanie i wydawanie towarów oraz kontrolę zapasów."
+        },
+        {
+          "id": "sales",
+          "title": "Przedstawiciel handlowy techniczny",
+          "type": "Pełny etat",
+          "desc": "Wsparcie dużych klientów i planistów projektów na arenie międzynarodowej."
+        },
+        {
+          "id": "pm",
+          "title": "Menedżer Produktu",
+          "type": "Pełny etat",
+          "desc": "Kształtuj przyszłość naszych systemów rur PP-R."
+        },
+        {
+          "id": "init",
+          "title": "Aplikacja spontaniczna",
+          "type": "Pełny etat / Pół etatu",
+          "desc": "Brak odpowiedniego stanowiska? Po prostu wyślij do nas swoją aplikację!"
+        }
+      ],
+      "steps": {
+        "step1": "Dane Osobiste",
+        "step2": "CV i Dokumenty",
+        "step3": "Podsumowanie"
+      },
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "startDate": "Najwcześniejsza możliwa data rozpoczęcia",
+        "uploadTitle": "Prześlij PDF",
+        "uploadDesc": "Przeciągnij swoje CV tutaj lub kliknij, aby wybrać (maks. 5MB)",
+        "builderTitle": "Albo: Utwórz CV online",
+        "builderDesc": "Nie masz pliku PDF? Po prostu wypełnij tutaj swoje doświadczenie.",
+        "workExp": "Dodaj doświadczenie zawodowe",
+        "education": "Dodaj edukację",
+        "company": "Firma",
+        "role": "Rola",
+        "school": "Szkoła / Uczelnia",
+        "degree": "Stopień",
+        "from": "Od",
+        "to": "Do",
+        "skills": "Umiejętności (oddzielone przecinkami)",
+        "next": "Dalej",
+        "back": "Wstecz",
+        "submit": "Wyślij Aplikację",
+        "submitting": "Wysyłanie...",
+        "success": "Bardzo dziękujemy za Twoją aplikację!",
+        "successSub": "Otrzymaliśmy Twoje dokumenty i wkrótce się skontaktujemy.",
+        "error": "Wystąpił błąd. Spróbuj ponownie później."
+      }
+    }
+  },
+  "quote": "Zapytanie projektowe",
+  "resources": {
+    "support": {
+      "title": "Wsparcie Techniczne",
+      "metaDesc": "Wsparcie techniczne K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "cta": "Skontaktuj się ze wsparciem"
+    },
+    "downloads": {
+      "title": "Pliki do pobrania",
+      "metaDesc": "Pobieranie K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "cta": "Przejdź do pobierania"
+    },
+    "bim": {
+      "title": "Dane BIM",
+      "metaDesc": "Dane BIM K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "cta": "Poproś o dane BIM"
+    },
+    "common": {
+      "eyebrow": "ZASÓB K-Aqua",
+      "subtitle": "Zaprojektowano w Niemczech.",
+      "lead": "Ten moduł zapewnia bezkompromisowe bezpieczeństwo w najbardziej wymagających projektach na całym świecie. Wyprodukowany zgodnie z najbardziej rygorystycznymi standardami branżowymi, aby przetrwać pokolenia. Gdzie awaria materiału nie wchodzi w grę.",
+      "btnProject": "Zapytaj o projekt",
+      "btnData": "Dane techniczne",
+      "valEyebrow": "Niemiecka inżynieria",
+      "valTitle": "Bezpieczeństwo bez kompromisów.",
+      "valLead": "Kiedy międzynarodowi generalni wykonawcy planują projekty o wartości miliardów dolarów, nie opierają się na obietnicach, ale na twardych faktach.",
+      "valCardTitle": "Propozycja wartości 0{item}",
+      "valCardDesc": "Każdy element opuszcza naszą fabrykę z absolutną tolerancją zerowych błędów. Precyzyjnie zaprojektowane zgodnie z surowymi niemieckimi standardami w 100% bezobsługowe.",
+      "authTitle": "Autorytet branżowy dla {module}.",
+      "authP1": "Od dziesięcioleci łączymy rzemieślniczą dumę z najnowocześniejszą, wysoce zautomatyzowaną technologią produkcji w naszej siedzibie w samym sercu Niemiec.",
+      "authP2": "Wdrażany na najsurowszych pustyniach i w najbardziej ekstremalnych klimatach na świecie, nasz materiał każdego dnia udowadnia swoją wartość. Wyznaczamy standardy, za którymi podąża reszta świata.",
+      "list1": "Certyfikowany zgodnie z DIN EN ISO 15874",
+      "list2": "Żywotność > 50 lat",
+      "list3": "Bezobsługowy i odporny na korozję",
+      "placeholder": "Symbol zastępczy zasobu wizualnego",
+      "ctaTitle": "Gotowy na bezkompromisową jakość?",
+      "ctaLead": "Porozmawiaj z naszym zespołem inżynierów o swoim kolejnym megaprojekcie."
+    }
+  },
+  "markets": {
+    "landwirtschaft": {
+      "metaTitle": "Infrastruktura Rolnicza",
+      "metaDesc": "Rolnictwo K-Aqua – Wysokowydajna infrastruktura dla globalnych projektów rolniczych. Bezkompromisowe bezpieczeństwo dzięki German Engineering.",
+      "heroEyebrow": "K-Aqua Market: Rolnictwo",
+      "heroTitle": "Infrastruktura Rolnicza.",
+      "heroSubtitle": "Engineered in Germany.",
+      "heroDesc": "Globalne bezpieczeństwo żywnościowe nie toleruje kompromisów w nawadnianiu. K-Aqua dostarcza wysokowydajne systemy dla największych projektów rolniczych na świecie. Produkowane zgodnie z najsurowszymi standardami branżowymi. Tam, gdzie pęknięcie rury kosztuje miliony, K-Aqua jest jedynym logicznym wyborem.",
+      "heroBtnPrimary": "Zapytaj o Projekt Rolniczy",
+      "heroBtnSecondary": "Przeczytaj Specyfikacje Techniczne",
+      "section1Eyebrow": "Standard",
+      "section1Title": "Gdzie Woda Spotyka Pustynię.",
+      "section1Lead": "Kiedy buduje się gigantyczne systemy nawadniające w środku Sahary lub na australijskich stepach, ziarno oddziela się od plew. Konwencjonalne systemy zawodzą pod obciążeniem promieniowaniem UV, stałymi zmianami ciśnienia i agresywną chemią gleby. K-Aqua został opracowany dokładnie z myślą o tych skrajnościach.",
+      "section2Eyebrow": "Technologia",
+      "section2Title": "Anatomia Odporności.",
+      "section2Lead": "Każdy milimetr naszych systemów rurowych jest wynikiem dziesięcioleci niemieckich badań i rozwoju w dziedzinie technologii polimerów.",
+      "scroll1Title": "Absolutna Odporność na Promieniowanie UV i Warunki Atmosferyczne",
+      "scroll1Desc": "W nowoczesnym przemyśle rolniczym systemy rurowe są często narażone na bezpośrednie działanie promieni słonecznych i ekstremalne wahania temperatur przez wiele lat. Nasza opatentowana matryca polimerowa absorbuje promieniowanie UV bez degradacji molekularnej. Wynik: Brak kruchości, brak mikropęknięć, 100% integralności strukturalnej nawet po dziesięcioleciach użytkowania na pustyni.",
+      "scroll2Title": "Stabilność Ciśnienia dla Skomplikowanego Nawadniania",
+      "scroll2Desc": "Wielkoskalowe systemy nawadniania obrotowego i węże kroplujące wymagają stałego, ogromnego ciśnienia wody na dużych odległościach. Systemy K-Aqua są zaprojektowane do kinetycznego absorbowania skoków ciśnienia i uderzeń hydraulicznych. Bezszwowa technika spawania gwarantuje absolutną szczelność na każdym złączu – zerowa tolerancja na wycieki dla maksymalnej wydajności zasobów.",
+      "scroll3Title": "Odporność Chemiczna na Nawozy",
+      "scroll3Desc": "Nowoczesna fertygacja (aplikacja nawozów płynnych i pestycydów przez system nawadniania) wymaga rur wysoce odpornych na agresywne chemikalia, kwasy i zasady. Nasz system K-Aqua PPR nie wchodzi w reakcje z agrochemikaliami, zapobiega osadom dzięki lustrzanie gładkiej ściance wewnętrznej i chroni zdrowie gleby.",
+      "scroll4Title": "Bezpieczeństwo Plonów Dzięki Bezpieczeństwu Biologicznemu",
+      "scroll4Desc": "Wzrost mikrobiologiczny wewnątrz rur może zniszczyć całe zbiory. K-Aqua opiera się na antyadhezyjnej powierzchni wewnętrznej, która sprawia, że tworzenie się biofilmów i wzrost glonów jest prawie niemożliwe. Czysta woda u źródła pozostaje czystą wodą przy roślinie. Niemiecka inżynieria dla globalnego bezpieczeństwa żywnościowego.",
+      "section3Eyebrow": "Zalety Systemu",
+      "section3Title": "Dominacja Dzięki Inżynierii.",
+      "section3Lead": "Wybór K-Aqua to matematyczna pewność. Niższy całkowity koszt posiadania (TCO) w połączeniu z absolutnym bezpieczeństwem operacyjnym.",
+      "bento1Title": "Jednorodne Spawanie",
+      "bento1Desc": "Zapomnij o o-ringach, kleju lub złączkach mechanicznych. Rury i złączki K-Aqua łączą się na poziomie molekularnym w jedną, nierozłączną całość. Ryzyko wycieków spada do matematycznie dokładnego 0 %.",
+      "bento2Title": "Lekka Konstrukcja",
+      "bento2Desc": "W porównaniu z systemami metalowymi, rury K-Aqua ważą tylko ułamek. Rewolucjonizuje to logistykę na placu budowy, znacznie obniża koszty transportu i umożliwia szybką instalację nawet w niedostępnym terenie.",
+      "bento3Title": "Elastyczność Sejsmiczna",
+      "bento3Desc": "Materiał posiada elastyczność wewnętrzną. W przypadku ruchów ziemi, osiadania lub ekstremalnych wahań temperatury, system rur dostosowuje się bez pękania. Stal się rwie, K-Aqua się wygina.",
+      "bento4Title": "Lustrzanie Gładka Hydraulika",
+      "bento4Desc": "Współczynnik tarcia bliski zeru. Oznacza to mniejszą utratę ciśnienia na długich dystansach, co oznacza, że systemy pomp mogą być znacznie mniejsze. Pozwala to nie tylko zaoszczędzić początkowy kapitał, ale także masowo obniża koszty energii w ciągu dziesięcioleci.",
+      "section4Title": "Linia Życia dla ",
+      "section4Highlight": "Globalnych Megaprojektów",
+      "section4P1": "Kiedy awaria systemów nawadniających oznacza całkowitą utratę tysięcy hektarów zbiorów, konwencjonalne metryki już nie wystarczają. Mierzymy niezawodność w pokoleniach.",
+      "section4P2": "K-Aqua certyfikuje swoje rury dla rolnictwa przemysłowego dla scenariuszy operacyjnych, które znacznie wykraczają poza rzeczywistość. Symulujemy ekstremalne uderzenia hydrauliczne, żrące koktajle chemiczne i ciągłe mikrowibracje sejsmiczne, zanim pojedyncza rura opuści naszą fabrykę w Niemczech.",
+      "section4Stat1Val": "50+",
+      "section4Stat1Lbl": "Lat Żywotności",
+      "section4Stat2Val": "0.0%",
+      "section4Stat2Lbl": "Tolerancja Wycieków",
+      "timelineTitle": "Realizacja Projektu",
+      "timelineDesc": "Od wstępnej analizy hydrodynamicznej do końcowego połączenia na miejscu. W pełni zorkiestrowany proces dla maksymalnej skalowalności.",
+      "timeline1Year": "Faza 1",
+      "timeline1Title": "Analiza Topologiczna",
+      "timeline1Text": "Nasi inżynierowie analizują warunki topologiczne i klimatyczne projektu rolniczego za pomocą baz danych satelitarnych i tworzą profil hydrodynamiczny.",
+      "timeline2Year": "Faza 2",
+      "timeline2Title": "Synteza Materiałów",
+      "timeline2Text": "Indywidualna ekstruzja systemów rurowych K-Aqua w naszej niemieckiej siedzibie. Każda partia poddawana jest badaniom ultradźwiękowym o wysokiej rozdzielczości.",
+      "timeline3Year": "Faza 3",
+      "timeline3Title": "Logistyka Globalna",
+      "timeline3Text": "Pełna konteneryzacja i transport globalny. Nasze systemy są lekkie i zoptymalizowane pod kątem transportu do najbardziej odległych obszarów upraw na ziemi.",
+      "timeline4Year": "Faza 4",
+      "timeline4Title": "Instalacja i Spawanie",
+      "timeline4Text": "Jednorodne połączenia spawane bezpośrednio na miejscu. Nasza technologia syntezy termoplastycznej tworzy monolityczny system rur bez słabych punktów lub uszczelek.",
+      "timeline5Year": "Faza 5",
+      "timeline5Title": "Wolność od Konserwacji na Całe Życie",
+      "timeline5Text": "Po uruchomieniu systemu infrastruktura znika ze świadomości. Po prostu działa. Przez następne 50+ lat. Bez cyklu konserwacji.",
+      "section5Title": "Certyfikowane Bezpieczeństwo",
+      "section5Desc": "Systemy rolnicze K-Aqua są certyfikowane przez najbardziej renomowane międzynarodowe instytuty badawcze. Nie tylko spełniamy standardy – często je redefiniujemy.",
+      "section5List1": "DIN EN ISO 15874",
+      "section5List2": "Zatwierdzenie DVGW",
+      "section5List3": "Monitorowanie Jakości SKZ",
+      "section5List4": "Certyfikacja Wysokociśnieniowa do 25 Bar",
+      "section5List5": "Zarządzanie Jakością ISO 9001:2015",
+      "ctaTitle": "Twoje zbiory są zbyt cenne na kompromisy.",
+      "ctaDesc": "Omówmy infrastrukturę hydrauliczną Twojego następnego dużego projektu. Nasi inżynierowie stworzą szczegółową analizę techniczną dla Twoich specyficznych wymagań.",
+      "ctaBtn1": "Poproś o Konsultacje Techniczne",
+      "ctaBtn2": "Pobierz Dokumentację"
+    },
+    "schiffbau": {
+      "metaTitle": "Budowa Statków | K-Aqua",
+      "metaDesc": "Budowa Statków K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "heroBadge": "K-Aqua MARITIME",
+      "heroTitle": "Infrastruktura Okrętowa.",
+      "heroSubtitle": "Engineered in Germany.",
+      "heroDesc": "Ten moduł zapewnia bezkompromisowe bezpieczeństwo w przypadku najbardziej wymagających megaprojektów morskich na świecie. Wyprodukowane zgodnie z najsurowszymi standardami branżowymi, aby przetrwać w najbardziej ekstremalnych warunkach. Tam, gdzie awaria materiału nie wchodzi w grę, K-Aqua jest jedyną odpowiedzią.",
+      "heroBtnPrimary": "Zapytaj o Projekt",
+      "heroBtnSecondary": "Specyfikacje Techniczne",
+      "section1Eyebrow": "Filozofia",
+      "section1Title": "Bezpieczeństwo bez kompromisów. Na otwartym morzu nie ma miejsca na błędy.",
+      "section1Lead": "Kiedy stocznie, armatorzy i międzynarodowi generalni wykonawcy planują projekty o wartości miliardów dolarów, nie polegają na obietnicach marketingowych, ale na twardych faktach fizycznych. Nasz system został specjalnie opracowany dla bezlitosnej rzeczywistości oceanów.",
+      "section1P1": "Przemysł morski stoi przed bezprecedensowymi wyzwaniami. Statki stają się coraz większe, trasy coraz bardziej ekstremalne, a przepisy ochrony środowiska coraz bardziej rygorystyczne. W tym środowisku tradycyjne metalowe systemy rurowe nie są już aktualne. Są ciężkie, podatne na korozję i skomplikowane w instalacji. K-Aqua oferuje zmianę paradygmatu.",
+      "section1P2": "Doprowadziliśmy inżynierię materiałową do granic możliwości, aby stworzyć system rur, który nie walczy z siłami natury, ale je opanowuje. System, który nie obciąża statku, ale aktywnie zwiększa jego żywotność i wydajność. To jest rezultat niemieckiej inżynierii w najczystszej postaci.",
+      "scroll1Title": "Absolutna odporność na korozję w środowisku morskim",
+      "scroll1Desc": "Słona woda, ekstremalna wilgotność i ciągły stres chemiczny niszczą konwencjonalne materiały w rekordowym czasie. Nasze autorskie struktury matryc polimerowych na bazie PPR zapewniają 100% odporność na korozję morską. Żadnych anod ofiarnych, żadnych drogich powłok, żadnych przerw na konserwację. Po zainstalowaniu system pozostaje obojętny na najbardziej agresywne media przez dziesięciolecia.",
+      "scroll2Title": "Redukcja masy dla maksymalnej wydajności",
+      "scroll2Desc": "We współczesnej żegludze każdy zaoszczędzony kilogram to pieniądze i mniejszy ślad węglowy. System budowy statków K-Aqua oferuje oszczędność masy do 70% w porównaniu z orurowaniem metalowym. Prowadzi to nie tylko do lepszej oszczędności paliwa statku, ale także drastycznie upraszcza obsługę i instalację w ograniczonej przestrzeni kadłuba statku.",
+      "scroll3Title": "Absorpcja wibracji i odporność na ciśnienie",
+      "scroll3Desc": "Silniki okrętowe, systemy wałów i ciągłe działanie fal generują ciągłe wibracje, które nieuchronnie prowadzą do zmęczenia materiału i mikropęknięć w sztywnych systemach. Struktura molekularna naszego systemu K-Aqua naturalnie tłumi te częstotliwości. W połączeniu z ekstremalną odpornością na ciśnienie, system wytrzymuje również nieprzewidziane skoki ciśnienia w krytycznych momentach.",
+      "scroll4Title": "Bezszwowe jednorodne spawanie",
+      "scroll4Desc": "Łańcuch jest tylko tak silny, jak jego najsłabsze ogniwo. Dlatego systemy K-Aqua nie mają klasycznych słabych punktów powodowanych przez uszczelki lub gwinty. Dzięki naszej zaawansowanej technologii polifuzji rura i złączka łączą się na poziomie molekularnym w nierozłączną, całkowicie jednorodną całość. Połączenie, które jest trwale szczelne i wytrzymuje nawet ekstremalne siły rozciągające i ścinające.",
+      "section2Eyebrow": "Architektura Sukcesu",
+      "section2Title": "Techniczna wyższość w szczegółach.",
+      "section2Lead": "Liczby nie kłamią. Spojrzenie na specyfikacje pokazuje, dlaczego K-Aqua jest nowym standardem w budowie statków.",
+      "bento1Title": "Żywotność > 50 lat",
+      "bento1Desc": "Podczas gdy konwencjonalne systemy często wykazują pierwsze oznaki zmęczenia już po kilku latach, K-Aqua jest zaprojektowany na cały okres użytkowania statku. Bez „jeśli” i „ale”.",
+      "bento2Title": "Certyfikowane Bezpieczeństwo",
+      "bento2Desc": "Wszystkie systemy są ściśle produkowane zgodnie z DIN EN ISO 15874 i posiadają niezbędne atesty.",
+      "bento3Title": "Wydajność Hydrauliczna",
+      "bento3Desc": "Niezwykle gładka powierzchnia wewnętrzna naszych rur skutecznie zapobiega inkrustacjom i zanieczyszczeniom biologicznym.",
+      "bento4Title": "Izolacja Termiczna",
+      "bento4Desc": "K-Aqua ma doskonałe właściwości izolacyjne, zmniejsza kondensację i oszczędza materiał izolacyjny.",
+      "section3Title": "Przemysłowy autorytet w dziedzinie wody.",
+      "section3P1": "Od dziesięcioleci łączymy bezkompromisowe rzemiosło z najnowocześniejszą, w pełni zautomatyzowaną technologią produkcji w naszej ultranowoczesnej siedzibie w sercu Niemiec. Każda wytłaczarka, każda wtryskarka jest skalibrowana, aby zapewnić perfekcję z dokładnością do mikrometra.",
+      "section3P2": "Używane na oceanach na całym świecie, od lodowatych wód Arktyki po tropikalne warunki na równiku, nasz materiał każdego dnia udowadnia swoją wartość na nowo. Nie budujemy po prostu rur. Tworzymy krytyczne arterie dla liniowców oceanicznych, statków wycieczkowych i wysoce skomplikowanych platform wiertniczych.",
+      "section3P3": "Tam, gdzie awaria systemu chłodzenia może mieć katastrofalne skutki, tam, gdzie dostawy słodkiej wody dla tysięcy pasażerów muszą być absolutnie zagwarantowane - tam zaczyna się nasze pole zastosowania. Wyznaczamy standardy, za którymi podąża reszta świata. Standard zdefiniowany przez absolutną niezawodność.",
+      "section3List1": "W 100% bezobsługowe przez cały okres użytkowania",
+      "section3List2": "Łatwa i bezpieczna instalacja dzięki prefabrykacji i technologii spawania",
+      "section3List3": "Wysoka odporność chemiczna na wodę balastową, media chłodzące i środki czyszczące",
+      "section3List4": "W pełni nadające się do recyklingu i przyjazne dla środowiska",
+      "section4Eyebrow": "Proces K-Aqua",
+      "section4Title": "Od koncepcji do dziewiczego rejsu.",
+      "section4Lead": "Nasze zaangażowanie nie kończy się na dostawie. Uważamy się za integralnego partnera w całym łańcuchu wartości budownictwa okrętowego.",
+      "timeline1Title": "Faza 1: Badania Materiałowe i Testy Warunków Skrajnych",
+      "timeline1Desc": "Każda nowa iteracja produktu poddawana jest wielomiesięcznym testom w naszych niemieckich laboratoriach pod ekstremalnym ciśnieniem, w temperaturach i przy obciążeniach, które znacznie przewyższają rzeczywiste warunki morskie.",
+      "timeline2Title": "Faza 2: Certyfikacja przez Towarzystwa Klasyfikacyjne",
+      "timeline2Desc": "Nasze systemy są testowane przez wiodące jednostki certyfikujące z branży morskiej (takie jak DNV, Lloyd's Register, ABS) i dopuszczone do bezkompromisowego użytku na morzu.",
+      "timeline3Title": "Faza 3: Produkcja Precyzyjna i Zerowa Tolerancja Dla Błędów",
+      "timeline3Desc": "Produkcja w naszych wysoce zautomatyzowanych zakładach podlega ciągłej 360-stopniowej kontroli jakości. Każdy element opuszczający naszą fabrykę jest arcydziełem niemieckiej inżynierii.",
+      "timeline4Title": "Faza 4: Globalna Logistyka i Inżynieria na Miejscu",
+      "timeline4Desc": "Dostawa just-in-time do dowolnej stoczni na całym świecie. Na życzenie nasz zespół inżynierów towarzyszy procesowi instalacji, aby zapewnić maksymalną wydajność i całkowite bezpieczeństwo systemu.",
+      "section5Title": "Obietnica odlana w polimerze.",
+      "section5Desc": "Nie wierzymy w drogi na skróty. Wierzymy w testy obciążeń fizycznych, nadmiarowe kontrole jakości oraz w inżynierów, którzy mogą spać spokojnie każdej nocy, wiedząc, że zaprojektowany przez nich system sprawdzi się w każdych możliwych okolicznościach. K-Aqua to nie tylko produkt. To destylowane zaufanie przemysłu morskiego.",
+      "ctaTitle": "Gotowy na przyszłość budownictwa okrętowego?",
+      "ctaDesc": "Porozmawiajmy o Twoim kolejnym megaprojekcie. Nasz oddany zespół inżynierów morskich jest gotowy zaplanować, zoptymalizować i zrealizować infrastrukturę krytyczną Twojego statku.",
+      "ctaBtn": "Skontaktuj się z Pomocą Techniczną"
+    },
+    "klimaanlagen": {
+      "metaTitle": "Infrastruktura HVAC i Chłodnictwo | K-Aqua",
+      "metaDesc": "K-Aqua HVAC i Chłodnictwo – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii. Systemy rur polipropylenowych do wody lodowej, klimatyzacji i chłodzenia przemysłowego.",
+      "heroEyebrow": "Sektor Rynku: HVAC i Chłodnictwo",
+      "heroTitle": "Architektura Zimna.",
+      "heroSubtitle": "Niemiecka Inżynieria.",
+      "heroDesc": "Bezkompromisowe bezpieczeństwo sieci wody lodowej i systemów klimatyzacji. Gdy globalne megaprojekty nie tolerują przestojów, K-Aqua jest jedynym rozwiązaniem. Zaprojektowane na pokolenia.",
+      "heroBtnPrimary": "Określ Projekt",
+      "heroBtnSecondary": "Biała Księga Techniczna",
+      "section1Eyebrow": "Wyzwanie",
+      "section1Title": "Pięta achillesowa nowoczesnych systemów HVAC.",
+      "section1Lead": "Konwencjonalne systemy chłodzenia wykorzystujące gwinty stalowe i miedziane złączki zaprasowywane nieuchronnie zawodzą wobec praw termodynamiki i chemii. K-Aqua oferuje wyjście z cyklu korozji i wycieków.",
+      "section1P1": "W chłodnictwie przemysłowym i klimatyzacji budynków kondensacja, ciągłe wahania temperatur i agresywne media chłodzące stawiają przed systemem rur ekstremalne wymagania. Rury metalowe reagują korozją kondensacyjną, uszkodzeniami izolacji i pełzającym spadkiem ciśnienia.",
+      "section1P2": "<strong>Systemy polipropylenowe K-Aqua (PP-R i PP-RCT)</strong> przełamują ten paradygmat. Nasze sieci rurociągów są całkowicie odporne na korozję, oferują doskonałe właściwości przepływu bez inkrustacji oraz posiadają właściwości samoistnej izolacji termicznej, co drastycznie zmniejsza potrzebę zewnętrznej izolacji. To nie jest rura, to polisa ubezpieczeniowa infrastruktury.",
+      "scroll1Title": "Izolowana Doskonałość",
+      "scroll1Desc": "Nasze systemy PP-R i PP-RCT z natury charakteryzują się wyjątkowo niską przewodnością cieplną. W dużej mierze eliminuje to ryzyko powstawania kondensatu na zewnątrz rury – kluczowy czynnik w nowoczesnej technologii klimatyzacji. W przeciwieństwie do systemów metalowych, kosztowna i czasochłonna izolacja wtórna jest często niepotrzebna.",
+      "scroll2Title": "Architektura Bez Korozji",
+      "scroll2Desc": "Systemy wody lodowej wykonane ze stali nieuchronnie ulegają korozji, co prowadzi do wżerów, wycieków i stopniowego niszczenia systemu. Systemy K-Aqua są w 100% odporne na korozję. Brak inkrustacji, brak rdzy, brak zwężenia przekroju rury przez cały okres użytkowania wynoszący ponad 50 lat.",
+      "scroll3Title": "Jednorodne Spawanie",
+      "scroll3Desc": "Rdzeń naszej technologii bezpieczeństwa. Poprzez polifuzję rura i złączka łączą się na poziomie molekularnym w nierozłączną, jednorodną całość. Bez o-ringów, bez mechanicznych elementów łączących, które z czasem ulegają zmęczeniu. Rezultatem jest absolutna szczelność, nawet przy najsilniejszych wahaniach ciśnienia i obciążeniach mechanicznych.",
+      "scroll4Title": "Struktura Dźwiękochłonna",
+      "scroll4Desc": "Nowoczesne systemy HVAC wymagają cichej pracy. Systemy rur z tworzyw sztucznych K-Aqua pochłaniają hałas przepływu i wibracje pomp znacznie skuteczniej niż alternatywy metalowe. Umożliwia to stosowanie w strefach wrażliwych na hałas, takich jak sale operacyjne, luksusowe hotele i sale koncertowe, bez skomplikowanej wtórnej izolacji akustycznej.",
+      "section2Eyebrow": "Główna Technologia",
+      "section2Title": "Wyższość na poziomie molekularnym.",
+      "section2Lead": "Odkryj zasady projektowania, które czynią K-Aqua pierwszym wyborem dla międzynarodowych projektantów instalacji sanitarnych i generalnych wykonawców.",
+      "bentoHeader": "Parametry Wydajności",
+      "bentoSubheader": "Wymierna przewaga w każdym wymiarze przemysłowej techniki chłodniczej i klimatyzacyjnej.",
+      "bento1Title": "Do -20°C",
+      "bento1Desc": "Bezpieczna praca nawet przy bardzo niskich temperaturach zasilania z odpowiednimi nośnikami ciepła (np. mieszaninami glikolu).",
+      "bento2Title": "DN 20 do DN 400",
+      "bento2Desc": "Pełne spektrum wymiarów dla każdej skali – od chłodzenia pojedynczych pomieszczeń po centralne agregaty chłodnicze.",
+      "bento3Title": "75% Oszczędność Wagi",
+      "bento3Desc": "W porównaniu do rur stalowych. Umożliwia to szybki montaż podwieszany, zmniejsza obciążenia konstrukcyjne i znacznie obniża koszty transportu.",
+      "bento4Title": "Gwarancja Zerowego Wycieku",
+      "bento4Desc": "Spoiny spawane materiałowo całkowicie eliminują ryzyko awarii konwencjonalnych połączeń kołnierzowych i gwintowych.",
+      "timelineEyebrow": "Cykl Życia Projektu",
+      "timelineLead": "Od początkowych obliczeń cieplnych do bezobsługowej pracy przez dziesięciolecia. K-Aqua towarzyszy każdemu etapowi procesu z bezkompromisową precyzją.",
+      "timeline1Year": "Faza 01",
+      "timeline1Title": "Inżynieria i Specyfikacja",
+      "timeline1Desc": "Obliczanie spadków ciśnienia, liniowej rozszerzalności cieplnej i równoważenie hydrauliczne. Nasi inżynierowie wspierają dobór rozmiaru do DN 400.",
+      "timeline2Year": "Faza 02",
+      "timeline2Title": "Precyzyjna Produkcja",
+      "timeline2Desc": "Wytłaczanie i formowanie wtryskowe w warunkach clean room w naszej niemieckiej centrali. Płynna kontrola jakości każdej partii.",
+      "timeline3Year": "Faza 03",
+      "timeline3Title": "Globalna Logistyka",
+      "timeline3Desc": "Dostawa just-in-time na plac budowy. Niska waga PP-R (ok. 75% lżejsza od stali) znacznie ułatwia logistykę transportu i przeładunku.",
+      "timeline4Year": "Faza 04",
+      "timeline4Title": "Integracja Systemu",
+      "timeline4Desc": "Nawet o 50% szybszy montaż poprzez zgrzewanie polifuzyjne. Brak otwartego ognia, brak latających iskier, maksymalne bezpieczeństwo pracy.",
+      "timeline5Year": "Faza 05",
+      "timeline5Title": "Uruchomienie i Akceptacja",
+      "timeline5Desc": "Pomyślna próba ciśnieniowa i przekazanie systemu. Od tego momentu rozpoczyna się trwająca dziesięciolecia, całkowicie bezobsługowa faza eksploatacji systemu K-Aqua.",
+      "section3Eyebrow": "Specyfikacje",
+      "section3Title": "Certyfikowana Niezawodność.",
+      "section3P1": "Systemy HVAC K-Aqua są testowane i certyfikowane zgodnie z najbardziej rygorystycznymi normami międzynarodowymi. Właściwości materiałowe PP-RCT pozwalają na wyższe obciążenia ciśnieniowe przy zmniejszonej grubości ścianki.",
+      "section3P2": "Oznacza to: większą średnicę wewnętrzną przy tej samej średnicy zewnętrznej, co maksymalizuje przepływ hydrauliczny i drastycznie zmniejsza energię pompy wymaganą dla sieci chłodniczej.",
+      "card1Title": "Standard Przemysłowy",
+      "card1Desc": "Zgodność z normą DIN EN ISO 15874 i wytycznymi SKZ.",
+      "card2Title": "Łatwa Konserwacja",
+      "card2Desc": "Sieć rur nie wymaga konserwacji. W 100% bezobsługowa.",
+      "card3Title": "Globalne Wsparcie",
+      "card3Desc": "Światowa sieć certyfikowanych instalatorów K-Aqua.",
+      "card4Title": "Gwarancja",
+      "card4Desc": "Rozszerzona gwarancja systemowa dla certyfikowanych projektów.",
+      "ctaTitle": "Zabezpiecz swój kolejny megaprojekt.",
+      "ctaDesc": "Nasi inżynierowie są gotowi dobrać rozmiar infrastruktury chłodniczej dla Twojego projektu. Skorzystaj z niemieckiej inżynierii, która wyznacza standardy.",
+      "ctaBtn1": "Omów Projekt",
+      "ctaBtn2": "Pobierz Teksty Przetargowe"
+    },
+    "industrie": {
+      "metaTitle": "Zakłady Przemysłowe | K-Aqua",
+      "metaDesc": "K-Aqua Zakłady Przemysłowe – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "heroEyebrow": "Przemysłowa Klasa Mistrzowska",
+      "heroTitle": "Zakłady Przemysłowe.",
+      "heroSubtitle": "Zaprojektowane w Niemczech.",
+      "heroDesc": "Gdy tolerancje mierzy się w mikrometrach, a awarie systemu kosztują miliony, światowi liderzy technologii ufają K-Aqua. Bezkompromisowe systemy rurowe dla najtrudniejszych wymagań przemysłowych.",
+      "heroBtnPrimary": "Zapytaj o Projekt",
+      "heroBtnSecondary": "Specyfikacje Techniczne",
+      "section1Eyebrow": "Architektura Niezawodności",
+      "section1Title": "DNA absolutnej odporności na awarie.",
+      "section1Lead": "W nowoczesnym przemyśle o wysokiej wydajności nie ma miejsca na zmęczenie materiału. Nasze systemy nie są opracowywane tylko dla dzisiejszych standardów – definiują normy jutra.",
+      "bento1Title": "Odporność Termoplastyczna",
+      "bento1Desc": "Nasze wysokowydajne polimery PP-R i PP-RCT trwale wytrzymują ekstremalne wahania temperatury i wysoce korozyjne media bez degradacji molekularnej.",
+      "bento2Title": "100% Odporności na Ciśnienie",
+      "bento2Desc": "Jednorodne połączenia spawane eliminują uszczelki jako słaby punkt. Nierozdzielna, stabilna ciśnieniowo sieć dla maksymalnej niezawodności operacyjnej.",
+      "bento3Title": "Obojętność Chemiczna",
+      "bento3Desc": "Odporność na setki agresywnych kwasów, zasad i rozpuszczalników. Idealne do inżynierii procesów chemicznych i produkcji półprzewodników.",
+      "bento4Title": "Tłumienie Akustyczne",
+      "bento4Desc": "Znaczna redukcja hałasu przepływu i uderzeń hydraulicznych dzięki właściwej dla materiału izolacji akustycznej i dużej grubości ścianek.",
+      "section2Eyebrow": "Głęboka Analiza",
+      "section2Title": "Sztuka inżynierska w szczegółach.",
+      "section2Lead": "Spojrzenie pod powierzchnię ujawnia, dlaczego K-Aqua jest polecana w najbardziej krytycznych infrastrukturach na świecie.",
+      "scroll1Title": "Precyzja Wytłaczania",
+      "scroll1Desc": "Nasze zakłady produkcyjne w Niemczech pracują z laserowymi systemami pomiarowymi, które monitorują grubość ścianek i średnice w czasie rzeczywistym. Każde odchylenie poza mikroskopijną tolerancję prowadzi do natychmiastowego automatycznego odrzucenia. Ta absolutna dokładność wymiarowa gwarantuje doskonałe wyniki spawania na placu budowy.",
+      "scroll2Title": "Jednorodna Polifuzja",
+      "scroll2Desc": "W przeciwieństwie do połączeń mechanicznych czy systemów klejonych, nasze rury i złączki łączą się na poziomie molekularnym. Obszar przejściowy staje się de facto silniejszy niż sama rura. Eliminuje to ryzyko wycieków spowodowane wibracjami, skokami ciśnienia czy starzeniem się materiału w tradycyjnych systemach.",
+      "scroll3Title": "Kontrola Rozszerzalności Cieplnej",
+      "scroll3Desc": "Nasze rury z kompozytu włóknistego (technologia włókien) posiadają zintegrowane specjalne warstwy włókna szklanego w rdzeniu. Zmniejsza to termiczną rozszerzalność liniową nawet o 75% w porównaniu ze standardowymi rurami z tworzywa sztucznego, co drastycznie minimalizuje liczbę wymaganych punktów mocowania i rewolucjonizuje statykę rur.",
+      "scroll4Title": "Certyfikowana Czystość",
+      "scroll4Desc": "Dla zastosowań w przemyśle spożywczym, farmaceutycznym i półprzewodników oferujemy systemy całkowicie bezpieczne toksykologicznie. Brak wypłukiwania metali ciężkich, brak korozji mikrobiologicznej (MIC) oraz absolutna neutralność zapachu i smaku zgodnie z najbardziej rygorystycznymi normami międzynarodowymi.",
+      "timelineEyebrow": "Cykl Życia K-Aqua",
+      "timelineLead": "Od początkowej fazy planowania po dziesięciolecia bezobsługowej pracy – towarzyszymy Twojemu projektowi na każdym krytycznym etapie.",
+      "timeline1Year": "Faza 01",
+      "timeline1Title": "Hydraulika i Statyka",
+      "timeline1Desc": "Nasz zespół inżynierów wspiera Twoich specjalistów ds. planowania danymi BIM, obliczeniami strat ciśnienia i analizami rozszerzalności w celu zapewnienia maksymalnej niezawodności planowania.",
+      "timeline2Year": "Faza 02",
+      "timeline2Title": "Prefabrykacja",
+      "timeline2Desc": "Złożone rozdzielacze i podzespoły są prefabrykowane z milimetrową precyzją w naszej fabryce w idealnych warunkach, testowane i dostarczane just-in-time na plac budowy.",
+      "timeline3Year": "Faza 03",
+      "timeline3Title": "Instalacja",
+      "timeline3Desc": "Dzięki niskiej wadze i szybkiej technologii polifuzji czas instalacji skraca się nawet o 50% w porównaniu do systemów metalowych.",
+      "timeline4Year": "Faza 04",
+      "timeline4Title": "Uruchomienie",
+      "timeline4Desc": "Próba ciśnieniowa i płukanie. System jest od razu w pełni odporny. Brak czasu utwardzania klejów, brak konieczności stosowania zabiegów antykorozyjnych.",
+      "timeline5Year": "Faza 05",
+      "timeline5Title": "Dziesięciolecia Działania",
+      "timeline5Desc": "Podczas gdy systemy metalowe wymagają ciągłej konserwacji i monitorowania korozji, K-Aqua działa całkowicie bezobsługowo przez ponad 50 lat.",
+      "section3Eyebrow": "Niezłomna Jakość",
+      "section3Title": "Testowane poza granicami wytrzymałości.",
+      "section3P1": "Zanim system K-Aqua otrzyma zgodę na rynek globalny, przechodzi przez scenariusze tortur w naszym wewnętrznym laboratorium testowym, które nigdy nie miałyby miejsca w prawdziwym świecie.",
+      "section3P2": "Symulujemy ekstremalne uderzenia hydrauliczne, przyspieszone starzenie termiczne w procesie poklatkowym, testy ciśnienia rozrywającego przy ponad 100 barach oraz testy ciągłego obciążenia w temperaturze 95°C przez tysiące godzin. Tylko to, co przetrwa to piekło bez szwanku, zasługuje na tytuł <strong class=\"text-foreground font-semibold\">Niemiecka Inżynieria</strong>.",
+      "stat1Value": "> 50",
+      "stat1Label": "Lat Żywotności",
+      "stat2Value": "0.0 %",
+      "stat2Label": "Ryzyko Korozji",
+      "stat3Value": "100 %",
+      "stat3Label": "W Nadające się do Recyklingu",
+      "stat4Value": "ISO",
+      "stat4Label": "Certyfikowane",
+      "ctaTitle": "Zabezpiecz swój kolejny megaprojekt.",
+      "ctaDesc": "Nasi inżynierowie są gotowi dobrać rozmiar infrastruktury krytycznej dla Twojego zakładu przemysłowego. Nie polegaj na domysłach. Buduj z K-Aqua.",
+      "ctaBtn": "Zamów Konsultacje Techniczne"
+    },
+    "trinkwasser": {
+      "metaTitle": "Infrastruktura Wody Pitnej | K-Aqua",
+      "metaDesc": "Woda Pitna K-Aqua – Bezkompromisowe bezpieczeństwo dzięki niemieckiej inżynierii dla globalnych megaprojektów.",
+      "heroEyebrow": "Infrastruktura Wody Pitnej",
+      "heroTitle": "Najczystsza forma",
+      "heroSubtitle": "Bezpieczeństwa Systemowego.",
+      "heroDesc": "Bezkompromisowa higiena, niezrównana trwałość i absolutna odporność na korozję. Systemy rur PP-R K-Aqua wyznaczają ostateczny globalny standard w zakresie transportu naszego najważniejszego pożywienia.",
+      "heroBtnPrimary": "Zapytaj o Projekt",
+      "heroBtnSecondary": "Specyfikacje Techniczne",
+      "section1Eyebrow": "Filozofia Wody",
+      "section1Title": "Brak miejsca na kompromisy.",
+      "section1Lead": "Jeśli chodzi o zaopatrzenie w wodę pitną megamiast, szpitali i dużych projektów przemysłowych, słowo „wystarczająco” nigdy nie wystarczy. Budujemy infrastrukturę na wieczność.",
+      "section1P1": "Woda to nie tylko zasób; to fundament cywilizacji. Systemy rurociągów, które ją transportują, są niewidzialnym układem nerwowym naszych miast. Awaria tego systemu to coś więcej niż tylko strata finansowa – to krytyczna awaria infrastruktury.",
+      "section1P2": "Dlatego w K-Aqua realizujemy podejście inżynieryjne oparte na założeniu <strong class=\"text-foreground\">zerowej tolerancji dla wad</strong>. Podczas gdy konwencjonalne systemy metalowe lub kompozytowe mają obliczony czas rozkładu (korozja, inkrustacja, zmęczenie uszczelek), nasze systemy PP-R i PP-RCT eliminują te czynniki dzięki swoim fundamentalnym właściwościom fizycznym i chemicznym.",
+      "section1P3": "Jednorodna spoina polifuzyjna oznacza, że sieć nie składa się z tysięcy pojedynczych części, ale z jednej, ciągłej makrocząsteczki. To jest istota <em class=\"text-foreground italic\">Niemieckiej Inżynierii</em>: Zaprojektowanie systemu, który nie tylko działa dzisiaj, ale za 50 lat będzie miał dokładnie takie same właściwości hydrauliczne i higieniczne, jak w dniu oddania do eksploatacji.",
+      "section2Eyebrow": "Głębia Technologiczna",
+      "section2Title": "Architektura Tego, Co Doskonałe.",
+      "section2Lead": "Przewaga systemu K-Aqua nie polega na cechach powierzchownych, ale na jego głębokiej konstrukcji specyficznej dla danego materiału.",
+      "scroll1Title": "Integralność Molekularna (PP-R / PP-RCT)",
+      "scroll1Desc": "Nasze systemy wody pitnej są wykonane z wielkocząsteczkowego kopolimeru statystycznego polipropylenu. Struktura makromolekularna gwarantuje absolutną obojętność wobec agresywnych właściwości wody i dodatków chemicznych. Rury nie oddziałują z przepływającym medium na poziomie mikroskopijnym, fizycznie wykluczając jakąkolwiek migrację cząstek lub skażenie wody pitnej na poziomie molekularnym.",
+      "scroll2Title": "Zgrzewanie Termofuzyjne",
+      "scroll2Desc": "Zapomnij o O-ringach, uszczelkach czy mechanicznych połączeniach zaciskowych. Nasz system opiera się na jednorodnej fuzji materiałów (polifuzja). Rura i złączka stapiają się w temperaturze 260°C w jedną, nierozerwalną całość fizyczną. Rezultatem jest idealnie jednorodny system rurowy, w którym nie ma potencjalnie słabych punktów na złączach. Tam, gdzie nie ma uszczelki, żadna uszczelka nie może ulec awarii.",
+      "scroll3Title": "Odporność Bakteriologiczna",
+      "scroll3Desc": "Gładkie jak lustro powierzchnie wewnętrzne naszych systemów rurowych (współczynnik chropowatości k = 0,007 mm) nie dają mikroorganizmom ani biofilmom żadnej powierzchni do ataku. Eliminuje to ryzyko powstawania bakterii z rodzaju Legionella i rozwoju bakteriologicznego. W połączeniu z absolutną nieprzezroczystością ryzyko skażenia mikrobiologicznego zostaje zredukowane do absolutnego minimum, dzięki czemu system ten stanowi pierwszy wybór dla szpitali i wysoce wrażliwej infrastruktury.",
+      "scroll4Title": "Hydrauliczna Długoterminowa Wydajność",
+      "scroll4Desc": "Z biegiem dziesięcioleci rury metalowe poddawane są postępującemu procesowi korozji i inkrustacji, który zwęża przekrój i drastycznie zwiększa straty ciśnienia. Systemy K-Aqua zachowują swój początkowy przekrój hydrauliczny przez cały okres eksploatacji przekraczający 50 lat. Wydajność pomp pozostaje stała, unika się kawitacji, a koszty operacyjne infrastruktury (OPEX) pozostają dokładnie na wyliczonym poziomie.",
+      "section3Eyebrow": "Matryca Wydajności",
+      "section3Title": "Przewaga systemowa skwantyfikowana.",
+      "section3Lead": "Certyfikat K-Aqua, zgodny z najbardziej rygorystycznymi światowymi normami (DIN, EN, ISO, DVGW, SKZ), zapewnia wymiernie wyższą wydajność w odniesieniu do wszystkich krytycznych wskaźników wydajności (KPI).",
+      "bento1Title": "100% Odporności na Korozję",
+      "bento1Desc": "Podczas gdy metale nieuchronnie reagują z wodą i tlenem, PP-R pozostaje całkowicie obojętny. Bez korozji wżerowej, bez powstawania rdzy, bez zanieczyszczenia medium.",
+      "bento2Title": "Żywotność > 50 Lat",
+      "bento2Desc": "W znormalizowanych warunkach pracy (20°C / 10 bar) system posiada certyfikat użytkowania na okres ponad 50 lat. Odpowiada to zakładanemu okresowi użytkowania nowoczesnych nieruchomości.",
+      "bento3Title": "Dźwiękochłonne",
+      "bento3Desc": "Wysoka gęstość i elastyczność polipropylenu bardzo skutecznie pochłaniają odgłosy przepływu i skoki ciśnienia (uderzenia wodne). Rezultatem jest wyjątkowo cicha praca, idealna dla hoteli premium.",
+      "bento4Title": "Niska Przewodność Cieplna",
+      "bento4Desc": "Dzięki przewodności cieplnej wynoszącej zaledwie 0,24 W/mK, system drastycznie minimalizuje kondensację i utratę ciepła. Wymaga znacznie mniej zewnętrznej izolacji niż rury miedziane lub stalowe.",
+      "bento5Title": "Odporność na Ciśnienie PN25",
+      "bento5Desc": "Nasze rury o wysokiej wydajności (SDR 6 / PN 25) wytrzymują ogromne ciśnienie robocze i skoki temperatury. Przeznaczone do pionów w wieżowcach i instalacjach wysokociśnieniowych.",
+      "bento6Title": "Bezpieczne dla Żywności i Nieszkodliwe Toksykologicznie",
+      "bento6Desc": "Nie zawiera metali ciężkich, plastyfikatorów ani toksycznych dodatków. PP-R spełnia najwyższe międzynarodowe normy dla wody pitnej i nie wpływa na smak ani zapach wody.",
+      "bento7Title": "Certyfikaty Globalne",
+      "bento7Desc": "K-Aqua jest stale monitorowana przez niezależne instytuty badawcze. SKZ, WRAS i wiele innych potwierdzają stałą, bezkompromisową, najwyższą jakość naszej produkcji.",
+      "timelineEyebrow": "Cykl Życia Jakości",
+      "timelineLead": "Od surowca do kilkudziesięciu lat użytkowania: Każdy krok w cyklu życia systemu rur K-Aqua podlega ścisłym protokołom jakości.",
+      "timeline1Year": "Faza 1",
+      "timeline1Title": "Specyfikacja Materiałów",
+      "timeline1Desc": "Wybór granulatu o najwyższej czystości (Borealis / Sabic). Certyfikowana kontrola każdej partii w laboratorium testowym K-Aqua pod kątem rozkładu masy cząsteczkowej i wskaźnika płynięcia (MFI).",
+      "timeline2Year": "Faza 2",
+      "timeline2Title": "Wytłaczanie Precyzyjne",
+      "timeline2Desc": "Obróbka na najnowocześniejszych, sterowanych komputerowo wytłaczarkach firmy KraussMaffei. Ultradźwiękowy pomiar grubości ścianki w trakcie trwającego procesu zapewnia tolerancję wymiarową w zakresie mikrometrów.",
+      "timeline3Year": "Faza 3",
+      "timeline3Title": "Złączki Formowane Wtryskowo",
+      "timeline3Desc": "W pełni zautomatyzowana produkcja komponentów systemu w warunkach czystego pomieszczenia. Metalowe wkładki gwintowane wykonane z mosiądzu odpornego na odcynkowanie (DZR) są oblewane w sposób dopasowany i odporny na skręcanie.",
+      "timeline4Year": "Faza 4",
+      "timeline4Title": "Próba Napięcia Hydrostatycznego",
+      "timeline4Desc": "Każda partia produkcyjna przechodzi niszczące próby ciśnienia rozrywającego i próby pełzania pod ciśnieniem wewnętrznym przez 1000 godzin w temperaturze 95°C. Tylko partie w 100% bezbłędne są dopuszczane do eksportu na cały świat.",
+      "timeline5Year": "Faza 5",
+      "timeline5Title": "Integracja Systemu",
+      "timeline5Desc": "Montaż na miejscu przez certyfikowanych spawaczy. Jednorodna polifuzja tworzy system ciągły, bez mechanicznych słabych punktów. Końcowa próba ciśnieniowa sprawdza integralność bezpieczeństwa całej sieci.",
+      "section4Title": "Suma szczegółów technicznych.",
+      "section4P1": "Prawdziwa inżynieria objawia się w sumie perfekcyjnych detali. Nasz zakres wymiarowy sięga od 20 mm w przypadku tzw. ostatniej mili aż do 160 mm w przypadku gigantycznych głównych linii zasilających. Każdy element jest precyzyjnie dostosowany do architektury systemu.",
+      "section4P2": "Czy to w pionach w 80-piętrowym wieżowcu, skomplikowanych sieciach dystrybucyjnych w przemysłowych obiegach chłodzenia, czy też w bardzo wrażliwych ujęciach wody pitnej w klinikach – systemy K-Aqua oferują dokładne, certyfikowane rozwiązanie dla każdego wyzwania hydraulicznego.",
+      "stat1Value": "20-160",
+      "stat1Unit": "mm",
+      "stat1Label": "Zakres Średnic",
+      "stat2Value": "25",
+      "stat2Unit": "bar",
+      "stat2Label": "Maks. Ciśnienie Nominalne (PN)",
+      "stat3Value": "95",
+      "stat3Unit": "°C",
+      "stat3Label": "Maks. Temperatura",
+      "stat4Value": "50",
+      "stat4Unit": "+ Lat",
+      "stat4Label": "Żywotność",
+      "ctaTitle": "Zabezpiecz swoją infrastrukturę.",
+      "ctaDesc": "Porozmawiaj z naszym zespołem inżynierów o swoim kolejnym megaprojekcie. Nie tylko dostarczamy rury, dostarczamy bezpieczeństwo systemu.",
+      "ctaBtn": "Skontaktuj się z Wsparciem Technicznym"
+    }
+  },
+  "wissen": {
+    "meta": {
+      "title": "Wiedza specjalistyczna i dane inżynieryjne | K-Aqua",
+      "desc": "Dogłębna wiedza techniczna, analizy architektury systemów i bezkompromisowe dane inżynieryjne dotyczące systemów rurowych K-Aqua."
+    },
+    "scroll": {
+      "items": {
+        "0": {
+          "title": "Architektura matrycy PP-RCT",
+          "desc": "Integralność strukturalna naszych bezładnych kopolimerów polipropylenowych o zmodyfikowanej krystaliczności (PP-RCT) na nowo definiuje granice odporności termicznej. W ekstremalnych cyklach ciśnienia i temperatury nasza sześciokątna struktura siatkowa zapewnia mikroskopijny rozkład naprężeń, który praktycznie eliminuje zmęczenie materiału. Zmiana paradygmatu w mechanice płynów."
+        },
+        "1": {
+          "title": "Izolacja termodynamiczna",
+          "desc": "Nasze współwytłaczane warstwy izolacyjne oparte są na technologii poliuretanów o zamkniętych komórkach. Współczynnik przenikania ciepła (wartość U) jest zredukowany do teoretycznego minimum. Straty energii nie są już zmienną w obliczeniach systemów – są tłumione w zarodku przez naszą architekturę systemu. Absolutna kontrola termiczna."
+        },
+        "2": {
+          "title": "Certyfikowana sterylność",
+          "desc": "Jeśli chodzi o infrastrukturę wody pitnej, nie ma kompromisów. Nasze systemy nie tylko posiadają certyfikat DVGW, ale przewyższają wymagania rozporządzenia w sprawie wody pitnej (TrinkwV) o rzędy wielkości. Ultra gładka powierzchnia wewnętrzna (chropowatość k=0,007 mm) zapobiega przyleganiu drobnoustrojów i tworzeniu się biofilmu. Czystość na poziomie molekularnym."
+        },
+        "3": {
+          "title": "Badania nieniszczące (NDT)",
+          "desc": "Każdy system rurociągów przechodzi przez naszą zautomatyzowaną diagnostykę ultradźwiękową i rentgenowską. Analizujemy spoiny na poziomie submilimetrowym. Anomalie, puste przestrzenie lub wtrącenia są identyfikowane za pomocą wykrywania defektów opartego na sztucznej inteligencji, zanim produkt opuści linię produkcyjną. 100% identyfikowalność. Zero tolerancji dla wad."
+        }
+      }
+    },
+    "timeline": {
+      "items": {
+        "0": {
+          "year": "FAZA I",
+          "title": "Synteza molekularna",
+          "text": "Proces rozpoczyna się na poziomie atomowym. Polimeryzacja katalityczna w warunkach ekstremalnego ciśnienia tworzy podstawowe granulaty PP-RCT. Specyficzne środki zarodkujące indukują tworzenie odpornej struktury beta krystalicznej."
+        },
+        "1": {
+          "year": "FAZA II",
+          "title": "Precyzyjne współwytłaczanie",
+          "text": "Granulki topi się w temperaturze 240°C i prasuje za pomocą kalibrowanych narzędzi. Jednoczesne wytłaczanie kilku warstw funkcjonalnych (masa z włókna szklanego, warstwa wierzchnia) odbywa się przy sterowaniu laserem z dokładnością do mikrometrów."
+        },
+        "2": {
+          "year": "FAZA III",
+          "title": "Stabilizacja termiczna",
+          "text": "Złożony protokół chłodzenia ustala orientację makrocząsteczek. Kontrolowany gradient temperatury zapobiega naprężeniom wewnętrznym i gwarantuje absolutną stabilność wymiarową geometrii rury."
+        },
+        "3": {
+          "year": "FAZA IV",
+          "title": "Hiperaudyt",
+          "text": "Próby hydraulicznego ciśnienia rozrywającego, próby pełzania ciśnienia wewnętrznego w temperaturze 95°C oraz nieniszczące analizy materiałowe. Ostateczną akceptację otrzymują tylko systemy, które przekraczają standardowy limit obciążenia o 300%."
+        }
+      },
+      "title": "Geneza uczciwości",
+      "desc": "Od katalizatora molekularnego po kontrolowany produkt końcowy. Sekwencyjne spojrzenie na naszą bezkompromisową matrycę produkcyjną."
+    },
+    "hero": {
+      "eyebrow": "Inteligencja systemowa",
+      "title1": "Techniczny",
+      "title2": "Baza wiedzy",
+      "desc": "Bezkompromisowa precyzja. Analityka oparta na danych. Nie ma miejsca na tolerancję błędów. Zanurz się w czystej, sprawdzonej inżynierii architektury systemu K-Aqua.",
+      "status": "Stan systemu: Online",
+      "clearance": "Poziom uprawnień 4"
+    },
+    "deep": {
+      "badge": "Podstawowe specyfikacje",
+      "title1": "Nauka o materiałach i",
+      "title2": "Protokoły",
+      "desc": "Nie zostawiamy niczego przypadkowi. Każda specyfikacja jest wynikiem badań empirycznych i rygorystycznych testów obciążeniowych w najbardziej ekstremalnych warunkach przemysłowych."
+    },
+    "grid": {
+      "badge": "Publikacje",
+      "title1": "Atestowany",
+      "title2": "Wiedzieć",
+      "desc": "Dostęp do szczegółowych artykułów technicznych, oficjalnych dokumentów i analiz architektury systemu. Sprawdzone dane dla inżynierów i planistów.",
+      "read": "Czytać"
+    },
+    "cta": {
+      "title1": "INTEGRALNOŚĆ SYSTEMU",
+      "title2": "POTWIERDZONY.",
+      "desc": "Dotarłeś do końca specyfikacji. Gotowy do przekształcenia teorii w rzeczywistość przemysłową?",
+      "btn": "Zainicjuj kontakt"
+    }
+  },
+  "bim": {
+    "sticky": {
+      "items": {
+        "0": {
+          "title": "Maksymalna głębokość danych (LOI 500)",
+          "desc": "Nasze modele BIM oferują nie tylko precyzyjną reprezentację geometryczną (LOD), ale przede wszystkim niezrównaną głębię informacji (LOI). Każda rura, złączka i zawór zawiera wszystkie krytyczne metadane: specyfikacje materiałów, wartości ciśnienia, współczynniki rozszerzalności cieplnej i dokładne numery pozycji na potrzeby automatycznego przetargu."
+        },
+        "1": {
+          "title": "Planowanie bezkolizyjne",
+          "desc": "W projektach wartych miliardy dolarów wykrywanie kolizji nie podlega negocjacjom. Nasze natywne pliki Revit i IFC gwarantują bezproblemową integrację z Navisworks lub Solibri. Dokładna średnica zewnętrzna wraz z tolerancjami spoin zapobiega kosztownym niespodziankom na placu budowy."
+        },
+        "2": {
+          "title": "Inteligencja parametryczna",
+          "desc": "Rodziny K-Aqua BIM są w pełni parametryczne. Dostosowują się dynamicznie do prowadzenia kabli, nachyleń i wymiarów. Zintegrowane automatyczne wyznaczanie trasy automatycznie wybiera prawidłowe redukcje i kąty łuku zgodnie ze ścisłymi specyfikacjami normy DIN EN ISO 15874."
+        },
+        "3": {
+          "title": "Zarządzanie cyklem życia i obiektami",
+          "desc": "Cyfrowy bliźniak nie kończy się w momencie przekazania budynku. Nasze obiekty BIM są kompatybilne z COBie i zapewniają zarządowi obiektu wszystkie niezbędne okresy konserwacji, certyfikaty i dane eksploatacyjne przez bezpieczny cykl życia wynoszący ponad 50 lat."
+        }
+      },
+      "eyebrow": "Doskonałość przepływu pracy",
+      "title": "Cyfrowe bliźniaki w perfekcji.",
+      "lead": "Wgląd w głębokość danych, który eliminuje różnicę między planowaniem a rzeczywistością."
+    },
+    "timeline": {
+      "items": {
+        "0": {
+          "year": "Faza 1",
+          "title": "Koncepcja i planowanie TGA",
+          "text": "Integracja podstawowych geometrii K-Aqua we wczesnym projekcie. Szybkie określenie masy i wstępna kontrola kolizji dla koncepcji trasy w planie ogólnym TGA."
+        },
+        "1": {
+          "year": "Faza 2",
+          "title": "Planowanie wykonania",
+          "text": "Konwersja do LOI 400. Dokładne specyfikacje, prędkości przepływu i obliczenia strat ciśnienia są uwzględniane bezpośrednio w obliczeniach sieci hydraulicznej budynku."
+        },
+        "2": {
+          "year": "Faza 3",
+          "title": "Przetargi i przyznanie nagród",
+          "text": "Zautomatyzowane generowanie bezbłędnych zestawień materiałów (BOM) bezpośrednio z modelu. Każda armatura jest zapisana z numerem artykułu K-Aqua i danymi VDI 3805."
+        },
+        "3": {
+          "year": "Faza 4",
+          "title": "Prefabrykacja i montaż",
+          "text": "Eksport rysunków izometrycznych do prefabrykacji przemysłowej. Dokładne co do milimetra rysunki szpul minimalizują prace spawalnicze na placu budowy do absolutnego minimum."
+        },
+        "4": {
+          "year": "Faza 5",
+          "title": "Po zbudowaniu i użytkowaniu",
+          "text": "Przekazanie modelu powykonawczego. Cyfrowy bliźniak służy jako pojedyncze źródło prawdy dla zarządzania obiektem przez cały okres użytkowania budynku."
+        }
+      },
+      "title": "Cykl życia danych BIM K-Aqua",
+      "desc": "Od pierwszego szkicu po dziesięciolecia eksploatacji. Nasze dane towarzyszą Twojemu projektowi na każdym etapie."
+    },
+    "hero": {
+      "desc": "Moduł ten zapewnia bezkompromisowe bezpieczeństwo dla najbardziej wymagających projektów na całym świecie. Wykonane zgodnie z najsurowszymi standardami branżowymi, aby przetrwać pokolenia. Pobierz cyfrowego bliźniaka, w którym awaria materiału nie wchodzi w grę.",
+      "btnPrimary": "Biblioteka BIM (Revit/IFC)",
+      "btnGhost": "Poproś o konsultację BIM"
+    },
+    "intro": {
+      "title1": "DNA naszych systemów rurowych.",
+      "title2": "Teraz w chmurze.",
+      "p1": "Nie rozumiemy BIM jako samych rysunków 3D. Dla K-Aqua modelowanie informacji o budynku oznacza przeniesienie naszej bezkompromisowej precyzji produkcji do przestrzeni cyfrowej. Kiedy międzynarodowi generalni wykonawcy planują drapacze chmur, centra danych czy laboratoria o wysokim poziomie bezpieczeństwa, nie potrzebują szacunkowych wartości – potrzebują fizycznej rzeczywistości w postaci danych.",
+      "p2": "Nasze zbiory danych są wynikiem dziesięcioleci niemieckiej inżynierii. Każda grubość ścianki, każda dynamika płynów i każda właściwość termiczna została sprawdzona przez naszych inżynierów i natywnie przełożona na rodziny."
+    },
+    "bento": {
+      "items": {
+        "0": {
+          "title": "Rodziny rodzime Revit®",
+          "desc": "Brak strat konwersji. Bezpośrednio zaprogramowane jako .rfa i .rvt dla najwyższej wydajności i natywnych preferencji routingu."
+        },
+        "1": {
+          "title": "Zgodność z VDI 3805",
+          "desc": "Standaryzowane dane produktowe umożliwiające płynną wymianę danych w całym łańcuchu TGA."
+        },
+        "2": {
+          "title": "Certyfikat IFC4",
+          "desc": "Maksymalna interoperacyjność dzięki otwartym standardom BIM (OpenBIM). Gwarantowana czytelność w ArchiCAD, Allplan i Vectorworks."
+        },
+        "3": {
+          "title": "Dokładne dane termiczne",
+          "desc": "Zintegrowane modele obliczeniowe rozszerzalności liniowej, przewodności cieplnej (0,24 W/mK) i spadku ciśnienia w rurze."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pobierz pakiet K-Aqua BIM.",
+      "desc": "Pełny dostęp do wszystkich natywnych rodzin Revit, plików IFC i zbiorów danych VDI 3805. Bezpłatnie dla planistów i inżynierów.",
+      "btnPrimary": "Do centrum pobierania",
+      "btnOutline": "Skontaktuj się z menadżerem BIM"
+    }
   }
 }

@@ -6,6 +6,7 @@ import { Logo } from '@/components/ui/Logo';
 
 import FooterSitemap from './FooterSitemap';
 import FooterTrustBadges from './FooterTrustBadges';
+import CodayAttribution from './CodayAttribution';
 
 
 export default function Footer() {
@@ -56,6 +57,10 @@ export default function Footer() {
             <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
               {t('footer.privacy')}
             </Link>
+          </div>
+
+          <div className="flex justify-center md:justify-end">
+            <CodayAttribution />
           </div>
         </div>
 

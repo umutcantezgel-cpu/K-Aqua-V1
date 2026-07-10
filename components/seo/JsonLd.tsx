@@ -126,6 +126,16 @@ export interface WebPageJsonLd {
   description?: string;
   url: string;
   inLanguage?: string;
+  creator?: {
+    "@type": "Organization";
+    name: string;
+    url: string;
+  };
+  publisher?: {
+    "@type": "Organization";
+    name: string;
+    url: string;
+  };
 }
 
 export type SchemaLd =

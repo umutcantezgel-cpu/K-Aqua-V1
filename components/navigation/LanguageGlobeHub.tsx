@@ -239,7 +239,7 @@ export function LanguageGlobeHub({
           ref={tipRef}
           aria-hidden="true"
           className={`pointer-events-none fixed left-0 top-0 z-40 flex items-stretch gap-2.5 rounded-[10px]
-                      py-2 pl-2.5 pr-3 opacity-0 transition-opacity duration-150
+                      py-2 ps-2.5 pe-3 opacity-0 transition-opacity duration-150
                       data-[on=1]:opacity-100 max-lg:hidden ${glass(dark)}`}
         >
           <span className="w-[3px] rounded-sm bg-(--lc)"></span>

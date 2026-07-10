@@ -55,13 +55,13 @@ export default function FooterNewsletter() {
               <div>
                 <label htmlFor="email-newsletter" className="sr-only">E-Mail Adresse</label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                     <Mail className="h-5 w-5 text-slate-400" />
                   </div>
                   <input
                     type="email"
                     id="email-newsletter"
-                    className="block w-full pl-10 pr-3 py-3 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm"
+                    className="block w-full ps-10 pe-3 py-3 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm"
                     placeholder="Ihre E-Mail"
                     required
                   />
@@ -89,13 +89,13 @@ export default function FooterNewsletter() {
               <div>
                 <label htmlFor="name-contact" className="sr-only">Name</label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <div className="absolute inset-y-0 start-0 ps-3 flex items-center pointer-events-none">
                     <User className="h-5 w-5 text-slate-400" />
                   </div>
                   <input
                     type="text"
                     id="name-contact"
-                    className="block w-full pl-10 pr-3 py-2.5 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm"
+                    className="block w-full ps-10 pe-3 py-2.5 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm"
                     placeholder="Ihr Name"
                     required
                   />
@@ -110,7 +110,7 @@ export default function FooterNewsletter() {
                   <textarea
                     id="message-contact"
                     rows={3}
-                    className="block w-full pl-10 pr-3 py-2.5 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm resize-none"
+                    className="block w-full ps-10 pe-3 py-2.5 border border-white/10 rounded-lg leading-5 bg-white/5 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-aqua-500 focus:border-aqua-500 transition-all duration-300 sm:text-sm resize-none"
                     placeholder="Wie können wir helfen?"
                     required
                   ></textarea>

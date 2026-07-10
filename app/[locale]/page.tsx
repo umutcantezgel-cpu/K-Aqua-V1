@@ -10,6 +10,7 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
+import { ExportGlobe } from '@/components/ui/ExportGlobe';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
@@ -315,6 +316,41 @@ export default async function Page({ params }: Props) {
 
       {/* 7.5) Deep Content Home */}
       <HomeDeep />
+
+      {/* 7.6) Export- & Handelsrouten Globus */}
+      <section className="py-24 lg:py-32 bg-background kq-band kq-band--slant-t overflow-hidden relative">
+        <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col gap-6 z-10">
+            <SectionHead
+              eyebrow="Global Reach"
+              title={
+                <>
+                  Internationale <span className="text-primary">Handelsrouten</span>
+                </>
+              }
+              lead="Von Deutschland in die Welt: Unsere K-Aqua Rohrsysteme sind das Rückgrat der modernsten Megaprojekte weltweit. Von NEOM in Saudi-Arabien bis zu hochkomplexen Industrieanlagen in Singapur."
+              align="left"
+            />
+            <div className="flex flex-col gap-4 mt-4 border-s-2 border-primary/20 ps-6">
+              <div className="flex flex-col gap-1">
+                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">HQ & Produktion</span>
+                <span className="text-lg font-heading text-foreground">Deutschland (Frankfurt)</span>
+              </div>
+              <div className="flex flex-col gap-1">
+                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">Key Export Markets</span>
+                <span className="text-lg font-heading text-foreground">Saudi-Arabien (NEOM), VAE, Katar, Lateinamerika</span>
+              </div>
+            </div>
+            <Button variant="ghost" href="/referenzen" icon={<ArrowRight className="w-4 h-4" />} className="w-max mt-4">
+              Weltweite Projekte entdecken
+            </Button>
+          </div>
+          <div className="relative w-full h-full min-h-[500px] flex items-center justify-center">
+            {/* The Globe handles its own glowing and styling */}
+            <ExportGlobe className="w-full max-w-[600px] absolute scale-110 lg:scale-[1.3] translate-x-[10%] lg:translate-x-[20%]" />
+          </div>
+        </div>
+      </section>
 
       {/* 8) CTA-Band */}
       <section className="py-20 bg-background border-t border-card-border">

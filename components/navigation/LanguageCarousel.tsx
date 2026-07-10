@@ -55,7 +55,7 @@ export function LanguageCarousel({
             onClick={() => onPick(l.id)}
             ref={cssVars({ '--lc': dark ? l.bright : l.color })}
             className={`flex min-h-[60px] min-w-[148px] shrink-0 snap-center flex-col items-start gap-0.5
-                        rounded-2xl px-3.5 py-2.5 text-left transition-[transform,box-shadow,border-color] duration-150
+                        rounded-2xl px-3.5 py-2.5 text-start transition-[transform,box-shadow,border-color] duration-150
                         ${glass(dark)} ${fgCls(dark)}
                         data-[state=pending]:-translate-y-0.5 data-[state=pending]:border-(--lc)
                         data-[state=pending]:shadow-[0_0_0_1px_var(--lc),0_10px_24px_-10px_var(--lc)]

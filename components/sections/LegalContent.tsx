@@ -60,7 +60,7 @@ export function LegalContent({ sections, title = "Inhalt" }: Props) {
       {/* Sticky Table of Contents */}
       <aside className="hidden lg:block sticky top-32">
         <Reveal>
-          <div className="relative border-l border-card-border/50 pl-6">
+          <div className="relative border-s border-card-border/50 ps-6">
             <h3 className="font-heading font-semibold text-foreground/50 text-xs uppercase tracking-widest mb-6">
               {title}
             </h3>

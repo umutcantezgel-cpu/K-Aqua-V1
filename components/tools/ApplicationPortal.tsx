@@ -132,7 +132,7 @@ export default function ApplicationPortal() {
                   <p className="text-small text-muted-foreground">{job.desc}</p>
                 </div>
                 <div className="mt-6 flex items-center text-primary font-bold text-sm">
-                  {formText.next} <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  {formText.next} <ChevronRight className="w-4 h-4 ms-1 group-hover:translate-x-1 transition-transform" />
                 </div>
               </Card>
             </Reveal>
@@ -149,7 +149,7 @@ export default function ApplicationPortal() {
           onClick={() => setSelectedJob(null)}
           className="flex items-center text-muted-foreground hover:text-foreground transition-colors mb-8 text-sm font-bold"
         >
-          <ArrowLeft className="w-4 h-4 mr-2" />
+          <ArrowLeft className="w-4 h-4 me-2" />
           {formText.back}
         </button>
 
@@ -207,7 +207,7 @@ export default function ApplicationPortal() {
                     else alert("Please fill in required fields (*)");
                   }}
                 >
-                  {formText.next} <ChevronRight className="w-4 h-4 ml-2" />
+                  {formText.next} <ChevronRight className="w-4 h-4 ms-2" />
                 </Button>
               </div>
             </div>
@@ -299,7 +299,7 @@ export default function ApplicationPortal() {
                     else alert("Please upload a file or build your CV");
                   }}
                 >
-                  {formText.next} <ChevronRight className="w-4 h-4 ml-2" />
+                  {formText.next} <ChevronRight className="w-4 h-4 ms-2" />
                 </Button>
               </div>
             </div>
@@ -322,7 +322,7 @@ export default function ApplicationPortal() {
                   
                   <span className="text-muted-foreground">CV Attached</span>
                   <span className="font-bold text-foreground text-primary flex items-center">
-                    <CheckCircle2 className="w-4 h-4 mr-1" /> {file ? file.name : "Generated via Builder"}
+                    <CheckCircle2 className="w-4 h-4 me-1" /> {file ? file.name : "Generated via Builder"}
                   </span>
                 </div>
               </div>

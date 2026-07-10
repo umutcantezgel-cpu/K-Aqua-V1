@@ -115,10 +115,10 @@ export default function FooterMap() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.6)_100%)] pointer-events-none" />
       
       {/* Decorative corners */}
-      <div className="absolute top-4 left-4 w-4 h-4 border-t border-l border-cyan-500/30 opacity-50" />
-      <div className="absolute top-4 right-4 w-4 h-4 border-t border-r border-cyan-500/30 opacity-50" />
-      <div className="absolute bottom-4 left-4 w-4 h-4 border-b border-l border-cyan-500/30 opacity-50" />
-      <div className="absolute bottom-4 right-4 w-4 h-4 border-b border-r border-cyan-500/30 opacity-50" />
+      <div className="absolute top-4 start-4 w-4 h-4 border-t border-s border-cyan-500/30 opacity-50" />
+      <div className="absolute top-4 end-4 w-4 h-4 border-t border-e border-cyan-500/30 opacity-50" />
+      <div className="absolute bottom-4 start-4 w-4 h-4 border-b border-s border-cyan-500/30 opacity-50" />
+      <div className="absolute bottom-4 end-4 w-4 h-4 border-b border-e border-cyan-500/30 opacity-50" />
     </div>
   );
 }

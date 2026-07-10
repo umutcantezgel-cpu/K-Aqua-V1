@@ -205,7 +205,7 @@ export default function Co2Calculator() {
     <div className="flex flex-col lg:flex-row w-full bg-background border-t border-border relative">
       
       {/* SIDEBAR - INPUTS (Sticky on Desktop) */}
-      <div className="w-full lg:w-[400px] xl:w-[450px] shrink-0 border-b lg:border-b-0 lg:border-r border-border bg-card flex flex-col relative lg:sticky lg:top-[70px] lg:h-[calc(100vh-70px)] lg:overflow-y-auto">
+      <div className="w-full lg:w-[400px] xl:w-[450px] shrink-0 border-b lg:border-b-0 lg:border-e border-border bg-card flex flex-col relative lg:sticky lg:top-[70px] lg:h-[calc(100vh-70px)] lg:overflow-y-auto">
         
         {/* Header / Intro */}
         <div className="p-6 pb-4 border-b border-border bg-background">

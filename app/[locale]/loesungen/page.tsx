@@ -1,16 +1,18 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/lib/i18n/navigation";
-import { Card } from "@/components/ui/Card";
-import { Eyebrow } from "@/components/ui/Eyebrow";
-import { SectionHead } from "@/components/ui/SectionHead";
-import { MediaSlot } from "@/components/ui/MediaSlot";
-import { Reveal } from "@/components/ui/Reveal";
-import { Leaf, Recycle, Shield, Thermometer, ArrowRight } from "@/components/ui/icon";
-import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+
+import { Reveal } from "@/components/ui/Reveal";
+import { ParallaxHero } from "@/components/ui/ParallaxHero";
+import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
+import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
+import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
+import { ArrowRight, Droplet, Shield, Thermometer, Factory, Layers, Flame, Wrench } from "@/components/ui/icon";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -18,130 +20,266 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "pages" });
-  const meta = t.raw("solutions") as string[];
+  const t = await getTranslations({ locale, namespace: "solutions.index" });
   return constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+    title: t('meta.title'),
+    description: t('meta.desc'),
     path: "/loesungen",
     locale,
   });
 }
 
-interface BenefitItem {
-  t: string;
-  d: string;
-}
-
-const BENEFIT_ICONS = [Leaf, Recycle, Shield, Thermometer];
-
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "solutions");
-  const t = await getTranslations({ locale, namespace: "solutions" });
+  const t = await getTranslations({ locale, namespace: "solutions.index" });
 
-  const benefits = t.raw("benefits") as BenefitItem[];
+  const stickyContent = [
+    {
+      title: t('sticky.items.0.title'),
+      description: (
+        <div className="space-y-4">
+          <p>{t('sticky.items.0.p1')}</p>
+          <p>{t('sticky.items.0.p2')}</p>
+        </div>
+      ),
+      content: <PremiumAssetPlaceholder label="Polyfusions-Thermografie" />
+    },
+    {
+      title: t('sticky.items.1.title'),
+      description: (
+        <div className="space-y-4">
+          <p>{t('sticky.items.1.p1')}</p>
+          <p>{t('sticky.items.1.p2')}</p>
+        </div>
+      ),
+      content: <PremiumAssetPlaceholder label="Temperatur-Gradienten-Modell" />
+    },
+    {
+      title: t('sticky.items.2.title'),
+      description: (
+        <div className="space-y-4">
+          <p>{t('sticky.items.2.p1')}</p>
+          <p>{t('sticky.items.2.p2')}</p>
+        </div>
+      ),
+      content: <PremiumAssetPlaceholder label="Laminare Strömungssimulation" />
+    },
+    {
+      title: t('sticky.items.3.title'),
+      description: (
+        <div className="space-y-4">
+          <p>{t('sticky.items.3.p1')}</p>
+          <p>{t('sticky.items.3.p2')}</p>
+        </div>
+      ),
+      content: <PremiumAssetPlaceholder label="Molekulare Korrosionsresistenz" />
+    }
+  ];
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  
+  const timelineItems = [
+    {
+      year: t('timeline.items.0.year'),
+      title: t('timeline.items.0.title'),
+      text: t('timeline.items.0.text')
+    },
+    {
+      year: t('timeline.items.1.year'),
+      title: t('timeline.items.1.title'),
+      text: t('timeline.items.1.text')
+    },
+    {
+      year: t('timeline.items.2.year'),
+      title: t('timeline.items.2.title'),
+      text: t('timeline.items.2.text')
+    },
+    {
+      year: t('timeline.items.3.year'),
+      title: t('timeline.items.3.title'),
+      text: t('timeline.items.3.text')
+    }
+  ];
+
   return (
     <>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
-        {/* Hero Section */}
-        <section className="relative overflow-hidden py-16 lg:py-24 border-b border-card-border kq-band kq-band--wave-b">
-          <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
-          <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
+      
+        {/* Apple-style Parallax Hero */}
+        <ParallaxHero 
+          eyebrow={t('hero.eyebrow')}
+          title={
+            <>
+              {t('hero.title1')} <br /> 
+              <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">{t('hero.title2')}</span>
+            </>
+          }
+          description={t('hero.desc')}
+        >
+          <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:-translate-y-0.5 transition-all duration-300 min-h-[56px] px-8 text-lg">
+            {t('hero.cta')}
+            <ArrowRight className="w-5 h-5" />
+          </Link>
+        </ParallaxHero>
+
+        {/* Deep Text Introduction */}
+        <section className="py-32 bg-background border-b border-card-border relative overflow-hidden">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="max-w-[900px] mx-auto px-6 relative z-10 text-center">
             <Reveal>
-              <Eyebrow>{t("eyebrow")}</Eyebrow>
+              <h2 className="text-4xl md:text-5xl font-heading font-extrabold tracking-tight mb-8">
+                {t('intro.title')}
+              </h2>
             </Reveal>
-            <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
-                {t("title1")}{" "}
-                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                  {t("titleGrad")}
-                </span>{" "}
-                {t("title2")}
-              </h1>
-            </Reveal>
-            <Reveal delay={0.12}>
-              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-                {t("lead")}
-              </p>
-            </Reveal>
-          </div>
-        </section>
-
-        {/* Bento Grid Sektion */}
-        <section className="py-20 bg-background border-b border-card-border">
-          <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
-              {benefits.map((b, i) => {
-                const Icon = BENEFIT_ICONS[i] as React.ComponentType<{ className?: string }>;
-                const wide = i === 0 || i === 3;
-                const hasImage = i < 3; // Index 0, 1, 2 have images; 3 does not
-
-                return (
-                  <Reveal
-                    key={b.t}
-                    delay={i * 0.08}
-                    className={wide ? "md:col-span-4" : "md:col-span-2"}
-                  >
-                    <Card tint={i === 3} className="h-full flex flex-col justify-between text-start p-8">
-                      <div>
-                        {hasImage ? (
-                          <MediaSlot
-                            label={b.t}
-                            aspectRatio={wide ? "16/6" : "16/9"}
-                            className="mb-6 shadow-sm"
-                            shapeVariant="dune"
-                          />
-                        ) : (
-                          <div className="w-14 h-14 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
-                            <Icon className="w-7 h-7" />
-                          </div>
-                        )}
-                        <div className="flex items-center gap-3 mb-4">
-                          {hasImage && (
-                            <div className="w-10 h-10 rounded-[12px] grid place-items-center bg-primary-soft text-primary shrink-0">
-                              <Icon className="w-5 h-5" />
-                            </div>
-                          )}
-                          <h3 className="font-heading font-bold text-xl text-foreground">
-                            {b.t}
-                          </h3>
-                        </div>
-                        <p className="text-body text-muted-foreground leading-relaxed">
-                          {b.d}
-                        </p>
-                      </div>
-                    </Card>
-                  </Reveal>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
-        {/* Next Step Section */}
-        <section className="py-20 bg-background-subtle text-center">
-          <div className="max-w-[1200px] mx-auto px-6">
-            <Reveal>
-              <div className="flex flex-col items-center">
-                <SectionHead
-                  align="center"
-                  eyebrow={t("nextEyebrow")}
-                  title={t("nextTitle")}
-                  lead={t("nextLead")}
-                />
-                <Link href="/produkte" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[56px] px-8 text-lead">
-                    {t("nextCta")}
-                    <ArrowRight className="w-5 h-5" />
-                </Link>
+            <Reveal delay={0.1}>
+              <div className="space-y-6 text-xl text-muted-foreground leading-relaxed text-justify md:text-center">
+                <p>
+                  {t('intro.p1')}
+                </p>
+                <p>
+                  {t('intro.p2')}
+                </p>
               </div>
             </Reveal>
           </div>
         </section>
+
+        {/* Sticky Scroll Reveal Apple-style */}
+        <section className="py-32 bg-card/30 border-b border-card-border relative">
+          <div className="max-w-[1400px] mx-auto px-6">
+            <Reveal>
+              <div className="mb-16 md:text-center max-w-3xl mx-auto">
+                <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight mb-6">{t('sticky.header.title')}</h2>
+                <p className="text-xl text-muted-foreground">{t('sticky.header.desc')}</p>
+              </div>
+            </Reveal>
+            <StickyScrollReveal content={stickyContent} />
+          </div>
+        </section>
+
+        {/* Bento Grid Section */}
+        <section className="py-32 bg-background border-b border-card-border">
+          <div className="max-w-[1400px] mx-auto px-6">
+            <Reveal>
+              <div className="mb-20 md:text-center max-w-3xl mx-auto">
+                <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight mb-6">{t('bento.header.title')}</h2>
+                <p className="text-xl text-muted-foreground">{t('bento.header.desc')}</p>
+              </div>
+            </Reveal>
+            
+            <BentoGrid>
+              <BentoGridItem
+                title={t('bento.items.0.title')}
+                description={t('bento.items.0.desc')}
+                icon={<Droplet className="w-8 h-8 text-primary" />}
+                header={<PremiumAssetPlaceholder label="Sanitär-Infrastruktur" className="min-h-[200px]" />}
+                className="md:col-span-2"
+                colSpan={2}
+              />
+              <BentoGridItem
+                title={t('bento.items.1.title')}
+                description={t('bento.items.1.desc')}
+                icon={<Thermometer className="w-8 h-8 text-primary" />}
+                header={<div className="w-full h-full min-h-[200px] bg-card flex items-center justify-center rounded-xl"><Flame className="w-16 h-16 text-primary/20" /></div>}
+                colSpan={1}
+              />
+              <BentoGridItem
+                title={t('bento.items.2.title')}
+                description={t('bento.items.2.desc')}
+                icon={<Shield className="w-8 h-8 text-primary" />}
+                header={<div className="w-full h-full min-h-[200px] bg-card flex items-center justify-center rounded-xl"><Layers className="w-16 h-16 text-primary/20" /></div>}
+                colSpan={1}
+              />
+              <BentoGridItem
+                title={t('bento.items.3.title')}
+                description={t('bento.items.3.desc')}
+                icon={<Wrench className="w-8 h-8 text-primary" />}
+                header={<PremiumAssetPlaceholder label="Offshore-Integration" className="min-h-[200px]" />}
+                className="md:col-span-2"
+                colSpan={2}
+              />
+              <BentoGridItem
+                title={t('bento.items.4.title')}
+                description={t('bento.items.4.desc')}
+                icon={<Factory className="w-8 h-8 text-primary" />}
+                header={<PremiumAssetPlaceholder label="Prozessanlagen-Matrix" className="min-h-[300px]" />}
+                className="md:col-span-3"
+                colSpan={3}
+              />
+            </BentoGrid>
+          </div>
+        </section>
+
+        {/* Apple Style Full Width Technical Specs */}
+        <section className="py-32 bg-foreground text-background relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,1)_0%,transparent_80%)] pointer-events-none" />
+          <div className="max-w-[1200px] mx-auto px-6 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+              <div>
+                <Reveal>
+                  <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight mb-12 text-white">{t('stats.title')}</h2>
+                </Reveal>
+                <div className="space-y-12">
+                  <Reveal delay={0.1}>
+                    <div>
+                      <div className="text-7xl font-mono font-bold text-primary mb-3">50+</div>
+                      <div className="text-2xl font-bold mb-3 text-white">{t('stats.0.label')}</div>
+                      <p className="text-muted-foreground/80 leading-relaxed text-lg">{t('stats.0.desc')}</p>
+                    </div>
+                  </Reveal>
+                  <Reveal delay={0.2}>
+                    <div>
+                      <div className="text-7xl font-mono font-bold text-primary mb-3">0,24</div>
+                      <div className="text-2xl font-bold mb-3 text-white">{t('stats.1.label')}</div>
+                      <p className="text-muted-foreground/80 leading-relaxed text-lg">{t('stats.1.desc')}</p>
+                    </div>
+                  </Reveal>
+                  <Reveal delay={0.3}>
+                    <div>
+                      <div className="text-7xl font-mono font-bold text-primary mb-3">100%</div>
+                      <div className="text-2xl font-bold mb-3 text-white">{t('stats.2.label')}</div>
+                      <p className="text-muted-foreground/80 leading-relaxed text-lg">{t('stats.2.desc')}</p>
+                    </div>
+                  </Reveal>
+                </div>
+              </div>
+              <Reveal delay={0.4} className="h-full">
+                <div className="h-full min-h-[600px] flex items-stretch">
+                  <PremiumAssetPlaceholder label="Materialwissenschaftliches Datenmodell" className="bg-background/5 border-white/10" />
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+
+        {/* Horizontal Timeline Section */}
+        <HorizontalTimeline 
+          title={t('timeline.title')} 
+          description={t('timeline.desc')}
+          items={timelineItems}
+        />
+
+        {/* Final CTA / Hero */}
+        <ParallaxHero 
+          eyebrow={t('cta.eyebrow')}
+          title={
+            <>
+              {t('cta.title1')} <br /> 
+              <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">{t('cta.title2')}</span>
+            </>
+          }
+          description={t('cta.desc')}
+          className="min-h-[70vh] border-t border-card-border bg-card/30"
+        >
+          <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:-translate-y-0.5 transition-all duration-300 min-h-[64px] px-10 text-xl">
+            {t('cta.button1')}
+            <ArrowRight className="w-6 h-6" />
+          </Link>
+          <Link href="/produkte" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg bg-card border border-card-border text-foreground hover:bg-background hover:-translate-y-0.5 transition-all duration-300 min-h-[64px] px-10 text-xl">
+            {t('cta.button2')}
+          </Link>
+        </ParallaxHero>
+
         {/* Deep Content am Ende der Lösungsseite */}
         <SolutionsDeep />
       </div>

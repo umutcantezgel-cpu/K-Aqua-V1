@@ -1,0 +1,255 @@
+import React from 'react';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { SectionHead } from '@/components/ui/SectionHead';
+import { Button } from '@/components/ui/Button';
+import { ArrowRight } from '@/components/ui/icon';
+import { CTABand } from '@/components/ui/CTABand';
+
+import { ParallaxHero } from '@/components/ui/ParallaxHero';
+import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
+import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
+import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
+import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import { getTranslations } from 'next-intl/server';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'solutions.hochhaus' });
+  return constructMetadata({
+    title: t('meta.title'),
+    description: t('meta.desc'),
+    path: "/loesungen/hochhaus",
+    locale,
+  });
+}
+
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'solutions.hochhaus' });
+
+  return (
+    <div className="flex flex-col w-full min-h-screen bg-background">
+      {/* 1) Parallax Hero */}
+      <ParallaxHero
+        eyebrow={t('hero.eyebrow')}
+        title={
+          <>
+            {t('hero.title1')}<br />
+            <span className="text-muted-foreground">{t('hero.title2')}</span>
+          </>
+        }
+        description={t('hero.desc')}
+      >
+        <Button variant="primary" size="lg" href="/projektanfrage">
+          {t('hero.cta1')}
+        </Button>
+        <Button variant="ghost" size="lg" href="/ressourcen/downloads">
+          {t('hero.cta2')}
+        </Button>
+      </ParallaxHero>
+
+      {/* 2) Intro Text deep dive */}
+      <section className="py-32 bg-background border-b border-card-border relative overflow-hidden">
+        <div className="mx-auto max-w-[1000px] px-6 relative z-10">
+          <SectionHead
+            eyebrow={t('intro.eyebrow')}
+            title={t('intro.title')}
+            lead={t('intro.lead')}
+            align="center"
+          />
+          <div className="mt-16 text-xl text-muted-foreground leading-relaxed space-y-8 font-serif">
+            <p>
+              {t('intro.p1')}
+            </p>
+            <p>
+              {t('intro.p2')}
+            </p>
+            <p className="text-foreground font-medium">
+              {t('intro.p3')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 3) Sticky Scroll Reveal */}
+      <section className="py-32 bg-card relative">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <SectionHead
+            eyebrow={t('sticky.eyebrow')}
+            title={t('sticky.title')}
+            lead={t('sticky.lead')}
+            align="left"
+            className="mb-16"
+          />
+          <StickyScrollReveal
+            content={[
+              {
+                title: t('sticky.items.0.title'),
+                description: t('sticky.items.0.desc'),
+                content: <PremiumAssetPlaceholder label="Drucksimulation 50 Bar" />
+              },
+              {
+                title: t('sticky.items.1.title'),
+                description: t('sticky.items.1.desc'),
+                content: <PremiumAssetPlaceholder label="Thermische Analyse" />
+              },
+              {
+                title: t('sticky.items.2.title'),
+                description: t('sticky.items.2.desc'),
+                content: <PremiumAssetPlaceholder label="Homogene Schweißung" />
+              },
+              {
+                title: t('sticky.items.3.title'),
+                description: t('sticky.items.3.desc'),
+                content: <PremiumAssetPlaceholder label="Akustik-Profil" />
+              }
+            ]}
+          />
+        </div>
+      </section>
+
+      {/* 4) Bento Grid Features */}
+      <section className="py-32 bg-background border-t border-card-border">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <SectionHead
+            eyebrow={t('bento.eyebrow')}
+            title={t('bento.title')}
+            lead={t('bento.lead')}
+            align="center"
+            className="mb-16"
+          />
+          <BentoGrid>
+            <BentoGridItem
+              colSpan={2}
+              rowSpan={2}
+              title={t('bento.items.0.title')}
+              description={t('bento.items.0.desc')}
+              header={<PremiumAssetPlaceholder label="Kristallgitter-Struktur PP-RCT" className="min-h-[350px]" />}
+            />
+            <BentoGridItem
+              colSpan={1}
+              title={t('bento.items.1.title')}
+              description={t('bento.items.1.desc')}
+              header={<div className="h-40 bg-primary/5 rounded-2xl border border-primary/10 m-4 flex items-center justify-center relative overflow-hidden"><div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent pointer-events-none"/><span className="text-5xl font-heading font-black text-primary/20 tracking-tighter">ISO</span></div>}
+            />
+            <BentoGridItem
+              colSpan={1}
+              title={t('bento.items.2.title')}
+              description={t('bento.items.2.desc')}
+              header={<div className="h-40 bg-primary/5 rounded-2xl border border-primary/10 m-4 flex items-center justify-center relative overflow-hidden"><div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent pointer-events-none"/><span className="text-5xl font-heading font-black text-primary/20 tracking-tighter">pH 1-14</span></div>}
+            />
+            <BentoGridItem
+              colSpan={3}
+              title={t('bento.items.3.title')}
+              description={t('bento.items.3.desc')}
+              header={<PremiumAssetPlaceholder label="Prefab Verteiler-Systeme (BIM-ready)" className="min-h-[250px]" />}
+            />
+          </BentoGrid>
+        </div>
+      </section>
+
+      {/* 5) Horizontal Timeline */}
+      <HorizontalTimeline
+        title={t('timeline.title')}
+        description={t('timeline.desc')}
+        items={[
+          {
+            year: t('timeline.items.0.year'),
+            title: t('timeline.items.0.title'),
+            text: t('timeline.items.0.text')
+          },
+          {
+            year: t('timeline.items.1.year'),
+            title: t('timeline.items.1.title'),
+            text: t('timeline.items.1.text')
+          },
+          {
+            year: t('timeline.items.2.year'),
+            title: t('timeline.items.2.title'),
+            text: t('timeline.items.2.text')
+          },
+          {
+            year: t('timeline.items.3.year'),
+            title: t('timeline.items.3.title'),
+            text: t('timeline.items.3.text')
+          },
+          {
+            year: t('timeline.items.4.year'),
+            title: t('timeline.items.4.title'),
+            text: t('timeline.items.4.text')
+          }
+        ]}
+      />
+
+      {/* 6) Technical Data & Deep Engineering Manifesto */}
+      <section className="py-32 bg-background border-b border-card-border">
+        <div className="mx-auto max-w-[1200px] px-6">
+          <SectionHead
+            eyebrow={t('data.eyebrow')}
+            title={t('data.title')}
+            lead={t('data.lead')}
+            align="left"
+            className="mb-16"
+          />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div className="prose prose-invert">
+              <h3 className="text-3xl font-heading font-bold mb-4 tracking-tight">{t('data.h3_1')}</h3>
+              <p className="text-muted-foreground leading-relaxed mb-8">
+                {t('data.p1')}
+              </p>
+              <h3 className="text-3xl font-heading font-bold mb-4 tracking-tight">{t('data.h3_2')}</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {t('data.p2')}
+              </p>
+            </div>
+            <div className="space-y-4">
+              {[
+                { label: t('data.stats.0.label'), val: t('data.stats.0.val'), standard: t('data.stats.0.standard') },
+                { label: t('data.stats.1.label'), val: t('data.stats.1.val'), standard: t('data.stats.1.standard') },
+                { label: t('data.stats.2.label'), val: t('data.stats.2.val'), standard: t('data.stats.2.standard') },
+                { label: t('data.stats.3.label'), val: t('data.stats.3.val'), standard: t('data.stats.3.standard') },
+                { label: t('data.stats.4.label'), val: t('data.stats.4.val'), standard: t('data.stats.4.standard') },
+                { label: t('data.stats.5.label'), val: t('data.stats.5.val'), standard: t('data.stats.5.standard') },
+                { label: t('data.stats.6.label'), val: t('data.stats.6.val'), standard: t('data.stats.6.standard') },
+              ].map((stat, i) => (
+                <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between p-6 bg-card border border-card-border rounded-2xl hover:border-primary/30 transition-colors">
+                  <div>
+                    <div className="font-bold font-heading text-lg">{stat.label}</div>
+                    <div className="text-sm text-muted-foreground mt-1">Prüfnorm: {stat.standard}</div>
+                  </div>
+                  <div className="mt-4 sm:mt-0 text-xl md:text-2xl font-mono text-primary font-bold">
+                    {stat.val}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 7) CTA Band */}
+      <section className="py-32 bg-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(var(--primary),0.15)_0%,transparent_60%)] pointer-events-none" />
+        <div className="mx-auto max-w-[1400px] px-6 relative z-10">
+          <CTABand className="py-24 px-10 md:px-16 border border-primary/20 bg-card/80 backdrop-blur-2xl rounded-[3rem] shadow-2xl">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight mb-8 max-w-3xl">
+              {t('cta.title')}
+            </h2>
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mb-12">
+              {t('cta.desc')}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6">
+              <Button variant="primary" size="lg" href="/projektanfrage" className="h-16 px-10 text-lg rounded-2xl">
+                {t('cta.button1')} <ArrowRight className="ms-3 w-6 h-6" />
+              </Button>
+              <Button variant="ghost" size="lg" href="/kontakt" className="h-16 px-10 text-lg rounded-2xl bg-primary/5 hover:bg-primary/10">
+                {t('cta.button2')}
+              </Button>
+            </div>
+          </CTABand>
+        </div>
+      </section>
+
+    </div>
+  );
+}

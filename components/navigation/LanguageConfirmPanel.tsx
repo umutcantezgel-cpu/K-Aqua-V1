@@ -98,8 +98,7 @@ export function LanguageConfirmPanel({
         <div
           ref={cssVars({ '--lc': lang.color })}
           dir={lang.rtl ? 'rtl' : 'ltr'}
-          className="mt-1.5 border-l-[3px] border-(--lc) pl-3 font-semibold text-2xl leading-tight tracking-tight
-                     [dir=rtl]:border-l-0 [dir=rtl]:border-r-[3px] [dir=rtl]:pl-0 [dir=rtl]:pr-3 [dir=rtl]:text-right"
+          className="mt-1.5 border-s-[3px] border-(--lc) ps-3 font-semibold text-2xl leading-tight tracking-tight text-start rtl:text-end"
         >
           {lang.nat}
         </div>

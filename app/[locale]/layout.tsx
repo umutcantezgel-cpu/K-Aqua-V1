@@ -13,6 +13,7 @@ import Footer from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
 import { LiquidEngine } from '@/components/ui/LiquidEngine';
+import WaterCursor from '@/components/ui/WaterCursor';
 import { getOrganizationJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 
@@ -53,6 +54,7 @@ export default async function LocaleLayout({
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
         <ShapeDefs />
         <LiquidEngine />
+        <WaterCursor />
         <JsonLd schema={orgJsonLd} />
         <ThemeProvider
           attribute="data-theme"

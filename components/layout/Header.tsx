@@ -109,7 +109,7 @@ export default function Header() {
             {/* Group 2: Wissen & Vertrauen */}
             <div className="relative group">
               <span className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground cursor-pointer inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle">
-                Wissen & Vertrauen
+                {t('knowledge_trust')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </span>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
@@ -181,22 +181,22 @@ export default function Header() {
       {/* SEO Navigation (Always rendered in DOM, visually hidden) */}
       <nav className="sr-only" aria-label="Sitemap">
         <ul>
-          <li><Link href="/">Start</Link></li>
-          <li><Link href="/produkte">Produkte</Link></li>
-          <li><Link href="/produkte/finder">Produktfinder</Link></li>
-          <li><Link href="/co2-rechner">CO2-Rechner</Link></li>
-          <li><Link href="/projektanfrage">Projektanfrage</Link></li>
-          <li><Link href="/loesungen">Lösungen</Link></li>
-          <li><Link href="/academy">Academy</Link></li>
-          <li><Link href="/trust-center">Trust Center</Link></li>
-          <li><Link href="/service">Service</Link></li>
-          <li><Link href="/partnerschaft">Partnerschaft</Link></li>
-          <li><Link href="/maerkte">Märkte</Link></li>
-          <li><Link href="/referenzen">Referenzen</Link></li>
-          <li><Link href="/unternehmen">Unternehmen</Link></li>
-          <li><Link href="/karriere">Karriere</Link></li>
-          <li><Link href="/news">News</Link></li>
-          <li><Link href="/kontakt">Kontakt</Link></li>
+          <li><Link href="/">{t('home')}</Link></li>
+          <li><Link href="/produkte">{t('products')}</Link></li>
+          <li><Link href="/produkte/finder">{t('finder')}</Link></li>
+          <li><Link href="/co2-rechner">{t('co2')}</Link></li>
+          <li><Link href="/projektanfrage">{t('quote')}</Link></li>
+          <li><Link href="/loesungen">{t('solutions')}</Link></li>
+          <li><Link href="/academy">{t('academy')}</Link></li>
+          <li><Link href="/trust-center">{t('trust')}</Link></li>
+          <li><Link href="/service">{t('service')}</Link></li>
+          <li><Link href="/partnerschaft">{t('partners')}</Link></li>
+          <li><Link href="/maerkte">{t('markets')}</Link></li>
+          <li><Link href="/referenzen">{t('references')}</Link></li>
+          <li><Link href="/unternehmen">{t('about')}</Link></li>
+          <li><Link href="/karriere">{t('career')}</Link></li>
+          <li><Link href="/news">{t('news')}</Link></li>
+          <li><Link href="/kontakt">{t('contact')}</Link></li>
         </ul>
       </nav>
       <AnimatePresence mode="wait">

@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import { Link, usePathname } from '@/lib/i18n/navigation';
 import { useTranslations, useLocale } from 'next-intl';
+import { GEO_MARKETS } from '@/lib/data/geo';
 import {
   Package,
   Search,
@@ -54,41 +55,64 @@ const MEGA_LAYOUT = [
   {
     group: 'products',
     items: [
-      { id: 'finder', href: '/produkte/finder' },
-      { id: 'menu.pipes', href: '/produkte/pipes' },
-      { id: 'menu.fittings', href: '/produkte/fittings' },
-      { id: 'menu.transition', href: '/produkte/transition-fittings' },
-      { id: 'menu.valves', href: '/produkte/valves' },
-      { id: 'menu.tools', href: '/produkte/tools' },
+      { id: 'products_all', href: '/produkte', fallback: 'Alle Produkte' },
+      { id: 'finder', href: '/produkte/finder', fallback: 'Product Finder' },
+      { id: 'menu.pipes', href: '/produkte/pipes', fallback: 'Rohre & Rohrsysteme' },
+      { id: 'menu.fittings', href: '/produkte/fittings', fallback: 'Formteile & Fittings' },
+      { id: 'menu.transition', href: '/produkte/transition-fittings', fallback: 'Übergänge' },
+      { id: 'menu.valves', href: '/produkte/valves', fallback: 'Armaturen & Ventile' },
+      { id: 'menu.tools', href: '/produkte/tools', fallback: 'Werkzeuge & Zubehör' },
     ],
   },
   {
-    group: 'tools',
+    group: 'markets_solutions',
     items: [
-      { id: 'co2', href: '/co2-rechner' },
-      { id: 'rfq', href: '/projektanfrage' },
-      { id: 'solutions', href: '/loesungen' },
+      { id: 'markets', href: '/maerkte', fallback: 'Alle Märkte' },
+      { id: 'potable_water', href: '/maerkte/trinkwasser', fallback: 'Trinkwasser' },
+      { id: 'hvac', href: '/maerkte/klimaanlagen', fallback: 'Klima & Kühlung' },
+      { id: 'industrial', href: '/maerkte/industrie', fallback: 'Industrieanlagen' },
+      { id: 'shipbuilding', href: '/maerkte/schiffbau', fallback: 'Schiffbau' },
+      { id: 'agriculture', href: '/maerkte/landwirtschaft', fallback: 'Landwirtschaft' },
+      ...GEO_MARKETS.map(m => ({ id: `geo_${m.slug}`, href: `/maerkte/${m.slug}`, fallback: m.city })),
+      { id: 'solutions', href: '/loesungen', fallback: 'Alle Lösungen' },
+      { id: 'high_rise', href: '/loesungen/hochhaus', fallback: 'Hochhausbau' },
+      { id: 'hospitals', href: '/loesungen/krankenhaus', fallback: 'Krankenhäuser' },
+      { id: 'hotels', href: '/loesungen/hotels', fallback: 'Hotels & Resorts' },
+      { id: 'datacenters', href: '/loesungen/rechenzentrum', fallback: 'Rechenzentren' },
+      { id: 'prefab', href: '/loesungen/vorfertigung', fallback: 'Vorfertigung' },
     ],
   },
   {
-    group: 'knowledge',
+    group: 'knowledge_resources',
     items: [
-      { id: 'wissen', href: '/wissen' },
-      { id: 'academy', href: '/academy' },
-      { id: 'trust', href: '/trust-center' },
-      { id: 'service', href: '/service' },
-      { id: 'partner', href: '/partnerschaft' },
+      { id: 'academy', href: '/academy', fallback: 'Academy Übersicht' },
+      { id: 'wissen', href: '/wissen', fallback: 'Wissensdatenbank' },
+      { id: 'trainings', href: '/academy/schulungen', fallback: 'Schulungen' },
+      { id: 'webinars', href: '/academy/webinare', fallback: 'Webinare' },
+      { id: 'certification', href: '/academy/zertifizierung', fallback: 'Zertifikate' },
+      { id: 'faq', href: '/academy/faq', fallback: 'FAQ & Wissen' },
+      { id: 'glossary', href: '/academy/glossar', fallback: 'Glossar' },
+      { id: 'downloads', href: '/ressourcen/downloads', fallback: 'Downloads' },
+      { id: 'bim_data', href: '/ressourcen/bim-daten', fallback: 'BIM Daten' },
+      { id: 'co2', href: '/co2-rechner', fallback: 'CO2-Rechner' },
+      { id: 'specifications', href: '/ressourcen/ausschreibungstexte', fallback: 'Ausschreibungstexte' },
+      { id: 'support', href: '/ressourcen/support', fallback: 'Technischer Support' },
     ],
   },
   {
     group: 'company',
     items: [
-      { id: 'markets', href: '/maerkte' },
-      { id: 'references', href: '/referenzen' },
-      { id: 'about', href: '/unternehmen' },
-      { id: 'career', href: '/karriere' },
-      { id: 'news', href: '/news' },
-      { id: 'contact', href: '/kontakt' },
+      { id: 'about', href: '/unternehmen', fallback: 'Über uns' },
+      { id: 'references', href: '/referenzen', fallback: 'Referenzen' },
+      { id: 'career', href: '/karriere', fallback: 'Karriere' },
+      { id: 'news', href: '/news', fallback: 'News & Presse' },
+      { id: 'contact', href: '/kontakt', fallback: 'Kontakt' },
+      { id: 'service', href: '/service', fallback: 'Service' },
+      { id: 'rfq', href: '/projektanfrage', fallback: 'Projektanfrage' },
+      { id: 'partner', href: '/partnerschaft', fallback: 'Partnernetzwerk' },
+      { id: 'trust', href: '/trust-center', fallback: 'Trust Center' },
+      { id: 'imprint', href: '/impressum', fallback: 'Impressum' },
+      { id: 'privacy', href: '/datenschutz', fallback: 'Datenschutz' },
     ],
   },
 ];
@@ -297,10 +321,10 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                 let title = '';
                 let subtitle = '';
                 if (item.id.startsWith('menu.')) {
-                  title = t(item.id as any);
+                  try { title = t(item.id as any); } catch { title = item.fallback || item.id; }
                 } else {
                   const [transTitle, sub] = getPageMeta(item.id);
-                  title = transTitle;
+                  title = transTitle !== item.id ? transTitle : (item.fallback || item.id);
                   subtitle = sub;
                 }
                 const isActive = pathname === item.href;

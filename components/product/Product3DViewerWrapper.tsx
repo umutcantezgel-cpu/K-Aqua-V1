@@ -2,6 +2,7 @@
 
 import React, { Suspense } from 'react';
 import dynamic from 'next/dynamic';
+import { ErrorBoundary } from '@/components/ui/ErrorBoundary';
 
 const Product3DViewerSkeleton = () => (
   <div className="w-full h-full min-h-[400px] lg:min-h-[500px] relative rounded-3xl overflow-hidden bg-gradient-to-tr from-card to-background border border-card-border shadow-2xl flex items-center justify-center animate-pulse">
@@ -23,8 +24,10 @@ interface Product3DViewerWrapperProps {
 
 export default function Product3DViewerWrapper({ category }: Product3DViewerWrapperProps) {
   return (
-    <Suspense fallback={<Product3DViewerSkeleton />}>
-      <LazyProduct3DViewer category={category} />
-    </Suspense>
+    <ErrorBoundary fallback={<Product3DViewerSkeleton />}>
+      <Suspense fallback={<Product3DViewerSkeleton />}>
+        <LazyProduct3DViewer category={category} />
+      </Suspense>
+    </ErrorBoundary>
   );
 }
