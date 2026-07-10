@@ -4721,5 +4721,136 @@
       "ctaDesc": "Converse com a nossa equipe de engenharia sobre seu próximo megaprojeto. Não entregamos apenas tubos, entregamos segurança de sistema.",
       "ctaBtn": "Contatar o Suporte de Engenharia"
     }
+  },
+  "academy": {
+    "zertifizierung": {
+      "meta": {
+        "title": "Certificados e Padrões | K-Aqua",
+        "desc": "DVGW, SKZ, ISO e muito mais. Descubra a segurança intransigente e a qualidade da engenharia alemã dos sistemas de tubulação K-Aqua."
+      },
+      "hero": {
+        "eyebrow": "Padrões de engenharia alemães",
+        "title1": "Certificados.",
+        "title2": "Projetado na Alemanha.",
+        "desc": "Este módulo oferece segurança intransigente para os projetos mais exigentes em todo o mundo. Fabricado de acordo com os mais rígidos padrões da indústria para durar gerações. Porque a falha material nunca é uma opção.",
+        "cta1": "Solicite um projeto",
+        "cta2": "Manual técnico"
+      },
+      "manifesto": {
+        "title1": "Um certificado é apenas papel.",
+        "title2": "O processo por trás disso é feito de aço.",
+        "p1": "Muitos fabricantes veem os padrões como o objetivo final. Nós o vemos como o limite inferior absoluto. Nossas tolerâncias internas são muitas vezes mais rigorosas do que as exigidas por DVGW, ISO ou SKZ. Quando um tubo K-Aqua sai da nossa fábrica, ele foi analisado em nível molecular, torturado com pressões extremas e levado termicamente ao limite absoluto."
+      },
+      "bento": {
+        "eyebrow": "Os pilares da segurança",
+        "title": "O DNA de um sistema de tubulação perfeito.",
+        "lead": "Quando empreiteiros internacionais planeiam projectos de milhares de milhões de dólares, não confiam nas promessas de marketing. Eles exigem fatos concretos e fisicamente mensuráveis.",
+        "items": {
+          "0": {
+            "title": "Resistência extrema à pressão",
+            "desc": "Certificado para cargas contínuas até PN20/PN25. Nossos testes de pressão de ruptura comprovam reservas que vão muito além dos padrões. Canos estourados são coisa do passado."
+          },
+          "1": {
+            "title": "Soberania térmica",
+            "desc": "Resistente permanentemente de -20°C a +95°C. Sem fadiga do material, sem enfraquecimento estrutural – mesmo no caso de choques térmicos extremos."
+          },
+          "2": {
+            "title": "Higiene absoluta",
+            "desc": "Sem corrosão. Sem incrustações. Seguro para alimentos, toxicologicamente inofensivo e resistente ao crescimento de legionela."
+          },
+          "3": {
+            "title": "Proteção contra incêndio (B1/B2)",
+            "desc": "Classificado de acordo com DIN 4102. Retardante de chama e mínimo desenvolvimento de fumaça para máxima segurança em infraestruturas prediais críticas."
+          },
+          "4": {
+            "title": "Garantia de ciclo de vida",
+            "desc": "Uma vida útil definida de 50 anos de acordo com a mais rigorosa norma ISO. Na realidade arquitetônica, porém, eles são construídos para durar gerações inteiras."
+          }
+        }
+      },
+      "certifications": {
+        "eyebrow": "As instâncias",
+        "title": "Os examinadores mais difíceis do mundo.",
+        "lead": "Somente aqueles que passam nas auditorias externas mais críticas podem ostentar o rótulo de “Engenharia Alemã”. Aqui estão as instituições que validam a nossa qualidade.",
+        "items": {
+          "0": {
+            "title": "DVGW – A autoridade máxima",
+            "p1": "A Associação Alemã de Gás e Água (DVGW) estabelece os padrões mais rigorosos do mundo para a higiene da água potável e a resistência dos materiais.",
+            "p2": "A nossa certificação DVGW garante que os sistemas de tubos K-Aqua não libertam substâncias tóxicas nem promovem o crescimento microbiológico sob condições extremas. Cada lote passa por testes hidrostáticos de longa duração (teste de pressão interna de fluência) a 95°C."
+          },
+          "1": {
+            "title": "SKZ – Monitoramento independente",
+            "p1": "O Centro de Plásticos do Sul da Alemanha (SKZ) atua como nosso auditor incorruptível. O monitoramento externo de terceiros garante o que nossos laboratórios internos já especificam.",
+            "p2": "A resistência ao impacto entalhada, a resistência à tração e o comportamento térmico são testados usando análise DSC (Dynamic Scanning Calorimetry). A marca SKZ é prova de perfeição mecânica, muito além da DIN EN ISO 15874."
+          },
+          "2": {
+            "title": "KTW-BWGL – Pureza absoluta",
+            "p1": "A base de avaliação para plásticos e outros materiais orgânicos em contato com água potável (Agência Federal do Meio Ambiente).",
+            "p2": "Utilizamos apenas polipropileno de alta pureza (PP-R / PP-RCT) sem aditivos nocivos ou metais pesados. O resultado? Qualidade da água de nascente direto da torneira. Sem alteração de cheiro ou paladar."
+          },
+          "3": {
+            "title": "ISO 9001 e 14001 – Excelência Sistemática",
+            "p1": "A qualidade não é uma coincidência, mas um processo absolutamente reproduzível. Nossa certificação ISO 9001 comprova um gerenciamento de qualidade contínuo, desde o recebimento de matérias-primas até a entrega mundial de mercadorias.",
+            "p2": "Com a ISO 14001 provamos que a excelência industrial e a responsabilidade ecológica andam de mãos dadas. Consumo minimizado de energia, uso eficiente de recursos e 100% de reciclabilidade dos nossos produtos PP."
+          }
+        }
+      },
+      "lab": {
+        "eyebrow": "Dentro do laboratório",
+        "title1": "A anatomia",
+        "title2": "de perfeição.",
+        "desc": "Antes de um sistema K-Aqua sair da fábrica, ele deve passar pelo nosso centro de testes interno. Uma instalação altamente atualizada onde expomos materiais a condições que eles nunca experimentarão na realidade.",
+        "items": {
+          "0": {
+            "title": "MFR (taxa de fluxo de fusão)",
+            "desc": "Controle a taxa de fluxo de fusão para garantir uma viscosidade precisa durante a extrusão e subsequente soldagem no local."
+          },
+          "1": {
+            "title": "OIT (Tempo de Indução de Oxidação)",
+            "desc": "Análise térmica para determinar a resistência ao envelhecimento. Prova de que os nossos estabilizadores protegem o plástico da degradação durante décadas."
+          },
+          "2": {
+            "title": "Teste de pressão interna de fluência",
+            "desc": "As amostras de tubos são armazenadas em banhos-maria especiais a 95°C sob extrema pressão – por milhares de horas. Sem rachadura. Sem quebra."
+          }
+        }
+      },
+      "timeline": {
+        "title": "Décadas de inovação.",
+        "desc": "Nossos padrões de qualidade não foram criados da noite para o dia. Eles são o resultado de décadas de engenharia e otimização contínua de processos.",
+        "items": {
+          "0": {
+            "year": "1990",
+            "title": "O nascimento do padrão",
+            "text": "Como pioneiros na extrusão de tubos plásticos, implementamos procedimentos de testes internos numa fase inicial que foram muito além dos requisitos da indústria da época. A base para uma cultura de qualidade intransigente."
+          },
+          "1": {
+            "year": "1995",
+            "title": "Integração ISO 9001",
+            "text": "A certificação completa dos nossos sistemas de gestão de qualidade de acordo com a norma ISO 9001. Cada movimento, cada lote de matéria-prima, cada configuração da máquina é agora sistematicamente documentada e totalmente rastreável."
+          },
+          "2": {
+            "year": "2005",
+            "title": "Certificação DVGW e SKZ",
+            "text": "Inclusão no círculo exclusivo de fabricantes certificados DVGW e SKZ. O selo oficial de higiene absoluta, resistência a pressões extremas e durabilidade inigualável nas condições mais difíceis de utilização de água potável."
+          },
+          "3": {
+            "year": "2015",
+            "text": "Expansão de certificações para mercados internacionais. Conformidade com as rigorosas diretrizes KTW (UBA) e os requisitos britânicos WRAS. K-Aqua está se tornando o padrão global para megaprojetos internacionais."
+          },
+          "4": {
+            "year": "2024",
+            "title": "Análise de qualidade de última geração",
+            "text": "Introdução de testes OIT (Oxidation Induction Time) e MFR (Melt Flow Rate) altamente automatizados em nosso próprio laboratório de precisão. Análise de erros suportada por IA durante a extrusão para uma taxa de defeito zero de 100%."
+          }
+        }
+      },
+      "cta": {
+        "title": "Qualidade em que você pode confiar cegamente.",
+        "desc": "Baixe nossos certificados oficiais ou fale diretamente com nossa equipe de engenharia sobre as especificações do seu próximo megaprojeto.",
+        "button1": "Baixar certificados",
+        "button2": "Entre em contato com o suporte técnico"
+      }
+    }
   }
 }
