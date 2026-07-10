@@ -11,11 +11,11 @@ export default function FooterSitemap() {
       id: 'products',
       links: [
         { href: '/produkte', labelId: 'all_products', fallback: 'Alle Produkte' },
-        { href: '/produkte/rohre', labelId: 'pipes', fallback: 'Rohre & Rohrsysteme' },
+        { href: '/produkte/pipes', labelId: 'pipes', fallback: 'Rohre & Rohrsysteme' },
         { href: '/produkte/fittings', labelId: 'fittings', fallback: 'Formteile & Fittings' },
-        { href: '/produkte/armaturen', labelId: 'valves', fallback: 'Armaturen & Ventile' },
-        { href: '/produkte/werkzeuge', labelId: 'tools', fallback: 'Werkzeuge & Zubehör' },
-        { href: '/produkte/katalog', labelId: 'catalog', fallback: 'Gesamtkatalog' },
+        { href: '/produkte/valves', labelId: 'valves', fallback: 'Armaturen & Ventile' },
+        { href: '/produkte/tools', labelId: 'tools', fallback: 'Werkzeuge & Zubehör' },
+        { href: '/produkte/transition-fittings', labelId: 'transition', fallback: 'Übergänge' },
       ],
       fallback: 'Produkte'
     },
@@ -47,6 +47,7 @@ export default function FooterSitemap() {
       id: 'academy',
       links: [
         { href: '/academy', labelId: 'overview', fallback: 'Academy Übersicht' },
+        { href: '/wissen', labelId: 'wissen', fallback: 'Wissensdatenbank' },
         { href: '/academy/schulungen', labelId: 'trainings', fallback: 'Schulungen' },
         { href: '/academy/webinare', labelId: 'webinars', fallback: 'Webinare' },
         { href: '/academy/zertifizierung', labelId: 'certification', fallback: 'Zertifikate' },

@@ -34,6 +34,7 @@ interface MegaMenuProps {
 const ICON_MAP: Record<string, LucideIcon> = {
   products: Package,
   finder: Search,
+  wissen: FileText,
   co2: Leaf,
   rfq: FileText,
   solutions: Lightbulb,
@@ -54,11 +55,11 @@ const MEGA_LAYOUT = [
     group: 'products',
     items: [
       { id: 'finder', href: '/produkte/finder' },
-      { id: 'menu.pipes', href: '/produkte/finder?category=Pipes' },
-      { id: 'menu.fittings', href: '/produkte/finder?category=Fittings' },
-      { id: 'menu.transition', href: '/produkte/finder?category=Transition Fittings' },
-      { id: 'menu.valves', href: '/produkte/finder?category=Valves' },
-      { id: 'menu.tools', href: '/produkte/finder?category=Tools' },
+      { id: 'menu.pipes', href: '/produkte/pipes' },
+      { id: 'menu.fittings', href: '/produkte/fittings' },
+      { id: 'menu.transition', href: '/produkte/transition-fittings' },
+      { id: 'menu.valves', href: '/produkte/valves' },
+      { id: 'menu.tools', href: '/produkte/tools' },
     ],
   },
   {
@@ -72,6 +73,7 @@ const MEGA_LAYOUT = [
   {
     group: 'knowledge',
     items: [
+      { id: 'wissen', href: '/wissen' },
       { id: 'academy', href: '/academy' },
       { id: 'trust', href: '/trust-center' },
       { id: 'service', href: '/service' },
