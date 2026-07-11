@@ -11,23 +11,25 @@ export default function WaterCursor() {
     if (!canvas) return;
 
     // Initialize fluid simulation
-    webGLFluidEnhanced.simulation(canvas, {
-      SIM_RESOLUTION: 128,
-      DYE_RESOLUTION: 512,
-      DENSITY_DISSIPATION: 0.99,
-      VELOCITY_DISSIPATION: 0.99,
-      PRESSURE: 0.8,
-      PRESSURE_ITERATIONS: 30,
-      CURL: 0,
-      SPLAT_RADIUS: 0.5,
-      SPLAT_FORCE: 6000,
-      COLORFUL: false,
-      POINTER_COLOR: [{ r: 255, g: 255, b: 255 }],
-      BACK_COLOR: { r: 0, g: 0, b: 0, a: 0 },
-      TRANSPARENT: true,
-      BLOOM: false,
-      SUNRAYS: false,
+    const fluid = new webGLFluidEnhanced(canvas);
+    fluid.setConfig({
+      simResolution: 128,
+      dyeResolution: 512,
+      densityDissipation: 0.99,
+      velocityDissipation: 0.99,
+      pressure: 0.8,
+      pressureIterations: 30,
+      curl: 0,
+      splatRadius: 0.5,
+      splatForce: 6000,
+      colorful: false,
+      colorPalette: ['#ffffff'],
+      backgroundColor: '#000000',
+      transparent: true,
+      bloom: false,
+      sunrays: false,
     });
+    fluid.start();
 
     // Proxy mouse and touch events to the canvas since it has pointer-events: none
     const handleMouseMove = (e: MouseEvent) => {
@@ -60,9 +62,9 @@ export default function WaterCursor() {
       if (!canvas) return;
       canvas.dispatchEvent(
         new TouchEvent("touchmove", {
-          touches: e.touches,
-          targetTouches: e.targetTouches,
-          changedTouches: e.changedTouches,
+          touches: Array.from(e.touches),
+          targetTouches: Array.from(e.targetTouches),
+          changedTouches: Array.from(e.changedTouches),
           bubbles: true,
           cancelable: true,
         })
@@ -73,9 +75,9 @@ export default function WaterCursor() {
       if (!canvas) return;
       canvas.dispatchEvent(
         new TouchEvent("touchstart", {
-          touches: e.touches,
-          targetTouches: e.targetTouches,
-          changedTouches: e.changedTouches,
+          touches: Array.from(e.touches),
+          targetTouches: Array.from(e.targetTouches),
+          changedTouches: Array.from(e.changedTouches),
           bubbles: true,
           cancelable: true,
         })

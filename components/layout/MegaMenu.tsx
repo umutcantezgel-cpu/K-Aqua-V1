@@ -25,7 +25,6 @@ import {
   LucideIcon,
   MessageSquare
 } from 'lucide-react';
-import LangPicker from './LangPicker';
 import ThemeToggle from './ThemeToggle';
 
 interface MegaMenuProps {

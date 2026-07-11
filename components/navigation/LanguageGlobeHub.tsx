@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-literals */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // components/navigation/LanguageGlobeHub.tsx
 // K-Aqua Language Switch Module — Hauptmodul ("Drop-In").
 //
@@ -16,7 +15,7 @@ import {
   useCallback, useEffect, useMemo, useRef, useState,
 } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Search, X } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/lib/i18n/navigation';
 import {

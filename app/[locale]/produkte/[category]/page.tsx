@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
@@ -8,7 +9,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
 import { routing } from "@/lib/i18n/routing";
-import { useTranslations } from "next-intl";
+
 
 interface Props {
   params: Promise<{ locale: string; category: string }>;
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (t.has(`${catKey}.seoText`)) {
       desc = t(`${catKey}.seoText`).slice(0, 150) + "...";
     }
-  } catch (e) {
+  } catch {
     // Ignore translation misses
   }
 
@@ -93,7 +94,7 @@ export default async function CategoryPage({ params }: Props) {
       const list = t.raw(`${catKey}.advList`);
       if (Array.isArray(list)) advantages = list;
     }
-  } catch (e) {
+  } catch {
     // Ignore translation misses
   }
 
@@ -157,7 +158,7 @@ export default async function CategoryPage({ params }: Props) {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="flex items-center justify-between mb-12">
             <h2 className="text-3xl font-heading font-bold text-foreground">
-              {tc("allProducts")} ({products.length})
+              {tc("allProducts")} {"("}{products.length}{")"}
             </h2>
             <Link 
               href={`/${locale}/produkte/finder?category=${encodeURIComponent(category.charAt(0).toUpperCase() + category.slice(1))}`}

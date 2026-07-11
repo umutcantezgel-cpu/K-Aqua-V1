@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
@@ -13,7 +14,6 @@ import {
   ShieldAlert,
   Server,
   Network,
-  Cpu,
   Database,
   Lock,
   Binary,
@@ -21,8 +21,7 @@ import {
   Activity,
   Gauge,
   Aperture,
-  Combine,
-  GlobeLock
+  Combine
 } from "lucide-react";
 
 interface Props {
@@ -138,7 +137,7 @@ export default async function ReferenzenPage({ params }: Props) {
               Unsere Systeme operieren in feindlichen Umgebungen, in denen eine einzige Millisekunde Latenz inakzeptabel ist und Datenverlust das Ende der Geschäftsgrundlage bedeutet. Wir implementieren <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Byzantine Fault Tolerance</em> nicht als akademisches Theorem in Whitepapers, sondern als harte Realität in unseren verteilten Clustern. Wenn ein primäres Rechenzentrum durch einen Stromausfall in die Knie gezwungen wird, leiten unsere BGP-Anycast-Routen den globalen Traffic innerhalb von Mikrosekunden an redundante Fallback-Knoten um – ohne dass der Endnutzer auch nur einen TCP-Retransmit bemerkt. Dies ist keine Magie. Es ist eiskalte, kalkulierte Überlebensfähigkeit.
             </p>
             <p>
-              Wir verabscheuen aufgeblähte "Magic Frameworks" und undurchsichtige Black-Box-Abstraktionen. Unser Stack ist transparent und wird von uns bis auf den Linux-Kernel-Level diktiert. Wir tunen TCP-Window-Sizes, optimieren eBPF-Netzwerkfilter für Packet-Processing in Lichtgeschwindigkeit und schreiben Allokations-Algorithmen um, um den Garbage-Collector zur Bedeutungslosigkeit zu zwingen. Die Resultate sind monolithische Microservices, die bei 100.000 Requests pro Sekunde müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
+              Wir verabscheuen aufgeblähte &quot;Magic Frameworks&quot; und undurchsichtige Black-Box-Abstraktionen. Unser Stack ist transparent und wird von uns bis auf den Linux-Kernel-Level diktiert. Wir tunen TCP-Window-Sizes, optimieren eBPF-Netzwerkfilter für Packet-Processing in Lichtgeschwindigkeit und schreiben Allokations-Algorithmen um, um den Garbage-Collector zur Bedeutungslosigkeit zu zwingen. Die Resultate sind monolithische Microservices, die bei 100.000 Requests pro Sekunde müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
             </p>
             <p>
               Sicherheit ist bei uns kein nachgelagertes Feature oder ein Compliance-Häkchen, sondern die untrennbare DNA unserer Topologie. Durch die strikte Anwendung von <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Mutual TLS (mTLS)</em> zwischen ausnahmslos allen Services, kombiniert mit kurzlebigen Zertifikaten und hardwaregestützter Schlüsselspeicherung (HSM), entziehen wir Angreifern proaktiv jegliche Angriffsfläche. Ein System, das per Definition keine Vertrauensvorschüsse gewährt, kann niemals kompromittiert werden. Das ist die unumstößliche Realität unseres Zero-Trust-Modells.

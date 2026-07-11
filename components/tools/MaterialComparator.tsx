@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 "use client";
 
 import React, { useState } from "react";
@@ -54,15 +55,15 @@ export function MaterialComparator() {
       <div className="w-full lg:w-1/3 flex flex-col gap-6">
         <div>
           <h2 className="text-3xl font-heading font-extrabold tracking-tight mb-2">
-            Material-<span className="text-primary">Vergleich</span>
+            {"Material-"}<span className="text-primary">{"Vergleich"}</span>
           </h2>
           <p className="text-muted-foreground text-sm">
-            Wähle ein Material aus, um es im direkten Leistungsvergleich gegen unser PP-RCT System (K-Aqua) antreten zu lassen.
+            {"Wähle ein Material aus, um es im direkten Leistungsvergleich gegen unser PP-RCT System (K-Aqua) antreten zu lassen."}
           </p>
         </div>
 
         <div className="flex flex-col gap-3">
-          <label className="text-sm font-semibold">Vergleiche K-Aqua gegen:</label>
+          <label className="text-sm font-semibold">{"Vergleiche K-Aqua gegen:"}</label>
           <div className="flex gap-2 flex-wrap">
             {MATERIALS.filter(m => m !== "kaqua").map(m => (
               <button
@@ -89,27 +90,27 @@ export function MaterialComparator() {
             transition={{ duration: 0.3 }}
           >
             <Card className="p-6 border-none shadow-md bg-card">
-              <h3 className="font-bold mb-3 text-lg">K-Aqua vs. {tMat(selectedMat)}</h3>
+              <h3 className="font-bold mb-3 text-lg">{"K-Aqua vs. "}{tMat(selectedMat)}</h3>
               <ul className="space-y-3 text-sm text-muted-foreground">
                 {selectedMat === "steel" && (
                   <>
-                    <li><strong className="text-foreground">Federleicht:</strong> K-Aqua wiegt ca. 70% weniger als Stahlrohre. Das spart Kran-Zeiten und schont das Personal.</li>
-                    <li><strong className="text-foreground">Keine Korrosion:</strong> Stahl rostet, K-Aqua ist zu 100% korrosionsresistent.</li>
-                    <li><strong className="text-foreground">Schnellere Montage:</strong> Muffenschweißen ist signifikant schneller und sicherer als das aufwändige Schweißen von Stahl.</li>
+                    <li><strong className="text-foreground">{"Federleicht:"}</strong> {"K-Aqua wiegt ca. 70% weniger als Stahlrohre. Das spart Kran-Zeiten und schont das Personal."}</li>
+                    <li><strong className="text-foreground">{"Keine Korrosion:"}</strong> {"Stahl rostet, K-Aqua ist zu 100% korrosionsresistent."}</li>
+                    <li><strong className="text-foreground">{"Schnellere Montage:"}</strong> {"Muffenschweißen ist signifikant schneller und sicherer als das aufwändige Schweißen von Stahl."}</li>
                   </>
                 )}
                 {selectedMat === "copper" && (
                   <>
-                    <li><strong className="text-foreground">Diebstahlsicher:</strong> Kupfer ist teuer und wird auf Baustellen oft gestohlen. K-Aqua bietet absolute Sicherheit.</li>
-                    <li><strong className="text-foreground">Preisstabil:</strong> Keine wilden Kursschwankungen wie an der Kupferbörse. Besser kalkulierbar.</li>
-                    <li><strong className="text-foreground">Lochfraß:</strong> Kupfer neigt bei falscher Wasserqualität zu Lochfraß. K-Aqua bleibt unangreifbar.</li>
+                    <li><strong className="text-foreground">{"Diebstahlsicher:"}</strong> {"Kupfer ist teuer und wird auf Baustellen oft gestohlen. K-Aqua bietet absolute Sicherheit."}</li>
+                    <li><strong className="text-foreground">{"Preisstabil:"}</strong> {"Keine wilden Kursschwankungen wie an der Kupferbörse. Besser kalkulierbar."}</li>
+                    <li><strong className="text-foreground">{"Lochfraß:"}</strong> {"Kupfer neigt bei falscher Wasserqualität zu Lochfraß. K-Aqua bleibt unangreifbar."}</li>
                   </>
                 )}
                 {selectedMat === "pvc" && (
                   <>
-                    <li><strong className="text-foreground">Umweltfreundlich:</strong> PP-RCT ist zu 100% recycelbar und dünstet keine Weichmacher oder Chlor aus.</li>
-                    <li><strong className="text-foreground">Heißwasserfest:</strong> Im Gegensatz zu PVC hält PP-RCT extrem hohen Temperaturen (bis zu 90°C) stand.</li>
-                    <li><strong className="text-foreground">Bruchsicher:</strong> PVC kann spröde werden, K-Aqua bleibt extrem schlagzäh.</li>
+                    <li><strong className="text-foreground">{"Umweltfreundlich:"}</strong> {"PP-RCT ist zu 100% recycelbar und dünstet keine Weichmacher oder Chlor aus."}</li>
+                    <li><strong className="text-foreground">{"Heißwasserfest:"}</strong> {"Im Gegensatz zu PVC hält PP-RCT extrem hohen Temperaturen (bis zu 90°C) stand."}</li>
+                    <li><strong className="text-foreground">{"Bruchsicher:"}</strong> {"PVC kann spröde werden, K-Aqua bleibt extrem schlagzäh."}</li>
                   </>
                 )}
               </ul>

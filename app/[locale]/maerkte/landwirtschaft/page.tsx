@@ -1,7 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
 import { getTranslations } from 'next-intl/server';
@@ -255,7 +254,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/projektanfrage">
                 {t('ctaBtn1')}
               </Button>
-              <Button variant="outline" size="lg" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-foreground hover:text-foreground">
+              <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                 {t('ctaBtn2')}
               </Button>
             </div>

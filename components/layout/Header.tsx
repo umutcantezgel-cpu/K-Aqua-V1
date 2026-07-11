@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-literals */
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';

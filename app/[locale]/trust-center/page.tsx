@@ -54,7 +54,6 @@ export default async function TrustCenterPage({ params }: Props) {
     scope3: t("scope3"),
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
     <>

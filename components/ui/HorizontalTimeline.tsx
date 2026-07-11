@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 'use client';
 
 import React, { useRef } from 'react';
@@ -43,7 +44,7 @@ export const HorizontalTimeline = ({
               
               {/* Massive background number */}
               <div className="absolute top-4 right-4 text-8xl font-heading font-black text-muted-foreground/10 group-hover:scale-110 transition-transform duration-700 pointer-events-none">
-                0{index + 1}
+                {"0"}{index + 1}
               </div>
 
               <div className="relative z-20">

@@ -1,7 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
 
@@ -315,10 +314,10 @@ export default async function HotelsPage({ params }: { params: Promise<{ locale:
               {t('cta.desc')}
             </p>
             <div className="flex flex-wrap gap-6 justify-center">
-              <Button variant="inverse" size="xl" href="/projektanfrage" className="text-lg px-8 h-16">
+              <Button variant="inverse" size="lg" href="/projektanfrage" className="text-lg px-8 h-16">
                 {t('cta.button1')}
               </Button>
-              <Button variant="outline" size="xl" href="/kontakt" className="text-lg px-8 h-16 bg-transparent text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10">
+              <Button variant="secondary" size="lg" href="/kontakt" className="text-lg px-8 h-16 bg-transparent text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10">
                 {t('cta.button2')}
               </Button>
             </div>

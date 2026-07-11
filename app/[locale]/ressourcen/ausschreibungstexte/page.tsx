@@ -20,14 +20,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: "/ressourcen/ausschreibungstexte",
     locale,
   });
-}: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Ausschreibungstexte | K-Aqua",
-    description: "K-Aqua Ausschreibungstexte – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
-    path: "/ressourcen/ausschreibungstexte",
-    locale,
-  });
 }
 
 // deepDiveContent moved inside component
@@ -36,6 +28,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte' });
+
+  const deepDiveContent = [
+    { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" /> },
+    { title: t('deep.items.1.title'), description: t('deep.items.1.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 2" /> },
+    { title: t('deep.items.2.title'), description: t('deep.items.2.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 3" /> },
+    { title: t('deep.items.3.title'), description: t('deep.items.3.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 4" /> }
+  ];
+
+  const timelineData = [
+    { year: t('timeline.items.0.year'), title: t('timeline.items.0.title'), text: t('timeline.items.0.text') },
+    { year: t('timeline.items.1.year'), title: t('timeline.items.1.title'), text: t('timeline.items.1.text') },
+    { year: t('timeline.items.2.year'), title: t('timeline.items.2.title'), text: t('timeline.items.2.text') },
+    { year: t('timeline.items.3.year'), title: t('timeline.items.3.title'), text: t('timeline.items.3.text') }
+  ];
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
@@ -190,7 +197,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/ressourcen/downloads">
                 {t('cta.btn1')}
               </Button>
-              <Button variant="outline" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
+              <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                 {t('cta.btn2')}
               </Button>
             </div>

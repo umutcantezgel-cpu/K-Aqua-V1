@@ -37,7 +37,7 @@ export default async function NewsPage({ params }: Props) {
 
   const iso = t.raw("iso") as string[][];
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>

@@ -58,7 +58,7 @@ export default async function ProjektanfragePage({ params }: Props) {
     doneBack: tRfq("doneBack"),
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>

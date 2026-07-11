@@ -30,18 +30,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: "/ressourcen/downloads",
     locale,
   });
-}: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Downloads | K-Aqua",
-    description: "K-Aqua Downloads – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
-    path: "/ressourcen/downloads",
-    locale,
-  });
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'resources.downloads' });
 
   const timelineItems = [
     {

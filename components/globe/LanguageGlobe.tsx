@@ -456,7 +456,7 @@ export const LanguageGlobe = forwardRef<GlobeHandle, LanguageGlobeProps>(
         .then((w) => { if (alive) { setWorld(w); propsRef.current.onReady?.(); } })
         .catch(() => { if (alive) propsRef.current.onError?.(); });
       return () => { alive = false; };
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+
     }, [props.dataUrl]);
 
     return (

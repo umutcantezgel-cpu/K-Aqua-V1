@@ -37,19 +37,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: "/wissen",
     locale,
   });
-}: Props): Promise<Metadata> {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Fachwissen & Engineering Data | K-Aqua",
-    description: "Tiefgreifendes technisches Fachwissen, systemarchitektonische Analysen und kompromisslose Ingenieursdaten zu K-Aqua Rohrsystemen.",
-    path: "/wissen",
-    locale,
-  });
 }
 
 export default async function WissenPage({ params }: Props) {
   const { locale } = await params;
   const articles = getAllArticles();
+  const t = await getTranslations({ locale, namespace: "wissen" });
   
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const webPageSchema = {

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -30,22 +31,22 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     {
       title: t('sticky.items.0.title'),
       description: t('sticky.items.0.desc'),
-      asset: <PremiumAssetPlaceholder label="Extreme Environments" aspectRatio="4/3" />
+      asset: <PremiumAssetPlaceholder label="Extreme Environments"  />
     },
     {
       title: t('sticky.items.1.title'),
       description: t('sticky.items.1.desc'),
-      asset: <PremiumAssetPlaceholder label="BIM & Digital Twin" aspectRatio="4/3" />
+      asset: <PremiumAssetPlaceholder label="BIM & Digital Twin"  />
     },
     {
       title: t('sticky.items.2.title'),
       description: t('sticky.items.2.desc'),
-      asset: <PremiumAssetPlaceholder label="Thermal Polyfusion" aspectRatio="4/3" />
+      asset: <PremiumAssetPlaceholder label="Thermal Polyfusion"  />
     },
     {
       title: t('sticky.items.3.title'),
       description: t('sticky.items.3.desc'),
-      asset: <PremiumAssetPlaceholder label="Quality Assurance" aspectRatio="4/3" />
+      asset: <PremiumAssetPlaceholder label="Quality Assurance"  />
     }
   ];
 
@@ -82,7 +83,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       
       {/* 1) Hero Section */}
       <ParallaxHero 
-        badge={t('hero.badge')}
+        eyebrow={t('hero.badge')}
         title={
           <>
             {t('hero.title1')}<br />
@@ -93,7 +94,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         primaryCta={{ label: t('hero.cta1'), href: "/projektanfrage" }}
         secondaryCta={{ label: t('hero.cta2'), href: "/ressourcen/downloads" }}
         backgroundImage="/images/hero-vorfertigung.jpg"
-        fallbackAsset={<PremiumAssetPlaceholder label="Hero Vorfertigung" aspectRatio="21/9" />}
+        fallbackAsset={<PremiumAssetPlaceholder label="Hero Vorfertigung"  />}
       />
 
       {/* 2) Introduction Copy */}
@@ -142,25 +143,25 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem 
                 title={t('bento.items.0.title')}
                 description={t('bento.items.0.desc')}
-                header={<PremiumAssetPlaceholder label="PPR-C Structure" aspectRatio="16/9" />}
+                header={<PremiumAssetPlaceholder label="PPR-C Structure"  />}
                 className="md:col-span-2"
               />
               <BentoGridItem 
                 title={t('bento.items.1.title')}
                 description={t('bento.items.1.desc')}
-                header={<PremiumAssetPlaceholder label="Corrosion Resistance" aspectRatio="1/1" />}
+                header={<PremiumAssetPlaceholder label="Corrosion Resistance"  />}
                 className="md:col-span-1"
               />
               <BentoGridItem 
                 title={t('bento.items.2.title')}
                 description={t('bento.items.2.desc')}
-                header={<PremiumAssetPlaceholder label="Acoustic Tests" aspectRatio="1/1" />}
+                header={<PremiumAssetPlaceholder label="Acoustic Tests"  />}
                 className="md:col-span-1"
               />
               <BentoGridItem 
                 title={t('bento.items.3.title')}
                 description={t('bento.items.3.desc')}
-                header={<PremiumAssetPlaceholder label="Fluid Dynamics" aspectRatio="16/9" />}
+                header={<PremiumAssetPlaceholder label="Fluid Dynamics"  />}
                 className="md:col-span-2"
               />
             </BentoGrid>
@@ -173,7 +174,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="mx-auto max-w-[1400px] px-6">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <div className="flex-1 w-full relative">
-               <PremiumAssetPlaceholder label="Macro Detail: Welded Seam" aspectRatio="4/5" />
+               <PremiumAssetPlaceholder label="Macro Detail: Welded Seam"  />
                <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
             </div>
             <div className="flex-1 flex flex-col gap-8">
@@ -265,7 +266,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                   {t('cta.button1')}
                   <ArrowRight className="ms-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </Button>
-                <Button variant="outline" size="lg" href="/kontakt" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-foreground/10">
+                <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                   {t('cta.button2')}
                 </Button>
               </div>

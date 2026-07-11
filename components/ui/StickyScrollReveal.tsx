@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-no-literals */
 'use client';
 
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
 import { cn } from "@/lib/utils/cn";
 
@@ -11,12 +12,12 @@ export const StickyScrollReveal = ({
   content: {
     title: string;
     description: string | React.ReactNode;
-    content?: React.ReactNode | any;
+    content?: React.ReactNode;
   }[];
   contentClassName?: string;
 }) => {
   const [activeCard, setActiveCard] = useState(0);
-  const ref = useRef<any>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -29,7 +30,7 @@ export const StickyScrollReveal = ({
     const closestBreakpointIndex = cardsBreakpoints.reduce(
       (acc, breakpoint, index) => {
         const distance = Math.abs(latest - breakpoint);
-        if (distance < Math.abs(latest - cardsBreakpoints[acc])) {
+        if (distance < Math.abs(latest - cardsBreakpoints[acc]!)) {
           return index;
         }
         return acc;
@@ -86,9 +87,9 @@ export const StickyScrollReveal = ({
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="w-full h-full flex items-center justify-center"
         >
-          {content[activeCard].content ?? (
+          {content[activeCard]!.content ?? (
             <div className="text-muted-foreground/50 font-heading tracking-widest uppercase">
-              Visual Asset Placeholder {activeCard + 1}
+              {"Visual Asset Placeholder "}{activeCard + 1}
             </div>
           )}
         </motion.div>

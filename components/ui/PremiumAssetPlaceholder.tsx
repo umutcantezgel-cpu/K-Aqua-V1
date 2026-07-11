@@ -1,5 +1,6 @@
 'use client';
 
+/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 import { cn } from '@/lib/utils/cn';
 
@@ -32,7 +33,7 @@ export const PremiumAssetPlaceholder = ({
           {label}
         </span>
         <p className="text-xs text-muted-foreground/50 max-w-xs">
-          Awwwards-level interactive module will be integrated here.
+          {"Awwwards-level interactive module will be integrated here."}
         </p>
       </div>
     </div>

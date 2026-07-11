@@ -23,7 +23,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "pages" });
+
   const meta = await getTranslations({ locale, namespace: "about.meta" });
   return constructMetadata({
     title: meta("title"),
@@ -40,6 +40,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function UnternehmenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "about");
+  const t = await getTranslations({ locale, namespace: "pages" });
+
+  const TIMELINE_ITEMS = [
+    { year: t('timeline.items.0.year'), title: t('timeline.items.0.title'), text: t('timeline.items.0.text') },
+    { year: t('timeline.items.1.year'), title: t('timeline.items.1.title'), text: t('timeline.items.1.text') },
+    { year: t('timeline.items.2.year'), title: t('timeline.items.2.title'), text: t('timeline.items.2.text') },
+    { year: t('timeline.items.3.year'), title: t('timeline.items.3.title'), text: t('timeline.items.3.text') }
+  ];
+
+  const STICKY_SCROLL_ITEMS = [
+    { title: t('sticky.items.0.title'), description: t('sticky.items.0.desc'), content: <PremiumAssetPlaceholder label="Quality Control" /> },
+    { title: t('sticky.items.1.title'), description: t('sticky.items.1.desc'), content: <PremiumAssetPlaceholder label="Global Reach" /> },
+    { title: t('sticky.items.2.title'), description: t('sticky.items.2.desc'), content: <PremiumAssetPlaceholder label="Sustainability" /> },
+    { title: t('sticky.items.3.title'), description: t('sticky.items.3.desc'), content: <PremiumAssetPlaceholder label="Innovation" /> }
+  ];
 
   return (
     <>

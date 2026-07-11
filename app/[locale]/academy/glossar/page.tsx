@@ -2,7 +2,6 @@ import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { getTranslations } from 'next-intl/server';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { ArrowRight } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
@@ -21,18 +20,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: "/academy/glossar",
     locale,
   });
-}: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Technisches Glossar | K-Aqua",
-    description: "K-Aqua Glossar – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
-    path: "/academy/glossar",
-    locale,
-  });
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'academy.glossar' });
   
   // Data for StickyScrollReveal
   const scrollContent = [

@@ -39,7 +39,7 @@ export default async function PartnerschaftPage({ params }: Props) {
     cards: t.raw("cards") as { t: string; d: string }[],
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>

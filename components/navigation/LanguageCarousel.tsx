@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-literals */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // components/navigation/LanguageCarousel.tsx
 // K-Aqua Language Switch Module — horizontales Swipe-Karussell (Mobile-Hybrid).
 // Tap auf eine Karte → onPick(id): der Hub lässt den Globus zur Region

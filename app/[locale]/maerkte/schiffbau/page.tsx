@@ -1,7 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { ArrowRight } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
@@ -35,8 +34,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="w-full h-full flex items-center justify-center p-4">
           <PremiumAssetPlaceholder 
             label="Korrosions-Matrix" 
-            width={600} 
-            height={400} 
+             
             className="rounded-xl shadow-2xl w-full h-full object-cover"
           />
         </div>
@@ -49,8 +47,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="w-full h-full flex items-center justify-center p-4">
           <PremiumAssetPlaceholder 
             label="Gewichts-Analyse" 
-            width={600} 
-            height={400} 
+             
             className="rounded-xl shadow-2xl w-full h-full object-cover"
           />
         </div>
@@ -63,8 +60,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="w-full h-full flex items-center justify-center p-4">
           <PremiumAssetPlaceholder 
             label="Vibrations-Dämpfung" 
-            width={600} 
-            height={400} 
+             
             className="rounded-xl shadow-2xl w-full h-full object-cover"
           />
         </div>
@@ -77,8 +73,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <div className="w-full h-full flex items-center justify-center p-4">
           <PremiumAssetPlaceholder 
             label="Polyfusion" 
-            width={600} 
-            height={400} 
+             
             className="rounded-xl shadow-2xl w-full h-full object-cover"
           />
         </div>
@@ -110,21 +105,20 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       
       {/* 1) Hero Section */}
       <ParallaxHero
-        badge={t('heroBadge')}
+        eyebrow={t('heroBadge')}
         title={
           <>
             {t('heroTitle')} <br />
             <span className="text-muted-foreground">{t('heroSubtitle')}</span>
           </>
         }
-        subtitle={t('heroDesc')}
+        description={t('heroDesc')}
         primaryCta={{ label: t('heroBtnPrimary'), href: "/projektanfrage" }}
         secondaryCta={{ label: t('heroBtnSecondary'), href: "/ressourcen/downloads" }}
         asset={
           <PremiumAssetPlaceholder 
             label="Hero Visual Schiffbau" 
-            width={1200} 
-            height={800} 
+             
             className="w-full h-full object-cover"
           />
         }
@@ -173,7 +167,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 description={t('bento1Desc')}
                 header={
                   <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Langzeit-Analyse" width={600} height={400} className="w-full h-full object-cover" />
+                    <PremiumAssetPlaceholder label="Langzeit-Analyse"  className="w-full h-full object-cover" />
                   </div>
                 }
                 className="md:col-span-2"
@@ -183,7 +177,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 description={t('bento2Desc')}
                 header={
                   <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Zertifikat-Stack" width={400} height={400} className="w-full h-full object-cover" />
+                    <PremiumAssetPlaceholder label="Zertifikat-Stack"  className="w-full h-full object-cover" />
                   </div>
                 }
                 className="md:col-span-1"
@@ -193,7 +187,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 description={t('bento3Desc')}
                 header={
                   <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Strömungsdynamik" width={400} height={400} className="w-full h-full object-cover" />
+                    <PremiumAssetPlaceholder label="Strömungsdynamik"  className="w-full h-full object-cover" />
                   </div>
                 }
                 className="md:col-span-1"
@@ -203,7 +197,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 description={t('bento4Desc')}
                 header={
                   <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Thermo-Mapping" width={600} height={400} className="w-full h-full object-cover" />
+                    <PremiumAssetPlaceholder label="Thermo-Mapping"  className="w-full h-full object-cover" />
                   </div>
                 }
                 className="md:col-span-2"
@@ -247,7 +241,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </ul>
             </div>
             <div className="h-full min-h-[600px] bg-background border border-card-border rounded-2xl shadow-2xl relative overflow-hidden flex items-center justify-center">
-               <PremiumAssetPlaceholder label="Fabrikations-Zentrum Deutschland" width={800} height={1000} className="w-full h-full object-cover" />
+               <PremiumAssetPlaceholder label="Fabrikations-Zentrum Deutschland"  className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -277,7 +271,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </p>
           <div className="flex justify-center">
             <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl">
-              <PremiumAssetPlaceholder label="Siegel: German Engineering" width={400} height={400} className="w-full h-full object-cover" />
+              <PremiumAssetPlaceholder label="Siegel: German Engineering"  className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

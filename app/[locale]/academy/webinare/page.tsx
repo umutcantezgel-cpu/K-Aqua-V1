@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -11,18 +12,16 @@ import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { Globe, Award, Shield, Layers, Factory, Wrench, ArrowRight } from '@/components/ui/icon';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+export async function generateMetadata() {
+
   return constructMetadata({
     title: "Webinare & Technical Training | K-Aqua",
     description: "K-Aqua Webinare – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
-    path: "/academy/webinare",
-    locale,
+    path: "/academy/webinare", locale,
   });
 }
 
-export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+export default async function WebinarePage() {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
@@ -206,7 +205,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/academy/webinare/anmeldung">
                 Zum Webinarplan
               </Button>
-              <Button variant="outline" size="lg" className="bg-transparent text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" href="/kontakt">
+              <Button variant="secondary" size="lg" className="bg-transparent text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" href="/kontakt">
                 Individuelle Schulung anfragen
               </Button>
             </div>

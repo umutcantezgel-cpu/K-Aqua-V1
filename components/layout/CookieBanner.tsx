@@ -3,7 +3,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Cookie, Check, Settings2, ShieldCheck, BarChart3, Target, X, ExternalLink, ChevronRight } from 'lucide-react';
+import { Cookie, Check, Settings2, ShieldCheck, BarChart3, Target, X, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
 import Link from 'next/link';
@@ -30,7 +30,7 @@ export function CookieBanner() {
         }, 1500);
         return () => clearTimeout(timer);
       }
-    } catch (e) {
+    } catch {
       // Ignore localStorage errors in strict privacy browsers
     }
   }, []);
@@ -53,7 +53,7 @@ export function CookieBanner() {
         localStorage.setItem('cookie_analytics', String(preferences.analytics));
         localStorage.setItem('cookie_marketing', String(preferences.marketing));
       }
-    } catch (e) {
+    } catch {
       // Ignore localStorage errors
     }
     

@@ -11,17 +11,12 @@ import { CTABand } from '@/components/ui/CTABand';
 import { Button } from '@/components/ui/Button';
 import { 
   Shield, 
-  Droplet, 
-  Award, 
-  Factory, 
-  FileText, 
-  Thermometer, 
-  Globe, 
+  Award,
   Layers,
-  Check,
+  Thermometer,
+  Droplet,
   Flame,
-  Recycle,
-  Microscope
+  Check
 } from '@/components/ui/icon';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -33,18 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: "/academy/zertifizierung",
     locale,
   });
-}: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Zertifikate & Normen | K-Aqua",
-    description: "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K-Aqua Rohrleitungssysteme.",
-    path: "/academy/zertifizierung",
-    locale,
-  });
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'academy.zertifizierung' });
 
   const certifications = [
     {
@@ -292,7 +280,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/ressourcen/downloads">
                 {t('cta.button1')}
               </Button>
-              <Button variant="inverse-ghost" size="lg" href="/projektanfrage">
+              <Button variant="ghost" size="lg" href="/projektanfrage">
                 {t('cta.button2')}
               </Button>
             </div>

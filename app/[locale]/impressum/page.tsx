@@ -30,7 +30,7 @@ export default async function ImpressumPage({ params }: Props) {
   const title = t("title");
   const sections = t.raw("sections") as { title: string; icon: string; content: string }[];
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>

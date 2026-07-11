@@ -191,7 +191,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/projektanfrage">
                 {t('cta.primary')}
               </Button>
-              <Button variant="outline" size="lg" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-foreground/10" href="/produkte">
+              <Button variant="secondary" size="lg" href="/produkte" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                 {t('cta.secondary')}
               </Button>
             </div>

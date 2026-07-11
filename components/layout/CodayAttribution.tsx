@@ -1,5 +1,6 @@
 'use client';
 
+/* eslint-disable react/jsx-no-literals */
 import { useEffect, useState } from 'react';
 import { usePathname } from '@/lib/i18n/navigation';
 

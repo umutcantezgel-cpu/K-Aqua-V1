@@ -3,7 +3,6 @@ import { getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
 
@@ -15,7 +14,7 @@ import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 
 // Icons
-import { Droplet, Shield, Layers, Thermometer, Globe, Award, Factory, Wrench, Check, Ruler } from '@/components/ui/icon';
+import { Droplet, Shield, Layers, Thermometer, Globe, Award, Ruler } from '@/components/ui/icon';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

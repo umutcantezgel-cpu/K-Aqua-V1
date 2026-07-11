@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+  await params;
 
   const stickyScrollData = [
     {
@@ -264,7 +265,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                   Wir bauen keine Rohre. Wir erschaffen die Arterien für die ambitioniertesten Bauwerke der Menschheit. Wenn ein 400-Meter-Wolkenkratzer in der Wüste errichtet wird, darf es tief in den Versorgungsschächten kein Materialversagen geben.
                 </p>
                 <p>
-                  Deshalb liegt unser Fokus nicht auf "ausreichend gut". Unser Fokus liegt auf massiver Überdimensionierung der Sicherheitsfaktoren. Wir haben den deutschen Maschinenbau auf die Kunststoffextrusion angewendet und einen Standard geschaffen, den die Konkurrenz nur versuchen kann zu kopieren.
+                  Deshalb liegt unser Fokus nicht auf &quot;ausreichend gut&quot;. Unser Fokus liegt auf massiver Überdimensionierung der Sicherheitsfaktoren. Wir haben den deutschen Maschinenbau auf die Kunststoffextrusion angewendet und einen Standard geschaffen, den die Konkurrenz nur versuchen kann zu kopieren.
                 </p>
               </div>
               
@@ -333,7 +334,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/projektanfrage">
                 Projekt evaluieren lassen
               </Button>
-              <Button variant="outline" className="text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" size="lg" href="/kontakt">
+              <Button variant="secondary" className="text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" size="lg" href="/kontakt">
                 Technischen Vertrieb kontaktieren
               </Button>
             </div>

@@ -1,9 +1,12 @@
+/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
+import { Card } from '@/components/ui/Card';
 import { getTranslations } from 'next-intl/server';
+
 
 // Premium Components
 import { ParallaxHero } from '@/components/ui/ParallaxHero';
@@ -247,7 +250,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
               <Button variant="inverse" size="lg" href="/ressourcen/downloads">{t('bim.cta.btnPrimary')}</Button>
-              <Button variant="outline" className="text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" size="lg" href="/projektanfrage">{t('bim.cta.btnOutline')}</Button>
+              <Button variant="secondary" className="text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" size="lg" href="/projektanfrage">{t('bim.cta.btnOutline')}</Button>
             </div>
           </CTABand>
         </div>

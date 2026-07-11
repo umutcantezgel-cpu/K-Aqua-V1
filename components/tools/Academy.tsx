@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { LocalVideo } from "@/components/ui/LocalVideo";
-import { Play, Flame, Award, ArrowRight } from "@/components/ui/icon";
+import { Flame, Award, ArrowRight } from "@/components/ui/icon";
 
 // Mappings for Academy videos: local path and YouTube SEO fallback
 const VIDEO_ASSETS = [

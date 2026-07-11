@@ -1,9 +1,7 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { ArrowRight } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
 
 import { ParallaxHero } from '@/components/ui/ParallaxHero';

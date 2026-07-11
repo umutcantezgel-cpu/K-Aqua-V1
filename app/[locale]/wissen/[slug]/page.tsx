@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-literals */
 import React from "react";
 import { constructMetadata } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";

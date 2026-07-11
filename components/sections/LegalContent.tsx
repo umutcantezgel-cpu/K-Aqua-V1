@@ -3,7 +3,6 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
-import { Card } from '@/components/ui/Card';
 import { Reveal } from '@/components/ui/Reveal';
 import * as Icons from 'lucide-react';
 import { clsx } from 'clsx';

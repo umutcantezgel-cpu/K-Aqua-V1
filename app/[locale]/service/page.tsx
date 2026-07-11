@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/Card";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
-import { FileText, Download, Play } from "@/components/ui/icon";
+import { FileText, Download } from "@/components/ui/icon";
 import { ServiceDeep } from "@/components/sections/ServiceDeep";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
@@ -62,7 +62,6 @@ export default async function ServicePage({ params }: Props) {
   const downloads = t.raw("downloads") as DownloadItem[];
   const videos = t.raw("videos") as VideoItem[];
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
     <>

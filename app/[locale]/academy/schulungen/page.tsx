@@ -19,18 +19,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     path: "/academy/schulungen",
     locale,
   });
-}: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  return constructMetadata({
-    title: "Schulungen | K-Aqua",
-    description: "K-Aqua Schulungen – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
-    path: "/academy/schulungen",
-    locale,
-  });
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'academy.schulungen' });
 
   const stickyContent = [
     {

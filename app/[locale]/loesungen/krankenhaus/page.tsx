@@ -220,7 +220,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                <p className="text-muted-foreground text-lg mb-12 relative z-10 leading-relaxed">
                  {t('bim.desc')}
                </p>
-               <Button variant="outline" size="lg" href="/ressourcen/downloads" className="w-full justify-between group relative z-10 h-16 text-lg">
+               <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="w-full justify-between group relative z-10 h-16 text-lg">
                  <span>{t('bim.cta')}</span>
                  <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                </Button>

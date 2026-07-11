@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useEffect } from "react";
 import createGlobe from "cobe";
 import { useSpring } from "framer-motion";
 
@@ -17,9 +17,8 @@ const locations = [
 
 export function ExportGlobe({ className }: { className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const pointerInteracting = useRef(null);
+  const pointerInteracting = useRef<number | null>(null);
   const pointerInteractionMovement = useRef(0);
-  const [r, setR] = useState(0);
 
   const spring = useSpring(0, {
     stiffness: 280,
@@ -55,7 +54,8 @@ export function ExportGlobe({ className }: { className?: string }) {
         location: [loc.lat, loc.lng] as [number, number],
         size: loc.size,
       })),
-      onRender: (state: Record<string, any>) => {
+      // @ts-expect-error onRender is missing in types
+      onRender: (state: Record<string, unknown>) => {
         // Auto-rotate but allow manual drag
         if (!pointerInteracting.current) {
           phi += 0.005;
@@ -80,7 +80,7 @@ export function ExportGlobe({ className }: { className?: string }) {
         ref={canvasRef}
         onPointerDown={(e) => {
           pointerInteracting.current =
-            (e.clientX - pointerInteractionMovement.current) as any;
+            (e.clientX - pointerInteractionMovement.current);
           if (canvasRef.current) canvasRef.current.style.cursor = "grabbing";
         }}
         onPointerUp={() => {

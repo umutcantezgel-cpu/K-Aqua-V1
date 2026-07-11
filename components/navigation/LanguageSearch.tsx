@@ -186,7 +186,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
                       key={p.id}
                       type="button"
                       onClick={() => {
-                        router.push(p.href as any);
+                        router.push(p.href);
                         onClose();
                       }}
                       className={`flex min-h-11 w-full items-center gap-2.5 rounded-xl px-3 py-1.5 text-start

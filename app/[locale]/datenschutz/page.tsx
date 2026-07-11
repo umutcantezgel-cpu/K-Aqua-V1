@@ -30,7 +30,7 @@ export default async function DatenschutzPage({ params }: Props) {
   const title = t("title");
   const sections = t.raw("sections") as { id?: string; title: string; icon?: string; tldr?: string; content: string }[];
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>

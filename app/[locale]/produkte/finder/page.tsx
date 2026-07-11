@@ -28,7 +28,8 @@ export default async function FinderPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
   const products = getAllProducts().map(p => {
-    const { content, ...rest } = p;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { content: _unused, ...rest } = p;
     return {
       ...rest,
       article_codes: rest.article_codes || "",

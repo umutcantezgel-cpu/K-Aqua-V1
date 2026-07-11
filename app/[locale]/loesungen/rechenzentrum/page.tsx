@@ -80,8 +80,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   ];
 
   return (
-
-  return (
     <div className="flex flex-col w-full min-h-screen bg-background selection:bg-primary/20 selection:text-primary">
       
       {/* Hero Section */}

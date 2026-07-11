@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-literals */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // components/navigation/LanguageConfirmPanel.tsx
 // K-Aqua Language Switch Module — schwebendes Glassmorphism-Bestätigungspanel.
 // Folgt dem Regions-Anker räumlich (rAF liest anchorRef, positioniert das

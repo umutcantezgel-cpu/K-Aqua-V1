@@ -44,7 +44,7 @@ export default async function KontaktPage({ params }: Props) {
   const tFooter = await getTranslations({ locale, namespace: "footer" });
 
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+
   
   return (
     <>
