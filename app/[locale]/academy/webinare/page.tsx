@@ -39,7 +39,7 @@ export default async function WebinarePage() {
         }
         description="Die industrielle Autorität für die Planung und Ausführung von thermoplastischen Rohrleitungssystemen in globalen Megaprojekten. Kompromissloser Wissenstransfer direkt aus dem deutschen K-Aqua Entwicklungszentrum."
       >
-        <Button variant="primary" size="lg" href="/academy/webinare/anmeldung" className="group">
+        <Button variant="primary" size="lg" href="/kontakt" className="group">
           Anstehende Webinare
           <ArrowRight className="ms-2 group-hover:translate-x-1 transition-transform" />
         </Button>
@@ -202,7 +202,7 @@ export default async function WebinarePage() {
               Melden Sie sich für das nächste Experten-Webinar an und erweitern Sie Ihre Planungskompetenz mit German Engineering.
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
-              <Button variant="inverse" size="lg" href="/academy/webinare/anmeldung">
+              <Button variant="inverse" size="lg" href="/kontakt">
                 Zum Webinarplan
               </Button>
               <Button variant="secondary" size="lg" className="bg-transparent text-inverse-foreground border-inverse-foreground/30 hover:bg-inverse-foreground/10" href="/kontakt">

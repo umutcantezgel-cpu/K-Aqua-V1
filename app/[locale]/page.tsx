@@ -398,7 +398,7 @@ export default async function Page({ params }: Props) {
               <Button
                 variant="ghost"
                 className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground/10"
-                href="/downloads"
+                href="/ressourcen/downloads"
               >
                 {tHome('bandBtn2')}
               </Button>

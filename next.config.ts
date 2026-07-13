@@ -61,6 +61,111 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/:locale/academy/webinare/anmeldung',
+        destination: '/:locale/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/:locale/downloads',
+        destination: '/:locale/ressourcen/downloads',
+        permanent: true,
+      },
+      {
+        source: '/:locale/produkte/:category/index',
+        destination: '/:locale/produkte/:category',
+        permanent: true,
+      },
+      {
+        source: '/:locale/ressourcen',
+        destination: '/:locale/ressourcen/downloads',
+        permanent: true,
+      },
+      {
+        source: '/:locale/ressourcen/co2-rechner',
+        destination: '/:locale/co2-rechner',
+        permanent: true,
+      },
+      {
+        source: '/:locale/ressourcen/katalog',
+        destination: '/:locale/produkte/finder',
+        permanent: true,
+      },
+      {
+        source: '/:locale/unternehmen/karriere',
+        destination: '/:locale/karriere',
+        permanent: true,
+      },
+      {
+        source: '/:locale/unternehmen/kontakt',
+        destination: '/:locale/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/:locale/unternehmen/news',
+        destination: '/:locale/news',
+        permanent: true,
+      },
+      {
+        source: '/:locale/unternehmen/partner',
+        destination: '/:locale/partnerschaft',
+        permanent: true,
+      },
+      // Non-locale prefixed versions
+      {
+        source: '/academy/webinare/anmeldung',
+        destination: '/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/downloads',
+        destination: '/ressourcen/downloads',
+        permanent: true,
+      },
+      {
+        source: '/produkte/:category/index',
+        destination: '/produkte/:category',
+        permanent: true,
+      },
+      {
+        source: '/ressourcen',
+        destination: '/ressourcen/downloads',
+        permanent: true,
+      },
+      {
+        source: '/ressourcen/co2-rechner',
+        destination: '/co2-rechner',
+        permanent: true,
+      },
+      {
+        source: '/ressourcen/katalog',
+        destination: '/produkte/finder',
+        permanent: true,
+      },
+      {
+        source: '/unternehmen/karriere',
+        destination: '/karriere',
+        permanent: true,
+      },
+      {
+        source: '/unternehmen/kontakt',
+        destination: '/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/unternehmen/news',
+        destination: '/news',
+        permanent: true,
+      },
+      {
+        source: '/unternehmen/partner',
+        destination: '/partnerschaft',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
