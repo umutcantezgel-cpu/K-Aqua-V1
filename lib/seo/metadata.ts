@@ -51,12 +51,12 @@ export function constructMetadata({
 
   const languages: Record<string, string> = {};
   for (const loc of routing.locales) {
-    languages[loc] = `${siteUrl}/${loc}/${cleanPath}`;
+    languages[loc] = cleanPath ? `${siteUrl}/${loc}/${cleanPath}` : `${siteUrl}/${loc}`;
   }
   // x-default points to default locale (de)
-  languages["x-default"] = `${siteUrl}/de/${cleanPath}`;
+  languages["x-default"] = cleanPath ? `${siteUrl}/de/${cleanPath}` : `${siteUrl}/de`;
 
-  const canonicalUrl = `${siteUrl}/${locale}/${cleanPath}`;
+  const canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
 
   return {
     metadataBase: new URL(siteUrl),
