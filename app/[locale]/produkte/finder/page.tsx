@@ -85,7 +85,7 @@ export default async function FinderPage({ params }: Props) {
                 overflow-x-auto rounded-xl border border-card-border bg-card shadow-sm p-4 sm:p-8
               "
               dangerouslySetInnerHTML={{ 
-                __html: indexContent.replace(/href="\.\/([^"]+)\.md"/g, `href="/${locale}/produkte/$1"`)
+                __html: indexContent.replace(/href="\.\/([^"]+?)(?:\/index)?\.md"/g, `href="/${locale}/produkte/$1"`)
               }}
             />
           </div>

@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { Cookie, Check, Settings2, ShieldCheck, BarChart3, Target, X, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
-import Link from 'next/link';
+import { Link } from '@/lib/i18n/navigation';
 
 type ViewMode = 'banner' | 'preferences';
 

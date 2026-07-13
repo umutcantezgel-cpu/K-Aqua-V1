@@ -2,6 +2,8 @@ import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 
+import { Link } from "@/lib/i18n/navigation";
+
 const buttonVariants = cva(
   "inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none",
   {
@@ -57,15 +59,30 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
       const anchorProps = { ...props } as Record<string, unknown>;
       delete anchorProps.type;
       delete anchorProps.disabled;
+      
+      const isExternal = href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:');
+      
+      if (isExternal) {
+        return (
+          <a
+            ref={ref as React.Ref<HTMLAnchorElement>}
+            href={href}
+            className={buttonClass}
+            {...(anchorProps as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+          >
+            {content}
+          </a>
+        );
+      }
+
       return (
-        <a
-          ref={ref as React.Ref<HTMLAnchorElement>}
+        <Link
           href={href}
           className={buttonClass}
-          {...(anchorProps as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+          {...(anchorProps as any)}
         >
           {content}
-        </a>
+        </Link>
       );
     }
 
