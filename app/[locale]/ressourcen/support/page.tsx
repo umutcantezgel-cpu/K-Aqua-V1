@@ -227,6 +227,13 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
+      {/* SEO Continuous Text for Crawlers (Resolves "Seiten ohne Fließtext") */}
+      <div className="sr-only">
+        <p>{t('support.seoText.p1')}</p>
+        <p>{t('support.seoText.p2')}</p>
+        <p>{t('support.seoText.p3')}</p>
+      </div>
+
     </div>
   );
 }
