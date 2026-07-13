@@ -76,10 +76,11 @@ export default async function ProductDetailPage({
   const codes = Array.isArray(product.article_codes) ? product.article_codes.join(", ") : (product.article_codes || 'N/A');
 
   // Dynamic Content Generation based on category
-  const dynamicAreas = tProd(`seoArticle.${seoCat}.areas`).split(',').map((s: string) => s.trim());
-  const dynamicAdvTitle = tProd(`seoArticle.${seoCat}.advTitle`);
-  const dynamicAdvList = tProd.raw(`seoArticle.${seoCat}.advList`) as string[];
-  const dynamicSeoText = tProd(`seoArticle.${seoCat}.seoText`);
+  const hasSeoContent = tProd.has(`seoArticle.${seoCat}.advTitle`);
+  const dynamicAreas = hasSeoContent ? tProd(`seoArticle.${seoCat}.areas`).split(',').map((s: string) => s.trim()) : [];
+  const dynamicAdvTitle = hasSeoContent ? tProd(`seoArticle.${seoCat}.advTitle`) : '';
+  const dynamicAdvList = hasSeoContent ? tProd.raw(`seoArticle.${seoCat}.advList`) as string[] : [];
+  const dynamicSeoText = hasSeoContent ? tProd(`seoArticle.${seoCat}.seoText`) : '';
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
     || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
@@ -159,6 +160,7 @@ export default async function ProductDetailPage({
       </section>
 
       {/* 2. DYNAMIC APPLICATION AREAS & ADVANTAGES */}
+      {hasSeoContent && (
       <section className="py-24 bg-background border-b border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -230,6 +232,7 @@ export default async function ProductDetailPage({
           </div>
         </div>
       </section>
+      )}
 
       {/* 3. TECHNICAL DATA TABLE & SIDEBAR */}
       <section className="py-24 bg-background">
