@@ -62,10 +62,19 @@ export function constructMetadata({
   const cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
   const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
 
+  const translatedLocales = [
+    "ar", "de", "en-GB", "en", "es-ES", "es", "fr", "it", "nl", "pl", "pt-BR", "pt", "ru", "tr", "zh"
+  ];
+  const isTranslated = translatedLocales.includes(locale);
+
   return {
     metadataBase: new URL(siteUrl),
     title: finalTitle,
     description,
+    robots: {
+      index: isTranslated,
+      follow: isTranslated,
+    },
     alternates: {
       canonical: canonicalUrl,
       languages,

@@ -44,6 +44,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
   experimental: {
+    outputFileTracingIncludes: {
+      '/[locale]/produkte/[category]/[slug]': ['./content/**/*'],
+      '/[locale]/produkte/[category]': ['./content/**/*'],
+      '/[locale]/produkte': ['./content/**/*'],
+    },
     optimizePackageImports: [
       'lucide-react', 
       'motion', 
