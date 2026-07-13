@@ -1,3 +1,6 @@
+import { GeoMarket } from "@/lib/data/geo";
+import { getBaseUrl } from "@/lib/env";
+
 const domain = getBaseUrl();
 
 export const DEFAULT_ORG_SCHEMA = {
