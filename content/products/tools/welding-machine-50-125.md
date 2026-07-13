@@ -1,5 +1,5 @@
 ---
-title: "Welding Machine 50–125 (Complete Set)"
+title: "Socket Welding Machine d50-d125"
 category: "Tools"
 slug: "tools/welding-machine-50-125"
 article_codes: ["AQ985125"]

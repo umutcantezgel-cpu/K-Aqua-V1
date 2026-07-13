@@ -1,5 +1,5 @@
 ---
-title: "Butt Welding Machine 90–250"
+title: "Butt Welding Machine d90-d250"
 category: "Tools"
 slug: "tools/butt-welding-machine-90-250"
 article_codes: ["AQ989250"]

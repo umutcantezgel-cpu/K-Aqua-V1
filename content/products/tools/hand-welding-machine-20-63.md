@@ -1,5 +1,5 @@
 ---
-title: "Hand Welding Machine 20–63 (Complete Set)"
+title: "Hand Welding Machine d20-d63"
 category: "Tools"
 slug: "tools/hand-welding-machine-20-63"
 article_codes: ["AQ98063"]

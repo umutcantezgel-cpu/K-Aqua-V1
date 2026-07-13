@@ -37,7 +37,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const tSeo = await getTranslations({ locale, namespace: 'seo' });
   const seoCat = getDynamicSeoCategory(category);
-  const title = `${product.title} - K-Aqua`;
+  
+  const slugKey = `${category}_${slug}`.replace(/\//g, '_');
+  const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
+  const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : product.title;
+  
+  const title = `${localizedTitle} - K-Aqua`;
   const description = `${tSeo.raw(seoCat)?.[0]?.desc || ''} - Article: ${Array.isArray(product.article_codes) ? product.article_codes.join(', ') : product.article_codes}`;
 
   return constructMetadata({
@@ -82,13 +87,17 @@ export default async function ProductDetailPage({
   const dynamicAdvList = hasSeoContent ? tProd.raw(`seoArticle.${seoCat}.advList`) as string[] : [];
   const dynamicSeoText = hasSeoContent ? tProd(`seoArticle.${seoCat}.seoText`) : '';
 
+  const slugKey = `${category}_${slug}`.replace(/\//g, '_');
+  const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
+  const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : product.title;
+
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
     || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
     || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
 
   const schema = getProductSchema({
-    name: product.title,
-    description: dynamicSeoText || product.title,
+    name: localizedTitle,
+    description: dynamicSeoText || localizedTitle,
     category: product.category,
     url: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
     codes: codes
@@ -130,7 +139,7 @@ export default async function ProductDetailPage({
               </Reveal>
               <Reveal delay={0.06}>
                 <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
-                  {product.title}
+                  {localizedTitle}
                 </h1>
               </Reveal>
               <Reveal delay={0.12}>

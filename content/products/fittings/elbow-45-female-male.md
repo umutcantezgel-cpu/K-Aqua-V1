@@ -1,5 +1,5 @@
 ---
-title: "Elbow 45° (Female/Male)"
+title: "PP-R Street Elbow 45° (F/M)"
 category: "Fittings"
 slug: "fittings/elbow-45-female-male"
 article_codes: ["AQ04120", "AQ04125"]

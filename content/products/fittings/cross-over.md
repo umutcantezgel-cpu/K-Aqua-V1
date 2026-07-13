@@ -1,5 +1,5 @@
 ---
-title: "Cross Over"
+title: "PP-R Pipe Crossover"
 category: "Fittings"
 slug: "fittings/cross-over"
 article_codes: ["AQ26720", "AQ26725", "AQ26732"]

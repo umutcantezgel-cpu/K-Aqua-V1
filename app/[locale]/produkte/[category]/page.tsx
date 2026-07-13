@@ -68,6 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CategoryPage({ params }: Props) {
   const { locale, category } = await params;
   const t = await getTranslations({ locale, namespace: "products.seoArticle" });
+  const tNames = await getTranslations({ locale, namespace: "productNames" }).catch(() => null);
 
   const products = getProductsByCategory(category.toLowerCase());
   
@@ -176,22 +177,30 @@ export default async function CategoryPage({ params }: Props) {
                 key={p.slug}
                 className="group flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1"
               >
-                <div className="aspect-[4/3] bg-background-subtle relative flex items-center justify-center p-6 border-b border-card-border/50">
-                   {/* Fallback Icon if no image */}
-                   <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
-                   <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent" />
-                </div>
-                <div className="p-6 flex flex-col flex-1">
-                  <div className="text-xs font-mono text-muted-foreground mb-2">
-                    {p.article_codes ? String(p.article_codes).split(',')[0] : tc("artNA")}
-                  </div>
-                  <h3 className="text-lg font-heading font-bold text-foreground line-clamp-2 mb-4 group-hover:text-primary transition-colors">
-                    {p.title}
-                  </h3>
-                  <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all">
-                    {tc("viewDetails")} <ArrowRight className="w-4 h-4" />
-                  </div>
-                </div>
+                {(() => {
+                  const slugKey = `${category}_${p.slug}`.replace(/\//g, '_');
+                  const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : p.title;
+                  return (
+                    <>
+                      <div className="aspect-[4/3] bg-background-subtle relative flex items-center justify-center p-6 border-b border-card-border/50">
+                         {/* Fallback Icon if no image */}
+                         <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
+                         <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent" />
+                      </div>
+                      <div className="p-6 flex flex-col flex-1">
+                        <div className="text-xs font-mono text-muted-foreground mb-2">
+                          {p.article_codes ? String(p.article_codes).split(',')[0] : tc("artNA")}
+                        </div>
+                        <h3 className="text-lg font-heading font-bold text-foreground line-clamp-2 mb-4 group-hover:text-primary transition-colors">
+                          {localizedTitle}
+                        </h3>
+                        <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all">
+                          {tc("viewDetails")} <ArrowRight className="w-4 h-4" />
+                        </div>
+                      </div>
+                    </>
+                  );
+                })()}
               </Link>
             ))}
           </div>
