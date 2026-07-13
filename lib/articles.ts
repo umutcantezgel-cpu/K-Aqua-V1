@@ -11,6 +11,7 @@ const contentDir = path.join(process.cwd(), 'content', 'wissen');
 export interface ArticleData {
   slug: string;
   title: string;
+  shortTitle?: string;
   description: string;
   date: string;
   category: string;
@@ -35,6 +36,7 @@ export function getAllArticles(): ArticleData[] {
       articles.push({
         slug: parsedSlug,
         title: data.title || '',
+        shortTitle: data.shortTitle || data.title || '',
         description: data.description || '',
         date: data.date || '',
         category: data.category || 'Allgemein',
