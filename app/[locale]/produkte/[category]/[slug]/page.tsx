@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 function getDynamicSeoCategory(category: string) {
   const cat = category.toLowerCase();
   if (cat.includes("pipes")) return 'pipes';
-  if (cat.includes("fittings") || cat.includes("transition")) return 'fittings';
+  if (cat.includes("fittings") || cat.includes("transition") || cat.includes("weld-in-saddles")) return 'fittings';
   if (cat.includes("valves")) return 'valves';
   return 'fallback';
 }

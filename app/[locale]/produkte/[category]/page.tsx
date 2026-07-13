@@ -79,7 +79,7 @@ export default async function CategoryPage({ params }: Props) {
   let catKey = "fallback";
   const lowerCat = category.toLowerCase();
   if (lowerCat.includes('pipes')) catKey = 'pipes';
-  else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) catKey = 'fittings';
+  else if (lowerCat.includes('fitting') || lowerCat.includes('transition') || lowerCat.includes('weld-in-saddles')) catKey = 'fittings';
   else if (lowerCat.includes('valve')) catKey = 'valves';
   else if (lowerCat.includes('tools')) catKey = 'tools';
 
