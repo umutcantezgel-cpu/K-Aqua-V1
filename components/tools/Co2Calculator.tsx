@@ -213,6 +213,7 @@ export default function Co2Calculator() {
             {t("title1")} <span className="text-primary">{t("titleGrad")}</span>
           </h1>
           <p className="text-sm text-muted-foreground leading-snug">
+            <span className="sr-only" aria-hidden="true">{t("title1")} {t("titleGrad")} </span>
             {t("lead")}
           </p>
         </div>
