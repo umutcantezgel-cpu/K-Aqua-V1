@@ -180,10 +180,17 @@ export default async function WissenPage({ params }: Props) {
             const isLarge = index === 0 || index === 3;
             
             return (
-              <Link href={`/${locale}/wissen/${article.slug}`} key={article.slug} className="contents group/link">
+              <div key={article.slug} className="contents group/link">
                 <BentoGridItem
                   colSpan={isLarge ? 2 : 1}
-                  title={article.title}
+                  title={
+                    <Link 
+                      href={`/${locale}/wissen/${article.slug}`} 
+                      className="focus:outline-none after:absolute after:inset-0 after:z-10"
+                    >
+                      {article.title}
+                    </Link>
+                  }
                   description={
                     <div className="mt-4 flex flex-col gap-4">
                       <p className="line-clamp-2">{article.description}</p>
@@ -196,7 +203,7 @@ export default async function WissenPage({ params }: Props) {
                         <span className="text-primary font-bold uppercase tracking-wider">
                           {article.category}
                         </span>
-                        <div className="ms-auto flex items-center gap-1 text-primary group-hover/link:translate-x-1 transition-transform">
+                        <div className="ms-auto flex items-center gap-1 text-primary group-hover/link:translate-x-1 transition-transform relative z-20">
                           <span className="font-bold uppercase tracking-widest">{t('grid.read')}</span>
                           <ArrowRight className="w-3.5 h-3.5" />
                         </div>
@@ -210,13 +217,13 @@ export default async function WissenPage({ params }: Props) {
                     />
                   }
                   icon={
-                    <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4 border border-primary/20 text-primary">
+                    <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4 border border-primary/20 text-primary relative z-20">
                       {isLarge ? <Network className="w-6 h-6" /> : <Cpu className="w-6 h-6" />}
                     </div>
                   }
                   className="hover:border-primary/50"
                 />
-              </Link>
+              </div>
             );
           })}
         </BentoGrid>
