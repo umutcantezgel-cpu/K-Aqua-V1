@@ -42,6 +42,11 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
   const activeCategory = searchParams.get("category") || "all";
   const searchQuery = searchParams.get("q") || "";
   const [localSearchQuery, setLocalSearchQuery] = useState(searchQuery);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   useEffect(() => {
     setLocalSearchQuery(searchQuery);
@@ -199,7 +204,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                         </tr>
                       </thead>
                       <tbody>
-                        {rows.map((r, i) => {
+                        {(isMounted ? rows : rows.slice(0, 20)).map((r, i) => {
                           const slugOnly = r.slug.includes("/") ? r.slug.split("/").pop() : r.slug;
                           return (
                           <tr
