@@ -41,7 +41,7 @@ type Row = [
 const ROWS: Row[] = [
   /* ---------------- Europa ---------------- */
   ['de', 'de', 'Deutsch', 'Deutsch', 'Bestätigen', 'eu', 10.0, 50.8, [276, 40, 756]],
-  ['en_uk', 'en-GB', 'Englisch (UK & Irland)', 'English (UK)', 'Confirm', 'eu', -1.8, 53.0, [826, 372]],
+  ['en_uk', 'en', 'Englisch (Global)', 'English (Global)', 'Confirm', 'eu', -1.8, 53.0, [826, 372]],
   ['fr', 'fr', 'Französisch', 'Français', 'Confirmer', 'eu', 2.2, 46.6, [250]],
   ['es_eu', 'es-ES', 'Spanisch (Europa)', 'Español (España)', 'Confirmar', 'eu', -3.7, 40.2, [724]],
   ['pt_eu', 'pt-PT', 'Portugiesisch (Europa)', 'Português (Portugal)', 'Confirmar', 'eu', -8.1, 39.6, [620]],
