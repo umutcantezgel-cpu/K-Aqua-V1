@@ -1,5 +1,5 @@
 ---
-title: "Reducing Tee (Large Sizes)"
+title: "PP-R Reducing Tee (Large)"
 category: "Fittings"
 slug: "fittings/reducing-tee-large"
 article_codes: ["AQ15063", "AQ15075"]

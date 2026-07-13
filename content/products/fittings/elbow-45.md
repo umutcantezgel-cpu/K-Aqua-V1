@@ -1,5 +1,5 @@
 ---
-title: "Elbow 45°"
+title: "PP-R Standard Elbow 45°"
 category: "Fittings"
 slug: "fittings/elbow-45"
 article_codes: ["AQ04520", "AQ04525", "AQ04532", "AQ04540", "AQ04550", "AQ04563", "AQ04575"]

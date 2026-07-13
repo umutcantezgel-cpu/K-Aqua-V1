@@ -1,5 +1,5 @@
 ---
-title: "Pipe Cutter 20–40"
+title: "Ratchet Pipe Cutter d20-d40"
 category: "Tools"
 slug: "tools/pipe-cutter-20-40"
 article_codes: ["AQ97040"]

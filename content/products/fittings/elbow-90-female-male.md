@@ -1,5 +1,5 @@
 ---
-title: "Elbow 90° (Female/Male)"
+title: "PP-R Street Elbow 90° (F/M)"
 category: "Fittings"
 slug: "fittings/elbow-90-female-male"
 article_codes: ["AQ09120", "AQ09125"]

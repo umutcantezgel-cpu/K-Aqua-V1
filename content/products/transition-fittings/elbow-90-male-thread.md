@@ -1,5 +1,5 @@
 ---
-title: "Elbow 90° (Male Thread)"
+title: "PP-R Transition Elbow 90° (Male)"
 category: "Transition Fittings"
 slug: "transition-fittings/elbow-90-male-thread"
 article_codes: ["AQ09R20","AQ09R25","AQ09R32","AQ09R40"]

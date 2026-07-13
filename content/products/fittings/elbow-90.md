@@ -1,5 +1,5 @@
 ---
-title: "Elbow 90°"
+title: "PP-R Standard Elbow 90°"
 category: "Fittings"
 slug: "fittings/elbow-90"
 article_codes: ["AQ09020", "AQ09025", "AQ09032", "AQ09040", "AQ09050", "AQ09063", "AQ09075"]

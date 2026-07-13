@@ -28,11 +28,15 @@ export default async function FinderPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
+  const tNames = await getTranslations({ locale, namespace: "productNames" }).catch(() => null);
   const products = getAllProducts().map(p => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { content: _unused, ...rest } = p;
+    const slugKey = `${p.category}_${p.slug}`.replace(/\//g, '_');
+    const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : p.title;
     return {
       ...rest,
+      title: localizedTitle,
       article_codes: rest.article_codes || "",
     };
   });

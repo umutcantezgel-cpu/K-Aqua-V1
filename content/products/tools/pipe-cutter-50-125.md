@@ -1,5 +1,5 @@
 ---
-title: "Pipe Cutter 50–125"
+title: "Heavy-Duty Pipe Cutter d50-d125"
 category: "Tools"
 slug: "tools/pipe-cutter-50-125"
 article_codes: ["AQ975125"]
