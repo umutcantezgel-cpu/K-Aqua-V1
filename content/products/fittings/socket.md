@@ -1,5 +1,5 @@
 ---
-title: "Socket"
+title: "PP-R Pipe Socket"
 category: "Fittings"
 slug: "fittings/socket"
 article_codes: ["AQ27020", "AQ27025", "AQ27032", "AQ27040", "AQ27050", "AQ27065", "AQ27075"]

@@ -1,5 +1,5 @@
 ---
-title: "Cap"
+title: "PP-R End Cap"
 category: "Fittings"
 slug: "fittings/cap"
 article_codes: ["AQ30120", "AQ30125", "AQ30132", "AQ30140", "AQ30150", "AQ30163", "AQ30175"]

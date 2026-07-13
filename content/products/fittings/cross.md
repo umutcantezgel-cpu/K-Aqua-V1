@@ -1,5 +1,5 @@
 ---
-title: "Cross"
+title: "PP-R Cross Fitting"
 category: "Fittings"
 slug: "fittings/cross"
 article_codes: ["AQ18025", "AQ18032"]

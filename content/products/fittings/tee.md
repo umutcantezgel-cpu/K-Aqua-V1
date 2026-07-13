@@ -1,5 +1,5 @@
 ---
-title: "Tee"
+title: "PP-R Tee Fitting"
 category: "Fittings"
 slug: "fittings/tee"
 article_codes: ["AQ13020", "AQ13025", "AQ13032", "AQ13040", "AQ13050", "AQ13063", "AQ13075"]

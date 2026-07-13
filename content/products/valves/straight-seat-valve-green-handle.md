@@ -1,5 +1,5 @@
 ---
-title: "Straight Seat Valve (Only Upper Part) Green Handle"
+title: "Straight Seat Valve (Upper Part)"
 category: "Valves"
 slug: "valves/straight-seat-valve-green-handle"
 article_codes: ["AQ62591"]

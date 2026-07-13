@@ -1,11 +1,11 @@
 ---
-title: "PP-R Ball Valve (Ball in Brass, Chromium Plated)"
+title: "PP-R Valve (Brass Core, Chromium Plated)"
 category: "Valves"
 slug: "valves/pp-r-ball-valve-brass"
 article_codes: ["AQ60020","AQ60025","AQ60032","AQ60040","AQ60050","AQ60063","AQ60075","AQ60090"]
 ---
 
-# PP-R Ball Valve (Ball in Brass, Chromium Plated)
+# PP-R Valve (Brass Core, Chromium Plated)
 
 Full-bore ball valve with chromium-plated brass ball for high-durability applications — socket fusion ends.
 
