@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import MarketsHub from "@/components/sections/MarketsHub";
 import { GEO_MARKETS } from "@/lib/data/geo";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -68,7 +69,7 @@ export default async function MaerktePage({ params }: Props) {
     focusHeading: string;
   }>;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",

@@ -1,6 +1,7 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllArticles } from "@/lib/articles";
@@ -44,7 +45,7 @@ export default async function WissenPage({ params }: Props) {
   const articles = getAllArticles();
   const t = await getTranslations({ locale, namespace: "wissen" });
   
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",

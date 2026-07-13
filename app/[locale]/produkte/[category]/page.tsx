@@ -2,6 +2,7 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getProductsByCategory, getProductCategories } from "@/lib/products";
@@ -98,7 +99,7 @@ export default async function CategoryPage({ params }: Props) {
     // Ignore translation misses
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",

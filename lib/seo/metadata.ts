@@ -12,6 +12,21 @@ import {
   BreadcrumbListJsonLd,
 } from "@/components/seo/JsonLd";
 
+export function getBaseUrl() {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return process.env.NODE_ENV === 'development' 
+    ? 'http://localhost:3000' 
+    : 'https://k-aqua.de';
+}
+
 interface MetadataInput {
   title: string;
   description: string;
@@ -31,7 +46,7 @@ export function constructMetadata({
   locale,
   ogImage,
 }: MetadataInput): Metadata {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const cleanPath = path.replace(/^\/+|\/+$/g, "");
 
   const languages: Record<string, string> = {};
@@ -75,7 +90,7 @@ export function constructMetadata({
  */
 export async function getOrganizationJsonLd(locale: string): Promise<OrganizationJsonLd> {
   const t = await getTranslations({ locale, namespace: "footer" });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
 
   return {
     "@context": "https://schema.org",
@@ -109,7 +124,7 @@ export async function getOrganizationJsonLd(locale: string): Promise<Organizatio
 export async function getProductCatalogJsonLd(locale: string): Promise<ItemListJsonLd> {
   const t = await getTranslations({ locale, namespace: "products" });
   const range = t.raw("range") as Array<{ t: string; d: string }>;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
 
   const itemListElement = range.map((item, index) => ({
     "@type": "ListItem" as const,
@@ -151,7 +166,7 @@ export async function getGeoCityJsonLd(
   }
 ): Promise<[ProductJsonLd, FAQPageJsonLd]> {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const url = `${siteUrl}/${locale}/maerkte/${market.slug}`;
 
   // 1. Product representation for the specific market/city
@@ -268,7 +283,7 @@ export type { MetadataInput };
 export async function getWebPageJsonLd(locale: string, pageKey: string, type: WebPageJsonLd["@type"] = "WebPage"): Promise<WebPageJsonLd> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw(pageKey) as string[];
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   
   return {
     "@context": "https://schema.org",
@@ -293,7 +308,7 @@ export async function getWebPageJsonLd(locale: string, pageKey: string, type: We
 export async function getArticleJsonLd(locale: string, pageKey: string): Promise<ArticleJsonLd> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw(pageKey) as string[];
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   
   return {
     "@context": "https://schema.org",
@@ -316,7 +331,7 @@ export async function getArticleJsonLd(locale: string, pageKey: string): Promise
  * Builds BreadcrumbList JSON-LD to help Google understand site structure.
  */
 export function getBreadcrumbJsonLd(locale: string, paths: { name: string; path: string }[]): BreadcrumbListJsonLd {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   
   return {
     "@context": "https://schema.org",

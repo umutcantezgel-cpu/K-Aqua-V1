@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
+import { getBaseUrl } from "@/lib/env";
 
 export default function robots(): MetadataRoute.Robots {
+  const domain = getBaseUrl();
   return {
     rules: {
       userAgent: '*',
@@ -11,7 +13,7 @@ export default function robots(): MetadataRoute.Robots {
         '/*?*', // Prevent crawling of parametric URLs like sorting/filtering which waste crawl budget
       ],
     },
-    sitemap: 'https://k-aqua.de/sitemap.xml',
-    host: 'https://k-aqua.de',
+    sitemap: `${domain}/sitemap.xml`,
+    host: domain,
   };
 }

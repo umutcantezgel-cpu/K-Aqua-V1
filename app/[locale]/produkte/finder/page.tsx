@@ -3,6 +3,7 @@ import ProductFinder from "@/components/tools/ProductFinder";
 import { FinderDeep } from "@/components/sections/FinderDeep";
 import { getTranslations } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllProducts, getProductsIndex } from "@/lib/products";
@@ -37,7 +38,7 @@ export default async function FinderPage({ params }: Props) {
   });
   const indexContent = await getProductsIndex();
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",

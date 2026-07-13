@@ -6,7 +6,8 @@ import type { Metadata } from "next";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Clock, User, Tag, ArrowRight } from "lucide-react";
+import { ArrowLeft, Clock, User, Tag, ArrowRight, Share2 } from "lucide-react";
+import { getBaseUrl } from "@/lib/env";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -59,7 +60,7 @@ export default async function ArticlePage({ params }: Props) {
   const allArticles = getAllArticles();
   const relatedArticles = allArticles.filter(a => a.slug !== slug).slice(0, 2);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const siteUrl = getBaseUrl();
   
   // BlogPosting Schema
   const schema = {

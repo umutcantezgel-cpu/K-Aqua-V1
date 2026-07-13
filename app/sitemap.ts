@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { GEO_MARKETS } from '@/lib/data/geo';
 import { getAllProducts } from '@/lib/products';
+import { getBaseUrl } from "@/lib/env";
 
 const locales = ['de', 'en', 'ar'];
 
@@ -25,7 +26,7 @@ const staticRoutes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const domain = 'https://k-aqua.de';
+  const domain = getBaseUrl();
   const entries: MetadataRoute.Sitemap = [];
 
   // 1. Static routes (17 routes * 3 locales = 51 entries)

@@ -9,6 +9,7 @@ import { Link } from '@/lib/i18n/navigation';
 import { Shield, Package, CheckCircle, Activity, ThermometerSun } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { constructMetadata } from "@/lib/seo/metadata";
 import { getProductSchema } from '@/lib/seo/schema';
 import React from 'react';
 import Product3DViewerWrapper from '@/components/product/Product3DViewerWrapper';
@@ -39,11 +40,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = `${product.title} - K-Aqua`;
   const description = `${tSeo.raw(seoCat)?.[0]?.desc || ''} - Article: ${Array.isArray(product.article_codes) ? product.article_codes.join(', ') : product.article_codes}`;
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
+    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
+
   return {
     title,
     description,
     alternates: {
-      canonical: `https://k-aqua.de/${locale}/produkte/${category}/${slug}`,
+      canonical: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
     }
   };
 }
@@ -81,11 +86,15 @@ export default async function ProductDetailPage({
   const dynamicAdvList = tProd.raw(`seoArticle.${seoCat}.advList`) as string[];
   const dynamicSeoText = tProd(`seoArticle.${seoCat}.seoText`);
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
+    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
+
   const schema = getProductSchema({
     name: product.title,
     description: dynamicSeoText || product.title,
     category: product.category,
-    url: `https://k-aqua.de/${locale}/produkte/${category}/${slug}`,
+    url: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
     codes: codes
   });
 

@@ -1,10 +1,12 @@
+const domain = getBaseUrl();
+
 export const DEFAULT_ORG_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "KWT GmbH",
   "alternateName": "K-Aqua",
-  "url": "https://k-aqua.de",
-  "logo": "https://k-aqua.de/logo.png",
+  "url": domain,
+  "logo": `${domain}/logo.png`,
   "sameAs": [
     "https://www.linkedin.com/company/k-aqua"
   ],
@@ -27,17 +29,47 @@ export const DEFAULT_ORG_SCHEMA = {
 };
 
 export function getOrganizationSchema() {
-  return DEFAULT_ORG_SCHEMA;
+  const domain = getBaseUrl();
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "KWT GmbH",
+    "alternateName": "K-Aqua",
+    "url": domain,
+    "logo": `${domain}/logo.png`,
+    "sameAs": [
+      "https://www.linkedin.com/company/k-aqua"
+    ],
+    "address": DEFAULT_ORG_SCHEMA.address,
+    "contactPoint": DEFAULT_ORG_SCHEMA.contactPoint,
+    "areaServed": "Worldwide"
+  };
+}
+
+export function getWebSiteSchema() {
+  const domain = getBaseUrl();
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "K-Aqua",
+    "url": domain,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": `${domain}/de/produkte/finder?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  };
 }
 
 export function getLocalBusinessSchema() {
+  const domain = getBaseUrl();
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "KWT GmbH - K-Aqua",
-    "image": "https://k-aqua.de/logo.png",
-    "@id": "https://k-aqua.de",
-    "url": "https://k-aqua.de",
+    "image": `${domain}/logo.png`,
+    "@id": domain,
+    "url": domain,
     "telephone": "+49 6085 9868-410",
     "address": DEFAULT_ORG_SCHEMA.address,
     "geo": {
@@ -147,7 +179,7 @@ export function getArticleSchema(post: { headline: string; description: string; 
       "name": "KWT GmbH",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://k-aqua.de/logo.png"
+        "url": `${getBaseUrl()}/logo.png`
       }
     },
     "url": post.url,
@@ -183,16 +215,24 @@ export function getBreadcrumbSchema(items: { name: string; url: string }[]) {
   };
 }
 
-export function getProductSchema(product: { name: string; description: string; category: string; image?: string; url: string; codes: string }) {
+export function getProductSchema(product: {
+  name: string;
+  description: string;
+  category: string;
+  url: string;
+  image?: string;
+  codes?: string[];
+}) {
+  const domain = getBaseUrl();
   return {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.name,
     "description": product.description,
-    "category": product.category,
-    "productID": product.codes,
+    "image": product.image || `${domain}/logo.png`,
+    "@id": product.url,
     "url": product.url,
-    ...(product.image && { "image": product.image }),
+    "category": product.category,
     "brand": {
       "@type": "Brand",
       "name": "K-Aqua"
