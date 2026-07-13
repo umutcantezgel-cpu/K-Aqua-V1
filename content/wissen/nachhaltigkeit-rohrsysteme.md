@@ -18,12 +18,15 @@ Viele Planer gehen instinktiv davon aus, dass metallische Rohre (wie Kupfer oder
 
 1. **Herstellung & Energieaufwand**
    Die Gewinnung und Verarbeitung von Erzen zu Kupfer- oder Stahlrohren benötigt gewaltige Mengen an Energie und erzeugt immense CO2-Emissionen (durch Hochöfen, Schmelzprozesse etc.). Polypropylen hingegen wird bei deutlich niedrigeren Temperaturen verarbeitet, was den Energiebedarf in der Produktion drastisch senkt.
+   Zudem nutzt K-Aqua einen geschlossenen Kühlwasserkreislauf im Produktionsprozess, der die potenzielle Verschmutzung von Flüssen, Bächen und Seen vollständig eliminiert.
+
+   > **Wussten Sie schon?** Bevor Polypropylen erfunden wurde, wurden gasförmige Ölabfälle wie Propylen und Ethylen einfach verbrannt, da sie als nutzlos galten. Heute werden genau diese Gase zur Herstellung von hochwertigem Polypropylen verwendet, was die Luftverschmutzung durch Abfackelung (Flaring) massiv reduziert.
    
 2. **Transportgewicht**
    Ein Kunststoffrohr aus PP-RCT wiegt nur einen Bruchteil eines vergleichbaren Stahlrohres. Wenn Sie ein Hochhaus-Projekt mit Rohren beliefern, benötigen Sie für Kunststoffsysteme wesentlich weniger LKW-Fahrten. Das senkt die Transport-Emissionen enorm. Testen Sie unseren [CO2-Rechner](/de/co2-rechner), um die exakten Transporteinsparungen für Ihr Projekt zu berechnen!
    
 3. **Lebensdauer und Recycling**
-   Während Metallrohre oft nach 15-20 Jahren durch Korrosion ausgetauscht werden müssen (was erneuten Materialaufwand bedeutet), bleiben K-Aqua PP-RCT Systeme über 50 Jahre wartungsfrei. Am Ende ihres Lebenszyklus ist Polypropylen zu **100% recycelbar** und kann für andere Kunststoffprodukte wiederverwendet werden.
+   Während Metallrohre oft nach 15-20 Jahren durch Korrosion ausgetauscht werden müssen (was erneuten Materialaufwand bedeutet), bleiben K-Aqua PP-RCT Systeme über 50 Jahre wartungsfrei. Am Ende ihres Lebenszyklus ist Polypropylen zu **100% recycelbar** (Recycling-Code "5") und kann effizient sortiert und für andere Kunststoffprodukte wiederverwendet werden. Wir bei K-Aqua führen zudem alle Produktionsabfälle und Zuschnitte konsequent in den Recycling-Kreislauf zurück.
 
 ## Vorteile für Green-Building-Zertifikate
 

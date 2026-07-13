@@ -3,6 +3,7 @@ import { ThemeProvider } from 'next-themes';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { routing, coreLocales } from '@/lib/i18n/routing';
 import { outfit, inter, tajawal } from '../fonts';
 import '../globals.css';
@@ -78,7 +79,7 @@ export default async function LocaleLayout({
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
-        <script src="/assets/kaqua-elemente.js" defer></script>
+        <Script src="/assets/kaqua-elemente.js" strategy="afterInteractive" />
       </body>
     </html>
   );

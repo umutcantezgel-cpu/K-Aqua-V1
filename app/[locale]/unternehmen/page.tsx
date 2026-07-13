@@ -264,6 +264,62 @@ export default async function UnternehmenPage({ params }: Props) {
           </div>
         </section>
 
+        {/* GENAU MANAGEMENT SYSTEM */}
+        <section className="py-32 bg-card relative z-10 border-b border-card-border overflow-hidden">
+          <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(var(--primary), 1) 0%, transparent 50%)' }} />
+          <div className="max-w-[1200px] mx-auto px-6 relative z-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <Reveal>
+                <div className="text-start flex flex-col gap-6">
+                  <Eyebrow>{"Zertifizierte Qualität"}</Eyebrow>
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight text-foreground leading-snug">
+                    {"Das "} <span className="text-primary">{"GENAU"}</span> {" Management System"}
+                  </h2>
+                  <div className="w-20 h-1 bg-primary rounded-full mt-2 mb-4" />
+                  <p className="text-xl text-muted-foreground leading-relaxed font-medium">
+                    {"Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen."}
+                  </p>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {"Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der "} <strong>{"DIN EN ISO 14001"}</strong> {" und "} <strong>{"50001"}</strong>{"."}
+                  </p>
+                  <ul className="flex flex-col gap-6 mt-8">
+                    <li className="flex gap-5 items-start">
+                      <span className="mt-1 w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <Check className="w-4 h-4 text-primary" />
+                      </span>
+                      <div>
+                        <h4 className="text-foreground text-xl font-bold font-heading">{"Ökologische Verantwortung"}</h4>
+                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{"Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten."}</p>
+                      </div>
+                    </li>
+                    <li className="flex gap-5 items-start">
+                      <span className="mt-1 w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <Check className="w-4 h-4 text-primary" />
+                      </span>
+                      <div>
+                        <h4 className="text-foreground text-xl font-bold font-heading">{"Energieeffizienz"}</h4>
+                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{"Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."}</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </Reveal>
+              <Reveal delay={0.2}>
+                <div className="relative w-full aspect-square rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(var(--primary),0.1)] bg-background border border-card-border flex items-center justify-center p-12">
+                   <div className="text-center">
+                     <Award className="w-32 h-32 text-primary mx-auto mb-8 opacity-80" />
+                     <h3 className="text-3xl font-heading font-black mb-4">DIN EN ISO</h3>
+                     <div className="flex justify-center gap-4">
+                       <span className="px-4 py-2 bg-primary/10 text-primary rounded-full font-bold">14001</span>
+                       <span className="px-4 py-2 bg-primary/10 text-primary rounded-full font-bold">50001</span>
+                     </div>
+                   </div>
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+
         {/* Deep Content am Ende der Unternehmens-Seite */}
         <div className="relative z-10">
           <AboutDeep />

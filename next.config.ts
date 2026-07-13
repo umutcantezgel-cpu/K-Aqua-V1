@@ -164,6 +164,67 @@ const nextConfig: NextConfig = {
         destination: '/partnerschaft',
         permanent: true,
       },
+      // Old .php and .html URLs from crawled site
+      {
+        source: '/about.php',
+        destination: '/unternehmen',
+        permanent: true,
+      },
+      {
+        source: '/contact.php',
+        destination: '/kontakt',
+        permanent: true,
+      },
+      {
+        source: '/career.php',
+        destination: '/karriere',
+        permanent: true,
+      },
+      {
+        source: '/career.html',
+        destination: '/karriere',
+        permanent: true,
+      },
+      {
+        source: '/privacy.php',
+        destination: '/datenschutz',
+        permanent: true,
+      },
+      {
+        source: '/imprint.php',
+        destination: '/impressum',
+        permanent: true,
+      },
+      {
+        source: '/solutions.php',
+        destination: '/loesungen',
+        permanent: true,
+      },
+      {
+        source: '/products.php',
+        destination: '/produkte',
+        permanent: true,
+      },
+      {
+        source: '/service.php',
+        destination: '/ressourcen/support',
+        permanent: true,
+      },
+      {
+        source: '/references.php',
+        destination: '/referenzen',
+        permanent: true,
+      },
+      {
+        source: '/news.php',
+        destination: '/news',
+        permanent: true,
+      },
+      {
+        source: '/events.php',
+        destination: '/news',
+        permanent: true,
+      },
     ];
   },
   async headers() {
