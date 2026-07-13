@@ -58,16 +58,20 @@ export function constructMetadata({
 
   const canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
 
+  // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
+  const cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
+  const finalTitle = `${cleanTitle} · K-Aqua`;
+
   return {
     metadataBase: new URL(siteUrl),
-    title: `${title} · K-Aqua`,
+    title: finalTitle,
     description,
     alternates: {
       canonical: canonicalUrl,
       languages,
     },
     openGraph: {
-      title: `${title} · K-Aqua`,
+      title: finalTitle,
       description,
       url: canonicalUrl,
       siteName: "K-Aqua",
@@ -77,7 +81,7 @@ export function constructMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} · K-Aqua`,
+      title: finalTitle,
       description,
       images: ogImage ? [ogImage] : [`${siteUrl}/images/og-default.jpg`],
     },

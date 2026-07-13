@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   try {
     if (t.has(`${catKey}.advTitle`)) {
-      title = t(`${catKey}.advTitle`) + " | K-Aqua";
+      title = `${t(`${catKey}.advTitle`)} - ${category.toUpperCase()}`;
     }
     if (t.has(`${catKey}.seoText`)) {
       desc = t(`${catKey}.seoText`).slice(0, 150) + "...";
