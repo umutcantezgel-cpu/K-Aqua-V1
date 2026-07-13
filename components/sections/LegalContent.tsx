@@ -166,8 +166,10 @@ export function LegalContent({ sections, title = "Inhalt" }: Props) {
                                 prose-headings:font-heading prose-headings:text-foreground
                                 prose-li:text-muted-foreground prose-li:text-[15px]
                                 prose-strong:text-foreground prose-strong:font-semibold
-                                marker:text-primary/50 whitespace-pre-wrap">
-                    {section.content}
+                                marker:text-primary/50">
+                    {section.content.split('\n\n').map((paragraph, i) => (
+                      <p key={i} className="mb-4 whitespace-pre-wrap">{paragraph}</p>
+                    ))}
                   </div>
                 </div>
                 

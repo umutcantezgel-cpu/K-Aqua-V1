@@ -49,6 +49,11 @@ export default async function KontaktPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only">
+        <p>{t("title1")} {t("titleGrad")}</p>
+        <p>{t("locTitle")}</p>
+        <p>{t("supportTitle")} - {t("supportText")}</p>
+      </div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
