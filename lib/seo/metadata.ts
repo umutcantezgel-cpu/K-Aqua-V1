@@ -49,8 +49,12 @@ export function constructMetadata({
   const siteUrl = getBaseUrl();
   const cleanPath = path.replace(/^\/+|\/+$/g, "");
 
+  const translatedLocales = [
+    "de", "en", "ar"
+  ];
+
   const languages: Record<string, string> = {};
-  for (const loc of routing.locales) {
+  for (const loc of translatedLocales) {
     languages[loc] = cleanPath ? `${siteUrl}/${loc}/${cleanPath}` : `${siteUrl}/${loc}`;
   }
   // x-default points to default locale (de)
@@ -62,9 +66,6 @@ export function constructMetadata({
   const cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
   const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
 
-  const translatedLocales = [
-    "ar", "de", "en-GB", "en", "es-ES", "es", "fr", "it", "nl", "pl", "pt-BR", "pt", "ru", "tr", "zh"
-  ];
   const isTranslated = translatedLocales.includes(locale);
 
   return {
