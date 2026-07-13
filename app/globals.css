@@ -19,7 +19,7 @@
 @import "./enterprise.css";
 @import "./shapes.css";
 /* Dark mode is attribute-driven (next-themes attribute="data-theme"). */
-@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 
 /* ─────────────────────────────────────────────────────────────
    @theme inline — exposes the semantic tokens as Tailwind utilities.

@@ -60,7 +60,7 @@ export function constructMetadata({
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
   const cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
-  const finalTitle = `${cleanTitle} · K-Aqua`;
+  const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
 
   return {
     metadataBase: new URL(siteUrl),
