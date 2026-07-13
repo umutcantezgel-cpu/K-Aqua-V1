@@ -47,8 +47,12 @@ export default async function FinderPage({ params }: Props) {
     "url": `${siteUrl}/${locale}/produkte/finder`,
   };
 
+  const cleanTitle = meta[0]?.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim() || "";
+  const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+
   return (
     <>
+      <span className="sr-only">{finalTitle}</span>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">

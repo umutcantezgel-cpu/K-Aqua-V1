@@ -87,8 +87,12 @@ export default async function ArticlePage({ params }: Props) {
     }
   };
 
+  const cleanTitle = `${article.title} | K-Aqua Fachwissen`.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
+  const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+
   return (
     <>
+      <span className="sr-only">{finalTitle}</span>
       <JsonLd schema={schema} />
       
       {/* Article Header */}
