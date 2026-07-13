@@ -7,7 +7,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getProductsByCategory, getProductCategories } from "@/lib/products";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import { Link } from "@/lib/i18n/navigation";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
 import { routing } from "@/lib/i18n/routing";
 

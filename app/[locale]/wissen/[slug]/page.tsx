@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getArticleBySlug, getAllArticles } from "@/lib/articles";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import { Link } from "@/lib/i18n/navigation";
 import { ArrowLeft, Clock, User, Tag, ArrowRight, Share2 } from "lucide-react";
 import { getBaseUrl } from "@/lib/env";
 
