@@ -32,9 +32,9 @@ export const PremiumAssetPlaceholder = ({
         <span className="font-heading font-bold tracking-widest uppercase text-sm text-muted-foreground/80">
           {label}
         </span>
-        <p className="text-xs text-muted-foreground/50 max-w-xs">
-          {"Awwwards-level interactive module will be integrated here."}
-        </p>
+          <div className="text-center font-mono text-xs uppercase tracking-[0.2em] opacity-40 group-hover:opacity-100 transition-opacity max-w-[80%] mx-auto mt-4 leading-relaxed">
+            {label} - Visualisierung folgt in finaler Version
+          </div>
       </div>
     </div>
   );

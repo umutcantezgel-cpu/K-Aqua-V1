@@ -72,10 +72,6 @@ export default function Footer() {
                 <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
                   {t('footer.privacy')}
                 </Link>
-                <Link href="/zip" className="text-sky-400/70 hover:text-sky-400 hover:opacity-100 transition-colors flex items-center gap-1.5 ml-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-sky-400 shadow-[0_0_8px_rgba(56,189,248,0.8)] animate-pulse" />
-                  ZIP Puzzle
-                </Link>
               </div>
             </div>
 

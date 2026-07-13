@@ -46,24 +46,24 @@ export default async function ReferenzenPage({ params }: Props) {
 
   const stickyScrollContent = [
     {
-      title: "Projekt Alpha-Centauri: Globale Netzwerkinfrastruktur",
-      description: "Eine kompromisslose Neugestaltung der Backend-Topologie für einen führenden europäischen Industriekonzern. Durch die Implementierung monolithischer Microservices (Edge-Native) konnten Latenzen im Nanosekundenbereich realisiert werden. Absolute Ausfallsicherheit wird durch redundante, geo-replizierte Clusterstrukturen in zwölf Rechenzentren weltweit garantiert. Die Architektur skaliert elastisch und prädiktiv basierend auf neuronalen Lastmodellen, ohne menschliche Interaktion.",
-      content: <PremiumAssetPlaceholder label="Netzwerktopologie 3D Modell" />
+      title: "Megacity Infrastruktur: Globale Wasserversorgung",
+      description: "Eine kompromisslose Neugestaltung der Trinkwasser-Topologie für ein führendes urbanes Großprojekt. Durch die Implementierung hochdruckresistenter PPR-Rohrsysteme (Edge-Native) konnten Reibungsverluste minimiert werden. Absolute Ausfallsicherheit wird durch thermisch verschweißte, geo-sichere Leitungsstrukturen garantiert. Die Architektur skaliert elastisch und prädiktiv für zukünftigen Wasserbedarf.",
+      content: <PremiumAssetPlaceholder label="Versorgungsnetz Topologie 3D Modell" />
     },
     {
-      title: "Operation Deep-Blue: Prädiktive Wartungssysteme",
-      description: "Sensordatenfusion auf industriellem Niveau. Verarbeitung von 40 Terabyte Telemetriedaten pro Sekunde durch ein massiv paralleles Kafka-Rückgrat. Die Architektur basiert auf Event-Sourcing und Eventual Consistency, wodurch eine zu 99,9999% präzise Vorhersage von Maschinenausfällen in Fertigungsanlagen garantiert wird. Kalte, berechnende Effizienz, die Wartungszyklen revolutioniert und Stillstandzeiten mathematisch eliminiert.",
-      content: <PremiumAssetPlaceholder label="Echtzeit-Datenstrom Visualisierung" />
+      title: "Industrielle Kühlsysteme: Hochleistungs-Rohrnetz",
+      description: "Materialwissenschaftliche Präzision auf industriellem Niveau. Aufbau eines massiv belastbaren Rohr-Rückgrats für industrielle Kühlanlagen. Die Architektur basiert auf chemisch resistenten Polymeren und absoluter Dichtigkeit, wodurch eine zu 99,9999% präzise Vorhersage von Wartungszyklen garantiert wird. Kalte, berechnende Effizienz, die Korrosion mathematisch eliminiert.",
+      content: <PremiumAssetPlaceholder label="Strömungs-Visualisierung" />
     },
     {
-      title: "Nexus Protokoll: Quantenresistente Kryptographie",
-      description: "Sicherheitsarchitekturen, die keinen Raum für Schwäche lassen. Entwicklung eines hybriden Verschlüsselungsverfahrens für kritische Finanzinfrastrukturen (KRITIS). Zero-Trust-Architektur in ihrer reinsten, autoritärsten Form. Jeder Knotenpunkt, jede API-Anfrage und jeder Microservice wird unerbittlich über kurzlebige, hardware-signierte Zertifikate (mTLS) authentifiziert. Das System duldet keine Unregelmäßigkeiten.",
-      content: <PremiumAssetPlaceholder label="Kryptographischer Graph" />
+      title: "Premium Hochhaus-Infrastruktur: Steigleitungen",
+      description: "Sicherheitsarchitekturen im Wasserbau, die keinen Raum für Schwäche lassen. Entwicklung eines hybriden Leitungsverfahrens für kritische Hochhausinfrastrukturen. Zero-Leak-Architektur in ihrer reinsten Form. Jeder Knotenpunkt, jede Schweißnaht und jedes Ventil wird unerbittlich durch ISO-Zertifikate authentifiziert. Das System duldet keine Unregelmäßigkeiten im Wasserdruck.",
+      content: <PremiumAssetPlaceholder label="Steigleitungs-Matrix" />
     },
     {
-      title: "Projekt Hyperion: Autonome Supply-Chain",
-      description: "Die vollständige Eliminierung menschlicher Fehlerquellen in der globalen Logistikkette. Algorithmische Steuerung von über 10.000 autonomen Einheiten und Drohnen in Echtzeit. Die Logikmaschine optimiert Routing-Pfade deterministisch und ruthlessly effizient. Durch die Integration von Satelliten-Metadaten und Edge-Computing-Knoten in den Fahrzeugen wurden die Durchsatzraten um 400% gesteigert, während die Toleranzgrenzen auf Null reduziert wurden.",
-      content: <PremiumAssetPlaceholder label="Supply Chain Operations Matrix" />
+      title: "Offshore Anlagenversorgung: Extreme Bedingungen",
+      description: "Die vollständige Eliminierung von Korrosionsquellen in der globalen Offshore-Industrie. Konstruktion von hochresistenten Leitungssystemen unter härtesten Bedingungen. Die Systemlogik optimiert Durchfluss-Pfade deterministisch und ruthlessly effizient. Durch die Integration von Spezial-Fittings wurden die Durchsatzraten maximiert, während die Toleranzgrenzen für Materialermüdung auf Null reduziert wurden.",
+      content: <PremiumAssetPlaceholder label="Offshore Operations Matrix" />
     }
   ];
 
@@ -71,27 +71,27 @@ export default async function ReferenzenPage({ params }: Props) {
     {
       year: "Phase I",
       title: "Architektonischer Grundstein",
-      text: "Definition der initialen Systemgrenzen. Etablierung eines strikten, typisierten Datenmodells, das keine Abweichungen toleriert. Alle Legacy-Systeme wurden rückstandslos terminiert und durch kompilierte Hochleistungskomponenten ersetzt. Die Grundlage der industriellen Dominanz."
+      text: "Definition der initialen Systemgrenzen. Etablierung eines strikten, zertifizierten Rohr-Layouts, das keine Abweichungen toleriert. Alle korrosionsanfälligen Legacy-Materialien (wie Metall) wurden rückstandslos terminiert und durch hochresistente PP-R Komponenten ersetzt. Die Grundlage der industriellen Dominanz."
     },
     {
       year: "Phase II",
       title: "Skalierungsebene",
-      text: "Integration des verteilten Compute-Clusters. Übernahme der Datenverarbeitung auf ein byzantinisch-fehlertolerantes System. Netzwerktrennungen und Split-Brain-Szenarien werden algorithmisch innerhalb von Millisekunden aufgelöst, ohne dass ein Administrator eingreifen muss. Maximale Resilienz."
+      text: "Integration des verteilten Versorgungs-Clusters. Übernahme der Hochdruck-Wasserverarbeitung auf ein extrem fehlertolerantes Rohrnetz. Druckschwankungen und Temperatur-Spikes werden physikalisch innerhalb von Millisekunden absorbiert, ohne dass ein Installateur eingreifen muss. Maximale Resilienz."
     },
     {
       year: "Phase III",
-      title: "Zero-Trust Implementierung",
-      text: "Systemweite Durchsetzung des Zero-Trust-Paradigmas. Kryptographische Absicherung aller internen Kommunikationskanäle bis auf Kernel-Ebene (eBPF). Jedes Paket, das die Kapselungsgrenze überschreitet, wird inspeziert, verifiziert oder gnadenlos verworfen. Sicherheit als absolutes Diktat."
+      title: "Zero-Leak Implementierung",
+      text: "Systemweite Durchsetzung des Zero-Leak-Paradigmas. Thermische Verschweißung aller internen Verbindungskanäle bis auf molekulare Ebene. Jeder Tropfen Wasser, der die Kapselungsgrenze überschreitet, wird durch makellose Schweißnähte blockiert. Sicherheit als absolutes Diktat."
     },
     {
       year: "Phase IV",
-      title: "Globale Edge-Replikation",
-      text: "Ausrollen der Infrastruktur auf fünf Kontinente. Sub-10ms Latenzen in 95% der globalen Zugriffszonen. Petabytes an strukturierten Daten werden asynchron und konfliktfrei (CRDTs) repliziert. Das System existiert überall und nirgends zugleich – unbesiegbar durch lokale Ausfälle."
+      title: "Globale Auslieferung",
+      text: "Ausrollen der Rohrinfrastruktur auf fünf Kontinente. Logistikketten-Optimierung für 95% der globalen Exportzonen. Tausende Meter an strukturierten Leitungen werden asynchron und konfliktfrei installiert. Das System existiert überall und beweist sich täglich unter extremen Klimabedingungen."
     },
     {
       year: "Phase V",
-      title: "Autonome Orchestrierung",
-      text: "Einführung KI-gestützter Heuristiken. Das System detektiert, isoliert und behebt Infrastrukturanomalien vollautomatisch. Pods werden skaliert, Routen neu berechnet und defekte Sektoren amputiert, bevor der Alert das Dashboard erreicht. Der Mensch wird zum passiven Beobachter degradiert."
+      title: "Lebenslange Orchestrierung",
+      text: "Einführung industrieller Qualitätsprüfungen (ISO/DVGW). Das Rohrsystem isoliert und widersteht chemischen Anomalien vollautomatisch. Druckstufen werden gehalten, Lebenszyklen von über 50 Jahren erreicht. Der Mensch wird nach der Installation zum passiven Beobachter eines perfekten Systems degradiert."
     }
   ];
 
@@ -107,7 +107,7 @@ export default async function ReferenzenPage({ params }: Props) {
             Architektur der <span className="text-primary">Macht.</span>
           </span>
         }
-        description="Eiskalte, industrielle Präzision in Code gegossen. Wir konstruieren digitale Festungen und Infrastrukturen, die der Zeit, katastrophalen Ausfällen und höchsten Lasten mühelos widerstehen. Hier manifestieren sich Systeme, die keine Kompromisse kennen."
+        description="Eiskalte, industrielle Präzision in PP-R gegossen. Wir konstruieren Infrastrukturen für die Wasserversorgung, die der Zeit, katastrophalen Drücken und höchsten Lasten mühelos widerstehen. Hier manifestieren sich Rohr-Systeme, die keine Kompromisse kennen."
       >
         <div className="flex gap-4">
           <div className="px-8 py-4 rounded-full border-2 border-primary text-primary font-mono tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-[0_0_20px_rgba(var(--primary),0.2)] hover:shadow-[0_0_30px_rgba(var(--primary),0.5)] cursor-pointer text-sm font-bold">
@@ -131,16 +131,16 @@ export default async function ReferenzenPage({ params }: Props) {
           
           <div className="space-y-12 text-xl text-muted-foreground leading-[1.8] font-sans">
             <p>
-              In einer Ära, in der digitale Fragilität als Norm akzeptiert wird, positioniert sich unsere Ingenieurskunst als absoluter, unerbittlicher Gegenpol. Wir betrachten Software-Architektur nicht als kreativen Ausdruck, sondern als angewandte Mathematik und knallharte Physik. Jede Zeile Code, jede Netzwerkkomponente und jeder Datenbank-Index wird durch einen gnadenlosen Prozess der Validierung getrieben, bis jegliches Potenzial für Ineffizienz, Jitter oder Versagen restlos eliminiert ist. Dies ist das fundamentale Gesetz der <strong className="text-foreground">K-Aqua Referenzklasse</strong>.
+              In einer Ära, in der infrastrukturelle Fragilität oft als Norm akzeptiert wird, positioniert sich unsere Ingenieurskunst als absoluter, unerbittlicher Gegenpol. Wir betrachten Rohrleitungs-Architektur nicht als bloßes Bauelement, sondern als angewandte Materialwissenschaft und knallharte Physik. Jeder Millimeter Wandstärke, jede Fitting-Komponente und jeder Extrusions-Prozess wird durch einen gnadenlosen Prozess der Validierung (ISO/DVGW) getrieben, bis jegliches Potenzial für Leckagen, Druckverlust oder Materialermüdung restlos eliminiert ist. Dies ist das fundamentale Gesetz der <strong className="text-foreground">K-Aqua Referenzklasse</strong>.
             </p>
             <p>
-              Unsere Systeme operieren in feindlichen Umgebungen, in denen eine einzige Millisekunde Latenz inakzeptabel ist und Datenverlust das Ende der Geschäftsgrundlage bedeutet. Wir implementieren <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Byzantine Fault Tolerance</em> nicht als akademisches Theorem in Whitepapers, sondern als harte Realität in unseren verteilten Clustern. Wenn ein primäres Rechenzentrum durch einen Stromausfall in die Knie gezwungen wird, leiten unsere BGP-Anycast-Routen den globalen Traffic innerhalb von Mikrosekunden an redundante Fallback-Knoten um – ohne dass der Endnutzer auch nur einen TCP-Retransmit bemerkt. Dies ist keine Magie. Es ist eiskalte, kalkulierte Überlebensfähigkeit.
+              Unsere Systeme operieren in feindlichen Umgebungen, in denen ein einziger Haarriss inakzeptabel ist und Wasserverlust das Ende der Projektgrundlage bedeutet. Wir implementieren <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Extreme Pressure Tolerance</em> nicht als akademisches Theorem in Whitepapers, sondern als harte Realität in Wolkenkratzern und Industrieanlagen. Wenn herkömmliche Metallsysteme durch Korrosion in die Knie gezwungen werden, halten unsere PP-R-Lösungen den globalen Durchfluss über Jahrzehnte stabil – ohne dass der Betreiber auch nur einen Druckabfall bemerkt. Dies ist keine Magie. Es ist eiskalte, kalkulierte Überlebensfähigkeit von High-End-Polymeren.
             </p>
             <p>
-              Wir verabscheuen aufgeblähte &quot;Magic Frameworks&quot; und undurchsichtige Black-Box-Abstraktionen. Unser Stack ist transparent und wird von uns bis auf den Linux-Kernel-Level diktiert. Wir tunen TCP-Window-Sizes, optimieren eBPF-Netzwerkfilter für Packet-Processing in Lichtgeschwindigkeit und schreiben Allokations-Algorithmen um, um den Garbage-Collector zur Bedeutungslosigkeit zu zwingen. Die Resultate sind monolithische Microservices, die bei 100.000 Requests pro Sekunde müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
+              Wir verabscheuen veraltete "Legacy-Materialien" wie Kupfer oder Stahl, die zur Oxidation neigen, und undurchsichtige Installationsmethoden. Unser System ist transparent und wird von uns bis auf das molekulare Level diktiert. Wir optimieren den Schmelzindex, tunen die Viskosität für Polyfusion in Rekordzeit und produzieren Verbindungen, die buchstäblich zu einer einzigen homogenen Einheit verschmelzen, um Schwachstellen zur Bedeutungslosigkeit zu zwingen. Die Resultate sind Leitungsnetze, die bei 20 Bar Druck müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
             </p>
             <p>
-              Sicherheit ist bei uns kein nachgelagertes Feature oder ein Compliance-Häkchen, sondern die untrennbare DNA unserer Topologie. Durch die strikte Anwendung von <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Mutual TLS (mTLS)</em> zwischen ausnahmslos allen Services, kombiniert mit kurzlebigen Zertifikaten und hardwaregestützter Schlüsselspeicherung (HSM), entziehen wir Angreifern proaktiv jegliche Angriffsfläche. Ein System, das per Definition keine Vertrauensvorschüsse gewährt, kann niemals kompromittiert werden. Das ist die unumstößliche Realität unseres Zero-Trust-Modells.
+              Qualitätssicherheit ist bei uns kein nachgelagertes Feature oder ein Compliance-Häkchen, sondern die untrennbare DNA unserer Produktion. Durch die strikte Anwendung von <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Lückenlosen Labor-Audits</em> für jede Material-Charge, kombiniert mit ständigen Druckprüfungen im eigenen Labor (nach DIN/ISO), entziehen wir potenziellen Ausfällen proaktiv jegliche Angriffsfläche. Ein Rohrnetz, das per Definition keine Materialfehler gewährt, kann niemals brechen. Das ist die unumstößliche Realität unseres Zero-Leak-Modells.
             </p>
           </div>
         </div>
@@ -185,15 +185,15 @@ export default async function ReferenzenPage({ params }: Props) {
 
           <BentoGrid>
             <BentoGridItem 
-              title="Hyper-Availability Cluster"
-              description="SLA von 99,9999% Betriebszeit. Multi-Region Redundanzschichten, die selbst bei katastrophalen physischen Hardwareausfällen den Systembetrieb lückenlos aufrechterhalten."
+              title="Hyper-Resilient Rohrnetzwerke"
+              description="SLA-vergleichbare Lebensdauer von über 50 Jahren. Multi-Layer PP-R Schichten, die selbst bei extremen thermischen Schwankungen den Durchfluss lückenlos aufrechterhalten."
               icon={<Server className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Georeplizierte Cluster Topologie" />}
+              header={<PremiumAssetPlaceholder label="Mehrschicht-Rohre Querschnitt" />}
             />
             <BentoGridItem 
-              title="Absolute Isolation"
-              description="Vollständige logische und physische Kapselung von Tenant-Daten mit AES-256-GCM und dezidierten Hardware-Sicherheitsmodulen (HSM)."
+              title="Absolute chemische Isolation"
+              description="Vollständige Kapselung des Trinkwassers durch lebensmittelechte, säureresistente Polymere, zertifiziert nach höchsten globalen Standards."
               icon={<Lock className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
@@ -203,8 +203,8 @@ export default async function ReferenzenPage({ params }: Props) {
               }
             />
             <BentoGridItem 
-              title="Deterministische Latenz"
-              description="Ausführung von Kernprozessen mit mathematisch garantierter maximaler Latenz. Keine P99 Spikes, keine GC-Pausen, absolut kein Jitter."
+              title="Deterministischer Durchfluss"
+              description="Materialfluss mit garantiert minimaler Reibung. Keine Ablagerungen, keine Querschnittsverengung, absolut keine Inkrustation im Zeitverlauf."
               icon={<Activity className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
@@ -214,19 +214,19 @@ export default async function ReferenzenPage({ params }: Props) {
               }
             />
             <BentoGridItem 
-              title="Ereignisgesteuerte Nervensysteme"
-              description="Massiv skalierbare Event-Streaming-Plattformen, die Milliarden von Telemetriesignalen in Echtzeit verarbeiten, filtern und global orchestrieren."
+              title="Hochdruck-Fittings"
+              description="Massiv belastbare Verbindungsstücke, die tausende Liter Wasser unter Höchstdruck in Echtzeit verarbeiten und global in Megaprojekten orchestriert werden."
               icon={<Network className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Echtzeit Event Stream Graph" />}
+              header={<PremiumAssetPlaceholder label="Thermische Polyfusion" />}
             />
             <BentoGridItem 
-              title="Zustandslose Resilienz"
-              description="Jeder Knotenpunkt im Cluster ist temporär und austauschbar. Der einzige Wahrheitsgehalt existiert in der zentralen, ACID-konformen, verteilten Datenbank. Chaos Engineering ist bei uns kein Test, sondern Dauerzustand."
+              title="Lückenlose Resilienz"
+              description="Jeder Meter Rohr in einer Installation verschmilzt zu einem homogenen Strang. Der einzige Schwachpunkt existiert in anderen, metallischen Konkurrenzsystemen. Qualitätstests sind bei uns kein Test, sondern Dauerzustand."
               icon={<Layers className="w-10 h-10 text-primary" />}
               colSpan={3}
               rowSpan={2}
-              header={<PremiumAssetPlaceholder label="Stateless Architecture Blueprint" className="min-h-[500px]" />}
+              header={<PremiumAssetPlaceholder label="Qualitätslabor & Stresstests" className="min-h-[500px]" />}
             />
           </BentoGrid>
         </div>
