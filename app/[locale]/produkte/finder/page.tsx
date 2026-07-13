@@ -54,6 +54,8 @@ export default async function FinderPage({ params }: Props) {
     <>
       <div className="sr-only">
         <p>{finalTitle}</p>
+        <p>{meta[1]}</p>
+        <p>{t('catalogOverview') || "Katalogübersicht"}</p>
       </div>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={
