@@ -91,6 +91,7 @@ export default function References({ referencesData }: ReferencesProps) {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
+              <span className="sr-only" aria-hidden="true">{referencesData.title1} {referencesData.titleGrad} </span>
               {referencesData.lead}
             </p>
           </Reveal>

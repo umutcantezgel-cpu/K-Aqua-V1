@@ -152,6 +152,7 @@ export default function HeroScrolly() {
       </Reveal>
       <Reveal delay={0.16}>
         <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+          <span className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')} </span>
           {t('lead')}
         </p>
       </Reveal>

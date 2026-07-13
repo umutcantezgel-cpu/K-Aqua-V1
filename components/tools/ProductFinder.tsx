@@ -102,6 +102,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
+              <span className="sr-only" aria-hidden="true">{t("title1")} Katalog </span>
               Durchsuchen Sie unser komplettes Produktsortiment nach Kategorie, Name oder Artikelnummer.
             </p>
           </Reveal>

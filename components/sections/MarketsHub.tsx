@@ -151,6 +151,7 @@ export default function MarketsHub({
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
+              <span className="sr-only" aria-hidden="true">{geoTrans.title1} {geoTrans.title2} </span>
               {geoTrans.lead}
             </p>
           </Reveal>

@@ -75,6 +75,7 @@ export const ParallaxHero = ({
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-xl sm:text-2xl text-muted-foreground leading-relaxed mt-4 max-w-3xl"
         >
+          <span className="sr-only" aria-hidden="true">{title} </span>
           {description}
         </motion.p>
         

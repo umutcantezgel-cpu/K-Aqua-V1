@@ -228,6 +228,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty">
+              <span className="sr-only" aria-hidden="true">{rfqData.title1} {rfqData.titleGrad} </span>
               {rfqData.lead}
             </p>
           </Reveal>

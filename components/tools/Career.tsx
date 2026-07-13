@@ -141,6 +141,7 @@ export default function Career({ careerData }: CareerProps) {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty">
+              <span className="sr-only" aria-hidden="true">{careerData.title1} {careerData.titleGrad} </span>
               {careerData.lead}
             </p>
           </Reveal>
