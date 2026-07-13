@@ -1,0 +1,14 @@
+
+> k-aqua@1.0.0 start
+> next start
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.5:3000
+
+ ✓ Starting...
+ ✓ Ready in 254ms
+ ⨯ TypeError: c.map is not a function
+    at w (.next/server/app/[locale]/page.js:2:16432) {
+  digest: '3653393337'
+}

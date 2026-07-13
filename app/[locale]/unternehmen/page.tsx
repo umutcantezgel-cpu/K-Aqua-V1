@@ -271,16 +271,16 @@ export default async function UnternehmenPage({ params }: Props) {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <Reveal>
                 <div className="text-start flex flex-col gap-6">
-                  <Eyebrow>{"Zertifizierte Qualität"}</Eyebrow>
+                  <Eyebrow>{t('genauManagement.eyebrow')}</Eyebrow>
                   <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight text-foreground leading-snug">
-                    {"Das "} <span className="text-primary">{"GENAU"}</span> {" Management System"}
+                    {t('genauManagement.title1')} <span className="text-primary">{t('genauManagement.titleHighlight')}</span> {t('genauManagement.title2')}
                   </h2>
                   <div className="w-20 h-1 bg-primary rounded-full mt-2 mb-4" />
                   <p className="text-xl text-muted-foreground leading-relaxed font-medium">
-                    {"Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen."}
+                    {t('genauManagement.p1')}
                   </p>
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    {"Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der "} <strong>{"DIN EN ISO 14001"}</strong> {" und "} <strong>{"50001"}</strong>{"."}
+                    {t('genauManagement.p2')} <strong>{"DIN EN ISO 14001"}</strong> {t('genauManagement.p3')} <strong>{"50001"}</strong>{"."}
                   </p>
                   <ul className="flex flex-col gap-6 mt-8">
                     <li className="flex gap-5 items-start">
@@ -288,8 +288,8 @@ export default async function UnternehmenPage({ params }: Props) {
                         <Check className="w-4 h-4 text-primary" />
                       </span>
                       <div>
-                        <h4 className="text-foreground text-xl font-bold font-heading">{"Ökologische Verantwortung"}</h4>
-                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{"Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten."}</p>
+                        <h4 className="text-foreground text-xl font-bold font-heading">{t('genauManagement.list1Title')}</h4>
+                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{t('genauManagement.list1Desc')}</p>
                       </div>
                     </li>
                     <li className="flex gap-5 items-start">
@@ -297,8 +297,8 @@ export default async function UnternehmenPage({ params }: Props) {
                         <Check className="w-4 h-4 text-primary" />
                       </span>
                       <div>
-                        <h4 className="text-foreground text-xl font-bold font-heading">{"Energieeffizienz"}</h4>
-                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{"Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."}</p>
+                        <h4 className="text-foreground text-xl font-bold font-heading">{t('genauManagement.list2Title')}</h4>
+                        <p className="text-muted-foreground text-base leading-relaxed mt-1">{t('genauManagement.list2Desc')}</p>
                       </div>
                     </li>
                   </ul>
