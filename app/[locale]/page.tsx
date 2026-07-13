@@ -12,7 +12,7 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
-import { ExportGlobe } from '@/components/ui/ExportGlobe';
+
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
@@ -348,9 +348,35 @@ export default async function Page({ params }: Props) {
               Weltweite Projekte entdecken
             </Button>
           </div>
-          <div className="relative w-full h-full min-h-[500px] flex items-center justify-center">
-            {/* The Globe handles its own glowing and styling */}
-            <ExportGlobe className="w-full max-w-[600px] absolute scale-110 lg:scale-[1.3] translate-x-[10%] lg:translate-x-[20%]" />
+          <div className="relative w-full h-full min-h-[300px] flex items-center justify-center lg:justify-end">
+            <svg className="ka-maparc w-full max-w-[500px]" viewBox="0 0 640 260" role="img" aria-label="Exportrouten ab Deutschland">
+              <g className="arcs">
+                <path pathLength={1} style={{'--d': '.1s'} as React.CSSProperties} d="M96,200 Q240,40 400,118"></path>
+                <path pathLength={1} style={{'--d': '.35s'} as React.CSSProperties} d="M96,200 Q330,-20 560,150"></path>
+                <path pathLength={1} style={{'--d': '.6s'} as React.CSSProperties} d="M96,200 Q140,60 216,84"></path>
+                <path pathLength={1} style={{'--d': '.85s'} as React.CSSProperties} d="M96,200 Q300,120 470,208"></path>
+              </g>
+              <g className="hub">
+                <circle cx="96" cy="200" r="7"></circle>
+                <text x="96" y="228">Frankfurt (HQ)</text>
+              </g>
+              <g className="dot" style={{'--d': '.55s'} as React.CSSProperties}>
+                <circle cx="400" cy="118" r="5"></circle>
+                <text x="400" y="102">Dubai</text>
+              </g>
+              <g className="dot" style={{'--d': '.8s'} as React.CSSProperties}>
+                <circle cx="560" cy="150" r="5"></circle>
+                <text x="560" y="134">Singapur</text>
+              </g>
+              <g className="dot" style={{'--d': '1.05s'} as React.CSSProperties}>
+                <circle cx="216" cy="84" r="5"></circle>
+                <text x="216" y="68">Lateinamerika</text>
+              </g>
+              <g className="dot" style={{'--d': '1.3s'} as React.CSSProperties}>
+                <circle cx="470" cy="208" r="5"></circle>
+                <text x="470" y="236">NEOM</text>
+              </g>
+            </svg>
           </div>
         </div>
       </section>
