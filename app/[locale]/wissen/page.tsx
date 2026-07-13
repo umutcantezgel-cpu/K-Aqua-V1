@@ -187,8 +187,9 @@ export default async function WissenPage({ params }: Props) {
                     <Link 
                       href={`/${locale}/wissen/${article.slug}`} 
                       className="focus:outline-none after:absolute after:inset-0 after:z-10"
+                      title={article.title}
                     >
-                      {article.title}
+                      {article.shortTitle || article.title}
                     </Link>
                   }
                   description={

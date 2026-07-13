@@ -198,7 +198,7 @@ export default async function ArticlePage({ params }: Props) {
                       className="group block"
                     >
                       <h4 className="font-heading font-semibold text-foreground text-sm group-hover:text-primary transition-colors leading-snug mb-1">
-                        {rel.title}
+                        {rel.shortTitle || rel.title}
                       </h4>
                       <span className="text-xs text-muted-foreground flex items-center gap-1 group-hover:text-foreground transition-colors">
                         Lesen <ArrowRight className="w-3 h-3" />

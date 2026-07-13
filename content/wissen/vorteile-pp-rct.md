@@ -1,4 +1,5 @@
 ---
+shortTitle: "Vorteile von PP-RCT"
 title: "Die Vorteile von PP-RCT in der modernen Haustechnik"
 slug: "vorteile-pp-rct"
 description: "Erfahren Sie, warum Polypropylen Random-Copolymer mit modifizierter Kristallinität (PP-RCT) der Standard für zukunftsweisende und langlebige Rohrleitungssysteme ist."

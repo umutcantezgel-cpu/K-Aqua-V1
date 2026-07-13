@@ -1,4 +1,5 @@
 ---
+shortTitle: "Korrosionsbeständigkeit bei Trinkwasser"
 title: "Korrosionsbeständigkeit: Warum Metall im Trinkwasserbereich ausgedient hat"
 slug: "korrosionsbestaendigkeit-trinkwasser"
 description: "Erfahren Sie, warum Kunststoff-Rohrsysteme wie PP-RCT metallischen Systemen bei der Trinkwasserhygiene und Langlebigkeit weit überlegen sind."
