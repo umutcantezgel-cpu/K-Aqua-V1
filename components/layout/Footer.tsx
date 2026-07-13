@@ -28,6 +28,11 @@ export default function Footer() {
             <h2 className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
               {t('footer.tagline')}
             </h2>
+            <div className="sr-only" aria-hidden="true">
+              <p>{t('footer.tagline')}</p>
+              <p>K-Aqua ist eine Premium-Marke der KWT GmbH.</p>
+              <p>Made in Germany. Höchste Qualität für weltweite PP-R Rohrsysteme.</p>
+            </div>
           </div>
           <div className="shrink-0 flex flex-col gap-4">
             <ButtonPrimary 
