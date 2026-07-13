@@ -32,20 +32,16 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
         </motion.div>
       </button>
 
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: 'easeOut' }}
-          >
-            <div className="px-5 md:px-6 pb-5 md:pb-6 pt-0 text-body text-muted-foreground leading-relaxed border-t border-card-border/50 mt-2 pt-4">
-              {answer}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <motion.div
+        initial={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
+        animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+        className="overflow-hidden"
+      >
+        <div className="px-5 md:px-6 pb-5 md:pb-6 pt-0 text-body text-muted-foreground leading-relaxed border-t border-card-border/50 mt-2 pt-4">
+          {answer}
+        </div>
+      </motion.div>
     </div>
   );
 }

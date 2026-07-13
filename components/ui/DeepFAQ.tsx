@@ -45,11 +45,9 @@ export function DeepFAQ({ items }: DeepFAQProps) {
                 className={clsx("shrink-0 text-primary transition-transform duration-fast", isOpen && "rotate-180")}
               />
             </button>
-            {isOpen ? (
-              <div className="px-5 pb-5 text-small leading-relaxed text-muted-foreground">
-                <p>{it.a}</p>
-              </div>
-            ) : null}
+            <div className={clsx("px-5 pb-5 text-small leading-relaxed text-muted-foreground", !isOpen && "hidden")}>
+              <p>{it.a}</p>
+            </div>
           </div>
         );
       })}

@@ -265,7 +265,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
             <Card className="min-h-[380px] p-4 sm:p-8 flex flex-col justify-between text-start bg-card">
               <div>
                 {/* Step 0: Project Type */}
-                {step === 0 && (
+                <div className={step === 0 ? "block" : "hidden"}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {rfqData.types.map((tp, i) => {
                       const IconComp = TYPE_ICONS[i] || Factory;
@@ -289,10 +289,10 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
                       );
                     })}
                   </div>
-                )}
+                </div>
 
                 {/* Step 1: Bedarf */}
-                {step === 1 && (
+                <div className={step === 1 ? "block" : "hidden"}>
                   <div className="flex flex-col gap-6">
                     <div>
                       <p className="font-semibold text-foreground mb-3">
@@ -342,10 +342,10 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
                       {rfqData.dimsHint}
                     </p>
                   </div>
-                )}
+                </div>
 
                 {/* Step 2: Termin & Region */}
-                {step === 2 && (
+                <div className={step === 2 ? "block" : "hidden"}>
                   <div className="flex flex-col gap-6">
                     <div>
                       <p className="font-semibold text-foreground mb-3">
@@ -386,10 +386,10 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
                       </div>
                     </div>
                   </div>
-                )}
+                </div>
 
                 {/* Step 3: Kontakt */}
-                {step === 3 && (
+                <div className={step === 3 ? "block" : "hidden"}>
                   <div className="flex flex-col gap-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <label className="k-field">
@@ -458,7 +458,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
                       {rfqData.privacy}
                     </p>
                   </div>
-                )}
+                </div>
               </div>
 
               {/* Wizard Footer Controls */}

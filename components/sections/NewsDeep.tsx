@@ -45,17 +45,15 @@ export function NewsDeep() {
                   </div>
                   <h3 className="font-heading text-body font-bold text-foreground">{p.t}</h3>
                   <p className="text-small text-muted-foreground">{p.teaser}</p>
-                  {isOpen ? (
-                    <div className="mt-3 flex flex-col gap-3 text-small leading-relaxed text-muted-foreground">
-                      {p.body.map((para, pi) => (
-                        <p key={pi}>{para}</p>
-                      ))}
-                    </div>
-                  ) : null}
+                  <div className={`mt-3 flex flex-col gap-3 text-small leading-relaxed text-muted-foreground ${isOpen ? 'block' : 'hidden md:block'}`}>
+                    {p.body.map((para, pi) => (
+                      <p key={pi}>{para}</p>
+                    ))}
+                  </div>
                   <button
                     type="button"
                     onClick={() => setOpen(isOpen ? -1 : i)}
-                    className="mt-3 inline-flex items-center gap-1.5 self-start bg-transparent p-0 text-small font-bold text-primary outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    className="mt-3 inline-flex md:hidden items-center gap-1.5 self-start bg-transparent p-0 text-small font-bold text-primary outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     {isOpen ? t("readLess") : t("readMore")}
                     <ChevronDown size={15} className={isOpen ? "rotate-180" : ""} />
