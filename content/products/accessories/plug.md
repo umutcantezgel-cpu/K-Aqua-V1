@@ -1,5 +1,5 @@
 ---
-title: "Plug"
+title: "PP-R Pipe Plug"
 category: "Accessories"
 slug: "accessories/plug"
 article_codes: ["AQ98P57"]

@@ -1,5 +1,5 @@
 ---
-title: "Union"
+title: "PP-R Pipe Union"
 category: "Transition Fittings"
 slug: "transition-fittings/union"
 article_codes: ["AQ69E20","AQ69E25","AQ69E32","AQ69E40","AQ69E50","AQ69E63"]

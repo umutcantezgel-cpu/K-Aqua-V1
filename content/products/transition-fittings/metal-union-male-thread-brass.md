@@ -1,5 +1,5 @@
 ---
-title: "Metal Union with PP-R Nut in Yellow Brass CW617N (Male Thread)"
+title: "Metal Union in Brass CW617N (Male)"
 category: "Transition Fittings"
 slug: "transition-fittings/metal-union-male-thread-brass"
 article_codes: ["AQ70R20","AQ70R25","AQ70R32","AQ70R40","AQ70R50"]

@@ -1,11 +1,11 @@
 ---
-title: "PP-R Ball Valve (Ball in PP)"
+title: "PP-R Valve (PP Core)"
 category: "Valves"
 slug: "valves/pp-r-ball-valve-ball-in-pp"
 article_codes: ["AQ50020","AQ50025","AQ50032","AQ50040","AQ50050","AQ50063"]
 ---
 
-# PP-R Ball Valve (Ball in PP)
+# PP-R Valve (PP Core)
 
 Full-bore ball valve with PP ball — welded directly into PP-R pipe system via socket fusion.
 
