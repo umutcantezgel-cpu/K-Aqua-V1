@@ -91,6 +91,10 @@ export default async function ProduktePage({ params }: Props) {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
+      <div className="sr-only">
+        <p>{t.raw('products')[0]}</p>
+        <p>{t.raw('products')[1]}</p>
+      </div>
       <JsonLd schema={catalogJsonLd} />
       
       {/* 1. Cinematic Parallax Hero */}

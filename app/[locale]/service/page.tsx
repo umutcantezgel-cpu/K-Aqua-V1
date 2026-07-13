@@ -57,6 +57,8 @@ const VIDEO_ASSETS = [
 export default async function ServicePage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "service");
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("service") as string[];
   const t = await getTranslations({ locale, namespace: "service" });
 
   const downloads = t.raw("downloads") as DownloadItem[];
@@ -65,6 +67,10 @@ export default async function ServicePage({ params }: Props) {
   
   return (
     <>
+      <div className="sr-only">
+        <p>{meta[0]}</p>
+        <p>{meta[1]}</p>
+      </div>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}

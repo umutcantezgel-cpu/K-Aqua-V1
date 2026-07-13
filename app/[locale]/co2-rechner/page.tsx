@@ -40,6 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Co2RechnerPage({ params }: Props) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages" });
+  const meta = t.raw("co2") as string[];
   const jsonLd = await getWebPageJsonLd(locale, "co2");
   
   // High-End Content Data
@@ -80,6 +82,10 @@ export default async function Co2RechnerPage({ params }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen bg-background overflow-hidden selection:bg-primary/30">
+      <div className="sr-only">
+        <p>{meta[0]}</p>
+        <p>{meta[1]}</p>
+      </div>
       <JsonLd schema={jsonLd} />
       
       {/* 1. Epic Parallax Hero */}

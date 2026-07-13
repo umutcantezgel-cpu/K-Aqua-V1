@@ -30,6 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function AcademyPage({ params }: Props) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages" });
+  const meta = t.raw("academy") as string[];
   const jsonLd = await getArticleJsonLd(locale, "academy");
 
   const timelineItems = [
@@ -80,6 +82,10 @@ export default async function AcademyPage({ params }: Props) {
 
   return (
     <>
+      <div className="sr-only">
+        <p>{meta[0]}</p>
+        <p>{meta[1]}</p>
+      </div>
       <JsonLd schema={jsonLd} />
       
       {/* Hero Section */}

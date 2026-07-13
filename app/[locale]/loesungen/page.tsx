@@ -72,6 +72,10 @@ export default async function LoesungenPage({ params }: Props) {
 
   return (
     <>
+      <div className="sr-only">
+        <p>{t('meta.title')}</p>
+        <p>{t('meta.desc')}</p>
+      </div>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
       

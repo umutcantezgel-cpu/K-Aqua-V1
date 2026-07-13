@@ -52,7 +52,9 @@ export default async function FinderPage({ params }: Props) {
 
   return (
     <>
-      <span className="sr-only">{finalTitle}</span>
+      <div className="sr-only">
+        <p>{finalTitle}</p>
+      </div>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">
