@@ -3,7 +3,7 @@
 import { defineRouting } from 'next-intl/routing';
 import { ALL_LOCALE_CODES } from '@/lib/i18n/languages';
 
-export const coreLocales = ['de', 'en'];
+export const coreLocales = ALL_LOCALE_CODES;
 export const lazyLocales = ALL_LOCALE_CODES.filter(code => !coreLocales.includes(code as any));
 
 export const routing = defineRouting({
@@ -13,5 +13,6 @@ export const routing = defineRouting({
 
   // Used when no locale matches
   defaultLocale: 'en',
-  localePrefix: 'always'
+  localePrefix: 'always',
+  localeDetection: false
 });

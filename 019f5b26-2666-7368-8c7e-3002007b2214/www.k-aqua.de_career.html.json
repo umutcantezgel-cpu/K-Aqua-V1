@@ -1,0 +1,24 @@
+{
+  "markdown": "# Seite nicht gefunden\n\nFehler 404 - Seite nicht gefunden\n\nDie angeforderte Seite existiert nicht oder steht temporär nicht zur Verfügung.\n\nBitte versuchen Sie es später noch einmal oder rufen Sie die Startseite der gewünschten Domain auf.",
+  "json": {
+    "company_name": "Not Available",
+    "company_description": "Not Available"
+  },
+  "metadata": {
+    "robots": "noindex, nofollow",
+    "title": "Fehler 404 - Seite nicht gefunden",
+    "scrapeId": "019f5b26-32d5-73f0-97f6-145456dba8ef",
+    "sourceURL": "https://www.k-aqua.de/career.html",
+    "url": "https://www.k-aqua.de/career.html",
+    "statusCode": 404,
+    "error": "Not Found",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-07-13T11:03:45.237Z",
+    "creditsUsed": 5
+  },
+  "html": "<!DOCTYPE html><html>\n\t<body>\n\t\t<div id=\"box\">\n\t\t\t<div id=\"oben\"></div>\n\t\t\t<div id=\"textbox\">\n\t\t\t\t<div id=\"textboxcontent\">\n\t\t\t\t\t<span class=\"rad\">&nbsp;</span>  \n\t\t\t\t\t<h1>Seite nicht gefunden</h1>           \n\t\t\t\t\t<p>Fehler 404 - Seite nicht gefunden<br>\n\t\t\t\t\t\tDie angeforderte Seite existiert nicht oder steht temporär nicht zur Verfügung.<br>\n\t\t\t\t\t\tBitte versuchen Sie es später noch einmal oder rufen Sie die Startseite der gewünschten Domain auf.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t<div id=\"unten\"></div>\n\t\t</div>\n\t\n\n</body></html>",
+  "links": [],
+  "images": [],
+  "warning": "This scrape job was throttled at your current concurrency limit. If you'd like to scrape faster, you can upgrade your plan."
+}

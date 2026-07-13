@@ -53,9 +53,9 @@ export default function Footer() {
         <div className="mt-16 md:mt-24">
           {/* Mega Logo */}
           <div className="w-full flex justify-center items-center opacity-5 mb-16 pointer-events-none select-none">
-            <h1 className="text-[15vw] leading-none font-bold tracking-tighter text-white whitespace-nowrap">
+            <div className="text-[15vw] leading-none font-bold tracking-tighter text-white whitespace-nowrap">
               K-AQUA
-            </h1>
+            </div>
           </div>
 
           {/* Bottom Bar: Legal & Localization */}

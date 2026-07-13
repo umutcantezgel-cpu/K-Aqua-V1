@@ -40,17 +40,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = `${product.title} - K-Aqua`;
   const description = `${tSeo.raw(seoCat)?.[0]?.desc || ''} - Article: ${Array.isArray(product.article_codes) ? product.article_codes.join(', ') : product.article_codes}`;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
-    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
-    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
-
-  return {
+  return constructMetadata({
     title,
     description,
-    alternates: {
-      canonical: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
-    }
-  };
+    path: `/produkte/${category}/${slug}`,
+    locale,
+  });
 }
 
 function getDynamicSeoCategory(category: string) {
@@ -214,7 +209,6 @@ export default async function ProductDetailPage({
                   </h3>
                   <div className="prose dark:prose-invert text-muted-foreground leading-relaxed text-body">
                     <p>{dynamicSeoText}</p>
-                    <p className="mt-4">{tProd('heroDesc')}</p>
                   </div>
                 </div>
                 

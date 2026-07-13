@@ -35,48 +35,17 @@ export default async function LoesungenPage({ params }: Props) {
   const jsonLd = await getWebPageJsonLd(locale, "solutions");
   const t = await getTranslations({ locale, namespace: "solutions.index" });
 
-  const stickyContent = [
-    {
-      title: t('sticky.items.0.title'),
-      description: (
-        <div className="space-y-4">
-          <p>{t('sticky.items.0.p1')}</p>
-          <p>{t('sticky.items.0.p2')}</p>
-        </div>
-      ),
-      content: <PremiumAssetPlaceholder label="Polyfusions-Thermografie" />
-    },
-    {
-      title: t('sticky.items.1.title'),
-      description: (
-        <div className="space-y-4">
-          <p>{t('sticky.items.1.p1')}</p>
-          <p>{t('sticky.items.1.p2')}</p>
-        </div>
-      ),
-      content: <PremiumAssetPlaceholder label="Temperatur-Gradienten-Modell" />
-    },
-    {
-      title: t('sticky.items.2.title'),
-      description: (
-        <div className="space-y-4">
-          <p>{t('sticky.items.2.p1')}</p>
-          <p>{t('sticky.items.2.p2')}</p>
-        </div>
-      ),
-      content: <PremiumAssetPlaceholder label="Laminare Strömungssimulation" />
-    },
-    {
-      title: t('sticky.items.3.title'),
-      description: (
-        <div className="space-y-4">
-          <p>{t('sticky.items.3.p1')}</p>
-          <p>{t('sticky.items.3.p2')}</p>
-        </div>
-      ),
-      content: <PremiumAssetPlaceholder label="Molekulare Korrosionsresistenz" />
-    }
-  ];
+  const benefits = t.raw('benefits') as Array<{ t: string; d: string }>;
+  
+  const stickyContent = benefits.map((b, index) => ({
+    title: b.t,
+    description: (
+      <div className="space-y-4">
+        <p>{b.d}</p>
+      </div>
+    ),
+    content: <PremiumAssetPlaceholder label={b.t} />
+  }));
 
   const timelineItems = [
     {

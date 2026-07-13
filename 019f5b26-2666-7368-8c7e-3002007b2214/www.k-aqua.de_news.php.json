@@ -1,0 +1,28 @@
+{
+  "markdown": "# K-Aqua - News\n\n![](https://www.k-aqua.de/Pics/news_dakks_logo.jpg)\n\n## We are ISO certified\n\nStarting from October 2025 we have expanded our ISO management system as follows:\n\n[English Version](https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf) or [German Version](https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf)\n\n- ISO 9001:2015 Quality Management System\n- ISO 14001:2015 Environmental Management System\n- ISO 50001:2018 Energy Management System",
+  "json": {
+    "company_name": "K-Aqua",
+    "company_description": "K-Aqua is expanding its ISO management system to include ISO 9001:2015, ISO 14001:2015, and ISO 50001:2018 certifications starting from October 2025."
+  },
+  "metadata": {
+    "title": "K-Aqua - News",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "scrapeId": "019f5b26-2881-7055-b0be-edeea14629b5",
+    "sourceURL": "https://www.k-aqua.de/news.php",
+    "url": "https://www.k-aqua.de/news.php",
+    "statusCode": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-07-13T11:03:35.537Z",
+    "creditsUsed": 5
+  },
+  "html": "<!DOCTYPE html><html>\n\n<body class=\"page-id-2\">\n\n<div class=\"page\">\n\n    \n\n\n    <section class=\"main\">\n\n        <div class=\"main-inner\">\n\n            \n\n            <div class=\"content-main\">\n\n                <h1>K-Aqua - News</h1>\n\n<!--                <div class=\"text-pic-wrap\">-->\n<!--                    <div class=\"text-pic-image position-left\">-->\n<!--                        <a href=\"Pics/news_big5_zoom.jpg\" target=\"blank\"><img src=\"Pics/news_big5.jpg\"/></a>-->\n<!--                    </div>-->\n<!---->\n<!--                    <div class=\"text-box\">-->\n<!--                        <h2>--><!--</h2>-->\n<!--                        <p>-->\n<!--                            --><!--                            <a href=\"PDF/K-Aqua_Press_Big5.pdf\" target=\"blank\">--><!--</a>-->\n<!--                        </p>-->\n<!--                    </div>-->\n<!--                </div>-->\n\n                <div class=\"text-pic-wrap\">\n                    <div class=\"text-pic-image position-left\">\n                        <img src=\"https://www.k-aqua.de/Pics/news_dakks_logo.jpg\">\n                    </div>\n\n                    <div class=\"text-box\">\n                        <h2>We are ISO certified</h2>\n                        <p>\n                            Starting from October 2025 we have expanded our ISO management system as follows:\n\n\n                            <a href=\"https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf\" target=\"blank\">English Version&nbsp;</a> or <a href=\"https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf\" target=\"blank\">German Version&nbsp;</a>\n\n                        </p>\n\t                    <ul>\n\t\t                    <li>ISO 9001:2015 Quality Management System</li>\n\t\t        <li>ISO 14001:2015 Environmental Management System</li>\n\t\t        <li>ISO 50001:2018 Energy Management System</li>\t                    </ul>\n                    </div>\n                </div>\n\n            </div>\n\n        </div>\n\n    </section>\n\n</div>\n\n\n\n\n</body></html>",
+  "links": [
+    "https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf",
+    "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf"
+  ],
+  "images": [
+    "https://www.k-aqua.de/Pics/news_dakks_logo.jpg"
+  ]
+}
