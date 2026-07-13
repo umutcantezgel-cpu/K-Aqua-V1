@@ -248,7 +248,7 @@ export default function HeroScrolly() {
               {heroCopy}
             </div>
             <div ref={globeWrapRef} className="k-scrolly-globe">
-              {mounted && !showStatic && (
+              {mounted && !staticMode && (
                 <Globe size={800} interactive={false} speed={0.02} markers={testMarkers} />
               )}
             </div>

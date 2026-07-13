@@ -55,7 +55,7 @@ export default async function LocaleLayout({
       <head>
         <link rel="stylesheet" href="/assets/kaqua-elemente.css" />
       </head>
-      <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
+      <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />
         <LiquidEngine />
         <WaterCursor />

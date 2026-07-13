@@ -16,10 +16,9 @@ export function KAquaElementeInitializer() {
   useEffect(() => {
     // Wenn die Seite (Soft-Navigation) wechselt, müssen die Effekte neu initialisiert werden.
     if (typeof window !== 'undefined' && window.KAquaElemente?.init) {
-      // Verzögerung, um sicherzustellen, dass React den DOM gerendert hat
-      setTimeout(() => {
+      requestAnimationFrame(() => {
         window.KAquaElemente.init();
-      }, 50);
+      });
     }
   }, [pathname]);
 

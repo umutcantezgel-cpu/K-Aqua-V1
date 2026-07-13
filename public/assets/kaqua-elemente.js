@@ -1117,6 +1117,4 @@
     } catch (e) { console.error('[kaqua-elemente] maparc:', e); }
   }
   window.KAquaElemente = { init: scan };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', scan);
-  else scan();
 })();
