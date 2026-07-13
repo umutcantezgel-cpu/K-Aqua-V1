@@ -35,16 +35,17 @@ export default async function LoesungenPage({ params }: Props) {
   const jsonLd = await getWebPageJsonLd(locale, "solutions");
   const t = await getTranslations({ locale, namespace: "solutions.index" });
 
-  const benefits = t.raw('benefits') as Array<{ t: string; d: string }>;
+  const stickyItems = t.raw('sticky.items') as Array<{ title: string; p1: string; p2: string }>;
   
-  const stickyContent = benefits.map((b, index) => ({
-    title: b.t,
+  const stickyContent = stickyItems.map((item, index) => ({
+    title: item.title,
     description: (
       <div className="space-y-4">
-        <p>{b.d}</p>
+        <p>{item.p1}</p>
+        <p>{item.p2}</p>
       </div>
     ),
-    content: <PremiumAssetPlaceholder label={b.t} />
+    content: <PremiumAssetPlaceholder label={item.title} />
   }));
 
   const timelineItems = [
