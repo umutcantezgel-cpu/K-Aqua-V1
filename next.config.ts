@@ -64,52 +64,52 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/:locale/academy/webinare/anmeldung',
+        source: '/:locale([a-zA-Z-]{2,7})/academy/webinare/anmeldung',
         destination: '/:locale/kontakt',
         permanent: true,
       },
       {
-        source: '/:locale/downloads',
+        source: '/:locale([a-zA-Z-]{2,7})/downloads',
         destination: '/:locale/ressourcen/downloads',
         permanent: true,
       },
       {
-        source: '/:locale/produkte/:category/index',
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/:category/index',
         destination: '/:locale/produkte/:category',
         permanent: true,
       },
       {
-        source: '/:locale/ressourcen',
+        source: '/:locale([a-zA-Z-]{2,7})/ressourcen',
         destination: '/:locale/ressourcen/downloads',
         permanent: true,
       },
       {
-        source: '/:locale/ressourcen/co2-rechner',
+        source: '/:locale([a-zA-Z-]{2,7})/ressourcen/co2-rechner',
         destination: '/:locale/co2-rechner',
         permanent: true,
       },
       {
-        source: '/:locale/ressourcen/katalog',
+        source: '/:locale([a-zA-Z-]{2,7})/ressourcen/katalog',
         destination: '/:locale/produkte/finder',
         permanent: true,
       },
       {
-        source: '/:locale/unternehmen/karriere',
+        source: '/:locale([a-zA-Z-]{2,7})/unternehmen/karriere',
         destination: '/:locale/karriere',
         permanent: true,
       },
       {
-        source: '/:locale/unternehmen/kontakt',
+        source: '/:locale([a-zA-Z-]{2,7})/unternehmen/kontakt',
         destination: '/:locale/kontakt',
         permanent: true,
       },
       {
-        source: '/:locale/unternehmen/news',
+        source: '/:locale([a-zA-Z-]{2,7})/unternehmen/news',
         destination: '/:locale/news',
         permanent: true,
       },
       {
-        source: '/:locale/unternehmen/partner',
+        source: '/:locale([a-zA-Z-]{2,7})/unternehmen/partner',
         destination: '/:locale/partnerschaft',
         permanent: true,
       },
