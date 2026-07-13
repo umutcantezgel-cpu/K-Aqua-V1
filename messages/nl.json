@@ -348,7 +348,16 @@
       }
     ],
     "manifestTitle": "Onze Missie",
-    "manifestText": "Water is onze meest kostbare grondstof. Wij beschermen het met toekomstgerichte buissystemen."
+    "manifestText": "Water is onze meest kostbare grondstof. Wij beschermen het met toekomstgerichte buissystemen.",
+    "grEyebrow": "Global Reach",
+    "grTitle1": "International",
+    "grTitle2": "Trade Routes",
+    "grLead": "From Germany to the world: Our K-Aqua pipe systems are the backbone of the most modern megaprojects globally. From NEOM in Saudi Arabia to highly complex industrial plants in Singapore.",
+    "grHqLabel": "HQ & Production",
+    "grHqValue": "Germany (Frankfurt)",
+    "grExportLabel": "Key Export Markets",
+    "grExportValue": "Saudi Arabia (NEOM), UAE, Qatar, Latin America",
+    "grCta": "Discover worldwide projects"
   },
   "products": {
     "heroDesc": "Ontdek de specificaties, afmetingen en toepassingsgebieden. Voor gedetailleerde informatie kunt u het technische specificatieblad downloaden.",
@@ -668,78 +677,78 @@
         "eyebrow": "Architectuur van Perfectie",
         "title": "De Anatomie van Betrouwbaarheid.",
         "lead": "Een diepgaande blik op de fysische en chemische eigenschappen die onze fittingen de wereldwijde benchmark maken.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "De moleculaire structuur",
             "desc": "Onze fittingen zijn gebaseerd op een sterk gecrosslinkte PP-R polypropyleen random copolymeer. Door gecontroleerde temperatuur-drukprofielen tijdens extrusie bereiken we een isotrope kristalstructuur. Het resultaat: een ongekende weerstand tegen spanningsscheuren en extreme temperatuurschommelingen."
           },
-          "1": {
+          {
             "title": "Thermoplastische Precisie",
             "desc": "Elk vormdeel ondergaat een thermoplastisch spuitgietproces met caviteitstoleranties in het micrometerbereik. Dit zorgt ervoor dat de smeltindexen bij het lassen met onze buizen absoluut identiek zijn – voor een homogene, onscheidbare en 100% lekvrije materiaalverbinding."
           },
-          "2": {
+          {
             "title": "Nul-Fouten-Tolerantie",
             "desc": "We laten niets aan het toeval over. Met behulp van ultrasone wanddikte meting, hydrostatische interne druk kruiptests en DSC (Differential Scanning Calorimetry) wordt elke batch geanalyseerd. Alleen materiaal dat onze interne normen overtreft – die ver boven DIN EN ISO 15874 liggen – wordt vrijgegeven."
           },
-          "3": {
+          {
             "title": "Cavitatie Weerstand",
             "desc": "De stroomgeoptimaliseerde interne geometrie van onze fittingen voorkomt effectief drukverliezen en cavitatie, zelfs bij extreme stroomsnelheden in industriële stijgleidingen. Dit minimaliseert geluidsemissies en beschermt het systeem van binnenuit tegen schurende slijtage."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Prestatiegegevens",
         "title": "Specificaties buiten de norm.",
         "lead": "Terwijl de industrie normen als een doel beschouwt, zien wij ze slechts als het absolute minimum.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DIN EN ISO 15874",
             "desc": "Volledige naleving en certificering voor kunststof leidingsystemen voor warm- en koudwaterinstallaties."
           },
-          "1": {
+          {
             "title": "PN 20 / PN 25",
             "desc": "Ontworpen voor permanente hogedrukbelastingen, zelfs bij kritische temperaturen."
           },
-          "2": {
+          {
             "title": "Chemische Traagheid",
             "desc": "Uitstekende weerstand tegen agressieve media. pH-onafhankelijk (pH 1 tot 14) voor industrieel gebruik."
           },
-          "3": {
+          {
             "title": "Akoestische Demping",
             "desc": "De inherente elasticiteit van het PP-R materiaal absorbeert contactgeluid en reduceert stromingsgeluid tot een absoluut minimum, ideaal voor luxe hotels en ziekenhuizen."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Het Genesisproces",
         "desc": "Van de moleculaire ruwe massa tot het onverwoestbare component. Een blik in onze sterk geautomatiseerde productiematrix.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Stap 01",
             "title": "Granulaat Selectie",
             "text": "Alleen zeer zuiver, voorgesynthetiseerd polypropyleen granulaat van Europese premium raffinaderijen doorstaat onze ingangscontrole."
           },
-          "1": {
+          {
             "year": "Stap 02",
             "title": "Thermische Conditionering",
             "text": "Voorafgaand aan het spuitgieten wordt het granulaat thermisch gestabiliseerd om restvocht te elimineren en een homogene smelt te garanderen."
           },
-          "2": {
+          {
             "year": "Stap 03",
             "title": "Hogedruk Spuitgieten",
             "text": "In volledig geautomatiseerde, robotondersteunde spuitgietcellen vormen we het materiaal onder enorme druk tot onberispelijke fittingen."
           },
-          "3": {
+          {
             "year": "Stap 04",
             "title": "Koelingsmatrix",
             "text": "Een computergestuurd koelprofiel voorkomt interne spanningen in het materiaal en zorgt voor een perfecte maatvastheid."
           },
-          "4": {
+          {
             "year": "Stap 05",
             "title": "Certificering & Logistiek",
             "text": "Elke batch ontvangt zijn digitale certificaat. Klaar voor verzending naar de meest veeleisende bouwplaatsen ter wereld."
           }
-        }
+        ]
       },
       "depth": {
         "title": "Levensduur > 50 Jaar. Gegarandeerd.",
@@ -770,78 +779,78 @@
         "eyebrow": "Materiaalkunde",
         "title": "Polymeertechniek tot in de perfectie.",
         "lead": "De moleculaire structuur van onze PP-R- en PP-RCT-buizen is geoptimaliseerd voor extreme thermomechanische belastingen. Een meesterwerk van Duitse techniek.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PP-RCT meerlaagse architectuur",
             "desc": "Onze nieuwste generatie PP-RCT-buizen (Polypropyleen Random Copolymeren met gemodificeerde Kristalliniteit en Temperatuurbestendigheid) hebben een geïntegreerde glasvezelverbindingslaag. Hierdoor wordt de thermische lineaire uitzetting tot wel 75% verminderd ten opzichte van standaard PP-R buizen, terwijl de drukweerstand bij hoge temperaturen drastisch wordt vergroot. Het resultaat is een dunnere wanddikte met een grotere doorstroomcapaciteit."
           },
-          "1": {
+          {
             "title": "Homogeen lassen",
             "desc": "In tegenstelling tot persfittingen of lijmverbindingen gebruiken wij het polyfusie-lasproces. Leidingen en fittingen versmelten bij 260°C tot één enkele, onafscheidelijke moleculaire eenheid. Het systeem werkt volledig zonder O-ringen of mechanische afdichtingen. Het aansluitpunt is fysiek sterker dan de leiding zelf – een 100% lekvrije levensduur is gegarandeerd."
           },
-          "2": {
+          {
             "title": "Absoluut vrij van corrosie",
             "desc": "Metaalsystemen capituleren voor agressieve waterkwaliteiten, lage pH-waarden of hoge chloridegehaltes. K-Aqua polymeerbuizen zijn volledig inert. Putcorrosie, spleetcorrosie, galvanische corrosie of afzettingen zijn fysiek onmogelijk. Het leidingwrijvingsverlies (ruwheidswaarde k=0,007 mm) blijft zelfs na 50 jaar gebruik op hetzelfde niveau als de eerste dag, waardoor de pompenergie enorm wordt verminderd."
           },
-          "3": {
+          {
             "title": "Thermische en akoestische isolatie",
             "desc": "Dankzij de lage thermische geleidbaarheid van PP-R (0,24 W/mK) in vergelijking met staal (50 W/mK) of koper (380 W/mK) wordt de condensvorming in koelsystemen sterk vertraagd en worden warmteverliezen in verwarmingssystemen geminimaliseerd. Bovendien absorberen onze dikwandige polymeerbuizen op efficiënte wijze stromingsgeluiden en waterslag, waardoor het akoestisch comfort in hoge gebouwen en hotels wordt geperfectioneerd."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Nul fouttolerantie",
         "desc": "Elke centimeter van onze buizen wordt tijdens het extrusieproces gecontroleerd. Van granulaat tot eindproduct – kwaliteit Made in Germany.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Niveau 01",
             "title": "Eersteklas grondstof",
             "text": "Wij verwerken alleen hoogzuivere PP-R- en PP-RCT-korrels van 's werelds toonaangevende polymeerfabrikanten. Elke batch ondergaat een MFR-test (melt flow rate) en een oxidatieve inductietijdmeting (OIT) in ons eigen laboratorium voordat deze wordt vrijgegeven voor extrusie."
           },
-          "1": {
+          {
             "year": "Niveau 02",
             "title": "Precisie-extrusie",
             "text": "Onze geavanceerde extrusiesystemen produceren 3-laags vezelcomposietbuizen met micrometerprecisie. Ultrasone wanddiktemeting in realtime over 360° zorgt ervoor dat zelfs bij SDR 6-buizen niet aan de minimaal toegestane toleranties wordt voldaan."
           },
-          "2": {
+          {
             "year": "Niveau 03",
             "title": "Thermische conditionering",
             "text": "Direct na de extrusie worden de buizen geleidelijk afgekoeld in speciaal getemperde waterbaden. Dit zachte koelproces voorkomt interne spanningen in het materiaal en zorgt voor maximale maatstabiliteit in alle afmetingen."
           },
-          "3": {
+          {
             "year": "Niveau 04",
             "title": "100% traceerbaarheid",
             "text": "Elke buis krijgt een onuitwisbare laserafdruk met exacte batch- en productietijdinformatie. Zelfs na tientallen jaren in de muur is de oorsprong van iedere K-Aqua pijp volledig terug te voeren op de granulaatpartij."
           },
-          "4": {
+          {
             "year": "Niveau 05",
             "title": "Certificering en vrijgave",
             "text": "Hydraulische barstdruktest bij 95°C gedurende 1000 uur. Trekproeven, kerfslagsterkte en toxicologische veiligheidstesten. Pas als het product alle normen (DIN 8077/8078, EN ISO 15874) overtreft, verlaat het onze werkplaats."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Specificaties",
         "title": "Voor elke wens een maat.",
         "lead": "Schaalbaar van d20 huisaansluitingen tot d500 industriële stijgleidingen. Ons systeem groeit mee met de afmetingen van uw project.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Afmetingen van d20 tot d500",
             "desc": "Compleet assortiment buizen en fittingen. Of het nu gaat om T-stukken, reducties of flensverbindingen in gigantische afmetingen – wij leveren het complete systeem uit één hand. Geen compromissen als het om hydrauliek gaat."
           },
-          "1": {
+          {
             "title": "SDR-klassen 6 tot 11",
             "desc": "Op maat gemaakte drukniveaus (PN10 tot PN25) via verschillende standaard maatverhoudingen. Optimaliseer materiaalgebruik en -stroom."
           },
-          "2": {
+          {
             "title": "Drinkwaterhygiëne",
             "desc": "Voldoet aan de strengste Europese normen (UBA, DVGW). Absoluut voedselveilig, smaak- en geurloos. Optionele antibacteriële binnencoating."
           },
-          "3": {
+          {
             "title": "UV-bestendige buitenbuizen",
             "desc": "Wij bieden speciale UV-gestabiliseerde buizen voor buiteninstallaties in extreme klimaatzones (bijvoorbeeld het Midden-Oosten). De beschermende buitenlaag blokkeert UV-straling en voorkomt afbraak van polymeer."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Laat experts uw project op maat maken.",
@@ -871,125 +880,125 @@
         "eyebrow": "Diepe technologie",
         "title": "Anatomie van onverwoestbaarheid.",
         "lead": "Wij beschouwen een overgangsbeslag niet als accessoire, maar eerder als een zeer complex mechanisch instrument. Elke millimeter wanddikte en elke draad is het resultaat van talloze eindige elementenanalyses (FEA).",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "De symbiose van metaal en polymeer",
             "desc": "Onze overgangsfittingen combineren de meedogenloze mechanische sterkte van ontzinkingsbestendig CW617N-messing met de chemische inertie van PP-RCT. Deze materiaalfusie wordt niet tot stand gebracht door eenvoudig persen, maar door een thermomechanisch spuitgietproces dat onlosmakelijk met elkaar verbonden moleculaire verbindingen bereikt."
           },
-          "1": {
+          {
             "title": "Extreme torsie en koppel",
             "desc": "A critical failure criterion for standard fittings is torque overload during installation. K-Aqua-overgangen integreren een gepatenteerd zeshoekig verankeringsprofiel in de kunststofmantel. Het resultaat: ruim 300 Nm gegarandeerde torsieweerstand zonder delaminatie van de grenslaag."
           },
-          "2": {
+          {
             "title": "Thermische uitzettingscoëfficiënten in evenwicht",
             "desc": "Metalen en kunststoffen zetten anders uit als er temperatuurschommelingen zijn (Δα). Dankzij nauwkeurig berekende micro-expansievoegen in het messing inzetstuk compenseren onze armaturen extreme schokken van -20°C tot +95°C in milliseconden - absoluut lekvrij."
           },
-          "3": {
+          {
             "title": "Kwaliteitscontrole met nultolerantie",
             "desc": "Elk hybride onderdeel ondergaat een volledig geautomatiseerde heliumlektest en een optische 3D-meting. Als de grenswaarde van 10^-5 mbar·l/s ook maar enigszins wordt beïnvloed, sluit ons systeem dit onderdeel rigoureus uit. German Engineering tolereert geen compromissen."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Specificaties",
         "title": "Architectuur van prestaties.",
         "lead": "Bij het plannen van megaprojecten met tienduizenden verbindingen is statistische veerkracht de belangrijkste ROI. K-Aqua geeft u hiervoor de fysieke garantie.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DZR messing kern",
             "desc": "Ontzinkingsbestendig messing van de kwaliteit CW617N (volgens DIN EN 12164) elimineert het risico van selectieve corrosie bij agressieve waterkwaliteiten."
           },
-          "1": {
+          {
             "title": "Anti-rotatieontwerp",
             "desc": "Veelhoekige ondersnijdingen vormen een geometrisch slot dat extreme aanhaalmomenten absorbeert zonder de kunststofmantel te belasten."
           },
-          "2": {
+          {
             "title": "Diepgetrokken draad",
             "desc": "Conische en cilindrische ISO 7/1 of ISO 228 schroefdraad, machinaal gesneden met een tolerantie van ±0,01 mm voor perfecte dichtheid."
           },
-          "3": {
+          {
             "title": "PP-RCT-matrix",
             "desc": "De zeer kristallijne structuur van ons willekeurige polypropyleencopolymeer biedt uitstekende kruipsterkte op lange termijn bij hoge temperaturen."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "De productiecyclus",
         "desc": "Een kijkje in onze fabriek. De weg van grondstof naar gecertificeerde hybride fitting is een orkest van hitte, druk en genadeloze precisie.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 1",
             "title": "Bewerking van onbewerkt materiaal (CW617N)",
             "text": "Het messing wordt bij 750°C in zeer nauwkeurige matrices geperst, gevolgd door CNC-gestuurde bewerking in het micrometerbereik om het afdichtingsprofiel te creëren."
           },
-          "1": {
+          {
             "year": "Fase 2",
             "title": "Oppervlaktepassivering",
             "text": "Om galvanische corrosie te elimineren, ondergaan de schroefdraadinzetstukken een meertraps passivatieproces in elektrolytische ultrasoonbaden."
           },
-          "2": {
+          {
             "year": "Fase 3",
             "title": "Spuitgieten",
             "text": "In hogedrukspuitgietmachines (2.000 bar) omringt het gesmolten PP-RCT het messing. Het plastic vult elke ondersnijding volledig."
           },
-          "3": {
+          {
             "year": "Fase 4",
             "title": "Gecontroleerde koeling",
             "text": "Een geprogrammeerde, geleidelijke temperatuurverlaging voorkomt interne spanningen in het kunststofrooster en zorgt voor de concentrische vorm van het armatuur."
           },
-          "4": {
+          {
             "year": "Fase 5",
             "title": "Druk- en torsietesten",
             "text": "Willekeurige barsttests tot 120 bar en vermoeiingstests simuleren 50 jaar van de meest agressieve industriële belastingen."
           }
-        }
+        ]
       },
       "stats": {
         "eyebrow": "Certificeringen & parameters",
         "title": "Harde feiten.",
         "lead": "Wij testen niet alleen volgens standaarden. Wij definiëren ze. Onze interne testprotocollen overtreffen de eisen van DVGW, SKZ en ISO tot wel 300%.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "label": "Bedrijfsdruk (PN)",
             "value": "Tot 25 bar",
             "sub": "Bij 20°C water"
           },
-          "1": {
+          {
             "label": "Temperatuur spectrum",
             "value": "-20°C tot +95°C",
             "sub": "Piekbelasting tot 110°C"
           },
-          "2": {
+          {
             "label": "Draadstandaarden",
             "value": "ISO 7/1, ISO 228",
             "sub": "Binnendraad en buitendraad"
           },
-          "3": {
+          {
             "label": "Levenscyclus",
             "value": "> 50 jaar",
             "sub": "Onder industriële omstandigheden"
           },
-          "4": {
+          {
             "label": "Messing legering",
             "value": "CW617N / CW614N",
             "sub": "DZR / ontzinkingsvrij"
           },
-          "5": {
+          {
             "label": "plastic",
             "value": "PP-RCT/PP-R",
             "sub": "Drinkwater gecertificeerd"
           },
-          "6": {
+          {
             "label": "Naleving van drinkwater",
             "value": "UBA, DVGW",
             "sub": "100% loodvrije opties"
           },
-          "7": {
+          {
             "label": "Kwaliteitsborging",
             "value": "ISO9001:2015",
             "sub": "100% batchtracking"
           }
-        }
+        ]
       },
       "cta": {
         "title": "De sterkste verbinding in uw project.",
@@ -1008,78 +1017,78 @@
       "eyebrow": "HET PRODUCTASSORTIMENT",
       "title": "COMPROMISLOZE TECHNIEK.",
       "lead": "Ieder onderdeel is onderdeel van een gesloten, perfect systeem. Van inlaat tot eindpunt controleren we de stroom van water, chemicaliën en gassen met meedogenloze betrouwbaarheid.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "PPR-LEIDINGSSYSTEMEN: ONVERNIETIGBARE Aderen",
           "desc": "Het K-Aqua PPR-systeem (Polypropylene Random Copolymer) vormt de ruggengraat van het moderne vloeistoftransport. Thermisch versmolten tot een homogene eenheid, is het bestand tegen extreme druk, chemische aanvallen en thermische stress. Een systeem dat niet lekt, niet corrodeert en tientallen jaren meegaat."
         },
-        "1": {
+        {
           "title": "FITTINGEN: GEOMETRISCHE PERFECTIE",
           "desc": "Elke K-Aqua-fitting is een meesterwerk van vloeistofmechanica. Verminderde cavitatie, geoptimaliseerde wanddiktes en exacte toleranties in het micrometerbereik garanderen minimale drukverliezen en maximale systeemveiligheid. We laten de rivier niet aan het toeval over."
         },
-        "2": {
+        {
           "title": "KLEPPEN & FITTINGEN: ABSOLUTE CONTROLE",
           "desc": "Industriële isolatie- en besturingstechnologie die wereldwijd onder de zwaarste omstandigheden opereert. Onze kogelkranen, hoekafsluiters en terugslagkleppen worden tienduizenden cycli getest zonder enig prestatieverlies. Maximale dichtheid onder maximale belasting."
         },
-        "3": {
+        {
           "title": "COMPOSIETLEIDINGEN: DE SYNERGIE VAN MATERIALEN",
           "desc": "Aluminium ontmoet hoogwaardig polymeer. De K-Aqua meerlagencomposietbuizen combineren de mechanische stabiliteit van metaal met de flexibiliteit en chemische bestendigheid van kunststof. 100% zuurstofdicht. Minimale lineaire uitzetting. De ultieme oplossing voor complexe HVAC-systemen."
         }
-      }
+      ]
     },
     "bento": {
       "eyebrow": "PRESTATIEGEGEVENS",
       "title": "TECHNOLOGISCHE SUPERIORITEIT. DATAGEDREVEN.",
       "lead": "K-Aqua-systemen zijn niet alleen maar leidingen – het zijn hoogwaardige netwerken voor vloeistoffen. Ontwikkeld volgens de strengste Duitse industrienormen.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Thermische fusie",
           "desc": "Homogene lasnaden. Het materiaal wordt één. Geen lijm, geen afdichtringen die kapot gaan. 100% zekerheid tegen lekkage op moleculaire basis."
         },
-        "1": {
+        {
           "title": "Corrosie-immuniteit",
           "desc": "Volledig bestand tegen putjes, roest en elektrochemische corrosie. Het getransporteerde medium blijft in zijn puurste staat."
         },
-        "2": {
+        {
           "title": "Optimalisatie van de stroom",
           "desc": "Gladde wandtechnologie (ruwheid 0,007 mm) met minimale wrijvingscoëfficiënt voorkomt afzettingen en minimaliseert drukverlies enorm."
         },
-        "3": {
+        {
           "title": "Drukweerstand PN25+",
           "desc": "Ontworpen voor maximaal gebruik in hoge gebouwen, industriële faciliteiten en kritieke infrastructuur. Ontworpen voor een probleemloze werking gedurende meer dan 50 jaar."
         }
-      }
+      ]
     },
     "timeline": {
       "title": "HET INSTALLATIEPROCES. HERDEFINIEERD.",
       "desc": "Sneller. Veiliger. Schoner. Ons systeem verkort de installatietijd aanzienlijk en beperkt de bronnen van fouten tot een minimum. Een chronologie van efficiëntie.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "FASE 01",
           "title": "PLANNING & DIMENSIONERING",
           "text": "Exacte hydraulische berekening en ontwerp van de buisdiameters. Vermijding van overdimensionering door superieure vloei-eigenschappen."
         },
-        "1": {
+        {
           "year": "FASE 02",
           "title": "SNIJDEN & VOORBEREIDING",
           "text": "Koud en spanvrij snijden van buizen. Absoluut zuivere snijkanten garanderen een perfecte lasvoorbereiding zonder risico op vervuiling."
         },
-        "2": {
+        {
           "year": "FASE 03",
           "title": "VERWARMINGSELEMENT SOKKEN LASSEN",
           "text": "Het gereedschap verwarmt de buis en fitting tot exact 260°C. Binnen enkele seconden ontstaat er een moleculaire verbinding die niet verbroken kan worden."
         },
-        "3": {
+        {
           "year": "FASE 04",
           "title": "DRUKTEST & ACCEPTATIE",
           "text": "Het systeem wordt onder extreme testdruk geplaatst. Geen tolerantie voor lekken. K-Aqua levert 100% veiligheid vanaf de eerste val."
         },
-        "4": {
+        {
           "year": "FASE 05",
           "title": "BEDRIJF AL DECENNIA",
           "text": "Onderhoudsvrij. Laag geluidsniveau. Het systeem werkt achter de schermen van de modernste gebouwen ter wereld met een onverbiddelijke betrouwbaarheid."
         }
-      }
+      ]
     },
     "sysLead": "De basis van onze catalogus – vier pijlers van systeemintegratie."
   },
@@ -1113,53 +1122,53 @@
     "nextCta": "Naar het productprogramma",
     "krankenhaus": {
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Legionellapreventie op moleculair niveau",
             "desc": "In kritieke ziekenhuisinfrastructuur is waterhygiëne geen optie, maar een kwestie van overleven. Onze K-Aqua leidingsystemen maken gebruik van extreem gladde, poriënvrije interne oppervlakken die de vorming van biofilms en de verspreiding van Legionella fysiek voorkomen. Duitse engineering betekent hier: preventie door perfecte materiaalkunde, niet door chemische nabehandeling."
           },
-          "1": {
+          {
             "title": "Thermische desinfectie zonder materiaalmoeheid",
             "desc": "Klinische normen vereisen regelmatige thermische desinfectie bij temperaturen boven 70°C. Terwijl conventionele systemen snel verouderen, is het K-Aqua PPR-systeem ontworpen om tientallen jaren lang extreme thermische belastingen te weerstaan. Geen microscheuren, geen broosheid, geen compromissen."
           },
-          "2": {
+          {
             "title": "Absoluut steriele verbindingen",
             "desc": "Ons gepatenteerde verwarmingselement-moflassen combineert buis en fitting tot een homogeen, volledig naadloos geheel. Er zijn geen dode ruimtes waarin stilstaand water zich kan verzamelen. Het resultaat is een leidingsysteem uit één stuk: de absolute fysieke barrière tegen vervuiling."
           },
-          "3": {
+          {
             "title": "Akoestische isolatie voor intensive care-afdelingen",
             "desc": "Lawaai is een enorme stressfactor voor patiënten en medisch personeel. Het K-Aqua systeem heeft inherente geluidsabsorberende eigenschappen. Stromingsgeluiden en drukstoten worden door het materiaal zelf geabsorbeerd, wat zelfs bij hogedruktoepassingen een fluisterstille watervoorziening garandeert - essentieel voor operatiekamers en intensive care-afdelingen."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 01",
             "title": "Systeemgrootte en hydrauliek",
             "text": "Nauwkeurige berekening van de kabeldoorsneden om stagnatiezones te voorkomen. Elke millimeter drukverlies wordt tijdens de planningsfase door onze Duitse ingenieurs op de digital twin gesimuleerd en geëlimineerd."
           },
-          "1": {
+          {
             "year": "Fase 02",
             "title": "Materiaalspecificatie",
             "text": "Selectie van specifieke K-Aqua-polymeermengsels, geoptimaliseerd voor klinische vereisten. Onze grondstoffen ondergaan 42 kwaliteitsborgingsstappen voordat ze zelfs maar de extruder bereiken."
           },
-          "2": {
+          {
             "year": "Fase 03",
             "title": "Prefabricage en afhandeling van cleanrooms",
             "text": "Voormontage van complexe verdelers in gecontroleerde omgevingen. Het minimaliseren van lasnaden op de bouwplaats garandeert een tot 40% snellere, foutloze installatie onder cleanroomomstandigheden."
           },
-          "3": {
+          {
             "year": "Fase 04",
             "title": "Inbedrijfstelling & Certificering",
             "text": "Volledige hydrostatische druktest en initiële thermische desinfectie. De overdracht aan de hoofdaannemer vindt plaats met volledige, digitale documentatie van elke lasnaad."
           },
-          "4": {
+          {
             "year": "Fase 05",
             "title": "50 jaar onderhoudsvrijheid",
             "text": "Na de inbedrijfstelling verdwijnt het systeem in de muur en voert zijn werk geruisloos en absoluut betrouwbaar uit - gegarandeerd minimaal 50 jaar lang zonder enige materiaalmoeheid."
           }
-        }
+        ]
       },
       "hero": {
         "eyebrow": "Missiekritische infrastructuur",
@@ -1184,26 +1193,26 @@
         "lead": "Kwaliteit is geen kostenfactor, maar de enige weg naar winstgevendheid in de gebouwautomatisering. K-Aqua minimaliseert de totale eigendomskosten tot een ongekend niveau en garandeert tegelijkertijd maximale patiëntveiligheid."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "100% corrosiebestendigheid",
             "desc": "In tegenstelling tot metalen buizen is K-Aqua volledig immuun voor elektrochemische corrosie, putcorrosie en hard water. Geen korstvorming, geen drukverlies gedurende 50 jaar continu gebruik."
           },
-          "1": {
+          {
             "title": "Bliksemsnelle installatie",
             "desc": "Het lage gewicht en de homogene lastechniek verkorten de installatietijd tot wel 40%. Minder mandagen, minder risico op de bouwplaats.",
             "badge": "-40% tijd"
           },
-          "2": {
+          {
             "title": "Aardbevingsbestendige flexibiliteit",
             "desc": "Dankzij de modulaire moleculaire structuur van het materiaal kan het seismische schokken absorberen en nederzettingen bouwen zonder te breken. Essentieel voor ziekenhuizen in risicogebieden.",
             "badge": "Seismische kwaliteiten"
           },
-          "3": {
+          {
             "title": "Gecertificeerde drinkwaterkwaliteit",
             "desc": "Voldoet aan en overtreft de strengste normen ter wereld (DIN, DVGW, SKZ, WRAS) voor het transport van ultrapuur water en zeer gevoelige klinische media."
           }
-        }
+        ]
       },
       "timelineSection": {
         "title": "De K-Aqua-standaard.",
@@ -1215,45 +1224,45 @@
         "lead": "Voor ingenieurs, planners en architecten: de fysische en chemische grenzen van ons systeem voor klinisch gebruik. Transparantie is de basis voor vertrouwen.",
         "therm": {
           "title": "Thermische veerkracht",
-          "items": {
-            "0": {
+          "items": [
+            {
               "label": "Continue bedrijfstemperatuur",
               "value": "70°C"
             },
-            "1": {
+            {
               "label": "Maximale invallende temperatuur",
               "value": "95°C (100 uur)"
             },
-            "2": {
+            {
               "label": "Thermische geleidbaarheid",
               "value": "0,24 W/mK"
             },
-            "3": {
+            {
               "label": "Lineaire uitzettingscoëfficiënt",
               "value": "0,15 mm/mK"
             }
-          }
+          ]
         },
         "mech": {
           "title": "Mechanische eigenschappen",
-          "items": {
-            "0": {
+          "items": [
+            {
               "label": "dikte",
               "value": "0,895 g/cm³"
             },
-            "1": {
+            {
               "label": "Treksterkte",
               "value": "23 MPa"
             },
-            "2": {
+            {
               "label": "Verlenging bij breuk",
               "value": "> 50%"
             },
-            "3": {
+            {
               "label": "Elasticiteitsmodulus",
               "value": "800 MPa"
             }
-          }
+          ]
         }
       },
       "bim": {
@@ -1289,24 +1298,24 @@
         "lead": "We hebben elk element van de klassieke pijplijn in twijfel getrokken en vervangen door meesterwerken van de materiaalwetenschap."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Referentieklasse akoestische isolatie",
             "desc": "Geluidsisolatie is het ultieme kwaliteitskenmerk in het high-end hotelsegment. Onze gepatenteerde drielaagse polymeerstructuur absorbeert structuur- en stromingsgeluid direct bij de bron. Er dringt geen watergeruis door in de suites van uw gasten. Gecertificeerd volgens DIN 4109."
           },
-          "1": {
+          {
             "title": "Thermische veerkracht",
             "desc": "Minimaal warmteverlies met maximaal rendement. De moleculaire dichtheid van K-Aqua PP-R isoleert van nature en vermindert de behoefte aan secundaire isolatie drastisch. Het resultaat: enorme besparingen op OPEX."
           },
-          "2": {
+          {
             "title": "100% corrosievrij",
             "desc": "Agressief water, chloorzwembaden of extreem zoutgehalte in kustplaatsen? Waar metalen zich overgeven, behoudt K-Aqua zijn structurele integriteit. Een halve eeuw lang."
           },
-          "3": {
+          {
             "title": "Microbiologisch fort",
             "desc": "Legionella en biofilms ontstaan ​​door microscopisch kleine oneffenheden. Het binnenoppervlak van K-Aqua-buizen is op moleculair niveau zo glad dat bacteriën zich eenvoudigweg niet kunnen hechten. Klinische zuiverheid voor de drinkwatervoorziening van uw resort."
           }
-        }
+        ]
       },
       "textSection": {
         "title": "De techniek achter de stilte",
@@ -1324,100 +1333,100 @@
         "lead": "Hoe we de grootste uitdagingen van de moderne hotelinfrastructuur oplossen door middel van radicale engineering."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "1. Legionellapreventie op moleculair niveau",
             "p1": "In uitgebreide hotelnetwerken kan stilstaand water in tijdelijk ongebruikte suites een dodelijke valstrik worden. Legionella verspreidt zich in biofilms die zich vormen op ruwe leidingwanden.",
             "p2": "De microscopische oppervlakteruwheid van K-Aqua PP-R bedraagt ​​0,007 mm. Er zijn geen poriën, geen nissen, geen ankerpunten. Gecombineerd met thermische desinfectie zorgen wij voor een fysiek meest steriele omgeving."
           },
-          "1": {
+          {
             "title": "2. Absolute geluidsabsorptie",
             "p1": "Elke decibel telt. In luxe resorts is het doorspoelen van het toilet of het douchen in de aangrenzende suite mogelijk niet merkbaar.",
             "p2": "Dankzij de hoge dichtheid van ons composietmateriaal (K-Aqua-vezelcomposiet) en de hoge interne dempingsfactor verminderen we het structuurgeluid tot 80% in vergelijking met metalen systemen. Een verschil dat uw gasten niet zullen horen."
           },
-          "2": {
+          {
             "title": "3. Hogedrukveerkracht in wolkenkrabbers",
             "p1": "Hotels met 80, 100 of 120 verdiepingen stellen extreme eisen aan de stijgbuizen. De hydrostatische druk in het onderste deel van het gebouw is enorm.",
             "p2": "K-Aqua biedt speciale drukniveaus (SDR 6 / PN 20) in combinatie met vezelversterking, die een levensduur van meer dan 50 jaar garanderen onder continue belasting, zelfs bij temperaturen van 70°C. Wij verslaan de zwaartekracht."
           },
-          "3": {
+          {
             "title": "4. Thermisch beheer en stadskoeling",
             "p1": "In woestijngebieden als Dubai of Riyad is kou het duurste goed. Stadskoelsystemen transporteren gekoeld water over lange afstanden naar het resort.",
             "p2": "De uitstekende isolatiewaarden van PP-R voorkomen condensvorming en minimaliseren het koelverlies enorm. Geen verroeste koelerleidingen meer, geen druipende plafonds meer. Gewoon pure, onvervalste efficiëntie."
           }
-        }
+        ]
       },
       "perf": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "val": "0,007",
             "unit": "mm",
             "title": "oppervlakteruwheid",
             "desc": "Absolute weerstand tegen biofilms en korstvorming."
           },
-          "1": {
+          {
             "val": "100",
             "unit": "%",
             "title": "Homogene fusie",
             "desc": "Gelaste verbindingen die op moleculair niveau samensmelten."
           },
-          "2": {
+          {
             "val": ">50",
             "unit": "J",
             "title": "jaren levensduur",
             "desc": "Getest en gecertificeerd volgens de strengste ISO-normen."
           },
-          "3": {
+          {
             "val": "0",
             "unit": "",
             "title": "Onderhoudsinspanning",
             "desc": "Installeren, verzegelen en voor altijd vergeten."
           }
-        }
+        ]
       },
       "timelineSection": {
         "title": "Referenties die geschiedenis schrijven.",
         "desc": "Van kunstmatige eilanden in de Perzische Golf tot de meest exclusieve skigebieden in de Alpen. Waar het onmogelijke wordt gebouwd, is K-Aqua er al."
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Dubai",
             "title": "Het Palm Jumeirah ultra-luxe resort",
             "text": "Uitrusting van 800 suites en 4 grote zwembadzones. Extreem zoutgehalte en omgevingstemperaturen tot 50°C vereisten maximale thermische en chemische weerstand. K-Aqua leverde het complete koud- en warmwaternetwerk inclusief stadskoelingaansluiting."
           },
-          "1": {
+          {
             "year": "Zwitserland",
             "title": "Alpenretraite St. Moritz",
             "text": "Een 6-sterrenresort op 2.000 meter hoogte. De uitdaging: Extreem risico op vorst tijdens de bouwfase en maximale eisen aan geluidsisolatie. Onze PP-R-vezelcomposietbuizen absorberen met vertrouwen thermische lengteveranderingen en garanderen een stille werking."
           },
-          "2": {
+          {
             "year": "Singapore",
             "title": "Verticaal boshotel",
             "text": "Een meesterwerk van ecologische architectuur van 65 verdiepingen. Het complexe irrigatiesysteem voor duizenden balkonplanten en de gehele drinkwaterinfrastructuur zijn met K-Aqua gerealiseerd. De homogene lastechniek beschermde het gebouw tegen microscopisch kleine lekkages."
           },
-          "3": {
+          {
             "year": "Maldiven",
             "title": "Eilandresort zonder emissie",
             "text": "Omdat het direct boven het rif werd gebouwd, was absolute milieucompatibiliteit vereist. K-Aqua buizen zijn 100% recyclebaar, laten geen microplastics of zware metalen vrij en zijn zonder slijtage bestand tegen de zeer corrosieve zoute zeelucht."
           },
-          "4": {
+          {
             "year": "Toekomst",
             "title": "Je volgende megaproject",
             "text": "De grenzen van de architectuur verschuiven elke dag. Wij staan ​​klaar om de basis te leggen voor uw meest gedurfde visies. Met technologie die zijn tijd tientallen jaren vooruit is."
           }
-        }
+        ]
       },
       "research": {
         "eyebrow": "Onderzoek & Ontwikkeling",
         "title": "De chemie <br/> van onverwoestbaarheid.",
         "desc": "Onze R&D-afdeling in Duitsland werkt onvermoeibaar aan het perfectioneren van de polymeermatrix. Door eigen additieven en speciale glasvezelverbindingen toe te voegen, extruderen we buizen met een extreem lage lineaire uitzetting - vergelijkbaar met metalen buizen, maar zonder de flagrante nadelen ervan.",
-        "items": {
-          "0": "Verminderde lineaire uitzetting (alfawaarde: 0,035 mm/mK)",
-          "1": "Grotere stromingsdoorsnede door dunnere wanddiktes bij hetzelfde drukniveau",
-          "2": "Volledige weerstand tegen chloorverbindingen in hotelzwembaden",
-          "3": "Toxicologisch volkomen onschadelijk, gecertificeerd voedselveilig"
-        }
+        "items": [
+          "Verminderde lineaire uitzetting (alfawaarde: 0,035 mm/mK)",
+          "Grotere stromingsdoorsnede door dunnere wanddiktes bij hetzelfde drukniveau",
+          "Volledige weerstand tegen chloorverbindingen in hotelzwembaden",
+          "Toxicologisch volkomen onschadelijk, gecertificeerd voedselveilig"
+        ]
       },
       "certs": {
         "eyebrow": "Naleving en certificeringen",
@@ -1454,47 +1463,47 @@
         "p3": "Van complexe verdeelstations via stijgleidingen tot op maat gemaakte speciale oplossingen voor industriële koelsystemen - wij produceren volgens uw ISO-tekeningen of ontwikkelen samen met uw engineeringteam de optimale digitale tweeling, die vervolgens wordt omgezet in fysieke realiteit."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Miljardenprojecten vergeven geen fouten.",
             "desc": "In de wereld van de wereldwijde bouwinfrastructuur - of het nu in de woestijnmetropolen van het Midden-Oosten is of in Europese hoogtechnologische centra - staat stilstand gelijk aan catastrofale verliezen. Onze prefabricagesystemen zijn ontwikkeld voor een realiteit waarin materiaalfalen absoluut uitgesloten moet zijn."
           },
-          "1": {
+          {
             "title": "Digitale precisie ontmoet Duitse ingenieurskunst.",
             "desc": "Elk leidingsysteem, elke verdeler en elke speciale module wordt als een digitale tweeling in onze ultramoderne BIM-omgevingen (Building Information Modeling) tot op de millimeter nauwkeurig gepland. Pas wanneer de simulatie perfecte stromingsdynamica en absolute veerkracht onder extreme omstandigheden bevestigt, begint de productie."
           },
-          "2": {
+          {
             "title": "Homogene samensmelting op moleculair niveau.",
             "desc": "In tegenstelling tot mechanische verbindingen of gelijmde systemen, gebruiken wij de meest geavanceerde thermische polyfusielastechnieken. Buis en fitting versmelten tot één enkele, onafscheidelijke eenheid. Het resultaat is een materiaalgebonden verbinding die sterker is dan de buis zelf."
           },
-          "3": {
+          {
             "title": "100% Testprotocol. Geen uitzonderingen.",
             "desc": "Voordat een geprefabriceerde K-Aqua module onze fabriek verlaat, doorloopt het een draconisch testprogramma. Van hydrostatische druktests ver boven de industriële norm, via ultrasone lasnaadinspecties, tot optische 3D-metingen. Duitse nulfouttolerantie in zijn puurste vorm."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Technische superioriteit",
         "title": "Het DNA van onze systemen.",
         "lead": "Gecertificeerd volgens DIN EN ISO 15874. Ontworpen voor de eeuwigheid. Een diepgaande blik op de technische specificaties die ons tot de norm maken.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PPR-C (Type 3) Materiaal",
             "desc": "Ons basismateriaal biedt een ongekende thermische en chemische weerstand. Het is bestand tegen extreme temperaturen en agressieve media zonder degradatie."
           },
-          "1": {
+          {
             "title": "Absolute corrosievrijheid",
             "desc": "Terwijl metalen systemen vanaf de eerste dag van installatie langzaam degraderen, blijft ons polymeersysteem volledig immuun voor corrosie, putcorrosie en korstvorming."
           },
-          "2": {
+          {
             "title": "Akoestische isolatie",
             "desc": "De moleculaire structuur van K-Aqua buizen absorbeert geluidsgolven aanzienlijk beter dan metaal, wat resulteert in fluisterstille systemen - essentieel in luxe hotels en ziekenhuizen."
           },
-          "3": {
+          {
             "title": "Laag drukverlies",
             "desc": "Een inwendige ruwheid van slechts 0,007 mm garandeert minimale wrijving, voorkomt afzettingen en vermindert de energiebehoefte van pompsystemen drastisch."
           }
-        }
+        ]
       },
       "visual": {
         "title1": "De esthetiek van",
@@ -1502,43 +1511,43 @@
         "p1": "Bekijk de lasnaad van een K-Aqua prefabricagemodule onder de microscoop. U zult geen naad vinden. U zult één enkel, homogeen stuk materiaal zien.",
         "p2": "Dit proces vereist niet alleen uiterst geavanceerde machines, maar ook het getrainde oog en de vaste hand van onze gecertificeerde kunststoflassers. Elke parameter – temperatuur, opwarmtijd, voegdruk en koeltijd – wordt nauwlettend bewaakt.",
         "p3": "Het is deze microscopische obsessie met detail die onze macroscopische garantie van meer dan 50 jaar probleemloze werking mogelijk maakt.",
-        "items": {
-          "0": "Precisiefrezen van de buiseinden",
-          "1": "Computergestuurde verwarming (260°C)",
-          "2": "Exacte voeging onder hoge druk"
-        }
+        "items": [
+          "Precisiefrezen van de buiseinden",
+          "Computergestuurde verwarming (260°C)",
+          "Exacte voeging onder hoge druk"
+        ]
       },
       "timeline": {
         "eyebrow": "Procesarchitectuur",
         "title": "Van CAD-tekening tot bouwplaats.",
         "lead": "Een transparant, rigide proces dat Just-in-Time-leveringen over de hele wereld garandeert.",
-        "events": {
-          "0": {
+        "events": [
+          {
             "title": "Fase 1: Engineering & BIM",
             "desc": "Naadloze integratie in architectonische modellen. Botsingscontrole en stromingssimulatie.",
             "date": "Week 1-2"
           },
-          "1": {
+          {
             "title": "Fase 2: CNC-snijden",
             "desc": "Tot op de millimeter nauwkeurig snijden van PPR-C-materialen met behulp van laserondersteunde CNC-systemen.",
             "date": "Week 3"
           },
-          "2": {
+          {
             "title": "Fase 3: Polyfusie",
             "desc": "Robotgestuurde en ambachtelijke meesterlassen onder streng gecontroleerde klimatologische omstandigheden in de werkplaatsomgeving.",
             "date": "Week 4-5"
           },
-          "3": {
+          {
             "title": "Fase 4: QA & Druktest",
             "desc": "Belastingstests onder extreme druk. Elke verbinding wordt vastgelegd en gecertificeerd.",
             "date": "Week 6"
           },
-          "4": {
+          {
             "title": "Fase 5: Global Logistics",
             "desc": "Veilige verpakking en wereldwijde verzending met Just-in-Time levering op de bouwplaats.",
             "date": "Week 7+"
           }
-        }
+        ]
       },
       "manifesto": {
         "eyebrow": "Het Manifest van Levensduur",
@@ -1580,78 +1589,78 @@
         "eyebrow": "Extreme omstandigheden",
         "title": "Beheersing van de fysica van hoogten.",
         "lead": "Vier fundamentele uitdagingen in de hoogbouw - en hoe de Duitse technische beheersing van K-Aqua deze overwint.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Extreme hydrostatische druk",
             "desc": "De waterkolom groeit met elke meter hoogte. In megahoeven ontstaan ​​drukken van meer dan 30 bar. K-Aqua PP-RCT (Polypropyleen Random Copolymeer met gemodificeerde Kristalliniteit en Temperatuurbestendigheid) buizen bieden tot 50% hogere druksterkte bij hoge temperaturen vergeleken met standaard PP-R. Ze fungeren als een onverwoestbare ruggengraat van de watervoorziening, zelfs in zones met maximale statische belasting."
           },
-          "1": {
+          {
             "title": "Thermische lineaire uitzetting en spanningscontrole",
             "desc": "Door heet water door een 300 meter lange leiding te pompen, ontstaan ​​enorme lineaire uitzettings- en schuifkrachten. Onze vezelcomposiettechnologie vermindert de thermische uitzetting tot 75%. Dit betekent minder bevestigingspunten, geen expansielussen en ultieme structurele integriteit, verpakt in een lichtgewicht, eenvoudig te monteren systeem."
           },
-          "2": {
+          {
             "title": "Moleculaire homogeniteit (geen lekkage)",
             "desc": "Wanneer O-ringen of persfittingen van elastomeren worden geïnstalleerd, ontstaan ​​door veroudering onvermijdelijk lekkages. K-Aqua elimineert afdichtingen volledig. Thermisch verwarmingselement moflassen smelt de buis en fitting op exact 260°C. De resulterende verbinding is mechanisch net zo sterk als de buis zelf. Geen lekkages. Gegarandeerd voor het leven."
           },
-          "3": {
+          {
             "title": "Akoestische ontkoppeling (geluidsisolatie)",
             "desc": "In luxe penthouses en high-end kantoren is stilte het ultieme goed. Stromingsgeluiden en drukschokken moeten geëlimineerd worden. De hoge materiaaldichtheid en geluidsabsorberende eigenschappen van onze PP-R-polymeren dempen constructiegeluid en stromingsgeluid enorm en overtreffen ruimschoots de strenge eisen van DIN 4109 en VDI 4100."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Specificaties",
         "title": "Architectuur voor de eeuwigheid.",
         "lead": "Precisie vervaardigd volgens de strengste Duitse normen voor 100% onderhoudsvrijheid. Wij definiëren de mondiale standaard in het segment leidingsystemen voor wolkenkrabbers.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "De PP-RCT-revolutie",
             "desc": "De volgende generatie polypropyleen. Gemodificeerde kristallijne structuur voor ongekende druk- en temperatuurbestendigheid met verminderde wanddikte. Maximaliseert de doorstroming, minimaliseert het gewicht – een cruciale factor in de statica van grote gebouwen."
           },
-          "1": {
+          {
             "title": "DIN EN ISO 15874",
             "desc": "Gecertificeerde veiligheid door onafhankelijke Duitse testinstituten zoals SKZ en DVGW. Hoogste drinkwaterkwaliteit, geen uitspoeling."
           },
-          "2": {
+          {
             "title": "Absolute corrosiebestendigheid",
             "desc": "Ongevoelig voor pH-waardeschommelingen, agressieve waterkwaliteiten, chlorering en elektrochemische corrosie (pitting)."
           },
-          "3": {
+          {
             "title": "Volledige prefabricage",
             "desc": "Tijd is het duurste goed op de bouwplaats. Wij leveren geprefabriceerde verdeelkasten, meterlijsten en stijgleidingcomponenten direct ‘just-in-time’ met millimeterprecisie. Reduceert de installatietijd tot 60% en elimineert bronnen van fouten op de bouwplaats."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "De projectcyclus",
         "desc": "Van de eerste stromingssimulatie tot tientallen jaren onderhoudsvrij gebruik. Het ingenieursteam van K-Aqua begeleidt uw megaproject van idee tot inbedrijfstelling.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 1",
             "title": "Techniek & BIM",
             "text": "Onze engineers ondersteunen het ontwerp van de stijgbuizen, de berekening van de drukzones en leveren volledige BIM-gegevens (Revit) voor collisiecontrole en TGA-planning."
           },
-          "1": {
+          {
             "year": "Fase 2",
             "title": "Precisie-extrusie",
             "text": "In onze ultramoderne faciliteiten in Duitsland worden buizen en fittingen vervaardigd onder constante ultrasone wanddiktecontrole en de strengste laboratoriummonitoring. Elke batch is 100% traceerbaar."
           },
-          "2": {
+          {
             "year": "Fase 3",
             "title": "Just-in-time logistiek",
             "text": "Via ons wereldwijde verkoopnetwerk zorgen we ervoor dat het materiaal op tijd op de bouwplaats aankomt - of het nu in de woestijn van Dubai, in Singapore of in Frankfurt am Main is."
           },
-          "3": {
+          {
             "year": "Fase 4",
             "title": "Homogene fusie",
             "text": "Lokale installateurs worden ter plaatse opgeleid door onze technici. De thermische lasverbindingen zijn binnen enkele seconden gemaakt en zijn na afkoeling direct volledig drukbestendig."
           },
-          "4": {
+          {
             "year": "decennia",
             "title": "Onderhoudsvrije werking",
             "text": "Na de laatste druktest verdwijnen onze systemen in de schacht of het beton. De komende vijftig jaar hoef je nooit meer aan haar te denken. Een onzichtbaar, perfect netwerk."
           }
-        }
+        ]
       },
       "data": {
         "eyebrow": "De gegevens",
@@ -1661,43 +1670,43 @@
         "p1": "De levensduur van een kunststofleiding onder druk en temperatuur wordt bepaald door de interne kruipdruksterkte (kruipcurven). De standaard industriespecificaties gaan uit van een levensduur van 50 jaar. Onze interne laboratoriumtests en thermische-oxidatieve verouderingssimulaties verifiëren de duurzaamheid voor een levensduur van meer dan 100 jaar. Het K-Aqua PP-RCT-materiaal vertraagt ​​aanzienlijk het begin van de thermisch-oxidatieve afbraak, zelfs in circulatieleidingen met permanent hoge temperaturen.",
         "h3_2": "Hydraulische vloeistofdynamica",
         "p2": "Metalen buizen worden in de loop der jaren ruw door corrosie en korstvorming. Het leidingwrijvingsverlies neemt toe, de doorsnede wordt kleiner en de energie die nodig is voor de voedingspompen explodeert. K-Aqua buizen hebben een absolute oppervlakteruwheid van k = 0,007 mm. Dit spiegelgladde oppervlak blijft gedurende de gehele levensduur absoluut constant. Het resultaat: minimaal drukverlies, enorme energiebesparingen bij het bedienen van de pomp en absolute hygiëne, omdat noch biofilm noch legionella zich kunnen hechten.",
-        "stats": {
-          "0": {
+        "stats": [
+          {
             "label": "Dichtheid (g/cm³)",
             "val": "0,905",
             "standard": "ISO1183"
           },
-          "1": {
+          {
             "label": "Smeltindex (g/10min)",
             "val": "0,3",
             "standard": "ISO1133"
           },
-          "2": {
+          {
             "label": "Trekelasticiteitsmodulus (MPa)",
             "val": "800 / 900 (RCT)",
             "standard": "ISO527"
           },
-          "3": {
+          {
             "label": "Thermische geleidbaarheid (W/mK)",
             "val": "0,24",
             "standard": "DIN 52612"
           },
-          "4": {
+          {
             "label": "Coëfficiënt van lineaire uitzetting (mm/mK)",
             "val": "0,15 (standaard) / 0,035 (vezel)",
             "standard": "DIN 53752"
           },
-          "5": {
+          {
             "label": "Oppervlakteruwheid k (mm)",
             "val": "0,007",
             "standard": "Proefbank"
           },
-          "6": {
+          {
             "label": "Chemische resistentie",
             "val": "Ph-waarde 1 tot 14",
             "standard": "DIN8078"
           }
-        }
+        ]
       },
       "cta": {
         "title": "Klaar om de skyline van de toekomst vorm te geven?",
@@ -1712,56 +1721,56 @@
         "desc": "Hoogwaardige polymeersystemen voor kritieke infrastructuur."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Moleculaire homogeniteit",
             "p1": "Het K-AQUA PPR-systeem is gebaseerd op geavanceerde polyfusietechnologie. Door exact gekalibreerde verwarming versmelten buis en fitting op moleculair niveau tot een onafscheidelijke, coherente eenheid.",
             "p2": "Deze naadloze synthese elimineert eventuele zwakke punten die onvermijdelijk ontstaan bij mechanische verbindingen of lijmprocessen. Het resultaat is een infrastructuur van absolute integriteit die hydraulische schokken en extreme drukpieken superieur weerstaat."
           },
-          "1": {
+          {
             "title": "Thermisch uithoudingsvermogen",
             "p1": "Thermische fluctuaties zijn de belangrijkste vijand van conventionele leidingsystemen. K-AQUA-polymeren zijn gestructureerd door een sterk verdicht kristalrooster dat structurele vervorming voorkomt, zelfs bij permanente bedrijfstemperaturen tot 95°C.",
             "p2": "De specifieke warmtecapaciteit van het materiaal vermindert ook de noodzaak voor extreme isolatie, wat de energie-efficiëntie van het algehele systeem aanzienlijk verhoogt."
           },
-          "2": {
+          {
             "title": "Hydraulische perfectie",
             "p1": "Een absolute ruwheidswaarde van slechts 0,007 mm definieert het binnenoppervlak van K-AQUA buizen. Deze microscopisch gladde topografie voorkomt elke vorm van korstvorming, minerale afzettingen of biofilmvorming.",
             "p2": "Stromingsverliezen worden tot een fysiek minimum beperkt, wat de energiebehoefte van de pompsystemen gedurende tientallen jaren drastisch verlaagt. De constante binnendiameter garandeert een onophoudelijke, onverminderde stroomsnelheid."
           },
-          "3": {
+          {
             "title": "Chemische immuniteit",
             "p1": "In tegenstelling tot metalen systemen is het K-AQUA PPR-netwerk volledig immuun voor oxidatie, putcorrosie en galvanische corrosie. De inerte eigenschappen van de copolymeer weerstaan een extreem bereik van zeer agressieve chemicaliën en variërende pH-waarden.",
             "p2": "Zelfs in sterk corrosieve industriële omgevingen of bij het transport van agressieve vloeistoffen blijft de moleculaire integriteit van de leiding onaangetast."
           }
-        },
+        ],
         "header": {
           "title": "Fysieke superioriteit.",
           "desc": "De technische principes die K-AQUA-systemen hun superieure levensduur en operationele veiligheid geven."
         }
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 01",
             "title": "Structurele analyse",
             "text": "Evaluatie van thermodynamische en vloeistofdynamische vereisten. Nauwkeurige berekening van druktrappen, thermische lineaire uitzetting en hydraulische weerstanden door onze ingenieurs."
           },
-          "1": {
+          {
             "year": "Fase 02",
             "title": "Materiaalspecificatie",
             "text": "Selectie van de optimale PPR-copolymeer. Afstemming van wanddiktes en afmetingen (20 mm tot 160 mm) op de specifieke belastingsprofielen van de industriële toepassing."
           },
-          "2": {
+          {
             "year": "Fase 03",
             "title": "Systemische synthese",
             "text": "Polyfusielassen onder strikt gecontroleerde thermische parameters. Creatie van een monolithisch netwerk zonder afdichtingen of mechanische zwakheden."
           },
-          "3": {
+          {
             "year": "Fase 04",
             "title": "Operationele uitmuntendheid",
             "text": "Decennialange, onderhoudsvrije werking. De inerte oppervlakken voorkomen korstvorming, terwijl de moleculaire dichtheid absolute lekdichtheid garandeert met maximale energie-efficiëntie."
           }
-        },
+        ],
         "title": "PROCESARCHITECTUUR",
         "desc": "Van de wiskundige berekening tot eeuwige operationele veiligheid. De levenscyclus van een K-AQUA-installatie verloopt volgens strikte technische protocollen."
       },
@@ -1782,28 +1791,28 @@
           "title": "Toepassingsvectoren.",
           "desc": "Schaalbare systeemoplossingen voor specifieke industriële en bouwtechnische sectoren."
         },
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Drinkwaterhygiëne & Sanitair",
             "desc": "Absolute voedselveiligheid en toxicologische onschadelijkheid. Preventie van legionellavorming door opaak, lichtdicht materiaalontwerp."
           },
-          "1": {
+          {
             "title": "HVAC & Klimaattechniek",
             "desc": "Zeer efficiënte thermische isolatie dankzij lage thermische geleidbaarheid. Minimalisatie van condensaat in koelwaterleidingen."
           },
-          "2": {
+          {
             "title": "Persluchtnetwerken",
             "desc": "Lekvrije overdracht bij extreme werkdrukken. Geen besmetting van de perslucht door roest of afbladderende deeltjes."
           },
-          "3": {
+          {
             "title": "Scheepsbouw & Offshore",
             "desc": "Bestand tegen zoute omgevingen en zware trillingen. Aanzienlijke gewichtsreductie in vergelijking met staalinstallaties."
           },
-          "4": {
+          {
             "title": "Industrieel vloeistoftransport",
             "desc": "Compromisloze prestaties bij het transport van agressieve chemicaliën, schurende slurries of zeer zuivere procesvloeistoffen. Het K-AQUA systeem garandeert een ononderbroken, veilige productie."
           }
-        }
+        ]
       },
       "stats": {
         "0": {
@@ -1835,53 +1844,53 @@
         "desc": "K-Aqua Datacenters – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten."
       },
       "scroll": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "De thermische uitdaging van AI en HPC",
             "desc": "Moderne High-Performance Computing (HPC) en Artificial Intelligence (AI) racks produceren enorme restwarmte. Luchtkoeling alleen bereikt haar fysieke grenzen. De toekomst behoort toe aan Liquid Cooling - en dus water als kritisch warmteoverdrachtsmedium direct op de chip."
           },
-          "1": {
+          {
             "title": "Corrosie is de vijand van beschikbaarheid",
             "desc": "Metalen leidingsystemen zijn onderhevig aan putcorrosie, roest en chemische afbraak bij continu gebruik. Een microscheur in een datacenter kan miljoenen aan schade veroorzaken door serveruitval. K-Aqua elimineert dit risico met 100% corrosievrij Polypropyleen Random Copolymeer (PP-R)."
           },
-          "2": {
+          {
             "title": "Ultrasoon gelaste moleculaire verbindingen",
             "desc": "Waar conventionele buizen vertrouwen op foutgevoelige afdichtingen of schroefverbindingen, fuseren K-Aqua-systemen op moleculair niveau. Het resultaat: Een perfect homogeen, absoluut lekvrij leidingnetwerk. Nultolerantie voor lekken."
           },
-          "3": {
+          {
             "title": "Duurzaamheid & PUE-optimalisatie",
             "desc": "Een lage PUE-waarde (Power Usage Effectiveness) is de Heilige Graal voor datacenterbeheerders. K-Aqua buizen hebben uitstekende thermodynamische eigenschappen. Lagere leidingwrijvingsverliezen en optimale thermische isolatie minimaliseren massaal energieverliezen tijdens de koelwatercirculatie."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 1",
             "title": "Stromingssimulatie & Ontwerp",
             "text": "Onze ingenieurs analyseren de koelvereisten van het datacenter. We berekenen volumestromen, elimineren knelpunten en dimensioneren het leidingnetwerk voor maximale hydrodynamische efficiëntie."
           },
-          "1": {
+          {
             "year": "Fase 2",
             "title": "Precisie-prefabricage",
             "text": "In de hoofdfabriek in Duitsland worden complexe verdelerspools op maat geprefabriceerd. Tot op de centimeter nauwkeurig, volledig geautomatiseerd en kwaliteitsgegarandeerd onder laboratoriumomstandigheden."
           },
-          "2": {
+          {
             "year": "Fase 3",
             "title": "Just-In-Time Logistiek",
             "text": "Megaprojecten vergeven geen leveringsvertragingen. Wij coördineren de wereldwijde logistiek direct naar de bouwplaats, gesynchroniseerd met het strikte tempo van de hoofdaannemers."
           },
-          "3": {
+          {
             "year": "Fase 4",
             "title": "Homogene lasverbindingen",
             "text": "Lokale installatieteams worden gecertificeerd door K-Aqua Master-lassers. De moleculaire las op de bouwplaats garandeert een 100% lekvrije, homogene leidingstructuur zonder zwakke punten."
           },
-          "4": {
+          {
             "year": "Fase 5",
             "title": "Druktesten & Certificering",
             "text": "Voor de oplevering vindt een meedogenloze hydraulische druk- en belastingstest plaats. Pas als het systeem deze tests doorstaat, geven we goedkeuring en nemen we de volledige systeemgarantie op ons."
           }
-        },
+        ],
         "title": "Het Engineeringproces",
         "desc": "Van de hydrodynamische schets tot de definitieve oplevering: Hoe we wereldwijde hyperscale-infrastructuren realiseren zonder compromissen en in recordtijd."
       },
@@ -1904,24 +1913,24 @@
         "lead": "Elk atomair detail van ons systeem is geoptimaliseerd voor absolute betrouwbaarheid en duurzaamheid."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Chemische neutraliteit & Zuiverheid",
             "desc": "Gesloten koelcircuits hebben conditioneringsmiddelen nodig. K-Aqua gedraagt zich absoluut inert tegenover agressieve additieven en voorkomt alg- en biofilmvorming volledig. Geen chemische afbraak, geen deeltjes in het koelwater."
           },
-          "1": {
+          {
             "title": "Drukbestendigheid in hoogbouw",
             "desc": "Ontworpen voor constante maximale belastingen onder extreme PN10 / PN20 drukomstandigheden in verticale hoogbouwdatacenters."
           },
-          "2": {
+          {
             "title": "Duitse prefabricage",
             "desc": "We prefabriceren complexe verdeelblokken in onze hoofdfabriek in Duitsland. Plug-and-Play levering voor drastisch verkorte bouwtijden."
           },
-          "3": {
+          {
             "title": "Aardbevingsbestendig (Seismic Resistance)",
             "desc": "In tegenstelling tot stijve metalen systemen, beschikt ons PP-R systeem over een gedefinieerde intrinsieke elasticiteit. Schokgolven en zware trillingen van noodaggregaten of sterke seismische activiteiten worden geabsorbeerd in plaats van destructieve breuken te veroorzaken."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Klaar voor compromisloze veiligheid?",
@@ -2030,107 +2039,107 @@
       "title2": "Ontketend.",
       "p1": "PP-R Type 3 is niet zomaar een kunststof. Het is een zeer complex, thermoplastisch materiaal dat we op moleculair niveau beheersen.",
       "p2": "Door ethyleenmonomeren strategisch in de propyleenketen te plaatsen, bereiken we een ongeëvenaarde slagsterkte - zelfs bij temperaturen onder het vriespunt. Onze korrels zijn uitsluitend afkomstig van de mondiale elite van grondstoffenproducenten. We analyseren elke batch met behulp van Differential Scanning Calorimetry (DSC) en Melt Flow Rate (MFR) tests. Alles wat zelfs maar één promille onder onze specificaties blijft, wordt genadeloos geëlimineerd.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Extreem molecuulgewicht",
           "desc": "Garandeert maximale kruipsterkte en absolute weerstand tegen spanningscorrosiescheuren onder extreme druk."
         },
-        "1": {
+        {
           "title": "Kristallijne optimalisatie",
           "desc": "De perfecte thermodynamische balans. Maximale flexibiliteit voor radicale legomstandigheden met gelijktijdige axiale stijfheid."
         }
-      }
+      ]
     },
     "timeline": {
       "title": "De evolutie van perfectie",
       "desc": "Een onstuitbare stijging van de mondiale marktmacht. Elk decennium is een mijlpaal van technologische superioriteit.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "1990",
           "title": "De oorsprong van het gebrek aan tolerantie",
           "text": "Waar anderen een compromis sloten, trokken wij een rode lijn. De oprichting van K-Aqua was gebaseerd op één onwrikbaar principe: onberispelijke leidingsystemen. Onze eerste extruders werkten met een precisie die de markt schokte."
         },
-        "1": {
+        {
           "year": "2005",
           "title": "De polypropyleenrevolutie",
           "text": "Wij weigerden de status quo te aanvaarden. Met de introductie van ons gepatenteerde PP-R-mengsel hebben we thermische stabiliteit opnieuw gedefinieerd. Terwijl concurrerende producten onder druk bezweken, bleven onze systemen stoïcijns intact. Een triomf van de polymeerchemie."
         },
-        "2": {
+        {
           "year": "2015",
           "title": "De architectonische symbiose",
           "text": "Van de skylines in Dubai tot de industriële faciliteiten in het Ruhrgebied – K-Aqua is synoniem geworden voor onverwoestbare infrastructuur. Onze PP-RCT-vezelcomposietbuizen zorgden voor een revolutie in de bouwconstructie. Minder expansie, meer flow, absolute dominantie."
         },
-        "3": {
+        {
           "year": "2026",
           "title": "De moleculaire dictatuur",
           "text": "Tegenwoordig beheersen we elk aspect van de productie. Vanaf de selectie van het ruwe granulaat tot de eindcontrole zijn onze systemen onderworpen aan een dictatoriaal kwaliteitsregime. Het resultaat? Een gegarandeerde levensduur die generaties lang meegaat."
         }
-      }
+      ]
     },
     "sticky": {
       "eyebrow": "FYSICA OVERWONNEN",
       "title": "De vier pijlers van macht.",
       "lead": "Technologie die grenst aan magie. We hebben niet alleen de beperkingen van traditionele leidingsystemen overwonnen, we hebben ze ook verpulverd.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Absolutisme in kwaliteit",
           "desc": "Elke millimeter van onze PP-R- en PP-RCT-systemen ondergaat de meest brute stresstests. Een levensduur van 50 jaar is geen belofte, maar een wiskundige zekerheid. Wij tolereren nul afwijkingen. Wat onze hallen verlaat is perfectie in polymeervorm."
         },
-        "1": {
+        {
           "title": "Thermische onkwetsbaarheid",
           "desc": "Onze vezelcomposietbuizen (K-Aqua-vezel) neutraliseren de thermische lineaire uitzetting vrijwel volledig. Of het nu ijskoud is -20°C of kokend +95°C, onze systemen blijven absoluut maatvast. Een technisch meesterwerk dat de wetten van de natuurkunde lijkt te tarten."
         },
-        "2": {
+        {
           "title": "Chemische resistentie",
           "desc": "Corrosie komt niet voor in ons vocabulaire. Onze polymeren zijn immuun voor de meest agressieve media, korstvorming en biologische afbraak. Terwijl metalen in de grond roesten en vergaan, blijft K-Aqua onaangetast: stoïcijns, monolithisch, onverwoestbaar."
         },
-        "3": {
+        {
           "title": "Moleculaire fusie",
           "desc": "Dankzij ons homogene lasproces smelten buis en fitting op moleculair niveau samen tot een onafscheidelijk geheel. Geen afdichtingen die vermoeidheid veroorzaken. Geen mechanische zwakke punten. Een monolithische structuur die eeuwig meegaat."
         }
-      }
+      ]
     },
     "bento": {
       "eyebrow": "INDUSTRIËLE DOMINANTIE",
       "title": "Infrastructuur op steroïden.",
       "lead": "Wij maken niet alleen pijpen. Wij creëren de slagaders van de moderne beschaving. K-Aqua is de ruggengraat van industriële en architectonische megaprojecten wereldwijd.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Brutale extrusie",
           "desc": "Hoogwaardige systemen die onder brute druk werken. Het resultaat is een onovertroffen consistentie van de wanddikte tot op het micrometerbereik."
         },
-        "1": {
+        {
           "title": "Gecertificeerde superioriteit",
           "desc": "ISO 9001, 14001, 50001. We overschrijden niet alleen de normen, we dicteren ze ook. Internationale accreditatie als absolute standaard."
         },
-        "2": {
+        {
           "title": "Hygiëne dicteert",
           "desc": "Voedselveilig, toxicologisch onschadelijk en absoluut kiembestendig. Drinkwater blijft puur en onaangeroerd in K-Aqua-systemen. Geen uitzondering."
         },
-        "3": {
+        {
           "title": "Efficiëntie van hulpbronnen",
           "desc": "Volledig recyclebaar. Minimale CO2-voetafdruk tijdens productie. Want echte technologische macht betekent altijd verantwoordelijkheid voor de toekomst."
         }
-      }
+      ]
     },
     "values": {
       "eyebrow": "Bedrijfsbeleid",
       "title": "De basis van ons handelen.",
       "desc": "Technologie alleen is niet genoeg. Ware grootsheid manifesteert zich in de manier waarop een bedrijf omgaat met zijn omgeving, zijn medewerkers en zijn partners.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Obsessie voor klanten",
           "desc": "We bedienen niet alleen markten, we domineren ze door radicale klantgerichtheid. Uw eisen zijn onze opdracht. Onze oplossingen zijn nauwkeurig, schaalbaar en absoluut compromisloos in hun uitvoering."
         },
-        "1": {
+        {
           "title": "Strategische allianties",
           "desc": "Wij zoeken niet naar leveranciers, wij vormen strategische allianties met de beste grondstoffenproducenten ter wereld. Gemeenschappelijk onderzoek, gemeenschappelijke kwaliteitsnormen, gemeenschappelijke dominantie."
         },
-        "2": {
+        {
           "title": "Ecologische noodzaak",
           "desc": "Bij K-Aqua is duurzaamheid geen marketingslogan, maar een fysieke noodzaak. Een lange levensduur is de ultieme bescherming van het milieu. Onze systemen minimaliseren de energievoetafdruk van productie tot recycling."
         }
-      }
+      ]
     }
   },
   "news": {
@@ -2681,106 +2690,106 @@
         "eyebrow": "De pijlers van veiligheid",
         "title": "Het DNA van een perfect leidingsysteem.",
         "lead": "Wanneer internationale algemene aannemers miljardenprojecten plannen, vertrouwen ze niet op marketingbeloften. Ze eisen harde, fysiek meetbare feiten.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Extreme drukbestendigheid",
             "desc": "Gecertificeerd voor continue belastingen tot PN20/PN25. Onze barstdruktesten bewijzen reserves die veel verder gaan dan de normen. Gebarsten pijpen behoren tot het verleden."
           },
-          "1": {
+          {
             "title": "Thermische soevereiniteit",
             "desc": "Permanent bestendig van -20°C tot +95°C. Geen materiaalmoeheid, geen structurele verzwakking – zelfs bij extreme thermische schokken."
           },
-          "2": {
+          {
             "title": "Absolute hygiëne",
             "desc": "Geen corrosie. Geen korstvorming. Voedselveilig, toxicologisch onschadelijk en resistent tegen legionellagroei."
           },
-          "3": {
+          {
             "title": "Brandbeveiliging (B1/B2)",
             "desc": "Geclassificeerd volgens DIN 4102. Vlamvertragend en minimale rookontwikkeling voor maximale veiligheid in kritische gebouwinfrastructuur."
           },
-          "4": {
+          {
             "title": "Levenscyclusgarantie",
             "desc": "Een gedefinieerde levensduur van 50 jaar volgens de strengste ISO-norm. In de architectonische realiteit zijn ze echter gebouwd om hele generaties mee te gaan."
           }
-        }
+        ]
       },
       "certifications": {
         "eyebrow": "De instanties",
         "title": "De zwaarste examinatoren ter wereld.",
         "lead": "Alleen degenen die de meest kritische externe audits doorstaan, mogen het label 'Duitse techniek' dragen. Dit zijn de instellingen die onze kwaliteit valideren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DVGW – De hoogste autoriteit",
             "p1": "De Duitse Gas- en Watervereniging (DVGW) stelt 's werelds strengste normen op het gebied van drinkwaterhygiëne en materiaalbestendigheid.",
             "p2": "Onze DVGW-certificering garandeert dat K-Aqua leidingsystemen onder extreme omstandigheden geen giftige stoffen afgeven en geen microbiologische groei bevorderen. Elke batch ondergaat langdurige hydrostatische tests (kruip-interne druktest) bij 95°C."
           },
-          "1": {
+          {
             "title": "SKZ – Onafhankelijke monitoring",
             "p1": "Het Zuid-Duitse Plastics Center (SKZ) treedt op als onze onvergankelijke auditor. Externe monitoring door derden garandeert wat onze interne laboratoria al specificeren.",
             "p2": "De kerfslagsterkte, treksterkte en thermisch gedrag worden getest met behulp van DSC-analyse (Dynamic Scanning Calorimetry). Het SKZ-keurmerk is een bewijs van mechanische perfectie, veel verder dan DIN EN ISO 15874."
           },
-          "2": {
+          {
             "title": "KTW-BWGL – Absolute zuiverheid",
             "p1": "De beoordelingsbasis voor kunststoffen en andere organische materialen die in contact komen met drinkwater (Federaal Milieuagentschap).",
             "p2": "Wij gebruiken uitsluitend hoogzuiver polypropyleen (PP-R / PP-RCT) zonder schadelijke toevoegingen of zware metalen. Het resultaat? Bronwaterkwaliteit rechtstreeks uit de kraan. Geen reuk- of smaakstoornis."
           },
-          "3": {
+          {
             "title": "ISO 9001 & 14001 – Systematische uitmuntendheid",
             "p1": "Kwaliteit is geen toeval, maar een absoluut reproduceerbaar proces. Onze ISO 9001-certificering bewijst een naadloos kwaliteitsmanagement vanaf de ontvangst van grondstoffen tot de wereldwijde levering van goederen.",
             "p2": "Met ISO 14001 bewijzen we dat industriële uitmuntendheid en ecologische verantwoordelijkheid hand in hand gaan. Geminimaliseerd energieverbruik, efficiënt gebruik van hulpbronnen en de 100% recycleerbaarheid van onze PP-producten."
           }
-        }
+        ]
       },
       "lab": {
         "eyebrow": "Binnen in het laboratorium",
         "title1": "De anatomie",
         "title2": "van perfectie.",
         "desc": "Voordat een K-Aqua-systeem de fabriek verlaat, moet het door ons eigen testcentrum gaan. Een sterk verbeterde faciliteit waar we materialen blootstellen aan omstandigheden die ze in werkelijkheid nooit zullen ervaren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "MFR (smeltstroomsnelheid)",
             "desc": "Controleer de smeltstroomsnelheid om een ​​nauwkeurige viscositeit te garanderen tijdens extrusie en daaropvolgend lassen op locatie."
           },
-          "1": {
+          {
             "title": "OIT (oxidatie-inductietijd)",
             "desc": "Thermische analyse om de verouderingsweerstand te bepalen. Het bewijs dat onze stabilisatoren plastic tientallen jaren lang beschermen tegen afbraak."
           },
-          "2": {
+          {
             "title": "Kruip interne druktest",
             "desc": "Leidingmonsters worden duizenden uren lang in speciale waterbaden bij 95°C onder extreme druk bewaard. Zonder barst. Zonder breuk."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Tientallen jaren van innovatie.",
         "desc": "Onze kwaliteitsnormen zijn niet van de ene op de andere dag tot stand gekomen. Ze zijn het resultaat van decennialange engineering en voortdurende procesoptimalisatie.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "1990",
             "title": "De geboorte van de standaard",
             "text": "Als pioniers op het gebied van de extrusie van kunststofbuizen hebben we in een vroeg stadium interne testprocedures geïmplementeerd die veel verder gingen dan de toenmalige industriële eisen. De basis voor een compromisloze kwaliteitscultuur."
           },
-          "1": {
+          {
             "year": "1995",
             "title": "ISO 9001-integratie",
             "text": "De volledige certificering van onze kwaliteitsmanagementsystemen volgens ISO 9001. Elke beweging, elke grondstofbatch, elke machine-instelling wordt nu systematisch gedocumenteerd en volledig traceerbaar gemaakt."
           },
-          "2": {
+          {
             "year": "2005",
             "title": "DVGW & SKZ certificering",
             "text": "Opname in de exclusieve kring van DVGW- en SKZ-gecertificeerde fabrikanten. Het officiële zegel voor absolute hygiëne, extreme drukbestendigheid en onovertroffen duurzaamheid onder de zwaarste omstandigheden bij drinkwatergebruik."
           },
-          "3": {
+          {
             "year": "2015",
             "title": "Mondiale standaarden (WRAS, KTW)",
             "text": "Uitbreiding van certificeringen voor internationale markten. Voldoet aan de strenge KTW-richtlijnen (UBA) en de Britse WRAS-eisen. K-Aqua wordt de mondiale standaard voor internationale megaprojecten."
           },
-          "4": {
+          {
             "year": "2024",
             "title": "Kwaliteitsanalyse van de volgende generatie",
             "text": "Introductie van sterk geautomatiseerde OIT (Oxidation Induction Time) en MFR (Melt Flow Rate) tests in ons eigen precisielaboratorium. AI-ondersteunde foutanalyse tijdens extrusie voor een 100% nul-defectpercentage."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Kwaliteit waarop u blindelings kunt vertrouwen.",
@@ -2811,78 +2820,78 @@
         "eyebrow": "Kinematica & Materiaalwetenschap",
         "title": "Het K-Aqua Proces.",
         "lead": "Van het moleculaire granulaatniveau tot de finale druktest. Begrijp de fysieke principes die onze systemen onverwoestbaar maken.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Extrusiedynamica onder hoge druk",
             "desc": "De thermoplastische vervorming in onze fabrieken is onderhevig aan nauwkeurige temperatuurcontrole tot op 0,1 °C nauwkeurig. Deze kristallijne perfectie garandeert een onberispelijke, homogene moleculaire structuur die microscopische scheurvorming (stress cracking), zelfs onder extreme druk- en temperatuurschommelingen, absoluut uitsluit. Zodra het materiaal onze extruder verlaat, is het niet langer een eenvoudig plastic - het is een industriële monoliet."
           },
-          "1": {
+          {
             "title": "Hydrostatische belastingstesten",
             "desc": "In onze testlaboratoria wordt elke buis blootgesteld aan een hydrostatische simulatie die reële omstandigheden vele malen overtreft. We passen inwendige drukken toe die ver buiten enige normatieve eis liggen (tot 100 bar, afhankelijk van de SDR-klasse). Dit garandeert de integriteit van de lasnaden en de moleculaire elasticiteit van het PP-R-materiaal over een voorspelde levensduur van meer dan 50 jaar in kritieke infrastructuren."
           },
-          "2": {
+          {
             "title": "Polyfusie-lastechniek",
             "desc": "Verbindingen zijn het zwakke punt in conventionele systemen. K-Aqua elimineert dit risico door polyfusie. Op moleculair niveau fuseren buis en fitting tot een onlosmakelijke, continue eenheid. Er zijn geen draden die kunnen corroderen, geen afdichtingen die kunnen falen. Het resultaat is een leidingsysteem dat zich gedraagt alsof het uit één stuk is gegoten."
           },
-          "3": {
+          {
             "title": "Cavitatieweerstand & Vloeistofmechanica",
             "desc": "Door een ultragladde binnenwand (ruwheid < 0,007 mm) minimaliseren K-Aqua buizen de stromingsweerstand tot vrijwel nul. Dit voorkomt de vorming van biofilms en elimineert micro-cavitatie effecten bij stromingen met hoge snelheid. Drukverliezen in het systeem worden drastisch verminderd, wat de energie-efficiëntie van de aangesloten pompsystemen op industriële schaal maximaliseert."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Nomenclatuur",
         "title": "Technische parameters.",
         "lead": "Het belangrijkste vocabulaire van industriële leidingtechniek, gedestilleerd tot zijn essentie.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PP-R (Polypropyleen Random Copolymeer)",
             "desc": "De moleculaire basis. Een hoogkristallijn thermoplastisch polymeer dat een uitzonderlijke weerstand biedt tegen hoge temperaturen en drukken. Het is het DNA van onze levensduur."
           },
-          "1": {
+          {
             "title": "Lineare thermische uitzetting",
             "desc": "De lengteverandering van het materiaal bij temperatuurwisselingen. Onze met vezels versterkte (Faser) buizen reduceren deze waarde tot een absoluut minimum (α = 0,035 mm/mK), wat de structurele stabiliteit in schachten enorm verhoogt."
           },
-          "2": {
+          {
             "title": "Kruipsterkte",
             "desc": "Het vermogen van het systeem om tientallen jaren een constante inwendige druk te weerstaan bij specifieke temperaturen, zonder te vervormen of te barsten. K-Aqua buizen zijn gekalibreerd voor 50+ jaar."
           },
-          "3": {
+          {
             "title": "Drukverliescoëfficiënt",
             "desc": "Een wiskundige waarde die het energieverlies van de stroming door wrijving op de binnenwand van de buis beschrijft. Door nanogladde oppervlakken wordt deze waarde in K-Aqua-systemen gemarginaliseerd."
           },
-          "4": {
+          {
             "title": "SDR (Standard Dimension Ratio)",
             "desc": "De verhouding tussen de buitendiameter (d) en de wanddikte (s). Een SDR 6-buis is bestand tegen aanzienlijk hogere drukken dan een SDR 11-buis. De juiste keuze is cruciaal voor het systeemontwerp.",
             "label": "50+ JRS"
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Regelgevende striktheid.",
         "desc": "Normen zijn voor ons geen voorschriften, maar het startpunt van onze ingenieurskunst. Een chronologie van certificeringen en normen die onze systemen niet alleen ontmoeten, maar domineren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "DIN 8077/8078",
             "title": "Normatieve basis",
             "text": "De basis van de Duitse leidingnormen. We beschouwen deze normen niet als doel, maar als een absoluut minimum. Onze interne toleranties zijn tot 30% strenger dan wat door de DIN wordt vereist."
           },
-          "1": {
+          {
             "year": "ISO 15874",
             "title": "Wereldwijde certificering",
             "text": "Het internationale keurmerk voor kunststof leidingsystemen voor warm- en koudwaterinstallaties. Een bewijs van de compromisloze wereldwijde toepasbaarheid van onze systemen."
           },
-          "2": {
+          {
             "year": "SDR 6 - SDR 11",
             "title": "Standard Dimension Ratios",
             "text": "Een precieze verhouding tussen buitendiameter en wanddikte. Onze ingenieurs kalibreren elke batch om maximale drukweerstand te garanderen bij een optimale stroomsnelheid."
           },
-          "3": {
+          {
             "year": "SKZ & DVGW",
             "title": "Hygiëne & Materiaaltesten",
             "text": "Certificaten die absolute voedsel- en drinkwaterveiligheid aantonen. Geen zware metalen, geen uitloging. Pure, onvervuilde vloeistofdynamica voor de hoogste hygiënische eisen."
           }
-        }
+        ]
       },
       "conclusion": {
         "title": "Corrosiebestendigheid in extreme gevallen.",
@@ -4982,74 +4991,74 @@
       "timeline": {
         "title": "Evolutie van precisie.",
         "desc": "Hoe we al 30 jaar de normen voor leidingsystemen herdefiniëren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "1995",
             "title": "De eerste technische documentatie",
             "text": "Als pionier in de extrusie van kunststofbuizen hebben we de eerste normen voor PP-R-leidingsystemen in Duitsland gedefinieerd. Onze specificaties werden de blauwdruk voor de industrie."
           },
-          "1": {
+          {
             "year": "2008",
             "title": "ISO-certificering & Wereldwijde normen",
             "text": "Met de internationale expansie werden onze technische databladen aangepast aan wereldwijde normen, altijd met de premisse: de Duitse standaard is de absolute baseline, zonder uitzondering."
           },
-          "2": {
+          {
             "year": "2015",
             "title": "BIM & Digitale Tweelingen",
             "text": "Introductie van uiterst nauwkeurige Building Information Modeling (BIM) data. Miljardenprojecten worden nu virtueel gepland met K-Aqua-systemen, voordat in de werkelijkheid de eerste steen wordt gelegd."
           },
-          "3": {
+          {
             "year": "2026",
             "title": "Realtime data & Predictive Analytics",
             "text": "Onze huidige catalogi en technische bladen zijn dynamische datamodellen die realtime prestatieparameters uit wereldwijde installaties integreren. German Engineering in het digitale tijdperk."
           }
-        }
+        ]
       },
       "sticky": {
         "eyebrow": "Diepe inzichten",
         "title": "Het DNA van German Engineering.",
         "lead": "Een datablad van K-Aqua is meer dan kolommen met getallen. Het is de belofte dat elk geïnstalleerd onderdeel precies presteert zoals ingenieurs hebben berekend.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "De anatomie van onze specificaties",
             "desc": "Een K-Aqua datablad is geen stuk papier. Het is het gedestilleerde resultaat van duizenden uren aan zware belastingstesten. We documenteren toleranties in het micrometerbereik, omdat bij megaprojecten een afwijking van een millimeter catastrofale gevolgen kan hebben."
           },
-          "1": {
+          {
             "title": "Materiaalwetenschap: PP-RCT in getallen",
             "desc": "Onze downloads bieden diepgaande moleculaire analyses. U leert precies waarom de kristallijne structuur van ons PP-RCT-materiaal bij 90°C continue belasting gedurende meer dan 50 jaar stabiel blijft. Data die constructeurs en ingenieurs absolute zekerheid geven."
           },
-          "2": {
+          {
             "title": "Hydraulische precisie",
             "desc": "Stroomsnelheden, drukverliestabellen, cavitatiegrenzen. Onze documenten bieden vloeistofmechanica op academisch niveau, voorbereid voor onmiddellijke praktische toepassing. Gepland voor hoogbouw waarin water tegen extreme zwaartekracht getransporteerd moet worden."
           },
-          "3": {
+          {
             "title": "Gecertificeerd. Wereldwijd.",
             "desc": "SKZ, DVGW, WRAS, KIWA – onze downloadsectie is een kluis vol met wereldwijde keurmerken. Elk certificaat is het schriftelijke bewijs van onze compromisloze nulfout-beleid."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "De database",
         "title": "Specificaties zonder compromissen.",
         "lead": "Wanneer internationale hoofdaannemers miljardenprojecten plannen, vertrouwen ze niet op beloften, maar op harde feiten. Hier vindt u de technische parameters die ons marktleiderschap definiëren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Technische Databladen",
             "desc": "Micrometrisch nauwkeurige afmetingen, drukverliestabellen en thermische uitzettingscoëfficiënten. De bijbel voor elke ontwerper."
           },
-          "1": {
+          {
             "title": "Certificaten & Normen",
             "desc": "Het schriftelijke bewijs van onze nulfout-tolerantie. Gedocumenteerde veiligheid volgens ISO, DVGW, SKZ en meer."
           },
-          "2": {
+          {
             "title": "BIM & CAD Modellen",
             "desc": "Uiterst nauwkeurige digitale tweelingen van onze leidingsystemen voor naadloze integratie in Revit en ArchiCAD."
           },
-          "3": {
+          {
             "title": "Productcatalogi 2026",
             "desc": "Het volledige K-Aqua portfolio op meer dan 500 pagina's. Van 20mm buis tot 500mm industriële afsluiter, volledig gedocumenteerd."
           }
-        }
+        ]
       },
       "methodology": {
         "subtitle": "De K-Aqua Methodologie",
@@ -5069,32 +5078,32 @@
         "eyebrow": "Directe toegang",
         "title": "Essentiële Downloads.",
         "lead": "Download de belangrijkste specificaties direct.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Hoofdcatalogus 2026",
             "type": "PDF, 42 MB"
           },
-          "1": {
+          {
             "title": "Technische specificaties PP-RCT",
             "type": "PDF, 12 MB"
           },
-          "2": {
+          {
             "title": "Drukverliestabellen",
             "type": "XLSX, 2 MB"
           },
-          "3": {
+          {
             "title": "BIM/Revit Bibliotheek",
             "type": "ZIP, 850 MB"
           },
-          "4": {
+          {
             "title": "SKZ Certificaat (GER)",
             "type": "PDF, 1 MB"
           },
-          "5": {
+          {
             "title": "DVGW Drinkwatergoedkeuring",
             "type": "PDF, 1.5 MB"
           }
-        }
+        ]
       }
     },
     "bim": {
@@ -5129,52 +5138,52 @@
         "desc": "K-Aqua Bestekteksten – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten."
       },
       "deepdive": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Absolute rechtszekerheid (VOB/C)",
             "desc": "Bij de planning van internationale megaprojecten is ambiguïteit de vijand. Een enkel ontbrekend woord in het bestek kan het verschil betekenen tussen een decennialang onderhoudsvrij systeem en een rampzalige miljonenschade. Onze bestekteksten zijn tot op de millimeter nauwkeurig gestandaardiseerd volgens VOB/C en DIN 18381. Elke prestatiebeschrijving is zodanig gekalibreerd dat technische mazen, interpretatieruimte en juridische grijze zones volledig worden geëlimineerd. Zo garanderen wij dat de kwaliteit die u op papier specificeert, exact de kwaliteit is die op de bouwplaats wordt geïnstalleerd."
           },
-          "1": {
+          {
             "title": "100% GAEB- & ÖNORM-compatibiliteit",
             "desc": "Een modern planningsproces vereist een naadloze gegevensstroom. Onze datasets zijn niet zomaar tekst - het zijn sterk gestructureerde, machinaal leesbare artefacten, ontworpen voor directe integratie in elke professionele calculatiesoftware (Aanbesteding, Gunning, Afrekening). Wij leveren native formaten (GAEB 90, GAEB 2000, GAEB DA XML) evenals Datanorm en ÖNORM. Geen conversieverliezen. Geen handmatige correcties. Een digitale workflow die de efficiëntie in het planningsproces met maximaal 40% verhoogt en tegelijkertijd overdrachtsfouten wiskundig uitsluit."
           },
-          "2": {
+          {
             "title": "De materiaalspecificatie: PPR-C (Type 3)",
             "desc": "Waterinfrastructuur is het zenuwstelsel van een gebouw. Onze besteksposten definiëren duidelijk en ondubbelzinnig de superieure moleculaire structuur van ons Polypropyleen Random Copolymeer (PPR-C Type 3). Ze leggen cruciale parameters vast zoals kruipsterkte, kruipgedrag en thermische lengte-uitzetting. Alleen door deze compromisloze diepgang in detail beschermt u uw project effectief tegen inferieure derivaten en gevaarlijke plagiaten, die onvermijdelijk zouden bezwijken bij piekdrukken van 20 bar of bij temperatuurschommelingen."
           },
-          "3": {
+          {
             "title": "Thermodynamische en akoestische precisie",
             "desc": "Premium-architectuur vereist premium-fysica. Een professionele aanbesteding omvat niet alleen het kale leidingsysteem, maar het gehele fysieke ecosysteem. Onze teksten bevatten gedetailleerde specificaties voor warmteverliescoëfficiënten volgens de Gebouwenenergiewet (GEG) / EnEV en voor strenge geluidsisolatiewaarden (DIN 4109). Dit zorgt ervoor dat uw installatie niet alleen mechanisch extreem belastbaar is, maar ook thermodynamisch zeer efficiënt en akoestisch in het absolute topsegment (fluisterstandaard) opereert."
           },
-          "4": {
+          {
             "title": "Duurzaamheidsmetrieken (ESG & LEED)",
             "desc": "De toekomst van de bouw is circulair en CO2-geoptimaliseerd. Aanbestedingen moeten tegenwoordig groene normen aantonen. K-Aqua teksten integreren volledige EPD's (Environmental Product Declarations) en levenscyclusanalyses. We definiëren de exacte ecologische voetafdruk, recycleerbaarheid en energie-efficiëntie in extrusie. Perfect geschikt voor gebouwen die gecertificeerd moeten worden volgens DGNB, LEED, BREEAM of WELL. Specificeer groene prestaties, niet alleen groene beloftes."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Fase 1: Parametrering",
             "title": "De definitie van perfectie.",
             "text": "Het proces begint bij de TGA-planning. Exacte definitie van nominale diameters, drukklassen (PN) en SDR-klassen voor warm en koud water. We laten geen grijze zones. Elke fitting, elke klem, elke mof wordt wiskundig exact geregistreerd."
           },
-          "1": {
+          {
             "year": "Fase 2: Gunning",
             "title": "Inzending zonder compromissen.",
             "text": "Door de granulaire, kristalheldere structuur van onze teksten worden offertes echt vergelijkbaar. Dumpingprijzen als gevolg van inferieure materialen of verborgen weglatingen vallen direct op. Het kaf wordt van het koren gescheiden."
           },
-          "2": {
+          {
             "year": "Fase 3: Uitvoering",
             "title": "Een blauwdruk voor de bouwplaats.",
             "text": "De bestekteksten dienen als bindend, juridisch wetboek voor de bouwdirectie en de installateurs. Elke lasnaad, elke bevestiging moet voldoen aan de gespecificeerde DVS-richtlijnen. Afwijkingen worden onmogelijk gemaakt."
           },
-          "3": {
+          {
             "year": "Fase 4: Levenscyclus",
             "title": "50+ jaar absolute onderhoudsvrijheid.",
             "text": "Het resultaat van een onberispelijke specificatie is een decennialang foutvrij systeem. Maximale veerkracht tegen corrosie, korstvorming en chemische degradatie. Generatie-overschrijdende veiligheid, engineered in Germany."
           }
-        },
+        ],
         "title": "Van aanbesteding tot in de eeuwigheid.",
         "desc": "Een bestektekst van K-Aqua is niet zomaar een document. Het is de broncode voor de gebouwde realiteit. Het definieert, beschermt en dicteert de gehele levenscyclus van een gebouw - van de eerste schets tot decennialang gebruik."
       },
@@ -5196,66 +5205,66 @@
         "eyebrow": "Architectuur van data",
         "title": "Specificaties die beschermen.",
         "lead": "Ontwikkeld voor TGA-specialisten, architecten en visionaire ingenieurs die geen fouten kunnen tolereren bij de planning van miljardenprojecten.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "VOB/C & DIN 18381 conform",
             "desc": "Elke individuele positie komt exact overeen met de nieuwste aanbestedings- en contractreglementen voor bouwwerken. U zit juridisch absoluut aan de veilige kant en minimaliseert het aansprakelijkheidsrisico drastisch."
           },
-          "1": {
+          {
             "title": "Native GAEB Formaten",
             "desc": "XML, d81, d83. Perfecte importcompatibiliteit voor ORCA, RIB iTWO, Nevaris en alle gangbare calculatiesystemen. Geen syntaxfouten, geen workarounds."
           },
-          "2": {
+          {
             "title": "Fabrikantneutrale varianten",
             "desc": "Voor openbare aanbestedingsprocedures bieden we juridisch veilige, absoluut productneutrale beschrijvingen die de premium standaard bepalen zonder de aanbestedingsrichtlijnen te schenden."
           },
-          "3": {
+          {
             "title": "Gedetailleerde accessoire-matrix",
             "desc": "Van complexe fittingen tot afsluiters en thermodynamische bevestigingsklemmen: De naadloze registratie van het gehele ecosysteem voorkomt dure meerwerken."
           },
-          "4": {
+          {
             "title": "BIM-Ready Integratie",
             "desc": "Koppel onze bestekteksten naadloos met onze zeer gedetailleerde Revit-modellen voor continue, clash-vrije 5D-planning in real-time."
           }
-        }
+        ]
       },
       "grid": {
         "title": "De anatomie van een prestatiebeschrijving.",
         "desc": "We laten niets aan het toeval over. Elke prestatiepositie is een meesterwerk van Duitse ingenieurskunst, gecomprimeerd in tekstvorm. Hier is wat onze teksten in detail behandelen:",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Leidingsystemen SDR 6 / SDR 7.4",
             "desc": "PN 20. Vezelcomposiettechnologie met geïntegreerde minimalisatie van lengte-uitzetting voor maximale vormvastheid."
           },
-          "1": {
+          {
             "title": "Elektrolasmoffen",
             "desc": "Volautomatische lasdocumentatie en 100% homogene, onlosmakelijke en lekvrije verbindingen."
           },
-          "2": {
+          {
             "title": "Overgangskoppelingen",
             "desc": "Ontzinkingsvrij premium messing (DZR), permanent en onlosmakelijk ingegoten in de PP-R matrix."
           },
-          "3": {
+          {
             "title": "Afsluiters",
             "desc": "Onderhoudsvrije kogelkranen en schuine klepafsluiters, stromingsgeoptimaliseerd en geminimaliseerd op dode ruimtes voor preventie van legionella."
           },
-          "4": {
+          {
             "title": "Verdeelsystemen",
             "desc": "Modulaire verdeelblokken met hoge capaciteit voor complexe stijgleidingen en verdiepingsaansluitingen in grote projecten."
           },
-          "5": {
+          {
             "title": "Isolatie volgens GEG",
             "desc": "Geïntegreerde specificaties om warmteverlies en condensvorming (dalen onder het dauwpunt) strikt te voorkomen."
           },
-          "6": {
+          {
             "title": "Brandwerende kragen",
             "desc": "R90/R120 conforme, zeer reactieve doorvoersystemen voor veilige wand- en plafonddoorvoeren."
           },
-          "7": {
+          {
             "title": "Systeembevestigingen",
             "desc": "Nauwkeurige specificaties van vaste en glijdende ankerpunten voor de gecontroleerde opname van thermische lengte-uitzetting."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Begin met de specificatie.",
@@ -5614,48 +5623,48 @@
       "desc": "Diepgaande technische expertise, systeemarchitectuuranalyses en compromisloze engineeringgegevens over K-Aqua leidingsystemen."
     },
     "scroll": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "PP-RCT-matrixarchitectuur",
           "desc": "De structurele integriteit van onze willekeurige polypropyleencopolymeren met gemodificeerde kristalliniteit (PP-RCT) herdefinieert de grenzen van thermische veerkracht. Onder extreme druk- en temperatuurcycli zorgt onze zeshoekige roosterstructuur voor een microscopische spanningsverdeling die materiaalmoeheid vrijwel elimineert. Een paradigmaverschuiving in de vloeistofmechanica."
         },
-        "1": {
+        {
           "title": "Thermodynamische isolatie",
           "desc": "Onze gecoëxtrudeerde isolatielagen zijn gebaseerd op polyurethaantechnologie met gesloten cellen. De warmteoverdrachtscoëfficiënt (U-waarde) wordt tot een theoretisch minimum teruggebracht. Energieverlies is niet langer een variabele in de berekening van uw systemen; het wordt in de kiem gesmoord door onze systeemarchitectuur. Absolute thermische controle."
         },
-        "2": {
+        {
           "title": "Gecertificeerde steriliteit",
           "desc": "Er zijn geen compromissen op het gebied van de drinkwaterinfrastructuur. Onze systemen zijn niet alleen DVGW-gecertificeerd, ze overtreffen de eisen van de Drinkwaterverordening (TrinkwV) met ordes van grootte. Het ultragladde binnenoppervlak (ruwheidswaarde k=0,007 mm) voorkomt microbiële adhesie en biofilmvorming. Zuiverheid op moleculair niveau."
         },
-        "3": {
+        {
           "title": "Niet-destructief onderzoek (NDT)",
           "desc": "Elk pijpleidingsysteem doorloopt onze geautomatiseerde echografie- en röntgendiagnostiek. Wij analyseren lasnaden op submillimeterniveau. Afwijkingen, holtes of insluitsels worden geïdentificeerd door middel van AI-aangedreven defectdetectie voordat het product de productielijn verlaat. 100% traceerbaarheid. Nultolerantie voor defecten."
         }
-      }
+      ]
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "FASE I",
           "title": "Moleculaire synthese",
           "text": "Het proces begint op atomair niveau. Katalytische polymerisatie onder extreme drukomstandigheden vormt de basis PP-RCT-korrels. Specifieke kiemvormende middelen induceren de vorming van de resistente bèta-kristalstructuur."
         },
-        "1": {
+        {
           "year": "FASE II",
           "title": "Precisie co-extrusie",
           "text": "De korrels worden bij 240°C gesmolten en door gekalibreerd gereedschap geperst. De gelijktijdige extrusie van meerdere functionele lagen (glasvezelcompound, toplaag) gebeurt met micrometer-precieze laserbesturing."
         },
-        "2": {
+        {
           "year": "FASE III",
           "title": "Thermische stabilisatie",
           "text": "Een complex koelprotocol fixeert de macromoleculaire oriëntatie. De gecontroleerde temperatuurgradiënt voorkomt interne spanningen en garandeert absolute maatvastheid van de buisgeometrie."
         },
-        "3": {
+        {
           "year": "FASE IV",
           "title": "Hyperaudit",
           "text": "Hydraulische barstdruktesten, interne kruipdruktesten bij 95°C en niet-destructieve materiaalanalyses. Alleen systemen die de standaard belastingslimiet met 300% overschrijden, krijgen definitieve goedkeuring."
         }
-      },
+      ],
       "title": "Ontstaan ​​van integriteit",
       "desc": "Van de moleculaire katalysator tot het hypergeauditeerde eindproduct. Een sequentiële blik op onze compromisloze productiematrix."
     },
@@ -5689,56 +5698,56 @@
   },
   "bim": {
     "sticky": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Maximale datadiepte (LOI 500)",
           "desc": "Onze BIM-modellen bieden niet alleen een uiterst nauwkeurige geometrische weergave (LOD), maar vooral een onovertroffen informatiediepte (LOI). Elke buis, elke fitting en elke afsluiter bevat alle kritische metadata: materiaalspecificaties, drukklassen, thermische uitzettingscoëfficiënten en exacte artikelnummers voor geautomatiseerde aanbesteding."
         },
-        "1": {
+        {
           "title": "Clash-vrije planning",
           "desc": "In miljardenprojecten is clash-detectie ononderhandelbaar. Onze native Revit- en IFC-bestanden garanderen een naadloze integratie in uw Navisworks of Solibri. De exacte buitendiameters inclusief lasnaadtoleranties voorkomen dure verrassingen op de bouwplaats."
         },
-        "2": {
+        {
           "title": "Parametrische Intelligentie",
           "desc": "K-Aqua BIM-families zijn volledig parametrisch. Ze passen zich dynamisch aan leidingtracés, afschot en dimensionering aan. De geïntegreerde auto-routing selecteert automatisch de correcte reducties en bochthoeken volgens de strikte eisen van DIN EN ISO 15874."
         },
-        "3": {
+        {
           "title": "Levenscyclus & Facility Management",
           "desc": "De digitale tweeling eindigt niet bij de oplevering van de bouw. Onze BIM-objecten zijn COBie-compatibel en voorzien facility management van alle benodigde onderhoudsintervallen, certificaten en bedrijfsgegevens voor een veilige levenscyclus van meer dan 50 jaar."
         }
-      },
+      ],
       "eyebrow": "Workflow Excellentie",
       "title": "Digitale Tweelingen in perfectie.",
       "lead": "Een blik in de datadiepte die het verschil tussen planning en realiteit elimineert."
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "Fase 1",
           "title": "Conceptie & TGA-planning",
           "text": "Integratie van K-Aqua basisgeometrieën in het vroege ontwerp. Snelle hoeveelheidsbepaling en eerste clash-detectie voor het tracéconcept in het TGA-masterplan."
         },
-        "1": {
+        {
           "year": "Fase 2",
           "title": "Uitvoeringsplanning",
           "text": "Conversie naar LOI 400. De exacte specificaties, stroomsnelheden en drukverliesberekeningen vloeien direct in de hydraulische netwerkberekening van het gebouw."
         },
-        "2": {
+        {
           "year": "Fase 3",
           "title": "Aanbesteding & Gunning",
           "text": "Geautomatiseerde generatie van foutloze Bill of Materials (BOM) rechtstreeks vanuit het model. Elke fitting is voorzien van het K-Aqua artikelnummer en VDI 3805 data."
         },
-        "3": {
+        {
           "year": "Fase 4",
           "title": "Prefabricage & Montage",
           "text": "Export van isometrische tekeningen voor industriële prefabricage. Millimeternauwkeurige spool-tekeningen reduceren laswerkzaamheden op de bouwplaats tot een absoluut minimum."
         },
-        "4": {
+        {
           "year": "Fase 5",
           "title": "As-Built & Exploitatie",
           "text": "Oplevering van het As-Built model. De digitale tweeling dient als Single Source of Truth voor het facility management gedurende de gehele levensduur van het gebouw."
         }
-      },
+      ],
       "title": "De levenscyclus van K-Aqua BIM-data",
       "desc": "Van de eerste schets tot decennialange exploitatie. Onze data begeleidt uw project in elke fase."
     },
@@ -5754,24 +5763,24 @@
       "p2": "Onze datasets zijn het resultaat van tientallen jaren Duitse ingenieurskunst. Elke wanddikte, elke stromingsdynamiek en elke thermische eigenschap is gevalideerd door onze ingenieurs en native vertaald naar de families."
     },
     "bento": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Native Revit® Families",
           "desc": "Geen conversieverliezen. Direct geprogrammeerd als .rfa en .rvt voor de hoogste prestaties en native routing-voorkeuren."
         },
-        "1": {
+        {
           "title": "VDI 3805 Conformiteit",
           "desc": "Gestandaardiseerde productgegevens voor vlotte gegevensuitwisseling in de gehele TGA-keten."
         },
-        "2": {
+        {
           "title": "IFC4 Certificering",
           "desc": "Maximale interoperabiliteit door open BIM-standaarden (OpenBIM). Gegarandeerd leesbaar in ArchiCAD, Allplan en Vectorworks."
         },
-        "3": {
+        {
           "title": "Exacte thermische gegevens",
           "desc": "Geïntegreerde rekenmodellen voor lengte-uitzetting, thermische geleidbaarheid (0,24 W/mK) en drukverlies door wrijving."
         }
-      }
+      ]
     },
     "cta": {
       "title": "Download het K-Aqua BIM-pakket.",
@@ -5782,56 +5791,56 @@
   },
   "support": {
     "sticky": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Predictieve systeembewaking",
           "desc": "Onze algoritmen analyseren continu afwijkingen in de infrastructuur. Voordat een kritieke toestand wordt bereikt, grijpt ons Level-3-team in. Nul tolerantie voor latentie. Nul tolerantie voor storingen. We handelen voordat de fout ontstaat."
         },
-        "1": {
+        {
           "title": "Militaire reactietijden",
           "desc": "Een SLA is voor ons geen richtlijn, maar een fysieke wet. Bij kritieke incidenten garanderen wij initiële reacties in de orde van milliseconden en onmiddellijke escalatie naar toegewijde senior ingenieurs. Geen wachtrijen, uitsluitend onmiddellijke uitvoering."
         },
-        "2": {
+        {
           "title": "Architectuur Audits",
           "desc": "Uw systemen worden op de proef gesteld volgens de strengste normen van de Duitse ingenieurskunst. Schaalbaarheid, redundantie en betrouwbaarheid worden geverifieerd door meedogenloze stresstests. Zwakke punten worden geëlimineerd, niet beheerd."
         },
-        "3": {
+        {
           "title": "Directe toegang tot ontwikkelaars",
           "desc": "Vergeet conventionele ondersteuning. Bij complexe systeemintegraties communiceert u rechtstreeks met onze kernontwikkelaars. Geen first-level filter, maar pure, ongefilterde technische expertise voor onmiddellijke probleemoplossing op broncodeniveau."
         }
-      },
+      ],
       "eyebrow": "Escalatieprotocollen",
       "title": "Soevereiniteit in tijden van crisis",
       "lead": "Hoe we systeemintegriteit handhaven onder extreme belastingsomstandigheden."
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "T-0:00",
           "title": "Detectie van afwijkingen",
           "text": "Geautomatiseerde systemen detecteren micro-afwijkingen in de datastroom lang voor een zichtbare storing."
         },
-        "1": {
+        {
           "year": "T+0:02",
           "title": "Diagnostische triage",
           "text": "AI-gestuurde loganalyse isoleert de foutvector. Toewijzing aan het exact passende specialistencluster."
         },
-        "2": {
+        {
           "year": "T+0:15",
           "title": "Interventie",
           "text": "Toepassing van hotfixes of automatische omleiding van verkeer naar redundante high-availability nodes."
         },
-        "3": {
+        {
           "year": "T+1:00",
           "title": "Root-Cause Analyse",
           "text": "Forensisch onderzoek van het incident. Modificatie van de kernarchitectuur voor permanente preventie."
         },
-        "4": {
+        {
           "year": "T+4:00",
           "title": "Post-Mortem Protocol",
           "text": "Gedetailleerd technisch rapport met cryptografische handtekening voor absolute transparantie en auditveiligheid."
         }
-      },
+      ],
       "title": "De noodsituatie: Kroniek van een interventie",
       "desc": "Elke seconde telt. Onze gestandaardiseerde procedure in geval van een kritieke systeemafwijking. Koel berekend. Genadeloos uitgevoerd."
     },
@@ -5854,28 +5863,28 @@
       "eyebrow": "Architectuur & Consulting",
       "title": "Geconstrueerd voor de eeuwigheid",
       "lead": "Onze diensten gaan veel verder dan klassieke ondersteuning. Wij ontwerpen, bouwen en harden uw kerninfrastructuur met compromisloze ingenieurskunst.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Zero-Downtime Migraties",
           "desc": "Wij dragen petabytes aan data over tussen legacy-systemen en moderne clusters zonder ook maar één milliseconde downtime. Perfect gechoreografeerde datastromen."
         },
-        "1": {
+        {
           "title": "Optimalisatie op Hardware-niveau",
           "desc": "Kernel-tuning, geheugentoewijzing-optimalisatie en netwerkstack-aanpassingen voor maximale doorvoersnelheden."
         },
-        "2": {
+        {
           "title": "Beveiligingsenclaves",
           "desc": "Opbouw van geïsoleerde, cryptografisch beveiligde subnetwerken voor uw meest gevoelige bedrijfsgegevens."
         },
-        "3": {
+        {
           "title": "API- & Backend-smederij",
           "desc": "Ontwikkeling van robuuste, rate-limited en extreem performante API's die moeiteloos miljoenen verzoeken per seconde verwerken."
         },
-        "4": {
+        {
           "title": "Toegewijde Noodstroomconcepten",
           "desc": "Fysieke en digitale redundantieplannen. Van datacenter-failover tot geo-redundantie over drie continenten."
         }
-      }
+      ]
     },
     "metrics": {
       "badge": "Absolute Betrouwbaarheid",
@@ -5883,12 +5892,12 @@
       "title2": "betrouwbaarheid.",
       "p1": "Wij werken volgens de principes van de Duitse ingenieurskunst: Wat gebouwd wordt, moet werken. Altijd. Onder alle omstandigheden.",
       "p2": "Onze systemen zijn ISO 27001-gecertificeerd en voldoen aan de strengste compliance-eisen wereldwijd. Elke ingreep in uw infrastructuur wordt gecontroleerd, cryptografisch ondertekend en onveranderlijk gelogd.",
-      "items": {
-        "0": "99,999% gegarandeerde Uptime (SLA-ondersteund)",
-        "1": "End-to-End encryptie van alle telemetriegegevens",
-        "2": "Toegewijde TAM's (Technical Account Managers) voor Enterprise-klanten",
-        "3": "Maandelijkse penetratietesten door onafhankelijke Red-Teams"
-      }
+      "items": [
+        "99,999% gegarandeerde Uptime (SLA-ondersteund)",
+        "End-to-End encryptie van alle telemetriegegevens",
+        "Toegewijde TAM's (Technical Account Managers) voor Enterprise-klanten",
+        "Maandelijkse penetratietesten door onafhankelijke Red-Teams"
+      ]
     },
     "cta": {
       "title1": "Klaar voor",

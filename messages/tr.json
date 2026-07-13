@@ -348,7 +348,16 @@
       }
     ],
     "manifestTitle": "Unsere Mission",
-    "manifestText": "Wasser ist unsere wertvollste Ressource. Wir schützen sie mit zukunftsweisenden Rohrsystemen."
+    "manifestText": "Wasser ist unsere wertvollste Ressource. Wir schützen sie mit zukunftsweisenden Rohrsystemen.",
+    "grEyebrow": "Global Reach",
+    "grTitle1": "International",
+    "grTitle2": "Trade Routes",
+    "grLead": "From Germany to the world: Our K-Aqua pipe systems are the backbone of the most modern megaprojects globally. From NEOM in Saudi Arabia to highly complex industrial plants in Singapore.",
+    "grHqLabel": "HQ & Production",
+    "grHqValue": "Germany (Frankfurt)",
+    "grExportLabel": "Key Export Markets",
+    "grExportValue": "Saudi Arabia (NEOM), UAE, Qatar, Latin America",
+    "grCta": "Discover worldwide projects"
   },
   "products": {
     "heroDesc": "Professional piping and fitting system for the highest demands in drinking water and climate technology. Guaranteed 100% leak-free and durable.",
@@ -668,78 +677,78 @@
         "eyebrow": "Mükemmelliğin Mimarisi",
         "title": "Güvenilirliğin Anatomisi.",
         "lead": "Ek parçalarımızı küresel kıstas haline getiren fiziksel ve kimyasal özelliklere derinlemesine bir bakış.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Moleküler yapı",
             "desc": "Ek parçalarımız, yüksek oranda çapraz bağlı bir PP-R polipropilen rastgele kopolimerine dayanmaktadır. Ekstrüzyon sırasındaki kontrollü sıcaklık-basınç profilleri sayesinde izotropik bir kristal yapı elde ediyoruz. Sonuç: Gerilme çatlaklarına ve aşırı sıcaklık dalgalanmalarına karşı benzeri görülmemiş bir direnç."
           },
-          "1": {
+          {
             "title": "Termoplastik Hassasiyet",
             "desc": "Her kalıplanmış parça, mikrometre aralığında boşluk toleranslarına sahip bir termoplastik enjeksiyon kalıplama işleminden geçer. Bu, borularımızla kaynak yaparken erime indekslerinin tamamen aynı olmasını sağlar – homojen, ayrılamaz ve %100 sızdırmaz bir malzeme bağlantısı için."
           },
-          "2": {
+          {
             "title": "Sıfır Hata Toleransı",
             "desc": "Hiçbir şeyi şansa bırakmıyoruz. Ultrasonik cidar kalınlığı ölçümü, hidrostatik iç basınç sürünme testleri ve DSC (Diferansiyel Taramalı Kalorimetri) kullanılarak her parti analiz edilir. Yalnızca DIN EN ISO 15874'ün çok üzerinde olan iç standartlarımızı aşan malzemeler onaylanır."
           },
-          "3": {
+          {
             "title": "Kavitasyon Direnci",
             "desc": "Ek parçalarımızın akışa göre optimize edilmiş iç geometrisi, endüstriyel yükselticilerdeki aşırı akış hızlarında bile basınç düşüşlerini ve kavitasyonu etkili bir şekilde önler. Bu, gürültü emisyonlarını en aza indirir ve sistemi içeriden aşındırıcı aşınmaya karşı korur."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Performans Verileri",
         "title": "Standartların ötesinde özellikler.",
         "lead": "Endüstri normları bir hedef olarak görürken, biz onları sadece mutlak minimum olarak görüyoruz.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DIN EN ISO 15874",
             "desc": "Sıcak ve soğuk su tesisatları için plastik boru sistemleri için tam uyumluluk ve sertifikasyon."
           },
-          "1": {
+          {
             "title": "PN 20 / PN 25",
             "desc": "Kritik sıcaklıklarda bile kalıcı yüksek basınç yükleri için tasarlanmıştır."
           },
-          "2": {
+          {
             "title": "Kimyasal Eylemsizlik",
             "desc": "Aşındırıcı ortamlara karşı olağanüstü direnç. Endüstriyel kullanım için pH'tan bağımsızdır (pH 1 ila 14)."
           },
-          "3": {
+          {
             "title": "Akustik Sönümleme",
             "desc": "PP-R malzemenin doğasında var olan esneklik, yapı kaynaklı gürültüyü emer ve akış gürültüsünü mutlak minimuma indirir, lüks oteller ve hastaneler için idealdir."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Yaratılış Süreci",
         "desc": "Moleküler ham kütleden yok edilemez bileşene. Yüksek oranda otomatikleştirilmiş üretim matrisimize bir bakış.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Adım 01",
             "title": "Granül Seçimi",
             "text": "Yalnızca birinci sınıf Avrupa rafinelerinden gelen yüksek saflıkta, önceden sentezlenmiş polipropilen granül gelen mal denetimimizden geçer."
           },
-          "1": {
+          {
             "year": "Adım 02",
             "title": "Termal Şartlandırma",
             "text": "Enjeksiyon kalıplamadan önce granül, kalan nemi ortadan kaldırmak ve homojen bir eriyik sağlamak için termal olarak stabilize edilir."
           },
-          "2": {
+          {
             "year": "Adım 03",
             "title": "Yüksek Basınçlı Enjeksiyon Kalıplama",
             "text": "Tam otomatik, robot destekli enjeksiyon kalıplama hücrelerinde, malzemeyi muazzam bir basınç altında kusursuz ek parçalara dönüştürüyoruz."
           },
-          "3": {
+          {
             "year": "Adım 04",
             "title": "Soğutma Matrisi",
             "text": "Bilgisayar kontrollü bir soğutma profili, malzemedeki iç gerilimleri önler ve mükemmel boyutsal kararlılık sağlar."
           },
-          "4": {
+          {
             "year": "Adım 05",
             "title": "Sertifikasyon & Lojistik",
             "text": "Her parti dijital sertifikasını alır. Dünyanın en zorlu şantiyelerine sevk edilmeye hazır."
           }
-        }
+        ]
       },
       "depth": {
         "title": "Kullanım Ömrü > 50 Yıl. Garantili.",
@@ -770,78 +779,78 @@
         "eyebrow": "Malzeme Bilimi",
         "title": "Mükemmelliğe doğru polimer mühendisliği.",
         "lead": "PP-R ve PP-RCT borularımızın moleküler yapısı aşırı termomekanik yükler için optimize edilmiştir. Alman mühendisliğinin bir başyapıtı.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PP-RCT çok katmanlı mimari",
             "desc": "En yeni nesil PP-RCT (modifiye Kristallik ve Sıcaklık direncine sahip Polipropilen Rastgele Kopolimerler) borularımız entegre bir cam elyaf bileşik katmanına sahiptir. Bu, standart PP-R borulara kıyasla termal doğrusal genleşmeyi %75'e kadar azaltırken, yüksek sıcaklıklardaki basınç direnci de büyük ölçüde artar. Sonuç, artan akış kapasitesiyle birlikte daha ince duvar kalınlıklarıdır."
           },
-          "1": {
+          {
             "title": "Homojen kaynak",
             "desc": "Pres bağlantı parçaları veya yapışkan bağlantıların aksine polifüzyon kaynak işlemini kullanıyoruz. Boru ve bağlantı parçası 260°C'de kaynaşarak tek, ayrılmaz bir moleküler ünite oluşturur. Sistem tamamen O-ringler veya mekanik salmastralar olmadan çalışır. Bağlantı noktası fiziksel olarak borunun kendisinden daha güçlüdür; %100 sızıntısız bir hizmet ömrü garanti edilir."
           },
-          "2": {
+          {
             "title": "Korozyona karşı mutlak özgürlük",
             "desc": "Metalik sistemler agresif su kalitelerine, düşük pH değerlerine veya yüksek klorür içeriğine teslim olur. K-Aqua polimer borular tamamen inerttir. Çukurlaşma, çatlak korozyonu, galvanik korozyon veya kabuklanmalar fiziksel olarak imkansızdır. Boru sürtünme kaybı (pürüzlülük değeri k=0,007 mm) 50 yıl çalıştıktan sonra bile ilk günkü seviyesinde kalır, bu da pompa enerjisini büyük ölçüde azaltır."
           },
-          "3": {
+          {
             "title": "Isı ve ses yalıtımı",
             "desc": "PP-R'nin (0,24 W/mK) çeliğe (50 W/mK) veya bakıra (380 W/mK) göre düşük ısı iletkenliği sayesinde, soğutma sistemlerinde yoğuşma oluşumu büyük ölçüde geciktirilir ve ısıtma sistemlerinde ısı kayıpları en aza indirilir. Ayrıca kalın duvarlı polimer borularımız akış gürültüsünü ve koç darbesini etkili bir şekilde emerek yüksek binalarda ve otellerde akustik konforu mükemmelleştirir."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Sıfır hata toleransı",
         "desc": "Ekstrüzyon işlemi sırasında borularımızın her santimetresi kontrol edilmektedir. Granülden bitmiş ürüne kadar – Alman Malı kalitesi.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Seviye 01",
             "title": "Birinci sınıf hammadde",
             "text": "Yalnızca dünyanın önde gelen polimer üreticilerinden gelen yüksek saflıkta PP-R ve PP-RCT granüllerini işliyoruz. Her parti, ekstrüzyon için serbest bırakılmadan önce şirket içi laboratuvarımızda bir MFR testine (eriyik akış hızı) ve oksidatif indüksiyon süresi ölçümüne (OIT) tabi tutulur."
           },
-          "1": {
+          {
             "year": "Seviye 02",
             "title": "Hassas ekstrüzyon",
             "text": "Son teknolojiye sahip ekstrüzyon sistemlerimiz mikrometre hassasiyetinde 3 katlı fiber kompozit borular üretmektedir. 360° üzerinde gerçek zamanlı ultrasonik duvar kalınlığı ölçümü, SDR 6 borularda bile izin verilen minimum toleransların karşılanmamasını sağlar."
           },
-          "2": {
+          {
             "year": "Seviye 03",
             "title": "Termal iklimlendirme",
             "text": "Ekstrüzyondan hemen sonra borular özel temperlenmiş su banyolarında kademeli olarak soğutulur. Bu yumuşak soğutma işlemi malzemedeki iç gerilimleri önler ve tüm boyutlarda maksimum boyutsal stabilite sağlar."
           },
-          "3": {
+          {
             "year": "Seviye 04",
             "title": "%100 izlenebilirlik",
             "text": "Her tüp, kesin parti ve üretim süresi bilgilerini içeren silinmez bir lazer baskısı alır. Duvarda onlarca yıl kaldıktan sonra bile, her K-Aqua borusunun kökeni tamamen granül partiye kadar takip edilebilir."
           },
-          "4": {
+          {
             "year": "Seviye 05",
             "title": "Sertifikasyon ve Yayın",
             "text": "95°C'de 1000 saat boyunca hidrolik patlama basıncı testi. Çekme testleri, çentikli darbe dayanımı ve toksikolojik güvenlik testleri. Ürün ancak tüm standartları (DIN 8077/8078, EN ISO 15874) aşıyorsa atölyemizden çıkar."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Özellikler",
         "title": "Her gereksinime uygun bir boyut.",
         "lead": "d20 ev bağlantılarından d500 endüstriyel yükselticilere kadar ölçeklenebilir. Sistemimiz projenizin boyutlarına göre büyür.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "d20'den d500'e kadar boyutlar",
             "desc": "Eksiksiz boru ve bağlantı parçaları portföyü. Devasa boyutlarda T parçaları, redüksiyonlar veya flanş bağlantıları olsun, komple sistemi tek bir kaynaktan sağlıyoruz. Hidrolik söz konusu olduğunda taviz yok."
           },
-          "1": {
+          {
             "title": "SDR notları 6 ila 11",
             "desc": "Çeşitli standart boyut oranları aracılığıyla özel basınç seviyeleri (PN10 ila PN25). Malzeme kullanımını ve akışını optimize edin."
           },
-          "2": {
+          {
             "title": "İçme suyu hijyeni",
             "desc": "En katı Avrupa standartlarına (UBA, DVGW) uygundur. Kesinlikle gıdaya uygun, tatsız ve kokusuzdur. Opsiyonel antibakteriyel iç kaplama."
           },
-          "3": {
+          {
             "title": "UV'ye dayanıklı dış borular",
             "desc": "Aşırı iklim bölgelerinde (örn. Orta Doğu) dış mekan kurulumları için özel UV stabilizasyonlu borular sunuyoruz. Koruyucu dış katman UV radyasyonunu bloke eder ve polimer bozulmasını önler."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Uzmanların projenizi boyutlandırmasına izin verin.",
@@ -871,125 +880,125 @@
         "eyebrow": "Derin Teknoloji",
         "title": "Yıkılmazlığın Anatomisi.",
         "lead": "Geçiş armatürünü bir aksesuar olarak değil, oldukça karmaşık bir mekanik alet olarak görüyoruz. Her milimetre duvar kalınlığı ve her diş, sayısız sonlu eleman analizinin (FEA) sonucudur.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Metal ve polimerin simbiyozu",
             "desc": "Geçiş bağlantı elemanlarımız, çinkosuzlaşmaya dirençli CW617N pirincin amansız mekanik gücünü PP-RCT'nin kimyasal inertliğiyle birleştirir. Bu malzeme füzyonu, basit presleme yoluyla değil, ayrılmaz moleküler kenetlenmeyi sağlayan termomekanik enjeksiyonlu kalıplama işlemiyle yaratılır."
           },
-          "1": {
+          {
             "title": "Aşırı burulma ve tork",
             "desc": "Standart bağlantı parçaları için kritik bir arıza kriteri, kurulum sırasında aşırı torktur. K-Aqua geçişleri, plastik kılıfa patentli altıgen sabitleme profilini entegre eder. Sonuç: Sınır katmanında katmanlara ayrılmadan 300 Nm'nin üzerinde garantili burulma direnci."
           },
-          "2": {
+          {
             "title": "Dengede termal genleşme katsayıları",
             "desc": "Sıcaklık dalgalanmaları (Δα) olduğunda metaller ve plastikler farklı şekilde genişler. Pirinç parçadaki hassas şekilde hesaplanmış mikro genleşme bağlantıları sayesinde bağlantı elemanlarımız -20°C'den +95°C'ye kadar olan aşırı şokları milisaniyeler içinde telafi eder ve kesinlikle sızıntı yapmaz."
           },
-          "3": {
+          {
             "title": "Sıfır toleranslı kalite kontrolü",
             "desc": "Her bir hibrit bileşen, tam otomatik bir helyum sızıntı testinden ve optik bir 3D ölçümden geçer. 10^-5 mbar·l/s'lik sınır değeri uzaktan da olsa etkilenirse sistemimiz parçayı kesinlikle hariç tutar. Alman Mühendisliği tavizlere tolerans göstermez."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Özellikler",
         "title": "Performans mimarisi.",
         "lead": "On binlerce bağlantıya sahip mega projeler planlarken istatistiksel dayanıklılık en önemli yatırım getirisidir. K-Aqua size bunun fiziki garantisini veriyor.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DZR Pirinç Çekirdek",
             "desc": "Çinkosuzlaşmaya dayanıklı CW617N sınıfı pirinç (DIN EN 12164'e göre), agresif su kalitelerinde seçici korozyon riskini ortadan kaldırır."
           },
-          "1": {
+          {
             "title": "Dönmeyi önleyen tasarım",
             "desc": "Çokgen alt kesimler, plastik kaplamaya herhangi bir baskı uygulamadan aşırı sıkma torklarını emen geometrik bir kilit oluşturur."
           },
-          "2": {
+          {
             "title": "Derin çekilmiş iplik",
             "desc": "Konik ve silindirik ISO 7/1 veya ISO 228 dişler, mükemmel sızdırmazlık için ±0,01 mm toleransla makine kesimli."
           },
-          "3": {
+          {
             "title": "PP-RCT matrisi",
             "desc": "Polipropilen rastgele kopolimerimizin son derece kristalli yapısı, yüksek sıcaklıklarda olağanüstü uzun vadeli sürünme mukavemeti sunar."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Üretim döngüsü",
         "desc": "Fabrikamıza bir bakış. Hammaddeden sertifikalı hibrit donanıma giden yol, ısı, basınç ve acımasız hassasiyetten oluşan bir orkestradan geçer.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Aşama 1",
             "title": "Boş işleme (CW617N)",
             "text": "Pirinç, 750°C'de yüksek hassasiyetli matrisler halinde preslenir ve ardından sızdırmazlık profilini oluşturmak için mikrometre aralığında CNC kontrollü işleme yapılır."
           },
-          "1": {
+          {
             "year": "Aşama 2",
             "title": "Yüzey pasivasyonu",
             "text": "Galvanik korozyonu ortadan kaldırmak için vidalı insertler, elektrolitik ultrasonik banyolarda çok aşamalı bir pasifleştirme işleminden geçirilir."
           },
-          "2": {
+          {
             "year": "Aşama 3",
             "title": "Enjeksiyon kalıplama",
             "text": "Yüksek basınçlı enjeksiyonlu kalıplama makinelerinde (2.000 bar), erimiş PP-RCT pirincin etrafını sarar. Plastik her alt kesimi tamamen doldurur."
           },
-          "3": {
+          {
             "year": "Aşama 4",
             "title": "Kontrollü soğutma",
             "text": "Sıcaklığın programlı, kademeli olarak düşürülmesi, plastik ızgaradaki iç gerilimleri önler ve bağlantı parçasının eşmerkezli şeklini sağlar."
           },
-          "4": {
+          {
             "year": "Aşama 5",
             "title": "Basınç ve burulma testi",
             "text": "120 bar'a kadar rastgele patlama testleri ve yorulma testleri, 50 yıllık en agresif endüstriyel yükleri simüle eder."
           }
-        }
+        ]
       },
       "stats": {
         "eyebrow": "Sertifikalar ve parametreler",
         "title": "Sert gerçekler.",
         "lead": "Sadece standartlara göre test yapmıyoruz. Bunları tanımlıyoruz. Dahili test protokollerimiz DVGW, SKZ ve ISO gerekliliklerini %300'e kadar aşmaktadır.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "label": "Çalışma basıncı (PN)",
             "value": "25 bara kadar",
             "sub": "20°C suda"
           },
-          "1": {
+          {
             "label": "Sıcaklık spektrumu",
             "value": "-20°C ila +95°C",
             "sub": "110°C'ye kadar pik yük"
           },
-          "2": {
+          {
             "label": "Konu standartları",
             "value": "ISO 7/1, ISO 228",
             "sub": "İç dişli ve dış dişli"
           },
-          "3": {
+          {
             "label": "Yaşam döngüsü",
             "value": "> 50 yıl",
             "sub": "Endüstriyel koşullar altında"
           },
-          "4": {
+          {
             "label": "Pirinç alaşımı",
             "value": "CW617N / CW614N",
             "sub": "DZR / çinkosuzlaşma içermez"
           },
-          "5": {
+          {
             "label": "plastik",
             "value": "PP-RCT/PP-R",
             "sub": "İçme suyu sertifikalı"
           },
-          "6": {
+          {
             "label": "İçme suyu uyumluluğu",
             "value": "UBA, DVGW",
             "sub": "%100 kurşunsuz seçenekler"
           },
-          "7": {
+          {
             "label": "Kalite güvencesi",
             "value": "ISO 9001:2015",
             "sub": "%100 toplu takip"
           }
-        }
+        ]
       },
       "cta": {
         "title": "Projenizdeki en güçlü bağlantı.",
@@ -1008,78 +1017,78 @@
       "eyebrow": "ÜRÜN ÇEŞİTLERİ",
       "title": "ÖDÜNSÜZ MÜHENDİSLİK.",
       "lead": "Her bileşen kapalı, mükemmel bir sistemin parçasıdır. Girişten bitiş noktasına kadar su, kimyasallar ve gazların akışını aralıksız bir güvenilirlikle kontrol ediyoruz.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "PPR BORU SİSTEMLERİ: YIKILMAZ DAMARLAR",
           "desc": "K-Aqua PPR sistemi (Polipropilen Rastgele Kopolimer), modern sıvı taşımacılığının omurgasıdır. Termal olarak homojen bir ünite halinde kaynaştırılmış olup aşırı basınçlara, kimyasal saldırılara ve termal strese karşı dayanıklıdır. Sızıntı yapmayan, paslanmayan ve onlarca yıl dayanan bir sistem."
         },
-        "1": {
+        {
           "title": "BAĞLANTILAR: GEOMETRİK MÜKEMMELLİK",
           "desc": "Her K-Aqua armatürü akışkanlar mekaniğinin bir başyapıtıdır. Azaltılmış kavitasyon, optimize edilmiş duvar kalınlıkları ve mikrometre aralığındaki kesin toleranslar, minimum basınç kayıplarını ve maksimum sistem güvenliğini garanti eder. Nehri şansa bırakmıyoruz."
         },
-        "2": {
+        {
           "title": "VANALAR VE BAĞLANTI PARÇALARI: MUTLAK KONTROL",
           "desc": "Dünya çapında en zorlu koşullar altında çalışan endüstriyel izolasyon ve kontrol teknolojisi. Küresel vanalarımız, açılı yataklı vanalarımız ve geri akış önleyicilerimiz, herhangi bir performans kaybı olmaksızın on binlerce döngü boyunca test edilmiştir. Maksimum yük altında maksimum sızdırmazlık."
         },
-        "3": {
+        {
           "title": "KOMPOZİT BORULAR: MALZEMELERİN SİNERJİSİ",
           "desc": "Alüminyum yüksek performanslı polimerle buluşuyor. K-Aqua çok katmanlı kompozit borular, metalin mekanik stabilitesini plastiğin esnekliği ve kimyasal direnciyle birleştirir. %100 oksijen geçirmez. Minimum doğrusal genişleme. Karmaşık HVAC sistemleri için nihai çözüm."
         }
-      }
+      ]
     },
     "bento": {
       "eyebrow": "PERFORMANS VERİLERİ",
       "title": "TEKNOLOJİK ÜSTÜNLÜK. VERİ ODAKLI.",
       "lead": "K-Aqua sistemleri sadece borulardan ibaret değildir; sıvılar için yüksek performanslı ağlardır. En katı Alman endüstri standartlarına göre geliştirilmiştir.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Termal füzyon",
           "desc": "Homojen kaynak dikişleri. Malzeme bir olur. Tutkal yok, arızalanacak conta halkası yok. Sızıntıya karşı moleküler bazda %100 güvenlik."
         },
-        "1": {
+        {
           "title": "Korozyona karşı bağışıklık",
           "desc": "Çukurlaşmaya, paslanmaya ve elektrokimyasal korozyona karşı tamamen dayanıklıdır. Taşınan ortam en saf halinde kalır."
         },
-        "2": {
+        {
           "title": "Akış optimizasyonu",
           "desc": "Minimum sürtünme katsayısına sahip pürüzsüz duvar teknolojisi (pürüzlülük 0,007 mm) birikintileri önler ve basınç kaybını büyük ölçüde en aza indirir."
         },
-        "3": {
+        {
           "title": "Basınç dayanımı PN25+",
           "desc": "Yüksek binalarda, endüstriyel tesislerde ve kritik altyapılarda maksimum kullanım için tasarlanmıştır. 50 yılı aşkın süredir sorunsuz çalışacak şekilde tasarlanmıştır."
         }
-      }
+      ]
     },
     "timeline": {
       "title": "KURULUM SÜRECİ. YENİDEN TANIMLANDI.",
       "desc": "Daha hızlı. Daha emniyetli. Temizleyici. Sistemimiz hata kaynaklarını minimumda tutarken kurulum süresini önemli ölçüde azaltır. Verimliliğin kronolojisi.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "FAZ 01",
           "title": "PLANLAMA & BOYUTLANDIRMA",
           "text": "Boru çaplarının kesin hidrolik hesabı ve tasarımı. Üstün akış özellikleri sayesinde aşırı boyutlandırmanın önlenmesi."
         },
-        "1": {
+        {
           "year": "FAZ 02",
           "title": "KESME VE HAZIRLIK",
           "text": "Boruların soğuk ve talaşsız kesilmesi. Kesinlikle temiz kesim kenarları, kirlenme riski olmadan mükemmel kaynak hazırlığını garanti eder."
         },
-        "2": {
+        {
           "year": "AŞAMA 03",
           "title": "ISITMA ELEMAN SOKET KAYNAĞI",
           "text": "Alet boruyu ve bağlantı parçasını tam olarak 260°C'ye ısıtır. Saniyeler içinde kopamayan moleküler bir bağlantı kurulur."
         },
-        "3": {
+        {
           "year": "AŞAMA 04",
           "title": "BASINÇ TEST & KABUL",
           "text": "Sistem aşırı test basıncı altına yerleştirilir. Sızıntılara karşı tolerans yoktur. K-Aqua ilk düşüşten itibaren %100 güvenlik sağlar."
         },
-        "4": {
+        {
           "year": "FAZ 05",
           "title": "ONLARCA YILDIR ÇALIŞIYOR",
           "text": "Bakım gerektirmez. Düşük gürültü. Sistem, dünyanın en modern binalarının perde arkasında kesintisiz bir güvenilirlikle çalışır."
         }
-      }
+      ]
     },
     "sysLead": "Kataloğumuzun temeli sistem entegrasyonunun dört temel direğidir."
   },
@@ -1113,53 +1122,53 @@
     "nextCta": "Ürün Yelpazesine Git",
     "krankenhaus": {
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Moleküler düzeyde Legionella'nın önlenmesi",
             "desc": "Kritik hastane altyapısında su hijyeni bir seçenek değil, bir hayatta kalma meselesidir. K-Aqua boru sistemlerimiz, biyofilm oluşumunu ve Legionella'nın çoğalmasını fiziksel olarak önleyen son derece pürüzsüz, gözeneksiz iç yüzeyler kullanır. Alman mühendisliği burada şu anlama gelir: kimyasal son işlemlerle değil, mükemmel malzeme bilimi yoluyla önleme."
           },
-          "1": {
+          {
             "title": "Malzeme yormadan termal dezenfeksiyon",
             "desc": "Klinik standartlar 70°C'nin üzerindeki sıcaklıklarda düzenli termal dezenfeksiyon gerektirir. Geleneksel sistemler hızla eskirken, K-Aqua PPR sistemi onlarca yıl boyunca aşırı termal yüklere dayanacak şekilde tasarlanmıştır. Mikro çatlak yok, kırılganlık yok, taviz yok."
           },
-          "2": {
+          {
             "title": "Kesinlikle steril bağlantılar",
             "desc": "Patentli ısıtma elemanı soket kaynağımız, boruyu ve bağlantı parçasını homojen, tamamen eksiz bir ünite halinde birleştirir. Durgun suyun toplanabileceği ölü alanlar yoktur. Sonuç, tek parçadan yapılmış bir boru sistemidir; kirlenmeye karşı mutlak fiziksel bariyer."
           },
-          "3": {
+          {
             "title": "Yoğun bakım üniteleri için akustik izolasyon",
             "desc": "Gürültü hastalar ve sağlık personeli için büyük bir stres faktörüdür. K-Aqua sistemi doğal ses emici özelliklere sahiptir. Akış sesleri ve basınç dalgalanmaları malzemenin kendisi tarafından emilir, bu da ameliyathaneler ve yoğun bakım üniteleri için gerekli olan yüksek basınçlı uygulamalarda bile fısıltı sessizliğinde su beslemesini garanti eder."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Aşama 01",
             "title": "Sistem boyutlandırma ve hidrolik",
             "text": "Durgunluk bölgelerini önlemek için kablo kesitlerinin hassas hesaplanması. Planlama aşamasında her milimetrelik basınç kaybı dijital ikiz üzerinde Alman mühendislerimiz tarafından simüle ediliyor ve ortadan kaldırılıyor."
           },
-          "1": {
+          {
             "year": "Aşama 02",
             "title": "Malzeme özellikleri",
             "text": "Klinik gereksinimler için optimize edilmiş özel K-Aqua polimer karışımlarının seçimi. Hammaddelerimiz ekstrudere ulaşmadan önce 42 kalite güvence adımından geçmektedir."
           },
-          "2": {
+          {
             "year": "Aşama 03",
             "title": "Prefabrikasyon ve temiz oda elleçleme",
             "text": "Kontrollü ortamlarda karmaşık dağıtıcıların ön montajı. Şantiyedeki kaynak dikişlerinin en aza indirilmesi, temiz oda koşullarında %40'a kadar daha hızlı, hatasız montajı garanti eder."
           },
-          "3": {
+          {
             "year": "Aşama 04",
             "title": "Devreye Alma ve Sertifikasyon",
             "text": "Hidrostatik basınç testini ve ilk termal dezenfeksiyonu tamamlayın. Genel yükleniciye devir, her bir kaynak dikişinin eksiksiz, dijital dokümantasyonu ile gerçekleştirilir."
           },
-          "4": {
+          {
             "year": "Aşama 05",
             "title": "50 yıl bakım özgürlüğü",
             "text": "Devreye alındıktan sonra sistem duvarın içinde kaybolur ve çalışmasını sessiz ve kesinlikle güvenilir bir şekilde gerçekleştirir; malzeme yorgunluğu olmadan en az 50 yıl garantilidir."
           }
-        }
+        ]
       },
       "hero": {
         "eyebrow": "Görev Açısından Kritik Altyapı",
@@ -1184,26 +1193,26 @@
         "lead": "Kalite bir maliyet faktörü değil, bina otomasyonunda karlılığa giden tek yoldur. K-Aqua, maksimum hasta güvenliğini garanti ederken toplam sahip olma maliyetini eşi benzeri görülmemiş bir düzeye indirir."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "%100 korozyon direnci",
             "desc": "Metalik boruların aksine K-Aqua, elektrokimyasal korozyona, çukurlaşmaya ve sert suya karşı tamamen dayanıklıdır. 50 yıllık sürekli çalışma boyunca kabuklanma olmaz, basınç kaybı olmaz."
           },
-          "1": {
+          {
             "title": "Işık hızında kurulum",
             "desc": "Düşük ağırlık ve homojen kaynak teknolojisi, montaj süresini %40'a kadar azaltır. Daha az adam-gün, şantiyede daha az risk.",
             "badge": "-%40 zaman"
           },
-          "2": {
+          {
             "title": "Depreme dayanıklı esneklik",
             "desc": "Malzemenin modüler moleküler yapısı sismik şokları ve bina oturmalarını kırılmadan absorbe etmesini sağlar. Riskli bölgelerdeki hastaneler için gereklidir.",
             "badge": "Sismik kaliteler"
           },
-          "3": {
+          {
             "title": "Sertifikalı içme suyu kalitesi",
             "desc": "Ultra saf suyun ve son derece hassas klinik ortamların taşınmasına yönelik dünyanın en katı standartlarını (DIN, DVGW, SKZ, WRAS) karşılar ve aşar."
           }
-        }
+        ]
       },
       "timelineSection": {
         "title": "K-Aqua standardı.",
@@ -1215,45 +1224,45 @@
         "lead": "Mühendisler, planlamacılar ve mimarlar için: Sistemimizin klinik kullanıma yönelik fiziksel ve kimyasal sınırları. Şeffaflık güvenin temelidir.",
         "therm": {
           "title": "Termal esneklik",
-          "items": {
-            "0": {
+          "items": [
+            {
               "label": "Sürekli çalışma sıcaklığı",
               "value": "70°C"
             },
-            "1": {
+            {
               "label": "Maksimum olay sıcaklığı",
               "value": "95°C (100 saat)"
             },
-            "2": {
+            {
               "label": "Isı iletkenliği",
               "value": "0,24W/mK"
             },
-            "3": {
+            {
               "label": "Doğrusal genleşme katsayısı",
               "value": "0,15 mm/mK"
             }
-          }
+          ]
         },
         "mech": {
           "title": "Mekanik özellikler",
-          "items": {
-            "0": {
+          "items": [
+            {
               "label": "yoğunluk",
               "value": "0,895 gr/cm³"
             },
-            "1": {
+            {
               "label": "Çekme mukavemeti",
               "value": "23 MPa"
             },
-            "2": {
+            {
               "label": "Kopma uzaması",
               "value": "> %50"
             },
-            "3": {
+            {
               "label": "Esneklik modülü",
               "value": "800MPa"
             }
-          }
+          ]
         }
       },
       "bim": {
@@ -1289,24 +1298,24 @@
         "lead": "Wir haben jedes Element der klassischen Rohrleitung hinterfragt und durch materialwissenschaftliche Meisterleistungen ersetzt."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Akustische Isolation der Referenzklasse",
             "desc": "Schallschutz ist im High-End-Hotelsegment das ultimative Qualitätsmerkmal. Unsere proprietäre dreischichtige Polymerstruktur absorbiert Körperschall und Fließgeräusche unmittelbar an der Quelle. Kein Flüstern des Wassers dringt in die Suiten Ihrer Gäste. Zertifiziert nach DIN 4109."
           },
-          "1": {
+          {
             "title": "Thermische Resilienz",
             "desc": "Minimaler Wärmeverlust bei maximaler Effizienz. Die molekulare Dichte von K-Aqua PP-R isoliert nativ und reduziert den Bedarf an sekundärer Dämmung drastisch. Das Resultat: Massive Einsparungen bei den OPEX."
           },
-          "2": {
+          {
             "title": "100% Korrosionsfreiheit",
             "desc": "Aggressives Wasser, chlorierte Pools oder extreme Salinität in Küstenresorts? Wo Metalle kapitulieren, behält K-Aqua seine strukturelle Integrität. Ein halbes Jahrhundert lang."
           },
-          "3": {
+          {
             "title": "Mikrobiologische Festung",
             "desc": "Legionellen und Biofilme entstehen durch mikroskopische Unebenheiten. Die Innenoberfläche von K-Aqua Rohren ist auf molekularer Ebene derart glatt, dass sich Bakterien schlichtweg nicht anheften können. Klinische Reinheit für die Trinkwasserversorgung Ihres Resorts."
           }
-        }
+        ]
       },
       "textSection": {
         "title": "Die Ingenieurskunst hinter der Stille",
@@ -1324,100 +1333,100 @@
         "lead": "Wie wir die größten Herausforderungen der modernen Hotel-Infrastruktur durch radikale Ingenieurskunst lösen."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "1. Legionellen-Prävention auf Molekularebene",
             "p1": "In ausgedehnten Hotelnetzwerken kann stagnierendes Wasser in temporär ungenutzten Suiten zur tödlichen Falle werden. Legionellen proliferieren in Biofilmen, die sich an rauen Rohrwänden bilden.",
             "p2": "Die mikroskopische Oberflächenrauheit von K-Aqua PP-R liegt bei 0.007 mm. Es gibt keine Poren, keine Nischen, keine Ankerpunkte. In Kombination mit thermischer Desinfektion bieten wir das sterilste Umfeld, das physikalisch möglich ist."
           },
-          "1": {
+          {
             "title": "2. Absolute Schallabsorption",
             "p1": "Jedes Dezibel zählt. In Luxusresorts darf der Toilettenspülvorgang oder das Duschen in der Nachbarsuite nicht wahrnehmbar sein.",
             "p2": "Durch die hohe Dichte unseres Verbundmaterials (K-Aqua Faserverbund) und den hohen inneren Dämpfungsfaktor reduzieren wir den Körperschall um bis zu 80% gegenüber metallischen Systemen. Ein Unterschied, den Ihre Gäste nicht hören werden."
           },
-          "2": {
+          {
             "title": "3. Hochdruck-Resilienz in Skyscrapern",
             "p1": "Hotels mit 80, 100 oder 120 Stockwerken stellen extreme Anforderungen an die Steigleitungen. Der hydrostatische Druck im unteren Bereich des Gebäudes ist enorm.",
             "p2": "K-Aqua bietet spezielle Druckstufen (SDR 6 / PN 20) in Kombination mit Faserverstärkung, die auch bei Temperaturen von 70°C eine Lebensdauer von über 50 Jahren unter Dauerlast garantieren. Wir bezwingen die Schwerkraft."
           },
-          "3": {
+          {
             "title": "4. Thermal Management & District Cooling",
             "p1": "In Wüstenregionen wie Dubai oder Riad ist Kälte das teuerste Gut. District Cooling Systeme transportieren gekühltes Wasser über weite Strecken zum Resort.",
             "p2": "Die exzellenten Isolationswerte von PP-R verhindern Kondensatbildung und minimieren den Kühlverlust massiv. Keine durchgerosteten Chiller-Pipes mehr, keine tropfenden Decken. Nur reine, unverfälschte Effizienz."
           }
-        }
+        ]
       },
       "perf": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "val": "0.007",
             "unit": "mm",
             "title": "Oberflächenrauheit",
             "desc": "Absolute Resistenz gegen Biofilme und Inkrustation."
           },
-          "1": {
+          {
             "val": "100",
             "unit": "%",
             "title": "Homogene Fusion",
             "desc": "Schweißverbindungen, die auf molekularer Ebene verschmelzen."
           },
-          "2": {
+          {
             "val": ">50",
             "unit": "J",
             "title": "Jahre Lebensdauer",
             "desc": "Geprüft und zertifiziert nach den strengsten ISO-Normen."
           },
-          "3": {
+          {
             "val": "0",
             "unit": "",
             "title": "Wartungsaufwand",
             "desc": "Installieren, versiegeln und für immer vergessen."
           }
-        }
+        ]
       },
       "timelineSection": {
         "title": "Referenzen, die Geschichte schreiben.",
         "desc": "Von künstlichen Inseln im Persischen Golf bis hin zu den exklusivsten Ski-Resorts der Alpen. Wo das Unmögliche gebaut wird, ist K-Aqua bereits vor Ort."
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Dubai",
             "title": "The Palm Jumeirah Ultra-Luxury Resort",
             "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinität und Umgebungstemperaturen von bis zu 50°C erforderten maximale thermische und chemische Beständigkeit. K-Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
           },
-          "1": {
+          {
             "year": "Schweiz",
             "title": "Alpine Retreat St. Moritz",
             "text": "Ein 6-Sterne Resort auf 2.000 Metern Höhe. Die Herausforderung: Extreme Frostgefahr während der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische Längenänderungen souverän und garantierten lautlosen Betrieb."
           },
-          "2": {
+          {
             "year": "Singapur",
             "title": "Vertical Forest Hotel",
             "text": "Ein 65-stöckiges Meisterwerk ökologischer Architektur. Das komplexe Bewässerungssystem für tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K-Aqua realisiert. Die homogene Schweißtechnik bewahrte das Gebäude vor mikroskopischen Leckagen."
           },
-          "3": {
+          {
             "year": "Malediven",
             "title": "Zero-Emission Island Resort",
             "text": "Direkt über dem Riff erbaut, war absolute Umweltverträglichkeit gefordert. K-Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschleiß."
           },
-          "4": {
+          {
             "year": "Zukunft",
             "title": "Ihr nächstes Megaprojekt",
             "text": "Die Grenzen der Architektur verschieben sich täglich. Wir sind bereit, das Fundament für Ihre kühnsten Visionen zu gießen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
           }
-        }
+        ]
       },
       "research": {
         "eyebrow": "Forschung & Entwicklung",
         "title": "Die Chemie <br/> der Unzerstörbarkeit.",
         "desc": "Unsere F&E Abteilung in Deutschland arbeitet unermüdlich an der Perfektionierung der Polymer-Matrix. Durch die Zugabe von proprietären Additiven und speziellen Glasfaser-Compounds extrudieren wir Rohre, die eine extrem geringe Längenausdehnung aufweisen – vergleichbar mit metallischen Rohren, jedoch ohne deren eklatante Nachteile.",
-        "items": {
-          "0": "Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)",
-          "1": "Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe",
-          "2": "Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich",
-          "3": "Toxikologisch völlig unbedenklich, lebensmittelecht zertifiziert"
-        }
+        "items": [
+          "Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)",
+          "Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe",
+          "Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich",
+          "Toxikologisch völlig unbedenklich, lebensmittelecht zertifiziert"
+        ]
       },
       "certs": {
         "eyebrow": "Compliance & Zertifizierungen",
@@ -1454,47 +1463,47 @@
         "p3": "Von komplexen Verteilerstationen über Steigleitungen bis hin zu maßgeschneiderten Sonderlösungen für industrielle Kühlanlagen – wir fertigen nach Ihren ISO-Zeichnungen oder entwickeln gemeinsam mit Ihrem Engineering-Team den optimalen digitalen Zwilling, der dann in physische Realität umgesetzt wird."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Milliarden-Projekte verzeihen keine Fehler.",
             "desc": "In der Welt der globalen Bau-Infrastruktur – ob in den Wüstenmetropolen des Nahen Ostens oder in europäischen Hochtechnologiezentren – ist Ausfallzeit gleichbedeutend mit katastrophalen Verlusten. Unsere Vorfertigungssysteme werden für eine Realität entwickelt, in der Materialversagen absolut ausgeschlossen sein muss."
           },
-          "1": {
+          {
             "title": "Digitale Präzision trifft deutsche Ingenieurskunst.",
             "desc": "Jedes Rohrleitungssystem, jeder Verteiler und jedes Sondermodul wird als digitaler Zwilling in unseren hochmodernen BIM-Umgebungen (Building Information Modeling) auf den Millimeter genau geplant. Erst wenn die simulation perfekte Strömungsdynamik und absolute Belastbarkeit unter Extrembedingungen bestätigt, beginnt die Fertigung."
           },
-          "2": {
+          {
             "title": "Homogene Verschmelzung auf molekularer Ebene.",
             "desc": "Im Gegensatz zu mechanischen Verbindungen oder geklebten Systemen nutzen wir fortschrittlichste thermische Polyfusionsschweißverfahren. Rohr und Fitting verschmelzen zu einer einzigen, unzertrennbaren Einheit. Das Resultat ist eine stoffschlüssige Verbindung, die stärker ist als das eigentliche Rohr selbst."
           },
-          "3": {
+          {
             "title": "100% Prüfprotokoll. Keine Ausnahmen.",
             "desc": "Bevor ein vorgefertigtes K-Aqua Modul unser Werk verlässt, durchläuft es ein drakonisches Testprogramm. Von hydrostatischen Druckprüfungen weit über den industriellen Standard hinaus, über Ultraschall-Schweißnahtkontrollen, bis hin zur optischen 3D-Vermessung. Deutsche Null-Fehler-Toleranz in Reinform."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Technische Überlegenheit",
         "title": "Die DNA unserer Systeme.",
         "lead": "Zertifiziert nach DIN EN ISO 15874. Konzipiert für die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PPR-C (Typ 3) Material",
             "desc": "Unser Ausgangsmaterial bietet eine beispiellose thermische und chemische Beständigkeit. Es widersteht extremen Temperaturen und aggressiven Medien ohne Degradation."
           },
-          "1": {
+          {
             "title": "Absolute Korrosionsfreiheit",
             "desc": "Während metallische Systeme ab dem ersten Tag der Installation langsam degradieren, bleibt unser Polymer-System völlig immun gegen Korrosion, Lochfraß und Inkrustation."
           },
-          "2": {
+          {
             "title": "Akustische Dämmung",
             "desc": "Die molekulare Struktur von K-Aqua Rohren absorbiert Schallwellen signifikant besser als Metall, was zu flüsterleisen Systemen führt – essenziell in Luxushotels und Krankenhäusern."
           },
-          "3": {
+          {
             "title": "Geringer Druckverlust",
             "desc": "Eine Innenraumrauheit von nur 0,007 mm garantiert minimale Reibung, verhindert Ablagerungen und reduziert den Energiebedarf der Pumpensysteme drastisch."
           }
-        }
+        ]
       },
       "visual": {
         "title1": "Die Ästhetik der",
@@ -1502,43 +1511,43 @@
         "p1": "Betrachten Sie die Schweißnaht eines K-Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.",
         "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer zertifizierten Kunststoffschweißer. Jeder Parameter – Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit – wird pedantisch überwacht.",
         "p3": "Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.",
-        "items": {
-          "0": "Präzisionsfräsen der Rohrenden",
-          "1": "Computergesteuerte Erhitzung (260°C)",
-          "2": "Exakte Fügung unter Hochdruck"
-        }
+        "items": [
+          "Präzisionsfräsen der Rohrenden",
+          "Computergesteuerte Erhitzung (260°C)",
+          "Exakte Fügung unter Hochdruck"
+        ]
       },
       "timeline": {
         "eyebrow": "Prozessarchitektur",
         "title": "Von der CAD-Zeichnung zur Baustelle.",
         "lead": "Ein transparenter, rigider Prozess, der Just-in-Time-Lieferungen rund um den Globus garantiert.",
-        "events": {
-          "0": {
+        "events": [
+          {
             "title": "Phase 1: Engineering & BIM",
             "desc": "Nahtlose Integration in die architektonischen Modelle. Kollisionsprüfung und Strömungssimulation.",
             "date": "Woche 1-2"
           },
-          "1": {
+          {
             "title": "Phase 2: CNC-Zuschnitt",
             "desc": "Millimetergenauer Zuschnitt der PPR-C Materialien durch lasergestützte CNC-Anlagen.",
             "date": "Woche 3"
           },
-          "2": {
+          {
             "title": "Phase 3: Polyfusion",
             "desc": "Robotergestützte und handwerkliche Meisterschweißungen unter streng kontrollierten klimatischen Bedingungen im Werkstattumfeld.",
             "date": "Woche 4-5"
           },
-          "3": {
+          {
             "title": "Phase 4: QA & Druckprüfung",
             "desc": "Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und zertifiziert.",
             "date": "Woche 6"
           },
-          "4": {
+          {
             "title": "Phase 5: Global Logistics",
             "desc": "Sichere Verpackung und weltweiter Versand mit Just-in-Time Lieferung auf die Baustelle.",
             "date": "Woche 7+"
           }
-        }
+        ]
       },
       "manifesto": {
         "eyebrow": "Das Manifest der Langlebigkeit",
@@ -1580,78 +1589,78 @@
         "eyebrow": "Aşırı koşullar",
         "title": "Yükseklik fiziğine hakim olmak.",
         "lead": "Yüksek yapı inşaatındaki dört temel zorluk ve K-Aqua'nın Alman mühendislik ustalığının bunların üstesinden nasıl geldiği.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Aşırı hidrostatik basınç",
             "desc": "Su sütunu her metre yükseklikte büyür. Megatallerde 30 barın üzerinde basınçlar ortaya çıkar. K-Aqua PP-RCT (Modifiye Kristallik ve Sıcaklık direncine sahip Polipropilen Rastgele Kopolimer) borular, standart PP-R'ye kıyasla yüksek sıcaklıklarda %50'ye kadar daha yüksek basınç dayanımı sunar. Maksimum statik yükün olduğu bölgelerde bile su kaynağının yıkılmaz bir omurgası görevi görürler."
           },
-          "1": {
+          {
             "title": "Termal doğrusal genleşme ve gerilim kontrolü",
             "desc": "300 metre uzunluğundaki bir borudan sıcak su pompalamak, muazzam doğrusal genleşme ve kesme kuvvetleri yaratır. Fiber kompozit teknolojimiz termal genleşmeyi %75'e kadar azaltır. Bu, daha az bağlantı noktası, genişleme döngüsü olmaması ve hafif, montajı kolay bir sistemde paketlenmiş üstün yapısal bütünlük anlamına gelir."
           },
-          "2": {
+          {
             "title": "Moleküler homojenlik (sızıntı yok)",
             "desc": "Elastomerlerden yapılmış O-ringlerin veya pres bağlantı parçalarının takıldığı yerlerde, yaşlanma nedeniyle kaçınılmaz olarak sızıntılar meydana gelir. K-Aqua contaları tamamen ortadan kaldırır. Termal ısıtma elemanı soket kaynağı, boruyu ve bağlantı parçasını tam olarak 260°C'de kaynaştırır. Ortaya çıkan bağlantı mekanik olarak borunun kendisi kadar güçlüdür. Sıfır sızıntı. Ömür boyu garantilidir."
           },
-          "3": {
+          {
             "title": "Akustik dekuplaj (ses yalıtımı)",
             "desc": "Lüks çatı katlarında ve üst düzey ofislerde sessizlik en önemli şeydir. Akış sesleri ve basınç şokları ortadan kaldırılmalıdır. PP-R polimerlerimizin yüksek malzeme yoğunluğu ve ses emici özellikleri, yapıdan kaynaklanan gürültüyü ve akış gürültüsünü büyük ölçüde azaltır ve DIN 4109 ve VDI 4100'ün katı gerekliliklerini çok aşar."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Özellikler",
         "title": "Sonsuza kadar mimari.",
         "lead": "%100 bakım özgürlüğü için en katı Alman standartlarına göre hassas bir şekilde üretilmiştir. Gökdelenlere yönelik boru sistemleri segmentinde küresel standardı belirliyoruz.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PP-RCT devrimi",
             "desc": "Yeni nesil polipropilen. Azaltılmış duvar kalınlığı ile benzeri görülmemiş basınç ve sıcaklık direnci için değiştirilmiş kristal yapı. Akışı en üst düzeye çıkarır, ağırlığı en aza indirir; bu, büyük binaların statiğinde çok önemli bir faktördür."
           },
-          "1": {
+          {
             "title": "DIN EN ISO 15874",
             "desc": "SKZ ve DVGW gibi bağımsız Alman test enstitüleri tarafından onaylanmış güvenlik. En yüksek içme suyu kalitesi, sızıntı yok."
           },
-          "2": {
+          {
             "title": "Mutlak korozyon direnci",
             "desc": "pH değeri dalgalanmalarına, agresif su kalitelerine, klorlamaya ve elektrokimyasal korozyona (çukurlaşma) karşı duyarsızdır."
           },
-          "3": {
+          {
             "title": "Komple prefabrikasyon",
             "desc": "Zaman şantiyedeki en pahalı emtiadır. Prefabrik dağıtım dizilerini, ölçüm çubuklarını ve yükseltici bileşenleri doğrudan 'tam zamanında', milimetrik hassasiyetle teslim ediyoruz. Kurulum süresini %60'a kadar azaltır ve şantiyedeki hata kaynaklarını ortadan kaldırır."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Proje döngüsü",
         "desc": "İlk akış simülasyonundan onlarca yıllık bakım gerektirmeyen çalışmaya kadar. K-Aqua mühendislik ekibi, mega projenize fikir aşamasından işletmeye alma aşamasına kadar eşlik eder.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Aşama 1",
             "title": "Mühendislik ve BIM",
             "text": "Mühendislerimiz yükselticilerin tasarımını, basınç bölgelerinin hesaplanmasını destekler ve çarpışma kontrolü ve TGA planlaması için eksiksiz BIM verileri (Revit) sağlar."
           },
-          "1": {
+          {
             "year": "Aşama 2",
             "title": "Hassas ekstrüzyon",
             "text": "Almanya'daki son teknolojiye sahip tesislerimizde boru ve bağlantı parçaları, sürekli ultrasonik duvar kalınlığı kontrolü ve en sıkı laboratuvar denetimi altında üretilmektedir. Her parti %100 izlenebilirdir."
           },
-          "2": {
+          {
             "year": "Aşama 3",
             "title": "Tam zamanında lojistik",
             "text": "Küresel satış ağımız aracılığıyla, ister Dubai çölünde, ister Singapur'da veya Frankfurt am Main'de olsun, malzemenin inşaat sahasına zamanında ulaşmasını sağlıyoruz."
           },
-          "3": {
+          {
             "year": "Aşama 4",
             "title": "Homojen füzyon",
             "text": "Yerel kurulumcular, teknisyenlerimiz tarafından sahada eğitilir. Termal kaynaklı bağlantılar birkaç saniye içinde yapılır ve soğuduktan hemen sonra basınca tamamen dayanıklıdır."
           },
-          "4": {
+          {
             "year": "onlarca yıl",
             "title": "Bakım gerektirmeyen çalışma",
             "text": "Son basınç testi sonrasında sistemlerimiz kuyu veya beton içerisinde kaybolur. Önümüzdeki 50+ yıl boyunca onu bir daha düşünmek zorunda kalmayacaksınız. Görünmez, mükemmel bir ağ."
           }
-        }
+        ]
       },
       "data": {
         "eyebrow": "Veriler",
@@ -1661,43 +1670,43 @@
         "p1": "Plastik bir borunun basınç ve sıcaklık altındaki servis ömrü, sürünme iç basınç dayanımı (sürünme eğrileri) ile belirlenir. Standart endüstri spesifikasyonları, 50 yıllık bir çalışma ömrünü varsayar. Dahili laboratuvar testlerimiz ve termal-oksidatif yaşlanma simülasyonlarımız, 100 yılı aşkın bir hizmet ömrüne sahip dayanıklılığı doğrulamaktadır. K-Aqua PP-RCT malzemesi, sürekli yüksek sıcaklıklara sahip sirkülasyon borularında bile termal-oksidatif bozulmanın başlamasını önemli ölçüde geciktirir.",
         "h3_2": "Hidrolik akışkanlar dinamiği",
         "p2": "Metal borular yıllar geçtikçe korozyon ve kabuklanma nedeniyle sertleşir. Boru sürtünme kaybı artar, kesit daralır ve besleme pompaları için gereken enerji patlar. K-Aqua borularının mutlak yüzey pürüzlülüğü k = 0,007 mm'dir. Bu ayna gibi pürüzsüz yüzey, tüm kullanım ömrü boyunca kesinlikle sabit kalır. Sonuç: minimum basınç kaybı, pompayı çalıştırırken büyük enerji tasarrufu ve ne biyofilm ne de lejyonerin tutunamayacağı mutlak hijyen.",
-        "stats": {
-          "0": {
+        "stats": [
+          {
             "label": "Yoğunluk (g/cm³)",
             "val": "0,905",
             "standard": "ISO 1183"
           },
-          "1": {
+          {
             "label": "Erime indeksi (g/10 dak)",
             "val": "0,3",
             "standard": "ISO 1133"
           },
-          "2": {
+          {
             "label": "Çekme elastikiyet modülü (MPa)",
             "val": "800/900 (RCT)",
             "standard": "ISO 527"
           },
-          "3": {
+          {
             "label": "Isı iletkenliği (W/mK)",
             "val": "0,24",
             "standard": "DIN 52612"
           },
-          "4": {
+          {
             "label": "Doğrusal genleşme katsayısı (mm/mK)",
             "val": "0,15 (standart) / 0,035 (fiber)",
             "standard": "DIN 53752"
           },
-          "5": {
+          {
             "label": "Yüzey pürüzlülüğü k (mm)",
             "val": "0,007",
             "standard": "Test tezgahı"
           },
-          "6": {
+          {
             "label": "Kimyasal direnç",
             "val": "Ph değeri 1 ila 14",
             "standard": "DIN 8078"
           }
-        }
+        ]
       },
       "cta": {
         "title": "Geleceğin siluetini şekillendirmeye hazır mısınız?",
@@ -1712,56 +1721,56 @@
         "desc": "Hochleistungspolymersysteme für kritische Infrastrukturen."
       },
       "sticky": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Molekulare Homogenität",
             "p1": "Das K-AQUA PPR-System beruht auf fortgeschrittener Polyfusionstechnologie. Durch exakt kalibrierte Erhitzung verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren, kohärenten Einheit.",
             "p2": "Diese lückenlose Synthese eliminiert jegliche Schwachstellen, die bei mechanischen Verbindungen oder Klebeverfahren unweigerlich entstehen. Das Resultat ist eine Infrastruktur von absoluter Integrität, die hydraulischen Schocks und extremen Druckspitzen souverän widersteht."
           },
-          "1": {
+          {
             "title": "Thermische Ausdauer",
             "p1": "Thermische Fluktuationen sind der Hauptfeind konventioneller Rohrleitungssysteme. K-AQUA Polymere sind durch ein hochverdichtetes Kristallgitter strukturiert, das selbst bei permanenten Betriebstemperaturen von bis zu 95°C strukturelle Deformationen verhindert.",
             "p2": "Die spezifische Wärmekapazität des Materials reduziert zudem die Notwendigkeit extremer Isolierungen, was die Energieeffizienz des Gesamtsystems signifikant steigert."
           },
-          "2": {
+          {
             "title": "Hydraulische Perfektion",
             "p1": "Ein absoluter Rauheitswert von lediglich 0,007 mm definiert die Innenoberfläche der K-AQUA Rohre. Diese mikroskopisch glatte Topografie verhindert jegliche Inkrustation, Mineralablagerungen oder Biofilmbildung.",
             "p2": "Strömungsverluste werden auf ein physikalisches Minimum reduziert, was den Energiebedarf der Pumpensysteme über Jahrzehnte hinweg drastisch senkt. Der konstante Innendurchmesser garantiert eine perpetuelle, unverminderte Durchflussrate."
           },
-          "3": {
+          {
             "title": "Chemische Immunität",
             "p1": "Im Gegensatz zu metallischen Systemen ist das K-AQUA PPR-Netzwerk vollständig immun gegen Oxidation, Lochfraß und galvanische Korrosion. Die inerten Eigenschaften des Copolymers widerstehen einer extremen Bandbreite hochaggressiver Chemikalien und variierender pH-Werte.",
             "p2": "Selbst in hochkorrosiven industriellen Umgebungen oder bei der Beförderung aggressiver Fluide bleibt die molekulare Integrität der Leitung unangetastet."
           }
-        },
+        ],
         "header": {
           "title": "Physikalische Überlegenheit.",
           "desc": "Die technischen Prinzipien, die K-AQUA Systemen ihre überragende Langlebigkeit und operative Sicherheit verleihen."
         }
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Phase 01",
             "title": "Strukturelle Analyse",
             "text": "Evaluation der thermodynamischen und fluiddynamischen Anforderungen. Präzise Berechnung von Druckstufen, thermischer Längenausdehnung und hydraulischen Widerständen durch unsere Ingenieure."
           },
-          "1": {
+          {
             "year": "Phase 02",
             "title": "Materialspezifikation",
             "text": "Selektion des optimalen PPR-Copolymers. Abstimmung der Wandstärken und Dimensionen (20mm bis 160mm) auf die spezifischen Belastungsprofile der industriellen Anwendung."
           },
-          "2": {
+          {
             "year": "Phase 03",
             "title": "Systemische Synthese",
             "text": "Polyfusionsschweißung unter streng kontrollierten thermischen Parametern. Erschaffung eines monolithischen Netzwerks ohne Dichtungen oder mechanische Schwachstellen."
           },
-          "3": {
+          {
             "year": "Phase 04",
             "title": "Betriebsexzellenz",
             "text": "Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberflächen verhindern Inkrustation, während die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert."
           }
-        },
+        ],
         "title": "PROZESS-ARCHITEKTUR",
         "desc": "Von der mathematischen Kalkulation bis zur ewigen Betriebssicherheit. Der Lebenszyklus einer K-AQUA Installation verläuft nach strengen ingenieurstechnischen Protokollen."
       },
@@ -1782,28 +1791,28 @@
           "title": "Anwendungsvektoren.",
           "desc": "Skalierbare Systemlösungen für spezifische industrielle und bautechnische Sektoren."
         },
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Trinkwasserhygiene & Sanitär",
             "desc": "Absolute Lebensmittelechtheit und toxikologische Unbedenklichkeit. Verhinderung von Legionellenbildung durch opakes, lichtundurchlässiges Materialdesign."
           },
-          "1": {
+          {
             "title": "HVAC & Klimatechnik",
             "desc": "Hocheffiziente thermische Isolation durch geringe Wärmeleitfähigkeit. Kondensatminimierung bei Kühlwasserleitungen."
           },
-          "2": {
+          {
             "title": "Druckluftnetzwerke",
             "desc": "Leckagefreie Übertragung bei extremen Arbeitsdrücken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel."
           },
-          "3": {
+          {
             "title": "Schiffbau & Offshore",
             "desc": "Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen."
           },
-          "4": {
+          {
             "title": "Industrieller Fluidtransport",
             "desc": "Kompromisslose Performance beim Transport aggressiver Chemikalien, abrasiver Schlämme oder hochreiner Prozessflüssigkeiten. Das K-AQUA System garantiert eine ununterbrochene, sichere Produktion."
           }
-        }
+        ]
       },
       "stats": {
         "0": {
@@ -1835,53 +1844,53 @@
         "desc": "K-Aqua veri merkezleri – küresel mega projeler için Alman mühendisliği aracılığıyla tavizsiz güvenlik."
       },
       "scroll": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Yapay zeka ve HPC'nin termal zorluğu",
             "desc": "Modern yüksek performanslı bilgi işlem (HPC) ve yapay zeka (AI) rafları, büyük miktarda atık ısı üretir. Hava soğutma tek başına fiziksel sınırlarına ulaşır. Gelecek sıvı soğutmaya ve dolayısıyla doğrudan çip üzerinde kritik bir ısı aktarım aracı olarak suya aittir."
           },
-          "1": {
+          {
             "title": "Korozyon kullanılabilirliğin düşmanıdır",
             "desc": "Metalik boru sistemleri sürekli çalışma sırasında çukurlaşmaya, paslanmaya ve kimyasal ayrışmaya maruz kalır. Veri merkezindeki mikro bir çatlak, sunucu arızalarından dolayı milyonlarca dolarlık hasara neden olabilir. K-Aqua %100 korozyona dayanıklı polipropilen random kopolimer (PP-R) ile bu riski ortadan kaldırıyor."
           },
-          "2": {
+          {
             "title": "Ultrason kaynaklı moleküler bağlantılar",
             "desc": "Geleneksel borular hataya açık contalara veya vidalı bağlantılara ihtiyaç duyarken, K-Aqua sistemleri moleküler düzeyde birleşir. Sonuç: Tamamen homojen, kesinlikle sızdırmaz bir boru hattı ağı. Sızıntılara karşı sıfır tolerans."
           },
-          "3": {
+          {
             "title": "Sürdürülebilirlik ve PUE optimizasyonu",
             "desc": "Düşük PUE değeri (Güç Kullanımı Etkinliği), veri merkezi operatörlerinin kutsal kâsesidir. K-Aqua boruları mükemmel termodinamik özelliklere sahiptir. Daha düşük boru sürtünme kayıpları ve optimum ısı yalıtımı, soğutma suyu sirkülasyonu sırasındaki enerji kayıplarını büyük ölçüde azaltır."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Aşama 1",
             "title": "Akış simülasyonu ve tasarımı",
             "text": "Mühendislerimiz veri merkezinin soğutma gereksinimlerini analiz eder. Hacim akışlarını hesaplıyor, darboğazları ortadan kaldırıyor ve boru ağını maksimum hidrodinamik verimlilik için boyutlandırıyoruz."
           },
-          "1": {
+          {
             "year": "Aşama 2",
             "title": "Hassas prefabrikasyon",
             "text": "Almanya'daki ana fabrikada karmaşık dağıtım makaraları ölçüye göre prefabrik olarak üretilmektedir. Santimetreye kadar hassas, tam otomatik ve laboratuvar koşullarında kalite garantili."
           },
-          "2": {
+          {
             "year": "Aşama 3",
             "title": "Tam zamanında lojistik",
             "text": "Mega projeler teslimat gecikmelerini affetmez. Genel yüklenicilerin katı ritmiyle senkronize olarak küresel lojistiği doğrudan şantiyede koordine ediyoruz."
           },
-          "3": {
+          {
             "year": "Aşama 4",
             "title": "Homojen kaynak",
             "text": "Yerel kurulum ekipleri K-Aqua usta kaynakçıları tarafından sertifikalandırılmıştır. Şantiyedeki moleküler kaynak, %100 sızdırmaz, zayıf noktaları olmayan homojen bir boru yapısını garanti eder."
           },
-          "4": {
+          {
             "year": "Aşama 5",
             "title": "Basınç testi ve sertifikasyonu",
             "text": "Devir teslimden önce aralıksız bir hidrolik basınç ve yük testi gerçekleştirilir. Ancak sistem bu testleri geçtiğinde onay verir ve tam sistem garantisini üstleniriz."
           }
-        },
+        ],
         "title": "Mühendislik süreci",
         "desc": "Hidrodinamik taslaktan nihai kabule kadar: Küresel hiper ölçekli altyapıları ödün vermeden ve rekor sürede nasıl uyguluyoruz."
       },
@@ -1904,24 +1913,24 @@
         "lead": "Sistemimizin her atomik detayı mutlak güvenilirlik ve dayanıklılık için optimize edilmiştir."
       },
       "bento": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Kimyasal nötrlük ve saflık",
             "desc": "Kapalı soğutma devreleri iklimlendirme maddelerini gerektirir. K-Aqua agresif katkı maddelerine karşı tamamen etkisizdir ve yosun ve biyofilm oluşumunu tamamen engeller. Soğutma suyunda kimyasal ayrışma yok, parçacık yok."
           },
-          "1": {
+          {
             "title": "Yüksek binalarda basınç dayanımı",
             "desc": "Dikey yüksek katlı veri merkezlerinde aşırı PN10 / PN20 basınç koşulları altında sabit maksimum yükler için tasarlanmıştır."
           },
-          "2": {
+          {
             "title": "Alman prefabrikasyonu",
             "desc": "Almanya'daki ana fabrikamızda karmaşık dağıtım bloklarını önceden kaynaklıyoruz. Büyük ölçüde azaltılmış inşaat süreleri için tak ve çalıştır teslimatı."
           },
-          "3": {
+          {
             "title": "Depreme Dayanıklı (Sismik Direnç)",
             "desc": "Sert metal sistemlerin aksine, PP-R sistemimiz tanımlanmış bir içsel esnekliğe sahiptir. Acil durum jeneratörlerinden veya güçlü sismik faaliyetlerden kaynaklanan şok dalgaları ve büyük titreşimler, yıkıcı kırılmalara neden olmak yerine emilir."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Ödünsüz güvenlik için hazır mısınız?",
@@ -2030,107 +2039,107 @@
       "title2": "Entfesselt.",
       "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
       "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit – selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Extreme Molmasse",
           "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
         },
-        "1": {
+        {
           "title": "Kristalline Optimierung",
           "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
         }
-      }
+      ]
     },
     "timeline": {
       "title": "Die Evolution der Perfektion",
       "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "1990",
           "title": "Der Ursprung der Toleranzlosigkeit",
           "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K-Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
         },
-        "1": {
+        {
           "year": "2005",
           "title": "Die Polypropylen-Revolution",
           "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
         },
-        "2": {
+        {
           "year": "2015",
           "title": "Die architektonische Symbiose",
           "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet – K-Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PP-RCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
         },
-        "3": {
+        {
           "year": "2026",
           "title": "Die Molekulare Diktatur",
           "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
         }
-      }
+      ]
     },
     "sticky": {
       "eyebrow": "DIE PHYSIK BEZWUNGEN",
       "title": "Die Vier Säulen der Macht.",
       "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Absolutismus in der Qualität",
           "desc": "Jeder Millimeter unserer PP-R und PP-RCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
         },
-        "1": {
+        {
           "title": "Thermische Unverwundbarkeit",
           "desc": "Unsere Faserverbundrohre (K-Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
         },
-        "2": {
+        {
           "title": "Chemische Resistenz",
           "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K-Aqua unangetastet – stoisch, monolithisch, unverwüstlich."
         },
-        "3": {
+        {
           "title": "Molekulare Fusion",
           "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
         }
-      }
+      ]
     },
     "bento": {
       "eyebrow": "INDUSTRIELLE DOMINANZ",
       "title": "Infrastruktur auf Steroiden.",
       "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K-Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Brachiale Extrusion",
           "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
         },
-        "1": {
+        {
           "title": "Zertifizierte Überlegenheit",
           "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
         },
-        "2": {
+        {
           "title": "Hygiene-Diktat",
           "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K-Aqua Systemen unangetastet rein. Keine Ausnahme."
         },
-        "3": {
+        {
           "title": "Ressourcen-Effizienz",
           "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
         }
-      }
+      ]
     },
     "values": {
       "eyebrow": "Unternehmenspolitik",
       "title": "Das Fundament unseres Handelns.",
       "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Kunden-Obsession",
           "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
         },
-        "1": {
+        {
           "title": "Strategische Allianzen",
           "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
         },
-        "2": {
+        {
           "title": "Ökologischer Imperativ",
           "desc": "Nachhaltigkeit ist bei K-Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
         }
-      }
+      ]
     }
   },
   "news": {
@@ -2681,106 +2690,106 @@
         "eyebrow": "Die Säulen der Sicherheit",
         "title": "Die DNA eines perfekten Rohrsystems.",
         "lead": "Wenn internationale Generalunternehmer Milliarden-Projekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Extreme Druckbeständigkeit",
             "desc": "Zertifiziert für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
           },
-          "1": {
+          {
             "title": "Thermische Souveränität",
             "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung – auch bei extremen thermischen Schocks."
           },
-          "2": {
+          {
             "title": "Absolute Hygiene",
             "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
           },
-          "3": {
+          {
             "title": "Brandschutz (B1/B2)",
             "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
           },
-          "4": {
+          {
             "title": "Lebenszyklus-Garantie",
             "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
           }
-        }
+        ]
       },
       "certifications": {
         "eyebrow": "Die Instanzen",
         "title": "Die härtesten Prüfer der Welt.",
         "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "DVGW – Die höchste Instanz",
             "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
             "p2": "Unsere DVGW-Zertifizierung garantiert, dass K-Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
           },
-          "1": {
+          {
             "title": "SKZ – Unabhängige Überwachung",
             "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
             "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
           },
-          "2": {
+          {
             "title": "KTW-BWGL – Absolute Reinheit",
             "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
             "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PP-RCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
           },
-          "3": {
+          {
             "title": "ISO 9001 & 14001 – Systematische Exzellenz",
             "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Zertifizierung belegt ein lückenloses Qualitätsmanagement von der Rohstoffannahme bis zur weltweiten Warenauslieferung.",
             "p2": "Mit ISO 14001 beweisen wir, dass industrielle Höchstleistung und ökologische Verantwortung Hand in Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung und die 100%ige Recyclingfähigkeit unserer PP-Produkte."
           }
-        }
+        ]
       },
       "lab": {
         "eyebrow": "Inside the Lab",
         "title1": "Die Anatomie",
         "title2": "der Perfektion.",
         "desc": "Bevor ein K-Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "MFR (Melt Flow Rate)",
             "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
           },
-          "1": {
+          {
             "title": "OIT (Oxidation Induction Time)",
             "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
           },
-          "2": {
+          {
             "title": "Zeitstand-Innendruckversuch",
             "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert – für tausende von Stunden. Ohne Riss. Ohne Bruch."
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Jahrzehnte der Innovation.",
         "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "1990",
             "title": "Die Geburtsstunde der Norm",
             "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
           },
-          "1": {
+          {
             "year": "1995",
             "title": "ISO 9001 Integration",
             "text": "Die vollständige Zertifizierung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
           },
-          "2": {
+          {
             "year": "2005",
             "title": "DVGW & SKZ Zertifizierung",
             "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-zertifizierten Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
           },
-          "3": {
+          {
             "year": "2015",
             "title": "Globale Normen (WRAS, KTW)",
             "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K-Aqua wird zum globalen Standard für internationale Megaprojekte."
           },
-          "4": {
+          {
             "year": "2024",
             "title": "Next-Gen Quality Analytics",
             "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null-Fehler-Quote."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Qualität, der Sie blind vertrauen können.",
@@ -2811,78 +2820,78 @@
         "eyebrow": "Kinematik ve Malzeme Bilimi",
         "title": "K-Aqua süreci.",
         "lead": "Moleküler granül seviyesinden son basınç testine kadar. Sistemlerimizi yok edilemez kılan fiziksel prensipleri anlayın.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Yüksek basınç altında ekstrüzyon dinamikleri",
             "desc": "Fabrikalarımızda termoplastik şekillendirme 0,1°C'ye kadar hassas sıcaklık kontrolüne tabi tutulmaktadır. Bu kristalin mükemmellik, aşırı basınç ve sıcaklık dalgalanmaları altında bile mikroskobik çatlamayı kesinlikle önleyen kusursuz, homojen bir moleküler yapıyı garanti eder. Malzeme ekstruderimizden çıktığında artık basit bir plastik değil, endüstriyel bir monolittir."
           },
-          "1": {
+          {
             "title": "Hidrostatik yük testleri",
             "desc": "Test laboratuvarlarımızda her boru, gerçek koşulların defalarca ötesine geçen bir hidrostatik simülasyona tabi tutulur. Her türlü normatif gerekliliğin ötesine geçen iç basınçlar uyguluyoruz (SDR sınıfına bağlı olarak 100 bar'a kadar). Bu, kritik altyapıda 50 yılı aşkın tahmini hizmet ömrü boyunca kaynakların bütünlüğünü ve PP-R malzemesinin moleküler elastikiyetini sağlar."
           },
-          "2": {
+          {
             "title": "Polifüzyon kaynak teknolojisi",
             "desc": "Bağlantılar geleneksel sistemlerin zayıf noktasıdır. K-Aqua polifüzyon yoluyla bu riski ortadan kaldırır. Moleküler düzeyde boru ve bağlantı parçası ayrılmaz, sürekli bir bütün halinde birleşir. Aşınacak iplik yok, bozulacak conta yok. Sonuç, sanki tek parçadan dökülmüş gibi davranan bir boru sistemidir."
           },
-          "3": {
+          {
             "title": "Kavitasyon direnci ve akışkanlar mekaniği",
             "desc": "Ultra pürüzsüz iç duvarı (pürüzlülük < 0,007 mm) sayesinde K-Aqua boruları akış direncini sıfıra indirir. Bu, biyofilm oluşumunu engeller ve yüksek hızlı akışlarda mikro kavitasyon etkilerini ortadan kaldırır. Sistemdeki basınç kayıpları büyük ölçüde azaltılarak bağlı pompa sistemlerinin enerji verimliliği endüstriyel ölçekte en üst düzeye çıkarılır."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "isimlendirme",
         "title": "Teknik parametreler.",
         "lead": "Endüstriyel boru teknolojisinin en önemli kelime dağarcığı, özüne göre damıtılmıştır.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "PP-R (Polipropilen Rastgele Kopolimer)",
             "desc": "Moleküler temel. Yüksek sıcaklıklara ve basınçlara karşı olağanüstü direnç sunan, oldukça kristalli bir termoplastik polimer. Bu, uzun ömürlülüğümüzün DNA'sıdır."
           },
-          "1": {
+          {
             "title": "Lineare thermische Ausdehnung",
             "desc": "Sıcaklık değiştiğinde malzemenin uzunluğundaki değişiklik. Fiber takviyeli (fiber) borularımız bu değeri mutlak minimuma (α = 0,035 mm/mK) düşürür, bu da şaftlardaki yapısal stabiliteyi büyük ölçüde artırır."
           },
-          "2": {
+          {
             "title": "Zeitstandfestigkeit",
             "desc": "Sistemin belirli sıcaklıklarda sabit iç basınca onlarca yıl boyunca deforme olmadan veya patlamadan dayanma yeteneği. K-Aqua boruları 50+ yıl dayanacak şekilde kalibre edilmiştir."
           },
-          "3": {
+          {
             "title": "Basınç kaybı katsayısı",
             "desc": "Borunun iç duvarındaki sürtünme nedeniyle akışın enerji kaybını tanımlayan matematiksel bir değer. K-Aqua sistemlerinde nano pürüzsüz yüzeyler nedeniyle bu değer marjinalleştirilmiştir."
           },
-          "4": {
+          {
             "title": "SDR (Standart Boyut Oranı)",
             "desc": "Dış çap (d) ile duvar kalınlığı (s) arasındaki ilişki. Bir SDR 6 tüpü, SDR 11 tüpüne göre çok daha yüksek basınçlara dayanabilir. Sistem tasarımı için doğru seçim çok önemlidir.",
             "label": "50+ YAŞ"
           }
-        }
+        ]
       },
       "timeline": {
         "title": "Düzenleyici sertlik.",
         "desc": "Bizim için standartlar mevzuat değil, mühendislik becerilerimizin başlangıç ​​noktasıdır. Sistemlerimizin yalnızca karşılamakla kalmayıp aynı zamanda hakim olduğu sertifikaların ve standartların kronolojisi.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "DIN 8077/8078",
             "title": "Normatif temel",
             "text": "Alman boru standartlarının temeli. Bu standartları bir hedef olarak değil, mutlak minimum olarak görüyoruz. Dahili toleranslarımız DIN'in gerektirdiğinden %30'a kadar daha katıdır."
           },
-          "1": {
+          {
             "year": "ISO 15874",
             "title": "Küresel sertifikasyon",
             "text": "Sıcak ve soğuk su tesisatlarına yönelik plastik boru sistemlerine yönelik uluslararası kalite mührü. Sistemlerimizin tavizsiz küresel uygulanabilirliğinin kanıtı."
           },
-          "2": {
+          {
             "year": "6 SDR - 11 SDR",
             "title": "Standart Boyut Oranları",
             "text": "Dış çapın duvar kalınlığına kesin oranı. Mühendislerimiz her partiyi, optimum akış hızında maksimum basınç direncini garanti edecek şekilde kalibre eder."
           },
-          "3": {
+          {
             "year": "SKZ ve DVGW",
             "title": "Hijyen ve malzeme testleri",
             "text": "Gıda ve içme suyunun mutlak orijinalliğini onaylayan sertifikalar. Ağır metal yok, sızıntı yok. En yüksek hijyenik talepler için saf, kirlenmemiş akışkan dinamiği."
           }
-        }
+        ]
       },
       "conclusion": {
         "title": "Aşırı durumlarda ayrışmaya karşı direnç.",
@@ -4982,74 +4991,74 @@
       "timeline": {
         "title": "Evolution der Präzision.",
         "desc": "Wie wir seit 30 Jahren die Standards für Rohrleitungssysteme neu definieren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "1995",
             "title": "Die erste technische Dokumentation",
             "text": "Als Pionier in der Kunststoffrohr-Extrusion definierten wir die ersten Standards für PP-R Rohrleitungssysteme in Deutschland. Unsere Spezifikationen wurden zur Blaupause der Industrie."
           },
-          "1": {
+          {
             "year": "2008",
             "title": "ISO-Zertifizierung & Globale Normen",
             "text": "Mit der internationalen Expansion wurden unsere technischen Datenblätter an weltweite Normen angepasst, immer mit der Prämisse: Der deutsche Standard ist die absolute Baseline, keine Ausnahme."
           },
-          "2": {
+          {
             "year": "2015",
             "title": "BIM & Digitale Zwillinge",
             "text": "Einführung hochpräziser Building Information Modeling (BIM) Daten. Milliardenprojekte werden nun virtuell mit K-Aqua Systemen geplant, bevor in der Realität der erste Spatenstich erfolgt."
           },
-          "3": {
+          {
             "year": "2026",
             "title": "Echtzeit-Daten & Predictive Analytics",
             "text": "Unsere heutigen Kataloge und technischen Blätter sind dynamische Datenmodelle, die Echtzeit-Leistungsparameter aus globalen Installationen integrieren. German Engineering im digitalen Zeitalter."
           }
-        }
+        ]
       },
       "sticky": {
         "eyebrow": "Tiefe Einblicke",
         "title": "Die DNA des German Engineering.",
         "lead": "Ein Datenblatt von K-Aqua ist mehr als Zahlenkolonnen. Es ist das Versprechen, dass jedes verbaute Teil exakt das leistet, was Ingenieure kalkuliert haben.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Die Anatomie unserer Spezifikationen",
             "desc": "Ein K-Aqua Datenblatt ist kein bloßes Papier. Es ist das destillierte Resultat aus Tausenden Stunden harter Belastungstests. Wir dokumentieren Toleranzen im Mikrometerbereich, weil bei Megaprojekten ein Millimeter Abweichung katastrophale Folgen haben kann."
           },
-          "1": {
+          {
             "title": "Materialwissenschaft: PP-RCT in Zahlen",
             "desc": "Unsere Downloads liefern tiefgehende molekulare Analysen. Sie erfahren exakt, warum die kristalline Struktur unseres PP-RCT Werkstoffs bei 90°C Dauerbelastung über 50 Jahre stabil bleibt. Daten, die Statikern und Ingenieuren absolute Sicherheit geben."
           },
-          "2": {
+          {
             "title": "Hydraulische Präzision",
             "desc": "Fließgeschwindigkeiten, Druckverlusttabellen, Kavitationsgrenzen. Unsere Dokumente bieten Strömungsmechanik auf akademischem Niveau, aufbereitet für die sofortige Anwendung in der Praxis. Geplant für Hochhäuser, in denen Wasser gegen extreme Schwerkraft transportiert werden muss."
           },
-          "3": {
+          {
             "title": "Zertifiziert. Weltweit.",
             "desc": "SKZ, DVGW, WRAS, KIWA – unsere Download-Sektion ist ein Tresor globaler Gütesiegel. Jedes Zertifikat ist der schriftliche Beweis unserer kompromisslosen Null-Fehler-Politik."
           }
-        }
+        ]
       },
       "bento": {
         "eyebrow": "Die Datenbasis",
         "title": "Spezifikationen ohne Kompromisse.",
         "lead": "Wenn internationale Generalunternehmer Milliarden-Projekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Hier finden Sie die technischen Parameter, die unsere Marktführerschaft definieren.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Technische Datenblätter",
             "desc": "Mikrometergenaue Maßangaben, Druckverlusttabellen und thermische Ausdehnungskoeffizienten. Die Bibel für jeden Planer."
           },
-          "1": {
+          {
             "title": "Zertifikate & Normen",
             "desc": "Der schriftliche Beweis unserer Null-Fehler-Toleranz. Dokumentierte Sicherheit nach ISO, DVGW, SKZ und mehr."
           },
-          "2": {
+          {
             "title": "BIM & CAD Modelle",
             "desc": "Hochpräzise digitale Zwillinge unserer Rohrleitungssysteme für die nahtlose Integration in Revit und ArchiCAD."
           },
-          "3": {
+          {
             "title": "Produktkataloge 2026",
             "desc": "Das gesamte K-Aqua Portfolio auf über 500 Seiten. Vom 20mm Rohr bis zur 500mm Industriearmatur, vollständig dokumentiert."
           }
-        }
+        ]
       },
       "methodology": {
         "subtitle": "Die K-Aqua Methodik",
@@ -5069,32 +5078,32 @@
         "eyebrow": "Direktzugriff",
         "title": "Essenzielle Downloads.",
         "lead": "Laden Sie die wichtigsten Spezifikationen direkt herunter.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Hauptkatalog 2026",
             "type": "PDF, 42 MB"
           },
-          "1": {
+          {
             "title": "Technische Vorgaben PP-RCT",
             "type": "PDF, 12 MB"
           },
-          "2": {
+          {
             "title": "Druckverlust-Tabellen",
             "type": "XLSX, 2 MB"
           },
-          "3": {
+          {
             "title": "BIM/Revit Bibliothek",
             "type": "ZIP, 850 MB"
           },
-          "4": {
+          {
             "title": "SKZ Zertifikat (GER)",
             "type": "PDF, 1 MB"
           },
-          "5": {
+          {
             "title": "DVGW Trinkwasser-Zulassung",
             "type": "PDF, 1.5 MB"
           }
-        }
+        ]
       }
     },
     "bim": {
@@ -5129,52 +5138,52 @@
         "desc": "K-Aqua Ausschreibungstexte – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
       },
       "deepdive": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Absolute Rechtssicherheit (VOB/C)",
             "desc": "In der Planung internationaler Megaprojekte ist Ambiguität der Feind. Ein einzelnes fehlendes Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem desaströsen Millionen-Schaden bedeuten. Unsere Ausschreibungstexte sind millimetergenau nach VOB/C und DIN 18381 normiert. Jede Leistungsbeschreibung ist so kalibriert, dass technische Schlupflöcher, Auslegungsspielräume und juristische Grauzonen restlos eliminiert werden. So garantieren wir, dass die Qualität, die Sie auf dem Papier spezifizieren, exakt die Qualität ist, die auf der Baustelle verbaut wird."
           },
-          "1": {
+          {
             "title": "100% GAEB- & ÖNORM-Kompatibilität",
             "desc": "Ein moderner Planungsprozess erfordert nahtlosen Datenfluss. Unsere Datensätze sind nicht einfach nur Text – sie sind hochstrukturierte, maschinenlesbare Artefakte, die für die sofortige Integration in jede professionelle AVA-Software (Ausschreibung, Vergabe, Abrechnung) entwickelt wurden. Wir liefern native Formate (GAEB 90, GAEB 2000, GAEB DA XML) sowie Datanorm und ÖNORM. Keine Konvertierungsverluste. Kein manueller Nachbesserungsaufwand. Ein digitaler Workflow, der die Effizienz im Planungsprozess um bis zu 40% steigert und gleichzeitig Übertragungsfehler mathematisch ausschließt."
           },
-          "2": {
+          {
             "title": "Die Materialspezifikation: PPR-C (Typ 3)",
             "desc": "Wasserinfrastruktur ist das Nervensystem eines Gebäudes. Unsere Leistungspositionen definieren eindeutig und unmissverständlich die überlegene Molekularstruktur unseres Polypropylens Random Copolymer (PPR-C Typ 3). Sie fixieren entscheidende Parameter wie Zeitstandfestigkeit, Kriechverhalten und thermische Längenausdehnung. Nur durch diese kompromisslose Detailtiefe schützen Sie Ihr Projekt wirksam vor minderwertigen Derivaten und gefährlichen Plagiaten, die bei Spitzendrücken von 20 Bar oder bei Temperaturschwankungen unweigerlich kapitulieren würden."
           },
-          "3": {
+          {
             "title": "Thermodynamische und akustische Präzision",
             "desc": "Premium-Architektur erfordert Premium-Physik. Eine professionelle Ausschreibung erfasst nicht nur das nackte Rohrleitungssystem, sondern das gesamte physikalische Ökosystem. Unsere Texte enthalten detaillierte Vorgaben zu Wärmeverlustkoeffizienten nach dem Gebäudeenergiegesetz (GEG) / EnEV sowie zu strengen Schalldämmmaßen (DIN 4109). Das stellt sicher, dass Ihre Anlage nicht nur mechanisch extrem belastbar ist, sondern auch thermodynamisch hochgradig effizient und akustisch im absoluten Premium-Segment (Flüster-Standard) operiert."
           },
-          "4": {
+          {
             "title": "Nachhaltigkeits-Metriken (ESG & LEED)",
             "desc": "Die Zukunft des Bauens ist zirkulär und CO2-optimiert. Ausschreibungen müssen heute grüne Standards nachweisen. K-Aqua Texte integrieren vollständige EPDs (Environmental Product Declarations) und Lebenszyklusanalysen. Wir definieren den genauen ökologischen Fußabdruck, Rezyklierbarkeit und Energieeffizienz in der Extrusion. Perfekt geeignet für Gebäude, die nach DGNB, LEED, BREEAM oder WELL zertifiziert werden sollen. Spezifizieren Sie grüne Performance, nicht nur grüne Versprechen."
           }
-        }
+        ]
       },
       "timeline": {
-        "items": {
-          "0": {
+        "items": [
+          {
             "year": "Phase 1: Parametrierung",
             "title": "Die Definition von Perfektion.",
             "text": "Der Prozess beginnt in der TGA-Planung. Exakte Definition von Nennweiten, Druckstufen (PN) und SDR-Klassen für Heiß- und Kaltwasser. Wir lassen keine Grauzonen. Jedes Formteil, jede Schelle, jede Muffe wird mathematisch exakt erfasst."
           },
-          "1": {
+          {
             "year": "Phase 2: Vergabe",
             "title": "Submission ohne Kompromisse.",
             "text": "Durch die granulare, kristallklare Struktur unserer Texte werden Angebote echter vergleichbar. Dumping-Preise durch minderwertige Materialien oder versteckte Auslassungen fallen sofort auf. Die Spreu trennt sich vom Weizen."
           },
-          "2": {
+          {
             "year": "Phase 3: Ausführung",
             "title": "Ein Blueprint für die Baustelle.",
             "text": "Die Ausschreibungstexte dienen als bindendes, juristisches Gesetzbuch für die Bauleitung und die Installateure. Jede Schweißnaht, jede Fixierung muss den spezifizierten DVS-Richtlinien entsprechen. Abweichungen werden unmöglich gemacht."
           },
-          "3": {
+          {
             "year": "Phase 4: Lebenszyklus",
             "title": "50+ Jahre absolute Wartungsfreiheit.",
             "text": "Das Resultat einer makellosen Spezifikation ist ein über Jahrzehnte fehlerfreies System. Maximale Resilienz gegen Korrosion, Inkrustation und chemische Degradation. Generationenübergreifende Sicherheit, engineered in Germany."
           }
-        },
+        ],
         "title": "Von der Ausschreibung zur Ewigkeit.",
         "desc": "Ein Ausschreibungstext von K-Aqua ist kein bloßes Dokument. Er ist der Quellcode für die gebaute Realität. Er definiert, schützt und diktiert den gesamten Lebenszyklus eines Gebäudes – von der ersten Skizze bis zur jahrzehntelangen Nutzung."
       },
@@ -5196,66 +5205,66 @@
         "eyebrow": "Architektur der Daten",
         "title": "Spezifikationen, die schützen.",
         "lead": "Entwickelt für TGA-Fachplaner, Architekten und visionäre Ingenieure, die bei der Planung von Milliarden-Projekten keine Fehler tolerieren können.",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "VOB/C & DIN 18381 konform",
             "desc": "Jede einzelne Position entspricht exakt den aktuellsten Vergabe- und Vertragsordnungen für Bauleistungen. Sie sind juristisch absolut auf der sicheren Seite und minimieren das Haftungsrisiko drastisch."
           },
-          "1": {
+          {
             "title": "Native GAEB Formate",
             "desc": "XML, d81, d83. Perfekte Import-Kompatibilität für ORCA, RIB iTWO, Nevaris und alle gängigen AVA-Systeme. Keine Syntaxfehler, keine Workarounds."
           },
-          "2": {
+          {
             "title": "Herstellerneutrale Varianten",
             "desc": "Für öffentliche Vergabeverfahren bieten wir rechtssichere, absolut produktneutrale Beschreibungen, die den Premium-Standard festsetzen, ohne Vergaberichtlinien zu verletzen."
           },
-          "3": {
+          {
             "title": "Detaillierte Zubehör-Matrix",
             "desc": "Vom komplexen Formteil über die Absperrarmatur bis zur thermodynamischen Befestigungsschelle: Die lückenlose Erfassung des gesamten Ökosystems verhindert teure Nachträge."
           },
-          "4": {
+          {
             "title": "BIM-Ready Integration",
             "desc": "Verknüpfen Sie unsere Ausschreibungstexte nahtlos mit unseren hochdetaillierten Revit-Modellen für eine durchgängige, clash-freie 5D-Planung in Echtzeit."
           }
-        }
+        ]
       },
       "grid": {
         "title": "Die Anatomie einer Leistungsposition.",
         "desc": "Wir überlassen nichts dem Zufall. Jede Leistungsposition ist ein Meisterwerk deutscher Ingenieurskunst, komprimiert in Textform. Hier ist, was unsere Texte im Detail abdecken:",
-        "items": {
-          "0": {
+        "items": [
+          {
             "title": "Rohrsysteme SDR 6 / SDR 7.4",
             "desc": "PN 20. Faserverbund-Technologie mit integrierter Längenausdehnungs-Minimierung für maximale Formstabilität."
           },
-          "1": {
+          {
             "title": "Elektroschweißmuffen",
             "desc": "Vollautomatische Schweißdokumentation und 100% homogene, unlösbare und leckagesichere Verbindungen."
           },
-          "2": {
+          {
             "title": "Übergangsverschraubungen",
             "desc": "Entzinkungsfreies Premium-Messing (DZR), dauerhaft und unzertrennlich eingegossen in die PP-R Matrix."
           },
-          "3": {
+          {
             "title": "Absperrarmaturen",
             "desc": "Wartungsfreie Kugel- und Schrägsitzventile, strömungsoptimiert und Totraum-minimiert zur Legionellenprävention."
           },
-          "4": {
+          {
             "title": "Verteilersysteme",
             "desc": "Modulare, hochkapazitive Verteiler für komplexe Steigstränge und Etagenanbindungen in Großprojekten."
           },
-          "5": {
+          {
             "title": "Dämmung nach GEG",
             "desc": "Integrierte Vorgaben zur strikten Vermeidung von Wärmeverlusten und Kondensatbildung (Taupunktunterschreitung)."
           },
-          "6": {
+          {
             "title": "Brandschutz-Manschetten",
             "desc": "R90/R120 konforme, hochreaktive Schottungssysteme für sichere Wand- und Deckendurchführungen."
           },
-          "7": {
+          {
             "title": "System-Befestigungen",
             "desc": "Präzise Fest- und Loslager-Spezifikationen zur kontrollierten Aufnahme von thermischer Längendehnung."
           }
-        }
+        ]
       },
       "cta": {
         "title": "Beginnen Sie mit der Spezifikation.",
@@ -5614,48 +5623,48 @@
       "desc": "Tiefgreifendes technisches Fachwissen, systemarchitektonische Analysen und kompromisslose Ingenieursdaten zu K-Aqua Rohrsystemen."
     },
     "scroll": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "PP-RCT Matrix-Architektur",
           "desc": "Die strukturelle Integrität unserer Polypropylen-Random-Copolymerisate mit modifizierter Kristallinität (PP-RCT) definiert die Grenzen der thermischen Belastbarkeit neu. Unter extremen Druck- und Temperaturzyklen bietet unsere hexagonale Gitterstruktur eine mikroskopische Spannungsverteilung, die Materialermüdung faktisch eliminiert. Ein Paradigmenwechsel in der Fluidmechanik."
         },
-        "1": {
+        {
           "title": "Thermodynamische Isolation",
           "desc": "Unsere koextrudierten Isolationsschichten basieren auf geschlossenzelliger Polyurethan-Technologie. Der Wärmedurchgangskoeffizient (U-Wert) wird auf ein theoretisches Minimum reduziert. Energieverlust ist keine Variable mehr in der Berechnung Ihrer Anlagen – er wird durch unsere Systemarchitektur im Keim erstickt. Absolute thermische Kontrolle."
         },
-        "2": {
+        {
           "title": "Zertifizierte Sterilität",
           "desc": "In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-zertifiziert, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene."
         },
-        "3": {
+        {
           "title": "Zerstörungsfreie Prüfung (NDT)",
           "desc": "Jedes Rohrleitungssystem durchläuft unsere automatisierte Ultraschall- und Röntgendiagnostik. Wir analysieren Schweißnähte auf der Submillimeter-Ebene. Anomalien, Lunker oder Einschlüsse werden durch KI-gestützte Fehlererkennung identifiziert, bevor das Produkt die Fertigungsstraße verlässt. 100% Traceability. Null Toleranz für Defekte."
         }
-      }
+      ]
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "PHASE I",
           "title": "Molekulare Synthese",
           "text": "Der Prozess beginnt auf atomarer Ebene. Katalytische Polymerisation unter extremen Druckbedingungen formt das Basis-PP-RCT-Granulat. Spezifische Nukleierungsmittel induzieren die Bildung der widerstandsfähigen Beta-Kristallstruktur."
         },
-        "1": {
+        {
           "year": "PHASE II",
           "title": "Präzisions-Koextrusion",
           "text": "Das Granulat wird bei 240°C aufgeschmolzen und durch kalibrierte Werkzeuge gepresst. Die simultane Extrusion mehrerer Funktionsschichten (Glasfaser-Compound, Deckschicht) erfolgt mit mikrometergenauer Laserkontrolle."
         },
-        "2": {
+        {
           "year": "PHASE III",
           "title": "Thermische Stabilisierung",
           "text": "Ein komplexes Kühlprotokoll fixiert die makromolekulare Orientierung. Der kontrollierte Temperaturgradient verhindert Eigenspannungen und garantiert die absolute Dimensionsstabilität der Rohrgeometrie."
         },
-        "3": {
+        {
           "year": "PHASE IV",
           "title": "Hyper-Auditierung",
           "text": "Hydraulische Berstdrucktests, Zeitstand-Innendruckversuche bei 95°C und zerstörungsfreie Materialanalysen. Nur Systeme, die das Belastungslimit der Norm um 300% übertreffen, erhalten die finale Freigabe."
         }
-      },
+      ],
       "title": "Genese der Integrität",
       "desc": "Vom molekularen Katalysator bis zum hyper-auditierten Endprodukt. Ein sequentieller Einblick in unsere kompromisslose Fertigungsmatrix."
     },
@@ -5689,56 +5698,56 @@
   },
   "bim": {
     "sticky": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Maximale Datentiefe (LOI 500)",
           "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
         },
-        "1": {
+        {
           "title": "Kollisionsfreie Planung",
           "desc": "In Milliarden-Projekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
         },
-        "2": {
+        {
           "title": "Parametrische Intelligenz",
           "desc": "K-Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
         },
-        "3": {
+        {
           "title": "Lifecycle & Facility Management",
           "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
         }
-      },
+      ],
       "eyebrow": "Workflow Excellence",
       "title": "Digitale Zwillinge in Perfektion.",
       "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "Phase 1",
           "title": "Konzeption & TGA-Planung",
           "text": "Integration der K-Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
         },
-        "1": {
+        {
           "year": "Phase 2",
           "title": "Ausführungsplanung",
           "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
         },
-        "2": {
+        {
           "year": "Phase 3",
           "title": "Ausschreibung & Vergabe",
           "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K-Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
         },
-        "3": {
+        {
           "year": "Phase 4",
           "title": "Vorfertigung & Montage",
           "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
         },
-        "4": {
+        {
           "year": "Phase 5",
           "title": "As-Built & Betrieb",
           "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
         }
-      },
+      ],
       "title": "Der Lebenszyklus der K-Aqua BIM-Daten",
       "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
     },
@@ -5754,24 +5763,24 @@
       "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
     },
     "bento": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Native Revit® Familien",
           "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
         },
-        "1": {
+        {
           "title": "VDI 3805 Konformität",
           "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
         },
-        "2": {
+        {
           "title": "IFC4 Zertifizierung",
           "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
         },
-        "3": {
+        {
           "title": "Exakte thermische Daten",
           "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
         }
-      }
+      ]
     },
     "cta": {
       "title": "Laden Sie das K-Aqua BIM-Paket herunter.",
@@ -5782,56 +5791,56 @@
   },
   "support": {
     "sticky": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Prädiktive Systemüberwachung",
           "desc": "Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht."
         },
-        "1": {
+        {
           "title": "Militärische Reaktionszeiten",
           "desc": "Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution."
         },
-        "2": {
+        {
           "title": "Architektur-Audits",
           "desc": "Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet."
         },
-        "3": {
+        {
           "title": "Direkter Entwickler-Zugang",
           "desc": "Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene."
         }
-      },
+      ],
       "eyebrow": "Eskalations-Protokolle",
       "title": "Souveränität in der Krise",
       "lead": "Wie wir Systemintegrität unter extremen Last-Bedingungen aufrechterhalten."
     },
     "timeline": {
-      "items": {
-        "0": {
+      "items": [
+        {
           "year": "T-0:00",
           "title": "Anomalie-Erkennung",
           "text": "Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall."
         },
-        "1": {
+        {
           "year": "T+0:02",
           "title": "Diagnostische Triage",
           "text": "KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster."
         },
-        "2": {
+        {
           "year": "T+0:15",
           "title": "Intervention",
           "text": "Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten."
         },
-        "3": {
+        {
           "year": "T+1:00",
           "title": "Root-Cause-Analyse",
           "text": "Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention."
         },
-        "4": {
+        {
           "year": "T+4:00",
           "title": "Post-Mortem-Protokoll",
           "text": "Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit."
         }
-      },
+      ],
       "title": "Der Ernstfall: Chronik einer Intervention",
       "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
     },
@@ -5854,28 +5863,28 @@
       "eyebrow": "Architektur & Consulting",
       "title": "Konstruiert für die Ewigkeit",
       "lead": "Unsere Dienstleistungen gehen weit über klassischen Support hinaus. Wir entwerfen, bauen und härten Ihre Kerninfrastruktur mit kompromissloser Ingenieurskunst.",
-      "items": {
-        "0": {
+      "items": [
+        {
           "title": "Zero-Downtime Migrationen",
           "desc": "Wir transferieren Petabytes an Daten zwischen Legacy-Systemen und modernen Clustern ohne eine einzige Millisekunde Ausfallzeit. Perfekt choreografierte Datenströme."
         },
-        "1": {
+        {
           "title": "Hardware-Level Optimierung",
           "desc": "Kernel-Tuning, Speicher-Allokations-Optimierung und Netzwerk-Stack-Anpassungen für maximale Durchsatzraten."
         },
-        "2": {
+        {
           "title": "Sicherheits-Enklaven",
           "desc": "Aufbau isolierter, kryptographisch gesicherter Subnetzwerke für Ihre sensibelsten Unternehmensdaten."
         },
-        "3": {
+        {
           "title": "API- & Backend-Schmiede",
           "desc": "Entwicklung robuster, ratenlimitierter und extrem performanter APIs, die Millionen von Requests pro Sekunde mühelos verarbeiten."
         },
-        "4": {
+        {
           "title": "Dedizierte Notstrom-Konzepte",
           "desc": "Physische und digitale Redundanz-Pläne. Vom Rechenzentrums-Failover bis zur Geo-Redundanz über drei Kontinente."
         }
-      }
+      ]
     },
     "metrics": {
       "badge": "Absolute Verlässlichkeit",
@@ -5883,12 +5892,12 @@
       "title2": "Ausfallsicherheit.",
       "p1": "Wir arbeiten nach den Prinzipien der deutschen Ingenieurskunst: Was gebaut wird, muss funktionieren. Immer. Unter allen Umständen.",
       "p2": "Unsere Systeme sind nach ISO 27001 zertifiziert und erfüllen die strengsten Compliance-Vorgaben weltweit. Jeder Eingriff in Ihre Infrastruktur wird auditiert, kryptographisch signiert und unveränderlich protokolliert.",
-      "items": {
-        "0": "99.999% garantierte Uptime (SLA-gestützt)",
-        "1": "End-to-End Verschlüsselung aller Telemetrie-Daten",
-        "2": "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
-        "3": "Monatliche Penetrationstests durch unabhängige Red-Teams"
-      }
+      "items": [
+        "99.999% garantierte Uptime (SLA-gestützt)",
+        "End-to-End Verschlüsselung aller Telemetrie-Daten",
+        "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
+        "Monatliche Penetrationstests durch unabhängige Red-Teams"
+      ]
     },
     "cta": {
       "title1": "Bereit für",

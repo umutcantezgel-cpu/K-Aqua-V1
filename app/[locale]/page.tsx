@@ -325,31 +325,31 @@ export default async function Page({ params }: Props) {
         <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-6 z-10">
             <SectionHead
-              eyebrow="Global Reach"
+              eyebrow={tHomex('grEyebrow')}
               title={
                 <>
-                  Internationale <span className="text-primary">Handelsrouten</span>
+                  {tHomex('grTitle1')} <span className="text-primary">{tHomex('grTitle2')}</span>
                 </>
               }
-              lead="Von Deutschland in die Welt: Unsere K-Aqua Rohrsysteme sind das Rückgrat der modernsten Megaprojekte weltweit. Von NEOM in Saudi-Arabien bis zu hochkomplexen Industrieanlagen in Singapur."
+              lead={tHomex('grLead')}
               align="left"
             />
             <div className="flex flex-col gap-4 mt-4 border-s-2 border-primary/20 ps-6">
               <div className="flex flex-col gap-1">
-                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">HQ & Produktion</span>
-                <span className="text-lg font-heading text-foreground">Deutschland (Frankfurt)</span>
+                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">{tHomex('grHqLabel')}</span>
+                <span className="text-lg font-heading text-foreground">{tHomex('grHqValue')}</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">Key Export Markets</span>
-                <span className="text-lg font-heading text-foreground">Saudi-Arabien (NEOM), VAE, Katar, Lateinamerika</span>
+                <span className="text-sm font-bold text-muted-foreground uppercase tracking-widest">{tHomex('grExportLabel')}</span>
+                <span className="text-lg font-heading text-foreground">{tHomex('grExportValue')}</span>
               </div>
             </div>
             <Button variant="ghost" href="/referenzen" icon={<ArrowRight className="w-4 h-4" />} className="w-max mt-4">
-              Weltweite Projekte entdecken
+              {tHomex('grCta')}
             </Button>
           </div>
           <div className="relative w-full h-full min-h-[300px] flex items-center justify-center lg:justify-end">
-            <svg className="ka-maparc w-full max-w-[500px]" viewBox="0 0 640 260" role="img" aria-label="Exportrouten ab Deutschland">
+            <svg className="ka-maparc w-full max-w-[500px] overflow-visible" viewBox="-20 -20 680 300" role="img" aria-label="Exportrouten ab Deutschland">
               <g className="arcs">
                 <path pathLength={1} style={{'--d': '.1s'} as React.CSSProperties} d="M96,200 Q240,40 400,118"></path>
                 <path pathLength={1} style={{'--d': '.35s'} as React.CSSProperties} d="M96,200 Q330,-20 560,150"></path>
@@ -358,23 +358,23 @@ export default async function Page({ params }: Props) {
               </g>
               <g className="hub">
                 <circle cx="96" cy="200" r="7"></circle>
-                <text x="96" y="228">Frankfurt (HQ)</text>
+                <text x="96" y="232" textAnchor="middle">Frankfurt (HQ)</text>
               </g>
               <g className="dot" style={{'--d': '.55s'} as React.CSSProperties}>
                 <circle cx="400" cy="118" r="5"></circle>
-                <text x="400" y="102">Dubai</text>
+                <text x="400" y="100" textAnchor="middle">Dubai</text>
               </g>
               <g className="dot" style={{'--d': '.8s'} as React.CSSProperties}>
                 <circle cx="560" cy="150" r="5"></circle>
-                <text x="560" y="134">Singapur</text>
+                <text x="560" y="132" textAnchor="middle">Singapur</text>
               </g>
               <g className="dot" style={{'--d': '1.05s'} as React.CSSProperties}>
                 <circle cx="216" cy="84" r="5"></circle>
-                <text x="216" y="68">Lateinamerika</text>
+                <text x="216" y="66" textAnchor="middle">Lateinamerika</text>
               </g>
               <g className="dot" style={{'--d': '1.3s'} as React.CSSProperties}>
                 <circle cx="470" cy="208" r="5"></circle>
-                <text x="470" y="236">NEOM</text>
+                <text x="470" y="236" textAnchor="middle">NEOM</text>
               </g>
             </svg>
           </div>
