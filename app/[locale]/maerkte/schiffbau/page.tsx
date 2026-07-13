@@ -83,20 +83,24 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   const timelineEvents = [
     {
+      year: 'Phase 1',
       title: t('timeline1Title'),
-      description: t('timeline1Desc')
+      text: t('timeline1Desc')
     },
     {
+      year: 'Phase 2',
       title: t('timeline2Title'),
-      description: t('timeline2Desc')
+      text: t('timeline2Desc')
     },
     {
+      year: 'Phase 3',
       title: t('timeline3Title'),
-      description: t('timeline3Desc')
+      text: t('timeline3Desc')
     },
     {
+      year: 'Phase 4',
       title: t('timeline4Title'),
-      description: t('timeline4Desc')
+      text: t('timeline4Desc')
     }
   ];
 
@@ -113,16 +117,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </>
         }
         description={t('heroDesc')}
-        primaryCta={{ label: t('heroBtnPrimary'), href: "/projektanfrage" }}
-        secondaryCta={{ label: t('heroBtnSecondary'), href: "/ressourcen/downloads" }}
-        asset={
-          <PremiumAssetPlaceholder 
-            label="Hero Visual Schiffbau" 
-             
-            className="w-full h-full object-cover"
-          />
-        }
-      />
+      >
+        <Button variant="default" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
+          {t('heroBtnPrimary')}
+        </Button>
+        <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="text-lg px-8 py-6 rounded-full">
+          {t('heroBtnSecondary')}
+        </Button>
+      </ParallaxHero>
 
       {/* 2) Manifesto / Deep Dive Intro */}
       <section className="py-32 bg-background border-b border-card-border">
@@ -257,7 +259,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             align="center"
           />
         </div>
-        <HorizontalTimeline events={timelineEvents} />
+        <HorizontalTimeline items={timelineEvents} />
       </section>
 
       {/* 7) Final Text Section - The German Engineering Promise */}

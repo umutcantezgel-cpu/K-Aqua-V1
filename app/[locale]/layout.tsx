@@ -16,6 +16,7 @@ import { LiquidEngine } from '@/components/ui/LiquidEngine';
 import WaterCursor from '@/components/ui/WaterCursor';
 import { getOrganizationJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
+import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
 
 export function generateStaticParams() {
   return coreLocales.map((locale) => ({ locale }));
@@ -51,11 +52,15 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
+      <head>
+        <link rel="stylesheet" href="/assets/kaqua-elemente.css" />
+      </head>
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`}`}>
         <ShapeDefs />
         <LiquidEngine />
         <WaterCursor />
         <JsonLd schema={orgJsonLd} />
+        <KAquaElementeInitializer />
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="light"
@@ -73,6 +78,7 @@ export default async function LocaleLayout({
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
+        <script src="/assets/kaqua-elemente.js" defer></script>
       </body>
     </html>
   );

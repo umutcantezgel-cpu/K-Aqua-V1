@@ -1,43 +1,47 @@
 'use client';
 
 import { Link } from '@/lib/i18n/navigation';
+import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
 import { useTranslations } from 'next-intl';
 /* eslint-disable react/jsx-no-literals */
-import { Logo } from '@/components/ui/Logo';
 
 import FooterSitemap from './FooterSitemap';
 import FooterTrustBadges from './FooterTrustBadges';
 import CodayAttribution from './CodayAttribution';
 
-
 export default function Footer() {
   const t = useTranslations();
 
   return (
-    <footer className="bg-[oklch(0.18_0.02_260)] text-[oklch(0.95_0.02_260)] relative overflow-hidden pt-24 pb-8 md:pt-32 md:pb-12">
+    <footer className="bg-[#050505] text-white relative overflow-hidden pt-24 pb-6 md:pt-40 md:pb-8 selection:bg-white/20">
       {/* Background Glow */}
-      <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.15),transparent_65%)] pointer-events-none" />
+      <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.12),transparent_70%)] pointer-events-none" />
+      
+      {/* Optional Noise Texture Layer */}
+      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.03] pointer-events-none mix-blend-overlay" />
 
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10 flex flex-col gap-16 md:gap-24">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10 flex flex-col">
         
-        {/* Top Area: Brand & Links */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_2.5fr] gap-16 lg:gap-8">
-          
-          {/* Brand */}
-          <div className="flex flex-col gap-8 md:gap-12">
-            <div>
-              <Logo height={56} className="text-current mb-6" />
-              <p className="text-body font-body opacity-70 max-w-sm leading-relaxed">
-                Innovation, Nachhaltigkeit und höchste Präzision für zukunftsweisende Rohrsysteme weltweit.
-              </p>
-            </div>
+        {/* Top Area: Massive Brand Statement */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 border-b border-white/10 pb-16 md:pb-24 mb-16 md:mb-24">
+          <div className="max-w-4xl">
+            <h2 className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
+              {t('footer.tagline')}
+            </h2>
           </div>
-
-          {/* Sitemap */}
-          <div className="w-full">
-            <FooterSitemap />
+          <div className="shrink-0 flex flex-col gap-4">
+            <ButtonPrimary 
+              href="/kontakt" 
+              className="px-8 py-4 !text-base"
+            >
+              Projekt anfragen
+            </ButtonPrimary>
           </div>
+        </div>
 
+        {/* Middle Area: Sitemap */}
+        <div className="w-full mb-16 md:mb-24">
+          <FooterSitemap />
         </div>
 
         {/* Trust Badges Full Width */}
@@ -45,30 +49,42 @@ export default function Footer() {
           <FooterTrustBadges />
         </div>
 
-        {/* Bottom Bar: Legal & Localization */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-8 border-t border-white/10">
-          
-          <div className="flex flex-wrap justify-center items-center gap-6 text-sm font-body opacity-70">
-            <span>
-              {t('footer.copyright')} {t('footer.rights')}
-            </span>
-            <Link href="/impressum" className="hover:opacity-100 hover:text-white transition-opacity">
-              {t('footer.imprint')}
-            </Link>
-            <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
-              {t('footer.privacy')}
-            </Link>
-            <Link href="/zip" className="text-sky-400/70 hover:text-sky-400 hover:opacity-100 transition-colors flex items-center gap-1.5 ml-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-sky-400 shadow-[0_0_8px_rgba(56,189,248,0.8)] animate-pulse" />
-              ZIP Puzzle
-            </Link>
+        {/* Bottom Area: Mega Logo & Legal */}
+        <div className="mt-16 md:mt-24">
+          {/* Mega Logo */}
+          <div className="w-full flex justify-center items-center opacity-5 mb-16 pointer-events-none select-none">
+            <h1 className="text-[15vw] leading-none font-bold tracking-tighter text-white whitespace-nowrap">
+              K-AQUA
+            </h1>
           </div>
 
-          <div className="flex justify-center md:justify-end">
-            <CodayAttribution />
+          {/* Bottom Bar: Legal & Localization */}
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-6 pt-6 border-t border-white/10">
+            
+            <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 text-[11px] uppercase tracking-widest font-medium opacity-50">
+              <span>
+                &copy; {new Date().getFullYear()} {t('footer.rights')}
+              </span>
+              <div className="flex items-center gap-8">
+                <Link href="/impressum" className="hover:opacity-100 hover:text-white transition-opacity">
+                  {t('footer.imprint')}
+                </Link>
+                <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
+                  {t('footer.privacy')}
+                </Link>
+                <Link href="/zip" className="text-sky-400/70 hover:text-sky-400 hover:opacity-100 transition-colors flex items-center gap-1.5 ml-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-sky-400 shadow-[0_0_8px_rgba(56,189,248,0.8)] animate-pulse" />
+                  ZIP Puzzle
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex justify-center lg:justify-end">
+              <CodayAttribution />
+            </div>
           </div>
         </div>
-
+        
       </div>
     </footer>
   );

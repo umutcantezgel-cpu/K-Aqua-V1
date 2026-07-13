@@ -1,0 +1,24 @@
+<!--
+  K-Aqua Element: Wasser-Wellen-Divider (3 Varianten)
+  Segment 02 · Iconography & Marken-Motive
+  KI-Notiz: Ruhiger Wasser-Übergang zwischen zwei Sektionen. fill = Farbe der eingehenden Sektion, umgebender Hintergrund = ausgehende Sektion. Variante 1 = flache Doppelwelle (subtle-Fläche), 2 = weiche Dünung (primary-soft), 3 = einzelne Woge (inverse, vor Footer/CTA-Band). Mit transform:scaleY(-1) spiegeln.
+  Voraussetzung: kaqua-elemente.css + kaqua-elemente.js sind global eingebunden.
+  Dieses Markup ist beliebig oft und auf beliebig vielen Seiten wiederverwendbar.
+-->
+<!-- SNIPPET: wave-divider -->
+<div class="ka-wave">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,32 C240,52 480,12 720,32 C960,52 1200,12 1440,32 L1440,60 L0,60 Z" fill="var(--background-subtle, #F3F0F6)"></path>
+  </svg>
+</div>
+<div class="ka-wave">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,26 C180,48 360,10 540,28 C720,46 900,14 1080,32 C1260,50 1380,26 1440,30 L1440,60 L0,60 Z" fill="var(--primary-soft, #F1E9F8)"></path>
+  </svg>
+</div>
+<div class="ka-wave">
+  <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,38 Q360,10 720,38 Q1080,66 1440,38 L1440,60 L0,60 Z" fill="var(--inverse-surface, #231D2E)"></path>
+  </svg>
+</div>
+<!-- /SNIPPET: wave-divider -->

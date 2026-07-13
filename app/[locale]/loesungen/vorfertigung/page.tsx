@@ -53,28 +53,28 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const TIMELINE_EVENTS = [
     {
       title: t('timeline.events.0.title'),
-      description: t('timeline.events.0.desc'),
-      date: t('timeline.events.0.date')
+      text: t('timeline.events.0.desc'),
+      year: t('timeline.events.0.date')
     },
     {
       title: t('timeline.events.1.title'),
-      description: t('timeline.events.1.desc'),
-      date: t('timeline.events.1.date')
+      text: t('timeline.events.1.desc'),
+      year: t('timeline.events.1.date')
     },
     {
       title: t('timeline.events.2.title'),
-      description: t('timeline.events.2.desc'),
-      date: t('timeline.events.2.date')
+      text: t('timeline.events.2.desc'),
+      year: t('timeline.events.2.date')
     },
     {
       title: t('timeline.events.3.title'),
-      description: t('timeline.events.3.desc'),
-      date: t('timeline.events.3.date')
+      text: t('timeline.events.3.desc'),
+      year: t('timeline.events.3.date')
     },
     {
       title: t('timeline.events.4.title'),
-      description: t('timeline.events.4.desc'),
-      date: t('timeline.events.4.date')
+      text: t('timeline.events.4.desc'),
+      year: t('timeline.events.4.date')
     }
   ];
 
@@ -91,11 +91,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </>
         }
         description={t('hero.desc')}
-        primaryCta={{ label: t('hero.cta1'), href: "/projektanfrage" }}
-        secondaryCta={{ label: t('hero.cta2'), href: "/ressourcen/downloads" }}
-        backgroundImage="/images/hero-vorfertigung.jpg"
-        fallbackAsset={<PremiumAssetPlaceholder label="Hero Vorfertigung"  />}
-      />
+      >
+        <Button variant="default" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
+          {t('hero.cta1')}
+        </Button>
+        <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="text-lg px-8 py-6 rounded-full">
+          {t('hero.cta2')}
+        </Button>
+      </ParallaxHero>
 
       {/* 2) Introduction Copy */}
       <section className="py-32 bg-background relative overflow-hidden">
@@ -125,7 +128,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* 3) Sticky Scroll Reveal Storytelling */}
       <section className="bg-card">
-        <StickyScrollReveal items={STICKY_SCROLL_ITEMS} />
+        <StickyScrollReveal content={STICKY_SCROLL_ITEMS} />
       </section>
 
       {/* 4) Bento Grid Specs */}
@@ -222,7 +225,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             align="center"
           />
         </div>
-        <HorizontalTimeline events={TIMELINE_EVENTS} />
+        <HorizontalTimeline items={TIMELINE_EVENTS} />
       </section>
 
       {/* 7) Deep Tech Specifications Copy (The "German Engineering" manifesto) */}

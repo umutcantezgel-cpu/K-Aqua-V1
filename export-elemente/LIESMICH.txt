@@ -1,0 +1,136 @@
+K-AQUA ELEMENT-BIBLIOTHEK — EXPORT
+==================================
+
+Alle Elemente aus dem K-Aqua Element-Archiv, exportiert als GLOBALE
+Bibliothek + einzelne Markup-Bausteine. Kernprinzip:
+
+  CSS und JS werden EINMAL pro Seite eingebunden.
+  Markup kann danach BELIEBIG OFT eingesetzt werden — auf jeder Seite,
+  mehrfach pro Seite, ohne dass Styles oder Skripte doppelt geladen werden.
+  Nichts "verschwindet" beim Seitenwechsel: die Bibliothek gehört ins
+  globale Layout (Head/Footer), die Markup-Bausteine in die Seiten.
+
+DATEIEN
+-------
+kaqua-elemente.css   Gesamtes Element-CSS inkl. Token-Basis (Light +
+                     OLED-Dark via data-theme am <html>). Alle Regeln
+                     tragen Hex-Fallbacks (Light) und funktionieren auch
+                     ohne eigenes Token-Setup.
+kaqua-elemente.js    Initialisiert alle interaktiven Elemente (Canvas-FX,
+                     Menüs, Reveals, Stepper, CountUp …). Mehrfach-Aufruf
+                     sicher (Guard: data-ka-init). Für dynamisch nach-
+                     geladenes Markup: window.KAquaElemente.init()
+markup/              Ein HTML-Baustein pro Element, nummeriert nach
+                     Segment — in dieser Reihenfolge nacheinander
+                     integrierbar (01 → 11). Jeder Baustein enthält die
+                     KI-Notiz als Kommentar.
+KI-PROMPT.txt        Übergabetext für eine KI, die die Integration in die
+                     bestehende Website ausführt.
+
+EINBINDUNG (einmal, global)
+---------------------------
+  <html data-theme="light">   (oder "dark" — OLED)
+  <head>
+    <link rel="stylesheet" href="kaqua-elemente.css">
+  </head>
+  <body>
+    … Markup-Bausteine …
+    <script src="kaqua-elemente.js" defer></script>
+  </body>
+
+Schriften: Outfit + Inter — entweder lokal (fonts/outfit-variable-latin.woff2,
+fonts/inter-variable-latin.woff2 via @font-face) oder Google Fonts:
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Inter:wght@100..900&display=swap');
+
+SEQUENZIELLE INTEGRATION
+------------------------
+Empfohlene Reihenfolge = Ordner-Nummern:
+  01 Tokens (Basis, zuerst) → 02 Motive → 03 UI → 04 Dekor → 05 Sections
+  → 06 Layout → 07 Trenner → 08-11 FX (nach Bedarf)
+Jeder Schritt ist in sich geschlossen: Baustein-Markup einsetzen, fertig —
+CSS/JS sind bereits global da. Pro Element gilt die KI-Notiz im Kommentar
+(Einsatzort, Grenzen, Konfiguration über data-Attribute).
+
+WIEDERVERWENDUNG
+----------------
+- Gleiche Klasse mehrfach pro Seite: erlaubt (JS initialisiert jede Instanz).
+- Einzige Ausnahme: IDs in SVG-Defs (cert-ring: ka-cert-orbit-1) müssen pro
+  Instanz eindeutig sein — bei Mehrfachnutzung ID + href anpassen.
+- Alle Farben über semantische Tokens: Anpassung zentral in kaqua-elemente.css
+  (Abschnitt "01 · css-variables"), nie im Markup.
+
+INVENTAR
+--------
+01/01  css-variables  — CSS-Variablen (:root)
+01/02  color-palette  — Farbpalette
+01/03  typography  — Typografie-Skala
+01/04  radii-shadows  — Radien, Schatten & Fokus-Ring
+
+02/01  logo-drop  — Logo (Tropfen + Wortmarke)
+02/02  wave-divider  — Wasser-Wellen-Divider (3 Varianten)
+02/03  cert-ring  — Zertifikats-Ring
+02/04  image-placeholder  — Bild-Platzhalter (Produkt/Werk)
+02/05  drop-detail  — Tropfen-Detail (Marken-Signatur)
+
+03/01  button-primary  — Primary-Button (mit Tropfen-Detail)
+03/02  button-ghost  — Ghost-Button
+03/03  chips  — Chips & Badges
+03/04  stat-kennzahl  — Kennzahlen-Stat
+03/05  rating-stars  — Bewertungs-Sterne
+03/06  section-head  — Section-Head
+03/07  spec-card  — Datenblatt-Karte (Rohrquerschnitt)
+03/08  quick-info  — Quick-Info-Box (Standort)
+
+04/01  dot-grid-bg  — Dot-Grid-Hintergrund
+04/02  hero-wash  — Hero-Wash (Licht-Verlauf)
+04/03  glass-panel  — Glas-Fläche
+04/04  divider-line  — Trennlinie
+04/05  hover-lift  — Hover-Lift (Karten-Utility)
+
+05/01  hero  — Hero-Sektion
+05/02  product-card  — Produkt-Karte
+05/03  referenz-card  — Referenz-Karte
+05/04  spec-rows  — Spezifikations-Tabelle
+05/05  cta-band  — CTA-Band
+05/06  kontakt-block  — Kontakt-Block
+
+06/01  header  — Header (Glas-Navigation)
+06/02  footer  — Footer
+06/03  grid-helpers  — Raster-Helfer & Bento
+
+07/01  aqua-line  — Aqua-Linie (fließender Trenner) · 4 Varianten
+07/02  aqua-band  — Aqua-Band (Wasserspiegel) · 4 Varianten
+
+08/01  shapegrid  [JS]  — ShapeGrid (Hexagon)
+08/02  dotfield  [JS]  — DotField (Bulge + Glow)
+08/03  dotgrid-shockwave  [JS]  — DotGrid + Shockwave
+08/04  lightrays  [JS]  — LightRays
+08/05  siderays  [JS]  — SideRays (zweifarbig)
+08/06  metaballs  [JS]  — MetaBalls
+08/07  ribbons  [JS]  — Ribbons (Mouse-Trail)
+
+09/01  flowingmenu  [JS]  — FlowingMenu (Edge-Reveal)
+09/02  staggeredmenu  [JS]  — StaggeredMenu (Panel)
+09/03  infinitemenu  [JS]  — InfiniteMenu (3D-Ring)
+09/04  scrollreveal  [JS]  — ScrollReveal (wortweise)
+09/05  fadecontent  [JS]  — FadeContent
+09/06  animatedcontent  [JS]  — AnimatedContent (Slide-In)
+09/07  scrollstack  — ScrollStack
+
+10/01  blurtext  [JS]  — BlurText
+10/02  rotatingtext  [JS]  — RotatingText
+10/03  scrambledtext  [JS]  — ScrambledText
+10/04  scrollvelocity  [JS]  — ScrollVelocity (Marquee)
+10/05  variableproximity  [JS]  — VariableProximity
+10/06  shinytext  — ShinyText
+10/07  texttype  [JS]  — TextType (Typewriter)
+
+11/01  borderglow  [JS]  — BorderGlow Card
+11/02  logoloop  [JS]  — LogoLoop (Trust-Band)
+11/03  stepper  [JS]  — Stepper (Multi-Step)
+11/04  countup  [JS]  — CountUp (Kennzahlen)
+11/05  progressindicator  [JS]  — ProgressIndicator
+11/06  rotatingearth  [JS]  — RotatingEarth (Wireframe)
+11/07  textparallax  [JS]  — TextParallax (Sticky-Scroll)
+11/08  floatingiconshero  [JS]  — FloatingIconsHero
+11/09  maparc  [JS]  — MapArc (Export-Bögen)

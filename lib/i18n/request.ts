@@ -2,7 +2,7 @@ import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 
 const AVAILABLE_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt-BR', 'pt', 'ru', 'tr', 'zh'
+  'ar', 'de', 'en', 'en-GB', 'es', 'es-ES', 'fr', 'it', 'nl', 'pl', 'pt-BR', 'pt', 'ru', 'tr', 'zh'
 ];
 
 export default getRequestConfig(async ({ requestLocale }) => {

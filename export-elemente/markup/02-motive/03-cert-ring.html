@@ -1,0 +1,18 @@
+<!--
+  K-Aqua Element: Zertifikats-Ring
+  Segment 02 · Iconography & Marken-Motive
+  KI-Notiz: Kreisbadge mit Text auf der Kreisbahn für die ISO-Trias + GENAU-System — das B2B-Trust-Siegel. Bewusst nicht rotiert (technische Präzision statt Handgemacht-Look). Die textPath-href muss zur path-id passen; bei mehreren Instanzen IDs eindeutig halten.
+  Voraussetzung: kaqua-elemente.css + kaqua-elemente.js sind global eingebunden.
+  Dieses Markup ist beliebig oft und auf beliebig vielen Seiten wiederverwendbar.
+-->
+<!-- SNIPPET: cert-ring -->
+<svg class="ka-certring" width="110" height="110" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+  <defs><path id="ka-cert-orbit-1" d="M55,55 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0"></path></defs>
+  <circle cx="55" cy="55" r="52" fill="none" stroke="var(--accent-strong, #2E8CA6)" stroke-width="1.5" stroke-dasharray="2.5 3.5"></circle>
+  <circle cx="55" cy="55" r="27" fill="none" stroke="var(--card-border, #E7E3EC)" stroke-width="1"></circle>
+  <path d="M55 42.5 C55 42.5 62 50 62 55 a7 7 0 1 1 -14 0 C48 50 55 42.5 55 42.5 Z" fill="var(--primary, #5B2D8C)"></path>
+  <text font-size="8.5" font-family="Inter, sans-serif" font-weight="700" fill="var(--primary, #5B2D8C)" letter-spacing="2.2">
+    <textPath href="#ka-cert-orbit-1" startOffset="50%" text-anchor="middle">ISO 9001 · ISO 14001 · ISO 50001 · GENAU ·</textPath>
+  </text>
+</svg>
+<!-- /SNIPPET: cert-ring -->

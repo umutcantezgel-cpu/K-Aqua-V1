@@ -79,13 +79,7 @@ export default function Template({ children }: TemplateProps) {
 
   return (
     <>
-      <motion.div
-        variants={contentVariants}
-        initial="initial"
-        animate="animate"
-      >
-        {children}
-      </motion.div>
+      {children}
 
       {showOverlay && (
         <motion.div

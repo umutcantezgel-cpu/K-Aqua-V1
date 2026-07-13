@@ -1,0 +1,13 @@
+<!--
+  K-Aqua Element: Hover-Lift (Karten-Utility)
+  Segment 04 · Dekor-Elemente
+  KI-Notiz: Utility-Klasse für jede klickbare Karte: Hover hebt −3px und wechselt von --shadow-diffuse auf --shadow-lift. Nur transform/box-shadow animieren — nie Farben (Theme-Wechsel bleibt sofortig).
+  Voraussetzung: kaqua-elemente.css + kaqua-elemente.js sind global eingebunden.
+  Dieses Markup ist beliebig oft und auf beliebig vielen Seiten wiederverwendbar.
+-->
+<!-- SNIPPET: hover-lift -->
+<div class="ka-hover-lift" style="background:var(--card, #ffffff);border:1px solid var(--card-border, #E7E3EC);border-radius:24px;padding:24px 28px;max-width:300px;box-shadow:var(--shadow-diffuse, 0 1px 2px rgba(43,30,60,.05), 0 8px 24px -8px rgba(43,30,60,.12))">
+  <p style="font:700 18px var(--font-heading, Outfit, sans-serif);color:var(--foreground, #221C2C)">Produktfinder</p>
+  <p style="font:400 14px/1.6 var(--font-body, Inter, sans-serif);color:var(--muted-foreground, #6C6579);margin-top:4px">Fahren Sie mit der Maus über die Karte.</p>
+</div>
+<!-- /SNIPPET: hover-lift -->

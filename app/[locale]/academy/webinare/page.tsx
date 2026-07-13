@@ -12,8 +12,8 @@ import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { Globe, Award, Shield, Layers, Factory, Wrench, ArrowRight } from '@/components/ui/icon';
 
-export async function generateMetadata() {
-
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   return constructMetadata({
     title: "Webinare & Technical Training | K-Aqua",
     description: "K-Aqua Webinare – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",

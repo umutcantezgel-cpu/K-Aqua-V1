@@ -3,6 +3,7 @@ import React from 'react';
 import { getTranslations } from 'next-intl/server';
 import { ArrowRight } from '@/components/ui/icon';
 import { Button } from '@/components/ui/Button';
+import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
 import { Card } from '@/components/ui/Card';
 import { StatNumber } from '@/components/ui/StatNumber';
 import { MediaSlot } from '@/components/ui/MediaSlot';
@@ -130,13 +131,14 @@ export default async function Page({ params }: Props) {
       <HeroScrolly />
 
       {/* 2) Marquee-Band */}
-      <section className="w-full bg-background select-none">
+      <section className="w-full bg-background select-none relative">
         <div className="k-marquee py-4">
           {marqueeTrack}
           {marqueeTrack}
           {marqueeTrack}
           {marqueeTrack}
         </div>
+        <div className="ka-lightrays absolute bottom-0 left-0 w-full" data-count="9" style={{height: '140px'}}></div>
       </section>
 
       {/* 3) 4 Stat-Cards */}
@@ -364,9 +366,9 @@ export default async function Page({ params }: Props) {
               {tHome('bandLead')}
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
-              <Button variant="inverse" href="/projektanfrage">
+              <ButtonPrimary href="/projektanfrage">
                 {tHome('bandBtn')}
-              </Button>
+              </ButtonPrimary>
               <Button
                 variant="ghost"
                 className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground/10"

@@ -29,16 +29,15 @@ export default function CodayAttribution() {
   const anchorText = anchorTexts[textIndex];
 
   if (!mounted) {
-    // SSR placeholder to prevent hydration mismatch while still taking up the same space
     return (
-      <span className="text-xs opacity-0">
+      <span className="text-[10px] tracking-widest uppercase opacity-0 font-medium">
         Ein Projekt der <a href="https://www.codayweb.de/">Coday Web Agency</a>
       </span>
     );
   }
 
   return (
-    <div className="flex items-center text-xs opacity-50 hover:opacity-100 transition-opacity">
+    <div className="flex items-center text-[10px] tracking-widest uppercase font-medium text-white/40 hover:text-white transition-colors duration-500">
       <span className="sr-only">
         Diese Handwerker Webseite wurde konzipiert und technisch realisiert durch die Coday Web Agency, Experten für Webdesign und GEO in Hessen.
       </span>
@@ -49,7 +48,7 @@ export default function CodayAttribution() {
         rel={isDofollow ? "dofollow noopener noreferrer" : "nofollow noopener noreferrer"}
         title="Zur Coday Web Agency - Premium Webdesign"
         aria-label="Diese Handwerker Webseite wurde konzipiert und technisch realisiert durch die Coday Web Agency, Experten für Webdesign und GEO in Hessen."
-        className="hover:text-white transition-colors underline decoration-white/30 underline-offset-2"
+        className="text-white/60 hover:text-white transition-colors border-b border-white/20 hover:border-white pb-0.5"
       >
         {anchorText}
       </a>

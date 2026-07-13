@@ -1,0 +1,78 @@
+SEGMENT 29 VON 27+2 (OPTIONAL, NACH SEGMENT 28) — UI-Baustein: Wasserfarben-Cursor „Water Cursor"
+
+Dieser Prompt ist in sich geschlossen: Zusammen mit den Dateien in diesem Segment-Ordner enthält er alles, was zur Umsetzung nötig ist. Das Segment ist ein nachträgliches, optionales Add-on und setzt lediglich voraus, dass die Integration grundsätzlich eingerichtet ist (Segment 01).
+
+AUFGABE
+
+Einen markengetreuen Custom-Cursor ergänzen: Der System-Mauszeiger wird durch einen soliden Punkt in Marken-Violett ersetzt, dahinter zieht ein glattes, elastisches Band (Ribbon) der Maus federnd nach — konstante Dicke, spitz zulaufende Enden, deckende flache Farbe, Design direkt am React-Bits-Ribbons-Background ausgerichtet (Feder-Physik: baseSpring 0.03, baseFriction 0.9, maxAge 500, pointCount 50, speedMultiplier 0.6). Klick löst einen „Stein im Teich"-Effekt aus (kurzer Sog, dann radiale Spritzer + Ringwelle); über interaktiven Elementen dockt das Band magnetisch an und der Punkt wächst. Referenz und visuelle Abnahmegrundlage ist die Katalogseite „K-Aqua Water Cursor Studio.html" im Design-Projekt. Es entsteht eine neue Datei; bestehende Dateien erhalten nur eine zweizeilige Ergänzung (ein Import, ein Komponenten-Mount).
+
+KONTEXT ZUM ZIELPROJEKT (gilt vollständig, auch wenn dieses Segment einzeln ausgeführt wird)
+
+Das Zielprojekt ist das GitHub-Repository umutcantezgel-cpu/K-Aqua-V1, Hauptzweig main. Es enthält die fertige, bereits live geschaltete Firmen-Website des Rohrsystem-Herstellers K-Aqua (erreichbar unter k-aqua-v1.vercel.app) in drei Sprachen: Deutsch, Englisch und Arabisch. Arabisch läuft von rechts nach links. Die Website ist produktiv und funktioniert — deshalb wird ausschließlich hinzugefügt; bestehender Code wird niemals umgebaut, umbenannt, gelöscht oder eigenmächtig verbessert.
+
+So ist das Zielprojekt aufgebaut (alles ist vorhanden, nichts davon neu einrichten):
+- Next.js mit App-Router. Die Seiten liegen unter app/[locale]/ mit deutschen Routennamen.
+- TypeScript im strikten Modus.
+- Tailwind CSS in Version 4. Farben kommen aus semantischen Token-Klassen. Diese Komponente ist damit vereinbar: Sie liest ihre Farben zur Laufzeit aus den CSS-Custom-Properties des Projekts (--primary, --accent-strong, --aqua-300; Canvas2D-Parsing versteht auch oklch()) und enthält Hex-Werte nur als Fallback, falls eine Variable nicht existiert. Es werden keine neuen Farb-Tokens in das Projekt geschrieben.
+- Mehrsprachigkeit über next-intl. Dieses Segment enthält keinerlei sichtbaren Text — es werden keine Schlüssel in den Sprachdateien ergänzt, die Paritätsprüfung bleibt unberührt. RTL (Arabisch) ist unkritisch: Der Effekt ist richtungsfrei.
+- Wiederverwendbare Bausteine liegen unter components/ui, Seitenabschnitte unter components/sections.
+
+Die beiliegende Code-Datei ist fertig geschrieben und geprüft. Sie wird unverändert kopiert — nicht neu geschrieben, nicht umformatiert, nicht umbenannt und nicht verbessert.
+
+WAS DIE KOMPONENTE TECHNISCH IST (zur Einordnung, kein Handlungsbedarf)
+
+Eine einzelne Client-Komponente ('use client') ohne jede Abhängigkeit — kein Three.js, kein ogl, keine neuen Pakete, keine Änderungen an package.json. Sie rendert ein pointer-events:none-Overlay (ein WebGL2-Canvas + ein Punkt-Div) und verdrahtet ihre Listener global. Der Wasserfarben-Look entsteht in einem einzigen Fullscreen-Fragment-Shader. Performance-Schutzmaßnahmen sind eingebaut: interne Auflösung 80 % der CSS-Pixel, ein Draw-Call pro Frame, feste Uniform-Puffer ohne Allokationen pro Frame, Pause bei verstecktem Tab, vollständiges Cleanup beim Unmount (keine Memory-Leaks bei Routenwechseln).
+
+Die Komponente deaktiviert sich selbst vollständig (native Maus bleibt sichtbar und funktional) bei: Touch/grobem Zeiger, prefers-reduced-motion: reduce, fehlendem WebGL2 oder enabled={false}. Auf Mobilgeräten passiert also schlicht nichts — kein Sonderfall nötig.
+
+BEILIEGENDE DATEIEN UND ZIELORTE
+
+- code/WaterCursor.tsx → components/ui/WaterCursor.tsx
+
+VORGEHEN
+
+1. Die Datei unverändert an den genannten Zielort kopieren.
+2. Im Root-Layout (die Layout-Datei, die das <body>-Element rendert — dieselbe Datei, in der Segment 28 <ShapeDefs /> eingefügt hat) die Komponente importieren und genau einmal direkt nach dem öffnenden <body>-Tag mounten:
+   import WaterCursor from '@/components/ui/WaterCursor';
+   …
+   <body …>
+     <WaterCursor />
+     …
+   Nichts anderes an der Datei ändern. (Falls das Projekt den Alias @/ nicht nutzt, den relativen Pfad verwenden.)
+3. Prüfskripte des Projekts ausführen (Produktions-Build, Lint, Typprüfung). Sprachdateien wurden nicht berührt; die Paritätsprüfung läuft unverändert durch.
+4. Kurzen Eintrag in docs/INTEGRATIONS-PROTOKOLL.md ergänzen (Segmentnummer 29, Datum, Prüfergebnis, Besonderheiten) und dieses Segment in der CHECKLISTE.txt des Paket-Ordners als zusätzliche Zeile nachtragen und abhaken.
+
+KONFIGURATION (zur Information, Standardwerte sind die Abnahme-Einstellung)
+
+Alle Props sind optional; ohne Props entspricht das Verhalten der freigegebenen Katalogseite. Verfügbar:
+- tint: 'violet' (Standard) | 'aqua' | 'mono' — Bandfarbe aus den Projekt-Tokens
+- colors: string[] — explizite Bandfarbe (erster Eintrag zählt), überschreibt tint
+- trailScale (Banddicke, Standard 1), trailMs (Nachzieh-Dauer/maxAge, Standard 500)
+- speed (0.6), spring (0.03), friction (0.9) — Ribbons-Physik-Parameter
+- splashScale (Klick-Spritzer-Intensität, Standard 1), magnetStrength (0–1, Standard 0.6)
+- magneticSelector — CSS-Selektor der Magnet-Ziele; Standard deckt a, button, Formularelemente, [role="button"] und [data-cursor-magnetic] ab. Eigene Komponenten am einfachsten per data-cursor-magnetic-Attribut anschließen.
+- enabled: boolean — z. B. routenabhängig abschaltbar
+
+Hinweis Abnahme-Look: Die Standardwerte (tint="violet", ohne weitere Props) entsprechen der freigegebenen Katalogseite.
+
+VERBINDLICHE REGELN
+
+- Auf dem für diese Integration angelegten Arbeitszweig arbeiten, niemals direkt auf dem Hauptzweig.
+- Nur die eine genannte Datei anlegen und exakt die eine genannte Ergänzung im Root-Layout machen (Import + Mount). Keine weiteren Dateien anfassen, nichts umsortieren, nichts umformatieren.
+- Keine neuen Pakete installieren; die Komponente hat bewusst keine Abhängigkeiten.
+- Kein globales CSS ergänzen — die Komponente bringt ihre Styles (inkl. cursor:none-Regeln) selbst mit und räumt sie beim Unmount wieder ab.
+- Bei Unklarheiten oder Widersprüchen zum vorgefundenen Zustand: anhalten und nachfragen statt raten.
+
+PRÜFUNG (ABNAHME)
+
+Das Segment gilt erst als abgeschlossen, wenn alle folgenden Punkte erfüllt sind:
+- Alle Prüfskripte des Projekts laufen fehlerfrei durch.
+- Die Datei liegt am Zielort; Import und Mount existieren genau einmal im Root-Layout.
+- Sichtprüfung Desktop: Der System-Cursor ist ausgeblendet, der violette Punkt folgt der Maus, ein glattes violettes Band zieht elastisch nach und läuft beim Anhalten in den Punkt ein. Klick erzeugt Spritzer + Ringwelle — auch bei Klick auf Buttons/Links (Klicks kommen normal bei der UI an). Über Buttons wächst der Punkt und das Band dockt an.
+- Sichtprüfung Formulare: Über Text-Eingabefeldern erscheint der normale Text-Cursor (I-Beam).
+- Sichtprüfung Mobil/Touch (oder Emulation): Effekt komplett inaktiv, normale Bedienung.
+- Kurztest Routenwechsel: mehrfach zwischen Seiten navigieren — keine Konsolen-Fehler, Effekt funktioniert weiter.
+
+RÜCKBAU, FALLS ETWAS SCHIEFGEHT
+
+Die kopierte Datei löschen und die zwei ergänzten Zeilen (Import, Mount) wieder entfernen.

@@ -55,3 +55,8 @@
 - **Prüfläufe:** Build, Lint, Typecheck und i18n-Check (scripts/check-locale-parity.mjs) erfolgreich bestanden. Keine Fehler.
 - **Besonderheiten:** Sämtliche verbleibende Deep-Komponenten (HomeDeep, ProductsDeep, SolutionsDeep, FinderDeep, CO2Deep, AcademyDeep, TrustDeep, PartnerDeep, ServiceDeep, AboutDeep, NewsDeep, ContactDeep, CareerDeep, RefsDeep) in die Zielordner überführt und Typfehler durch Einfügen erforderlicher Non-Null-Assertions behoben. 
 - **Fallbacks:** Die englischen Übersetzungsblöcke der Segmente 14 bis 26 wurden mittels Skript (inject-all.js) als Fallback in alle fehlenden Sprachen injiziert, wie vom Benutzer gewünscht. Die sekundäre Button-Variante in `Button.tsx` war bereits vorhanden. Abschlussprüfung (Segment 27) erfolgreich.
+
+## 2026-07-12 — Segment 29
+- **Prüfläufe:** Build erfolgreich bestanden. Keine Fehler.
+- **Besonderheiten:** WaterCursor Komponente integriert. Kein CHECKLISTE.txt gefunden.
+

@@ -4,7 +4,6 @@ import { Link } from '@/lib/i18n/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { GEO_MARKETS } from '@/lib/data/geo';
 
 const sitemapGroups = [
   {
@@ -28,12 +27,7 @@ const sitemapGroups = [
       { href: '/maerkte/klimaanlagen', labelId: 'hvac', fallback: 'Klima & Kühlung' },
       { href: '/maerkte/industrie', labelId: 'industrial', fallback: 'Industrieanlagen' },
       { href: '/maerkte/schiffbau', labelId: 'shipbuilding', fallback: 'Schiffbau' },
-      { href: '/maerkte/landwirtschaft', labelId: 'agriculture', fallback: 'Landwirtschaft' },
-      ...GEO_MARKETS.map(market => ({
-        href: `/maerkte/${market.slug}`,
-        labelId: `geo_${market.slug}`,
-        fallback: market.city
-      }))
+      { href: '/maerkte/landwirtschaft', labelId: 'agriculture', fallback: 'Landwirtschaft' }
     ],
     fallback: 'Märkte'
   },
@@ -103,7 +97,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
     >
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between py-4 lg:py-0 lg:mb-4 text-start font-heading font-bold text-tiny tracking-wider uppercase opacity-60 hover:opacity-100 transition-opacity select-none lg:cursor-default"
+        className="flex w-full items-center justify-between py-4 lg:py-0 lg:mb-6 text-start font-heading font-bold text-[10px] tracking-[0.2em] uppercase text-white/50 hover:text-white transition-colors select-none lg:cursor-default"
       >
         <span>{group.fallback}</span>
         <ChevronDown 
@@ -119,15 +113,18 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="flex flex-col gap-3 overflow-hidden lg:hidden pb-4"
+            className="flex flex-col gap-3 overflow-hidden lg:hidden pb-6"
           >
             {group.links.map((link) => (
               <li key={link.href}>
                 <Link
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   href={link.href as any}
-                  className="text-body text-small opacity-75 hover:opacity-100 hover:text-white transition-colors py-1 inline-flex items-center"
+                  className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
                 >
-                  {link.fallback}
+                  <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1">
+                    {link.fallback}
+                  </span>
                 </Link>
               </li>
             ))}
@@ -136,14 +133,17 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
       </AnimatePresence>
 
       {/* Desktop Always Visible Content */}
-      <ul className="hidden lg:flex flex-col gap-3">
+      <ul className="hidden lg:flex flex-col gap-3.5">
         {group.links.map((link) => (
           <li key={link.href}>
             <Link
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               href={link.href as any}
-              className="text-body text-small opacity-75 hover:opacity-100 hover:text-white transition-colors py-1 inline-flex items-center"
+              className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
             >
-              {link.fallback}
+              <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1.5">
+                {link.fallback}
+              </span>
             </Link>
           </li>
         ))}

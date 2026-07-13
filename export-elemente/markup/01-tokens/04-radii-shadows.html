@@ -1,0 +1,17 @@
+<!--
+  K-Aqua Element: Radien, Schatten & Fokus-Ring
+  Segment 01 · Design-Tokens
+  KI-Notiz: Zwei Eckenradien (16px Elemente, 24px Karten) plus Vollrund für Chips. Schatten diffus (Ruhe) und lift (Hover, mit −3px Y). Jede Interaktion bekommt einen 2px-Fokus-Ring in --ring.
+  Voraussetzung: kaqua-elemente.css + kaqua-elemente.js sind global eingebunden.
+  Dieses Markup ist beliebig oft und auf beliebig vielen Seiten wiederverwendbar.
+-->
+<!-- SNIPPET: radii-shadows -->
+<div class="ka-rs">
+  <div><div class="ka-rs-box" style="border-radius:16px"></div><i>--radius · 16px</i></div>
+  <div><div class="ka-rs-box" style="border-radius:24px"></div><i>--radius-lg · 24px</i></div>
+  <div><div class="ka-rs-box" style="border-radius:9999px;height:48px;margin-block:12px"></div><i>--radius-full</i></div>
+  <div><div class="ka-rs-box" style="border-radius:16px;box-shadow:var(--shadow-diffuse,0 1px 2px rgba(43,30,60,.05),0 8px 24px -8px rgba(43,30,60,.12))"></div><i>--shadow-diffuse</i></div>
+  <div><div class="ka-rs-box" style="border-radius:16px;box-shadow:var(--shadow-lift,0 2px 4px rgba(43,30,60,.06),0 16px 40px -12px rgba(43,30,60,.22));transform:translateY(-3px)"></div><i>--shadow-lift · −3px Y</i></div>
+  <div><div class="ka-rs-box" style="border-radius:16px;outline:2px solid var(--ring,#9A6FC4);outline-offset:2px"></div><i>Fokus-Ring · 2px --ring</i></div>
+</div>
+<!-- /SNIPPET: radii-shadows -->

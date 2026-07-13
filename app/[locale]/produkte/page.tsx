@@ -200,20 +200,23 @@ export default async function ProduktePage({ params }: Props) {
           </Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             {range.map((r, i) => {
-              const Icon = RANGE_ICONS[i] as React.ComponentType<{ className?: string }>;
               return (
                 <Reveal key={r.t} delay={i * 0.08} className="h-full">
-                  <Card className="h-full flex flex-col gap-4 text-start p-8 hover:border-primary transition-colors">
-                    <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0">
-                      <Icon className="w-6 h-6" />
+                  <div className="ka-speccard h-full w-full">
+                    <svg className="ka-speccard-ring" width="84" height="84" viewBox="0 0 84 84" aria-hidden="true">
+                      <circle cx="42" cy="42" r="38" fill="none" stroke="var(--primary, #5B2D8C)" strokeWidth="7"></circle>
+                      <circle cx="42" cy="42" r="28" fill="none" stroke="var(--accent, #3AA6C0)" strokeWidth="4"></circle>
+                      <circle cx="42" cy="42" r="20" fill="var(--primary-soft, #F1E9F8)"></circle>
+                      <text x="42" y="46" textAnchor="middle" fontFamily="Outfit, sans-serif" fontWeight="800" fontSize="12" fill="var(--primary, #5B2D8C)">{"PPR"}</text>
+                    </svg>
+                    <div className="ka-speccard-body">
+                      <h3>{r.t}</h3>
+                      <p>{r.d}</p>
+                      <div className="ka-speccard-chips">
+                        <span>{"SDR 7,4"}</span><span>{"PN 20"}</span><span>{"d20–d630"}</span>
+                      </div>
                     </div>
-                    <h3 className="font-heading font-bold text-xl text-foreground">
-                      {r.t}
-                    </h3>
-                    <p className="text-body text-muted-foreground leading-relaxed">
-                      {r.d}
-                    </p>
-                  </Card>
+                  </div>
                 </Reveal>
               );
             })}

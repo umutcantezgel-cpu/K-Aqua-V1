@@ -83,6 +83,15 @@ export default async function UnternehmenPage({ params }: Props) {
                 {t('intro.desc')}
               </p>
             </Reveal>
+            <Reveal delay={0.2}>
+              <div className="mt-16 flex justify-center">
+                <div className="ka-countup-row">
+                  <div className="ka-countup-stat"><span className="ka-countup" data-to="27">{"0"}</span><i>{"Märkte weltweit"}</i></div>
+                  <div className="ka-countup-stat"><span className="ka-countup" data-to="45">{"0"}</span><i>{"Jahre Erfahrung"}</i></div>
+                  <div className="ka-countup-stat"><span className="ka-countup" data-to="3" data-suffix="x">{"0"}</span><i>{"ISO-zertifiziert"}</i></div>
+                </div>
+              </div>
+            </Reveal>
           </div>
         </section>
 
@@ -127,8 +136,8 @@ export default async function UnternehmenPage({ params }: Props) {
                 </div>
               </Reveal>
               <Reveal delay={0.2}>
-                <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(var(--primary),0.1)]">
-                   <PremiumAssetPlaceholder label="Polymer Chain Visualizer" className="h-full w-full" />
+                <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(var(--primary),0.1)] bg-card border border-card-border">
+                   <div className="ka-metaballs w-full h-full" data-count="9"></div>
                 </div>
               </Reveal>
             </div>

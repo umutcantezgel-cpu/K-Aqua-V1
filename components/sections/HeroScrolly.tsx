@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Factory, Ruler, Award, Globe as GlobeIcon, Droplet } from 'lucide-react';
 import { ArrowRight } from '@/components/ui/icon';
 import { Button } from '@/components/ui/Button';
+import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
 
 import { IconChip } from '@/components/ui/IconChip';
 import { Reveal } from '@/components/ui/Reveal';
@@ -156,9 +157,9 @@ export default function HeroScrolly() {
       </Reveal>
       <Reveal delay={0.24}>
         <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
-          <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
+          <ButtonPrimary href="/produkte" className="w-full sm:w-auto">
             {t('ctaProducts')}
-          </Button>
+          </ButtonPrimary>
           <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
             {t('ctaContact')}
           </Button>
@@ -213,12 +214,12 @@ export default function HeroScrolly() {
     );
   });
 
-  const showStatic = !mounted || isMobile || !!prefersReduced;
+  const showReducedDesktop = mounted && prefersReduced;
 
   return (
     <>
       {/* Static Mode container: visible on mobile / tablet or prefers-reduced-motion */}
-      <div className={mounted ? (showStatic ? "block" : "hidden") : "block lg:hidden"}>
+      <div className={`block lg:hidden ${showReducedDesktop ? '!block' : ''}`}>
         <section className="relative overflow-hidden bg-background">
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
@@ -237,8 +238,8 @@ export default function HeroScrolly() {
         </section>
       </div>
 
-      {/* Scrolly storytelling Mode container: visible on desktop with animations enabled */}
-      <div className={mounted ? (showStatic ? "hidden" : "block") : "hidden lg:block"}>
+      {/* Scrollytelling container: visible only on desktop */}
+      <div className={`hidden lg:block ${showReducedDesktop ? '!hidden' : ''}`}>
         <div ref={wrapRef} className="k-scrolly">
           <div className="k-scrolly-stage">
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
