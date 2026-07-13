@@ -47,8 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   let desc = `Entdecken Sie unsere hochwertigen ${category} Produkte.`;
 
   try {
-    if (t.has(`${catKey}.advTitle`)) {
-      title = `${t(`${catKey}.advTitle`)} - ${category.toUpperCase()}`;
+    if (t.has(`${catKey}.seoTitle`)) {
+      title = `${t(`${catKey}.seoTitle`)} | K-Aqua`;
     }
     if (t.has(`${catKey}.seoText`)) {
       desc = t(`${catKey}.seoText`).slice(0, 150) + "...";
