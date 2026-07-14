@@ -59,6 +59,8 @@ export default function ProductFAQ({ category }: Props) {
   if (lowerCat.includes('pipes')) faqCat = 'pipes';
   else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) faqCat = 'fittings';
   else if (lowerCat.includes('valve')) faqCat = 'valves';
+  else if (lowerCat.includes('accessories')) faqCat = 'accessories';
+  else if (lowerCat.includes('tools')) faqCat = 'tools';
 
   // Extract FAQ items safely
   let rawFaqs: { q: string, a: string }[] = [];

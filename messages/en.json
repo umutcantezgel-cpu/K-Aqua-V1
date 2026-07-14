@@ -1875,7 +1875,12 @@
         ],
         "seoText": "The right assortment of Accessories is crucial for the longevity of a pipe network. K-Aqua offers a comprehensive accessories matrix: from the thermodynamic fastening clamp to absorb linear expansion to the EPDM flat gasket for flange connections. Only with the perfectly matched K-Aqua accessories can you ensure compliance with all GEG and DIN 18381 specifications.",
         "guideTitle": "Essential Accessories for Code-Compliant Installations",
-        "guideText": "A professional, long-lasting piping installation requires much more than just pipes and fittings; it relies heavily on the correct implementation of supporting accessories. K-Aqua offers a meticulously engineered range of accessories designed to ensure that your plumbing network complies with all strict international building codes and structural standards. The most critical aspect of installing any plastic piping system is managing thermal expansion. As the system heats and cools, the pipes will naturally lengthen and contract. K-Aqua’s specialized rubber-lined pipe clamps are designed to absorb this movement securely. By configuring these clamps as either 'Fixed Points' (tightened to direct expansion) or 'Sliding Points' (loosened to allow longitudinal movement), installers can safely control the physical stresses placed on the network, preventing pipe sagging or catastrophic fatigue at the joints. Additionally, our accessory portfolio includes high-strength backing flanges and specialized EPDM flat gaskets for bolting plastic systems directly to heavy industrial pumps or steel infrastructure. We also provide ingenious repair plugs, which allow plumbers to quickly and permanently seal accidental drill holes hidden behind finished walls without the need for massive demolition, saving both the contractor and the client significant time and money during final construction phases."
+        "guideText": "A professional, long-lasting piping installation requires much more than just pipes and fittings; it relies heavily on the correct implementation of supporting accessories. K-Aqua offers a meticulously engineered range of accessories designed to ensure that your plumbing network complies with all strict international building codes and structural standards. The most critical aspect of installing any plastic piping system is managing thermal expansion. As the system heats and cools, the pipes will naturally lengthen and contract. K-Aqua’s specialized rubber-lined pipe clamps are designed to absorb this movement securely. By configuring these clamps as either 'Fixed Points' (tightened to direct expansion) or 'Sliding Points' (loosened to allow longitudinal movement), installers can safely control the physical stresses placed on the network, preventing pipe sagging or catastrophic fatigue at the joints. Additionally, our accessory portfolio includes high-strength backing flanges and specialized EPDM flat gaskets for bolting plastic systems directly to heavy industrial pumps or steel infrastructure. We also provide ingenious repair plugs, which allow plumbers to quickly and permanently seal accidental drill holes hidden behind finished walls without the need for massive demolition, saving both the contractor and the client significant time and money during final construction phases.",
+        "faq": [
+          { "q": "Are the accessories suitable for both cold and hot water?", "a": "Yes, our accessories such as pipe clamps and flat gaskets are designed for use in cold water, hot water, and heating systems, exhibiting excellent thermal stability." },
+          { "q": "Can I use third-party accessories?", "a": "To claim the full K-Aqua system warranty, it is strictly required to use original accessories. Third-party components may lead to leakage problems or mechanical failures." },
+          { "q": "Are there special accessories for industrial use?", "a": "Yes, our range includes heavy-duty backing flanges with a steel core, special EPDM gaskets, and reinforced pipe clamps that can easily withstand extreme industrial loads." }
+        ]
       },
       "tools": {
         "areas": "Polyfusion welding, pipe cutting, pipeline repair, system testing",
@@ -4552,7 +4557,17 @@
     ],
     "doneTitle": "Almost there.",
     "doneText": "Your email client has opened with the pre-filled enquiry. Send it off — we will be in touch within one business day. Prefer to talk directly?",
-    "doneBack": "Back to home"
+    "doneBack": "Back to home",
+    "infoTitle": "About Project Requests",
+    "infoText1": "Use our request tool to coordinate your building or industrial project with our experts at an early stage. Whether you are in the planning phase or already have concrete material lists – we support you with sizing and material selection.",
+    "infoText2": "Through close cooperation with the K-Aqua sales team, you receive not only precise offers but also valuable technical advice regarding pressure ratings (SDR classes), installation methods, and system-compliant accessories. Send us your basic data, and we will get back to you within one business day.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      { "q": "Is the project request subject to a fee?", "a": "No, the use of this tool and the subsequent preparation of an offer by our sales team are completely free of charge and non-binding for you." },
+      { "q": "What happens after submitting the request?", "a": "Your request is forwarded directly to our internal sales team. A personal contact person will get in touch with you within 24 hours to clarify any open questions or directly provide you with a customized offer." },
+      { "q": "Can I also request as a private individual?", "a": "K-Aqua is primarily aimed at wholesalers, planners, and specialist installers in the B2B sector. We gladly refer private customers to our regional specialist partners." },
+      { "q": "How secure is my data?", "a": "Your entries are not stored on the server but are transferred directly to your email program, from where you securely send the request to us. We treat your data strictly confidentially according to the applicable GDPR guidelines." }
+    ]
   },
   "geoContent": {
     "frankfurt": {
@@ -6231,6 +6246,16 @@
           "id": "section-vat",
           "title": "VAT ID",
           "content": "USt-IdNr/VAT No.:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Legal Notice & Disclaimer",
+          "content": "K-Aqua PP-R and PP-RCT pipe systems are high-tech products designed for the transport of drinking water, heating water, and industrial fluids. The information provided on this website has been compiled with the utmost care. However, we cannot guarantee the absolute accuracy, completeness, or timeliness of the technical data and specifications provided. We reserve the right to make technical changes at any time as part of ongoing product development.\n\nLiability for Links\nOur website contains links to external websites operated by third parties, over whose contents we have no control. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages.\n\nCopyright\nThe content, technical drawings, 3D models, and works on these pages created by the site operators are subject to German copyright law. The duplication, editing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator."
+        },
+        {
+          "id": "section-faq",
+          "title": "Frequently Asked Questions (Service & Legal)",
+          "content": "How can I contact technical support?\nYou can reach our technical support team for questions regarding PP-R pipelines, welding parameters, or custom solutions via the email address listed above or by phone during our regular business hours.\n\nWhere can I find detailed certificates and approvals?\nAll DVGW, KIWA, and SKZ certificates for our pipe systems are available for download in the \"Resources\" section or directly on the respective product detail pages.\n\nWhat warranty does K-Aqua provide?\nK-Aqua offers a comprehensive system warranty for all PP-R and PP-RCT pipes and fittings, provided they have been professionally installed and welded using original K-Aqua tools. We will gladly send you detailed warranty conditions upon request."
         }
       ]
     },
