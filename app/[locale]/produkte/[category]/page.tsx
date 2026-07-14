@@ -10,6 +10,7 @@ import { notFound } from "next/navigation";
 import { Link } from "@/lib/i18n/navigation";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
 import { routing } from "@/lib/i18n/routing";
+import { setRequestLocale } from 'next-intl/server';
 
 
 interface Props {
@@ -32,6 +33,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, category } = await params;
+  setRequestLocale(locale);
   
   const t = await getTranslations({ locale, namespace: "products.seoArticle" });
   
@@ -163,7 +165,7 @@ export default async function CategoryPage({ params }: Props) {
               {tc("allProducts")} {"("}{products.length}{")"}
             </h2>
             <Link 
-              href={`/${locale}/produkte/finder?category=${encodeURIComponent(category.charAt(0).toUpperCase() + category.slice(1))}`}
+              href={`/produkte/finder?category=${encodeURIComponent(category.charAt(0).toUpperCase() + category.slice(1))}`}
               className="hidden sm:inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-primary-strong transition-colors"
             >
               {tc("openInFinder")} <ArrowRight className="w-4 h-4" />
@@ -173,7 +175,7 @@ export default async function CategoryPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {products.map((p) => (
               <Link 
-                href={`/${locale}/produkte/${category}/${p.slug}`}
+                href={`/produkte/${category}/${p.slug}`}
                 key={p.slug}
                 className="group flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1"
               >
@@ -220,7 +222,7 @@ export default async function CategoryPage({ params }: Props) {
             {tc("learnMoreDesc")}
           </p>
           <Link 
-            href={`/${locale}/wissen`}
+            href={`/wissen`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary-strong transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20"
           >
             {tc("toKnowledgeBase")} <ArrowRight className="w-5 h-5" />

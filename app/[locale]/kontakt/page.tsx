@@ -7,7 +7,9 @@ import { MapPin, Phone, Wrench, ArrowUpRight } from "@/components/ui/icon";
 import { ContactDeep } from "@/components/sections/ContactDeep";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
+import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -15,6 +17,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("contact") as string[];
   return constructMetadata({
@@ -161,6 +164,7 @@ export default async function KontaktPage({ params }: Props) {
         </section>
         {/* Deep Content am Ende der Kontakt Seite */}
         <ContactDeep />
+        <SeoExpand pageType="kontakt" />
       </div>
     </>
   );

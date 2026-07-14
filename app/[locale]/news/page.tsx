@@ -8,7 +8,9 @@ import { Check, Download, MapPin } from "@/components/ui/icon";
 import { NewsDeep } from "@/components/sections/NewsDeep";
 import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
+import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -16,6 +18,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("news") as string[];
   return constructMetadata({
@@ -143,6 +146,7 @@ export default async function NewsPage({ params }: Props) {
         </section>
         {/* Deep Content am Ende der News Seite */}
         <NewsDeep />
+        <SeoExpand pageType="news" />
       </div>
     </>
   );

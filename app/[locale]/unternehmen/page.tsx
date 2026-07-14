@@ -16,6 +16,7 @@ import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -23,6 +24,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   const meta = await getTranslations({ locale, namespace: "about.meta" });
   return constructMetadata({
@@ -40,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function UnternehmenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "about");
-  const t = await getTranslations({ locale, namespace: "pages" });
+  const t = await getTranslations({ locale, namespace: "about" });
 
   const TIMELINE_ITEMS = [
     { year: t('timeline.items.0.year'), title: t('timeline.items.0.title'), text: t('timeline.items.0.text') },

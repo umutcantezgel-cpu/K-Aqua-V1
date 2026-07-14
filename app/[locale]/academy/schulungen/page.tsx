@@ -9,9 +9,11 @@ import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
 import { SectionHead } from '@/components/ui/SectionHead';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'academy.schulungen.meta' });
   return constructMetadata({
     title: t('title'),

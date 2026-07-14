@@ -10,18 +10,20 @@ import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { Button } from "@/components/ui/Button";
+import { ButtonPrimary } from "@/components/ui/ButtonPrimary";
+import { setRequestLocale } from 'next-intl/server';
 import {
-  ShieldAlert,
-  Server,
-  Network,
-  Database,
-  Lock,
-  Binary,
-  Layers,
-  Activity,
-  Gauge,
-  Aperture,
-  Combine
+  Globe,
+  Droplets,
+  Building2,
+  Factory,
+  ShieldCheck,
+  CheckCircle2,
+  HardHat,
+  Ship,
+  MapPin,
+  Waves
 } from "lucide-react";
 
 interface Props {
@@ -30,11 +32,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("references") as string[];
   return constructMetadata({
     title: meta[0] ?? "Globale Referenzprojekte | K-Aqua",
-    description: meta[1] ?? "Industrielle Fallstudien und Hochleistungsarchitekturen.",
+    description: meta[1] ?? "Weltweite Projekte mit K-Aqua PP-R Kunststoff-Rohrsystemen.",
     path: "/referenzen",
     locale,
   });
@@ -46,52 +49,52 @@ export default async function ReferenzenPage({ params }: Props) {
 
   const stickyScrollContent = [
     {
-      title: "Megacity Infrastruktur: Globale Wasserversorgung",
-      description: "Eine kompromisslose Neugestaltung der Trinkwasser-Topologie für ein führendes urbanes Großprojekt. Durch die Implementierung hochdruckresistenter PPR-Rohrsysteme (Edge-Native) konnten Reibungsverluste minimiert werden. Absolute Ausfallsicherheit wird durch thermisch verschweißte, geo-sichere Leitungsstrukturen garantiert. Die Architektur skaliert elastisch und prädiktiv für zukünftigen Wasserbedarf.",
-      content: <PremiumAssetPlaceholder label="Versorgungsnetz Topologie 3D Modell" />
+      title: "Luxushotel & Resort in Dubai",
+      description: "Installation einer kompletten Trinkwasserversorgung für ein 5-Sterne-Resort. Die Anforderungen an Wasserhygiene und Korrosionsbeständigkeit bei dauerhaft hohen Temperaturen waren extrem. Zum Einsatz kamen über 15.000 Meter K-Aqua PP-R Multilayer-Rohre in den Dimensionen d20 bis d110. Das Ergebnis: Eine absolut wartungsfreie Installation ohne Inkrustationsrisiko.",
+      content: <PremiumAssetPlaceholder label="Luxus-Resort Dubai" />
     },
     {
-      title: "Industrielle Kühlsysteme: Hochleistungs-Rohrnetz",
-      description: "Materialwissenschaftliche Präzision auf industriellem Niveau. Aufbau eines massiv belastbaren Rohr-Rückgrats für industrielle Kühlanlagen. Die Architektur basiert auf chemisch resistenten Polymeren und absoluter Dichtigkeit, wodurch eine zu 99,9999% präzise Vorhersage von Wartungszyklen garantiert wird. Kalte, berechnende Effizienz, die Korrosion mathematisch eliminiert.",
-      content: <PremiumAssetPlaceholder label="Strömungs-Visualisierung" />
+      title: "Industrie-Kühlanlage in Südostasien",
+      description: "Für eine großflächige Produktionsanlage wurden Rohrleitungen mit hoher thermischer Stabilität benötigt. Durch K-Aqua PP-RCT Faserkunststoffrohre konnte die Längsausdehnung drastisch minimiert werden. Die thermische Verschweißung der Dimensionen d160 bis d315 garantiert eine 100%ige Dichtigkeit auch bei massiven Druckschwankungen der Industriepumpen.",
+      content: <PremiumAssetPlaceholder label="Industrie-Kühlanlage" />
     },
     {
-      title: "Premium Hochhaus-Infrastruktur: Steigleitungen",
-      description: "Sicherheitsarchitekturen im Wasserbau, die keinen Raum für Schwäche lassen. Entwicklung eines hybriden Leitungsverfahrens für kritische Hochhausinfrastrukturen. Zero-Leak-Architektur in ihrer reinsten Form. Jeder Knotenpunkt, jede Schweißnaht und jedes Ventil wird unerbittlich durch ISO-Zertifikate authentifiziert. Das System duldet keine Unregelmäßigkeiten im Wasserdruck.",
-      content: <PremiumAssetPlaceholder label="Steigleitungs-Matrix" />
+      title: "Krankenhausneubau in Mitteleuropa",
+      description: "Höchste Ansprüche an die Trinkwasserhygiene nach DVGW-Vorgaben. Vermeidung von Stagnationszonen durch strömungsoptimierte K-Aqua Fittings und bleifreie Übergangsverschraubungen. Die Installation umfasste Kalt- und Warmwasserverteilung über 8 Stockwerke, wodurch K-Aqua seine Überlegenheit gegenüber klassischen Metallsystemen bewies.",
+      content: <PremiumAssetPlaceholder label="Krankenhaus Infrastruktur" />
     },
     {
-      title: "Offshore Anlagenversorgung: Extreme Bedingungen",
-      description: "Die vollständige Eliminierung von Korrosionsquellen in der globalen Offshore-Industrie. Konstruktion von hochresistenten Leitungssystemen unter härtesten Bedingungen. Die Systemlogik optimiert Durchfluss-Pfade deterministisch und ruthlessly effizient. Durch die Integration von Spezial-Fittings wurden die Durchsatzraten maximiert, während die Toleranzgrenzen für Materialermüdung auf Null reduziert wurden.",
-      content: <PremiumAssetPlaceholder label="Offshore Operations Matrix" />
+      title: "Wohnkomplex in der DACH-Region",
+      description: "Ein nachhaltiges Bauprojekt, das den CO2-Fußabdruck minimieren sollte. K-Aqua lieferte das komplette Verteilersystem (d20–d63). Neben der schnellen und sicheren Polyfusion-Installation profitierten die Bauherren von der überragenden Schalldämmung der PP-R Rohre, wodurch Fließgeräusche in den Wohnungen nahezu eliminiert wurden.",
+      content: <PremiumAssetPlaceholder label="Wohnkomplex Bauphase" />
     }
   ];
 
   const timelineItems = [
     {
-      year: "Phase I",
-      title: "Architektonischer Grundstein",
-      text: "Definition der initialen Systemgrenzen. Etablierung eines strikten, zertifizierten Rohr-Layouts, das keine Abweichungen toleriert. Alle korrosionsanfälligen Legacy-Materialien (wie Metall) wurden rückstandslos terminiert und durch hochresistente PP-R Komponenten ersetzt. Die Grundlage der industriellen Dominanz."
+      year: "1. Beratung & Auslegung",
+      title: "Die Projektierung",
+      text: "Zusammen mit Fachplanern definieren wir die optimalen Dimensionen und Druckstufen (SDR). Eine korrekte Rohrnetzberechnung stellt sicher, dass Fließgeschwindigkeiten und Druckverluste ideal auf das Gebäude abgestimmt sind."
     },
     {
-      year: "Phase II",
-      title: "Skalierungsebene",
-      text: "Integration des verteilten Versorgungs-Clusters. Übernahme der Hochdruck-Wasserverarbeitung auf ein extrem fehlertolerantes Rohrnetz. Druckschwankungen und Temperatur-Spikes werden physikalisch innerhalb von Millisekunden absorbiert, ohne dass ein Installateur eingreifen muss. Maximale Resilienz."
+      year: "2. Produktion in Waldsolms",
+      title: "Gefertigt in Deutschland",
+      text: "Nach Auftragsfreigabe erfolgt die Extrusion der PP-R/PP-RCT Rohre sowie der Spritzguss der Formteile unter strengsten Qualitätskontrollen (ISO 9001, 14001, 50001). Das Labor überwacht jede Materialcharge."
     },
     {
-      year: "Phase III",
-      title: "Zero-Leak Implementierung",
-      text: "Systemweite Durchsetzung des Zero-Leak-Paradigmas. Thermische Verschweißung aller internen Verbindungskanäle bis auf molekulare Ebene. Jeder Tropfen Wasser, der die Kapselungsgrenze überschreitet, wird durch makellose Schweißnähte blockiert. Sicherheit als absolutes Diktat."
+      year: "3. Logistik & Lieferung",
+      title: "Pünktlich auf der Baustelle",
+      text: "Unsere Logistik koordiniert globale Lieferketten. Die leichten Kunststoffrohre ermöglichen einen effizienteren und CO2-reduzierten Transport im Vergleich zu massiven Stahl- oder Kupferleitungen."
     },
     {
-      year: "Phase IV",
-      title: "Globale Auslieferung",
-      text: "Ausrollen der Rohrinfrastruktur auf fünf Kontinente. Logistikketten-Optimierung für 95% der globalen Exportzonen. Tausende Meter an strukturierten Leitungen werden asynchron und konfliktfrei installiert. Das System existiert überall und beweist sich täglich unter extremen Klimabedingungen."
+      year: "4. Installation vor Ort",
+      title: "Homogene Verschweißung",
+      text: "Installateure auf der Baustelle verbinden Rohre und Fittings durch thermische Polyfusion. Innerhalb von Sekunden entsteht eine untrennbare, lückenlose Materialeinheit – ohne Dichtungen oder O-Ringe."
     },
     {
-      year: "Phase V",
-      title: "Lebenslange Orchestrierung",
-      text: "Einführung industrieller Qualitätsprüfungen (ISO/DVGW). Das Rohrsystem isoliert und widersteht chemischen Anomalien vollautomatisch. Druckstufen werden gehalten, Lebenszyklen von über 50 Jahren erreicht. Der Mensch wird nach der Installation zum passiven Beobachter eines perfekten Systems degradiert."
+      year: "5. Inbetriebnahme",
+      title: "Über 50 Jahre wartungsfrei",
+      text: "Nach der Druckprüfung geht das System ans Netz. Ab diesem Moment liefert das K-Aqua System dauerhaft sauberes Trinkwasser. Keine Korrosion, keine Lochfraß-Gefahr, keine teuren Wartungsintervalle."
     }
   ];
 
@@ -101,132 +104,118 @@ export default async function ReferenzenPage({ params }: Props) {
 
       {/* Hero Section */}
       <ParallaxHero 
-        eyebrow="Industrielle Meisterwerke"
+        eyebrow="Weltweite Referenzen"
         title={
           <span className="block text-balance">
-            Architektur der <span className="text-primary">Macht.</span>
+            Bewährt in <span className="text-primary">Megaprojekten.</span>
           </span>
         }
-        description="Eiskalte, industrielle Präzision in PP-R gegossen. Wir konstruieren Infrastrukturen für die Wasserversorgung, die der Zeit, katastrophalen Drücken und höchsten Lasten mühelos widerstehen. Hier manifestieren sich Rohr-Systeme, die keine Kompromisse kennen."
+        description="Von Trinkwassersystemen in Luxushotels bis hin zu industriellen Kühlanlagen: K-Aqua PP-R Rohrsysteme sind weltweit im Einsatz. Entdecken Sie Projekte, die auf höchste Qualität „Made in Germany“ vertrauen."
       >
         <div className="flex gap-4">
-          <div className="px-8 py-4 rounded-full border-2 border-primary text-primary font-mono tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-[0_0_20px_rgba(var(--primary),0.2)] hover:shadow-[0_0_30px_rgba(var(--primary),0.5)] cursor-pointer text-sm font-bold">
-            Telemetrie Initialisieren
-          </div>
-          <div className="px-8 py-4 rounded-full bg-card border border-card-border text-foreground font-mono tracking-widest uppercase hover:bg-muted transition-colors cursor-pointer text-sm font-bold">
-            System-Manifest lesen
-          </div>
+          <ButtonPrimary href="/produkte" className="px-8 py-4 !rounded-full text-base font-bold tracking-wider">
+            Unsere Systeme
+          </ButtonPrimary>
+          <Button variant="ghost" href="/kontakt" className="px-8 py-4 !rounded-full border-card-border bg-card hover:bg-muted text-base font-bold tracking-wider">
+            Projekt anfragen
+          </Button>
         </div>
       </ParallaxHero>
 
       {/* Manifest Section */}
-      <section className="py-40 bg-background border-b border-card-border relative z-10">
+      <section className="py-32 bg-background border-b border-card-border relative z-10">
         <div className="max-w-[1000px] mx-auto px-6">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-16">
             <div className="p-4 bg-primary/10 rounded-2xl border border-primary/20">
-              <Binary className="w-12 h-12 text-primary" />
+              <Globe className="w-12 h-12 text-primary" />
             </div>
-            <h2 className="text-5xl md:text-6xl font-heading font-black tracking-tighter uppercase">Doktrin der Präzision</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight">Qualität kennt keine Grenzen</h2>
           </div>
           
-          <div className="space-y-12 text-xl text-muted-foreground leading-[1.8] font-sans">
+          <div className="space-y-8 text-lg text-muted-foreground leading-relaxed font-sans">
             <p>
-              In einer Ära, in der infrastrukturelle Fragilität oft als Norm akzeptiert wird, positioniert sich unsere Ingenieurskunst als absoluter, unerbittlicher Gegenpol. Wir betrachten Rohrleitungs-Architektur nicht als bloßes Bauelement, sondern als angewandte Materialwissenschaft und knallharte Physik. Jeder Millimeter Wandstärke, jede Fitting-Komponente und jeder Extrusions-Prozess wird durch einen gnadenlosen Prozess der Validierung (ISO/DVGW) getrieben, bis jegliches Potenzial für Leckagen, Druckverlust oder Materialermüdung restlos eliminiert ist. Dies ist das fundamentale Gesetz der <strong className="text-foreground">K-Aqua Referenzklasse</strong>.
+              In einer Branche, in der Zuverlässigkeit und Langlebigkeit die wichtigsten Währungen sind, hat sich K-Aqua als feste Größe etabliert. Unsere Rohrleitungssysteme aus Polypropylen (PP-R und PP-RCT) werden nicht nur in der DACH-Region geschätzt, sondern sind das Rückgrat der Wasserversorgung in über 40 Ländern weltweit.
             </p>
             <p>
-              Unsere Systeme operieren in feindlichen Umgebungen, in denen ein einziger Haarriss inakzeptabel ist und Wasserverlust das Ende der Projektgrundlage bedeutet. Wir implementieren <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Extreme Pressure Tolerance</em> nicht als akademisches Theorem in Whitepapers, sondern als harte Realität in Wolkenkratzern und Industrieanlagen. Wenn herkömmliche Metallsysteme durch Korrosion in die Knie gezwungen werden, halten unsere PP-R-Lösungen den globalen Durchfluss über Jahrzehnte stabil – ohne dass der Betreiber auch nur einen Druckabfall bemerkt. Dies ist keine Magie. Es ist eiskalte, kalkulierte Überlebensfähigkeit von High-End-Polymeren.
+              Ob in klimatisch extremen Regionen des Nahen Ostens, wo anhaltende Hitze das Material fordert, oder in europäischen Krankenhäusern, wo Hygienevorschriften keinen Raum für Fehler lassen: Die Materialvorteile von Polypropylen – absolute Korrosionsfreiheit, glatte Innenwände gegen Inkrustation und hohe thermische Stabilität – spielen überall ihre Stärken aus.
             </p>
             <p>
-              Wir verabscheuen veraltete "Legacy-Materialien" wie Kupfer oder Stahl, die zur Oxidation neigen, und undurchsichtige Installationsmethoden. Unser System ist transparent und wird von uns bis auf das molekulare Level diktiert. Wir optimieren den Schmelzindex, tunen die Viskosität für Polyfusion in Rekordzeit und produzieren Verbindungen, die buchstäblich zu einer einzigen homogenen Einheit verschmelzen, um Schwachstellen zur Bedeutungslosigkeit zu zwingen. Die Resultate sind Leitungsnetze, die bei 20 Bar Druck müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
-            </p>
-            <p>
-              Qualitätssicherheit ist bei uns kein nachgelagertes Feature oder ein Compliance-Häkchen, sondern die untrennbare DNA unserer Produktion. Durch die strikte Anwendung von <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Lückenlosen Labor-Audits</em> für jede Material-Charge, kombiniert mit ständigen Druckprüfungen im eigenen Labor (nach DIN/ISO), entziehen wir potenziellen Ausfällen proaktiv jegliche Angriffsfläche. Ein Rohrnetz, das per Definition keine Materialfehler gewährt, kann niemals brechen. Das ist die unumstößliche Realität unseres Zero-Leak-Modells.
+              Qualitätssicherheit ist bei uns kein leeres Versprechen. Wir fertigen am Standort Waldsolms unter einem strengen, nach ISO 9001 zertifizierten Managementsystem. Jede Charge wird in unserem eigenen Labor geprüft, bevor sie die Reise auf internationale Baustellen antritt. Das ist der Grund, warum Planer und Generalunternehmer weltweit K-Aqua für ihre kritischen Infrastrukturen spezifizieren.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Massive Technical Deep Dive via Sticky Scroll */}
-      <section className="py-40 relative z-20 bg-background border-b border-card-border">
-        <div className="max-w-[1400px] mx-auto px-6 mb-20 text-center md:text-start">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-mono text-sm tracking-widest uppercase mb-8 border border-primary/20">
-            <Aperture className="w-4 h-4" /> Fallstudien-Archiv
+      {/* Fallstudien via Sticky Scroll */}
+      <section className="py-32 relative z-20 bg-background border-b border-card-border">
+        <div className="max-w-[1400px] mx-auto px-6 mb-16 text-center md:text-start">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-bold text-sm tracking-widest uppercase mb-6 border border-primary/20">
+            <Building2 className="w-4 h-4" /> Ausgewählte Projekte
           </div>
-          <h2 className="text-5xl md:text-7xl font-heading font-black tracking-tighter uppercase text-foreground mb-8">
-            Operationelle <br className="hidden md:block" />Exzellenz
+          <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight text-foreground mb-6">
+            Fallstudien & <br className="hidden md:block" />Anwendungen
           </h2>
-          <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-            Eine forensische Aufschlüsselung unserer kritischsten Implementierungen. 
-            Jedes dieser Projekte ist ein unbestreitbarer Beweis für technologische Überlegenheit und deterministische Ausführung unter Maximallast.
+          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed">
+            Ein Blick auf unsere erfolgreich abgeschlossenen Installationen aus den Bereichen Wohnungsbau, Hotellerie und Industrie.
           </p>
         </div>
         <StickyScrollReveal content={stickyScrollContent} />
       </section>
 
       {/* Bento Grid Features */}
-      <section className="py-40 bg-card/40 border-b border-card-border relative overflow-hidden">
-        {/* Architectural grid background */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-30%,rgba(var(--primary),0.05),transparent)] pointer-events-none" />
-        
+      <section className="py-32 bg-card/40 border-b border-card-border relative overflow-hidden">
         <div className="max-w-[1400px] mx-auto px-6 relative z-10">
-          <div className="mb-24 text-center">
-            <span className="font-mono text-primary font-bold text-sm tracking-[0.3em] uppercase mb-6 block flex items-center justify-center gap-2">
-              <Database className="w-5 h-5" /> Architektur-Metriken
-            </span>
-            <h2 className="text-6xl md:text-7xl font-heading font-black tracking-tighter mb-8 uppercase">
-              Kompromisslose <br />Parameter
+          <div className="mb-20 text-center">
+            <h2 className="text-4xl md:text-5xl font-heading font-black tracking-tight mb-6">
+              Vorteile im Projekt
             </h2>
-            <p className="text-muted-foreground text-2xl max-w-3xl mx-auto leading-relaxed">
-              Unsere Architekturen werden nicht gemessen, sie diktieren den Standard der Branche. 
-              Dies sind die fundamentalen Kernkomponenten unserer technologischen Doktrin.
+            <p className="text-muted-foreground text-xl max-w-3xl mx-auto leading-relaxed">
+              Warum sich Projektentwickler und Planer für unsere Systeme entscheiden.
             </p>
           </div>
 
           <BentoGrid>
             <BentoGridItem 
-              title="Hyper-Resilient Rohrnetzwerke"
-              description="SLA-vergleichbare Lebensdauer von über 50 Jahren. Multi-Layer PP-R Schichten, die selbst bei extremen thermischen Schwankungen den Durchfluss lückenlos aufrechterhalten."
-              icon={<Server className="w-10 h-10 text-primary" />}
+              title="Korrosionsfreiheit"
+              description="Polypropylen rostet nicht. Die Rohre widerstehen aggressiven Wässern und chemischen Einflüssen dauerhaft."
+              icon={<ShieldCheck className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Mehrschicht-Rohre Querschnitt" />}
+              header={<PremiumAssetPlaceholder label="Material Querschnitt" />}
             />
             <BentoGridItem 
-              title="Absolute chemische Isolation"
-              description="Vollständige Kapselung des Trinkwassers durch lebensmittelechte, säureresistente Polymere, zertifiziert nach höchsten globalen Standards."
-              icon={<Lock className="w-10 h-10 text-primary" />}
+              title="Strömungsoptimiert"
+              description="Dank minimaler Innenrauheit treten keine Kalkablagerungen auf. Der Leitungsdruck bleibt über Jahrzehnte stabil."
+              icon={<Waves className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-500" />
-                  <ShieldAlert className="w-32 h-32 text-primary/30 group-hover:text-primary/60 transition-colors duration-500 group-hover:scale-110 transform-gpu" />
+                  <Droplets className="w-32 h-32 text-primary/30 group-hover:text-primary/60 transition-colors duration-500 transform-gpu" />
                 </div>
               }
             />
             <BentoGridItem 
-              title="Deterministischer Durchfluss"
-              description="Materialfluss mit garantiert minimaler Reibung. Keine Ablagerungen, keine Querschnittsverengung, absolut keine Inkrustation im Zeitverlauf."
-              icon={<Activity className="w-10 h-10 text-primary" />}
+              title="Einfache Installation"
+              description="Die thermische Schweißtechnik ist schneller und sicherer als Schraub- oder Presssysteme bei Metallrohren."
+              icon={<HardHat className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(var(--primary),0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                  <Gauge className="w-32 h-32 text-primary/30 group-hover:text-primary transition-colors duration-500 group-hover:rotate-12 transform-gpu" />
+                  <CheckCircle2 className="w-32 h-32 text-primary/30 group-hover:text-primary transition-colors duration-500 transform-gpu" />
                 </div>
               }
             />
             <BentoGridItem 
-              title="Hochdruck-Fittings"
-              description="Massiv belastbare Verbindungsstücke, die tausende Liter Wasser unter Höchstdruck in Echtzeit verarbeiten und global in Megaprojekten orchestriert werden."
-              icon={<Network className="w-10 h-10 text-primary" />}
+              title="Große Nennweiten"
+              description="Mit Dimensionen von 20 mm bis 630 mm (Fittings bis 315 mm) decken wir selbst gigantische Hauptleitungsnetze ab."
+              icon={<Factory className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Thermische Polyfusion" />}
+              header={<PremiumAssetPlaceholder label="Industrielle Dimensionen" />}
             />
             <BentoGridItem 
-              title="Lückenlose Resilienz"
-              description="Jeder Meter Rohr in einer Installation verschmilzt zu einem homogenen Strang. Der einzige Schwachpunkt existiert in anderen, metallischen Konkurrenzsystemen. Qualitätstests sind bei uns kein Test, sondern Dauerzustand."
-              icon={<Layers className="w-10 h-10 text-primary" />}
+              title="Sichere Verschweißung"
+              description="Beim Verschweißen entsteht eine stoffschlüssige Verbindung, die so fest ist wie das Rohr selbst. Es gibt keine Schwachstellen durch alternde Dichtungsringe."
+              icon={<MapPin className="w-10 h-10 text-primary" />}
               colSpan={3}
               rowSpan={2}
-              header={<PremiumAssetPlaceholder label="Qualitätslabor & Stresstests" className="min-h-[500px]" />}
+              header={<PremiumAssetPlaceholder label="Schweißprozess auf der Baustelle" className="min-h-[500px]" />}
             />
           </BentoGrid>
         </div>
@@ -234,35 +223,28 @@ export default async function ReferenzenPage({ params }: Props) {
 
       {/* Horizontal Timeline */}
       <HorizontalTimeline 
-        title="Evolutionäre Meilensteine" 
-        description="Der unaufhaltsame, berechnende Fortschritt unserer Referenzarchitekturen über die letzten Implementierungsphasen. Eine ungeschönte Chronik systematischer Optimierung und Eliminierung von Schwachstellen."
+        title="Der Projekt-Ablauf" 
+        description="Von der Planung bis zur Inbetriebnahme: Wir begleiten Ihr Bauvorhaben mit Expertise und zuverlässiger Lieferkette."
         items={timelineItems} 
       />
 
       {/* Final Call to Action */}
-      <section className="py-48 bg-background relative overflow-hidden flex items-center justify-center">
-        {/* Grid and gradients */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(var(--primary),0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(var(--primary),0.05)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,rgba(var(--primary),0.15)_0%,transparent_60%)] pointer-events-none" />
-        
+      <section className="py-40 bg-background relative overflow-hidden flex items-center justify-center">
         <div className="relative z-10 text-center max-w-5xl px-6">
-          <Combine className="w-24 h-24 text-primary mx-auto mb-12 opacity-90 drop-shadow-[0_0_15px_rgba(var(--primary),0.5)]" />
-          <h2 className="text-6xl md:text-8xl font-heading font-black tracking-tighter mb-10 uppercase leading-none">
-            Initialisieren Sie <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/50">
-              das System
-            </span>
+          <Ship className="w-20 h-20 text-primary mx-auto mb-8 opacity-90" />
+          <h2 className="text-5xl md:text-6xl font-heading font-black tracking-tight mb-8">
+            Planen Sie Ihr <span className="text-primary">nächstes Projekt?</span>
           </h2>
-          <p className="text-2xl text-muted-foreground mb-16 max-w-3xl mx-auto leading-relaxed">
-            Bereit, die Kontrolle über Ihre digitale Zukunft zu übernehmen? Unsere Infrastruktur-Ingenieure erwarten Ihre Spezifikationen. Wir konstruieren keine gewöhnlichen Anwendungen – wir schmieden digitale Hochleistungswaffen.
+          <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
+            Kontaktieren Sie unser Vertriebsteam in Waldsolms. Wir beraten Sie zu den passenden Dimensionen, Druckstufen und logistischen Lösungen für Ihre Baustelle.
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="px-14 py-6 bg-primary text-primary-foreground font-mono font-black tracking-[0.2em] uppercase text-lg hover:scale-105 hover:shadow-[0_0_40px_rgba(var(--primary),0.6)] transition-all duration-300">
-              Sicherheitsaudit Anfordern
-            </button>
-            <button className="px-14 py-6 bg-transparent border-2 border-primary text-primary font-mono font-bold tracking-[0.2em] uppercase text-lg hover:bg-primary/10 transition-all duration-300">
-              Spezifikationen senden
-            </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <ButtonPrimary href="/projektanfrage" className="px-10 py-5 !rounded-full text-lg tracking-wide shadow-lg">
+              Projekt anfragen
+            </ButtonPrimary>
+            <Button variant="ghost" href="/produkte/finder" className="px-10 py-5 !rounded-full text-lg tracking-wide border-2 border-primary text-primary hover:bg-primary/10">
+              Zum Produktfinder
+            </Button>
           </div>
         </div>
       </section>

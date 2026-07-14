@@ -24,6 +24,7 @@ import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -31,6 +32,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "wissen.meta" });
   return constructMetadata({
     title: t('title'),
@@ -185,7 +187,7 @@ export default async function WissenPage({ params }: Props) {
                   colSpan={isLarge ? 2 : 1}
                   title={
                     <Link 
-                      href={`/${locale}/wissen/${article.slug}`} 
+                      href={`/wissen/${article.slug}`} 
                       className="focus:outline-none after:absolute after:inset-0 after:z-10"
                       title={article.title}
                     >
@@ -242,7 +244,7 @@ export default async function WissenPage({ params }: Props) {
             {t('cta.desc')}
           </p>
           <Link 
-            href={`/${locale}/kontakt`}
+            href={`/kontakt`}
             className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-mono font-bold tracking-widest uppercase text-sm rounded-full hover:scale-105 transition-transform duration-300"
           >
             {t('cta.btn')}

@@ -15,9 +15,11 @@ import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder
 
 // Icons
 import { Droplet, Shield, Layers, Thermometer, Globe, Award, Ruler } from '@/components/ui/icon';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'markets.trinkwasser' });
   return constructMetadata({
     title: t('metaTitle'),

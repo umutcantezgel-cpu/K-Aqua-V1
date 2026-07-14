@@ -1956,7 +1956,7 @@
     "eyebrow": "Services",
     "title1": "Service Client &",
     "titleGrad": "Expertise.",
-    "lead": "Toutes vos documentations techniques en libre téléchargement et des vidéos pas-à-pas pour maîtriser nos techniques de soudage.",
+    "lead": "Service Client & Expertise. - Toutes vos documentations techniques en libre téléchargement et des vidéos pas-à-pas pour maîtriser nos techniques de soudage.",
     "dlEyebrow": "Téléchargements",
     "dlTitle": "Documentation Technique",
     "downloads": [
@@ -2153,6 +2153,19 @@
           "desc": "Chez K-Aqua, la durabilité n'est pas un slogan marketing, mais un impératif physique. La longévité est la forme ultime de protection de l'environnement. Nos systèmes minimisent l'empreinte énergétique, de la production au recyclage."
         }
       ]
+    },
+    "genauManagement": {
+      "eyebrow": "Qualité Certifiée",
+      "title1": "Le Système de Management ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "L'objectif du système de management GENAU est l'amélioration continue de la santé au travail, de la protection de l'environnement et de la sécurité au sein de l'entreprise.",
+      "p2": "Toutes les activités de l'entreprise KWT sont menées en mettant l'accent sur la préservation des ressources, la compatibilité environnementale et le strict respect de toutes les obligations. Le management GENAU appliqué répond aux exigences élevées des normes ",
+      "p3": " et ",
+      "list1Title": "Responsabilité Écologique",
+      "list1Desc": "La protection de l'environnement fait partie intégrante de notre conception de la qualité, à laquelle s'engagent tous les employés de KWT GmbH.",
+      "list2Title": "Efficacité Énergétique",
+      "list2Desc": "Identification ciblée des risques et mise en œuvre de mesures pour optimiser l'efficacité énergétique."
     }
   },
   "news": {
@@ -2179,7 +2192,8 @@
     "btnDe": "Certificat (DE)",
     "btnEn": "Certificate (EN)",
     "eventsTitle": "Salons & Conférences",
-    "eventsText": "Venez rencontrer les experts K-Aqua lors de nos prochains événements. Aucun salon n'est programmé dans l'immédiat — restez à l'écoute."
+    "eventsText": "Venez rencontrer les experts K-Aqua lors de nos prochains événements. Aucun salon n'est programmé dans l'immédiat — restez à l'écoute.",
+    "lead": "Les dernières infos de K-Aqua. - "
   },
   "career": {
     "eyebrow": "Carrières",
@@ -2277,7 +2291,7 @@
     "locTitle": "Siège & Usine (Allemagne)",
     "salesTitle": "Service Commercial",
     "supportTitle": "Qualité & Support Technique",
-    "supportText": "Notre équipe d'experts vous accompagne sur la conception, le choix des matériaux et les méthodes de mise en œuvre."
+    "supportText": "Parlons de votre projet. - Notre équipe d'experts vous accompagne sur la conception, le choix des matériaux et les méthodes de mise en œuvre."
   },
   "imprint": {
     "eyebrow": "Légal",
@@ -4983,12 +4997,137 @@
     "support": {
       "title": "Support technique",
       "metaDesc": "Support technique K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
-      "cta": "Contacter le support technique"
+      "seoText": {
+        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
+        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
+        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Assistance Technique Immédiate",
+            "desc": "Accès direct à nos ingénieurs système pour résoudre instantanément les défis critiques d'installation."
+          },
+          {
+            "title": "Audits de Sécurité sur Site",
+            "desc": "Nos spécialistes de l'inspection vérifient vos soudures et l'intégrité du système directement sur le chantier."
+          },
+          {
+            "title": "Soutien à la Planification Avancée",
+            "desc": "Des calculs de la dynamique des fluides aux recommandations sur la dilatation thermique, nous concevons votre réseau."
+          },
+          {
+            "title": "Certifications Mondiales",
+            "desc": "Nous fournissons les documents de conformité nécessaires pour répondre aux normes réglementaires les plus strictes de votre région."
+          }
+        ],
+        "eyebrow": "SUPPORT OPÉRATIONNEL",
+        "title": "Nous Ne Vous Laissons Pas Seuls.",
+        "lead": "Notre responsabilité ne s'arrête pas à la livraison. Nous sommes à vos côtés pendant toute la durée du projet."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Étape 1",
+            "title": "Revue Initiale du Système",
+            "text": "Nous analysons les schémas hydrauliques de votre projet pour garantir le bon dimensionnement et le choix des matériaux optimaux."
+          },
+          {
+            "year": "Étape 2",
+            "title": "Formation de l'Équipe",
+            "text": "Vos installateurs sont certifiés à la K-Aqua Academy, maîtrisant notre technologie de fusion moléculaire."
+          },
+          {
+            "year": "Étape 3",
+            "title": "Supervision sur Chantier",
+            "text": "Des techniciens K-Aqua effectuent des visites régulières pour s'assurer du respect absolu des directives d'installation."
+          },
+          {
+            "year": "Étape 4",
+            "title": "Test de Pression Final",
+            "text": "Un audit hydrostatique rigoureux prouve la tolérance zéro aux fuites du réseau complet avant la mise en service."
+          },
+          {
+            "year": "Étape 5",
+            "title": "Garantie à Long Terme",
+            "text": "Une fois vérifié, K-Aqua émet le certificat de garantie officiel du système, assurant une tranquillité d'esprit pour des décennies."
+          }
+        ],
+        "title": "Le Protocole de Soutien.",
+        "desc": "Notre procédure opérationnelle standard pour garantir un déploiement d'infrastructure sans faille."
+      },
+      "hero": {
+        "eyebrow": "Soutien à l'Ingénierie",
+        "title1": "Résolution de",
+        "title2": "Problèmes Complexes.",
+        "desc": "Le Centre de Commande K-Aqua. Connectez-vous avec notre équipe d'ingénierie pour les calculs hydrauliques, l'assistance sur site et les audits de conformité.",
+        "btnPrimary": "Ouvrir un Ticket",
+        "btnGhost": "Base de Connaissances"
+      },
+      "intro": {
+        "title1": "LA COMPÉTENCE, PAS",
+        "title2": "DES CENTRES D'APPEL.",
+        "p1": "Lorsque l'infrastructure d'un bâtiment de 50 étages est en jeu, vous ne pouvez pas vous permettre de parler à un représentant du service client qui lit un script.",
+        "p2": "Le support K-Aqua est composé de scientifiques des matériaux, de spécialistes de l'hydraulique et d'ingénieurs de terrain chevronnés. Nous comprenons les exigences de pression, les calculs de contrainte thermique et les subtilités de l'installation sur chantier.",
+        "p3": "Que vous conceviez un système de refroidissement de centre de données ou que vous résolviez un problème de soudage dans un environnement confiné, nous fournissons l'intelligence d'ingénierie brute nécessaire pour surmonter l'obstacle."
+      },
+      "bento": {
+        "eyebrow": "VECTEURS D'ASSISTANCE",
+        "title": "Expertise Sur Demande.",
+        "lead": "Nous proposons un arsenal complet de services techniques pour assurer la perfection de votre projet du début à la fin.",
+        "items": [
+          {
+            "title": "Laboratoire des Matériaux",
+            "desc": "Analyses chimiques pour les fluides industriels agressifs et conseils sur la compatibilité des polymères."
+          },
+          {
+            "title": "Département CAO/BIM",
+            "desc": "Assistance à la conception de modèles Revit complexes et optimisation des tracés."
+          },
+          {
+            "title": "Certifications Locales",
+            "desc": "Navigation dans les codes du bâtiment spécifiques et obtention des approbations des autorités locales."
+          },
+          {
+            "title": "Équipe de Dépannage Rapide",
+            "desc": "Envoi immédiat d'ingénieurs experts pour les défis critiques de l'infrastructure."
+          },
+          {
+            "title": "Fabrication Sur Mesure",
+            "desc": "Développement et extrusion de collecteurs PP-RCT spécifiques aux exigences du projet."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "PERFORMANCE DU RÉSEAU",
+        "title1": "Déploiement",
+        "title2": "Mondial.",
+        "p1": "Nos ingénieurs et nos systèmes fonctionnent de manière transparente sur tous les continents, respectant les normes industrielles et sanitaires mondiales les plus strictes.",
+        "p2": "D'une installation sous zéro en Scandinavie à la chaleur extrême du Moyen-Orient, l'équipe K-Aqua a déjà résolu ce problème.",
+        "items": [
+          "Présence dans plus de 60 Pays",
+          "Certifié DVGW, KIWA, WRAS",
+          "Audit de Qualité ISO 9001",
+          "Réseau de Logistique International"
+        ]
+      },
+      "cta": {
+        "title1": "INITIER",
+        "title2": "LE PROTOCOLE DE",
+        "title3": "CONTACT.",
+        "desc": "Sélectionnez votre niveau d'urgence technique et connectez-vous directement avec le département d'ingénierie concerné.",
+        "btnPrimary": "Contacter l'Ingénierie",
+        "btnGhost": "Annuaire Mondial"
+      }
     },
     "downloads": {
       "title": "Téléchargements",
       "metaDesc": "Téléchargements K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
-      "cta": "Aller aux téléchargements",
+      "cta": {
+        "title": "Quality you can blindly trust.",
+        "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
+        "btn": "To the download portal"
+      },
       "meta": {
         "title": "Téléchargements | K-Aqua",
         "desc": "Téléchargements K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
@@ -5122,7 +5261,97 @@
     "bim": {
       "title": "Données BIM",
       "metaDesc": "Données BIM K-Aqua – La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux.",
-      "cta": "Demander les données BIM"
+      "sticky": {
+        "items": [
+          {
+            "title": "Absolutisme dans la Planification",
+            "desc": "La Modélisation des Informations du Bâtiment (BIM) ne tolère pas les approximations. Nos données paramétriques garantissent que la géométrie que vous placez dans votre modèle numérique correspond avec une précision millimétrique à ce que nous livrons sur le chantier."
+          },
+          {
+            "title": "Précision Thermodynamique",
+            "desc": "Nos modèles BIM ne sont pas seulement de la géométrie 3D. Ils sont enrichis de propriétés thermodynamiques réelles, y compris la conductivité thermique, les coefficients de dilatation et les classifications de pression."
+          },
+          {
+            "title": "Détection des Collisions Sans Erreur",
+            "desc": "Des jumeaux numériques parfaits de notre gamme complète de tuyaux, de raccords et de vannes vous permettent d'exécuter des détections de collisions impeccables, des mois avant le début des travaux d'installation."
+          },
+          {
+            "title": "Calcul Automatisé des Quantités",
+            "desc": "Chaque composant K-Aqua dans votre modèle BIM génère des relevés de matériaux dynamiques et ultra-précis. Pas d'erreurs d'estimation. Pas de surplus coûteux."
+          }
+        ],
+        "eyebrow": "CONCEPTION PARAMÉTRIQUE",
+        "title": "Jumeaux Numériques, Précision Réelle.",
+        "lead": "Nous avons encapsulé la supériorité physique des systèmes K-Aqua dans des données CAO paramétriques de haute fidélité."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Niveau de Détail 1",
+            "title": "Géométrie de Base (LOD 100-200)",
+            "text": "Modèles spatiaux simplifiés pour la planification architecturale initiale, les estimations de volume et l'acheminement basique du système d'eau."
+          },
+          {
+            "year": "Niveau de Détail 2",
+            "title": "Système Précis (LOD 300)",
+            "text": "Géométrie, orientation et diamètres nominaux précis, essentiels pour l'analyse des collisions et l'ingénierie préliminaire des fluides."
+          },
+          {
+            "year": "Niveau de Détail 3",
+            "title": "Documentation de Fabrication (LOD 400)",
+            "text": "Composants entièrement spécifiés incluant l'isolation, les supports et les soudures paramétriques. Prêt pour la préfabrication et l'exécution sur chantier."
+          },
+          {
+            "year": "Niveau de Détail 4",
+            "title": "Jumeau Numérique As-Built (LOD 500)",
+            "text": "Le modèle final, vérifié sur site, intégrant les performances d'exploitation réelles, les journaux de maintenance et la traçabilité des matériaux pour la gestion des installations (Facility Management)."
+          },
+          {
+            "year": "Niveau de Détail 5",
+            "title": "Gestion du Cycle de Vie",
+            "text": "Intégration transparente avec les systèmes CAFM. Nos données garantissent que votre bâtiment intelligent sait exactement quels matériaux constituent son système de tuyauterie."
+          }
+        ],
+        "title": "Évolution du Jumeau Numérique",
+        "desc": "De l'esquisse conceptuelle au suivi du cycle de vie. Nos données BIM accompagnent votre projet tout au long de son existence physique."
+      },
+      "hero": {
+        "desc": "La fondation de la conception d'infrastructures modernes. Accédez à la bibliothèque de données BIM certifiée K-Aqua pour Autodesk Revit, AutoCAD et IFC.",
+        "btnPrimary": "Télécharger la Bibliothèque BIM",
+        "btnGhost": "Demander l'Accès à l'API"
+      },
+      "intro": {
+        "title1": "LA PLANIFICATION NE PARDONNE",
+        "title2": "AUCUNE ERREUR.",
+        "p1": "Dans l'ingénierie moderne des systèmes MEP, une déviation d'un millimètre dans l'environnement virtuel peut entraîner des centaines de milliers de dollars de coûts de rectification dans la réalité physique.",
+        "p2": "C'est pourquoi nos données BIM sont traitées avec la même obsession que nos produits physiques. Nous fournissons des objets paramétriques qui ne se contentent pas d'imiter l'apparence des composants K-Aqua, mais qui se comportent numériquement comme tels. Propriétés thermiques, tolérances de pression, rayons de courbure — chaque paramètre est verrouillé."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Prêt pour Autodesk Revit",
+            "desc": "Familles natives (.rfa) optimisées pour des performances élevées sans gonfler la taille de votre fichier de projet."
+          },
+          {
+            "title": "Norme Ouverte IFC",
+            "desc": "Ensembles de données Industry Foundation Classes garantissant une interopérabilité complète sur n'importe quelle plateforme CAO architecturale."
+          },
+          {
+            "title": "Normes COBie",
+            "desc": "Livraison de données entièrement structurées pour une gestion et un transfert efficaces des actifs du bâtiment."
+          },
+          {
+            "title": "Modèles Auto-Routables",
+            "desc": "Intégration d'une logique de routage intelligente. Dessinez simplement la ligne, et notre système remplit automatiquement les raccords appropriés."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Intégrez K-Aqua dans votre Pipeline.",
+        "desc": "Téléchargez notre pack complet de données BIM et commencez à concevoir avec l'infrastructure polymère la plus avancée au monde.",
+        "btnPrimary": "Obtenir les Données BIM",
+        "btnOutline": "Documentation Technique"
+      }
     },
     "common": {
       "eyebrow": "K-Aqua RESOURCE",
@@ -5149,30 +5378,6 @@
       "meta": {
         "title": "Textes d'appel d'offres | K-Aqua",
         "desc": "Textes d'appel d'offres K-Aqua – La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux."
-      },
-      "deepdive": {
-        "items": [
-          {
-            "title": "Sécurité juridique absolue (VOB/C)",
-            "desc": "Dans la planification de mégaprojets internationaux, l'ambiguïté est l'ennemi. Un seul mot manquant dans le cahier des charges peut faire la différence entre un système sans entretien pendant des décennies et un dommage désastreux se chiffrant en millions. Nos textes d'appel d'offres sont normalisés au millimètre près selon les normes VOB/C et DIN 18381. Chaque description de prestation est calibrée de manière à éliminer complètement les failles techniques, les marges d'interprétation et les zones d'ombre juridiques. Ainsi, nous garantissons que la qualité que vous spécifiez sur le papier est exactement la qualité qui est installée sur le chantier."
-          },
-          {
-            "title": "Compatibilité GAEB & ÖNORM à 100 %",
-            "desc": "Un processus de planification moderne exige un flux de données fluide. Nos jeux de données ne sont pas simplement du texte – ce sont des artefacts hautement structurés et lisibles par machine, conçus pour une intégration immédiate dans tout logiciel professionnel d'appels d'offres, d'adjudication et de facturation (AVA). Nous livrons des formats natifs (GAEB 90, GAEB 2000, GAEB DA XML) ainsi que Datanorm et ÖNORM. Aucune perte de conversion. Aucun effort de retouche manuelle. Un flux de travail numérique qui augmente l'efficacité du processus de planification jusqu'à 40 % tout en excluant mathématiquement les erreurs de transmission."
-          },
-          {
-            "title": "La spécification des matériaux : PPR-C (Type 3)",
-            "desc": "L'infrastructure de l'eau est le système nerveux d'un bâtiment. Nos postes de prestation définissent de manière claire et univoque la structure moléculaire supérieure de notre polypropylène copolymère random (PPR-C Type 3). Ils fixent des paramètres décisifs tels que la résistance au fluage, le comportement au fluage et la dilatation thermique linéaire. Seule cette profondeur de détails sans compromis vous permet de protéger efficacement votre projet contre les dérivés de qualité inférieure et les plagiats dangereux, qui capituleraient inévitablement face à des pressions de pointe de 20 bars ou à des variations de température."
-          },
-          {
-            "title": "Précision thermodynamique et acoustique",
-            "desc": "Une architecture premium exige une physique premium. Un appel d'offres professionnel ne couvre pas seulement le système de tuyauterie nu, mais l'ensemble de l'écosystème physique. Nos textes contiennent des spécifications détaillées sur les coefficients de perte de chaleur selon la loi sur l'énergie des bâtiments (GEG) / EnEV ainsi que sur les mesures d'isolation acoustique strictes (DIN 4109). Cela garantit que votre installation est non seulement extrêmement résistante sur le plan mécanique, mais aussi hautement efficace sur le plan thermodynamique et qu'elle fonctionne acoustiquement dans le segment premium absolu (norme chuchotement)."
-          },
-          {
-            "title": "Métriques de durabilité (ESG & LEED)",
-            "desc": "L'avenir de la construction est circulaire et optimisé en CO2. Aujourd'hui, les appels d'offres doivent prouver des normes écologiques. Les textes K-Aqua intègrent des EPD (Environmental Product Declarations) complètes et des analyses du cycle de vie. Nous définissons l'empreinte écologique exacte, la recyclabilité et l'efficacité énergétique dans l'extrusion. Parfaitement adapté aux bâtiments qui doivent être certifiés selon DGNB, LEED, BREEAM ou WELL. Spécifiez des performances vertes, pas seulement des promesses vertes."
-          }
-        ]
       },
       "timeline": {
         "items": [
@@ -5284,6 +5489,30 @@
         "desc": "Accédez à notre bibliothèque complète et constamment mise à jour de textes d'appel d'offres. Garanti sans erreurs, conforme aux normes et prêt à être utilisé dans votre prochain mégaprojet international.",
         "btn1": "Aller au portail de téléchargement",
         "btn2": "Demander des conseils de planification"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Sécurité juridique absolue (VOB/C)",
+            "desc": "Dans la planification de mégaprojets internationaux, l'ambiguïté est l'ennemi. Un seul mot manquant dans le cahier des charges peut faire la différence entre un système sans entretien pendant des décennies et un dommage désastreux se chiffrant en millions. Nos textes d'appel d'offres sont normalisés au millimètre près selon les normes VOB/C et DIN 18381. Chaque description de prestation est calibrée de manière à éliminer complètement les failles techniques, les marges d'interprétation et les zones d'ombre juridiques. Ainsi, nous garantissons que la qualité que vous spécifiez sur le papier est exactement la qualité qui est installée sur le chantier."
+          },
+          {
+            "title": "Compatibilité GAEB & ÖNORM à 100 %",
+            "desc": "Un processus de planification moderne exige un flux de données fluide. Nos jeux de données ne sont pas simplement du texte – ce sont des artefacts hautement structurés et lisibles par machine, conçus pour une intégration immédiate dans tout logiciel professionnel d'appels d'offres, d'adjudication et de facturation (AVA). Nous livrons des formats natifs (GAEB 90, GAEB 2000, GAEB DA XML) ainsi que Datanorm et ÖNORM. Aucune perte de conversion. Aucun effort de retouche manuelle. Un flux de travail numérique qui augmente l'efficacité du processus de planification jusqu'à 40 % tout en excluant mathématiquement les erreurs de transmission."
+          },
+          {
+            "title": "La spécification des matériaux : PPR-C (Type 3)",
+            "desc": "L'infrastructure de l'eau est le système nerveux d'un bâtiment. Nos postes de prestation définissent de manière claire et univoque la structure moléculaire supérieure de notre polypropylène copolymère random (PPR-C Type 3). Ils fixent des paramètres décisifs tels que la résistance au fluage, le comportement au fluage et la dilatation thermique linéaire. Seule cette profondeur de détails sans compromis vous permet de protéger efficacement votre projet contre les dérivés de qualité inférieure et les plagiats dangereux, qui capituleraient inévitablement face à des pressions de pointe de 20 bars ou à des variations de température."
+          },
+          {
+            "title": "Précision thermodynamique et acoustique",
+            "desc": "Une architecture premium exige une physique premium. Un appel d'offres professionnel ne couvre pas seulement le système de tuyauterie nu, mais l'ensemble de l'écosystème physique. Nos textes contiennent des spécifications détaillées sur les coefficients de perte de chaleur selon la loi sur l'énergie des bâtiments (GEG) / EnEV ainsi que sur les mesures d'isolation acoustique strictes (DIN 4109). Cela garantit que votre installation est non seulement extrêmement résistante sur le plan mécanique, mais aussi hautement efficace sur le plan thermodynamique et qu'elle fonctionne acoustiquement dans le segment premium absolu (norme chuchotement)."
+          },
+          {
+            "title": "Métriques de durabilité (ESG & LEED)",
+            "desc": "L'avenir de la construction est circulaire et optimisé en CO2. Aujourd'hui, les appels d'offres doivent prouver des normes écologiques. Les textes K-Aqua intègrent des EPD (Environmental Product Declarations) complètes et des analyses du cycle de vie. Nous définissons l'empreinte écologique exacte, la recyclabilité et l'efficacité énergétique dans l'extrusion. Parfaitement adapté aux bâtiments qui doivent être certifiés selon DGNB, LEED, BREEAM ou WELL. Spécifiez des performances vertes, pas seulement des promesses vertes."
+          }
+        ]
       }
     }
   },
@@ -5709,216 +5938,120 @@
       "btn": "Initier le Contact"
     }
   },
-  "bim": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Absolutisme dans la Planification",
-          "desc": "La Modélisation des Informations du Bâtiment (BIM) ne tolère pas les approximations. Nos données paramétriques garantissent que la géométrie que vous placez dans votre modèle numérique correspond avec une précision millimétrique à ce que nous livrons sur le chantier."
-        },
-        {
-          "title": "Précision Thermodynamique",
-          "desc": "Nos modèles BIM ne sont pas seulement de la géométrie 3D. Ils sont enrichis de propriétés thermodynamiques réelles, y compris la conductivité thermique, les coefficients de dilatation et les classifications de pression."
-        },
-        {
-          "title": "Détection des Collisions Sans Erreur",
-          "desc": "Des jumeaux numériques parfaits de notre gamme complète de tuyaux, de raccords et de vannes vous permettent d'exécuter des détections de collisions impeccables, des mois avant le début des travaux d'installation."
-        },
-        {
-          "title": "Calcul Automatisé des Quantités",
-          "desc": "Chaque composant K-Aqua dans votre modèle BIM génère des relevés de matériaux dynamiques et ultra-précis. Pas d'erreurs d'estimation. Pas de surplus coûteux."
-        }
-      ],
-      "eyebrow": "CONCEPTION PARAMÉTRIQUE",
-      "title": "Jumeaux Numériques, Précision Réelle.",
-      "lead": "Nous avons encapsulé la supériorité physique des systèmes K-Aqua dans des données CAO paramétriques de haute fidélité."
-    },
-    "timeline": {
-      "items": [
-        {
-          "year": "Niveau de Détail 1",
-          "title": "Géométrie de Base (LOD 100-200)",
-          "text": "Modèles spatiaux simplifiés pour la planification architecturale initiale, les estimations de volume et l'acheminement basique du système d'eau."
-        },
-        {
-          "year": "Niveau de Détail 2",
-          "title": "Système Précis (LOD 300)",
-          "text": "Géométrie, orientation et diamètres nominaux précis, essentiels pour l'analyse des collisions et l'ingénierie préliminaire des fluides."
-        },
-        {
-          "year": "Niveau de Détail 3",
-          "title": "Documentation de Fabrication (LOD 400)",
-          "text": "Composants entièrement spécifiés incluant l'isolation, les supports et les soudures paramétriques. Prêt pour la préfabrication et l'exécution sur chantier."
-        },
-        {
-          "year": "Niveau de Détail 4",
-          "title": "Jumeau Numérique As-Built (LOD 500)",
-          "text": "Le modèle final, vérifié sur site, intégrant les performances d'exploitation réelles, les journaux de maintenance et la traçabilité des matériaux pour la gestion des installations (Facility Management)."
-        },
-        {
-          "year": "Niveau de Détail 5",
-          "title": "Gestion du Cycle de Vie",
-          "text": "Intégration transparente avec les systèmes CAFM. Nos données garantissent que votre bâtiment intelligent sait exactement quels matériaux constituent son système de tuyauterie."
-        }
-      ],
-      "title": "Évolution du Jumeau Numérique",
-      "desc": "De l'esquisse conceptuelle au suivi du cycle de vie. Nos données BIM accompagnent votre projet tout au long de son existence physique."
-    },
-    "hero": {
-      "desc": "La fondation de la conception d'infrastructures modernes. Accédez à la bibliothèque de données BIM certifiée K-Aqua pour Autodesk Revit, AutoCAD et IFC.",
-      "btnPrimary": "Télécharger la Bibliothèque BIM",
-      "btnGhost": "Demander l'Accès à l'API"
-    },
-    "intro": {
-      "title1": "LA PLANIFICATION NE PARDONNE",
-      "title2": "AUCUNE ERREUR.",
-      "p1": "Dans l'ingénierie moderne des systèmes MEP, une déviation d'un millimètre dans l'environnement virtuel peut entraîner des centaines de milliers de dollars de coûts de rectification dans la réalité physique.",
-      "p2": "C'est pourquoi nos données BIM sont traitées avec la même obsession que nos produits physiques. Nous fournissons des objets paramétriques qui ne se contentent pas d'imiter l'apparence des composants K-Aqua, mais qui se comportent numériquement comme tels. Propriétés thermiques, tolérances de pression, rayons de courbure — chaque paramètre est verrouillé."
-    },
-    "bento": {
-      "items": [
-        {
-          "title": "Prêt pour Autodesk Revit",
-          "desc": "Familles natives (.rfa) optimisées pour des performances élevées sans gonfler la taille de votre fichier de projet."
-        },
-        {
-          "title": "Norme Ouverte IFC",
-          "desc": "Ensembles de données Industry Foundation Classes garantissant une interopérabilité complète sur n'importe quelle plateforme CAO architecturale."
-        },
-        {
-          "title": "Normes COBie",
-          "desc": "Livraison de données entièrement structurées pour une gestion et un transfert efficaces des actifs du bâtiment."
-        },
-        {
-          "title": "Modèles Auto-Routables",
-          "desc": "Intégration d'une logique de routage intelligente. Dessinez simplement la ligne, et notre système remplit automatiquement les raccords appropriés."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Intégrez K-Aqua dans votre Pipeline.",
-      "desc": "Téléchargez notre pack complet de données BIM et commencez à concevoir avec l'infrastructure polymère la plus avancée au monde.",
-      "btnPrimary": "Obtenir les Données BIM",
-      "btnOutline": "Documentation Technique"
-    }
+  "productNames": {
+    "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "PP-R Pipe Plug",
+    "fittings_cap": "PP-R End Cap",
+    "fittings_cross-over-pipe": "PP-R Crossover Pipe Component",
+    "fittings_cross-over": "PP-R Pipe Crossover",
+    "fittings_cross": "PP-R Cross Fitting",
+    "fittings_elbow-45-female-male": "PP-R Street Elbow 45° (F/M)",
+    "fittings_elbow-45": "PP-R Standard Elbow 45°",
+    "fittings_elbow-90-female-male": "PP-R Street Elbow 90° (F/M)",
+    "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+    "fittings_reducing-tee": "Reducing Tee",
+    "fittings_socket": "PP-R Pipe Socket",
+    "fittings_tee": "PP-R Tee Fitting",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PP-RCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
+    "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Heavy-Duty Pipe Cutter d50-d125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Socket Welding Machine d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool for Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
+    "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
+    "transition-fittings_metal-union-male-thread": "Metal Union with PP-R Nut (Male Thread)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_union-for-watermeters": "Union for Watermeters",
+    "transition-fittings_union": "PP-R Pipe Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+    "valves_battery-female-thread": "Battery (Female Thread)",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome — Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome — Light Part",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
+    "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
+    "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Upper Part)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
   },
-  "support": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Assistance Technique Immédiate",
-          "desc": "Accès direct à nos ingénieurs système pour résoudre instantanément les défis critiques d'installation."
-        },
-        {
-          "title": "Audits de Sécurité sur Site",
-          "desc": "Nos spécialistes de l'inspection vérifient vos soudures et l'intégrité du système directement sur le chantier."
-        },
-        {
-          "title": "Soutien à la Planification Avancée",
-          "desc": "Des calculs de la dynamique des fluides aux recommandations sur la dilatation thermique, nous concevons votre réseau."
-        },
-        {
-          "title": "Certifications Mondiales",
-          "desc": "Nous fournissons les documents de conformité nécessaires pour répondre aux normes réglementaires les plus strictes de votre région."
-        }
-      ],
-      "eyebrow": "SUPPORT OPÉRATIONNEL",
-      "title": "Nous Ne Vous Laissons Pas Seuls.",
-      "lead": "Notre responsabilité ne s'arrête pas à la livraison. Nous sommes à vos côtés pendant toute la durée du projet."
+  "customerReviews": {
+    "eyebrow": "Quality that Connects",
+    "title": "What our Customers and Partners Say",
+    "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
+    "trustBadge": "Google Reviews",
+    "trustStars": "4.9 / 5",
+    "trustBasedOn": "(Based on 44 reviews)",
+    "tabA": "Quality & Made in Germany",
+    "tabB": "Logistics & Delivery",
+    "tabC": "Service & People",
+    "reviews": {
+      "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+      "a3Author": "Ewald S.",
+      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+      "a4Author": "Kais S.",
+      "a5": "“**High-quality products** and a top German factory.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+      "b1Author": "Michael S.",
+      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "“**Fast unloading**, friendly and helpful staff.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1Author": "Daniel",
+      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3Author": "Azim",
+      "c4": "“**Great company**, does a lot for its people.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“The employees are **very friendly and helpful**.”",
+      "c5Author": "Piera V."
     },
-    "timeline": {
-      "items": [
-        {
-          "year": "Étape 1",
-          "title": "Revue Initiale du Système",
-          "text": "Nous analysons les schémas hydrauliques de votre projet pour garantir le bon dimensionnement et le choix des matériaux optimaux."
-        },
-        {
-          "year": "Étape 2",
-          "title": "Formation de l'Équipe",
-          "text": "Vos installateurs sont certifiés à la K-Aqua Academy, maîtrisant notre technologie de fusion moléculaire."
-        },
-        {
-          "year": "Étape 3",
-          "title": "Supervision sur Chantier",
-          "text": "Des techniciens K-Aqua effectuent des visites régulières pour s'assurer du respect absolu des directives d'installation."
-        },
-        {
-          "year": "Étape 4",
-          "title": "Test de Pression Final",
-          "text": "Un audit hydrostatique rigoureux prouve la tolérance zéro aux fuites du réseau complet avant la mise en service."
-        },
-        {
-          "year": "Étape 5",
-          "title": "Garantie à Long Terme",
-          "text": "Une fois vérifié, K-Aqua émet le certificat de garantie officiel du système, assurant une tranquillité d'esprit pour des décennies."
-        }
-      ],
-      "title": "Le Protocole de Soutien.",
-      "desc": "Notre procédure opérationnelle standard pour garantir un déploiement d'infrastructure sans faille."
-    },
-    "hero": {
-      "eyebrow": "Soutien à l'Ingénierie",
-      "title1": "Résolution de",
-      "title2": "Problèmes Complexes.",
-      "desc": "Le Centre de Commande K-Aqua. Connectez-vous avec notre équipe d'ingénierie pour les calculs hydrauliques, l'assistance sur site et les audits de conformité.",
-      "btnPrimary": "Ouvrir un Ticket",
-      "btnGhost": "Base de Connaissances"
-    },
-    "intro": {
-      "title1": "LA COMPÉTENCE, PAS",
-      "title2": "DES CENTRES D'APPEL.",
-      "p1": "Lorsque l'infrastructure d'un bâtiment de 50 étages est en jeu, vous ne pouvez pas vous permettre de parler à un représentant du service client qui lit un script.",
-      "p2": "Le support K-Aqua est composé de scientifiques des matériaux, de spécialistes de l'hydraulique et d'ingénieurs de terrain chevronnés. Nous comprenons les exigences de pression, les calculs de contrainte thermique et les subtilités de l'installation sur chantier.",
-      "p3": "Que vous conceviez un système de refroidissement de centre de données ou que vous résolviez un problème de soudage dans un environnement confiné, nous fournissons l'intelligence d'ingénierie brute nécessaire pour surmonter l'obstacle."
-    },
-    "bento": {
-      "eyebrow": "VECTEURS D'ASSISTANCE",
-      "title": "Expertise Sur Demande.",
-      "lead": "Nous proposons un arsenal complet de services techniques pour assurer la perfection de votre projet du début à la fin.",
-      "items": [
-        {
-          "title": "Laboratoire des Matériaux",
-          "desc": "Analyses chimiques pour les fluides industriels agressifs et conseils sur la compatibilité des polymères."
-        },
-        {
-          "title": "Département CAO/BIM",
-          "desc": "Assistance à la conception de modèles Revit complexes et optimisation des tracés."
-        },
-        {
-          "title": "Certifications Locales",
-          "desc": "Navigation dans les codes du bâtiment spécifiques et obtention des approbations des autorités locales."
-        },
-        {
-          "title": "Équipe de Dépannage Rapide",
-          "desc": "Envoi immédiat d'ingénieurs experts pour les défis critiques de l'infrastructure."
-        },
-        {
-          "title": "Fabrication Sur Mesure",
-          "desc": "Développement et extrusion de collecteurs PP-RCT spécifiques aux exigences du projet."
-        }
-      ]
-    },
-    "metrics": {
-      "badge": "PERFORMANCE DU RÉSEAU",
-      "title1": "Déploiement",
-      "title2": "Mondial.",
-      "p1": "Nos ingénieurs et nos systèmes fonctionnent de manière transparente sur tous les continents, respectant les normes industrielles et sanitaires mondiales les plus strictes.",
-      "p2": "D'une installation sous zéro en Scandinavie à la chaleur extrême du Moyen-Orient, l'équipe K-Aqua a déjà résolu ce problème.",
-      "items": [
-        "Présence dans plus de 60 Pays",
-        "Certifié DVGW, KIWA, WRAS",
-        "Audit de Qualité ISO 9001",
-        "Réseau de Logistique International"
-      ]
-    },
-    "cta": {
-      "title1": "INITIER",
-      "title2": "LE PROTOCOLE DE",
-      "title3": "CONTACT.",
-      "desc": "Sélectionnez votre niveau d'urgence technique et connectez-vous directement avec le département d'ingénierie concerné.",
-      "btnPrimary": "Contacter l'Ingénierie",
-      "btnGhost": "Annuaire Mondial"
-    }
+    "ctaTitle": "Convince yourself of our service.",
+    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
+    "ctaBtn": "Get in touch now",
+    "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   }
 }

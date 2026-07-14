@@ -10,9 +10,11 @@ import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   return constructMetadata({
     title: "Wissensdatenbank & Spezifikationen | K-Aqua",
     description: "Tiefgreifendes technisches Kompendium für Ingenieure und Planer. Thermodynamik, Materialwissenschaft und kompromisslose Fakten über K-Aqua PPR-Systeme.",

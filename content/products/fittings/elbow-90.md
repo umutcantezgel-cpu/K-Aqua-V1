@@ -7,7 +7,7 @@ article_codes: ["AQ09020", "AQ09025", "AQ09032", "AQ09040", "AQ09050", "AQ09063"
 
 # Elbow 90°
 
-PP-R socket fusion elbow for 90° directional changes.
+PP-R socket fusion elbow for standard 90° directional changes. The 90-degree elbow is the most commonly used directional fitting in sanitary and heating installations, allowing pipes to form right angles around room corners and structural obstacles. Designed for maximum flow efficiency despite the sharp turn, this fitting ensures minimal pressure drop and prevents sediment accumulation at the vertex. The homogeneous polyfusion welding process guarantees a 100% leak-proof joint that maintains the structural integrity of the entire PP-R network for decades.
 
 ## Article Table
 

@@ -16,6 +16,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("service") as string[];
   return constructMetadata({
@@ -44,6 +45,7 @@ const K_DL_LINKS = [
 ];
 
 import { LocalVideo } from "@/components/ui/LocalVideo";
+import { setRequestLocale } from 'next-intl/server';
 
 // Mappings for Service videos: local path and YouTube SEO fallback
 const VIDEO_ASSETS = [
@@ -70,6 +72,7 @@ export default async function ServicePage({ params }: Props) {
       <div className="sr-only">
         <p>{meta[0]}</p>
         <p>{meta[1]}</p>
+        <p>Service & Download Center für Technik Kundenservice & Know-how.</p>
       </div>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">

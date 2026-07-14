@@ -9,6 +9,7 @@ import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder
 import { SectionHead } from '@/components/ui/SectionHead';
 import { CTABand } from '@/components/ui/CTABand';
 import { Button } from '@/components/ui/Button';
+import { setRequestLocale } from 'next-intl/server';
 import { 
   Shield, 
   Award,
@@ -21,6 +22,7 @@ import {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'academy.zertifizierung.meta' });
   return constructMetadata({
     title: t('title'),

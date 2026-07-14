@@ -134,7 +134,7 @@
     ],
     "news": [
       "News & Events",
-      "Triple ISO certified"
+      "Triple ISO tested"
     ],
     "contact": [
       "Contact",
@@ -187,7 +187,7 @@
         "d": "One complete system: five pressure ratings, fittings, valves and welding technology."
       },
       {
-        "t": "Triple certified",
+        "t": "Triple tested",
         "d": "ISO 9001, 14001 and 50001 — quality, environment and energy in one management system."
       },
       {
@@ -265,7 +265,7 @@
       {
         "n": "3×",
         "u": "ISO",
-        "l": "certified for quality, environment & energy"
+        "l": "tested for quality, environment & energy"
       },
       {
         "n": "100",
@@ -483,7 +483,7 @@
         "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
         "advTitle": "Perfekte Systemergänzung",
         "advList": [
-          "Zertifizierte Qualität: Entspricht dem ISO 9001 Managementsystem.",
+          "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
           "Systemkompatibilität: Perfekt auf das K-Aqua Rohrsystem abgestimmt.",
           "Langlebigkeit: Robuste Materialien für den rauen Baustellenalltag.",
           "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
@@ -517,7 +517,7 @@
     "certsAndNorms": "Certificates & Standards",
     "approved": "Approved",
     "monitoring": "Quality Monitoring",
-    "certified": "Certified",
+    "certified": "tested",
     "quickLinks": "Snelle toegang",
     "calcCo2": "Calculate CO2 Savings",
     "backToFinder": "Back to Finder",
@@ -1956,7 +1956,7 @@
     "eyebrow": "Service",
     "title1": "Klantenservice &",
     "titleGrad": "Knowhow.",
-    "lead": "Technische documentatie om te downloaden en stapsgewijze video's voor alle lasprocessen.",
+    "lead": "Klantenservice & Knowhow. - Technische documentatie om te downloaden en stapsgewijze video's voor alle lasprocessen.",
     "dlEyebrow": "Downloads",
     "dlTitle": "Technische documentatie",
     "downloads": [
@@ -2153,6 +2153,19 @@
           "desc": "Bij K-Aqua is duurzaamheid geen marketingslogan, maar een fysieke noodzaak. Een lange levensduur is de ultieme bescherming van het milieu. Onze systemen minimaliseren de energievoetafdruk van productie tot recycling."
         }
       ]
+    },
+    "genauManagement": {
+      "eyebrow": "Gecertificeerde Kwaliteit",
+      "title1": "Het ",
+      "titleHighlight": "GENAU",
+      "title2": " Managementsysteem",
+      "p1": "Het doel van het GENAU-managementsysteem is de continue verbetering van gezondheid op het werk, milieubescherming en veiligheid binnen het bedrijf.",
+      "p2": "Alle bedrijfsactiviteiten bij KWT worden uitgevoerd met een focus op het behoud van hulpbronnen, milieuvriendelijkheid en strikte naleving van alle verplichtingen. Het toegepaste GENAU-management voldoet aan de hoge eisen van ",
+      "p3": " en ",
+      "list1Title": "Ecologische Verantwoordelijkheid",
+      "list1Desc": "Milieubescherming is onderdeel van onze opvatting over kwaliteit, waaraan alle medewerkers van KWT GmbH zich binden.",
+      "list2Title": "Energie-efficiëntie",
+      "list2Desc": "Gerichte identificatie van risico's en implementatie van maatregelen om de energie-efficiëntie te optimaliseren."
     }
   },
   "news": {
@@ -2179,7 +2192,8 @@
     "btnDe": "Certificaat (DE)",
     "btnEn": "Certificaat (EN)",
     "eventsTitle": "Beurzen & Evenementen",
-    "eventsText": "Bezoek K-Aqua op komende evenementen. Momenteel zijn er geen data aangekondigd — kom snel nog eens terug."
+    "eventsText": "Bezoek K-Aqua op komende evenementen. Momenteel zijn er geen data aangekondigd — kom snel nog eens terug.",
+    "lead": "Laatste nieuws van K-Aqua. - "
   },
   "career": {
     "eyebrow": "Carrière",
@@ -2277,7 +2291,7 @@
     "locTitle": "Locatie Duitsland",
     "salesTitle": "Verkoop",
     "supportTitle": "Kwaliteit & Technische Support",
-    "supportText": "Ons supportteam helpt bij technische vragen over planning, materiaal en verwerking."
+    "supportText": "Laten we praten over uw Project. - Ons supportteam helpt bij technische vragen over planning, materiaal en verwerking."
   },
   "imprint": {
     "eyebrow": "Juridisch",
@@ -3612,7 +3626,7 @@
       [
         "ISO 9001 / 14001 / 50001",
         "Management systems",
-        "Quality, environment and energy — triple certified since October 2025, DAkkS-accredited."
+        "Quality, environment and energy — triple tested since October 2025, DAkkS-accredited."
       ],
       [
         "GENAU",
@@ -4417,7 +4431,7 @@
       },
       {
         "y": "10/2025",
-        "t": "Triple ISO certified",
+        "t": "Triple ISO tested",
         "d": "ISO 9001, 14001 and 50001 in one step — DAkkS-accredited, valid until 10/2028."
       },
       {
@@ -4983,12 +4997,137 @@
     "support": {
       "title": "Technische Ondersteuning",
       "metaDesc": "K-Aqua Technische Ondersteuning – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten.",
-      "cta": "Neem contact op"
+      "seoText": {
+        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
+        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
+        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Predictieve systeembewaking",
+            "desc": "Onze algoritmen analyseren continu afwijkingen in de infrastructuur. Voordat een kritieke toestand wordt bereikt, grijpt ons Level-3-team in. Nul tolerantie voor latentie. Nul tolerantie voor storingen. We handelen voordat de fout ontstaat."
+          },
+          {
+            "title": "Militaire reactietijden",
+            "desc": "Een SLA is voor ons geen richtlijn, maar een fysieke wet. Bij kritieke incidenten garanderen wij initiële reacties in de orde van milliseconden en onmiddellijke escalatie naar toegewijde senior ingenieurs. Geen wachtrijen, uitsluitend onmiddellijke uitvoering."
+          },
+          {
+            "title": "Architectuur Audits",
+            "desc": "Uw systemen worden op de proef gesteld volgens de strengste normen van de Duitse ingenieurskunst. Schaalbaarheid, redundantie en betrouwbaarheid worden geverifieerd door meedogenloze stresstests. Zwakke punten worden geëlimineerd, niet beheerd."
+          },
+          {
+            "title": "Directe toegang tot ontwikkelaars",
+            "desc": "Vergeet conventionele ondersteuning. Bij complexe systeemintegraties communiceert u rechtstreeks met onze kernontwikkelaars. Geen first-level filter, maar pure, ongefilterde technische expertise voor onmiddellijke probleemoplossing op broncodeniveau."
+          }
+        ],
+        "eyebrow": "Escalatieprotocollen",
+        "title": "Soevereiniteit in tijden van crisis",
+        "lead": "Hoe we systeemintegriteit handhaven onder extreme belastingsomstandigheden."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Detectie van afwijkingen",
+            "text": "Geautomatiseerde systemen detecteren micro-afwijkingen in de datastroom lang voor een zichtbare storing."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostische triage",
+            "text": "AI-gestuurde loganalyse isoleert de foutvector. Toewijzing aan het exact passende specialistencluster."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Interventie",
+            "text": "Toepassing van hotfixes of automatische omleiding van verkeer naar redundante high-availability nodes."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Root-Cause Analyse",
+            "text": "Forensisch onderzoek van het incident. Modificatie van de kernarchitectuur voor permanente preventie."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem Protocol",
+            "text": "Gedetailleerd technisch rapport met cryptografische handtekening voor absolute transparantie en auditveiligheid."
+          }
+        ],
+        "title": "De noodsituatie: Kroniek van een interventie",
+        "desc": "Elke seconde telt. Onze gestandaardiseerde procedure in geval van een kritieke systeemafwijking. Koel berekend. Genadeloos uitgevoerd."
+      },
+      "hero": {
+        "eyebrow": "Engineering Diensten & Support",
+        "title1": "Technologische",
+        "title2": "superioriteit.",
+        "desc": "Geen ruimte voor compromissen. Absolute precisie in systeemonderhoud en architecturale schaalbaarheid. Ons ondersteuningsnetwerk werkt met ijskoude, industriële autoriteit om uw infrastructuur te harden tegen elke fysieke of digitale bedreiging.",
+        "btnPrimary": "Systeem-audit aanvragen",
+        "btnGhost": "Protocollen inzien"
+      },
+      "intro": {
+        "title1": "Infrastructuur is geen service.",
+        "title2": "Het is een fysiek fundament.",
+        "p1": "Wij beschouwen IT-ondersteuning niet als een downstream-proces, maar als een integraal onderdeel van de systeemarchitectuur. Als uw systemen uitvallen, stopt de productie. Dat is onaanvaardbaar.",
+        "p2": "Onze ingenieurs werken met chirurgische precisie. Elk logbestand wordt geanalyseerd, elke latentiepiek onderzocht. We bouwen systemen die zichzelf genezen en flankeren ze met een ondersteuningsteam dat reageert voordat uw monitoringdashboards überhaupt rood oplichten.",
+        "p3": "Welkom bij de Duitse norm voor hoge beschikbaarheid."
+      },
+      "bento": {
+        "eyebrow": "Architectuur & Consulting",
+        "title": "Geconstrueerd voor de eeuwigheid",
+        "lead": "Onze diensten gaan veel verder dan klassieke ondersteuning. Wij ontwerpen, bouwen en harden uw kerninfrastructuur met compromisloze ingenieurskunst.",
+        "items": [
+          {
+            "title": "Zero-Downtime Migraties",
+            "desc": "Wij dragen petabytes aan data over tussen legacy-systemen en moderne clusters zonder ook maar één milliseconde downtime. Perfect gechoreografeerde datastromen."
+          },
+          {
+            "title": "Optimalisatie op Hardware-niveau",
+            "desc": "Kernel-tuning, geheugentoewijzing-optimalisatie en netwerkstack-aanpassingen voor maximale doorvoersnelheden."
+          },
+          {
+            "title": "Beveiligingsenclaves",
+            "desc": "Opbouw van geïsoleerde, cryptografisch beveiligde subnetwerken voor uw meest gevoelige bedrijfsgegevens."
+          },
+          {
+            "title": "API- & Backend-smederij",
+            "desc": "Ontwikkeling van robuuste, rate-limited en extreem performante API's die moeiteloos miljoenen verzoeken per seconde verwerken."
+          },
+          {
+            "title": "Toegewijde Noodstroomconcepten",
+            "desc": "Fysieke en digitale redundantieplannen. Van datacenter-failover tot geo-redundantie over drie continenten."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Absolute Betrouwbaarheid",
+        "title1": "Gecertificeerde",
+        "title2": "betrouwbaarheid.",
+        "p1": "Wij werken volgens de principes van de Duitse ingenieurskunst: Wat gebouwd wordt, moet werken. Altijd. Onder alle omstandigheden.",
+        "p2": "Onze systemen zijn ISO 27001-gecertificeerd en voldoen aan de strengste compliance-eisen wereldwijd. Elke ingreep in uw infrastructuur wordt gecontroleerd, cryptografisch ondertekend en onveranderlijk gelogd.",
+        "items": [
+          "99,999% gegarandeerde Uptime (SLA-ondersteund)",
+          "End-to-End encryptie van alle telemetriegegevens",
+          "Toegewijde TAM's (Technical Account Managers) voor Enterprise-klanten",
+          "Maandelijkse penetratietesten door onafhankelijke Red-Teams"
+        ]
+      },
+      "cta": {
+        "title1": "Klaar voor",
+        "title2": "compromisloze",
+        "title3": "stabiliteit?",
+        "desc": "Laat uw infrastructuur auditen door ingenieurs die storingen niet als pech beschouwen, maar als een ontwerpfout.",
+        "btnPrimary": "Infrastructuur-audit initiëren",
+        "btnGhost": "Experts contacteren"
+      }
     },
     "downloads": {
       "title": "Downloads",
       "metaDesc": "K-Aqua Downloads – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten.",
-      "cta": "Ga naar Downloads",
+      "cta": {
+        "title": "Quality you can blindly trust.",
+        "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
+        "btn": "To the download portal"
+      },
       "meta": {
         "title": "Downloads | K-Aqua",
         "desc": "K-Aqua Downloads – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten."
@@ -5122,7 +5261,97 @@
     "bim": {
       "title": "BIM-Data",
       "metaDesc": "K-Aqua BIM-Data – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten.",
-      "cta": "BIM-data aanvragen"
+      "sticky": {
+        "items": [
+          {
+            "title": "Maximale datadiepte (LOI 500)",
+            "desc": "Onze BIM-modellen bieden niet alleen een uiterst nauwkeurige geometrische weergave (LOD), maar vooral een onovertroffen informatiediepte (LOI). Elke buis, elke fitting en elke afsluiter bevat alle kritische metadata: materiaalspecificaties, drukklassen, thermische uitzettingscoëfficiënten en exacte artikelnummers voor geautomatiseerde aanbesteding."
+          },
+          {
+            "title": "Clash-vrije planning",
+            "desc": "In miljardenprojecten is clash-detectie ononderhandelbaar. Onze native Revit- en IFC-bestanden garanderen een naadloze integratie in uw Navisworks of Solibri. De exacte buitendiameters inclusief lasnaadtoleranties voorkomen dure verrassingen op de bouwplaats."
+          },
+          {
+            "title": "Parametrische Intelligentie",
+            "desc": "K-Aqua BIM-families zijn volledig parametrisch. Ze passen zich dynamisch aan leidingtracés, afschot en dimensionering aan. De geïntegreerde auto-routing selecteert automatisch de correcte reducties en bochthoeken volgens de strikte eisen van DIN EN ISO 15874."
+          },
+          {
+            "title": "Levenscyclus & Facility Management",
+            "desc": "De digitale tweeling eindigt niet bij de oplevering van de bouw. Onze BIM-objecten zijn COBie-compatibel en voorzien facility management van alle benodigde onderhoudsintervallen, certificaten en bedrijfsgegevens voor een veilige levenscyclus van meer dan 50 jaar."
+          }
+        ],
+        "eyebrow": "Workflow Excellentie",
+        "title": "Digitale Tweelingen in perfectie.",
+        "lead": "Een blik in de datadiepte die het verschil tussen planning en realiteit elimineert."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fase 1",
+            "title": "Conceptie & TGA-planning",
+            "text": "Integratie van K-Aqua basisgeometrieën in het vroege ontwerp. Snelle hoeveelheidsbepaling en eerste clash-detectie voor het tracéconcept in het TGA-masterplan."
+          },
+          {
+            "year": "Fase 2",
+            "title": "Uitvoeringsplanning",
+            "text": "Conversie naar LOI 400. De exacte specificaties, stroomsnelheden en drukverliesberekeningen vloeien direct in de hydraulische netwerkberekening van het gebouw."
+          },
+          {
+            "year": "Fase 3",
+            "title": "Aanbesteding & Gunning",
+            "text": "Geautomatiseerde generatie van foutloze Bill of Materials (BOM) rechtstreeks vanuit het model. Elke fitting is voorzien van het K-Aqua artikelnummer en VDI 3805 data."
+          },
+          {
+            "year": "Fase 4",
+            "title": "Prefabricage & Montage",
+            "text": "Export van isometrische tekeningen voor industriële prefabricage. Millimeternauwkeurige spool-tekeningen reduceren laswerkzaamheden op de bouwplaats tot een absoluut minimum."
+          },
+          {
+            "year": "Fase 5",
+            "title": "As-Built & Exploitatie",
+            "text": "Oplevering van het As-Built model. De digitale tweeling dient als Single Source of Truth voor het facility management gedurende de gehele levensduur van het gebouw."
+          }
+        ],
+        "title": "De levenscyclus van K-Aqua BIM-data",
+        "desc": "Van de eerste schets tot decennialange exploitatie. Onze data begeleidt uw project in elke fase."
+      },
+      "hero": {
+        "desc": "Deze module biedt compromisloze veiligheid voor de meest veeleisende projecten wereldwijd. Vervaardigd volgens de strengste industrienormen om generaties lang mee te gaan. Download de digitale tweeling, waar materiaalfalen geen optie is.",
+        "btnPrimary": "BIM Bibliotheek (Revit/IFC)",
+        "btnGhost": "BIM Consulting aanvragen"
+      },
+      "intro": {
+        "title1": "Het DNA van onze leidingsystemen.",
+        "title2": "Nu in de cloud.",
+        "p1": "Wij beschouwen BIM niet als louter een 3D-tekening. Voor K-Aqua is Building Information Modeling de overdracht van onze compromisloze productieprecisie naar de digitale ruimte. Wanneer internationale hoofdaannemers wolkenkrabbers, datacenters of zwaar beveiligde laboratoria plannen, hebben ze geen geschatte waarden nodig - ze hebben fysieke realiteit nodig in de vorm van data.",
+        "p2": "Onze datasets zijn het resultaat van tientallen jaren Duitse ingenieurskunst. Elke wanddikte, elke stromingsdynamiek en elke thermische eigenschap is gevalideerd door onze ingenieurs en native vertaald naar de families."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Native Revit® Families",
+            "desc": "Geen conversieverliezen. Direct geprogrammeerd als .rfa en .rvt voor de hoogste prestaties en native routing-voorkeuren."
+          },
+          {
+            "title": "VDI 3805 Conformiteit",
+            "desc": "Gestandaardiseerde productgegevens voor vlotte gegevensuitwisseling in de gehele TGA-keten."
+          },
+          {
+            "title": "IFC4 Certificering",
+            "desc": "Maximale interoperabiliteit door open BIM-standaarden (OpenBIM). Gegarandeerd leesbaar in ArchiCAD, Allplan en Vectorworks."
+          },
+          {
+            "title": "Exacte thermische gegevens",
+            "desc": "Geïntegreerde rekenmodellen voor lengte-uitzetting, thermische geleidbaarheid (0,24 W/mK) en drukverlies door wrijving."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Download het K-Aqua BIM-pakket.",
+        "desc": "Volledige toegang tot alle native Revit-families, IFC-bestanden en VDI 3805-datasets. Gratis voor ontwerpers en ingenieurs.",
+        "btnPrimary": "Naar het Downloadcentrum",
+        "btnOutline": "BIM-Manager contacteren"
+      }
     },
     "common": {
       "eyebrow": "K-Aqua BRON",
@@ -5149,30 +5378,6 @@
       "meta": {
         "title": "Bestekteksten | K-Aqua",
         "desc": "K-Aqua Bestekteksten – Compromisloze veiligheid door German Engineering voor wereldwijde megaprojecten."
-      },
-      "deepdive": {
-        "items": [
-          {
-            "title": "Absolute rechtszekerheid (VOB/C)",
-            "desc": "Bij de planning van internationale megaprojecten is ambiguïteit de vijand. Een enkel ontbrekend woord in het bestek kan het verschil betekenen tussen een decennialang onderhoudsvrij systeem en een rampzalige miljonenschade. Onze bestekteksten zijn tot op de millimeter nauwkeurig gestandaardiseerd volgens VOB/C en DIN 18381. Elke prestatiebeschrijving is zodanig gekalibreerd dat technische mazen, interpretatieruimte en juridische grijze zones volledig worden geëlimineerd. Zo garanderen wij dat de kwaliteit die u op papier specificeert, exact de kwaliteit is die op de bouwplaats wordt geïnstalleerd."
-          },
-          {
-            "title": "100% GAEB- & ÖNORM-compatibiliteit",
-            "desc": "Een modern planningsproces vereist een naadloze gegevensstroom. Onze datasets zijn niet zomaar tekst - het zijn sterk gestructureerde, machinaal leesbare artefacten, ontworpen voor directe integratie in elke professionele calculatiesoftware (Aanbesteding, Gunning, Afrekening). Wij leveren native formaten (GAEB 90, GAEB 2000, GAEB DA XML) evenals Datanorm en ÖNORM. Geen conversieverliezen. Geen handmatige correcties. Een digitale workflow die de efficiëntie in het planningsproces met maximaal 40% verhoogt en tegelijkertijd overdrachtsfouten wiskundig uitsluit."
-          },
-          {
-            "title": "De materiaalspecificatie: PPR-C (Type 3)",
-            "desc": "Waterinfrastructuur is het zenuwstelsel van een gebouw. Onze besteksposten definiëren duidelijk en ondubbelzinnig de superieure moleculaire structuur van ons Polypropyleen Random Copolymeer (PPR-C Type 3). Ze leggen cruciale parameters vast zoals kruipsterkte, kruipgedrag en thermische lengte-uitzetting. Alleen door deze compromisloze diepgang in detail beschermt u uw project effectief tegen inferieure derivaten en gevaarlijke plagiaten, die onvermijdelijk zouden bezwijken bij piekdrukken van 20 bar of bij temperatuurschommelingen."
-          },
-          {
-            "title": "Thermodynamische en akoestische precisie",
-            "desc": "Premium-architectuur vereist premium-fysica. Een professionele aanbesteding omvat niet alleen het kale leidingsysteem, maar het gehele fysieke ecosysteem. Onze teksten bevatten gedetailleerde specificaties voor warmteverliescoëfficiënten volgens de Gebouwenenergiewet (GEG) / EnEV en voor strenge geluidsisolatiewaarden (DIN 4109). Dit zorgt ervoor dat uw installatie niet alleen mechanisch extreem belastbaar is, maar ook thermodynamisch zeer efficiënt en akoestisch in het absolute topsegment (fluisterstandaard) opereert."
-          },
-          {
-            "title": "Duurzaamheidsmetrieken (ESG & LEED)",
-            "desc": "De toekomst van de bouw is circulair en CO2-geoptimaliseerd. Aanbestedingen moeten tegenwoordig groene normen aantonen. K-Aqua teksten integreren volledige EPD's (Environmental Product Declarations) en levenscyclusanalyses. We definiëren de exacte ecologische voetafdruk, recycleerbaarheid en energie-efficiëntie in extrusie. Perfect geschikt voor gebouwen die gecertificeerd moeten worden volgens DGNB, LEED, BREEAM of WELL. Specificeer groene prestaties, niet alleen groene beloftes."
-          }
-        ]
       },
       "timeline": {
         "items": [
@@ -5284,6 +5489,30 @@
         "desc": "Krijg toegang tot onze volledige, voortdurend bijgewerkte bibliotheek van bestekteksten. Gegarandeerd foutloos, normconform en klaar voor gebruik in uw volgende internationale megaproject.",
         "btn1": "Naar het Download Portaal",
         "btn2": "Planningsadvies aanvragen"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Absolute rechtszekerheid (VOB/C)",
+            "desc": "Bij de planning van internationale megaprojecten is ambiguïteit de vijand. Een enkel ontbrekend woord in het bestek kan het verschil betekenen tussen een decennialang onderhoudsvrij systeem en een rampzalige miljonenschade. Onze bestekteksten zijn tot op de millimeter nauwkeurig gestandaardiseerd volgens VOB/C en DIN 18381. Elke prestatiebeschrijving is zodanig gekalibreerd dat technische mazen, interpretatieruimte en juridische grijze zones volledig worden geëlimineerd. Zo garanderen wij dat de kwaliteit die u op papier specificeert, exact de kwaliteit is die op de bouwplaats wordt geïnstalleerd."
+          },
+          {
+            "title": "100% GAEB- & ÖNORM-compatibiliteit",
+            "desc": "Een modern planningsproces vereist een naadloze gegevensstroom. Onze datasets zijn niet zomaar tekst - het zijn sterk gestructureerde, machinaal leesbare artefacten, ontworpen voor directe integratie in elke professionele calculatiesoftware (Aanbesteding, Gunning, Afrekening). Wij leveren native formaten (GAEB 90, GAEB 2000, GAEB DA XML) evenals Datanorm en ÖNORM. Geen conversieverliezen. Geen handmatige correcties. Een digitale workflow die de efficiëntie in het planningsproces met maximaal 40% verhoogt en tegelijkertijd overdrachtsfouten wiskundig uitsluit."
+          },
+          {
+            "title": "De materiaalspecificatie: PPR-C (Type 3)",
+            "desc": "Waterinfrastructuur is het zenuwstelsel van een gebouw. Onze besteksposten definiëren duidelijk en ondubbelzinnig de superieure moleculaire structuur van ons Polypropyleen Random Copolymeer (PPR-C Type 3). Ze leggen cruciale parameters vast zoals kruipsterkte, kruipgedrag en thermische lengte-uitzetting. Alleen door deze compromisloze diepgang in detail beschermt u uw project effectief tegen inferieure derivaten en gevaarlijke plagiaten, die onvermijdelijk zouden bezwijken bij piekdrukken van 20 bar of bij temperatuurschommelingen."
+          },
+          {
+            "title": "Thermodynamische en akoestische precisie",
+            "desc": "Premium-architectuur vereist premium-fysica. Een professionele aanbesteding omvat niet alleen het kale leidingsysteem, maar het gehele fysieke ecosysteem. Onze teksten bevatten gedetailleerde specificaties voor warmteverliescoëfficiënten volgens de Gebouwenenergiewet (GEG) / EnEV en voor strenge geluidsisolatiewaarden (DIN 4109). Dit zorgt ervoor dat uw installatie niet alleen mechanisch extreem belastbaar is, maar ook thermodynamisch zeer efficiënt en akoestisch in het absolute topsegment (fluisterstandaard) opereert."
+          },
+          {
+            "title": "Duurzaamheidsmetrieken (ESG & LEED)",
+            "desc": "De toekomst van de bouw is circulair en CO2-geoptimaliseerd. Aanbestedingen moeten tegenwoordig groene normen aantonen. K-Aqua teksten integreren volledige EPD's (Environmental Product Declarations) en levenscyclusanalyses. We definiëren de exacte ecologische voetafdruk, recycleerbaarheid en energie-efficiëntie in extrusie. Perfect geschikt voor gebouwen die gecertificeerd moeten worden volgens DGNB, LEED, BREEAM of WELL. Specificeer groene prestaties, niet alleen groene beloftes."
+          }
+        ]
       }
     }
   },
@@ -5709,216 +5938,120 @@
       "btn": "Contact initiëren"
     }
   },
-  "bim": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Maximale datadiepte (LOI 500)",
-          "desc": "Onze BIM-modellen bieden niet alleen een uiterst nauwkeurige geometrische weergave (LOD), maar vooral een onovertroffen informatiediepte (LOI). Elke buis, elke fitting en elke afsluiter bevat alle kritische metadata: materiaalspecificaties, drukklassen, thermische uitzettingscoëfficiënten en exacte artikelnummers voor geautomatiseerde aanbesteding."
-        },
-        {
-          "title": "Clash-vrije planning",
-          "desc": "In miljardenprojecten is clash-detectie ononderhandelbaar. Onze native Revit- en IFC-bestanden garanderen een naadloze integratie in uw Navisworks of Solibri. De exacte buitendiameters inclusief lasnaadtoleranties voorkomen dure verrassingen op de bouwplaats."
-        },
-        {
-          "title": "Parametrische Intelligentie",
-          "desc": "K-Aqua BIM-families zijn volledig parametrisch. Ze passen zich dynamisch aan leidingtracés, afschot en dimensionering aan. De geïntegreerde auto-routing selecteert automatisch de correcte reducties en bochthoeken volgens de strikte eisen van DIN EN ISO 15874."
-        },
-        {
-          "title": "Levenscyclus & Facility Management",
-          "desc": "De digitale tweeling eindigt niet bij de oplevering van de bouw. Onze BIM-objecten zijn COBie-compatibel en voorzien facility management van alle benodigde onderhoudsintervallen, certificaten en bedrijfsgegevens voor een veilige levenscyclus van meer dan 50 jaar."
-        }
-      ],
-      "eyebrow": "Workflow Excellentie",
-      "title": "Digitale Tweelingen in perfectie.",
-      "lead": "Een blik in de datadiepte die het verschil tussen planning en realiteit elimineert."
-    },
-    "timeline": {
-      "items": [
-        {
-          "year": "Fase 1",
-          "title": "Conceptie & TGA-planning",
-          "text": "Integratie van K-Aqua basisgeometrieën in het vroege ontwerp. Snelle hoeveelheidsbepaling en eerste clash-detectie voor het tracéconcept in het TGA-masterplan."
-        },
-        {
-          "year": "Fase 2",
-          "title": "Uitvoeringsplanning",
-          "text": "Conversie naar LOI 400. De exacte specificaties, stroomsnelheden en drukverliesberekeningen vloeien direct in de hydraulische netwerkberekening van het gebouw."
-        },
-        {
-          "year": "Fase 3",
-          "title": "Aanbesteding & Gunning",
-          "text": "Geautomatiseerde generatie van foutloze Bill of Materials (BOM) rechtstreeks vanuit het model. Elke fitting is voorzien van het K-Aqua artikelnummer en VDI 3805 data."
-        },
-        {
-          "year": "Fase 4",
-          "title": "Prefabricage & Montage",
-          "text": "Export van isometrische tekeningen voor industriële prefabricage. Millimeternauwkeurige spool-tekeningen reduceren laswerkzaamheden op de bouwplaats tot een absoluut minimum."
-        },
-        {
-          "year": "Fase 5",
-          "title": "As-Built & Exploitatie",
-          "text": "Oplevering van het As-Built model. De digitale tweeling dient als Single Source of Truth voor het facility management gedurende de gehele levensduur van het gebouw."
-        }
-      ],
-      "title": "De levenscyclus van K-Aqua BIM-data",
-      "desc": "Van de eerste schets tot decennialange exploitatie. Onze data begeleidt uw project in elke fase."
-    },
-    "hero": {
-      "desc": "Deze module biedt compromisloze veiligheid voor de meest veeleisende projecten wereldwijd. Vervaardigd volgens de strengste industrienormen om generaties lang mee te gaan. Download de digitale tweeling, waar materiaalfalen geen optie is.",
-      "btnPrimary": "BIM Bibliotheek (Revit/IFC)",
-      "btnGhost": "BIM Consulting aanvragen"
-    },
-    "intro": {
-      "title1": "Het DNA van onze leidingsystemen.",
-      "title2": "Nu in de cloud.",
-      "p1": "Wij beschouwen BIM niet als louter een 3D-tekening. Voor K-Aqua is Building Information Modeling de overdracht van onze compromisloze productieprecisie naar de digitale ruimte. Wanneer internationale hoofdaannemers wolkenkrabbers, datacenters of zwaar beveiligde laboratoria plannen, hebben ze geen geschatte waarden nodig - ze hebben fysieke realiteit nodig in de vorm van data.",
-      "p2": "Onze datasets zijn het resultaat van tientallen jaren Duitse ingenieurskunst. Elke wanddikte, elke stromingsdynamiek en elke thermische eigenschap is gevalideerd door onze ingenieurs en native vertaald naar de families."
-    },
-    "bento": {
-      "items": [
-        {
-          "title": "Native Revit® Families",
-          "desc": "Geen conversieverliezen. Direct geprogrammeerd als .rfa en .rvt voor de hoogste prestaties en native routing-voorkeuren."
-        },
-        {
-          "title": "VDI 3805 Conformiteit",
-          "desc": "Gestandaardiseerde productgegevens voor vlotte gegevensuitwisseling in de gehele TGA-keten."
-        },
-        {
-          "title": "IFC4 Certificering",
-          "desc": "Maximale interoperabiliteit door open BIM-standaarden (OpenBIM). Gegarandeerd leesbaar in ArchiCAD, Allplan en Vectorworks."
-        },
-        {
-          "title": "Exacte thermische gegevens",
-          "desc": "Geïntegreerde rekenmodellen voor lengte-uitzetting, thermische geleidbaarheid (0,24 W/mK) en drukverlies door wrijving."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Download het K-Aqua BIM-pakket.",
-      "desc": "Volledige toegang tot alle native Revit-families, IFC-bestanden en VDI 3805-datasets. Gratis voor ontwerpers en ingenieurs.",
-      "btnPrimary": "Naar het Downloadcentrum",
-      "btnOutline": "BIM-Manager contacteren"
-    }
+  "productNames": {
+    "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "PP-R Pipe Plug",
+    "fittings_cap": "PP-R End Cap",
+    "fittings_cross-over-pipe": "PP-R Crossover Pipe Component",
+    "fittings_cross-over": "PP-R Pipe Crossover",
+    "fittings_cross": "PP-R Cross Fitting",
+    "fittings_elbow-45-female-male": "PP-R Street Elbow 45° (F/M)",
+    "fittings_elbow-45": "PP-R Standard Elbow 45°",
+    "fittings_elbow-90-female-male": "PP-R Street Elbow 90° (F/M)",
+    "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+    "fittings_reducing-tee": "Reducing Tee",
+    "fittings_socket": "PP-R Pipe Socket",
+    "fittings_tee": "PP-R Tee Fitting",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PP-RCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
+    "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Heavy-Duty Pipe Cutter d50-d125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Socket Welding Machine d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool for Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
+    "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
+    "transition-fittings_metal-union-male-thread": "Metal Union with PP-R Nut (Male Thread)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_union-for-watermeters": "Union for Watermeters",
+    "transition-fittings_union": "PP-R Pipe Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+    "valves_battery-female-thread": "Battery (Female Thread)",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome — Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome — Light Part",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
+    "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
+    "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Upper Part)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
   },
-  "support": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Predictieve systeembewaking",
-          "desc": "Onze algoritmen analyseren continu afwijkingen in de infrastructuur. Voordat een kritieke toestand wordt bereikt, grijpt ons Level-3-team in. Nul tolerantie voor latentie. Nul tolerantie voor storingen. We handelen voordat de fout ontstaat."
-        },
-        {
-          "title": "Militaire reactietijden",
-          "desc": "Een SLA is voor ons geen richtlijn, maar een fysieke wet. Bij kritieke incidenten garanderen wij initiële reacties in de orde van milliseconden en onmiddellijke escalatie naar toegewijde senior ingenieurs. Geen wachtrijen, uitsluitend onmiddellijke uitvoering."
-        },
-        {
-          "title": "Architectuur Audits",
-          "desc": "Uw systemen worden op de proef gesteld volgens de strengste normen van de Duitse ingenieurskunst. Schaalbaarheid, redundantie en betrouwbaarheid worden geverifieerd door meedogenloze stresstests. Zwakke punten worden geëlimineerd, niet beheerd."
-        },
-        {
-          "title": "Directe toegang tot ontwikkelaars",
-          "desc": "Vergeet conventionele ondersteuning. Bij complexe systeemintegraties communiceert u rechtstreeks met onze kernontwikkelaars. Geen first-level filter, maar pure, ongefilterde technische expertise voor onmiddellijke probleemoplossing op broncodeniveau."
-        }
-      ],
-      "eyebrow": "Escalatieprotocollen",
-      "title": "Soevereiniteit in tijden van crisis",
-      "lead": "Hoe we systeemintegriteit handhaven onder extreme belastingsomstandigheden."
+  "customerReviews": {
+    "eyebrow": "Quality that Connects",
+    "title": "What our Customers and Partners Say",
+    "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
+    "trustBadge": "Google Reviews",
+    "trustStars": "4.9 / 5",
+    "trustBasedOn": "(Based on 44 reviews)",
+    "tabA": "Quality & Made in Germany",
+    "tabB": "Logistics & Delivery",
+    "tabC": "Service & People",
+    "reviews": {
+      "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+      "a3Author": "Ewald S.",
+      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+      "a4Author": "Kais S.",
+      "a5": "“**High-quality products** and a top German factory.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+      "b1Author": "Michael S.",
+      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "“**Fast unloading**, friendly and helpful staff.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1Author": "Daniel",
+      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3Author": "Azim",
+      "c4": "“**Great company**, does a lot for its people.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“The employees are **very friendly and helpful**.”",
+      "c5Author": "Piera V."
     },
-    "timeline": {
-      "items": [
-        {
-          "year": "T-0:00",
-          "title": "Detectie van afwijkingen",
-          "text": "Geautomatiseerde systemen detecteren micro-afwijkingen in de datastroom lang voor een zichtbare storing."
-        },
-        {
-          "year": "T+0:02",
-          "title": "Diagnostische triage",
-          "text": "AI-gestuurde loganalyse isoleert de foutvector. Toewijzing aan het exact passende specialistencluster."
-        },
-        {
-          "year": "T+0:15",
-          "title": "Interventie",
-          "text": "Toepassing van hotfixes of automatische omleiding van verkeer naar redundante high-availability nodes."
-        },
-        {
-          "year": "T+1:00",
-          "title": "Root-Cause Analyse",
-          "text": "Forensisch onderzoek van het incident. Modificatie van de kernarchitectuur voor permanente preventie."
-        },
-        {
-          "year": "T+4:00",
-          "title": "Post-Mortem Protocol",
-          "text": "Gedetailleerd technisch rapport met cryptografische handtekening voor absolute transparantie en auditveiligheid."
-        }
-      ],
-      "title": "De noodsituatie: Kroniek van een interventie",
-      "desc": "Elke seconde telt. Onze gestandaardiseerde procedure in geval van een kritieke systeemafwijking. Koel berekend. Genadeloos uitgevoerd."
-    },
-    "hero": {
-      "eyebrow": "Engineering Diensten & Support",
-      "title1": "Technologische",
-      "title2": "superioriteit.",
-      "desc": "Geen ruimte voor compromissen. Absolute precisie in systeemonderhoud en architecturale schaalbaarheid. Ons ondersteuningsnetwerk werkt met ijskoude, industriële autoriteit om uw infrastructuur te harden tegen elke fysieke of digitale bedreiging.",
-      "btnPrimary": "Systeem-audit aanvragen",
-      "btnGhost": "Protocollen inzien"
-    },
-    "intro": {
-      "title1": "Infrastructuur is geen service.",
-      "title2": "Het is een fysiek fundament.",
-      "p1": "Wij beschouwen IT-ondersteuning niet als een downstream-proces, maar als een integraal onderdeel van de systeemarchitectuur. Als uw systemen uitvallen, stopt de productie. Dat is onaanvaardbaar.",
-      "p2": "Onze ingenieurs werken met chirurgische precisie. Elk logbestand wordt geanalyseerd, elke latentiepiek onderzocht. We bouwen systemen die zichzelf genezen en flankeren ze met een ondersteuningsteam dat reageert voordat uw monitoringdashboards überhaupt rood oplichten.",
-      "p3": "Welkom bij de Duitse norm voor hoge beschikbaarheid."
-    },
-    "bento": {
-      "eyebrow": "Architectuur & Consulting",
-      "title": "Geconstrueerd voor de eeuwigheid",
-      "lead": "Onze diensten gaan veel verder dan klassieke ondersteuning. Wij ontwerpen, bouwen en harden uw kerninfrastructuur met compromisloze ingenieurskunst.",
-      "items": [
-        {
-          "title": "Zero-Downtime Migraties",
-          "desc": "Wij dragen petabytes aan data over tussen legacy-systemen en moderne clusters zonder ook maar één milliseconde downtime. Perfect gechoreografeerde datastromen."
-        },
-        {
-          "title": "Optimalisatie op Hardware-niveau",
-          "desc": "Kernel-tuning, geheugentoewijzing-optimalisatie en netwerkstack-aanpassingen voor maximale doorvoersnelheden."
-        },
-        {
-          "title": "Beveiligingsenclaves",
-          "desc": "Opbouw van geïsoleerde, cryptografisch beveiligde subnetwerken voor uw meest gevoelige bedrijfsgegevens."
-        },
-        {
-          "title": "API- & Backend-smederij",
-          "desc": "Ontwikkeling van robuuste, rate-limited en extreem performante API's die moeiteloos miljoenen verzoeken per seconde verwerken."
-        },
-        {
-          "title": "Toegewijde Noodstroomconcepten",
-          "desc": "Fysieke en digitale redundantieplannen. Van datacenter-failover tot geo-redundantie over drie continenten."
-        }
-      ]
-    },
-    "metrics": {
-      "badge": "Absolute Betrouwbaarheid",
-      "title1": "Gecertificeerde",
-      "title2": "betrouwbaarheid.",
-      "p1": "Wij werken volgens de principes van de Duitse ingenieurskunst: Wat gebouwd wordt, moet werken. Altijd. Onder alle omstandigheden.",
-      "p2": "Onze systemen zijn ISO 27001-gecertificeerd en voldoen aan de strengste compliance-eisen wereldwijd. Elke ingreep in uw infrastructuur wordt gecontroleerd, cryptografisch ondertekend en onveranderlijk gelogd.",
-      "items": [
-        "99,999% gegarandeerde Uptime (SLA-ondersteund)",
-        "End-to-End encryptie van alle telemetriegegevens",
-        "Toegewijde TAM's (Technical Account Managers) voor Enterprise-klanten",
-        "Maandelijkse penetratietesten door onafhankelijke Red-Teams"
-      ]
-    },
-    "cta": {
-      "title1": "Klaar voor",
-      "title2": "compromisloze",
-      "title3": "stabiliteit?",
-      "desc": "Laat uw infrastructuur auditen door ingenieurs die storingen niet als pech beschouwen, maar als een ontwerpfout.",
-      "btnPrimary": "Infrastructuur-audit initiëren",
-      "btnGhost": "Experts contacteren"
-    }
+    "ctaTitle": "Convince yourself of our service.",
+    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
+    "ctaBtn": "Get in touch now",
+    "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   }
 }

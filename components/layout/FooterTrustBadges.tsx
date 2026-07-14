@@ -4,13 +4,13 @@ import { ShieldCheck, Award, Leaf, Droplet, CheckCircle } from 'lucide-react';
 const badges = [
   {
     icon: <Award className="w-5 h-5" />,
-    title: "ISO 9001",
-    subtitle: "Zertifizierte Qualität",
+    title: "SKZ-Cert",
+    subtitle: "ISO 9001 / 14001 / 50001",
   },
   {
     icon: <Droplet className="w-5 h-5" />,
-    title: "DVGW",
-    subtitle: "Geprüfte Sicherheit",
+    title: "DIN 8077/8078",
+    subtitle: "PP-R Rohrstandards",
   },
   {
     icon: <Leaf className="w-5 h-5" />,
@@ -19,13 +19,13 @@ const badges = [
   },
   {
     icon: <ShieldCheck className="w-5 h-5" />,
-    title: "TÜV Rheinland",
-    subtitle: "Regelmäßig geprüft",
+    title: "GENAU-System",
+    subtitle: "Integriertes Management",
   },
   {
     icon: <CheckCircle className="w-5 h-5" />,
-    title: "5 Jahre Garantie",
-    subtitle: "Auf alle Systeme",
+    title: "Made in Germany",
+    subtitle: "Produktion in Waldsolms",
   }
 ];
 

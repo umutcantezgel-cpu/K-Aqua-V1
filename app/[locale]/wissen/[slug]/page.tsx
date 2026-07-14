@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 import { Link } from "@/lib/i18n/navigation";
 import { ArrowLeft, Clock, User, Tag, ArrowRight, Share2 } from "lucide-react";
 import { getBaseUrl } from "@/lib/env";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -30,6 +31,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const article = await getArticleBySlug(slug);
   
   if (!article) {
@@ -99,7 +101,7 @@ export default async function ArticlePage({ params }: Props) {
       <section className="pt-32 pb-12 bg-background border-b border-card-border/50">
         <div className="max-w-[800px] mx-auto px-6">
           <Link 
-            href={`/${locale}/wissen`}
+            href={`/wissen`}
             className="inline-flex items-center gap-2 text-sm font-bold text-muted-foreground hover:text-primary transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" /> Zurück zur Übersicht
@@ -177,7 +179,7 @@ export default async function ArticlePage({ params }: Props) {
                 Profitieren Sie von unseren hochmodernen PP-RCT Systemen, die exakt auf die Anforderungen der modernen Haustechnik abgestimmt sind.
               </p>
               <Link 
-                href={`/${locale}/produkte/finder`}
+                href={`/produkte/finder`}
                 className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary-strong transition-all"
               >
                 Zum Produktfinder
@@ -194,7 +196,7 @@ export default async function ArticlePage({ params }: Props) {
                   {relatedArticles.map(rel => (
                     <Link 
                       key={rel.slug} 
-                      href={`/${locale}/wissen/${rel.slug}`}
+                      href={`/wissen/${rel.slug}`}
                       className="group block"
                     >
                       <h4 className="font-heading font-semibold text-foreground text-sm group-hover:text-primary transition-colors leading-snug mb-1">

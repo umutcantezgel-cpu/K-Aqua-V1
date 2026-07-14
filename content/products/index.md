@@ -4,7 +4,7 @@ slug: "index"
 layout: "product-index"
 ---
 
-# K-Aqua — Product Catalogue
+## K-Aqua — Product Catalogue
 
 All K-Aqua PP-R products in one place. Use the category filters or search by article code.
 

@@ -29,12 +29,14 @@ interface LayoutProps {
 }
 
 import { headers } from 'next/headers';
+import { setRequestLocale } from 'next-intl/server';
 
 export default async function LocaleLayout({
   children,
   params,
 }: LayoutProps) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   // Validate that the incoming `locale` parameter is valid
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {

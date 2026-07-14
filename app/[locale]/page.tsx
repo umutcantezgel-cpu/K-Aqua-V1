@@ -12,10 +12,12 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
+import { CustomerReviews } from "@/components/sections/CustomerReviews";
 
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
+import { setRequestLocale } from 'next-intl/server';
 
 const DOT = '•';
 const SPACE = ' ';
@@ -35,6 +37,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "home" });
   const title = `${t("h1a")} ${t("h1b")}`;
   const description = t("lead");
@@ -380,6 +383,9 @@ export default async function Page({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* 7.7) Customer Reviews */}
+      <CustomerReviews />
 
       {/* 8) CTA-Band */}
       <section className="py-20 bg-background border-t border-card-border">

@@ -7,6 +7,7 @@ import { getTranslations } from "next-intl/server";
 import GeoCity from "@/components/sections/GeoCity";
 import { constructMetadata, getGeoCityJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -24,6 +25,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const market = GEO_MARKETS.find((m) => m.slug === slug);
   if (!market) return {};
 

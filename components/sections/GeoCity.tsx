@@ -9,6 +9,7 @@ import { IconChip } from "@/components/ui/IconChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
+import { SeoExpand } from "@/components/seo/SeoExpand";
 import {
   ArrowRight,
   Globe as GlobeIcon,
@@ -328,9 +329,9 @@ export default function GeoCity({
               {prodNote}
             </p>
           </Reveal>
-
         </div>
       </section>
+      <SeoExpand pageType="maerkte" />
     </div>
   );
 }

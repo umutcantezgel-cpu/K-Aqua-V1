@@ -3,7 +3,9 @@ import { getTranslations } from "next-intl/server";
 import RfqWizard from "@/components/tools/RfqWizard";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
+import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -11,6 +13,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("rfq") as string[];
   return constructMetadata({
@@ -68,7 +71,10 @@ export default async function ProjektanfragePage({ params }: Props) {
         <p>{rfqData.title1} {rfqData.titleGrad}</p>
         <p>{rfqData.lead}</p>
       </div>
-      <RfqWizard rfqData={rfqData} />
+      <div className="flex flex-col w-full min-h-screen bg-background">
+        <RfqWizard rfqData={rfqData} />
+        <SeoExpand pageType="projektanfrage" />
+      </div>
     </>
   );
 }
