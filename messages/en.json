@@ -1879,7 +1879,7 @@
         ],
         "seoText": "The right assortment of Accessories is crucial for the longevity of a pipe network. K-Aqua offers a comprehensive accessories matrix: from the thermodynamic fastening clamp to absorb linear expansion to the EPDM flat gasket for flange connections. Only with the perfectly matched K-Aqua accessories can you ensure compliance with all GEG and DIN 18381 specifications.",
         "guideTitle": "Essential Accessories for Code-Compliant Installations",
-        "guideText": "A professional, long-lasting piping installation requires much more than just pipes and fittings; it relies heavily on the correct implementation of supporting accessories. K-Aqua offers a meticulously engineered range of accessories designed to ensure that your plumbing network complies with all strict international building codes and structural standards. The most critical aspect of installing any plastic piping system is managing thermal expansion. As the system heats and cools, the pipes will naturally lengthen and contract. K-Aqua’s specialized rubber-lined pipe clamps are designed to absorb this movement securely. By configuring these clamps as either 'Fixed Points' (tightened to direct expansion) or 'Sliding Points' (loosened to allow longitudinal movement), installers can safely control the physical stresses placed on the network, preventing pipe sagging or catastrophic fatigue at the joints. This is particularly crucial in industrial facilities, high-rise buildings, and large-scale commercial installations where thermal expansion is most pronounced and can lead to severe structural damage if unchecked. Additionally, our accessory portfolio includes high-strength backing flanges and specialized EPDM flat gaskets for bolting plastic systems directly to heavy industrial pumps or steel infrastructure. These flanges and gaskets provide absolute security and an impenetrable seal, even under continuous vibration and intense pressure, safeguarding your operations against potentially disastrous leaks. We also provide ingenious repair plugs, which allow plumbers to quickly and permanently seal accidental drill holes hidden behind finished walls without the need for massive demolition, saving both the contractor and the client significant time and money during final construction phases. Furthermore, proper insulation and fire protection are integral to code-compliant installations. K-Aqua accessories are engineered to minimize thermal energy loss and suppress acoustic noise transfer, maintaining a whisper-quiet, efficient, and exceptionally safe environment. By standardizing on original K-Aqua accessories, you secure your entire system warranty and eliminate the risk of failure caused by inferior third-party components. Invest in comprehensive, uncompromising quality from start to finish.",
+        "guideText": "A professional, long-lasting piping installation requires much more than just pipes and fittings; it relies heavily on the correct implementation of supporting accessories. K-Aqua offers a meticulously engineered range of accessories designed to ensure that your plumbing network complies with all strict international building codes and structural standards. The most critical aspect of installing any plastic piping system is managing thermal expansion. As the system heats and cools, the pipes will naturally lengthen and contract. K-Aqua’s specialized rubber-lined pipe clamps are designed to absorb this movement securely. By configuring these clamps as either 'Fixed Points' (tightened to direct expansion) or 'Sliding Points' (loosened to allow longitudinal movement), installers can safely control the physical stresses placed on the network, preventing pipe sagging or catastrophic fatigue at the joints. This is particularly crucial in industrial facilities, high-rise buildings, and large-scale commercial installations where thermal expansion is most pronounced and can lead to severe structural damage if unchecked. Additionally, our accessory portfolio includes high-strength backing flanges and specialized EPDM flat gaskets for bolting plastic systems directly to heavy industrial pumps or steel infrastructure. These flanges and gaskets provide absolute security and an impenetrable seal, even under continuous vibration and intense pressure, safeguarding your operations against potentially disastrous leaks. We also provide ingenious repair plugs, which allow plumbers to quickly and permanently seal accidental drill holes hidden behind finished walls without the need for massive demolition, saving both the contractor and the client significant time and money during final construction phases. Furthermore, proper insulation and fire protection are integral to code-compliant installations. K-Aqua accessories are engineered to minimize thermal energy loss and suppress acoustic noise transfer, maintaining a whisper-quiet, efficient, and exceptionally safe environment. By standardizing on original K-Aqua accessories, you secure your entire system warranty and eliminate the risk of failure caused by inferior third-party components. Invest in comprehensive, uncompromising quality from start to finish. Accessories for a standard-compliant installation.",
         "faq": [
           {
             "q": "Are the accessories suitable for both cold and hot water?",
@@ -6355,46 +6355,16 @@
     "backToSimple": "Back to simple view"
   },
   "seo": {
-    "pipes": [
-      {
-        "title": "Superior Durability & Hygiene",
-        "desc": "Our high-performance pipe systems made of PP-R and PP-RCT offer over 50 years of maintenance-free lifespan. The extremely smooth inner surface prevents incrustation, corrosion, and biofilm formation – for maximum drinking water hygiene according to the highest global standards."
-      },
-      {
-        "title": "Thermal Efficiency & Insulation",
-        "desc": "Due to the naturally low thermal conductivity of the material, our pipes drastically minimize heat loss. Compared to metallic pipes, you save significant energy costs and reduce your project's CO2 footprint."
-      }
-    ],
-    "fittings": [
-      {
-        "title": "Homogeneous Welded Joint",
-        "desc": "K-Aqua fittings fuse into an inseparable, 100% leak-free unit with the pipe through socket fusion welding. No O-rings, no mechanical weak points."
-      },
-      {
-        "title": "High-Quality Transitions",
-        "desc": "Our transition fittings use deeply embedded, dezincification-resistant brass threaded inserts (CW617N). This guarantees maximum torsional strength and secure connections to metallic components."
-      }
-    ],
-    "valves": [
-      {
-        "title": "Precise Control",
-        "desc": "K-Aqua valves offer excellent flow control and complete shut-off without pressure loss. Maintenance-free, smooth operation, and corrosion-resistant."
-      },
-      {
-        "title": "Full Bore & Efficiency",
-        "desc": "The full-bore design ensures no flow resistance when the valve is fully open – ideal for pumping systems and risers."
-      }
-    ],
-    "fallback": [
-      {
-        "title": "System Compatibility",
-        "desc": "Perfectly matched to the entire K-Aqua product range. Guarantees smooth installation and maximum system security."
-      },
-      {
-        "title": "tested Quality",
-        "desc": "Manufactured under strictest quality controls (ISO 9001/14001). Tested worldwide and approved for demanding projects."
-      }
-    ]
+    "extendedProductText": {
+      "p1": "Our high-quality K-Aqua systems offer maximum reliability and durability for demanding projects worldwide.",
+      "p2": "Thanks to advanced materials and precise manufacturing in Germany, we guarantee easy installation and long-lasting safety.",
+      "p3": "Rely on certified quality and sustainable solutions that meet the highest international standards and increase the efficiency of your project."
+    },
+    "extendedMarketText": {
+      "p1": "K-Aqua's solutions are specially designed to meet the demands of local and international markets.",
+      "p2": "We support general contractors and planners on site with technical expertise and reliable systems for every challenge.",
+      "p3": "Through our global network, we ensure that you receive exactly the products optimally suited for your regional construction project."
+    }
   },
   "application": {
     "tabs": {

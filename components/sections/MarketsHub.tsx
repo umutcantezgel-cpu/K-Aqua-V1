@@ -4,7 +4,7 @@
 import React, { useState, useRef, useMemo } from "react";
 import dynamic from "next/dynamic";
 import { useReducedMotion } from "motion/react";
-import { Link } from "@/lib/i18n/navigation";
+import { Link } from "@/i18n/routing";
 import { GEO_MARKETS, REGIONS, haversineKm, WALDSOLMS, GeoMarket } from "@/lib/data/geo";
 import { FilterChip } from "@/components/ui/FilterChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";

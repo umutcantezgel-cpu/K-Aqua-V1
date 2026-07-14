@@ -293,6 +293,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                 href="/"
                 className={`k-mega-item ${pathname === '/' ? 'is-active' : ''}`}
                 aria-current={pathname === '/' ? 'page' : undefined}
+                aria-label="K-Aqua Homepage"
                 onClick={onClose}
               >
                 <span className="k-mega-icon" aria-hidden="true">

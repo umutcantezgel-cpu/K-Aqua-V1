@@ -63,6 +63,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     displayTitle = displayTitle.substring(0, 42) + '...';
   }
 
+  const articleCode = Array.isArray(product?.article_codes) ? product.article_codes[0] : product?.article_codes;
+  const suffix = articleCode ? ` | Art. ${articleCode}` : '';
+  const finalTitle = `${displayTitle}${suffix}`;
+  const finalDesc = metaDesc.endsWith(suffix) ? metaDesc : `${metaDesc}${suffix}`;
+
   // Handle SEO duplicate content for product variants by mapping them to a canonical variant
   let canonicalSlug = slug;
   if (slug === 'k-fiber-pipe-pp-r-sdr-7-4' || slug === 'k-fiber-pipe-pp-r-sdr-9' || slug === 'k-fiber-pipe-pp-r-sdr-17') {
@@ -74,8 +79,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 
   return constructMetadata({
-    title: `${displayTitle} | K-Aqua`,
-    description: metaDesc,
+    title: `${finalTitle} | K-Aqua`,
+    description: finalDesc,
     path: `/produkte/${category}/${canonicalSlug}`,
     locale,
   });
@@ -416,6 +421,12 @@ export default async function ProductDetailPage({
                 {/* 5. FAQ Section */}
                 <div className="mt-8">
                   <ProductFAQ category={seoCat} />
+                </div>
+
+                <div className="mt-16 text-muted-foreground leading-relaxed space-y-4">
+                  <p>{tSeo('extendedProductText.p1')}</p>
+                  <p>{tSeo('extendedProductText.p2')}</p>
+                  <p>{tSeo('extendedProductText.p3')}</p>
                 </div>
               </div>
             </Reveal>
