@@ -17,12 +17,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "legal.impressum" });
-  return constructMetadata({
+  const baseMetadata = constructMetadata({
     title: t("title"),
     description: `${t("title")} - K-Aqua`,
     path: "/impressum",
     locale,
   });
+  return {
+    ...baseMetadata,
+    robots: { index: false, follow: false }
+  };
 }
 
 export default async function ImpressumPage({ params }: Props) {

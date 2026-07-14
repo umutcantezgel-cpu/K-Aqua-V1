@@ -16,12 +16,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("rfq") as string[];
-  return constructMetadata({
+  const baseMetadata = constructMetadata({
     title: meta[0] ?? "",
     description: meta[1] ?? "",
     path: "/projektanfrage",
     locale,
   });
+  return {
+    ...baseMetadata,
+    robots: { index: false, follow: false }
+  };
 }
 
 export default async function ProjektanfragePage({ params }: Props) {

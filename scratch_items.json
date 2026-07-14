@@ -1,0 +1,432 @@
+[
+  {
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "k-pipe-pp-r-sdr-6",
+    "title": "K-Pipe PP-R SDR 6",
+    "material": "PP-R",
+    "sdr": "6"
+  },
+  {
+    "slug": "k-pipe-pp-rct-sdr-74",
+    "title": "K-Pipe PP-RCT SDR 7.4",
+    "material": "PP-RCT",
+    "sdr": "7.4"
+  },
+  {
+    "slug": "k-pipe-pp-r-sdr-11",
+    "title": "K-Pipe PP-R SDR 11",
+    "material": "PP-R",
+    "sdr": "11"
+  },
+  {
+    "slug": "k-pipe-purple-pp-r-sdr-11",
+    "title": "K-Pipe Purple PP-R SDR 11",
+    "material": "PP-R",
+    "sdr": "11"
+  },
+  {
+    "slug": "k-fiber-pipe-pp-rct-sdr-74",
+    "title": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "material": "PP-RCT + Faser",
+    "sdr": "7.4"
+  },
+  {
+    "slug": "k-fiberclima-pipe-pp-rct-sdr-11",
+    "title": "K-Fiberclima Pipe PP-RCT SDR 11",
+    "material": "PP-RCT + Faser",
+    "sdr": "11"
+  },
+  {
+    "slug": "k-fiber-pipe-pp-r-sdr-74",
+    "title": "K-Fiber Pipe PP-R SDR 7.4",
+    "material": "PP-R + Faser",
+    "sdr": "7.4"
+  },
+  {
+    "slug": "k-fiber-pipe-pp-r-sdr-9",
+    "title": "K-Fiber Pipe PP-R SDR 9",
+    "material": "PP-R + Faser",
+    "sdr": "9"
+  },
+  {
+    "slug": "k-fiber-pipe-pp-r-sdr-11",
+    "title": "K-Fiber Pipe PP-R SDR 11",
+    "material": "PP-R + Faser",
+    "sdr": "11"
+  },
+  {
+    "slug": "k-fiber-pipe-pp-r-sdr-17",
+    "title": "K-Fiber Pipe PP-R SDR 17",
+    "material": "PP-R + Faser",
+    "sdr": "17"
+  },
+  {
+    "slug": "k-fiber-uv-pipe-pp-r-sdr-74",
+    "title": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "material": "PP-R + UV",
+    "sdr": "7.4"
+  },
+  {
+    "slug": "k-fiber-uv-pipe-pp-rct-sdr-74",
+    "title": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "material": "PP-RCT + UV",
+    "sdr": "7.4"
+  },
+  {
+    "slug": "cap",
+    "title": "Cap",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "socket",
+    "title": "Socket",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-45",
+    "title": "Elbow 45°",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-45-femalemale",
+    "title": "Elbow 45° (Female/Male)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-90",
+    "title": "Elbow 90°",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-90-femalemale",
+    "title": "Elbow 90° (Female/Male)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "electrofusion-socket",
+    "title": "Electrofusion Socket",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "flange-adaptor",
+    "title": "Flange Adaptor",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "reducing-bush",
+    "title": "Reducing Bush",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "reducing-tee",
+    "title": "Reducing Tee",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "reducing-tee-large-sizes",
+    "title": "Reducing Tee (Large Sizes)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "tee",
+    "title": "Tee",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "cross",
+    "title": "Cross",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "cross-over",
+    "title": "Cross Over",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "cross-over-pipe",
+    "title": "Cross Over Pipe",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "adaptor-socket-female-thread",
+    "title": "Adaptor Socket (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "adaptor-socket-male-thread",
+    "title": "Adaptor Socket (Male Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-90-male-thread",
+    "title": "Elbow 90° (Male Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbow-bracket-90-female-thread",
+    "title": "Elbow Bracket 90° (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elbowwall-bracket-90-female-thread",
+    "title": "Elbow/Wall Bracket 90° (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "metal-union-male-thread-yellow-brass",
+    "title": "Metal Union — Male Thread (Yellow Brass)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "metal-union-female-thread-yellow-brass",
+    "title": "Metal Union — Female Thread (Yellow Brass)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "metal-union-male-thread",
+    "title": "Metal Union — Male Thread",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "metal-union-female-thread",
+    "title": "Metal Union — Female Thread",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "tee-90-male-thread",
+    "title": "Tee 90° (Male Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "tee-90-female-thread",
+    "title": "Tee 90° (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "union",
+    "title": "Union",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "union-for-watermeters",
+    "title": "Union for Watermeters",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pp-r-ball-valve-ball-in-pp",
+    "title": "PP-R Ball Valve (Ball in PP)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pp-r-ball-valve-ball-in-brass-chromium-plated",
+    "title": "PP-R Ball Valve (Ball in Brass, Chromium Plated)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "tee-90-female-thread-for-internal-valve",
+    "title": "Tee 90° (Female Thread) for Internal Valve",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "concealed-valve-chrome-light-part",
+    "title": "Concealed Valve Chrome — Light Part",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "concealed-valve-chrome-heavy-part",
+    "title": "Concealed Valve Chrome — Heavy Part",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "straight-seat-valve-upper-part-green-handle",
+    "title": "Straight Seat Valve — Upper Part, Green Handle",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "elongation-pieces",
+    "title": "Elongation Pieces",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "battery-female-thread",
+    "title": "Battery (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "adjustable-battery-female-thread",
+    "title": "Adjustable Battery (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "weld-in-saddle",
+    "title": "Weld-in Saddle",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "weld-in-saddle-female-thread",
+    "title": "Weld-in Saddle (Female Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "weld-in-saddle-male-thread",
+    "title": "Weld-in Saddle (Male Thread)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pipe-clamps",
+    "title": "Pipe Clamps",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "backing-flange-pp-steel-sfbf",
+    "title": "Backing Flange PP-Steel (SF/BF)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "flat-gasket",
+    "title": "Flat Gasket",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "flat-gasket-for-unions-pp-r",
+    "title": "Flat Gasket for Unions PP-R",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "plug",
+    "title": "Plug",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pipe-cutter-2040",
+    "title": "Pipe Cutter 20–40",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pipe-cutter-50125",
+    "title": "Pipe Cutter 50–125",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "pipe-cutter-50125-1",
+    "title": "Pipe Cutter 50–125 (1¼)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "hand-welding-machine-2032-complete-set",
+    "title": "Hand Welding Machine 20–32 (Complete Set)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "hand-welding-machine-2063-complete-set",
+    "title": "Hand Welding Machine 20–63 (Complete Set)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "hand-welding-machine-mirror-50125",
+    "title": "Hand Welding Machine Mirror 50–125",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "welding-tool",
+    "title": "Welding Tool",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "welding-machine-50125-complete-set",
+    "title": "Welding Machine 50–125 (Complete Set)",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "butt-welding-machine-90250",
+    "title": "Butt Welding Machine 90–250",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "electrofusion-machine",
+    "title": "Electrofusion Machine",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "welding-tool-for-weld-in-saddles",
+    "title": "Welding Tool for Weld-in Saddles",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "drilling-tool-for-weld-in-saddle",
+    "title": "Drilling Tool for Weld-in Saddle",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "welding-tool-for-repairing-plug",
+    "title": "Welding Tool for Repairing Plug",
+    "material": "",
+    "sdr": ""
+  },
+  {
+    "slug": "repairing-plug",
+    "title": "Repairing Plug",
+    "material": "",
+    "sdr": ""
+  }
+]
