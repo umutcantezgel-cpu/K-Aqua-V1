@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Related Markets",
     "nearby": "Nearby.",
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS — including hreflang, Product/Offer schema, and semantic internal linking.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua produkuje systemy rurowe PP-R i PP-RCT w Waldsolms dla najwyższych wymagań globalnej inżynierii budowlanej i przemysłowej. Dzięki bezkompromisowej niemieckiej myśli technicznej i najnowocześniejszej technologii produkcji, nasze systemy gwarantują dekady bezobsługowej niezawodności eksploatacyjnej. Każdy produkt, od d20 do d630, przechodzi rygorystyczne kontrole jakości i spełnia międzynarodowe normy, takie jak DVGW, KIWA i SKZ. Oferujemy nie tylko najwyższej jakości materiały dla wody pitnej, chłodzenia i przemysłu, ale również wspieramy projektantów i instalatorów kompleksowym wsparciem technicznym oraz szkoleniami na miejscu. Zaufaj systemowi, który zachwyca ekstremalną żywotnością, odpornością na korozję i absolutną higieną."
   },
   "footer": {
     "tagline": "K-Aqua — lider w zaopatrzeniu w wodę. Systemy rur PP-R/PP-RCT do wody pitnej, produkowane przez KWT GmbH w Waldsolms.",
@@ -1997,6 +1998,17 @@
   },
   "about": {
     "eyebrow": "O nas",
+    "seo": {
+      "impressum1": "Systemy rurowe K-Aqua PP-R i PP-RCT są produkowane przez KWT GmbH w Waldsolms w Niemczech. Nasza nota prawna zapewnia pełną przejrzystość dotyczącą struktury korporacyjnej, przedstawicieli prawnych oraz szczegółów rejestru handlowowego.",
+      "impressum2": "Jako działający globalnie producent najwyższej jakości rozwiązań rur z tworzyw sztucznych dla wody pitnej i zastosowań przemysłowych, zobowiązujemy się do przestrzegania wszystkich prawnych i regulacyjnych standardów w handlu międzynarodowym i ochronie danych.",
+      "kontakt1": "Masz pytania techniczne dotyczące naszych rur PP-R/PP-RCT lub potrzebujesz wsparcia przy międzynarodowym projekcie? Zespół kontaktowy K-Aqua w Waldsolms jest gotowy do pomocy.",
+      "kontakt2": "Niezależnie od tego, czy potrzebujesz obliczeń izometrycznych, szkoleń ze zgrzewania na miejscu, czy masz zapytania handlowe – nasi inżynierowie i przedstawiciele handlowi odpowiedzą szybko, aby zapewnić sukces Twojego projektu.",
+      "projektanfrage1": "Prześlij swoje zapytanie projektowe dotyczące systemów rurowych K-Aqua PP-R i PP-RCT. Nasz dział techniczny specjalizuje się w instalacjach na dużą skalę, w tym w wieżowcach, szpitalach i przemysłowych sieciach chłodniczych.",
+      "projektanfrage2": "Dostarczając nam specyfikację projektu, możemy pomóc w obliczeniach strat ciśnienia, zestawieniach materiałowych oraz niestandardowych kształtkach przejściowych dostosowanych do Twoich wymagań.",
+      "projektanfrage3": "Każde zapytanie projektowe jest traktowane z zachowaniem ścisłej poufności i przetwarzane przez nasz niemiecki zespół inżynierów w celu zagwarantowania maksymalnej wydajności i żywotności systemu.",
+      "news1": "Bądź na bieżąco z najnowszymi wiadomościami od K-Aqua. Regularnie publikujemy informacje o nowych rozwiązaniach w zakresie produktów PP-R/PP-RCT, obecności na międzynarodowych targach oraz najważniejszych globalnych projektach.",
+      "news2": "Nasza sekcja aktualności obejmuje również innowacje techniczne w zgrzewaniu mufowym, postępy inżynierii materiałowej w dziedzinie Polypropylene Random Copolymer oraz inicjatywy na rzecz zrównoważonego rozwoju w naszym zakładzie produkcyjnym w Waldsolms."
+    },
     "title1": "Doświadczenie to Twoja",
     "titleGrad": "Przewaga.",
     "lead": "Nowe strategie, zgromadzona wiedza: KWT GmbH łączy dziesięciolecia doświadczenia produkcyjnego z jasnym spojrzeniem w przyszłość.",

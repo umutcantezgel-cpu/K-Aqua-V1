@@ -85,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 3. Dynamic product routes (all products * 3 locales)
   const products = getAllProducts();
   for (const product of products) {
-    const route = `produkte/${product.category}/${product.slug}`;
+    const route = `produkte/katalog/${product.category}/${product.slug}`;
     for (const locale of locales) {
       const url = `${domain}/${locale}/${route}`;
 

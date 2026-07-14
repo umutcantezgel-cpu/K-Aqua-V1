@@ -44,6 +44,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : (product ? product.title : 'Product');
+  const uniqueDesc = tNames?.has(`${slugKey}_desc`) ? tNames(`${slugKey}_desc`) : null;
+  const codes = Array.isArray(product?.article_codes) ? product.article_codes.join(", ") : (product?.article_codes || 'N/A');
+  const metaDesc = uniqueDesc || `${localizedTitle} (${codes}): ${tProd('heroDesc')}`.substring(0, 160);
   
   // SEO optimization: Keep title under 55 characters to avoid truncation warning
   let displayTitle = localizedTitle;
@@ -53,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return constructMetadata({
     title: `${displayTitle} | K-Aqua`,
-    description: tProd('heroDesc'),
+    description: metaDesc,
     path: `/produkte/${category}/${slug}`,
     locale,
   });
@@ -96,6 +99,8 @@ export default async function ProductDetailPage({
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : product.title;
+  const uniqueDesc = tNames?.has(`${slugKey}_desc`) ? tNames(`${slugKey}_desc`) : null;
+  const finalSeoText = uniqueDesc || dynamicSeoText || localizedTitle;
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
     || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
@@ -103,7 +108,7 @@ export default async function ProductDetailPage({
 
   const schema = getProductSchema({
     name: localizedTitle,
-    description: dynamicSeoText || localizedTitle,
+    description: finalSeoText,
     category: product.category,
     url: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
     codes: Array.isArray(product.article_codes) ? product.article_codes : [product.article_codes || 'N/A']
@@ -150,7 +155,7 @@ export default async function ProductDetailPage({
               </Reveal>
               <Reveal delay={0.12}>
                 <p className="text-lead text-muted-foreground leading-relaxed max-w-[56ch]">
-                  {tProd('heroDesc')}
+                  {uniqueDesc || tProd('heroDesc')}
                 </p>
               </Reveal>
               <Reveal delay={0.18}>
@@ -232,7 +237,7 @@ export default async function ProductDetailPage({
                         <li className="m-0"><strong>{tProd('articleNumbers')}:</strong> <span className="font-mono">{codes}</span></li>
                       </ul>
                     </div>
-                    <p>{dynamicSeoText}</p>
+                    <p>{finalSeoText}</p>
                     <div className="mt-6 pt-6 border-t border-card-border">
                       <p className="text-sm">
                         {tProd('uniqueProductContext', {

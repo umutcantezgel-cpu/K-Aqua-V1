@@ -228,6 +228,7 @@
     "nearbyEyebrow": "Related Markets",
     "nearby": "Nearby.",
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS — including hreflang, Product/Offer schema, and semantic internal linking.",
+    "seoExpansion": "K-Aqua produce sistemi di tubazioni in PP-R e PP-RCT a Waldsolms per soddisfare le massime esigenze dell'edilizia e dell'impiantistica a livello globale. Grazie a un'ingegneria tedesca senza compromessi e a tecnologie di produzione all'avanguardia, i nostri sistemi garantiscono decenni di affidabilità operativa esente da manutenzione. Ogni prodotto, dal d20 al d630, è sottoposto a rigorosi controlli di qualità ed è conforme agli standard internazionali come DVGW, KIWA e SKZ. Non offriamo solo materiali di eccellenza per l'acqua potabile, il raffreddamento e l'industria, ma supportiamo anche progettisti e installatori con un'assistenza tecnica completa e formazione in cantiere. Affidati a un sistema che convince per l'estrema longevità, la resistenza alla corrosione e l'igiene assoluta.",
     "km": "km"
   },
   "footer": {
@@ -1996,6 +1997,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "I sistemi di tubazioni in PP-R e PP-RCT K-Aqua sono prodotti da KWT GmbH a Waldsolms, in Germania. Le nostre note legali offrono totale trasparenza sulla nostra struttura aziendale, sui rappresentanti legali e sui dettagli del registro di commercio.",
+      "impressum2": "In qualità di produttore attivo a livello globale di soluzioni di tubazioni in plastica premium per l'acqua potabile e le applicazioni industriali, ci impegniamo a rispettare tutti gli standard legali e normativi nel commercio internazionale e nella protezione dei dati.",
+      "kontakt1": "Hai domande tecniche sui nostri tubi in PP-R/PP-RCT o necessiti di supporto per un progetto internazionale? Il team di contatto K-Aqua a Waldsolms è pronto ad assisterti.",
+      "kontakt2": "Sia che ti servano calcoli isometrici, formazione sulla saldatura in cantiere o richieste commerciali, i nostri ingegneri e rappresentanti commerciali risponderanno prontamente per garantire il successo del tuo progetto.",
+      "projektanfrage1": "Invia la tua richiesta di progetto per i sistemi di tubazioni K-Aqua in PP-R e PP-RCT. Il nostro ufficio tecnico è specializzato in installazioni su larga scala, tra cui grattacieli, ospedali e reti di raffreddamento industriali.",
+      "projektanfrage2": "Fornendoci le specifiche del tuo progetto, possiamo assisterti con i calcoli delle perdite di carico, le stime dei materiali e i raccordi di transizione su misura adattati alle tue esigenze.",
+      "projektanfrage3": "Ogni richiesta di progetto viene gestita con la massima riservatezza ed elaborata dal nostro team di ingegneria tedesco per garantire la massima efficienza e longevità del sistema.",
+      "news1": "Rimani aggiornato con le ultime novità di K-Aqua. Pubblichiamo regolarmente aggiornamenti sui nuovi sviluppi dei prodotti in PP-R/PP-RCT, sulle presenze alle fiere internazionali e sui principali progetti globali.",
+      "news2": "La nostra sezione notizie copre anche le innovazioni tecniche nella saldatura per polifusione a bicchiere, i progressi della scienza dei materiali nel copolimero random di polipropilene e le iniziative di sostenibilità presso il nostro stabilimento di produzione a Waldsolms."
+    },
     "eyebrow": "Chi siamo",
     "title1": "L'esperienza è il tuo",
     "titleGrad": "Vantaggio.",

@@ -6,8 +6,7 @@ import html from 'remark-html';
 import remarkGfm from 'remark-gfm';
 import { unstable_cache } from 'next/cache';
 
-const contentDir = path.join(process.cwd(), 'content', 'wissen');
-
+const baseContentDir = path.join(process.cwd(), 'content', 'wissen');
 export interface ArticleData {
   slug: string;
   title: string;
@@ -20,7 +19,11 @@ export interface ArticleData {
   content: string;
 }
 
-export function getAllArticles(): ArticleData[] {
+export function getAllArticles(locale: string = 'de'): ArticleData[] {
+  let contentDir = path.join(baseContentDir, locale);
+  if (!fs.existsSync(contentDir)) {
+    contentDir = path.join(baseContentDir, 'de'); // fallback to German
+  }
   if (!fs.existsSync(contentDir)) return [];
   
   const files = fs.readdirSync(contentDir);
@@ -51,8 +54,8 @@ export function getAllArticles(): ArticleData[] {
   return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-async function getArticleBySlugRaw(slug: string): Promise<ArticleData | null> {
-  const articles = getAllArticles();
+async function getArticleBySlugRaw(slug: string, locale: string = 'de'): Promise<ArticleData | null> {
+  const articles = getAllArticles(locale);
   const article = articles.find(a => a.slug === slug);
   if (!article) return null;
 
@@ -69,7 +72,7 @@ async function getArticleBySlugRaw(slug: string): Promise<ArticleData | null> {
 }
 
 export const getArticleBySlug = unstable_cache(
-  async (slug: string) => getArticleBySlugRaw(slug),
+  async (slug: string, locale: string = 'de') => getArticleBySlugRaw(slug, locale),
   ['article-by-slug'],
   { tags: ['article-data'] }
 );

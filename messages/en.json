@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Related Markets",
     "nearby": "Nearby.",
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS — including hreflang, Product/Offer schema, and semantic internal linking.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua manufactures PP-R and PP-RCT piping systems in Waldsolms for the highest demands of global building and plant engineering. Thanks to uncompromising German engineering and state-of-the-art production technology, our systems guarantee decades of maintenance-free operational reliability. Every product, from d20 to d630, undergoes strict quality controls and complies with international standards such as DVGW, KIWA, and SKZ. We not only offer premium materials for drinking water, cooling, and industry, but also support planners and installers with comprehensive technical support and on-site training. Trust a system that impresses with extreme longevity, corrosion resistance, and absolute hygiene."
   },
   "footer": {
     "tagline": "K-Aqua — Leading in Water Supply. PP-R/PP-RCT piping systems for drinking water, made by KWT GmbH in Waldsolms, Germany.",
@@ -360,8 +361,8 @@
         "d": "Resource conservation and environmental compatibility are integral to our understanding of quality."
       }
     ],
-    "manifestTitle": "Unsere Mission",
-    "manifestText": "Wasser ist unsere wertvollste Ressource. Wir schützen sie mit zukunftsweisenden Rohrsystemen.",
+    "manifestTitle": "Our Mission",
+    "manifestText": "Water is our most valuable resource. We protect it with pioneering piping systems.",
     "grEyebrow": "Global Reach",
     "grTitle1": "International",
     "grTitle2": "Trade Routes",
@@ -480,6 +481,30 @@
         ],
         "seoText": "K-Aqua shut-off valves and fittings combine proven PP-R welding technology with high-quality mechanical components. They enable precise control of fluids and secure isolation of network sections for maintenance. Every valve undergoes strict pressure testing before delivery to ensure maximum operational safety in critical applications."
       },
+      "weldInSaddles": {
+        "areas": "Retrofit branches, pipe network expansion, distribution setup",
+        "advTitle": "Weld-in Saddles for maximum flexibility",
+        "advList": [
+          "Retrofit installation: Expansion of existing PP-R pipe networks without cutting the main pipe.",
+          "Time-saving: Drill, heat up, weld in – done in a few minutes.",
+          "Pressure-resistant: The saddle weld achieves the same pressure rating as the base pipe.",
+          "Full flow: No cross-section reduction in the main line.",
+          "Versatile: Available with or without metallic thread transition (F/M)."
+        ],
+        "seoText": "Weld-in Saddles by K-Aqua are the perfect solution for subsequent branches in existing pipeline networks. Instead of tediously cutting the main pipe and inserting tees, the pipe is simply drilled and the saddle is welded on homogeneously. This technique saves enormous assembly times and material costs in industrial distribution systems."
+      },
+      "accessories": {
+        "areas": "Pipe fastening, sealing, flange connection, repair",
+        "advTitle": "Accessories for a standard-compliant installation",
+        "advList": [
+          "Perfect fit: All accessories are geometrically matched to the K-Aqua piping system.",
+          "Thermodynamic fastening: Pipe clamps with rubber insert for fixed and sliding points.",
+          "High-quality flange connections: Backing flanges and EPDM gaskets for transition to metal.",
+          "Fast repair: Repair plugs for accidentally drilled pipes.",
+          "UV resistance: Selected accessories are specially stabilized for outdoor installation."
+        ],
+        "seoText": "The right assortment of Accessories is crucial for the longevity of a pipe network. K-Aqua offers a comprehensive accessories matrix: from the thermodynamic fastening clamp to absorb linear expansion to the EPDM flat gasket for flange connections. Only with the perfectly matched K-Aqua accessories can you ensure compliance with all GEG and DIN 18381 specifications."
+      },
       "fallback": {
         "areas": "Universal installation technology, construction site supplies, system completion",
         "advTitle": "Perfect System Completion",
@@ -499,20 +524,20 @@
       "technicalDescription": "Technical Profile & SEO",
       "noResults": "No products found",
       "searchPlaceholder": "Search by title or article code...",
-      "faqTitle": "Häufig gestellte Fragen (FAQ)",
-      "faqFallbackQ1": "Was sind die Hauptvorteile?",
-      "faqFallbackA1": "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.",
-      "faqFallbackQ2": "Ist das Material umweltfreundlich?",
-      "faqFallbackA2": "Ja, PP-RCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.",
-      "faqFallbackQ3": "Wie erfolgt die Installation?",
-      "faqFallbackA3": "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.",
-      "downloads": "Downloads & Dokumente",
-      "tds": "Technisches Datenblatt",
-      "tdsDesc": "Spezifikationen & Maße (PDF)",
-      "cert": "Zertifikate & Normen",
+      "faqTitle": "Frequently Asked Questions (FAQ)",
+      "faqFallbackQ1": "What are the main advantages?",
+      "faqFallbackA1": "The system offers extreme durability, corrosion resistance, and excellent hygienic properties for drinking water.",
+      "faqFallbackQ2": "Is the material environmentally friendly?",
+      "faqFallbackA2": "Yes, PP-RCT is 100% recyclable and has a very low carbon footprint compared to metal pipes.",
+      "faqFallbackQ3": "How is the installation performed?",
+      "faqFallbackA3": "Installation is secure and leak-free via polyfusion welding.",
+      "downloads": "Downloads & Documents",
+      "tds": "Technical Data Sheet",
+      "tdsDesc": "Specifications & Dimensions (PDF)",
+      "cert": "Certificates & Standards",
       "certDesc": "DVGW, SKZ, KIWA (ZIP)",
-      "install": "Installations-Guide",
-      "installDesc": "Anleitung zum Schweißen (PDF)"
+      "install": "Installation Guide",
+      "installDesc": "Welding instructions (PDF)"
     },
     "specAndDim": "Specifications & Dimensions",
     "certsAndNorms": "Certificates & Norms",
@@ -1028,6 +1053,24 @@
       "desc": "Precision at the molecular level. Designed to last. Our pipe systems, fittings and valves define the global standard for industrial and civil water infrastructure. No compromises. Just pure performance."
     },
     "sticky": {
+      "eyebrow": "Innovation",
+      "title": "Progress through Research",
+      "items": [
+        {
+          "title": "Material Science",
+          "desc": "Our R&D department continuously works on optimizing the PP-R and PP-RCT polymer matrix. The goal: even higher pressure resistance, improved thermal stability, and maximum lifespan under extreme industrial conditions."
+        },
+        {
+          "title": "Production Technology",
+          "desc": "By using fully automated extrusion lines and CNC-controlled injection molding machines, we guarantee absolute dimensional accuracy and zero-defect tolerance for all K-Aqua products."
+        },
+        {
+          "title": "Sustainability",
+          "desc": "We continuously develop our processes to minimize our ecological footprint. Our piping systems are 100% recyclable and actively contribute to resource conservation through their longevity."
+        }
+      ]
+    },
+    "productSticky": {
       "eyebrow": "THE PRODUCT RANGE",
       "title": "UNCOMPROMISING ENGINEERING.",
       "lead": "Every component is part of a closed, perfect system. From inlet to end point, we control the flow of water, chemicals and gases with relentless reliability.",
@@ -1997,6 +2040,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "K-Aqua PP-R and PP-RCT piping systems are manufactured by KWT GmbH in Waldsolms, Germany. Our imprint provides full transparency regarding our corporate structure, legal representatives, and commercial registry details.",
+      "impressum2": "As a globally active manufacturer of premium plastic pipe solutions for drinking water and industrial applications, we are committed to adhering to all legal and regulatory standards in international trade and data protection.",
+      "kontakt1": "Do you have technical questions about our PP-R/PP-RCT pipes or need support with an international project? The K-Aqua contact team in Waldsolms is ready to assist you.",
+      "kontakt2": "Whether you need isometric calculations, on-site welding training, or commercial inquiries – our engineers and sales representatives will respond promptly to ensure your project's success.",
+      "projektanfrage1": "Submit your project inquiry for K-Aqua PP-R and PP-RCT piping systems. Our technical department specializes in large-scale installations, including high-rise buildings, hospitals, and industrial cooling networks.",
+      "projektanfrage2": "By providing us with your project specifications, we can assist with pressure loss calculations, material take-offs, and custom transition fittings tailored to your requirements.",
+      "projektanfrage3": "Every project inquiry is handled with strict confidentiality and processed by our German engineering team to guarantee maximum efficiency and system longevity.",
+      "news1": "Stay updated with the latest news from K-Aqua. We regularly publish updates on new PP-R/PP-RCT product developments, international trade fair appearances, and major global projects.",
+      "news2": "Our news section also covers technical innovations in socket fusion welding, material science advancements in Polypropylene Random Copolymer, and sustainability initiatives at our Waldsolms production plant."
+    },
     "eyebrow": "About Us",
     "title1": "Experience is your",
     "titleGrad": "advantage.",
@@ -5377,141 +5431,141 @@
     },
     "ausschreibungstexte": {
       "meta": {
-        "title": "Ausschreibungstexte | K-Aqua",
-        "desc": "K-Aqua Ausschreibungstexte – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
+        "title": "Tender Specifications | K-Aqua",
+        "desc": "K-Aqua Tender Specifications – Uncompromising safety through German Engineering for global megaprojects."
       },
       "timeline": {
         "items": [
           {
-            "year": "Phase 1: Parametrierung",
-            "title": "Die Definition von Perfektion.",
-            "text": "Der Prozess beginnt in der TGA-Planung. Exakte Definition von Nennweiten, Druckstufen (PN) und SDR-Klassen für Heiß- und Kaltwasser. Wir lassen keine Grauzonen. Jedes Formteil, jede Schelle, jede Muffe wird mathematisch exakt erfasst."
+            "year": "Phase 1: Parameterization",
+            "title": "The definition of perfection.",
+            "text": "The process begins in MEP planning. Exact definition of nominal diameters, pressure ratings (PN), and SDR classes for hot and cold water. We leave no gray areas. Every fitting, every clamp, every socket is recorded with mathematical exactness."
           },
           {
-            "year": "Phase 2: Vergabe",
-            "title": "Submission ohne Kompromisse.",
-            "text": "Durch die granulare, kristallklare Struktur unserer Texte werden Angebote echter vergleichbar. Dumping-Preise durch minderwertige Materialien oder versteckte Auslassungen fallen sofort auf. Die Spreu trennt sich vom Weizen."
+            "year": "Phase 2: Awarding",
+            "title": "Submission without compromises.",
+            "text": "Thanks to the granular, crystal-clear structure of our texts, offers become truly comparable. Dumping prices due to inferior materials or hidden omissions stand out immediately. The wheat is separated from the chaff."
           },
           {
-            "year": "Phase 3: Ausführung",
-            "title": "Ein Blueprint für die Baustelle.",
-            "text": "Die Ausschreibungstexte dienen als bindendes, juristisches Gesetzbuch für die Bauleitung und die Installateure. Jede Schweißnaht, jede Fixierung muss den spezifizierten DVS-Richtlinien entsprechen. Abweichungen werden unmöglich gemacht."
+            "year": "Phase 3: Execution",
+            "title": "A blueprint for the construction site.",
+            "text": "The tender specifications serve as a binding legal code for site management and installers. Every weld, every fixation must comply with specified DVS guidelines. Deviations are rendered impossible."
           },
           {
-            "year": "Phase 4: Lebenszyklus",
-            "title": "50+ Jahre absolute Wartungsfreiheit.",
-            "text": "Das Resultat einer makellosen Spezifikation ist ein über Jahrzehnte fehlerfreies System. Maximale Resilienz gegen Korrosion, Inkrustation und chemische Degradation. Generationenübergreifende Sicherheit, engineered in Germany."
+            "year": "Phase 4: Lifecycle",
+            "title": "50+ years of absolute maintenance freedom.",
+            "text": "The result of a flawless specification is a system that remains faultless for decades. Maximum resilience against corrosion, incrustation, and chemical degradation. Intergenerational security, engineered in Germany."
           }
         ],
-        "title": "Von der Ausschreibung zur Ewigkeit.",
-        "desc": "Ein Ausschreibungstext von K-Aqua ist kein bloßes Dokument. Er ist der Quellcode für die gebaute Realität. Er definiert, schützt und diktiert den gesamten Lebenszyklus eines Gebäudes – von der ersten Skizze bis zur jahrzehntelangen Nutzung."
+        "title": "From specification to eternity.",
+        "desc": "A K-Aqua tender specification is not merely a document. It is the source code for built reality. It defines, protects, and dictates the entire lifecycle of a building – from the first sketch to decades of use."
       },
       "hero": {
         "eyebrow": "K-Aqua Resource Center",
-        "title1": "Ausschreibungstexte.",
+        "title1": "Tender Specifications.",
         "title2": "Engineered in Germany.",
-        "desc": "Architektur beginnt mit einem Gedanken. Engineering beginnt mit einer Spezifikation. Unsere Ausschreibungstexte sind das rechtsbindende Fundament für Wasserinfrastruktur ohne Kompromisse. Millimetergenau. VOB-konform. Unanfechtbar.",
-        "cta1": "GAEB-Texte herunterladen",
-        "cta2": "Planungsberatung anfordern"
+        "desc": "Architecture begins with a thought. Engineering begins with a specification. Our tender specifications are the legally binding foundation for uncompromising water infrastructure. Millimeter-precise. VOB-compliant. Unassailable.",
+        "cta1": "Download GAEB Texts",
+        "cta2": "Request Planning Consultation"
       },
       "manifesto": {
-        "title1": "Das Ende der Ambiguität.",
-        "title2": "Der Beginn absoluter Kontrolle.",
-        "p1": "In der Hochbauarchitektur und im industriellen Anlagenbau sind vage Formulierungen das größte existenzielle Risiko. Ein einzelnes, unpräzises Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem katastrophalen Wasserschaden in einem 50-stöckigen Hochhaus bedeuten.",
-        "p2": "Deshalb schreiben wir Ausschreibungstexte nicht einfach – wir <strong className=\"text-foreground font-medium\">engineeren</strong> sie. Wie jedes einzelne K-Aqua-Rohrstück werden auch unsere digitalen Datenpakete in Deutschland entwickelt, unter Extrembedingungen geprüft und geprüft. Sie übersetzen physikalische Überlegenheit in juristische und wirtschaftliche Unanfechtbarkeit."
+        "title1": "The end of ambiguity.",
+        "title2": "The beginning of absolute control.",
+        "p1": "In building architecture and industrial plant construction, vague phrasing is the greatest existential risk. A single, imprecise word in the bill of quantities can mean the difference between a system that is maintenance-free for decades and a catastrophic water damage event in a 50-story high-rise.",
+        "p2": "That is why we do not simply write tender specifications – we <strong className=\"text-foreground font-medium\">engineer</strong> them. Like every single K-Aqua pipe segment, our digital data packets are developed and repeatedly tested under extreme conditions in Germany. They translate physical superiority into legal and economic unassailability."
       },
       "bento": {
-        "eyebrow": "Architektur der Daten",
-        "title": "Spezifikationen, die schützen.",
-        "lead": "Entwickelt für TGA-Fachplaner, Architekten und visionäre Ingenieure, die bei der Planung von Milliarden-Projekten keine Fehler tolerieren können.",
+        "eyebrow": "Architecture of Data",
+        "title": "Specifications that protect.",
+        "lead": "Developed for MEP planners, architects, and visionary engineers who cannot tolerate errors when planning billion-dollar projects.",
         "items": [
           {
-            "title": "VOB/C & DIN 18381 konform",
-            "desc": "Jede einzelne Position entspricht exakt den aktuellsten Vergabe- und Vertragsordnungen für Bauleistungen. Sie sind juristisch absolut auf der sicheren Seite und minimieren das Haftungsrisiko drastisch."
+            "title": "VOB/C & DIN 18381 compliant",
+            "desc": "Every single item corresponds exactly to the latest procurement and contract regulations for construction services. You are legally on the absolute safe side, drastically minimizing liability risks."
           },
           {
-            "title": "Native GAEB Formate",
-            "desc": "XML, d81, d83. Perfekte Import-Kompatibilität für ORCA, RIB iTWO, Nevaris und alle gängigen AVA-Systeme. Keine Syntaxfehler, keine Workarounds."
+            "title": "Native GAEB Formats",
+            "desc": "XML, d81, d83. Perfect import compatibility for ORCA, RIB iTWO, Nevaris, and all standard AVA systems. No syntax errors, no workarounds."
           },
           {
-            "title": "Herstellerneutrale Varianten",
-            "desc": "Für öffentliche Vergabeverfahren bieten wir rechtssichere, absolut produktneutrale Beschreibungen, die den Premium-Standard festsetzen, ohne Vergaberichtlinien zu verletzen."
+            "title": "Manufacturer-neutral Variants",
+            "desc": "For public procurement procedures, we offer legally secure, absolutely product-neutral descriptions that set the premium standard without violating procurement guidelines."
           },
           {
-            "title": "Detaillierte Zubehör-Matrix",
-            "desc": "Vom komplexen Formteil über die Absperrarmatur bis zur thermodynamischen Befestigungsschelle: Die lückenlose Erfassung des gesamten Ökosystems verhindert teure Nachträge."
+            "title": "Detailed Accessories Matrix",
+            "desc": "From complex fittings and shut-off valves to thermodynamic mounting clamps: the seamless recording of the entire ecosystem prevents expensive supplementary claims."
           },
           {
             "title": "BIM-Ready Integration",
-            "desc": "Verknüpfen Sie unsere Ausschreibungstexte nahtlos mit unseren hochdetaillierten Revit-Modellen für eine durchgängige, clash-freie 5D-Planung in Echtzeit."
+            "desc": "Seamlessly link our tender specifications with our highly detailed Revit models for continuous, clash-free 5D planning in real-time."
           }
         ]
       },
       "grid": {
-        "title": "Die Anatomie einer Leistungsposition.",
-        "desc": "Wir überlassen nichts dem Zufall. Jede Leistungsposition ist ein Meisterwerk deutscher Ingenieurskunst, komprimiert in Textform. Hier ist, was unsere Texte im Detail abdecken:",
+        "title": "The anatomy of a specification item.",
+        "desc": "We leave nothing to chance. Every specification item is a masterpiece of German engineering compressed into text format. Here is what our texts cover in detail:",
         "items": [
           {
-            "title": "Rohrsysteme SDR 6 / SDR 7.4",
-            "desc": "PN 20. Faserverbund-Technologie mit integrierter Längenausdehnungs-Minimierung für maximale Formstabilität."
+            "title": "Pipe Systems SDR 6 / SDR 7.4",
+            "desc": "PN 20. Fiber-composite technology with integrated thermal expansion minimization for maximum dimensional stability."
           },
           {
-            "title": "Elektroschweißmuffen",
-            "desc": "Vollautomatische Schweißdokumentation und 100% homogene, unlösbare und leckagesichere Verbindungen."
+            "title": "Electrofusion Sockets",
+            "desc": "Fully automatic welding documentation and 100% homogeneous, inseparable, and leak-proof connections."
           },
           {
-            "title": "Übergangsverschraubungen",
-            "desc": "Entzinkungsfreies Premium-Messing (DZR), dauerhaft und unzertrennlich eingegossen in die PP-R Matrix."
+            "title": "Transition Fittings",
+            "desc": "Dezincification-resistant premium brass (DZR), permanently and inseparably cast into the PP-R matrix."
           },
           {
-            "title": "Absperrarmaturen",
-            "desc": "Wartungsfreie Kugel- und Schrägsitzventile, strömungsoptimiert und Totraum-minimiert zur Legionellenprävention."
+            "title": "Shut-off Valves",
+            "desc": "Maintenance-free ball and inclined seat valves, flow-optimized and dead-space minimized for legionella prevention."
           },
           {
-            "title": "Verteilersysteme",
-            "desc": "Modulare, hochkapazitive Verteiler für komplexe Steigstränge und Etagenanbindungen in Großprojekten."
+            "title": "Manifold Systems",
+            "desc": "Modular, high-capacity manifolds for complex risers and floor connections in large-scale projects."
           },
           {
-            "title": "Dämmung nach GEG",
-            "desc": "Integrierte Vorgaben zur strikten Vermeidung von Wärmeverlusten und Kondensatbildung (Taupunktunterschreitung)."
+            "title": "Insulation according to GEG",
+            "desc": "Integrated specifications to strictly avoid heat loss and condensation formation (dropping below the dew point)."
           },
           {
-            "title": "Brandschutz-Manschetten",
-            "desc": "R90/R120 konforme, hochreaktive Schottungssysteme für sichere Wand- und Deckendurchführungen."
+            "title": "Fire Protection Collars",
+            "desc": "R90/R120 compliant, highly reactive sealing systems for safe wall and ceiling penetrations."
           },
           {
-            "title": "System-Befestigungen",
-            "desc": "Präzise Fest- und Loslager-Spezifikationen zur kontrollierten Aufnahme von thermischer Längendehnung."
+            "title": "System Fixations",
+            "desc": "Precise fixed and sliding point specifications for the controlled absorption of thermal expansion."
           }
         ]
       },
       "cta": {
-        "title": "Beginnen Sie mit der Spezifikation.",
-        "desc": "Greifen Sie auf unsere vollständige, ständig aktualisierte Bibliothek an Ausschreibungstexten zu. Garantiert fehlerfrei, normkonform und bereit für den Einsatz in Ihrem nächsten internationalen Megaprojekt.",
-        "btn1": "Zum Download-Portal",
-        "btn2": "Planungsberatung anfordern"
+        "title": "Start with the specification.",
+        "desc": "Access our complete, continuously updated library of tender specifications. Guaranteed error-free, standard-compliant, and ready for deployment in your next international megaproject.",
+        "btn1": "Go to Download Portal",
+        "btn2": "Request Planning Consultation"
       },
       "deep": {
         "items": [
           {
-            "title": "Absolute Rechtssicherheit (VOB/C)",
-            "desc": "In der Planung internationaler Megaprojekte ist Ambiguität der Feind. Ein einzelnes fehlendes Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem desaströsen Millionen-Schaden bedeuten. Unsere Ausschreibungstexte sind millimetergenau nach VOB/C und DIN 18381 normiert. Jede Leistungsbeschreibung ist so kalibriert, dass technische Schlupflöcher, Auslegungsspielräume und juristische Grauzonen restlos eliminiert werden. So garantieren wir, dass die Qualität, die Sie auf dem Papier spezifizieren, exakt die Qualität ist, die auf der Baustelle verbaut wird."
+            "title": "Absolute Legal Certainty (VOB/C)",
+            "desc": "In the planning of international megaprojects, ambiguity is the enemy. A single missing word in the service description can mean the difference between a system that is maintenance-free for decades and a disastrous million-dollar damage event. Our tender specifications are standardized millimeter-precisely according to VOB/C and DIN 18381. Every specification is calibrated to completely eliminate technical loopholes, room for interpretation, and legal gray areas. This way, we guarantee that the quality you specify on paper is exactly the quality installed on the construction site."
           },
           {
-            "title": "100% GAEB- & ÖNORM-Kompatibilität",
-            "desc": "Ein moderner Planungsprozess erfordert nahtlosen Datenfluss. Unsere Datensätze sind nicht einfach nur Text – sie sind hochstrukturierte, maschinenlesbare Artefakte, die für die sofortige Integration in jede professionelle AVA-Software (Ausschreibung, Vergabe, Abrechnung) entwickelt wurden. Wir liefern native Formate (GAEB 90, GAEB 2000, GAEB DA XML) sowie Datanorm und ÖNORM. Keine Konvertierungsverluste. Kein manueller Nachbesserungsaufwand. Ein digitaler Workflow, der die Effizienz im Planungsprozess um bis zu 40% steigert und gleichzeitig Übertragungsfehler mathematisch ausschließt."
+            "title": "100% GAEB & ÖNORM Compatibility",
+            "desc": "A modern planning process requires a seamless data flow. Our datasets are not just text – they are highly structured, machine-readable artifacts designed for immediate integration into any professional AVA software (tendering, awarding, accounting). We deliver native formats (GAEB 90, GAEB 2000, GAEB DA XML) as well as Datanorm and ÖNORM. No conversion losses. No manual rework. A digital workflow that increases efficiency in the planning process by up to 40% while mathematically eliminating transmission errors."
           },
           {
-            "title": "Die Materialspezifikation: PPR-C (Typ 3)",
-            "desc": "Wasserinfrastruktur ist das Nervensystem eines Gebäudes. Unsere Leistungspositionen definieren eindeutig und unmissverständlich die überlegene Molekularstruktur unseres Polypropylens Random Copolymer (PPR-C Typ 3). Sie fixieren entscheidende Parameter wie Zeitstandfestigkeit, Kriechverhalten und thermische Längenausdehnung. Nur durch diese kompromisslose Detailtiefe schützen Sie Ihr Projekt wirksam vor minderwertigen Derivaten und gefährlichen Plagiaten, die bei Spitzendrücken von 20 Bar oder bei Temperaturschwankungen unweigerlich kapitulieren würden."
+            "title": "The Material Specification: PPR-C (Type 3)",
+            "desc": "Water infrastructure is the nervous system of a building. Our specification items clearly and unambiguously define the superior molecular structure of our Polypropylene Random Copolymer (PPR-C Type 3). They fix crucial parameters such as creep rupture strength, creep behavior, and thermal expansion. Only through this uncompromising level of detail do you effectively protect your project from inferior derivatives and dangerous counterfeits, which would inevitably fail at peak pressures of 20 bar or under temperature fluctuations."
           },
           {
-            "title": "Thermodynamische und akustische Präzision",
-            "desc": "Premium-Architektur erfordert Premium-Physik. Eine professionelle Ausschreibung erfasst nicht nur das nackte Rohrleitungssystem, sondern das gesamte physikalische Ökosystem. Unsere Texte enthalten detaillierte Vorgaben zu Wärmeverlustkoeffizienten nach dem Gebäudeenergiegesetz (GEG) / EnEV sowie zu strengen Schalldämmmaßen (DIN 4109). Das stellt sicher, dass Ihre Anlage nicht nur mechanisch extrem belastbar ist, sondern auch thermodynamisch hochgradig effizient und akustisch im absoluten Premium-Segment (Flüster-Standard) operiert."
+            "title": "Thermodynamic and Acoustic Precision",
+            "desc": "Premium architecture demands premium physics. A professional tender specification captures not only the bare piping system but the entire physical ecosystem. Our texts contain detailed specifications on heat loss coefficients according to the Building Energy Act (GEG) / EnEV as well as strict sound insulation measures (DIN 4109). This ensures that your system is not only mechanically extremely resilient but also thermodynamically highly efficient and operates acoustically in the absolute premium segment (whisper standard)."
           },
           {
-            "title": "Nachhaltigkeits-Metriken (ESG & LEED)",
-            "desc": "Die Zukunft des Bauens ist zirkulär und CO2-optimiert. Ausschreibungen müssen heute grüne Standards nachweisen. K-Aqua Texte integrieren vollständige EPDs (Environmental Product Declarations) und Lebenszyklusanalysen. Wir definieren den genauen ökologischen Fußabdruck, Rezyklierbarkeit und Energieeffizienz in der Extrusion. Perfekt geeignet für Gebäude, die nach DGNB, LEED, BREEAM oder WELL geprüft werden sollen. Spezifizieren Sie grüne Performance, nicht nur grüne Versprechen."
+            "title": "Sustainability Metrics (ESG & LEED)",
+            "desc": "The future of construction is circular and CO2-optimized. Today, tenders must demonstrate green standards. K-Aqua texts integrate complete EPDs (Environmental Product Declarations) and lifecycle analyses. We define the exact ecological footprint, recyclability, and energy efficiency in extrusion. Perfectly suited for buildings that are to be certified according to DGNB, LEED, BREEAM, or WELL. Specify green performance, not just green promises."
           }
         ]
       }

@@ -57,6 +57,7 @@ interface GeoCityProps {
     nearby: string;
     prodNote: string;
     km: string;
+    seoExpansion: string;
   };
   regionsTrans: Record<string, string>;
   nearestMarkets: Array<GeoMarket & { regulator: string }>;
@@ -270,7 +271,8 @@ export default function GeoCity({
                   href="/academy" 
                   className="inline-flex items-center gap-2 text-primary font-semibold hover:underline mt-4 group min-h-[44px]"
                 >
-                  {geoTrans.toAcademy}
+                  <span className="sr-only">{geoTrans.toAcademy} {market.city}</span>
+                  <span aria-hidden="true">{geoTrans.toAcademy}</span>
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 group-hover:rtl:-translate-x-1" />
                 </Link>
               </Card>
@@ -341,6 +343,9 @@ export default function GeoCity({
             </p>
             <p className="mb-4">
               {localizedData.note} {localizedData.water}
+            </p>
+            <p className="mb-4">
+              {geoTrans.seoExpansion}
             </p>
             <p className="mb-4">
               {prodNote}

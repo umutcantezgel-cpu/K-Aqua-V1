@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Related Markets",
     "nearby": "Nearby.",
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS — including hreflang, Product/Offer schema, and semantic internal linking.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua manufactures PP-R and PP-RCT piping systems in Waldsolms for the highest demands of global building and plant engineering. Thanks to uncompromising German engineering and state-of-the-art production technology, our systems guarantee decades of maintenance-free operational reliability. Every product, from d20 to d630, undergoes strict quality controls and complies with international standards such as DVGW, KIWA, and SKZ. We not only offer premium materials for drinking water, cooling, and industry, but also support planners and installers with comprehensive technical support and on-site training. Trust a system that impresses with extreme longevity, corrosion resistance, and absolute hygiene."
   },
   "footer": {
     "tagline": "K-Aqua — Leading in Water Supply. PP-R/PP-RCT piping systems for drinking water, made by KWT GmbH in Waldsolms, Germany.",
@@ -2031,6 +2032,17 @@
     ],
     "certTitle": "tested to standard",
     "certText": "Our lived GENAU management meets the requirements of DIN EN ISO 14001 and 50001 — extended by ISO 9001:2015 since October 2025.",
+    "seo": {
+      "impressum1": "K-Aqua PP-R and PP-RCT piping systems are manufactured by KWT GmbH in Waldsolms, Germany. Our imprint provides full transparency regarding our corporate structure, legal representatives, and commercial registry details.",
+      "impressum2": "As a globally active manufacturer of premium plastic pipe solutions for drinking water and industrial applications, we are committed to adhering to all legal and regulatory standards in international trade and data protection.",
+      "kontakt1": "Do you have technical questions about our PP-R/PP-RCT pipes or need support with an international project? The K-Aqua contact team in Waldsolms is ready to assist you.",
+      "kontakt2": "Whether you need isometric calculations, on-site welding training, or commercial enquiries – our engineers and sales representatives will respond promptly to ensure your project's success.",
+      "projektanfrage1": "Submit your project enquiry for K-Aqua PP-R and PP-RCT piping systems. Our technical department specialises in large-scale installations, including high-rise buildings, hospitals, and industrial cooling networks.",
+      "projektanfrage2": "By providing us with your project specifications, we can assist with pressure loss calculations, material take-offs, and custom transition fittings tailored to your requirements.",
+      "projektanfrage3": "Every project enquiry is handled with strict confidentiality and processed by our German engineering team to guarantee maximum efficiency and system longevity.",
+      "news1": "Stay updated with the latest news from K-Aqua. We regularly publish updates on new PP-R/PP-RCT product developments, international trade fair appearances, and major global projects.",
+      "news2": "Our news section also covers technical innovations in socket fusion welding, material science advancements in Polypropylene Random Copolymer, and sustainability initiatives at our Waldsolms production plant."
+    },
     "meta": {
       "title": "Unternehmen | K-Aqua",
       "desc": "Das Epizentrum deutscher Ingenieurskunst."
