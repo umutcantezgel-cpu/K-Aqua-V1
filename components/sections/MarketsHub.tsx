@@ -10,6 +10,7 @@ import { FilterChip } from "@/components/ui/FilterChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { ArrowRight } from "@/components/ui/icon";
+import clsx from "clsx";
 import type { GlobeRef, GlobeMarker } from "@/components/globe/Globe";
 import { LazyGlobe } from "@/components/globe/LazyGlobe";
 
@@ -268,44 +269,40 @@ export default function MarketsHub({
                     </div>
                     
                     {/* Expanded Content */}
-                    {isActive && (
-                      <div className="mt-4 pt-4 border-t border-card-border w-full flex flex-col gap-3 animate-in fade-in slide-in-from-top-2 duration-300">
-                        <p className="text-sm text-muted-foreground">
-                          {geoContentTrans[g.slug]?.note || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-2 mt-1">
-                          <Link
-                            href={`/maerkte/${g.slug}`}
-                            className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
-                          >
-                            Marktseite öffnen
-                          </Link>
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleMarketSelect(null);
-                            }}
-                            className="inline-flex items-center justify-center font-heading font-semibold rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle h-10 px-4 text-sm transition-colors"
-                          >
-                            Schließen
-                          </button>
-                        </div>
+                    <div className={clsx(
+                      "border-card-border w-full flex flex-col gap-3 transition-all duration-300 overflow-hidden",
+                      isActive ? "mt-4 pt-4 border-t opacity-100 max-h-[500px]" : "opacity-0 max-h-0 border-t-0"
+                    )}>
+                      <p className="text-sm text-muted-foreground">
+                        {geoContentTrans[g.slug]?.note || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
+                      </p>
+                      <div className="flex flex-col sm:flex-row gap-2 mt-1">
+                        <Link
+                          href={`/maerkte/${g.slug}`}
+                          className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
+                          tabIndex={isActive ? 0 : -1}
+                        >
+                          Marktseite öffnen
+                        </Link>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleMarketSelect(null);
+                          }}
+                          className="inline-flex items-center justify-center font-heading font-semibold rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle h-10 px-4 text-sm transition-colors"
+                          tabIndex={isActive ? 0 : -1}
+                        >
+                          Schließen
+                        </button>
                       </div>
-                    )}
+                    </div>
                   </div>
                 );
               })}
             </div>
           </div>
           
-          {/* SEO Hidden Links for Crawlers */}
-          <div className="sr-only">
-            {GEO_MARKETS.map(m => (
-              <Link key={`seo-${m.slug}`} href={`/maerkte/${m.slug}`}>
-                {m.city} ({m.country})
-              </Link>
-            ))}
-          </div>
+
 
         </div>
       </section>

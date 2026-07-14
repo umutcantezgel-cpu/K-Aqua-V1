@@ -70,14 +70,14 @@ export default function LangPicker() {
         <ChevronDown className={clsx("w-4 h-4 text-muted-foreground transition-transform duration-fast shrink-0", open && "rotate-180")} />
       </button>
 
-      {open && (
-        <div
-          className={clsx(
-            "absolute bottom-full mb-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none animate-in fade-in slide-in-from-bottom-2 duration-fast end-0 origin-bottom"
-          )}
-          role="listbox"
-          aria-label={t('lang') || "Languages"}
-        >
+      <div
+        className={clsx(
+          "absolute bottom-full mb-2 w-48 rounded-xl border border-card-border bg-card shadow-diffuse py-1 z-50 focus:outline-none transition-all duration-fast end-0 origin-bottom",
+          open ? "opacity-100 visible scale-100" : "opacity-0 invisible scale-95 pointer-events-none"
+        )}
+        role="listbox"
+        aria-label={t('lang') || "Languages"}
+      >
           {LANGUAGES.map((lang) => {
             const isSelected = lang.id === locale;
             return (
@@ -107,7 +107,6 @@ export default function LangPicker() {
             );
           })}
         </div>
-      )}
     </div>
   );
 }
