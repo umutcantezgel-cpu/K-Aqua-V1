@@ -64,6 +64,7 @@ export default async function GeoCityPage({ params }: Props) {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   const tRegions = await getTranslations({ locale, namespace: "regions" });
   const tRoot = await getTranslations({ locale });
+  const tSeo = await getTranslations({ locale, namespace: "seo" });
 
   // Get raw geoContent translations
   const geoContentTrans = tRoot.raw("geoContent") as Record<string, {
@@ -137,6 +138,12 @@ export default async function GeoCityPage({ params }: Props) {
         regionsTrans={regionsTrans}
         nearestMarkets={nearestLocalized}
       />
+
+      <div className="mt-16 max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16">
+        <p>{tSeo('extendedMarketText.p1')}</p>
+        <p>{tSeo('extendedMarketText.p2')}</p>
+        <p>{tSeo('extendedMarketText.p3')}</p>
+      </div>
     </>
   );
 }
