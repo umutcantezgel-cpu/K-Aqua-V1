@@ -331,7 +331,23 @@ export default function GeoCity({
           </Reveal>
         </div>
       </section>
-      <SeoExpand pageType="maerkte" />
+      {/* Unique Market SEO Text */}
+      <section className="py-16 bg-background border-t border-card-border mt-12">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start">
+            <p className="font-bold text-foreground mb-4">K-Aqua PP-R / PP-RCT {geoTrans.cityTitle}</p>
+            <p className="mb-4">
+              {geoTrans.cityLead} {localizedData.regulator}. {geoTrans.onSiteText} {market.norms.length > 0 && `(${market.norms.join(', ')}).`}
+            </p>
+            <p className="mb-4">
+              {localizedData.note} {localizedData.water}
+            </p>
+            <p className="mb-4">
+              {prodNote}
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

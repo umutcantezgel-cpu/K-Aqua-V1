@@ -82,6 +82,7 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
           href={href}
           locale={locale}
           className={buttonClass}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           {...(anchorProps as any)}
         >
           {content}

@@ -145,7 +145,7 @@ export default function HeroScrolly() {
   const renderHeroCopy = (isH1: boolean = true) => {
     const TitleTag = isH1 ? "h1" : "div";
     return (
-      <div ref={isH1 ? copyRef : null} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
+      <div ref={!isH1 ? copyRef : null} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
         <Reveal delay={0.08}>
           <TitleTag className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]" aria-hidden={!isH1 ? "true" : undefined}>
             {t('h1a')}{' '}

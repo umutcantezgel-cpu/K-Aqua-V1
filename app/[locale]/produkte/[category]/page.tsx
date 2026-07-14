@@ -92,7 +92,12 @@ export default async function CategoryPage({ params }: Props) {
   let advantages: string[] = [];
 
   try {
-    if (t.has(`${catKey}.advTitle`)) seoTitle = t(`${catKey}.advTitle`);
+    if (t.has(`${catKey}.advTitle`)) {
+      seoTitle = t(`${catKey}.advTitle`);
+      if (catKey === 'fallback') {
+        seoTitle = `${category.charAt(0).toUpperCase() + category.slice(1)} - ${seoTitle}`;
+      }
+    }
     if (t.has(`${catKey}.seoText`)) seoText = t(`${catKey}.seoText`);
     if (t.has(`${catKey}.advList`)) {
       const list = t.raw(`${catKey}.advList`);

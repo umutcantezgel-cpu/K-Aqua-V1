@@ -63,10 +63,26 @@ export function constructMetadata({
   const canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
-  const cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim();
-  const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+  let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();
+  // Remove leading K-Aqua if it's there
+  cleanTitle = cleanTitle.replace(/^K-Aqua\s*?[|·-]\s*?/i, "").trim();
+  
+  let finalTitle = `${cleanTitle} | K-Aqua`;
+  if (finalTitle.length < 50) {
+    finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+  }
 
   const isTranslated = translatedLocales.includes(locale);
+
+  let finalDescription = description;
+  if (finalDescription && finalDescription.length < 130) {
+    if (locale === 'de') finalDescription += " Entdecken Sie unsere zertifizierten PP-R & PP-RCT Rohrleitungssysteme.";
+    else if (locale === 'en') finalDescription += " Discover our certified PP-R & PP-RCT piping systems.";
+    else if (locale === 'es') finalDescription += " Descubra nuestros sistemas de tuberías certificados de PP-R y PP-RCT.";
+    else if (locale === 'fr') finalDescription += " Découvrez nos systèmes de tuyauterie certifiés en PP-R et PP-RCT.";
+    else if (locale === 'ar') finalDescription += " اكتشف أنظمة الأنابيب المعتمدة من PP-R و PP-RCT.";
+    else finalDescription += " K-Aqua PP-R / PP-RCT Piping Systems.";
+  }
 
   const isNonDePlaceholder = locale !== 'de' && (
     path.startsWith('/academy') ||
@@ -80,7 +96,7 @@ export function constructMetadata({
   return {
     metadataBase: new URL(siteUrl),
     title: finalTitle,
-    description,
+    description: finalDescription,
     ...(isNonDePlaceholder || isGlobalNoIndex ? { robots: { index: false, follow: false } } : {
       robots: {
         index: isTranslated,
@@ -93,7 +109,7 @@ export function constructMetadata({
     },
     openGraph: {
       title: finalTitle,
-      description,
+      description: finalDescription,
       url: canonicalUrl,
       siteName: "K-Aqua",
       locale,
@@ -103,7 +119,7 @@ export function constructMetadata({
     twitter: {
       card: "summary_large_image",
       title: finalTitle,
-      description,
+      description: finalDescription,
       images: ogImage ? [ogImage] : [`${siteUrl}/images/og-default.jpg`],
     },
   };

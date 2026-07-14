@@ -121,6 +121,7 @@ export default async function GeoCityPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={schemas} />
+
       <div className="sr-only">
         <p>{geoTrans.cityTitle}</p>
         <p>{geoTrans.cityLead} {localizedData.regulator}</p>

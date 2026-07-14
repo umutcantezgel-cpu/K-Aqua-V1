@@ -106,7 +106,7 @@ export default async function ProductDetailPage({
     description: dynamicSeoText || localizedTitle,
     category: product.category,
     url: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
-    codes: codes
+    codes: Array.isArray(product.article_codes) ? product.article_codes : [product.article_codes || 'N/A']
   });
 
   // Enhance schema with Local SEO properties
@@ -233,6 +233,15 @@ export default async function ProductDetailPage({
                       </ul>
                     </div>
                     <p>{dynamicSeoText}</p>
+                    <div className="mt-6 pt-6 border-t border-card-border">
+                      <p className="text-sm">
+                        {tProd('uniqueProductContext', {
+                          title: localizedTitle,
+                          category: product.category.toUpperCase(),
+                          codes: codes || '-'
+                        })}
+                      </p>
+                    </div>
                   </div>
                 </div>
                 

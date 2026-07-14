@@ -120,7 +120,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         }
         description={t('heroDesc')}
       >
-        <Button variant="default" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
+        <Button variant="primary" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
           {t('heroBtnPrimary')}
         </Button>
         <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="text-lg px-8 py-6 rounded-full">
@@ -253,15 +253,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* 6) Horizontal Timeline */}
       <section className="py-32 bg-background overflow-hidden">
-        <div className="mx-auto max-w-[1400px] px-6 mb-16">
-          <SectionHead
-            eyebrow={t('section4Eyebrow')}
-            title={t('section4Title')}
-            lead={t('section4Lead')}
-            align="center"
-          />
-        </div>
-        <HorizontalTimeline items={timelineEvents} />
+        <HorizontalTimeline 
+          items={timelineEvents}
+          title={t('section4Title')}
+          description={t('section4Lead')}
+        />
       </section>
 
       {/* 7) Final Text Section - The German Engineering Promise */}
