@@ -1,6 +1,6 @@
 ---
 shortTitle: "Corrosion Resistance in Drinking Water"
-title: "Corrosion Resistance: Why Metal is Obsolete in Drinking Water Applications"
+title: "Corrosion Resistance in Drinking Water Systems"
 slug: "korrosionsbestaendigkeit-trinkwasser"
 description: "Learn why plastic piping systems like PP-RCT are vastly superior to metallic systems when it comes to drinking water hygiene and longevity."
 date: "2024-04-02"

@@ -1,6 +1,6 @@
 ---
 shortTitle: "Nachhaltigkeit in der Rohrleitungstechnik"
-title: "Nachhaltigkeit in der Rohrleitungstechnik: CO2-Emissionen signifikant senken"
+title: "Nachhaltigkeit in der modernen Rohrleitungstechnik"
 slug: "nachhaltigkeit-rohrsysteme"
 description: "Wie Sie durch den Einsatz von PP-RCT Rohrsystemen den CO2-Fußabdruck Ihrer Bauprojekte messbar reduzieren und Green-Building-Zertifikate (LEED, BREEAM) erreichen."
 date: "2024-05-10"

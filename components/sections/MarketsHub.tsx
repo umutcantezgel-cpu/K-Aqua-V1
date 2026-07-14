@@ -282,7 +282,7 @@ export default function MarketsHub({
                           className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
                           tabIndex={isActive ? 0 : -1}
                         >
-                          Marktseite öffnen
+                          <span className="sr-only">{g.city} </span>Marktseite öffnen
                         </Link>
                         <button
                           onClick={(e) => {
