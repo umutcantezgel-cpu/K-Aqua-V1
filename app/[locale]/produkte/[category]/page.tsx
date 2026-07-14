@@ -221,15 +221,13 @@ export default async function CategoryPage({ params }: Props) {
       </section>
 
       {/* Category Guide Section */}
-      {t.has(`${catKey}.guideTitle`) && t.has(`${catKey}.guideText`) && (
+      {t.has(`${catKey}.guideText`) && (
         <section className="py-20 bg-background border-t border-card-border">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl font-heading font-bold text-foreground mb-6">
-                {t(`${catKey}.guideTitle`)}
-              </h2>
-              <div className="text-muted-foreground leading-relaxed text-left space-y-4">
+            <div className="max-w-3xl mx-auto text-left mb-12">
+              <div className="text-muted-foreground leading-relaxed space-y-4">
                 {t.rich(`${catKey}.guideText`, { 
+                  h2: (chunks) => <h2 className="text-3xl font-heading font-bold text-foreground mb-6 mt-8">{chunks}</h2>,
                   p: (chunks) => <p>{chunks}</p>,
                   strong: (chunks) => <strong className="text-foreground">{chunks}</strong>,
                   ul: (chunks) => <ul className="list-disc pl-6 space-y-2">{chunks}</ul>,

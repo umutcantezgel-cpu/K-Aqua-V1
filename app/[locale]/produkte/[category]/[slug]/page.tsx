@@ -395,8 +395,21 @@ export default async function ProductDetailPage({
                       {tProd('labels.technicalDescription')} - {localizedTitle}
                     </h3>
                     <div className="text-body text-muted-foreground leading-relaxed space-y-4">
-                      {generatedSeoNarrative.split('\\n').map((paragraph, i) => paragraph.trim() ? <p key={i}>{paragraph}</p> : null)}
+                      {generatedSeoNarrative.split('\n').map((paragraph, i) => paragraph.trim() ? <p key={i}>{paragraph}</p> : null)}
                     </div>
+                  </div>
+                )}
+                
+                {/* 4.5 Generic Category SEO Guide */}
+                {tProd.has(`seoArticle.${seoCat}.guideText`) && (
+                  <div className="mt-8 p-8 bg-card border border-card-border rounded-xl">
+                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                       {tProd(`seoArticle.${seoCat}.guideTitle`)}
+                     </h3>
+                     <div 
+                       className="prose dark:prose-invert max-w-none text-muted-foreground leading-relaxed text-body prose-p:mb-4"
+                       dangerouslySetInnerHTML={{ __html: tProd(`seoArticle.${seoCat}.guideText`) }}
+                     />
                   </div>
                 )}
                 

@@ -144,15 +144,13 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             lead={t('common.valLead')}
             align="left"
           />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            {[1, 2, 3].map((item) => (
-              <Card key={item} className="flex flex-col gap-4">
-                <h3 className="font-heading font-bold text-xl">{t('common.valCardTitle', { item })}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-12">
+              <Card className="flex flex-col gap-4">
+                <h3 className="font-heading font-bold text-xl">{t('common.valCardTitle', { item: 1 })}</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   {t('common.valCardDesc')}
                 </p>
               </Card>
-            ))}
           </div>
           
           <div className="mt-16">

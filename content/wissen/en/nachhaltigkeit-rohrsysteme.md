@@ -1,6 +1,6 @@
 ---
 shortTitle: "Sustainability in Piping Technology"
-title: "Sustainability in Piping Technology: Significantly Reducing CO2 Emissions"
+title: "Sustainability in Modern Piping Technology Systems"
 slug: "nachhaltigkeit-rohrsysteme"
 description: "How to measurably reduce the carbon footprint of your construction projects and achieve green building certificates (LEED, BREEAM) by using PP-RCT piping systems."
 date: "2024-05-10"

@@ -83,7 +83,7 @@ export default function Header() {
           <Link
             href="/"
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
-            aria-label={t('home')}
+            aria-label="K-Aqua Homepage"
           >
             <Logo height={48} />
           </Link>
