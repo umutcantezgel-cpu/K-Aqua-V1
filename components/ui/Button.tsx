@@ -1,6 +1,7 @@
 import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
+import { useLocale } from 'next-intl';
 
 import { Link } from "@/lib/i18n/navigation";
 
@@ -54,6 +55,7 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
     );
 
     const buttonClass = clsx(buttonVariants({ variant, size }), className);
+    const locale = useLocale();
 
     if (isLink) {
       const anchorProps = { ...props } as Record<string, unknown>;
@@ -78,6 +80,7 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
       return (
         <Link
           href={href}
+          locale={locale}
           className={buttonClass}
           {...(anchorProps as any)}
         >

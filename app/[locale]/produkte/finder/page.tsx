@@ -7,6 +7,7 @@ import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllProducts, getProductsIndex } from "@/lib/products";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -14,6 +15,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
   return constructMetadata({
@@ -60,6 +62,7 @@ export default async function FinderPage({ params }: Props) {
         <p>{finalTitle}</p>
         <p>{meta[1]}</p>
         <p>{t('catalogOverview') || "Katalogübersicht"}</p>
+        <p>Interaktiver Produktfinder für PP-R Rohre Keine PDF-Wüste. Sofort Daten. Katalog</p>
       </div>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={

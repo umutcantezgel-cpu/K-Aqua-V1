@@ -14,6 +14,7 @@ import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
 import { ArrowRight, Droplet, Shield, Thermometer, Factory, Layers, Flame, Wrench } from "@/components/ui/icon";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -21,6 +22,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "solutions.index" });
   return constructMetadata({
     title: t('meta.title'),

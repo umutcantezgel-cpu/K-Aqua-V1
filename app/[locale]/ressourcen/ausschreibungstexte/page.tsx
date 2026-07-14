@@ -10,9 +10,11 @@ import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte.meta' });
   return constructMetadata({
     title: t('title'),
@@ -197,7 +199,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/ressourcen/downloads">
                 {t('cta.btn1')}
               </Button>
-              <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
+              <Button variant="secondary" size="lg" href="/kontakt" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                 {t('cta.btn2')}
               </Button>
             </div>

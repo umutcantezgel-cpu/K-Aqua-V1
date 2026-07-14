@@ -12,9 +12,11 @@ import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 
 import { getTranslations } from "next-intl/server";
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "solutions.rechenzentrum" });
   return constructMetadata({
     title: t('meta.title'),

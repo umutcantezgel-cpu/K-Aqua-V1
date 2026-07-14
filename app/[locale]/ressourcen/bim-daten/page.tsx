@@ -14,9 +14,11 @@ import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources.bim' });
   
   return constructMetadata({

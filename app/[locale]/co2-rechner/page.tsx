@@ -13,6 +13,7 @@ import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { setRequestLocale } from 'next-intl/server';
 
 const Co2Calculator = dynamic(() => import("@/components/tools/Co2Calculator"), {
   loading: () => <div className="w-full h-[600px] animate-pulse bg-muted/50 border border-card-border rounded-xl"></div>,
@@ -28,6 +29,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("co2") as string[];
   return constructMetadata({

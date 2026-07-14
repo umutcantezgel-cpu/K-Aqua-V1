@@ -11,6 +11,7 @@ import { ChevronDown, ArrowRight } from "@/components/ui/icon";
 import { Card } from "@/components/ui/Card";
 import type { Metadata } from "next";
 import JsonLd from "@/components/seo/JsonLd";
+import { setRequestLocale } from 'next-intl/server';
 
 // 1. generateStaticParams to statically generate all 79 x 3 = 237 pages
 export async function generateStaticParams() {
@@ -41,6 +42,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, category, slug } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "catalogx" });
   
   const cat = CATALOG.find((c) => c.id === category);

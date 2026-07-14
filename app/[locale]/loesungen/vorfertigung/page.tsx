@@ -11,9 +11,11 @@ import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { ArrowRight } from '@/components/ui/icon';
 import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'solutions.vorfertigung' });
   return constructMetadata({
     title: t('meta.title'),
@@ -269,7 +271,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                   {t('cta.button1')}
                   <ArrowRight className="ms-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </Button>
-                <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
+                <Button variant="secondary" size="lg" href="/kontakt" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                   {t('cta.button2')}
                 </Button>
               </div>

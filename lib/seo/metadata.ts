@@ -68,14 +68,25 @@ export function constructMetadata({
 
   const isTranslated = translatedLocales.includes(locale);
 
+  const isNonDePlaceholder = locale !== 'de' && (
+    path.startsWith('/academy') ||
+    path.startsWith('/co2-rechner') ||
+    path.startsWith('/karriere') ||
+    path.startsWith('/maerkte')
+  );
+
+  const isGlobalNoIndex = path.startsWith('/referenzen');
+
   return {
     metadataBase: new URL(siteUrl),
     title: finalTitle,
     description,
-    robots: {
-      index: isTranslated,
-      follow: isTranslated,
-    },
+    ...(isNonDePlaceholder || isGlobalNoIndex ? { robots: { index: false, follow: false } } : {
+      robots: {
+        index: isTranslated,
+        follow: isTranslated,
+      },
+    }),
     alternates: {
       canonical: canonicalUrl,
       languages,

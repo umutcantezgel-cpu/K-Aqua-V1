@@ -142,32 +142,35 @@ export default function HeroScrolly() {
     { t: t('scrolly.3.t'), d: t('scrolly.3.d') },
   ];
 
-  const heroCopy = (
-    <div ref={copyRef} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
-      <Reveal delay={0.08}>
-        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
-          {t('h1a')}{' '}
-          <span className="text-primary">{t('h1b')}</span>
-        </h1>
-      </Reveal>
-      <Reveal delay={0.16}>
-        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-          <span className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')} </span>
-          {t('lead')}
-        </p>
-      </Reveal>
-      <Reveal delay={0.24}>
-        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
-          <ButtonPrimary href="/produkte" className="w-full sm:w-auto">
-            {t('ctaProducts')}
-          </ButtonPrimary>
-          <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
-            {t('ctaContact')}
-          </Button>
-        </div>
-      </Reveal>
-    </div>
-  );
+  const renderHeroCopy = (isH1: boolean = true) => {
+    const TitleTag = isH1 ? "h1" : "div";
+    return (
+      <div ref={isH1 ? copyRef : null} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
+        <Reveal delay={0.08}>
+          <TitleTag className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]" aria-hidden={!isH1 ? "true" : undefined}>
+            {t('h1a')}{' '}
+            <span className="text-primary">{t('h1b')}</span>
+          </TitleTag>
+        </Reveal>
+        <Reveal delay={0.16}>
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+            <span className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')} </span>
+            {t('lead')}
+          </p>
+        </Reveal>
+        <Reveal delay={0.24}>
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
+            <ButtonPrimary href="/produkte" className="w-full sm:w-auto">
+              {t('ctaProducts')}
+            </ButtonPrimary>
+            <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
+              {t('ctaContact')}
+            </Button>
+          </div>
+        </Reveal>
+      </div>
+    );
+  };
 
   const staticCardEls = cardsList.map((c, i) => {
     const Ic = cardIcons[i] || Droplet;
@@ -224,7 +227,7 @@ export default function HeroScrolly() {
         <section className="relative overflow-hidden bg-background">
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
-            {heroCopy}
+            {renderHeroCopy(true)}
             <div className="flex justify-center items-center w-full">
               <div className="w-full max-w-[580px] aspect-square relative">
                 {mounted && <Globe size={580} interactive={true} speed={0.004} markers={testMarkers} />}
@@ -246,7 +249,7 @@ export default function HeroScrolly() {
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
             <div ref={glowRef} className="k-scrolly-glow" aria-hidden="true" />
             <div className="mx-auto max-w-[1400px] px-6 h-full flex items-center relative z-10">
-              {heroCopy}
+              {renderHeroCopy(false)}
             </div>
             <div ref={globeWrapRef} className="k-scrolly-globe">
               {mounted && !staticMode && (

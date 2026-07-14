@@ -1,5 +1,5 @@
 ---
-title: "Alternative Pipe Cutter 1 1/4" (d50-d125)"
+title: "Alternative Pipe Cutter 1 1/4\" (d50-d125)"
 category: "Tools"
 slug: "tools/pipe-cutter-50-125-114"
 article_codes: ["AQ974"]

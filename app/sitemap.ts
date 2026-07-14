@@ -33,17 +33,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const route of staticRoutes) {
     for (const locale of locales) {
       const url = route === '' 
-        ? `${domain}/${locale}/` 
+        ? `${domain}/${locale}` 
         : `${domain}/${locale}/${route}`;
 
       const alternateLanguages: Record<string, string> = {};
       for (const loc of locales) {
         alternateLanguages[loc] = route === '' 
-          ? `${domain}/${loc}/` 
+          ? `${domain}/${loc}` 
           : `${domain}/${loc}/${route}`;
       }
       alternateLanguages['x-default'] = route === '' 
-        ? `${domain}/de/` 
+        ? `${domain}/de` 
         : `${domain}/de/${route}`;
 
       entries.push({

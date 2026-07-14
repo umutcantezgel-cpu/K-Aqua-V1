@@ -43,12 +43,12 @@ const nextConfig: NextConfig = {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [],
   },
+  outputFileTracingIncludes: {
+    '/[locale]/produkte/[category]/[slug]': ['./content/**/*'],
+    '/[locale]/produkte/[category]': ['./content/**/*'],
+    '/[locale]/produkte': ['./content/**/*'],
+  },
   experimental: {
-    outputFileTracingIncludes: {
-      '/[locale]/produkte/[category]/[slug]': ['./content/**/*'],
-      '/[locale]/produkte/[category]': ['./content/**/*'],
-      '/[locale]/produkte': ['./content/**/*'],
-    },
     optimizePackageImports: [
       'lucide-react', 
       'motion', 

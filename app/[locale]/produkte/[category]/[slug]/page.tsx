@@ -18,6 +18,7 @@ import ProductFAQ from '@/components/product/ProductFAQ';
 import ProductDownloads from '@/components/product/ProductDownloads';
 import ProductVideo from '@/components/product/ProductVideo';
 import LocalAvailability from '@/components/product/LocalAvailability';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateStaticParams() {
   const products = getAllProducts();
@@ -29,6 +30,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; category: string; slug: string }> }): Promise<Metadata> {
   const { category, slug, locale } = await params;
+  setRequestLocale(locale);
   const product = await getProductBySlug(category, slug);
 
   if (!product) {
@@ -38,16 +40,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const tSeo = await getTranslations({ locale, namespace: 'seo' });
   const seoCat = getDynamicSeoCategory(category);
   
-  const slugKey = `${category}_${slug}`.replace(/\//g, '_');
+  const tProd = await getTranslations({ locale, namespace: 'products' });
   const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
-  const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : product.title;
+  const slugKey = `${category}_${slug}`.replace(/\//g, '_');
+  const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : (product ? product.title : 'Product');
   
-  const title = `${localizedTitle} - K-Aqua`;
-  const description = `${tSeo.raw(seoCat)?.[0]?.desc || ''} - Article: ${Array.isArray(product.article_codes) ? product.article_codes.join(', ') : product.article_codes}`;
+  // SEO optimization: Keep title under 55 characters to avoid truncation warning
+  let displayTitle = localizedTitle;
+  if (displayTitle.length > 45) {
+    displayTitle = displayTitle.substring(0, 42) + '...';
+  }
 
   return constructMetadata({
-    title,
-    description,
+    title: `${displayTitle} | K-Aqua`,
+    description: tProd('heroDesc'),
     path: `/produkte/${category}/${slug}`,
     locale,
   });
@@ -219,6 +225,13 @@ export default async function ProductDetailPage({
                     {tProd('labels.technicalDescription')}
                   </h3>
                   <div className="prose dark:prose-invert text-muted-foreground leading-relaxed text-body">
+                    <div className="mb-6 p-5 bg-card border border-card-border rounded-xl">
+                      <p className="font-heading font-bold text-foreground mb-2 text-lg">{localizedTitle}</p>
+                      <ul className="text-sm text-muted-foreground space-y-2 m-0 p-0 list-none">
+                        <li className="m-0"><strong>Category:</strong> <span className="uppercase tracking-wider">{product.category}</span></li>
+                        <li className="m-0"><strong>{tProd('articleNumbers')}:</strong> <span className="font-mono">{codes}</span></li>
+                      </ul>
+                    </div>
                     <p>{dynamicSeoText}</p>
                   </div>
                 </div>

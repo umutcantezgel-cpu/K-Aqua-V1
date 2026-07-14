@@ -297,6 +297,15 @@ export default function MarketsHub({
               })}
             </div>
           </div>
+          
+          {/* SEO Hidden Links for Crawlers */}
+          <div className="sr-only">
+            {GEO_MARKETS.map(m => (
+              <Link key={`seo-${m.slug}`} href={`/maerkte/${m.slug}`}>
+                {m.city} ({m.country})
+              </Link>
+            ))}
+          </div>
 
         </div>
       </section>

@@ -21,6 +21,7 @@ import { CatalogBrowser } from "@/components/tools/CatalogBrowser";
 import { constructMetadata, getProductCatalogJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -28,6 +29,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const productsPageMeta = t.raw("products") as string[];
   const title = productsPageMeta[0] ?? "Produkte - K-Aqua";
@@ -89,11 +91,14 @@ export default async function ProduktePage({ params }: Props) {
     { year: t('timeline.items.4.year'), title: t('timeline.items.4.title'), text: t('timeline.items.4.text') },
   ];
 
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("products") as string[];
+
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
       <div className="sr-only">
-        <p>{t.raw('products')[0]}</p>
-        <p>{t.raw('products')[1]}</p>
+        <p>{meta[0]}</p>
+        <p>{meta[1]}</p>
       </div>
       <JsonLd schema={catalogJsonLd} />
       

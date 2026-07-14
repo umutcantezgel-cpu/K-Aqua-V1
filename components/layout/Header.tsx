@@ -138,7 +138,7 @@ export default function Header() {
           {/* Action bar (Unified Menu & Globe) */}
           <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 shrink-0">
             {/* Language Switcher — always visible */}
-            <Link href="/language" className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer">
+            <Link href="/language" aria-label={t('lang') || 'Language'} className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer">
               <Globe className="w-5 h-5 shrink-0" />
               <span className="text-small font-bold tracking-wider uppercase font-body select-none hidden sm:inline">
                 {locale.toUpperCase()}

@@ -173,7 +173,7 @@
     }
   },
   "home": {
-    "chip": "certified since October 2025",
+    "chip": "tested since October 2025",
     "h1a": "Leading in",
     "h1b": "Water Supply",
     "globeAria": "Interactive globe — drag to rotate",
@@ -187,7 +187,7 @@
         "d": "One complete system: five pressure ratings, fittings, valves and welding technology."
       },
       {
-        "t": "Triple certified",
+        "t": "Triple tested",
         "d": "ISO 9001, 14001 and 50001 — quality, environment and energy in one management system."
       },
       {
@@ -265,7 +265,7 @@
       {
         "n": "3×",
         "u": "ISO",
-        "l": "certified for quality, environment & energy"
+        "l": "tested for quality, environment & energy"
       },
       {
         "n": "100",
@@ -517,7 +517,7 @@
     "certsAndNorms": "Certificates & Standards",
     "approved": "Approved",
     "monitoring": "Quality Monitoring",
-    "certified": "Certified",
+    "certified": "tested",
     "quickLinks": "Quick Links",
     "calcCo2": "Calculate CO2 Savings",
     "backToFinder": "Back to Finder",
@@ -1956,7 +1956,7 @@
     "eyebrow": "Service",
     "title1": "Customer service &",
     "titleGrad": "know-how.",
-    "lead": "Technical documents for download and step-by-step videos for all welding methods.",
+    "lead": "Customer service & know-how. - Technical documents for download and step-by-step videos for all welding methods.",
     "dlEyebrow": "Downloads",
     "dlTitle": "Technical documents",
     "downloads": [
@@ -2029,7 +2029,7 @@
       "预防、持续的危害识别和风险评估",
       "每位员工都有义务报告危险并积极参与"
     ],
-    "certTitle": "Certified to standard",
+    "certTitle": "tested to standard",
     "certText": "Our lived GENAU management meets the requirements of DIN EN ISO 14001 and 50001 — extended by ISO 9001:2015 since October 2025.",
     "meta": {
       "title": "公司 | K-Aqua",
@@ -2153,6 +2153,19 @@
           "desc": "对于K-Aqua而言，可持续性不是营销口号，而是物理上的必须。耐久性就是终极的环境保护。从生产到回收，我们的系统最大限度地减少了能源足迹。"
         }
       ]
+    },
+    "genauManagement": {
+      "eyebrow": "认证质量",
+      "title1": "",
+      "titleHighlight": "GENAU",
+      "title2": " 管理系统",
+      "p1": "GENAU 管理系统的目标是持续改善公司内部的职业健康、环境保护和安全状况。",
+      "p2": "KWT 的所有企业活动都侧重于资源节约、环境兼容性并严格遵守所有义务。所应用的 GENAU 管理满足了以下标准的高要求：",
+      "p3": " 和 ",
+      "list1Title": "生态责任",
+      "list1Desc": "环境保护是我们对质量理解的一部分，KWT GmbH 的所有员工都致力于此。",
+      "list2Title": "能源效率",
+      "list2Desc": "有针对性地识别风险并实施优化能源效率的措施。"
     }
   },
   "news": {
@@ -2160,7 +2173,7 @@
     "title1": "Latest from",
     "titleGrad": "K-Aqua.",
     "date": "October 2025",
-    "h2": "We are triple ISO certified",
+    "h2": "We are triple ISO tested",
     "p": "Our ISO management system has been expanded and now covers quality, environmental and energy management:",
     "iso": [
       [
@@ -2179,7 +2192,8 @@
     "btnDe": "Certificate (DE)",
     "btnEn": "Certificate (EN)",
     "eventsTitle": "Trade fairs & events",
-    "eventsText": "Visit K-Aqua at upcoming events. No dates are currently announced — check back soon."
+    "eventsText": "Visit K-Aqua at upcoming events. No dates are currently announced — check back soon.",
+    "lead": "Latest from K-Aqua. - "
   },
   "career": {
     "eyebrow": "Careers",
@@ -2277,7 +2291,7 @@
     "locTitle": "Location Germany",
     "salesTitle": "Sales",
     "supportTitle": "Quality & technical support",
-    "supportText": "Our support team helps with technical questions around planning, material and processing."
+    "supportText": "Let’s talk about your project. - Our support team helps with technical questions around planning, material and processing."
   },
   "imprint": {
     "eyebrow": "Legal",
@@ -2391,7 +2405,7 @@
     "costOperation": "Operation (Heat)",
     "costMaintenance": "Instandhaltung",
     "costTotal": "Total",
-    "certTitle": "Certified LCA Engine.",
+    "certTitle": "tested LCA Engine.",
     "certDesc": "Use this PDF certificate as official proof for Green Building certifications (LEED, BREEAM) and public tenders.",
     "certBtn": "PDF Certificate Export",
     "generating": "Generating...",
@@ -3157,7 +3171,7 @@
     },
     "zuerich": {
       "regulator": "SVGW / TBDV",
-      "water": "Lake and spring water mix — Swiss hygiene requirements demand certified material neutrality.",
+      "water": "Lake and spring water mix — Swiss hygiene requirements demand tested material neutrality.",
       "focus": [
         "高价住宅建设",
         "银行与办公楼翻新",
@@ -4417,7 +4431,7 @@
       },
       {
         "y": "10/2025",
-        "t": "Triple ISO certified",
+        "t": "Triple ISO tested",
         "d": "ISO 9001, 14001 and 50001 in one step — DAkkS-accredited, valid until 10/2028."
       },
       {
@@ -4437,7 +4451,7 @@
       {
         "date": "October 2025",
         "tag": "Company",
-        "t": "Triple certified: ISO 9001, 14001 and 50001",
+        "t": "Triple tested: ISO 9001, 14001 and 50001",
         "teaser": "KWT GmbH’s ISO management system now covers quality, environment and energy — DAkkS-accredited.",
         "body": [
           "自2025年10月起，KWT GmbH的管理体系获得了三重认证：ISO 9001:2015质量管理体系认证、ISO 14001:2015环境管理体系认证以及ISO 50001:2018能源管理体系认证。这些证书由获得DAkkS认可的认证机构颁发，有效期至2028年10月。",
@@ -4884,7 +4898,7 @@
         "desc": "Perfectly matched to the entire K-Aqua product range. Guarantees smooth installation and maximum system security."
       },
       {
-        "title": "Certified Quality",
+        "title": "tested Quality",
         "desc": "Manufactured under strictest quality controls (ISO 9001/14001). Tested worldwide and approved for demanding projects."
       }
     ]
@@ -4983,12 +4997,137 @@
     "support": {
       "title": "技术支持",
       "metaDesc": "K-Aqua 技术支持 – 通过德国工程技术为全球大型项目提供无与伦比的安全性。",
-      "cta": "联系技术支持"
+      "seoText": {
+        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
+        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
+        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "预测性系统监控",
+            "desc": "我们的算法持续分析基础设施中的异常情况。在达到临界状态之前，我们的三线团队就会介入。对延迟零容忍。对故障零容忍。我们在错误发生之前采取行动。"
+          },
+          {
+            "title": "军事级响应速度",
+            "desc": "对我们来说，SLA 不是指导方针，而是物理定律。在发生紧急事件时，我们保证毫秒级的初始响应，并立即升级至专属高级工程师。没有排队等待，只有立即执行。"
+          },
+          {
+            "title": "架构审计",
+            "desc": "您的系统将根据最严格的德国工程标准接受测试。通过残酷的压力测试验证可扩展性、冗余和可靠性。漏洞将被消除，而不是被管理。"
+          },
+          {
+            "title": "直接开发者访问权限",
+            "desc": "忘记传统的支持模式吧。对于复杂的系统集成，您将直接与我们的核心开发人员沟通。没有一线客服的过滤，只有在源代码级别立即解决问题的、原始而纯粹的技术专长。"
+          }
+        ],
+        "eyebrow": "升级协议",
+        "title": "危机中的主导权",
+        "lead": "我们如何在极端负载条件下保持系统完整性。"
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "异常检测",
+            "text": "自动化系统在明显的故障发生很久之前，就能检测到数据流中的微小偏差。"
+          },
+          {
+            "year": "T+0:02",
+            "title": "诊断分类",
+            "text": "人工智能辅助的日志分析可以隔离错误向量。分配给完全匹配的专家集群。"
+          },
+          {
+            "year": "T+0:15",
+            "title": "介入",
+            "text": "应用热修复或自动将流量重新路由至冗余的高可用性节点。"
+          },
+          {
+            "year": "T+1:00",
+            "title": "根本原因分析",
+            "text": "对事件进行取证调查。修改核心架构以实现永久性预防。"
+          },
+          {
+            "year": "T+4:00",
+            "title": "事后总结报告",
+            "text": "带有加密签名的详细技术报告，确保绝对透明度和审计安全。"
+          }
+        ],
+        "title": "紧急情况：干预编年史",
+        "desc": "分秒必争。我们在发生严重系统异常时的标准化流程。冷静计算，无情执行。"
+      },
+      "hero": {
+        "eyebrow": "工程服务与支持",
+        "title1": "技术",
+        "title2": "优势。",
+        "desc": "没有任何妥协的余地。在系统维护和架构扩展方面做到绝对精确。我们的支持网络以冷静的工业权威运作，加固您的基础设施以抵御任何物理或数字威胁。",
+        "btnPrimary": "请求系统审计",
+        "btnGhost": "查看记录"
+      },
+      "intro": {
+        "title1": "基础设施不是一种服务。",
+        "title2": "它是物理基础。",
+        "p1": "我们不将IT支持视为后续流程，而是将其视为系统架构不可或缺的一部分。如果您的系统崩溃，生产就会停滞。这是不可接受的。",
+        "p2": "我们的工程师以外科手术般的精确度进行工作。分析每个日志文件，调查每个延迟峰值。我们构建自我修复的系统，并配备一支在监控仪表板亮红灯之前就会做出反应的支持团队。",
+        "p3": "欢迎体验德国高可用性标准。"
+      },
+      "bento": {
+        "eyebrow": "架构与咨询",
+        "title": "为永恒而建",
+        "lead": "我们的服务远远超出了传统的支持。我们以毫不妥协的工程技术设计、构建和加固您的核心基础设施。",
+        "items": [
+          {
+            "title": "零停机迁移",
+            "desc": "我们在旧系统和现代集群之间传输数PB的数据，停机时间为零。完美编排的数据流。"
+          },
+          {
+            "title": "硬件级优化",
+            "desc": "内核调优、内存分配优化和网络栈调整，以实现最大吞吐率。"
+          },
+          {
+            "title": "安全飞地",
+            "desc": "为您最敏感的企业数据构建隔离的、加密安全的子网。"
+          },
+          {
+            "title": "API和后端锻造",
+            "desc": "开发强大、受速率限制且性能极高的API，毫不费力地处理每秒数百万次请求。"
+          },
+          {
+            "title": "专属备用电源概念",
+            "desc": "物理和数字冗余计划。从数据中心故障转移到跨越三大洲的地理冗余。"
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "绝对可靠性",
+        "title1": "认证的",
+        "title2": "容错性。",
+        "p1": "我们按照德国工程学原理工作：构建的东西必须起作用。总是如此。在任何情况下。",
+        "p2": "我们的系统通过了ISO 27001认证，符合全球最严格的合规要求。对您的基础设施的每次干预都会经过审计、加密签名和不可更改的记录。",
+        "items": [
+          "99.999%保证的正常运行时间（基于SLA）",
+          "所有遥测数据的端到端加密",
+          "面向企业客户的专属TAM（技术客户经理）",
+          "独立红队的每月渗透测试"
+        ]
+      },
+      "cta": {
+        "title1": "准备好体验",
+        "title2": "毫不妥协的",
+        "title3": "稳定性了吗？",
+        "desc": "让我们的工程师对您的基础设施进行审计，他们不认为故障是运气不好，而是设计缺陷。",
+        "btnPrimary": "启动基础设施审计",
+        "btnGhost": "联系专家"
+      }
     },
     "downloads": {
       "title": "下载",
       "metaDesc": "K-Aqua 下载 – 通过德国工程技术为全球大型项目提供无与伦比的安全性。",
-      "cta": "前往下载",
+      "cta": {
+        "title": "Quality you can blindly trust.",
+        "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
+        "btn": "To the download portal"
+      },
       "meta": {
         "title": "下载 | K-Aqua",
         "desc": "K-Aqua下载中心 – 通过德国工程技术为全球大型项目提供毫不妥协的安全保障。"
@@ -5122,7 +5261,97 @@
     "bim": {
       "title": "BIM数据",
       "metaDesc": "K-Aqua BIM数据 – 通过德国工程技术为全球大型项目提供无与伦比的安全性。",
-      "cta": "请求BIM数据"
+      "sticky": {
+        "items": [
+          {
+            "title": "最大数据深度 (LOI 500)",
+            "desc": "我们的BIM模型不仅提供高精度的几何表示（LOD），更重要的是，它提供了无与伦比的信息深度（LOI）。每根管道、每个管件和每个阀门都包含所有关键的元数据：材料规格、压力等级、热膨胀系数以及用于自动化招标的确切产品编号。"
+          },
+          {
+            "title": "无碰撞规划",
+            "desc": "在数十亿级别的项目中，碰撞检测是不可妥协的。我们原生的Revit和IFC文件保证了无缝集成到您的Navisworks或Solibri中。精确的外径加上焊缝公差，可防止施工现场出现代价高昂的意外状况。"
+          },
+          {
+            "title": "参数化智能",
+            "desc": "K-Aqua BIM族是完全参数化的。它们能够动态适应管线布局、坡度和尺寸。集成的自动布管功能会根据DIN EN ISO 15874的严格规范自动选择正确的异径管和弯头角度。"
+          },
+          {
+            "title": "生命周期与设施管理",
+            "desc": "数字孪生不会在建筑移交时结束。我们的BIM对象兼容COBie，并为设施管理提供所有必要的维护周期、证书和运行数据，以确保超过50年的安全生命周期。"
+          }
+        ],
+        "eyebrow": "卓越的工作流程",
+        "title": "完美的数字孪生。",
+        "lead": "深入了解消除规划与现实之间差异的数据深度。"
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "第一阶段",
+            "title": "概念与机电工程规划",
+            "text": "在早期设计中集成K-Aqua基础几何图形。针对机电总体规划中的管线概念进行快速工程量计算和初步碰撞检查。"
+          },
+          {
+            "year": "第二阶段",
+            "title": "施工图设计",
+            "text": "过渡至LOI 400。精确的规格、流速和压力损失计算将直接融入建筑物的液压管网计算中。"
+          },
+          {
+            "year": "第三阶段",
+            "title": "招标与采购",
+            "text": "直接从模型中自动生成无错的物料清单 (BOM)。每个管件都附有 K-Aqua 产品编号和 VDI 3805 数据。"
+          },
+          {
+            "year": "第四阶段",
+            "title": "预制与组装",
+            "text": "导出用于工业预制的轴测图。精确到毫米的管道线轴图将现场的焊接工作降至最低。"
+          },
+          {
+            "year": "第五阶段",
+            "title": "竣工与运维",
+            "text": "交付竣工模型。该数字孪生在建筑物的整个生命周期中，作为设施管理的单一事实来源。"
+          }
+        ],
+        "title": "K-Aqua BIM 数据的生命周期",
+        "desc": "从最初的草图到数十年的运维。我们的数据在每个阶段为您的项目保驾护航。"
+      },
+      "hero": {
+        "desc": "该模块为全球要求最严苛的项目提供绝不妥协的安全性。按照最严格的行业标准制造，历久弥新。下载数字孪生，在这里，材料故障绝不是选项。",
+        "btnPrimary": "BIM 库 (Revit/IFC)",
+        "btnGhost": "请求 BIM 咨询"
+      },
+      "intro": {
+        "title1": "我们管道系统的 DNA。",
+        "title2": "现已上线云端。",
+        "p1": "我们并不将 BIM 仅仅视为 3D 图纸。对于 K-Aqua 而言，建筑信息模型是将我们毫不妥协的制造精度转移到数字空间中。当国际总承包商规划摩天大楼、数据中心或高安全性实验室时，他们需要的不是估算值——他们需要的是数据形式的物理现实。",
+        "p2": "我们的数据集是数十年德国工程艺术的结晶。每一个壁厚、每一种流体动力学和每一项热学特性，都经过我们工程师的验证，并原生转换为族文件。"
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "原生 Revit® 族",
+            "desc": "无转换损失。直接编程为 .rfa 和 .rvt，以实现最高性能和原生布管首选项。"
+          },
+          {
+            "title": "符合 VDI 3805 标准",
+            "desc": "标准化产品数据，确保在整个 MEP 链条中顺畅地交换数据。"
+          },
+          {
+            "title": "IFC4 认证",
+            "desc": "通过开放 BIM 标准 (OpenBIM) 实现最大互操作性。保证可在 ArchiCAD、Allplan 和 Vectorworks 中读取。"
+          },
+          {
+            "title": "精确的热学数据",
+            "desc": "集成了线性膨胀、导热系数 (0.24 W/mK) 和管道摩擦压降的计算模型。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "下载 K-Aqua BIM 软件包。",
+        "desc": "完全访问所有原生 Revit 族、IFC 文件和 VDI 3805 数据集。规划师和工程师免费使用。",
+        "btnPrimary": "前往下载中心",
+        "btnOutline": "联系 BIM 经理"
+      }
     },
     "common": {
       "eyebrow": "K-Aqua 资源",
@@ -5149,30 +5378,6 @@
       "meta": {
         "title": "招标文件 | K-Aqua",
         "desc": "K-Aqua 招标文件 —— 凭借德国工程技术，为全球大型项目提供毫不妥协的安全保障。"
-      },
-      "deepdive": {
-        "items": [
-          {
-            "title": "绝对的法律确定性 (VOB/C)",
-            "desc": "在国际大型项目的规划中，模棱两可是最大的敌人。在规格说明书中缺少一个词，就可能导致几十年免维护的系统与造成数百万损失的灾难之间的天壤之别。我们的招标文件严格按照 VOB/C 和 DIN 18381 标准精确制定。每一项性能描述都经过精准校准，从而彻底消除技术漏洞、解释空间和法律灰色地带。通过这种方式，我们保证您在图纸上规定的质量，完全等同于施工现场所安装的质量。"
-          },
-          {
-            "title": "100% 兼容 GAEB 和 ÖNORM 标准",
-            "desc": "现代规划流程需要无缝的数据流动。我们的数据集不仅仅是纯文本——它们是高度结构化的机器可读成果，专为立即集成到任何专业的 AVA 软件（招标、授标、结算）中而设计。我们提供原生格式（GAEB 90、GAEB 2000、GAEB DA XML）以及 Datanorm 和 ÖNORM 标准格式。零转换损失，无需人工后续修正。这种数字化工作流程不仅可将规划流程的效率提高达 40%，同时还能从根本上排除数据传输错误。"
-          },
-          {
-            "title": "材料规格：PPR-C (第 3 型)",
-            "desc": "水利基础设施是建筑的神经系统。我们的性能条款清晰无误地定义了我们无规共聚聚丙烯（PPR-C 第 3 型）的卓越分子结构。它们确定了蠕变强度、蠕变行为和热膨胀等关键参数。只有通过这种毫不妥协的细节深度，您才能有效保护您的项目免受劣质衍生品和危险仿制品的侵害，这些仿制品在 20 巴的峰值压力或温度波动下将不可避免地失效。"
-          },
-          {
-            "title": "热力学与声学精度",
-            "desc": "顶级建筑需要顶级的物理特性。专业的招标不仅涵盖裸露的管道系统，还包括整个物理生态系统。我们的文本包含根据《建筑能源法》(GEG) / EnEV 规定的热损失系数，以及严格的隔音标准 (DIN 4109) 的详细规范。这确保了您的系统不仅在机械上具有极高的承载能力，而且在热力学上高效运作，并在声学上达到了绝对的顶级标准（静音标准）。"
-          },
-          {
-            "title": "可持续性指标 (ESG & LEED)",
-            "desc": "建筑的未来是循环且优化二氧化碳排放的。如今的招标必须提供绿色标准的证明。K-Aqua 的文本集成了完整的环境产品声明 (EPD) 和生命周期分析。我们精确定义了挤出过程中的生态足迹、可回收性和能源效率。非常适合需要通过 DGNB、LEED、BREEAM 或 WELL 认证的建筑。请明确指定绿色性能，而不仅仅是绿色承诺。"
-          }
-        ]
       },
       "timeline": {
         "items": [
@@ -5284,6 +5489,30 @@
         "desc": "访问我们完整且不断更新的招标文件库。保证无错误、符合标准，并随时准备在您的下一个国际超大型项目中使用。",
         "btn1": "前往下载门户",
         "btn2": "申请规划咨询"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "绝对的法律确定性 (VOB/C)",
+            "desc": "在国际大型项目的规划中，模棱两可是最大的敌人。在规格说明书中缺少一个词，就可能导致几十年免维护的系统与造成数百万损失的灾难之间的天壤之别。我们的招标文件严格按照 VOB/C 和 DIN 18381 标准精确制定。每一项性能描述都经过精准校准，从而彻底消除技术漏洞、解释空间和法律灰色地带。通过这种方式，我们保证您在图纸上规定的质量，完全等同于施工现场所安装的质量。"
+          },
+          {
+            "title": "100% 兼容 GAEB 和 ÖNORM 标准",
+            "desc": "现代规划流程需要无缝的数据流动。我们的数据集不仅仅是纯文本——它们是高度结构化的机器可读成果，专为立即集成到任何专业的 AVA 软件（招标、授标、结算）中而设计。我们提供原生格式（GAEB 90、GAEB 2000、GAEB DA XML）以及 Datanorm 和 ÖNORM 标准格式。零转换损失，无需人工后续修正。这种数字化工作流程不仅可将规划流程的效率提高达 40%，同时还能从根本上排除数据传输错误。"
+          },
+          {
+            "title": "材料规格：PPR-C (第 3 型)",
+            "desc": "水利基础设施是建筑的神经系统。我们的性能条款清晰无误地定义了我们无规共聚聚丙烯（PPR-C 第 3 型）的卓越分子结构。它们确定了蠕变强度、蠕变行为和热膨胀等关键参数。只有通过这种毫不妥协的细节深度，您才能有效保护您的项目免受劣质衍生品和危险仿制品的侵害，这些仿制品在 20 巴的峰值压力或温度波动下将不可避免地失效。"
+          },
+          {
+            "title": "热力学与声学精度",
+            "desc": "顶级建筑需要顶级的物理特性。专业的招标不仅涵盖裸露的管道系统，还包括整个物理生态系统。我们的文本包含根据《建筑能源法》(GEG) / EnEV 规定的热损失系数，以及严格的隔音标准 (DIN 4109) 的详细规范。这确保了您的系统不仅在机械上具有极高的承载能力，而且在热力学上高效运作，并在声学上达到了绝对的顶级标准（静音标准）。"
+          },
+          {
+            "title": "可持续性指标 (ESG & LEED)",
+            "desc": "建筑的未来是循环且优化二氧化碳排放的。如今的招标必须提供绿色标准的证明。K-Aqua 的文本集成了完整的环境产品声明 (EPD) 和生命周期分析。我们精确定义了挤出过程中的生态足迹、可回收性和能源效率。非常适合需要通过 DGNB、LEED、BREEAM 或 WELL 认证的建筑。请明确指定绿色性能，而不仅仅是绿色承诺。"
+          }
+        ]
       }
     }
   },
@@ -5709,216 +5938,120 @@
       "btn": "发起联系"
     }
   },
-  "bim": {
-    "sticky": {
-      "items": [
-        {
-          "title": "最大数据深度 (LOI 500)",
-          "desc": "我们的BIM模型不仅提供高精度的几何表示（LOD），更重要的是，它提供了无与伦比的信息深度（LOI）。每根管道、每个管件和每个阀门都包含所有关键的元数据：材料规格、压力等级、热膨胀系数以及用于自动化招标的确切产品编号。"
-        },
-        {
-          "title": "无碰撞规划",
-          "desc": "在数十亿级别的项目中，碰撞检测是不可妥协的。我们原生的Revit和IFC文件保证了无缝集成到您的Navisworks或Solibri中。精确的外径加上焊缝公差，可防止施工现场出现代价高昂的意外状况。"
-        },
-        {
-          "title": "参数化智能",
-          "desc": "K-Aqua BIM族是完全参数化的。它们能够动态适应管线布局、坡度和尺寸。集成的自动布管功能会根据DIN EN ISO 15874的严格规范自动选择正确的异径管和弯头角度。"
-        },
-        {
-          "title": "生命周期与设施管理",
-          "desc": "数字孪生不会在建筑移交时结束。我们的BIM对象兼容COBie，并为设施管理提供所有必要的维护周期、证书和运行数据，以确保超过50年的安全生命周期。"
-        }
-      ],
-      "eyebrow": "卓越的工作流程",
-      "title": "完美的数字孪生。",
-      "lead": "深入了解消除规划与现实之间差异的数据深度。"
-    },
-    "timeline": {
-      "items": [
-        {
-          "year": "第一阶段",
-          "title": "概念与机电工程规划",
-          "text": "在早期设计中集成K-Aqua基础几何图形。针对机电总体规划中的管线概念进行快速工程量计算和初步碰撞检查。"
-        },
-        {
-          "year": "第二阶段",
-          "title": "施工图设计",
-          "text": "过渡至LOI 400。精确的规格、流速和压力损失计算将直接融入建筑物的液压管网计算中。"
-        },
-        {
-          "year": "第三阶段",
-          "title": "招标与采购",
-          "text": "直接从模型中自动生成无错的物料清单 (BOM)。每个管件都附有 K-Aqua 产品编号和 VDI 3805 数据。"
-        },
-        {
-          "year": "第四阶段",
-          "title": "预制与组装",
-          "text": "导出用于工业预制的轴测图。精确到毫米的管道线轴图将现场的焊接工作降至最低。"
-        },
-        {
-          "year": "第五阶段",
-          "title": "竣工与运维",
-          "text": "交付竣工模型。该数字孪生在建筑物的整个生命周期中，作为设施管理的单一事实来源。"
-        }
-      ],
-      "title": "K-Aqua BIM 数据的生命周期",
-      "desc": "从最初的草图到数十年的运维。我们的数据在每个阶段为您的项目保驾护航。"
-    },
-    "hero": {
-      "desc": "该模块为全球要求最严苛的项目提供绝不妥协的安全性。按照最严格的行业标准制造，历久弥新。下载数字孪生，在这里，材料故障绝不是选项。",
-      "btnPrimary": "BIM 库 (Revit/IFC)",
-      "btnGhost": "请求 BIM 咨询"
-    },
-    "intro": {
-      "title1": "我们管道系统的 DNA。",
-      "title2": "现已上线云端。",
-      "p1": "我们并不将 BIM 仅仅视为 3D 图纸。对于 K-Aqua 而言，建筑信息模型是将我们毫不妥协的制造精度转移到数字空间中。当国际总承包商规划摩天大楼、数据中心或高安全性实验室时，他们需要的不是估算值——他们需要的是数据形式的物理现实。",
-      "p2": "我们的数据集是数十年德国工程艺术的结晶。每一个壁厚、每一种流体动力学和每一项热学特性，都经过我们工程师的验证，并原生转换为族文件。"
-    },
-    "bento": {
-      "items": [
-        {
-          "title": "原生 Revit® 族",
-          "desc": "无转换损失。直接编程为 .rfa 和 .rvt，以实现最高性能和原生布管首选项。"
-        },
-        {
-          "title": "符合 VDI 3805 标准",
-          "desc": "标准化产品数据，确保在整个 MEP 链条中顺畅地交换数据。"
-        },
-        {
-          "title": "IFC4 认证",
-          "desc": "通过开放 BIM 标准 (OpenBIM) 实现最大互操作性。保证可在 ArchiCAD、Allplan 和 Vectorworks 中读取。"
-        },
-        {
-          "title": "精确的热学数据",
-          "desc": "集成了线性膨胀、导热系数 (0.24 W/mK) 和管道摩擦压降的计算模型。"
-        }
-      ]
-    },
-    "cta": {
-      "title": "下载 K-Aqua BIM 软件包。",
-      "desc": "完全访问所有原生 Revit 族、IFC 文件和 VDI 3805 数据集。规划师和工程师免费使用。",
-      "btnPrimary": "前往下载中心",
-      "btnOutline": "联系 BIM 经理"
-    }
+  "productNames": {
+    "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "PP-R Pipe Plug",
+    "fittings_cap": "PP-R End Cap",
+    "fittings_cross-over-pipe": "PP-R Crossover Pipe Component",
+    "fittings_cross-over": "PP-R Pipe Crossover",
+    "fittings_cross": "PP-R Cross Fitting",
+    "fittings_elbow-45-female-male": "PP-R Street Elbow 45° (F/M)",
+    "fittings_elbow-45": "PP-R Standard Elbow 45°",
+    "fittings_elbow-90-female-male": "PP-R Street Elbow 90° (F/M)",
+    "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+    "fittings_reducing-tee": "Reducing Tee",
+    "fittings_socket": "PP-R Pipe Socket",
+    "fittings_tee": "PP-R Tee Fitting",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PP-RCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
+    "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Heavy-Duty Pipe Cutter d50-d125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Socket Welding Machine d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool for Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
+    "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
+    "transition-fittings_metal-union-male-thread": "Metal Union with PP-R Nut (Male Thread)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_union-for-watermeters": "Union for Watermeters",
+    "transition-fittings_union": "PP-R Pipe Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+    "valves_battery-female-thread": "Battery (Female Thread)",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome — Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome — Light Part",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
+    "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
+    "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Upper Part)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
   },
-  "support": {
-    "sticky": {
-      "items": [
-        {
-          "title": "预测性系统监控",
-          "desc": "我们的算法持续分析基础设施中的异常情况。在达到临界状态之前，我们的三线团队就会介入。对延迟零容忍。对故障零容忍。我们在错误发生之前采取行动。"
-        },
-        {
-          "title": "军事级响应速度",
-          "desc": "对我们来说，SLA 不是指导方针，而是物理定律。在发生紧急事件时，我们保证毫秒级的初始响应，并立即升级至专属高级工程师。没有排队等待，只有立即执行。"
-        },
-        {
-          "title": "架构审计",
-          "desc": "您的系统将根据最严格的德国工程标准接受测试。通过残酷的压力测试验证可扩展性、冗余和可靠性。漏洞将被消除，而不是被管理。"
-        },
-        {
-          "title": "直接开发者访问权限",
-          "desc": "忘记传统的支持模式吧。对于复杂的系统集成，您将直接与我们的核心开发人员沟通。没有一线客服的过滤，只有在源代码级别立即解决问题的、原始而纯粹的技术专长。"
-        }
-      ],
-      "eyebrow": "升级协议",
-      "title": "危机中的主导权",
-      "lead": "我们如何在极端负载条件下保持系统完整性。"
+  "customerReviews": {
+    "eyebrow": "Quality that Connects",
+    "title": "What our Customers and Partners Say",
+    "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
+    "trustBadge": "Google Reviews",
+    "trustStars": "4.9 / 5",
+    "trustBasedOn": "(Based on 44 reviews)",
+    "tabA": "Quality & Made in Germany",
+    "tabB": "Logistics & Delivery",
+    "tabC": "Service & People",
+    "reviews": {
+      "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+      "a3Author": "Ewald S.",
+      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+      "a4Author": "Kais S.",
+      "a5": "“**High-quality products** and a top German factory.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+      "b1Author": "Michael S.",
+      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "“**Fast unloading**, friendly and helpful staff.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1Author": "Daniel",
+      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3Author": "Azim",
+      "c4": "“**Great company**, does a lot for its people.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“The employees are **very friendly and helpful**.”",
+      "c5Author": "Piera V."
     },
-    "timeline": {
-      "items": [
-        {
-          "year": "T-0:00",
-          "title": "异常检测",
-          "text": "自动化系统在明显的故障发生很久之前，就能检测到数据流中的微小偏差。"
-        },
-        {
-          "year": "T+0:02",
-          "title": "诊断分类",
-          "text": "人工智能辅助的日志分析可以隔离错误向量。分配给完全匹配的专家集群。"
-        },
-        {
-          "year": "T+0:15",
-          "title": "介入",
-          "text": "应用热修复或自动将流量重新路由至冗余的高可用性节点。"
-        },
-        {
-          "year": "T+1:00",
-          "title": "根本原因分析",
-          "text": "对事件进行取证调查。修改核心架构以实现永久性预防。"
-        },
-        {
-          "year": "T+4:00",
-          "title": "事后总结报告",
-          "text": "带有加密签名的详细技术报告，确保绝对透明度和审计安全。"
-        }
-      ],
-      "title": "紧急情况：干预编年史",
-      "desc": "分秒必争。我们在发生严重系统异常时的标准化流程。冷静计算，无情执行。"
-    },
-    "hero": {
-      "eyebrow": "工程服务与支持",
-      "title1": "技术",
-      "title2": "优势。",
-      "desc": "没有任何妥协的余地。在系统维护和架构扩展方面做到绝对精确。我们的支持网络以冷静的工业权威运作，加固您的基础设施以抵御任何物理或数字威胁。",
-      "btnPrimary": "请求系统审计",
-      "btnGhost": "查看记录"
-    },
-    "intro": {
-      "title1": "基础设施不是一种服务。",
-      "title2": "它是物理基础。",
-      "p1": "我们不将IT支持视为后续流程，而是将其视为系统架构不可或缺的一部分。如果您的系统崩溃，生产就会停滞。这是不可接受的。",
-      "p2": "我们的工程师以外科手术般的精确度进行工作。分析每个日志文件，调查每个延迟峰值。我们构建自我修复的系统，并配备一支在监控仪表板亮红灯之前就会做出反应的支持团队。",
-      "p3": "欢迎体验德国高可用性标准。"
-    },
-    "bento": {
-      "eyebrow": "架构与咨询",
-      "title": "为永恒而建",
-      "lead": "我们的服务远远超出了传统的支持。我们以毫不妥协的工程技术设计、构建和加固您的核心基础设施。",
-      "items": [
-        {
-          "title": "零停机迁移",
-          "desc": "我们在旧系统和现代集群之间传输数PB的数据，停机时间为零。完美编排的数据流。"
-        },
-        {
-          "title": "硬件级优化",
-          "desc": "内核调优、内存分配优化和网络栈调整，以实现最大吞吐率。"
-        },
-        {
-          "title": "安全飞地",
-          "desc": "为您最敏感的企业数据构建隔离的、加密安全的子网。"
-        },
-        {
-          "title": "API和后端锻造",
-          "desc": "开发强大、受速率限制且性能极高的API，毫不费力地处理每秒数百万次请求。"
-        },
-        {
-          "title": "专属备用电源概念",
-          "desc": "物理和数字冗余计划。从数据中心故障转移到跨越三大洲的地理冗余。"
-        }
-      ]
-    },
-    "metrics": {
-      "badge": "绝对可靠性",
-      "title1": "认证的",
-      "title2": "容错性。",
-      "p1": "我们按照德国工程学原理工作：构建的东西必须起作用。总是如此。在任何情况下。",
-      "p2": "我们的系统通过了ISO 27001认证，符合全球最严格的合规要求。对您的基础设施的每次干预都会经过审计、加密签名和不可更改的记录。",
-      "items": [
-        "99.999%保证的正常运行时间（基于SLA）",
-        "所有遥测数据的端到端加密",
-        "面向企业客户的专属TAM（技术客户经理）",
-        "独立红队的每月渗透测试"
-      ]
-    },
-    "cta": {
-      "title1": "准备好体验",
-      "title2": "毫不妥协的",
-      "title3": "稳定性了吗？",
-      "desc": "让我们的工程师对您的基础设施进行审计，他们不认为故障是运气不好，而是设计缺陷。",
-      "btnPrimary": "启动基础设施审计",
-      "btnGhost": "联系专家"
-    }
+    "ctaTitle": "Convince yourself of our service.",
+    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
+    "ctaBtn": "Get in touch now",
+    "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   }
 }

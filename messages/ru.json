@@ -265,7 +265,7 @@
       {
         "n": "3×",
         "u": "ISO",
-        "l": "certified for quality, environment & energy"
+        "l": "tested for quality, environment & energy"
       },
       {
         "n": "100",
@@ -483,7 +483,7 @@
         "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
         "advTitle": "Perfekte Systemergänzung",
         "advList": [
-          "Zertifizierte Qualität: Entspricht dem ISO 9001 Managementsystem.",
+          "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
           "Systemkompatibilität: Perfekt auf das K-Aqua Rohrsystem abgestimmt.",
           "Langlebigkeit: Robuste Materialien für den rauen Baustellenalltag.",
           "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
@@ -1173,7 +1173,7 @@
           },
           {
             "year": "Phase 04",
-            "title": "Inbetriebnahme & Zertifizierung",
+            "title": "Inbetriebnahme & Prüfung",
             "text": "Vollständige hydrostatische Druckprüfung und thermische Initialdesinfektion. Die Übergabe an den Generalunternehmer erfolgt mit einer lückenlosen, digitalen Dokumentation jeder einzelnen Schweißnaht."
           },
           {
@@ -1222,7 +1222,7 @@
             "badge": "Seismic Grade"
           },
           {
-            "title": "Zertifizierte Trinkwassergüte",
+            "title": "geprüfte Trinkwassergüte",
             "desc": "Erfüllt und übertrifft die weltweit strengsten Normen (DIN, DVGW, SKZ, WRAS) für den Transport von Reinstwasser und hochsensiblen klinischen Medien."
           }
         ]
@@ -1498,7 +1498,7 @@
       "bento": {
         "eyebrow": "Technische Überlegenheit",
         "title": "Die DNA unserer Systeme.",
-        "lead": "Zertifiziert nach DIN EN ISO 15874. Konzipiert für die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.",
+        "lead": "geprüft nach DIN EN ISO 15874. Konzipiert für die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.",
         "items": [
           {
             "title": "PPR-C (Typ 3) Material",
@@ -1522,7 +1522,7 @@
         "title1": "Die Ästhetik der",
         "title2": "Stoffschlüssigkeit.",
         "p1": "Betrachten Sie die Schweißnaht eines K-Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.",
-        "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer zertifizierten Kunststoffschweißer. Jeder Parameter – Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit – wird pedantisch überwacht.",
+        "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer geprüften Kunststoffschweißer. Jeder Parameter – Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit – wird pedantisch überwacht.",
         "p3": "Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.",
         "items": [
           "Präzisionsfräsen der Rohrenden",
@@ -1552,7 +1552,7 @@
           },
           {
             "title": "Phase 4: QA & Druckprüfung",
-            "desc": "Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und zertifiziert.",
+            "desc": "Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und geprüft.",
             "date": "Woche 6"
           },
           {
@@ -1956,7 +1956,7 @@
     "eyebrow": "Сервис",
     "title1": "Поддержка клиентов и",
     "titleGrad": "ноу-хау.",
-    "lead": "Техническая документация для скачивания и пошаговые видеоруководства по всем методам сварки.",
+    "lead": "Поддержка клиентов и ноу-хау. - Техническая документация для скачивания и пошаговые видеоруководства по всем методам сварки.",
     "dlEyebrow": "Загрузки",
     "dlTitle": "Техническая документация",
     "downloads": [
@@ -2153,6 +2153,19 @@
           "desc": "Устойчивое развитие для K-Aqua — это не маркетинговый лозунг, а физический императив. Долговечность — лучшая защита окружающей среды. Наши системы минимизируют энергетический след от производства до переработки."
         }
       ]
+    },
+    "genauManagement": {
+      "eyebrow": "Сертифицированное качество",
+      "title1": "Система менеджмента ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "Целью системы менеджмента GENAU является постоянное улучшение охраны труда, защиты окружающей среды и безопасности в компании.",
+      "p2": "Вся корпоративная деятельность KWT осуществляется с упором на ресурсосбережение, экологическую совместимость и строгое соблюдение всех обязательств. Применяемая система управления GENAU отвечает высоким требованиям стандартов ",
+      "p3": " и ",
+      "list1Title": "Экологическая ответственность",
+      "list1Desc": "Защита окружающей среды является частью нашего понимания качества, к которому стремятся все сотрудники KWT GmbH.",
+      "list2Title": "Энергоэффективность",
+      "list2Desc": "Целенаправленное выявление рисков и реализация мер по оптимизации энергоэффективности."
     }
   },
   "news": {
@@ -2179,7 +2192,8 @@
     "btnDe": "Сертификат (DE)",
     "btnEn": "Сертификат (EN)",
     "eventsTitle": "Выставки и события",
-    "eventsText": "Посетите стенд K-Aqua на предстоящих мероприятиях. В настоящее время подтвержденных дат нет — загляните сюда чуть позже."
+    "eventsText": "Посетите стенд K-Aqua на предстоящих мероприятиях. В настоящее время подтвержденных дат нет — загляните сюда чуть позже.",
+    "lead": "Последнее от K-Aqua. - "
   },
   "career": {
     "eyebrow": "Careers",
@@ -2277,7 +2291,7 @@
     "locTitle": "Наш офис в Германии",
     "salesTitle": "Sales",
     "supportTitle": "Качество и техническая поддержка",
-    "supportText": "Наша служба поддержки помогает с техническими вопросами по планированию, материалам и обработке."
+    "supportText": "Давайте обсудим ваш project. - Наша служба поддержки помогает с техническими вопросами по планированию, материалам и обработке."
   },
   "imprint": {
     "eyebrow": "Legal",
@@ -2620,7 +2634,7 @@
           },
           {
             "title": "Modul Delta: Das finale K-Aqua Audit",
-            "desc": "Zertifizierung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z.B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K-Aqua Zertifikat."
+            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z.B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K-Aqua Zertifikat."
           }
         ]
       },
@@ -2891,7 +2905,7 @@
           },
           {
             "year": "ISO 15874",
-            "title": "Globale Zertifizierung",
+            "title": "Globale Prüfung",
             "text": "Das internationale Gütesiegel für Kunststoff-Rohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
           },
           {
@@ -3612,7 +3626,7 @@
       [
         "ISO 9001 / 14001 / 50001",
         "Management systems",
-        "Quality, environment and energy — triple certified since October 2025, DAkkS-accredited."
+        "Quality, environment and energy — triple tested since October 2025, DAkkS-accredited."
       ],
       [
         "GENAU",
@@ -4417,7 +4431,7 @@
       },
       {
         "y": "10/2025",
-        "t": "Triple ISO certified",
+        "t": "Triple ISO tested",
         "d": "ISO 9001, 14001 and 50001 in one step — DAkkS-accredited, valid until 10/2028."
       },
       {
@@ -4437,10 +4451,10 @@
       {
         "date": "October 2025",
         "tag": "Company",
-        "t": "Triple certified: ISO 9001, 14001 and 50001",
+        "t": "Triple tested: ISO 9001, 14001 and 50001",
         "teaser": "KWT GmbH’s ISO management system now covers quality, environment and energy — DAkkS-accredited.",
         "body": [
-          "Since October 2025, KWT GmbH’s management system is triple certified: ISO 9001:2015 for quality, ISO 14001:2015 for environment and ISO 50001:2018 for energy. The certificates are issued by a DAkkS-accredited certification body and are valid until October 2028.",
+          "Since October 2025, KWT GmbH’s management system is triple tested: ISO 9001:2015 for quality, ISO 14001:2015 for environment and ISO 50001:2018 for energy. The certificates are issued by a DAkkS-accredited certification body and are valid until October 2028.",
           "For procurement and compliance this means documented, auditable processes from extruder to dispatch. The lived GENAU management system already met the requirements of DIN EN ISO 14001 and 50001 — certification makes it externally robust.",
           "Both certificate versions (DE/EN) are available for download; bundle the full audit package in the Trust Center."
         ]
@@ -4983,12 +4997,137 @@
     "support": {
       "title": "Техническая поддержка",
       "metaDesc": "Техническая поддержка K-Aqua – Безупречная безопасность благодаря немецкой инженерии для глобальных мегапроектов.",
-      "cta": "Связаться со службой поддержки"
+      "seoText": {
+        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
+        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
+        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Prädiktive Systemüberwachung",
+            "desc": "Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht."
+          },
+          {
+            "title": "Militärische Reaktionszeiten",
+            "desc": "Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution."
+          },
+          {
+            "title": "Architektur-Audits",
+            "desc": "Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet."
+          },
+          {
+            "title": "Direkter Entwickler-Zugang",
+            "desc": "Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene."
+          }
+        ],
+        "eyebrow": "Eskalations-Protokolle",
+        "title": "Souveränität in der Krise",
+        "lead": "Wie wir Systemintegrität unter extremen Last-Bedingungen aufrechterhalten."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomalie-Erkennung",
+            "text": "Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostische Triage",
+            "text": "KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Intervention",
+            "text": "Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Root-Cause-Analyse",
+            "text": "Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem-Protokoll",
+            "text": "Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit."
+          }
+        ],
+        "title": "Der Ernstfall: Chronik einer Intervention",
+        "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
+      },
+      "hero": {
+        "eyebrow": "Ingenieurs-Dienstleistungen & Support",
+        "title1": "Technologische",
+        "title2": "Überlegenheit.",
+        "desc": "Kein Raum für Kompromisse. Absolute Präzision in der Systemwartung und architekturellen Skalierung. Unser Support-Netzwerk operiert mit eiskalter, industrieller Autorität, um Ihre Infrastruktur gegen jede physikalische oder digitale Bedrohung abzuhärten.",
+        "btnPrimary": "System-Audit anfordern",
+        "btnGhost": "Protokolle einsehen"
+      },
+      "intro": {
+        "title1": "Infrastruktur ist kein Service.",
+        "title2": "Es ist ein physikalisches Fundament.",
+        "p1": "Wir betrachten IT-Support nicht als nachgelagerten Prozess, sondern als integralen Bestandteil der Systemarchitektur. Wenn Ihre Systeme ausfallen, steht die Produktion still. Das ist inakzeptabel.",
+        "p2": "Unsere Ingenieure arbeiten mit chirurgischer Präzision. Jedes Log-File wird analysiert, jede Latenz-Spitze untersucht. Wir bauen Systeme, die sich selbst heilen, und flankieren sie mit einem Support-Team, das reagiert, bevor Ihre Monitoring-Dashboards überhaupt rot aufleuchten.",
+        "p3": "Willkommen beim deutschen Standard für Hochverfügbarkeit."
+      },
+      "bento": {
+        "eyebrow": "Architektur & Consulting",
+        "title": "Konstruiert für die Ewigkeit",
+        "lead": "Unsere Dienstleistungen gehen weit über klassischen Support hinaus. Wir entwerfen, bauen und härten Ihre Kerninfrastruktur mit kompromissloser Ingenieurskunst.",
+        "items": [
+          {
+            "title": "Zero-Downtime Migrationen",
+            "desc": "Wir transferieren Petabytes an Daten zwischen Legacy-Systemen und modernen Clustern ohne eine einzige Millisekunde Ausfallzeit. Perfekt choreografierte Datenströme."
+          },
+          {
+            "title": "Hardware-Level Optimierung",
+            "desc": "Kernel-Tuning, Speicher-Allokations-Optimierung und Netzwerk-Stack-Anpassungen für maximale Durchsatzraten."
+          },
+          {
+            "title": "Sicherheits-Enklaven",
+            "desc": "Aufbau isolierter, kryptographisch gesicherter Subnetzwerke für Ihre sensibelsten Unternehmensdaten."
+          },
+          {
+            "title": "API- & Backend-Schmiede",
+            "desc": "Entwicklung robuster, ratenlimitierter und extrem performanter APIs, die Millionen von Requests pro Sekunde mühelos verarbeiten."
+          },
+          {
+            "title": "Dedizierte Notstrom-Konzepte",
+            "desc": "Physische und digitale Redundanz-Pläne. Vom Rechenzentrums-Failover bis zur Geo-Redundanz über drei Kontinente."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Absolute Verlässlichkeit",
+        "title1": "geprüfte",
+        "title2": "Ausfallsicherheit.",
+        "p1": "Wir arbeiten nach den Prinzipien der deutschen Ingenieurskunst: Was gebaut wird, muss funktionieren. Immer. Unter allen Umständen.",
+        "p2": "Unsere Systeme sind nach ISO 27001 geprüft und erfüllen die strengsten Compliance-Vorgaben weltweit. Jeder Eingriff in Ihre Infrastruktur wird auditiert, kryptographisch signiert und unveränderlich protokolliert.",
+        "items": [
+          "99.999% garantierte Uptime (SLA-gestützt)",
+          "End-to-End Verschlüsselung aller Telemetrie-Daten",
+          "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
+          "Monatliche Penetrationstests durch unabhängige Red-Teams"
+        ]
+      },
+      "cta": {
+        "title1": "Bereit für",
+        "title2": "kompromisslose",
+        "title3": "Stabilität?",
+        "desc": "Lassen Sie Ihre Infrastruktur von Ingenieuren auditieren, die Ausfälle nicht als Pech, sondern als Design-Fehler betrachten.",
+        "btnPrimary": "Infrastruktur-Audit initiieren",
+        "btnGhost": "Experten kontaktieren"
+      }
     },
     "downloads": {
       "title": "Загрузки",
       "metaDesc": "Загрузки K-Aqua – Безупречная безопасность благодаря немецкой инженерии для глобальных мегапроектов.",
-      "cta": "Перейти к загрузкам",
+      "cta": {
+        "title": "Quality you can blindly trust.",
+        "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
+        "btn": "To the download portal"
+      },
       "meta": {
         "title": "Загрузки | K-Aqua",
         "desc": "K-Aqua Downloads – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
@@ -5012,7 +5151,7 @@
           },
           {
             "year": "2008",
-            "title": "ISO-Zertifizierung & Globale Normen",
+            "title": "ISO-Prüfung & Globale Normen",
             "text": "Mit der internationalen Expansion wurden unsere technischen Datenblätter an weltweite Normen angepasst, immer mit der Prämisse: Der deutsche Standard ist die absolute Baseline, keine Ausnahme."
           },
           {
@@ -5045,7 +5184,7 @@
             "desc": "Fließgeschwindigkeiten, Druckverlusttabellen, Kavitationsgrenzen. Unsere Dokumente bieten Strömungsmechanik auf akademischem Niveau, aufbereitet für die sofortige Anwendung in der Praxis. Geplant für Hochhäuser, in denen Wasser gegen extreme Schwerkraft transportiert werden muss."
           },
           {
-            "title": "Zertifiziert. Weltweit.",
+            "title": "geprüft. Weltweit.",
             "desc": "SKZ, DVGW, WRAS, KIWA – unsere Download-Sektion ist ein Tresor globaler Gütesiegel. Jedes Zertifikat ist der schriftliche Beweis unserer kompromisslosen Null-Fehler-Politik."
           }
         ]
@@ -5122,7 +5261,97 @@
     "bim": {
       "title": "BIM-данные",
       "metaDesc": "BIM-данные K-Aqua – Безупречная безопасность благодаря немецкой инженерии для глобальных мегапроектов.",
-      "cta": "Запросить BIM-данные"
+      "sticky": {
+        "items": [
+          {
+            "title": "Максимальная глубина данных (LOI 500)",
+            "desc": "Наши BIM-модели предлагают не только высокоточное геометрическое представление (LOD), но, прежде всего, непревзойденную глубину информации (LOI). Каждая труба, фитинг и арматура содержат все критические метаданные: спецификации материалов, классы давления, коэффициенты теплового расширения и точные артикулы для автоматизированных тендеров."
+          },
+          {
+            "title": "Проектирование без коллизий",
+            "desc": "В проектах стоимостью в миллиарды обнаружение коллизий (Clash Detection) не подлежит обсуждению. Наши нативные файлы Revit и IFC гарантируют беспрепятственную интеграцию в Navisworks или Solibri. Точные внешние диаметры, включая допуски на сварные швы, предотвращают дорогостоящие сюрпризы на строительной площадке."
+          },
+          {
+            "title": "Параметрический интеллект",
+            "desc": "Семейства BIM от K-Aqua полностью параметрические. Они динамически адаптируются к прокладке труб, уклонам и размерам. Встроенная автотрассировка автоматически выбирает правильные переходы и углы изгиба в соответствии со строгими требованиями DIN EN ISO 15874."
+          },
+          {
+            "title": "Жизненный цикл и Facility Management",
+            "desc": "Жизнь цифрового двойника не заканчивается после сдачи здания. Наши BIM-объекты совместимы с COBie и предоставляют службе эксплуатации (Facility Management) все необходимые интервалы технического обслуживания, сертификаты и эксплуатационные данные для обеспечения безопасного срока службы более 50 лет."
+          }
+        ],
+        "eyebrow": "Эффективность рабочего процесса",
+        "title": "Цифровые двойники в совершенстве.",
+        "lead": "Взгляд на глубину данных, стирающую грань между проектом и реальностью."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Концепция и проектирование инженерных систем (TGA)",
+            "text": "Интеграция базовой геометрии K-Aqua на ранних этапах проектирования. Быстрый расчет объемов и первоначальная проверка на коллизии для концепции трасс в генеральном плане TGA."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Рабочее проектирование",
+            "text": "Переход на LOI 400. Точные спецификации, скорости потока и расчеты потерь давления напрямую интегрируются в гидравлический расчет сети здания."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Тендер и закупки",
+            "text": "Автоматизированная генерация безошибочных спецификаций (BOM) прямо из модели. К каждому фитингу привязан артикул K-Aqua и данные VDI 3805."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Предварительная сборка и монтаж",
+            "text": "Экспорт изометрических чертежей для заводской предварительной сборки. Чертежи узлов (Spool Drawings) с точностью до миллиметра сводят сварочные работы на строительной площадке к абсолютному минимуму."
+          },
+          {
+            "year": "Phase 5",
+            "title": "Исполнительная документация (As-Built) и эксплуатация",
+            "text": "Передача As-Built модели. Цифровой двойник служит единым источником достоверной информации (Single Source of Truth) для Facility Management на протяжении всего срока службы здания."
+          }
+        ],
+        "title": "Жизненный цикл данных K-Aqua BIM",
+        "desc": "От первых эскизов до десятилетий эксплуатации. Наши данные сопровождают ваш проект на каждом этапе."
+      },
+      "hero": {
+        "desc": "Этот модуль обеспечивает бескомпромиссную безопасность для самых сложных проектов по всему миру. Спроектировано по самым строгим промышленным стандартам, чтобы прослужить поколениям. Загрузите цифрового двойника там, где сбой материала недопустим.",
+        "btnPrimary": "Библиотека BIM (Revit/IFC)",
+        "btnGhost": "Запросить BIM-консалтинг"
+      },
+      "intro": {
+        "title1": "ДНК наших трубопроводных систем.",
+        "title2": "Теперь в облаке.",
+        "p1": "Для нас BIM — это не просто 3D-чертеж. Для K-Aqua Building Information Modeling — это перенос нашей бескомпромиссной производственной точности в цифровое пространство. Когда международные генподрядчики проектируют небоскребы, центры обработки данных или лаборатории строгого режима, им нужны не оценочные значения, им нужна физическая реальность в виде данных.",
+        "p2": "Наши наборы данных — результат десятилетий немецкого инженерного искусства. Каждая толщина стенки, каждая характеристика динамики потока и каждое тепловое свойство были подтверждены нашими инженерами и изначально встроены в семейства."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Нативные семейства Revit®",
+            "desc": "Никаких потерь при конвертации. Запрограммировано непосредственно в форматах .rfa и .rvt для максимальной производительности и нативных настроек маршрутизации."
+          },
+          {
+            "title": "Соответствие VDI 3805",
+            "desc": "Стандартизированные данные о продукции для беспрепятственного обмена информацией на протяжении всей цепочки TGA."
+          },
+          {
+            "title": "Сертификация IFC4",
+            "desc": "Максимальная совместимость за счет открытых стандартов BIM (OpenBIM). Гарантированно читается в ArchiCAD, Allplan и Vectorworks."
+          },
+          {
+            "title": "Точные тепловые данные",
+            "desc": "Интегрированные модели расчета линейного расширения, теплопроводности (0.24 Вт/мК) и падения давления на трение в трубах."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Скачать BIM-пакет K-Aqua.",
+        "desc": "Полный доступ ко всем нативным семействам Revit, файлам IFC и наборам данных VDI 3805. Бесплатно для проектировщиков и инженеров.",
+        "btnPrimary": "В Центр загрузок",
+        "btnOutline": "Связаться с BIM-менеджером"
+      }
     },
     "common": {
       "eyebrow": "РЕСУРС K-Aqua",
@@ -5149,30 +5378,6 @@
       "meta": {
         "title": "Тендерная документация | K-Aqua",
         "desc": "Тендерная документация K-Aqua – бескомпромиссная безопасность благодаря немецкому инженерному искусству для глобальных мегапроектов."
-      },
-      "deepdive": {
-        "items": [
-          {
-            "title": "Абсолютная юридическая безопасность (VOB/C)",
-            "desc": "В планировании международных мегапроектов двусмысленность — это враг. Одно недостающее слово в техническом задании может стать разницей между десятилетиями работы системы без обслуживания и катастрофическим многомиллионным ущербом. Наши тендерные тексты стандартизированы с точностью до миллиметра в соответствии с VOB/C и DIN 18381. Каждое описание спецификации выверено так, чтобы полностью исключить технические лазейки, возможности для двоякого толкования и юридические «серые зоны». Таким образом, мы гарантируем, что качество, которое вы указываете на бумаге, — это в точности то качество, которое будет установлено на строительной площадке."
-          },
-          {
-            "title": "100% совместимость с GAEB и ÖNORM",
-            "desc": "Современный процесс проектирования требует бесперебойного потока данных. Наши наборы данных — это не просто текст, это высокоструктурированные, машиночитаемые артефакты, разработанные для мгновенной интеграции в любое профессиональное программное обеспечение AVA (тендеры, присуждение контрактов, выставление счетов). Мы предоставляем нативные форматы (GAEB 90, GAEB 2000, GAEB DA XML), а также Datanorm и ÖNORM. Никаких потерь при конвертации. Никакой ручной доработки. Цифровой рабочий процесс, который повышает эффективность планирования до 40% и одновременно математически исключает ошибки при передаче данных."
-          },
-          {
-            "title": "Спецификация материала: PPR-C (Тип 3)",
-            "desc": "Водная инфраструктура — это нервная система здания. Наши позиции спецификации четко и недвусмысленно определяют превосходную молекулярную структуру нашего полипропилена рандом-сополимера (PPR-C Тип 3). Они фиксируют такие решающие параметры, как длительная прочность, характеристики ползучести и термическое линейное расширение. Только благодаря такой бескомпромиссной детализации вы надежно защищаете свой проект от некачественных производных и опасных подделок, которые неизбежно вышли бы из строя при пиковом давлении в 20 бар или перепадах температур."
-          },
-          {
-            "title": "Термодинамическая и акустическая точность",
-            "desc": "Архитектура премиум-класса требует физики премиум-класса. Профессиональный тендер охватывает не только саму систему трубопроводов, но и всю физическую экосистему. Наши тексты содержат подробные спецификации коэффициентов теплопотерь в соответствии с Законом об энергетике зданий (GEG) / EnEV, а также строгие требования к звукоизоляции (DIN 4109). Это гарантирует, что ваша система будет не только экстремально устойчива к механическим воздействиям, но также будет высокоэффективна с точки зрения термодинамики и будет работать акустически в абсолютном премиум-сегменте («стандарт шепота»)."
-          },
-          {
-            "title": "Метрики устойчивого развития (ESG и LEED)",
-            "desc": "Будущее строительства — за цикличной экономикой и оптимизацией выбросов CO2. Сегодня тендеры должны подтверждать соответствие зеленым стандартам. Тексты K-Aqua объединяют полные EPD (экологические декларации продукции) и анализы жизненного цикла. Мы определяем точный углеродный след, возможность вторичной переработки и энергоэффективность экструзии. Идеально подходит для зданий, подлежащих сертификации по стандартам DGNB, LEED, BREEAM или WELL. Указывайте в спецификациях реальные экологические показатели, а не просто зеленые обещания."
-          }
-        ]
       },
       "timeline": {
         "items": [
@@ -5284,6 +5489,30 @@
         "desc": "Получите доступ к нашей полной, постоянно обновляемой библиотеке тендерных текстов. Гарантированно безошибочные, соответствующие стандартам и готовые к использованию в вашем следующем международном мегапроекте.",
         "btn1": "Перейти на портал загрузок",
         "btn2": "Запросить консультацию по проектированию"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Абсолютная юридическая безопасность (VOB/C)",
+            "desc": "В планировании международных мегапроектов двусмысленность — это враг. Одно недостающее слово в техническом задании может стать разницей между десятилетиями работы системы без обслуживания и катастрофическим многомиллионным ущербом. Наши тендерные тексты стандартизированы с точностью до миллиметра в соответствии с VOB/C и DIN 18381. Каждое описание спецификации выверено так, чтобы полностью исключить технические лазейки, возможности для двоякого толкования и юридические «серые зоны». Таким образом, мы гарантируем, что качество, которое вы указываете на бумаге, — это в точности то качество, которое будет установлено на строительной площадке."
+          },
+          {
+            "title": "100% совместимость с GAEB и ÖNORM",
+            "desc": "Современный процесс проектирования требует бесперебойного потока данных. Наши наборы данных — это не просто текст, это высокоструктурированные, машиночитаемые артефакты, разработанные для мгновенной интеграции в любое профессиональное программное обеспечение AVA (тендеры, присуждение контрактов, выставление счетов). Мы предоставляем нативные форматы (GAEB 90, GAEB 2000, GAEB DA XML), а также Datanorm и ÖNORM. Никаких потерь при конвертации. Никакой ручной доработки. Цифровой рабочий процесс, который повышает эффективность планирования до 40% и одновременно математически исключает ошибки при передаче данных."
+          },
+          {
+            "title": "Спецификация материала: PPR-C (Тип 3)",
+            "desc": "Водная инфраструктура — это нервная система здания. Наши позиции спецификации четко и недвусмысленно определяют превосходную молекулярную структуру нашего полипропилена рандом-сополимера (PPR-C Тип 3). Они фиксируют такие решающие параметры, как длительная прочность, характеристики ползучести и термическое линейное расширение. Только благодаря такой бескомпромиссной детализации вы надежно защищаете свой проект от некачественных производных и опасных подделок, которые неизбежно вышли бы из строя при пиковом давлении в 20 бар или перепадах температур."
+          },
+          {
+            "title": "Термодинамическая и акустическая точность",
+            "desc": "Архитектура премиум-класса требует физики премиум-класса. Профессиональный тендер охватывает не только саму систему трубопроводов, но и всю физическую экосистему. Наши тексты содержат подробные спецификации коэффициентов теплопотерь в соответствии с Законом об энергетике зданий (GEG) / EnEV, а также строгие требования к звукоизоляции (DIN 4109). Это гарантирует, что ваша система будет не только экстремально устойчива к механическим воздействиям, но также будет высокоэффективна с точки зрения термодинамики и будет работать акустически в абсолютном премиум-сегменте («стандарт шепота»)."
+          },
+          {
+            "title": "Метрики устойчивого развития (ESG и LEED)",
+            "desc": "Будущее строительства — за цикличной экономикой и оптимизацией выбросов CO2. Сегодня тендеры должны подтверждать соответствие зеленым стандартам. Тексты K-Aqua объединяют полные EPD (экологические декларации продукции) и анализы жизненного цикла. Мы определяем точный углеродный след, возможность вторичной переработки и энергоэффективность экструзии. Идеально подходит для зданий, подлежащих сертификации по стандартам DGNB, LEED, BREEAM или WELL. Указывайте в спецификациях реальные экологические показатели, а не просто зеленые обещания."
+          }
+        ]
       }
     }
   },
@@ -5646,8 +5875,8 @@
           "desc": "Unsere koextrudierten Isolationsschichten basieren auf geschlossenzelliger Polyurethan-Technologie. Der Wärmedurchgangskoeffizient (U-Wert) wird auf ein theoretisches Minimum reduziert. Energieverlust ist keine Variable mehr in der Berechnung Ihrer Anlagen – er wird durch unsere Systemarchitektur im Keim erstickt. Absolute thermische Kontrolle."
         },
         {
-          "title": "Zertifizierte Sterilität",
-          "desc": "In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-zertifiziert, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene."
+          "title": "geprüfte Sterilität",
+          "desc": "In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-geprüft, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene."
         },
         {
           "title": "Zerstörungsfreie Prüfung (NDT)",
@@ -5697,7 +5926,7 @@
     },
     "grid": {
       "badge": "Publikationen",
-      "title1": "Zertifiziertes",
+      "title1": "geprüftes",
       "title2": "Wissen",
       "desc": "Zugriff auf tiefgreifende technische Artikel, Whitepaper und systemarchitektonische Analysen. Verifizierte Daten für Ingenieure und Planer.",
       "read": "Read"
@@ -5709,216 +5938,120 @@
       "btn": "Kontakt Initiieren"
     }
   },
-  "bim": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Максимальная глубина данных (LOI 500)",
-          "desc": "Наши BIM-модели предлагают не только высокоточное геометрическое представление (LOD), но, прежде всего, непревзойденную глубину информации (LOI). Каждая труба, фитинг и арматура содержат все критические метаданные: спецификации материалов, классы давления, коэффициенты теплового расширения и точные артикулы для автоматизированных тендеров."
-        },
-        {
-          "title": "Проектирование без коллизий",
-          "desc": "В проектах стоимостью в миллиарды обнаружение коллизий (Clash Detection) не подлежит обсуждению. Наши нативные файлы Revit и IFC гарантируют беспрепятственную интеграцию в Navisworks или Solibri. Точные внешние диаметры, включая допуски на сварные швы, предотвращают дорогостоящие сюрпризы на строительной площадке."
-        },
-        {
-          "title": "Параметрический интеллект",
-          "desc": "Семейства BIM от K-Aqua полностью параметрические. Они динамически адаптируются к прокладке труб, уклонам и размерам. Встроенная автотрассировка автоматически выбирает правильные переходы и углы изгиба в соответствии со строгими требованиями DIN EN ISO 15874."
-        },
-        {
-          "title": "Жизненный цикл и Facility Management",
-          "desc": "Жизнь цифрового двойника не заканчивается после сдачи здания. Наши BIM-объекты совместимы с COBie и предоставляют службе эксплуатации (Facility Management) все необходимые интервалы технического обслуживания, сертификаты и эксплуатационные данные для обеспечения безопасного срока службы более 50 лет."
-        }
-      ],
-      "eyebrow": "Эффективность рабочего процесса",
-      "title": "Цифровые двойники в совершенстве.",
-      "lead": "Взгляд на глубину данных, стирающую грань между проектом и реальностью."
-    },
-    "timeline": {
-      "items": [
-        {
-          "year": "Phase 1",
-          "title": "Концепция и проектирование инженерных систем (TGA)",
-          "text": "Интеграция базовой геометрии K-Aqua на ранних этапах проектирования. Быстрый расчет объемов и первоначальная проверка на коллизии для концепции трасс в генеральном плане TGA."
-        },
-        {
-          "year": "Phase 2",
-          "title": "Рабочее проектирование",
-          "text": "Переход на LOI 400. Точные спецификации, скорости потока и расчеты потерь давления напрямую интегрируются в гидравлический расчет сети здания."
-        },
-        {
-          "year": "Phase 3",
-          "title": "Тендер и закупки",
-          "text": "Автоматизированная генерация безошибочных спецификаций (BOM) прямо из модели. К каждому фитингу привязан артикул K-Aqua и данные VDI 3805."
-        },
-        {
-          "year": "Phase 4",
-          "title": "Предварительная сборка и монтаж",
-          "text": "Экспорт изометрических чертежей для заводской предварительной сборки. Чертежи узлов (Spool Drawings) с точностью до миллиметра сводят сварочные работы на строительной площадке к абсолютному минимуму."
-        },
-        {
-          "year": "Phase 5",
-          "title": "Исполнительная документация (As-Built) и эксплуатация",
-          "text": "Передача As-Built модели. Цифровой двойник служит единым источником достоверной информации (Single Source of Truth) для Facility Management на протяжении всего срока службы здания."
-        }
-      ],
-      "title": "Жизненный цикл данных K-Aqua BIM",
-      "desc": "От первых эскизов до десятилетий эксплуатации. Наши данные сопровождают ваш проект на каждом этапе."
-    },
-    "hero": {
-      "desc": "Этот модуль обеспечивает бескомпромиссную безопасность для самых сложных проектов по всему миру. Спроектировано по самым строгим промышленным стандартам, чтобы прослужить поколениям. Загрузите цифрового двойника там, где сбой материала недопустим.",
-      "btnPrimary": "Библиотека BIM (Revit/IFC)",
-      "btnGhost": "Запросить BIM-консалтинг"
-    },
-    "intro": {
-      "title1": "ДНК наших трубопроводных систем.",
-      "title2": "Теперь в облаке.",
-      "p1": "Для нас BIM — это не просто 3D-чертеж. Для K-Aqua Building Information Modeling — это перенос нашей бескомпромиссной производственной точности в цифровое пространство. Когда международные генподрядчики проектируют небоскребы, центры обработки данных или лаборатории строгого режима, им нужны не оценочные значения, им нужна физическая реальность в виде данных.",
-      "p2": "Наши наборы данных — результат десятилетий немецкого инженерного искусства. Каждая толщина стенки, каждая характеристика динамики потока и каждое тепловое свойство были подтверждены нашими инженерами и изначально встроены в семейства."
-    },
-    "bento": {
-      "items": [
-        {
-          "title": "Нативные семейства Revit®",
-          "desc": "Никаких потерь при конвертации. Запрограммировано непосредственно в форматах .rfa и .rvt для максимальной производительности и нативных настроек маршрутизации."
-        },
-        {
-          "title": "Соответствие VDI 3805",
-          "desc": "Стандартизированные данные о продукции для беспрепятственного обмена информацией на протяжении всей цепочки TGA."
-        },
-        {
-          "title": "Сертификация IFC4",
-          "desc": "Максимальная совместимость за счет открытых стандартов BIM (OpenBIM). Гарантированно читается в ArchiCAD, Allplan и Vectorworks."
-        },
-        {
-          "title": "Точные тепловые данные",
-          "desc": "Интегрированные модели расчета линейного расширения, теплопроводности (0.24 Вт/мК) и падения давления на трение в трубах."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Скачать BIM-пакет K-Aqua.",
-      "desc": "Полный доступ ко всем нативным семействам Revit, файлам IFC и наборам данных VDI 3805. Бесплатно для проектировщиков и инженеров.",
-      "btnPrimary": "В Центр загрузок",
-      "btnOutline": "Связаться с BIM-менеджером"
-    }
+  "productNames": {
+    "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "PP-R Pipe Plug",
+    "fittings_cap": "PP-R End Cap",
+    "fittings_cross-over-pipe": "PP-R Crossover Pipe Component",
+    "fittings_cross-over": "PP-R Pipe Crossover",
+    "fittings_cross": "PP-R Cross Fitting",
+    "fittings_elbow-45-female-male": "PP-R Street Elbow 45° (F/M)",
+    "fittings_elbow-45": "PP-R Standard Elbow 45°",
+    "fittings_elbow-90-female-male": "PP-R Street Elbow 90° (F/M)",
+    "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+    "fittings_reducing-tee": "Reducing Tee",
+    "fittings_socket": "PP-R Pipe Socket",
+    "fittings_tee": "PP-R Tee Fitting",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PP-RCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
+    "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Heavy-Duty Pipe Cutter d50-d125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Socket Welding Machine d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool for Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
+    "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
+    "transition-fittings_metal-union-male-thread": "Metal Union with PP-R Nut (Male Thread)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_union-for-watermeters": "Union for Watermeters",
+    "transition-fittings_union": "PP-R Pipe Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+    "valves_battery-female-thread": "Battery (Female Thread)",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome — Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome — Light Part",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
+    "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
+    "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Upper Part)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
   },
-  "support": {
-    "sticky": {
-      "items": [
-        {
-          "title": "Prädiktive Systemüberwachung",
-          "desc": "Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht."
-        },
-        {
-          "title": "Militärische Reaktionszeiten",
-          "desc": "Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution."
-        },
-        {
-          "title": "Architektur-Audits",
-          "desc": "Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet."
-        },
-        {
-          "title": "Direkter Entwickler-Zugang",
-          "desc": "Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene."
-        }
-      ],
-      "eyebrow": "Eskalations-Protokolle",
-      "title": "Souveränität in der Krise",
-      "lead": "Wie wir Systemintegrität unter extremen Last-Bedingungen aufrechterhalten."
+  "customerReviews": {
+    "eyebrow": "Quality that Connects",
+    "title": "What our Customers and Partners Say",
+    "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
+    "trustBadge": "Google Reviews",
+    "trustStars": "4.9 / 5",
+    "trustBasedOn": "(Based on 44 reviews)",
+    "tabA": "Quality & Made in Germany",
+    "tabB": "Logistics & Delivery",
+    "tabC": "Service & People",
+    "reviews": {
+      "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+      "a3Author": "Ewald S.",
+      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+      "a4Author": "Kais S.",
+      "a5": "“**High-quality products** and a top German factory.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+      "b1Author": "Michael S.",
+      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "“**Fast unloading**, friendly and helpful staff.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1Author": "Daniel",
+      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3Author": "Azim",
+      "c4": "“**Great company**, does a lot for its people.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“The employees are **very friendly and helpful**.”",
+      "c5Author": "Piera V."
     },
-    "timeline": {
-      "items": [
-        {
-          "year": "T-0:00",
-          "title": "Anomalie-Erkennung",
-          "text": "Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall."
-        },
-        {
-          "year": "T+0:02",
-          "title": "Diagnostische Triage",
-          "text": "KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster."
-        },
-        {
-          "year": "T+0:15",
-          "title": "Intervention",
-          "text": "Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten."
-        },
-        {
-          "year": "T+1:00",
-          "title": "Root-Cause-Analyse",
-          "text": "Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention."
-        },
-        {
-          "year": "T+4:00",
-          "title": "Post-Mortem-Protokoll",
-          "text": "Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit."
-        }
-      ],
-      "title": "Der Ernstfall: Chronik einer Intervention",
-      "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
-    },
-    "hero": {
-      "eyebrow": "Ingenieurs-Dienstleistungen & Support",
-      "title1": "Technologische",
-      "title2": "Überlegenheit.",
-      "desc": "Kein Raum für Kompromisse. Absolute Präzision in der Systemwartung und architekturellen Skalierung. Unser Support-Netzwerk operiert mit eiskalter, industrieller Autorität, um Ihre Infrastruktur gegen jede physikalische oder digitale Bedrohung abzuhärten.",
-      "btnPrimary": "System-Audit anfordern",
-      "btnGhost": "Protokolle einsehen"
-    },
-    "intro": {
-      "title1": "Infrastruktur ist kein Service.",
-      "title2": "Es ist ein physikalisches Fundament.",
-      "p1": "Wir betrachten IT-Support nicht als nachgelagerten Prozess, sondern als integralen Bestandteil der Systemarchitektur. Wenn Ihre Systeme ausfallen, steht die Produktion still. Das ist inakzeptabel.",
-      "p2": "Unsere Ingenieure arbeiten mit chirurgischer Präzision. Jedes Log-File wird analysiert, jede Latenz-Spitze untersucht. Wir bauen Systeme, die sich selbst heilen, und flankieren sie mit einem Support-Team, das reagiert, bevor Ihre Monitoring-Dashboards überhaupt rot aufleuchten.",
-      "p3": "Willkommen beim deutschen Standard für Hochverfügbarkeit."
-    },
-    "bento": {
-      "eyebrow": "Architektur & Consulting",
-      "title": "Konstruiert für die Ewigkeit",
-      "lead": "Unsere Dienstleistungen gehen weit über klassischen Support hinaus. Wir entwerfen, bauen und härten Ihre Kerninfrastruktur mit kompromissloser Ingenieurskunst.",
-      "items": [
-        {
-          "title": "Zero-Downtime Migrationen",
-          "desc": "Wir transferieren Petabytes an Daten zwischen Legacy-Systemen und modernen Clustern ohne eine einzige Millisekunde Ausfallzeit. Perfekt choreografierte Datenströme."
-        },
-        {
-          "title": "Hardware-Level Optimierung",
-          "desc": "Kernel-Tuning, Speicher-Allokations-Optimierung und Netzwerk-Stack-Anpassungen für maximale Durchsatzraten."
-        },
-        {
-          "title": "Sicherheits-Enklaven",
-          "desc": "Aufbau isolierter, kryptographisch gesicherter Subnetzwerke für Ihre sensibelsten Unternehmensdaten."
-        },
-        {
-          "title": "API- & Backend-Schmiede",
-          "desc": "Entwicklung robuster, ratenlimitierter und extrem performanter APIs, die Millionen von Requests pro Sekunde mühelos verarbeiten."
-        },
-        {
-          "title": "Dedizierte Notstrom-Konzepte",
-          "desc": "Physische und digitale Redundanz-Pläne. Vom Rechenzentrums-Failover bis zur Geo-Redundanz über drei Kontinente."
-        }
-      ]
-    },
-    "metrics": {
-      "badge": "Absolute Verlässlichkeit",
-      "title1": "Zertifizierte",
-      "title2": "Ausfallsicherheit.",
-      "p1": "Wir arbeiten nach den Prinzipien der deutschen Ingenieurskunst: Was gebaut wird, muss funktionieren. Immer. Unter allen Umständen.",
-      "p2": "Unsere Systeme sind nach ISO 27001 zertifiziert und erfüllen die strengsten Compliance-Vorgaben weltweit. Jeder Eingriff in Ihre Infrastruktur wird auditiert, kryptographisch signiert und unveränderlich protokolliert.",
-      "items": [
-        "99.999% garantierte Uptime (SLA-gestützt)",
-        "End-to-End Verschlüsselung aller Telemetrie-Daten",
-        "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
-        "Monatliche Penetrationstests durch unabhängige Red-Teams"
-      ]
-    },
-    "cta": {
-      "title1": "Bereit für",
-      "title2": "kompromisslose",
-      "title3": "Stabilität?",
-      "desc": "Lassen Sie Ihre Infrastruktur von Ingenieuren auditieren, die Ausfälle nicht als Pech, sondern als Design-Fehler betrachten.",
-      "btnPrimary": "Infrastruktur-Audit initiieren",
-      "btnGhost": "Experten kontaktieren"
-    }
+    "ctaTitle": "Convince yourself of our service.",
+    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
+    "ctaBtn": "Get in touch now",
+    "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   }
 }
