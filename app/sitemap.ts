@@ -108,31 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // 4. Dynamic catalog routes (all 79 catalog items * 3 locales)
-  for (const cat of CATALOG) {
-    for (const item of cat.items) {
-      const route = `produkte/katalog/${cat.id}/${item.slug}`;
-      for (const locale of locales) {
-        const url = `${domain}/${locale}/${route}`;
 
-        const alternateLanguages: Record<string, string> = {};
-        for (const loc of locales) {
-          alternateLanguages[loc] = `${domain}/${loc}/${route}`;
-        }
-        alternateLanguages['x-default'] = `${domain}/de/${route}`;
-
-        entries.push({
-          url,
-          lastModified: new Date(),
-          changeFrequency: 'yearly',
-          priority: 0.6,
-          alternates: {
-            languages: alternateLanguages,
-          },
-        });
-      }
-    }
-  }
 
   return entries;
 }
