@@ -58,6 +58,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${item.title} | ${catLabel} | K-Aqua`,
     description: `${item.title} (${item.codes}). ${catMeta?.desc || ""}`,
+    robots: {
+      index: false,
+      follow: false,
+    },
   };
 }
 
@@ -92,9 +96,28 @@ export default async function CatalogDetailPage({ params }: Props) {
     })),
   };
 
+  const schemas: any[] = [jsonLd];
+  if (t.has(`items.${item.slug}.faq`)) {
+    const faqs = t.raw(`items.${item.slug}.faq`) as Array<{q: string; a: string}>;
+    if (Array.isArray(faqs) && faqs.length > 0) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map(faq => ({
+          "@type": "Question",
+          name: faq.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.a
+          }
+        }))
+      });
+    }
+  }
+
   return (
     <div className="flex w-full flex-col min-h-screen bg-background">
-      <JsonLd schema={jsonLd} />
+      <JsonLd schema={schemas} />
       
       {/* Breadcrumb & Header */}
       <section className="pt-32 pb-12 bg-background-subtle">
@@ -165,6 +188,36 @@ export default async function CatalogDetailPage({ params }: Props) {
                 rows={item.rows} 
                 note={locale === "de" ? item.note : undefined}
               />
+
+              {/* SEO Content Section */}
+              <article className="mt-12 space-y-6 text-base text-muted-foreground leading-relaxed">
+                {t.has(`items.${item.slug}.seo_p1`) && (
+                  <p>{t(`items.${item.slug}.seo_p1`)}</p>
+                )}
+                {t.has(`items.${item.slug}.seo_p2`) && (
+                  <p>{t(`items.${item.slug}.seo_p2`)}</p>
+                )}
+                {t.has(`items.${item.slug}.seo_p3`) && (
+                  <p>{t(`items.${item.slug}.seo_p3`)}</p>
+                )}
+              </article>
+
+              {/* FAQ Section */}
+              {t.has(`items.${item.slug}.faq`) && (
+                <div className="mt-16">
+                  <h2 className="text-2xl font-heading font-bold text-foreground mb-6">
+                    {t.has("faqTitle") ? t("faqTitle") : "Häufig gestellte Fragen"}
+                  </h2>
+                  <div className="space-y-4">
+                    {(t.raw(`items.${item.slug}.faq`) as Array<{q: string; a: string}>).map((faq, idx) => (
+                      <div key={idx} className="p-6 bg-background-subtle rounded-xl border border-card-border">
+                        <h3 className="text-lg font-bold text-foreground mb-2">{faq.q}</h3>
+                        <p className="text-muted-foreground leading-relaxed">{faq.a}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Sidebar (RFQ + Similar) */}

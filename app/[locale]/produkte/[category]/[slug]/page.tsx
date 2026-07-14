@@ -135,37 +135,34 @@ export default async function ProductDetailPage({
             const minSize = Math.min(...sizes);
             const maxSize = Math.max(...sizes);
             if (minSize !== maxSize) {
-               sizeText = `This component is engineered in an extensive range of nominal diameters, starting from a compact ${minSize} mm up to a substantial ${maxSize} mm, ensuring maximum versatility across diverse installation scenarios. `;
+               sizeText = tProd('narrative.sizeRange', { minSize, maxSize });
             } else {
-               sizeText = `This component is meticulously engineered for a specific nominal diameter of ${minSize} mm, providing targeted performance for specialized piping architectures. `;
+               sizeText = tProd('narrative.sizeSpecific', { minSize });
             }
          }
       }
       if (wIndex >= 0 && dataRows.length > 0) {
          const weights = dataRows.map(r => parseFloat(r[wIndex].replace(',', '.'))).filter(n => !isNaN(n));
          if (weights.length > 0) {
-            weightText = `Material efficiency is optimized across the range, with unit weights scaling appropriately from ${Math.min(...weights)} kg to ${Math.max(...weights)} kg depending on the selected dimension. `;
+            weightText = tProd('narrative.weights', { minWeight: Math.min(...weights), maxWeight: Math.max(...weights) });
          }
       }
       if (pIndex >= 0 && dataRows.length > 0) {
-         packText = `Logistics are streamlined via standardized packaging units designed for secure global transit and efficient on-site handling. `;
+         packText = tProd('narrative.packaging');
       }
-      rowCountText = `Our technical portfolio offers this configuration in ${dataRows.length} highly specialized dimension variants, meticulously scaled to meet the hydraulic and mechanical demands of modern fluid transport systems. `;
+      rowCountText = tProd('narrative.rowCount', { count: dataRows.length });
     }
   } catch (e) {
     // Ignore parse errors
   }
   
   const generatedSeoNarrative = sizeText ? `
-    The ${localizedTitle} represents a cornerstone of K-Aqua's high-performance fluid management solutions. 
-    Officially cataloged under the distinct article codes: ${codes}, each variant undergoes rigorous quality assurance protocols in our German production facilities before dispatch.
+    ${tProd('narrative.intro', { title: localizedTitle, codes: codes })}
     ${rowCountText}
     ${sizeText}
     ${weightText}
     ${packText}
-    By leveraging advanced polymer processing techniques, the geometric precision of the ${localizedTitle} guarantees optimal flow characteristics, minimizing pressure loss and completely eliminating scale buildup or corrosion risks across its entire operational lifespan. 
-    This uncompromising dedication to material science ensures that every connection maintains absolute integrity, even under extreme thermal and pressure fluctuations. 
-    Whether deployed in high-rise residential towers, critical healthcare facilities, or demanding industrial processing plants, this product delivers maintenance-free reliability that engineers and installers can trust implicitly.
+    ${tProd('narrative.outro', { title: localizedTitle })}
   ` : '';
 
   // Enhance schema with Local SEO properties

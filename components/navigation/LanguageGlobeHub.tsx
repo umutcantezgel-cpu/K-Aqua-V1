@@ -177,9 +177,9 @@ export function LanguageGlobeHub({
 
         {/* Title */}
         <div className="pointer-events-none text-center w-full mt-2 lg:mt-0">
-          <h1 className="text-[clamp(22px,3.4vw,44px)] font-bold leading-[1.1] tracking-tight">
+          <h2 className="text-[clamp(22px,3.4vw,44px)] font-bold leading-[1.1] tracking-tight">
             Wähle deine Sprache
-          </h1>
+          </h2>
           <p className={`mt-1 text-sm max-lg:text-[12px] ${mutedCls(dark)}`}>
             {LANGUAGES.length} Sprachen · Globus drehen, Region antippen, bestätigen.
           </p>

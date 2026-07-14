@@ -100,7 +100,12 @@ export default async function GeoCityPage({ params }: Props) {
     nearby: tGeo("nearby"),
     prodNote: tGeo("prodNote"),
     km: tGeo("km"),
-    seoExpansion: tGeo("seoExpansion"),
+    seoExpansion: tGeo("seoExpansionDynamic", {
+      city: market.city,
+      regulator: localizedData.regulator,
+      water: localizedData.water,
+      note: localizedData.note,
+    }),
   };
 
   const regionsTrans = {
