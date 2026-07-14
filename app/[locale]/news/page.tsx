@@ -1,5 +1,6 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -8,9 +9,7 @@ import { Check, Download, MapPin } from "@/components/ui/icon";
 import { NewsDeep } from "@/components/sections/NewsDeep";
 import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
-import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
-import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -35,21 +34,17 @@ const DASH = " — ";
 
 export default async function NewsPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const jsonLd = await getArticleJsonLd(locale, "news");
   const t = await getTranslations({ locale, namespace: "news" });
 
   const iso = t.raw("iso") as string[][];
 
-
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">
-        <p>{t("title1")} {t("titleGrad")}</p>
-        <p>{t("h2")}</p>
-        <p>{t("eventsTitle")}</p>
-      </div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
@@ -146,7 +141,6 @@ export default async function NewsPage({ params }: Props) {
         </section>
         {/* Deep Content am Ende der News Seite */}
         <NewsDeep />
-        <SeoExpand pageType="news" />
       </div>
     </>
   );

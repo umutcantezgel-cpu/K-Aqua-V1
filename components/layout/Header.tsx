@@ -10,9 +10,9 @@ import ThemeToggle from './ThemeToggle';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { useLocale } from 'next-intl';
 import MegaMenu from './MegaMenu';
-import { Globe } from '@/components/ui/icon';
+import { Globe, ArrowRight } from '@/components/ui/icon';
 import GlobeHub from '@/components/navigation/GlobeHub';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Map, Compass, Box, Settings, HardHat } from 'lucide-react';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -97,11 +97,30 @@ export default function Header() {
                 {t('products')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </Link>
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/produkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('products')}</Link>
-                <Link href="/produkte/finder" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('finder')}</Link>
-                <Link href="/co2-rechner" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('co2')}</Link>
-                <Link href="/loesungen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('solutions')}</Link>
+              {/* Premium Mega Dropdown */}
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Rohrsysteme</span>
+                  <Link href="/produkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Übersicht aller K-Aqua PP-R Lösungen</span>
+                  </Link>
+                  <Link href="/loesungen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">{t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Industriespezifische Applikationen</span>
+                  </Link>
+                </div>
+                <div className="flex-1 flex flex-col gap-1">
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Digitale Tools</span>
+                  <Link href="/produkte/finder" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Box className="w-4 h-4" /> {t('finder')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Das richtige System konfigurieren</span>
+                  </Link>
+                  <Link href="/co2-rechner" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Settings className="w-4 h-4" /> {t('co2')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Umweltbilanz kalkulieren</span>
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -111,11 +130,23 @@ export default function Header() {
                 {t('knowledge_trust')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </span>
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/academy" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('academy')}</Link>
-                <Link href="/trust-center" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('trust')}</Link>
-                <Link href="/service" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('service')}</Link>
-                <Link href="/partnerschaft" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('partners')}</Link>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[320px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-3 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <Link href="/academy" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><HardHat className="w-4 h-4" /></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground">Schulungen & Zertifikate</span></div>
+                </Link>
+                <Link href="/trust-center" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><Compass className="w-4 h-4" /></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('trust')}</span><span className="text-xs text-muted-foreground">Downloads & Zertifizierungen</span></div>
+                </Link>
+                <Link href="/service" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Settings className="w-4 h-4 text-muted-foreground" /></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('service')}</span><span className="text-xs text-muted-foreground">Planungsunterstützung</span></div>
+                </Link>
+                <Link href="/partnerschaft" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Map className="w-4 h-4 text-muted-foreground" /></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('partners')}</span><span className="text-xs text-muted-foreground">Werden Sie lokaler Partner</span></div>
+                </Link>
               </div>
             </div>
 
@@ -125,18 +156,48 @@ export default function Header() {
                 {t('about')}
                 <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
               </Link>
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <Link href="/unternehmen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('about')}</Link>
-                <Link href="/maerkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('markets')}</Link>
-                <Link href="/referenzen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('references')}</Link>
-                <Link href="/karriere" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('career')}</Link>
-                <Link href="/news" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('news')}</Link>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Über K-Aqua</span>
+                  <Link href="/unternehmen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Das Unternehmen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Mission, Vision & Historie</span>
+                  </Link>
+                  <Link href="/karriere" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Karriere</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Offene Stellen & Kultur</span>
+                  </Link>
+                  <Link href="/news" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">News & Presse</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Aktuelle Pressemitteilungen</span>
+                  </Link>
+                </div>
+                <div className="flex-1 flex flex-col gap-1">
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Globaler Fußabdruck</span>
+                  <Link href="/maerkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Globale Märkte</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Zertifizierte Regionen</span>
+                  </Link>
+                  <Link href="/referenzen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Referenzprojekte</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Erfolgreiche Installationen</span>
+                  </Link>
+                </div>
               </div>
             </div>
           </nav>
 
           {/* Action bar (Unified Menu & Globe) */}
           <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 shrink-0">
+            {/* Globe Hub Trigger */}
+            <button
+              onClick={() => setGlobeHubOpen(true)}
+              aria-label="Open Map Navigation"
+              className="flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
+            >
+              <Map className="w-5 h-5 shrink-0" />
+            </button>
+
             {/* Language Switcher — always visible */}
             <Link href="/language" aria-label={t('lang') || 'Language'} className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer">
               <Globe className="w-5 h-5 shrink-0" />
