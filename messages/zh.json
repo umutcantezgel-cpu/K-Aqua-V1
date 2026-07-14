@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Related Markets",
     "nearby": "Nearby.",
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS — including hreflang, Product/Offer schema, and semantic internal linking.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua 在瓦尔德索尔姆斯（Waldsolms）生产 PP-R 和 PP-RCT 管道系统，以满足全球建筑和工厂工程的最高要求。得益于毫不妥协的德国工程和最先进的生产技术，我们的系统保证了数十年免维护的运行可靠性。从 d20 到 d630 的每一个产品，都经过严格的质量控制，并符合 DVGW、KIWA 和 SKZ 等国际标准。我们不仅提供用于饮用水、制冷和工业的优质材料，还通过全面的技术支持和现场培训为规划人员和安装人员提供支持。信赖一个以极长使用寿命、耐腐蚀性和绝对卫生而令人折服的系统。"
   },
   "footer": {
     "tagline": "K-Aqua — Leading in Water Supply. PP-R/PP-RCT piping systems for drinking water, made by KWT GmbH in Waldsolms, Germany.",
@@ -1996,6 +1997,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "K-Aqua PP-R 和 PP-RCT 管道系统由德国瓦尔德索尔姆斯的 KWT GmbH 制造。我们的法律声明提供了有关公司结构、法定代表人和商业登记详细信息的完全透明度。",
+      "impressum2": "作为饮用水和工业应用优质塑料管道解决方案的全球活跃制造商，我们致力于在国际贸易和数据保护方面遵守所有法律和监管标准。",
+      "kontakt1": "您对我们的 PP-R/PP-RCT 管道有技术问题，或者在国际项目中需要支持吗？瓦尔德索尔姆斯的 K-Aqua 联系团队随时准备为您提供协助。",
+      "kontakt2": "无论您需要等轴测计算、现场焊接培训还是商业咨询——我们的工程师和销售代表都将迅速响应，以确保您的项目取得成功。",
+      "projektanfrage1": "提交您对 K-Aqua PP-R 和 PP-RCT 管道系统的项目询价。我们的技术部门专注于大型安装项目，包括高层建筑、医院和工业冷却管网。",
+      "projektanfrage2": "通过向我们提供您的项目规格，我们可以协助进行压力损失计算、材料估算，以及为您量身定制的过渡管件。",
+      "projektanfrage3": "每项项目询价均得到严格保密处理，并由我们的德国工程团队进行处理，以保证最大的效率和系统寿命。",
+      "news1": "随时了解 K-Aqua 的最新新闻。我们定期发布关于新的 PP-R/PP-RCT 产品开发、国际展会亮相以及全球重大项目的更新。",
+      "news2": "我们的新闻版块还涵盖了承插熔接方面的技术创新、无规共聚聚丙烯在材料科学方面的进步，以及我们瓦尔德索尔姆斯生产工厂的可持续发展倡议。"
+    },
     "eyebrow": "About Us",
     "title1": "Experience is your",
     "titleGrad": "advantage.",

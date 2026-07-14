@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Gerelateerde markten",
     "nearby": "In de buurt.",
     "prodNote": "Opmerking productie: Deze pagina's komen overeen met de Programmatic-SEO-sjabloon (Data-slice: Product × Regelgeving × Regio). In Next.js worden ze via ISR gegenereerd uit het Headless CMS — incl. hreflang, Product-/Offer-Schema en semantische interne linking.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua produceert PP-R en PP-RCT leidingsystemen in Waldsolms voor de hoogste eisen van de wereldwijde bouw- en installatietechniek. Dankzij compromisloze Duitse ingenieurskunst en ultramoderne productietechnologie garanderen onze systemen decennialange, onderhoudsvrije bedrijfszekerheid. Elk product, van d20 tot d630, ondergaat strenge kwaliteitscontroles en voldoet aan internationale normen zoals DVGW, KIWA en SKZ. We bieden niet alleen hoogwaardige materialen voor drinkwater, koeling en industrie, maar ondersteunen ook ontwerpers en installateurs met uitgebreide technische ondersteuning en trainingen op locatie. Vertrouw op een systeem dat overtuigt door extreme levensduur, corrosiebestendigheid en absolute hygiëne."
   },
   "footer": {
     "tagline": "K-Aqua — toonaangevend in watervoorziening. PP-R/PP-RCT-leidingsystemen voor drinkwater, geproduceerd door KWT GmbH in Waldsolms.",
@@ -1996,6 +1997,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "K-Aqua PP-R en PP-RCT leidingsystemen worden geproduceerd door KWT GmbH in Waldsolms, Duitsland. Ons impressum biedt volledige transparantie met betrekking tot onze bedrijfsstructuur, wettelijke vertegenwoordigers en gegevens in het handelsregister.",
+      "impressum2": "Als wereldwijd actieve producent van hoogwaardige kunststof leidingoplossingen voor drinkwater- en industriële toepassingen, zetten wij ons in om te voldoen aan alle wettelijke en regelgevende normen inzake internationale handel en gegevensbescherming.",
+      "kontakt1": "Heeft u technische vragen over onze PP-R/PP-RCT-buizen of heeft u ondersteuning nodig bij een internationaal project? Het K-Aqua-contactteam in Waldsolms staat klaar om u te helpen.",
+      "kontakt2": "Of u nu isometrische berekeningen, lastraining op locatie of commerciële informatie nodig heeft – onze ingenieurs en verkoopmedewerkers reageren snel om het succes van uw project te garanderen.",
+      "projektanfrage1": "Dien uw projectaanvraag in voor K-Aqua PP-R en PP-RCT leidingsystemen. Onze technische afdeling is gespecialiseerd in grootschalige installaties, waaronder hoogbouw, ziekenhuizen en industriële koelnetwerken.",
+      "projektanfrage2": "Door ons uw projectspecificaties te verstrekken, kunnen wij u helpen met drukverliesberekeningen, materiaalstaten en op maat gemaakte overgangsfittingen die zijn afgestemd op uw vereisten.",
+      "projektanfrage3": "Elke projectaanvraag wordt met strikte vertrouwelijkheid behandeld en verwerkt door ons Duitse ingenieursteam om maximale efficiëntie en systeemlevensduur te garanderen.",
+      "news1": "Blijf op de hoogte van het laatste nieuws van K-Aqua. We publiceren regelmatig updates over nieuwe PP-R/PP-RCT productontwikkelingen, deelnames aan internationale vakbeurzen en grote wereldwijde projecten.",
+      "news2": "Onze nieuwsrubriek behandelt ook technische innovaties op het gebied van moflassen, vooruitgang in materiaalwetenschap bij Polypropylene Random Copolymer en duurzaamheidsinitiatieven in onze productiefaciliteit in Waldsolms."
+    },
     "eyebrow": "Over ons",
     "title1": "Ervaring is uw",
     "titleGrad": "voordeel.",

@@ -228,7 +228,8 @@
     "nearbyEyebrow": "İlgili Piyasalar",
     "nearby": "Yakınlarda.",
     "prodNote": "Üretim Notu: Bu sayfalar Programatik SEO şablonuna (Veri dilimi: Ürün × Düzenleme × Bölge) karşılık gelir. Next.js'de, Headless CMS'den ISR kullanılarak oluşturulurlar — hreflang, Ürün/Teklif Şeması ve anlamsal iç bağlantılar dahil.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua, küresel bina ve tesis mühendisliğinin en yüksek talepleri için Waldsolms'ta PP-R ve PP-RCT boru sistemleri üretmektedir. Tavizsiz Alman mühendisliği ve en son teknoloji üretim teknolojimiz sayesinde, sistemlerimiz on yıllarca bakım gerektirmeyen işletim güvenilirliğini garanti eder. d20'den d630'a kadar her ürün sıkı kalite kontrollerinden geçer ve DVGW, KIWA ve SKZ gibi uluslararası standartlara uygundur. Yalnızca içme suyu, soğutma ve sanayi için birinci sınıf malzemeler sunmakla kalmıyor, aynı zamanda planlamacıları ve tesisatçıları kapsamlı teknik destek ve yerinde eğitim ile destekliyoruz. Aşırı uzun ömürlülük, korozyon direnci ve mutlak hijyen ile etkileyen bir sisteme güvenin."
   },
   "footer": {
     "tagline": "K-Aqua — Leading in Water Supply. PP-R/PP-RCT piping systems for drinking water, made by KWT GmbH in Waldsolms, Germany.",
@@ -1996,6 +1997,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "K-Aqua PP-R ve PP-RCT boru sistemleri, Almanya'nın Waldsolms şehrinde KWT GmbH tarafından üretilmektedir. Künyemiz, kurumsal yapımız, yasal temsilcilerimiz ve ticaret sicil detaylarımız hakkında tam şeffaflık sağlar.",
+      "impressum2": "İçme suyu ve endüstriyel uygulamalar için birinci sınıf plastik boru çözümlerinin küresel olarak aktif bir üreticisi olarak, uluslararası ticaret ve veri korumasındaki tüm yasal ve düzenleyici standartlara uymayı taahhüt ediyoruz.",
+      "kontakt1": "PP-R/PP-RCT borularımız hakkında teknik sorularınız mı var veya uluslararası bir projede desteğe mi ihtiyacınız var? Waldsolms'taki K-Aqua iletişim ekibi size yardımcı olmaya hazırdır.",
+      "kontakt2": "İzometrik hesaplamalara, yerinde kaynak eğitimine veya ticari sorulara ihtiyacınız olsun, mühendislerimiz ve satış temsilcilerimiz projenizin başarısını sağlamak için derhal yanıt verecektir.",
+      "projektanfrage1": "K-Aqua PP-R ve PP-RCT boru sistemleri için proje talebinizi gönderin. Teknik departmanımız yüksek binalar, hastaneler ve endüstriyel soğutma ağları dahil olmak üzere büyük ölçekli kurulumlarda uzmanlaşmıştır.",
+      "projektanfrage2": "Proje özelliklerinizi bize sağlayarak, basınç kaybı hesaplamaları, malzeme metrajları ve gereksinimlerinize göre uyarlanmış özel geçiş parçaları konusunda yardımcı olabiliriz.",
+      "projektanfrage3": "Maksimum verimliliği ve sistem ömrünü garanti etmek için her proje talebi gizlilik içinde ele alınır ve Alman mühendislik ekibimiz tarafından işlenir.",
+      "news1": "K-Aqua'dan en son haberlerle güncel kalın. Yeni PP-R/PP-RCT ürün geliştirmeleri, uluslararası ticaret fuarı katılımları ve önemli küresel projeler hakkında düzenli olarak güncellemeler yayınlıyoruz.",
+      "news2": "Haber bölümümüz ayrıca muf kaynağındaki teknik yenilikleri, Polipropilen Random Kopolimer'deki malzeme bilimi gelişmelerini ve Waldsolms üretim tesisimizdeki sürdürülebilirlik girişimlerini de kapsamaktadır."
+    },
     "eyebrow": "Hakkımızda",
     "title1": "Deneyim sizin",
     "titleGrad": "avantajınızdır.",

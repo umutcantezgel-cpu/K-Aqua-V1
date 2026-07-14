@@ -15,12 +15,11 @@ interface Props {
 }
 
 export function generateStaticParams() {
-  const articles = getAllArticles();
   const locales = ['de', 'en', 'ar', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'pt-BR', 'ru', 'tr', 'zh'];
-  
   const params: { locale: string; slug: string }[] = [];
   
   for (const locale of locales) {
+    const articles = getAllArticles(locale);
     for (const article of articles) {
       params.push({ locale, slug: article.slug });
     }
@@ -32,7 +31,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const article = await getArticleBySlug(slug);
+  const article = await getArticleBySlug(slug, locale);
   
   if (!article) {
     return constructMetadata({
@@ -53,13 +52,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArticlePage({ params }: Props) {
   const { locale, slug } = await params;
-  const article = await getArticleBySlug(slug);
+  const article = await getArticleBySlug(slug, locale);
   
   if (!article) {
     notFound();
   }
 
-  const allArticles = getAllArticles();
+  const allArticles = getAllArticles(locale);
   const relatedArticles = allArticles.filter(a => a.slug !== slug).slice(0, 2);
 
   const siteUrl = getBaseUrl();

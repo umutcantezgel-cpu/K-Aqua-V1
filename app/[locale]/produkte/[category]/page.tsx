@@ -42,6 +42,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lowerCat = category.toLowerCase();
   if (lowerCat.includes('pipes')) catKey = 'pipes';
   else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) catKey = 'fittings';
+  else if (lowerCat.includes('weld-in-saddles')) catKey = 'weldInSaddles';
+  else if (lowerCat.includes('accessories')) catKey = 'accessories';
   else if (lowerCat.includes('valve')) catKey = 'valves';
   else if (lowerCat.includes('tools')) catKey = 'tools';
 
@@ -82,7 +84,9 @@ export default async function CategoryPage({ params }: Props) {
   let catKey = "fallback";
   const lowerCat = category.toLowerCase();
   if (lowerCat.includes('pipes')) catKey = 'pipes';
-  else if (lowerCat.includes('fitting') || lowerCat.includes('transition') || lowerCat.includes('weld-in-saddles')) catKey = 'fittings';
+  else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) catKey = 'fittings';
+  else if (lowerCat.includes('weld-in-saddles')) catKey = 'weldInSaddles';
+  else if (lowerCat.includes('accessories')) catKey = 'accessories';
   else if (lowerCat.includes('valve')) catKey = 'valves';
   else if (lowerCat.includes('tools')) catKey = 'tools';
 
@@ -202,7 +206,9 @@ export default async function CategoryPage({ params }: Props) {
                           {localizedTitle}
                         </h3>
                         <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all">
-                          {tc("viewDetails")} <ArrowRight className="w-4 h-4" />
+                          <span className="sr-only">{localizedTitle} {tc("viewDetails")}</span>
+                          <span aria-hidden="true">{tc("viewDetails")}</span>
+                          <ArrowRight className="w-4 h-4" />
                         </div>
                       </div>
                     </>

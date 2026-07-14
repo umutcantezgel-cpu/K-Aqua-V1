@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function WissenPage({ params }: Props) {
   const { locale } = await params;
-  const articles = getAllArticles();
+  const articles = getAllArticles(locale);
   const t = await getTranslations({ locale, namespace: "wissen" });
   
   const siteUrl = getBaseUrl();

@@ -15,32 +15,33 @@ export function SeoExpand({ pageType }: SeoExpandProps) {
       paragraphs = [
         tAbout('intro.desc'),
         tAbout('values.desc'),
-        "Als führender Anbieter im Bereich der PP-R und PP-RCT Rohrsysteme ist uns Transparenz und rechtliche Absicherung wichtig. Auf dieser Seite finden Sie alle relevanten rechtlichen Informationen zu unserem Unternehmen. Wir legen großen Wert darauf, unsere geschäftlichen Aktivitäten im Einklang mit den geltenden Vorschriften und Gesetzen zu führen.",
-        "Unser Impressum enthält wichtige Angaben zu unserem Sitz, den Vertretungsberechtigten sowie unseren Kontaktmöglichkeiten. Wir sind bestrebt, alle Informationen aktuell und korrekt zu halten. Bei Fragen zu unseren rechtlichen Angaben können Sie sich jederzeit an uns wenden. Vertrauen und Zuverlässigkeit sind die Grundpfeiler unserer Partnerschaften weltweit."
+        tAbout('seo.impressum1'),
+        tAbout('seo.impressum2')
       ];
       break;
     case 'kontakt':
       paragraphs = [
         tAbout('hero.desc'),
         tAbout('values.items.0.desc'),
-        "Unser engagiertes Team steht Ihnen jederzeit zur Verfügung, um Ihre Fragen zu beantworten und maßgeschneiderte Lösungen für Ihre Projekte zu finden. Ob es sich um technische Spezifikationen, Lieferzeiten oder individuelle Anfragen handelt – wir helfen Ihnen gerne weiter.",
-        "Zögern Sie nicht, uns anzurufen oder eine E-Mail zu schreiben. Wir legen großen Wert auf eine schnelle und kompetente Beratung. Ihr Erfolg ist unser Antrieb, und wir freuen uns darauf, Sie bei Ihren Vorhaben im Bereich der Trinkwasser- und Klimatechnik bestmöglich zu unterstützen."
+        tAbout('seo.kontakt1'),
+        tAbout('seo.kontakt2')
       ];
       break;
     case 'projektanfrage':
       paragraphs = [
         tAbout('timeline.items.2.text'),
         tAbout('bento.lead'),
-        "Jedes Projekt hat seine eigenen spezifischen Anforderungen und Herausforderungen. Um Ihnen ein passgenaues Angebot und die beste technische Unterstützung bieten zu können, bitten wir Sie, uns möglichst detaillierte Informationen zu Ihrem Vorhaben zur Verfügung zu stellen.",
-        "Unsere Experten prüfen Ihre Anfrage umgehend und setzen sich mit Ihnen in Verbindung, um die nächsten Schritte zu besprechen. Wir garantieren Ihnen eine professionelle Begleitung von der ersten Idee bis zur finalen Umsetzung Ihres Rohrleitungsprojekts."
+        tAbout('seo.projektanfrage1'),
+        tAbout('seo.projektanfrage2'),
+        tAbout('seo.projektanfrage3')
       ];
       break;
     case 'news':
       paragraphs = [
         tAbout('timeline.desc'),
         tAbout('timeline.items.3.text'),
-        "Bleiben Sie immer auf dem Laufenden über die neuesten Entwicklungen, Produkte und Meilensteine bei K-Aqua. Unser News-Bereich bietet Ihnen aktuelle Informationen aus der Welt der Rohrleitungstechnik und Einblicke in unsere innovativen Projekte weltweit.",
-        "Wir informieren Sie regelmäßig über wichtige Branchen-Updates, technologische Fortschritte und Unternehmensnachrichten. Erfahren Sie aus erster Hand, wie K-Aqua die Zukunft der Wasserversorgung und Klimatechnik mitgestaltet."
+        tAbout('seo.news1'),
+        tAbout('seo.news2')
       ];
       break;
     case 'maerkte':

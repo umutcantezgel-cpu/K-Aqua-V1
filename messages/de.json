@@ -228,7 +228,8 @@
     "nearbyEyebrow": "Verwandte Märkte",
     "nearby": "In der Nähe.",
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert — inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
-    "km": "km"
+    "km": "km",
+    "seoExpansion": "K-Aqua fertigt in Waldsolms PP-R und PP-RCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt."
   },
   "footer": {
     "tagline": "K-Aqua — führend in der Wasserversorgung. PP-R/PP-RCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
@@ -479,6 +480,30 @@
           "Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln."
         ],
         "seoText": "Absperrarmaturen und Ventile von K-Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten."
+      },
+      "weldInSaddles": {
+        "areas": "Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau",
+        "advTitle": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität",
+        "advList": [
+          "Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.",
+          "Zeitsparend: Bohren, Aufheizen, Einschweißen – fertig in wenigen Minuten.",
+          "Druckresistent: Die Sattelschweißung erreicht dieselbe Druckstufe wie das Basisrohr.",
+          "Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.",
+          "Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG)."
+        ],
+        "seoText": "Weld-in Saddles oder Einschweißsättel von K-Aqua sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen."
+      },
+      "accessories": {
+        "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
+        "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
+        "advList": [
+          "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K-Aqua Rohrsystem abgestimmt.",
+          "Thermodynamische Befestigung: Rohrschellen mit Gummieinlage für Fest- und Loslager.",
+          "Hochwertige Flanschverbindungen: Losflansche und EPDM-Dichtungen für den Übergang auf Metall.",
+          "Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.",
+          "UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert."
+        ],
+        "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K-Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K-Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben."
       },
       "fallback": {
         "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
@@ -1997,6 +2022,17 @@
     ]
   },
   "about": {
+    "seo": {
+      "impressum1": "Die K-Aqua PP-R und PP-RCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, hergestellt. Unser Impressum bietet vollständige Transparenz über unsere Unternehmensstruktur, gesetzliche Vertreter und Handelsregisterdaten.",
+      "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser und Industrieanwendungen verpflichten wir uns zur Einhaltung aller gesetzlichen und regulatorischen Standards im internationalen Handel und Datenschutz.",
+      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PP-RCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K-Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
+      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen – unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
+      "projektanfrage1": "Senden Sie uns Ihre Projektanfrage für K-Aqua PP-R und PP-RCT Rohrsysteme. Unsere technische Abteilung ist auf Großinstallationen spezialisiert, darunter Hochhäuser, Krankenhäuser und industrielle Kühlnetze.",
+      "projektanfrage2": "Wenn Sie uns Ihre Projektspezifikationen mitteilen, können wir Sie bei Druckverlustberechnungen, Materialauszügen und maßgeschneiderten Übergangsfittings unterstützen.",
+      "projektanfrage3": "Jede Projektanfrage wird streng vertraulich behandelt und von unserem deutschen Ingenieurteam bearbeitet, um maximale Effizienz und Langlebigkeit des Systems zu garantieren.",
+      "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K-Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PP-RCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
+      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen-Random-Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
+    },
     "eyebrow": "Über uns",
     "title1": "Erfahrung ist Ihr",
     "titleGrad": "Vorteil.",
