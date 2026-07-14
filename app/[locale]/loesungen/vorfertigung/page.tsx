@@ -94,7 +94,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         }
         description={t('hero.desc')}
       >
-        <Button variant="default" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
+        <Button variant="primary" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full shadow-2xl shadow-primary/20">
           {t('hero.cta1')}
         </Button>
         <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="text-lg px-8 py-6 rounded-full">
@@ -219,15 +219,11 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
       {/* 6) Timeline Section */}
       <section className="py-32 bg-background">
-        <div className="mx-auto max-w-[1400px] px-6 mb-20 text-center">
-          <SectionHead
-            eyebrow={t('timeline.eyebrow')}
-            title={t('timeline.title')}
-            lead={t('timeline.lead')}
-            align="center"
-          />
-        </div>
-        <HorizontalTimeline items={TIMELINE_EVENTS} />
+        <HorizontalTimeline 
+          items={TIMELINE_EVENTS}
+          title={t('timeline.title')}
+          description={t('timeline.lead')}
+        />
       </section>
 
       {/* 7) Deep Tech Specifications Copy (The "German Engineering" manifesto) */}

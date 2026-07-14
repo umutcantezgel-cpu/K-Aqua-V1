@@ -204,7 +204,7 @@
     "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
     "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
     "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt — von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Jetzt Kontakt aufnehmen",
+    "bandBtn": "Projektanfrage starten",
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
@@ -373,6 +373,7 @@
     "grCta": "Weltweite Projekte entdecken"
   },
   "products": {
+    "uniqueProductContext": "Das Produkt {title} ist ein wesentlicher Bestandteil des K-Aqua {category}-Sortiments. Es wurde für maximale Langlebigkeit sowie nahtlose Integration entwickelt und erfüllt die höchsten internationalen Standards für moderne Rohrleitungs- und Sanitäranwendungen. Sie können dieses spezifische Produkt anhand der Artikelnummer(n) identifizieren und bestellen: {codes}. Für weitere Dokumentationen oder Unterstützung wenden Sie sich bitte an unser technisches Team.",
     "heroDesc": "Entdecken Sie die Spezifikationen, Dimensionen und Einsatzbereiche. Für detaillierte Informationen laden Sie das Technische Datenblatt herunter.",
     "articleNumbers": "Artikelnummern",
     "technicalSpecs": "Technische Spezifikationen",
@@ -5126,7 +5127,7 @@
       "cta": {
         "title": "Qualität, der Sie blind vertrauen können.",
         "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering-Team über die Spezifikationen Ihres nächsten Megaprojekts.",
-        "btn": "Zum Download-Portal"
+        "btn": "Projekt evaluieren"
       },
       "meta": {
         "title": "Downloads | K-Aqua",
@@ -5488,7 +5489,7 @@
         "title": "Beginnen Sie mit der Spezifikation.",
         "desc": "Greifen Sie auf unsere vollständige, ständig aktualisierte Bibliothek an Ausschreibungstexten zu. Garantiert fehlerfrei, normkonform und bereit für den Einsatz in Ihrem nächsten internationalen Megaprojekt.",
         "btn1": "Zum Download-Portal",
-        "btn2": "Planungsberatung anfordern"
+        "btn2": "Beratungsteam kontaktieren"
       },
       "deep": {
         "items": [
