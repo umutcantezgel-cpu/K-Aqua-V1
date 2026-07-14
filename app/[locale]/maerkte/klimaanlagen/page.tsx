@@ -99,7 +99,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         <Button variant="primary" size="lg" href="/projektanfrage" className="px-8 font-bold tracking-wide">
           {t('heroBtnPrimary')}
         </Button>
-        <Button variant="ghost" size="lg" href="/ressourcen" className="px-8">
+        <Button variant="ghost" size="lg" href="/ressourcen/downloads" className="px-8">
           {t('heroBtnSecondary')} <ArrowRight className="ms-2 w-4 h-4" />
         </Button>
       </ParallaxHero>

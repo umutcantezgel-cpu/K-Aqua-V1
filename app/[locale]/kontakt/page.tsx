@@ -20,12 +20,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("contact") as string[];
-  return constructMetadata({
+  const baseMetadata = constructMetadata({
     title: meta[0] ?? "",
     description: meta[1] ?? "",
     path: "/kontakt",
     locale,
   });
+  return {
+    ...baseMetadata,
+    robots: { index: false, follow: false }
+  };
 }
 
 const COMPANY_NAME = "KWT GmbH";

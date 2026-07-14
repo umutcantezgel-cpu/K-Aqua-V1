@@ -241,7 +241,7 @@ export default function Page() {
                 <Button variant="inverse" size="lg" href="/projektanfrage" className="h-14 px-8 text-lg text-primary font-bold">
                   {t("ctaBtnPrimary")}
                 </Button>
-                <Button variant="ghost" size="lg" href="/ressourcen/katalog" className="h-14 px-8 text-lg border-white text-white hover:bg-white hover:text-primary">
+                <Button variant="ghost" size="lg" href="/ressourcen/downloads" className="h-14 px-8 text-lg border-white text-white hover:bg-white hover:text-primary">
                   {t("ctaBtnSecondary")}
                 </Button>
               </div>
