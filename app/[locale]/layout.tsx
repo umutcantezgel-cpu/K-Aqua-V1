@@ -30,6 +30,7 @@ interface LayoutProps {
 
 import { headers } from 'next/headers';
 import { setRequestLocale } from 'next-intl/server';
+import pick from 'lodash/pick';
 
 export default async function LocaleLayout({
   children,
@@ -45,6 +46,23 @@ export default async function LocaleLayout({
 
   // Retrieve the localized messages for the provider
   const messages = await getMessages();
+  
+  const clientMessages = pick(messages, [
+    'nav',
+    'home',
+    'cookieConsent',
+    'productsx',
+    'catalogx',
+    'newsx',
+    'academyx',
+    'co2',
+    'materials',
+    'application',
+    'customerReviews',
+    'buyers',
+    'about'
+  ]);
+
   const orgJsonLd = await getOrganizationJsonLd(locale);
 
   const headersList = await headers();
@@ -70,7 +88,7 @@ export default async function LocaleLayout({
           enableSystem={false}
           nonce={nonce}
         >
-          <NextIntlClientProvider messages={messages}>
+          <NextIntlClientProvider messages={clientMessages}>
             <SkipLink />
             <ScrollProgress />
             <Header />

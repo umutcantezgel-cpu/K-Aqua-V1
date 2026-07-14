@@ -61,6 +61,11 @@ export default async function ProjektanfragePage({ params }: Props) {
     doneBack: tRfq("doneBack"),
   };
 
+  const infoTitle = tRfq("infoTitle");
+  const infoText1 = tRfq("infoText1");
+  const infoText2 = tRfq("infoText2");
+  const faqTitle = tRfq("faqTitle");
+  const faqs = tRfq.raw("faqs") as Array<{ q: string; a: string }>;
 
   
   return (
@@ -73,6 +78,29 @@ export default async function ProjektanfragePage({ params }: Props) {
       </div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         <RfqWizard rfqData={rfqData} />
+
+        <section className="py-24 bg-card/30 border-t border-card-border/50">
+          <div className="max-w-[1000px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-6">{infoTitle}</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">{infoText1}</p>
+              <p className="text-muted-foreground leading-relaxed">{infoText2}</p>
+            </div>
+            
+            <div>
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-6">{faqTitle}</h2>
+              <div className="flex flex-col gap-6">
+                {faqs.map((faq, idx) => (
+                  <div key={idx}>
+                    <h3 className="font-bold text-foreground mb-2">{faq.q}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         <SeoExpand pageType="projektanfrage" />
       </div>
     </>

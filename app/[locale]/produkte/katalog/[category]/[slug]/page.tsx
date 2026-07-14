@@ -12,6 +12,7 @@ import { Card } from "@/components/ui/Card";
 import type { Metadata } from "next";
 import JsonLd from "@/components/seo/JsonLd";
 import { setRequestLocale } from 'next-intl/server';
+import { constructMetadata } from "@/lib/seo/metadata";
 
 // 1. generateStaticParams to statically generate all 79 x 3 = 237 pages
 export async function generateStaticParams() {
@@ -55,14 +56,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const catMeta = (t.raw("cats") as Record<string, { label: string; desc?: string }>)[category];
   const catLabel = catMeta?.label || category;
   
-  return {
+  return constructMetadata({
     title: `${item.title} | ${catLabel} | K-Aqua`,
     description: `${item.title} (${item.codes}). ${catMeta?.desc || ""}`,
-    robots: {
-      index: false,
-      follow: false,
-    },
-  };
+    path: `/produkte/${category}/${slug}`,
+    locale,
+  });
 }
 
 export default async function CatalogDetailPage({ params }: Props) {
@@ -95,8 +94,7 @@ export default async function CatalogDetailPage({ params }: Props) {
       value: r.join(", "),
     })),
   };
-
-  const schemas: any[] = [jsonLd];
+  const schemas: Record<string, unknown>[] = [jsonLd];
   if (t.has(`items.${item.slug}.faq`)) {
     const faqs = t.raw(`items.${item.slug}.faq`) as Array<{q: string; a: string}>;
     if (Array.isArray(faqs) && faqs.length > 0) {

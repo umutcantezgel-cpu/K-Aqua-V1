@@ -42,9 +42,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     });
   }
 
+  let metaDesc = article.description || `${article.title} – Fachwissen, Best Practices und Lösungen für PP-RCT Rohrleitungssysteme von K-Aqua.`;
+  if (metaDesc.length > 155) {
+    metaDesc = metaDesc.substring(0, 155).trim() + '...';
+  }
+
   return constructMetadata({
     title: `${article.title} | K-Aqua Fachwissen`,
-    description: article.description,
+    description: metaDesc,
     path: `/wissen/${slug}`,
     locale,
   });
@@ -147,7 +152,7 @@ export default async function ArticlePage({ params }: Props) {
               prose-ul:text-lg prose-ul:text-muted-foreground prose-li:marker:text-primary
               prose-blockquote:border-s-4 prose-blockquote:border-primary prose-blockquote:bg-primary/5 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-e-xl prose-blockquote:text-foreground prose-blockquote:font-medium prose-blockquote:italic
             "
-            dangerouslySetInnerHTML={{ __html: article.content }}
+            dangerouslySetInnerHTML={{ __html: article.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>') }}
           />
           
           {/* Sidebar / Related Context */}

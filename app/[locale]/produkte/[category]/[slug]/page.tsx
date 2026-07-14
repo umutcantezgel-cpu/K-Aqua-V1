@@ -45,8 +45,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : (product ? product.title : 'Product');
   const uniqueDesc = tNames?.has(`${slugKey}_desc`) ? tNames(`${slugKey}_desc`) : null;
-  const codes = Array.isArray(product?.article_codes) ? product.article_codes.join(", ") : (product?.article_codes || 'N/A');
-  const metaDesc = uniqueDesc || `${localizedTitle} (${codes}): ${tProd('heroDesc')}`.substring(0, 160);
+  const codesArray = Array.isArray(product?.article_codes) ? product.article_codes : [product?.article_codes || 'N/A'];
+  const codesStr = codesArray.slice(0, 3).join(", ") + (codesArray.length > 3 ? ", ..." : "");
+  
+  let metaDesc = uniqueDesc || "";
+  if (!metaDesc) {
+    const defaultDesc = tProd('heroDesc');
+    metaDesc = `${localizedTitle} (${codesStr}): ${defaultDesc}`;
+  }
+  if (metaDesc.length > 155) {
+    metaDesc = metaDesc.substring(0, 155).trim() + '...';
+  }
   
   // SEO optimization: Keep title under 55 characters to avoid truncation warning
   let displayTitle = localizedTitle;
@@ -67,6 +76,8 @@ function getDynamicSeoCategory(category: string) {
   if (cat.includes("pipes")) return 'pipes';
   if (cat.includes("fittings") || cat.includes("transition") || cat.includes("weld-in-saddles")) return 'fittings';
   if (cat.includes("valves")) return 'valves';
+  if (cat.includes("accessories")) return 'accessories';
+  if (cat.includes("tools")) return 'tools';
   return 'fallback';
 }
 
@@ -364,7 +375,7 @@ export default async function ProductDetailPage({
                     prose-tr:transition-colors hover:prose-tr:bg-primary-soft/30
                     overflow-x-auto rounded-xl border border-card-border bg-card shadow-sm p-4 sm:p-8
                   "
-                  dangerouslySetInnerHTML={{ __html: product.content }} 
+                  dangerouslySetInnerHTML={{ __html: product.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>') }}
                 />
 
                 {/* 4. Generated Technical SEO Narrative */}

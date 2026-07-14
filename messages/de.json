@@ -1235,7 +1235,12 @@
         ],
         "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K-Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K-Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.",
         "guideTitle": "Fachratgeber: K-Aqua Zubehör für normgerechte Installationen",
-        "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K-Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><strong>Kompensation der Längenausdehnung:</strong> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen.</li><li><strong>Dichte Flanschverbindungen:</strong> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen.</li><li><strong>Reparaturlösungen:</strong> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält.</li></ul><p>Durch die ausschließliche Verwendung von Original K-Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte.</p>"
+        "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K-Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><strong>Kompensation der Längenausdehnung:</strong> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen.</li><li><strong>Dichte Flanschverbindungen:</strong> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen.</li><li><strong>Reparaturlösungen:</strong> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält.</li></ul><p>Durch die ausschließliche Verwendung von Original K-Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte.</p>",
+        "faq": [
+          { "q": "Sind die Zubehörteile für Kalt- und Warmwasser geeignet?", "a": "Ja, unsere Accessories wie Rohrschellen und Flachdichtungen sind für den Einsatz in Kaltwasser-, Warmwasser- und Heizungssystemen konzipiert und weisen eine hervorragende thermische Stabilität auf." },
+          { "q": "Kann ich Zubehör von Drittanbietern verwenden?", "a": "Um die volle K-Aqua Systemgewährleistung in Anspruch zu nehmen, ist es zwingend erforderlich, Original-Zubehörteile zu verwenden. Fremdkomponenten können zu Dichtigkeitsproblemen oder mechanischen Ausfällen führen." },
+          { "q": "Gibt es spezielles Zubehör für den industriellen Einsatz?", "a": "Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten." }
+        ]
       },
       "tools": {
         "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
@@ -3894,7 +3899,17 @@
     ],
     "doneTitle": "Fast geschafft.",
     "doneText": "Ihr E-Mail-Programm hat sich mit der vorausgefüllten Anfrage geöffnet. Senden Sie sie ab — wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
-    "doneBack": "Zurück zur Startseite"
+    "doneBack": "Zurück zur Startseite",
+    "infoTitle": "Über die Projektanfrage",
+    "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben oder Industrieprojekt frühzeitig mit unseren Experten abzustimmen. Egal ob Sie in der Planungsphase stecken oder bereits konkrete Materiallisten vorliegen haben – wir unterstützen Sie bei der Dimensionierung und Materialauswahl.",
+    "infoText2": "Durch die enge Zusammenarbeit mit dem K-Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Druckstufen (SDR-Klassen), Verlegeverfahren und systemkonformem Zubehör. Senden Sie uns Ihre Rahmendaten, und wir melden uns innerhalb eines Werktags bei Ihnen zurück.",
+    "faqTitle": "Häufig gestellte Fragen zur Anfrage",
+    "faqs": [
+      { "q": "Ist die Projektanfrage kostenpflichtig?", "a": "Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich." },
+      { "q": "Was passiert nach dem Absenden der Anfrage?", "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten." },
+      { "q": "Kann ich auch als Privatperson anfragen?", "a": "K-Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter." },
+      { "q": "Wie sicher sind meine Daten?", "a": "Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien." }
+    ]
   },
   "geoContent": {
     "frankfurt": {
@@ -5573,6 +5588,16 @@
           "id": "section-vat",
           "title": "Umsatzsteuer-ID",
           "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Rechtliche Hinweise & Disclaimer",
+          "content": "K-Aqua PP-R und PP-RCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.\n\nHaftung für Links\nUnsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+        },
+        {
+          "id": "section-faq",
+          "title": "Häufig gestellte Fragen (Impressum & Service)",
+          "content": "Wie kann ich den technischen Support kontaktieren?\nSie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.\n\nWo finde ich detaillierte Zertifikate und Zulassungen?\nAlle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.\n\nWelche Gewährleistung bietet K-Aqua?\nK-Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PP-RCT Rohre und Formteile, sofern diese fachgerecht mit Original-K-Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu."
         }
       ]
     },
