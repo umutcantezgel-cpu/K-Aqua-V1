@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useRouter, usePathname } from '@/lib/i18n/navigation';
+import { useRouter, usePathname, Link } from '@/lib/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { Globe, Check, ChevronDown } from 'lucide-react';
 import clsx from 'clsx';
@@ -81,12 +81,16 @@ export default function LangPicker() {
           {LANGUAGES.map((lang) => {
             const isSelected = lang.id === locale;
             return (
-              <button
+              <Link
                 key={lang.id}
-                type="button"
+                href={pathname}
+                locale={lang.id}
                 role="option"
                 aria-selected={isSelected}
-                onClick={() => handleLanguageChange(lang.id)}
+                onClick={() => {
+                  document.cookie = `NEXT_LOCALE=${lang.id}; path=/; max-age=31536000; SameSite=Lax`;
+                  setOpen(false);
+                }}
                 className={clsx(
                   "flex items-center w-full min-h-[44px] px-4 text-start font-body text-[14px] transition-colors focus-visible:bg-background-subtle focus-visible:text-foreground hover:bg-background-subtle hover:text-foreground active:scale-[0.98] outline-none cursor-pointer",
                   isSelected ? "font-bold text-primary bg-primary-soft/30" : "text-muted-foreground"
@@ -99,7 +103,7 @@ export default function LangPicker() {
                 {isSelected && (
                   <Check className="w-4 h-4 shrink-0 text-primary ms-auto" />
                 )}
-              </button>
+              </Link>
             );
           })}
         </div>
