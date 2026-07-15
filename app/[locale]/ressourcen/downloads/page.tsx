@@ -5,10 +5,6 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
-import { ParallaxHero } from '@/components/ui/ParallaxHero';
-import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
-import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
-import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { setRequestLocale } from 'next-intl/server';
 import { 
@@ -36,142 +32,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources.downloads' });
-
-  const timelineItems = [
-    {
-      year: t('timeline.items.0.year'),
-      title: t('timeline.items.0.title'),
-      text: t('timeline.items.0.text')
-    },
-    {
-      year: t('timeline.items.1.year'),
-      title: t('timeline.items.1.title'),
-      text: t('timeline.items.1.text')
-    },
-    {
-      year: t('timeline.items.2.year'),
-      title: t('timeline.items.2.title'),
-      text: t('timeline.items.2.text')
-    },
-    {
-      year: t('timeline.items.3.year'),
-      title: t('timeline.items.3.title'),
-      text: t('timeline.items.3.text')
-    }
-  ];
-
-  const stickyContent = [
-    {
-      title: t('sticky.items.0.title'),
-      description: t('sticky.items.0.desc'),
-      content: <PremiumAssetPlaceholder label="Belastungstests & Toleranzen" />
-    },
-    {
-      title: t('sticky.items.1.title'),
-      description: t('sticky.items.1.desc'),
-      content: <PremiumAssetPlaceholder label="Molekulare Struktur" />
-    },
-    {
-      title: t('sticky.items.2.title'),
-      description: t('sticky.items.2.desc'),
-      content: <PremiumAssetPlaceholder label="Hydraulik & Strömung" />
-    },
-    {
-      title: t('sticky.items.3.title'),
-      description: t('sticky.items.3.desc'),
-      content: <PremiumAssetPlaceholder label="Globale Zertifikate" />
-    }
-  ];
-
-  return (
+  const t = await getTranslations({ locale, namespace: 'resources.downloads' });  return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      
-      {/* 1) Hero Section */}
-      <ParallaxHero
-        eyebrow={t('hero.eyebrow')}
-        title={
-          <>
-            {t('hero.title1')}<br />
-            <span className="text-muted-foreground">{t('hero.title2')}</span>
-          </>
-        }
-        description={t('hero.desc')}
-      >
-        <Button variant="primary" size="lg" href="/projektanfrage">
-          {t('hero.cta1')} <ArrowRight className="ms-2 w-5 h-5" />
-        </Button>
-        <Button variant="ghost" size="lg" href="#dokumente">
-          {t('hero.cta2')}
-        </Button>
-      </ParallaxHero>
-
-      {/* 2) Value Proposition Grid (Bento Grid) */}
-      <section id="dokumente" className="py-32 bg-card border-b border-card-border">
-        <div className="mx-auto max-w-[1400px] px-6">
-          <SectionHead
-            eyebrow={t('bento.eyebrow')}
-            title={t('bento.title')}
-            lead={t('bento.lead')}
-            align="center"
-          />
-          <div className="mt-20">
-            <BentoGrid>
-              <BentoGridItem
-                title={t('bento.items.0.title')}
-                description={t('bento.items.0.desc')}
-                header={<PremiumAssetPlaceholder label="Tech-Sheets 3D" />}
-                icon={<Ruler className="w-8 h-8 text-primary" />}
-                colSpan={2}
-              />
-              <BentoGridItem
-                title={t('bento.items.1.title')}
-                description={t('bento.items.1.desc')}
-                header={<div className="w-full h-full bg-background flex items-center justify-center p-6 rounded-t-2xl"><Shield className="w-24 h-24 text-primary/10" /></div>}
-                icon={<Shield className="w-8 h-8 text-primary" />}
-                colSpan={1}
-              />
-              <BentoGridItem
-                title={t('bento.items.2.title')}
-                description={t('bento.items.2.desc')}
-                header={<div className="w-full h-full bg-background flex items-center justify-center p-6 rounded-t-2xl"><Globe className="w-24 h-24 text-primary/10" /></div>}
-                icon={<Globe className="w-8 h-8 text-primary" />}
-                colSpan={1}
-              />
-              <BentoGridItem
-                title={t('bento.items.3.title')}
-                description={t('bento.items.3.desc')}
-                header={<PremiumAssetPlaceholder label="Katalog 2026" />}
-                icon={<Layers className="w-8 h-8 text-primary" />}
-                colSpan={2}
-              />
-            </BentoGrid>
-          </div>
-        </div>
-      </section>
-
-      {/* 3) Sticky Scroll Reveal (Apple-style scroll-telling) */}
-      <section className="py-32 bg-background kq-band kq-band--slant-b border-b border-card-border relative z-20">
-        <div className="mx-auto max-w-[1400px] px-6">
-          <SectionHead
-            eyebrow={t('sticky.eyebrow')}
-            title={t('sticky.title')}
-            lead={t('sticky.lead')}
-            align="left"
-          />
-          <div className="mt-20">
-            <StickyScrollReveal content={stickyContent} />
-          </div>
-        </div>
-      </section>
-
-      {/* 4) Horizontal Timeline */}
-      <HorizontalTimeline 
-        title={t('timeline.title')}
-        description={t('timeline.desc')}
-        items={timelineItems}
-        className="py-0 relative z-10" 
-      />
 
       {/* 5) Deep Dive Content & Methodology */}
       <section className="py-32 bg-card border-y border-card-border relative overflow-hidden z-20">

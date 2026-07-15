@@ -7,10 +7,6 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { DataTable } from "@/components/ui/DataTable";
 
-import { ParallaxHero } from "@/components/ui/ParallaxHero";
-import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
-import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
-import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 
 import { Layers, Wrench, Flame, Thermometer, Download } from "@/components/ui/icon";
@@ -58,40 +54,7 @@ export default async function ProduktePage({ params }: Props) {
   const range = t.raw("range") as RangeItem[];
   const tableHead = t.raw("tableHead") as string[];
   const tableRows = t.raw("tableRows") as string[][];
-  const catalogJsonLd = await getProductCatalogJsonLd(locale);
-
-  const scrollContent = [
-    {
-      title: t('sticky.items.0.title'),
-      description: t('sticky.items.0.desc'),
-      content: <PremiumAssetPlaceholder label="PPR Pipe Cross-Section 3D" />
-    },
-    {
-      title: t('sticky.items.1.title'),
-      description: t('sticky.items.1.desc'),
-      content: <PremiumAssetPlaceholder label="Flow Dynamics Simulation" />
-    },
-    {
-      title: t('sticky.items.2.title'),
-      description: t('sticky.items.2.desc'),
-      content: <PremiumAssetPlaceholder label="Valve Mechanism Exploded View" />
-    },
-    {
-      title: t('sticky.items.3.title'),
-      description: t('sticky.items.3.desc'),
-      content: <PremiumAssetPlaceholder label="Multilayer Pipe Structure" />
-    }
-  ];
-
-  const timelineItems = [
-    { year: t('timeline.items.0.year'), title: t('timeline.items.0.title'), text: t('timeline.items.0.text') },
-    { year: t('timeline.items.1.year'), title: t('timeline.items.1.title'), text: t('timeline.items.1.text') },
-    { year: t('timeline.items.2.year'), title: t('timeline.items.2.title'), text: t('timeline.items.2.text') },
-    { year: t('timeline.items.3.year'), title: t('timeline.items.3.title'), text: t('timeline.items.3.text') },
-    { year: t('timeline.items.4.year'), title: t('timeline.items.4.title'), text: t('timeline.items.4.text') },
-  ];
-
-  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const catalogJsonLd = await getProductCatalogJsonLd(locale);  const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("products") as string[];
 
   return (
@@ -101,99 +64,6 @@ export default async function ProduktePage({ params }: Props) {
         <p>{meta[1]}</p>
       </div>
       <JsonLd schema={catalogJsonLd} />
-      
-      {/* 1. Cinematic Parallax Hero */}
-      <ParallaxHero
-        eyebrow={t('hero.eyebrow')}
-        title={
-          <>
-            {t('hero.title1')} <br />
-            <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-              {t('hero.title2')}
-            </span>
-          </>
-        }
-        description={t('hero.desc')}
-        className="kq-band kq-band--dune"
-      >
-        <Button
-          href={RANGE_PDF_URL}
-          icon={<Download className="w-5 h-5" />}
-          target="_blank"
-          rel="noreferrer"
-          className="min-h-[56px] px-8 text-lg"
-        >
-          {t("ctaCatalog") || "Gesamtkatalog Download"}
-        </Button>
-        <Link href="/service" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-transparent text-foreground border border-card-border hover:border-primary hover:text-primary hover:bg-primary-soft min-h-[56px] px-8 text-lg">
-          {t("ctaVideos") || "Installationsvideos ansehen"}
-        </Link>
-      </ParallaxHero>
-
-      {/* 2. Apple-Style Sticky Scroll Reveal */}
-      <section className="py-24 bg-background border-b border-card-border">
-        <div className="max-w-[1400px] mx-auto px-6 mb-16 text-center">
-          <SectionHead
-            eyebrow={t('sticky.eyebrow')}
-            title={t('sticky.title')}
-            lead={t('sticky.lead')}
-          />
-        </div>
-        <StickyScrollReveal content={scrollContent} />
-      </section>
-
-      {/* 3. Tech-Heavy Bento Grid */}
-      <section className="py-24 bg-background-subtle kq-band kq-band--slant-b">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <div className="mb-16 text-center">
-            <Reveal>
-              <SectionHead
-                eyebrow={t('bento.eyebrow')}
-                title={t('bento.title')}
-                lead={t('bento.lead')}
-              />
-            </Reveal>
-          </div>
-          <BentoGrid>
-            <BentoGridItem
-              title={t('bento.items.0.title')}
-              description={t('bento.items.0.desc')}
-              header={<PremiumAssetPlaceholder label="Thermal Fusion Process" className="min-h-[200px]" />}
-              icon={<Flame className="w-8 h-8 text-primary mb-4" />}
-              colSpan={2}
-            />
-            <BentoGridItem
-              title={t('bento.items.1.title')}
-              description={t('bento.items.1.desc')}
-              header={<div className="w-full h-full min-h-[150px] bg-gradient-to-br from-card to-background flex items-center justify-center border-b border-card-border"><Shield className="w-16 h-16 text-primary/20" /></div>}
-              icon={<Shield className="w-8 h-8 text-primary mb-4" />}
-              colSpan={1}
-            />
-            <BentoGridItem
-              title={t('bento.items.2.title')}
-              description={t('bento.items.2.desc')}
-              header={<div className="w-full h-full min-h-[150px] bg-gradient-to-br from-card to-background flex items-center justify-center border-b border-card-border"><Activity className="w-16 h-16 text-primary/20" /></div>}
-              icon={<Activity className="w-8 h-8 text-primary mb-4" />}
-              colSpan={1}
-            />
-            <BentoGridItem
-              title={t('bento.items.3.title')}
-              description={t('bento.items.3.desc')}
-              header={<PremiumAssetPlaceholder label="Pressure Stress Test Graph" className="min-h-[200px]" />}
-              icon={<Layers className="w-8 h-8 text-primary mb-4" />}
-              colSpan={2}
-            />
-          </BentoGrid>
-        </div>
-      </section>
-
-      {/* 4. Horizontal Timeline */}
-      <HorizontalTimeline
-        title={t('timeline.title')}
-        description={t('timeline.desc')}
-        items={timelineItems}
-        className="mt-12"
-      />
 
       {/* 5. Legacy Range System & Data Tables (Original Requirement) */}
       <section className="py-24 bg-background">
