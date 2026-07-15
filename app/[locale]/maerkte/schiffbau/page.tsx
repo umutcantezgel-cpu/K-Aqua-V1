@@ -4,10 +4,6 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { ArrowRight } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
-import { ParallaxHero } from '@/components/ui/ParallaxHero';
-import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
-import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
-import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
@@ -27,62 +23,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'markets.schiffbau' });
-
-  const stickyScrollContent = [
-    {
-      title: t('scroll1Title'),
-      description: t('scroll1Desc'),
-      content: (
-        <div className="w-full h-full flex items-center justify-center p-4">
-          <PremiumAssetPlaceholder 
-            label="Korrosions-Matrix" 
-             
-            className="rounded-xl shadow-2xl w-full h-full object-cover"
-          />
-        </div>
-      )
-    },
-    {
-      title: t('scroll2Title'),
-      description: t('scroll2Desc'),
-      content: (
-        <div className="w-full h-full flex items-center justify-center p-4">
-          <PremiumAssetPlaceholder 
-            label="Gewichts-Analyse" 
-             
-            className="rounded-xl shadow-2xl w-full h-full object-cover"
-          />
-        </div>
-      )
-    },
-    {
-      title: t('scroll3Title'),
-      description: t('scroll3Desc'),
-      content: (
-        <div className="w-full h-full flex items-center justify-center p-4">
-          <PremiumAssetPlaceholder 
-            label="Vibrations-Dämpfung" 
-             
-            className="rounded-xl shadow-2xl w-full h-full object-cover"
-          />
-        </div>
-      )
-    },
-    {
-      title: t('scroll4Title'),
-      description: t('scroll4Desc'),
-      content: (
-        <div className="w-full h-full flex items-center justify-center p-4">
-          <PremiumAssetPlaceholder 
-            label="Polyfusion" 
-             
-            className="rounded-xl shadow-2xl w-full h-full object-cover"
-          />
-        </div>
-      )
-    }
-  ];
-
   const timelineEvents = [
     {
       year: 'Phase 1',
@@ -108,108 +48,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      
-      {/* 1) Hero Section */}
-      <ParallaxHero
-        eyebrow={t('heroBadge')}
-        title={
-          <>
-            {t('heroTitle')} <br />
-            <span className="text-muted-foreground">{t('heroSubtitle')}</span>
-          </>
-        }
-        description={t('heroDesc')}
-      >
-        <Button variant="primary" size="lg" href="/projektanfrage" className="text-lg px-8 py-6 rounded-full">
-          {t('heroBtnPrimary')}
-        </Button>
-        <Button variant="secondary" size="lg" href="/ressourcen/downloads" className="text-lg px-8 py-6 rounded-full">
-          {t('heroBtnSecondary')}
-        </Button>
-      </ParallaxHero>
-
-      {/* 2) Manifesto / Deep Dive Intro */}
-      <section className="py-32 bg-background border-b border-card-border">
-        <div className="mx-auto max-w-[1000px] px-6 text-center">
-          <SectionHead
-            eyebrow={t('section1Eyebrow')}
-            title={t('section1Title')}
-            lead={t('section1Lead')}
-            align="center"
-          />
-          <div className="mt-16 text-start">
-            <p className="text-xl md:text-2xl font-light leading-relaxed text-muted-foreground">
-              {t('section1P1')}
-            </p>
-            <br />
-            <p className="text-xl md:text-2xl font-light leading-relaxed text-muted-foreground">
-              {t('section1P2')}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 3) Sticky Scroll Reveal - Feature Deep Dive */}
-      <section className="bg-card">
-        <StickyScrollReveal content={stickyScrollContent} />
-      </section>
-
-      {/* 4) Bento Grid - Technical Specs */}
-      <section className="py-32 bg-background">
-        <div className="mx-auto max-w-[1400px] px-6">
-          <SectionHead
-            eyebrow={t('section2Eyebrow')}
-            title={t('section2Title')}
-            lead={t('section2Lead')}
-            align="left"
-          />
-          
-          <div className="mt-16">
-            <BentoGrid className="md:auto-rows-[25rem]">
-              <BentoGridItem
-                title={t('bento1Title')}
-                description={t('bento1Desc')}
-                header={
-                  <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Langzeit-Analyse"  className="w-full h-full object-cover" />
-                  </div>
-                }
-                className="md:col-span-2"
-              />
-              <BentoGridItem
-                title={t('bento2Title')}
-                description={t('bento2Desc')}
-                header={
-                  <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Zertifikat-Stack"  className="w-full h-full object-cover" />
-                  </div>
-                }
-                className="md:col-span-1"
-              />
-              <BentoGridItem
-                title={t('bento3Title')}
-                description={t('bento3Desc')}
-                header={
-                  <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Strömungsdynamik"  className="w-full h-full object-cover" />
-                  </div>
-                }
-                className="md:col-span-1"
-              />
-              <BentoGridItem
-                title={t('bento4Title')}
-                description={t('bento4Desc')}
-                header={
-                  <div className="w-full h-full min-h-[10rem] flex items-center justify-center bg-card-border/30 rounded-xl overflow-hidden">
-                    <PremiumAssetPlaceholder label="Thermo-Mapping"  className="w-full h-full object-cover" />
-                  </div>
-                }
-                className="md:col-span-2"
-              />
-            </BentoGrid>
-          </div>
-        </div>
-      </section>
 
       {/* 5) Additional Long-Form Engineering Copy */}
       <section className="py-32 bg-card border-y border-card-border">
@@ -252,13 +90,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </section>
 
       {/* 6) Horizontal Timeline */}
-      <section className="py-32 bg-background overflow-hidden">
-        <HorizontalTimeline 
-          items={timelineEvents}
-          title={t('section4Title')}
-          description={t('section4Lead')}
-        />
-      </section>
 
       {/* 7) Final Text Section - The German Engineering Promise */}
       <section className="py-32 bg-card border-t border-card-border">
