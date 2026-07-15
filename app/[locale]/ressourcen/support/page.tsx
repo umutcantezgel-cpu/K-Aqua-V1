@@ -7,8 +7,11 @@ import { CTABand } from '@/components/ui/CTABand';
 import { getTranslations } from 'next-intl/server';
 
 // Premium Scroll-Telling Components
+import { ParallaxHero } from '@/components/ui/ParallaxHero';
+import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
+import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
+import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
-import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -49,8 +52,122 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       content: <PremiumAssetPlaceholder label="Direct Developer Interface" />
     }
   ];
+
+  const timelineItems = [
+    { year: t('support.timeline.items.0.year'), title: t('support.timeline.items.0.title'), text: t('support.timeline.items.0.text') },
+    { year: t('support.timeline.items.1.year'), title: t('support.timeline.items.1.title'), text: t('support.timeline.items.1.text') },
+    { year: t('support.timeline.items.2.year'), title: t('support.timeline.items.2.title'), text: t('support.timeline.items.2.text') },
+    { year: t('support.timeline.items.3.year'), title: t('support.timeline.items.3.title'), text: t('support.timeline.items.3.text') },
+    { year: t('support.timeline.items.4.year'), title: t('support.timeline.items.4.title'), text: t('support.timeline.items.4.text') }
+  ];
+
   return (
     <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
+      
+      {/* 1) Epic Parallax Hero */}
+      <ParallaxHero
+        eyebrow={t('support.hero.eyebrow')}
+        title={
+          <>
+            {t('support.hero.title1')} <br /> <span className="text-muted-foreground">{t('support.hero.title2')}</span>
+          </>
+        }
+        description={t('support.hero.desc')}
+      >
+        <Button variant="primary" size="lg" href="/projektanfrage">{t('support.hero.btnPrimary')}</Button>
+        <Button variant="ghost" size="lg" href="#protocols">{t('support.hero.btnGhost')}</Button>
+      </ParallaxHero>
+
+      {/* 2) Core Philosophy / Intro */}
+      <section className="py-32 md:py-48 bg-background border-b border-card-border overflow-hidden relative">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(var(--primary),0.03)_0%,transparent_70%)] pointer-events-none" />
+        <div className="mx-auto max-w-[1400px] px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-black tracking-tighter mb-10 leading-[1.05]">
+              {t('support.intro.title1')} <br/>
+              <span className="text-primary">{t('support.intro.title2')}</span>
+            </h2>
+            <div className="flex flex-col gap-8 text-xl sm:text-2xl text-muted-foreground leading-relaxed font-light">
+              <p>
+                {t('support.intro.p1')}
+              </p>
+              <p>
+                {t('support.intro.p2')}
+              </p>
+              <p className="font-medium text-foreground text-2xl sm:text-3xl mt-4">
+                {t('support.intro.p3')}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3) Sticky Scroll Reveal for Protocols */}
+      <section id="protocols" className="py-32 bg-card border-b border-card-border relative z-20">
+        <div className="mx-auto max-w-[1400px] px-6 mb-24">
+          <SectionHead
+            eyebrow={t('support.sticky.eyebrow')}
+            title={t('support.sticky.title')}
+            lead={t('support.sticky.lead')}
+            align="center"
+          />
+        </div>
+        <StickyScrollReveal content={supportProtocols} />
+      </section>
+
+      {/* 4) Bento Grid: Engineering Services */}
+      <section className="py-32 md:py-48 bg-background kq-band kq-band--slant-t relative z-10">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <SectionHead
+            eyebrow={t('support.bento.eyebrow')}
+            title={t('support.bento.title')}
+            lead={t('support.bento.lead')}
+            align="center"
+          />
+          <div className="mt-24">
+            <BentoGrid>
+              <BentoGridItem
+                title={t('support.bento.items.0.title')}
+                description={t('support.bento.items.0.desc')}
+                header={<PremiumAssetPlaceholder label="Migration Matrix" className="min-h-[240px]" />}
+                colSpan={2}
+              />
+              <BentoGridItem
+                title={t('support.bento.items.1.title')}
+                description={t('support.bento.items.1.desc')}
+                header={<PremiumAssetPlaceholder label="Kernel Tuning" className="min-h-[240px]" />}
+                colSpan={1}
+              />
+              <BentoGridItem
+                title={t('support.bento.items.2.title')}
+                description={t('support.bento.items.2.desc')}
+                header={<PremiumAssetPlaceholder label="Secure Enclave" className="min-h-[240px]" />}
+                colSpan={1}
+              />
+              <BentoGridItem
+                title={t('support.bento.items.3.title')}
+                description={t('support.bento.items.3.desc')}
+                header={<PremiumAssetPlaceholder label="API Gateway" className="min-h-[240px]" />}
+                colSpan={2}
+              />
+              <BentoGridItem
+                title={t('support.bento.items.4.title')}
+                description={t('support.bento.items.4.desc')}
+                header={<PremiumAssetPlaceholder label="Geo-Redundancy" className="min-h-[300px]" />}
+                colSpan={3}
+              />
+            </BentoGrid>
+          </div>
+        </div>
+      </section>
+
+      {/* 5) Horizontal Timeline: Incident Response */}
+      <HorizontalTimeline
+        title={t('support.timeline.title')}
+        description={t('support.timeline.desc')}
+        items={timelineItems}
+        className="z-20"
+      />
 
       {/* 6) Deep Technical Metrics / Philosophy */}
       <section className="py-32 md:py-48 bg-card border-y border-card-border">
@@ -110,13 +227,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </CTABand>
         </div>
       </section>
-
-      {/* SEO Continuous Text for Crawlers (Resolves "Seiten ohne Fließtext") */}
-      <div className="sr-only">
-        <p>{t('support.seoText.p1')}</p>
-        <p>{t('support.seoText.p2')}</p>
-        <p>{t('support.seoText.p3')}</p>
-      </div>
 
     </div>
   );
