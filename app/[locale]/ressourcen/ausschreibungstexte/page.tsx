@@ -5,8 +5,11 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { Shield, Download, Award, Layers, Globe, Check, FileText, Factory, Ruler } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
+import { ParallaxHero } from '@/components/ui/ParallaxHero';
+import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
+import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
+import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
-import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -44,9 +47,109 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
+      
+      {/* 1) Apple-Style Parallax Hero */}
+      <ParallaxHero 
+        eyebrow={t('hero.eyebrow')}
+        title={
+          <>
+            {t('hero.title1')}<br />
+            <span className="text-muted-foreground">{t('hero.title2')}</span>
+          </>
+        }
+        description={t('hero.desc')}
+      >
+        <div className="flex flex-wrap gap-4 mt-12 justify-center lg:justify-start">
+          <Button variant="primary" size="lg" href="/ressourcen/downloads">
+            {t('hero.cta1')}
+          </Button>
+          <Button variant="ghost" size="lg" href="/projektanfrage">
+            {t('hero.cta2')}
+          </Button>
+        </div>
+      </ParallaxHero>
+
+      {/* 2) Manifesto Section: Huge Typography */}
+      <section className="py-32 md:py-48 bg-background border-b border-card-border overflow-hidden relative">
+        <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+        <div className="mx-auto max-w-[1200px] px-6 text-center">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold tracking-tight leading-[1.1] mb-12">
+            {t('manifesto.title1')} <br className="hidden md:block"/>
+            <span className="text-muted-foreground">{t('manifesto.title2')}</span>
+          </h2>
+          <div className="max-w-4xl mx-auto text-xl md:text-3xl text-muted-foreground leading-relaxed space-y-12 font-light">
+            <p>{t('manifesto.p1')}</p>
+            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p2') }} />
+          </div>
+        </div>
+      </section>
+
+      {/* 3) Sticky Scroll Reveal Deep Dive */}
+      <section className="bg-card">
+        <StickyScrollReveal content={deepDiveContent} />
+      </section>
+
+      {/* 4) Bento Grid Features */}
+      <section className="py-32 md:py-48 bg-background kq-band kq-band--slant-b relative">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--primary-soft)_0%,transparent_70%)] opacity-20 pointer-events-none" />
+        <div className="mx-auto max-w-[1400px] px-6 relative z-10">
+          <div className="max-w-3xl mb-24">
+            <SectionHead
+              eyebrow={t('bento.eyebrow')}
+              title={t('bento.title')}
+              lead={t('bento.lead')}
+              align="left"
+            />
+          </div>
+          
+          <BentoGrid>
+            <BentoGridItem 
+              title={t('bento.items.0.title')}
+              description={t('bento.items.0.desc')}
+              icon={<Shield className="w-8 h-8 text-primary" />}
+              colSpan={2}
+              className="bg-card/50 backdrop-blur-sm"
+            />
+            <BentoGridItem 
+              title={t('bento.items.1.title')}
+              description={t('bento.items.1.desc')}
+              icon={<Download className="w-8 h-8 text-primary" />}
+              className="bg-card/50 backdrop-blur-sm"
+            />
+            <BentoGridItem 
+              title={t('bento.items.2.title')}
+              description={t('bento.items.2.desc')}
+              icon={<Award className="w-8 h-8 text-primary" />}
+              className="bg-card/50 backdrop-blur-sm"
+            />
+            <BentoGridItem 
+              title={t('bento.items.3.title')}
+              description={t('bento.items.3.desc')}
+              icon={<Layers className="w-8 h-8 text-primary" />}
+              colSpan={2}
+              className="bg-card/50 backdrop-blur-sm"
+            />
+            <BentoGridItem 
+              title={t('bento.items.4.title')}
+              description={t('bento.items.4.desc')}
+              icon={<Globe className="w-8 h-8 text-primary" />}
+              colSpan={3}
+              className="bg-card/50 backdrop-blur-sm"
+              header={<div className="h-64 w-full bg-primary/5 rounded-t-2xl flex items-center justify-center p-6"><PremiumAssetPlaceholder label="BIM 5D Integration Model" className="w-full h-full rounded-xl" /></div>}
+            />
+          </BentoGrid>
+        </div>
+      </section>
 
       {/* 5) Horizontal Timeline */}
       <section className="py-32 md:py-48 bg-card border-y border-card-border overflow-hidden">
+         <div className="mx-auto max-w-[1400px] px-6">
+           <HorizontalTimeline 
+             title={t('timeline.title')}
+             description={t('timeline.desc')}
+             items={timelineData}
+           />
+         </div>
       </section>
 
       {/* 6) Deep Technical Specs Grid */}
@@ -95,7 +198,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/ressourcen/downloads">
                 {t('cta.btn1')}
               </Button>
-              <Button variant="secondary" size="lg" href="/kontakt" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
+              <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
                 {t('cta.btn2')}
               </Button>
             </div>
