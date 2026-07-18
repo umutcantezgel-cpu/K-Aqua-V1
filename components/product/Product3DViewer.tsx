@@ -780,11 +780,6 @@ export default function Product3DViewer({ category }: Props) {
 
         {/* Post-Processing effects stack */}
         <EffectComposer disableNormalPass={false} multisampling={0}>
-          <SSAO 
-            intensity={1.2} 
-            radius={0.4} 
-            luminanceInfluence={0.6} 
-          />
           <Bloom 
             luminanceThreshold={0.55} 
             luminanceSmoothing={0.85} 
