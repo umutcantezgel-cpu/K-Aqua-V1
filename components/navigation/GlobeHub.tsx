@@ -58,11 +58,9 @@ export default function GlobeHub({ onClose }: { onClose: () => void }) {
   };
 
   const getGroupLabel = (group: string) => {
-    try {
-      return t(`groups.${group}`);
-    } catch {
-      return group;
-    }
+    const groupKey = `groups.${group}`;
+    if (t.has(groupKey as any)) return t(groupKey as any);
+    return group;
   };
 
   useEffect(() => {
