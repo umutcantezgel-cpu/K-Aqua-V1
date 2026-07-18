@@ -41,17 +41,13 @@ export default function GlobeHub({ onClose }: { onClose: () => void }) {
 
   // Translation helpers: try to find a nice label in the existing translations
   const getLabel = (id: string) => {
-    // If we have specific page translations, we use them, otherwise fallback to nav
     const safeKey = id.replace('/', '_');
-    try {
-      const pageLabel = t(`pages.${safeKey}`);
-      if (pageLabel && pageLabel !== `pages.${safeKey}`) return pageLabel;
-    } catch {}
+    const pageKey = `pages.${safeKey}`;
+    if (t.has(pageKey as any)) return t(pageKey as any);
     
-    try {
-      const navLabel = t(`nav.${id.split('/').pop() || id}`);
-      if (navLabel && navLabel !== `nav.${id.split('/').pop() || id}`) return navLabel;
-    } catch {}
+    const navKeyPart = id.split('/').pop() || id;
+    const navKey = `nav.${navKeyPart}`;
+    if (t.has(navKey as any)) return t(navKey as any);
     
     return id; // fallback
   };

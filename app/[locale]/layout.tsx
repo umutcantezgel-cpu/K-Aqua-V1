@@ -52,6 +52,7 @@ export default async function LocaleLayout({
     'home',
     'cookieConsent',
     'products',
+    'pages',
     'productsx',
     'catalogx',
     'newsx',
