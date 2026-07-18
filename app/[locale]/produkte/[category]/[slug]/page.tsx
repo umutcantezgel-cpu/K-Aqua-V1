@@ -12,7 +12,7 @@ import { Metadata } from 'next';
 import { constructMetadata } from "@/lib/seo/metadata";
 import { getProductSchema } from '@/lib/seo/schema';
 import React from 'react';
-import Product3DViewerWrapper from '@/components/product/Product3DViewerWrapper';
+
 import ProductGallery from '@/components/product/ProductGallery';
 import ProductFAQ from '@/components/product/ProductFAQ';
 import ProductDownloads from '@/components/product/ProductDownloads';
@@ -248,10 +248,7 @@ export default async function ProductDetailPage({
               </Reveal>
             </div>
             
-            {/* Interactive 3D Model or Gallery */}
-            <Reveal delay={0.2} className="hidden lg:flex justify-end w-full">
-              <Product3DViewerWrapper category={seoCat} />
-            </Reveal>
+
           </div>
         </div>
       </section>
