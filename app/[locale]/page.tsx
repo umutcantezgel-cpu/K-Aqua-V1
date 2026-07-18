@@ -276,7 +276,13 @@ export default async function Page({ params }: Props) {
                 </div>
               </div>
               <div className="w-full md:w-1/3 shrink-0">
-                <MediaSlot label={tHomex('manifestTitle')} aspectRatio="4/3" shapeVariant="sweep-r" />
+                <MediaSlot 
+                  alt={tHomex('manifestTitle')} 
+                  aspectRatio="4/3" 
+                  shapeVariant="sweep-r" 
+                  src="/images/new-k-aqua/About Us Bild.webp" 
+                  loading="lazy"
+                />
               </div>
             </Card>
 
@@ -291,7 +297,13 @@ export default async function Page({ params }: Props) {
                 </p>
               </div>
               <div className="mt-6 flex flex-col gap-4">
-                <MediaSlot label={tHomex('worldTitle')} aspectRatio="16/9" shapeVariant="sweep-l" />
+                <MediaSlot 
+                  alt={tHomex('worldTitle')} 
+                  aspectRatio="16/9" 
+                  shapeVariant="sweep-l" 
+                  src="/images/new-k-aqua/Treffen Sie K Aqua auf der Big 5 Messe in Saudi-Arabien!.webp"
+                  loading="lazy"
+                />
                 <Button
                   variant="ghost"
                   href="/referenzen"

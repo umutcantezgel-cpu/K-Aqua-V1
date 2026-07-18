@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
 'use client';
 
 /**
@@ -138,6 +136,7 @@ uniform vec4 uSplashPos[SMAX];
 uniform float uSplashAlpha[SMAX];
 uniform vec2 uClickPos;
 uniform float uClickAge;
+uniform vec4 uBounds;
 
 float capsule(vec2 p, vec2 a, vec2 b, float ra, float rb){
   vec2 pa = p-a, ba = b-a;
@@ -152,6 +151,9 @@ float distSeg(vec2 p, vec2 a, vec2 b){
 
 void main(){
   vec2 p = gl_FragCoord.xy;
+  if (p.x < uBounds.x || p.y < uBounds.y || p.x > uBounds.z || p.y > uBounds.w) {
+    discard;
+  }
   float d = 1.0e6;
   for (int i=0; i<NPTS-1; i++){
     vec3 a = uPts[i];
@@ -259,7 +261,7 @@ export default function WaterCursor(props: WaterCursorProps) {
     const U: Record<string, WebGLUniformLocation | null> = {};
     [
       'uPts', 'uColor', 'uSplashCount', 'uSplashPos', 'uSplashAlpha',
-      'uClickPos', 'uClickAge'
+      'uClickPos', 'uClickAge', 'uBounds'
     ].forEach((name) => { U[name] = gl.getUniformLocation(prog, name); });
 
     document.documentElement.classList.add('kq-water-on');
@@ -292,8 +294,10 @@ export default function WaterCursor(props: WaterCursorProps) {
 
     function resize() {
       const w = innerWidth, h = innerHeight;
-      bufW = Math.max(1, Math.round(w * RES_SCALE));
-      bufH = Math.max(1, Math.round(h * RES_SCALE));
+      // 4K Ultra HD: Wir nehmen die echte Pixeldichte (devicePixelRatio)
+      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      bufW = Math.max(1, Math.round(w * dpr));
+      bufH = Math.max(1, Math.round(h * dpr));
       canvas!.width = bufW; canvas!.height = bufH;
       pxScale = bufW / w;
       gl!.viewport(0, 0, bufW, bufH);
@@ -400,12 +404,15 @@ export default function WaterCursor(props: WaterCursorProps) {
         head.x += vel.x * sf;
         head.y += vel.y * sf;
       }
-      const segmentDelay = trailMs / (NPTS - 1);
-      const alpha = Math.min(1, (dtMs * speed) / segmentDelay);
+      
+      // FIX für den "zwei fliegende Punkte"-Bug: Die Punkte dürfen nicht sofort zum Kopf snappen!
+      const alpha = clamp((dtMs * speed) / 30, 0.1, 0.95);
       for (let i = 1; i < NPTS; i++) {
         pts[i].x += (pts[i - 1].x - pts[i].x) * alpha;
         pts[i].y += (pts[i - 1].y - pts[i].y) * alpha;
       }
+
+      let minX = 99999, maxX = -99999, minY = 99999, maxY = -99999;
 
       /* packen: konstante Dicke × Ribbons-Taper an den Enden */
       const baseR = 5 * trailScale * (1 + hoverT * 0.3);
@@ -414,6 +421,12 @@ export default function WaterCursor(props: WaterCursorProps) {
         ptsBuf[i * 3] = dv[0];
         ptsBuf[i * 3 + 1] = dv[1];
         ptsBuf[i * 3 + 2] = baseR * taper[i] * pxScale;
+        
+        const r = ptsBuf[i * 3 + 2] + 4.0;
+        if (dv[0] - r < minX) minX = dv[0] - r;
+        if (dv[0] + r > maxX) maxX = dv[0] + r;
+        if (dv[1] - r < minY) minY = dv[1] - r;
+        if (dv[1] + r > maxY) maxY = dv[1] + r;
       }
 
       for (let i = 0; i < SMAX; i++) {
@@ -430,7 +443,24 @@ export default function WaterCursor(props: WaterCursorProps) {
         splashPosBuf[i * 4] = dvp[0]; splashPosBuf[i * 4 + 1] = dvp[1];
         splashPosBuf[i * 4 + 2] = p.vx * pxScale; splashPosBuf[i * 4 + 3] = -p.vy * pxScale;
         splashAlphaBuf[i] = p.alpha * (o.splashScale ?? 1);
+        
+        const r = 45.0 * pxScale;
+        if (dvp[0] - r < minX) minX = dvp[0] - r;
+        if (dvp[0] + r > maxX) maxX = dvp[0] + r;
+        if (dvp[1] - r < minY) minY = dvp[1] - r;
+        if (dvp[1] + r > maxY) maxY = dvp[1] + r;
       }
+
+      if (t - clickTime < 620) {
+        const cp = toDevice(clickPos.x, clickPos.y);
+        const rr = ((t - clickTime) / 1000) * 260.0 * pxScale + 12.0 * pxScale;
+        if (cp[0] - rr < minX) minX = cp[0] - rr;
+        if (cp[0] + rr > maxX) maxX = cp[0] + rr;
+        if (cp[1] - rr < minY) minY = cp[1] - rr;
+        if (cp[1] + rr > maxY) maxY = cp[1] + rr;
+      }
+      
+      minX -= 10.0; minY -= 10.0; maxX += 10.0; maxY += 10.0;
 
       dotEl!.classList.add('is-active');
       dotEl!.style.transform = `translate3d(${mouse.x}px,${mouse.y}px,0) scale(${1 + hoverT * 1.5})`;
@@ -445,6 +475,7 @@ export default function WaterCursor(props: WaterCursorProps) {
       const cp = toDevice(clickPos.x, clickPos.y);
       gl!.uniform2f(U.uClickPos, cp[0], cp[1]);
       gl!.uniform1f(U.uClickAge, (t - clickTime) / 1000);
+      gl!.uniform4f(U.uBounds, minX, minY, maxX, maxY);
       gl!.drawArrays(gl!.TRIANGLES, 0, 3);
 
       raf = requestAnimationFrame(frame);

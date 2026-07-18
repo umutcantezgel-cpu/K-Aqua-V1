@@ -344,9 +344,9 @@ export default function UIPrimitivesPage() {
                 {LABELS.mediaSection}
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <MediaSlot aspectRatio="4/3" label={LABELS.mediaLabel43} />
-                <MediaSlot aspectRatio="16/9" label={LABELS.mediaLabel169} />
-                <MediaSlot aspectRatio="1/1" label={LABELS.mediaLabel11} />
+                <MediaSlot aspectRatio="4/3" alt={LABELS.mediaLabel43} />
+                <MediaSlot aspectRatio="16/9" alt={LABELS.mediaLabel169} />
+                <MediaSlot aspectRatio="1/1" alt={LABELS.mediaLabel11} />
               </div>
             </section>
           </div>
@@ -561,9 +561,9 @@ export default function UIPrimitivesPage() {
                 {LABELS.mediaSection}
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <MediaSlot aspectRatio="4/3" label={LABELS.mediaLabel43} />
-                <MediaSlot aspectRatio="16/9" label={LABELS.mediaLabel169} />
-                <MediaSlot aspectRatio="1/1" label={LABELS.mediaLabel11} />
+                <MediaSlot aspectRatio="4/3" alt={LABELS.mediaLabel43} />
+                <MediaSlot aspectRatio="16/9" alt={LABELS.mediaLabel169} />
+                <MediaSlot aspectRatio="1/1" alt={LABELS.mediaLabel11} />
               </div>
             </section>
           </div>
