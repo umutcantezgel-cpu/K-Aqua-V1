@@ -757,12 +757,8 @@ export default function Product3DViewer({ category }: Props) {
         {/* Smooth Cinematic Camera Rigging */}
         <CameraController activeComponent={activeComponent} controlsRef={controlsRef} />
 
-        {/* Loader wrapped inside ErrorBoundary to fallback to gorgeous procedural models if asset missing */}
-        <GLTFErrorBoundary fallback={<ProceduralFallback category={category} />}>
-          <React.Suspense fallback={null}>
-            <GLTFLoaderComponent category={category} />
-          </React.Suspense>
-        </GLTFErrorBoundary>
+        {/* Directly render ProceduralFallback since the GLTF asset is not yet available, bypassing dev 404 fetch errors */}
+        <ProceduralFallback category={category} />
 
         {/* Soft floor shadow */}
         <ContactShadows 
