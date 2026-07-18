@@ -112,7 +112,7 @@ export default async function ProductDetailPage({
   const tProd = await getTranslations({ locale, namespace: 'products' });
   
   const seoCat = getDynamicSeoCategory(category);
-  const seoBlocks = tSeo.raw(seoCat);
+  const seoBlocks = tSeo.has(seoCat) ? tSeo.raw(seoCat) : [];
   const codes = Array.isArray(product.article_codes) ? product.article_codes.join(", ") : (product.article_codes || 'N/A');
 
   // Dynamic Content Generation based on category
