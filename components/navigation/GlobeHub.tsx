@@ -42,12 +42,21 @@ export default function GlobeHub({ onClose }: { onClose: () => void }) {
   // Translation helpers: try to find a nice label in the existing translations
   const getLabel = (id: string) => {
     const safeKey = id.replace('/', '_');
-    const pageKey = `pages.${safeKey}`;
-    if (t.has(pageKey as any)) return t(pageKey as any);
     
+    // Check pages namespace (some values might be arrays for SEO, we only want strings)
+    const pageKey = `pages.${safeKey}`;
+    if (t.has(pageKey as any)) {
+      const rawVal = t.raw(pageKey as any);
+      if (typeof rawVal === 'string') return rawVal;
+    }
+    
+    // Check nav namespace
     const navKeyPart = id.split('/').pop() || id;
     const navKey = `nav.${navKeyPart}`;
-    if (t.has(navKey as any)) return t(navKey as any);
+    if (t.has(navKey as any)) {
+      const rawVal = t.raw(navKey as any);
+      if (typeof rawVal === 'string') return rawVal;
+    }
     
     return id; // fallback
   };
@@ -59,7 +68,10 @@ export default function GlobeHub({ onClose }: { onClose: () => void }) {
 
   const getGroupLabel = (group: string) => {
     const groupKey = `groups.${group}`;
-    if (t.has(groupKey as any)) return t(groupKey as any);
+    if (t.has(groupKey as any)) {
+      const rawVal = t.raw(groupKey as any);
+      if (typeof rawVal === 'string') return rawVal;
+    }
     return group;
   };
 
