@@ -12,6 +12,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
 import { StatBand } from "@/components/ui/StatBand";
 import { StepFlow } from "@/components/ui/StepFlow";
+import { MediaSlot } from "@/components/ui/MediaSlot";
 
 interface HouseItem {
   t: string;
@@ -95,6 +96,56 @@ export async function AboutDeep() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-[clamp(64px,9vw,120px)] border-t border-card-border" data-screen-label="about-insights">
+        <div className="mx-auto max-w-[1200px] px-6">
+          <Reveal>
+            <SectionHead eyebrow="Insights" title="K-Aqua Einblicke" lead="Entdecken Sie die Vorteile unserer Premium PPR-Systeme" />
+          </Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+            <Reveal delay={0.07}>
+               <MediaSlot 
+                 alt="PPR-Rohre als beste Lösung für moderne Installationen - Langlebigkeit und Effizienz" 
+                 aspectRatio="4/3" 
+                 shapeVariant="sweep-r" 
+                 src="/images/new-k-aqua/K Aqua Einblick – Warum PPR-Rohre die beste Lösung für moderne Installationen sind.jpg" 
+                 className="shadow-lift"
+                 priority
+               />
+            </Reveal>
+            <Reveal delay={0.14}>
+               <MediaSlot 
+                 alt="Was ist Polypropylen-Random-Copolymer (PPR)? Materialaufbau und Struktur" 
+                 aspectRatio="4/3" 
+                 shapeVariant="square" 
+                 src="/images/new-k-aqua/K Aqua Einblicke- Was ist Polypropylen-Random-Copolymer (PPR)?.jpg" 
+                 className="shadow-lift"
+                 loading="lazy"
+               />
+            </Reveal>
+            <Reveal delay={0.21}>
+               <MediaSlot 
+                 alt="K-Aqua setzt neue Maßstäbe in der Flexibilität bei deutschen PPR-Rohren" 
+                 aspectRatio="4/3" 
+                 shapeVariant="sweep-l" 
+                 src="/images/new-k-aqua/K Aqua setzt neue Maßstäbe in der Flexibilität bei deutschen PPR-Rohren .jpg" 
+                 className="shadow-lift"
+                 loading="lazy"
+               />
+            </Reveal>
+            <Reveal delay={0.28}>
+               <MediaSlot 
+                 alt="Hochwertige Messingeinsätze treffen auf German PPR für maximale Leistung" 
+                 aspectRatio="4/3" 
+                 shapeVariant="sweep-r" 
+                 src="/images/new-k-aqua/K Aqua Messingfittings- Hochwertige Messingeinsätze treffen auf German PPR – für maximale Leistung.jpg" 
+                 className="shadow-lift"
+                 loading="lazy"
+               />
+            </Reveal>
           </div>
         </div>
       </section>

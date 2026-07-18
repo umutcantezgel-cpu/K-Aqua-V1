@@ -33,6 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // STICKY_SCROLL_ITEMS moved into component
 
+const POLICY_ICONS = [Handshake, Users, Leaf];
+
 export default async function UnternehmenPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -76,7 +78,14 @@ export default async function UnternehmenPage({ params }: Props) {
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <Reveal>
-                <MediaSlot label={t("h2")} aspectRatio="4/3" className="shadow-lift" shapeVariant="sweep-r" />
+                <MediaSlot 
+                  alt={t("h2")} 
+                  aspectRatio="4/3" 
+                  className="shadow-lift" 
+                  shapeVariant="sweep-r" 
+                  src="/images/new-k-aqua/Fertigungs Bild Pipes.jpg" 
+                  priority
+                />
               </Reveal>
               <Reveal delay={0.12}>
                 <div className="text-start flex flex-col gap-6">

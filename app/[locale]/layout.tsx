@@ -60,7 +60,10 @@ export default async function LocaleLayout({
     'application',
     'customerReviews',
     'buyers',
-    'about'
+    'about',
+    'footer',
+    'toggle_theme_light',
+    'toggle_theme_dark'
   ]);
 
   const orgJsonLd = await getOrganizationJsonLd(locale);

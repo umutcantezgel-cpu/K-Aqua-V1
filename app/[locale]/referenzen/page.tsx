@@ -11,6 +11,7 @@ import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
+import { MediaSlot } from "@/components/ui/MediaSlot";
 import {
   ShieldAlert,
   Server,
@@ -50,7 +51,7 @@ export default async function ReferenzenPage({ params }: Props) {
     {
       title: "Projekt Alpha-Centauri: Globale Netzwerkinfrastruktur",
       description: "Eine kompromisslose Neugestaltung der Backend-Topologie für einen führenden europäischen Industriekonzern. Durch die Implementierung monolithischer Microservices (Edge-Native) konnten Latenzen im Nanosekundenbereich realisiert werden. Absolute Ausfallsicherheit wird durch redundante, geo-replizierte Clusterstrukturen in zwölf Rechenzentren weltweit garantiert. Die Architektur skaliert elastisch und prädiktiv basierend auf neuronalen Lastmodellen, ohne menschliche Interaktion.",
-      content: <PremiumAssetPlaceholder label="Netzwerktopologie 3D Modell" />
+      content: <MediaSlot alt="K-Aqua Video - Projekt Alpha-Centauri Globale Netzwerkinfrastruktur" aspectRatio="16/9" src="/images/new-k-aqua/K-Aqua Video.mp4" />
     },
     {
       title: "Operation Deep-Blue: Prädiktive Wartungssysteme",

@@ -11,6 +11,8 @@ import { Link } from "@/lib/i18n/navigation";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
 import { routing } from "@/lib/i18n/routing";
 import { setRequestLocale } from 'next-intl/server';
+import { MediaSlot } from "@/components/ui/MediaSlot";
+import Image from "next/image";
 
 
 interface Props {
@@ -130,6 +132,15 @@ export default async function CategoryPage({ params }: Props) {
 
   const tc = await getTranslations({ locale, namespace: "products.category" });
 
+  let heroImage = "";
+  if (lowerCat.includes('pipes')) heroImage = "/images/new-k-aqua/Pipes Profil Bild.png";
+  else if (lowerCat.includes('transition')) heroImage = "/images/new-k-aqua/Transitions Fittings Profil Bild.png";
+  else if (lowerCat.includes('fitting')) heroImage = "/images/new-k-aqua/Fittings Profil Bild.png";
+  else if (lowerCat.includes('weld')) heroImage = "/images/new-k-aqua/Weld-IN Saddles.png";
+  else if (lowerCat.includes('accessories')) heroImage = "/images/new-k-aqua/Accessories Profil Bild.png";
+  else if (lowerCat.includes('valve')) heroImage = "/images/new-k-aqua/Valves Profilbild.png";
+  else if (lowerCat.includes('tools')) heroImage = "/images/new-k-aqua/Tools Profil Bild.png";
+
   return (
     <>
       <JsonLd schema={webPageSchema} />
@@ -139,28 +150,43 @@ export default async function CategoryPage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
         <div className="absolute top-1/4 right-0 w-1/2 h-1/2 bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
         
-        <div className="max-w-[1200px] mx-auto px-6 relative z-10 flex flex-col items-center text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold tracking-widest uppercase mb-6">
-            <Package className="w-4 h-4" />
-            <span>K-Aqua {category}</span>
-          </div>
-          <h1 className="text-4xl md:text-6xl font-heading font-extrabold text-foreground tracking-tight mb-6 max-w-4xl">
-            {seoTitle}
-          </h1>
-          {seoText && (
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed mb-10">
-              {seoText}
-            </p>
-          )}
+        <div className="max-w-[1200px] mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-start">
+          <div className="flex flex-col items-start">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold tracking-widest uppercase mb-6">
+              <Package className="w-4 h-4" />
+              <span>K-Aqua {category}</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-heading font-extrabold text-foreground tracking-tight mb-6 max-w-4xl">
+              {seoTitle}
+            </h1>
+            {seoText && (
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed mb-10">
+                {seoText}
+              </p>
+            )}
 
-          {advantages.length > 0 && (
-            <div className="flex flex-wrap justify-center gap-3 max-w-4xl">
-              {advantages.slice(0, 4).map((adv, idx) => (
-                <span key={idx} className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-card border border-card-border shadow-sm text-sm font-medium text-foreground">
-                  <ShieldCheck className="w-4 h-4 text-emerald-500" />
-                  {adv}
-                </span>
-              ))}
+            {advantages.length > 0 && (
+              <div className="flex flex-wrap gap-3 max-w-4xl">
+                {advantages.slice(0, 4).map((adv, idx) => (
+                  <span key={idx} className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-card border border-card-border shadow-sm text-sm font-medium text-foreground">
+                    <ShieldCheck className="w-4 h-4 text-emerald-500" />
+                    {adv}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+          
+          {heroImage && (
+            <div className="w-full">
+              <MediaSlot 
+                alt={seoTitle} 
+                aspectRatio="4/3" 
+                shapeVariant="sweep-l" 
+                src={heroImage} 
+                className="shadow-2xl"
+                priority
+              />
             </div>
           )}
         </div>
@@ -193,10 +219,19 @@ export default async function CategoryPage({ params }: Props) {
                   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : p.title;
                   return (
                     <>
-                      <div className="aspect-[4/3] bg-background-subtle relative flex items-center justify-center p-6 border-b border-card-border/50">
-                         {/* Fallback Icon if no image */}
-                         <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
-                         <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent" />
+                      <div className="aspect-[4/3] bg-background-subtle relative flex items-center justify-center border-b border-card-border/50 overflow-hidden">
+                         {heroImage ? (
+                           <Image 
+                             src={heroImage} 
+                             alt={localizedTitle} 
+                             fill 
+                             sizes="(max-width: 768px) 100vw, 300px" 
+                             className="object-contain p-4 mix-blend-multiply opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+                           />
+                         ) : (
+                           <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
+                         )}
+                         <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
                       </div>
                       <div className="p-6 flex flex-col flex-1">
                         <div className="text-xs font-mono text-muted-foreground mb-2">
