@@ -3,7 +3,7 @@
 
 import React, { useRef, useMemo, useEffect } from 'react';
 import { Canvas, useFrame, useThree, extend } from '@react-three/fiber';
-import { OrbitControls, Environment, ContactShadows, Float, useGLTF, useKTX2 } from '@react-three/drei';
+import { OrbitControls, Environment, ContactShadows, Float, useGLTF, useKTX2, Lightformer } from '@react-three/drei';
 import * as THREE from 'three';
 import { computeBoundsTree, disposeBoundsTree, acceleratedRaycast } from 'three-mesh-bvh';
 import { EffectComposer, SSAO, Bloom, SMAA } from '@react-three/postprocessing';
@@ -745,8 +745,14 @@ export default function Product3DViewer({ category }: Props) {
         <directionalLight position={[8, 8, 4]} intensity={1.5} castShadow />
         <directionalLight position={[-8, -8, -4]} intensity={0.4} color={waterColor} />
         
-        {/* Environmental reflections preset */}
-        <Environment preset="city" />
+        {/* Synthetic Environment to avoid CDN fetch failures (CORS/AdBlock on potsdamer_platz_1k.hdr) */}
+        <Environment resolution={256} background={false}>
+          <group rotation={[-Math.PI / 4, -0.3, 0]}>
+            <Lightformer form="ring" intensity={1} color="white" scale={[10, 10, 1]} target={[0, 0, 0]} />
+            <Lightformer form="rect" intensity={0.5} color="white" position={[0, 5, -9]} scale={[10, 10, 1]} />
+            <Lightformer form="rect" intensity={1} color="white" position={[10, 5, 0]} scale={[10, 10, 1]} />
+          </group>
+        </Environment>
 
         {/* Smooth Cinematic Camera Rigging */}
         <CameraController activeComponent={activeComponent} controlsRef={controlsRef} />
