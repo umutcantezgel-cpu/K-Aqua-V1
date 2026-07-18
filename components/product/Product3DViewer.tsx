@@ -783,7 +783,7 @@ export default function Product3DViewer({ category }: Props) {
         />
 
         {/* Post-Processing effects stack */}
-        <EffectComposer multisampling={0}>
+        <EffectComposer disableNormalPass={false} multisampling={0}>
           <SSAO 
             intensity={1.2} 
             radius={0.4} 
