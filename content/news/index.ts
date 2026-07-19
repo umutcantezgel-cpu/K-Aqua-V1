@@ -37,6 +37,7 @@ import { brandschutzRohrschachtVerlegung } from './brandschutz-rohrschacht-verle
 import { klimadeckenFlaechenkuehlung } from './klimadecken-flaechenkuehlung-anbindung-ppr-netz-taupunkt';
 import { bimRohrnetzPlanungPpr } from './bim-building-information-modeling-rohrnetz-planung-ppr';
 import { schweissverfahrenVergleich } from './schweissverfahren-vergleich-heizelementmuffenschweissung-heizwendel-ppr';
+import { isoliermaterialRohrdammungVergleich } from './isoliermaterial-rohrdammung-vergleich-pir-pur-eps-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -88,6 +89,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [klimadeckenFlaechenkuehlung.slug]: klimadeckenFlaechenkuehlung,
   [bimRohrnetzPlanungPpr.slug]: bimRohrnetzPlanungPpr,
   [schweissverfahrenVergleich.slug]: schweissverfahrenVergleich,
+  [isoliermaterialRohrdammungVergleich.slug]: isoliermaterialRohrdammungVergleich,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
