@@ -35,6 +35,54 @@ import {
   TrendingDown as LucideTrendingDown,
   Coins as LucideCoins,
   ShieldAlert as LucideShieldAlert,
+  TestTube as LucideTestTube,
+  ThermometerSnowflake as LucideThermometerSnowflake,
+  ThermometerSun as LucideThermometerSun,
+  TrendingUp as LucideTrendingUp,
+  VolumeX as LucideVolumeX,
+  Waves as LucideWaves,
+  Wind as LucideWind,
+  LayoutDashboard as LucideLayoutDashboard,
+  Pickaxe as LucidePickaxe,
+  ShieldCheck as LucideShieldCheck,
+  Route as LucideRoute,
+  Anchor as LucideAnchor,
+  Building as LucideBuilding,
+  Settings as LucideSettings,
+  Link as LucideLink,
+  Droplets as LucideDroplets,
+  ShieldAlert as LucideShieldAlert2, // Keep the old one if needed, but I'll replace the existing one block instead.
+  AlertOctagon as LucideAlertOctagon,
+  AlertTriangle as LucideAlertTriangle,
+  ArrowRightLeft as LucideArrowRightLeft,
+  BarChart as LucideBarChart,
+  Beaker as LucideBeaker,
+  Box as LucideBox,
+  Building2 as LucideBuilding2,
+  CheckCircle as LucideCheckCircle,
+  CheckCircle2 as LucideCheckCircle2,
+  Clock as LucideClock,
+  CloudRain as LucideCloudRain,
+  Code as LucideCode,
+  Coffee as LucideCoffee,
+  Cpu as LucideCpu,
+  Database as LucideDatabase,
+  Ear as LucideEar,
+  FlaskConical as LucideFlaskConical,
+  Hammer as LucideHammer,
+  HeartPulse as LucideHeartPulse,
+  Info as LucideInfo,
+  Microscope as LucideMicroscope,
+  MonitorSmartphone as LucideMonitorSmartphone,
+  MoveHorizontal as LucideMoveHorizontal,
+  Network as LucideNetwork,
+  Power as LucidePower,
+  Repeat as LucideRepeat,
+  Scale as LucideScale,
+  Search as LucideSearch,
+  Server as LucideServer,
+  Settings2 as LucideSettings2,
+  Snowflake as LucideSnowflake,
   LucideProps,
 } from "lucide-react";
 import clsx from "clsx";
@@ -100,3 +148,50 @@ export const Activity = createIcon(LucideActivity);
 export const TrendingDown = createIcon(LucideTrendingDown);
 export const Coins = createIcon(LucideCoins);
 export const ShieldAlert = createIcon(LucideShieldAlert);
+export const TestTube = createIcon(LucideTestTube);
+export const ThermometerSnowflake = createIcon(LucideThermometerSnowflake);
+export const ThermometerSun = createIcon(LucideThermometerSun);
+export const TrendingUp = createIcon(LucideTrendingUp);
+export const VolumeX = createIcon(LucideVolumeX);
+export const Waves = createIcon(LucideWaves);
+export const Wind = createIcon(LucideWind);
+export const LayoutDashboard = createIcon(LucideLayoutDashboard);
+export const Pickaxe = createIcon(LucidePickaxe);
+export const ShieldCheck = createIcon(LucideShieldCheck);
+export const Route = createIcon(LucideRoute);
+export const Anchor = createIcon(LucideAnchor);
+export const Building = createIcon(LucideBuilding);
+export const Settings = createIcon(LucideSettings);
+export const Link = createIcon(LucideLink);
+export const Droplets = createIcon(LucideDroplets);
+export const AlertOctagon = createIcon(LucideAlertOctagon);
+export const AlertTriangle = createIcon(LucideAlertTriangle);
+export const ArrowRightLeft = createIcon(LucideArrowRightLeft);
+export const BarChart = createIcon(LucideBarChart);
+export const Beaker = createIcon(LucideBeaker);
+export const Box = createIcon(LucideBox);
+export const Building2 = createIcon(LucideBuilding2);
+export const CheckCircle = createIcon(LucideCheckCircle);
+export const CheckCircle2 = createIcon(LucideCheckCircle2);
+export const Clock = createIcon(LucideClock);
+export const CloudRain = createIcon(LucideCloudRain);
+export const Code = createIcon(LucideCode);
+export const Coffee = createIcon(LucideCoffee);
+export const Cpu = createIcon(LucideCpu);
+export const Database = createIcon(LucideDatabase);
+export const Ear = createIcon(LucideEar);
+export const FlaskConical = createIcon(LucideFlaskConical);
+export const Hammer = createIcon(LucideHammer);
+export const HeartPulse = createIcon(LucideHeartPulse);
+export const Info = createIcon(LucideInfo);
+export const Microscope = createIcon(LucideMicroscope);
+export const MonitorSmartphone = createIcon(LucideMonitorSmartphone);
+export const MoveHorizontal = createIcon(LucideMoveHorizontal);
+export const Network = createIcon(LucideNetwork);
+export const Power = createIcon(LucidePower);
+export const Repeat = createIcon(LucideRepeat);
+export const Scale = createIcon(LucideScale);
+export const Search = createIcon(LucideSearch);
+export const Server = createIcon(LucideServer);
+export const Settings2 = createIcon(LucideSettings2);
+export const Snowflake = createIcon(LucideSnowflake);

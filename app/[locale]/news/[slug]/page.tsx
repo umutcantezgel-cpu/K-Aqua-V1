@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return constructMetadata({
     title: newsItem.title,
-    description: newsItem.teaser,
+    description: newsItem.teaser || newsItem.excerpt || "",
     path: `/news/${slug}`,
     locale,
   });
@@ -53,7 +53,7 @@ export default async function NewsDetailPage({ params }: Props) {
           <Reveal>
             <div className="flex items-center gap-3 text-small font-semibold text-faint-foreground mb-4">
               <span>{newsItem.date}</span>
-              <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag}</span>
+              <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag || newsItem.category || "News"}</span>
             </div>
           </Reveal>
           <Reveal delay={0.06}>
@@ -63,7 +63,7 @@ export default async function NewsDetailPage({ params }: Props) {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed">
-              {newsItem.teaser}
+              {newsItem.teaser || newsItem.excerpt}
             </p>
           </Reveal>
         </div>

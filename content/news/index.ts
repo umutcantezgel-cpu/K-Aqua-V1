@@ -52,10 +52,14 @@ import { lebensdauerBerechnungPpr } from './lebensdauer-berechnung-kunststoffroh
 export interface NewsPost {
   slug: string;
   date: string;
-  tag: string;
+  tag?: string;
+  category?: string;
   title: string;
-  teaser: string;
+  teaser?: string;
+  excerpt?: string;
   content: React.ReactNode;
+  coverImage?: string;
+  tags?: string[];
 }
 
 // Zentrale Registry fuer alle News (derzeit 4 von 50 geplanten)
