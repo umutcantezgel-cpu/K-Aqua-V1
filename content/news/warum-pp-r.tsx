@@ -1,5 +1,13 @@
 import React from 'react';
 import { NewsPost } from './index';
+import { Reveal } from '@/components/ui/Reveal';
+import { Eyebrow } from '@/components/ui/Eyebrow';
+import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
+import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
+import { StatBand } from '@/components/ui/StatBand';
+import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import { Card } from '@/components/ui/Card';
+import { Thermometer, Shield, Leaf, Droplet, Layers, Recycle } from '@/components/ui/icon';
 
 export const warumPpr: NewsPost = {
   slug: 'warum-eigentlich-ppr-materialkunde',
@@ -8,70 +16,151 @@ export const warumPpr: NewsPost = {
   title: 'Warum eigentlich PPR Materialkunde für Rohrleitungssysteme',
   teaser: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr die faszinierende Materialgeschichte des Polypropylens.',
   content: (
-    <div className="prose prose-neutral dark:prose-invert max-w-none text-body text-muted-foreground leading-relaxed">
-      <p className="mb-8 text-lead font-medium text-foreground">
-        Wenn man heute eine moderne Baustelle betritt, fallen sofort die markanten, oft grün oder blau eingefärbten Rohrleitungen ins Auge. Der Werkstoff, aus dem diese technologischen Meisterwerke gefertigt sind, nennt sich Polypropylen Random Copolymer, kurz PPR. Doch wie wurde aus einem einstigen Nebenprodukt der Erdölförderung der wohl wichtigste Kunststoff für die globale Sanitär und Heizungsinstallation? Die Geschichte dieses Materials ist eine faszinierende Reise durch die moderne Chemie, die Ingenieurskunst und den unbedingten Willen zur Perfektion. In diesem umfassenden technischen Artikel analysieren wir die molekularen Geheimnisse, die physikalischen Überlegenheiten und die ökologischen Vorteile, die PPR zum unangefochtenen König der Rohrleitungssysteme machen.
-      </p>
+    <div className="flex flex-col gap-16 lg:gap-24 w-full">
+      {/* Intro Section - Hero */}
+      <section className="relative">
+        <Reveal>
+          <div className="bg-card/40 backdrop-blur-md border border-card-border p-8 lg:p-14 rounded-3xl shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 p-8 opacity-5">
+              <Thermometer className="w-64 h-64" />
+            </div>
+            <div className="relative z-10">
+              <Eyebrow text="Die Wissenschaft der Langlebigkeit" className="mb-6 text-primary" />
+              <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
+                Wenn man heute eine moderne Großbaustelle betritt, fallen sofort die markanten Rohrleitungen ins Auge. Der Werkstoff, aus dem diese technologischen Meisterwerke gefertigt sind, nennt sich Polypropylen Random Copolymer. Doch wie wurde aus einem einstigen Nebenprodukt der Erdölförderung der wohl wichtigste Kunststoff für die globale Wasserinstallation? Eine faszinierende Reise durch die moderne Chemie und den unbedingten Willen zur Perfektion.
+              </p>
+            </div>
+          </div>
+        </Reveal>
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">Der Ursprung Vom nutzlosen Gas zum Hightech Kunststoff</h2>
-      <p className="mb-6">
-        Die Entstehungsgeschichte von Polypropylen liest sich wie ein Lehrstück über Ressourceneffizienz. Vor wenigen Jahrzehnten wurden Gase wie Propylen bei der Raffination von Erdöl als völlig nutzloses Abfallprodukt betrachtet und direkt auf den Ölfeldern abgefackelt. Diese Praxis verschwendete nicht nur wertvolle Rohstoffe, sondern trug massiv zur Luftverschmutzung bei. Erst die bahnbrechende Entdeckung spezieller Katalysatoren durch die Chemiker Karl Ziegler und Giulio Natta, die dafür später den Nobelpreis erhielten, machte es möglich, diese Gase zu extrem langen Molekülketten zu polymerisieren.
-      </p>
-      <p className="mb-6">
-        Heute ist die sinnvolle stoffliche Nutzung dieses ehemaligen Abfallprodukts ein Paradebeispiel für gelebten Umweltschutz direkt an der Quelle. Durch moderne chemische Verfahren entsteht ein thermoplastischer Kunststoff, der sich unter Hitzeeinwirkung nahezu beliebig verformen lässt, aber nach dem Erkalten eine unglaubliche Zähigkeit und strukturelle Festigkeit aufweist. 
-      </p>
+      {/* Stats Band - Extreme Specifications */}
+      <section className="py-8">
+        <Reveal>
+          <div className="text-center mb-8">
+            <Eyebrow text="Die physikalischen Grenzen verschoben" />
+          </div>
+          <StatBand 
+            stats={[
+              { n: "0,007", u: "mm", l: "Absolute Oberflächenrauheit" },
+              { n: "0,24", u: "W/mK", l: "Minimale Wärmeleitfähigkeit" },
+              { n: "7,4", u: "SDR", l: "Maximale Druckbelastbarkeit" },
+            ]} 
+            cols={250}
+          />
+        </Reveal>
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">Molekulare Architektur Die Magie des Random Copolymers</h2>
-      <p className="mb-6">
-        Polypropylen ist nicht gleich Polypropylen. Für einfache Verpackungsfolien reicht Standard Polypropylen völlig aus. Für Rohrleitungen, die über Jahrzehnte einem enormen Innendruck und extremen Temperaturschwankungen ausgesetzt sind, bedarf es jedoch einer besonderen molekularen Architektur. 
-      </p>
-      <h3 className="text-xl font-bold font-heading mt-10 mb-4">Das Geheimnis der Ethylen Moleküle</h3>
-      <p className="mb-6">
-        Hier kommt das sogenannte Random Copolymer ins Spiel. Bei der Herstellung dieses speziellen Polypropylens werden gezielt kleine Mengen an Ethylen in die Molekülketten eingebaut. Und zwar völlig zufällig, also random, verteilt. Diese winzigen molekularen Störer verhindern, dass das Material zu stark kristallisiert und dadurch spröde wird. Das Ergebnis ist ein Werkstoff, der die enorme Festigkeit von klassischem Polypropylen beibehält, aber gleichzeitig eine unglaubliche Flexibilität und Schlagzähigkeit aufweist. Selbst bei eisigen Temperaturen auf der Winterbaustelle splittert ein K Aqua PPR Rohr nicht.
-      </p>
+      {/* Evolution - Sticky Scroll */}
+      <section className="mt-12">
+        <Reveal>
+          <div className="mb-8">
+            <Eyebrow text="Molekulare Architektur" />
+            <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
+              Vom nutzlosen Gas zum Hightech Kunststoff
+            </h2>
+          </div>
+        </Reveal>
+        <StickyScrollReveal
+          content={[
+            {
+              title: "Ressourcen effizient nutzen",
+              description: "Vor wenigen Jahrzehnten wurden Gase wie Propylen bei der Raffination von Erdöl als völlig nutzloses Abfallprodukt betrachtet und einfach auf den Ölfeldern abgefackelt. Diese Praxis verschwendete wertvolle Ressourcen. Erst die bahnbrechende Entdeckung spezieller Katalysatoren machte es möglich, diese ungenutzten Gase zu extrem langen und widerstandsfähigen Molekülketten zu polymerisieren.",
+              content: <div className="h-full w-full bg-card flex items-center justify-center"><Layers className="w-32 h-32 text-primary opacity-20" /></div>
+            },
+            {
+              title: "Das Geheimnis der Ethylen Moleküle",
+              description: "Polypropylen ist nicht gleich Polypropylen. Für Rohre, die jahrzehntelang extremen Drücken ausgesetzt sind, bedarf es einer besonderen Architektur. Bei der Herstellung von Random Copolymer werden gezielt kleine Mengen Ethylen eingebaut. Und zwar völlig zufällig verteilt. Diese winzigen molekularen Störer verhindern, dass das Material zu stark kristallisiert und spröde wird. Die perfekte Kombination aus Festigkeit und Flexibilität.",
+              content: <div className="h-full w-full bg-card flex items-center justify-center"><Droplet className="w-32 h-32 text-accent opacity-20" /></div>
+            },
+            {
+              title: "Die Evolution zu PPRCT",
+              description: "Die Entwicklungsabteilungen ruhen sich nicht aus. Mit PPRCT, einem Polypropylen mit noch feinerer Kristallstruktur, wurden die physikalischen Grenzen abermals verschoben. Diese Modifikation bringt spürbar mehr Temperaturreserve und eine deutlich erhöhte Druckresistenz bei wesentlich dünneren Wandstärken. Die ultimative Wahl für Hochtemperatur Heizanlagen und gewaltige industrielle Fernwärmenetze.",
+              content: <div className="h-full w-full bg-card flex items-center justify-center"><Thermometer className="w-32 h-32 text-blue-500 opacity-20" /></div>
+            }
+          ]}
+        />
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">Physikalische Überlegenheit gegenüber Metallen</h2>
-      <p className="mb-6">
-        Jahrzehntelang dominierten Kupfer und verzinkter Stahl die Installationstechnik. Doch PPR hat diese traditionellen Materialien aus guten Gründen massiv verdrängt. Die physikalischen Eigenschaften des Kunststoffs bieten Bauherren und Betreibern Vorteile, die mit Metallen schlichtweg nicht erreichbar sind.
-      </p>
-      <h3 className="text-xl font-bold font-heading mt-10 mb-4">Korrosionsfreiheit als absoluter Standard</h3>
-      <p className="mb-6">
-        Das gravierendste Problem metallischer Rohre ist die Korrosion. Je nach Wasserqualität rosten Stahlrohre von innen durch, während Kupferrohre zu gefährlicher Lochfraßkorrosion neigen. PPR hingegen geht keinerlei chemische Reaktion mit Wasser ein. Es rostet nicht, es verrottet nicht und es korrodiert nicht. Selbst aggressivste Wässer, saure Böden oder chlorhaltiges Schwimmbadwasser lassen das Material völlig unbeeindruckt. Diese absolute chemische Beständigkeit garantiert eine Lebensdauer von über fünfzig Jahren ohne jeglichen Qualitätsverlust.
-      </p>
-      <h3 className="text-xl font-bold font-heading mt-10 mb-4">Minimale Reibung für maximalen Durchfluss</h3>
-      <p className="mb-6">
-        Im Inneren eines Rohres zählt vor allem die Beschaffenheit der Oberfläche. Mit einer unglaublichen Rauheit von lediglich 0,007 Millimetern ist das Innere eines PPR Rohres glatter als Fensterglas. Der Reibungsverlust des fließenden Wassers bleibt dadurch absolut minimal. Dies bedeutet, dass Umwälzpumpen deutlich weniger Energie aufbringen müssen, um das Wasser durch das System zu fördern. 
-      </p>
-      <p className="mb-6">
-        Darüber hinaus hat diese extreme Glätte einen unschätzbaren hygienischen Vorteil. Gefährlicher Biofilm, Bakterienkolonien wie Legionellen und hartnäckige Kalkinkrustationen finden auf dieser Fläche schlichtweg keinen Halt. Das garantiert dauerhaft sauberes, hygienisch einwandfreies Trinkwasser.
-      </p>
+      {/* Physical Superiority over metals - Bento Grid */}
+      <section className="mt-12">
+        <Reveal>
+          <div className="text-center mb-12">
+            <Eyebrow text="Ein neues Zeitalter der Installation" />
+            <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
+              Physikalische Überlegenheit gegenüber Metall
+            </h2>
+            <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
+              Jahrzehntelang dominierten Kupfer und Stahl. Doch die einzigartigen physikalischen Eigenschaften dieses Kunststoffs bieten unschlagbare Vorteile.
+            </p>
+          </div>
+          <BentoGrid className="max-w-full mx-auto">
+            <BentoGridItem
+              title="Korrosionsfreiheit als Standard"
+              description="Das gravierendste Problem metallischer Rohre ist die Korrosion. Stahl rostet, Kupfer neigt zu gefährlichem Lochfraß. Unser Copolymer geht keinerlei chemische Reaktion mit Wasser ein. Es verrottet nicht und korrodiert niemals, selbst bei aggressivsten Bedingungen."
+              header={<div className="w-full h-48 bg-primary/10 rounded-t-2xl flex items-center justify-center"><Shield className="w-24 h-24 text-primary opacity-40" /></div>}
+              icon={<Shield className="h-6 w-6 text-primary" />}
+              className="md:col-span-2"
+            />
+            <BentoGridItem
+              title="Maximaler Durchfluss"
+              description="Die extrem glatte Innenfläche verringert die Reibung auf ein absolutes Minimum. Gefährlicher Biofilm und Bakterien wie Legionellen finden schlichtweg keinen Halt."
+              header={<div className="w-full h-48 bg-accent/10 rounded-t-2xl flex items-center justify-center"><Droplet className="w-24 h-24 text-accent opacity-40" /></div>}
+              icon={<Droplet className="h-6 w-6 text-accent" />}
+              className="md:col-span-1"
+            />
+          </BentoGrid>
+        </Reveal>
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">Natürliche Wärmedämmung und Schalldämmung</h2>
-      <p className="mb-6">
-        Ein weiterer gewaltiger Vorteil dieses Materials ist die exzellente thermische Isolationsfähigkeit. Mit einer Wärmeleitfähigkeit von nur 0,24 Watt pro Meter und Kelvin ist PPR ein exzellenter Isolator. Kupfer hingegen leitet Wärme fast zweitausendmal schneller.
-      </p>
-      <p className="mb-6">
-        Für den Gebäudebetreiber bedeutet das bares Geld. Warmwasser bleibt auf dem Weg vom Boiler zum Wasserhahn warm, ohne dass die Energie unnötig an das Mauerwerk abgegeben wird. Kaltwasser bleibt erfrischend kalt und heizt sich in Schächten nicht ungewollt auf. Die Leitung dämmt sich quasi selbst. Das reduziert den Bedarf an dicken, teuren Dämmmaterialien erheblich und senkt den Platzbedarf in extrem engen Installationsschächten.
-      </p>
-      <p className="mb-6">
-        Zusätzlich schluckt der Werkstoff den Schall hervorragend. Das lästige Rauschen fließenden Wassers oder laute Fließgeräusche bei Druckstößen werden von der molekularen Struktur des Polypropylens absorbiert. Das sorgt für flüsterleise Installationen in Hotels, Krankenhäusern und hochwertigen Wohnkomplexen.
-      </p>
+      {/* Insulation and Acoustics - Split Cards */}
+      <section>
+        <Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="p-8 lg:p-12 border-card-border bg-card">
+              <Thermometer className="w-12 h-12 text-primary mb-6" />
+              <h3 className="text-2xl font-bold font-heading mb-4">Natürliche Wärmedämmung</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Mit einer Wärmeleitfähigkeit von nur null Komma vierundzwanzig Watt pro Meter und Kelvin ist das Material ein exzellenter thermischer Isolator. Kupfer hingegen leitet Wärme fast zweitausendmal schneller ab. Die Rohrleitung dämmt sich hierbei quasi selbst. Das reduziert den Bedarf an extrem dicken Dämmmaterialien maßgeblich und senkt den Platzbedarf im Schacht.
+              </p>
+            </Card>
+            
+            <Card className="p-8 lg:p-12 border-card-border bg-card">
+              <Layers className="w-12 h-12 text-accent mb-6" />
+              <h3 className="text-2xl font-bold font-heading mb-4">Flüsterleise Akustik</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Der Werkstoff schluckt den Schall ganz hervorragend. Das lästige Rauschen fließenden Wassers oder laute Fließgeräusche bei extremen Druckstößen werden von der weichen molekularen Struktur direkt absorbiert. Das sorgt für flüsterleise und komfortable Installationen in exklusiven Hotels, sterilen Krankenhäusern und extrem hochwertigen Wohnkomplexen.
+              </p>
+            </Card>
+          </div>
+        </Reveal>
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">PPRCT Die Evolution der Leistungsfähigkeit</h2>
-      <p className="mb-6">
-        Die Entwicklungsabteilungen ruhen sich auf den bisherigen Erfolgen nicht aus. Mit PPRCT, einem Polypropylen mit noch feinerer, modifizierter Kristallstruktur, wurden die physikalischen Grenzen noch einmal deutlich nach oben verschoben.
-      </p>
-      <p className="mb-6">
-        Diese gezielte Kristallmodifikation bringt spürbar mehr Temperaturreserve und eine deutlich erhöhte Druckresistenz bei dünneren Wandstärken. Ein Rohr der Klasse SDR 7,4 hält dauerhaft Wassertemperaturen von 70 Grad Celsius bei einem Innendruck von stolzen 10 Bar über Jahrzehnte hinweg stand. Das macht PPRCT zur ultimativen Wahl für Hochtemperatur Heizanlagen, anspruchsvolle industrielle Kühlkreisläufe und gewaltige Fernwärmenetze, bei denen herkömmliche Kunststoffe längst katastrophal versagen würden. Durch die dünneren Wände erhöht sich zudem der Innendurchmesser, was die Durchflussmenge um bis zu zwanzig Prozent steigert.
-      </p>
+      {/* Premium Visualization (e.g. Molecular Structure or Heat Map) */}
+      <section>
+        <Reveal>
+          <PremiumAssetPlaceholder label="Infrarot Thermografie Rohrvergleich Metall vs PPR" />
+        </Reveal>
+      </section>
 
-      <h2 className="text-2xl font-extrabold font-heading mt-16 mb-6 text-foreground">Kreislaufwirtschaft und Nachhaltigkeit</h2>
-      <p className="mb-6">
-        Von der ressourcenschonenden Gewinnung über die extrem lange Lebensdauer bis hin zur vollständigen Recyclingfähigkeit am Ende der Nutzung ist Polypropylen ein Vorzeigematerial der modernen grünen Industrie. Es enthält keinerlei giftige Weichmacher, keine Schwermetalle und keine halogenhaltigen Verbindungen.
-      </p>
-      <p className="mb-6">
-        Alte PPR Rohre oder Verschnittreste von der Baustelle landen nicht auf der Mülldeponie. Sie können zu einhundert Prozent eingeschmolzen und für andere, weniger sensible Kunststoffprodukte wiederverwendet werden. K Aqua setzt voll und ganz auf diese gelebte Kreislaufwirtschaft und bietet vorausschauenden Bauherren damit nicht nur ein technisch absolut überlegenes System, sondern auch eine ökologisch verantwortungsvolle und saubere Lösung für kommende Generationen.
-      </p>
+      {/* Sustainability Banner */}
+      <section className="pb-12">
+        <Reveal>
+          <div className="bg-gradient-to-br from-green-900/20 to-background border border-green-900/30 p-10 lg:p-16 rounded-3xl flex flex-col items-center text-center">
+            <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mb-6">
+              <Recycle className="w-10 h-10 text-green-500" />
+            </div>
+            <Eyebrow text="Gelebte Kreislaufwirtschaft" className="text-green-500 mb-4" />
+            <h2 className="text-3xl font-extrabold font-heading text-foreground mb-6">
+              Grüne Industrie ohne Kompromisse
+            </h2>
+            <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              Von der ressourcenschonenden Gewinnung über die lange Lebensdauer bis hin zur vollständigen Recyclingfähigkeit am Ende der Nutzung. Der Werkstoff enthält absolut keine giftigen Weichmacher und keinerlei Schwermetalle. Verschnittreste von der Baustelle landen nicht auf der Mülldeponie, sondern können vollständig eingeschmolzen und wiederverwendet werden. So bauen wir zukunftssicher.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
     </div>
   ),
 };
