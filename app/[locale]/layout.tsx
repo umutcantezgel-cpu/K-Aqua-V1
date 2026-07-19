@@ -20,6 +20,12 @@ import JsonLd from '@/components/seo/JsonLd';
 import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
 import SignatureInitializer from '@/components/signature/SignatureInitializer';
 
+import '../kontakt.css';
+import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
+import { KontaktFab } from '@/components/kontakt/KontaktFab';
+import { KontaktModal } from '@/components/kontakt/KontaktModal';
+import { resolveKontaktSlug } from '@/lib/utils/resolveKontaktSlug';
+
 export function generateStaticParams() {
   return coreLocales.map((locale) => ({ locale }));
 }
@@ -81,6 +87,8 @@ export default async function LocaleLayout({
   const isRTLFont = dir === 'rtl';
 
   const nonce = headersList.get('x-nonce') || undefined;
+  const xPathname = headersList.get('x-pathname');
+  const kontaktSlug = resolveKontaktSlug(xPathname);
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
@@ -109,6 +117,9 @@ export default async function LocaleLayout({
             <main id="main-content" className="pt-[72px] min-h-screen">
               {children}
             </main>
+            <KontaktBlock slug={kontaktSlug} variant="block" />
+            <KontaktFab />
+            <KontaktModal />
             <Footer />
             <CookieBanner />
           </NextIntlClientProvider>
