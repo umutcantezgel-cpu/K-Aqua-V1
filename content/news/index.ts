@@ -39,6 +39,7 @@ import { bimRohrnetzPlanungPpr } from './bim-building-information-modeling-rohrn
 import { schweissverfahrenVergleich } from './schweissverfahren-vergleich-heizelementmuffenschweissung-heizwendel-ppr';
 import { isoliermaterialRohrdammungVergleich } from './isoliermaterial-rohrdammung-vergleich-pir-pur-eps-ppr';
 import { waermeausdehnungKunststoffrohre } from './waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr';
+import { pprMehrschichtverbundrohrVergleich } from './ppr-rohrsysteme-vergleich-mehrschichtverbundrohr-pex-alu-pex';
 
 export interface NewsPost {
   slug: string;
@@ -92,6 +93,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [schweissverfahrenVergleich.slug]: schweissverfahrenVergleich,
   [isoliermaterialRohrdammungVergleich.slug]: isoliermaterialRohrdammungVergleich,
   [waermeausdehnungKunststoffrohre.slug]: waermeausdehnungKunststoffrohre,
+  [pprMehrschichtverbundrohrVergleich.slug]: pprMehrschichtverbundrohrVergleich,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
