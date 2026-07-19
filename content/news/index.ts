@@ -15,6 +15,7 @@ import { brandschutzFeuerwiderstandsklasse } from './brandschutz-feuerwiderstand
 import { trinkwasserverordnungNormenZertifikate } from './trinkwasserverordnung-normen-zertifikate';
 import { greenBuildingZertifizierung } from './green-building-zertifizierung-leed-breeam-ppr';
 import { bimBuildingInformationModeling } from './bim-building-information-modeling-rohrleitungsplanung-ppr';
+import { fernwaermeNahwaerme } from './fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert';
 
 export interface NewsPost {
   slug: string;
@@ -44,6 +45,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [trinkwasserverordnungNormenZertifikate.slug]: trinkwasserverordnungNormenZertifikate,
   [greenBuildingZertifizierung.slug]: greenBuildingZertifizierung,
   [bimBuildingInformationModeling.slug]: bimBuildingInformationModeling,
+  [fernwaermeNahwaerme.slug]: fernwaermeNahwaerme,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
