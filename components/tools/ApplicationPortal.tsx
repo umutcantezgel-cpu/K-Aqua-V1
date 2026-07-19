@@ -224,7 +224,7 @@ export default function ApplicationPortal() {
                   >
                     <input type="file" className="hidden" ref={fileInputRef} onChange={handleFileChange} accept=".pdf,.doc,.docx" />
                     <UploadCloud className="w-12 h-12 text-muted-foreground mb-4" />
-                    <h4 className="font-heading font-bold text-foreground text-lg mb-2">{file ? file.name : formText.uploadTitle}</h4>
+                    <h3 className="font-heading font-bold text-foreground text-lg mb-2">{file ? file.name : formText.uploadTitle}</h3>
                     <p className="text-small text-muted-foreground max-w-sm">{file ? 'Click to replace file' : formText.uploadDesc}</p>
                   </div>
                   
@@ -235,7 +235,7 @@ export default function ApplicationPortal() {
                   </div>
 
                   <div className="text-center">
-                    <h4 className="font-heading font-bold text-foreground text-lg mb-2">{formText.builderTitle}</h4>
+                    <h3 className="font-heading font-bold text-foreground text-lg mb-2">{formText.builderTitle}</h3>
                     <p className="text-small text-muted-foreground mb-6">{formText.builderDesc}</p>
                     <Button variant="secondary" onClick={() => setUseBuilder(true)}>
                       {formText.builderTitle}
@@ -309,7 +309,7 @@ export default function ApplicationPortal() {
           {currentStep === 3 && (
             <div className="flex flex-col gap-6">
               <div className="bg-background-subtle rounded-xl p-6 border border-card-border">
-                <h4 className="font-heading font-bold text-foreground mb-4">Review Application</h4>
+                <h3 className="font-heading font-bold text-foreground mb-4">Review Application</h3>
                 <div className="grid grid-cols-2 gap-y-4 text-small">
                   <span className="text-muted-foreground">Name</span>
                   <span className="font-bold text-foreground">{formData.firstName} {formData.lastName}</span>

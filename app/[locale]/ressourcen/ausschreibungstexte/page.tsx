@@ -176,7 +176,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             ].map((item, idx) => (
               <div key={idx} className="p-8 bg-card border border-card-border rounded-2xl hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group">
                 {item.i}
-                <h4 className="font-heading font-bold text-lg mb-3 group-hover:text-primary transition-colors">{item.t}</h4>
+                <h3 className="font-heading font-bold text-lg mb-3 group-hover:text-primary transition-colors">{item.t}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{item.d}</p>
               </div>
             ))}

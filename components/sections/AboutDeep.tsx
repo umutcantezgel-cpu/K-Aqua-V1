@@ -91,7 +91,7 @@ export async function AboutDeep() {
                   {m.y}
                 </span>
                 <div>
-                  <h4 className="font-heading text-body font-bold text-foreground">{m.t}</h4>
+                  <h3 className="font-heading text-body font-bold text-foreground">{m.t}</h3>
                   <p className="text-small leading-relaxed text-muted-foreground">{m.d}</p>
                 </div>
               </div>

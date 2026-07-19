@@ -20,53 +20,23 @@ const sitemapGroups = [
     fallback: 'Produkte'
   },
   {
-    id: 'markets',
+    id: 'markets-solutions',
     links: [
       { href: '/maerkte', labelId: 'all_markets', fallback: 'Alle K-Aqua Märkte' },
-      { href: '/maerkte/trinkwasser', labelId: 'potable_water', fallback: 'Trinkwasser Systeme' },
-      { href: '/maerkte/klimaanlagen', labelId: 'hvac', fallback: 'Klima & Kühlung Systeme' },
-      { href: '/maerkte/industrie', labelId: 'industrial', fallback: 'Industrieanlagen Rohre' },
-      { href: '/maerkte/schiffbau', labelId: 'shipbuilding', fallback: 'Schiffbau Rohrsysteme' },
-      { href: '/maerkte/landwirtschaft', labelId: 'agriculture', fallback: 'Landwirtschaft Systeme' }
+      { href: '/loesungen', labelId: 'all_solutions', fallback: 'Alle K-Aqua Lösungen' }
     ],
-    fallback: 'Märkte'
+    fallback: 'Märkte & Lösungen'
   },
   {
-    id: 'solutions',
-    links: [
-      { href: '/loesungen', labelId: 'all_solutions', fallback: 'Alle K-Aqua Lösungen' },
-      { href: '/loesungen/hochhaus', labelId: 'high_rise', fallback: 'Lösungen für Hochhausbau' },
-      { href: '/loesungen/krankenhaus', labelId: 'hospitals', fallback: 'Lösungen für Krankenhäuser' },
-      { href: '/loesungen/hotels', labelId: 'hotels', fallback: 'Lösungen für Hotels & Resorts' },
-      { href: '/loesungen/rechenzentrum', labelId: 'datacenters', fallback: 'Lösungen für Rechenzentren' },
-      { href: '/loesungen/vorfertigung', labelId: 'prefab', fallback: 'Vorfertigung von Rohren' },
-    ],
-    fallback: 'Lösungen'
-  },
-  {
-    id: 'academy',
+    id: 'academy-resources',
     links: [
       { href: '/academy', labelId: 'overview', fallback: 'K-Aqua Academy Übersicht' },
-      { href: '/wissen', labelId: 'wissen', fallback: 'PP-R Wissensdatenbank' },
-      { href: '/academy/schulungen', labelId: 'trainings', fallback: 'K-Aqua Schulungen' },
-      { href: '/academy/webinare', labelId: 'webinars', fallback: 'K-Aqua Webinare' },
-      { href: '/academy/zertifizierung', labelId: 'certification', fallback: 'K-Aqua Zertifikate' },
-      { href: '/academy/faq', labelId: 'faq', fallback: 'FAQ & Wissen zu PP-R' },
-      { href: '/academy/glossar', labelId: 'glossary', fallback: 'Glossar für Rohrsysteme' },
-    ],
-    fallback: 'Academy & Wissen'
-  },
-  {
-    id: 'resources',
-    links: [
-      { href: '/ressourcen/downloads', labelId: 'downloads', fallback: 'Downloads & Dokumente' },
-      { href: '/ressourcen/bim-daten', labelId: 'bim_data', fallback: 'BIM Daten für Rohrsysteme' },
       { href: '/co2-rechner', labelId: 'co2_calc', fallback: 'CO2-Rechner für PP-R' },
       { href: '/ressourcen/ausschreibungstexte', labelId: 'specifications', fallback: 'K-Aqua Ausschreibungstexte' },
       { href: '/referenzen', labelId: 'references', fallback: 'K-Aqua Referenzen weltweit' },
       { href: '/ressourcen/support', labelId: 'support', fallback: 'Technischer Support für K-Aqua' },
     ],
-    fallback: 'Ressourcen'
+    fallback: 'Academy & Ressourcen'
   },
   {
     id: 'company',
@@ -157,7 +127,7 @@ export default function FooterSitemap() {
     <div className="w-full relative z-10 text-inverse-foreground">
       <div className="w-full">
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-8 lg:gap-y-12"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 lg:gap-y-12"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}

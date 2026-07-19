@@ -333,9 +333,9 @@ export default async function Page({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             {qualityCards.map((card, idx) => (
               <Card key={idx}>
-                <h4 className="font-heading font-bold text-lg text-foreground mb-2">
+                <h3 className="font-heading font-bold text-lg text-foreground mb-2">
                   {card.t}
-                </h4>
+                </h3>
                 <p className="text-body text-muted-foreground leading-relaxed">
                   {card.d}
                 </p>

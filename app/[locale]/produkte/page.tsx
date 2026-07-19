@@ -69,12 +69,16 @@ export default async function ProduktePage({ params }: Props) {
       <section className="py-24 bg-background">
         <div className="max-w-[1200px] mx-auto px-6">
           <Reveal>
-            <div className="flex flex-col items-center text-center mb-16">
-              <SectionHead
-                eyebrow={t("sysEyebrow")}
-                title={t("sysTitle")}
-                lead={t("sysLead")}
-              />
+            <div className="flex flex-col items-center text-center mx-auto max-w-[760px] mb-16 gap-3">
+              <div className="mb-1">
+                <span className="font-heading text-sm font-bold tracking-widest uppercase text-muted-foreground">{t("sysEyebrow")}</span>
+              </div>
+              <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
+                {t("sysTitle")}
+              </h1>
+              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+                {t("sysLead")}
+              </p>
             </div>
           </Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">

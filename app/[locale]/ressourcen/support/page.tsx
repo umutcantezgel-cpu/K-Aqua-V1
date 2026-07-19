@@ -8,9 +8,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 // Premium Scroll-Telling Components
 import { ParallaxHero } from '@/components/ui/ParallaxHero';
-import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
-import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -29,37 +27,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources' });
-
-  const supportProtocols = [
-    {
-      title: t('support.sticky.items.0.title'),
-      description: t('support.sticky.items.0.desc'),
-      content: <PremiumAssetPlaceholder label="Predictive Diagnostics Engine" />
-    },
-    {
-      title: t('support.sticky.items.1.title'),
-      description: t('support.sticky.items.1.desc'),
-      content: <PremiumAssetPlaceholder label="Global Command Center" />
-    },
-    {
-      title: t('support.sticky.items.2.title'),
-      description: t('support.sticky.items.2.desc'),
-      content: <PremiumAssetPlaceholder label="Architecture Stress Test" />
-    },
-    {
-      title: t('support.sticky.items.3.title'),
-      description: t('support.sticky.items.3.desc'),
-      content: <PremiumAssetPlaceholder label="Direct Developer Interface" />
-    }
-  ];
-
-  const timelineItems = [
-    { year: t('support.timeline.items.0.year'), title: t('support.timeline.items.0.title'), text: t('support.timeline.items.0.text') },
-    { year: t('support.timeline.items.1.year'), title: t('support.timeline.items.1.title'), text: t('support.timeline.items.1.text') },
-    { year: t('support.timeline.items.2.year'), title: t('support.timeline.items.2.title'), text: t('support.timeline.items.2.text') },
-    { year: t('support.timeline.items.3.year'), title: t('support.timeline.items.3.title'), text: t('support.timeline.items.3.text') },
-    { year: t('support.timeline.items.4.year'), title: t('support.timeline.items.4.title'), text: t('support.timeline.items.4.text') }
-  ];
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
@@ -102,18 +69,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* 3) Sticky Scroll Reveal for Protocols */}
-      <section id="protocols" className="py-32 bg-card border-b border-card-border relative z-20">
-        <div className="mx-auto max-w-[1400px] px-6 mb-24">
-          <SectionHead
-            eyebrow={t('support.sticky.eyebrow')}
-            title={t('support.sticky.title')}
-            lead={t('support.sticky.lead')}
-            align="center"
-          />
-        </div>
-        <StickyScrollReveal content={supportProtocols} />
-      </section>
 
       {/* 4) Bento Grid: Engineering Services */}
       <section className="py-32 md:py-48 bg-background kq-band kq-band--slant-t relative z-10">
@@ -161,13 +116,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* 5) Horizontal Timeline: Incident Response */}
-      <HorizontalTimeline
-        title={t('support.timeline.title')}
-        description={t('support.timeline.desc')}
-        items={timelineItems}
-        className="z-20"
-      />
 
       {/* 6) Deep Technical Metrics / Philosophy */}
       <section className="py-32 md:py-48 bg-card border-y border-card-border">

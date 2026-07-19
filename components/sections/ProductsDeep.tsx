@@ -86,19 +86,19 @@ export function ProductsDeep() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="flow" size={240} />
-              <h4 className="font-heading font-bold text-foreground">Flow</h4>
+              <h3 className="font-heading font-bold text-foreground">Flow</h3>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="blueprint" size={240} />
-              <h4 className="font-heading font-bold text-foreground">Blueprint</h4>
+              <h3 className="font-heading font-bold text-foreground">Blueprint</h3>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="pressure" size={240} />
-              <h4 className="font-heading font-bold text-foreground">Pressure</h4>
+              <h3 className="font-heading font-bold text-foreground">Pressure</h3>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="isonet" size={240} />
-              <h4 className="font-heading font-bold text-foreground">Isometric</h4>
+              <h3 className="font-heading font-bold text-foreground">Isometric</h3>
             </Card>
           </div>
         </div>

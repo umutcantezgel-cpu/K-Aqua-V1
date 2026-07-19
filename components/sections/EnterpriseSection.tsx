@@ -66,7 +66,7 @@ export function EnterpriseLayers() {
   return (
     <BentoCard style={{ height: '100%' }}>
       <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-background-subtle border border-card-border mb-2"><Layers size={24} className="text-foreground" /></div>
-      <h3 className="text-h3 font-heading font-bold">Faserverbund-Technologie</h3>
+      <h2 className="text-h3 font-heading font-bold">Faserverbund-Technologie</h2>
       <p className="text-body text-muted-foreground">3-Schicht-Aufbau für minimierte Längsausdehnung und maximale Stabilität bei hohen Temperaturen.</p>
       <div className="k-layers mt-6 flex flex-col gap-3" tabIndex={0} role="group" aria-label="Materialschichten">
         {layers.map((layer, i) => (
@@ -94,7 +94,7 @@ export function EnterpriseCompliance() {
   return (
     <BentoCard tint style={{ height: '100%' }}>
       <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-background-subtle border border-card-border mb-2"><Shield size={24} className="text-primary" /></div>
-      <h3 className="text-h3 font-heading font-bold">Compliance & Normen</h3>
+      <h2 className="text-h3 font-heading font-bold">Compliance & Normen</h2>
       <div className="k-comply-list mt-6 flex flex-col gap-4">
         {comply.map(([k, v]) => (
           <div className="k-comply-row flex items-start gap-3 text-sm text-muted-foreground leading-relaxed" key={k}>
@@ -114,7 +114,7 @@ export function EnterpriseRange() {
   return (
     <BentoCard style={{ height: '100%' }}>
       <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-background-subtle border border-card-border mb-2"><Ruler size={24} className="text-foreground" /></div>
-      <h3 className="text-h3 font-heading font-bold">Dimensionen</h3>
+      <h2 className="text-h3 font-heading font-bold">Dimensionen</h2>
       <div className="k-range-scale"></div>
       <div className="k-range-marks"><span>d20</span><span>d630</span></div>
       <div className="k-range-chips">{sdrs.map((s) => <span className="k-range-chip" key={s}>{s}</span>)}</div>
@@ -133,7 +133,7 @@ export function EnterpriseNetwork() {
   return (
     <div className="k-network ent-glass p-6 sm:p-10" style={{ width: '100%' }}>
       <div className="flex flex-col gap-4">
-        <h3 className="text-h2 font-heading font-bold">Globales Netzwerk</h3>
+        <h2 className="text-h2 font-heading font-bold">Globales Netzwerk</h2>
         <p className="text-lead text-muted-foreground max-w-xl">K-Aqua Systeme sind weltweit in über 40 Ländern im Einsatz. Von Waldsolms in die Welt.</p>
         <div className="flex flex-wrap gap-2 mt-4">
           <span className="ent-chip"><b>40+</b> Länder</span>
@@ -160,7 +160,7 @@ export default function EnterpriseSection() {
 
       <div className="ent-hero text-center mb-16">
         <span className="ent-eyebrow"><span className="ent-status-dot"></span> Enterprise Core</span>
-        <h2 className="ent-hero-title mx-auto">Hochleistungs-<em>Rohrsysteme</em></h2>
+        <h1 className="ent-hero-title mx-auto">Hochleistungs-<em>Rohrsysteme</em></h1>
         <p className="ent-hero-lead mx-auto">Für industrielle Anwendungen, Trinkwasserversorgung und Klimatechnik unter extremen Bedingungen.</p>
       </div>
 
