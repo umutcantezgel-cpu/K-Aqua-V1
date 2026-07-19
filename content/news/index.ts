@@ -4,6 +4,7 @@ import { warumPpr } from './warum-pp-r';
 import { messingPolypropylen } from './messing-polypropylen';
 import { trinkwasserhygieneLegionellen } from './trinkwasserhygiene-legionellen';
 import { nachhaltigkeitOekobilanz } from './nachhaltigkeit-oekobilanz';
+import { chemischeBestaendigkeitIndustrie } from './chemische-bestaendigkeit-industrie';
 
 export interface NewsPost {
   slug: string;
@@ -22,6 +23,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [messingPolypropylen.slug]: messingPolypropylen,
   [trinkwasserhygieneLegionellen.slug]: trinkwasserhygieneLegionellen,
   [nachhaltigkeitOekobilanz.slug]: nachhaltigkeitOekobilanz,
+  [chemischeBestaendigkeitIndustrie.slug]: chemischeBestaendigkeitIndustrie,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
