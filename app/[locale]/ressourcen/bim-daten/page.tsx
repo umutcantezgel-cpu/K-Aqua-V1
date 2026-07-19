@@ -5,7 +5,7 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
 import { Card } from '@/components/ui/Card';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 
 // Premium Components

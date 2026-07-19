@@ -1,5 +1,5 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { setRequestLocale } from "next-intl/server";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
