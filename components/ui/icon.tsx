@@ -34,6 +34,7 @@ import {
   Activity as LucideActivity,
   TrendingDown as LucideTrendingDown,
   Coins as LucideCoins,
+  ShieldAlert as LucideShieldAlert,
   LucideProps,
 } from "lucide-react";
 import clsx from "clsx";
@@ -98,3 +99,4 @@ export const Truck = createIcon(LucideTruck);
 export const Activity = createIcon(LucideActivity);
 export const TrendingDown = createIcon(LucideTrendingDown);
 export const Coins = createIcon(LucideCoins);
+export const ShieldAlert = createIcon(LucideShieldAlert);
