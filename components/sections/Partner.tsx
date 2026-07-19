@@ -53,18 +53,20 @@ export function Partner({ data }: PartnerProps) {
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <Reveal>
-            <SectionHead
-              eyebrow={data.eyebrow}
-              title={
-                <>
-                  {data.title1}{ENSPACE}
-                  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                    {data.titleGrad}
-                  </span>
-                </>
-              }
-              lead={data.lead}
-            />
+            <div className="mb-12 flex flex-col gap-3 text-start items-start">
+              <span className="inline-block px-3 py-1 text-[13px] font-bold tracking-[0.1em] text-primary bg-primary-soft rounded-full uppercase mb-4 font-body">
+                {data.eyebrow}
+              </span>
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+                {data.title1}{ENSPACE}
+                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  {data.titleGrad}
+                </span>
+              </h1>
+              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+                {data.lead}
+              </p>
+            </div>
           </Reveal>
         </div>
       </section>
@@ -122,9 +124,9 @@ export function Partner({ data }: PartnerProps) {
                 <span className="text-small font-bold uppercase tracking-wider text-primary mb-2">
                   {activeRing.l}
                 </span>
-                <h3 className="font-heading font-extrabold text-2xl text-foreground mb-4">
+                <h2 className="font-heading font-extrabold text-2xl text-foreground mb-4">
                   {activeRing.t}
-                </h3>
+                </h2>
                 <p className="text-body text-muted-foreground leading-relaxed">
                   {activeRing.d}
                 </p>

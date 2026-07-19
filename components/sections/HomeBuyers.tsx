@@ -92,9 +92,9 @@ export default function HomeBuyers() {
         {/* Why Choose K-Aqua Section */}
         <div className="mt-24">
           <div className="mb-10 text-start">
-            <h3 className="text-h2 font-heading font-extrabold text-foreground tracking-tight">
+            <h2 className="text-h2 font-heading font-extrabold text-foreground tracking-tight">
               {t('whyTitle')}
-            </h3>
+            </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {whyReasons.map((reason, i) => (
@@ -104,9 +104,9 @@ export default function HomeBuyers() {
               >
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-heading font-bold text-lg text-foreground mb-2">
+                  <h3 className="font-heading font-bold text-lg text-foreground mb-2">
                     {reason.t}
-                  </h4>
+                  </h3>
                   <p className="text-body text-muted-foreground leading-relaxed">
                     {reason.d}
                   </p>

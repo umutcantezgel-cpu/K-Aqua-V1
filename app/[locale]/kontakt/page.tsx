@@ -91,9 +91,9 @@ export default async function KontaktPage({ params }: Props) {
                     <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
                       <MapPin className="w-6 h-6" />
                     </div>
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                    <h2 className="font-heading font-bold text-xl text-foreground mb-4">
                       {t("locTitle")}
-                    </h3>
+                    </h2>
                     <p className="text-body text-muted-foreground leading-relaxed mb-6">
                       {COMPANY_NAME}
                       <br />
@@ -121,9 +121,9 @@ export default async function KontaktPage({ params }: Props) {
                     <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
                       <Phone className="w-6 h-6" />
                     </div>
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                    <h2 className="font-heading font-bold text-xl text-foreground mb-4">
                       {t("salesTitle")}
-                    </h3>
+                    </h2>
                     <p className="text-body text-muted-foreground leading-relaxed mb-6">
                       {SALES_PHONE}
                       <br />
@@ -147,9 +147,9 @@ export default async function KontaktPage({ params }: Props) {
                     <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
                       <Wrench className="w-6 h-6" />
                     </div>
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                    <h2 className="font-heading font-bold text-xl text-foreground mb-4">
                       {t("supportTitle")}
-                    </h3>
+                    </h2>
                     <p className="text-body text-muted-foreground leading-relaxed mb-6">
                       {t("supportText")}
                     </p>

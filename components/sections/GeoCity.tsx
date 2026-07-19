@@ -219,9 +219,9 @@ export default function GeoCity({
                   <Droplet size={24} />
                 </IconChip>
                 <div>
-                  <h3 className="font-heading font-bold text-xl text-foreground mb-3">
+                  <h2 className="font-heading font-bold text-xl text-foreground mb-3">
                     {geoTrans.water}
-                  </h3>
+                  </h2>
                   <p className="text-body text-muted-foreground leading-relaxed">
                     {localizedData.water}
                   </p>
@@ -236,9 +236,9 @@ export default function GeoCity({
                   <Factory size={24} />
                 </IconChip>
                 <div>
-                  <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                  <h2 className="font-heading font-bold text-xl text-foreground mb-4">
                     {localizedData.focusHeading}
-                  </h3>
+                  </h2>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {localizedData.focus.map((item) => (
                       <Chip key={item}>
@@ -260,9 +260,9 @@ export default function GeoCity({
                   <Wrench size={24} />
                 </IconChip>
                 <div className="flex-grow">
-                  <h3 className="font-heading font-bold text-xl text-foreground mb-3">
+                  <h2 className="font-heading font-bold text-xl text-foreground mb-3">
                     {geoTrans.onSite}
-                  </h3>
+                  </h2>
                   <p className="text-body text-muted-foreground leading-relaxed">
                     {geoTrans.onSiteText}
                   </p>
@@ -306,13 +306,13 @@ export default function GeoCity({
                           <span className="text-small text-muted-foreground block mb-2">
                             {distanceText}
                           </span>
-                          <h4 className="text-h3 font-heading font-bold flex items-center justify-between text-foreground group-hover:text-primary transition-colors duration-fast">
+                          <h3 className="text-h3 font-heading font-bold flex items-center justify-between text-foreground group-hover:text-primary transition-colors duration-fast">
                             {nm.city}
                             <ArrowRight
                               size={18}
                               className="text-primary opacity-0 group-hover:opacity-100 transition-all duration-fast translate-x-[-4px] group-hover:translate-x-0 group-hover:rtl:translate-x-0"
                             />
-                          </h4>
+                          </h3>
                         </div>
                         <p className="text-small text-muted-foreground leading-relaxed">
                           {shortRegulator}

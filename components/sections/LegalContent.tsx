@@ -60,9 +60,9 @@ export function LegalContent({ sections, title = "Inhalt" }: Props) {
       <aside className="hidden lg:block sticky top-32">
         <Reveal>
           <div className="relative border-s border-card-border/50 ps-6">
-            <h3 className="font-heading font-semibold text-foreground/50 text-xs uppercase tracking-widest mb-6">
+            <h2 className="font-heading font-semibold text-foreground/50 text-xs uppercase tracking-widest mb-6">
               {title}
-            </h3>
+            </h2>
             <div className="flex flex-col gap-1 relative">
               {sections.map((section, idx) => {
                 const id = section.id || `section-${idx}`;

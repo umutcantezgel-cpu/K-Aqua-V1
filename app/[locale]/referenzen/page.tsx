@@ -6,11 +6,8 @@ import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
-import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
-import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
-import { MediaSlot } from "@/components/ui/MediaSlot";
 import HoverPreviewList from '@/components/signature/HoverPreviewList';
 import {
   ShieldAlert,
@@ -22,7 +19,6 @@ import {
   Layers,
   Activity,
   Gauge,
-  Aperture,
   Combine
 } from "lucide-react";
 
@@ -46,57 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ReferenzenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "references");
-
-  const stickyScrollContent = [
-    {
-      title: "Projekt Alpha-Centauri: Globale Netzwerkinfrastruktur",
-      description: "Eine kompromisslose Neugestaltung der Backend-Topologie für einen führenden europäischen Industriekonzern. Durch die Implementierung monolithischer Microservices (Edge-Native) konnten Latenzen im Nanosekundenbereich realisiert werden. Absolute Ausfallsicherheit wird durch redundante, geo-replizierte Clusterstrukturen in zwölf Rechenzentren weltweit garantiert. Die Architektur skaliert elastisch und prädiktiv basierend auf neuronalen Lastmodellen, ohne menschliche Interaktion.",
-      content: <MediaSlot alt="K-Aqua Video - Projekt Alpha-Centauri Globale Netzwerkinfrastruktur" aspectRatio="16/9" src="/images/new-k-aqua/K-Aqua Video.mp4" />
-    },
-    {
-      title: "Operation Deep-Blue: Prädiktive Wartungssysteme",
-      description: "Sensordatenfusion auf industriellem Niveau. Verarbeitung von 40 Terabyte Telemetriedaten pro Sekunde durch ein massiv paralleles Kafka-Rückgrat. Die Architektur basiert auf Event-Sourcing und Eventual Consistency, wodurch eine zu 99,9999% präzise Vorhersage von Maschinenausfällen in Fertigungsanlagen garantiert wird. Kalte, berechnende Effizienz, die Wartungszyklen revolutioniert und Stillstandzeiten mathematisch eliminiert.",
-      content: <PremiumAssetPlaceholder label="Echtzeit-Datenstrom Visualisierung" />
-    },
-    {
-      title: "Nexus Protokoll: Quantenresistente Kryptographie",
-      description: "Sicherheitsarchitekturen, die keinen Raum für Schwäche lassen. Entwicklung eines hybriden Verschlüsselungsverfahrens für kritische Finanzinfrastrukturen (KRITIS). Zero-Trust-Architektur in ihrer reinsten, autoritärsten Form. Jeder Knotenpunkt, jede API-Anfrage und jeder Microservice wird unerbittlich über kurzlebige, hardware-signierte Zertifikate (mTLS) authentifiziert. Das System duldet keine Unregelmäßigkeiten.",
-      content: <PremiumAssetPlaceholder label="Kryptographischer Graph" />
-    },
-    {
-      title: "Projekt Hyperion: Autonome Supply-Chain",
-      description: "Die vollständige Eliminierung menschlicher Fehlerquellen in der globalen Logistikkette. Algorithmische Steuerung von über 10.000 autonomen Einheiten und Drohnen in Echtzeit. Die Logikmaschine optimiert Routing-Pfade deterministisch und ruthlessly effizient. Durch die Integration von Satelliten-Metadaten und Edge-Computing-Knoten in den Fahrzeugen wurden die Durchsatzraten um 400% gesteigert, während die Toleranzgrenzen auf Null reduziert wurden.",
-      content: <PremiumAssetPlaceholder label="Supply Chain Operations Matrix" />
-    }
-  ];
-
-  const timelineItems = [
-    {
-      year: "Phase I",
-      title: "Architektonischer Grundstein",
-      text: "Definition der initialen Systemgrenzen. Etablierung eines strikten, typisierten Datenmodells, das keine Abweichungen toleriert. Alle Legacy-Systeme wurden rückstandslos terminiert und durch kompilierte Hochleistungskomponenten ersetzt. Die Grundlage der industriellen Dominanz."
-    },
-    {
-      year: "Phase II",
-      title: "Skalierungsebene",
-      text: "Integration des verteilten Compute-Clusters. Übernahme der Datenverarbeitung auf ein byzantinisch-fehlertolerantes System. Netzwerktrennungen und Split-Brain-Szenarien werden algorithmisch innerhalb von Millisekunden aufgelöst, ohne dass ein Administrator eingreifen muss. Maximale Resilienz."
-    },
-    {
-      year: "Phase III",
-      title: "Zero-Trust Implementierung",
-      text: "Systemweite Durchsetzung des Zero-Trust-Paradigmas. Kryptographische Absicherung aller internen Kommunikationskanäle bis auf Kernel-Ebene (eBPF). Jedes Paket, das die Kapselungsgrenze überschreitet, wird inspeziert, verifiziert oder gnadenlos verworfen. Sicherheit als absolutes Diktat."
-    },
-    {
-      year: "Phase IV",
-      title: "Globale Edge-Replikation",
-      text: "Ausrollen der Infrastruktur auf fünf Kontinente. Sub-10ms Latenzen in 95% der globalen Zugriffszonen. Petabytes an strukturierten Daten werden asynchron und konfliktfrei (CRDTs) repliziert. Das System existiert überall und nirgends zugleich – unbesiegbar durch lokale Ausfälle."
-    },
-    {
-      year: "Phase V",
-      title: "Autonome Orchestrierung",
-      text: "Einführung KI-gestützter Heuristiken. Das System detektiert, isoliert und behebt Infrastrukturanomalien vollautomatisch. Pods werden skaliert, Routen neu berechnet und defekte Sektoren amputiert, bevor der Alert das Dashboard erreicht. Der Mensch wird zum passiven Beobachter degradiert."
-    }
-  ];
 
   return (
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
@@ -149,22 +94,6 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Massive Technical Deep Dive via Sticky Scroll */}
-      <section className="py-40 relative z-20 bg-background border-b border-card-border">
-        <div className="max-w-[1400px] mx-auto px-6 mb-20 text-center md:text-start">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-mono text-sm tracking-widest uppercase mb-8 border border-primary/20">
-            <Aperture className="w-4 h-4" /> Fallstudien-Archiv
-          </div>
-          <h2 className="text-5xl md:text-7xl font-heading font-black tracking-tighter uppercase text-foreground mb-8">
-            Operationelle <br className="hidden md:block" />Exzellenz
-          </h2>
-          <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-            Eine forensische Aufschlüsselung unserer kritischsten Implementierungen. 
-            Jedes dieser Projekte ist ein unbestreitbarer Beweis für technologische Überlegenheit und deterministische Ausführung unter Maximallast.
-          </p>
-        </div>
-        <StickyScrollReveal content={stickyScrollContent} />
-      </section>
 
       {/* Bento Grid Features */}
       <section className="py-40 bg-card/40 border-b border-card-border relative overflow-hidden">
@@ -242,12 +171,6 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Horizontal Timeline */}
-      <HorizontalTimeline 
-        title="Evolutionäre Meilensteine" 
-        description="Der unaufhaltsame, berechnende Fortschritt unserer Referenzarchitekturen über die letzten Implementierungsphasen. Eine ungeschönte Chronik systematischer Optimierung und Eliminierung von Schwachstellen."
-        items={timelineItems} 
-      />
 
       {/* Final Call to Action */}
       <section className="py-48 bg-background relative overflow-hidden flex items-center justify-center">

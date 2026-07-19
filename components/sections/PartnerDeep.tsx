@@ -95,7 +95,7 @@ export async function PartnerDeep() {
                 </span>
                 <div>
                   <div className="flex flex-wrap items-center gap-2">
-                    <h4 className="font-heading text-body font-bold text-foreground">{r.t}</h4>
+                    <h3 className="font-heading text-body font-bold text-foreground">{r.t}</h3>
                     <span className="rounded-full bg-primary-soft px-2.5 py-0.5 text-tiny font-bold text-primary">{r.s}</span>
                   </div>
                   <p className="text-small leading-relaxed text-muted-foreground">{r.d}</p>

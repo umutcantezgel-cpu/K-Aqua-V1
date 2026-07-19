@@ -95,18 +95,24 @@ export function TrustCenter({ data }: TrustCenterProps) {
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <Reveal>
-            <SectionHead
-              eyebrow={data.eyebrow}
-              title={
-                <>
-                  {data.title1}{ENSPACE}
-                  <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                    {data.titleGrad}
-                  </span>
-                </>
-              }
-              lead={data.lead}
-            />
+            <div className="max-w-[760px] mb-12 flex flex-col gap-3 text-start items-start">
+              {data.eyebrow && (
+                <div className="mb-1">
+                  <span className="text-small font-bold uppercase tracking-wider text-primary">{data.eyebrow}</span>
+                </div>
+              )}
+              <h1 className="text-h2 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
+                {data.title1}{ENSPACE}
+                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                  {data.titleGrad}
+                </span>
+              </h1>
+              {data.lead && (
+                <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+                  {data.lead}
+                </p>
+              )}
+            </div>
           </Reveal>
         </div>
       </section>
@@ -127,9 +133,9 @@ export function TrustCenter({ data }: TrustCenterProps) {
                   <Card className="h-full flex flex-col justify-between items-start text-start p-5 sm:p-8">
                     <div className="flex flex-col gap-4 items-start w-full">
                       <div className="flex justify-between items-start w-full gap-2">
-                        <h3 className="font-heading font-extrabold text-2xl text-foreground">
+                        <h2 className="font-heading font-extrabold text-2xl text-foreground">
                           {name}
-                        </h3>
+                        </h2>
                         <Chip className="text-tiny px-2.5 py-0.5 shrink-0 bg-primary-soft text-primary border-primary/20">
                           {data.accred}
                         </Chip>

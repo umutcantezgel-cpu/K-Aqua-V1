@@ -126,9 +126,9 @@ export default async function NewsPage({ params }: Props) {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-3">
+                    <h2 className="font-heading font-bold text-xl text-foreground mb-3">
                       {t("eventsTitle")}
-                    </h3>
+                    </h2>
                     <p className="text-body text-muted-foreground leading-relaxed">
                       {t("eventsText")}
                     </p>
