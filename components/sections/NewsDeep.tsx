@@ -1,18 +1,12 @@
-// K-Aqua — NewsDeep: "Mehr aus dem Hause K-Aqua" — aufklappbare Hintergrund-Artikel + ISH-Hinweis.
-//
-// QUELLE: kaqua-deep-sections-3.jsx (NewsDeep). PORTIERT 1:1 (Read-more-Toggle pro Karte,
-// ein Artikel gleichzeitig offen — wie im Prototyp, kein Multi-Open).
-// ANGEPASST: usePageL('newsx') -> useTranslations('newsx') + t.raw() für posts[] (next-intl
-// t() liefert nur Strings). Icons.ChevronDown -> benannter Import (siehe PROMPT.txt:
-// ChevronDown muss in components/ui/icon.tsx ergänzt werden).
-// Eigener State (offener Artikel-Index) -> "use client".
+// K-Aqua — NewsDeep: "Mehr aus dem Hause K-Aqua"
+// Linkt auf die 50 eigenständigen News-Detailseiten (aktuell die ersten 4).
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
-import { ChevronDown } from "@/components/ui/icon";
+import { Link } from '@/lib/i18n/navigation';
 
 interface Post {
   date: string;
@@ -22,9 +16,15 @@ interface Post {
   body: string[];
 }
 
+const SLUGS = [
+  'iso-zertifizierung-qualitaet-umwelt-energie',
+  'fortlaufende-kennzeichnung-rueckverfolgbarkeit',
+  'warum-eigentlich-ppr-materialkunde',
+  'messing-trifft-polypropylen-uebergaenge-bestand'
+];
+
 export function NewsDeep() {
   const t = useTranslations("newsx");
-  const [open, setOpen] = useState(-1);
   const posts = t.raw("posts") as Post[];
 
   return (
@@ -35,30 +35,22 @@ export function NewsDeep() {
         </Reveal>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-4">
           {posts.map((p, i) => {
-            const isOpen = open === i;
+            const slug = SLUGS[i] || 'unknown';
             return (
               <Reveal key={p.t} delay={i * 0.07}>
-                <Card className="h-full text-start">
-                  <div className="flex items-center gap-3 text-tiny font-semibold text-faint-foreground">
-                    <span>{p.date}</span>
-                    <span className="rounded-full bg-primary-soft px-2.5 py-1 font-bold text-primary">{p.tag}</span>
-                  </div>
-                  <h3 className="font-heading text-body font-bold text-foreground">{p.t}</h3>
-                  <p className="text-small text-muted-foreground">{p.teaser}</p>
-                  <div className={`mt-3 flex flex-col gap-3 text-small leading-relaxed text-muted-foreground ${isOpen ? 'block' : 'hidden md:block'}`}>
-                    {p.body.map((para, pi) => (
-                      <p key={pi}>{para}</p>
-                    ))}
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setOpen(isOpen ? -1 : i)}
-                    className="mt-3 inline-flex md:hidden items-center gap-1.5 self-start bg-transparent p-0 text-small font-bold text-primary outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  >
-                    {isOpen ? t("readLess") : t("readMore")}
-                    <ChevronDown size={15} className={isOpen ? "rotate-180" : ""} />
-                  </button>
-                </Card>
+                <Link href={`/news/${slug}`} className="block h-full group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-3xl">
+                  <Card className="h-full text-start transition-all duration-300 group-hover:border-primary/30 group-hover:shadow-md">
+                    <div className="flex items-center gap-3 text-tiny font-semibold text-faint-foreground">
+                      <span>{p.date}</span>
+                      <span className="rounded-full bg-primary-soft px-2.5 py-1 font-bold text-primary">{p.tag}</span>
+                    </div>
+                    <h3 className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">{p.t}</h3>
+                    <p className="text-small text-muted-foreground mt-2 line-clamp-3">{p.teaser}</p>
+                    <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
+                      {t("readMore")} <span className="translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
+                    </span>
+                  </Card>
+                </Link>
               </Reveal>
             );
           })}
