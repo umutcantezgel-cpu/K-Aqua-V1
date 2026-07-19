@@ -29,6 +29,8 @@ import {
   Handshake as LucideHandshake,
   ChevronDown as LucideChevronDown,
   Zap as LucideZap,
+  Package as LucidePackage,
+  Truck as LucideTruck,
   LucideProps,
 } from "lucide-react";
 import clsx from "clsx";
@@ -88,3 +90,5 @@ export const Flame = createIcon(LucideFlame);
 export const Handshake = createIcon(LucideHandshake);
 export const ChevronDown = createIcon(LucideChevronDown);
 export const Zap = createIcon(LucideZap);
+export const Package = createIcon(LucidePackage);
+export const Truck = createIcon(LucideTruck);

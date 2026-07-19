@@ -6,6 +6,7 @@ import { trinkwasserhygieneLegionellen } from './trinkwasserhygiene-legionellen'
 import { nachhaltigkeitOekobilanz } from './nachhaltigkeit-oekobilanz';
 import { chemischeBestaendigkeitIndustrie } from './chemische-bestaendigkeit-industrie';
 import { druckverlustStroemungsdynamik } from './druckverlust-stroemungsdynamik';
+import { schweisstechnikSicherheit } from './schweisstechnik-sicherheit';
 
 export interface NewsPost {
   slug: string;
@@ -26,6 +27,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [nachhaltigkeitOekobilanz.slug]: nachhaltigkeitOekobilanz,
   [chemischeBestaendigkeitIndustrie.slug]: chemischeBestaendigkeitIndustrie,
   [druckverlustStroemungsdynamik.slug]: druckverlustStroemungsdynamik,
+  [schweisstechnikSicherheit.slug]: schweisstechnikSicherheit,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
