@@ -41,6 +41,7 @@ import { isoliermaterialRohrdammungVergleich } from './isoliermaterial-rohrdammu
 import { waermeausdehnungKunststoffrohre } from './waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr';
 import { pprMehrschichtverbundrohrVergleich } from './ppr-rohrsysteme-vergleich-mehrschichtverbundrohr-pex-alu-pex';
 import { chemischeReinigungDesinfektion } from './chemische-reinigung-rohrnetze-spuelen-desinfektion-ppr';
+import { vibrationsentkopplungSchallschutz } from './vibrationsentkopplung-schallschutz-pumpen-rohrnetz-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -96,6 +97,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [waermeausdehnungKunststoffrohre.slug]: waermeausdehnungKunststoffrohre,
   [pprMehrschichtverbundrohrVergleich.slug]: pprMehrschichtverbundrohrVergleich,
   [chemischeReinigungDesinfektion.slug]: chemischeReinigungDesinfektion,
+  [vibrationsentkopplungSchallschutz.slug]: vibrationsentkopplungSchallschutz,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
