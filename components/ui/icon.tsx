@@ -32,6 +32,8 @@ import {
   Package as LucidePackage,
   Truck as LucideTruck,
   Activity as LucideActivity,
+  TrendingDown as LucideTrendingDown,
+  Coins as LucideCoins,
   LucideProps,
 } from "lucide-react";
 import clsx from "clsx";
@@ -94,3 +96,5 @@ export const Zap = createIcon(LucideZap);
 export const Package = createIcon(LucidePackage);
 export const Truck = createIcon(LucideTruck);
 export const Activity = createIcon(LucideActivity);
+export const TrendingDown = createIcon(LucideTrendingDown);
+export const Coins = createIcon(LucideCoins);
