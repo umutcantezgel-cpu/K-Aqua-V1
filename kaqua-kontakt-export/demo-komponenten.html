@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K Aqua · Kontakt Komponenten Suite</title>
+<link rel="stylesheet" href="kaqua-tokens.css">
+<style>
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px 180px}
+.top{padding:56px 0 20px}
+.kicker{font:700 12px var(--font-heading);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.top h1{font:600 clamp(28px,4vw,40px)/1.15 var(--font-heading);letter-spacing:-.01em}
+.top p{color:var(--muted-foreground);max-width:64ch;margin-top:10px}
+a{color:var(--accent)}a:hover{color:var(--accent-strong)}
+.simbar{position:sticky;top:12px;z-index:800;display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:26px 0 10px;padding:12px 16px;border:1px solid var(--nav-border);border-radius:var(--radius);background:var(--nav-glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.simbar .lab{font:600 11px var(--font-heading);letter-spacing:.12em;text-transform:uppercase;color:var(--faint-foreground)}
+.seg{display:flex;gap:4px;background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius-full);padding:4px}
+.seg button{border:0;background:transparent;color:var(--muted-foreground);font:600 13px var(--font-body);padding:7px 16px;border-radius:var(--radius-full);cursor:pointer;transition:background var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease)}
+.seg button[aria-pressed="true"]{background:var(--primary);color:var(--primary-foreground)}
+.reset{margin-left:auto;border:1px solid var(--card-border);background:transparent;color:var(--muted-foreground);font:600 12px var(--font-body);padding:8px 14px;border-radius:var(--radius-full);cursor:pointer;transition:color var(--dur-fast) var(--ease),border-color var(--dur-fast) var(--ease)}
+.reset:hover{color:var(--foreground);border-color:var(--ring)}
+section.demo{margin-top:44px}
+.dhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.dhead h2{font:600 21px var(--font-heading)}
+.dhead .tag{font:600 10.5px ui-monospace,monospace;color:var(--accent);border:1px solid var(--card-border);border-radius:99px;padding:3px 9px}
+.demo>p{color:var(--muted-foreground);font-size:14px;max-width:70ch;margin-bottom:16px}
+.snippet{margin-top:12px;background:var(--background-subtle);border:1px solid var(--card-border);border-radius:10px;padding:10px 14px;overflow:auto;font:500 12px/1.7 ui-monospace,monospace;color:var(--muted-foreground);white-space:pre}
+.snippet b{color:var(--accent);font-weight:600}
+.stage2col{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+.gh{border-radius:10px;border:1px solid var(--card-border);background:repeating-linear-gradient(-45deg,var(--card),var(--card) 10px,var(--background-subtle) 10px,var(--background-subtle) 20px);min-height:300px}
+.gh span{display:block;padding:8px 12px;font:600 10.5px ui-monospace,monospace;color:var(--faint-foreground)}
+.tilegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tilegrid .gh{min-height:220px}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap}
+.open-modal{border:0;border-radius:var(--radius-full);background:var(--primary);color:var(--primary-foreground);font:700 14px var(--font-heading);padding:12px 26px;cursor:pointer;transition:background var(--dur-fast) var(--ease),transform var(--dur-fast) var(--ease)}
+.open-modal:hover{background:var(--primary-hover);transform:translateY(-1px)}
+@media(max-width:860px){.stage2col{grid-template-columns:1fr}.tilegrid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="top">
+<div class="kicker">Komponenten Suite</div>
+<h1>Kontaktmodul in zehn wiederverwendbaren Bauformen</h1>
+<p>Eine Codebasis, ein Attribut pro Einsatzort. Jede Bauform nutzt dieselbe Content Map, Validierung, Erfolgsanimation und laeuft in Light und Dark. Einbindung immer gleich: Mount Element plus data-variant.</p>
+</header>
+<div class="simbar">
+<span class="lab">Seitenkontext</span>
+<div class="seg" id="pageSeg" role="group" aria-label="Seitenkontext"></div>
+<button class="reset" id="resetBtn" type="button">Alle zuruecksetzen</button>
+</div>
+
+<section class="demo" data-screen-label="Block">
+<div class="dhead"><h2>Block</h2><span class="tag">data-variant="block"</span></div>
+<p>Der Standard vor dem Footer jeder Seite. Voller Begleittext aus der Content Map, alle Felder, Scroll-Reveal.</p>
+<div data-kaqua-kontakt data-variant="block" data-page="rohr"></div>
+<div class="snippet">&lt;div <b>data-kaqua-kontakt</b> data-variant="block" data-page="rohr"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Band">
+<div class="dhead"><h2>Band</h2><span class="tag">data-variant="band"</span></div>
+<p>Vollbreites Primaerband fuer Seitenenden oder zwischen Kapiteln. Ton per data-tone austauschbar.</p>
+<div data-kaqua-kontakt data-variant="band" data-page="netz"></div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="band" data-page="netz"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Hero">
+<div class="dhead"><h2>Hero Panel</h2><span class="tag">data-variant="hero"</span></div>
+<p>Glaspanel fuer die Buehne: eine Zeile Kontext, eine Zeile Formular.</p>
+<div data-kaqua-kontakt data-variant="hero" data-page="bim"></div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="hero" data-page="bim"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Inline">
+<div class="dhead"><h2>Inline Karte</h2><span class="tag">data-variant="inline"</span></div>
+<p>Zwischen Absaetzen im Inhalt. Kurzer Kontexttext links, Felder rechts.</p>
+<div data-kaqua-kontakt data-variant="inline" data-page="rohr"></div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="inline" data-page="rohr"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Zeile">
+<div class="dhead"><h2>Schmale Zeile</h2><span class="tag">data-variant="row"</span></div>
+<p>Die kleinste Inline-Form: Promise-Punkt, zwei Felder, Knopf.</p>
+<div data-kaqua-kontakt data-variant="row" data-page="netz"></div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="row" data-page="netz"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Seitenleiste">
+<div class="dhead"><h2>Seitenleiste</h2><span class="tag">data-variant="sidebar"</span></div>
+<p>Gestapelte Form fuer die rechte Spalte neben langen Inhalten.</p>
+<div class="stage2col">
+<div class="gh"><span>seiteninhalt</span></div>
+<div data-kaqua-kontakt data-variant="sidebar" data-page="bim"></div>
+</div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="sidebar" data-page="bim"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Kachel">
+<div class="dhead"><h2>Kachel im Raster</h2><span class="tag">data-variant="tile"</span></div>
+<p>Fuellt eine Zelle in Bento- oder Kartenrastern, volle Hoehe.</p>
+<div class="tilegrid">
+<div class="gh"><span>kachel</span></div>
+<div class="gh"><span>kachel</span></div>
+<div data-kaqua-kontakt data-variant="tile" data-page="fallback"></div>
+</div>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="tile"&gt;&lt;/div&gt;</div>
+</section>
+
+<section class="demo" data-screen-label="Modal">
+<div class="dhead"><h2>Modal</h2><span class="tag">data-kaqua-open="rohr"</span></div>
+<p>Overlay auf Abruf: per Attribut an beliebigen Knoepfen oder per KAquaKontakt.openModal(key). Schliessen ueber Kreuz, Hintergrund oder Escape.</p>
+<div class="btnrow">
+<button class="open-modal" data-kaqua-open="rohr" type="button">Modal Rohrleitungen</button>
+<button class="open-modal" data-kaqua-open="netz" type="button">Modal Netze</button>
+</div>
+<div class="snippet">&lt;button <b>data-kaqua-open</b>="rohr"&gt;Projekt anfragen&lt;/button&gt;
+KAquaKontakt.<b>openModal</b>("rohr")</div>
+</section>
+
+<section class="demo" data-screen-label="Sticky und FAB">
+<div class="dhead"><h2>Sticky Leiste und Schwebeknopf</h2><span class="tag">data-variant="sticky" / "fab"</span></div>
+<p>Beide sind auf dieser Seite live: die Glasleiste unten, der K Knopf rechts unten. Der Knopf klappt eine Karte auf, die Leiste laesst sich schliessen. Das Mount Element darf irgendwo im Markup stehen, die Position ist fixiert.</p>
+<div class="snippet">&lt;div data-kaqua-kontakt data-variant="sticky" data-page="rohr"&gt;&lt;/div&gt;
+&lt;div data-kaqua-kontakt data-variant="fab" data-page="rohr"&gt;&lt;/div&gt;</div>
+</section>
+
+<div data-kaqua-kontakt data-variant="sticky" data-page="rohr" id="stickyMount"></div>
+<div data-kaqua-kontakt data-variant="fab" data-page="rohr"></div>
+</main>
+<script src="kaqua-kontakt.js"></script>
+<script src="kaqua-theme.js"></script>
+<script>
+var seg=document.getElementById("pageSeg"),cur="rohr";
+var LABELS={rohr:"Rohrleitungen",netz:"Trinkwassernetze",bim:"BIM Planung",fallback:"Fallback"};
+Object.keys(LABELS).forEach(function(k){
+var b=document.createElement("button");b.type="button";b.textContent=LABELS[k];b.dataset.k=k;b.setAttribute("aria-pressed",String(k===cur));
+b.onclick=function(){if(k===cur)return;cur=k;seg.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",String(x.dataset.k===k))});document.querySelectorAll("[data-kaqua-kontakt]").forEach(function(m){KAquaKontakt.setPage(m,k)})};
+seg.appendChild(b)});
+document.getElementById("resetBtn").onclick=function(){document.querySelectorAll("[data-kaqua-kontakt]").forEach(function(m){m._kqk&&m._kqk.reset(true)});var s=document.querySelector("#stickyMount .kqk");s&&s.classList.remove("hidden")};
+</script>
+</body>
+</html>

@@ -18,6 +18,7 @@ import SpotlightGrid from '@/components/signature/SpotlightGrid';
 import DiagonalBand from '@/components/signature/DiagonalBand';
 import EdgeIndex from '@/components/signature/EdgeIndex';
 
+import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
@@ -136,6 +137,13 @@ export default async function Page({ params }: Props) {
       <JsonLd schema={webPageJsonLd} />
       {/* 1) Hero (Hero-Scrollytelling) */}
       <HeroScrolly />
+      
+      {/* Lead Module: Hero Variant */}
+      <div className="bg-background pt-8 pb-4">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <KontaktBlock slug="home" variant="hero" tone="primary" />
+        </div>
+      </div>
 
       {/* 2) Marquee-Band */}
       <section className="w-full bg-background select-none relative">

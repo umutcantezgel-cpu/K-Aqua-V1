@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="design_doc_mode" content="canvas">
+<title>K Aqua - Kontaktmodul - 60 Positionen</title>
+<link rel="stylesheet" href="kaqua-tokens.css">
+<style>
+body{background:transparent}
+.pgtitle{position:absolute;left:40px;top:18px;width:900px}
+.pgtitle h1{font:600 26px var(--font-heading);color:var(--foreground)}
+.pgtitle p{font:500 12px var(--font-body);color:var(--muted-foreground);margin-top:4px}
+.cat{position:absolute;font:700 13px var(--font-heading);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.frame{position:absolute}
+.cap{font:600 10px ui-monospace,monospace;color:var(--faint-foreground);margin-bottom:5px;white-space:nowrap}
+.mock{position:relative;width:450px;height:280px;background:var(--background);border:1px solid var(--card-border);border-radius:10px;overflow:hidden;font-family:var(--font-body);display:flex;flex-direction:column}
+.mock.mob{width:200px;height:340px}
+.gnav{display:flex;align-items:center;gap:8px;padding:8px 12px;border-bottom:1px solid var(--card-border);flex:none}
+.gk{width:14px;height:14px;border-radius:4px;background:var(--primary);color:var(--primary-foreground);font:700 8px var(--font-heading);display:grid;place-items:center;flex:none}
+.gl{display:block;height:5px;border-radius:3px;background:var(--background-subtle);flex:none}
+.gnav .gl{height:4px}
+.sp{flex:1}
+.gbtn{display:block;width:34px;height:10px;border-radius:99px;background:var(--primary-soft);border:1px solid var(--card-border)}
+.body{flex:1;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:0}
+.tx{display:flex;flex-direction:column;gap:5px}
+.gfoot{border-top:1px solid var(--card-border);padding:6px 12px;display:flex;gap:8px;flex:none}
+.ghero{border-radius:8px;background:var(--hero-wash),var(--background-subtle);padding:14px 12px;display:flex;flex-direction:column;gap:6px}
+.hh{width:170px;height:9px;border-radius:4px;background:var(--card-border)}
+.mod{background:var(--card);border:1px solid var(--card-border);border-radius:8px;padding:9px;display:flex;flex-direction:column;gap:6px;box-shadow:var(--shadow-diffuse)}
+.mk{font:700 6.5px var(--font-heading);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.mh{font:600 9.5px/1.25 var(--font-heading);color:var(--foreground)}
+.mt{font:500 6.5px/1.5 var(--font-body);color:var(--muted-foreground)}
+.mi{display:inline-flex;align-items:center;height:15px;padding:0 6px;border:1px solid var(--card-border);border-radius:5px;background:var(--background);color:var(--faint-foreground);font-size:6.5px;white-space:nowrap}
+.mb{display:inline-flex;align-items:center;justify-content:center;height:15px;padding:0 9px;border-radius:99px;background:var(--primary);color:var(--primary-foreground);font:700 6.5px var(--font-heading);white-space:nowrap}
+.mc{display:inline-flex;align-items:center;height:12px;padding:0 6px;border-radius:99px;border:1px solid var(--card-border);color:var(--muted-foreground);font-size:6px;white-space:nowrap}
+.mc.on{background:var(--primary-soft);border-color:var(--primary);color:var(--foreground)}
+.fr{display:flex;gap:5px;align-items:center}
+.fs{display:flex;flex-direction:column;gap:5px}
+.fs .mi{width:100%}
+.cr{display:flex;gap:4px;flex-wrap:wrap}
+.pdot{display:flex;align-items:center;gap:4px;font:600 6px var(--font-body);color:var(--faint-foreground)}
+.pdot i{width:4px;height:4px;border-radius:50%;background:var(--accent)}
+.t-primary{background:linear-gradient(135deg,var(--brand-600),var(--brand-800));border-color:transparent}
+.t-primary .mh,.t-primary .mt{color:oklch(0.96 0.01 300)}
+.t-primary .mk{color:var(--aqua-300)}
+.t-primary .mi{background:oklch(1 0 0/.12);border-color:oklch(1 0 0/.22);color:oklch(1 0 0/.75)}
+.t-primary .mb{background:white;color:var(--brand-700)}
+.t-primary .mc{border-color:oklch(1 0 0/.3);color:oklch(1 0 0/.8)}
+.t-primary .mc.on{background:oklch(1 0 0/.2);border-color:white;color:white}
+.t-inverse{background:oklch(0.965 0.006 300);border-color:transparent}
+.t-inverse .mh{color:oklch(0.22 0.03 300)}
+.t-inverse .mt{color:oklch(0.45 0.02 300)}
+.t-inverse .mi{background:white;border-color:oklch(0.88 0.01 300);color:oklch(0.55 0.02 300)}
+.t-inverse .mc{border-color:oklch(0.85 0.01 300);color:oklch(0.45 0.02 300)}
+.t-inverse .mc.on{background:oklch(0.93 0.03 305);border-color:var(--brand-400);color:oklch(0.3 0.05 302)}
+.t-glass{background:oklch(0.28 0.03 300/.45);backdrop-filter:blur(5px);border-color:oklch(0.9 0.02 300/.18)}
+.t-aqua .mb{background:var(--aqua-400);color:oklch(0.18 0.04 225)}
+.t-aqua .mk{color:var(--aqua-400)}
+.t-flat{background:transparent;border:0;box-shadow:none;padding:0}
+.u .mi{border:0;border-bottom:1px solid var(--card-border);border-radius:0;background:transparent}
+.dim{position:absolute;inset:0;background:oklch(0.05 0.01 300/.62);z-index:2}
+.ov{position:absolute;z-index:3}
+.gtile{border:1px solid var(--card-border);border-radius:8px;background:var(--card);flex:1;min-height:0}
+</style>
+</head>
+<body>
+<div class="pgtitle"><h1>Kontaktmodul - 60 Positionsdesigns</h1><p>Zehn Positionsklassen mal sechs Ausfuehrungen. Jede Kachel zeigt die Platzierung des Moduls im Seitengeruest. A bis I Desktop, J Mobil.</p></div>
+<script>
+const gl=(w,h=5)=>`<i class="gl" style="width:${w}px;height:${h}px"></i>`;
+const tx=ws=>`<div class="tx">${ws.map(w=>gl(w)).join("")}</div>`;
+const nav=`<div class="gnav"><b class="gk">K</b>${gl(30,4)}${gl(18,4)}${gl(18,4)}<span class="sp"></span><i class="gbtn"></i></div>`;
+const foot=`<div class="gfoot">${gl(60,4)}<span class="sp"></span>${gl(40,4)}</div>`;
+const inp=(t,f)=>`<span class="mi"${f?' style="flex:1"':""}>${t}</span>`;
+const chips=(on=0,n=4)=>["Rohrsysteme","Netze","BIM","Beratung"].slice(0,n).map((c,i)=>`<span class="mc${i===on?" on":""}">${c}</span>`).join("");
+const btn=t=>`<span class="mb">${t||"Anfrage senden"}</span>`;
+const frow=`<div class="fr">${inp("+49 Telefon")}${inp("Email",1)}${btn()}</div>`;
+const fstack=`${inp("+49 Telefon")}${inp("Email")}<div class="cr">${chips()}</div>${btn()}`;
+const head=(k,h)=>`<div class="mk">${k}</div><div class="mh">${h}</div>`;
+const promise=`<div class="pdot"><i></i>Antwort in 24 h</div>`;
+const mod=(cls,inner,st)=>`<div class="mod ${cls||""}" style="${st||""}">${inner}</div>`;
+const body=(inner,st)=>`<div class="body" style="${st||""}">${inner}</div>`;
+const paras=tx([180,220,160])+tx([200,150,190]);
+const A=v=>{
+const forms={1:`<div style="display:flex;gap:10px"><div style="flex:1">${head("Rohrleitungen","Dimensionierung fuer Ihr Projekt")}<div class="mt">Druckstufe, Medium, Trassenlaenge.</div>${promise}</div><div style="flex:1.2;display:flex;flex-direction:column;gap:5px">${fstack}</div></div>`,
+2:`${head("Kontakt","Sprechen Sie mit unseren Ingenieuren")}${frow}`,
+3:`<div style="text-align:center">${head("Kontakt","In 30 Sekunden angefragt")}</div>${frow}`,
+4:`<div class="fr">${["500 Projekte","15 Sprachen","0 Leckagen"].map(s=>`<span class="mi">${s}</span>`).join("")}</div>${head("","Ihr Projekt gehoert dazu")}${frow}`,
+5:`${head("Kontakt","Antwort innerhalb eines Arbeitstages")}${frow}`,
+6:`${head("Kontakt","Direkter Draht ins Werk")}${frow}`};
+const tone={1:"",2:"t-primary",3:"",4:"t-aqua",5:"t-inverse",6:"t-glass"}[v];
+const st={2:"left:0;right:0;bottom:24px;border-radius:0",3:"left:90px;right:90px;bottom:24px",6:"left:12px;right:12px;bottom:24px"}[v]||"left:12px;right:12px;bottom:24px";
+return nav+body(paras)+`<div style="position:absolute;${st};z-index:1">${mod(tone,forms[v])}</div>`+`<div style="position:absolute;left:0;right:0;bottom:0">${foot}</div>`;};
+const Bb=v=>{
+const bars={1:`<div class="fr"><span class="mh" style="flex:1">Projekt anfragen</span>${inp("+49 Telefon")}${inp("Email")}${btn()}</div>`,
+2:`<div class="fr"><span class="mh">Kontakt</span><span class="cr">${chips(0,3)}</span>${inp("Telefon",1)}${btn()}</div>`,
+3:`<div class="fr">${inp("+49 Telefon",1)}${inp("Email",1)}${btn()}</div>`,
+4:`<div class="fr"><span class="mb" style="background:var(--aqua-400);color:oklch(0.18 0.04 225)">Direktwahl +49 6085</span><span class="mt" style="flex:1;text-align:center">oder in 30 Sekunden schriftlich</span>${btn("Formular")}</div>`,
+5:`<div class="fr"><span class="mh" style="flex:1">Noch Fragen zum Projekt</span>${inp("Email",1)}${btn()}</div>`,
+6:`${head("Kontakt","Antwort innerhalb eines Arbeitstages")}${frow}`};
+const tone={1:"",2:"",3:"",4:"t-primary",5:"t-glass",6:""}[v];
+const st=v===3?"left:20px;right:20px;bottom:8px;border-radius:99px":"left:0;right:0;bottom:0;border-radius:0;border-left:0;border-right:0;border-bottom:0";
+return nav+body(paras+tx([210,180]))+`<div style="position:absolute;${st};z-index:1">${mod(tone,bars[v])}</div>`;};
+const C=v=>{
+const w={1:`<div class="ov" style="right:12px;bottom:12px;width:26px;height:26px;border-radius:50%;background:var(--primary);color:var(--primary-foreground);display:grid;place-items:center;font:700 10px var(--font-heading);box-shadow:var(--shadow-lift)">K</div>`,
+2:`<div class="ov" style="right:12px;bottom:12px">${btn("Kontakt aufnehmen")}</div>`,
+3:`<div class="ov" style="right:12px;bottom:12px;width:150px">${mod("",`${head("Kontakt","Kurz anfragen")}${fstack}`)}</div>`,
+4:`<div class="ov" style="right:12px;bottom:12px;width:150px">${mod("",`<div class="fr" style="background:var(--brand-600);margin:-9px -9px 0;padding:6px 9px;border-radius:8px 8px 0 0"><b class="gk">K</b><span class="mh" style="color:white">K Aqua Kontakt</span></div><div class="mt">Guten Tag, wie erreichen wir Sie</div>${inp("+49 Telefon")}${inp("Email")}${btn("Senden")}`)}</div>`,
+5:`<div class="ov" style="right:0;top:90px;writing-mode:vertical-rl">${mod("t-aqua",`<span class="mh" style="font-size:7px;letter-spacing:.1em">KONTAKT</span>`,"border-radius:6px 0 0 6px;padding:8px 4px")}</div>`,
+6:`<div class="ov" style="right:0;bottom:0">${mod("t-primary",`<div class="fr"><span class="mh" style="color:white">Rueckruf</span>${inp("Telefon")}${btn("Los")}</div>`,"border-radius:10px 0 0 0")}</div>`};
+return nav+body(paras+tx([210,180]))+w[v];};
+const D=v=>{
+const rails={1:`${head("Kontakt","Projekt anfragen")}${fstack}`,
+2:`${head("","Kurzanfrage")}${inp("Telefon")}${btn("Senden")}`,
+3:`${head("Kontakt","Wir melden uns")}${promise}${inp("Telefon")}${inp("Email")}${btn()}`,
+4:`<div class="mh" style="font-size:11px;color:var(--accent)">+49 6085 999</div><div class="mt">oder schriftlich</div>${inp("Email")}${btn("Senden")}`,
+5:`${head("Kontakt","Projekt anfragen")}${fstack}`,
+6:`${head("Kontakt","Projekt anfragen")}${fstack}`};
+const tone={5:"t-inverse",6:"t-glass"}[v]||"";
+return nav+`<div class="body" style="flex-direction:row">`+`<div style="flex:1;display:flex;flex-direction:column;gap:10px">${paras+tx([190,210])}</div>`+`<div style="width:130px;flex:none;display:flex;flex-direction:column;gap:6px">${v===2?tx([90]):""}${mod(tone,rails[v])}</div>`+`</div>`;};
+const E=v=>{
+const ms={1:mod("",`${head("Rohrleitungen","Fragen zu diesem Thema")}${frow}`),
+2:mod("t-aqua",`<div class="fr"><div style="flex:1">${head("Hinweis","Auslegung unklar Wir rechnen mit")}</div>${inp("Telefon")}${btn("Rueckruf")}</div>`),
+3:mod("t-primary",`${head("","Direkt vom Ingenieur beraten lassen")}${frow}`,"margin:0 -12px;border-radius:0"),
+4:mod("t-flat",`<div class="fr">${inp("+49 Telefon",1)}${inp("Email",1)}${btn()}</div>`),
+5:mod("t-flat u",`<div class="mt">Lieber direkt sprechen</div><div class="fr">${inp("Telefon",1)}${inp("Email",1)}${btn("Anfragen")}</div>`),
+6:`<div class="tx">${gl(420,8)}${gl(420,8)}${gl(420,8)}</div>`+mod("",`<div class="fr"><span class="mh" style="flex:1">Diese Werte fuer Ihr Netz</span>${inp("Email",1)}${btn()}</div>`)};
+return nav+body(tx([200,230,180])+ms[v]+tx([210,190,150]));};
+const F=v=>{
+const hero={1:`<div class="ghero" style="height:150px;position:relative"><div class="hh"></div>${gl(120,6)}${gl(90,6)}<div style="position:absolute;right:10px;top:10px;width:150px">${mod("",`${head("Kontakt","Direkt anfragen")}${fstack}`)}</div></div>`,
+2:`<div class="ghero"><div class="hh"></div>${gl(120,6)}${mod("t-glass",`<div class="fr">${inp("+49 Telefon",1)}${inp("Email",1)}${btn()}</div>`,"margin-top:6px")}</div>`,
+3:`<div class="ghero"><div class="hh"></div>${gl(120,6)}<div class="fr" style="margin-top:8px">${inp("+49 Telefon")}${inp("Email",1)}${btn()}</div><div class="cr">${chips()}</div></div>`,
+4:`<div class="ghero" style="position:relative"><div class="hh"></div>${gl(120,6)}${gl(90,6)}<div style="position:absolute;right:10px;top:10px">${btn("Kontakt in 30 Sekunden")}</div></div>`,
+5:`<div style="display:flex;gap:0;height:160px;margin:-12px -12px 0"><div class="ghero" style="flex:1.4;border-radius:0"><div class="hh"></div>${gl(110,6)}${gl(80,6)}</div>${mod("t-primary",`${head("Kontakt","Ihr Projekt startet hier")}${fstack}`,"flex:1;border-radius:0")}</div>`,
+6:`<div class="ghero" style="height:150px;display:flex;flex-direction:column"><div class="hh"></div>${gl(110,6)}<span style="flex:1"></span>${mod("t-glass",`<div class="fr">${inp("Telefon",1)}${inp("Email",1)}${btn()}</div>`)}</div>`};
+return nav+body(hero[v]+tx([210,180]));};
+const G=v=>{
+const tops={1:mod("t-primary",`<div class="fr"><span class="mt" style="color:white">Projektanfrage direkt</span><span class="sp"></span>${inp("Telefon")}${inp("Email")}${btn("Senden")}</div>`,"border-radius:0;padding:5px 12px")+nav,
+2:nav+mod("t-aqua",`<div class="fr"><span class="mh">Kontakt</span>${inp("+49 Telefon",1)}${inp("Email",1)}${btn()}</div>`,"border-radius:0;margin:0"),
+3:mod("t-aqua",`<div class="fr"><span class="mt" style="flex:1">Neue Werksfuehrung Waldsolms, jetzt Termin sichern</span>${btn("Rueckruf anfordern")}</div>`,"border-radius:0;padding:5px 12px")+nav,
+4:nav+`<div class="ov" style="right:10px;top:32px;width:150px">${mod("",`${head("Kontakt","Kurz anfragen")}${fstack}`)}</div>`,
+5:nav+`<div class="ov" style="left:60px;right:60px;top:32px">${mod("t-glass",`<div style="display:flex;gap:10px"><div style="flex:1">${head("Kontakt","Alle Wege zu K Aqua")}<div class="mt">Werk, Vertrieb, BIM Support</div></div><div style="flex:1.2;display:flex;flex-direction:column;gap:5px">${inp("Telefon")}${inp("Email")}${btn()}</div></div>`)}</div>`,
+6:mod("t-glass",`<div class="fr"><b class="gk">K</b><span class="mh" style="flex:1">K Aqua</span>${inp("Telefon")}${btn("Rueckruf")}</div>`,"border-radius:0;box-shadow:var(--shadow-lift)")};
+return tops[v]+body(paras+(v>=4?tx([200]):""));};
+const H=v=>{
+const p={1:`<div class="ov" style="left:120px;right:120px;top:70px">${mod("",`${head("Kontakt","Bleiben wir im Gespraech")}${fstack}`)}</div>`,
+2:`<div class="ov" style="left:110px;right:110px;top:60px">${mod("t-primary",`${head("Einen Moment","Ihr Angebot in 24 Stunden statt weiterer Suche")}${frow}`)}</div>`,
+3:`<div class="ov" style="left:60px;right:60px;bottom:0">${mod("",`<div style="width:26px;height:3px;border-radius:2px;background:var(--card-border);margin:0 auto"></div>${head("Kontakt","Kurzanfrage")}${frow}`,"border-radius:10px 10px 0 0")}</div>`,
+4:`<div class="ov" style="right:0;top:0;bottom:0;width:170px">${mod("",`${head("Kontakt","Projekt anfragen")}${fstack}${promise}`,"height:100%;border-radius:0")}</div>`,
+5:`<div class="ov" style="inset:0">${mod("t-primary",`<div style="max-width:220px;margin:40px auto 0;display:flex;flex-direction:column;gap:6px;text-align:center"><div class="mh" style="font-size:13px;color:white">Sprechen wir ueber Ihr Projekt</div>${inp("+49 Telefon")}${inp("Email")}${btn()}</div>`,"height:100%;border-radius:0")}</div>`,
+6:`<div class="ov" style="left:12px;bottom:12px;width:170px">${mod("t-glass",`<div class="mt">Sie vergleichen gerade Anbieter</div><div class="fr">${inp("Telefon",1)}${btn("Rueckruf")}</div>`)}</div>`};
+return nav+body(paras)+(v===5?"":`<div class="dim"></div>`)+p[v];};
+const I=v=>{
+const m={1:mod("",`${head("Kontakt","Projekt anfragen")}${inp("Telefon")}${btn("Senden")}`,"flex:1"),
+2:mod("",`${head("","Nichts passende dabei")}${inp("Email")}${btn("Beratung")}`,"flex:1"),
+3:mod("t-primary",`${head("Kontakt","Ihr Projekt hier")}${inp("Telefon")}${btn("Anfragen")}`,"flex:1"),
+4:mod("",`<div style="position:absolute;right:-14px;top:-14px;width:54px;height:54px;border-radius:50%;border:1px solid var(--card-border);opacity:.5"></div>${head("Weltweit","Kontakt")}${inp("Telefon")}${btn("Senden")}`,"flex:1;position:relative;overflow:hidden"),
+5:mod("t-aqua",`<div class="fr"><span class="mh" style="flex:1">Kontakt</span>${btn("Los")}</div>${inp("Telefon")}`,"flex:1"),
+6:mod("t-glass",`${head("Kontakt","In 30 Sekunden")}${frow}`,"flex:2.1")};
+const tile=`<div class="gtile"></div>`;
+const row1=v===6?`<div style="display:flex;gap:8px;flex:1">${tile}${tile}${tile}</div>`:`<div style="display:flex;gap:8px;flex:1">${tile}${tile}${m[v]}</div>`;
+const row2=v===6?`<div style="display:flex;gap:8px;flex:1">${tile}${m[v]}</div>`:`<div style="display:flex;gap:8px;flex:1">${tile}${tile}${tile}</div>`;
+return nav+body(row1+row2);};
+const J=v=>{
+const nv=`<div class="gnav"><b class="gk">K</b>${gl(26,4)}<span class="sp"></span>${v===5?`<span class="mb" style="height:12px;font-size:5.5px;padding:0 6px">Kontakt</span>`:gl(14,4)}</div>`;
+const p={1:nv+body(tx([150,160,120])+tx([155,130]))+mod("",`<div class="fr">${inp("Telefon",1)}${btn("Anfragen")}</div>`,"position:absolute;left:0;right:0;bottom:0;border-radius:0;border:0;border-top:1px solid var(--card-border)"),
+2:nv+body(tx([150,160,120])+tx([155,130,140]))+`<div class="ov" style="right:10px;bottom:10px;width:24px;height:24px;border-radius:50%;background:var(--primary);color:var(--primary-foreground);display:grid;place-items:center;font:700 9px var(--font-heading);box-shadow:var(--shadow-lift)">K</div>`,
+3:nv+body(tx([150,160])+mod("",`${head("Kontakt","Kurz anfragen")}${inp("Telefon")}${inp("Email")}${btn()}`)+tx([155,130])),
+4:nv+body(tx([150,160,120]))+`<div class="dim"></div><div class="ov" style="left:0;right:0;bottom:0">${mod("",`<div style="width:22px;height:3px;border-radius:2px;background:var(--card-border);margin:0 auto"></div>${head("Kontakt","Anfrage in 30 Sekunden")}${inp("Telefon")}${inp("Email")}<div class="cr">${chips(0,3)}</div>${btn()}`,"border-radius:10px 10px 0 0")}</div>`,
+5:nv+body(tx([150,160,120])+tx([155,130,140])),
+6:nv+body(tx([150,140])+mod("t-primary",`${head("Kontakt","Ihr Projekt")}${inp("Telefon")}${inp("Email")}${btn()}`)+`<div class="gfoot" style="border:0;padding:0">${gl(50,4)}${gl(30,4)}</div>`)};
+return p[v];};
+const CATS=[["A","Pre-Footer Sektionen",A,["Split Karte","Vollband Primaer","Zentriert schmal","Mit Kennzahlen","Invers hell","Glas mit Verlauf"]],
+["B","Sticky Bottom Leisten",Bb,["Schmale Leiste","Mit Interessen-Chips","Schwebende Pille","Anruf und Formular geteilt","Glasleiste","Zweizeilig erweitert"]],
+["C","Schwebende Widgets",C,["Runder Knopf","Knopf mit Label","Aufgeklappte Karte","Dialogstil mit Kopfzeile","Vertikale Lasche","Eckpanel angedockt"]],
+["D","Seitenleiste",D,["Karte im Rail","Kompakt versetzt","Mit Versprechen","Telefon zuerst","Invers hell","Glas"]],
+["E","Inline im Inhalt",E,["Karte zwischen Absaetzen","Hinweiskasten Aqua","Vollbreites Band","Zweifelder-Zeile","Minimal mit Linien","Nach Datenblock"]],
+["F","Hero integriert",F,["Karte rechts","Leiste unter Headline","Felder auf der Buehne","Badge Knopf","Geteilte Buehne","Glaspanel unten"]],
+["G","Kopfbereich",G,["Topbar ueber Nav","Band unter Nav","Hinweisleiste mit Aktion","Nav Dropdown","Megamenu Panel","Sticky nach Scroll"]],
+["H","Overlay und Modal",H,["Zentrales Modal","Exit Intent","Bottom Sheet","Seitenpanel rechts","Vollbild","Sanfter Toast"]],
+["I","Kachel im Raster",I,["Bento Kachel","Am Rasterende","Primaer Kachel","Mit Globus Geist","Kompakt mit Aktion","Breite Glaskachel"]],
+["J","Mobil",J,["Sticky unten","Schwebeknopf","Inline Karte","Bottom Sheet","Chip im Kopf","Vor dem Footer"]]];
+let html="";
+CATS.forEach((c,ci)=>{
+const mob=c[0]==="J",y=110+ci*430;
+html+=`<h2 class="cat" style="left:40px;top:${y-34}px">${c[0]} - ${c[1]}</h2>`;
+for(let v=1;v<=6;v++){
+const x=40+(v-1)*(mob?240:490);
+html+=`<div class="frame" style="left:${x}px;top:${y}px"><div class="cap">${c[0]}${v} - ${c[3][v-1]}</div><div class="mock${mob?" mob":""}">${c[2](v)}</div></div>`;
+}});
+document.body.insertAdjacentHTML("beforeend",html);
+</script>
+</body>
+</html>

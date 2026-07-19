@@ -36,6 +36,7 @@ export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const isRTL = /^\/(ar|he|fa|ur)(\/|$)/.test(pathname);
   requestHeaders.set('x-direction', isRTL ? 'rtl' : 'ltr');
+  requestHeaders.set('x-pathname', pathname);
 
   const reqWithHeaders = new NextRequest(request, {
     headers: requestHeaders,

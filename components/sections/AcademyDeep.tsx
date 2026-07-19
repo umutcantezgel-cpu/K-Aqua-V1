@@ -16,6 +16,7 @@ import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { StepFlow } from "@/components/ui/StepFlow";
 import { SOCKET_WELD_PARAMS } from "@/lib/data/deep";
+import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
 
 interface Procedure {
   t: string;
@@ -72,10 +73,15 @@ export function AcademyDeep() {
             </div>
           </Reveal>
           <Reveal delay={0.12}>
-            <Card>
-              <h3 className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</h3>
-              <StepFlow steps={procs![proc]!.steps} />
-            </Card>
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 items-start">
+              <Card>
+                <h3 className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</h3>
+                <StepFlow steps={procs![proc]!.steps} />
+              </Card>
+              <div className="sticky top-24">
+                <KontaktBlock slug="academy" variant="sidebar" />
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>
