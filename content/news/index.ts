@@ -12,6 +12,9 @@ import { schallschutzAkustik } from './schallschutz-akustik';
 import { flexibilitaetErdbebenresistenz } from './flexibilitaet-erdbebenresistenz';
 import { lebenszykluskostenTco } from './lebenszykluskosten-tco';
 import { brandschutzFeuerwiderstandsklasse } from './brandschutz-feuerwiderstandsklasse';
+import { trinkwasserverordnungNormenZertifikate } from './trinkwasserverordnung-normen-zertifikate';
+import { greenBuildingZertifizierung } from './green-building-zertifizierung-leed-breeam-ppr';
+import { bimBuildingInformationModeling } from './bim-building-information-modeling-rohrleitungsplanung-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -38,6 +41,9 @@ export const newsRegistry: Record<string, NewsPost> = {
   [flexibilitaetErdbebenresistenz.slug]: flexibilitaetErdbebenresistenz,
   [lebenszykluskostenTco.slug]: lebenszykluskostenTco,
   [brandschutzFeuerwiderstandsklasse.slug]: brandschutzFeuerwiderstandsklasse,
+  [trinkwasserverordnungNormenZertifikate.slug]: trinkwasserverordnungNormenZertifikate,
+  [greenBuildingZertifizierung.slug]: greenBuildingZertifizierung,
+  [bimBuildingInformationModeling.slug]: bimBuildingInformationModeling,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
