@@ -4376,7 +4376,82 @@
         "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
         "button": "Engineering Briefing starten"
       }
-    }
+    },
+    "eyebrow": "K-Aqua Academy",
+    "title1": "Wissen, das",
+    "titleGrad": "verbindet.",
+    "lead": "Vier Schweißverfahren im Video — und ein Quiz, das Sie zum Schweiß-Meister macht. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
+    "videos": [
+      {
+        "t": "Muffenschweißen von Hand",
+        "s": "bis d63 — Handschweißgerät"
+      },
+      {
+        "t": "Muffenschweißen mit Maschine",
+        "s": "mittlere Dimensionen"
+      },
+      {
+        "t": "Elektroschweißen",
+        "s": "Heizwendel-Fittings"
+      },
+      {
+        "t": "Stumpfschweißen",
+        "s": "Großdimensionen bis d630"
+      }
+    ],
+    "quizEyebrow": "Schweiß-Meister-Quiz",
+    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
+    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PP-RCT. Fehlerfrei = Titel „Schweiß-Meister\".",
+    "start": "Quiz starten",
+    "qLabel": "Frage",
+    "quiz": [
+      {
+        "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
+        "o": [
+          "Muffenschweißen von Hand",
+          "Stumpfschweißen (Butt Fusion)",
+          "Kleben"
+        ]
+      },
+      {
+        "q": "Wofür steht SDR bei Rohrsystemen?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Sicherheits-Druck-Reserve"
+        ]
+      },
+      {
+        "q": "Was unterscheidet PP-RCT von klassischem PP-R?",
+        "o": [
+          "Niedrigerer Preis",
+          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
+          "Metallische Verstärkung"
+        ]
+      },
+      {
+        "q": "Welchen Recycling-Code trägt Polypropylen?",
+        "o": [
+          "Code 3",
+          "Code 5",
+          "Code 7"
+        ]
+      },
+      {
+        "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
+        "o": [
+          "aus einem Heizelement-Spiegel",
+          "aus eingebetteten Heizwendeln im Fitting",
+          "aus Heißluft"
+        ]
+      }
+    ],
+    "resPerfect": "Perfekt — Titel „Schweiß-Meister\" verdient!",
+    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
+    "resLow": "Die Videos oben helfen — danach klappt der Meister.",
+    "retry": "Nochmal versuchen",
+    "titlePerfect": "Schweiß-Meister",
+    "titleGood": "Schweiß-Geselle"
   },
   "refs": {
     "eyebrow": "Referenzen",

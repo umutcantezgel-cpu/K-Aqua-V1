@@ -3,15 +3,15 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/i18n/navigation';
-import { products } from '@/lib/data/products';
-import { geoContent } from '@/lib/data/geo';
+import { K_CATALOG } from '@/lib/data/products';
+import { GEO_MARKETS } from '@/lib/data/geo';
 
 export default function EdgeIndex({ className = '' }: { className?: string }) {
   const t = useTranslations('nav');
   
   // Real metrics
-  const productCount = products.length;
-  const marketCount = Object.keys(geoContent).length;
+  const productCount = K_CATALOG.length;
+  const marketCount = GEO_MARKETS.length;
 
   return (
     <nav className={`ka-edgeindex ${className}`} aria-label="Seiten-Index">
