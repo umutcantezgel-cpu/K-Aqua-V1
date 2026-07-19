@@ -8,6 +8,7 @@ import { MediaSlot } from "@/components/ui/MediaSlot";
 import { Reveal } from "@/components/ui/Reveal";
 import { Users, Handshake, Leaf, Award, Check } from "@/components/ui/icon";
 import { AboutDeep } from "@/components/sections/AboutDeep";
+import LiquidHeadline from '@/components/signature/LiquidHeadline';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -71,6 +72,11 @@ export default async function UnternehmenPage({ params }: Props) {
               </p>
             </Reveal>
           </div>
+        </section>
+
+        {/* Signature: Liquid Headline */}
+        <section className="py-24 bg-background flex justify-center">
+          <LiquidHeadline />
         </section>
 
         {/* History / Partner Section */}
