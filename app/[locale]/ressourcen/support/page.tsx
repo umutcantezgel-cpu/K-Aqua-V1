@@ -4,7 +4,7 @@ import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { ArrowRight } from '@/components/ui/icon';
 import { CTABand } from '@/components/ui/CTABand';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 // Premium Scroll-Telling Components
 import { ParallaxHero } from '@/components/ui/ParallaxHero';

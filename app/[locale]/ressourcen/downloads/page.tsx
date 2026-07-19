@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';

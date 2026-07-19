@@ -1,5 +1,5 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { constructMetadata } from "@/lib/seo/metadata";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";

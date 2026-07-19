@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-literals */
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
