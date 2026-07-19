@@ -42,6 +42,7 @@ import { waermeausdehnungKunststoffrohre } from './waermeausdehnung-kunststoffro
 import { pprMehrschichtverbundrohrVergleich } from './ppr-rohrsysteme-vergleich-mehrschichtverbundrohr-pex-alu-pex';
 import { chemischeReinigungDesinfektion } from './chemische-reinigung-rohrnetze-spuelen-desinfektion-ppr';
 import { vibrationsentkopplungSchallschutz } from './vibrationsentkopplung-schallschutz-pumpen-rohrnetz-ppr';
+import { uvBestaendigkeitFreiverlegung } from './ppr-rohrsysteme-uv-bestaendigkeit-freiverlegung-aussenbereich';
 
 export interface NewsPost {
   slug: string;
@@ -98,6 +99,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [pprMehrschichtverbundrohrVergleich.slug]: pprMehrschichtverbundrohrVergleich,
   [chemischeReinigungDesinfektion.slug]: chemischeReinigungDesinfektion,
   [vibrationsentkopplungSchallschutz.slug]: vibrationsentkopplungSchallschutz,
+  [uvBestaendigkeitFreiverlegung.slug]: uvBestaendigkeitFreiverlegung,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
