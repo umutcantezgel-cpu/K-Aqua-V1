@@ -23,6 +23,7 @@ import { geothermieErdwaerme } from './geothermie-erdwaerme-waermepumpen-rohre-p
 import { recyclingPpr } from './recycling-ppr-kunststoff-nachhaltigkeit-kreislaufwirtschaft';
 import { wasserstoffH2Ready } from './wasserstoff-h2-ready-kunststoffrohre-ppr';
 import { kuehltuermeAusseneinsatz } from './kuehltuerme-verdunstungskuehler-pprct-ausseneinsatz';
+import { sportstaettenSchwimmbaeder } from './sportstaetten-schwimmbaeder-chlorwasser-heizung-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -60,6 +61,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [recyclingPpr.slug]: recyclingPpr,
   [wasserstoffH2Ready.slug]: wasserstoffH2Ready,
   [kuehltuermeAusseneinsatz.slug]: kuehltuermeAusseneinsatz,
+  [sportstaettenSchwimmbaeder.slug]: sportstaettenSchwimmbaeder,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
