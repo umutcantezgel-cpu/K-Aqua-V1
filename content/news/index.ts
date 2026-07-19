@@ -31,6 +31,7 @@ import { lebensmittelindustrieHygiene } from './lebensmittelindustrie-rohrleitun
 import { altbausanierungFlexibilitaet } from './altbausanierung-rohrleitungen-flexibilitaet-ppr-schnelle-verlegung';
 import { leckageErkennungSicherheit } from './leckage-erkennung-sicherheit-rohrnetze-ppr-ueberwachung';
 import { vorfertigungPrefabrication } from './vorfertigung-prefabrication-rohrverteiler-ppr-bauzeit';
+import { wartungsfreiheitLebenszykluskosten } from './wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco';
 
 export interface NewsPost {
   slug: string;
@@ -76,6 +77,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [altbausanierungFlexibilitaet.slug]: altbausanierungFlexibilitaet,
   [leckageErkennungSicherheit.slug]: leckageErkennungSicherheit,
   [vorfertigungPrefabrication.slug]: vorfertigungPrefabrication,
+  [wartungsfreiheitLebenszykluskosten.slug]: wartungsfreiheitLebenszykluskosten,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
