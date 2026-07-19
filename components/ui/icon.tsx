@@ -31,6 +31,7 @@ import {
   Zap as LucideZap,
   Package as LucidePackage,
   Truck as LucideTruck,
+  Activity as LucideActivity,
   LucideProps,
 } from "lucide-react";
 import clsx from "clsx";
@@ -92,3 +93,4 @@ export const ChevronDown = createIcon(LucideChevronDown);
 export const Zap = createIcon(LucideZap);
 export const Package = createIcon(LucidePackage);
 export const Truck = createIcon(LucideTruck);
+export const Activity = createIcon(LucideActivity);
