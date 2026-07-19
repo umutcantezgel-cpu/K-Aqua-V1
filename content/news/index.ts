@@ -3,6 +3,7 @@ import { rueckverfolgbarkeit } from './rueckverfolgbarkeit';
 import { warumPpr } from './warum-pp-r';
 import { messingPolypropylen } from './messing-polypropylen';
 import { trinkwasserhygieneLegionellen } from './trinkwasserhygiene-legionellen';
+import { nachhaltigkeitOekobilanz } from './nachhaltigkeit-oekobilanz';
 
 export interface NewsPost {
   slug: string;
@@ -20,6 +21,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [warumPpr.slug]: warumPpr,
   [messingPolypropylen.slug]: messingPolypropylen,
   [trinkwasserhygieneLegionellen.slug]: trinkwasserhygieneLegionellen,
+  [nachhaltigkeitOekobilanz.slug]: nachhaltigkeitOekobilanz,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
