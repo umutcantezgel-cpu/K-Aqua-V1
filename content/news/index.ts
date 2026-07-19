@@ -18,6 +18,7 @@ import { bimBuildingInformationModeling } from './bim-building-information-model
 import { fernwaermeNahwaerme } from './fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert';
 import { klimaanlagenKuehldecken } from './klimaanlagen-kuehldecken-kaltwasser-pprct';
 import { druckluftanlagenSicherheit } from './druckluftanlagen-rohrsysteme-sicherheit-ppr';
+import { schiffbauOffshore } from './schiffbau-offshore-rohrleitungen-salzwasser-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -50,6 +51,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [fernwaermeNahwaerme.slug]: fernwaermeNahwaerme,
   [klimaanlagenKuehldecken.slug]: klimaanlagenKuehldecken,
   [druckluftanlagenSicherheit.slug]: druckluftanlagenSicherheit,
+  [schiffbauOffshore.slug]: schiffbauOffshore,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
