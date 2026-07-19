@@ -47,6 +47,7 @@ import { hochhausInstallationSteigleitungen } from './hochhaus-installation-stei
 import { chemischeResistenzIndustrie } from './chemische-resistenz-ppr-industrieanwendungen-galvanik-saeuren';
 import { legionellenpraeventionZirkulation } from './legionellenpraevention-warmwassernetze-zirkulationssysteme-ppr';
 import { erdverlegungGrabenlos } from './erdverlegung-grabenloser-rohrleitungsbau-horizontalbohrverfahren-ppr';
+import { lebensdauerBerechnungPpr } from './lebensdauer-berechnung-kunststoffrohre-arrhenius-gleichung-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -108,6 +109,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [chemischeResistenzIndustrie.slug]: chemischeResistenzIndustrie,
   [legionellenpraeventionZirkulation.slug]: legionellenpraeventionZirkulation,
   [erdverlegungGrabenlos.slug]: erdverlegungGrabenlos,
+  [lebensdauerBerechnungPpr.slug]: lebensdauerBerechnungPpr,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
