@@ -7,6 +7,7 @@ import { nachhaltigkeitOekobilanz } from './nachhaltigkeit-oekobilanz';
 import { chemischeBestaendigkeitIndustrie } from './chemische-bestaendigkeit-industrie';
 import { druckverlustStroemungsdynamik } from './druckverlust-stroemungsdynamik';
 import { schweisstechnikSicherheit } from './schweisstechnik-sicherheit';
+import { gewichtsreduktionLogistik } from './gewichtsreduktion';
 
 export interface NewsPost {
   slug: string;
@@ -28,6 +29,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [chemischeBestaendigkeitIndustrie.slug]: chemischeBestaendigkeitIndustrie,
   [druckverlustStroemungsdynamik.slug]: druckverlustStroemungsdynamik,
   [schweisstechnikSicherheit.slug]: schweisstechnikSicherheit,
+  [gewichtsreduktionLogistik.slug]: gewichtsreduktionLogistik,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
