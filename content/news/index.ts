@@ -40,6 +40,7 @@ import { schweissverfahrenVergleich } from './schweissverfahren-vergleich-heizel
 import { isoliermaterialRohrdammungVergleich } from './isoliermaterial-rohrdammung-vergleich-pir-pur-eps-ppr';
 import { waermeausdehnungKunststoffrohre } from './waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr';
 import { pprMehrschichtverbundrohrVergleich } from './ppr-rohrsysteme-vergleich-mehrschichtverbundrohr-pex-alu-pex';
+import { chemischeReinigungDesinfektion } from './chemische-reinigung-rohrnetze-spuelen-desinfektion-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -94,6 +95,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [isoliermaterialRohrdammungVergleich.slug]: isoliermaterialRohrdammungVergleich,
   [waermeausdehnungKunststoffrohre.slug]: waermeausdehnungKunststoffrohre,
   [pprMehrschichtverbundrohrVergleich.slug]: pprMehrschichtverbundrohrVergleich,
+  [chemischeReinigungDesinfektion.slug]: chemischeReinigungDesinfektion,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
