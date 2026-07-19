@@ -1,6 +1,5 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { setRequestLocale } from "next-intl/server";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
