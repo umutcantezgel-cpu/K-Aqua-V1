@@ -69,7 +69,9 @@ export default async function LocaleLayout({
     'toggle_theme_light',
     'toggle_theme_dark',
     'homex',
-    'refs'
+    'refs',
+    'finder',
+    'finderx'
   ]);
 
   const orgJsonLd = await getOrganizationJsonLd(locale);
