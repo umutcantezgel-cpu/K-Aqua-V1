@@ -19,6 +19,7 @@ import { fernwaermeNahwaerme } from './fernwaerme-nahwaerme-ppr-rohrsysteme-isol
 import { klimaanlagenKuehldecken } from './klimaanlagen-kuehldecken-kaltwasser-pprct';
 import { druckluftanlagenSicherheit } from './druckluftanlagen-rohrsysteme-sicherheit-ppr';
 import { schiffbauOffshore } from './schiffbau-offshore-rohrleitungen-salzwasser-ppr';
+import { geothermieErdwaerme } from './geothermie-erdwaerme-waermepumpen-rohre-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -52,6 +53,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [klimaanlagenKuehldecken.slug]: klimaanlagenKuehldecken,
   [druckluftanlagenSicherheit.slug]: druckluftanlagenSicherheit,
   [schiffbauOffshore.slug]: schiffbauOffshore,
+  [geothermieErdwaerme.slug]: geothermieErdwaerme,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
