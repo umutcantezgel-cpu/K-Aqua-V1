@@ -2,6 +2,7 @@ import { isoZertifizierung } from './iso-zertifizierung';
 import { rueckverfolgbarkeit } from './rueckverfolgbarkeit';
 import { warumPpr } from './warum-pp-r';
 import { messingPolypropylen } from './messing-polypropylen';
+import { trinkwasserhygieneLegionellen } from './trinkwasserhygiene-legionellen';
 
 export interface NewsPost {
   slug: string;
@@ -18,6 +19,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [rueckverfolgbarkeit.slug]: rueckverfolgbarkeit,
   [warumPpr.slug]: warumPpr,
   [messingPolypropylen.slug]: messingPolypropylen,
+  [trinkwasserhygieneLegionellen.slug]: trinkwasserhygieneLegionellen,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
