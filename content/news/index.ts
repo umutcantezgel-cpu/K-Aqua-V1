@@ -44,6 +44,7 @@ import { chemischeReinigungDesinfektion } from './chemische-reinigung-rohrnetze-
 import { vibrationsentkopplungSchallschutz } from './vibrationsentkopplung-schallschutz-pumpen-rohrnetz-ppr';
 import { uvBestaendigkeitFreiverlegung } from './ppr-rohrsysteme-uv-bestaendigkeit-freiverlegung-aussenbereich';
 import { hochhausInstallationSteigleitungen } from './hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung';
+import { chemischeResistenzIndustrie } from './chemische-resistenz-ppr-industrieanwendungen-galvanik-saeuren';
 
 export interface NewsPost {
   slug: string;
@@ -102,6 +103,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [vibrationsentkopplungSchallschutz.slug]: vibrationsentkopplungSchallschutz,
   [uvBestaendigkeitFreiverlegung.slug]: uvBestaendigkeitFreiverlegung,
   [hochhausInstallationSteigleitungen.slug]: hochhausInstallationSteigleitungen,
+  [chemischeResistenzIndustrie.slug]: chemischeResistenzIndustrie,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
