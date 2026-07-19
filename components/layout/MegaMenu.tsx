@@ -72,7 +72,6 @@ const MEGA_LAYOUT = [
       { id: 'industrial', href: '/maerkte/industrie', fallback: 'Industrieanlagen' },
       { id: 'shipbuilding', href: '/maerkte/schiffbau', fallback: 'Schiffbau' },
       { id: 'agriculture', href: '/maerkte/landwirtschaft', fallback: 'Landwirtschaft' },
-      ...GEO_MARKETS.map(m => ({ id: `geo_${m.slug}`, href: `/maerkte/${m.slug}`, fallback: m.city })),
       { id: 'solutions', href: '/loesungen', fallback: 'Alle Lösungen' },
       { id: 'high_rise', href: '/loesungen/hochhaus', fallback: 'Hochhausbau' },
       { id: 'hospitals', href: '/loesungen/krankenhaus', fallback: 'Krankenhäuser' },
