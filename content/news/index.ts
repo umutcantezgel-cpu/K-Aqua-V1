@@ -45,6 +45,7 @@ import { vibrationsentkopplungSchallschutz } from './vibrationsentkopplung-schal
 import { uvBestaendigkeitFreiverlegung } from './ppr-rohrsysteme-uv-bestaendigkeit-freiverlegung-aussenbereich';
 import { hochhausInstallationSteigleitungen } from './hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung';
 import { chemischeResistenzIndustrie } from './chemische-resistenz-ppr-industrieanwendungen-galvanik-saeuren';
+import { legionellenpraeventionZirkulation } from './legionellenpraevention-warmwassernetze-zirkulationssysteme-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -104,6 +105,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [uvBestaendigkeitFreiverlegung.slug]: uvBestaendigkeitFreiverlegung,
   [hochhausInstallationSteigleitungen.slug]: hochhausInstallationSteigleitungen,
   [chemischeResistenzIndustrie.slug]: chemischeResistenzIndustrie,
+  [legionellenpraeventionZirkulation.slug]: legionellenpraeventionZirkulation,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
