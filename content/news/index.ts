@@ -36,6 +36,7 @@ import { umweltfreundlicheKuehlwasserleitungen } from './umweltfreundliche-kuehl
 import { brandschutzRohrschachtVerlegung } from './brandschutz-rohrschacht-verlegung-ppr-leitungen-abschottung';
 import { klimadeckenFlaechenkuehlung } from './klimadecken-flaechenkuehlung-anbindung-ppr-netz-taupunkt';
 import { bimRohrnetzPlanungPpr } from './bim-building-information-modeling-rohrnetz-planung-ppr';
+import { schweissverfahrenVergleich } from './schweissverfahren-vergleich-heizelementmuffenschweissung-heizwendel-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -86,6 +87,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [brandschutzRohrschachtVerlegung.slug]: brandschutzRohrschachtVerlegung,
   [klimadeckenFlaechenkuehlung.slug]: klimadeckenFlaechenkuehlung,
   [bimRohrnetzPlanungPpr.slug]: bimRohrnetzPlanungPpr,
+  [schweissverfahrenVergleich.slug]: schweissverfahrenVergleich,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
