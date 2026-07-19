@@ -16,6 +16,7 @@ import { trinkwasserverordnungNormenZertifikate } from './trinkwasserverordnung-
 import { greenBuildingZertifizierung } from './green-building-zertifizierung-leed-breeam-ppr';
 import { bimBuildingInformationModeling } from './bim-building-information-modeling-rohrleitungsplanung-ppr';
 import { fernwaermeNahwaerme } from './fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert';
+import { klimaanlagenKuehldecken } from './klimaanlagen-kuehldecken-kaltwasser-pprct';
 
 export interface NewsPost {
   slug: string;
@@ -46,6 +47,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [greenBuildingZertifizierung.slug]: greenBuildingZertifizierung,
   [bimBuildingInformationModeling.slug]: bimBuildingInformationModeling,
   [fernwaermeNahwaerme.slug]: fernwaermeNahwaerme,
+  [klimaanlagenKuehldecken.slug]: klimaanlagenKuehldecken,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
