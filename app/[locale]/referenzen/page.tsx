@@ -12,6 +12,7 @@ import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 import { MediaSlot } from "@/components/ui/MediaSlot";
+import HoverPreviewList from '@/components/signature/HoverPreviewList';
 import {
   ShieldAlert,
   Server,
@@ -232,6 +233,13 @@ export default async function ReferenzenPage({ params }: Props) {
               header={<PremiumAssetPlaceholder label="Stateless Architecture Blueprint" className="min-h-[500px]" />}
             />
           </BentoGrid>
+        </div>
+      </section>
+
+      {/* Signature: Hover Preview List */}
+      <section className="py-32 bg-background border-b border-card-border">
+        <div className="max-w-[1400px] mx-auto px-6">
+          <HoverPreviewList />
         </div>
       </section>
 

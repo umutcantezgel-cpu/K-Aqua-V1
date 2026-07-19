@@ -18,6 +18,7 @@ import WaterCursor from '@/components/ui/WaterCursor';
 import { getOrganizationJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
+import SignatureInitializer from '@/components/signature/SignatureInitializer';
 
 export function generateStaticParams() {
   return coreLocales.map((locale) => ({ locale }));
@@ -81,6 +82,7 @@ export default async function LocaleLayout({
     <html lang={locale} dir={dir} suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="/assets/kaqua-elemente.css" />
+        <link rel="stylesheet" href="/assets/kaqua-signature.css" />
       </head>
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />
@@ -95,6 +97,8 @@ export default async function LocaleLayout({
           nonce={nonce}
         >
           <NextIntlClientProvider messages={clientMessages}>
+            <SignatureInitializer />
+            <KAquaElementeInitializer />
             <SkipLink />
             <ScrollProgress />
             <Header />
@@ -106,6 +110,7 @@ export default async function LocaleLayout({
           </NextIntlClientProvider>
         </ThemeProvider>
         <Script src="/assets/kaqua-elemente.js" strategy="afterInteractive" />
+        <Script src="/assets/kaqua-signature.js" strategy="afterInteractive" />
       </body>
     </html>
   );

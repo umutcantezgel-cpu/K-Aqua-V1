@@ -13,6 +13,10 @@ import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
 import { CustomerReviews } from "@/components/sections/CustomerReviews";
+import VerticalVelocity from '@/components/signature/VerticalVelocity';
+import SpotlightGrid from '@/components/signature/SpotlightGrid';
+import DiagonalBand from '@/components/signature/DiagonalBand';
+import EdgeIndex from '@/components/signature/EdgeIndex';
 
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
@@ -144,6 +148,11 @@ export default async function Page({ params }: Props) {
         <div className="ka-lightrays absolute bottom-0 left-0 w-full" data-count="9" style={{height: '140px'}}></div>
       </section>
 
+      {/* Signature: Vertical Velocity */}
+      <section className="w-full bg-background border-b border-card-border">
+        <VerticalVelocity />
+      </section>
+
       {/* 3) 4 Stat-Cards */}
       <section className="py-20 bg-background">
         <div className="mx-auto max-w-[1400px] px-6">
@@ -197,6 +206,10 @@ export default async function Page({ params }: Props) {
                 </Button>
               </Card>
             ))}
+          </div>
+          
+          <div className="mt-16">
+            <SpotlightGrid />
           </div>
         </div>
       </section>
@@ -332,6 +345,11 @@ export default async function Page({ params }: Props) {
         </div>
       </section>
 
+      {/* Signature: Diagonal Band */}
+      <section className="w-full bg-background border-t border-card-border">
+        <DiagonalBand />
+      </section>
+
       {/* 7.5) Deep Content Home */}
       <HomeDeep />
 
@@ -424,6 +442,9 @@ export default async function Page({ params }: Props) {
           </CTABand>
         </div>
       </section>
+
+      {/* Signature: Edge Index */}
+      <EdgeIndex />
     </div>
   );
 }
