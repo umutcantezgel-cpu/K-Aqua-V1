@@ -33,6 +33,7 @@ import { leckageErkennungSicherheit } from './leckage-erkennung-sicherheit-rohrn
 import { vorfertigungPrefabrication } from './vorfertigung-prefabrication-rohrverteiler-ppr-bauzeit';
 import { wartungsfreiheitLebenszykluskosten } from './wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco';
 import { umweltfreundlicheKuehlwasserleitungen } from './umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie';
+import { brandschutzRohrschachtVerlegung } from './brandschutz-rohrschacht-verlegung-ppr-leitungen-abschottung';
 
 export interface NewsPost {
   slug: string;
@@ -80,6 +81,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [vorfertigungPrefabrication.slug]: vorfertigungPrefabrication,
   [wartungsfreiheitLebenszykluskosten.slug]: wartungsfreiheitLebenszykluskosten,
   [umweltfreundlicheKuehlwasserleitungen.slug]: umweltfreundlicheKuehlwasserleitungen,
+  [brandschutzRohrschachtVerlegung.slug]: brandschutzRohrschachtVerlegung,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
