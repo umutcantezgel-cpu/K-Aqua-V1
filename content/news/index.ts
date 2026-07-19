@@ -10,6 +10,7 @@ import { schweisstechnikSicherheit } from './schweisstechnik-sicherheit';
 import { gewichtsreduktionLogistik } from './gewichtsreduktion';
 import { schallschutzAkustik } from './schallschutz-akustik';
 import { flexibilitaetErdbebenresistenz } from './flexibilitaet-erdbebenresistenz';
+import { lebenszykluskostenTco } from './lebenszykluskosten-tco';
 
 export interface NewsPost {
   slug: string;
@@ -34,6 +35,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [gewichtsreduktionLogistik.slug]: gewichtsreduktionLogistik,
   [schallschutzAkustik.slug]: schallschutzAkustik,
   [flexibilitaetErdbebenresistenz.slug]: flexibilitaetErdbebenresistenz,
+  [lebenszykluskostenTco.slug]: lebenszykluskostenTco,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
