@@ -11,6 +11,7 @@ import { gewichtsreduktionLogistik } from './gewichtsreduktion';
 import { schallschutzAkustik } from './schallschutz-akustik';
 import { flexibilitaetErdbebenresistenz } from './flexibilitaet-erdbebenresistenz';
 import { lebenszykluskostenTco } from './lebenszykluskosten-tco';
+import { brandschutzFeuerwiderstandsklasse } from './brandschutz-feuerwiderstandsklasse';
 
 export interface NewsPost {
   slug: string;
@@ -36,6 +37,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [schallschutzAkustik.slug]: schallschutzAkustik,
   [flexibilitaetErdbebenresistenz.slug]: flexibilitaetErdbebenresistenz,
   [lebenszykluskostenTco.slug]: lebenszykluskostenTco,
+  [brandschutzFeuerwiderstandsklasse.slug]: brandschutzFeuerwiderstandsklasse,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
