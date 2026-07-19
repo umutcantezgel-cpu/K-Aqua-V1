@@ -46,6 +46,7 @@ import { uvBestaendigkeitFreiverlegung } from './ppr-rohrsysteme-uv-bestaendigke
 import { hochhausInstallationSteigleitungen } from './hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung';
 import { chemischeResistenzIndustrie } from './chemische-resistenz-ppr-industrieanwendungen-galvanik-saeuren';
 import { legionellenpraeventionZirkulation } from './legionellenpraevention-warmwassernetze-zirkulationssysteme-ppr';
+import { erdverlegungGrabenlos } from './erdverlegung-grabenloser-rohrleitungsbau-horizontalbohrverfahren-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -106,6 +107,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [hochhausInstallationSteigleitungen.slug]: hochhausInstallationSteigleitungen,
   [chemischeResistenzIndustrie.slug]: chemischeResistenzIndustrie,
   [legionellenpraeventionZirkulation.slug]: legionellenpraeventionZirkulation,
+  [erdverlegungGrabenlos.slug]: erdverlegungGrabenlos,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
