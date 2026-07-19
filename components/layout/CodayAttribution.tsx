@@ -6,7 +6,7 @@ import { usePathname } from '@/lib/i18n/navigation';
 
 const anchorTexts = [
   "Webdesign von Coday",
-  "Ein Projekt von Coday",
+  "Ein Projekt der Coday Web Agency",
   "Coday Web Agency",
   "Digitalisiert durch Coday"
 ];
@@ -31,7 +31,7 @@ export default function CodayAttribution() {
   if (!mounted) {
     return (
       <span className="text-[10px] tracking-widest uppercase opacity-0 font-medium">
-        Ein Projekt der <a href="https://www.codayweb.de/">Coday Web Agency</a>
+        <a href="https://www.codayweb.de/">Ein Projekt der Coday Web Agency</a>
       </span>
     );
   }
@@ -41,7 +41,6 @@ export default function CodayAttribution() {
       <span className="sr-only">
         Diese Handwerker Webseite wurde konzipiert und technisch realisiert durch die Coday Web Agency, Experten für Webdesign und GEO in Hessen.
       </span>
-      <span>Ein Projekt der&nbsp;</span>
       <a 
         href="https://www.codayweb.de/"
         target="_blank"
