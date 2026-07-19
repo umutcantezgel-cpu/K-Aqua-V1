@@ -32,6 +32,7 @@ import { altbausanierungFlexibilitaet } from './altbausanierung-rohrleitungen-fl
 import { leckageErkennungSicherheit } from './leckage-erkennung-sicherheit-rohrnetze-ppr-ueberwachung';
 import { vorfertigungPrefabrication } from './vorfertigung-prefabrication-rohrverteiler-ppr-bauzeit';
 import { wartungsfreiheitLebenszykluskosten } from './wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco';
+import { umweltfreundlicheKuehlwasserleitungen } from './umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie';
 
 export interface NewsPost {
   slug: string;
@@ -78,6 +79,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [leckageErkennungSicherheit.slug]: leckageErkennungSicherheit,
   [vorfertigungPrefabrication.slug]: vorfertigungPrefabrication,
   [wartungsfreiheitLebenszykluskosten.slug]: wartungsfreiheitLebenszykluskosten,
+  [umweltfreundlicheKuehlwasserleitungen.slug]: umweltfreundlicheKuehlwasserleitungen,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
