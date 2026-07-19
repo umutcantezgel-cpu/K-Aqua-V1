@@ -22,6 +22,7 @@ import { schiffbauOffshore } from './schiffbau-offshore-rohrleitungen-salzwasser
 import { geothermieErdwaerme } from './geothermie-erdwaerme-waermepumpen-rohre-ppr';
 import { recyclingPpr } from './recycling-ppr-kunststoff-nachhaltigkeit-kreislaufwirtschaft';
 import { wasserstoffH2Ready } from './wasserstoff-h2-ready-kunststoffrohre-ppr';
+import { kuehltuermeAusseneinsatz } from './kuehltuerme-verdunstungskuehler-pprct-ausseneinsatz';
 
 export interface NewsPost {
   slug: string;
@@ -58,6 +59,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [geothermieErdwaerme.slug]: geothermieErdwaerme,
   [recyclingPpr.slug]: recyclingPpr,
   [wasserstoffH2Ready.slug]: wasserstoffH2Ready,
+  [kuehltuermeAusseneinsatz.slug]: kuehltuermeAusseneinsatz,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
