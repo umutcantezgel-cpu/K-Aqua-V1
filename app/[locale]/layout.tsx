@@ -56,6 +56,8 @@ export default async function LocaleLayout({
   
   const clientMessages = pick(messages, [
     'nav',
+    'menu',
+    'header',
     'home',
     'cookieConsent',
     'products',
