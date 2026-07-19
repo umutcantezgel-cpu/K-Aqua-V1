@@ -17,6 +17,7 @@ import { greenBuildingZertifizierung } from './green-building-zertifizierung-lee
 import { bimBuildingInformationModeling } from './bim-building-information-modeling-rohrleitungsplanung-ppr';
 import { fernwaermeNahwaerme } from './fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert';
 import { klimaanlagenKuehldecken } from './klimaanlagen-kuehldecken-kaltwasser-pprct';
+import { druckluftanlagenSicherheit } from './druckluftanlagen-rohrsysteme-sicherheit-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -48,6 +49,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [bimBuildingInformationModeling.slug]: bimBuildingInformationModeling,
   [fernwaermeNahwaerme.slug]: fernwaermeNahwaerme,
   [klimaanlagenKuehldecken.slug]: klimaanlagenKuehldecken,
+  [druckluftanlagenSicherheit.slug]: druckluftanlagenSicherheit,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
