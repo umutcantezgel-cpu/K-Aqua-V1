@@ -34,6 +34,7 @@ import { vorfertigungPrefabrication } from './vorfertigung-prefabrication-rohrve
 import { wartungsfreiheitLebenszykluskosten } from './wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco';
 import { umweltfreundlicheKuehlwasserleitungen } from './umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie';
 import { brandschutzRohrschachtVerlegung } from './brandschutz-rohrschacht-verlegung-ppr-leitungen-abschottung';
+import { klimadeckenFlaechenkuehlung } from './klimadecken-flaechenkuehlung-anbindung-ppr-netz-taupunkt';
 
 export interface NewsPost {
   slug: string;
@@ -82,6 +83,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [wartungsfreiheitLebenszykluskosten.slug]: wartungsfreiheitLebenszykluskosten,
   [umweltfreundlicheKuehlwasserleitungen.slug]: umweltfreundlicheKuehlwasserleitungen,
   [brandschutzRohrschachtVerlegung.slug]: brandschutzRohrschachtVerlegung,
+  [klimadeckenFlaechenkuehlung.slug]: klimadeckenFlaechenkuehlung,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
