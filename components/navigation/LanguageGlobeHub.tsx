@@ -267,7 +267,10 @@ export function LanguageGlobeHub({
         pendingId={pendingId}
         activeId={active.id}
         dark={dark}
-        onPick={(id) => select(id, true)}
+        onPick={(id) => {
+          const l = LANGUAGES_BY_ID[id];
+          if (l) confirm(l);
+        }}
         className="lg:hidden"
       ></LanguageCarousel>
 
