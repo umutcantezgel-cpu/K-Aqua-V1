@@ -28,6 +28,7 @@ import { heizungsverteilungHochhaus } from './heizungsverteilung-hochhaus-steigl
 import { trinkwasserhygieneKrankenhaus } from './trinkwasserhygiene-krankenhaus-legionellen-schutz-ppr';
 import { rechenzentrumKuehlung } from './rechenzentrum-kuehlung-datacenter-ausfallsicherheit-pprct';
 import { lebensmittelindustrieHygiene } from './lebensmittelindustrie-rohrleitungen-hygiene-ktw-fda-ppr';
+import { altbausanierungFlexibilitaet } from './altbausanierung-rohrleitungen-flexibilitaet-ppr-schnelle-verlegung';
 
 export interface NewsPost {
   slug: string;
@@ -70,6 +71,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [trinkwasserhygieneKrankenhaus.slug]: trinkwasserhygieneKrankenhaus,
   [rechenzentrumKuehlung.slug]: rechenzentrumKuehlung,
   [lebensmittelindustrieHygiene.slug]: lebensmittelindustrieHygiene,
+  [altbausanierungFlexibilitaet.slug]: altbausanierungFlexibilitaet,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
