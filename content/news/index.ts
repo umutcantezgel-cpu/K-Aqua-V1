@@ -9,6 +9,7 @@ import { druckverlustStroemungsdynamik } from './druckverlust-stroemungsdynamik'
 import { schweisstechnikSicherheit } from './schweisstechnik-sicherheit';
 import { gewichtsreduktionLogistik } from './gewichtsreduktion';
 import { schallschutzAkustik } from './schallschutz-akustik';
+import { flexibilitaetErdbebenresistenz } from './flexibilitaet-erdbebenresistenz';
 
 export interface NewsPost {
   slug: string;
@@ -32,6 +33,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [schweisstechnikSicherheit.slug]: schweisstechnikSicherheit,
   [gewichtsreduktionLogistik.slug]: gewichtsreduktionLogistik,
   [schallschutzAkustik.slug]: schallschutzAkustik,
+  [flexibilitaetErdbebenresistenz.slug]: flexibilitaetErdbebenresistenz,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
