@@ -35,6 +35,7 @@ import { wartungsfreiheitLebenszykluskosten } from './wartungsfreiheit-lebenszyk
 import { umweltfreundlicheKuehlwasserleitungen } from './umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie';
 import { brandschutzRohrschachtVerlegung } from './brandschutz-rohrschacht-verlegung-ppr-leitungen-abschottung';
 import { klimadeckenFlaechenkuehlung } from './klimadecken-flaechenkuehlung-anbindung-ppr-netz-taupunkt';
+import { bimRohrnetzPlanungPpr } from './bim-building-information-modeling-rohrnetz-planung-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -84,6 +85,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [umweltfreundlicheKuehlwasserleitungen.slug]: umweltfreundlicheKuehlwasserleitungen,
   [brandschutzRohrschachtVerlegung.slug]: brandschutzRohrschachtVerlegung,
   [klimadeckenFlaechenkuehlung.slug]: klimadeckenFlaechenkuehlung,
+  [bimRohrnetzPlanungPpr.slug]: bimRohrnetzPlanungPpr,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
