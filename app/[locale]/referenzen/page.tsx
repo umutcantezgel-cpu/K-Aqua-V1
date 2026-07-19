@@ -4,7 +4,6 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";

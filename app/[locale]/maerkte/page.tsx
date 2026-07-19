@@ -1,6 +1,5 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { setRequestLocale } from "next-intl/server";
 import MarketsHub from "@/components/sections/MarketsHub";
 import { GEO_MARKETS } from "@/lib/data/geo";
 import { constructMetadata } from "@/lib/seo/metadata";

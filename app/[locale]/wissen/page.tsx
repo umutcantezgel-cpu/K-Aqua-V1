@@ -4,7 +4,6 @@ import { constructMetadata } from "@/lib/seo/metadata";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
 import { getAllArticles } from "@/lib/articles";
 import { Link } from "@/lib/i18n/navigation";
 import { 
