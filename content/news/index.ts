@@ -25,6 +25,7 @@ import { wasserstoffH2Ready } from './wasserstoff-h2-ready-kunststoffrohre-ppr';
 import { kuehltuermeAusseneinsatz } from './kuehltuerme-verdunstungskuehler-pprct-ausseneinsatz';
 import { sportstaettenSchwimmbaeder } from './sportstaetten-schwimmbaeder-chlorwasser-heizung-ppr';
 import { heizungsverteilungHochhaus } from './heizungsverteilung-hochhaus-steigleitungen-pprct';
+import { trinkwasserhygieneKrankenhaus } from './trinkwasserhygiene-krankenhaus-legionellen-schutz-ppr';
 
 export interface NewsPost {
   slug: string;
@@ -64,6 +65,7 @@ export const newsRegistry: Record<string, NewsPost> = {
   [kuehltuermeAusseneinsatz.slug]: kuehltuermeAusseneinsatz,
   [sportstaettenSchwimmbaeder.slug]: sportstaettenSchwimmbaeder,
   [heizungsverteilungHochhaus.slug]: heizungsverteilungHochhaus,
+  [trinkwasserhygieneKrankenhaus.slug]: trinkwasserhygieneKrankenhaus,
 };
 
 export const getAllNews = () => Object.values(newsRegistry);
