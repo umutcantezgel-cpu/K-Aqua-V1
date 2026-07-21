@@ -13,8 +13,16 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
   slug: 'nachhaltigkeit-oekobilanz-gruener-fussabdruck-ppr',
   date: 'Umwelt',
   tag: 'Nachhaltigkeit',
-  title: 'Nachhaltigkeit und Ökobilanz Der grüne Fußabdruck von PPR Rohren',
-  teaser: 'Nachhaltigkeit ist in der Bauindustrie zum entscheidenden Kriterium geworden. Warum K Aqua Rohrleitungssysteme die ökologischste Wahl für moderne Gebäude sind.',
+  title: {
+    de: 'Nachhaltigkeit & Ökobilanz',
+    en: 'Sustainability & Lifecycle Assessment',
+    ar: 'الاستدامة وتقييم دورة الحياة',
+  },
+  teaser: {
+    de: 'Nachhaltigkeit ist in der modernen Bauindustrie zum entscheidenden Kriterium geworden: Erfahren Sie, warum ökologische PPR Rohrsysteme von K-Aqua durch lange Lebensdauer und 100% Recyclingfähigkeit überzeugen.',
+    en: 'Sustainability has become the decisive criterion in the modern construction industry: Discover why ecological PPR piping systems from K-Aqua stand out with their long lifespan and 100% recyclability.',
+    ar: 'أصبحت الاستدامة المعيار الحاسم في صناعة البناء الحديثة: اكتشف لماذا تتميز أنظمة أنابيب PPR البيئية من K-Aqua بعمرها الافتراضي الطويل وقابليتها لإعادة التدوير بنسبة 100٪.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}

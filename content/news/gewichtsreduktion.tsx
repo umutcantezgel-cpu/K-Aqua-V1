@@ -13,8 +13,16 @@ export const gewichtsreduktionLogistik: NewsPost = {
   slug: 'gewichtsreduktion-logistik-handling-ppr',
   date: 'Effizienz',
   tag: 'Logistik',
-  title: 'Gewichtsreduktion Die logistische Überlegenheit von PPR',
-  teaser: 'Bis zu achtzig Prozent leichter als herkömmliche Stahlrohre. Wie das Eigengewicht von K Aqua PPR Systemen den gesamten Bauablauf revolutioniert.',
+  title: {
+    de: 'Gewichtsreduktion Logistik',
+    en: 'Weight Reduction in Logistics',
+    ar: 'لوجستيات تقليل الوزن',
+  },
+  teaser: {
+    de: 'Bis zu 80 % leichter als herkömmliche Metall- und Stahlrohre: Erfahren Sie, wie das geringe Eigengewicht von K Aqua PPR Rohrsystemen das Handling, die Logistik und den gesamten Bauablauf revolutioniert.',
+    en: 'Up to 80% lighter than conventional metal and steel pipes: Discover how the low weight of K Aqua PPR pipe systems revolutionizes handling, logistics, and the entire construction process.',
+    ar: 'أخف وزناً بنسبة تصل إلى 80% مقارنة بالأنابيب المعدنية والفولاذية التقليدية: اكتشف كيف يُحدث الوزن الخفيف لأنظمة أنابيب PPR من K Aqua ثورة في عمليات المناولة واللوجستيات وسير أعمال البناء بالكامل.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}
@@ -25,9 +33,9 @@ export const gewichtsreduktionLogistik: NewsPost = {
               <Truck className="w-64 h-64 text-yellow-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Entlastung auf der Baustelle" className="mb-6 text-yellow-500" />
+              <Eyebrow className="mb-6 text-yellow-500">Die Entlastung auf der Baustelle</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In der modernen Bauwirtschaft zählt nicht nur das Material selbst, sondern auch die Geschwindigkeit, mit der es verarbeitet werden kann. Jeder Millimeter Wandstärke bei klassischen Metallrohren bedeutet massives Zusatzgewicht, das transportiert, gehoben und fixiert werden muss. K Aqua Polypropylen bricht mit diesem ineffizienten Konzept und bringt eine radikale Gewichtsreduktion auf die Baustelle, die den gesamten logistischen Ablauf revolutioniert.
+                In der modernen Bauwirtschaft zählt nicht nur die Materialqualität, sondern auch die Verarbeitungsgeschwindigkeit und die Transporteffizienz. Jeder Millimeter Wandstärke bei klassischen Stahl- und Metallrohren bedeutet massives Zusatzgewicht, das aufwendig transportiert, gehoben und fixiert werden muss. K Aqua PPR Rohrsysteme brechen mit diesem ineffizienten Baukonzept: Die drastische Gewichtsreduktion von Polypropylen revolutioniert das Handling auf der Baustelle, entlastet Montageteams und optimiert die gesamte Baustellenlogistik.
               </p>
             </div>
           </div>
@@ -38,7 +46,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Das Duell der Massen" />
+            <Eyebrow>Das Duell der Massen</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Schwerlast vs Handlichkeit
             </h2>
@@ -67,7 +75,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Logistik bis ins Detail" />
+            <Eyebrow>Logistik bis ins Detail</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Die Realität der Beschaffungskette
             </h2>
@@ -98,7 +106,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Kalkulierbare Vorteile" />
+            <Eyebrow>Kalkulierbare Vorteile</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Der ökonomische Hebel des Leichtbaus
             </h2>
@@ -161,7 +169,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
               Logistische Intelligenz entscheidet
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Die Profitabilität eines Bauprojekts entscheidet sich nicht nur am Materialpreis, sondern an den versteckten Kosten für Logistik, Krankentage und Arbeitsstunden. Die Entscheidung für das extrem leichte K Aqua PPR System ist eine strategische Entscheidung, die den gesamten Bauablauf entschlackt, beschleunigt und somit signifikant wirtschaftlicher macht.
+              Die Profitabilität moderner Bau- und Großprojekte entscheidet sich längst nicht mehr nur über den reinen Materialpreis, sondern maßgeblich über Nebenkosten für Transportlogistik, Hebezeuge, Montagezeiten und gesundheitliche Belastungen des Personals. Die Investition in leichte K Aqua PPR Rohrsysteme ist eine strategische Entscheidung für effiziente Baustellenabläufe, nachhaltige Arbeitssicherheit und spürbar reduzierte Gesamtkosten (TCO).
             </p>
           </div>
         </Reveal>

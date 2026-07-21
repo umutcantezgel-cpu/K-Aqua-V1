@@ -13,8 +13,16 @@ export const messingPolypropylen: NewsPost = {
   slug: 'messing-trifft-polypropylen-uebergaenge-bestand',
   date: 'Wissen',
   tag: 'Material',
-  title: 'Messing trifft Polypropylen Intelligente Übergänge in den Bestand',
-  teaser: 'Sanierung heißt fast immer Systemwechsel. Spezielle Übergangsstücke mit integriertem Messing Gewinde machen ihn absolut sicher, normgerecht und sauber.',
+  title: {
+    de: 'Messing trifft Polypropylen',
+    en: 'Brass meets Polypropylene',
+    ar: 'النحاس الأصفر يلتقي بالبولي بروبيلين'
+  },
+  teaser: {
+    de: 'Sanierung heißt fast immer Systemwechsel: Spezielle Übergangsfittings und PPR Rohrsysteme mit integriertem Messing-Gewinde machen die Anbindung an den Bestand absolut dicht, normgerecht und dauerhaft korrosionssicher.',
+    en: 'Renovation almost always means a system change: Special transition fittings and PPR pipe systems with integrated brass threads make the connection to the existing system absolutely leak-proof, compliant with standards, and permanently corrosion-resistant.',
+    ar: 'التجديد يعني دائمًا تقريبًا تغيير النظام: تجهيزات الانتقال الخاصة وأنظمة أنابيب PPR ذات الخيوط النحاسية المدمجة تجعل الاتصال بالنظام الحالي مانعًا للتسرب تمامًا ومتوافقًا مع المعايير ومقاومًا للتآكل بشكل دائم.'
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}

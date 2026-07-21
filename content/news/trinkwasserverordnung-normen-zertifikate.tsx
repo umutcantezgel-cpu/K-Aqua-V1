@@ -14,8 +14,21 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
   slug: 'trinkwasserverordnung-normen-zertifikate',
   date: 'Zertifizierung',
   tag: 'Hygiene',
-  title: 'Trinkwasserverordnung und globale Zertifikate',
-  teaser: 'Trinkwasser ist das wichtigste Lebensmittel. Ein Blick auf die extrem strengen Grenzwerte für Migration, Schwermetalle und Mikroplastik.',
+  title: {
+    de: 'Trinkwasserverordnung & Zertifikate',
+    en: 'Drinking Water Ordinance & Certificates',
+    ar: 'لائحة مياه الشرب والشهادات',
+  },
+  teaser: {
+    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGW-Zertifikate für PPR-Rohrsysteme.',
+    en: 'Drinking water is the most important foodstuff: Discover the strict limits of the Drinking Water Ordinance as well as testing standards & DVGW certificates for PPR pipe systems.',
+    ar: 'مياه الشرب هي أهم مادة غذائية: اكتشف الحدود الصارمة للائحة مياه الشرب بالإضافة إلى معايير الاختبار وشهادات DVGW لأنظمة أنابيب PPR.',
+  },
+  excerpt: {
+    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGW-Zertifikate für PPR-Rohrsysteme.',
+    en: 'Drinking water is the most important foodstuff: Discover the strict limits of the Drinking Water Ordinance as well as testing standards & DVGW certificates for PPR pipe systems.',
+    ar: 'مياه الشرب هي أهم مادة غذائية: اكتشف الحدود الصارمة للائحة مياه الشرب بالإضافة إلى معايير الاختبار وشهادات DVGW لأنظمة أنابيب PPR.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full overflow-hidden">
       

@@ -12,12 +12,25 @@ import { HeartPulse, ShieldCheck, Droplet, Thermometer } from "@/components/ui/i
 
 export const trinkwasserhygieneKrankenhaus: NewsPost = {
   slug: "trinkwasserhygiene-krankenhaus-legionellen-schutz-ppr",
-  title: "Trinkwasserhygiene in Krankenhäusern: Der Legionellen-Schutz",
+  title: {
+    de: "Trinkwasserhygiene in Krankenhäusern",
+    en: "Drinking Water Hygiene in Hospitals",
+    ar: "نظافة مياه الشرب في المستشفيات"
+  },
   date: "2024-11-12",
-  excerpt: "Kliniken erfordern höchste Trinkwasserqualität. Erfahren Sie, warum PP-R Rohre durch ihre extrem glatte Innenwand Biofilmbildung verhindern und sichere Legionellenspülungen bei über 70°C ermöglichen.",
+  teaser: {
+    de: "Kliniken und Krankenhäuser erfordern höchste Trinkwasserqualität. Erfahren Sie, wie K-Aqua PP-R Rohrsysteme durch extrem glatte Innenwände Biofilmbildung verhindern und thermische Legionellenspülungen über 70 °C dauerhaft standhalten.",
+    en: "Clinics and hospitals require the highest drinking water quality. Learn how K-Aqua PP-R piping systems prevent biofilm formation thanks to extremely smooth inner walls and permanently withstand thermal legionella flushing above 70 °C.",
+    ar: "تتطلب العيادات والمستشفيات أعلى جودة لمياه الشرب. تعرف على كيف تمنع أنظمة الأنابيب K-Aqua PP-R تكوين الغشاء الحيوي بفضل جدرانها الداخلية شديدة النعومة، وكيف تتحمل التنظيف الحراري لبكتيريا الليجيونيلا بدرجة حرارة تتجاوز 70 درجة مئوية بشكل دائم."
+  },
+  excerpt: {
+    de: "Kliniken und Krankenhäuser erfordern höchste Trinkwasserqualität. Erfahren Sie, wie K-Aqua PP-R Rohrsysteme durch extrem glatte Innenwände Biofilmbildung verhindern und thermische Legionellenspülungen über 70 °C dauerhaft standhalten.",
+    en: "Clinics and hospitals require the highest drinking water quality. Learn how K-Aqua PP-R piping systems prevent biofilm formation thanks to extremely smooth inner walls and permanently withstand thermal legionella flushing above 70 °C.",
+    ar: "تتطلب العيادات والمستشفيات أعلى جودة لمياه الشرب. تعرف على كيف تمنع أنظمة الأنابيب K-Aqua PP-R تكوين الغشاء الحيوي بفضل جدرانها الداخلية شديدة النعومة، وكيف تتحمل التنظيف الحراري لبكتيريا الليجيونيلا بدرجة حرارة تتجاوز 70 درجة مئوية بشكل دائم."
+  },
   coverImage: "/images/news/hospital-water.jpg",
   category: "Sanitärtechnik",
-  tags: ["Trinkwasserhygiene", "Krankenhaus", "Legionellen", "Thermische Desinfektion", "PP-R", "Biofilm"],
+  tags: ["Trinkwasserhygiene", "Krankenhaus", "Legionellen", "Thermische Desinfektion", "PP-R", "Biofilm", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,11 +43,11 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <HeartPulse className="w-5 h-5" />
-                  <span>Klinische Sanitärtechnik</span>
+                  <span>Klinische Sanitärtechnik &amp; TGA-Planung</span>
                 </div>
               }
               title="Höchste Reinheit, wenn es um Leben geht"
-              lead="In Krankenhäusern, Pflegeheimen und Reha-Kliniken ist das Immunsystem der Patienten oft stark geschwächt. Trinkwasser muss hier absolut steril und frei von Erregern wie Legionellen oder Pseudomonaden sein. K Aqua PP-R Rohrleitungssysteme bieten durch ihre porenfreie Oberfläche, absolute Korrosionsfreiheit und thermische Belastbarkeit die sicherste Infrastruktur für medizinische Einrichtungen."
+              lead="In Krankenhäusern, Pflegeheimen und Reha-Kliniken ist das Immunsystem der Patienten oft stark geschwächt. Trinkwasser muss hier absolut steril und frei von Krankheitserregern wie Legionella pneumophila oder Pseudomonas aeruginosa sein. K-Aqua PP-R Kunststoff-Rohrleitungssysteme bieten durch ihre porenfreie Oberfläche, absolute Korrosionsfreiheit und dauerhafte thermische Belastbarkeit die sicherste Infrastruktur für anspruchsvolle medizinische Einrichtungen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -47,26 +60,26 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
       {/* BentoGrid: Die 3 Säulen der Wasserhygiene */}
       <Reveal>
         <SectionHead
-          title="Prävention auf Molekularebene"
-          lead="Wie das Material PP-R aktiv die Trinkwassergüte schützt."
+          title="Prävention auf Molekularebene mit PPR Rohren"
+          lead="Wie das Hochleistungsmaterial PP-R aktiv die Trinkwassergüte in sensiblen Krankenhausnetzen schützt."
         />
         <BentoGrid
           items={[
             {
               title: "Kein Nährboden für Biofilme",
-              description: "Raue Oberflächen in Metallrohren (z.B. durch Kalkablagerungen oder beginnende Korrosion) bieten Bakterien perfekten Halt. Die mikroskopisch glatte Innenwand von K Aqua PP-R verhindert das Anhaften von Biofilm extrem effektiv.",
+              description: "Raue Oberflächen in Metallrohren (z.B. durch Kalkablagerungen oder beginnende Lochfraßkorrosion) bieten Bakterien perfekten Halt. Die mikroskopisch glatte Innenwand von K-Aqua PP-R (Rauheit k ≤ 0,007 mm) verhindert das Anhaften von Matrizen und Biofilm extrem effektiv.",
               icon: <ShieldCheck className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
-              title: "Thermische Desinfektion",
-              description: "Zur Abtötung von Legionellen wird das Rohrnetz regelmäßig mit über 70 °C heißem Wasser gespült. PP-R ist für diese extreme Wechselbelastung zertifiziert, ohne zu verspröden.",
+              title: "Dauerhafte thermische Desinfektion",
+              description: "Zur normgerechten Legionellenbekämpfung nach DVGW W 551 wird das Leitungsnetz regelmäßig mit über 70 °C heißem Wasser gespült. PP-R ist für diese extremen Temperaturschwankungen und Druckstufen zertifiziert, ohne zu verspröden.",
               icon: <Thermometer className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
-              title: "Chemische Beständigkeit",
-              description: "Sollte eine chemische Keulung (z.B. mit Chlordioxid) notwendig sein, bleibt K Aqua strukturell intakt. Es gibt keine Schwermetalle oder Schadstoffe an das Wasser ab.",
+              title: "Chemische Beständigkeit & Stoßchlorung",
+              description: "Sollte eine akute chemische Desinfektion (z.B. mit Chlordioxid oder Hypochlorit) erforderlich sein, bleibt K-Aqua PP-R strukturell intakt. Es werden keinerlei Schwermetalle, Blei oder Schadstoffe an das Trinkwasser abgegeben.",
               icon: <Droplet className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -77,8 +90,8 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
       {/* HorizontalTimeline: Der Weg des Wassers im Klinikum */}
       <Reveal>
         <SectionHead
-          title="Der Weg des Wassers"
-          lead="Hygiene-Konzepte in der TGA-Planung erfordern eine ganzheitliche Betrachtung."
+          title="Der Weg des Wassers im Klinikgebäude"
+          lead="Hygiene-Konzepte in der TGA-Planung erfordern eine ganzheitliche Betrachtung nach DIN 1988-200 und VDI 6023."
           align="center"
         />
         <div className="mt-8">
@@ -86,15 +99,15 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
             items={[
               {
                 title: "1. Einspeisung & Übergabe",
-                description: "Am Hausanschluss wird die Wasserqualität aus dem öffentlichen Netz übernommen. Hier beginnt der Schutz durch bleifreie Komponenten und hygienisch einwandfreie Verteiler aus PP-R."
+                description: "Am Hausanschluss wird die Wasserqualität aus dem öffentlichen Netz übernommen. Hier beginnt der lückenlose Schutz durch bleifreie Komponenten und hygienisch einwandfreie Verteiler aus PP-R."
               },
               {
-                title: "2. Zirkulationsleitungen",
-                description: "Das A und O im Krankenhaus: Stagnation muss vermieden werden. Das Warmwasser muss im gesamten Netz permanent zirkulieren, um Temperaturabfälle (die Brutzone für Legionellen) zu verhindern."
+                title: "2. Zirkulationsleitungen & Strömung",
+                description: "Das A und O im Krankenhaus: Stagnation muss konsequent vermieden werden. Das Warmwasser muss im gesamten Netz permanent zirkulieren, um Temperaturabfälle unter 55 °C (die Brutzone für Legionellen) zu verhindern."
               },
               {
-                title: "3. Entnahmestelle (Patient/OP)",
-                description: "Die Anbindung der Armaturen erfolgt über totraumfreie Stichleitungen oder Ringinstallationen. K Aqua bietet hierfür strömungsoptimierte Wandwinkel und Verteiler."
+                title: "3. Entnahmestelle (Patientenzimmer / OP)",
+                description: "Die Anbindung der Armaturen erfolgt über totraumfreie Stichleitungen oder Durchschleif-Ringinstallationen. K-Aqua bietet hierfür strömungsoptimierte Wandwinkel und Verteilerkomponenten."
               }
             ]}
           />
@@ -104,22 +117,26 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
       {/* DeepFAQ: Expertenwissen */}
       <Reveal>
         <SectionHead
-          title="Expertenwissen für Hygieneplaner"
-          lead="Antworten auf die wichtigsten Fragen der klinischen TGA."
+          title="Expertenwissen für Hygieneplaner & TGA-Ingenieure"
+          lead="Antworten auf die wichtigsten Fragen der klinischen Trinkwasserhygiene und Werkstoffauswahl."
         />
         <DeepFAQ
           items={[
             {
-              q: "Warum ist Kupfer in Krankenhäusern problematisch?",
-              a: "Kupferrohre reagieren empfindlich auf schwankende pH-Werte und können Kupferionen an das Wasser abgeben. Zudem neigen sie bei ungünstigen Wasserverhältnissen zu Lochfraßkorrosion, was zu Stagnationszonen führt."
+              q: "Warum ist Kupfer in Krankenhäusern und Pflegeheimen problematisch?",
+              a: "Kupferrohre reagieren empfindlich auf schwankende pH-Werte und können Kupferionen an das Trinkwasser abgeben. Zudem neigen sie bei ungünstigen Wasserverhältnissen zu Lochfraßkorrosion, was zu nischenreichen Stagnationszonen führt."
             },
             {
-              q: "Gibt PP-R Mikroplastik an das Wasser ab?",
-              a: "Nein. K Aqua PP-R ist ein hochmolekularer, extrem stabiler Werkstoff. Er ist lebensmittelecht zertifiziert und gibt weder Mikroplastik, noch Geruchs- oder Geschmacksstoffe an das Trinkwasser ab."
+              q: "Gibt K-Aqua PP-R Mikroplastik oder chemische Stoffe an das Trinkwasser ab?",
+              a: "Nein. K-Aqua PP-R ist ein hochmolekularer, homogen verschweißter Polypropylen-Werkstoff. Er ist vollumfänglich lebensmittelecht zertifiziert und gibt weder Mikroplastik noch Geruchs- oder Geschmacksstoffe ab."
             },
             {
-              q: "Welche Zertifikate hat K Aqua für Trinkwasser?",
-              a: "Unsere Systeme verfügen über alle relevanten internationalen Hygiene-Zertifikate, unter anderem nach den strengen Richtlinien der KTW-BWGL (UBA), DVGW, KIWA und WRAS."
+              q: "Welche Normen und Zertifikate erfüllt K-Aqua für klinische Trinkwassernetze?",
+              a: "Unsere Rohrsysteme verfügen über alle relevanten internationalen Hygiene-Zertifikate, unter anderem nach den strengen Richtlinien der UBA KTW-BWGL, DVGW W 270, KIWA sowie WRAS."
+            },
+            {
+              q: "Wie unterstützt K-Aqua die Vermeidung von Stagnationszonen?",
+              a: "Durch ein lückenloses Sortiment an Spezial-Verteilern, Strömungsteilern und Muffenschweißverbindungen lassen sich Reihen- und Ringinstallationen realisieren, die bei jeder Wasserentnahme das gesamte Leitungsvolumen austauschen."
             }
           ]}
         />
@@ -131,9 +148,9 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "0", l: "Abgabe von Blei, Schwermetallen oder Geschmacksstoffen." },
-              { n: "70", u: "°C+", l: "Sichere Durchführung der thermischen Legionellenspülung." },
-              { n: "100", u: "%", l: "Korrosionsfrei, wodurch raue Stellen für Bakterienwachstum verhindert werden." }
+              { n: "0", l: "Abgabe von Blei, Schwermetallen oder organischen Geschmacksstoffen." },
+              { n: "70", u: "°C+", l: "Sichere Durchführung der thermischen Legionellenspülung ohne Materialschädigung." },
+              { n: "100", u: "%", l: "Dauerhaft korrosionsfrei – keine rauen Lochfraß-Stellen für Bakterienwachstum." }
             ]}
           />
         </div>
@@ -142,8 +159,8 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
       {/* CTABand: Planungs-Support Hygiene */}
       <Reveal>
         <CTABand
-          title="Planen Sie die Sanitärtechnik für ein Krankenhaus?"
-          subtitle="Lassen Sie uns gemeinsam Ihr Leitungsnetz auf maximale Hygiene prüfen. Wir unterstützen Sie bei der Auslegung von Ring- und Reiheninstallationen zur Vermeidung von Stagnation."
+          title="Planen Sie die Sanitärtechnik für ein Krankenhaus oder Pflegeheim?"
+          subtitle="Lassen Sie uns gemeinsam Ihr Rohrsystem auf maximale Trinkwasserhygiene und Ausfallsicherheit prüfen. Wir unterstützen TGA-Fachplaner bei der Auslegung von Ring- und Reiheninstallationen zur Stagnationsvermeidung."
           buttonText="Hygiene-Beratung anfragen"
           buttonLink="/kontakt"
           icon={<HeartPulse className="w-6 h-6" />}

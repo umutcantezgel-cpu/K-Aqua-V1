@@ -11,10 +11,25 @@ import { Flame, Shield, Layers, Wrench, Zap } from '@/components/ui/icon';
 
 export const schweisstechnikSicherheit: NewsPost = {
   slug: 'schweisstechnik-sicherheit-homogene-materialverbindung-ppr',
-  date: 'Sicherheit',
+  date: '2024-08-20',
+  category: 'Sicherheit',
   tag: 'Installation',
-  title: 'Schweißtechnik und Sicherheit durch homogene Materialverbindung',
-  teaser: 'Jede mechanische Dichtung ist eine potenzielle Schwachstelle. Erfahren Sie, warum die homogene Materialverschmelzung die Zukunft der Rohrinstallation ist.',
+  tags: ['Schweißtechnik', 'PP-R', 'Rohrsysteme', 'Sicherheit', 'Muffenschweißen', 'Installation'],
+  title: {
+    de: 'Schweißtechnik Sicherheit',
+    en: 'Welding Technology Safety',
+    ar: 'سلامة تقنية اللحام'
+  },
+  teaser: {
+    de: 'Jede mechanische Dichtung ist eine potenzielle Schwachstelle in der Gebäudeinstallation. Erfahren Sie, wie die homogene PP-R Verschmelzung von K-Aqua dauerhafte Sicherheit und leckagefreie Rohrsysteme garantiert.',
+    en: 'Every mechanical seal is a potential weak point in building installations. Discover how K-Aqua\'s homogeneous PP-R fusion guarantees lasting safety and leak-free pipe systems.',
+    ar: 'كل سداد ميكانيكي هو نقطة ضعف محتملة في تمديدات المباني. اكتشف كيف يضمن الدمج المتجانس لأنابيب PP-R من K-Aqua أماناً دائماً وأنظمة أنابيب خالية من التسرب.'
+  },
+  excerpt: {
+    de: 'Jede mechanische Dichtung ist eine potenzielle Schwachstelle in der Gebäudeinstallation. Erfahren Sie, wie die homogene PP-R Verschmelzung von K-Aqua dauerhafte Sicherheit und leckagefreie Rohrsysteme garantiert.',
+    en: 'Every mechanical seal is a potential weak point in building installations. Discover how K-Aqua\'s homogeneous PP-R fusion guarantees lasting safety and leak-free pipe systems.',
+    ar: 'كل سداد ميكانيكي هو نقطة ضعف محتملة في تمديدات المباني. اكتشف كيف يضمن الدمج المتجانس لأنابيب PP-R من K-Aqua أماناً دائماً وأنظمة أنابيب خالية من التسرب.'
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}
@@ -27,7 +42,7 @@ export const schweisstechnikSicherheit: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die thermische Fusion" className="mb-6 text-red-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In der klassischen Gebäudeinstallation ist der Übergang zwischen zwei Rohren immer der kritischste Punkt. Wo Gewinde geschnitten, Gummidichtungen eingepresst oder Kleber aufgetragen werden, entstehen zwangsläufig Schwachstellen, die mit den Jahren nachgeben. K Aqua geht einen fundamental anderen Weg. Durch kontrollierte Hitze zwingen wir die Kunststoffmoleküle dazu, sich untrennbar miteinander zu verbinden. Aus zwei Bauteilen wird ein einziges.
+                In der klassischen Gebäudeinstallation ist der Übergang zwischen zwei Rohren immer der kritischste Punkt. Wo Gewinde geschnitten, Gummidichtungen eingepresst oder Kleber aufgetragen werden, entstehen zwangsläufig Schwachstellen, die mit den Jahren nachgeben. K-Aqua PP-R Rohrsysteme gehen einen fundamental anderen Weg: Durch kontrollierte thermische Verschmelzung verbinden sich die Kunststoffmoleküle untrennbar miteinander. Aus zwei Bauteilen entsteht eine einzige, homogene und dauerhaft leckagesichere Rohrverbindung.
               </p>
             </div>
           </div>

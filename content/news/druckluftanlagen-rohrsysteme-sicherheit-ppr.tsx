@@ -12,12 +12,25 @@ import { ShieldAlert, Activity, Shield, Factory, Wrench } from "@/components/ui/
 
 export const druckluftanlagenSicherheit: NewsPost = {
   slug: "druckluftanlagen-rohrsysteme-sicherheit-ppr",
-  title: "Druckluftanlagen in der Industrie: Warum PP-R sicherer als Metall ist",
+  title: {
+    de: "Druckluftanlagen & PP-R Rohrsysteme",
+    en: "Compressed Air Systems & PP-R Pipe Systems",
+    ar: "أنظمة الهواء المضغوط وأنظمة أنابيب PP-R"
+  },
   date: "2024-08-10",
-  excerpt: "Ein platzendes Stahlrohr in einer Druckluftanlage wirkt wie eine Splitterbombe. PP-R Rohrleitungssysteme von K Aqua bieten nicht nur absolute Korrosionsfreiheit, sondern im Ernstfall auch überlebenswichtige Arbeitssicherheit durch splitterfreies Versagen.",
+  teaser: {
+    de: "Ein platzendes Stahlrohr in einer Druckluftanlage wirkt wie eine Splitterbombe. PP-R Rohrleitungssysteme von K Aqua bieten absolute Korrosionsfreiheit, reduzieren Druckverluste und gewähren im Ernstfall überlebenswichtige Arbeitssicherheit durch splitterfreies Versagen.",
+    en: "A bursting steel pipe in a compressed air system acts like a fragmentation bomb. PP-R pipe systems from K Aqua offer absolute freedom from corrosion, reduce pressure drops, and in an emergency provide vital occupational safety through splinter-free failure.",
+    ar: "يعمل الأنبوب الفولاذي المنفجر في نظام الهواء المضغوط مثل قنبلة متشظية. توفر أنظمة أنابيب PP-R من K Aqua خلوًا تامًا من التآكل، وتقلل من انخفاض الضغط، وتوفر في حالات الطوارئ سلامة مهنية حيوية من خلال الانهيار الخالي من الشظايا."
+  },
+  excerpt: {
+    de: "Ein platzendes Stahlrohr in einer Druckluftanlage wirkt wie eine Splitterbombe. PP-R Rohrleitungssysteme von K Aqua bieten absolute Korrosionsfreiheit, reduzieren Druckverluste und gewähren im Ernstfall überlebenswichtige Arbeitssicherheit durch splitterfreies Versagen.",
+    en: "A bursting steel pipe in a compressed air system acts like a fragmentation bomb. PP-R pipe systems from K Aqua offer absolute freedom from corrosion, reduce pressure drops, and in an emergency provide vital occupational safety through splinter-free failure.",
+    ar: "يعمل الأنبوب الفولاذي المنفجر في نظام الهواء المضغوط مثل قنبلة متشظية. توفر أنظمة أنابيب PP-R من K Aqua خلوًا تامًا من التآكل، وتقلل من انخفاض الضغط، وتوفر في حالات الطوارئ سلامة مهنية حيوية من خلال الانهيار الخالي من الشظايا."
+  },
   coverImage: "/images/news/compressed-air.jpg",
   category: "Industrie",
-  tags: ["Druckluft", "Industrie", "Arbeitssicherheit", "Pneumatik", "PP-R", "Korrosion"],
+  tags: ["Druckluft", "Industrie", "Arbeitssicherheit", "Pneumatik", "PP-R", "Rohrsysteme", "Korrosion"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -33,8 +46,8 @@ export const druckluftanlagenSicherheit: NewsPost = {
                   <span>Arbeitssicherheit & Pneumatik</span>
                 </div>
               }
-              title="Die unsichtbare Gefahr im Druckluftnetz"
-              lead="Druckluft ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PP-R Rohre verhalten sich grundlegend anders: Sie sind zäh, rosten nicht und reißen im Extremfall lediglich auf."
+              title="Die unsichtbare Gefahr im Druckluftnetz: Metall vs. PP-R Rohrsysteme"
+              lead="Druckluft in industriellen Druckluftanlagen ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand drastisch. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PP-R Rohrsysteme von K-Aqua verhalten sich grundlegend anders: Sie sind extrem zäh, absolut korrosionsfrei und reißen im Extremfall lediglich splitterfrei auf."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

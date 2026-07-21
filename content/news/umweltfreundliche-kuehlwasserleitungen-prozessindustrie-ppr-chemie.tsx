@@ -12,9 +12,22 @@ import { Factory, Droplets, Leaf, TestTube } from "@/components/ui/icon";
 
 export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
   slug: "umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie",
-  title: "Umweltfreundliche Kühlwasserleitungen für die Prozessindustrie",
+  title: {
+    de: "PPR-Kühlwasserleitungen für die Industrie",
+    en: "PPR Cooling Water Pipes for the Industry",
+    ar: "أنابيب مياه التبريد PPR للصناعة"
+  },
   date: "2024-12-28",
-  excerpt: "Verzichten Sie auf toxische Korrosionsinhibitoren. K Aqua PP-R ermöglicht ökologisch saubere und wirtschaftliche Kühlkreisläufe für industrielle Fertigungsprozesse.",
+  teaser: {
+    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPR-Rohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
+    en: "Eliminate toxic corrosion inhibitors: K Aqua PPR pipe systems enable ecologically clean, sustainable, and economical cooling circuits for the process industry.",
+    ar: "تخلص من مثبطات التآكل السامة: أنظمة أنابيب K Aqua PPR تتيح دوائر تبريد نظيفة بيئيًا ومستدامة واقتصادية لصناعة المعالجة."
+  },
+  excerpt: {
+    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPR-Rohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
+    en: "Eliminate toxic corrosion inhibitors: K Aqua PPR pipe systems enable ecologically clean, sustainable, and economical cooling circuits for the process industry.",
+    ar: "تخلص من مثبطات التآكل السامة: أنظمة أنابيب K Aqua PPR تتيح دوائر تبريد نظيفة بيئيًا ومستدامة واقتصادية لصناعة المعالجة."
+  },
   coverImage: "/images/news/industrial-cooling-eco.jpg",
   category: "Industrie & Kälte",
   tags: ["Kühlwasser", "Prozessindustrie", "Umweltschutz", "Korrosion", "PP-R", "Green Tech"],

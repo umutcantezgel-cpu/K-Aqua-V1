@@ -57,7 +57,7 @@ export function LegalContent({ sections, title = "Inhalt" }: Props) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] xl:grid-cols-[320px_1fr] gap-12 lg:gap-24 items-start w-full">
       {/* Sticky Table of Contents */}
-      <aside className="hidden lg:block sticky top-32">
+      <aside className="hidden lg:block sticky top-32" aria-hidden="true">
         <Reveal>
           <div className="relative border-s border-card-border/50 ps-6">
             <h2 className="font-heading font-semibold text-foreground/50 text-xs uppercase tracking-widest mb-6">

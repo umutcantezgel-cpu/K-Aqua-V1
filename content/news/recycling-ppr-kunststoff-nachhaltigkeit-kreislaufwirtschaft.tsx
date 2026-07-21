@@ -12,12 +12,25 @@ import { Recycle, Leaf, Globe, ShieldCheck } from "@/components/ui/icon";
 
 export const recyclingPpr: NewsPost = {
   slug: "recycling-ppr-kunststoff-nachhaltigkeit-kreislaufwirtschaft",
-  title: "Recycling von PP-R: Wie K Aqua Kunststoffabfälle vermeidet",
+  title: {
+    de: "Recycling von PP-R & Nachhaltigkeit",
+    en: "Recycling of PP-R & Sustainability",
+    ar: "إعادة تدوير PP-R والاستدامة"
+  },
   date: "2024-09-20",
-  excerpt: "Kunststoff und Umweltschutz schließen sich nicht aus. Erfahren Sie, warum PP-R Rohre von K Aqua als reines Thermoplast zu 100 % recycelbar sind und einen entscheidenden Beitrag zur zirkulären Wertschöpfung leisten.",
+  teaser: {
+    de: "Kunststoff und Umweltschutz schließen sich nicht aus. Erfahren Sie, wie K Aqua PP-R und PP-RCT Rohrsysteme als sortenreiner Thermoplast zu 100 % recycelbar sind und einen wesentlichen Beitrag zur nachhaltigen Kreislaufwirtschaft im Gebäudebau leisten.",
+    en: "Plastics and environmental protection are not mutually exclusive. Discover how K Aqua PP-R and PP-RCT pipe systems, as pure thermoplastics, are 100% recyclable and make a significant contribution to the sustainable circular economy in building construction.",
+    ar: "البلاستيك وحماية البيئة لا يتعارضان. اكتشف كيف أن أنظمة أنابيب K Aqua PP-R و PP-RCT، باعتبارها لدائن حرارية نقية، قابلة لإعادة التدوير بنسبة 100٪ وتساهم بشكل كبير في الاقتصاد الدائري المستدام في تشييد المباني."
+  },
+  excerpt: {
+    de: "Kunststoff und Umweltschutz schließen sich nicht aus. Erfahren Sie, wie K Aqua PP-R und PP-RCT Rohrsysteme als sortenreiner Thermoplast zu 100 % recycelbar sind und einen wesentlichen Beitrag zur nachhaltigen Kreislaufwirtschaft im Gebäudebau leisten.",
+    en: "Plastics and environmental protection are not mutually exclusive. Discover how K Aqua PP-R and PP-RCT pipe systems, as pure thermoplastics, are 100% recyclable and make a significant contribution to the sustainable circular economy in building construction.",
+    ar: "البلاستيك وحماية البيئة لا يتعارضان. اكتشف كيف أن أنظمة أنابيب K Aqua PP-R و PP-RCT، باعتبارها لدائن حرارية نقية، قابلة لإعادة التدوير بنسبة 100٪ وتساهم بشكل كبير في الاقتصاد الدائري المستدام في تشييد المباني."
+  },
   coverImage: "/images/news/recycling-ppr.jpg",
   category: "Nachhaltigkeit",
-  tags: ["Recycling", "Nachhaltigkeit", "Kreislaufwirtschaft", "PP-R", "Umweltschutz", "Thermoplast"],
+  tags: ["Recycling", "Nachhaltigkeit", "Kreislaufwirtschaft", "PP-R", "Umweltschutz", "Thermoplast", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -26,8 +39,8 @@ export const recyclingPpr: NewsPost = {
       <Reveal>
         <ParallaxHero
           imageSrc="/images/news/recycling-ppr.jpg"
-          title="Rohre für die Kreislaufwirtschaft"
-          subtitle="In einer Welt schwindender Ressourcen muss die Bauindustrie umdenken. Mehrschichtverbundrohre (PEX/Alu) sind ein Albtraum für das Recycling, da sich die Materialschichten kaum trennen lassen. K Aqua PP-R und PP-RCT Rohre bestehen aus einem sortenreinen Thermoplast – sie können eingeschmolzen und vollständig wiederverwendet werden."
+          title="Sortenreine Kunststoff-Rohrsysteme für die Kreislaufwirtschaft"
+          subtitle="In einer modernen Bauwirtschaft müssen Rohrsysteme nachhaltig und kreislauffähig gestaltet sein. Während herkömmliche Mehrschichtverbundrohre (PEX/Alu) durch unlösbare Verklebungen schwer recycelbar sind, bestehen K Aqua PP-R und PP-RCT Rohre aus einem sortenreinen Thermoplast. Dadurch lassen sie sich am Ende des Lebenszyklus zu 100 % einschmelzen und in neue hochwertige Kunststoffprodukte überführen."
           badge="Ökologie & Recycling"
           align="left"
         />

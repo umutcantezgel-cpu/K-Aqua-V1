@@ -10,12 +10,20 @@ import { Layers, Ruler, Activity, Coins, Download } from "@/components/ui/icon";
 
 export const bimBuildingInformationModeling: NewsPost = {
   slug: "bim-building-information-modeling-rohrleitungsplanung-ppr",
-  title: "BIM in der Rohrleitungsplanung: Vom 2D-Plan zum digitalen Zwilling",
+  title: {
+    de: "BIM in der PP-R Rohrleitungsplanung",
+    en: "BIM in PP-R Piping Design",
+    ar: "نمذجة معلومات البناء (BIM) في تصميم شبكات أنابيب PP-R",
+  },
   date: "2024-07-02",
-  excerpt: "Entdecken Sie, wie Building Information Modeling (BIM) die Planung von TGA-Systemen revolutioniert. Mit den K Aqua Revit- und IFC-Daten planen Sie kollisionsfrei und kostenoptimiert.",
+  excerpt: {
+    de: "Entdecken Sie, wie Building Information Modeling (BIM) die Planung von TGA-Systemen und PP-R Rohrsystemen revolutioniert. Mit den K Aqua Revit- und IFC-Daten planen Sie kollisionsfrei, zeiteffizient und kostenoptimiert.",
+    en: "Discover how Building Information Modeling (BIM) is revolutionizing the planning of MEP systems and PP-R piping networks. With K Aqua Revit and IFC data, you can plan collision-free, time-efficiently, and cost-effectively.",
+    ar: "اكتشف كيف تُحدث نمذجة معلومات البناء (BIM) ثورة في تخطيط أنظمة الهندسة الميكانيكية والكهربائية والسباكة (MEP) وشبكات أنابيب PP-R. باستخدام بيانات K Aqua Revit و IFC، يمكنك التخطيط بدون تعارضات، وبكفاءة في الوقت، وبتكلفة محسنة.",
+  },
   coverImage: "/images/news/bim-planning.jpg",
   category: "Digitalisierung",
-  tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "K Aqua"],
+  tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "PP-R", "Rohrsysteme", "K Aqua"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

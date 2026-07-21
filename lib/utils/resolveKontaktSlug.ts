@@ -15,7 +15,7 @@ export function resolveKontaktSlug(pathname: string | null): KontaktSlug {
   if (pathWithoutLocale.startsWith("/produkte/tools")) return "produkte_werkzeuge";
   if (pathWithoutLocale.startsWith("/produkte/transition-fittings")) return "produkte_uebergaenge";
   if (pathWithoutLocale.startsWith("/produkte/accessories")) return "produkte_zubehoer";
-  if (pathWithoutLocale.startsWith("/produkte/katalog")) return "katalog";
+  if (pathWithoutLocale.startsWith("/produkte")) return "katalog";
   if (pathWithoutLocale.startsWith("/produkte/finder")) return "finder";
   if (pathWithoutLocale.startsWith("/produkte")) return "produkte";
   if (pathWithoutLocale.startsWith("/academy")) return "academy";

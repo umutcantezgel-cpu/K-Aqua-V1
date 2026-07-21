@@ -13,12 +13,20 @@ import { Wind, ThermometerSnowflake, LayoutDashboard, VolumeX } from "@/componen
 
 export const klimadeckenFlaechenkuehlung: NewsPost = {
   slug: "klimadecken-flaechenkuehlung-anbindung-ppr-netz-taupunkt",
-  title: "Klimadecken und Flächenkühlung mit PP-R Netzen",
+  title: {
+    de: "Klimadecken & Flächenkühlung",
+    en: "Climate Ceilings & Radiant Cooling",
+    ar: "الأسقف المناخية والتبريد الإشعاعي"
+  },
   date: "2025-01-10",
-  excerpt: "Leise, zugfrei und hochgradig energieeffizient: Wie K Aqua PP-R Rohrnetze die ideale Infrastruktur für moderne Klimadecken und Flächenkühlsysteme bilden.",
+  excerpt: {
+    de: "Leise, zugfrei und hochgradig energieeffizient: Erfahren Sie, wie K Aqua PPR Rohrsysteme und PP-R Rohrnetze die ideale korrosionsfreie Infrastruktur für moderne Klimadecken, Flächenkühlsysteme und Kaltwassernetze ohne Taupunktprobleme bilden.",
+    en: "Quiet, draft-free, and highly energy-efficient: Discover how K Aqua PPR pipe systems and PP-R networks form the ideal corrosion-free infrastructure for modern climate ceilings, radiant cooling systems, and chilled water networks without dew point problems.",
+    ar: "هادئة، خالية من التيارات الهوائية، وعالية الكفاءة في استخدام الطاقة: اكتشف كيف تشكل أنظمة الأنابيب K Aqua PPR وشبكات PP-R البنية التحتية المثالية الخالية من التآكل للأسقف المناخية الحديثة، وأنظمة التبريد الإشعاعي، وشبكات المياه المبردة دون مشاكل نقطة الندى."
+  },
   coverImage: "/images/news/radiant-cooling-ceiling.jpg",
   category: "Industrie & Kälte",
-  tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PP-R", "Kältetechnik"],
+  tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PP-R", "PPR", "Rohrsysteme", "Kältetechnik"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

@@ -13,8 +13,21 @@ export const warumPpr: NewsPost = {
   slug: 'warum-eigentlich-ppr-materialkunde',
   date: 'Wissen',
   tag: 'Material',
-  title: 'Warum eigentlich PPR Materialkunde für Rohrleitungssysteme',
-  teaser: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr die faszinierende Materialgeschichte des Polypropylens.',
+  title: {
+    de: 'PPR Materialkunde: Grundlagen',
+    en: 'PPR Material Science: Basics',
+    ar: 'علم مواد PPR: الأساسيات',
+  },
+  teaser: {
+    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR-Kunststoffrohren und langlebigen Rohrsystemen.',
+    en: 'From flare gas to extremely durable drinking water pipes: Learn everything about the fascinating material history of PPR plastic pipes and long-lasting piping systems.',
+    ar: 'من غازات الشعلة إلى أنابيب مياه الشرب شديدة التحمل: اكتشف التاريخ الرائع لمواد أنابيب البلاستيك PPR وأنظمة الأنابيب التي تدوم طويلاً.',
+  },
+  excerpt: {
+    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR-Kunststoffrohren und langlebigen Rohrsystemen.',
+    en: 'From flare gas to extremely durable drinking water pipes: Learn everything about the fascinating material history of PPR plastic pipes and long-lasting piping systems.',
+    ar: 'من غازات الشعلة إلى أنابيب مياه الشرب شديدة التحمل: اكتشف التاريخ الرائع لمواد أنابيب البلاستيك PPR وأنظمة الأنابيب التي تدوم طويلاً.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}
@@ -103,8 +116,8 @@ export const warumPpr: NewsPost = {
               className="md:col-span-2"
             />
             <BentoGridItem
-              title="Maximaler Durchfluss"
-              description="Die extrem glatte Innenfläche verringert die Reibung auf ein absolutes Minimum. Gefährlicher Biofilm und Bakterien wie Legionellen finden schlichtweg keinen Halt."
+              title="Maximaler Durchfluss & Hygiene"
+              description="Die extrem glatte Innenfläche unserer PPR-Rohre verringert die Reibung auf ein absolutes Minimum und verhindert Ablagerungen. Gefährlicher Biofilm und Bakterien wie Legionellen finden schlichtweg keinen Halt, wodurch eine dauerhaft hygienische Trinkwasserqualität im gesamten Rohrsystem gewährleistet ist."
               header={<div className="w-full h-48 bg-accent/10 rounded-t-2xl flex items-center justify-center"><Droplet className="w-24 h-24 text-accent opacity-40" /></div>}
               icon={<Droplet className="h-6 w-6 text-accent" />}
               className="md:col-span-1"

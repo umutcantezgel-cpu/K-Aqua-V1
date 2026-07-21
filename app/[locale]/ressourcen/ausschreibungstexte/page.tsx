@@ -60,7 +60,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         description={t('hero.desc')}
       >
         <div className="flex flex-wrap gap-4 mt-12 justify-center lg:justify-start">
-          <Button variant="primary" size="lg" href="/ressourcen/downloads">
+          <Button variant="primary" size="lg" href="/ressourcen/support">
             {t('hero.cta1')}
           </Button>
           <Button variant="ghost" size="lg" href="/projektanfrage">
@@ -195,7 +195,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               {t('cta.desc')}
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
-              <Button variant="inverse" size="lg" href="/ressourcen/downloads">
+              <Button variant="inverse" size="lg" href="/ressourcen/support">
                 {t('cta.btn1')}
               </Button>
               <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">

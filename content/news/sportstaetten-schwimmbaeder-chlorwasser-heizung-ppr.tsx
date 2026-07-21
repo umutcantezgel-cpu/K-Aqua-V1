@@ -12,12 +12,20 @@ import { Waves, Activity, Thermometer, Shield } from "@/components/ui/icon";
 
 export const sportstaettenSchwimmbaeder: NewsPost = {
   slug: "sportstaetten-schwimmbaeder-chlorwasser-heizung-ppr",
-  title: "Sportstätten & Schwimmbäder: K Aqua für Chlorwasser & Beheizung",
+  title: {
+    de: "PPR Rohre in Sportstätten & Schwimmbädern",
+    en: "PPR Pipes in Sports Facilities & Swimming Pools",
+    ar: "أنابيب PPR في المرافق الرياضية وحمامات السباحة"
+  },
   date: "2024-10-28",
-  excerpt: "Hallenbäder und Stadien sind extrem korrosive Umgebungen. Erfahren Sie, warum PP-R Rohre von K Aqua resistent gegen Chlor, Ozon und feuchte Luft sind und somit die erste Wahl für Freizeitanlagen darstellen.",
+  excerpt: {
+    de: "Hallenbäder, Schwimmbäder und Stadien stellen extrem korrosive Umgebungen dar. Erfahren Sie, warum PP-R Rohrsysteme von K Aqua absolut resistent gegen Chlorwasser, Ozon und feuchte Luft sind und sich optimal für Bädertechnik sowie Rasenheizung eignen.",
+    en: "Indoor pools, swimming pools, and stadiums present extremely corrosive environments. Discover why K Aqua PP-R pipe systems are completely resistant to chlorinated water, ozone, and humid air, making them ideal for pool technology and pitch heating.",
+    ar: "تمثل المسابح الداخلية وحمامات السباحة والملاعب بيئات شديدة التآكل. اكتشف لماذا تعتبر أنظمة أنابيب PP-R من K Aqua مقاومة تمامًا للمياه المكلورة والأوزون والهواء الرطب، مما يجعلها مثالية لتقنيات حمامات السباحة وتدفئة الملاعب."
+  },
   coverImage: "/images/news/swimming-pool.jpg",
   category: "Freizeitanlagen",
-  tags: ["Schwimmbad", "Sportstätte", "Chlorwasser", "Rasenheizung", "PP-R", "Korrosion"],
+  tags: ["Schwimmbad", "Sportstätte", "Chlorwasser", "Rasenheizung", "PP-R", "Korrosion", "PPR", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,11 +38,11 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Waves className="w-5 h-5" />
-                  <span>Bädertechnik & Sportanlagen</span>
+                  <span>Bädertechnik & Sportanlagen mit PPR Rohrsystemen</span>
                 </div>
               }
-              title="Absoluter Schutz vor Chlor und Korrosion"
-              lead="Die Luft in einem Hallenbad ist warm, extrem feucht und voller Chlorid-Ionen. Unter diesen Bedingungen beginnen ungeschützte Metalle bereits nach kurzer Zeit von außen zu rosten. Im Inneren der Rohre greifen aggressive Desinfektionsmittel wie Chlor oder Ozon das Material an. K Aqua PP-R ist die chemisch inerte Lösung für eine lebenslange, wartungsfreie Infrastruktur."
+              title="Absoluter Schutz vor Chlor und Korrosion: PPR Rohrsysteme in der Bädertechnik"
+              lead="Die Luft in einem Hallenbad ist warm, extrem feucht und voller Chlorid-Ionen. Unter diesen Bedingungen beginnen ungeschützte Metalle bereits nach kurzer Zeit von außen zu rosten. Im Inneren der Rohre greifen aggressive Desinfektionsmittel wie Chlor oder Ozon das Material an. K Aqua PP-R ist die chemisch inerte Lösung für eine lebenslange, wartungsfreie Infrastruktur in Sportstätten und Freizeitanlagen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
@@ -51,17 +59,17 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
             items={[
               {
                 title: "Schwimmbadtechnik (Beckenwasser)",
-                description: "Die Umwälzung und Aufbereitung des Beckenwassers erfordert riesige Rohrquerschnitte. K Aqua liefert PP-RCT Rohre bis zu großen Dimensionen, die dem ständigen Kontakt mit Chlor, Brom oder Ozon mühelos standhalten.",
+                description: "Die Umwälzung und Aufbereitung des Beckenwassers erfordert riesige Rohrquerschnitte. K Aqua liefert PP-RCT und PPR Rohre bis zu großen Dimensionen, die dem ständigen Kontakt mit Chlor, Brom oder Ozon mühelos standhalten.",
                 icon: <Waves className="w-8 h-8 text-primary" />
               },
               {
                 title: "Rasenheizung & Geothermie",
-                description: "In professionellen Fußballstadien sorgt die Rasenheizung für einen eisfreien Untergrund. Die Verteilerleitungen aus PP-R werden im Erdreich verlegt – sie verrotten nicht und sind absolut leckagesicher.",
+                description: "In professionellen Fußballstadien sorgt die Rasenheizung für einen eisfreien Untergrund. Die Verteilerleitungen aus PPR werden im Erdreich verlegt – sie verrotten nicht und sind absolut leckagesicher.",
                 icon: <Thermometer className="w-8 h-8 text-primary" />
               },
               {
                 title: "Trinkwasser & Duschanlagen",
-                description: "Hunderte Sportler nutzen täglich die Duschen. Die thermische Desinfektion (Legionellenspülung) mit heißem Wasser ist Pflicht. K Aqua Systeme sind thermisch hoch belastbar und hygienisch einwandfrei.",
+                description: "Hunderte Sportler nutzen täglich die Duschen. Die thermische Desinfektion (Legionellenspülung) mit heißem Wasser ist Pflicht. K Aqua PPR Systeme sind thermisch hoch belastbar und hygienisch einwandfrei.",
                 icon: <Shield className="w-8 h-8 text-primary" />
               }
             ]}
@@ -72,26 +80,26 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
       {/* BentoGrid: Die Chemie von Chlorwasser */}
       <Reveal>
         <SectionHead
-          title="Warum Metall hier versagt"
-          lead="Chlorid-induzierte Korrosion ist das größte Risiko für Edelstahl in Bädern."
+          title="Warum Metalle in Schwimmbädern versagen und PPR Rohre überlegen sind"
+          lead="Chlorid-induzierte Korrosion ist das größte Risiko für metallische Werkstoffe in Bädern."
         />
         <BentoGrid
           items={[
             {
               title: "Keine äußere Korrosion",
-              description: "Selbst bei Kondenswasserbildung an Kaltwasserleitungen in der feuchtwarmen Schwimmbadluft kann PP-R nicht oxidieren. Es benötigt keinen teuren Korrosionsschutzanstrich.",
+              description: "Selbst bei Kondenswasserbildung an Kaltwasserleitungen in der feuchtwarmen Schwimmbadluft kann PPR Kunststoff nicht oxidieren. Es benötigt keinen teuren Korrosionsschutzanstrich.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Absolute Chlor-Beständigkeit",
-              description: "Die Desinfektion des Badewassers greift viele Materialien an. PP-R bleibt strukturell intakt und gibt keine Schadstoffe an das Wasser ab.",
+              description: "Die Desinfektion des Badewassers greift viele Materialien an. K Aqua PPR bleibt strukturell intakt und gibt keine Schadstoffe an das Trink- und Beckenwasser ab.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Geringer Druckverlust",
-              description: "Schwimmbadpumpen laufen 24 Stunden am Tag, 7 Tage die Woche. Die extrem glatte Rohrinnenwand reduziert die Reibung und senkt die Stromkosten erheblich.",
+              description: "Schwimmbadpumpen laufen 24 Stunden am Tag, 7 Tage die Woche. Die extrem glatte Rohrinnenwand von PPR Rohren reduziert die Reibung und senkt die Energiekosten erheblich.",
               icon: <Waves className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -105,9 +113,9 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "24", u: "/7", l: "Dauerbetrieb der Filter- und Umwälzpumpen erfordert glatte Rohre." },
+              { n: "24", u: "/7", l: "Dauerbetrieb der Filter- und Umwälzpumpen erfordert glatte PPR Rohrinnenflächen." },
               { n: "0", l: "Risiko von Lochfraßkorrosion durch Chlorid-Ionen im Wasser." },
-              { n: "50", u: "+", l: "Jahre kalkulierte Nutzungsdauer für kommunale Betreiber." }
+              { n: "50", u: "+", l: "Jahre kalkulierte Nutzungsdauer für kommunale Betreiber und Sportstätten." }
             ]}
           />
         </div>
@@ -116,8 +124,8 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
       {/* DeepFAQ: Fragen zur Bädertechnik */}
       <Reveal>
         <SectionHead
-          title="Häufige Fragen zur Bädertechnik"
-          lead="Wichtige Details für Fachplaner und Kommunen."
+          title="Häufige Fragen zu PPR Rohrsystemen in der Bädertechnik"
+          lead="Wichtige technische Details für Fachplaner, Betreiber und Kommunen."
         />
         <DeepFAQ
           items={[
@@ -132,6 +140,14 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
             {
               q: "Wie verhält sich PP-R bei der thermischen Desinfektion von Duschen?",
               a: "PP-R und PP-RCT sind für hohe Temperaturen ausgelegt (Klasse 2/Klasse 5). Thermische Spülungen bei 70 °C zur Abtötung von Legionellen sind in der Lebensdauer des Systems bereits einkalkuliert."
+            },
+            {
+              q: "Welche Vorteile bieten PPR Rohre bei der Verlegung im Erdbereich von Sportstätten (z.B. Rasenheizung)?",
+              a: "PP-R Rohre verrotten im Erdreich nicht und verhalten sich unempfindlich gegenüber Bodenfeuchte, Setzungen und Temperaturwechseln. Sie bieten daher maximale Leckagesicherheit für jahrzehntelangen unterirdischen Betrieb."
+            },
+            {
+              q: "Können PPR Rohrsysteme auch für Ozonierungsanlagen in modernen Hallenbädern genutzt werden?",
+              a: "Ja, K Aqua PP-RCT und PP-R Rohre weisen eine hervorragende Chemikalienbeständigkeit gegenüber Ozon und chlorhaltigen Oxidationsmitteln auf, die in modernsten Wasseraufbereitungsanlagen von Sportstätten eingesetzt werden."
             }
           ]}
         />
@@ -141,7 +157,7 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
       <Reveal>
         <CTABand
           title="Planen Sie ein neues Schwimmbad oder Stadion?"
-          subtitle="Unsere Ingenieure beraten Sie bei der Rohrnetzberechnung, Hydraulik und der Auswahl der richtigen Rohrserie für aggressive Medien."
+          subtitle="Unsere Ingenieure beraten Sie bei der Rohrnetzberechnung, Hydraulik und der Auswahl der richtigen PPR Rohrserie für aggressive Medien."
           buttonText="Projektberatung anfordern"
           buttonLink="/kontakt"
           icon={<Waves className="w-6 h-6" />}

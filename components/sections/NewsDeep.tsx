@@ -24,19 +24,21 @@ export function NewsDeep() {
             const slug = news.slug;
             return (
               <Reveal key={slug} delay={(i % 10) * 0.05}>
-                <Link href={`/news/${slug}`} className="block h-full group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-3xl">
-                  <Card className="h-full text-start transition-all duration-300 group-hover:border-primary/30 group-hover:shadow-md">
-                    <div className="flex items-center gap-3 text-tiny font-semibold text-faint-foreground">
-                      <span>{news.date}</span>
-                      <span className="rounded-full bg-primary-soft px-2.5 py-1 font-bold text-primary">{news.tag || news.category || "News"}</span>
-                    </div>
-                    <h3 className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">{news.title}</h3>
-                    <p className="text-small text-muted-foreground mt-2 line-clamp-3">{news.teaser || news.excerpt}</p>
-                    <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
-                      {t("readMore")} <span className="translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
-                    </span>
-                  </Card>
-                </Link>
+                <Card className="relative h-full text-start transition-all duration-300 group-hover:border-primary/30 group-hover:shadow-md focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2">
+                  <div className="flex items-center gap-3 text-tiny font-semibold text-faint-foreground">
+                    <span>{news.date}</span>
+                    <span className="rounded-full bg-primary-soft px-2.5 py-1 font-bold text-primary">{news.tag || news.category || "News"}</span>
+                  </div>
+                  <h3 className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">
+                    <Link href={`/news/${slug}`} className="before:absolute before:inset-0 focus-visible:outline-none">
+                      {news.title}
+                    </Link>
+                  </h3>
+                  <p className="text-small text-muted-foreground mt-2 line-clamp-3">{news.teaser || news.excerpt}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
+                    {t("readMore")} <span className="translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
+                  </span>
+                </Card>
               </Reveal>
             );
           })}

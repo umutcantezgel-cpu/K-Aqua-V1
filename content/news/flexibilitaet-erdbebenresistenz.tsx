@@ -13,8 +13,21 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
   slug: 'flexibilitaet-erdbebenresistenz-ppr-rohre',
   date: 'Sicherheit',
   tag: 'Extreme',
-  title: 'Flexibilität und Erdbebenresistenz Ein System, das sich anpasst',
-  teaser: 'In seismisch aktiven Zonen oder bei Bausenkungen brechen starre Rohrnetze sofort. Polypropylen fängt kinetische Energie ab, ohne zu bersten.',
+  title: {
+    de: 'Flexibilität & Erdbeben',
+    en: 'Flexibility & Earthquakes',
+    ar: 'المرونة والزلازل',
+  },
+  teaser: {
+    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K-Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
+    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K-Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
+    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K-Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
+  },
+  excerpt: {
+    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K-Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
+    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K-Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
+    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K-Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}
@@ -27,7 +40,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die kinetische Antwort" className="mb-6 text-amber-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                Architektur in Erdbebengebieten basiert auf einem fundamentalen Prinzip Ein Gebäude darf niemals starr gegen Naturgewalten ankämpfen, sondern muss die kinetische Energie durch Flexibilität aufnehmen und ableiten. Was für Wolkenkratzer gilt, gilt exakt so für die lebenswichtige Wasserinfrastruktur in ihrem Inneren. Während herkömmliche Metalle unter tektonischem Stress sofort reißen, agieren K Aqua Rohrleitungssysteme als elastische Stoßdämpfer der Gebäudehydraulik.
+                Architektur in Erdbebengebieten basiert auf einem fundamentalen Prinzip: Ein Gebäude darf niemals starr gegen Naturgewalten ankämpfen, sondern muss die kinetische Energie durch Flexibilität aufnehmen und ableiten. Was für Wolkenkratzer gilt, gilt exakt so für die lebenswichtige Wasserinfrastruktur in ihrem Inneren. Während herkömmliche Metalle unter tektonischem Stress sofort reißen, agieren K-Aqua PPR Rohrleitungssysteme als elastische Stoßdämpfer der Gebäudehydraulik.
               </p>
             </div>
           </div>

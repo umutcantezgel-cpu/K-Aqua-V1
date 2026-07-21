@@ -13,9 +13,22 @@ import { Box, Network, MonitorSmartphone, Code } from "@/components/ui/icon";
 
 export const bimRohrnetzPlanungPpr: NewsPost = {
   slug: "bim-building-information-modeling-rohrnetz-planung-ppr",
-  title: "BIM (Building Information Modeling) in der Rohrnetzplanung",
+  title: {
+    de: "BIM in der Rohrnetzplanung für PP-R",
+    en: "BIM in Pipe Network Planning for PP-R",
+    ar: "BIM في تخطيط شبكات أنابيب PP-R"
+  },
   date: "2025-01-14",
-  excerpt: "Der digitale Zwilling der TGA: Wie K Aqua BIM-Daten (Autodesk Revit) die Planung von PP-R Rohrnetzen präziser, schneller und fehlerfrei machen.",
+  teaser: {
+    de: "Der digitale Zwilling in der TGA: Wie K-Aqua BIM-Daten und Autodesk Revit-Familien die moderne Rohrnetzplanung von PP-R Rohrsystemen präziser, schneller und absolut fehlerfrei machen.",
+    en: "The digital twin in MEP: How K-Aqua BIM data and Autodesk Revit families make modern pipe network planning of PP-R piping systems more precise, faster, and absolutely flawless.",
+    ar: "التوأم الرقمي في الهندسة الميكانيكية والكهربائية والسباكة (MEP): كيف تجعل بيانات K-Aqua BIM وعائلات Autodesk Revit التخطيط الحديث لشبكات أنابيب PP-R أكثر دقة وسرعة وخالية تماماً من الأخطاء."
+  },
+  excerpt: {
+    de: "Der digitale Zwilling in der TGA: Wie K-Aqua BIM-Daten und Autodesk Revit-Familien die moderne Rohrnetzplanung von PP-R Rohrsystemen präziser, schneller und absolut fehlerfrei machen.",
+    en: "The digital twin in MEP: How K-Aqua BIM data and Autodesk Revit families make modern pipe network planning of PP-R piping systems more precise, faster, and absolutely flawless.",
+    ar: "التوأم الرقمي في الهندسة الميكانيكية والكهربائية والسباكة (MEP): كيف تجعل بيانات K-Aqua BIM وعائلات Autodesk Revit التخطيط الحديث لشبكات أنابيب PP-R أكثر دقة وسرعة وخالية تماماً من الأخطاء."
+  },
   coverImage: "/images/news/bim-3d-modeling.jpg",
   category: "Planung & BIM",
   tags: ["BIM", "Revit", "Digital Twin", "Planung", "Kollisionsprüfung", "PP-R"],
@@ -49,7 +62,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
       <Reveal>
         <SectionHead
           title="Der Mehrwert des digitalen Zwillings"
-          lead="Warum BIM in der Rohrnetzplanung längst kein Hype mehr ist, sondern Standard."
+          lead="Warum digitale 3D-Modelle in der TGA-Planung von PP-R Rohrsystemen längst kein Hype mehr sind, sondern unverzichtbarer Industriestandard für Effizienz und Ausfallsicherheit."
         />
         <BentoGrid
           items={[
@@ -79,7 +92,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
       <Reveal>
         <SectionHead
           title="Paradigmenwechsel in der Planung"
-          lead="Der Unterschied zwischen Zeichnen (CAD) und Modellieren (BIM)."
+          lead="Der direkte Vergleich zwischen klassischem 2D-Zeichnen (CAD) und objektorientierter 3D-Modellierung (BIM) für moderne Kunststoff-Rohrsysteme."
         />
         <DeepMatrix
           data={[
@@ -96,7 +109,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
       <Reveal>
         <SectionHead
           title="Der Workflow mit K Aqua"
-          lead="So integrieren Sie unsere PP-R Systeme in Ihr Revit-Projekt."
+          lead="In drei praxisnahen Schritten integrieren Sie K-Aqua PP-R Rohrleitungssysteme nahtlos in Ihre Autodesk Revit Planungssoftware."
           align="center"
         />
         <div className="mt-8">
@@ -123,7 +136,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
       <Reveal>
         <SectionHead
           title="FAQ zu K Aqua BIM-Daten"
-          lead="Technische Details zu Formaten und Standards."
+          lead="Häufig gestellte Fragen zur Nutzung, Kompatibilität und Bereitstellung von K-Aqua BIM-Daten und Revit-Familien."
         />
         <DeepFAQ
           items={[
@@ -137,7 +150,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
             },
             {
               q: "Sind die BIM-Daten kostenpflichtig?",
-              a: "Nein, K Aqua stellt alle BIM-Bibliotheken und Planungsdaten registrierten TGA-Planern und Architekten kostenlos zur Verfügung."
+              a: "Nein, K-Aqua stellt sämtliche BIM-Bibliotheken, Revit-Familien (.rfa) und technischen Planungsdaten allen registrierten TGA-Planern, Ingenieuren und Architekten vollständig kostenfrei zur Verfügung."
             }
           ]}
         />

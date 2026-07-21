@@ -12,12 +12,25 @@ import { TrendingDown, Clock, Zap, ShieldCheck } from "@/components/ui/icon";
 
 export const wartungsfreiheitLebenszykluskosten: NewsPost = {
   slug: "wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco",
-  title: "Wartungsfreiheit: Lebenszykluskosten (TCO) von PP-R Systemen",
+  title: {
+    de: "Lebenszykluskosten (TCO) von PP-R Rohren",
+    en: "Lifecycle Costs (TCO) of PP-R Pipes",
+    ar: "تكاليف دورة الحياة (TCO) لأنابيب PP-R"
+  },
   date: "2024-12-25",
-  excerpt: "Die wahren Kosten einer Rohrleitung zeigen sich erst nach 10 Jahren im Betrieb. Erfahren Sie, warum K Aqua PP-R Systeme die Total Cost of Ownership (TCO) in der TGA massiv senken.",
+  teaser: {
+    de: "Die wahren Kosten von Rohrsystemen zeigen sich im Langzeitbetrieb. Erfahren Sie, wie wartungsfreie K Aqua PP-R Rohrsysteme die Lebenszykluskosten (TCO) und OPEX in der TGA nachhaltig senken.",
+    en: "The true costs of piping systems become apparent in long-term operation. Learn how maintenance-free K Aqua PP-R piping systems sustainably reduce lifecycle costs (TCO) and OPEX in building services engineering (MEP).",
+    ar: "تتضح التكاليف الحقيقية لأنظمة الأنابيب في التشغيل طويل الأمد. اكتشف كيف تعمل أنظمة أنابيب K Aqua PP-R الخالية من الصيانة على تقليل تكاليف دورة الحياة (TCO) والنفقات التشغيلية (OPEX) بشكل مستدام في هندسة خدمات المباني (MEP)."
+  },
+  excerpt: {
+    de: "Die wahren Kosten von Rohrsystemen zeigen sich im Langzeitbetrieb. Erfahren Sie, wie wartungsfreie K Aqua PP-R Rohrsysteme die Lebenszykluskosten (TCO) und OPEX in der TGA nachhaltig senken.",
+    en: "The true costs of piping systems become apparent in long-term operation. Learn how maintenance-free K Aqua PP-R piping systems sustainably reduce lifecycle costs (TCO) and OPEX in building services engineering (MEP).",
+    ar: "تتضح التكاليف الحقيقية لأنظمة الأنابيب في التشغيل طويل الأمد. اكتشف كيف تعمل أنظمة أنابيب K Aqua PP-R الخالية من الصيانة على تقليل تكاليف دورة الحياة (TCO) والنفقات التشغيلية (OPEX) بشكل مستدام في هندسة خدمات المباني (MEP)."
+  },
   coverImage: "/images/news/tco-maintenance-free.jpg",
   category: "Wirtschaftlichkeit",
-  tags: ["TCO", "Lebenszykluskosten", "Wartungsfreiheit", "OPEX", "PP-R", "Wirtschaftlichkeit"],
+  tags: ["TCO", "Lebenszykluskosten", "Wartungsfreiheit", "OPEX", "PP-R Rohrsysteme", "Wirtschaftlichkeit"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -117,6 +130,18 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
               }
             ]}
           />
+        </div>
+      </Reveal>
+
+      {/* TCO-Analyse in der Praxis */}
+      <Reveal>
+        <div className="rounded-2xl border border-card-border bg-card p-6 md:p-8 flex flex-col gap-4">
+          <h3 className="text-xl font-bold text-foreground">
+            Langfristige TCO-Optimierung durch PP-R Werkstoffeigenschaften
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            In modernen Zweckbauten und Wohnquartieren entscheidet die Wahl des Rohrwerkstoffs über die Betriebskosten der nächsten Jahrzehnte. Während Metallrohrsysteme durch Lochfraß, Spaltkorrosion und Kalkablagerungen schleichende Druckverluste und steigende Energiekosten verursachen, sichert das homogene K Aqua PP-R Rohrsystem dauerhaft eine glatte Innenoberfläche (Rauheit k = 0,007 mm). Dies verhindert Ablagerungen und Inkrustationen von Tag eins an und ermöglicht eine kontinuierlich hohe Energieeffizienz ohne teure chemische Reinigungen oder wiederkehrende Wartungszyklen.
+          </p>
         </div>
       </Reveal>
 

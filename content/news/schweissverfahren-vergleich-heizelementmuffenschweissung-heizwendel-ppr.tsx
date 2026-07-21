@@ -13,12 +13,20 @@ import { Zap, Hammer, Flame, Settings } from "@/components/ui/icon";
 
 export const schweissverfahrenVergleich: NewsPost = {
   slug: "schweissverfahren-vergleich-heizelementmuffenschweissung-heizwendel-ppr",
-  title: "Schweißverfahren im Vergleich: Heizelementmuffe vs. Heizwendel",
+  title: {
+    de: "PPR Schweißverfahren im Vergleich",
+    en: "PPR Welding Methods in Comparison",
+    ar: "مقارنة طرق لحام PPR",
+  },
   date: "2025-01-20",
-  excerpt: "Die stoffschlüssige Verbindung ist das Geheimnis von PP-R Rohrnetzen. Erfahren Sie, wann klassisches Muffenschweißen und wann Elektromuffen (Heizwendel) die bessere Wahl sind.",
+  excerpt: {
+    de: "Die stoffschlüssige Verbindung ist das Geheimnis langlebiger PP-R Rohrsysteme. Erfahren Sie im Vergleich, wann klassisches Heizelementmuffenschweißen und wann Elektromuffen (Heizwendel) in der Sanitär- und Heizungstechnik die optimale Wahl sind.",
+    en: "The cohesive joint is the secret of durable PP-R pipe systems. Discover in our comparison when classic socket fusion welding and when electrofusion (heating coil) welding are the optimal choice in plumbing and heating technology.",
+    ar: "الوصلة المتماسكة هي سر متانة أنظمة أنابيب PP-R. اكتشف في هذه المقارنة متى يكون اللحام الكلاسيكي بالاندماج التجويفي ومتى يكون اللحام بالصهر الكهربائي (ملف التسخين) هو الخيار الأمثل في تكنولوجيا السباكة والتدفئة.",
+  },
   coverImage: "/images/news/welding-methods-comparison.jpg",
   category: "Verarbeitung & Montage",
-  tags: ["Schweißen", "Heizwendel", "Elektromuffe", "Muffenschweißen", "Handwerk", "Montage"],
+  tags: ["Schweißen", "Heizwendel", "Elektromuffe", "Muffenschweißen", "Handwerk", "Montage", "PPR", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -31,11 +39,11 @@ export const schweissverfahrenVergleich: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Flame className="w-5 h-5" />
-                  <span>Verbindungstechnik & Handwerk</span>
+                  <span>Verbindungstechnik & Handwerk für PPR Rohrsysteme</span>
                 </div>
               }
-              title="Zwei Bauteile, ein Werkstück"
-              lead="Im Gegensatz zu metallischen Systemen, die gepresst, gelötet oder verschraubt werden, nutzt K Aqua die Polyfusion (Schmelzschweißen). Dabei verschmelzen Rohr und Fitting auf molekularer Ebene miteinander. O-Ringe oder Dichtungen, die im Laufe der Jahre porös werden könnten, sind überflüssig. Für die Herstellung dieser perfekten, stoffschlüssigen Verbindung stehen in der Praxis hauptsächlich zwei Verfahren zur Verfügung: Das Heizelementmuffenschweißen und das Heizwendelschweißen."
+              title="Zwei Bauteile, ein Werkstück: Polyfusion bei PPR Rohrsystemen"
+              lead="Im Gegensatz zu metallischen Systemen, die gepresst, gelötet oder verschraubt werden, nutzt K Aqua die Polyfusion (Schmelzschweißen). Dabei verschmelzen PPR Rohr und Fitting auf molekularer Ebene miteinander. O-Ringe oder Dichtungen, die im Laufe der Jahre porös werden könnten, sind absolut überflüssig. Für die Herstellung dieser perfekten, stoffschlüssigen Verbindung stehen in der Praxis hauptsächlich zwei Verfahren zur Verfügung: Das Heizelementmuffenschweißen und das Heizwendelschweißen (Elektromuffenschweißen)."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -48,26 +56,26 @@ export const schweissverfahrenVergleich: NewsPost = {
       {/* BentoGrid: Die Einsatzgebiete */}
       <Reveal>
         <SectionHead
-          title="Welches Verfahren für welchen Zweck?"
-          lead="Die Praxis entscheidet über die Wahl des richtigen Schweißgeräts."
+          title="Welches Schweißverfahren für welchen Zweck bei PPR Rohren?"
+          lead="Die Praxisanforderungen auf der Baustelle entscheiden über die Wahl des optimalen PPR Schweißgeräts."
         />
         <BentoGrid
           items={[
             {
               title: "Heizelementmuffenschweißen (Standard)",
-              description: "Der Allrounder für die Dimensionen DN 20 bis DN 125. Rohr und Fitting werden gleichzeitig auf einem beheizten Dorn auf 260°C erwärmt und anschließend ineinandergefügt. Ideal für die freie Vorfertigung an der Werkbank.",
+              description: "Der Allrounder für die Dimensionen DN 20 bis DN 125. PPR Rohr und Fitting werden gleichzeitig auf einem beheizten Dorn auf 260°C erwärmt und anschließend ineinandergefügt. Ideal für die freie Vorfertigung an der Werkbank.",
               icon: <Hammer className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Heizwendelschweißen (Zwangslagen)",
-              description: "Die Elektromuffe. Ein in den Fitting eingegossener Heizdraht übernimmt das Schmelzen. Unverzichtbar bei Reparaturen im engen Schacht oder bei finalen Verbindungsnähten im Bestand.",
+              description: "Die Elektromuffe für PPR Rohre. Ein in den Fitting eingegossener Heizdraht übernimmt das Schmelzen. Unverzichtbar bei Reparaturen im engen Schacht oder bei finalen Verbindungsnähten im Bestand.",
               icon: <Zap className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Stumpfschweißen (Großrohre)",
-              description: "Meist ab DN 160 eingesetzt. Hierbei werden die Rohrenden ohne zusätzliche Muffe plan aneinandergedrückt und mithilfe großer Maschinen verschweißt.",
+              description: "Meist ab DN 160 bei PPR Großrohrsystemen eingesetzt. Hierbei werden die Rohrenden ohne zusätzliche Muffe plan aneinandergedrückt und mithilfe automatisierter Maschinen verschweißt.",
               icon: <Settings className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -78,8 +86,8 @@ export const schweissverfahrenVergleich: NewsPost = {
       {/* DeepMatrix: Heizwendel vs. Muffenschweißen */}
       <Reveal>
         <SectionHead
-          title="Vergleich der Methoden"
-          lead="Kosten, Geschwindigkeit und Platzbedarf gegenübergestellt."
+          title="Vergleich der PPR Schweißverfahren: Heizelementmuffe vs. Elektromuffe"
+          lead="Kosten, Verlegegeschwindigkeit, Werkzeugeinsatz und Platzbedarf in der Gegenüberstellung."
         />
         <DeepMatrix
           data={[
@@ -95,8 +103,8 @@ export const schweissverfahrenVergleich: NewsPost = {
       {/* Stagger: Der Ablauf beim Heizwendelschweißen */}
       <Reveal>
         <SectionHead
-          title="Ablauf einer Heizwendelschweißung"
-          lead="Drei essenzielle Schritte für eine normgerechte Verbindung."
+          title="Schritt-für-Schritt Ablauf einer PPR Heizwendelschweißung"
+          lead="Drei essenzielle Schritte für eine dauerhaft normgerechte und leckagesichere Verbindung."
           align="center"
         />
         <div className="mt-8">
@@ -122,8 +130,8 @@ export const schweissverfahrenVergleich: NewsPost = {
       {/* DeepFAQ: Experten-Fragen zur Schweißtechnik */}
       <Reveal>
         <SectionHead
-          title="FAQ: Schweißtechnik"
-          lead="Häufige Fragen unserer Kunden auf der Baustelle."
+          title="FAQ: Schweißtechnik & Verarbeitung von PPR Rohrsystemen"
+          lead="Häufige Fragen unserer Kunden und Handwerker zur Verarbeitung von PPR Rohren auf der Baustelle."
         />
         <DeepFAQ
           items={[
@@ -138,6 +146,14 @@ export const schweissverfahrenVergleich: NewsPost = {
             {
               q: "Darf ich die Verbindung nach dem Schweißen mit Wasser kühlen?",
               a: "Nein, auf keinen Fall! Das plötzliche Abschrecken führt zu Mikrorissen im Kunststoff. Die Verbindung muss zwingend an der ruhenden Umgebungsluft (ggf. unter Spannung im Haltegestell) natürlich abkühlen."
+            },
+            {
+              q: "Welche Sicherheits- und Vorbereitungsmaßnahmen sind beim Schweißen von PPR Rohren zu beachten?",
+              a: "Vor jedem Schweißvorgang müssen Rohre und Fittings gründlich gereinigt, entfettet und rechtwinklig zugeschnitten werden. Bei Heizwendelschweißungen ist das mechanische Abschälen der Oxidschicht unerlässlich, um Schweißfehler zu vermeiden."
+            },
+            {
+              q: "Wie unterscheidet sich die Schweißzeit bei unterschiedlichen PPR Rohrdimensionen?",
+              a: "Mit zunehmendem Rohrdurchmesser steigen die Anwärm- und Umschaltzeiten proportional an. Während DN 20 Rohre nur wenige Sekunden Anwärmzeit benötigen, erfordern Großrohre ab DN 110 präzise kontrollierte Halte- und Abkühlzeiten nach DVS Standard."
             }
           ]}
         />
@@ -149,7 +165,7 @@ export const schweissverfahrenVergleich: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "260", u: "°C", l: "Die optimale Schweißtemperatur am Heizdorn für das Heizelementmuffenschweißen." },
+              { n: "260", u: "°C", l: "Die optimale Schweißtemperatur am Heizdorn für das Heizelementmuffenschweißen von PPR Rohren." },
               { n: "100", u: "%", l: "Homogenität. Aus zwei Werkstücken entsteht ein stoffschlüssig verbundenes Monoblock-System." },
               { n: "0", l: "Gummiringe, Hanf oder Teflon – all diese anfälligen Dichtungsmaterialien entfallen komplett." }
             ]}
@@ -161,7 +177,7 @@ export const schweissverfahrenVergleich: NewsPost = {
       <Reveal>
         <CTABand
           title="Eine Schweißnaht ist nur so gut wie der Installateur"
-          subtitle="Sichern Sie die Qualität Ihrer TGA-Projekte. Buchen Sie jetzt eine K Aqua DVS-konforme Schweißerschulung für Ihr Montageteam vor Ort."
+          subtitle="Sichern Sie die Qualität Ihrer TGA-Projekte. Buchen Sie jetzt eine K Aqua DVS-konforme Schweißerschulung für PPR Rohrsysteme für Ihr Montageteam vor Ort."
           buttonText="Schulung anfragen"
           buttonLink="/kontakt"
           icon={<Hammer className="w-6 h-6" />}

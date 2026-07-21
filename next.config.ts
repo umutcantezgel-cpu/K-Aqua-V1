@@ -69,13 +69,33 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/katalog',
+        destination: '/:locale/produkte',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/wissen',
+        destination: '/:locale/academy',
+        permanent: true,
+      },
+      {
+        source: '/produkte/katalog',
+        destination: '/produkte',
+        permanent: true,
+      },
+      {
+        source: '/wissen',
+        destination: '/academy',
+        permanent: true,
+      },
+      {
         source: '/:locale([a-zA-Z-]{2,7})/academy/webinare/anmeldung',
         destination: '/:locale/kontakt',
         permanent: true,
       },
       {
         source: '/:locale([a-zA-Z-]{2,7})/downloads',
-        destination: '/:locale/ressourcen/downloads',
+        destination: '/:locale/ressourcen/ausschreibungstexte',
         permanent: true,
       },
       {
@@ -85,7 +105,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/:locale([a-zA-Z-]{2,7})/ressourcen',
-        destination: '/:locale/ressourcen/downloads',
+        destination: '/:locale/ressourcen/ausschreibungstexte',
         permanent: true,
       },
       {
@@ -126,7 +146,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/downloads',
-        destination: '/ressourcen/downloads',
+        destination: '/ressourcen/ausschreibungstexte',
         permanent: true,
       },
       {
@@ -136,7 +156,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/ressourcen',
-        destination: '/ressourcen/downloads',
+        destination: '/ressourcen/ausschreibungstexte',
         permanent: true,
       },
       {

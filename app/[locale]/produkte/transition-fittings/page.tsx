@@ -70,7 +70,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <Button variant="inverse" size="lg" href="/projektanfrage">
                 {t('cta.primary')}
               </Button>
-              <Button variant="secondary" size="lg" href="/ressourcen/downloads">
+              <Button variant="secondary" size="lg" href="/ressourcen/ausschreibungstexte">
                 {t('cta.secondary')}
               </Button>
             </div>

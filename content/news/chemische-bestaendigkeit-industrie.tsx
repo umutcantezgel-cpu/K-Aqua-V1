@@ -11,10 +11,24 @@ import { Factory, Shield, Droplet, Wrench, Layers, Zap } from '@/components/ui/i
 
 export const chemischeBestaendigkeitIndustrie: NewsPost = {
   slug: 'chemische-bestaendigkeit-ppr-im-industriellen-anlagenbau',
-  date: 'Technik',
-  tag: 'Industrie',
-  title: 'Chemische Beständigkeit PPR im industriellen Anlagenbau',
-  teaser: 'Druckluft, aggressive Kühlmedien und chemische Transporte fordern Metalle bis zur Zerstörung. Die molekulare Lösung lautet Polypropylen.',
+  date: '2025-01-10',
+  category: 'Technik',
+  tags: ['PP-R', 'Chemische Beständigkeit', 'Anlagenbau', 'Industrie', 'Rohrsysteme'],
+  title: {
+    de: 'Chemische Beständigkeit PPR',
+    en: 'Chemical Resistance PPR',
+    ar: 'المقاومة الكيميائية لأنابيب PPR'
+  },
+  teaser: {
+    de: 'Druckluft, aggressive Kühlmedien und chemische Transporte fordern metallische Leitungen heraus. Entdecken Sie die chemische Beständigkeit von K-Aqua PP-R Rohrsystemen für den dauerhaften Einsatz im industriellen Anlagenbau.',
+    en: 'Compressed air, aggressive cooling media, and chemical transport challenge metal pipes. Discover the chemical resistance of K-Aqua PP-R pipe systems for long-term use in industrial plant engineering.',
+    ar: 'الهواء المضغوط، ووسائط التبريد شديدة التفاعل، ونقل المواد الكيميائية تشكل تحدياً للأنابيب المعدنية. اكتشف المقاومة الكيميائية الفائقة لأنظمة أنابيب K-Aqua PP-R للاستخدام طويل الأمد في المنشآت الصناعية.'
+  },
+  excerpt: {
+    de: 'Druckluft, aggressive Kühlmedien und chemische Transporte fordern metallische Leitungen heraus. Entdecken Sie die chemische Beständigkeit von K-Aqua PP-R Rohrsystemen für den dauerhaften Einsatz im industriellen Anlagenbau.',
+    en: 'Compressed air, aggressive cooling media, and chemical transport challenge metal pipes. Discover the chemical resistance of K-Aqua PP-R pipe systems for long-term use in industrial plant engineering.',
+    ar: 'الهواء المضغوط، ووسائط التبريد شديدة التفاعل، ونقل المواد الكيميائية تشكل تحدياً للأنابيب المعدنية. اكتشف المقاومة الكيميائية الفائقة لأنظمة أنابيب K-Aqua PP-R للاستخدام طويل الأمد في المنشآت الصناعية.'
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}

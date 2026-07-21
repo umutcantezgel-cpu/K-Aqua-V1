@@ -12,12 +12,25 @@ import { Pickaxe, TrendingUp, ShieldCheck, Route } from "@/components/ui/icon";
 
 export const erdverlegungGrabenlos: NewsPost = {
   slug: "erdverlegung-grabenloser-rohrleitungsbau-horizontalbohrverfahren-ppr",
-  title: "Erdverlegung: Grabenloser Rohrleitungsbau",
+  title: {
+    de: "Erdverlegung: Rohrleitungsbau",
+    en: "Underground Installation: Pipeline Construction",
+    ar: "التمديد تحت الأرض: إنشاء خطوط الأنابيب"
+  },
   date: "2025-02-04",
-  excerpt: "Straßen aufzureißen ist teuer und stört die Infrastruktur. Warum K Aqua PP-R Systeme durch das HDD-Verfahren tiefbaukosten drastisch reduzieren.",
+  teaser: {
+    de: "Grabenlose Verlegung reduziert Tiefbaukosten und Emissionen drastisch.",
+    en: "Trenchless installation drastically reduces civil engineering costs and emissions.",
+    ar: "التركيب بدون خنادق يقلل بشكل كبير من تكاليف الهندسة المدنية والانبعاثات."
+  },
+  excerpt: {
+    de: "Straßen aufzureißen ist teuer und stört die Infrastruktur. Erfahren Sie, wie K-Aqua PP-R Rohrsysteme durch das HDD-Verfahren Tiefbaukosten drastisch reduzieren und CO2-Emissionen nachhaltig einsparen.",
+    en: "Tearing up roads is expensive and disrupts infrastructure. Learn how K-Aqua PP-R pipe systems drastically reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
+    ar: "إن حفر الطرق مكلف ويعطل البنية التحتية. تعرف على كيف تعمل أنظمة أنابيب PP-R من K-Aqua على تقليل تكاليف الهندسة المدنية بشكل كبير وخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
+  },
   coverImage: "/images/news/trenchless-hdd-pipe-installation.jpg",
   category: "Installation & Praxis",
-  tags: ["Erdverlegung", "HDD", "Grabenlos", "Infrastruktur", "Tiefbau", "PP-R"],
+  tags: ["Erdverlegung", "HDD", "Grabenlos", "Infrastruktur", "Tiefbau", "PP-R", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

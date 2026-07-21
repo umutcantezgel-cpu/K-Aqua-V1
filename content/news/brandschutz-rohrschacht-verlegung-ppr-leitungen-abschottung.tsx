@@ -12,12 +12,25 @@ import { Flame, ShieldAlert, Layers, Building2 } from "@/components/ui/icon";
 
 export const brandschutzRohrschachtVerlegung: NewsPost = {
   slug: "brandschutz-rohrschacht-verlegung-ppr-leitungen-abschottung",
-  title: "Brandschutz im Rohrschacht: Verlegung von PP-R Leitungen",
+  title: {
+    de: "Brandschutz im Rohrschacht mit PP-R",
+    en: "Fire Protection in Pipe Shafts with PP-R",
+    ar: "الحماية من الحرائق في مناور الأنابيب باستخدام PP-R"
+  },
   date: "2025-01-05",
-  excerpt: "Wie verhindert man die Brandausbreitung über Rohrleitungen? Die korrekte Abschottung von K Aqua PP-R Systemen in Deckendurchbrüchen und Steigeschächten.",
+  teaser: {
+    de: "Wie verhindert man die Brandausbreitung über Rohrleitungen? Leitfaden zur fachgerechten Abschottung von K-Aqua PP-R Rohrsystemen in Deckendurchbrüchen, Wänden und Steigeschächten nach DIN 4102.",
+    en: "How do you prevent fire propagation through pipelines? A guide to the proper firestopping of K-Aqua PP-R pipe systems in floor penetrations, walls, and risers according to DIN 4102.",
+    ar: "كيف يمكن منع انتشار الحريق عبر شبكات الأنابيب؟ دليل العزل الاحترافي لأنظمة أنابيب K-Aqua PP-R في اختراقات الأسقف والجدران والمناور الصاعدة وفقاً للمعيار DIN 4102."
+  },
+  excerpt: {
+    de: "Wie verhindert man die Brandausbreitung über Rohrleitungen? Leitfaden zur fachgerechten Abschottung von K-Aqua PP-R Rohrsystemen in Deckendurchbrüchen, Wänden und Steigeschächten nach DIN 4102.",
+    en: "How do you prevent fire propagation through pipelines? A guide to the proper firestopping of K-Aqua PP-R pipe systems in floor penetrations, walls, and risers according to DIN 4102.",
+    ar: "كيف يمكن منع انتشار الحريق عبر شبكات الأنابيب؟ دليل العزل الاحترافي لأنظمة أنابيب K-Aqua PP-R في اختراقات الأسقف والجدران والمناور الصاعدة وفقاً للمعيار DIN 4102."
+  },
   coverImage: "/images/news/fire-protection-shaft.jpg",
   category: "Normen & Richtlinien",
-  tags: ["Brandschutz", "Brandschott", "Rohrschacht", "DIN 4102", "Sicherheit", "PP-R"],
+  tags: ["Brandschutz", "Brandschott", "Rohrschacht", "DIN 4102", "Sicherheit", "PP-R", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

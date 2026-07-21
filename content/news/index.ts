@@ -49,17 +49,25 @@ import { legionellenpraeventionZirkulation } from './legionellenpraevention-warm
 import { erdverlegungGrabenlos } from './erdverlegung-grabenloser-rohrleitungsbau-horizontalbohrverfahren-ppr';
 import { lebensdauerBerechnungPpr } from './lebensdauer-berechnung-kunststoffrohre-arrhenius-gleichung-ppr';
 
+export type LocalizedContent = { de: string; en: string; ar: string } | string;
+
 export interface NewsPost {
   slug: string;
   date: string;
   tag?: string;
   category?: string;
-  title: string;
-  teaser?: string;
-  excerpt?: string;
+  title: LocalizedContent;
+  teaser?: LocalizedContent;
+  excerpt?: LocalizedContent;
   content: React.ReactNode;
   coverImage?: string;
   tags?: string[];
+}
+
+export function resolveLocalized(content: LocalizedContent | undefined, locale: string): string {
+  if (!content) return '';
+  if (typeof content === 'string') return content;
+  return (content as any)[locale] || content.de || '';
 }
 
 // Zentrale Registry fuer alle News (derzeit 4 von 50 geplanten)

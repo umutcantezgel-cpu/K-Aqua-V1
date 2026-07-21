@@ -19,7 +19,7 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
         <i>01</i><b>{t('products')}</b><span className="meta">{productCount} Artikel</span><span className="arrow" aria-hidden="true">→</span>
         <span className="ov" aria-hidden="true"><span className="track"></span></span>
       </Link>
-      <Link className="row" data-tone="aqua" href="/produkte/katalog">
+      <Link className="row" data-tone="aqua" href="/produkte">
         <i>02</i><b>{t('finder')}</b><span className="meta">Live-Filter</span><span className="arrow" aria-hidden="true">→</span>
         <span className="ov" aria-hidden="true"><span className="track"></span></span>
       </Link>

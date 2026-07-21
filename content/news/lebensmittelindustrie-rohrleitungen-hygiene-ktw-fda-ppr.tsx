@@ -12,9 +12,22 @@ import { Droplet, ShieldCheck, Coffee, Microscope } from "@/components/ui/icon";
 
 export const lebensmittelindustrieHygiene: NewsPost = {
   slug: "lebensmittelindustrie-rohrleitungen-hygiene-ktw-fda-ppr",
-  title: "Lebensmittelindustrie: Hygienische Rohrleitungen für Trinkwasser & Medien",
+  title: {
+    de: "Lebensmittelindustrie: PPR Rohrsysteme",
+    en: "Food Industry: PPR Pipe Systems",
+    ar: "صناعة الأغذية: أنظمة أنابيب PPR"
+  },
   date: "2024-11-20",
-  excerpt: "In der Food & Beverage Industrie gelten höchste Reinheitsgebote. K Aqua PP-R ist lebensmittelecht, geschmacksneutral und widersteht aggressiven CIP-Reinigungsverfahren besser als viele Metalle.",
+  teaser: {
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K-Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP-beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K-Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP-resistant.",
+    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K-Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
+  },
+  excerpt: {
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K-Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP-beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K-Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP-resistant.",
+    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K-Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
+  },
   coverImage: "/images/news/food-industry.jpg",
   category: "Industrie & Anlagenbau",
   tags: ["Lebensmittelindustrie", "Trinkwasser", "FDA", "CIP-Reinigung", "PP-R", "Hygiene"],

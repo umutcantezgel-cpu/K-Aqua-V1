@@ -12,9 +12,17 @@ import { Droplet, AlertTriangle, Scale, Activity } from "@/components/ui/icon";
 
 export const pprMehrschichtverbundrohrVergleich: NewsPost = {
   slug: "ppr-rohrsysteme-vergleich-mehrschichtverbundrohr-pex-alu-pex",
-  title: "Systemvergleich: PP-R vs. Mehrschichtverbundrohr (PEX/Alu)",
+  title: {
+    de: "PPR-Rohre vs. Mehrschichtverbundrohr",
+    en: "PPR Pipes vs. Multilayer Composite Pipes",
+    ar: "أنابيب البولي بروبيلين العشوائي (PPR) مقابل الأنابيب المركبة متعددة الطبقات"
+  },
   date: "2025-01-23",
-  excerpt: "Warum das Schmelzschweißen von homogenen PP-R Rohren dem Pressen von Aluverbundrohren in Sachen Hygiene, Langlebigkeit und Durchfluss überlegen ist.",
+  excerpt: {
+    de: "PPR-Rohrsysteme im Systemvergleich mit Mehrschichtverbundrohr (PEX/Alu-PEX): Warum Schmelzschweißen bei Hygiene, Langlebigkeit und Durchfluss klar überlegen ist.",
+    en: "A system comparison of PPR pipe systems with multilayer composite pipes (PEX/Alu-PEX): Why fusion welding is clearly superior in terms of hygiene, longevity, and flow rate.",
+    ar: "مقارنة بين أنظمة أنابيب PPR والأنابيب المركبة متعددة الطبقات (PEX/Alu-PEX): لماذا يعتبر اللحام بالانصهار متفوقًا بوضوح من حيث النظافة، وطول العمر الافتراضي، ومعدل التدفق."
+  },
   coverImage: "/images/news/ppr-vs-pex.jpg",
   category: "Materialkunde & Vergleiche",
   tags: ["Vergleich", "Mehrschichtverbundrohr", "PEX", "Aluverbundrohr", "Materialkunde"],
