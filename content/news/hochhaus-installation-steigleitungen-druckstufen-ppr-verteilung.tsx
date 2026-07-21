@@ -13,12 +13,20 @@ import { Building, Settings, Ruler, Link } from "@/components/ui/icon";
 
 export const hochhausInstallationSteigleitungen: NewsPost = {
   slug: "hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung",
-  title: "Steigleitungen im Hochhaus: Druckstufen und Befestigung",
+  title: {
+    de: "Steigleitungen im Hochhaus mit PPR",
+    en: "High-Rise Building Risers with PPR",
+    ar: "الأنابيب الصاعدة في المباني الشاهقة باستخدام PPR"
+  },
   date: "2025-01-27",
-  excerpt: "Wolkenkratzer fordern die Hydraulik heraus. Wie Sie mit K Aqua PP-R Druckzonen planen, statische Lasten im Schacht abfangen und Kosten sparen.",
+  excerpt: {
+    de: "Wolkenkratzer fordern die TGA-Hydraulik heraus. Erfahren Sie, wie Sie mit K Aqua PPR Rohrsystemen Druckzonen in Steigleitungen optimal planen, statische Lasten im Schacht sicher abfangen und Montagekosten sparen.",
+    en: "Skyscrapers challenge MEP hydraulics. Discover how to optimally plan pressure zones in risers using K Aqua PPR pipe systems, safely absorb static loads in the service shafts, and save on installation costs.",
+    ar: "تشكل ناطحات السحاب تحدياً كبيراً للأنظمة الهيدروليكية. اكتشف كيف يمكنك التخطيط الأمثل لمناطق الضغط في الأنابيب الصاعدة باستخدام أنظمة أنابيب K Aqua PPR، وامتصاص الأحمال الساكنة بأمان في مسارات الأنابيب، وتوفير تكاليف التركيب."
+  },
   coverImage: "/images/news/high-rise-pipes-pressure.jpg",
   category: "Planung & Berechnung",
-  tags: ["Hochhaus", "Steigleitung", "Druckstufe", "Befestigung", "Festpunkt", "Planung"],
+  tags: ["Hochhaus", "Steigleitung", "PPR", "Rohrsysteme", "Druckstufe", "Befestigung", "Festpunkt", "Planung"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -31,11 +39,11 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Building className="w-5 h-5" />
-                  <span>Gebäudetechnik XXL</span>
+                  <span>Gebäudetechnik XXL & PPR Rohrsysteme</span>
                 </div>
               }
-              title="Der Kampf gegen die Wassersäule"
-              lead="In Hochhäusern summiert sich der statische Druck des Wassers pro 10 Meter Gebäudehöhe um exakt 1 bar. Ein 150 Meter hohes Gebäude erzeugt im Untergeschoss allein durch die Schwerkraft einen Ruhedruck von 15 bar. Um zu verhindern, dass Armaturen platzen und Fließgeräusche unerträglich werden, muss das Rohrnetz hydraulisch in Zonen unterteilt werden. Hier zeigt K Aqua PP-R mit seinem Baukastensystem aus verschiedenen Wandstärken (SDR-Klassen) seine volle Stärke."
+              title="Der Kampf gegen die Wassersäule: Steigleitungen & Druckzonen"
+              lead="In Hochhäusern summiert sich der statische Druck des Wassers pro 10 Meter Gebäudehöhe um exakt 1 bar. Ein 150 Meter hohes Gebäude erzeugt im Untergeschoss allein durch die Schwerkraft einen Ruhedruck von 15 bar. Um zu verhindern, dass Armaturen platzen und Fließgeräusche unerträglich werden, muss das Rohrnetz hydraulisch in Zonen unterteilt werden. Hier zeigt K Aqua PPR mit seinem Baukastensystem aus verschiedenen Wandstärken (SDR-Klassen) und langlebigen Rohrsystemen seine volle Stärke."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

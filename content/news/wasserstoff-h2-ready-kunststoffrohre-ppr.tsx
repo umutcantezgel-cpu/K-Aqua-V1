@@ -12,14 +12,27 @@ import { Zap, Shield, Activity, Wrench } from "@/components/ui/icon";
 
 export const wasserstoffH2Ready: NewsPost = {
   slug: "wasserstoff-h2-ready-kunststoffrohre-ppr",
-  title: "Wasserstoff (H2) & PP-R: Sind Kunststoffrohre H2-Ready?",
+  title: {
+    de: "Wasserstoff (H2) & PP-R: H2-Ready?",
+    en: "Hydrogen (H2) & PP-R: H2-Ready?",
+    ar: "الهيدروجين (H2) و PP-R: هل هو جاهز للهيدروجين؟"
+  },
   date: "2024-10-02",
-  excerpt: "Wasserstoff stellt extreme physikalische Anforderungen an Rohrleitungen. Erfahren Sie, warum PP-R Rohre immun gegen Wasserstoffversprödung sind und wie sie in zukünftigen H2-Niederdrucknetzen eingesetzt werden können.",
+  teaser: {
+    de: "Wasserstoff stellt extreme physikalische Anforderungen an moderne Rohrleitungssysteme. Erfahren Sie, warum hochwertige PPR-Kunststoffrohre immun gegen Wasserstoffversprödung sind und sich ideal für H2-Niederdrucknetze eignen.",
+    en: "Hydrogen imposes extreme physical demands on modern piping systems. Discover why high-quality PPR plastic pipes are immune to hydrogen embrittlement and are ideal for low-pressure H2 networks.",
+    ar: "يفرض الهيدروجين متطلبات فيزيائية قصوى على أنظمة الأنابيب الحديثة. اكتشف لماذا تعتبر أنابيب البلاستيك PPR عالية الجودة محصنة ضد التقصف الهيدروجيني ومثالية لشبكات الهيدروجين منخفضة الضغط."
+  },
+  excerpt: {
+    de: "Wasserstoff stellt extreme physikalische Anforderungen an moderne Rohrleitungssysteme. Erfahren Sie, warum hochwertige PPR-Kunststoffrohre immun gegen Wasserstoffversprödung sind und sich ideal für H2-Niederdrucknetze eignen.",
+    en: "Hydrogen imposes extreme physical demands on modern piping systems. Discover why high-quality PPR plastic pipes are immune to hydrogen embrittlement and are ideal for low-pressure H2 networks.",
+    ar: "يفرض الهيدروجين متطلبات فيزيائية قصوى على أنظمة الأنابيب الحديثة. اكتشف لماذا تعتبر أنابيب البلاستيك PPR عالية الجودة محصنة ضد التقصف الهيدروجيني ومثالية لشبكات الهيدروجين منخفضة الضغط."
+  },
   coverImage: "/images/news/hydrogen-future.jpg",
   category: "Future Energy",
   tags: ["Wasserstoff", "H2-Ready", "Future Energy", "PP-R", "Versprödung", "Permeation"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -72,26 +85,26 @@ export const wasserstoffH2Ready: NewsPost = {
       {/* BentoGrid: PP-R im H2-Test */}
       <Reveal>
         <SectionHead
-          title="Warum PP-R für H2-Niederdruck geeignet ist"
-          lead="Forschung und Entwicklung für die Netze von morgen."
+          title="Warum PP-R Kunststoffrohre für H2-Niederdrucknetze ideal sind"
+          lead="Forschung, Materialprüfungen und innovative Rohrsysteme für die nachhaltige H2-Energieinfrastruktur von morgen."
         />
         <BentoGrid
           items={[
             {
-              title: "Keine Versprödung",
-              description: "Die Polymermatrix von PP-R wird von Wasserstoff nicht chemisch angegriffen oder strukturell geschwächt.",
+              title: "Keine Wasserstoffversprödung",
+              description: "Die stabile Polymermatrix von hochwertigen PPR-Kunststoffrohren wird von gasförmigem Wasserstoff chemisch nicht angegriffen und verhindert Gefügeversprödungen vollständig.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
-              title: "Dichtheit durch Schweißen",
-              description: "Stoffschlüssige Heizelementmuffenschweißung schafft ein durchgehendes Rohr ohne mechanische Dichtungen.",
+              title: "Dichtheit durch Homogenes Schweißen",
+              description: "Die stoffschlüssige Heizelementmuffenschweißung schafft ein vollkommen homogenes, unlösbares PPR-Rohrsystem ohne anfällige mechanische Dichtungen oder O-Ringe.",
               icon: <Zap className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
-              title: "Flexible Verlegung",
-              description: "PP-R Rohre lassen sich leicht anpassen und sind ideal für dezentrale H2-Elektrolyseur-Peripherien.",
+              title: "Flexible Verlegung & Hohe Lebensdauer",
+              description: "PPR-Rohre zeichnen sich durch ein geringes Gewicht sowie flexible Verlegemöglichkeiten aus und eignen sich hervorragend für dezentrale H2-Elektrolyseur-Peripherien.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -103,8 +116,8 @@ export const wasserstoffH2Ready: NewsPost = {
       <Reveal>
         <div className="my-12">
           <SectionHead
-            title="Materialvergleich für H2"
-            lead="Wie verhalten sich verschiedene Werkstoffe im Kontakt mit Wasserstoff?"
+            title="Materialvergleich für Wasserstoff-Rohrleitungen"
+            lead="Ein technologischer Vergleich verschiedener Werkstoffe und Rohrsysteme im direkten Kontakt mit gasförmigem Wasserstoff."
           />
           <DeepMatrix
             data={[

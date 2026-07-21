@@ -49,6 +49,7 @@ const sitemapGroups = [
       { href: '/projektanfrage', labelId: 'rfq', fallback: 'Projektanfrage für Rohrsysteme' },
       { href: '/partnerschaft', labelId: 'partners', fallback: 'K-Aqua Partnernetzwerk' },
       { href: '/trust-center', labelId: 'trust', fallback: 'K-Aqua Trust Center' },
+      { href: '/sitemap', labelId: 'sitemap', fallback: 'Sitemap (HTML)' },
     ],
     fallback: 'Unternehmen'
   },

@@ -13,8 +13,16 @@ export const rueckverfolgbarkeit: NewsPost = {
   slug: 'fortlaufende-kennzeichnung-rueckverfolgbarkeit',
   date: '2018',
   tag: 'Produktion',
-  title: 'Fortlaufend gekennzeichnet Rückverfolgbarkeit ab Extruder',
-  teaser: 'Jedes K Aqua Rohr trägt eine kontinuierliche Kennzeichnung direkt aus dem Extrusionsprozess für perfekte Transparenz.',
+  title: {
+    de: 'Rückverfolgbarkeit ab Extruder',
+    en: 'Traceability from the Extruder',
+    ar: 'إمكانية التتبع بدءاً من آلة البثق'
+  },
+  teaser: {
+    de: 'Erfahren Sie, wie die lückenlose Rückverfolgbarkeit und fortlaufende Inkjet-Kennzeichnung von K-Aqua PPR-Rohrsystemen höchste Qualität, Sicherheit und Transparenz ab dem Extruder gewährleistet.',
+    en: 'Discover how the seamless traceability and continuous inkjet marking of K-Aqua PPR pipe systems ensure the highest quality, safety, and transparency right from the extruder.',
+    ar: 'اكتشف كيف تضمن إمكانية التتبع الشاملة والوسم المستمر بنفث الحبر لأنظمة أنابيب K-Aqua PPR أعلى مستويات الجودة والأمان والشفافية بدءاً من آلة البثق.'
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Glass Card Hero */}
@@ -27,7 +35,7 @@ export const rueckverfolgbarkeit: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die gläserne Produktion" className="mb-6 text-primary" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl">
-                Eine absolut lückenlose Rückverfolgbarkeit ist keine Kür, sondern zwingende Pflicht für ein international agierendes Industrieunternehmen. Bauherren, Planer und Zertifizierungsstellen verlassen sich blind auf die konstante Qualität unserer Produkte. Um dieses unschätzbare Vertrauen zu rechtfertigen, wird jedes einzelne Rohr direkt im laufenden Extrusionsprozess fortlaufend und dauerhaft gekennzeichnet.
+                Eine absolut lückenlose Rückverfolgbarkeit ist keine Kür, sondern zwingende Pflicht im modernen Rohrleitungsbau. Bauherren, Planer und Zertifizierungsstellen verlassen sich weltweit auf die erstklassige Qualität von K-Aqua PPR-Rohrsystemen. Um dieses unschätzbare Vertrauen zu rechtfertigen, wird jedes einzelne PPR-Rohr direkt im laufenden Extrusionsprozess fortlaufend und dauerhaft gekennzeichnet.
               </p>
             </div>
           </div>

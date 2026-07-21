@@ -5,7 +5,6 @@ import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
 import { useTranslations } from 'next-intl';
 /* eslint-disable react/jsx-no-literals */
 
-import FooterSitemap from './FooterSitemap';
 import FooterTrustBadges from './FooterTrustBadges';
 import CodayAttribution from './CodayAttribution';
 
@@ -43,9 +42,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Middle Area: Sitemap */}
+        {/* Middle Area: Removed Sitemap as requested */}
         <div className="w-full mb-16 md:mb-24">
-          <FooterSitemap />
         </div>
 
         {/* Trust Badges Full Width */}

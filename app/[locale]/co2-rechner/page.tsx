@@ -31,17 +31,28 @@ export default async function Co2RechnerPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
+  const tCo2 = await getTranslations({ locale, namespace: "co2" });
   const meta = t.raw("co2") as string[];
   const jsonLd = await getWebPageJsonLd(locale, "co2");
   
+  const guideText = tCo2.has("guideText") ? tCo2("guideText") : "";
+  
   return (
-    <div className="flex flex-col h-[calc(100vh-72px)] bg-background overflow-hidden selection:bg-primary/30 relative z-20">
+    <div className="flex flex-col min-h-screen bg-background selection:bg-primary/30 relative z-20">
       <div className="sr-only">
         <p>{meta[0]}</p>
         <p>{meta[1]}</p>
       </div>
       <JsonLd schema={jsonLd} />
       <Co2DashboardWrapper />
+      {guideText && (
+        <section className="container mx-auto px-4 py-12 border-t border-border mt-8">
+          <div 
+            className="prose prose-slate dark:prose-invert max-w-none text-foreground-muted text-sm leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: guideText }}
+          />
+        </section>
+      )}
     </div>
   );
 }

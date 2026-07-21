@@ -13,8 +13,21 @@ export const druckverlustStroemungsdynamik: NewsPost = {
   slug: 'druckverlust-stroemungsdynamik-effizienz-ppr',
   date: 'Technik',
   tag: 'Effizienz',
-  title: 'Druckverlust und Strömungsdynamik Effizienz durch glatte Innenwände',
-  teaser: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Warum die absolute Oberflächenglätte von PPR die Betriebskosten revolutioniert.',
+  title: {
+    de: 'Druckverlust & Strömung',
+    en: 'Pressure Loss & Flow Dynamics',
+    ar: 'فقدان الضغط وديناميكا التدفق',
+  },
+  teaser: {
+    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PP-R Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
+    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PP-R piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
+    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PP-R من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
+  },
+  excerpt: {
+    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PP-R Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
+    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PP-R piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
+    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PP-R من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section - Hero */}
@@ -27,7 +40,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Physik des Fließens" className="mb-6 text-cyan-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen an Wasser bewegt. Um diese gewaltigen Massen gegen die Schwerkraft und den Leitungswiderstand zu pressen, leisten Pumpen enorme Schwerstarbeit. Genau hier entscheidet die Wahl des Rohrleitungsmaterials über die langfristige Wirtschaftlichkeit. Ein mikroskopisch kleines Detail die Oberflächenrauheit definiert, ob das Gebäude ein Energiefresser oder ein Effizienzwunder wird.
+                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen Schwerkraft und Leitungswiderstand zu fördern, leisten Pumpen kontinuierlich Schwerstarbeit. Genau hier entscheidet die Wahl moderner PP-R Rohrsysteme über die langfristige Wirtschaftlichkeit. Ein entscheidendes Detail – die minimale Oberflächenrauheit von K Aqua PP-R – definiert, ob Ihr Gebäude zum Energiefresser oder zum Effizienzwunder wird.
               </p>
             </div>
           </div>

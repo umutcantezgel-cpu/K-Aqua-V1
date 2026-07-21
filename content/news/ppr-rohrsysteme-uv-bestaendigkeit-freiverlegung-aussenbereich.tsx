@@ -12,9 +12,17 @@ import { Sun, Shield, Layers, ThermometerSun } from "@/components/ui/icon";
 
 export const uvBestaendigkeitFreiverlegung: NewsPost = {
   slug: "ppr-rohrsysteme-uv-bestaendigkeit-freiverlegung-aussenbereich",
-  title: "UV-Beständigkeit von PP-R: Freiverlegung im Außenbereich",
+  title: {
+    de: "PPR-Rohre & UV-Beständigkeit",
+    en: "PPR Pipes & UV Resistance",
+    ar: "أنابيب PPR ومقاومة الأشعة فوق البنفسجية"
+  },
   date: "2025-01-26",
-  excerpt: "Kühltürme auf dem Dach erfordern robuste Leitungen. Erfahren Sie, warum Standard-Kunststoffe die Sonne fürchten und wie K Aqua PP-R für den Außeneinsatz geschützt wird.",
+  excerpt: {
+    de: "PPR-Rohrsysteme im Außenbereich: Erfahren Sie, warum UV-Beständigkeit bei der Freiverlegung von Kühltürmen essenziell ist und wie K Aqua PP-R Rohre geschützt werden.",
+    en: "PPR Pipe Systems in Outdoor Areas: Learn why UV resistance is essential for exposed pipe installations of cooling towers and how K Aqua PP-R pipes are protected.",
+    ar: "أنظمة أنابيب PPR في الأماكن الخارجية: تعرف على سبب أهمية مقاومة الأشعة فوق البنفسجية عند التمديد المكشوف لأنابيب أبراج التبريد وكيف يتم حماية أنابيب K Aqua PP-R."
+  },
   coverImage: "/images/news/outdoor-pipes-sun.jpg",
   category: "Materialkunde & Einsatzgebiete",
   tags: ["UV-Beständigkeit", "Freiverlegung", "Außenbereich", "Kühltürme", "Materialkunde", "Schutz"],

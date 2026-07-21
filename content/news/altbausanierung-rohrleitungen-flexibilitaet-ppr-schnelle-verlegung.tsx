@@ -12,12 +12,20 @@ import { Hammer, Flame, Link, Wrench } from "@/components/ui/icon";
 
 export const altbausanierungFlexibilitaet: NewsPost = {
   slug: "altbausanierung-rohrleitungen-flexibilitaet-ppr-schnelle-verlegung",
-  title: "Altbausanierung: Flexibilität und schnelle Verlegung mit K Aqua",
+  title: {
+    de: "Altbausanierung mit PP-R Rohrsystemen",
+    en: "Old Building Renovation with PP-R Pipe Systems",
+    ar: "تجديد المباني القديمة باستخدام أنظمة أنابيب PP-R"
+  },
   date: "2024-12-05",
-  excerpt: "Enge Schächte, schiefe Wände und strenge Brandschutzvorgaben machen die Strangsanierung im Altbau anspruchsvoll. PP-R Rohre bieten durch ihr geringes Gewicht und die flammenlose Verschweißung entscheidende Vorteile.",
+  excerpt: {
+    de: "Enge Schächte, schiefe Wände und strenge Brandschutzvorgaben machen die Strangsanierung im Altbau anspruchsvoll. PP-R Rohrsysteme von K Aqua bieten durch ihr geringes Gewicht und die flammenlose Verschweißung entscheidende Vorteile für Handwerk und Gebäudeplanung.",
+    en: "Narrow shafts, crooked walls, and strict fire protection regulations make riser renovation in old buildings demanding. Thanks to their low weight and flameless welding, K Aqua PP-R pipe systems offer decisive advantages for trades and building planning.",
+    ar: "تُعد عمليات تجديد الأنابيب الصاعدة في المباني القديمة مهمة شاقة بسبب الآبار الضيقة والجدران المائلة ولوائح الحماية من الحرائق الصارمة. توفر أنظمة أنابيب PP-R من K Aqua مزايا حاسمة للحرفيين ومخططي المباني بفضل وزنها الخفيف ولحامها بدون لهب."
+  },
   coverImage: "/images/news/old-building-renovation.jpg",
   category: "Sanierung",
-  tags: ["Altbausanierung", "Strangsanierung", "Brandschutz", "Mischinstallation", "PP-R", "Flexibilität"],
+  tags: ["Altbausanierung", "Strangsanierung", "Brandschutz", "Mischinstallation", "PP-R", "Rohrsysteme", "Flexibilität"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

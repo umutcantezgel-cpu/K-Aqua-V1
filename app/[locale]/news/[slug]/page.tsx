@@ -1,7 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from 'next-intl/server';
-import { getNewsBySlug, getAllNews } from "@/content/news";
+import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return constructMetadata({
-    title: newsItem.title,
-    description: newsItem.teaser || newsItem.excerpt || "",
+    title: resolveLocalized(newsItem.title, locale),
+    description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
     path: `/news/${slug}`,
     locale,
   });
@@ -58,12 +58,12 @@ export default async function NewsDetailPage({ params }: Props) {
           </Reveal>
           <Reveal delay={0.06}>
             <h1 className="text-h2 font-heading font-extrabold tracking-tight mt-2 mb-6 text-foreground leading-[1.15]">
-              {newsItem.title}
+              {resolveLocalized(newsItem.title, locale)}
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed">
-              {newsItem.teaser || newsItem.excerpt}
+              {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
             </p>
           </Reveal>
         </div>

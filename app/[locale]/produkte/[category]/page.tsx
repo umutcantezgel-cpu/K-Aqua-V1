@@ -287,7 +287,7 @@ export default async function CategoryPage({ params }: Props) {
             {tc("learnMoreDesc")}
           </p>
           <Link 
-            href={`/wissen`}
+            href={`/academy`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold hover:bg-primary-strong transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20"
           >
             {tc("toKnowledgeBase")} <ArrowRight className="w-5 h-5" />

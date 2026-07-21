@@ -12,12 +12,25 @@ import { MoveHorizontal, Ruler, Info, ArrowRightLeft } from "@/components/ui/ico
 
 export const waermeausdehnungKunststoffrohre: NewsPost = {
   slug: "waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr",
-  title: "Wärmeausdehnung von Kunststoffrohren berechnen und kompensieren",
+  title: {
+    de: "Wärmeausdehnung bei PP-R Rohren",
+    en: "Thermal Expansion in PP-R Pipes",
+    ar: "التمدد الحراري في أنابيب PP-R",
+  },
   date: "2025-01-22",
-  excerpt: "Temperaturschwankungen lassen Rohre wachsen und schrumpfen. Wie Sie die Längenausdehnung bei PP-R richtig berechnen und durch Dehnungsbögen kompensieren.",
+  teaser: {
+    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PP-R Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
+    en: "Learn how to precisely calculate thermal expansion in PP-R plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
+    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PP-R وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
+  },
+  excerpt: {
+    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PP-R Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
+    en: "Learn how to precisely calculate thermal expansion in PP-R plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
+    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PP-R وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
+  },
   coverImage: "/images/news/thermal-expansion-pipes.jpg",
   category: "Planung & Berechnung",
-  tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung"],
+  tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung", "PP-R Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -33,8 +46,8 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
                   <span>Physik in der TGA</span>
                 </div>
               }
-              title="Wenn das Rohr lebendig wird"
-              lead="Jedes Material dehnt sich bei Erwärmung aus und zieht sich bei Abkühlung zusammen. Bei Kunststoffen wie Polypropylen (PP) ist dieser physikalische Effekt deutlich ausgeprägter als bei Metallen. Fließt 70°C heißes Wasser durch eine Rohrleitung, die bei 20°C montiert wurde, wächst das Rohr. Wird diese Längenausdehnung in der Planung ignoriert, entstehen enorme Spannungen, die Halterungen abreißen oder Verbindungen zerstören können."
+              title="Wenn das Rohr lebendig wird: Wärmeausdehnung bei PP-R Rohren"
+              lead="Jedes Material dehnt sich bei Erwärmung aus und zieht sich bei Abkühlung zusammen. Bei Kunststoffrohren wie Polypropylen (PP-R) ist dieser physikalische Effekt der Längenausdehnung bei Temperaturschwankungen deutlich ausgeprägter als bei Metallen. Fließt 70°C heißes Wasser durch eine Rohrleitung, die bei 20°C montiert wurde, dehnt sich das PP-R Rohrsystem spürbar aus. Wird diese thermische Längenausdehnung in der TGA-Planung ignoriert, entstehen enorme mechanische Spannungen, die Halterungen abreißen oder Rohrverbindungen zerstören können."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -109,6 +122,18 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
               }
             ]}
           />
+        </div>
+      </Reveal>
+
+      {/* Praxis-Tipp für die technische Auslegung */}
+      <Reveal>
+        <div className="rounded-2xl border border-card-border bg-card p-6 md:p-8 flex flex-col gap-4">
+          <h3 className="text-xl font-bold text-foreground">
+            Praxisrelevante Berechnungsformel der Längenausdehnung (ΔL)
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Die mathematische Bestimmung der Ausdehnung in Kunststoffrohrsystemen erfolgt über die Formel <strong>ΔL = α × L × ΔT</strong>. Dabei entspricht ΔL der Längenänderung in Millimetern, α dem materialabhängigen Ausdehnungskoeffizienten, L der Trassenlänge in Metern und ΔT der Temperaturdifferenz zwischen Installation und Maximalbetrieb. Dank der innovativen Glasfaser-Mittelschicht bei K Aqua Faserverbundrohren reduziert sich α auf lediglich 0,035 mm/(m·K). Dies ermöglicht wesentlich kleinere Biegeschenkel und spart wertvollen Installationsraum im Schacht.
+          </p>
         </div>
       </Reveal>
 

@@ -13,12 +13,20 @@ import { Building2, ArrowUpRight, Activity, ShieldCheck } from "@/components/ui/
 
 export const heizungsverteilungHochhaus: NewsPost = {
   slug: "heizungsverteilung-hochhaus-steigleitungen-pprct",
-  title: "Heizungsverteilung im Hochhaus: Warum Steigleitungen aus PP-RCT?",
+  title: {
+    de: "Heizungsverteilung im Hochhaus: PP-RCT",
+    en: "Heating Distribution in High-Rise Buildings: PP-RCT",
+    ar: "توزيع التدفئة في المباني الشاهقة: PP-RCT"
+  },
   date: "2024-11-04",
-  excerpt: "Hochhäuser stellen TGA-Planer vor statische und hydraulische Herausforderungen. K Aqua PP-RCT reduziert das Gewicht im Steigschacht dramatisch, bietet exzellenten Schallschutz und widersteht extremen Drücken.",
+  excerpt: {
+    de: "Hochhäuser stellen TGA-Planer vor statische und hydraulische Herausforderungen. K Aqua PPR & PP-RCT Rohrsysteme reduzieren das Gewicht im Steigschacht dramatisch, bieten exzellenten Schallschutz und widerstehen extremen Drücken in der Heizungsverteilung.",
+    en: "High-rise buildings present structural and hydraulic challenges for MEP planners. K Aqua PPR & PP-RCT pipe systems dramatically reduce weight in the riser shaft, offer excellent sound insulation, and withstand extreme pressures in heating distribution.",
+    ar: "تمثل المباني الشاهقة تحديات إنشائية وهيدروليكية لمخططي الهندسة الميكانيكية والكهربائية والسباكة (MEP). تقلل أنظمة أنابيب K Aqua PPR و PP-RCT بشكل كبير من الوزن في عمود الصاعد، وتوفر عزلًا صوتيًا ممتازًا، وتتحمل الضغوط الشديدة في توزيع التدفئة."
+  },
   coverImage: "/images/news/highrise-building.jpg",
   category: "Heizungstechnik",
-  tags: ["Hochhaus", "Steigleitung", "TGA", "PP-RCT", "Schallschutz", "Heizungsverteilung"],
+  tags: ["Hochhaus", "Steigleitung", "TGA", "PP-RCT", "PPR", "Rohrsysteme", "Schallschutz", "Heizungsverteilung"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -34,8 +42,8 @@ export const heizungsverteilungHochhaus: NewsPost = {
                   <span>High-Rise & TGA-Planung</span>
                 </div>
               }
-              title="Vertikale Ingenieurskunst ohne Rost"
-              lead="In Hochhäusern (High-Rise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PP-RCT Rohre lösen diese Probleme elegant und sicher – selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
+              title="Vertikale Ingenieurskunst ohne Rost: Effiziente Heizungsverteilung im Hochhaus"
+              lead="In Hochhäusern (High-Rise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PP-RCT und PPR Rohrsysteme lösen diese Herausforderungen bei vertikalen Steigleitungen elegant und dauerhaft sicher – selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

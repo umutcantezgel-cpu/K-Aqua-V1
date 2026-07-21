@@ -11,10 +11,24 @@ import { Flame, ShieldAlert, Activity } from '@/components/ui/icon';
 
 export const brandschutzFeuerwiderstandsklasse: NewsPost = {
   slug: 'brandschutz-feuerwiderstandsklasse-b1-ppr-rohre',
-  date: 'Sicherheit',
+  date: '2025-01-14',
   tag: 'Brandschutz',
-  title: 'Brandschutz und Feuerwiderstandsklasse B1',
-  teaser: 'Warum K Aqua in kritischen Infrastrukturen den toxikologischen Standard setzt. Kein brennendes Abtropfen, keine Halogenentwicklung, keine Brandgefahr bei der Installation.',
+  category: 'Brandschutz & Sicherheit',
+  title: {
+    de: 'Brandschutz & Feuerwiderstandsklasse B1',
+    en: 'Fire Protection & Fire Resistance Class B1',
+    ar: 'الحماية من الحرائق وفئة مقاومة الحريق B1'
+  },
+  teaser: {
+    de: 'Warum K-Aqua PP-R Rohrsysteme in kritischen Infrastrukturen den toxikologischen Standard setzen: Schwer entflammbar (B1), kein brennendes Abtropfen, halogenfrei und ohne Brandgefahr bei der Installation.',
+    en: 'Why K-Aqua PP-R pipe systems set the toxicological standard in critical infrastructure: Flame-retardant (B1), no flaming droplets, halogen-free, and no fire hazard during installation.',
+    ar: 'لماذا تضع أنظمة أنابيب K-Aqua PP-R المعيار السمي في البنى التحتية الحيوية: مقاومة للاشتعال (B1)، لا توجد قطرات مشتعلة، خالية من الهالوجين، ولا يوجد خطر حريق أثناء التركيب.'
+  },
+  excerpt: {
+    de: 'Warum K-Aqua PP-R Rohrsysteme in kritischen Infrastrukturen den toxikologischen Standard setzen: Schwer entflammbar (B1), kein brennendes Abtropfen, halogenfrei und ohne Brandgefahr bei der Installation.',
+    en: 'Why K-Aqua PP-R pipe systems set the toxicological standard in critical infrastructure: Flame-retardant (B1), no flaming droplets, halogen-free, and no fire hazard during installation.',
+    ar: 'لماذا تضع أنظمة أنابيب K-Aqua PP-R المعيار السمي في البنى التحتية الحيوية: مقاومة للاشتعال (B1)، لا توجد قطرات مشتعلة، خالية من الهالوجين، ولا يوجد خطر حريق أثناء التركيب.'
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full overflow-hidden">
       
@@ -29,13 +43,13 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
             <Eyebrow text="Die B1 Zertifizierung" className="mb-6 text-destructive" />
           </Reveal>
           <Reveal delay={0.15}>
-            <h1 className="text-5xl lg:text-7xl font-black font-heading tracking-tight text-foreground leading-[1.1] mb-8">
+            <h2 className="text-5xl lg:text-7xl font-black font-heading tracking-tight text-foreground leading-[1.1] mb-8">
               Sicherheit, wenn die Temperatur steigt.
-            </h1>
+            </h2>
           </Reveal>
           <Reveal delay={0.3}>
             <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-3xl text-balance">
-              Brandschutz in der TGA beschränkt sich nicht auf das Löschen. Er beginnt bei der Prävention und der Wahl der richtigen Materialien. Während bestimmte Kunststoffe im Brandfall toxische Gase absondern und das Feuer durch brennendes Abtropfen in tiefere Stockwerke tragen, setzt K Aqua PPR den absoluten Sicherheitsstandard Schwer entflammbar, raucharm und zu 100% halogenfrei.
+              Brandschutz in der TGA beschränkt sich nicht auf das Löschen. Er beginnt bei der Prävention und der Wahl der richtigen Materialien. Während bestimmte Kunststoffe im Brandfall toxische Gase absondern und das Feuer durch brennendes Abtropfen in tiefere Stockwerke tragen, setzt K-Aqua PP-R den absoluten Sicherheitsstandard: Schwer entflammbar (Feuerwiderstandsklasse B1 nach DIN 4102-1), raucharm und zu 100% halogenfrei.
             </p>
           </Reveal>
         </Stagger>

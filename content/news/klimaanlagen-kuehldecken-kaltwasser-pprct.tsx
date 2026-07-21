@@ -11,12 +11,20 @@ import { Droplet, Thermometer, Shield, Leaf } from "@/components/ui/icon";
 
 export const klimaanlagenKuehldecken: NewsPost = {
   slug: "klimaanlagen-kuehldecken-kaltwasser-pprct",
-  title: "Klimaanlagen & Kühldecken: Warum K-Faser ideal für Kaltwasser ist",
+  title: {
+    de: "Klimaanlagen & Kühldecken mit PP-RCT",
+    en: "Air Conditioning & Chilled Ceilings with PP-RCT",
+    ar: "تكييف الهواء والأسقف المبردة باستخدام PP-RCT"
+  },
   date: "2024-07-28",
-  excerpt: "Kondenswasser ist der Feind jeder Stahlleitung. Erfahren Sie, warum PP-RCT Rohre von K Aqua in Kaltwassersätzen nicht rosten und durch ihren hohen Isolationswert wertvolle Dämmschichtdicke einsparen.",
+  excerpt: {
+    de: "Kondenswasser ist der Feind metallischer Rohrleitungen. Erfahren Sie, wie korrosionsfreie PP-RCT & PPR Rohrsysteme von K Aqua in Kaltwassersätzen Schwitzwasser verhindern und durch hohe thermische Isolation wertvolle Dämmschichtdicke in der Klimatechnik einsparen.",
+    en: "Condensation is the enemy of metallic piping. Discover how corrosion-free PP-RCT & PPR pipe systems from K Aqua prevent sweating in chillers and save valuable insulation thickness in HVAC applications through high thermal isolation.",
+    ar: "التكثيف هو عدو الأنابيب المعدنية. اكتشف كيف تمنع أنظمة أنابيب PP-RCT و PPR الخالية من التآكل من K Aqua التعرق في المبردات وتوفر سماكة عزل قيمة في تطبيقات التدفئة والتهوية وتكييف الهواء من خلال العزل الحراري العالي."
+  },
   coverImage: "/images/news/chiller-cooling.jpg",
   category: "Gebäudetechnik",
-  tags: ["Kaltwasser", "Kühldecken", "Klimaanlagen", "PP-RCT", "Taupunkt", "Korrosionsschutz"],
+  tags: ["Kaltwasser", "Kühldecken", "Klimaanlagen", "PP-RCT", "PPR", "Rohrsysteme", "Taupunkt", "Korrosionsschutz"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

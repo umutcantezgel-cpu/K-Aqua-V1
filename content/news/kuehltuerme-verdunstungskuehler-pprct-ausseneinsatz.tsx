@@ -12,9 +12,17 @@ import { Sun, CloudRain, Snowflake, Droplet } from "@/components/ui/icon";
 
 export const kuehltuermeAusseneinsatz: NewsPost = {
   slug: "kuehltuerme-verdunstungskuehler-pprct-ausseneinsatz",
-  title: "Kühltürme & Verdunstungskühler: K Aqua PP-RCT im Außeneinsatz",
+  title: {
+    de: "Kühltürme & Verdunstungskühler: PP-RCT",
+    en: "Cooling Towers & Evaporative Coolers: PP-RCT",
+    ar: "أبراج التبريد والمبردات التبخيرية: PP-RCT"
+  },
   date: "2024-10-14",
-  excerpt: "Rohrleitungen auf dem Dach sind extremen Wetterschwankungen und UV-Strahlung ausgesetzt. K Aqua PP-RCT mit UV-Schutz bietet Frostsicherheit, absolute Korrosionsbeständigkeit und eine jahrzehntelange Lebensdauer für offene Kühltürme.",
+  excerpt: {
+    de: "Rohrleitungen auf dem Dach sind extremen Wetterschwankungen und UV-Strahlung ausgesetzt. K Aqua PP-RCT Rohrsysteme mit UV-Schutz bieten Frostsicherheit, absolute Korrosionsbeständigkeit und eine jahrzehntelange Lebensdauer für offene Kühltürme und Freiland-Kühlanlagen.",
+    en: "Rooftop pipelines are exposed to extreme weather fluctuations and UV radiation. K Aqua PP-RCT piping systems with UV protection offer frost resistance, absolute corrosion resistance, and a decades-long service life for open cooling towers and outdoor cooling systems.",
+    ar: "تتعرض خطوط الأنابيب على الأسطح لتقلبات الطقس القاسية والأشعة فوق البنفسجية. توفر أنظمة أنابيب K Aqua PP-RCT المزودة بحماية من الأشعة فوق البنفسجية مقاومة للصقيع، ومقاومة مطلقة للتآكل، وعمرًا تشغيليًا يمتد لعقود لأبراج التبريد المفتوحة وأنظمة التبريد الخارجية."
+  },
   coverImage: "/images/news/cooling-tower.jpg",
   category: "Klimatechnik",
   tags: ["Kühlturm", "Außeneinsatz", "UV-Beständigkeit", "Frostschutz", "PP-RCT", "Klimatechnik"],
@@ -34,7 +42,7 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
                 </div>
               }
               title="Rohre für den härtesten Härtetest"
-              lead="Verdunstungskühler und Kühltürme werden fast immer im Freien, meist auf Flachdächern, installiert. Hier sind Rohrleitungen der prallen Sonne, saurem Regen und Frost schutzlos ausgeliefert. Während Standard-Kunststoffe verspröden und Stahl von außen durchrostet, bleibt UV-geschütztes K Aqua PP-RCT unbeeindruckt."
+              lead="Verdunstungskühler und Kühltürme werden fast immer im Freien, meist auf Flachdächern, installiert. Hier sind Rohrleitungen der prallen Sonne, saurem Regen und Frost schutzlos ausgeliefert. Während Standard-Kunststoffe verspröden und Stahlleitungen von außen wie innen durchrosten, bleiben UV-geschützte K Aqua PP-RCT Rohrsysteme dauerhaft korrosionsfrei und witterungsbeständig."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

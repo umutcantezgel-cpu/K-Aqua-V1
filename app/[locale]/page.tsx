@@ -149,9 +149,9 @@ export default async function Page({ params }: Props) {
       <section className="w-full bg-background select-none relative">
         <div className="k-marquee py-4">
           {marqueeTrack}
-          {marqueeTrack}
-          {marqueeTrack}
-          {marqueeTrack}
+          <div aria-hidden="true">{marqueeTrack}</div>
+          <div aria-hidden="true">{marqueeTrack}</div>
+          <div aria-hidden="true">{marqueeTrack}</div>
         </div>
         <div className="ka-lightrays absolute bottom-0 left-0 w-full" data-count="9" style={{height: '140px'}}></div>
       </section>
@@ -442,7 +442,7 @@ export default async function Page({ params }: Props) {
               <Button
                 variant="ghost"
                 className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground/10"
-                href="/ressourcen/downloads"
+                href="/ressourcen/ausschreibungstexte"
               >
                 {tHome('bandBtn2')}
               </Button>

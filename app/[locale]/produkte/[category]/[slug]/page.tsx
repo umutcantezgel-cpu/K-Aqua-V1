@@ -392,7 +392,7 @@ export default async function ProductDetailPage({
 
                 {/* 4. Generated Technical SEO Narrative */}
                 {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl">
+                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl" data-nosnippet aria-hidden="true">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                       {tProd('labels.technicalDescription')} - {localizedTitle}
                     </h3>
@@ -404,7 +404,7 @@ export default async function ProductDetailPage({
                 
                 {/* 4.5 Generic Category SEO Guide */}
                 {tProd.has(`seoArticle.${seoCat}.guideText`) && (
-                  <div className="mt-8 p-8 bg-card border border-card-border rounded-xl">
+                  <div className="mt-8 p-8 bg-card border border-card-border rounded-xl" data-nosnippet aria-hidden="true">
                      <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                        {tProd(`seoArticle.${seoCat}.guideTitle`)}
                      </h3>
@@ -420,7 +420,7 @@ export default async function ProductDetailPage({
                   <ProductFAQ category={seoCat} />
                 </div>
 
-                <div className="mt-16 text-muted-foreground leading-relaxed space-y-4">
+                <div className="mt-16 text-muted-foreground leading-relaxed space-y-4" data-nosnippet aria-hidden="true">
                   <p>{tSeo('extendedProductText.p1')}</p>
                   <p>{tSeo('extendedProductText.p2')}</p>
                   <p>{tSeo('extendedProductText.p3')}</p>

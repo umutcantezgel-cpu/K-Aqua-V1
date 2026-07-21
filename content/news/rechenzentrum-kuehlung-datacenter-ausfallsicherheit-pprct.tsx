@@ -12,12 +12,25 @@ import { Server, Activity, ShieldAlert, Cpu } from "@/components/ui/icon";
 
 export const rechenzentrumKuehlung: NewsPost = {
   slug: "rechenzentrum-kuehlung-datacenter-ausfallsicherheit-pprct",
-  title: "Industrielle Kühlung im Rechenzentrum: Ausfallsicherheit mit PP-RCT",
+  title: {
+    de: "Rechenzentrum-Kühlung mit PP-RCT",
+    en: "Data Center Cooling with PP-RCT",
+    ar: "تبريد مراكز البيانات باستخدام PP-RCT",
+  },
   date: "2024-11-28",
-  excerpt: "Data Center erfordern 99,999% Uptime. K Aqua PP-RCT Rohre für Kühlsysteme bieten 100%ige Leckagesicherheit durch stoffschlüssige Verschweißung und verhindern Rostablagerungen in empfindlichen In-Row-Coolern.",
+  teaser: {
+    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PP-RCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel- und Korrosionsablagerungen.",
+    en: "Data centers require the highest level of reliability and uptime. K Aqua PP-RCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
+    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PP-RCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
+  },
+  excerpt: {
+    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PP-RCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel- und Korrosionsablagerungen.",
+    en: "Data centers require the highest level of reliability and uptime. K Aqua PP-RCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
+    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PP-RCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
+  },
   coverImage: "/images/news/data-center.jpg",
   category: "Industrie & Anlagenbau",
-  tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PP-RCT", "Ausfallsicherheit"],
+  tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PP-RCT", "Ausfallsicherheit", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,11 +43,11 @@ export const rechenzentrumKuehlung: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Server className="w-5 h-5" />
-                  <span>IT-Infrastruktur & Kühlung</span>
+                  <span>IT-Infrastruktur & Rohrsysteme</span>
                 </div>
               }
-              title="Keine Toleranz für Leckagen"
-              lead="Hyperscale-Rechenzentren verbrauchen gewaltige Mengen an Energie – ein großer Teil davon fließt in Kaltwassersätze zur Kühlung der Server-Racks. Ein Rohrbruch oder auch nur eine kleine Leckage über dem Doppelboden kann Schäden in Millionenhöhe verursachen. K Aqua PP-RCT Rohrleitungssysteme bieten durch ihre homogene, stoffschlüssige Schweißverbindung die maximale Sicherheit, die Data-Center-Betreiber fordern."
+              title="Maximale Ausfallsicherheit in Rechenzentrum-Kühlsystemen"
+              lead="Hyperscale-Rechenzentren verbrauchen gewaltige Mengen an Energie – ein großer Teil davon fließt in moderne Kaltwassersätze und Direct-to-Chip-Kühlung zur verlässlichen Temperierung der Server-Racks. Ein Rohrbruch oder auch nur eine minimale Leckage im Doppelbereich kann irreversible Schäden in Millionenhöhe und kritische Systemausfälle auslösen. K Aqua PP-RCT Rohrleitungssysteme garantieren durch ihre homogene, stoffschlüssige Schweißverbindung absolute Dichtigkeit und dauerhafte Korrosionsbeständigkeit für anspruchsvollste Data-Center-Infrastrukturen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

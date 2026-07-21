@@ -7,16 +7,24 @@ import { Stagger } from "@/components/ui/Stagger";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { PipeFX } from "@/components/ui/PipeFX";
-import { Flame, Thermometer, Shield, ShieldAlert, Layers } from "@/components/ui/icon";
+import { Flame, Thermometer, Shield, ShieldAlert, Layers, Activity } from "@/components/ui/icon";
 
 export const fernwaermeNahwaerme: NewsPost = {
   slug: "fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert",
-  title: "Fernwärme & Nahwärme: Isolierte PP-R Systeme im Erdbereich",
+  title: {
+    de: "Fernwärme & Nahwärme mit PP-R Rohren",
+    en: "District & Local Heating with PP-R Pipes",
+    ar: "تدفئة المناطق والتدفئة المحلية بأنابيب PP-R"
+  },
   date: "2024-07-15",
-  excerpt: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PP-RCT Rohre von K Aqua ersetzen zunehmend schweren Stahl im Untergrund.",
+  excerpt: {
+    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PP-RCT Rohrsysteme von K-Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
+    en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PP-RCT pipe systems from K-Aqua are increasingly replacing heavy steel in underground installations.",
+    ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PP-RCT المعزولة مسبقًا من K-Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
+  },
   coverImage: "/images/news/district-heating.jpg",
   category: "Infrastruktur",
-  tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PP-RCT", "Wärmeverlust"],
+  tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PP-RCT", "Wärmeverlust", "Rohrsysteme", "PPR"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">

@@ -12,12 +12,20 @@ import { Droplet, Thermometer, ShieldCheck, Repeat } from "@/components/ui/icon"
 
 export const legionellenpraeventionZirkulation: NewsPost = {
   slug: "legionellenpraevention-warmwassernetze-zirkulationssysteme-ppr",
-  title: "Legionellenprävention: Zirkulationssysteme mit PP-R",
+  title: {
+    de: "Legionellenprävention mit PP-R Rohren",
+    en: "Legionella Prevention with PP-R Pipes",
+    ar: "الوقاية من الفيلقية باستخدام أنابيب PP-R"
+  },
   date: "2025-02-01",
-  excerpt: "Lauwarmes Stagnationswasser ist das größte Risiko in der Trinkwasserhygiene. Wie durchdachte Zirkulationssysteme und K Aqua Rohrnetze vor Legionellen schützen.",
+  excerpt: {
+    de: "Lauwarmes Stagnationswasser ist das größte Risiko in der Trinkwasserhygiene. Erfahren Sie, wie durchdachte Zirkulationssysteme und K Aqua PP-R Rohrsysteme zuverlässig vor Legionellen schützen und die Trinkwasserverordnung erfüllen.",
+    en: "Lukewarm stagnant water is the greatest risk in drinking water hygiene. Discover how well-designed circulation systems and K Aqua PP-R pipe systems provide reliable protection against Legionella and ensure compliance with drinking water regulations.",
+    ar: "المياه الراكدة الفاترة هي الخطر الأكبر في نظافة مياه الشرب. اكتشف كيف توفر أنظمة التدوير المصممة بعناية وأنظمة أنابيب K Aqua PP-R حماية موثوقة ضد الفيلقية وتلبي لوائح مياه الشرب."
+  },
   coverImage: "/images/news/legionella-prevention-circulation.jpg",
   category: "Trinkwasser & Hygiene",
-  tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PP-R"],
+  tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PP-R", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,11 +38,11 @@ export const legionellenpraeventionZirkulation: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <ShieldCheck className="w-5 h-5" />
-                  <span>Trinkwasserhygiene</span>
+                  <span>Trinkwasserhygiene & Legionellenprävention</span>
                 </div>
               }
-              title="Keine Chance für Biofilme"
-              lead="Legionellen vermehren sich explosionsartig bei Temperaturen zwischen 25°C und 50°C, insbesondere wenn Wasser in den Leitungen stagniert. Für Planer und Betreiber von Großgebäuden (Hotels, Krankenhäuser, Wohnanlagen) bedeutet das: Das Warmwassernetz muss zirkulieren und auf Temperatur gehalten werden. K Aqua PP-R Systeme unterstützen dieses Ziel durch extrem glatte Innenoberflächen, die Biofilmbildung erschweren, sowie absolute Beständigkeit bei thermischen Desinfektionen."
+              title="Keine Chance für Biofilme in PP-R Zirkulationssystemen"
+              lead="Legionellen vermehren sich explosionsartig bei Temperaturen zwischen 25°C und 50°C, insbesondere wenn Wasser in den Leitungen stagniert. Für Planer und Betreiber von Großgebäuden (Hotels, Krankenhäuser, Wohnanlagen) bedeutet das: Das Warmwassernetz muss kontinuierlich zirkulieren und auf Temperatur gehalten werden. K Aqua PP-R Rohrsysteme unterstützen dieses Ziel durch extrem glatte Innenoberflächen, welche die Biofilmbildung wirksam erschweren, sowie absolute Beständigkeit bei regelmäßigen thermischen Desinfektionen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

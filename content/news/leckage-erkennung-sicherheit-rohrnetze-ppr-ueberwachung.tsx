@@ -12,12 +12,20 @@ import { ShieldAlert, Search, Activity, Wrench } from "@/components/ui/icon";
 
 export const leckageErkennungSicherheit: NewsPost = {
   slug: "leckage-erkennung-sicherheit-rohrnetze-ppr-ueberwachung",
-  title: "Leckage-Erkennung und Sicherheit in großen PP-R Netzen",
+  title: {
+    de: "Leckage-Erkennung in PP-R Rohrsystemen",
+    en: "Leak Detection in PP-R Pipe Systems",
+    ar: "كشف التسرب في أنظمة أنابيب PP-R"
+  },
   date: "2024-12-14",
-  excerpt: "Wasserschäden in Großgebäuden verursachen immense Kosten. Erfahren Sie, wie K Aqua durch stoffschlüssige Verschweißung und den Verzicht auf O-Ringe das Risiko von Leckagen gegen Null minimiert.",
+  excerpt: {
+    de: "Wasserschäden in Großgebäuden verursachen immense Kosten. Erfahren Sie, wie K Aqua PP-R Rohrsysteme durch stoffschlüssige Schweißverbindungen ohne O-Ringe maximale Sicherheit bei Leckage-Erkennung und Netzüberwachung garantieren.",
+    en: "Water damage in large buildings causes immense costs. Learn how K Aqua PP-R pipe systems guarantee maximum safety in leak detection and network monitoring through cohesive welded joints without O-rings.",
+    ar: "تتسبب أضرار المياه في المباني الكبيرة في تكاليف هائلة. تعرف على كيف تضمن أنظمة أنابيب K Aqua PP-R أقصى درجات الأمان في كشف التسرب ومراقبة الشبكات من خلال وصلات ملحومة متماسكة بدون حلقات منع التسرب (O-rings)."
+  },
   coverImage: "/images/news/leak-detection.jpg",
   category: "Gebäudesicherheit",
-  tags: ["Leckage", "Sicherheit", "Druckprüfung", "Überwachung", "PP-R", "Schweißtechnik"],
+  tags: ["Leckage", "Sicherheit", "Druckprüfung", "Überwachung", "PP-R", "Schweißtechnik", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,11 +38,11 @@ export const leckageErkennungSicherheit: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <ShieldAlert className="w-5 h-5" />
-                  <span>Gebäudesicherheit & Überwachung</span>
+                  <span>Gebäudesicherheit & Rohrnetz-Überwachung</span>
                 </div>
               }
-              title="Risikominimierung auf null O-Ringe"
-              lead="In weitläufigen Rohrnetzen von Kliniken, Hotels oder Industrieanlagen ist eine unbemerkte Leckage ein Albtraum. Meist sind nicht die Rohre selbst das Problem, sondern die Verbindungsstellen. Gepresste oder geschraubte Systeme setzen auf Gummidichtungen (O-Ringe), die mit den Jahren altern, oder Gewinde, die unter Vibrationen leiden. K Aqua PP-R geht einen anderen Weg: Stoffschlüssiges Verschweißen eliminiert die mechanischen Schwachstellen komplett."
+              title="Risikominimierung durch homogene PP-R Schweißverbindungen"
+              lead="In weitläufigen Rohrnetzen von Kliniken, Hotels oder Industrieanlagen ist eine unbemerkte Leckage ein Albtraum. Meist sind nicht die Rohre selbst das Problem, sondern die Verbindungsstellen. Gepresste oder geschraubte Systeme setzen auf Gummidichtungen (O-Ringe), die mit den Jahren altern, oder Gewinde, die unter Vibrationen leiden. K Aqua PP-R Rohrsysteme eliminieren mechanische Schwachstellen durch dauerhaft stoffschlüssige Verschweißung auf molekularer Ebene."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

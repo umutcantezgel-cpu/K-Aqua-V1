@@ -12,12 +12,20 @@ import { Droplet, Activity, FlaskConical, AlertOctagon } from "@/components/ui/i
 
 export const chemischeReinigungDesinfektion: NewsPost = {
   slug: "chemische-reinigung-rohrnetze-spuelen-desinfektion-ppr",
-  title: "Reinigung und Desinfektion von Rohrnetzen",
+  title: {
+    de: "Chemische Reinigung von PP-R Rohren",
+    en: "Chemical Cleaning of PP-R Pipes",
+    ar: "التنظيف الكيميائي لأنابيب PP-R"
+  },
   date: "2025-01-24",
-  excerpt: "Hygiene nach der Montage: Wie PP-R Rohrnetze normgerecht gespült und bei Bedarf chemisch desinfiziert werden, ohne das Material zu schädigen.",
+  excerpt: {
+    de: "Hygiene nach der Montage: Wie PP-R Rohrsysteme und Rohrnetze normgerecht gespült sowie bei Bedarf chemisch desinfiziert werden, ohne das hochwertige Material zu schädigen.",
+    en: "Hygiene after installation: How PP-R pipe systems and networks are flushed according to standards and chemically disinfected when necessary, without damaging the high-quality material.",
+    ar: "النظافة بعد التركيب: كيفية شطف أنظمة وشبكات أنابيب PP-R وفقاً للمعايير وتطهيرها كيميائياً عند الضرورة، دون الإضرار بالمواد عالية الجودة."
+  },
   coverImage: "/images/news/cleaning-disinfection.jpg",
   category: "Wartung & Betrieb",
-  tags: ["Reinigung", "Desinfektion", "Spülen", "Hygiene", "Chlor", "Wartung"],
+  tags: ["Reinigung", "Desinfektion", "Spülen", "Hygiene", "Chlor", "Wartung", "PP-R", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,10 +38,10 @@ export const chemischeReinigungDesinfektion: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Activity className="w-5 h-5" />
-                  <span>Trinkwasserhygiene</span>
+                  <span>Trinkwasserhygiene & PP-R Rohrsysteme</span>
                 </div>
               }
-              title="Der saubere Start ins Gebäudeleben"
+              title="Der saubere Start ins Gebäudeleben für PP-R Rohrnetze"
               lead="Nach der Montage und Druckprüfung eines Trinkwassernetzes muss dieses gründlich gespült werden (z.B. nach DIN EN 806-4 / VDI 6023). Ziel ist es, Bauverschmutzungen auszuspülen und das Netz hygienisch einwandfrei an den Betreiber zu übergeben. Sollte eine Kontamination (z.B. mit Legionellen oder Pseudomonaden) vorliegen, ist eine Desinfektion unumgänglich. Doch wie reagiert das Polypropylen-Rohr auf aggressive Chemie?"
             />
           </div>
@@ -47,8 +55,8 @@ export const chemischeReinigungDesinfektion: NewsPost = {
       {/* Stagger: Der Spülprozess */}
       <Reveal>
         <SectionHead
-          title="Der normgerechte Spülprozess"
-          lead="Desinfektion ist nicht der Standard, sondern das letzte Mittel."
+          title="Der normgerechte Spülprozess in PP-R Rohrsystemen"
+          lead="Eine fachgerechte Desinfektion setzt eine gründliche mechanische und hygienische Vorreinigung aller Rohrnetze voraus."
           align="center"
         />
         <div className="mt-8">
@@ -56,15 +64,19 @@ export const chemischeReinigungDesinfektion: NewsPost = {
             items={[
               {
                 title: "Stufe 1: Spülen mit Trinkwasser",
-                description: "Der Standardfall. Das Netz wird abschnittsweise mit klarem, filtriertem Trinkwasser gespült. Die Fließgeschwindigkeit sollte hoch genug sein, um lose Partikel auszutragen (mindestens 2,0 m/s an der am weitesten entfernten Zapfstelle)."
+                description: "Der Erstschritt im Rohrsystem. Das Netz wird abschnittsweise mit klarem, filtriertem Trinkwasser gespült. Die Fließgeschwindigkeit sollte mindestens 2,0 m/s an der am weitesten entfernten Zapfstelle betragen, um lose Partikel und Bauabrieb vollständig auszutragen."
               },
               {
                 title: "Stufe 2: Spülen mit Wasser-Luft-Gemisch",
-                description: "Bei hartnäckigen Verschmutzungen oder zur Entfernung von Biofilmen wird dem Spülwasser stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Kavitationsbläschen reißen Ablagerungen von der Rohrwand ab."
+                description: "Bei hartnäckigen Biofilmen oder Ablagerungen wird dem Spülwasser stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Turbulenzen und Kavitationsbläschen lösen Beläge von den glatten PP-R Innenwänden."
               },
               {
-                title: "Stufe 3: Chemische Desinfektion",
-                description: "Wird nur angewendet, wenn Wasserproben eine mikrobielle Belastung aufweisen, die durch reines Spülen nicht behoben werden konnte. Der Einsatz von Desinfektionsmitteln (z.B. Chlor) muss streng nach Herstellervorgaben dosiert werden."
+                title: "Stufe 3: Dosierte chemische Desinfektion",
+                description: "Wird angewendet, wenn mikrobielle Belastungen festgestellt wurden. Der Einsatz zertifizierter Desinfektionsmittel (z.B. Natriumhypochlorit oder Wasserstoffperoxid) muss exakt auf die Verträglichkeit von PP-R Rohrsystemen abgestimmt sein."
+              },
+              {
+                title: "Stufe 4: Wiederholte Beprobung & Freigabe",
+                description: "Nach vollständigem Ausspülen der Chemikalien werden mikrobiologische Wasserproben an definierten Entnahmestellen gezogen. Erst nach negativem Befund wird das Trinkwassernetz offiziell für den Betrieb freigegeben."
               }
             ]}
           />

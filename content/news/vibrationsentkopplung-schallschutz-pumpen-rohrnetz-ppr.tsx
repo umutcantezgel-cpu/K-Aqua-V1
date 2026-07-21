@@ -11,9 +11,22 @@ import { Activity, Power, Ear, ArrowRightLeft } from "@/components/ui/icon";
 
 export const vibrationsentkopplungSchallschutz: NewsPost = {
   slug: "vibrationsentkopplung-schallschutz-pumpen-rohrnetz-ppr",
-  title: "Vibrationsentkopplung und Schallschutz im Maschinenraum",
+  title: {
+    de: "Schallschutz im Maschinenraum",
+    en: "Sound Insulation in the Machine Room",
+    ar: "عزل الصوت في غرفة الآلات"
+  },
   date: "2025-01-25",
-  excerpt: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen akustisch sicher vom K Aqua PP-R Rohrnetz entkoppeln.",
+  teaser: {
+    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PP-R Rohrsystem entkoppeln und DIN 4109 einhalten.",
+    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PP-R piping system and comply with DIN 4109.",
+    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PP-R وتتوافق مع معيار DIN 4109."
+  },
+  excerpt: {
+    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PP-R Rohrsystem entkoppeln und DIN 4109 einhalten.",
+    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PP-R piping system and comply with DIN 4109.",
+    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PP-R وتتوافق مع معيار DIN 4109."
+  },
   coverImage: "/images/news/vibration-decoupling-pumps.jpg",
   category: "Planung & Berechnung",
   tags: ["Schallschutz", "Vibration", "Pumpen", "Maschinenraum", "Kältemaschinen", "Akustik"],
@@ -32,8 +45,8 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
                   <span>Akustik & Mechanik</span>
                 </div>
               }
-              title="Wenn das Rohrnetz zum Lautsprecher wird"
-              lead="Im Technikraum schlägt das Herz der Gebäudetechnik. Riesige Kältemaschinen, Umwälzpumpen und Kompressoren erzeugen permanente mechanische Schwingungen. Werden diese Aggregate starr an das Rohrnetz angeschlossen, überträgt sich die Vibration in die Rohrwandung. Das Rohr wirkt wie eine Stimmgabel und trägt den Körperschall bis in die entferntesten Hotelzimmer oder Wohnbereiche. Eine konsequente Entkopplung ist baurechtlich (DIN 4109) zwingend erforderlich."
+              title="Wenn das PP-R Rohrnetz im Maschinenraum zum Lautsprecher wird"
+              lead="Im Technikraum schlägt das Herz moderner Gebäudetechnik. Kältemaschinen, Druckerhöhungsanlagen, Umwälzpumpen und Kompressoren erzeugen im Betrieb kontinuierliche mechanische Schwingungen. Werden diese Aggregate starr an ein Kunststoff- oder PP-R Rohrsystem angeschlossen, überträgt sich die Vibration direkt in die Rohrwandung. Das Leitungsnetz wirkt dann wie ein Resonanzkörper und trägt den Körperschall bis in schutzbedürftige Räume wie Hotelzimmer oder Wohnbereiche. Eine fachgerechte schalltechnische Vibrationsentkopplung ist baurechtlich nach DIN 4109 zwingend vorgeschrieben."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

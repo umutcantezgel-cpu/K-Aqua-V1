@@ -12,9 +12,22 @@ import { Leaf, ShieldCheck, Droplet, Thermometer } from "@/components/ui/icon";
 
 export const geothermieErdwaerme: NewsPost = {
   slug: "geothermie-erdwaerme-waermepumpen-rohre-ppr",
-  title: "Geothermie & Erdwärme: Langlebige Kunststoffrohre für Wärmepumpen",
+  title: {
+    de: "Geothermie & Erdwärme: PPR Rohrsysteme",
+    en: "Geothermal & Ground Source Heat: PPR Pipe Systems",
+    ar: "الطاقة الحرارية الأرضية: أنظمة أنابيب PPR"
+  },
   date: "2024-09-05",
-  excerpt: "Erdwärmesonden müssen Jahrzehnte im Boden überdauern. PP-R und PP-RCT Rohre von K Aqua sind verrottungsfrei, chemisch beständig gegen Frostschutzmittel und absolut leckagesicher durch vollflächiges Verschweißen.",
+  teaser: {
+    de: "Erdwärmesonden müssen Jahrzehnte im Boden überdauern. K-Aqua PP-R und PP-RCT Rohrsysteme sind verrottungsfrei, chemisch beständig gegen Frostschutzmittel und absolut leckagesicher durch vollflächiges Verschweißen.",
+    en: "Geothermal probes must endure in the ground for decades. K-Aqua PP-R and PP-RCT pipe systems are rot-proof, chemically resistant to antifreeze, and absolutely leak-proof thanks to full-surface welding.",
+    ar: "يجب أن تتحمل مجسات الطاقة الحرارية الأرضية البقاء في الأرض لعقود. تتميز أنظمة أنابيب K-Aqua PP-R و PP-RCT بأنها غير قابلة للتعفن، ومقاومة كيميائياً لمضادات التجمد، ومانعة للتسرب تماماً بفضل اللحام كامل السطح."
+  },
+  excerpt: {
+    de: "Erdwärmesonden müssen Jahrzehnte im Boden überdauern. K-Aqua PP-R und PP-RCT Rohrsysteme sind verrottungsfrei, chemisch beständig gegen Frostschutzmittel und absolut leckagesicher durch vollflächiges Verschweißen.",
+    en: "Geothermal probes must endure in the ground for decades. K-Aqua PP-R and PP-RCT pipe systems are rot-proof, chemically resistant to antifreeze, and absolutely leak-proof thanks to full-surface welding.",
+    ar: "يجب أن تتحمل مجسات الطاقة الحرارية الأرضية البقاء في الأرض لعقود. تتميز أنظمة أنابيب K-Aqua PP-R و PP-RCT بأنها غير قابلة للتعفن، ومقاومة كيميائياً لمضادات التجمد، ومانعة للتسرب تماماً بفضل اللحام كامل السطح."
+  },
   coverImage: "/images/news/geothermal-heatpump.jpg",
   category: "Erneuerbare Energien",
   tags: ["Geothermie", "Erdwärme", "Wärmepumpe", "Sole", "PP-R", "Tiefbau"],

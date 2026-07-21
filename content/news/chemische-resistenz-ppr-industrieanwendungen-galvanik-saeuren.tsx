@@ -12,12 +12,20 @@ import { TestTube, Factory, Beaker, Leaf } from "@/components/ui/icon";
 
 export const chemischeResistenzIndustrie: NewsPost = {
   slug: "chemische-resistenz-ppr-industrieanwendungen-galvanik-saeuren",
-  title: "Chemische Resistenz von PP-R: Einsatz in der Industrie",
+  title: {
+    de: "Chemische Resistenz von PP-R Rohrsystemen",
+    en: "Chemical Resistance of PP-R Pipe Systems",
+    ar: "المقاومة الكيميائية لأنظمة أنابيب PP-R"
+  },
   date: "2025-01-29",
-  excerpt: "Wo Edelstahl korrodiert, spielt Polypropylen seine Stärken aus. Ein Leitfaden für den Einsatz von K Aqua in Galvanik, Pharma und Prozessindustrie.",
+  excerpt: {
+    de: "Wo Edelstahl korrodiert, spielt PP-R Polypropylen seine Stärken voll aus. Ein praxisnaher Leitfaden für den Einsatz von K Aqua Rohrsystemen in Galvanik, Pharma und Prozessindustrie.",
+    en: "Where stainless steel corrodes, PP-R polypropylene fully demonstrates its strengths. A practical guide for the application of K Aqua pipe systems in electroplating, pharmaceuticals, and the process industry.",
+    ar: "حيثما يتآكل الفولاذ المقاوم للصدأ، يُظهر البولي بروبيلين PP-R نقاط قوته بالكامل. دليل عملي لاستخدام أنظمة أنابيب K Aqua في الطلاء الكهربائي والأدوية وصناعة العمليات الكيميائية."
+  },
   coverImage: "/images/news/industry-chemical-pipes.jpg",
   category: "Technologie & Material",
-  tags: ["Chemie", "Industrie", "Galvanik", "Säure", "Lauge", "PP-R"],
+  tags: ["Chemie", "Industrie", "Galvanik", "Säure", "Lauge", "PP-R", "Rohrsysteme"],
   
   content: () => (
     <div className="flex flex-col gap-24 py-12">
@@ -30,10 +38,10 @@ export const chemischeResistenzIndustrie: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <TestTube className="w-5 h-5" />
-                  <span>Materialkunde</span>
+                  <span>Materialkunde & PP-R Chemiebeständigkeit</span>
                 </div>
               }
-              title="Aggressive Medien sicher leiten"
+              title="Aggressive Medien in PP-R Rohrsystemen sicher leiten"
               lead="In industriellen Prozessen sind Rohrleitungen extremen Belastungen ausgesetzt. Säuren, Laugen und Lösungsmittel greifen metallische Werkstoffe an und führen zu Lochfraß oder Flächenkorrosion. K Aqua PP-R (Polypropylen Random Copolymer) bietet aufgrund seiner unpolaren Struktur eine herausragende chemische Beständigkeit und ersetzt in vielen Bereichen kostenintensiven Edelstahl oder Speziallegierungen."
             />
           </div>
@@ -58,8 +66,8 @@ export const chemischeResistenzIndustrie: NewsPost = {
       {/* BentoGrid: Anwendungsbereiche */}
       <Reveal>
         <SectionHead
-          title="Industrielle Einsatzgebiete"
-          lead="Von der Oberflächentechnik bis zur hochreinen Wasserversorgung."
+          title="Industrielle Einsatzgebiete von PP-R Rohrsystemen"
+          lead="Von der Galvanik und Oberflächentechnik bis zur hochreinen Wasserversorgung in der Prozessindustrie."
           align="center"
         />
         <div className="mt-8">
@@ -67,19 +75,19 @@ export const chemischeResistenzIndustrie: NewsPost = {
             items={[
               {
                 title: "Galvanik & Oberflächentechnik",
-                description: "Transport von Beizbädern, galvanischen Elektrolyten und Spülwässern. PP-R widersteht vielen anorganischen Säuren (wie verdünnter Schwefel- oder Salzsäure) bei Prozesstemperaturen.",
+                description: "Transport von Beizbädern, galvanischen Elektrolyten und aggressiven Spülwässern. PP-R Rohrsysteme widerstehen anorganischen Säuren wie Schwefel- oder Salzsäure auch bei erhöhten Prozesstemperaturen dauerhaft.",
                 icon: <Factory className="w-6 h-6 text-primary" />,
                 size: "large"
               },
               {
                 title: "Wasseraufbereitung (VE-Wasser)",
-                description: "Vollentsalztes (VE) oder demineralisiertes Wasser entzieht Metallrohren Ionen, was zu schneller Korrosion führt. PP-R verhält sich inert und hält das Wasser rein.",
+                description: "Vollentsalztes (VE) oder demineralisiertes Wasser entzieht Metallrohren Ionen, was zu beschleunigter Korrosion führt. PP-R verhält sich absolut inert und hält das Prozesswasser dauerhaft rein.",
                 icon: <Beaker className="w-6 h-6 text-primary" />,
                 size: "medium"
               },
               {
-                title: "Agrar & Düngemittel",
-                description: "Resistenz gegen stickstoffhaltige Verbindungen, Phosphorsäure und landwirtschaftliche Chemikalien. Ideal für Gewächshaus-Bewässerungssysteme und Dosieranlagen.",
+                title: "Agrar & Düngemittelindustrie",
+                description: "Hohe Beständigkeit gegen stickstoffhaltige Verbindungen, Phosphorsäure und agrochemische Lösungen. Die optimale Wahl für Bewässerungssysteme und chemische Dosieranlagen.",
                 icon: <Leaf className="w-6 h-6 text-primary" />,
                 size: "medium"
               }

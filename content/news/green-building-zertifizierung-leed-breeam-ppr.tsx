@@ -2,7 +2,7 @@ import React from "react";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { StepFlow } from "@/components/ui/StepFlow";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
@@ -10,14 +10,27 @@ import { Leaf, Award, Droplet, Layers, Shield, ArrowRight, Recycle } from "@/com
 
 export const greenBuildingZertifizierung: NewsPost = {
   slug: "green-building-zertifizierung-leed-breeam-ppr",
-  title: "Green Building Zertifizierung (LEED & BREEAM): Wie PP-R Rohre wertvolle Punkte sammeln",
+  title: {
+    de: "Green Building Zertifizierung: LEED & BREEAM",
+    en: "Green Building Certification: LEED & BREEAM",
+    ar: "شهادة المباني الخضراء: LEED و BREEAM"
+  },
   date: "2024-06-25",
-  excerpt: "Investoren fordern nachhaltige Gebäude. Erfahren Sie, wie PP-R Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
+  teaser: {
+    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PP-R Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
+    en: "Investors and developers are demanding sustainable buildings. Discover how modern PP-R piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
+    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PP-R الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
+  },
+  excerpt: {
+    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PP-R Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
+    en: "Investors and developers are demanding sustainable buildings. Discover how modern PP-R piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
+    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PP-R الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
+  },
   coverImage: "/images/news/green-building.jpg",
   category: "Nachhaltigkeit",
-  tags: ["Green Building", "LEED", "BREEAM", "DGNB", "ESG", "PP-R", "Nachhaltigkeit"],
+  tags: ["Green Building", "LEED", "BREEAM", "DGNB", "ESG", "PP-R", "Rohrsysteme", "Nachhaltigkeit"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead (sehr clean, Whitepaper-Stil) */}
@@ -30,11 +43,11 @@ export const greenBuildingZertifizierung: NewsPost = {
             </div>
           }
           title="Der Weg zum Platin-Zertifikat beginnt in der TGA"
-          lead="Nachhaltige Gebäude sind längst kein Nischenthema mehr, sondern der Standard für zukunftssichere Immobilien. Gebäudezertifizierungen wie LEED, BREEAM und DGNB bewerten Bauwerke ganzheitlich. Eine oft unterschätzte Rolle spielt dabei das Rohrleitungssystem. PP-R Rohre von K Aqua können den Unterschied zwischen Silber und Platin ausmachen."
+          lead="Nachhaltige Gebäude sind längst kein Nischenthema mehr, sondern der Standard für zukunftssichere Gewerbe- und Wohnimmobilien. Gebäudezertifizierungen wie LEED, BREEAM und DGNB bewerten Bauwerke ganzheitlich nach strengen ESG-Kriterien. Eine oft unterschätzte Rolle spielt dabei das technische Rohrleitungssystem. Hochwertige PP-R Rohrsysteme von K Aqua können hierbei den ausschlaggebenden Unterschied zwischen einer Silber- und einer Platin-Zertifizierung ausmachen."
         />
         <div className="mt-8 text-muted-foreground max-w-[800px] leading-relaxed text-lg">
           <p>
-            Immobilienentwickler und Investoren richten sich zunehmend nach ESG-Kriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieten, senkt die Betriebskosten und sichert den Wert der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) zu sammeln.
+            Immobilienentwickler, Fachplaner und Investoren richten sich zunehmend nach globalen ESG-Kriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieteinnahmen, senkt die laufenden Betriebskosten nachhaltig und sichert den langfristigen Werterhalt der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) im Audit gezielt zu sammeln.
           </p>
         </div>
       </Reveal>
@@ -43,25 +56,25 @@ export const greenBuildingZertifizierung: NewsPost = {
       <Reveal>
         <SectionHead
           title="Die wichtigsten Zertifizierungssysteme im Überblick"
-          lead="Weltweit haben sich verschiedene Standards etabliert, die alle auf ähnlichen Prinzipien der Nachhaltigkeit basieren, jedoch unterschiedliche Schwerpunkte setzen."
+          lead="Weltweit haben sich verschiedene Qualitäts- und Umweltstandards etabliert, die alle auf nachhaltige Bauweisen setzen, jedoch spezifische Schwerpunkte in der Bewertung aufweisen."
         />
         <GlossaryGrid 
           items={[
             [
               "LEED (USA)", 
-              "Leadership in Energy and Environmental Design. Der weltweit am weitesten verbreitete Standard. Fokussiert stark auf Energieeffizienz, Wassersparen und Materialauswahl. K Aqua punktet hier besonders bei 'Water Efficiency' und 'Materials & Resources'."
+              "Leadership in Energy and Environmental Design. Der weltweit am weitesten verbreitete Standard. Fokussiert stark auf Energieeffizienz, Wassersparen und nachhaltige Materialauswahl. K Aqua PP-R Rohrsysteme punkten hier besonders in den Kategorien 'Water Efficiency' und 'Materials & Resources'."
             ],
             [
               "BREEAM (UK)", 
-              "Building Research Establishment Environmental Assessment Methodology. Das älteste Zertifizierungssystem. Bewertet Kategorien wie Management, Gesundheit, Energie, Transport, Wasser und Materialien. Der Fokus liegt stark auf dem Lebenszyklus."
+              "Building Research Establishment Environmental Assessment Methodology. Das traditionsreichste Zertifizierungssystem in Europa. Bewertet Kategorien wie Management, Gesundheit, Energie, Wasser und Materialkreisläufe mit starkem Fokus auf den gesamten Lebenszyklus."
             ],
             [
               "DGNB (Deutschland)", 
-              "Deutsche Gesellschaft für Nachhaltiges Bauen. Betrachtet Ökologie, Ökonomie und Soziokulturelles gleichwertig. Hier ist eine detaillierte Ökobilanz (LCA) über den gesamten Lebenszyklus des Gebäudes entscheidend (TCO)."
+              "Deutsche Gesellschaft für Nachhaltiges Bauen. Betrachtet Ökologie, Ökonomie und soziokulturelle Faktoren gleichwertig. Hier ist eine detaillierte Ökobilanzierung (LCA) über den gesamten Lebenszyklus der verbauten Rohrsysteme entscheidend."
             ],
             [
               "WELL (Global)", 
-              "Fokus auf die Gesundheit und das Wohlbefinden der Gebäudenutzer. PP-R Rohre von K Aqua unterstützen WELL durch den Erhalt der Trinkwassergüte ohne Abgabe schädlicher Substanzen (BPA-frei, schwermetallfrei)."
+              "Der weltweite Standard mit Fokus auf die Gesundheit, Ergonomie und das Wohlbefinden der Gebäudenutzer. K Aqua PP-R Rohre unterstützen WELL optimal durch garantierten Erhalt der Trinkwassergüte ohne Abgabe schädlicher Substanzen (100 % BPA-frei und schwermetallfrei)."
             ]
           ]}
         />
@@ -71,42 +84,36 @@ export const greenBuildingZertifizierung: NewsPost = {
       <Reveal>
         <SectionHead
           title="Wie K Aqua PP-R Systeme Credits generieren"
-          lead="Die Wahl des richtigen Rohrleitungsmaterials hat direkte Auswirkungen auf mehrere Bewertungskategorien der Zertifizierungssysteme."
+          lead="Die Wahl des richtigen Rohrleitungsmaterials hat direkte positive Auswirkungen auf mehrere Bewertungskategorien führender Zertifizierungssysteme."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Materialien & Ressourcen",
-              description: "PP-R ist zu 100 % recycelbar. Es enthält keine giftigen Weichmacher, Schwermetalle oder Halogene. Geringer Energieverbrauch bei der Herstellung im Vergleich zu Metallrohren.",
-              icon: <Recycle className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Energie & Atmosphäre",
-              description: "Geringe Wärmeleitfähigkeit minimiert Energieverluste. Heiz- und Kühlsysteme arbeiten effizienter.",
-              icon: <Award className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Wassereffizienz",
-              description: "Korrosionsfreiheit und homogene Schweißverbindungen verhindern Leckagen. Dauerhafte Sicherheit für den Wasserkreislauf.",
-              icon: <Droplet className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Gesundheit & Komfort",
-              description: "Hervorragende akustische Dämpfung für leise Gebäude. Lebensmittelecht und hygienisch einwandfrei für die Trinkwasserversorgung.",
-              icon: <Shield className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Ökobilanz (EPD)",
-              description: "Umweltproduktdeklarationen (EPDs) für PP-R Rohre belegen transparent den geringen CO2-Fußabdruck über die gesamte Lebensdauer.",
-              icon: <Layers className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Materialien & Ressourcen"
+            description="PP-R ist zu 100 % recycelbar. Es enthält keine giftigen Weichmacher, Schwermetalle oder Halogene. Der im Vergleich zu Metallrohren deutlich geringere Energieverbrauch bei der Herstellung reduziert den grauen CO2-Fußabdruck nachhaltig."
+            icon={<Recycle className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Energie & Atmosphäre"
+            description="Die geringe Wärmeleitfähigkeit von Polypropylen minimiert Energieverluste in Heiz- und Kältekreisläufen signifikant. Kälte- und Wärmeversorgungsanlagen arbeiten dadurch dauerhaft energieeffizienter."
+            icon={<Award className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Wassereffizienz"
+            description="Komplette Korrosionsfreiheit und dauerhaft homogene Schweißverbindungen verhindern Leckagen sowie Mikrorisse. Dies gewährleistet die langfristige Integrität des Wasserkreislaufs."
+            icon={<Droplet className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Gesundheit & Komfort"
+            description="Hervorragende akustische Dämpfungseigenschaften reduzieren Strömungsgeräusche für ein leises Gebäudeumfeld. Die lebensmittelechte Materialstruktur garantiert höchsten Hygiene-Standard."
+            icon={<Shield className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Ökobilanz (EPD)"
+            description="Zertifizierte Umweltproduktdeklarationen (EPDs) für K Aqua PP-R Rohrsysteme belegen transparent und objektiv den niedrigen CO2-Fußabdruck über die gesamte Lebensdauer."
+            icon={<Layers className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* StepFlow: Der Weg zur Zertifizierung */}
@@ -118,24 +125,20 @@ export const greenBuildingZertifizierung: NewsPost = {
         <StepFlow
           steps={[
             {
-              title: "Systemauswahl & Planung",
-              description: "Auswahl der passenden K Aqua PP-R und PP-RCT Systeme (z.B. K-Faser für Kühlsysteme) basierend auf den Projektanforderungen und den angestrebten Credits.",
-              icon: "Ruler"
+              t: "Systemauswahl & Planung",
+              d: "Auswahl der passenden K Aqua PP-R und PP-RCT Systeme (z.B. K-Faser für Kühlsysteme) basierend auf den Projektanforderungen und den angestrebten Credits."
             },
             {
-              title: "Dokumentenbereitstellung",
-              description: "K Aqua liefert alle notwendigen Datenblätter, Umweltproduktdeklarationen (EPDs) und Hygiene-Zertifikate, die für den Auditor erforderlich sind.",
-              icon: "FileText"
+              t: "Dokumentenbereitstellung",
+              d: "K Aqua liefert alle notwendigen Datenblätter, Umweltproduktdeklarationen (EPDs) und Hygiene-Zertifikate, die für den Auditor erforderlich sind."
             },
             {
-              title: "Installation & Nachweis",
-              description: "Die einfache und sichere Verarbeitung (homogenes Schweißen) minimiert Ausschuss auf der Baustelle. Die Dichtheitsprüfung dient als Nachweis für das Audit.",
-              icon: "Wrench"
+              t: "Installation & Nachweis",
+              d: "Die einfache und sichere Verarbeitung (homogenes Schweißen) minimiert Ausschuss auf der Baustelle. Die Dichtheitsprüfung dient als Nachweis für das Audit."
             },
             {
-              title: "Erfolgreiches Audit",
-              description: "Das Gebäude erhält die Auszeichnung (z.B. LEED Platin). Das PP-R System trägt durch seine lange Lebensdauer zum Werterhalt der Immobilie bei.",
-              icon: "Award"
+              t: "Erfolgreiches Audit",
+              d: "Das Gebäude erhält die Auszeichnung (z.B. LEED Platin). Das PP-R System trägt durch seine lange Lebensdauer zum Werterhalt der Immobilie bei."
             }
           ]}
         />
@@ -143,13 +146,27 @@ export const greenBuildingZertifizierung: NewsPost = {
 
       {/* CTABand: Consulting */}
       <Reveal>
-        <CTABand
-          title="Planen Sie ein Green Building?"
-          subtitle="Sichern Sie sich wertvolle Zertifizierungspunkte durch die richtige Materialwahl. Unsere Experten beraten Sie gerne zu LCA, EPDs und Systemauslegung."
-          buttonText="Nachhaltigkeits-Beratung anfragen"
-          buttonLink="/kontakt"
-          icon={<Leaf className="w-6 h-6" />}
-        />
+        <CTABand>
+          <div className="flex items-center gap-3 text-accent font-bold mb-2">
+            <Leaf className="w-6 h-6" />
+            <span>Nachhaltigkeits-Beratung</span>
+          </div>
+          <h2 className="text-h2 font-heading font-extrabold text-inverse-foreground tracking-tight">
+            Planen Sie ein Green Building?
+          </h2>
+          <p className="text-lead text-inverse-foreground/80 leading-relaxed">
+            Sichern Sie sich wertvolle Zertifizierungspunkte durch die richtige Materialwahl. Unsere Experten beraten Sie gerne zu LCA, EPDs und Systemauslegung.
+          </p>
+          <div className="mt-4">
+            <a
+              href="/kontakt"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-accent-foreground font-bold hover:opacity-90 transition-opacity"
+            >
+              <span>Nachhaltigkeits-Beratung anfragen</span>
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </CTABand>
       </Reveal>
 
     </div>

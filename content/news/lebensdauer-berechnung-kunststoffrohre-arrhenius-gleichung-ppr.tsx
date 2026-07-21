@@ -13,9 +13,22 @@ import { BarChart, Thermometer, Database, CheckCircle } from "@/components/ui/ic
 
 export const lebensdauerBerechnungPpr: NewsPost = {
   slug: "lebensdauer-berechnung-kunststoffrohre-arrhenius-gleichung-ppr",
-  title: "Lebensdauer-Berechnung von PP-R Rohren",
+  title: {
+    de: "Lebensdauer-Berechnung von PP-R Rohren",
+    en: "Lifespan Calculation of PP-R Pipes",
+    ar: "حساب العمر الافتراضي لأنابيب PP-R"
+  },
   date: "2025-02-08",
-  excerpt: "50 Jahre Lebensdauer sind kein Werbeslogan, sondern angewandte Physik. Wie die Zeitstandinnendruck-Prüfung und die Arrhenius-Gleichung die Rohr-Alterung vorhersagbar machen.",
+  teaser: {
+    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruck-Prüfung und Arrhenius-Gleichung die Alterung von PP-R Kunststoffrohren präzise vorhersagbar machen.",
+    en: "A 50-year lifespan for PP-R pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PP-R plastic pipes precisely predictable.",
+    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PP-R ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PP-R قابلاً للتنبؤ بدقة."
+  },
+  excerpt: {
+    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruck-Prüfung und Arrhenius-Gleichung die Alterung von PP-R Kunststoffrohren präzise vorhersagbar machen.",
+    en: "A 50-year lifespan for PP-R pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PP-R plastic pipes precisely predictable.",
+    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PP-R ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PP-R قابلاً للتنبؤ بدقة."
+  },
   coverImage: "/images/news/arrhenius-equation-pipe-lifespan.jpg",
   category: "Technologie & Material",
   tags: ["Lebensdauer", "Arrhenius", "Zeitstandinnendruck", "Berechnung", "Materialprüfung", "PP-R"],

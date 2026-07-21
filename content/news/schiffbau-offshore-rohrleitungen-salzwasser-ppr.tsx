@@ -11,9 +11,22 @@ import { Anchor, Waves, Shield, Globe } from "@/components/ui/icon";
 
 export const schiffbauOffshore: NewsPost = {
   slug: "schiffbau-offshore-rohrleitungen-salzwasser-ppr",
-  title: "Schiffbau & Offshore: Salzwasserbeständige PP-R Rohrleitungen",
+  title: {
+    de: "Schiffbau & Offshore: PP-R Rohrsysteme",
+    en: "Shipbuilding & Offshore: PP-R Pipe Systems",
+    ar: "بناء السفن والمنصات البحرية: أنظمة أنابيب PP-R"
+  },
   date: "2024-08-25",
-  excerpt: "Salzwasser ist der ultimative Härtetest für jedes Material. Entdecken Sie, warum K Aqua PP-R Rohre im Schiffbau CuNiFe ersetzen, Gewicht einsparen und absolute Wartungsfreiheit auf See garantieren.",
+  teaser: {
+    de: "Salzwasser ist der ultimative Härtetest für jedes Material: Entdecken Sie, warum K-Aqua PP-R Rohrsysteme im Schiffbau und Offshore-Bereich schwere CuNiFe-Leitungen ersetzen, Gewicht einsparen und absolute Wartungsfreiheit garantieren.",
+    en: "Saltwater is the ultimate endurance test for any material: Discover why K-Aqua PP-R piping systems are replacing heavy CuNiFe pipes in the shipbuilding and offshore sectors, saving weight and guaranteeing absolute maintenance-free operation.",
+    ar: "المياه المالحة هي اختبار التحمل النهائي لأي مادة: اكتشف لماذا تحل أنظمة أنابيب K-Aqua PP-R محل أنابيب CuNiFe الثقيلة في قطاعات بناء السفن والمنصات البحرية، مما يوفر الوزن ويضمن تشغيلاً خالياً تماماً من الصيانة."
+  },
+  excerpt: {
+    de: "Salzwasser ist der ultimative Härtetest für jedes Material: Entdecken Sie, warum K-Aqua PP-R Rohrsysteme im Schiffbau und Offshore-Bereich schwere CuNiFe-Leitungen ersetzen, Gewicht einsparen und absolute Wartungsfreiheit garantieren.",
+    en: "Saltwater is the ultimate endurance test for any material: Discover why K-Aqua PP-R piping systems are replacing heavy CuNiFe pipes in the shipbuilding and offshore sectors, saving weight and guaranteeing absolute maintenance-free operation.",
+    ar: "المياه المالحة هي اختبار التحمل النهائي لأي مادة: اكتشف لماذا تحل أنظمة أنابيب K-Aqua PP-R محل أنابيب CuNiFe الثقيلة في قطاعات بناء السفن والمنصات البحرية، مما يوفر الوزن ويضمن تشغيلاً خالياً تماماً من الصيانة."
+  },
   coverImage: "/images/news/ship-offshore.jpg",
   category: "Industrie",
   tags: ["Schiffbau", "Offshore", "Salzwasser", "Marine", "PP-R", "DNV"],

@@ -12,9 +12,17 @@ import { Layers, ShieldCheck, Thermometer, Box } from "@/components/ui/icon";
 
 export const isoliermaterialRohrdammungVergleich: NewsPost = {
   slug: "isoliermaterial-rohrdammung-vergleich-pir-pur-eps-ppr",
-  title: "Isoliermaterial im Vergleich: PIR, PUR und EPS für PP-R Rohre",
+  title: {
+    de: "Rohrdämmung im Vergleich: PIR, PUR und EPS",
+    en: "Pipe Insulation Comparison: PIR, PUR and EPS",
+    ar: "مقارنة عزل الأنابيب: PIR، وPUR، وEPS"
+  },
   date: "2025-01-21",
-  excerpt: "Wer Energieverluste minimieren und Kondensation verhindern will, kommt an der richtigen Dämmung nicht vorbei. Ein technischer Blick auf PIR, PUR und EPS.",
+  excerpt: {
+    de: "Wer Energieverluste minimieren und Kondensation verhindern will, kommt an der richtigen Rohrdämmung nicht vorbei. Ein technischer Vergleich von PIR, PUR und EPS Dämmstoffen für PPR-Rohrsysteme.",
+    en: "To minimize energy loss and prevent condensation, choosing the right pipe insulation is essential. A technical comparison of PIR, PUR, and EPS insulation materials for PPR pipe systems.",
+    ar: "لتقليل فقدان الطاقة ومنع التكثف، يعد اختيار عزل الأنابيب المناسب أمراً ضرورياً. مقارنة فنية لمواد العزل PIR وPUR وEPS لأنظمة أنابيب PPR."
+  },
   coverImage: "/images/news/insulation-materials-comparison.jpg",
   category: "Verarbeitung & Montage",
   tags: ["Isolierung", "PIR", "PUR", "EPS", "Wärmeschutz", "Fernwärme"],

@@ -13,9 +13,22 @@ import { Cpu, Layers, Settings2, Activity, CheckCircle2 } from "@/components/ui/
 
 export const vorfertigungPrefabrication: NewsPost = {
   slug: "vorfertigung-prefabrication-rohrverteiler-ppr-bauzeit",
-  title: "Vorfertigung (Prefabrication) von Rohrverteilern aus PP-R",
+  title: {
+    de: "Vorfertigung von PP-R Rohrverteilern",
+    en: "Prefabrication of PP-R Pipe Manifolds",
+    ar: "التجهيز المسبق لمجمعات أنابيب PP-R"
+  },
   date: "2024-12-20",
-  excerpt: "Bauen unter Zeitdruck: Entdecken Sie, wie die Vorfertigung von K Aqua PP-R Rohrverteilern in der Werkstatt die Montagezeit auf der Baustelle um bis zu 70 % reduziert.",
+  teaser: {
+    de: "Bauen unter Zeitdruck: Entdecken Sie, wie die Vorfertigung (Prefabrication) von K Aqua PP-R Rohrverteilern in der Werkstatt die Bauzeit und Montagezeit auf der Baustelle um bis zu 70 % reduziert.",
+    en: "Building under time pressure: Discover how the prefabrication of K Aqua PP-R pipe manifolds in the workshop reduces construction and installation time on site by up to 70%.",
+    ar: "البناء تحت ضغط الوقت: اكتشف كيف يقلل التجهيز المسبق لمجمعات أنابيب K Aqua PP-R في الورشة من وقت البناء والتركيب في الموقع بنسبة تصل إلى 70٪."
+  },
+  excerpt: {
+    de: "Bauen unter Zeitdruck: Entdecken Sie, wie die Vorfertigung (Prefabrication) von K Aqua PP-R Rohrverteilern in der Werkstatt die Bauzeit und Montagezeit auf der Baustelle um bis zu 70 % reduziert.",
+    en: "Building under time pressure: Discover how the prefabrication of K Aqua PP-R pipe manifolds in the workshop reduces construction and installation time on site by up to 70%.",
+    ar: "البناء تحت ضغط الوقت: اكتشف كيف يقلل التجهيز المسبق لمجمعات أنابيب K Aqua PP-R في الورشة من وقت البناء والتركيب في الموقع بنسبة تصل إلى 70٪."
+  },
   coverImage: "/images/news/prefabrication-workshop.jpg",
   category: "Planung & BIM",
   tags: ["Vorfertigung", "Prefabrication", "Rohrverteiler", "BIM", "PP-R", "Effizienz"],
@@ -34,8 +47,8 @@ export const vorfertigungPrefabrication: NewsPost = {
                   <span>Prozessoptimierung & BIM</span>
                 </div>
               }
-              title="Vom CAD-Modell zum Plug & Play Verteiler"
-              lead="Die Rahmenbedingungen auf modernen Großbaustellen werden immer härter: Knappe Bauzeitenpläne, akuter Fachkräftemangel und oft widrige Witterungsbedingungen. Wer hier komplexe Heizungsverteiler aus dutzenden Einzelteilen vor Ort zusammenschweißt, verliert wertvolle Zeit. Die Lösung heißt Prefabrication. K Aqua PP-R Systeme eignen sich hervorragend, um in der sauberen Umgebung einer Werkstatt millimetergenau vorgefertigt und als fertige Baugruppe auf die Baustelle geliefert zu werden."
+              title="Vom CAD-Modell zum Plug & Play PP-R Verteiler"
+              lead="Die Rahmenbedingungen auf modernen Großbaustellen werden immer anspruchsvoller: Knappe Bauzeitenpläne, akuter Fachkräftemangel und ungünstige Witterungsbedingungen. Wer hier komplexe Heizungs- und Trinkwasserverteiler aus dutzenden Einzelteilen direkt vor Ort zusammenschweißt, verliert wertvolle Bauzeit. Die Lösung heißt industrielle Vorfertigung (Prefabrication). K Aqua PP-R Rohrsysteme eignen sich hervorragend, um in der kontrollierten Umgebung einer Werkstatt millimetergenau vorgefertigt und als prüfbereite Baugruppe auf die Baustelle geliefert zu werden."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">

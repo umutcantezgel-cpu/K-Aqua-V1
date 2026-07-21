@@ -244,7 +244,7 @@ export default async function CatalogDetailPage({ params }: Props) {
                     {similarItems.map((sim) => (
                       <Link 
                         key={sim.slug} 
-                        href={`/produkte/katalog/${category}/${sim.slug}`}
+                        href={`/produkte/${category}/${sim.slug}`}
                         className="group flex flex-col gap-1 p-3 rounded-lg hover:bg-background-subtle transition-colors border border-transparent hover:border-card-border"
                       >
                         <span className="font-semibold text-small text-foreground group-hover:text-primary transition-colors">

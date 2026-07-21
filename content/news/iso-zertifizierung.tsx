@@ -13,8 +13,16 @@ export const isoZertifizierung: NewsPost = {
   slug: 'iso-zertifizierung-qualitaet-umwelt-energie',
   date: 'Oktober 2025',
   tag: 'Unternehmen',
-  title: 'Dreifach geprüft ISO 9001, 14001 und 50001',
-  teaser: 'Das ISO Managementsystem der KWT GmbH umfasst jetzt Qualität, Umwelt und Energie. DAkkS akkreditiert und strengstens geprüft.',
+  title: {
+    de: 'ISO 9001, 14001 & 50001 Zertifizierung',
+    en: 'ISO 9001, 14001 & 50001 Certification',
+    ar: 'شهادات ISO 9001 و 14001 و 50001',
+  },
+  teaser: {
+    de: 'Das integrierte ISO Managementsystem der KWT GmbH umfasst ISO 9001, 14001 und 50001 für PPR-Rohrsysteme – DAkkS-akkreditiert, nach höchsten Industriestandards geprüft und zertifiziert.',
+    en: 'The integrated ISO management system of KWT GmbH encompasses ISO 9001, 14001, and 50001 for PPR piping systems – DAkkS-accredited, tested and certified according to the highest industry standards.',
+    ar: 'يشتمل نظام إدارة ISO المتكامل لشركة KWT GmbH على معايير ISO 9001 و14001 و50001 لأنظمة أنابيب PPR – وهو معتمد من DAkkS، ومختبر ومصادق عليه وفقاً لأعلى المعايير الصناعية.',
+  },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
       {/* Intro Section */}
