@@ -25,6 +25,20 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const t = await getTranslations({ locale, namespace: 'products.transitionFittings' });  return (
     <div className="flex flex-col w-full min-h-screen bg-background text-foreground selection:bg-primary/30">
 
+      {/* Hero */}
+      <section className="pt-24 pb-16 bg-background border-b border-card-border">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <SectionHead
+            as="h1"
+            eyebrow={t('hero.eyebrow')}
+            title={t('hero.title')}
+            lead={t('hero.lead')}
+            align="center"
+            className="mb-0"
+          />
+        </div>
+      </section>
+
       {/* 6) Deep Specification Matrix */}
       <section className="py-32 bg-card border-b border-card-border">
         <div className="mx-auto max-w-[1400px] px-6">

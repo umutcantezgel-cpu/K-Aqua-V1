@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { GEO_MARKETS } from '@/lib/data/geo';
 import { getAllProducts } from '@/lib/products';
 import { CATALOG } from '@/lib/data/catalog';
+import { newsRegistry } from '@/content/news';
 import { getBaseUrl } from "@/lib/env";
 
 const locales = ['de', 'en', 'ar'];
@@ -10,6 +11,7 @@ const staticRoutes = [
   '',
   'academy',
   'co2-rechner',
+  'datenschutz',
   'impressum',
   'karriere',
   'kontakt',
@@ -19,9 +21,17 @@ const staticRoutes = [
   'partnerschaft',
   'produkte',
   'produkte/finder',
+  'produkte/pipes',
+  'produkte/fittings',
+  'produkte/valves',
+  'produkte/tools',
+  'produkte/transition-fittings',
   'projektanfrage',
   'referenzen',
+  'ressourcen/support',
+  'ressourcen/ausschreibungstexte',
   'service',
+  'sitemap',
   'trust-center',
   'unternehmen',
 ];
@@ -29,86 +39,54 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const domain = getBaseUrl();
   const entries: MetadataRoute.Sitemap = [];
+  const lastModified = new Date();
 
-  // 1. Static routes (17 routes * 3 locales = 51 entries)
+  const pushRoute = (
+    route: string,
+    changeFrequency: 'weekly' | 'monthly' | 'yearly',
+    priority: number,
+  ) => {
+    const urlFor = (loc: string) => (route === '' ? `${domain}/${loc}` : `${domain}/${loc}/${route}`);
+    for (const locale of locales) {
+      const alternateLanguages: Record<string, string> = {};
+      for (const loc of locales) alternateLanguages[loc] = urlFor(loc);
+      alternateLanguages['x-default'] = urlFor('de');
+      entries.push({
+        url: urlFor(locale),
+        lastModified,
+        changeFrequency,
+        priority,
+        alternates: { languages: alternateLanguages },
+      });
+    }
+  };
+
+  // 1. Static routes
   for (const route of staticRoutes) {
-    for (const locale of locales) {
-      const url = route === '' 
-        ? `${domain}/${locale}` 
-        : `${domain}/${locale}/${route}`;
-
-      const alternateLanguages: Record<string, string> = {};
-      for (const loc of locales) {
-        alternateLanguages[loc] = route === '' 
-          ? `${domain}/${loc}` 
-          : `${domain}/${loc}/${route}`;
-      }
-      alternateLanguages['x-default'] = route === '' 
-        ? `${domain}/de` 
-        : `${domain}/de/${route}`;
-
-      entries.push({
-        url,
-        lastModified: new Date(),
-        changeFrequency: route === '' ? 'weekly' : 'monthly',
-        priority: route === '' ? 1.0 : 0.8,
-        alternates: {
-          languages: alternateLanguages,
-        },
-      });
-    }
+    pushRoute(route, route === '' ? 'weekly' : 'monthly', route === '' ? 1.0 : 0.8);
   }
 
-  // 2. Dynamic market routes (28 routes * 3 locales = 84 entries)
+  // 2. Dynamic market routes
   for (const market of GEO_MARKETS) {
-    const route = `maerkte/${market.slug}`;
-    for (const locale of locales) {
-      const url = `${domain}/${locale}/${route}`;
+    pushRoute(`maerkte/${market.slug}`, 'monthly', 0.9);
+  }
 
-      const alternateLanguages: Record<string, string> = {};
-      for (const loc of locales) {
-        alternateLanguages[loc] = `${domain}/${loc}/${route}`;
-      }
-      alternateLanguages['x-default'] = `${domain}/de/${route}`;
+  // 3. Dynamic product detail routes (markdown-based)
+  for (const product of getAllProducts()) {
+    pushRoute(`produkte/${product.category}/${product.slug}`, 'yearly', 0.6);
+  }
 
-      entries.push({
-        url,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.9,
-        alternates: {
-          languages: alternateLanguages,
-        },
-      });
+  // 4. Catalog detail routes
+  for (const category of CATALOG) {
+    for (const item of category.items) {
+      pushRoute(`produkte/katalog/${category.id}/${item.slug}`, 'yearly', 0.5);
     }
   }
 
-  // 3. Dynamic product routes (all products * 3 locales)
-  const products = getAllProducts();
-  for (const product of products) {
-    const route = `produkte/${product.category}/${product.slug}`;
-    for (const locale of locales) {
-      const url = `${domain}/${locale}/${route}`;
-
-      const alternateLanguages: Record<string, string> = {};
-      for (const loc of locales) {
-        alternateLanguages[loc] = `${domain}/${loc}/${route}`;
-      }
-      alternateLanguages['x-default'] = `${domain}/de/${route}`;
-
-      entries.push({
-        url,
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 0.6,
-        alternates: {
-          languages: alternateLanguages,
-        },
-      });
-    }
+  // 5. News articles
+  for (const slug of Object.keys(newsRegistry)) {
+    pushRoute(`news/${slug}`, 'yearly', 0.6);
   }
-
-
 
   return entries;
 }

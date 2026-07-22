@@ -149,9 +149,9 @@ export default async function Page({ params }: Props) {
       <section className="w-full bg-background select-none relative">
         <div className="k-marquee py-4">
           {marqueeTrack}
-          <div aria-hidden="true">{marqueeTrack}</div>
-          <div aria-hidden="true">{marqueeTrack}</div>
-          <div aria-hidden="true">{marqueeTrack}</div>
+          <div aria-hidden="true" data-nosnippet>{marqueeTrack}</div>
+          <div aria-hidden="true" data-nosnippet>{marqueeTrack}</div>
+          <div aria-hidden="true" data-nosnippet>{marqueeTrack}</div>
         </div>
         <div className="ka-lightrays absolute bottom-0 left-0 w-full" data-count="9" style={{height: '140px'}}></div>
       </section>

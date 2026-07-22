@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return constructMetadata({
     title: `${item.title} | ${catLabel} | K-Aqua`,
     description: `${item.title} (${item.codes}). ${catMeta?.desc || ""}`,
-    path: `/produkte/${category}/${slug}`,
+    path: `/produkte/katalog/${category}/${slug}`,
     locale,
   });
 }
@@ -129,7 +129,7 @@ export default async function CatalogDetailPage({ params }: Props) {
           </nav>
           
           <div className="max-w-3xl">
-            <h1 className="font-heading text-h2 font-extrabold text-foreground mb-4">
+            <h1 className="font-heading text-h1 font-extrabold text-foreground mb-4">
               {item.title}
             </h1>
             <p className="text-lead text-muted-foreground font-mono">

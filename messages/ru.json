@@ -987,7 +987,12 @@
       "specsList3": "Цифровая калибровка температуры",
       "ctaTitle": "Готовы к бескомпромиссному качеству?",
       "ctaDesc": "Поговорите с нашей командой инженеров о вашем следующем мегапроекте и запросите образцы наших инструментов.",
-      "ctaBtn": "Связаться со службой технической поддержки"
+      "ctaBtn": "Связаться со службой технической поддержки",
+      "hero": {
+        "eyebrow": "Tools & Accessories",
+        "title": "Welding Tools for PP-R Installation",
+        "lead": "Socket fusion machines, electrofusion technology and calibration tools: K-Aqua original tools deliver standard-compliant, permanently tight welded joints on every site."
+      }
     },
     "valves": {
       "metaTitle": "Арматура и клапаны | Немецкая инженерия | K-Aqua",
@@ -1052,7 +1057,12 @@
       "ctaTitle": "Готовы к абсолютному контролю?",
       "ctaDesc": "Поговорите с нашими главными инженерами о спецификациях вашего следующего мегапроекта. Мы предлагаем решения проблем, которые другие еще даже не поняли.",
       "ctaBtnPrimary": "Запросить техническую консультацию",
-      "ctaBtnSecondary": "Спецификации в формате PDF"
+      "ctaBtnSecondary": "Спецификации в формате PDF",
+      "hero": {
+        "eyebrow": "Valves & Controls",
+        "title": "PP-R Valves for Precise Control",
+        "lead": "Shut off, regulate, secure: K-Aqua PP-R valves combine corrosion-free hydraulics with German manufacturing precision — for drinking water, HVAC and industry."
+      }
     },
     "category": {
       "allProducts": "Все продукты",
@@ -1069,12 +1079,9 @@
         "desc": "Фитинги K-Aqua – бескомпромиссная безопасность благодаря немецкой инженерии для глобальных мегапроектов."
       },
       "hero": {
-        "eyebrow": "Немецкая инженерия",
-        "title1": "Фитинги и фасонные детали.",
-        "title2": "Абсолютное совершенство.",
-        "desc": "Этот модуль обеспечивает бескомпромиссную безопасность для самых сложных проектов по всему миру. Произведено по самым строгим промышленным стандартам, чтобы служить поколениям. Там, где отказ материала недопустим, начинается K-Aqua.",
-        "ctaPrimary": "Оставить заявку на проект",
-        "ctaSecondary": "Технические характеристики"
+        "eyebrow": "Fittings & Molded Parts",
+        "title": "PP-R Fittings & Molded Parts for Permanently Tight Joints",
+        "lead": "From elbows to reducers: K-Aqua PP-R fittings fuse molecularly with the pipe during welding — a homogeneous system with no gaskets and no weak points."
       },
       "intro": {
         "eyebrow": "Промышленный авторитет",
@@ -1178,12 +1185,9 @@
         "desc": "Высокопроизводительные трубопроводные системы из PP-R и PP-RCT. Немецкая техника для питьевой воды, климата и промышленности. Бескомпромиссная безопасность для мегапроектов."
       },
       "hero": {
-        "eyebrow": "Трубопроводные системы K-Aqua",
-        "title1": "Основа",
-        "title2": "современная инфраструктура.",
-        "desc": "Когда генеральные подрядчики планируют реализацию проектов стоимостью в миллиарды долларов, они полагаются на K-Aqua. Наши трубы PP-R и PP-RCT с широкой сетью соединений обеспечивают абсолютную защиту от коррозии, 100% однородные сварные соединения и гарантированный срок службы более 50 лет.",
-        "ctaPrimary": "Запросить проект",
-        "ctaSecondary": "Технические данные"
+        "eyebrow": "Piping Systems",
+        "title": "PP-R & PP-RCT Pipes from d20 to d630",
+        "lead": "K-Aqua PP-R pipes and PP-RCT multilayer pipes for drinking water, heating and industry: mono and fiber-composite versions in every pressure class — made in Germany to DIN 8077/8078."
       },
       "sticky": {
         "eyebrow": "Материаловедение",
@@ -1274,12 +1278,9 @@
         "desc": "Переходы K-Aqua – гибридное соединение высшего класса. Когда высокопрочный металл встречается с инновационным пластиком. Немецкая инженерия."
       },
       "hero": {
-        "eyebrow": "Гибридное мастерство",
-        "title1": "Переходы.",
-        "title2": "Абсолютный стандарт.",
-        "desc": "Идеальное сочетание высокопрочной, устойчивой к обесцинкованию латуни и усовершенствованного PP-RCT. Разработан для условий, в которых усталость материала может быть катастрофической. Разработано в Германии навечно.",
-        "ctaPrimary": "Запросить проект",
-        "ctaSecondary": "Инженерные детали"
+        "eyebrow": "System Transitions",
+        "title": "Transition Fittings: Safely from Metal to PP-R",
+        "lead": "Brass meets polymer: K-Aqua transition fittings connect existing metal pipework to the PP-R system permanently tight and corrosion-free — tested far beyond the standard."
       },
       "intro": {
         "eyebrow": "Задача",

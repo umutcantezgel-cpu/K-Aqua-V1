@@ -11,8 +11,8 @@ export const routing = defineRouting({
   // Core locales are built statically (SSG), lazy locales are built on-demand (ISR)
   locales: [...coreLocales, ...lazyLocales],
 
-  // Used when no locale matches
-  defaultLocale: 'en',
+  // Used when no locale matches (matches the x-default hreflang -> /de)
+  defaultLocale: 'de',
   localePrefix: 'always',
   localeDetection: false
 });
