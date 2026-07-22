@@ -42,7 +42,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
                 </div>
               }
               title="Aggressive Medien in PPR-Rohrsystemen sicher leiten"
-              lead="In industriellen Prozessen sind Rohrleitungen extremen Belastungen ausgesetzt. Säuren, Laugen und Lösungsmittel greifen metallische Werkstoffe an und führen zu Lochfraß oder Flächenkorrosion. K Aqua PPR (Polypropylen Random Copolymer) bietet aufgrund seiner unpolaren Struktur eine herausragende chemische Beständigkeit und ersetzt in vielen ATEX-Bereichen kostenintensiven Edelstahl oder Speziallegierungen."
+              lead="In industriellen Prozessen sind Rohrleitungen extremen Belastungen ausgesetzt. Säuren, Laugen und Lösungsmittel greifen metallische Werkstoffe an und führen zu Lochfraß oder Flächenkorrosion. K Aqua PPR (Polypropylen Random Copolymer) bietet aufgrund seiner unpolaren Struktur eine herausragende chemische Beständigkeit und ersetzt in vielen ATEX Bereichen kostenintensiven Edelstahl oder Speziallegierungen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -56,7 +56,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
         <StatBand
           cols={3}
           stats={[
-            { n: "1", u: " bis 14", l: "phwert-Resistenz (abhängig von Medium und Temperatur)" },
+            { n: "1", u: " bis 14", l: "pH Wert Resistenz (abhängig von Medium und Temperatur)" },
             { n: "0", l: "Lochfraß. Korrosion ist bei PPR physikalisch ausgeschlossen." },
             { n: "100", u: "%", l: "Vollflächige Verschmelzung durch Polyfusion – keine schwachen Klebenähte." }
           ]}
