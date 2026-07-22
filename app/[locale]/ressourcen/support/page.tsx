@@ -1,5 +1,6 @@
 import React from 'react';
-import { constructMetadata } from '@/lib/seo/metadata';
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { ArrowRight } from '@/components/ui/icon';
@@ -27,9 +28,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources' });
+  const tMeta = await getTranslations({ locale, namespace: 'resources.support' });
+  const jsonLd = await getWebPageJsonLd(locale, "support", "WebPage", { title: tMeta('metaTitle'), description: tMeta('metaDesc') });
 
   return (
-    <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
+    <>
+      <JsonLd schema={jsonLd} />
+      <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
       
       {/* 1) Epic Parallax Hero */}
       <ParallaxHero
@@ -177,5 +182,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </section>
 
     </div>
+    </>
   );
 }

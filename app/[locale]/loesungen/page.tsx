@@ -45,9 +45,8 @@ const bentoAssets: { image?: string; video?: string }[] = [
 
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "solutions");
   const t = await getTranslations({ locale, namespace: "solutions.index" });
-
+  const jsonLd = await getWebPageJsonLd(locale, "solutions", "WebPage", { title: t('meta.title'), description: t('meta.desc') });
   const stickyItems = t.raw('sticky.items') as Array<{ title: string; p1: string; p2: string }>;
 
   const stickyAssets: { image?: string; video?: string }[] = [
