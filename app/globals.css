@@ -111,6 +111,9 @@
    PRIMITIVES (theme-independent)
    ───────────────────────────────────────────────────────────── */
 :root {
+  /* fixed header height — Header.tsx (h-(--header-h)) and the layout's main padding share this */
+  --header-h: 72px;
+
   /* brand hue ramp — K-Aqua purple, base #5B2D8C ≈ --brand-600 */
   --brand-50:  oklch(0.97 0.02 305);
   --brand-100: oklch(0.93 0.045 305);
