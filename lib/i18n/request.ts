@@ -30,7 +30,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
   }
 
   const messages = (await import(`../../messages/${targetLocale}.json`)).default;
-  console.log('LOADED MESSAGES FOR', targetLocale, 'KEYS:', Object.keys(messages).filter(k => k === 'homex'));
 
   return {
     locale: resolvedLocale,
