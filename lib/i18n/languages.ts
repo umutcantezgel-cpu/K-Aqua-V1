@@ -11,6 +11,8 @@
 
 export type LangGroup = 'eu' | 'am' | 'af' | 'as';
 
+export type LanguageTier = 'full' | 'partial' | 'auto';
+
 export interface KAquaLanguage {
   id: string;
   /** next-intl locale — muss in eurer routing.locales-Liste stehen */
@@ -31,7 +33,21 @@ export interface KAquaLanguage {
   bright: string;
   /** Konturen / Text */
   deep: string;
+  /**
+   * full: manually curated + reviewed (de/en/ar).
+   * partial: has its own messages/<locale>.json but not editorially reviewed.
+   * auto: no message file — falls back to defaultLocale content.
+   */
+  tier: LanguageTier;
 }
+
+/** The three editorially curated, fully reviewed locales. */
+export const FULLY_CURATED_LOCALES = ['de', 'en', 'ar'] as const;
+
+/** Locales with their own messages/<locale>.json (superset of FULLY_CURATED_LOCALES). */
+export const TRANSLATED_LOCALES = [
+  'ar', 'de', 'en', 'en-GB', 'es', 'es-ES', 'fr', 'it', 'nl', 'pl', 'pt-BR', 'pt', 'ru', 'tr', 'zh',
+] as const;
 
 type Row = [
   id: string, locale: string, de: string, nat: string, ok: string,
@@ -110,6 +126,12 @@ const ROWS: Row[] = [
   ['en_oc', 'en-AU', 'Englisch (Ozeanien)', 'English (Oceania)', 'Confirm', 'as', 134.0, -25.0, [36, 554, 598]],
 ];
 
+function tierFor(locale: string): LanguageTier {
+  if ((FULLY_CURATED_LOCALES as readonly string[]).includes(locale)) return 'full';
+  if ((TRANSLATED_LOCALES as readonly string[]).includes(locale)) return 'partial';
+  return 'auto';
+}
+
 export const LANGUAGES: KAquaLanguage[] = ROWS.map((r, i) => {
   const hue = +(((i * 137.508 + 14) % 360).toFixed(1));
   return {
@@ -119,6 +141,7 @@ export const LANGUAGES: KAquaLanguage[] = ROWS.map((r, i) => {
     color: `oklch(0.54 0.135 ${hue})`,
     bright: `oklch(0.72 0.155 ${hue})`,
     deep: `oklch(0.42 0.12 ${hue})`,
+    tier: tierFor(r[1]),
   };
 });
 

@@ -68,6 +68,7 @@ export function LanguageCarousel({
             </span>
             <span className={`text-[11px] ${mutedCls(dark)}`}>
               {l.de}
+              {l.tier !== 'full' && <span className="opacity-60"> · Beta</span>}
               {state === 'active' && (
                 <span className="font-semibold text-(--lc)"> · aktiv</span>
               )}
