@@ -84,31 +84,31 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem
                 title={t('support.bento.items.0.title')}
                 description={t('support.bento.items.0.desc')}
-                header={<PremiumAssetPlaceholder label="Migration Matrix" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.0.title')} image="/images/new-k-aqua/pipes-profil.png" className="min-h-[240px]" />}
                 colSpan={2}
               />
               <BentoGridItem
                 title={t('support.bento.items.1.title')}
                 description={t('support.bento.items.1.desc')}
-                header={<PremiumAssetPlaceholder label="Kernel Tuning" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.1.title')} video="/videos/socket-welding-hand.mp4" className="min-h-[240px]" />}
                 colSpan={1}
               />
               <BentoGridItem
                 title={t('support.bento.items.2.title')}
                 description={t('support.bento.items.2.desc')}
-                header={<PremiumAssetPlaceholder label="Secure Enclave" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.2.title')} video="/videos/factory.mp4" className="min-h-[240px]" />}
                 colSpan={1}
               />
               <BentoGridItem
                 title={t('support.bento.items.3.title')}
                 description={t('support.bento.items.3.desc')}
-                header={<PremiumAssetPlaceholder label="API Gateway" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.3.title')} image="/images/new-k-aqua/fittings-profil.png" className="min-h-[240px]" />}
                 colSpan={2}
               />
               <BentoGridItem
                 title={t('support.bento.items.4.title')}
                 description={t('support.bento.items.4.desc')}
-                header={<PremiumAssetPlaceholder label="Geo-Redundancy" className="min-h-[300px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.4.title')} image="/images/new-k-aqua/weld-in-saddles.png" className="min-h-[300px]" />}
                 colSpan={3}
               />
             </BentoGrid>
@@ -149,7 +149,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </ul>
             </div>
             <div className="h-full min-h-[700px] rounded-[2rem] overflow-hidden border border-card-border relative shadow-2xl">
-              <PremiumAssetPlaceholder label="Compliance Architecture Framework" />
+              <PremiumAssetPlaceholder label={t('support.metrics.badge')} image="/images/new-k-aqua/fertigung-pipes.jpg" />
             </div>
           </div>
         </div>

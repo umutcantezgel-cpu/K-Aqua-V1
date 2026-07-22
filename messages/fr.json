@@ -5469,67 +5469,67 @@
         "desc": "Notre procédure opérationnelle standard pour garantir un déploiement d'infrastructure sans faille."
       },
       "hero": {
-        "eyebrow": "Soutien à l'Ingénierie",
-        "title1": "Résolution de",
-        "title2": "Problèmes Complexes.",
-        "desc": "Le Centre de Commande K-Aqua. Connectez-vous avec notre équipe d'ingénierie pour les calculs hydrauliques, l'assistance sur site et les audits de conformité.",
-        "btnPrimary": "Ouvrir un Ticket",
-        "btnGhost": "Base de Connaissances"
+        "eyebrow": "Technical Support",
+        "title1": "Support that",
+        "title2": "thinks ahead.",
+        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project — with a direct line to the engineers who developed the system.",
+        "btnPrimary": "Submit a Project Inquiry",
+        "btnGhost": "View Services"
       },
       "intro": {
-        "title1": "LA COMPÉTENCE, PAS",
-        "title2": "DES CENTRES D'APPEL.",
-        "p1": "Lorsque l'infrastructure d'un bâtiment de 50 étages est en jeu, vous ne pouvez pas vous permettre de parler à un représentant du service client qui lit un script.",
-        "p2": "Le support K-Aqua est composé de scientifiques des matériaux, de spécialistes de l'hydraulique et d'ingénieurs de terrain chevronnés. Nous comprenons les exigences de pression, les calculs de contrainte thermique et les subtilités de l'installation sur chantier.",
-        "p3": "Que vous conceviez un système de refroidissement de centre de données ou que vous résolviez un problème de soudage dans un environnement confiné, nous fournissons l'intelligence d'ingénierie brute nécessaire pour surmonter l'obstacle."
+        "title1": "Support isn't a call center.",
+        "title2": "It's an engineering team.",
+        "p1": "We don't treat technical support as an afterthought — it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
+        "p2": "Our engineers know every batch, every standard, and every processing specification of our systems first-hand. They review isometric drawings, recalculate pressure losses, and stand at the pipe itself during commissioning.",
+        "p3": "That's the standard of German engineering — applied to real job sites, not server racks."
       },
       "bento": {
-        "eyebrow": "VECTEURS D'ASSISTANCE",
-        "title": "Expertise Sur Demande.",
-        "lead": "Nous proposons un arsenal complet de services techniques pour assurer la perfection de votre projet du début à la fin.",
+        "eyebrow": "Services at a Glance",
+        "title": "Support across the entire project",
+        "lead": "From initial planning to ongoing maintenance — our team supports your PP-R system through every phase.",
         "items": [
           {
-            "title": "Laboratoire des Matériaux",
-            "desc": "Analyses chimiques pour les fluides industriels agressifs et conseils sur la compatibilité des polymères."
+            "title": "Hydraulic Sizing & Isometrics",
+            "desc": "We review your planning documents, recalculate pressure losses and dimensioning, and deliver a reliable materials list before construction begins."
           },
           {
-            "title": "Département CAO/BIM",
-            "desc": "Assistance à la conception de modèles Revit complexes et optimisation des tracés."
+            "title": "Welding Supervision",
+            "desc": "Our technicians support socket and electrofusion welding on site, monitor process parameters, and train your installation crew directly on the job site on request."
           },
           {
-            "title": "Certifications Locales",
-            "desc": "Navigation dans les codes du bâtiment spécifiques et obtention des approbations des autorités locales."
+            "title": "Pressure Testing & Sign-Off",
+            "desc": "We assist with performing and documenting pressure tests to DIN 1988 and provide the test records required for construction sign-off."
           },
           {
-            "title": "Équipe de Dépannage Rapide",
-            "desc": "Envoi immédiat d'ingénieurs experts pour les défis critiques de l'infrastructure."
+            "title": "Spare Parts & Accessories Service",
+            "desc": "Fast delivery of fittings, valves, and genuine accessories — including for existing installations and older K-Aqua batches."
           },
           {
-            "title": "Fabrication Sur Mesure",
-            "desc": "Développement et extrusion de collecteurs PP-RCT spécifiques aux exigences du projet."
+            "title": "Remote Diagnosis & On-Site Support",
+            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly — deploying a site supervisor in person when needed."
           }
         ]
       },
       "metrics": {
-        "badge": "PERFORMANCE DU RÉSEAU",
-        "title1": "Déploiement",
-        "title2": "Mondial.",
-        "p1": "Nos ingénieurs et nos systèmes fonctionnent de manière transparente sur tous les continents, respectant les normes industrielles et sanitaires mondiales les plus strictes.",
-        "p2": "D'une installation sous zéro en Scandinavie à la chaleur extrême du Moyen-Orient, l'équipe K-Aqua a déjà résolu ce problème.",
+        "badge": "Reliability by the Numbers",
+        "title1": "Proven",
+        "title2": "reliability.",
+        "p1": "We work by the principles of German engineering: what we deliver has to hold — under any job-site condition.",
+        "p2": "Every K-Aqua system is certified to DVGW, SKZ, and KIWA. Every batch is traceable, every weld joint fully documentable.",
         "items": [
-          "Présence dans plus de 60 Pays",
-          "Certifié DVGW, KIWA, WRAS",
-          "Audit de Qualité ISO 9001",
-          "Réseau de Logistique International"
+          "Response to technical inquiries within one business day",
+          "Over 50 years of documented system service life with correct installation",
+          "Direct line to technical sales, no queues",
+          "Training and certification through the K-Aqua Academy"
         ]
       },
       "cta": {
-        "title1": "INITIER",
-        "title2": "LE PROTOCOLE DE",
-        "title3": "CONTACT.",
-        "desc": "Sélectionnez votre niveau d'urgence technique et connectez-vous directement avec le département d'ingénierie concerné.",
-        "btnPrimary": "Contacter l'Ingénierie",
-        "btnGhost": "Annuaire Mondial"
+        "title1": "Ready for your",
+        "title2": "next",
+        "title3": "project?",
+        "desc": "Have your project supported by engineers who don't just sell PP-R systems — they design and manufacture them.",
+        "btnPrimary": "Start Your Inquiry",
+        "btnGhost": "Contact Our Experts"
       }
     },
     "downloads": {

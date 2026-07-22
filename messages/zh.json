@@ -5518,67 +5518,67 @@
         "desc": "分秒必争。我们在发生严重系统异常时的标准化流程。冷静计算，无情执行。"
       },
       "hero": {
-        "eyebrow": "工程服务与支持",
-        "title1": "技术",
-        "title2": "优势。",
-        "desc": "没有任何妥协的余地。在系统维护和架构扩展方面做到绝对精确。我们的支持网络以冷静的工业权威运作，加固您的基础设施以抵御任何物理或数字威胁。",
-        "btnPrimary": "请求系统审计",
-        "btnGhost": "查看记录"
+        "eyebrow": "Technical Support",
+        "title1": "Support that",
+        "title2": "thinks ahead.",
+        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project — with a direct line to the engineers who developed the system.",
+        "btnPrimary": "Submit a Project Inquiry",
+        "btnGhost": "View Services"
       },
       "intro": {
-        "title1": "基础设施不是一种服务。",
-        "title2": "它是物理基础。",
-        "p1": "我们不将IT支持视为后续流程，而是将其视为系统架构不可或缺的一部分。如果您的系统崩溃，生产就会停滞。这是不可接受的。",
-        "p2": "我们的工程师以外科手术般的精确度进行工作。分析每个日志文件，调查每个延迟峰值。我们构建自我修复的系统，并配备一支在监控仪表板亮红灯之前就会做出反应的支持团队。",
-        "p3": "欢迎体验德国高可用性标准。"
+        "title1": "Support isn't a call center.",
+        "title2": "It's an engineering team.",
+        "p1": "We don't treat technical support as an afterthought — it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
+        "p2": "Our engineers know every batch, every standard, and every processing specification of our systems first-hand. They review isometric drawings, recalculate pressure losses, and stand at the pipe itself during commissioning.",
+        "p3": "That's the standard of German engineering — applied to real job sites, not server racks."
       },
       "bento": {
-        "eyebrow": "架构与咨询",
-        "title": "为永恒而建",
-        "lead": "我们的服务远远超出了传统的支持。我们以毫不妥协的工程技术设计、构建和加固您的核心基础设施。",
+        "eyebrow": "Services at a Glance",
+        "title": "Support across the entire project",
+        "lead": "From initial planning to ongoing maintenance — our team supports your PP-R system through every phase.",
         "items": [
           {
-            "title": "零停机迁移",
-            "desc": "我们在旧系统和现代集群之间传输数PB的数据，停机时间为零。完美编排的数据流。"
+            "title": "Hydraulic Sizing & Isometrics",
+            "desc": "We review your planning documents, recalculate pressure losses and dimensioning, and deliver a reliable materials list before construction begins."
           },
           {
-            "title": "硬件级优化",
-            "desc": "内核调优、内存分配优化和网络栈调整，以实现最大吞吐率。"
+            "title": "Welding Supervision",
+            "desc": "Our technicians support socket and electrofusion welding on site, monitor process parameters, and train your installation crew directly on the job site on request."
           },
           {
-            "title": "安全飞地",
-            "desc": "为您最敏感的企业数据构建隔离的、加密安全的子网。"
+            "title": "Pressure Testing & Sign-Off",
+            "desc": "We assist with performing and documenting pressure tests to DIN 1988 and provide the test records required for construction sign-off."
           },
           {
-            "title": "API和后端锻造",
-            "desc": "开发强大、受速率限制且性能极高的API，毫不费力地处理每秒数百万次请求。"
+            "title": "Spare Parts & Accessories Service",
+            "desc": "Fast delivery of fittings, valves, and genuine accessories — including for existing installations and older K-Aqua batches."
           },
           {
-            "title": "专属备用电源概念",
-            "desc": "物理和数字冗余计划。从数据中心故障转移到跨越三大洲的地理冗余。"
+            "title": "Remote Diagnosis & On-Site Support",
+            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly — deploying a site supervisor in person when needed."
           }
         ]
       },
       "metrics": {
-        "badge": "绝对可靠性",
-        "title1": "认证的",
-        "title2": "容错性。",
-        "p1": "我们按照德国工程学原理工作：构建的东西必须起作用。总是如此。在任何情况下。",
-        "p2": "我们的系统通过了ISO 27001认证，符合全球最严格的合规要求。对您的基础设施的每次干预都会经过审计、加密签名和不可更改的记录。",
+        "badge": "Reliability by the Numbers",
+        "title1": "Proven",
+        "title2": "reliability.",
+        "p1": "We work by the principles of German engineering: what we deliver has to hold — under any job-site condition.",
+        "p2": "Every K-Aqua system is certified to DVGW, SKZ, and KIWA. Every batch is traceable, every weld joint fully documentable.",
         "items": [
-          "99.999%保证的正常运行时间（基于SLA）",
-          "所有遥测数据的端到端加密",
-          "面向企业客户的专属TAM（技术客户经理）",
-          "独立红队的每月渗透测试"
+          "Response to technical inquiries within one business day",
+          "Over 50 years of documented system service life with correct installation",
+          "Direct line to technical sales, no queues",
+          "Training and certification through the K-Aqua Academy"
         ]
       },
       "cta": {
-        "title1": "准备好体验",
-        "title2": "毫不妥协的",
-        "title3": "稳定性了吗？",
-        "desc": "让我们的工程师对您的基础设施进行审计，他们不认为故障是运气不好，而是设计缺陷。",
-        "btnPrimary": "启动基础设施审计",
-        "btnGhost": "联系专家"
+        "title1": "Ready for your",
+        "title2": "next",
+        "title3": "project?",
+        "desc": "Have your project supported by engineers who don't just sell PP-R systems — they design and manufacture them.",
+        "btnPrimary": "Start Your Inquiry",
+        "btnGhost": "Contact Our Experts"
       }
     },
     "downloads": {
