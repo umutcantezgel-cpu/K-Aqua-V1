@@ -11,19 +11,19 @@ import { Layers, Ruler, Activity, Coins, Download } from "@/components/ui/icon";
 export const bimBuildingInformationModeling: NewsPost = {
   slug: "bim-building-information-modeling-rohrleitungsplanung-ppr",
   title: {
-    de: "BIM in der PP-R Rohrleitungsplanung",
-    en: "BIM in PP-R Piping Design",
-    ar: "نمذجة معلومات البناء (BIM) في تصميم شبكات أنابيب PP-R",
+    de: "BIM in der PPR Rohrleitungsplanung",
+    en: "BIM in PPR Piping Design",
+    ar: "نمذجة معلومات البناء (BIM) في تصميم شبكات أنابيب PPR",
   },
   date: "2024-07-02",
   excerpt: {
-    de: "Entdecken Sie, wie Building Information Modeling (BIM) die Planung von TGA-Systemen und PP-R Rohrsystemen revolutioniert. Mit den K Aqua Revit- und IFC-Daten planen Sie kollisionsfrei, zeiteffizient und kostenoptimiert.",
-    en: "Discover how Building Information Modeling (BIM) is revolutionizing the planning of MEP systems and PP-R piping networks. With K Aqua Revit and IFC data, you can plan collision-free, time-efficiently, and cost-effectively.",
-    ar: "اكتشف كيف تُحدث نمذجة معلومات البناء (BIM) ثورة في تخطيط أنظمة الهندسة الميكانيكية والكهربائية والسباكة (MEP) وشبكات أنابيب PP-R. باستخدام بيانات K Aqua Revit و IFC، يمكنك التخطيط بدون تعارضات، وبكفاءة في الوقت، وبتكلفة محسنة.",
+    de: "Entdecken Sie, wie Building Information Modeling (BIM) die Planung von TGA Systemen und PPR Rohrsystemen revolutioniert. Mit den K Aqua Revit- und IFCdaten planen Sie kollisionsfrei, zeiteffizient und kostenoptimiert.",
+    en: "Discover how Building Information Modeling (BIM) is revolutionizing the planning of MEP systems and PPR piping networks. With K Aqua Revit and IFC data, you can plan collision-free, time-efficiently, and cost-effectively.",
+    ar: "اكتشف كيف تُحدث نمذجة معلومات البناء (BIM) ثورة في تخطيط أنظمة الهندسة الميكانيكية والكهربائية والسباكة (MEP) وشبكات أنابيب PPR. باستخدام بيانات K Aqua Revit و IFC، يمكنك التخطيط بدون تعارضات، وبكفاءة في الوقت، وبتكلفة محسنة.",
   },
   coverImage: "/images/news/bim-planning.jpg",
   category: "Digitalisierung",
-  tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "PP-R", "Rohrsysteme", "K Aqua"],
+  tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "PPR", "Rohrsysteme", "K Aqua"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -40,11 +40,11 @@ export const bimBuildingInformationModeling: NewsPost = {
                 </div>
               }
               title="Der digitale Zwilling Ihres Rohrleitungssystems"
-              lead="Die Komplexität moderner Großbauprojekte erfordert eine Planungsebene, die weit über den klassischen 2D-Grundriss hinausgeht. Building Information Modeling (BIM) ist der Schlüssel zur fehlerfreien, transparenten und effizienten Projektabwicklung. K Aqua stellt dafür alle Produktdaten als intelligente 3D-Objekte zur Verfügung."
+              lead="Die Komplexität moderner Großbauprojekte erfordert eine Planungsebene, die weit über den klassischen 2Dgrundriss hinausgeht. Building Information Modeling (BIM) ist der Schlüssel zur fehlerfreien, transparenten und effizienten Projektabwicklung. K Aqua stellt dafür alle Produktdaten als intelligente 3Dobjekte zur Verfügung."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 mix-blend-screen pointer-events-none">
-            {/* Technisches Canvas Element für Blueprint-Look */}
+            {/* Technisches Canvas Element für Blueprintlook */}
             <PipeFX variant="blueprint" size={380} />
           </div>
         </div>
@@ -54,7 +54,7 @@ export const bimBuildingInformationModeling: NewsPost = {
       <Reveal>
         <SectionHead
           title="Warum BIM den Unterschied macht"
-          lead="Die Integration von BIM-Daten in die TGA-Planung bringt messbare Vorteile auf der Baustelle."
+          lead="Die Integration von BIM Daten in die TGA Planung bringt messbare Vorteile auf der Baustelle."
           align="center"
         />
         <div className="mt-8">
@@ -63,7 +63,7 @@ export const bimBuildingInformationModeling: NewsPost = {
             stats={[
               { n: "30", u: "%", l: "Schnellere Planungsphase durch automatisierte Routings." },
               { n: "99", u: "%", l: "Weniger Kollisionen (Clash Detection) vor Baubeginn." },
-              { n: "100", u: "%", l: "K Aqua Sortiment als native Revit- und IFC-Daten verfügbar." }
+              { n: "100", u: "%", l: "K Aqua Sortiment als native Revit- und IFCdaten verfügbar." }
             ]}
           />
         </div>
@@ -89,12 +89,12 @@ export const bimBuildingInformationModeling: NewsPost = {
             },
             {
               title: "4D BIM",
-              description: "Das 3D-Modell wird mit dem Bauzeitenplan verknüpft. Logistik und Materiallieferungen (Just-in-Time) für Rohre und Fittings werden optimiert.",
+              description: "Das 3D Modell wird mit dem Bauzeitenplan verknüpft. Logistik und Materiallieferungen (Just-intime) für Rohre und Fittings werden optimiert.",
               icon: <Activity className="w-6 h-6" />
             },
             {
               title: "5D BIM",
-              description: "Echtzeit-Kostenkontrolle. Automatische Generierung von Stücklisten (BOM - Bill of Materials) auf Knopfdruck aus dem Modell.",
+              description: "Echtzeitkostenkontrolle. Automatische Generierung von Stücklisten (BOM - Bill of Materials) auf Knopfdruck aus dem Modell.",
               icon: <Coins className="w-6 h-6" />
             }
           ]}
@@ -108,18 +108,18 @@ export const bimBuildingInformationModeling: NewsPost = {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/50 z-10 pointer-events-none" />
             <PipeFX variant="isonet" size={600} />
             <div className="absolute z-20 bottom-8 left-8 right-8 text-center text-muted-foreground font-mono text-sm">
-              [SYSTEM_ROUTING_ACTIVE] Automatisches Routing und Clash-Detection mit K Aqua Revit-Families.
+              [SYSTEM_ROUTING_ACTIVE] Automatisches Routing und Clash Detection mit K Aqua Revitfamilies.
             </div>
           </div>
         </div>
       </Reveal>
 
-      {/* CTABand: BIM-Datenbank */}
+      {/* CTABand: BIM Datenbank */}
       <Reveal>
         <CTABand
-          title="Starten Sie Ihre BIM-Planung"
-          subtitle="Greifen Sie auf unsere vollständige, herstellergeprüfte BIM-Bibliothek zu (Revit, AutoCAD MEP, IFC)."
-          buttonText="BIM-Daten herunterladen"
+          title="Starten Sie Ihre BIM Planung"
+          subtitle="Greifen Sie auf unsere vollständige, herstellergeprüfte BIM Bibliothek zu (Revit, AutoCAD MEP, IFC)."
+          buttonText="BIM Daten herunterladen"
           buttonLink="/ressourcen/support"
           icon={<Download className="w-6 h-6" />}
         />

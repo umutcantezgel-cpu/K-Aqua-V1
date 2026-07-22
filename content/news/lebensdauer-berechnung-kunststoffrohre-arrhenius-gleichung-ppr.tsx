@@ -14,24 +14,24 @@ import { BarChart, Thermometer, Database, CheckCircle } from "@/components/ui/ic
 export const lebensdauerBerechnungPpr: NewsPost = {
   slug: "lebensdauer-berechnung-kunststoffrohre-arrhenius-gleichung-ppr",
   title: {
-    de: "Lebensdauer-Berechnung von PP-R Rohren",
-    en: "Lifespan Calculation of PP-R Pipes",
-    ar: "حساب العمر الافتراضي لأنابيب PP-R"
+    de: "Lebensdauerberechnung von PPR Rohren",
+    en: "Lifespan Calculation of PPR Pipes",
+    ar: "حساب العمر الافتراضي لأنابيب PPR"
   },
   date: "2025-02-08",
   teaser: {
-    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruck-Prüfung und Arrhenius-Gleichung die Alterung von PP-R Kunststoffrohren präzise vorhersagbar machen.",
-    en: "A 50-year lifespan for PP-R pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PP-R plastic pipes precisely predictable.",
-    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PP-R ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PP-R قابلاً للتنبؤ بدقة."
+    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruckprüfung und Arrheniusgleichung die Alterung von PPR Kunststoffrohren präzise vorhersagbar machen.",
+    en: "A 50-year lifespan for PPR pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PPR plastic pipes precisely predictable.",
+    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PPR ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PPR قابلاً للتنبؤ بدقة."
   },
   excerpt: {
-    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruck-Prüfung und Arrhenius-Gleichung die Alterung von PP-R Kunststoffrohren präzise vorhersagbar machen.",
-    en: "A 50-year lifespan for PP-R pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PP-R plastic pipes precisely predictable.",
-    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PP-R ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PP-R قابلاً للتنبؤ بدقة."
+    de: "50 Jahre Lebensdauer für PPR Rohrsysteme sind kein Werbeslogan, sondern angewandte Physik. Wie Zeitstandinnendruckprüfung und Arrheniusgleichung die Alterung von PPR Kunststoffrohren präzise vorhersagbar machen.",
+    en: "A 50-year lifespan for PPR pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PPR plastic pipes precisely predictable.",
+    ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PPR ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PPR قابلاً للتنبؤ بدقة."
   },
   coverImage: "/images/news/arrhenius-equation-pipe-lifespan.jpg",
   category: "Technologie & Material",
-  tags: ["Lebensdauer", "Arrhenius", "Zeitstandinnendruck", "Berechnung", "Materialprüfung", "PP-R"],
+  tags: ["Lebensdauer", "Arrhenius", "Zeitstandinnendruck", "Berechnung", "Materialprüfung", "PPR"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -48,7 +48,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
                 </div>
               }
               title="Mathematik statt Versprechungen"
-              lead="Wenn K Aqua eine Lebensdauer von über 50 Jahren für seine PP-R Rohrleitungssysteme angibt, basiert dies nicht auf Schätzungen, sondern auf strengen normativen Prüfverfahren gemäß ISO 9080. Thermoplastische Kunststoffe altern unter dem kombinierten Einfluss von Temperatur und mechanischer Spannung. Durch die Anwendung der Arrhenius-Beziehung aus der physikalischen Chemie lässt sich dieses Langzeitverhalten im Labor beschleunigen und präzise auf Jahrzehnte hochrechnen."
+              lead="Wenn K Aqua eine Lebensdauer von über 50 Jahren für seine PPR Rohrleitungssysteme angibt, basiert dies nicht auf Schätzungen, sondern auf strengen normativen Prüfverfahren gemäß ISO 9080. Thermoplastische Kunststoffe altern unter dem kombinierten Einfluss von Temperatur und mechanischer Spannung. Durch die Anwendung der Arrheniusbeziehung aus der physikalischen Chemie lässt sich dieses Langzeitverhalten im Labor beschleunigen und präzise auf Jahrzehnte hochrechnen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -62,9 +62,9 @@ export const lebensdauerBerechnungPpr: NewsPost = {
         <StatBand
           cols={3}
           stats={[
-            { n: "50", u: " Jahre", l: "Normative Basis-Auslegungslebensdauer (bei Dauerbetriebstemperaturen)." },
+            { n: "50", u: " Jahre", l: "Normative Basisauslegungslebensdauer (bei Dauerbetriebstemperaturen)." },
             { n: "1,25", l: "Sicherheitsbeiwert (C) für Trinkwasseranwendungen (Kalt/Warm) nach DIN 8077." },
-            { n: "110", u: "°C", l: "Testtemperatur im Labor zur künstlichen Alterung (Zeitstandbruch-Erzwingung)." }
+            { n: "110", u: "°C", l: "Testtemperatur im Labor zur künstlichen Alterung (Zeitstandbrucherzwingung)." }
           ]}
         />
       </Reveal>
@@ -72,7 +72,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       {/* Stagger: Methodik der Prüfung */}
       <Reveal>
         <SectionHead
-          title="Der Zeitstandinnendruck-Versuch"
+          title="Der Zeitstandinnendruckversuch"
           lead="Wie altert man ein Rohr in Monaten statt in Jahrzehnten?"
           align="center"
         />
@@ -85,11 +85,11 @@ export const lebensdauerBerechnungPpr: NewsPost = {
               },
               {
                 title: "2. Datenerfassung & Isothermen",
-                description: "Aus den gemessenen Berstdrücken und Standzeiten bei verschiedenen Temperaturen werden sogenannte Isothermen (Spannungs-Zeit-Kurven in einem doppellogarithmischen Diagramm) erstellt."
+                description: "Aus den gemessenen Berstdrücken und Standzeiten bei verschiedenen Temperaturen werden sogenannte Isothermen (Spannungszeitkurven in einem doppellogarithmischen Diagramm) erstellt."
               },
               {
-                title: "3. Die Arrhenius-Extrapolation",
-                description: "Die Arrhenius-Gleichung beschreibt die Temperaturabhängigkeit chemischer und physikalischer Alterungsprozesse. Mit ihr lassen sich die Hochtemperatur-Ergebnisse mathematisch auf Betriebstemperaturen (z.B. 20°C oder 70°C) extrapolieren."
+                title: "3. Die Arrheniusextrapolation",
+                description: "Die Arrheniusgleichung beschreibt die Temperaturabhängigkeit chemischer und physikalischer Alterungsprozesse. Mit ihr lassen sich die Hochtemperaturergebnisse mathematisch auf Betriebstemperaturen (z.B. 20°C oder 70°C) extrapolieren."
               }
             ]}
           />
@@ -99,14 +99,14 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       {/* BentoGrid: Einflussfaktoren */}
       <Reveal>
         <SectionHead
-          title="Faktoren der Rohr-Alterung"
-          lead="Drei Parameter bestimmen das Langzeitverhalten von PP-R."
+          title="Faktoren der Rohralterung"
+          lead="Drei Parameter bestimmen das Langzeitverhalten von PPR."
         />
         <BentoGrid
           items={[
             {
               title: "Betriebstemperatur",
-              description: "Der dominanteste Faktor. Eine Temperaturerhöhung um 10°C halbiert (vereinfacht gesagt nach der RGT-Regel) die chemische Lebensdauer des Polymers. Daher halten Kaltwasserrohre theoretisch Jahrhunderte.",
+              description: "Der dominanteste Faktor. Eine Temperaturerhöhung um 10°C halbiert (vereinfacht gesagt nach der RGTregel) die chemische Lebensdauer des Polymers. Daher halten Kaltwasserrohre theoretisch Jahrhunderte.",
               icon: <Thermometer className="w-6 h-6 text-primary" />,
               size: "large"
             },
@@ -118,7 +118,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
             },
             {
               title: "Medium & Oxidation",
-              description: "Chemikalien oder freies Chlor (im Heißwasser) können den Kunststoff oxidativ angreifen und die molekularen Ketten schneller spalten. K Aqua PP-R ist speziell wärmestabilisiert.",
+              description: "Chemikalien oder freies Chlor (im Heißwasser) können den Kunststoff oxidativ angreifen und die molekularen Ketten schneller spalten. K Aqua PPR ist speziell wärmestabilisiert.",
               icon: <CheckCircle className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -126,7 +126,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
         />
       </Reveal>
 
-      {/* DeepMatrix: Lebensdauer-Tabelle */}
+      {/* DeepMatrix: Lebensdauertabelle */}
       <Reveal>
         <SectionHead
           title="Betriebsbedingungen vs. Lebensdauer"
@@ -146,18 +146,18 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       {/* DeepFAQ: Miner'sche Regel */}
       <Reveal>
         <SectionHead
-          title="Experten-Wissen: Die Miner'sche Regel"
+          title="Expertenwissen: Die Miner'sche Regel"
           lead="Für schwankende Betriebsbedingungen."
         />
         <DeepFAQ
           items={[
             {
               q: "Was tun, wenn die Temperatur im System schwankt?",
-              a: "In der Praxis läuft ein Rohr nicht 50 Jahre konstant bei 70°C. Um die Lebensdauer bei zyklischen Belastungen (z.B. Tag/Nacht-Absenkung, Legionellenschaltung) zu berechnen, wird die Miner'sche Regel (Palmgren-Miner-Hypothese) angewendet. Hierbei wird der prozentuale Lebensdauer-Verbrauch für jedes Temperaturkollektiv aufaddiert."
+              a: "In der Praxis läuft ein Rohr nicht 50 Jahre konstant bei 70°C. Um die Lebensdauer bei zyklischen Belastungen (z.B. Tag/Nachtabsenkung, Legionellenschaltung) zu berechnen, wird die Miner'sche Regel (Palmgrenminerhypothese) angewendet. Hierbei wird der prozentuale Lebensdauerverbrauch für jedes Temperaturkollektiv aufaddiert."
             },
             {
               q: "Warum kann ein Rohr nicht unendlich extrapolieren?",
-              a: "Die ISO 9080 begrenzt den Extrapolationsfaktor auf maximal 100 für die Zeit bzw. 50 Jahre. Auch wenn die Berechnungsgleichung 300 Jahre ausgibt, darf das Material aus Sicherheitsgründen normativ nur für einen begrenzten Zeitraum ausgewiesen werden, da Langzeit-Oxidationseffekte nicht perfekt linear verlaufen."
+              a: "Die ISO 9080 begrenzt den Extrapolationsfaktor auf maximal 100 für die Zeit bzw. 50 Jahre. Auch wenn die Berechnungsgleichung 300 Jahre ausgibt, darf das Material aus Sicherheitsgründen normativ nur für einen begrenzten Zeitraum ausgewiesen werden, da Langzeitoxidationseffekte nicht perfekt linear verlaufen."
             }
           ]}
         />
@@ -167,7 +167,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       <Reveal>
         <CTABand
           title="Verlässlichkeit auf dem Papier"
-          subtitle="Benötigen Sie für Ihre Gebäudezertifizierung oder Ausschreibung die offiziellen Zeitstand-Regressionskurven und Prüfberichte unserer K Aqua PP-R Rohre?"
+          subtitle="Benötigen Sie für Ihre Gebäudezertifizierung oder Ausschreibung die offiziellen Zeitstandregressionskurven und Prüfberichte unserer K Aqua PPR Rohre?"
           buttonText="Zertifikate anfragen"
           buttonLink="/ressourcen/support"
           icon={<Database className="w-6 h-6" />}

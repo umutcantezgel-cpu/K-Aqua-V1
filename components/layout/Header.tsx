@@ -83,7 +83,7 @@ export default function Header() {
           <Link
             href="/"
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
-            aria-label="K-Aqua Homepage"
+            aria-label="K Aqua Homepage"
           >
             <Logo height={48} />
           </Link>
@@ -103,7 +103,7 @@ export default function Header() {
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Rohrsysteme</span>
                   <Link href="/produkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Übersicht aller K-Aqua PP-R Lösungen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Übersicht aller K Aqua PPR Lösungen</span>
                   </Link>
                   <Link href="/loesungen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">{t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
@@ -158,7 +158,7 @@ export default function Header() {
               </Link>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
-                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Über K-Aqua</span>
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Über K Aqua</span>
                   <Link href="/unternehmen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Das Unternehmen</span>
                     <span className="text-xs text-muted-foreground mt-0.5">Mission, Vision & Historie</span>

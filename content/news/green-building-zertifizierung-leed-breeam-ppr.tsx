@@ -17,23 +17,23 @@ export const greenBuildingZertifizierung: NewsPost = {
   },
   date: "2024-06-25",
   teaser: {
-    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PP-R Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
-    en: "Investors and developers are demanding sustainable buildings. Discover how modern PP-R piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
-    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PP-R الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
+    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PPR Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
+    en: "Investors and developers are demanding sustainable buildings. Discover how modern PPR piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
+    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PPR الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
   },
   excerpt: {
-    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PP-R Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
-    en: "Investors and developers are demanding sustainable buildings. Discover how modern PP-R piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
-    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PP-R الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
+    de: "Investoren und Bauherren fordern nachhaltige Gebäude. Erfahren Sie, wie moderne PPR Rohrsysteme von K Aqua bei LEED, BREEAM und DGNB entscheidende Credits in den Kategorien Wasser, Energie und Material liefern.",
+    en: "Investors and developers are demanding sustainable buildings. Discover how modern PPR piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
+    ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PPR الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
   },
   coverImage: "/images/news/green-building.jpg",
   category: "Nachhaltigkeit",
-  tags: ["Green Building", "LEED", "BREEAM", "DGNB", "ESG", "PP-R", "Rohrsysteme", "Nachhaltigkeit"],
+  tags: ["Green Building", "LEED", "BREEAM", "DGNB", "ESG", "PPR", "Rohrsysteme", "Nachhaltigkeit"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
 
-      {/* Intro mit SectionHead (sehr clean, Whitepaper-Stil) */}
+      {/* Intro mit SectionHead (sehr clean, Whitepaperstil) */}
       <Reveal>
         <SectionHead
           eyebrow={
@@ -42,12 +42,12 @@ export const greenBuildingZertifizierung: NewsPost = {
               <span>ESG & Zertifikate</span>
             </div>
           }
-          title="Der Weg zum Platin-Zertifikat beginnt in der TGA"
-          lead="Nachhaltige Gebäude sind längst kein Nischenthema mehr, sondern der Standard für zukunftssichere Gewerbe- und Wohnimmobilien. Gebäudezertifizierungen wie LEED, BREEAM und DGNB bewerten Bauwerke ganzheitlich nach strengen ESG-Kriterien. Eine oft unterschätzte Rolle spielt dabei das technische Rohrleitungssystem. Hochwertige PP-R Rohrsysteme von K Aqua können hierbei den ausschlaggebenden Unterschied zwischen einer Silber- und einer Platin-Zertifizierung ausmachen."
+          title="Der Weg zum Platinzertifikat beginnt in der TGA"
+          lead="Nachhaltige Gebäude sind längst kein Nischenthema mehr, sondern der Standard für zukunftssichere Gewerbe- und Wohnimmobilien. Gebäudezertifizierungen wie LEED, BREEAM und DGNB bewerten Bauwerke ganzheitlich nach strengen ESGkriterien. Eine oft unterschätzte Rolle spielt dabei das technische Rohrleitungssystem. Hochwertige PPR Rohrsysteme von K Aqua können hierbei den ausschlaggebenden Unterschied zwischen einer Silber- und einer Platinzertifizierung ausmachen."
         />
         <div className="mt-8 text-muted-foreground max-w-[800px] leading-relaxed text-lg">
           <p>
-            Immobilienentwickler, Fachplaner und Investoren richten sich zunehmend nach globalen ESG-Kriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieteinnahmen, senkt die laufenden Betriebskosten nachhaltig und sichert den langfristigen Werterhalt der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) im Audit gezielt zu sammeln.
+            Immobilienentwickler, Fachplaner und Investoren richten sich zunehmend nach globalen ESGkriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieteinnahmen, senkt die laufenden Betriebskosten nachhaltig und sichert den langfristigen Werterhalt der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) im Audit gezielt zu sammeln.
           </p>
         </div>
       </Reveal>
@@ -62,7 +62,7 @@ export const greenBuildingZertifizierung: NewsPost = {
           items={[
             [
               "LEED (USA)", 
-              "Leadership in Energy and Environmental Design. Der weltweit am weitesten verbreitete Standard. Fokussiert stark auf Energieeffizienz, Wassersparen und nachhaltige Materialauswahl. K Aqua PP-R Rohrsysteme punkten hier besonders in den Kategorien 'Water Efficiency' und 'Materials & Resources'."
+              "Leadership in Energy and Environmental Design. Der weltweit am weitesten verbreitete Standard. Fokussiert stark auf Energieeffizienz, Wassersparen und nachhaltige Materialauswahl. K Aqua PPR Rohrsysteme punkten hier besonders in den Kategorien 'Water Efficiency' und 'Materials & Resources'."
             ],
             [
               "BREEAM (UK)", 
@@ -74,22 +74,22 @@ export const greenBuildingZertifizierung: NewsPost = {
             ],
             [
               "WELL (Global)", 
-              "Der weltweite Standard mit Fokus auf die Gesundheit, Ergonomie und das Wohlbefinden der Gebäudenutzer. K Aqua PP-R Rohre unterstützen WELL optimal durch garantierten Erhalt der Trinkwassergüte ohne Abgabe schädlicher Substanzen (100 % BPA-frei und schwermetallfrei)."
+              "Der weltweite Standard mit Fokus auf die Gesundheit, Ergonomie und das Wohlbefinden der Gebäudenutzer. K Aqua PPR Rohre unterstützen WELL optimal durch garantierten Erhalt der Trinkwassergüte ohne Abgabe schädlicher Substanzen (100 % BPA-frei und schwermetallfrei)."
             ]
           ]}
         />
       </Reveal>
 
-      {/* BentoGrid: Wo PP-R Rohre Punkte sammeln */}
+      {/* BentoGrid: Wo PPR Rohre Punkte sammeln */}
       <Reveal>
         <SectionHead
-          title="Wie K Aqua PP-R Systeme Credits generieren"
+          title="Wie K Aqua PPR Systeme Credits generieren"
           lead="Die Wahl des richtigen Rohrleitungsmaterials hat direkte positive Auswirkungen auf mehrere Bewertungskategorien führender Zertifizierungssysteme."
         />
         <BentoGrid>
           <BentoGridItem
             title="Materialien & Ressourcen"
-            description="PP-R ist zu 100 % recycelbar. Es enthält keine giftigen Weichmacher, Schwermetalle oder Halogene. Der im Vergleich zu Metallrohren deutlich geringere Energieverbrauch bei der Herstellung reduziert den grauen CO2-Fußabdruck nachhaltig."
+            description="PPR ist zu 100 % recycelbar. Es enthält keine giftigen Weichmacher, Schwermetalle oder Halogene. Der im Vergleich zu Metallrohren deutlich geringere Energieverbrauch bei der Herstellung reduziert den grauen CO2 Fußabdruck nachhaltig."
             icon={<Recycle className="w-6 h-6 text-primary" />}
             colSpan={2}
           />
@@ -105,12 +105,12 @@ export const greenBuildingZertifizierung: NewsPost = {
           />
           <BentoGridItem
             title="Gesundheit & Komfort"
-            description="Hervorragende akustische Dämpfungseigenschaften reduzieren Strömungsgeräusche für ein leises Gebäudeumfeld. Die lebensmittelechte Materialstruktur garantiert höchsten Hygiene-Standard."
+            description="Hervorragende akustische Dämpfungseigenschaften reduzieren Strömungsgeräusche für ein leises Gebäudeumfeld. Die lebensmittelechte Materialstruktur garantiert höchsten Hygienestandard."
             icon={<Shield className="w-6 h-6 text-primary" />}
           />
           <BentoGridItem
             title="Ökobilanz (EPD)"
-            description="Zertifizierte Umweltproduktdeklarationen (EPDs) für K Aqua PP-R Rohrsysteme belegen transparent und objektiv den niedrigen CO2-Fußabdruck über die gesamte Lebensdauer."
+            description="Zertifizierte Umweltproduktdeklarationen (EPDs) für K Aqua PPR Rohrsysteme belegen transparent und objektiv den niedrigen CO2 Fußabdruck über die gesamte Lebensdauer."
             icon={<Layers className="w-6 h-6 text-primary" />}
           />
         </BentoGrid>
@@ -126,11 +126,11 @@ export const greenBuildingZertifizierung: NewsPost = {
           steps={[
             {
               t: "Systemauswahl & Planung",
-              d: "Auswahl der passenden K Aqua PP-R und PP-RCT Systeme (z.B. K-Faser für Kühlsysteme) basierend auf den Projektanforderungen und den angestrebten Credits."
+              d: "Auswahl der passenden K Aqua PPR und PPRCT Systeme (z.B. Kfaser für Kühlsysteme) basierend auf den Projektanforderungen und den angestrebten Credits."
             },
             {
               t: "Dokumentenbereitstellung",
-              d: "K Aqua liefert alle notwendigen Datenblätter, Umweltproduktdeklarationen (EPDs) und Hygiene-Zertifikate, die für den Auditor erforderlich sind."
+              d: "K Aqua liefert alle notwendigen Datenblätter, Umweltproduktdeklarationen (EPDs) und Hygienezertifikate, die für den Auditor erforderlich sind."
             },
             {
               t: "Installation & Nachweis",
@@ -138,7 +138,7 @@ export const greenBuildingZertifizierung: NewsPost = {
             },
             {
               t: "Erfolgreiches Audit",
-              d: "Das Gebäude erhält die Auszeichnung (z.B. LEED Platin). Das PP-R System trägt durch seine lange Lebensdauer zum Werterhalt der Immobilie bei."
+              d: "Das Gebäude erhält die Auszeichnung (z.B. LEED Platin). Das PPR System trägt durch seine lange Lebensdauer zum Werterhalt der Immobilie bei."
             }
           ]}
         />
@@ -149,7 +149,7 @@ export const greenBuildingZertifizierung: NewsPost = {
         <CTABand>
           <div className="flex items-center gap-3 text-accent font-bold mb-2">
             <Leaf className="w-6 h-6" />
-            <span>Nachhaltigkeits-Beratung</span>
+            <span>Nachhaltigkeitsberatung</span>
           </div>
           <h2 className="text-h2 font-heading font-extrabold text-inverse-foreground tracking-tight">
             Planen Sie ein Green Building?
@@ -162,7 +162,7 @@ export const greenBuildingZertifizierung: NewsPost = {
               href="/kontakt"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-accent-foreground font-bold hover:opacity-90 transition-opacity"
             >
-              <span>Nachhaltigkeits-Beratung anfragen</span>
+              <span>Nachhaltigkeitsberatung anfragen</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

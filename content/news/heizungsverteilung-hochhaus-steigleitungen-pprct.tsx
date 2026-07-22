@@ -14,19 +14,19 @@ import { Building2, ArrowUpRight, Activity, ShieldCheck } from "@/components/ui/
 export const heizungsverteilungHochhaus: NewsPost = {
   slug: "heizungsverteilung-hochhaus-steigleitungen-pprct",
   title: {
-    de: "Heizungsverteilung im Hochhaus: PP-RCT",
-    en: "Heating Distribution in High-Rise Buildings: PP-RCT",
-    ar: "توزيع التدفئة في المباني الشاهقة: PP-RCT"
+    de: "Heizungsverteilung im Hochhaus: PPRCT",
+    en: "Heating Distribution in Highrise Buildings: PPRCT",
+    ar: "توزيع التدفئة في المباني الشاهقة: PPRCT"
   },
   date: "2024-11-04",
   excerpt: {
-    de: "Hochhäuser stellen TGA-Planer vor statische und hydraulische Herausforderungen. K Aqua PPR & PP-RCT Rohrsysteme reduzieren das Gewicht im Steigschacht dramatisch, bieten exzellenten Schallschutz und widerstehen extremen Drücken in der Heizungsverteilung.",
-    en: "High-rise buildings present structural and hydraulic challenges for MEP planners. K Aqua PPR & PP-RCT pipe systems dramatically reduce weight in the riser shaft, offer excellent sound insulation, and withstand extreme pressures in heating distribution.",
-    ar: "تمثل المباني الشاهقة تحديات إنشائية وهيدروليكية لمخططي الهندسة الميكانيكية والكهربائية والسباكة (MEP). تقلل أنظمة أنابيب K Aqua PPR و PP-RCT بشكل كبير من الوزن في عمود الصاعد، وتوفر عزلًا صوتيًا ممتازًا، وتتحمل الضغوط الشديدة في توزيع التدفئة."
+    de: "Hochhäuser stellen TGA Planer vor statische und hydraulische Herausforderungen. K Aqua PPR & PPRCT Rohrsysteme reduzieren das Gewicht im Steigschacht dramatisch, bieten exzellenten Schallschutz und widerstehen extremen Drücken in der Heizungsverteilung.",
+    en: "High-rise buildings present structural and hydraulic challenges for MEP planners. K Aqua PPR & PPRCT pipe systems dramatically reduce weight in the riser shaft, offer excellent sound insulation, and withstand extreme pressures in heating distribution.",
+    ar: "تمثل المباني الشاهقة تحديات إنشائية وهيدروليكية لمخططي الهندسة الميكانيكية والكهربائية والسباكة (MEP). تقلل أنظمة أنابيب K Aqua PPR و PPRCT بشكل كبير من الوزن في عمود الصاعد، وتوفر عزلًا صوتيًا ممتازًا، وتتحمل الضغوط الشديدة في توزيع التدفئة."
   },
   coverImage: "/images/news/highrise-building.jpg",
   category: "Heizungstechnik",
-  tags: ["Hochhaus", "Steigleitung", "TGA", "PP-RCT", "PPR", "Rohrsysteme", "Schallschutz", "Heizungsverteilung"],
+  tags: ["Hochhaus", "Steigleitung", "TGA", "PPRCT", "PPR", "Rohrsysteme", "Schallschutz", "Heizungsverteilung"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -39,11 +39,11 @@ export const heizungsverteilungHochhaus: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Building2 className="w-5 h-5" />
-                  <span>High-Rise & TGA-Planung</span>
+                  <span>Highrise & TGA Planung</span>
                 </div>
               }
               title="Vertikale Ingenieurskunst ohne Rost: Effiziente Heizungsverteilung im Hochhaus"
-              lead="In Hochhäusern (High-Rise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PP-RCT und PPR Rohrsysteme lösen diese Herausforderungen bei vertikalen Steigleitungen elegant und dauerhaft sicher – selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
+              lead="In Hochhäusern (Highrise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PPRCT und PPR Rohrsysteme lösen diese Herausforderungen bei vertikalen Steigleitungen elegant und dauerhaft sicher – selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -53,11 +53,11 @@ export const heizungsverteilungHochhaus: NewsPost = {
         </div>
       </Reveal>
 
-      {/* Stagger: Argumente für PP-RCT in Hochhäusern */}
+      {/* Stagger: Argumente für PPRCT in Hochhäusern */}
       <Reveal>
         <SectionHead
           title="Vorteile im Steigschacht"
-          lead="Warum PP-RCT die klassische C-Stahl Steigleitung ablöst."
+          lead="Warum PPRCT die klassische Cstahl Steigleitung ablöst."
           align="center"
         />
         <div className="mt-8">
@@ -65,15 +65,15 @@ export const heizungsverteilungHochhaus: NewsPost = {
             items={[
               {
                 title: "1. Massive Gewichtsreduktion",
-                description: "Ein 100 Meter langer Strang aus DN 100 C-Stahlrohren wiegt mit Wasser gefüllt mehrere Tonnen. K Aqua PP-RCT ist bis zu 70 % leichter. Das erleichtert nicht nur die Montage ohne Schwerlastkräne im Schacht, sondern entlastet auch die Statik des Gebäudes erheblich."
+                description: "Ein 100 Meter langer Strang aus DN 100 Cstahlrohren wiegt mit Wasser gefüllt mehrere Tonnen. K Aqua PPRCT ist bis zu 70 % leichter. Das erleichtert nicht nur die Montage ohne Schwerlastkräne im Schacht, sondern entlastet auch die Statik des Gebäudes erheblich."
               },
               {
                 title: "2. Überragender Schallschutz",
-                description: "Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft – ideal für Luxus-Apartments."
+                description: "Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft – ideal für Luxusapartments."
               },
               {
                 title: "3. Absolute Korrosionssicherheit",
-                description: "Eine Leckage durch Durchrostung im 40. Stockwerk verursacht katastrophale Wasserschäden in den darunterliegenden Etagen. K Aqua PP-RCT ist absolut korrosionsfrei und garantiert jahrzehntelange Betriebssicherheit."
+                description: "Eine Leckage durch Durchrostung im 40. Stockwerk verursacht katastrophale Wasserschäden in den darunterliegenden Etagen. K Aqua PPRCT ist absolut korrosionsfrei und garantiert jahrzehntelange Betriebssicherheit."
               }
             ]}
           />
@@ -88,11 +88,11 @@ export const heizungsverteilungHochhaus: NewsPost = {
         />
         <DeepMatrix
           data={[
-            ["Eigenschaft", "K Aqua PP-RCT", "C-Stahl", "Kupfer"],
+            ["Eigenschaft", "K Aqua PPRCT", "Cstahl", "Kupfer"],
             ["Gewicht (leer, pro Meter)", "Sehr leicht (~2,5 kg)", "Sehr schwer (~10 kg)", "Schwer (~5 kg)"],
             ["Verbindungstechnik", "Muffenschweißen (ohne Flamme)", "Pressen / Schweißen (Flamme)", "Pressen / Löten (Flamme)"],
             ["Schallübertragung", "Sehr gering", "Sehr hoch", "Hoch"],
-            ["Korrosionsrisiko (Sauerstoff)", "Keines (mit EVOH-Schicht)", "Sehr hoch (Rostgefahr)", "Mittel"]
+            ["Korrosionsrisiko (Sauerstoff)", "Keines (mit EVOHschicht)", "Sehr hoch (Rostgefahr)", "Mittel"]
           ]}
         />
       </Reveal>
@@ -104,12 +104,12 @@ export const heizungsverteilungHochhaus: NewsPost = {
             items={[
               {
                 title: "Die Technikzentrale (Keller)",
-                description: "Hier herrscht der höchste statische Druck der gesamten Wassersäule. K Aqua Rohre mit hohem SDR (z.B. SDR 7.4) und Glasfaserverstärkung halten selbst enormen Systemdrücken in High-Rise-Gebäuden mühelos stand.",
+                description: "Hier herrscht der höchste statische Druck der gesamten Wassersäule. K Aqua Rohre mit hohem SDR (z.B. SDR 7.4) und Glasfaserverstärkung halten selbst enormen Systemdrücken in Highrisegebäuden mühelos stand.",
                 icon: <Activity className="w-8 h-8 text-primary" />
               },
               {
                 title: "Der Steigschacht (Vertikal)",
-                description: "Auf dem Weg nach oben muss die thermische Längenänderung (Ausdehnung bei Heizwasser) kontrolliert werden. Durch fachgerecht berechnete Dehnungsbögen (U-Bögen) und Festpunkte nimmt das Rohr die Dehnung geräuschlos auf.",
+                description: "Auf dem Weg nach oben muss die thermische Längenänderung (Ausdehnung bei Heizwasser) kontrolliert werden. Durch fachgerecht berechnete Dehnungsbögen (Ubögen) und Festpunkte nimmt das Rohr die Dehnung geräuschlos auf.",
                 icon: <ArrowUpRight className="w-8 h-8 text-primary" />
               },
               {
@@ -130,7 +130,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
             items={[
               {
                 term: "Längenausdehnung",
-                definition: "Faserverstärktes PP-RCT reduziert die thermische Ausdehnung um ca. 75 % im Vergleich zu reinem PP-R und verhält sich ähnlich wie Metallrohre.",
+                definition: "Faserverstärktes PPRCT reduziert die thermische Ausdehnung um ca. 75 % im Vergleich zu reinem PPR und verhält sich ähnlich wie Metallrohre.",
                 icon: <ArrowUpRight className="w-6 h-6" />
               },
               {
@@ -156,7 +156,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
             stats={[
               { n: "70", u: "%", l: "Geringeres Eigengewicht im Vergleich zu metallischen Steigleitungen." },
               { n: "0", l: "Brandgefahr bei der Installation (Schweißen erfolgt elektrisch, keine offene Flamme)." },
-              { n: "20", u: "+", l: "Bar Betriebsdruck können durch die richtige SDR-Klasse abgesichert werden." }
+              { n: "20", u: "+", l: "Bar Betriebsdruck können durch die richtige SDRklasse abgesichert werden." }
             ]}
           />
         </div>
@@ -165,7 +165,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
       {/* CTABand: TGA Support */}
       <Reveal>
         <CTABand
-          title="Planen Sie ein High-Rise-Projekt?"
+          title="Planen Sie ein Highriseprojekt?"
           subtitle="Überlassen Sie uns die statische Berechnung. Unsere Ingenieure dimensionieren Ihre Steigleitungen, planen Dehnungsbögen und definieren die exakten Positionen für Festpunkte."
           buttonText="Berechnungsservice anfragen"
           buttonLink="/kontakt"

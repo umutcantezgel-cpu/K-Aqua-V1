@@ -19,7 +19,7 @@ export const isoZertifizierung: NewsPost = {
     ar: 'شهادات ISO 9001 و 14001 و 50001',
   },
   teaser: {
-    de: 'Das integrierte ISO Managementsystem der KWT GmbH umfasst ISO 9001, 14001 und 50001 für PPR-Rohrsysteme – DAkkS-akkreditiert, nach höchsten Industriestandards geprüft und zertifiziert.',
+    de: 'Das integrierte ISO Managementsystem der KWT GmbH umfasst ISO 9001, 14001 und 50001 für PPRrohrsysteme – DAkkS-akkreditiert, nach höchsten Industriestandards geprüft und zertifiziert.',
     en: 'The integrated ISO management system of KWT GmbH encompasses ISO 9001, 14001, and 50001 for PPR piping systems – DAkkS-accredited, tested and certified according to the highest industry standards.',
     ar: 'يشتمل نظام إدارة ISO المتكامل لشركة KWT GmbH على معايير ISO 9001 و14001 و50001 لأنظمة أنابيب PPR – وهو معتمد من DAkkS، ومختبر ومصادق عليه وفقاً لأعلى المعايير الصناعية.',
   },

@@ -108,7 +108,7 @@ export default async function Page({ params }: Props) {
     cta: tHomex(`tools.${idx}.cta`),
   }));
 
-  // 6) Branche vs. K-Aqua Comparison
+  // 6) Branche vs. K Aqua Comparison
   const vsBadItems = [
     tHomex('vsBad.0'),
     tHomex('vsBad.1'),
@@ -222,7 +222,7 @@ export default async function Page({ params }: Props) {
         </div>
       </section>
 
-      {/* 6) "Branche vs. K-Aqua"-Vergleich */}
+      {/* 6) "Branche vs. K Aqua"-Vergleich */}
       <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
@@ -281,7 +281,7 @@ export default async function Page({ params }: Props) {
             align="left"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            {/* K-Aqua Manifest */}
+            {/* K Aqua Manifest */}
             <Card span={2} className="flex flex-col md:flex-row gap-6 items-center justify-between">
               <div className="flex-1 flex flex-col gap-4 text-start">
                 <h3 className="font-heading font-bold text-xl text-foreground">

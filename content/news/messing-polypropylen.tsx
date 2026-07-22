@@ -19,7 +19,7 @@ export const messingPolypropylen: NewsPost = {
     ar: 'النحاس الأصفر يلتقي بالبولي بروبيلين'
   },
   teaser: {
-    de: 'Sanierung heißt fast immer Systemwechsel: Spezielle Übergangsfittings und PPR Rohrsysteme mit integriertem Messing-Gewinde machen die Anbindung an den Bestand absolut dicht, normgerecht und dauerhaft korrosionssicher.',
+    de: 'Sanierung heißt fast immer Systemwechsel: Spezielle Übergangsfittings und PPR Rohrsysteme mit integriertem Messinggewinde machen die Anbindung an den Bestand absolut dicht, normgerecht und dauerhaft korrosionssicher.',
     en: 'Renovation almost always means a system change: Special transition fittings and PPR pipe systems with integrated brass threads make the connection to the existing system absolutely leak-proof, compliant with standards, and permanently corrosion-resistant.',
     ar: 'التجديد يعني دائمًا تقريبًا تغيير النظام: تجهيزات الانتقال الخاصة وأنظمة أنابيب PPR ذات الخيوط النحاسية المدمجة تجعل الاتصال بالنظام الحالي مانعًا للتسرب تمامًا ومتوافقًا مع المعايير ومقاومًا للتآكل بشكل دائم.'
   },

@@ -47,7 +47,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
                 </div>
               }
               title="Die unsichtbare Gefahr im Druckluftnetz: Metall vs. PP-R Rohrsysteme"
-              lead="Druckluft in industriellen Druckluftanlagen ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand drastisch. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PP-R Rohrsysteme von K-Aqua verhalten sich grundlegend anders: Sie sind extrem zäh, absolut korrosionsfrei und reißen im Extremfall lediglich splitterfrei auf."
+              lead="Korrosion in metallischen Druckluftnetzen zerstört sensible Pneumatik. Erfahren Sie, warum K Aqua PP-R Rohrsysteme die sichere, saubere und dauerhaft dichte Lösung für industrielle Druckluftanlagen sind. Druckluft ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand drastisch. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PP-R Rohrsysteme von K-Aqua verhalten sich grundlegend anders: Sie sind extrem zäh, absolut korrosionsfrei und reißen im Extremfall lediglich splitterfrei auf."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -67,19 +67,19 @@ export const druckluftanlagenSicherheit: NewsPost = {
           items={[
             {
               title: "Splitterfreies Versagen",
-              description: "Sollte ein K Aqua PP-R Rohr (z.B. durch massive äußere Gewalteinwirkung) bersten, entstehen keine gefährlichen Splitter. Das Material reißt zäh auf, der Druck entweicht kontrolliert.",
+              description: "Stahlrohre fungieren bei Druckluft oft als Resonanzkörper und übertragen das Kompressor-Brummen durch die gesamte Werkhalle. PP-R besitzt hervorragende schalldämpfende Eigenschaften. Die Fließgeräusche und mechanischen Vibrationen werden vom Material geschluckt – für eine deutlich verbesserte Arbeitsplatzergonomie.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Keine Rostpartikel in Ventilen",
-              description: "Kondensat im Kompressornetz führt bei Stahlrohren zu Innenkorrosion. Rostpartikel lösen sich und zerstören empfindliche Pneumatikventile und Zylinder am Ende der Leitung. PP-R bleibt dauerhaft glatt und sauber.",
+              description: "Druckluft ist der Muskel der modernen Industrie. Ob Werkzeuge, CNC-Maschinen, Lackieranlagen oder Verpackungsroboter – wenn der Druck abfällt oder Verunreinigungen eintreten, stoppt die Produktion. Genau hier scheitern metallische Netze häufig auf Raten. Kondensat im System löst unweigerlich Korrosion aus. Rostpartikel lösen sich, wandern in die Pneumatik-Zylinder und zerstören teure Maschinen. K Aqua PP-R bietet die ultimative Alternative: Ein System, das nicht rostet, nicht leckt und dauerhaft saubere Druckluft liefert.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Weniger Druckverlust = Geringere Stromkosten",
-              description: "Die spiegelglatte Innenwand (Rauigkeit 0,007 mm) von PP-R Rohren minimiert den Strömungswiderstand. Der Kompressor muss weniger Leistung aufbringen, um den Betriebsdruck aufrechtzuerhalten.",
+              description: "Es dürfen ausschließlich ölfreie oder durch hochwirksame Ölabscheider und Filter gereinigte Druckluftströme durch Standard PP-R geleitet werden. Synthetische Kompressor-Öle können bei ständigem Kontakt bestimmte Kunststoffe angreifen. K Aqua bietet hierfür eine genaue Kompatibilitätsprüfung an.",
               icon: <Factory className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -117,7 +117,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
           items={[
             {
               title: "1. Flammfreies Verbinden",
-              description: "K Aqua Rohre werden per Heizelementmuffenschweißung verbunden. Es gibt keine offene Flamme, keine Brandgefahr und keine Funkenflug (Hot Works Permit oft nicht nötig)."
+              description: "K Aqua Rohre werden per Heizelementmuffenschweißung verbunden. Es gibt keine offene Flamme, keine Brandgefahr und keinen Funkenflug (Hot-Works-Permit oft nicht nötig)."
             },
             {
               title: "2. Geringes Gewicht",
@@ -125,7 +125,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
             },
             {
               title: "3. Sofortige Inbetriebnahme",
-              description: "Sobald die Schweißverbindung abgekühlt ist (wenige Minuten), ist sie voll belastbar. Das Druckluftnetz kann umgehend wieder unter Druck gesetzt werden."
+              description: "Im Gegensatz zu verzinktem Stahl gibt es bei K Aqua PP-R keine Korrosion. Auch bei hohem Kondensatanfall im Leitungsnetz lösen sich keine Partikel. Die Druckluft bleibt von der Einspeisung bis zur Maschine in absoluter Premium-Qualität erhalten."
             }
           ]}
         />

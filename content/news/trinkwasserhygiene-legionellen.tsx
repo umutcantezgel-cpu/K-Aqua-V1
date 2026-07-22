@@ -20,14 +20,14 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
     ar: 'نظافة مياه الشرب والبكتيريا الفيلقية',
   },
   teaser: {
-    de: 'Sauberes Trinkwasser am Einspeisepunkt nützt wenig, wenn veraltete Rohrsysteme kontaminiert sind. Erfahren Sie, wie K-Aqua PPR Kunststoffrohre durch extrem glatte Innenwände Legionellenwachstum und Biofilme effektiv verhindern.',
-    en: 'Clean drinking water at the entry point is of little use if outdated pipe systems are contaminated. Discover how K-Aqua PPR plastic pipes effectively prevent legionella growth and biofilms thanks to their extremely smooth inner walls.',
-    ar: 'المياه النظيفة عند نقطة الدخول لا فائدة منها إذا كانت أنظمة الأنابيب القديمة ملوثة. اكتشف كيف تمنع أنابيب K-Aqua PPR البلاستيكية بشكل فعال نمو البكتيريا الفيلقية والأغشية الحيوية بفضل جدرانها الداخلية شديدة النعومة.',
+    de: 'Sauberes Trinkwasser am Einspeisepunkt nützt wenig, wenn veraltete Rohrsysteme kontaminiert sind. Erfahren Sie, wie K Aqua PPR Kunststoffrohre durch extrem glatte Innenwände Legionellenwachstum und Biofilme effektiv verhindern.',
+    en: 'Clean drinking water at the entry point is of little use if outdated pipe systems are contaminated. Discover how K Aqua PPR plastic pipes effectively prevent legionella growth and biofilms thanks to their extremely smooth inner walls.',
+    ar: 'المياه النظيفة عند نقطة الدخول لا فائدة منها إذا كانت أنظمة الأنابيب القديمة ملوثة. اكتشف كيف تمنع أنابيب K Aqua PPR البلاستيكية بشكل فعال نمو البكتيريا الفيلقية والأغشية الحيوية بفضل جدرانها الداخلية شديدة النعومة.',
   },
   excerpt: {
-    de: 'Sauberes Trinkwasser am Einspeisepunkt nützt wenig, wenn veraltete Rohrsysteme kontaminiert sind. Erfahren Sie, wie K-Aqua PPR Kunststoffrohre durch extrem glatte Innenwände Legionellenwachstum und Biofilme effektiv verhindern.',
-    en: 'Clean drinking water at the entry point is of little use if outdated pipe systems are contaminated. Discover how K-Aqua PPR plastic pipes effectively prevent legionella growth and biofilms thanks to their extremely smooth inner walls.',
-    ar: 'المياه النظيفة عند نقطة الدخول لا فائدة منها إذا كانت أنظمة الأنابيب القديمة ملوثة. اكتشف كيف تمنع أنابيب K-Aqua PPR البلاستيكية بشكل فعال نمو البكتيريا الفيلقية والأغشية الحيوية بفضل جدرانها الداخلية شديدة النعومة.',
+    de: 'Sauberes Trinkwasser am Einspeisepunkt nützt wenig, wenn veraltete Rohrsysteme kontaminiert sind. Erfahren Sie, wie K Aqua PPR Kunststoffrohre durch extrem glatte Innenwände Legionellenwachstum und Biofilme effektiv verhindern.',
+    en: 'Clean drinking water at the entry point is of little use if outdated pipe systems are contaminated. Discover how K Aqua PPR plastic pipes effectively prevent legionella growth and biofilms thanks to their extremely smooth inner walls.',
+    ar: 'المياه النظيفة عند نقطة الدخول لا فائدة منها إذا كانت أنظمة الأنابيب القديمة ملوثة. اكتشف كيف تمنع أنابيب K Aqua PPR البلاستيكية بشكل فعال نمو البكتيريا الفيلقية والأغشية الحيوية بفضل جدرانها الداخلية شديدة النعومة.',
   },
   tags: ['Trinkwasserhygiene', 'Legionellenprävention', 'PPR Rohre', 'Gebäudetechnik', 'Biofilm', 'DVGW'],
   content: (
@@ -95,17 +95,17 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
           content={[
             {
               title: "Absolute Oberflächenglätte (k ≤ 0,007 mm)",
-              description: "Mit einer hydraulischen Rauheit von lediglich 0,007 mm ist das Innere eines K-Aqua PPR Rohres glatter als gewöhnliches Fensterglas. Kalk und Schmutz finden absolut keine Möglichkeit zur Anhaftung. Wo sich kein Kalk anlagern kann, entsteht auch kein schützender Biofilm für gefährliche Legionellen und Bakterien.",
+              description: "Mit einer hydraulischen Rauheit von lediglich 0,007 mm ist das Innere eines K Aqua PPR Rohres glatter als gewöhnliches Fensterglas. Kalk und Schmutz finden absolut keine Möglichkeit zur Anhaftung. Wo sich kein Kalk anlagern kann, entsteht auch kein schützender Biofilm für gefährliche Legionellen und Bakterien.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Droplet className="w-32 h-32 text-primary opacity-20" /></div>
             },
             {
               title: "100% Korrosionsfreiheit für die Ewigkeit",
-              description: "Kunststoff reagiert chemisch überhaupt nicht mit Wasser. Es entsteht absolut kein Rost oder Lochfraß, der das Trinkwasser verfärben oder als Nährboden dienen könnte. Selbst hochgradig gechlortes Wasser oder desinfizierende Chemikalienspülungen lassen den Werkstoff PP-R über Jahrzehnte hinweg völlig unbeeindruckt.",
+              description: "Kunststoff reagiert chemisch überhaupt nicht mit Wasser. Es entsteht absolut kein Rost oder Lochfraß, der das Trinkwasser verfärben oder als Nährboden dienen könnte. Selbst hochgradig gechlortes Wasser oder desinfizierende Chemikalienspülungen lassen den Werkstoff PPR über Jahrzehnte hinweg völlig unbeeindruckt.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Shield className="w-32 h-32 text-accent opacity-20" /></div>
             },
             {
               title: "Herausragende thermische Isolierung & Belastbarkeit",
-              description: "Polypropylen weist eine sehr geringe Wärmeleitfähigkeit auf. Kaltwasserleitungen erwärmen sich im Versorgungsschacht deutlich langsamer, Warmwasser kühlt auf dem Weg zur Zapfstelle kaum aus. Zudem überstehen K-Aqua PPR Rohre regelmäßige thermische Desinfektionen bei über 70 °C mühelos.",
+              description: "Polypropylen weist eine sehr geringe Wärmeleitfähigkeit auf. Kaltwasserleitungen erwärmen sich im Versorgungsschacht deutlich langsamer, Warmwasser kühlt auf dem Weg zur Zapfstelle kaum aus. Zudem überstehen K Aqua PPR Rohre regelmäßige thermische Desinfektionen bei über 70 °C mühelos.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Thermometer className="w-32 h-32 text-blue-500 opacity-20" /></div>
             }
           ]}
@@ -115,7 +115,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Mikroskopischer Vergleich: Metallrohr vs K-Aqua PPR Rohr Innenfläche" />
+          <PremiumAssetPlaceholder label="Mikroskopischer Vergleich: Metallrohr vs K Aqua PPR Rohr Innenfläche" />
         </Reveal>
       </section>
 
@@ -124,8 +124,8 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
         <Reveal>
           <StatBand 
             stats={[
-              { n: "0,007", u: "mm", l: "Rauheit der Innenwand – verhindert Biofilm-Anhaftung" },
-              { n: "100", u: "%", l: "Lebensmittelecht, UBA-KTW-BWGL zertifiziert und geschmacksneutral" },
+              { n: "0,007", u: "mm", l: "Rauheit der Innenwand – verhindert BiofilmAnhaftung" },
+              { n: "100", u: "%", l: "Lebensmittelecht, UBAKTWBWGL zertifiziert und geschmacksneutral" },
               { n: "0", u: "", l: "Haftgrund für Bakterien & Korrosion" },
             ]} 
             cols={250}
@@ -142,7 +142,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               Kompromisslose Legionellenprävention in sensiblen Gebäuden
             </h2>
             <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">
-              Ein Ausbruch der Legionärskrankheit bedeutet für Betreiber ein massives haftungsrechtliches und gesundheitliches Risiko. Hier bietet unser K-Aqua PPR Rohrsystem die maximale Sicherheit.
+              Ein Ausbruch der Legionärskrankheit bedeutet für Betreiber ein massives haftungsrechtliches und gesundheitliches Risiko. Hier bietet unser K Aqua PPR Rohrsystem die maximale Sicherheit.
             </p>
           </div>
           <BentoGrid className="max-w-full mx-auto">
@@ -162,7 +162,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
             />
             <BentoGridItem
               title="Öffentliche Einrichtungen & Sportstätten"
-              description="In Schulen oder Großsporthallen steht das Wasser über Ferienzeiten oft wochenlang still. K-Aqua PPR stellt sicher, dass sich auch bei erneuter Inbetriebnahme keine Rostpartikel oder Keimherde ablösen."
+              description="In Schulen oder Großsporthallen steht das Wasser über Ferienzeiten oft wochenlang still. K Aqua PPR stellt sicher, dass sich auch bei erneuter Inbetriebnahme keine Rostpartikel oder Keimherde ablösen."
               header={<div className="w-full h-48 bg-card rounded-t-2xl flex items-center justify-center border-b border-card-border"><Users className="w-24 h-24 text-foreground opacity-20" /></div>}
               icon={<Users className="h-6 w-6 text-foreground" />}
               className="md:col-span-3"
@@ -182,7 +182,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               Investition in reine Gesundheit &amp; Normkonformität
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Die Wahl des richtigen Rohrleitungssystems ist weit mehr als eine technische Detailfrage für den Installateur. Es ist eine fundamentale Entscheidung für den dauerhaften Gesundheitsschutz aller Gebäudeinsassen. K-Aqua bietet Planern, Fachhandwerkern und Bauherren die Gewissheit, Trinkwasserhygiene und Legionellenprävention kompromisslos, dauerhaft und normgerecht nach DIN 1988 und VDI 6023 zu lösen.
+              Die Wahl des richtigen Rohrleitungssystems ist weit mehr als eine technische Detailfrage für den Installateur. Es ist eine fundamentale Entscheidung für den dauerhaften Gesundheitsschutz aller Gebäudeinsassen. K Aqua bietet Planern, Fachhandwerkern und Bauherren die Gewissheit, Trinkwasserhygiene und Legionellenprävention kompromisslos, dauerhaft und normgerecht nach DIN 1988 und VDI 6023 zu lösen.
             </p>
           </div>
         </Reveal>

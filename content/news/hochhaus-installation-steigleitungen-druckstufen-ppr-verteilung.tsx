@@ -15,12 +15,12 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
   slug: "hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung",
   title: {
     de: "Steigleitungen im Hochhaus mit PPR",
-    en: "High-Rise Building Risers with PPR",
+    en: "Highrise Building Risers with PPR",
     ar: "الأنابيب الصاعدة في المباني الشاهقة باستخدام PPR"
   },
   date: "2025-01-27",
   excerpt: {
-    de: "Wolkenkratzer fordern die TGA-Hydraulik heraus. Erfahren Sie, wie Sie mit K Aqua PPR Rohrsystemen Druckzonen in Steigleitungen optimal planen, statische Lasten im Schacht sicher abfangen und Montagekosten sparen.",
+    de: "Wolkenkratzer fordern die TGA Hydraulik heraus. Erfahren Sie, wie Sie mit K Aqua PPR Rohrsystemen Druckzonen in Steigleitungen optimal planen, statische Lasten im Schacht sicher abfangen und Montagekosten sparen.",
     en: "Skyscrapers challenge MEP hydraulics. Discover how to optimally plan pressure zones in risers using K Aqua PPR pipe systems, safely absorb static loads in the service shafts, and save on installation costs.",
     ar: "تشكل ناطحات السحاب تحدياً كبيراً للأنظمة الهيدروليكية. اكتشف كيف يمكنك التخطيط الأمثل لمناطق الضغط في الأنابيب الصاعدة باستخدام أنظمة أنابيب K Aqua PPR، وامتصاص الأحمال الساكنة بأمان في مسارات الأنابيب، وتوفير تكاليف التركيب."
   },
@@ -43,7 +43,7 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
                 </div>
               }
               title="Der Kampf gegen die Wassersäule: Steigleitungen & Druckzonen"
-              lead="In Hochhäusern summiert sich der statische Druck des Wassers pro 10 Meter Gebäudehöhe um exakt 1 bar. Ein 150 Meter hohes Gebäude erzeugt im Untergeschoss allein durch die Schwerkraft einen Ruhedruck von 15 bar. Um zu verhindern, dass Armaturen platzen und Fließgeräusche unerträglich werden, muss das Rohrnetz hydraulisch in Zonen unterteilt werden. Hier zeigt K Aqua PPR mit seinem Baukastensystem aus verschiedenen Wandstärken (SDR-Klassen) und langlebigen Rohrsystemen seine volle Stärke."
+              lead="In Hochhäusern summiert sich der statische Druck des Wassers pro 10 Meter Gebäudehöhe um exakt 1 bar. Ein 150 Meter hohes Gebäude erzeugt im Untergeschoss allein durch die Schwerkraft einen Ruhedruck von 15 bar. Um zu verhindern, dass Armaturen platzen und Fließgeräusche unerträglich werden, muss das Rohrnetz hydraulisch in Zonen unterteilt werden. Hier zeigt K Aqua PPR mit seinem Baukastensystem aus verschiedenen Wandstärken (SDRklassen) und langlebigen Rohrsystemen seine volle Stärke."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -53,10 +53,10 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
         </div>
       </Reveal>
 
-      {/* Stagger: Das Zonen-Konzept */}
+      {/* Stagger: Das Zonenkonzept */}
       <Reveal>
         <SectionHead
-          title="Druckzonen-Architektur"
+          title="Druckzonenarchitektur"
           lead="Warum ein Hochhaus niemals hydraulisch aus einem Guss bestehen darf."
           align="center"
         />
@@ -83,14 +83,14 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
       {/* DeepMatrix: SDR Klassen */}
       <Reveal>
         <SectionHead
-          title="Die richtige SDR-Klasse pro Zone"
-          lead="Materialkosten optimieren durch die Wahl der passenden Rohr-Wandstärke."
+          title="Die richtige SDRklasse pro Zone"
+          lead="Materialkosten optimieren durch die Wahl der passenden Rohrwandstärke."
         />
         <DeepMatrix
           data={[
-            ["Rohrtyp (SDR-Klasse)", "Wandstärke", "Einsatzbereich im Hochhaus", "Max. Druck (Kaltwasser, 20°C)"],
+            ["Rohrtyp (SDRklasse)", "Wandstärke", "Einsatzbereich im Hochhaus", "Max. Druck (Kaltwasser, 20°C)"],
             ["SDR 6 (PN 20)", "Sehr dick", "Keller bis Erdgeschoss (höchste Druckbelastung durch statische Säule)", "20 bar"],
-            ["SDR 7.4 (PN 16)", "Mittel", "Mittlere Etagen (Standard-Trinkwassernetz)", "16 bar"],
+            ["SDR 7.4 (PN 16)", "Mittel", "Mittlere Etagen (Standardtrinkwassernetz)", "16 bar"],
             ["SDR 11 (PN 10)", "Dünn", "Oberste Etagen (geringster statischer Druck) & reine Kaltwassernetze", "10 bar"]
           ]}
         />
@@ -100,13 +100,13 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
       <Reveal>
         <SectionHead
           title="Statik im Versorgungsschacht"
-          lead="Eine 100 Meter hohe wassergefüllte PP-R Leitung wiegt Tonnen. So wird sie sicher fixiert."
+          lead="Eine 100 Meter hohe wassergefüllte PPR Leitung wiegt Tonnen. So wird sie sicher fixiert."
         />
         <BentoGrid
           items={[
             {
-              title: "Festpunkt-Schweißmuffen",
-              description: "Echte Festpunkte fangen die Gewichtskraft der Rohrleitung ab. Dazu werden spezielle Elektro-Schweißmuffen direkt über und unter der massiven Stahlschelle auf das Rohr geschweißt. Das Rohr kann so nicht durch die Schelle rutschen.",
+              title: "Festpunktschweißmuffen",
+              description: "Echte Festpunkte fangen die Gewichtskraft der Rohrleitung ab. Dazu werden spezielle Elektroschweißmuffen direkt über und unter der massiven Stahlschelle auf das Rohr geschweißt. Das Rohr kann so nicht durch die Schelle rutschen.",
               icon: <Link className="w-6 h-6 text-primary" />,
               size: "large"
             },
@@ -118,7 +118,7 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
             },
             {
               title: "Ausdehnung im Etagenabzweig",
-              description: "Die thermische Längenausdehnung der Steigleitung wird oft in die Etagenabzweige geleitet. Der Abzweig fungiert als Biegeschenkel. Ein T-Stück im Schacht muss daher genügend Freiraum haben, um nach oben und unten mitzuwandern.",
+              description: "Die thermische Längenausdehnung der Steigleitung wird oft in die Etagenabzweige geleitet. Der Abzweig fungiert als Biegeschenkel. Ein Tstück im Schacht muss daher genügend Freiraum haben, um nach oben und unten mitzuwandern.",
               icon: <Settings className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -132,7 +132,7 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "70", u: "%", l: "Gewichtsersparnis eines K Aqua PP-R Rohrs gegenüber einem vergleichbaren Stahlrohr." },
+              { n: "70", u: "%", l: "Gewichtsersparnis eines K Aqua PPR Rohrs gegenüber einem vergleichbaren Stahlrohr." },
               { n: "0", l: "Schweißfunken im Schacht. Die Polyfusion erfolgt rein durch Hitze, ohne offene Flamme." },
               { n: "100", u: "m", l: "Und mehr: K Aqua Systeme werden erfolgreich in Wolkenkratzern weltweit eingesetzt." }
             ]}
@@ -143,22 +143,22 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
       {/* DeepFAQ: Fragen zur Montage */}
       <Reveal>
         <SectionHead
-          title="FAQ: Hochhaus-Montage"
+          title="FAQ: Hochhausmontage"
           lead="Praxistipps für den vertikalen Bau."
         />
         <DeepFAQ
           items={[
             {
               q: "Wie bekomme ich dicke Rohre in den 40. Stock?",
-              a: "Dies ist der größte logistische Vorteil von K Aqua. Ein 4 Meter langes PP-R Rohr der Dimension DN 110 kann von zwei Monteuren mühelos über das Treppenhaus getragen werden. Ein Stahlrohr gleicher Größe erfordert zwingend einen Kran oder schweren Lastenaufzug."
+              a: "Dies ist der größte logistische Vorteil von K Aqua. Ein 4 Meter langes PPR Rohr der Dimension DN 110 kann von zwei Monteuren mühelos über das Treppenhaus getragen werden. Ein Stahlrohr gleicher Größe erfordert zwingend einen Kran oder schweren Lastenaufzug."
             },
             {
               q: "Müssen Steigleitungen vorisoliert sein?",
-              a: "Ja, Warmwasser- und Zirkulationsleitungen müssen gemäß GEG (Gebäudeenergiegesetz) isoliert werden, Kaltwasserleitungen gegen Erwärmung und Tauwasser. In Schächten bietet sich hierfür das vorisolierte K Aqua Isopipe-System an."
+              a: "Ja, Warmwasser- und Zirkulationsleitungen müssen gemäß GEG (Gebäudeenergiegesetz) isoliert werden, Kaltwasserleitungen gegen Erwärmung und Tauwasser. In Schächten bietet sich hierfür das vorisolierte K Aqua Isopipesystem an."
             },
             {
               q: "Was ist mit dem Brandschutz im Schacht?",
-              a: "Wo PP-R Rohre durch Brandabschnitte (z.B. Etagenböden) geführt werden, müssen zugelassene Brandschutzmanschetten (Intumeszenz-Material) gesetzt werden, die das Kunststoffrohr im Brandfall in Sekundenbruchteilen zusammenquetschen und rauchgasdicht verschließen."
+              a: "Wo PPR Rohre durch Brandabschnitte (z.B. Etagenböden) geführt werden, müssen zugelassene Brandschutzmanschetten (Intumeszenzmaterial) gesetzt werden, die das Kunststoffrohr im Brandfall in Sekundenbruchteilen zusammenquetschen und rauchgasdicht verschließen."
             }
           ]}
         />
