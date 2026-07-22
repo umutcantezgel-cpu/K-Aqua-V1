@@ -1,9 +1,8 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
+import { TRANSLATED_LOCALES } from './languages';
 
-const AVAILABLE_LOCALES = [
-  'ar', 'de', 'en', 'en-GB', 'es', 'es-ES', 'fr', 'it', 'nl', 'pl', 'pt-BR', 'pt', 'ru', 'tr', 'zh'
-];
+const AVAILABLE_LOCALES: readonly string[] = TRANSLATED_LOCALES;
 
 export default getRequestConfig(async ({ requestLocale }) => {
   // Calculate/resolve the locale

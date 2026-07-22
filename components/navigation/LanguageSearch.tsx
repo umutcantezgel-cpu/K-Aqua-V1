@@ -167,6 +167,12 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
                       <span className={`text-sm font-medium ${l.id === activeId ? 'text-[#a476d4]' : ''}`}>
                         {l.de}
                       </span>
+                      {l.tier !== 'full' && (
+                        <span className={`rounded-full border px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider
+                                          ${dark ? 'border-white/20 text-white/50' : 'border-black/15 text-black/40'}`}>
+                          Beta
+                        </span>
+                      )}
                       <span dir={l.rtl ? 'rtl' : 'ltr'} className={`ms-auto text-[12.5px] ${mutedCls(dark)}`}>
                         {l.nat}
                       </span>
