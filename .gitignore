@@ -48,3 +48,6 @@ server.log
 build_output.log
 
 *.mp4
+
+# Internal documents — never ship or commit
+docs/confidential/
