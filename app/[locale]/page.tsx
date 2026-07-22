@@ -301,7 +301,7 @@ export default async function Page({ params }: Props) {
                   alt={tHomex('manifestTitle')} 
                   aspectRatio="4/3" 
                   shapeVariant="sweep-r" 
-                  src="/images/new-k-aqua/About Us Bild.webp" 
+                  src="/images/new-k-aqua/about-us.webp" 
                   loading="lazy"
                 />
               </div>
@@ -322,7 +322,7 @@ export default async function Page({ params }: Props) {
                   alt={tHomex('worldTitle')} 
                   aspectRatio="16/9" 
                   shapeVariant="sweep-l" 
-                  src="/images/new-k-aqua/Treffen Sie K Aqua auf der Big 5 Messe in Saudi-Arabien!.webp"
+                  src="/images/new-k-aqua/big5-messe-saudi-arabien.webp"
                   loading="lazy"
                 />
                 <Button

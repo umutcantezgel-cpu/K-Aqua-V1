@@ -111,7 +111,7 @@ export async function AboutDeep() {
                  alt="PPR-Rohre als beste Lösung für moderne Installationen - Langlebigkeit und Effizienz" 
                  aspectRatio="4/3" 
                  shapeVariant="sweep-r" 
-                 src="/images/new-k-aqua/K Aqua Einblick – Warum PPR-Rohre die beste Lösung für moderne Installationen sind.jpg" 
+                 src="/images/new-k-aqua/ppr-rohre-vorteile.jpg" 
                  className="shadow-lift"
                  priority
                />
@@ -121,7 +121,7 @@ export async function AboutDeep() {
                  alt="Was ist Polypropylen-Random-Copolymer (PPR)? Materialaufbau und Struktur" 
                  aspectRatio="4/3" 
                  shapeVariant="square" 
-                 src="/images/new-k-aqua/K Aqua Einblicke- Was ist Polypropylen-Random-Copolymer (PPR)?.jpg" 
+                 src="/images/new-k-aqua/was-ist-ppr.jpg" 
                  className="shadow-lift"
                  loading="lazy"
                />
@@ -131,7 +131,7 @@ export async function AboutDeep() {
                  alt="K-Aqua setzt neue Maßstäbe in der Flexibilität bei deutschen PPR-Rohren" 
                  aspectRatio="4/3" 
                  shapeVariant="sweep-l" 
-                 src="/images/new-k-aqua/K Aqua setzt neue Maßstäbe in der Flexibilität bei deutschen PPR-Rohren .jpg" 
+                 src="/images/new-k-aqua/flexibilitaet-ppr-rohre.jpg" 
                  className="shadow-lift"
                  loading="lazy"
                />
@@ -141,7 +141,7 @@ export async function AboutDeep() {
                  alt="Hochwertige Messingeinsätze treffen auf German PPR für maximale Leistung" 
                  aspectRatio="4/3" 
                  shapeVariant="sweep-r" 
-                 src="/images/new-k-aqua/K Aqua Messingfittings- Hochwertige Messingeinsätze treffen auf German PPR – für maximale Leistung.jpg" 
+                 src="/images/new-k-aqua/messingfittings-ppr.jpg" 
                  className="shadow-lift"
                  loading="lazy"
                />
