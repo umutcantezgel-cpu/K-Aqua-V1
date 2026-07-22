@@ -96,7 +96,7 @@ export default function Header() {
             {/* Globe Hub Trigger */}
             <button
               onClick={() => setGlobeHubOpen(true)}
-              aria-label="Open Map Navigation"
+              aria-label={t('mapAria')}
               className="flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
             >
               <Map className="w-5 h-5 shrink-0" />
@@ -143,7 +143,7 @@ export default function Header() {
       </header>
 
       {/* SEO Navigation (Always rendered in DOM, visually hidden) */}
-      <nav className="sr-only" aria-label="Sitemap">
+      <nav className="sr-only" aria-label={t('sitemapAria')}>
         <ul>
           <li><Link href="/">{t('home')}</Link></li>
           <li><Link href="/produkte">{t('products')}</Link></li>

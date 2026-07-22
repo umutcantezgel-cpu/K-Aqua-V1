@@ -82,7 +82,10 @@ export default async function LocaleLayout({
     'homex',
     'refs',
     'finder',
-    'finderx'
+    'finderx',
+    'enterprise',
+    'kontaktBlocks',
+    'kontaktForm'
   ]);
 
   const orgJsonLd = await getOrganizationJsonLd(locale);

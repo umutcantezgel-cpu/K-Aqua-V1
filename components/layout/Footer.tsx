@@ -33,11 +33,11 @@ export default function Footer() {
             </div>
           </div>
           <div className="shrink-0 flex flex-col gap-4">
-            <ButtonPrimary 
-              href="/kontakt" 
+            <ButtonPrimary
+              href="/kontakt"
               className="px-8 py-4 !text-base"
             >
-              Projekt anfragen
+              {t('footer.projectCta')}
             </ButtonPrimary>
           </div>
         </div>

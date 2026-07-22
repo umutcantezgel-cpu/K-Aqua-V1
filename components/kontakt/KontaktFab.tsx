@@ -1,10 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { KontaktBlock } from "./KontaktBlock";
 import { type KontaktSlug } from "@/content/kontakt-bloecke";
 import { usePathname } from "next/navigation";
 
 export function KontaktFab() {
+  const t = useTranslations("kontaktForm");
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -39,11 +41,11 @@ export function KontaktFab() {
     <div className={`v-fabwrap ${open ? "open" : ""}`}>
       {open && (
         <div style={{ position: "relative" }}>
-          <button className="kqk-close" type="button" aria-label="Schliessen" onClick={() => setOpen(false)}>x</button>
+          <button className="kqk-close" type="button" aria-label={t("closeAria")} onClick={() => setOpen(false)}>x</button>
           <KontaktBlock variant="fab" slug={slug} tone="inverse" />
         </div>
       )}
-      <button className="kqk-fab" type="button" aria-label="Kontakt" onClick={() => setOpen(!open)}>
+      <button className="kqk-fab" type="button" aria-label={t("fabAria")} onClick={() => setOpen(!open)}>
         <span className="kk">K</span>
         <span className="x1"></span>
         <span className="x2"></span>

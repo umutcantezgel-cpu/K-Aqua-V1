@@ -1,5 +1,6 @@
 // components/kontakt/KontaktBlock.tsx
-import { KONTAKT, type KontaktSlug } from "@/content/kontakt-bloecke";
+import { useTranslations } from "next-intl";
+import { KONTAKT_SLUGS, type KontaktSlug } from "@/content/kontakt-bloecke";
 import { KontaktForm } from "./KontaktForm";
 
 export type KontaktVariant = "block" | "band" | "hero" | "inline" | "row" | "sidebar" | "tile" | "sticky" | "fab" | "modal";
@@ -11,30 +12,52 @@ interface Props {
   tone?: KontaktTone;
 }
 
-function CtxFull({ c }: { c: any }) {
+interface KontaktContent {
+  kicker: string;
+  head: string;
+  short: string;
+  text: string;
+  interest: string;
+  done: string;
+}
+
+function Promise_() {
+  const tf = useTranslations("kontaktForm");
+  return <div className="kqk-promise"><i /><span>{tf("promise")}</span></div>;
+}
+
+function CtxFull({ c }: { c: KontaktContent }) {
   return (
     <div className="kqk-ctx">
       <div className="kqk-k">{c.kicker}</div>
       <h2 className="kqk-h">{c.head}</h2>
       <p className="kqk-t">{c.text}</p>
-      <div className="kqk-promise"><i /><span>Antwort innerhalb eines Arbeitstages</span></div>
+      <Promise_ />
     </div>
   );
 }
 
-function CtxShort({ c, withPromise }: { c: any, withPromise?: boolean }) {
+function CtxShort({ c, withPromise }: { c: KontaktContent, withPromise?: boolean }) {
   return (
     <div className="kqk-ctx">
       <div className="kqk-k">{c.kicker}</div>
       <h2 className="kqk-h sh">{c.short}</h2>
-      {withPromise && <div className="kqk-promise"><i /><span>Antwort innerhalb eines Arbeitstages</span></div>}
+      {withPromise && <Promise_ />}
     </div>
   );
 }
 
 export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }: Props) {
-  const c = KONTAKT[slug] ?? KONTAKT.fallback;
-  if (!KONTAKT[slug]) console.warn(`KontaktBlock: kein Content fuer Slug "${slug}", Fallback aktiv`);
+  const t = useTranslations("kontaktBlocks");
+  const key: KontaktSlug = (KONTAKT_SLUGS as readonly string[]).includes(slug) ? slug : "fallback";
+  const c: KontaktContent = {
+    kicker: t(`${key}.kicker`),
+    head: t(`${key}.head`),
+    short: t(`${key}.short`),
+    text: t(`${key}.text`),
+    interest: t(`${key}.interest`),
+    done: t(`${key}.done`),
+  };
 
   const cls = `kqk v-${variant} ${tone ? `t-${tone}` : ""}`;
 
@@ -44,7 +67,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
       content = (
         <div className="kqk-grid">
           <CtxFull c={c} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="full" />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="full" />
         </div>
       );
       break;
@@ -52,7 +75,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
       content = (
         <div className="kqk-ctr">
           <CtxShort c={c} withPromise />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="row" slimDone />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
         </div>
       );
       break;
@@ -61,7 +84,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <div className="kqk-ctr" style={{ display: "flex", flexWrap: "wrap", gap: "14px", alignItems: "center" }}>
           <h2 className="kqk-h sh kqk-ctx" style={{ flex: 1, minWidth: "220px" }}>{c.short}</h2>
           <div className="kqk-right" style={{ flex: 2 }}>
-            <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="row" slimDone />
+            <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
           </div>
         </div>
       );
@@ -70,7 +93,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
       content = (
         <div className="kqk-ctr">
           <CtxShort c={c} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="row" slimDone />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
         </div>
       );
       break;
@@ -79,7 +102,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <div style={{ display: "flex", gap: "14px", alignItems: "center", flexWrap: "wrap" }}>
           <div className="kqk-promise kqk-ctx" style={{ margin: 0, flex: "none" }}><i /><span className="sh2">{c.short}</span></div>
           <div className="kqk-right" style={{ flex: 1 }}>
-            <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="row" slimDone />
+            <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
           </div>
         </div>
       );
@@ -89,7 +112,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <>
           <CtxShort c={c} withPromise />
           <div style={{ height: "14px" }} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="stack" slimDone />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="stack" slimDone />
         </>
       );
       break;
@@ -98,7 +121,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <>
           <CtxShort c={c} />
           <div style={{ height: "12px" }} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="stack" slimDone />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="stack" slimDone />
         </>
       );
       break;
@@ -107,7 +130,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <>
           <CtxShort c={c} />
           <div style={{ height: "12px" }} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="stack" slimDone />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="stack" slimDone />
         </>
       );
       break;
@@ -116,7 +139,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
         <>
           <CtxFull c={c} />
           <div style={{ height: "16px" }} />
-          <KontaktForm slug={slug} interest={c.interest} done={c.done} layout="stack" />
+          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="stack" />
         </>
       );
       break;
@@ -125,7 +148,7 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
   }
 
   return (
-    <section className={cls} aria-label="Kontakt">
+    <section className={cls} aria-label={c.kicker}>
       {content}
     </section>
   );
