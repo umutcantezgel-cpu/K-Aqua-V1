@@ -10,9 +10,9 @@ import ThemeToggle from './ThemeToggle';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { useLocale } from 'next-intl';
 import MegaMenu from './MegaMenu';
-import { Globe, ArrowRight } from '@/components/ui/icon';
+import { Globe } from '@/components/ui/icon';
 import GlobeHub from '@/components/navigation/GlobeHub';
-import { ChevronDown, Map, Compass, Box, Settings, HardHat } from 'lucide-react';
+import { ChevronDown, Map } from 'lucide-react';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -55,7 +55,7 @@ export default function Header() {
   }, []);
 
   const headerClass = clsx(
-    "fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-out h-(--header-h) flex items-center text-foreground",
+    "fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-out h-[72px] flex items-center text-foreground",
     menuOpen
       ? "bg-background"
       : scrolled
@@ -82,21 +82,57 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 outline-none rounded-xl focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-4 focus-visible:ring-offset-background active:scale-[0.98] transition-transform duration-fast z-50 shrink-0"
-            title={t('home')}
+            className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
+            aria-label={t('home')}
           >
-            <span className="sr-only">K-Aqua Home</span>
             <Logo height={48} />
           </Link>
 
-          {/* Main Desktop Header Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 font-heading font-semibold text-[15px] tracking-tight">
-            <Link href="/produkte" className="hover:text-primary transition-colors py-2">{t('products')}</Link>
-            <Link href="/loesungen" className="hover:text-primary transition-colors py-2">{t('solutions')}</Link>
-            <Link href="/referenzen" className="hover:text-primary transition-colors py-2">{t('references')}</Link>
-            <Link href="/unternehmen" className="hover:text-primary transition-colors py-2">{t('about')}</Link>
-            <Link href="/academy" className="hover:text-primary transition-colors py-2">{t('academy')}</Link>
-            <Link href="/kontakt" className="hover:text-primary transition-colors py-2">{t('contact')}</Link>
+          {/* Desktop Navigation (Rich Dropdowns) */}
+          <nav className="hidden xl:flex items-center justify-center flex-1 mx-2 lg:mx-4 gap-1 min-w-0">
+            
+            {/* Group 1: Produkte & Tools */}
+            <div className="relative group">
+              <Link href="/produkte" className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle">
+                {t('products')}
+                <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
+              </Link>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-52 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <Link href="/produkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('products')}</Link>
+                <Link href="/produkte/finder" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('finder')}</Link>
+                <Link href="/co2-rechner" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('co2')}</Link>
+                <Link href="/loesungen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('solutions')}</Link>
+              </div>
+            </div>
+
+            {/* Group 2: Wissen & Vertrauen */}
+            <div className="relative group">
+              <span className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 cursor-pointer group-hover:text-foreground group-hover:bg-background-subtle">
+                Wissen &amp; Vertrauen
+                <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
+              </span>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <Link href="/academy" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('academy')}</Link>
+                <Link href="/trust-center" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('trust')}</Link>
+                <Link href="/service" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('service')}</Link>
+                <Link href="/partnerschaft" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('partners')}</Link>
+              </div>
+            </div>
+
+            {/* Group 3: Unternehmen */}
+            <div className="relative group">
+              <Link href="/unternehmen" className="px-3 2xl:px-4 py-2 text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle">
+                {t('about')}
+                <ChevronDown className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
+              </Link>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-48 opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 bg-card border border-card-border rounded-xl shadow-lg p-2 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <Link href="/unternehmen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('about')}</Link>
+                <Link href="/maerkte" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('markets')}</Link>
+                <Link href="/referenzen" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('references')}</Link>
+                <Link href="/karriere" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('career')}</Link>
+                <Link href="/news" className="px-4 py-2 text-sm font-medium rounded-lg hover:bg-primary-soft hover:text-primary transition-colors text-foreground">{t('news')}</Link>
+              </div>
+            </div>
           </nav>
 
           {/* Action bar (Unified Menu & Globe) */}
@@ -104,7 +140,7 @@ export default function Header() {
             {/* Globe Hub Trigger */}
             <button
               onClick={() => setGlobeHubOpen(true)}
-              aria-label={t('mapAria')}
+              aria-label={t('mapAria') || 'Open Map Navigation'}
               className="flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
             >
               <Map className="w-5 h-5 shrink-0" />
@@ -117,6 +153,7 @@ export default function Header() {
                 {locale.toUpperCase()}
               </span>
             </Link>
+
             {/* Theme toggle — desktop only */}
             <div className="hidden md:flex">
               <ThemeToggle />
@@ -131,10 +168,10 @@ export default function Header() {
               </Link>
             </span>
 
-            {/* Mobile Hamburger Menu Button (now always visible per user request) */}
+            {/* Mobile Hamburger Menu Button */}
             <button
               type="button"
-              className="relative flex items-center justify-center h-11 w-11 rounded-xl border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.95] transition-all duration-fast cursor-pointer group border-card-border bg-card text-foreground hover:bg-background-subtle"
+              className="xl:hidden relative flex items-center justify-center h-11 w-11 rounded-xl border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.95] transition-all duration-fast cursor-pointer group border-card-border bg-card text-foreground hover:bg-background-subtle"
               aria-label={t('menu')}
               aria-expanded={menuOpen}
               aria-controls="mega-menu"
@@ -151,7 +188,7 @@ export default function Header() {
       </header>
 
       {/* SEO Navigation (Always rendered in DOM, visually hidden) */}
-      <nav className="sr-only" aria-label={t('sitemapAria')}>
+      <nav className="sr-only" aria-label={t('sitemapAria') || 'Sitemap'}>
         <ul>
           <li><Link href="/">{t('home')}</Link></li>
           <li><Link href="/produkte">{t('products')}</Link></li>
@@ -169,7 +206,6 @@ export default function Header() {
           <li><Link href="/karriere">{t('career')}</Link></li>
           <li><Link href="/news">{t('news')}</Link></li>
           <li><Link href="/kontakt">{t('contact')}</Link></li>
-          <li><Link href="/sitemap">Sitemap</Link></li>
         </ul>
       </nav>
       <AnimatePresence mode="wait">
