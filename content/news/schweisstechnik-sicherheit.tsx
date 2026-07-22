@@ -161,7 +161,7 @@ export const schweisstechnikSicherheit: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Makroaufnahme: Die nahtlose Verbindung zwischen Rohr und Fitting im Querschnitt" />
+          <PremiumAssetPlaceholder label="Makroaufnahme: Die nahtlose Verbindung zwischen Rohr und Fitting im Querschnitt" video="/videos/socket-welding-hand.mp4" />
         </Reveal>
       </section>
 

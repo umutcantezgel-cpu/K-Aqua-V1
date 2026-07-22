@@ -170,7 +170,7 @@ export const messingPolypropylen: NewsPost = {
               </div>
             </div>
             <div className="h-full min-h-[450px]">
-              <PremiumAssetPlaceholder label="Sanierung im laufenden Krankenhausbetrieb" />
+              <PremiumAssetPlaceholder label="Sanierung im laufenden Krankenhausbetrieb" image="/images/new-k-aqua/messingfittings-ppr.jpg" />
             </div>
           </div>
         </Reveal>

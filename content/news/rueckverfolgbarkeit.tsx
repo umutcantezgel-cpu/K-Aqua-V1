@@ -59,7 +59,7 @@ export const rueckverfolgbarkeit: NewsPost = {
         <Reveal>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-full min-h-[450px]">
-              <PremiumAssetPlaceholder label="Industrielle Rohrinstallation Hochbau" />
+              <PremiumAssetPlaceholder label="Industrielle Rohrinstallation Hochbau" image="/images/new-k-aqua/fertigung-pipes.jpg" />
             </div>
             <div>
               <Eyebrow text="Die Lebensversicherung des Gebäudes" />

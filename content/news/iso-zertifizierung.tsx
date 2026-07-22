@@ -53,7 +53,7 @@ export const isoZertifizierung: NewsPost = {
               </p>
             </div>
             <div className="h-full min-h-[400px]">
-              <PremiumAssetPlaceholder label="Extrusionsanlage KWT GmbH" />
+              <PremiumAssetPlaceholder label="Extrusionsanlage KWT GmbH" video="/videos/factory.mp4" />
             </div>
           </div>
         </Reveal>
@@ -171,7 +171,7 @@ export const isoZertifizierung: NewsPost = {
         <Reveal>
           <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
             <div className="w-full lg:w-1/2">
-              <PremiumAssetPlaceholder label="Wärmerückgewinnungsanlage" />
+              <PremiumAssetPlaceholder label="Wärmerückgewinnungsanlage" image="/images/new-k-aqua/fertigung-pipes.jpg" />
             </div>
             <div className="w-full lg:w-1/2">
               <Eyebrow text="Deep Dive ISO 50001" />

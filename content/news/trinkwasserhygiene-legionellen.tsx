@@ -115,7 +115,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Mikroskopischer Vergleich: Metallrohr vs K Aqua PPR Rohr Innenfläche" />
+          <PremiumAssetPlaceholder label="Mikroskopischer Vergleich: Metallrohr vs K Aqua PPR Rohr Innenfläche" image="/images/new-k-aqua/was-ist-ppr.jpg" />
         </Reveal>
       </section>
 
