@@ -1,6 +1,7 @@
 // components/kontakt/KontaktForm.tsx
 "use client";
 import { useRef, useState } from "react";
+import { Link } from "@/lib/i18n/navigation";
 import { submitLead } from "@/app/actions/lead";
 import { INTERESSEN, DIREKTWAHL } from "@/content/kontakt-bloecke";
 
@@ -13,7 +14,7 @@ interface Props {
 }
 
 export function KontaktForm({ slug, interest, done, layout = "full", slimDone = false }: Props) {
-  const [state, setState] = useState<"idle" | "loading" | "success">("idle");
+  const [state, setState] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [sel, setSel] = useState(interest);
   const [errs, setErrs] = useState<{ p?: boolean; m?: boolean }>({});
   const started = useRef(Date.now());
@@ -29,7 +30,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     fd.set("interest", sel); fd.set("page", slug); fd.set("startedAt", String(started.current));
     setState("loading");
     const res = await submitLead(fd);
-    setState(res.ok ? "success" : "idle");
+    setState(res.ok ? "success" : "error");
   }
 
   const phoneField = (
@@ -72,7 +73,13 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     </button>
   );
 
-  const legal = <span className="kqk-legal">Keine Werbung, keine Weitergabe. <a href="/datenschutz">Datenschutz</a></span>;
+  const legal = <span className="kqk-legal">Keine Werbung, keine Weitergabe. <Link href="/datenschutz">Datenschutz</Link></span>;
+
+  const errorBanner = state === "error" ? (
+    <div className="kqk-error" role="alert">
+      Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an: <a href={`tel:${DIREKTWAHL.replace(/ /g, "")}`}>{DIREKTWAHL}</a>
+    </div>
+  ) : null;
 
   const renderForm = () => {
     if (layout === "row") {
@@ -82,6 +89,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           {emailField}
           {hpField}
           {sendBtn()}
+          {errorBanner}
         </form>
       );
     }
@@ -92,6 +100,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           {emailField}
           {chipsField(3)}
           {hpField}
+          {errorBanner}
           <div className="kqk-actions">{sendBtn()}</div>
           {legal}
         </form>
@@ -106,6 +115,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
         </div>
         {chipsField()}
         {hpField}
+        {errorBanner}
         <div className="kqk-actions">
           {sendBtn()}
           {legal}

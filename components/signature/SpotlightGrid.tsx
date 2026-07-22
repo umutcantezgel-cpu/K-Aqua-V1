@@ -12,12 +12,13 @@ export default function SpotlightGrid({ className = '' }: { className?: string }
 
   const getHref = (id: string) => {
     switch (id) {
-      case 'finder': return '/produkte';
+      case 'finder': return '/produkte/finder';
       case 'co2': return '/co2-rechner';
       case 'academy': return '/academy';
       case 'references': return '/referenzen';
       case 'trust': return '/trust-center';
       case 'partner': return '/partnerschaft';
+      case 'career': return '/karriere';
       default: return '/';
     }
   };
