@@ -151,7 +151,7 @@ export default function EnterpriseSection() {
 
       <div className="ent-hero text-center mb-16">
         <span className="ent-eyebrow"><span className="ent-status-dot"></span> {t('eyebrow')}</span>
-        <h1 className="ent-hero-title mx-auto">{t('heroTitle')}<em>{t('heroTitleEm')}</em></h1>
+        <h2 className="ent-hero-title mx-auto">{t('heroTitle')}<em>{t('heroTitleEm')}</em></h2>
         <p className="ent-hero-lead mx-auto">{t('heroLead')}</p>
       </div>
 
