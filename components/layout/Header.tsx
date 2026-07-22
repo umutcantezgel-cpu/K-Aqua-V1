@@ -55,7 +55,7 @@ export default function Header() {
   }, []);
 
   const headerClass = clsx(
-    "fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-out h-[72px] flex items-center text-foreground",
+    "fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-out h-(--header-h) flex items-center text-foreground",
     menuOpen
       ? "bg-background"
       : scrolled
