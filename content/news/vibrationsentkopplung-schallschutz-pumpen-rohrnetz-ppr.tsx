@@ -31,7 +31,7 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
   category: "Planung & Berechnung",
   tags: ["Schallschutz", "Vibration", "Pumpen", "Maschinenraum", "Kältemaschinen", "Akustik"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Pressure) */}
@@ -136,5 +136,5 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

@@ -26,7 +26,7 @@ export const klimaanlagenKuehldecken: NewsPost = {
   category: "Gebäudetechnik",
   tags: ["Kaltwasser", "Kühldecken", "Klimaanlagen", "PP-RCT", "PPR", "Rohrsysteme", "Taupunkt", "Korrosionsschutz"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -131,5 +131,5 @@ export const klimaanlagenKuehldecken: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

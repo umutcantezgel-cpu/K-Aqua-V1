@@ -27,7 +27,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
   category: "Wartung & Betrieb",
   tags: ["Reinigung", "Desinfektion", "Spülen", "Hygiene", "Chlor", "Wartung", "PP-R", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro */}
@@ -166,5 +166,5 @@ export const chemischeReinigungDesinfektion: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

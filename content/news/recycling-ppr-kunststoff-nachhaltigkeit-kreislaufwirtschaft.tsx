@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { SectionHead } from "@/components/ui/SectionHead";
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
@@ -32,7 +33,7 @@ export const recyclingPpr: NewsPost = {
   category: "Nachhaltigkeit",
   tags: ["Recycling", "Nachhaltigkeit", "Kreislaufwirtschaft", "PP-R", "Umweltschutz", "Thermoplast", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit ParallaxHero */}
@@ -162,5 +163,5 @@ export const recyclingPpr: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

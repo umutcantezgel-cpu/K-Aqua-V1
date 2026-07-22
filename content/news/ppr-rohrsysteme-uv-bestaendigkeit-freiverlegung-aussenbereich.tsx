@@ -27,7 +27,7 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
   category: "Materialkunde & Einsatzgebiete",
   tags: ["UV-Beständigkeit", "Freiverlegung", "Außenbereich", "Kühltürme", "Materialkunde", "Schutz"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       <ParallaxHero 
@@ -155,5 +155,5 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

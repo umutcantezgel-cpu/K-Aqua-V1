@@ -32,7 +32,7 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
   category: "Wirtschaftlichkeit",
   tags: ["TCO", "Lebenszykluskosten", "Wartungsfreiheit", "OPEX", "PP-R Rohrsysteme", "Wirtschaftlichkeit"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* ParallaxHero: Die finanzielle Perspektive */}
@@ -171,5 +171,5 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

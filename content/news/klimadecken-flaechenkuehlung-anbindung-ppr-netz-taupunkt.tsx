@@ -28,7 +28,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
   category: "Industrie & Kälte",
   tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PP-R", "PPR", "Rohrsysteme", "Kältetechnik"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -180,5 +180,5 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

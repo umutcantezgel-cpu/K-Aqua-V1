@@ -32,7 +32,7 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
   category: "Normen & Richtlinien",
   tags: ["Brandschutz", "Brandschott", "Rohrschacht", "DIN 4102", "Sicherheit", "PP-R", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -164,5 +164,5 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

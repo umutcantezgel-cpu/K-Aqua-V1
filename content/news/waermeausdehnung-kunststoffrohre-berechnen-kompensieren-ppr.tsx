@@ -32,7 +32,7 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
   category: "Planung & Berechnung",
   tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung", "PP-R Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -173,5 +173,5 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

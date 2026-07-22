@@ -28,7 +28,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
   category: "Heizungstechnik",
   tags: ["Hochhaus", "Steigleitung", "TGA", "PP-RCT", "PPR", "Rohrsysteme", "Schallschutz", "Heizungsverteilung"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Pressure) */}
@@ -174,5 +174,5 @@ export const heizungsverteilungHochhaus: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

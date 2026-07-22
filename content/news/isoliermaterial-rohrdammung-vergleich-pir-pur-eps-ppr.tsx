@@ -27,7 +27,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
   category: "Verarbeitung & Montage",
   tags: ["Isolierung", "PIR", "PUR", "EPS", "Wärmeschutz", "Fernwärme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -166,5 +166,5 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

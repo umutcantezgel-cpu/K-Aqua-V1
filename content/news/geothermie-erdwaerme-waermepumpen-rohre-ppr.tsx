@@ -32,7 +32,7 @@ export const geothermieErdwaerme: NewsPost = {
   category: "Erneuerbare Energien",
   tags: ["Geothermie", "Erdwärme", "Wärmepumpe", "Sole", "PP-R", "Tiefbau"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -174,5 +174,5 @@ export const geothermieErdwaerme: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

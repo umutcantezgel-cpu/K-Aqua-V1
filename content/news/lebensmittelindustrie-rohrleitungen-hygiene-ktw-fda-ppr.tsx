@@ -32,7 +32,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
   category: "Industrie & Anlagenbau",
   tags: ["Lebensmittelindustrie", "Trinkwasser", "FDA", "CIP-Reinigung", "PP-R", "Hygiene"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -153,5 +153,5 @@ export const lebensmittelindustrieHygiene: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

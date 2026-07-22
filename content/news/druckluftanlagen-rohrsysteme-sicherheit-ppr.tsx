@@ -32,7 +32,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
   category: "Industrie",
   tags: ["Druckluft", "Industrie", "Arbeitssicherheit", "Pneumatik", "PP-R", "Rohrsysteme", "Korrosion"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Pressure) */}
@@ -143,5 +143,5 @@ export const druckluftanlagenSicherheit: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

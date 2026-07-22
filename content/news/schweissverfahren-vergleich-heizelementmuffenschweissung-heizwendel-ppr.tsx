@@ -28,7 +28,7 @@ export const schweissverfahrenVergleich: NewsPost = {
   category: "Verarbeitung & Montage",
   tags: ["Schweißen", "Heizwendel", "Elektromuffe", "Muffenschweißen", "Handwerk", "Montage", "PPR", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Pressure) */}
@@ -185,5 +185,5 @@ export const schweissverfahrenVergleich: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

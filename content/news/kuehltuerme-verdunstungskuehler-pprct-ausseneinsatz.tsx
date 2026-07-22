@@ -27,7 +27,7 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
   category: "Klimatechnik",
   tags: ["Kühlturm", "Außeneinsatz", "UV-Beständigkeit", "Frostschutz", "PP-RCT", "Klimatechnik"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -148,5 +148,5 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

@@ -32,7 +32,7 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
   category: "Sanitärtechnik",
   tags: ["Trinkwasserhygiene", "Krankenhaus", "Legionellen", "Thermische Desinfektion", "PP-R", "Biofilm", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -168,5 +168,5 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

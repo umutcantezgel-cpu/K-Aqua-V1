@@ -26,7 +26,7 @@ export const fernwaermeNahwaerme: NewsPost = {
   category: "Infrastruktur",
   tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PP-RCT", "Wärmeverlust", "Rohrsysteme", "PPR"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -136,5 +136,5 @@ export const fernwaermeNahwaerme: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };
