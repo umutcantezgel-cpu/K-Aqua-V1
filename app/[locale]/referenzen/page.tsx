@@ -9,6 +9,7 @@ import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 import HoverPreviewList from '@/components/signature/HoverPreviewList';
+import KAquaMapsSuite from '@/components/sections/maps/KAquaMapsSuite';
 import {
   ShieldAlert,
   Server,
@@ -171,6 +172,8 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Interactive Google Maps Suite */}
+      <KAquaMapsSuite />
 
       {/* Final Call to Action */}
       <section className="py-48 bg-background relative overflow-hidden flex items-center justify-center">
