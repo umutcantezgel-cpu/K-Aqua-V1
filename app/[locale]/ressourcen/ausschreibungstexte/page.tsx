@@ -1,6 +1,7 @@
 import React from 'react';
-import { constructMetadata } from '@/lib/seo/metadata';
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { Shield, Download, Award, Layers, Globe, Check, FileText, Factory, Ruler } from '@/components/ui/icon';
@@ -30,6 +31,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte' });
+  const tMeta = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte.meta' });
+  const jsonLd = await getWebPageJsonLd(locale, "ausschreibungstexte", "WebPage", { title: tMeta('title'), description: tMeta('desc') });
 
   const deepDiveContent = [
     { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" image="/images/new-k-aqua/fertigung-pipes.jpg" /> },
@@ -46,7 +49,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   ];
 
   return (
-    <div className="flex flex-col w-full min-h-screen bg-background">
+    <>
+      <JsonLd schema={jsonLd} />
+      <div className="flex flex-col w-full min-h-screen bg-background">
       
       {/* 1) Apple-Style Parallax Hero */}
       <ParallaxHero 
@@ -207,5 +212,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       </section>
 
     </div>
+    </>
   );
 }

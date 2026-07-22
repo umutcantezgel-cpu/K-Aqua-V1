@@ -316,16 +316,23 @@ export type { MetadataInput };
 /**
  * Builds standard WebPage or ContactPage schemas.
  */
-export async function getWebPageJsonLd(locale: string, pageKey: string, type: WebPageJsonLd["@type"] = "WebPage"): Promise<WebPageJsonLd> {
-  const t = await getTranslations({ locale, namespace: "pages" });
-  const meta = t.raw(pageKey) as string[];
+export async function getWebPageJsonLd(locale: string, pageKey: string, type: WebPageJsonLd["@type"] = "WebPage", override?: { title?: string, description?: string }): Promise<WebPageJsonLd> {
+  let meta: string[] = [];
+  try {
+    const t = await getTranslations({ locale, namespace: "pages" });
+    meta = t.raw(pageKey) as string[];
+  } catch (e) {
+    // Ignore error if namespace or key is missing
+  }
+  const title = override?.title || meta[0] || "K-Aqua";
+  const desc = override?.description || meta[1] || "";
   const siteUrl = getBaseUrl();
   
   return {
     "@context": "https://schema.org",
     "@type": type,
-    name: meta[0] || "K-Aqua",
-    description: meta[1] || "",
+    name: title,
+    description: desc,
     url: `${siteUrl}/${locale}/${pageKey === 'home' ? '' : pageKey}`,
     inLanguage: locale,
     ...(pageKey === 'home' && {

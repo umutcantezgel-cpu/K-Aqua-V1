@@ -1,7 +1,7 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
-import { constructMetadata } from '@/lib/seo/metadata';
+import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
 import { CTABand } from '@/components/ui/CTABand';
@@ -29,9 +29,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
-export default function Page() {
-  const t = useTranslations('products.tools');  return (
-    <div className="flex flex-col w-full min-h-screen bg-background">
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'products.tools' });
+  const jsonLd = await getWebPageJsonLd(locale, "tools", "WebPage", { title: t('metaTitle'), description: t('metaDesc') });
+
+  return (
+    <>
+      <JsonLd schema={jsonLd} />
+      <div className="flex flex-col w-full min-h-screen bg-background">
 
       {/* Hero */}
       <section className="pt-24 pb-16 bg-background border-b border-card-border">
@@ -101,5 +107,6 @@ export default function Page() {
       </section>
 
     </div>
+    </>
   );
 }
