@@ -24,13 +24,13 @@ export const erdverlegungGrabenlos: NewsPost = {
     ar: "التركيب بدون خنادق يقلل بشكل كبير من تكاليف الهندسة المدنية والانبعاثات."
   },
   excerpt: {
-    de: "Offene Rohrgräben blockieren Städte und zerstören Landschaften. Entdecken Sie, wie hochflexible K Aqua PPR Rohre grabenlose Verlegeverfahren wie Horizontalspülbohren ermöglichen, Tiefbaukosten reduzieren und CO2 Emissionen nachhaltig einsparen.",
-    en: "Open pipe trenches block cities and destroy landscapes. Discover how highly flexible K Aqua PPR pipes enable trenchless installation methods such as horizontal directional drilling, reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
-    ar: "خنادق الأنابيب المفتوحة تسد المدن وتدمر المناظر الطبيعية. اكتشف كيف تمكن أنابيب K Aqua PPR عالية المرونة من طرق التركيب بدون حفر مثل الحفر الأفقي الموجه، مما يقلل تكاليف الهندسة المدنية بشكل كبير ويخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
+    de: "Straßen aufzureißen ist teuer und stört die Infrastruktur. Erfahren Sie, wie K Aqua PPR Rohrsysteme durch das HDD Verfahren Tiefbaukosten drastisch reduzieren und CO2 Emissionen nachhaltig einsparen.",
+    en: "Tearing up roads is expensive and disrupts infrastructure. Learn how K Aqua PPR pipe systems drastically reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
+    ar: "إن حفر الطرق مكلف ويعطل البنية التحتية. تعرف على كيف تعمل أنظمة أنابيب PPR من K Aqua على تقليل تكاليف الهندسة المدنية بشكل كبير وخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
   },
   coverImage: "/images/news/trenchless-hdd-pipe-installation.jpg",
   category: "Installation & Praxis",
-  tags: ["Erdverlegung", "HDD", "Grabenlos", "Infrastruktur", "Tiefbau", "PPR", "Rohrsysteme"],
+  tags: ["Erdverlegung", "HDD", "Grabenlos", "Infrastruktur", "Tiefbau", "PP-R", "Rohrsysteme"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -47,7 +47,7 @@ export const erdverlegungGrabenlos: NewsPost = {
                 </div>
               }
               title="Unterirdisch zum Ziel"
-              lead="Die Modernisierung urbaner Infrastruktur steht oft im direkten Konflikt mit dem alltäglichen Leben. Offene Baugruben legen den Straßenverkehr lahm, rufen Anwohnerproteste hervor und ziehen enorme Tiefbaukosten nach sich. K Aqua PPR Systeme bieten hier eine hochmoderne Lösung: Grabenloser Leitungsbau (Trenchless Technology). Durch das Horizontalspülbohrverfahren (HDD – Horizontal Directional Drilling) können Versorgungsleitungen punktgenau unter Flüssen, Autobahnen, Naturschutzgebieten und denkmalgeschützten Innenstädten hindurchgezogen werden. Ihre enorme Zähigkeit, Flexibilität und verschweißte Längskraftschlüssigkeit machen sie zur idealen Wahl für diese anspruchsvolle Verlegetechnik."
+              lead="Die offene Bauweise – das Aufreißen von Straßen, Gehwegen und Gärten – verschlingt beim Bau von Nahwärmenetzen oder Industrieleitungen den Großteil des Budgets. Das grabenlose Horizontalspülbohrverfahren (HDD Horizontal Directional Drilling) ist die elegante Alternative. K Aqua PPR Systeme sind durch ihre enorme Zähigkeit, Flexibilität und verschweißte Längskraftschlüssigkeit die ideale Wahl für diese anspruchsvolle Verlegetechnik."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -68,14 +68,14 @@ export const erdverlegungGrabenlos: NewsPost = {
             items={[
               {
                 title: "1. Die Pilotbohrung",
-                description: "Im Gegensatz zu starren Stahlrohren oder Gussrohren verfügt PPR über eine enorme Eigenflexibilität. Endlos geschweißte Rohrstränge können der gebogenen Bohrtrasse des HDD Verfahrens mühelos durch den Untergrund folgen und Hindernissen (wie bestehenden Leitungen oder Felsen) unterirdisch ausweichen."
+                description: "Ein steuerbarer Bohrkopf bohrt sich von der Start- zur Zielgrube. Dank Ortungstechnik kann der Bohrkopf Hindernissen (wie bestehenden Leitungen oder Felsen) unterirdisch ausweichen."
               },
               {
                 title: "2. Das Räumen (Aufweiten)",
-                description: "Stumpfschweißungen von K Aqua Rohren verbinden die Elemente absolut formschlüssig. Es entstehen keine Wulste oder Muffen, die beim Einzug in das Bohrloch verkanten oder abreißen könnten. Ein Räumer (Reamer) wird rotierend zurückgezogen, um das Bohrloch auf den benötigten Rohrdurchmesser (meist 1,3 bis 1,5-fach größer als das Rohr) aufzuweiten."
+                description: "Der Bohrkopf wird in der Zielgrube gegen einen Räumer (Reamer) ausgetauscht. Dieser wird rotierend zurückgezogen, um das Bohrloch auf den benötigten Rohrdurchmesser (meist 1,3 bis 1,5-fach größer als das Rohr) aufzuweiten."
               },
               {
-                title: "3. Der Rohreinzug",
+                title: "3. Rohreinzug",
                 description: "Der komplett vorgeschweißte K Aqua PPR Rohrstrang wird an den Reamer gekoppelt und unter ständiger Zugabe von Bentonit (Bohrspülung zur Stützung und Schmierung) in einem Stück in den Boden eingezogen."
               }
             ]}
@@ -86,26 +86,26 @@ export const erdverlegungGrabenlos: NewsPost = {
       {/* BentoGrid: Warum PPR für HDD? */}
       <Reveal>
         <SectionHead
-          title="Materialvorteile unter Tage"
-          lead="Können K Aqua Rohre beim Einzug zerkratzen und so an Druckfestigkeit verlieren?"
+          title="Die Materialvorteile von PPR"
+          lead="Nicht jedes Rohrmaterial übersteht die immensen mechanischen Belastungen beim HDD Einzug."
         />
         <BentoGrid
           items={[
             {
-              title: "Längskraftschlüssige Verbindungen",
-              description: "K Aqua Rohre benötigen keine korrosionsanfälligen Zugköpfe aus Metall. Die Zugkraft wird durch speziell verschweißte PPR Zugköpfe übertragen. Das Rohr hält selbst immensen Zugkräften stand, während es in das gebohrte Profil eingezogen wird – vollkommen ohne Streckgrenzüberschreitung.",
+              title: "Längskraftschlüssigkeit (Zugfestigkeit)",
+              description: "Die Heizelement Stumpfschweißung verbindet die PPR Rohre zu einem homogenen Strang. Die Schweißnaht ist genauso zugfest wie das Rohr selbst, weshalb das Rohr beim Einzug nicht abreißen kann.",
               icon: <TrendingUp className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
-              title: "Flexibilität & Biegeradius",
+              title: "Enorme Flexibilität",
               description: "Der Bohrkanal verläuft in Kurven. PPR Rohre lassen sich kalt biegen (abhängig von Durchmesser und Temperatur), wodurch sie dem unterirdischen Bohrverlauf problemlos folgen.",
               icon: <Route className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
-              title: "Kratz- & Riefenunempfindlichkeit",
-              description: "Oberflächliche Riefen, die beim HDD Verfahren entstehen, sind einkalkuliert. Die außerordentliche Wandstärke und Zähigkeit des PPR Materials sichert den Betriebsdruck dennoch für über 50 Jahre ab.",
+              title: "Kratz & Riefenunempfindlichkeit",
+              description: "Steine im Bohrkanal kratzen über die Rohroberfläche. PPR ist extrem kerbunempfindlich, wodurch Kratzer (bis zu 10% der Wandstärke) die Druckfestigkeit des Rohres nicht beeinträchtigen.",
               icon: <ShieldCheck className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -130,25 +130,24 @@ export const erdverlegungGrabenlos: NewsPost = {
       {/* DeepMatrix: Offen vs Grabenlos */}
       <Reveal>
         <SectionHead
-          title="Kosten- & Umwelt-Vergleich"
-          lead="Warum Tiefbauämter zunehmend die grabenlose Verlegung fordern."
+          title="Kosten & Umwelt Vergleich"
+          lead="Die offene Bauweise im direkten Vergleich mit HDD."
         />
         <DeepMatrix
           data={[
-            ["Kriterium", "Offene Bauweise (Graben)", "Grabenlose Bauweise (HDD)"],
-            ["Baukosten (Asphalt/Stadt)", "Sehr hoch (Oberflächenwiederherstellung)", "Niedrig bis Mittel"],
-            ["Bauzeit", "Lang (Wochen)", "Sehr kurz (oft in Tagen abgeschlossen)"],
+            ["Kriterium", "Offene Bauweise (Graben)", "HDD Verfahren"],
+            ["Baukosten (Tiefbau)", "Sehr hoch (Aufbruch & Wiederherstellung)", "Sehr gering (nur punktuelle Gruben)"],
             ["CO2 Emissionen (Baumaschinen)", "Hoch (Bagger, LKW für Erdaushub)", "Sehr gering"],
-            ["Verkehrsbehinderung", "Total (Straßensperrungen nötig)", "Minimal (nur Start-/Zielgrube)"],
-            ["Bodenklassen", "Nahezu alle", "Kritisch bei extrem weichem Sand oder massivstem Fels"]
+            ["Verkehrsbehinderung", "Total (Straßensperrungen nötig)", "Minimal (nur Start/Zielgrube)"],
+            ["Geeignete Rohre", "Alle", "Längskraftschlüssige Rohre (z.B. PPR)"]
           ]}
         />
       </Reveal>
 
-      {/* CTABand: Tiefbauprojekte */}
+      {/* CTABand: Tiefbau-Projekte */}
       <Reveal>
         <CTABand
-          title="Nahwärme- oder Industrienetz geplant?"
+          title="Nahwärme oder Industrienetz geplant?"
           subtitle="Wir beraten Sie bei der Wahl der richtigen SDR Klasse für die enormen Zugkräfte beim HDD Verfahren und liefern vorisolierte K Aqua Systeme für unterirdische Trassen."
           buttonText="Projekt besprechen"
           buttonLink="/ressourcen/support"

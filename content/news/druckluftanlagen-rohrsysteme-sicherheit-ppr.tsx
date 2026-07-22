@@ -47,7 +47,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
                 </div>
               }
               title="Die unsichtbare Gefahr im Druckluftnetz: Metall vs. PPR Rohrsysteme"
-              lead="Korrosion in metallischen Druckluftnetzen zerstört sensible Pneumatik. Erfahren Sie, warum K Aqua PPR Rohrsysteme die sichere, saubere und dauerhaft dichte Lösung für industrielle Druckluftanlagen sind. Druckluft ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand drastisch. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PPR Rohrsysteme von K Aqua verhalten sich grundlegend anders: Sie sind extrem zäh, absolut korrosionsfrei und reißen im Extremfall lediglich splitterfrei auf."
+              lead="Druckluft in industriellen Druckluftanlagen ist ein extrem energiereiches Medium. Werden verzinkte Stahlrohre über Jahre hinweg durch Kondenswasser von innen korrodiert, schwächt das die Rohrwand drastisch. Kommt es zur Überlastung, zersplittert das Metall explosionsartig. PPR Rohrsysteme von K Aqua verhalten sich grundlegend anders: Sie sind extrem zäh, absolut korrosionsfrei und reißen im Extremfall lediglich splitterfrei auf."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -57,7 +57,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
         </div>
       </Reveal>
 
-      {/* BentoGrid: Warum PPR in der Pneumatik überlegen ist */}
+      {/* BentoGrid: Warum PP-R in der Pneumatik überlegen ist */}
       <Reveal>
         <SectionHead
           title="Vorteile für Kompressor und Endgerät"
@@ -67,19 +67,19 @@ export const druckluftanlagenSicherheit: NewsPost = {
           items={[
             {
               title: "Splitterfreies Versagen",
-              description: "Stahlrohre fungieren bei Druckluft oft als Resonanzkörper und übertragen das Kompressor-Brummen durch die gesamte Werkhalle. PPR besitzt hervorragende schalldämpfende Eigenschaften. Die Fließgeräusche und mechanischen Vibrationen werden vom Material geschluckt – für eine deutlich verbesserte Arbeitsplatzergonomie.",
+              description: "Sollte ein K Aqua PPR Rohr (z.B. durch massive äußere Gewalteinwirkung) bersten, entstehen keine gefährlichen Splitter. Das Material reißt zäh auf, der Druck entweicht kontrolliert.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Keine Rostpartikel in Ventilen",
-              description: "Druckluft ist der Muskel der modernen Industrie. Ob Werkzeuge, CNC-Maschinen, Lackieranlagen oder Verpackungsroboter – wenn der Druck abfällt oder Verunreinigungen eintreten, stoppt die Produktion. Genau hier scheitern metallische Netze häufig auf Raten. Kondensat im System löst unweigerlich Korrosion aus. Rostpartikel lösen sich, wandern in die Pneumatik-Zylinder und zerstören teure Maschinen. K Aqua PPR bietet die ultimative Alternative: Ein System, das nicht rostet, nicht leckt und dauerhaft saubere Druckluft liefert.",
+              description: "Kondensat im Kompressornetz führt bei Stahlrohren zu Innenkorrosion. Rostpartikel lösen sich und zerstören empfindliche Pneumatikventile und Zylinder am Ende der Leitung. PPR bleibt dauerhaft glatt und sauber.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Weniger Druckverlust = Geringere Stromkosten",
-              description: "Es dürfen ausschließlich ölfreie oder durch hochwirksame Ölabscheider und Filter gereinigte Druckluftströme durch Standard PPR geleitet werden. Synthetische Kompressor-Öle können bei ständigem Kontakt bestimmte Kunststoffe angreifen. K Aqua bietet hierfür eine genaue Kompatibilitätsprüfung an.",
+              description: "Die spiegelglatte Innenwand (Rauigkeit 0,007 mm) von PPR Rohren minimiert den Strömungswiderstand. Der Kompressor muss weniger Leistung aufbringen, um den Betriebsdruck aufrechtzuerhalten.",
               icon: <Factory className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -97,8 +97,8 @@ export const druckluftanlagenSicherheit: NewsPost = {
         />
         <DeepMatrix
           data={[
-            ["Rohrserie / SDR-Klasse", "Max. Betriebsdruck (bei 20 °C, 50 Jahre)", "Typischer Einsatz in der Druckluft"],
-            ["K Aqua PPR (SDR 11)", "10 bar", "Standard-Druckluftnetze, Ringleitungen"],
+            ["Rohrserie / SDR Klasse", "Max. Betriebsdruck (bei 20 °C, 50 Jahre)", "Typischer Einsatz in der Druckluft"],
+            ["K Aqua PPR (SDR 11)", "10 bar", "Standard Druckluftnetze, Ringleitungen"],
             ["K Aqua PPR (SDR 7.4)", "16 bar", "Hauptverteilungsleitungen, hohe Reserve"],
             ["K Aqua PPRCT (SDR 9)", "16 bar", "Große Nennweiten, hohe mechanische Belastung"],
             ["Verzinkter Stahl", "i.d.R. 16 bar", "Nur bei 100% trockener Druckluft sicher"]
@@ -117,7 +117,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
           items={[
             {
               title: "1. Flammfreies Verbinden",
-              description: "K Aqua Rohre werden per Heizelementmuffenschweißung verbunden. Es gibt keine offene Flamme, keine Brandgefahr und keinen Funkenflug (Hot-Works-Permit oft nicht nötig)."
+              description: "K Aqua Rohre werden per Heizelementmuffenschweißung verbunden. Es gibt keine offene Flamme, keine Brandgefahr und keine Funkenflug (Hot Works Permit oft nicht nötig)."
             },
             {
               title: "2. Geringes Gewicht",
@@ -125,7 +125,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
             },
             {
               title: "3. Sofortige Inbetriebnahme",
-              description: "Im Gegensatz zu verzinktem Stahl gibt es bei K Aqua PPR keine Korrosion. Auch bei hohem Kondensatanfall im Leitungsnetz lösen sich keine Partikel. Die Druckluft bleibt von der Einspeisung bis zur Maschine in absoluter Premium-Qualität erhalten."
+              description: "Sobald die Schweißverbindung abgekühlt ist (wenige Minuten), ist sie voll belastbar. Das Druckluftnetz kann umgehend wieder unter Druck gesetzt werden."
             }
           ]}
         />
@@ -136,7 +136,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
         <CTABand
           title="Sicherheit für Ihre Produktion"
           subtitle="Planen Sie den Neubau oder die Sanierung Ihres Druckluftnetzes? Wir berechnen Strömungsgeschwindigkeiten und Rohrquerschnitte für optimale Effizienz."
-          buttonText="Druckluft-Experten kontaktieren"
+          buttonText="Druckluft Experten kontaktieren"
           buttonLink="/kontakt"
           icon={<Wrench className="w-6 h-6" />}
         />
