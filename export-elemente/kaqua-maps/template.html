@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" data-theme="light"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K Aqua Maps Suite: Drei helle Karten</title>
+<style>/* ============================================================
+   K-Aqua Redesign — Semantic Design Tokens
+   Doc 07: Geometric Modern (Outfit + Inter)
+   Doc 08: Bento Box Grid + Glassmorphism, OLED dark (#0A0A0F)
+   Brand: K-Aqua purple #5B2D8C + aqua accent
+   ============================================================ */
+
+@font-face {
+  font-family: 'Outfit';
+  src: url("a677eb93-d04d-435e-8b4c-7b59b017a42e") format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("0aa1130c-41ce-4ee4-a09f-687c0c23edac") format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  /* primitives */
+  --brand-h: 271;            /* hue of #5B2D8C */
+  --brand-50:  oklch(0.97 0.02 305);
+  --brand-100: oklch(0.93 0.045 305);
+  --brand-200: oklch(0.86 0.08 305);
+  --brand-300: oklch(0.76 0.12 305);
+  --brand-400: oklch(0.62 0.16 303);
+  --brand-500: oklch(0.51 0.18 302);
+  --brand-600: oklch(0.44 0.17 302);  /* ≈ #5B2D8C */
+  --brand-700: oklch(0.38 0.15 302);
+  --brand-800: oklch(0.31 0.12 302);
+  --brand-900: oklch(0.25 0.09 302);
+  --aqua-300: oklch(0.85 0.09 210);
+  --aqua-400: oklch(0.77 0.11 215);
+  --aqua-500: oklch(0.68 0.12 220);
+  --aqua-600: oklch(0.56 0.11 225);
+
+  /* type */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* spacing (4/8pt) */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-6: 24px; --sp-8: 32px; --sp-12: 48px; --sp-16: 64px;
+  --sp-24: 96px;
+
+  --radius: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --dur-fast: 150ms;
+  --dur: 250ms;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container: 1200px;
+}
+
+/* ---------- semantic: light ---------- */
+[data-theme="light"] {
+  color-scheme: light;
+  --background: oklch(0.985 0.004 300);
+  --background-subtle: oklch(0.965 0.008 302);
+  --foreground: oklch(0.22 0.03 300);
+  --muted-foreground: oklch(0.48 0.025 300);
+  --faint-foreground: oklch(0.62 0.02 300);
+  --card: #ffffff;
+  --card-border: oklch(0.91 0.012 302);
+  --card-tint: var(--brand-50);
+  --primary: var(--brand-600);
+  --primary-hover: var(--brand-700);
+  --primary-foreground: #ffffff;
+  --primary-soft: oklch(0.95 0.03 305);
+  --accent: var(--aqua-500);
+  --accent-strong: var(--aqua-600);
+  --ring: var(--brand-400);
+  --inverse-surface: oklch(0.21 0.04 300);
+  --inverse-foreground: oklch(0.97 0.01 300);
+  --nav-glass: oklch(0.985 0.004 300 / 0.72);
+  --nav-border: oklch(0.5 0.03 300 / 0.12);
+  --shadow-diffuse: 0 1px 2px oklch(0.3 0.05 300 / 0.05), 0 8px 24px -8px oklch(0.3 0.08 300 / 0.12);
+  --shadow-lift: 0 2px 4px oklch(0.3 0.05 300 / 0.06), 0 16px 40px -12px oklch(0.3 0.1 300 / 0.22);
+  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.93 0.05 305 / 0.85), transparent 65%),
+               radial-gradient(900px 480px at 12% 110%, oklch(0.93 0.05 215 / 0.7), transparent 60%);
+}
+
+/* ---------- semantic: dark (OLED) ---------- */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0A0A0F;
+  --background-subtle: oklch(0.17 0.015 300);
+  --foreground: oklch(0.94 0.008 300);
+  --muted-foreground: oklch(0.7 0.015 300);
+  --faint-foreground: oklch(0.55 0.015 300);
+  --card: oklch(0.185 0.02 300);
+  --card-border: oklch(0.3 0.025 300 / 0.7);
+  --card-tint: oklch(0.22 0.04 302);
+  --primary: var(--brand-400);
+  --primary-hover: var(--brand-300);
+  --primary-foreground: oklch(0.13 0.02 300);
+  --primary-soft: oklch(0.24 0.06 302);
+  --accent: var(--aqua-400);
+  --accent-strong: var(--aqua-300);
+  --ring: var(--brand-300);
+  --inverse-surface: oklch(0.94 0.008 300);
+  --inverse-foreground: oklch(0.17 0.02 300);
+  --nav-glass: oklch(0.12 0.015 300 / 0.66);
+  --nav-border: oklch(0.9 0.02 300 / 0.1);
+  --shadow-diffuse: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -8px rgb(0 0 0 / 0.6);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.5), 0 16px 40px -12px rgb(0 0 0 / 0.7);
+  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.3 0.08 302 / 0.55), transparent 65%),
+               radial-gradient(900px 480px at 12% 110%, oklch(0.3 0.06 220 / 0.4), transparent 60%);
+}
+
+/* ---------- base ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.65;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  /* NOTE: intentionally no transition on background-color/color here.
+     A transition on a custom-property-driven background/color, combined
+     with the theme swap happening via a [data-theme] attribute-selector
+     change (not a direct var() reassignment), left computed styles stuck
+     at their pre-swap values in testing — the safe, correct fix is an
+     instant (non-transitioned) theme swap on body. */
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button { font: inherit; }
+
+::selection { background: var(--primary); color: var(--primary-foreground); }
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- reveal animation ----------
+   Hidden/transition states only apply when html.anim-ok is set (added on first
+   requestAnimationFrame). In non-painting capture iframes rAF never fires, the
+   class is absent, and content renders in its final visible state. */
+@media (prefers-reduced-motion: no-preference) {
+  html.anim-ok .reveal:not(.reveal-settled) {
+    transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  html.anim-ok .reveal.reveal-pre { opacity: 0; transform: translateY(22px); }
+}
+
+/* ---------- scrollbar ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+</style>
+<style>/* K Aqua Maps Suite — Stile der hellen Kartenfamilie (Tokens aus kaqua-tokens.css). */
+body{margin:0;background:var(--background);color:var(--foreground);font-family:var(--font-body)}
+a{color:oklch(0.5 0.11 225)}a:hover{color:var(--accent-strong)}
+.kms-app{min-height:100vh}
+.kms-top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:24px;padding:12px 28px;background:color-mix(in oklab,var(--background) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--card-border)}
+.kms-top-brand{display:flex;align-items:center;gap:10px}
+.kms-logo{width:34px;height:34px;border-radius:10px;background:var(--brand-600,oklch(0.44 0.17 302));color:#fff;display:grid;place-items:center;font:700 16px var(--font-heading)}
+.kms-top-brand span b{display:block;font:700 15px var(--font-heading);letter-spacing:-0.01em}
+.kms-top-brand span i{display:block;font-style:normal;font-size:10.5px;color:var(--faint-foreground);letter-spacing:0.06em;text-transform:uppercase}
+.kms-top-nav{display:flex;gap:18px;flex:1}
+.kms-top-nav a{font:600 13px var(--font-heading);color:var(--muted-foreground);text-decoration:none}
+.kms-top-nav a:hover{color:oklch(0.5 0.11 225)}
+.kms-langs{display:flex;gap:4px;background:var(--background-subtle);border:1px solid var(--card-border);border-radius:999px;padding:3px}
+.kms-langs button{min-height:30px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--muted-foreground);font:700 12px var(--font-heading);cursor:pointer}
+.kms-langs button.on{background:var(--brand-600,oklch(0.44 0.17 302));color:#fff}
+.kms-hero{max-width:1180px;margin:0 auto;padding:56px 28px 8px}
+.kms-hero h1{font:700 clamp(30px,4.4vw,46px)/1.06 var(--font-heading);letter-spacing:-0.02em;margin:10px 0 12px}
+.kms-hero p{max-width:72ch;color:var(--muted-foreground);font-size:15px;line-height:1.65;margin:0 0 14px}
+.kms-planlink{font:600 13px var(--font-heading)}
+.kms-kicker{font-size:11.5px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;color:oklch(0.5 0.11 225)}
+.kms-sec{max-width:1180px;margin:0 auto;padding:56px 28px 8px;scroll-margin-top:70px}
+.kms-sechead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:18px;flex-wrap:wrap}
+.kms-title{font:700 clamp(22px,3vw,32px)/1.1 var(--font-heading);letter-spacing:-0.015em;margin:8px 0 8px}
+.kms-lede{max-width:66ch;color:var(--muted-foreground);font-size:14px;line-height:1.62;margin:0}
+.kms-secgrid{display:grid;grid-template-columns:1.55fr 0.9fr;gap:18px;align-items:start}
+.kms-secgrid.spec{grid-template-columns:1.4fr 1fr}
+.kms-sidecol{display:flex;flex-direction:column;gap:14px}
+.kms-stage{position:relative;border:1px solid var(--card-border);border-radius:var(--radius-lg);overflow:hidden;background:#D9E9F2;box-shadow:var(--shadow-diffuse);outline:none}
+.kms-stage:focus-visible{box-shadow:0 0 0 3px oklch(0.5 0.11 225 / 0.4)}
+.kms-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.kms-poster{position:absolute;inset:0;display:grid;place-content:center;text-align:center;gap:8px;background:linear-gradient(160deg,#EAF2F7,#F6F3FA)}
+.kms-poster-mark{font:700 26px var(--font-heading);color:var(--brand-600,oklch(0.44 0.17 302))}
+.kms-poster-sub{font-size:12px;color:var(--faint-foreground);max-width:44ch;padding:0 20px}
+.kms-zoomctl{position:absolute;inset-inline-end:12px;top:12px;display:flex;flex-direction:column;gap:6px;z-index:5}
+.kms-zoomctl button{width:34px;height:34px;border-radius:10px;border:1px solid var(--card-border);background:#fff;font:600 16px/1 var(--font-heading);color:var(--foreground);cursor:pointer;box-shadow:var(--shadow-diffuse)}
+.kms-zoomctl button:hover{border-color:oklch(0.5 0.11 225);color:oklch(0.5 0.11 225)}
+.kms-hint{position:absolute;left:50%;top:12px;transform:translateX(-50%);opacity:0;transition:opacity 0.25s;background:rgba(30,26,40,0.84);color:#fff;padding:7px 14px;border-radius:999px;font-size:12.5px;pointer-events:none;z-index:6;white-space:nowrap}
+.kms-hint.on{opacity:1}
+.kms-protonote{position:absolute;inset-inline-start:10px;bottom:8px;font-size:10px;color:var(--faint-foreground);background:rgba(255,255,255,0.72);padding:2px 8px;border-radius:999px;max-width:72%;z-index:4}
+.kms-hqmark{position:absolute;transform:translate(-50%,-50%);z-index:6;display:grid;justify-items:center;gap:5px;pointer-events:none}
+.kms-hqmark .em{position:relative;width:36px;height:36px;border-radius:50%;background:var(--brand-600,oklch(0.44 0.17 302));color:#fff;display:grid;place-items:center;font:700 15px var(--font-heading);border:2px solid #fff;box-shadow:0 4px 14px oklch(0.44 0.17 302 / 0.4)}
+.kms-hqmark.small .em{width:28px;height:28px;font-size:12px}
+.kms-pulse::before{content:'';position:absolute;inset:-9px;border-radius:50%;border:2px solid oklch(0.5 0.11 225 / 0.6);animation:kmsPulse 2.6s ease-out infinite}
+@keyframes kmsPulse{0%{transform:scale(0.7);opacity:0.9}70%{transform:scale(1.25);opacity:0}100%{transform:scale(1.25);opacity:0}}
+.kms-marklabel{background:rgba(255,255,255,0.92);border:1px solid var(--card-border);border-radius:999px;padding:3px 10px;font:600 11px var(--font-heading);color:var(--foreground);white-space:nowrap;box-shadow:var(--shadow-diffuse)}
+.kms-refmark{position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border-radius:50%;background:oklch(0.5 0.11 225);border:2px solid #fff;box-shadow:0 3px 10px oklch(0.5 0.11 225 / 0.4);display:grid;place-items:center;cursor:pointer;z-index:5;padding:0;transition:transform 0.18s ease,box-shadow 0.18s ease}
+.kms-refmark:hover,.kms-refmark.on{transform:translate(-50%,-50%) scale(1.16);box-shadow:0 6px 16px oklch(0.5 0.11 225 / 0.55);z-index:7}
+.kms-sitepin{position:absolute;transform:translate(-50%,-100%);z-index:6;display:grid;justify-items:center;gap:4px;pointer-events:none}
+.kms-stage:has(.kms-caption) .kms-protonote{bottom:60px}
+.kms-caption{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.9);backdrop-filter:blur(10px);border:1px solid var(--card-border);border-radius:999px;padding:8px 10px 8px 16px;font-size:12.5px;box-shadow:var(--shadow-diffuse);max-width:94%;z-index:8}
+.kms-caption b{font:700 12.5px var(--font-heading);white-space:nowrap}
+.kms-caption-d{color:var(--muted-foreground);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kms-caption-steps{display:flex;gap:4px}
+.kms-caption-steps i{width:14px;height:4px;border-radius:2px;background:var(--card-border)}
+.kms-caption-steps i.on{background:oklch(0.5 0.11 225)}
+.kms-caption-btn{border:1px solid var(--card-border);background:#fff;border-radius:999px;min-height:30px;padding:0 12px;font:600 11.5px var(--font-heading);color:var(--foreground);cursor:pointer;white-space:nowrap}
+.kms-caption-btn:hover{border-color:oklch(0.5 0.11 225);color:oklch(0.5 0.11 225)}
+.kms-streettoggle{position:absolute;inset-inline-start:12px;top:12px;z-index:9;border:1px solid var(--card-border);background:#fff;border-radius:999px;min-height:34px;padding:0 14px;font:600 12px var(--font-heading);cursor:pointer;box-shadow:var(--shadow-diffuse)}
+.kms-streettoggle:hover{border-color:oklch(0.5 0.11 225);color:oklch(0.5 0.11 225)}
+.kms-street{position:absolute;inset:0;z-index:8;background:linear-gradient(160deg,#F2EFF6,#EAF2F7);display:grid;place-content:center;gap:12px;justify-items:center;text-align:center;padding:24px}
+.kms-street-frame{border:2px dashed var(--card-border);border-radius:var(--radius-lg);padding:28px 32px;background:rgba(255,255,255,0.65);max-width:420px}
+.kms-street-frame b{font:700 15px var(--font-heading)}
+.kms-street-frame p{font-size:13px;color:var(--muted-foreground);line-height:1.6;margin:8px 0 0}
+.kms-street-addr{font-weight:600;color:var(--foreground)}
+.kms-glass{background:color-mix(in oklab,#fff 80%,transparent);backdrop-filter:blur(14px);border:1px solid var(--card-border);border-radius:var(--radius-lg);box-shadow:var(--shadow-diffuse);padding:16px 18px}
+.kms-glass.gn{border-color:oklch(0.78 0.07 155)}
+.kms-glass-h{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.kms-glass-h h3{font:700 15px var(--font-heading);margin:0}
+.kms-x{border:0;background:transparent;font-size:20px;line-height:1;color:var(--faint-foreground);cursor:pointer;padding:2px 6px}
+.kms-x:hover{color:var(--foreground)}
+.kms-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px dashed var(--card-border);font-size:12.5px}
+.kms-row:last-of-type{border-bottom:0}
+.kms-row-k{color:var(--faint-foreground)}
+.kms-row-v{font-weight:600;text-align:end}
+.kms-model{font-style:normal;font-size:9px;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;color:oklch(0.55 0.1 70);background:oklch(0.95 0.04 85);border-radius:4px;padding:1px 5px;margin-inline-start:6px;vertical-align:middle}
+.kms-feats{list-style:none;margin:6px 0 4px;padding:0;display:grid;gap:6px}
+.kms-feats li{font-size:12.5px;line-height:1.5;color:var(--muted-foreground);padding-inline-start:16px;position:relative}
+.kms-feats li::before{content:'*';position:absolute;inset-inline-start:2px;top:0;color:oklch(0.5 0.11 225);font-weight:800}
+.kms-subhead{font:800 10.5px var(--font-heading);letter-spacing:0.12em;text-transform:uppercase;color:var(--faint-foreground);margin:14px 0 6px}
+.kms-seals{display:flex;flex-wrap:wrap;gap:6px}
+.kms-seal{font:700 10.5px var(--font-heading);padding:4px 10px;border-radius:999px;border:1px solid oklch(0.78 0.07 155);color:oklch(0.4 0.11 155);background:oklch(0.96 0.03 155);text-decoration:none}
+.kms-seal:hover{background:oklch(0.93 0.05 155);color:oklch(0.35 0.11 155)}
+.kms-seal.dim{border-color:var(--card-border);color:var(--muted-foreground);background:var(--background-subtle)}
+.kms-note{font-size:12px;color:var(--muted-foreground);line-height:1.6;margin:8px 0 0}
+.kms-note.dim{color:var(--faint-foreground);font-size:11px}
+.kms-ctarow{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.kms-btn{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 16px;border-radius:999px;border:1px solid var(--card-border);background:#fff;color:var(--foreground);font:600 12.5px var(--font-heading);cursor:pointer;text-decoration:none;transition:border-color 0.15s,color 0.15s,background 0.15s}
+.kms-btn:hover{border-color:oklch(0.5 0.11 225);color:oklch(0.5 0.11 225)}
+.kms-btn.primary{background:var(--brand-600,oklch(0.44 0.17 302));border-color:transparent;color:#fff}
+.kms-btn.primary:hover{background:oklch(0.38 0.16 302);color:#fff}
+.kms-chip{min-height:32px;padding:0 14px;border-radius:999px;border:1px solid var(--card-border);background:#fff;color:var(--muted-foreground);font:600 12px var(--font-heading);cursor:pointer}
+.kms-chip.on{background:oklch(0.5 0.11 225);border-color:transparent;color:#fff}
+.kms-toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.kms-chips{display:flex;flex-wrap:wrap;gap:6px}
+.kms-balance{text-align:end;background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius-lg);padding:12px 18px;box-shadow:var(--shadow-diffuse)}
+.kms-balance-n{font:700 30px/1 var(--font-heading);font-variant-numeric:tabular-nums;color:oklch(0.5 0.11 225)}
+.kms-balance-u{font-size:11px;color:var(--muted-foreground);margin-top:4px}
+.kms-balance-env{font-size:10.5px;color:oklch(0.4 0.11 155);margin-top:6px;font-weight:600}
+.kms-mappanel{position:absolute;inset-inline-start:12px;top:56px;width:300px;max-width:calc(100% - 24px);z-index:10;max-height:calc(100% - 68px);overflow:auto}
+.kms-city{font-size:12px;color:var(--faint-foreground);margin-top:2px}
+.kms-tight{font:700 14px var(--font-heading);color:oklch(0.4 0.11 155);margin-top:8px}
+.kms-tablewrap{background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius-lg);padding:6px 18px 12px;box-shadow:var(--shadow-diffuse)}
+.kms-table{width:100%;border-collapse:collapse;font-size:12.5px}
+.kms-table th{text-align:start;font:800 10.5px var(--font-heading);letter-spacing:0.1em;text-transform:uppercase;color:var(--faint-foreground);padding:12px 10px 8px;border-bottom:1px solid var(--card-border)}
+.kms-table td{padding:10px;border-bottom:1px dashed var(--card-border);vertical-align:top}
+.kms-table tr.on td,.kms-table tbody tr:hover td{background:var(--background-subtle);cursor:pointer}
+.kms-td-sub{display:block;font-size:11px;color:var(--faint-foreground);font-weight:400;margin-top:2px}
+.kms-search{position:relative;max-width:560px;margin-bottom:14px}
+.kms-search input,.kms-gate input{width:100%;box-sizing:border-box;min-height:44px;border-radius:12px;border:1px solid var(--card-border);background:#fff;padding:0 16px;font:500 13.5px var(--font-body);color:var(--foreground)}
+.kms-search input:focus,.kms-gate input:focus{outline:2px solid oklch(0.5 0.11 225 / 0.5);outline-offset:1px}
+.kms-search-note{display:block;font-size:11px;color:var(--faint-foreground);margin-top:6px}
+.kms-sug{position:absolute;top:48px;inset-inline:0;background:#fff;border:1px solid var(--card-border);border-radius:12px;box-shadow:0 14px 34px rgba(30,26,40,0.14);z-index:30;overflow:hidden}
+.kms-sug button{display:flex;justify-content:space-between;gap:12px;width:100%;border:0;background:transparent;padding:10px 16px;font:600 13px var(--font-body);color:var(--foreground);cursor:pointer;text-align:start}
+.kms-sug button span{color:var(--faint-foreground);font-weight:400;font-size:11.5px}
+.kms-sug button:hover{background:var(--background-subtle)}
+.kms-bimrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px dashed var(--card-border)}
+.kms-bimrow b{font-size:12.5px}
+.kms-gate{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.kms-gate input{flex:1;min-width:180px}
+.kms-toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:oklch(0.19 0.02 300);color:#fff;padding:12px 20px;border-radius:12px;z-index:60;font-size:13px;box-shadow:0 10px 30px rgba(0,0,0,0.28);max-width:90%}
+.kms-scale{position:absolute;bottom:12px;inset-inline-end:12px;z-index:5;height:5px;border:2px solid rgba(60,90,115,0.55);border-top:0;background:rgba(255,255,255,0.4)}
+.kms-scale span{position:absolute;inset-inline:0;top:-17px;text-align:center;font:600 10px Inter,sans-serif;color:#46607a;white-space:nowrap}
+.kms-regionbar{position:absolute;inset-inline-start:12px;top:12px;z-index:9;display:flex;flex-wrap:wrap;gap:6px;max-width:70%}
+.kms-modal{position:fixed;inset:0;z-index:70;display:grid;place-items:center;background:rgba(20,16,30,0.45);padding:20px;backdrop-filter:blur(3px)}
+.kms-modal-card{width:min(480px,100%);max-height:86vh;overflow:auto;border-radius:var(--radius-lg);box-shadow:0 30px 80px rgba(0,0,0,0.35)}
+.kms-modal-card .kms-glass{background:#fff;backdrop-filter:none}
+.kms-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+.kms-stat{background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius-lg);padding:14px 16px;box-shadow:var(--shadow-diffuse)}
+.kms-stat b{display:block;font:700 27px/1 var(--font-heading);font-variant-numeric:tabular-nums;color:var(--brand-600,oklch(0.44 0.17 302))}
+.kms-stat span{display:block;font-size:11px;color:var(--muted-foreground);margin-top:5px;line-height:1.45}
+.kms-calc{margin-top:16px}
+.kms-calcgrid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:20px;align-items:start;margin-top:4px}
+.kms-calc input[type=range]{width:100%;accent-color:oklch(0.5 0.11 225);margin:6px 0 2px}
+.kms-calcval{font:700 13px var(--font-heading);color:var(--foreground);text-transform:none;letter-spacing:0}
+.kms-outcol{display:grid;gap:10px}
+.kms-out{background:oklch(0.96 0.03 155);border:1px solid oklch(0.82 0.06 155);border-radius:var(--radius-lg);padding:14px 18px}
+.kms-out b{display:block;font:700 30px/1 var(--font-heading);font-variant-numeric:tabular-nums;color:oklch(0.4 0.11 155)}
+.kms-out span{display:block;font-size:11.5px;color:var(--muted-foreground);margin-top:5px}
+.kms-sitepin svg{animation:kmsDrop 0.5s ease}
+@keyframes kmsDrop{0%{transform:translateY(-14px);opacity:0}100%{transform:none;opacity:1}}
+.kms-footer{max-width:1180px;margin:0 auto;padding:56px 28px 48px}
+.kms-footer p{font-size:12px;color:var(--muted-foreground);max-width:80ch;margin:0 0 6px}
+.kms-footer p.dim{color:var(--faint-foreground);font-size:11px}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.kms-pulse::before{animation:none;display:none}.kms-refmark{transition:none}.kms-sitepin svg{animation:none}}
+@media (max-width:900px){.kms-secgrid,.kms-secgrid.spec,.kms-calcgrid{grid-template-columns:1fr}.kms-stats{grid-template-columns:1fr 1fr}.kms-sechead{flex-direction:column;align-items:flex-start}.kms-balance{text-align:start}.kms-mappanel{width:auto;inset-inline:12px;top:52px}.kms-top{padding:10px 16px;gap:12px}.kms-top-nav{display:none}.kms-sec,.kms-hero,.kms-footer{padding-inline:16px}}
+</style>
+
+</head>
+<body>
+<div id="root"></div>
+<script src="9856b892-8b89-4f7f-a365-9301ebb066cc" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="9143cf83-6298-4140-ac15-0621f14524ee" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="cc32ea74-a3e2-42ec-ad35-02db9f73361d" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="9bab5520-e234-4229-8416-d1a5b382c29c"></script>
+<script src="4a10da1f-3b2d-45be-9893-48fcef0afc45"></script>
+<script src="2cf3d525-7ad8-4b3a-bec7-dc3e0ef23c5e"></script>
+<script type="text/babel" src="87af74e5-3799-4b96-9aa5-81c01dcce91a"></script>
+<script type="text/babel" src="3a6efb48-15c1-40c3-a81b-3ca93dc7d3d8"></script>
+<script type="text/babel" src="f17ce8d4-2efb-476d-825d-de6723d7b8ed"></script>
+<script type="text/babel" src="ab8edf61-cab0-4e05-a1f9-e9bacaa41268"></script>
+<script type="text/babel" src="0ee2f31e-5daa-4f7c-be35-d60683fe5f3e"></script>
+
+
+</body></html>

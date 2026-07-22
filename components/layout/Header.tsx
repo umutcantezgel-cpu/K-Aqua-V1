@@ -89,7 +89,15 @@ export default function Header() {
             <Logo height={48} />
           </Link>
 
-
+          {/* Main Desktop Header Navigation Links */}
+          <nav className="hidden lg:flex items-center gap-6 font-heading font-semibold text-[15px] tracking-tight">
+            <Link href="/produkte" className="hover:text-primary transition-colors py-2">{t('products')}</Link>
+            <Link href="/loesungen" className="hover:text-primary transition-colors py-2">{t('solutions')}</Link>
+            <Link href="/referenzen" className="hover:text-primary transition-colors py-2">{t('references')}</Link>
+            <Link href="/unternehmen" className="hover:text-primary transition-colors py-2">{t('about')}</Link>
+            <Link href="/academy" className="hover:text-primary transition-colors py-2">{t('academy')}</Link>
+            <Link href="/kontakt" className="hover:text-primary transition-colors py-2">{t('contact')}</Link>
+          </nav>
 
           {/* Action bar (Unified Menu & Globe) */}
           <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 shrink-0">
