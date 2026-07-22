@@ -1744,9 +1744,9 @@
     "technicalSpecs": "Technical Data",
     "eyebrow": "Products",
     "videoGuide": "K-Aqua Video-Anleitung",
-    "localAvailability": "Lokale Verfügbarkeit",
-    "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
-    "allMarkets": "Alle 50+ Märkte ansehen",
+    "localAvailability": "Local Availability",
+    "localDesc": "Find local distributors, region-specific approvals, and the standards that apply in your market.",
+    "allMarkets": "View all 50+ markets",
     "title1": "PP-R/PP-RCT pipes & fittings for",
     "titleGrad": "drinking water.",
     "lead": "A complete piping system for hot and cold drinking water — from pipe to fitting to welding technology. Four building blocks, one system.",
@@ -2471,11 +2471,11 @@
       "stats": {
         "eyebrow": "Zertifizierungen & Parameter",
         "title": "Harte Fakten.",
-        "lead": "Wir testen nicht nur nach Norm. Wir definieren sie. Unsere internen Prüfprotokolle überschreiten die Anforderungen von DVGW, SKZ und ISO um bis zu 300%.",
+        "lead": "We don't just test to the standard. We define it. Our in-house test protocols exceed DVGW, SKZ, and ISO requirements by up to 300%.",
         "items": [
           {
             "label": "Betriebsdruck (PN)",
-            "value": "Bis zu 25 bar",
+            "value": "Up to 25 bar",
             "sub": "Bei 20°C Wasser"
           },
           {
@@ -2486,7 +2486,7 @@
           {
             "label": "Gewindenormen",
             "value": "ISO 7/1, ISO 228",
-            "sub": "Innengewinde & Außengewinde"
+            "sub": "Female & male thread"
           },
           {
             "label": "Lebenszyklus",
@@ -2504,20 +2504,20 @@
             "sub": "Trinkwasserzertifiziert"
           },
           {
-            "label": "Trinkwasserkonformität",
+            "label": "Drinking water compliance",
             "value": "UBA, DVGW",
             "sub": "100% Bleifrei-Optionen"
           },
           {
-            "label": "Qualitätssicherung",
+            "label": "Quality assurance",
             "value": "ISO 9001:2015",
             "sub": "100% Chargen-Tracking"
           }
         ]
       },
       "cta": {
-        "title": "Die stärkste Verbindung Ihres Projekts.",
-        "desc": "Verlassen Sie sich auf bewährte deutsche Ingenieurskunst. Kontaktieren Sie uns für technische Datenblätter, BIM-Modelle oder eine individuelle Projektberatung.",
+        "title": "The strongest connection in your project.",
+        "desc": "Rely on proven German engineering. Contact us for technical data sheets, BIM models, or tailored project consulting.",
         "primary": "Projektanfrage starten",
         "secondary": "CAD & Spezifikationen"
       }
@@ -2543,8 +2543,13 @@
         {
           "title": "Sustainability",
           "desc": "We continuously develop our processes to minimize our ecological footprint. Our piping systems are 100% recyclable and actively contribute to resource conservation through their longevity."
+        },
+        {
+          "title": "MULTILAYER PIPES: THE SYNERGY OF MATERIALS",
+          "desc": "Aluminium meets high-performance polymer. K-Aqua multilayer composite pipes combine the mechanical stability of metal with the flexibility and chemical resistance of plastic. 100% oxygen-tight. Minimal linear expansion. The ultimate solution for complex HVAC systems."
         }
-      ]
+      ],
+      "lead": "Every component is part of a closed, flawless system. From the feed point to the terminal outlet, we control the flow of water, chemicals and gases with relentless reliability."
     },
     "productSticky": {
       "eyebrow": "THE PRODUCT RANGE",
@@ -2918,57 +2923,57 @@
         ]
       },
       "timelineSection": {
-        "title": "Referenzen, die Geschichte schreiben.",
-        "desc": "Von künstlichen Inseln im Persischen Golf bis hin zu den exklusivsten Ski-Resorts der Alpen. Wo das Unmögliche gebaut wird, ist K-Aqua bereits vor Ort."
+        "title": "References that make history.",
+        "desc": "From artificial islands in the Persian Gulf to the most exclusive ski resorts in the Alps. Wherever the impossible is being built, K-Aqua is already on site."
       },
       "timeline": {
         "items": [
           {
             "year": "Dubai",
             "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinität und Umgebungstemperaturen von bis zu 50°C erforderten maximale thermische und chemische Beständigkeit. K-Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
+            "text": "Outfitting 800 suites and 4 vast pool landscapes. Extreme salinity and ambient temperatures of up to 50°C demanded maximum thermal and chemical resistance. K-Aqua supplied the complete cold and hot water network, including the district cooling connection."
           },
           {
             "year": "Schweiz",
             "title": "Alpine Retreat St. Moritz",
-            "text": "Ein 6-Sterne Resort auf 2.000 Metern Höhe. Die Herausforderung: Extreme Frostgefahr während der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische Längenänderungen souverän und garantierten lautlosen Betrieb."
+            "text": "A 6-star resort at 2,000 meters altitude. The challenge: extreme frost risk during construction and the most demanding acoustic insulation requirements. Our PP-R fiber-composite pipes absorbed thermal expansion with ease and guaranteed silent operation."
           },
           {
             "year": "Singapore",
             "title": "Vertical Forest Hotel",
-            "text": "Ein 65-stöckiges Meisterwerk ökologischer Architektur. Das komplexe Bewässerungssystem für tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K-Aqua realisiert. Die homogene Schweißtechnik bewahrte das Gebäude vor mikroskopischen Leckagen."
+            "text": "A 65-story masterpiece of ecological architecture. The complex irrigation system for thousands of balcony plants, along with the entire drinking water infrastructure, was realized with K-Aqua. Homogeneous fusion welding protected the building from microscopic leaks."
           },
           {
             "year": "Malediven",
             "title": "Zero-Emission Island Resort",
-            "text": "Direkt über dem Riff erbaut, war absolute Umweltverträglichkeit gefordert. K-Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschleiß."
+            "text": "Built directly above the reef, the project demanded absolute environmental compatibility. K-Aqua pipes are 100% recyclable, release no microplastics or heavy metals whatsoever, and withstand the highly corrosive salt-laden sea air without any degradation."
           },
           {
             "year": "Zukunft",
-            "title": "Ihr nächstes Megaprojekt",
-            "text": "Die Grenzen der Architektur verschieben sich täglich. Wir sind bereit, das Fundament für Ihre kühnsten Visionen zu gießen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
+            "title": "Your next megaproject",
+            "text": "The boundaries of architecture shift every day. We are ready to pour the foundation for your boldest visions. With technology decades ahead of its time."
           }
         ]
       },
       "research": {
         "eyebrow": "Forschung & Entwicklung",
-        "title": "Die Chemie <br/> der Unzerstörbarkeit.",
-        "desc": "Unsere F&E Abteilung in Deutschland arbeitet unermüdlich an der Perfektionierung der Polymer-Matrix. Durch die Zugabe von proprietären Additiven und speziellen Glasfaser-Compounds extrudieren wir Rohre, die eine extrem geringe Längenausdehnung aufweisen – vergleichbar mit metallischen Rohren, jedoch ohne deren eklatante Nachteile.",
+        "title": "The chemistry <br/> of indestructibility.",
+        "desc": "Our R&D department in Germany works relentlessly to perfect the polymer matrix. By adding proprietary additives and special glass-fiber compounds, we extrude pipes with extremely low linear expansion – comparable to metal piping, but without its glaring drawbacks.",
         "items": [
           "Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)",
-          "Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe",
-          "Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich",
-          "Toxikologisch völlig unbedenklich, lebensmittelecht geprüft"
+          "Increased flow cross-section thanks to thinner walls at the same pressure rating",
+          "Complete resistance to chlorine compounds in hotel pool areas",
+          "Toxicologically harmless, certified food-safe"
         ]
       },
       "certs": {
         "eyebrow": "Compliance & Zertifizierungen",
-        "title": "Die härtesten Normen der Welt? Wir übertreffen sie.",
-        "lead": "Internationale Projekte erfordern internationale Zulassungen. K-Aqua ist weltweit geprüft, geprüft und freigegeben von den striktesten Regulierungsbehörden."
+        "title": "The world's toughest standards? We exceed them.",
+        "lead": "International projects demand international approvals. K-Aqua is tested and certified worldwide by the strictest regulatory bodies."
       },
       "cta": {
-        "title": "Bauen Sie für die Ewigkeit.",
-        "desc": "Verlassen Sie sich bei Ihrem nächsten Hotel- oder Resort-Projekt nicht auf den Standard. Definieren Sie ihn neu. Kontaktieren Sie unsere leitenden Ingenieure für eine tiefe technische Evaluierung.",
+        "title": "Build for eternity.",
+        "desc": "Don't settle for the standard on your next hotel or resort project. Redefine it. Contact our senior engineers for an in-depth technical evaluation.",
         "button1": "Projekt evaluieren lassen",
         "button2": "Direktkontakt Sales"
       }
@@ -3250,35 +3255,35 @@
     },
     "index": {
       "meta": {
-        "title": "Industrielle & Bautechnische Lösungen | K-AQUA",
-        "desc": "Hochleistungspolymersysteme für kritische Infrastrukturen."
+        "title": "Industrial & Building Services Solutions | K-AQUA",
+        "desc": "High-performance polymer systems for critical infrastructure."
       },
       "sticky": {
         "items": [
           {
-            "title": "Molekulare Homogenität",
-            "p1": "Das K-AQUA PPR-System beruht auf fortgeschrittener Polyfusionstechnologie. Durch exakt kalibrierte Erhitzung verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren, kohärenten Einheit.",
-            "p2": "Diese lückenlose Synthese eliminiert jegliche Schwachstellen, die bei mechanischen Verbindungen oder Klebeverfahren unweigerlich entstehen. Das Resultat ist eine Infrastruktur von absoluter Integrität, die hydraulischen Schocks und extremen Druckspitzen souverän widersteht."
+            "title": "Molecular Homogeneity",
+            "p1": "The K-AQUA PPR system is built on advanced polyfusion technology. Through precisely calibrated heating, pipe and fitting fuse at the molecular level into one inseparable, coherent unit.",
+            "p2": "This seamless fusion eliminates the weak points that inevitably arise with mechanical connections or adhesive joining. The result is an infrastructure of absolute integrity that confidently withstands hydraulic shock and extreme pressure peaks."
           },
           {
             "title": "Thermische Ausdauer",
-            "p1": "Thermische Fluktuationen sind der Hauptfeind konventioneller Rohrleitungssysteme. K-AQUA Polymere sind durch ein hochverdichtetes Kristallgitter strukturiert, das selbst bei permanenten Betriebstemperaturen von bis zu 95°C strukturelle Deformationen verhindert.",
-            "p2": "Die spezifische Wärmekapazität des Materials reduziert zudem die Notwendigkeit extremer Isolierungen, was die Energieeffizienz des Gesamtsystems signifikant steigert."
+            "p1": "Thermal fluctuation is the chief enemy of conventional piping systems. K-AQUA polymers are structured around a highly densified crystal lattice that prevents structural deformation even at continuous operating temperatures of up to 95°C.",
+            "p2": "The material's specific heat capacity also reduces the need for heavy insulation, significantly increasing the energy efficiency of the overall system."
           },
           {
             "title": "Hydraulische Perfektion",
-            "p1": "Ein absoluter Rauheitswert von lediglich 0,007 mm definiert die Innenoberfläche der K-AQUA Rohre. Diese mikroskopisch glatte Topografie verhindert jegliche Inkrustation, Mineralablagerungen oder Biofilmbildung.",
-            "p2": "Strömungsverluste werden auf ein physikalisches Minimum reduziert, was den Energiebedarf der Pumpensysteme über Jahrzehnte hinweg drastisch senkt. Der konstante Innendurchmesser garantiert eine perpetuelle, unverminderte Durchflussrate."
+            "p1": "An absolute roughness value of just 0.007 mm defines the inner surface of K-AQUA pipes. This microscopically smooth topography prevents any incrustation, mineral deposits or biofilm formation.",
+            "p2": "Flow losses are reduced to the physical minimum, drastically cutting the energy demand of pumping systems for decades. The constant internal diameter guarantees a perpetual, undiminished flow rate."
           },
           {
-            "title": "Chemische Immunität",
-            "p1": "Im Gegensatz zu metallischen Systemen ist das K-AQUA PPR-Netzwerk vollständig immun gegen Oxidation, Lochfraß und galvanische Korrosion. Die inerten Eigenschaften des Copolymers widerstehen einer extremen Bandbreite hochaggressiver Chemikalien und variierender pH-Werte.",
-            "p2": "Selbst in hochkorrosiven industriellen Umgebungen oder bei der Beförderung aggressiver Fluide bleibt die molekulare Integrität der Leitung unangetastet."
+            "title": "Chemical Immunity",
+            "p1": "Unlike metallic systems, the K-AQUA PPR network is completely immune to oxidation, pitting and galvanic corrosion. The inert properties of the copolymer withstand an extreme range of highly aggressive chemicals and fluctuating pH values.",
+            "p2": "Even in highly corrosive industrial environments or when conveying aggressive fluids, the molecular integrity of the pipeline remains untouched."
           }
         ],
         "header": {
-          "title": "Physikalische Überlegenheit.",
-          "desc": "Die technischen Prinzipien, die K-AQUA Systemen ihre überragende Langlebigkeit und operative Sicherheit verleihen."
+          "title": "Physical Superiority.",
+          "desc": "The engineering principles that give K-AQUA systems their exceptional longevity and operational reliability."
         }
       },
       "timeline": {
@@ -3286,87 +3291,87 @@
           {
             "year": "Phase 01",
             "title": "Strukturelle Analyse",
-            "text": "Evaluation der thermodynamischen und fluiddynamischen Anforderungen. Präzise Berechnung von Druckstufen, thermischer Längenausdehnung und hydraulischen Widerständen durch unsere Ingenieure."
+            "text": "Evaluation of the thermodynamic and fluid-dynamic requirements. Precise calculation of pressure ratings, thermal linear expansion and hydraulic resistances by our engineers."
           },
           {
             "year": "Phase 02",
             "title": "Materialspezifikation",
-            "text": "Selektion des optimalen PPR-Copolymers. Abstimmung der Wandstärken und Dimensionen (20mm bis 160mm) auf die spezifischen Belastungsprofile der industriellen Anwendung."
+            "text": "Selection of the optimal PPR copolymer. Wall thicknesses and dimensions (20mm to 160mm) matched to the specific load profiles of the industrial application."
           },
           {
             "year": "Phase 03",
             "title": "Systemische Synthese",
-            "text": "Polyfusionsschweißung unter streng kontrollierten thermischen Parametern. Erschaffung eines monolithischen Netzwerks ohne Dichtungen oder mechanische Schwachstellen."
+            "text": "Polyfusion welding under strictly controlled thermal parameters. The creation of a monolithic network with no gaskets or mechanical weak points."
           },
           {
             "year": "Phase 04",
             "title": "Betriebsexzellenz",
-            "text": "Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberflächen verhindern Inkrustation, während die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert."
+            "text": "Decades of maintenance-free operation. The inert surfaces prevent incrustation, while the molecular density guarantees absolute leak-tightness at maximum energy efficiency."
           }
         ],
         "title": "PROZESS-ARCHITEKTUR",
-        "desc": "Von der mathematischen Kalkulation bis zur ewigen Betriebssicherheit. Der Lebenszyklus einer K-AQUA Installation verläuft nach strengen ingenieurstechnischen Protokollen."
+        "desc": "From mathematical calculation to perpetual operational reliability. The life cycle of a K-AQUA installation follows rigorous engineering protocols."
       },
       "hero": {
-        "eyebrow": "INDUSTRIELLE & BAUTECHNISCHE LÖSUNGEN",
+        "eyebrow": "INDUSTRIAL & BUILDING SERVICES SOLUTIONS",
         "title1": "SYSTEMARCHITEKTUR",
-        "title2": "FÜR DIE EWIGKEIT.",
-        "desc": "Hochleistungspolymersysteme für kritische Infrastrukturen. Entwickelt unter extremen Bedingungen, verifiziert durch kompromisslose deutsche Ingenieurskunst. Eine perfekte Synthese aus Materialwissenschaft und angewandter Fluiddynamik.",
+        "title2": "FOR ETERNITY.",
+        "desc": "High-performance polymer systems for critical infrastructure. Engineered under extreme conditions, verified by uncompromising German engineering. A perfect synthesis of materials science and applied fluid dynamics.",
         "cta": "Contact us"
       },
       "intro": {
         "title": "Jenseits konventioneller Belastungsgrenzen.",
-        "p1": "Wo metallische Rohrsysteme durch Korrosion, Inkrustation und thermische Materialermüdung kapitulieren, beginnt das operative Spektrum von K-AQUA. Unsere Polypropylen-Random-Copolymer (PPR) Infrastrukturen definieren die physikalischen Grenzen des Fluidtransports neu.",
-        "p2": "Jeder Millimeter unseres Systems ist das Resultat jahrzehntelanger materialwissenschaftlicher Forschung. Wir liefern keine simplen Rohre; wir implementieren makellose, monolithische Lebensadern für Anlagen, die keinen Raum für Ausfälle tolerieren. Von arktischer Kälte bis hin zu siedenden industriellen Prozessen – K-AQUA ist die architektonische Antwort auf extreme ingenieurstechnische Herausforderungen."
+        "p1": "Where metallic piping systems capitulate to corrosion, incrustation and thermal fatigue, the operational spectrum of K-AQUA begins. Our polypropylene random copolymer (PPR) infrastructures redefine the physical limits of fluid transport.",
+        "p2": "Every millimeter of our system is the result of decades of materials research. We do not supply mere pipes; we implement flawless, monolithic lifelines for facilities that tolerate zero room for failure. From arctic cold to boiling industrial processes — K-AQUA is the architectural answer to extreme engineering challenges."
       },
       "bento": {
         "header": {
           "title": "Anwendungsvektoren.",
-          "desc": "Skalierbare Systemlösungen für spezifische industrielle und bautechnische Sektoren."
+          "desc": "Scalable system solutions for specific industrial and building services sectors."
         },
         "items": [
           {
-            "title": "Trinkwasserhygiene & Sanitär",
-            "desc": "Absolute Lebensmittelechtheit und toxikologische Unbedenklichkeit. Verhinderung von Legionellenbildung durch opakes, lichtundurchlässiges Materialdesign."
+            "title": "Drinking Water Hygiene & Plumbing",
+            "desc": "Absolute food-grade quality and toxicological safety. Legionella growth is prevented by an opaque, light-blocking material design."
           },
           {
             "title": "HVAC & Klimatechnik",
-            "desc": "Hocheffiziente thermische Isolation durch geringe Wärmeleitfähigkeit. Kondensatminimierung bei Kühlwasserleitungen."
+            "desc": "Highly efficient thermal insulation thanks to low thermal conductivity. Minimized condensation on chilled water lines."
           },
           {
             "title": "Druckluftnetzwerke",
-            "desc": "Leckagefreie Übertragung bei extremen Arbeitsdrücken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel."
+            "desc": "Leak-free transmission at extreme working pressures. No contamination of the compressed air from rust or flaking particles."
           },
           {
             "title": "Schiffbau & Offshore",
-            "desc": "Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen."
+            "desc": "Resistant to saline environments and heavy vibration. Substantial weight savings compared to steel installations."
           },
           {
             "title": "Industrieller Fluidtransport",
-            "desc": "Kompromisslose Performance beim Transport aggressiver Chemikalien, abrasiver Schlämme oder hochreiner Prozessflüssigkeiten. Das K-AQUA System garantiert eine ununterbrochene, sichere Produktion."
+            "desc": "Uncompromising performance in transporting aggressive chemicals, abrasive slurries or high-purity process fluids. The K-AQUA system guarantees uninterrupted, safe production."
           }
         ]
       },
       "stats": {
         "0": {
           "label": "Jahre garantierte Lebensdauer",
-          "desc": "Unter Standard-Betriebsbedingungen (20°C / 10 bar) übersteigt die Haltbarkeit von K-AQUA PPR-Systemen problemlos ein halbes Jahrhundert ohne signifikante Materialdegradation."
+          "desc": "Under standard operating conditions (20°C / 10 bar), the service life of K-AQUA PPR systems comfortably exceeds half a century without significant material degradation."
         },
         "1": {
-          "label": "W/mK Wärmeleitfähigkeit",
-          "desc": "Im Vergleich zu Kupfer (380 W/mK) oder Stahl (50 W/mK) isoliert K-AQUA von Natur aus, was massive Einsparungen bei externer Dämmung und Energieverlusten bedeutet."
+          "label": "W/mK Thermal Conductivity",
+          "desc": "Compared to copper (380 W/mK) or steel (50 W/mK), K-AQUA is inherently insulating — delivering massive savings in external insulation and energy losses."
         },
         "2": {
           "label": "Homogene Verbindungen",
-          "desc": "Durch molekulares Schweißen entsteht ein absolut nahtloses System. Das Rohr und der Fitting werden zu einer einzigen, untrennbaren Komponente fusioniert."
+          "desc": "Molecular welding creates an absolutely seamless system. Pipe and fitting are fused into a single, inseparable component."
         },
         "title": "Ingenieurskunst in Zahlen."
       },
       "cta": {
         "eyebrow": "PROJEKT-INITIIERUNG",
-        "title1": "BEREIT FÜR DIE",
-        "title2": "NÄCHSTE DIMENSION.",
-        "desc": "Kontaktieren Sie unsere Ingenieure für eine detaillierte technische Evaluation Ihrer Spezifikationen und Herausforderungen.",
+        "title1": "READY FOR THE",
+        "title2": "NEXT DIMENSION.",
+        "desc": "Contact our engineers for a detailed technical evaluation of your specifications and challenges.",
         "button1": "Ingenieursteam kontaktieren",
         "button2": "Spezifikationen ansehen"
       }
@@ -3575,113 +3580,113 @@
     "intro": {
       "title1": "WIR LEITEN NICHT NUR WASSER.",
       "title2": "WIR KONTROLLIEREN ES.",
-      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+      "desc": "For over 30 years, we have been manufacturing piping systems built to last forever. No room for error. No place for mediocrity. Only pure, relentless precision, manifested in every single fitting."
     },
     "material": {
       "eyebrow": "Materialwissenschaft",
       "title1": "Polypropylen Random-Copolymerisat.",
       "title2": "Entfesselt.",
       "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
-      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit – selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "p2": "By strategically positioning ethylene monomers within the propylene chain, we achieve unmatched impact resistance — even at sub-zero temperatures. Our granulates come exclusively from the global elite of raw material producers. We analyze every batch using Differential Scanning Calorimetry (DSC) and Melt Flow Rate (MFR) testing. Anything that misses our specifications by even a fraction of a percent is ruthlessly rejected.",
       "items": [
         {
           "title": "Extreme Molmasse",
-          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+          "desc": "Delivers maximum long-term creep strength and absolute resistance to stress cracking under extreme pressure."
         },
         {
           "title": "Kristalline Optimierung",
-          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+          "desc": "The perfect thermodynamic balance. Maximum flexibility for the most demanding installation conditions, combined with full axial rigidity."
         }
       ]
     },
     "timeline": {
-      "title": "Die Evolution der Perfektion",
-      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "title": "The Evolution of Perfection",
+      "desc": "An unstoppable rise to global market leadership. Every decade a milestone of technological superiority.",
       "items": [
         {
           "year": "1990",
-          "title": "Der Ursprung der Toleranzlosigkeit",
-          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K-Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+          "title": "The Origin of Zero Tolerance",
+          "text": "Where others compromised, we drew a red line. K-Aqua was founded on a single, unshakeable principle: flawless piping systems. Our first extruders ran with a precision that stunned the market."
         },
         {
           "year": "2005",
           "title": "Die Polypropylen-Revolution",
-          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+          "text": "We refused to accept the status quo. With the launch of our proprietary PP-R compound, we redefined thermal stability. While competing products collapsed under pressure, our systems remained stoically intact. A triumph of polymer chemistry."
         },
         {
           "year": "2015",
           "title": "Die architektonische Symbiose",
-          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet – K-Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PP-RCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+          "text": "From the skylines of Dubai to the industrial plants of the Ruhr Valley — K-Aqua became synonymous with indestructible infrastructure. Our PP-RCT fiber composite pipes revolutionized building construction. Less expansion, more flow, absolute dominance."
         },
         {
           "year": "2026",
           "title": "Die Molekulare Diktatur",
-          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+          "text": "Today, we control every aspect of production. From raw granulate selection to final inspection, our systems are governed by an uncompromising quality regime. The result? A guaranteed service life that outlasts generations."
         }
       ]
     },
     "sticky": {
       "eyebrow": "DIE PHYSIK BEZWUNGEN",
-      "title": "Die Vier Säulen der Macht.",
-      "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "title": "The Four Pillars of Power.",
+      "lead": "Technology that borders on magic. We didn't just overcome the limitations of conventional piping systems — we pulverized them.",
       "items": [
         {
-          "title": "Absolutismus in der Qualität",
-          "desc": "Jeder Millimeter unserer PP-R und PP-RCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+          "title": "Absolute Quality",
+          "desc": "Every millimeter of our PP-R and PP-RCT systems endures the most punishing stress testing. A 50-year service life is not a promise — it is a mathematical certainty. We tolerate zero deviation. What leaves our production halls is perfection in polymer form."
         },
         {
           "title": "Thermische Unverwundbarkeit",
-          "desc": "Unsere Faserverbundrohre (K-Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+          "desc": "Our fiber composite pipes (K-Aqua Fiber) neutralize thermal linear expansion almost entirely. Whether at an icy -20°C or a boiling +95°C, our systems remain absolutely dimensionally stable. An engineering masterpiece that seems to defy the laws of physics."
         },
         {
           "title": "Chemische Resistenz",
-          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K-Aqua unangetastet – stoisch, monolithisch, unverwüstlich."
+          "desc": "Corrosion does not exist in our vocabulary. Our polymers are immune to the most aggressive media, incrustation, and biological degradation. While metals rust and decay in the ground, K-Aqua remains untouched — stoic, monolithic, indestructible."
         },
         {
           "title": "Molekulare Fusion",
-          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+          "desc": "Our homogeneous welding process fuses pipe and fitting at the molecular level into one inseparable unit. No seals that can fatigue. No mechanical weak points. A monolithic structure built to last forever."
         }
       ]
     },
     "bento": {
       "eyebrow": "INDUSTRIELLE DOMINANZ",
-      "title": "Infrastruktur auf Steroiden.",
-      "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K-Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+      "title": "Infrastructure on Steroids.",
+      "lead": "We don't simply manufacture pipes. We create the arteries of modern civilization. K-Aqua is the backbone of industrial and architectural megaprojects worldwide.",
       "items": [
         {
           "title": "Brachiale Extrusion",
-          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+          "desc": "High-performance production lines operating under brutal pressure. The result: unrivaled wall thickness consistency down to the micrometer."
         },
         {
-          "title": "geprüfte Überlegenheit",
-          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+          "title": "Certified Superiority",
+          "desc": "ISO 9001, 14001, 50001. We don't just exceed the standards — we dictate them. International accreditation as the absolute baseline."
         },
         {
           "title": "Hygiene-Diktat",
-          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K-Aqua Systemen unangetastet rein. Keine Ausnahme."
+          "desc": "Food-safe, toxicologically harmless, and absolutely resistant to microbial growth. Drinking water remains untouched and pure in K-Aqua systems. No exceptions."
         },
         {
           "title": "Ressourcen-Effizienz",
-          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+          "desc": "Fully recyclable. Minimal CO2 footprint in production. Because true technological power always means taking responsibility for the future."
         }
       ]
     },
     "values": {
       "eyebrow": "Unternehmenspolitik",
       "title": "Das Fundament unseres Handelns.",
-      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+      "desc": "Technology alone is not enough. True greatness shows in how a company treats its environment, its employees, and its partners.",
       "items": [
         {
           "title": "Kunden-Obsession",
-          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+          "desc": "We don't simply serve markets — we dominate them through radical customer focus. Your requirements are our command. Our solutions are precise, scalable, and absolutely uncompromising in their execution."
         },
         {
           "title": "Strategische Allianzen",
-          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+          "desc": "We don't look for suppliers — we forge strategic alliances with the best raw material producers on the planet. Joint research, shared quality standards, shared dominance."
         },
         {
-          "title": "Ökologischer Imperativ",
-          "desc": "Nachhaltigkeit ist bei K-Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+          "title": "The Ecological Imperative",
+          "desc": "At K-Aqua, sustainability is not a marketing slogan — it is a physical imperative. Longevity is the ultimate form of environmental protection. Our systems minimize the energy footprint from production through recycling."
         }
       ]
     },
@@ -3903,8 +3908,8 @@
     "dia": "Nominal diameter",
     "length": "Pipe length",
     "sdrClass": "SDR class",
-    "velocity": "Fließgeschwindigkeit (v)",
-    "velocityDesc": "Wirkt sich drastisch auf den Druckverlust und Pumpenstrom (B) aus.",
+    "velocity": "Flow velocity (v)",
+    "velocityDesc": "Has a dramatic impact on pressure loss and pump power consumption (B).",
     "fluidTemp": "Fluidtemperatur",
     "ambientTemp": "Umgebungstemperatur",
     "insulation": "Isolierung",
@@ -3913,12 +3918,12 @@
     "insulationStandard": "Standard EnEV",
     "insulationPremium": "Premium",
     "installMethod": "Verlegeart (A5)",
-    "installBuilding": "Gebäudeinstallation",
+    "installBuilding": "Building installation",
     "installTrench": "Erdverlegt (Bagger)",
     "installTrenchless": "Grabenlos (HDD)",
     "installDesc": "Erdarbeiten verursachen massive CO2-Emissionen durch Maschinen (Diesel).",
     "lifespan": "Lifespan (years)",
-    "lifespanDesc": "Kurzlebige Rohre (z.B. C-Stahl) müssen evtl. mehrfach ersetzt werden.",
+    "lifespanDesc": "Short-lived pipes (e.g. carbon steel) may need to be replaced several times.",
     "energyMixLabel": "Strommix (Betrieb & Produktion)",
     "transportKm": "Transport distance (km)",
     "co2Savings": "CO2 Equivalent Savings",
@@ -4101,43 +4106,43 @@
     "schulungen": {
       "meta": {
         "title": "Schulungen | K-Aqua",
-        "desc": "K-Aqua Schulungen – Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
+        "desc": "K-Aqua Training – Uncompromising reliability through German engineering for global megaprojects."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
-        "title1": "Prüfung der",
+        "title1": "The Test of the",
         "title2": "Industriellen Elite.",
-        "desc": "Das K-Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist die Initiation in die kompromisslose Welt des deutschen Rohrleitungsbaus. Für Ingenieure und Techniker, die Megaprojekte verantworten, in denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren in Mikrometern, wir denken in Jahrzehnten.",
+        "desc": "The K-Aqua training program is no ordinary continuing education. It is an initiation into the uncompromising world of German pipeline engineering. Built for engineers and technicians responsible for megaprojects where material failure is not an option but an absolute catastrophe. We teach in micrometers. We think in decades.",
         "cta1": "Akademie-Bewerbung starten",
         "cta2": "Curriculum einsehen"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
+        "title1": "Precision",
+        "title2": "is <span className=\"text-primary\">no</span>",
         "title3": "Zufall.",
-        "p1": "Sie ist das Resultat unerbittlicher Methodik und eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch die Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum für Näherungswerte oder Interpretationen.",
-        "p2": "Das K-Aqua Schulungsprogramm wurde entwickelt, um die Lücke zwischen theoretischem Wissen und fehlerfreier, maschineller Perfektion zu schließen. Wer in unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker – er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+        "p1": "It is the result of relentless methodology and ice-cold industrial discipline. When thousands of cubic meters of water are pumped under enormous pressure through the lifelines of a 100-story high-rise, there is no room for approximations or interpretation.",
+        "p2": "The K-Aqua training program was engineered to close the gap between theoretical knowledge and flawless, machine-like perfection. Those who train at our academy no longer operate as mere installers – they become the executing instrument of a perfect, deterministic system."
       },
       "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
+        "eyebrow": "THE PILLARS OF AUTHORITY",
         "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "lead": "Our technical training modules are not designed to make things easy for you. They are designed to eradicate errors without mercy.",
         "items": [
           {
             "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits von Verklebungen oder instabilen mechanischen Dichtungen. Wir trainieren die exakte Kalibrierung von Temperatur, Druck und Zeit, um Rohre und Fittings auf molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+            "desc": "Beyond adhesive bonds or unstable mechanical seals. We train the exact calibration of temperature, pressure, and time to fuse pipes and fittings at the molecular level into one inseparable, monolithic structure."
           },
           {
             "title": "Destruktive Analytik",
-            "desc": "Um die Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module in unseren Hochdruck-Prüfständen mit Berstdrücken weit jenseits der 100 Bar. Wir analysieren das Versagen, um es in der Praxis auszuschließen."
+            "desc": "To understand the limits, you must push beyond them. Hands-on modules on our high-pressure test rigs with burst pressures far beyond 100 bar. We analyze failure in order to rule it out in the field."
           },
           {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation von Temperaturschwankungen in Großprojekten durch präzise berechnete Dehnungsbögen und Festpunkt-Systeme."
+            "title": "Thermal Linear Expansion",
+            "desc": "Ice-cold compensation of temperature fluctuations in large-scale projects through precisely calculated expansion loops and fixed-point systems."
           },
           {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse der Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien. Die Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung und radikalen pH-Verschiebungen."
+            "title": "Aggressive Media & pH Stability",
+            "desc": "In-depth analysis of resistance to highly concentrated industrial chemicals. The academy imparts profound expertise in material fatigue under sustained chemical exposure and radical pH shifts."
           }
         ]
       },
@@ -4148,82 +4153,82 @@
       "curriculum": {
         "eyebrow": "DAS CURRICULUM",
         "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen in der Ausführung zu identifizieren und systemisch zu vernichten."
+        "lead": "Four modules. One doctrine. Every segment of our curriculum is built to identify weaknesses in execution and eliminate them systemically."
       },
       "sticky": {
         "items": [
           {
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "Die Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte und Druckschlag-Szenarien in berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. Für Rohrnetze, die in völliger, geräuschloser Perfektion operieren."
+            "title": "Module Alpha: Fluid Mechanics & Kinetics",
+            "desc": "The mathematics of water. We break down complex cavitation effects and water-hammer scenarios into calculable variables. You learn not merely to dampen hydrodynamic shock symptoms, but to eliminate them systemically. For piping networks that operate in complete, silent perfection."
           },
           {
             "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "Der Entwurf von Rohrleitungssystemen als algorithmische Disziplin. Die Schulung beinhaltet den Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung und zur Optimierung der Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+            "desc": "Piping system design as an algorithmic discipline. The training covers the use of state-of-the-art CAD/BIM tools for clash detection and optimized material utilization. No estimating. Pure, ice-cold calculation."
           },
           {
             "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention auf strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht und Wassertemperatur-Schichtungen in komplexen Ringleitungs-Systemen kontrolliert. Das System diktiert die Reinheit – wir überlassen nichts dem Zufall."
+            "desc": "Legionella prevention at the structural level. How to avoid dead legs, eliminate stagnation zones, and control water-temperature stratification in complex ring-main systems. The system dictates purity – we leave nothing to chance."
           },
           {
             "title": "Modul Delta: Das finale K-Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z.B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K-Aqua Zertifikat."
+            "desc": "Certification is not a right, it is a privilege. The examination demands the design and theoretical defense of a self-sufficient water supply system under simulated extreme conditions (e.g. seismic activity, 50°C ambient temperature). Only those who prove absolute flawlessness carry the K-Aqua certificate."
           }
         ]
       },
       "timeline": {
         "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Die Transformation vom Installateur zum geprüften K-Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad bis zum Ende geht, erhält die Autorisation für unsere Hochleistungs-Systeme.",
+        "desc": "The transformation from installer to certified K-Aqua Master Engineer follows a strict, relentless rhythm. Only those who walk this path to the end receive authorization for our high-performance systems.",
         "items": [
           {
             "year": "PHASE 01",
             "title": "Materialphysik & Onboarding",
-            "text": "Das Begreifen der physikalischen Limits. Eine tiefgreifende Einführung in die molekularen PP-R/PP-RCT Werkstoff-Spezifikationen. Hier wird das Fundament der industriellen Härte gegossen."
+            "text": "Grasping the physical limits. A deep introduction to the molecular PP-R/PP-RCT material specifications. This is where the foundation of industrial toughness is cast."
           },
           {
             "year": "PHASE 02",
             "title": "Laboratorium & Belastungstests",
-            "text": "Hands-on Zerstörung. Das Erleben der Berstgrenze im Prüfstand und das Studium mikroskopischer Rissbildungen. Nur wer die Schwäche kennt, kann die absolute Stärke konstruieren."
+            "text": "Hands-on destruction. Experiencing the burst limit on the test rig and studying microscopic crack formation. Only those who know the weakness can engineer absolute strength."
           },
           {
             "year": "PHASE 03",
             "title": "Fusions-Doktrin",
-            "text": "Das perfekte Schweißprotokoll. Mechanisches Training der thermodynamischen Bewegungsabläufe bis zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
+            "text": "The perfect welding protocol. Mechanical training of the thermodynamic motion sequences until they become infallible muscle memory. Every movement is calibrated."
           },
           {
             "year": "PHASE 04",
             "title": "System-Architektur",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten und Strömungsteiler mit eiserner Logik."
+            "text": "Scaling from a single pipe segment to the infrastructure of a skyscraper. We execute pressure-loss tables, flow velocities, and flow dividers with iron logic."
           },
           {
             "year": "PHASE 05",
-            "title": "Die Meisterprüfung",
-            "text": "Ein 48-stündiges Audit unter der gnadenlosen Aufsicht der deutschen Chef-Ingenieure. Keine Toleranz für Fehlkalkulationen. Ein Fehler bedeutet den sofortigen Ausschluss."
+            "title": "The Master Examination",
+            "text": "A 48-hour audit under the merciless supervision of German chief engineers. Zero tolerance for miscalculation. A single error means immediate exclusion."
           }
         ]
       },
       "spec": {
         "eyebrow": "GLOBALER STANDARD",
-        "title": "Die globale Benchmark für Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein in Titan gegossenes Versprechen an Bauherren und Investoren weltweit. Wo das K-Aqua Zertifikat vorliegt, wurde die Installation nach den strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "title": "The global benchmark for safety.",
+        "desc": "Our certification is not just a piece of paper. It is a promise cast in titanium to building owners and investors worldwide. Wherever the K-Aqua certificate is present, the installation was executed to the strictest German engineering standards.",
         "items": [
           {
-            "title": "Internationale Gültigkeit",
-            "text": "Anerkannt von den weltweit führenden Bau- und Aufsichtsbehörden."
+            "title": "International Validity",
+            "text": "Recognized by the world's leading construction and regulatory authorities."
           },
           {
             "title": "Audit-Transparenz",
-            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
+            "text": "Seamless, end-to-end digital documentation of every welding operation."
           },
           {
-            "title": "Lebenslange Autorität",
-            "text": "Einmal erworben, zeichnet es den Engineer als Teil einer elitären Kaste aus."
+            "title": "Lifelong Authority",
+            "text": "Once earned, it distinguishes the engineer as part of an elite cadre."
           }
         ]
       },
       "cta": {
-        "title1": "Bereit für die",
+        "title1": "Ready for the",
         "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil oder fordern Sie die Spezifikationen für firmeninterne Audits an.",
+        "desc": "Submit to the benchmark of German engineering excellence. Send us your profile or request the specifications for in-company audits.",
         "button": "Bewerbung initiieren"
       }
     },
