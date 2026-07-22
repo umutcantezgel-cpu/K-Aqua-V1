@@ -867,9 +867,13 @@
       "tds": "Technisch Datablad",
       "tdsDesc": "Specificaties & afmetingen (PDF)",
       "cert": "Certificaten & Normen",
-      "certDesc": "DVGW, SKZ, KIWA (ZIP)",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
       "install": "Installatiegids",
-      "installDesc": "Lashandleiding (PDF)"
+      "installDesc": "Lashandleiding (PDF)",
+      "range": "Product Range",
+      "rangeDesc": "Complete product range with dimensions (PDF)",
+      "features": "Product Features",
+      "featuresDesc": "Material properties & system benefits (PDF)"
     },
     "specAndDim": "Specificaties & Afmetingen",
     "certsAndNorms": "Certificates & Standards",
@@ -4607,31 +4611,31 @@
         "t": "K-Aqua Product Range",
         "s": "Complete catalogue: dimensions, articles, system overview",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+        "href": "/pdf/k-aqua-product-range-en.pdf"
       },
       {
         "t": "K-Aqua Product Features",
         "s": "Technical properties and material data",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf"
+        "href": "/pdf/k-aqua-product-features-en.pdf"
       },
       {
         "t": "K-Aqua Quality Assurance",
         "s": "Test procedures and quality standards",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf"
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
       },
       {
         "t": "ISO Certificates (German)",
         "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
         "lang": "DE",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf"
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
       },
       {
         "t": "ISO Certificates (English)",
         "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf"
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
       },
       {
         "t": "GENAU Policy & Risk Assessment",

@@ -907,9 +907,13 @@
       "tds": "Scheda Tecnica",
       "tdsDesc": "Specifiche e Dimensioni (PDF)",
       "cert": "Certificati e Normative",
-      "certDesc": "DVGW, SKZ, KIWA (ZIP)",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
       "install": "Guida all'installazione",
-      "installDesc": "Istruzioni per la saldatura (PDF)"
+      "installDesc": "Istruzioni per la saldatura (PDF)",
+      "range": "Product Range",
+      "rangeDesc": "Complete product range with dimensions (PDF)",
+      "features": "Product Features",
+      "featuresDesc": "Material properties & system benefits (PDF)"
     },
     "specAndDim": "Specifiche e Dimensioni",
     "certsAndNorms": "Certificati e Normative",
@@ -4647,31 +4651,31 @@
         "t": "Gamma di prodotti K-Aqua",
         "s": "Catalogo completo: dimensioni, articoli, panoramica di sistema",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+        "href": "/pdf/k-aqua-product-range-en.pdf"
       },
       {
         "t": "Caratteristiche dei Prodotti K-Aqua",
         "s": "Proprietà tecniche e dati sui materiali",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf"
+        "href": "/pdf/k-aqua-product-features-en.pdf"
       },
       {
         "t": "Controllo Qualità K-Aqua",
         "s": "Metodi di collaudo e standard di qualità",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf"
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
       },
       {
         "t": "Certificati ISO (Tedesco)",
         "s": "ISO 9001 · 14001 · 50001, accreditato DAkkS",
         "lang": "DE",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf"
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
       },
       {
         "t": "Certificati ISO (Inglese)",
         "s": "ISO 9001 · 14001 · 50001, accreditato DAkkS",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf"
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
       },
       {
         "t": "Politica GENAU & Valutazione dei Rischi",
