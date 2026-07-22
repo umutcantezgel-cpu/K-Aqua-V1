@@ -80,7 +80,7 @@ export default async function NewsDetailPage({ params }: Props) {
 
             {/* Sticky Sidebar */}
             <aside className="sticky top-24 w-full">
-              <KontaktBlock slug="news-detail" variant="sidebar" tone="glass" />
+              <KontaktBlock slug="news" variant="sidebar" tone="glass" />
             </aside>
           </div>
         </div>

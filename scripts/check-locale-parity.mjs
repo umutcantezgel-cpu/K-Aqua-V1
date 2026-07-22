@@ -55,6 +55,9 @@ const NEUTRAL_KEYS = [
   /^footer\.address$/,
   /^footer\.copyright$/,
   /^imprint\.rows/,
+  /^kontaktBlocks\..*\.interest$/, // canonical CRM values, intentionally identical
+  /^enterprise\.eyebrow$/, // brand tag, stays English
+  /Author$/, // reviewer names
 ];
 const isNeutralKey = (k) => NEUTRAL_KEYS.some((re) => re.test(k));
 const isNeutral = (v) => v.length <= 3 || NEUTRAL.some((re) => re.test(v.trim()));

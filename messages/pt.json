@@ -476,7 +476,9 @@
     "references": "Referências",
     "career": "Carreira",
     "news": "Notícias",
-    "knowledge_trust": "Conhecimento e Confiança"
+    "knowledge_trust": "Conhecimento e Confiança",
+    "mapAria": "Open map navigation",
+    "sitemapAria": "Sitemap"
   },
   "groups": {
     "tools": "Products & Tools",
@@ -645,7 +647,40 @@
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
     "address": "Auweg 3, 35647 Waldsolms, Germany",
-    "copyright": "© 2026 KWT GmbH."
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Request a project",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R pipe standards"
+      },
+      {
+        "t": "Sustainability",
+        "s": "Eco-friendly"
+      },
+      {
+        "t": "GENAU System",
+        "s": "Integrated management"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Production in Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Web design by Coday",
+        "A project by Coday Web Agency",
+        "Coday Web Agency",
+        "Digitalized by Coday"
+      ],
+      "srDesc": "This website was designed and engineered by Coday Web Agency, experts in web design and GEO based in Hesse, Germany.",
+      "linkTitle": "Visit Coday Web Agency – premium web design"
+    }
   },
   "regions": {
     "dach": "DACH",
@@ -6471,5 +6506,411 @@
     "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
     "ctaBtn": "Get in touch now",
     "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
+  },
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "Direct Contact",
+      "head": "Start your next piping project with reliable figures.",
+      "short": "Talk directly to production",
+      "text": "Hand over rough parameters such as pipe diameter and route length. We check manufacturing capacity at our German plant and give you realistic delivery times.",
+      "interest": "Rohrsysteme",
+      "done": "One of our engineers will review your parameters and get back to you promptly."
+    },
+    "unternehmen": {
+      "kicker": "Factory Tours & Consulting",
+      "head": "Get to know the manufacturing behind K-Aqua in person.",
+      "short": "Schedule a factory visit",
+      "text": "As a family-run company, we are happy to open our doors to planners and building owners. Leave your contact details to arrange a visit to our Waldsolms plant.",
+      "interest": "Beratung",
+      "done": "We will get in touch to coordinate your visit to Waldsolms."
+    },
+    "produkte_fittings": {
+      "kicker": "Molded Parts & Fittings",
+      "head": "Bill-of-materials check for your fittings and connections.",
+      "short": "Request fittings for your PP-R system",
+      "text": "Send us the dimensions and quantities of the fittings you need. We assess availability and, on request, recommend optimizations for hydraulic balancing.",
+      "interest": "Ersatzteile",
+      "done": "Our technical sales team will contact you to discuss the bill of materials."
+    },
+    "produkte_rohre": {
+      "kicker": "PP-R Pipes",
+      "head": "Sizing and delivery times for your piping project.",
+      "short": "Questions about PP-R pipes for your project",
+      "text": "Give us the pressure rating, medium, and rough route length over the phone. Our engineers check sizing and ex-works availability and give you a reliable delivery date.",
+      "interest": "Rohrsysteme",
+      "done": "A piping engineer will get back to you within one business day."
+    },
+    "produkte_armaturen": {
+      "kicker": "Valves & Controls",
+      "head": "The right valve for your hydraulic requirements.",
+      "short": "Find valves for complex networks",
+      "text": "Shut-off, control, or specialty valves: briefly describe the maximum operating pressure and the conveyed medium. We forward you the matching data sheets and availability.",
+      "interest": "Ersatzteile",
+      "done": "A valve expert will send you the requested specifications shortly."
+    },
+    "produkte_werkzeuge": {
+      "kicker": "Welding Tools",
+      "head": "Secure the right tool for absolutely leak-tight joints.",
+      "short": "Rent or buy welding tools",
+      "text": "Whether socket fusion or electrofusion technology: tell us which dimensions are coming up on site. We take care of the right machines for rent or purchase.",
+      "interest": "Beratung",
+      "done": "Our equipment team will check stock and get back to you promptly."
+    },
+    "produkte_uebergaenge": {
+      "kicker": "System Transitions",
+      "head": "Reliable material transitions from metal to plastic.",
+      "short": "Transition fittings for your installation",
+      "text": "Give us the exact thread dimensions and the material of the existing pipes. We recommend corrosion-free transition fittings that guarantee lasting leak-tightness.",
+      "interest": "Rohrsysteme",
+      "done": "A technician will contact you to select the right transition fitting."
+    },
+    "produkte_zubehoer": {
+      "kicker": "Accessories & Fastening",
+      "head": "Complete your installation with original accessories.",
+      "short": "Request fasteners and accessories",
+      "text": "From pipe clamps to insulation material: tell us what you need. We make sure the accessories integrate seamlessly with the rest of your K-Aqua system.",
+      "interest": "Ersatzteile",
+      "done": "Your accessories quote is being prepared."
+    },
+    "katalog": {
+      "kicker": "Complete Catalog",
+      "head": "All item numbers and dimensions for your procurement.",
+      "short": "Help finding the right item",
+      "text": "Can't find a special custom size in the catalog? Briefly describe the component you need and we will search our entire inventory for you.",
+      "interest": "Beratung",
+      "done": "We will research the requested component and call you."
+    },
+    "finder": {
+      "kicker": "Product Finder",
+      "head": "Let us shortcut the search for the right system.",
+      "short": "Direct help with the product finder",
+      "text": "If your parameters (temperature, pressure, medium) are borderline, we are happy to take over the system design. One call often saves hours of research.",
+      "interest": "Beratung",
+      "done": "A system planner will call you back for the precise design."
+    },
+    "produkte": {
+      "kicker": "Product Range",
+      "head": "Questions about the compatibility of our PP-R components?",
+      "short": "System consulting for K-Aqua products",
+      "text": "Give us a quick overview of which systems you want to connect. We show you how to build a homogeneous, leak-tight installation with our portfolio.",
+      "interest": "Rohrsysteme",
+      "done": "We will get back to you with technical details on system compatibility."
+    },
+    "academy": {
+      "kicker": "Training & Certification",
+      "head": "Book a hands-on seminar for your installers.",
+      "short": "Request seats at the K-Aqua Academy",
+      "text": "Secure your warranty through professional workmanship. Tell us the number of employees and we will propose dates for an in-house or factory training session.",
+      "interest": "Beratung",
+      "done": "The Academy team will get back to you with proposed training dates."
+    },
+    "referenzen": {
+      "kicker": "Similar Projects",
+      "head": "Benefit from our experience on reference projects.",
+      "short": "Request project insights for your build",
+      "text": "Planning a similar high-rise or industrial facility? We are happy to share anonymized lessons learned and best practices from the large-scale projects shown here.",
+      "interest": "BIM Daten",
+      "done": "A project manager will get in touch to share experience."
+    },
+    "support": {
+      "kicker": "Technical Support",
+      "head": "Immediate help with challenges on the construction site.",
+      "short": "Fast troubleshooting for installers",
+      "text": "Problems with a weld seam or unclear pressure test results? Leave your number and our technical support will call back immediately for a remote diagnosis.",
+      "interest": "Beratung",
+      "done": "Technical support has been alerted and will call back shortly."
+    },
+    "ausschreibungstexte": {
+      "kicker": "Tender Texts & Planning",
+      "head": "Receive manufacturer-neutral tender specifications in minutes.",
+      "short": "Help creating your bill of quantities",
+      "text": "We provide VOB-compliant GAEB files or Word templates for your tender documents. Tell us the project type and we will send you tailored specification texts.",
+      "interest": "BIM Daten",
+      "done": "The matching tender texts will be sent to you promptly."
+    },
+    "service": {
+      "kicker": "On-Site Service",
+      "head": "Support from K-Aqua technicians on your construction site.",
+      "short": "Request an on-site briefing",
+      "text": "Does your team need machine instruction directly at the installation site? We coordinate one of our site supervisors to support your project through the critical start-up phase.",
+      "interest": "Beratung",
+      "done": "Our service team is checking the availability of a site supervisor."
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "Zero-Leakage Networks",
+      "head": "Every percent of drinking water lost costs your network real money.",
+      "short": "Loss calculation for your drinking water network",
+      "text": "Briefly describe your network size and climate zone. We calculate how much water and budget a K-Aqua installation saves compared to your existing network, including years of operation.",
+      "interest": "Trinkwassernetze",
+      "done": "A network planner will get back to you within one business day with an initial loss calculation."
+    },
+    "maerkte_klima": {
+      "kicker": "HVAC & Cooling",
+      "head": "Secure high flow rates without corrosion risk.",
+      "short": "Plan cooling circuits more efficiently",
+      "text": "Tell us the cooling capacity and supply temperature. We size the pipe cross-section to minimize cavitation and pressure losses in your HVAC system.",
+      "interest": "Rohrsysteme",
+      "done": "An HVAC expert will contact you about cross-section sizing."
+    },
+    "maerkte_industrie": {
+      "kicker": "Industrial Plants",
+      "head": "Chemical resistance for demanding process media.",
+      "short": "Request a chemical resistance check",
+      "text": "Handling aggressive acids, alkalis, or ultrapure water? Send us the chemical composition and our laboratory will confirm the resistance of our PP-R pipes in writing.",
+      "interest": "Beratung",
+      "done": "Our laboratory is checking the resistance and will get back to you."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Shipbuilding & Marine",
+      "head": "Lightweight construction and vibration resistance for shipboard networks.",
+      "short": "Request marine approvals",
+      "text": "Whether grey water, black water, or ballast water: tell us the ship class. We send you the corresponding classification certificates (DNV, Lloyd's) for our system.",
+      "interest": "Beratung",
+      "done": "A marine expert will send you the relevant certificates."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Agriculture & Greenhouses",
+      "head": "Robust irrigation networks for maximum yields.",
+      "short": "Have your irrigation system designed",
+      "text": "Tell us your acreage and water demand. We design a frost-proof, long-lasting PP-R network whose complete opacity prevents clogging caused by algae growth.",
+      "interest": "Trinkwassernetze",
+      "done": "We will contact you shortly to discuss your irrigation network."
+    },
+    "maerkte": {
+      "kicker": "Regional Markets",
+      "head": "Talk to an export specialist for your region.",
+      "short": "Logistics and approvals for your country",
+      "text": "We export worldwide. Tell us the destination country and we will inform you about local standards, distribution partners on the ground, and realistic sea freight lead times from our plant.",
+      "interest": "Beratung",
+      "done": "An export manager for your region will get in touch with you."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "High-Rise Construction",
+      "head": "Pressure stabilization in extreme riser pipes.",
+      "short": "Calculate pressure loss in high-rise buildings",
+      "text": "Hydromechanics in high-rise construction leaves no room for error. Tell us the building height and number of floors, and we help position pressure reducers and expansion loops.",
+      "interest": "BIM Daten",
+      "done": "A specialist in high-rise hydraulics will contact you to discuss the details."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Hospitals",
+      "head": "Sterility and Legionella prevention in clinical operations.",
+      "short": "Drinking water hygiene for clinics",
+      "text": "Protecting immunocompromised patients is the top priority. We advise you on ring mains, dead-leg avoidance, and thermal disinfection with our PP-R system.",
+      "interest": "Trinkwassernetze",
+      "done": "An expert in drinking water hygiene will contact you immediately."
+    },
+    "loesungen_hotel": {
+      "kicker": "Hotel Facilities",
+      "head": "Acoustic decoupling for your guests' undisturbed sleep.",
+      "short": "Sound insulation in hotel construction",
+      "text": "Flow noise in adjacent rooms leads to complaints. Tell us the wall constructions and we recommend sound-insulating fixings and flow optimizations.",
+      "interest": "Beratung",
+      "done": "We will get in touch to optimize the sound insulation in your facility."
+    },
+    "loesungen": {
+      "kicker": "Special Solutions",
+      "head": "Custom system solutions for complex construction projects.",
+      "short": "Technical consulting for your special project",
+      "text": "Standard solutions not enough for your project? Outline the challenge and our engineering design department will develop custom manifolds and special components.",
+      "interest": "Beratung",
+      "done": "Our engineering design department is reviewing your inquiry and will get back to you."
+    },
+    "co2_rechner": {
+      "kicker": "CO2 Savings",
+      "head": "Let us validate your project's carbon footprint.",
+      "short": "Request a detailed CO2 balance",
+      "text": "The calculator provides initial guide values. Send us the exact bill of materials and we will prepare a detailed certificate of the CO2 savings versus metal pipes for your sustainability audit.",
+      "interest": "Beratung",
+      "done": "A sustainability officer will contact you about preparing the certificate."
+    },
+    "trust_center": {
+      "kicker": "Certificates & Standards",
+      "head": "Need a specific certificate for building acceptance?",
+      "short": "Request certificates for building acceptance",
+      "text": "If the inspector on site asks for a specific document (DVGW, SKZ, KIWA), tell us the standard. We send you the current version directly as a PDF.",
+      "interest": "BIM Daten",
+      "done": "We will locate the right certificate and send it to you."
+    },
+    "projektanfrage": {
+      "kicker": "Project Start",
+      "head": "Hand over the key data and we deliver an initial budget.",
+      "short": "Fast budget estimate for building owners",
+      "text": "Upload your plans in the next step, or give us the rough square meters and type of use by phone in advance. We will give you an initial price range.",
+      "interest": "Rohrsysteme",
+      "done": "The project team will contact you to discuss the budget."
+    },
+    "kontakt": {
+      "kicker": "Direct Line",
+      "head": "Your shortest route to K-Aqua headquarters.",
+      "short": "We call you on the construction site",
+      "text": "No hold queues. Enter your number and select the rough topic. The right specialist from sales or engineering will get back to you immediately.",
+      "interest": "Beratung",
+      "done": "Your inquiry has been received. The right advisor will be in touch right away."
+    },
+    "news": {
+      "kicker": "Press & Media",
+      "head": "Questions about a press release or product launch?",
+      "short": "Contact corporate communications",
+      "text": "For high-resolution images, interviews with the management team, or technical background on our innovations, simply leave your contact details.",
+      "interest": "Beratung",
+      "done": "Our press department will get in touch with you shortly."
+    },
+    "karriere": {
+      "kicker": "Careers at K-Aqua",
+      "head": "Ask an informal question about our vacancies.",
+      "short": "Direct line to HR",
+      "text": "Not sure whether your profile fits, or want to clarify details about the day-to-day work before applying? Our HR team answers your questions informally by phone.",
+      "interest": "Beratung",
+      "done": "The HR department will get in touch for a brief introduction."
+    },
+    "partnerschaft": {
+      "kicker": "Become a Distributor",
+      "head": "Expand your range with premium German-made pipe.",
+      "short": "Request distributor terms",
+      "text": "You are a wholesaler looking for a reliable PP-R supplier? Tell us your region and target group, and we will discuss exclusivity models and distributor terms.",
+      "interest": "Beratung",
+      "done": "Our head of partnership sales will contact you."
+    },
+    "impressum": {
+      "kicker": "Legal",
+      "head": "Questions about our company information?",
+      "short": "Contact the K-Aqua front office",
+      "text": "Leave your number here if you have legal or formal questions about our company.",
+      "interest": "Beratung",
+      "done": "We will get in touch to clarify your question."
+    },
+    "datenschutz": {
+      "kicker": "Data Privacy",
+      "head": "Speak with our data protection officer.",
+      "short": "Request information about your data",
+      "text": "We take your privacy seriously. If you would like disclosure, deletion, or details about the processing of your data, please leave your contact details.",
+      "interest": "Beratung",
+      "done": "Our data protection officer will contact you immediately."
+    },
+    "fallback": {
+      "kicker": "Contact",
+      "head": "Speak directly with our engineers.",
+      "short": "Direct line to our engineers",
+      "text": "Phone number, email, one click on your topic. That is all it takes; we clarify the rest in conversation.",
+      "interest": "Beratung",
+      "done": "A specialist advisor will get back to you within one business day."
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Please enter a phone number",
+    "emailLabel": "Email",
+    "emailPlaceholder": "purchasing@company.com",
+    "emailError": "Please enter a valid email address",
+    "chipsLabel": "What do you need",
+    "send": "Send inquiry",
+    "sendError": "Sending failed. Please try again or call us directly:",
+    "legal": "No advertising, no data sharing.",
+    "legalLink": "Privacy policy",
+    "doneTitle": "Thank you, your inquiry has been received.",
+    "doneTitleSlim": "Thanks, inquiry received.",
+    "direct": "In a hurry? Call direct",
+    "promise": "Response within one business day",
+    "ccAria": "Country code",
+    "closeAria": "Close",
+    "fabAria": "Contact",
+    "interests": {
+      "rohrsysteme": "Piping systems",
+      "trinkwassernetze": "Drinking water networks",
+      "bim": "BIM data",
+      "ersatzteile": "Spare parts",
+      "beratung": "Consulting"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "High-Performance ",
+    "heroTitleEm": "Piping Systems",
+    "heroLead": "For industrial applications, drinking water supply, and HVAC technology under extreme conditions.",
+    "telemetry": {
+      "pressureLabel": "System Pressure",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Max. Temperature",
+      "tempNote": "PN20 · Continuous Operation",
+      "meta": [
+        [
+          "Material",
+          "K-Aqua PP-R (Type 3)"
+        ],
+        [
+          "Standard",
+          "DIN 8077/8078"
+        ],
+        [
+          "Certification",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Service Life",
+          "> 50 years"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Fiber Composite Technology",
+      "desc": "3-layer construction for minimized linear expansion and maximum stability at high temperatures.",
+      "ariaGroup": "Material layers",
+      "items": [
+        {
+          "t": "PP-RCT",
+          "d": "Outer layer"
+        },
+        {
+          "t": "Fiber composite",
+          "d": "Middle layer"
+        },
+        {
+          "t": "PP-RCT",
+          "d": "Inner layer"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Compliance & Standards",
+      "items": [
+        [
+          "DVGW",
+          "Drinking Water Approval"
+        ],
+        [
+          "SKZ",
+          "Quality Monitoring"
+        ],
+        [
+          "KIWA",
+          "System Certification"
+        ],
+        [
+          "DIN 8077/8078",
+          "Pipe Dimensions & Tolerances"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimensions",
+    "network": {
+      "title": "Global Network",
+      "lead": "K-Aqua systems are in service in over 35 countries worldwide. From Waldsolms to the world.",
+      "chips": [
+        [
+          "35+",
+          "Countries"
+        ],
+        [
+          "3",
+          "Continents"
+        ],
+        [
+          "ISO",
+          "Certified"
+        ]
+      ]
+    }
   }
 }
