@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils/cn';
 
 export const PremiumAssetPlaceholder = ({
   className,
-  label = "Premium 3D Asset Placeholder",
+  label,
 }: {
   className?: string;
   label?: string;
@@ -19,7 +19,7 @@ export const PremiumAssetPlaceholder = ({
     )}>
       {/* Cinematic Lighting Effect */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(var(--primary),0.08)_0%,transparent_70%)] pointer-events-none" />
-      
+
       {/* Geometric Wireframe or Lines */}
       <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: "linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px)", backgroundSize: "4rem 4rem" }} />
 
@@ -29,12 +29,11 @@ export const PremiumAssetPlaceholder = ({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
           </svg>
         </div>
-        <span className="font-heading font-bold tracking-widest uppercase text-sm text-muted-foreground/80">
-          {label}
-        </span>
-          <div className="text-center font-mono text-xs uppercase tracking-[0.2em] opacity-40 group-hover:opacity-100 transition-opacity max-w-[80%] mx-auto mt-4 leading-relaxed">
-            {label} - Visualisierung folgt in finaler Version
-          </div>
+        {label && (
+          <span className="font-heading font-bold tracking-widest uppercase text-sm text-muted-foreground/80">
+            {label}
+          </span>
+        )}
       </div>
     </div>
   );
