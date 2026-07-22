@@ -13,7 +13,7 @@ import { Reveal } from '@/components/ui/Reveal';
 
 // Dynamic load of Globe to prevent SSR issues
 const Globe = dynamic(
-  () => import('@/components/ui/Globe').then((mod) => mod.Globe),
+  () => import('@/components/globe/Globe').then((mod) => mod.Globe),
   { ssr: false }
 );
 
