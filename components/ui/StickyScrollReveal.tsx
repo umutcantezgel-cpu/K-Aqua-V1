@@ -41,15 +41,14 @@ export const StickyScrollReveal = ({
   });
 
   return (
-    <motion.div
-      className="h-[40rem] overflow-y-auto flex justify-center relative space-x-10 rounded-2xl p-10 bg-background border border-card-border"
+    <div
       ref={ref}
-      style={{ scrollbarWidth: "none" }}
+      className="relative flex flex-col lg:flex-row gap-10 lg:gap-16 rounded-2xl p-6 lg:p-10 bg-background border border-card-border"
     >
-      <div className="div relative flex items-start px-4">
+      <div className="relative flex items-start px-2 lg:px-4">
         <div className="max-w-xl w-full">
           {content.map((item, index) => (
-            <div key={item.title + index} className="my-20">
+            <div key={item.title + index} className="min-h-[70vh] flex flex-col justify-center py-10">
               <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{
@@ -70,30 +69,31 @@ export const StickyScrollReveal = ({
               </motion.div>
             </div>
           ))}
-          <div className="h-40" />
         </div>
       </div>
-      
-      <div
-        className={cn(
-          "hidden lg:block h-[30rem] w-[40rem] rounded-2xl bg-card border border-card-border sticky top-10 overflow-hidden shadow-2xl",
-          contentClassName
-        )}
-      >
-        <motion.div
-          key={activeCard}
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-          className="w-full h-full flex items-center justify-center"
-        >
-          {content[activeCard]!.content ?? (
-            <div className="text-muted-foreground/50 font-heading tracking-widest uppercase">
-              {"Visual Asset Placeholder "}{activeCard + 1}
-            </div>
+
+      <div className="hidden lg:block w-[40rem] shrink-0">
+        <div
+          className={cn(
+            "h-[30rem] rounded-2xl bg-card border border-card-border sticky top-(--header-h) overflow-hidden shadow-2xl",
+            contentClassName
           )}
-        </motion.div>
+        >
+          <motion.div
+            key={activeCard}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="w-full h-full flex items-center justify-center"
+          >
+            {content[activeCard]!.content ?? (
+              <div className="text-muted-foreground/50 font-heading tracking-widest uppercase">
+                {"Visual Asset Placeholder "}{activeCard + 1}
+              </div>
+            )}
+          </motion.div>
+        </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
