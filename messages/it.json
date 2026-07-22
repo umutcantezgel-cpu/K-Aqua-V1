@@ -6910,5 +6910,69 @@
         ]
       ]
     }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrial Reference Projects",
+      "titlePlain": "Engineering that ",
+      "titleAccent": "proves itself.",
+      "lead": "From Waldsolms to the world: K-Aqua PP-R and PP-RCT systems have been running for decades in high-rises, hospitals, industrial plants, and ships — under conditions that allow no second attempt.",
+      "cta1": "View Reference Projects",
+      "cta2": "Request Test Report"
+    },
+    "manifesto": {
+      "title": "The Doctrine of Precision",
+      "p1": "In an industry where material fatigue and corrosion are treated as inevitable, our manufacturing sets a different standard. We regard every pipe not as a component, but as the outcome of applied materials science. Every batch of PP-R copolymer, every weld, and every wall thickness passes through a testing process that would rather accept scrap than a tolerance breach. This is the fundamental law of the <strong>K-Aqua Reference Class</strong>.",
+      "p2": "Our systems operate in environments where a single point of leakage can jeopardize the operation of an entire hospital or high-rise. We apply long-term internal pressure testing to ISO 9080 not as a laboratory formality, but as a hard requirement for every approved dimension: extrapolated to a 50-year service life at specified temperature and pressure rating — documented, traceable, and batch-pure.",
+      "p3": "We deliberately avoid opaque material blends. Our formulation is documented across the entire manufacturing chain — from polymer batch to finished pipe length. We calibrate extrusion temperatures to the degree, optimize the fiber-composite middle layer against longitudinal expansion, and log every electrofusion weld with exact process parameters. The result: systems that stay comfortably within spec under continuous operation at 70°C and PN20.",
+      "p4": "For us, quality assurance is not a downstream inspection step — it is built into every stage of production. By consistently applying DVGW, SKZ, and KIWA certification across all relevant dimensions, we proactively close off every avenue of failure risk. A system manufactured to DIN 8077/8078 and triple-certified can never become the weak link."
+    },
+    "metrics": {
+      "eyebrow": "Technical Metrics",
+      "title1": "Uncompromising",
+      "title2": "Parameters",
+      "lead": "Our systems aren't advertised — they're tested. These are the core metrics behind our engineering doctrine.",
+      "items": {
+        "pressure": {
+          "title": "Long-Term Pressure Testing to ISO 9080",
+          "desc": "Every approved dimension undergoes internal pressure testing at multiple temperature levels over thousands of operating hours — extrapolated along a regression line to a 50-year service life.",
+          "placeholder": "Long-term internal pressure test regression curve"
+        },
+        "isolation": {
+          "title": "Seamless Batch Traceability",
+          "desc": "Every pipe length carries a batch number traceable all the way back to the polymer delivery — ensuring complete documentation for project acceptance and warranty claims."
+        },
+        "tolerance": {
+          "title": "Wall-Thickness Tolerance in the Micrometer Range",
+          "desc": "Continuous ultrasonic wall-thickness measurement during extrusion keeps every dimension precisely within DIN 8077/8078 tolerance fields."
+        },
+        "network": {
+          "title": "Global Distribution and Service Network",
+          "desc": "From Waldsolms, we supply projects in more than 35 countries, providing technical consultation, training, and spare-parts supply — well beyond project handover.",
+          "placeholder": "K-Aqua distribution network export map"
+        },
+        "welding": {
+          "title": "Uncompromising Weld Integrity",
+          "desc": "Every heating-element socket weld follows a documented time-temperature-pressure profile. Random-sample tensile tests and microsection images confirm the molecular fusion of pipe and fitting — no seals, no weak points.",
+          "placeholder": "Microsection image of a K-Aqua socket weld joint"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Ready for Your",
+      "title2": "Next Project",
+      "lead": "Planning a high-rise, an industrial facility, or a hospital project? Our engineers are ready for your specifications — backed by solid test data, not marketing promises.",
+      "btn1": "Request Test Certificates",
+      "btn2": "Submit Specifications"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
   }
 }
