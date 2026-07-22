@@ -75,7 +75,7 @@ export default function Page() {
                 </ul>
              </div>
              <div className="h-[600px] w-full">
-               <PremiumAssetPlaceholder label="K-Aqua Toolkit Pro" />
+               <PremiumAssetPlaceholder label="K-Aqua Toolkit Pro" image="/images/new-k-aqua/tools-profil.png" />
              </div>
            </div>
          </div>

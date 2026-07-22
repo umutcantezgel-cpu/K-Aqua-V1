@@ -159,7 +159,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Strömungssimulation: Turbulenz im Metall vs Laminarströmung in PPR" />
+          <PremiumAssetPlaceholder label="Strömungssimulation: Turbulenz im Metall vs Laminarströmung in PPR" image="/images/new-k-aqua/pipes-profil.png" />
         </Reveal>
       </section>
 

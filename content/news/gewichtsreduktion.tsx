@@ -154,7 +154,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Installation im Deckenbereich: Ein Handwerker montiert einen K Aqua Rohrstrang" />
+          <PremiumAssetPlaceholder label="Installation im Deckenbereich: Ein Handwerker montiert einen K Aqua Rohrstrang" image="/images/new-k-aqua/weld-in-saddles.png" />
         </Reveal>
       </section>
 

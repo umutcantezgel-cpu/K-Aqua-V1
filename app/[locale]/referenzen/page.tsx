@@ -111,7 +111,7 @@ export default async function ReferenzenPage({ params }: Props) {
               description={t(`metrics.items.${metricKeys[0]}.desc`)}
               icon={<Gauge className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[0]}.placeholder`)} />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[0]}.placeholder`)} video="/videos/factory.mp4" />}
             />
             <BentoGridItem
               title={t(`metrics.items.${metricKeys[1]}.title`)}
@@ -140,7 +140,7 @@ export default async function ReferenzenPage({ params }: Props) {
               description={t(`metrics.items.${metricKeys[3]}.desc`)}
               icon={<Globe2 className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[3]}.placeholder`)} />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[3]}.placeholder`)} image="/images/new-k-aqua/big5-messe-saudi-arabien.webp" />}
             />
             <BentoGridItem
               title={t(`metrics.items.${metricKeys[4]}.title`)}
@@ -148,7 +148,7 @@ export default async function ReferenzenPage({ params }: Props) {
               icon={<Flame className="w-10 h-10 text-primary" />}
               colSpan={3}
               rowSpan={2}
-              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[4]}.placeholder`)} className="min-h-[500px]" />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[4]}.placeholder`)} video="/videos/socket-welding-machine.mp4" className="min-h-[500px]" />}
             />
           </BentoGrid>
         </div>

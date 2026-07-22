@@ -160,7 +160,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Querschnitt durch eine industrielle Anlage mit K Aqua Verrohrung" />
+          <PremiumAssetPlaceholder label="Querschnitt durch eine industrielle Anlage mit K Aqua Verrohrung" video="/videos/factory.mp4" />
         </Reveal>
       </section>
 

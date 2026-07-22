@@ -159,7 +159,7 @@ export const lebenszykluskostenTco: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="TCO Analyse: Vergleich der kumulierten Betriebskosten von PPR gegenüber metallischen Systemen über 50 Jahre" />
+          <PremiumAssetPlaceholder label="TCO Analyse: Vergleich der kumulierten Betriebskosten von PPR gegenüber metallischen Systemen über 50 Jahre" image="/images/new-k-aqua/ppr-rohre-vorteile.jpg" />
         </Reveal>
       </section>
 

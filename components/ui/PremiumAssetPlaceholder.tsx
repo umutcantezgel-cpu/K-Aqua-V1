@@ -2,15 +2,71 @@
 
 /* eslint-disable react/jsx-no-literals */
 import React from 'react';
+import Image from 'next/image';
 import { cn } from '@/lib/utils/cn';
 
 export const PremiumAssetPlaceholder = ({
   className,
   label,
+  image,
+  video,
 }: {
   className?: string;
   label?: string;
+  /** Path to a real image under public/ (e.g. /images/new-k-aqua/factory.jpg). When set, renders the image instead of the abstract placeholder. */
+  image?: string;
+  /** Path to a real video under public/ (e.g. /videos/factory.mp4). Takes priority over `image` if both are set. */
+  video?: string;
 }) => {
+  if (video) {
+    return (
+      <div className={cn(
+        "w-full h-full min-h-[400px] rounded-3xl overflow-hidden relative group bg-black",
+        className
+      )}>
+        <video
+          src={video}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {label && (
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+            <span className="font-heading font-bold tracking-widest uppercase text-xs text-white/90">
+              {label}
+            </span>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  if (image) {
+    return (
+      <div className={cn(
+        "w-full h-full min-h-[400px] rounded-3xl overflow-hidden relative group",
+        className
+      )}>
+        <Image
+          src={image}
+          alt={label || ''}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover"
+        />
+        {label && (
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+            <span className="font-heading font-bold tracking-widest uppercase text-xs text-white/90">
+              {label}
+            </span>
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className={cn(
       "w-full h-full min-h-[400px] flex flex-col items-center justify-center rounded-3xl overflow-hidden relative group",

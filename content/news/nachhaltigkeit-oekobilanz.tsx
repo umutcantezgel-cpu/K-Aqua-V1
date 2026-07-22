@@ -143,7 +143,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Grafische Darstellung der geschlossenen Kreislaufwirtschaft von K Aqua" />
+          <PremiumAssetPlaceholder label="Grafische Darstellung der geschlossenen Kreislaufwirtschaft von K Aqua" image="/images/new-k-aqua/about-us.webp" />
         </Reveal>
       </section>
 

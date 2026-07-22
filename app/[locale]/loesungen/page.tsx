@@ -35,6 +35,13 @@ export default async function LoesungenPage({ params }: Props) {
 
   const stickyItems = t.raw('sticky.items') as Array<{ title: string; p1: string; p2: string }>;
   
+  const stickyAssets: { image?: string; video?: string }[] = [
+    { image: '/images/new-k-aqua/was-ist-ppr.jpg' },
+    { image: '/images/new-k-aqua/fertigung-pipes.jpg' },
+    { image: '/images/new-k-aqua/pipes-profil.png' },
+    { image: '/images/new-k-aqua/ppr-rohre-vorteile.jpg' },
+  ];
+
   const stickyContent = stickyItems.map((item, index) => ({
     title: item.title,
     description: (
@@ -43,7 +50,7 @@ export default async function LoesungenPage({ params }: Props) {
         <p>{item.p2}</p>
       </div>
     ),
-    content: <PremiumAssetPlaceholder label={item.title} />
+    content: <PremiumAssetPlaceholder label={item.title} {...stickyAssets[index]} />
   }));
   return (
     <>

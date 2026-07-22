@@ -152,7 +152,7 @@ export const warumPpr: NewsPost = {
       {/* Premium Visualization (e.g. Molecular Structure or Heat Map) */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Infrarot Thermografie Rohrvergleich Metall vs PPR" />
+          <PremiumAssetPlaceholder label="Infrarot Thermografie Rohrvergleich Metall vs PPR" image="/images/new-k-aqua/was-ist-ppr.jpg" />
         </Reveal>
       </section>
 

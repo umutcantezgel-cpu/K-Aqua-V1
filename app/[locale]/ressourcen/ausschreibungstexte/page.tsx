@@ -32,10 +32,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte' });
 
   const deepDiveContent = [
-    { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" /> },
-    { title: t('deep.items.1.title'), description: t('deep.items.1.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 2" /> },
-    { title: t('deep.items.2.title'), description: t('deep.items.2.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 3" /> },
-    { title: t('deep.items.3.title'), description: t('deep.items.3.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 4" /> }
+    { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" image="/images/new-k-aqua/fertigung-pipes.jpg" /> },
+    { title: t('deep.items.1.title'), description: t('deep.items.1.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 2" image="/images/new-k-aqua/pipes-profil.png" /> },
+    { title: t('deep.items.2.title'), description: t('deep.items.2.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 3" image="/images/new-k-aqua/fittings-profil.png" /> },
+    { title: t('deep.items.3.title'), description: t('deep.items.3.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 4" image="/images/new-k-aqua/valves-profil.png" /> }
   ];
 
   const timelineData = [
@@ -135,7 +135,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               icon={<Globe className="w-8 h-8 text-primary" />}
               colSpan={3}
               className="bg-card/50 backdrop-blur-sm"
-              header={<div className="h-64 w-full bg-primary/5 rounded-t-2xl flex items-center justify-center p-6"><PremiumAssetPlaceholder label="BIM 5D Integration Model" className="w-full h-full rounded-xl" /></div>}
+              header={<div className="h-64 w-full bg-primary/5 rounded-t-2xl flex items-center justify-center p-6"><PremiumAssetPlaceholder label="BIM 5D Integration Model" image="/images/new-k-aqua/about-us.webp" className="w-full h-full rounded-xl" /></div>}
             />
           </BentoGrid>
         </div>

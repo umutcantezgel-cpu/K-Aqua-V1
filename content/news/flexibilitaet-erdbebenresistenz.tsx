@@ -159,7 +159,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Strukturtest im Labor: PPR Rohrleitungssystem unter simulierter seismischer Belastung" />
+          <PremiumAssetPlaceholder label="Strukturtest im Labor: PPR Rohrleitungssystem unter simulierter seismischer Belastung" image="/images/new-k-aqua/flexibilitaet-ppr-rohre.jpg" />
         </Reveal>
       </section>
 
