@@ -19,14 +19,14 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
     ar: 'المرونة والزلازل',
   },
   teaser: {
-    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K-Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
-    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K-Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
-    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K-Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
+    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
+    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
+    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
   },
   excerpt: {
-    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K-Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
-    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K-Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
-    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K-Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
+    de: 'In seismisch aktiven Zonen oder bei schleichenden Bausenkungen brechen starre Rohrnetze schnell. K Aqua PPR Rohrsysteme fangen kinetische Energie elastisch ab, ohne zu bersten.',
+    en: 'In seismically active zones or during gradual building settlement, rigid pipe networks break quickly. K Aqua PPR piping systems absorb kinetic energy elastically without bursting.',
+    ar: 'في المناطق ذات النشاط الزلزالي أو عند حدوث هبوط تدريجي في المباني، تتعرض شبكات الأنابيب الصلبة للكسر بسرعة. بينما تمتص أنظمة أنابيب K Aqua PPR الطاقة الحركية بمرونة دون أن تنفجر.',
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
@@ -40,7 +40,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die kinetische Antwort" className="mb-6 text-amber-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                Architektur in Erdbebengebieten basiert auf einem fundamentalen Prinzip: Ein Gebäude darf niemals starr gegen Naturgewalten ankämpfen, sondern muss die kinetische Energie durch Flexibilität aufnehmen und ableiten. Was für Wolkenkratzer gilt, gilt exakt so für die lebenswichtige Wasserinfrastruktur in ihrem Inneren. Während herkömmliche Metalle unter tektonischem Stress sofort reißen, agieren K-Aqua PPR Rohrleitungssysteme als elastische Stoßdämpfer der Gebäudehydraulik.
+                Wenn die Erde bebt oder tiefe Baugruben Grundwasser absenken, ist die Infrastruktur massiven mechanischen Spannungen ausgesetzt. Rohre aus Metall (Stahl, Guss) oder starren Kunststoffen (PVC, GFK) reagieren auf diese Verschiebungen meist mit einem Sprödbruch – die Leitung platzt, Wassermassen überschwemmen das Areal. K Aqua PPR bietet durch seine molekulare Struktur die rettende Flexibilität. Es gibt nach, ohne zu brechen.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
           <div className="text-center mb-12">
             <Eyebrow text="Die Materialgrenze" />
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
-              Bruchgefahr vs Elastizität
+              Bruchgefahr vs. Elastizität
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -61,7 +61,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
               <ArrowRight className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Starrheit der Metalle</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Stahl und Kupfer sind extrem rigide Materialien. Wenn tektonische Wellen das Gebäude erfassen oder sich das Fundament über die Jahre leicht absenkt, können starre Rohre diesen Zugspannungen nicht nachgeben. Bereits mikroskopisch kleine Risse an den Gewinden oder Lötstellen führen zum sofortigen Druckabfall und zum strukturellen Versagen der gesamten Leitung.
+                Stahl und Kupfer sind extrem rigide Materialien. Erfahren Sie, warum hochflexible K Aqua PPR Rohre in erdbebengefährdeten Regionen die sicherste Wahl sind und Setzungen im Erdreich mühelos absorbieren, während starre Rohre brechen. Bereits mikroskopisch kleine Risse an den Gewinden oder Lötstellen führen zum sofortigen Druckabfall und zum strukturellen Versagen der gesamten Leitung.
               </p>
             </Card>
             
@@ -90,12 +90,12 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
           content={[
             {
               title: "Seismische Wellen",
-              description: "Bei einem Erdbeben durchlaufen extrem hochfrequente Vibrationen die gesamte Tragstruktur des Gebäudes. Die K Aqua Rohrsysteme absorbieren diese Schwingungen durch ihre inhärente Dämpfung, anstatt wie eine Stimmgabel in Resonanz zu geraten und am Befestigungspunkt zu brechen.",
+              description: "Bei tektonischen Verschiebungen passt sich K Aqua PPR dem neuen Geländeverlauf an. Der E-Modul des Materials erlaubt beachtliche Biegungen im Kaltzustand, ohne dass die Wandung Schwachstellen ausbildet.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Activity className="w-32 h-32 text-amber-500 opacity-20" /></div>
             },
             {
               title: "Langsame Bausenkungen",
-              description: "Jedes Gebäude setzt sich im Laufe der ersten Jahre millimeterweise in das Erdreich ab. Diese statischen Verschiebungen erzeugen massive Scherkräfte in den Installationsschächten. PPR verformt sich adaptiv mit dem Gebäude und verhindert so schleichende Rohrbrüche in der Wand.",
+              description: "Herkömmliche Steckverbindungen oder Pressverbindungen rutschen bei starken Bodensetzungen auseinander. K Aqua Rohre und Fittings werden zu einem homogenen, längskraftschlüssigen Strang verschmolzen, der sich wie ein einzelnes, riesiges Bauteil verhält.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Layers className="w-32 h-32 text-muted-foreground opacity-20" /></div>
             },
             {

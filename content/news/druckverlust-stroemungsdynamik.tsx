@@ -19,14 +19,14 @@ export const druckverlustStroemungsdynamik: NewsPost = {
     ar: 'فقدان الضغط وديناميكا التدفق',
   },
   teaser: {
-    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PP-R Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
-    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PP-R piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
-    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PP-R من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
+    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PPR Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
+    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PPR piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
+    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PPR من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
   },
   excerpt: {
-    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PP-R Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
-    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PP-R piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
-    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PP-R من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
+    de: 'Jeder Millimeter Rohrreibungsverlust kostet massiv Pumpenstrom. Erfahren Sie, wie die Oberflächenglätte von PPR Rohrsystemen den Druckverlust minimiert und die Betriebskosten in Gebäuden und Industrieanlagen nachhaltig reduziert.',
+    en: 'Every millimeter of pipe friction loss massively increases pump energy consumption. Learn how the surface smoothness of PPR piping systems minimizes pressure loss and sustainably reduces operating costs in buildings and industrial facilities.',
+    ar: 'كل مليمتر من فقدان الاحتكاك في الأنابيب يزيد بشكل هائل من استهلاك طاقة المضخات. اكتشف كيف تقلل نعومة السطح في أنظمة أنابيب PPR من فقدان الضغط وتخفض تكاليف التشغيل بشكل مستدام في المباني والمنشآت الصناعية.',
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
@@ -40,7 +40,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Physik des Fließens" className="mb-6 text-cyan-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen Schwerkraft und Leitungswiderstand zu fördern, leisten Pumpen kontinuierlich Schwerstarbeit. Genau hier entscheidet die Wahl moderner PP-R Rohrsysteme über die langfristige Wirtschaftlichkeit. Ein entscheidendes Detail – die minimale Oberflächenrauheit von K Aqua PP-R – definiert, ob Ihr Gebäude zum Energiefresser oder zum Effizienzwunder wird. Metallrohre, selbst im Neuzustand, weisen eine deutliche Mikrorauigkeit auf. Hinzu kommt über die Jahre die unvermeidliche Inkrustation (Ablagerungen), die den Rohrquerschnitt verjüngt und den Druckverlust exponentiell in die Höhe treibt. K Aqua PP-R löst dieses physikalische Problem an der Wurzel.
+                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen Schwerkraft und Leitungswiderstand zu fördern, leisten Pumpen kontinuierlich Schwerstarbeit. Genau hier entscheidet die Wahl moderner PPR Rohrsysteme über die langfristige Wirtschaftlichkeit. Ein entscheidendes Detail – die minimale Oberflächenrauheit von K Aqua PPR – definiert, ob Ihr Gebäude zum Energiefresser oder zum Effizienzwunder wird. Metallrohre, selbst im Neuzustand, weisen eine deutliche Mikrorauigkeit auf. Hinzu kommt über die Jahre die unvermeidliche Inkrustation (Ablagerungen), die den Rohrquerschnitt verjüngt und den Druckverlust exponentiell in die Höhe treibt. K Aqua PPR löst dieses physikalische Problem an der Wurzel.
               </p>
             </div>
           </div>
@@ -61,15 +61,15 @@ export const druckverlustStroemungsdynamik: NewsPost = {
               <Layers className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Bremse der Metalle</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Verzinkte Stahlrohre rosten innerlich (Inkrustation). Die Querschnittsverengung lässt den Fließwiderstand in wenigen Jahren drastisch ansteigen. PP-R-Rohre korrodieren nicht. Ihr Innenquerschnitt bleibt auch nach 50 Jahren unverändert – und somit auch die Pumpenleistung.
+                Verzinkte Stahlrohre rosten innerlich (Inkrustation). Die Querschnittsverengung lässt den Fließwiderstand in wenigen Jahren drastisch ansteigen. PPR Rohre korrodieren nicht. Ihr Innenquerschnitt bleibt auch nach 50 Jahren unverändert – und somit auch die Pumpenleistung.
               </p>
             </Card>
             
             <Card className="p-8 lg:p-12 border-cyan-500/20 bg-cyan-500/5">
               <ArrowRight className="w-12 h-12 text-cyan-500 mb-6" />
-              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Der Beschleuniger PP-R</h3>
+              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Der Beschleuniger PPR</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Im Gegensatz zu verzinktem Stahlrohr (Rauigkeit ca. 0,15 mm) oder Kupfer (ca. 0,0015 mm) bietet K Aqua PP-R mit einer absoluten Rauigkeit von nur 0,007 mm eine nahezu glasglatte Oberfläche. Das Wasser gleitet fast reibungslos dahin und wird verlustfrei bis zur entlegensten Zapfstelle des Gebäudes transportiert.
+                Im Gegensatz zu verzinktem Stahlrohr (Rauigkeit ca. 0,15 mm) oder Kupfer (ca. 0,0015 mm) bietet K Aqua PPR mit einer absoluten Rauigkeit von nur 0,007 mm eine nahezu glasglatte Oberfläche. Das Wasser gleitet fast reibungslos dahin und wird verlustfrei bis zur entlegensten Zapfstelle des Gebäudes transportiert.
               </p>
             </Card>
           </div>
