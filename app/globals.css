@@ -508,7 +508,7 @@ body {
 /* ============================================================
    Scrollytelling Styles (Step 11)
    ============================================================ */
-.k-scrolly { position: relative; height: 280vh; }
+.k-scrolly { position: relative; height: 380vh; }
 .k-scrolly-stage {
   position: sticky;
   top: 0;

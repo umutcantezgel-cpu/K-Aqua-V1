@@ -13,7 +13,7 @@ import { Reveal } from '@/components/ui/Reveal';
 
 // Dynamic load of Globe to prevent SSR issues
 const Globe = dynamic(
-  () => import('@/components/globe/Globe').then((mod) => mod.Globe),
+  () => import('@/components/ui/Globe').then((mod) => mod.Globe),
   { ssr: false }
 );
 
@@ -39,7 +39,7 @@ export default function HeroScrolly() {
   const hintRef = useRef<HTMLDivElement>(null);
 
   const [mounted, setMounted] = useState(false);
-  const [isMobile, setIsMobile] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   const prefersReduced = useReducedMotion();
 
   useEffect(() => {
@@ -71,8 +71,8 @@ export default function HeroScrolly() {
       const total = wrap.offsetHeight - vh;
       const p = Math.min(1, Math.max(0, -wrap.getBoundingClientRect().top / total));
 
-      // 1) Hero copy fades up and out
-      const fade = Math.min(1, p / 0.12);
+      // 1) Hero copy fades up and out smoothly
+      const fade = Math.min(1, Math.max(0, p / 0.32));
       const copy = copyRef.current;
       if (copy) {
         copy.style.opacity = String(1 - fade);
@@ -80,29 +80,27 @@ export default function HeroScrolly() {
         copy.style.pointerEvents = fade > 0.4 ? 'none' : '';
       }
 
-      // 2) Globe arcs from hero-right (or left in RTL) to center on a circular path + grows
-      const e = ease(Math.min(1, p / 0.42));
+      // 2) Globe glides smoothly from right (or left in RTL) to center on a clean path + grows
+      const e = ease(Math.min(1, Math.max(0, p / 0.38)));
       const x0 = Math.min(window.innerWidth * 0.27, 560);
-      const th = e * Math.PI * 1.12; // Circular arc
-      const R = x0 * (1 - e);
       const direction = isRtl ? -1 : 1;
-      const x = Math.cos(th) * R * direction;
-      const y = Math.sin(th) * R * 0.55;
-      const s = 0.92 + e * 0.5;
+      const x = x0 * (1 - e) * direction;
+      const y = -Math.sin(e * Math.PI) * 28;
+      const s = 0.92 + e * 0.38;
 
       gw.style.transform = `translate(calc(-50% + ${x.toFixed(2)}px), calc(-50% + ${y.toFixed(2)}px)) scale(${s.toFixed(3)})`;
       if (glowRef.current) {
         glowRef.current.style.opacity = String(0.25 + e * 0.75);
       }
 
-      // 3) Focus cards pop in sequentially
+      // 3) Focus cards pop in sequentially as hero copy fades and globe reaches center
       cardRefs.current.forEach((el, i) => {
         if (!el) return;
-        el.classList.toggle('is-in', p >= 0.45 + i * 0.125);
+        el.classList.toggle('is-in', p >= 0.30 + i * 0.13);
       });
 
       if (hintRef.current) {
-        hintRef.current.style.opacity = p > 0.93 ? '1' : '0';
+        hintRef.current.style.opacity = p > 0.85 ? '1' : '0';
       }
     };
 
@@ -123,7 +121,6 @@ export default function HeroScrolly() {
     };
   }, [staticMode, isRtl]);
 
-  // Fallback markers for static mode
   const testMarkers = [
     { lat: 50.49, lon: 8.51, title: 'Waldsolms', label: 'Waldsolms' },
     { lat: 25.2, lon: 55.3, title: 'Dubai', label: 'Dubai' },
@@ -138,39 +135,40 @@ export default function HeroScrolly() {
     { t: t('scrolly.3.t'), d: t('scrolly.3.d') },
   ];
 
-  const heroCopy = (
-    <div ref={copyRef} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
-      <Reveal delay={0.08}>
-        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
-          {t('h1a')}{' '}
-          <span className="text-primary">{t('h1b')}</span>
-        </h1>
-      </Reveal>
-      <Reveal delay={0.16}>
-        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-          {t('lead')}
-        </p>
-      </Reveal>
-      <Reveal delay={0.24}>
-        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
-          <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
-            {t('ctaProducts')}
-          </Button>
-          <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
-            {t('ctaContact')}
-          </Button>
-        </div>
-      </Reveal>
-    </div>
-  );
+  const renderHeroCopy = (isH1: boolean = true) => {
+    const TitleTag = isH1 ? "h1" : "div";
+    return (
+      <div ref={!isH1 ? copyRef : null} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
+        <Reveal delay={0.08}>
+          <TitleTag className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]" aria-hidden={!isH1 ? "true" : undefined}>
+            {t('h1a')}{' '}
+            <span className="text-primary">{t('h1b')}</span>
+          </TitleTag>
+        </Reveal>
+        <Reveal delay={0.16}>
+          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+            <span className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')} </span>
+            {t('lead')}
+          </p>
+        </Reveal>
+        <Reveal delay={0.24}>
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
+            <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
+              {t('ctaProducts')}
+            </Button>
+            <Button variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
+              {t('ctaContact')}
+            </Button>
+          </div>
+        </Reveal>
+      </div>
+    );
+  };
 
   const staticCardEls = cardsList.map((c, i) => {
     const Ic = cardIcons[i] || Droplet;
     return (
-      <div
-        key={i}
-        className="k-orbit-card is-in"
-      >
+      <div key={i} className="k-orbit-card is-in">
         <IconChip className="mb-2">
           <Ic className="w-5 h-5" />
         </IconChip>
@@ -183,7 +181,6 @@ export default function HeroScrolly() {
   const scrollyCardEls = cardsList.map((c, i) => {
     const Ic = cardIcons[i] || Droplet;
     const pos = cardPosList[i] || { left: '0px', top: '0px', right: undefined, bottom: undefined };
-    // Map left/right for RTL support
     const style: React.CSSProperties = {
       position: 'absolute',
       top: pos.top,
@@ -210,16 +207,16 @@ export default function HeroScrolly() {
     );
   });
 
-  const showStatic = !mounted || isMobile || !!prefersReduced;
+  const showReducedDesktop = mounted && prefersReduced;
 
   return (
     <>
       {/* Static Mode container: visible on mobile / tablet or prefers-reduced-motion */}
-      <div className={mounted ? (showStatic ? "block" : "hidden") : "block lg:hidden"}>
+      <div className={`block lg:hidden ${showReducedDesktop ? '!block' : ''}`}>
         <section className="relative overflow-hidden bg-background">
           <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
-            {heroCopy}
+            {renderHeroCopy(true)}
             <div className="flex justify-center items-center w-full">
               <div className="w-full max-w-[580px] aspect-square relative">
                 {mounted && <Globe size={580} interactive={true} speed={0.004} markers={testMarkers} />}
@@ -234,17 +231,17 @@ export default function HeroScrolly() {
         </section>
       </div>
 
-      {/* Scrolly storytelling Mode container: visible on desktop with animations enabled */}
-      <div className={mounted ? (showStatic ? "hidden" : "block") : "hidden lg:block"}>
+      {/* Scrollytelling container: visible only on desktop */}
+      <div className={`hidden lg:block ${showReducedDesktop ? '!hidden' : ''}`}>
         <div ref={wrapRef} className="k-scrolly">
           <div className="k-scrolly-stage">
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
             <div ref={glowRef} className="k-scrolly-glow" aria-hidden="true" />
             <div className="mx-auto max-w-[1400px] px-6 h-full flex items-center relative z-10">
-              {heroCopy}
+              {renderHeroCopy(false)}
             </div>
             <div ref={globeWrapRef} className="k-scrolly-globe">
-              {mounted && !showStatic && (
+              {mounted && !staticMode && (
                 <Globe size={800} interactive={false} speed={0.02} markers={testMarkers} />
               )}
             </div>
