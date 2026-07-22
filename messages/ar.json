@@ -1542,7 +1542,7 @@
       },
       {
         "t": "شهادات ثلاثية",
-        "d": "ISO 9001 ب14001 ب50001 — الجودة والبيئة والطاقة في نظام إدارة واحد."
+        "d": "ISO 9001 · 14001 · 50001 — الجودة والبيئة والطاقة في نظام إدارة واحد."
       },
       {
         "t": "27 سوقًا حول العالم",
@@ -1634,7 +1634,7 @@
       "الريادة في إمدادات المياه",
       "d20 – d630",
       "ISO 9001 · 14001 · 50001",
-      "صُنع في فالزولمس",
+      "صُنع في فالدزولمس",
       "إعادة تدوير بنسبة 100%",
       "شريك: KESSEL"
     ],
@@ -1660,7 +1660,7 @@
       {
         "id": "references",
         "t": "الكرة الأرضية للمشاريع المرجعية",
-        "d": "أدر الكوكب، اكتشف المشاريع — من فالزولمس إلى سنغافورة.",
+        "d": "أدر الكوكب، اكتشف المشاريع — من فالدزولمس إلى سنغافورة.",
         "cta": "أدر الكرة"
       },
       {
@@ -1709,7 +1709,7 @@
       },
       {
         "t": "صنع في ألمانيا",
-        "d": "التطوير والإنتاج في موقع فالزولمس — الجودة، التكاليف، والمواعيد النهائية دائمًا في توافق."
+        "d": "التطوير والإنتاج في موقع فالدزولمس — الجودة، التكاليف، والمواعيد النهائية دائمًا في توافق."
       },
       {
         "t": "المسؤولية البيئية",
@@ -4508,7 +4508,7 @@
         "id": "waldsolms",
         "lat": 50.4,
         "lon": 8.5,
-        "title": "فالزولمس، ألمانيا",
+        "title": "فالدزولمس، ألمانيا",
         "d": "المقر الرئيسي والتطوير — هنا يتم إنشاء كل أنبوب K-Aqua."
       },
       {
@@ -4959,7 +4959,7 @@
         "المراحل الأولية للمياه فائقة النقاء لأشباه الموصلات"
       ],
       "note": "شحن بحري من هامبورغ; تتوفر مستندات التقديم الكاملة الخاصة بـ PUB.",
-      "focusHeading": "مشاريع نموذجية في Singapur"
+      "focusHeading": "مشاريع نموذجية في سنغافورة"
     },
     "kualalumpur": {
       "regulator": "SPAN — اللجنة الوطنية لخدمات المياه بماليزيا",
@@ -5545,7 +5545,7 @@
     "flowLead": "كل مبنى يحتاج الاتجاهين — وتغطي الشراكة مسار الماء كاملًا بحمضٍ هندسي مشترك.",
     "flow": [
       {
-        "t": "K-Aqua — Leading in Water Supply",
+        "t": "K-Aqua — الريادة في إمدادات المياه",
         "d": "إمداد مياه الشرب d20–d630: أنابيب وقطع وصمامات وتقنية لحام، صناعة Waldsolms."
       },
       {
@@ -6434,23 +6434,23 @@
   },
   "navigation": {
     "cookieTitle": "We use cookies",
-    "cookieDesc": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "cookieDesc": "نستخدم ملفات تعريف الارتباط لتحسين تجربة التصفح لديك، وتقديم محتوى أو إعلانات مخصصة، وتحليل حركة الزيارات. بالنقر على «قبول الكل» فإنك توافق على استخدامنا لملفات تعريف الارتباط.",
     "cookieAccept": "Accept All",
     "cookieDecline": "Decline Only Essential"
   },
   "cookieConsent": {
     "title": "Privacy Preferences & Cookies",
-    "description": "We use cookies and similar technologies (like pixels and local storage) to provide you with the best possible experience on our platform. Some are essential, while others help us improve this website. You always have full control.",
+    "description": "نستخدم ملفات تعريف الارتباط وتقنيات مشابهة (مثل البكسلات والتخزين المحلي) لنقدم لك أفضل تجربة ممكنة على منصتنا. بعضها ضروري، بينما تساعدنا أخرى على تحسين هذا الموقع. ولديك دائمًا التحكم الكامل.",
     "customize": "Customize Preferences",
     "declineAll": "Essential Only",
     "acceptAll": "Accept All",
     "acceptSelected": "Save Preferences",
-    "essentialTitle": "Essential (Technically necessary)",
-    "essentialDesc": "These cookies are strictly necessary for the proper functioning of the website (e.g., navigation, security, saving your privacy preferences). Without these technologies, K-Aqua cannot operate correctly. They do not store any personally identifiable information.",
+    "essentialTitle": "أساسية (ضرورية تقنيًا)",
+    "essentialDesc": "هذه الملفات ضرورية للغاية لعمل الموقع بشكل سليم (مثل التنقل والأمان وحفظ تفضيلات الخصوصية الخاصة بك). بدون هذه التقنيات لا يمكن لموقع K-Aqua العمل بشكل صحيح، وهي لا تخزّن أي معلومات تعريف شخصية.",
     "analyticsTitle": "Statistics & Analytics",
-    "analyticsDesc": "These cookies help us understand the behavior of our visitors. We collect pseudonymized data on how users interact with K-Aqua (e.g., most visited pages, time on site, error messages). This allows us to fix errors and continuously improve the platform.",
+    "analyticsDesc": "تساعدنا هذه الملفات على فهم سلوك زوارنا. نجمع بيانات مجهولة الهوية حول كيفية تفاعل المستخدمين مع K-Aqua (مثل الصفحات الأكثر زيارة، ومدة البقاء في الموقع، ورسائل الخطأ). يتيح لنا ذلك إصلاح الأخطاء وتحسين المنصة باستمرار.",
     "marketingTitle": "Marketing & Personalization",
-    "marketingDesc": "We use these technologies to show you more relevant content and advertisements – even on external platforms. If you disable this, you will still see ads, but they will be less tailored to your interests.",
+    "marketingDesc": "نستخدم هذه التقنيات لعرض محتوى وإعلانات أكثر ملاءمة لك — حتى على منصات خارجية. إذا قمت بتعطيلها فستظل ترى الإعلانات، لكنها ستكون أقل توافقًا مع اهتماماتك.",
     "vendorListTitle": "View detailed cookie list",
     "backToSimple": "Back to simple view"
   },
@@ -6688,7 +6688,7 @@
       "metaDesc": "تنزيلات K-Aqua - أمان بلا هوادة من خلال الهندسة الألمانية للمشاريع الكبرى العالمية.",
       "cta": {
         "title": "Quality you can blindly trust.",
-        "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
+        "desc": "حمّل شهاداتنا الرسمية أو تحدث مباشرة مع فريقنا الهندسي حول مواصفات مشروعك الضخم القادم.",
         "btn": "To the download portal"
       },
       "meta": {
@@ -7583,7 +7583,7 @@
   "customerReviews": {
     "eyebrow": "جودة تربطنا",
     "title": "ما يقوله عملاؤنا وشركاؤنا",
-    "lead": "من بناة المشاريع إلى شركاء الخدمات اللوجستية والموظفين القدامى: K-Aqua KWT GmbH تقف لأعلى درجات الدقة من فالزولمس. اقرأ بنفسك التجارب التي يمر بها الناس يوميًا مع خدماتنا ومنتجاتنا \"صنع في ألمانيا\".",
+    "lead": "من بناة المشاريع إلى شركاء الخدمات اللوجستية والموظفين القدامى: K-Aqua KWT GmbH تقف لأعلى درجات الدقة من فالدزولمس. اقرأ بنفسك التجارب التي يمر بها الناس يوميًا مع خدماتنا ومنتجاتنا \"صنع في ألمانيا\".",
     "trustBadge": "مراجعات جوجل",
     "trustStars": "4.9 / 5",
     "trustBasedOn": "(بناءً على 44 مراجعة)",
@@ -7591,7 +7591,7 @@
     "tabB": "اللوجستيات والتسليم",
     "tabC": "الخدمة والناس",
     "reviews": {
-      "a1": "“مصنع في فالزولمس، ألمانيا، متخصص في أنابيب وتجهيزات PPR **صنع في ألمانيا**. فريق عمل ممتاز.”",
+      "a1": "“مصنع في فالدزولمس، ألمانيا، متخصص في أنابيب وتجهيزات PPR **صنع في ألمانيا**. فريق عمل ممتاز.”",
       "a1Author": "Giulio C.",
       "a2": "“**جودة ألمانية** في طلاءات وتجهيزات PPR، فريق عمل ودود للغاية.”",
       "a2Author": "Veronica P.",
@@ -7619,7 +7619,7 @@
       "c5Author": "Piera V."
     },
     "ctaTitle": "اقتنع بخدماتنا بنفسك.",
-    "ctaText": "هل لديك أسئلة حول أنظمة أنابيب PPR الخاصة بنا أو ترغب في مناقشة مشروع معنا؟ فريقنا في فالزولمس متواجد من أجلك.",
+    "ctaText": "هل لديك أسئلة حول أنظمة أنابيب PPR الخاصة بنا أو ترغب في مناقشة مشروع معنا؟ فريقنا في فالدزولمس متواجد من أجلك.",
     "ctaBtn": "تواصل معنا الآن",
     "disclaimer": "ملاحظة حول التحقق من المراجعات: المراجعات المعروضة هنا مأخوذة من ملف تعريف أعمال Google الخاص بنا. تنص Google على: المراجعات غير متحقق منها. قمنا باختصار أسماء المؤلفين لأسباب تتعلق بحماية البيانات (GDPR)."
   },
