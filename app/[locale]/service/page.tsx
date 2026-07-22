@@ -39,9 +39,9 @@ interface VideoItem {
 }
 
 const K_DL_LINKS = [
-  "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf",
-  "https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf",
-  "https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf",
+  "/pdf/k-aqua-product-range-en.pdf",
+  "/pdf/k-aqua-product-features-en.pdf",
+  "/pdf/k-aqua-quality-assurance-en.pdf",
 ];
 
 import { LocalVideo } from "@/components/ui/LocalVideo";

@@ -44,8 +44,8 @@ interface RangeItem {
 }
 
 const RANGE_ICONS = [Layers, Wrench, Flame, Thermometer];
-const RANGE_PDF_URL = "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf";
-const FEATURES_PDF_URL = "https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf";
+const RANGE_PDF_URL = "/pdf/k-aqua-product-range-en.pdf";
+const FEATURES_PDF_URL = "/pdf/k-aqua-product-features-en.pdf";
 
 export default async function ProduktePage({ params }: Props) {
   const { locale } = await params;

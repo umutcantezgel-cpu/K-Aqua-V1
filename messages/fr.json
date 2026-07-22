@@ -868,9 +868,13 @@
       "tds": "Fiche technique",
       "tdsDesc": "Spécifications & Dimensions (PDF)",
       "cert": "Certificats & Normes",
-      "certDesc": "DVGW, SKZ, KIWA (ZIP)",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
       "install": "Guide d'installation",
-      "installDesc": "Instructions de soudage (PDF)"
+      "installDesc": "Instructions de soudage (PDF)",
+      "range": "Product Range",
+      "rangeDesc": "Complete product range with dimensions (PDF)",
+      "features": "Product Features",
+      "featuresDesc": "Material properties & system benefits (PDF)"
     },
     "specAndDim": "Spécifications & Dimensions",
     "certsAndNorms": "Certificats & Normes",
@@ -4608,31 +4612,31 @@
         "t": "Le Catalogue Général K-Aqua",
         "s": "Le cœur du réacteur : L'inventaire massif des calibres, références et architectures du système.",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+        "href": "/pdf/k-aqua-product-range-en.pdf"
       },
       {
         "t": "Fiches des Matériaux",
         "s": "Analyses pointues des capacités physiques et limites opérationnelles de notre PP.",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Product_Features_en.pdf"
+        "href": "/pdf/k-aqua-product-features-en.pdf"
       },
       {
         "t": "Cahier d'Assurance Qualité",
         "s": "L'exposé transparent de nos méthodes de stress-test et garde-fous industriels.",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/K-Aqua_Quality_Assurance_en.pdf"
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
       },
       {
         "t": "Agréments ISO (Format Germanique)",
         "s": "L'estampille du DAkkS sur nos protocoles Qualité, Environnement, Énergie (9001/14001/50001).",
         "lang": "DE",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf"
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
       },
       {
         "t": "Certificats ISO (Édition Internationale)",
         "s": "Les mêmes garanties DAkkS, traduites pour vos clients hors de la sphère germanophone.",
         "lang": "EN",
-        "href": "https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf"
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
       },
       {
         "t": "Manifeste GENAU & Matrice de Risques",

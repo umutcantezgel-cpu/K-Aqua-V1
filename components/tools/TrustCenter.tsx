@@ -21,7 +21,7 @@ const VALIDITY_DATES = [
   "10/2025 – 10/2028"
 ];
 
-const DOWNLOAD_URL = "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf";
+const DOWNLOAD_URL = "/pdf/kwt-iso-zertifikat-de.pdf";
 const SUPPORT_EMAIL_PREFIX = "mailto:support@k-aqua.de";
 const QUERY_SUBJECT = "?subject=";
 const QUERY_BODY = "&body=";

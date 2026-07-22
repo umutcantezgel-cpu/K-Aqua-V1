@@ -1,45 +1,55 @@
 import React from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { FileText, Download, FileArchive, ShieldCheck } from 'lucide-react';
 
 export default function ProductDownloads() {
   const t = useTranslations('products');
-  
-  // Use a fallback for actual PDF paths for now, or just an anchor to #
+  const locale = useLocale();
+  const certIsGerman = locale === 'de';
+
   const downloads = [
     {
-      title: t('labels.tds') || 'Technisches Datenblatt',
-      desc: t('labels.tdsDesc') || 'Spezifikationen & Maße (PDF)',
+      title: t('labels.range'),
+      desc: t('labels.rangeDesc'),
       icon: FileText,
-      size: '1.2 MB'
+      href: '/pdf/k-aqua-product-range-en.pdf',
+      size: '1.2 MB',
+      lang: 'EN',
     },
     {
-      title: t('labels.cert') || 'Zertifikate & Normen',
-      desc: t('labels.certDesc') || 'DVGW, SKZ, KIWA (ZIP)',
+      title: t('labels.cert'),
+      desc: t('labels.certDesc'),
       icon: ShieldCheck,
-      size: '4.5 MB'
+      href: certIsGerman ? '/pdf/kwt-iso-zertifikat-de.pdf' : '/pdf/kwt-iso-certificates-en.pdf',
+      size: certIsGerman ? '0.3 MB' : '0.4 MB',
+      lang: certIsGerman ? 'DE' : 'EN',
     },
     {
-      title: t('labels.install') || 'Installations-Guide',
-      desc: t('labels.installDesc') || 'Anleitung zum Schweißen (PDF)',
+      title: t('labels.features'),
+      desc: t('labels.featuresDesc'),
       icon: FileArchive,
-      size: '2.8 MB'
-    }
+      href: '/pdf/k-aqua-product-features-en.pdf',
+      size: '1.8 MB',
+      lang: 'EN',
+    },
   ];
 
   return (
     <section className="w-full flex flex-col gap-6 mt-12">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3">
-        {t('labels.downloads') || 'Downloads'}
+        {t('labels.downloads')}
       </h3>
-      
+
       <div className="flex flex-col gap-3">
         {downloads.map((item, idx) => {
           const Icon = item.icon;
           return (
-            <a 
+            <a
               key={idx}
-              href="#"
+              href={item.href}
+              download
+              target="_blank"
+              rel="noopener"
               className="group relative flex items-center justify-between p-4 rounded-xl border border-card-border bg-card shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300"
             >
               <div className="flex items-center gap-4">
@@ -60,7 +70,7 @@ export default function ProductDownloads() {
                   <Download className="w-4 h-4" />
                 </div>
                 <span className="text-[10px] font-mono text-muted-foreground opacity-50 group-hover:opacity-100 transition-opacity">
-                  {item.size}
+                  {item.lang} · {item.size}
                 </span>
               </div>
             </a>

@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-const CERT_DE_URL = "https://www.k-aqua.de/PDF/KWT%20Zertifikat%20Deutsch.pdf";
-const CERT_EN_URL = "https://www.k-aqua.de/PDF/KWT%20Zertifikate%20English.pdf";
+const CERT_DE_URL = "/pdf/kwt-iso-zertifikat-de.pdf";
+const CERT_EN_URL = "/pdf/kwt-iso-certificates-en.pdf";
 const DASH = " — ";
 
 export default async function NewsPage({ params }: Props) {

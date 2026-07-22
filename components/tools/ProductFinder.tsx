@@ -173,7 +173,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                   <Button
                     variant="ghost"
                     size="sm"
-                    href="https://www.k-aqua.de/PDF/K-Aqua_Product_Range_en.pdf"
+                    href="/pdf/k-aqua-product-range-en.pdf"
                     icon={<Download className="w-4 h-4" />}
                     target="_blank"
                     rel="noreferrer"
