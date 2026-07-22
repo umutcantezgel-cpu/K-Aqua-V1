@@ -20,13 +20,13 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
   },
   date: "2025-01-10",
   excerpt: {
-    de: "Leise, zugfrei und hochgradig energieeffizient: Erfahren Sie, wie K Aqua PPR Rohrsysteme und PP-R Rohrnetze die ideale korrosionsfreie Infrastruktur für moderne Klimadecken, Flächenkühlsysteme und Kaltwassernetze ohne Taupunktprobleme bilden.",
-    en: "Quiet, draft-free, and highly energy-efficient: Discover how K Aqua PPR pipe systems and PP-R networks form the ideal corrosion-free infrastructure for modern climate ceilings, radiant cooling systems, and chilled water networks without dew point problems.",
-    ar: "هادئة، خالية من التيارات الهوائية، وعالية الكفاءة في استخدام الطاقة: اكتشف كيف تشكل أنظمة الأنابيب K Aqua PPR وشبكات PP-R البنية التحتية المثالية الخالية من التآكل للأسقف المناخية الحديثة، وأنظمة التبريد الإشعاعي، وشبكات المياه المبردة دون مشاكل نقطة الندى."
+    de: "Leise, zugfrei und hochgradig energieeffizient: Erfahren Sie, wie K Aqua PPR Rohrsysteme und PPR Rohrnetze die ideale korrosionsfreie Infrastruktur für moderne Klimadecken, Flächenkühlsysteme und Kaltwassernetze ohne Taupunktprobleme bilden.",
+    en: "Quiet, draft-free, and highly energy-efficient: Discover how K Aqua PPR pipe systems and PPR networks form the ideal corrosion-free infrastructure for modern climate ceilings, radiant cooling systems, and chilled water networks without dew point problems.",
+    ar: "هادئة، خالية من التيارات الهوائية، وعالية الكفاءة في استخدام الطاقة: اكتشف كيف تشكل أنظمة الأنابيب K Aqua PPR وشبكات PPR البنية التحتية المثالية الخالية من التآكل للأسقف المناخية الحديثة، وأنظمة التبريد الإشعاعي، وشبكات المياه المبردة دون مشاكل نقطة الندى."
   },
   coverImage: "/images/news/radiant-cooling-ceiling.jpg",
   category: "Industrie & Kälte",
-  tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PP-R", "PPR", "Rohrsysteme", "Kältetechnik"],
+  tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PPR", "PPR", "Rohrsysteme", "Kältetechnik"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -43,7 +43,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
                 </div>
               }
               title="Die stille Revolution der Raumkühlung"
-              lead="Klimaanlagen gelten oft als störend: Sie verursachen Zugluft, verteilen Staub und verursachen Strömungsgeräusche. In modernen Bürogebäuden und Krankenhäusern setzen Planer deshalb auf Klimadecken. Hierbei kühlt Wasser, das durch feine Rohrmatten in der Decke strömt, den Raum sanft über Strahlungsaustausch. Um das kalte Wasser sicher und effizient aus der Technikzentrale in alle Stockwerke zu transportieren, sind K Aqua PP-R Rohrnetze die erste Wahl."
+              lead="Klimaanlagen gelten oft als störend: Sie verursachen Zugluft, verteilen Staub und verursachen Strömungsgeräusche. In modernen Bürogebäuden und Krankenhäusern setzen Planer deshalb auf Klimadecken. Hierbei kühlt Wasser, das durch feine Rohrmatten in der Decke strömt, den Raum sanft über Strahlungsaustausch. Um das kalte Wasser sicher und effizient aus der Technikzentrale in alle Stockwerke zu transportieren, sind K Aqua PPR Rohrnetze die erste Wahl."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -65,11 +65,11 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             items={[
               {
                 title: "1. Effiziente Kälteerzeugung",
-                description: "Eine Wärmepumpe oder Kältemaschine temperiert das Wasser auf milde 16 bis 18 °C. Diese vergleichsweise hohen Temperaturen (im Gegensatz zu 6 °C bei Split-Geräten) sparen massiv Energie."
+                description: "Eine Wärmepumpe oder Kältemaschine temperiert das Wasser auf milde 16 bis 18 °C. Diese vergleichsweise hohen Temperaturen (im Gegensatz zu 6 °C bei Splitgeräten) sparen massiv Energie."
               },
               {
-                title: "2. Verteilung via PP-R",
-                description: "Das K Aqua Rohrnetz transportiert das Kaltwasser durch die Steigeschächte in die Stockwerke. Durch die geringe Wärmeleitfähigkeit von PP-R bleiben Kälteverluste auf dem Weg minimal."
+                title: "2. Verteilung via PPR",
+                description: "Das K Aqua Rohrnetz transportiert das Kaltwasser durch die Steigeschächte in die Stockwerke. Durch die geringe Wärmeleitfähigkeit von PPR bleiben Kälteverluste auf dem Weg minimal."
               },
               {
                 title: "3. Strahlungsaustausch",
@@ -80,7 +80,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         </div>
       </Reveal>
 
-      {/* BentoGrid: Die 3 Komfort-Vorteile */}
+      {/* BentoGrid: Die 3 Komfortvorteile */}
       <Reveal>
         <SectionHead
           title="Maximaler Nutzerkomfort"
@@ -96,13 +96,13 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             },
             {
               title: "Hohe Energieeffizienz",
-              description: "Durch die hohen Vorlauftemperaturen (16 °C) kann oft Umweltkälte (Free-Cooling über Erdsonden oder Grundwasser) ohne den Betrieb teurer Kompressoren genutzt werden.",
+              description: "Durch die hohen Vorlauftemperaturen (16 °C) kann oft Umweltkälte (Free Cooling über Erdsonden oder Grundwasser) ohne den Betrieb teurer Kompressoren genutzt werden.",
               icon: <ThermometerSnowflake className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Architektonische Freiheit",
-              description: "Keine klobigen Split-Klimageräte an den Wänden. Die gesamte Technik verschwindet unsichtbar in der Akustik- oder Rasterdecke.",
+              description: "Keine klobigen Splitklimageräte an den Wänden. Die gesamte Technik verschwindet unsichtbar in der Akustik- oder Rasterdecke.",
               icon: <LayoutDashboard className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -118,7 +118,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         />
         <DeepMatrix
           data={[
-            ["Anforderung", "K Aqua PP-R", "Kupfer", "Mehrschichtverbundrohr (MSVR)"],
+            ["Anforderung", "K Aqua PPR", "Kupfer", "Mehrschichtverbundrohr (MSVR)"],
             ["Korrosionsgefahr bei Kondensat", "Keine (Rostet nicht)", "Sehr hoch (Schwitzwasser)", "Gering (Je nach Fitting)"],
             ["Eigendämmung des Rohrs", "Gut (Kunststoff isoliert)", "Schlecht (Wärmeleiter)", "Mittel"],
             ["Montagegeschwindigkeit (Großrohre)", "Sehr schnell (Schweißen)", "Langsam (Löten/Pressen)", "Meist nur kleine Dimensionen verfügbar"],
@@ -127,7 +127,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         />
       </Reveal>
 
-      {/* Stagger: Die Taupunkt-Herausforderung */}
+      {/* Stagger: Die Taupunktherausforderung */}
       <Reveal>
         <SectionHead
           title="Die Herausforderung: Kondensation"
@@ -142,8 +142,8 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
                 description: "Wenn warme, feuchte Raumluft auf eine kalte Oberfläche (wie eine Kaltwasserleitung) trifft, kondensiert die Feuchtigkeit. Es bilden sich Wassertropfen (Schwitzwasser), die in die abgehängte Decke tropfen können."
               },
               {
-                title: "2. Warum PP-R im Vorteil ist",
-                description: "Metalle wie Stahl oder Kupfer leiten Temperaturen sofort an die Oberfläche – sie beschlagen sofort. PP-R hat eine geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche verzögert. Dennoch ist eine diffusionsdichte Dämmung Pflicht."
+                title: "2. Warum PPR im Vorteil ist",
+                description: "Metalle wie Stahl oder Kupfer leiten Temperaturen sofort an die Oberfläche – sie beschlagen sofort. PPR hat eine geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche verzögert. Dennoch ist eine diffusionsdichte Dämmung Pflicht."
               },
               {
                 title: "3. Intelligente Taupunktregelung",
@@ -154,7 +154,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         </div>
       </Reveal>
 
-      {/* StatBand: Komfort-Fakten */}
+      {/* StatBand: Komfortfakten */}
       <Reveal>
         <div className="mt-8">
           <StatBand
@@ -168,11 +168,11 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         </div>
       </Reveal>
 
-      {/* CTABand: Kälte-Infrastruktur */}
+      {/* CTABand: Kälteinfrastruktur */}
       <Reveal>
         <CTABand
           title="Planen Sie ein zukunftsfähiges Bürogebäude?"
-          subtitle="Verbinden Sie höchsten Raumkomfort mit einer absolut sicheren und korrosionsfreien Kälteverteilung aus PP-R."
+          subtitle="Verbinden Sie höchsten Raumkomfort mit einer absolut sicheren und korrosionsfreien Kälteverteilung aus PPR."
           buttonText="Beratung zur Kälteverteilung"
           buttonLink="/kontakt"
           icon={<Wind className="w-6 h-6" />}

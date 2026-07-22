@@ -19,12 +19,12 @@ export const warumPpr: NewsPost = {
     ar: 'علم مواد PPR: الأساسيات',
   },
   teaser: {
-    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR-Kunststoffrohren und langlebigen Rohrsystemen.',
+    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR Kunststoffrohren und langlebigen Rohrsystemen.',
     en: 'From flare gas to extremely durable drinking water pipes: Learn everything about the fascinating material history of PPR plastic pipes and long-lasting piping systems.',
     ar: 'من غازات الشعلة إلى أنابيب مياه الشرب شديدة التحمل: اكتشف التاريخ الرائع لمواد أنابيب البلاستيك PPR وأنظمة الأنابيب التي تدوم طويلاً.',
   },
   excerpt: {
-    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR-Kunststoffrohren und langlebigen Rohrsystemen.',
+    de: 'Vom Abfackelgas zum extrem belastbaren Trinkwasserrohr: Erfahren Sie alles über die faszinierende Materialgeschichte von PPR Kunststoffrohren und langlebigen Rohrsystemen.',
     en: 'From flare gas to extremely durable drinking water pipes: Learn everything about the fascinating material history of PPR plastic pipes and long-lasting piping systems.',
     ar: 'من غازات الشعلة إلى أنابيب مياه الشرب شديدة التحمل: اكتشف التاريخ الرائع لمواد أنابيب البلاستيك PPR وأنظمة الأنابيب التي تدوم طويلاً.',
   },
@@ -117,7 +117,7 @@ export const warumPpr: NewsPost = {
             />
             <BentoGridItem
               title="Maximaler Durchfluss & Hygiene"
-              description="Die extrem glatte Innenfläche unserer PPR-Rohre verringert die Reibung auf ein absolutes Minimum und verhindert Ablagerungen. Gefährlicher Biofilm und Bakterien wie Legionellen finden schlichtweg keinen Halt, wodurch eine dauerhaft hygienische Trinkwasserqualität im gesamten Rohrsystem gewährleistet ist."
+              description="Die extrem glatte Innenfläche unserer PPR Rohre verringert die Reibung auf ein absolutes Minimum und verhindert Ablagerungen. Gefährlicher Biofilm und Bakterien wie Legionellen finden schlichtweg keinen Halt, wodurch eine dauerhaft hygienische Trinkwasserqualität im gesamten Rohrsystem gewährleistet ist."
               header={<div className="w-full h-48 bg-accent/10 rounded-t-2xl flex items-center justify-center"><Droplet className="w-24 h-24 text-accent opacity-40" /></div>}
               icon={<Droplet className="h-6 w-6 text-accent" />}
               className="md:col-span-1"

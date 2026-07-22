@@ -19,7 +19,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
   },
   date: "2025-01-21",
   excerpt: {
-    de: "Wer Energieverluste minimieren und Kondensation verhindern will, kommt an der richtigen Rohrdämmung nicht vorbei. Ein technischer Vergleich von PIR, PUR und EPS Dämmstoffen für PPR-Rohrsysteme.",
+    de: "Wer Energieverluste minimieren und Kondensation verhindern will, kommt an der richtigen Rohrdämmung nicht vorbei. Ein technischer Vergleich von PIR, PUR und EPS Dämmstoffen für PPRrohrsysteme.",
     en: "To minimize energy loss and prevent condensation, choosing the right pipe insulation is essential. A technical comparison of PIR, PUR, and EPS insulation materials for PPR pipe systems.",
     ar: "لتقليل فقدان الطاقة ومنع التكثف، يعد اختيار عزل الأنابيب المناسب أمراً ضرورياً. مقارنة فنية لمواد العزل PIR وPUR وEPS لأنظمة أنابيب PPR."
   },
@@ -42,7 +42,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
                 </div>
               }
               title="Der unsichtbare Schutzmantel"
-              lead="PP-R Rohre besitzen von Natur aus eine hervorragende eigene Isolationswirkung (niedrige Wärmeleitfähigkeit von 0,24 W/mK). Dennoch ist bei extremen Temperaturdifferenzen – sei es beim Transport von Fernwärme (+90°C) oder von Kaltwasser für Klimakühldecken (+6°C) – eine zusätzliche äußere Dämmung unerlässlich, um Energieverluste zu minimieren und gefährliches Tauwasser (Kondensat) an der Rohroberfläche zu verhindern."
+              lead="PPR Rohre besitzen von Natur aus eine hervorragende eigene Isolationswirkung (niedrige Wärmeleitfähigkeit von 0,24 W/mK). Dennoch ist bei extremen Temperaturdifferenzen – sei es beim Transport von Fernwärme (+90°C) oder von Kaltwasser für Klimakühldecken (+6°C) – eine zusätzliche äußere Dämmung unerlässlich, um Energieverluste zu minimieren und gefährliches Tauwasser (Kondensat) an der Rohroberfläche zu verhindern."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -56,7 +56,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
       <Reveal>
         <SectionHead
           title="Evolution der Rohrdämmung"
-          lead="Von offenen Fasern zu geschlossenzelligen Hochleistungs-Schäumen."
+          lead="Von offenen Fasern zu geschlossenzelligen Hochleistungsschäumen."
           align="center"
         />
         <div className="mt-8">
@@ -86,7 +86,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
       <Reveal>
         <SectionHead
           title="Technische Gegenüberstellung"
-          lead="Die harten Fakten: Lambda-Wert, Dichte und Hitzebeständigkeit."
+          lead="Die harten Fakten: Lambdawert, Dichte und Hitzebeständigkeit."
         />
         <DeepMatrix
           data={[
@@ -116,7 +116,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
             },
             {
               title: "Kältemaschinen & Klimawasser (PUR)",
-              description: "Hier kommt es auf eine geschlossenzellige Struktur an, um das Eindringen von Luftfeuchtigkeit (und damit Eisbildung) zu verhindern. PUR bietet hier den perfekten Kosten-Nutzen-Faktor.",
+              description: "Hier kommt es auf eine geschlossenzellige Struktur an, um das Eindringen von Luftfeuchtigkeit (und damit Eisbildung) zu verhindern. PUR bietet hier den perfekten Kostennutzenfaktor.",
               icon: <ShieldCheck className="w-6 h-6 text-primary" />,
               size: "medium"
             },
@@ -140,15 +140,15 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
           items={[
             {
               q: "Warum reicht die Isolierung aus dem Baumarkt für Kaltwasser nicht aus?",
-              a: "Einfache Dämmschläuche (z.B. aus PE-Schaum) sind oft nicht diffusionsdicht. Luftfeuchtigkeit diffundiert durch den Schaum, kondensiert am kalten Rohr und der Schaum saugt sich voll Wasser. Die Dämmwirkung ist dahin, Schimmel droht. Hier sind Kautschuk- oder PUR/PIR-Systeme mit Dampfsperre nötig."
+              a: "Einfache Dämmschläuche (z.B. aus PEschaum) sind oft nicht diffusionsdicht. Luftfeuchtigkeit diffundiert durch den Schaum, kondensiert am kalten Rohr und der Schaum saugt sich voll Wasser. Die Dämmwirkung ist dahin, Schimmel droht. Hier sind Kautschuk- oder PUR/PIRsysteme mit Dampfsperre nötig."
             },
             {
               q: "Was ist der K Aqua Isopipe Standard?",
-              a: "K Aqua bietet werksseitig vorisolierte PP-R Rohre an. Das Mediumrohr wird mit einem hocheffizienten PUR/PIR-Schaum umschlossen, der wiederum durch ein robustes PE-HD Mantelrohr vor mechanischen Schäden und UV-Strahlung geschützt wird."
+              a: "K Aqua bietet werksseitig vorisolierte PPR Rohre an. Das Mediumrohr wird mit einem hocheffizienten PUR/PIRschaum umschlossen, der wiederum durch ein robustes PE HD Mantelrohr vor mechanischen Schäden und UV Strahlung geschützt wird."
             },
             {
               q: "Spielt die Dämmdicke eine Rolle?",
-              a: "Ja, massiv. Sie wird meist in der Gebäudeenergiegesetzgebung (GEG) vorgeschrieben (z.B. 100% Dämmung nach EnEV). Ein besserer Lambda-Wert des Dämmstoffs (wie bei PIR) ermöglicht geringere Dämmdicken bei gleicher Isolierwirkung."
+              a: "Ja, massiv. Sie wird meist in der Gebäudeenergiegesetzgebung (GEG) vorgeschrieben (z.B. 100% Dämmung nach EnEV). Ein besserer Lambdawert des Dämmstoffs (wie bei PIR) ermöglicht geringere Dämmdicken bei gleicher Isolierwirkung."
             }
           ]}
         />

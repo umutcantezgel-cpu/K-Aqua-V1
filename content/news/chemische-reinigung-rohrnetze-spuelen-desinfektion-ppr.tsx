@@ -13,19 +13,19 @@ import { Droplet, Activity, FlaskConical, AlertOctagon } from "@/components/ui/i
 export const chemischeReinigungDesinfektion: NewsPost = {
   slug: "chemische-reinigung-rohrnetze-spuelen-desinfektion-ppr",
   title: {
-    de: "Chemische Reinigung von PP-R Rohren",
-    en: "Chemical Cleaning of PP-R Pipes",
-    ar: "التنظيف الكيميائي لأنابيب PP-R"
+    de: "Chemische Reinigung von PPR-Rohren",
+    en: "Chemical Cleaning of PPR Pipes",
+    ar: "التنظيف الكيميائي لأنابيب PPR"
   },
   date: "2025-01-24",
   excerpt: {
-    de: "Hygiene nach der Montage: Wie PP-R Rohrsysteme und Rohrnetze normgerecht gespült sowie bei Bedarf chemisch desinfiziert werden, ohne das hochwertige Material zu schädigen.",
-    en: "Hygiene after installation: How PP-R pipe systems and networks are flushed according to standards and chemically disinfected when necessary, without damaging the high-quality material.",
-    ar: "النظافة بعد التركيب: كيفية شطف أنظمة وشبكات أنابيب PP-R وفقاً للمعايير وتطهيرها كيميائياً عند الضرورة، دون الإضرار بالمواد عالية الجودة."
+    de: "Hygiene nach der Installation: Wie PPR-Rohrsysteme und Netze normgerecht gespült und bei Bedarf chemisch desinfiziert werden, ohne das hochwertige Material zu schädigen.",
+    en: "Hygiene after installation: How PPR pipe systems and networks are flushed according to standards and chemically disinfected when necessary, without damaging the high-quality material.",
+    ar: "النظافة بعد التركيب: كيفية شطف أنظمة وشبكات أنابيب PPR وفقاً للمعايير وتطهيرها كيميائياً عند الضرورة، دون الإضرار بالمواد عالية الجودة."
   },
   coverImage: "/images/news/cleaning-disinfection.jpg",
   category: "Wartung & Betrieb",
-  tags: ["Reinigung", "Desinfektion", "Spülen", "Hygiene", "Chlor", "Wartung", "PP-R", "Rohrsysteme"],
+  tags: ["Desinfektion", "Spülen", "Hygiene", "Legionellen", "Wartung", "PPR", "Rohrsysteme"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -38,15 +38,15 @@ export const chemischeReinigungDesinfektion: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Activity className="w-5 h-5" />
-                  <span>Trinkwasserhygiene & PP-R Rohrsysteme</span>
+                  <span>Trinkwasserhygiene & PPR-Rohrsysteme</span>
                 </div>
               }
-              title="Der saubere Start ins Gebäudeleben für PP-R Rohrnetze"
-              lead="Nach der Montage und Druckprüfung eines Trinkwassernetzes muss dieses gründlich gespült werden (z.B. nach DIN EN 806-4 / VDI 6023). Ziel ist es, Bauverschmutzungen auszuspülen und das Netz hygienisch einwandfrei an den Betreiber zu übergeben. Sollte eine Kontamination (z.B. mit Legionellen oder Pseudomonaden) vorliegen, ist eine Desinfektion unumgänglich. Doch wie reagiert das Polypropylen-Rohr auf aggressive Chemie?"
+              title="Der saubere Start ins Gebäudeleben für PPR-Rohrnetze"
+              lead="Nach der Druckprüfung ist vor der Inbetriebnahme. Jede Trinkwasserinstallation muss vor der Nutzung gründlich gespült werden, um mikrobiologische Risiken und Bauverschmutzungen zu minimieren. In kritischen Fällen, wie bei Legionellenbefall im Bestand, wird eine chemische Desinfektion zwingend. Erfahren Sie, warum K Aqua PPR-Leitungen auch harten chemischen Keulen widerstehen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Wasser-/Tropfen-Animation */}
+            {/* Wasser-/Tropfenanimation */}
             <PipeFX variant="droplet" size={380} />
           </div>
         </div>
@@ -55,7 +55,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
       {/* Stagger: Der Spülprozess */}
       <Reveal>
         <SectionHead
-          title="Der normgerechte Spülprozess in PP-R Rohrsystemen"
+          title="Der normgerechte Spülprozess in PPR-Rohrsystemen"
           lead="Eine fachgerechte Desinfektion setzt eine gründliche mechanische und hygienische Vorreinigung aller Rohrnetze voraus."
           align="center"
         />
@@ -67,12 +67,12 @@ export const chemischeReinigungDesinfektion: NewsPost = {
                 description: "Der Erstschritt im Rohrsystem. Das Netz wird abschnittsweise mit klarem, filtriertem Trinkwasser gespült. Die Fließgeschwindigkeit sollte mindestens 2,0 m/s an der am weitesten entfernten Zapfstelle betragen, um lose Partikel und Bauabrieb vollständig auszutragen."
               },
               {
-                title: "Stufe 2: Spülen mit Wasser-Luft-Gemisch",
-                description: "Bei hartnäckigen Biofilmen oder Ablagerungen wird dem Spülwasser stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Turbulenzen und Kavitationsbläschen lösen Beläge von den glatten PP-R Innenwänden."
+                title: "Stufe 2: Spülen mit Wasserluft-Gemisch",
+                description: "Bei hartnäckigen Biofilmen oder Ablagerungen wird dem Spülwasser stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Turbulenzen und Kavitationsbläschen lösen Beläge von den glatten PPR-Innenwänden."
               },
               {
                 title: "Stufe 3: Dosierte chemische Desinfektion",
-                description: "Wird angewendet, wenn mikrobielle Belastungen festgestellt wurden. Der Einsatz zertifizierter Desinfektionsmittel (z.B. Natriumhypochlorit oder Wasserstoffperoxid) muss exakt auf die Verträglichkeit von PP-R Rohrsystemen abgestimmt sein."
+                description: "Wird angewendet, wenn mikrobielle Belastungen festgestellt wurden. Der Einsatz zertifizierter Desinfektionsmittel (z.B. Natriumhypochlorit oder Wasserstoffperoxid) muss exakt auf die Verträglichkeit von PPR-Rohrsystemen abgestimmt sein."
               },
               {
                 title: "Stufe 4: Wiederholte Beprobung & Freigabe",
@@ -113,24 +113,24 @@ export const chemischeReinigungDesinfektion: NewsPost = {
         />
       </Reveal>
 
-      {/* DeepMatrix: Chemikalien-Check */}
+      {/* DeepMatrix: Chemikaliencheck */}
       <Reveal>
         <SectionHead
-          title="Welche Chemie verträgt PP-R?"
+          title="Welche Chemie verträgt PPR?"
           lead="Ein Auszug aus der K Aqua Beständigkeitsliste für typische Desinfektionsmittel."
         />
         <DeepMatrix
           data={[
-            ["Wirkstoff", "Typische Anwendung", "Verträglichkeit mit K Aqua PP-R"],
+            ["Wirkstoff", "Typische Anwendung", "Verträglichkeit mit K Aqua PPR"],
             ["Chlor / Natriumhypochlorit", "Stoßdesinfektion (50 mg/l, 24h)", "Gut (bei Einhaltung von Konzentration und Zeit)"],
             ["Chlordioxid", "Kontinuierliche Dosierung (max 0,2 mg/l)", "Gut (sehr materialschonend im Trinkwasser)"],
             ["Wasserstoffperoxid (H2O2)", "Stoßdesinfektion (150 mg/l, 24h)", "Gut"],
-            ["Ozon", "Aufbereitung im Wasserwerk", "Bedingt (hohe Konzentrationen können PP-R oxidieren)"]
+            ["Ozon", "Aufbereitung im Wasserwerk", "Bedingt (hohe Konzentrationen können PPR oxidieren)"]
           ]}
         />
       </Reveal>
 
-      {/* DeepFAQ: Expertenwissen */}
+      {/* DeepFAQ: Häufige Fragen zur Reinigung */}
       <Reveal>
         <SectionHead
           title="FAQ: Hygiene & Wartung"
@@ -140,15 +140,15 @@ export const chemischeReinigungDesinfektion: NewsPost = {
           items={[
             {
               q: "Ist thermische Desinfektion besser als chemische?",
-              a: "Ja, in den meisten Fällen. Bei der thermischen Desinfektion wird das gesamte Warmwassernetz für mindestens 3 Minuten auf über 70°C aufgeheizt. Das tötet Legionellen zuverlässig ab und schont K Aqua PP-R Rohre, da keine oxidierenden Chemikalien eingesetzt werden."
+              a: "Ja, in den meisten Fällen. Bei der thermischen Desinfektion wird das gesamte Warmwassernetz für mindestens 3 Minuten auf über 70°C aufgeheizt. Das tötet Legionellen zuverlässig ab und schont K Aqua PPR Rohre, da keine oxidierenden Chemikalien eingesetzt werden."
             },
             {
-              q: "Gibt es Biofilmbildung in PP-R Rohren?",
-              a: "Die Oberfläche von PP-R ist mikroskopisch glatter als z.B. verzinkter Stahl. Dadurch fällt es Bakterien deutlich schwerer, anzuhaften und einen Biofilm aufzubauen. Völlig immun ist jedoch kein Material bei stagnierendem, lauwarmem Wasser."
+              q: "Gibt es Biofilmbildung in PPR Rohren?",
+              a: "Die Oberfläche von PPR ist mikroskopisch glatter als z.B. verzinkter Stahl. Dadurch fällt es Bakterien deutlich schwerer, anzuhaften und einen Biofilm aufzubauen. Völlig immun ist jedoch kein Material bei stagnierendem, lauwarmem Wasser."
             },
             {
-              q: "Was passiert, wenn Dauer-Chlorung zu hoch eingestellt ist?",
-              a: "Chlor ist ein starkes Oxidationsmittel. Ein dauerhaft zu hoher Chlorgehalt (weit über der Trinkwasserverordnung) entzieht dem Polypropylen über die Jahre seine Stabilisatoren. Das Rohr kann vorzeitig altern und verspröden."
+              q: "Was passiert, wenn Dauerchlorung zu hoch eingestellt ist?",
+              a: "Chlor ist ein starkes Oxidationsmittel. Ein dauerhaft zu hoher Chlorgehalt (weit über der Trinkwasserverordnung) entzieht dem Polypropylenrohr über die Jahre seine Stabilisatoren. Das Rohr kann vorzeitig altern und verspröden."
             }
           ]}
         />

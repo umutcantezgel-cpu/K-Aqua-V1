@@ -19,18 +19,18 @@ export const lebensmittelindustrieHygiene: NewsPost = {
   },
   date: "2024-11-20",
   teaser: {
-    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K-Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP-beständig.",
-    en: "Hygienic PPR pipe systems in the food industry: K-Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP-resistant.",
-    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K-Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP resistant.",
+    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
   },
   excerpt: {
-    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K-Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP-beständig.",
-    en: "Hygienic PPR pipe systems in the food industry: K-Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP-resistant.",
-    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K-Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP resistant.",
+    ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
   },
   coverImage: "/images/news/food-industry.jpg",
   category: "Industrie & Anlagenbau",
-  tags: ["Lebensmittelindustrie", "Trinkwasser", "FDA", "CIP-Reinigung", "PP-R", "Hygiene"],
+  tags: ["Lebensmittelindustrie", "Trinkwasser", "FDA", "CIP Reinigung", "PPR", "Hygiene"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -47,7 +47,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
                 </div>
               }
               title="Kompromisslose Reinheit für Lebensmittel"
-              lead="Ob in Molkereien, Brauereien oder der industriellen Trinkwasserabfüllung: Rohrleitungen haben direkten Einfluss auf die Produktqualität. Der Branchenstandard ist oft kostenintensiver Edelstahl (316L). K Aqua PP-R bietet eine hochgradig zertifizierte, absolut korrosionsfreie und chemisch resistente Alternative, die weder den Geschmack verfälscht noch Mikroplastik an die Medien abgibt."
+              lead="Ob in Molkereien, Brauereien oder der industriellen Trinkwasserabfüllung: Rohrleitungen haben direkten Einfluss auf die Produktqualität. Der Branchenstandard ist oft kostenintensiver Edelstahl (316L). K Aqua PPR bietet eine hochgradig zertifizierte, absolut korrosionsfreie und chemisch resistente Alternative, die weder den Geschmack verfälscht noch Mikroplastik an die Medien abgibt."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -57,11 +57,11 @@ export const lebensmittelindustrieHygiene: NewsPost = {
         </div>
       </Reveal>
 
-      {/* Stagger: Warum PP-R in der Lebensmittelproduktion? */}
+      {/* Stagger: Warum PPR in der Lebensmittelproduktion? */}
       <Reveal>
         <SectionHead
           title="Materialvorteile in der Produktion"
-          lead="Warum PP-R für sensible flüssige Medien ideal ist."
+          lead="Warum PPR für sensible flüssige Medien ideal ist."
           align="center"
         />
         <div className="mt-8">
@@ -69,15 +69,15 @@ export const lebensmittelindustrieHygiene: NewsPost = {
             items={[
               {
                 title: "1. 100 % Lebensmittelecht",
-                description: "K Aqua PP-R enthält keinerlei Weichmacher, Schwermetalle oder toxische Additive. Das hochmolekulare Material ist absolut sicher für den direkten Kontakt mit Lebensmitteln und Trinkwasser."
+                description: "K Aqua PPR enthält keinerlei Weichmacher, Schwermetalle oder toxische Additive. Das hochmolekulare Material ist absolut sicher für den direkten Kontakt mit Lebensmitteln und Trinkwasser."
               },
               {
                 title: "2. Geschmacks- & Geruchsneutral",
-                description: "Im Gegensatz zu einigen anderen Kunststoffen oder oxidierenden Metallen verfälscht PP-R den Geschmack sensibler Endprodukte (wie Säfte, Bier oder destilliertes Wasser) in keiner Weise."
+                description: "Im Gegensatz zu einigen anderen Kunststoffen oder oxidierenden Metallen verfälscht PPR den Geschmack sensibler Endprodukte (wie Säfte, Bier oder destilliertes Wasser) in keiner Weise."
               },
               {
-                title: "3. Resistent gegen CIP-Chemie",
-                description: "In der Lebensmittelproduktion müssen Rohre durch 'Cleaning in Place' (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PP-R ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos."
+                title: "3. Resistent gegen CIP Chemie",
+                description: "In der Lebensmittelproduktion müssen Rohre durch 'Cleaning in Place' (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PPR ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos."
               }
             ]}
           />
@@ -88,13 +88,13 @@ export const lebensmittelindustrieHygiene: NewsPost = {
       <Reveal>
         <SectionHead
           title="Branchenvergleich: Food Grade Pipes"
-          lead="PP-R im direkten Vergleich mit Edelstahl und Standard-Kunststoff."
+          lead="PPR im direkten Vergleich mit Edelstahl und Standardkunststoff."
         />
         <DeepMatrix
           data={[
-            ["Eigenschaft", "K Aqua PP-R", "Edelstahl (316L)", "PVC-U"],
+            ["Eigenschaft", "K Aqua PPR", "Edelstahl (316L)", "PVC U"],
             ["Zertifizierung (Trinkwasser)", "Exzellent (KTW, DVGW)", "Sehr gut", "Abhängig von Additiven"],
-            ["Beständigkeit CIP-Laugen", "Hervorragend", "Gut (chloridempfindlich)", "Mittel"],
+            ["Beständigkeit CIP Laugen", "Hervorragend", "Gut (chloridempfindlich)", "Mittel"],
             ["Oberflächenrauheit", "< 0.007 mm (extrem glatt)", "~ 0.015 mm (poliert)", "< 0.01 mm"],
             ["Kosten (Material & Montage)", "Sehr wirtschaftlich", "Sehr teuer", "Günstig"]
           ]}
@@ -118,8 +118,8 @@ export const lebensmittelindustrieHygiene: NewsPost = {
                 icon: <Droplet className="w-6 h-6" />
               },
               {
-                term: "Biofilm-Inhibition",
-                definition: "Dank der extrem glatten Innenwand von PP-R finden Mikroorganismen keinen Halt. Dies verzögert die Bildung von Biofilmen signifikant.",
+                term: "Biofilminhibition",
+                definition: "Dank der extrem glatten Innenwand von PPR finden Mikroorganismen keinen Halt. Dies verzögert die Bildung von Biofilmen signifikant.",
                 icon: <Microscope className="w-6 h-6" />
               }
             ]}
@@ -145,7 +145,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
       <Reveal>
         <CTABand
           title="Planen Sie eine Produktionserweiterung?"
-          subtitle="Ob Kaltwasser, VE-Wasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien."
+          subtitle="Ob Kaltwasser, VEwasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien."
           buttonText="Beratung für Anlagenbau"
           buttonLink="/kontakt"
           icon={<Coffee className="w-6 h-6" />}

@@ -20,12 +20,12 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
     ar: 'لائحة مياه الشرب والشهادات',
   },
   teaser: {
-    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGW-Zertifikate für PPR-Rohrsysteme.',
+    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGWzertifikate für PPRrohrsysteme.',
     en: 'Drinking water is the most important foodstuff: Discover the strict limits of the Drinking Water Ordinance as well as testing standards & DVGW certificates for PPR pipe systems.',
     ar: 'مياه الشرب هي أهم مادة غذائية: اكتشف الحدود الصارمة للائحة مياه الشرب بالإضافة إلى معايير الاختبار وشهادات DVGW لأنظمة أنابيب PPR.',
   },
   excerpt: {
-    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGW-Zertifikate für PPR-Rohrsysteme.',
+    de: 'Trinkwasser ist das wichtigste Lebensmittel: Entdecken Sie die strengen Grenzwerte der Trinkwasserverordnung sowie Prüfstandards & DVGWzertifikate für PPRrohrsysteme.',
     en: 'Drinking water is the most important foodstuff: Discover the strict limits of the Drinking Water Ordinance as well as testing standards & DVGW certificates for PPR pipe systems.',
     ar: 'مياه الشرب هي أهم مادة غذائية: اكتشف الحدود الصارمة للائحة مياه الشرب بالإضافة إلى معايير الاختبار وشهادات DVGW لأنظمة أنابيب PPR.',
   },
@@ -153,7 +153,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
                   <FileText className="w-8 h-8 text-primary" />
                 </div>
                 <h2 className="text-3xl font-extrabold font-heading text-foreground mb-4">
-                  Experten-Briefing für Fachplaner
+                  Expertenbriefing für Fachplaner
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Zertifikate sind das Fundament der Ausschreibung. Hier beantworten wir die kritischsten Detailfragen zur rechtlichen Absicherung Ihrer Trinkwasserinstallation.
@@ -164,16 +164,16 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
               <DeepFAQ 
                 items={[
                   {
-                    q: "Wie lange sind die Hygiene-Zertifikate gültig?",
-                    a: "Hygiene- und Materialzertifikate wie die des DVGW unterliegen strengen, periodischen Überwachungs-Audits (meist alle 3 bis 5 Jahre). K Aqua produziert unter permanenter Fremdüberwachung, was eine lückenlose Verlängerung aller Zulassungen garantiert."
+                    q: "Wie lange sind die HygieneZertifikate gültig?",
+                    a: "Hygiene und Materialzertifikate wie die des DVGW unterliegen strengen, periodischen ÜberwachungsAudits (meist alle 3 bis 5 Jahre). K Aqua produziert unter permanenter Fremdüberwachung, was eine lückenlose Verlängerung aller Zulassungen garantiert."
                   },
                   {
-                    q: "Besteht bei PPR die Gefahr von Mikroplastik-Abrieb?",
+                    q: "Besteht bei PPR die Gefahr von MikroplastikAbrieb?",
                     a: "Nein. Polypropylen Random Copolymer (PPR) ist extrem abriebfest. Unter den in der Trinkwasserinstallation üblichen Fließgeschwindigkeiten und Drücken findet keinerlei mechanische Abrasion der Rohrinnenwand statt."
                   },
                   {
                     q: "Muss das System nach der Installation speziell gespült werden?",
-                    a: "Es gelten die standardmäßigen Spülprotokolle gemäß DIN EN 806-4 / VDI/DVGW 6023. Da keine chemischen Flussmittel oder Lötpasten verwendet werden (die bei Kupfer aufwendig ausgespült werden müssen), ist der Prozess deutlich schneller und sicherer."
+                    a: "Es gelten die standardmäßigen Spülprotokolle gemäß DIN EN 806 4 / VDI/DVGW 6023. Da keine chemischen Flussmittel oder Lötpasten verwendet werden (die bei Kupfer aufwendig ausgespült werden müssen), ist der Prozess deutlich schneller und sicherer."
                   },
                   {
                     q: "Kann das Material mit Desinfektionsmitteln behandelt werden?",
@@ -201,7 +201,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
               Verantwortung endet nicht am Wasserzähler
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Die Reinheit des Wassers zu bewahren, ist die oberste Pflicht jedes TGA-Planers und Installateurs. Mit einem zertifizierten PPR-System von K Aqua übergeben Sie dem Bauherrn nicht nur ein dichtes Rohrnetz, sondern die rechtliche und moralische Sicherheit, dass die Trinkwasserqualität unangetastet bleibt.
+              Die Reinheit des Wassers zu bewahren, ist die oberste Pflicht jedes TGA Planers und Installateurs. Mit einem zertifizierten PPRsystem von K Aqua übergeben Sie dem Bauherrn nicht nur ein dichtes Rohrnetz, sondern die rechtliche und moralische Sicherheit, dass die Trinkwasserqualität unangetastet bleibt.
             </p>
           </div>
         </Reveal>

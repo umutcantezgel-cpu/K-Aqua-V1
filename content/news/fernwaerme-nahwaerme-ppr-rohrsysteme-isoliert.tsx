@@ -12,19 +12,19 @@ import { Flame, Thermometer, Shield, ShieldAlert, Layers, Activity } from "@/com
 export const fernwaermeNahwaerme: NewsPost = {
   slug: "fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert",
   title: {
-    de: "Fernwärme & Nahwärme mit PP-R Rohren",
-    en: "District & Local Heating with PP-R Pipes",
-    ar: "تدفئة المناطق والتدفئة المحلية بأنابيب PP-R"
+    de: "Fernwärme & Nahwärme mit PPR Rohren",
+    en: "District & Local Heating with PPR Pipes",
+    ar: "تدفئة المناطق والتدفئة المحلية بأنابيب PPR"
   },
   date: "2024-07-15",
   excerpt: {
-    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PP-RCT Rohrsysteme von K-Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
-    en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PP-RCT pipe systems from K-Aqua are increasingly replacing heavy steel in underground installations.",
-    ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PP-RCT المعزولة مسبقًا من K-Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
+    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PPRCT Rohrsysteme von K Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
+    en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PPRCT pipe systems from K Aqua are increasingly replacing heavy steel in underground installations.",
+    ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PPRCT المعزولة مسبقًا من K Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
   },
   coverImage: "/images/news/district-heating.jpg",
   category: "Infrastruktur",
-  tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PP-RCT", "Wärmeverlust", "Rohrsysteme", "PPR"],
+  tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PPRCT", "Wärmeverlust", "Rohrsysteme", "PPR"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -55,7 +55,7 @@ export const fernwaermeNahwaerme: NewsPost = {
       <Reveal>
         <SectionHead
           title="Technische Spezifikationen (Underground)"
-          lead="Unsere vorisolierten PP-RCT Systeme wurden speziell für extreme Anforderungen im direkten Erdreich entwickelt."
+          lead="Unsere vorisolierten PPRCT Systeme wurden speziell für extreme Anforderungen im direkten Erdreich entwickelt."
         />
         <DeepMatrix
           data={[
@@ -69,7 +69,7 @@ export const fernwaermeNahwaerme: NewsPost = {
         />
       </Reveal>
 
-      {/* BentoGrid: Warum PP-RCT Stahl ablöst */}
+      {/* BentoGrid: Warum PPRCT Stahl ablöst */}
       <Reveal>
         <SectionHead
           title="Der Systemvorteil im Tiefbau"
@@ -79,7 +79,7 @@ export const fernwaermeNahwaerme: NewsPost = {
           items={[
             {
               title: "Absolut korrosionsfrei",
-              description: "Im Gegensatz zu Stahlrohren benötigen PP-RCT Systeme keinen kathodischen Korrosionsschutz. Bodenfeuchte und Streuströme verursachen keine Schäden.",
+              description: "Im Gegensatz zu Stahlrohren benötigen PPRCT Systeme keinen kathodischen Korrosionsschutz. Bodenfeuchte und Streuströme verursachen keine Schäden.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
@@ -91,7 +91,7 @@ export const fernwaermeNahwaerme: NewsPost = {
             },
             {
               title: "Minimale Wärmeverluste",
-              description: "Der Verbund aus PP-RCT Mediumrohr und hochwertigem PUR-Hartschaum isoliert effizienter als viele Standardsysteme.",
+              description: "Der Verbund aus PPRCT Mediumrohr und hochwertigem PUR-Hartschaum isoliert effizienter als viele Standardsysteme.",
               icon: <Thermometer className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -110,7 +110,7 @@ export const fernwaermeNahwaerme: NewsPost = {
           items={[
             {
               title: "1. Mediumrohr (Innen)",
-              description: "K Aqua K-Faser PP-RCT Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand."
+              description: "K Aqua K-Faser PPRCT Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand."
             },
             {
               title: "2. Isolierung (Mitte)",
@@ -129,7 +129,7 @@ export const fernwaermeNahwaerme: NewsPost = {
         <CTABand
           title="Planen Sie ein lokales Wärmenetz?"
           subtitle="Sprechen Sie mit unseren Infrastruktur-Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung."
-          buttonText="Infrastruktur-Beratung anfragen"
+          buttonText="Infrastrukturberatung anfragen"
           buttonLink="/kontakt"
           icon={<Layers className="w-6 h-6" />}
         />

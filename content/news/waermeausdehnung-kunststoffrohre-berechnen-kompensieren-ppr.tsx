@@ -13,24 +13,24 @@ import { MoveHorizontal, Ruler, Info, ArrowRightLeft } from "@/components/ui/ico
 export const waermeausdehnungKunststoffrohre: NewsPost = {
   slug: "waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr",
   title: {
-    de: "Wärmeausdehnung bei PP-R Rohren",
-    en: "Thermal Expansion in PP-R Pipes",
-    ar: "التمدد الحراري في أنابيب PP-R",
+    de: "Wärmeausdehnung bei PPR Rohren",
+    en: "Thermal Expansion in PPR Pipes",
+    ar: "التمدد الحراري في أنابيب PPR",
   },
   date: "2025-01-22",
   teaser: {
-    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PP-R Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
-    en: "Learn how to precisely calculate thermal expansion in PP-R plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
-    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PP-R وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
+    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PPR Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
+    en: "Learn how to precisely calculate thermal expansion in PPR plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
+    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PPR وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
   },
   excerpt: {
-    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PP-R Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
-    en: "Learn how to precisely calculate thermal expansion in PP-R plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
-    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PP-R وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
+    de: "Erfahren Sie, wie Sie die Wärmeausdehnung bei PPR Kunststoffrohren präzise berechnen und Längenausdehnungen in Rohrsystemen durch Dehnungsbögen, Biegeschenkel und Festpunkte sicher kompensieren.",
+    en: "Learn how to precisely calculate thermal expansion in PPR plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
+    ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PPR وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
   },
   coverImage: "/images/news/thermal-expansion-pipes.jpg",
   category: "Planung & Berechnung",
-  tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung", "PP-R Rohrsysteme"],
+  tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung", "PPR Rohrsysteme"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -46,8 +46,8 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
                   <span>Physik in der TGA</span>
                 </div>
               }
-              title="Wenn das Rohr lebendig wird: Wärmeausdehnung bei PP-R Rohren"
-              lead="Jedes Material dehnt sich bei Erwärmung aus und zieht sich bei Abkühlung zusammen. Bei Kunststoffrohren wie Polypropylen (PP-R) ist dieser physikalische Effekt der Längenausdehnung bei Temperaturschwankungen deutlich ausgeprägter als bei Metallen. Fließt 70°C heißes Wasser durch eine Rohrleitung, die bei 20°C montiert wurde, dehnt sich das PP-R Rohrsystem spürbar aus. Wird diese thermische Längenausdehnung in der TGA-Planung ignoriert, entstehen enorme mechanische Spannungen, die Halterungen abreißen oder Rohrverbindungen zerstören können."
+              title="Wenn das Rohr lebendig wird: Wärmeausdehnung bei PPR Rohren"
+              lead="Jedes Material dehnt sich bei Erwärmung aus und zieht sich bei Abkühlung zusammen. Bei Kunststoffrohren wie Polypropylen (PPR) ist dieser physikalische Effekt der Längenausdehnung bei Temperaturschwankungen deutlich ausgeprägter als bei Metallen. Fließt 70°C heißes Wasser durch eine Rohrleitung, die bei 20°C montiert wurde, dehnt sich das PPR Rohrsystem spürbar aus. Wird diese thermische Längenausdehnung in der TGAPlanung ignoriert, entstehen enorme mechanische Spannungen, die Halterungen abreißen oder Rohrverbindungen zerstören können."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -61,13 +61,13 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
       <Reveal>
         <SectionHead
           title="Materialien im Vergleich"
-          lead="Der Längenausdehnungskoeffizient (Alpha-Wert) bestimmt das Maß der Ausdehnung."
+          lead="Der Längenausdehnungskoeffizient (Alphawert) bestimmt das Maß der Ausdehnung."
         />
         <DeepMatrix
           data={[
-            ["Material", "Linearer Ausdehnungskoeffizient (α)", "Ausdehnung bei 10m und ΔT=50K"],
-            ["PP-R (Standard-Kunststoffrohr)", "0,150 mm/(m·K)", "75,0 mm"],
-            ["K Aqua Faserverbundrohr (PP-R/GF)", "0,035 mm/(m·K)", "17,5 mm"],
+            ["Material", "Ausdehnungskoeffizient α", "Ausdehnung bei ΔT=50K und 10m Rohr"],
+            ["PPR (Standardkunststoffrohr)", "0,150 mm/(m·K)", "75,0 mm"],
+            ["K Aqua Faserverbundrohr (PPR/GF)", "0,035 mm/(m·K)", "17,5 mm"],
             ["Kupfer", "0,017 mm/(m·K)", "8,5 mm"],
             ["Stahl (verzinkt)", "0,012 mm/(m·K)", "6,0 mm"]
           ]}
@@ -75,7 +75,7 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
         <div className="mt-4 flex items-start gap-3 text-sm text-muted-foreground bg-accent/30 p-4 rounded-xl">
           <Info className="w-5 h-5 text-primary shrink-0" />
           <p>
-            <strong>Wichtig:</strong> Durch die Co-Extrusion mit einer Glasfaser-Mittelschicht (K Aqua Faserverbundrohr) wird die Ausdehnung des Kunststoffs um fast 75 % reduziert. Das Verhalten nähert sich dem von metallischen Rohren an.
+            <strong>Wichtig:</strong> Durch die Coextrusion mit einer Glasfasermittelschicht (K Aqua Faserverbundrohr) wird die Ausdehnung des Kunststoffs um fast 75 % reduziert. Das Verhalten nähert sich dem von metallischen Rohren an.
           </p>
         </div>
       </Reveal>
@@ -91,7 +91,7 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "ΔT", u: "in Kelvin", l: "Temperaturdifferenz zwischen Montage- und maximaler Betriebstemperatur." },
+              { n: "ΔT", u: "in Kelvin", l: "Temperaturdifferenz zwischen Montage und maximaler Betriebstemperatur." },
               { n: "L", u: "in Metern", l: "Die absolute Länge des geraden Rohrabschnitts zwischen zwei Richtungsänderungen." },
               { n: "α", u: "Materialwert", l: "Der materialabhängige Längenausdehnungskoeffizient." }
             ]}
@@ -110,29 +110,29 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
             items={[
               {
                 title: "1. Natürliche Richtungsänderung (Biegeschenkel)",
-                description: "Die eleganteste Lösung. Die Ausdehnung des Rohres L1 wird in den ohnehin vorhandenen 90°-Winkel (Schenkel L2) geleitet. Der Schenkel L2 muss lang genug sein (Biegeschenkellänge BS), um die Biegung elastisch aufzunehmen, ohne zu brechen."
+                description: "Die eleganteste Lösung. Die Ausdehnung des Rohres L1 wird in den ohnehin vorhandenen 90° Winkel (Schenkel L2) geleitet. Der Schenkel L2 muss lang genug sein (Biegeschenkellänge BS), um die Biegung elastisch aufzunehmen, ohne zu brechen."
               },
               {
-                title: "2. U-Dehnungsbogen (U-Kompensator)",
-                description: "Auf langen, geraden Strecken ohne Richtungsänderungen (z.B. in Fluren oder Schächten) wird gezielt ein U-Bogen aus 4x 90°-Winkeln geschweißt. Dieser Bogen nimmt die Ausdehnung aus beiden Richtungen wie eine Feder auf."
+                title: "2. UDehnungsbogen (UKompensator)",
+                description: "Auf langen, geraden Strecken ohne Richtungsänderungen (z.B. in Fluren oder Schächten) wird gezielt ein UBogen aus 4x 90° Winkeln geschweißt. Dieser Bogen nimmt die Ausdehnung aus beiden Richtungen wie eine Feder auf."
               },
               {
                 title: "3. Mechanische Axialkompensatoren",
-                description: "Wellrohr-Kompensatoren aus Metall, die in die Rohrleitung integriert werden. Bei K Aqua PP-R Systemen raten wir hiervon meist ab, da natürliche Dehnungsbögen aus dem eigenen Rohrstoff sicherer, langlebiger und kostengünstiger sind."
+                description: "WellrohrKompensatoren aus Metall, die in die Rohrleitung integriert werden. Bei K Aqua PPR Systemen raten wir hiervon meist ab, da natürliche Dehnungsbögen aus dem eigenen Rohrstoff sicherer, langlebiger und kostengünstiger sind."
               }
             ]}
           />
         </div>
       </Reveal>
 
-      {/* Praxis-Tipp für die technische Auslegung */}
+      {/* Praxistipp für die technische Auslegung */}
       <Reveal>
         <div className="rounded-2xl border border-card-border bg-card p-6 md:p-8 flex flex-col gap-4">
           <h3 className="text-xl font-bold text-foreground">
             Praxisrelevante Berechnungsformel der Längenausdehnung (ΔL)
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            Die mathematische Bestimmung der Ausdehnung in Kunststoffrohrsystemen erfolgt über die Formel <strong>ΔL = α × L × ΔT</strong>. Dabei entspricht ΔL der Längenänderung in Millimetern, α dem materialabhängigen Ausdehnungskoeffizienten, L der Trassenlänge in Metern und ΔT der Temperaturdifferenz zwischen Installation und Maximalbetrieb. Dank der innovativen Glasfaser-Mittelschicht bei K Aqua Faserverbundrohren reduziert sich α auf lediglich 0,035 mm/(m·K). Dies ermöglicht wesentlich kleinere Biegeschenkel und spart wertvollen Installationsraum im Schacht.
+            Die mathematische Bestimmung der Ausdehnung in Kunststoffrohrsystemen erfolgt über die Formel <strong>ΔL = α × L × ΔT</strong>. Dabei entspricht ΔL der Längenänderung in Millimetern, α dem materialabhängigen Ausdehnungskoeffizienten, L der Trassenlänge in Metern und ΔT der Temperaturdifferenz zwischen Installation und Maximalbetrieb. Dank der innovativen Glasfasermittelschicht bei K Aqua Faserverbundrohren reduziert sich α auf lediglich 0,035 mm/(m·K). Dies ermöglicht wesentlich kleinere Biegeschenkel und spart wertvollen Installationsraum im Schacht.
           </p>
         </div>
       </Reveal>
@@ -150,8 +150,8 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
               a: "Ein Festpunkt blockiert das Rohr komplett und lenkt die Ausdehnung in eine bestimmte Richtung. Eine Gleitschelle hält das Rohr, lässt ihm aber den Spielraum, um in Längsrichtung durch die Schelle zu gleiten."
             },
             {
-              q: "Wie erzeuge ich einen Festpunkt bei PP-R Rohren?",
-              a: "Da Kunststoffrohre eine sehr glatte Oberfläche haben, kann das Rohr bei großen Kräften durch eine festgezogene Gummischelle rutschen. Echte Festpunkte werden erzeugt, indem man spezielle Festpunkt-Schweißmuffen vor und hinter die Schelle schweißt, die sich formschlüssig gegen die Schelle abstützen."
+              q: "Wie erzeuge ich einen Festpunkt bei PPR Rohren?",
+              a: "Da Kunststoffrohre eine sehr glatte Oberfläche haben, kann das Rohr bei großen Kräften durch eine festgezogene Gummischelle rutschen. Echte Festpunkte werden erzeugt, indem man spezielle FestpunktSchweißmuffen vor und hinter die Schelle schweißt, die sich formschlüssig gegen die Schelle abstützen."
             },
             {
               q: "Muss bei Kaltwasserleitungen auch eine Dehnung berücksichtigt werden?",

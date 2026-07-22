@@ -13,24 +13,24 @@ import { Server, Activity, ShieldAlert, Cpu } from "@/components/ui/icon";
 export const rechenzentrumKuehlung: NewsPost = {
   slug: "rechenzentrum-kuehlung-datacenter-ausfallsicherheit-pprct",
   title: {
-    de: "Rechenzentrum-Kühlung mit PP-RCT",
-    en: "Data Center Cooling with PP-RCT",
-    ar: "تبريد مراكز البيانات باستخدام PP-RCT",
+    de: "Rechenzentrumkühlung mit PPRCT",
+    en: "Data Center Cooling with PPRCT",
+    ar: "تبريد مراكز البيانات باستخدام PPRCT",
   },
   date: "2024-11-28",
   teaser: {
-    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PP-RCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel- und Korrosionsablagerungen.",
-    en: "Data centers require the highest level of reliability and uptime. K Aqua PP-RCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
-    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PP-RCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
+    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PPRCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel und Korrosionsablagerungen.",
+    en: "Data centers require the highest level of reliability and uptime. K Aqua PPRCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
+    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PPRCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
   },
   excerpt: {
-    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PP-RCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel- und Korrosionsablagerungen.",
-    en: "Data centers require the highest level of reliability and uptime. K Aqua PP-RCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
-    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PP-RCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
+    de: "Data Center erfordern höchste Ausfallsicherheit und Uptime. K Aqua PPRCT Rohrsysteme für industrielle Kühlsysteme bieten 100 %ige Leckagesicherheit durch stoffschlüssige Schweißverbindungen und verhindern schädliche Partikel und Korrosionsablagerungen.",
+    en: "Data centers require the highest level of reliability and uptime. K Aqua PPRCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
+    ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PPRCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
   },
   coverImage: "/images/news/data-center.jpg",
   category: "Industrie & Anlagenbau",
-  tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PP-RCT", "Ausfallsicherheit", "Rohrsysteme"],
+  tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PPRCT", "Ausfallsicherheit", "Rohrsysteme"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -43,11 +43,11 @@ export const rechenzentrumKuehlung: NewsPost = {
               eyebrow={
                 <div className="flex items-center gap-2 text-primary font-bold">
                   <Server className="w-5 h-5" />
-                  <span>IT-Infrastruktur & Rohrsysteme</span>
+                  <span>IT Infrastruktur & Rohrsysteme</span>
                 </div>
               }
-              title="Maximale Ausfallsicherheit in Rechenzentrum-Kühlsystemen"
-              lead="Hyperscale-Rechenzentren verbrauchen gewaltige Mengen an Energie – ein großer Teil davon fließt in moderne Kaltwassersätze und Direct-to-Chip-Kühlung zur verlässlichen Temperierung der Server-Racks. Ein Rohrbruch oder auch nur eine minimale Leckage im Doppelbereich kann irreversible Schäden in Millionenhöhe und kritische Systemausfälle auslösen. K Aqua PP-RCT Rohrleitungssysteme garantieren durch ihre homogene, stoffschlüssige Schweißverbindung absolute Dichtigkeit und dauerhafte Korrosionsbeständigkeit für anspruchsvollste Data-Center-Infrastrukturen."
+              title="Maximale Ausfallsicherheit in Rechenzentrumkühlsystemen"
+              lead="Hyperscale Rechenzentren verbrauchen gewaltige Mengen an Energie – ein großer Teil davon fließt in moderne Kaltwassersätze und Direct to Chip Kühlung zur verlässlichen Temperierung der Server Racks. Ein Rohrbruch oder auch nur eine minimale Leckage im Doppelbereich kann irreversible Schäden in Millionenhöhe und kritische Systemausfälle auslösen. K Aqua PPRCT Rohrleitungssysteme garantieren durch ihre homogene, stoffschlüssige Schweißverbindung absolute Dichtigkeit und dauerhafte Korrosionsbeständigkeit für anspruchsvollste Data Center Infrastrukturen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -57,11 +57,11 @@ export const rechenzentrumKuehlung: NewsPost = {
         </div>
       </Reveal>
 
-      {/* Stagger: Die 3 Säulen der IT-Kühlung */}
+      {/* Stagger: Die 3 Säulen der ITkühlung */}
       <Reveal>
         <SectionHead
           title="Mission Critical Cooling"
-          lead="Warum PP-RCT für die Kühlung von Servern unverzichtbar ist."
+          lead="Warum PPRCT für die Kühlung von Servern unverzichtbar ist."
           align="center"
         />
         <div className="mt-8">
@@ -69,15 +69,15 @@ export const rechenzentrumKuehlung: NewsPost = {
             items={[
               {
                 title: "1. 100 % Leckagesicherheit",
-                description: "Im Gegensatz zu gesteckten, gepressten oder verschraubten Metallrohren wird PP-RCT thermisch verschweißt (Heizelementstumpfschweißen oder Muffenschweißen). Rohr und Fitting verschmelzen zu einer einzigen Einheit ohne O-Ringe oder mechanische Schwachstellen."
+                description: "Im Gegensatz zu gesteckten, gepressten oder verschraubten Metallrohren wird PPRCT thermisch verschweißt (Heizelementstumpfschweißen oder Muffenschweißen). Rohr und Fitting verschmelzen zu einer einzigen Einheit ohne O Ringe oder mechanische Schwachstellen."
               },
               {
                 title: "2. Kein Rost, keine Partikel",
-                description: "In-Row-Cooler und Liquid-Cooling-Systeme besitzen sehr feine Ventile und Wärmetauscher. Rostpartikel aus C-Stahlrohren können diese verstopfen und zum Ausfall führen. PP-RCT oxidiert nicht und das Kühlwasser bleibt absolut partikelfrei."
+                description: "In Row Cooler und Liquid Cooling Systeme besitzen sehr feine Ventile und Wärmetauscher. Rostpartikel aus C Stahlrohren können diese verstopfen und zum Ausfall führen. PPRCT oxidiert nicht und das Kühlwasser bleibt absolut partikelfrei."
               },
               {
-                title: "3. Kondenswasser-Kontrolle",
-                description: "Kaltwasserleitungen im Data Center neigen zur Kondenswasserbildung (Schwitzwasser). Da PP-RCT eine deutlich geringere Wärmeleitfähigkeit als Metall aufweist, reduziert sich die Gefahr der Kondensation drastisch. Die benötigte Dämmdicke ist oft geringer."
+                title: "3. Kondenswasserkontrolle",
+                description: "Kaltwasserleitungen im Data Center neigen zur Kondenswasserbildung (Schwitzwasser). Da PPRCT eine deutlich geringere Wärmeleitfähigkeit als Metall aufweist, reduziert sich die Gefahr der Kondensation drastisch. Die benötigte Dämmdicke ist oft geringer."
               }
             ]}
           />
@@ -91,18 +91,18 @@ export const rechenzentrumKuehlung: NewsPost = {
             title="Wichtige Begriffe im Data Center"
             items={[
               {
-                term: "PUE-Wert (Power Usage Effectiveness)",
-                definition: "Maßstab für die Energieeffizienz. Je glatter die Kühlwasserrohre, desto weniger Strom verbrauchen die Umwälzpumpen, was den PUE-Wert direkt verbessert.",
+                term: "PUE Wert (Power Usage Effectiveness)",
+                definition: "Maßstab für die Energieeffizienz. Je glatter die Kühlwasserrohre, desto weniger Strom verbrauchen die Umwälzpumpen, was den PUEwert direkt verbessert.",
                 icon: <Activity className="w-6 h-6" />
               },
               {
-                term: "Liquid Cooling / In-Row",
+                term: "Liquid Cooling / Inrow",
                 definition: "Kühlung direkt am Rack statt im Raum. Erfordert ein engmaschiges Rohrnetz mit höchster Zuverlässigkeit direkt über den Servern.",
                 icon: <Cpu className="w-6 h-6" />
               },
               {
                 term: "Tier III / IV Redundanz",
-                definition: "Höchste Ausfallsicherheit. Meist werden redundante A/B-Kühlkreisläufe installiert. Die schnelle Verlegung von PP-RCT hilft, diese doppelten Trassen wirtschaftlich zu realisieren.",
+                definition: "Höchste Ausfallsicherheit. Meist werden redundante A/B Kühlkreisläufe installiert. Die schnelle Verlegung von PPRCT hilft, diese doppelten Trassen wirtschaftlich zu realisieren.",
                 icon: <ShieldAlert className="w-6 h-6" />
               }
             ]}
@@ -113,14 +113,14 @@ export const rechenzentrumKuehlung: NewsPost = {
       {/* DeepMatrix: TCO Vergleich (Total Cost of Ownership) */}
       <Reveal>
         <SectionHead
-          title="TCO-Vergleich (Total Cost of Ownership)"
+          title="TCO Vergleich (Total Cost of Ownership)"
           lead="Kosten und Risiken von Kühlsystemen im Rechenzentrum."
         />
         <DeepMatrix
           data={[
-            ["Eigenschaft", "K Aqua PP-RCT", "C-Stahl", "Edelstahl"],
+            ["Eigenschaft", "K Aqua PPRCT", "C Stahl", "Edelstahl"],
             ["Installationszeit (Prefab)", "Sehr schnell (Leichtgewicht)", "Langsam (Schwer)", "Mittel"],
-            ["Verbindungsrisiko", "Null (Stoffschlüssig)", "Hoch (O-Ringe / Rost am Gewinde)", "Gering (O-Ringe beim Pressen)"],
+            ["Verbindungsrisiko", "Null (Stoffschlüssig)", "Hoch (O Ringe / Rost am Gewinde)", "Gering (O Ringe beim Pressen)"],
             ["Wärmeleitfähigkeit (Isolationsbedarf)", "0,24 W/mK (Isolierend)", "50 W/mK (Hoch)", "15 W/mK (Mittel)"],
             ["Partikelabgabe (Filterverstopfung)", "Keine", "Sehr hoch (Rost)", "Keine"]
           ]}
@@ -133,8 +133,8 @@ export const rechenzentrumKuehlung: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "99.9", u: "%", l: "Uptime-Anforderungen in Tier-IV-Zentren erlauben keine Wartungspausen wegen Rohrbrüchen." },
-              { n: "0", l: "Gefahr von abplatzenden Rostpartikeln, die sensible Server-Kühlblöcke verstopfen könnten." },
+              { n: "99.9", u: "%", l: "Uptime Anforderungen in Tier IV Zentren erlauben keine Wartungspausen wegen Rohrbrüchen." },
+              { n: "0", l: "Gefahr von abplatzenden Rostpartikeln, die sensible Server Kühlblöcke verstopfen könnten." },
               { n: "3", u: "x", l: "Schnellere Verlegung durch Vorfertigung großer Rohrregister in der Werkstatt." }
             ]}
           />

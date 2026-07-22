@@ -18,14 +18,14 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
   },
   date: "2025-01-25",
   teaser: {
-    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PP-R Rohrsystem entkoppeln und DIN 4109 einhalten.",
-    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PP-R piping system and comply with DIN 4109.",
-    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PP-R وتتوافق مع معيار DIN 4109."
+    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PPR Rohrsystem entkoppeln und DIN 4109 einhalten.",
+    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PPR piping system and comply with DIN 4109.",
+    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PPR وتتوافق مع معيار DIN 4109."
   },
   excerpt: {
-    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PP-R Rohrsystem entkoppeln und DIN 4109 einhalten.",
-    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PP-R piping system and comply with DIN 4109.",
-    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PP-R وتتوافق مع معيار DIN 4109."
+    de: "Wenn Pumpen dröhnen und Rohre vibrieren: Wie Sie Kältemaschinen und Druckerhöhungsanlagen im Maschinenraum akustisch sicher vom K Aqua PPR Rohrsystem entkoppeln und DIN 4109 einhalten.",
+    en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PPR piping system and comply with DIN 4109.",
+    ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PPR وتتوافق مع معيار DIN 4109."
   },
   coverImage: "/images/news/vibration-decoupling-pumps.jpg",
   category: "Planung & Berechnung",
@@ -45,8 +45,8 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
                   <span>Akustik & Mechanik</span>
                 </div>
               }
-              title="Wenn das PP-R Rohrnetz im Maschinenraum zum Lautsprecher wird"
-              lead="Im Technikraum schlägt das Herz moderner Gebäudetechnik. Kältemaschinen, Druckerhöhungsanlagen, Umwälzpumpen und Kompressoren erzeugen im Betrieb kontinuierliche mechanische Schwingungen. Werden diese Aggregate starr an ein Kunststoff- oder PP-R Rohrsystem angeschlossen, überträgt sich die Vibration direkt in die Rohrwandung. Das Leitungsnetz wirkt dann wie ein Resonanzkörper und trägt den Körperschall bis in schutzbedürftige Räume wie Hotelzimmer oder Wohnbereiche. Eine fachgerechte schalltechnische Vibrationsentkopplung ist baurechtlich nach DIN 4109 zwingend vorgeschrieben."
+              title="Wenn das PPR Rohrnetz im Maschinenraum zum Lautsprecher wird"
+              lead="Im Technikraum schlägt das Herz moderner Gebäudetechnik. Kältemaschinen, Druckerhöhungsanlagen, Umwälzpumpen und Kompressoren erzeugen im Betrieb kontinuierliche mechanische Schwingungen. Werden diese Aggregate starr an ein Kunststoff oder PPR Rohrsystem angeschlossen, überträgt sich die Vibration direkt in die Rohrwandung. Das Leitungsnetz wirkt dann wie ein Resonanzkörper und trägt den Körperschall bis in schutzbedürftige Räume wie Hotelzimmer oder Wohnbereiche. Eine fachgerechte schalltechnische Vibrationsentkopplung ist baurechtlich nach DIN 4109 zwingend vorgeschrieben."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -69,11 +69,11 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
               a: "Luftschall (z.B. das Surren des Motors) breitet sich in der Luft aus und kann durch dicke Wände gedämmt werden. Körperschall hingegen breitet sich im festen Material (Rohre, Beton) aus und wandelt sich an Wänden oder Heizkörpern wieder in hörbaren Luftschall um. Körperschall ist wesentlich schwieriger zu stoppen."
             },
             {
-              q: "Überträgt PP-R den Schall genauso stark wie Metall?",
-              a: "Nein. Polypropylen hat durch seine molekulare Struktur eine hohe Eigendämpfung. Die Schallausbreitungsgeschwindigkeit in Kunststoff ist viel geringer als in Stahl oder Kupfer. K Aqua PP-R schluckt einen Teil der Schwingungen ('Flüsterrohr'-Effekt), was es für Hotelbauten extrem attraktiv macht."
+              q: "Überträgt PPR den Schall genauso stark wie Metall?",
+              a: "Nein. Polypropylen hat durch seine molekulare Struktur eine hohe Eigendämpfung. Die Schallausbreitungsgeschwindigkeit in Kunststoff ist viel geringer als in Stahl oder Kupfer. K Aqua PPR schluckt einen Teil der Schwingungen ('Flüsterrohr' Effekt), was es für Hotelbauten extrem attraktiv macht."
             },
             {
-              q: "Reicht die Eigendämpfung von PP-R aus, um auf Kompensatoren zu verzichten?",
+              q: "Reicht die Eigendämpfung von PPR aus, um auf Kompensatoren zu verzichten?",
               a: "Auf keinen Fall. Die Eigendämpfung reduziert zwar Fließgeräusche enorm, aber die harten mechanischen Stöße einer großen Pumpe würden auch ein Kunststoffnetz auf Dauer beschädigen (Materialermüdung) und akustisch übertragen. Die Maschine muss entkoppelt werden."
             }
           ]}
@@ -83,7 +83,7 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
       {/* BentoGrid: Entkopplungsmaßnahmen */}
       <Reveal>
         <SectionHead
-          title="Das 3-Stufen-Konzept zur Entkopplung"
+          title="Das 3 StufenKonzept zur Entkopplung"
           lead="So wird die Maschine akustisch vom Gebäude getrennt."
         />
         <BentoGrid
@@ -101,7 +101,7 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
               size: "medium"
             },
             {
-              title: "3. Akustik-Rohrschellen (Netz)",
+              title: "3. AkustikRohrschellen (Netz)",
               description: "Auch nach dem Kompensator sollten die ersten Rohrbefestigungen mit speziellen schallgedämmten Gummieinlagen ausgestattet sein. Dies verhindert, dass restliche Fließgeräusche in die Wand übertragen werden.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "large"
@@ -117,7 +117,7 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
             cols={3}
             stats={[
               { n: "30", u: "dB(A)", l: "Maximallautstärke für haustechnische Anlagen in schutzbedürftigen Räumen (z.B. Schlafräume) nach DIN 4109." },
-              { n: "↓", u: "Schall", l: "Kunststoff besitzt eine bis zu 10-fach geringere Schallleitfähigkeit als metallische Werkstoffe." },
+              { n: "↓", u: "Schall", l: "Kunststoff besitzt eine bis zu 10 fach geringere Schallleitfähigkeit als metallische Werkstoffe." },
               { n: "0", l: "Starre Verbindungen dürfen zwischen Maschine und Gebäude bzw. Hauptrohrnetz bestehen." }
             ]}
           />
@@ -128,7 +128,7 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
       <Reveal>
         <CTABand
           title="Leise Nächte im Hotel"
-          subtitle="Setzen Sie auf die Eigendämpfung von K Aqua PP-R in Kombination mit professioneller Entkopplungstechnik. Wir unterstützen Sie bei der schalltechnischen Planung."
+          subtitle="Setzen Sie auf die Eigendämpfung von K Aqua PPR in Kombination mit professioneller Entkopplungstechnik. Wir unterstützen Sie bei der schalltechnischen Planung."
           buttonText="Planungshilfe anfragen"
           buttonLink="/ressourcen/support"
           icon={<Ear className="w-6 h-6" />}

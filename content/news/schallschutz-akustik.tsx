@@ -19,9 +19,9 @@ export const schallschutzAkustik: NewsPost = {
     ar: 'العزل الصوتي والصوتيات'
   },
   teaser: {
-    de: 'Fließgeräusche und Druckschläge stören die Raumakustik. Erfahren Sie, wie K-Aqua PPR-Rohrsysteme durch hervorragende Schalldämpfung für Ruhe in Hotels, Krankenhäusern und Wohnbauten sorgen.',
-    en: 'Flow noise and pressure shocks disrupt room acoustics. Discover how K-Aqua PPR pipe systems ensure tranquility in hotels, hospitals, and residential buildings through outstanding sound absorption.',
-    ar: 'تؤدي ضوضاء التدفق والصدمات الناتجة عن الضغط إلى الإخلال بالصوتيات في الغرفة. اكتشف كيف تضمن أنظمة أنابيب PPR من K-Aqua الهدوء في الفنادق والمستشفيات والمباني السكنية من خلال الامتصاص الممتاز للصوت.'
+    de: 'Fließgeräusche und Druckschläge stören die Raumakustik. Erfahren Sie, wie K Aqua PPR Rohrsysteme durch hervorragende Schalldämpfung für Ruhe in Hotels, Krankenhäusern und Wohnbauten sorgen.',
+    en: 'Flow noise and pressure shocks disrupt room acoustics. Discover how K Aqua PPR pipe systems ensure tranquility in hotels, hospitals, and residential buildings through outstanding sound absorption.',
+    ar: 'تؤدي ضوضاء التدفق والصدمات الناتجة عن الضغط إلى الإخلال بالصوتيات في الغرفة. اكتشف كيف تضمن أنظمة أنابيب PPR من K Aqua الهدوء في الفنادق والمستشفيات والمباني السكنية من خلال الامتصاص الممتاز للصوت.'
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
@@ -35,7 +35,7 @@ export const schallschutzAkustik: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Architektur der Stille" className="mb-6 text-indigo-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In Premiumimmobilien, Luxushotels und Krankenhäusern ist ungestörte Ruhe kein Luxus, sondern eine absolute Grundanforderung. Wenn mitten in der Nacht das Wasser in der Nachbarwohnung rauscht oder die Leitung beim Aufheizen metallisch knackt, ist die akustische Integrität des Gebäudes zerstört. Polypropylen (K-Aqua PPR-Rohrsysteme) besitzt einzigartige schallabsorbierende Eigenschaften, die den Lärmpegel der Hausinstallation auf ein kaum noch wahrnehmbares Minimum reduzieren.
+                In Premiumimmobilien, Luxushotels und Krankenhäusern ist ungestörte Ruhe kein Luxus, sondern eine absolute Grundanforderung. Wenn mitten in der Nacht das Wasser in der Nachbarwohnung rauscht oder die Leitung beim Aufheizen metallisch knackt, ist die akustische Integrität des Gebäudes zerstört. Polypropylen (K Aqua PPR Rohrsysteme) besitzt einzigartige schallabsorbierende Eigenschaften, die den Lärmpegel der Hausinstallation auf ein kaum noch wahrnehmbares Minimum reduzieren.
               </p>
             </div>
           </div>

@@ -40,7 +40,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Physik des Fließens" className="mb-6 text-cyan-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen Schwerkraft und Leitungswiderstand zu fördern, leisten Pumpen kontinuierlich Schwerstarbeit. Genau hier entscheidet die Wahl moderner PP-R Rohrsysteme über die langfristige Wirtschaftlichkeit. Ein entscheidendes Detail – die minimale Oberflächenrauheit von K Aqua PP-R – definiert, ob Ihr Gebäude zum Energiefresser oder zum Effizienzwunder wird.
+                In großen Gebäudekomplexen und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen Schwerkraft und Leitungswiderstand zu fördern, leisten Pumpen kontinuierlich Schwerstarbeit. Genau hier entscheidet die Wahl moderner PP-R Rohrsysteme über die langfristige Wirtschaftlichkeit. Ein entscheidendes Detail – die minimale Oberflächenrauheit von K Aqua PP-R – definiert, ob Ihr Gebäude zum Energiefresser oder zum Effizienzwunder wird. Metallrohre, selbst im Neuzustand, weisen eine deutliche Mikrorauigkeit auf. Hinzu kommt über die Jahre die unvermeidliche Inkrustation (Ablagerungen), die den Rohrquerschnitt verjüngt und den Druckverlust exponentiell in die Höhe treibt. K Aqua PP-R löst dieses physikalische Problem an der Wurzel.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
           <div className="text-center mb-12">
             <Eyebrow text="Der unsichtbare Widerstand" />
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
-              Turbulenz vs Laminarität
+              Turbulenz vs. Laminarität
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -61,15 +61,15 @@ export const druckverlustStroemungsdynamik: NewsPost = {
               <Layers className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Bremse der Metalle</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Stahlrohre und Gussrohre besitzen bereits ab Werk eine relativ raue Innenwand. Über die Jahre verschlimmert sich dieser Zustand durch beginnende Korrosion und unvermeidliche Kalkablagerungen drastisch. An diesen Unebenheiten bricht der Wasserfluss auf. Es entstehen gewaltige Mikroturbulenzen, die das Wasser in sich selbst abbremsen. Die Pumpen müssen massiv hochregeln, um den gewohnten Druck aufrechtzuerhalten.
+                Verzinkte Stahlrohre rosten innerlich (Inkrustation). Die Querschnittsverengung lässt den Fließwiderstand in wenigen Jahren drastisch ansteigen. PP-R-Rohre korrodieren nicht. Ihr Innenquerschnitt bleibt auch nach 50 Jahren unverändert – und somit auch die Pumpenleistung.
               </p>
             </Card>
             
             <Card className="p-8 lg:p-12 border-cyan-500/20 bg-cyan-500/5">
               <ArrowRight className="w-12 h-12 text-cyan-500 mb-6" />
-              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Der Beschleuniger PPR</h3>
+              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Der Beschleuniger PP-R</h3>
               <p className="text-muted-foreground leading-relaxed">
-                K Aqua Rohre aus Polypropylen weisen eine Oberfläche auf, die unter dem Mikroskop betrachtet glatter als gewöhnliches Fensterglas ist. Das transportierte Wasser gleitet völlig reibungslos über die Rohrwand. Wir sprechen von einer absolut laminaren Strömung, die den Druck verlustfrei bis zur entlegensten Zapfstelle des Gebäudes transportiert.
+                Im Gegensatz zu verzinktem Stahlrohr (Rauigkeit ca. 0,15 mm) oder Kupfer (ca. 0,0015 mm) bietet K Aqua PP-R mit einer absoluten Rauigkeit von nur 0,007 mm eine nahezu glasglatte Oberfläche. Das Wasser gleitet fast reibungslos dahin und wird verlustfrei bis zur entlegensten Zapfstelle des Gebäudes transportiert.
               </p>
             </Card>
           </div>
@@ -90,12 +90,12 @@ export const druckverlustStroemungsdynamik: NewsPost = {
           content={[
             {
               title: "Der Reibungskoeffizient",
-              description: "Der entscheidende Wert in der Strömungstechnik ist die Oberflächenrauheit. Mit unübertroffenen null Komma null null sieben Millimetern reduziert K Aqua den Reibungskoeffizienten auf ein physikalisches Minimum. Das Wasser erfährt praktisch keinen Widerstand an der Rohrinnenwand.",
+              description: "Der entscheidende Wert in der Strömungstechnik ist die Oberflächenrauheit. Mit unübertroffenen 0,007 Millimetern reduziert K Aqua den Reibungskoeffizienten auf ein physikalisches Minimum. Das Wasser erfährt praktisch keinen Widerstand an der Rohrinnenwand.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><ChevronDown className="w-32 h-32 text-cyan-500 opacity-20" /></div>
             },
             {
               title: "Druckverlust neutralisieren",
-              description: "Jedes Winkelstück und jeder Meter Rohrleitung erzeugt in klassischen Systemen Druckverluste. Durch die optimierte Geometrie unserer Formteile und die extrem glatten Rohrwände kommt am Ende der Leitung exakt der Druck an, der am Anfang investiert wurde.",
+              description: "Pressfittings aus Metall verjüngen den Rohrquerschnitt oft massiv, was zu hohen lokalen Druckverlusten (Zetawerten) und Kavitation führt. K Aqua Muffenschweiß-Fittings führen den vollen Leitungsquerschnitt (Full Flow) weiter, da das Rohr außen in den Fitting eingeschweißt wird.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Droplet className="w-32 h-32 text-muted-foreground opacity-20" /></div>
             },
             {

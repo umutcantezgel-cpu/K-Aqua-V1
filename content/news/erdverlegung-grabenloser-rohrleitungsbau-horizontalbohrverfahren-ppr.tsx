@@ -24,9 +24,9 @@ export const erdverlegungGrabenlos: NewsPost = {
     ar: "التركيب بدون خنادق يقلل بشكل كبير من تكاليف الهندسة المدنية والانبعاثات."
   },
   excerpt: {
-    de: "Straßen aufzureißen ist teuer und stört die Infrastruktur. Erfahren Sie, wie K-Aqua PP-R Rohrsysteme durch das HDD-Verfahren Tiefbaukosten drastisch reduzieren und CO2-Emissionen nachhaltig einsparen.",
-    en: "Tearing up roads is expensive and disrupts infrastructure. Learn how K-Aqua PP-R pipe systems drastically reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
-    ar: "إن حفر الطرق مكلف ويعطل البنية التحتية. تعرف على كيف تعمل أنظمة أنابيب PP-R من K-Aqua على تقليل تكاليف الهندسة المدنية بشكل كبير وخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
+    de: "Offene Rohrgräben blockieren Städte und zerstören Landschaften. Entdecken Sie, wie hochflexible K Aqua PP-R Rohre grabenlose Verlegeverfahren wie Horizontalspülbohren ermöglichen, Tiefbaukosten reduzieren und CO2-Emissionen nachhaltig einsparen.",
+    en: "Open pipe trenches block cities and destroy landscapes. Discover how highly flexible K Aqua PP-R pipes enable trenchless installation methods such as horizontal directional drilling, reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
+    ar: "خنادق الأنابيب المفتوحة تسد المدن وتدمر المناظر الطبيعية. اكتشف كيف تمكن أنابيب K Aqua PP-R عالية المرونة من طرق التركيب بدون حفر مثل الحفر الأفقي الموجه، مما يقلل تكاليف الهندسة المدنية بشكل كبير ويخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
   },
   coverImage: "/images/news/trenchless-hdd-pipe-installation.jpg",
   category: "Installation & Praxis",
@@ -47,7 +47,7 @@ export const erdverlegungGrabenlos: NewsPost = {
                 </div>
               }
               title="Unterirdisch zum Ziel"
-              lead="Die offene Bauweise – das Aufreißen von Straßen, Gehwegen und Gärten – verschlingt beim Bau von Nahwärmenetzen oder Industrieleitungen den Großteil des Budgets. Das grabenlose Horizontalspülbohrverfahren (HDD - Horizontal Directional Drilling) ist die elegante Alternative. K Aqua PP-R Systeme sind durch ihre enorme Zähigkeit, Flexibilität und verschweißte Längskraftschlüssigkeit die ideale Wahl für diese anspruchsvolle Verlegetechnik."
+              lead="Die Modernisierung urbaner Infrastruktur steht oft im direkten Konflikt mit dem alltäglichen Leben. Offene Baugruben legen den Straßenverkehr lahm, rufen Anwohnerproteste hervor und ziehen enorme Tiefbaukosten nach sich. K Aqua PP-R Systeme bieten hier eine hochmoderne Lösung: Grabenloser Leitungsbau (Trenchless Technology). Durch das Horizontalspülbohrverfahren (HDD – Horizontal Directional Drilling) können Versorgungsleitungen punktgenau unter Flüssen, Autobahnen, Naturschutzgebieten und denkmalgeschützten Innenstädten hindurchgezogen werden. Ihre enorme Zähigkeit, Flexibilität und verschweißte Längskraftschlüssigkeit machen sie zur idealen Wahl für diese anspruchsvolle Verlegetechnik."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -68,11 +68,11 @@ export const erdverlegungGrabenlos: NewsPost = {
             items={[
               {
                 title: "1. Die Pilotbohrung",
-                description: "Ein steuerbarer Bohrkopf bohrt sich von der Start- zur Zielgrube. Dank Ortungstechnik kann der Bohrkopf Hindernissen (wie bestehenden Leitungen oder Felsen) unterirdisch ausweichen."
+                description: "Im Gegensatz zu starren Stahlrohren oder Gussrohren verfügt PP-R über eine enorme Eigenflexibilität. Endlos geschweißte Rohrstränge können der gebogenen Bohrtrasse des HDD-Verfahrens mühelos durch den Untergrund folgen und Hindernissen (wie bestehenden Leitungen oder Felsen) unterirdisch ausweichen."
               },
               {
                 title: "2. Das Räumen (Aufweiten)",
-                description: "Der Bohrkopf wird in der Zielgrube gegen einen Räumer (Reamer) ausgetauscht. Dieser wird rotierend zurückgezogen, um das Bohrloch auf den benötigten Rohrdurchmesser (meist 1,3 bis 1,5-fach größer als das Rohr) aufzuweiten."
+                description: "Stumpfschweißungen von K Aqua Rohren verbinden die Elemente absolut formschlüssig. Es entstehen keine Wulste oder Muffen, die beim Einzug in das Bohrloch verkanten oder abreißen könnten. Ein Räumer (Reamer) wird rotierend zurückgezogen, um das Bohrloch auf den benötigten Rohrdurchmesser (meist 1,3 bis 1,5-fach größer als das Rohr) aufzuweiten."
               },
               {
                 title: "3. Der Rohreinzug",
@@ -87,13 +87,13 @@ export const erdverlegungGrabenlos: NewsPost = {
       <Reveal>
         <SectionHead
           title="Materialvorteile unter Tage"
-          lead="Die extremen Kräfte beim Einzug erfordern ein kompromissloses Rohr."
+          lead="Können K Aqua Rohre beim Einzug zerkratzen und so an Druckfestigkeit verlieren?"
         />
         <BentoGrid
           items={[
             {
               title: "Längskraftschlüssige Verbindungen",
-              description: "Die Heizelement-Stumpfschweißung verbindet die PP-R Rohre zu einem homogenen Strang. Die Schweißnaht ist genauso zugfest wie das Rohr selbst, weshalb das Rohr beim Einzug nicht abreißen kann.",
+              description: "K Aqua Rohre benötigen keine korrosionsanfälligen Zugköpfe aus Metall. Die Zugkraft wird durch speziell verschweißte PP-R Zugköpfe übertragen. Das Rohr hält selbst immensen Zugkräften stand, während es in das gebohrte Profil eingezogen wird – vollkommen ohne Streckgrenzüberschreitung.",
               icon: <TrendingUp className="w-6 h-6 text-primary" />,
               size: "large"
             },
@@ -105,7 +105,7 @@ export const erdverlegungGrabenlos: NewsPost = {
             },
             {
               title: "Kratz- & Riefenunempfindlichkeit",
-              description: "Steine im Bohrkanal kratzen über die Rohroberfläche. PP-R ist extrem kerbunempfindlich, wodurch Kratzer (bis zu 10% der Wandstärke) die Druckfestigkeit des Rohres nicht beeinträchtigen.",
+              description: "Oberflächliche Riefen, die beim HDD-Verfahren entstehen, sind einkalkuliert. Die außerordentliche Wandstärke und Zähigkeit des PP-R Materials sichert den Betriebsdruck dennoch für über 50 Jahre ab.",
               icon: <ShieldCheck className="w-6 h-6 text-primary" />,
               size: "medium"
             }

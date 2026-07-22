@@ -19,14 +19,14 @@ export const lebenszykluskostenTco: NewsPost = {
     ar: 'تكاليف دورة الحياة (TCO)',
   },
   teaser: {
-    de: 'Lebenszykluskosten (TCO) von PPR Rohrsystemen: Warum sich die Investition in hochwertige K-Aqua Kunststoffrohre durch geringe OPEX, Wartungsfreiheit und 50 Jahre Lebensdauer langfristig auszahlt.',
-    en: 'Lifecycle costs (TCO) of PPR pipe systems: Why investing in high-quality K-Aqua plastic pipes pays off in the long term through low OPEX, zero maintenance, and a 50-year service life.',
-    ar: 'تكاليف دورة الحياة (TCO) لأنظمة أنابيب PPR: لماذا يؤتي الاستثمار في أنابيب K-Aqua البلاستيكية عالية الجودة ثماره على المدى الطويل بفضل انخفاض النفقات التشغيلية وانعدام الصيانة وعمر افتراضي يمتد لـ 50 عامًا.',
+    de: 'Lebenszykluskosten (TCO) von PPR Rohrsystemen: Warum sich die Investition in hochwertige K Aqua Kunststoffrohre durch geringe OPEX, Wartungsfreiheit und 50 Jahre Lebensdauer langfristig auszahlt.',
+    en: 'Lifecycle costs (TCO) of PPR pipe systems: Why investing in high-quality K Aqua plastic pipes pays off in the long term through low OPEX, zero maintenance, and a 50-year service life.',
+    ar: 'تكاليف دورة الحياة (TCO) لأنظمة أنابيب PPR: لماذا يؤتي الاستثمار في أنابيب K Aqua البلاستيكية عالية الجودة ثماره على المدى الطويل بفضل انخفاض النفقات التشغيلية وانعدام الصيانة وعمر افتراضي يمتد لـ 50 عامًا.',
   },
   excerpt: {
-    de: 'Lebenszykluskosten (TCO) von PPR Rohrsystemen: Warum sich die Investition in hochwertige K-Aqua Kunststoffrohre durch geringe OPEX, Wartungsfreiheit und 50 Jahre Lebensdauer langfristig auszahlt.',
-    en: 'Lifecycle costs (TCO) of PPR pipe systems: Why investing in high-quality K-Aqua plastic pipes pays off in the long term through low OPEX, zero maintenance, and a 50-year service life.',
-    ar: 'تكاليف دورة الحياة (TCO) لأنظمة أنابيب PPR: لماذا يؤتي الاستثمار في أنابيب K-Aqua البلاستيكية عالية الجودة ثماره على المدى الطويل بفضل انخفاض النفقات التشغيلية وانعدام الصيانة وعمر افتراضي يمتد لـ 50 عامًا.',
+    de: 'Lebenszykluskosten (TCO) von PPR Rohrsystemen: Warum sich die Investition in hochwertige K Aqua Kunststoffrohre durch geringe OPEX, Wartungsfreiheit und 50 Jahre Lebensdauer langfristig auszahlt.',
+    en: 'Lifecycle costs (TCO) of PPR pipe systems: Why investing in high-quality K Aqua plastic pipes pays off in the long term through low OPEX, zero maintenance, and a 50-year service life.',
+    ar: 'تكاليف دورة الحياة (TCO) لأنظمة أنابيب PPR: لماذا يؤتي الاستثمار في أنابيب K Aqua البلاستيكية عالية الجودة ثماره على المدى الطويل بفضل انخفاض النفقات التشغيلية وانعدام الصيانة وعمر افتراضي يمتد لـ 50 عامًا.',
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">

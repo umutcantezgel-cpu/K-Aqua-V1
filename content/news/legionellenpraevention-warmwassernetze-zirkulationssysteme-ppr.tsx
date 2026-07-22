@@ -13,19 +13,19 @@ import { Droplet, Thermometer, ShieldCheck, Repeat } from "@/components/ui/icon"
 export const legionellenpraeventionZirkulation: NewsPost = {
   slug: "legionellenpraevention-warmwassernetze-zirkulationssysteme-ppr",
   title: {
-    de: "Legionellenprävention mit PP-R Rohren",
-    en: "Legionella Prevention with PP-R Pipes",
-    ar: "الوقاية من الفيلقية باستخدام أنابيب PP-R"
+    de: "Legionellenprävention mit PPR Rohren",
+    en: "Legionella Prevention with PPR Pipes",
+    ar: "الوقاية من الفيلقية باستخدام أنابيب PPR"
   },
   date: "2025-02-01",
   excerpt: {
-    de: "Lauwarmes Stagnationswasser ist das größte Risiko in der Trinkwasserhygiene. Erfahren Sie, wie durchdachte Zirkulationssysteme und K Aqua PP-R Rohrsysteme zuverlässig vor Legionellen schützen und die Trinkwasserverordnung erfüllen.",
-    en: "Lukewarm stagnant water is the greatest risk in drinking water hygiene. Discover how well-designed circulation systems and K Aqua PP-R pipe systems provide reliable protection against Legionella and ensure compliance with drinking water regulations.",
-    ar: "المياه الراكدة الفاترة هي الخطر الأكبر في نظافة مياه الشرب. اكتشف كيف توفر أنظمة التدوير المصممة بعناية وأنظمة أنابيب K Aqua PP-R حماية موثوقة ضد الفيلقية وتلبي لوائح مياه الشرب."
+    de: "Lauwarmes Stagnationswasser ist das größte Risiko in der Trinkwasserhygiene. Erfahren Sie, wie durchdachte Zirkulationssysteme und K Aqua PPR Rohrsysteme zuverlässig vor Legionellen schützen und die Trinkwasserverordnung erfüllen.",
+    en: "Lukewarm stagnant water is the greatest risk in drinking water hygiene. Discover how well-designed circulation systems and K Aqua PPR pipe systems provide reliable protection against Legionella and ensure compliance with drinking water regulations.",
+    ar: "المياه الراكدة الفاترة هي الخطر الأكبر في نظافة مياه الشرب. اكتشف كيف توفر أنظمة التدوير المصممة بعناية وأنظمة أنابيب K Aqua PPR حماية موثوقة ضد الفيلقية وتلبي لوائح مياه الشرب."
   },
   coverImage: "/images/news/legionella-prevention-circulation.jpg",
   category: "Trinkwasser & Hygiene",
-  tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PP-R", "Rohrsysteme"],
+  tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PPR", "Rohrsysteme"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -41,8 +41,8 @@ export const legionellenpraeventionZirkulation: NewsPost = {
                   <span>Trinkwasserhygiene & Legionellenprävention</span>
                 </div>
               }
-              title="Keine Chance für Biofilme in PP-R Zirkulationssystemen"
-              lead="Legionellen vermehren sich explosionsartig bei Temperaturen zwischen 25°C und 50°C, insbesondere wenn Wasser in den Leitungen stagniert. Für Planer und Betreiber von Großgebäuden (Hotels, Krankenhäuser, Wohnanlagen) bedeutet das: Das Warmwassernetz muss kontinuierlich zirkulieren und auf Temperatur gehalten werden. K Aqua PP-R Rohrsysteme unterstützen dieses Ziel durch extrem glatte Innenoberflächen, welche die Biofilmbildung wirksam erschweren, sowie absolute Beständigkeit bei regelmäßigen thermischen Desinfektionen."
+              title="Keine Chance für Biofilme in PPR Zirkulationssystemen"
+              lead="Legionellen vermehren sich explosionsartig bei Temperaturen zwischen 25°C und 50°C, insbesondere wenn Wasser in den Leitungen stagniert. Für Planer und Betreiber von Großgebäuden (Hotels, Krankenhäuser, Wohnanlagen) bedeutet das: Das Warmwassernetz muss kontinuierlich zirkulieren und auf Temperatur gehalten werden. K Aqua PPR Rohrsysteme unterstützen dieses Ziel durch extrem glatte Innenoberflächen, welche die Biofilmbildung wirksam erschweren, sowie absolute Beständigkeit bei regelmäßigen thermischen Desinfektionen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -63,14 +63,14 @@ export const legionellenpraeventionZirkulation: NewsPost = {
             items={[
               {
                 title: "1. Temperaturhaltung",
-                description: "Warmwasser (PWH) muss das System mit 60°C verlassen und darf im Zirkulationsrücklauf (PWH-C) nicht unter 55°C fallen. PP-R Rohre bieten hierbei einen natürlichen Isolationsvorteil gegenüber Metallen."
+                description: "Warmwasser (PWH) muss das System mit 60°C verlassen und darf im Zirkulationsrücklauf (PWH C) nicht unter 55°C fallen. PPR Rohre bieten hierbei einen natürlichen Isolationsvorteil gegenüber Metallen."
               },
               {
                 title: "2. Stagnationsvermeidung",
                 description: "Das Wasser muss fließen. Zirkulationssysteme sorgen dafür, dass das heiße Wasser bis kurz vor die Zapfstellen gepumpt und wieder zurückgeführt wird. Totleitungen sind absolut verboten."
               },
               {
-                title: "3. Biofilm-Management",
+                title: "3. Biofilmmanagement",
                 description: "Biofilme dienen Legionellen als Nahrung und Schutzschild. Die extrem geringe Oberflächenrauheit von K Aqua Rohren (0,007 mm) bietet Bakterien im Vergleich zu rauen Metallrohren kaum Ansiedlungsfläche."
               }
             ]}
@@ -96,12 +96,12 @@ export const legionellenpraeventionZirkulation: NewsPost = {
       <Reveal>
         <SectionHead
           title="Leitungsführung im Vergleich"
-          lead="Das Rohrnetz-Design bestimmt die Hygiene maßgeblich."
+          lead="Das Rohrnetzdesign bestimmt die Hygiene maßgeblich."
         />
         <BentoGrid
           items={[
             {
-              title: "T-Stück Installation",
+              title: "T Stück Installation",
               description: "Der Klassiker, aber hygienisch am anfälligsten. Abzweige zu selten genutzten Zapfstellen (Gäste-WC) werden zu Stagnationszonen, die das gesamte System verkeimen können.",
               icon: <Droplet className="w-6 h-6 text-primary" />,
               size: "medium"
@@ -135,23 +135,23 @@ export const legionellenpraeventionZirkulation: NewsPost = {
               a: "So klein wie möglich, aber groß genug für den nötigen Volumenstrom. Zu groß dimensionierte Rohre verlängern die Fließzeit und erhöhen die Auskühlung. K Aqua bietet feine Abstufungen (z.B. DN 20, DN 25) für die exakte Anpassung."
             },
             {
-              q: "Verkraftet PP-R ständige thermische Desinfektionen?",
+              q: "Verkraftet PPR ständige thermische Desinfektionen?",
               a: "Ja. Das K Aqua System ist für einen Dauerbetrieb bei hohen Temperaturen ausgelegt. Thermische Desinfektionen (z.B. wöchentlich 70°C) haben bei korrekter Druckeinstellung keinen negativen Einfluss auf die Lebensdauer von 50 Jahren."
             },
             {
               q: "Was ist der hydraulische Abgleich im Zirkulationsnetz?",
-              a: "Damit das heiße Wasser nicht nur den Kürzesten Weg (durch den ersten Steigstrang) nimmt, müssen Zirkulations-Regulierventile in jedem Strang installiert werden. Sie drosseln kurze Stränge und zwingen das Wasser auch in weit entfernte Gebäudeteile."
+              a: "Damit das heiße Wasser nicht nur den kürzesten Weg (durch den ersten Steigstrang) nimmt, müssen Zirkulationsregulierventile in jedem Strang installiert werden. Sie drosseln kurze Stränge und zwingen das Wasser auch in weit entfernte Gebäudeteile."
             }
           ]}
         />
       </Reveal>
 
-      {/* CTABand: Hygiene-Beratung */}
+      {/* CTABand: Hygieneberatung */}
       <Reveal>
         <CTABand
           title="Sicheres Trinkwasser planen"
-          subtitle="Unsere Experten prüfen Ihr Rohrnetz-Design auf Totleitungen, Stagnationsrisiken und die korrekte Dimensionierung von Zirkulationskreisen."
-          buttonText="Hygiene-Review anfordern"
+          subtitle="Unsere Experten prüfen Ihr Rohrnetzdesign auf Totleitungen, Stagnationsrisiken und die korrekte Dimensionierung von Zirkulationskreisen."
+          buttonText="Hygiene Review anfordern"
           buttonLink="/ressourcen/support"
           icon={<ShieldCheck className="w-6 h-6" />}
         />

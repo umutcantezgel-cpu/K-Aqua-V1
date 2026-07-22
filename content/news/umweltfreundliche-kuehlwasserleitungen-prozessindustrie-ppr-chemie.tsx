@@ -13,24 +13,24 @@ import { Factory, Droplets, Leaf, TestTube } from "@/components/ui/icon";
 export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
   slug: "umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie",
   title: {
-    de: "PPR-Kühlwasserleitungen für die Industrie",
+    de: "PPRKühlwasserleitungen für die Industrie",
     en: "PPR Cooling Water Pipes for the Industry",
     ar: "أنابيب مياه التبريد PPR للصناعة"
   },
   date: "2024-12-28",
   teaser: {
-    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPR-Rohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
+    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPRRohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
     en: "Eliminate toxic corrosion inhibitors: K Aqua PPR pipe systems enable ecologically clean, sustainable, and economical cooling circuits for the process industry.",
     ar: "تخلص من مثبطات التآكل السامة: أنظمة أنابيب K Aqua PPR تتيح دوائر تبريد نظيفة بيئيًا ومستدامة واقتصادية لصناعة المعالجة."
   },
   excerpt: {
-    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPR-Rohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
+    de: "Verzichten Sie auf toxische Korrosionsinhibitoren: K Aqua PPRRohrsysteme ermöglichen ökologisch saubere, nachhaltige und wirtschaftliche Kühlkreisläufe für die Prozessindustrie.",
     en: "Eliminate toxic corrosion inhibitors: K Aqua PPR pipe systems enable ecologically clean, sustainable, and economical cooling circuits for the process industry.",
     ar: "تخلص من مثبطات التآكل السامة: أنظمة أنابيب K Aqua PPR تتيح دوائر تبريد نظيفة بيئيًا ومستدامة واقتصادية لصناعة المعالجة."
   },
   coverImage: "/images/news/industrial-cooling-eco.jpg",
   category: "Industrie & Kälte",
-  tags: ["Kühlwasser", "Prozessindustrie", "Umweltschutz", "Korrosion", "PP-R", "Green Tech"],
+  tags: ["Kühlwasser", "Prozessindustrie", "Umweltschutz", "Korrosion", "PPR", "Green Tech"],
   
   content: (
     <div className="flex flex-col gap-24 py-12">
@@ -47,7 +47,7 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
                 </div>
               }
               title="Kühlen ohne chemische Keule"
-              lead="In der Prozessindustrie, von der Chemie bis zur Lebensmittelfertigung, werden gigantische Mengen an Kühlwasser umgewälzt. Wenn diese Netze aus C-Stahl bestehen, muss das Wasser zwingend mit chemischen Inhibitoren behandelt werden, um das Rosten der Rohre von innen zu stoppen. Diese Zusätze sind teuer, wartungsintensiv und belasten die Umwelt. K Aqua PP-R bietet eine radikal einfache Lösung: Ein Material, das von Natur aus nicht rostet und chemikalienfrei betrieben werden kann."
+              lead="In der Prozessindustrie, von der Chemie bis zur Lebensmittelfertigung, werden gigantische Mengen an Kühlwasser umgewälzt. Wenn diese Netze aus CStahl bestehen, muss das Wasser zwingend mit chemischen Inhibitoren behandelt werden, um das Rosten der Rohre von innen zu stoppen. Diese Zusätze sind teuer, wartungsintensiv und belasten die Umwelt. K Aqua PPR bietet eine radikal einfache Lösung: Ein Material, das von Natur aus nicht rostet und chemikalienfrei betrieben werden kann."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -60,26 +60,26 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
       {/* BentoGrid: Die 3 Vorteile für industrielle Kühlnetze */}
       <Reveal>
         <SectionHead
-          title="Warum PP-R die Industriekühlung revolutioniert"
+          title="Warum PPR die Industriekühlung revolutioniert"
           lead="Ökologische und physikalische Vorteile für offene und geschlossene Kühlkreisläufe."
         />
         <BentoGrid
           items={[
             {
               title: "Keine toxischen Inhibitoren",
-              description: "Da Kunststoffrohre immun gegen elektrochemische Korrosion sind, benötigt das Kühlwasser keine schützenden, umweltschädlichen Chemikalien-Cocktails mehr.",
+              description: "Da Kunststoffrohre immun gegen elektrochemische Korrosion sind, benötigt das Kühlwasser keine schützenden, umweltschädlichen ChemikalienCocktails mehr.",
               icon: <Leaf className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Extreme Chemikalienbeständigkeit",
-              description: "Selbst wenn das Kühlwasser durch industrielle Prozesse leicht sauer oder alkalisch wird, bleibt K Aqua PP-R chemisch stabil und zersetzt sich nicht.",
+              description: "Selbst wenn das Kühlwasser durch industrielle Prozesse leicht sauer oder alkalisch wird, bleibt K Aqua PPR chemisch stabil und zersetzt sich nicht.",
               icon: <TestTube className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Weniger Schwitzwasser",
-              description: "Der natürliche Isolationswert (geringe Wärmeleitfähigkeit) von PP-R reduziert die Kondensatbildung an der Rohraußenseite deutlich im Vergleich zu ungedämmtem Metall.",
+              description: "Der natürliche Isolationswert (geringe Wärmeleitfähigkeit) von PPR reduziert die Kondensatbildung an der Rohraußenseite deutlich im Vergleich zu ungedämmtem Metall.",
               icon: <Droplets className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -87,17 +87,17 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
         />
       </Reveal>
 
-      {/* DeepMatrix: Kühlwasser-Kreisläufe im Vergleich */}
+      {/* DeepMatrix: Kühlwasserkreisläufe im Vergleich */}
       <Reveal>
         <SectionHead
-          title="Kühlrohr-Materialien im Stresstest"
+          title="KühlrohrMaterialien im Stresstest"
           lead="Ein direkter Vergleich der Anforderungen im industriellen Dauerbetrieb."
         />
         <DeepMatrix
           data={[
-            ["Anforderung", "K Aqua PP-R", "C-Stahl", "Edelstahl"],
+            ["Anforderung", "K Aqua PPR", "Cstahl", "Edelstahl"],
             ["Bedarf an Inhibitoren", "Null (Chemikalienfrei)", "Zwingend erforderlich", "Gering (Chloride kritisch)"],
-            ["Kondensat-Risiko (ungedämmt)", "Geringer (Eigenisolation)", "Sehr hoch", "Sehr hoch"],
+            ["Kondensatrisiko (ungedämmt)", "Geringer (Eigenisolation)", "Sehr hoch", "Sehr hoch"],
             ["Anfälligkeit für Biofouling", "Gering (glatte Oberfläche)", "Hoch (raue Korrosionsstellen)", "Gering"],
             ["Gewicht bei Montage", "Sehr leicht", "Sehr schwer", "Schwer"]
           ]}
@@ -120,25 +120,25 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
               },
               {
                 title: "2. Verringerte Wartungskosten",
-                description: "Die aufwendige Zudosierung und ständige laboranalytische Überwachung der Inhibitoren-Konzentration im Wasser entfällt. Die Anlage läuft störungsfreier und autarker."
+                description: "Die aufwendige Zudosierung und ständige laboranalytische Überwachung der InhibitorenKonzentration im Wasser entfällt. Die Anlage läuft störungsfreier und autarker."
               },
               {
                 title: "3. Vermeidung von Biofouling",
-                description: "In offenen Kühlturmsystemen können sich Algen und Bakterien bilden. Diese setzen sich besonders gern an rauen, korrodierten Metallflächen fest. Die dauerhaft glatte PP-R Innenwand erschwert das Festsetzen von Biofilmen maßgeblich."
+                description: "In offenen Kühlturmsystemen können sich Algen und Bakterien bilden. Diese setzen sich besonders gern an rauen, korrodierten Metallflächen fest. Die dauerhaft glatte PPR Innenwand erschwert das Festsetzen von Biofilmen maßgeblich."
               }
             ]}
           />
         </div>
       </Reveal>
 
-      {/* StatBand: Umwelt-Fakten */}
+      {/* StatBand: Umweltfakten */}
       <Reveal>
         <div className="mt-8">
           <StatBand
             cols={3}
             stats={[
               { n: "0", l: "Benötigte Menge an umweltbelastenden Korrosionsinhibitoren im Kühlwasser." },
-              { n: "100", u: "%", l: "Recycelbarkeit des reinen PP-R Materials am Ende seines Lebenszyklus." },
+              { n: "100", u: "%", l: "Recycelbarkeit des reinen PPR Materials am Ende seines Lebenszyklus." },
               { n: "pH", u: " 1-14", l: "Hohe Toleranzgrenze gegenüber schwankenden Wasserqualitäten in der Industrie." }
             ]}
           />
@@ -149,7 +149,7 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
       <Reveal>
         <CTABand
           title="Machen Sie Ihre Prozesskühlung umweltfreundlich"
-          subtitle="Senken Sie Betriebskosten und schonen Sie die Umwelt. Sprechen Sie mit unseren Industrie-Experten über den Umstieg auf K Aqua PP-R."
+          subtitle="Senken Sie Betriebskosten und schonen Sie die Umwelt. Sprechen Sie mit unseren IndustrieExperten über den Umstieg auf K Aqua PPR."
           buttonText="Industrieberatung anfordern"
           buttonLink="/kontakt"
           icon={<Factory className="w-6 h-6" />}
