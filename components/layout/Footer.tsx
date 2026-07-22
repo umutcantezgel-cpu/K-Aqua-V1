@@ -24,13 +24,9 @@ export default function Footer() {
         {/* Top Area: Massive Brand Statement */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 border-b border-white/10 pb-16 md:pb-24 mb-16 md:mb-24">
           <div className="max-w-4xl">
-            <h2 className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
+            <p className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
               {t('footer.tagline')}
-            </h2>
-            <div className="sr-only" aria-hidden="true">
-              <p>{t('footer.tagline')}</p>
-              <p>{t('footer.copyright')}</p>
-            </div>
+            </p>
           </div>
           <div className="shrink-0 flex flex-col gap-4">
             <ButtonPrimary

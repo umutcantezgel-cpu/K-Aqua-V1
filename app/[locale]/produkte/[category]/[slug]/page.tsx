@@ -11,6 +11,7 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { constructMetadata } from "@/lib/seo/metadata";
 import { getProductSchema } from '@/lib/seo/schema';
+import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
@@ -208,7 +209,7 @@ export default async function ProductDetailPage({
 
   return (
     <main className="flex flex-col w-full min-h-screen bg-background">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <JsonLd schema={schema} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none opacity-50" />

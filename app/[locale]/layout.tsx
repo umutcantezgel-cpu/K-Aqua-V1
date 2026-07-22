@@ -77,8 +77,6 @@ export default async function LocaleLayout({
     'buyers',
     'about',
     'footer',
-    'toggle_theme_light',
-    'toggle_theme_dark',
     'homex',
     'refs',
     'finder',
@@ -109,7 +107,6 @@ export default async function LocaleLayout({
         <LiquidEngine />
         <WaterCursor />
         <JsonLd schema={orgJsonLd} />
-        <KAquaElementeInitializer />
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="light"
@@ -122,9 +119,11 @@ export default async function LocaleLayout({
             <SkipLink />
             <ScrollProgress />
             <Header />
-            <main id="main-content" className="pt-[72px] min-h-screen">
+            <main id="main-content" className="pt-(--header-h) min-h-screen">
               {children}
             </main>
+            {/* Invariant: this is the only full-size (variant="block") KontaktBlock per page.
+                Page-level instances (home hero, news/academy sidebar) use slim variants only. */}
             <KontaktBlock slug={kontaktSlug} variant="block" />
             <KontaktFab />
             <KontaktModal />

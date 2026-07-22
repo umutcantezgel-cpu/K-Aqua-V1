@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-literals */
 
-import React, { useId } from 'react';
-import Script from 'next/script';
+import React from 'react';
+import JsonLd from '@/components/seo/JsonLd';
 
 export interface LocalVideoProps extends React.VideoHTMLAttributes<HTMLVideoElement> {
   /** Local path to the video (e.g. /videos/factory.mp4) */
@@ -28,8 +28,6 @@ export function LocalVideo({
   className = "",
   ...props
 }: LocalVideoProps) {
-  const id = useId();
-
   // Create VideoObject schema
   const schema = {
     "@context": "https://schema.org",
@@ -43,9 +41,7 @@ export function LocalVideo({
 
   return (
     <div className={`relative w-full aspect-video rounded-lg overflow-hidden bg-black ${className}`}>
-      <Script id={`schema-video-${id}`} type="application/ld+json">
-        {JSON.stringify(schema)}
-      </Script>
+      <JsonLd schema={schema} />
       <video
         src={src}
         title={title}
