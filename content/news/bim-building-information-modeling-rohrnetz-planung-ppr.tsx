@@ -33,7 +33,7 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
   category: "Planung & BIM",
   tags: ["BIM", "Revit", "Digital Twin", "Planung", "Kollisionsprüfung", "PP-R"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -182,5 +182,5 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

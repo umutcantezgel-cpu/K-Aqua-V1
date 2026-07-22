@@ -25,7 +25,7 @@ export const bimBuildingInformationModeling: NewsPost = {
   category: "Digitalisierung",
   tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "PP-R", "Rohrsysteme", "K Aqua"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -126,5 +126,5 @@ export const bimBuildingInformationModeling: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

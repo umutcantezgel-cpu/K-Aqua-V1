@@ -2,15 +2,16 @@
 // Linkt auf die 50 eigenständigen News-Detailseiten (aktuell die ersten 4).
 "use client";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
 import { Link } from '@/lib/i18n/navigation';
-import { getAllNews } from "@/content/news";
+import { getAllNews, resolveLocalized } from "@/content/news";
 
 export function NewsDeep() {
   const t = useTranslations("newsx");
+  const locale = useLocale();
   const allNews = getAllNews();
 
   return (
@@ -31,10 +32,10 @@ export function NewsDeep() {
                   </div>
                   <h3 className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">
                     <Link href={`/news/${slug}`} className="before:absolute before:inset-0 focus-visible:outline-none">
-                      {news.title}
+                      {resolveLocalized(news.title, locale)}
                     </Link>
                   </h3>
-                  <p className="text-small text-muted-foreground mt-2 line-clamp-3">{news.teaser || news.excerpt}</p>
+                  <p className="text-small text-muted-foreground mt-2 line-clamp-3">{resolveLocalized(news.teaser || news.excerpt, locale)}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
                     {t("readMore")} <span className="translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
                   </span>

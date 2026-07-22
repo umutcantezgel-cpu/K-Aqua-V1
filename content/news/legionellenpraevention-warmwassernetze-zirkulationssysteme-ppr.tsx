@@ -27,7 +27,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
   category: "Trinkwasser & Hygiene",
   tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PP-R", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -158,5 +158,5 @@ export const legionellenpraeventionZirkulation: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

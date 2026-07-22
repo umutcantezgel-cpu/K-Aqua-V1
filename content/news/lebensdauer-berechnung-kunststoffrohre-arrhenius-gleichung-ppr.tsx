@@ -33,7 +33,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
   category: "Technologie & Material",
   tags: ["Lebensdauer", "Arrhenius", "Zeitstandinnendruck", "Berechnung", "Materialprüfung", "PP-R"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Pressure) */}
@@ -175,5 +175,5 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

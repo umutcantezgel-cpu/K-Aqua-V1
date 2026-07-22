@@ -32,7 +32,7 @@ export const rechenzentrumKuehlung: NewsPost = {
   category: "Industrie & Anlagenbau",
   tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PP-RCT", "Ausfallsicherheit", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -153,5 +153,5 @@ export const rechenzentrumKuehlung: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

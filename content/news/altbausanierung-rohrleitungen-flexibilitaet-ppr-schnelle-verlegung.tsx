@@ -27,7 +27,7 @@ export const altbausanierungFlexibilitaet: NewsPost = {
   category: "Sanierung",
   tags: ["Altbausanierung", "Strangsanierung", "Brandschutz", "Mischinstallation", "PP-R", "Rohrsysteme", "Flexibilität"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -154,5 +154,5 @@ export const altbausanierungFlexibilitaet: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

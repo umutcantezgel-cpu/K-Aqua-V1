@@ -33,7 +33,7 @@ export const vorfertigungPrefabrication: NewsPost = {
   category: "Planung & BIM",
   tags: ["Vorfertigung", "Prefabrication", "Rohrverteiler", "BIM", "PP-R", "Effizienz"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -182,5 +182,5 @@ export const vorfertigungPrefabrication: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

@@ -99,6 +99,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/:locale([a-zA-Z-]{2,7})/ressourcen/downloads',
+        destination: '/:locale/ressourcen/ausschreibungstexte',
+        permanent: true,
+      },
+      {
         source: '/:locale([a-zA-Z-]{2,7})/produkte/:category/index',
         destination: '/:locale/produkte/:category',
         permanent: true,

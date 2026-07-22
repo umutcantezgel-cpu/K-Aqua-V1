@@ -27,7 +27,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
   category: "Technologie & Material",
   tags: ["Chemie", "Industrie", "Galvanik", "Säure", "Lauge", "PP-R", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Droplet) */}
@@ -151,5 +151,5 @@ export const chemischeResistenzIndustrie: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

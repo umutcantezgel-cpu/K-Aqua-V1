@@ -27,7 +27,7 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
   category: "Freizeitanlagen",
   tags: ["Schwimmbad", "Sportstätte", "Chlorwasser", "Rasenheizung", "PP-R", "Korrosion", "PPR", "Rohrsysteme"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -165,5 +165,5 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

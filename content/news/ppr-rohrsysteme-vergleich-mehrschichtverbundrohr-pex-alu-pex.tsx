@@ -27,7 +27,7 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
   category: "Materialkunde & Vergleiche",
   tags: ["Vergleich", "Mehrschichtverbundrohr", "PEX", "Aluverbundrohr", "Materialkunde"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       <ParallaxHero 
@@ -160,5 +160,5 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };

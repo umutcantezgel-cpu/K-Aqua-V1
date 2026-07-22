@@ -32,7 +32,7 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
   category: "Industrie & Kälte",
   tags: ["Kühlwasser", "Prozessindustrie", "Umweltschutz", "Korrosion", "PP-R", "Green Tech"],
   
-  content: () => (
+  content: (
     <div className="flex flex-col gap-24 py-12">
 
       {/* Intro mit SectionHead & PipeFX (Flow) */}
@@ -157,5 +157,5 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
       </Reveal>
 
     </div>
-  )
+  ),
 };
