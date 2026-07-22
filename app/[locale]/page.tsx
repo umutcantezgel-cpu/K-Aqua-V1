@@ -28,7 +28,7 @@ const DOT = '•';
 const SPACE = ' ';
 
 const toolItems = [
-  { id: 'finder', href: '/produkte', span: 2, tint: true },
+  { id: 'finder', href: '/produkte/finder', span: 2, tint: true },
   { id: 'co2', href: '/co2-rechner', span: 1, tint: false },
   { id: 'academy', href: '/academy', span: 1, tint: false },
   { id: 'references', href: '/referenzen', span: 1, tint: true },
