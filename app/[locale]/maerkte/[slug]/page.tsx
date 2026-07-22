@@ -101,12 +101,12 @@ export default async function GeoCityPage({ params }: Props) {
     nearby: tGeo("nearby"),
     prodNote: tGeo("prodNote"),
     km: tGeo("km"),
-    seoExpansion: tGeo("seoExpansionDynamic", {
+    seoExpansion: tGeo.has("seoExpansionDynamic") ? tGeo("seoExpansionDynamic", {
       city: market.city,
       regulator: localizedData.regulator,
       water: localizedData.water,
       note: localizedData.note,
-    }),
+    }) : "",
   };
 
   const regionsTrans = {
@@ -139,11 +139,13 @@ export default async function GeoCityPage({ params }: Props) {
         nearestMarkets={nearestLocalized}
       />
 
-      <div className="mt-16 max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16">
-        <p>{tSeo('extendedMarketText.p1')}</p>
-        <p>{tSeo('extendedMarketText.p2')}</p>
-        <p>{tSeo('extendedMarketText.p3')}</p>
-      </div>
+      {tSeo.has('extendedMarketText.p1') && (
+        <div className="mt-16 max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16">
+          <p>{tSeo('extendedMarketText.p1')}</p>
+          <p>{tSeo('extendedMarketText.p2')}</p>
+          <p>{tSeo('extendedMarketText.p3')}</p>
+        </div>
+      )}
     </>
   );
 }

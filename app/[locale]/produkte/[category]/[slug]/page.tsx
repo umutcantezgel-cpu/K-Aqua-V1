@@ -118,10 +118,10 @@ export default async function ProductDetailPage({
 
   // Dynamic Content Generation based on category
   const hasSeoContent = tProd.has(`seoArticle.${seoCat}.advTitle`);
-  const dynamicAreas = hasSeoContent ? tProd(`seoArticle.${seoCat}.areas`).split(',').map((s: string) => s.trim()) : [];
-  const dynamicAdvTitle = hasSeoContent ? tProd(`seoArticle.${seoCat}.advTitle`) : '';
-  const dynamicAdvList = hasSeoContent ? tProd.raw(`seoArticle.${seoCat}.advList`) as string[] : [];
-  const dynamicSeoText = hasSeoContent ? tProd(`seoArticle.${seoCat}.seoText`) : '';
+  const dynamicAreas = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.areas`) as string).split(',').map((s: string) => s.trim()) : [];
+  const dynamicAdvTitle = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.advTitle`) as string) : '';
+  const dynamicAdvList = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.advList`) as string[]) : [];
+  const dynamicSeoText = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.seoText`) as string) : '';
 
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const tNames = await getTranslations({ locale, namespace: 'productNames' }).catch(() => null);
