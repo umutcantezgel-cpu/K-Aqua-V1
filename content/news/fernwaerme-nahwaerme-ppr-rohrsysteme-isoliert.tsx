@@ -13,15 +13,19 @@ export const fernwaermeNahwaerme: NewsPost = {
   slug: "fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert",
   title: {
     de: "Fernwärme & Nahwärme mit PPR Rohren",
-    de: "Fernwärme & Nahwärme mit PPR-Rohren",
     en: "District & Local Heating with PPR Pipes",
     ar: "تدفئة المناطق والتدفئة المحلية بأنابيب PPR"
   },
   date: "2024-07-15",
+  teaser: {
+    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PPRCT Rohrsysteme von K Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
+    en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PPRCT pipe systems from K Aqua are increasingly replacing heavy steel in underground installations.",
+    ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PPRCT المعزولة مسبقًا من K Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
+  },
   excerpt: {
-    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PPRCT-Rohrsysteme von K Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
-    en: "Learn why pre-insulated K Aqua PPR pipes with polyurethane insulation and robust HDPE casing are the most energy-efficient and durable solution for modern district heating and cooling networks.",
-    ar: "تعرف على سبب كون أنابيب K Aqua PPR المعزولة مسبقًا مع عزل البولي يوريثان وغلاف HDPE القوي هي الحل الأكثر كفاءة في استهلاك الطاقة والأطول عمرًا لشبكات التدفئة والتبريد المركزية الحديثة."
+    de: "Urbane Wärmenetze erfordern Rohrsysteme mit minimalen Wärmeverlusten und maximaler Korrosionsbeständigkeit. Vorisolierte PPRCT Rohrsysteme von K Aqua ersetzen zunehmend schweren Stahl im unterirdischen Erdbereich.",
+    en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PPRCT pipe systems from K Aqua are increasingly replacing heavy steel in underground installations.",
+    ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PPRCT المعزولة مسبقًا من K Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
   },
   coverImage: "/images/news/district-heating.jpg",
   category: "Infrastruktur",
@@ -42,7 +46,7 @@ export const fernwaermeNahwaerme: NewsPost = {
                 </div>
               }
               title="Klimaneutrale Wärme unter der Stadt"
-              lead="Erfahren Sie, warum vorgedämmte K Aqua PPR-Rohre mit Polyurethan-Isolierung und robustem HDPE-Mantel die energieeffizienteste und langlebigste Lösung für moderne Nahwärme- und Fernkältenetze darstellen. Um Quartiere effizient zu versorgen, müssen Kilometer an Rohrleitungen im Erdreich verlegt werden. Die Herausforderung: Hitze drinnen halten, Feuchtigkeit draußen halten. Vorisolierte Kunststoffrohre sind die Lösung."
+              lead="Die Wärmewende findet im Untergrund statt. Um Quartiere und Städte effizient mit Fern- und Nahwärme zu versorgen, müssen Kilometer an Rohrleitungen im Erdreich verlegt werden. Die Herausforderung: Hitze drinnen halten, Feuchtigkeit draußen halten. Vorisolierte Kunststoffrohre sind die Lösung."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -55,16 +59,16 @@ export const fernwaermeNahwaerme: NewsPost = {
       {/* DeepMatrix: Technische Parameter */}
       <Reveal>
         <SectionHead
-          title="Technische Spezifikationen (Underground)"
-          lead="Wie werden die vorisolierten K Aqua Rohre auf der Baustelle verbunden? Unsere PPRCT-Systeme wurden speziell für extreme Anforderungen im direkten Erdreich entwickelt."
+          title="Stahl vs Kunststoff im Erdreich"
+          lead="Unsere vorisolierten PPRCT Systeme wurden speziell für extreme Anforderungen im direkten Erdreich entwickelt."
         />
         <DeepMatrix
           data={[
             ["Parameter", "K Aqua Isoliertes System", "Stahl (isoliert)"],
-            ["Wärmeleitfähigkeit (Isolierung)", "λ = 0,024 W/mK (PUR)", "λ = 0,026 W/mK (PUR)"],
-            ["Max. Betriebstemperatur", "Bis zu 95 °C (kurzz. 110 °C)", "Bis zu 140 °C"],
-            ["Außenkorrosion im Erdreich", "Unmöglich (PE-HD Mantel)", "Kathodischer Schutz nötig"],
-            ["Gewicht (z.B. DN 100)", "ca. 5,2 kg/m", "ca. 18,5 kg/m"],
+            ["Eigenschaft", "Vorisoliertes PPRCT (K Aqua)", "Vorisoliertes Stahlrohr (KMR)"],
+            ["Wärmeverlust", "Sehr gering (λ = 0,024 W/mK)", "Gering bis mittel"],
+            ["Außenkorrosion im Erdreich", "Unmöglich (PE HD Mantel)", "Kathodischer Schutz nötig"],
+            ["Gewicht (DN 100)", "ca. 8 kg/m", "ca. 25 kg/m"],
             ["Verbindungstechnik", "Homogenes Schweißen", "Aufwändiges Stahlschweißen"]
           ]}
         />
@@ -73,26 +77,26 @@ export const fernwaermeNahwaerme: NewsPost = {
       {/* BentoGrid: Warum PPRCT Stahl ablöst */}
       <Reveal>
         <SectionHead
-          title="Der Systemvorteil im Tiefbau"
+          title="Vorteile des PPRCT Systems"
           lead="Neben den thermodynamischen Eigenschaften punktet Kunststoff vor allem in der Bauausführung und Langlebigkeit."
         />
         <BentoGrid
           items={[
             {
               title: "Absolut korrosionsfrei",
-              description: "Stahl-Verbundrohre benötigen oft aufwendige Leckageüberwachungssysteme (Drähte im PUR-Schaum), da ein winziges Loch unbemerkt das gesamte Rohr wegrosten lässt. Das PPR-Mediumrohr korrodiert nicht – teure und störanfällige elektronische Überwachungen können oft eingespart werden.",
+              description: "Im Gegensatz zu Stahlrohren benötigen PPRCT Systeme keinen kathodischen Korrosionsschutz. Bodenfeuchte und Streuströme verursachen keine Schäden.",
               icon: <Shield className="w-6 h-6 text-primary" />,
               size: "large"
             },
             {
               title: "Schneller Grabenfortschritt",
-              description: "Stahl-Fernwärmerohre sind bei Beschädigungen des Mantels sofort korrosionsgefährdet. Dringt Grundwasser ein, rostet das Rohr von außen durch. Das PPR-Mediumrohr von K Aqua ist 100% korrosionsbeständig, selbst bei beschädigter Dämmung. Das spart teure Bagger- und Kranstunden.",
+              description: "Durch das geringe Gewicht können lange Trassen oft ohne schweres Hebezeug verlegt werden. Das spart teure Bagger- und Kranstunden.",
               icon: <Activity className="w-6 h-6 text-primary" />,
               size: "medium"
             },
             {
               title: "Minimale Wärmeverluste",
-              description: "Der Verbund aus PPRCT-Mediumrohr und hochwertigem PUR-Hartschaum isoliert effizienter als viele Standardsysteme.",
+              description: "Der Verbund aus PPRCT Mediumrohr und hochwertigem PUR Hartschaum isoliert effizienter als viele Standardsysteme.",
               icon: <Thermometer className="w-6 h-6 text-primary" />,
               size: "medium"
             }
@@ -103,23 +107,23 @@ export const fernwaermeNahwaerme: NewsPost = {
       {/* Stagger: Der Aufbau des vorisolierten Rohrs */}
       <Reveal>
         <SectionHead
-          title="Der 3-Schicht-Verbundaufbau"
+          title="Der 3 Schicht Verbundaufbau"
           lead="Ein geschlossenes System für maximale Effizienz."
           align="center"
         />
         <Stagger
           items={[
             {
-              title: "1. Mediumrohr (Innen)",
-              description: "K Aqua K-Faser PPRCT-Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand."
+              title: "1. Das Mediumrohr",
+              description: "K Aqua K Faser PPRCT Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand."
             },
             {
-              title: "2. Isolierung (Mitte)",
-              description: "Unser eingespritzter PUR-Schaum besitzt eine exzellente Wärmeleitfähigkeit (Lambdawert) und umschließt das Mediumrohr lückenlos. Kältebrücken, wie sie bei nachträglich angebrachten Isolierschalen entstehen, sind ausgeschlossen."
+              title: "2. Die Dämmschicht",
+              description: "FCKW freier Polyurethan Hartschaum (PUR). Sorgt für eine exzellente Wärmedämmung und einen festen Verbund zwischen Innen- und Außenrohr."
             },
             {
-              title: "3. Mantelrohr (Außen)",
-              description: "Extrudiertes Polyethylen (PE-HD). Bietet ultimativen mechanischen Schutz gegen Steine, Wurzeln und Feuchtigkeit im Erdreich."
+              title: "3. Der Mantel",
+              description: "Extrudiertes Polyethylen (PE HD). Bietet ultimativen mechanischen Schutz gegen Steine, Wurzeln und Feuchtigkeit im Erdreich."
             }
           ]}
         />
@@ -128,9 +132,9 @@ export const fernwaermeNahwaerme: NewsPost = {
       {/* CTABand: Projektanfrage */}
       <Reveal>
         <CTABand
-          title="Planen Sie ein lokales Wärmenetz?"
-          subtitle="Sprechen Sie mit unseren Infrastruktur-Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung."
-          buttonText="Infrastrukturberatung anfragen"
+          title="Tiefbauprojekte effizient umsetzen"
+          subtitle="Sprechen Sie mit unseren Infrastruktur Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung."
+          buttonText="Infrastruktur Beratung anfragen"
           buttonLink="/kontakt"
           icon={<Layers className="w-6 h-6" />}
         />
