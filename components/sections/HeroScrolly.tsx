@@ -75,8 +75,8 @@ export default function HeroScrolly() {
       const total = wrap.offsetHeight - vh;
       const p = Math.min(1, Math.max(0, -wrap.getBoundingClientRect().top / total));
 
-      // 1) Hero copy fades up and out
-      const fade = Math.min(1, p / 0.12);
+      // 1) Hero copy fades up and out smoothly
+      const fade = Math.min(1, Math.max(0, p / 0.32));
       const copy = copyRef.current;
       if (copy) {
         copy.style.opacity = String(1 - fade);
@@ -84,29 +84,27 @@ export default function HeroScrolly() {
         copy.style.pointerEvents = fade > 0.4 ? 'none' : '';
       }
 
-      // 2) Globe arcs from hero-right (or left in RTL) to center on a circular path + grows
-      const e = ease(Math.min(1, p / 0.42));
+      // 2) Globe glides smoothly from right (or left in RTL) to center on a clean path + grows
+      const e = ease(Math.min(1, Math.max(0, p / 0.38)));
       const x0 = Math.min(window.innerWidth * 0.27, 560);
-      const th = e * Math.PI * 1.12; // Circular arc
-      const R = x0 * (1 - e);
       const direction = isRtl ? -1 : 1;
-      const x = Math.cos(th) * R * direction;
-      const y = Math.sin(th) * R * 0.55;
-      const s = 0.92 + e * 0.5;
+      const x = x0 * (1 - e) * direction;
+      const y = -Math.sin(e * Math.PI) * 28;
+      const s = 0.92 + e * 0.38;
 
-      gw.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(${s})`;
+      gw.style.transform = `translate(calc(-50% + ${x.toFixed(2)}px), calc(-50% + ${y.toFixed(2)}px)) scale(${s.toFixed(3)})`;
       if (glowRef.current) {
         glowRef.current.style.opacity = String(0.25 + e * 0.75);
       }
 
-      // 3) Focus cards pop in sequentially
+      // 3) Focus cards pop in sequentially as hero copy fades and globe reaches center
       cardRefs.current.forEach((el, i) => {
         if (!el) return;
-        el.classList.toggle('is-in', p >= 0.45 + i * 0.125);
+        el.classList.toggle('is-in', p >= 0.30 + i * 0.13);
       });
 
       if (hintRef.current) {
-        hintRef.current.style.opacity = p > 0.93 ? '1' : '0';
+        hintRef.current.style.opacity = p > 0.85 ? '1' : '0';
       }
     };
 
