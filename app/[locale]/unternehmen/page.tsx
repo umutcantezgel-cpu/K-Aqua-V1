@@ -88,7 +88,7 @@ export default async function UnternehmenPage({ params }: Props) {
                   aspectRatio="4/3" 
                   className="shadow-lift" 
                   shapeVariant="sweep-r" 
-                  src="/images/new-k-aqua/Fertigungs Bild Pipes.jpg" 
+                  src="/images/new-k-aqua/fertigung-pipes.jpg" 
                   priority
                 />
               </Reveal>

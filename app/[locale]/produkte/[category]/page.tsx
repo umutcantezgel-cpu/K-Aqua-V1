@@ -133,13 +133,13 @@ export default async function CategoryPage({ params }: Props) {
   const tc = await getTranslations({ locale, namespace: "products.category" });
 
   let heroImage = "";
-  if (lowerCat.includes('pipes')) heroImage = "/images/new-k-aqua/Pipes Profil Bild.png";
-  else if (lowerCat.includes('transition')) heroImage = "/images/new-k-aqua/Transitions Fittings Profil Bild.png";
-  else if (lowerCat.includes('fitting')) heroImage = "/images/new-k-aqua/Fittings Profil Bild.png";
-  else if (lowerCat.includes('weld')) heroImage = "/images/new-k-aqua/Weld-IN Saddles.png";
-  else if (lowerCat.includes('accessories')) heroImage = "/images/new-k-aqua/Accessories Profil Bild.png";
-  else if (lowerCat.includes('valve')) heroImage = "/images/new-k-aqua/Valves Profilbild.png";
-  else if (lowerCat.includes('tools')) heroImage = "/images/new-k-aqua/Tools Profil Bild.png";
+  if (lowerCat.includes('pipes')) heroImage = "/images/new-k-aqua/pipes-profil.png";
+  else if (lowerCat.includes('transition')) heroImage = "/images/new-k-aqua/transition-fittings-profil.png";
+  else if (lowerCat.includes('fitting')) heroImage = "/images/new-k-aqua/fittings-profil.png";
+  else if (lowerCat.includes('weld')) heroImage = "/images/new-k-aqua/weld-in-saddles.png";
+  else if (lowerCat.includes('accessories')) heroImage = "/images/new-k-aqua/accessories-profil.png";
+  else if (lowerCat.includes('valve')) heroImage = "/images/new-k-aqua/valves-profil.png";
+  else if (lowerCat.includes('tools')) heroImage = "/images/new-k-aqua/tools-profil.png";
 
   return (
     <>
