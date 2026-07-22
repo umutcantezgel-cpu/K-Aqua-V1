@@ -36,6 +36,7 @@ export default async function ImpressumPage({ params }: Props) {
 
   const title = t("title");
   const sections = t.raw("sections") as { title: string; icon: string; content: string }[];
+  const tLegal = await getTranslations({ locale, namespace: "legal" });
 
 
   
@@ -47,8 +48,7 @@ export default async function ImpressumPage({ params }: Props) {
           <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
           <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
             <Reveal>
-              {/* eslint-disable-next-line react/jsx-no-literals */}
-              <Eyebrow>Legal</Eyebrow>
+              <Eyebrow>{tLegal("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
               <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
@@ -60,7 +60,7 @@ export default async function ImpressumPage({ params }: Props) {
 
         <section className="py-24 bg-background">
           <div className="max-w-[1200px] mx-auto px-6">
-            <LegalContent sections={sections} />
+            <LegalContent sections={sections} title={tLegal("toc")} />
           </div>
         </section>
         <SeoExpand pageType="impressum" />
