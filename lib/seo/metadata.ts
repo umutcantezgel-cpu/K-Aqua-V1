@@ -67,9 +67,14 @@ export function constructMetadata({
   // Remove leading K-Aqua if it's there
   cleanTitle = cleanTitle.replace(/^K-Aqua\s*?[|·-]\s*?/i, "").trim();
   
+  const claimSuffix: Record<string, string> = {
+    de: "K-Aqua — PP-R Rohrsysteme",
+    en: "K-Aqua — PP-R Piping Systems",
+    ar: "K-Aqua — أنظمة أنابيب PP-R",
+  };
   let finalTitle = `${cleanTitle} | K-Aqua`;
   if (finalTitle.length < 50) {
-    finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+    finalTitle = `${cleanTitle} | ${claimSuffix[locale] ?? claimSuffix.en}`;
   }
 
   const isTranslated = translatedLocales.includes(locale);
@@ -84,25 +89,14 @@ export function constructMetadata({
     else finalDescription += " K-Aqua PP-R / PP-RCT Piping Systems.";
   }
 
-  const isNonDePlaceholder = locale !== 'de' && (
-    path.startsWith('/academy') ||
-    path.startsWith('/co2-rechner') ||
-    path.startsWith('/karriere') ||
-    path.startsWith('/maerkte')
-  );
-
-  const isGlobalNoIndex = path.startsWith('/referenzen');
-
   return {
     metadataBase: new URL(siteUrl),
     title: finalTitle,
     description: finalDescription,
-    ...(isNonDePlaceholder || isGlobalNoIndex ? { robots: { index: false, follow: false } } : {
-      robots: {
-        index: isTranslated,
-        follow: isTranslated,
-      },
-    }),
+    robots: {
+      index: isTranslated,
+      follow: isTranslated,
+    },
     alternates: {
       canonical: canonicalUrl,
       languages,
@@ -113,14 +107,15 @@ export function constructMetadata({
       url: canonicalUrl,
       siteName: "K-Aqua",
       locale,
-      images: ogImage ? [{ url: ogImage }] : [{ url: `${siteUrl}/images/og-default.jpg` }],
+      // Without an explicit image, the file-convention app/[locale]/opengraph-image.tsx applies.
+      ...(ogImage ? { images: [{ url: ogImage }] } : {}),
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: finalTitle,
       description: finalDescription,
-      images: ogImage ? [ogImage] : [`${siteUrl}/images/og-default.jpg`],
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
   };
 }
@@ -356,7 +351,7 @@ export async function getArticleJsonLd(locale: string, pageKey: string): Promise
     "@type": "Article",
     headline: meta[0] || "K-Aqua News",
     description: meta[1] || "",
-    image: [`${siteUrl}/images/og-default.jpg`],
+    image: [`${siteUrl}/${locale}/opengraph-image`],
     publisher: {
       "@type": "Organization",
       name: "KWT GmbH",

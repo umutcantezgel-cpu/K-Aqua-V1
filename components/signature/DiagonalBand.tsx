@@ -12,7 +12,7 @@ export default function DiagonalBand({ className = '' }: { className?: string })
   const text2 = `${marqueeItems[3]} • ${marqueeItems[4]} • ${marqueeItems[5]} • `;
 
   return (
-    <div className={`ka-diagband ${className}`}>
+    <div className={`ka-diagband ${className}`} aria-hidden="true" data-nosnippet>
       <div className="track" data-text={text1}></div>
       <div className="track reverse" data-text={text2}></div>
     </div>

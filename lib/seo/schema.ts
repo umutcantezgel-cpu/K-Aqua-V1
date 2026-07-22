@@ -9,7 +9,7 @@ export const DEFAULT_ORG_SCHEMA = {
   "name": "KWT GmbH",
   "alternateName": "K-Aqua",
   "url": domain,
-  "logo": `${domain}/logo.png`,
+  "logo": `${domain}/images/logo.png`,
   "sameAs": [
     "https://www.linkedin.com/company/k-aqua"
   ],
@@ -39,7 +39,7 @@ export function getOrganizationSchema() {
     "name": "KWT GmbH",
     "alternateName": "K-Aqua",
     "url": domain,
-    "logo": `${domain}/logo.png`,
+    "logo": `${domain}/images/logo.png`,
     "sameAs": [
       "https://www.linkedin.com/company/k-aqua"
     ],
@@ -70,7 +70,7 @@ export function getLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "KWT GmbH - K-Aqua",
-    "image": `${domain}/logo.png`,
+    "image": `${domain}/images/logo.png`,
     "@id": domain,
     "url": domain,
     "telephone": "+49 6085 9868-410",
@@ -182,7 +182,7 @@ export function getArticleSchema(post: { headline: string; description: string; 
       "name": "KWT GmbH",
       "logo": {
         "@type": "ImageObject",
-        "url": `${getBaseUrl()}/logo.png`
+        "url": `${getBaseUrl()}/images/logo.png`
       }
     },
     "url": post.url,
@@ -232,7 +232,7 @@ export function getProductSchema(product: {
     "@type": "Product",
     "name": product.name,
     "description": product.description,
-    "image": product.image || `${domain}/logo.png`,
+    "image": product.image || `${domain}/images/logo.png`,
     "@id": product.url,
     "url": product.url,
     "category": product.category,

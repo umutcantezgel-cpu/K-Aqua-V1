@@ -48,6 +48,20 @@ export default function Page() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
 
+      {/* Hero */}
+      <section className="pt-24 pb-16 bg-background border-b border-card-border">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <SectionHead
+            as="h1"
+            eyebrow={t('hero.eyebrow')}
+            title={t('hero.title')}
+            lead={t('hero.lead')}
+            align="center"
+            className="mb-0"
+          />
+        </div>
+      </section>
+
       {/* 7) Final Text Section before CTA */}
       <section className="py-32 lg:py-48 bg-background relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,var(--primary-soft)_0%,transparent_50%)] opacity-20 pointer-events-none" />
