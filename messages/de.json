@@ -8081,5 +8081,69 @@
         ]
       ]
     }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrielle Referenzprojekte",
+      "titlePlain": "Technik, die sich ",
+      "titleAccent": "beweist.",
+      "lead": "Von Waldsolms in die Welt: K-Aqua PP-R und PP-RCT Systeme laufen seit Jahrzehnten in Hochhäusern, Krankenhäusern, Industrieanlagen und Schiffen — unter Bedingungen, die keinen zweiten Versuch zulassen.",
+      "cta1": "Referenzprojekte ansehen",
+      "cta2": "Prüfbericht anfordern"
+    },
+    "manifesto": {
+      "title": "Doktrin der Präzision",
+      "p1": "In einer Branche, in der Materialermüdung und Korrosion als unvermeidlich gelten, setzt unsere Fertigung einen anderen Maßstab. Wir betrachten jedes Rohr nicht als Bauteil, sondern als Ergebnis angewandter Werkstoffwissenschaft. Jede Charge PP-R Copolymer, jede Schweißnaht und jede Wanddicke durchläuft einen Prüfprozess, der Ausschuss lieber in Kauf nimmt als eine Toleranzüberschreitung. Das ist das fundamentale Gesetz der <strong>K-Aqua Referenzklasse</strong>.",
+      "p2": "Unsere Systeme laufen in Umgebungen, in denen ein einziger Leckagepunkt den Betrieb eines ganzen Krankenhauses oder Hochhauses gefährdet. Wir setzen Langzeit-Innendruckprüfungen nach ISO 9080 nicht als Laborformalität ein, sondern als harte Vorgabe für jede freigegebene Dimension: Extrapolation auf 50 Jahre Betriebsdauer bei spezifizierter Temperatur und Druckstufe — dokumentiert, nachvollziehbar, chargenrein zurückverfolgbar.",
+      "p3": "Wir verzichten bewusst auf undurchsichtige Materialmischungen. Unsere Rezeptur ist über die gesamte Fertigungskette hinweg dokumentiert — von der Polymercharge bis zur fertigen Rohrlänge. Wir kalibrieren Extrusionstemperaturen auf das Grad genau, optimieren die Faserverbund-Mittelschicht gegen Längsausdehnung und protokollieren jede Heizwendel-Schweißung mit exakten Prozessparametern. Das Resultat sind Systeme, die bei 70°C Dauerbetrieb und PN20 mühelos im Normbereich bleiben.",
+      "p4": "Qualitätssicherung ist bei uns kein nachgelagerter Prüfschritt, sondern Teil jeder Produktionsstufe. Durch die durchgängige Anwendung von DVGW-, SKZ- und KIWA-Zertifizierung auf allen relevanten Dimensionen entziehen wir Ausfallrisiken proaktiv jede Angriffsfläche. Ein System, das nach DIN 8077/8078 gefertigt und dreifach zertifiziert ist, kann sich niemals als Schwachstelle erweisen."
+    },
+    "metrics": {
+      "eyebrow": "Technische Kennzahlen",
+      "title1": "Kompromisslose",
+      "title2": "Parameter",
+      "lead": "Unsere Systeme werden nicht beworben, sie werden geprüft. Dies sind die Kernkennzahlen unserer technologischen Doktrin.",
+      "items": {
+        "pressure": {
+          "title": "Langzeit-Druckprüfung nach ISO 9080",
+          "desc": "Jede freigegebene Dimension durchläuft Innendrucktests bei mehreren Temperaturstufen über tausende Betriebsstunden — extrapoliert auf eine Regressionsgerade für 50 Jahre Lebensdauer.",
+          "placeholder": "Regressionskurve Langzeit-Innendruckprüfung"
+        },
+        "isolation": {
+          "title": "Lückenlose Chargen-Rückverfolgbarkeit",
+          "desc": "Jede Rohrlänge trägt eine Chargennummer, die bis zur Polymer-Anlieferung zurückverfolgt werden kann — für lückenlose Dokumentation bei Bauabnahme und Gewährleistung."
+        },
+        "tolerance": {
+          "title": "Wanddicken-Toleranz im Mikrometerbereich",
+          "desc": "Kontinuierliche Ultraschall-Wanddickenmessung während der Extrusion hält jede Dimension exakt innerhalb der DIN 8077/8078 Toleranzfelder."
+        },
+        "network": {
+          "title": "Globales Vertriebs- und Servicenetz",
+          "desc": "Von Waldsolms aus beliefern wir Projekte in über 35 Ländern und stellen technische Beratung, Schulung und Ersatzteilversorgung sicher — auch nach Bauabnahme.",
+          "placeholder": "Exportkarte K-Aqua Vertriebsnetz"
+        },
+        "welding": {
+          "title": "Kompromisslose Schweißnahtintegrität",
+          "desc": "Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen und Schliffbilder bestätigen die molekulare Verschmelzung von Rohr und Fitting — ohne Dichtungen, ohne Schwachstellen.",
+          "placeholder": "Schliffbild einer K-Aqua Muffenschweißverbindung"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Bereit für Ihr",
+      "title2": "nächstes Projekt",
+      "lead": "Planen Sie ein Hochhaus, eine Industrieanlage oder ein Krankenhausprojekt? Unsere Ingenieure erwarten Ihre Spezifikationen — mit belastbaren Prüfdaten statt Marketingversprechen.",
+      "btn1": "Prüfzertifikate anfordern",
+      "btn2": "Spezifikationen senden"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
   }
 }

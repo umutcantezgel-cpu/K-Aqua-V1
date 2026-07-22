@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-literals */
 import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
@@ -11,16 +10,13 @@ import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder
 import HoverPreviewList from '@/components/signature/HoverPreviewList';
 import KAquaMapsSuite from '@/components/sections/maps/KAquaMapsSuite';
 import {
-  ShieldAlert,
-  Server,
-  Network,
-  Database,
-  Lock,
-  Binary,
-  Layers,
-  Activity,
+  Droplet,
+  Factory,
+  ShieldCheck,
+  Ruler,
+  Globe2,
+  Flame,
   Gauge,
-  Combine
 } from "lucide-react";
 
 interface Props {
@@ -43,27 +39,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ReferenzenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "references");
+  const t = await getTranslations({ locale, namespace: "referenzenPage" });
+  const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding"] as const;
 
   return (
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
       <JsonLd schema={jsonLd} />
 
       {/* Hero Section */}
-      <ParallaxHero 
-        eyebrow="Industrielle Meisterwerke"
+      <ParallaxHero
+        eyebrow={t('hero.eyebrow')}
         title={
           <span className="block text-balance">
-            Architektur der <span className="text-primary">Macht.</span>
+            {t('hero.titlePlain')}<span className="text-primary">{t('hero.titleAccent')}</span>
           </span>
         }
-        description="Eiskalte, industrielle Präzision in Code gegossen. Wir konstruieren digitale Festungen und Infrastrukturen, die der Zeit, katastrophalen Ausfällen und höchsten Lasten mühelos widerstehen. Hier manifestieren sich Systeme, die keine Kompromisse kennen."
+        description={t('hero.lead')}
       >
         <div className="flex gap-4">
           <div className="px-8 py-4 rounded-full border-2 border-primary text-primary font-mono tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-[0_0_20px_rgba(var(--primary),0.2)] hover:shadow-[0_0_30px_rgba(var(--primary),0.5)] cursor-pointer text-sm font-bold">
-            Telemetrie Initialisieren
+            {t('hero.cta1')}
           </div>
           <div className="px-8 py-4 rounded-full bg-card border border-card-border text-foreground font-mono tracking-widest uppercase hover:bg-muted transition-colors cursor-pointer text-sm font-bold">
-            System-Manifest lesen
+            {t('hero.cta2')}
           </div>
         </div>
       </ParallaxHero>
@@ -73,24 +71,16 @@ export default async function ReferenzenPage({ params }: Props) {
         <div className="max-w-[1000px] mx-auto px-6">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-16">
             <div className="p-4 bg-primary/10 rounded-2xl border border-primary/20">
-              <Binary className="w-12 h-12 text-primary" />
+              <Droplet className="w-12 h-12 text-primary" />
             </div>
-            <h2 className="text-5xl md:text-6xl font-heading font-black tracking-tighter uppercase">Doktrin der Präzision</h2>
+            <h2 className="text-5xl md:text-6xl font-heading font-black tracking-tighter uppercase">{t('manifesto.title')}</h2>
           </div>
-          
+
           <div className="space-y-12 text-xl text-muted-foreground leading-[1.8] font-sans">
-            <p>
-              In einer Ära, in der digitale Fragilität als Norm akzeptiert wird, positioniert sich unsere Ingenieurskunst als absoluter, unerbittlicher Gegenpol. Wir betrachten Software-Architektur nicht als kreativen Ausdruck, sondern als angewandte Mathematik und knallharte Physik. Jede Zeile Code, jede Netzwerkkomponente und jeder Datenbank-Index wird durch einen gnadenlosen Prozess der Validierung getrieben, bis jegliches Potenzial für Ineffizienz, Jitter oder Versagen restlos eliminiert ist. Dies ist das fundamentale Gesetz der <strong className="text-foreground">K-Aqua Referenzklasse</strong>.
-            </p>
-            <p>
-              Unsere Systeme operieren in feindlichen Umgebungen, in denen eine einzige Millisekunde Latenz inakzeptabel ist und Datenverlust das Ende der Geschäftsgrundlage bedeutet. Wir implementieren <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Byzantine Fault Tolerance</em> nicht als akademisches Theorem in Whitepapers, sondern als harte Realität in unseren verteilten Clustern. Wenn ein primäres Rechenzentrum durch einen Stromausfall in die Knie gezwungen wird, leiten unsere BGP-Anycast-Routen den globalen Traffic innerhalb von Mikrosekunden an redundante Fallback-Knoten um – ohne dass der Endnutzer auch nur einen TCP-Retransmit bemerkt. Dies ist keine Magie. Es ist eiskalte, kalkulierte Überlebensfähigkeit.
-            </p>
-            <p>
-              Wir verabscheuen aufgeblähte &quot;Magic Frameworks&quot; und undurchsichtige Black-Box-Abstraktionen. Unser Stack ist transparent und wird von uns bis auf den Linux-Kernel-Level diktiert. Wir tunen TCP-Window-Sizes, optimieren eBPF-Netzwerkfilter für Packet-Processing in Lichtgeschwindigkeit und schreiben Allokations-Algorithmen um, um den Garbage-Collector zur Bedeutungslosigkeit zu zwingen. Die Resultate sind monolithische Microservices, die bei 100.000 Requests pro Sekunde müde im Leerlauf operieren. Es ist pure, kompromisslose Ingenieursgewalt.
-            </p>
-            <p>
-              Sicherheit ist bei uns kein nachgelagertes Feature oder ein Compliance-Häkchen, sondern die untrennbare DNA unserer Topologie. Durch die strikte Anwendung von <em className="text-foreground not-italic font-mono bg-muted px-2 py-1 rounded">Mutual TLS (mTLS)</em> zwischen ausnahmslos allen Services, kombiniert mit kurzlebigen Zertifikaten und hardwaregestützter Schlüsselspeicherung (HSM), entziehen wir Angreifern proaktiv jegliche Angriffsfläche. Ein System, das per Definition keine Vertrauensvorschüsse gewährt, kann niemals kompromittiert werden. Das ist die unumstößliche Realität unseres Zero-Trust-Modells.
-            </p>
+            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p1').replace(/<strong>/g, '<strong class="text-foreground">') }} />
+            <p>{t('manifesto.p2')}</p>
+            <p>{t('manifesto.p3')}</p>
+            <p>{t('manifesto.p4')}</p>
           </div>
         </div>
       </section>
@@ -101,71 +91,70 @@ export default async function ReferenzenPage({ params }: Props) {
         {/* Architectural grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-30%,rgba(var(--primary),0.05),transparent)] pointer-events-none" />
-        
+
         <div className="max-w-[1400px] mx-auto px-6 relative z-10">
           <div className="mb-24 text-center">
             <span className="font-mono text-primary font-bold text-sm tracking-[0.3em] uppercase mb-6 block flex items-center justify-center gap-2">
-              <Database className="w-5 h-5" /> Architektur-Metriken
+              <Gauge className="w-5 h-5" /> {t('metrics.eyebrow')}
             </span>
             <h2 className="text-6xl md:text-7xl font-heading font-black tracking-tighter mb-8 uppercase">
-              Kompromisslose <br />Parameter
+              {t('metrics.title1')} <br />{t('metrics.title2')}
             </h2>
             <p className="text-muted-foreground text-2xl max-w-3xl mx-auto leading-relaxed">
-              Unsere Architekturen werden nicht gemessen, sie diktieren den Standard der Branche. 
-              Dies sind die fundamentalen Kernkomponenten unserer technologischen Doktrin.
+              {t('metrics.lead')}
             </p>
           </div>
 
           <BentoGrid>
-            <BentoGridItem 
-              title="Hyper-Availability Cluster"
-              description="SLA von 99,9999% Betriebszeit. Multi-Region Redundanzschichten, die selbst bei katastrophalen physischen Hardwareausfällen den Systembetrieb lückenlos aufrechterhalten."
-              icon={<Server className="w-10 h-10 text-primary" />}
+            <BentoGridItem
+              title={t(`metrics.items.${metricKeys[0]}.title`)}
+              description={t(`metrics.items.${metricKeys[0]}.desc`)}
+              icon={<Gauge className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Georeplizierte Cluster Topologie" />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[0]}.placeholder`)} />}
             />
-            <BentoGridItem 
-              title="Absolute Isolation"
-              description="Vollständige logische und physische Kapselung von Tenant-Daten mit AES-256-GCM und dezidierten Hardware-Sicherheitsmodulen (HSM)."
-              icon={<Lock className="w-10 h-10 text-primary" />}
+            <BentoGridItem
+              title={t(`metrics.items.${metricKeys[1]}.title`)}
+              description={t(`metrics.items.${metricKeys[1]}.desc`)}
+              icon={<ShieldCheck className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
                   <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors duration-500" />
-                  <ShieldAlert className="w-32 h-32 text-primary/30 group-hover:text-primary/60 transition-colors duration-500 group-hover:scale-110 transform-gpu" />
+                  <ShieldCheck className="w-32 h-32 text-primary/30 group-hover:text-primary/60 transition-colors duration-500 group-hover:scale-110 transform-gpu" />
                 </div>
               }
             />
-            <BentoGridItem 
-              title="Deterministische Latenz"
-              description="Ausführung von Kernprozessen mit mathematisch garantierter maximaler Latenz. Keine P99 Spikes, keine GC-Pausen, absolut kein Jitter."
-              icon={<Activity className="w-10 h-10 text-primary" />}
+            <BentoGridItem
+              title={t(`metrics.items.${metricKeys[2]}.title`)}
+              description={t(`metrics.items.${metricKeys[2]}.desc`)}
+              icon={<Ruler className="w-10 h-10 text-primary" />}
               header={
                 <div className="w-full h-full bg-background/50 border-b border-card-border flex items-center justify-center p-8 relative overflow-hidden group">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(var(--primary),0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-                  <Gauge className="w-32 h-32 text-primary/30 group-hover:text-primary transition-colors duration-500 group-hover:rotate-12 transform-gpu" />
+                  <Ruler className="w-32 h-32 text-primary/30 group-hover:text-primary transition-colors duration-500 group-hover:rotate-12 transform-gpu" />
                 </div>
               }
             />
-            <BentoGridItem 
-              title="Ereignisgesteuerte Nervensysteme"
-              description="Massiv skalierbare Event-Streaming-Plattformen, die Milliarden von Telemetriesignalen in Echtzeit verarbeiten, filtern und global orchestrieren."
-              icon={<Network className="w-10 h-10 text-primary" />}
+            <BentoGridItem
+              title={t(`metrics.items.${metricKeys[3]}.title`)}
+              description={t(`metrics.items.${metricKeys[3]}.desc`)}
+              icon={<Globe2 className="w-10 h-10 text-primary" />}
               colSpan={2}
-              header={<PremiumAssetPlaceholder label="Echtzeit Event Stream Graph" />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[3]}.placeholder`)} />}
             />
-            <BentoGridItem 
-              title="Zustandslose Resilienz"
-              description="Jeder Knotenpunkt im Cluster ist temporär und austauschbar. Der einzige Wahrheitsgehalt existiert in der zentralen, ACID-konformen, verteilten Datenbank. Chaos Engineering ist bei uns kein Test, sondern Dauerzustand."
-              icon={<Layers className="w-10 h-10 text-primary" />}
+            <BentoGridItem
+              title={t(`metrics.items.${metricKeys[4]}.title`)}
+              description={t(`metrics.items.${metricKeys[4]}.desc`)}
+              icon={<Flame className="w-10 h-10 text-primary" />}
               colSpan={3}
               rowSpan={2}
-              header={<PremiumAssetPlaceholder label="Stateless Architecture Blueprint" className="min-h-[500px]" />}
+              header={<PremiumAssetPlaceholder label={t(`metrics.items.${metricKeys[4]}.placeholder`)} className="min-h-[500px]" />}
             />
           </BentoGrid>
         </div>
       </section>
 
-      {/* Signature: Hover Preview List */}
+      {/* Signature: Hover Preview List (real reference projects) */}
       <section className="py-32 bg-background border-b border-card-border">
         <div className="max-w-[1400px] mx-auto px-6">
           <HoverPreviewList />
@@ -180,24 +169,24 @@ export default async function ReferenzenPage({ params }: Props) {
         {/* Grid and gradients */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(var(--primary),0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(var(--primary),0.05)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,rgba(var(--primary),0.15)_0%,transparent_60%)] pointer-events-none" />
-        
+
         <div className="relative z-10 text-center max-w-5xl px-6">
-          <Combine className="w-24 h-24 text-primary mx-auto mb-12 opacity-90 drop-shadow-[0_0_15px_rgba(var(--primary),0.5)]" />
+          <Factory className="w-24 h-24 text-primary mx-auto mb-12 opacity-90 drop-shadow-[0_0_15px_rgba(var(--primary),0.5)]" />
           <h2 className="text-6xl md:text-8xl font-heading font-black tracking-tighter mb-10 uppercase leading-none">
-            Initialisieren Sie <br/>
+            {t('cta.title1')} <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/50">
-              das System
+              {t('cta.title2')}
             </span>
           </h2>
           <p className="text-2xl text-muted-foreground mb-16 max-w-3xl mx-auto leading-relaxed">
-            Bereit, die Kontrolle über Ihre digitale Zukunft zu übernehmen? Unsere Infrastruktur-Ingenieure erwarten Ihre Spezifikationen. Wir konstruieren keine gewöhnlichen Anwendungen – wir schmieden digitale Hochleistungswaffen.
+            {t('cta.lead')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <button className="px-14 py-6 bg-primary text-primary-foreground font-mono font-black tracking-[0.2em] uppercase text-lg hover:scale-105 hover:shadow-[0_0_40px_rgba(var(--primary),0.6)] transition-all duration-300">
-              Sicherheitsaudit Anfordern
+              {t('cta.btn1')}
             </button>
             <button className="px-14 py-6 bg-transparent border-2 border-primary text-primary font-mono font-bold tracking-[0.2em] uppercase text-lg hover:bg-primary/10 transition-all duration-300">
-              Spezifikationen senden
+              {t('cta.btn2')}
             </button>
           </div>
         </div>
