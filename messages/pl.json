@@ -5468,67 +5468,67 @@
         "desc": "Nasz 5-stopniowy proces reagowania gwarantuje, że nie będziesz czekać w nieskończoność na decyzje. Czysta efektywność, napędzana wiedzą inżynierską."
       },
       "hero": {
-        "eyebrow": "Globalne Centrum Inżynierii Wsparcia",
-        "title1": "Eliminacja",
-        "title2": "Zagrożeń.",
-        "desc": "W projektach o wysokiej stawce awaria jest niedopuszczalna. Nasi certyfikowani inżynierowie wsparcia reagują na anomalie z precyzją, zanim stłumią one Twoje działania. Skonsultuj z nami najbardziej złożone wyzwania hydrologiczne w swoim kompleksie.",
-        "btnPrimary": "Zażądaj Audytu Systemu",
-        "btnGhost": "Zarządzaj Protokółem"
+        "eyebrow": "Technical Support",
+        "title1": "Support that",
+        "title2": "thinks ahead.",
+        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project — with a direct line to the engineers who developed the system.",
+        "btnPrimary": "Submit a Project Inquiry",
+        "btnGhost": "View Services"
       },
       "intro": {
-        "title1": "Infrastruktura To Nie Usługa.",
-        "title2": "To Twój Fizyczny Fundament.",
-        "p1": "Nie postrzegamy wsparcia jako procesu pobocznego, ale jako zintegrowaną część architektury systemu. Jeśli Twoje rurociągi pękną, produkcja staje. To sytuacja nie do zaakceptowania.",
-        "p2": "Nasi inżynierowie pracują z chirurgiczną precyzją. Każdy plik DVS jest analizowany, każdy spadek ciśnienia dokładnie oceniany. Budujemy środowiska zdolne do autonaprawy, z zapleczem ekspertów diagnozujących problem szybciej, niż dostrzeżesz go na swoich sterownikach.",
-        "p3": "Witamy w niemieckim standardzie wysokiej dostępności."
+        "title1": "Support isn't a call center.",
+        "title2": "It's an engineering team.",
+        "p1": "We don't treat technical support as an afterthought — it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
+        "p2": "Our engineers know every batch, every standard, and every processing specification of our systems first-hand. They review isometric drawings, recalculate pressure losses, and stand at the pipe itself during commissioning.",
+        "p3": "That's the standard of German engineering — applied to real job sites, not server racks."
       },
       "bento": {
-        "eyebrow": "Architektura & Consulting",
-        "title": "Skonstruowane Dla Wieczności",
-        "lead": "Nasze usługi wykraczają daleko poza klasyczny support techniczny. Projektujemy, budujemy i utwardzamy rdzenną infrastrukturę bazującą na bezkompromisowej inżynierii.",
+        "eyebrow": "Services at a Glance",
+        "title": "Support across the entire project",
+        "lead": "From initial planning to ongoing maintenance — our team supports your PP-R system through every phase.",
         "items": [
           {
-            "title": "Migracja Zero-Downtime",
-            "desc": "Przesyłamy tysiące m3 wody między przestarzałymi instalacjami a nowoczesnymi systemami przesyłowymi K-Aqua bez sekundy przerw."
+            "title": "Hydraulic Sizing & Isometrics",
+            "desc": "We review your planning documents, recalculate pressure losses and dimensioning, and deliver a reliable materials list before construction begins."
           },
           {
-            "title": "Strojenie Termohydrauliczne",
-            "desc": "Optymalizacje prędkości przepływów, kontrola alokacji ciśnienia i adaptacje pomp do maksymalizowania wydajności systemów zamkniętych."
+            "title": "Welding Supervision",
+            "desc": "Our technicians support socket and electrofusion welding on site, monitor process parameters, and train your installation crew directly on the job site on request."
           },
           {
-            "title": "Enklawy Bezpieczeństwa",
-            "desc": "Stworzenie izolowanych, higienicznie i podwójnie osłoniętych podsieci wody pitnej dla obiektów kluczowych."
+            "title": "Pressure Testing & Sign-Off",
+            "desc": "We assist with performing and documenting pressure tests to DIN 1988 and provide the test records required for construction sign-off."
           },
           {
-            "title": "Projekty Infrastruktury Przyszłości",
-            "desc": "Rozwój systemów wysoce skalowalnych i odnawialnych dla całych nowych dzielnic zdolnych utrzymać olbrzymie zapotrzebowanie przepływu wody."
+            "title": "Spare Parts & Accessories Service",
+            "desc": "Fast delivery of fittings, valves, and genuine accessories — including for existing installations and older K-Aqua batches."
           },
           {
-            "title": "Dedykowane Koncepcje Zapasowe",
-            "desc": "Fizyczne plany redundancji i zawory obejściowe w budownictwie w odpowiedzi na kluczowe awarie publicznych wodociągów."
+            "title": "Remote Diagnosis & On-Site Support",
+            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly — deploying a site supervisor in person when needed."
           }
         ]
       },
       "metrics": {
-        "badge": "Absolutna Niezawodność",
-        "title1": "Certyfikowana",
-        "title2": "Niezawodność Działania.",
-        "p1": "Pracujemy zgodnie z zasadami niemieckiej sztuki inżynierskiej: To co zostało wybudowane, musi działać. Zawsze. W każdych okolicznościach.",
-        "p2": "Nasze systemy i certyfikacje rur K-Aqua posiadają certyfikaty ISO i spełniają najbardziej surowe wytyczne zgodności na świecie. Każda interwencja w Twoją architekturę jest rygorystycznie i bezbłędnie przygotowywana pod testy ciśnieniowe.",
+        "badge": "Reliability by the Numbers",
+        "title1": "Proven",
+        "title2": "reliability.",
+        "p1": "We work by the principles of German engineering: what we deliver has to hold — under any job-site condition.",
+        "p2": "Every K-Aqua system is certified to DVGW, SKZ, and KIWA. Every batch is traceable, every weld joint fully documentable.",
         "items": [
-          "Ponad 50 lat żywotności (projektowe potwierdzone normami)",
-          "Brak wycieków z homogenicznych spawanych połączeń kompozytowych",
-          "Dedykowani menedżerowie kont dla strategicznych partnerów B2B",
-          "Cykliczne i udokumentowane audyty wytrzymałościowe i ekologiczne (EPD)"
+          "Response to technical inquiries within one business day",
+          "Over 50 years of documented system service life with correct installation",
+          "Direct line to technical sales, no queues",
+          "Training and certification through the K-Aqua Academy"
         ]
       },
       "cta": {
-        "title1": "Gotowy Na",
-        "title2": "Bezkompromisową",
-        "title3": "Stabilność?",
-        "desc": "Zleć audyt swoich projektów inżynierom, którzy postrzegają awarie rurowe nie jako pecha, a jako czysty błąd projektowy instalacji.",
-        "btnPrimary": "Zainicjuj Audyt Rurociągowy",
-        "btnGhost": "Kontakt Z Ekspertem"
+        "title1": "Ready for your",
+        "title2": "next",
+        "title3": "project?",
+        "desc": "Have your project supported by engineers who don't just sell PP-R systems — they design and manufacture them.",
+        "btnPrimary": "Start Your Inquiry",
+        "btnGhost": "Contact Our Experts"
       }
     },
     "downloads": {

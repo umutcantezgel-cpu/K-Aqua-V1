@@ -6643,66 +6643,66 @@
         "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
       },
       "hero": {
-        "eyebrow": "Ingenieurs-Dienstleistungen & Support",
-        "title1": "Technologische",
-        "title2": "Überlegenheit.",
-        "desc": "Kein Raum für Kompromisse. Absolute Präzision in der Systemwartung und architekturellen Skalierung. Unser Support-Netzwerk operiert mit eiskalter, industrieller Autorität, um Ihre Infrastruktur gegen jede physikalische oder digitale Bedrohung abzuhärten.",
-        "btnPrimary": "System-Audit anfordern",
-        "btnGhost": "Protokolle einsehen"
+        "eyebrow": "Technischer Support",
+        "title1": "Support, der",
+        "title2": "mitdenkt.",
+        "desc": "Von der Rohrauslegung bis zur Bauabnahme: Unser technischer Support begleitet Planer und Installateure durch jede Phase eines PP-R-Projekts — mit direktem Draht zu den Ingenieuren, die das System entwickelt haben.",
+        "btnPrimary": "Projektanfrage stellen",
+        "btnGhost": "Leistungen ansehen"
       },
       "intro": {
-        "title1": "Infrastruktur ist kein Service.",
-        "title2": "Es ist ein physikalisches Fundament.",
-        "p1": "Wir betrachten IT-Support nicht als nachgelagerten Prozess, sondern als integralen Bestandteil der Systemarchitektur. Wenn Ihre Systeme ausfallen, steht die Produktion still. Das ist inakzeptabel.",
-        "p2": "Unsere Ingenieure arbeiten mit chirurgischer Präzision. Jedes Log-File wird analysiert, jede Latenz-Spitze untersucht. Wir bauen Systeme, die sich selbst heilen, und flankieren sie mit einem Support Team, das reagiert, bevor Ihre Monitoring-Dashboards überhaupt rot aufleuchten.",
-        "p3": "Willkommen beim deutschen Standard für Hochverfügbarkeit."
+        "title1": "Support ist kein Callcenter.",
+        "title2": "Es ist ein Ingenieursteam.",
+        "p1": "Wir betrachten technischen Support nicht als nachgelagerten Service, sondern als festen Bestandteil jedes Projekts. Wenn auf der Baustelle eine Schweißnaht unklar ist oder eine Druckprüfung nicht wie erwartet ausfällt, zählt jede Stunde.",
+        "p2": "Unsere Ingenieure kennen jede Charge, jede Norm und jede Verarbeitungsvorschrift unserer Systeme aus erster Hand. Sie prüfen Isometrien, rechnen Druckverluste nach und stehen bei der Inbetriebnahme direkt am Rohr.",
+        "p3": "Das ist der Anspruch deutscher Ingenieurskunst — angewendet auf reale Baustellen, nicht auf Server-Racks."
       },
       "bento": {
-        "eyebrow": "Architektur & Consulting",
-        "title": "Konstruiert für die Ewigkeit",
-        "lead": "Unsere Dienstleistungen gehen weit über klassischen Support hinaus. Wir entwerfen, bauen und härten Ihre Kerninfrastruktur mit kompromissloser Ingenieurskunst.",
+        "eyebrow": "Leistungen im Überblick",
+        "title": "Support entlang des gesamten Projekts",
+        "lead": "Von der ersten Planung bis zur laufenden Wartung — unser Team begleitet Ihr PP-R-System durch jede Phase.",
         "items": [
           {
-            "title": "Zero-Downtime Migrationen",
-            "desc": "Wir transferieren Petabytes an Daten zwischen Legacy-Systemen und modernen Clustern ohne eine einzige Millisekunde Ausfallzeit. Perfekt choreografierte Datenströme."
+            "title": "Hydraulische Auslegung & Isometrien",
+            "desc": "Wir prüfen Ihre Planungsunterlagen, rechnen Druckverluste und Dimensionierung nach und liefern eine belastbare Materialliste vor Baubeginn."
           },
           {
-            "title": "Hardware-Level Optimierung",
-            "desc": "Kernel-Tuning, Speicher-Allokations-Optimierung und Netzwerk-Stack-Anpassungen für maximale Durchsatzraten."
+            "title": "Schweißtechnische Betreuung",
+            "desc": "Unsere Techniker begleiten die Muffen- und Heizwendel-Schweißung vor Ort, kontrollieren Prozessparameter und schulen Ihr Montageteam auf Wunsch direkt auf der Baustelle."
           },
           {
-            "title": "Sicherheits-Enklaven",
-            "desc": "Aufbau isolierter, kryptographisch gesicherter Subnetzwerke für Ihre sensibelsten Unternehmensdaten."
+            "title": "Druckprüfung & Abnahme",
+            "desc": "Wir unterstützen bei Durchführung und Dokumentation der Druckprüfung nach DIN 1988 und stellen die für die Bauabnahme benötigten Prüfprotokolle bereit."
           },
           {
-            "title": "API- & Backend-Schmiede",
-            "desc": "Entwicklung robuster, ratenlimitierter und extrem performanter APIs, die Millionen von Requests pro Sekunde mühelos verarbeiten."
+            "title": "Ersatzteil- & Zubehörservice",
+            "desc": "Schnelle Lieferung von Formteilen, Armaturen und Originalzubehör — auch für Bestandsanlagen und ältere K-Aqua-Chargen."
           },
           {
-            "title": "Dedizierte Notstrom-Konzepte",
-            "desc": "Physische und digitale Redundanz-Pläne. Vom Rechenzentrums-Failover bis zur Geo-Redundanz über drei Kontinente."
+            "title": "Ferndiagnose & Vor-Ort-Einsatz",
+            "desc": "Bei ungeklärten Fragen zur Verarbeitung oder unklaren Prüfergebnissen ruft unser technischer Support kurzfristig zurück — bei Bedarf mit Einsatz eines Richtmeisters vor Ort."
           }
         ]
       },
       "metrics": {
-        "badge": "Absolute Verlässlichkeit",
-        "title1": "geprüfte",
-        "title2": "Ausfallsicherheit.",
-        "p1": "Wir arbeiten nach den Prinzipien der deutschen Ingenieurskunst: Was gebaut wird, muss funktionieren. Immer. Unter allen Umständen.",
-        "p2": "Unsere Systeme sind nach ISO 27001 geprüft und erfüllen die strengsten Compliance-Vorgaben weltweit. Jeder Eingriff in Ihre Infrastruktur wird auditiert, kryptographisch signiert und unveränderlich protokolliert.",
+        "badge": "Verlässlichkeit in Zahlen",
+        "title1": "Geprüfte",
+        "title2": "Zuverlässigkeit.",
+        "p1": "Wir arbeiten nach den Prinzipien deutscher Ingenieurskunst: Was wir liefern, muss halten — unter allen Baustellenbedingungen.",
+        "p2": "Jedes K-Aqua-System ist nach DVGW, SKZ und KIWA zertifiziert. Jede Charge ist rückverfolgbar, jede Schweißnaht dokumentierbar.",
         "items": [
-          "99.999% garantierte Uptime (SLA-gestützt)",
-          "End-to-End Verschlüsselung aller Telemetrie-Daten",
-          "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
-          "Monatliche Penetrationstests durch unabhängige Red-Teams"
+          "Antwort auf technische Anfragen innerhalb eines Arbeitstages",
+          "Über 50 Jahre dokumentierte Systemlebensdauer bei sachgerechter Installation",
+          "Direkter Draht zum technischen Vertrieb ohne Warteschleife",
+          "Schulungen und Zertifizierungen über die K-Aqua Academy"
         ]
       },
       "cta": {
-        "title1": "Bereit für",
-        "title2": "kompromisslose",
-        "title3": "Stabilität?",
-        "desc": "Lassen Sie Ihre Infrastruktur von Ingenieuren auditieren, die Ausfälle nicht als Pech, sondern als Design-Fehler betrachten.",
-        "btnPrimary": "Infrastruktur-Audit initiieren",
+        "title1": "Bereit für Ihr",
+        "title2": "nächstes",
+        "title3": "Projekt?",
+        "desc": "Lassen Sie Ihr Vorhaben von Ingenieuren begleiten, die PP-R-Systeme nicht nur verkaufen, sondern selbst entwickeln und fertigen.",
+        "btnPrimary": "Anfrage starten",
         "btnGhost": "Experten kontaktieren"
       }
     },

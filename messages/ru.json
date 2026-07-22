@@ -5468,67 +5468,67 @@
         "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
       },
       "hero": {
-        "eyebrow": "Ingenieurs-Dienstleistungen & Support",
-        "title1": "Technologische",
-        "title2": "Überlegenheit.",
-        "desc": "Kein Raum für Kompromisse. Absolute Präzision in der Systemwartung und architekturellen Skalierung. Unser Support-Netzwerk operiert mit eiskalter, industrieller Autorität, um Ihre Infrastruktur gegen jede physikalische oder digitale Bedrohung abzuhärten.",
-        "btnPrimary": "System-Audit anfordern",
-        "btnGhost": "Protokolle einsehen"
+        "eyebrow": "Technical Support",
+        "title1": "Support that",
+        "title2": "thinks ahead.",
+        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project — with a direct line to the engineers who developed the system.",
+        "btnPrimary": "Submit a Project Inquiry",
+        "btnGhost": "View Services"
       },
       "intro": {
-        "title1": "Infrastruktur ist kein Service.",
-        "title2": "Es ist ein physikalisches Fundament.",
-        "p1": "Wir betrachten IT-Support nicht als nachgelagerten Prozess, sondern als integralen Bestandteil der Systemarchitektur. Wenn Ihre Systeme ausfallen, steht die Produktion still. Das ist inakzeptabel.",
-        "p2": "Unsere Ingenieure arbeiten mit chirurgischer Präzision. Jedes Log-File wird analysiert, jede Latenz-Spitze untersucht. Wir bauen Systeme, die sich selbst heilen, und flankieren sie mit einem Support-Team, das reagiert, bevor Ihre Monitoring-Dashboards überhaupt rot aufleuchten.",
-        "p3": "Willkommen beim deutschen Standard für Hochverfügbarkeit."
+        "title1": "Support isn't a call center.",
+        "title2": "It's an engineering team.",
+        "p1": "We don't treat technical support as an afterthought — it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
+        "p2": "Our engineers know every batch, every standard, and every processing specification of our systems first-hand. They review isometric drawings, recalculate pressure losses, and stand at the pipe itself during commissioning.",
+        "p3": "That's the standard of German engineering — applied to real job sites, not server racks."
       },
       "bento": {
-        "eyebrow": "Architektur & Consulting",
-        "title": "Konstruiert für die Ewigkeit",
-        "lead": "Unsere Dienstleistungen gehen weit über klassischen Support hinaus. Wir entwerfen, bauen und härten Ihre Kerninfrastruktur mit kompromissloser Ingenieurskunst.",
+        "eyebrow": "Services at a Glance",
+        "title": "Support across the entire project",
+        "lead": "From initial planning to ongoing maintenance — our team supports your PP-R system through every phase.",
         "items": [
           {
-            "title": "Zero-Downtime Migrationen",
-            "desc": "Wir transferieren Petabytes an Daten zwischen Legacy-Systemen und modernen Clustern ohne eine einzige Millisekunde Ausfallzeit. Perfekt choreografierte Datenströme."
+            "title": "Hydraulic Sizing & Isometrics",
+            "desc": "We review your planning documents, recalculate pressure losses and dimensioning, and deliver a reliable materials list before construction begins."
           },
           {
-            "title": "Hardware-Level Optimierung",
-            "desc": "Kernel-Tuning, Speicher-Allokations-Optimierung und Netzwerk-Stack-Anpassungen für maximale Durchsatzraten."
+            "title": "Welding Supervision",
+            "desc": "Our technicians support socket and electrofusion welding on site, monitor process parameters, and train your installation crew directly on the job site on request."
           },
           {
-            "title": "Sicherheits-Enklaven",
-            "desc": "Aufbau isolierter, kryptographisch gesicherter Subnetzwerke für Ihre sensibelsten Unternehmensdaten."
+            "title": "Pressure Testing & Sign-Off",
+            "desc": "We assist with performing and documenting pressure tests to DIN 1988 and provide the test records required for construction sign-off."
           },
           {
-            "title": "API- & Backend-Schmiede",
-            "desc": "Entwicklung robuster, ratenlimitierter und extrem performanter APIs, die Millionen von Requests pro Sekunde mühelos verarbeiten."
+            "title": "Spare Parts & Accessories Service",
+            "desc": "Fast delivery of fittings, valves, and genuine accessories — including for existing installations and older K-Aqua batches."
           },
           {
-            "title": "Dedizierte Notstrom-Konzepte",
-            "desc": "Physische und digitale Redundanz-Pläne. Vom Rechenzentrums-Failover bis zur Geo-Redundanz über drei Kontinente."
+            "title": "Remote Diagnosis & On-Site Support",
+            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly — deploying a site supervisor in person when needed."
           }
         ]
       },
       "metrics": {
-        "badge": "Absolute Verlässlichkeit",
-        "title1": "geprüfte",
-        "title2": "Ausfallsicherheit.",
-        "p1": "Wir arbeiten nach den Prinzipien der deutschen Ingenieurskunst: Was gebaut wird, muss funktionieren. Immer. Unter allen Umständen.",
-        "p2": "Unsere Systeme sind nach ISO 27001 geprüft und erfüllen die strengsten Compliance-Vorgaben weltweit. Jeder Eingriff in Ihre Infrastruktur wird auditiert, kryptographisch signiert und unveränderlich protokolliert.",
+        "badge": "Reliability by the Numbers",
+        "title1": "Proven",
+        "title2": "reliability.",
+        "p1": "We work by the principles of German engineering: what we deliver has to hold — under any job-site condition.",
+        "p2": "Every K-Aqua system is certified to DVGW, SKZ, and KIWA. Every batch is traceable, every weld joint fully documentable.",
         "items": [
-          "99.999% garantierte Uptime (SLA-gestützt)",
-          "End-to-End Verschlüsselung aller Telemetrie-Daten",
-          "Dedizierte TAMs (Technical Account Manager) für Enterprise-Kunden",
-          "Monatliche Penetrationstests durch unabhängige Red-Teams"
+          "Response to technical inquiries within one business day",
+          "Over 50 years of documented system service life with correct installation",
+          "Direct line to technical sales, no queues",
+          "Training and certification through the K-Aqua Academy"
         ]
       },
       "cta": {
-        "title1": "Bereit für",
-        "title2": "kompromisslose",
-        "title3": "Stabilität?",
-        "desc": "Lassen Sie Ihre Infrastruktur von Ingenieuren auditieren, die Ausfälle nicht als Pech, sondern als Design-Fehler betrachten.",
-        "btnPrimary": "Infrastruktur-Audit initiieren",
-        "btnGhost": "Experten kontaktieren"
+        "title1": "Ready for your",
+        "title2": "next",
+        "title3": "project?",
+        "desc": "Have your project supported by engineers who don't just sell PP-R systems — they design and manufacture them.",
+        "btnPrimary": "Start Your Inquiry",
+        "btnGhost": "Contact Our Experts"
       }
     },
     "downloads": {
