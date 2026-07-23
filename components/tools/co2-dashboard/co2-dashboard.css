@@ -106,8 +106,8 @@
 }
 
 @media (max-height:700px){
-  .dash-main{gap:8px;padding:var(--sp-4)}
-  .dash-header{gap:4px}
+  .dash-main{gap:8px;padding:var(--sp-5) var(--sp-4) var(--sp-4)}
+  .dash-header{gap:4px;margin-top:12px}
   .dash-bignum{font-size:clamp(32px,6vw,64px)}
   .dash-kpis{flex-wrap:nowrap;overflow-x:auto;gap:8px}
   .dash-tab-content{gap:8px}
@@ -124,8 +124,10 @@
   .dash-shell{grid-template-columns:1fr;grid-template-rows:3fr 2fr}
   .dash-sidebar{order:2;border-right:none;border-top:1px solid var(--card-border);padding:var(--sp-3) var(--sp-4) var(--sp-4)}
   .dash-sheet-handle{display:block;width:40px;height:4px;border-radius:2px;background:var(--card-border);margin:0 auto var(--sp-2)}
-  .dash-main{order:1;padding:var(--sp-4);gap:var(--sp-3)}
+  .dash-main{order:1;padding:var(--sp-5) var(--sp-4) var(--sp-4);gap:var(--sp-3)}
+  .dash-header{margin-top:12px}
   .dash-bignum{font-size:clamp(36px,11vw,64px)}
+  .dash-kpis{flex-wrap:wrap;gap:var(--sp-3)}
   .dash-chart-card{padding:var(--sp-4)}
   .dash-ticker{gap:8px}
   .dash-ticker-item{min-width:0;padding:9px 12px}

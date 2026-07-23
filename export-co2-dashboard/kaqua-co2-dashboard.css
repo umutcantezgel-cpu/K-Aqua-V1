@@ -1,172 +1,4 @@
-/* ============================================================
-   K-Aqua Redesign — Semantic Design Tokens
-   Doc 07: Geometric Modern (Outfit + Inter)
-   Doc 08: Bento Box Grid + Glassmorphism, OLED dark (#0A0A0F)
-   Brand: K-Aqua purple #5B2D8C + aqua accent
-   ============================================================ */
-
-@font-face {
-  font-family: 'Outfit';
-  src: url('fonts/outfit-variable-latin.woff2') format('woff2');
-  font-weight: 100 900;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/inter-variable-latin.woff2') format('woff2');
-  font-weight: 100 900;
-  font-display: swap;
-}
-
-:root {
-  /* primitives */
-  --brand-h: 271;            /* hue of #5B2D8C */
-  --brand-50:  oklch(0.97 0.02 305);
-  --brand-100: oklch(0.93 0.045 305);
-  --brand-200: oklch(0.86 0.08 305);
-  --brand-300: oklch(0.76 0.12 305);
-  --brand-400: oklch(0.62 0.16 303);
-  --brand-500: oklch(0.51 0.18 302);
-  --brand-600: oklch(0.44 0.17 302);  /* ≈ #5B2D8C */
-  --brand-700: oklch(0.38 0.15 302);
-  --brand-800: oklch(0.31 0.12 302);
-  --brand-900: oklch(0.25 0.09 302);
-  --aqua-300: oklch(0.85 0.09 210);
-  --aqua-400: oklch(0.77 0.11 215);
-  --aqua-500: oklch(0.68 0.12 220);
-  --aqua-600: oklch(0.56 0.11 225);
-
-  /* type */
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
-
-  /* spacing (4/8pt) */
-  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
-  --sp-6: 24px; --sp-8: 32px; --sp-12: 48px; --sp-16: 64px;
-  --sp-24: 96px;
-
-  --radius: 16px;
-  --radius-lg: 24px;
-  --radius-full: 9999px;
-
-  --dur-fast: 150ms;
-  --dur: 250ms;
-  --ease: cubic-bezier(0.4, 0, 0.2, 1);
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-
-  --container: 1200px;
-}
-
-/* ---------- semantic: light ---------- */
-[data-theme="light"] {
-  color-scheme: light;
-  --background: oklch(0.985 0.004 300);
-  --background-subtle: oklch(0.965 0.008 302);
-  --foreground: oklch(0.22 0.03 300);
-  --muted-foreground: oklch(0.48 0.025 300);
-  --faint-foreground: oklch(0.62 0.02 300);
-  --card: #ffffff;
-  --card-border: oklch(0.91 0.012 302);
-  --card-tint: var(--brand-50);
-  --primary: var(--brand-600);
-  --primary-hover: var(--brand-700);
-  --primary-foreground: #ffffff;
-  --primary-soft: oklch(0.95 0.03 305);
-  --accent: var(--aqua-500);
-  --accent-strong: var(--aqua-600);
-  --ring: var(--brand-400);
-  --inverse-surface: oklch(0.21 0.04 300);
-  --inverse-foreground: oklch(0.97 0.01 300);
-  --nav-glass: oklch(0.985 0.004 300 / 0.72);
-  --nav-border: oklch(0.5 0.03 300 / 0.12);
-  --shadow-diffuse: 0 1px 2px oklch(0.3 0.05 300 / 0.05), 0 8px 24px -8px oklch(0.3 0.08 300 / 0.12);
-  --shadow-lift: 0 2px 4px oklch(0.3 0.05 300 / 0.06), 0 16px 40px -12px oklch(0.3 0.1 300 / 0.22);
-  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.93 0.05 305 / 0.85), transparent 65%),
-               radial-gradient(900px 480px at 12% 110%, oklch(0.93 0.05 215 / 0.7), transparent 60%);
-}
-
-/* ---------- semantic: dark (OLED) ---------- */
-[data-theme="dark"] {
-  color-scheme: dark;
-  --background: #0A0A0F;
-  --background-subtle: oklch(0.17 0.015 300);
-  --foreground: oklch(0.94 0.008 300);
-  --muted-foreground: oklch(0.7 0.015 300);
-  --faint-foreground: oklch(0.55 0.015 300);
-  --card: oklch(0.185 0.02 300);
-  --card-border: oklch(0.3 0.025 300 / 0.7);
-  --card-tint: oklch(0.22 0.04 302);
-  --primary: var(--brand-400);
-  --primary-hover: var(--brand-300);
-  --primary-foreground: oklch(0.13 0.02 300);
-  --primary-soft: oklch(0.24 0.06 302);
-  --accent: var(--aqua-400);
-  --accent-strong: var(--aqua-300);
-  --ring: var(--brand-300);
-  --inverse-surface: oklch(0.94 0.008 300);
-  --inverse-foreground: oklch(0.17 0.02 300);
-  --nav-glass: oklch(0.12 0.015 300 / 0.66);
-  --nav-border: oklch(0.9 0.02 300 / 0.1);
-  --shadow-diffuse: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -8px rgb(0 0 0 / 0.6);
-  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.5), 0 16px 40px -12px rgb(0 0 0 / 0.7);
-  --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.3 0.08 302 / 0.55), transparent 65%),
-               radial-gradient(900px 480px at 12% 110%, oklch(0.3 0.06 220 / 0.4), transparent 60%);
-}
-
-/* ---------- base ---------- */
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: var(--font-body);
-  background: var(--background);
-  color: var(--foreground);
-  line-height: 1.65;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  /* NOTE: intentionally no transition on background-color/color here.
-     A transition on a custom-property-driven background/color, combined
-     with the theme swap happening via a [data-theme] attribute-selector
-     change (not a direct var() reassignment), left computed styles stuck
-     at their pre-swap values in testing — the safe, correct fix is an
-     instant (non-transitioned) theme swap on body. */
-}
-img { max-width: 100%; display: block; }
-a { color: inherit; }
-button { font: inherit; }
-
-::selection { background: var(--primary); color: var(--primary-foreground); }
-
-:focus-visible {
-  outline: 2px solid var(--ring);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-/* ---------- reveal animation ----------
-   Hidden/transition states only apply when html.anim-ok is set (added on first
-   requestAnimationFrame). In non-painting capture iframes rAF never fires, the
-   class is absent, and content renders in its final visible state. */
-@media (prefers-reduced-motion: no-preference) {
-  html.anim-ok .reveal:not(.reveal-settled) {
-    transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
-    transition-delay: var(--reveal-delay, 0ms);
-  }
-  html.anim-ok .reveal.reveal-pre { opacity: 0; transform: translateY(22px); }
-}
-
-/* ---------- scrollbar ---------- */
-::-webkit-scrollbar { width: 10px; height: 10px; }
-::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 5px; }
-::-webkit-scrollbar-track { background: transparent; }
-/* html,body{height:100%;overflow:hidden;overscroll-behavior:none} */
-.co2-dashboard-root { top: var(--header-h); height: calc(100dvh - var(--header-h)); width: 100vw; position: fixed; right: 0; bottom: 0; left: 0; z-index: 50; background: var(--background); overflow: hidden; overscroll-behavior: none; }
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
 #root{height:100%}
 .dash-shell{height:100%;width:100%;display:grid;grid-template-columns:380px 1fr;overflow:hidden}
 .dash-sheet-handle{display:none}
@@ -274,8 +106,8 @@ button { font: inherit; }
 }
 
 @media (max-height:700px){
-  .dash-main{gap:8px;padding:var(--sp-5) var(--sp-4) var(--sp-4)}
-  .dash-header{gap:4px;margin-top:12px}
+  .dash-main{gap:8px;padding:var(--sp-4)}
+  .dash-header{gap:4px}
   .dash-bignum{font-size:clamp(32px,6vw,64px)}
   .dash-kpis{flex-wrap:nowrap;overflow-x:auto;gap:8px}
   .dash-tab-content{gap:8px}
@@ -292,10 +124,8 @@ button { font: inherit; }
   .dash-shell{grid-template-columns:1fr;grid-template-rows:3fr 2fr}
   .dash-sidebar{order:2;border-right:none;border-top:1px solid var(--card-border);padding:var(--sp-3) var(--sp-4) var(--sp-4)}
   .dash-sheet-handle{display:block;width:40px;height:4px;border-radius:2px;background:var(--card-border);margin:0 auto var(--sp-2)}
-  .dash-main{order:1;padding:var(--sp-5) var(--sp-4) var(--sp-4);gap:var(--sp-3)}
-  .dash-header{margin-top:12px}
+  .dash-main{order:1;padding:var(--sp-4);gap:var(--sp-3)}
   .dash-bignum{font-size:clamp(36px,11vw,64px)}
-  .dash-kpis{flex-wrap:wrap;gap:var(--sp-3)}
   .dash-chart-card{padding:var(--sp-4)}
   .dash-ticker{gap:8px}
   .dash-ticker-item{min-width:0;padding:9px 12px}
@@ -486,7 +316,7 @@ button.dash-rail-row:hover{border-color:var(--primary)}
 .co2-coach p{color:var(--muted-foreground);line-height:1.55}
 .co2-coach-actions{display:flex;justify-content:flex-end;gap:6px}
 @media print{
-  /* html,body{overflow:visible!important;height:auto!important} */
+  html,body{overflow:visible!important;height:auto!important}
   body *{visibility:hidden}
   .co2-report-sheet,.co2-report-sheet *{visibility:visible}
   .co2-report-sheet{position:absolute;left:0;top:0;width:100%;border:0;box-shadow:none;border-radius:0}

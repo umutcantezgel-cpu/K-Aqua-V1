@@ -1,0 +1,347 @@
+--- Diff for Co2ChartCore ---
+-import React, { useState as uCS, useRef as uCR, useMemo as uCM, useEffect as uCE } from 'react';
+-import { Icons } from './Co2UI';
+-import { Co2GridLabels, Co2Flag, Co2BreakEvenTag, Co2TooltipPanel } from './Co2ChartOverlay';
+-import { useTweenedSeries } from '../../../lib/co2-anim';
++/* K-Aqua CO2 Dashboard — Chart-Core v3: vier Ansichten (kumulativ/jährlich/
++   Differenz/indexiert), Brush-Zoom mit Mini-Map, Mausrad/Pinch, Playback mit
++   Pause/Geschwindigkeit/Scrubber, aktive Legende, Unsicherheitsband,
++   Tastatursteuerung, Tap-to-Pin, Gitter on demand, Szenario-Overlays. */
++const { useState: uCS, useRef: uCR, useMemo: uCM, useEffect: uCE } = React;
++
+-export { Co2Chart, MiniSparkline, catmullRomPath, CO2_VIEWS };
++Object.assign(window, { Co2Chart, MiniSparkline, catmullRomPath, CO2_VIEWS });
+--- Diff for Co2DashBreakdown ---
+-import React, { useState as useSB } from 'react';
++/* K-Aqua CO2 Dashboard — Phasen-Aufschlüsselung: gestapelte Balken je Werkstoff,
++   hoverbare Segmente mit Tooltip (Wert + Anteil). */
++const { useState: useSB } = React;
+-export function Co2Breakdown({ results, phases, fmt, horizonYears }: any) {
+-  const [hover, setHover] = useSB<any>(null);
++function Co2Breakdown({ results, phases, fmt, horizonYears }) {
++  const [hover, setHover] = useSB(null);
+-        {phases.map((p: any) => (
++        {phases.map((p) => (
+-                {phases.map((p: any) => {
++                {phases.map((p) => {
++
++Object.assign(window, { Co2Breakdown });
+--- Diff for Co2DashModules ---
+-import React, { useState as uMS, useMemo as uMM, useEffect as uME } from 'react';
+-import { Icons } from './Co2UI';
+-import { MiniSparkline } from './Co2ChartCore';
+-import { useTweenedValue } from '../../../lib/co2-anim';
+-import { CO2_EQUIVALENTS, CO2_MATERIALS, CO2_REGIONS, CO2_PHASES, CO2_DISCLAIMER, computeFullResult, co2PressureLossPaPerM, co2WallMm, pipeMassKg } from '../../../lib/co2-data';
++/* K-Aqua CO2 Dashboard — Module: Break-even-Karte, interaktive Äquivalente,
++   Sensitivitäts-Tornado, Regionen-Kacheln, Lebenszyklus-Feed, Material-Dossier,
++   Onboarding-Coachmarks. */
++const { useState: uMS, useMemo: uMM, useEffect: uME } = React;
+-export function BreakEvenCard({ breakEven, savings, oppLabel, horizon, diffPoints, fmt }: any) {
++function BreakEvenCard({ breakEven, savings, oppLabel, horizon, diffPoints, fmt }) {
+-export function EquivalentsCard({ savings }: any) {
++function EquivalentsCard({ savings }) {
+-  { id: 'length', label: 'Trassenlänge', vary: (c: any, f: number) => ({ ...c, lengthM: c.lengthM * f }) },
+-  { id: 'd', label: 'Nennweite', vary: (c: any, f: number) => ({ ...c, d: c.d * f }) },
+-  { id: 'flow', label: 'Durchfluss', vary: (c: any, f: number) => ({ ...c, flowLps: c.flowLps * f }) },
+-  { id: 'region', label: 'Strommix', vary: (c: any, f: number) => ({ ...c, region: { ...c.region, gridIntensity: c.region.gridIntensity * f } }) },
+-  { id: 'transport', label: 'Transportweg', vary: (c: any, f: number) => ({ ...c, transportKm: c.transportKm * f }) },
++  { id: 'length', label: 'Trassenlänge', vary: (c, f) => ({ ...c, lengthM: c.lengthM * f }) },
++  { id: 'd', label: 'Nennweite', vary: (c, f) => ({ ...c, d: c.d * f }) },
++  { id: 'flow', label: 'Durchfluss', vary: (c, f) => ({ ...c, flowLps: c.flowLps * f }) },
++  { id: 'region', label: 'Strommix', vary: (c, f) => ({ ...c, region: { ...c.region, gridIntensity: c.region.gridIntensity * f } }) },
++  { id: 'transport', label: 'Transportweg', vary: (c, f) => ({ ...c, transportKm: c.transportKm * f }) },
+-
+-export function SensitivityCard({ ctx, opponentId, horizon, onFocusField, fmt }: any) {
++function SensitivityCard({ ctx, opponentId, horizon, onFocusField, fmt }) {
+-    const sav = (c: any) => computeFullResult(opM, c, horizon).grandTotal - computeFullResult(ka, c, horizon).grandTotal;
++    const sav = (c) => computeFullResult(opM, c, horizon).grandTotal - computeFullResult(ka, c, horizon).grandTotal;
+-  const pos = (v: number) => ((v - data.gmin) / Math.max(1e-9, data.gmax - data.gmin)) * 100;
++  const pos = (v) => ((v - data.gmin) / Math.max(1e-9, data.gmax - data.gmin)) * 100;
+-export function RegionTiles({ ctx, opponentId, horizon, currentId, onPick, fmt }: any) {
++function RegionTiles({ ctx, opponentId, horizon, currentId, onPick, fmt }) {
+-    return { rg, savings: op.grandTotal - ka.grandTotal, diff: ka.points.map((p: any, i: number) => ({ value: op.points[i].value - p.value })) };
++    return { rg, savings: op.grandTotal - ka.grandTotal, diff: ka.points.map((p, i) => ({ value: op.points[i].value - p.value })) };
+-export function LifecycleFeed({ events, horizon, onHoverYear, fmt }: any) {
++function LifecycleFeed({ events, horizon, onHoverYear, fmt }) {
+-      {events.map((ev: any, i: number) => (
++      {events.map((ev, i) => (
+-export function MaterialDrawer({ result, horizon, onClose, fmt }: any) {
++function MaterialDrawer({ result, horizon, onClose, fmt }) {
+-    function onEsc(e: any) { if (e.key === 'Escape') onClose(); }
++    function onEsc(e) { if (e.key === 'Escape') onClose(); }
+-
+-export function Co2Coachmarks() {
++function Co2Coachmarks() {
+-    try {
+-      if (typeof window === 'undefined') return null;
+-      return localStorage.getItem('kaqua-co2-coach-v1') ? null : 0; 
+-    } catch (e) { return null; }
++    try { return localStorage.getItem('kaqua-co2-coach-v1') ? null : 0; } catch (e) { return null; }
++
++Object.assign(window, { BreakEvenCard, EquivalentsCard, SensitivityCard, RegionTiles, LifecycleFeed, MaterialDrawer, Co2Coachmarks });
+--- Diff for Co2DashPortfolio ---
+-import React, { useState as uPS, useMemo as uPM } from 'react';
+-import { Icons } from './Co2UI';
+-import { MiniSparkline } from './Co2ChartCore';
+-import { computeFullResult, CO2_MATERIALS, CO2_DIAMETERS, CO2_SDR_CLASSES } from '../../../lib/co2-data';
++/* K-Aqua CO2 Dashboard — Strang-Portfolio: mehrere Trassen als editierbare
++   Zeilen, aggregiert wahlweise in Kopfzeile & Chart (Watchlist-Pattern). */
++const { useState: uPS, useMemo: uPM } = React;
+-export function Co2Portfolio({ rows, setRows, usePortfolio, setUsePortfolio, defaults, sharedCtx, opponentId, horizon, fmt }: any) {
+-  const calc = uPM(() => rows.map((r: any) => {
++function Co2Portfolio({ rows, setRows, usePortfolio, setUsePortfolio, defaults, sharedCtx, opponentId, horizon, fmt }) {
++  const calc = uPM(() => rows.map((r) => {
+-  const on = rows.filter((r: any) => r.on);
+-  const totalSav = rows.reduce((a: number, r: any) => a + (r.on ? (calc.find((c: any) => c.id === r.id) || { savings: 0 }).savings : 0), 0);
+-  const totalKm = on.reduce((a: number, r: any) => a + r.lengthKm, 0);
+-  function up(id: string, patch: any) { setRows(rows.map((r: any) => (r.id === id ? { ...r, ...patch } : r))); }
++  const on = rows.filter((r) => r.on);
++  const totalSav = rows.reduce((a, r) => a + (r.on ? (calc.find((c) => c.id === r.id) || { savings: 0 }).savings : 0), 0);
++  const totalKm = on.reduce((a, r) => a + r.lengthKm, 0);
++  function up(id, patch) { setRows(rows.map((r) => (r.id === id ? { ...r, ...patch } : r))); }
+-          {rows.map((r: any) => {
+-            const c = calc.find((x: any) => x.id === r.id) || { savings: 0, spark: [] };
++          {rows.map((r) => {
++            const c = calc.find((x) => x.id === r.id) || { savings: 0, spark: [] };
+-                <button type="button" className="co2-mini-btn is-danger" onClick={() => setRows(rows.filter((x: any) => x.id !== r.id))} aria-label={`${r.name} löschen`}><Icons.X size={13} /></button>
++                <button type="button" className="co2-mini-btn is-danger" onClick={() => setRows(rows.filter((x) => x.id !== r.id))} aria-label={`${r.name} löschen`}><Icons.X size={13} /></button>
++Object.assign(window, { Co2Portfolio });
+--- Diff for Co2DashReport ---
+-import React from 'react';
+-import { Icons, KAquaLogo } from './Co2UI';
+-import { catmullRomPath } from './Co2ChartCore';
+-import { CO2_PHASES, CO2_SEO_COPY, CO2_DISCLAIMER } from '../../../lib/co2-data';
+-
+-export function Co2ReportChart({ series }: any) {
++/* K-Aqua CO2 Dashboard — Bericht: druckbarer Einseiter (DIN A4) mit
++   Parametern, Ergebnis, statischem Chart, Phasen-Tabelle und Methodik. */
++function Co2ReportChart({ series }) {
+-  const max = Math.max(1, ...series.flatMap((s: any) => s.points.map((p: any) => p.value)));
++  const max = Math.max(1, ...series.flatMap((s) => s.points.map((p) => p.value)));
+-        {series.map((s: any) => (
++        {series.map((s) => (
+-      {series.map((s: any) => {
+-        const coords = s.points.map((p: any, i: number) => ({ x: (i / Math.max(1, s.points.length - 1)) * W, y: 10 + (1 - p.value / max) * (H - 16) }));
++      {series.map((s) => {
++        const coords = s.points.map((p, i) => ({ x: (i / Math.max(1, s.points.length - 1)) * W, y: 10 + (1 - p.value / max) * (H - 16) }));
+-export function Co2Report({ paramRows, kaquaResult, opponentResult, savings, breakEven, horizon, co2Price, fmt }: any) {
++function Co2Report({ paramRows, kaquaResult, opponentResult, savings, breakEven, horizon, co2Price, fmt }) {
+-          {paramRows.map((p: any) => <div key={p[0]}><span>{p[0]}</span><strong>{p[1]}</strong></div>)}
++          {paramRows.map((p) => <div key={p[0]}><span>{p[0]}</span><strong>{p[1]}</strong></div>)}
++Object.assign(window, { Co2Report, Co2ReportChart });
+--- Diff for Co2DashScenarios ---
+-import React, { useState as uSS } from 'react';
+-import { Icons } from './Co2UI';
++/* K-Aqua CO2 Dashboard — Szenario-Manager: Parametersätze einfrieren,
++   vergleichen, als gestrichelte Overlays in den Hauptchart legen (max. 2). */
++const { useState: uSS } = React;
+-export function Co2Scenarios({ paramsNow, scenarios, setScenarios, overlayIds, setOverlayIds, onApply, summarize, describe, fmt }: any) {
++function Co2Scenarios({ paramsNow, scenarios, setScenarios, overlayIds, setOverlayIds, onApply, summarize, describe, fmt }) {
+-  function toggleOverlay(id: string) {
+-    setOverlayIds(overlayIds.indexOf(id) !== -1 ? overlayIds.filter((x: string) => x !== id) : overlayIds.concat(id).slice(-2));
++  function toggleOverlay(id) {
++    setOverlayIds(overlayIds.indexOf(id) !== -1 ? overlayIds.filter((x) => x !== id) : overlayIds.concat(id).slice(-2));
+-          {scenarios.map((sc: any) => {
++          {scenarios.map((sc) => {
+-                  <button type="button" className="co2-mini-btn is-danger" onClick={() => { setScenarios(scenarios.filter((x: any) => x.id !== sc.id)); setOverlayIds(overlayIds.filter((x: string) => x !== sc.id)); }} aria-label={`${sc.name} löschen`}><Icons.X size={13} /></button>
++                  <button type="button" className="co2-mini-btn is-danger" onClick={() => { setScenarios(scenarios.filter((x) => x.id !== sc.id)); setOverlayIds(overlayIds.filter((x) => x !== sc.id)); }} aria-label={`${sc.name} löschen`}><Icons.X size={13} /></button>
++Object.assign(window, { Co2Scenarios });
+--- Diff for Co2Dashboard ---
+-'use client';
+-import React, { useState as useSD, useMemo as useMemoD, useEffect as useED } from 'react';
+-import { Icons, KAquaLogo } from './Co2UI';
+-import { useTweenedValue } from '../../../lib/co2-anim';
+-import { Co2Chart, MiniSparkline } from './Co2ChartCore';
+-import { BreakEvenCard, EquivalentsCard, SensitivityCard, RegionTiles, LifecycleFeed, MaterialDrawer, Co2Coachmarks } from './Co2DashModules';
+-import { Co2Breakdown } from './Co2DashBreakdown';
+-import { Co2Scenarios } from './Co2DashScenarios';
+-import { Co2Portfolio } from './Co2DashPortfolio';
+-import { Co2Report } from './Co2DashReport';
+-import { useTheme } from 'next-themes';
+-import { 
+-  co2Trees, co2CarKm, co2Fmt,
+-  co2PressureLossPaPerM, co2LifespanGuide, computeFullResult, 
+-  computePortfolioResult, findBreakEven, CO2_PRESETS, CO2_DIAMETERS, 
+-  CO2_SDR_CLASSES, CO2_MATERIALS, CO2_REGIONS, CO2_OPERATING_MODES, 
+-  CO2_SEO_COPY, CO2_SOURCES, CO2_DISCLAIMER, CO2_PHASES 
+-} from '../../../lib/co2-data';
+-import { co2EncodeHash, co2DecodeHash } from '../../../lib/co2-share';
++/* K-Aqua CO2 Dashboard — App-Shell v3: Presets, Horizont/Klimapfad/Formteil/
++   CO₂-Preis-Regler, 6 Tabs (inkl. Szenarien, Stränge, Bericht), aktive Rail
++   (Dossier, Regionen, Feed), Share-Link im URL-Hash, Coachmarks. */
++const { useState: useSD, useMemo: useMemoD, useEffect: useED } = React;
++const CO2_INIT = (window.co2DecodeHash && co2DecodeHash()) || {};
++const co2Pk = (k, d) => (CO2_INIT[k] == null ? d : CO2_INIT[k]);
+-const CO2_INIT = ((typeof window !== 'undefined' && co2DecodeHash) ? co2DecodeHash() : {}) || {};
+-const co2Pk = (k: string, d: any) => (CO2_INIT[k] == null ? d : CO2_INIT[k]);
+-
+-function RailRow({ result, kaquaTotal, onOpen }: any) {
++function RailRow({ result, kaquaTotal, onOpen }) {
+-      <MiniSparkline points={result.points} color={result.material.color} width={64} height={26}></MiniSparkline>
++      <MiniSparkline points={result.points} color={result.material.color}></MiniSparkline>
+-function Field({ label, children, fid }: any) {
++function Field({ label, children, fid }) {
+-function ChipGroup({ options, value, onChange, render }: any) {
++function ChipGroup({ options, value, onChange, render }) {
+-      {options.map((opt: any) => {
++      {options.map((opt) => {
+-function ThemeToggle({ theme, onToggle }: any) {
++function ThemeToggle({ theme, onToggle }) {
+-export default function Co2Dashboard() {
+-  const { theme, setTheme, resolvedTheme } = useTheme();
+-  const currentTheme = theme === 'system' ? resolvedTheme : theme;
++function Co2Dashboard() {
++  const [theme, setTheme] = useSD(() => { try { return localStorage.getItem('kaqua-co2-theme') || 'dark'; } catch (e) { return 'dark'; } });
++  useED(() => {
++    document.documentElement.setAttribute('data-theme', theme);
++    try { localStorage.setItem('kaqua-co2-theme', theme); } catch (e) {}
++  }, [theme]);
+-  const [oppLife, setOppLife] = useSD<any>(() => Object.assign({ pvc: 50, copper: 50, steel: 50 }, co2Pk('ls', {})));
++  const [oppLife, setOppLife] = useSD(() => Object.assign({ pvc: 50, copper: 50, steel: 50 }, co2Pk('ls', {})));
+-  const [scenarios, setScenarios] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-scenarios-v1') || '[]'); } catch (e) { return []; } });
+-  const [overlayIds, setOverlayIds] = useSD<string[]>([]);
+-  const [portfolioRows, setPortfolioRows] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-portfolio-v1') || '[]'); } catch (e) { return []; } });
++  const [scenarios, setScenarios] = useSD(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-scenarios-v1')) || []; } catch (e) { return []; } });
++  const [overlayIds, setOverlayIds] = useSD([]);
++  const [portfolioRows, setPortfolioRows] = useSD(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-portfolio-v1')) || []; } catch (e) { return []; } });
+-    try { window.history.replaceState(null, '', h || window.location.pathname); } catch (e) {}
++    try { history.replaceState(null, '', h || location.pathname); } catch (e) {}
+-  const manual = (fn: any) => (v: any) => { fn(v); setPresetId(null); };
+-  function applyPreset(p: any) {
++  const manual = (fn) => (v) => { fn(v); setPresetId(null); };
++  function applyPreset(p) {
+-  function applyParams(p: any) {
++  function applyParams(p) {
+-  function focusField(fid: string) {
++  function focusField(fid) {
+-  const diffPoints = useMemoD(() => kaquaResult.points.map((p: any, i: number) => ({ value: (opponentResult.points[i] ? opponentResult.points[i].value : 0) - p.value })), [kaquaResult, opponentResult]);
++  const diffPoints = useMemoD(() => kaquaResult.points.map((p, i) => ({ value: (opponentResult.points[i] ? opponentResult.points[i].value : 0) - p.value })), [kaquaResult, opponentResult]);
+-    return rs.flatMap((r) => r.events.filter((e: any) => e.type === 'replace').map((e: any) => ({ ...e, seriesId: r.material.id === 'kaqua' && seriesMode !== 'all' ? 'kaqua' : r.material.id, materialLabel: r.material.label, color: r.material.color })));
++    return rs.flatMap((r) => r.events.filter((e) => e.type === 'replace').map((e) => ({ ...e, seriesId: r.material.id === 'kaqua' && seriesMode !== 'all' ? 'kaqua' : r.material.id, materialLabel: r.material.label, color: r.material.color })));
+-    .flatMap((r) => r.events.map((e: any) => ({ ...e, materialLabel: r.material.label, color: r.material.color })))
++    .flatMap((r) => r.events.map((e) => ({ ...e, materialLabel: r.material.label, color: r.material.color })))
+-    const out: any[] = [];
++    const out = [];
+-  function summarize(p: any) {
++  function summarize(p) {
+-  function describe(p: any) {
++  function describe(p) {
+-            <ThemeToggle theme={currentTheme} onToggle={() => setTheme(currentTheme === 'dark' ? 'light' : 'dark')} />
++            <ThemeToggle theme={theme} onToggle={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
+-            <ChipGroup options={CO2_SDR_CLASSES} value={sdr} onChange={manual(setSdr)} render={(s: any) => `SDR ${String(s).replace('.', ',')}`} />
++            <ChipGroup options={CO2_SDR_CLASSES} value={sdr} onChange={manual(setSdr)} render={(s) => `SDR ${String(s).replace('.', ',')}`} />
+-            <ChipGroup options={CO2_MATERIALS.filter((m) => m.id !== 'kaqua')} value={opponentId} onChange={setOpponentId} render={(m: any) => m.label} />
++            <ChipGroup options={CO2_MATERIALS.filter((m) => m.id !== 'kaqua')} value={opponentId} onChange={setOpponentId} render={(m) => m.label} />
+-            <ChipGroup options={CO2_REGIONS} value={regionId} onChange={setRegionId} render={(r: any) => r.label} />
++            <ChipGroup options={CO2_REGIONS} value={regionId} onChange={setRegionId} render={(r) => r.label} />
+-            <ChipGroup options={[{ id: 'static', label: 'Statisch' }, { id: 'path', label: 'Klimapfad −2,5 %/a' }]} value={gridPath} onChange={setGridPath} render={(o: any) => o.label} />
++            <ChipGroup options={[{ id: 'static', label: 'Statisch' }, { id: 'path', label: 'Klimapfad −2,5 %/a' }]} value={gridPath} onChange={setGridPath} render={(o) => o.label} />
+-            <ChipGroup options={CO2_OPERATING_MODES} value={opModeId} onChange={manual(setOpModeId)} render={(m: any) => m.label} />
++            <ChipGroup options={CO2_OPERATING_MODES} value={opModeId} onChange={manual(setOpModeId)} render={(m) => m.label} />
++
++
++ReactDOM.createRoot(document.getElementById('root')).render(<Co2Dashboard />);
+--- Diff for Co2UI ---
+-import React, { useState, useEffect, useRef } from 'react';
++// K-Aqua Redesign — shared UI primitives + inline lucide-style icons
++const { useState, useEffect, useRef } = React;
+-const KIcon = ({ d, size = 20, strokeWidth = 2, style, children }: any) => (
++/* ---------- Icons (24x24, stroke 2, lucide-style) ---------- */
++const KIcon = ({ d, size = 20, strokeWidth = 2, style, children }) => (
+-export const Icons: any = {
+-  ArrowRight: (p: any) => <KIcon {...p} d="M5 12h14m-7-7 7 7-7 7" />,
+-  ArrowUpRight: (p: any) => <KIcon {...p} d="M7 17 17 7m-10 0h10v10" />,
+-  Droplet: (p: any) => <KIcon {...p} d="M12 2.7s6.5 7 6.5 12a6.5 6.5 0 1 1-13 0c0-5 6.5-12 6.5-12Z" />,
+-  Download: (p: any) => <KIcon {...p} d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16" />,
+-  Play: (p: any) => <KIcon {...p}><circle cx="12" cy="12" r="10"></circle><path d="m10 8.5 5 3.5-5 3.5z"></path></KIcon>,
+-  Leaf: (p: any) => <KIcon {...p} d="M4 20s.5-8 6-12.5C14.5 3.8 20 4 20 4s.2 5.5-3.5 10C12 19.5 4 20 4 20Zm0 0c2-5 5-8.5 9-11" />,
+-  Recycle: (p: any) => <KIcon {...p} d="m7 19-2.5-4.5L7 10m-2.5 4.5H12m3-9.5h5l-2.6 4.4M17.5 5 15 9.4M9 5h6L12.4 9M9 19h7.5l2.5-4.5" />,
+-  Shield: (p: any) => <KIcon {...p} d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10Zm-3.5-10 2.5 2.5L15.5 10" />,
+-  Layers: (p: any) => <KIcon {...p} d="m12 2 9 5-9 5-9-5 9-5Zm-9 10 9 5 9-5M3 17l9 5 9-5" />,
+-  Thermometer: (p: any) => <KIcon {...p} d="M14 4a2 2 0 0 0-4 0v9.5a4.5 4.5 0 1 0 4 0V4Zm-2 5v6" />,
+-  Globe: (p: any) => <KIcon {...p}><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2c2.7 2.7 4 6.3 4 10s-1.3 7.3-4 10c-2.7-2.7-4-6.3-4-10s1.3-7.3 4-10Z"></path></KIcon>,
+-  Award: (p: any) => <KIcon {...p}><circle cx="12" cy="9" r="6"></circle><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"></path></KIcon>,
+-  Factory: (p: any) => <KIcon {...p} d="M3 21V9l6 4V9l6 4V4h6v17H3Zm4-4h.01M11 17h.01M15 17h.01" />,
+-  Wrench: (p: any) => <KIcon {...p} d="M14.7 6.3a4.5 4.5 0 0 0-5.9 5.9L3 18l3 3 5.8-5.8a4.5 4.5 0 0 0 5.9-5.9L14.5 12 12 9.5l2.7-3.2Z" />,
+-  Phone: (p: any) => <KIcon {...p} d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" />,
+-  Mail: (p: any) => <KIcon {...p}><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></KIcon>,
+-  MapPin: (p: any) => <KIcon {...p} d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />,
+-  Users: (p: any) => <KIcon {...p}><circle cx="9" cy="8" r="4"></circle><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7M16 4.5a4 4 0 0 1 0 7M19 14.6c1.8 1.2 3 3.2 3 5.4"></path></KIcon>,
+-  FileText: (p: any) => <KIcon {...p} d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7l-5-5Zm0 0v5h5M9 13h6M9 17h6" />,
+-  Sun: (p: any) => <KIcon {...p}><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></KIcon>,
+-  Moon: (p: any) => <KIcon {...p} d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />,
+-  Menu: (p: any) => <KIcon {...p} d="M4 6h16M4 12h16M4 18h16" />,
+-  ChevronDown: (p: any) => <KIcon {...p} d="m6 9 6 6 6-6" />,
+-  X: (p: any) => <KIcon {...p} d="M18 6 6 18M6 6l12 12" />,
+-  Check: (p: any) => <KIcon {...p} d="m4 12.5 5 5L20 6.5" />,
+-  Ruler: (p: any) => <KIcon {...p} d="M3 17 17 3l4 4L7 21l-4-4Zm5-1-1.5-1.5m4.5-1.5L9.5 11.5m4.5-1.5-1.5-1.5M17 6.5 15.5 5" />,
+-  Flame: (p: any) => <KIcon {...p} d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-2.5-5.5C15 8 13.5 6 13 3.5c-2.5 2-4 4.5-4 7-1-.5-1.8-1.5-2-3C5.5 9.5 5 12 5 15a7 7 0 0 0 7 7Z" />,
+-  Handshake: (p: any) => <KIcon {...p} d="m11 17 2 2a1.4 1.4 0 0 0 2-2m-1-3 2.5 2.5a1.4 1.4 0 0 0 2-2L14 10l-2.3 1.5c-1.5 1-3.2-1-2-2.3L13 6h3l4.5 4.5M3 7l4-2 3.5 1.5M3 16l4 2 2-1" />,
++const Icons = {
++  ArrowRight: (p) => <KIcon {...p} d="M5 12h14m-7-7 7 7-7 7" />,
++  ArrowUpRight: (p) => <KIcon {...p} d="M7 17 17 7m-10 0h10v10" />,
++  Droplet: (p) => <KIcon {...p} d="M12 2.7s6.5 7 6.5 12a6.5 6.5 0 1 1-13 0c0-5 6.5-12 6.5-12Z" />,
++  Download: (p) => <KIcon {...p} d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16" />,
++  Play: (p) => <KIcon {...p}><circle cx="12" cy="12" r="10"></circle><path d="m10 8.5 5 3.5-5 3.5z"></path></KIcon>,
++  Leaf: (p) => <KIcon {...p} d="M4 20s.5-8 6-12.5C14.5 3.8 20 4 20 4s.2 5.5-3.5 10C12 19.5 4 20 4 20Zm0 0c2-5 5-8.5 9-11" />,
++  Recycle: (p) => <KIcon {...p} d="m7 19-2.5-4.5L7 10m-2.5 4.5H12m3-9.5h5l-2.6 4.4M17.5 5 15 9.4M9 5h6L12.4 9M9 19h7.5l2.5-4.5" />,
++  Shield: (p) => <KIcon {...p} d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10Zm-3.5-10 2.5 2.5L15.5 10" />,
++  Layers: (p) => <KIcon {...p} d="m12 2 9 5-9 5-9-5 9-5Zm-9 10 9 5 9-5M3 17l9 5 9-5" />,
++  Thermometer: (p) => <KIcon {...p} d="M14 4a2 2 0 0 0-4 0v9.5a4.5 4.5 0 1 0 4 0V4Zm-2 5v6" />,
++  Globe: (p) => <KIcon {...p}><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2c2.7 2.7 4 6.3 4 10s-1.3 7.3-4 10c-2.7-2.7-4-6.3-4-10s1.3-7.3 4-10Z"></path></KIcon>,
++  Award: (p) => <KIcon {...p}><circle cx="12" cy="9" r="6"></circle><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"></path></KIcon>,
++  Factory: (p) => <KIcon {...p} d="M3 21V9l6 4V9l6 4V4h6v17H3Zm4-4h.01M11 17h.01M15 17h.01" />,
++  Wrench: (p) => <KIcon {...p} d="M14.7 6.3a4.5 4.5 0 0 0-5.9 5.9L3 18l3 3 5.8-5.8a4.5 4.5 0 0 0 5.9-5.9L14.5 12 12 9.5l2.7-3.2Z" />,
++  Phone: (p) => <KIcon {...p} d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" />,
++  Mail: (p) => <KIcon {...p}><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></KIcon>,
++  MapPin: (p) => <KIcon {...p} d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />,
++  Users: (p) => <KIcon {...p}><circle cx="9" cy="8" r="4"></circle><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7M16 4.5a4 4 0 0 1 0 7M19 14.6c1.8 1.2 3 3.2 3 5.4"></path></KIcon>,
++  FileText: (p) => <KIcon {...p} d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7l-5-5Zm0 0v5h5M9 13h6M9 17h6" />,
++  Sun: (p) => <KIcon {...p}><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></KIcon>,
++  Moon: (p) => <KIcon {...p} d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />,
++  Menu: (p) => <KIcon {...p} d="M4 6h16M4 12h16M4 18h16" />,
++  ChevronDown: (p) => <KIcon {...p} d="m6 9 6 6 6-6" />,
++  X: (p) => <KIcon {...p} d="M18 6 6 18M6 6l12 12" />,
++  Check: (p) => <KIcon {...p} d="m4 12.5 5 5L20 6.5" />,
++  Ruler: (p) => <KIcon {...p} d="M3 17 17 3l4 4L7 21l-4-4Zm5-1-1.5-1.5m4.5-1.5L9.5 11.5m4.5-1.5-1.5-1.5M17 6.5 15.5 5" />,
++  Flame: (p) => <KIcon {...p} d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-2.5-5.5C15 8 13.5 6 13 3.5c-2.5 2-4 4.5-4 7-1-.5-1.8-1.5-2-3C5.5 9.5 5 12 5 15a7 7 0 0 0 7 7Z" />,
++  Handshake: (p) => <KIcon {...p} d="m11 17 2 2a1.4 1.4 0 0 0 2-2m-1-3 2.5 2.5a1.4 1.4 0 0 0 2-2L14 10l-2.3 1.5c-1.5 1-3.2-1-2-2.3L13 6h3l4.5 4.5M3 7l4-2 3.5 1.5M3 16l4 2 2-1" />,
+-export function Reveal({ children, delay = 0, as = 'div', style, className = '' }: any) {
+-  const ref = useRef<any>(null);
++/* ---------- Reveal-on-scroll ---------- */
++function Reveal({ children, delay = 0, as = 'div', style, className = '' }) {
++  const ref = useRef(null);
++      // Force-finish transitions stuck on a frozen timeline (non-painting iframes):
++      // changing transition-property does not cancel running transitions per spec.
+-        el.getAnimations().forEach((a: any) => { try { a.finish(); } catch (e) {} });
++        el.getAnimations().forEach((a) => { try { a.finish(); } catch (e) {} });
+-    let io: any = null;
++    let io = null;
+-export function KButton({ children, variant = 'primary', icon, href, onClick, size = 'md', disabled = false }: any) {
++/* ---------- Buttons ---------- */
++function KButton({ children, variant = 'primary', icon, href, onClick, size = 'md', disabled = false }) {
+-export function Eyebrow({ children }: any) {
++/* ---------- Section scaffolding ---------- */
++function Eyebrow({ children }) {
+-export function SectionHead({ eyebrow, title, lead, align = 'left' }: any) {
++function SectionHead({ eyebrow, title, lead, align = 'left' }) {
+-export function BentoCard({ children, span = 1, tint = false, className = '', style }: any) {
++/* ---------- Card ---------- */
++function BentoCard({ children, span = 1, tint = false, className = '', style }) {
+-export function Photo({ src, alt, ratio = '4 / 3', radius = 'var(--radius)', style, slotId }: any) {
+-  const id = slotId || ('photo-' + (src ? String(src).split('/').pop()?.split('.')[0] : 'misc'));
++/* ---------- Photo: drag-and-drop image slot — no remote images in code ---------- */
++function Photo({ src, alt, ratio = '4 / 3', radius = 'var(--radius)', style, slotId }) {
++  const id = slotId || ('photo-' + (src ? String(src).split('/').pop().split('.')[0] : 'misc'));
+-      {src ? (
+-        <img src={src} alt={alt} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+-      ) : (
+-        <div style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
+-      )}
++      <image-slot id={id} placeholder={alt} shape="rect" fit="cover"
++        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}></image-slot>
+-export function KAquaLogo({ height = 30 }: any) {
++/* ---------- Logo ---------- */
++function KAquaLogo({ height = 30 }) {
++
++Object.assign(window, { Icons, Reveal, KButton, Eyebrow, SectionHead, BentoCard, Photo, KAquaLogo });
