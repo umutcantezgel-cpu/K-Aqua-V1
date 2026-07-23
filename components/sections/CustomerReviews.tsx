@@ -66,6 +66,7 @@ export function CustomerReviews() {
           { quote: t('reviews.a3'), author: t('reviews.a3Author') },
           { quote: t('reviews.a4'), author: t('reviews.a4Author') },
           { quote: t('reviews.a5'), author: t('reviews.a5Author') },
+          { quote: t('reviews.a6'), author: t('reviews.a6Author') },
         ];
       case 'B':
         return [
@@ -80,6 +81,7 @@ export function CustomerReviews() {
           { quote: t('reviews.c3'), author: t('reviews.c3Author') },
           { quote: t('reviews.c4'), author: t('reviews.c4Author') },
           { quote: t('reviews.c5'), author: t('reviews.c5Author') },
+          { quote: t('reviews.c6'), author: t('reviews.c6Author') },
         ];
       default:
         return [];
@@ -135,7 +137,7 @@ export function CustomerReviews() {
         {/* Reviews Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-fr">
           {currentReviews.map((review, idx) => (
-            <div key={idx} className={activeTab === 'A' && idx >= 3 ? "lg:col-span-1.5" : ""}>
+            <div key={idx}>
               <ReviewCard quote={review.quote} author={review.author} />
             </div>
           ))}
