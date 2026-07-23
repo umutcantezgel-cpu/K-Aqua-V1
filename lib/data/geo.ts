@@ -6,8 +6,19 @@ export interface Region {
   labelKey: RegionId;
 }
 
+export type CrisisContext = "water-scarcity" | "tsunami" | "el-nino" | "earthquake" | "infrastructure-decay" | "none";
+
+export interface GeoHub {
+  slug: string; // e.g. "uae"
+  name: string; // e.g. "Vereinigte Arabische Emirate"
+  region: RegionId;
+  crisisContext: CrisisContext; 
+  description: string; // General description of challenges in this Hub
+}
+
 export interface GeoMarket {
   slug: string;            // URL-Segment, kanonisch deutsch (z. B. "dubai")
+  hubSlug: string;         // Link to GeoHub
   city: string;            // Eigenname — bleibt unübersetzt im Datensatz
   country: string;         // Eigenname
   region: RegionId;
@@ -29,10 +40,182 @@ export const REGIONS: Region[] = [
   { id: "global", labelKey: "global" },
 ];
 
+export const GEO_HUBS: GeoHub[] = [
+  {
+    slug: "deutschland",
+    name: "Deutschland",
+    region: "dach",
+    crisisContext: "infrastructure-decay",
+    description: "Der Heimatmarkt erfordert smarte Lösungen gegen den Sanierungsstau in der Trinkwasser- und Heizungsinfrastruktur."
+  },
+  {
+    slug: "oesterreich",
+    name: "Österreich",
+    region: "dach",
+    crisisContext: "none",
+    description: "Premium-Qualität für langlebige Wasser- und Fernwärmenetze in alpinen Regionen."
+  },
+  {
+    slug: "schweiz",
+    name: "Schweiz",
+    region: "dach",
+    crisisContext: "none",
+    description: "Höchste Hygieneanforderungen für Spital- und Wohnbau mit Schweizer Normenkonformität."
+  },
+  {
+    slug: "uae",
+    name: "Vereinigte Arabische Emirate",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Extreme Hitze und fast vollständige Abhängigkeit von entsalztem Meerwasser fordern höchste Materialbeständigkeit gegen Chloride und Hitze."
+  },
+  {
+    slug: "ksa",
+    name: "Saudi-Arabien",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Das enorme Wachstum der Vision 2030 kombiniert mit akuter Wasserknappheit macht kreislauffähige und leckagefreie Systeme unverzichtbar."
+  },
+  {
+    slug: "katar",
+    name: "Katar",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Stark schwankende Netztemperaturen im Sommer erfordern Langzeit-Druckstandfestigkeit von PP-RCT."
+  },
+  {
+    slug: "chile",
+    name: "Chile",
+    region: "global",
+    crisisContext: "el-nino",
+    description: "Klimatische Extreme wie El Niño und Dürren verlangen extrem widerstandsfähige Rohrsysteme für die Wasserversorgung."
+  },
+  {
+    slug: "japan",
+    name: "Japan",
+    region: "global",
+    crisisContext: "tsunami",
+    description: "Duktile PP-R Materialien widerstehen seismischen Bewegungen und sind resistent bei Tsunamis."
+  },
+  {
+    slug: "uk",
+    name: "Vereinigtes Königreich",
+    region: "europa",
+    crisisContext: "infrastructure-decay",
+    description: "Inkrustationsfreie Systeme verhindern Kesselstein in veralteten, harten Wasserinfrastrukturen."
+  },
+  {
+    slug: "frankreich",
+    name: "Frankreich",
+    region: "europa",
+    crisisContext: "none",
+    description: "ACS-konforme Rohrnetz-Lösungen für Großprojekte und Wohnquartiere."
+  },
+  {
+    slug: "italien",
+    name: "Italien",
+    region: "europa",
+    crisisContext: "none",
+    description: "Sanierung der Po-Ebene-Infrastruktur durch inkrustationsfreie Trinkwassersysteme."
+  },
+  {
+    slug: "polen",
+    name: "Polen",
+    region: "europa",
+    crisisContext: "infrastructure-decay",
+    description: "Schnell verlegbare Systeme für den stark wachsenden, modernisierenden Wohnungsmarkt."
+  },
+  {
+    slug: "tschechien",
+    name: "Tschechien",
+    region: "europa",
+    crisisContext: "none",
+    description: "Starker Sanierungsmarkt im Gründerzeitbestand."
+  },
+  {
+    slug: "kuwait",
+    name: "Kuwait",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Leckagefreie Installationen für extrem heißes Klima und entsalztes Wasser."
+  },
+  {
+    slug: "oman",
+    name: "Oman",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Langlebige Systeme zur Erhaltung der kostbaren Grund- und Aflaj-Wasserressourcen."
+  },
+  {
+    slug: "bahrain",
+    name: "Bahrain",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Vollständig entsalztes Netz profitiert von korrosionsfreien PP-R Systemen."
+  },
+  {
+    slug: "jordanien",
+    name: "Jordanien",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Als eines der wasserärmsten Länder der Welt ist die Reduzierung von Leckagen auf unter 2 % lebensnotwendig."
+  },
+  {
+    slug: "aegypten",
+    name: "Ägypten",
+    region: "nahost",
+    crisisContext: "water-scarcity",
+    description: "Wachstumsstädte am Nil und Roten Meer erfordern hochskalierbare, hygienische Wasserinfrastruktur."
+  },
+  {
+    slug: "tuerkei",
+    name: "Türkei",
+    region: "nahost",
+    crisisContext: "earthquake",
+    description: "Duktiles Rohrverhalten ist Pflicht bei stark erdbebengefährdeter Infrastruktur."
+  },
+  {
+    slug: "singapur",
+    name: "Singapur",
+    region: "global",
+    crisisContext: "none",
+    description: "Höchste Ansprüche an Hygiene und Langzeit-Druckstandfestigkeit in tropischer Dauerwärme."
+  },
+  {
+    slug: "malaysia",
+    name: "Malaysia",
+    region: "global",
+    crisisContext: "none",
+    description: "Tropische UV- und alterungsbeständige Netzwerke."
+  },
+  {
+    slug: "indien",
+    name: "Indien",
+    region: "global",
+    crisisContext: "water-scarcity",
+    description: "Druckstoßfeste Schweißverbindungen für monsun-geprägte Intervallversorgung."
+  },
+  {
+    slug: "suedafrika",
+    name: "Südafrika",
+    region: "global",
+    crisisContext: "water-scarcity",
+    description: "Nach 'Day Zero' ist Wassereffizienz durch leckagefreie Systeme absolute Staatsräson."
+  },
+  {
+    slug: "kenia",
+    name: "Kenia",
+    region: "global",
+    crisisContext: "water-scarcity",
+    description: "Robuste Wasserversorgung für extrem schnell wachsende Metropolen in Ostafrika."
+  }
+];
+
 export const GEO_MARKETS: GeoMarket[] = [
   /* ---------- DACH ---------- */
   {
     slug: "frankfurt",
+    hubSlug: "deutschland",
     city: "Frankfurt am Main",
     country: "Deutschland",
     region: "dach",
@@ -46,6 +229,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "berlin",
+    hubSlug: "deutschland",
     city: "Berlin",
     country: "Deutschland",
     region: "dach",
@@ -59,6 +243,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "muenchen",
+    hubSlug: "deutschland",
     city: "München",
     country: "Deutschland",
     region: "dach",
@@ -72,6 +257,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "hamburg",
+    hubSlug: "deutschland",
     city: "Hamburg",
     country: "Deutschland",
     region: "dach",
@@ -85,6 +271,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "wien",
+    hubSlug: "oesterreich",
     city: "Wien",
     country: "Österreich",
     region: "dach",
@@ -98,6 +285,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "zuerich",
+    hubSlug: "schweiz",
     city: "Zürich",
     country: "Schweiz",
     region: "dach",
@@ -112,6 +300,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   /* ---------- Europa ---------- */
   {
     slug: "london",
+    hubSlug: "uk",
     city: "London",
     country: "Vereinigtes Königreich",
     region: "europa",
@@ -125,6 +314,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "paris",
+    hubSlug: "frankreich",
     city: "Paris",
     country: "Frankreich",
     region: "europa",
@@ -138,6 +328,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "mailand",
+    hubSlug: "italien",
     city: "Mailand",
     country: "Italien",
     region: "europa",
@@ -151,6 +342,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "warschau",
+    hubSlug: "polen",
     city: "Warschau",
     country: "Polen",
     region: "europa",
@@ -164,6 +356,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "prag",
+    hubSlug: "tschechien",
     city: "Prag",
     country: "Tschechien",
     region: "europa",
@@ -178,6 +371,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   /* ---------- Naher & Mittlerer Osten ---------- */
   {
     slug: "dubai",
+    hubSlug: "uae",
     city: "Dubai",
     country: "VAE",
     region: "nahost",
@@ -191,6 +385,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "abudhabi",
+    hubSlug: "uae",
     city: "Abu Dhabi",
     country: "VAE",
     region: "nahost",
@@ -204,6 +399,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "doha",
+    hubSlug: "katar",
     city: "Doha",
     country: "Katar",
     region: "nahost",
@@ -217,6 +413,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "riad",
+    hubSlug: "ksa",
     city: "Riad",
     country: "Saudi-Arabien",
     region: "nahost",
@@ -230,6 +427,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "dschidda",
+    hubSlug: "ksa",
     city: "Dschidda",
     country: "Saudi-Arabien",
     region: "nahost",
@@ -243,6 +441,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "neom",
+    hubSlug: "ksa",
     city: "NEOM / The Line",
     country: "Saudi-Arabien",
     region: "nahost",
@@ -256,6 +455,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "kuwait",
+    hubSlug: "kuwait",
     city: "Kuwait-Stadt",
     country: "Kuwait",
     region: "nahost",
@@ -269,6 +469,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "maskat",
+    hubSlug: "oman",
     city: "Maskat",
     country: "Oman",
     region: "nahost",
@@ -282,6 +483,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "manama",
+    hubSlug: "bahrain",
     city: "Manama",
     country: "Bahrain",
     region: "nahost",
@@ -295,6 +497,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "amman",
+    hubSlug: "jordanien",
     city: "Amman",
     country: "Jordanien",
     region: "nahost",
@@ -308,6 +511,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "kairo",
+    hubSlug: "aegypten",
     city: "Kairo",
     country: "Ägypten",
     region: "nahost",
@@ -321,6 +525,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "istanbul",
+    hubSlug: "tuerkei",
     city: "Istanbul",
     country: "Türkei",
     region: "nahost",
@@ -335,6 +540,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   /* ---------- Afrika & Asien-Pazifik ---------- */
   {
     slug: "singapur",
+    hubSlug: "singapur",
     city: "Singapur",
     country: "Singapur",
     region: "global",
@@ -348,6 +554,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "kualalumpur",
+    hubSlug: "malaysia",
     city: "Kuala Lumpur",
     country: "Malaysia",
     region: "global",
@@ -361,6 +568,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "mumbai",
+    hubSlug: "indien",
     city: "Mumbai",
     country: "Indien",
     region: "global",
@@ -374,6 +582,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "kapstadt",
+    hubSlug: "suedafrika",
     city: "Kapstadt",
     country: "Südafrika",
     region: "global",
@@ -387,6 +596,7 @@ export const GEO_MARKETS: GeoMarket[] = [
   },
   {
     slug: "nairobi",
+    hubSlug: "kenia",
     city: "Nairobi",
     country: "Kenia",
     region: "global",
