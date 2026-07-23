@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { GEO_MARKETS } from '@/lib/data/geo';
+import { GEO_MARKETS, GEO_HUBS } from '@/lib/data/geo';
 import { getAllProducts } from '@/lib/products';
 import { CATALOG } from '@/lib/data/catalog';
 import { newsRegistry } from '@/content/news';
@@ -66,9 +66,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     pushRoute(route, route === '' ? 'weekly' : 'monthly', route === '' ? 1.0 : 0.8);
   }
 
-  // 2. Dynamic market routes
+  // 2. Dynamic market routes (Hubs and Cities)
+  for (const hub of GEO_HUBS) {
+    pushRoute(`maerkte/${hub.slug}`, 'monthly', 0.9);
+  }
   for (const market of GEO_MARKETS) {
-    pushRoute(`maerkte/${market.slug}`, 'monthly', 0.9);
+    pushRoute(`maerkte/${market.hubSlug}/${market.slug}`, 'monthly', 0.8);
   }
 
   // 3. Dynamic product detail routes (markdown-based)

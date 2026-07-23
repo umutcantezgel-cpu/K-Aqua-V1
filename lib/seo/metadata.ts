@@ -203,7 +203,7 @@ export async function getGeoCityJsonLd(
 ): Promise<[ProductJsonLd, FAQPageJsonLd]> {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   const siteUrl = getBaseUrl();
-  const url = `${siteUrl}/${locale}/maerkte/${market.slug}`;
+  const url = `${siteUrl}/${locale}/maerkte/${market.hubSlug}/${market.slug}`;
 
   // 1. Product representation for the specific market/city
   const productSchema: ProductJsonLd = {
