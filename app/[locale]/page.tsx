@@ -13,7 +13,6 @@ import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
 import { CustomerReviews } from "@/components/sections/CustomerReviews";
-import VerticalVelocity from '@/components/signature/VerticalVelocity';
 import SpotlightGrid from '@/components/signature/SpotlightGrid';
 import DiagonalBand from '@/components/signature/DiagonalBand';
 import EdgeIndex from '@/components/signature/EdgeIndex';
@@ -156,19 +155,23 @@ export default async function Page({ params }: Props) {
         <div className="ka-lightrays absolute bottom-0 left-0 w-full" data-count="9" style={{height: '140px'}}></div>
       </section>
 
-      {/* Signature: Vertical Velocity */}
-      <section className="w-full bg-background border-b border-card-border">
-        <VerticalVelocity />
-      </section>
-
-      {/* 3) 4 Stat-Cards */}
-      <section className="py-20 bg-background">
-        <div className="mx-auto max-w-[1400px] px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* 3) Premium Inline Stats */}
+      <section className="py-12 md:py-16 bg-background border-b border-card-border relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent opacity-50 pointer-events-none" />
+        <div className="mx-auto max-w-[1400px] px-6 relative z-10">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
             {stats.map((stat, idx) => (
-              <Card key={idx}>
-                <StatNumber value={stat.value} label={stat.label} />
-              </Card>
+              <div 
+                key={idx} 
+                className="flex flex-col justify-start items-start group"
+              >
+                <span className="font-heading font-extrabold text-4xl lg:text-5xl text-primary leading-none tracking-tight mb-3 group-hover:scale-105 transition-transform duration-300 origin-left">
+                  {stat.value}
+                </span>
+                <span className="text-base lg:text-lg text-foreground/80 font-medium leading-snug text-balance hyphens-none">
+                  {stat.label}
+                </span>
+              </div>
             ))}
           </div>
         </div>

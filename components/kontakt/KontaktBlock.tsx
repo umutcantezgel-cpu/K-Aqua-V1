@@ -81,9 +81,9 @@ export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }
       break;
     case "hero":
       content = (
-        <div className="kqk-ctr" style={{ display: "flex", flexWrap: "wrap", gap: "14px", alignItems: "center" }}>
-          <h2 className="kqk-h sh kqk-ctx" style={{ flex: 1, minWidth: "220px" }}>{c.short}</h2>
-          <div className="kqk-right" style={{ flex: 2 }}>
+        <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
+          <h2 className="kqk-h sh kqk-ctx w-full lg:flex-1 lg:min-w-[220px] text-center lg:text-left">{c.short}</h2>
+          <div className="kqk-right w-full lg:flex-[2]">
             <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
           </div>
         </div>
