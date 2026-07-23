@@ -1,4 +1,4 @@
-.co2-dashboard-root { height: 100vh; height: 100dvh; width: 100vw; position: fixed; inset: 0; z-index: 50; background: var(--background); overflow: hidden; overscroll-behavior: none; }
+.co2-dashboard-root { top: var(--header-h); height: calc(100dvh - var(--header-h)); width: 100vw; position: fixed; right: 0; bottom: 0; left: 0; z-index: 50; background: var(--background); overflow: hidden; overscroll-behavior: none; }
 #root{height:100%}
 .dash-shell{height:100%;width:100%;display:grid;grid-template-columns:380px 1fr;overflow:hidden}
 .dash-sheet-handle{display:none}
