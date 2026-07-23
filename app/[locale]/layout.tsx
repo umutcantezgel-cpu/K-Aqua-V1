@@ -73,7 +73,7 @@ export default async function LocaleLayout({
     'co2',
     'materials',
     'application',
-    'customerReviews',
+    'trustAndCases',
     'buyers',
     'about',
     'footer',
