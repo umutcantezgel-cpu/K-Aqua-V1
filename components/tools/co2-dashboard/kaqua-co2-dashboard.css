@@ -165,7 +165,8 @@ button { font: inherit; }
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
-html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+/* html,body{height:100%;overflow:hidden;overscroll-behavior:none} */
+.co2-dashboard-root { height: 100vh; height: 100dvh; width: 100vw; position: fixed; inset: 0; z-index: 50; background: var(--background); overflow: hidden; overscroll-behavior: none; }
 #root{height:100%}
 .dash-shell{height:100%;width:100%;display:grid;grid-template-columns:380px 1fr;overflow:hidden}
 .dash-sheet-handle{display:none}
@@ -483,7 +484,7 @@ button.dash-rail-row:hover{border-color:var(--primary)}
 .co2-coach p{color:var(--muted-foreground);line-height:1.55}
 .co2-coach-actions{display:flex;justify-content:flex-end;gap:6px}
 @media print{
-  html,body{overflow:visible!important;height:auto!important}
+  /* html,body{overflow:visible!important;height:auto!important} */
   body *{visibility:hidden}
   .co2-report-sheet,.co2-report-sheet *{visibility:visible}
   .co2-report-sheet{position:absolute;left:0;top:0;width:100%;border:0;box-shadow:none;border-radius:0}

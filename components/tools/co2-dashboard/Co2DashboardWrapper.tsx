@@ -4,5 +4,9 @@ import dynamic from 'next/dynamic';
 const Co2Dashboard = dynamic(() => import('./Co2Dashboard'), { ssr: false });
 
 export default function Co2DashboardWrapper() {
-  return <Co2Dashboard />;
+  return (
+    <div className="co2-dashboard-root">
+      <Co2Dashboard />
+    </div>
+  );
 }
