@@ -26,9 +26,9 @@ export default function FooterTrustBadges() {
               {icons[index]}
             </div>
             <div className="flex flex-col">
-              <h4 className="text-white/70 group-hover:text-white text-xs font-bold uppercase tracking-widest transition-colors duration-500">
+              <p className="text-white/70 group-hover:text-white text-xs font-bold uppercase tracking-widest transition-colors duration-500">
                 {badge.t}
-              </h4>
+              </p>
               <p className="text-white/40 text-[10px] uppercase tracking-wider mt-0.5 transition-colors duration-500 group-hover:text-white/70">
                 {badge.s}
               </p>
