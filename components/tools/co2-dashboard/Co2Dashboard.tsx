@@ -354,7 +354,6 @@ export default function Co2Dashboard() {
 
       <main className="dash-main">
         <header className="dash-header">
-          <span className="dash-eyebrow">CO₂e-Ersparnis · {horizon} Jahre{portfolioActive ? ` · Portfolio (${portfolioRows.filter((r) => r.on).length} Stränge)` : ''} · vs. {opponentResult.material.label}</span>
           <div className="dash-hero-row"><div className="dash-bignum">{co2Fmt(animSavings)}</div>
           <div className="dash-kpis">
             <div className="dash-kpi"><Icons.Leaf size={15} /><span>Bäume-Äquivalent</span><strong>{Math.round(animTrees).toLocaleString('de-DE')}</strong></div>
