@@ -1,0 +1,232 @@
+--- components/tools/co2-dashboard/Co2Dashboard.tsx	2026-07-18 10:41:28
++++ export-co2-dashboard/kaqua-co2-dashboard.jsx	2026-07-18 05:42:01
+@@ -1,34 +1,18 @@
+-'use client';
+-import React, { useState as useSD, useMemo as useMemoD, useEffect as useED } from 'react';
+-import { Icons, KAquaLogo } from './Co2UI';
+-import { useTweenedValue } from '../../../lib/co2-anim';
+-import { Co2Chart, MiniSparkline } from './Co2ChartCore';
+-import { BreakEvenCard, EquivalentsCard, SensitivityCard, RegionTiles, LifecycleFeed, MaterialDrawer, Co2Coachmarks } from './Co2DashModules';
+-import { Co2Breakdown } from './Co2DashBreakdown';
+-import { Co2Scenarios } from './Co2DashScenarios';
+-import { Co2Portfolio } from './Co2DashPortfolio';
+-import { Co2Report } from './Co2DashReport';
+-import { useTheme } from 'next-themes';
+-import { 
+-  co2Trees, co2CarKm, co2Fmt,
+-  co2PressureLossPaPerM, co2LifespanGuide, computeFullResult, 
+-  computePortfolioResult, findBreakEven, CO2_PRESETS, CO2_DIAMETERS, 
+-  CO2_SDR_CLASSES, CO2_MATERIALS, CO2_REGIONS, CO2_OPERATING_MODES, 
+-  CO2_SEO_COPY, CO2_SOURCES, CO2_DISCLAIMER, CO2_PHASES 
+-} from '../../../lib/co2-data';
+-import { co2EncodeHash, co2DecodeHash } from '../../../lib/co2-share';
++/* K-Aqua CO2 Dashboard — App-Shell v3: Presets, Horizont/Klimapfad/Formteil/
++   CO₂-Preis-Regler, 6 Tabs (inkl. Szenarien, Stränge, Bericht), aktive Rail
++   (Dossier, Regionen, Feed), Share-Link im URL-Hash, Coachmarks. */
++const { useState: useSD, useMemo: useMemoD, useEffect: useED } = React;
++const CO2_INIT = (window.co2DecodeHash && co2DecodeHash()) || {};
++const co2Pk = (k, d) => (CO2_INIT[k] == null ? d : CO2_INIT[k]);
+ 
+-const CO2_INIT = ((typeof window !== 'undefined' && co2DecodeHash) ? co2DecodeHash() : {}) || {};
+-const co2Pk = (k: string, d: any) => (CO2_INIT[k] == null ? d : CO2_INIT[k]);
+-
+-function RailRow({ result, kaquaTotal, onOpen }: any) {
++function RailRow({ result, kaquaTotal, onOpen }) {
+   const val = useTweenedValue(result.grandTotal, 500);
+   const deltaVal = useTweenedValue(result.grandTotal - kaquaTotal, 500);
+   const isKaqua = result.material.id === 'kaqua';
+   return (
+     <button type="button" className="dash-rail-row" onClick={onOpen} title="Klick öffnet das Material-Dossier">
+       <div className="dash-rail-row-top"><i style={{ background: result.material.color }}></i><span>{result.material.label}</span><Icons.ChevronDown size={13} /></div>
+-      <MiniSparkline points={result.points} color={result.material.color} width={64} height={26}></MiniSparkline>
++      <MiniSparkline points={result.points} color={result.material.color}></MiniSparkline>
+       <div className="dash-rail-row-val">
+         <strong>{co2Fmt(val)}</strong>
+         {!isKaqua ? <small className="dash-rail-delta">+{co2Fmt(deltaVal)}</small> : <small className="dash-rail-delta is-ref">Referenz</small>}
+@@ -36,13 +20,13 @@
+     </button>
+   );
+ }
+-function Field({ label, children, fid }: any) {
++function Field({ label, children, fid }) {
+   return (<div className="dash-field" id={fid ? `co2-field-${fid}` : undefined}><div className="dash-field-label">{label}</div>{children}</div>);
+ }
+-function ChipGroup({ options, value, onChange, render }: any) {
++function ChipGroup({ options, value, onChange, render }) {
+   return (
+     <div className="k-chips">
+-      {options.map((opt: any) => {
++      {options.map((opt) => {
+         const id = opt && opt.id != null ? opt.id : opt;
+         return (
+           <button key={id} type="button" className={`k-filter-chip ${value === id ? 'is-on' : ''}`}
+@@ -54,7 +38,7 @@
+     </div>
+   );
+ }
+-function ThemeToggle({ theme, onToggle }: any) {
++function ThemeToggle({ theme, onToggle }) {
+   return (
+     <button type="button" className="dash-theme-btn" onClick={onToggle} aria-label="Theme wechseln">
+       {theme === 'dark' ? <Icons.Sun size={17} /> : <Icons.Moon size={17} />}
+@@ -134,9 +118,12 @@
+   { id: 'methodik', label: 'Methodik' },
+ ];
+ 
+-export default function Co2Dashboard() {
+-  const { theme, setTheme, resolvedTheme } = useTheme();
+-  const currentTheme = theme === 'system' ? resolvedTheme : theme;
++function Co2Dashboard() {
++  const [theme, setTheme] = useSD(() => { try { return localStorage.getItem('kaqua-co2-theme') || 'dark'; } catch (e) { return 'dark'; } });
++  useED(() => {
++    document.documentElement.setAttribute('data-theme', theme);
++    try { localStorage.setItem('kaqua-co2-theme', theme); } catch (e) {}
++  }, [theme]);
+ 
+   const [tab, setTab] = useSD('overview');
+   const [lengthKm, setLengthKm] = useSD(co2Pk('l', 4));
+@@ -147,7 +134,7 @@
+   const [transportKm, setTransportKm] = useSD(co2Pk('t', 150));
+   const [opModeId, setOpModeId] = useSD(co2Pk('m', 'cold'));
+   const [flowLps, setFlowLps] = useSD(co2Pk('f', 3));
+-  const [oppLife, setOppLife] = useSD<any>(() => Object.assign({ pvc: 50, copper: 50, steel: 50 }, co2Pk('ls', {})));
++  const [oppLife, setOppLife] = useSD(() => Object.assign({ pvc: 50, copper: 50, steel: 50 }, co2Pk('ls', {})));
+   const [horizon, setHorizon] = useSD(co2Pk('h', 50));
+   const [gridPath, setGridPath] = useSD(co2Pk('g', 'static'));
+   const [fittingsPct, setFittingsPct] = useSD(co2Pk('fp', 0));
+@@ -156,9 +143,9 @@
+   const [showBand, setShowBand] = useSD(!!co2Pk('b', 0));
+   const [seriesMode, setSeriesMode] = useSD(co2Pk('sm', 'duel'));
+   const [presetId, setPresetId] = useSD(null);
+-  const [scenarios, setScenarios] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-scenarios-v1') || '[]'); } catch (e) { return []; } });
+-  const [overlayIds, setOverlayIds] = useSD<string[]>([]);
+-  const [portfolioRows, setPortfolioRows] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-portfolio-v1') || '[]'); } catch (e) { return []; } });
++  const [scenarios, setScenarios] = useSD(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-scenarios-v1')) || []; } catch (e) { return []; } });
++  const [overlayIds, setOverlayIds] = useSD([]);
++  const [portfolioRows, setPortfolioRows] = useSD(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-portfolio-v1')) || []; } catch (e) { return []; } });
+   const [usePortfolio, setUsePortfolio] = useSD(false);
+   const [drawerId, setDrawerId] = useSD(null);
+   const [extHoverYear, setExtHoverYear] = useSD(null);
+@@ -167,20 +154,20 @@
+   useED(() => { try { localStorage.setItem('kaqua-co2-portfolio-v1', JSON.stringify(portfolioRows)); } catch (e) {} }, [portfolioRows]);
+   useED(() => {
+     const h = co2EncodeHash({ l: lengthKm, d: diameter, s: sdr, o: opponentId, r: regionId, t: transportKm, m: opModeId, f: flowLps, h: horizon, g: gridPath, fp: fittingsPct, cp: co2Price, v: chartView, b: showBand ? 1 : 0, sm: seriesMode, ls: oppLife });
+-    try { window.history.replaceState(null, '', h || window.location.pathname); } catch (e) {}
++    try { history.replaceState(null, '', h || location.pathname); } catch (e) {}
+   }, [lengthKm, diameter, sdr, opponentId, regionId, transportKm, opModeId, flowLps, horizon, gridPath, fittingsPct, co2Price, chartView, showBand, seriesMode, oppLife]);
+ 
+-  const manual = (fn: any) => (v: any) => { fn(v); setPresetId(null); };
+-  function applyPreset(p: any) {
++  const manual = (fn) => (v) => { fn(v); setPresetId(null); };
++  function applyPreset(p) {
+     setLengthKm(p.params.lengthKm); setDiameter(p.params.diameter); setSdr(p.params.sdr);
+     setOpModeId(p.params.opModeId); setFlowLps(p.params.flowLps); setPresetId(p.id);
+   }
+-  function applyParams(p: any) {
++  function applyParams(p) {
+     setLengthKm(p.l == null ? 4 : p.l); setDiameter(p.d || 110); setSdr(p.s || 11); setOpponentId(p.o || 'steel');
+     setRegionId(p.r || 'de'); setTransportKm(p.t == null ? 150 : p.t); setOpModeId(p.m || 'cold'); setFlowLps(p.f || 3);
+     setGridPath(p.g || 'static'); setFittingsPct(p.fp == null ? 0 : p.fp); if (p.ls) setOppLife(Object.assign({ pvc: 50, copper: 50, steel: 50 }, p.ls)); setPresetId(null); setTab('overview');
+   }
+-  function focusField(fid: string) {
++  function focusField(fid) {
+     setTab('overview');
+     const el = document.getElementById(`co2-field-${fid}`);
+     if (!el) return;
+@@ -215,7 +202,7 @@
+   const animEuro = useTweenedValue(euro, 550);
+   const animReplacements = useTweenedValue(opponentResult.replacements, 400);
+   const breakEven = findBreakEven(kaquaResult.points, opponentResult.points);
+-  const diffPoints = useMemoD(() => kaquaResult.points.map((p: any, i: number) => ({ value: (opponentResult.points[i] ? opponentResult.points[i].value : 0) - p.value })), [kaquaResult, opponentResult]);
++  const diffPoints = useMemoD(() => kaquaResult.points.map((p, i) => ({ value: (opponentResult.points[i] ? opponentResult.points[i].value : 0) - p.value })), [kaquaResult, opponentResult]);
+ 
+   const chartSeries = useMemoD(() => {
+     if (seriesMode === 'all') return allResults.map((r) => ({ id: r.material.id, label: r.material.label, color: r.material.color, points: r.points, isOpp: r.material.id === opponentId }));
+@@ -226,15 +213,15 @@
+   }, [allResults, seriesMode, opponentId]);
+   const chartEvents = useMemoD(() => {
+     const rs = seriesMode === 'all' ? allResults : [kaquaResult, opponentResult];
+-    return rs.flatMap((r) => r.events.filter((e: any) => e.type === 'replace').map((e: any) => ({ ...e, seriesId: r.material.id === 'kaqua' && seriesMode !== 'all' ? 'kaqua' : r.material.id, materialLabel: r.material.label, color: r.material.color })));
++    return rs.flatMap((r) => r.events.filter((e) => e.type === 'replace').map((e) => ({ ...e, seriesId: r.material.id === 'kaqua' && seriesMode !== 'all' ? 'kaqua' : r.material.id, materialLabel: r.material.label, color: r.material.color })));
+   }, [allResults, seriesMode, opponentId]);
+   const feedEvents = useMemoD(() => [kaquaResult, opponentResult]
+-    .flatMap((r) => r.events.map((e: any) => ({ ...e, materialLabel: r.material.label, color: r.material.color })))
++    .flatMap((r) => r.events.map((e) => ({ ...e, materialLabel: r.material.label, color: r.material.color })))
+     .sort((a, b) => a.year - b.year || a.materialLabel.localeCompare(b.materialLabel)), [kaquaResult, opponentResult]);
+ 
+   const overlaySeries = useMemoD(() => {
+     const cols = ['oklch(0.68 0.09 90)', 'oklch(0.64 0.09 330)'];
+-    const out: any[] = [];
++    const out = [];
+     overlayIds.forEach((id, k) => {
+       const sc = scenarios.find((s) => s.id === id);
+       if (!sc) return;
+@@ -250,14 +237,14 @@
+   }, [overlayIds, scenarios, horizon]);
+ 
+   const paramsNow = { l: lengthKm, d: diameter, s: sdr, o: opponentId, r: regionId, t: transportKm, m: opModeId, f: flowLps, g: gridPath, fp: fittingsPct, ls: oppLife };
+-  function summarize(p: any) {
++  function summarize(p) {
+     const rg = CO2_REGIONS.find((r) => r.id === p.r) || CO2_REGIONS[0];
+     const om = CO2_OPERATING_MODES.find((m) => m.id === p.m) || CO2_OPERATING_MODES[0];
+     const c = { d: p.d, sdr: p.s, lengthM: p.l * 1000, region: rg, transportKm: p.t, opMode: om, flowLps: p.f, gridPath: p.g, fittingsPct: p.fp, lifespans: p.ls };
+     const opM = CO2_MATERIALS.find((m) => m.id === p.o) || CO2_MATERIALS[3];
+     return { savings: Math.max(0, computeFullResult(opM, c, horizon).grandTotal - computeFullResult(CO2_MATERIALS[0], c, horizon).grandTotal), oppLabel: opM.label };
+   }
+-  function describe(p: any) {
++  function describe(p) {
+     const rg = CO2_REGIONS.find((r) => r.id === p.r) || CO2_REGIONS[0];
+     const om = CO2_OPERATING_MODES.find((m) => m.id === p.m) || CO2_OPERATING_MODES[0];
+     return `${(p.l || 0).toLocaleString('de-DE')} km · DN ${p.d} · SDR ${String(p.s).replace('.', ',')} · ${rg.label} · ${om.label}${p.g === 'path' ? ' · Klimapfad' : ''}${p.fp ? ` · +${p.fp} % Formteile` : ''}`;
+@@ -283,7 +270,7 @@
+           <KAquaLogo height={26} /><span className="dash-brand-tag">CO₂-Rechner</span>
+           <div className="dash-brand-actions">
+             <ShareButton></ShareButton>
+-            <ThemeToggle theme={currentTheme} onToggle={() => setTheme(currentTheme === 'dark' ? 'light' : 'dark')} />
++            <ThemeToggle theme={theme} onToggle={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
+           </div>
+         </div>
+         <div className="dash-controls">
+@@ -307,10 +294,10 @@
+             </div>
+           </Field>
+           <Field label="SDR-Klasse">
+-            <ChipGroup options={CO2_SDR_CLASSES} value={sdr} onChange={manual(setSdr)} render={(s: any) => `SDR ${String(s).replace('.', ',')}`} />
++            <ChipGroup options={CO2_SDR_CLASSES} value={sdr} onChange={manual(setSdr)} render={(s) => `SDR ${String(s).replace('.', ',')}`} />
+           </Field>
+           <Field label="Vergleich gegen">
+-            <ChipGroup options={CO2_MATERIALS.filter((m) => m.id !== 'kaqua')} value={opponentId} onChange={setOpponentId} render={(m: any) => m.label} />
++            <ChipGroup options={CO2_MATERIALS.filter((m) => m.id !== 'kaqua')} value={opponentId} onChange={setOpponentId} render={(m) => m.label} />
+           </Field>
+           <Field fid="opplife" label={<div className="dash-field-row"><span>Nutzungsdauer {opponentResult.material.label}</span><strong>{oppLife[opponentId] || 50} Jahre</strong></div>}>
+             <input type="range" className="k-range" min="15" max="70" step="5" value={oppLife[opponentId] || 50} onChange={(e) => setOppLife({ ...oppLife, [opponentId]: +e.target.value })} aria-label="Angenommene Nutzungsdauer des Vergleichswerkstoffs in Jahren" />
+@@ -325,13 +312,13 @@
+             ) : null}
+           </Field>
+           <Field fid="region" label="Energiemix (Region)">
+-            <ChipGroup options={CO2_REGIONS} value={regionId} onChange={setRegionId} render={(r: any) => r.label} />
++            <ChipGroup options={CO2_REGIONS} value={regionId} onChange={setRegionId} render={(r) => r.label} />
+           </Field>
+           <Field label="Strommix-Entwicklung">
+-            <ChipGroup options={[{ id: 'static', label: 'Statisch' }, { id: 'path', label: 'Klimapfad −2,5 %/a' }]} value={gridPath} onChange={setGridPath} render={(o: any) => o.label} />
++            <ChipGroup options={[{ id: 'static', label: 'Statisch' }, { id: 'path', label: 'Klimapfad −2,5 %/a' }]} value={gridPath} onChange={setGridPath} render={(o) => o.label} />
+           </Field>
+           <Field label="Betriebsart">
+-            <ChipGroup options={CO2_OPERATING_MODES} value={opModeId} onChange={manual(setOpModeId)} render={(m: any) => m.label} />
++            <ChipGroup options={CO2_OPERATING_MODES} value={opModeId} onChange={manual(setOpModeId)} render={(m) => m.label} />
+           </Field>
+           <Field fid="transport" label={<div className="dash-field-row"><span>Transportweg (Werk → Baustelle)</span><strong>{transportKm.toLocaleString('de-DE')} km</strong></div>}>
+             <input type="range" className="k-range" min="0" max="1500" step="10" value={transportKm} onChange={(e) => setTransportKm(+e.target.value)} aria-label="Transportweg in Kilometern" />
+@@ -429,9 +416,12 @@
+         </div>
+       </main>
+ 
++
+       {drawerResult ? <MaterialDrawer result={drawerResult} horizon={horizon} onClose={() => setDrawerId(null)} fmt={co2Fmt}></MaterialDrawer> : null}
+       <Co2Coachmarks></Co2Coachmarks>
+       <SeoEngine />
+     </div>
+   );
+ }
++
++ReactDOM.createRoot(document.getElementById('root')).render(<Co2Dashboard />);

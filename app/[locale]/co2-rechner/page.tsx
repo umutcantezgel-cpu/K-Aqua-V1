@@ -39,10 +39,7 @@ export default async function Co2RechnerPage({ params }: Props) {
   
   return (
     <div className="flex flex-col min-h-screen bg-background selection:bg-primary/30 relative z-20">
-      <div className="sr-only">
-        <p>{meta[0]}</p>
-        <p>{meta[1]}</p>
-      </div>
+
       <JsonLd schema={jsonLd} />
       <Co2DashboardWrapper />
       {guideText && (
