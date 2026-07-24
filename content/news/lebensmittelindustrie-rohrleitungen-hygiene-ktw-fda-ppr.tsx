@@ -51,9 +51,64 @@ export const lebensmittelindustrieHygiene: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für absolute Flüssigkeitsreinheit */}
             <PipeFX variant="droplet" size={380} />
           </div>
+        </div>
+      </Reveal>
+
+      {/* Deep Technical Prose Area */}
+      <Reveal>
+        <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+          <h2>Hygienische Rohrleitungen: Warum PP-R die moderne Lebensmittelindustrie dominiert</h2>
+          <p>
+            In der industriellen Lebensmittelproduktion, von der Milchverarbeitung bis hin zur Brauereitechnik, spielen hygienische Rohrleitungssysteme eine entscheidende Rolle. Die Qualität des Endprodukts ist untrennbar mit den Materialien verbunden, durch die es transportiert wird. Während Edelstahl jahrzehntelang als der Goldstandard galt, hat sich Polypropylen Random-Copolymer (PP-R) in den letzten Jahren als technisch überlegene und wirtschaftlich attraktivere Alternative etabliert. K Aqua PP-R Rohrsysteme sind speziell für diese anspruchsvollen Bedingungen entwickelt worden. Sie erfüllen nicht nur die strengen KTW-Leitlinien und FDA-Anforderungen, sondern bieten auch ein Höchstmaß an chemischer und thermischer Beständigkeit.
+          </p>
+          
+          <h3>Die Bedeutung von FDA- und KTW-Zertifizierungen</h3>
+          <p>
+            Wenn Flüssigkeiten für den menschlichen Verzehr produziert, transportiert oder abgefüllt werden, darf es keinerlei Kompromisse bei der Lebensmittelsicherheit geben. Die Food and Drug Administration (FDA) der USA sowie die KTW-Leitlinie (Kunststoffe im Trinkwasser) des deutschen Umweltbundesamtes stellen die weltweit strengsten Anforderungen an Kontaktmaterialien.
+          </p>
+          <p>
+            Unsere K Aqua PP-R Rohre sind zu 100 % lebensmittelecht. Das bedeutet konkret: Im Gegensatz zu minderwertigen Kunststoffen wie PVC enthalten sie keinerlei Weichmacher, Phthalate, Schwermetalle oder BPA. Die hochmolekulare Struktur des PP-R stellt sicher, dass selbst bei extremen Temperaturen und Drücken keine chemischen Verbindungen in das Trinkwasser oder die Lebensmittel migrieren. Der Geschmack, der Geruch und die visuelle Reinheit der Produkte bleiben absolut unangetastet. Diese absolute Geruchs- und Geschmacksneutralität ist besonders in Brauereien und bei der Abfüllung von Mineralwasser von unschätzbarem Wert.
+          </p>
+
+          <h3>CIP-Verfahren (Cleaning in Place): Chemische Beständigkeit im Fokus</h3>
+          <p>
+            Ein zentraler Prozess in der Lebensmittelindustrie ist das "Cleaning in Place" (CIP) – die Reinigung der Produktionsanlagen ohne Demontage. Bei diesem Verfahren kommen hochkonzentrierte Reinigungsmittel, aggressive Säuren (wie Salpetersäure oder Phosphorsäure) und scharfe Laugen (wie Natronlauge) bei Temperaturen von bis zu 90 °C zum Einsatz. 
+          </p>
+          <p>
+            Während Edelstahl bei bestimmten Chloridkonzentrationen zur gefürchteten Lochfraßkorrosion neigt, zeigt PP-R eine überragende chemische Beständigkeit. Die Rohre werden von den aggressiven Reinigungsmitteln weder angegriffen noch aufgeraut. Die absolute Korrosionsfreiheit von PP-R eliminiert das Risiko von Metallionen, die in die Lebensmittel gelangen könnten. Dies verlängert die Lebensdauer des gesamten Rohrnetzwerkes erheblich und reduziert die Wartungskosten für die Anlagenbetreiber drastisch.
+          </p>
+
+          <h3>Biofilminhibition und Oberflächenrauheit</h3>
+          <p>
+            Ein weiteres enormes Risiko in der Lebensmittelverarbeitung ist die mikrobielle Kontamination durch Biofilme. Bakterien wie Legionellen, Pseudomonaden oder Listerien siedeln sich bevorzugt in mikroskopischen Kratzern und an rauen Oberflächen an. K Aqua PP-R Rohre verfügen über eine extrem glatte Innenwand mit einer Oberflächenrauheit von weniger als 0,007 mm. 
+          </p>
+          <p>
+            Diese spiegelglatte Oberfläche entzieht Mikroorganismen buchstäblich die Lebensgrundlage, da sie keinen mechanischen Halt finden. Zudem sorgt die glatte Struktur für hervorragende hydraulische Eigenschaften: Der Reibungswiderstand ist minimal, wodurch Ablagerungen und Verkrustungen (wie Kalk oder Proteinrückstände) nahezu vollständig verhindert werden. Dies optimiert nicht nur die Hygiene, sondern senkt auch die Energiekosten für die Pumpensysteme, da der Strömungsverlust minimiert wird.
+          </p>
+
+          <h3>Verbindungstechnik: Totraumfreie Schweißnähte</h3>
+          <p>
+            Ein Rohrleitungssystem ist nur so hygienisch wie seine schwächste Stelle – und das sind meist die Verbindungen. Traditionelle Schraub-, Flansch- oder Pressverbindungen schaffen häufig Toträume, in denen das Medium stagniert und sich Bakterien ungestört vermehren können. K Aqua PP-R setzt auf das Verfahren der Polyfusion (Heizelementmuffenschweißung). 
+          </p>
+          <p>
+            Dabei werden Rohr und Fitting kurzzeitig erhitzt und anschließend ineinandergefügt. Das Material verschmilzt auf molekularer Ebene zu einer homogenen, absolut dichten und untrennbaren Einheit. Das Resultat ist eine 100 % totraumfreie Verbindung, die mechanisch ebenso belastbar ist wie das Rohr selbst. Keine Dichtungsringe, die im Laufe der Zeit porös werden, und keine Spalten, in denen sich Keime verstecken können.
+          </p>
+
+          <h3>Häufig gestellte Fragen (FAQ) zur Lebensmittelindustrie und PP-R</h3>
+          <h4>Können PP-R Rohre bei extremen Temperaturen eingesetzt werden?</h4>
+          <p>
+            Ja, K Aqua PP-R Systeme sind für einen Dauerbetrieb bei hohen Temperaturen ausgelegt, was sie ideal für Heißwasser- und CIP-Anwendungen macht. Sie halten Temperaturen bis zu 95 °C stand und bieten auch bei kurzzeitigen Temperaturspitzen höchste Sicherheit.
+          </p>
+          <h4>Wie verhält sich PP-R im Vergleich zu Edelstahl 316L?</h4>
+          <p>
+            Während Edelstahl 316L bei Chloriden korrosionsanfällig ist und eine aufwendige Schweißtechnik erfordert, ist PP-R chemisch inert, korrosionsfrei und lässt sich schnell und emissionsfrei verarbeiten. Zudem sind die Material- und Installationskosten bei PP-R signifikant geringer.
+          </p>
+          <h4>Gibt PP-R Mikroplastik ab?</h4>
+          <p>
+            Nein. Die stabile molekulare Struktur von Polypropylen Random-Copolymer verhindert jeglichen Abrieb und die Migration von Mikroplastik in die Flüssigkeiten. Dies ist ein entscheidender Vorteil gegenüber vielen minderwertigen Kunststoffen.
+          </p>
         </div>
       </Reveal>
 

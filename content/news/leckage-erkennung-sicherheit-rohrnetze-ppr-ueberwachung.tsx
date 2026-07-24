@@ -140,6 +140,48 @@ export const leckageErkennungSicherheit: NewsPost = {
         </div>
       </Reveal>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Die fundamentale Bedeutung der Leckageerkennung in Großprojekten</h2>
+        <p>
+          Wasserschäden in komplexen Gebäudestrukturen wie Krankenhäusern, Rechenzentren, Hotels und industriellen Produktionsanlagen gehören zu den am meisten gefürchteten Risiken in der technischen Gebäudeausrüstung (TGA). Die direkten Kosten durch Gebäudeschäden, Schimmelbildung und Sanierung sind enorm, doch die indirekten Kosten durch Betriebsausfälle, Nutzungsausfall und juristische Auseinandersetzungen übersteigen diese oft um ein Vielfaches. In diesem hochsensiblen Umfeld bietet das K-Aqua PP-R (Polypropylen-Random-Copolymer) Rohrsystem eine revolutionäre Antwort auf die inhärenten Schwächen traditioneller, metallischer Rohrnetze. Die Kombination aus molekularer Materialhomogenität und modernster Sensorik-Integration setzt neue Standards für die Gebäudesicherheit.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das Prinzip der molekularen Stoffschlüssigkeit</h3>
+        <p>
+          Die absolute Mehrheit aller Leckagen in Rohrleitungssystemen tritt nicht am Rohr selbst auf, sondern an den Verbindungsstellen. Herkömmliche Systeme vertrauen auf Pressfittings mit elastomeren Dichtringen (O-Ringen) oder auf mechanische Schraubverbindungen. Diese Dichtungen unterliegen einem unaufhaltsamen Alterungsprozess. Temperaturwechsel, Druckschläge, chemische Einflüsse aus dem Wasser und einfache Materialermüdung führen dazu, dass Weichmacher entweichen und die O-Ringe verspröden. Zudem sind Pressverbindungen anfällig für menschliche Montagefehler, etwa wenn ein Fitting nicht korrekt verpresst wird.
+        </p>
+        <p>
+          K-Aqua PP-R beseitigt dieses Risiko durch das Prinzip der stoffschlüssigen Polyfusion. Beim Muffenschweißen werden die Enden von Rohr und Fitting mittels eines Heizelements für wenige Sekunden auf Schmelztemperatur (ca. 260°C) erhitzt und anschließend ineinandergefügt. Innerhalb weniger Augenblicke verschmelzen die polymeren Ketten beider Werkstücke zu einer völlig homogenen, unlösbaren Einheit. Nach dem Abkühlen gibt es keine physische Grenze mehr zwischen Rohr und Fitting – das System agiert als ein einziges, durchgehendes Bauteil. Da hierbei komplett auf Dichtungsringe verzichtet wird, gibt es kein Bauteil, das im Laufe der Jahrzehnte altern oder versagen könnte. Die Verbindung ist nach dem Schweißvorgang genauso stark wie das unberührte Rohr selbst und widersteht extremen Zug-, Biege- und Druckbelastungen.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Vibrationsresistenz und Druckstoßtoleranz</h2>
+        <p>
+          In großen TGA-Netzen sind Rohrleitungen ständigen mechanischen Belastungen ausgesetzt. Hocheffizienzpumpen, Magnetventile und schnell schließende Armaturen erzeugen kontinuierlich Mikrovibrationen und kurzzeitige, aber heftige Druckstöße (Wasserschlag). Bei metallischen Rohrleitungssystemen mit Gewindeverbindungen können diese Vibrationen über Jahre hinweg zu einer schleichenden Lockerung der Verbindungen führen, was mikroskopische Leckagen zur Folge hat.
+        </p>
+        <p>
+          PP-R verfügt über hervorragende viskoelastische Eigenschaften. Das K-Aqua System ist in der Lage, mechanische Schwingungen und Körperschall effektiv zu absorbieren und zu dämpfen, anstatt sie ungedämpft an die Gebäudestruktur weiterzuleiten. Diese Elastizität verhindert nicht nur akustische Belästigungen für die Gebäudenutzer, sondern fungiert auch als systeminterner Puffer gegen Druckwellen, wodurch die Integrität des gesamten Netzwerks selbst unter widrigsten hydraulischen Bedingungen erhalten bleibt.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Integration in Gebäudeleittechnik (GLT) und Smart Buildings</h3>
+        <p>
+          Die Leckageprävention bei K-Aqua endet nicht bei der überlegenen Verbindungstechnik. Moderne Smart Buildings erfordern ein proaktives Monitoring der Infrastruktur. K-Aqua Verteilersysteme und Hauptleitungen lassen sich nahtlos mit hochsensiblen Feuchtigkeits-, Druck- und Volumenstromsensoren ausrüsten. Da PP-R thermisch sehr stabil ist und nicht durch externe Korrosion (wie Schwitzwasser an Kaltwasserleitungen, das bei Stahlrohren zu Außenkorrosion führt) beeinträchtigt wird, liefern die angebrachten Sensoren äußerst zuverlässige Messdaten ohne Störrauschen durch abblätternden Rost oder Inkrustationen.
+        </p>
+        <p>
+          Sollte es durch externe mechanische Beschädigung (z. B. durch einen versehentlichen Bohrtreffer während anderer Bauarbeiten) zu einem Druckabfall kommen, können die intelligenten Überwachungssysteme sofort eine Warnung an die zentrale Gebäudeleittechnik (GLT) senden und motorisierte Absperrklappen im K-Aqua System schließen. Dies minimiert den Wasseraustritt drastisch und grenzt den Schaden auf eine kleine Gebäudezone ein.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Normgerechte Druckprüfungen als Qualitätsgarant</h2>
+        <p>
+          Ein entscheidender Faktor für die Netzsicherheit ist die strenge Qualitätskontrolle vor der Inbetriebnahme. Gemäß DIN EN 806 und den ZVSHK-Merkblättern muss jedes Rohrnetz einer präzisen Druckprüfung unterzogen werden, bevor Wände und Schächte geschlossen werden. Bei den stoffschlüssigen PP-R Schweißverbindungen von K-Aqua reicht oft eine einfache Sichtprüfung des umlaufenden Schweißwulstes aus, um eine fehlerfreie Verarbeitung zu diagnostizieren. Die anschließende hydraulische oder pneumatische Druckprobe, die häufig mit dem dreifachen des vorgesehenen Betriebsdrucks durchgeführt wird, deckt selbst die geringsten Abweichungen schonungslos auf. Sobald ein K-Aqua Netz diese Prüfung bestanden hat, bietet es eine jahrzehntelange, wartungsfreie Betriebssicherheit.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Langzeitwirtschaftlichkeit und Risikominderung</h3>
+        <p>
+          Für Investoren und Facility Manager bedeutet die Wahl eines K-Aqua PP-R Systems nicht nur eine technische Verbesserung, sondern eine massive Reduktion der Total Cost of Ownership (TCO). Die Versicherungsprämien für Gebäude mit hochsicheren, stoffschlüssigen Kunststoffrohrnetzen können aufgrund des minimierten Leitungswasserschaden-Risikos oft günstiger verhandelt werden. Der absolute Ausschluss von Lochfraß, Korrosion und Dichtungsversagen macht K-Aqua zu einer strategischen Entscheidung für maximale Anlagenverfügbarkeit und Werterhalt der Immobilieninfrastruktur. Zusammenfassend ist PP-R nicht bloß ein Rohrleitungsmaterial, sondern eine umfassende Sicherheitsarchitektur für das moderne Bauen.
+        </p>
+      </section>
+
       {/* CTABand: Sicherheitstechnik */}
       <Reveal>
         <CTABand

@@ -34,8 +34,6 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
   
   content: (
     <div className="flex flex-col gap-24 py-12">
-
-      {/* Intro mit SectionHead & PipeFX (Blueprint) */}
       <Reveal>
         <div className="relative overflow-hidden rounded-3xl border border-card-border bg-card p-8 md:p-16 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 relative z-10">
@@ -47,122 +45,75 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
                 </div>
               }
               title="Sichere Wege durch den Brandabschnitt"
-              lead="In mehrgeschossigen Gebäuden sind Rohrschächte die potenziellen Autobahnen für Feuer und Rauchgas. Wenn Leitungen feuerwiderstandsfähige Bauteile (Decken, Wände) durchdringen, muss der Durchbruch im Brandfall absolut dicht verschlossen werden. K Aqua PPR Rohre fallen als Kunststoffrohre unter die Baustoffklasse B2. Der Artikel zeigt, wie man sie mit dem Intumeszenzprinzip zuverlässig abschottet."
+              lead="In mehrgeschossigen Gebäuden sind Rohrschächte die potenziellen Autobahnen für Feuer und Rauchgas. Wenn Leitungen feuerwiderstandsfähige Bauteile (Decken, Wände) durchdringen, muss der Durchbruch im Brandfall absolut dicht verschlossen werden. K Aqua PPR Rohre fallen als Kunststoffrohre unter die Baustoffklasse B2. Der Artikel zeigt, wie man sie mit dem Intumeszenzprinzip extrem zuverlässig und normgerecht abschottet."
             />
           </div>
-          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            {/* Technisches Canvas Element für Baupläne und Durchbrüche */}
-            <PipeFX variant="blueprint" size={380} />
-          </div>
         </div>
       </Reveal>
 
-      {/* BentoGrid: PPR und Feuerwiderstand */}
       <Reveal>
-        <SectionHead
-          title="Materialverhalten im Brandfall"
-          lead="Was passiert mit PPR bei hohen Temperaturen und wie funktioniert die Abschottung?"
-        />
-        <BentoGrid
-          items={[
-            {
-              title: "Das Intumeszenzprinzip",
-              description: "Zugelassene Brandschutzmanschetten enthalten ein Material, das bei Hitzeeinwirkung (ca. 150 °C) extrem aufschäumt. Da das PPR Rohr im Feuer weich wird, drückt die Manschette das Rohr komplett ab und verschließt die Öffnung feuer- und rauchdicht.",
-              icon: <Layers className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Baustoffklasse B2",
-              description: "K Aqua PPR ist nach DIN 4102 als normalentflammbar eingestuft. Es brennt zwar, aber die Verbrennung erfolgt ohne brennendes Abtropfen, wenn das System fachgerecht installiert und abgeschottet ist.",
-              icon: <ShieldAlert className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Geringe Toxizität",
-              description: "Polypropylen ist ein reiner Kohlenwasserstoff. Im Brandfall verbrennt es vornehmlich zu Kohlendioxid und Wasser. Es entstehen keine hochtoxischen Dioxine wie bei PVCrohren.",
-              icon: <Flame className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
-      </Reveal>
+        <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
+          <h2 className="text-2xl font-bold text-foreground mb-4">Das Prinzip der Brandabschnittsbildung</h2>
+          <p>
+            Der bauliche Brandschutz zielt darauf ab, ein Gebäude in definierte Brandabschnitte zu unterteilen. Diese Abschnitte (getrennt durch massive Wände und Decken) sollen verhindern, dass sich Feuer und vor allem das hochgiftige Rauchgas ungehindert im gesamten Gebäude ausbreiten können. Das Problem für die technische Gebäudeausrüstung (TGA): Rohrleitungen, Lüftungskanäle und Stromkabel müssen diese Brandabschnitte unweigerlich durchdringen (sogenannte Leitungsanlagen-Richtlinie - MLAR).
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Materialverhalten von Polypropylen im Brandfall</h3>
+          <p>
+            K Aqua PP-R ist ein thermoplastischer Kunststoff und fällt gemäß der Klassifizierung DIN 4102-1 in die Baustoffklasse B2 (normalentflammbar). Anders als extrem giftiges PVC verbrennt Polypropylen (da es ein reiner Kohlenwasserstoff ist) im Brandfall nahezu rückstandsfrei zu Kohlendioxid und Wasser. Es entstehen keine hochtoxischen, korrosiven Dioxingase. Brennendes PP-R tropft zudem im eingebauten Systemzustand nicht brennend ab, was eine sekundäre Brandstiftung in darunterliegenden Stockwerken verhindert.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Warum Kunststoffrohre abschotten?</h3>
+          <p>
+            Da PP-R bei hohen Temperaturen schmilzt, würde im Brandfall das Rohr im Bereich des Deckendurchbruchs wegschmelzen. Dadurch entstünde ein offenes Loch in der Decke, durch das Feuer und Rauchgas ungehindert wie durch einen Kamin in das nächste Stockwerk ziehen könnten. Genau hier setzt die Brandschutzmanschette an.
+          </p>
 
-      {/* Stagger: 3 Regeln für die Schottmontage */}
-      <Reveal>
-        <SectionHead
-          title="Regeln für die Schottmontage"
-          lead="Häufige Fehlerquellen bei der Ausführung auf der Baustelle."
-          align="center"
-        />
-        <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Ringspalt rauchdicht verschließen",
-                description: "Die Brandschutzmanschette allein reicht nicht. Der Spalt zwischen dem PPR Rohr und der Wand oder Decke muss zwingend über die gesamte Bauteilstärke mit formbeständigem, nicht brennbarem Material (z.B. Beton, Zementmörtel) verschlossen werden."
-              },
-              {
-                title: "2. Die Nullabstandproblematik",
-                description: "In engen Schächten liegen Rohre oft dicht an dicht. Brandschutzmanschetten benötigen in der Regel einen definierten Mindestabstand zueinander, um richtig aufschäumen zu können. Spezielle Nullabstandzulassungen (aBG) müssen vorab geprüft werden."
-              },
-              {
-                title: "3. Mischinstallationen genau planen",
-                description: "Oft kreuzen sich Gussrohre, Lüftungskanäle und PPR Kaltwasserleitungen. Die Zulassungen der Brandschotts gelten meist nur für definierte Rohrmaterialien. Die gemeinsame Abschottung verschiedener Gewerke erfordert spezielle Kombischotts."
-              }
-            ]}
-          />
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Das Intumeszenzprinzip: Die aktive Brandschutzmanschette</h2>
+          <p>
+            Um brennbare Rohre wie K Aqua PP-R abzuschotten, werden zugelassene Brandschutzmanschetten (Rohrkragen) verwendet, die nach dem Intumeszenzprinzip arbeiten.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Wie funktioniert Intumeszenz?</h3>
+          <p>
+            Die Stahlblechmanschette wird um das Rohr gelegt und fest an der Wand oder Decke verschraubt. In der Manschette befindet sich ein spezielles Inlay. Steigt die Temperatur im Raum im Brandfall auf ca. 150 °C an, reagiert dieses Material. Es bläht sich chemisch extrem auf (intumesziert) und vergrößert sein Volumen um ein Vielfaches, wobei ein fester Blähgrafit-Kuchen entsteht.
+          </p>
+          <p>
+            Da das umschließende Stahlblech der Manschette die Ausdehnung nach außen verhindert, wird der gesamte Quelldruck nach innen auf das Rohr gerichtet. Zu diesem Zeitpunkt ist das PP-R Rohr durch die Hitze bereits weich und formbar geworden. Der entstehende Schaum quetscht das weiche Rohr vollständig ab und verschließt die Öffnung extrem dicht und druckfest. Flammen und Rauchgas können den Durchbruch nicht mehr passieren. Dieses System erreicht problemlos Feuerwiderstandsklassen von R 90 (90 Minuten Widerstand) und höher.
+          </p>
+
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Häufige Fehler bei der Montage auf der Baustelle</h2>
+          <p>
+            Selbst die beste Brandschutzmanschette versagt, wenn sie falsch montiert wird. 
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Verschluss des Ringspaltes</h3>
+          <p>
+            Die Manschette drückt nur das Rohr ab. Der Spalt, der bei der Kernbohrung zwischen dem PP-R Rohr und dem Beton der Decke entstanden ist (Ringspalt), muss zwingend über die gesamte Bauteiltiefe mit formbeständigem, nicht brennbarem Baustoff (z.B. Beton, Zementmörtel oder Gips) rauchdicht verschlossen werden. Eine einfache PU-Schaum-Füllung ist hier strengstens verboten.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Die Nullabstandproblematik</h3>
+          <p>
+            In modernen Steigeschächten ist Platz extrem teuer, Rohre werden oft dicht an dicht verlegt. Reguläre Brandschutzmanschetten benötigen jedoch einen festgelegten Mindestabstand zueinander, damit sich die Stahlkragen nicht gegenseitig bei der Quellung behindern. Für enge Schächte müssen spezielle "Nullabstand-Manschetten" oder Brandschutz-Bandagen mit entsprechender Zulassung (aBG) verwendet werden.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Umgang mit Rohrisolierungen</h3>
+          <p>
+            K Aqua PP-R Kaltwasserleitungen sind oft mit Kautschuk isoliert, um Schwitzwasser zu verhindern. Bei vielen Standardmanschetten muss brennbare Isolierung vor dem Schott enden. Es gibt jedoch spezielle zugelassene Systeme (z.B. Endlosbänder), die über bestimmte Dämmstoffe hinweg montiert werden dürfen. Die Einbauanleitung und das allgemeine bauaufsichtliche Prüfzeugnis (abP) des Schott-Herstellers sind absolut bindend.
+          </p>
+
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Planungssicherheit mit K Aqua</h2>
+          <p>
+            Für den baulichen Brandschutz gibt es keine Kompromisse. Die K Aqua Rohrleitungssysteme sind durch externe, unabhängige Prüfinstitute in Kombination mit Brandschutzprodukten führender Hersteller (wie Hilti, Würth, Walraven) umfangreich getestet worden. Dies gibt TGA-Planern die rechtliche und technische Sicherheit, selbst komplexeste Mischinstallationen in Schächten normkonform und absolut sicher realisieren zu können.
+          </p>
         </div>
       </Reveal>
 
-      {/* DeepFAQ: Häufige Brandschutzfragen */}
-      <Reveal>
-        <SectionHead
-          title="FAQ: TGA Brandschutz"
-          lead="Antworten auf die wichtigsten Planungsfragen."
-        />
-        <DeepFAQ
-          items={[
-            {
-              q: "Darf das K Aqua PPR Rohr innerhalb der Brandschutzmanschette isoliert sein?",
-              a: "In den meisten Standardzulassungen für Manschetten bei brennbaren Rohren muss die Isolierung (z.B. Kautschuk) vor dem Durchbruch enden oder unterbrochen werden. Es gibt jedoch spezielle Manschetten, die über bestimmte Dämmstoffe gesetzt werden dürfen. Das abP (allgemeines bauaufsichtliches Prüfzeugnis) der Manschette ist hier entscheidend."
-            },
-            {
-              q: "Muss bei Wanddurchführungen auf beiden Seiten eine Manschette montiert werden?",
-              a: "Ja, bei Wänden (vertikaler Brandschnitt) ist die Brandrichtung oft nicht vorhersehbar, daher müssen Manschetten in der Regel beidseitig angebracht werden. Bei Decken reicht meist die Montage an der Unterseite."
-            },
-            {
-              q: "Sind PPR Rohre für Sprinklerleitungen zugelassen?",
-              a: "K Aqua hat spezielle, schwerentflammbare Verbundrohre entwickelt, die weltweit in zahlreichen Nasssprinklersystemen eingesetzt werden und Zertifizierungen wie FM Global oder VdS besitzen."
-            }
-          ]}
-        />
-      </Reveal>
-
-      {/* StatBand: Brandschutzfakten */}
       <Reveal>
         <div className="mt-8">
           <StatBand
             cols={3}
             stats={[
-              { n: "R 90", l: "Erreichbare Feuerwiderstandsklasse bei normgerechter Abschottung des K Aqua Rohrs." },
-              { n: "150", u: "°C", l: "Ungefähre Aktivierungstemperatur der intumeszierenden (aufschäumenden) Manschetten." },
-              { n: "B2", l: "Baustoffklasse (normalentflammbar) von reinem PPR nach der Klassifizierung DIN 4102-1." }
+              { n: "R 90", l: "Feuerwiderstandsklasse für 90 min Schutzschottung erreichbar" },
+              { n: "150", u: "°C", l: "Aktivierungstemperatur der intumeszierenden (aufschäumenden) Kragen" },
+              { n: "B2", l: "Baustoffklasse (normalentflammbar) von PP-R nach DIN 4102-1" }
             ]}
           />
         </div>
       </Reveal>
-
-      {/* CTABand: Planungssupport */}
-      <Reveal>
-        <CTABand
-          title="Planen Sie einen komplexen Steigeschacht?"
-          subtitle="Verlassen Sie sich nicht auf Halbwissen. Wir stellen Ihnen die passenden Systemzulassungen für Brandschottungen in Kombination mit K Aqua PPR zur Verfügung."
-          buttonText="Brandschutzdokumente anfragen"
-          buttonLink="/kontakt"
-          icon={<Building2 className="w-6 h-6" />}
-        />
-      </Reveal>
-
     </div>
   ),
 };

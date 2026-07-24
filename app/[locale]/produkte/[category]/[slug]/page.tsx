@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   // Handle SEO duplicate content for product variants by mapping them to a canonical variant
   let canonicalSlug = slug;
-  if (slug === 'k-fiber-pipe-pp-r-sdr-7-4' || slug === 'k-fiber-pipe-pp-r-sdr-9' || slug === 'k-fiber-pipe-pp-r-sdr-17') {
+  if (slug === 'k-fiber-pipe-pp-r-sdr-74' || slug === 'k-fiber-pipe-pp-r-sdr-9' || slug === 'k-fiber-pipe-pp-r-sdr-17') {
     canonicalSlug = 'k-fiber-pipe-pp-r-sdr-11';
   } else if (slug === 'k-pipe-pp-r-sdr-6') {
     canonicalSlug = 'k-pipe-pp-r-sdr-11';
@@ -411,7 +411,7 @@ export default async function ProductDetailPage({
                      </h3>
                      <div 
                        className="prose dark:prose-invert max-w-none text-muted-foreground leading-relaxed text-body prose-p:mb-4"
-                       dangerouslySetInnerHTML={{ __html: tProd(`seoArticle.${seoCat}.guideText`) }}
+                       dangerouslySetInnerHTML={{ __html: tProd.raw(`seoArticle.${seoCat}.guideText`) }}
                      />
                   </div>
                 )}

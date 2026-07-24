@@ -1,7 +1,7 @@
 ---
 title: "K-Pipe PP-RCT SDR 7.4"
 category: "Pipes"
-slug: "pipes/k-pipe-pp-rct-sdr-7-4"
+slug: "pipes/k-pipe-pp-rct-sdr-74"
 article_codes: ["AQ20020", "AQ20025", "AQ20032", "AQ20040", "AQ20050"]
 ---
 

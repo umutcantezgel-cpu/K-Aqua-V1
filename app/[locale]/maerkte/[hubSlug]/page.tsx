@@ -79,7 +79,11 @@ export default async function GeoHubPage({ params }: Props) {
             Infrastruktur-Lösungen für {hub.name}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
-            {hub.description}
+            {tGeo.has(`hubs.${hub.slug}.description`) ? (
+               <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`) }} />
+            ) : (
+               hub.description
+            )}
           </p>
           
           <div className="mt-6 p-4 bg-muted/50 rounded-lg border max-w-3xl">

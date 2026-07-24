@@ -62,7 +62,7 @@ export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, Bu
       delete anchorProps.type;
       delete anchorProps.disabled;
       
-      const isExternal = href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:');
+      const isExternal = href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('/pdf/');
       
       if (isExternal) {
         return (

@@ -48,6 +48,64 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
         </Reveal>
       </section>
 
+      {/* Deep Technical Prose Area */}
+      <section>
+        <Reveal>
+          <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+            <h2>Überlebenskampf im industriellen Anlagenbau: Warum chemische Beständigkeit alles entscheidet</h2>
+            <p>
+              In der industriellen Produktion, der Galvanotechnik, der chemischen Verarbeitung oder in gewaltigen Kühlturmanlagen ist das Rohrleitungssystem nicht einfach nur ein Wassertransporteur – es ist das Rückgrat des gesamten Prozesses. Ein unerwarteter Leitungsbruch oder ein durch Lochfraß verursachter Anlagenstillstand kostet Unternehmen oft zehntausende Euro pro Stunde. Genau hier versagen herkömmliche Metalle wie Stahl, Kupfer oder Aluminium allzu oft, weil sie den chemischen Angriffen der Prozessmedien schutzlos ausgeliefert sind. K Aqua PP-R (Polypropylen Random-Copolymer) Rohrsysteme sind speziell für diese unbarmherzigen Umgebungen konzipiert.
+            </p>
+            
+            <h3>Die fatale Schwäche der Metalle: Elektrochemische Korrosion</h3>
+            <p>
+              Metalle besitzen in ihrem Kristallgitter freie Elektronen. Dies macht sie zu hervorragenden elektrischen Leitern, ist aber gleichzeitig ihr sicheres Todesurteil im industriellen Einsatz. Sobald Metalle mit Elektrolyten (z. B. salzhaltigen Kühlwässern, sauren Lösungen) in Berührung kommen, starten unaufhaltsame galvanische Prozesse. Sauerstoff und Ionen im Wasser entziehen dem Metall Elektronen, das Material zersetzt sich – es rostet, oxidiert und wird brüchig. 
+            </p>
+            <p>
+              Besonders gefürchtet ist die Lochfraßkorrosion (Pitting) bei Edelstahl, die durch einen zu hohen Gehalt an Chloriden im Wasser ausgelöst wird. Binnen kürzester Zeit fressen sich mikroskopische Löcher durch die ansonsten massive Stahlwand. Die Leitung wird zur tickenden Zeitbombe.
+            </p>
+
+            <h3>Die molekulare Unangreifbarkeit von PP-R</h3>
+            <p>
+              Polypropylen gehört zur Gruppe der Polyolefine. Sein molekularer Aufbau besteht aus unpolaren Kohlenwasserstoffketten. Einfach ausgedrückt: PP-R hat keine freien Elektronen, die es abgeben könnte. Das Material ist chemisch inert. 
+            </p>
+            <p>
+              Wenn hochaggressive Medien wie 30%ige Schwefelsäure, Natronlauge, Ammoniaklösungen oder chloridreiches Meerwasser durch ein K Aqua PP-R Rohr fließen, finden sie schlichtweg keinen Reaktionspartner. Das Rohr ignoriert die Chemikalie völlig. Es kommt zu keinerlei Materialabtrag, keiner Schwächung der Rohrwand und keiner Verunreinigung des teuren Prozessmediums durch abgelöste Metallionen. Das ph-Toleranzfenster von K Aqua Systemen ist gigantisch und reicht problemlos von hochsauren pH-Werten (pH 1) bis hin zu extrem basischen Bereichen (pH 14).
+            </p>
+
+            <h3>Abrasiver Widerstand bei Schwebstoffen</h3>
+            <p>
+              Industrielle Wässer sind selten rein. In offenen Kühlkreisläufen, Abwasserleitungen oder beim hydraulischen Feststofftransport transportiert das Wasser oft Sand, Metallspäne, Salzkristalle oder biologische Schwebstoffe mit hoher Geschwindigkeit. 
+            </p>
+            <p>
+              Diese Partikel wirken in metallischen Rohren, besonders in den Bögen, wie ein ständiger Sandstrahl, der das Material mechanisch abträgt (Erosionskorrosion). PP-R bietet hier einen genialen physikalischen Vorteil: Das Material ist extrem zäh und besitzt eine leicht elastische Oberflächendämpfung. Die auftreffenden Sandpartikel prallen förmlich ab, ohne mikroskopische Kratzer zu hinterlassen. Die Standzeit von K Aqua Rohren beim Transport von abrasiven Medien ist jener von Metallrohren oft um ein Vielfaches überlegen.
+            </p>
+
+            <h3>Absolute Sicherheit bei Druckluft und Kompressoren</h3>
+            <p>
+              Druckluftnetze sind in fast jeder Fabrik vorhanden, um pneumatische Maschinen, Roboter oder Werkzeuge anzutreiben. Werden hier verzinkte Stahlrohre eingesetzt, bildet sich durch das Kondenswasser unweigerlich Rost im Inneren der Rohre. Löst sich dieser Rost und wird mit der Druckluft in die teuren Pneumatikzylinder der Maschinen geblasen, drohen kapitale Maschinenschäden. 
+            </p>
+            <p>
+              Da PP-R nicht rostet, garantiert ein K Aqua System eine absolut reine, partikelfreie Druckluftversorgung. Zudem schützt die homogene und vollflächige Muffenschweißung (keine Gewinde, die undicht werden könnten) vor den gefürchteten, extrem teuren Druckluftleckagen, die den Stromverbrauch der Kompressoren in die Höhe treiben.
+            </p>
+
+            <h3>Häufig gestellte Fragen (FAQ) zum Industrie-Einsatz</h3>
+            <h4>Wie prüfe ich, ob PP-R für meine spezifische Prozesschemikalie geeignet ist?</h4>
+            <p>
+              K Aqua stellt umfangreiche Beständigkeitslisten nach DIN 8078 (Beiblatt 1) zur Verfügung. Darin sind hunderte von Chemikalien in Abhängigkeit von Konzentration und Betriebstemperatur gelistet. Unser Engineering-Team übernimmt diese Prüfung gerne für Ihr Projekt.
+            </p>
+            <h4>Was passiert bei statischer Aufladung in Gefahrenzonen (ATEX)?</h4>
+            <p>
+              PP-R ist ein elektrischer Isolator. Beim Transport hochgradig brennbarer oder explosiver Medien (z.B. Lösungsmittel) in explosionsgefährdeten Bereichen (ATEX-Zonen) müssen Maßnahmen gegen statische Aufladung getroffen werden, weshalb Standard-PP-R hier nicht primär eingesetzt wird. Für die meisten Prozess- und Kühlwässer ist diese Eigenschaft jedoch irrelevant oder sogar vorteilhaft (kein elektrischer Überschlag).
+            </p>
+            <h4>Können PP-R Ventile in das System integriert werden?</h4>
+            <p>
+              Ja, K Aqua bietet ein komplettes Vollkunststoff-Sortiment an, inklusive PP-R Kugelhähnen, Membranventilen und Rückschlagklappen. So bleibt das gesamte industrielle System vom ersten bis zum letzten Meter vollkommen metallfrei und korrosionssicher.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
       {/* Acid vs Material - Split Cards */}
       <section>
         <Reveal>

@@ -4,7 +4,7 @@ import { Link } from '@/lib/i18n/navigation';
 import { constructMetadata } from '@/lib/seo/metadata';
 import type { Metadata } from 'next';
 import { getAllProducts } from '@/lib/products';
-import { getAllNews } from '@/content/news';
+import { getAllNews, resolveLocalized } from '@/content/news';
 import { routing } from '@/lib/i18n/routing';
 
 interface Props {
@@ -105,7 +105,7 @@ export default async function SitemapPage({ params }: Props) {
               {news.map(n => (
                 <li key={n.slug}>
                   <Link href={`/news/${n.slug}`} className="hover:text-primary transition-colors text-sm">
-                    {n.title}
+                    {resolveLocalized(n.title, locale)}
                   </Link>
                 </li>
               ))}

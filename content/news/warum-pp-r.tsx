@@ -156,6 +156,43 @@ export const warumPpr: NewsPost = {
         </Reveal>
       </section>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Tiefenanalyse der PP-R Materialkunde und Molekularstruktur</h2>
+        <p>
+          Die Wahl des richtigen Rohrleitungswerkstoffs ist eine der folgenreichsten Entscheidungen in der Lebensdauer eines modernen Gebäudes. Hinter den Kulissen der Wände und Versorgungsschächte schlägt das Herz der Technischen Gebäudeausrüstung (TGA). Während Metalle wie Kupfer und Stahl seit dem Zeitalter der Industrialisierung den Standard setzten, hat die moderne Polymerchemie mit der Entwicklung von Polypropylen-Random-Copolymer (PP-R) und seiner fortschrittlichen Iteration Polypropylen-Random-Copolymer mit modifizierter Kristallinität (PP-RCT) die Grenzen des physikalisch Machbaren völlig neu definiert. Die K-Aqua PP-R Systeme repräsentieren den Gipfel dieser materialwissenschaftlichen Evolution und verbinden absolute Korrosionsfreiheit mit einer jahrzehntelangen, wartungsfreien Betriebszeit.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das "Random" im Copolymer: Ein Meisterwerk der Chemie</h3>
+        <p>
+          Um zu verstehen, warum K-Aqua Rohre so widerstandsfähig sind, muss man auf die atomare Ebene blicken. Gewöhnliches Homopolypropylen (PP-H) besteht aus extrem langen, monotonen Ketten von Propylenmolekülen. Diese hohe Regelmäßigkeit führt zwar zu einem harten Material, es ist jedoch bei niedrigen Temperaturen extrem spröde – für die Druckbelastung eines Wasserrohrs, besonders bei Erschütterungen oder Wasserschlägen, ein fatales Risiko.
+        </p>
+        <p>
+          Bei der Synthese von PP-R bedienen sich die Chemiker eines genialen Tricks: In die Propylenketten werden gezielt Ethylen-Monomere (typischerweise 1 bis 7 Prozent) eingebaut. Und dies geschieht völlig zufällig („random“). Diese unregelmäßig platzierten Ethylen-Moleküle stören das Kristallgitter des Polymers ganz bewusst. Das Resultat ist eine veränderte morphologische Struktur: Die Kristallinität nimmt ab, die amorphe Phase nimmt zu. Für das fertige Rohr bedeutet dieser Eingriff eine dramatische Steigerung der Schlagzähigkeit, eine hervorragende Flexibilität und eine extrem hohe Langzeit-Druckfestigkeit (Zeitstandfestigkeit) – selbst bei Heißwasseranwendungen jenseits der 70°C.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Der nächste Sprung: PP-RCT (Temperature resistance)</h2>
+        <p>
+          Die Forschung blieb bei Standard-PP-R nicht stehen. Die nächste technologische Iteration, PP-RCT, verwendet spezielle Nukleierungsmittel, um die Kristallstruktur des Materials noch weiter zu verfeinern (β-Kristallisation). Die resultierenden Kristalle sind deutlich kleiner und gleichmäßiger verteilt. Die Folge ist eine nochmals überlegene hydrostatische Druckbelastbarkeit, vor allem bei sehr hohen Temperaturen (80°C bis 90°C), wie sie in industriellen Fernwärmenetzen oder in Hochhaus-Steigleitungen auftreten. Dank der enormen mechanischen Reserven von PP-RCT können K-Aqua Rohre mit geringeren Wandstärken produziert werden. Ein dünneres Rohr bei gleichem Außendurchmesser bedeutet einen größeren Innendurchmesser (Hydraulikquerschnitt). Dies senkt die Strömungsgeschwindigkeiten, verringert den Druckverlust im Netz massiv und spart Pumpenenergie.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Extrusions- und Polyfusionstechnologie: Die Perfektion der Verbindung</h3>
+        <p>
+          Die Brillanz des Materials kommt erst in der Verbindungstechnik voll zur Geltung. Im Gegensatz zu duroplastischen Kunststoffen oder vernetzten Systemen (PEX), die sich nach ihrer Aushärtung nicht mehr verschmelzen lassen, ist PP-R ein Thermoplast. Wird das Material auf etwa 260°C erhitzt, geht es in einen zähflüssigen Schmelzzustand über. Wenn Rohr und Fitting bei dieser Temperatur ineinandergeschoben werden, verhaken (verschränken) sich die Makromoleküle der beiden Bauteile miteinander.
+        </p>
+        <p>
+          Dieser physikalische Vorgang nennt sich Polyfusion (stoffschlüssiges Schweißen). Sobald das Material in wenigen Sekunden wieder auf Raumtemperatur abkühlt, kristallisieren die Ketten gemeinsam aus. Die Schweißnaht existiert streng genommen nicht mehr – Rohr und Fitting sind zu einem einzigen, absolut homogenen Molekülblock verschmolzen. Es gibt keinen O-Ring, der altern, verspröden oder durch scharfe Kanten beschädigt werden könnte; kein Hanf und kein Teflon. Wo keine Dichtung ist, kann für die nächsten 50 bis 100 Jahre auch keine Dichtung versagen.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Thermodynamik und Strömungsmechanik</h2>
+        <p>
+          Ein oft unterschätzter Aspekt metallischer Rohre ist ihre enorme Wärmeleitfähigkeit (Kupfer: ca. 380 W/mK, Stahl: 50 W/mK). Heißwasser kühlt auf dem Weg vom Kessel zur Zapfstelle massiv aus, was gewaltige Energieverluste bedeutet und eine lückenlose, sehr dicke Isolierung erfordert. PP-R hingegen ist mit 0,24 W/mK ein herausragender Isolator (fast 1600-mal schlechterer Wärmeleiter als Kupfer). Das Wasser behält seine Temperatur wesentlich länger, die Gefahr von gefährlichen Legionellen im lauwarmen Zirkulationswasser sinkt drastisch, und der notwendige Isolationsaufwand in engen Versorgungsschächten verringert sich erheblich.
+        </p>
+        <p>
+          Gleichzeitig besticht K-Aqua durch eine Oberflächenrauheit von nur 0,007 mm. Diese spiegelglatte Innenwand (Lotus-Effekt) sorgt dafür, dass sich weder Kalk noch Biofilme festsetzen können. Die hydraulischen Verluste durch Rohrreibung sind minimiert. Metallrohre hingegen rauen durch permanente Oxidation und Inkrustation im Laufe der Jahre immer weiter auf, was den Druckverlust stetig erhöht und den Leitungsquerschnitt bis zum totalen Infarkt verstopft. K-Aqua PP-R durchbricht dieses fatale Muster und garantiert vom ersten bis zum letzten Betriebstag die exakt gleichen, perfekten Strömungseigenschaften.
+        </p>
+      </section>
+
       {/* Sustainability Banner */}
       <section className="pb-12">
         <Reveal>

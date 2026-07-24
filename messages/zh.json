@@ -3025,6 +3025,81 @@
     ]
   },
   "academy": {
+    "eyebrow": "K-Aqua Academy",
+    "title1": "Knowledge that",
+    "titleGrad": "connects.",
+    "lead": "Four welding methods on video — and a quiz that makes you a Welding Master. Optimised for the site: big targets, high contrast.",
+    "videos": [
+      {
+        "t": "Socket welding by hand",
+        "s": "up to d63 — hand welding device"
+      },
+      {
+        "t": "Socket welding by machine",
+        "s": "medium dimensions"
+      },
+      {
+        "t": "Electrofusion welding",
+        "s": "heating-coil fittings"
+      },
+      {
+        "t": "Butt fusion welding",
+        "s": "large dimensions up to d630"
+      }
+    ],
+    "quizEyebrow": "Welding Master Quiz",
+    "quizTitle": "Five questions. One badge.",
+    "intro": "Test your PP-R/PP-RCT processing knowledge. Flawless = \"Welding Master\" badge (+75 points).",
+    "start": "Start quiz",
+    "qLabel": "Question",
+    "quiz": [
+      {
+        "q": "Which welding method is standard for large dimensions (e.g. d630)?",
+        "o": [
+          "Socket welding by hand",
+          "Butt fusion",
+          "Gluing"
+        ]
+      },
+      {
+        "q": "What does SDR stand for in piping systems?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Safety Pressure Reserve"
+        ]
+      },
+      {
+        "q": "What distinguishes PP-RCT from classic PP-R?",
+        "o": [
+          "Lower price",
+          "Modified crystal structure → more temperature & pressure reserve",
+          "Metallic reinforcement"
+        ]
+      },
+      {
+        "q": "Which recycling code does polypropylene carry?",
+        "o": [
+          "Code 3",
+          "Code 5",
+          "Code 7"
+        ]
+      },
+      {
+        "q": "In electrofusion welding the heat comes …",
+        "o": [
+          "from a heating-element mirror",
+          "from embedded heating coils in the fitting",
+          "from hot air"
+        ]
+      }
+    ],
+    "resPerfect": "Perfect — \"Welding Master\" badge earned!",
+    "resGood": "Solid! \"Welding Journeyman\" badge secured. For the master: all five correct.",
+    "resLow": "The videos above help — then the master will follow.",
+    "retry": "Try again",
+    "titlePerfect": "Welding Master",
+    "titleGood": "Welding Journeyman",
     "schulungen": {
       "meta": {
         "title": "培训 | K-Aqua",

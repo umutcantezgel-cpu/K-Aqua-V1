@@ -42,6 +42,59 @@ export const schallschutzAkustik: NewsPost = {
         </Reveal>
       </section>
 
+      {/* Deep Technical Prose Area */}
+      <section>
+        <Reveal>
+          <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+            <h2>Akustik im Rohrleitungsbau: Die Stille der Kunststoffe vs. den Lärm der Metalle</h2>
+            <p>
+              Wer jemals in einem hellhörigen Gebäude gelebt hat, weiß, wie zerstörerisch Installationsgeräusche für die Wohnqualität sein können. Das laute Rauschen beim Füllen der Badewanne über einem, das harte Schlagen der Leitung, wenn der Nachbar den Einhebelmischer schließt, oder das unheimliche Knacken der Heizungsrohre im Winter. In der modernen Architektur, wo offene Grundrisse und Trockenbauwände dominieren, ist der Schallschutz von Rohrleitungssystemen (gemäß DIN 4109 oder VDI 4100) zu einer der kritischsten Disziplinen der TGA-Planung avanciert. K Aqua PP-R (Polypropylen Random-Copolymer) Rohrsysteme sind nicht einfach nur Wasserrohre – sie sind physikalische Schalldämpfer.
+            </p>
+            
+            <h3>Die zwei Feinde der Ruhe: Strömungsgeräusche und Druckschläge</h3>
+            <p>
+              In einem Wasserversorgungsnetz entstehen hauptsächlich zwei Arten von Lärm. Die erste Kategorie sind Fließ- oder Strömungsgeräusche. Sie entstehen durch Kavitation oder Verwirbelungen, wenn das Wasser unter hohem Druck durch Ventile, Querschnittsverengungen oder raue Rohrbögen gepresst wird.
+            </p>
+            <p>
+              Metallrohre wie Kupfer oder Edelstahl haben relativ dünne Wände, sind extrem starr und besitzen eine hohe Dichte. Sie wirken physikalisch wie ein perfekter Resonanzkörper (ähnlich einer Stimmgabel). Die Strömungsenergie wird im Metall sofort in Körperschall umgewandelt, breitet sich rasend schnell über das Rohrnetz aus und wird über die Befestigungsschellen an die Wände (Luftschall) übertragen.
+            </p>
+            <p>
+              PP-R verhält sich völlig anders. K Aqua Rohre besitzen eine wesentlich höhere Wandstärke (z.B. SDR 6) und vor allem eine einzigartige, molekulare Elastizität. Die dicke Kunststoffschicht absorbiert die kinetische Energie des Schalls, noch bevor sie aus dem Rohr austreten kann. Die Energie wird im Material durch Mikrodämpfung absorbiert. Zudem sorgt die extrem glatte Innenfläche der K Aqua Fittings dafür, dass das Wasser laminar (wirbelfrei) fließt – Lärm entsteht so erst gar nicht.
+            </p>
+
+            <h3>Das Phänomen des Wasserschlags (Water Hammer)</h3>
+            <p>
+              Die zweite massive Lärmquelle ist der Druckstoß, auch Wasserschlag genannt. Wenn eine Waschmaschine, ein Geschirrspüler oder ein Nutzer einen modernen Einhebelmischer ruckartig schließt, prallt die strömende Wassersäule aprupt gegen das geschlossene Ventil. Die kinetische Energie des Wassers entlädt sich in einer massiven Schockwelle, die durch das Rohr zurückrast.
+            </p>
+            <p>
+              Bei starren Kupferrohren erzeugt diese Schockwelle einen ohrenbetäubenden Knall, der oft das gesamte Gebäude erzittern lässt. Langfristig können diese harten Druckschläge die Lötverbindungen zerstören. PP-R Rohre hingegen dämpfen diese hydraulische Schockwelle sofort ab. Das leicht elastische Material weitet sich für den Bruchteil einer Sekunde mikroskopisch aus, absorbiert die Schockwelle wie ein Airbag und baut den Spitzendruck geräuschlos ab.
+            </p>
+
+            <h3>Knacken durch thermische Längenausdehnung</h3>
+            <p>
+              Ein oft übersehenes Problem in Warmwasser- und Heizungsnetzen ist die thermische Längenausdehnung. Wenn heißes Wasser durch ein kaltes Rohr strömt, dehnt sich das Material aus. Bei Metallrohren geschieht dies oft ruckartig (Stick-Slip-Effekt). Das Rohr rutscht ruckartig ein paar Millimeter in der Rohrschelle weiter, was das typische, laute "Knacken" in den Wänden verursacht.
+            </p>
+            <p>
+              K Aqua PP-R Systeme dehnen sich zwar thermisch ebenfalls aus, jedoch geschieht dies absolut geräuschlos, da das gleitfähige Kunststoffmaterial in Verbindung mit entsprechenden Gleitschellen keine harten Reibungsgeräusche erzeugt. In den kritischen Steigsträngen reduzieren K Aqua Faserverbundrohre (PP-RCT) zudem die Längenausdehnung um 75 %, was das Problem bereits an der Wurzel packt.
+            </p>
+
+            <h3>Häufig gestellte Fragen (FAQ) zur Rohr-Akustik</h3>
+            <h4>Erfüllt PP-R die Anforderungen an den erhöhten Schallschutz?</h4>
+            <p>
+              Ja. In Verbindung mit fachgerecht installierten, schallentkoppelten Rohrschellen (mit Gummieinlage) unterschreiten K Aqua Systeme die strengen Vorgaben der DIN 4109 (Schallschutz im Hochbau) sowie die erhöhten Anforderungen der VDI 4100 (Schallschutzstufe III) oft mühelos.
+            </p>
+            <h4>Warum sind Abflussrohre oft so viel lauter als Druckrohre?</h4>
+            <p>
+              In Abflussrohren (Fallrohren) fällt Wasser mit Luft vermischt in die Tiefe und prallt an Abzweigen hart gegen die Rohrwand. In Druckrohren (Trinkwasser) fließt das Wasser komplett gefüllt. Dennoch überträgt ein Druckrohr aus Metall Körperschall wesentlich besser als ein schalldämmendes Kunststoffabflussrohr. Deshalb ist die Wahl von K Aqua PP-R für das Drucknetz der entscheidende Schritt zur Gesamtruhe im Bad.
+            </p>
+            <h4>Reicht es nicht, Metallrohre einfach in Dämmung einzupacken?</h4>
+            <p>
+              Rohrisolierung (meist zur Wärmedämmung) hilft zwar marginal, reduziert aber den Körperschall im starren Metall kaum. Die Übertragung geschieht hauptsächlich über die Kontaktpunkte der Befestigungsschellen an die Wand. PP-R löst das Problem materialimmanent, anstatt es nur zu umhüllen.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
       {/* Resonance vs Absorption - Split Cards */}
       <section>
         <Reveal>

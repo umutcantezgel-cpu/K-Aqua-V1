@@ -35,7 +35,7 @@ export default async function Co2RechnerPage({ params }: Props) {
   const meta = t.raw("co2") as string[];
   const jsonLd = await getWebPageJsonLd(locale, "co2");
   
-  const guideText = tCo2.has("guideText") ? tCo2("guideText") : "";
+  const guideText = tCo2.has("guideText") ? tCo2.raw("guideText") as string : "";
   
   return (
     <div className="flex flex-col min-h-screen bg-background selection:bg-primary/30 relative z-20">

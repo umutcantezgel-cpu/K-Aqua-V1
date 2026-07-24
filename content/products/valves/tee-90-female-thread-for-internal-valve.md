@@ -1,7 +1,7 @@
 ---
 title: "Tee 90° (Female Thread) for Internal Valve"
 category: "Valves"
-slug: "valves/tee-90-female-thread-internal-valve"
+slug: "valves/tee-90-female-thread-for-internal-valve"
 article_codes: ["AQ60RP20","AQ60RP25","AQ60RP32","AQ60RP40"]
 ---
 

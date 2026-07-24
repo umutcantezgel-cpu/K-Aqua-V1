@@ -1,7 +1,7 @@
 ---
 title: "PP-R Elbow 45° Female/Male"
 category: "Fittings"
-slug: "fittings/elbow-45-female-male"
+slug: "fittings/elbow-45-femalemale"
 article_codes: ["AQ04520FM", "AQ04525FM", "AQ04532FM"]
 ---
 

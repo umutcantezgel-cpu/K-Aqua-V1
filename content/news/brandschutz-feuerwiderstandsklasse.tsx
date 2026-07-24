@@ -55,6 +55,61 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
         </Stagger>
       </section>
 
+      {/* Deep Technical Prose Area */}
+      <section>
+        <Reveal>
+          <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+            <h2>Die Wissenschaft hinter dem Brandschutz: Feuerwiderstandsklasse B1 und Halogenfreiheit</h2>
+            <p>
+              In der modernen Gebäudeplanung und der Technischen Gebäudeausrüstung (TGA) spielt der Brandschutz eine absolut kritische Rolle. Besonders in öffentlichen Gebäuden, Krankenhäusern, Hochhäusern und Industrieanlagen werden höchste Anforderungen an die verwendeten Baumaterialien gestellt. Rohrleitungssysteme verlaufen oft über mehrere Stockwerke und durchqueren verschiedene Brandabschnitte. Hier ist die Wahl des richtigen Materials entscheidend, um im Brandfall Menschenleben zu retten und strukturelle Schäden zu minimieren. K Aqua PP-R (Polypropylen Random-Copolymer) Rohrsysteme sind speziell auf diese extremen Sicherheitsanforderungen ausgelegt und erfüllen die strenge Feuerwiderstandsklasse B1 (schwer entflammbar) nach DIN 4102-1.
+            </p>
+            
+            <h3>Warum schwer entflammbar (B1) so wichtig ist</h3>
+            <p>
+              Ein Brand in einem Gebäude durchläuft verschiedene Phasen, vom Entstehungsbrand über den Vollbrand bis hin zum Abkühlen. Materialien der Klasse B2 (normal entflammbar) oder schlechter können in der Entstehungsphase als Brandbeschleuniger wirken. Sie fangen leicht Feuer, brennen eigenständig weiter und tragen die Flammen durch das gesamte Gebäude. 
+            </p>
+            <p>
+              Die Klassifizierung B1 für K Aqua PP-R Rohre bedeutet hingegen: Das Material ist schwer entflammbar. Es entzündet sich nur bei massiver, direkter Flammeneinwirkung. Noch wichtiger: Sobald die externe Zündquelle entfernt wird, ist das Material selbstverlöschend. Es entzieht dem Feuer quasi die Nahrung. Dadurch wird effektiv verhindert, dass sich ein Brandherd über die Installationsschächte unkontrolliert in andere Stockwerke oder Brandabschnitte ausbreiten kann (Kamineffekt).
+            </p>
+
+            <h3>Die Gefahr des brennenden Abtropfens</h3>
+            <p>
+              Viele konventionelle Kunststoffe weisen im Brandfall eine fatale Eigenschaft auf: Sie schmelzen und tropfen brennend ab. Diese flammenden Tropfen können sekundäre Brände in tiefer liegenden Geschossen auslösen oder Flüchtende schwer verletzen. K Aqua PP-R ist so modifiziert, dass es im Brandfall zwar erweicht und schmilzt, jedoch ausdrücklich <strong>nicht brennend abtropft</strong>. Die molekulare Integrität bleibt so lange wie physikalisch möglich erhalten, und das Material verkohlt, anstatt flüssiges Feuer zu regnen.
+            </p>
+
+            <h3>Halogenfreiheit: Die unsichtbare, aber tödliche Gefahr</h3>
+            <p>
+              Statistiken belegen erschreckend deutlich: Bei Gebäudebränden sterben die meisten Menschen nicht durch die Flammen selbst, sondern durch toxische Rauchgase. Kunststoffe wie PVC (Polyvinylchlorid) enthalten Halogene (wie Chlor). Wenn PVC verbrennt, reagiert das Chlor mit dem Wasser in der Luft (oder dem Löschwasser) zu hochgiftigem Chlorwasserstoffgas (Salzsäuregas). Dieses Gas verätzt sofort die Atemwege der Opfer. Darüber hinaus greift die korrosive Salzsäure die Gebäudestruktur, Betonarmierungen und empfindliche elektronische Geräte massiv an, was zu enormen Folgeschäden führt.
+            </p>
+            <p>
+              K Aqua PP-R Rohrsysteme bestehen ausschließlich aus Kohlenstoff und Wasserstoff. Sie sind zu <strong>100 % halogenfrei</strong>. Im Brandfall entstehen bei der Verbrennung von PP-R lediglich Kohlendioxid und Wasserdampf – genau wie bei der Verbrennung von Holz oder Wachs. Es werden keine toxischen Dioxine oder korrosiven Säuregase freigesetzt. Dies bietet den Evakuierenden wertvolle zusätzliche Minuten und schützt die Gesundheit der Rettungskräfte. Zudem wird die Rauchentwicklung auf ein absolutes Minimum reduziert, was die Sicht auf Fluchtwegen drastisch verbessert.
+            </p>
+
+            <h3>Sicherheit schon bei der Installation: Keine "Hot Works"</h3>
+            <p>
+              Ein enormer Prozentsatz von Bauwerkbränden wird paradoxerweise während der Bau- oder Sanierungsphase ausgelöst – durch sogenannte "Hot Works" (Heißarbeiten) wie Löten, Schweißen oder Trennschleifen. Beim Verlöten von Kupferrohren kommen offene Gasflammen mit Temperaturen von über 2000 °C zum Einsatz. Funkenflug kann leicht unsichtbare Schwelbrände in trockenen Zwischendecken, Isolationsmaterialien oder Holzkonstruktionen auslösen.
+            </p>
+            <p>
+              Die Installation von K Aqua PP-R Systemen erfolgt durch elektrische Thermofusion (Muffenschweißung). Das Schweißwerkzeug wird auf exakt 260 °C erwärmt – ganz ohne offene Flamme, ohne Funkenflug und ohne Brandgefahr. Dies macht PP-R zur sichersten Wahl für Sanierungen in Altbauten, historischen Gebäuden oder bei laufendem Betrieb in sensiblen Bereichen wie Krankenhäusern.
+            </p>
+
+            <h3>Häufig gestellte Fragen (FAQ) zum Brandschutz</h3>
+            <h4>Was bedeutet B1 nach DIN 4102-1 genau?</h4>
+            <p>
+              B1 steht für "schwer entflammbar". Das Material kann zwar brennen, wenn es einer permanenten starken Zündquelle ausgesetzt ist, es brennt aber nicht von alleine weiter, sobald die Zündquelle entfernt wird. Es trägt nicht zur Brandausbreitung bei.
+            </p>
+            <h4>Ist PP-R für Fluchtwege zugelassen?</h4>
+            <p>
+              In Verbindung mit den entsprechenden, zertifizierten Brandschutzmanschetten (Brandschottungen) können PP-R Rohre sicher durch Brandabschnitte und Fluchtwege geführt werden. Die Manschetten schäumen im Brandfall auf und verschließen die Rohröffnung hermetisch gegen Feuer und Rauch.
+            </p>
+            <h4>Welche Gase entstehen, wenn PP-R doch verbrennt?</h4>
+            <p>
+              Da PP-R (Polypropylen) ein reiner Kohlenwasserstoff ist, entstehen bei der vollständigen Verbrennung lediglich CO2 (Kohlendioxid) und H2O (Wasserdampf). Es werden keine toxischen Halogene wie bei PVC freigesetzt.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
       {/* 2. DeepMatrix: Toxicological Comparison */}
       <section>
         <Reveal>

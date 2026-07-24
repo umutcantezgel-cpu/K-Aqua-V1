@@ -170,6 +170,46 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
         </div>
       </Reveal>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Building Information Modeling (BIM): Der Paradigmenwechsel in der TGA</h2>
+        <p>
+          Die Planung der Technischen Gebäudeausrüstung (TGA) hat sich in den letzten Jahren dramatisch gewandelt. Wo früher 2D-Strichzeichnungen in CAD-Systemen dominierten, etabliert sich heute Building Information Modeling (BIM) als unumstrittener Standard für Großprojekte und komplexe Architekturen. BIM ist weit mehr als nur eine 3D-Visualisierung; es ist eine durchgängig digitale Arbeitsmethode, die den gesamten Lebenszyklus eines Bauwerks abbildet – von der ersten Konzeptskizze über die Ausführungsplanung und Vorfertigung bis hin zum Facility Management. K-Aqua treibt diese digitale Transformation aktiv voran, indem wir hochwertige, extrem detaillierte BIM-Daten und parametrische Autodesk Revit-Familien für unsere PP-R Rohrsysteme bereitstellen, um TGA-Planern höchste Effizienz und Fehlerfreiheit zu garantieren.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Der digitale Zwilling: Intelligenz auf Bauteilebene</h3>
+        <p>
+          In einem BIM-Modell ist ein K-Aqua PP-R Rohr oder Fitting nicht einfach ein zylindrisches Geometrieelement, sondern ein „digitaler Zwilling“ (Digital Twin) mit umfassenden Metadaten (dem sogenannten „I“ in BIM). Jeder Bogen, jedes T-Stück und jedes Ventil trägt detaillierte parametrische Informationen in sich. Dazu gehören physikalische Abmessungen (Nennweite DN, Wandstärke, Außendurchmesser), hydraulische Parameter (Zeta-Werte für Druckverlustberechnungen), thermodynamische Eigenschaften (Wärmeleitfähigkeit) sowie kaufmännische Daten wie Artikelnummern, Herstellerangaben und Wartungszyklen.
+        </p>
+        <p>
+          Diese Objektdaten ermöglichen es der BIM-Software (z. B. Revit, Navisworks, oder MagiCAD), hochkomplexe hydraulische Netzberechnungen direkt im 3D-Modell durchzuführen. Der Planer kann in Echtzeit simulieren, wie sich Fließgeschwindigkeiten und Druckverluste im K-Aqua System verhalten. Da die Rohrinnenflächen von PP-R mikroskopisch glatt sind und über Jahrzehnte hinweg nicht durch Korrosion oder Inkrustation aufrauen, bleiben diese hydraulischen Berechnungen für den gesamten Lebenszyklus des Gebäudes gültig, was eine extreme Planungssicherheit bietet.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Automatisierte Kollisionsprüfung (Clash Detection)</h2>
+        <p>
+          In modernen Gebäuden ist der Platz in Versorgungsschächten (Steigzonen) und abgehängten Decken ein extrem wertvolles und stark umkämpftes Gut. Heizung, Kälte, Sanitär, Lüftung, Sprinkler und Elektrotrassen drängen sich auf engstem Raum. Bei klassischer 2D-Planung fallen räumliche Konflikte zwischen den Gewerken oft erst auf der Baustelle auf, was zu teuren Verzögerungen, improvisierten Umgehungslösungen und im schlimmsten Fall zu hydraulischen Engpässen führt.
+        </p>
+        <p>
+          Durch die Nutzung der nativen K-Aqua Revit-Familien wird das Rohrnetz exakt mit seinen realen Einbaumaßen modelliert, inklusive des notwendigen Platzbedarfs für die Schweißwerkzeuge und die thermische Isolierung. BIM-Koordinationssoftware führt eine automatisierte Kollisionsprüfung (Clash Detection) durch. Schneidet eine PP-R Kühlwasserleitung einen Lüftungskanal, meldet das System sofort einen „Hard Clash“. Solche Konflikte werden virtuell am Bildschirm gelöst, lange bevor der erste Installateur die Baustelle betritt. Dies reduziert Planungsfehler auf nahezu null.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Präzise Vorfertigung (Prefabrication) und Massenermittlung</h3>
+        <p>
+          Ein massiver Vorteil der BIM-gestützten Planung mit K-Aqua Systemen liegt in der Vorfertigung (Prefab). Der hohe Detailgrad (Level of Detail/Development, LOD 300 bis LOD 400) der K-Aqua Bauteile erlaubt es, komplexe Rohrverteiler oder Schachtinstallationen exakt zu dimensionieren. Aus dem 3D-Modell werden auf Knopfdruck präzise Isometrien und Spool-Zeichnungen exportiert. Die Installateure können diese Baugruppen unter sauberen, ergonomischen Bedingungen in der Werkstatt vorfertigen (vor-schweißen). Dies erhöht die Schweißqualität, senkt die Montagezeit auf der Baustelle drastisch und macht den Baufortschritt unabhängig von Witterungseinflüssen.
+        </p>
+        <p>
+          Parallel dazu generiert das BIM-Modell eine 100% präzise Materialliste (Bill of Materials, BOM). Manuelles, fehleranfälliges Auszählen von Fittings und Rohrmetern entfällt komplett. Dies optimiert den Bestellprozess bei K-Aqua, verhindert teuren Materialüberschuss und sorgt dafür, dass genau die benötigten Komponenten zur richtigen Zeit (Just-in-Time) auf die Baustelle geliefert werden.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Nachhaltigkeit und Lifecycle Management</h2>
+        <p>
+          BIM endet nicht mit der Schlüsselübergabe. Nach der Fertigstellung wird das „As-Built“-Modell an das Facility Management übergeben. Das Modell dient als zentrale Datenbank für den Gebäudebetrieb. Muss nach 15 Jahren eine Systemerweiterung geplant werden, weiß der Facility Manager durch einen Klick auf das virtuelle K-Aqua Rohr sofort, welche Nennweite und Druckstufe verbaut ist und kann die Erweiterung ohne aufwendige Bestandserfassungen planen. 
+        </p>
+        <p>
+          Letztlich ist die Kombination aus extrem langlebigen PP-R Rohren und intelligenter BIM-Planung ein Meilenstein für die Nachhaltigkeit in der Bauindustrie. Material wird effizienter eingesetzt, Ausschuss auf der Baustelle vermieden und die energetische Optimierung der hydraulischen Systeme wird perfektioniert. K-Aqua unterstützt Architekten und TGA-Ingenieure durch die kontinuierliche Aktualisierung der BIM-Kataloge dabei, die Bauprojekte der Zukunft schneller, sicherer und nachhaltiger zu realisieren.
+        </p>
+      </section>
+
       {/* CTABand: BIM Portal */}
       <Reveal>
         <CTABand

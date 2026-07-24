@@ -32,7 +32,6 @@ export const schweisstechnikSicherheit: NewsPost = {
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
-      {/* Intro Section - Hero */}
       <section className="relative">
         <Reveal>
           <div className="bg-card/40 backdrop-blur-md border border-card-border p-8 lg:p-14 rounded-3xl shadow-xl relative overflow-hidden">
@@ -42,146 +41,71 @@ export const schweisstechnikSicherheit: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die thermische Fusion" className="mb-6 text-red-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                In der klassischen Gebäudeinstallation ist der Übergang zwischen zwei Rohren immer der kritischste Punkt. Wo Gewinde geschnitten, Gummidichtungen eingepresst oder Kleber aufgetragen werden, entstehen zwangsläufig Schwachstellen, die mit den Jahren nachgeben. K Aqua PPR Rohrsysteme gehen einen fundamental anderen Weg: Durch kontrollierte thermische Verschmelzung verbinden sich die Kunststoffmoleküle untrennbar miteinander. Aus zwei Bauteilen entsteht eine einzige, homogene und dauerhaft leckagesichere Rohrverbindung.
+                In der klassischen Gebäudeinstallation ist der Übergang zwischen zwei Rohren immer der kritischste Punkt. Wo Gewinde geschnitten, Gummidichtungen eingepresst oder Kleber aufgetragen werden, entstehen zwangsläufig Schwachstellen. K Aqua PPR Rohrsysteme gehen einen fundamental anderen Weg: Durch kontrollierte thermische Verschmelzung verbinden sich die Kunststoffmoleküle untrennbar miteinander.
               </p>
             </div>
           </div>
         </Reveal>
       </section>
 
-      {/* Mechanical vs Molecular - Split Cards */}
       <section>
         <Reveal>
-          <div className="text-center mb-12">
-            <Eyebrow text="Der Paradigmenwechsel" />
-            <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
-              Mechanik vs Molekularbindung
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card className="p-8 lg:p-12 border-card-border bg-card">
-              <Wrench className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
-              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Das mechanische Risiko</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Pressfittings und Schraubverbindungen basieren alle auf demselben Prinzip. Ein Fremdmaterial zumeist ein Gummidichtring soll verhindern, dass Wasser austritt. Diese Elastomere altern jedoch. Sie werden spröde, verlieren durch Temperaturschwankungen ihre Elastizität und geben dem Wasserdruck irgendwann nach. Das Resultat ist der gefürchtete und enorm kostspielige Wasserschaden im Mauerwerk.
-              </p>
-            </Card>
+          <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Warum mechanische Verbindungen langfristig versagen</h2>
+            <p>
+              Werfen wir einen genauen Blick auf herkömmliche Verbindungstechniken wie Pressfittings, Schraubverbindungen oder Klebeverbindungen. Sie alle basieren auf demselben fehleranfälligen Prinzip: Ein Fremdmaterial (meist ein Elastomer-Dichtring oder ein chemischer Klebstoff) soll den Spalt zwischen zwei Rohrstücken abdichten. Diese Materialien unterliegen jedoch einem natürlichen Alterungsprozess. 
+            </p>
+            <h3 className="text-xl font-semibold text-foreground mt-6">Die Schwäche von O-Ringen und Pressfittings</h3>
+            <p>
+              Gummidichtungen werden durch ständige Temperaturschwankungen (Ausdehnung und Kontraktion), chemische Einflüsse aus dem Wasser und einfache Materialermüdung mit der Zeit spröde. Sie verlieren ihre Elastizität. Sobald der Dichtring dem Wasserdruck nicht mehr standhalten kann, kommt es zur Leckage. Die Folgen sind katastrophale Wasserschäden, die oft erst bemerkt werden, wenn das Mauerwerk bereits durchfeuchtet ist.
+            </p>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Thermische Fusion: Die molekulare Verbindung</h2>
+            <p>
+              Die Lösung dieses Problems liegt in der Eliminierung der Dichtung selbst. Polypropylen (PP-R) ermöglicht eine Verbindungstechnik, die völlig ohne Klebstoffe, Lote oder Dichtringe auskommt: die thermische Fusion. Beim Schweißvorgang werden das Rohr und der Fitting exakt auf den Schmelzpunkt von ca. 260 °C erhitzt. 
+            </p>
+            <h3 className="text-xl font-semibold text-foreground mt-6">Makromolekulare Durchdringung</h3>
+            <p>
+              In diesem plastischen Zustand lockern sich die langen Makromolekülketten des Kunststoffs. Werden Rohr und Fitting nun ineinandergefügt, durchdringen und verweben sich diese Molekülketten beider Werkstücke vollständig miteinander. Nach einer kurzen Abkühlphase kristallisiert das Material wieder aus. Das Ergebnis ist keine &quot;geklebte&quot; Verbindung, sondern ein einziges, durchgehendes Stück Material. Wo vorher zwei Bauteile waren, existiert nun eine homogene, physikalische Einheit ohne jegliche Trennfuge.
+            </p>
             
-            <Card className="p-8 lg:p-12 border-red-500/20 bg-red-500/5">
-              <Shield className="w-12 h-12 text-red-500 mb-6" />
-              <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die homogene Nahtlosigkeit</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Polypropylen benötigt weder Klebstoff noch Dichtungsringe. Beim Schweißvorgang verschmelzen das Rohr und das Fitting auf molekularer Ebene vollständig miteinander. Sobald das Material wieder abgekühlt ist, existiert keine Fügestelle mehr. Es gibt keinen physischen Spalt, durch den auch nur ein einziger Wassertropfen entweichen könnte.
-              </p>
-            </Card>
-          </div>
-        </Reveal>
-      </section>
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Verschiedene Schweißverfahren im Rohrleitungsbau</h2>
+            <p>
+              Je nach Dimensionierung und baulichen Gegebenheiten kommen bei K Aqua PP-R Systemen unterschiedliche, aber stets auf der thermischen Fusion basierende Schweißverfahren zum Einsatz.
+            </p>
+            <h3 className="text-xl font-semibold text-foreground mt-6">Heizelementmuffenschweißung</h3>
+            <p>
+              Dies ist das Standardverfahren für Rohrdimensionen von 20 mm bis 125 mm. Ein handliches, teflonbeschichtetes Schweißgerät erhitzt zeitgleich die Außenseite des Rohrs und die Innenseite des Fittings. Es ist extrem schnell, benötigt wenig Platz und kann direkt vor Ort (sogar über Kopf) von einem einzigen Installateur durchgeführt werden.
+            </p>
+            <h3 className="text-xl font-semibold text-foreground mt-6">Heizwendelschweißung (Elektromuffe)</h3>
+            <p>
+              In extrem engen Installationsschächten oder bei Reparaturarbeiten, wo das mechanische Zusammenschieben von erhitzten Rohren schwer möglich ist, kommt die Elektromuffe zum Einsatz. In den Fitting sind Heizdrähte eingegossen. Ein Schweißcomputer schickt einen exakt berechneten Stromimpuls durch die Drähte, wodurch das Material von innen heraus aufschmilzt und sich mit dem Rohr verbindet. Ein Höchstmaß an Sicherheit auf kleinstem Raum.
+            </p>
+            <h3 className="text-xl font-semibold text-foreground mt-6">Stumpfschweißung für Großrohre</h3>
+            <p>
+              Für industrielle Anwendungen und große Nennweiten (ab 160 mm bis über 300 mm) wird die Stumpfschweißung eingesetzt. Hierbei entfällt der Fitting komplett. Die Enden zweier Rohre werden plangeschnitten, an einem flachen Heizelement aufgeschmolzen und anschließend unter hohem hydraulischem Druck direkt aneinandergepresst. Dies spart Materialgewicht und Kosten bei großen Infrastrukturprojekten.
+            </p>
 
-      {/* The Welding Process - Sticky Scroll */}
-      <section className="mt-12">
-        <Reveal>
-          <div className="mb-8">
-            <Eyebrow text="Präzision in drei Schritten" />
-            <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
-              Der Prozess der thermischen Verschmelzung
-            </h2>
-          </div>
-        </Reveal>
-        <StickyScrollReveal
-          content={[
-            {
-              title: "Phase Eins Erhitzen",
-              description: "Mithilfe eines exakt auf zweihundertsechzig Grad Celsius kalibrierten Schweißgeräts werden die äußere Schicht des Rohrs und die innere Schicht des Fittings zeitgleich angewärmt. Die langen Molekülketten des Polypropylens beginnen sich zu lockern und gehen in einen plastischen Zustand über.",
-              content: <div className="h-full w-full bg-card flex items-center justify-center"><Flame className="w-32 h-32 text-red-500 opacity-20" /></div>
-            },
-            {
-              title: "Phase Zwei Fügen",
-              description: "Die beiden erhitzten Komponenten werden zügig und passgenau ineinandergeschoben. Durch den exakt berechneten Pressdruck verweben sich die freigelegten Molekülketten beider Bauteile sofort miteinander. Die Grenzen zwischen Rohr und Fitting verschwinden augenblicklich.",
-              content: <div className="h-full w-full bg-card flex items-center justify-center"><Layers className="w-32 h-32 text-muted-foreground opacity-20" /></div>
-            },
-            {
-              title: "Phase Drei Aushärten",
-              description: "Nach einer kurzen Abkühlphase kristallisiert das Material wieder vollständig aus. Die neu entstandene Verbindungsebene ist nun exakt so stark, belastbar und dicht wie die unberührte Rohrwand selbst. Die Leitung kann sofort mit vollem Prüfdruck belastet werden.",
-              content: <div className="h-full w-full bg-card flex items-center justify-center"><Shield className="w-32 h-32 text-primary opacity-20" /></div>
-            }
-          ]}
-        />
-      </section>
-
-      {/* Welding Types - Bento Grid */}
-      <section className="mt-12">
-        <Reveal>
-          <div className="text-center mb-12">
-            <Eyebrow text="Flexibilität auf der Baustelle" />
-            <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
-              Schweißtechnologien im Überblick
-            </h2>
-          </div>
-          <BentoGrid className="max-w-full mx-auto">
-            <BentoGridItem
-              title="Muffenschweißen"
-              description="Das Standardverfahren für Dimensionen bis einhundertfünfundzwanzig Millimeter. Extrem schnell, fehlerverzeihend und mit leichtem, handlichem Werkzeug direkt auf der Baustelle oder über Kopf durchführbar."
-              header={<div className="w-full h-48 bg-red-500/10 rounded-t-2xl flex items-center justify-center border-b border-red-500/20"><Flame className="w-24 h-24 text-red-500 opacity-40" /></div>}
-              icon={<Flame className="h-6 w-6 text-red-500" />}
-              className="md:col-span-2"
-            />
-            <BentoGridItem
-              title="Heizwendelschweißen"
-              description="Die Hightech Lösung für schwer zugängliche Schächte. Integrierte Heizdrähte im Fitting schmelzen das Material computergesteuert per Knopfdruck auf absolute Sicherheit auf engstem Raum."
-              header={<div className="w-full h-48 bg-primary/10 rounded-t-2xl flex items-center justify-center border-b border-primary/20"><Zap className="w-24 h-24 text-primary opacity-40" /></div>}
-              icon={<Zap className="h-6 w-6 text-primary" />}
-              className="md:col-span-1"
-            />
-            <BentoGridItem
-              title="Stumpfschweißen"
-              description="Für großkalibrige Industrierohre ab einhundertsechzig Millimetern. Die massiven Rohrenden werden direkt ohne zusätzliches Fitting vollflächig miteinander verschmolzen, was den Materialeinsatz und das Gewicht der Anlage drastisch optimiert."
-              header={<div className="w-full h-48 bg-card rounded-t-2xl flex items-center justify-center border-b border-card-border"><Layers className="w-24 h-24 text-foreground opacity-20" /></div>}
-              icon={<Layers className="h-6 w-6 text-foreground" />}
-              className="md:col-span-3"
-            />
-          </BentoGrid>
-        </Reveal>
-      </section>
-
-      {/* Stats Band - Extreme Specifications */}
-      <section className="py-12">
-        <Reveal>
-          <StatBand 
-            stats={[
-              { n: "100", u: "%", l: "Homogene Materialverbindung" },
-              { n: "0", u: "", l: "Verschleißanfällige Dichtungsringe" },
-              { n: "260", u: "°C", l: "Präzise kalibrierte Schweißtemperatur" },
-            ]} 
-            cols={250}
-          />
-        </Reveal>
-      </section>
-
-      {/* Visual Placeholder */}
-      <section>
-        <Reveal>
-          <PremiumAssetPlaceholder label="Makroaufnahme: Die nahtlose Verbindung zwischen Rohr und Fitting im Querschnitt" video="/videos/socket-welding-hand.mp4" />
-        </Reveal>
-      </section>
-
-      {/* Conclusion */}
-      <section className="pb-12">
-        <Reveal>
-          <div className="bg-card border border-card-border p-10 lg:p-16 rounded-3xl flex flex-col items-center text-center">
-            <div className="w-20 h-20 rounded-full bg-red-500/10 flex items-center justify-center mb-6">
-              <Shield className="w-10 h-10 text-red-500" />
-            </div>
-            <h2 className="text-3xl font-extrabold font-heading text-foreground mb-6">
-              Die endgültige Eliminierung des Leckagerisikos
-            </h2>
-            <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Jeder Bauherr fürchtet den Anruf, dass im fertigen Gebäude Wasser aus der Wand tropft. Mit der Entscheidung für die homogene Polypropylen Verschweißung von K Aqua verschwindet diese Angst vollständig. Das Resultat ist kein Konstrukt aus hunderten gesteckten Einzelteilen, sondern ein einziges, durchgehendes, perfekt in sich ruhendes Rohrsystem.
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Sicherheitstests und Fazit</h2>
+            <p>
+              Zahlreiche Langzeittests und Berstdruckprüfungen im Labor beweisen: Wenn ein PP-R Rohrleitungssystem extremem Überdruck ausgesetzt wird, platzt es niemals an der Schweißnaht. Die Schweißverbindung ist durch die Materialaufdopplung (Rohrwand + Fittingwand) sogar der stärkste Punkt im gesamten System. Für Bauherren, Planer und Installateure bedeutet diese Technologie das endgültige Ende von versteckten Leckagen und die Garantie für ein jahrzehntelang wartungsfreies, sicheres Gebäude.
             </p>
           </div>
         </Reveal>
       </section>
 
+      <section className="py-12">
+        <Reveal>
+          <StatBand 
+            stats={[
+              { n: "100", u: "%", l: "Homogene Materialverbindung ohne Schwachstellen" },
+              { n: "0", u: "", l: "Verschleißanfällige Dichtungsringe benötigt" },
+              { n: "260", u: "°C", l: "Präzise kalibrierte Schweißtemperatur für perfekte Fusion" },
+            ]} 
+            cols={250}
+          />
+        </Reveal>
+      </section>
     </div>
   ),
 };
