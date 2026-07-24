@@ -47,6 +47,8 @@ const nextConfig: NextConfig = {
     '/[locale]/produkte/[category]/[slug]': ['./content/**/*'],
     '/[locale]/produkte/[category]': ['./content/**/*'],
     '/[locale]/produkte': ['./content/**/*'],
+    '/*': ['./messages/**/*'],
+    '/[locale]/**/*': ['./messages/**/*'],
   },
   experimental: {
     optimizePackageImports: [
