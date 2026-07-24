@@ -16,7 +16,7 @@ PP-R socket fusion and electrofusion fittings. All fittings are compatible with 
 | [Cap](./cap.md) | 20–75 | AQ30120–AQ30175 |
 | [Socket](./socket.md) | 20–75 | AQ27020–AQ27075 |
 | [Elbow 45°](./elbow-45.md) | 20–75 | AQ04520–AQ04575 |
-| [Elbow 45° Female/Male](./elbow-45-female-male.md) | 20–25 | AQ04120–AQ04125 |
+| [Elbow 45° Female/Male](./elbow-45-femalemale.md) | 20–25 | AQ04120–AQ04125 |
 | [Elbow 90°](./elbow-90.md) | 20–75 | AQ09020–AQ09075 |
 | [Elbow 90° Female/Male](./elbow-90-female-male.md) | 20–25 | AQ09120–AQ09125 |
 | [Reducing Bush](./reducing-bush.md) | 25×20–50×20 | AQ2432520–AQ2435020 |

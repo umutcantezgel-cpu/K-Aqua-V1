@@ -12,6 +12,7 @@
     "seriesLabel": "Serie",
     "pressureLabel": "Pressione di esercizio",
     "lenLabel": "Lunghezza barra",
+    "faqTitle": "Domande frequenti",
     "cats": {
       "pipes": {
         "label": "Tubi",
@@ -54,357 +55,1351 @@
       "k-pipe-pp-r-sdr-6": {
         "seo_p1": "Il tubo K-Pipe in PP-R SDR 6 rappresenta la soluzione ideale per applicazioni idrosanitarie e industriali ad alta pressione. Progettato con precisione in Germania, questo tubo monostrato offre un'eccezionale robustezza meccanica per impianti di distribuzione dell'acqua potabile in edifici commerciali e residenziali.",
         "seo_p2": "Realizzato in polipropilene copolimero random (PP-R) di altissima qualità, presenta una classe di pressione SDR 6 (Serie S 2.5). Grazie al suo spessore maggiorato, garantisce un funzionamento sicuro a 2.0 MPa a 20°C e 1.0 MPa a 70°C, rendendolo perfetto per condizioni di carico estremo e temperature variabili.",
-        "seo_p3": "Le sue applicazioni spaziano dai sistemi di riscaldamento centralizzato alle reti di condizionamento. L'assoluta resistenza alla corrosione e le superfici interne ultra-lisce minimizzano le perdite di carico e impediscono la proliferazione batterica, garantendo un'infrastruttura igienica, affidabile e senza necessità di manutenzione nel tempo."
+        "seo_p3": "Le sue applicazioni spaziano dai sistemi di riscaldamento centralizzato alle reti di condizionamento. L'assoluta resistenza alla corrosione e le superfici interne ultra-lisce minimizzano le perdite di carico e impediscono la proliferazione batterica, garantendo un'infrastruttura igienica, affidabile e senza necessità di manutenzione nel tempo.",
+        "faq": [
+          {
+            "q": "Per quali temperature di esercizio è adatto l'SDR 6?",
+            "a": "È progettato per temperature operative continue fino a 70°C e offre una resistenza alla pressione di 20 Bar a 20°C."
+          },
+          {
+            "q": "Quali sono i vantaggi dell'elevato spessore della parete?",
+            "a": "La serie SDR 6 (S 2.5) offre la massima resistenza alla pressione e stabilità meccanica per impianti altamente sollecitati."
+          },
+          {
+            "q": "Posso utilizzare questo tubo per l'acqua fredda?",
+            "a": "Sì, è eccellente per i sistemi ad acqua fredda, poiché la superficie liscia previene efficacemente le incrostazioni e la proliferazione batterica."
+          }
+        ]
       },
       "k-pipe-pp-rct-sdr-74": {
         "seo_p1": "K-Pipe PP-RCT SDR 7.4 è l'evoluzione avanzata dei tubi per l'installazione idraulica ad alte prestazioni. Questa condotta in polipropilene di nuova generazione è studiata per sopportare cicli termici intensi, offrendo una portata superiore rispetto ai tradizionali tubi in plastica a parità di diametro esterno.",
         "seo_p2": "Costruito interamente in PP-RCT (Polypropylene Random Copolymer with modified Crystallinity), questo modello SDR 7.4 (Serie S 3.2) assicura una tenuta fino a 2.0 MPa a 20°C. La speciale struttura molecolare conferisce una resistenza meccanica migliorata mantenendo spessori di parete ridotti, alleggerendo l'infrastruttura complessiva.",
-        "seo_p3": "Ideale per grandi reti idriche, ospedali e strutture alberghiere, questo tubo riduce drasticamente i costi di trasporto e installazione. I vantaggi includono eccellente isolamento acustico, resistenza ai colpi d'ariete e totale immunità alla corrosione chimica e galvanica, per una durata garantita per decenni."
+        "seo_p3": "Ideale per grandi reti idriche, ospedali e strutture alberghiere, questo tubo riduce drasticamente i costi di trasporto e installazione. I vantaggi includono eccellente isolamento acustico, resistenza ai colpi d'ariete e totale immunità alla corrosione chimica e galvanica, per una durata garantita per decenni.",
+        "faq": [
+          {
+            "q": "Cosa significa PPRCT rispetto a PPR?",
+            "a": "PPRCT indica una struttura cristallina migliorata che consente pressioni superiori a temperature più elevate, rendendo possibili spessori di parete più sottili."
+          },
+          {
+            "q": "La portata è maggiore con l'SDR 7.4?",
+            "a": "Sì, grazie allo spessore ridotto del PPRCT, si ottiene fino al 17% in più di capacità di flusso a parità di diametro esterno."
+          },
+          {
+            "q": "L'SDR 7.4 è adatto per i sistemi di riscaldamento?",
+            "a": "Assolutamente sì, il materiale è termicamente estremamente resistente e quindi ideale per le linee di mandata nei moderni sistemi di riscaldamento."
+          }
+        ]
       },
       "k-pipe-pp-r-sdr-11": {
         "seo_p1": "Il tubo K-Pipe PP-R SDR 11 è un elemento cardine per i moderni impianti di distribuzione dell'acqua fredda e sistemi a bassa pressione. Questa conduttura standard offre un perfetto equilibrio tra flessibilità, leggerezza e affidabilità, ponendosi come scelta d'elezione per i professionisti del settore.",
         "seo_p2": "La sua composizione in PP-R assicura una costruzione solida con classe di pressione SDR 11 (Serie S 5). È certificato per gestire pressioni operative fino a 1.2 MPa a 20°C e 0.6 MPa a 60°C. La sua leggerezza lo rende estremamente maneggevole durante la saldatura per polifusione nei cantieri.",
-        "seo_p3": "Viene impiegato prevalentemente negli impianti di condizionamento e di distribuzione di acqua fredda potabile. La bassa conduttività termica del materiale impedisce la formazione di condensa, mentre l'installazione rapida e sicura abbatte i tempi di lavorazione, assicurando efficienza energetica e risparmio sui costi operativi."
+        "seo_p3": "Viene impiegato prevalentemente negli impianti di condizionamento e di distribuzione di acqua fredda potabile. La bassa conduttività termica del materiale impedisce la formazione di condensa, mentre l'installazione rapida e sicura abbatte i tempi di lavorazione, assicurando efficienza energetica e risparmio sui costi operativi.",
+        "faq": [
+          {
+            "q": "Il tubo è adatto per acqua calda e fredda?",
+            "a": "Il tubo SDR 11 è progettato principalmente per l'acqua fredda (20°C a 12 Bar) e per i settori dell'acqua calda a bassa pressione (60°C a 6 Bar)."
+          },
+          {
+            "q": "Come viene installato il tubo PP-R SDR 11?",
+            "a": "L'installazione avviene tramite il metodo di saldatura a bicchiere, che crea giunzioni assolutamente omogenee e senza perdite."
+          },
+          {
+            "q": "Ci sono differenze di peso rispetto ad altre classi SDR?",
+            "a": "Sì, grazie allo spessore ridotto della parete, il tubo è significativamente più leggero e flessibile da maneggiare in cantiere."
+          }
+        ]
       },
       "k-pipe-purple-pp-r-sdr-11": {
         "seo_p1": "K-Pipe Purple PP-R SDR 11 è una conduttura monostrato progettata per una chiara identificazione visiva nei sistemi di recupero delle acque. Questa variante cromatica è essenziale per prevenire contaminazioni accidentali tra acqua potabile e reti idriche secondarie.",
         "seo_p2": "Prodotto in PP-R di prima scelta, mantiene le stesse elevate specifiche tecniche del modello standard: classe SDR 11, Serie S 5, e prestazioni stabili fino a 1.2 MPa a 20°C. Il colore viola non altera le proprietà chimico-fisiche ma garantisce conformità immediata agli standard internazionali per il riutilizzo dell'acqua.",
-        "seo_p3": "Perfettamente adatto per sistemi di acqua piovana, irrigazione e applicazioni industriali di processo. La sua installazione scongiura pericoli di cross-connection, promuovendo costruzioni ecocompatibili (Green Building) senza rinunciare alla durata decennale e all'assoluta affidabilità delle saldature K-Aqua."
+        "seo_p3": "Perfettamente adatto per sistemi di acqua piovana, irrigazione e applicazioni industriali di processo. La sua installazione scongiura pericoli di cross-connection, promuovendo costruzioni ecocompatibili (Green Building) senza rinunciare alla durata decennale e all'assoluta affidabilità delle saldature K-Aqua.",
+        "faq": [
+          {
+            "q": "Cosa indica il colore viola?",
+            "a": "Serve per distinguere visivamente i sistemi di tubazioni per acqua industriale, acque grigie o raccolta di acqua piovana secondo le specifiche internazionali."
+          },
+          {
+            "q": "Il tubo può essere saldato con raccordi standard in PP-R?",
+            "a": "Sì, il tubo viola è compatibile con tutti i raccordi standard K-Aqua e viene saldato con gli stessi parametri."
+          },
+          {
+            "q": "Il colore influisce sulla qualità del materiale?",
+            "a": "No, le proprietà fisiche e chimiche sono identiche a quelle del normale tubo in PP-R SDR 11."
+          }
+        ]
       },
       "k-fiber-pipe-pp-rct-sdr-74": {
         "seo_p1": "K-Fiber Pipe PP-RCT SDR 7.4 è il tubo multistrato di punta, che combina le proprietà avanzate del PP-RCT con uno strato intermedio in fibra di vetro. Questa tecnologia composita rappresenta lo stato dell'arte per ridurre l'espansione lineare termica nelle colonne montanti e nei lunghi tratti rettilinei.",
         "seo_p2": "La sua architettura a tre strati (PP-RCT / PP-RCT + Fibra / PP-RCT) in SDR 7.4 lo rende straordinariamente stabile. Con una classificazione di pressione di 2.0 MPa a 20°C e 1.0 MPa a 70°C, sopporta carichi idrodinamici eccezionali riducendo la dilatazione longitudinale di quasi il 75% rispetto ai tubi convenzionali.",
-        "seo_p3": "Questa tubazione è la scelta d'eccellenza per impianti di riscaldamento centralizzato e acqua calda sanitaria ad alte temperature. Grazie alla minore necessità di staffaggi e punti fissi, i progettisti possono ottimizzare i costi di posa, ottenendo un sistema privo di tensioni meccaniche e assolutamente sicuro nel lungo termine."
+        "seo_p3": "Questa tubazione è la scelta d'eccellenza per impianti di riscaldamento centralizzato e acqua calda sanitaria ad alte temperature. Grazie alla minore necessità di staffaggi e punti fissi, i progettisti possono ottimizzare i costi di posa, ottenendo un sistema privo di tensioni meccaniche e assolutamente sicuro nel lungo termine.",
+        "faq": [
+          {
+            "q": "Di quanto riduce l'espansione termica lineare la fibra?",
+            "a": "Lo strato integrato in fibra di vetro riduce l'espansione lineare fino al 75% rispetto ai tubi in PP-R pieni."
+          },
+          {
+            "q": "Il tubo in fibra deve essere spelato prima della saldatura?",
+            "a": "No, a differenza dei tubi Stabi con strato in alluminio, il nostro tubo in fibra può essere saldato direttamente e senza pretrattamento."
+          },
+          {
+            "q": "Il tubo è adatto per le colonne montanti centrali?",
+            "a": "Sì, grazie alla sua rigidità intrinseca estremamente elevata e alla resistenza alla pressione, è la scelta ottimale per grandi colonne montanti."
+          }
+        ]
       },
       "k-fiberclima-pipe-pp-rct-sdr-11": {
         "seo_p1": "K-Fiberclima Pipe PP-RCT SDR 11 è una tubazione specificamente sviluppata per i moderni sistemi di raffreddamento e climatizzazione (HVAC). Ottimizzato per gestire fluidi di scambio termico, assicura un trasporto energeticamente efficiente sia negli edifici commerciali che nei complessi industriali.",
         "seo_p2": "La sua struttura rinforzata in fibra e l'impiego del polimero PP-RCT (classe SDR 11, Serie S 5) permettono pressioni di esercizio fino a 1.6 MPa a 20°C. Questa composizione ingegneristica offre un volume di flusso superiore e un'inerzia chimica totale, prevenendo qualsiasi tipo di incrostazione o degradazione da agenti frigorigeni.",
-        "seo_p3": "Ideale per torri di raffreddamento e circuiti di acqua refrigerata, le sue pareti isolanti limitano le dispersioni termiche, incrementando l'efficienza complessiva dell'impianto. La resistenza alle basse temperature e l'espansione termica contenuta garantiscono installazioni pulite, stabili e prive di costose manutenzioni periodiche."
+        "seo_p3": "Ideale per torri di raffreddamento e circuiti di acqua refrigerata, le sue pareti isolanti limitano le dispersioni termiche, incrementando l'efficienza complessiva dell'impianto. La resistenza alle basse temperature e l'espansione termica contenuta garantiscono installazioni pulite, stabili e prive di costose manutenzioni periodiche.",
+        "faq": [
+          {
+            "q": "Cosa rende il tubo ideale per l'acqua refrigerata?",
+            "a": "La bassa conducibilità termica del PPRCT previene la formazione di condensa molto meglio rispetto ai tubi metallici."
+          },
+          {
+            "q": "Come si comporta con la circolazione di antigelo?",
+            "a": "È altamente resistente ai comuni glicoli e antigeli, prevenendo le perdite causate dall'affaticamento del materiale."
+          },
+          {
+            "q": "I tubi possono essere utilizzati per portate volumetriche elevate?",
+            "a": "Grazie alle pareti più sottili (SDR 11) combinate alla massima stabilità, consente portate volumetriche estremamente elevate nelle reti industriali."
+          }
+        ]
       },
       "k-fiber-pipe-pp-r-sdr-74": {
         "seo_p1": "K-Fiber Pipe PP-R SDR 7.4 offre l'affidabilità collaudata del polipropilene PP-R arricchita dalla stabilità di un'anima in fibra di vetro. Questa conduttura multistrato è concepita per minimizzare i movimenti termici nei sistemi idrici complessi ad alta pressione e temperatura.",
         "seo_p2": "Costruito con una parete massiccia SDR 7.4 (Serie S 3.2), questo tubo composito gestisce agevolmente 2.5 MPa a 20°C e 1.2 MPa a 60°C. La speciale mescola centrale trattiene le variazioni dimensionali, incrementando notevolmente la rigidità del tubo ed estendendo i periodi di durata utile sotto stress continuo.",
-        "seo_p3": "Viene utilizzato in reti idrosanitarie industriali e civili dove le variazioni termiche sono frequenti. Il numero ridotto di giunti di dilatazione richiesti accelera l'installazione e conferisce all'infrastruttura un aspetto più ordinato, rendendolo una soluzione estremamente economica ed efficiente per i grandi appalti."
+        "seo_p3": "Viene utilizzato in reti idrosanitarie industriali e civili dove le variazioni termiche sono frequenti. Il numero ridotto di giunti di dilatazione richiesti accelera l'installazione e conferisce all'infrastruttura un aspetto più ordinato, rendendolo una soluzione estremamente economica ed efficiente per i grandi appalti.",
+        "faq": [
+          {
+            "q": "L'SDR 7.4 è omologato per le alte temperature?",
+            "a": "Sì, tollera temperature fino a 70°C a una pressione nominale di 1.0 MPa (10 Bar) e picchi a breve termine di 95°C."
+          },
+          {
+            "q": "Quanti collari di fissaggio sono necessari per i tratti lunghi?",
+            "a": "Grazie al rinforzo in fibra, le distanze di fissaggio possono essere notevolmente aumentate rispetto ai tubi standard."
+          },
+          {
+            "q": "Esistono rischi di corrosione con qualità dell'acqua variabili?",
+            "a": "No, il materiale PP-R è al 100% esente da corrosione e indipendente dal valore del pH del fluido trasportato."
+          }
+        ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
         "seo_p1": "Il K-Fiber Pipe PP-R SDR 9 è un tubo composito in fibra che offre un compromesso ideale tra elevata portata e resistenza meccanica superiore. Progettato per le moderne distribuzioni idriche, offre prestazioni costanti per impianti residenziali e industriali di media e alta complessità.",
         "seo_p2": "Con la sua classificazione SDR 9 (Serie S 4), si posiziona come soluzione ottimale per pressioni fino a 2.0 MPa a 20°C. L'integrazione della fibra di vetro nello strato intermedio in PP-R riduce in modo determinante l'espansione lineare e migliora la stabilità del diametro sotto l'azione del calore continuo.",
-        "seo_p3": "Le sue applicazioni tipiche spaziano dai circuiti di riscaldamento a pavimento fino alla conduzione di fluidi di processo. I principali vantaggi risiedono nel montaggio rapido e sicuro con supporti distanziati, offrendo ai progettisti maggiore libertà architettonica e una tranquillità assoluta contro perdite e usura."
+        "seo_p3": "Le sue applicazioni tipiche spaziano dai circuiti di riscaldamento a pavimento fino alla conduzione di fluidi di processo. I principali vantaggi risiedono nel montaggio rapido e sicuro con supporti distanziati, offrendo ai progettisti maggiore libertà architettonica e una tranquillità assoluta contro perdite e usura.",
+        "faq": [
+          {
+            "q": "Perché scegliere l'SDR 9 invece dell'SDR 7.4?",
+            "a": "L'SDR 9 offre un eccellente compromesso tra una maggiore capacità di flusso (parete più sottile) e una resistenza alla pressione comunque estrema."
+          },
+          {
+            "q": "Può essere saldato con raccordi standard in PP-R?",
+            "a": "Assolutamente, il tubo in fibra SDR 9 è completamente compatibile con i nostri raccordi K-Aqua SDR 6 e SDR 7.4 in PP-R."
+          },
+          {
+            "q": "È omologato per l'approvvigionamento di acqua potabile?",
+            "a": "Sì, soddisfa tutti gli standard igienici per l'acqua potabile calda e fredda in tutto il mondo."
+          }
+        ]
       },
       "k-fiber-pipe-pp-r-sdr-11": {
         "seo_p1": "K-Fiber Pipe PP-R SDR 11 è una tubazione multistrato leggera ma incredibilmente robusta, concepita principalmente per i circuiti di distribuzione di base e i sistemi di condizionamento. Offre tutti i benefici della tecnologia composita a un rapporto costo-prestazioni imbattibile.",
         "seo_p2": "La sua costruzione in PP-R con nucleo in fibra raggiunge la classe SDR 11 (Serie S 5). È progettato per garantire stabilità a pressioni di 1.6 MPa a 20°C, vantando una notevole rigidità assiale. Questo riduce la necessità di ancoraggi pesanti pur garantendo la massima sicurezza strutturale.",
-        "seo_p3": "Costituisce una scelta eccellente per la fornitura di acqua potabile su lunghe distanze all'interno di stabili multipiano. La sua leggerezza facilita la manovrabilità in cantiere, mentre l'omogeneità della saldatura per polifusione assicura una continuità di materiale perfetta, prevenendo per sempre la corrosione interna."
+        "seo_p3": "Costituisce una scelta eccellente per la fornitura di acqua potabile su lunghe distanze all'interno di stabili multipiano. La sua leggerezza facilita la manovrabilità in cantiere, mentre l'omogeneità della saldatura per polifusione assicura una continuità di materiale perfetta, prevenendo per sempre la corrosione interna.",
+        "faq": [
+          {
+            "q": "I tempi di saldatura sono più brevi per i tubi SDR 11?",
+            "a": "Sì, a causa del ridotto spessore della parete, i tempi di riscaldamento sull'elemento termico sono ridotti, il che accelera il processo di lavorazione."
+          },
+          {
+            "q": "Quali sono i limiti di impiego per questo tubo SDR 11?",
+            "a": "È progettato per pressioni massime di 16 Bar a 20°C e di 8 Bar a 60°C."
+          },
+          {
+            "q": "I sistemi di raffreddamento beneficiano di questo tubo?",
+            "a": "Sì, l'eccellente valore di isolamento riduce significativamente le perdite di energia nelle reti di raffreddamento."
+          }
+        ]
       },
       "k-fiber-pipe-pp-r-sdr-17": {
         "seo_p1": "Il K-Fiber Pipe PP-R SDR 17 è specificamente progettato per grandi condotte e sistemi a bassa pressione con elevate portate volumetriche. Questi tubi multistrato di grandi dimensioni rappresentano la spina dorsale per la distribuzione idrica nei megaprogetti e nelle infrastrutture municipali.",
         "seo_p2": "Disponibile per grandi diametri nominali, sfrutta il materiale composito in PP-R e fibra di vetro con uno spessore parietale SDR 17 (Serie S 8). Supporta pressioni fino a 1.0 MPa a 20°C, garantendo una riduzione sostanziale dell'espansione lineare e del peso rispetto alle tradizionali tubazioni metalliche.",
-        "seo_p3": "È impiegato massicciamente nelle condutture di trasporto interrate e nei collettori principali industriali. Riducendo significativamente l'attrito del flusso e le esigenze di manutenzione, offre alle grandi aziende un risparmio energetico costante e un ciclo di vita superiore al mezzo secolo senza necessità di sostituzione."
+        "seo_p3": "È impiegato massicciamente nelle condutture di trasporto interrate e nei collettori principali industriali. Riducendo significativamente l'attrito del flusso e le esigenze di manutenzione, offre alle grandi aziende un risparmio energetico costante e un ciclo di vita superiore al mezzo secolo senza necessità di sostituzione.",
+        "faq": [
+          {
+            "q": "L'SDR 17 è adatto per reti ad alta pressione?",
+            "a": "L'SDR 17 (PN 10) è progettato specificamente per reti a bassa pressione con enormi portate volumetriche, ad es. nelle reti di teleraffreddamento."
+          },
+          {
+            "q": "Come vengono collegate dimensioni così grandi?",
+            "a": "I tubi di grandi dimensioni (da 90 mm a 200 mm) sono preferibilmente collegati tramite saldatura testa a testa o con manicotti elettrosaldabili."
+          },
+          {
+            "q": "Qual è il vantaggio principale rispetto ai tubi in acciaio?",
+            "a": "Il tubo in PP-R non arrugginisce, pesa una frazione rispetto ai tubi in acciaio e mantiene nel tempo una perfetta sezione di flusso."
+          }
+        ]
       },
       "k-fiber-uv-pipe-pp-r-sdr-74": {
         "seo_p1": "K-Fiber UV Pipe PP-R SDR 7.4 è la risposta definitiva per le installazioni idriche esposte direttamente all'irraggiamento solare. La sua esclusiva costruzione multistrato offre una protezione completa contro i raggi ultravioletti, prevenendo l'invecchiamento precoce del polimero.",
         "seo_p2": "Dotato di una classe di pressione SDR 7.4, garantisce la tenuta fino a 2.0 MPa a 20°C. La speciale guaina protettiva esterna respinge le radiazioni UV, mentre lo strato intermedio in fibra di vetro assicura una dilatazione termica minima anche nelle torride installazioni sui tetti.",
-        "seo_p3": "È il prodotto d'elezione per le tubazioni scoperte in impianti industriali all'aperto e infrastrutture esterne. Grazie a questo design avanzato, l'installazione non richiede verniciature o isolamenti supplementari per la protezione solare, consentendo di risparmiare sensibilmente sui costi di manodopera e sui materiali."
+        "seo_p3": "È il prodotto d'elezione per le tubazioni scoperte in impianti industriali all'aperto e infrastrutture esterne. Grazie a questo design avanzato, l'installazione non richiede verniciature o isolamenti supplementari per la protezione solare, consentendo di risparmiare sensibilmente sui costi di manodopera e sui materiali.",
+        "faq": [
+          {
+            "q": "Come si ottiene la protezione UV per questo tubo?",
+            "a": "Uno speciale strato esterno nero coestruso assorbe e blocca i dannosi raggi UV prima che intacchino il materiale PP-R."
+          },
+          {
+            "q": "Lo strato UV deve essere rimosso prima della saldatura?",
+            "a": "No, trattandosi di uno strato di plastica omogenea, viene semplicemente fuso con il raccordo durante la saldatura a bicchiere."
+          },
+          {
+            "q": "La durata all'aperto è limitata?",
+            "a": "Lo strato di protezione UV previene la degradazione del polimero, garantendo così l'intera durata di vita di 50 anni anche sotto l'irraggiamento solare diretto."
+          }
+        ]
       },
       "k-fiber-uv-pipe-pp-rct-sdr-74": {
         "seo_p1": "K-Fiber UV Pipe in PP-RCT SDR 7.4 rappresenta la sintesi tra le massime prestazioni idrauliche del PP-RCT e la protezione assoluta dalle intemperie. Progettato per resistere ad altissime sollecitazioni termiche all'esterno, garantisce durata e stabilità senza compromessi.",
         "seo_p2": "Costruito interamente in materiale PP-RCT con rinforzo in fibra e un rivestimento anti-UV dedicato, mantiene le specifiche di SDR 7.4 per supportare pressioni estreme (2.0 MPa a 20°C). La struttura a cristallinità modificata assicura uno spessore ridotto a parità di resistenza meccanica.",
-        "seo_p3": "Si adatta perfettamente a impianti termici industriali, pannelli solari e sistemi di condizionamento montati a tetto. L'elevata resistenza alle intemperie si unisce a un'installazione rapida e sicura, annullando di fatto le problematiche legate all'esposizione solare e alle dilatazioni termiche repentine."
+        "seo_p3": "Si adatta perfettamente a impianti termici industriali, pannelli solari e sistemi di condizionamento montati a tetto. L'elevata resistenza alle intemperie si unisce a un'installazione rapida e sicura, annullando di fatto le problematiche legate all'esposizione solare e alle dilatazioni termiche repentine.",
+        "faq": [
+          {
+            "q": "Questo tubo combina la protezione UV con una maggiore portata?",
+            "a": "Sì, grazie al materiale PPRCT altamente cristallino, è possibile utilizzare pareti di spessore inferiore, mentre lo strato UV offre un'estrema protezione all'esterno."
+          },
+          {
+            "q": "Sono disponibili raccordi K-Aqua resistenti ai raggi UV?",
+            "a": "I raccordi vengono generalmente protetti tramite isolamento, verniciatura o nastri protettivi UV, mentre le lunghe tratte di tubazioni sono protette di fabbrica."
+          },
+          {
+            "q": "Questo tubo è adatto per torri di raffreddamento?",
+            "a": "È la scelta ottimale, in quanto resiste in modo permanente sia all'esposizione diretta al sole sia agli additivi chimici nell'acqua di raffreddamento."
+          }
+        ]
       },
       "cap": {
         "seo_p1": "Il tappo di chiusura (Cap) K-Aqua è l'elemento terminale indispensabile per sigillare in modo permanente e sicuro le linee idriche in pressione. Questo raccordo garantisce la chiusura ermetica della conduttura per manutenzioni future o test di pressione.",
         "seo_p2": "Realizzato nel medesimo PP-R ad alte prestazioni dell'intero sistema, sopporta le stesse pressioni operative dei tubi corrispondenti (PN 20 / PN 25). La perfetta geometria di saldatura a bicchiere assicura un accoppiamento dimensionale ineccepibile, eliminando totalmente le tolleranze di giunzione.",
-        "seo_p3": "Ampiamente utilizzato nelle terminazioni di colonne montanti e durante il collaudo degli impianti sanitari, questo tappo elimina il rischio di microperdite. La fusione molecolare lo rende un blocco unico con il tubo, garantendo la massima tranquillità anche negli impianti sottotraccia."
+        "seo_p3": "Ampiamente utilizzato nelle terminazioni di colonne montanti e durante il collaudo degli impianti sanitari, questo tappo elimina il rischio di microperdite. La fusione molecolare lo rende un blocco unico con il tubo, garantendo la massima tranquillità anche negli impianti sottotraccia.",
+        "faq": [
+          {
+            "q": "Il tappo terminale può essere utilizzato per una prova di pressione?",
+            "a": "Sì, dopo una corretta saldatura e il raffreddamento, il tappo terminale resiste senza problemi alla piena pressione di prova del sistema (fino a 30 Bar)."
+          },
+          {
+            "q": "Come posso chiudere le tubazioni temporanee?",
+            "a": "Per chiusure temporanee consigliamo tappi filettati; il tappo terminale viene saldato omogeneamente ed è quindi pensato per una chiusura permanente."
+          },
+          {
+            "q": "Il tappo terminale garantisce la tenuta a tutte le temperature?",
+            "a": "Grazie alla fusione termica non ci sono coefficienti di dilatazione diversi, rendendolo assolutamente a prova di perdite da 0°C a 95°C."
+          }
+        ]
       },
       "socket": {
         "seo_p1": "Il manicotto (Socket) K-Aqua rappresenta la connessione lineare standard, progettata per unire due sezioni di tubo mantenendo un flusso ininterrotto. È il raccordo fondamentale in ogni progetto idrosanitario per estendere le linee principali senza perdite di carico.",
         "seo_p2": "Prodotto in purissimo polipropilene random (PP-R), assicura caratteristiche meccaniche eccezionali e immunità alla corrosione. Il design compatto e gli spessori maggiorati sopportano carichi di pressione PN 25, garantendo l'assoluta integrità della rete idrica in qualsiasi condizione operativa.",
-        "seo_p3": "Impiegato massicciamente nelle distribuzioni orizzontali e verticali sia in ambito residenziale che industriale. Il processo di saldatura a polifusione si completa in pochissimi secondi, fornendo un giunto esente da manutenzione, perfettamente liscio all'interno e indistruttibile per oltre cinquant'anni."
+        "seo_p3": "Impiegato massicciamente nelle distribuzioni orizzontali e verticali sia in ambito residenziale che industriale. Il processo di saldatura a polifusione si completa in pochissimi secondi, fornendo un giunto esente da manutenzione, perfettamente liscio all'interno e indistruttibile per oltre cinquant'anni.",
+        "faq": [
+          {
+            "q": "Quanto in profondità deve essere inserito il tubo nel manicotto?",
+            "a": "La profondità di inserimento è definita esattamente nelle nostre linee guida tecniche e dovrebbe essere segnata sul tubo per evitare restringimenti della sezione trasversale."
+          },
+          {
+            "q": "I manicotti possono essere utilizzati anche per tubi in fibra?",
+            "a": "Sì, i nostri manicotti standard sono completamente compatibili con tutti i tubi K-Aqua in PP-R, PPRCT e in fibra."
+          },
+          {
+            "q": "C'è il rischio di micro-perdite sulla giunzione?",
+            "a": "No, poiché la polifusione crea un legame molecolare continuo e coeso che è forte quanto il tubo stesso."
+          }
+        ]
       },
       "elbow-45": {
         "seo_p1": "Il gomito a 45 gradi (Elbow 45°) K-Aqua è concepito per deviazioni direzionali morbide all'interno dei tracciati idraulici. Progettato per ridurre al minimo la resistenza idrodinamica, ottimizza la distribuzione del fluido nelle reti complesse.",
         "seo_p2": "Stampato in PP-R di altissima qualità, mantiene l'omogeneità chimica del sistema offrendo prestazioni PN 25. La curva a 45 gradi è calcolata fluidodinamicamente (tramite CFD) per limitare cavitazioni, garantendo un passaggio del liquido silenzioso e a bassissima perdita di carico.",
-        "seo_p3": "Risulta particolarmente utile nell'aggiramento di ostacoli strutturali e nella creazione di deviazioni ad angolo ottuso in spazi ristretti. La sua affidabilità superiore preserva l'efficienza energetica delle pompe di ricircolo, confermandosi essenziale nelle grandi architetture idrauliche commerciali."
+        "seo_p3": "Risulta particolarmente utile nell'aggiramento di ostacoli strutturali e nella creazione di deviazioni ad angolo ottuso in spazi ristretti. La sua affidabilità superiore preserva l'efficienza energetica delle pompe di ricircolo, confermandosi essenziale nelle grandi architetture idrauliche commerciali.",
+        "faq": [
+          {
+            "q": "Quando dovrei utilizzare un gomito a 45 gradi invece di uno a 90 gradi?",
+            "a": "Un gomito a 45 gradi riduce significativamente le perdite di pressione e la resistenza al flusso (valore Zeta) nel sistema, prevenendo il rumore."
+          },
+          {
+            "q": "I gomiti K-Aqua sono ottimizzati idrodinamicamente?",
+            "a": "Sì, i raggi interni dei nostri gomiti a 45 gradi sono estremamente lisci e idraulicamente ottimizzati per prevenire la cavitazione."
+          },
+          {
+            "q": "Due gomiti a 45 gradi possono essere combinati per creare una curva di 90 gradi?",
+            "a": "Sì, questa pratica viene spesso utilizzata con grandi dimensioni per creare curve ampie e ridurre la resistenza della pompa."
+          }
+        ]
       },
       "elbow-45-femalemale": {
         "seo_p1": "Il gomito a 45 gradi femmina-maschio (Elbow 45° Female/Male) offre la massima versatilità nelle installazioni con vincoli di spazio ristretti. Questo raccordo permette di variare l'angolo della condotta riducendo drasticamente il numero di saldature necessarie.",
         "seo_p2": "Costruito interamente in PP-R per mantenere le eccezionali tolleranze di pressione del sistema, presenta una terminazione a bicchiere e una a innesto (maschio). Questa particolare configurazione geometrica consente un montaggio diretto all'interno di un altro raccordo, risparmiando spazio prezioso.",
-        "seo_p3": "Particolarmente prezioso negli allineamenti compatti, nelle centrali termiche o all'interno di pareti prefabbricate. Abbassando il tempo di lavorazione e i punti di potenziale criticità, eleva la sicurezza dell'intero impianto, mantenendo inalterata la durata e le prestazioni idrauliche."
+        "seo_p3": "Particolarmente prezioso negli allineamenti compatti, nelle centrali termiche o all'interno di pareti prefabbricate. Abbassando il tempo di lavorazione e i punti di potenziale criticità, eleva la sicurezza dell'intero impianto, mantenendo inalterata la durata e le prestazioni idrauliche.",
+        "faq": [
+          {
+            "q": "Un gomito a 90 gradi aumenta l'usura a causa della pressione del flusso?",
+            "a": "Grazie alle riserve di spessore delle pareti e alle superfici interne estremamente lisce del materiale PP-R, l'usura da abrasione è praticamente esclusa."
+          },
+          {
+            "q": "Ci sono indicatori di direzione sui gomiti K-Aqua?",
+            "a": "Sì, i nostri raccordi presentano spesso contrassegni di produzione che aiutano nel corretto allineamento assiale in cantiere."
+          },
+          {
+            "q": "Il gomito a 90 gradi può essere utilizzato per le colonne montanti?",
+            "a": "Sì, è l'ideale per deviare le tubazioni dai cavedi ai rispettivi piani."
+          }
+        ]
       },
       "elbow-90": {
         "seo_p1": "Il gomito a 90 gradi (Elbow 90°) è il raccordo direzionale più utilizzato per creare cambi di direzione ortogonali netti e precisi. K-Aqua ha ottimizzato questo componente critico per garantire la massima stabilità e affidabilità nel tempo.",
         "seo_p2": "Iniettato in PP-R vergine, il raccordo vanta uno spessore murale sovradimensionato per sopportare i picchi di pressione (fino a PN 25) e contrastare l'usura meccanica nel punto di curva. La tolleranza dei bicchieri è calibrata al micrometro per una saldatura sempre impeccabile.",
-        "seo_p3": "Ideale per tutte le applicazioni idrosanitarie, dai sistemi di riscaldamento domestico agli imponenti impianti industriali. L'assenza di guarnizioni lo rende immune alla corrosione, assicurando che i flussi a 90 gradi mantengano la stessa tenuta a perfetta pressione del resto del sistema."
+        "seo_p3": "Ideale per tutte le applicazioni idrosanitarie, dai sistemi di riscaldamento domestico agli imponenti impianti industriali. L'assenza di guarnizioni lo rende immune alla corrosione, assicurando che i flussi a 90 gradi mantengano la stessa tenuta a perfetta pressione del resto del sistema.",
+        "faq": [
+          {
+            "q": "Cosa significa I/E (M/F) per questo gomito?",
+            "a": "Significa Interno/Esterno (Maschio/Femmina). Un lato viene saldato come un manicotto, mentre l'altro lato può essere saldato direttamente in un altro raccordo."
+          },
+          {
+            "q": "Quale vantaggio offre la costruzione I/E?",
+            "a": "Risparmia spazio ed evita l'uso di un pezzo di tubo aggiuntivo tra due raccordi, il che è cruciale in spazi ristretti."
+          },
+          {
+            "q": "Questo cambia il processo di saldatura?",
+            "a": "Il processo rimane lo stesso, vengono utilizzati contemporaneamente matrice e punzone sulla piastra riscaldante per tubo e raccordo."
+          }
+        ]
       },
       "elbow-90-femalemale": {
         "seo_p1": "Il gomito a 90 gradi femmina-maschio (Elbow 90° Female/Male) è progettato specificamente per le situazioni di montaggio salvaspazio. Offre una curva stretta e diretta che ottimizza enormemente l'architettura dei tubi negli angoli più angusti.",
         "seo_p2": "Condividendo l'affidabilità del polipropilene PP-R PN 25, questo componente si caratterizza per avere un'estremità saldabile a bicchiere e l'altra come codolo maschio. Ciò permette l'innesto diretto in un manicotto o in un rubinetto senza dover utilizzare un tronchetto intermedio di tubo.",
-        "seo_p3": "Indispensabile nei blocchi bagno prefabbricati, negli armadietti di distribuzione o nei cavedi verticali stretti. Il suo utilizzo razionalizza il lavoro dell'installatore, diminuendo sensibilmente il consumo di materiale, i tempi di saldatura e il potenziale rischio di errori umani in cantiere."
+        "seo_p3": "Indispensabile nei blocchi bagno prefabbricati, negli armadietti di distribuzione o nei cavedi verticali stretti. Il suo utilizzo razionalizza il lavoro dell'installatore, diminuendo sensibilmente il consumo di materiale, i tempi di saldatura e il potenziale rischio di errori umani in cantiere.",
+        "faq": [
+          {
+            "q": "Il gomito a 45 gradi I/E è adatto per deviazioni parallele?",
+            "a": "Sì, combinato con un gomito standard a 45 gradi, si possono realizzare scostamenti di livello estremamente compatti."
+          },
+          {
+            "q": "La resistenza alla pressione della connessione interno/esterno è altrettanto elevata?",
+            "a": "La saldatura omogenea per polifusione garantisce anche qui una resistenza alla pressione del 100% (PN 25) nel punto di giunzione."
+          },
+          {
+            "q": "Per quali dimensioni è disponibile questo gomito?",
+            "a": "Viene prodotto tipicamente per le dimensioni standard nella distribuzione di piano, da 20 mm a 40 mm."
+          }
+        ]
       },
       "electrofusion-socket": {
         "seo_p1": "Il manicotto elettrosaldabile (Electrofusion Socket) è la soluzione ad altissima tecnologia per giunzioni in spazi ristretti o riparazioni dove la saldatura a polifusione manuale è impraticabile. Unisce i tubi con una precisione automatizzata assoluta.",
         "seo_p2": "Incorpora una spirale resistiva in lega speciale annegata nel corpo in PP-R ad altissima densità. Quando viene applicata corrente tramite l'apposita saldatrice, il filamento fonde il materiale circostante in modo omogeneo e controllato a microprocessore, creando un giunto capace di resistere a enormi pressioni.",
-        "seo_p3": "È il salvavita in cantiere per le saldature sottotetto, in trincee strette o per interventi di manutenzione straordinaria su tubi rigidi. Garantisce una tracciabilità e un'accuratezza millimetrica per i grandi progetti internazionali che richiedono certificazioni di tenuta senza compromessi."
+        "seo_p3": "È il salvavita in cantiere per le saldature sottotetto, in trincee strette o per interventi di manutenzione straordinaria su tubi rigidi. Garantisce una tracciabilità e un'accuratezza millimetrica per i grandi progetti internazionali che richiedono certificazioni di tenuta senza compromessi.",
+        "faq": [
+          {
+            "q": "Il tubo deve essere raschiato prima dell'elettrosaldatura?",
+            "a": "Sì, la rimozione dello strato di ossido tramite un raschiatore speciale per tubi è assolutamente necessaria per una fusione impeccabile."
+          },
+          {
+            "q": "Quali saldatrici possono essere utilizzate?",
+            "a": "Devono essere utilizzate saldatrici K-Aqua o saldatrici elettriche universali in grado di leggere il codice a barre sul manicotto."
+          },
+          {
+            "q": "Quando l'elettrosaldatura è preferibile rispetto alla saldatura a bicchiere con elemento riscaldante?",
+            "a": "In particolare in caso di limitata libertà di movimento (ad es. in un pozzetto), dove non c'è spazio per l'apparecchio di saldatura a bicchiere."
+          }
+        ]
       },
       "flange-adaptor": {
         "seo_p1": "Il collare per flangia (Flange Adaptor) rappresenta l'interfaccia critica per la connessione del sistema in PP-R a pompe, valvole industriali o reti metalliche preesistenti. È l'elemento di transizione per eccellenza nelle grandi infrastrutture.",
         "seo_p2": "Stampato in un unico blocco massiccio di polipropilene PP-R, è progettato per ospitare la controflangia metallica libera (Backing Flange). La sua superficie di battuta è lavorata per combaciare perfettamente con le guarnizioni piatte, assicurando l'assoluta tenuta stagna fino a PN 25 in base alle tolleranze dimensionali normative.",
-        "seo_p3": "Trova applicazione nelle stazioni di pompaggio, nei serbatoi di accumulo e negli scambiatori di calore su larga scala. Consente interventi di manutenzione rapida tramite smontaggio meccanico (flangiatura) pur conservando la totale assenza di corrosione galvanica e chimica nella parte bagnata."
+        "seo_p3": "Trova applicazione nelle stazioni di pompaggio, nei serbatoi di accumulo e negli scambiatori di calore su larga scala. Consente interventi di manutenzione rapida tramite smontaggio meccanico (flangiatura) pur conservando la totale assenza di corrosione galvanica e chimica nella parte bagnata.",
+        "faq": [
+          {
+            "q": "Quali standard di flangia supporta il collare K-Aqua?",
+            "a": "È compatibile con le flange standard DIN/EN (ad es. PN10, PN16) e richiede l'apposita flangia libera K-Aqua."
+          },
+          {
+            "q": "Ho bisogno di una guarnizione aggiuntiva?",
+            "a": "Sì, tra il collare in PP-R e la controflangia deve essere obbligatoriamente inserita una guarnizione piatta in EPDM adatta."
+          },
+          {
+            "q": "Come viene collegato il collare al tubo?",
+            "a": "Viene saldato direttamente sul tubo o in un manicotto tramite saldatura a bicchiere con elemento riscaldante, come un raccordo tradizionale."
+          }
+        ]
       },
       "reducing-bush": {
         "seo_p1": "La boccola di riduzione (Reducing Bush) è il componente essenziale per effettuare transizioni di diametro all'interno della stessa linea di tubazioni. Il suo design compatto permette un restringimento della sezione direttamente all'interno di altri raccordi.",
         "seo_p2": "Saldabile a polifusione sia internamente che esternamente, è realizzata nel collaudato PP-R di K-Aqua per resistere a pressioni di esercizio fino a PN 25. La transizione interna fluida evita la formazione di turbolenze eccessive durante il cambio di sezione idraulica.",
-        "seo_p3": "Fondamentale negli snodi di distribuzione dove i diametri dei tubi si riducono verso le utenze finali. Consente agli ingegneri di risparmiare spazio nei cavedi tecnici riducendo al minimo la lunghezza necessaria per i salti di diametro."
+        "seo_p3": "Fondamentale negli snodi di distribuzione dove i diametri dei tubi si riducono verso le utenze finali. Consente agli ingegneri di risparmiare spazio nei cavedi tecnici riducendo al minimo la lunghezza necessaria per i salti di diametro.",
+        "faq": [
+          {
+            "q": "Posso saltare più dimensioni in una volta sola?",
+            "a": "Sì, offriamo riduzioni che consentono restringimenti di sezione multistadio in un unico componente, ad es. da 63 mm a 32 mm."
+          },
+          {
+            "q": "La riduzione viene saldata dentro o sopra il tubo?",
+            "a": "La riduzione è generalmente concepita come raccordo interno/esterno (I/E): il lato grande entra in un manicotto, il lato piccolo accoglie il tubo."
+          },
+          {
+            "q": "Il restringimento influisce sulla pressione di esercizio?",
+            "a": "No, gli spessori delle pareti delle riduzioni K-Aqua sono dimensionati in modo da corrispondere alla pressione nominale dell'intero sistema (fino a PN 25)."
+          }
+        ]
       },
       "reducing-tee": {
         "seo_p1": "Il raccordo a T ridotto (Reducing Tee) combina una diramazione a 90 gradi con un diametro inferiore rispetto al condotto principale. È il nodo centrale per distribuire in modo efficiente il fluido dalla linea primaria alle singole utenze secondarie.",
         "seo_p2": "Costruito interamente in materiale plastico PP-R PN 25, garantisce l'omogeneità strutturale dell'intero impianto. Le tolleranze costruttive dei tre bicchieri di saldatura offrono accoppiamenti precisissimi, garantendo totale sicurezza contro perdite strutturali.",
-        "seo_p3": "Si rivela particolarmente efficace negli alberghi, condomini o complessi residenziali per derivare i flussi d'acqua verso le diverse stanze o appartamenti. Mantiene inalterate l'igiene dell'acqua e la bassa rumorosità, eliminando le perdite di pressione non necessarie."
+        "seo_p3": "Si rivela particolarmente efficace negli alberghi, condomini o complessi residenziali per derivare i flussi d'acqua verso le diverse stanze o appartamenti. Mantiene inalterate l'igiene dell'acqua e la bassa rumorosità, eliminando le perdite di pressione non necessarie.",
+        "faq": [
+          {
+            "q": "Quando utilizzo un raccordo a T ridotto invece di un raccordo a T standard con riduzione?",
+            "a": "Un raccordo a T ridotto fa risparmiare una saldatura aggiuntiva e riduce lo spazio di installazione, rendendolo più efficiente e sicuro."
+          },
+          {
+            "q": "La derivazione è sempre il lato ridotto?",
+            "a": "Generalmente sì, poiché tipicamente dalla condotta principale vengono portate derivazioni più piccole verso le utenze."
+          },
+          {
+            "q": "Questi raccordi a T possono causare rumori di flusso?",
+            "a": "No, i raggi interni sono ottimizzati idraulicamente per ridurre al minimo le turbolenze e i rumori di cavitazione dovuti ai cambi di sezione."
+          }
+        ]
       },
       "reducing-tee-large-sizes": {
         "seo_p1": "Il raccordo a T ridotto di grande dimensione (Reducing Tee - Large Sizes) è progettato su misura per i sistemi di distribuzione industriale e le tubazioni primarie. Risponde alla necessità di diramare flussi importanti da condutture magistrali verso reti secondarie.",
         "seo_p2": "Realizzato con spessori maggiorati in puro PP-R (PN 25), questo componente massiccio resiste a pressioni elevate e urti idrodinamici notevoli (colpo d'ariete) tipici dei grandi circuiti idraulici commerciali, mantenendo una perdita di carico trascurabile.",
-        "seo_p3": "Elemento chiave nelle grandi stazioni termiche o centrali di raffreddamento. Ottimizza le transizioni di flusso su grossi calibri senza ricorrere a costosi collettori metallici, mantenendo al 100% la resistenza alla corrosione e limitando l'espansione termica radiale."
+        "seo_p3": "Elemento chiave nelle grandi stazioni termiche o centrali di raffreddamento. Ottimizza le transizioni di flusso su grossi calibri senza ricorrere a costosi collettori metallici, mantenendo al 100% la resistenza alla corrosione e limitando l'espansione termica radiale.",
+        "faq": [
+          {
+            "q": "Quale strumento speciale è necessario per il montaggio?",
+            "a": "Per la fresatura esatta del foro è necessaria una speciale fresa carotatrice K-Aqua, oltre a una matrice per selle per il riscaldamento."
+          },
+          {
+            "q": "Una sella può essere montata su un tubo in pressione?",
+            "a": "No, il sistema di tubazioni deve essere obbligatoriamente svuotato e depressurizzato prima della foratura e della saldatura."
+          },
+          {
+            "q": "Il collegamento a sella è forte quanto un raccordo a T?",
+            "a": "Sì, grazie alla profonda saldatura per polifusione sulla parete del tubo, la derivazione a sella raggiunge la stessa classe di pressione del tubo base."
+          }
+        ]
       },
       "tee": {
         "seo_p1": "Il raccordo a T (Tee) a diametro costante è l'architrave geometrico per dividere equamente i flussi all'interno di una rete in PP-R. Assicura diramazioni perfette a 90 gradi mantenendo invariata la sezione trasversale per tutte le uscite.",
         "seo_p2": "Come tutti i raccordi K-Aqua di alta gamma, è modellato per iniezione in PP-R (Polipropilene Copolimero Random) garantendo stabilità dimensionale per cicli operativi a pressione PN 25. La sua cavità interna priva di asperità assicura un flusso laminare e costante.",
-        "seo_p3": "Ideale per ramificazioni principali nelle reti idrosanitarie e negli impianti di climatizzazione, dove è fondamentale distribuire carichi d'acqua identici. La solidità del raccordo previene la rottura per fatica, estendendo la vita utile dell'intero sistema."
+        "seo_p3": "Ideale per ramificazioni principali nelle reti idrosanitarie e negli impianti di climatizzazione, dove è fondamentale distribuire carichi d'acqua identici. La solidità del raccordo previene la rottura per fatica, estendendo la vita utile dell'intero sistema.",
+        "faq": [
+          {
+            "q": "Il raccordo a T riduce la sezione del tubo?",
+            "a": "No, il design interno dei nostri raccordi a T è concepito per il passaggio totale, in modo da non ridurre la portata volumetrica."
+          },
+          {
+            "q": "Un raccordo a T è più soggetto a depositi?",
+            "a": "Grazie al materiale PP-R estremamente liscio (valore di rugosità 0,007 mm), calcare e biofilm non hanno alcuna possibilità di attecchire, nemmeno nelle derivazioni."
+          },
+          {
+            "q": "Sono necessari tempi di saldatura diversi per i raccordi a T di grandi dimensioni?",
+            "a": "Sì, i tempi di riscaldamento, accoppiamento e raffreddamento dipendono dalla dimensione e devono essere rigorosamente rispettati secondo le linee guida DVS."
+          }
+        ]
       },
       "cross": {
         "seo_p1": "Il raccordo a croce (Cross) è la soluzione ideale per realizzare diramazioni multiple a 90 gradi su un singolo nodo. Consente di alimentare due circuiti contrapposti simultaneamente, massimizzando l'efficienza dello spazio nell'impianto.",
         "seo_p2": "Dotato di quattro terminali a bicchiere perfettamente calibrati, questo componente in PP-R PN 25 offre una saldatura a polifusione sicura e rapida. La sua resistenza intrinseca elimina le debolezze che si creerebbero assemblando più raccordi a T in serie.",
-        "seo_p3": "Estremamente vantaggioso nei complessi collettori di distribuzione o nelle reti di riscaldamento radiante. Diminuisce i tempi di posa in opera e riduce il volume del materiale idraulico necessario, garantendo un'estetica pulita e professionale nei locali tecnici."
+        "seo_p3": "Estremamente vantaggioso nei complessi collettori di distribuzione o nelle reti di riscaldamento radiante. Diminuisce i tempi di posa in opera e riduce il volume del materiale idraulico necessario, garantendo un'estetica pulita e professionale nei locali tecnici.",
+        "faq": [
+          {
+            "q": "Il pezzo a croce causa elevate perdite di pressione?",
+            "a": "Poiché possono incontrarsi quattro flussi, il valore Zeta è superiore rispetto ai tubi diritti, ma il design interno generoso mantiene la perdita al minimo."
+          },
+          {
+            "q": "In quali situazioni è obbligatorio un pezzo a croce?",
+            "a": "Soprattutto nelle installazioni a parete o nei collettori di riscaldamento a pavimento, dove è necessario costruire in modo estremamente piatto e simmetrico."
+          },
+          {
+            "q": "Le derivazioni sono sempre della stessa dimensione?",
+            "a": "Nel nostro pezzo a croce standard, tutti e quattro gli attacchi sono della stessa dimensione (ad es. 4x 20 mm)."
+          }
+        ]
       },
       "cross-over": {
         "seo_p1": "Il raccordo a ponte (Cross Over) o sorpasso è stato ideato per gestire in totale sicurezza gli incroci di tubazioni complanari. Permette di sovrapporre due linee in pressione senza dover modificare la struttura della parete o del pavimento.",
         "seo_p2": "Formato da una curva rialzata in PP-R ad alta densità (PN 25), il raccordo è concepito per superare tubi dello stesso diametro in spazi angusti. Garantisce la continuità idraulica e la resistenza allo stress da fatica senza creare strozzature dannose nel flusso.",
-        "seo_p3": "Diventa indispensabile durante l'installazione di radiatori o sistemi sanitari dove tubazioni dell'acqua calda e fredda devono inevitabilmente incrociarsi. Mantiene un profilo d'installazione sottilissimo, essenziale nei lavori sottotraccia e nelle pareti in cartongesso."
+        "seo_p3": "Diventa indispensabile durante l'installazione di radiatori o sistemi sanitari dove tubazioni dell'acqua calda e fredda devono inevitabilmente incrociarsi. Mantiene un profilo d'installazione sottilissimo, essenziale nei lavori sottotraccia e nelle pareti in cartongesso.",
+        "faq": [
+          {
+            "q": "Quanto è grande la curva del collo d'oca?",
+            "a": "La piegatura è dimensionata in modo esatto affinché un tubo K-Aqua di dimensioni uguali o inferiori venga scavalcato senza contatto."
+          },
+          {
+            "q": "Sono necessari manicotti speciali per l'installazione?",
+            "a": "Il collo d'oca (sorpasso) presenta tipicamente estremità lisce e viene integrato nel sistema con manicotti standard su entrambi i lati."
+          },
+          {
+            "q": "Posso piegare un tubo in PP-R diritto a caldo per creare un sorpasso?",
+            "a": "No! La piegatura manuale con pistole ad aria calda distrugge la struttura molecolare del tubo e comporta l'annullamento immediato della garanzia."
+          }
+        ]
       },
       "cross-over-pipe": {
         "seo_p1": "Il tubo a ponte (Cross Over Pipe) espande il concetto del sorpasso, offrendo un segmento di tubo allungato con la curvatura integrata. È la scelta preferita quando le tubazioni da accavallare sono parallele ma distanti o dove serve maggiore gioco per la saldatura.",
         "seo_p2": "Prodotto in PP-R di altissima flessibilità e tenuta (PN 25), offre margini più estesi per la manipolazione durante la polifusione. Rispetto al classico raccordo corto, questo segmento disperde meglio lo stress termico offrendo prestazioni superiori nei circuiti di riscaldamento.",
-        "seo_p3": "Trovando perfetto impiego nell'allestimento dei circuiti radianti e negli allacciamenti sfalsati dei boiler, garantisce transizioni dolci senza compromettere l'ingombro. È la testimonianza della continua innovazione K-Aqua al servizio della comodità d'installazione."
+        "seo_p3": "Trovando perfetto impiego nell'allestimento dei circuiti radianti e negli allacciamenti sfalsati dei boiler, garantisce transizioni dolci senza compromettere l'ingombro. È la testimonianza della continua innovazione K-Aqua al servizio della comodità d'installazione.",
+        "faq": [
+          {
+            "q": "Cosa distingue il Crossing Tee dal pezzo a croce?",
+            "a": "Il Crossing Tee consente di scavalcare una tubazione senza contatto, integrando contemporaneamente una derivazione."
+          },
+          {
+            "q": "Come viene saldato questo componente?",
+            "a": "Viene inserito nella rete di tubazioni tramite saldatura a bicchiere con elemento riscaldante, analogamente ai raccordi standard."
+          },
+          {
+            "q": "Il flusso è ostacolato dalla sua costruzione?",
+            "a": "Nonostante la geometria compatta, l'interno è ottimizzato idrodinamicamente, garantendo l'assenza di restringimenti significativi della sezione trasversale."
+          }
+        ]
       },
       "adaptor-socket-female-thread": {
         "seo_p1": "Il raccordo di transizione femmina (Adaptor Socket Female Thread) è l'elemento essenziale per connettere la rete in polipropilene a componenti metallici. Consente un passaggio fluido e sicuro da un tubo in plastica a filettature esterne standard.",
         "seo_p2": "Combina il corpo in PP-R PN 25 con un inserto metallico inglobato tramite costampaggio (generalmente in ottone resistente alla dezincificazione). La filettatura femmina segue i più severi standard normativi, impedendo perdite o trasudamenti sotto carichi termici fluttuanti.",
-        "seo_p3": "Ideale per il collegamento a rubinetterie, flessibili doccia, collettori in ottone o manometri. Il suo design annulla il rischio di tensioni meccaniche sul lato plastico, prevenendo microlesioni e garantendo la purezza dell'acqua senza cessione di ioni metallici."
+        "seo_p3": "Ideale per il collegamento a rubinetterie, flessibili doccia, collettori in ottone o manometri. Il suo design annulla il rischio di tensioni meccaniche sul lato plastico, prevenendo microlesioni e garantendo la purezza dell'acqua senza cessione di ioni metallici.",
+        "faq": [
+          {
+            "q": "A cosa serve la piastra di montaggio?",
+            "a": "La piastra integrata con fori consente il fissaggio meccanico rigido del gomito direttamente alla parete o a un elemento di montaggio."
+          },
+          {
+            "q": "Il filetto metallico è soggetto a corrosione?",
+            "a": "No, gli inserti metallici sono realizzati in ottone di alta qualità senza dezincificazione e sono quindi altamente resistenti alla corrosione."
+          },
+          {
+            "q": "Posso sigillare il filetto con la canapa?",
+            "a": "Consigliamo l'uso di nastro in teflon (nastro PTFE). Con la canapa bisogna lavorare con molta parsimonia e con pasta non rigonfiante per non spaccare l'inserto in ottone."
+          }
+        ]
       },
       "adaptor-socket-male-thread": {
         "seo_p1": "Il raccordo di transizione maschio (Adaptor Socket Male Thread) permette di interfacciare in modo sicuro la tubazione in PP-R con valvole e componenti femmina. È il ponte meccanico perfetto tra il mondo della plastica e quello dell'idraulica tradizionale in metallo.",
         "seo_p2": "La robustezza dell'inserto in ottone ad altissima precisione, saldamente ancorato nel corpo plastico (PN 25) tramite profili antirotazione, resiste a coppie di serraggio elevate. Il filetto maschio garantisce giunzioni impeccabili con l'impiego di canapa o teflon.",
-        "seo_p3": "Svolge un ruolo cruciale negli allacciamenti ai contatori dell'acqua, caldaie e grandi saracinesche di intercettazione. Affidabile anche in presenza di pesanti shock idrici, offre la tranquillità di un innesto filettato indistruttibile per impieghi gravosi."
+        "seo_p3": "Svolge un ruolo cruciale negli allacciamenti ai contatori dell'acqua, caldaie e grandi saracinesche di intercettazione. Affidabile anche in presenza di pesanti shock idrici, offre la tranquillità di un innesto filettato indistruttibile per impieghi gravosi.",
+        "faq": [
+          {
+            "q": "Il filetto femmina è interamente in ottone?",
+            "a": "Sì, il filetto femmina è un inserto in ottone massiccio di alta qualità, stampato saldamente nel materiale PP-R a prova di torsione."
+          },
+          {
+            "q": "Il collegamento può essere allentato se necessario?",
+            "a": "Sì, il filetto metallico consente in qualsiasi momento lo smontaggio sicuro delle apparecchiature collegate come pompe o filtri."
+          },
+          {
+            "q": "Qual è la coppia di serraggio massima?",
+            "a": "Il filetto deve essere serrato con attrezzi standard e con delicatezza per evitare crepe da tensione nella plastica adiacente."
+          }
+        ]
       },
       "elbow-90-male-thread": {
         "seo_p1": "Il gomito a 90 gradi con filetto maschio (Elbow 90° Male Thread) consente di deviare la direzione del tubo e simultaneamente terminare con una connessione filettata metallica. Offre due soluzioni essenziali in un solo pezzo salvaspazio.",
         "seo_p2": "Costituito da una struttura in PP-R (PN 25) con inserto costampato in ottone antidezincificazione, la sua curvatura a 90° ottimizza le perdite di carico. L'inserto è dotato di ancoraggi speciali interni che impediscono qualsiasi rischio di torsione durante l'installazione.",
-        "seo_p3": "L'applicazione primaria riguarda l'allacciamento a filo muro di valvole di zona e gruppi di miscelazione. Eliminando la necessità di saldare un gomito in plastica e un adattatore terminale separati, ottimizza i tempi in cantiere minimizzando il potenziale di errore."
+        "seo_p3": "L'applicazione primaria riguarda l'allacciamento a filo muro di valvole di zona e gruppi di miscelazione. Eliminando la necessità di saldare un gomito in plastica e un adattatore terminale separati, ottimizza i tempi in cantiere minimizzando il potenziale di errore.",
+        "faq": [
+          {
+            "q": "Questo raccordo combina due fasi di lavoro?",
+            "a": "Sì, unisce un cambio di direzione di 90 gradi con un passaggio a filetto, risparmiando spazio, materiale e una saldatura."
+          },
+          {
+            "q": "Il filetto maschio è zigrinato?",
+            "a": "Sì, i filetti maschio K-Aqua sono spesso leggermente zigrinati di fabbrica, in modo che il nastro sigillante (Teflon) non scivoli durante l'avvitamento."
+          },
+          {
+            "q": "Di quale materiale è fatto il filetto maschio?",
+            "a": "È realizzato in ottone speciale resistente alla dezincificazione, omologato per i più severi requisiti igienici nel settore dell'acqua potabile."
+          }
+        ]
       },
       "elbow-bracket-90-female-thread": {
         "seo_p1": "Il gomito a 90 gradi con staffa e filetto femmina (Elbow Bracket 90° Female Thread) è progettato per un fissaggio a parete eccezionalmente rigido. Serve come punto d'attacco robusto per la rubinetteria sanitaria a vista.",
         "seo_p2": "Integra una piastra di montaggio preforata direttamente nel corpo plastico in PP-R (PN 25), ospitando un resistente inserto filettato femmina in ottone. Questo design scarica le forze di trazione o torsione causate dall'utilizzo del rubinetto direttamente sulla muratura, preservando la giunzione idraulica.",
-        "seo_p3": "Ideale per l'installazione di miscelatori per docce, lavabi e valvole di lavatrici. Garantisce un allineamento preciso a filo intonaco e previene nel tempo qualsiasi gioco meccanico che potrebbe causare perdite invisibili all'interno delle pareti."
+        "seo_p3": "Ideale per l'installazione di miscelatori per docce, lavabi e valvole di lavatrici. Garantisce un allineamento preciso a filo intonaco e previene nel tempo qualsiasi gioco meccanico che potrebbe causare perdite invisibili all'interno delle pareti.",
+        "faq": [
+          {
+            "q": "Il supporto a gomito può essere utilizzato anche nel cartongesso?",
+            "a": "Sì, in combinazione con le nostre speciali piastre di montaggio K-Aqua, si fissa perfettamente in pareti di cartongesso o con struttura in legno."
+          },
+          {
+            "q": "Esiste un isolamento acustico per questo componente?",
+            "a": "Per un isolamento acustico ottimale offriamo calotte in gomma opzionali che disaccoppiano il supporto a gomito dalla struttura dell'edificio."
+          },
+          {
+            "q": "Di quale materiale è fatto il filetto femmina?",
+            "a": "Utilizziamo esclusivamente ottone speciale senza piombo o resistente alla dezincificazione (DZR), conforme alle più severe normative sull'acqua potabile."
+          }
+        ]
       },
       "elbowwall-bracket-90-female-thread": {
         "seo_p1": "Il gomito a 90 gradi con piastra murale estesa (Elbow Wall-Bracket 90° Female Thread) offre una stabilità di ancoraggio ancora superiore per installazioni esigenti. L'allargamento della base di fissaggio distribuisce lo sforzo meccanico su un'area più ampia.",
         "seo_p2": "Mantenendo le eccellenti proprietà del sistema K-Aqua con resistenza fino a PN 25, questo raccordo combina il PP-R a una filettatura interna in ottone di altissima qualità. La flangia murale asimmetrica permette l'inserimento di tasselli multipli per una tenuta granitica su cartongesso o pareti forate.",
-        "seo_p3": "Perfetto per bagni pubblici, spogliatoi sportivi o strutture ospedaliere dove i rubinetti a muro subiscono utilizzi intensivi o atti di vandalismo. Assicura che l'intera infrastruttura idraulica resti isolata e protetta da sollecitazioni fisiche gravose."
+        "seo_p3": "Perfetto per bagni pubblici, spogliatoi sportivi o strutture ospedaliere dove i rubinetti a muro subiscono utilizzi intensivi o atti di vandalismo. Assicura che l'intera infrastruttura idraulica resti isolata e protetta da sollecitazioni fisiche gravose.",
+        "faq": [
+          {
+            "q": "Quando viene utilizzato un supporto a gomito con filetto maschio invece di uno con filetto femmina?",
+            "a": "Viene tipicamente richiesto quando devono essere collegati direttamente tubi flessibili corazzati (ad es. per miscelatori lavabo) con dado a calotta."
+          },
+          {
+            "q": "La piastra di montaggio è abbastanza stabile in caso di forte trazione?",
+            "a": "Sì, grazie ai tre fori di fissaggio integrati, la forza di leva viene scaricata su un'ampia superficie, rendendo il fissaggio a parete estremamente stabile."
+          },
+          {
+            "q": "Possono essere avvitate delle prolunghe?",
+            "a": "Se il raccordo è inserito troppo in profondità nella parete, si possono avvitare senza problemi prolunghe per rubinetti standard in ottone."
+          }
+        ]
       },
       "metal-union-male-thread-yellow-brass": {
         "seo_p1": "Il giunto a bocchettone con filetto maschio in ottone giallo (Metal Union Male Thread - Yellow Brass) fornisce un punto di sezionamento robusto per l'impianto idraulico. Consente lo smontaggio rapido e ripetuto delle tubazioni senza dover tagliare la plastica.",
         "seo_p2": "Costruito con un'anima metallica in ottone giallo standard, assicura un'elevata resistenza meccanica a un costo competitivo. L'interfaccia plastica-metallo è sigillata con guarnizioni O-ring ad alte prestazioni, sopportando i severi requisiti operativi PN 25 del sistema PP-R.",
-        "seo_p3": "Indispensabile per il collegamento di pompe di ricircolo, piccoli scambiatori di calore e contatori volumetrici. La possibilità di smontare il giunto facilita enormemente gli interventi di manutenzione periodica, riducendo a pochi minuti i fermi impianto."
+        "seo_p3": "Indispensabile per il collegamento di pompe di ricircolo, piccoli scambiatori di calore e contatori volumetrici. La possibilità di smontare il giunto facilita enormemente gli interventi di manutenzione periodica, riducendo a pochi minuti i fermi impianto.",
+        "faq": [
+          {
+            "q": "Questo raccordo a T è adatto per il collegamento di valvole di scarico?",
+            "a": "Sì, il filetto femmina nella derivazione è la soluzione standard per avvitare direttamente rubinetti di scarico o di riempimento/svuotamento nel punto più basso."
+          },
+          {
+            "q": "L'inserto in ottone è ancorato saldamente?",
+            "a": "Grazie a una speciale zigrinatura, l'inserto in ottone è racchiuso indissolubilmente dal PP-R, impedendo la torsione durante la filettatura."
+          },
+          {
+            "q": "Il filetto riduce il flusso nella linea principale?",
+            "a": "No, la linea principale del raccordo a T (il passaggio) è a sezione totale e ottimizzata per il flusso."
+          }
+        ]
       },
       "metal-union-female-thread-yellow-brass": {
         "seo_p1": "Il giunto a bocchettone con filetto femmina in ottone giallo (Metal Union Female Thread - Yellow Brass) abbina la praticità di un giunto separabile alla convenienza di una connessione a vite interna. Offre una soluzione tecnica di base eccellente per impianti standard.",
         "seo_p2": "Sfrutta un giunto smontabile in cui il dado a risvolto in ottone giallo e il filetto femmina lavorano in sinergia per comprimere la guarnizione piana contro il collare in PP-R. Testato a pressioni PN 25, sopporta senza problemi sbalzi termici significativi.",
-        "seo_p3": "Viene comunemente installato a monte di caldaie murali e filtri di rete dove le filettature maschio esterne richiedono un accoppiamento sicuro. Semplifica la disconnessione dei macchinari garantendo un riposizionamento rapido e a tenuta stagna totale."
+        "seo_p3": "Viene comunemente installato a monte di caldaie murali e filtri di rete dove le filettature maschio esterne richiedono un accoppiamento sicuro. Semplifica la disconnessione dei macchinari garantendo un riposizionamento rapido e a tenuta stagna totale.",
+        "faq": [
+          {
+            "q": "Dove viene tipicamente impiegato il raccordo a T con filetto maschio?",
+            "a": "È ideale per derivare direttamente apparecchiature con filetto femmina o dadi a risvolto (ad es. raccoglitori di impurità o piccole pompe di circolazione)."
+          },
+          {
+            "q": "C'è il rischio di crepe nella plastica con i filetti maschio?",
+            "a": "No, poiché con i filetti maschio la forza di espansione del sigillante (Teflon) agisce sul corpo massiccio in ottone e non sulla plastica."
+          },
+          {
+            "q": "Posso usarlo nei sistemi di acqua calda?",
+            "a": "Certamente. Come tutti i raccordi di transizione K-Aqua, è omologato per temperature continue fino a 70°C e picchi brevi di 95°C."
+          }
+        ]
       },
       "metal-union-male-thread": {
         "seo_p1": "Il giunto a bocchettone premium con filetto maschio (Metal Union Male Thread) rappresenta il vertice dell'affidabilità nei sistemi di connessione smontabili. Realizzato con leghe antidezincificazione di alta gamma, è progettato per acque altamente aggressive.",
         "seo_p2": "Questo bocchettone in PP-R PN 25 è dotato di componenti metallici cromati o in ottone DZR, che impediscono l'impoverimento dello zinco anche in presenza di acqua ricca di cloruri. Il profilo di tenuta superiore impedisce perdite persino sotto cicli termici prolungati ad alte temperature.",
-        "seo_p3": "Raccomandato in assoluto per i collegamenti di serbatoi di accumulo industriale e pompe centrifughe in ambienti salini o dove i requisiti di qualità dell'acqua potabile sono estremi. È un investimento diretto nella totale assenza di manutenzione correttiva."
+        "seo_p3": "Raccomandato in assoluto per i collegamenti di serbatoi di accumulo industriale e pompe centrifughe in ambienti salini o dove i requisiti di qualità dell'acqua potabile sono estremi. È un investimento diretto nella totale assenza di manutenzione correttiva.",
+        "faq": [
+          {
+            "q": "Qual è il vantaggio di un bocchettone (Union) rispetto a un manicotto di transizione?",
+            "a": "Il bocchettone è separabile. Ciò significa che il componente collegato può essere smontato facilmente in un secondo momento senza dover tagliare il tubo in PP-R."
+          },
+          {
+            "q": "La guarnizione è inclusa nel bocchettone?",
+            "a": "Sì, i bocchettoni K-Aqua vengono forniti di serie con una guarnizione piatta in EPDM di alta qualità (per l'acqua)."
+          },
+          {
+            "q": "Il dado a risvolto può essere serrato con attrezzi pesanti?",
+            "a": "Dovrebbe essere serrato a mano con una chiave fissa adatta più un quarto di giro, per evitare di schiacciare la guarnizione."
+          }
+        ]
       },
       "metal-union-female-thread": {
         "seo_p1": "Il giunto a bocchettone premium con filetto femmina (Metal Union Female Thread) offre le massime garanzie di durabilità e igiene per le transizioni meccaniche. È il giunto di alta gamma per lo smontaggio sicuro di componenti infrastrutturali.",
         "seo_p2": "Unisce la solidità della saldatura a bicchiere K-Aqua (PN 25) con una madrevite in metallo ad alta resistenza alla corrosione. Il dado libero esercita una pressione uniforme sulla guarnizione, eliminando le tensioni torsionali durante il serraggio sul tubo in PP-R.",
-        "seo_p3": "Costituisce la scelta obbligata per i sistemi di osmosi inversa, addolcitori centralizzati e connessioni a batterie di filtrazione. La qualità dei metalli assicura che il componente non si incastri a causa del calcare, permettendo un facile allentamento anche dopo svariati anni."
+        "seo_p3": "Costituisce la scelta obbligata per i sistemi di osmosi inversa, addolcitori centralizzati e connessioni a batterie di filtrazione. La qualità dei metalli assicura che il componente non si incastri a causa del calcare, permettendo un facile allentamento anche dopo svariati anni.",
+        "faq": [
+          {
+            "q": "Dove è necessario questo bocchettone con filetto maschio?",
+            "a": "Spesso come raccordo per apparecchiature presso contatori d'acqua o scambiatori di calore che presentano un filetto femmina sull'alloggiamento."
+          },
+          {
+            "q": "Il PP-R rimane privo di tensioni durante il serraggio?",
+            "a": "Sì, il dado a risvolto libero assorbe le forze torsionali durante il serraggio, in modo che nessuna tensione torsionale venga trasmessa alla rete di tubazioni saldata."
+          },
+          {
+            "q": "Il materiale in ottone è certificato per l'acqua potabile?",
+            "a": "Lavoriamo esclusivamente ottone DZR ad alta purezza, che soddisfa tutti gli standard del regolamento europeo sull'acqua potabile (lista UBA)."
+          }
+        ]
       },
       "tee-90-male-thread": {
         "seo_p1": "Il raccordo a T a 90 gradi con filetto maschio (Tee 90° Male Thread) integra una derivazione metallica direttamente sul percorso del tubo principale. Questa geometria a T offre una soluzione compatta per l'allacciamento di strumentazione di misura o prese d'acqua.",
         "seo_p2": "L'inserto filettato maschio in ottone è saldamente inglobato nel corpo in polipropilene PN 25, al centro della derivazione. L'ottimizzazione del flusso previene i depositi di calcare all'interno del raccordo, garantendo letture accurate per sensori e manometri.",
-        "seo_p3": "Viene impiegato estensivamente nei collettori di distribuzione per l'installazione rapida di valvole di sfiato, termometri o valvole di svuotamento. Sostituendo molteplici pezzi singoli, riduce al minimo il numero di giunzioni e il rischio di trafilamento."
+        "seo_p3": "Viene impiegato estensivamente nei collettori di distribuzione per l'installazione rapida di valvole di sfiato, termometri o valvole di svuotamento. Sostituendo molteplici pezzi singoli, riduce al minimo il numero di giunzioni e il rischio di trafilamento.",
+        "faq": [
+          {
+            "q": "Quali sono i vantaggi della derivazione a sella rispetto a un raccordo a T?",
+            "a": "Consente derivazioni successive senza dover tagliare la linea principale e riduce al minimo l'intervento sull'integrità del sistema."
+          },
+          {
+            "q": "Come viene montata la sella?",
+            "a": "Il tubo principale viene forato con una punta speciale, dopodiché il tubo e la sella vengono riscaldati contemporaneamente e fusi insieme in modo preciso."
+          },
+          {
+            "q": "È adatto per impianti antincendio a sprinkler?",
+            "a": "La derivazione a sella K-Aqua è utilizzata con successo in alcuni mercati internazionali per il collegamento di testine sprinkler in costruzioni leggere."
+          }
+        ]
       },
       "tee-90-female-thread": {
         "seo_p1": "Il raccordo a T a 90 gradi con filetto femmina (Tee 90° Female Thread) è uno dei raccordi più versatili del sistema K-Aqua. Fornisce un'uscita filettata perpendicolare per il fissaggio diretto di apparecchiature o rubinetti lungo una linea passante.",
         "seo_p2": "Il robusto corpo in PP-R (PN 25) accoglie un inserto femmina antidezincificazione ad altissima tenuta. La struttura nervata esterna assicura una presa eccezionale durante le fasi di avvitamento, proteggendo la saldatura plastica da coppie di serraggio eccessive.",
-        "seo_p3": "Ideale per i bypass, le connessioni ai vasi di espansione o i rubinetti di prelievo campione nei circuiti sanitari. Garantisce una connettività eccellente senza richiedere l'interruzione della continuità del tubo principale in PP-R."
+        "seo_p3": "Ideale per i bypass, le connessioni ai vasi di espansione o i rubinetti di prelievo campione nei circuiti sanitari. Garantisce una connettività eccellente senza richiedere l'interruzione della continuità del tubo principale in PP-R.",
+        "faq": [
+          {
+            "q": "La sella con filetto maschio offre la stessa resistenza?",
+            "a": "Assolutamente. L'inserto in ottone è ancorato in profondità nella matrice in PP-R, mantenendo il componente completamente resistente alla pressione (PN 25)."
+          },
+          {
+            "q": "Ci sono limitazioni sulle dimensioni della derivazione?",
+            "a": "Per motivi tecnici, il diametro della derivazione a sella deve essere sempre significativamente inferiore al diametro del tubo principale (ad es. da 63 mm a 1/2\")."
+          },
+          {
+            "q": "La sella può essere saldata anche a tubi in fibra?",
+            "a": "Sì, è ugualmente adatta per tutti i tipi di tubo K-Aqua (Standard, PPRCT, Fibra, UV) previa foratura locale."
+          }
+        ]
       },
       "union": {
         "seo_p1": "Il giunto a bocchettone interamente in plastica (Union) è l'alternativa al metallo per eccellenza per ottenere connessioni smontabili. Rimuovendo completamente i componenti metallici bagnati, azzera qualsiasi possibilità di reazione elettrochimica.",
         "seo_p2": "Prodotto in polipropilene PP-R puro con ghiera di serraggio integrata, resiste a pressioni standard PN 20/PN 25 in base alle temperature. La tenuta è garantita da un O-ring sovradimensionato che compensa le piccole dilatazioni termiche, fornendo prestazioni a prova di perdite.",
-        "seo_p3": "Questa soluzione è perfetta per il settore chimico, le industrie alimentari e le piscine, dove la presenza prolungata di cloro o agenti ossidanti corroderebbe i giunti metallici. Offre smontabilità rapida per la pulizia delle tubazioni e per la sostituzione rapida di valvole in plastica."
+        "seo_p3": "Questa soluzione è perfetta per il settore chimico, le industrie alimentari e le piscine, dove la presenza prolungata di cloro o agenti ossidanti corroderebbe i giunti metallici. Offre smontabilità rapida per la pulizia delle tubazioni e per la sostituzione rapida di valvole in plastica.",
+        "faq": [
+          {
+            "q": "Quando scelgo una flangia in PP-R invece di una flangia libera metallica?",
+            "a": "Una flangia in PP-R viene utilizzata quando il fluido trasportato è altamente corrosivo e si deve evitare qualsiasi contatto con il metallo (sistema interamente in plastica)."
+          },
+          {
+            "q": "Ci sono limitazioni di pressione con le flange interamente in plastica?",
+            "a": "Poiché la plastica è più flessibile dell'acciaio, le pressioni nominali massime per le flange in plastica nelle dimensioni maggiori sono leggermente ridotte."
+          },
+          {
+            "q": "Sono necessarie rondelle speciali per i bulloni?",
+            "a": "Sì, si consiglia vivamente di utilizzare rondelle di grandi dimensioni per distribuire uniformemente la forza di serraggio della vite sulla plastica."
+          }
+        ]
       },
       "union-for-watermeters": {
         "seo_p1": "Il bocchettone per contatori d'acqua (Union for Watermeters) è specificamente sagomato per interfacciarsi con i misuratori di portata volumetrici. Il suo design è calibrato per fornire le tolleranze di tenuta richieste dagli enti erogatori di servizi idrici.",
         "seo_p2": "Combina un raccordo a saldare in PP-R PN 25 con una ghiera libera metallica e un'apposita base piana porta-guarnizione, ottimizzata per adattarsi alle specifiche dei contatori standard. L'inserto è progettato in modo da non introdurre turbolenze che potrebbero sfalsare le letture del contatore.",
-        "seo_p3": "È il connettore standard per i locali contatori condominiali e per i punti di consegna degli acquedotti municipali. Garantisce che la sostituzione ciclica obbligatoria dei contatori d'acqua avvenga in modo fluido, veloce e senza danneggiare il resto dell'impianto idraulico."
+        "seo_p3": "È il connettore standard per i locali contatori condominiali e per i punti di consegna degli acquedotti municipali. Garantisce che la sostituzione ciclica obbligatoria dei contatori d'acqua avvenga in modo fluido, veloce e senza danneggiare il resto dell'impianto idraulico.",
+        "faq": [
+          {
+            "q": "Cosa contraddistingue un bocchettone per contatori d'acqua?",
+            "a": "Dispone tipicamente di una predisposizione per la piombatura e di dimensioni del filetto esattamente abbinate ai contatori d'acqua standardizzati."
+          },
+          {
+            "q": "Le guarnizioni sono adatte per l'acqua calda?",
+            "a": "Le guarnizioni speciali in dotazione sono specificate, a seconda del modello, per contatori per acqua fredda o anche per acqua calda (contatori di calore)."
+          },
+          {
+            "q": "Il tubo in PP-R può sopportare il peso del contatore dell'acqua?",
+            "a": "Per i contatori più grandi e pesanti (allacciamento domestico) raccomandiamo un supporto separato del contatore, per non sollecitare meccanicamente la rete di tubazioni."
+          }
+        ]
       },
       "pp-r-ball-valve-ball-in-pp": {
         "seo_p1": "La valvola a sfera in PP-R con sfera in plastica (PP-R Ball Valve - Ball in PP) è un dispositivo di intercettazione completamente privo di parti metalliche a contatto con il fluido. Costituisce la barriera perfetta contro la corrosione e i depositi chimici in ambienti altamente reattivi.",
         "seo_p2": "Sia il corpo valvola (PN 25) che l'otturatore sferico interno sono stampati in polipropilene purissimo. Le guarnizioni in EPDM o FKM a lunga durata avvolgono la sfera in plastica offrendo una rotazione a bassa frizione e una tenuta idraulica assoluta senza mai bloccarsi.",
-        "seo_p3": "Trovando naturale collocazione nei laboratori di ricerca, negli impianti chimici e negli acquedotti per acqua ultrapura, assicura che il liquido trasportato non subisca alcuna contaminazione ionica. È leggera, economica da installare e completamente esente da manutenzione."
+        "seo_p3": "Trovando naturale collocazione nei laboratori di ricerca, negli impianti chimici e negli acquedotti per acqua ultrapura, assicura che il liquido trasportato non subisca alcuna contaminazione ionica. È leggera, economica da installare e completamente esente da manutenzione.",
+        "faq": [
+          {
+            "q": "Qual è il vantaggio di una sfera di plastica nella valvola?",
+            "a": "Previene la corrosione e il rilascio di ioni nel fluido, il che è assolutamente necessario per l'acqua ultrapura o le sostanze chimiche aggressive."
+          },
+          {
+            "q": "La valvola è adatta anche per l'acqua calda?",
+            "a": "Sì, la speciale plastica termoplastica della sfera e le guarnizioni in teflon (PTFE) garantiscono la piena funzionalità anche ad alte temperature."
+          },
+          {
+            "q": "Come viene effettuata la manutenzione della valvola?",
+            "a": "Grazie al loro design, le valvole a sfera in PP-R K-Aqua non richiedono alcuna manutenzione e sono progettate per decenni di funzionamento senza problemi."
+          }
+        ]
       },
       "pp-r-ball-valve-ball-in-brass-chromium-plated": {
         "seo_p1": "La valvola a sfera in PP-R con otturatore in ottone cromato (PP-R Ball Valve - Ball in Brass Chromium Plated) unisce l'incorruttibilità esterna della plastica alla resistenza estrema del metallo per le parti in movimento. È il cavallo di battaglia per le intercettazioni gravose.",
         "seo_p2": "Il guscio in PP-R di classe PN 25 protegge il cuore della valvola: una sfera massiccia in ottone lucidato e cromato a specchio. Questa finitura superficiale annulla l'attrito contro le sedi in PTFE, permettendo un'apertura e chiusura fluida anche sotto carichi idrodinamici massimi.",
-        "seo_p3": "Ideale per dorsali idriche calde e fredde, stazioni di pompaggio e colonne montanti civili. La solidità dell'otturatore resiste a impurità abrasive presenti nell'acqua e al colpo d'ariete, fornendo all'operatore un comando tattile fermo e rassicurante in caso di emergenza."
+        "seo_p3": "Ideale per dorsali idriche calde e fredde, stazioni di pompaggio e colonne montanti civili. La solidità dell'otturatore resiste a impurità abrasive presenti nell'acqua e al colpo d'ariete, fornendo all'operatore un comando tattile fermo e rassicurante in caso di emergenza.",
+        "faq": [
+          {
+            "q": "La sfera in ottone offre vantaggi in termini di flusso?",
+            "a": "Sì, la sfera in ottone cromato può essere prodotta con spessori di parete inferiori, consentendo un passaggio completo e privo di resistenza."
+          },
+          {
+            "q": "La sfera in ottone è adatta per l'acqua potabile?",
+            "a": "Certamente, utilizziamo esclusivamente ottone DZR certificato ad alta purezza, che non rilascia metalli pesanti nell'acqua potabile."
+          },
+          {
+            "q": "La valvola può essere integrata in reti di tubi metallici esistenti?",
+            "a": "Sì, in combinazione con manicotti di transizione o flange, può essere facilmente impiegata come valvola di intercettazione in installazioni miste."
+          }
+        ]
       },
       "tee-90-female-thread-for-internal-valve": {
         "seo_p1": "Il raccordo a T per valvola a incasso (Tee 90° Female Thread for Internal Valve) costituisce l'alloggiamento base per l'installazione di valvole di intercettazione nascoste nelle pareti. Offre una connessione a 90° perfetta per inserire vitoni e componenti di chiusura.",
         "seo_p2": "Realizzato in polipropilene (PN 25) con una madrevite in ottone rinforzata, assicura che il meccanismo della valvola possa essere avvitato con elevata coppia di serraggio. La tolleranza di fresatura del filetto garantisce una sede ermetica in cui la guarnizione del vitone può operare in sicurezza.",
-        "seo_p3": "Essenziale nei bagni di pregio e nelle docce dove la valvola di chiusura deve essere esteticamente nascosta dietro la piastrellatura, pur rimanendo accessibile tramite una manopola. Minimizza gli ingombri nel muro garantendo la stessa longevità del resto della rete idrica."
+        "seo_p3": "Essenziale nei bagni di pregio e nelle docce dove la valvola di chiusura deve essere esteticamente nascosta dietro la piastrellatura, pur rimanendo accessibile tramite una manopola. Minimizza gli ingombri nel muro garantendo la stessa longevità del resto della rete idrica.",
+        "faq": [
+          {
+            "q": "Quale funzione svolge la valvola da incasso?",
+            "a": "Consente l'intercettazione della colonna di singole stanze umide (ad es. bagno o cucina) direttamente sul posto, senza dover scendere in cantina."
+          },
+          {
+            "q": "Quanto in profondità può essere posizionata la valvola nella parete?",
+            "a": "La profondità di installazione è variabile. Se la valvola dovesse risultare troppo in profondità a causa del notevole spessore delle piastrelle, offriamo prolunghe per vitone adeguate."
+          },
+          {
+            "q": "Il vitone è sostituibile?",
+            "a": "Sì, l'intera parte superiore meccanica interna (vitone, guarnizione) può essere svitata e sostituita in caso di necessità, senza dover aprire il muro."
+          }
+        ]
       },
       "concealed-valve-chrome-light-part": {
         "seo_p1": "La parte superiore per valvola a incasso con finitura cromata leggera (Concealed Valve Chrome - Light Part) è il componente visibile e operativo per i dispositivi di chiusura sottotraccia. Combina eleganza estetica e praticità d'uso per ambienti residenziali.",
         "seo_p2": "L'assemblaggio comprende un vitone meccanico di precisione a chiusura morbida abbinato a un rosone e una manopola con placcatura in cromo lucido brillante. Pur essendo leggera e snella, la meccanica interna è collaudata per resistere a migliaia di cicli operativi senza perdite.",
-        "seo_p3": "Perfetta per bagni privati e appartamenti, si fonde con il design moderno della rubinetteria sanitaria circostante. La sua estetica discreta nasconde una componentistica idraulica robusta, facilitando le chiusure parziali senza dover accedere al contatore centrale."
+        "seo_p3": "Perfetta per bagni privati e appartamenti, si fonde con il design moderno della rubinetteria sanitaria circostante. La sua estetica discreta nasconde una componentistica idraulica robusta, facilitando le chiusure parziali senza dover accedere al contatore centrale.",
+        "faq": [
+          {
+            "q": "La maniglia cromata è inclusa nella fornitura?",
+            "a": "Sì, questo set include la parte inferiore della valvola in PP-R e l'intera guarnitura a vista cromata lucida, compresa la rosetta."
+          },
+          {
+            "q": "La rosetta può essere montata dopo la piastrellatura?",
+            "a": "Certamente. Il corpo base viene saldato sotto traccia, mentre la rosetta e la maniglia vengono applicati solo dopo il completamento della parete."
+          },
+          {
+            "q": "Di quale materiale è fatta la maniglia?",
+            "a": "La maniglia a rotazione è realizzata in una robusta lega di zinco pressofuso (zama) con un resistente rivestimento cromato di facile manutenzione."
+          }
+        ]
       },
       "concealed-valve-chrome-heavy-part": {
         "seo_p1": "La parte superiore per valvola a incasso in versione pesante (Concealed Valve Chrome - Heavy Part) offre una manopola e una rosetta in metallo pieno per le installazioni più esigenti. Trasmette una sensazione tattile di solidità industriale e pregio architettonico.",
         "seo_p2": "Il vitone interno è rinforzato per supportare frequenti cicli di chiusura ad alta pressione, mentre il rivestimento cromato spesso su base metallica massiccia previene graffi, usura e ossidazione anche negli ambienti più umidi e corrosivi.",
-        "seo_p3": "È la soluzione definitiva per hotel a cinque stelle, terme, ospedali e bagni di lusso. Oltre all'impatto visivo di altissima gamma, assicura una resistenza superiore agli atti vandalici e un controllo del flusso d'acqua fermo, preciso e duraturo."
+        "seo_p3": "È la soluzione definitiva per hotel a cinque stelle, terme, ospedali e bagni di lusso. Oltre all'impatto visivo di altissima gamma, assicura una resistenza superiore agli atti vandalici e un controllo del flusso d'acqua fermo, preciso e duraturo.",
+        "faq": [
+          {
+            "q": "Cosa distingue il modello 'Long' dalla valvola da incasso standard?",
+            "a": "La struttura allungata del vitone supera senza problemi pareti molto profonde, come lastre di marmo spesse o doppi rivestimenti in cartongesso."
+          },
+          {
+            "q": "La maniglia ha un contrassegno a colori?",
+            "a": "Sì, per facilitare la distinzione tra le linee di acqua calda e fredda, le nostre guarniture includono contrassegni a colori intercambiabili (rosso/blu)."
+          },
+          {
+            "q": "Come è sigillata la sede della valvola?",
+            "a": "Utilizziamo guarnizioni profilate in EPDM altamente resistenti al calore nella parte superiore interna, estremamente resistenti ai detergenti chimici e alla disinfezione termica."
+          }
+        ]
       },
       "straight-seat-valve-upper-part-green-handle": {
         "seo_p1": "Il vitone per valvola a sede diritta con maniglia verde (Straight Seat Valve Upper Part - Green Handle) è l'elemento di controllo classico e indistruttibile per la regolazione fine del flusso. Offre una chiusura proporzionale e sicura nei punti di ispezione.",
         "seo_p2": "Costituito da un albero filettato in ottone di alta qualità e una guarnizione a fungo in EPDM, permette una limitazione del flusso molto graduale. La maniglia a volantino verde, in plastica antiurto, identifica a colpo d'occhio i circuiti specifici (es. acqua fredda o potabile) in un cavedio tecnico.",
-        "seo_p3": "Trovando vasto impiego nei collettori di cantina e nei punti di sezionamento industriali, garantisce una tenuta infallibile grazie all'elevato rapporto di leva del volantino. L'azione meccanica a vite riduce drasticamente il rischio di colpo d'ariete durante le chiusure rapide."
+        "seo_p3": "Trovando vasto impiego nei collettori di cantina e nei punti di sezionamento industriali, garantisce una tenuta infallibile grazie all'elevato rapporto di leva del volantino. L'azione meccanica a vite riduce drasticamente il rischio di colpo d'ariete durante le chiusure rapide.",
+        "faq": [
+          {
+            "q": "Questo componente è un pezzo di ricambio?",
+            "a": "Sì, è l'intero meccanismo interno (parte superiore) della valvola da incasso, ideale per scopi di manutenzione o per la struttura modulare."
+          },
+          {
+            "q": "In caso di gocciolamento è necessario sostituire l'intera valvola?",
+            "a": "No, è sufficiente chiudere l'acqua e sostituire questa parte superiore in ottone – il corpo base in PP-R rimane nel muro."
+          },
+          {
+            "q": "Con quale frequenza deve essere lubrificata la parte superiore?",
+            "a": "La filettatura del vitone è provvista in fabbrica di una lubrificazione permanente per uso alimentare, non è necessaria alcuna manutenzione successiva."
+          }
+        ]
       },
       "elongation-pieces": {
         "seo_p1": "Le prolunghe per valvole (Elongation Pieces) sono accessori salvavita per le installazioni a incasso dove la valvola idraulica è situata troppo in profondità nella muratura. Colmano la distanza tra il vitone e la manopola cromata esterna.",
         "seo_p2": "Realizzate in ottone tornito con massima precisione geometrica, trasmettono la coppia di rotazione della manopola direttamente al perno della valvola senza giochi o deformazioni torsionali. La loro struttura solida è compatibile con tutti i kit di finitura estetica K-Aqua.",
-        "seo_p3": "Sono indispensabili quando si applicano spessi strati di isolante, lastre di marmo o doppi strati di cartongesso sopra la tubazione idrica. Prevengono la necessità di demolire o spostare le tubazioni preesistenti, risolvendo problemi di cantiere con un semplice innesto."
+        "seo_p3": "Sono indispensabili quando si applicano spessi strati di isolante, lastre di marmo o doppi strati di cartongesso sopra la tubazione idrica. Prevengono la necessità di demolire o spostare le tubazioni preesistenti, risolvendo problemi di cantiere con un semplice innesto.",
+        "faq": [
+          {
+            "q": "Quando ho bisogno di una prolunga per la valvola?",
+            "a": "Quando l'intonaco o le piastrelle risultano più spessi del previsto e il vitone della valvola da incasso non sporge più a sufficienza dalla parete."
+          },
+          {
+            "q": "È possibile combinare più prolunghe?",
+            "a": "Tecnicamente è possibile, tuttavia per motivi di stabilità consigliamo di utilizzare direttamente una parte superiore lunga ('Long')."
+          },
+          {
+            "q": "Il filetto della prolunga è standardizzato?",
+            "a": "Sì, i filetti delle nostre prolunghe si adattano esattamente alle parti superiori standard delle valvole da incasso K-Aqua."
+          }
+        ]
       },
       "battery-female-thread": {
         "seo_p1": "La dima per gruppo rubinetteria a filetto femmina (Battery Female Thread) è la staffa di montaggio pre-assemblata per l'installazione impeccabile di miscelatori e gruppi doccia. Garantisce che i due attacchi siano perfettamente paralleli e all'interasse standard.",
         "seo_p2": "Unisce due raccordi a gomito con inserto in ottone femmina saldati rigidamente su una piastra di supporto in polimero strutturale. Resiste ai collaudi in pressione PN 25 assicurando l'assenza totale di micro-movimenti durante l'asciugatura della malta o delle colle per piastrelle.",
-        "seo_p3": "È il segreto degli idraulici professionisti per un'installazione della doccia o della vasca estremamente veloce e senza errori. Assicura che, a parete finita, i raccordi eccentrici del rubinetto si avvitino con precisione geometrica millimetrica, evitando antiestetici disallineamenti."
+        "seo_p3": "È il segreto degli idraulici professionisti per un'installazione della doccia o della vasca estremamente veloce e senza errori. Assicura che, a parete finita, i raccordi eccentrici del rubinetto si avvitino con precisione geometrica millimetrica, evitando antiestetici disallineamenti.",
+        "faq": [
+          {
+            "q": "Qual è l'interasse della dima per rubinetteria?",
+            "a": "È fissata sull'interasse standard internazionale di 150 mm, adatta al 99% di tutti i miscelatori a parete disponibili in commercio."
+          },
+          {
+            "q": "La dima può essere piegata?",
+            "a": "No, il ponte in plastica integrato garantisce distanze rigide ed esatte. Per dimensioni diverse raccomandiamo l'uso di raccordi a muro singoli."
+          },
+          {
+            "q": "Come viene fissata la dima?",
+            "a": "Dispone di diversi fori di montaggio predisposti per fissarla saldamente con viti a pareti in mattoni, cemento o cartongesso."
+          }
+        ]
       },
       "adjustable-battery-female-thread": {
         "seo_p1": "La dima regolabile per gruppo rubinetteria (Adjustable Battery Female Thread) offre un grado di flessibilità eccezionale nei cantieri non convenzionali. Permette di variare l'interasse tra i raccordi dell'acqua calda e fredda per adattarsi a rubinetterie speciali o fuori standard.",
         "seo_p2": "Comprende una slitta o una piastra graduata modulare che blocca in posizione i due gomiti in PP-R (PN 25) con inserto in ottone femmina. La rigidità del sistema di bloccaggio eguaglia quella delle dime fisse, mantenendo l'assoluta stabilità torsionale dopo il fissaggio.",
-        "seo_p3": "Cruciale nei restauri di edifici storici o nell'installazione di complessi pannelli doccia idromassaggio dove le specifiche di interasse differiscono dai classici 150 mm. Abbina l'adattabilità su misura all'incorruttibilità idraulica del sistema K-Aqua."
+        "seo_p3": "Cruciale nei restauri di edifici storici o nell'installazione di complessi pannelli doccia idromassaggio dove le specifiche di interasse differiscono dai classici 150 mm. Abbina l'adattabilità su misura all'incorruttibilità idraulica del sistema K-Aqua.",
+        "faq": [
+          {
+            "q": "Quanto è flessibile la regolazione della distanza?",
+            "a": "Grazie al binario scorrevole, i raccordi a muro possono essere regolati in continuo sull'esatto interasse richiesto per il miscelatore."
+          },
+          {
+            "q": "Esiste il rischio di spostamenti con la versione regolabile?",
+            "a": "Dopo aver impostato la misura corretta, i raccordi a muro vengono bloccati saldamente. Uno slittamento durante la posa delle piastrelle è quindi escluso."
+          },
+          {
+            "q": "È necessaria una livella per l'allineamento?",
+            "a": "Sì, come per tutti gli attacchi per rubinetteria, la piastra di montaggio deve essere accuratamente livellata prima del fissaggio definitivo."
+          }
+        ]
       },
       "weld-in-saddle": {
         "seo_p1": "La sella a saldare (Weld-in Saddle) è un componente innovativo per creare derivazioni su tubi esistenti senza dover tagliare la condotta principale. Rivoluziona la modifica degli impianti riducendo enormemente il tempo di fermo del sistema.",
         "seo_p2": "Stampata in PP-R ad altissima densità (PN 25), la sella viene fusa termicamente direttamente sulla parete esterna del tubo principale, previa foratura con apposita fresa. La superficie di contatto concava combacia perfettamente con la circonferenza del tubo primario, garantendo una saldatura omogenea e inseparabile.",
-        "seo_p3": "È indispensabile per aggiungere prese d'acqua, sensori o sfoghi d'aria su collettori magistrali già in funzione in ambito ospedaliero o industriale. L'installazione richiede pochi minuti ed evita l'uso di ingombranti raccordi a T di grande diametro, risparmiando spazio e costi materiali."
+        "seo_p3": "È indispensabile per aggiungere prese d'acqua, sensori o sfoghi d'aria su collettori magistrali già in funzione in ambito ospedaliero o industriale. L'installazione richiede pochi minuti ed evita l'uso di ingombranti raccordi a T di grande diametro, risparmiando spazio e costi materiali.",
+        "faq": [
+          {
+            "q": "Qual è la differenza rispetto alla sella con filetto metallico?",
+            "a": "Questa derivazione a sella dispone di una derivazione in puro PP-R, nella quale può essere saldato direttamente un tubo o un altro raccordo (manicotto)."
+          },
+          {
+            "q": "La parete del tubo principale deve avere uno spessore minimo?",
+            "a": "No, se forata correttamente, la sella può essere saldata in modo sicuro su tutte le classi di pressione K-Aqua (da SDR 6 a SDR 17)."
+          },
+          {
+            "q": "Quanto dura il processo di foratura e saldatura?",
+            "a": "Un installatore esperto impiega al massimo 3-5 minuti per la foratura, il riscaldamento con lo speciale attrezzo a sella e l'unione."
+          }
+        ]
       },
       "weld-in-saddle-female-thread": {
         "seo_p1": "La sella a saldare con filetto femmina (Weld-in Saddle Female Thread) unisce la comodità dell'innesto laterale diretto con la praticità di una connessione metallica interna. Consente di montare rapidamente valvole o rubinetterie su un tubo portante già posato.",
         "seo_p2": "Il nucleo plastico in PP-R (PN 25) integra un robusto inserto femmina in ottone antidezincificazione. Dopo la saldatura della base concava sul lato del tubo, la filettatura femmina è pronta a ricevere rubinetti, termometri o diramazioni secondarie senza rischio di perdite.",
-        "seo_p3": "Ideale nelle centrali termiche o nelle estese reti di distribuzione aria compressa. Semplifica in modo radicale l'aggiornamento dei sistemi idraulici esistenti, permettendo modifiche in quota senza smontare interi segmenti di tubazioni pesanti."
+        "seo_p3": "Ideale nelle centrali termiche o nelle estese reti di distribuzione aria compressa. Semplifica in modo radicale l'aggiornamento dei sistemi idraulici esistenti, permettendo modifiche in quota senza smontare interi segmenti di tubazioni pesanti.",
+        "faq": [
+          {
+            "q": "Qual è il vantaggio principale di questa derivazione a sella?",
+            "a": "Permette l'installazione diretta di un filetto femmina metallico su una tubazione esistente, con un notevole risparmio di tempo e spazio."
+          },
+          {
+            "q": "Vi si possono avvitare dei termometri?",
+            "a": "Sì, la sella è l'interfaccia ideale per integrare in modo permanente e a tenuta di pressione sensori di temperatura o piccoli manometri nelle reti di riscaldamento."
+          },
+          {
+            "q": "Il filetto in ottone è protetto dallo strappo?",
+            "a": "Assolutamente. L'inserto in ottone è iniettato in profondità nella struttura in PP-R e ancorato in modo meccanicamente indissolubile tramite una speciale zigrinatura."
+          }
+        ]
       },
       "weld-in-saddle-male-thread": {
         "seo_p1": "La sella a saldare con filetto maschio (Weld-in Saddle Male Thread) offre un attacco maschio diretto dal tubo principale. Risulta la soluzione tecnica più veloce per l'allacciamento di dispositivi che richiedono una presa filettata esterna.",
         "seo_p2": "Analogamente agli altri raccordi da sella K-Aqua, resiste a pressioni operative PN 25 e include un solido inserto metallico costampato nel corpo in polipropilene. La profilatura della base garantisce una fusione omogenea per evitare distacchi anche sotto sforzo di trazione.",
-        "seo_p3": "Viene largamente sfruttata nei collettori antincendio, negli impianti di irrigazione o per collegare filtri rapidi. Il filetto maschio facilita l'innesto diretto di raccordi girevoli femmina o valvole di intercettazione, razionalizzando gli spazi nei vani tecnici."
+        "seo_p3": "Viene largamente sfruttata nei collettori antincendio, negli impianti di irrigazione o per collegare filtri rapidi. Il filetto maschio facilita l'innesto diretto di raccordi girevoli femmina o valvole di intercettazione, razionalizzando gli spazi nei vani tecnici.",
+        "faq": [
+          {
+            "q": "Per quali collegamenti è adatto il filetto maschio sulla sella?",
+            "a": "È ottimale per il collegamento diretto di raccordi con filetto femmina o per connessioni assicurate con un dado a risvolto."
+          },
+          {
+            "q": "Questa sella è disponibile per tutte le dimensioni di tubo?",
+            "a": "La derivazione a sella è disponibile per tubi principali da 40 mm a 125 mm, dove il filetto maschio è tipicamente da 1/2\" o 3/4\"."
+          },
+          {
+            "q": "Come si garantisce la tenuta dopo la foratura?",
+            "a": "La fusione tra sella e tubo crea un collegamento omogeneo e indissolubile, sicuro al 100% a livello molecolare."
+          }
+        ]
       },
       "pipe-clamps": {
         "seo_p1": "I collari per tubi (Pipe Clamps) rappresentano il sistema di fissaggio essenziale per l'intero impianto in PP-R. Sono stati progettati per sorreggere il peso della condotta e gestire dinamicamente le forze generate dalle dilatazioni termiche.",
         "seo_p2": "Disponibili in varie architetture, includono un rivestimento interno in gomma EPDM che assolve alla doppia funzione di isolante acustico (per ridurre il rumore strutturale) e scivolo termico. Permettono un serraggio adeguato che consente al tubo plastico di scorrere linearmente senza logorarsi.",
-        "seo_p3": "Fondamentali in ogni tipologia di cantiere, dal residenziale al grande edificio commerciale, garantiscono il rispetto delle normative sull'inquinamento acustico. Posizionati agli intervalli corretti, preservano il sistema idrico dal rischio di imbarcamenti o stress meccanici prematuri."
+        "seo_p3": "Fondamentali in ogni tipologia di cantiere, dal residenziale al grande edificio commerciale, garantiscono il rispetto delle normative sull'inquinamento acustico. Posizionati agli intervalli corretti, preservano il sistema idrico dal rischio di imbarcamenti o stress meccanici prematuri.",
+        "faq": [
+          {
+            "q": "A cosa serve l'inserto in gomma nel collare?",
+            "a": "L'inserto in EPDM serve all'isolamento acustico secondo la norma DIN 4109 e previene la trasmissione dei rumori di flusso alla muratura."
+          },
+          {
+            "q": "Il collare deve essere montato come punto fisso o punto scorrevole?",
+            "a": "A seconda della coppia di serraggio delle viti, il collare può essere utilizzato sia come punto di fissaggio fisso che come punto scorrevole per la dilatazione termica lineare."
+          },
+          {
+            "q": "Quale attacco filettato hanno i collari stringitubo?",
+            "a": "I nostri collari standard dispongono di un dado combinato saldato (M8/M10) che consente un fissaggio flessibile alle comuni viti prigioniere o barre filettate."
+          }
+        ]
       },
       "backing-flange-pp-steel-sfbf": {
         "seo_p1": "La controflangia mista PP-Acciaio (Backing Flange PP-Steel SFBF) costituisce un punto di forza estremo per le connessioni flangiate di grande calibro. Offre la formidabile resistenza alla trazione dell'acciaio combinata con una copertura esterna protettiva in polipropilene.",
         "seo_p2": "Questa architettura composita isola il nucleo in acciaio dall'ambiente circostante, offrendo una protezione totale contro la corrosione atmosferica e chimica senza necessità di verniciature aggiuntive. Progettata per conformarsi alle forature standard DIN/EN, supporta serraggi importanti.",
-        "seo_p3": "Essenziale nelle installazioni marine, negli impianti chimici o nelle camere di pompaggio sotterranee dove l'umidità distruggerebbe le flange metalliche comuni. Garantisce una vita utile paragonabile a quella delle tubazioni plastiche, eliminando i costi di manutenzione o sostituzione per ruggine."
+        "seo_p3": "Essenziale nelle installazioni marine, negli impianti chimici o nelle camere di pompaggio sotterranee dove l'umidità distruggerebbe le flange metalliche comuni. Garantisce una vita utile paragonabile a quella delle tubazioni plastiche, eliminando i costi di manutenzione o sostituzione per ruggine.",
+        "faq": [
+          {
+            "q": "Perché l'anima in acciaio è rivestita in polipropilene?",
+            "a": "Il rivestimento in plastica protegge l'acciaio ad alta resistenza dalla corrosione in modo permanente, il che è fondamentale in scantinati umidi o ambienti industriali aggressivi."
+          },
+          {
+            "q": "La foratura corrisponde alle norme vigenti?",
+            "a": "Sì, la foratura delle nostre flange libere è esattamente allineata alla norma europea DIN EN 1092-1 e si adatta a tutte le controflange standard sul mercato."
+          },
+          {
+            "q": "Le viti devono essere serrate con una chiave dinamometrica?",
+            "a": "Raccomandiamo vivamente il serraggio a croce con una chiave dinamometrica calibrata per garantire una compressione uniforme della guarnizione."
+          }
+        ]
       },
       "flat-gasket": {
         "seo_p1": "La guarnizione piana (Flat Gasket) è il componente di sigillatura indispensabile per ogni giunzione flangiata. Costituisce la barriera elastica tra due collari per flangia per assicurare la perfetta tenuta idraulica in assenza di saldatura.",
         "seo_p2": "Realizzata in elastomeri ad alte prestazioni come EPDM o NBR, resiste a temperature elevate e a un'ampia gamma di agenti chimici industriali. Il suo spessore calibrato compensa le microscopiche imperfezioni superficiali, mantenendo intatta la tenuta anche in presenza di vibrazioni o leggere flessioni.",
-        "seo_p3": "Impiegata su tutti i diametri delle reti flangiate K-Aqua, previene le fastidiose perdite invisibili a lungo termine. Una corretta selezione del materiale della guarnizione garantisce il superamento dei collaudi a pressione negli ambienti idrici più esigenti."
+        "seo_p3": "Impiegata su tutti i diametri delle reti flangiate K-Aqua, previene le fastidiose perdite invisibili a lungo termine. Una corretta selezione del materiale della guarnizione garantisce il superamento dei collaudi a pressione negli ambienti idrici più esigenti.",
+        "faq": [
+          {
+            "q": "Di quale materiale è composta la guarnizione piana?",
+            "a": "Di serie, le nostre guarnizioni per flange sono realizzate in EPDM ad alta resistenza alla pressione, eccellente per acqua potabile e acqua di riscaldamento."
+          },
+          {
+            "q": "La guarnizione può essere riutilizzata?",
+            "a": "No, dopo aver allentato un giunto flangiato è assolutamente necessario inserire una nuova guarnizione piana per motivi di sicurezza."
+          },
+          {
+            "q": "La guarnizione è resistente ai prodotti chimici?",
+            "a": "L'EPDM offre una buona resistenza a molte soluzioni acquose. Per sostanze chimiche industriali specifiche, si prega di consultare preventivamente i nostri elenchi di resistenza."
+          }
+        ]
       },
       "flat-gasket-for-unions-pp-r": {
         "seo_p1": "La guarnizione piana per bocchettoni in PP-R (Flat Gasket for Unions) è appositamente sagomata per adattarsi agli snodi plastici e metallici smontabili. È l'elemento che rende possibile riaprire e richiudere i raccordi a tre pezzi senza comprometterne l'efficacia.",
         "seo_p2": "Prodotta con gomme certificate per il contatto con acqua potabile, la sua geometria precisa si inserisce perfettamente nella gola del collare a bocchettone. Resiste allo schiacciamento e mantiene la memoria elastica anche dopo ripetuti cicli di sbalzo termico o manutenzione.",
-        "seo_p3": "È il cuore pulsante delle connessioni modulari. Senza di essa, le installazioni di pompe, filtri o contatori non avrebbero la necessaria sicurezza contro il gocciolamento. Viene sempre fornita in abbinamento ai nostri bocchettoni e raccomandata come ricambio nelle ispezioni."
+        "seo_p3": "È il cuore pulsante delle connessioni modulari. Senza di essa, le installazioni di pompe, filtri o contatori non avrebbero la necessaria sicurezza contro il gocciolamento. Viene sempre fornita in abbinamento ai nostri bocchettoni e raccomandata come ricambio nelle ispezioni.",
+        "faq": [
+          {
+            "q": "Quanto deve essere stretto il bocchettone?",
+            "a": "Per non distruggere la guarnizione, il dado a risvolto deve essere stretto a mano e poi serrato solo leggermente con un attrezzo (circa 1/4 di giro)."
+          },
+          {
+            "q": "Queste guarnizioni sono disponibili anche in altri materiali?",
+            "a": "Per requisiti di temperatura estremi o fluidi industriali speciali possiamo offrire su richiesta anche guarnizioni in FKM (Viton) o PTFE."
+          },
+          {
+            "q": "Questa guarnizione si adatta a prodotti di altre marche?",
+            "a": "È realizzata su misura per la struttura a maschio e femmina dei raccordi K-Aqua, ma può essere utilizzata anche su raccordi di terze parti delle stesse dimensioni."
+          }
+        ]
       },
       "plug": {
         "seo_p1": "Il tappo di chiusura temporaneo o definitivo (Plug) a inserimento è concepito per occludere terminali filettati liberi della rete idrica. Protegge i raccordi in attesa del montaggio della rubinetteria o isola temporaneamente settori d'impianto.",
         "seo_p2": "Filettato esternamente, è stampato in polipropilene ad alta resistenza e spesso dotato di guarnizione a O-ring integrata che rende superfluo l'uso di teflon o canapa. Si avvita manualmente, offrendo una tenuta affidabile per collaudi a pressione in cantiere.",
-        "seo_p3": "Utilizzato capillarmente in fase di costruzione prima della posa delle piastrelle e dell'installazione dei sanitari. Evita l'ingresso di polvere o calcinacci nei tubi preservando l'igiene della rete idrica e abbattendo i tempi di preparazione finale del bagno."
+        "seo_p3": "Utilizzato capillarmente in fase di costruzione prima della posa delle piastrelle e dell'installazione dei sanitari. Evita l'ingresso di polvere o calcinacci nei tubi preservando l'igiene della rete idrica e abbattendo i tempi di preparazione finale del bagno.",
+        "faq": [
+          {
+            "q": "Il tappo resiste alla pressione dell'acqua durante la fase di costruzione?",
+            "a": "Sì, è progettato in modo da resistere alla piena pressione di prova (spesso oltre 15 bar) durante il collaudo a pressione della rete di tubazioni."
+          },
+          {
+            "q": "Il tappo deve essere ulteriormente sigillato con teflon?",
+            "a": "I nostri tappi di solito dispongono di un O-ring integrato, per cui non è necessario alcun nastro sigillante aggiuntivo come teflon o canapa."
+          },
+          {
+            "q": "Il tappo può rimanere permanentemente nel muro?",
+            "a": "È concepito principalmente come tappo da cantiere. Per chiusure cieche permanenti raccomandiamo tappi ciechi in ottone adeguati."
+          }
+        ]
       },
       "pipe-cutter-2040": {
         "seo_p1": "Il tagliatubi manuale 20-40 (Pipe Cutter 20-40) è l'utensile base per l'installatore professionista. Consente il taglio pulito, netto e perfettamente perpendicolare dei tubi in polipropilene di piccoli e medi diametri (da 20 a 40 mm).",
         "seo_p2": "Dotato di una lama in acciaio speciale temprato con geometria a cricchetto, riduce drasticamente lo sforzo manuale necessario per incidere la plastica. Il risultato è una superficie di taglio liscia e priva di sbavature, requisito fondamentale per una successiva saldatura a polifusione a regola d'arte.",
-        "seo_p3": "La sua ergonomia superiore evita l'affaticamento della mano durante le lunghe giornate di cantiere. Tagliare il tubo in squadra senza deformarlo previene incastri errati nel bicchiere di saldatura, garantendo impianti idrici residenziali perfetti e a tenuta sicura."
+        "seo_p3": "La sua ergonomia superiore evita l'affaticamento della mano durante le lunghe giornate di cantiere. Tagliare il tubo in squadra senza deformarlo previene incastri errati nel bicchiere di saldatura, garantendo impianti idrici residenziali perfetti e a tenuta sicura.",
+        "faq": [
+          {
+            "q": "Perché è così importante un tagliatubi speciale?",
+            "a": "Un taglio ad angolo retto e privo di sbavature, senza schiacciamenti, è assolutamente obbligatorio per garantire un giunto saldato perfetto e senza cavità."
+          },
+          {
+            "q": "La lama può essere sostituita?",
+            "a": "Sì, in caso di usura o danneggiamento la lama in acciaio ad alta resistenza può essere facilmente sostituita con un ricambio originale."
+          },
+          {
+            "q": "La cesoia funziona anche a temperature fredde?",
+            "a": "La trasmissione della forza funziona sempre, tuttavia il tubo in PP-R non dovrebbe essere tagliato a temperature di gelo, poiché potrebbe scheggiarsi."
+          }
+        ]
       },
       "pipe-cutter-50125": {
         "seo_p1": "Il tagliatubi a cesoia 50-125 (Pipe Cutter 50-125) è progettato per la lavorazione di tubazioni K-Aqua di medio e grande diametro. Supera i limiti degli utensili classici offrendo un leveraggio potente per tagliare spessori plastici consistenti.",
         "seo_p2": "Il meccanismo di taglio radiale distribuisce uniformemente la pressione lungo la circonferenza del tubo (fino a 125 mm), garantendo un taglio perpendicolare senza ovalizzazione. La lama ad altissima resistenza penetra il polimero, perfino le serie rinforzate in fibra, senza scheggiature.",
-        "seo_p3": "Imprescindibile per gli installatori che affrontano colonne montanti, collettori primari o impianti idraulici industriali. Un taglio netto su questi calibri velocizza la raschiatura successiva ed è essenziale per allineare il tubo prima della termofusione."
+        "seo_p3": "Imprescindibile per gli installatori che affrontano colonne montanti, collettori primari o impianti idraulici industriali. Un taglio netto su questi calibri velocizza la raschiatura successiva ed è essenziale per allineare il tubo prima della termofusione.",
+        "faq": [
+          {
+            "q": "Come funziona il taglio di tubi così spessi?",
+            "a": "L'utensile viene serrato attorno al tubo, la rotella di taglio viene avanzata lentamente e il tagliatubi viene guidato attorno al tubo con movimenti rotatori regolari."
+          },
+          {
+            "q": "Questo strumento taglia anche i tubi in composito di fibra?",
+            "a": "Sì, la rotella di taglio appositamente temprata taglia senza sforzo ed estremamente precisa anche i nostri tubi PPRCT rinforzati con fibra di vetro."
+          },
+          {
+            "q": "Il tagliatubi a rotella sostituisce la smussatura?",
+            "a": "La saldatura a bicchiere non richiede smussatura. Il taglio assolutamente diritto di questo utensile è la preparazione perfetta per il processo di saldatura."
+          }
+        ]
       },
       "pipe-cutter-50125-1": {
         "seo_p1": "Il tagliatubi a rotella 50-125 (Pipe Cutter 50-125 circolare) è lo strumento rotativo ad alta precisione per incidere i grandi calibri. Offre un livello di precisione ineguagliabile grazie al taglio a rulli, ideale per evitare tensioni strutturali sul tubo.",
         "seo_p2": "Composto da una rotella da taglio ultra-affilata e rulli di guida scorrevoli, l'utensile ruota attorno al tubo in PP-R incidendolo in modo progressivo e millimetrico. Questa tecnica elimina il rischio di schiacciamento del profilo rotondo del tubo, mantenendo l'integrità del polimero.",
-        "seo_p3": "Raccomandato in officina di prefabbricazione e in cantieri complessi dove i tubi devono combaciare con le matrici di saldatrici testa a testa controllate da CNC. La perfetta angolazione a 90° risparmia lunghe sessioni di rifinitura e fresatura, accrescendo la produttività tecnica."
+        "seo_p3": "Raccomandato in officina di prefabbricazione e in cantieri complessi dove i tubi devono combaciare con le matrici di saldatrici testa a testa controllate da CNC. La perfetta angolazione a 90° risparmia lunghe sessioni di rifinitura e fresatura, accrescendo la produttività tecnica.",
+        "faq": [
+          {
+            "q": "Cosa significa 'meccanismo di ritorno rapido'?",
+            "a": "Al termine del taglio, la rotella può essere riportata immediatamente nella posizione di partenza premendo un pulsante, senza fastidiosi riavvolgimenti manuali."
+          },
+          {
+            "q": "Questo modello è più indicato per l'uso stazionario?",
+            "a": "È mobile, ma grazie al suo design massiccio e alla guida precisa del mandrino, si presta in modo eccellente alla prefabbricazione stazionaria."
+          },
+          {
+            "q": "Sono disponibili pezzi di ricambio per questo tagliatubi?",
+            "a": "Sì, sia la rotella di taglio che i rulli di guida sono costantemente disponibili come pezzi di ricambio originali."
+          }
+        ]
       },
       "hand-welding-machine-2032-complete-set": {
         "seo_p1": "La saldatrice manuale 20-32 in set completo (Hand Welding Machine 20-32 Complete Set) è l'equipaggiamento definitivo per la polifusione dei piccoli diametri. Fornisce all'installatore tutto il necessario in una pratica e robusta valigetta in metallo.",
         "seo_p2": "Il cuore del kit è un polifusore compatto con termostato elettronico ad altissima precisione (260°C). Il set include le matrici rivestite in Teflon (PTFE) antiaderente per i diametri 20, 25 e 32 mm, oltre a supporti da banco e chiavi di serraggio, garantendo una stabilità termica assoluta.",
-        "seo_p3": "Ideale per i piccoli interventi residenziali, ristrutturazioni di bagni e allacciamenti finali. La maneggevolezza della piastra riscaldante permette di operare agevolmente anche negli spazi più ristretti o direttamente su una scala a pioli."
+        "seo_p3": "Ideale per i piccoli interventi residenziali, ristrutturazioni di bagni e allacciamenti finali. La maneggevolezza della piastra riscaldante permette di operare agevolmente anche negli spazi più ristretti o direttamente su una scala a pioli.",
+        "faq": [
+          {
+            "q": "Perché un termostato elettronico è così importante?",
+            "a": "Solo un termostato preciso garantisce una temperatura costante conforme a DVS di esattamente 260 °C, che è assolutamente necessaria per una fusione sicura del PP-R."
+          },
+          {
+            "q": "Quanto dura la fase di riscaldamento?",
+            "a": "Grazie al potente elemento riscaldante da 800 watt, il dispositivo raggiunge solitamente la temperatura operativa in meno di 10 minuti."
+          },
+          {
+            "q": "Quali strumenti sono inclusi nella valigetta?",
+            "a": "Il set comprende il saldatore, il supporto, le matrici in teflon da 20, 25 e 32 mm, chiavi a brugola e viti di montaggio nella valigetta in acciaio."
+          }
+        ]
       },
       "hand-welding-machine-2063-complete-set": {
         "seo_p1": "La saldatrice manuale 20-63 in set completo (Hand Welding Machine 20-63 Complete Set) è la stazione di lavoro portatile universale per l'idraulico moderno. Copre interamente l'intervallo di diametri più comunemente utilizzato nell'edilizia commerciale.",
         "seo_p2": "Dotata di una piastra scaldante a doppia resistenza ad alto wattaggio, raggiunge rapidamente la temperatura operativa e la mantiene costante anche saldando i massicci raccordi da 63 mm. Le matrici incluse (fino al 63 mm) beneficiano di uno spesso strato di teflon per prevenire residui plastici.",
-        "seo_p3": "È il kit perfetto per l'impiantistica generale, dai circuiti di riscaldamento a pavimento fino alle linee di distribuzione idrica condominiale. Garantisce saldature omogenee e affidabili, abbassando i tempi di esecuzione e azzerando le giunzioni fredde."
+        "seo_p3": "È il kit perfetto per l'impiantistica generale, dai circuiti di riscaldamento a pavimento fino alle linee di distribuzione idrica condominiale. Garantisce saldature omogenee e affidabili, abbassando i tempi di esecuzione e azzerando le giunzioni fredde.",
+        "faq": [
+          {
+            "q": "È possibile montare più matrici di saldatura contemporaneamente?",
+            "a": "Sì, l'ampia piastra riscaldante consente il montaggio simultaneo di fino a tre coppie di matrici per un lavoro senza interruzioni."
+          },
+          {
+            "q": "Il dispositivo emette un segnale al raggiungimento della temperatura?",
+            "a": "Una spia di controllo ben visibile segnala all'utente non appena la temperatura operativa di 260 °C viene raggiunta e stabilizzata."
+          },
+          {
+            "q": "Il dispositivo è adatto per un uso continuo nei grandi cantieri?",
+            "a": "Assolutamente. L'elemento riscaldante di lunga durata e il cablaggio resistente al calore sono specificamente progettati per l'uso industriale a turni."
+          }
+        ]
       },
       "hand-welding-machine-mirror-50125": {
         "seo_p1": "La saldatrice a specchio manuale 50-125 (Hand Welding Machine Mirror 50-125) è la piastra termica di grandi dimensioni per affrontare le reti magistrali e industriali. Consente l'inserimento simultaneo di tubo e raccordo fino al diametro 125 mm.",
         "seo_p2": "Caratterizzata da un disco riscaldante in alluminio pressofuso con termoregolatore digitale, assicura una distribuzione uniforme del calore su superfici molto ampie. La potenza erogata compensa istantaneamente il calo termico che si verifica quando la grande massa plastica fredda entra a contatto con lo specchio.",
-        "seo_p3": "Strumento essenziale per l'assemblaggio di collettori principali, condotte di ventilazione in plastica e scarichi industriali. Semplifica la gestione termica su diametri critici, assicurando all'operatore una fusione del PP-R simmetrica e profonda."
+        "seo_p3": "Strumento essenziale per l'assemblaggio di collettori principali, condotte di ventilazione in plastica e scarichi industriali. Semplifica la gestione termica su diametri critici, assicurando all'operatore una fusione del PP-R simmetrica e profonda.",
+        "faq": [
+          {
+            "q": "Perché è necessaria una piastra piana per i tubi grandi?",
+            "a": "I grandi diametri (da 50 mm) hanno una massa enorme. La piastra piana offre una superficie di contatto estremamente ampia per introdurre calore nella plastica in modo rapido e uniforme."
+          },
+          {
+            "q": "Quanto pesa il dispositivo?",
+            "a": "Nonostante l'elevata potenza, il dispositivo è ergonomicamente bilanciato, anche se per tubi da 90 mm in su di solito richiede due installatori per un accoppiamento preciso."
+          },
+          {
+            "q": "Le superfici rivestite in teflon devono essere pulite?",
+            "a": "Sì, devono essere pulite accuratamente dopo ogni utilizzo, quando sono ancora calde, con un panno di carta privo di pelucchi o un'apposita spatola di legno."
+          }
+        ]
       },
       "welding-tool": {
         "seo_p1": "Le matrici per saldatura (Welding Tool) sono le bussole termiche intercambiabili che formano il profilo di fusione sul tubo e all'interno del raccordo. Costituiscono l'interfaccia fisica tra il polifusore e il polimero K-Aqua.",
         "seo_p2": "Lavorate al tornio CNC da blocchi di alluminio puro per un trasferimento termico ottimale, sono ricoperte da un triplo strato di PTFE (Teflon) di grado industriale. La loro geometria non è casuale: l'angolo di spoglia è calcolato per creare la corretta interferenza meccanica tra tubo e bicchiere.",
-        "seo_p3": "Disponibili per tutti i diametri del sistema, devono essere mantenute pulite e sostituite non appena il teflon si usura. Matrici in perfette condizioni sono il segreto invisibile dietro a un impianto a prova di perdita, garantendo un cordolo di saldatura interno liscio e privo di restringimenti."
+        "seo_p3": "Disponibili per tutti i diametri del sistema, devono essere mantenute pulite e sostituite non appena il teflon si usura. Matrici in perfette condizioni sono il segreto invisibile dietro a un impianto a prova di perdita, garantendo un cordolo di saldatura interno liscio e privo di restringimenti.",
+        "faq": [
+          {
+            "q": "Quando deve essere sostituita una matrice di saldatura?",
+            "a": "Non appena il rivestimento in teflon è graffiato o i residui di PP-R si attaccano indissolubilmente, la matrice deve essere obbligatoriamente sostituita per evitare saldature difettose."
+          },
+          {
+            "q": "Perché non posso raschiare via i residui di plastica con il coltello?",
+            "a": "Un coltello distrugge immediatamente il rivestimento antiaderente microfine in PTFE. Utilizzare esclusivamente panni morbidi sull'utensile ancora caldo."
+          },
+          {
+            "q": "La matrice di saldatura K-Aqua si adatta anche a dispositivi di altre marche?",
+            "a": "Il foro di montaggio corrisponde allo standard industriale, per cui le nostre matrici si adattano a quasi tutti i saldatori a bicchiere professionali."
+          }
+        ]
       },
       "welding-machine-50125-complete-set": {
         "seo_p1": "La saldatrice da banco 50-125 (Welding Machine 50-125 Complete Set) è una vera e propria macchina utensile per la prefabbricazione idraulica in cantiere. Meccanizza il processo di inserimento eliminando la fatica dell'operatore sui grandi calibri.",
         "seo_p2": "Il telaio a carrello guida l'avanzamento del tubo e del raccordo verso la piastra riscaldante in asse perfetto tramite un volantino demoltiplicatore. Include morse di bloccaggio universali e un timer integrato per il rigoroso rispetto dei tempi di riscaldamento e raffreddamento previsti dalle norme DVS.",
-        "seo_p3": "Rappresenta l'investimento primario per grandi commesse idrauliche. Rimuovendo il fattore umano dall'allineamento dei tubi pesanti (da 50 a 125 mm), garantisce giunzioni perfette con una precisione industriale inarrivabile con la sola forza manuale."
+        "seo_p3": "Rappresenta l'investimento primario per grandi commesse idrauliche. Rimuovendo il fattore umano dall'allineamento dei tubi pesanti (da 50 a 125 mm), garantisce giunzioni perfette con una precisione industriale inarrivabile con la sola forza manuale.",
+        "faq": [
+          {
+            "q": "Quale vantaggio offre la macchina stazionaria rispetto allo strumento manuale?",
+            "a": "La meccanica a leva consente un inserimento esattamente lineare e senza inclinazioni dei tubi grandi, cosa che richiederebbe uno sforzo estremo se eseguita a mano."
+          },
+          {
+            "q": "Possono essere saldati anche tubi piccoli con questa?",
+            "a": "Tecnicamente sì, ma la macchina è specificamente progettata per le elevate forze di giunzione delle dimensioni da 50 mm a 125 mm."
+          },
+          {
+            "q": "Come viene fissato il tubo?",
+            "a": "Ganasce di serraggio universali con diversi inserti afferrano il tubo in modo delicato ma assolutamente saldo per garantire un movimento assiale potente."
+          }
+        ]
       },
       "butt-welding-machine-90250": {
         "seo_p1": "La saldatrice testa a testa 90-250 (Butt-Welding Machine 90-250) è l'ammiraglia per le infrastrutture monumentali in PP-R. Abbandona il raccordo a bicchiere per fondere direttamente le teste dei tubi di grandissimo calibro.",
         "seo_p2": "Equipaggiata con fresa piallatrice elettrica, specchio riscaldante teflonato e una centralina idraulica, applica la pressione esatta di spinta calcolata dal computer di bordo. L'unità idraulica controlla la fase di trascinamento e raffreddamento, creando un cordolo di fusione (bead) omogeneo e indistruttibile.",
-        "seo_p3": "Destinata alla costruzione di acquedotti, grandi reti di teleriscaldamento e impianti di desalinizzazione. Consente l'impiego del sistema K-Aqua fino a 250 mm di diametro, assicurando che la saldatura possieda la stessa resistenza strutturale del tubo originale."
+        "seo_p3": "Destinata alla costruzione di acquedotti, grandi reti di teleriscaldamento e impianti di desalinizzazione. Consente l'impiego del sistema K-Aqua fino a 250 mm di diametro, assicurando che la saldatura possieda la stessa resistenza strutturale del tubo originale.",
+        "faq": [
+          {
+            "q": "Qual è la differenza tra la saldatura a bicchiere e quella testa a testa?",
+            "a": "Nella saldatura testa a testa le estremità dei tubi vengono fresate in piano e fuse direttamente tra loro di testa senza un raccordo aggiuntivo (manicotto)."
+          },
+          {
+            "q": "I dati di saldatura vengono salvati per il controllo di qualità?",
+            "a": "Sì, il controllo CNC integrato registra temperatura, pressione e tempo di ogni singola saldatura per una successiva valutazione."
+          },
+          {
+            "q": "Perché è integrata una pialla?",
+            "a": "La pialla fresa entrambe le estremità del tubo in modo assolutamente parallelo e privo di ossidazione prima della saldatura, il che è assolutamente necessario per una connessione molecolare duratura."
+          }
+        ]
       },
       "electrofusion-machine": {
         "seo_p1": "La saldatrice per elettrofusione (Electrofusion Machine) è il generatore computerizzato intelligente per l'attivazione dei raccordi elettrosaldabili. È la tecnologia d'elezione per le giunzioni in spazi impraticabili o per le riparazioni in trincea.",
         "seo_p2": "La macchina legge automaticamente i codici a barre presenti sui manicotti elettrosaldabili, impostando autonomamente i parametri ottimali di voltaggio, tempo di fusione e tempo di raffreddamento (con compensazione della temperatura ambientale). Un display guida l'operatore e la memoria interna traccia ogni saldatura ai fini della certificazione.",
-        "seo_p3": "Vitale negli interventi di manutenzione sotterranea, nei collegamenti verticali in stretti cavedi e nelle reti del gas/acqua metropolitane. Offre una tracciabilità totale e garantisce una qualità di fusione impeccabile indipendentemente dall'accessibilità del tubo."
+        "seo_p3": "Vitale negli interventi di manutenzione sotterranea, nei collegamenti verticali in stretti cavedi e nelle reti del gas/acqua metropolitane. Offre una tracciabilità totale e garantisce una qualità di fusione impeccabile indipendentemente dall'accessibilità del tubo.",
+        "faq": [
+          {
+            "q": "Come legge i parametri di saldatura la macchina?",
+            "a": "Ogni manicotto elettrosaldabile dispone di un codice a barre che l'operatore scansiona con il lettore in dotazione: la macchina si imposta in modo completamente automatico."
+          },
+          {
+            "q": "La macchina compensa le fluttuazioni di temperatura in cantiere?",
+            "a": "Sì, un sensore ambientale misura la temperatura e regola automaticamente la durata della saldatura (più lunga in inverno, più corta in estate)."
+          },
+          {
+            "q": "Il tubo deve essere raschiato prima dell'elettrosaldatura?",
+            "a": "Assolutamente sì! Lo strato di ossido sul tubo in PP-R deve essere rimosso meccanicamente nell'area di saldatura utilizzando un apposito raschiatore."
+          }
+        ]
       },
       "welding-tool-for-weld-in-saddles": {
         "seo_p1": "La matrice per selle a saldare (Welding Tool for Weld-in Saddles) è l'inserto termico sagomato specificamente per la fusione dei raccordi da sella. È lo strumento chiave che rende possibile la derivazione laterale diretta.",
         "seo_p2": "Si compone di due facce asimmetriche: una parte maschio concava per scaldare la superficie esterna del tubo primario e una parte femmina convessa per fondere la base del raccordo a sella. La spessa teflonatura previene sbavature durante questa delicata operazione combinata.",
-        "seo_p3": "L'uso di questo utensile su un normale polifusore manuale permette all'idraulico di trasformare un tubo liscio in un collettore su misura. Ottimizza le tempistiche nella realizzazione di testate idrometriche o stazioni di miscelazione complesse."
+        "seo_p3": "L'uso di questo utensile su un normale polifusore manuale permette all'idraulico di trasformare un tubo liscio in un collettore su misura. Ottimizza le tempistiche nella realizzazione di testate idrometriche o stazioni di miscelazione complesse.",
+        "faq": [
+          {
+            "q": "Perché l'utensile ha un lato concavo e uno convesso?",
+            "a": "Il lato concavo (curvo) riscalda il tubo esterno rotondo, mentre il lato convesso porta esattamente la derivazione a forma di sella alla temperatura di fusione."
+          },
+          {
+            "q": "Un utensile va bene per tutti i tubi?",
+            "a": "No, è necessaria una matrice a sella adatta con precisione per ogni combinazione tubo principale-derivazione (es. 63 mm su 20 mm)."
+          },
+          {
+            "q": "Come si monta l'utensile sul saldatore?",
+            "a": "Si avvita direttamente sulla piastra riscaldante del saldatore manuale K-Aqua con una vite a brugola, come una normale matrice."
+          }
+        ]
       },
       "drilling-tool-for-weld-in-saddle": {
         "seo_p1": "La fresa carotatrice per selle (Drilling Tool for Weld-in Saddle) è la punta speciale necessaria per perforare il tubo principale in preparazione all'innesto della sella. Garantisce un foro calibrato e privo di trucioli interni.",
         "seo_p2": "Costruita in acciaio super rapido (HSS), questa fresa a tazza si monta su comuni trapani a batteria. Il suo design è studiato per asportare un disco netto di plastica in PP-R (che rimane incastrato nella punta) anziché frantumarlo, mantenendo il diametro del foro rigorosamente entro le tolleranze di flusso della sella.",
-        "seo_p3": "È il primo passaggio obbligato prima di utilizzare le matrici per selle. Previene il rischio catastrofico di lasciare residui plastici all'interno della tubazione in pressione, proteggendo pompe e valvole delicate a valle dell'impianto."
+        "seo_p3": "È il primo passaggio obbligato prima di utilizzare le matrici per selle. Previene il rischio catastrofico di lasciare residui plastici all'interno della tubazione in pressione, proteggendo pompe e valvole delicate a valle dell'impianto.",
+        "faq": [
+          {
+            "q": "Perché non posso utilizzare una normale punta per legno o metallo?",
+            "a": "Le punte standard strappano la plastica e producono trucioli incontrollati. La nostra punta speciale fresa il foro e raccoglie il truciolo in modo pulito."
+          },
+          {
+            "q": "La punta si adatta a un normale avvitatore a batteria?",
+            "a": "Sì, la punta ha un codolo esagonale standard che si adatta a qualsiasi mandrino comune."
+          },
+          {
+            "q": "Il foro deve essere sbavato?",
+            "a": "No, la testa fresante della fresa a tazza è progettata per preparare e levigare automaticamente il bordo del foro per la saldatura successiva."
+          }
+        ]
       },
       "welding-tool-for-repairing-plug": {
         "seo_p1": "La matrice per tappi di riparazione (Welding Tool for Repairing Plug) è lo strumento di emergenza per eccellenza. Serve per sigillare in modo permanente fori accidentali causati da trapani o chiodi nelle tubazioni sotto traccia.",
         "seo_p2": "Questa matrice teflonata presenta una forma a spillo: da un lato entra nel buco accidentale allargandolo e fondendone le pareti, dall'altro scalda il tappo in PP-R a forma di chiodo. Risolve in pochi secondi un danno che richiederebbe altrimenti la demolizione di un'ampia porzione di muro.",
-        "seo_p3": "Salva letteralmente i cantieri alla vigilia della consegna. Consente di ripristinare la tenuta stagna PN 25 del tubo perforato, evitando di dover tagliare la condotta e inserire fastidiosi manicotti di giunzione all'interno del muro."
+        "seo_p3": "Salva letteralmente i cantieri alla vigilia della consegna. Consente di ripristinare la tenuta stagna PN 25 del tubo perforato, evitando di dover tagliare la condotta e inserire fastidiosi manicotti di giunzione all'interno del muro.",
+        "faq": [
+          {
+            "q": "Come funziona esattamente il tappo di riparazione?",
+            "a": "L'utensile conico scioglie il foro. Successivamente, il tappo di riparazione in PP-R, anch'esso riscaldato, viene premuto nel foro e si fonde in modo permanente."
+          },
+          {
+            "q": "La parte riparata è veramente sicura?",
+            "a": "Sì, non si tratta di un semplice incollaggio, ma di una saldatura molecolare che resiste alla stessa pressione del tubo intatto."
+          },
+          {
+            "q": "Quali diametri di foratura possono essere riparati?",
+            "a": "L'utensile è ideale per i tipici incidenti di foratura (fori per tasselli) nel range da 7 mm a 11 mm."
+          }
+        ]
       },
       "repairing-plug": {
         "seo_p1": "Il tappo di riparazione (Repairing Plug) è l'inserto plastico progettato per richiudere i fori accidentali nei tubi K-Aqua. La sua particolare forma a cuneo allungato è modellata per integrarsi a livello molecolare con la parete del tubo danneggiato.",
         "seo_p2": "Costituito in puro PP-R (PN 25), viene fuso utilizzando l'apposita matrice a spillo. Una volta inserito nel foro caldo, il polimero si mescola uniformemente, e la parte in eccesso viene semplicemente asportata con un tagliatubi a filo del tubo.",
-        "seo_p3": "Rappresenta la soluzione di primo soccorso definitiva contro le forature causate dai tasselli. Ripristina completamente l'integrità meccanica e igienica dell'impianto, garantendo un intervento invisibile e indistruttibile coperto dalla normale garanzia di sistema."
+        "seo_p3": "Rappresenta la soluzione di primo soccorso definitiva contro le forature causate dai tasselli. Ripristina completamente l'integrità meccanica e igienica dell'impianto, garantendo un intervento invisibile e indistruttibile coperto dalla normale garanzia di sistema.",
+        "faq": [
+          {
+            "q": "Di quale materiale è fatto il tappo di riparazione?",
+            "a": "È realizzato al 100% in copolimero random di polipropilene (PP-R) di tipo 3 di alta qualità, esattamente come i nostri sistemi di tubazioni K-Aqua."
+          },
+          {
+            "q": "Il tappo deve essere tagliato dopo la saldatura?",
+            "a": "Sì, dopo che la saldatura si è completamente raffreddata, l'estremità sporgente del tappo viene tagliata a filo con la parete del tubo."
+          },
+          {
+            "q": "Posso usare il tappo quando la rete di tubazioni è piena?",
+            "a": "No, l'acqua deve essere completamente chiusa nella sezione interessata e il tubo deve essere asciugato nell'area del foro."
+          }
+        ]
       },
       "peeling-tools-for-stabi-pipe-manual": {
         "seo_p1": "Il raschietto manuale per tubi Stabi (Peeling Tools for Stabi Pipe - Manual) è un attrezzo essenziale per la preparazione dei tubi polimerici rinforzati con alluminio. Permette di rimuovere lo strato superficiale espondendo il PP-R puro per la saldatura.",
@@ -479,7 +1474,9 @@
     "tools": "Strumenti",
     "knowledge": "Conoscenza",
     "company": "Azienda",
-    "products": "Prodotti"
+    "products": "Prodotti",
+    "markets_solutions": "Mercati e Soluzioni",
+    "knowledge_resources": "Conoscenza e Risorse"
   },
   "pages": {
     "catalogOverview": "Panoramica Catalogo",
@@ -607,6 +1604,7 @@
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
+    "seoExpansionDynamic": "Scopri di più sulle nostre soluzioni PP-R e PPRCT a {city}. Rispettiamo gli standard locali ({regulator}) e offriamo sistemi ottimali per la qualità dell'acqua ({water}). Nota aggiuntiva: {note}.",
     "eyebrow": "Markets & Locations",
     "title1": "A world full of",
     "title2": "markets.",
@@ -875,6 +1873,28 @@
         "—"
       ]
     ],
+    "narrative": {
+      "eyebrow": "Il Vantaggio del Polimero",
+      "title": "Perché PP-R e PP-RCT?",
+      "p1": "Rispetto al rame, all'acciaio inossidabile o all'acciaio zincato, il nostro Copolimero Random di Polipropilene offre una combinazione imbattibile di durata e inerzia chimica. I tubi metallici soccombono alla corrosione, si formano incrostazioni e la qualità dell'acqua degrada nel tempo. I tubi polimerici K-Aqua rimangono assolutamente lisci all'interno. Nessuna ruggine, nessun calcare, nessuna caduta di pressione.",
+      "p2": "La nostra tecnologia K-Fiber a 3 strati e la nuova generazione di materiali PP-RCT si spingono ancora oltre: portate superiori grazie alla parete più sottile, massima resistenza alle alte temperature ed un'espansione termica ridotta fino al 75%. Ideale per mandata/ritorno di acqua refrigerata, riscaldamento distrettuale e installazioni industriali complesse.",
+      "sizeRange": "Questo componente è prodotto in un'ampia gamma di diametri nominali, dai compatti {minSize} mm fino ai notevoli {maxSize} mm, garantendo la massima versatilità nei più svariati scenari di installazione.",
+      "sizeSpecific": "Questo componente è progettato specificamente per un diametro nominale di {minSize} mm e offre prestazioni mirate per architetture di tubazioni specializzate.",
+      "weights": "L'efficienza dei materiali è ottimizzata in tutto l'assortimento, con pesi unitari che vanno da {minWeight} kg a {maxWeight} kg a seconda della dimensione scelta.",
+      "packaging": "La logistica è ottimizzata grazie a unità di imballaggio standardizzate, progettate per un trasporto globale sicuro e una movimentazione efficiente in cantiere.",
+      "rowCount": "Il nostro portafoglio tecnico offre questa configurazione in {count} varianti dimensionali altamente specializzate, scalate con precisione per soddisfare i requisiti idraulici e meccanici dei moderni sistemi di trasporto fluidi.",
+      "intro": "Il prodotto {title} costituisce una pietra miliare delle soluzioni ad alte prestazioni per la gestione dei fluidi di K Aqua. Ufficialmente catalogata con i codici articolo {codes}, ogni variante è sottoposta a rigorosi protocolli di garanzia della qualità nei nostri impianti di produzione tedeschi prima della consegna.",
+      "outro": "Impiegando tecniche avanzate di lavorazione dei polimeri, la precisione geometrica di {title} garantisce caratteristiche di flusso ottimali, riduce al minimo le perdite di pressione ed elimina completamente il rischio di accumulo di calcare o corrosione durante l'intera vita operativa. Questo impegno senza compromessi nella scienza dei materiali garantisce che ogni connessione mantenga l'assoluta integrità anche sotto fluttuazioni estreme di temperatura e pressione. Che venga utilizzato in grattacieli residenziali, strutture sanitarie critiche o impianti di lavorazione industriale impegnativi, questo prodotto offre un'affidabilità senza manutenzione di cui ingegneri e installatori possono fidarsi ciecamente."
+    },
+    "uniqueProductContext": {
+      "pipes": "Estrusi a Waldsolms utilizzando solo PP-R e PP-RCT (Tipo 3 / Tipo 4) vergine, i nostri tubi soddisfano i rigorosi standard DIN 8077/8078. L'inclusione della nostra tecnologia K-Fiber o K-Fiber UV previene efficacemente il degrado solare, rendendoli la scelta privilegiata per reti di teleriscaldamento e grattacieli commerciali in tutto il mondo.",
+      "fittings": "Ingegneria di precisione applicata allo stampaggio a iniezione. Ogni raccordo a T, a gomito e riduttore è calibrato per una polifusione a bicchiere senza soluzione di continuità. Niente guarnizioni, niente micro-perdite – solo un legame molecolare permanente che dura più dell'edificio stesso.",
+      "transitionFittings": "I raccordi di transizione K-Aqua colmano il divario tra la resilienza del polimero e i tradizionali componenti in ottone/acciaio. Che tu ti stia collegando a pompe industriali o a valvole sanitarie, i nostri inserti filettati garantiscono connessioni meccaniche robuste e prive di corrosione sotto fluttuazioni di pressione estreme.",
+      "valves": "Progettate per operare senza manutenzione. Le nostre valvole a sfera con corpo in PP-R e valvole a sede inclinata presentano fluidodinamica ottimizzata, resistenza completa alle incrostazioni e sedi valvola affidabili che non si bloccheranno dopo decenni in sistemi di acqua calda o reti chimiche.",
+      "weldInSaddles": "La soluzione ingegneristica per estensioni ed espansioni della rete. Esegui il carotaggio del tubo principale e salda la sella direttamente al suo interno per diramazioni immediate. Non c'è bisogno di tagliare o disallineare l'infrastruttura esistente: risparmia notevolmente sui tempi di inattività.",
+      "accessories": "Dagli staffaggi galvanizzati che assorbono le minime forze di dilatazione termica alle flange cieche e ai set di riparazione. Questo non è solo hardware di supporto – ogni componente dell'infrastruttura è convalidato nel sistema per mantenere la certificazione e la sicurezza operativa.",
+      "tools": "Il calibro dell'installazione definisce la vita del sistema. Le nostre saldatrici manuali e da banco CNC applicano una distribuzione del calore termodinamicamente perfetta. Strumenti calibrati e non usurabili garantiscono che l'esecutore in cantiere possa eguagliare la precisione della produzione di fabbrica."
+    },
     "seoArticle": {
       "pipes": {
         "areas": "Installazione di acqua potabile, Costruzione di impianti di riscaldamento, Climatizzazione, Impianti industriali, Costruzione navale",
@@ -886,7 +1906,16 @@
           "Riduzione del rumore: Eccellente isolamento acustico contro i rumori di flusso.",
           "Igienico: Soddisfa le più severe normative internazionali sull'acqua potabile (DVGW, KIWA)."
         ],
-        "seoText": "I nostri tubi ad alte prestazioni sono fabbricati a Waldsolms secondo i più elevati standard di qualità. La combinazione di materiali PP-R e PP-RCT garantisce un'eccezionale resistenza alla temperatura e alla pressione. Che si tratti di impiantistica domestica, costruzione di impianti industriali o sistemi di raffreddamento complessi, questo sistema di tubazioni offre la massima sicurezza ed efficienza. La tecnologia di saldatura semplice e sicura garantisce connessioni assolutamente prive di perdite."
+        "seoText": "I nostri tubi ad alte prestazioni sono fabbricati a Waldsolms secondo i più elevati standard di qualità. La combinazione di materiali PP-R e PP-RCT garantisce un'eccezionale resistenza alla temperatura e alla pressione. Che si tratti di impiantistica domestica, costruzione di impianti industriali o sistemi di raffreddamento complessi, questo sistema di tubazioni offre la massima sicurezza ed efficienza. La tecnologia di saldatura semplice e sicura garantisce connessioni assolutamente prive di perdite.",
+        "guideTitle": "Selezione e specifiche dei tubi in PP-R",
+        "guideText": "Quando si progetta una rete idrica o chimica, la scelta della serie corretta di tubi (SDR) in relazione alla pressione di esercizio e alla temperatura è fondamentale. La nostra documentazione tecnica fornisce diagrammi e tabelle di regressione estese. Utilizza i tubi K-Fiber e K-FiberClima (SDR 7.4 e SDR 11) dove un'espansione lineare minima è un requisito rigoroso, specialmente in pozzi verticali e percorsi a lunga distanza.",
+        "seoTitle": "Sistemi di Tubi in PP-R e PP-RCT K-Aqua",
+        "faq": [
+          {
+            "q": "Qual è la differenza tra PP-R e PP-RCT?",
+            "a": "Il PP-RCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) ha una morfologia cristallina potenziata. Ciò conferisce al materiale una maggiore resistenza alla pressione a temperature elevate, permettendo pareti più sottili (SDR più alto) e portate migliorate senza sacrificare la longevità."
+          }
+        ]
       },
       "fittings": {
         "areas": "Rete idrica potabile, Impianti sanitari, Distribuzione industriale, Costruzione di impianti di riscaldamento",
@@ -898,7 +1927,16 @@
           "Flusso completo: Nessun restringimento della sezione trasversale, mantenendo la pressione del sistema.",
           "Resistenza chimica: Resistente a una varietà di fluidi aggressivi."
         ],
-        "seoText": "I raccordi K-Aqua sono il collegamento per reti di tubazioni affidabili. Prodotti in Germania, questi raccordi offrono la massima precisione e accuratezza dimensionale. La tecnologia di saldatura (saldatura a bicchiere) richiede solo pochi secondi e si raffredda in un giunto robusto quanto il tubo stesso. Ciò elimina il rischio di microperdite che spesso possono verificarsi dopo anni con i sistemi a pressare o a innesto."
+        "seoText": "I raccordi K-Aqua sono il collegamento per reti di tubazioni affidabili. Prodotti in Germania, questi raccordi offrono la massima precisione e accuratezza dimensionale. La tecnologia di saldatura (saldatura a bicchiere) richiede solo pochi secondi e si raffredda in un giunto robusto quanto il tubo stesso. Ciò elimina il rischio di microperdite che spesso possono verificarsi dopo anni con i sistemi a pressare o a innesto.",
+        "guideTitle": "La fisica della polifusione a bicchiere",
+        "guideText": "Per unire con successo tubo e raccordo, lo strato esterno del tubo e lo strato interno del raccordo vengono riscaldati contemporaneamente con utensili in alluminio rivestiti in Teflon a 260°C. Dopo l'unione senza torsioni, il materiale PP-R fuso dei due componenti si incrocia e cristallizza in un'unica massa solida e omogenea. L'assenza di guarnizioni meccaniche o chimiche sigillanti garantisce la massima igiene per l'acqua potabile (conforme a DVGW).",
+        "seoTitle": "Raccordi a Fusione K-Aqua in PP-R",
+        "faq": [
+          {
+            "q": "La saldatura resiste allo stesso livello di pressione del tubo?",
+            "a": "Sì, una saldatura in PP-R eseguita correttamente è fisicamente più resistente del tubo stesso e assicura una tenuta al 100% per l'intera durata operativa del sistema."
+          }
+        ]
       },
       "valves": {
         "areas": "Chiusura di colonna, Controllo del sistema, Armadi di distribuzione, Industria",
@@ -910,7 +1948,76 @@
           "Materiali di alta qualità: Sedi delle valvole e sfere realizzate con leghe resistenti alla corrosione.",
           "Chiusura sicura: 100% a tenuta stagna anche in caso di variazioni estreme di pressione e temperatura."
         ],
-        "seoText": "Le valvole di intercettazione K-Aqua combinano la collaudata tecnologia di saldatura PP-R con componenti meccanici di alta qualità. Consentono un controllo preciso dei fluidi e un isolamento sicuro delle sezioni di rete per i lavori di manutenzione. Prima della consegna, ogni valvola viene sottoposta a rigorosi test di pressione per garantire la massima affidabilità operativa in applicazioni critiche."
+        "seoText": "Le valvole di intercettazione K-Aqua combinano la collaudata tecnologia di saldatura PP-R con componenti meccanici di alta qualità. Consentono un controllo preciso dei fluidi e un isolamento sicuro delle sezioni di rete per i lavori di manutenzione. Prima della consegna, ogni valvola viene sottoposta a rigorosi test di pressione per garantire la massima affidabilità operativa in applicazioni critiche.",
+        "guideTitle": "Posizionamento Strategico delle Valvole nelle Reti in Polimero",
+        "guideText": "L'installazione di valvole di alta qualità è fondamentale per ridurre i tempi di inattività futuri durante espansioni del sistema o la risoluzione dei problemi. Le valvole K-Aqua PP-R possono essere integrate senza soluzione di continuità e in modo omogeneo (fuse) senza l'uso di raccordi a flangia o giunti metallici pesanti. Che si tratti di controllare i circuiti di acqua calda nei condomini o di isolare linee di fluidi industriali, garantiscono resistenza alla pressione a lungo termine e nessuna incrostazione sui sedi della valvola interna.",
+        "seoTitle": "Valvole K-Aqua in PP-R (Valvole a Sfera e a Sede Inclinata)",
+        "faq": [
+          {
+            "q": "Le valvole in PP-R richiedono lubrificazione e manutenzione periodica?",
+            "a": "No, le nostre valvole polimeriche e le unità interne in ottone cromato sono progettate per essere altamente resistenti all'usura e prive di incrostazioni, garantendo anni di funzionamento fluido senza manutenzione aggiuntiva."
+          }
+        ]
+      },
+      "weldInSaddles": {
+        "areas": "Ristrutturazioni, Estensioni di rete, Costruzione di impianti, Distribuzione HVAC",
+        "advTitle": "Diramazioni Efficienti Senza Taglio dei Tubi",
+        "advList": [
+          "Risparmio di Tempo: Non è necessario tagliare l'intero tubo per installare un raccordo a T.",
+          "Espansione del Sistema: Ideale per aggiungere successivamente derivazioni a reti PP-R in pressione esistenti.",
+          "Connessione Sicura: Polifusione molecolare del tubo principale e della sella.",
+          "Ingegneria di Precisione: Piena conformità di sistema con tolleranze di fusione tedesche."
+        ],
+        "seoText": "Le selle a saldare K-Aqua sono l'apice delle estensioni intelligenti delle reti di tubazioni. Invece di sezionare una condotta per l'acqua refrigerata e interrompere l'intera infrastruttura, si esegue il carotaggio della parete del tubo e si salda la sella a fusione direttamente al suo interno. Questo componente prodotto in Germania riduce drasticamente i tempi di installazione dell'HVAC garantendo al contempo una connessione PP-R a prova di perdite al 100% che dura decenni.",
+        "guideTitle": "Come estendere i sistemi in pressione con le Selle a Saldare in PP-R",
+        "guideText": "L'installazione di una sella in PP-R richiede trapani a tazza speciali forniti nell'ecosistema di strumenti K-Aqua. Dopo la foratura e la smussatura del tubo, l'utensile di saldatura della sella riscalda simultaneamente la parete del tubo e la superficie concava della sella. Questo processo collaudato garantisce un potenziamento rapido ed ermetico della rete idrica o chimica.",
+        "seoTitle": "Selle a Saldare K-Aqua PP-R",
+        "faq": [
+          {
+            "q": "Le selle a saldare possono resistere all'alta pressione?",
+            "a": "Assolutamente sì. La connessione fusa crea un'unione in PP-R omogenea in grado di sopportare le medesime pressioni nominali di esercizio (fino a PN20) del tubo principale stesso."
+          }
+        ]
+      },
+      "accessories": {
+        "areas": "Installazioni commercial, Linee isolate a lungo raggio, Supporto dell'infrastruttura, Sicurezza di rete",
+        "advTitle": "Il Complemento per un Ecosistema Perfetto",
+        "advList": [
+          "Stabilità: Staffe galvanizzate su misura prevengono il disallineamento dei tubi e cedimenti.",
+          "Integrità del Sistema: Progettato per consentire un movimento termico lineare controllato.",
+          "Controllo Pressione: Flange cieche ingegnerizzate per un isolamento sicuro e a lungo termine delle terminazioni.",
+          "Kit di Riparazione: Soluzioni di ripristino di emergenza per perforazioni accidentali in cantiere."
+        ],
+        "seoText": "Un sistema di tubazioni di alta gamma per acqua potabile richiede più di semplici tubi e raccordi. Con un portafoglio completo di collari metallici per tubi, guarnizioni per giunti flangiati e tappi di riparazione d'emergenza PP-R, K-Aqua fornisce la necessaria tranquillità strutturale. Questi componenti spesso trascurati ma fondamentali mantengono l'allineamento dei tubi sotto carichi termici ed evitano costosi ritardi operativi.",
+        "guideTitle": "Fissaggio e Riparazione per Infrastrutture Polimeriche a Lungo Termine",
+        "guideText": "In scenari di installazione industriale e commerciale complessi, l'espansione lineare dovuta alle fluttuazioni di temperatura dell'acqua è una sfida chiave per la progettazione. L'uso degli ancoraggi specifici e delle staffe per tubi di K-Aqua assicura che il sistema si espanda in modo sicuro nella direzione prevista, proteggendo le saldature per decenni. Inoltre, strumenti specializzati come i nostri tasselli di riparazione in PP-R prevengono catastrofi se un tubo nascosto viene perforato accidentalmente durante la costruzione in corso.",
+        "seoTitle": "Accessori e Dispositivi di Montaggio K-Aqua PP-R",
+        "faq": [
+          {
+            "q": "Perché usare supporti per tubi di marca invece di collari generici?",
+            "a": "I sistemi PP-R sperimentano forze di espansione uniche. Le staffe K-Aqua sono specificamente progettate sia come punti fissi che per scorrimento assiale senza danneggiare o deformare il rivestimento esterno del polimero."
+          }
+        ]
+      },
+      "tools": {
+        "areas": "Fabbricazione in officina, Assemblaggio in cantiere, Saldatura di selle, Saldatura testa a testa di grandi diametri",
+        "advTitle": "Attrezzature Termiche Superiori per Esecuzioni Impeccabili",
+        "advList": [
+          "Affidabilità Termica: Matrici di riscaldamento isolate in teflon per prevenire aderenza e contaminazione.",
+          "Saldature Precise: Microprocessori assicurano un riscaldamento costante e continuo di 260°C senza cadute di tensione.",
+          "Design Ergonomico: Cesoie leggere ma affilate per tagli a 90° e senza sbavature.",
+          "Sistemi CNC: Saldatrici testa a testa idrauliche per allineamenti tubi su vasta scala (fino a 250 mm)."
+        ],
+        "seoText": "L'artigianato migliore al mondo può dipendere dagli strumenti. Le saldatrici a polifusione a bicchiere prodotte da K-Aqua portano la precisione industriale nei cantieri globali. Con temperature superficiali rigidamente controllate e attrezzature di serraggio resistenti alle distorsioni, l'installatore detiene gli strumenti perfetti per fondere chimicamente e permanentemente l'infrastruttura del copolimero.",
+        "guideTitle": "Le Fondamenta degli Strumenti Professionali in PP-R",
+        "guideText": "Non vi è garanzia di un'installazione sicura se le matrici di riscaldamento sono degradate o incoerenti. K-Aqua fornisce all'installatore attrezzi rivestiti in teflon, cesoie manuali precise (fino a 40 mm) e tagliatubi professionali. Sostituire le superfici rivestite usurate regolarmente e utilizzare un utensile calibrato K-Aqua è una best practice per garantire che ogni fusione sia molecolarmente intatta e soddisfi le certificazioni ISO/DVGW.",
+        "seoTitle": "Saldatrici e Tagliatubi K-Aqua",
+        "faq": [
+          {
+            "q": "A quale temperatura dovrebbe essere impostata la saldatrice in PP-R?",
+            "a": "La temperatura standard e ideale di saldatura per l'unione dei tubi in PP-R e PP-RCT K-Aqua è esattamente 260°C (+/- 10°C in condizioni ambientali particolari)."
+          }
+        ]
       },
       "fallback": {
         "areas": "Tecnologia di installazione universale, Requisiti di cantiere, Complemento di sistema",
@@ -922,7 +2029,16 @@
           "Uso sicuro: Funzione garantita con uso corretto.",
           "Economicità: Eccellente rapporto qualità-prezzo."
         ],
-        "seoText": "Come fornitore di sistemi, K-Aqua fornisce non solo tubi e raccordi, ma anche tutti gli strumenti e gli accessori necessari. Dalla saldatrice ad alta precisione al tagliatubi affidabile, i nostri utensili garantiscono lavorazioni conformi agli standard e massima sicurezza di installazione. Affidati agli accessori originali per mantenere la garanzia del tuo intero sistema K-Aqua."
+        "seoText": "Come fornitore di sistemi, K-Aqua fornisce non solo tubi e raccordi, ma anche tutti gli strumenti e gli accessori necessari. Dalla saldatrice ad alta precisione al tagliatubi affidabile, i nostri utensili garantiscono lavorazioni conformi agli standard e massima sicurezza di installazione. Affidati agli accessori originali per mantenere la garanzia del tuo intero sistema K-Aqua.",
+        "guideTitle": "Sinergia Completa per Grandi Progetti in PP-R",
+        "guideText": "Un impianto in polimero su larga scala richiede più di tubi superiori: richiede un ecosistema. Dalle transizioni in ottone all'utensileria specializzata per le selle, ogni elemento del nostro portafoglio lavora di concerto per ottimizzare la stabilità, il tempo di assemblaggio e l'igienicità della rete (DVGW, SKZ, KIWA).",
+        "seoTitle": "Il Sistema PP-R K-Aqua Completo",
+        "faq": [
+          {
+            "q": "Tutti i componenti del sistema provengono da K-Aqua?",
+            "a": "Sì, per mantenere la massima longevità e l'idoneità alla garanzia, offriamo un ecosistema completamente omogeneo di tubi, raccordi, valvole e accessori."
+          }
+        ]
       }
     },
     "labels": {
@@ -3015,6 +4131,86 @@
     ]
   },
   "academy": {
+    "eyebrow": "Masterclass di Saldatura",
+    "title1": "La Saldatura Perfetta a",
+    "titleGrad": "Bicchiere",
+    "lead": "Padroneggia il principio della polifusione. Impara ad unire tubi e raccordi in PP-R a livello molecolare. Nessuna guarnizione, nessun punto debole.",
+    "videos": [
+      {
+        "t": "Saldatura a bicchiere manuale",
+        "s": "fino a d63 — saldatore manuale"
+      },
+      {
+        "t": "Saldatura a bicchiere con macchina",
+        "s": "dimensioni medie"
+      },
+      {
+        "t": "Elettrosaldatura",
+        "s": "raccordi a resistenza elettrica"
+      },
+      {
+        "t": "Saldatura di testa",
+        "s": "grandi dimensioni fino a d630"
+      }
+    ],
+    "quizEyebrow": "Verifica le tue Conoscenze",
+    "quizTitle": "Sei un Maestro Saldatore?",
+    "intro": "Metti alla prova la tua comprensione della saldatura per polifusione del PP-R. Questo quiz rapido copre temperature, tempi e tecniche.",
+    "start": "Inizia il Quiz",
+    "qLabel": "Domanda",
+    "quiz": [
+      {
+        "q": "Qual è la temperatura di saldatura corretta per il PP-R?",
+        "options": [
+          "200°C - 210°C",
+          "260°C +/- 10°C",
+          "300°C"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Cosa accade se un tubo viene surriscaldato durante la saldatura?",
+        "options": [
+          "Niente, il PP-R è termicamente stabile.",
+          "Il tubo potrebbe fondersi troppo e ostruire parzialmente il diametro interno.",
+          "La saldatura diventerà semplicemente più resistente."
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Puoi ruotare il tubo e il raccordo durante l'unione (dopo averli estratti dall'attrezzo riscaldante)?",
+        "options": [
+          "Sì, puoi ruotarli quanto vuoi finché non si raffreddano.",
+          "Solo di 90 gradi per allinearli.",
+          "No, ruotare le parti riduce la resistenza e può causare perdite."
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Cosa indica l'anello visibile attorno alla saldatura finita?",
+        "options": [
+          "Indica che i pezzi sono stati spinti troppo a fondo nell'attrezzo.",
+          "È l'indicatore di una saldatura eseguita correttamente (due cordoni continui di materiale).",
+          "Significa che l'attrezzo era troppo freddo."
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qual è lo scopo dei fori in una sella a saldare?",
+        "options": [
+          "Per fissare meccanicamente la sella prima della saldatura.",
+          "Per ridurre il peso del raccordo.",
+          "Nessuno, il raccordo si salda semplicemente sopra il tubo."
+        ],
+        "answer": 0
+      }
+    ],
+    "resPerfect": "Eccezionale! Conosci i sistemi K-Aqua alla perfezione. Sei pronto per qualsiasi cantiere.",
+    "resGood": "Buon lavoro! Hai una solida comprensione, ma alcune linee guida potrebbero necessitare di un ripasso.",
+    "resLow": "Sembra che tu debba guardare i video con più attenzione. La precisione è fondamentale nell'ingegneria tedesca.",
+    "retry": "Riprova",
+    "titlePerfect": "Maestro Saldatore K-Aqua",
+    "titleGood": "Installatore Qualificato",
     "schulungen": {
       "meta": {
         "title": "Formazione | K-Aqua",
@@ -3560,7 +4756,29 @@
     ],
     "doneTitle": "Quasi fatto.",
     "doneText": "Il tuo programma email si è aperto con la richiesta precompilata. Inviala e ti contatteremo entro un giorno lavorativo. Preferisci parlare direttamente?",
-    "doneBack": "Torna alla Home"
+    "doneBack": "Torna alla Home",
+    "infoTitle": "Informazioni sulla richiesta di progetto",
+    "infoText1": "Usa il nostro strumento di richiesta per coordinare fin dall'inizio il tuo progetto edilizio o industriale con i nostri esperti. Che tu sia nella fase di progettazione o che tu abbia già distinte base concrete, ti supportiamo nel dimensionamento e nella selezione dei materiali.",
+    "infoText2": "Lavorando a stretto contatto con le vendite K Aqua, non ricevi solo offerte precise, ma anche preziose consulenze tecniche per quanto riguarda le classi di pressione (SDR), i metodi di installazione e gli accessori compatibili con il sistema. Inviaci i tuoi dati e ti contatteremo entro un giorno lavorativo.",
+    "faqTitle": "Domande Frequenti sulla Richiesta",
+    "faqs": [
+      {
+        "q": "La richiesta di progetto è a pagamento?",
+        "a": "No, l'utilizzo di questo strumento e la successiva creazione dell'offerta da parte del nostro team di vendita sono per te completamente gratuiti e senza alcun impegno."
+      },
+      {
+        "q": "Cosa succede dopo aver inviato la richiesta?",
+        "a": "La tua richiesta viene inoltrata direttamente al nostro ufficio vendite interno. Un referente personale ti contatterà entro 24 ore per chiarire eventuali domande o per presentarti direttamente un'offerta su misura."
+      },
+      {
+        "q": "Posso fare una richiesta anche come privato?",
+        "a": "K Aqua si rivolge principalmente a grossisti, progettisti e installatori professionisti nel settore B2B. Saremo lieti di indirizzare i clienti privati verso i nostri partner specializzati regionali."
+      },
+      {
+        "q": "Quanto sono sicuri i miei dati?",
+        "a": "I tuoi dati non vengono salvati sul server, ma trasferiti direttamente al tuo programma di posta elettronica, da cui invierai la richiesta in modo sicuro. Trattiamo i tuoi dati in modo strettamente confidenziale secondo le direttive del GDPR."
+      }
+    ]
   },
   "geoContent": {
     "frankfurt": {
@@ -5239,6 +6457,16 @@
           "id": "section-vat",
           "title": "Partita IVA",
           "content": "USt-IdNr/P. IVA:\nDE 296238486"
+        },
+        {
+          "id": "section-design",
+          "title": "Design e Direzione Tecnica",
+          "content": "Antigravity Engineering\nwww.antigravity.dev"
+        },
+        {
+          "id": "section-liability",
+          "title": "Esclusione di Responsabilità",
+          "content": "Il contenuto del nostro sito web è stato creato con la massima cura. Tuttavia, non possiamo garantire che il contenuto sia accurato, completo o aggiornato. Ai sensi del § 7 (1) TMG, noi come fornitori di servizi siamo responsabili dei nostri contenuti su queste pagine in base alle leggi generali."
         }
       ]
     },
@@ -5352,7 +6580,9 @@
         "title": "Qualità testata",
         "desc": "Prodotto e testato secondo le normative ISO 9001."
       }
-    ]
+    ],
+    "extendedProductText": "Ciascuno dei nostri tubi in PP-R e PP-RCT e dei relativi raccordi è fabbricato per la massima longevità e affidabilità nei grandi progetti.",
+    "extendedMarketText": "Esplora il nostro catalogo in base al mercato. I sistemi K-Aqua sono certificati per ospedali, impianti industriali e complessi residenziali di lusso."
   },
   "application": {
     "tabs": {
@@ -5447,11 +6677,12 @@
   "resources": {
     "support": {
       "title": "Supporto Tecnico",
+      "metaTitle": "Supporto Tecnico e Assistenza per Sistemi di Tubazioni in PP-R",
       "metaDesc": "Supporto Tecnico K-Aqua – Sicurezza senza compromessi grazie all'ingegneria tedesca per megaprogetti globali.",
       "seoText": {
-        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
-        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
-        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+        "p1": "Il supporto tecnico di K-Aqua è la spina dorsale dei nostri progetti infrastrutturali globali. Sappiamo che ogni secondo conta nell'installazione di sistemi di tubazioni industriali e linee ad alte prestazioni in PP-R. Il nostro team di esperti per la tecnologia dei fluidi e i sistemi polimerici assiste appaltatori generali, architetti e ingegneri civili internazionali in ogni fase del processo.",
+        "p2": "Dalla pianificazione iniziale e i calcoli isometrici fino al layout delle perdite di carico e al monitoraggio del processo di saldatura in cantiere: garantiamo un'implementazione impeccabile. I nostri sistemi in copolimero random di polipropilene (PP-R) richiedono il massimo livello di lavorazione. Ecco perché la nostra Academy offre formazione continua, mentre il nostro supporto interviene in caso di complesse sfide di dilatazione termica o requisiti specifici di pressione dei fluidi.",
+        "p3": "Utilizzando strumenti diagnostici all'avanguardia e algoritmi di manutenzione predittiva, riduciamo i tempi di fermo al minimo assoluto. Che si tratti di sistemi per acqua fredda in regioni desertiche, impianti industriali ad alta purezza o reti di riscaldamento in zone artiche, l'infrastruttura di supporto K-Aqua garantisce un funzionamento fluido e una durata senza compromessi del vostro investimento."
       },
       "sticky": {
         "items": [
@@ -6460,49 +7691,59 @@
     "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
     "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
-    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Tubo multistrato composito con guaina protettiva UV speciale per uso esterno (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Tubo composito ad alte prestazioni (PPRCT) con strato protettivo UV nero per installazioni esterne impegnative (SDR 7.4).",
+    "tools_hand-welding-machine-20-32_desc": "Saldatrice a bicchiere compatta in set completo per piccole dimensioni da d20 a d32 mm.",
+    "tools_hand-welding-machine-20-63_desc": "Saldatrice a bicchiere versatile in set (piastra riscaldante, supporto, matrici) per tubi da d20 a d63 mm.",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Supporto a gomito da parete singolo per il fissaggio sicuro a muro di rubinetterie (FI).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Fissaggio a parete doppio per connessioni avvitate estremamente stabili."
   },
   "customerReviews": {
-    "eyebrow": "Quality that Connects",
-    "title": "What our Customers and Partners Say",
-    "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
-    "trustBadge": "Google Reviews",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(Based on 44 reviews)",
-    "tabA": "Quality & Made in Germany",
-    "tabB": "Logistics & Delivery",
-    "tabC": "Service & People",
+    "eyebrow": "Qualità che connette",
+    "title": "Cosa dicono i nostri clienti e partner",
+    "lead": "Dai costruttori ai partner logistici fino ai dipendenti di lunga data: K-Aqua KWT GmbH è sinonimo di massima precisione da Waldsolms. Leggi tu stesso le esperienze che le persone vivono quotidianamente con il nostro servizio e i nostri prodotti 'Made in Germany'.",
+    "trustBadge": "Recensioni di Google",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(Basato su 44 recensioni)",
+    "tabA": "Qualità e Made in Germany",
+    "tabB": "Logistica e consegna",
+    "tabC": "Servizio e Persone",
     "reviews": {
-      "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+      "a1": "“Uno stabilimento a Waldsolms, in Germania, specializzato in tubi e raccordi in PPR **Made in Germany**. Personale eccellente.”",
       "a1Author": "Giulio C.",
-      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+      "a2": "“**Qualità tedesca** in tubi e raccordi PPR, personale molto cordiale.”",
       "a2Author": "Veronica P.",
-      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+      "a3": "“**Azienda moderna**. Produce tubi in plastica di tutte le dimensioni e accessori.”",
       "a3Author": "Ewald S.",
-      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+      "a4": "“Tubi e raccordi in PPR di **produzione tedesca**, eccellenti dipendenti e prodotti.”",
       "a4Author": "Kais S.",
-      "a5": "“**High-quality products** and a top German factory.”",
+      "a5": "“**Prodotti di alta qualità** e una fabbrica tedesca al top.”",
       "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+      "a6": "“Prodotti molto buoni, **qualità affidabile** e consegna puntuale.”",
+      "a6Author": "Klaus T.",
+      "b1": "“Gestione molto gentile, **scarico veloce**. Ho potuto fare la mia lunga pausa qui. Mi sono stati offerti anche doccia e servizi igienici. Qui ti senti **apprezzato** come camionista. Mi piacerebbe tornare di nuovo qui.”",
       "b1Author": "Michael S.",
-      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+      "b2": "“Le coordinate attuali dell'ingresso sono **50.428210, 8.499154**. C'è un parcheggio a circa 100 metri di distanza. Personale cordiale.”",
       "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Fast unloading**, friendly and helpful staff.”",
+      "b3": "“**Scarico veloce**, personale cordiale e disponibile.”",
       "b3Author": "Bogdan M.",
-      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1": "“**Servizio molto buono** – fantastico che producano ancora in Germania.”",
       "c1Author": "Daniel",
-      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+      "c2": "“Personale **molto cordiale** e disponibile. Le e-mail ricevono **risposte tempestive**.”",
       "c2Author": "Mohamed M.",
-      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3": "“Dal presidente agli operai – sono **brave persone**.”",
       "c3Author": "Azim",
-      "c4": "“**Great company**, does a lot for its people.”",
+      "c4": "“**Ottima azienda**, fa molto per le sue persone.”",
       "c4Author": "Monika v. B.",
-      "c5": "“The employees are **very friendly and helpful**.”",
-      "c5Author": "Piera V."
+      "c5": "“I dipendenti sono **molto cordiali e disponibili**.”",
+      "c5Author": "Piera V.",
+      "c6": "“Team competente e un **eccellente servizio clienti** a tutti i livelli.”",
+      "c6Author": "Sarah B."
     },
-    "ctaTitle": "Convince yourself of our service.",
-    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
-    "ctaBtn": "Get in touch now",
+    "ctaTitle": "Convinciti del nostro servizio.",
+    "ctaText": "Hai domande sui nostri sistemi di tubazioni in PPR o desideri discutere di un progetto con noi? Il nostro team a Waldsolms è a tua disposizione.",
+    "ctaBtn": "Contattaci ora",
     "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   },
   "kontaktBlocks": {
@@ -6974,5 +8215,57 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "trustAndCases": {
+    "eyebrow": "Fiducia Globale",
+    "title": "Usato nei progetti più esigenti del mondo.",
+    "lead": "I sistemi di tubazioni K-Aqua non sono solo testati nei laboratori tedeschi; operano in ambienti di pressione critica a livello globale. Esplora dove e perché gli ingegneri si affidano al nostro sistema PP-R.",
+    "trustTitle": "Fiducia attraverso i certificati",
+    "iso9001": "Gestione della qualità certificata",
+    "iso14001": "Gestione ambientale certificata",
+    "iso50001": "Gestione dell'energia certificata",
+    "madeInGermany": "Prodotto secondo i più alti standard a Waldsolms",
+    "readMore": "Leggi lo studio del caso",
+    "case1Title": "Raffreddamento Industriale Dubai",
+    "case1Desc": "12 km di PP-RCT in condizioni di caldo estremo nel deserto.",
+    "case2Title": "Rete di Grattacieli Francoforte",
+    "case2Desc": "Riduzione assoluta del rumore e stabilità della pressione.",
+    "case3Title": "Resort per Acqua Potabile Maldive",
+    "case3Desc": "100% privo di corrosione nonostante l'aria salmastra.",
+    "cases": {
+      "dubai": {
+        "title": "Torri di Raffreddamento ad Alta Pressione a Dubai",
+        "desc": "Consegna di sistemi PP-RCT su larga scala (fino a d400) per la rete di raffreddamento del distretto in temperature estreme, garantendo un'efficienza termica senza perdite."
+      },
+      "frankfurt": {
+        "title": "Torre per Uffici Commerciali, Francoforte",
+        "desc": "Installazione idraulica completa per acqua potabile e refrigerata. Scelto per la certificazione DVGW e l'eccellente isolamento acustico negli edifici alti."
+      },
+      "singapore": {
+        "title": "Impianto Industriale per Semiconduttori, Singapore",
+        "desc": "Impiego di tubi K-Fiber UV e PP-RCT per il trasporto di fluidi chimici. Integrità del sistema cruciale in condizioni di camera bianca."
+      }
+    }
+  },
+  "seoArticle": {
+    "title": "K-Aqua Sistemi in PP-R e PP-RCT: La Scelta Premium dalla Germania",
+    "p1": "Come produttore tedesco leader di soluzioni in PP-R e PP-RCT, KWT GmbH produce sistemi di tubazioni K-Aqua progettati per decenni di durata ineccepibile. I nostri prodotti uniscono materie prime di altissima qualità (granulato Tipo 3) ad una produzione di precisione a Waldsolms.",
+    "p2": "L'innovativa tecnologia K-Fiber (strato intermedio rinforzato con fibre di vetro) riduce al minimo l'espansione lineare e fornisce una stabilità senza pari per installazioni di acqua calda e fredda. Testati severamente e certificati a livello globale (DVGW, SKZ, KIWA), i sistemi K-Aqua offrono massima sicurezza igienica per acqua potabile, assoluta resistenza alla corrosione e tolleranze dimensionali millimetriche in ogni fase di installazione.",
+    "p3": "Dai grattacieli a Dubai alle strutture industriali nel sud-est asiatico, ingegneri e installatori in tutto il mondo si affidano all'insuperabile qualità 'Made in Germany' di K-Aqua per infrastrutture a prova di futuro.",
+    "faqTitle": "Domande Frequenti",
+    "faq": [
+      {
+        "q": "Dove vengono prodotti i sistemi K-Aqua?",
+        "a": "Tutti i tubi e i raccordi in PP-R K-Aqua sono prodotti esclusivamente nel nostro stabilimento tedesco a Waldsolms, garantendo standard di qualità senza compromessi (Made in Germany)."
+      },
+      {
+        "q": "Quali sono i vantaggi dei tubi in PP-R rispetto ai tubi metallici?",
+        "a": "I tubi in PP-R (copolimero random di polipropilene) non si corrodono, impediscono l'incrostazione (nessun accumulo di calcare), sono chimicamente neutri per l'acqua potabile (certificazione DVGW) e garantiscono prestazioni costanti nel tempo con un eccellente isolamento acustico."
+      },
+      {
+        "q": "Qual è l'aspettativa di vita di un'installazione K-Aqua?",
+        "a": "Se installati correttamente secondo le linee guida operative (ISO 9080), i sistemi in PP-R e PP-RCT K-Aqua sono progettati per una durata operativa di oltre 50 anni, anche in condizioni di pressione continua."
+      }
+    ]
   }
 }

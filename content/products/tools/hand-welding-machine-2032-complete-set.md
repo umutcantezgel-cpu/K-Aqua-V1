@@ -1,7 +1,7 @@
 ---
 title: "Hand Welding Machine d20-d32"
 category: "Tools"
-slug: "tools/hand-welding-machine-20-32"
+slug: "tools/hand-welding-machine-2032-complete-set"
 article_codes: ["AQ98032"]
 ---
 

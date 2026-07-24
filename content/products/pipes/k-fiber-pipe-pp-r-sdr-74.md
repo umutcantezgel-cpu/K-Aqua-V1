@@ -1,7 +1,7 @@
 ---
 title: "K-Fiber Pipe PP-R SDR 7.4"
 category: "Pipes"
-slug: "pipes/k-fiber-pipe-pp-r-sdr-7-4"
+slug: "pipes/k-fiber-pipe-pp-r-sdr-74"
 article_codes: ["AQ207PF20", "AQ207PF25", "AQ207PF32", "AQ207PF40", "AQ207PF50"]
 ---
 

@@ -64,18 +64,18 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | d (mm) | SDR | Material |
 |---------|--------------|--------|-----|----------|
-| [K-Fiber Pipe PP-R SDR 7.4](./pipes/k-fiber-pipe-pp-r-sdr-7-4.md) | AQ207PF20–AQ207PF50 | 20–50 | 7.4 | PP-R + Fiber |
+| [K-Fiber Pipe PP-R SDR 7.4](./pipes/k-fiber-pipe-pp-r-sdr-74.md) | AQ207PF20–AQ207PF50 | 20–50 | 7.4 | PP-R + Fiber |
 | [K-Fiber Pipe PP-R SDR 9](./pipes/k-fiber-pipe-pp-r-sdr-9.md) | AQ169PF32–AQ169PF75 | 32–75 | 9 | PP-R + Fiber |
 | [K-Fiber Pipe PP-R SDR 11](./pipes/k-fiber-pipe-pp-r-sdr-11.md) | AQ11PF20–AQ11PF50 | 20–50 | 11 | PP-R + Fiber |
 | [K-Fiber Pipe PP-R SDR 17](./pipes/k-fiber-pipe-pp-r-sdr-17.md) | AQ17PF90–AQ17PF200 | 90–200 | 17 | PP-R + Fiber |
-| [K-Fiber Pipe PP-RCT SDR 7.4](./pipes/k-fiber-pipe-pp-rct-sdr-7-4.md) | AQ200F20–AQ200F50 | 20–50 | 7.4 | PP-RCT + Fiber |
-| [K-Fiber UV Pipe PP-R SDR 7.4](./pipes/k-fiber-uv-pipe-pp-r-sdr-7-4.md) | AQ200PFUV20–50 | 20–50 | 7.4 | PP-R + UV |
-| [K-Fiber UV Pipe PP-RCT SDR 7.4](./pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4.md) | AQ200FUVCT20–50 | 20–50 | 7.4 | PP-RCT + UV |
+| [K-Fiber Pipe PP-RCT SDR 7.4](./pipes/k-fiber-pipe-pp-rct-sdr-74.md) | AQ200F20–AQ200F50 | 20–50 | 7.4 | PP-RCT + Fiber |
+| [K-Fiber UV Pipe PP-R SDR 7.4](./pipes/k-fiber-uv-pipe-pp-r-sdr-74.md) | AQ200PFUV20–50 | 20–50 | 7.4 | PP-R + UV |
+| [K-Fiber UV Pipe PP-RCT SDR 7.4](./pipes/k-fiber-uv-pipe-pp-rct-sdr-74.md) | AQ200FUVCT20–50 | 20–50 | 7.4 | PP-RCT + UV |
 | [K-Fiberclima Pipe PP-RCT SDR 11](./pipes/k-fiberclima-pipe-pp-rct-sdr-11.md) | AQ160F20–AQ160F50 | 20–50 | 11 | PP-RCT + Fiber |
 | [K-Pipe PP-R SDR 6](./pipes/k-pipe-pp-r-sdr-6.md) | AQ200P20–AQ200P50 | 20–50 | 6 | PP-R |
 | [K-Pipe PP-R SDR 11](./pipes/k-pipe-pp-r-sdr-11.md) | AQ11P20–AQ11P50 | 20–50 | 11 | PP-R |
 | [K-Pipe PP-R Purple SDR 11](./pipes/k-pipe-purple-pp-r-sdr-11.md) | AQ11PL20–AQ11PL50 | 20–50 | 11 | PP-R |
-| [K-Pipe PP-RCT SDR 7.4](./pipes/k-pipe-pp-rct-sdr-7-4.md) | AQ20020–AQ20050 | 20–50 | 7.4 | PP-RCT |
+| [K-Pipe PP-RCT SDR 7.4](./pipes/k-pipe-pp-rct-sdr-74.md) | AQ20020–AQ20050 | 20–50 | 7.4 | PP-RCT |
 
 ---
 

@@ -51,9 +51,56 @@ export const geothermieErdwaerme: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Solefluss */}
             <PipeFX variant="flow" size={380} />
           </div>
+        </div>
+      </Reveal>
+
+      {/* Deep Technical Prose Area */}
+      <Reveal>
+        <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+          <h2>Tiefengeothermie und Erdwärmepumpen: Warum K Aqua PP-R Rohre den Untergrund beherrschen</h2>
+          <p>
+            Im Kampf gegen den Klimawandel und für die Unabhängigkeit von fossilen Brennstoffen spielen Wärmepumpen die zentrale Rolle. Die effizienteste Form der Wärmepumpentechnik ist die Sole/Wasser-Wärmepumpe, die ihre Energie aus dem Erdreich (Geothermie) bezieht. Anders als die Außenluft, die im Winter eiskalt ist, bietet das Erdreich ab einer gewissen Tiefe eine konstante, verlässliche Wärmequelle von ca. 10 °C bis 12 °C. Das Bindeglied zwischen der Erde und der Heizungsanlage im Haus sind Erdwärmesonden oder Erdwärmekollektoren. Da diese Rohrleitungen tief in der Erde vergraben oder einbetoniert werden und eine Reparatur faktisch unmöglich ist, sind die Anforderungen an das Material extrem. K Aqua PP-R (Polypropylen) Rohrsysteme bieten hier die ultimative Sicherheit.
+          </p>
+          
+          <h3>Die Feinde im Erdreich: Verrottung und Außendruck</h3>
+          <p>
+            Ein Rohr, das 100 Meter tief in die Erde gebohrt wird, ist gewaltigen Belastungen ausgesetzt. Metalle würden im feuchten Milieu des Grundwassers innerhalb kürzester Zeit wegrosten. Selbst manche Kunststoffe können über die Jahrzehnte durch Mikroorganismen im Boden oder durch aggressive mineralische Salze angegriffen werden.
+          </p>
+          <p>
+            PP-R ist ein absolut unverrottbarer, biostabiler Kunststoff. Weder Bakterien noch Pilze oder feuchte Erdsäuren können die hochmolekulare Kette des Polypropylens zerstören. Ein weiterer massiver Faktor ist der physikalische Druck: In 100 Metern Tiefe herrscht durch die Erdmassen und die Grundwassersäule ein enormer hydrostatischer Außendruck auf das Rohr. Wählt man das Rohr zu dünnwandig, kollabiert (implodiert) es beim Einbringen oder Verpressen des Bohrlochs. K Aqua bietet hier hochdruckfeste SDR-Klassen (z. B. SDR 7.4 oder SDR 6), die diesem radialen Außendruck problemlos standhalten und eine jahrzehntelange strukturelle Integrität garantieren.
+          </p>
+
+          <h3>Absolute Dichtheit schützt das Grundwasser</h3>
+          <p>
+            In den Rohren der Erdwärmesonde zirkuliert kein reines Wasser, sondern eine "Sole" (meist ein Wasser-Glykol-Gemisch). Dieses Frostschutzmittel verhindert, dass die Anlage einfriert, wenn die Wärmepumpe der Erde sehr viel Energie entzieht.
+          </p>
+          <p>
+            Glykol ist grundwassergefährdend. Ein Leck in 50 Metern Tiefe wäre eine ökologische Katastrophe und würde massive Strafen für den Bauherren nach sich ziehen. Genau deshalb sind mechanische Verbindungen (wie Schraub- oder Pressfittings mit Gummi-Dichtringen), die im Laufe der Jahre porös werden können, im Erdreich tabu. K Aqua Rohre und Fittings (z.B. der Sondenfuß) werden durch Heizelement-Muffenschweißung oder Elektroschweißmuffen thermisch verschmolzen. Das Rohrnetz wird zu einem einzigen, endlosen, homogenen Strang. Es gibt keine Schwachstellen. Das System ist 100 % leckagesicher.
+          </p>
+
+          <h3>Installation: Von der Tiefenbohrung bis zum Verteilerschacht</h3>
+          <p>
+            Die Installation einer klassischen Erdwärmesonde (Doppel-U-Sonde) erfordert Präzision. Nach der Tiefenbohrung (oft durch Fels und Gestein) wird die vorgefertigte K Aqua Sonde – beschwert durch spezielle Sondenfußgewichte – in das Bohrloch abgelassen. 
+          </p>
+          <p>
+            Danach folgt der wichtigste thermodynamische Schritt: Das Verpressen (Verfüllen). Das Bohrloch wird von unten nach oben mit einer wärmeleitfähigen Bentonit-Zement-Suspension hohlraumfrei verfüllt. Dies sorgt dafür, dass die K Aqua Rohre perfekten Kontakt zum umliegenden Gestein haben und die Erdwärme optimal auf die im Rohr zirkulierende Sole übertragen werden kann. Alle Sonden des Grundstücks (oft 3 oder 4 Stück) werden dann in einem frostsicheren Verteilerschacht zusammengeführt. Hier erfolgt der Abgleich der Durchflussmengen, bevor die dicke Sammelleitung in den Heizungskeller zur Wärmepumpe führt.
+          </p>
+
+          <h3>Häufig gestellte Fragen (FAQ) zur Geothermie</h3>
+          <h4>Was ist der Unterschied zwischen Sonden und Kollektoren?</h4>
+          <p>
+            Erdwärmesonden werden vertikal (meist 50 bis 100 Meter) in die Tiefe gebohrt. Sie benötigen extrem wenig Platz auf dem Grundstück und profitieren von konstanten Temperaturen. Erdwärmekollektoren werden horizontal (wie eine Fußbodenheizung) in ca. 1,5 Metern Tiefe im Garten vergraben. Hierfür wird viel Fläche benötigt, und die Wärmequelle reagiert stärker auf die Jahreszeiten. K Aqua Rohre sind für beide Systeme perfekt geeignet.
+          </p>
+          <h4>Was passiert bei einem Phasenwechsel (Gefrieren) im Rohr?</h4>
+          <p>
+            Wenn die Sole ausfällt und reines Wasser im Rohr gefriert (z.B. in Eisspeichersystemen), dehnt sich das Eis aus und würde Metalle sofort sprengen. PP-R ist zäh und elastisch. Es toleriert das Gefrieren des Mediums in gewissem Maße, ohne sofort zu platzen, was eine zusätzliche Sicherheitsreserve für die Anlage darstellt.
+          </p>
+          <h4>Ist PP-R beständig gegen Ethylen- oder Propylenglykol?</h4>
+          <p>
+            Ja, vollkommen. Die molekulare Struktur von K Aqua PP-R ist hochgradig resistent gegen die branchenüblichen Frostschutzmittel (Glykole), Inhibitoren und Korrosionsschutzzusätze. Es findet keine chemische Zersetzung statt.
+          </p>
         </div>
       </Reveal>
 

@@ -1,7 +1,7 @@
 ---
 title: "K-Fiber UV Pipe PP-RCT SDR 7.4"
 category: "Pipes"
-slug: "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4"
+slug: "pipes/k-fiber-uv-pipe-pp-rct-sdr-74"
 article_codes: ["AQ200FUVCT20", "AQ200FUVCT25", "AQ200FUVCT32", "AQ200FUVCT40", "AQ200FUVCT50"]
 ---
 

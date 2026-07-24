@@ -1,7 +1,7 @@
 ---
 title: "Backing Flange PP-Steel (SF/BF)"
 category: "Accessories"
-slug: "accessories/backing-flange"
+slug: "accessories/backing-flange-pp-steel-sfbf"
 article_codes: ["AQ575040","AQ575050","AQ575063","AQ575075","AQ575090","AQ575110","AQ575125","AQ575160","AQ575200","AQ575250","AQ575315"]
 ---
 

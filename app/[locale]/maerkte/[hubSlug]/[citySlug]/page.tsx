@@ -162,6 +162,12 @@ export default async function GeoCityPage({ params }: Props) {
           <p>{tSeo('extendedMarketText.p3')}</p>
         </div>
       )}
+
+      {tGeo.has(`markets.${market.slug}.description`) && (
+        <div className="max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16 seo-market-content">
+          <div dangerouslySetInnerHTML={{ __html: tGeo.raw(`markets.${market.slug}.description`) }} />
+        </div>
+      )}
     </>
   );
 }

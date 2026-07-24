@@ -172,6 +172,46 @@ export const rueckverfolgbarkeit: NewsPost = {
         </Reveal>
       </section>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Die Philosophie der absoluten Rückverfolgbarkeit</h2>
+        <p>
+          In der technischen Gebäudeausrüstung (TGA) entscheidet die Integrität des Rohrleitungssystems über die Langzeitsicherheit und den Wert der gesamten Immobilie. Ein Rohrbruch oder eine schleichende Leckage hinter verputzten Wänden oder in Beton gegossenen Schächten führt unweigerlich zu enormen wirtschaftlichen Schäden. In einem solchen Krisenfall verlangen Versicherungen, Bauherren und Sachverständige sofort nach der Ursache. Ohne eine lückenlose Rückverfolgbarkeit (Traceability) stünde der Hersteller vor einem unlösbaren forensischen Problem. Aus diesem Grund hat K-Aqua das Konzept der Datentransparenz und Kennzeichnung in der Extrusion von PP-R und PP-RCT Rohrsystemen auf die absolute Spitze der Industrie-4.0-Standards getrieben.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das Prinzip der Continuous-Inkjet-Codierung</h3>
+        <p>
+          Unsere Extruder verarbeiten das heiße, zähflüssige Polypropylen-Random-Copolymer (PP-R) bei Temperaturen von über 200 Grad Celsius. Direkt nach dem Verlassen des Extrusionswerkzeugs durchläuft das frisch geformte Rohr lange Vakuum- und Kühlbäder. Sobald die äußere Schicht stabilisiert ist, erfolgt die Markierung. Dies geschieht durch hochpräzise Continuous-Inkjet-Drucker (CIJ). Bei diesem Verfahren feuert eine Düse mikroskopisch kleine Tintentropfen durch ein elektrostatisch gesteuertes Feld. Die Tropfen werden im Flug abgelenkt und treffen exakt an der berechneten Position auf die rasend schnelle Rohroberfläche auf.
+        </p>
+        <p>
+          Da das Rohr zu diesem Zeitpunkt noch eine hohe Restwärme besitzt, verschmilzt die Spezialtinte auf molekularer Ebene mit der PP-R-Matrix. Der Aufdruck trocknet in Bruchteilen einer Sekunde und wird wischfest, abriebfest und extrem witterungsbeständig. Dieser berührungslose Druckprozess garantiert, dass die empfindliche Oberfläche des Rohrs nicht durch mechanische Prägestempel verletzt oder in ihrer Spannungsverteilung geschwächt wird.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Die Dekodierung des Datenstrangs</h2>
+        <p>
+          Die auf dem Rohr angebrachte Signatur ist kein simples Logo, sondern ein kompakter, fortlaufender Datenstrang, der sich jeden Meter wiederholt. Er ist der genetische Fingerabdruck des jeweiligen Bauteils. Der Aufdruck beinhaltet zunächst die Basisparameter: Hersteller (K-Aqua), Materialklassifikation (z. B. PP-RCT oder PP-R), Außendurchmesser (DN), Wandstärke und die genormte SDR-Klasse (Standard Dimension Ratio). Diese Parameter sind für den Installateur auf der Baustelle überlebenswichtig, da sie das versehentliche Verschweißen von Rohren unterschiedlicher Druckstufen (z. B. PN10 für Kaltwasser mit PN20 für Heißwasser) ausschließen.
+        </p>
+        <p>
+          Doch der eigentliche Kern der Rückverfolgbarkeit liegt in den Produktionsmetadaten. Exakt kodiert sind das Produktionsdatum (Tag, Monat, Jahr), die präzise Uhrzeit (Stunde, Minute), die Identifikationsnummer der spezifischen Extrusionslinie sowie die Chargennummer des verarbeiteten Polypropylen-Granulats.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Digitale Kopplung und forensische Qualitätskontrolle</h3>
+        <p>
+          Sobald ein Meter Rohr mit einem Zeitstempel versehen wird, koppelt das SCADA-System der Fabrik diesen Zeitstempel mit tausenden digitalen Messpunkten der Maschine. In der Datenbank wird für immer gespeichert, unter welchem Schmelzedruck, welcher Werkzeugtemperatur, welcher Abzugsgeschwindigkeit und mit welcher Viskosität des Granulats dieser spezifische Meter Rohr gefertigt wurde. Gleichzeitig dokumentieren integrierte Ultraschall-Messanlagen, die die Wandstärke des Rohrs 360-Grad-umfassend im Millisekundentakt scannen, die geometrische Perfektion exakt dieses Leitungsabschnitts.
+        </p>
+        <p>
+          Sollte es Jahre später zu einer Reklamation kommen, reicht es aus, das betroffene Rohrstück auszuschneiden und den Zeitstempel abzulesen. K-Aqua kann im digitalen Archiv auf die Sekunde genau rekonstruieren, wie die Maschinenparameter zum Zeitpunkt der Extrusion aussahen. War die Temperatur optimal? Gab es Schwankungen im Kühlbad? War das Rohmaterial einwandfrei? Diese absolute Transparenz beweist, ob ein systemischer Materialfehler vorliegt oder ob der Schaden – was in der überwältigenden Mehrheit der Fälle passiert – auf eine fehlerhafte Schweißung (z.B. falsche Temperatur am Schweißspiegel) auf der Baustelle oder unsachgemäße Behandlung zurückzuführen ist.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Juristische Sicherheit für TGA-Planer</h2>
+        <p>
+          Für Architekten, TGA-Planer und ausführende Unternehmen bedeutet diese rigorose Rückverfolgbarkeit eine immense Haftungsentlastung. In großen Bauprojekten, Krankenhäusern oder Industrieanlagen fordern Bauüberwacher im Rahmen der ISO-Zertifizierung die vollständige Dokumentation der verwendeten Materialien (As-Built-Dokumentation). Durch das Notieren der auf den Rohren aufgedruckten Chargennummern kann der Errichter zweifelsfrei belegen, dass er ausschließlich zugelassene, DVGW-zertifizierte Originalware in der geforderten Druckstufe verbaut hat. 
+        </p>
+        <p>
+          Die gläserne Produktion von K-Aqua ist somit nicht nur ein Werkzeug zur internen Qualitätssicherung. Sie ist das fundamentale Versprechen an unsere weltweiten Partner, dass jedes Molekül in unseren PP-R Systemen unserer absoluten, kompromisslosen Kontrolle unterliegt – von der Anlieferung des Granulats bis zum letzten Tropfen Wasser, der aus der Leitung fließt.
+        </p>
+      </section>
+
       {/* Conclusion / Trust on site */}
       <section className="pb-12">
         <Reveal>

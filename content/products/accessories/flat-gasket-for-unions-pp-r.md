@@ -1,7 +1,7 @@
 ---
 title: "Flat Gasket for Unions PP-R"
 category: "Accessories"
-slug: "accessories/flat-gasket-for-unions"
+slug: "accessories/flat-gasket-for-unions-pp-r"
 article_codes: ["AQ9ANRP20","AQ9ANRP25","AQ9ANRP32"]
 ---
 

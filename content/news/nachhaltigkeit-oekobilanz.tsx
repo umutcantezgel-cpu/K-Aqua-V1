@@ -42,6 +42,64 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
         </Reveal>
       </section>
 
+      {/* Deep Technical Prose Area */}
+      <section>
+        <Reveal>
+          <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+            <h2>Ökobilanz im Rohrleitungsbau: Warum Kunststoff nachhaltiger als Metall ist</h2>
+            <p>
+              In der Debatte um nachhaltiges Bauen und Gebäudezertifizierungen (wie LEED, BREEAM oder DGNB) liegt der Fokus oft auf Dämmstoffen oder erneuerbaren Energien. Die Technische Gebäudeausrüstung (TGA) – insbesondere das Rohrleitungsnetz – wird dabei häufig unterschätzt. Doch genau hier liegen gewaltige Potenziale zur CO2-Reduktion. Wenn man den gesamten Lebenszyklus (Life Cycle Assessment, LCA) betrachtet, schneiden K Aqua PP-R (Polypropylen Random-Copolymer) Systeme signifikant besser ab als herkömmliche Metallsysteme wie Kupfer oder Stahl. Nachhaltigkeit beginnt bei der Rohstoffgewinnung und endet erst beim sortenreinen Recycling.
+            </p>
+            
+            <h3>Energieintensität der Herstellung (Embodied Energy)</h3>
+            <p>
+              Der erste große ökologische Vorteil von PP-R offenbart sich bereits bei der Herstellung. Die sogenannte "graue Energie" (Embodied Energy) – also die Energiemenge, die benötigt wird, um den Rohstoff abzubauen, zu raffinieren und das Endprodukt herzustellen – ist bei Polypropylen extrem gering. 
+            </p>
+            <p>
+              Um Kupfer zu gewinnen, müssen gigantische Mengen Erz im Tagebau abgebaut und anschließend bei über 1.200 °C unter massivem Energieaufwand verhüttet werden. Ähnlich verhält es sich bei Stahl. PP-R hingegen ist ein Nebenprodukt der Erdölraffination. Die anschließende Polymerisation und Extrusion der Rohre bei moderaten 200 °C bis 250 °C benötigt nur einen Bruchteil der Energie. Studien zeigen, dass die Herstellung eines Kilogramms PP-R bis zu 70 % weniger CO2-Emissionen verursacht als die Herstellung der volumengleichen Menge Kupfer.
+            </p>
+
+            <h3>Die ökologische Rendite im Betrieb</h3>
+            <p>
+              Die wahre Nachhaltigkeit eines Gebäudes entscheidet sich jedoch während der jahrzehntelangen Nutzungsphase. Hier spielen thermische Verluste eine zentrale Rolle. Kupfer und Stahl sind hervorragende Wärmeleiter. Transportieren sie heißes Heizungs- oder Trinkwasser, geben sie die Energie ungebremst an die Umgebung ab, sofern sie nicht zentimeterdick isoliert werden.
+            </p>
+            <p>
+              K Aqua PP-R Rohre besitzen von Natur aus eine sehr geringe Wärmeleitfähigkeit (λ = 0,24 W/mK). Sie wirken wie eine natürliche Isolierung. Dieser physikalische Vorteil führt dazu, dass das heiße Wasser mit viel weniger Temperaturverlust an der Zapfstelle oder am Heizkörper ankommt. Über eine Lebensdauer von 50 Jahren summiert sich diese passive Energieeinsparung zu massiven Reduktionen bei den Heizkosten und den damit verbundenen CO2-Emissionen des gesamten Gebäudes.
+            </p>
+
+            <h3>Hydraulische Effizienz und Pumpenstrom</h3>
+            <p>
+              Ein weiterer, oft übersehener Faktor der Ökobilanz ist der Stromverbrauch von Zirkulations- und Umwälzpumpen. Metallrohre neigen mit der Zeit zu Inkrustationen (Kalkablagerungen) und Korrosion. Der Rohrquerschnitt verengt sich, die Innenwand wird rau. Die Pumpen müssen folglich mit wesentlich mehr elektrischer Leistung arbeiten, um das Wasser durch das System zu drücken.
+            </p>
+            <p>
+              PP-R Rohre sind korrosionsfrei und besitzen eine spiegelglatte Innenoberfläche (Rauheit &lt; 0,007 mm). Sie verkalken nicht. Der Reibungswiderstand bleibt über ein halbes Jahrhundert konstant niedrig. Die Pumpen können dauerhaft in einem niedrigen, energieeffizienten Drehzahlbereich laufen, was den Stromverbrauch der Immobilie nachhaltig senkt.
+            </p>
+
+            <h3>Kreislaufwirtschaft: 100 % Recyclingfähigkeit</h3>
+            <p>
+              Das Prinzip "Cradle to Grave" reicht uns nicht – wir denken "Cradle to Cradle". Am Ende der extrem langen Nutzungsdauer von über 50 Jahren stehen wir nicht vor einem Haufen Sondermüll. K Aqua Rohre bestehen aus reinem Kohlenstoff und Wasserstoff, ganz ohne giftige Weichmacher (Phthalate), Schwermetalle oder Halogene. 
+            </p>
+            <p>
+              Wird das Gebäude irgendwann abgerissen, können die Rohre sortenrein gesammelt, gehäckselt, geschmolzen und zu neuen, hochwertigen Kunststoffprodukten spritzgegossen werden. Die Homogenität des Systems (Rohr und Fitting bestehen aus exakt demselben Material) macht das Recycling extrem einfach, im Gegensatz zu Verbundrohren (Mehrschichtverbund), bei denen Aluminium und verschiedene Kunststoffe aufwendig getrennt werden müssen.
+            </p>
+
+            <h3>Häufig gestellte Fragen (FAQ) zur Ökobilanz</h3>
+            <h4>Ist PP-R umweltfreundlich, obwohl es aus Erdöl hergestellt wird?</h4>
+            <p>
+              Ja, wenn man die Gesamtlebensdauer betrachtet. Der Einsatz von Erdöl für langlebige Infrastruktur (wie Rohre, die 50 Jahre Energie sparen) ist weitaus ökologischer, als es als Treibstoff in wenigen Minuten zu verbrennen. Die massive Einsparung an grauer Energie gegenüber Metallen macht PP-R zur nachhaltigeren Wahl.
+            </p>
+            <h4>Können PPR-Systeme helfen, LEED- oder DGNB-Punkte zu sammeln?</h4>
+            <p>
+              Absolut. Da K Aqua Rohre frei von toxischen Emissionen, VOCs (Flüchtige organische Verbindungen) und Halogenen sind, tragen sie positiv zur Bewertung der Raumluftqualität und der ökologischen Materialwahl in allen gängigen Zertifizierungssystemen (Green Building) bei.
+            </p>
+            <h4>Wie wirkt sich das geringe Gewicht auf die Umwelt aus?</h4>
+            <p>
+              PP-R ist fast 9-mal leichter als Kupfer. Das bedeutet: Für den Transport der Rohre von der Fabrik zur Baustelle wird massiv weniger LKW-Treibstoff benötigt, was den Carbon Footprint in der Logistikkette drastisch senkt.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
       {/* The Lifecycle - Bento Grid */}
       <section className="mt-12">
         <Reveal>

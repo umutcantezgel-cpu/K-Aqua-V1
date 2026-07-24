@@ -2,12 +2,8 @@ import React from "react";
 import { NewsPost } from "./index";
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
-import { DeepMatrix } from "@/components/ui/DeepMatrix";
-import { Stagger } from "@/components/ui/Stagger";
-import { StatBand } from "@/components/ui/StatBand";
-import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
+import { StatBand } from "@/components/ui/StatBand";
 import { TrendingDown, Clock, Zap, ShieldCheck } from "@/components/ui/icon";
 
 export const wartungsfreiheitLebenszykluskosten: NewsPost = {
@@ -34,8 +30,6 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
   
   content: (
     <div className="flex flex-col gap-24 py-12">
-
-      {/* ParallaxHero: Die finanzielle Perspektive */}
       <ParallaxHero
         image="/images/news/tco-maintenance-free.jpg"
         title="Die wahren Kosten zeigen sich später"
@@ -44,132 +38,66 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
       />
 
       <Reveal>
-        <div className="max-w-4xl mx-auto px-6">
-          <SectionHead
-            eyebrow={
-              <div className="flex items-center gap-2 text-primary font-bold justify-center">
-                <TrendingDown className="w-5 h-5" />
-                <span>Total Cost of Ownership (TCO)</span>
-              </div>
-            }
-            title="Der Blick über den Bauabschluss hinaus"
-            lead="Bei der Ausschreibung von TGAProjekten wird oft hart um den Materialpreis gerungen. Doch die tatsächlichen Kosten eines Rohrnetzes (Total Cost of Ownership) summieren sich über die 50 Jahre Betriebszeit. Wartungsarbeiten, Energieverluste durch raue Rohrinnenwände, Leckagen und teure Sanierungen (OPEX) übersteigen die initialen Anschaffungskosten oft um ein Vielfaches. K Aqua PPR ist darauf ausgelegt, genau diese laufenden Kosten auf ein Minimum zu reduzieren."
-            align="center"
-          />
-        </div>
-      </Reveal>
+        <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
+          <h2 className="text-2xl font-bold text-foreground mb-4">Total Cost of Ownership (TCO) in der Gebäudetechnik</h2>
+          <p>
+            Bei der Ausschreibung und Vergabe von Projekten der Technischen Gebäudeausrüstung (TGA) dominiert oft der Blick auf die initialen Anschaffungs- und Installationskosten (CAPEX – Capital Expenditure). Doch diese machen über die gesamte Lebensdauer eines Gebäudes nur einen Bruchteil der tatsächlichen Kosten aus. Die wahren finanziellen Belastungen verbergen sich in den laufenden Betriebskosten (OPEX – Operational Expenditure). 
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">CAPEX vs. OPEX: Eine ganzheitliche Betrachtung</h3>
+          <p>
+            Ein Rohrleitungssystem ist auf eine Lebensdauer von 50 Jahren und mehr ausgelegt. In dieser Zeit summieren sich Kosten für Pumpenstrom, Wärmeverluste, chemische Wasserbehandlungen, Korrosionsschutz, Überprüfung von Dichtungen, Reparaturen von Leckagen und im schlimmsten Fall aufwendige Komplettsanierungen bei Systemversagen. Eine TCO-Betrachtung (Total Cost of Ownership) bezieht all diese Faktoren mit ein. Genau hier spielt Polypropylen (PP-R) seine überragende Wirtschaftlichkeit aus.
+          </p>
 
-      {/* BentoGrid: Die 3 OPEXkiller */}
-      <Reveal>
-        <SectionHead
-          title="Die 3 OPEXKiller von K Aqua"
-          lead="Wie das Material PPR die Betriebskosten drückt."
-        />
-        <BentoGrid
-          items={[
-            {
-              title: "Konstanter Pumpenstrom (Keine Inkrustation)",
-              description: "Metallrohre verkalken und rosten mit der Zeit. Der Rohrquerschnitt verengt sich, die Oberfläche wird rau. Um die gleiche Wassermenge zu fördern, müssen Umwälzpumpen Jahr für Jahr mehr Strom verbrauchen. PPR bleibt dauerhaft glatt – der Energiebedarf der Pumpen bleibt 50 Jahre lang auf dem niedrigen Niveau des ersten Tages.",
-              icon: <Zap className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Null Wartung der Verbindungen",
-              description: "Flansche müssen kontrolliert, Gewinde bei Vibrationen beobachtet und ORinge nach Jahrzehnten getauscht werden. Die stoffschlüssige PPR Schweißverbindung von K Aqua ist zu 100 % wartungsfrei.",
-              icon: <Clock className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Keine KorrosionsschutzAnstriche",
-              description: "Stahlrohre in feuchten Kellern oder Technikzentralen erfordern regelmäßige KorrosionsschutzPflege. Kunststoff rostet nicht und muss niemals gestrichen werden.",
-              icon: <ShieldCheck className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
-      </Reveal>
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Die versteckten Kosten von Metallrohren</h2>
+          <p>
+            Um die Einsparpotenziale von K Aqua PP-R zu verstehen, muss man die systembedingten Schwächen traditioneller Metallrohrnetze analysieren.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Inkrustation und steigende Pumpenleistung</h3>
+          <p>
+            Stahlrohre und andere metallische Leitungen sind anfällig für Korrosion und Kalkablagerungen (Inkrustation). Mit den Jahren wächst die raue Schicht an der Rohrinnenwand. Der nutzbare Querschnitt verengt sich drastisch. Um den erforderlichen Volumenstrom und den Druck am Ende der Leitung (z.B. im 10. Stockwerk eines Hotels) aufrechtzuerhalten, müssen die Frequenzumformer der Zirkulationspumpen kontinuierlich die Drehzahl erhöhen. Der Stromverbrauch der Anlage steigt exponentiell an – ein schleichender OPEX-Killer, der oft jahrelang unbemerkt bleibt.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Wartung und Reparatur von Undichtigkeiten</h3>
+          <p>
+            Mechanische Verbindungen wie Flansche, Gewinde oder Pressfittings mit Elastomerdichtungen altern. Dichtungen verspröden, Gewinde korrodieren. Sie erfordern regelmäßige Inspektionen und nicht selten teure Reparatureinsätze, wenn es zu Tropfleckagen kommt. Auch der äußere Korrosionsschutz (Rostschutzanstriche in feuchten Kellerräumen) muss regelmäßig erneuert werden.
+          </p>
 
-      {/* DeepMatrix: TCOvergleich */}
-      <Reveal>
-        <SectionHead
-          title="TCOSzenario über 50 Jahre"
-          lead="Kostenentwicklung verschiedener Materialien im direkten Vergleich."
-        />
-        <DeepMatrix
-          data={[
-            ["Kostenfaktor", "K Aqua PPR", "Verzinkter Stahl", "Kupfer"],
-            ["Material (CAPEX)", "Mittel", "Gering", "Sehr Hoch"],
-            ["Installation", "Schnell (Schweißen)", "Langsam (Gewinde)", "Mittel (Pressen/Löten)"],
-            ["Wartung (Jahr 10-30)", "Keine", "Hoch (Korrosionsprüfung, Pumpenstrom steigt)", "Mittel (Fließgeräusche, Dichtungen)"],
-            ["Sanierungsrisiko (Jahr 30-50)", "Sehr gering", "Sehr hoch (Lochfraß, Zusetzung)", "Mittel (Je nach Wasserqualität)"]
-          ]}
-        />
-      </Reveal>
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">PP-R: Die Investition in Wartungsfreiheit</h2>
+          <p>
+            Rohrsysteme aus PP-R sind darauf ausgelegt, diese laufenden Betriebs- und Wartungskosten konsequent gegen Null zu reduzieren.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Dauerhaft glatte Innenflächen (k = 0,007 mm)</h3>
+          <p>
+            PP-R besitzt eine spiegelglatte Innenoberfläche. Kalk und Schmutzpartikel finden keinen Halt. Die Rohre verkalken und verkrusten nicht. Die Folge: Der Reibungswiderstand bleibt über 50 Jahre exakt so niedrig wie am Tag der Inbetriebnahme. Der Stromverbrauch der Umwälzpumpen verbleibt auf dem berechneten Minimum, was über Jahrzehnte hinweg zehntausende Euro an Energiekosten spart.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-6">Keine Korrosionsschutzmaßnahmen erforderlich</h3>
+          <p>
+            Da PP-R nicht oxidiert, kann auf jegliche Form von aktivem oder passivem Korrosionsschutz verzichtet werden. Es müssen keine Opferanoden gewartet, keine chemischen Korrosionsinhibitoren dem Wasser beigemischt und keine Rostschutzfarben aufgetragen werden. Das System ist nach der Installation zu 100 % wartungsfrei.
+          </p>
+          
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Längere Lebensdauer und Anlagenverfügbarkeit</h2>
+          <p>
+            Die stoffschlüssige, molekulare Verschweißung der K Aqua Systeme eliminiert das Risiko von Dichtungsversagen. Die absolute Ausfallsicherheit schützt Anlagenbetreiber vor den gravierendsten Kosten überhaupt: Produktionsstillstände in der Industrie, Sperrung von Patientenzimmern in Kliniken oder Serverausfälle in Rechenzentren durch Rohrbrüche. Die Nutzungsdauer von weit über 50 Jahren überschreitet die Lebenszyklen der meisten anderen Gebäudekomponenten deutlich.
+          </p>
 
-      {/* Stagger: Warum PPR die TCO senkt */}
-      <Reveal>
-        <SectionHead
-          title="Versteckte Einsparpotenziale"
-          lead="Faktoren, die in der LebenszyklusKalkulation den Ausschlag geben."
-          align="center"
-        />
-        <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Ersparnis bei der Isolierung",
-                description: "PPR hat eine extrem geringe Wärmeleitfähigkeit. Das bedeutet, das Rohr selbst isoliert bereits. Oftmals können im Vergleich zu metallischen Rohren dünnere Dämmstärken verwendet werden, um die Vorgaben (z.B. GEG) zu erfüllen. Das spart Material und Platz im Schacht."
-              },
-              {
-                title: "2. Verlängerte Lebenszyklen",
-                description: "Während herkömmliche Stahlnetze nach 25 bis 30 Jahren aufgrund von Rost und Inkrustation oft teilsaniert werden müssen, ist K Aqua PPR für eine Lebensdauer von 50 Jahren und mehr ausgelegt."
-              },
-              {
-                title: "3. Absolute Ausfallsicherheit",
-                description: "Die Kosten eines Rohrbruchs bestehen nicht aus dem Rohrstück. Sie bestehen aus Produktionsstillstand in der Industrie, gesperrten Zimmern im Hotel oder Ausfallzeiten im Rechenzentrum. Die Sicherheit der PPR Schweißtechnik ist der beste Versicherungsschutz."
-              }
-            ]}
-          />
-        </div>
-      </Reveal>
-
-      {/* TCOanalyse in der Praxis */}
-      <Reveal>
-        <div className="rounded-2xl border border-card-border bg-card p-6 md:p-8 flex flex-col gap-4">
-          <h3 className="text-xl font-bold text-foreground">
-            Langfristige TCOoptimierung durch PPR Werkstoffeigenschaften
-          </h3>
-          <p className="text-muted-foreground leading-relaxed">
-            In modernen Zweckbauten und Wohnquartieren entscheidet die Wahl des Rohrwerkstoffs über die Betriebskosten der nächsten Jahrzehnte. Während Metallrohrsysteme durch Lochfraß, Spaltkorrosion und Kalkablagerungen schleichende Druckverluste und steigende Energiekosten verursachen, sichert das homogene K Aqua PPR Rohrsystem dauerhaft eine glatte Innenoberfläche (Rauheit k = 0,007 mm). Dies verhindert Ablagerungen und Inkrustationen von Tag eins an und ermöglicht eine kontinuierlich hohe Energieeffizienz ohne teure chemische Reinigungen oder wiederkehrende Wartungszyklen.
+          <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Fazit: Wirtschaftlichkeit durch Intelligenz</h2>
+          <p>
+            Eine kluge TGA-Planung bewertet den Erfolg eines Bauprojekts nicht am Tag der Schlüsselübergabe, sondern nach 20 Jahren Betrieb. Der Einsatz von K Aqua PP-R Rohrsystemen ist eine strategische Entscheidung, die die Betriebskosten drastisch senkt, Instandhaltungsbudgets schont und die Rentabilität (ROI) von Gewerbe- und Wohnimmobilien signifikant erhöht.
           </p>
         </div>
       </Reveal>
 
-      {/* StatBand: Wirtschaftlichkeitsfakten */}
       <Reveal>
         <div className="mt-8">
           <StatBand
             cols={3}
             stats={[
-              { n: "50", u: "+", l: "Jahre erwartete Mindestlebensdauer (bei Einhaltung der Druck /Temperaturparameter)." },
-              { n: "0", u: "€", l: "Laufende Wartungskosten für Korrosionsschutz oder chemische Spülungen." },
-              { n: "20", u: "%", l: "Mögliche Einsparung beim Pumpenstrom durch dauerhaft glatte Rohrinnenwände." }
+              { n: "50", u: "+", l: "Jahre kalkulierte und wartungsfreie Mindestlebensdauer" },
+              { n: "0", u: "€", l: "Laufende Wartungskosten für Dichtungen oder Korrosionsschutz" },
+              { n: "20", u: "%", l: "Einsparung beim Pumpenstrom durch glatte Rohrinnenwände möglich" }
             ]}
           />
         </div>
       </Reveal>
-
-      {/* CTABand: TCOberatung */}
-      <Reveal>
-        <CTABand
-          title="Rechnen Sie mit uns"
-          subtitle="Wir zeigen Ihnen gerne in einer Modellrechnung, wie K Aqua die Lebenszykluskosten (TCO) Ihres nächsten Bauprojekts senkt."
-          buttonText="Wirtschaftlichkeitsprüfung anfragen"
-          buttonLink="/kontakt"
-          icon={<TrendingDown className="w-6 h-6" />}
-        />
-      </Reveal>
-
     </div>
   ),
 };

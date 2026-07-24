@@ -1,7 +1,7 @@
 ---
 title: "K-Fiber Pipe PP-RCT SDR 7.4"
 category: "Pipes"
-slug: "pipes/k-fiber-pipe-pp-rct-sdr-7-4"
+slug: "pipes/k-fiber-pipe-pp-rct-sdr-74"
 article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50"]
 ---
 

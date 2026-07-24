@@ -13,11 +13,11 @@ K-Aqua installation tools for socket fusion, butt fusion and electrofusion weldi
 
 | Product | Application | Code |
 |---------|-------------|------|
-| [Pipe Cutter 20–40](./pipe-cutter-20-40.md) | Cutting pipes Ø 20–40 mm | AQ97040 |
-| [Pipe Cutter 50–125](./pipe-cutter-50-125.md) | Cutting pipes Ø 50–125 mm | AQ975125 |
-| [Pipe Cutter 50–125 (1¼)](./pipe-cutter-50-125-114.md) | Cutting pipes Ø 50–125 mm | AQ974 |
+| [Pipe Cutter 20–40](./pipe-cutter-2040.md) | Cutting pipes Ø 20–40 mm | AQ97040 |
+| [Pipe Cutter 50–125](./pipe-cutter-50125.md) | Cutting pipes Ø 50–125 mm | AQ975125 |
+| [Pipe Cutter 50–125 (1¼)](./pipe-cutter-50125-1.md) | Cutting pipes Ø 50–125 mm | AQ974 |
 | [Hand Welding Machine 20–63 (Complete)](./hand-welding-machine-20-63.md) | Socket fusion Ø 20–63 | AQ98063 |
-| [Hand Welding Machine 20–32 (Complete)](./hand-welding-machine-20-32.md) | Socket fusion Ø 20–32 | AQ98032 |
+| [Hand Welding Machine 20–32 (Complete)](./hand-welding-machine-2032-complete-set.md) | Socket fusion Ø 20–32 | AQ98032 |
 | [Hand Welding Machine Mirror 50–125](./hand-welding-machine-mirror-50-125.md) | Replacement mirror | AQ991125 |
 | [Welding Tool](./welding-tool.md) | Individual die sets Ø 20–90 | AQ98220–AQ98290 |
 | [Welding Machine 50–125 (Complete)](./welding-machine-50-125.md) | Socket fusion Ø 50–125 | AQ985125 |

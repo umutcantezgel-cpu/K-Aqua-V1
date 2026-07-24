@@ -1,12 +1,16 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
-export const metadata: Metadata = {
-  robots: {
-    index: false,
-    follow: false,
-  },
-};
+import { constructMetadata } from '@/lib/seo/metadata';
+
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
+  return constructMetadata({
+    title: 'Dev Tools',
+    description: 'Development Tools',
+    locale,
+    noIndex: true,
+  });
+}
 
 export default function DevLayout({
   children,

@@ -1,6 +1,6 @@
 export type CatalogCategoryId =
-  | 'pipes' | 'fittings' | 'transitionFittings' | 'valves'
-  | 'weldInSaddles' | 'accessories' | 'tools';
+  | 'pipes' | 'fittings' | 'transition-fittings' | 'valves'
+  | 'weld-in-saddles' | 'accessories' | 'tools';
 
 export interface CatalogItem {
   slug: string;
@@ -1605,7 +1605,10 @@ export const CATALOG: CatalogCategory[] = [
     ]
   },
   {
-    id: "transitionFittings",
+    id: "transition-fittings",
+    title: "Übergangsfittings",
+    description: "PP-R Fittings mit eingegossenen Messinggewinden für sichere Metall-Kunststoff-Übergänge.",
+    icon: "SplitSquareHorizontal",
     count: 13,
     items: [
       {
@@ -2363,7 +2366,7 @@ export const CATALOG: CatalogCategory[] = [
     ]
   },
   {
-    id: "weldInSaddles",
+    id: "weld-in-saddles",
     count: 3,
     items: [
       {

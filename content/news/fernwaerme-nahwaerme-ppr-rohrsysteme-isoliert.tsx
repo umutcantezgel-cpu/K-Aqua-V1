@@ -50,9 +50,61 @@ export const fernwaermeNahwaerme: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Heißwasser-Flow */}
             <PipeFX variant="flow" size={380} />
           </div>
+        </div>
+      </Reveal>
+
+      {/* Deep Technical Prose Area */}
+      <Reveal>
+        <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+          <h2>Fern- und Nahwärmenetze der Zukunft: Der Paradigmenwechsel von Stahl zu PP-RCT</h2>
+          <p>
+            Im Zuge der globalen Energiewende rückt die Dekarbonisierung des Wärmesektors massiv in den Fokus von Stadtplanern und Versorgern. Urbane Wärmenetze (Fernwärme) und dezentrale Quartierslösungen (Nahwärme) sind die Schlüsselinfrastrukturen, um Abwärme aus der Industrie, Geothermie oder Biomasse effizient an die Verbraucher zu verteilen. Das traditionelle Rohrleitungsmaterial für diese unterirdischen Trassen war jahrzehntelang das Kunststoffmantelrohr (KMR) mit einem Mediumrohr aus Stahl. K Aqua treibt hier mit vorisolierten PP-RCT (Polypropylen Random-Copolymer mit modifizierter kristalliner Struktur) Rohrsystemen einen massiven technologischen Paradigmenwechsel voran.
+          </p>
+          
+          <h3>Die Schwachstelle von Stahl im Erdreich</h3>
+          <p>
+            Stahlrohre haben einen entscheidenden, systemimmanenten Nachteil: Sie korrodieren. Im feuchten Erdreich sind metallische Leitungen ständigen galvanischen Prozessen und der Gefahr durch Streuströme ausgesetzt. Um diese Zersetzung zu verhindern, müssen Stahl-KMR-Systeme mit teuren und wartungsintensiven Leckageüberwachungssystemen (Meldestromkreisen) ausgestattet und oft kathodisch geschützt werden. Schon eine kleine Verletzung des PE-Außenmantels durch einen spitzen Stein im Erdreich führt über kurz oder lang zur Durchrostung des inneren Stahlrohrs.
+          </p>
+          <p>
+            PP-RCT hingegen ist ein Kunststoff, der elektrochemisch vollkommen inert ist. Er kann physikalisch nicht rosten. Weder Feuchtigkeit von außen noch der Sauerstoffgehalt des Heizungswassers im Inneren können das K Aqua Rohr angreifen. Diese absolute Korrosionsfreiheit macht die Trassen über Jahrzehnte hinweg komplett wartungsfrei. Teure Überwachungselektronik wird obsolet.
+          </p>
+
+          <h3>Minimierung der Wärmeverluste</h3>
+          <p>
+            Die Wirtschaftlichkeit eines Nahwärmenetzes steht und fällt mit der Wärmeverlustrate. Wenn das 80 °C heiße Vorlaufwasser auf dem Weg vom Heizkraftwerk zum Verbraucher wertvolle Energie an das umgebende Erdreich abgibt, sinkt die Gesamteffizienz des Netzes drastisch.
+          </p>
+          <p>
+            K Aqua verwendet einen hochgradig isolierenden, FCKW-freien Polyurethan-Hartschaum (PUR) zwischen dem Mediumrohr und dem Außenmantel. Während Stahl ein exzellenter Wärmeleiter ist und die Hitze förmlich in den Schaum zieht, wirkt PP-RCT bereits als natürlicher thermischer Isolator. Diese Kombination aus schlecht leitendem Kunststoff und hochdichtem PUR-Schaum sorgt für Lambda-Werte (λ), die die Wärmeverluste auf das physikalische Minimum reduzieren.
+          </p>
+
+          <h3>Gewicht und Verlegegeschwindigkeit</h3>
+          <p>
+            Zeit ist auf städtischen Baustellen der teuerste Faktor. Straßensperrungen verursachen Staus und Anwohnerbeschwerden. Vorisolierte PP-RCT Rohre sind bis zu 70 % leichter als vergleichbare Stahlsysteme. In den Dimensionen bis DN 100 können K Aqua Rohre oft ohne schwere Autokrane oder Kettenbagger von Hand in den Rohrgraben abgelassen werden. 
+          </p>
+          <p>
+            Die Verbindungstechnik durch Elektroschweißmuffen oder Heizelementstumpfschweißung ist zudem wesentlich schneller, witterungsunabhängiger und weniger fehleranfällig als das aufwendige Röntgenschweißen von dicken Stahlrohren. Der Graben kann deutlich zügiger wieder verfüllt und die Straße für den Verkehr freigegeben werden.
+          </p>
+
+          <h3>Der PE-HD Außenmantel</h3>
+          <p>
+            Den äußeren Abschluss des K Aqua Verbundsystems bildet ein dickwandiger Mantel aus hochverdichtetem Polyethylen (PE-HD). Dieser schützt die empfindliche PUR-Schaumschicht vor mechanischen Beschädigungen beim Einbau, vor spitzen Steinen im Grabenbett, vor aggressiven Wurzeln und vor drückendem Grundwasser. 
+          </p>
+
+          <h3>Häufig gestellte Fragen (FAQ) zur Nahwärme mit PP-RCT</h3>
+          <h4>Welche Vorlauftemperaturen hält das PP-RCT System aus?</h4>
+          <p>
+            K Aqua PP-RCT ist für typische moderne Nahwärmenetze (Low-Ex-Netze) ideal geeignet. Es ist für Dauerbetriebstemperaturen von bis zu 80 °C (Spitzen bis 90 °C) bei entsprechenden Drücken ausgelegt. Für klassische Hochtemperatur-Fernwärme (über 120 °C) ist es jedoch nicht geeignet.
+          </p>
+          <h4>Braucht das System Kompensatoren für die Längenausdehnung?</h4>
+          <p>
+            Nein. Bei unterirdischer Verlegung im Erdreich reibt sich der PE-HD Mantel fest im Sandbett ein (Reibschluss). Die durch Temperaturänderungen entstehenden Ausdehnungskräfte werden in axiale Druckspannungen im Material umgewandelt. Das Rohr ist im Erdreich eingespannt und bewegt sich nicht.
+          </p>
+          <h4>Wie erfolgt die Anbindung an die Gebäude?</h4>
+          <p>
+            Über flexible oder starre Hauseinführungen. Im Keller des Endverbrauchers (Übergabestation) kann problemlos mit herkömmlichen K Aqua Fittings und Flanschen auf die Hausinstallation übergegangen werden.
+          </p>
         </div>
       </Reveal>
 

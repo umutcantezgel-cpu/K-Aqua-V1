@@ -136,6 +136,43 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
         </div>
       </Reveal>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Die extremen Herausforderungen der Freiverlegung auf Dächern</h2>
+        <p>
+          Die Installation von Kühltürmen, Rückkühlwerken und Verdunstungskühlern erfolgt in den meisten gewerblichen und industriellen Projekten auf den Flachdächern der Gebäude. Diese räumliche Anordnung spart wertvollen Raum im Gebäudeinneren, setzt die angeschlossene Rohrleitungsinfrastruktur jedoch den wohl widrigsten Umweltbedingungen aus, die in der Technischen Gebäudeausrüstung (TGA) existieren. Rohre auf einem Dach müssen jahrelanger, intensiver ultravioletter (UV) Sonneneinstrahlung, saurem Regen, Hagelschlag, extremen thermischen Schwankungen zwischen Hochsommer und Eiswinter sowie ständigen Windlasten trotzen. Herkömmliche Materialien scheitern hier oftmals kolossal. C-Stahlrohre rosten von außen und erfordern regelmäßige, teure Korrosionsschutzanstriche. Standard-Kunststoffe verspröden unter der Sonne und zersplittern bei der geringsten mechanischen Belastung. K-Aqua PP-RCT (Polypropylen-Random-Copolymer mit modifizierter Kristallinität und erhöhter Temperaturresistenz), ausgestattet mit spezieller UV-Schutztechnologie, bietet für diese Extrembelastungen die ultimative architektonische und physikalische Lösung.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Der Kampf gegen UV-Degradation (Photooxidation)</h3>
+        <p>
+          Das größte Risiko für Kunststoffe im Außeneinsatz ist die Photooxidation. Die energiereiche UV-Strahlung der Sonne ist in der Lage, die kovalenten Kohlenstoffbindungen in ungeschützten Polymerketten aufzubrechen. Das Material kreidet aus, verliert seine Elastizität und wird mikroskopisch rissig – ein Prozess, der letztendlich zum Bersten der unter Druck stehenden Leitung führt. 
+        </p>
+        <p>
+          K-Aqua adressiert dieses physikalische Problem auf zwei verschiedenen Wegen, je nach Projektspezifikation. Entweder durch homogene Massefärbung mit hochwirksamem Ruß (Carbon Black), der die UV-Strahlung absorbiert und unschädlich macht, oder durch die Applikation einer industriellen, dauerelastischen UV-Schutz-Coextrusion bzw. Speziallackierung ab Werk. Diese hochtechnologischen Barrieren reflektieren und absorbieren das schädliche Spektrum des Sonnenlichts vollständig. Das darunterliegende, drucktragende PP-RCT Kernrohr bleibt für Jahrzehnte in seinem molekularen Urzustand geschützt, behält seine volle Zeitstandfestigkeit und garantiert die absolute Betriebssicherheit des Kühlsystems.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Frosttoleranz: Die elastische Reserve von PP-RCT</h2>
+        <p>
+          Im mitteleuropäischen Winter oder in alpinen Lagen sinken die Temperaturen auf Dächern häufig tief in den Minusbereich. Wenn durch einen Stromausfall, einen Pumpendefekt oder einen Fehler in der Gebäudeleittechnik (GLT) das Kühlwasser im Freileitungsnetz stagniert und zu Eis gefriert, entfaltet Wasser eine gewaltige zerstörerische Kraft (Volumenzunahme um ca. 9%). Ein starres Stahl- oder Kupferrohr hat dieser Ausdehnung nichts entgegenzusetzen; es platzt zwangsläufig entlang der Längsnaht oder sprengt die Fittings.
+        </p>
+        <p>
+          K-Aqua PP-RCT zeichnet sich durch eine bemerkenswerte Viskoelastizität aus. Die molekulare Architektur des Random-Copolymers ist zwar extrem druckfest, behält aber ein genau definiertes Maß an Flexibilität. Friert das Wasser im K-Aqua System ein, weitet sich das Rohr minimal, um den enormen Druck des Eises aufzunehmen, ohne dass die molekularen Bindungen reißen. Sobald das Eis wieder auftaut, zieht sich das Rohr in seine Ursprungsform zurück. Dieses „Memory-Verhalten“ (Rückstellvermögen) schützt das Rohrnetz vor katastrophalen Frostschäden und rettet den Anlagenbetreiber vor teuren Betriebsunterbrechungen.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Statische Entlastung durch extremes Leichtgewicht</h3>
+        <p>
+          Bei der statischen Berechnung von Leichtbau-Flachdächern (wie z. B. Trapezblechdächern bei Logistikhallen) zählt jedes Kilogramm. Gefüllte Kühlwasserleitungen aus Stahlrohren (DN 150 bis DN 300) bringen gigantische Punkt- und Linienlasten auf die Dachkonstruktion. Dies erfordert oft massive, teure Stahlunterkonstruktionen zur Lastabtragung.
+        </p>
+        <p>
+          K-Aqua PP-RCT wiegt im Leerzustand nur einen Bruchteil eines vergleichbaren Stahlrohrs (Dichte von ca. 0,9 g/cm³ gegenüber 7,8 g/cm³ bei Stahl). Das Handling der Rohre auf dem Dach ist selbst bei großen Dimensionen oft ohne schwere Autokräne möglich, was die Montagekosten drastisch reduziert. Die Halterungsabstände können durch die hervorragende Längssteifigkeit der glasfaserverstärkten PP-RCT Varianten optimiert werden. Diese statische Entlastung bietet Architekten und Tragwerksplanern wertvolle Reserven für andere Dachaufbauten wie Photovoltaik-Anlagen.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Unempfindlichkeit gegenüber harschen Wasserbehandlungen (Biozide)</h2>
+        <p>
+          Offene Verdunstungskühlanlagen sind berüchtigt dafür, ideale Brutstätten für Legionellen zu sein. Um tödliche Ausbrüche der Legionärskrankheit (wie den VDI 2047-2 Richtlinien entsprechend) zu verhindern, wird das Kühlwasser extrem aggressiv mit Bioziden (Ozon, Chlor, Chlordioxid) schockdesinfiziert. Diese hoch oxidativen Substanzen fressen metallische Leitungen buchstäblich von innen auf, insbesondere im Bereich der Phasengrenzen, wenn das System zeitweise leerläuft. K-Aqua PP-RCT ist gegen diese massiven chemischen Angriffe nahezu immun. Die Kunststoffmatrix wird von den in Kühltürmen üblichen Biozidkonzentrationen nicht angegriffen, oxidiert nicht und bildet keine rauen Oberflächen, an denen sich neue Biofilme festsetzen könnten. Mit der Wahl von K-Aqua PP-RCT transformieren Sie die anfälligste Komponente des Kühlsystems – die Rohrleitung auf dem Dach – in die langlebigste und sicherste.
+        </p>
+      </section>
+
       {/* CTABand: Technische Planung */}
       <Reveal>
         <CTABand

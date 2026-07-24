@@ -57,6 +57,57 @@ export const lebensdauerBerechnungPpr: NewsPost = {
         </div>
       </Reveal>
 
+      {/* Deep Technical Prose Area */}
+      <Reveal>
+        <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+          <h2>Die Physik der Langlebigkeit: Wie die Lebensdauer von PP-R Kunststoffen berechnet wird</h2>
+          <p>
+            In der Bau- und Immobilienwirtschaft ist die Frage nach der Lebensdauer der technischen Gebäudeausrüstung (TGA) von zentraler Bedeutung. Investoren, Planer und Bauherren fordern Garantien, dass hinter Wänden und in Schächten verbaute Rohrsysteme nicht nach zwanzig Jahren kostspielig saniert werden müssen. K Aqua garantiert für seine PP-R (Polypropylen Random-Copolymer) Systeme eine Nutzungsdauer von über 50 Jahren. Diese Zahl ist jedoch kein Marketing-Gag, sondern das direkte Resultat strenger materialwissenschaftlicher und thermodynamischer Prüfverfahren, verankert in internationalen Normen wie der ISO 9080.
+          </p>
+          
+          <h3>Der Feind des Kunststoffs: Temperatur und Innendruck</h3>
+          <p>
+            Im Gegensatz zu Metallen, die hauptsächlich durch Oxidation (Korrosion) altern, altern thermoplastische Kunststoffe wie PP-R durch thermisch-oxidativen Abbau und mechanisches Kriechen (Creep). Wenn ein PP-R Rohr über Jahrzehnte einem konstanten Wasserdruck bei erhöhter Temperatur ausgesetzt ist, dehnen sich die makromolekularen Kettenstrukturen minimal aus.
+          </p>
+          <p>
+            Um diesen Prozess mathematisch greifbar zu machen, bedient sich die Industrie des sogenannten Zeitstandinnendruckversuchs. Hierbei wird das Zusammenspiel der beiden Hauptbelastungsfaktoren – der Betriebstemperatur des Mediums und der Vergleichsspannung (hervorgerufen durch den Betriebsdruck) – analysiert. Das Problem: Niemand kann 50 Jahre lang warten, um zu prüfen, wann ein Rohr platzt. 
+          </p>
+
+          <h3>Zeitmaschine im Labor: Die Arrhenius-Gleichung</h3>
+          <p>
+            Um die Alterung im Zeitraffer zu simulieren, greift man auf die Prinzipien der physikalischen Chemie zurück, namentlich auf die Arrhenius-Gleichung. Diese, vom schwedischen Nobelpreisträger Svante Arrhenius formulierte Beziehung, besagt im Kern, dass sich die Reaktionsgeschwindigkeit chemischer Prozesse (und somit auch die Polymeralterung) mit steigender Temperatur exponentiell beschleunigt.
+          </p>
+          <p>
+            In akkreditierten Prüflaboren werden K Aqua PP-R Rohre gezielt künstlich gealtert. Sie werden in Wasserbädern bei extremen Temperaturen von beispielsweise 95 °C und 110 °C gelagert und dabei massiv mit Druck beaufschlagt, bis sie schließlich bersten (Standzeit). Aus den gemessenen Berstdrücken und Standzeiten bei diesen unrealistisch hohen Temperaturen erstellen die Materialprüfer Spannungs-Zeit-Kurven in doppellogarithmischen Diagrammen, die sogenannten Isothermen.
+          </p>
+          <p>
+            Dank der mathematischen Extrapolation der Arrhenius-Kurve können diese Extremwerte nun präzise auf reale Betriebsbedingungen heruntergerechnet werden. Wenn ein Rohr bei 110 °C und 15 bar nach genau einem Jahr versagt, belegt die Mathematik unanfechtbar, dass exakt dasselbe Material bei 20 °C (Kaltwasser) und 4 bar über Jahrhunderte hinweg absolut formstabil bleibt.
+          </p>
+
+          <h3>Sicherheitsbeiwerte und die Miner'sche Regel</h3>
+          <p>
+            Natürlich fließen in reale Berechnungen hohe Sicherheitsreserven ein. Die DIN-Normen schreiben für die Auslegung von Kunststoff-Rohrleitungssystemen für den Trinkwassertransport einen Sicherheitsbeiwert (C) von mindestens 1,25 vor. K Aqua Systeme sind von Haus aus so dickwandig (z. B. SDR 6 oder SDR 7.4), dass sie diesen Wert oft deutlich übertreffen.
+          </p>
+          <p>
+            Ein weiterer Aspekt der Praxis: Eine Heizungs- oder Warmwasserleitung läuft selten 50 Jahre lang konstant bei exakt 70 °C. Die Temperaturen schwanken je nach Tageszeit, Jahreszeit oder Legionellenschaltung. Um diese zyklischen thermischen Belastungen zu berechnen, nutzen Ingenieure die Miner'sche Regel (Palmgren-Miner-Hypothese). Dabei wird das Temperaturkollektiv eines Jahres aufgeschlüsselt (z.B. 100 Stunden bei 70°C, 3000 Stunden bei 60°C, Rest bei Raumtemperatur) und der prozentuale Lebensdauerverbrauch aufaddiert.
+          </p>
+
+          <h3>Häufig gestellte Fragen (FAQ) zur PP-R Lebensdauer</h3>
+          <h4>Was passiert mit dem Rohr nach 50 Jahren?</h4>
+          <p>
+            Die 50 Jahre sind eine normative Basisauslegungslebensdauer. Das bedeutet nicht, dass sich das Rohr nach 50 Jahren und einem Tag auflöst. Es ist lediglich der Zeithorizont, den die Norm (ISO 9080) zur Zertifizierung für den Dauerbetrieb abdeckt. In der Praxis, besonders bei Kaltwasser, hält PP-R bei sachgemäßer Installation ein Vielfaches dieser Zeit.
+          </p>
+          <h4>Wie wirkt sich freies Chlor im Trinkwasser auf die Lebensdauer aus?</h4>
+          <p>
+            Hohe Konzentrationen von freiem Chlor oder Chlordioxid (oft zur dauerhaften Wasserdesinfektion eingesetzt) wirken hochgradig oxidativ und können die Kunststoffketten vorzeitig angreifen, insbesondere bei heißem Wasser. K Aqua PP-R Systeme beinhalten hochwirksame Antioxidantien (Wärmestabilisatoren), die diese Effekte drastisch verlangsamen und das Material schützen.
+          </p>
+          <h4>Kann ein zu hoher Wasserdruck die Lebensdauer verkürzen?</h4>
+          <p>
+            Ja. Der Innendruck erzeugt eine mechanische Ringspannung (Hoop Stress). Wenn der Betriebsdruck der Anlage dauerhaft weit über dem Auslegungsdruck des gewählten Rohres (PN-Stufe) liegt, sinkt die theoretische Lebensdauer. Die Wahl der richtigen Rohrwandstärke (SDR-Klasse) in der Planungsphase ist daher essenziell.
+          </p>
+        </div>
+      </Reveal>
+
       {/* StatBand: ISO 9080 Parameters */}
       <Reveal>
         <StatBand

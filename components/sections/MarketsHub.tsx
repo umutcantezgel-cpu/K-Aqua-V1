@@ -278,7 +278,7 @@ export default function MarketsHub({
                       </p>
                       <div className="flex flex-col sm:flex-row gap-2 mt-1">
                         <Link
-                          href={`/maerkte/${g.slug}`}
+                          href={`/maerkte/${g.hubSlug}/${g.slug}`}
                           className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
                           tabIndex={isActive ? 0 : -1}
                         >

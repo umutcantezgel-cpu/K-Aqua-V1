@@ -162,6 +162,49 @@ export const heizungsverteilungHochhaus: NewsPost = {
         </div>
       </Reveal>
 
+      {/* Deep Technical Analysis */}
+      <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Hochhausarchitektur: Die physikalischen Grenzen der TGA</h2>
+        <p>
+          Die technische Gebäudeausrüstung (TGA) in Hochhäusern (Highrise-Buildings ab 40 Metern bis hin zu Supertalls über 300 Metern) gehört zu den anspruchsvollsten Disziplinen der Ingenieurskunst. Während Heizungswasser in klassischen Wohngebäuden nur geringe Höhen überwinden muss, baut sich in den vertikalen Steigschächten von Wolkenkratzern eine gewaltige hydrostatische Wassersäule auf. Pro 10 Meter Gebäudehöhe steigt der statische Druck im Leitungssystem um exakt 1 Bar. Bei einem 150 Meter hohen Turm lasten im Kellergeschoss bereits 15 Bar Ruhedruck auf den Rohren – zuzüglich des dynamischen Drucks der massiven Umwälzpumpen und der notwendigen Sicherheitsreserven.
+        </p>
+        <p>
+          Traditionell wurden für diese extremen Steigstränge dickwandige Stahlrohre eingesetzt. Doch diese bringen gravierende Nachteile mit sich, die den Baufortschritt, die Statik und den Langzeitbetrieb massiv belasten. K-Aqua bietet mit seinen faserverstärkten PP-RCT (Polypropylen-Random-Copolymer mit modifizierter Kristallinität) Rohrsystemen eine bahnbrechende Alternative, die Leichtigkeit, Schalldämmung und extreme Druckbeständigkeit zu einer überlegenen Sicherheitsarchitektur vereint.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Die Druckbeherrschung durch PP-RCT und Faserverbund</h3>
+        <p>
+          Standard-Kunststoffe kapitulieren vor den Drücken und Temperaturen (oft 70°C bis 90°C) im Heizungsnetz eines Hochhauses. K-Aqua nutzt hierfür PP-RCT, dessen modifizierte (β-kristalline) Molekularstruktur dem Material eine enorm gesteigerte Zeitstandfestigkeit verleiht. Durch die richtige Wahl der Wandstärkenreihe (z. B. SDR 7.4 oder SDR 9) können Betriebsdrücke weit jenseits der 20-Bar-Marke sicher und dauerhaft (für über 50 Jahre) bewältigt werden. 
+        </p>
+        <p>
+          Darüber hinaus verfügen die Hochleistungs-Steigrohre von K-Aqua über eine coextrudierte mittlere Schicht, die mit mikroskopisch kleinen Glasfasern verstärkt ist (Faserverbundrohr). Diese Faserverstärkung übernimmt eine kritische Funktion in der thermischen Längenausdehnung. Wenn heißes Heizungswasser durch ein Kunststoffrohr fließt, dehnt sich dieses naturgemäß in der Länge aus. Die integrierte Glasfaserschicht reduziert diese Längenausdehnung um fast 75 % im Vergleich zu reinem PP-R und bringt das Verhalten des Rohrs annähernd auf das Niveau von Metall. Dies reduziert die benötigte Anzahl von Dehnungsbögen (U-Bögen) und Festpunkten im Steigschacht dramatisch und spart wertvollen Installationsplatz.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Statische Entlastung und schweißtechnische Sicherheit</h2>
+        <p>
+          Ein DN 100 Stahlrohr wiegt im befüllten Zustand gewaltige Lasten. In einem 200 Meter hohen Turm summieren sich diese Lasten zu mehreren Tonnen, die von der Tragstruktur des Steigschachts und der Fundamentplatte aufgenommen werden müssen. K-Aqua PP-RCT wiegt nur einen Bruchteil davon. Diese enorme Gewichtsreduktion hat nicht nur statische Vorteile, sondern beschleunigt auch die Bauzeit enorm. Schwere Lastenaufzüge, Winden und stählerne Schwerlastkonsolen können oft kleiner dimensioniert werden oder komplett entfallen. Die Rohre lassen sich von den Installateuren händisch im Schacht manövrieren.
+        </p>
+        <p>
+          Zusätzlich eliminiert PP-RCT das Risiko der Brandgefahr (Hot Works). Das Schweißen von Stahlrohren im Rohbau erfordert offene Flammen, Funkenflug und aufwendige Brandsicherheitswachen. Das K-Aqua System wird vollkommen brandsicher über elektrische Heizwendelmuffen oder Heizelementstumpfschweißung montiert. Die so entstandenen Verbindungen sind auf molekularer Ebene stoffschlüssig verschmolzen – es gibt keine Dichtringe, die unter dem extremen Wasserdruck herausgepresst werden könnten.
+        </p>
+
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Akustischer Komfort in der Luxusklasse</h3>
+        <p>
+          Wohnhochhäuser im Premium-Segment verlangen perfekte Schallisolation. Bei Stahlrohren übertragen sich die Fließgeräusche des Wassers, die Kavitation an Armaturen und insbesondere die sogenannten „Knackgeräusche“ bei der thermischen Ausdehnung des Rohrs in den Schellen als Körperschall ungehindert in das Mauerwerk und die angrenzenden Schlafzimmer.
+        </p>
+        <p>
+          PP-RCT ist ein Polymer mit ausgezeichneten viskoelastischen Eigenschaften. Das Material wirkt wie ein gigantischer Schalldämpfer. Strömungsgeräusche und Vibrationen der Heizungsumwälzpumpen werden von der molekularen Struktur des Rohrs absorbiert und nicht in die Bauwerkstruktur abgeleitet. Diese akustische Entkopplung steigert den Wohnkomfort drastisch und macht K-Aqua zur ersten Wahl für Luxus-Appartements und 5-Sterne-Hotels.
+        </p>
+
+        <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Sauerstoffdichtheit und Systemintegrität</h2>
+        <p>
+          In geschlossenen Heizungskreisläufen ist Sauerstoff der größte Feind der metallischen Komponenten (Kessel, Pumpen, Wärmetauscher). Diffundiert Sauerstoff durch die Rohrwandung, entsteht Magnetit und Korrosion. Um dies bei Kunststoffrohren zu verhindern, bietet K-Aqua Steigleitungen mit einer hochdichten EVOH-Sperrschicht (Ethylen-Vinylalkohol-Copolymer). Diese feine Schicht blockiert das Eindringen von Sauerstoffmolekülen gemäß DIN 4726 zu 100 %.
+        </p>
+        <p>
+          Somit kombiniert K-Aqua PP-RCT die Vorteile beider Welten: Das System ist durch die EVOH-Schicht so sauerstoffdicht wie ein Metallrohr, aber gleichzeitig absolut korrosionsfrei, extrem leicht, schalldämmend und dauerhaft dicht. Für die TGA-Planung von Hochhäusern bedeutet dies maximale Risikominimierung, reduzierte Betriebskosten (durch konstante hydraulische Glätte ohne Rohrreibung durch Rost) und den Schutz des Bauwerks über Generationen.
+        </p>
+      </section>
+
       {/* CTABand: TGA Support */}
       <Reveal>
         <CTABand

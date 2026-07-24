@@ -1,7 +1,7 @@
 ---
 title: "PP-R Valve (Brass Core, Chromium Plated)"
 category: "Valves"
-slug: "valves/pp-r-ball-valve-brass"
+slug: "valves/pp-r-ball-valve-ball-in-brass-chromium-plated"
 article_codes: ["AQ60020","AQ60025","AQ60032","AQ60040","AQ60050","AQ60063","AQ60075","AQ60090"]
 ---
 

@@ -1,6 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 import { TRANSLATED_LOCALES } from './languages';
+import merge from 'lodash/merge';
 
 const AVAILABLE_LOCALES: readonly string[] = TRANSLATED_LOCALES;
 
@@ -28,7 +29,37 @@ export default getRequestConfig(async ({ requestLocale }) => {
     }
   }
 
-  const messages = (await import(`../../messages/${targetLocale}.json`)).default;
+  const baseMessages = (await import(`../../messages/${targetLocale}.json`)).default;
+  let messages = { ...baseMessages };
+
+  // Load SEO Expansion files dynamically if they exist (for Swarm)
+  const seoModules = [
+    'products_pipes',
+    'products_fittings',
+    'products_valves',
+    'products_saddles_acc',
+    'products_tools',
+    'markets_1',
+    'markets_2',
+    'markets_3',
+    'markets_4',
+    'markets_5',
+    'markets_6',
+    'markets_7',
+    'markets_8',
+    'markets_9',
+    'markets_10',
+    'categories'
+  ];
+
+  for (const mod of seoModules) {
+    try {
+      const extension = (await import(`../../messages/seo/${targetLocale}/${mod}.json`)).default;
+      messages = merge({}, messages, extension);
+    } catch (e) {
+      // Ignore missing files
+    }
+  }
 
   return {
     locale: resolvedLocale,

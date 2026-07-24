@@ -14,12 +14,12 @@ export const messingPolypropylen: NewsPost = {
   date: 'Wissen',
   tag: 'Material',
   title: {
-    de: 'Messing trifft Polypropylen',
+    de: 'Messing trifft Polypropylen: Perfekte Übergänge',
     en: 'Brass meets Polypropylene',
     ar: 'النحاس الأصفر يلتقي بالبولي بروبيلين'
   },
   teaser: {
-    de: 'Sanierung heißt fast immer Systemwechsel: Spezielle Übergangsfittings und PPR Rohrsysteme mit integriertem Messinggewinde machen die Anbindung an den Bestand absolut dicht, normgerecht und dauerhaft korrosionssicher.',
+    de: 'Sanierung heißt fast immer Systemwechsel: Spezielle Übergangsfittings und PPR-Rohrsysteme mit integriertem Messinggewinde machen die Anbindung an den Bestand absolut dicht, normgerecht und dauerhaft korrosionssicher. Erfahren Sie alles über technische Herausforderungen, thermische Ausdehnung und die dauerhafte Symbiose durch Hybrid-Fittings.',
     en: 'Renovation almost always means a system change: Special transition fittings and PPR pipe systems with integrated brass threads make the connection to the existing system absolutely leak-proof, compliant with standards, and permanently corrosion-resistant.',
     ar: 'التجديد يعني دائمًا تقريبًا تغيير النظام: تجهيزات الانتقال الخاصة وأنظمة أنابيب PPR ذات الخيوط النحاسية المدمجة تجعل الاتصال بالنظام الحالي مانعًا للتسرب تمامًا ومتوافقًا مع المعايير ومقاومًا للتآكل بشكل دائم.'
   },
@@ -34,8 +34,11 @@ export const messingPolypropylen: NewsPost = {
             </div>
             <div className="relative z-10">
               <Eyebrow text="Die Verbindung zweier Welten" className="mb-6 text-primary" />
-              <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                Kaum ein großes Bauprojekt startet heutzutage komplett auf der sprichwörtlichen grünen Wiese. Besonders bei der Modernisierung historischer Gebäude oder der Erweiterung bestehender Industrieanlagen trifft modernste Kunststofftechnik unweigerlich auf alte, historisch gewachsene Bestandsleitungen. Wie verbindet man diese Welten absolut druckdicht und korrosionssicher? Die Antwort liegt in unseren intelligenten Hybrid Fittings.
+              <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
+                Kaum ein großes Bauprojekt startet heutzutage komplett auf der sprichwörtlichen grünen Wiese. Besonders bei der Modernisierung historischer Gebäude oder der Erweiterung bestehender Industrieanlagen trifft modernste Kunststofftechnik unweigerlich auf alte, historisch gewachsene Bestandsleitungen aus metallischen Werkstoffen. 
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl">
+                Wie verbindet man diese Welten absolut druckdicht und korrosionssicher? Wenn Polypropylen (PP-R) auf Kupfer, Stahl oder Guss trifft, gelten besondere physikalische und chemische Gesetze. Die Herausforderung besteht darin, zwei Materialien mit völlig unterschiedlichen Ausdehnungskoeffizienten, mechanischen Belastungsgrenzen und elektrochemischen Potenzialen dauerhaft und sicher zu verbinden. Die technologische Lösung hierfür sind spezialisierte Hybrid-Fittings, bei denen entzinkungsbeständiges Messing und hochfestes PP-R auf molekularer und geometrischer Ebene untrennbar miteinander verschmolzen werden.
               </p>
             </div>
           </div>
@@ -56,7 +59,7 @@ export const messingPolypropylen: NewsPost = {
               <Shield className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Altlast der Metalle</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Alte Stränge bestehen in der Regel aus korrosionsanfälligem Kupfer oder schwerem, verzinktem Stahl. Diese Materialien dehnen sich bei Hitze völlig anders aus als moderne Kunststoffe. Ohne ein extrem spezialisiertes Übergangsstück wären fatale Haarrisse, drastische Dichtungsausfälle und massive Wasserschäden nach kürzester Zeit vorprogrammiert.
+                Alte Stränge in Bestandsgebäuden bestehen in der Regel aus korrosionsanfälligem Kupfer oder schwerem, verzinktem Stahl. Diese Materialien neigen nach Jahrzehnten im Einsatz zu Inkrustationen, Rostbildung und Biofilmbewuchs. Zudem dehnen sie sich bei Hitze völlig anders aus als moderne Kunststoffe. Ohne ein extrem spezialisiertes Übergangsstück, das diese Diskrepanzen ausgleicht, wären fatale Haarrisse, drastische Dichtungsausfälle und massive Wasserschäden am Übergangspunkt nach kürzester Zeit vorprogrammiert.
               </p>
             </Card>
             
@@ -64,9 +67,31 @@ export const messingPolypropylen: NewsPost = {
               <Handshake className="w-12 h-12 text-accent mb-6" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Das mechanische Nadelöhr</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Der Übergangsfitting ist somit das absolute Nadelöhr jeder umfassenden Sanierung. Er muss enorme thermische Spannungen aufnehmen, absolute Dichtheit unter vollem Leitungsdruck garantieren und gleichzeitig strikt verhindern, dass alte Korrosionsprobleme auf das neue Kunststoffsystem übergreifen. Ein echter mechanischer Kraftakt.
+                Der Übergangsfitting ist somit das absolute Nadelöhr jeder umfassenden Sanierung. Er muss enorme thermische Spannungen aufnehmen, absolute Dichtheit unter vollem Leitungsdruck garantieren und gleichzeitig strikt verhindern, dass alte Korrosionsprobleme, wie etwa galvanische Korrosion, auf das neue Netz übergreifen. Die K-Aqua Hybrid-Fittings meistern diesen mechanischen Kraftakt bravourös, indem sie die Stärken beider Werkstoffe bündeln, ohne ihre Schwächen zu addieren.
               </p>
             </Card>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* Deep Technical Detail Section */}
+      <section className="mt-12">
+        <Reveal>
+          <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Warum entzinkungsbeständiges Messing (DZR)?</h2>
+            <p>
+              Normales Messing besteht aus Kupfer und Zink. In Regionen mit aggressiven Wasserqualitäten (hoher Chloridgehalt, niedriger pH-Wert) kann es zur sogenannten Entzinkung kommen. Dabei wird das Zink aus der Legierung herausgelöst, wodurch das Material eine schwammartige, poröse Struktur annimmt. Die mechanische Festigkeit geht komplett verloren, der Fitting wird brüchig und bricht schließlich unter dem Leitungsdruck zusammen.
+            </p>
+            <p>
+              Um dies zu verhindern, verwendet K-Aqua für seine Übergangsfittings ausschließlich entzinkungsbeständiges Messing (DZR - Dezincification Resistant Brass). Durch spezielle Wärmebehandlungen und minimale Zusätze von Elementen wie Arsen oder Antimon wird die mikroskopische Gitterstruktur so stabilisiert, dass das Zink sicher in der Legierung gebunden bleibt. Dies garantiert eine jahrzehntelange Haltbarkeit selbst bei schwierigsten Trinkwasserparametern.
+            </p>
+            <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Die Kunst der thermischen Entkopplung</h3>
+            <p>
+              Polypropylen hat einen linearen Ausdehnungskoeffizienten, der deutlich über dem von Metallen liegt. Wird nun heißes Wasser (z. B. 70°C in Zirkulationsleitungen) durch das System gepumpt, dehnt sich der Kunststoffmantel des Fittings stärker aus als der metallische Kern. Um zu verhindern, dass Wasser zwischen die Materialschichten kriecht, besitzen die Metalleinleger der K-Aqua Fittings ausgeklügelte geometrische Profile: Widerhaken, tiefe Rillen und asymmetrische Fräsungen. 
+            </p>
+            <p>
+              Während des Herstellungsprozesses wird das flüssige PP-R unter extremem Druck (Spritzguss) um diesen Kern gepresst. Beim Abkühlen schrumpft der Kunststoff ("Schwindung") auf das Metall auf und verkrallt sich mikroskopisch in den Fräsungen. Das Ergebnis ist eine hundertprozentig dichte, formschlüssige Verbindung, die auch extremsten Temperaturwechselbelastungen standhält.
+            </p>
           </div>
         </Reveal>
       </section>
@@ -130,11 +155,42 @@ export const messingPolypropylen: NewsPost = {
             },
             {
               title: "Torsionskraft widerstehen",
-              description: "Diese formschlüssige Einbettung ist so monumental stabil, dass sie selbst extremste Torsionskräfte mühelos aufnimmt. Wenn der Installateur das Gewinde mit schweren Rohrzangen extrem fest anzieht, kann sich der Metalleinsatz im Kunststoff absolut niemals verdrehen.",
+              description: "Diese formschlüssige Einbettung ist so monumental stabil, dass sie selbst extremste Torsionskräfte mühelos aufnimmt. Wenn der Installateur das Gewinde mit schweren Rohrzangen extrem fest anzieht (Gewindedichtmittel verwenden!), kann sich der Metalleinsatz im Kunststoff absolut niemals verdrehen.",
               content: <div className="h-full w-full bg-card flex items-center justify-center"><Wrench className="w-32 h-32 text-blue-500 opacity-20" /></div>
             }
           ]}
         />
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-12">
+        <Reveal>
+          <div className="bg-card border border-card-border p-8 lg:p-12 rounded-3xl">
+            <h2 className="text-3xl font-extrabold font-heading text-foreground mb-8">
+              FAQ: PP-R und metallische Übergänge
+            </h2>
+            <div className="space-y-6">
+              <div>
+                <h4 className="text-xl font-semibold text-foreground mb-2">Wie vermeide ich Kontaktkorrosion (Galvanische Korrosion)?</h4>
+                <p className="text-muted-foreground">
+                  Kontaktkorrosion entsteht, wenn zwei unedle und edle Metalle (z. B. Kupfer und verzinkter Stahl) in Anwesenheit eines Elektrolyten (Wasser) direkt verbunden werden. Da PP-R ein elektrischer Isolator ist, unterbricht das Rohrleitungssystem den Stromkreis. Es kommt zu keiner Spannungsreihe im Rohrnetz selbst. Das integrierte Messing im Fitting fungiert als sicherer Puffer, da DZR-Messing in den meisten Trinkwasserinstallationen mit Kupfer oder Edelstahl kompatibel ist.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-foreground mb-2">Welche Dichtmittel sind bei Messing-PPR-Gewinden zugelassen?</h4>
+                <p className="text-muted-foreground">
+                  Es wird dringend empfohlen, handelsübliches Teflonband (PTFE-Band) oder speziell freigegebene Dichtfäden zu verwenden. Hanf in Kombination mit aggressiven Dichtpasten sollte vermieden werden, da einige Pasten chemisch mit dem Kunststoff reagieren können und bei übermäßiger Quellung des Hanfs enorme Sprengkräfte auf das Gewinde wirken.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold text-foreground mb-2">Welche Drehmomente hält der Fitting aus?</h4>
+                <p className="text-muted-foreground">
+                  Dank der extrem tiefen Verzahnung im Spritzgussprozess hält der Fitting branchenüblichen Anzugsmomenten mühelos stand. Das Überdrehen mit übergroßen Rohrzangen ("Gewaltmontage") ist dennoch zu vermeiden, um die Lebensdauer der Gewindegänge nicht zu gefährden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
       {/* Stats Band - Extreme Specifications */}
@@ -143,7 +199,7 @@ export const messingPolypropylen: NewsPost = {
           <StatBand 
             stats={[
               { n: "100", u: "%", l: "Formschlüssige Einbettung" },
-              { n: "0", u: "", l: "Risiko für Kontaktkorrosion" },
+              { n: "0", u: "", l: "Risiko für Entzinkung bei DZR" },
               { n: "2", u: "", l: "Perfekt vereinte Materialwelten" },
             ]} 
             cols={250}
@@ -162,10 +218,10 @@ export const messingPolypropylen: NewsPost = {
               </h2>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Ein voll belegtes Krankenhaus, ein Fünf Sterne Hotel oder ein geschäftiger Bürokomplex können absolut nicht für Wochen komplett vom Wassernetz getrennt werden. Stillstand kostet gigantische Summen.
+                  Ein voll belegtes Krankenhaus, ein Fünf-Sterne-Hotel oder ein geschäftiger Bürokomplex können absolut nicht für Wochen komplett vom Wassernetz getrennt werden. Stillstand kostet gigantische Summen und gefährdet den Betrieb.
                 </p>
                 <p>
-                  Dank unserer extrem sicheren Übergangstechnik lassen sich diese enormen Netze völlig stressfrei Strang für Strang sanieren. Korrodierte Altlasten werden sukzessive durch modernes Polypropylen ersetzt, während die noch funktionierenden Abschnitte provisorisch im Vollbetrieb verbleiben. Da Polypropylen keinerlei Angriffsfläche bietet, kann der Rost aus den alten Eisenrohren das neue System zudem niemals infizieren.
+                  Dank unserer extrem sicheren Übergangstechnik lassen sich diese enormen Netze völlig stressfrei Strang für Strang sanieren. Korrodierte Altlasten werden sukzessive durch modernes K-Aqua Polypropylen ersetzt, während die noch funktionierenden Abschnitte provisorisch im Vollbetrieb verbleiben. Da Polypropylen keinerlei Angriffsfläche bietet, kann der Rost aus den alten Eisenrohren das neue System zudem niemals infizieren.
                 </p>
               </div>
             </div>
@@ -188,7 +244,7 @@ export const messingPolypropylen: NewsPost = {
               Lösbare Verschraubungen für kritische Punkte
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Während die Rohre für die Ewigkeit sicher verschweißt werden, erfordern teure Armaturen, große Umwälzpumpen und empfindliche Wärmetauscher höchste Flexibilität. Unsere speziellen Kunststoffverschraubungen mit massivem Metalleinlegeteil schaffen extrem druckdichte, aber jederzeit völlig problemlos lösbare Verbindungen. Defekte Pumpen können binnen Minuten mit einem simplen Schraubenschlüssel getauscht werden, ohne das gesamte Rohrleitungssystem aufschneiden zu müssen.
+              Während die Rohre für die Ewigkeit sicher verschweißt werden, erfordern teure Armaturen, große Umwälzpumpen und empfindliche Wärmetauscher höchste Flexibilität. Unsere speziellen Kunststoffverschraubungen mit massivem Metalleinlegeteil schaffen extrem druckdichte, aber jederzeit völlig problemlos lösbare Verbindungen. Defekte Pumpen können binnen Minuten mit einem simplen Schraubenschlüssel getauscht werden, ohne das gesamte Rohrleitungssystem aufschneiden zu müssen. Ein absolutes Muss für ein effizientes Facility Management.
             </p>
           </div>
         </Reveal>

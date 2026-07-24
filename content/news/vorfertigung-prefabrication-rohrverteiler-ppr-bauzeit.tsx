@@ -52,9 +52,61 @@ export const vorfertigungPrefabrication: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            {/* Technisches Canvas Element für Baupläne und Konstruktion */}
             <PipeFX variant="blueprint" size={380} />
           </div>
+        </div>
+      </Reveal>
+
+      {/* Deep Technical Prose Area */}
+      <Reveal>
+        <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
+          <h2>Industrielle Vorfertigung (Prefabrication): Der Turbobolzen für Ihren Bauzeitenplan</h2>
+          <p>
+            Die Baubranche durchlebt einen fundamentalen Wandel. Die Zeiten, in denen Hunderte von Handwerkern über Monate hinweg komplexe Heizungsverteiler, Steigstränge und Sanitärregister mühsam Stück für Stück auf der Baustelle zusammenbauten, neigen sich dem Ende zu. Termin- und Kostendruck, gepaart mit einem eklatanten Mangel an qualifizierten Fachkräften, erzwingen neue, industriellere Arbeitsmethoden. Die Antwort der Technischen Gebäudeausrüstung (TGA) darauf ist die Vorfertigung (engl. Prefabrication). K Aqua PP-R Rohrsysteme sind aufgrund ihrer Schweißbarkeit, ihres geringen Gewichts und ihrer Formstabilität das ideale Medium für diesen revolutionären Workflow.
+          </p>
+          
+          <h3>Der Bruch mit der traditionellen Baustelle</h3>
+          <p>
+            Eine konventionelle Baustelle ist ein chaotischer Ort. Dreck, Kälte, Nässe und der ständige Kampf um Platz mit anderen Gewerken prägen den Alltag. Schweiß- und Lötarbeiten an Rohren müssen oft in Zwangslagen (über Kopf, kniend, in engen Schächten) durchgeführt werden. Dies kostet nicht nur enorm viel Zeit, sondern birgt auch ein hohes Risiko für Qualitätseinbußen. 
+          </p>
+          <p>
+            Bei der Vorfertigung hingegen verlagert sich die Wertschöpfung in die saubere, klimatisierte und ergonomisch optimierte Umgebung einer Werkstatt. Hier stehen stationäre Schweißmaschinen zur Verfügung, mit denen große Nennweiten (z. B. DN 100 bis DN 400) vollautomatisch und mit perfektem Fügedruck per Heizelementstumpfschweißung verbunden werden können.
+          </p>
+
+          <h3>Building Information Modeling (BIM) als Katalysator</h3>
+          <p>
+            Die Vorfertigung funktioniert nicht ohne exakte Planung. Der Prozess beginnt lange bevor der erste Schweißspiegel erhitzt wird – nämlich im digitalen Zwilling des Gebäudes. Über Building Information Modeling (BIM) werden die Verteiler, Pumpengruppen und Schachtinstallationen millimetergenau in 3D (CAD) modelliert. 
+          </p>
+          <p>
+            K Aqua stellt Planern und Installateuren exakte BIM-Bibliotheken zur Verfügung. Aus diesem 3D-Modell generiert die Software auf Knopfdruck automatische Stücklisten (Bill of Materials) und exakte Zuschnittpläne für die Rohre. Es gibt keine bösen Überraschungen oder Kollisionen mit Lüftungskanälen mehr, da alles virtuell bereits gebaut wurde, bevor es physisch existiert.
+          </p>
+
+          <h3>Der Logistik-Vorteil: Plug & Play auf der Baustelle</h3>
+          <p>
+            Ist das Register in der Werkstatt fertig verschweißt, wird es dort einer strengen Druckprüfung unterzogen. Erst wenn 100%ige Dichtigkeit attestiert ist, wird das Modul auf die Baustelle transportiert. 
+          </p>
+          <p>
+            Der größte Hebel für den Bauzeitenplan entsteht beim Einbau: Statt tagelang Einzelteile zusammenzufügen, wird die fertige Baugruppe per Kran oder Flaschenzug an ihren Bestimmungsort gehoben, fixiert und mit wenigen, vorgeplanten Anbindenähten (z.B. mittels Elektroschweißmuffen oder Flanschverbindungen) an das Hauptnetz angeschlossen. Der Arbeitsaufwand vor Ort reduziert sich von Wochen auf wenige Stunden. Ein Zeitvorteil von bis zu 70 % ist realistisch.
+          </p>
+
+          <h3>Warum PP-R besser für Prefabrication geeignet ist als Stahl</h3>
+          <p>
+            Der Transport von großen, vorgefertigten Registern aus Stahlrohr ist extrem schwerfällig. Die enormen Gewichte erfordern spezielle Hebewerkzeuge und Schwerlastkrane. Zudem birgt jede Bewegung die Gefahr, die Korrosionsschutzbeschichtung des Stahls zu beschädigen. K Aqua PP-R ist rund 70 % leichter als Stahl. Große Baugruppen lassen sich wesentlich leichter manövrieren. Durch die homogene molekulare Verschmelzung beim Schweißen besitzt ein fertiges PP-R Register eine enorme Torsionssteifigkeit und strukturelle Integrität, ohne bei Erschütterungen während des Transports Risse in den Schweißnähten zu riskieren.
+          </p>
+
+          <h3>Häufig gestellte Fragen (FAQ) zur Vorfertigung</h3>
+          <h4>Wie groß dürfen die vorgefertigten Module sein?</h4>
+          <p>
+            Die Grenzen setzt allein die Logistik. Die Dimensionen der Module müssen auf Standard-LKW passen (meist max. 2,40 m Breite und 12 m Länge) und durch die vorhandenen Gebäudeöffnungen (Türen, Fenster, Schächte) passen. Intelligente Planung teilt riesige Verteiler in handliche Sektionen.
+          </p>
+          <h4>Lohnt sich Prefabrication auch für kleinere Projekte?</h4>
+          <p>
+            Ja, definitiv. Bereits die Vorfertigung von standardisierten Steigsträngen für den Wohnungsbau (z.B. Vor- und Rücklauf Heizung plus Kalt- und Warmwasser nebeneinander) auf einem Montagerahmen spart immens Zeit, wenn sich der Aufbau in jedem Stockwerk wiederholt (Serieneffekt).
+          </p>
+          <h4>Wer haftet für die Dichtigkeit?</h4>
+          <p>
+            Dies ist ein weiterer massiver Vorteil: Wenn die Baugruppe bereits im Werk unter Prüfdruck getestet und abgenommen wurde, verlagert sich das Haftungsrisiko von der chaotischen Baustelle in den streng dokumentierten Qualitätszyklus der Werkstatt.
+          </p>
         </div>
       </Reveal>
 

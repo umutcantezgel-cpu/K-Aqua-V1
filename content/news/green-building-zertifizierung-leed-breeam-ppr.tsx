@@ -33,7 +33,6 @@ export const greenBuildingZertifizierung: NewsPost = {
   content: (
     <div className="flex flex-col gap-24 py-12">
 
-      {/* Intro mit SectionHead (sehr clean, Whitepaperstil) */}
       <Reveal>
         <SectionHead
           eyebrow={
@@ -45,78 +44,71 @@ export const greenBuildingZertifizierung: NewsPost = {
           title="Der Weg zum Platinzertifikat beginnt in der TGA"
           lead="Nachhaltige Gebäude sind längst kein Nischenthema mehr, sondern der Standard für zukunftssichere Gewerbe- und Wohnimmobilien. Gebäudezertifizierungen wie LEED, BREEAM und DGNB bewerten Bauwerke ganzheitlich nach strengen ESGkriterien. Eine oft unterschätzte Rolle spielt dabei das technische Rohrleitungssystem. Hochwertige PPR Rohrsysteme von K Aqua können hierbei den ausschlaggebenden Unterschied zwischen einer Silber- und einer Platinzertifizierung ausmachen."
         />
-        <div className="mt-8 text-muted-foreground max-w-[800px] leading-relaxed text-lg">
+        <div className="mt-8 text-muted-foreground max-w-[800px] mx-auto leading-relaxed text-lg space-y-6">
           <p>
-            Immobilienentwickler, Fachplaner und Investoren richten sich zunehmend nach globalen ESGkriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieteinnahmen, senkt die laufenden Betriebskosten nachhaltig und sichert den langfristigen Werterhalt der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) im Audit gezielt zu sammeln.
+            Immobilienentwickler, Fachplaner und Investoren richten sich zunehmend nach globalen ESG-Kriterien (Environmental, Social, Governance). Ein nachgewiesen grünes Gebäude erzielt höhere Mieteinnahmen, senkt die laufenden Betriebskosten nachhaltig und sichert den langfristigen Werterhalt der Immobilie. Die technische Gebäudeausrüstung (TGA) bietet ein massives Potenzial, um die erforderlichen Zertifizierungspunkte (Credits) im Audit gezielt zu sammeln.
+          </p>
+          <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Warum Rohrleitungssysteme für Green Buildings so wichtig sind</h2>
+          <p>
+            Oftmals liegt der Fokus der Gebäudezertifizierung auf der Gebäudehülle, der Isolierung und der Nutzung erneuerbarer Energien. Doch die Rohrleitungssysteme – die eigentlichen Adern jedes Gebäudes – tragen in erheblichem Maße zur Gesamtökobilanz bei. Herkömmliche metallische Rohrleitungssysteme verursachen bei der Förderung der Rohstoffe, der energieintensiven Herstellung, dem Transport und der oft aufwendigen Verarbeitung auf der Baustelle hohe CO2-Emissionen. K Aqua PP-R (Polypropylen Random Copolymer) Rohrsysteme bieten hier eine zukunftsweisende Alternative. Sie zeichnen sich durch einen signifikant geringeren Primärenergiebedarf bei der Herstellung aus und sind zu 100 % recycelbar. Diese Eigenschaften spiegeln sich direkt in der Lebenszyklusanalyse (Life Cycle Assessment, LCA) des Gebäudes wider, die für alle führenden Zertifikate von entscheidender Bedeutung ist.
           </p>
         </div>
       </Reveal>
 
-      {/* GlossaryGrid für die verschiedenen Zertifikate */}
       <Reveal>
         <SectionHead
-          title="Die wichtigsten Zertifizierungssysteme im Überblick"
-          lead="Weltweit haben sich verschiedene Qualitäts- und Umweltstandards etabliert, die alle auf nachhaltige Bauweisen setzen, jedoch spezifische Schwerpunkte in der Bewertung aufweisen."
+          title="Die wichtigsten Zertifizierungssysteme im Detail"
+          lead="Weltweit haben sich verschiedene Qualitäts- und Umweltstandards etabliert, die alle auf nachhaltige Bauweisen setzen, jedoch spezifische Schwerpunkte in der Bewertung aufweisen. Hier erfahren Sie, wie K Aqua PP-R in den einzelnen Systemen punktet."
         />
-        <GlossaryGrid 
-          items={[
-            [
-              "LEED (USA)", 
-              "Leadership in Energy and Environmental Design. Der weltweit am weitesten verbreitete Standard. Fokussiert stark auf Energieeffizienz, Wassersparen und nachhaltige Materialauswahl. K Aqua PPR Rohrsysteme punkten hier besonders in den Kategorien 'Water Efficiency' und 'Materials & Resources'."
-            ],
-            [
-              "BREEAM (UK)", 
-              "Building Research Establishment Environmental Assessment Methodology. Das traditionsreichste Zertifizierungssystem in Europa. Bewertet Kategorien wie Management, Gesundheit, Energie, Wasser und Materialkreisläufe mit starkem Fokus auf den gesamten Lebenszyklus."
-            ],
-            [
-              "DGNB (Deutschland)", 
-              "Deutsche Gesellschaft für Nachhaltiges Bauen. Betrachtet Ökologie, Ökonomie und soziokulturelle Faktoren gleichwertig. Hier ist eine detaillierte Ökobilanzierung (LCA) über den gesamten Lebenszyklus der verbauten Rohrsysteme entscheidend."
-            ],
-            [
-              "WELL (Global)", 
-              "Der weltweite Standard mit Fokus auf die Gesundheit, Ergonomie und das Wohlbefinden der Gebäudenutzer. K Aqua PPR Rohre unterstützen WELL optimal durch garantierten Erhalt der Trinkwassergüte ohne Abgabe schädlicher Substanzen (100 % BPA-frei und schwermetallfrei)."
-            ]
-          ]}
-        />
+        <div className="mt-8 text-muted-foreground max-w-[800px] mx-auto leading-relaxed text-lg space-y-6">
+          <h3 className="text-xl font-semibold text-foreground">LEED (Leadership in Energy and Environmental Design)</h3>
+          <p>
+            LEED ist das weltweit am häufigsten verwendete Zertifizierungssystem für umweltfreundliches Bauen. Entwickelt vom U.S. Green Building Council (USGBC), bewertet es Gebäude in verschiedenen Kategorien. K Aqua PP-R Rohrsysteme tragen maßgeblich in folgenden Kategorien bei:
+          </p>
+          <ul className="list-disc pl-6 mt-4 mb-4">
+            <li><strong>Materials and Resources (MR):</strong> Hier werden Punkte für die Verwendung von Materialien mit transparenten Umweltproduktdeklarationen (EPDs) vergeben. Die Bereitstellung von produktspezifischen EPDs durch K Aqua erleichtert Planern den Nachweis der Umweltwirkungen.</li>
+            <li><strong>Water Efficiency (WE):</strong> Die absolute Leckagesicherheit durch homogene Schweißverbindungen und die Verhinderung von Rohrbrüchen minimieren Wasserverluste und sichern dauerhaft den effizienten Umgang mit der Ressource Wasser.</li>
+            <li><strong>Energy and Atmosphere (EA):</strong> Die geringe Wärmeleitfähigkeit von PP-R (0,24 W/mK) reduziert Wärmeverluste in Warmwassersystemen und trägt somit zur Steigerung der Gesamtenergieeffizienz des Gebäudes bei.</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-foreground mt-8">BREEAM (Building Research Establishment Environmental Assessment Methodology)</h3>
+          <p>
+            BREEAM, ursprünglich in Großbritannien entwickelt, ist das älteste System zur Bewertung der Nachhaltigkeit von Gebäuden und in Europa weit verbreitet. Der Fokus liegt stark auf dem gesamten Lebenszyklus und der wissenschaftlichen Bewertung der Umweltauswirkungen. 
+            Für BREEAM-Zertifizierungen bietet K Aqua PP-R Vorteile in den Bereichen Gesundheit und Wohlbefinden (Health and Wellbeing), da die Rohre absolut korrosionsbeständig sind und keine toxischen Stoffe an das Trinkwasser abgeben (Erfüllung höchster Hygienestandards). Zudem wird in der Kategorie Materialien die Verwendung langlebiger, robuster und recycelbarer Werkstoffe wie PP-R positiv bewertet.
+          </p>
+
+          <h3 className="text-xl font-semibold text-foreground mt-8">DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen)</h3>
+          <p>
+            Das DGNB-System zeichnet sich durch seine ganzheitliche Betrachtungsweise aus, die ökologische, ökonomische und soziokulturelle Qualitäten gleichwertig bewertet. Eine zentrale Rolle spielt hier die Ökobilanzierung (LCA) über den gesamten Lebenszyklus des Gebäudes – von der Rohstoffgewinnung über den Betrieb bis zum Rückbau. K Aqua PP-R Rohrsysteme überzeugen hier nicht nur durch ihre exzellente Umweltbilanz in der Herstellungsphase, sondern vor allem durch ihre extrem lange Lebensdauer von 50 Jahren und mehr, die wartungsfreie Betriebsphase und die Vermeidung teurer Sanierungsmaßnahmen aufgrund von Korrosion oder Inkrustation (wirtschaftliche Qualität).
+          </p>
+        </div>
       </Reveal>
 
-      {/* BentoGrid: Wo PPR Rohre Punkte sammeln */}
       <Reveal>
         <SectionHead
-          title="Wie K Aqua PPR Systeme Credits generieren"
-          lead="Die Wahl des richtigen Rohrleitungsmaterials hat direkte positive Auswirkungen auf mehrere Bewertungskategorien führender Zertifizierungssysteme."
+          title="Technische Eigenschaften von K Aqua PP-R für das Green Building"
+          lead="Die chemischen und physikalischen Eigenschaften von Polypropylen Random Copolymer (PP-R) prädestinieren es für den Einsatz in nachhaltigen Bauprojekten."
         />
-        <BentoGrid>
-          <BentoGridItem
-            title="Materialien & Ressourcen"
-            description="PPR ist zu 100 % recycelbar. Es enthält keine giftigen Weichmacher, Schwermetalle oder Halogene. Der im Vergleich zu Metallrohren deutlich geringere Energieverbrauch bei der Herstellung reduziert den grauen CO2 Fußabdruck nachhaltig."
-            icon={<Recycle className="w-6 h-6 text-primary" />}
-            colSpan={2}
-          />
-          <BentoGridItem
-            title="Energie & Atmosphäre"
-            description="Die geringe Wärmeleitfähigkeit von Polypropylen minimiert Energieverluste in Heiz- und Kältekreisläufen signifikant. Kälte- und Wärmeversorgungsanlagen arbeiten dadurch dauerhaft energieeffizienter."
-            icon={<Award className="w-6 h-6 text-primary" />}
-          />
-          <BentoGridItem
-            title="Wassereffizienz"
-            description="Komplette Korrosionsfreiheit und dauerhaft homogene Schweißverbindungen verhindern Leckagen sowie Mikrorisse. Dies gewährleistet die langfristige Integrität des Wasserkreislaufs."
-            icon={<Droplet className="w-6 h-6 text-primary" />}
-          />
-          <BentoGridItem
-            title="Gesundheit & Komfort"
-            description="Hervorragende akustische Dämpfungseigenschaften reduzieren Strömungsgeräusche für ein leises Gebäudeumfeld. Die lebensmittelechte Materialstruktur garantiert höchsten Hygienestandard."
-            icon={<Shield className="w-6 h-6 text-primary" />}
-          />
-          <BentoGridItem
-            title="Ökobilanz (EPD)"
-            description="Zertifizierte Umweltproduktdeklarationen (EPDs) für K Aqua PPR Rohrsysteme belegen transparent und objektiv den niedrigen CO2 Fußabdruck über die gesamte Lebensdauer."
-            icon={<Layers className="w-6 h-6 text-primary" />}
-          />
-        </BentoGrid>
+        <div className="mt-8 text-muted-foreground max-w-[800px] mx-auto leading-relaxed text-lg space-y-6">
+          <h3 className="text-xl font-semibold text-foreground">Ökobilanz und EPD (Environmental Product Declaration)</h3>
+          <p>
+            Eine verifizierte EPD liefert transparente und vergleichbare Daten über die Umweltauswirkungen eines Produkts über seinen gesamten Lebenszyklus. Im Vergleich zu Kupfer- oder Stahlrohren benötigt die Herstellung von PP-R deutlich weniger Energie und verursacht weniger Treibhausgasemissionen. Diese Daten fließen direkt in die Lebenszyklusanalyse des Bauprojekts ein und sind oft die Voraussetzung für das Erreichen hoher Zertifizierungsstufen.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-8">Energieeffizienz durch geringe Wärmeleitfähigkeit</h3>
+          <p>
+            Metallrohre leiten Wärme sehr gut, was in der Gebäudeinstallation zu unerwünschten Energieverlusten führt und aufwendige Isolierungen erfordert. PP-R hingegen ist ein natürlicher Isolator. Die geringe Wärmeleitfähigkeit sorgt dafür, dass das Medium im Rohr seine Temperatur länger behält. Dies entlastet das Heiz- und Kühlsystem des Gebäudes und senkt den Energiebedarf im laufenden Betrieb erheblich.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-8">Recyclingfähigkeit und Kreislaufwirtschaft</h3>
+          <p>
+            Der Gedanke der Kreislaufwirtschaft (Circular Economy) ist ein zentraler Pfeiler nachhaltigen Bauens. K Aqua PP-R Rohre und Fittings sind zu 100 % recycelbar. Am Ende der Lebensdauer des Gebäudes können die Rohrsysteme dematerialisiert, eingeschmolzen und für andere Kunststoffprodukte wiederverwendet werden. Es entstehen keine gefährlichen Abfallstoffe, und der Materialkreislauf bleibt geschlossen.
+          </p>
+          <h3 className="text-xl font-semibold text-foreground mt-8">Trinkwasserhygiene und Gesundheit</h3>
+          <p>
+            Zertifikate wie WELL und LEED bewerten auch die Innenraumqualität und die Gesundheit der Nutzer. K Aqua PP-R ist absolut korrosionsbeständig und chemisch inert. Es gibt weder Schwermetalle noch Bisphenol A (BPA) oder andere endokrine Disruptoren an das Trinkwasser ab. Die glatte Innenoberfläche verhindert zudem die Anhaftung von Biofilmen und minimiert das Risiko von Legionellenwachstum, was für den sicheren Betrieb von Gebäuden unerlässlich ist.
+          </p>
+        </div>
       </Reveal>
 
-      {/* StepFlow: Der Weg zur Zertifizierung */}
       <Reveal>
         <SectionHead
           title="Der Ablauf der Zertifizierung mit K Aqua"
@@ -144,7 +136,6 @@ export const greenBuildingZertifizierung: NewsPost = {
         />
       </Reveal>
 
-      {/* CTABand: Consulting */}
       <Reveal>
         <CTABand>
           <div className="flex items-center gap-3 text-accent font-bold mb-2">

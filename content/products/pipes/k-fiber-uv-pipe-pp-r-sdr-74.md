@@ -1,7 +1,7 @@
 ---
 title: "K-Fiber UV Pipe PP-R SDR 7.4"
 category: "Pipes"
-slug: "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4"
+slug: "pipes/k-fiber-uv-pipe-pp-r-sdr-74"
 article_codes: ["AQ200PFUV20", "AQ200PFUV25", "AQ200PFUV32", "AQ200PFUV40", "AQ200PFUV50"]
 ---
 
