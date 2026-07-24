@@ -16,8 +16,12 @@ export default function Footer() {
       {/* Background Glow */}
       <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.12),transparent_70%)] pointer-events-none" />
       
-      {/* Optional Noise Texture Layer */}
-      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.03] pointer-events-none mix-blend-overlay" />
+      {/* Optional Textures */}
+      <div 
+        className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay" 
+        style={{ backgroundImage: "url('/noise.png')" }} 
+      />
+      <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 relative z-10 flex flex-col">
         
