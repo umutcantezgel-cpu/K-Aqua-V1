@@ -4,6 +4,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import { Link, usePathname } from '@/lib/i18n/navigation';
+import { FluidLink } from '@/components/ui/FluidTransition';
 import { useTranslations, useLocale } from 'next-intl';
 import { GEO_MARKETS } from '@/lib/data/geo';
 import {
@@ -263,7 +264,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
           </span>
           <div className="k-mega-group">
             <motion.div variants={itemVariants}>
-              <Link
+              <FluidLink
                 href="/"
                 className={`k-mega-item ${pathname === '/' ? 'is-active' : ''}`}
                 aria-current={pathname === '/' ? 'page' : undefined}
@@ -276,7 +277,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                 <span className="k-mega-text">
                   <span className="t">{t('nav.home') || 'Startseite'}</span>
                 </span>
-              </Link>
+              </FluidLink>
             </motion.div>
           </div>
         </motion.section>
@@ -308,7 +309,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                     key={item.id}
                     variants={itemVariants}
                   >
-                    <Link
+                    <FluidLink
                       href={item.href}
                       className={`k-mega-item ${isActive ? 'is-active' : ''}`}
                       aria-current={isActive ? 'page' : undefined}
@@ -321,7 +322,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                         <span className="t">{title}</span>
                         {subtitle && <span className="s">{subtitle}</span>}
                       </span>
-                    </Link>
+                    </FluidLink>
                   </motion.div>
                 );
               })}
@@ -347,14 +348,14 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
             </Link>
             <ThemeToggle />
           </div>
-          <Link
+          <FluidLink
             href="/projektanfrage"
             onClick={onClose}
             className="flex-1 inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-xl transition-all duration-fast ease-out bg-primary text-primary-foreground hover:bg-primary-hover h-11 px-4 text-sm"
           >
             <MessageSquare size={18} />
             {t('quote')}
-          </Link>
+          </FluidLink>
         </motion.div>
       </motion.div>
     </div>
