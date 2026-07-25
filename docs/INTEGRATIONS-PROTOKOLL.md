@@ -15,6 +15,12 @@
 - **Vorgefundene Sprachdateien:** Parität gewahrt.
 - **Besonderheiten:** Type-Error durch ein Non-Null-Assertion behoben, damit die Integration fortgesetzt werden kann.
 
+## 2026-07-25 — Segment 30 Teil B
+- **Schritt 1 (Navigation auf FluidLink):**
+  - **Umgestellte Dateien:** `components/layout/Header.tsx`, `components/layout/MegaMenu.tsx`, `components/layout/FooterSitemap.tsx`
+  - **Prüfergebnisse:** Build erfolgreich. Navigation über FluidLink für Hauptrouten eingebaut. Sprachumschalter, sr-only Links und Unterseiten wurden bewusst nicht umgestellt. Keine Abweichungen.
+
+
 ## 2026-07-06 — Segment 04
 - **Prüfläufe:** Build, Lint, Typecheck und i18n-Check erfolgreich bestanden. Keine Fehler.
 - **Besonderheiten:** Das Icon `ChevronDown` war in `components/ui/icon.tsx` bereits weisungsgemäß vorhanden, daher keine weitere Änderung erforderlich.

@@ -1,6 +1,7 @@
 "use client";
 
 import { Link } from '@/lib/i18n/navigation';
+import { FluidLink } from '@/components/ui/FluidTransition';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
@@ -55,6 +56,12 @@ const sitemapGroups = [
   },
 ];
 
+const mainRoutes = [
+  '/', '/produkte', '/produkte/finder', '/loesungen', '/co2-rechner', 
+  '/academy', '/trust-center', '/partnerschaft', '/service', '/maerkte', 
+  '/referenzen', '/unternehmen', '/karriere', '/projektanfrage', '/news', '/kontakt'
+];
+
 function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -86,38 +93,46 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
             exit={{ height: 0, opacity: 0 }}
             className="flex flex-col gap-3 overflow-hidden lg:hidden pb-6"
           >
-            {group.links.map((link) => (
-              <li key={link.href}>
-                <Link
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  href={link.href as any}
-                  className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
-                >
-                  <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1">
-                    {link.fallback}
-                  </span>
-                </Link>
-              </li>
-            ))}
+            {group.links.map((link) => {
+              const isMainRoute = mainRoutes.includes(link.href);
+              const LinkComp = isMainRoute ? FluidLink : Link;
+              return (
+                <li key={link.href}>
+                  <LinkComp
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    href={link.href as any}
+                    className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
+                  >
+                    <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1">
+                      {link.fallback}
+                    </span>
+                  </LinkComp>
+                </li>
+              );
+            })}
           </motion.ul>
         )}
       </AnimatePresence>
 
       {/* Desktop Always Visible Content */}
       <ul className="hidden lg:flex flex-col gap-3.5">
-        {group.links.map((link) => (
-          <li key={link.href}>
-            <Link
-              // eslint-disable-next-line @typescript-eslint/no-explicit-any
-              href={link.href as any}
-              className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
-            >
-              <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1.5">
-                {link.fallback}
-              </span>
-            </Link>
-          </li>
-        ))}
+        {group.links.map((link) => {
+          const isMainRoute = mainRoutes.includes(link.href);
+          const LinkComp = isMainRoute ? FluidLink : Link;
+          return (
+            <li key={link.href}>
+              <LinkComp
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                href={link.href as any}
+                className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
+              >
+                <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1.5">
+                  {link.fallback}
+                </span>
+              </LinkComp>
+            </li>
+          );
+        })}
       </ul>
     </motion.div>
   );
