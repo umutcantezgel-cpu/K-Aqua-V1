@@ -7,30 +7,37 @@ import { cn } from "@/lib/utils/cn";
 
 export const StickyScrollReveal = ({
   content,
+  items,
   contentClassName,
 }: {
-  content: {
+  content?: {
+    title: string;
+    description: string | React.ReactNode;
+    content?: React.ReactNode;
+  }[];
+  items?: {
     title: string;
     description: string | React.ReactNode;
     content?: React.ReactNode;
   }[];
   contentClassName?: string;
 }) => {
-  const [activeCard, setActiveCard] = useState(0);
-  const ref = useRef<HTMLDivElement>(null);
+  const [activeCard, setActiveCard] = React.useState(0);
+  const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
-  
-  const cardLength = content.length;
+
+  const actualContent = content || items || [];
+  const cardLength = actualContent.length;
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    const cardsBreakpoints = content.map((_, index) => index / cardLength);
+    const cardsBreakpoints = actualContent.map((_, index) => index / cardLength);
     const closestBreakpointIndex = cardsBreakpoints.reduce(
       (acc, breakpoint, index) => {
         const distance = Math.abs(latest - breakpoint);
-        if (distance < Math.abs(latest - cardsBreakpoints[acc]!)) {
+        if (distance < Math.abs(latest - cardsBreakpoints[acc])) {
           return index;
         }
         return acc;
@@ -47,7 +54,7 @@ export const StickyScrollReveal = ({
     >
       <div className="relative flex items-start px-2 lg:px-4">
         <div className="max-w-xl w-full">
-          {content.map((item, index) => (
+          {actualContent.map((item, index) => (
             <div key={item.title + index} className="min-h-[70vh] flex flex-col justify-center py-10">
               <motion.h2
                 initial={{ opacity: 0 }}
@@ -86,7 +93,7 @@ export const StickyScrollReveal = ({
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="w-full h-full flex items-center justify-center"
           >
-            {content[activeCard]!.content ?? (
+            {actualContent[activeCard]?.content ?? (
               <div className="text-muted-foreground/50 font-heading tracking-widest uppercase">
                 {"Visual Asset Placeholder "}{activeCard + 1}
               </div>

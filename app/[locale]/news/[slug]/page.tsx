@@ -28,8 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return constructMetadata({ title: "Not Found", description: "", path: "/news", locale });
   }
 
+  let newsTitle = resolveLocalized(newsItem.title, locale);
+  if (newsTitle.length > 45) {
+    newsTitle = newsTitle.substring(0, 42) + '...';
+  }
+
   return constructMetadata({
-    title: resolveLocalized(newsItem.title, locale),
+    title: newsTitle,
     description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
     path: `/news/${slug}`,
     locale,

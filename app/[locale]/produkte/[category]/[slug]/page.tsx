@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   const articleCode = Array.isArray(product?.article_codes) ? product.article_codes[0] : product?.article_codes;
   const suffix = articleCode ? ` | Art. ${articleCode}` : '';
-  const finalTitle = `${displayTitle}${suffix}`;
+  const finalTitle = displayTitle; // Keep title short, remove suffix
   const finalDesc = metaDesc.endsWith(suffix) ? metaDesc : `${metaDesc}${suffix}`;
 
   // Handle SEO duplicate content for product variants by mapping them to a canonical variant
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   } else if (slug === 'k-pipe-pp-r-sdr-6') {
     canonicalSlug = 'k-pipe-pp-r-sdr-11';
   } else if (slug === 'hand-welding-machine-20-63') {
-    canonicalSlug = 'hand-welding-machine-20-32';
+    canonicalSlug = 'hand-welding-machine-2032-complete-set';
   }
 
   return constructMetadata({

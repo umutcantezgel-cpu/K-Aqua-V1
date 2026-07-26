@@ -3978,6 +3978,7 @@
     "tempCold": "Cold water (10°C)",
     "tempHot": "Hot water (60°C)",
     "recycle": "Enable End-of-Life recycling credit",
+    "guideText": "<h2>Nachhaltigkeit und LCA (Life Cycle Assessment)</h2><p>Die Wahl des richtigen Rohrleitungssystems hat signifikante Auswirkungen auf den CO2-Fußabdruck eines Gebäudes oder einer Industrieanlage. Der K-Aqua CO2-Rechner ermöglicht eine vollumfängliche Lebenszyklusanalyse (LCA) gemäß den Standards der EN 15804. Diese Analyse deckt den gesamten Lebenszyklus ab: von der Rohstoffgewinnung und Produktherstellung (Phasen A1-A3) über den Transport und die Installation (Phasen A4-A5) bis hin zur Nutzungsphase (Phase B) und dem End-of-Life (Phase C).</p><p>Im Vergleich zu herkömmlichen Metallrohren aus Kupfer oder Stahl weisen PP-R und PPRCT Rohre von K-Aqua eine deutlich vorteilhaftere Ökobilanz auf. Der geringere Energieaufwand bei der Extrusion des Kunststoffs sowie das wesentlich geringere Gewicht reduzieren die CO2-Emissionen bei Produktion und Transport erheblich. Darüber hinaus sorgt die spiegelglatte Innenoberfläche (Rauhigkeit von nur 0,007 mm) für einen extrem geringen Strömungswiderstand. Nach der Darcy-Weisbach-Gleichung bedeutet dies, dass Umwälzpumpen deutlich weniger Energie (Strom) aufwenden müssen, um die Flüssigkeit durch das System zu fördern.</p><p>Gerade in der Nutzungsphase (Phase B), die bei Rohrleitungssystemen oft 50 Jahre oder länger dauert, summiert sich diese Energieeinsparung zu massiven CO2- und Kosteneinsparungen (Total Cost of Ownership, TCO). Auch am Ende der Lebensdauer (Phase C) bietet Polypropylen ökologische Vorteile, da es zu 100 % recycelbar ist und im Sinne der Kreislaufwirtschaft (Modul D) wiederverwertet werden kann. Nutzen Sie diesen Rechner, um die ökologischen und ökonomischen Einsparpotenziale Ihres K-Aqua Projekts präzise und transparent zu quantifizieren.</p>",
     "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
     "savedLabel": "CO₂e Savings vs. best alternative",
     "savedBody1": "Equals the CO₂ absorption of",
@@ -4990,7 +4991,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "kairo": {
       "regulator": "HCWW — Holding Company for Water & Wastewater",
@@ -5001,7 +5003,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5012,7 +5015,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "singapur": {
       "regulator": "PUB — Public Utilities Board",
@@ -5023,7 +5027,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "kualalumpur": {
       "regulator": "SPAN — National Water Services Commission",
@@ -5034,7 +5039,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "mumbai": {
       "regulator": "BIS — Bureau of Indian Standards",
@@ -5045,7 +5051,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5056,7 +5063,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     },
     "nairobi": {
       "regulator": "KEBS — Kenya Bureau of Standards",
@@ -5067,7 +5075,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
     }
   },
   "notFound": {
@@ -6529,7 +6538,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Die wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv in internationalen Märkten, um dem wachsenden Bedarf an hygienischen und verlustfreien Rohrnetzen zu begegnen. Ob in wasserarmen Regionen, in denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, oder in hochverdichteten Metropolen mit komplexen Anforderungen an den Brandschutz und die Schallisolierung – unsere PP-R und PPRCT Systeme bieten die notwendige Zuverlässigkeit.",
+      "p5": "Dabei setzen wir nicht nur auf den reinen Produktvertrieb, sondern verstehen uns als strategischer Partner vor Ort. Durch technische Schulungen, Vor-Ort-Supervision und die enge Zusammenarbeit mit lokalen Behörden stellen wir sicher, dass internationale Normen (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung der globalen Wasserinfrastruktur bei."
     }
   },
   "application": {
