@@ -79,8 +79,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'k-fiber-pipe-pp-r-sdr-74',
     'k-fiber-pipe-pp-r-sdr-9',
     'k-fiber-pipe-pp-r-sdr-17',
+    'k-fiber-uv-pipe-pp-r-sdr-74',
+    'k-fiber-pipe-pp-rct-sdr-74',
+    'k-fiber-uv-pipe-pp-rct-sdr-74',
     'k-pipe-pp-r-sdr-6',
+    'k-pipe-pp-r-sdr-74',
+    'reducing-tee-female-thread',
+    'elbow-90-with-female-thread',
+    'elbow-90-female-male-female-thread',
+    'metal-union-male-thread-chrome',
+    'metal-union-male-thread-brass-chrome',
+    'flat-gasket-for-unions-pp-r',
+    'adjustable-battery-female-thread',
+    'concealed-valve-chrome-heavy-part',
     'hand-welding-machine-20-63',
+    'hand-welding-machine-mirror-50-125'
   ]);
   for (const product of getAllProducts()) {
     if (variantSlugs.has(product.slug)) continue;

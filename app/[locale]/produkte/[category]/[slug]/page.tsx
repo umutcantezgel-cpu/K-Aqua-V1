@@ -240,14 +240,14 @@ export default async function ProductDetailPage({
     // Ignore parse errors
   }
   
-  const generatedSeoNarrative = sizeText ? `
+  const generatedSeoNarrative = `
     ${tProd('narrative.intro', { title: localizedTitle, codes: codes })}
     ${rowCountText}
     ${sizeText}
     ${weightText}
     ${packText}
     ${tProd('narrative.outro', { title: localizedTitle })}
-  ` : '';
+  `.trim();
 
   // Enhance schema with Local SEO properties
   Object.assign(schema, {

@@ -104,45 +104,45 @@ export function constructMetadata({
   
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
-  } else if (finalTitle.length < 45) {
-      const suffixes = locale === 'de' ? [
-          " | Zertifizierte PP-R Rohrleitungssysteme",
-          " | Premium PP-R & PP-RCT Rohrsysteme",
-          " | K-Aqua PP-R Rohrleitungssysteme",
-          " | Hochwertige PP-R Rohrsysteme",
-          " | K-Aqua PP-R Rohrsysteme",
-          " | K-Aqua"
-      ] : locale === 'ar' ? [
-          " | أنظمة أنابيب PP-R المعتمدة من K-Aqua",
-          " | أنظمة أنابيب PP-R و PP-RCT المتميزة",
-          " | أنظمة أنابيب K-Aqua PP-R",
-          " | أنابيب PP-R عالية الجودة",
-          " | K-Aqua"
-      ] : [
-          " | Certified PP-R Piping Systems by K-Aqua",
-          " | Premium PP-R & PP-RCT Piping Systems",
-          " | K-Aqua PP-R Piping Systems",
-          " | High-Quality PP-R Pipes",
-          " | K-Aqua"
-      ];
+  } else {
+      if (finalTitle.length > 55 && !finalTitle.includes("K-Aqua")) {
+          finalTitle = finalTitle.substring(0, 52).trim() + "... | K-Aqua";
+      } else if (finalTitle.length > 65) {
+          finalTitle = finalTitle.substring(0, 62).trim() + "...";
+      }
 
-      let bestSuffix = "";
-      for (const s of suffixes) {
-          const combinedLength = finalTitle.length + s.length;
-          if (combinedLength >= 45 && combinedLength <= 65) {
-              bestSuffix = s;
-              break;
-          } else if (combinedLength <= 65 && s.length > bestSuffix.length) {
-              bestSuffix = s;
+      if (finalTitle.length < 45) {
+          const suffixes = locale === 'de' ? [
+              " | K-Aqua PP-R/PP-RCT Rohrsysteme",
+              " | K-Aqua Wasserversorgung",
+              " | K-Aqua"
+          ] : locale === 'ar' ? [
+              " | K-Aqua أنظمة أنابيب PP-R/PP-RCT",
+              " | K-Aqua إمدادات المياه",
+              " | K-Aqua"
+          ] : [
+              " | K-Aqua PP-R/PP-RCT piping systems",
+              " | K-Aqua water supply",
+              " | K-Aqua"
+          ];
+
+          let bestSuffix = "";
+          for (const s of suffixes) {
+              const combinedLength = finalTitle.length + s.length;
+              if (combinedLength >= 45 && combinedLength <= 65) {
+                  bestSuffix = s;
+                  break;
+              } else if (combinedLength <= 65 && s.length > bestSuffix.length) {
+                  bestSuffix = s;
+              }
+          }
+          
+          if (bestSuffix) {
+              finalTitle += bestSuffix;
           }
       }
-      
-      if (bestSuffix) {
-          finalTitle += bestSuffix;
-      }
 
-      // If still slightly short and missing brand name
-      if (finalTitle.length < 45 && !finalTitle.includes("K-Aqua") && finalTitle.length + " | K-Aqua".length <= 65) {
+      if (!finalTitle.includes("K-Aqua") && finalTitle.length + " | K-Aqua".length <= 65) {
           finalTitle += " | K-Aqua";
       }
   }
