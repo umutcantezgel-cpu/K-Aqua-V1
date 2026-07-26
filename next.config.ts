@@ -260,6 +260,103 @@ const nextConfig: NextConfig = {
         destination: '/news',
         permanent: true,
       },
+      // Fix locale-prefixed static asset requests (e.g. /ar/pdf/...)
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/pdf/:path*',
+        destination: '/pdf/:path*',
+        permanent: true,
+      },
+      // Redirects for fixed product slugs
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/accessories/backing-flange',
+        destination: '/:locale/produkte/accessories/backing-flange-pp-steel-sfbf',
+        permanent: true,
+      },
+      {
+        source: '/produkte/accessories/backing-flange',
+        destination: '/produkte/accessories/backing-flange-pp-steel-sfbf',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/accessories/flat-gasket-for-unions',
+        destination: '/:locale/produkte/accessories/flat-gasket-for-unions-pp-r',
+        permanent: true,
+      },
+      {
+        source: '/produkte/accessories/flat-gasket-for-unions',
+        destination: '/produkte/accessories/flat-gasket-for-unions-pp-r',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/fittings/elbow-45-female-male',
+        destination: '/:locale/produkte/fittings/elbow-45-femalemale',
+        permanent: true,
+      },
+      {
+        source: '/produkte/fittings/elbow-45-female-male',
+        destination: '/produkte/fittings/elbow-45-femalemale',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/tools/hand-welding-machine-20-32',
+        destination: '/:locale/produkte/tools/hand-welding-machine-2032-complete-set',
+        permanent: true,
+      },
+      {
+        source: '/produkte/tools/hand-welding-machine-20-32',
+        destination: '/produkte/tools/hand-welding-machine-2032-complete-set',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/tools/pipe-cutter-20-40',
+        destination: '/:locale/produkte/tools/pipe-cutter-2040',
+        permanent: true,
+      },
+      {
+        source: '/produkte/tools/pipe-cutter-20-40',
+        destination: '/produkte/tools/pipe-cutter-2040',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/tools/pipe-cutter-50-125',
+        destination: '/:locale/produkte/tools/pipe-cutter-50125',
+        permanent: true,
+      },
+      {
+        source: '/produkte/tools/pipe-cutter-50-125',
+        destination: '/produkte/tools/pipe-cutter-50125',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/tools/pipe-cutter-50-125-114',
+        destination: '/:locale/produkte/tools/pipe-cutter-50125-1',
+        permanent: true,
+      },
+      {
+        source: '/produkte/tools/pipe-cutter-50-125-114',
+        destination: '/produkte/tools/pipe-cutter-50125-1',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/valves/pp-r-ball-valve-brass',
+        destination: '/:locale/produkte/valves/pp-r-ball-valve-ball-in-brass-chromium-plated',
+        permanent: true,
+      },
+      {
+        source: '/produkte/valves/pp-r-ball-valve-brass',
+        destination: '/produkte/valves/pp-r-ball-valve-ball-in-brass-chromium-plated',
+        permanent: true,
+      },
+      {
+        source: '/:locale([a-zA-Z-]{2,7})/produkte/valves/tee-90-female-thread-internal-valve',
+        destination: '/:locale/produkte/valves/tee-90-female-thread-for-internal-valve',
+        permanent: true,
+      },
+      {
+        source: '/produkte/valves/tee-90-female-thread-internal-valve',
+        destination: '/produkte/valves/tee-90-female-thread-for-internal-valve',
+        permanent: true,
+      },
     ];
   },
   async headers() {

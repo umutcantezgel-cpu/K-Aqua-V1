@@ -30,9 +30,9 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Sizes |
 |---------|--------------|-------|
-| [Backing Flange PP-Steel (SF/BF)](./accessories/backing-flange.md) | AQ575040–AQ575315 | Ø 40–315 mm |
+| [Backing Flange PP-Steel (SF/BF)](./accessories/backing-flange-pp-steel-sfbf.md) | AQ575040–AQ575315 | Ø 40–315 mm |
 | [Flat Gasket](./accessories/flat-gasket.md) | AQ97040–AQ97250 | Ø 40–250 mm |
-| [Flat Gasket for Unions PP-R](./accessories/flat-gasket-for-unions.md) | AQ9ANRP20–AQ9ANRP32 | Ø 20–32 mm |
+| [Flat Gasket for Unions PP-R](./accessories/flat-gasket-for-unions-pp-r.md) | AQ9ANRP20–AQ9ANRP32 | Ø 20–32 mm |
 | [Pipe Clamps](./accessories/pipe-clamps.md) | AQ9520–AQ95200 | Ø 20–200 mm |
 | [Plug](./accessories/plug.md) | AQ98P57 | ½" |
 
@@ -47,7 +47,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Cross Over](./fittings/cross-over.md) | AQ26720–AQ26732 | Ø 20–32 mm |
 | [Cross Over Pipe](./fittings/cross-over-pipe.md) | AQ28520–AQ28532 | Ø 20–32 mm |
 | [Elbow 45°](./fittings/elbow-45.md) | AQ04520–AQ04575 | Ø 20–75 mm |
-| [Elbow 45° (Female/Male)](./fittings/elbow-45-female-male.md) | AQ04120–AQ04125 | Ø 20–25 mm |
+| [Elbow 45° (Female/Male)](./fittings/elbow-45-femalemale.md) | AQ04120–AQ04125 | Ø 20–25 mm |
 | [Elbow 90°](./fittings/elbow-90.md) | AQ09020–AQ09075 | Ø 20–75 mm |
 | [Elbow 90° (Female/Male)](./fittings/elbow-90-female-male.md) | AQ09120–AQ09125 | Ø 20–25 mm |
 | [Electrofusion Socket](./fittings/electrofusion-socket.md) | AQ27E20–AQ27E75 | Ø 20–75 mm |
@@ -86,12 +86,12 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Butt Welding Machine 90–250](./tools/butt-welding-machine-90-250.md) | AQ989250 | Butt fusion Ø 90–250 mm |
 | [Drilling Tool for Weld-in Saddle](./tools/drilling-tool-for-weld-in-saddle.md) | AQ98625–AQ98663 | Core drilling after saddle welding |
 | [Electrofusion Machine](./tools/electrofusion-machine.md) | AQ990 | Electrofusion control unit |
-| [Hand Welding Machine 20–32 (Complete)](./tools/hand-welding-machine-20-32.md) | AQ98032 | Socket fusion Ø 20–32 mm |
+| [Hand Welding Machine 20–32 (Complete)](./tools/hand-welding-machine-2032-complete-set.md) | AQ98032 | Socket fusion Ø 20–32 mm |
 | [Hand Welding Machine 20–63 (Complete)](./tools/hand-welding-machine-20-63.md) | AQ98063 | Socket fusion Ø 20–63 mm |
 | [Hand Welding Machine Mirror 50–125](./tools/hand-welding-machine-mirror-50-125.md) | AQ991125 | Replacement heating mirror |
-| [Pipe Cutter 20–40](./tools/pipe-cutter-20-40.md) | AQ97040 | Cutting Ø 20–40 mm |
-| [Pipe Cutter 50–125](./tools/pipe-cutter-50-125.md) | AQ975125 | Cutting Ø 50–125 mm |
-| [Pipe Cutter 50–125 (1¼)](./tools/pipe-cutter-50-125-114.md) | AQ974 | Cutting Ø 50–125 mm |
+| [Pipe Cutter 20–40](./tools/pipe-cutter-2040.md) | AQ97040 | Cutting Ø 20–40 mm |
+| [Pipe Cutter 50–125](./tools/pipe-cutter-50125.md) | AQ975125 | Cutting Ø 50–125 mm |
+| [Pipe Cutter 50–125 (1¼)](./tools/pipe-cutter-50125-1.md) | AQ974 | Cutting Ø 50–125 mm |
 | [Repairing Plug](./tools/repairing-plug.md) | AQ96557–AQ96511 | Emergency leak repair |
 | [Welding Machine 50–125 (Complete)](./tools/welding-machine-50-125.md) | AQ985125 | Socket fusion Ø 50–125 mm |
 | [Welding Tool](./tools/welding-tool.md) | AQ98220–AQ98290 | Individual die sets Ø 20–90 mm |
@@ -129,10 +129,10 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Concealed Valve Chrome — Heavy Part](./valves/concealed-valve-chrome-heavy-part.md) | AQ62993 | ½" |
 | [Concealed Valve Chrome — Light Part](./valves/concealed-valve-chrome-light-part.md) | AQ62992 | ½" |
 | [Elongation Pieces](./valves/elongation-pieces.md) | AQ62990 | 30 mm |
-| [PP-R Ball Valve (Ball in Brass, Chromium Plated)](./valves/pp-r-ball-valve-brass.md) | AQ60020–AQ60090 | Ø 20–90 mm |
+| [PP-R Ball Valve (Ball in Brass, Chromium Plated)](./valves/pp-r-ball-valve-ball-in-brass-chromium-plated.md) | AQ60020–AQ60090 | Ø 20–90 mm |
 | [PP-R Ball Valve (Ball in PP)](./valves/pp-r-ball-valve-ball-in-pp.md) | AQ50020–AQ50063 | Ø 20–63 mm |
 | [Straight Seat Valve — Upper Part, Green Handle](./valves/straight-seat-valve-green-handle.md) | AQ62591 | ¾" |
-| [Tee 90° (Female Thread) for Internal Valve](./valves/tee-90-female-thread-internal-valve.md) | AQ60RP20–AQ60RP40 | Ø 20–40 mm |
+| [Tee 90° (Female Thread) for Internal Valve](./valves/tee-90-female-thread-for-internal-valve.md) | AQ60RP20–AQ60RP40 | Ø 20–40 mm |
 
 ---
 
