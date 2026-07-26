@@ -202,7 +202,7 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">TGA-Hydraulik am Limit?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Unsere spezialisierten Projektingenieure unterstützen Sie proaktiv bei der Berechnung von Druckzonen, der Kalkulation von Festpunktlasten und der exakten Dimensionierung von Steigleitungen für Ihr nächstes Hochhausprojekt.</p>
-          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/de/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Engineering anfragen
           </a>
         </CTABand>

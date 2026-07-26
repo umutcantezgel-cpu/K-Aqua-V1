@@ -221,7 +221,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
             Ob Kaltwasser, VEwasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien.
           </p>
           <a
-            href="/kontakt"
+            href="/de/kontakt"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
           >
             <Coffee className="w-5 h-5" />

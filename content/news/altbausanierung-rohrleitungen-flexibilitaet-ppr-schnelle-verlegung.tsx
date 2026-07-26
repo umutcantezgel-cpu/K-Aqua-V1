@@ -8,6 +8,7 @@ import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { Hammer, Link, Wrench } from "@/components/ui/icon";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 
 export const altbausanierungFlexibilitaet: NewsPost = {
   slug: "altbausanierung-rohrleitungen-flexibilitaet-ppr-schnelle-verlegung",
@@ -177,9 +178,9 @@ export const altbausanierungFlexibilitaet: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Überlassen Sie unseren Ingenieuren die detaillierte Materialplanung. Wir helfen Ihnen, die optimalen Rohrdimensionen für den Bestand hydraulisch zu berechnen, Druckverluste zu minimieren und die passenden Übergangsfittings für eine sichere Mischinstallation auszuwählen.
           </p>
-          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Technische Beratung zur Sanierung anfordern
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

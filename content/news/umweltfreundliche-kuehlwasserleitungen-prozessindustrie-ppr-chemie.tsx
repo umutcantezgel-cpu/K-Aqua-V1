@@ -197,7 +197,7 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Senken Sie Betriebskosten und schonen Sie die Umwelt. Sprechen Sie mit unseren IndustrieExperten über den Umstieg auf K Aqua PPR.
           </p>
-          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Industrieberatung anfordern
           </a>
         </CTABand>

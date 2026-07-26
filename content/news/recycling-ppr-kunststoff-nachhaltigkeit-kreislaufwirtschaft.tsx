@@ -175,7 +175,7 @@ export const recyclingPpr: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Nachhaltigkeit im Bauprojekt messbar machen</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Bauen Sie nach den strengen Richtlinien von DGNB, LEED oder BREEAM? Fordern Sie unsere umfangreichen EPD-Dokumente an, um die Ökobilanz Ihres Gebäudezertifikats auf die nächste Stufe zu heben.</p>
-          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Zertifikate & EPD anfordern
           </a>
         </CTABand>
