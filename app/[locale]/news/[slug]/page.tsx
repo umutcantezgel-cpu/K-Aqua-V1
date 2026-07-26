@@ -5,7 +5,8 @@ import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
+import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 interface Props {
@@ -50,8 +51,35 @@ export default async function NewsDetailPage({ params }: Props) {
     notFound();
   }
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
+    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
+
+  const breadcrumb = getBreadcrumbJsonLd(locale, [
+    { name: "News", path: '/news' },
+    { name: resolveLocalized(newsItem.title, locale), path: `/news/${slug}` }
+  ]);
+  
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: resolveLocalized(newsItem.title, locale),
+    description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
+    datePublished: newsItem.date,
+    url: `${siteUrl}/${locale}/news/${slug}`,
+    publisher: {
+      "@type": "Organization",
+      name: "KWT GmbH",
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/images/logo.png`,
+      }
+    }
+  };
+
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
+      <JsonLd schema={[breadcrumb, articleSchema]} />
       {/* Article Hero */}
       <section className="relative overflow-hidden pt-20 pb-12 lg:pt-28 lg:pb-16 border-b border-card-border bg-background-subtle">
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">

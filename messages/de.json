@@ -1613,7 +1613,33 @@
     "hubLead": "K-Aqua bietet zertifizierte PP-R und PP-RCT Infrastruktur-Lösungen für {country}. Unsere Rohrsysteme erfüllen die höchsten internationalen Standards und sind für die spezifischen Herausforderungen in {country} optimiert.",
     "hubContextTitle": "Regionaler Kontext: {context}",
     "hubContextBody": "Unsere K-Aqua PP-R/PP-RCT Rohrsysteme aus deutscher Produktion liefern nachhaltige Infrastruktur-Lösungen für {country}. Sie sind speziell dafür ausgelegt, den infrastrukturellen Herausforderungen vor Ort gerecht zu werden.",
-    "hubCitiesTitle": "Lokale Standorte & Referenzstädte"
+    "hubCitiesTitle": "Lokale Standorte & Referenzstädte",
+    "hubs": {
+      "deutschland": {
+        "description": "Als K-Aqua's Heimatmarkt bietet Deutschland höchste Ansprüche an Bauqualität und Langlebigkeit. Unsere <strong>PP-R und PP-RCT Rohrsysteme</strong> bewältigen den drängenden Sanierungsstau in der deutschen Trinkwasser- und Heizungsinfrastruktur effektiv und nachhaltig. Durch korrosionsfreie, DVGW-zertifizierte Materialien reduzieren wir Wartungskosten und gewährleisten maximale Systemhygiene in kommunalen, gewerblichen und privaten Großprojekten über Jahrzehnte hinweg.",
+        "metaDesc": "Zertifizierte PP-R/PP-RCT Rohrsysteme für Deutschland. German Engineering gegen den Sanierungsstau in der Trinkwasser- und Heizungsinfrastruktur."
+      },
+      "oesterreich": {
+        "description": "In Österreich erfordern anspruchsvolle Topographien und strenge Umweltauflagen kompromisslose Infrastrukturlösungen. Unsere <strong>K-Aqua Rohrsysteme</strong> bieten Premium-Qualität für langlebige Wasser- und Fernwärmenetze in alpinen Regionen. Mit ÖVGW-geprüfter Sicherheit und herausragender thermischer Isolierung garantieren unsere PP-R und PP-RCT Rohre frost- und drucksichere Performance selbst unter extremsten klimatischen Bedingungen der Alpen.",
+        "metaDesc": "Premium PP-R/PP-RCT Rohrsysteme für Österreich. Frost- und drucksichere Lösungen für Wasser- und Fernwärmenetze in alpinen Regionen."
+      },
+      "schweiz": {
+        "description": "Die Schweiz steht für Präzision, Nachhaltigkeit und höchste Qualitätsstandards. <strong>K-Aqua's PP-R und PP-RCT Systeme</strong> erfüllen diese Anforderungen durch erstklassige Materialreinheit und SVGW-zertifizierte Lebensmittelsicherheit. Unsere komplett recycelbaren, strömungsoptimierten Kunststoffrohre ermöglichen energieeffiziente Sanitär- und Klimatechnik für zukunftsweisende Minergie-Bauprojekte im gesamten Schweizer Raum.",
+        "metaDesc": "Erstklassige PP-R/PP-RCT Rohrsysteme für die Schweiz. SVGW-zertifizierte, recycelbare Kunststoffrohre für nachhaltige Minergie-Bauprojekte."
+      },
+      "vereinigte-arabische-emirate": {
+        "description": "Unter den extremen klimatischen Bedingungen der Vereinigten Arabischen Emirate ist Wasser die wertvollste Ressource. <strong>K-Aqua PP-R/PP-RCT Rohrsysteme</strong> bieten ultimativen Schutz vor Korrosion und Verkalkung, selbst bei der Verwendung von entsalztem Meerwasser (Reverse Osmosis). Unsere UV-beständigen und hitzeresistenten Hochleistungsrohre sichern die dauerhafte Wasserversorgung in den gigantischen Megaprojekten und Hochhäusern Dubais und Abu Dhabis.",
+        "metaDesc": "UV- und hitzebeständige PP-R/PP-RCT Rohrsysteme für die VAE. Höchster Schutz gegen Korrosion und Verkalkung in Wüstenklimata."
+      },
+      "saudi-arabien": {
+        "description": "Im Rahmen der Vision 2030 transformiert Saudi-Arabien seine gesamte Infrastruktur. <strong>K-Aqua liefert hierfür die essenzielle Wasser-Infrastruktur</strong>. Unsere großkalibrigen PP-RCT Rohre gewährleisten eine sichere, leckagefreie und effiziente Wasserverteilung in neuen Smart Cities wie NEOM. Zertifiziert nach internationalen Standards garantieren wir einen unterbrechungsfreien Betrieb bei extrem hohen Umgebungstemperaturen.",
+        "metaDesc": "Großkalibrige PP-RCT Rohrsysteme für Saudi-Arabien. Zuverlässige Wasser-Infrastruktur für Vision 2030 und Mega-Projekte wie NEOM."
+      },
+      "singapur": {
+        "description": "Als einer der dichtbesiedeltsten Hightech-Stadtstaaten Asiens benötigt Singapur hochgradig effiziente und platzsparende Gebäudetechnik. <strong>K-Aqua's innovative Rohrleitungssysteme</strong> unterstützen die ehrgeizigen Green-Building-Ziele Singapurs durch drastisch reduzierte Druckverluste und optimale thermische Eigenschaften. Von Hochhaus-Klimatisierung (Chilled Water) bis hin zur ultrareinen Trinkwasserversorgung setzen wir Standards in Asien.",
+        "metaDesc": "Effiziente PP-R/PP-RCT Rohre für Singapurs Green Buildings. Spezialisierte Systeme für Chilled Water und ultrareine Trinkwasserversorgung."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua — führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",

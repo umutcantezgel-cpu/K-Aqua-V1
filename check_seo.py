@@ -1,31 +1,34 @@
-import requests
-from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
+import requests
+import concurrent.futures
 
-sitemap_url = "http://localhost:3003/sitemap.xml"
-r = requests.get(sitemap_url)
-root = ET.fromstring(r.content)
+tree = ET.parse('temp_sitemap.xml')
+root = tree.getroot()
 
-namespaces = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-urls = [elem.text for elem in root.findall('.//ns:loc', namespaces)]
+urls = []
+for child in root:
+    loc = child.find('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+    if loc is not None:
+        urls.append(loc.text)
 
-h1_issues = []
+print(f"Found {len(urls)} URLs")
 
-for url in urls:
-    local_url = url.replace("https://k-aqua.de", "http://localhost:3003")
+def check_url(url):
     try:
-        html = requests.get(local_url).text
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        h1s = soup.find_all('h1')
-        
-        if not h1s:
-            h1_issues.append(f"{local_url}: Missing H1")
-        elif len(h1s) > 1:
-            h1_issues.append(f"{local_url}: Multiple H1s ({len(h1s)})")
-            
+        r = requests.head(url, allow_redirects=False, timeout=10)
+        if r.status_code != 200:
+            return (url, r.status_code, r.headers.get('Location', ''))
+        return None
     except Exception as e:
-        pass
+        return (url, "Error", str(e))
 
-for i in h1_issues:
-    print(i)
+issues = []
+with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+    results = executor.map(check_url, urls)
+    for res in results:
+        if res:
+            issues.append(res)
+
+print("ISSUES FOUND:")
+for issue in issues:
+    print(issue)

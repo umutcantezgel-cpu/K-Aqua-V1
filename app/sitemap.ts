@@ -10,7 +10,6 @@ const locales = ['de', 'en', 'ar'];
 const staticRoutes = [
   '',
   'academy',
-  'co2-rechner',
   'datenschutz',
   'impressum',
   'karriere',
@@ -20,7 +19,6 @@ const staticRoutes = [
   'news',
   'partnerschaft',
   'produkte',
-  'produkte/finder',
   'produkte/pipes',
   'produkte/fittings',
   'produkte/valves',

@@ -1613,7 +1613,33 @@
     "hubLead": "K-Aqua provides certified PP-R and PP-RCT infrastructure solutions for {country}. Our piping systems meet the highest international standards and are optimized for the specific challenges in {country}.",
     "hubContextTitle": "Regional Context: {context}",
     "hubContextBody": "Our K-Aqua PP-R/PP-RCT piping systems from German production deliver sustainable infrastructure solutions for {country}. They are specifically designed to address the local infrastructure challenges.",
-    "hubCitiesTitle": "Local Sites & Reference Cities"
+    "hubCitiesTitle": "Local Sites & Reference Cities",
+    "hubs": {
+      "deutschland": {
+        "description": "As K-Aqua's domestic market, Germany demands the highest standards of construction quality and longevity. Our <strong>PP-R and PP-RCT piping systems</strong> effectively and sustainably tackle the urgent renovation backlog in the German drinking water and heating infrastructure. With corrosion-free, DVGW-certified materials, we reduce maintenance costs and ensure maximum system hygiene in municipal, commercial, and private major projects for decades to come.",
+        "metaDesc": "Certified PP-R/PP-RCT piping systems for Germany. German Engineering solving the renovation backlog in drinking water and heating infrastructure."
+      },
+      "oesterreich": {
+        "description": "In Austria, demanding topographies and strict environmental regulations require uncompromising infrastructure solutions. Our <strong>K-Aqua piping systems</strong> offer premium quality for durable water and district heating networks in alpine regions. With ÖVGW-tested safety and outstanding thermal insulation, our PP-R and PP-RCT pipes guarantee frost and pressure-resistant performance even under the most extreme climatic conditions of the Alps.",
+        "metaDesc": "Premium PP-R/PP-RCT piping systems for Austria. Frost and pressure-resistant solutions for water and district heating networks in alpine regions."
+      },
+      "schweiz": {
+        "description": "Switzerland stands for precision, sustainability, and the highest quality standards. <strong>K-Aqua's PP-R and PP-RCT systems</strong> meet these requirements through first-class material purity and SVGW-certified food safety. Our fully recyclable, flow-optimized plastic pipes enable energy-efficient sanitary and HVAC engineering for pioneering Minergie construction projects across Switzerland.",
+        "metaDesc": "First-class PP-R/PP-RCT piping systems for Switzerland. SVGW-certified, recyclable plastic pipes for sustainable Minergie construction projects."
+      },
+      "vereinigte-arabische-emirate": {
+        "description": "Under the extreme climatic conditions of the United Arab Emirates, water is the most valuable resource. <strong>K-Aqua PP-R/PP-RCT piping systems</strong> provide ultimate protection against corrosion and scaling, even when using desalinated seawater (Reverse Osmosis). Our UV-resistant and heat-resistant high-performance pipes ensure long-lasting water supply in the gigantic megaprojects and skyscrapers of Dubai and Abu Dhabi.",
+        "metaDesc": "UV and heat-resistant PP-R/PP-RCT piping systems for the UAE. Ultimate protection against corrosion and scaling in desert climates."
+      },
+      "saudi-arabien": {
+        "description": "As part of Vision 2030, Saudi Arabia is transforming its entire infrastructure. <strong>K-Aqua supplies the essential water infrastructure for this transformation</strong>. Our large-diameter PP-RCT pipes ensure secure, leak-free, and efficient water distribution in new smart cities like NEOM. Certified to international standards, we guarantee uninterrupted operation at extremely high ambient temperatures.",
+        "metaDesc": "Large-diameter PP-RCT piping systems for Saudi Arabia. Reliable water infrastructure for Vision 2030 and mega-projects like NEOM."
+      },
+      "singapur": {
+        "description": "As one of Asia's most densely populated high-tech city-states, Singapore requires highly efficient and space-saving building technology. <strong>K-Aqua's innovative piping systems</strong> support Singapore's ambitious green building goals through drastically reduced pressure losses and optimal thermal properties. From high-rise air conditioning (Chilled Water) to ultra-pure drinking water supply, we set standards in Asia.",
+        "metaDesc": "Efficient PP-R/PP-RCT pipes for Singapore's Green Buildings. Specialized systems for Chilled Water and ultra-pure drinking water supply."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua — führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",

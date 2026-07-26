@@ -82,6 +82,7 @@ export default function HomeBuyers() {
                 className="w-full justify-between mt-auto"
                 icon={<ArrowRight className="w-4 h-4" />}
                 iconPosition="right"
+                aria-label={`${persona.cta} - ${persona.t}`}
               >
                 {persona.cta}
               </Button>

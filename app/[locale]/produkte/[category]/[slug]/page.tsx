@@ -9,13 +9,13 @@ import { Link } from '@/lib/i18n/navigation';
 import { Shield, Package, CheckCircle, Activity, ThermometerSun } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import { getProductSchema } from '@/lib/seo/schema';
 import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
-import ProductFAQ from '@/components/product/ProductFAQ';
+
 import ProductDownloads from '@/components/product/ProductDownloads';
 import ProductVideo from '@/components/product/ProductVideo';
 import LocalAvailability from '@/components/product/LocalAvailability';
@@ -181,6 +181,23 @@ export default async function ProductDetailPage({
     codes: Array.isArray(product.article_codes) ? product.article_codes : [product.article_codes || 'N/A']
   });
 
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+  const categoryNameMap: Record<string, string> = {
+    pipes: tNav('pipes'),
+    fittings: tNav('fittings'),
+    valves: tNav('valves'),
+    accessories: tNav('accessories'),
+    tools: tNav('tools'),
+    'weld-in-saddles': 'Weld-in Saddles',
+    'transition-fittings': 'Transition Fittings',
+  };
+  
+  const breadcrumb = getBreadcrumbJsonLd(locale, [
+    { name: tNav('products'), path: '/produkte' },
+    { name: categoryNameMap[category] || category, path: `/produkte#${category}` },
+    { name: localizedTitle, path: `/produkte/${category}/${slug}` }
+  ]);
+
   // Extract dimensions for dynamic SEO text generation to fix "low word count"
   let sizeText = "";
   let packText = "";
@@ -249,7 +266,7 @@ export default async function ProductDetailPage({
 
   return (
     <main className="flex flex-col w-full min-h-screen bg-background">
-      <JsonLd schema={schema} />
+      <JsonLd schema={[schema, breadcrumb]} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none opacity-50" />
@@ -443,29 +460,7 @@ export default async function ProductDetailPage({
                   </div>
                 )}
                 
-                {/* 4.5 Generic Category SEO Guide */}
-                {tProd.has(`seoArticle.${seoCat}.guideText`) && (
-                  <div className="mt-8 p-8 bg-card border border-card-border rounded-xl" data-nosnippet aria-hidden="true">
-                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
-                       {tProd(`seoArticle.${seoCat}.guideTitle`)}
-                     </h3>
-                     <div 
-                       className="prose dark:prose-invert max-w-none text-muted-foreground leading-relaxed text-body prose-p:mb-4"
-                       dangerouslySetInnerHTML={{ __html: tProd.raw(`seoArticle.${seoCat}.guideText`) }}
-                     />
-                  </div>
-                )}
-                
-                {/* 5. FAQ Section */}
-                <div className="mt-8">
-                  <ProductFAQ category={seoCat} />
-                </div>
-
-                <div className="mt-16 text-muted-foreground leading-relaxed space-y-4" data-nosnippet aria-hidden="true">
-                  <p>{tSeo('extendedProductText.p1')}</p>
-                  <p>{tSeo('extendedProductText.p2')}</p>
-                  <p>{tSeo('extendedProductText.p3')}</p>
-                </div>
+                {/* generic extendedProductText removed to prevent duplicate content */}
               </div>
             </Reveal>
 

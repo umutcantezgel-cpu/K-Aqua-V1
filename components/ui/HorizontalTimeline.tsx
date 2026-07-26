@@ -7,15 +7,18 @@ import { cn } from '@/lib/utils/cn';
 
 export const HorizontalTimeline = ({
   items,
+  events,
   title,
   description,
   className,
 }: {
-  items: { year: string; title: string; text: string }[];
+  items?: { year: string; title: string; text: string }[];
+  events?: { year: string; title: string; description: string }[];
   title: string;
   description?: string;
   className?: string;
 }) => {
+  const finalItems = items || (events ? events.map(e => ({ year: e.year, title: e.title, text: e.description })) : []);
   const targetRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -35,7 +38,7 @@ export const HorizontalTimeline = ({
 
         {/* Scrolling items */}
         <motion.div style={{ x }} className="flex gap-16 ps-[40vw] pe-[20vw]">
-          {items.map((item, index) => (
+          {finalItems.map((item, index) => (
             <div
               key={index}
               className="relative w-[400px] h-[500px] flex-shrink-0 bg-card border border-card-border rounded-3xl p-10 flex flex-col justify-end overflow-hidden group shadow-xl"

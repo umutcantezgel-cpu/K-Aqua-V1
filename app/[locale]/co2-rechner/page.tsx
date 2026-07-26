@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: meta[1] ?? "Präzise Berechnung der CO2-Emissionen für industrielle Rohrsysteme.",
     path: "/co2-rechner",
     locale,
+    noIndex: true,
   });
 }
 
