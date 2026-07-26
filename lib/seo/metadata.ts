@@ -105,45 +105,48 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      if (finalTitle.length > 55 && !finalTitle.includes("K-Aqua")) {
-          finalTitle = finalTitle.substring(0, 52).trim() + "... | K-Aqua";
-      } else if (finalTitle.length > 65) {
+      // 1. Truncate cleanTitle itself if it's already over 65 chars
+      if (finalTitle.length > 65) {
           finalTitle = finalTitle.substring(0, 62).trim() + "...";
       }
 
-      if (finalTitle.length < 45) {
-          const suffixes = locale === 'de' ? [
-              " | K-Aqua PP-R/PP-RCT Rohrsysteme",
-              " | K-Aqua Wasserversorgung",
-              " | K-Aqua"
-          ] : locale === 'ar' ? [
-              " | K-Aqua أنظمة أنابيب PP-R/PP-RCT",
-              " | K-Aqua إمدادات المياه",
-              " | K-Aqua"
-          ] : [
-              " | K-Aqua PP-R/PP-RCT piping systems",
-              " | K-Aqua water supply",
-              " | K-Aqua"
-          ];
+      // 2. Analyze existing keywords to prevent "Wortwiederholung" (word repetition)
+      const lowerTitle = finalTitle.toLowerCase();
+      const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
+      const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
+      const hasSystem = lowerTitle.includes("rohrsysteme") || lowerTitle.includes("piping systems") || lowerTitle.includes("أنظمة أنابيب");
 
-          let bestSuffix = "";
-          for (const s of suffixes) {
-              const combinedLength = finalTitle.length + s.length;
-              if (combinedLength >= 45 && combinedLength <= 65) {
-                  bestSuffix = s;
-                  break;
-              } else if (combinedLength <= 65 && s.length > bestSuffix.length) {
-                  bestSuffix = s;
+      // 3. Build a non-repetitive suffix
+      let suffix = "";
+      
+      if (!hasBrand) {
+          suffix = " | K-Aqua";
+          
+          // Try to make it longer if we have space and missing keywords
+          if (!hasPPR && !hasSystem) {
+              const extended = locale === 'de' ? " | K-Aqua PP-R/PP-RCT Rohrsysteme" : 
+                               locale === 'ar' ? " | K-Aqua أنظمة أنابيب PP-R/PP-RCT" : 
+                               " | K-Aqua PP-R/PP-RCT piping systems";
+              if (finalTitle.length + extended.length <= 65) {
+                  suffix = extended;
               }
           }
-          
-          if (bestSuffix) {
-              finalTitle += bestSuffix;
+      } else {
+          // It already has the brand. Can we add PPR context without repeating the brand?
+          // We can just append " | PP-R/PP-RCT Rohrsysteme" if it fits.
+          if (!hasPPR && !hasSystem) {
+              const context = locale === 'de' ? " | PP-R/PP-RCT Rohrsysteme" : 
+                              locale === 'ar' ? " | أنظمة أنابيب PP-R/PP-RCT" : 
+                              " | PP-R/PP-RCT piping systems";
+              if (finalTitle.length + context.length <= 65) {
+                  suffix = context;
+              }
           }
       }
 
-      if (!finalTitle.includes("K-Aqua") && finalTitle.length + " | K-Aqua".length <= 65) {
-          finalTitle += " | K-Aqua";
+      // 4. Append suffix only if it fits the 65 char strict limit
+      if (suffix && finalTitle.length + suffix.length <= 65) {
+          finalTitle += suffix;
       }
   }
 
@@ -177,10 +180,7 @@ export function constructMetadata({
   }
 
   // Enforce title length (optimal 45-65)
-  // If title is too long, truncate it.
-  if (finalTitle.length > 65) {
-    finalTitle = finalTitle.substring(0, 62).trim() + "...";
-  }
+  // Handled earlier in the logic
 
   // Set robots based on noIndex, isVariant or translation languages
   const robotsSetting = noIndex || isVariant || !isTranslated
