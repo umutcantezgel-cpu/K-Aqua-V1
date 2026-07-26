@@ -181,6 +181,15 @@ export function FluidLink({ href, children, onClick, ...rest }: FluidLinkProps) 
     ctx.navigate(href, { x: r.left + r.width / 2, y: r.top + r.height / 2 });
   }, [ctx, external, href, onClick, pathname, rest.target]);
 
+  if (external) {
+    return (
+      <a ref={ref as React.Ref<HTMLAnchorElement>} href={href} onClick={handle}
+        aria-current={href === pathname ? 'page' : undefined} {...rest}>
+        {children}
+      </a>
+    );
+  }
+
   return (
     <Link ref={ref} href={href} onClick={handle}
       aria-current={href === pathname ? 'page' : undefined} {...rest}>

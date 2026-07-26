@@ -41,6 +41,7 @@ export default async function Co2RechnerPage({ params }: Props) {
     <div className="flex flex-col min-h-screen bg-background selection:bg-primary/30 relative z-20">
 
       <JsonLd schema={jsonLd} />
+      <h1 className="sr-only">{meta[0] ?? "CO2-Rechner & Emissionsanalyse"}</h1>
       <Co2DashboardWrapper />
       {guideText && (
         <section className="container mx-auto px-4 py-12 border-t border-border mt-8">

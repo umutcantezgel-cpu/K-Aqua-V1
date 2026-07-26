@@ -160,7 +160,7 @@ export const schiffbauOffshore: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Werftprojekt?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Reduzieren Sie das Gewicht Ihres Schiffes und eliminieren Sie Korrosionsprobleme dauerhaft.</p>
-          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Marine Spezialisten kontaktieren
           </a>
         </CTABand>

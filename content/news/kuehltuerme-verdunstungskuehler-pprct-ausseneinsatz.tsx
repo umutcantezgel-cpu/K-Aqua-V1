@@ -182,7 +182,7 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Planen Sie einen Kühlturm auf dem Flachdach?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Reduzieren Sie die statische Dachlast und vergessen Sie Korrosionsprobleme. Wir unterstützen Sie bei der Dimensionierung und Befestigungsplanung bei Windlasten.</p>
-          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Planungssupport anfragen
           </a>
         </CTABand>
