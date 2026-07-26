@@ -211,7 +211,7 @@ export default function HeroScrolly() {
   return (
     <div
       ref={wrapRef}
-      className={`relative ${showReducedDesktop ? '' : 'lg:h-[380vh]'} bg-background overflow-hidden`}
+      className={`relative ${showReducedDesktop ? '' : 'lg:h-[380vh]'} bg-background max-lg:overflow-hidden`}
     >
       <div
         className={`relative ${
