@@ -1526,7 +1526,27 @@
       "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
       "list2Title": "Energieeffizienz",
       "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
-    }
+    },
+    "pipes": [
+      "Rohre & Systeme",
+      "Hochleistungsfähige PP-R und PP-RCT Rohre für Haushalt und Industrie."
+    ],
+    "fittings": [
+      "Formteile & Fittings",
+      "Komplettes Sortiment an Formteilen für alle K-Aqua Rohrsysteme."
+    ],
+    "valves": [
+      "Armaturen & Ventile",
+      "Premium-Armaturen und Zubehör für Rohrleitungsnetze."
+    ],
+    "tools": [
+      "Werkzeuge & Zubehör",
+      "Professionelle Schweißwerkzeuge und Zubehör für die PP-R Installation."
+    ],
+    "transition-fittings": [
+      "Übergänge",
+      "Zuverlässige Übergangsformteile für sichere Verbindungen."
+    ]
   },
   "home": {
     "chip": "geprüft seit Oktober 2025",
@@ -3873,7 +3893,23 @@
     "nextLead": "Übergeben Sie Dimension und Länge direkt an den CO₂-Rechner und vergleichen Sie gegen Kupfer, Edelstahl und PVC.",
     "nextCta": "Zum CO₂-Rechner"
   },
-  "trustAndCases": {}, "co2": {
+  "trustAndCases": {
+    "eyebrow": "Zertifizierte Sicherheit",
+    "title": "Bewährte Qualität & Einsatzbereiche",
+    "lead": "Als Hersteller mit Sitz in Deutschland garantieren wir höchste Standards. Unsere Rohrsysteme sind weltweit in kritischen Infrastrukturen im Einsatz.",
+    "trustTitle": "Zertifiziert & Geprüft",
+    "iso9001": "Qualitätsmanagement",
+    "iso14001": "Umweltmanagement",
+    "iso50001": "Energiemanagement",
+    "madeInGermany": "Made in Germany",
+    "case1Title": "Kommunale Wasserversorgung",
+    "case1Desc": "Erneuerung von Trinkwassernetzen. Einsatz von korrosionsfreien PPR-Rohren für maximale Versorgungssicherheit bei minimalem Wartungsaufwand.",
+    "case2Title": "Industrielle Kühlsysteme",
+    "case2Desc": "Installation von großkalibrigen Rohrleitungen in der Schwerindustrie. Hohe Druckbeständigkeit und chemische Resistenz garantieren Ausfallsicherheit.",
+    "case3Title": "Infrastruktur & Tiefbau",
+    "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
+  },
+  "co2": {
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -7661,28 +7697,22 @@
   "seoArticle": {
     "transitionFittings": {
       "seoTitle": "Übergangsfittings aus Messing & PP-R",
-      "seoText": "Sichere und homogene Verbindungen zwischen PP-R Rohrsystemen und metallischen Leitungen. K-Aqua Übergangsfittings mit DZR-Messingeinsätzen garantieren leckagefreie Installationen.",
+      "seoText": "Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik.",
       "advTitle": "Sichere und homogene Verbindungen",
       "advList": [
         "DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung.",
         "Das verdrehsichere Design hält hohen Drehmomenten stand.",
         "Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine leckagefreie Leistung."
       ],
-      "seoText": "Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik.",
       "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Kesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  "
     },
     "valves": {
-      "seoTitle": "Absperrventile & Kugelhähne aus PP-R",
-      "seoText": "Robuste K-Aqua Absperrarmaturen, Ventile und Kugelhähne aus PP-R für präzise Fluidsteuerung ohne Druckverlust. Für höchste Anforderungen in der Trinkwasserinstallation.",
-      "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten – wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE) – sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion elimininiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "
+      "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten – wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE) – sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion eliminiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "
     },
     "fittings": {
       "seoTitle": "Kunststoff-Fittings & Formteile für PP-R",
       "seoText": "Sichere und homogene Verbindungen mit K-Aqua PP-R Formteilen. Entdecken Sie unser umfangreiches Sortiment an Fittings für höchste Ansprüche in der Rohrinstallation.",
       "guideText": "\n    <h2>Sichere Verbindungen</h2>\n    <p>Sichere und homogene Verbindungen bilden das entscheidende Bindeglied in jedem zuverlässigen Rohrnetz. Die wahre Stärke des K Aqua-Rohrleitungssystems liegt in seiner revolutionären Verbindungstechnik. Im Gegensatz zu herkömmlichen Systemen, die auf mechanischer Kompression, Lötzinn oder flüchtigen chemischen Klebstoffen beruhen, nutzt K Aqua die thermische Polyfusion. Unser umfassendes Sortiment an Formteilen – von einfachen Bögen und T-Stücken bis hin zu komplexen Verteilern und Gewindeübergangsstücken – ist so konzipiert, dass es auf molekularer Ebene direkt mit dem Rohr verschmolzen wird.</p>\n    <p>Beim Muffenschweißverfahren werden sowohl die Außenwand des Rohres als auch die Innenwand des Fittings gleichzeitig auf exakt 260°C erhitzt. Beim Zusammenschieben vernetzen sich die geschmolzenen Polymerketten und erstarren zu einer durchgehenden, homogenen Masse. Die resultierende Verbindung ist optisch und physisch kaum vom Rohr selbst zu unterscheiden und wird zum stärksten Punkt im gesamten Netzwerk. Dadurch wird das Risiko von Mikrolecks, die bei Press- oder Stecksystemen nach jahrelangem Gebrauch häufig auftreten, vollständig ausgeschlossen.</p>\n    <p>Dadurch entfällt der Bedarf an Gummi-O-Ringen, Dichtungen oder internen Dichtungen vollständig, die sich im Laufe der Jahrzehnte der thermischen Zyklen unweigerlich verschlechtern, austrocknen oder versagen. Da der Fitting über das Rohr gleitet, gibt es absolut keine Verringerung des inneren Querschnitts, was bedeutet, dass es an den Verbindungsstellen zu keiner Durchflussbeschränkung oder keinem Druckverlust kommt.</p>\n    <ul>\n      <li>Dauerhafte molekulare Verbindungen, die das Risiko von Undichtigkeiten eliminieren.</li>\n      <li>Keine Verringerung des Durchflussdurchmessers, wodurch der Wasserdruck erhalten bleibt.</li>\n      <li>Beständigkeit gegen extreme Druckspitzen und Wasserschlageffekte.</li>\n      <li>Schneller, effizienter Installationsprozess im Vergleich zum Löten oder Gewindeschneiden.</li>\n      <li>Umfassende Formen- und Winkelvielfalt für jedes architektonische Layout.</li>\n    </ul>\n    <p>Darüber hinaus verfügen unsere Übergangsfittings für den Anschluss an bestehende metallische Infrastrukturen über tief eingebettete, verdrehsichere DZR-Messingeinsätze, die extremen Drehmomenten bei der Installation schwerer Ventile und Sanitärarmaturen problemlos standhalten. Jedes Formteil wird strengen Maß- und Belastungstests unterzogen, bevor es unser Werk verlässt, um sicherzustellen, dass es auf Ihrer Baustelle einwandfrei funktioniert.</p>\n    <p>Wer sich für K Aqua Fittings entscheidet, investiert in die Integrität des gesamten Sanitärsystems. Unsere konsequente Qualitätskontrolle stellt sicher, dass jede Verbindung, die Sie herstellen, eine ist, um die Sie sich nie wieder Sorgen machen müssen, und bietet eine dauerhafte Lösung für alle Anwendungen.</p>\n  "
-    },
-    "valves": {
-      "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten – wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE) – sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion eliminiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "
     },
     "weldInSaddles": {
       "seoTitle": "Einschweißsättel für PP-R Rohre",
@@ -8169,21 +8199,5 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
-  },
-  "trustAndCases": {
-    "eyebrow": "Zertifizierte Sicherheit",
-    "title": "Bewährte Qualität & Einsatzbereiche",
-    "lead": "Als Hersteller mit Sitz in Deutschland garantieren wir höchste Standards. Unsere Rohrsysteme sind weltweit in kritischen Infrastrukturen im Einsatz.",
-    "trustTitle": "Zertifiziert & Geprüft",
-    "iso9001": "Qualitätsmanagement",
-    "iso14001": "Umweltmanagement",
-    "iso50001": "Energiemanagement",
-    "madeInGermany": "Made in Germany",
-    "case1Title": "Kommunale Wasserversorgung",
-    "case1Desc": "Erneuerung von Trinkwassernetzen. Einsatz von korrosionsfreien PPR-Rohren für maximale Versorgungssicherheit bei minimalem Wartungsaufwand.",
-    "case2Title": "Industrielle Kühlsysteme",
-    "case2Desc": "Installation von großkalibrigen Rohrleitungen in der Schwerindustrie. Hohe Druckbeständigkeit und chemische Resistenz garantieren Ausfallsicherheit.",
-    "case3Title": "Infrastruktur & Tiefbau",
-    "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   }
 }

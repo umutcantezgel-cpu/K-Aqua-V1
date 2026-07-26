@@ -272,6 +272,7 @@ export default async function CategoryPage({ params }: Props) {
                   p: (chunks) => <p>{chunks}</p>,
                   strong: (chunks) => <strong className="text-foreground">{chunks}</strong>,
                   ul: (chunks) => <ul className="list-disc pl-6 space-y-2">{chunks}</ul>,
+                  ol: (chunks) => <ol className="list-decimal pl-6 space-y-2">{chunks}</ol>,
                   li: (chunks) => <li>{chunks}</li>,
                   br: () => <br />
                 })}

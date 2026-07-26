@@ -73,12 +73,12 @@ export default function HeroScrolly() {
       const p = Math.min(1, Math.max(0, -wrap.getBoundingClientRect().top / total));
 
       // 1) Hero copy fades up and out smoothly
-      const fade = Math.min(1, Math.max(0, p / 0.32));
+      const fade = Math.min(1, Math.max(0, p / 0.20));
       const copy = copyRef.current;
       if (copy) {
         copy.style.opacity = String(1 - fade);
         copy.style.transform = `translateY(${-fade * 70}px)`;
-        copy.style.pointerEvents = fade > 0.4 ? 'none' : '';
+        copy.style.pointerEvents = fade > 0.2 ? 'none' : '';
       }
 
       // 2) Globe glides smoothly from right (or left in RTL) to center on a clean path + grows
@@ -136,9 +136,9 @@ export default function HeroScrolly() {
     { t: t('scrolly.3.t'), d: t('scrolly.3.d') },
   ];
 
-  const renderHeroCopy = () => {
+  const renderHeroCopy = (ref?: React.Ref<HTMLDivElement>) => {
     return (
-      <div className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
+      <div ref={ref} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
         <Reveal delay={0.08}>
           <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
             {t('h1a')}{' '}
@@ -237,7 +237,7 @@ export default function HeroScrolly() {
             <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
             <div ref={glowRef} className="k-scrolly-glow" aria-hidden="true" />
             <div className="mx-auto max-w-[1400px] px-6 h-full flex items-center relative z-10">
-              {renderHeroCopy()}
+              {renderHeroCopy(copyRef)}
             </div>
             <div ref={globeWrapRef} className="k-scrolly-globe">
               {mounted && !staticMode && (

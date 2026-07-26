@@ -29,8 +29,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
     }
   }
 
+  // Fallback to English for missing translations
+  const fallbackLocale = 'en';
+  const fallbackMessages = targetLocale === fallbackLocale 
+    ? {} 
+    : (await import(`../../messages/${fallbackLocale}.json`)).default;
+
   const baseMessages = (await import(`../../messages/${targetLocale}.json`)).default;
-  let messages = { ...baseMessages };
+  
+  // Deep merge fallback and target messages
+  let messages = merge({}, fallbackMessages, baseMessages);
 
   // Load SEO Expansion files dynamically if they exist (for Swarm)
   const seoModules = [
