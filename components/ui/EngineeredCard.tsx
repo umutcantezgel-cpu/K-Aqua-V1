@@ -35,6 +35,7 @@ import { useCallback, useRef, useState } from 'react';
 import type { PointerEvent as ReactPointerEvent, ReactNode } from 'react';
 import { motion, useMotionValue, useReducedMotion, useSpring } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from '@/lib/i18n/navigation';
 import { FLOW_SPRING, GLOW_SPRING, WIPE, quantize } from './motion-physics';
 
 export interface CardSpec { label: string; value: string }
@@ -208,7 +209,7 @@ export default function EngineeredCard({
         X 000 · Y 000
       </motion.span>
 
-      {href && <a href={href} className="absolute inset-0 z-[4]" aria-label={`${title} — ${cta}`} />}
+      {href && <Link href={href} className="absolute inset-0 z-[4]" aria-label={`${title} — ${cta}`} />}
     </motion.article>
   );
 }

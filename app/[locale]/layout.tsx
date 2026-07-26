@@ -88,6 +88,14 @@ export default async function LocaleLayout({
     'kontaktForm'
   ]);
 
+  // Optimize HTML Payload Size by removing heavy server-only translation branches
+  // products.seoArticle and products.narrative are only used in Server Components (e.g. ProductDetailPage)
+  if (clientMessages.products) {
+    clientMessages.products = { ...clientMessages.products };
+    delete (clientMessages.products as any).seoArticle;
+    delete (clientMessages.products as any).narrative;
+  }
+
   const orgJsonLd = await getOrganizationJsonLd(locale);
 
   const headersList = await headers();
@@ -98,14 +106,7 @@ export default async function LocaleLayout({
   const xPathname = headersList.get('x-pathname') || '';
   const kontaktSlug = resolveKontaktSlug(xPathname);
 
-  // Seobility fix: Set lang="de" for pages that are primarily German content, even on /en/ or /ar/ paths.
-  const isUntranslated = xPathname && (
-    xPathname.includes('/news') || 
-    xPathname.includes('/produkte') || 
-    xPathname.includes('/ressourcen') || 
-    xPathname.includes('/referenzen')
-  );
-  const htmlLang = isUntranslated ? 'de' : locale;
+  const htmlLang = locale;
 
   return (
     <html lang={htmlLang} dir={dir} suppressHydrationWarning>

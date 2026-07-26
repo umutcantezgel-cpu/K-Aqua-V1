@@ -325,12 +325,6 @@ export default function GeoCity({
             })}
           </div>
 
-          {/* Localized Production Note */}
-          <Reveal delay={0.3}>
-            <p className="text-[13px] text-muted-foreground/60 leading-relaxed mt-12 text-start max-w-[90ch] border-t border-card-border/40 pt-6">
-              {prodNote}
-            </p>
-          </Reveal>
         </div>
       </section>
       {/* Unique Market SEO Text */}

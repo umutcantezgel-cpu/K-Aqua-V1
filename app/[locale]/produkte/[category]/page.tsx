@@ -13,7 +13,7 @@ import { routing } from "@/lib/i18n/routing";
 import { setRequestLocale } from 'next-intl/server';
 import { MediaSlot } from "@/components/ui/MediaSlot";
 import Image from "next/image";
-
+import ProductFAQ from '@/components/product/ProductFAQ';
 
 interface Props {
   params: Promise<{ locale: string; category: string }>;
@@ -260,6 +260,13 @@ export default async function CategoryPage({ params }: Props) {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-background-subtle border-t border-card-border">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <ProductFAQ category={catKey} />
         </div>
       </section>
 

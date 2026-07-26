@@ -6,15 +6,14 @@ import { constructMetadata } from '@/lib/seo/metadata';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> | { locale: string } }): Promise<Metadata> {
   const { locale } = await params;
   return constructMetadata({
-    title: 'Select Language | K-Aqua',
-    description: 'Select your preferred language and region.',
+    title: 'Sprache wählen | Choose Language',
+    description: 'Wählen Sie Ihre bevorzugte Sprache für die K-Aqua Website.',
     path: '/language',
     locale,
-    noIndex: true,
+    noIndex: true
   });
 }
 
 export default function LanguagePage() {
   return <LanguagePageClient />;
 }
-

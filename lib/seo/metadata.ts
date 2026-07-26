@@ -55,14 +55,36 @@ export function constructMetadata({
     "de", "en", "ar"
   ];
 
-  const languages: Record<string, string> = {};
-  for (const loc of translatedLocales) {
-    languages[loc] = cleanPath ? `${siteUrl}/${loc}/${cleanPath}` : `${siteUrl}/${loc}`;
-  }
-  // x-default points to default locale (de)
-  languages["x-default"] = cleanPath ? `${siteUrl}/de/${cleanPath}` : `${siteUrl}/de`;
+  // Exclude product variants that have canonical rewrites to a primary variant
+  const variantSlugs = new Set([
+    'k-fiber-pipe-pp-r-sdr-74',
+    'k-fiber-pipe-pp-r-sdr-9',
+    'k-fiber-pipe-pp-r-sdr-17',
+    'k-pipe-pp-r-sdr-6',
+    'hand-welding-machine-20-63',
+  ]);
 
-  const canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
+  const isVariant = Array.from(variantSlugs).some(slug => cleanPath.includes(slug));
+
+  const languages: Record<string, string> = {};
+  if (!noIndex && !isVariant) {
+    for (const loc of translatedLocales) {
+      languages[loc] = cleanPath ? `${siteUrl}/${loc}/${cleanPath}` : `${siteUrl}/${loc}`;
+    }
+    // x-default points to default locale (de)
+    languages["x-default"] = cleanPath ? `${siteUrl}/de/${cleanPath}` : `${siteUrl}/de`;
+  }
+  let canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
+  if (isVariant) {
+    // Rewrite canonical to the primary variant
+    if (cleanPath.includes('k-fiber-pipe-pp-r-sdr-74') || cleanPath.includes('k-fiber-pipe-pp-r-sdr-9') || cleanPath.includes('k-fiber-pipe-pp-r-sdr-17')) {
+      canonicalUrl = `${siteUrl}/${locale}/produkte/pipes/k-fiber-pipe-pp-rct-sdr-74`;
+    } else if (cleanPath.includes('k-pipe-pp-r-sdr-6')) {
+      canonicalUrl = `${siteUrl}/${locale}/produkte/pipes/k-pipe-pp-r-sdr-11`;
+    } else if (cleanPath.includes('hand-welding-machine-20-63')) {
+      canonicalUrl = `${siteUrl}/${locale}/produkte/tools/hand-welding-machine-50-125`;
+    }
+  }
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
   let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();
@@ -160,16 +182,26 @@ export function constructMetadata({
     finalTitle = finalTitle.substring(0, 62).trim() + "...";
   }
 
+  // Set robots based on noIndex, isVariant or translation languages
+  const robotsSetting = noIndex || isVariant || !isTranslated
+    ? { index: false, follow: false }
+    : {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+          "max-video-preview": -1,
+          "max-image-preview": "large",
+          "max-snippet": -1,
+        },
+      };
+
   return {
     metadataBase: new URL(siteUrl),
     title: finalTitle,
     description: finalDescription,
-    robots: noIndex
-      ? { index: false, follow: false }
-      : {
-          index: isTranslated,
-          follow: isTranslated,
-        },
+    robots: robotsSetting,
     alternates: {
       canonical: canonicalUrl,
       languages,

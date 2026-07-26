@@ -45,6 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     path: `/maerkte/${hubSlug}/${citySlug}`,
     locale,
+    noIndex: true, // Fix for massive Seobility Duplicate Content on programmatic pages
   });
 }
 

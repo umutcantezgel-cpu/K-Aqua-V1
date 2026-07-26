@@ -82,7 +82,7 @@ export async function ServiceDeep() {
                   <h3 className="font-heading text-body font-bold text-foreground">{s.t}</h3>
                   <p className="text-small text-muted-foreground">{s.d}</p>
                   {s.href ? (
-                    <LiquidMagneticButton fill="flood" variant="ghost" size="md" href={s.href} className="mt-2 self-start">
+                    <LiquidMagneticButton fill="flood" variant="ghost" size="md" href={s.href} aria-label={`${s.c} - ${s.t}`} className="mt-2 self-start">
                       {s.c}
                     </LiquidMagneticButton>
                   ) : (

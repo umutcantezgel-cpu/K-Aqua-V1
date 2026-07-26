@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: meta[1] ?? "",
     path: "/produkte/finder",
     locale,
+    noIndex: true,
   });
 }
 

@@ -6,7 +6,7 @@ import { routing } from "@/lib/i18n/routing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
-import Link from "next/link";
+import { Link } from "@/lib/i18n/navigation";
 import { Globe } from "lucide-react";
 
 interface Props {
@@ -93,12 +93,6 @@ export default async function GeoHubPage({ params }: Props) {
             )}
           </p>
           
-          <div className="mt-6 p-4 bg-muted/50 rounded-lg border max-w-3xl">
-            <h3 className="font-semibold mb-2">{tGeo("hubContextTitle", { context: hub.crisisContext })}</h3>
-            <p className="text-sm text-muted-foreground">
-              {tGeo("hubContextBody", { country: hub.name })}
-            </p>
-          </div>
         </div>
 
         {/* Cities Grid */}
@@ -108,7 +102,7 @@ export default async function GeoHubPage({ params }: Props) {
             {hubMarkets.map(market => (
               <Link 
                 key={market.slug} 
-                href={`/${locale}/maerkte/${hub.slug}/${market.slug}`}
+                href={`/maerkte/${hub.slug}/${market.slug}`}
                 className="block p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors group"
               >
                 <div className="flex items-center justify-between mb-4">
