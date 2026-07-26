@@ -12,7 +12,7 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-export async function generateStaticParams({ params: { locale } }: { params: { locale: string } }) {
+export async function generateStaticParams() {
   const allNews = getAllNews();
   return allNews.map((news) => ({
     slug: news.slug,
