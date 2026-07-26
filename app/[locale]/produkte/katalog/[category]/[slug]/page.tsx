@@ -203,14 +203,20 @@ export default async function CatalogDetailPage({ params }: Props) {
 
               {/* SEO Content Section */}
               <article className="mt-12 space-y-6 text-base text-muted-foreground leading-relaxed">
-                {t.has(`items.${item.slug}.seo_p1`) && (
-                  <p>{t(`items.${item.slug}.seo_p1`)}</p>
-                )}
-                {t.has(`items.${item.slug}.seo_p2`) && (
-                  <p>{t(`items.${item.slug}.seo_p2`)}</p>
-                )}
-                {t.has(`items.${item.slug}.seo_p3`) && (
-                  <p>{t(`items.${item.slug}.seo_p3`)}</p>
+                {['seo_p1', 'seo_p2', 'seo_p3'].map((key) => 
+                  t.has(`items.${item.slug}.${key}`) && (
+                    <div key={key}>
+                      {t.rich(`items.${item.slug}.${key}`, {
+                        h3: (chunks) => <h3 className="text-xl font-heading font-bold text-foreground mt-8 mb-4">{chunks}</h3>,
+                        h4: (chunks) => <h4 className="text-lg font-heading font-bold text-foreground mt-6 mb-3">{chunks}</h4>,
+                        p: (chunks) => <p className="mb-4">{chunks}</p>,
+                        strong: (chunks) => <strong className="font-bold text-foreground">{chunks}</strong>,
+                        ul: (chunks) => <ul className="list-disc pl-6 space-y-2 mb-4">{chunks}</ul>,
+                        li: (chunks) => <li>{chunks}</li>,
+                        br: () => <br />
+                      })}
+                    </div>
+                  )
                 )}
               </article>
 
