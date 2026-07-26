@@ -20,6 +20,8 @@ import JsonLd from '@/components/seo/JsonLd';
 import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
 import SignatureInitializer from '@/components/signature/SignatureInitializer';
 
+import { FluidTransitionProvider } from '@/components/ui/FluidTransition';
+
 import '../kontakt.css';
 import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
 import { KontaktFab } from '@/components/kontakt/KontaktFab';
@@ -120,7 +122,7 @@ export default async function LocaleLayout({
             <ScrollProgress />
             <Header />
             <main id="main-content" className="pt-(--header-h) min-h-screen">
-              {children}
+              <FluidTransitionProvider>{children}</FluidTransitionProvider>
             </main>
             {/* Invariant: this is the only full-size (variant="block") KontaktBlock per page.
                 Page-level instances (home hero, news/academy sidebar) use slim variants only. */}

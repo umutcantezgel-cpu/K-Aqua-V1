@@ -7,7 +7,7 @@ import { StepFlow } from '@/components/ui/StepFlow';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { AnimatedCounter } from '@/components/ui/AnimatedCounter';
 import { Stagger } from '@/components/ui/Stagger';
-import { Flame, ShieldAlert, Activity } from '@/components/ui/icon';
+import { Flame, ShieldAlert } from '@/components/ui/icon';
 
 export const brandschutzFeuerwiderstandsklasse: NewsPost = {
   slug: 'brandschutz-feuerwiderstandsklasse-b1-ppr-rohre',
@@ -40,7 +40,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
         
         <Stagger staggerDelay={0.15} className="relative z-10 max-w-5xl">
           <Reveal delay={0}>
-            <Eyebrow text="Die B1 Zertifizierung" className="mb-6 text-destructive" />
+            <Eyebrow className="mb-6 text-destructive">Die B1 Zertifizierung</Eyebrow>
           </Reveal>
           <Reveal delay={0.15}>
             <h2 className="text-5xl lg:text-7xl font-black font-heading tracking-tight text-foreground leading-[1.1] mb-8">
@@ -114,7 +114,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
       <section>
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Materialverhalten im Brandfall" />
+            <Eyebrow>Materialverhalten im Brandfall</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Der toxikologische Vergleich
             </h2>
@@ -214,7 +214,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
       <section className="pb-12">
         <Reveal>
           <div className="mb-12">
-            <Eyebrow text="Prävention beim Bau" />
+            <Eyebrow>Prävention beim Bau</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Hot Works eliminieren
             </h2>

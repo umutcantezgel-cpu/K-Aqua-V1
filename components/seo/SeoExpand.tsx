@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 
 interface SeoExpandProps {
-  pageType: 'impressum' | 'kontakt' | 'projektanfrage' | 'news' | 'maerkte';
+  pageType: 'impressum' | 'kontakt' | 'projektanfrage' | 'news' | 'maerkte' | 'catalog';
 }
 
 export function SeoExpand({ pageType }: SeoExpandProps) {
@@ -49,6 +49,14 @@ export function SeoExpand({ pageType }: SeoExpandProps) {
         tAbout('sticky.items.0.desc'),
         tAbout('sticky.items.1.desc'),
         tAbout('sticky.items.2.desc')
+      ];
+      break;
+    case 'catalog':
+      paragraphs = [
+        tAbout('intro.desc'),
+        tAbout('timeline.items.1.text'),
+        tAbout('bento.lead'),
+        tAbout('timeline.items.2.text')
       ];
       break;
   }

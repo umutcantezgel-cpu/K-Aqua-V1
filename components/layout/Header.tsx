@@ -9,7 +9,6 @@ import { Logo } from '@/components/ui/Logo';
 
 import ThemeToggle from './ThemeToggle';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import { useLocale } from 'next-intl';
 import MegaMenu from './MegaMenu';
 import { Globe, ArrowRight } from '@/components/ui/icon';
 import GlobeHub from '@/components/navigation/GlobeHub';

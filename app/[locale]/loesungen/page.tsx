@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { Button } from "@/components/ui/Button";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { SectionHead } from "@/components/ui/SectionHead";
@@ -85,7 +86,7 @@ export default async function LoesungenPage({ params }: Props) {
           }
           description={t('hero.desc')}
         >
-          <Button variant="primary" size="lg" href="/kontakt">{t('hero.cta')}</Button>
+          <LiquidMagneticButton fill="flood" size="md" variant="primary" href="/kontakt">{t('hero.cta')}</LiquidMagneticButton>
         </ParallaxHero>
 
         {/* 2) Intro */}

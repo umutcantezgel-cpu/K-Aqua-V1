@@ -67,15 +67,7 @@ export function constructMetadata({
   // Remove leading K-Aqua if it's there
   cleanTitle = cleanTitle.replace(/^K-Aqua\s*?[|·-]\s*?/i, "").trim();
   
-  const claimSuffix: Record<string, string> = {
-    de: "K-Aqua — PP-R Rohrsysteme",
-    en: "K-Aqua — PP-R Piping Systems",
-    ar: "K-Aqua — أنظمة أنابيب PP-R",
-  };
-  let finalTitle = `${cleanTitle} | K-Aqua`;
-  if (finalTitle.length < 50) {
-    finalTitle = `${cleanTitle} | ${claimSuffix[locale] ?? claimSuffix.en}`;
-  }
+  const finalTitle = `${cleanTitle} | K-Aqua`;
 
   const isTranslated = translatedLocales.includes(locale);
 

@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { Chip } from "@/components/ui/Chip";
 import { IconChip } from "@/components/ui/IconChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { SeoExpand } from "@/components/seo/SeoExpand";
@@ -143,10 +144,9 @@ export default function GeoCity({
             </Reveal>
             <Reveal delay={0.24}>
               <div className="flex flex-wrap gap-4 mt-4">
-                <Link href="/kontakt" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[48px] px-6 text-body w-full sm:w-auto">
-                    {geoTrans.request}
-                    <ArrowRight size={18} />
-                </Link>
+                <LiquidMagneticButton fill="flood" size="md" href="/kontakt" className="w-full sm:w-auto">
+                  {geoTrans.request}
+                </LiquidMagneticButton>
                 <Link href="/produkte/finder" className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-transparent text-foreground border border-card-border hover:border-primary hover:text-primary hover:bg-primary-soft min-h-[48px] px-6 text-body w-full sm:w-auto">
                     {geoTrans.finder}
                 </Link>
@@ -299,7 +299,7 @@ export default function GeoCity({
 
               return (
                 <Reveal key={nm.slug} delay={idx * 0.08}>
-                  <Link href={`/maerkte/${nm.slug}`} className="group block h-full">
+                  <Link href={`/maerkte/${nm.hubSlug}/${nm.slug}`} className="group block h-full">
                     <Card className="h-full cursor-pointer hover:border-primary hover:shadow-lift transition-all duration-fast p-8">
                       <div className="flex flex-col gap-3 text-start h-full justify-between">
                         <div>

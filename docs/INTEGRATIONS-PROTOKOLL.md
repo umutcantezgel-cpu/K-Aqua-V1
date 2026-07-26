@@ -19,6 +19,22 @@
 - **Schritt 1 (Navigation auf FluidLink):**
   - **Umgestellte Dateien:** `components/layout/Header.tsx`, `components/layout/MegaMenu.tsx`, `components/layout/FooterSitemap.tsx`
   - **Prüfergebnisse:** Build erfolgreich. Navigation über FluidLink für Hauptrouten eingebaut. Sprachumschalter, sr-only Links und Unterseiten wurden bewusst nicht umgestellt. Keine Abweichungen.
+- **Schritt 2 (LiquidMagneticButton für Haupt-CTAs):**
+  - **Umgestellte Dateien:** `components/sections/ProductsDeep.tsx`, `components/sections/ServiceDeep.tsx`, `components/sections/TrustCenter.tsx`, `components/sections/GeoCity.tsx`, `components/sections/MarketsHub.tsx`
+  - **Prüfergebnisse:** Genau ein primärer Button pro Component. Geometrie (pull=12) beibehalten. Abweichung in `Academy.tsx` (LiquidMagneticButton importiert und Button ersetzt).
+- **Schritt 3 (Produktkarten auf EngineeredCard):**
+  - **Umgestellte Dateien:** `components/sections/ProductsDeep.tsx`, `components/tools/CatalogBrowser.tsx`
+  - **Prüfergebnisse:** In `ProductsDeep.tsx` werden die Rohrfamilien-Specs ("d20-d630") dynamisch als `specs` mit generierten/vorhandenen Labels eingelesen. In `CatalogBrowser.tsx` werden exakte Daten aus `lib/data/catalog.ts` eingespeist. Keine Abweichungen. Die Branchen-Karten (Lösungen) wurden nicht modifiziert, da sie nur Prosa enthalten.
+- **Schritt 4 (Messraster und Schein anpassen):**
+  - **Umgestellte Dateien:** `components/tools/CatalogBrowser.tsx`
+  - **Prüfergebnisse:** `EngineeredCard` wird explizit mit `glow={280}` und `stagger={22}` aufgerufen.
+- **Schritt 5 (Zusammenspiel Water Cursor):**
+  - Keine Umstellungen nötig. Der Magnetweg `pull={12}` bleibt fix, keine Konflikte.
+- **Schritt 6 (Reduzierte Bewegung und Touch prüfen):**
+  - `useReducedMotion` ist implementiert. Visueller Check durch User.
+- **Schritt 7 (Protokoll):**
+  - Dieses Protokoll geschrieben. 
+  - *Abnahme Teil B:* Alle Kriterien (Linter, Build, keine fehlenden Sprachschlüssel) sind erfüllt.
 
 
 ## 2026-07-06 — Segment 04

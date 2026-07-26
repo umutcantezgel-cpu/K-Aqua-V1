@@ -49,5 +49,30 @@ build_output.log
 
 *.mp4
 
+# one-off scripts — never commit temp utility scripts
+fix_*.js
+get_*.js
+check_*.js
+compare*.js
+list_*.js
+find_*.js
+print_*.js
+extract_*.js
+generate_*.js
+update_*.js
+
+# data dumps
+*.patch
+missing_*.json
+*_chunks_*.json
+de_*.json
+page.html
+
+# export prototypes
+export-*/
+
+# agent logs (keep AGENTS.md via negation)
+.agents/*/
+
 # Internal documents — never ship or commit
 docs/confidential/

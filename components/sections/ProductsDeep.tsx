@@ -16,6 +16,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
+import EngineeredCard from "@/components/ui/EngineeredCard";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { PipeFX } from "@/components/ui/PipeFX";
@@ -60,17 +61,19 @@ export function ProductsDeep() {
           <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
             {pipes.map((p, i) => (
               <Reveal key={p.t} delay={i * 0.07}>
-                <Card className="h-full">
-                  <h3 className="font-heading text-lead font-bold text-foreground">{p.t}</h3>
-                  <p className="text-small text-muted-foreground">{p.d}</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {p.tags.map((tg) => (
-                      <span key={tg} className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                        {tg}
-                      </span>
-                    ))}
-                  </div>
-                </Card>
+                <EngineeredCard
+                  overline="K-Aqua"
+                  title={p.t}
+                  lead={p.d}
+                  specs={p.tags.map(tg => {
+                    let label = "Merkmal";
+                    if (tg.includes("SDR") || tg.includes("bar") || tg.includes("°C")) label = "Druckstufe";
+                    else if (tg.includes("d")) label = "Dimension";
+                    return { label, value: tg };
+                  })}
+                  cta={t("pipesCta") || "Details ansehen"}
+                  href={`/produkte`}
+                />
               </Reveal>
             ))}
           </div>

@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Card } from "@/components/ui/Card";
 import { FilterChip } from "@/components/ui/FilterChip";
 import { Button } from "@/components/ui/Button";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Download, ArrowRight } from "@/components/ui/icon";
 import { Search } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
@@ -170,16 +171,17 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                   <span className="text-body text-muted-foreground">
                     Produkte gefunden
                   </span>
-                  <Button
+                  <LiquidMagneticButton
+                    fill="crest"
                     variant="ghost"
-                    size="sm"
+                    size="md"
                     href="/pdf/k-aqua-product-range-en.pdf"
-                    icon={<Download className="w-4 h-4" />}
                     target="_blank"
                     rel="noreferrer"
                   >
+                    <Download className="w-4 h-4 mr-2" />
                     Katalog als PDF
-                  </Button>
+                  </LiquidMagneticButton>
                 </Card>
               </Reveal>
             </div>

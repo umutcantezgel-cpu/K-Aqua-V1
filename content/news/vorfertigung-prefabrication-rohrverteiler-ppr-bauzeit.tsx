@@ -8,7 +8,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Cpu, Layers, Settings2, Activity, CheckCircle2 } from "@/components/ui/icon";
 
 export const vorfertigungPrefabrication: NewsPost = {
@@ -51,8 +50,10 @@ export const vorfertigungPrefabrication: NewsPost = {
               lead="Die Rahmenbedingungen auf modernen Großbaustellen werden immer anspruchsvoller: Knappe Bauzeitenpläne, akuter Fachkräftemangel und ungünstige Witterungsbedingungen. Wer hier komplexe Heizungs und Trinkwasserverteiler aus dutzenden Einzelteilen direkt vor Ort zusammenschweißt, verliert wertvolle Bauzeit. Die Lösung heißt industrielle Vorfertigung (Prefabrication). K Aqua PPR Rohrsysteme eignen sich hervorragend, um in der kontrollierten Umgebung einer Werkstatt millimetergenau vorgefertigt und als prüfbereite Baugruppe auf die Baustelle geliefert zu werden."
             />
           </div>
-          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            <PipeFX variant="blueprint" size={380} />
+          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none">
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Layers className="w-24 h-24 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -224,13 +225,13 @@ export const vorfertigungPrefabrication: NewsPost = {
 
       {/* CTABand: Prefabsupport */}
       <Reveal>
-        <CTABand
-          title="Wollen Sie Ihren Bauzeitenplan optimieren?"
-          subtitle="Verlagern Sie Komplexität in die Vorplanung. Sprechen Sie mit uns über den Einsatz von K Aqua BIMDaten für die Vorfertigung Ihrer nächsten Rohrverteiler."
-          buttonText="BIMsupport anfragen"
-          buttonLink="/kontakt"
-          icon={<Cpu className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Wollen Sie Ihren Bauzeitenplan optimieren?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Verlagern Sie Komplexität in die Vorplanung. Sprechen Sie mit uns über den Einsatz von K Aqua BIMDaten für die Vorfertigung Ihrer nächsten Rohrverteiler.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            BIMsupport anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

@@ -7,7 +7,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Flame, ShieldAlert, Layers, Building2 } from "@/components/ui/icon";
 
 export const brandschutzRohrschachtVerlegung: NewsPost = {

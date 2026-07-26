@@ -7,7 +7,6 @@ import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Layers, ShieldCheck, Thermometer, Box } from "@/components/ui/icon";
 
 export const isoliermaterialRohrdammungVergleich: NewsPost = {
@@ -45,7 +44,9 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="blueprint" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center">
+              <Layers className="w-24 h-24 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -185,13 +186,13 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Sparen Sie sich das nachträgliche Isolieren auf der Baustelle"
-          subtitle="Mit dem K Aqua Isopipe System erhalten Sie werksseitig vorisolierte Rohre für den direkten, sicheren Einbau im Erdreich oder Freien. Schnell, sicher, hocheffizient und normgerecht."
-          buttonText="Zum Isopipe System"
-          buttonLink="/produkte/pipes"
-          icon={<Layers className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Sparen Sie sich das nachträgliche Isolieren auf der Baustelle</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Mit dem K Aqua Isopipe System erhalten Sie werksseitig vorisolierte Rohre für den direkten, sicheren Einbau im Erdreich oder Freien. Schnell, sicher, hocheffizient und normgerecht.</p>
+          <a href="/produkte/pipes" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Zum Isopipe System
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

@@ -6,7 +6,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Activity, Power, Ear, ArrowRightLeft } from "@/components/ui/icon";
 
 export const vibrationsentkopplungSchallschutz: NewsPost = {
@@ -49,7 +48,9 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="pressure" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center">
+              <Ear className="w-32 h-32 text-primary/20" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -146,13 +147,13 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Leise Nächte im Hotel und im Krankenhaus"
-          subtitle="Gehen Sie keine akustischen Risiken ein. Setzen Sie auf die enorme Eigendämpfung von K-Aqua PPR in intelligenter Kombination mit professioneller Entkopplungstechnik an den Maschinen. Wir unterstützen Sie aktiv bei der schalltechnischen Rohrnetzplanung."
-          buttonText="Planungshilfe anfragen"
-          buttonLink="/ressourcen/support"
-          icon={<Ear className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Leise Nächte im Hotel und im Krankenhaus</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Gehen Sie keine akustischen Risiken ein. Setzen Sie auf die enorme Eigendämpfung von K-Aqua PPR in intelligenter Kombination mit professioneller Entkopplungstechnik an den Maschinen. Wir unterstützen Sie aktiv bei der schalltechnischen Rohrnetzplanung.</p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Planungshilfe anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

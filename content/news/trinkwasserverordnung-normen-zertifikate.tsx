@@ -3,7 +3,6 @@ import { NewsPost } from './index';
 import { Reveal } from '@/components/ui/Reveal';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { ParallaxHero } from '@/components/ui/ParallaxHero';
-import { ExportGlobe } from '@/components/ui/ExportGlobe';
 import { DataTable } from '@/components/ui/DataTable';
 import { DeepFAQ } from '@/components/ui/DeepFAQ';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
@@ -89,7 +88,9 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
             </div>
             
             <div className="relative w-full aspect-square bg-card rounded-3xl border border-card-border flex items-center justify-center overflow-hidden">
-              <ExportGlobe className="scale-125 opacity-80" />
+              <div className="w-32 h-32 rounded-full border-2 border-primary/20 flex items-center justify-center bg-primary/5">
+                <Globe className="w-16 h-16 text-primary/40" />
+              </div>
             </div>
           </div>
         </Reveal>

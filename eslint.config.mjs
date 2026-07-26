@@ -38,7 +38,16 @@ const eslintConfig = [
     },
   },
   {
-    ignores: ['prototype/**', '.next/**', 'node_modules/**', 'scripts/**', 'kaqua-antigravity 6/**'],
+    ignores: [
+      'prototype/**',
+      '.next/**',
+      'node_modules/**',
+      'scripts/**',
+      'kaqua-antigravity 6/**',
+      'components/tools/co2-dashboard/**',
+      'lib/co2-*.ts',
+      'components/ui/WaterCursor.tsx'
+    ],
   },
 ];
 

@@ -7,7 +7,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { TestTube, Factory, Beaker, Leaf } from "@/components/ui/icon";
 
 export const chemischeResistenzIndustrie: NewsPost = {
@@ -46,7 +45,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/10 blur-3xl" />
           </div>
         </div>
       </Reveal>
@@ -56,14 +55,20 @@ export const chemischeResistenzIndustrie: NewsPost = {
         <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground mt-8 px-4">
           <h2 className="text-2xl font-bold text-foreground mb-4">Das Geheimnis der unpolaren Struktur</h2>
           <p>
-            Die chemische Beständigkeit von Werkstoffen entscheidet sich auf molekularer Ebene. Polypropylen gehört zur Gruppe der Polyolefine. Es besteht ausschließlich aus Kohlenstoff- und Wasserstoffatomen (CH2-CH(CH3)), die durch extrem starke kovalente Bindungen miteinander verknüpft sind. Da diese Struktur elektrisch völlig unpolar ist, zeigt PP-R keinerlei Affinität zu polaren Lösungsmitteln, Säuren oder Laugen.
+            Die chemische Beständigkeit von Werkstoffen entscheidet sich auf molekularer Ebene. Polypropylen gehört zur Gruppe der Polyolefine. Es besteht ausschließlich aus Kohlenstoff- und Wasserstoffatomen (CH2-CH(CH3)), die durch extrem starke kovalente Bindungen miteinander verknüpft sind. Da diese Struktur elektrisch völlig unpolar ist, zeigt PP-R keinerlei Affinität zu polaren Lösungsmitteln, Säuren oder Laugen. Diese intrinsische Widerstandsfähigkeit macht PP-R zu einem unverzichtbaren Basiswerkstoff für den sicheren und langfristigen industriellen Rohrleitungsbau, der sich über Jahrzehnte hinweg bewährt hat.
           </p>
           <p>
-            Dies ist ein fundamentaler Unterschied zu Metallen. Wenn Metalle mit Säuren (niedriger pH-Wert) in Kontakt kommen, geben sie Elektronen ab, ionisieren und lösen sich auf – sie korrodieren. PP-R hingegen besitzt keine freien Elektronen, die es abgeben könnte. Das Material ist elektrochemisch tot (inert). Lochfraß (Pitting Corrosion), der bei Edelstahlleitungen (z.B. V4A / 1.4404) durch Chlorid-Ionen oft schon nach wenigen Monaten zu Mikroleckagen führt, ist bei Kunststoff physikalisch schlichtweg unmöglich.
+            Dies ist ein fundamentaler Unterschied zu Metallen. Wenn Metalle mit Säuren (niedriger pH-Wert) in Kontakt kommen, geben sie Elektronen ab, ionisieren und lösen sich auf – sie korrodieren. PP-R hingegen besitzt keine freien Elektronen, die es abgeben könnte. Das Material ist elektrochemisch tot (inert). Lochfraß (Pitting Corrosion), der bei Edelstahlleitungen (z.B. V4A / 1.4404) durch Chlorid-Ionen oft schon nach wenigen Monaten zu Mikroleckagen führt, ist bei Kunststoff physikalisch schlichtweg unmöglich. Auch die gefürchtete Flächenkorrosion oder galvanische Korrosion, die bei der Verbindung unterschiedlicher metallischer Werkstoffe auftritt, spielt bei K-Aqua PP-R keinerlei Rolle.
           </p>
+          
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Stresstrissbeständigkeit (Environmental Stress Cracking)</h3>
           <p>
-            Eine der größten Gefahren in der industriellen Verrohrung ist die Spannungsrisskorrosion (Environmental Stress Cracking, ESC). Wenn eine Rohrleitung unter mechanischer Spannung steht und gleichzeitig einem grenzflächenaktiven Medium (wie Tensiden, Seifen oder bestimmten Alkoholen) ausgesetzt wird, können sich bei Standardkunststoffen mikroskopische Risse bilden, die unweigerlich zum Sprödbruch führen. K-Aqua PP-R zeichnet sich durch ein gezielt optimiertes Molekulargewicht und eine hohe Zähigkeit aus, die das Risiko von Spannungsrissen selbst unter extremen Prozessbedingungen auf ein absolutes Minimum reduziert.
+            Eine der größten Gefahren in der industriellen Verrohrung ist die Spannungsrisskorrosion (Environmental Stress Cracking, ESC). Wenn eine Rohrleitung unter mechanischer Spannung steht und gleichzeitig einem grenzflächenaktiven Medium (wie Tensiden, Seifen oder bestimmten Alkoholen) ausgesetzt wird, können sich bei Standardkunststoffen mikroskopische Risse bilden, die unweigerlich zum Sprödbruch führen. K-Aqua PP-R zeichnet sich durch ein gezielt optimiertes Molekulargewicht und eine hohe Zähigkeit aus, die das Risiko von Spannungsrissen selbst unter extremen Prozessbedingungen auf ein absolutes Minimum reduziert. Die homogene Verschweißung der Rohrverbindungen ohne Klebstoffe trägt zusätzlich dazu bei, dass keine systembedingten Spannungsspitzen an den Fittingübergängen entstehen.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Quellverhalten und Langzeitbeständigkeit</h3>
+          <p>
+            Obwohl PP-R gegenüber den meisten anorganischen Chemikalien extrem widerstandsfähig ist, muss beim Umgang mit aromatischen oder aliphatischen Kohlenwasserstoffen (wie Toluol, Xylol oder langkettigen Ölen) Vorsicht geboten werden. Solche unpolaren organischen Lösungsmittel können in die amorphe Matrix des Polypropylens eindringen und eine physikalische Quellung (Swelling) verursachen. Diese Quellung führt zwar nicht zur sofortigen chemischen Zerstörung der Molekülketten, verringert jedoch signifikant die mechanische Festigkeit und die Streckgrenze des Rohrs, was die maximale Druckbelastbarkeit absenkt. Daher ist eine genaue Analyse der zu transportierenden Medien durch die K-Aqua Laborabteilung zwingend erforderlich, um mittels Reduktionsfaktoren die sichere Betriebsdauer der Anlage zu garantieren.
           </p>
         </div>
       </Reveal>
@@ -164,13 +169,15 @@ export const chemischeResistenzIndustrie: NewsPost = {
 
       {/* CTABand: Technische Anfrage */}
       <Reveal>
-        <CTABand
-          title="Kritischer Prozess-Check für Ihr Medium"
-          subtitle="Die chemische Beständigkeit im Anlagenbau ist ein hochkomplexes Zusammenspiel aus Medium, Konzentration, Temperaturprofil und Betriebsdruck. Kontaktieren Sie unsere Anwendungstechnik für eine garantierte, detaillierte Freigabeprüfung."
-          buttonText="Labor & Technik kontaktieren"
-          buttonLink="/ressourcen/support"
-          icon={<TestTube className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Kritischer Prozess-Check für Ihr Medium</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Die chemische Beständigkeit im Anlagenbau ist ein hochkomplexes Zusammenspiel aus Medium, Konzentration, Temperaturprofil und Betriebsdruck. Kontaktieren Sie unsere Anwendungstechnik für eine garantierte, detaillierte Freigabeprüfung.
+          </p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Labor & Technik kontaktieren
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

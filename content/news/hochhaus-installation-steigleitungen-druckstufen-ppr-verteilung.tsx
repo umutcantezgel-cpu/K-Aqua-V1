@@ -8,7 +8,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Building, Settings, Ruler, Link } from "@/components/ui/icon";
 
 export const hochhausInstallationSteigleitungen: NewsPost = {
@@ -48,7 +47,12 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
             {/* Visualisierung von Druck */}
-            <PipeFX variant="pressure" size={380} />
+            <div className="w-full max-w-[380px] h-[300px] rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/20 flex items-center justify-center p-6 text-center">
+              <div className="flex flex-col items-center gap-3 text-primary">
+                <Building className="w-16 h-16 opacity-80" />
+                <span className="font-semibold text-sm">Druckzonen-Visualisierung</span>
+              </div>
+            </div>
           </div>
         </div>
       </Reveal>
@@ -58,14 +62,18 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
         <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground mt-8 px-4">
           <h2 className="text-2xl font-bold text-foreground mb-4">Das hydrostatische Paradoxon im Wolkenkratzer</h2>
           <p>
-            Gemäß DIN EN 806-2 darf der Ruhedruck an einer regulären Entnahmestelle (z. B. einem Waschbecken) maximal 5 bar betragen. In Ausnahmefällen, bei speziellen Armaturen, sind 10 bar zulässig. Ein zu hoher Druck führt nicht nur zum Defekt sensibler Bauteile, sondern auch zu extremem Wasserverbrauch und störenden Kavitationsgeräuschen in den Leitungen. 
+            Gemäß DIN EN 806-2 darf der Ruhedruck an einer regulären Entnahmestelle (z. B. einem Waschbecken) maximal 5 bar betragen. In Ausnahmefällen, bei speziellen Armaturen, sind 10 bar zulässig. Ein zu hoher Druck führt nicht nur zum Defekt sensibler Bauteile, sondern auch zu extremem Wasserverbrauch und störenden Kavitationsgeräuschen in den Leitungen. Darüber hinaus birgt ein unkontrollierter statischer Druck in den unteren Etagen massive Gefahren für die Trinkwasserhygiene, da Druckschläge zur Ablösung von Biofilmen in metallischen Systemen führen können.
           </p>
           <p>
-            Die klassische Methode, dieses Problem zu lösen, bestand lange Zeit darin, den vollen Druck von der Zentrale auf dem Dach (oder aus dem Keller) durch eine einzige massive Steigleitung zu jagen und in jedem Stockwerk mechanische Druckminderer (PRV - Pressure Reducing Valves) zu installieren. Diese Ventile sind jedoch mechanische Bauteile, die extrem anfällig für Verkalkung und Verschleiß sind, enorm viel Wartung erfordern und somit den OPEX (Betriebskosten) in die Höhe treiben.
+            Die klassische Methode, dieses Problem zu lösen, bestand lange Zeit darin, den vollen Druck von der Zentrale auf dem Dach (oder aus dem Keller) durch eine einzige massive Steigleitung zu jagen und in jedem Stockwerk mechanische Druckminderer (PRV - Pressure Reducing Valves) zu installieren. Diese Ventile sind jedoch mechanische Bauteile, die extrem anfällig für Verkalkung und Verschleiß sind, enorm viel Wartung erfordern und somit den OPEX (Betriebskosten) in die Höhe treiben. Fällt ein solcher Druckminderer aus, liegt sofort der volle, zerstörerische Ruhedruck der Wassersäule auf der sensiblen Etagenverteilung an.
           </p>
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Die K-Aqua Lösung: Intelligente Zonenarchitektur</h3>
           <p>
-            Die moderne, energieeffiziente Hochhausplanung setzt auf "echte" Druckzonen. Das Gebäude wird in vertikale Zonen (beispielsweise alle 8 bis 10 Stockwerke) aufgeteilt. Jede Zone wird aus der Zentrale mit völlig separaten Steigleitungen angefahren. Der Geniestreich bei der Verwendung von K-Aqua PP-R liegt in der Materialanpassung: Anstatt für die gesamte Gebäudehöhe extrem dickwandige (und damit teure) Rohre zu verwenden, wird die SDR-Klasse (Standard Dimension Ratio) exakt an den real anliegenden Druck der jeweiligen Zone angepasst.
+            Die moderne, energieeffiziente Hochhausplanung setzt auf "echte" Druckzonen. Das Gebäude wird in vertikale Zonen (beispielsweise alle 8 bis 10 Stockwerke) aufgeteilt. Jede Zone wird aus der Zentrale mit völlig separaten Steigleitungen angefahren. Der Geniestreich bei der Verwendung von K-Aqua PP-R liegt in der Materialanpassung: Anstatt für die gesamte Gebäudehöhe extrem dickwandige (und damit teure) Rohre zu verwenden, wird die SDR-Klasse (Standard Dimension Ratio) exakt an den real anliegenden Druck der jeweiligen Zone angepasst. Das spart Materialkosten und Gewicht.
+          </p>
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Thermische und dynamische Lasten im Steigstrang</h3>
+          <p>
+            Zusätzlich zum statischen Wasserdruck muss bei Warmwasser-Steigleitungen die enorme thermische Längenausdehnung über Strecken von 100 Metern oder mehr abgefangen werden. PP-R Rohrleitungssysteme wie K-Aqua bieten durch ihre faserverstärkten Verbundrohre (Faserverbund) eine deutlich reduzierte Längenausdehnung im Vergleich zu herkömmlichen Kunststoffrohren. Durch die intelligente Positionierung von Kompensatoren, U-Bögen und massiven Festpunkten wird die Ausdehnung gezielt kontrolliert, ohne dass gefährliche Spannungen auf die Schweißnähte oder Gebäudeanschlüsse übertragen werden. Die exakte Berechnung dieser Dehnungsschenkel ist fester Bestandteil des K-Aqua Engineerings und garantiert die lückenlose Betriebssicherheit des Wolkenkratzers über Jahrzehnte.
           </p>
         </div>
       </Reveal>
@@ -78,22 +86,26 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "Zone 1: Das Fundament (Keller bis Etage 10)",
-                description: "Hier lastet die volle Wassersäule von oben. Es wird K-Aqua PP-R der Klasse SDR 6 (PN 20) mit maximaler Wandstärke eingesetzt, das Drücken von bis zu 20 bar bei Kaltwasser dauerhaft standhält."
-              },
-              {
-                title: "Zone 2: Die Mitte (Etage 11 bis 20)",
-                description: "Der statische Druck ist bereits um mehrere Bar reduziert. Hier reicht das wirtschaftlichere SDR 7.4 (PN 16). Materialkosten und Rohrgewicht werden signifikant reduziert."
-              },
-              {
-                title: "Zone 3: Die Spitze (Etage 21 bis 30)",
-                description: "Die obersten Etagen weisen den geringsten Druck auf. Es kann kosteneffizientes, dünnwandigeres K-Aqua SDR 11 (PN 10) verwendet werden. Dies erhöht zudem den nutzbaren Innenquerschnitt und optimiert die Strömung."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2 text-foreground">Zone 1: Das Fundament (Keller bis Etage 10)</h3>
+                <p className="text-muted-foreground">Hier lastet die volle Wassersäule von oben. Es wird K-Aqua PP-R der Klasse SDR 6 (PN 20) mit maximaler Wandstärke eingesetzt, das Drücken von bis zu 20 bar bei Kaltwasser dauerhaft standhält.</p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2 text-foreground">Zone 2: Die Mitte (Etage 11 bis 20)</h3>
+                <p className="text-muted-foreground">Der statische Druck ist bereits um mehrere Bar reduziert. Hier reicht das wirtschaftlichere SDR 7.4 (PN 16). Materialkosten und Rohrgewicht werden signifikant reduziert.</p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2 text-foreground">Zone 3: Die Spitze (Etage 21 bis 30)</h3>
+                <p className="text-muted-foreground">Die obersten Etagen weisen den geringsten Druck auf. Es kann kosteneffizientes, dünnwandigeres K-Aqua SDR 11 (PN 10) verwendet werden. Dies erhöht zudem den nutzbaren Innenquerschnitt und optimiert die Strömung.</p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -187,13 +199,13 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
 
       {/* CTABand: K Aqua Engineering */}
       <Reveal>
-        <CTABand
-          title="TGA-Hydraulik am Limit?"
-          subtitle="Unsere spezialisierten Projektingenieure unterstützen Sie proaktiv bei der Berechnung von Druckzonen, der Kalkulation von Festpunktlasten und der exakten Dimensionierung von Steigleitungen für Ihr nächstes Hochhausprojekt."
-          buttonText="Engineering anfragen"
-          buttonLink="/ressourcen/support"
-          icon={<Building className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">TGA-Hydraulik am Limit?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Unsere spezialisierten Projektingenieure unterstützen Sie proaktiv bei der Berechnung von Druckzonen, der Kalkulation von Festpunktlasten und der exakten Dimensionierung von Steigleitungen für Ihr nächstes Hochhausprojekt.</p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Engineering anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

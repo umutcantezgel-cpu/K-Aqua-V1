@@ -61,7 +61,7 @@ const PAGES = [
   ...GEO_MARKETS.map(market => ({
     id: `geo_${market.slug}`,
     de: `Markt: ${market.city}`,
-    href: `/maerkte/${market.slug}`
+    href: `/maerkte/${market.hubSlug}/${market.slug}`
   }))
 ];
 

@@ -7,7 +7,6 @@ import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Droplet, ShieldCheck, Coffee, Microscope } from "@/components/ui/icon";
 
 export const lebensmittelindustrieHygiene: NewsPost = {
@@ -51,7 +50,9 @@ export const lebensmittelindustrieHygiene: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-48 h-48 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Droplet className="w-24 h-24 text-primary opacity-80" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -120,22 +121,38 @@ export const lebensmittelindustrieHygiene: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. 100 % Lebensmittelecht",
-                description: "K Aqua PPR enthält keinerlei Weichmacher, Schwermetalle oder toxische Additive. Das hochmolekulare Material ist absolut sicher für den direkten Kontakt mit Lebensmitteln und Trinkwasser."
-              },
-              {
-                title: "2. Geschmacks- & Geruchsneutral",
-                description: "Im Gegensatz zu einigen anderen Kunststoffen oder oxidierenden Metallen verfälscht PPR den Geschmack sensibler Endprodukte (wie Säfte, Bier oder destilliertes Wasser) in keiner Weise."
-              },
-              {
-                title: "3. Resistent gegen CIP Chemie",
-                description: "In der Lebensmittelproduktion müssen Rohre durch 'Cleaning in Place' (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PPR ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">1. 100 % Lebensmittelecht</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    K Aqua PPR enthält keinerlei Weichmacher, Schwermetalle oder toxische Additive. Das hochmolekulare Material ist absolut sicher für den direkten Kontakt mit Lebensmitteln und Trinkwasser.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">2. Geschmacks- & Geruchsneutral</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    Im Gegensatz zu einigen anderen Kunststoffen oder oxidierenden Metallen verfälscht PPR den Geschmack sensibler Endprodukte (wie Säfte, Bier oder destilliertes Wasser) in keiner Weise.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">3. Resistent gegen CIP Chemie</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    In der Lebensmittelproduktion müssen Rohre durch 'Cleaning in Place' (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PPR ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -198,13 +215,19 @@ export const lebensmittelindustrieHygiene: NewsPost = {
 
       {/* CTABand: Anlagenbau Food & Beverage */}
       <Reveal>
-        <CTABand
-          title="Planen Sie eine Produktionserweiterung?"
-          subtitle="Ob Kaltwasser, VEwasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien."
-          buttonText="Beratung für Anlagenbau"
-          buttonLink="/kontakt"
-          icon={<Coffee className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold text-inverse-foreground">Planen Sie eine Produktionserweiterung?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Ob Kaltwasser, VEwasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien.
+          </p>
+          <a
+            href="/kontakt"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
+          >
+            <Coffee className="w-5 h-5" />
+            <span>Beratung für Anlagenbau</span>
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

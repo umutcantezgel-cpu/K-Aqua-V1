@@ -7,7 +7,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Sun, CloudRain, Snowflake, Droplet } from "@/components/ui/icon";
 
 export const kuehltuermeAusseneinsatz: NewsPost = {
@@ -46,8 +45,9 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Verdunstung/Regen */}
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-[280px] h-[280px] rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center relative">
+              <Droplet className="w-24 h-24 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -60,22 +60,26 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. UV Strahlung (Photooxidation)",
-                description: "UV Licht zerstört langfristig die Molekülketten ungeschützter Kunststoffe. K Aqua Rohre für den Außeneinsatz sind entweder in der Masse UV stabilisiert (schwarzer Rußanteil) oder werden mit einem speziellen, hochfesten UV Schutzlack werkseitig versiegelt. Das verhindert jegliche Versprödung."
-              },
-              {
-                title: "2. Frost & Eisbildung",
-                description: "Stehendes Wasser, das gefriert, dehnt sich aus und lässt Metallrohre platzen. PPRCT besitzt eine gewisse Elastizität. Selbst wenn Kühlwasser in einer nicht abgelassenen Leitung gefriert, fängt das Rohr die Volumenausdehnung des Eises ab, ohne zu reißen."
-              },
-              {
-                title: "3. Äußere & Innere Korrosion",
-                description: "Stahlrohre rosten auf dem Dach durch Regen. Innen führt das sauerstoffreiche Wasser aus offenen Kühltürmen zu massiver Oxidation. K Aqua Kunststoffrohre rosten weder von innen noch von außen. Niemals."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full">
+                <h3 className="text-xl font-bold text-foreground mb-2">1. UV Strahlung (Photooxidation)</h3>
+                <p className="text-muted-foreground leading-relaxed">UV Licht zerstört langfristig die Molekülketten ungeschützter Kunststoffe. K Aqua Rohre für den Außeneinsatz sind entweder in der Masse UV stabilisiert (schwarzer Rußanteil) oder werden mit einem speziellen, hochfesten UV Schutzlack werkseitig versiegelt. Das verhindert jegliche Versprödung.</p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full">
+                <h3 className="text-xl font-bold text-foreground mb-2">2. Frost & Eisbildung</h3>
+                <p className="text-muted-foreground leading-relaxed">Stehendes Wasser, das gefriert, dehnt sich aus und lässt Metallrohre platzen. PPRCT besitzt eine gewisse Elastizität. Selbst wenn Kühlwasser in einer nicht abgelassenen Leitung gefriert, fängt das Rohr die Volumenausdehnung des Eises ab, ohne zu reißen.</p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full">
+                <h3 className="text-xl font-bold text-foreground mb-2">3. Äußere & Innere Korrosion</h3>
+                <p className="text-muted-foreground leading-relaxed">Stahlrohre rosten auf dem Dach durch Regen. Innen führt das sauerstoffreiche Wasser aus offenen Kühltürmen zu massiver Oxidation. K Aqua Kunststoffrohre rosten weder von innen noch von außen. Niemals.</p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -175,13 +179,13 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
 
       {/* CTABand: Technische Planung */}
       <Reveal>
-        <CTABand
-          title="Planen Sie einen Kühlturm auf dem Flachdach?"
-          subtitle="Reduzieren Sie die statische Dachlast und vergessen Sie Korrosionsprobleme. Wir unterstützen Sie bei der Dimensionierung und Befestigungsplanung bei Windlasten."
-          buttonText="Planungssupport anfragen"
-          buttonLink="/kontakt"
-          icon={<Sun className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie einen Kühlturm auf dem Flachdach?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Reduzieren Sie die statische Dachlast und vergessen Sie Korrosionsprobleme. Wir unterstützen Sie bei der Dimensionierung und Befestigungsplanung bei Windlasten.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Planungssupport anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

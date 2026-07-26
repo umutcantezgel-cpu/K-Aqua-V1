@@ -7,8 +7,7 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
-import { MoveHorizontal, Ruler, Info, ArrowRightLeft } from "@/components/ui/icon";
+import { MoveHorizontal, Ruler, Info } from "@/components/ui/icon";
 
 export const waermeausdehnungKunststoffrohre: NewsPost = {
   slug: "waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr",
@@ -50,8 +49,8 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
               lead="Die Physik lässt sich nicht umgehen: Jedes Material dehnt sich bei Erwärmung aus (Zunahme der Gittervibration) und zieht sich bei Abkühlung zusammen. Bei thermoplastischen Kunststoffrohren wie Polypropylen (PP-R) ist dieser Effekt der Längenausdehnung bei Temperaturschwankungen signifikant ausgeprägter als bei metallischen Systemen. Fließt 70°C heißes Vorlaufwasser durch eine Rohrleitung, die im Winterrohbau bei 10°C montiert wurde, dehnt sich das PP-R System auf einer Strecke von 20 Metern um etliche Zentimeter aus. Wird diese thermische Längenausdehnung (ΔL) in der Anlagenplanung ignoriert, entstehen enorme mechanische Zwangspannungen, die Halterungen verbiegen, Wände beschädigen oder das Rohrsystem zum Reißen bringen."
             />
           </div>
-          <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="flow" size={380} />
+          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent blur-2xl" />
           </div>
         </div>
       </Reveal>
@@ -61,10 +60,15 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
         <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground mt-8 px-4">
           <h2 className="text-2xl font-bold text-foreground mb-4">Glasfasertechnologie als Gamechanger</h2>
           <p>
-            Standard PP-R Rohre weisen einen Längenausdehnungskoeffizienten (α) von 0,15 mm/(m·K) auf. Das bedeutet, dass sich ein 10 Meter langes Rohr bei einer Temperaturerhöhung um 50 Kelvin um stolze 75 Millimeter ausdehnt. In industriellen Hallen oder langen Versorgungsschächten von Hochhäusern müssten riesige Dehnungsbögen eingeplant werden, die wertvollen Platz beanspruchen.
+            Standard PP-R Rohre weisen einen Längenausdehnungskoeffizienten (α) von 0,15 mm/(m·K) auf. Das bedeutet, dass sich ein 10 Meter langes Rohr bei einer Temperaturerhöhung um 50 Kelvin um stolze 75 Millimeter ausdehnt. In industriellen Hallen oder langen Versorgungsschächten von Hochhäusern müssten riesige Dehnungsbögen eingeplant werden, die wertvollen Platz beanspruchen. Ohne diese Vorkehrungen würde das System enormen Druck auf die Gebäudeinfrastruktur ausüben, was letztendlich zum Versagen der Schweißnähte oder zum Abreißen von Halterungen führt.
           </p>
           <p>
             Die revolutionäre Lösung hierfür ist die Coextrusion von Glasfaser. Bei den hochmodernen K-Aqua Faserverbundrohren (PP-R/GF) wird eine spezielle Schicht aus glasfaserverstärktem Polypropylen in die Rohrwand integriert. Diese Schicht fungiert als ein mechanisches Korsett. Sie reduziert die Längenausdehnung des Kunststoffs dramatisch auf nur noch 0,035 mm/(m·K) – eine Reduktion um fast 75 %! Das Expansionsverhalten nähert sich damit dem von metallischen Rohren an. Der Montageaufwand für Halterungen sinkt, die Abstände der Befestigungsschellen können drastisch vergrößert werden, und die benötigten Dehnungsbögen schrumpfen auf ein Minimum zusammen.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Die exakte Berechnung des Biegeschenkels (LBS)</h3>
+          <p>
+            Neben der reinen Berechnung der Längenänderung (ΔL) ist die korrekte Dimensionierung des Biegeschenkels (LBS) entscheidend. Der Biegeschenkel ist die Rohrstrecke ab der Richtungsänderung bis zum nächsten Festpunkt, die frei federn muss, um die Ausdehnung der Hauptstrecke aufzunehmen. Die Berechnung erfolgt nach der branchenüblichen Formel: LBS = k × √(d × ΔL). Hierbei ist "k" eine materialspezifische Konstante (für PP-R meist 15), "d" der Rohraußendurchmesser in Millimetern und "ΔL" die zuvor berechnete Längenänderung. Wenn der so berechnete Biegeschenkel in der Baupraxis aufgrund von Platzmangel nicht realisierbar ist, muss zwingend ein U-Bogen (Dehnungsbogen) aus vier 90°-Winkeln konstruiert werden, der die thermischen Kräfte in sich selbst aufnimmt und neutralisiert.
           </p>
         </div>
       </Reveal>
@@ -115,22 +119,32 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
           lead="Wie der Planer der thermischen Expansion den Raum gibt, den sie unweigerlich fordert."
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Richtungsänderung als Biegeschenkel (L-Bogen)",
-                description: "Die eleganteste und häufigste Lösung in Gebäuden. Das ausdehnende Rohr stößt auf einen ohnehin geplanten 90°-Winkel (Schenkel). Dieser abzweigende Schenkel muss lang genug berechnet werden (Biegeschenkellänge BS), um die schiebende Kraft elastisch wie ein Ast im Wind aufzunehmen, ohne dass die Schweißnaht reißt."
-              },
-              {
-                title: "2. Der U-Dehnungsbogen (U-Kompensator)",
-                description: "Auf extrem langen, geraden Leitungstrassen (z.B. in Fabrikhallen, Tiefgaragen oder vertikalen Steigschächten) ohne natürliche Richtungsänderungen wird gezielt ein U-Bogen aus vier 90°-Winkeln geschweißt. Dieser Bogen wirkt wie eine gigantische Feder und nimmt die thermische Ausdehnung aus beiden Richtungen materialschonend auf."
-              },
-              {
-                title: "3. Mechanische Axialkompensatoren",
-                description: "Wellrohr-Kompensatoren aus Metall. Bei K-Aqua PP-R Systemen raten wir hiervon strengstens ab! Mechanische Kompensatoren können verklemmen, werden undicht und benötigen Wartung. Natürliche Dehnungsbögen aus dem eigenen Rohrwerkstoff sind absolut sicher, wartungsfrei und kostengünstig."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold text-foreground mb-2">1. Richtungsänderung als Biegeschenkel (L-Bogen)</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Die eleganteste und häufigste Lösung in Gebäuden. Das ausdehnende Rohr stößt auf einen ohnehin geplanten 90°-Winkel (Schenkel). Dieser abzweigende Schenkel muss lang genug berechnet werden (Biegeschenkellänge BS), um die schiebende Kraft elastisch wie ein Ast im Wind aufzunehmen, ohne dass die Schweißnaht reißt.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold text-foreground mb-2">2. Der U-Dehnungsbogen (U-Kompensator)</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Auf extrem langen, geraden Leitungstrassen (z.B. in Fabrikhallen, Tiefgaragen oder vertikalen Steigschächten) ohne natürliche Richtungsänderungen wird gezielt ein U-Bogen aus vier 90°-Winkeln geschweißt. Dieser Bogen wirkt wie eine gigantische Feder und nimmt die thermische Ausdehnung aus beiden Richtungen materialschonend auf.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold text-foreground mb-2">3. Mechanische Axialkompensatoren</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Wellrohr-Kompensatoren aus Metall. Bei K-Aqua PP-R Systemen raten wir hiervon strengstens ab! Mechanische Kompensatoren können verklemmen, werden undicht und benötigen Wartung. Natürliche Dehnungsbögen aus dem eigenen Rohrwerkstoff sind absolut sicher, wartungsfrei und kostengünstig.
+                </p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -174,13 +188,16 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
 
       {/* CTABand: K Aqua Support */}
       <Reveal>
-        <CTABand
-          title="TGA-Planung erfordert absolute Präzision"
-          subtitle="Überlassen Sie die komplexe Dehnungsberechnung nicht dem Zufall oder groben Schätzwerten. Nutzen Sie unsere Software-Tools oder kontaktieren Sie die K-Aqua Planungsabteilung für eine zertifizierte Festpunkt- und Dehnungsberechnung."
-          buttonText="Technischen Support anfordern"
-          buttonLink="/ressourcen/support"
-          icon={<Ruler className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">TGA-Planung erfordert absolute Präzision</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Überlassen Sie die komplexe Dehnungsberechnung nicht dem Zufall oder groben Schätzwerten. Nutzen Sie unsere Software-Tools oder kontaktieren Sie die K-Aqua Planungsabteilung für eine zertifizierte Festpunkt- und Dehnungsberechnung.
+          </p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            <Ruler className="w-5 h-5" />
+            Technischen Support anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

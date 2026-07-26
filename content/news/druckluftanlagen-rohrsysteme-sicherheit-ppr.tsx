@@ -8,7 +8,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionDivider } from "@/components/ui/SectionDivider";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { ShieldAlert, Activity, Shield, Factory, Wrench } from "@/components/ui/icon";
 
 export const druckluftanlagenSicherheit: NewsPost = {

@@ -9,7 +9,8 @@ import { GEO_MARKETS, REGIONS, haversineKm, WALDSOLMS, GeoMarket } from "@/lib/d
 import { FilterChip } from "@/components/ui/FilterChip";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
-import { ArrowRight } from "@/components/ui/icon";
+import { MapPin, ArrowRight } from "@/components/ui/icon";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import clsx from "clsx";
 import type { GlobeRef, GlobeMarker } from "@/components/globe/Globe";
 import { LazyGlobe } from "@/components/globe/LazyGlobe";
@@ -277,13 +278,15 @@ export default function MarketsHub({
                         {geoContentTrans[g.slug]?.note || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
                       </p>
                       <div className="flex flex-col sm:flex-row gap-2 mt-1">
-                        <Link
+                        <LiquidMagneticButton
+                          fill="crest"
+                          size="md"
                           href={`/maerkte/${g.hubSlug}/${g.slug}`}
-                          className="inline-flex items-center justify-center flex-1 font-heading font-semibold rounded-lg bg-primary text-primary-foreground hover:bg-primary-hover h-10 px-4 text-sm transition-colors"
+                          className="flex-1 w-full"
                           tabIndex={isActive ? 0 : -1}
                         >
                           <span className="sr-only">{g.city} </span>Marktseite öffnen
-                        </Link>
+                        </LiquidMagneticButton>
                         <button
                           onClick={(e) => {
                             e.stopPropagation();

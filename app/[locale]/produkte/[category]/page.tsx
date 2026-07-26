@@ -98,6 +98,8 @@ export default async function CategoryPage({ params }: Props) {
   let seoText = "";
   let advantages: string[] = [];
 
+  console.log("DEBUG CategoryPage catKey:", catKey, "t.has(catKey):", t.has(catKey), "t.has(catKey.guideText):", t.has(`${catKey}.guideText`));
+
   try {
     if (t.has(`${catKey}.advTitle`)) {
       seoTitle = t(`${catKey}.advTitle`);
@@ -110,7 +112,8 @@ export default async function CategoryPage({ params }: Props) {
       const list = t.raw(`${catKey}.advList`);
       if (Array.isArray(list)) advantages = list;
     }
-  } catch {
+  } catch (e) {
+    console.error("DEBUG CategoryPage translation error:", e);
     // Ignore translation misses
   }
 

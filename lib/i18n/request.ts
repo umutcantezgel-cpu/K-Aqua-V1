@@ -57,6 +57,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       const extension = (await import(`../../messages/seo/${targetLocale}/${mod}.json`)).default;
       messages = merge({}, messages, extension);
     } catch (e) {
+      console.error(`Error loading SEO module ${mod} for locale ${targetLocale}:`, e);
       // Ignore missing files
     }
   }
