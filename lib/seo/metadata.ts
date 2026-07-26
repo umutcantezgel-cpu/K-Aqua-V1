@@ -79,10 +79,50 @@ export function constructMetadata({
   }
 
   let finalTitle = cleanTitle;
-  // To avoid Keyword Cannibalization for the brand name "Aqua", we don't append it to every single page.
-  // We only append it if the title is very short and generic, or if it's the home page.
+  
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
-     finalTitle = `K-Aqua PP-R Piping Systems`;
+     finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
+  } else if (finalTitle.length < 45) {
+      const suffixes = locale === 'de' ? [
+          " | Zertifizierte PP-R Rohrleitungssysteme",
+          " | Premium PP-R & PP-RCT Rohrsysteme",
+          " | K-Aqua PP-R Rohrleitungssysteme",
+          " | Hochwertige PP-R Rohrsysteme",
+          " | K-Aqua PP-R Rohrsysteme",
+          " | K-Aqua"
+      ] : locale === 'ar' ? [
+          " | أنظمة أنابيب PP-R المعتمدة من K-Aqua",
+          " | أنظمة أنابيب PP-R و PP-RCT المتميزة",
+          " | أنظمة أنابيب K-Aqua PP-R",
+          " | أنابيب PP-R عالية الجودة",
+          " | K-Aqua"
+      ] : [
+          " | Certified PP-R Piping Systems by K-Aqua",
+          " | Premium PP-R & PP-RCT Piping Systems",
+          " | K-Aqua PP-R Piping Systems",
+          " | High-Quality PP-R Pipes",
+          " | K-Aqua"
+      ];
+
+      let bestSuffix = "";
+      for (const s of suffixes) {
+          const combinedLength = finalTitle.length + s.length;
+          if (combinedLength >= 45 && combinedLength <= 65) {
+              bestSuffix = s;
+              break;
+          } else if (combinedLength <= 65 && s.length > bestSuffix.length) {
+              bestSuffix = s;
+          }
+      }
+      
+      if (bestSuffix) {
+          finalTitle += bestSuffix;
+      }
+
+      // If still slightly short and missing brand name
+      if (finalTitle.length < 45 && !finalTitle.includes("K-Aqua") && finalTitle.length + " | K-Aqua".length <= 65) {
+          finalTitle += " | K-Aqua";
+      }
   }
 
   const isTranslated = translatedLocales.includes(locale);
