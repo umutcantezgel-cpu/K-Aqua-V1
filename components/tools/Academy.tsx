@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/Button";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { LocalVideo } from "@/components/ui/LocalVideo";
-import { Flame, Award, ArrowRight } from "@/components/ui/icon";
+import { Flame, Award } from "@/components/ui/icon";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 
 // Mappings for Academy videos: local path and YouTube SEO fallback
 const VIDEO_ASSETS = [
@@ -186,13 +187,14 @@ export function Academy({ data }: AcademyProps) {
                   <p className="text-body text-muted-foreground leading-relaxed">
                     {data.intro}
                   </p>
-                  <Button
+                  <LiquidMagneticButton
+                    fill="flood"
+                    size="md"
+                    variant="primary"
                     onClick={handleStartQuiz}
-                    icon={<ArrowRight className="w-4.5 h-4.5" />}
-                    iconPosition="right"
                   >
                     {data.start}
-                  </Button>
+                  </LiquidMagneticButton>
                 </div>
               ) : quizStep < CORRECT_ANSWERS.length ? (
                 /* Step 0..4: Questions */

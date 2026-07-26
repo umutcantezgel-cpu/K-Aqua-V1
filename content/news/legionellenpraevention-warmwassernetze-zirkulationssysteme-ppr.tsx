@@ -7,7 +7,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Droplet, Thermometer, ShieldCheck, Repeat } from "@/components/ui/icon";
 
 export const legionellenpraeventionZirkulation: NewsPost = {
@@ -46,7 +45,9 @@ export const legionellenpraeventionZirkulation: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="flow" size={380} />
+            <div className="w-72 h-72 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <ShieldCheck className="w-28 h-28 text-primary" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -120,22 +121,26 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Temperaturhaltung",
-                description: "Warmwasser (PWH) muss das System mit 60°C verlassen und darf im Zirkulationsrücklauf (PWH C) nicht unter 55°C fallen. PPR Rohre bieten hierbei einen natürlichen Isolationsvorteil gegenüber Metallen."
-              },
-              {
-                title: "2. Stagnationsvermeidung",
-                description: "Das Wasser muss fließen. Zirkulationssysteme sorgen dafür, dass das heiße Wasser bis kurz vor die Zapfstellen gepumpt und wieder zurückgeführt wird. Totleitungen sind absolut verboten."
-              },
-              {
-                title: "3. Biofilmmanagement",
-                description: "Biofilme dienen Legionellen als Nahrung und Schutzschild. Die extrem geringe Oberflächenrauheit von K Aqua Rohren (0,007 mm) bietet Bakterien im Vergleich zu rauen Metallrohren kaum Ansiedlungsfläche."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full flex flex-col justify-start">
+                <h3 className="text-xl font-bold mb-3">1. Temperaturhaltung</h3>
+                <p className="text-muted-foreground leading-relaxed">Warmwasser (PWH) muss das System mit 60°C verlassen und darf im Zirkulationsrücklauf (PWH C) nicht unter 55°C fallen. PPR Rohre bieten hierbei einen natürlichen Isolationsvorteil gegenüber Metallen.</p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full flex flex-col justify-start">
+                <h3 className="text-xl font-bold mb-3">2. Stagnationsvermeidung</h3>
+                <p className="text-muted-foreground leading-relaxed">Das Wasser muss fließen. Zirkulationssysteme sorgen dafür, dass das heiße Wasser bis kurz vor die Zapfstellen gepumpt und wieder zurückgeführt wird. Totleitungen sind absolut verboten.</p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border h-full flex flex-col justify-start">
+                <h3 className="text-xl font-bold mb-3">3. Biofilmmanagement</h3>
+                <p className="text-muted-foreground leading-relaxed">Biofilme dienen Legionellen als Nahrung und Schutzschild. Die extrem geringe Oberflächenrauheit von K Aqua Rohren (0,007 mm) bietet Bakterien im Vergleich zu rauen Metallrohren kaum Ansiedlungsfläche.</p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -209,13 +214,14 @@ export const legionellenpraeventionZirkulation: NewsPost = {
 
       {/* CTABand: Hygieneberatung */}
       <Reveal>
-        <CTABand
-          title="Sicheres Trinkwasser planen"
-          subtitle="Unsere Experten prüfen Ihr Rohrnetzdesign auf Totleitungen, Stagnationsrisiken und die korrekte Dimensionierung von Zirkulationskreisen."
-          buttonText="Hygiene Review anfordern"
-          buttonLink="/ressourcen/support"
-          icon={<ShieldCheck className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Sicheres Trinkwasser planen</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Unsere Experten prüfen Ihr Rohrnetzdesign auf Totleitungen, Stagnationsrisiken und die korrekte Dimensionierung von Zirkulationskreisen.</p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2 w-fit">
+            <ShieldCheck className="w-5 h-5" />
+            Hygiene Review anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

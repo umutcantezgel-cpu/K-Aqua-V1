@@ -7,7 +7,6 @@ import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Zap, Shield, Activity, Wrench } from "@/components/ui/icon";
 
 export const wasserstoffH2Ready: NewsPost = {
@@ -50,7 +49,9 @@ export const wasserstoffH2Ready: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            <PipeFX variant="blueprint" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Zap className="w-32 h-32 text-primary/30" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -174,13 +175,13 @@ export const wasserstoffH2Ready: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Planen Sie ein Pilotprojekt in der Wasserstoffwirtschaft?"
-          subtitle="Die Beimischung von H2 ins lokale Gasnetz oder die Planung großskaliger dezentraler Elektrolyseure erfordern präzise Planung, Mut zur Innovation und die richtigen Materialien. Kontaktieren Sie unsere Ingenieure für eine ausführliche technische Evaluierung."
-          buttonText="Engineering Support kontaktieren"
-          buttonLink="/kontakt"
-          icon={<Zap className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Pilotprojekt in der Wasserstoffwirtschaft?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Die Beimischung von H2 ins lokale Gasnetz oder die Planung großskaliger dezentraler Elektrolyseure erfordern präzise Planung, Mut zur Innovation und die richtigen Materialien. Kontaktieren Sie unsere Ingenieure für eine ausführliche technische Evaluierung.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Engineering Support kontaktieren
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

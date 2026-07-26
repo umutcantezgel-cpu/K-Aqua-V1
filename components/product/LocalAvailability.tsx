@@ -52,7 +52,7 @@ export default function LocalAvailability({ locale }: LocalAvailabilityProps) {
         {markets.map((market) => (
           <Link 
             key={market.slug} 
-            href={`/maerkte/${market.slug}`} 
+            href={`/maerkte/${market.hubSlug}/${market.slug}`} 
             className="flex items-center justify-between p-3 rounded-lg border border-card-border bg-card hover:border-primary hover:bg-primary-soft/10 transition-colors group"
           >
             <div className="flex flex-col">

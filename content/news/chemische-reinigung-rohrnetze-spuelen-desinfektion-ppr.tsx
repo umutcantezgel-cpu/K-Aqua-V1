@@ -7,7 +7,6 @@ import { BentoGrid } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Droplet, Activity, FlaskConical, AlertOctagon } from "@/components/ui/icon";
 
 export const chemischeReinigungDesinfektion: NewsPost = {
@@ -45,7 +44,9 @@ export const chemischeReinigungDesinfektion: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-48 h-48 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Droplet className="w-20 h-20 text-primary opacity-80" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -88,26 +89,32 @@ export const chemischeReinigungDesinfektion: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "Stufe 1: Spülen mit filtriertem Trinkwasser",
-                description: "Der Erstschritt im Rohrsystem. Das Netz wird abschnittsweise mit klarem, filtriertem Trinkwasser gespült. Die Fließgeschwindigkeit sollte mindestens 2,0 m/s an der am weitesten entfernten Zapfstelle betragen, um lose Partikel und Bauabrieb restlos auszutragen."
-              },
-              {
-                title: "Stufe 2: Spülen mit Wasserluft-Gemisch (Impuls)",
-                description: "Bei hartnäckigen Biofilmen oder starken Ablagerungen wird dem Spülwasser maschinell und stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Turbulenzen und Kavitationsbläschen lösen Beläge von den glatten PPR-Innenwänden."
-              },
-              {
-                title: "Stufe 3: Dosierte chemische Desinfektion",
-                description: "Wird angewendet, wenn mikrobielle Belastungen festgestellt wurden. Der Einsatz zertifizierter Desinfektionsmittel (z.B. Natriumhypochlorit oder H2O2) muss exakt auf die chemische Verträglichkeit von PPR-Rohrsystemen abgestimmt und überwacht sein."
-              },
-              {
-                title: "Stufe 4: Wiederholte Beprobung & finale Freigabe",
-                description: "Nach dem vollständigen, nachweisbaren Ausspülen der Chemikalien werden durch ein zertifiziertes Labor mikrobiologische Wasserproben an definierten Entnahmestellen gezogen. Erst nach negativem Befund wird das Netz offiziell freigegeben."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2">Stufe 1: Spülen mit filtriertem Trinkwasser</h3>
+                <p className="text-muted-foreground leading-relaxed">Der Erstschritt im Rohrsystem. Das Netz wird abschnittsweise mit klarem, filtriertem Trinkwasser gespült. Die Fließgeschwindigkeit sollte mindestens 2,0 m/s an der am weitesten entfernten Zapfstelle betragen, um lose Partikel und Bauabrieb restlos auszutragen.</p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2">Stufe 2: Spülen mit Wasserluft-Gemisch (Impuls)</h3>
+                <p className="text-muted-foreground leading-relaxed">Bei hartnäckigen Biofilmen oder starken Ablagerungen wird dem Spülwasser maschinell und stoßweise ölfreie Druckluft beigemischt (Impulsspülung). Die entstehenden Turbulenzen und Kavitationsbläschen lösen Beläge von den glatten PPR-Innenwänden.</p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2">Stufe 3: Dosierte chemische Desinfektion</h3>
+                <p className="text-muted-foreground leading-relaxed">Wird angewendet, wenn mikrobielle Belastungen festgestellt wurden. Der Einsatz zertifizierter Desinfektionsmittel (z.B. Natriumhypochlorit oder H2O2) muss exakt auf die chemische Verträglichkeit von PPR-Rohrsystemen abgestimmt und überwacht sein.</p>
+              </div>
+            </Reveal>
+            <Reveal key="4">
+              <div className="p-6 rounded-2xl border border-card-border bg-card">
+                <h3 className="text-xl font-bold mb-2">Stufe 4: Wiederholte Beprobung & finale Freigabe</h3>
+                <p className="text-muted-foreground leading-relaxed">Nach dem vollständigen, nachweisbaren Ausspülen der Chemikalien werden durch ein zertifiziertes Labor mikrobiologische Wasserproben an definierten Entnahmestellen gezogen. Erst nach negativem Befund wird das Netz offiziell freigegeben.</p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -180,13 +187,13 @@ export const chemischeReinigungDesinfektion: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Unterschiedliche Länder, unterschiedliche Chemie"
-          subtitle="Sie planen ein internationales Bauprojekt im Ausland und müssen lokale, teils aggressive Desinfektionsmittel verwenden? Senden Sie uns das Sicherheitsdatenblatt – unsere Labortechniker prüfen die chemische Beständigkeit."
-          buttonText="Technischen Support kontaktieren"
-          buttonLink="/kontakt"
-          icon={<FlaskConical className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Unterschiedliche Länder, unterschiedliche Chemie</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Sie planen ein internationales Bauprojekt im Ausland und müssen lokale, teils aggressive Desinfektionsmittel verwenden? Senden Sie uns das Sicherheitsdatenblatt – unsere Labortechniker prüfen die chemische Beständigkeit.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Technischen Support kontaktieren
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

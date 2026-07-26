@@ -1,7 +1,7 @@
 import React from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/lib/i18n/navigation";
-import { Button } from "@/components/ui/Button";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Card } from "@/components/ui/Card";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
@@ -118,16 +118,17 @@ export default async function ProduktePage({ params }: Props) {
                   title={t("techTitle")}
                   lead={t("techLead")}
                 />
-                <Button
+                <LiquidMagneticButton
+                  fill="flood"
                   variant="ghost"
                   href={FEATURES_PDF_URL}
-                  icon={<Download className="w-5 h-5" />}
                   target="_blank"
                   rel="noreferrer"
                   className="mt-6 border border-card-border hover:border-primary bg-background"
                 >
+                  <Download className="w-5 h-5 mr-2" />
                   {t("ctaFeatures")}
-                </Button>
+                </LiquidMagneticButton>
               </div>
             </Reveal>
             <Reveal delay={0.12} className="w-full">

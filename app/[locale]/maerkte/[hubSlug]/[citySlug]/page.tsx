@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   
-  // Clean localized title
-  const title = `${market.city} | ${tGeo("eyebrow")}`;
+  // SEO-optimized title with target keywords
+  const title = tGeo("cityMetaTitle", { city: market.city });
   
   // Localized description using the regulator info
   const tRoot = await getTranslations({ locale });
@@ -163,9 +163,18 @@ export default async function GeoCityPage({ params }: Props) {
         </div>
       )}
 
+      {/* DEBUG COMPONENT START */}
+      <div className="border border-red-500 p-4 m-4">
+        <h2>DEBUG:</h2>
+        <p>Market slug: {market.slug}</p>
+        <p>Has description: {tGeo.has(`markets.${market.slug}.description`) ? "TRUE" : "FALSE"}</p>
+        <p>Raw text: {tGeo.has(`markets.${market.slug}.description`) ? tGeo.raw(`markets.${market.slug}.description`) : "NONE"}</p>
+      </div>
+      {/* DEBUG COMPONENT END */}
+
       {tGeo.has(`markets.${market.slug}.description`) && (
         <div className="max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16 seo-market-content">
-          <div dangerouslySetInnerHTML={{ __html: tGeo.raw(`markets.${market.slug}.description`) }} />
+          <div dangerouslySetInnerHTML={{ __html: tGeo.raw(`markets.${market.slug}.description`).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
         </div>
       )}
     </>

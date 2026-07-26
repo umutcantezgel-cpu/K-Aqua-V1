@@ -5,7 +5,6 @@ import { StatBand } from "@/components/ui/StatBand";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Layers, Ruler, Activity, Coins, Download } from "@/components/ui/icon";
 
 export const bimBuildingInformationModeling: NewsPost = {

@@ -6,8 +6,7 @@ import { StatBand } from "@/components/ui/StatBand";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
-import { Droplet, Thermometer, Shield, Leaf } from "@/components/ui/icon";
+import { Droplet, Thermometer, Shield } from "@/components/ui/icon";
 
 export const klimaanlagenKuehldecken: NewsPost = {
   slug: "klimaanlagen-kuehldecken-kaltwasser-pprct",
@@ -44,7 +43,7 @@ export const klimaanlagenKuehldecken: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-72 h-72 rounded-full bg-primary/10 blur-3xl" />
           </div>
         </div>
       </Reveal>
@@ -147,13 +146,13 @@ export const klimaanlagenKuehldecken: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Planen Sie ein komplexes Kaltwassernetz für Großprojekte?"
-          subtitle="Überlassen Sie nichts dem Zufall. Unsere Techniker berechnen für Sie die exakt benötigte Dämmschichtdicke zur Taupunktunterschreitung basierend auf Ihren Systemtemperaturen und Raumklimadaten."
-          buttonText="Taupunkt-Berechnung anfragen"
-          buttonLink="/kontakt"
-          icon={<Leaf className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein komplexes Kaltwassernetz für Großprojekte?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Überlassen Sie nichts dem Zufall. Unsere Techniker berechnen für Sie die exakt benötigte Dämmschichtdicke zur Taupunktunterschreitung basierend auf Ihren Systemtemperaturen und Raumklimadaten.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Taupunkt-Berechnung anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

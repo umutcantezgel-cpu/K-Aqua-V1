@@ -2,6 +2,7 @@ import React from 'react';
 import { Icons, KAquaLogo } from './Co2UI';
 import { catmullRomPath } from './Co2ChartCore';
 import { CO2_PHASES, CO2_SEO_COPY, CO2_DISCLAIMER } from '../../../lib/co2-data';
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 
 export function Co2ReportChart({ series }: any) {
   const W = 1000, H = 240;
@@ -79,7 +80,7 @@ export function Co2Report({ paramRows, kaquaResult, opponentResult, savings, bre
         </div>
         <p className="co2-rep-disclaimer">{CO2_DISCLAIMER} Äquivalente: ≈ 25 kg CO₂/Baum·Jahr, ≈ 0,15 kg CO₂e/Pkw-km. Scope-3- und EPD-Rohdaten auf Anfrage.</p>
         <div className="co2-rep-actions co2-no-print">
-          <button type="button" className="co2-play-btn" onClick={() => window.print()}><Icons.FileText size={14} />Drucken / Als PDF sichern</button>
+          <LiquidMagneticButton type="button" fill="droplet" size="md" className="co2-play-btn" onClick={() => window.print()}><Icons.FileText size={14} className="mr-2" />Drucken / Als PDF sichern</LiquidMagneticButton>
         </div>
       </div>
     </div>

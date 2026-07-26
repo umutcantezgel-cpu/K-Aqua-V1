@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-literals, @typescript-eslint/no-explicit-any */
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { getProductBySlug, getAllProducts } from '@/lib/products';
 import { Card } from '@/components/ui/Card';
 import { Reveal } from '@/components/ui/Reveal';
@@ -103,6 +103,16 @@ export default async function ProductDetailPage({
   params: Promise<{ locale: string; category: string; slug: string }>;
 }) {
   const { category, slug, locale } = await params;
+
+  // Redirect legacy camelCase category URLs to kebab-case
+  const CATEGORY_REDIRECTS: Record<string, string> = {
+    transitionFittings: 'transition-fittings',
+    weldInSaddles: 'weld-in-saddles',
+  };
+  if (CATEGORY_REDIRECTS[category]) {
+    redirect(`/${locale}/produkte/${CATEGORY_REDIRECTS[category]}/${slug}`);
+  }
+
   const product = await getProductBySlug(category, slug);
 
   if (!product) {

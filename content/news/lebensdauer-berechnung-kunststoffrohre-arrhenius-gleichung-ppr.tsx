@@ -3,12 +3,11 @@ import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { BarChart, Thermometer, Database, CheckCircle } from "@/components/ui/icon";
 
 export const lebensdauerBerechnungPpr: NewsPost = {
@@ -52,7 +51,9 @@ export const lebensdauerBerechnungPpr: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="pressure" size={380} />
+            <div className="w-72 h-72 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Database className="w-32 h-32 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -111,7 +112,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
       {/* StatBand: ISO 9080 Parameters */}
       <Reveal>
         <StatBand
-          cols={3}
+          cols={250}
           stats={[
             { n: "50", u: " Jahre", l: "Normative Basisauslegungslebensdauer (bei Dauerbetriebstemperaturen)." },
             { n: "1,25", l: "Sicherheitsbeiwert (C) für Trinkwasseranwendungen (Kalt/Warm) nach DIN 8077." },
@@ -128,22 +129,32 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Beschleunigte Alterung (Test)",
-                description: "Rohrmuster werden in Wasserbädern bei extremen Temperaturen (z.B. 95°C und 110°C) und hohem Innendruck gelagert. Ziel ist es, das Rohr gezielt und kontrolliert zum Bersten zu bringen (Standzeit)."
-              },
-              {
-                title: "2. Datenerfassung & Isothermen",
-                description: "Aus den gemessenen Berstdrücken und Standzeiten bei verschiedenen Temperaturen werden sogenannte Isothermen (Spannungszeitkurven in einem doppellogarithmischen Diagramm) erstellt."
-              },
-              {
-                title: "3. Die Arrheniusextrapolation",
-                description: "Die Arrheniusgleichung beschreibt die Temperaturabhängigkeit chemischer und physikalischer Alterungsprozesse. Mit ihr lassen sich die Hochtemperaturergebnisse mathematisch auf Betriebstemperaturen (z.B. 20°C oder 70°C) extrapolieren."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3 h-full">
+                <h3 className="text-xl font-bold">1. Beschleunigte Alterung (Test)</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Rohrmuster werden in Wasserbädern bei extremen Temperaturen (z.B. 95°C und 110°C) und hohem Innendruck gelagert. Ziel ist es, das Rohr gezielt und kontrolliert zum Bersten zu bringen (Standzeit).
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3 h-full">
+                <h3 className="text-xl font-bold">2. Datenerfassung &amp; Isothermen</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Aus den gemessenen Berstdrücken und Standzeiten bei verschiedenen Temperaturen werden sogenannte Isothermen (Spannungszeitkurven in einem doppellogarithmischen Diagramm) erstellt.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3 h-full">
+                <h3 className="text-xl font-bold">3. Die Arrheniusextrapolation</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Die Arrheniusgleichung beschreibt die Temperaturabhängigkeit chemischer und physikalischer Alterungsprozesse. Mit ihr lassen sich die Hochtemperaturergebnisse mathematisch auf Betriebstemperaturen (z.B. 20°C oder 70°C) extrapolieren.
+                </p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -153,28 +164,26 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           title="Faktoren der Rohralterung"
           lead="Drei Parameter bestimmen das Langzeitverhalten von PPR."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Betriebstemperatur",
-              description: "Der dominanteste Faktor. Eine Temperaturerhöhung um 10°C halbiert (vereinfacht gesagt nach der RGTregel) die chemische Lebensdauer des Polymers. Daher halten Kaltwasserrohre theoretisch Jahrhunderte.",
-              icon: <Thermometer className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Vergleichsspannung (Innendruck)",
-              description: "Der Wasserdruck erzeugt eine ringförmige mechanische Zugspannung (Hoop Stress) in der Rohrwand. Dickwandige Rohre (SDR 6) reduzieren diese Spannung drastisch.",
-              icon: <BarChart className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Medium & Oxidation",
-              description: "Chemikalien oder freies Chlor (im Heißwasser) können den Kunststoff oxidativ angreifen und die molekularen Ketten schneller spalten. K Aqua PPR ist speziell wärmestabilisiert.",
-              icon: <CheckCircle className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Betriebstemperatur"
+            description="Der dominanteste Faktor. Eine Temperaturerhöhung um 10°C halbiert (vereinfacht gesagt nach der RGTregel) die chemische Lebensdauer des Polymers. Daher halten Kaltwasserrohre theoretisch Jahrhunderte."
+            icon={<Thermometer className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Vergleichsspannung (Innendruck)"
+            description="Der Wasserdruck erzeugt eine ringförmige mechanische Zugspannung (Hoop Stress) in der Rohrwand. Dickwandige Rohre (SDR 6) reduzieren diese Spannung drastisch."
+            icon={<BarChart className="w-6 h-6 text-primary" />}
+            colSpan={1}
+          />
+          <BentoGridItem
+            title="Medium & Oxidation"
+            description="Chemikalien oder freies Chlor (im Heißwasser) können den Kunststoff oxidativ angreifen und die molekularen Ketten schneller spalten. K Aqua PPR ist speziell wärmestabilisiert."
+            icon={<CheckCircle className="w-6 h-6 text-primary" />}
+            colSpan={3}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Lebensdauertabelle */}
@@ -184,8 +193,8 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           lead="Auszug aus der normativen Berechnung (Beispiel SDR 7.4 / PN16 Rohr)."
         />
         <DeepMatrix
-          data={[
-            ["Betriebstemperatur", "Betriebsdruck", "Sicherheitsbeiwert", "Theoretische Lebensdauer"],
+          head={["Betriebstemperatur", "Betriebsdruck", "Sicherheitsbeiwert", "Theoretische Lebensdauer"]}
+          rows={[
             ["20 °C (Kaltwasser)", "10,0 bar", "1,25", "> 100 Jahre (Rechnerisch weit höher)"],
             ["60 °C (Warmwasser)", "10,0 bar", "1,25", "ca. 50 Jahre"],
             ["70 °C (Heißwasser)", "10,0 bar", "1,25", "ca. 25 Jahre"],
@@ -216,13 +225,18 @@ export const lebensdauerBerechnungPpr: NewsPost = {
 
       {/* CTABand: Zertifikate */}
       <Reveal>
-        <CTABand
-          title="Verlässlichkeit auf dem Papier"
-          subtitle="Benötigen Sie für Ihre Gebäudezertifizierung oder Ausschreibung die offiziellen Zeitstandregressionskurven und Prüfberichte unserer K Aqua PPR Rohre?"
-          buttonText="Zertifikate anfragen"
-          buttonLink="/ressourcen/support"
-          icon={<Database className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Verlässlichkeit auf dem Papier</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Benötigen Sie für Ihre Gebäudezertifizierung oder Ausschreibung die offiziellen Zeitstandregressionskurven und Prüfberichte unserer K Aqua PPR Rohre?
+          </p>
+          <a
+            href="/ressourcen/support"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
+          >
+            Zertifikate anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

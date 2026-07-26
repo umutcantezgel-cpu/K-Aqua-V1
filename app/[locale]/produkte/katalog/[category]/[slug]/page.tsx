@@ -11,6 +11,7 @@ import { ChevronDown, ArrowRight } from "@/components/ui/icon";
 import { Card } from "@/components/ui/Card";
 import type { Metadata } from "next";
 import JsonLd from "@/components/seo/JsonLd";
+import { SeoExpand } from "@/components/seo/SeoExpand";
 import { setRequestLocale } from 'next-intl/server';
 import { constructMetadata } from "@/lib/seo/metadata";
 
@@ -56,12 +57,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const catMeta = (t.raw("cats") as Record<string, { label: string; desc?: string }>)[category];
   const catLabel = catMeta?.label || category;
   
-  return constructMetadata({
-    title: `${item.title} | ${catLabel} | K-Aqua`,
+  // Map catalog category to kebab-case for canonical product URL
+  const kebabCategory = category.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+
+  const baseMeta = constructMetadata({
+    title: item.title,
     description: `${item.title} (${item.codes}). ${catMeta?.desc || ""}`,
     path: `/produkte/katalog/${category}/${slug}`,
     locale,
   });
+
+  // Override: noindex catalog pages to prevent keyword cannibalization with main product pages
+  return {
+    ...baseMeta,
+    robots: { index: false, follow: true },
+    alternates: {
+      ...baseMeta.alternates,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua.de'}/${locale}/produkte/${kebabCategory}/${slug}`,
+    },
+  };
 }
 
 export default async function CatalogDetailPage({ params }: Props) {
@@ -263,6 +277,9 @@ export default async function CatalogDetailPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* SEO Expand Block for > 500 words */}
+      <SeoExpand pageType="catalog" />
     </div>
   );
 }

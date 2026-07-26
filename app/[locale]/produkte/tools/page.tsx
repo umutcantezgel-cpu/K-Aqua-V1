@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'products.tools' });
+  const tSeo = await getTranslations({ locale, namespace: "products.seoArticle.tools" });
   const jsonLd = await getWebPageJsonLd(locale, "tools", "WebPage", { title: t('metaTitle'), description: t('metaDesc') });
 
   return (
@@ -106,7 +107,29 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-    </div>
+    
+      {/* Category Guide Section */}
+      {tSeo.has("guideText") && (
+        <section className="py-20 bg-background border-t border-card-border">
+          <div className="mx-auto max-w-[1400px] px-6">
+            <div className="max-w-3xl mx-auto text-left mb-12">
+              <div className="text-muted-foreground leading-relaxed space-y-4">
+                {tSeo.rich("guideText", { 
+                  h2: (chunks) => <h2 className="text-3xl font-heading font-bold text-foreground mb-6 mt-8">{chunks}</h2>,
+                  h3: (chunks) => <h3 className="text-2xl font-heading font-bold text-foreground mb-4 mt-6">{chunks}</h3>,
+                  h4: (chunks) => <h4 className="text-xl font-heading font-bold text-foreground mb-3 mt-5">{chunks}</h4>,
+                  p: (chunks) => <p>{chunks}</p>,
+                  strong: (chunks) => <strong className="text-foreground">{chunks}</strong>,
+                  ul: (chunks) => <ul className="list-disc pl-6 space-y-2">{chunks}</ul>,
+                  li: (chunks) => <li>{chunks}</li>,
+                  br: () => <br />
+                })}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+</div>
     </>
   );
 }

@@ -7,7 +7,6 @@ import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Sun, Shield, Layers, ThermometerSun } from "@/components/ui/icon";
 
 export const uvBestaendigkeitFreiverlegung: NewsPost = {
@@ -54,7 +53,9 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
             {/* Technisches Canvas Element */}
-            <PipeFX variant="blueprint" size={380} />
+            <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/20 flex items-center justify-center">
+              <Sun className="w-24 h-24 text-primary/30" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -64,14 +65,20 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
         <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground mt-8 px-4">
           <h2 className="text-2xl font-bold text-foreground mb-4">Chemie der Photooxidation in Polyolefinen</h2>
           <p>
-            Polypropylen gehört zur Gruppe der Polyolefine. Auf molekularer Ebene besteht PP-R aus langen Kohlenwasserstoffketten (C-H und C-C Bindungen). Diese Bindungen sind unter normalen Bedingungen extrem stabil, was PP-R seine exzellente chemische Beständigkeit und Druckfestigkeit verleiht. 
+            Polypropylen gehört zur Gruppe der Polyolefine. Auf molekularer Ebene besteht PP-R aus langen Kohlenwasserstoffketten (C-H und C-C Bindungen). Diese Bindungen sind unter normalen Bedingungen extrem stabil, was PP-R seine exzellente chemische Beständigkeit und Druckfestigkeit verleiht. Die molekulare Struktur von Polypropylen-Random-Copolymer bietet im Einsatz als Trinkwasser- und Heizungsrohr hervorragende Eigenschaften, bedarf jedoch im Außenbereich zusätzlicher Maßnahmen.
           </p>
           <p>
-            Trifft jedoch ultraviolettes Licht (Wellenlängen zwischen 290 und 400 nm) auf das ungeschützte Rohr, reicht die Energie der Photonen aus, um diese kovalenten Bindungen aufzubrechen. Es entstehen freie Radikale. In Anwesenheit von Luftsauerstoff (O2) reagieren diese Radikale sofort weiter und es kommt zu einer autokatalytischen Kettenreaktion, der sogenannten Photooxidation. 
+            Trifft jedoch ultraviolettes Licht (Wellenlängen zwischen 290 und 400 nm) auf das ungeschützte Rohr, reicht die Energie der Photonen aus, um diese kovalenten Bindungen aufzubrechen. Es entstehen freie Radikale. In Anwesenheit von Luftsauerstoff (O2) reagieren diese Radikale sofort weiter und es kommt zu einer autokatalytischen Kettenreaktion, der sogenannten Photooxidation. Ohne entsprechende Gegenmaßnahmen pflanzt sich diese Reaktion kontinuierlich fort und schädigt das Polymernetzwerk nachhaltig, was die Lebensdauer des Systems im Außenbereich deutlich verkürzen würde.
           </p>
+          
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Mechanische Folgen für das Rohrleitungssystem</h3>
           <p>
             Das Aufbrechen der Polymerketten führt zu einer drastischen Verringerung des Molekulargewichts in der obersten Materialschicht. Dies äußert sich zunächst optisch durch Ausbleichen und Kreidung (eine mehlige Schicht auf der Oberfläche). Im fortgeschrittenen Stadium verliert das PP-R seine Duktilität (Verformbarkeit) und Schlagzähigkeit. Die Oberfläche wird spröde und es entstehen Mikrorisse, die unter den hohen Innendrücken wasserführender Systeme katastrophal versagen können. Um dieses Risiko auf null zu reduzieren, bietet K-Aqua hochspezialisierte Lösungen an, die den UV-Angriff komplett abblocken.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Prüfverfahren und Normen für UV-Beständigkeit</h3>
+          <p>
+            Die Widerstandsfähigkeit von Kunststoffrohren gegen UV-Strahlung wird in genormten Laborverfahren getestet, um die realen Bedingungen im Außenbereich über Jahrzehnte hinweg zu simulieren. In sogenannten Xenon-Testkammern werden die Rohre einer künstlichen, extrem intensiven Bewitterung ausgesetzt. Dabei wird nicht nur die UV-Strahlung selbst simuliert, sondern auch der zyklische Wechsel von Hitze, Kälte und Niederschlag. Diese beschleunigten Alterungstests stellen sicher, dass die von K-Aqua empfohlenen Schutzmaßnahmen wie PE-Ummantelungen oder UV-Schutzlackierungen den höchsten industriellen Standards entsprechen und auch unter den härtesten klimatischen Bedingungen (wie beispielsweise in Wüstenregionen oder in hochalpinen Lagen) einen dauerhaften Schutz bieten. Die genaue Einhaltung dieser Normen garantiert dem Bauherrn eine maximale Betriebssicherheit.
           </p>
         </div>
       </Reveal>
@@ -166,13 +173,13 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
 
       {/* CTABand: K Aqua Isopipe */}
       <Reveal>
-        <CTABand
-          title="Die All-in-One Lösung für Kühltürme"
-          subtitle="Mit dem K-Aqua Isopipe System erhalten Sie ein werkseitig vorisoliertes Rohr, das gegen Hitze, Kälte, mechanische Einflüsse und UV-Strahlung gleichermaßen perfekt geschützt ist."
-          buttonText="Mehr zu Isopipe erfahren"
-          buttonLink="/produkte/pipes"
-          icon={<Shield className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Die All-in-One Lösung für Kühltürme</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Mit dem K-Aqua Isopipe System erhalten Sie ein werkseitig vorisoliertes Rohr, das gegen Hitze, Kälte, mechanische Einflüsse und UV-Strahlung gleichermaßen perfekt geschützt ist.</p>
+          <a href="/produkte/pipes" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Mehr zu Isopipe erfahren
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

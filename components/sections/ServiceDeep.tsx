@@ -13,6 +13,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { Button } from "@/components/ui/Button";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Download } from "@/components/ui/icon";
 
 interface LibRow {
@@ -81,9 +82,9 @@ export async function ServiceDeep() {
                   <h3 className="font-heading text-body font-bold text-foreground">{s.t}</h3>
                   <p className="text-small text-muted-foreground">{s.d}</p>
                   {s.href ? (
-                    <Button variant="ghost" size="sm" href={s.href} className="mt-2 self-start">
+                    <LiquidMagneticButton fill="flood" variant="ghost" size="md" href={s.href} className="mt-2 self-start">
                       {s.c}
-                    </Button>
+                    </LiquidMagneticButton>
                   ) : (
                     <p className="mt-2 text-small font-semibold text-foreground">{s.c}</p>
                   )}

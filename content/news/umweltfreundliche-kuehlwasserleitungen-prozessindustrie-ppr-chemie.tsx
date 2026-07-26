@@ -7,7 +7,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Factory, Droplets, Leaf, TestTube } from "@/components/ui/icon";
 
 export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
@@ -50,9 +49,8 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
               lead="In der Prozessindustrie, von der Chemie bis zur Lebensmittelfertigung, werden gigantische Mengen an Kühlwasser umgewälzt. Wenn diese Netze aus CStahl bestehen, muss das Wasser zwingend mit chemischen Inhibitoren behandelt werden, um das Rosten der Rohre von innen zu stoppen. Diese Zusätze sind teuer, wartungsintensiv und belasten die Umwelt. K Aqua PPR bietet eine radikal einfache Lösung: Ein Material, das von Natur aus nicht rostet und chemikalienfrei betrieben werden kann."
             />
           </div>
-          <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Wasserfluss und Kühlung */}
-            <PipeFX variant="flow" size={380} />
+          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent blur-2xl" />
           </div>
         </div>
       </Reveal>
@@ -112,22 +110,32 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Einfacheres Abwassermanagement",
-                description: "Kühlwasser, das frei von toxischen Rostschutzmitteln ist, kann am Ende seiner Nutzungsdauer wesentlich einfacher und kostengünstiger geklärt oder in den natürlichen Wasserkreislauf (unter Einhaltung lokaler Vorschriften) zurückgeführt werden."
-              },
-              {
-                title: "2. Verringerte Wartungskosten",
-                description: "Die aufwendige Zudosierung und ständige laboranalytische Überwachung der InhibitorenKonzentration im Wasser entfällt. Die Anlage läuft störungsfreier und autarker."
-              },
-              {
-                title: "3. Vermeidung von Biofouling",
-                description: "In offenen Kühlturmsystemen können sich Algen und Bakterien bilden. Diese setzen sich besonders gern an rauen, korrodierten Metallflächen fest. Die dauerhaft glatte PPR Innenwand erschwert das Festsetzen von Biofilmen maßgeblich."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">1. Einfacheres Abwassermanagement</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Kühlwasser, das frei von toxischen Rostschutzmitteln ist, kann am Ende seiner Nutzungsdauer wesentlich einfacher und kostengünstiger geklärt oder in den natürlichen Wasserkreislauf (unter Einhaltung lokaler Vorschriften) zurückgeführt werden.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">2. Verringerte Wartungskosten</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Die aufwendige Zudosierung und ständige laboranalytische Überwachung der InhibitorenKonzentration im Wasser entfällt. Die Anlage läuft störungsfreier und autarker.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">3. Vermeidung von Biofouling</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  In offenen Kühlturmsystemen können sich Algen und Bakterien bilden. Diese setzen sich besonders gern an rauen, korrodierten Metallflächen fest. Die dauerhaft glatte PPR Innenwand erschwert das Festsetzen von Biofilmen maßgeblich.
+                </p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -184,13 +192,15 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
 
       {/* CTABand: Green Industry Support */}
       <Reveal>
-        <CTABand
-          title="Machen Sie Ihre Prozesskühlung umweltfreundlich"
-          subtitle="Senken Sie Betriebskosten und schonen Sie die Umwelt. Sprechen Sie mit unseren IndustrieExperten über den Umstieg auf K Aqua PPR."
-          buttonText="Industrieberatung anfordern"
-          buttonLink="/kontakt"
-          icon={<Factory className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Machen Sie Ihre Prozesskühlung umweltfreundlich</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Senken Sie Betriebskosten und schonen Sie die Umwelt. Sprechen Sie mit unseren IndustrieExperten über den Umstieg auf K Aqua PPR.
+          </p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Industrieberatung anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

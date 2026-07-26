@@ -7,7 +7,6 @@ import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Server, Activity, ShieldAlert, Cpu } from "@/components/ui/icon";
 
 export const rechenzentrumKuehlung: NewsPost = {
@@ -52,7 +51,9 @@ export const rechenzentrumKuehlung: NewsPost = {
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
             {/* Technisches Canvas Element für kontinuierlichen Kühlfluss */}
-            <PipeFX variant="flow" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent flex items-center justify-center border border-primary/20">
+              <Server className="w-24 h-24 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -65,22 +66,26 @@ export const rechenzentrumKuehlung: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. 100 % Leckagesicherheit",
-                description: "Im Gegensatz zu gesteckten, gepressten oder verschraubten Metallrohren wird PPRCT thermisch verschweißt (Heizelementstumpfschweißen oder Muffenschweißen). Rohr und Fitting verschmelzen zu einer einzigen Einheit ohne O Ringe oder mechanische Schwachstellen."
-              },
-              {
-                title: "2. Kein Rost, keine Partikel",
-                description: "In Row Cooler und Liquid Cooling Systeme besitzen sehr feine Ventile und Wärmetauscher. Rostpartikel aus C Stahlrohren können diese verstopfen und zum Ausfall führen. PPRCT oxidiert nicht und das Kühlwasser bleibt absolut partikelfrei."
-              },
-              {
-                title: "3. Kondenswasserkontrolle",
-                description: "Kaltwasserleitungen im Data Center neigen zur Kondenswasserbildung (Schwitzwasser). Da PPRCT eine deutlich geringere Wärmeleitfähigkeit als Metall aufweist, reduziert sich die Gefahr der Kondensation drastisch. Die benötigte Dämmdicke ist oft geringer."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">1. 100 % Leckagesicherheit</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Im Gegensatz zu gesteckten, gepressten oder verschraubten Metallrohren wird PPRCT thermisch verschweißt (Heizelementstumpfschweißen oder Muffenschweißen). Rohr und Fitting verschmelzen zu einer einzigen Einheit ohne O Ringe oder mechanische Schwachstellen.
+              </p>
+            </Reveal>
+            <Reveal key="2" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">2. Kein Rost, keine Partikel</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                In Row Cooler und Liquid Cooling Systeme besitzen sehr feine Ventile und Wärmetauscher. Rostpartikel aus C Stahlrohren können diese verstopfen und zum Ausfall führen. PPRCT oxidiert nicht und das Kühlwasser bleibt absolut partikelfrei.
+              </p>
+            </Reveal>
+            <Reveal key="3" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">3. Kondenswasserkontrolle</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Kaltwasserleitungen im Data Center neigen zur Kondenswasserbildung (Schwitzwasser). Da PPRCT eine deutlich geringere Wärmeleitfähigkeit als Metall aufweist, reduziert sich die Gefahr der Kondensation drastisch. Die benötigte Dämmdicke ist oft geringer.
+              </p>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -186,13 +191,18 @@ export const rechenzentrumKuehlung: NewsPost = {
 
       {/* CTABand: Data Center Engineering */}
       <Reveal>
-        <CTABand
-          title="Bauen Sie ein neues Data Center?"
-          subtitle="Sichern Sie Ihre Mission Critical Infrastructure. Sprechen Sie mit unseren Spezialisten für industrielle Kühlsysteme und Vorfertigung."
-          buttonText="Beratung anfragen"
-          buttonLink="/kontakt"
-          icon={<Server className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Bauen Sie ein neues Data Center?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Sichern Sie Ihre Mission Critical Infrastructure. Sprechen Sie mit unseren Spezialisten für industrielle Kühlsysteme und Vorfertigung.
+          </p>
+          <a
+            href="/kontakt"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
+          >
+            Beratung anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

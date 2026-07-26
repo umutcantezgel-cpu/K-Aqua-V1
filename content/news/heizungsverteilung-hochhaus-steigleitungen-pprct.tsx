@@ -8,7 +8,6 @@ import { GlossaryGrid } from "@/components/ui/GlossaryGrid";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Building2, ArrowUpRight, Activity, ShieldCheck } from "@/components/ui/icon";
 
 export const heizungsverteilungHochhaus: NewsPost = {
@@ -47,8 +46,9 @@ export const heizungsverteilungHochhaus: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Druckaufbau in Steigleitungen */}
-            <PipeFX variant="pressure" size={380} />
+            <div className="w-72 h-72 rounded-full bg-primary/5 border border-primary/10 flex items-center justify-center">
+              <Building2 className="w-24 h-24 text-primary/20" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -61,22 +61,26 @@ export const heizungsverteilungHochhaus: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Massive Gewichtsreduktion",
-                description: "Ein 100 Meter langer Strang aus DN 100 Cstahlrohren wiegt mit Wasser gefüllt mehrere Tonnen. K Aqua PPRCT ist bis zu 70 % leichter. Das erleichtert nicht nur die Montage ohne Schwerlastkräne im Schacht, sondern entlastet auch die Statik des Gebäudes erheblich."
-              },
-              {
-                title: "2. Überragender Schallschutz",
-                description: "Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft – ideal für Luxusapartments."
-              },
-              {
-                title: "3. Absolute Korrosionssicherheit",
-                description: "Eine Leckage durch Durchrostung im 40. Stockwerk verursacht katastrophale Wasserschäden in den darunterliegenden Etagen. K Aqua PPRCT ist absolut korrosionsfrei und garantiert jahrzehntelange Betriebssicherheit."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">1. Massive Gewichtsreduktion</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Ein 100 Meter langer Strang aus DN 100 Cstahlrohren wiegt mit Wasser gefüllt mehrere Tonnen. K Aqua PPRCT ist bis zu 70 % leichter. Das erleichtert nicht nur die Montage ohne Schwerlastkräne im Schacht, sondern entlastet auch die Statik des Gebäudes erheblich.
+              </p>
+            </Reveal>
+            <Reveal key="2" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">2. Überragender Schallschutz</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft – ideal für Luxusapartments.
+              </p>
+            </Reveal>
+            <Reveal key="3" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">3. Absolute Korrosionssicherheit</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Eine Leckage durch Durchrostung im 40. Stockwerk verursacht katastrophale Wasserschäden in den darunterliegenden Etagen. K Aqua PPRCT ist absolut korrosionsfrei und garantiert jahrzehntelange Betriebssicherheit.
+              </p>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -207,13 +211,18 @@ export const heizungsverteilungHochhaus: NewsPost = {
 
       {/* CTABand: TGA Support */}
       <Reveal>
-        <CTABand
-          title="Planen Sie ein Highriseprojekt?"
-          subtitle="Überlassen Sie uns die statische Berechnung. Unsere Ingenieure dimensionieren Ihre Steigleitungen, planen Dehnungsbögen und definieren die exakten Positionen für Festpunkte."
-          buttonText="Berechnungsservice anfragen"
-          buttonLink="/kontakt"
-          icon={<Building2 className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Highriseprojekt?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Überlassen Sie uns die statische Berechnung. Unsere Ingenieure dimensionieren Ihre Steigleitungen, planen Dehnungsbögen und definieren die exakten Positionen für Festpunkte.
+          </p>
+          <a
+            href="/kontakt"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
+          >
+            Berechnungsservice anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

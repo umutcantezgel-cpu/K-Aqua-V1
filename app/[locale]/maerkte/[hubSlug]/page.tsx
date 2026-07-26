@@ -1,5 +1,5 @@
 import React from "react";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { GEO_HUBS, GEO_MARKETS } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
@@ -31,8 +31,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   
-  const title = `K-Aqua in ${hub.name} | ${tGeo("eyebrow")}`;
-  const description = hub.description;
+  const title = tGeo("hubMetaTitle", { country: hub.name });
+  const description = tGeo.has(`hubs.${hub.slug}.metaDesc`)
+    ? tGeo(`hubs.${hub.slug}.metaDesc`)
+    : hub.description;
 
   return constructMetadata({
     title,
@@ -51,6 +53,11 @@ export default async function GeoHubPage({ params }: Props) {
 
   const hub = GEO_HUBS.find((h) => h.slug === hubSlug);
   if (!hub) {
+    // Legacy redirect: /maerkte/frankfurt → /maerkte/deutschland/frankfurt
+    const market = GEO_MARKETS.find((m) => m.slug === hubSlug);
+    if (market) {
+      redirect(`/${locale}/maerkte/${market.hubSlug}/${market.slug}`);
+    }
     notFound();
   }
 
@@ -76,28 +83,27 @@ export default async function GeoHubPage({ params }: Props) {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            Infrastruktur-Lösungen für {hub.name}
+            {tGeo("hubH1", { country: hub.name })}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
             {tGeo.has(`hubs.${hub.slug}.description`) ? (
                <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`) }} />
             ) : (
-               hub.description
+               tGeo("hubLead", { country: hub.name })
             )}
           </p>
           
           <div className="mt-6 p-4 bg-muted/50 rounded-lg border max-w-3xl">
-            <h3 className="font-semibold mb-2">Regionaler Kontext: {hub.crisisContext}</h3>
+            <h3 className="font-semibold mb-2">{tGeo("hubContextTitle", { context: hub.crisisContext })}</h3>
             <p className="text-sm text-muted-foreground">
-              Unsere K-Aqua PP-R/PP-RCT Rohrsysteme aus deutscher Produktion sind speziell dafür ausgelegt, 
-              den infrastrukturellen Herausforderungen in {hub.name} gerecht zu werden.
+              {tGeo("hubContextBody", { country: hub.name })}
             </p>
           </div>
         </div>
 
         {/* Cities Grid */}
         <div>
-          <h2 className="text-2xl font-semibold mb-8">Lokale Standorte & Referenzstädte</h2>
+          <h2 className="text-2xl font-semibold mb-8">{tGeo("hubCitiesTitle")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {hubMarkets.map(market => (
               <Link 

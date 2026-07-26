@@ -8,7 +8,6 @@ import { BentoGrid } from "@/components/ui/BentoGrid";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Pickaxe, TrendingUp, ShieldCheck, Route } from "@/components/ui/icon";
 
 export const erdverlegungGrabenlos: NewsPost = {
@@ -52,7 +51,9 @@ export const erdverlegungGrabenlos: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="blueprint" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
+              <Pickaxe className="w-24 h-24 text-primary/40" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -62,14 +63,20 @@ export const erdverlegungGrabenlos: NewsPost = {
         <div className="prose prose-lg dark:prose-invert max-w-4xl mx-auto text-muted-foreground mt-8 px-4">
           <h2 className="text-2xl font-bold text-foreground mb-4">Warum das Rohrmaterial beim HDD über Sieg oder Niederlage entscheidet</h2>
           <p>
-            Beim HDD-Verfahren wird der komplette Rohrstrang (oft hunderte Meter lang) oberirdisch verschweißt und anschließend mit immenser hydraulischer Zugkraft durch einen vorbereiteten Bohrkanal unter der Erde hindurchgezogen. Dieser Einzugsprozess (Pullback) ist der kritischste Moment des gesamten Bauprojekts.
+            Beim HDD-Verfahren wird der komplette Rohrstrang (oft hunderte Meter lang) oberirdisch verschweißt und anschließend mit immenser hydraulischer Zugkraft durch einen vorbereiteten Bohrkanal unter der Erde hindurchgezogen. Dieser Einzugsprozess (Pullback) ist der kritischste Moment des gesamten Bauprojekts. Wenn das Material hierbei versagt, blockiert der Rohrstrang den teuren Bohrkanal unwiderruflich, was zu immensen finanziellen Verlusten und wochenlangen Projektverzögerungen führt.
           </p>
           <p>
-            Steckmuffensysteme oder Rohre mit mechanischen Verbindern würden bei diesen tonnenschweren Zuglasten sofort auseinanderreißen. Auch spröde Materialien (wie PVC-U oder Guss) bergen das extreme Risiko, an Steinen im Bohrkanal zu brechen oder tiefe Riefen davonzutragen. K-Aqua PP-R (Polypropylen-Random) wird hingegen thermisch stumpf- oder heizwendelgeschweißt. Diese Schweißnähte weisen exakt die gleiche Zugfestigkeit auf wie das Rohr selbst (100% Längskraftschlüssigkeit). Der Strang verhält sich beim Einzug wie ein einziges, unendlich langes, monolithisches Stück Kunststoff.
+            Steckmuffensysteme oder Rohre mit mechanischen Verbindern würden bei diesen tonnenschweren Zuglasten sofort auseinanderreißen. Auch spröde Materialien (wie PVC-U oder Guss) bergen das extreme Risiko, an Steinen im Bohrkanal zu brechen oder tiefe Riefen davonzutragen. K-Aqua PP-R (Polypropylen-Random) wird hingegen thermisch stumpf- oder heizwendelgeschweißt. Diese Schweißnähte weisen exakt die gleiche Zugfestigkeit auf wie das Rohr selbst (100% Längskraftschlüssigkeit). Der Strang verhält sich beim Einzug wie ein einziges, unendlich langes, monolithisches Stück Kunststoff. Die durchgehende Homogenität der Verbindung eliminiert jede mechanische Schwachstelle im unterirdischen Verlauf.
           </p>
+          
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Kerbunempfindlichkeit und Rissfortschritt</h3>
           <p>
-            Der unterirdische Bohrkanal ist rau. Scharfkantige Kiesel, Felsbrocken oder alte Bauwerksreste schaben während des Einzugs unvermeidlich an der Rohraußenwand. PP-R verfügt über eine exzellente Kerbunempfindlichkeit und einen extrem hohen Widerstand gegen langsamen Rissfortschritt (Slow Crack Growth, SCG). Selbst wenn Kratzer entstehen, die bis zu 10 % der Rohrwandstärke tief sind, wird die langfristige Innendruckfestigkeit und die zertifizierte Lebensdauer von 50 Jahren dadurch physikalisch nicht beeinträchtigt.
+            Der unterirdische Bohrkanal ist rau. Scharfkantige Kiesel, Felsbrocken oder alte Bauwerksreste schaben während des Einzugs unvermeidlich an der Rohraußenwand. PP-R verfügt über eine exzellente Kerbunempfindlichkeit und einen extrem hohen Widerstand gegen langsamen Rissfortschritt (Slow Crack Growth, SCG). Selbst wenn Kratzer entstehen, die bis zu 10 % der Rohrwandstärke tief sind, wird die langfristige Innendruckfestigkeit und die zertifizierte Lebensdauer von 50 Jahren dadurch physikalisch nicht beeinträchtigt. Dieser Sicherheitsfaden garantiert eine zuverlässige Installation, selbst wenn der Bohrkanal geologisch anspruchsvolle Passagen aufweist.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Interaktion mit Bentonit und Bodenchemie</h3>
+          <p>
+            Während des HDD-Einzugs wird Bentonit als Spül- und Stützflüssigkeit in den Bohrkanal gepumpt. Es dient der Schmierung und verhindert das Einstürzen des Hohlraums. PP-R ist gegenüber der mineralischen und chemischen Zusammensetzung dieser Bohrspülung völlig indifferent. Darüber hinaus ist das PP-R Rohr absolut korrosionsfrei und verrottet nicht im feuchten Erdreich. Weder aggressive Bodenbakterien noch saure oder alkalische Bodenverhältnisse können das Rohr über die Jahrzehnte hinweg angreifen. Nach dem Aushärten des Bentonits wird das Rohr im Erdreich sicher gebettet und durch die radiale Reibung fest umschlossen, was jegliche Längenausdehnungen im Betrieb optimal aufnimmt und in unkritische Druckspannungen umwandelt.
           </p>
         </div>
       </Reveal>
@@ -82,22 +89,20 @@ export const erdverlegungGrabenlos: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Die gesteuerte Pilotbohrung",
-                description: "Ein asymmetrischer, steuerbarer Bohrkopf bohrt sich punktgenau von der Start- zur Zielgrube. Dank elektromagnetischer Ortungstechnik an der Oberfläche kann der Bohrkopf bestehenden Hindernissen (Gasleitungen, Stromkabel, Findlinge) unterirdisch dreidimensional ausweichen."
-              },
-              {
-                title: "2. Das Räumen (Aufweiten / Reaming)",
-                description: "In der Zielgrube wird der Bohrkopf demontiert und gegen einen Räumer (Reamer) ausgetauscht. Dieser wird unter ständiger Rotation zurückgezogen, um das Bohrloch aufzuweiten. Es muss stets etwa 1,3- bis 1,5-mal größer sein als der Außendurchmesser des einzuziehenden PP-R Rohrs."
-              },
-              {
-                title: "3. Der Rohreinzug (Pullback)",
-                description: "Der oberirdisch komplett vorgeschweißte K-Aqua Rohrstrang wird an den Reamer gekoppelt und unter permanenter Zugabe von Bentonit (einer speziellen Ton-Mineral-Bohrspülung zur Stützung des Kanals und Schmierung) in einem einzigen kontinuierlichen Arbeitsgang eingezogen."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">1. Die gesteuerte Pilotbohrung</h3>
+              <p className="text-muted-foreground leading-relaxed">Ein asymmetrischer, steuerbarer Bohrkopf bohrt sich punktgenau von der Start- zur Zielgrube. Dank elektromagnetischer Ortungstechnik an der Oberfläche kann der Bohrkopf bestehenden Hindernissen (Gasleitungen, Stromkabel, Findlinge) unterirdisch dreidimensional ausweichen.</p>
+            </Reveal>
+            <Reveal key="2" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">2. Das Räumen (Aufweiten / Reaming)</h3>
+              <p className="text-muted-foreground leading-relaxed">In der Zielgrube wird der Bohrkopf demontiert und gegen einen Räumer (Reamer) ausgetauscht. Dieser wird unter ständiger Rotation zurückgezogen, um das Bohrloch aufzuweiten. Es muss stets etwa 1,3- bis 1,5-mal größer sein als der Außendurchmesser des einzuziehenden PP-R Rohrs.</p>
+            </Reveal>
+            <Reveal key="3" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
+              <h3 className="text-xl font-bold text-foreground">3. Der Rohreinzug (Pullback)</h3>
+              <p className="text-muted-foreground leading-relaxed">Der oberirdisch komplett vorgeschweißte K-Aqua Rohrstrang wird an den Reamer gekoppelt und unter permanenter Zugabe von Bentonit (einer speziellen Ton-Mineral-Bohrspülung zur Stützung des Kanals und Schmierung) in einem einzigen kontinuierlichen Arbeitsgang eingezogen.</p>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -189,13 +194,13 @@ export const erdverlegungGrabenlos: NewsPost = {
 
       {/* CTABand: Tiefbau-Projekte */}
       <Reveal>
-        <CTABand
-          title="Planen Sie ein Nahwärme- oder Industrienetz?"
-          subtitle="Unsere Projektingenieure beraten Sie umfassend bei der Wahl der richtigen SDR-Klasse für die Zugkräfte beim HDD-Verfahren und liefern maßgeschneiderte, vorisolierte K-Aqua Systeme."
-          buttonText="Tiefbau-Projekt besprechen"
-          buttonLink="/ressourcen/support"
-          icon={<Pickaxe className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Nahwärme- oder Industrienetz?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Unsere Projektingenieure beraten Sie umfassend bei der Wahl der richtigen SDR-Klasse für die Zugkräfte beim HDD-Verfahren und liefern maßgeschneiderte, vorisolierte K-Aqua Systeme.</p>
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Tiefbau-Projekt besprechen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

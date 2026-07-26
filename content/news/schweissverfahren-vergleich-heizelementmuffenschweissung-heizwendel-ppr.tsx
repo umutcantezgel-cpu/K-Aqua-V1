@@ -8,7 +8,6 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Zap, Hammer, Flame, Settings } from "@/components/ui/icon";
 
 export const schweissverfahrenVergleich: NewsPost = {
@@ -46,9 +45,8 @@ export const schweissverfahrenVergleich: NewsPost = {
               lead="Im Gegensatz zu klassischen metallischen Systemen, die oftmals verpresst, gelötet oder verschraubt werden, nutzt K-Aqua die thermische Polyfusion (Schmelzschweißen). Dabei verschmelzen PP-R Rohr und Fitting auf molekularer Ebene untrennbar miteinander. Ermüdende O-Ringe, Dichtungspasten oder anfällige Pressindikatoren, die im Laufe der Jahre porös werden und zu fatalen Wasserschäden führen könnten, sind absolut überflüssig. Für die Herstellung dieser perfekten, 100% stoffschlüssigen Verbindung stehen in der Praxis hauptsächlich zwei zertifizierte Verfahren zur Verfügung: Das Heizelementmuffenschweißen (der Standard) und das Heizwendelschweißen per Elektromuffe (der Problemlöser)."
             />
           </div>
-          <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Druck und Hitze */}
-            <PipeFX variant="pressure" size={380} />
+          <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent blur-2xl" />
           </div>
         </div>
       </Reveal>
@@ -62,6 +60,16 @@ export const schweissverfahrenVergleich: NewsPost = {
           </p>
           <p>
             Werden nun das geschmolzene Rohrende und die geschmolzene Muffeninnenseite unter leichtem Druck (Fügedruck) ineinandergeschoben, dringen die Polymerketten beider Bauteile tief ineinander ein und verhaken sich (Interdiffusion). Kühlt die Verbindung anschließend an der ruhenden Luft ab, kristallisiert das Material neu aus. Es entsteht ein neues, völlig homogenes Kristallgitter. Die Grenzfläche zwischen Rohr und Fitting verschwindet vollständig – die Bauteile sind fortan ein einziger, monolithischer Block.
+          </p>
+          
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Chemische und mechanische Integrität der Schweißnaht</h3>
+          <p>
+            Ein entscheidender Vorteil dieser Fügetechnik ist der Erhalt der vollen chemischen Widerstandsfähigkeit. Bei geklebten oder mechanisch gefügten Systemen (wie etwa bei PVC oder metallischen Pressfittings) stellt das Verbindungselement oftmals die schwächste Stelle im gesamten Rohrnetz dar, insbesondere beim Transport aggressiver Medien oder bei hohen Temperaturschwankungen. Die Schweißnaht eines K-Aqua PP-R Systems hingegen besteht zu 100 % aus dem identischen Basispolymer. Dadurch ist das gesamte Netz absolut dicht, langlebig und widersteht denselben statischen, thermischen und chemischen Belastungen wie das extrudierte Vollrohr selbst. Es gibt keine Kapillarwirkung, durch die Feuchtigkeit eindringen könnte, und keine elektrochemische Spannungsreihe, die Korrosion auslösen würde.
+          </p>
+
+          <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Qualitätssicherung bei der Montage</h3>
+          <p>
+            Die Qualität der Schweißverbindung steht und fällt mit der Einhaltung der korrekten Verarbeitungsrichtlinien (nach DVS 2207-11). Sauberkeit ist hierbei das oberste Gebot. Jede Verunreinigung durch Staub, Öl, Feuchtigkeit oder auch nur Handschweiß auf der Fügefläche wirkt wie eine Trennschicht und verhindert die molekulare Verhakung. Dies kann später zu Rissen unter Druckbelastung führen. Daher müssen Rohrenden und Muffen unmittelbar vor dem Schweißvorgang mit einem geeigneten, rückstandsfrei verdunstenden Kunststoffreiniger (z.B. Isopropanol) gereinigt werden. Zudem ist bei der Heizwendelschweißung das rückstandsfreie Abschälen der oxidierten Oberfläche zwingend vorgeschrieben, um die plastische Kernschmelze zu erreichen.
           </p>
         </div>
       </Reveal>
@@ -122,22 +130,32 @@ export const schweissverfahrenVergleich: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Oxidschicht zwingend abschälen",
-                description: "Kunststoff oxidiert an der äußersten Oberfläche natürlich durch UV-Licht und Luftsauerstoff. Diese Oxidschicht schmilzt zwar, verbindet sich aber nicht. Das Rohrende muss daher vor dem Heizwendelschweißen zwingend mit einem Rotationsschälgerät bearbeitet (ca. 0,2 mm Materialabtrag) werden."
-              },
-              {
-                title: "2. Spannungsfrei fixieren",
-                description: "Das geschälte Rohr wird gereinigt und in die kalte Elektromuffe geschoben. Da sich die Schmelze beim Erhitzen stark ausdehnt, entstehen enorme Rückstellkräfte. Die Rohre müssen mit Halteklemmen mechanisch fixiert werden, damit sie während des Schweißens nicht aus der Muffe gedrückt werden."
-              },
-              {
-                title: "3. Automatisierter Schweißprozess",
-                description: "Das Schweißgerät liest den Barcode auf der Elektromuffe mittels Scanner ein. Der Automat regelt nun die Stromstärke, die Schweißzeit und den Energieeintrag völlig autark und fehlerfrei – exakt abgestimmt auf die aktuelle Umgebungstemperatur und die Dimension."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">1. Oxidschicht zwingend abschälen</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Kunststoff oxidiert an der äußersten Oberfläche natürlich durch UV-Licht und Luftsauerstoff. Diese Oxidschicht schmilzt zwar, verbindet sich aber nicht. Das Rohrende muss daher vor dem Heizwendelschweißen zwingend mit einem Rotationsschälgerät bearbeitet (ca. 0,2 mm Materialabtrag) werden.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">2. Spannungsfrei fixieren</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Das geschälte Rohr wird gereinigt und in die kalte Elektromuffe geschoben. Da sich die Schmelze beim Erhitzen stark ausdehnt, entstehen enorme Rückstellkräfte. Die Rohre müssen mit Halteklemmen mechanisch fixiert werden, damit sie während des Schweißens nicht aus der Muffe gedrückt werden.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">3. Automatisierter Schweißprozess</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Das Schweißgerät liest den Barcode auf der Elektromuffe mittels Scanner ein. Der Automat regelt nun die Stromstärke, die Schweißzeit und den Energieeintrag völlig autark und fehlerfrei – exakt abgestimmt auf die aktuelle Umgebungstemperatur und die Dimension.
+                </p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -185,13 +203,15 @@ export const schweissverfahrenVergleich: NewsPost = {
 
       {/* CTABand: K Aqua Schulungen */}
       <Reveal>
-        <CTABand
-          title="Eine Schweißnaht ist nur so gut wie das Handwerk"
-          subtitle="Minimieren Sie Fehlerquellen und sichern Sie die Dichtheit Ihrer Großprojekte. Buchen Sie jetzt eine DVS-konforme, zertifizierte Schweißerschulung für K-Aqua PP-R Rohrsysteme für Ihr Montageteam."
-          buttonText="Zertifizierungsschulung anfragen"
-          buttonLink="/kontakt"
-          icon={<Hammer className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Eine Schweißnaht ist nur so gut wie das Handwerk</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Minimieren Sie Fehlerquellen und sichern Sie die Dichtheit Ihrer Großprojekte. Buchen Sie jetzt eine DVS-konforme, zertifizierte Schweißerschulung für K-Aqua PP-R Rohrsysteme für Ihr Montageteam.
+          </p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Zertifizierungsschulung anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

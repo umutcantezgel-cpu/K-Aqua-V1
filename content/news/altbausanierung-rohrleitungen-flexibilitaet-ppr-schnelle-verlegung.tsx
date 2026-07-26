@@ -7,8 +7,7 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
-import { Hammer, Flame, Link, Wrench } from "@/components/ui/icon";
+import { Hammer, Link, Wrench } from "@/components/ui/icon";
 
 export const altbausanierungFlexibilitaet: NewsPost = {
   slug: "altbausanierung-rohrleitungen-flexibilitaet-ppr-schnelle-verlegung",
@@ -42,9 +41,24 @@ export const altbausanierungFlexibilitaet: NewsPost = {
               title="Die intelligente Lösung für den Gebäudebestand: PP-R Rohrleitungssysteme"
               lead="Die Sanierung historischer Gebäude oder alter Mehrfamilienhäuser ist oft ein logistischer und technischer Albtraum. Enge, verwinkelte Versorgungsschächte, asymmetrische Grundrisse und der laufende Betrieb fordern Installateuren alles ab. Wer hier schwere C-Stahlrohre oder Kupferleitungen über Treppenhäuser schleppt und im engen Schacht mit offenem Feuer lötet oder schweißt, verliert wertvolle Zeit und riskiert folgenschwere Brände. PP-R (Polypropylen Random-Copolymer) von K Aqua bietet die leichte, hochgradig flexible und absolut brandsichere Alternative für die moderne Strangsanierung. Mit einer Dichte von nur 0,9 g/cm³ sind PP-R Rohre extrem leicht. Zudem verhindert die glatte Innenoberfläche (Rauigkeit von nur 0,007 mm) Inkrustationen und Kalkablagerungen, was gerade bei älteren, kalkhaltigen Wasserversorgungen die Langlebigkeit garantiert."
             />
+            
+            <div className="mt-6 text-muted-foreground leading-relaxed">
+              <p className="mb-4">
+                Darüber hinaus spielt die Trinkwasserhygiene bei Sanierungen eine zentrale Rolle. Veraltete Leitungsnetze, insbesondere solche mit Stagnationsstrecken oder aus korrosionsanfälligem verzinktem Stahl, bilden den idealen Nährboden für Legionellen und gefährliche Biofilme. Ein Komplettaustausch mit K-Aqua PP-R stellt sicher, dass das Rohrnetz mikrobiologisch einwandfrei bleibt, da das Vollkunststoffmaterial dem Biofilm kaum Haftungsfläche bietet. Auch die Gefahr von Schwermetallbelastungen im Trinkwasser (wie Blei oder Kupferionen) wird durch die chemisch inerte Struktur des Polypropylens vollständig eliminiert.
+              </p>
+              <p className="mb-4">
+                Hinzu kommt die oft unvorhersehbare Bauphysik in Altbauten. Morsche Holzbalkendecken oder dünne Zwischenwände verfügen häufig nicht über die statische Traglast für schwere Guss- oder Stahlverteiler. Hier löst K-Aqua PP-R durch seine enorme Gewichtsersparnis nicht nur das Problem der Schachtbefestigung, sondern minimiert auch den Aufwand für Deckenaufhängungen und Wandhalterungen drastisch. Dies senkt den Materialaufwand bei der Befestigungstechnik und beschleunigt den Sanierungsfortschritt in bewohnten Gebäuden signifikant.
+              </p>
+              <p className="mb-4">
+                Ein weiterer, häufig unterschätzter Faktor bei der Altbausanierung ist der Schallschutz. Historische Gebäude zeichnen sich oft durch eine extrem hohe Hellhörigkeit aus. Wenn alte Metallrohre Körperschall, wie er durch schnell schließende Armaturen oder Toilettenspülungen entsteht, ungedämpft an das Mauerwerk weitergeben, leidet die Wohnqualität der Mieter massiv. K-Aqua PP-R besitzt aufgrund seiner molekularen Struktur hervorragende schallabsorbierende Eigenschaften. Es dämpft Fließgeräusche und Druckschläge (Wasserschlag) direkt im Material, bevor diese als Körperschall in die Wandkonstruktion übergehen können. Dies macht aufwändige und kostenintensive nachträgliche Schalldämmmaßnahmen in vielen Installationssituationen obsolet.
+              </p>
+              <p>
+                Nicht zuletzt sichert die überragende Druckbeständigkeit des Systems eine sorgenfreie Nutzung auch in hohen Gebäuden. Wenn alte, poröse Rohre durch moderne, druckstabile K-Aqua Leitungen (z.B. SDR 7.4 oder SDR 6) ersetzt werden, können problemlos auch Druckerhöhungsanlagen installiert werden, um den Wasserdruck in den obersten Stockwerken zu gewährleisten, ohne dass das Risiko von Rohrbrüchen besteht.
+              </p>
+            </div>
           </div>
           <div className="flex-1 flex justify-center items-center opacity-80 pointer-events-none mix-blend-screen">
-            <PipeFX variant="blueprint" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-accent/10 to-transparent blur-2xl" />
           </div>
         </div>
       </Reveal>
@@ -56,26 +70,40 @@ export const altbausanierungFlexibilitaet: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Keine offene Flamme und maximale Brandsicherheit",
-                description: "Der Brandschutz ist bei Sanierungen, besonders in denkmalgeschützten Gebäuden mit trockenen Holzständerwerken oder alten, stark staubigen Schächten, extrem kritisch. Das Heizelement-Muffenschweißen von K Aqua erfordert lediglich ein elektrisches Heizwerkzeug, das bei 260 °C arbeitet – es gibt keine offene Gasflamme, keinen Funkenflug und somit absolut kein Brandrisiko während der Installation. Im Vergleich zu herkömmlichen Löt- oder Schweißarbeiten an Metallrohren entfällt die Notwendigkeit von Brandwachen."
-              },
-              {
-                title: "2. Geringes Gewicht und Ergonomie",
-                description: "Ein 4 Meter langes Stahlrohr (z.B. DN 50) im vierten Stock ohne Aufzug durch enge Flure zu manövrieren, ist ein massiver Kraftakt und erhöht das Unfallrisiko. PP-R Rohre von K Aqua wiegen nur etwa ein Achtel vergleichbarer Stahlrohre. Diese enorme Gewichtsreduktion senkt die körperliche Belastung der Installateure drastisch, beschleunigt den Transport auf der Baustelle und ermöglicht oft eine Ein-Mann-Montage, wo sonst zwei oder mehr Fachkräfte nötig wären."
-              },
-              {
-                title: "3. Hohe Flexibilität und Toleranzausgleich",
-                description: "Altbauten haben sich über Jahrzehnte gesetzt, Wände sind selten exakt lotrecht und Schächte variieren im Querschnitt. PP-R Rohre besitzen eine natürliche materialspezifische Flexibilität (Elastizitätsmodul von ca. 800-900 MPa). Sie verzeihen leichte Spannungen, können in engen Nischen deutlich leichter gebogen und geführt werden als starre Metallrohre und kompensieren Bauungenauigkeiten hervorragend. Dadurch werden zusätzliche Fittings und komplexe Umlenkungen eingespart."
-              },
-              {
-                title: "4. Exzellente thermische und akustische Isolation",
-                description: "Im Altbau ist der Schallschutz oft mangelhaft. K Aqua PP-R besitzt eine hohe innere Schalldämpfung. Fließgeräusche und Druckschläge werden vom Material geschluckt, was den Wohnkomfort in hellhörigen Gebäuden deutlich steigert. Zudem hat PP-R eine sehr geringe Wärmeleitfähigkeit (0,24 W/mK), was Energieverluste bei Warmwasserleitungen minimiert und die Anforderungen an die Rohrisolierung im Vergleich zu Kupfer (380 W/mK) drastisch reduziert."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">1. Keine offene Flamme und maximale Brandsicherheit</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Der Brandschutz ist bei Sanierungen, besonders in denkmalgeschützten Gebäuden mit trockenen Holzständerwerken oder alten, stark staubigen Schächten, extrem kritisch. Das Heizelement-Muffenschweißen von K Aqua erfordert lediglich ein elektrisches Heizwerkzeug, das bei 260 °C arbeitet – es gibt keine offene Gasflamme, keinen Funkenflug und somit absolut kein Brandrisiko während der Installation. Im Vergleich zu herkömmlichen Löt- oder Schweißarbeiten an Metallrohren entfällt die Notwendigkeit von Brandwachen.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">2. Geringes Gewicht und Ergonomie</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Ein 4 Meter langes Stahlrohr (z.B. DN 50) im vierten Stock ohne Aufzug durch enge Flure zu manövrieren, ist ein massiver Kraftakt und erhöht das Unfallrisiko. PP-R Rohre von K Aqua wiegen nur etwa ein Achtel vergleichbarer Stahlrohre. Diese enorme Gewichtsreduktion senkt die körperliche Belastung der Installateure drastisch, beschleunigt den Transport auf der Baustelle und ermöglicht oft eine Ein-Mann-Montage, wo sonst zwei oder mehr Fachkräfte nötig wären.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">3. Hohe Flexibilität und Toleranzausgleich</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Altbauten haben sich über Jahrzehnte gesetzt, Wände sind selten exakt lotrecht und Schächte variieren im Querschnitt. PP-R Rohre besitzen eine natürliche materialspezifische Flexibilität (Elastizitätsmodul von ca. 800-900 MPa). Sie verzeihen leichte Spannungen, können in engen Nischen deutlich leichter gebogen und geführt werden als starre Metallrohre und kompensieren Bauungenauigkeiten hervorragend. Dadurch werden zusätzliche Fittings und komplexe Umlenkungen eingespart.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal key="4">
+              <div className="p-6 rounded-2xl bg-card border border-card-border">
+                <h3 className="text-xl font-bold mb-2">4. Exzellente thermische und akustische Isolation</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Im Altbau ist der Schallschutz oft mangelhaft. K Aqua PP-R besitzt eine hohe innere Schalldämpfung. Fließgeräusche und Druckschläge werden vom Material geschluckt, was den Wohnkomfort in hellhörigen Gebäuden deutlich steigert. Zudem hat PP-R eine sehr geringe Wärmeleitfähigkeit (0,24 W/mK), was Energieverluste bei Warmwasserleitungen minimiert und die Anforderungen an die Rohrisolierung im Vergleich zu Kupfer (380 W/mK) drastisch reduziert.
+                </p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -144,13 +172,15 @@ export const altbausanierungFlexibilitaet: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Planen Sie die komplexe Strangsanierung eines historischen Mehrfamilienhauses?"
-          subtitle="Überlassen Sie unseren Ingenieuren die detaillierte Materialplanung. Wir helfen Ihnen, die optimalen Rohrdimensionen für den Bestand hydraulisch zu berechnen, Druckverluste zu minimieren und die passenden Übergangsfittings für eine sichere Mischinstallation auszuwählen."
-          buttonText="Technische Beratung zur Sanierung anfordern"
-          buttonLink="/kontakt"
-          icon={<Flame className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie die komplexe Strangsanierung eines historischen Mehrfamilienhauses?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">
+            Überlassen Sie unseren Ingenieuren die detaillierte Materialplanung. Wir helfen Ihnen, die optimalen Rohrdimensionen für den Bestand hydraulisch zu berechnen, Druckverluste zu minimieren und die passenden Übergangsfittings für eine sichere Mischinstallation auszuwählen.
+          </p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Technische Beratung zur Sanierung anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

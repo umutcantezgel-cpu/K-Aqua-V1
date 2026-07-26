@@ -1,6 +1,7 @@
 {
   "catalogx": {
     "eyebrow": "Catalogue Complet des Produits",
+    "faqTitle": "Foire aux questions",
     "title": "Toutes les 79 familles d'articles — avec les vraies références.",
     "lead": "Tubes, raccords, pièces de transition, vannes, selles à souder, accessoires et outillage — chaque ligne est issue de notre catalogue officiel K-Aqua. Choisissez une catégorie, explorez les articles et vérifiez les références en un clin d'œil.",
     "searchPlaceholder": "Recherchez une référence ou un nom de produit — par ex. « AQ200P20 » ou « Coude »",
@@ -1433,7 +1434,9 @@
     "tools": "Outils",
     "knowledge": "Expertise",
     "company": "Entreprise",
-    "products": "Produits"
+    "products": "Produits",
+    "markets_solutions": "Marchés & Solutions",
+    "knowledge_resources": "Connaissances & Ressources"
   },
   "pages": {
     "catalogOverview": "Catalogue des produits",
@@ -1582,7 +1585,8 @@
     "nearbyEyebrow": "Marchés de proximité",
     "nearby": "À deux pas.",
     "prodNote": "Note technique : Ces pages suivent un modèle SEO programmatique (Croisement données : Produit × Régulation × Région). Elles sont générées via ISR depuis le CMS headless — incluant le balisage hreflang, Product/Offer et le maillage interne.",
-    "km": "km"
+    "km": "km",
+    "seoExpansionDynamic": "En savoir plus sur nos solutions PP-R et PPRCT à {city}. Nous répondons aux normes locales ({regulator}) et proposons des systèmes optimaux pour la qualité de l'eau ({water}). Remarque supplémentaire : {note}."
   },
   "footer": {
     "tagline": "K-Aqua — L'excellence dans la distribution d'eau. Systèmes de tuyauterie en PP-R/PP-RCT pour l'eau potable, fièrement fabriqués par KWT GmbH à Waldsolms.",
@@ -1840,7 +1844,18 @@
       "outro": "Vous ne trouvez pas la bonne dimension ? Notre département d'ingénierie développe régulièrement des pièces spéciales pour de grands projets."
     },
     "seoArticle": {
-      "fallback": "Données supplémentaires pour ce produit",
+      "fallback": {
+        "areas": "Technique d'installation universelle, besoins de chantier, extension de système",
+        "advTitle": "Extension de système parfaite",
+        "advList": [
+          "Qualité certifiée : Conforme au système de gestion ISO 9001.",
+          "Compatibilité du système : Parfaitement adapté au système de tuyauterie K Aqua.",
+          "Longévité : Matériaux robustes pour un usage quotidien difficile sur les chantiers.",
+          "Application sûre : Fonctionnement garanti avec une utilisation appropriée.",
+          "Rentabilité : Excellent rapport qualité-prix."
+        ],
+        "seoText": "En tant que fournisseur de systèmes, K Aqua fournit non seulement des tuyaux et des raccords, mais également tous les outils et accessoires nécessaires. De la machine de soudage de haute précision au coupe-tube fiable, nos outils garantissent un traitement conforme aux normes et une sécurité d'installation maximale. Fiez-vous aux accessoires d'origine pour maintenir la garantie de votre système complet K Aqua."
+      },
       "pipes": {
         "areas": "Installation d'eau potable, Chauffage, Climatisation, Installations industrielles, Construction navale",
         "advTitle": "Technologie de tuyauterie supérieure pour chaque projet",
@@ -1863,6 +1878,18 @@
           {
             "q": "Ai-je besoin de peler les tubes K-Fiber ?",
             "a": "Non, les tubes à fibres ne nécessitent généralement pas de pelage avant le soudage, ce qui permet de gagner beaucoup de temps."
+          },
+          {
+            "q": "Quels sont les avantages par rapport aux tuyaux métalliques traditionnels ?",
+            "a": "Les systèmes K Aqua PP-R et PPRCT sont 100% exempts de corrosion, ne présentent aucune incrustation et sont considérablement plus légers. De plus, ils offrent une excellente isolation thermique et acoustique, réduisant à la fois les coûts d'installation et de fonctionnement."
+          },
+          {
+            "q": "Les tuyaux sont-ils adaptés à l'eau potable ?",
+            "a": "Absolument. Nos systèmes répondent aux normes d'hygiène mondiales les plus strictes et sont certifiés selon la norme DVGW W544 et des réglementations internationales comparables, garantissant qu'ils ne modifient ni le goût ni l'odeur de l'eau."
+          },
+          {
+            "q": "Qu'est-ce que le PPRCT et quand dois-je l'utiliser ?",
+            "a": "Le PPRCT est une structure cristalline avancée du polypropylène qui offre une résistance plus élevée à la pression à des températures élevées. Il est particulièrement recommandé pour la tuyauterie industrielle et les systèmes de chauffage urbain centralisés exigeants."
           }
         ]
       },
@@ -1879,17 +1906,7 @@
         "seoText": "Les raccords K-Aqua sont le lien pour des réseaux de tuyauterie fiables. Fabriqués en Allemagne, ces raccords offrent une précision et une stabilité dimensionnelle maximales. La technique de soudage (soudage par emboîtement) ne prend que quelques secondes et refroidit pour former une connexion aussi solide que le tube lui-même. Cela élimine le risque de micro-fuites, qui se produisent souvent avec des systèmes de pressage ou d'emboîtement après des années.",
         "guideTitle": "Conseil d'Installation : Raccords PP-R",
         "guideText": "Assurez-vous toujours que le tube et le raccord sont de la même marque (K-Aqua) pour garantir l'homogénéité du processus de soudage et la garantie du système.",
-        "seoTitle": "Raccords PP-R : Sécurité sans Joint Torique",
-        "faq": [
-          {
-            "q": "Les raccords K-Aqua peuvent-ils être utilisés avec d'autres tubes PP-R ?",
-            "a": "Techniquement possible, mais pour la garantie complète du système K-Aqua, seuls des composants originaux doivent être soudés."
-          },
-          {
-            "q": "Jusqu'à quelle température les raccords peuvent-ils être soudés ?",
-            "a": "Les températures extérieures inférieures à 5°C nécessitent des temps de chauffage ajustés ou des tentes de soudage appropriées."
-          }
-        ]
+        "seoTitle": "Raccords PP-R : Sécurité sans Joint Torique"
       },
       "valves": {
         "areas": "Isolement de branche, Contrôle de système, Armoires de distribution, Industrie",
@@ -1904,13 +1921,7 @@
         "seoText": "Les vannes d'arrêt et les robinets K-Aqua combinent la technologie de soudage PP-R éprouvée avec des composants mécaniques de haute qualité. Ils permettent un contrôle précis des fluides et une isolation sûre des sections du réseau pour les travaux de maintenance. Chaque vanne est soumise à des tests de pression rigoureux avant la livraison pour garantir une sécurité de fonctionnement maximale dans les applications critiques.",
         "guideTitle": "Spécifications des Vannes K-Aqua",
         "guideText": "Nos vannes PP-R à siège droit et à boisseau sphérique éliminent le besoin de brides de transition coûteuses. Elles s'intègrent directement dans le réseau PP-R.",
-        "seoTitle": "Vannes PP-R & Commandes",
-        "faq": [
-          {
-            "q": "Les robinets à boisseau sphérique PP-R ont-ils un passage intégral ?",
-            "a": "Oui, la plupart des vannes K-Aqua offrent un passage complet, minimisant ainsi la perte de charge dans le système."
-          }
-        ]
+        "seoTitle": "Vannes PP-R & Commandes"
       },
       "weldInSaddles": {
         "areas": "Rénovation, Extension de réseau, Installation industrielle, Climatisation",
@@ -1945,6 +1956,14 @@
           {
             "q": "Puis-je utiliser d'autres joints pour les raccords à bride K-Aqua ?",
             "a": "Non, seuls les joints EPDM approuvés par K-Aqua garantissent l'étanchéité à long terme requise."
+          },
+          {
+            "q": "Puis-je utiliser des accessoires de fournisseurs tiers ?",
+            "a": "Pour bénéficier de l'intégralité de la garantie système K Aqua, il est impératif d'utiliser des accessoires d'origine. Les composants tiers peuvent entraîner des problèmes d'étanchéité ou des défaillances mécaniques."
+          },
+          {
+            "q": "Existe-t-il des accessoires spéciaux pour un usage industriel ?",
+            "a": "Oui, notre gamme comprend des brides folles robustes avec un noyau en acier, des joints spéciaux en EPDM et des colliers de serrage renforcés qui résistent facilement aux contraintes industrielles extrêmes."
           }
         ]
       },
@@ -3861,11 +3880,7 @@
     "case2Title": "Hôpitaux",
     "case2Desc": "Sécurité hygiénique absolue et fiabilité à long terme pour les conduites d'eau potable dans les établissements médicaux sensibles.",
     "case3Title": "Industrie & Refroidissement",
-    "case3Desc": "Réseaux de tuyauterie résistants à la corrosion pour le transport de fluides agressifs et d'eau de refroidissement dans de grandes installations.",
-    "ctaTitle": "Votre projet avec K-Aqua",
-    "ctaText": "Laissez-vous conseiller personnellement ou parcourez notre gamme de produits.",
-    "ctaBtn": "Aller aux produits",
-    "disclaimer": "* Les références sont des exemples de projets mondiaux avec du PP-R."
+    "case3Desc": "Réseaux de tuyauterie résistants à la corrosion pour le transport de fluides agressifs et d'eau de refroidissement dans de grandes installations."
   },
   "co2": {
     "eyebrow": "Outil d'Ingénierie Premium",
@@ -4078,75 +4093,11 @@
     "title1": "La maîtrise du",
     "titleGrad": "Soudage PP-R",
     "lead": "La qualité de l'installation détermine la longévité de l'ensemble du réseau de canalisations. Apprenez les étapes cruciales du soudage par polyfusion avec nos tutoriels vidéo.",
-    "videos": [
-      {
-        "id": "J1h73e6tqxc",
-        "title": "Tutoriel de soudage par emboîtement (D20-D63)",
-        "desc": "Instructions pas à pas pour le soudage par polyfusion manuel de tubes et raccords PP-R. Couvre la préparation des tubes, les temps de chauffe corrects et la force d'assemblage requise."
-      },
-      {
-        "id": "e_zBf1r1K-E",
-        "title": "Démonstration Selles à Souder",
-        "desc": "La méthode la plus rapide et la plus sûre pour créer de nouveaux branchements sur des conduites maîtresses existantes. Ce tutoriel montre la technique de perçage et de soudage correcte."
-      }
-    ],
     "quizEyebrow": "Contrôle des connaissances",
     "quizTitle": "Master Quiz K-Aqua",
     "intro": "Testez vos connaissances en installation sur le PP-R. De la température de soudage à la classe SDR : prouvez que vous maîtrisez les spécifications K-Aqua.",
     "start": "Démarrer le Quiz",
     "qLabel": "Question",
-    "quiz": [
-      {
-        "q": "Quelle est la température de soudage correcte pour les tubes et raccords K-Aqua PP-R ?",
-        "options": [
-          "200 °C",
-          "260 °C (± 10 °C)",
-          "300 °C",
-          "150 °C"
-        ],
-        "correct": 1
-      },
-      {
-        "q": "De combien devez-vous réduire la pression d'essai si la température de l'eau pendant l'essai de pression dépasse 20 °C ?",
-        "options": [
-          "Aucune réduction nécessaire",
-          "Réduction de 0,1 bar par 10K",
-          "Réduction de 0,2 bar par 10K",
-          "Réduction de 0,5 bar par 10K"
-        ],
-        "correct": 2
-      },
-      {
-        "q": "Où devez-vous stocker les tubes PP-R K-Aqua s'ils ne sont pas protégés contre les UV ?",
-        "options": [
-          "En plein soleil",
-          "À l'extérieur, sans bâche",
-          "Toujours à l'abri des rayons UV (à l'intérieur ou recouverts)",
-          "Sous l'eau"
-        ],
-        "correct": 2
-      },
-      {
-        "q": "Quelle série de tubes (SDR) est principalement utilisée pour l'eau froide ?",
-        "options": [
-          "SDR 6",
-          "SDR 7.4",
-          "SDR 11",
-          "SDR 5"
-        ],
-        "correct": 2
-      },
-      {
-        "q": "Combien de temps faut-il chauffer un tube de 20 mm lors du soudage par emboîtement (à température ambiante > 5°C) ?",
-        "options": [
-          "3 Secondes",
-          "5 Secondes",
-          "10 Secondes",
-          "15 Secondes"
-        ],
-        "correct": 1
-      }
-    ],
     "resPerfect": "Excellent ! Vous maîtrisez les principes d'installation du PP-R.",
     "resGood": "Bon résultat, mais encore de la marge pour l'amélioration.",
     "resLow": "Nous recommandons de revoir nos spécifications techniques et vidéos de soudage.",
@@ -4520,7 +4471,67 @@
         "desc": "Confrontez nos ingénieurs avec vos exigences techniques les plus strictes. Nous fournissons l'architecture du système.",
         "button": "Démarrer le briefing d'ingénierie"
       }
-    }
+    },
+    "videos": [
+      {
+        "t": "Soudage par emboîtement manuel",
+        "s": "jusqu'à d63 — Appareil de soudage manuel"
+      },
+      {
+        "t": "Soudage par emboîtement à la machine",
+        "s": "dimensions moyennes"
+      },
+      {
+        "s": "Raccords électrosoudables",
+        "t": "Soudage par électrofusion"
+      },
+      {
+        "s": "Grandes dimensions jusqu'à d630",
+        "t": "Soudage bout à bout (Butt Fusion)"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Quelle méthode de soudage est standard pour les grandes dimensions (ex. d630) ?",
+        "o": [
+          "Soudage par emboîtement manuel",
+          "Soudage bout à bout (Butt Fusion)",
+          "Collage"
+        ]
+      },
+      {
+        "q": "Que signifie SDR pour les systèmes de tuyauterie ?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Réserve de pression de sécurité"
+        ]
+      },
+      {
+        "q": "Qu'est-ce qui différencie le PPRCT du PP-R classique ?",
+        "o": [
+          "Prix plus bas",
+          "Structure cristalline modifiée → plus de réserve de température et de pression",
+          "Renforcement métallique"
+        ]
+      },
+      {
+        "q": "Quel est le code de recyclage du polypropylène ?",
+        "o": [
+          "Code 3",
+          "Code 5",
+          "Code 7"
+        ]
+      },
+      {
+        "q": "Lors de l'électrofusion, la chaleur provient...",
+        "o": [
+          "d'un miroir chauffant",
+          "de bobines chauffantes intégrées dans le raccord",
+          "de l'air chaud"
+        ]
+      }
+    ]
   },
   "refs": {
     "eyebrow": "Références",
@@ -4654,6 +4665,10 @@
       {
         "q": "Proposez-vous des conseils de conception ?",
         "a": "Oui, notre équipe d'ingénieurs allemande vous assiste dans le dimensionnement (calculs isométriques) et la conception de réseaux d'eau complexes."
+      },
+      {
+        "q": "Mes données sont-elles sécurisées ?",
+        "a": "Vos entrées ne sont pas enregistrées sur le serveur, mais transférées directement dans votre programme de messagerie, d'où vous nous envoyez la demande en toute sécurité. Nous traitons vos données de manière strictement confidentielle selon les directives RGPD applicables."
       }
     ],
     "steps": [
@@ -6395,6 +6410,16 @@
           "id": "section-vat",
           "title": "Numéro de TVA",
           "content": "USt-IdNr/N° de TVA :\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Avis juridiques et clause de non-responsabilité",
+          "content": "Les systèmes de tuyauterie PP-R et PPRCT de K Aqua sont des produits de haute technologie pour le transport de l'eau potable, de l'eau de chauffage et des fluides industriels. Les informations contenues sur ce site Web ont été compilées avec le plus grand soin. Cependant, nous déclinons toute responsabilité quant à l'exactitude absolue, l'exhaustivité et l'actualité des données techniques et des spécifications fournies. Nous nous réservons le droit d'apporter des modifications techniques dans le cadre de développements ultérieurs à tout moment.\n\nResponsabilité des liens\nNotre site Web contient des liens vers des sites Web externes de tiers sur le contenu desquels nous n'avons aucune influence. C'est pourquoi nous ne pouvons assumer aucune responsabilité pour ces contenus externes. Le fournisseur ou l'exploitant respectif des pages liées est toujours responsable du contenu de ces pages.\n\nDroit d'auteur\nLe contenu, les dessins techniques, les modèles 3D et les œuvres créés par les exploitants de ces pages sont soumis au droit d'auteur allemand. La reproduction, la modification, la distribution et tout type d'utilisation en dehors des limites de la loi sur le droit d'auteur nécessitent le consentement écrit de l'auteur ou du créateur respectif."
+        },
+        {
+          "id": "section-faq",
+          "title": "Foire aux questions (Mentions légales & Service)",
+          "content": "Comment puis-je contacter le support technique ?\nVous pouvez contacter notre support technique pour toute question concernant les tuyaux PP-R, les paramètres de soudage ou les conceptions personnalisées via l'adresse e-mail mentionnée ci-dessus ou par téléphone pendant nos heures d'ouverture.\n\nOù puis-je trouver des certificats et des homologations détaillés ?\nTous les certificats DVGW, KIWA et SKZ pour nos systèmes de tuyauterie peuvent être téléchargés dans la section « Ressources » ou directement sur les pages de détails des produits respectifs.\n\nQuelle garantie offre K Aqua ?\nK Aqua offre une garantie système complète pour tous les tuyaux et raccords PP-R et PPRCT, à condition qu'ils aient été installés et soudés de manière professionnelle avec des outils K Aqua d'origine. Nous serions heureux de vous envoyer les conditions de garantie détaillées sur demande."
         }
       ]
     },
@@ -6469,46 +6494,16 @@
     "backToSimple": "Retour à l'aperçu"
   },
   "seo": {
-    "pipes": [
-      {
-        "title": "Sécurité hygiénique",
-        "desc": "Certifié DVGW pour l'eau potable sans relargage de matériaux."
-      },
-      {
-        "title": "Résistant aux températures",
-        "desc": "Conçu pour des applications constantes d'eau chaude et froide."
-      }
-    ],
-    "fittings": [
-      {
-        "title": "100% sans fuite",
-        "desc": "Soudage homogène sans aucun joint torique."
-      },
-      {
-        "title": "Résistant à la pression",
-        "desc": "Certifié pour des pressions de service extrêmes pendant des décennies."
-      }
-    ],
-    "valves": [
-      {
-        "title": "Sans entretien",
-        "desc": "Mécanique durable pour un contrôle précis."
-      },
-      {
-        "title": "Passage intégral",
-        "desc": "Aucune perte de charge dans le réseau de tuyauterie."
-      }
-    ],
-    "fallback": [
-      {
-        "title": "Compatible avec le système",
-        "desc": "S'adapte parfaitement à tous les composants K-Aqua."
-      },
-      {
-        "title": "Qualité testée",
-        "desc": "Fabriqué et testé selon les normes ISO 9001."
-      }
-    ]
+    "extendedProductText": {
+      "p1": "Nos systèmes K Aqua de haute qualité offrent une fiabilité et une durabilité maximales pour les projets exigeants du monde entier.",
+      "p2": "Grâce à des matériaux de pointe et à une fabrication précise en Allemagne, nous garantissons une installation simple et une sécurité durable.",
+      "p3": "Faites confiance à une qualité certifiée et à des solutions durables qui répondent aux normes internationales les plus strictes et augmentent l'efficacité de votre projet."
+    },
+    "extendedMarketText": {
+      "p1": "Les solutions K Aqua sont spécialement conçues pour répondre aux exigences des marchés locaux et internationaux.",
+      "p2": "Nous soutenons les entrepreneurs généraux et les planificateurs sur place avec une expertise technique et des systèmes fiables pour chaque défi.",
+      "p3": "Grâce à notre réseau mondial, nous veillons à ce que vous receviez exactement les produits les mieux adaptés à votre projet de construction régional."
+    }
   },
   "application": {
     "tabs": {
@@ -6602,6 +6597,7 @@
   "quote": "Demande de projet",
   "resources": {
     "support": {
+      "metaTitle": "Support Technique | K-Aqua",
       "title": "Support technique",
       "metaDesc": "Support technique K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "seoText": {
@@ -7572,7 +7568,9 @@
     "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
     "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
     "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Tube composite multicouche avec gaine de protection UV spéciale pour l'extérieur (SDR 7.4 PP-R).",
     "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Tube composite haute performance (PP-RCT) avec couche de protection UV noire pour les installations extérieures exigeantes (SDR 7.4).",
     "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
     "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
     "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
@@ -7582,7 +7580,9 @@
     "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
     "tools_electrofusion-machine": "Electrofusion Machine",
     "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "Appareil de soudage bout à bout compact en kit complet pour de petites dimensions de d20 à d32 mm.",
     "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "Appareil de soudage polyvalent en kit (plaque chauffante, support, matrices) pour tubes de d20 à d63 mm.",
     "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
     "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
     "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
@@ -7596,7 +7596,9 @@
     "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
     "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
     "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Support mural coudé unilatéral pour un montage mural sûr des armatures (FI).",
     "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Support mural double face pour des connexions extrêmement stables et solidement vissées.",
     "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
     "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
     "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
@@ -7639,6 +7641,8 @@
       "a4Author": "Kais S.",
       "a5": "“**High-quality products** and a top German factory.”",
       "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "« De très bons produits, **une qualité fiable** et une livraison ponctuelle. »",
+      "a6Author": "Klaus T.",
       "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
       "b1Author": "Michael S.",
       "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
@@ -7654,7 +7658,9 @@
       "c4": "“**Great company**, does a lot for its people.”",
       "c4Author": "Monika v. B.",
       "c5": "“The employees are **very friendly and helpful**.”",
-      "c5Author": "Piera V."
+      "c5Author": "Piera V.",
+      "c6": "« Équipe compétente et un **excellent service client** à tous les niveaux. »",
+      "c6Author": "Sarah B."
     },
     "ctaTitle": "Convince yourself of our service.",
     "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
@@ -7795,7 +7801,7 @@
       "head": "Every percent of drinking water lost costs your network real money.",
       "short": "Loss calculation for your drinking water network",
       "text": "Briefly describe your network size and climate zone. We calculate how much water and budget a K-Aqua installation saves compared to your existing network, including years of operation.",
-      "interest": "Trinkwassernetze",
+      "interest": "Réseaux d'eau potable",
       "done": "A network planner will get back to you within one business day with an initial loss calculation."
     },
     "maerkte_klima": {
@@ -7827,7 +7833,7 @@
       "head": "Robust irrigation networks for maximum yields.",
       "short": "Have your irrigation system designed",
       "text": "Tell us your acreage and water demand. We design a frost-proof, long-lasting PP-R network whose complete opacity prevents clogging caused by algae growth.",
-      "interest": "Trinkwassernetze",
+      "interest": "Réseaux d'eau potable",
       "done": "We will contact you shortly to discuss your irrigation network."
     },
     "maerkte": {
@@ -7851,7 +7857,7 @@
       "head": "Sterility and Legionella prevention in clinical operations.",
       "short": "Drinking water hygiene for clinics",
       "text": "Protecting immunocompromised patients is the top priority. We advise you on ring mains, dead-leg avoidance, and thermal disinfection with our PP-R system.",
-      "interest": "Trinkwassernetze",
+      "interest": "Réseaux d'eau potable",
       "done": "An expert in drinking water hygiene will contact you immediately."
     },
     "loesungen_hotel": {
@@ -8132,12 +8138,39 @@
     }
   },
   "seoArticle": {
-    "pipes": "Tubes PP-R & PP-RCT",
-    "fittings": "Raccords PP-R",
-    "valves": "Vannes & Commandes",
-    "weldInSaddles": "Selles à Souder",
-    "accessories": "Accessoires K-Aqua",
-    "tools": "Outils de Soudage",
-    "transitionFittings": "Raccords de Transition"
+    "fittings": {
+      "seoTitle": "Raccords PP-R et PPRCT pour des connexions fiables",
+      "seoText": "Découvrez des raccords en plastique de haute qualité pour votre installation de tuyaux. Notre sélection offre une qualité et une fiabilité optimales pour chaque projet.",
+      "guideText": "\n    <h2>Des connexions durables</h2>\n    <p>Les raccords constituent le tissu conjonctif de tout système sanitaire. L'efficacité globale et la durabilité d'un réseau dépendent fortement de la qualité de ses connexions. Les raccords PP-R et PPRCT de K Aqua sont conçus avec une précision microscopique pour garantir un écoulement parfait, des connexions homogènes et zéro fuite. Des coudes et tés standard aux distributeurs complexes et brides, nous fournissons la solution de raccordement idéale pour chaque défi de construction.</p>\n    <p>Le secret de notre succès réside dans le principe de soudage par polyfusion (Polyfusion Welding). Contrairement aux systèmes traditionnels en cuivre ou en acier, où le joint est le point le plus faible, un raccord PP-R fondu ne fait plus qu'un avec le tuyau. Il n'y a pas de colle à dégrader, pas de métal à corroder et pas de joint mécanique à desserrer avec le temps. Une fois refroidie, la connexion devient souvent plus solide que le tuyau lui-même.</p>\n    <p>Pour garantir des performances hydrauliques optimales, nos ingénieurs ont méticuleusement conçu les géométries internes de chaque raccord. De larges courbes et des passages internes lisses minimisent la résistance au frottement, maintiennent des débits élevés et réduisent considérablement les nuisances sonores causées par les turbulences de l'eau. Cette attention à l'ingénierie hydraulique réduit la charge sur les pompes et améliore l'efficacité énergétique de l'ensemble du système.</p>\n    <ul>\n      <li>La polyfusion garantit des connexions 100% étanches, permanentes et homogènes.</li>\n      <li>Un intérieur optimisé de manière hydrodynamique réduit la perte de pression.</li>\n      <li>Aucun joint torique ni colle ne signifie que les éléments de joint ne se dégradent pas avec le temps.</li>\n      <li>Résistance exceptionnelle aux produits chimiques agressifs, à l'eau dure et aux environnements corrosifs.</li>\n      <li>Conçu pour une installation rapide sur site, même dans des espaces restreints.</li>\n    </ul>\n    <p>Des hôpitaux de haute technologie en Allemagne nécessitant une qualité d'eau irréprochable aux systèmes de refroidissement massifs dans le désert, nos raccords ont fait leurs preuves dans les conditions les plus exigeantes. Que vous naviguiez dans des conceptions architecturales complexes avec nos raccords de dérivation ou construisiez une plomberie de diamètre massif avec des coupleurs d'électrofusion, K Aqua fournit l'intégrité structurelle sur laquelle vous pouvez compter.</p>\n    <p>Notre gamme complète va de 20 mm à 250 mm et plus, offrant une polyvalence inégalée aux planificateurs et aux installateurs. Associez nos raccords à nos systèmes de tuyauterie PP-R et PPRCT de première classe et à nos outils de soudage d'origine pour bénéficier d'une longue garantie sur l'ensemble du système et d'une tranquillité d'esprit totale.</p>\n  "
+    },
+    "valves": {
+      "guideText": "\n    <h2>Contrôle absolu du débit</h2>\n    <p>Un contrôle précis et un fonctionnement de longue durée sont essentiels à la gestion des réseaux sanitaires modernes. Une gestion efficace des fluides nécessite des points de contrôle robustes et fiables qui peuvent être intégrés de manière transparente au réseau de distribution principal. K Aqua propose une gamme complète de vannes d'arrêt hautes performances, notamment des vannes à boisseau sphérique à passage intégral, des vannes encastrées et des vannes de précision, toutes conçues spécifiquement pour une polyfusion directe dans les conduites PP-R.</p>\n    <p>En fabriquant le corps de vanne à partir du même polymère PP-R que les tuyaux environnants, nous éliminons le besoin de pièces de transition filetées lors de l'installation des points d'arrêt. Cela accélère considérablement le temps d'installation, réduit les coûts de matériel et élimine les points de défaillance potentiels du système. Les composants mécaniques internes – comme les billes en laiton de précision, les broches en acier inoxydable et les bagues de siège en téflon (PTFE) de haute qualité – sont conçus pour fournir un fonctionnement incroyablement fluide et sans entretien pendant des décennies.</p>\n    <p>Contrairement aux vannes à clapet métalliques traditionnelles, qui se coincent ou fuient souvent au niveau du presse-étoupe après des années d'inactivité, les vannes encapsulées dans du plastique de K Aqua sont insensibles à la corrosion externe et sont donc parfaites pour les salles des machines humides, les installations enterrées ou les environnements industriels humides.</p>\n    <ul>\n      <li>La conception à passage intégral empêche toute restriction de l'écoulement du fluide.</li>\n      <li>Les boîtiers en plastique résistants à la corrosion protègent les composants métalliques internes.</li>\n      <li>La polyfusion directe élimine le besoin de connexions filetées vulnérables.</li>\n      <li>Des poignées ergonomiques et une mécanique de précision garantissent un fonctionnement fluide.</li>\n      <li>Disponible dans une variété de tailles pour répondre aux besoins résidentiels et industriels.</li>\n    </ul>\n    <p>Notre conception à passage intégral garantit que lorsque la vanne est ouverte, le débit hydraulique n'est pas restreint, ce qui maintient une pression optimale du système et maximise l'efficacité des pompes de circulation. Que vous ayez besoin d'isoler un seul équipement sanitaire ou de contrôler la conduite d'alimentation principale d'un bâtiment commercial, les vannes K Aqua offrent la fiabilité et les performances requises.</p>\n    <p>Chaque vanne est soumise à des tests de pression stricts avant d'être emballée pour s'assurer qu'elle répond à nos normes de qualité strictes. Faites confiance à K Aqua lorsqu'il s'agit des mécanismes de contrôle qui permettent à vos réseaux de fluides de fonctionner en toute sécurité et efficacement jour après jour et année après année.</p>\n  "
+    },
+    "weldInSaddles": {
+      "seoTitle": "Selles à souder pour tuyaux PP-R & PPRCT",
+      "seoText": "Ajouts rapides et sûrs aux tuyaux existants avec les selles à souder K-Aqua. La meilleure solution pour créer de nouvelles dérivations sans interrompre de longues sections de tuyau.",
+      "guideText": "\n    <h2>Les extensions simplifiées</h2>\n    <p>Les réseaux de tuyauterie commerciaux ou industriels de grande envergure nécessitent souvent des modifications, que ce soit pendant le processus de construction ou des années plus tard en raison d'extensions de bâtiments. Couper les conduites d'alimentation principales, vidanger le système et insérer d'énormes raccords en T (T-Pieces) peut être coûteux en temps et en argent. Les selles à souder (Weld-in Saddles) de K Aqua constituent une alternative brillante, en permettant de souder directement des dérivations sur un tuyau principal existant.</p>\n    <p>Le processus est élégant et extrêmement solide : à l'aide d'un foret spécial K Aqua, un trou précis est pratiqué dans le tuyau principal (paroi latérale). Le tuyau et la selle à souder sont ensuite chauffés à l'aide d'un outil de soudage à matrice spécifique. Lors de l'assemblage, la selle fond directement dans la paroi du tuyau, créant un joint de polyfusion homogène et incassable. Ce système innovant permet des dérivations allant du petit 20 mm sur un tuyau principal massif de 250 mm, économisant ainsi des quantités importantes de matériaux, d'espace et de main-d'œuvre.</p>\n    <p>Les selles à souder sont particulièrement avantageuses dans la construction de gaines techniques étroites, la rénovation de systèmes de chauffage ou de refroidissement (où la ligne principale est déjà fixée), ou lors de la construction de collecteurs d'eau complexes de manière personnalisée sur place. Elles préservent l'intégrité structurelle de la ligne principale tout en fournissant des sorties fiables et de grand volume, le tout avec un profil beaucoup plus petit que celui des raccords en T traditionnels.</p>\n    <ul>\n      <li>Permet de gagner un temps d'installation précieux et de réduire les coûts de matériaux (pas besoin de grands raccords en T).</li>\n      <li>Idéal pour les modifications, les modernisations et les connexions aux tuyauteries existantes.</li>\n      <li>Fournit des dérivations sans effort tout en maintenant le débit de la ligne principale.</li>\n      <li>Disponible pour les selles purement PP-R et pour les raccords avec filetages de transition en laiton.</li>\n      <li>Un processus d'installation nécessitant peu d'espace (parfait pour les puits ou les plafonds étroits).</li>\n    </ul>\n    <p>Nos ingénieurs ont optimisé la géométrie interne de chaque selle à souder pour minimiser les turbulences hydrauliques aux points de dérivation. De plus, nos selles à souder avec inserts en laiton intégrés sont parfaites pour le montage de manomètres, de capteurs de température ou de petites conduites de dérivation directement sur les colonnes montantes massives dans la salle des machines.</p>\n    <p>En équipant vos équipes d'installation des selles à souder K Aqua et des outils spécialisés associés, vous leur donnez la flexibilité d'adapter facilement la plomberie aux conditions du site. Faites l'expérience de la synergie parfaite entre une technologie de raccordement intelligente et la polyfusion à l'épreuve des fuites de K Aqua pour garantir des extensions et des dérivations de réseaux en toute sécurité.</p>\n  "
+    },
+    "accessories": {
+      "seoTitle": "Accessoires pour les installations de tuyaux PP-R",
+      "seoText": "Accessoires professionnels de K-Aqua pour l'installation de vos tuyaux. Découvrez les colliers de serrage, les joints, les bouchons de réparation et les brides de support pour une sécurité maximale.",
+      "guideText": "\n    <h2>La touche finale</h2>\n    <p>Des accessoires (Accessories) pour une installation conforme transforment un système sanitaire fonctionnel en un chef-d'œuvre professionnel. Alors que les tuyaux et les raccords constituent le cœur du réseau, les accessoires de support sont essentiels pour compenser la dilatation thermique, atténuer les vibrations et garantir une intégration sûre dans l'infrastructure du bâtiment. K Aqua propose un écosystème complet d'accessoires conçus pour s'harmoniser parfaitement avec nos produits PP-R et PPRCT.</p>\n    <p>L'un des aspects les plus importants de tout système d'eau chaude ou de chauffage est la maîtrise de l'expansion linéaire des tuyaux. Nos colliers de serrage spéciaux sont conçus pour agir comme des points fixes ou des guides coulissants, permettant au tuyau de se dilater et de se contracter en douceur sans endommager les joints ou la structure du bâtiment par contrainte. Ces colliers sont dotés de revêtements en caoutchouc épais qui offrent une excellente isolation acoustique et empêchent la transmission du bruit d'écoulement à travers les murs.</p>\n    <p>De plus, notre gamme comprend des joints plats en EPDM de haute qualité, des brides à collerette à souder spéciales avec noyau en acier pour les connexions industrielles, et des bouchons de réparation robustes qui permettent des réparations rapides et durables si un tuyau est accidentellement percé pendant la construction.</p>\n    <ul>\n      <li>Les colliers de serrage avec revêtement acoustique éliminent la transmission des bruits d'écoulement.</li>\n      <li>Des systèmes d'ancrage appropriés contrôlent en toute sécurité l'expansion et la contraction thermiques.</li>\n      <li>Les brides à collerette à souder renforcées d'acier assurent une connexion sûre aux machines lourdes.</li>\n      <li>Les joints en EPDM de haute qualité garantissent une étanchéité résistante et durable sur les assemblages à brides.</li>\n      <li>Des bouchons de réparation spéciaux offrent une solution permanente pour les perforations accidentelles.</li>\n    </ul>\n    <p>L'utilisation d'accessoires génériques ou incompatibles peut sérieusement compromettre les performances d'un système de tuyauterie haut de gamme. Par exemple, l'utilisation de colliers sans revêtement en caoutchouc sur une conduite d'eau chaude peut provoquer des bruits de cliquetis gênants lorsque le tuyau se dilate, tandis qu'un ancrage inadéquat peut provoquer la flexion ou même la rupture du tuyau sous contrainte thermique. Les accessoires K Aqua sont soumis à des tests rigoureux pour garantir qu'ils répondent à nos normes exigeantes.</p>\n    <p>En utilisant notre gamme complète d'accessoires, les installateurs peuvent s'assurer que leur travail non seulement respecte, mais dépasse les codes de construction locaux et les normes de l'industrie. C'est l'attention portée à ces petits détails qui fait une installation vraiment professionnelle et garantit des décennies de fonctionnement sans faille.</p>\n  "
+    },
+    "tools": {
+      "seoTitle": "Outils de soudage et coupe-tubes pour PP-R",
+      "seoText": "Outils professionnels K-Aqua pour l'installation de tuyaux. Découvrez les machines de soudage et les coupe-tubes pour une précision maximale et des connexions parfaites.",
+      "guideText": "\n    <h2>Une précision à chaque coupe</h2>\n    <p>Une précision maximale pour une connexion parfaite est la marque de fabrique de nos outils. La fiabilité de tout système sanitaire de polyfusion dépend entièrement de la précision des outils d'installation. K Aqua propose une gamme complète d'équipements de coupe et de soudage professionnels, conçus pour éliminer l'erreur humaine et garantir des connexions parfaites et homogènes à chaque joint, des conduites résidentielles de 20 mm aux conduites industrielles massives de 250 mm.</p>\n    <p>Une soudure sans défaut commence par une coupe parfaitement perpendiculaire et nette. Nos coupe-tubes à cliquet et scies circulaires rotatives fournissent un bord sans bavure à 90 degrés, ce qui est absolument nécessaire pour que le tuyau repose correctement dans le raccord. Si un tuyau est coupé de biais, la soudure qui en résulte est inégale, ce qui peut entraîner des restrictions d'écoulement ou des défaillances structurelles à long terme. Nos couteaux sont construits en acier trempé pour résister aux rigueurs des chantiers.</p>\n    <p>Pour le processus de soudage, les machines de soudage manuel et les stations de soudage hydrauliques haute performance de K Aqua sont équipées d'éléments chauffants à commande électronique. Ces thermostats maintiennent strictement la température critique de 260 °C requise pour une liaison moléculaire optimale, empêchant ainsi le plastique de se dégrader par surchauffe ou de former des connexions faibles et fragiles par sous-chauffe.</p>\n    <ul>\n      <li>Des thermostats contrôlés électroniquement garantissent des températures de soudage précises.</li>\n      <li>Un revêtement en téflon (PTFE) de haute qualité empêche le plastique de coller aux matrices.</li>\n      <li>Les coupe-tubes à cliquet réduisent la fatigue des mains et assurent des coupes parfaitement d'équerre.</li>\n      <li>L'équipement hydraulique haute performance fournit la force immense nécessaire pour les tuyaux de grand diamètre.</li>\n      <li>Les machines d'électrofusion offrent un soudage automatisé et documenté pour les applications critiques.</li>\n    </ul>\n    <p>Les matrices de chauffage elles-mêmes sont recouvertes de téflon antiadhésif (PTFE) de haute qualité pour garantir un transfert de chaleur propre et éviter de déchirer le plastique fondu lors du retrait. En utilisant des machines d'électrofusion automatisées, des équipements de soudage bout à bout et des outils de selle spéciaux d'origine K Aqua, les entrepreneurs peuvent maximiser leur efficacité sur site, réduire considérablement la fatigue physique et offrir à leurs clients une assurance qualité documentée et 100 % sans fuite.</p>\n    <p>Investir dans des outils professionnels K Aqua est un investissement dans la longévité et l'intégrité de votre travail. Ils sont conçus pour fonctionner de manière fiable, même dans les environnements les plus difficiles, vous assurant ainsi de pouvoir offrir une perfection développée en Allemagne pour chaque projet, quels que soient sa taille ou sa complexité.</p>\n  "
+    },
+    "transitionFittings": {
+      "advTitle": "Connexion sécurisée à d'autres matériaux",
+      "advList": [
+        "Laiton de haute qualité : Résistant à la corrosion et à la dézincification (laiton DZR).",
+        "Fabrication de précision : Filetages fraisés CNC pour une compatibilité parfaite.",
+        "Joint homogène : Injection directe pour une liaison indissociable entre le laiton et le PP-R."
+      ],
+      "seoTitle": "Raccords de transition en laiton & PP-R",
+      "seoText": "Des transitions fiables entre vos tuyaux en plastique et les composants métalliques. Les raccords de transition de K-Aqua offrent un laiton de haute qualité et de l'acier inoxydable pour une sécurité d'installation maximale.",
+      "guideText": "\n    <h2>Traverser la fracture des matériaux</h2>\n    <p>Dans la construction moderne, les systèmes de tuyauterie en polymère existent rarement de manière isolée. Ils doivent s'interfacer avec l'infrastructure métallique existante, les pompes, les chaudières, les compteurs d'eau et les robinetteries sanitaires. Les raccords de transition (Transition Fittings) K Aqua servent de pont parfait et étanche entre le monde des polymères synthétiques (PP-R/PPRCT) et les composants métalliques traditionnels. Concevoir une transition fiable qui résiste à une immense pression, à l'expansion thermique et à la corrosion au fil des décennies nécessite une ingénierie exceptionnelle.</p>\n    <p>Nos raccords de transition comportent un insert en laiton ou en acier inoxydable de qualité supérieure, façonné avec précision, qui est surmoulé par injection de manière experte avec du polypropylène. Contrairement aux raccords moins chers qui utilisent simplement un joint torique ou un simple joint à pression, le processus de fabrication exclusif de K Aqua intègre le métal en profondeur dans la matrice en plastique, avec des rainures usinées et des mécanismes anti-rotation. Cela crée une connexion structurelle incassable, immunisée contre les contraintes de torsion lors du vissage des tuyaux métalliques lourds.</p>\n    <p>Pour les systèmes d'eau potable, il est primordial de s'assurer qu'aucun métal nocif ne pénètre dans l'eau. C'est pourquoi nous n'utilisons que des alliages de laiton de haute qualité (souvent appelés laiton DZR) conformes aux directives environnementales européennes (normes UBA), ou de l'acier inoxydable de qualité médicale pour les applications où les normes de pureté de l'eau sont particulièrement strictes, comme les hôpitaux ou les usines de transformation des aliments.</p>\n    <ul>\n      <li>Surmoulage profond avec rainures anti-rotation pour une intégrité structurelle maximale.</li>\n      <li>Les alliages de laiton DZR conformes à la norme UBA préviennent la contamination par les métaux lourds dans l'eau potable.</li>\n      <li>Filetages fraisés CNC de précision (ISO 7/1 et ISO 228) garantissant la compatibilité avec tous les composants métalliques.</li>\n      <li>Liaisons homogènes entre le métal et le PP-R, éliminant les fuites à la zone de transition.</li>\n      <li>Disponible sous forme de filetages intérieurs/extérieurs, de raccords-unions, de brides et de composants pour radiateurs.</li>\n    </ul>\n    <p>Pendant l'installation, nos raccords de transition offrent à l'installateur une base solide et hexagonale (facilement saisissable avec une clé) pour empêcher la force de torsion d'endommager la partie en plastique du tuyau. Des détails de conception réfléchis comme celui-ci sont la raison pour laquelle les installateurs professionnels préfèrent K Aqua lorsqu'ils raccordent des collecteurs de chauffage de grande taille ou fixent des robinets sanitaires exigeants.</p>\n    <p>Qu'il s'agisse du passage d'une ancienne conduite principale en cuivre à une nouvelle colonne montante en PP-R, ou du raccordement d'un système moderne d'eau glacée en PPRCT à une pompe à chaleur, nos raccords de transition offrent la fiabilité technique requise pour surmonter en douceur et en toute sécurité la fracture des matériaux pour toute la durée de vie de votre projet.</p>\n  "
+    }
   }
 }

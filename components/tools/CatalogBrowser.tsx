@@ -15,25 +15,23 @@
 "use client";
 /* eslint-disable react/jsx-no-literals */
 import React, { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { DeepMatrix } from "@/components/ui/DeepMatrix";
-import { ChevronDown } from "@/components/ui/icon";
-import { CATALOG, resolveCatalogHead } from "@/lib/data/catalog";
+import EngineeredCard from "@/components/ui/EngineeredCard";
+import { CATALOG } from "@/lib/data/catalog";
 import type { CatalogItem } from "@/lib/data/catalog";
 
 interface CatalogTabMeta {
   label: string;
   desc: string;
+  title?: string;
 }
 
 export function CatalogBrowser() {
   const t = useTranslations("catalogx");
-  const locale = useLocale() as "de" | "en" | "ar";
   const [cat, setCat] = useState(0);
   const [q, setQ] = useState("");
-  const [openIdx, setOpenIdx] = useState(-1);
 
   const CATS = CATALOG;
   const active = CATS[cat] ?? CATS[0];
@@ -98,82 +96,31 @@ export function CatalogBrowser() {
           {items.length === 0 ? (
             <p className="text-body text-muted-foreground">{t("noResults")}</p>
           ) : (
-            items.map((it, i) => {
-              const isOpen = openIdx === i;
-              return (
-                <div
-                  key={it.title}
-                  className={
-                    isOpen
-                      ? "overflow-hidden rounded-lg border border-primary bg-card"
-                      : "overflow-hidden rounded-lg border border-card-border bg-card"
-                  }
-                >
-                  <button
-                    type="button"
-                    className="flex min-h-14 w-full items-center justify-between gap-4 px-5 py-4 text-start outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
-                    aria-expanded={isOpen}
-                    onClick={() => setOpenIdx(isOpen ? -1 : i)}
-                  >
-                    <span className="flex min-w-0 flex-col items-start gap-1">
-                      <span className="font-heading text-body font-bold text-foreground">{it.title}</span>
-                      <span className="text-tiny font-medium text-faint-foreground">{it.codes}</span>
-                    </span>
-                    <ChevronDown
-                      size={18}
-                      className={isOpen ? "shrink-0 rotate-180 text-primary transition-transform" : "shrink-0 text-primary transition-transform"}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {items.map((it, i) => {
+                const specs = [];
+                if (it.material) specs.push({ label: t("materialLabel"), value: it.material });
+                if (it.sdr) specs.push({ label: t("sdrLabel"), value: String(it.sdr) });
+                if (it.series) specs.push({ label: t("seriesLabel"), value: it.series });
+                if (it.pressure) specs.push({ label: t("pressureLabel"), value: it.pressure });
+                if (it.len) specs.push({ label: t("lenLabel"), value: it.len });
+
+                return (
+                  <Reveal key={it.slug} delay={i * 0.05}>
+                    <EngineeredCard
+                      glow={280}
+                      stagger={22}
+                      overline={it.codes || activeMeta?.title || "K-Aqua"}
+                      title={it.title}
+                      lead={it.note || ""}
+                      specs={specs}
+                      cta={t("viewDetails") || "Details"}
+                      href={`/produkte/katalog/${active!.id}/${it.slug}`}
                     />
-                  </button>
-                  {isOpen ? (
-                    <div className="px-5 pb-5">
-                      {it.material || it.sdr || it.series || it.pressure || it.len ? (
-                        <div className="mb-4 flex flex-wrap gap-2">
-                          {it.material ? (
-                            <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("materialLabel")}
-                              {": "}
-                              <strong>{it.material}</strong>
-                            </span>
-                          ) : null}
-                          {it.sdr ? (
-                            <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("sdrLabel")}
-                              {": "}
-                              <strong>{it.sdr}</strong>
-                            </span>
-                          ) : null}
-                          {it.series ? (
-                            <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("seriesLabel")}
-                              {": "}
-                              <strong>{it.series}</strong>
-                            </span>
-                          ) : null}
-                          {it.pressure ? (
-                            <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("pressureLabel")}
-                              {": "}
-                              <strong>{it.pressure}</strong>
-                            </span>
-                          ) : null}
-                          {it.len ? (
-                            <span className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
-                              {t("lenLabel")}
-                              {": "}
-                              <strong>{it.len}</strong>
-                            </span>
-                          ) : null}
-                        </div>
-                      ) : null}
-                      <DeepMatrix head={resolveCatalogHead(it.head, locale)} rows={it.rows} />
-                      {locale === "de" && it.note ? (
-                        <p className="mt-3 text-tiny leading-relaxed text-faint-foreground">{it.note}</p>
-                      ) : null}
-                    </div>
-                  ) : null}
-                </div>
-              );
-            })
+                  </Reveal>
+                );
+              })}
+            </div>
           )}
         </div>
       </div>

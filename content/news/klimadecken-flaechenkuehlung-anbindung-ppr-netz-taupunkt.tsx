@@ -8,7 +8,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Wind, ThermometerSnowflake, LayoutDashboard, VolumeX } from "@/components/ui/icon";
 
 export const klimadeckenFlaechenkuehlung: NewsPost = {
@@ -46,7 +45,9 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="droplet" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center">
+              <Wind className="w-32 h-32 text-primary/30" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -163,22 +164,26 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Was genau ist eigentlich der Taupunkt?",
-                description: "Wenn feuchtwarme Raumluft auf eine sehr kalte Oberfläche (wie eine ungedämmte Kaltwasserleitung) trifft, kühlt die Luft schlagartig ab und kondensiert. Es bilden sich feine Wassertropfen (Schwitzwasser), die sich sammeln, abtropfen und schwere Wasserschäden in der abgehängten Decke verursachen können."
-              },
-              {
-                title: "2. Warum K-Aqua PPR hier klar im Vorteil ist",
-                description: "Metalle wie Stahl oder Kupfer leiten kalte Wassertemperaturen ohne Zeitverlust sofort an die Rohroberfläche weiter – sie beschlagen in Sekundenbruchteilen. PPR hat eine sehr geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche extrem verzögert. Dennoch ist eine fachgerechte, diffusionsdichte Dämmung nach wie vor Pflicht."
-              },
-              {
-                title: "3. Die intelligente, automatisierte Taupunktregelung",
-                description: "Moderne Gebäudeleittechnik (GLT) überwacht über Sensoren permanent die relative Luftfeuchtigkeit im gesamten Raum. Droht tatsächlich eine Kondensation, greift das System blitzschnell ein und hebt die Vorlauftemperatur des Wassers automatisch über Mischventile um 1-2 Grad an, bevor sich auch nur der erste Tropfen bilden kann."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="p-6 rounded-2xl border border-card-border bg-card h-full flex flex-col">
+                <h3 className="text-xl font-bold text-foreground mb-2">1. Was genau ist eigentlich der Taupunkt?</h3>
+                <p className="text-muted-foreground leading-relaxed">Wenn feuchtwarme Raumluft auf eine sehr kalte Oberfläche (wie eine ungedämmte Kaltwasserleitung) trifft, kühlt die Luft schlagartig ab und kondensiert. Es bilden sich feine Wassertropfen (Schwitzwasser), die sich sammeln, abtropfen und schwere Wasserschäden in der abgehängten Decke verursachen können.</p>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="p-6 rounded-2xl border border-card-border bg-card h-full flex flex-col">
+                <h3 className="text-xl font-bold text-foreground mb-2">2. Warum K-Aqua PPR hier klar im Vorteil ist</h3>
+                <p className="text-muted-foreground leading-relaxed">Metalle wie Stahl oder Kupfer leiten kalte Wassertemperaturen ohne Zeitverlust sofort an die Rohroberfläche weiter – sie beschlagen in Sekundenbruchteilen. PPR hat eine sehr geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche extrem verzögert. Dennoch ist eine fachgerechte, diffusionsdichte Dämmung nach wie vor Pflicht.</p>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="p-6 rounded-2xl border border-card-border bg-card h-full flex flex-col">
+                <h3 className="text-xl font-bold text-foreground mb-2">3. Die intelligente, automatisierte Taupunktregelung</h3>
+                <p className="text-muted-foreground leading-relaxed">Moderne Gebäudeleittechnik (GLT) überwacht über Sensoren permanent die relative Luftfeuchtigkeit im gesamten Raum. Droht tatsächlich eine Kondensation, greift das System blitzschnell ein und hebt die Vorlauftemperatur des Wassers automatisch über Mischventile um 1-2 Grad an, bevor sich auch nur der erste Tropfen bilden kann.</p>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -196,13 +201,13 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
       </Reveal>
 
       <Reveal>
-        <CTABand
-          title="Planen Sie ein wegweisendes, zukunftsfähiges Bürogebäude?"
-          subtitle="Verbinden Sie höchsten gesundheitlichen Raumkomfort für Mitarbeiter mit einer absolut sicheren, langlebigen und völlig korrosionsfreien Kälteverteilung aus K-Aqua PPR-Kunststoff. Wir unterstützen Sie."
-          buttonText="Beratung zur Kälteverteilung anfordern"
-          buttonLink="/kontakt"
-          icon={<Wind className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein wegweisendes, zukunftsfähiges Bürogebäude?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Verbinden Sie höchsten gesundheitlichen Raumkomfort für Mitarbeiter mit einer absolut sicheren, langlebigen und völlig korrosionsfreien Kälteverteilung aus K-Aqua PPR-Kunststoff. Wir unterstützen Sie.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Beratung zur Kälteverteilung anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

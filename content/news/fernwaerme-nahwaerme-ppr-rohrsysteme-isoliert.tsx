@@ -2,12 +2,11 @@ import React from "react";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { Stagger } from "@/components/ui/Stagger";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
-import { Flame, Thermometer, Shield, ShieldAlert, Layers, Activity } from "@/components/ui/icon";
+import { Flame, Thermometer, Shield, Activity } from "@/components/ui/icon";
 
 export const fernwaermeNahwaerme: NewsPost = {
   slug: "fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert",
@@ -50,7 +49,7 @@ export const fernwaermeNahwaerme: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            <PipeFX variant="flow" size={380} />
+            <div className="w-[380px] h-[380px] rounded-full bg-gradient-to-br from-primary/20 via-primary/5 to-transparent blur-2xl" />
           </div>
         </div>
       </Reveal>
@@ -132,28 +131,26 @@ export const fernwaermeNahwaerme: NewsPost = {
           title="Vorteile des PPRCT Systems"
           lead="Neben den thermodynamischen Eigenschaften punktet Kunststoff vor allem in der Bauausführung und Langlebigkeit."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Absolut korrosionsfrei",
-              description: "Im Gegensatz zu Stahlrohren benötigen PPRCT Systeme keinen kathodischen Korrosionsschutz. Bodenfeuchte und Streuströme verursachen keine Schäden.",
-              icon: <Shield className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Schneller Grabenfortschritt",
-              description: "Durch das geringe Gewicht können lange Trassen oft ohne schweres Hebezeug verlegt werden. Das spart teure Bagger- und Kranstunden.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Minimale Wärmeverluste",
-              description: "Der Verbund aus PPRCT Mediumrohr und hochwertigem PUR Hartschaum isoliert effizienter als viele Standardsysteme.",
-              icon: <Thermometer className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Absolut korrosionsfrei"
+            description="Im Gegensatz zu Stahlrohren benötigen PPRCT Systeme keinen kathodischen Korrosionsschutz. Bodenfeuchte und Streuströme verursachen keine Schäden."
+            icon={<Shield className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Schneller Grabenfortschritt"
+            description="Durch das geringe Gewicht können lange Trassen oft ohne schweres Hebezeug verlegt werden. Das spart teure Bagger- und Kranstunden."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+            colSpan={1}
+          />
+          <BentoGridItem
+            title="Minimale Wärmeverluste"
+            description="Der Verbund aus PPRCT Mediumrohr und hochwertigem PUR Hartschaum isoliert effizienter als viele Standardsysteme."
+            icon={<Thermometer className="w-6 h-6 text-primary" />}
+            colSpan={3}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* Stagger: Der Aufbau des vorisolierten Rohrs */}
@@ -163,33 +160,37 @@ export const fernwaermeNahwaerme: NewsPost = {
           lead="Ein geschlossenes System für maximale Effizienz."
           align="center"
         />
-        <Stagger
-          items={[
-            {
-              title: "1. Das Mediumrohr",
-              description: "K Aqua K Faser PPRCT Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand."
-            },
-            {
-              title: "2. Die Dämmschicht",
-              description: "FCKW freier Polyurethan Hartschaum (PUR). Sorgt für eine exzellente Wärmedämmung und einen festen Verbund zwischen Innen- und Außenrohr."
-            },
-            {
-              title: "3. Der Mantel",
-              description: "Extrudiertes Polyethylen (PE HD). Bietet ultimativen mechanischen Schutz gegen Steine, Wurzeln und Feuchtigkeit im Erdreich."
-            }
-          ]}
-        />
+        <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <Reveal key="1">
+            <div className="p-6 rounded-2xl border border-card-border bg-card h-full">
+              <h3 className="text-xl font-bold mb-2">1. Das Mediumrohr</h3>
+              <p className="text-muted-foreground">K Aqua K Faser PPRCT Rohr. Garantiert optimalen Durchfluss, ist inkrustationsfrei und hält hohen Temperaturen sowie Drücken stand.</p>
+            </div>
+          </Reveal>
+          <Reveal key="2">
+            <div className="p-6 rounded-2xl border border-card-border bg-card h-full">
+              <h3 className="text-xl font-bold mb-2">2. Die Dämmschicht</h3>
+              <p className="text-muted-foreground">FCKW freier Polyurethan Hartschaum (PUR). Sorgt für eine exzellente Wärmedämmung und einen festen Verbund zwischen Innen- und Außenrohr.</p>
+            </div>
+          </Reveal>
+          <Reveal key="3">
+            <div className="p-6 rounded-2xl border border-card-border bg-card h-full">
+              <h3 className="text-xl font-bold mb-2">3. Der Mantel</h3>
+              <p className="text-muted-foreground">Extrudiertes Polyethylen (PE HD). Bietet ultimativen mechanischen Schutz gegen Steine, Wurzeln und Feuchtigkeit im Erdreich.</p>
+            </div>
+          </Reveal>
+        </Stagger>
       </Reveal>
 
       {/* CTABand: Projektanfrage */}
       <Reveal>
-        <CTABand
-          title="Tiefbauprojekte effizient umsetzen"
-          subtitle="Sprechen Sie mit unseren Infrastruktur Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung."
-          buttonText="Infrastruktur Beratung anfragen"
-          buttonLink="/kontakt"
-          icon={<Layers className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Tiefbauprojekte effizient umsetzen</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Sprechen Sie mit unseren Infrastruktur Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Infrastruktur Beratung anfragen
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>

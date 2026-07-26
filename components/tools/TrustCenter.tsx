@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Chip } from "@/components/ui/Chip";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
@@ -296,15 +297,15 @@ export function TrustCenter({ data }: TrustCenterProps) {
                       {data.requestZip}
                     </p>
                   )}
-                  <Button
+                  <LiquidMagneticButton
+                    fill="droplet"
+                    size="md"
                     href={pickedDocs.length > 0 ? mailtoHref : undefined}
                     disabled={pickedDocs.length === 0}
                     className="w-full"
-                    icon={<FileText className="w-4 h-4" />}
-                    iconPosition="right"
                   >
                     {requestBtnText}
-                  </Button>
+                  </LiquidMagneticButton>
                 </div>
               </Card>
             </div>

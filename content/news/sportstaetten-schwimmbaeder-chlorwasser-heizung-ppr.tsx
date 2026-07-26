@@ -7,7 +7,6 @@ import { StatBand } from "@/components/ui/StatBand";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { Waves, Activity, Thermometer, Shield } from "@/components/ui/icon";
 
 export const sportstaettenSchwimmbaeder: NewsPost = {

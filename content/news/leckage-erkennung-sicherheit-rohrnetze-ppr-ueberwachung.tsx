@@ -7,7 +7,6 @@ import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
-import { PipeFX } from "@/components/ui/PipeFX";
 import { ShieldAlert, Search, Activity, Wrench } from "@/components/ui/icon";
 
 export const leckageErkennungSicherheit: NewsPost = {
@@ -46,8 +45,10 @@ export const leckageErkennungSicherheit: NewsPost = {
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
-            {/* Technisches Canvas Element für Druckstabilität und Dichtigkeit */}
-            <PipeFX variant="pressure" size={380} />
+            {/* Technisches Element für Druckstabilität und Dichtigkeit */}
+            <div className="w-72 h-72 rounded-full border-4 border-primary/20 bg-primary/5 flex items-center justify-center">
+              <ShieldAlert className="w-32 h-32 text-primary/30" />
+            </div>
           </div>
         </div>
       </Reveal>
@@ -107,22 +108,38 @@ export const leckageErkennungSicherheit: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger
-            items={[
-              {
-                title: "1. Ermüdung von Elastomerdichtungen",
-                description: "In der TGA werden unzählige Pressfittings mit O Ringen verbaut. Nach 15 bis 20 Jahren, besonders bei hohen Wassertemperaturen, verlieren diese Gummis ihre Elastizität und werden undicht. Bei K Aqua PPR entfällt dieses Risiko zu 100 %."
-              },
-              {
-                title: "2. Vibrationen und Druckschläge",
-                description: "Starke Pumpen und schnell schließende Ventile verursachen Mikrovibrationen. Schraubverbindungen aus Metall können sich dadurch über Jahre hinweg lockern. Ein stoffschlüssig verschweißtes PPR System fängt Vibrationen elastisch ab."
-              },
-              {
-                title: "3. Lochfraß (Pitting Corrosion)",
-                description: "Lokale elektrochemische Prozesse fressen winzige Löcher in Metallrohre. Dies geschieht oft schleichend unter der Isolierung. Da Kunststoff ein Nichtleiter ist, gibt es bei K Aqua keinerlei elektrochemische Korrosion."
-              }
-            ]}
-          />
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Reveal key="1">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">1. Ermüdung von Elastomerdichtungen</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    In der TGA werden unzählige Pressfittings mit O Ringen verbaut. Nach 15 bis 20 Jahren, besonders bei hohen Wassertemperaturen, verlieren diese Gummis ihre Elastizität und werden undicht. Bei K Aqua PPR entfällt dieses Risiko zu 100 %.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+            <Reveal key="2">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">2. Vibrationen und Druckschläge</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    Starke Pumpen und schnell schließende Ventile verursachen Mikrovibrationen. Schraubverbindungen aus Metall können sich dadurch über Jahre hinweg lockern. Ein stoffschlüssig verschweißtes PPR System fängt Vibrationen elastisch ab.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+            <Reveal key="3">
+              <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">3. Lochfraß (Pitting Corrosion)</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    Lokale elektrochemische Prozesse fressen winzige Löcher in Metallrohre. Dies geschieht oft schleichend unter der Isolierung. Da Kunststoff ein Nichtleiter ist, gibt es bei K Aqua keinerlei elektrochemische Korrosion.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          </Stagger>
         </div>
       </Reveal>
 
@@ -184,13 +201,13 @@ export const leckageErkennungSicherheit: NewsPost = {
 
       {/* CTABand: Sicherheitstechnik */}
       <Reveal>
-        <CTABand
-          title="Wollen Sie Wasserschäden in Großprojekten ausschließen?"
-          subtitle="Schützen Sie Ihre Investition durch eine kompromisslos sichere Rohrinfrastruktur. Wir schulen Ihre Installateure vor Ort in der perfekten PPR Schweißtechnik."
-          buttonText="Beratung anfordern"
-          buttonLink="/kontakt"
-          icon={<ShieldAlert className="w-6 h-6" />}
-        />
+        <CTABand>
+          <h3 className="text-2xl md:text-3xl font-bold">Wollen Sie Wasserschäden in Großprojekten ausschließen?</h3>
+          <p className="text-inverse-foreground/80 leading-relaxed">Schützen Sie Ihre Investition durch eine kompromisslos sichere Rohrinfrastruktur. Wir schulen Ihre Installateure vor Ort in der perfekten PPR Schweißtechnik.</p>
+          <a href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Beratung anfordern
+          </a>
+        </CTABand>
       </Reveal>
 
     </div>
