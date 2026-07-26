@@ -69,6 +69,9 @@ export default function Footer() {
                 <Link href="/datenschutz" className="hover:opacity-100 hover:text-white transition-opacity">
                   {t('footer.privacy')}
                 </Link>
+                <Link href="/sitemap" className="hover:opacity-100 hover:text-white transition-opacity">
+                  Sitemap
+                </Link>
               </div>
             </div>
 

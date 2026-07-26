@@ -258,7 +258,14 @@ export default function MarketsHub({
                       <div className="flex flex-col">
                         <span className="font-heading font-bold text-[17px] text-foreground">{g.city}</span>
                         <span className="text-[13px] text-muted-foreground">
-                          {g.country} · {shortRegulator}
+                          <Link 
+                            href={`/maerkte/${g.hubSlug}`} 
+                            className="hover:underline relative z-10"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            {g.country}
+                          </Link>
+                          {" "}· {shortRegulator}
                         </span>
                       </div>
                       {!isActive && (
