@@ -37,7 +37,7 @@ export const recyclingPpr: NewsPost = {
     <div className="flex flex-col gap-24 py-12">
 
       <Reveal>
-        <ParallaxHero
+        <ParallaxHero headingLevel="h2"
           imageSrc="/images/news/recycling-ppr.jpg"
           title="Sortenreine Kunststoffrohrsysteme für echte Kreislaufwirtschaft"
           subtitle="In der modernen Bauwirtschaft müssen Rohrsysteme nachhaltig, langlebig und am Ende ihres Lebenszyklus kreislauffähig gestaltet sein. Während herkömmliche Mehrschichtverbundrohre (PEX/Alu) durch unlösbare Verklebungen der Materialschichten schwer bis gar nicht recycelbar sind, bestehen K-Aqua PPR und PPRCT Rohre aus einem sortenreinen Thermoplast. Dadurch lassen sie sich nach Jahrzehnten zu 100 % einschmelzen und in neue hochwertige Kunststoffprodukte überführen."

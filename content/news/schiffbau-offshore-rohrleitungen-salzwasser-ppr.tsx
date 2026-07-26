@@ -36,7 +36,7 @@ export const schiffbauOffshore: NewsPost = {
 
       {/* Intro mit ParallaxHero */}
       <Reveal>
-        <ParallaxHero
+        <ParallaxHero headingLevel="h2"
           imageSrc="/images/news/ship-offshore.jpg"
           title="Der ultimative Korrosionsschutz auf hoher See"
           subtitle="Maritime Einsatzbedingungen verzeihen keine Schwächen. Aggressives Salzwasser zersetzt unbehandelte Metalle innerhalb kürzester Zeit. K Aqua PPR und PPRCT Rohrsysteme sind zu 100 % seewasserresistent und bieten eine revolutionäre Alternative zu schweren CuNiFe Leitungen."

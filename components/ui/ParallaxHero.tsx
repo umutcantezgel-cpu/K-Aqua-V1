@@ -10,12 +10,14 @@ export const ParallaxHero = ({
   description,
   children,
   className,
+  headingLevel = "h1",
 }: {
   eyebrow?: string;
   title: string | React.ReactNode;
   description: string | React.ReactNode;
   children?: React.ReactNode;
   className?: string;
+  headingLevel?: "h1" | "h2";
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -26,6 +28,8 @@ export const ParallaxHero = ({
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const opacityText = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
+  const HeadingComponent = headingLevel === "h2" ? motion.h2 : motion.h1;
 
   return (
     <div
@@ -60,14 +64,14 @@ export const ParallaxHero = ({
           </motion.span>
         )}
         
-        <motion.h1 
+        <HeadingComponent 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-5xl sm:text-6xl lg:text-8xl font-heading font-extrabold tracking-tight leading-[1.05]"
         >
           {title}
-        </motion.h1>
+        </HeadingComponent>
         
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
