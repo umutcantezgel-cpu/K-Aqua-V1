@@ -69,18 +69,56 @@ export function constructMetadata({
   // Remove leading K-Aqua if it's there
   cleanTitle = cleanTitle.replace(/^K-Aqua\s*?[|·-]\s*?/i, "").trim();
   
-  const finalTitle = `${cleanTitle} | K-Aqua`;
+  // SEO optimization: Pad very short titles (Trust Center, Sitemap, Support)
+  if (cleanTitle === "Sitemap" || cleanTitle === "خريطة الموقع") {
+    cleanTitle = locale === 'de' ? "Sitemap – Alle Seiten im Überblick" : locale === 'ar' ? "خريطة الموقع – نظرة عامة على جميع الصفحات" : "Sitemap – Overview of all Pages";
+  } else if (cleanTitle === "Trust Center" || cleanTitle === "مركز الثقة") {
+    cleanTitle = locale === 'de' ? "Trust Center – Zertifikate & Sicherheit" : locale === 'ar' ? "مركز الثقة – الشهادات والأمان" : "Trust Center – Certificates & Security";
+  } else if (cleanTitle === "Support" || cleanTitle === "الدعم الفني") {
+    cleanTitle = locale === 'de' ? "Technischer Support & Kundenservice" : locale === 'ar' ? "الدعم الفني وخدمة العملاء" : "Technical Support & Customer Service";
+  }
+
+  let finalTitle = cleanTitle;
+  // Avoid 'Wortwiederholung' by not appending | K-Aqua if it's already in the string naturally
+  if (!cleanTitle.toLowerCase().includes('k-aqua')) {
+    finalTitle = `${cleanTitle} | K-Aqua`;
+  }
 
   const isTranslated = translatedLocales.includes(locale);
 
-  let finalDescription = description;
-  if (finalDescription && finalDescription.length < 130) {
-    if (locale === 'de') finalDescription += " Entdecken Sie unsere zertifizierten PP-R & PP-RCT Rohrleitungssysteme.";
-    else if (locale === 'en') finalDescription += " Discover our certified PP-R & PP-RCT piping systems.";
-    else if (locale === 'es') finalDescription += " Descubra nuestros sistemas de tuberías certificados de PP-R y PP-RCT.";
-    else if (locale === 'fr') finalDescription += " Découvrez nos systèmes de tuyauterie certifiés en PP-R et PP-RCT.";
-    else if (locale === 'ar') finalDescription += " اكتشف أنظمة الأنابيب المعتمدة من PP-R و PP-RCT.";
-    else finalDescription += " K-Aqua PP-R / PP-RCT Piping Systems.";
+  let finalDescription = description || "";
+  
+  // Ensure description is unique by injecting the cleanTitle if it's too short, 
+  // preventing duplicate meta descriptions across many pages.
+  if (finalDescription.length < 120) {
+    if (locale === 'de') {
+      finalDescription += ` Erfahren Sie mehr über ${cleanTitle} und unsere zertifizierten PP-R & PP-RCT Rohrleitungssysteme.`;
+    } else if (locale === 'en') {
+      finalDescription += ` Learn more about ${cleanTitle} and our certified PP-R & PP-RCT piping systems.`;
+    } else if (locale === 'es') {
+      finalDescription += ` Obtenga más información sobre ${cleanTitle} y nuestros sistemas de tuberías certificados.`;
+    } else if (locale === 'fr') {
+      finalDescription += ` En savoir plus sur ${cleanTitle} et nos systèmes de tuyauterie certifiés.`;
+    } else if (locale === 'ar') {
+      finalDescription += ` تعرف على المزيد حول ${cleanTitle} وأنظمة الأنابيب المعتمدة لدينا.`;
+    } else {
+      finalDescription += ` K-Aqua PP-R / PP-RCT Piping Systems: ${cleanTitle}.`;
+    }
+  }
+
+  // Strictly enforce 155 character limit for description
+  if (finalDescription.length > 155) {
+    // Try to cut at the last space before 152 to add "..."
+    const cutPos = finalDescription.lastIndexOf(" ", 152);
+    finalDescription = finalDescription.substring(0, cutPos > 100 ? cutPos : 152) + "...";
+  }
+
+  // Enforce title length (optimal 45-65)
+  // If title is too long, truncate it.
+  if (finalTitle.length > 65) {
+    const maxCleanTitleLen = 65 - 9; // " | K-Aqua" is 9 chars
+    let cutTitle = cleanTitle.substring(0, maxCleanTitleLen - 3).trim() + "...";
+    finalTitle = `${cutTitle} | K-Aqua`;
   }
 
   return {
