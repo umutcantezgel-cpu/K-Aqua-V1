@@ -66,16 +66,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           <div className="mx-auto max-w-[1400px] px-6">
             <div className="max-w-3xl mx-auto text-left mb-12">
               <div className="text-muted-foreground leading-relaxed space-y-4">
-                {tSeo.rich("guideText", { 
-                  h2: (chunks) => <h2 className="text-3xl font-heading font-bold text-foreground mb-6 mt-8">{chunks}</h2>,
-                  h3: (chunks) => <h3 className="text-2xl font-heading font-bold text-foreground mb-4 mt-6">{chunks}</h3>,
-                  h4: (chunks) => <h4 className="text-xl font-heading font-bold text-foreground mb-3 mt-5">{chunks}</h4>,
-                  p: (chunks) => <p>{chunks}</p>,
-                  strong: (chunks) => <strong className="text-foreground">{chunks}</strong>,
-                  ul: (chunks) => <ul className="list-disc pl-6 space-y-2">{chunks}</ul>,
-                  li: (chunks) => <li>{chunks}</li>,
-                  br: () => <br />
-                })}
+                <div dangerouslySetInnerHTML={{ __html: String(tSeo.raw("guideText")).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
               </div>
             </div>
           </div>

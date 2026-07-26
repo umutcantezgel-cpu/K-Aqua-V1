@@ -1,9 +1,9 @@
 /* eslint-disable */
 
 import { defineRouting } from 'next-intl/routing';
-import { ALL_LOCALE_CODES } from '@/lib/i18n/languages';
+import { ALL_LOCALE_CODES, FULLY_CURATED_LOCALES } from '@/lib/i18n/languages';
 
-export const coreLocales = ALL_LOCALE_CODES;
+export const coreLocales = FULLY_CURATED_LOCALES;
 export const lazyLocales = ALL_LOCALE_CODES.filter(code => !coreLocales.includes(code as any));
 
 export const routing = defineRouting({

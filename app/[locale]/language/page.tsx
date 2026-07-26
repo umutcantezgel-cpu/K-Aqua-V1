@@ -3,10 +3,12 @@ import { LanguagePageClient } from './LanguagePageClient';
 
 import { constructMetadata } from '@/lib/seo/metadata';
 
-export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> | { locale: string } }): Promise<Metadata> {
+  const { locale } = await params;
   return constructMetadata({
     title: 'Select Language | K-Aqua',
     description: 'Select your preferred language and region.',
+    path: '/language',
     locale,
     noIndex: true,
   });
@@ -15,3 +17,4 @@ export function generateMetadata({ params: { locale } }: { params: { locale: str
 export default function LanguagePage() {
   return <LanguagePageClient />;
 }
+

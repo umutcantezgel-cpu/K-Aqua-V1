@@ -81,7 +81,7 @@ export function computeFullResult(material: any, ctx: any, horizonYears: number)
   const install = installBreakdown(material, ctx);
   const eolOne = eolBreakdown(material, install.mass);
   const points = [{ year: 0, value: install.total }];
-  const events = [{ year: 0, type: 'install', label: 'Installation & Herstellung', value: install.total, detail: null }];
+  const events: Array<{ year: number; type: string; label: string; value: number; detail: { rueckbau: number; gutschrift: number; neubau: number } | null }> = [{ year: 0, type: 'install', label: 'Installation & Herstellung', value: install.total, detail: null }];
   let cumulative = install.total, totalOperation = 0, totalMaintenance = 0, replacements = 0;
   for (let year = 1; year <= horizonYears; year++) {
     const yearsSinceInstall = lifespan ? year % lifespan : year;
@@ -97,7 +97,7 @@ export function computeFullResult(material: any, ctx: any, horizonYears: number)
     points.push({ year, value: cumulative });
   }
   const recyclingCreditTotal = replacements * eolOne.creditEffective;
-  const grandTotal = points[horizonYears].value;
+  const grandTotal = points[horizonYears]?.value ?? cumulative;
   return {
     material, points, install, totalOperation, totalMaintenance, replacements, recyclingCreditTotal, grandTotal, events,
     phaseValues: {
@@ -126,9 +126,9 @@ export function findBreakEven(kaPoints: any[], opPoints: any[]) {
 }
 export function computePortfolioResult(material: any, ctxList: any[], horizonYears: number) {
   const parts = ctxList.map((c) => computeFullResult(material, c, horizonYears));
-  const points = parts[0].points.map((p: any, i: number) => ({ year: p.year, value: parts.reduce((a, r) => a + r.points[i].value, 0) }));
+  const points = parts[0] ? parts[0].points.map((p: any, i: number) => ({ year: p.year, value: parts.reduce((a, r) => a + (r.points[i]?.value || 0), 0) })) : [];
   const phaseValues: any = {};
-  CO2_PHASES.forEach((ph) => { phaseValues[ph.id] = parts.reduce((a, r) => a + (r.phaseValues[ph.id] || 0), 0); });
+  CO2_PHASES.forEach((ph) => { phaseValues[ph.id] = parts.reduce((a, r) => a + ((r.phaseValues as Record<string, number>)[ph.id] || 0), 0); });
   const evMap: any = {};
   parts.forEach((r) => r.events.forEach((e: any) => {
     const k = e.type + '-' + e.year;
@@ -142,7 +142,7 @@ export function computePortfolioResult(material: any, ctxList: any[], horizonYea
     totalMaintenance: parts.reduce((a, r) => a + r.totalMaintenance, 0),
     replacements: parts.reduce((a, r) => a + r.replacements, 0),
     recyclingCreditTotal: parts.reduce((a, r) => a + r.recyclingCreditTotal, 0),
-    grandTotal: points[points.length - 1].value,
+    grandTotal: points.length > 0 ? points[points.length - 1].value : 0,
     events: Object.keys(evMap).map((k) => evMap[k]).sort((a: any, b: any) => a.year - b.year),
   };
 }

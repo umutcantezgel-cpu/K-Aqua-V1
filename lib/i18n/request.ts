@@ -29,13 +29,27 @@ export default getRequestConfig(async ({ requestLocale }) => {
     }
   }
 
+  const fs = require('fs');
+  const path = require('path');
+
+  const loadJson = (filePath: string) => {
+    if (fs.existsSync(filePath)) {
+      try {
+        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      } catch (e) {
+        console.error(`Error parsing JSON file ${filePath}:`, e);
+      }
+    }
+    return {};
+  };
+
   // Fallback to English for missing translations
   const fallbackLocale = 'en';
   const fallbackMessages = targetLocale === fallbackLocale 
     ? {} 
-    : (await import(`../../messages/${fallbackLocale}.json`)).default;
+    : loadJson(path.join(process.cwd(), 'messages', `${fallbackLocale}.json`));
 
-  const baseMessages = (await import(`../../messages/${targetLocale}.json`)).default;
+  const baseMessages = loadJson(path.join(process.cwd(), 'messages', `${targetLocale}.json`));
   
   // Deep merge fallback and target messages
   let messages = merge({}, fallbackMessages, baseMessages);
@@ -61,12 +75,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
   ];
 
   for (const mod of seoModules) {
-    try {
-      const extension = (await import(`../../messages/seo/${targetLocale}/${mod}.json`)).default;
-      messages = merge({}, messages, extension);
-    } catch (e) {
-      console.error(`Error loading SEO module ${mod} for locale ${targetLocale}:`, e);
-      // Ignore missing files
+    const seoFilePath = path.join(process.cwd(), 'messages', 'seo', targetLocale, `${mod}.json`);
+    if (fs.existsSync(seoFilePath)) {
+      try {
+        const content = fs.readFileSync(seoFilePath, 'utf8');
+        const extension = JSON.parse(content);
+        messages = merge({}, messages, extension);
+      } catch (e) {
+        console.error(`Error loading SEO module ${mod} for locale ${targetLocale}:`, e);
+      }
     }
   }
 

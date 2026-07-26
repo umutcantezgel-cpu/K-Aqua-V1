@@ -161,12 +161,12 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
               </span>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
+              <p className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
                 {rfqData.title1}{" "}
                 <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                   {rfqData.titleGrad}
                 </span>
-              </h1>
+              </p>
             </Reveal>
           </div>
         </section>

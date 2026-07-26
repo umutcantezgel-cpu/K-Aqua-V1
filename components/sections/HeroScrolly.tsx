@@ -209,48 +209,72 @@ export default function HeroScrolly() {
   const showReducedDesktop = mounted && prefersReduced;
 
   return (
-    <>
-      {/* Static Mode container: visible on mobile / tablet or prefers-reduced-motion */}
-      <div className={`block lg:hidden ${showReducedDesktop ? '!block' : ''}`}>
-        <section className="relative overflow-hidden bg-background">
-          <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
-          <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-12 items-center py-14 md:py-28 relative z-10">
-            {renderHeroCopy()}
-            <div className="flex justify-center items-center w-full">
-              <div className="w-full max-w-[580px] aspect-square relative">
-                {mounted && <Globe size={580} interactive={true} speed={0.004} markers={testMarkers} />}
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="py-12 bg-background">
-          <div className="mx-auto max-w-[1400px] px-6 k-orbit-static">
-            {staticCardEls}
-          </div>
-        </section>
-      </div>
+    <div
+      ref={wrapRef}
+      className={`relative ${showReducedDesktop ? '' : 'lg:h-[380vh]'} bg-background overflow-hidden`}
+    >
+      <div
+        className={`relative ${
+          showReducedDesktop ? '' : 'lg:sticky lg:top-0 lg:h-screen lg:overflow-hidden'
+        } py-14 lg:py-0`}
+      >
+        <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
+        <div
+          ref={glowRef}
+          className={`k-scrolly-glow ${showReducedDesktop ? 'hidden' : 'hidden lg:block'}`}
+          aria-hidden="true"
+        />
 
-      {/* Scrollytelling container: visible only on desktop */}
-      <div className={`hidden lg:block ${showReducedDesktop ? '!hidden' : ''}`}>
-        <div ref={wrapRef} className="k-scrolly">
-          <div className="k-scrolly-stage">
-            <div className="absolute inset-0 bg-[linear-gradient(to_bottom,var(--primary-soft)_0%,transparent_100%)] opacity-30 pointer-events-none" />
-            <div ref={glowRef} className="k-scrolly-glow" aria-hidden="true" />
-            <div className="mx-auto max-w-[1400px] px-6 h-full flex items-center relative z-10">
-              {renderHeroCopy(copyRef)}
-            </div>
-            <div ref={globeWrapRef} className="k-scrolly-globe">
-              {mounted && !staticMode && (
-                <Globe size={800} interactive={false} speed={0.02} markers={testMarkers} />
-              )}
-            </div>
-            {scrollyCardEls}
-            <div ref={hintRef} className="k-scrolly-hint" aria-hidden="true">
-              <ArrowRight className="w-5 h-5 rotate-90" />
-            </div>
+        <div className="mx-auto max-w-[1400px] px-6 h-full flex flex-col lg:flex-row items-center justify-between relative z-10">
+          {renderHeroCopy(copyRef)}
+
+          {/* Mobile Globe Container */}
+          <div
+            className={`w-full max-w-[580px] aspect-square relative ${
+              showReducedDesktop ? 'flex' : 'lg:hidden flex'
+            } justify-center items-center mt-8 sm:mt-12 lg:mt-0`}
+          >
+            {mounted && (
+              <Globe size={580} interactive={true} speed={0.004} markers={testMarkers} />
+            )}
           </div>
         </div>
+
+        {/* Desktop Globe Container */}
+        <div
+          ref={globeWrapRef}
+          className={`k-scrolly-globe ${showReducedDesktop ? 'hidden' : 'hidden lg:block'}`}
+        >
+          {mounted && !staticMode && (
+            <Globe size={800} interactive={false} speed={0.02} markers={testMarkers} />
+          )}
+        </div>
+
+        {/* Desktop Scrolly Cards */}
+        <div className={showReducedDesktop ? 'hidden' : 'hidden lg:block'}>
+          {scrollyCardEls}
+        </div>
+
+        {/* Desktop Hint */}
+        <div
+          ref={hintRef}
+          className={`k-scrolly-hint ${showReducedDesktop ? 'hidden' : 'hidden lg:block'}`}
+          aria-hidden="true"
+        >
+          <ArrowRight className="w-5 h-5 rotate-90" />
+        </div>
       </div>
-    </>
+
+      {/* Mobile / Tablet Static Orbit Cards */}
+      <section
+        className={`${
+          showReducedDesktop ? 'block' : 'block lg:hidden'
+        } py-12 bg-background relative z-10`}
+      >
+        <div className="mx-auto max-w-[1400px] px-6 k-orbit-static">
+          {staticCardEls}
+        </div>
+      </section>
+    </div>
   );
 }

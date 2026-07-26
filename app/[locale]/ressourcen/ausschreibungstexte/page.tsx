@@ -84,7 +84,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </h2>
           <div className="max-w-4xl mx-auto text-xl md:text-3xl text-muted-foreground leading-relaxed space-y-12 font-light">
             <p>{t('manifesto.p1')}</p>
-            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p2') }} />
+            <p dangerouslySetInnerHTML={{ __html: t.has('manifesto.p2') ? t.raw('manifesto.p2') : '' }} />
           </div>
         </div>
       </section>
