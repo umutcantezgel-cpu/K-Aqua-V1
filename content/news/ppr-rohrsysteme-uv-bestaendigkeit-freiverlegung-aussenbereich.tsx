@@ -29,7 +29,7 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
   content: (
     <div className="flex flex-col gap-24 py-12">
 
-      <ParallaxHero 
+      <ParallaxHero headingLevel="h2" 
         image="/images/news/outdoor-pipes-sun.jpg" 
         height="50vh"
         title="Schutz vor der Sonne"

@@ -50,7 +50,7 @@ export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixP
           <tbody>
             {finalRows.map((row, ri) => (
               <tr key={ri} className="group">
-                {row.map((c, ci) =>
+                {(row || []).map((c, ci) =>
                   ci === 0 ? (
                     <th
                       key={ci}

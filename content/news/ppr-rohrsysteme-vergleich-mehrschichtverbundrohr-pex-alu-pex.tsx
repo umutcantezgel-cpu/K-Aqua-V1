@@ -30,7 +30,7 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
   content: (
     <div className="flex flex-col gap-24 py-12">
 
-      <ParallaxHero 
+      <ParallaxHero headingLevel="h2" 
         image="/images/news/ppr-vs-pex.jpg" 
         height="50vh"
         title="Schweißen oder Pressen? Der ultimative Systemvergleich"

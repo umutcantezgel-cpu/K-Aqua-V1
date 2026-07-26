@@ -33,7 +33,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
       
       {/* 1. Parallax Hero */}
       <section className="-mx-4 md:-mx-8 lg:-mx-16 -mt-8 mb-8">
-        <ParallaxHero 
+        <ParallaxHero headingLevel="h2" 
           eyebrow="Lebensmittelechte Qualität"
           title={<>Der Standard für das <br className="hidden md:block"/>wichtigste Lebensmittel</>}
           description="In der technischen Gebäudeausrüstung (TGA) entscheidet das Rohrleitungssystem über die Reinheit des Trinkwassers. K Aqua übertrifft die gesetzlichen Anforderungen der DVGW und internationaler Prüfinstitute um ein Vielfaches."

@@ -95,11 +95,20 @@ export default async function LocaleLayout({
   const isRTLFont = dir === 'rtl';
 
   const nonce = headersList.get('x-nonce') || undefined;
-  const xPathname = headersList.get('x-pathname');
+  const xPathname = headersList.get('x-pathname') || '';
   const kontaktSlug = resolveKontaktSlug(xPathname);
 
+  // Seobility fix: Set lang="de" for pages that are primarily German content, even on /en/ or /ar/ paths.
+  const isUntranslated = xPathname && (
+    xPathname.includes('/news') || 
+    xPathname.includes('/produkte') || 
+    xPathname.includes('/ressourcen') || 
+    xPathname.includes('/referenzen')
+  );
+  const htmlLang = isUntranslated ? 'de' : locale;
+
   return (
-    <html lang={locale} dir={dir} suppressHydrationWarning>
+    <html lang={htmlLang} dir={dir} suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="/assets/kaqua-elemente.css" />
         <link rel="stylesheet" href="/assets/kaqua-signature.css" />
