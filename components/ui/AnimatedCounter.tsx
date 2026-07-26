@@ -9,16 +9,20 @@ export interface AnimatedCounterProps {
    */
   value: number;
   /**
-   * Formatting function to convert the numeric value to a display string.
+   * Optional prefix to display before the number.
    */
-  formatFn: (val: number) => string;
+  prefix?: string;
+  /**
+   * Optional suffix to display after the number (e.g. "%" or "°C").
+   */
+  suffix?: string;
   /**
    * Optional CSS class.
    */
   className?: string;
 }
 
-export function AnimatedCounter({ value, formatFn, className }: AnimatedCounterProps) {
+export function AnimatedCounter({ value, prefix = "", suffix = "", className }: AnimatedCounterProps) {
   const ref = useRef<HTMLSpanElement>(null);
   
   // Initialize with the true value so that initial render matches SSR
@@ -38,15 +42,15 @@ export function AnimatedCounter({ value, formatFn, className }: AnimatedCounterP
     // Listen to spring changes and update the DOM node directly for maximum performance
     return springValue.on("change", (latest) => {
       if (ref.current) {
-        ref.current.textContent = formatFn(latest);
+        ref.current.textContent = `${prefix}${Math.round(latest)}${suffix}`;
       }
     });
-  }, [springValue, formatFn]);
+  }, [springValue, prefix, suffix]);
 
   // Initial SSR / Client render
   return (
     <span ref={ref} className={className}>
-      {formatFn(value)}
+      {`${prefix}${value}${suffix}`}
     </span>
   );
 }

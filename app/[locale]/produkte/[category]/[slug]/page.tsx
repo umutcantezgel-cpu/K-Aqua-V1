@@ -71,11 +71,41 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   // Handle SEO duplicate content for product variants by mapping them to a canonical variant
   let canonicalSlug = slug;
-  if (slug === 'k-fiber-pipe-pp-r-sdr-74' || slug === 'k-fiber-pipe-pp-r-sdr-9' || slug === 'k-fiber-pipe-pp-r-sdr-17') {
+  if (
+    slug === 'k-fiber-pipe-pp-r-sdr-74' || 
+    slug === 'k-fiber-pipe-pp-r-sdr-9' || 
+    slug === 'k-fiber-pipe-pp-r-sdr-17' ||
+    slug === 'k-fiber-uv-pipe-pp-r-sdr-74' ||
+    slug === 'k-fiber-pipe-pp-rct-sdr-74' ||
+    slug === 'k-fiber-uv-pipe-pp-rct-sdr-74'
+  ) {
     canonicalSlug = 'k-fiber-pipe-pp-r-sdr-11';
-  } else if (slug === 'k-pipe-pp-r-sdr-6') {
+  } else if (
+    slug === 'k-pipe-pp-r-sdr-6' ||
+    slug === 'k-pipe-pp-rct-sdr-74' ||
+    slug === 'k-pipe-purple-pp-r-sdr-11'
+  ) {
     canonicalSlug = 'k-pipe-pp-r-sdr-11';
-  } else if (slug === 'hand-welding-machine-20-63') {
+  } else if (slug === 'reducing-tee-large') {
+    canonicalSlug = 'reducing-tee';
+  } else if (slug === 'elbow-45') {
+    canonicalSlug = 'elbow-90';
+  } else if (slug === 'elbow-45-femalemale') {
+    canonicalSlug = 'elbow-90-female-male';
+  } else if (slug === 'metal-union-female-thread') {
+    canonicalSlug = 'metal-union-male-thread';
+  } else if (slug === 'metal-union-female-thread-brass') {
+    canonicalSlug = 'metal-union-male-thread-brass';
+  } else if (slug === 'flat-gasket-for-unions-pp-r') {
+    canonicalSlug = 'flat-gasket';
+  } else if (slug === 'adjustable-battery-female-thread') {
+    canonicalSlug = 'battery-female-thread';
+  } else if (slug === 'concealed-valve-chrome-heavy-part') {
+    canonicalSlug = 'concealed-valve-chrome-light-part';
+  } else if (
+    slug === 'hand-welding-machine-20-63' || 
+    slug === 'hand-welding-machine-mirror-50-125'
+  ) {
     canonicalSlug = 'hand-welding-machine-2032-complete-set';
   }
 

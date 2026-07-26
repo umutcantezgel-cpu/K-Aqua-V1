@@ -11,22 +11,33 @@ import clsx from "clsx";
 
 export interface DeepMatrixProps {
   /** Column headers. Pass already-localized strings (e.g. via resolveCatalogHead). */
-  head: React.ReactNode[];
-  rows: Array<Array<React.ReactNode>>;
+  head?: React.ReactNode[];
+  rows?: Array<Array<React.ReactNode>>;
+  data?: Array<Array<React.ReactNode>>;
   /** 0-based column index to visually emphasize (e.g. the recommended SDR column). Omit for none. */
   heroCol?: number;
   /** Optional footnote rendered below the table. */
   note?: string;
 }
 
-export function DeepMatrix({ head, rows, heroCol = -1, note }: DeepMatrixProps) {
+export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixProps) {
+  let finalHead = head;
+  let finalRows = rows;
+  
+  if (data && data.length > 0) {
+     finalHead = data[0];
+     finalRows = data.slice(1);
+  }
+  
+  if (!finalHead || !finalRows) return null;
+
   return (
     <div>
       <div className="overflow-x-auto rounded-lg border border-card-border bg-card">
         <table className="w-full min-w-[640px] border-collapse text-small">
           <thead>
             <tr>
-              {head.map((h, i) => (
+              {finalHead.map((h, i) => (
                 <th
                   key={i}
                   className="sticky top-0 border-b border-card-border bg-background-subtle px-4 py-3 text-start font-heading text-tiny uppercase tracking-wider text-muted-foreground"
@@ -37,7 +48,7 @@ export function DeepMatrix({ head, rows, heroCol = -1, note }: DeepMatrixProps) 
             </tr>
           </thead>
           <tbody>
-            {rows.map((row, ri) => (
+            {finalRows.map((row, ri) => (
               <tr key={ri} className="group">
                 {row.map((c, ci) =>
                   ci === 0 ? (

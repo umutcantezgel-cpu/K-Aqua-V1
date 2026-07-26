@@ -190,7 +190,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 border-y border-card-border py-16">
             <div className="flex flex-col items-start justify-center">
               <span className="text-6xl lg:text-8xl font-black font-mono text-foreground mb-4">
-                <AnimatedCounter value={0} formatFn={(v) => `${v}%`} />
+                <AnimatedCounter value={0} suffix="%" />
               </span>
               <h3 className="text-2xl font-bold font-heading mb-2">Toxische Halogene</h3>
               <p className="text-muted-foreground">
@@ -199,7 +199,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
             </div>
             <div className="flex flex-col items-start justify-center">
               <span className="text-6xl lg:text-8xl font-black font-mono text-destructive mb-4">
-                <AnimatedCounter value={260} formatFn={(v) => `${v}°C`} />
+                <AnimatedCounter value={260} suffix="°C" />
               </span>
               <h3 className="text-2xl font-bold font-heading mb-2">Elektrische Fügetemperatur</h3>
               <p className="text-muted-foreground">
