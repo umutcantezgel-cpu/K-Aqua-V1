@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const newsItem = getNewsBySlug(slug);
 
   if (!newsItem) {
-    return constructMetadata({ title: "Not Found", description: "", path: "/news" });
+    return constructMetadata({ title: "Not Found", description: "", path: "/news", locale });
   }
 
   return constructMetadata({

@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 import JsonLd from "@/components/seo/JsonLd";
 import { SeoExpand } from "@/components/seo/SeoExpand";
 import { setRequestLocale } from 'next-intl/server';
-import { constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata, getBaseUrl } from "@/lib/seo/metadata";
 
 // 1. generateStaticParams to statically generate all 79 x 3 = 237 pages
 export async function generateStaticParams() {
@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: { index: false, follow: true },
     alternates: {
       ...baseMeta.alternates,
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua.de'}/${locale}/produkte/${kebabCategory}/${slug}`,
+      canonical: `${getBaseUrl()}/${locale}/produkte/${kebabCategory}/${slug}`,
     },
   };
 }
@@ -205,17 +205,7 @@ export default async function CatalogDetailPage({ params }: Props) {
               <article className="mt-12 space-y-6 text-base text-muted-foreground leading-relaxed">
                 {['seo_p1', 'seo_p2', 'seo_p3'].map((key) => 
                   t.has(`items.${item.slug}.${key}`) && (
-                    <div key={key}>
-                      {t.rich(`items.${item.slug}.${key}`, {
-                        h3: (chunks) => <h3 className="text-xl font-heading font-bold text-foreground mt-8 mb-4">{chunks}</h3>,
-                        h4: (chunks) => <h4 className="text-lg font-heading font-bold text-foreground mt-6 mb-3">{chunks}</h4>,
-                        p: (chunks) => <p className="mb-4">{chunks}</p>,
-                        strong: (chunks) => <strong className="font-bold text-foreground">{chunks}</strong>,
-                        ul: (chunks) => <ul className="list-disc pl-6 space-y-2 mb-4">{chunks}</ul>,
-                        li: (chunks) => <li>{chunks}</li>,
-                        br: () => <br />
-                      })}
-                    </div>
+                    <div key={key} dangerouslySetInnerHTML={{ __html: String(t.raw(`items.${item.slug}.${key}`)).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
                   )
                 )}
               </article>

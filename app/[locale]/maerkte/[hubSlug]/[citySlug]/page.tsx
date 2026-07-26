@@ -163,14 +163,6 @@ export default async function GeoCityPage({ params }: Props) {
         </div>
       )}
 
-      {/* DEBUG COMPONENT START */}
-      <div className="border border-red-500 p-4 m-4">
-        <h2>DEBUG:</h2>
-        <p>Market slug: {market.slug}</p>
-        <p>Has description: {tGeo.has(`markets.${market.slug}.description`) ? "TRUE" : "FALSE"}</p>
-        <p>Raw text: {tGeo.has(`markets.${market.slug}.description`) ? tGeo.raw(`markets.${market.slug}.description`) : "NONE"}</p>
-      </div>
-      {/* DEBUG COMPONENT END */}
 
       {tGeo.has(`markets.${market.slug}.description`) && (
         <div className="max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16 seo-market-content">

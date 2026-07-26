@@ -20,6 +20,9 @@ export type CatalogLocale = 'de' | 'en' | 'ar';
 
 export interface CatalogCategory {
   id: CatalogCategoryId;
+  title?: string;
+  description?: string;
+  icon?: string;
   count: number;
   items: CatalogItem[];
 }

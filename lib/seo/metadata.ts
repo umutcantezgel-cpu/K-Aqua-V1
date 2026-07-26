@@ -30,9 +30,10 @@ export function getBaseUrl() {
 interface MetadataInput {
   title: string;
   description: string;
-  path: string; // e.g., "/produkte" or "/maerkte/frankfurt" (without locale)
+  path?: string; // e.g., "/produkte" or "/maerkte/frankfurt" (without locale)
   locale: string;
   ogImage?: string;
+  noIndex?: boolean;
 }
 
 /**
@@ -45,9 +46,10 @@ export function constructMetadata({
   path,
   locale,
   ogImage,
+  noIndex,
 }: MetadataInput): Metadata {
   const siteUrl = getBaseUrl();
-  const cleanPath = path.replace(/^\/+|\/+$/g, "");
+  const cleanPath = path ? path.replace(/^\/+|\/+$/g, "") : "";
 
   const translatedLocales = [
     "de", "en", "ar"
@@ -85,10 +87,12 @@ export function constructMetadata({
     metadataBase: new URL(siteUrl),
     title: finalTitle,
     description: finalDescription,
-    robots: {
-      index: isTranslated,
-      follow: isTranslated,
-    },
+    robots: noIndex
+      ? { index: false, follow: false }
+      : {
+          index: isTranslated,
+          follow: isTranslated,
+        },
     alternates: {
       canonical: canonicalUrl,
       languages,
@@ -151,7 +155,7 @@ export async function getOrganizationJsonLd(locale: string): Promise<Organizatio
  */
 export async function getProductCatalogJsonLd(locale: string): Promise<ItemListJsonLd> {
   const t = await getTranslations({ locale, namespace: "products" });
-  const range = t.raw("range") as Array<{ t: string; d: string }>;
+  const range = t.has("range") ? (t.raw("range") as Array<{ t: string; d: string }>) || [] : [];
   const siteUrl = getBaseUrl();
 
   const itemListElement = range.map((item, index) => ({
@@ -312,12 +316,14 @@ export async function getWebPageJsonLd(locale: string, pageKey: string, type: We
   let meta: string[] = [];
   try {
     const t = await getTranslations({ locale, namespace: "pages" });
-    meta = t.raw(pageKey) as string[];
+    if (t.has(pageKey)) {
+      meta = (t.raw(pageKey) as string[]) || [];
+    }
   } catch (e) {
     // Ignore error if namespace or key is missing
   }
-  const title = override?.title || meta[0] || "K-Aqua";
-  const desc = override?.description || meta[1] || "";
+  const title = override?.title || (meta && meta[0]) || "K-Aqua";
+  const desc = override?.description || (meta && meta[1]) || "";
   const siteUrl = getBaseUrl();
   
   return {
@@ -342,14 +348,14 @@ export async function getWebPageJsonLd(locale: string, pageKey: string, type: We
  */
 export async function getArticleJsonLd(locale: string, pageKey: string): Promise<ArticleJsonLd> {
   const t = await getTranslations({ locale, namespace: "pages" });
-  const meta = t.raw(pageKey) as string[];
+  const meta = t.has(pageKey) ? (t.raw(pageKey) as string[]) || [] : [];
   const siteUrl = getBaseUrl();
   
   return {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: meta[0] || "K-Aqua News",
-    description: meta[1] || "",
+    headline: (meta && meta[0]) || "K-Aqua News",
+    description: (meta && meta[1]) || "",
     image: [`${siteUrl}/${locale}/opengraph-image`],
     publisher: {
       "@type": "Organization",

@@ -12,7 +12,9 @@ const staticRoutes = [
   'academy',
   'co2-rechner',
   'datenschutz',
+  'impressum',
   'karriere',
+  'kontakt',
   'loesungen',
   'maerkte',
   'news',
@@ -24,6 +26,7 @@ const staticRoutes = [
   'produkte/valves',
   'produkte/tools',
   'produkte/transition-fittings',
+  'projektanfrage',
 
   'referenzen',
   'ressourcen/support',
