@@ -60,8 +60,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Map catalog category to kebab-case for canonical product URL
   const kebabCategory = category.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 
+  // Handle SEO duplicate content for product variants by mapping them to a canonical variant
+  let canonicalSlug = slug;
+  if (slug === 'k-fiber-pipe-pp-r-sdr-74' || slug === 'k-fiber-pipe-pp-r-sdr-9' || slug === 'k-fiber-pipe-pp-r-sdr-17') {
+    canonicalSlug = 'k-fiber-pipe-pp-r-sdr-11';
+  } else if (slug === 'k-pipe-pp-r-sdr-6') {
+    canonicalSlug = 'k-pipe-pp-r-sdr-11';
+  } else if (slug === 'hand-welding-machine-20-63') {
+    canonicalSlug = 'hand-welding-machine-2032-complete-set';
+  }
+
+  // SEO optimization: Keep title under 45 characters to avoid truncation warning
+  let displayTitle = item.title;
+  if (displayTitle.length > 45) {
+    displayTitle = displayTitle.substring(0, 42) + '...';
+  }
+
   const baseMeta = constructMetadata({
-    title: item.title,
+    title: displayTitle,
     description: `${item.title} (${item.codes}). ${catMeta?.desc || ""}`,
     path: `/produkte/katalog/${category}/${slug}`,
     locale,
@@ -73,7 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: { index: false, follow: true },
     alternates: {
       ...baseMeta.alternates,
-      canonical: `${getBaseUrl()}/${locale}/produkte/${kebabCategory}/${slug}`,
+      canonical: `${getBaseUrl()}/${locale}/produkte/${kebabCategory}/${canonicalSlug}`,
     },
   };
 }
@@ -91,6 +107,12 @@ export default async function CatalogDetailPage({ params }: Props) {
 
   const catMeta = (t.raw("cats") as Record<string, { label: string; desc?: string }>)[category];
   const catLabel = catMeta?.label || category;
+
+  // SEO optimization: Keep title under 45 characters to avoid truncation warning
+  let displayTitle = item.title;
+  if (displayTitle.length > 45) {
+    displayTitle = displayTitle.substring(0, 42) + '...';
+  }
 
   // Find similar items (up to 3 items from the same category)
   const similarItems = cat.items.filter((i) => i.slug !== slug).slice(0, 3);

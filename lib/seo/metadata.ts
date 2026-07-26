@@ -79,9 +79,10 @@ export function constructMetadata({
   }
 
   let finalTitle = cleanTitle;
-  // Avoid 'Wortwiederholung' by not appending | K-Aqua if it's already in the string naturally
-  if (!cleanTitle.toLowerCase().includes('k-aqua')) {
-    finalTitle = `${cleanTitle} | K-Aqua`;
+  // To avoid Keyword Cannibalization for the brand name "Aqua", we don't append it to every single page.
+  // We only append it if the title is very short and generic, or if it's the home page.
+  if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
+     finalTitle = `K-Aqua PP-R Piping Systems`;
   }
 
   const isTranslated = translatedLocales.includes(locale);
@@ -116,9 +117,7 @@ export function constructMetadata({
   // Enforce title length (optimal 45-65)
   // If title is too long, truncate it.
   if (finalTitle.length > 65) {
-    const maxCleanTitleLen = 65 - 9; // " | K-Aqua" is 9 chars
-    let cutTitle = cleanTitle.substring(0, maxCleanTitleLen - 3).trim() + "...";
-    finalTitle = `${cutTitle} | K-Aqua`;
+    finalTitle = finalTitle.substring(0, 62).trim() + "...";
   }
 
   return {

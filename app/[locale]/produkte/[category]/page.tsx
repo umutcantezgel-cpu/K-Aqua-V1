@@ -55,7 +55,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   try {
     if (t.has(`${catKey}.seoTitle`)) {
-      title = `${t(`${catKey}.seoTitle`)} | K-Aqua`;
+      title = t(`${catKey}.seoTitle`);
+      if (title.length > 45) {
+        title = title.substring(0, 42) + '...';
+      }
+      title = `${title} | K-Aqua`;
     }
     if (t.has(`${catKey}.seoText`)) {
       desc = t(`${catKey}.seoText`).slice(0, 150) + "...";
