@@ -115,7 +115,7 @@ export function CatalogBrowser() {
                       lead={it.note || ""}
                       specs={specs}
                       cta={t("viewDetails") || "Details"}
-                      href={`/produkte/katalog/${active!.id}/${it.slug}`}
+                      href={`/produkte/${active!.id}/${it.slug}`}
                     />
                   </Reveal>
                 );
