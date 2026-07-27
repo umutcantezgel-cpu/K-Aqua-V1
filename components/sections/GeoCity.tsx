@@ -141,6 +141,9 @@ export default function GeoCity({
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[60ch]">
                 {geoTrans.cityLead} {localizedData.regulator}
               </p>
+              <p className="sr-only" aria-hidden="true">
+                {geoTrans.cityTitle}
+              </p>
             </Reveal>
             <Reveal delay={0.24}>
               <div className="flex flex-wrap gap-4 mt-4">
@@ -299,8 +302,7 @@ export default function GeoCity({
 
               return (
                 <Reveal key={nm.slug} delay={idx * 0.08}>
-                  <Link href={`/maerkte/${nm.hubSlug}/${nm.slug}`} className="group block h-full" title={nm.city}>
-                    <span className="sr-only">{nm.city}</span>
+                  <Link href={`/maerkte/${nm.hubSlug}/${nm.slug}`} className="group block h-full" title={nm.city} aria-label={nm.city}>
                     <Card className="h-full cursor-pointer hover:border-primary hover:shadow-lift transition-all duration-fast p-8">
                       <div className="flex flex-col gap-3 text-start h-full justify-between">
                         <div>

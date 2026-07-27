@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import { Academy } from "@/components/tools/Academy";
 import { AcademyDeep } from "@/components/sections/AcademyDeep";
 import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
@@ -50,11 +52,13 @@ export default async function AcademyPage({ params }: Props) {
     titleGood: t("titleGood"),
   };
 
+  const messages = await getMessages();
+
   return (
-    <>
+    <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx'])}>
       <JsonLd schema={jsonLd} />
       <Academy data={data} />
       <AcademyDeep />
-    </>
+    </NextIntlClientProvider>
   );
 }

@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-literals */
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import pick from "lodash/pick";
 import { constructMetadata } from "@/lib/seo/metadata";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
@@ -149,8 +151,10 @@ export default async function CategoryPage({ params }: Props) {
   else if (lowerCat.includes('valve')) heroImage = "/images/new-k-aqua/valves-profil.png";
   else if (lowerCat.includes('tools')) heroImage = "/images/new-k-aqua/tools-profil.png";
 
+  const messages = await getMessages();
+
   return (
-    <>
+    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
       <JsonLd schema={webPageSchema} />
       
       {/* Hero Section */}
@@ -303,6 +307,6 @@ export default async function CategoryPage({ params }: Props) {
           </Link>
         </div>
       </section>
-    </>
+    </NextIntlClientProvider>
   );
 }

@@ -58,13 +58,18 @@ export default async function ProduktePage({ params }: Props) {
     getMessages()
   ]);
 
-  const range = t.raw("range") as RangeItem[];
-  const tableHead = t.raw("tableHead") as string[];
-  const tableRows = t.raw("tableRows") as string[][];
-  const catalogJsonLd = await getProductCatalogJsonLd(locale);  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const rawRange = t.raw("range");
+  const range = Array.isArray(rawRange) ? rawRange as RangeItem[] : [];
+  const rawTableHead = t.raw("tableHead");
+  const tableHead = Array.isArray(rawTableHead) ? rawTableHead as string[] : [];
+  const rawTableRows = t.raw("tableRows");
+  const tableRows = Array.isArray(rawTableRows) ? rawTableRows as string[][] : [];
+  const catalogJsonLd = await getProductCatalogJsonLd(locale);
+  const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("products") as string[];
 
   return (
+    <NextIntlClientProvider messages={pick(messages, ['productsx', 'catalogx'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
 
@@ -78,7 +83,6 @@ export default async function ProduktePage({ params }: Props) {
               </div>
               <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-1 mb-4">
                 {t("sysTitle")}
-                <span className="sr-only"> der K-Aqua PP-R Rohrsysteme</span>
               </h1>
               <p className="text-lead text-muted-foreground max-w-[62ch] text-wrap-pretty font-normal mb-2">
                 {t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}
@@ -169,9 +173,8 @@ export default async function ProduktePage({ params }: Props) {
 
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep />
-      <NextIntlClientProvider messages={pick(messages, ['catalogx'])}>
-        <CatalogBrowser />
-      </NextIntlClientProvider>
+      <CatalogBrowser />
     </div>
+    </NextIntlClientProvider>
   );
 }

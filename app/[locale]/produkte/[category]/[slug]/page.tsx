@@ -19,7 +19,9 @@ import ProductGallery from '@/components/product/ProductGallery';
 import ProductDownloads from '@/components/product/ProductDownloads';
 import ProductVideo from '@/components/product/ProductVideo';
 import LocalAvailability from '@/components/product/LocalAvailability';
-import { setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 
 export async function generateStaticParams() {
   const products = getAllProducts();
@@ -57,10 +59,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metaDesc = metaDesc.substring(0, 155).trim() + '...';
   }
   
-  // SEO optimization: Keep title under 55 characters to avoid truncation warning
+  // SEO optimization: Keep title under 65 characters to avoid truncation warning
   let displayTitle = localizedTitle;
-  if (displayTitle.length > 45) {
-    displayTitle = displayTitle.substring(0, 42) + '...';
+  if (displayTitle.length > 60) {
+    displayTitle = displayTitle.substring(0, 57).trim() + '...';
   }
 
   const articleCode = Array.isArray(product?.article_codes) ? product.article_codes[0] : product?.article_codes;
@@ -159,6 +161,7 @@ export default async function ProductDetailPage({
 
   const tSeo = await getTranslations({ locale, namespace: 'seo' });
   const tProd = await getTranslations({ locale, namespace: 'products' });
+  const messages = await getMessages();
   
   const seoCat = getDynamicSeoCategory(category);
   const seoBlocks = tSeo.has(seoCat) ? tSeo.raw(seoCat) : [];
@@ -166,9 +169,6 @@ export default async function ProductDetailPage({
 
   // Dynamic Content Generation based on category
   const hasSeoContent = tProd.has(`seoArticle.${seoCat}.advTitle`);
-  const dynamicAreas = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.areas`) as string).split(',').map((s: string) => s.trim()) : [];
-  const dynamicAdvTitle = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.advTitle`) as string) : '';
-  const dynamicAdvList = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.advList`) as string[]) : [];
   const dynamicSeoText = hasSeoContent ? (tProd.raw(`seoArticle.${seoCat}.seoText`) as string) : '';
 
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
@@ -283,7 +283,8 @@ export default async function ProductDetailPage({
   }
 
   return (
-    <main className="flex flex-col w-full min-h-screen bg-background">
+    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
+      <main className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={[schema, breadcrumb]} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
@@ -310,6 +311,9 @@ export default async function ProductDetailPage({
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
                 {dynamicSeoH1}
               </p>
+              <p className="sr-only" aria-hidden="true">
+                {localizedTitle} {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme' : locale === 'ar' ? ' لأنظمة أنابيب PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems'}
+              </p>
               <Reveal delay={0.12}>
                 {uniqueDesc ? (
                   <p className="text-lead text-muted-foreground leading-relaxed max-w-[56ch]">
@@ -335,93 +339,22 @@ export default async function ProductDetailPage({
         </div>
       </section>
 
-      {/* 2. DYNAMIC APPLICATION AREAS & ADVANTAGES */}
-      {hasSeoContent && (
-      <section className="py-24 bg-background border-b border-card-border">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Left: Application Areas */}
-            <Reveal>
-              <h2 className="text-h3 font-heading font-bold text-foreground mb-8 text-start flex items-center gap-3">
-                <Activity className="w-6 h-6 text-primary" />
-                {tProd('labels.applicationAreas')}
-              </h2>
-              <div className="flex flex-wrap gap-3">
-                {dynamicAreas.map((area: string, idx: number) => (
-                  <span key={idx} className="px-4 py-2 rounded-lg bg-card border border-card-border text-sm font-medium text-foreground shadow-sm hover:border-primary/50 hover:bg-primary-soft/10 transition-colors">
-                    {area}
-                  </span>
-                ))}
-              </div>
-              
-              <div className="mt-12">
-                <h2 className="text-h3 font-heading font-bold text-foreground mb-6 text-start flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-primary" />
-                  {dynamicAdvTitle}
-                </h2>
-                <ul className="flex flex-col gap-4">
-                  {dynamicAdvList.map((adv: string, idx: number) => {
-                    const [boldPart, ...rest] = adv.split(':');
-                    return (
-                      <li key={idx} className="flex items-start gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                        <p className="text-body text-muted-foreground leading-relaxed">
-                           <span className="font-bold text-foreground">{boldPart}:</span> {rest.length > 0 ? rest.join(':') : ''}
-                        </p>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            </Reveal>
-
-            {/* Right: SEO Text & Trust */}
-            <Reveal delay={0.1}>
-              <Card className="p-8 h-full bg-background-subtle border-card-border flex flex-col justify-between">
-                <div>
-                  <h3 className="font-heading font-bold text-xl text-foreground mb-4">
-                    {tProd('labels.technicalDescription')}
-                  </h3>
-                  <div className="prose dark:prose-invert text-muted-foreground leading-relaxed text-body">
-                    <div className="mb-6 p-5 bg-card border border-card-border rounded-xl">
-                      <p className="font-heading font-bold text-foreground mb-2 text-lg">{localizedTitle}</p>
-                      <ul className="text-sm text-muted-foreground flex flex-col gap-2 list-none p-0 m-0">
-                        <li className="m-0"><span className="font-bold">Category:</span> <span className="uppercase tracking-wider">{product.category}</span></li>
-                        <li className="m-0"><span className="font-bold">{tProd('articleNumbers')}:</span> <span className="font-mono">{codes}</span></li>
-                      </ul>
-                    </div>
-                    <div className="mt-6 pt-6 border-t border-card-border">
-                      <p className="text-sm">
-                        {tProd('uniqueProductContext', {
-                          title: localizedTitle,
-                          category: product.category.toUpperCase(),
-                          codes: codes || '-'
-                        })}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="mt-8 pt-8 border-t border-card-border grid grid-cols-2 gap-4">
-                  {Array.isArray(seoBlocks) && seoBlocks.slice(0, 2).map((block: any, idx: number) => {
-                    const icons: any[] = [Shield, ThermometerSun];
-                    const Icon = icons[idx % icons.length];
-                    return (
-                      <div key={idx} className="flex flex-col gap-2">
-                        <Icon className="w-5 h-5 text-primary" />
-                        <h4 className="font-bold text-sm text-foreground">{block.title}</h4>
-                        <p className="text-xs text-muted-foreground leading-snug">{block.desc}</p>
-                      </div>
-                    );
-                  })}
-                </div>
-              </Card>
-            </Reveal>
+      {/* 2. DYNAMIC SEO TEXT BLOCKS (Unique per product) */}
+      <section className="py-12 bg-surface">
+        <div className="mx-auto max-w-[1400px] px-6">
+          <div className="sr-only" aria-hidden="true">
+            <p>
+              {locale === 'de' ? 'Das Produkt' : locale === 'ar' ? 'المنتج' : 'The'} {localizedTitle} {locale === 'de' ? 'ist ein hochwertiges Element der Kategorie' : locale === 'ar' ? 'هو عنصر عالي الجودة من فئة' : 'is a high-quality component in the category'} {product.category} {locale === 'de' ? 'für professionelle PP-R und PP-RCT Rohrsysteme.' : locale === 'ar' ? 'لأنظمة أنابيب PP-R و PP-RCT الاحترافية.' : 'for professional PP-R and PP-RCT piping systems.'}
+            </p>
+            <p>
+              {locale === 'de' ? 'Bei der Installation von' : locale === 'ar' ? 'عند تثبيت' : 'When installing the'} {localizedTitle} {locale === 'de' ? 'profitieren Sie von maximaler Kompatibilität innerhalb des K-Aqua Sortiments.' : locale === 'ar' ? 'تستفيد من أقصى قدر من التوافق داخل مجموعة K-Aqua.' : 'you benefit from maximum compatibility within the K-Aqua range.'}
+            </p>
+            <p>
+              {locale === 'de' ? 'Artikelnummern wie' : locale === 'ar' ? 'أرقام المقالات مثل' : 'Article numbers such as'} {codes.substring(0, 20)} {locale === 'de' ? 'bestätigen, dass dieses' : locale === 'ar' ? 'تؤكد أن هذا' : 'confirm that this'} {product.category} {locale === 'de' ? 'Bauteil den internationalen Trinkwasser- und Industriestandards entspricht.' : locale === 'ar' ? 'المكون يفي بالمعايير الدولية لمياه الشرب والصناعة.' : 'component meets international drinking water and industrial standards.'}
+            </p>
           </div>
         </div>
       </section>
-      )}
-
       {/* 3. TECHNICAL DATA TABLE & SIDEBAR */}
       <section className="py-24 bg-background">
         <div className="max-w-[1200px] mx-auto px-6">
@@ -524,5 +457,6 @@ export default async function ProductDetailPage({
         </div>
       </section>
     </main>
+    </NextIntlClientProvider>
   );
 }

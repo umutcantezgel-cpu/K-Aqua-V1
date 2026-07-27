@@ -56,7 +56,7 @@ export const StickyScrollReveal = ({
         <div className="max-w-xl w-full">
           {actualContent.map((item, index) => (
             <div key={item.title + index} className="min-h-[70vh] flex flex-col justify-center py-10">
-              <motion.h2
+              <motion.div
                 initial={{ opacity: 0 }}
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
@@ -64,7 +64,7 @@ export const StickyScrollReveal = ({
                 className="text-3xl font-heading font-bold text-foreground"
               >
                 {item.title}
-              </motion.h2>
+              </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{

@@ -62,11 +62,11 @@ export function Partner({ data }: PartnerProps) {
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   {data.titleGrad}
                 </span>
-                <span className="sr-only"> der K-Aqua PP-R Rohrsysteme</span>
               </h1>
               <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
                 {data.lead}
               </p>
+              <p className="sr-only" aria-hidden="true">{data.title1} {data.titleGrad}</p>
             </div>
           </Reveal>
         </div>

@@ -1,9 +1,11 @@
 /* eslint-disable react/jsx-no-literals */
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import pick from "lodash/pick";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { Button } from "@/components/ui/Button";
@@ -47,8 +49,10 @@ const bentoAssets: { image?: string; video?: string }[] = [
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "solutions.index" });
+  const messages = await getMessages();
   const jsonLd = await getWebPageJsonLd(locale, "solutions", "WebPage", { title: t('meta.title'), description: t('meta.desc') });
-  const stickyItems = t.raw('sticky.items') as Array<{ title: string; p1: string; p2: string }>;
+  const stickyItemsRaw = t.raw('sticky.items');
+  const stickyItems = Array.isArray(stickyItemsRaw) ? stickyItemsRaw as Array<{ title: string; p1: string; p2: string }> : [];
 
   const stickyAssets: { image?: string; video?: string }[] = [
     { image: '/images/new-k-aqua/was-ist-ppr.jpg' },
@@ -60,7 +64,7 @@ export default async function LoesungenPage({ params }: Props) {
   const stickyContent = stickyItems.map((item, index) => ({
     title: item.title,
     description: (
-      <div className="space-y-4">
+      <div className="flex flex-col gap-6 text-base lg:text-lg text-muted-foreground leading-relaxed">
         <p>{item.p1}</p>
         <p>{item.p2}</p>
       </div>
@@ -68,8 +72,10 @@ export default async function LoesungenPage({ params }: Props) {
     content: <PremiumAssetPlaceholder label={item.title} {...stickyAssets[index]} />
   }));
 
-  const timelineItems = t.raw('timeline.items') as Array<{ year: string; title: string; text: string }>;
-  const bentoItems = t.raw('bento.items') as Array<{ title: string; desc: string }>;
+  const timelineItemsRaw = t.raw('timeline.items');
+  const timelineItems = Array.isArray(timelineItemsRaw) ? timelineItemsRaw as Array<{ year: string; title: string; text: string }> : [];
+  const bentoItemsRaw = t.raw('bento.items');
+  const bentoItems = Array.isArray(bentoItemsRaw) ? bentoItemsRaw as Array<{ title: string; desc: string }> : [];
 
   return (
     <>
@@ -163,8 +169,10 @@ export default async function LoesungenPage({ params }: Props) {
           </div>
         </section>
 
-        {/* 7) Deep Content am Ende der Lösungsseite */}
-        <SolutionsDeep />
+        {/* 7) Enterprise / Tech Deep Dive (Sub-components) */}
+        <NextIntlClientProvider messages={pick(messages, 'enterprise')}>
+          <SolutionsDeep />
+        </NextIntlClientProvider>
 
         {/* 8) Final CTA */}
         <section className="py-32 md:py-48 bg-background relative overflow-hidden border-t border-card-border">

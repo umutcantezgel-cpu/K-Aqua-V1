@@ -405,6 +405,16 @@ const nextConfig: NextConfig = {
         ],
       },
       {
+        // Cache images aggressively
+        source: '/:path*.(jpg|jpeg|png|gif|svg|webp|avif)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
         // Prevent indexing of PDF files to fix "Nicht analysierbare Datentypen"
         source: '/pdf/:path*.pdf',
         headers: [

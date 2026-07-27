@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import Career from "@/components/tools/Career";
 import ApplicationPortal from "@/components/tools/ApplicationPortal";
 import { CareerDeep } from "@/components/sections/CareerDeep";
@@ -60,7 +62,7 @@ export default async function KarrierePage({ params }: Props) {
     cmIntro: t("cmIntro"),
     cmStart: t("cmStart"),
     qLabel: t("qLabel"),
-    cmQ: t.raw("cmQ") as Array<{ q: string; o: [string, string] }>,
+    cmQ: Array.isArray(t.raw("cmQ")) ? (t.raw("cmQ") as Array<{ q: string; o: [string, string] }>) : [],
     resHigh: t("resHigh"),
     resMid: t("resMid"),
     resLow: t("resLow"),
@@ -68,6 +70,7 @@ export default async function KarrierePage({ params }: Props) {
   };
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
+  const messages = await getMessages();
   
   return (
     <>
@@ -80,7 +83,9 @@ export default async function KarrierePage({ params }: Props) {
       
       {/* 3. Detailed Application Portal with Job Listings & CV Upload */}
       <div id="application-portal" className="bg-background-subtle border-t border-card-border">
-        <ApplicationPortal />
+        <NextIntlClientProvider messages={pick(messages, 'application', 'common')}>
+          <ApplicationPortal />
+        </NextIntlClientProvider>
       </div>
     </>
   );

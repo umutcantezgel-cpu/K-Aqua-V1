@@ -83,7 +83,7 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
 
 export const getProductBySlug = unstable_cache(
   async (category: string, slug: string) => getProductBySlugRaw(category, slug),
-  ['product-by-slug'],
+  ['product-by-slug'], // Base key string
   { tags: ['product-data'] }
 );
 

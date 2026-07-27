@@ -79,7 +79,16 @@ export function constructMetadata({
     'hand-welding-machine-mirror-50125',
     'pipe-cutter-2040',
     'pipe-cutter-50125-1',
-    'hand-welding-machine-20-63'
+    'hand-welding-machine-20-63',
+    'weld-in-saddle-female-thread',
+    'weld-in-saddle-male-thread',
+    'drilling-tool-for-weld-in-saddle',
+    'welding-tool-for-weld-in-saddles',
+    'battery-female-thread',
+    'tee-90-female-thread',
+    'metal-union-male-thread',
+    'metal-union-male-thread-yellow-brass',
+    'metal-union-male-thread-brass'
   ]);
 
   const isVariant = Array.from(variantSlugs).some(slug => cleanPath.endsWith(`/${slug}`) || cleanPath === slug);
@@ -120,37 +129,29 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      // Ensure base title is cleanly padded or truncated
-      if (finalTitle.length > 42) {
-          finalTitle = finalTitle.substring(0, 39).trim() + "...";
-      }
-
+      let suffix = "";
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
+      const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
 
-      let suffix = "";
       if (!hasBrand) {
           suffix = " | K-Aqua";
       }
-
-
       
-      // 4. Append suffix
-      if (suffix) {
-          if (finalTitle.length + suffix.length <= 65) {
-              finalTitle += suffix;
-          } else {
-              // If suffix makes it too long, append " | K-Aqua" if it fits, else nothing
-              if (!hasBrand && finalTitle.length + 9 <= 65) {
-                  finalTitle += " | K-Aqua";
-              }
+      if (finalTitle.length + suffix.length > 65) {
+          const availableSpace = 65 - suffix.length - 3;
+          if (availableSpace > 10) {
+              finalTitle = finalTitle.substring(0, availableSpace).trim() + "...";
           }
       }
       
-      // 5. Final fallback: If still under 45, pad it with a generic keyword
-      if (finalTitle.length < 45) {
+      if (suffix && finalTitle.length + suffix.length <= 65) {
+          finalTitle += suffix;
+      }
+      
+      if (finalTitle.length < 40 && !hasPPR) {
           const pad = locale === 'de' ? " | PP-R Rohrsysteme" : locale === 'ar' ? " | أنظمة أنابيب PP-R" : " | PP-R Piping";
-          if (finalTitle.length + pad.length <= 65) {
+          if (finalTitle.length + pad.length <= 60) {
               finalTitle += pad;
           }
       }
