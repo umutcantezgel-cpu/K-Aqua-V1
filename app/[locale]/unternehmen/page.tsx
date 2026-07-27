@@ -65,7 +65,7 @@ export default async function UnternehmenPage({ params }: Props) {
                 </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
-                <strong>{t("title1")} {t("titleGrad")}</strong> &ndash; {t("lead")}
+                <span className="font-bold text-foreground">{t("title1")} {t("titleGrad")}</span> &ndash; {t("lead")}
               </p>
               <p className="sr-only">{t("title1")} {t("titleGrad")} {t("title1")} {t("titleGrad")} {t("lead")}</p>
             </Reveal>

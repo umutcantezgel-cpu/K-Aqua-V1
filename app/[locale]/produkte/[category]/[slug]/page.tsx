@@ -361,12 +361,9 @@ export default async function ProductDetailPage({
                     const [boldPart, ...rest] = adv.split(':');
                     return (
                       <li key={idx} className="flex items-start gap-3">
-                        <div className="w-6 h-6 rounded-full bg-primary-soft text-primary flex items-center justify-center shrink-0 mt-0.5">
-                          <CheckCircle className="w-4 h-4" />
-                        </div>
+                        <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                         <p className="text-body text-muted-foreground leading-relaxed">
-                          <strong className="text-foreground">{boldPart}:</strong>
-                          {rest.length > 0 ? rest.join(':') : ''}
+                           <span className="font-bold text-foreground">{boldPart}:</span> {rest.length > 0 ? rest.join(':') : ''}
                         </p>
                       </li>
                     );
@@ -385,9 +382,9 @@ export default async function ProductDetailPage({
                   <div className="prose dark:prose-invert text-muted-foreground leading-relaxed text-body">
                     <div className="mb-6 p-5 bg-card border border-card-border rounded-xl">
                       <p className="font-heading font-bold text-foreground mb-2 text-lg">{localizedTitle}</p>
-                      <ul className="text-sm text-muted-foreground space-y-2 m-0 p-0 list-none">
-                        <li className="m-0"><strong>Category:</strong> <span className="uppercase tracking-wider">{product.category}</span></li>
-                        <li className="m-0"><strong>{tProd('articleNumbers')}:</strong> <span className="font-mono">{codes}</span></li>
+                      <ul className="text-sm text-muted-foreground flex flex-col gap-2 list-none p-0 m-0">
+                        <li className="m-0"><span className="font-bold">Category:</span> <span className="uppercase tracking-wider">{product.category}</span></li>
+                        <li className="m-0"><span className="font-bold">{tProd('articleNumbers')}:</span> <span className="font-mono">{codes}</span></li>
                       </ul>
                     </div>
                     <div className="mt-6 pt-6 border-t border-card-border">
@@ -475,7 +472,7 @@ export default async function ProductDetailPage({
                       {tProd('labels.technicalDescription')} - {localizedTitle}
                     </h3>
                     <p className="text-body text-muted-foreground leading-relaxed">
-                      <strong className="text-foreground">{localizedTitle} {dynamicSeoH1}</strong> — {generatedSeoNarrative}
+                      <span className="font-bold text-foreground">{localizedTitle} {dynamicSeoH1}</span> — {generatedSeoNarrative}
                     </p>
                   </div>
                 )}
