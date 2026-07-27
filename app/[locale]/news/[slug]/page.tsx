@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
     path: `/news/${slug}`,
     locale,
+    noIndex: locale !== 'de',
   });
 }
 
