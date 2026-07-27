@@ -51,7 +51,7 @@ export function ProductsDeep() {
   const rows = tableForSdr(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
 
   return (
-    <React.Fragment>
+    <div data-nosnippet="true">
       {/* Rohrfamilien */}
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-pipe-families">
         <div className="mx-auto max-w-[1200px] px-6">
