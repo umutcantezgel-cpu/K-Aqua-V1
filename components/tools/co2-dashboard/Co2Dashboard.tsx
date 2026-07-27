@@ -64,7 +64,7 @@ function ThemeToggle({ theme, onToggle }: any) {
 function ShareButton() {
   const [ok, setOk] = useSD(false);
   return (
-    <button type="button" className="dash-theme-btn" title="Link mit aktuellem Zustand kopieren"
+    <button type="button" className="dash-theme-btn" title="Link mit aktuellem Zustand kopieren" aria-label="Link mit aktuellem Zustand kopieren"
       onClick={() => { try { navigator.clipboard.writeText(location.href).then(() => { setOk(true); setTimeout(() => setOk(false), 1500); }); } catch (e) {} }}>
       {ok ? <Icons.Check size={17} /> : <Icons.ArrowUpRight size={17} />}
     </button>

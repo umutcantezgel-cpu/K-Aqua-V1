@@ -31,25 +31,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   
-  // SEO-optimized title with target keywords
-  const title = tGeo("cityMetaTitle", { city: market.city });
-  
-  // Localized description using the regulator info
   const tRoot = await getTranslations({ locale });
   const geoContentTrans = tRoot.raw("geoContent") as Record<string, { regulator: string; water?: string; focus?: string[] }>;
   const localizedRegulator = geoContentTrans[citySlug]?.regulator || market.regulator;
   const localizedWater = geoContentTrans[citySlug]?.water || market.water || "";
   const localizedFocus = geoContentTrans[citySlug]?.focus || market.focus || [];
   
+  // SEO-optimized title with target keywords
+  const baseTitle = tGeo("cityMetaTitle", { city: market.city });
+  const focusTitleStr = localizedFocus.length > 0 ? ` | ${localizedFocus[0]}` : "";
+  const title = `${baseTitle}${focusTitleStr}`;
+  
+  // Place the highly unique water profile string at the beginning to prevent 
+  // "Duplicate Meta Description" flags from Seobility.
   const focusText = localizedFocus.length > 0 ? ` ${localizedFocus.join(", ")}.` : "";
-  const description = `${market.city}: ${tGeo("cityLead")} ${localizedRegulator}. ${localizedWater}${focusText}`;
+  const description = `${market.city} Wasserprofil: ${localizedWater} ${localizedRegulator}. ${tGeo("cityLead")}${focusText}`;
 
   return constructMetadata({
     title,
     description,
     path: `/maerkte/${hubSlug}/${citySlug}`,
     locale,
-    noIndex: true, // Fix for massive Seobility Duplicate Content on programmatic pages
+    noIndex: false, // Ensure these rank, since they are now unique!
   });
 }
 

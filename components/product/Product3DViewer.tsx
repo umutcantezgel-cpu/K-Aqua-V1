@@ -710,6 +710,7 @@ export default function Product3DViewer({ category }: Props) {
                 }`}
                 style={{ backgroundColor: col.value }}
                 title={col.label}
+                aria-label={`Select ${col.label} water color`}
               />
             ))}
           </div>

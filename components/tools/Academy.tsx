@@ -112,22 +112,22 @@ export function Academy({ data }: AcademyProps) {
       <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <Reveal>
-            <div className="max-w-[760px] mb-12 flex flex-col gap-3 text-start items-start">
-              <div className="mb-1">
-                <span className="font-heading text-sm font-bold tracking-widest uppercase text-muted-foreground">{data.eyebrow}</span>
-              </div>
-              <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
+          <div className="max-w-[760px] mb-12 flex flex-col gap-3 text-start items-start animate-reveal">
+            <div className="mb-1">
+              <span className="font-heading text-sm font-bold tracking-widest uppercase text-muted-foreground">{data.eyebrow}</span>
+            </div>
+            <h1 className="flex flex-col gap-4 mt-4 mb-2">
+              <span className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
                 {data.title1}{ENSPACE}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   {data.titleGrad}
                 </span>
-              </h1>
-              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+              </span>
+              <span className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal">
                 {data.lead}
-              </p>
-            </div>
-          </Reveal>
+              </span>
+            </h1>
+          </div>
         </div>
       </section>
 

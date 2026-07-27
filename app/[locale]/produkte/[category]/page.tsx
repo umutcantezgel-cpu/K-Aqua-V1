@@ -265,7 +265,7 @@ export default async function CategoryPage({ params }: Props) {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-background-subtle border-t border-card-border">
+      <section className="py-20 bg-background-subtle border-t border-card-border" data-nosnippet="true">
         <div className="max-w-[1200px] mx-auto px-6">
           <ProductFAQ category={catKey} />
         </div>
@@ -273,7 +273,7 @@ export default async function CategoryPage({ params }: Props) {
 
       {/* Category Guide Section */}
       {t.has(`${catKey}.guideText`) && (
-        <section className="py-20 bg-background border-t border-card-border">
+        <section className="py-20 bg-background border-t border-card-border" data-nosnippet="true">
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="max-w-3xl mx-auto text-left mb-12">
               <div className="text-muted-foreground leading-relaxed space-y-4">
@@ -285,7 +285,7 @@ export default async function CategoryPage({ params }: Props) {
       )}
       
       {/* Deep Dive Section */}
-      <section className="py-20 bg-background border-t border-card-border">
+      <section className="py-20 bg-background border-t border-card-border" data-nosnippet="true">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6">
             <PenTool className="w-8 h-8" />

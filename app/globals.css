@@ -615,6 +615,27 @@ body {
 .k-marquee-track .dot { color: var(--accent-strong); }
 @media (prefers-reduced-motion: no-preference) {
   html.anim-ok .k-marquee-track { animation: kmarquee 20s linear infinite; }
+  /* ─────────────────────────────────────────────────────────────
+   SEO-Friendly CSS Animations
+   Used to replace framer-motion <Reveal> for H1 elements,
+   ensuring crawlers like Seobility do not see opacity: 0 inline styles.
+   ───────────────────────────────────────────────────────────── */
+  @keyframes revealFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-reveal {
+    animation: revealFadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  @keyframes floatLogo { from { transform: translateX(-100%); } to { transform: translateX(0); } }
   @keyframes kmarquee { from { transform: translateX(-100%); } to { transform: translateX(0); } }
 }
 

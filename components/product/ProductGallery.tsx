@@ -50,19 +50,21 @@ export default function ProductGallery({ category }: Props) {
         <div className="absolute inset-0 flex items-center justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
           <button 
             onClick={prevImage}
+            aria-label="Previous Image"
             className="w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border pointer-events-auto hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors shadow-sm"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
           <button 
             onClick={nextImage}
+            aria-label="Next Image"
             className="w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border pointer-events-auto hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors shadow-sm"
           >
             <ChevronRight className="w-5 h-5" />
           </button>
         </div>
 
-        <button className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-background shadow-sm">
+        <button aria-label="Expand Image" className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-background shadow-sm">
           <Maximize2 className="w-4 h-4" />
         </button>
       </div>
@@ -73,6 +75,7 @@ export default function ProductGallery({ category }: Props) {
           <button
             key={idx}
             onClick={() => setCurrentIndex(idx)}
+            aria-label={`View Image ${idx + 1}`}
             className={clsx(
               'relative w-full aspect-[4/3] rounded-xl overflow-hidden transition-all duration-300',
               bg,

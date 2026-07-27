@@ -15,7 +15,7 @@ export function NewsDeep() {
   const allNews = getAllNews();
 
   return (
-    <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="news-more">
+    <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="news-more" data-nosnippet="true">
       <div className="mx-auto max-w-[1200px] px-6">
         <Reveal>
           <SectionHead eyebrow={t("moreEyebrow")} title={t("moreTitle")} lead={t("moreLead")} />

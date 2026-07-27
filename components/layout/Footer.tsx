@@ -22,7 +22,7 @@ export default function Footer() {
         
         {/* Top Area: Massive Brand Statement */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 border-b border-white/10 pb-16 md:pb-24 mb-16 md:mb-24">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl" data-nosnippet="true">
             <p className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
               {t('footer.tagline')}
             </p>

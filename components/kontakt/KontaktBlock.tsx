@@ -1,5 +1,7 @@
+"use client";
 // components/kontakt/KontaktBlock.tsx
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 import { KONTAKT_SLUGS, type KontaktSlug } from "@/content/kontakt-bloecke";
 import { KontaktForm } from "./KontaktForm";
 
@@ -10,6 +12,7 @@ interface Props {
   slug?: KontaktSlug;
   variant?: KontaktVariant;
   tone?: KontaktTone;
+  dynamicContext?: string;
 }
 
 interface KontaktContent {
@@ -28,33 +31,53 @@ function Promise_() {
 
 function CtxFull({ c }: { c: KontaktContent }) {
   return (
-    <div className="kqk-ctx">
+    <aside className="kqk-ctx" data-nosnippet="true">
       <div className="kqk-k">{c.kicker}</div>
       <h2 className="kqk-h">{c.head}</h2>
       <p className="kqk-t">{c.text}</p>
       <Promise_ />
-    </div>
+    </aside>
   );
 }
 
 function CtxShort({ c, withPromise }: { c: KontaktContent, withPromise?: boolean }) {
   return (
-    <div className="kqk-ctx">
+    <aside className="kqk-ctx" data-nosnippet="true">
       <div className="kqk-k">{c.kicker}</div>
       <h2 className="kqk-h sh">{c.short}</h2>
       {withPromise && <Promise_ />}
-    </div>
+    </aside>
   );
 }
 
-export function KontaktBlock({ slug = "fallback", variant = "block", tone = "" }: Props) {
+export function KontaktBlock({ slug = "fallback", variant = "block", tone = "", dynamicContext }: Props) {
   const t = useTranslations("kontaktBlocks");
+  const pathname = usePathname();
   const key: KontaktSlug = (KONTAKT_SLUGS as readonly string[]).includes(slug) ? slug : "fallback";
+  
+  let resolvedDynamicContext = dynamicContext;
+  if (!resolvedDynamicContext && pathname) {
+    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}(\/|$)/, "/");
+    if (key === "maerkte") {
+      const match = pathWithoutLocale.match(/\/maerkte\/([^\/]+)/);
+      if (match) {
+        resolvedDynamicContext = match[1].charAt(0).toUpperCase() + match[1].slice(1);
+      }
+    } else if (key === "news") {
+      const match = pathWithoutLocale.match(/\/news\/([^\/]+)/);
+      if (match) {
+        // Simple heuristic for news title: remove hyphens, title case
+        resolvedDynamicContext = match[1].split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      }
+    }
+  }
+
+  // Try to use dynamicContext if available, otherwise fallback to plain translation
   const c: KontaktContent = {
     kicker: t(`${key}.kicker`),
     head: t(`${key}.head`),
     short: t(`${key}.short`),
-    text: t(`${key}.text`),
+    text: resolvedDynamicContext ? `${t(`${key}.text`)} — ${resolvedDynamicContext}` : t(`${key}.text`),
     interest: t(`${key}.interest`),
     done: t(`${key}.done`),
   };

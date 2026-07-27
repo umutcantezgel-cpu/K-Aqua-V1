@@ -131,20 +131,17 @@ export default function Career({ careerData }: CareerProps) {
               {careerData.eyebrow}
             </span>
           </Reveal>
-          <Reveal delay={0.06}>
-            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+          <h1 className="flex flex-col gap-4 mt-4 mb-6">
+            <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance">
               {careerData.title1}{" "}
               <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                 {careerData.titleGrad}
               </span>
-            </h1>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty">
-              <span className="sr-only" aria-hidden="true">{careerData.title1} {careerData.titleGrad} </span>
+            </span>
+            <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty font-body font-normal">
               {careerData.lead}
-            </p>
-          </Reveal>
+            </span>
+          </h1>
         </div>
       </section>
 
