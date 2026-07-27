@@ -67,7 +67,7 @@ export function constructMetadata({
     'k-pipe-pp-r-sdr-6',
     'k-pipe-pp-rct-sdr-74',
     'k-pipe-purple-pp-r-sdr-11',
-    'reducing-tee-large-sizes',
+    'reducing-tee-large',
     'elbow-45',
     'elbow-45-femalemale',
     'metal-union-female-thread',
@@ -92,7 +92,14 @@ export function constructMetadata({
     // x-default points to default locale (de)
     languages["x-default"] = cleanPath ? `${siteUrl}/de/${cleanPath}` : `${siteUrl}/de`;
   }
-  let canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
+  
+  // Resolve Keyword Cannibalization for News
+  let overridePath = cleanPath;
+  if (cleanPath.endsWith("bim-building-information-modeling-rohrnetz-planung-ppr")) {
+    overridePath = cleanPath.replace("rohrnetz-planung-ppr", "rohrleitungsplanung-ppr");
+  }
+  
+  let canonicalUrl = overridePath ? `${siteUrl}/${locale}/${overridePath}` : `${siteUrl}/${locale}`;
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
   let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();
@@ -130,8 +137,26 @@ export function constructMetadata({
       if (!hasBrand) {
           suffix = " | K-Aqua";
       }
-      // No further PP-R/Rohrsysteme context appended – each page's translation
-      // file defines its own unique title with appropriate keywords.
+
+      // If title is still too short (< 40 chars), add a context-aware unique keyword
+      // based on the path to prevent global cannibalization while satisfying the 45-65 char rule.
+      if (finalTitle.length + suffix.length < 40 && cleanPath) {
+        if (cleanPath.includes("fittings") || cleanPath.includes("transition-fittings")) {
+           suffix += locale === 'de' ? " - PP-R Verbindungen" : locale === 'ar' ? " - تجهيزات PP-R" : " - PP-R Fittings";
+        } else if (cleanPath.includes("valves")) {
+           suffix += locale === 'de' ? " - PP-R Absperrventile" : locale === 'ar' ? " - صمامات PP-R" : " - PP-R Valves";
+        } else if (cleanPath.includes("tools") || cleanPath.includes("weld-in-saddles")) {
+           suffix += locale === 'de' ? " - Schweißwerkzeuge" : locale === 'ar' ? " - أدوات اللحام" : " - Welding Tools";
+        } else if (cleanPath.includes("accessories")) {
+           suffix += locale === 'de' ? " - Zubehörteile" : locale === 'ar' ? " - مستلزمات" : " - Accessories";
+        } else if (cleanPath.includes("pipes")) {
+           suffix += locale === 'de' ? " - Rohrleitungen" : locale === 'ar' ? " - أنابيب" : " - Piping Solutions";
+        } else if (cleanPath.includes("news")) {
+           suffix += locale === 'de' ? " - TGA Fachartikel" : locale === 'ar' ? " - مقال فني" : " - MEP Article";
+        } else if (cleanPath.includes("unternehmen") || cleanPath.includes("career")) {
+           suffix += locale === 'de' ? " - Unser Team" : locale === 'ar' ? " - فريقنا" : " - Our Team";
+        }
+      }
       
       // 4. Append suffix only if it fits a reasonable length
       if (suffix && finalTitle.length + suffix.length <= 65) {

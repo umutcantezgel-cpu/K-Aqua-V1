@@ -160,7 +160,7 @@ export default function EngineeredCard({
       <div className="pointer-events-none relative z-[2] flex flex-1 flex-col gap-4">
         <div className="flex flex-col gap-3">
           <span className={`${MONO} text-accent-strong`}>{overline}</span>
-          <h3 className="font-heading text-[23px] font-bold leading-tight tracking-tight">{title}</h3>
+          {title && <h3 className="font-heading text-[23px] font-bold leading-tight tracking-tight">{title}</h3>}
         </div>
 
         {/* Reservierte Fläche: Lead und Datenliste liegen übereinander */}

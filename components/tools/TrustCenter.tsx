@@ -101,19 +101,17 @@ export function TrustCenter({ data }: TrustCenterProps) {
                 <span className="text-small font-bold uppercase tracking-wider text-primary">{data.eyebrow}</span>
               </div>
             )}
-            <h1 className="flex flex-col gap-4 mt-4 mb-2">
-              <span className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
-                {data.title1}{ENSPACE}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  {data.titleGrad}
-                </span>
+            <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-4 mb-4">
+              {data.title1}{ENSPACE}
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                {data.titleGrad}
               </span>
-              {data.lead && (
-                <span className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal">
-                  {data.lead}
-                </span>
-              )}
             </h1>
+            {data.lead && (
+              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal mb-2">
+                {data.lead}
+              </p>
+            )}
             <p className="sr-only">{data.title1}{ENSPACE}{data.titleGrad} {data.lead}</p>
           </div>
         </div>
