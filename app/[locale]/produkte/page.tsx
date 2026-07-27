@@ -69,14 +69,12 @@ export default async function ProduktePage({ params }: Props) {
               <div className="mb-1">
                 <span className="font-heading text-sm font-bold tracking-widest uppercase text-muted-foreground">{t("sysEyebrow")}</span>
               </div>
-              <h1 className="flex flex-col gap-4 mt-1 mb-2">
-                <span className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
-                  {t("sysTitle")}
-                </span>
-                <span className="text-lead text-muted-foreground max-w-[62ch] text-wrap-pretty font-normal">
-                  {t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}
-                </span>
+              <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-1 mb-4">
+                {t("sysTitle")}
               </h1>
+              <p className="text-lead text-muted-foreground max-w-[62ch] text-wrap-pretty font-normal mb-2">
+                {t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}
+              </p>
               <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
                 <span className="sr-only">{t("sysTitle")}{t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}</span>
                 {t("sysLead")}

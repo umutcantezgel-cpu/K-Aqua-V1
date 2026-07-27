@@ -49,17 +49,15 @@ export default async function SitemapPage({ params }: Props) {
       <section className="relative overflow-hidden pt-32 pb-16 lg:py-40 border-b border-card-border">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <h1 className="flex flex-col gap-4 mt-4 mb-6">
-            <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
-              HTML Sitemap
-            </span>
-            <span className="text-xl text-muted-foreground font-normal" data-nosnippet="true">
-              {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
-               : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
-               : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
-              <span className="sr-only"> - K-Aqua HTML Sitemap</span>
-            </span>
+          <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
+            HTML Sitemap
           </h1>
+          <p className="text-xl text-muted-foreground font-normal mb-6" data-nosnippet="true">
+            {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
+             : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
+             : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
+            <span className="sr-only"> - K-Aqua HTML Sitemap</span>
+          </p>
           <p className="sr-only">
               HTML Sitemap
               {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 

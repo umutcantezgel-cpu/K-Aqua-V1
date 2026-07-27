@@ -301,14 +301,12 @@ export default async function ProductDetailPage({
                   {product.category}
                 </span>
               </Reveal>
-              <h1 className="flex flex-col gap-4 mt-4 mb-6 animate-reveal">
-                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance">
-                  {localizedTitle}
-                </span>
-                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
-                  {dynamicSeoH1}
-                </span>
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-2 animate-reveal">
+                {localizedTitle}
               </h1>
+              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
+                {dynamicSeoH1}
+              </p>
               <Reveal delay={0.12}>
                 {uniqueDesc ? (
                   <p className="text-lead text-muted-foreground leading-relaxed max-w-[56ch]">

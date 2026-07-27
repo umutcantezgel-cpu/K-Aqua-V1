@@ -32,7 +32,7 @@ export const HorizontalTimeline = ({
         
         {/* Intro Text Block fixed to the left */}
         <div className="absolute left-6 md:left-24 z-10 w-full max-w-md bg-background/80 backdrop-blur-md p-8 rounded-2xl border border-card-border shadow-2xl">
-          <h2 className="text-4xl md:text-5xl font-heading font-extrabold tracking-tight mb-4">{title}</h2>
+          {title && <h2 className="text-4xl md:text-5xl font-heading font-extrabold tracking-tight mb-4">{title}</h2>}
           {description && <p className="text-muted-foreground text-lg leading-relaxed">{description}</p>}
         </div>
 

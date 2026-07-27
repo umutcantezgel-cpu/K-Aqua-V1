@@ -65,17 +65,15 @@ export default async function KontaktPage({ params }: Props) {
               <Eyebrow>{t("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="flex flex-col gap-4 mt-4 mb-6">
-                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
-                  {t("title1")}{" "}
-                  <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                    {t("titleGrad")}
-                  </span>
-                </span>
-                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
-                  {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
+                {t("title1")}{" "}
+                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
+                  {t("titleGrad")}
                 </span>
               </h1>
+              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
+                {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
+              </p>
               <p className="sr-only">{t("title1")} {t("titleGrad")} {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}</p>
             </Reveal>
           </div>

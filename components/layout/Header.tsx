@@ -77,7 +77,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={headerClass} style={{ zIndex: menuOpen ? 80 : 40 }}>
+      <header data-nosnippet="true" className={headerClass} style={{ zIndex: menuOpen ? 80 : 40 }}>
         <div className="w-full max-w-[1200px] mx-auto px-4 md:px-6 flex items-center justify-between">
           {/* Logo */}
           <FluidLink
@@ -241,7 +241,7 @@ export default function Header() {
       </header>
 
       {/* SEO Navigation (Always rendered in DOM, visually hidden) */}
-      <nav className="sr-only" aria-label="Sitemap">
+      <nav data-nosnippet="true" className="sr-only" aria-label="Sitemap">
         <ul>
           <li><Link href="/">{t('home')}</Link></li>
           <li><Link href="/produkte">{t('products')}</Link></li>

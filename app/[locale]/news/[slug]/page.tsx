@@ -90,14 +90,12 @@ export default async function NewsDetailPage({ params }: Props) {
               <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag || newsItem.category || "News"}</span>
             </div>
           </Reveal>
-          <h1 className="flex flex-col gap-4 mt-2 mb-6 animate-reveal">
-            <span className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-[1.15]">
-              {resolveLocalized(newsItem.title, locale)}
-            </span>
-            <span className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed font-body font-normal">
-              <strong>{resolveLocalized(newsItem.title, locale)}</strong> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
-            </span>
+          <h1 className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-[1.15] mt-2 mb-4 animate-reveal">
+            {resolveLocalized(newsItem.title, locale)}
           </h1>
+          <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed font-body font-normal mb-6 animate-reveal">
+            <strong>{resolveLocalized(newsItem.title, locale)}</strong> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
+          </p>
           <p className="sr-only">{resolveLocalized(newsItem.title, locale)} {resolveLocalized(newsItem.title, locale)} &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}</p>
         </div>
       </section>

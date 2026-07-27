@@ -52,14 +52,12 @@ export default async function DatenschutzPage({ params }: Props) {
               <Eyebrow>{tLegal("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="flex flex-col gap-4 mt-4 mb-6">
-                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
-                  {title}
-                </span>
-                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
-                  {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}
-                </span>
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
+                {title}
               </h1>
+              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
+                {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}
+              </p>
               <p className="sr-only">{title} {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}</p>
             </Reveal>
           </div>

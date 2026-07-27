@@ -165,6 +165,7 @@ export default function MarketsHub({
         <div className="max-w-[1200px] mx-auto px-6">
           
           {/* Chips Filter Container */}
+          <h2 className="sr-only">{geoTrans.all}</h2>
           <div className="flex flex-wrap gap-2 mb-8 text-start justify-start" role="group" aria-label="Regionen-Filter">
             <FilterChip
               pressed={selectedRegion === "all"}

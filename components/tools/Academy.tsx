@@ -116,17 +116,15 @@ export function Academy({ data }: AcademyProps) {
             <div className="mb-1">
               <span className="font-heading text-sm font-bold tracking-widest uppercase text-muted-foreground">{data.eyebrow}</span>
             </div>
-            <h1 className="flex flex-col gap-4 mt-4 mb-2">
-              <span className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance">
-                {data.title1}{ENSPACE}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  {data.titleGrad}
-                </span>
-              </span>
-              <span className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal">
-                {data.lead}
+            <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-4 mb-4">
+              {data.title1}{ENSPACE}
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                {data.titleGrad}
               </span>
             </h1>
+            <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal mb-2">
+              {data.lead}
+            </p>
             <p className="sr-only">{data.title1}{ENSPACE}{data.titleGrad} {data.lead}</p>
           </div>
         </div>

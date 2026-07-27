@@ -241,6 +241,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
 
   return (
     <div
+      data-nosnippet="true"
       className="k-mega"
       role="dialog"
       aria-modal="true"
