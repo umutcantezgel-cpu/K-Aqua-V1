@@ -52,7 +52,7 @@ export default async function SitemapPage({ params }: Props) {
           <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
             HTML Sitemap
           </h1>
-          <p className="text-xl text-muted-foreground font-normal mb-6" data-nosnippet="true">
+          <p className="text-xl text-muted-foreground font-normal mb-6">
             {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
              : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
              : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
@@ -65,7 +65,7 @@ export default async function SitemapPage({ params }: Props) {
                : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
                - K-Aqua HTML Sitemap
           </p>
-          <div className="mt-6 space-y-4 text-lg text-muted-foreground" data-nosnippet="true">
+          <div className="mt-6 space-y-4 text-lg text-muted-foreground">
             <p>
               {locale === 'de' ? 'Die K-Aqua Website ist umfangreich und bietet detaillierte Informationen zu unseren hochmodernen PP-R und PPRCT Rohrsystemen, Formteilen, Armaturen und branchenspezifischen Lösungen. Nutzen Sie diese HTML Sitemap als zentralen Navigationsknotenpunkt, um ohne Umwege direkt zu den gewünschten Produktdatenblättern, Ausschreibungstexten, technischen Katalogen oder zu unserem interaktiven Produktfinder zu gelangen.'
                : locale === 'en' ? 'The K-Aqua website is extensive and offers detailed information about our ultra-modern PP-R and PPRCT piping systems, fittings, valves, and industry-specific solutions. Use this HTML sitemap as a central navigation hub to go straight to the desired product data sheets, technical catalogs, or our interactive product finder.'

@@ -85,6 +85,7 @@ export default function Header() {
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
             aria-label="K Aqua Homepage"
           >
+            <span className="sr-only">K-Aqua Homepage</span>
             <Logo height={48} />
           </FluidLink>
 
@@ -103,22 +104,22 @@ export default function Header() {
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Rohrsysteme</span>
                   <FluidLink href="/produkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Übersicht aller K Aqua PPR Lösungen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Übersicht aller K Aqua PPR Lösungen</span>
                   </FluidLink>
                   <FluidLink href="/loesungen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">{t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Industriespezifische Applikationen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Industriespezifische Applikationen</span>
                   </FluidLink>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Digitale Tools</span>
                   <FluidLink href="/produkte/finder" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Box className="w-4 h-4" /> {t('finder')}</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Das richtige System konfigurieren</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Das richtige System konfigurieren</span>
                   </FluidLink>
                   <FluidLink href="/co2-rechner" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Settings className="w-4 h-4" /> {t('co2')}</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Umweltbilanz kalkulieren</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Umweltbilanz kalkulieren</span>
                   </FluidLink>
                 </div>
               </div>
@@ -133,19 +134,19 @@ export default function Header() {
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[320px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-3 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <FluidLink href="/academy" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><HardHat className="w-4 h-4" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground">Schulungen & Zertifikate</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Schulungen & Zertifikate</span></div>
                 </FluidLink>
                 <FluidLink href="/trust-center" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><Compass className="w-4 h-4" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('trust')}</span><span className="text-xs text-muted-foreground">Downloads & Zertifizierungen</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('trust')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Downloads & Zertifizierungen</span></div>
                 </FluidLink>
                 <FluidLink href="/service" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Settings className="w-4 h-4 text-muted-foreground" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('service')}</span><span className="text-xs text-muted-foreground">Planungsunterstützung</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('service')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Planungsunterstützung</span></div>
                 </FluidLink>
                 <FluidLink href="/partnerschaft" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Map className="w-4 h-4 text-muted-foreground" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('partners')}</span><span className="text-xs text-muted-foreground">Werden Sie lokaler Partner</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('partners')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Werden Sie lokaler Partner</span></div>
                 </FluidLink>
               </div>
             </div>

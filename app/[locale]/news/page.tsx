@@ -73,7 +73,7 @@ export default async function NewsPage({ params }: Props) {
             <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-8 items-start">
               {/* Primary News Release */}
               <Reveal>
-                <Card className="p-8 text-start flex flex-col gap-6" data-nosnippet="true">
+                <Card className="p-8 text-start flex flex-col gap-6">
                   <div>
                     <span className="text-[13.5px] font-semibold text-muted-foreground">
                       {t("date")}

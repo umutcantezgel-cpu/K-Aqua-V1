@@ -67,7 +67,7 @@ export function constructMetadata({
     'k-pipe-pp-r-sdr-6',
     'k-pipe-pp-rct-sdr-74',
     'k-pipe-purple-pp-r-sdr-11',
-    'reducing-tee-large',
+    'reducing-tee-large-sizes',
     'elbow-45',
     'elbow-45-femalemale',
     'metal-union-female-thread',
@@ -186,11 +186,11 @@ export function constructMetadata({
     }
   }
 
-  // Strictly enforce 155 character limit for description
-  if (finalDescription.length > 155) {
-    // Try to cut at the last space before 152 to add "..."
-    const cutPos = finalDescription.lastIndexOf(" ", 152);
-    finalDescription = finalDescription.substring(0, cutPos > 100 ? cutPos : 152) + "...";
+  // Strictly enforce 145 character limit for description to avoid pixel width limit (1000px)
+  if (finalDescription.length > 145) {
+    // Try to cut at the last space before 142 to add "..."
+    const cutPos = finalDescription.lastIndexOf(" ", 142);
+    finalDescription = finalDescription.substring(0, cutPos > 100 ? cutPos : 142) + "...";
   }
 
   // Enforce title length (optimal 45-65)

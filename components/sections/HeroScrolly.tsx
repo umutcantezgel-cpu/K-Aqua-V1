@@ -171,7 +171,7 @@ export default function HeroScrolly() {
         <IconChip className="mb-2">
           <Ic className="w-5 h-5" />
         </IconChip>
-        <strong className="font-heading text-lg font-bold">{c.t}</strong>
+        <span className="font-heading text-lg font-bold block mb-1 text-foreground">{c.t}</span>
         <span className="text-small text-muted-foreground">{c.d}</span>
       </div>
     );
@@ -200,7 +200,7 @@ export default function HeroScrolly() {
         <IconChip className="mb-2">
           <Ic className="w-5 h-5" />
         </IconChip>
-        <strong className="font-heading text-lg font-bold">{c.t}</strong>
+        <span className="font-heading text-lg font-bold block mb-1 text-foreground">{c.t}</span>
         <span className="text-small text-muted-foreground">{c.d}</span>
       </div>
     );

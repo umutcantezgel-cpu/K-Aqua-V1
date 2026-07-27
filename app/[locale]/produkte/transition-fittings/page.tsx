@@ -96,7 +96,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     
       {/* Category Guide Section */}
       {tSeo.has("guideText") && (
-        <section className="py-20 bg-background border-t border-card-border" data-nosnippet="true">
+        <section className="py-20 bg-background border-t border-card-border">
           <div className="mx-auto max-w-[1400px] px-6">
             <div className="max-w-3xl mx-auto text-left mb-12">
               <div className="text-muted-foreground leading-relaxed space-y-4">
