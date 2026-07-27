@@ -42,6 +42,12 @@ interface LayoutProps {
 import { headers } from 'next/headers';
 import { setRequestLocale } from 'next-intl/server';
 import pick from 'lodash/pick';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua-v1.vercel.app'),
+};
+
 
 export default async function LocaleLayout({
   children,
