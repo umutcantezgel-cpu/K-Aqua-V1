@@ -2,11 +2,11 @@
 
 Alle Daten liegen im Prototyp als JS-Objekte vor. In Next.js werden sie zu
 **typisierten TS-Modulen** unter `lib/data/`. Quelle der Wahrheit = die Prototyp-Dateien.
-Inhalte NICHT neu erfinden — 1:1 übernehmen, markierte Platzhalter als `// TODO(content)` belassen.
+Inhalte NICHT neu erfinden - 1:1 übernehmen, markierte Platzhalter als `// TODO(content)` belassen.
 
 ---
 
-## `lib/data/geo.ts` — Märkte (Quelle: `prototype/kaqua-geo.jsx`, `K_GEO` + `K_REGIONS`)
+## `lib/data/geo.ts` - Märkte (Quelle: `prototype/kaqua-geo.jsx`, `K_GEO` + `K_REGIONS`)
 
 ```ts
 export type RegionId = 'dach' | 'europa' | 'nahost' | 'global';
@@ -19,13 +19,13 @@ export interface Region {
 
 export interface GeoMarket {
   slug: string;            // URL-Segment, kanonisch deutsch (z. B. "dubai")
-  city: string;            // Eigenname — bleibt unübersetzt im Datensatz
+  city: string;            // Eigenname - bleibt unübersetzt im Datensatz
   country: string;         // Eigenname
   region: RegionId;
   lat: number;             // für Globus-flyTo + Haversine
   lon: number;
-  regulator: string;       // lokale Aufsicht/Norm-Regime — // TODO(content): fachlich prüfen
-  norms: string[];         // einschlägige Normen — // TODO(content): fachlich prüfen
+  regulator: string;       // lokale Aufsicht/Norm-Regime - // TODO(content): fachlich prüfen
+  norms: string[];         // einschlägige Normen - // TODO(content): fachlich prüfen
   water: string;           // Wasserprofil + Materialantwort
   focus: string[];         // typische Projekttypen vor Ort
   note: string;            // Logistik-/Lieferhinweis ab Waldsolms
@@ -41,12 +41,12 @@ export const GEO_MARKETS: GeoMarket[];  // 27 Einträge
 > bleiben sprachneutral im TS-Modul. Siehe `agents/18_geo_city_pages_pSEO.md`.
 
 **Helfer (aus Prototyp portieren):**
-- `haversineKm(a, b)` — Entfernung Stadt ↔ Waldsolms (Tooltip + „In der Nähe").
-- `nearestMarkets(slug, n = 3)` — die n geografisch nächsten Märkte (interne Verlinkung).
+- `haversineKm(a, b)` - Entfernung Stadt - Waldsolms (Tooltip + „In der Nähe").
+- `nearestMarkets(slug, n = 3)` - die n geografisch nächsten Märkte (interne Verlinkung).
 
 ---
 
-## `lib/data/products.ts` — Produkt-Matrix (Quelle: `prototype/kaqua-views-3.jsx`, Finder)
+## `lib/data/products.ts` - Produkt-Matrix (Quelle: `prototype/kaqua-views-3.jsx`, Finder)
 
 ```ts
 export type PipeType = 'mono' | 'multilayer' | 'fitting' | 'valve' | 'tool';
@@ -64,7 +64,7 @@ export const PRODUCTS: ProductRow[];
 
 ---
 
-## `messages/{locale}.json` — i18n (Quelle: 3 i18n-Prototyp-Dateien)
+## `messages/{locale}.json` - i18n (Quelle: 3 i18n-Prototyp-Dateien)
 
 ```
 {

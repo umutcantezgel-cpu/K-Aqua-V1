@@ -13,9 +13,9 @@ PP-R crossover pipe fitting for crossing pipe runs without connection.
 
 | Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
 |---------|--------|--------|--------|-------------|------|
-| AQ26720 | 20     | —      | —      | —           | 90   |
-| AQ26725 | 25     | —      | —      | —           | 90   |
-| AQ26732 | 32     | —      | —      | —           | 65   |
+| AQ26720 | 20     | -      | -      | -           | 90   |
+| AQ26725 | 25     | -      | -      | -           | 90   |
+| AQ26732 | 32     | -      | -      | -           | 65   |
 
 ## Available Sizes
 20 · 25 · 32 mm

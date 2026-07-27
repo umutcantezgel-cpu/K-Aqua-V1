@@ -22,8 +22,8 @@ PP-R socket fusion fitting with male thread (R) for transition to female-threade
 | AQ24R75  | 75     | 2½"      | 10   |
 | AQ24R90  | 90     | 3"       | 8    |
 | AQ24R110 | 110    | 4"       | 8    |
-| AQ24R125 | 125    | —        | 4    |
-| AQ24R160 | 160    | —        | 2    |
+| AQ24R125 | 125    | -        | 4    |
+| AQ24R160 | 160    | -        | 2    |
 
 ## Available Sizes
 20–160 mm

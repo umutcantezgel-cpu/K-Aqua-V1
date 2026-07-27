@@ -51,7 +51,7 @@ export const recyclingPpr: NewsPost = {
         <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert text-muted-foreground">
           <h2 className="text-3xl font-extrabold text-foreground mb-4">Das grüne Paradoxon: Warum der richtige Kunststoff nachhaltig ist</h2>
           <p className="mb-4">
-            Der Begriff "Plastik" weckt in der öffentlichen Wahrnehmung oft sofort Assoziationen zu Umweltverschmutzung und Mikroplastik in den Ozeanen. Doch in der professionellen Gebäudeinstallation und industriellen Rohrleitungstechnik sieht die Realität grundlegend anders aus. Wenn es um Nachhaltigkeit im Bauwesen (Green Building) geht, müssen wir den gesamten Lebenszyklus eines Materials betrachten – von der ressourcenschonenden Gewinnung über jahrzehntelange, verlustfreie Nutzung bis hin zur vollständigen Wiederverwertbarkeit. Hier entpuppt sich Polypropylen Random Copolymer (PPR) als regelrechter Umwelt-Champion im direkten Vergleich zu traditionellen metallischen Werkstoffen.
+            Der Begriff "Plastik" weckt in der öffentlichen Wahrnehmung oft sofort Assoziationen zu Umweltverschmutzung und Mikroplastik in den Ozeanen. Doch in der professionellen Gebäudeinstallation und industriellen Rohrleitungstechnik sieht die Realität grundlegend anders aus. Wenn es um Nachhaltigkeit im Bauwesen (Green Building) geht, müssen wir den gesamten Lebenszyklus eines Materials betrachten, von der ressourcenschonenden Gewinnung über jahrzehntelange, verlustfreie Nutzung bis hin zur vollständigen Wiederverwertbarkeit. Hier entpuppt sich Polypropylen Random Copolymer (PPR) als regelrechter Umwelt-Champion im direkten Vergleich zu traditionellen metallischen Werkstoffen.
           </p>
           <h3 className="text-2xl font-bold text-foreground mt-6 mb-3">Die CO2-Bilanz in der Herstellung</h3>
           <p className="mb-4">
@@ -107,7 +107,7 @@ export const recyclingPpr: NewsPost = {
         <div className="my-16">
           <SectionHead
             title="Der K-Aqua Materialkreislauf in der Praxis"
-            lead="Von der umweltschonenden Herstellung bis zur technischen Wiederverwertung – ein lückenlos geschlossenes System."
+            lead="Von der umweltschonenden Herstellung bis zur technischen Wiederverwertung, ein lückenlos geschlossenes System."
             align="center"
           />
           <div className="mt-12">

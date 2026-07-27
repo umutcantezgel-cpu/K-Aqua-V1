@@ -56,7 +56,7 @@ export const gewichtsreduktionLogistik: NewsPost = {
 
             <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Das Leichtgewicht PP-R: Bis zu 80 % Gewichtsreduktion</h2>
             <p>
-              K Aqua PP-R (Polypropylen Random Copolymer) ist ein extrem leistungsfähiger, aber sehr leichter Werkstoff. Seine spezifische Dichte liegt bei nur ca. 0,9 g/cm³ – er ist damit sogar leichter als Wasser und schwimmt. Im Vergleich zu einem Stahlrohr gleicher Dimension spart ein PP-R-Rohr bis zu 80 % an Gewicht ein.
+              K Aqua PP-R (Polypropylen Random Copolymer) ist ein extrem leistungsfähiger, aber sehr leichter Werkstoff. Seine spezifische Dichte liegt bei nur ca. 0,9 g/cm³, er ist damit sogar leichter als Wasser und schwimmt. Im Vergleich zu einem Stahlrohr gleicher Dimension spart ein PP-R-Rohr bis zu 80 % an Gewicht ein.
             </p>
             <h3 className="text-xl font-semibold text-foreground mt-6">Optimierte globale und lokale Logistik</h3>
             <p>

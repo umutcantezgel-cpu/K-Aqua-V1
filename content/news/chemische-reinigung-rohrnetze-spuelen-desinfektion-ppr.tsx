@@ -56,7 +56,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
         <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert text-muted-foreground">
           <h2 className="text-3xl font-extrabold text-foreground mb-4">Trinkwasserhygiene: Keine Kompromisse bei der mikrobiologischen Sicherheit</h2>
           <p className="mb-4">
-            Trinkwasser ist unser wichtigstes Lebensmittel. In modernen Gebäuden – von weitläufigen Hotelanlagen über sensible Krankenhäuser bis hin zu großen Wohnkomplexen – stellen ausgedehnte Rohrnetze hohe Anforderungen an die Hygiene. Wenn Wasser in Leitungen stagniert, die Temperaturen im Kaltwassernetz über 25 °C steigen oder im Warmwassernetz unter 55 °C fallen, entsteht ein ideales Brutklima für gefährliche Mikroorganismen. Insbesondere Legionellen und Pseudomonaden können sich in Biofilmen an den Rohrinnenwänden rasant vermehren und bei Inhalation über Aerosole (z. B. beim Duschen) schwere Lungenentzündungen auslösen.
+            Trinkwasser ist unser wichtigstes Lebensmittel. In modernen Gebäuden, von weitläufigen Hotelanlagen über sensible Krankenhäuser bis hin zu großen Wohnkomplexen, stellen ausgedehnte Rohrnetze hohe Anforderungen an die Hygiene. Wenn Wasser in Leitungen stagniert, die Temperaturen im Kaltwassernetz über 25 °C steigen oder im Warmwassernetz unter 55 °C fallen, entsteht ein ideales Brutklima für gefährliche Mikroorganismen. Insbesondere Legionellen und Pseudomonaden können sich in Biofilmen an den Rohrinnenwänden rasant vermehren und bei Inhalation über Aerosole (z. B. beim Duschen) schwere Lungenentzündungen auslösen.
           </p>
           <h3 className="text-2xl font-bold text-foreground mt-6 mb-3">Prävention durch das richtige Material und Spülprotokolle</h3>
           <p className="mb-4">
@@ -70,7 +70,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
             Wird bei einer gesetzlich vorgeschriebenen Trinkwasserbeprobung ein kritischer Legionellenbefall festgestellt, der durch einfache thermische Desinfektion (Aufheizen des Netzes auf über 70 °C) nicht mehr in den Griff zu bekommen ist, greifen Facility Manager zur chemischen Stoßdesinfektion. Hierbei werden stark oxidierende Chemikalien wie Chlor (Natriumhypochlorit), Chlordioxid oder Wasserstoffperoxid in das Leitungssystem injiziert.
           </p>
           <p className="mb-4">
-            Diese Oxidationsmittel zerstören gnadenlos die Zellwände der Bakterien – sie greifen jedoch bei falscher Handhabung auch das Rohrmaterial an. Polypropylen (PPR) ist von Natur aus äußerst chemikalienbeständig. Es verträgt Stoßdesinfektionen nach den gängigen Regelwerken problemlos. Die Lebensdauer des Rohrsystems hängt in solchen Fällen jedoch extrem von der Disziplin des ausführenden Personals ab.
+            Diese Oxidationsmittel zerstören gnadenlos die Zellwände der Bakterien, sie greifen jedoch bei falscher Handhabung auch das Rohrmaterial an. Polypropylen (PPR) ist von Natur aus äußerst chemikalienbeständig. Es verträgt Stoßdesinfektionen nach den gängigen Regelwerken problemlos. Die Lebensdauer des Rohrsystems hängt in solchen Fällen jedoch extrem von der Disziplin des ausführenden Personals ab.
           </p>
           <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die fatale Gefahr der Überdosierung</h4>
           <p className="mb-4">
@@ -189,7 +189,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
       <Reveal>
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Unterschiedliche Länder, unterschiedliche Chemie</h3>
-          <p className="text-inverse-foreground/80 leading-relaxed">Sie planen ein internationales Bauprojekt im Ausland und müssen lokale, teils aggressive Desinfektionsmittel verwenden? Senden Sie uns das Sicherheitsdatenblatt – unsere Labortechniker prüfen die chemische Beständigkeit.</p>
+          <p className="text-inverse-foreground/80 leading-relaxed">Sie planen ein internationales Bauprojekt im Ausland und müssen lokale, teils aggressive Desinfektionsmittel verwenden? Senden Sie uns das Sicherheitsdatenblatt, unsere Labortechniker prüfen die chemische Beständigkeit.</p>
           <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Technischen Support kontaktieren
           </a>

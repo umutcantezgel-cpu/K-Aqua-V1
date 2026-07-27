@@ -1,9 +1,10 @@
-# Token-Referenz — was im Code benutzt wird
-
-Alle Werte sind in `app/globals.css` definiert. **Nur die hier gelisteten Namen verwenden.**
-Kein roher Hex-Wert im Markup — niemals. Dark Mode schaltet über `[data-theme="dark"]`.
-
-## Farben (semantisch) — Tailwind-Utility ← CSS-Variable
+# Token-Referenz - was im Code benutzt wird
+ 
+ Diese Tokens sind in `app/globals.css` als CSS-Variablen definiert und als Tailwind-
+ Utilities (`theme: { extend: { colors: {...} } }`) in der `tailwind.config.ts` verfügbar.
+ Kein roher Hex-Wert im Markup - niemals. Dark Mode schaltet über `[data-theme="dark"]`.
+ 
+ ## Farben (semantisch) - Tailwind-Utility ← CSS-Variable
 
 | Utility | Variable | Verwendung |
 |---|---|---|
@@ -25,7 +26,7 @@ Kein roher Hex-Wert im Markup — niemals. Dark Mode schaltet über `[data-theme
 Nicht-Utility-Variablen (direkt via `var()` in CSS/Inline-Style): `--nav-glass`, `--nav-border`, `--hero-wash`.
 Brand-Rampe `--brand-50…900`, Aqua `--aqua-300…600` nur als Escape-Hatch.
 
-## Typo — Tailwind-Utility ← Variable (φ-Skala)
+## Typo - Tailwind-Utility ← Variable (φ-Skala)
 
 | Utility | Variable | px (fluid) |
 |---|---|---|
@@ -46,8 +47,8 @@ Gewichte: Headlines 800, H3/H4 700, Body 400, Overline 700 + `tracking-wider` + 
 
 | Utility | Variable | Wert |
 |---|---|---|
-| `rounded-lg` | `--radius-lg` | 16px — Buttons, Inputs |
-| `rounded-xl` | `--radius-xl` | 24px — Karten |
+| `rounded-lg` | `--radius-lg` | 16px - Buttons, Inputs |
+| `rounded-xl` | `--radius-xl` | 24px - Karten |
 | `rounded-full` | `--radius-full` | Pills, Badges |
 | `shadow-diffuse` | `--shadow-diffuse` | Karten in Ruhe |
 | `shadow-lift` | `--shadow-lift` | Karten-Hover, schwebende Elemente |

@@ -5,7 +5,7 @@ slug: "tools/hand-welding-machine-mirror-50-125"
 article_codes: ["AQ991125"]
 ---
 
-# Hand Welding Machine — Mirror Only 50–125
+# Hand Welding Machine - Mirror Only 50–125
 
 Replacement heating mirror for welding machine 50–125 mm.
 

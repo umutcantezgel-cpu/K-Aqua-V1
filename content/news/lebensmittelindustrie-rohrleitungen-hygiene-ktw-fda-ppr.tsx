@@ -18,13 +18,13 @@ export const lebensmittelindustrieHygiene: NewsPost = {
   },
   date: "2024-11-20",
   teaser: {
-    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP beständig.",
-    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP resistant.",
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien, korrosionsfrei, geschmacksneutral und CIP beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media, corrosion-free, tasteless, and CIP resistant.",
     ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
   },
   excerpt: {
-    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien – korrosionsfrei, geschmacksneutral und CIP beständig.",
-    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media – corrosion-free, tasteless, and CIP resistant.",
+    de: "Hygienische PPR Rohrsysteme in der Lebensmittelindustrie: K Aqua bietet KTW- und FDA-konforme, lebensmittelechte Rohrleitungen für Trinkwasser und flüssige Medien, korrosionsfrei, geschmacksneutral und CIP beständig.",
+    en: "Hygienic PPR pipe systems in the food industry: K Aqua offers KTW- and FDA-compliant, food-safe piping for drinking water and liquid media, corrosion-free, tasteless, and CIP resistant.",
     ar: "أنظمة أنابيب PPR الصحية في صناعة الأغذية: تقدم K Aqua أنابيب آمنة غذائياً ومتوافقة مع معايير KTW و FDA لمياه الشرب والوسائط السائلة - خالية من التآكل، ولا تؤثر على المذاق، ومقاومة للتنظيف المكاني (CIP)."
   },
   coverImage: "/images/news/food-industry.jpg",
@@ -75,7 +75,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
 
           <h3>CIP-Verfahren (Cleaning in Place): Chemische Beständigkeit im Fokus</h3>
           <p>
-            Ein zentraler Prozess in der Lebensmittelindustrie ist das "Cleaning in Place" (CIP) – die Reinigung der Produktionsanlagen ohne Demontage. Bei diesem Verfahren kommen hochkonzentrierte Reinigungsmittel, aggressive Säuren (wie Salpetersäure oder Phosphorsäure) und scharfe Laugen (wie Natronlauge) bei Temperaturen von bis zu 90 °C zum Einsatz. 
+            Ein zentraler Prozess in der Lebensmittelindustrie ist das "Cleaning in Place" (CIP), die Reinigung der Produktionsanlagen ohne Demontage. Bei diesem Verfahren kommen hochkonzentrierte Reinigungsmittel, aggressive Säuren (wie Salpetersäure oder Phosphorsäure) und scharfe Laugen (wie Natronlauge) bei Temperaturen von bis zu 90 °C zum Einsatz. 
           </p>
           <p>
             Während Edelstahl bei bestimmten Chloridkonzentrationen zur gefürchteten Lochfraßkorrosion neigt, zeigt PP-R eine überragende chemische Beständigkeit. Die Rohre werden von den aggressiven Reinigungsmitteln weder angegriffen noch aufgeraut. Die absolute Korrosionsfreiheit von PP-R eliminiert das Risiko von Metallionen, die in die Lebensmittel gelangen könnten. Dies verlängert die Lebensdauer des gesamten Rohrnetzwerkes erheblich und reduziert die Wartungskosten für die Anlagenbetreiber drastisch.
@@ -91,7 +91,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
 
           <h3>Verbindungstechnik: Totraumfreie Schweißnähte</h3>
           <p>
-            Ein Rohrleitungssystem ist nur so hygienisch wie seine schwächste Stelle – und das sind meist die Verbindungen. Traditionelle Schraub-, Flansch- oder Pressverbindungen schaffen häufig Toträume, in denen das Medium stagniert und sich Bakterien ungestört vermehren können. K Aqua PP-R setzt auf das Verfahren der Polyfusion (Heizelementmuffenschweißung). 
+            Ein Rohrleitungssystem ist nur so hygienisch wie seine schwächste Stelle, und das sind meist die Verbindungen. Traditionelle Schraub-, Flansch- oder Pressverbindungen schaffen häufig Toträume, in denen das Medium stagniert und sich Bakterien ungestört vermehren können. K Aqua PP-R setzt auf das Verfahren der Polyfusion (Heizelementmuffenschweißung). 
           </p>
           <p>
             Dabei werden Rohr und Fitting kurzzeitig erhitzt und anschließend ineinandergefügt. Das Material verschmilzt auf molekularer Ebene zu einer homogenen, absolut dichten und untrennbaren Einheit. Das Resultat ist eine 100 % totraumfreie Verbindung, die mechanisch ebenso belastbar ist wie das Rohr selbst. Keine Dichtungsringe, die im Laufe der Zeit porös werden, und keine Spalten, in denen sich Keime verstecken können.
@@ -207,7 +207,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
             stats={[
               { n: "0", l: "Gefahr durch Weichmacher, Halogene oder Schwermetalle." },
               { n: "100", u: "%", l: "Geruchs- und geschmacksneutral für sensible Flüssigkeiten." },
-              { n: "<0.007", u: "mm", l: "Rauheit der Rohrinnenwand – minimiert Anhaftungen und Bakterien." }
+              { n: "<0.007", u: "mm", l: "Rauheit der Rohrinnenwand, minimiert Anhaftungen und Bakterien." }
             ]}
           />
         </div>

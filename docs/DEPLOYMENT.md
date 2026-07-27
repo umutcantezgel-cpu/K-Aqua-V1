@@ -1,6 +1,6 @@
 # Deployment Guide (Vercel)
 
-> **Step 25 — Agent 25**
+> **Step 25 - Agent 25**
 
 ---
 
@@ -19,9 +19,9 @@
 | `NEXT_PUBLIC_SITE_URL` | Preview | `https://$VERCEL_URL` |
 
 Additional Phase 2 variables (see `.env.example`):
-- `CMS_API_URL` / `CMS_API_TOKEN` — headless CMS
-- `CONTACT_INBOX` / `RESEND_API_KEY` — form delivery
-- `NEXT_PUBLIC_ANALYTICS_ID` — analytics
+- `CMS_API_URL` / `CMS_API_TOKEN` - headless CMS
+- `CONTACT_INBOX` / `RESEND_API_KEY` - form delivery
+- `NEXT_PUBLIC_ANALYTICS_ID` - analytics
 
 ## 3. Domain Configuration
 

@@ -19,9 +19,9 @@ export const isoZertifizierung: NewsPost = {
     ar: 'شهادات ISO 9001 و 14001 و 50001',
   },
   teaser: {
-    de: 'Das integrierte ISO Managementsystem der KWT GmbH umfasst ISO 9001, 14001 und 50001 für PPR-Rohrsysteme – DAkkS-akkreditiert, nach höchsten Industriestandards geprüft und zertifiziert.',
-    en: 'The integrated ISO management system of KWT GmbH encompasses ISO 9001, 14001, and 50001 for PPR piping systems – DAkkS-accredited, tested and certified according to the highest industry standards.',
-    ar: 'يشتمل نظام إدارة ISO المتكامل لشركة KWT GmbH على معايير ISO 9001 و14001 و50001 لأنظمة أنابيب PPR – وهو معتمد من DAkkS، ومختبر ومصادق عليه وفقاً لأعلى المعايير الصناعية.',
+    de: 'Das integrierte ISO Managementsystem der KWT GmbH umfasst ISO 9001, 14001 und 50001 für PPR-Rohrsysteme, DAkkS-akkreditiert, nach höchsten Industriestandards geprüft und zertifiziert.',
+    en: 'The integrated ISO management system of KWT GmbH encompasses ISO 9001, 14001, and 50001 for PPR piping systems, DAkkS-accredited, tested and certified according to the highest industry standards.',
+    ar: 'يشتمل نظام إدارة ISO المتكامل لشركة KWT GmbH على معايير ISO 9001 و14001 و50001 لأنظمة أنابيب PPR، وهو معتمد من DAkkS، ومختبر ومصادق عليه وفقاً لأعلى المعايير الصناعية.',
   },
   content: (
     <div className="flex flex-col gap-16 lg:gap-24 w-full">
@@ -46,7 +46,7 @@ export const isoZertifizierung: NewsPost = {
               Die Produktion von hochbelastbaren Rohrleitungssystemen für den globalen Markt ist kein Geschäft für Kompromisse. Ein Kunststoffrohr, das tief in den Versorgungsschächten eines fünfzigstöckigen Wolkenkratzers, unter den massiven Betonplatten einer Industrieanlage oder in hygienisch hochsensiblen Bereichen eines Krankenhauses verbaut wird, muss nicht nur Jahre, sondern viele Jahrzehnte fehlerfrei funktionieren.
             </p>
             <p className="mb-4">
-              Jeder noch so winzige Materialfehler, jede Nachlässigkeit in der Extrusion oder Toleranzabweichung beim Schmelzindex kann katastrophale Folgen haben. Ein Rohrbruch oder eine Leckage führt nicht nur zu massiven finanziellen Schäden und potenziellen Betriebsunterbrechungen, sondern gefährdet im schlimmsten Fall auch die Trinkwasserhygiene und damit die menschliche Gesundheit. Um solch existenzielle Risiken zu eliminieren, reicht Vertrauen allein nicht aus – es bedarf belegbarer, streng kontrollierter und kontinuierlich auditierter Prozesse. Hier bilden die Normen der International Organization for Standardization (ISO) das Fundament unseres Handelns.
+              Jeder noch so winzige Materialfehler, jede Nachlässigkeit in der Extrusion oder Toleranzabweichung beim Schmelzindex kann katastrophale Folgen haben. Ein Rohrbruch oder eine Leckage führt nicht nur zu massiven finanziellen Schäden und potenziellen Betriebsunterbrechungen, sondern gefährdet im schlimmsten Fall auch die Trinkwasserhygiene und damit die menschliche Gesundheit. Um solch existenzielle Risiken zu eliminieren, reicht Vertrauen allein nicht aus, es bedarf belegbarer, streng kontrollierter und kontinuierlich auditierter Prozesse. Hier bilden die Normen der International Organization for Standardization (ISO) das Fundament unseres Handelns.
             </p>
             <h3 className="text-2xl font-bold text-foreground mt-8 mb-3">ISO 9001: Das unerbittliche Qualitätsmanagement</h3>
             <p className="mb-4">
@@ -62,7 +62,7 @@ export const isoZertifizierung: NewsPost = {
             </p>
             <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die Bedeutung der DAkkS-Akkreditierung für unsere Partner</h4>
             <p>
-              Nicht jedes Zertifikat ist gleich viel wert. Unsere Zertifizierungen sind durch die Deutsche Akkreditierungsstelle (DAkkS) überwacht. Für unsere Kunden – Baukonzerne, TGA-Planer und Architekten – ist das entscheidend. Bei öffentlichen Ausschreibungen und Großprojekten im internationalen Rahmen (wie LEED- oder DGNB-zertifizierten Green Buildings) ist ein gültiger, akkreditierter Nachweis dieser Normen eine Grundvoraussetzung für die Auftragsvergabe. Mit K-Aqua als Partner sind Sie hier rechtlich und qualitativ immer auf der sicheren Seite.
+              Nicht jedes Zertifikat ist gleich viel wert. Unsere Zertifizierungen sind durch die Deutsche Akkreditierungsstelle (DAkkS) überwacht. Für unsere Kunden, Baukonzerne, TGA-Planer und Architekten, ist das entscheidend. Bei öffentlichen Ausschreibungen und Großprojekten im internationalen Rahmen (wie LEED- oder DGNB-zertifizierten Green Buildings) ist ein gültiger, akkreditierter Nachweis dieser Normen eine Grundvoraussetzung für die Auftragsvergabe. Mit K-Aqua als Partner sind Sie hier rechtlich und qualitativ immer auf der sicheren Seite.
             </p>
           </div>
         </Reveal>

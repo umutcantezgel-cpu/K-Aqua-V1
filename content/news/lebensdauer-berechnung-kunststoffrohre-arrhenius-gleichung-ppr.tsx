@@ -71,7 +71,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
             Im Gegensatz zu Metallen, die hauptsächlich durch Oxidation (Korrosion) altern, altern thermoplastische Kunststoffe wie PP-R durch thermisch-oxidativen Abbau und mechanisches Kriechen (Creep). Wenn ein PP-R Rohr über Jahrzehnte einem konstanten Wasserdruck bei erhöhter Temperatur ausgesetzt ist, dehnen sich die makromolekularen Kettenstrukturen minimal aus.
           </p>
           <p>
-            Um diesen Prozess mathematisch greifbar zu machen, bedient sich die Industrie des sogenannten Zeitstandinnendruckversuchs. Hierbei wird das Zusammenspiel der beiden Hauptbelastungsfaktoren – der Betriebstemperatur des Mediums und der Vergleichsspannung (hervorgerufen durch den Betriebsdruck) – analysiert. Das Problem: Niemand kann 50 Jahre lang warten, um zu prüfen, wann ein Rohr platzt. 
+            Um diesen Prozess mathematisch greifbar zu machen, bedient sich die Industrie des sogenannten Zeitstandinnendruckversuchs. Hierbei wird das Zusammenspiel der beiden Hauptbelastungsfaktoren, der Betriebstemperatur des Mediums und der Vergleichsspannung (hervorgerufen durch den Betriebsdruck), analysiert. Das Problem: Niemand kann 50 Jahre lang warten, um zu prüfen, wann ein Rohr platzt. 
           </p>
 
           <h3>Zeitmaschine im Labor: Die Arrhenius-Gleichung</h3>

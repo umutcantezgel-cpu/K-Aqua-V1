@@ -1,4 +1,4 @@
-# Design-System-Brücke — K-Aqua ↔ Coday
+# Design-System-Brücke - K-Aqua ↔ Coday
 
 > Wie die K-Aqua-Marke auf die **Coday-Design-System-Konventionen** abgebildet ist.
 > Coday ist die Agentur, die diese Website baut; das Coday-System liefert die
@@ -13,7 +13,7 @@
 |---|---|
 | Schriftpaar **Outfit (Display) + Inter (Body)** | `--font-heading` / `--font-body` via `next/font/local` |
 | **φ-basierte Typo-Skala** (`--text-h1 … --text-tiny`, fluid clamp) | 1:1 in `app/globals.css` als `--fs-*` → `--text-*` |
-| **Semantische-Token-Disziplin** — kein Hex im Markup | erzwungen; nur `var(--*)`/Tailwind-Semantik-Utilities |
+| **Semantische-Token-Disziplin** - kein Hex im Markup | erzwungen; nur `var(--*)`/Tailwind-Semantik-Utilities |
 | Tier-1 Primitive → Tier-2 Semantik → Komponenten-Aliase | gleiche Schichtung (`--brand-*` → `--primary` → Button) |
 | **Fibonacci-Spacing**, Radii (`button=lg/16`, `card=xl/24`, `pill=full`) | gespiegelt |
 | **Shadow-Elevationen** + Brand-`glow` für Primary-Hover | `--shadow-diffuse / lift / glow` |
@@ -33,13 +33,13 @@
 
 > **Migrationsschalter (optional):** Soll K-Aqua doch im Coday-Teal erscheinen, nur
 > die `--brand-*`-Rampe in `globals.css` auf die Coday-`--color-primary-*`-Werte
-> setzen — die gesamte semantische Schicht zieht automatisch nach. Kein Komponenten-Code ändert sich.
+> setzen - die gesamte semantische Schicht zieht automatisch nach. Kein Komponenten-Code ändert sich.
 
-## Icons — Phosphor vs. lucide
+## Icons - Phosphor vs. lucide
 
 Der Prototyp nutzt **inline lucide-kompatible** SVGs (`kaqua-ui.jsx → Icons`). Coday-Hausset ist **Phosphor**.
 Für die Produktion: **`lucide-react`** ist im Scaffold gesetzt (kleineres Tree-Shaking, exakte Namensgleichheit zum Prototyp).
-Wer strikt Coday-konform sein will, tauscht das Icon-Modul gegen `@phosphor-icons/react` — das Mapping liegt in
+Wer strikt Coday-konform sein will, tauscht das Icon-Modul gegen `@phosphor-icons/react` - das Mapping liegt in
 `agents/04_icons_and_motion_primitives.md`. **Eine** Bibliothek wählen, nicht mischen.
 
 ## Token-Namensbrücke (Cheat-Sheet)
@@ -67,5 +67,5 @@ K-Aqua semantic         Coday äquivalent              Tailwind-Utility (K-Aqua)
 
 Die exakten Coday-Werte liegen in `/projects/<design-system>/colors_and_type.css`
 (148 Tokens). Wer Coday-Komponenten 1:1 forken will, kann diese Datei zusätzlich
-einbinden — Namenskollisionen gibt es keine (Coday nutzt `--color-*`-Präfix,
+einbinden - Namenskollisionen gibt es keine (Coday nutzt `--color-*`-Präfix,
 K-Aqua die kürzeren semantischen Namen).

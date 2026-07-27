@@ -42,7 +42,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
                 </div>
               }
               title="Vertikale Ingenieurskunst ohne Rost: Effiziente Heizungsverteilung im Hochhaus"
-              lead="In Hochhäusern (Highrise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PPRCT und PPR Rohrsysteme lösen diese Herausforderungen bei vertikalen Steigleitungen elegant und dauerhaft sicher – selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
+              lead="In Hochhäusern (Highrise Buildings) summieren sich die Probleme klassischer Metallrohre: Sie belasten die Gebäudestatik durch ihr enormes Eigengewicht, erfordern schweres Hebezeug im Steigschacht und übertragen Fließ- sowie Knackgeräusche direkt in angrenzende Wohnräume. K Aqua PPRCT und PPR Rohrsysteme lösen diese Herausforderungen bei vertikalen Steigleitungen elegant und dauerhaft sicher, selbst bei Drücken jenseits der 20 Bar in den unteren Technikzonen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -71,7 +71,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
             <Reveal key="2" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
               <h3 className="text-xl font-bold text-foreground">2. Überragender Schallschutz</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft – ideal für Luxusapartments.
+                Thermische Längenänderungen führen bei Metallrohren oft zu lauten Knackgeräuschen in den Rohrschellen. Kunststoff besitzt hervorragende schallabsorbierende Eigenschaften. Fließgeräusche und Ausdehnungsgeräusche werden massiv gedämpft, ideal für Luxusapartments.
               </p>
             </Reveal>
             <Reveal key="3" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
@@ -170,7 +170,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
       <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
         <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Hochhausarchitektur: Die physikalischen Grenzen der TGA</h2>
         <p>
-          Die technische Gebäudeausrüstung (TGA) in Hochhäusern (Highrise-Buildings ab 40 Metern bis hin zu Supertalls über 300 Metern) gehört zu den anspruchsvollsten Disziplinen der Ingenieurskunst. Während Heizungswasser in klassischen Wohngebäuden nur geringe Höhen überwinden muss, baut sich in den vertikalen Steigschächten von Wolkenkratzern eine gewaltige hydrostatische Wassersäule auf. Pro 10 Meter Gebäudehöhe steigt der statische Druck im Leitungssystem um exakt 1 Bar. Bei einem 150 Meter hohen Turm lasten im Kellergeschoss bereits 15 Bar Ruhedruck auf den Rohren – zuzüglich des dynamischen Drucks der massiven Umwälzpumpen und der notwendigen Sicherheitsreserven.
+          Die technische Gebäudeausrüstung (TGA) in Hochhäusern (Highrise-Buildings ab 40 Metern bis hin zu Supertalls über 300 Metern) gehört zu den anspruchsvollsten Disziplinen der Ingenieurskunst. Während Heizungswasser in klassischen Wohngebäuden nur geringe Höhen überwinden muss, baut sich in den vertikalen Steigschächten von Wolkenkratzern eine gewaltige hydrostatische Wassersäule auf. Pro 10 Meter Gebäudehöhe steigt der statische Druck im Leitungssystem um exakt 1 Bar. Bei einem 150 Meter hohen Turm lasten im Kellergeschoss bereits 15 Bar Ruhedruck auf den Rohren, zuzüglich des dynamischen Drucks der massiven Umwälzpumpen und der notwendigen Sicherheitsreserven.
         </p>
         <p>
           Traditionell wurden für diese extremen Steigstränge dickwandige Stahlrohre eingesetzt. Doch diese bringen gravierende Nachteile mit sich, die den Baufortschritt, die Statik und den Langzeitbetrieb massiv belasten. K-Aqua bietet mit seinen faserverstärkten PP-RCT (Polypropylen-Random-Copolymer mit modifizierter Kristallinität) Rohrsystemen eine bahnbrechende Alternative, die Leichtigkeit, Schalldämmung und extreme Druckbeständigkeit zu einer überlegenen Sicherheitsarchitektur vereint.
@@ -189,7 +189,7 @@ export const heizungsverteilungHochhaus: NewsPost = {
           Ein DN 100 Stahlrohr wiegt im befüllten Zustand gewaltige Lasten. In einem 200 Meter hohen Turm summieren sich diese Lasten zu mehreren Tonnen, die von der Tragstruktur des Steigschachts und der Fundamentplatte aufgenommen werden müssen. K-Aqua PP-RCT wiegt nur einen Bruchteil davon. Diese enorme Gewichtsreduktion hat nicht nur statische Vorteile, sondern beschleunigt auch die Bauzeit enorm. Schwere Lastenaufzüge, Winden und stählerne Schwerlastkonsolen können oft kleiner dimensioniert werden oder komplett entfallen. Die Rohre lassen sich von den Installateuren händisch im Schacht manövrieren.
         </p>
         <p>
-          Zusätzlich eliminiert PP-RCT das Risiko der Brandgefahr (Hot Works). Das Schweißen von Stahlrohren im Rohbau erfordert offene Flammen, Funkenflug und aufwendige Brandsicherheitswachen. Das K-Aqua System wird vollkommen brandsicher über elektrische Heizwendelmuffen oder Heizelementstumpfschweißung montiert. Die so entstandenen Verbindungen sind auf molekularer Ebene stoffschlüssig verschmolzen – es gibt keine Dichtringe, die unter dem extremen Wasserdruck herausgepresst werden könnten.
+          Zusätzlich eliminiert PP-RCT das Risiko der Brandgefahr (Hot Works). Das Schweißen von Stahlrohren im Rohbau erfordert offene Flammen, Funkenflug und aufwendige Brandsicherheitswachen. Das K-Aqua System wird vollkommen brandsicher über elektrische Heizwendelmuffen oder Heizelementstumpfschweißung montiert. Die so entstandenen Verbindungen sind auf molekularer Ebene stoffschlüssig verschmolzen, es gibt keine Dichtringe, die unter dem extremen Wasserdruck herausgepresst werden könnten.
         </p>
 
         <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Akustischer Komfort in der Luxusklasse</h3>

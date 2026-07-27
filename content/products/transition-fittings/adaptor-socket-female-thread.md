@@ -22,9 +22,9 @@ PP-R socket fusion fitting with female thread (Rp) for transition to metal pipe 
 | AQ24RP75   | 75     | 2½"       | 10   |
 | AQ24RP90   | 90     | 3"        | 8    |
 | AQ24RP110  | 110    | 4"        | 8    |
-| AQ24RP125  | 125    | —         | 4    |
-| AQ24RP160  | 160    | —         | 2    |
-| AQ24RP315  | 315    | —         | 1    |
+| AQ24RP125  | 125    | -         | 4    |
+| AQ24RP160  | 160    | -         | 2    |
+| AQ24RP315  | 315    | -         | 1    |
 
 ## Available Sizes
 20–315 mm

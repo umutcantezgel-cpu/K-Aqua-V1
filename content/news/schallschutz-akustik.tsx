@@ -48,7 +48,7 @@ export const schallschutzAkustik: NewsPost = {
           <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
             <h2>Akustik im Rohrleitungsbau: Die Stille der Kunststoffe vs. den Lärm der Metalle</h2>
             <p>
-              Wer jemals in einem hellhörigen Gebäude gelebt hat, weiß, wie zerstörerisch Installationsgeräusche für die Wohnqualität sein können. Das laute Rauschen beim Füllen der Badewanne über einem, das harte Schlagen der Leitung, wenn der Nachbar den Einhebelmischer schließt, oder das unheimliche Knacken der Heizungsrohre im Winter. In der modernen Architektur, wo offene Grundrisse und Trockenbauwände dominieren, ist der Schallschutz von Rohrleitungssystemen (gemäß DIN 4109 oder VDI 4100) zu einer der kritischsten Disziplinen der TGA-Planung avanciert. K Aqua PP-R (Polypropylen Random-Copolymer) Rohrsysteme sind nicht einfach nur Wasserrohre – sie sind physikalische Schalldämpfer.
+              Wer jemals in einem hellhörigen Gebäude gelebt hat, weiß, wie zerstörerisch Installationsgeräusche für die Wohnqualität sein können. Das laute Rauschen beim Füllen der Badewanne über einem, das harte Schlagen der Leitung, wenn der Nachbar den Einhebelmischer schließt, oder das unheimliche Knacken der Heizungsrohre im Winter. In der modernen Architektur, wo offene Grundrisse und Trockenbauwände dominieren, ist der Schallschutz von Rohrleitungssystemen (gemäß DIN 4109 oder VDI 4100) zu einer der kritischsten Disziplinen der TGA-Planung avanciert. K Aqua PP-R (Polypropylen Random-Copolymer) Rohrsysteme sind nicht einfach nur Wasserrohre, sie sind physikalische Schalldämpfer.
             </p>
             
             <h3>Die zwei Feinde der Ruhe: Strömungsgeräusche und Druckschläge</h3>
@@ -59,7 +59,7 @@ export const schallschutzAkustik: NewsPost = {
               Metallrohre wie Kupfer oder Edelstahl haben relativ dünne Wände, sind extrem starr und besitzen eine hohe Dichte. Sie wirken physikalisch wie ein perfekter Resonanzkörper (ähnlich einer Stimmgabel). Die Strömungsenergie wird im Metall sofort in Körperschall umgewandelt, breitet sich rasend schnell über das Rohrnetz aus und wird über die Befestigungsschellen an die Wände (Luftschall) übertragen.
             </p>
             <p>
-              PP-R verhält sich völlig anders. K Aqua Rohre besitzen eine wesentlich höhere Wandstärke (z.B. SDR 6) und vor allem eine einzigartige, molekulare Elastizität. Die dicke Kunststoffschicht absorbiert die kinetische Energie des Schalls, noch bevor sie aus dem Rohr austreten kann. Die Energie wird im Material durch Mikrodämpfung absorbiert. Zudem sorgt die extrem glatte Innenfläche der K Aqua Fittings dafür, dass das Wasser laminar (wirbelfrei) fließt – Lärm entsteht so erst gar nicht.
+              PP-R verhält sich völlig anders. K Aqua Rohre besitzen eine wesentlich höhere Wandstärke (z.B. SDR 6) und vor allem eine einzigartige, molekulare Elastizität. Die dicke Kunststoffschicht absorbiert die kinetische Energie des Schalls, noch bevor sie aus dem Rohr austreten kann. Die Energie wird im Material durch Mikrodämpfung absorbiert. Zudem sorgt die extrem glatte Innenfläche der K Aqua Fittings dafür, dass das Wasser laminar (wirbelfrei) fließt, Lärm entsteht so erst gar nicht.
             </p>
 
             <h3>Das Phänomen des Wasserschlags (Water Hammer)</h3>

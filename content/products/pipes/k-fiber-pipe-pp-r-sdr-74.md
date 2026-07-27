@@ -7,7 +7,7 @@ article_codes: ["AQ207PF20", "AQ207PF25", "AQ207PF32", "AQ207PF40", "AQ207PF50"]
 
 # K-Fiber Pipe PP-R SDR 7.4
 
-**S 3.2** — Working pressure: 20°C / 2.5 MPa — 60°C / 1.2 MPa  
+**S 3.2** - Working pressure: 20°C / 2.5 MPa - 60°C / 1.2 MPa  
 Length: 4 m per bar.
 
 ## Article Table

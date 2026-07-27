@@ -40,7 +40,7 @@ export const lebenszykluskostenTco: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Flatline der Kosten" className="mb-6 text-emerald-500" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
-                Investoren, Projektentwickler und Bauherren fokussieren sich in der Planungsphase oft extrem auf den initialen CAPEX – die reinen Beschaffungs- und Installationskosten der Materialien. Doch bei der grundlegenden Gebäudeinfrastruktur wie dem Wasserleitungsnetz definiert der OPEX die wahren und oftmals schmerzhaften Kosten. 
+                Investoren, Projektentwickler und Bauherren fokussieren sich in der Planungsphase oft extrem auf den initialen CAPEX, die reinen Beschaffungs- und Installationskosten der Materialien. Doch bei der grundlegenden Gebäudeinfrastruktur wie dem Wasserleitungsnetz definiert der OPEX die wahren und oftmals schmerzhaften Kosten. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl">
                 Reparaturen, unerwartete Leckagen, notwendiger Korrosionsschutz, Wasseraufbereitung und ein durch Inkrustation kontinuierlich steigender Pumpenstrom treiben die Total Cost of Ownership (TCO) bei konventionellen, metallischen Systemen nach wenigen Jahren exponentiell nach oben. K-Aqua PP-R Rohrleitungssysteme hingegen durchbrechen diesen Teufelskreis und bieten Facility Managern eine nahezu flache Kostenkurve über ein halbes Jahrhundert hinweg.

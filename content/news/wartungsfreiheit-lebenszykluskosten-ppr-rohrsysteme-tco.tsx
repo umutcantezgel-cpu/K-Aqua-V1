@@ -41,7 +41,7 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
         <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
           <h2 className="text-2xl font-bold text-foreground mb-4">Total Cost of Ownership (TCO) in der Gebäudetechnik</h2>
           <p>
-            Bei der Ausschreibung und Vergabe von Projekten der Technischen Gebäudeausrüstung (TGA) dominiert oft der Blick auf die initialen Anschaffungs- und Installationskosten (CAPEX – Capital Expenditure). Doch diese machen über die gesamte Lebensdauer eines Gebäudes nur einen Bruchteil der tatsächlichen Kosten aus. Die wahren finanziellen Belastungen verbergen sich in den laufenden Betriebskosten (OPEX – Operational Expenditure). 
+            Bei der Ausschreibung und Vergabe von Projekten der Technischen Gebäudeausrüstung (TGA) dominiert oft der Blick auf die initialen Anschaffungs- und Installationskosten (CAPEX, Capital Expenditure). Doch diese machen über die gesamte Lebensdauer eines Gebäudes nur einen Bruchteil der tatsächlichen Kosten aus. Die wahren finanziellen Belastungen verbergen sich in den laufenden Betriebskosten (OPEX, Operational Expenditure). 
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">CAPEX vs. OPEX: Eine ganzheitliche Betrachtung</h3>
           <p>
@@ -54,7 +54,7 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Inkrustation und steigende Pumpenleistung</h3>
           <p>
-            Stahlrohre und andere metallische Leitungen sind anfällig für Korrosion und Kalkablagerungen (Inkrustation). Mit den Jahren wächst die raue Schicht an der Rohrinnenwand. Der nutzbare Querschnitt verengt sich drastisch. Um den erforderlichen Volumenstrom und den Druck am Ende der Leitung (z.B. im 10. Stockwerk eines Hotels) aufrechtzuerhalten, müssen die Frequenzumformer der Zirkulationspumpen kontinuierlich die Drehzahl erhöhen. Der Stromverbrauch der Anlage steigt exponentiell an – ein schleichender OPEX-Killer, der oft jahrelang unbemerkt bleibt.
+            Stahlrohre und andere metallische Leitungen sind anfällig für Korrosion und Kalkablagerungen (Inkrustation). Mit den Jahren wächst die raue Schicht an der Rohrinnenwand. Der nutzbare Querschnitt verengt sich drastisch. Um den erforderlichen Volumenstrom und den Druck am Ende der Leitung (z.B. im 10. Stockwerk eines Hotels) aufrechtzuerhalten, müssen die Frequenzumformer der Zirkulationspumpen kontinuierlich die Drehzahl erhöhen. Der Stromverbrauch der Anlage steigt exponentiell an, ein schleichender OPEX-Killer, der oft jahrelang unbemerkt bleibt.
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Wartung und Reparatur von Undichtigkeiten</h3>
           <p>

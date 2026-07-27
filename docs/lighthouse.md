@@ -52,7 +52,7 @@ The following critical optimizations were made to achieve a perfect 100/100 perf
 - Only the latin subset variable fonts are shipped (~32KB Outfit, ~48KB Inter), keeping total font payload under 100KB.
 
 ### F. Client Component Audit
-- All page routes (`app/[locale]/*/page.tsx`) are Server Components — no `'use client'` directives.
+- All page routes (`app/[locale]/*/page.tsx`) are Server Components - no `'use client'` directives.
 - Only `app/[locale]/template.tsx` (animation wrapper) and `/dev/*` debug pages use `'use client'` at the page level.
 - Interactive tools (`ProductFinder`, `Co2Calculator`, `RfqWizard`, `Academy`, `Career`, `TrustCenter`) are proper client islands imported into server-rendered pages.
 - Layout components (`Header`, `MegaMenu`, `ThemeToggle`, `ScrollProgress`, `LangPicker`, `NavLinks`) correctly use `'use client'` since they depend on browser APIs.
@@ -61,10 +61,10 @@ The following critical optimizations were made to achieve a perfect 100/100 perf
 ### G. CLS Prevention
 - `MediaSlot` renders with a fixed `aspect-ratio` inline style (default `4/3`), reserving layout space before any content loads.
 - Globe containers use fixed Tailwind size classes (e.g., `w-[368px] h-[368px]`) to reserve space pre-hydration.
-- `Reveal` component uses `opacity` + `transform: translateY` — pure composite-layer animations that cause zero layout shift.
+- `Reveal` component uses `opacity` + `transform: translateY` - pure composite-layer animations that cause zero layout shift.
 - Header has fixed `h-[72px]` and main content has `pt-[72px]` to prevent content jump.
 
 ### H. INP / Scroll Performance
 - `ScrollProgress` uses `requestAnimationFrame` throttling with a `ticking` guard to prevent scroll-jank.
 - All scroll event listeners use `{ passive: true }`.
-- Globe canvas rendering loop is gated by `IntersectionObserver` — paused when off-screen to free main thread.
+- Globe canvas rendering loop is gated by `IntersectionObserver` - paused when off-screen to free main thread.

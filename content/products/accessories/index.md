@@ -7,7 +7,7 @@ layout: "category-overview"
 
 # Accessories
 
-Supporting accessories for K-Aqua PP-R piping systems — pipe support, sealing and flange components.
+Supporting accessories for K-Aqua PP-R piping systems - pipe support, sealing and flange components.
 
 ## Product Overview
 

@@ -76,7 +76,7 @@ export const altbausanierungFlexibilitaet: NewsPost = {
               <div className="p-6 rounded-2xl bg-card border border-card-border">
                 <h3 className="text-xl font-bold mb-2">1. Keine offene Flamme und maximale Brandsicherheit</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Der Brandschutz ist bei Sanierungen, besonders in denkmalgeschützten Gebäuden mit trockenen Holzständerwerken oder alten, stark staubigen Schächten, extrem kritisch. Das Heizelement-Muffenschweißen von K Aqua erfordert lediglich ein elektrisches Heizwerkzeug, das bei 260 °C arbeitet – es gibt keine offene Gasflamme, keinen Funkenflug und somit absolut kein Brandrisiko während der Installation. Im Vergleich zu herkömmlichen Löt- oder Schweißarbeiten an Metallrohren entfällt die Notwendigkeit von Brandwachen.
+                  Der Brandschutz ist bei Sanierungen, besonders in denkmalgeschützten Gebäuden mit trockenen Holzständerwerken oder alten, stark staubigen Schächten, extrem kritisch. Das Heizelement-Muffenschweißen von K Aqua erfordert lediglich ein elektrisches Heizwerkzeug, das bei 260 °C arbeitet, es gibt keine offene Gasflamme, keinen Funkenflug und somit absolut kein Brandrisiko während der Installation. Im Vergleich zu herkömmlichen Löt- oder Schweißarbeiten an Metallrohren entfällt die Notwendigkeit von Brandwachen.
                 </p>
               </div>
             </Reveal>

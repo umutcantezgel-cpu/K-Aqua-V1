@@ -7,7 +7,7 @@ article_codes: ["AQ11P20", "AQ11P25", "AQ11P32", "AQ11P40", "AQ11P50"]
 
 # K-Pipe PP-R SDR 11
 
-**S 5** — Working pressure: 20°C / 1.2 MPa — 60°C / 0.6 MPa  
+**S 5** - Working pressure: 20°C / 1.2 MPa - 60°C / 0.6 MPa  
 Length: 4 m per bar
 
 ## Article Table

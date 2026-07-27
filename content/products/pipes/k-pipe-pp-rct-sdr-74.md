@@ -7,7 +7,7 @@ article_codes: ["AQ20020", "AQ20025", "AQ20032", "AQ20040", "AQ20050"]
 
 # K-Pipe PP-RCT SDR 7.4
 
-**S 3.2** — Working pressure: 20°C / 2.0 MPa — 70°C / 1.0 MPa  
+**S 3.2** - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
 Length: 4 m per bar
 
 ## Article Table

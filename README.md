@@ -1,4 +1,4 @@
-# K-Aqua — Language Switch Module (3D-Globus)
+# K-Aqua - Language Switch Module (3D-Globus)
 
 Drop-in-Integration des Sprachen-Hubs in die K-Aqua-Codebase
 (Next.js 15 App Router · TypeScript · Tailwind CSS 4 · Framer Motion ·
@@ -15,7 +15,7 @@ next-intl · @react-three/fiber · lucide-react).
 │   │   ├── geo.ts                    ← Geo-Kern: TopoJSON-Loader, Hit-Test, MapPainter (Textur)
 │   │   └── LanguageGlobe.tsx         ← R3F-Globus (Drag, Trägheit, flyTo, Hover, Anker-Projektion)
 │   └── navigation/
-│       ├── LanguageGlobeHub.tsx      ← Hauptmodul (Drop-In) — State, next-intl, Layout
+│       ├── LanguageGlobeHub.tsx      ← Hauptmodul (Drop-In) - State, next-intl, Layout
 │       ├── LanguageConfirmPanel.tsx  ← Glassmorphism-Panel, folgt der Region räumlich
 │       ├── LanguageCarousel.tsx      ← Mobile-Hybrid: Swipe-Karussell ↔ Globus-Sync
 │       ├── LanguageSearch.tsx        ← Sprachsuche (Overlay)
@@ -43,7 +43,7 @@ export default function LanguagePage() {
 }
 ```
 
-- Das Modul füllt seinen Container (`h-full w-full`) — dem Parent eine Höhe geben (`h-dvh`).
+- Das Modul füllt seinen Container (`h-full w-full`) - dem Parent eine Höhe geben (`h-dvh`).
 - `LanguageGlobeHub` ist eine Client-Komponente; der WebGL-Canvas rendert erst nach Mount
   (SSR-sicher). Optionaler zusätzlicher Schutz: `next/dynamic` mit `ssr: false`.
 - Props: `dark` (Theme), `tint` (Ruhetönung 0–0.35), `glow` (0–1),
@@ -57,7 +57,7 @@ export default function LanguagePage() {
 router.replace(pathname, { locale: lang.locale });
 ```
 
-Die aktive Sprache wird aus `useLocale()` abgeleitet — kein eigener Persistenz-Layer nötig,
+Die aktive Sprache wird aus `useLocale()` abgeleitet - kein eigener Persistenz-Layer nötig,
 next-intl (Cookie/Routing) ist die Source of Truth.
 
 **Wichtig:** Alle 65 Locale-Codes müssen in eurer next-intl-Routing-Config stehen.
@@ -108,7 +108,7 @@ npm install -D @types/d3-geo @types/topojson-client @types/geojson
   Klick-Toleranz: nächster sichtbarer Sprach-Anker < 22 px (Kleinstaaten).
 - **Panel-Tracking:** Die Szene schreibt die projizierte Anker-Position jeden Frame
   in eine Ref (`anchorOut`), das Panel positioniert sich in einem eigenen rAF-Loop
-  imperativ — 60 fps ohne React-Re-Render. Framer Motion animiert nur Entrance/Exit.
+  imperativ - 60 fps ohne React-Re-Render. Framer Motion animiert nur Entrance/Exit.
   Rotiert die Region auf die Rückseite, dimmt das Panel auf 15 % und wird
   click-transparent.
 - **Mobile-Hybrid:** `< lg` erscheint das Karussell. Tap → `globeRef.flyTo(id)`
@@ -116,12 +116,12 @@ npm install -D @types/d3-geo @types/topojson-client @types/geojson
   Pending/aktive Karte wird per `scrollTo` mittig eingescrollt.
 - **Tailwind-only Styling:** Dynamische Laufzeitwerte (65 Leitfarben, Panel-/Tooltip-
   Transforms) laufen über CSS-Custom-Properties (`bg-(--lc)`, gesetzt per Ref-Callback
-  `cssVars()`) bzw. imperative Transforms — die von Tailwind vorgesehene Methode;
+  `cssVars()`) bzw. imperative Transforms - die von Tailwind vorgesehene Methode;
   JSX enthält keine `style`-Props.
 - **Farben:** Leitfarben deterministisch über den Goldenen Winkel (gleiche
   Chroma/Helligkeit, oklch). Reihenfolge in `languages.ts` nicht ändern.
 - **A11y / Motion:** `prefers-reduced-motion` deaktiviert Autorotation & Flüge
   (Sprung statt Animation), Framer-Entrances via `useReducedMotion`. Hit-Targets ≥ 44 px,
   RTL-Sprachen mit `dir="rtl"`. Escape schließt Panel/Suche.
-- **Dark Mode:** über die `dark`-Prop (Map-Textur + UI wechseln gemeinsam) — an euer
+- **Dark Mode:** über die `dark`-Prop (Map-Textur + UI wechseln gemeinsam) - an euer
   Theme-System anbinden, z. B. `dark={resolvedTheme === 'dark'}`.

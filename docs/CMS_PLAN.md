@@ -1,6 +1,6 @@
 # CMS Integration Plan (Phase 2)
 
-> **Status:** Planned — no CMS is configured for Phase 1 launch.
+> **Status:** Planned - no CMS is configured for Phase 1 launch.
 > All data comes from typed TypeScript modules in `lib/data/`.
 
 ---
@@ -13,7 +13,7 @@
 | **Storyblok** | Field-level i18n | Cloud | Visual editor, folder-based i18n |
 | **Payload CMS** | Plugin-based i18n | Self-hosted | Full control, PostgreSQL/MongoDB backend |
 
-**Recommendation:** Sanity with `@sanity/client` — best i18n DX and real-time preview capabilities.
+**Recommendation:** Sanity with `@sanity/client` - best i18n DX and real-time preview capabilities.
 
 ---
 
@@ -123,12 +123,12 @@
 ## 3. Migration Path
 
 1. **Set up CMS project** and create schemas (above)
-2. **Update `lib/data/repositories.ts`** — swap static arrays for CMS fetch calls
-3. **Configure `next.config.ts`** — add `remotePatterns` for CMS image CDN
+2. **Update `lib/data/repositories.ts`** - swap static arrays for CMS fetch calls
+3. **Configure `next.config.ts`** - add `remotePatterns` for CMS image CDN
 4. **Replace `<MediaSlot>`** with `next/image` using CMS-provided asset URLs
-5. **Add ISR** — set `revalidate` per data source route
-6. **Add Webhook** — on-demand revalidation via `POST /api/revalidate` on CMS publish
-7. **Populate content** — fill in all `// TODO(content)` items (see `docs/CONTENT_TODO.md`)
+5. **Add ISR** - set `revalidate` per data source route
+6. **Add Webhook** - on-demand revalidation via `POST /api/revalidate` on CMS publish
+7. **Populate content** - fill in all `// TODO(content)` items (see `docs/CONTENT_TODO.md`)
 
 ---
 

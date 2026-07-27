@@ -1,10 +1,10 @@
 ---
-title: "K-Aqua — All Products"
+title: "K-Aqua - All Products"
 slug: "index"
 layout: "product-index"
 ---
 
-## K-Aqua — Product Catalogue
+## K-Aqua - Product Catalogue
 
 All K-Aqua PP-R products in one place. Use the category filters or search by article code.
 
@@ -24,7 +24,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 ---
 
-## All Products — Complete Sorted List
+## All Products - Complete Sorted List
 
 ### Accessories
 
@@ -109,14 +109,14 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Elbow 90° (Male Thread)](./transition-fittings/elbow-90-male-thread.md) | AQ09R20–AQ09R40 | R (ext.) | Ø 20–40 mm |
 | [Elbow Bracket 90° (Female Thread)](./transition-fittings/elbow-bracket-90-female-thread.md) | AQ09BRP20–AQ09BRP50 | Rp (int.) | Ø 20–50 mm |
 | [Elbow/Wall Bracket 90° (Female Thread)](./transition-fittings/elbow-wall-bracket-90-female-thread.md) | AQ09WBRP20–AQ09WBRP40 | Rp (int.) | Ø 20–40 mm |
-| [Metal Union — Female Thread](./transition-fittings/metal-union-female-thread.md) | AQ71RP20–AQ71RP50 | Rp (int.) | Ø 20–50 mm |
-| [Metal Union — Female Thread (Yellow Brass)](./transition-fittings/metal-union-female-thread-brass.md) | AQ70RP20–AQ70RP50 | Rp (int.) | Ø 20–50 mm |
-| [Metal Union — Male Thread](./transition-fittings/metal-union-male-thread.md) | AQ71R20–AQ71R50 | R (ext.) | Ø 20–50 mm |
-| [Metal Union — Male Thread (Yellow Brass)](./transition-fittings/metal-union-male-thread-brass.md) | AQ70R20–AQ70R50 | R (ext.) | Ø 20–50 mm |
+| [Metal Union - Female Thread](./transition-fittings/metal-union-female-thread.md) | AQ71RP20–AQ71RP50 | Rp (int.) | Ø 20–50 mm |
+| [Metal Union - Female Thread (Yellow Brass)](./transition-fittings/metal-union-female-thread-brass.md) | AQ70RP20–AQ70RP50 | Rp (int.) | Ø 20–50 mm |
+| [Metal Union - Male Thread](./transition-fittings/metal-union-male-thread.md) | AQ71R20–AQ71R50 | R (ext.) | Ø 20–50 mm |
+| [Metal Union - Male Thread (Yellow Brass)](./transition-fittings/metal-union-male-thread-brass.md) | AQ70R20–AQ70R50 | R (ext.) | Ø 20–50 mm |
 | [Tee 90° (Female Thread)](./transition-fittings/tee-90-female-thread.md) | AQ13RP20–AQ13RP40 | Rp (int.) | Ø 20–40 mm |
 | [Tee 90° (Male Thread)](./transition-fittings/tee-90-male-thread.md) | AQ13R20–AQ13R40 | R (ext.) | Ø 20–40 mm |
-| [Union](./transition-fittings/union.md) | AQ69E20–AQ69E63 | — | Ø 20–63 mm |
-| [Union for Watermeters](./transition-fittings/union-for-watermeters.md) | AQ72E20–AQ72E32 | — | Ø 20–32 mm |
+| [Union](./transition-fittings/union.md) | AQ69E20–AQ69E63 | - | Ø 20–63 mm |
+| [Union for Watermeters](./transition-fittings/union-for-watermeters.md) | AQ72E20–AQ72E32 | - | Ø 20–32 mm |
 
 ---
 
@@ -126,12 +126,12 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 |---------|--------------|-------|
 | [Adjustable Battery (Female Thread)](./valves/adjustable-battery-female-thread.md) | AQ64ARCG20–AQ64ARCG25 | Ø 20–25 mm |
 | [Battery (Female Thread)](./valves/battery-female-thread.md) | AQ64RCG20–AQ64RCG25 | Ø 20–25 mm |
-| [Concealed Valve Chrome — Heavy Part](./valves/concealed-valve-chrome-heavy-part.md) | AQ62993 | ½" |
-| [Concealed Valve Chrome — Light Part](./valves/concealed-valve-chrome-light-part.md) | AQ62992 | ½" |
+| [Concealed Valve Chrome - Heavy Part](./valves/concealed-valve-chrome-heavy-part.md) | AQ62993 | ½" |
+| [Concealed Valve Chrome - Light Part](./valves/concealed-valve-chrome-light-part.md) | AQ62992 | ½" |
 | [Elongation Pieces](./valves/elongation-pieces.md) | AQ62990 | 30 mm |
 | [PP-R Ball Valve (Ball in Brass, Chromium Plated)](./valves/pp-r-ball-valve-ball-in-brass-chromium-plated.md) | AQ60020–AQ60090 | Ø 20–90 mm |
 | [PP-R Ball Valve (Ball in PP)](./valves/pp-r-ball-valve-ball-in-pp.md) | AQ50020–AQ50063 | Ø 20–63 mm |
-| [Straight Seat Valve — Upper Part, Green Handle](./valves/straight-seat-valve-green-handle.md) | AQ62591 | ¾" |
+| [Straight Seat Valve - Upper Part, Green Handle](./valves/straight-seat-valve-green-handle.md) | AQ62591 | ¾" |
 | [Tee 90° (Female Thread) for Internal Valve](./valves/tee-90-female-thread-for-internal-valve.md) | AQ60RP20–AQ60RP40 | Ø 20–40 mm |
 
 ---
