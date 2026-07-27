@@ -1,6 +1,6 @@
 /* eslint-disable */
 /**
- * K-Aqua Motion — Physik-Vokabular (Phase 1)
+ * K-Aqua Motion - Physik-Vokabular (Phase 1)
  *
  * Das gesamte Bewegungssystem kennt genau drei Stimmen. Wer eine vierte
  * braucht, hat vermutlich eine der drei falsch eingesetzt.
@@ -13,7 +13,7 @@
  *                     Alles, was gemessen wirkt: Auslesen, Linien,
  *                     Tabellen, Masken.
  *
- * SOFT ist die Ausblend-Kurve für Deckkraft und Schatten — nie für
+ * SOFT ist die Ausblend-Kurve für Deckkraft und Schatten - nie für
  * Positionen (dafür ist FLOW zuständig).
  */
 
@@ -25,16 +25,16 @@ export const GLOW_SPRING = { stiffness: 90, damping: 16, mass: 1.1 } as const;
 export const FLOW = { type: 'spring', ...FLOW_SPRING } as const;
 export const SNAP = { type: 'spring', ...SNAP_SPRING } as const;
 
-/** cubic-bezier(0.76, 0, 0.24, 1) — entspricht --ease-wipe in globals.css */
+/** cubic-bezier(0.76, 0, 0.24, 1) - entspricht --ease-wipe in globals.css */
 export const WIPE = [0.76, 0, 0.24, 1] as const;
-/** cubic-bezier(0.16, 1, 0.3, 1) — entspricht --ease-out-soft in globals.css */
+/** cubic-bezier(0.16, 1, 0.3, 1) - entspricht --ease-out-soft in globals.css */
 export const SOFT = [0.16, 1, 0.3, 1] as const;
 /** Deckende Masken: symmetrisch, damit Hin- und Rückweg gleich wirken. */
 export const MASK = [0.62, 0, 0.28, 1] as const;
 
 export const clamp = (v: number, min: number, max: number) => (v < min ? min : v > max ? max : v);
 
-/** Rasterung — die ungefederte Gegenstimme. Kein Easing, kein Nachlauf. */
+/** Rasterung - die ungefederte Gegenstimme. Kein Easing, kein Nachlauf. */
 export const quantize = (v: number, step: number) => Math.round(v / step) * step;
 
 /** Organische, nicht kreisrunde Blob-Silhouetten für Flüssigkeits-Masken. */

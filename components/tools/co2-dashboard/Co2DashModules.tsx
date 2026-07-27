@@ -59,7 +59,7 @@ export function SensitivityCard({ ctx, opponentId, horizon, onFocusField, fmt }:
       <div className="co2-mod-head"><span>Sensitivität · ±20 %</span><Icons.Ruler size={14} /></div>
       <div className="co2-torn">
         {data.rows.map((r) => (
-          <button type="button" className="co2-torn-row" key={r.id} onClick={() => onFocusField(r.id)} title={`Wirkung auf die Ersparnis: ${fmt(r.lo)} bis ${fmt(r.hi)} — Klick springt zum Regler`}>
+          <button type="button" className="co2-torn-row" key={r.id} onClick={() => onFocusField(r.id)} title={`Wirkung auf die Ersparnis: ${fmt(r.lo)} bis ${fmt(r.hi)}. Klick springt zum Regler`}>
             <span>{r.label}</span>
             <span className="co2-torn-track">
               <i className="co2-torn-seg" style={{ left: `${pos(r.lo)}%`, width: `${Math.max(2, pos(r.hi) - pos(r.lo))}%` }}></i>
@@ -68,7 +68,7 @@ export function SensitivityCard({ ctx, opponentId, horizon, onFocusField, fmt }:
           </button>
         ))}
       </div>
-      <p className="co2-mod-note">Größter Hebel zuerst — Klick fokussiert den Regler.</p>
+      <p className="co2-mod-note">Größter Hebel zuerst. Klick fokussiert den Regler.</p>
     </div>
   );
 }
@@ -161,16 +161,16 @@ export function MaterialDrawer({ result, horizon, onClose, fmt }: any) {
         <div className="co2-facts">{facts.map((f) => <React.Fragment key={f[0]}><span>{f[0]}</span><strong>{f[1]}</strong></React.Fragment>)}</div>
         <div className="co2-drawer-sec">Druckverlust-Verlauf über 40 Jahre (DN 110, 3 l/s)</div>
         <MiniSparkline points={aging} color={m.color} width={340} height={40}></MiniSparkline>
-        <p className="co2-mod-note">Pa/m nach Darcy-Weisbach/Swamee-Jain mit alternder Rauheit k(t) — Kunststoff bleibt glatt, Metall inkrustiert. {CO2_DISCLAIMER}</p>
+        <p className="co2-mod-note">Pa/m nach Darcy-Weisbach/Swamee-Jain mit alternder Rauheit k(t): Kunststoff bleibt glatt, Metall inkrustiert. {CO2_DISCLAIMER}</p>
       </aside>
     </React.Fragment>
   );
 }
 
 const CO2_COACH_STEPS = [
-  { t: 'Fadenkreuz', d: 'Mit Maus, Finger oder Pfeiltasten über die Kurve fahren — Klick oder Enter fixiert das Wertefenster.' },
+  { t: 'Fadenkreuz', d: 'Mit Maus, Finger oder Pfeiltasten über die Kurve fahren. Klick oder Enter fixiert das Wertefenster.' },
   { t: 'Zoomen', d: 'Zeitfenster in der Mini-Map ziehen, im Chart einen Bereich aufziehen oder mit dem Mausrad zoomen. Doppelklick setzt zurück.' },
-  { t: 'Szenarien', d: 'Im Tab „Szenarien" den aktuellen Stand einfrieren, als Overlay vergleichen — und per Link teilen.' },
+  { t: 'Szenarien', d: 'Im Tab „Szenarien" den aktuellen Stand einfrieren, als Overlay vergleichen, und per Link teilen.' },
 ];
 
 export function Co2Coachmarks() {

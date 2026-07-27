@@ -1,4 +1,4 @@
-// K-Aqua — SolutionsDeep: Einsatzfelder-Segmente, Werkstoffvergleich, Lebenszyklus.
+// K-Aqua - SolutionsDeep: Einsatzfelder-Segmente, Werkstoffvergleich, Lebenszyklus.
 //
 // QUELLE: kaqua-deep-sections-3.jsx (SolutionsDeep). PORTIERT 1:1 (3 Abschnitte).
 // ANGEPASST: usePageL('solutionsx') -> getTranslations('solutionsx') (Server Component).

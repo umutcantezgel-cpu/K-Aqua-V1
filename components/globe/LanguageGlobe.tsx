@@ -1,5 +1,5 @@
 // components/globe/LanguageGlobe.tsx
-// K-Aqua Language Switch Module — 3D-Globus via @react-three/fiber.
+// K-Aqua Language Switch Module - 3D-Globus via @react-three/fiber.
 // Kugel mit dynamischer CanvasTexture (MapPainter), Fresnel-Atmosphäre,
 // Drag mit Trägheit, Autorotation, flyTo (kürzester Weg), Raycast-Hover/
 // Klick → Sprach-Hit-Test, Anker-Projektion in Screen-Koordinaten für das

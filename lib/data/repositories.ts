@@ -1,12 +1,12 @@
 /**
- * Repository abstraction layer — Step 24 (Content-Layer / CMS prep).
+ * Repository abstraction layer - Step 24 (Content-Layer / CMS prep).
  *
  * All data access goes through these functions so the source
  * (TS module ↔ CMS) can be swapped without touching consumers.
  *
  * Phase 1 (now):  Data comes from typed TS modules in `lib/data/`.
  * Phase 2 (later): Swap implementation to fetch from headless CMS
- *                   (Sanity / Storyblok / Payload) — the interface stays the same.
+ *                   (Sanity / Storyblok / Payload) - the interface stays the same.
  *
  * @module lib/data/repositories
  */
@@ -107,11 +107,11 @@ export function getAvailableSDRs() {
   return K_SDRS;
 }
 
-// ─── Catalog Repository (neu — ergänzt die bestehende "Product Repository") ────
+// ─── Catalog Repository (neu - ergänzt die bestehende "Product Repository") ────
 
 /** Returns all 7 catalog categories with their real article families. */
 export function getCatalogCategories(): CatalogCategory[] {
-  // Phase 2: replace with CMS fetch — see docs/CMS_PLAN.md
+  // Phase 2: replace with CMS fetch - see docs/CMS_PLAN.md
   return CATALOG;
 }
 

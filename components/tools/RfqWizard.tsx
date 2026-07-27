@@ -20,7 +20,7 @@ import {
 
 const CHAR_METER = "m";
 const CHAR_COLON = ":";
-const CHAR_DASH = "—";
+const CHAR_DASH = "-";
 const CHAR_SPACE = " ";
 const CHAR_TILDE = "~";
 const CHAR_DOT = ".";

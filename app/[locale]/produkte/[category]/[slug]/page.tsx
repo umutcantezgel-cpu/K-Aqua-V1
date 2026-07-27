@@ -75,9 +75,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     slug === 'k-fiber-pipe-pp-r-sdr-74' || 
     slug === 'k-fiber-pipe-pp-r-sdr-9' || 
     slug === 'k-fiber-pipe-pp-r-sdr-17' ||
-    slug === 'k-fiber-uv-pipe-pp-r-sdr-74' ||
     slug === 'k-fiber-pipe-pp-rct-sdr-74' ||
-    slug === 'k-fiber-uv-pipe-pp-rct-sdr-74'
+    slug === 'k-fiber-uv-pipe-pp-r-sdr-74' ||
+    slug === 'k-fiber-uv-pipe-pp-rct-sdr-74' ||
+    slug === 'k-fiberclima-pipe-pp-rct-sdr-11'
   ) {
     canonicalSlug = 'k-fiber-pipe-pp-r-sdr-11';
   } else if (
@@ -86,16 +87,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     slug === 'k-pipe-purple-pp-r-sdr-11'
   ) {
     canonicalSlug = 'k-pipe-pp-r-sdr-11';
-  } else if (slug === 'reducing-tee-large') {
+  } else if (slug === 'reducing-tee-large-sizes') {
     canonicalSlug = 'reducing-tee';
   } else if (slug === 'elbow-45') {
     canonicalSlug = 'elbow-90';
   } else if (slug === 'elbow-45-femalemale') {
-    canonicalSlug = 'elbow-90-female-male';
+    canonicalSlug = 'elbow-90-femalemale';
   } else if (slug === 'metal-union-female-thread') {
     canonicalSlug = 'metal-union-male-thread';
-  } else if (slug === 'metal-union-female-thread-brass') {
-    canonicalSlug = 'metal-union-male-thread-brass';
+  } else if (slug === 'metal-union-female-thread-yellow-brass') {
+    canonicalSlug = 'metal-union-male-thread-yellow-brass';
   } else if (slug === 'flat-gasket-for-unions-pp-r') {
     canonicalSlug = 'flat-gasket';
   } else if (slug === 'adjustable-battery-female-thread') {
@@ -103,10 +104,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   } else if (slug === 'concealed-valve-chrome-heavy-part') {
     canonicalSlug = 'concealed-valve-chrome-light-part';
   } else if (
-    slug === 'hand-welding-machine-20-63' || 
-    slug === 'hand-welding-machine-mirror-50-125'
+    slug === 'hand-welding-machine-2063-complete-set' || 
+    slug === 'hand-welding-machine-mirror-50125'
   ) {
     canonicalSlug = 'hand-welding-machine-2032-complete-set';
+  } else if (
+    slug === 'pipe-cutter-2040' ||
+    slug === 'pipe-cutter-50125-1'
+  ) {
+    canonicalSlug = 'pipe-cutter-50125';
   }
 
   return constructMetadata({

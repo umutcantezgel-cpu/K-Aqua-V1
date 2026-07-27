@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-literals */
 
 // components/navigation/LanguageSearch.tsx
-// K-Aqua Language Switch Module — Sprachsuche als Glass-Overlay.
+// K-Aqua Language Switch Module - Sprachsuche als Glass-Overlay.
 // Filtert nach deutschem Label und Eigennamen, gruppiert nach Kontinent.
 // Pick → onPick(id): Globus fliegt zur Region, Panel öffnet sich.
 'use client';

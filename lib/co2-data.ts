@@ -150,7 +150,7 @@ export function computePortfolioResult(material: any, ctxList: any[], horizonYea
 export function co2LifespanGuide(materialId: string, opModeId: string, v: number) {
   if (materialId !== 'copper') return null;
   const limit = opModeId === 'hot' ? 1.5 : 2.4;
-  if (v > limit) return { years: opModeId === 'hot' ? 30 : 40, limit, over: true, reason: `Fließgeschwindigkeit ≈ ${v.toLocaleString('de-DE', { maximumFractionDigits: 1 })} m/s überschreitet den Kupfer-Richtwert von ${limit.toLocaleString('de-DE')} m/s ${opModeId === 'hot' ? 'für Warmwasser/Zirkulation' : 'für Kaltwasser'} — erhöhtes Erosionskorrosionsrisiko an Bögen und Formteilen.` };
+  if (v > limit) return { years: opModeId === 'hot' ? 30 : 40, limit, over: true, reason: `Fließgeschwindigkeit ≈ ${v.toLocaleString('de-DE', { maximumFractionDigits: 1 })} m/s überschreitet den Kupfer-Richtwert von ${limit.toLocaleString('de-DE')} m/s ${opModeId === 'hot' ? 'für Warmwasser/Zirkulation' : 'für Kaltwasser'} - erhöhtes Erosionskorrosionsrisiko an Bögen und Formteilen.` };
   return { years: 50, limit, over: false, reason: `Fließgeschwindigkeit ≈ ${v.toLocaleString('de-DE', { maximumFractionDigits: 1 })} m/s hält den Kupfer-Richtwert von ${limit.toLocaleString('de-DE')} m/s ein.` };
 }
 
@@ -169,46 +169,46 @@ export const CO2_EQUIVALENTS = [
 ];
 
 export const CO2_SOURCES = [
-  { t: 'Strommix Deutschland: 344 g CO₂/kWh (2025)', d: 'Umweltbundesamt, „Entwicklung der spezifischen Treibhausgas-Emissionen des deutschen Strommix", Stand März 2026. 2024: 353 g, 2023: 379 g — der Klimapfad-Schalter schreibt diesen Trend mit −2,5 %/Jahr fort (Untergrenze 40 g).' },
+  { t: 'Strommix Deutschland: 344 g CO₂/kWh (2025)', d: 'Umweltbundesamt, „Entwicklung der spezifischen Treibhausgas-Emissionen des deutschen Strommix", Stand März 2026. 2024: 353 g, 2023: 379 g - der Klimapfad-Schalter schreibt diesen Trend mit −2,5 %/Jahr fort (Untergrenze 40 g).' },
   { t: 'Strommix EU/FR/PL: 210 / 55 / 620 g CO₂/kWh', d: 'Ember Electricity Data 2024/25, gerundete Größenordnungen. Polen führt die EU-Liste an, Frankreich liegt durch Kernkraft weit darunter.' },
   { t: 'Edelstahl-Systemrohr: 7,62 kg CO₂e/kg (A1–A3)', d: 'EPD Geberit Mapress CrNiMo-Systemrohr nach EN 15804+A2 (ecoinvent 3.10, One Click LCA), GWP-fossil je kg inkl. Umformen/Schweißen. Wanddicken der Systemrohr-Reihe (z. B. d28×1,2 = 0,80 kg/m) sind im Massenmodell hinterlegt.' },
-  { t: 'Kupferrohr: 1,93 kg CO₂e/kg (A1–A3) + 37 % Modul-D-Gutschrift', d: 'Durchschnitts-EPD Markenkupferrohre (KME/Gütegemeinschaft, Ökobaudat) nach EN 1057; Recycling-Gutschrift Modul D ≈ 0,733 kg CO₂e/kg ≈ 37–41 % der Produktionslast — als recyclingCreditShare übernommen.' },
+  { t: 'Kupferrohr: 1,93 kg CO₂e/kg (A1–A3) + 37 % Modul-D-Gutschrift', d: 'Durchschnitts-EPD Markenkupferrohre (KME/Gütegemeinschaft, Ökobaudat) nach EN 1057; Recycling-Gutschrift Modul D ≈ 0,733 kg CO₂e/kg ≈ 37–41 % der Produktionslast - als recyclingCreditShare übernommen.' },
   { t: 'PP-Rohr: 1,7 kg CO₂e/kg (A1–A3)', d: 'PP-Rohr-EPDs (One Click LCA/ecoinvent, z. B. 1,55–1,66 kg CO₂e/kg GWP je kg) zzgl. Sicherheitsaufschlag für druckfeste PP-RCT-Compounds. Produktspezifische K-Aqua-EPD ersetzt diesen Wert, sobald vorhanden.' },
   { t: 'PVC-C: 2,6 kg CO₂e/kg (Sekundärliteratur)', d: 'Abgeleitet aus PVC-Harz-Ökoprofilen (Plastics Europe) zzgl. Chlorierungsschritt; größte Einzelunsicherheit im Datensatz, ±30 % empfohlen.' },
-  { t: 'CO₂-Preis: nEHS-Korridor 55–65 €/t (2026)', d: 'DEHSt/BEHG: Versteigerungsphase ab 2026 mit gesetzlichem Korridor 55–65 €/t (Default hier: 55 €, konservativ). ETS-2-Szenarien ab 2028 deutlich darüber — der Slider reicht deshalb bis 300 €.' },
+  { t: 'CO₂-Preis: nEHS-Korridor 55–65 €/t (2026)', d: 'DEHSt/BEHG: Versteigerungsphase ab 2026 mit gesetzlichem Korridor 55–65 €/t (Default hier: 55 €, konservativ). ETS-2-Szenarien ab 2028 deutlich darüber - der Slider reicht deshalb bis 300 €.' },
   { t: 'Hydraulik: Darcy-Weisbach + Swamee-Jain', d: 'Druckverlust je Meter aus Innendurchmesser (reale Wanddicken), Durchfluss und alternder Rauheit k(t) = k₀ + Zuwachs×Jahre; Pumpenergie = Q·Δp/η bei η = 0,55. Rauheitszuwachs (Kupfer 0,015 mm/a, Edelstahl 0,005 mm/a durch Ablagerung/Kalk; Kunststoff 0) ist eine dokumentierte Annahme.' },
   { t: 'Transport: 0,09 kg CO₂e je t·km', d: 'Lkw-Fernverkehr, UBA/GLEC-Größenordnung; wirkt auf die Rohrmasse inkl. Formteil-Zuschlag.' },
-  { t: 'Kupfer: Geschwindigkeits-Grenzwerte 2,4 / 1,5 / 0,9 m/s', d: 'Richtwerte gegen Erosionskorrosion (Kupferinstitut/SHK-Fachliteratur): Kaltwasser ≤2,4 m/s, bis 60 °C und Zirkulationsleitungen ≤1,5 m/s, dauerhaft über 60 °C ≤0,9 m/s. Der Rechner prüft die reale Geschwindigkeit aus Nennweite und Durchfluss und empfiehlt bei Überschreitung eine verkürzte Nutzungsdauer — der Ersatz-Sprung im Chart ist dann begründet, nicht behauptet.' },
+  { t: 'Kupfer: Geschwindigkeits-Grenzwerte 2,4 / 1,5 / 0,9 m/s', d: 'Richtwerte gegen Erosionskorrosion (Kupferinstitut/SHK-Fachliteratur): Kaltwasser ≤2,4 m/s, bis 60 °C und Zirkulationsleitungen ≤1,5 m/s, dauerhaft über 60 °C ≤0,9 m/s. Der Rechner prüft die reale Geschwindigkeit aus Nennweite und Durchfluss und empfiehlt bei Überschreitung eine verkürzte Nutzungsdauer - der Ersatz-Sprung im Chart ist dann begründet, nicht behauptet.' },
   { t: 'Metall-Warmwasserleitungen: 15–30 Jahre bei ungünstigen Bedingungen', d: 'Nach VDI-2067-Lesart der Fachliteratur erreichen verzinkte Eisenwerkstoffe kalt bis 40 Jahre (bei kontinuierlicher Instandhaltung); bei Warmwasser oder ungünstigen Wasserverhältnissen 15–30 Jahre. Grundlage der 30/40-Jahre-Empfehlung bei Grenzwertüberschreitung.' },
-  { t: 'Kunststoff-Rohre: 50 Jahre bei 70 °C normativ nachgewiesen', d: 'Klasse-II-Anforderung nach ISO 10508 (Ofenalterung ISO 2578) bzw. Referenzpunkt 70 °C/15 bar/49 Jahre nach DVGW W 542 / EN ISO 21003-2 — Basis der festen 50-Jahre-Ansetzung für PP-RCT.' },
-  { t: 'Nutzungsdauer: 50 Jahre als Ausgangswert — je Werkstoff einstellbar', d: 'Planungshorizont nach VDI-2067-Praxis für fest verlegte Rohrleitungen als neutraler Default. Weil die reale Nutzungsdauer von Wasserqualität, Temperatur und Betriebsweise abhängt (z. B. Erosionskorrosion bei Kupfer-Zirkulation), ist sie für den Vergleichswerkstoff als Regler ausgeführt — die Annahme steht sichtbar im Bericht statt versteckt im Code.' },
+  { t: 'Kunststoff-Rohre: 50 Jahre bei 70 °C normativ nachgewiesen', d: 'Klasse-II-Anforderung nach ISO 10508 (Ofenalterung ISO 2578) bzw. Referenzpunkt 70 °C/15 bar/49 Jahre nach DVGW W 542 / EN ISO 21003-2 - Basis der festen 50-Jahre-Ansetzung für PP-RCT.' },
+  { t: 'Nutzungsdauer: 50 Jahre als Ausgangswert - je Werkstoff einstellbar', d: 'Planungshorizont nach VDI-2067-Praxis für fest verlegte Rohrleitungen als neutraler Default. Weil die reale Nutzungsdauer von Wasserqualität, Temperatur und Betriebsweise abhängt (z. B. Erosionskorrosion bei Kupfer-Zirkulation), ist sie für den Vergleichswerkstoff als Regler ausgeführt - die Annahme steht sichtbar im Bericht statt versteckt im Code.' },
 ];
 
-export const CO2_DISCLAIMER = 'Berechnung auf Basis öffentlicher Quellen (EPDs nach EN 15804, UBA-Strommix 2025, Ember, DEHSt; Stand Juli 2026) und dokumentierter Annahmen — Quellen je Faktor im Methodik-Tab. Projektverbindlich sind produktspezifische Typ-III-EPDs.';
+export const CO2_DISCLAIMER = 'Berechnung auf Basis öffentlicher Quellen (EPDs nach EN 15804, UBA-Strommix 2025, Ember, DEHSt; Stand Juli 2026) und dokumentierter Annahmen - Quellen je Faktor im Methodik-Tab. Projektverbindlich sind produktspezifische Typ-III-EPDs.';
 
 export const CO2_SEO_COPY = {
   h1: 'K-Aqua CO₂-Rechner: Nachhaltigkeit von PP-RCT gegenüber Metallrohrsystemen in der TGA',
-  intro: 'Der K-Aqua CO₂-Rechner modelliert den Kohlenstoff-Fußabdruck von Trinkwasser- und Kühlleitungen über den gesamten Lebenszyklus — von der werkseitigen Vorfertigung in Waldsolms über Transport, Installation und Jahrzehnte im Betrieb bis zum Rückbau (Cradle-to-Grave). Er vergleicht das PP-RCT-Rohrsystem von K-Aqua nach Nennweite, Wandstärke (SDR-Klasse), Trassenlänge, Energiemix und Betriebsart direkt mit Kupfer, Edelstahl und PVC-C — auf Basis veröffentlichter EPDs und einer echten Druckverlustrechnung.',
+  intro: 'Der K-Aqua CO₂-Rechner modelliert den Kohlenstoff-Fußabdruck von Trinkwasser- und Kühlleitungen über den gesamten Lebenszyklus - von der werkseitigen Vorfertigung in Waldsolms über Transport, Installation und Jahrzehnte im Betrieb bis zum Rückbau (Cradle-to-Grave). Er vergleicht das PP-RCT-Rohrsystem von K-Aqua nach Nennweite, Wandstärke (SDR-Klasse), Trassenlänge, Energiemix und Betriebsart direkt mit Kupfer, Edelstahl und PVC-C - auf Basis veröffentlichter EPDs und einer echten Druckverlustrechnung.',
   methEyebrow: 'Methodik',
   methTitle: 'So rechnet der Rechner.',
-  methLead: 'Transparenz statt Blackbox — jeder Baustein mit Quelle im Abschnitt Datenquellen.',
+  methLead: 'Transparenz statt Blackbox - jeder Baustein mit Quelle im Abschnitt Datenquellen.',
   meth: [
-    { t: 'Massenmodell aus realen Wanddicken', d: 'Kunststoffrohre folgen der SDR-Geometrie (Wand = da/SDR), Kupfer der EN-1057-Reihe, Edelstahl der Systemrohr-Reihe. Ringquerschnitt × Länge × Dichte ergibt die Masse — für Metalle also dünnwandig-realistisch, nicht SDR-fiktiv.' },
-    { t: 'Herstellung als EPD-Wert (A1–A3)', d: 'Je Werkstoff ein GWP-Faktor aus veröffentlichten EPDs nach EN 15804 (inkl. Fertigungsenergie — daher keine Doppelzählung). Transport Werk→Baustelle mit 0,09 kg CO₂e/t·km zusätzlich.' },
+    { t: 'Massenmodell aus realen Wanddicken', d: 'Kunststoffrohre folgen der SDR-Geometrie (Wand = da/SDR), Kupfer der EN-1057-Reihe, Edelstahl der Systemrohr-Reihe. Ringquerschnitt × Länge × Dichte ergibt die Masse - für Metalle also dünnwandig-realistisch, nicht SDR-fiktiv.' },
+    { t: 'Herstellung als EPD-Wert (A1–A3)', d: 'Je Werkstoff ein GWP-Faktor aus veröffentlichten EPDs nach EN 15804 (inkl. Fertigungsenergie - daher keine Doppelzählung). Transport Werk→Baustelle mit 0,09 kg CO₂e/t·km zusätzlich.' },
     { t: 'Betrieb: echte Druckverlustrechnung', d: 'Darcy-Weisbach mit Swamee-Jain-Reibungsbeiwert aus Innendurchmesser, Durchfluss und Rauheit. Metallrohre starten dank dünner Wand hydraulisch günstig, altern aber durch Inkrustation; Kunststoff bleibt glatt. Pumpenergie × Strommix des Betriebsjahres ergibt die Betriebslast.' },
-    { t: 'Lebenszyklus & Ersatzzyklen (Cradle-to-Grave)', d: 'Nutzungsdauer einheitlich 50 Jahre (VDI-2067-Praxis) — Ersatzzyklen entstehen erst jenseits davon und werden mit Rückbau, Gutschrift und Neubau verbucht. Der Vergleich wird bewusst nicht über strittige Lebensdauer-Annahmen entschieden.' },
-    { t: 'Rückbau & Recycling-Gutschrift (Modul D)', d: 'Gutschrift = Masse × Recyclingquote × Modul-D-Anteil × Produktionsfaktor — bei Kupfer z. B. 37–41 % der Produktionslast gemäß Branchen-EPD. Konservativ: angerechnet wird höchstens der Rückbauaufwand, Ersatzzyklen werden nie durch Recycling „belohnt".' },
-    { t: 'Anschauliche Äquivalente', d: 'Umrechnung mit ≈ 25 kg CO₂ Jahresbindung je Baum und ≈ 0,15 kg CO₂e je Pkw-Kilometer (UBA-Näherungen) — Größenordnungen fürs Projektmeeting.' },
+    { t: 'Lebenszyklus & Ersatzzyklen (Cradle-to-Grave)', d: 'Nutzungsdauer einheitlich 50 Jahre (VDI-2067-Praxis) - Ersatzzyklen entstehen erst jenseits davon und werden mit Rückbau, Gutschrift und Neubau verbucht. Der Vergleich wird bewusst nicht über strittige Lebensdauer-Annahmen entschieden.' },
+    { t: 'Rückbau & Recycling-Gutschrift (Modul D)', d: 'Gutschrift = Masse × Recyclingquote × Modul-D-Anteil × Produktionsfaktor - bei Kupfer z. B. 37–41 % der Produktionslast gemäß Branchen-EPD. Konservativ: angerechnet wird höchstens der Rückbauaufwand, Ersatzzyklen werden nie durch Recycling „belohnt".' },
+    { t: 'Anschauliche Äquivalente', d: 'Umrechnung mit ≈ 25 kg CO₂ Jahresbindung je Baum und ≈ 0,15 kg CO₂e je Pkw-Kilometer (UBA-Näherungen) - Größenordnungen fürs Projektmeeting.' },
   ],
   certEyebrow: 'Green Building',
   certTitle: 'Wo die Zahlen einzahlen.',
-  certLead: 'CO₂-Nachweise sind kein Selbstzweck — sie zahlen direkt auf Gebäudezertifizierungen ein.',
+  certLead: 'CO₂-Nachweise sind kein Selbstzweck - sie zahlen direkt auf Gebäudezertifizierungen ein.',
   certs: [
-    { t: 'LEED', d: 'EPDs nach EN 15804 zahlen auf die Material-Credits ein — der Rechner liefert das Vorab-Argument, die EPD den Nachweis.' },
-    { t: 'BREEAM', d: 'Lebenszyklusdaten der Materialien fließen in die Bewertung — belastbar durch Typ-III-Deklarationen.' },
-    { t: 'DGNB', d: 'Die Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen — Materialwahl mit niedrigem GWP wirkt direkt.' },
+    { t: 'LEED', d: 'EPDs nach EN 15804 zahlen auf die Material-Credits ein - der Rechner liefert das Vorab-Argument, die EPD den Nachweis.' },
+    { t: 'BREEAM', d: 'Lebenszyklusdaten der Materialien fließen in die Bewertung - belastbar durch Typ-III-Deklarationen.' },
+    { t: 'DGNB', d: 'Die Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen - Materialwahl mit niedrigem GWP wirkt direkt.' },
   ],
-  scopeTitle: 'Scope 1, 2, 3 — kurz erklärt',
-  scopeText: 'Scope 1 umfasst direkte Emissionen des Werks, Scope 2 den eingekauften Strom, Scope 3 die Lieferkette — also auch Ihre eingekauften Rohre. Deshalb stellt K-Aqua Scope-3-Daten und EPD-Rohdaten auf Anfrage bereit: proaktive Transparenz für Ihre eigene Klimabilanz.',
-  closing: 'Für Planer und Fachingenieure aus Klima & Kühlung sowie Trinkwasser liefert der Rechner ein belastbares Vorab-Argument für die Ausschreibung — korrosionsfreies, recycelbares PP-RCT statt metallischer Leitungen, werkseitig vorgefertigt und auf Nachhaltigkeit über den gesamten Cradle-to-Grave-Zyklus ausgelegt.',
+  scopeTitle: 'Scope 1, 2, 3 - kurz erklärt',
+  scopeText: 'Scope 1 umfasst direkte Emissionen des Werks, Scope 2 den eingekauften Strom, Scope 3 die Lieferkette - also auch Ihre eingekauften Rohre. Deshalb stellt K-Aqua Scope-3-Daten und EPD-Rohdaten auf Anfrage bereit: proaktive Transparenz für Ihre eigene Klimabilanz.',
+  closing: 'Für Planer und Fachingenieure aus Klima & Kühlung sowie Trinkwasser liefert der Rechner ein belastbares Vorab-Argument für die Ausschreibung - korrosionsfreies, recycelbares PP-RCT statt metallischer Leitungen, werkseitig vorgefertigt und auf Nachhaltigkeit über den gesamten Cradle-to-Grave-Zyklus ausgelegt.',
 };

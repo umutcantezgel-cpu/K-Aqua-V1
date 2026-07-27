@@ -1,4 +1,4 @@
-// content/kontakt-bloecke.ts — Slug-Typen und Konstanten des Kontakt-Layers.
+// content/kontakt-bloecke.ts - Slug-Typen und Konstanten des Kontakt-Layers.
 // Die redaktionellen Inhalte liegen lokalisiert in messages/*.json unter
 // "kontaktBlocks.<slug>.*" (de/en/ar); UI-Strings unter "kontaktForm.*".
 

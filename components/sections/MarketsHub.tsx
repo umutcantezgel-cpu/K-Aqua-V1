@@ -225,7 +225,7 @@ export default function MarketsHub({
               {filteredMarkets.map((g) => {
                 const isActive = activeSlug === g.slug;
                 const localizedRegulator = geoContentTrans[g.slug]?.regulator || g.regulator;
-                const parts = localizedRegulator.split("—")[0]?.split("/");
+                const parts = localizedRegulator.split(" - ")[0]?.split("/");
                 const shortRegulator = (parts?.[0] || "").trim();
                 
                 return (

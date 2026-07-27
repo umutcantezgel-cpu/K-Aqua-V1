@@ -1,4 +1,4 @@
-// K-Aqua — StepFlow: nummerierte Prozess-Schritte (Anleitungen, Roadmaps).
+// K-Aqua - StepFlow: nummerierte Prozess-Schritte (Anleitungen, Roadmaps).
 //
 // QUELLE: kaqua-deep-ui.jsx (StepFlow). PORTIERT 1:1.
 // ANGEPASST: CSS-Klassen (k-steps/k-step*) -> Tailwind. Reine Anzeige, kein State ->

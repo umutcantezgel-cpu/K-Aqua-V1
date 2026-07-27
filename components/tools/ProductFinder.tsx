@@ -223,7 +223,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                               <span className="capitalize">{r.category}</span>
                             </td>
                             <td className="p-3 px-4 border-b border-card-border text-muted-foreground text-start font-mono text-sm max-w-[200px] truncate">
-                              {Array.isArray(r.article_codes) ? r.article_codes.join(", ") : (r.article_codes || "—")}
+                              {Array.isArray(r.article_codes) ? r.article_codes.join(", ") : (r.article_codes || "-")}
                             </td>
                           </tr>
                         )})}

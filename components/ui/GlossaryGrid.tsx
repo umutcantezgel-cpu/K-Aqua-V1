@@ -1,4 +1,4 @@
-// K-Aqua — GlossaryGrid: Definitionsliste als responsives Karten-Grid.
+// K-Aqua - GlossaryGrid: Definitionsliste als responsives Karten-Grid.
 //
 // QUELLE: kaqua-deep-ui.jsx (GlossaryGrid). PORTIERT 1:1 (Datenform: Array von
 // [term, definition]-Tupeln, wie im Prototyp/Ausgabe der Deep-i18n-Dateien).

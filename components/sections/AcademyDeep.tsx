@@ -1,4 +1,4 @@
-// K-Aqua — AcademyDeep: Schweißparameter (DVS 2207-11), Verfahren-Schritte, Fehlerkunde, Glossar.
+// K-Aqua - AcademyDeep: Schweißparameter (DVS 2207-11), Verfahren-Schritte, Fehlerkunde, Glossar.
 //
 // QUELLE: kaqua-deep-sections-2.jsx (AcademyDeep) + kaqua-deep-data.js (K_DEEP.WELD).
 // PORTIERT 1:1: 4 Abschnitte (Parameter-Matrix, Tab-gesteuerte Verfahren-Schritte,

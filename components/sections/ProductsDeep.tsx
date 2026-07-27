@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-no-literals */
-// K-Aqua — ProductsDeep: Rohrfamilien, Dimensionstabellen, Werkstoffdaten, Normen, FAQ.
+// K-Aqua - ProductsDeep: Rohrfamilien, Dimensionstabellen, Werkstoffdaten, Normen, FAQ.
 //
 // QUELLE: kaqua-deep-sections-1.jsx (ProductsDeep) + kaqua-deep-data.js (K_DEEP).
 // PORTIERT 1:1: 5 Abschnitte in exakt dieser Reihenfolge (Rohrfamilien-Karten,
 // SDR-Tab-gesteuerte Dimensionstabelle + Auslegungsanker, Werkstoffdaten-Tabelle,
 // Normen-Tabelle, FAQ-Akkordeon).
 // ANGEPASST: usePageL('productsx') -> useTranslations('productsx') + t.raw() für
-// strukturierte Felder (pipes/anchors/matRows/norms/faq — siehe PROMPT.txt).
+// strukturierte Felder (pipes/anchors/matRows/norms/faq - siehe PROMPT.txt).
 // K_DEEP.tableForSdr/fmtPn -> lib/data/deep.ts. BentoCard -> Card. Reveal-Delays
 // von ms auf s umgerechnet.
 // Eigener State (aktive SDR) -> "use client".

@@ -1,5 +1,5 @@
 // lib/i18n/languages.ts
-// K-Aqua Language Switch Module — zentrale Sprachdatenbank (65 Sprachen).
+// K-Aqua Language Switch Module - zentrale Sprachdatenbank (65 Sprachen).
 // Jede Sprache: interne id, next-intl locale (BCP-47), deutsches Label,
 // Eigenname, lokalisiertes "Bestätigen", Kontinentgruppe, Anker [lon, lat]
 // (flyTo + Panel-Position) und ISO-3166-numerische Länder-IDs (world-atlas).
@@ -15,7 +15,7 @@ export type LanguageTier = 'full' | 'partial' | 'auto';
 
 export interface KAquaLanguage {
   id: string;
-  /** next-intl locale — muss in eurer routing.locales-Liste stehen */
+  /** next-intl locale - muss in eurer routing.locales-Liste stehen */
   locale: string;
   de: string;
   nat: string;
@@ -36,7 +36,7 @@ export interface KAquaLanguage {
   /**
    * full: manually curated + reviewed (de/en/ar).
    * partial: has its own messages/<locale>.json but not editorially reviewed.
-   * auto: no message file — falls back to defaultLocale content.
+   * auto: no message file - falls back to defaultLocale content.
    */
   tier: LanguageTier;
 }

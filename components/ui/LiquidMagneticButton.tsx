@@ -3,15 +3,15 @@
 'use client';
 
 /**
- * LiquidMagneticButton — CTA mit Magnet-Andockung und Flüssigkeits-Füllung.
+ * LiquidMagneticButton - CTA mit Magnet-Andockung und Flüssigkeits-Füllung.
  *
  * Zwei Bewegungsstimmen auf einem Element:
  *   · Magnetik  FLOW-Feder. Der Knopf zieht zum Cursor, das Label folgt mit
- *               halber Amplitude — dadurch entsteht Tiefe statt Verschiebung.
+ *               halber Amplitude - dadurch entsteht Tiefe statt Verschiebung.
  *   · Presse    dieselbe Feder auf einem dritten Kanal. Ein Kanalbündel heisst:
  *               Andocken und Stauchen laufen nie gegeneinander.
  *
- * Die Rect-Messung passiert einmal beim Betreten, nicht pro Bewegung —
+ * Die Rect-Messung passiert einmal beim Betreten, nicht pro Bewegung -
  * die Magnetik kostet damit keinen Reflow. Bewegt werden ausschliesslich
  * transform und opacity.
  *
@@ -65,7 +65,7 @@ const SIZES = {
   lg: 'min-h-14 px-8 text-[17px]'
 } as const;
 
-/* Farben werden NICHT transitioniert — dieselbe Regel wie im Design-System
+/* Farben werden NICHT transitioniert - dieselbe Regel wie im Design-System
    (Token-gebundene Farben blieben über einen [data-theme]-Wechsel hängen). */
 const VARIANTS = {
   primary: 'border-0 bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift',
@@ -114,7 +114,7 @@ export default function LiquidMagneticButton({
       dir: px < r.width / 2 ? -1 : 1
     });
     setHot(true);
-    // Der Text taucht ein, sobald die Füllung ihn erreicht — ein gesetzter
+    // Der Text taucht ein, sobald die Füllung ihn erreicht - ein gesetzter
     // Zeitpunkt statt einer Farb-Transition (Design-System-Regel).
     if (submerge.current) window.clearTimeout(submerge.current);
     submerge.current = window.setTimeout(() => setWet(true), reduce ? 0 : fillMs * 0.45);

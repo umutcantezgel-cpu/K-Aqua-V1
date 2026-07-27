@@ -1,9 +1,9 @@
-// K-Aqua — DeepFAQ: Akkordeon für Frage/Antwort-Listen.
+// K-Aqua - DeepFAQ: Akkordeon für Frage/Antwort-Listen.
 //
 // QUELLE: kaqua-deep-ui.jsx (DeepFAQ). PORTIERT 1:1 (ein Panel offen zur Zeit, erstes
-// Panel initial offen — index 0 — wie im Prototyp).
+// Panel initial offen - index 0 - wie im Prototyp).
 // ANGEPASST: CSS-Klassen (k-acc*) -> Tailwind. Icons.ChevronDown -> benannter Import aus
-// components/ui/icon — ACHTUNG: ChevronDown fehlt dort noch, siehe PROMPT.txt: Das Icon-Segment (ChevronDown) muss vorher ausgeführt sein.
+// components/ui/icon - ACHTUNG: ChevronDown fehlt dort noch, siehe PROMPT.txt: Das Icon-Segment (ChevronDown) muss vorher ausgeführt sein.
 // Eigener State (offenes Panel) -> "use client".
 "use client";
 import React, { useState } from "react";

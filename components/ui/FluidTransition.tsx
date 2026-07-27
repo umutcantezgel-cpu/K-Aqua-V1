@@ -3,12 +3,12 @@
 'use client';
 
 /**
- * FluidTransition — Wasser-Maske über dem Routenwechsel.
+ * FluidTransition - Wasser-Maske über dem Routenwechsel.
  *
  * Vier Phasen:
  *   idle → in     Aus dem geklickten Navigationspunkt wächst ein Tropfen,
  *                 bis er die Seite deckt. Der Akzentrand läuft voraus, der
- *                 Markenkern folgt 80 ms später — Brechungs-Eindruck ohne Shader.
+ *                 Markenkern folgt 80 ms später - Brechungs-Eindruck ohne Shader.
  *   in → hold     router.push. Ein Halte-Frame, damit die neue Route malt,
  *                 bevor die Maske aufgeht (kein Aufblitzen der alten Seite).
  *   hold → out    Die Maske zieht sich zum NEUEN, jetzt aktiven Menüpunkt
@@ -19,7 +19,7 @@
  * WebGL. Eine Vollbild-Maske braucht keine Shader, und ein Canvas mitten im
  * Routenwechsel wäre der teuerste denkbare Moment für einen GL-Kontext.
  *
- * Einbindung — Provider EINMAL im Locale-Layout, danach FluidLink statt Link:
+ * Einbindung - Provider EINMAL im Locale-Layout, danach FluidLink statt Link:
  *
  *   import { FluidTransitionProvider } from '@/components/ui/FluidTransition';
  *   ...
@@ -29,7 +29,7 @@
  *   <FluidLink href="/de/systeme">Systeme</FluidLink>
  *
  * Bei prefers-reduced-motion: reduce navigiert FluidLink sofort und ohne
- * Overlay — identisch zu next/link.
+ * Overlay - identisch zu next/link.
  */
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
@@ -131,12 +131,12 @@ export function FluidTransitionProvider({ children, durationMs = 760 }: { childr
       <AnimatePresence>
         {phase !== 'idle' && (
           <div aria-hidden className="pointer-events-none fixed inset-0 z-[120] overflow-hidden" style={{ contain: 'strict' }}>
-            {/* Akzentrand — läuft voraus, weichgezeichnet */}
+            {/* Akzentrand - läuft voraus, weichgezeichnet */}
             <motion.span style={{ ...blob, background: 'var(--accent)', filter: 'blur(12px)' }}
               initial={{ scale: 0, rotate: 0, borderRadius: BLOB_RADII[0] }}
               animate={{ scale: covering ? 1 : 0, rotate: covering ? 14 : 0, borderRadius: covering ? '50%' : BLOB_RADII[1] }}
               transition={{ duration: durationMs / 1000, ease: MASK, delay: phase === 'out' ? 0.09 : 0 }} />
-            {/* Markenkern — folgt 80 ms später */}
+            {/* Markenkern - folgt 80 ms später */}
             <motion.span style={{ ...blob, background: 'var(--primary)' }}
               initial={{ scale: 0, rotate: 0, borderRadius: BLOB_RADII[0] }}
               animate={{ scale: covering ? 1 : 0, rotate: covering ? 14 : 0, borderRadius: covering ? '50%' : BLOB_RADII[1] }}
@@ -156,7 +156,7 @@ export interface FluidLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> 
 /**
  * Ersatz für next/link in der Hauptnavigation. Verhält sich bei
  * Mittelklick, Cmd/Ctrl-Klick, target="_blank" und externen Zielen wie ein
- * normaler Link — die Maske greift nur bei der einfachen Links-Navigation.
+ * normaler Link - die Maske greift nur bei der einfachen Links-Navigation.
  */
 export function FluidLink({ href, children, onClick, ...rest }: FluidLinkProps) {
   const ctx = useContext(Ctx);

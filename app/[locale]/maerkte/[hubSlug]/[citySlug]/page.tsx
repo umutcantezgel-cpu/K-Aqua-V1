@@ -152,7 +152,7 @@ export default async function GeoCityPage({ params }: Props) {
       {/* Hub Breadcrumb or Crisis Context specific SEO text */}
       {hub && (
         <div className="max-w-3xl mx-auto text-sm text-muted-foreground/60 leading-relaxed px-4 pt-4 text-center">
-          K-Aqua Infrastruktur für {hub.name} — Entwickelt für Szenario: {hub.crisisContext}.
+          K-Aqua Infrastruktur für {hub.name}, entwickelt für Szenario: {hub.crisisContext}.
         </div>
       )}
 

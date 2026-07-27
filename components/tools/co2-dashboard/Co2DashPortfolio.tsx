@@ -29,7 +29,7 @@ export function Co2Portfolio({ rows, setRows, usePortfolio, setUsePortfolio, def
         <div className="dash-kpi"><Icons.Leaf size={15} /><span>Ersparnis gesamt</span><strong>{fmt(Math.max(0, totalSav))}</strong></div>
       </div>
       {rows.length === 0 ? (
-        <p className="co2-mod-note">Noch keine Stränge. Jede Zeile ist eine eigene Trasse (Name, Länge, Nennweite, SDR) — die Checkbox nimmt sie in die Aggregation auf. Region, Betriebsart, Transport und Durchfluss kommen aus der Seitenleiste.</p>
+        <p className="co2-mod-note">Noch keine Stränge. Jede Zeile ist eine eigene Trasse (Name, Länge, Nennweite, SDR). Die Checkbox nimmt sie in die Aggregation auf. Region, Betriebsart, Transport und Durchfluss kommen aus der Seitenleiste.</p>
       ) : (
         <div className="co2-pf-list">
           <div className="co2-pf-row is-head"><span></span><span>Strang</span><span>Länge</span><span>Nennweite</span><span>SDR</span><span>Ersparnis vs. Vergleich</span><span></span></div>

@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/i18n/navigation';
 
 /**
- * Localized 404 page — rendered when `notFound()` is called
+ * Localized 404 page - rendered when `notFound()` is called
  * inside any `app/[locale]/` route segment.
  */
 export default function NotFound() {

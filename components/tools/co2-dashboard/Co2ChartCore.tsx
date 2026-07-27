@@ -16,15 +16,15 @@ const CO2_VIEWS = [
   { id: 'index', label: 'Indexiert' },
 ];
 const CO2_VIEW_CAPTIONS = {
-  cum: 'Aufsummierte Emissionen seit Jahr 0 — die grüne Fläche zwischen den Kurven ist die bis dahin erzielte Ersparnis, steile Stufen sind Ersatzzyklen.',
-  annual: 'Emissionen je einzelnem Jahr — Spitzen sind Ersatzzyklen.',
+  cum: 'Aufsummierte Emissionen seit Jahr 0. Die grüne Fläche zwischen den Kurven ist die bis dahin erzielte Ersparnis, steile Stufen sind Ersatzzyklen.',
+  annual: 'Emissionen je einzelnem Jahr. Spitzen sind Ersatzzyklen.',
   diff: 'Eine Kurve: der kumulative Vorsprung von K-Aqua. Nulllinie = Gleichstand.',
-  index: 'Alle Werkstoffe starten bei 100 % — relatives Wachstum im Vergleich.',
+  index: 'Alle Werkstoffe starten bei 100 %. Relatives Wachstum im Vergleich.',
 };
 const VB_W = 1000, VB_H = 380, PAD_TOP = 22, PAD_BOTTOM = 6;
 const CO2_REDUCED = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
-/* Monotone kubische Interpolation (Fritsch-Carlson): glatt, aber ohne Überschwingen —
+/* Monotone kubische Interpolation (Fritsch-Carlson): glatt, aber ohne Überschwingen -
    kumulierte Emissionen können nie sinken, also darf es die Kurve auch nicht. */
 function monoSegs(pts) {
   const n = pts.length; if (n < 2) return [];
@@ -283,7 +283,7 @@ function Co2Chart({ series, horizonYears, fmt, events = [], breakEven = null, vi
   const gridLines = hi != null ? [0.25, 0.5, 0.75].map((f) => { const v = minV + f * (maxV - minV); return { y: yFor(v), label: fmtView(v) }; }) : [];
   const beIdx = view === 'cum' && breakEven && breakEven.year > domain[0] && breakEven.year <= domain[1] && sliced[0] ? sliced[0].pts.findIndex((p) => p.year === breakEven.year) : -1;
 
-  const panelRows = hi != null ? sliced.map((s) => ({ id: s.id, color: s.color, label: s.label, value: s.pts[hi] ? fmtView(s.pts[hi].value) : '—' })) : [];
+  const panelRows = hi != null ? sliced.map((s) => ({ id: s.id, color: s.color, label: s.label, value: s.pts[hi] ? fmtView(s.pts[hi].value) : '-' })) : [];
   const panelDelta = hi != null && sliced.length === 2 && view !== 'diff' && sliced[0].pts[hi] && sliced[1].pts[hi]
     ? `Differenz: ${fmtView(Math.abs(sliced[1].pts[hi].value - sliced[0].pts[hi].value))}` : null;
   const panelNote = hi != null ? (() => { const ev = events.find((x) => x.year === hiYear && x.type === 'replace' && (view === 'diff' || sliced.some((s) => s.id === x.seriesId))); return ev ? `${ev.materialLabel}: ${ev.label}` : null; })() : null;
@@ -342,7 +342,7 @@ function Co2Chart({ series, horizonYears, fmt, events = [], breakEven = null, vi
         <span className="co2-axis-max">{fmtView(maxV)}</span>
         <span className="co2-axis-min">{fmtView(minV)}</span>
         <span className="sr-only-co2" aria-live="polite">{liveText}</span>
-        {n < 2 ? <div className="co2-chart-empty">Zeitfenster zu klein — Zoom zurücksetzen.</div> : null}
+        {n < 2 ? <div className="co2-chart-empty">Zeitfenster zu klein. Zoom zurücksetzen.</div> : null}
         <svg ref={svgRef} viewBox={`0 0 ${VB_W} ${VB_H}`} preserveAspectRatio="none" className="co2-svg">
           <defs>
             <filter id="co2glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4" result="b"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter>

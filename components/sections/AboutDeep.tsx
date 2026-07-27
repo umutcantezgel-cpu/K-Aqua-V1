@@ -1,7 +1,7 @@
-// K-Aqua — AboutDeep: Werk-Kennzahlen, Fertigungsstationen, House-of-KWT-Werte, Meilensteine.
+// K-Aqua - AboutDeep: Werk-Kennzahlen, Fertigungsstationen, House-of-KWT-Werte, Meilensteine.
 //
 // QUELLE: kaqua-deep-sections-3.jsx (AboutDeep). PORTIERT 1:1 (4 Abschnitte). Meilensteine
-// nutzen bewusst KEIN StepFlow (das nummeriert 1..n) — die Original-Struktur zeigt ein
+// nutzen bewusst KEIN StepFlow (das nummeriert 1..n) - die Original-Struktur zeigt ein
 // Jahres-/Phasen-Chip statt einer laufenden Nummer, hier 1:1 nachgebaut.
 // ANGEPASST: usePageL('aboutx') -> getTranslations('aboutx') (Server Component). BentoCard -> Card.
 // Reine Server Component -> KEIN "use client".

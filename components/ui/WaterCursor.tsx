@@ -1,19 +1,19 @@
 'use client';
 
 /**
- * WaterCursor — Custom-Cursor mit elastischem Ribbon-Schweif (WebGL2).
+ * WaterCursor - Custom-Cursor mit elastischem Ribbon-Schweif (WebGL2).
  *
  * Design direkt am React-Bits-<Ribbons/>-Background ausgerichtet
  * (Referenz-Konfiguration: 1 Farbe, baseSpring 0.03, baseFriction 0.9,
  * baseThickness 10, maxAge 500, pointCount 50, speedMultiplier 0.6,
  * enableFade false, enableShaderEffect false):
  *   - EIN glattes, flaches Band in Marken-Violett folgt der Maus elastisch
- *     (Feder+Reibung am Kopf, Kettenpunkte lerpen mit maxAge-Timing nach —
+ *     (Feder+Reibung am Kopf, Kettenpunkte lerpen mit maxAge-Timing nach -
  *     exakt die Ribbons-Update-Schleife)
  *   - konstante Dicke mit spitz zulaufenden Enden (Ribbons-Taper)
- *   - deckende, flache Farbe — kein Noise, kein Verlauf
+ *   - deckende, flache Farbe - kein Noise, kein Verlauf
  * Rendering bewusst OHNE ogl/Three.js als Fullscreen-SDF-Shader (Kapsel-
- * Kette mit hartem min — kein Metaball-Verklumpen beim Anhalten). Farben
+ * Kette mit hartem min - kein Metaball-Verklumpen beim Anhalten). Farben
  * kommen aus echten CSS-Custom-Properties (auch oklch(), via
  * Canvas2D-fillStyle geparst) statt aus ogl's Color-Klasse.
  *
@@ -21,7 +21,7 @@
  * Magnet-Hover an interaktiven Elementen, solider Punkt in Marken-Violett
  * als verlässlicher Fixpunkt.
  *
- * Einbindung — EINMAL nahe der Wurzel mounten, z. B. app/[locale]/layout.tsx:
+ * Einbindung - EINMAL nahe der Wurzel mounten, z. B. app/[locale]/layout.tsx:
  *
  *   import WaterCursor from '@/components/ui/WaterCursor';
  *   ...
@@ -40,7 +40,7 @@ import { useEffect, useRef } from 'react';
 export interface WaterCursorProps {
   /** Voreingestellte Bandfarbe. 'violet' (Standard, Marken-Violett) · 'aqua' · 'mono'. */
   tint?: 'violet' | 'aqua' | 'mono';
-  /** Explizite Bandfarbe (erster Eintrag zählt) — überschreibt `tint`. */
+  /** Explizite Bandfarbe (erster Eintrag zählt) - überschreibt `tint`. */
   colors?: string[];
   /** Banddicke, Multiplikator um 1 (Basis ≙ Ribbons baseThickness 10). */
   trailScale?: number;
@@ -48,9 +48,9 @@ export interface WaterCursorProps {
   trailMs?: number;
   /** Ribbons speedMultiplier. */
   speed?: number;
-  /** Ribbons baseSpring — Federstärke des Kopfes. */
+  /** Ribbons baseSpring - Federstärke des Kopfes. */
   spring?: number;
-  /** Ribbons baseFriction — Reibung/Dämpfung des Kopfes. */
+  /** Ribbons baseFriction - Reibung/Dämpfung des Kopfes. */
   friction?: number;
   /** Intensität des Klick-Spritzers, Multiplikator um 1. */
   splashScale?: number;

@@ -1,12 +1,12 @@
-// K-Aqua — HomeDeep: Werk-Kennzahlen-Band + Zertifikats-Badges + CTA zum Trust Center.
+// K-Aqua - HomeDeep: Werk-Kennzahlen-Band + Zertifikats-Badges + CTA zum Trust Center.
 //
 // QUELLE: kaqua-deep-sections-3.jsx (HomeDeep). PORTIERT 1:1 (1 Abschnitt: StatBand,
 // Badge-Leiste, CTA).
 // ANGEPASST: usePageL('homedeep') -> getTranslations('homedeep') (Server Component).
 // Der Prototyp navigiert per Hash-Router-Callback (`go('trust')`, aus kaqua-app.jsx); das
-// reale Repo hat keinen Client-Side-Hash-Router — die CTA wird ein echter, lokalisierter
+// reale Repo hat keinen Client-Side-Hash-Router - die CTA wird ein echter, lokalisierter
 // Link über lib/i18n/navigation (next-intl `Link`, prefixt automatisch die aktuelle Locale).
-// Braucht deshalb KEIN `go`-Prop mehr — vereinfacht die Komponente zur reinen Server Component.
+// Braucht deshalb KEIN `go`-Prop mehr - vereinfacht die Komponente zur reinen Server Component.
 // Reine Server Component -> KEIN "use client".
 import React from "react";
 import { getTranslations } from "next-intl/server";

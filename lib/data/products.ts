@@ -36,8 +36,8 @@ export function buildCatalog(): ProductRow[] {
           wall,
           di: wall ? Math.round((d - 2 * wall) * 10) / 10 : null,
           pn: sdr
-            ? (({ 6: "PN 20", 7.4: "PN 16", 9: "PN 12,5", 11: "PN 10", 17: "PN 6" } as Record<number, string>)[sdr] || "—")
-            : "—",
+            ? (({ 6: "PN 20", 7.4: "PN 16", 9: "PN 12,5", 11: "PN 10", 17: "PN 6" } as Record<number, string>)[sdr] || "-")
+            : "-",
         });
       });
     });

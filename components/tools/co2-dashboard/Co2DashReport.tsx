@@ -47,7 +47,7 @@ export function Co2Report({ paramRows, kaquaResult, opponentResult, savings, bre
           {paramRows.map((p: any) => <div key={p[0]}><span>{p[0]}</span><strong>{p[1]}</strong></div>)}
         </div>
         <div className="co2-rep-hero">
-          <span>CO₂e-Ersparnis über {horizon} Jahre — {kaquaResult.material.label} gegenüber {opponentResult.material.label}</span>
+          <span>CO₂e-Ersparnis über {horizon} Jahre: {kaquaResult.material.label} gegenüber {opponentResult.material.label}</span>
           <strong>{fmt(savings)}</strong>
           <small>{breakEven ? (breakEven.year === 0 ? 'K-Aqua liegt vom ersten Tag an vorn.' : `Amortisation ab Jahr ${breakEven.year}.`) : 'Kein Vorsprung im Betrachtungszeitraum.'} {co2Price > 0 ? `Vermiedene CO₂-Kosten bei ${co2Price} €/t: ca. ${Math.round(euro).toLocaleString('de-DE')} €.` : ''}</small>
         </div>
