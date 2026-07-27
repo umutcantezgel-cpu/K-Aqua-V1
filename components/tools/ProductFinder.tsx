@@ -124,9 +124,9 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
               <Reveal>
                 <Card className="p-6 flex flex-col gap-6 text-start">
                   <div>
-                    <h3 className="font-heading font-bold text-base text-foreground mb-3">
+                    <h2 className="font-heading font-bold text-base text-foreground mb-3">
                       Kategorie
-                    </h3>
+                    </h2>
                     <div className="flex flex-col gap-2">
                       {CATEGORIES.map((cat) => (
                         <FilterChip

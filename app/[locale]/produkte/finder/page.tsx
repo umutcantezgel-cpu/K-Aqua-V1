@@ -59,12 +59,6 @@ export default async function FinderPage({ params }: Props) {
 
   return (
     <>
-      <div className="sr-only">
-        <p>{finalTitle}</p>
-        <p>{meta[1]}</p>
-        <p>{t('catalogOverview') || "Katalogübersicht"}</p>
-        <p>Interaktiver Produktfinder für PP-R Rohre Keine PDF-Wüste. Sofort Daten. Katalog</p>
-      </div>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">

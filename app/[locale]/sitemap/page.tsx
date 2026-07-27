@@ -49,21 +49,32 @@ export default async function SitemapPage({ params }: Props) {
       <section className="relative overflow-hidden pt-32 pb-16 lg:py-40 border-b border-card-border">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
-            HTML Sitemap
+          <h1 className="flex flex-col gap-4 mt-4 mb-6">
+            <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
+              HTML Sitemap
+            </span>
+            <span className="text-xl text-muted-foreground font-normal" data-nosnippet="true">
+              {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
+               : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
+               : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
+              <span className="sr-only"> - K-Aqua HTML Sitemap</span>
+            </span>
           </h1>
-          <p className="text-xl text-muted-foreground">
-            Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.
-          </p>
-          <div className="mt-6 space-y-4 text-lg text-muted-foreground">
+          <div className="mt-6 space-y-4 text-lg text-muted-foreground" data-nosnippet="true">
             <p>
-              Die K-Aqua Website ist umfangreich und bietet detaillierte Informationen zu unseren hochmodernen PP-R und PPRCT Rohrsystemen, Formteilen, Armaturen und branchenspezifischen Lösungen. Nutzen Sie diese HTML Sitemap als zentralen Navigationsknotenpunkt, um ohne Umwege direkt zu den gewünschten Produktdatenblättern, Ausschreibungstexten, technischen Katalogen oder zu unserem interaktiven Produktfinder zu gelangen.
+              {locale === 'de' ? 'Die K-Aqua Website ist umfangreich und bietet detaillierte Informationen zu unseren hochmodernen PP-R und PPRCT Rohrsystemen, Formteilen, Armaturen und branchenspezifischen Lösungen. Nutzen Sie diese HTML Sitemap als zentralen Navigationsknotenpunkt, um ohne Umwege direkt zu den gewünschten Produktdatenblättern, Ausschreibungstexten, technischen Katalogen oder zu unserem interaktiven Produktfinder zu gelangen.'
+               : locale === 'en' ? 'The K-Aqua website is extensive and offers detailed information about our ultra-modern PP-R and PPRCT piping systems, fittings, valves, and industry-specific solutions. Use this HTML sitemap as a central navigation hub to go straight to the desired product data sheets, technical catalogs, or our interactive product finder.'
+               : 'يقدم موقع K-Aqua معلومات تفصيلية عن أنظمة أنابيب PP-R و PPRCT فائقة الحداثة، والتجهيزات، والصمامات، والحلول الخاصة بالصناعة. استخدم خريطة الموقع هذه كمركز تنقل للوصول مباشرة إلى أوراق بيانات المنتج أو الكتالوجات الفنية.'}
             </p>
             <p>
-              Egal, ob Sie als Fachplaner nach spezifischen SDR-Klassen für ein industrielles Großprojekt suchen, als Installateur die passenden Schweißwerkzeuge benötigen, oder sich als Bauherr über die nachhaltigen Aspekte und CO2-Einsparungen unserer Produkte informieren möchten – die Sitemap führt Sie zielgerichtet an den richtigen Ort. Zudem finden Sie hier direkten Zugang zu unseren globalen Marktniederlassungen, aktuellen Unternehmensnachrichten sowie unserer K-Aqua Academy für professionelle Schulungen.
+              {locale === 'de' ? 'Egal, ob Sie als Fachplaner nach spezifischen SDR-Klassen für ein industrielles Großprojekt suchen, als Installateur die passenden Schweißwerkzeuge benötigen, oder sich als Bauherr über die nachhaltigen Aspekte und CO2-Einsparungen unserer Produkte informieren möchten – die Sitemap führt Sie zielgerichtet an den richtigen Ort. Zudem finden Sie hier direkten Zugang zu unseren globalen Marktniederlassungen, aktuellen Unternehmensnachrichten sowie unserer K-Aqua Academy für professionelle Schulungen.'
+               : locale === 'en' ? 'Whether you are a technical planner looking for specific SDR classes for a major industrial project, an installer in need of the right welding tools, or a builder wanting to find out about the sustainable aspects and CO2 savings of our products – the sitemap will guide you to the right place. You will also find direct access to our global market branches and company news.'
+               : 'سواء كنت مخططًا تقنيًا يبحث عن فئات SDR محددة لمشروع صناعي كبير، أو مُركِّبًا يحتاج إلى أدوات اللحام المناسبة، أو منشئًا يرغب في التعرف على الجوانب المستدامة وتوفير ثاني أكسيد الكربون لمنتجاتنا - فإن خريطة الموقع سترشدك إلى المكان الصحيح.'}
             </p>
             <p>
-              Eine transparente und logisch aufgebaute Architektur ist uns wichtig. Diese Sitemap unterstützt nicht nur unsere Besucher bei der schnellen Informationsbeschaffung, sondern hilft auch Suchmaschinen-Crawlern dabei, die Zusammenhänge und Hierarchien unserer Inhalte optimal zu erfassen und zu indexieren. Wir aktualisieren diese Übersicht kontinuierlich, um neue Produkte und Serviceangebote zeitnah abzubilden.
+              {locale === 'de' ? 'Eine transparente und logisch aufgebaute Architektur ist uns wichtig. Diese Sitemap unterstützt nicht nur unsere Besucher bei der schnellen Informationsbeschaffung, sondern hilft auch Suchmaschinen-Crawlern dabei, die Zusammenhänge und Hierarchien unserer Inhalte optimal zu erfassen und zu indexieren. Wir aktualisieren diese Übersicht kontinuierlich, um neue Produkte und Serviceangebote zeitnah abzubilden.'
+               : locale === 'en' ? 'A transparent and logically structured architecture is important to us. This sitemap not only helps our visitors to find information quickly, but also helps search engine crawlers to optimally record and index the relationships and hierarchies of our content. We continuously update this overview to reflect new products and services.'
+               : 'تعتبر الهندسة المعمارية الشفافة والمنظمة منطقيًا مهمة بالنسبة لنا. لا تساعد خريطة الموقع هذه زوارنا في العثور على المعلومات بسرعة فحسب، بل تساعد أيضًا زواحف محركات البحث على تسجيل وفهرسة علاقات وتسلسلات محتوياتنا بشكل مثالي.'}
             </p>
           </div>
         </div>

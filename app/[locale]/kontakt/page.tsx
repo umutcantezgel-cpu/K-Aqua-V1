@@ -56,11 +56,6 @@ export default async function KontaktPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">
-        <p>{t("title1")} {t("titleGrad")}</p>
-        <p>{t("locTitle")}</p>
-        <p>{t("supportTitle")} - {t("supportText")}</p>
-      </div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
@@ -70,10 +65,15 @@ export default async function KontaktPage({ params }: Props) {
               <Eyebrow>{t("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
-                {t("title1")}{" "}
-                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                  {t("titleGrad")}
+              <h1 className="flex flex-col gap-4 mt-4 mb-6">
+                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
+                  {t("title1")}{" "}
+                  <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
+                    {t("titleGrad")}
+                  </span>
+                </span>
+                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
+                  {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
                 </span>
               </h1>
             </Reveal>

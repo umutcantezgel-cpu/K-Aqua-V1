@@ -63,10 +63,17 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   if (!product) return null;
 
   // Convert markdown to HTML
+  // We strip the english description at the top of the MD files to avoid Duplicate Content across locales.
+  let cleanContent = product.content;
+  const match = cleanContent.match(/(?:## Article Table|## Available Sizes|\|.*\|)/i);
+  if (match && match.index !== undefined) {
+    cleanContent = cleanContent.substring(match.index);
+  }
+
   const processedContent = await remark()
     .use(remarkGfm)
     .use(html)
-    .process(product.content);
+    .process(cleanContent);
     
   return {
     ...product,

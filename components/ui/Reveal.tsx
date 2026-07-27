@@ -3,15 +3,17 @@
 import React from "react";
 import { motion, HTMLMotionProps } from "motion/react";
 
-export interface RevealProps extends Omit<HTMLMotionProps<"div">, "initial" | "whileInView" | "viewport" | "transition"> {
+export interface RevealProps extends Omit<HTMLMotionProps<any>, "initial" | "whileInView" | "viewport" | "transition"> {
   children: React.ReactNode;
   delay?: number;
+  as?: React.ElementType;
 }
 
-export const Reveal = React.forwardRef<HTMLDivElement, RevealProps>(
-  ({ children, delay = 0, className, ...props }, ref) => {
+export const Reveal = React.forwardRef<HTMLElement, RevealProps>(
+  ({ children, delay = 0, className, as = "div", ...props }, ref) => {
+    const Component = motion.create(as as any) as any;
     return (
-      <motion.div
+      <Component
         ref={ref}
         initial={{ opacity: 0, y: 22 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +27,7 @@ export const Reveal = React.forwardRef<HTMLDivElement, RevealProps>(
         {...props}
       >
         {children}
-      </motion.div>
+      </Component>
     );
   }
 );

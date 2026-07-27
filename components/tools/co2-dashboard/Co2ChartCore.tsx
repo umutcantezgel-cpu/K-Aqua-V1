@@ -318,7 +318,7 @@ function Co2Chart({ series, horizonYears, fmt, events = [], breakEven = null, vi
           </button>
           {play.t != null ? <button type="button" className="co2-speed-btn" onClick={() => setPlay((p) => ({ ...p, speed: p.speed === 4 ? 1 : p.speed * 2 }))} title="Wiedergabe-Geschwindigkeit">{play.speed}×</button> : null}
           <div className="co2-kebab">
-            <button type="button" className="co2-icon-btn" aria-expanded={menuOpen} aria-haspopup="true" onClick={() => setMenuOpen(!menuOpen)} title="Weitere Chart-Optionen"><span className="co2-kebab-glyph">⋯</span></button>
+            <button type="button" className="co2-icon-btn" aria-expanded={menuOpen} aria-haspopup="true" onClick={() => setMenuOpen(!menuOpen)} title="Weitere Chart-Optionen" aria-label="Weitere Chart-Optionen"><span className="co2-kebab-glyph">⋯</span></button>
             {menuOpen ? (
               <React.Fragment>
                 <div className="co2-panelmenu-backdrop" onClick={() => setMenuOpen(false)}></div>
@@ -423,7 +423,7 @@ function Co2Chart({ series, horizonYears, fmt, events = [], breakEven = null, vi
             <div className="co2-scrub-row">
               <input type="range" className="k-range co2-scrub" min={domain[0]} max={domain[1]} step="0.25" value={play.t}
                 onChange={(e) => setPlay((p) => ({ ...p, t: +e.target.value }))} aria-label="Wiedergabe-Position in Jahren" />
-              <button type="button" className="co2-icon-btn" onClick={() => setPlay((p) => ({ ...p, on: false, t: null }))} title="Wiedergabe beenden"><Icons.X size={14} /></button>
+              <button type="button" className="co2-icon-btn" onClick={() => setPlay((p) => ({ ...p, on: false, t: null }))} title="Wiedergabe beenden" aria-label="Wiedergabe beenden"><Icons.X size={14} /></button>
             </div>
           ) : null}
         </div>

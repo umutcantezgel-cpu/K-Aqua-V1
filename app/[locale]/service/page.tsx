@@ -69,11 +69,6 @@ export default async function ServicePage({ params }: Props) {
   
   return (
     <>
-      <div className="sr-only">
-        <p>{meta[0]}</p>
-        <p>{meta[1]}</p>
-        <p>Service & Download Center für Technik Kundenservice & Know-how.</p>
-      </div>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
@@ -84,17 +79,17 @@ export default async function ServicePage({ params }: Props) {
               <Eyebrow>{t("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
-                {t("title1")}{" "}
-                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                  {t("titleGrad")}
+              <h1 className="flex flex-col gap-6 mt-4 mb-6">
+                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
+                  {t("title1")}{" "}
+                  <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
+                    {t("titleGrad")}
+                  </span>
+                </span>
+                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
+                  {t("lead")}
                 </span>
               </h1>
-            </Reveal>
-            <Reveal delay={0.12}>
-              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-                {t("lead")}
-              </p>
             </Reveal>
           </div>
         </section>

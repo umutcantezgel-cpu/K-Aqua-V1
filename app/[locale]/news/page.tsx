@@ -53,17 +53,17 @@ export default async function NewsPage({ params }: Props) {
               <Eyebrow>{t("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
-                {t("title1")}{" "}
-                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                  {t("titleGrad")}
+              <h1 className="flex flex-col gap-6 mt-4 mb-6">
+                <span className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1]">
+                  {t("title1")}{" "}
+                  <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
+                    {t("titleGrad")}
+                  </span>
+                </span>
+                <span className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal">
+                  {t("lead")}
                 </span>
               </h1>
-            </Reveal>
-            <Reveal delay={0.12}>
-              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-                {t("lead")}
-              </p>
             </Reveal>
           </div>
         </section>
@@ -74,7 +74,7 @@ export default async function NewsPage({ params }: Props) {
             <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-8 items-start">
               {/* Primary News Release */}
               <Reveal>
-                <Card className="p-8 text-start flex flex-col gap-6">
+                <Card className="p-8 text-start flex flex-col gap-6" data-nosnippet="true">
                   <div>
                     <span className="text-[13.5px] font-semibold text-muted-foreground">
                       {t("date")}

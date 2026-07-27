@@ -90,16 +90,14 @@ export default async function NewsDetailPage({ params }: Props) {
               <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag || newsItem.category || "News"}</span>
             </div>
           </Reveal>
-          <Reveal delay={0.06}>
-            <h1 className="text-h2 font-heading font-extrabold tracking-tight mt-2 mb-6 text-foreground leading-[1.15]">
+          <h1 className="flex flex-col gap-4 mt-2 mb-6 animate-reveal">
+            <span className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-[1.15]">
               {resolveLocalized(newsItem.title, locale)}
-            </h1>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed">
+            </span>
+            <span className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed font-body font-normal">
               <strong>{resolveLocalized(newsItem.title, locale)}</strong> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
-            </p>
-          </Reveal>
+            </span>
+          </h1>
         </div>
       </section>
 

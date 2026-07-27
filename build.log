@@ -1,0 +1,655 @@
+
+> k-aqua@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.19
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 5.5s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/4343) ...
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+   Generating static pages (1085/4343) 
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+   Generating static pages (2171/4343) 
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+   Generating static pages (3257/4343) 
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: accessories t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: pipes t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: tools t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: weldInSaddles t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: fittings t.has(catKey): true t.has(catKey.guideText): true
+DEBUG CategoryPage catKey: valves t.has(catKey): true t.has(catKey.guideText): true
+ ✓ Generating static pages (4343/4343)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                       Size  First Load JS
+┌ ○ /_not-found                                                   1 kB         104 kB
+├ ● /[locale]                                                  14.6 kB         205 kB
+├   ├ /de
+├   ├ /en
+├   └ /ar
+├ ● /[locale]/academy                                          4.53 kB         193 kB
+├   ├ /de/academy
+├   ├ /en/academy
+├   └ /ar/academy
+├ ● /[locale]/co2-rechner                                      1.37 kB         104 kB
+├   ├ /de/co2-rechner
+├   ├ /en/co2-rechner
+├   └ /ar/co2-rechner
+├ ● /[locale]/datenschutz                                      2.09 kB         357 kB
+├   ├ /de/datenschutz
+├   ├ /en/datenschutz
+├   └ /ar/datenschutz
+├ ● /[locale]/dev/globe                                        15.1 kB         138 kB
+├   ├ /de/dev/globe
+├   ├ /en/dev/globe
+├   └ /ar/dev/globe
+├ ● /[locale]/dev/tokens                                       5.21 kB         124 kB
+├   ├ /de/dev/tokens
+├   ├ /en/dev/tokens
+├   └ /ar/dev/tokens
+├ ● /[locale]/dev/ui                                           14.8 kB         155 kB
+├   ├ /de/dev/ui
+├   ├ /en/dev/ui
+├   └ /ar/dev/ui
+├ ● /[locale]/impressum                                         3.4 kB         358 kB
+├   ├ /de/impressum
+├   ├ /en/impressum
+├   └ /ar/impressum
+├ ● /[locale]/karriere                                         16.5 kB         185 kB
+├   ├ /de/karriere
+├   ├ /en/karriere
+├   └ /ar/karriere
+├ ● /[locale]/kontakt                                          5.17 kB         158 kB
+├   ├ /de/kontakt
+├   ├ /en/kontakt
+├   └ /ar/kontakt
+├ ● /[locale]/language                                         2.89 kB         106 kB
+├   ├ /de/language
+├   ├ /en/language
+├   └ /ar/language
+├ ● /[locale]/loesungen                                         6.5 kB         253 kB
+├   ├ /de/loesungen
+├   ├ /en/loesungen
+├   └ /ar/loesungen
+├ ● /[locale]/maerkte                                          9.11 kB         179 kB
+├   ├ /de/maerkte
+├   ├ /en/maerkte
+├   └ /ar/maerkte
+├ ● /[locale]/maerkte/[hubSlug]                                1.67 kB         108 kB
+├   ├ /de/maerkte/deutschland
+├   ├ /de/maerkte/oesterreich
+├   ├ /de/maerkte/schweiz
+├   └ [+1557 more paths]
+├ ● /[locale]/maerkte/[hubSlug]/[citySlug]                     9.04 kB         179 kB
+├   ├ /de/maerkte/deutschland/frankfurt
+├   ├ /de/maerkte/deutschland/berlin
+├   ├ /de/maerkte/deutschland/muenchen
+├   └ [+1817 more paths]
+├ ● /[locale]/news                                              198 kB         436 kB
+├   ├ /de/news
+├   ├ /en/news
+├   └ /ar/news
+├ ● /[locale]/news/[slug]                                      12.9 kB         246 kB
+├   ├ /de/news/iso-zertifizierung-qualitaet-umwelt-energie
+├   ├ /de/news/fortlaufende-kennzeichnung-rueckverfolgbarkeit
+├   ├ /de/news/warum-eigentlich-ppr-materialkunde
+├   └ [+147 more paths]
+├ ƒ /[locale]/opengraph-image                                    147 B         103 kB
+├ ● /[locale]/partnerschaft                                    3.83 kB         153 kB
+├   ├ /de/partnerschaft
+├   ├ /en/partnerschaft
+├   └ /ar/partnerschaft
+├ ● /[locale]/produkte                                         11.8 kB         198 kB
+├   ├ /de/produkte
+├   ├ /en/produkte
+├   └ /ar/produkte
+├ ● /[locale]/produkte/[category]                               3.6 kB         170 kB
+├   ├ /de/produkte/accessories
+├   ├ /de/produkte/fittings
+├   ├ /de/produkte/pipes
+├   └ [+452 more paths]
+├ ● /[locale]/produkte/[category]/[slug]                       9.29 kB         190 kB
+├   ├ /de/produkte/accessories/backing-flange-pp-steel-sfbf
+├   ├ /de/produkte/accessories/flat-gasket-for-unions-pp-r
+├   ├ /de/produkte/accessories/flat-gasket
+├   └ [+210 more paths]
+├ ● /[locale]/produkte/finder                                  8.25 kB         188 kB
+├   ├ /de/produkte/finder
+├   ├ /en/produkte/finder
+├   └ /ar/produkte/finder
+├ ● /[locale]/produkte/fittings                                2.79 kB         109 kB
+├   ├ /de/produkte/fittings
+├   ├ /en/produkte/fittings
+├   └ /ar/produkte/fittings
+├ ● /[locale]/produkte/pipes                                   2.79 kB         109 kB
+├   ├ /de/produkte/pipes
+├   ├ /en/produkte/pipes
+├   └ /ar/produkte/pipes
+├ ● /[locale]/produkte/tools                                   5.51 kB         134 kB
+├   ├ /de/produkte/tools
+├   ├ /en/produkte/tools
+├   └ /ar/produkte/tools
+├ ● /[locale]/produkte/transition-fittings                     2.79 kB         109 kB
+├   ├ /de/produkte/transition-fittings
+├   ├ /en/produkte/transition-fittings
+├   └ /ar/produkte/transition-fittings
+├ ● /[locale]/produkte/valves                                  3.91 kB         125 kB
+├   ├ /de/produkte/valves
+├   ├ /en/produkte/valves
+├   └ /ar/produkte/valves
+├ ● /[locale]/projektanfrage                                   14.2 kB         183 kB
+├   ├ /de/projektanfrage
+├   ├ /en/projektanfrage
+├   └ /ar/projektanfrage
+├ ● /[locale]/referenzen                                         17 kB         199 kB
+├   ├ /de/referenzen
+├   ├ /en/referenzen
+├   └ /ar/referenzen
+├ ● /[locale]/ressourcen/ausschreibungstexte                    2.9 kB         181 kB
+├   ├ /de/ressourcen/ausschreibungstexte
+├   ├ /en/ressourcen/ausschreibungstexte
+├   └ /ar/ressourcen/ausschreibungstexte
+├ ● /[locale]/ressourcen/support                               6.54 kB         180 kB
+├   ├ /de/ressourcen/support
+├   ├ /en/ressourcen/support
+├   └ /ar/ressourcen/support
+├ ● /[locale]/service                                          8.15 kB         172 kB
+├   ├ /de/service
+├   ├ /en/service
+├   └ /ar/service
+├ ● /[locale]/sitemap                                          3.31 kB         220 kB
+├   ├ /de/sitemap
+├   ├ /en/sitemap
+├   ├ /ar/sitemap
+├   └ [+62 more paths]
+├ ● /[locale]/trust-center                                     8.37 kB         188 kB
+├   ├ /de/trust-center
+├   ├ /en/trust-center
+├   └ /ar/trust-center
+├ ● /[locale]/unternehmen                                       2.8 kB         173 kB
+├   ├ /de/unternehmen
+├   ├ /en/unternehmen
+├   └ /ar/unternehmen
+├ ƒ /api/apply                                                   147 B         103 kB
+├ ƒ /api/assistant                                               147 B         103 kB
+├ ○ /manifest.webmanifest                                        147 B         103 kB
+├ ○ /robots.txt                                                  147 B         103 kB
+└ ○ /sitemap.xml                                                 147 B         103 kB
++ First Load JS shared by all                                   103 kB
+  ├ chunks/5436-b49d53b909f33b21.js                            46.5 kB
+  ├ chunks/5ebdfd46-598c0be87fa2254b.js                        54.2 kB
+  └ other shared chunks (total)                                2.32 kB
+
+
+ƒ Middleware                                                   56.5 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
