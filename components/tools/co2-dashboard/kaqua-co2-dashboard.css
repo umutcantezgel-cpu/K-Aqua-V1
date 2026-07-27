@@ -1,5 +1,5 @@
 /* ============================================================
-   K-Aqua Redesign — Semantic Design Tokens
+   K-Aqua Redesign - Semantic Design Tokens
    Doc 07: Geometric Modern (Outfit + Inter)
    Doc 08: Bento Box Grid + Glassmorphism, OLED dark (#0A0A0F)
    Brand: K-Aqua purple #5B2D8C + aqua accent
@@ -127,7 +127,7 @@ body {
      A transition on a custom-property-driven background/color, combined
      with the theme swap happening via a [data-theme] attribute-selector
      change (not a direct var() reassignment), left computed styles stuck
-     at their pre-swap values in testing — the safe, correct fix is an
+     at their pre-swap values in testing - the safe, correct fix is an
      instant (non-transitioned) theme swap on body. */
 }
 img { max-width: 100%; display: block; }

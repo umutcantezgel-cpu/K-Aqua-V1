@@ -97,7 +97,7 @@ export default async function NewsDetailPage({ params }: Props) {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed">
-              {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
+              <strong>{resolveLocalized(newsItem.title, locale)}</strong> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
             </p>
           </Reveal>
         </div>

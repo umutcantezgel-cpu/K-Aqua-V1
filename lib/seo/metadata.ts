@@ -95,9 +95,9 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      // 1. Truncate cleanTitle itself if it's already over 65 chars
-      if (finalTitle.length > 65) {
-          finalTitle = finalTitle.substring(0, 62).trim() + "...";
+      // 1. Truncate cleanTitle itself if it's already over 55 chars
+      if (finalTitle.length > 55) {
+          finalTitle = finalTitle.substring(0, 52).trim() + "...";
       }
 
       // 2. Analyze existing keywords to prevent "Wortwiederholung" (word repetition)
@@ -117,7 +117,7 @@ export function constructMetadata({
               const extended = locale === 'de' ? " | K-Aqua PP-R/PP-RCT Rohrsysteme" : 
                                locale === 'ar' ? " | K-Aqua أنظمة أنابيب PP-R/PP-RCT" : 
                                " | K-Aqua PP-R/PP-RCT piping systems";
-              if (finalTitle.length + extended.length <= 65) {
+              if (finalTitle.length + extended.length <= 55) {
                   suffix = extended;
               }
           }
@@ -128,15 +128,25 @@ export function constructMetadata({
               const context = locale === 'de' ? " | PP-R/PP-RCT Rohrsysteme" : 
                               locale === 'ar' ? " | أنظمة أنابيب PP-R/PP-RCT" : 
                               " | PP-R/PP-RCT piping systems";
-              if (finalTitle.length + context.length <= 65) {
+              if (finalTitle.length + context.length <= 55) {
                   suffix = context;
               }
           }
       }
 
-      // 4. Append suffix only if it fits the 65 char strict limit
-      if (suffix && finalTitle.length + suffix.length <= 65) {
+      // 4. Append suffix only if it fits the 55 char strict limit
+      if (suffix && finalTitle.length + suffix.length <= 55) {
           finalTitle += suffix;
+      }
+      
+      // 5. If it's STILL too short (< 30 chars), add generic padding to avoid "zu kurz" penalty
+      if (finalTitle.length < 30) {
+          const extraPad = locale === 'de' ? " – Premium Rohre & Fittings" : 
+                           locale === 'ar' ? " – أنابيب وتجهيزات متميزة" : 
+                           " – Premium Pipes & Fittings";
+          if (finalTitle.length + extraPad.length <= 55) {
+              finalTitle += extraPad;
+          }
       }
   }
 

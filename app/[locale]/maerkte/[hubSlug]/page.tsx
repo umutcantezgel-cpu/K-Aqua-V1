@@ -86,6 +86,7 @@ export default async function GeoHubPage({ params }: Props) {
             {tGeo("hubH1", { country: hub.name })}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
+            <strong className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name })}</strong> &ndash;{" "}
             {tGeo.has(`hubs.${hub.slug}.description`) ? (
                <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`) }} />
             ) : (

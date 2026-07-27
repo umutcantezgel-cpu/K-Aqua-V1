@@ -67,7 +67,7 @@ export default async function UnternehmenPage({ params }: Props) {
             </Reveal>
             <Reveal delay={0.12}>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-                {t("lead")}
+                <strong>{t("title1")} {t("titleGrad")}</strong> &ndash; {t("lead")}
               </p>
             </Reveal>
           </div>

@@ -51,7 +51,15 @@ export default async function SitemapPage({ params }: Props) {
           <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1]">
             HTML Sitemap
           </h1>
-          <p className="text-xl text-muted-foreground">Alle Seiten auf einen Blick</p>
+          <p className="text-xl text-muted-foreground">
+            Willkommen auf unserer HTML Sitemap. Hier finden Sie alle Seiten auf einen Blick strukturiert aufgelistet.
+          </p>
+          <p className="text-lg text-muted-foreground mt-2">
+            Nutzen Sie diese HTML Sitemap, um schnell zu den gewünschten Produkten, Märkten oder Unternehmensinformationen zu navigieren.
+          </p>
+          <p className="text-lg text-muted-foreground mt-2">
+            Eine strukturierte HTML Sitemap hilft sowohl unseren Besuchern als auch Suchmaschinen dabei, die Architektur der K-Aqua Website optimal zu erfassen.
+          </p>
         </div>
       </section>
 

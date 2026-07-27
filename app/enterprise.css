@@ -1,7 +1,7 @@
 /* ============================================================
-   K-Aqua — ENTERPRISE.CORE concept layer
+   K-Aqua - ENTERPRISE.CORE concept layer
    A dramatized OLED "control room" register built ON TOP of the real
-   K-Aqua tokens (kaqua-tokens.css / kaqua-components.css) — same brand
+   K-Aqua tokens (kaqua-tokens.css / kaqua-components.css) - same brand
    violet + aqua hue families, pushed harder for glass, glow, and
    telemetry typography. Load AFTER tokens + components. Everything is
    scoped under .ent-page / ent- prefixed classes so the base site
@@ -222,7 +222,7 @@
 .ent-globe .ent-mod-head { position: absolute; top: 28px; inset-inline-start: 30px; inset-inline-end: 30px; z-index: 2; }
 .ent-globe canvas { width: 100% !important; height: 100% !important; object-fit: contain; }
 
-/* K-Aqua — Enterprise section (production, integrated). */
+/* K-Aqua - Enterprise section (production, integrated). */
 
 /* ---------- telemetry ---------- */
 .k-tele-metrics { display: flex; gap: clamp(24px, 4vw, 48px); flex-wrap: wrap; }
