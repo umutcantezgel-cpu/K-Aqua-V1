@@ -1,4 +1,4 @@
-// K-Aqua — TrustDeep: Buying-Center-Rollen, Beschaffungsstatistiken, Prüfinstitute,
+// K-Aqua - TrustDeep: Buying-Center-Rollen, Beschaffungsstatistiken, Prüfinstitute,
 // Audit-Fahrplan, Compliance-FAQ.
 //
 // QUELLE: kaqua-deep-sections-2.jsx (TrustDeep). PORTIERT 1:1 (5 Abschnitte in dieser

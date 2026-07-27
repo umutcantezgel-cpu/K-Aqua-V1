@@ -1,4 +1,4 @@
-// K-Aqua — RefsDeep: Einsatzfelder weltweit (Referenzprogramm nach Gebäudetyp).
+// K-Aqua - RefsDeep: Einsatzfelder weltweit (Referenzprogramm nach Gebäudetyp).
 //
 // QUELLE: kaqua-deep-sections-3.jsx (RefsDeep). PORTIERT 1:1 (1 Abschnitt, 4 Sektoren-Karten).
 // ANGEPASST: usePageL('refsx') -> getTranslations('refsx') (Server Component). BentoCard -> Card.

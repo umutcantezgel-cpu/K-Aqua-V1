@@ -1,10 +1,10 @@
-// K-Aqua — CatalogBrowser: echter Produktkatalog-Browser (71 Artikelfamilien, 7 Kategorien,
+// K-Aqua - CatalogBrowser: echter Produktkatalog-Browser (71 Artikelfamilien, 7 Kategorien,
 // reale Artikelnummern aus dem Alt-System).
 //
 // QUELLE: kaqua-catalog-view.jsx (CatalogDeep) + kaqua-catalog-data.js.
 // PORTIERT 1:1: Kategorie-Tabs mit Live-Zähler, Suche über Titel+Artikelnummer, Akkordeon
 // mit Eigenschaften-Chips + Maßtabelle. `note`-Feld bewusst NUR bei locale==='de' gezeigt
-// (geerbte, noch offene Entscheidung — siehe PROMPT.txt — hier NICHT eigenmächtig
+// (geerbte, noch offene Entscheidung - siehe PROMPT.txt - hier NICHT eigenmächtig
 // geändert).
 // ANGEPASST: usePageL('catalogx')/useT() -> useTranslations('catalogx')/useLocale() (next-intl).
 // Strukturierte Werte (cats) über t.raw(), da next-intl t() nur Strings liefert (siehe

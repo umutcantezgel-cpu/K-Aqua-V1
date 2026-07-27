@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'K-Aqua',
     short_name: 'K-Aqua',
-    description: 'K-Aqua (KWT GmbH) — High-end PP-R & PP-RCT Piping Systems',
+    description: 'K-Aqua (KWT GmbH) - High-end PP-R & PP-RCT Piping Systems',
     start_url: '/',
     display: 'standalone',
     background_color: '#FAFAFA',

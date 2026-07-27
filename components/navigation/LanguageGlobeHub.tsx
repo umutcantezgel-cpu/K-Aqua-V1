@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-literals */
 // components/navigation/LanguageGlobeHub.tsx
-// K-Aqua Language Switch Module — Hauptmodul ("Drop-In").
+// K-Aqua Language Switch Module - Hauptmodul ("Drop-In").
 //
 //   import { LanguageGlobeHub } from '@/components/navigation/LanguageGlobeHub';
 //   <div className="h-dvh"><LanguageGlobeHub /></div>
@@ -144,7 +144,7 @@ export function LanguageGlobeHub({
 
 
 
-      {/* Header Area — buttons + title */}
+      {/* Header Area - buttons + title */}
       <div className="relative z-20 px-4 pt-16 lg:pt-6 lg:px-6">
         {/* Action buttons row */}
         <div className="absolute top-4 right-4 flex items-center justify-end gap-2 lg:top-6 lg:right-6">

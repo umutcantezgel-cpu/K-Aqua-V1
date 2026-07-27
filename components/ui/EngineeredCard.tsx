@@ -3,7 +3,7 @@
 'use client';
 
 /**
- * EngineeredCard — Bento-Karte, die auf Hover technische Daten auslegt.
+ * EngineeredCard - Bento-Karte, die auf Hover technische Daten auslegt.
  *
  * Die Karte spricht bewusst zwei Bewegungsstimmen gleichzeitig:
  *   · Schein und Neigung  GLOW-Feder, läuft dem Cursor sichtbar nach → Wasser.
@@ -19,11 +19,11 @@
  *
  * Performance-Entscheidungen:
  *   · Beschreibung und Datenliste teilen eine reservierte Fläche. Die
- *     Kartenhöhe ändert sich beim Hover nicht — kein Layout-Thrashing.
+ *     Kartenhöhe ändert sich beim Hover nicht - kein Layout-Thrashing.
  *   · Der Schein ist ein fixgrosser, vorgerenderter Radial-Layer, der nur
  *     per transform verschoben wird (kein Neuzeichnen eines Gradients).
  *   · Die Koordinatenanzeige wird über eine Ref direkt geschrieben, nicht
- *     über State — kein Re-Render pro Mausbewegung.
+ *     über State - kein Re-Render pro Mausbewegung.
  *
  * Verwendung:
  *   <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -134,7 +134,7 @@ export default function EngineeredCard({
         'transition-shadow duration-250 outline-none'
       ].join(' ')}
     >
-      {/* Schein — vorgerendert, nur per transform bewegt */}
+      {/* Schein - vorgerendert, nur per transform bewegt */}
       <motion.span aria-hidden
         className="pointer-events-none absolute left-0 top-0 z-0 rounded-full"
         style={{
@@ -151,7 +151,7 @@ export default function EngineeredCard({
         }}
         animate={{ opacity: hot ? 0.5 : 0 }} transition={{ duration: 0.52 }} />
 
-      {/* Messkreuz — ungefedert, gerastert */}
+      {/* Messkreuz - ungefedert, gerastert */}
       <motion.span aria-hidden className="pointer-events-none absolute inset-y-0 left-0 z-[1] w-px bg-accent-strong/65"
         style={{ x: cx }} animate={{ opacity: hot ? 1 : 0 }} transition={{ duration: 0.18 }} />
       <motion.span aria-hidden className="pointer-events-none absolute inset-x-0 top-0 z-[1] h-px bg-accent-strong/65"
@@ -209,7 +209,7 @@ export default function EngineeredCard({
         X 000 · Y 000
       </motion.span>
 
-      {href && <Link href={href} className="absolute inset-0 z-[4]" aria-label={`${title} — ${cta}`} />}
+      {href && <Link href={href} className="absolute inset-0 z-[4]" aria-label={`${title} - ${cta}`} />}
     </motion.article>
   );
 }

@@ -1,4 +1,4 @@
-// K-Aqua — NewsDeep: "Mehr aus dem Hause K-Aqua"
+// K-Aqua - NewsDeep: "Mehr aus dem Hause K-Aqua"
 // Linkt auf die 50 eigenständigen News-Detailseiten (aktuell die ersten 4).
 "use client";
 import React from "react";

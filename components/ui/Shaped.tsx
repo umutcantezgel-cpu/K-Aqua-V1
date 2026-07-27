@@ -1,4 +1,4 @@
-// K-Aqua — Shaped: Medien-Container mit dynamischer Rundung (Formen-Bibliothek shapes.css).
+// K-Aqua - Shaped: Medien-Container mit dynamischer Rundung (Formen-Bibliothek shapes.css).
 //
 // NEU erstellt für Segment 28; Klassennamen identisch mit dem Prototyp (kaqua-shapes.css),
 // dadurch bleiben Prototyp und Live-Website deckungsgleich.
@@ -6,7 +6,7 @@
 //   <Shaped variant="sweep-r" bleed="l" zoom>
 //     <Image src={foto} alt="…" fill />
 //   </Shaped>
-// Der innere Container ist position:relative — <Image fill> funktioniert direkt.
+// Der innere Container ist position:relative - <Image fill> funktioniert direkt.
 // Für Arabisch (RTL) die gespiegelte Variante wählen (z. B. sweep-l statt sweep-r).
 // Reine Anzeige -> KEIN "use client".
 import React from "react";
@@ -33,7 +33,7 @@ export type ShapeVariant =
 
 export interface ShapedProps {
   variant: ShapeVariant;
-  /** Zieht die Form an den Seitenrand — der Original-Look der Signaturform. */
+  /** Zieht die Form an den Seitenrand - der Original-Look der Signaturform. */
   bleed?: "l" | "r";
   /** Versetzte Konturlinie in currentColor (mit Radius-Formen kombinieren). */
   echo?: boolean;

@@ -266,7 +266,7 @@ test.describe('Step 15: Karriere & Projektanfrage (Käufer-Strecke)', () => {
       const subject = urlObj.searchParams.get('subject');
       const body = urlObj.searchParams.get('body');
 
-      expect(subject).toBe('Projektanfrage K-Aqua — Musterbau GmbH');
+      expect(subject).toBe('Projektanfrage K-Aqua - Musterbau GmbH');
       
       expect(body).toContain('Projektart: Neubau / Hochbau');
       expect(body).toContain('Benötigte Dimensionen: d20 – d63, d75 – d160 . ~2.500 m');

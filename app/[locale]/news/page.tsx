@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const CERT_DE_URL = "/pdf/kwt-iso-zertifikat-de.pdf";
 const CERT_EN_URL = "/pdf/kwt-iso-certificates-en.pdf";
-const DASH = " — ";
+const DASH = " | ";
 
 export default async function NewsPage({ params }: Props) {
   const { locale } = await params;

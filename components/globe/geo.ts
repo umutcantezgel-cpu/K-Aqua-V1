@@ -1,12 +1,12 @@
 // components/globe/geo.ts
-// K-Aqua Language Switch Module — Geo-Kern (ohne React/Three-Abhängigkeit).
+// K-Aqua Language Switch Module - Geo-Kern (ohne React/Three-Abhängigkeit).
 // 1) loadWorld(): lädt TopoJSON (public/data/countries-110m.json), ordnet
 //    Länder den Sprachen zu, baut Bounds für schnellen Hit-Test.
 // 2) pickLanguageAt(): lat/lon → Sprachindex (Bounds-Prefilter + geoContains).
 // 3) latLonToVec3(): Kugelkoordinaten → three.js-Position (UV-Layout von
 //    SphereGeometry, Textur-u=0 bei lon −180).
 // 4) MapPainter: malt die äquirektangulare Karten-Textur (2048×1024) im
-//    "physischen Atlas"-Look — Pergament-Landmassen mit deterministischem
+//    "physischen Atlas"-Look - Pergament-Landmassen mit deterministischem
 //    Farb-Jitter, Papierkorn, Gradnetz, Sprach-Tönungen mit Heat-Werten,
 //    Glow-Kontur der aktiven Region, Anker-Marker. Statische Ebenen werden
 //    als Path2D/Offscreen-Canvas gecacht → Repaints kosten wenige ms.

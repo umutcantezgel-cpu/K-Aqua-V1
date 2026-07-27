@@ -1,8 +1,8 @@
 // components/navigation/lang-ui.tsx
-// K-Aqua Language Switch Module — geteilte UI-Bausteine & Klassen-Presets.
+// K-Aqua Language Switch Module - geteilte UI-Bausteine & Klassen-Presets.
 //
 // Dynamische Werte (65 Sprach-Leitfarben, 60fps-Panel-Position) laufen über
-// CSS-Custom-Properties bzw. imperative Transforms auf Refs — die von
+// CSS-Custom-Properties bzw. imperative Transforms auf Refs - die von
 // Tailwind dokumentierte Methode für Laufzeitwerte. Alle sichtbaren Styles
 // bleiben Utility-Klassen (z. B. `bg-(--lc)`).
 'use client';

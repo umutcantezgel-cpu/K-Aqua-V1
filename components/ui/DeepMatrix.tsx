@@ -1,10 +1,10 @@
-// K-Aqua — DeepMatrix: generische Vergleichs-/Datenmatrix-Tabelle.
+// K-Aqua - DeepMatrix: generische Vergleichs-/Datenmatrix-Tabelle.
 //
 // QUELLE: kaqua-deep-ui.jsx (DeepMatrix). PORTIERT 1:1 (Struktur: erste Spalte als <th>,
 // optionale hervorgehobene Spalte via heroCol, optionale Fußnote).
 // ANGEPASST: CSS-Klassen (k-matrix*) -> Tailwind-Utilities auf bestehende Tokens
 // (bg-card, border-card-border, text-foreground, text-muted-foreground, bg-primary-soft,
-// text-primary — siehe docs/TOKENS.md im Zielrepo). Keine neue Stylesheet-Datei nötig.
+// text-primary - siehe docs/TOKENS.md im Zielrepo). Keine neue Stylesheet-Datei nötig.
 // Reine Anzeige-Komponente, kein State -> KEIN "use client", Server-Component-fähig.
 import React from "react";
 import clsx from "clsx";

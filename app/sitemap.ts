@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { GEO_MARKETS, GEO_HUBS } from '@/lib/data/geo';
 import { getAllProducts } from '@/lib/products';
-// CATALOG import removed — catalog pages excluded from sitemap (noindex)
+// CATALOG import removed - catalog pages excluded from sitemap (noindex)
 import { newsRegistry } from '@/content/news';
 import { getBaseUrl } from "@/lib/env";
 
@@ -79,28 +79,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'k-fiber-pipe-pp-r-sdr-74',
     'k-fiber-pipe-pp-r-sdr-9',
     'k-fiber-pipe-pp-r-sdr-17',
-    'k-fiber-uv-pipe-pp-r-sdr-74',
     'k-fiber-pipe-pp-rct-sdr-74',
+    'k-fiber-uv-pipe-pp-r-sdr-74',
     'k-fiber-uv-pipe-pp-rct-sdr-74',
+    'k-fiberclima-pipe-pp-rct-sdr-11',
     'k-pipe-pp-r-sdr-6',
-    'k-pipe-pp-r-sdr-74',
-    'reducing-tee-female-thread',
-    'elbow-90-with-female-thread',
-    'elbow-90-female-male-female-thread',
-    'metal-union-male-thread-chrome',
-    'metal-union-male-thread-brass-chrome',
+    'k-pipe-pp-rct-sdr-74',
+    'k-pipe-purple-pp-r-sdr-11',
+    'reducing-tee-large-sizes',
+    'elbow-45',
+    'elbow-45-femalemale',
+    'metal-union-female-thread',
+    'metal-union-female-thread-yellow-brass',
     'flat-gasket-for-unions-pp-r',
     'adjustable-battery-female-thread',
     'concealed-valve-chrome-heavy-part',
-    'hand-welding-machine-20-63',
-    'hand-welding-machine-mirror-50-125'
+    'hand-welding-machine-2063-complete-set',
+    'hand-welding-machine-mirror-50125',
+    'pipe-cutter-2040',
+    'pipe-cutter-50125-1'
   ]);
   for (const product of getAllProducts()) {
     if (variantSlugs.has(product.slug)) continue;
     pushRoute(`produkte/${product.category}/${product.slug}`, 'yearly', 0.6);
   }
 
-  // 4. Catalog detail routes — excluded from sitemap (noindex pages to prevent keyword cannibalization)
+  // 4. Catalog detail routes - excluded from sitemap (noindex pages to prevent keyword cannibalization)
 
   // 5. News articles
   for (const slug of Object.keys(newsRegistry)) {

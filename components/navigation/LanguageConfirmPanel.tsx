@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-literals */
 // components/navigation/LanguageConfirmPanel.tsx
-// K-Aqua Language Switch Module — schwebendes Glassmorphism-Bestätigungspanel.
+// K-Aqua Language Switch Module - schwebendes Glassmorphism-Bestätigungspanel.
 // Folgt dem Regions-Anker räumlich (rAF liest anchorRef, positioniert das
-// Wrapper-Element imperativ — 60fps ohne React-Re-Render). Framer Motion
+// Wrapper-Element imperativ - 60fps ohne React-Re-Render). Framer Motion
 // animiert nur das innere Panel (Entrance/Exit), damit sich die Transforms
 // nicht in die Quere kommen. Dreht die Region auf die Rückseite, dimmt das
 // Panel und wird click-transparent.

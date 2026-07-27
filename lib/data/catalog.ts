@@ -260,7 +260,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 5",
         pressure: "20°C / 1.2 MPa · 60°C / 0.6 MPa",
         len: "4 m",
-        note: "Violett eingefärbt — z. B. für Betriebswasser-/Bewässerungssysteme zur eindeutigen Kennzeichnung.",
+        note: "Violett eingefärbt, z. B. für Betriebswasser-/Bewässerungssysteme zur eindeutigen Kennzeichnung.",
         head: [
           "d (mm)",
           "s (mm)",
@@ -272,10 +272,10 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—",
+            "-",
             162,
-            "—",
-            "—",
+            "-",
+            "-",
             100
           ],
           [
@@ -524,7 +524,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             75,
             9.2,
-            "—",
+            "-",
             1.77,
             12
           ]
@@ -855,7 +855,7 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             32,
-            "—",
+            "-",
             0.03,
             160
           ],
@@ -873,7 +873,7 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             63,
-            "—",
+            "-",
             0.15,
             45
           ],
@@ -900,56 +900,56 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.02,
             300
           ],
           [
             25,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.02,
             200
           ],
           [
             32,
             44,
-            "—",
-            "—",
+            "-",
+            "-",
             0.05,
             100
           ],
           [
             40,
             52,
-            "—",
-            "—",
+            "-",
+            "-",
             0.06,
             70
           ],
           [
             50,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.1,
             48
           ],
           [
             63,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.21,
             24
           ],
           [
             75,
             99,
-            "—",
+            "-",
             50,
             0.32,
             12
@@ -972,16 +972,16 @@ export const CATALOG: CatalogCategory[] = [
           [
             20,
             "1/2\"",
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             300
           ],
           [
             25,
             "3/4\"",
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             200
           ]
@@ -1004,55 +1004,55 @@ export const CATALOG: CatalogCategory[] = [
             20,
             29,
             27,
-            "—",
+            "-",
             0.02,
             300
           ],
           [
             25,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.02,
             180
           ],
           [
             32,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.05,
             100
           ],
           [
             40,
             52,
-            "—",
-            "—",
+            "-",
+            "-",
             0.07,
             60
           ],
           [
             50,
             65,
-            "—",
-            "—",
+            "-",
+            "-",
             0.11,
             36
           ],
           [
             63,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.27,
-            "—"
+            "-"
           ],
           [
             75,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             0.44,
             10
           ]
@@ -1074,16 +1074,16 @@ export const CATALOG: CatalogCategory[] = [
           [
             20,
             "1/2\"",
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             300
           ],
           [
             25,
             "3/4\"",
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             180
           ]
@@ -1100,7 +1100,7 @@ export const CATALOG: CatalogCategory[] = [
           "#weight",
           "#pack"
         ],
-        note: "Elektroschweißmuffe — Fügung über elektrische Beheizung ohne Schweißeisen.",
+        note: "Elektroschweißmuffe: Fügung über elektrische Beheizung ohne Schweißeisen.",
         rows: [
           [
             20,
@@ -1120,7 +1120,7 @@ export const CATALOG: CatalogCategory[] = [
             32,
             45,
             65,
-            "—",
+            "-",
             47
           ],
           [
@@ -1133,7 +1133,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             50,
             61,
-            "—",
+            "-",
             0.15,
             20
           ],
@@ -1141,13 +1141,13 @@ export const CATALOG: CatalogCategory[] = [
             63,
             72,
             56,
-            "—",
+            "-",
             20
           ],
           [
             75,
             56,
-            "—",
+            "-",
             0.54,
             10
           ]
@@ -1165,7 +1165,7 @@ export const CATALOG: CatalogCategory[] = [
           "#weight",
           "#pack"
         ],
-        note: "Übergang auf Flanschverbindung — für Armaturen, Pumpen, Wasserzähler.",
+        note: "Übergang auf Flanschverbindung, für Armaturen, Pumpen, Wasserzähler.",
         rows: [
           [
             40,
@@ -1188,7 +1188,7 @@ export const CATALOG: CatalogCategory[] = [
             65,
             40,
             95,
-            "—",
+            "-",
             4
           ],
           [
@@ -1196,15 +1196,15 @@ export const CATALOG: CatalogCategory[] = [
             80,
             57,
             75,
-            "—",
+            "-",
             4
           ],
           [
             90,
             90,
             65,
-            "—",
-            "—",
+            "-",
+            "-",
             2
           ],
           [
@@ -1212,7 +1212,7 @@ export const CATALOG: CatalogCategory[] = [
             100,
             57,
             58,
-            "—",
+            "-",
             2
           ],
           [
@@ -1220,7 +1220,7 @@ export const CATALOG: CatalogCategory[] = [
             125,
             56,
             22,
-            "—",
+            "-",
             1
           ]
         ]
@@ -1241,24 +1241,24 @@ export const CATALOG: CatalogCategory[] = [
           [
             25,
             20,
-            "—",
-            "—",
+            "-",
+            "-",
             0.01,
             400
           ],
           [
             32,
             20,
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             325
           ],
           [
             32,
             25,
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             325
           ],
@@ -1313,7 +1313,7 @@ export const CATALOG: CatalogCategory[] = [
             25,
             20,
             25,
-            "—",
+            "-",
             0.03,
             50
           ],
@@ -1321,7 +1321,7 @@ export const CATALOG: CatalogCategory[] = [
             32,
             20,
             32,
-            "—",
+            "-",
             0.06,
             80
           ],
@@ -1329,7 +1329,7 @@ export const CATALOG: CatalogCategory[] = [
             32,
             25,
             32,
-            "—",
+            "-",
             0.06,
             80
           ],
@@ -1337,7 +1337,7 @@ export const CATALOG: CatalogCategory[] = [
             40,
             20,
             40,
-            "—",
+            "-",
             0.08,
             48
           ],
@@ -1345,7 +1345,7 @@ export const CATALOG: CatalogCategory[] = [
             40,
             25,
             40,
-            "—",
+            "-",
             0.09,
             48
           ],
@@ -1353,7 +1353,7 @@ export const CATALOG: CatalogCategory[] = [
             40,
             32,
             40,
-            "—",
+            "-",
             0.09,
             48
           ],
@@ -1361,7 +1361,7 @@ export const CATALOG: CatalogCategory[] = [
             50,
             20,
             50,
-            "—",
+            "-",
             0.16,
             36
           ]
@@ -1426,16 +1426,16 @@ export const CATALOG: CatalogCategory[] = [
             25,
             75,
             100,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             75,
             32,
             75,
             100,
-            "—",
-            "—"
+            "-",
+            "-"
           ]
         ]
       },
@@ -1453,52 +1453,52 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—",
-            "—",
+            "-",
+            "-",
             0.02,
             200
           ],
           [
             25,
-            "—",
-            "—",
+            "-",
+            "-",
             0.04,
             100
           ],
           [
             32,
-            "—",
-            "—",
+            "-",
+            "-",
             0.06,
             60
           ],
           [
             40,
             65,
-            "—",
+            "-",
             0.09,
             36
           ],
           [
             50,
-            "—",
-            "—",
+            "-",
+            "-",
             0.17,
             22
           ],
           [
             63,
-            "—",
-            "—",
-            "—",
-            "—"
+            "-",
+            "-",
+            "-",
+            "-"
           ],
           [
             75,
-            "—",
-            "—",
-            "—",
-            "—"
+            "-",
+            "-",
+            "-",
+            "-"
           ]
         ]
       },
@@ -1517,7 +1517,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             25,
             60,
-            "—",
+            "-",
             0.06,
             80
           ],
@@ -1545,23 +1545,23 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             90
           ],
           [
             25,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             90
           ],
           [
             32,
-            "—",
-            "—",
-            "—",
+            "-",
+            "-",
+            "-",
             65
           ]
         ]
@@ -1590,7 +1590,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             25,
             42,
-            "—",
+            "-",
             37,
             0.09,
             70
@@ -1671,17 +1671,17 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             125,
-            "—",
+            "-",
             4
           ],
           [
             160,
-            "—",
+            "-",
             2
           ],
           [
             315,
-            "—",
+            "-",
             1
           ]
         ]
@@ -1743,12 +1743,12 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             125,
-            "—",
+            "-",
             4
           ],
           [
             160,
-            "—",
+            "-",
             2
           ]
         ]
@@ -1842,7 +1842,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "metal-union-male-thread-yellow-brass",
-        title: "Metal Union — Male Thread (Yellow Brass)",
+        title: "Metal Union - Male Thread (Yellow Brass)",
         codes: "AQ70R20–AQ70R50",
         head: [
           "d (mm)",
@@ -1874,7 +1874,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "metal-union-female-thread-yellow-brass",
-        title: "Metal Union — Female Thread (Yellow Brass)",
+        title: "Metal Union - Female Thread (Yellow Brass)",
         codes: "AQ70RP20–AQ70RP50",
         head: [
           "d (mm)",
@@ -1906,7 +1906,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "metal-union-male-thread",
-        title: "Metal Union — Male Thread",
+        title: "Metal Union - Male Thread",
         codes: "AQ71R20–AQ71R50",
         head: [
           "d (mm)",
@@ -1937,7 +1937,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "metal-union-female-thread",
-        title: "Metal Union — Female Thread",
+        title: "Metal Union - Female Thread",
         codes: "AQ71RP20–AQ71RP50",
         head: [
           "d (mm)",
@@ -2033,7 +2033,7 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—",
+            "-",
             114
           ],
           [
@@ -2048,7 +2048,7 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             40,
-            "—",
+            "-",
             26
           ],
           [
@@ -2075,15 +2075,15 @@ export const CATALOG: CatalogCategory[] = [
         rows: [
           [
             20,
-            "—"
+            "-"
           ],
           [
             25,
-            "—"
+            "-"
           ],
           [
             32,
-            "—"
+            "-"
           ]
         ]
       }
@@ -2109,7 +2109,7 @@ export const CATALOG: CatalogCategory[] = [
             20,
             90,
             63,
-            "—"
+            "-"
           ],
           [
             25,
@@ -2121,7 +2121,7 @@ export const CATALOG: CatalogCategory[] = [
             32,
             104,
             82,
-            "—"
+            "-"
           ],
           [
             40,
@@ -2133,7 +2133,7 @@ export const CATALOG: CatalogCategory[] = [
             50,
             106,
             98,
-            "—"
+            "-"
           ],
           [
             63,
@@ -2159,49 +2159,49 @@ export const CATALOG: CatalogCategory[] = [
             20,
             67.5,
             64.5,
-            "—"
+            "-"
           ],
           [
             25,
             75,
             63,
-            "—"
+            "-"
           ],
           [
             32,
             90,
             46,
-            "—"
+            "-"
           ],
           [
             40,
             108,
             100,
-            "—"
+            "-"
           ],
           [
             50,
             106,
             120,
-            "—"
+            "-"
           ],
           [
             63,
             127,
             120,
-            "—"
+            "-"
           ],
           [
             75,
-            "—",
-            "—",
-            "—"
+            "-",
+            "-",
+            "-"
           ],
           [
             90,
             175,
             155,
-            "—"
+            "-"
           ]
         ]
       },
@@ -2250,7 +2250,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "concealed-valve-chrome-light-part",
-        title: "Concealed Valve Chrome — Light Part",
+        title: "Concealed Valve Chrome - Light Part",
         codes: "AQ62992",
         head: [
           "#dim",
@@ -2268,7 +2268,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "concealed-valve-chrome-heavy-part",
-        title: "Concealed Valve Chrome — Heavy Part",
+        title: "Concealed Valve Chrome - Heavy Part",
         codes: "AQ62993",
         head: [
           "#dim",
@@ -2286,7 +2286,7 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "straight-seat-valve-upper-part-green-handle",
-        title: "Straight Seat Valve — Upper Part, Green Handle",
+        title: "Straight Seat Valve - Upper Part, Green Handle",
         codes: "AQ62591",
         head: [
           "#dim",
@@ -2382,36 +2382,36 @@ export const CATALOG: CatalogCategory[] = [
           "#weight",
           "#pack"
         ],
-        note: "Ohne Gewinde — PP-R-Abzweig, direkt an die Hauptleitung geschweißt.",
+        note: "Ohne Gewinde: PP-R-Abzweig, direkt an die Hauptleitung geschweißt.",
         rows: [
           [
             "40–63",
             20,
-            "—",
+            "-",
             150
           ],
           [
             "40–63",
             25,
-            "—",
+            "-",
             90
           ],
           [
             "40–63",
             32,
-            "—",
+            "-",
             90
           ],
           [
             "75–125",
             32,
-            "—",
+            "-",
             60
           ],
           [
             "75–125",
-            "—",
-            "—",
+            "-",
+            "-",
             60
           ],
           [
@@ -2423,13 +2423,13 @@ export const CATALOG: CatalogCategory[] = [
           [
             "160–250",
             25,
-            "—",
+            "-",
             40
           ],
           [
             "160–250",
             32,
-            "—",
+            "-",
             40
           ]
         ]
@@ -2448,7 +2448,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             "40–63",
             "1\"",
-            "—",
+            "-",
             150
           ],
           [
@@ -2460,7 +2460,7 @@ export const CATALOG: CatalogCategory[] = [
           [
             "75–125",
             "1\"",
-            "—",
+            "-",
             90
           ],
           [
@@ -2492,7 +2492,7 @@ export const CATALOG: CatalogCategory[] = [
             "75–125",
             "1\"",
             8.8,
-            "—"
+            "-"
           ]
         ]
       }
@@ -2511,21 +2511,21 @@ export const CATALOG: CatalogCategory[] = [
           "#weight",
           "#pack"
         ],
-        note: "Mit Gummieinlage — für Rohrhalterung und -befestigung.",
+        note: "Mit Gummieinlage, für Rohrhalterung und -befestigung.",
         rows: [
           [
             20,
-            "—",
+            "-",
             100
           ],
           [
             25,
-            "—",
+            "-",
             75
           ],
           [
             32,
-            "—",
+            "-",
             60
           ],
           [
@@ -2535,42 +2535,42 @@ export const CATALOG: CatalogCategory[] = [
           ],
           [
             50,
-            "—",
+            "-",
             40
           ],
           [
             63,
-            "—",
+            "-",
             25
           ],
           [
             75,
-            "—",
+            "-",
             20
           ],
           [
             90,
-            "—",
+            "-",
             10
           ],
           [
             110,
-            "—",
+            "-",
             10
           ],
           [
             125,
-            "—",
+            "-",
             10
           ],
           [
             160,
-            "—",
+            "-",
             5
           ],
           [
             200,
-            "—",
+            "-",
             5
           ]
         ]
@@ -2602,56 +2602,56 @@ export const CATALOG: CatalogCategory[] = [
           [
             63,
             65,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             75,
             80,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             90,
             90,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             110,
             100,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             125,
             125,
             2.24,
-            "—"
+            "-"
           ],
           [
             160,
             150,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             200,
             200,
-            "—",
-            "—"
+            "-",
+            "-"
           ],
           [
             250,
             250,
             4.55,
-            "—"
+            "-"
           ],
           [
             315,
             300,
-            "—",
-            "—"
+            "-",
+            "-"
           ]
         ]
       },
@@ -2751,7 +2751,7 @@ export const CATALOG: CatalogCategory[] = [
           "Rp",
           "#pack"
         ],
-        note: "Gewindestopfen zum Verschließen offener Enden — weitere Größen auf Anfrage.",
+        note: "Gewindestopfen zum Verschließen offener Enden. Weitere Größen auf Anfrage.",
         rows: [
           [
             "½\"",
@@ -2944,7 +2944,7 @@ export const CATALOG: CatalogCategory[] = [
         head: [
           "#pack"
         ],
-        note: "Steuergerät für Elektroschweißfittings — mit Barcode-Scanner.",
+        note: "Steuergerät für Elektroschweißfittings, mit Barcode-Scanner.",
         rows: [
           [
             1

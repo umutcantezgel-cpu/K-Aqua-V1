@@ -1,8 +1,8 @@
-// K-Aqua — FinderDeep: Lesehilfe + Workflow-Erklärung für den Produktfinder.
+// K-Aqua - FinderDeep: Lesehilfe + Workflow-Erklärung für den Produktfinder.
 //
 // QUELLE: kaqua-deep-sections-1.jsx (FinderDeep). PORTIERT 1:1 (Glossar-Grid + Step-Flow).
 // ANGEPASST: usePageL('finderx') -> getTranslations('finderx') (next-intl, Server Component
-// — kein eigener State im Original). t.raw() für help[]/flow[] (strukturiert).
+// - kein eigener State im Original). t.raw() für help[]/flow[] (strukturiert).
 // Reine Server Component -> KEIN "use client".
 import React from "react";
 import { getTranslations } from "next-intl/server";

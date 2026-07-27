@@ -1,10 +1,10 @@
-// K-Aqua Deep-Content — sprachneutrale Rechendatenbasis.
+// K-Aqua Deep-Content - sprachneutrale Rechendatenbasis.
 //
 // QUELLE: kaqua-deep-data.js (Design-Projekt "K-Aqua", Stand 2026-07-04).
-// PORTIERT: 1:1 — Formeln, Konstanten (DIMS/SDRS/PN) und die DVS-2207-11-Richtwerttabelle
+// PORTIERT: 1:1 - Formeln, Konstanten (DIMS/SDRS/PN) und die DVS-2207-11-Richtwerttabelle
 //           (WELD) unverändert übernommen.
 // ANGEPASST: JS-IIFE (window.K_DEEP) -> typisiertes TS-Modul, gleiche Funktionsnamen.
-// WICHTIG (aus dem Quellkommentar übernommen — nicht abschwächen): Rechenwerte aus der
+// WICHTIG (aus dem Quellkommentar übernommen - nicht abschwächen): Rechenwerte aus der
 //           SDR-Geometrie (SDR = d/s, DIN-8077-Reihen) und Richtwerte nach DVS 2207-11.
 //           Verbindlich bleiben Katalog (siehe catalog.ts) & Gerätehersteller-Anleitung.
 

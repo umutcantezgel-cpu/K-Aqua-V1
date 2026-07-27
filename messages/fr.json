@@ -2,10 +2,10 @@
   "catalogx": {
     "eyebrow": "Catalogue Complet des Produits",
     "faqTitle": "Foire aux questions",
-    "title": "Toutes les 79 familles d'articles — avec les vraies références.",
-    "lead": "Tubes, raccords, pièces de transition, vannes, selles à souder, accessoires et outillage — chaque ligne est issue de notre catalogue officiel K-Aqua. Choisissez une catégorie, explorez les articles et vérifiez les références en un clin d'œil.",
-    "searchPlaceholder": "Recherchez une référence ou un nom de produit — par ex. « AQ200P20 » ou « Coude »",
-    "noResults": "Aucun résultat trouvé — ajustez votre recherche ou choisissez une autre catégorie.",
+    "title": "Toutes les 79 familles d'articles : avec les vraies références.",
+    "lead": "Tubes, raccords, pièces de transition, vannes, selles à souder, accessoires et outillage : chaque ligne est issue de notre catalogue officiel K-Aqua. Choisissez une catégorie, explorez les articles et vérifiez les références en un clin d'œil.",
+    "searchPlaceholder": "Recherchez une référence ou un nom de produit : par ex. « AQ200P20 » ou « Coude »",
+    "noResults": "Aucun résultat trouvé : ajustez votre recherche ou choisissez une autre catégorie.",
     "codesLabel": "Références",
     "sizesLabel": "Dimensions",
     "materialLabel": "Matériau",
@@ -16,7 +16,7 @@
     "cats": {
       "pipes": {
         "label": "Tubes",
-        "desc": "Tubes en PP-R et PP-RCT — standard, renforcés en fibre de verre et stabilisés aux UV, déclinés en 12 séries pour répondre à toutes vos exigences."
+        "desc": "Tubes en PP-R et PP-RCT : standard, renforcés en fibre de verre et stabilisés aux UV, déclinés en 12 séries pour répondre à toutes vos exigences."
       },
       "fittings": {
         "label": "Raccords",
@@ -24,19 +24,19 @@
       },
       "transitionFittings": {
         "label": "Raccords de transition",
-        "desc": "Transitions vers filetage métallique (laiton) — l'idéal pour vos raccordements existants et la pose de vannes. 13 familles à découvrir."
+        "desc": "Transitions vers filetage métallique (laiton) : l'idéal pour vos raccordements existants et la pose de vannes. 13 familles à découvrir."
       },
       "valves": {
         "label": "Vannes & Robinetterie",
-        "desc": "Vannes à bille, robinets à encastrer et distributeurs — 9 familles d'articles conçues pour durer."
+        "desc": "Vannes à bille, robinets à encastrer et distributeurs : 9 familles d'articles conçues pour durer."
       },
       "weldInSaddles": {
         "label": "Selles à souder",
-        "desc": "La solution intelligente pour créer des dérivations sans couper le tube — avec ou sans filetage, 3 familles."
+        "desc": "La solution intelligente pour créer des dérivations sans couper le tube : avec ou sans filetage, 3 familles."
       },
       "accessories": {
         "label": "Accessoires",
-        "desc": "Colliers de fixation, brides, joints et bouchons — tout ce qu'il vous faut dans 5 familles dédiées."
+        "desc": "Colliers de fixation, brides, joints et bouchons : tout ce qu'il vous faut dans 5 familles dédiées."
       },
       "tools": {
         "label": "Outillage",
@@ -918,7 +918,7 @@
           },
           {
             "q": "Faut-il remplacer toute la vanne en cas de fuite ?",
-            "a": "Non, il suffit de couper l'eau et de remplacer cette partie supérieure en laiton – le corps principal en PP-R reste dans le mur."
+            "a": "Non, il suffit de couper l'eau et de remplacer cette partie supérieure en laiton, le corps principal en PP-R reste dans le mur."
           },
           {
             "q": "À quelle fréquence la partie supérieure doit-elle être graissée ?",
@@ -1313,7 +1313,7 @@
         "faq": [
           {
             "q": "Comment la machine lit-elle les paramètres de soudage ?",
-            "a": "Chaque manchon électrosoudable possède un code-barres que l'utilisateur lit avec le scanner connecté – la machine se règle de manière entièrement automatique."
+            "a": "Chaque manchon électrosoudable possède un code-barres que l'utilisateur lit avec le scanner connecté, la machine se règle de manière entièrement automatique."
           },
           {
             "q": "La machine compense-t-elle les variations de température sur le chantier ?",
@@ -1552,11 +1552,11 @@
     "chip": "production certifiée depuis octobre 2025",
     "h1a": "L'excellence pour votre",
     "h1b": "réseau d'eau",
-    "globeAria": "Globe interactif — glissez pour tourner",
+    "globeAria": "Globe interactif : glissez pour tourner",
     "scrolly": [
       {
         "t": "Fabriqué en Allemagne",
-        "d": "De la conception à l'extrusion, tout est réalisé sur notre site de Waldsolms — chaque tube, chaque raccord."
+        "d": "De la conception à l'extrusion, tout est réalisé sur notre site de Waldsolms : chaque tube, chaque raccord."
       },
       {
         "t": "Du d20 au d630",
@@ -1564,14 +1564,14 @@
       },
       {
         "t": "Triple certification",
-        "d": "ISO 9001, 14001 et 50001 — La garantie d'un management intégrant Qualité, Environnement et Énergie."
+        "d": "ISO 9001, 14001 et 50001 : La garantie d'un management intégrant Qualité, Environnement et Énergie."
       },
       {
         "t": "Présent sur 27 marchés",
         "d": "De Francfort à NEOM : nos produits sont rigoureusement testés pour résister aux normes et profils d'eau locaux."
       }
     ],
-    "lead": "K-Aqua conçoit et fabrique des systèmes de tuyauterie PP-R/PP-RCT pour l'eau potable — du 20 au 630 mm, en partenariat exclusif avec le fabricant premium KESSEL.",
+    "lead": "K-Aqua conçoit et fabrique des systèmes de tuyauterie PP-R/PP-RCT pour l'eau potable : du 20 au 630 mm, en partenariat exclusif avec le fabricant premium KESSEL.",
     "ctaProducts": "Découvrir la gamme",
     "ctaContact": "Nous contacter",
     "toolsEyebrow": "Outils interactifs",
@@ -1579,7 +1579,7 @@
     "toolsTitle2": "Plus d'action.",
     "toolsLead": "Notre site travaille pour vous : filtrez, calculez, formez-vous en un clic.",
     "bandTitle": "Prêt à passer à la nouvelle génération de tuyauterie ?",
-    "bandLead": "Échangez avec nos ingénieurs commerciaux sur votre projet — de la phase de conception jusqu'à l'assistance soudage sur chantier.",
+    "bandLead": "Échangez avec nos ingénieurs commerciaux sur votre projet : de la phase de conception jusqu'à l'assistance soudage sur chantier.",
     "bandBtn": "Contacter l'équipe",
     "bandBtn2": "Téléchargements & Services"
   },
@@ -1588,10 +1588,10 @@
     "eyebrow": "Marchés & Implantations",
     "title1": "Le monde comme",
     "title2": "terrain de jeu.",
-    "lead": "{n} marchés dans {c} pays — chacun disposant de sa propre page : normes locales, qualité de l'eau, applications typiques et logistique. Faites pivoter le globe et laissez la liste vous guider vers la ville de votre choix.",
+    "lead": "{n} marchés dans {c} pays : chacun disposant de sa propre page : normes locales, qualité de l'eau, applications typiques et logistique. Faites pivoter le globe et laissez la liste vous guider vers la ville de votre choix.",
     "all": "Tous les marchés",
     "cityTitle": "Systèmes PP-R/PP-RCT à {city}.",
-    "cityLead": "Des réseaux d'eau potable (d20–d630) éprouvés face aux exigences spécifiques locales —",
+    "cityLead": "Des réseaux d'eau potable (d20–d630) éprouvés face aux exigences spécifiques locales : ",
     "allMarkets": "Voir tous les marchés",
     "request": "Demander une étude",
     "finder": "Ouvrir le Product Finder",
@@ -1600,16 +1600,16 @@
     "water": "Profil de l'eau & Réponse matériau",
     "typical": "Projets de référence à {city}",
     "onSite": "Transformation sur site",
-    "onSiteText": "Briefing sur le soudage et documentation vidéo pour vos équipes d'installation — disponible dans l'Academy.",
+    "onSiteText": "Briefing sur le soudage et documentation vidéo pour vos équipes d'installation : disponible dans l'Academy.",
     "toAcademy": "Aller à l'Academy",
     "nearbyEyebrow": "Marchés de proximité",
     "nearby": "À deux pas.",
-    "prodNote": "Note technique : Ces pages suivent un modèle SEO programmatique (Croisement données : Produit × Régulation × Région). Elles sont générées via ISR depuis le CMS headless — incluant le balisage hreflang, Product/Offer et le maillage interne.",
+    "prodNote": "Note technique : Ces pages suivent un modèle SEO programmatique (Croisement données : Produit × Régulation × Région). Elles sont générées via ISR depuis le CMS headless : incluant le balisage hreflang, Product/Offer et le maillage interne.",
     "km": "km",
     "seoExpansionDynamic": "En savoir plus sur nos solutions PP-R et PPRCT à {city}. Nous répondons aux normes locales ({regulator}) et proposons des systèmes optimaux pour la qualité de l'eau ({water}). Remarque supplémentaire : {note}."
   },
   "footer": {
-    "tagline": "K-Aqua — L'excellence dans la distribution d'eau. Systèmes de tuyauterie en PP-R/PP-RCT pour l'eau potable, fièrement fabriqués par KWT GmbH à Waldsolms.",
+    "tagline": "K-Aqua : L'excellence dans la distribution d'eau. Systèmes de tuyauterie en PP-R/PP-RCT pour l'eau potable, fièrement fabriqués par KWT GmbH à Waldsolms.",
     "colTools": "Produits & Outils",
     "colCompany": "Entreprise",
     "colContact": "Contact",
@@ -1652,7 +1652,7 @@
         "Digitalized by Coday"
       ],
       "srDesc": "This website was designed and engineered by Coday Web Agency, experts in web design and GEO based in Hesse, Germany.",
-      "linkTitle": "Visit Coday Web Agency – premium web design"
+      "linkTitle": "Visit Coday Web Agency, premium web design"
     }
   },
   "regions": {
@@ -1687,7 +1687,7 @@
     "heroBadgeLabel": "Dimensions des tubes, du SDR 6 au SDR 17",
     "marquee": [
       "Leader dans l'approvisionnement en eau",
-      "d20 – d630",
+      "d20, d630",
       "ISO 9001 · 14001 · 50001",
       "Fabriqué à Waldsolms",
       "100 % Recyclage",
@@ -1697,13 +1697,13 @@
       {
         "id": "finder",
         "t": "Product Finder",
-        "d": "Filtrez plus de 500 références en direct — dimension, SDR et épaisseur instantanément.",
+        "d": "Filtrez plus de 500 références en direct : dimension, SDR et épaisseur instantanément.",
         "cta": "Filtrer maintenant"
       },
       {
         "id": "co2",
         "t": "Calculateur CO₂",
-        "d": "Comparez votre projet face au cuivre, à l'acier ou au PVC — traduit en arbres et kilomètres.",
+        "d": "Comparez votre projet face au cuivre, à l'acier ou au PVC : traduit en arbres et kilomètres.",
         "cta": "Faire le calcul"
       },
       {
@@ -1715,7 +1715,7 @@
       {
         "id": "references",
         "t": "Globe des Références",
-        "d": "Faites tourner le monde et explorez nos projets — de Waldsolms à Singapour.",
+        "d": "Faites tourner le monde et explorez nos projets : de Waldsolms à Singapour.",
         "cta": "Explorer le globe"
       },
       {
@@ -1748,7 +1748,7 @@
       "Calculateur d'avantages + Culture Match"
     ],
     "coEyebrow": "L'Entreprise",
-    "coTitle1": "Fournisseur et Fabricant —",
+    "coTitle1": "Fournisseur et Fabricant : ",
     "coTitle2": "votre partenaire direct.",
     "coLead": "La société KWT GmbH extrude et façonne des tubes et raccords en matériaux de synthèse pour l'adduction d'eau. Ce positionnement unique nous place au cœur de la chaîne de valeur : nous sommes à la fois le concepteur et le producteur de vos solutions.",
     "kesselTitle": "Un partenariat solide avec KESSEL",
@@ -1760,11 +1760,11 @@
     "cards": [
       {
         "t": "Système de Management GENAU",
-        "d": "Amélioration continue de la sécurité au travail, de l'environnement et de la santé — selon les normes DIN EN ISO 14001 et 50001."
+        "d": "Amélioration continue de la sécurité au travail, de l'environnement et de la santé : selon les normes DIN EN ISO 14001 et 50001."
       },
       {
         "t": "Une fabrication 100 % allemande",
-        "d": "Développement et production centralisés sur notre site de Waldsolms — l'équilibre parfait entre qualité, maîtrise des coûts et respect des délais."
+        "d": "Développement et production centralisés sur notre site de Waldsolms : l'équilibre parfait entre qualité, maîtrise des coûts et respect des délais."
       },
       {
         "t": "Responsabilité écologique",
@@ -1795,14 +1795,14 @@
     "allMarkets": "Voir tous les 50+ marchés",
     "title1": "Tubes et raccords PP-R/PP-RCT pour",
     "titleGrad": "l'eau potable.",
-    "lead": "Un système de tuyauterie complet pour l'eau potable chaude et froide — du tube au raccord en passant par la technique de soudage.",
+    "lead": "Un système de tuyauterie complet pour l'eau potable chaude et froide : du tube au raccord en passant par la technique de soudage.",
     "ctaCatalog": "Catalogue de produits (PDF)",
     "ctaVideos": "Vidéos d'installation",
     "sysEyebrow": "Le système",
     "sysTitle": "Quatre éléments, un système.",
     "range": [
       {
-        "t": "Tubes — Mono & Multicouches",
+        "t": "Tubes : Mono & Multicouches",
         "d": "Tubes monocouches et multicouches renforcés de fibres de verre en SDR 6, 7,4, 9, 11 et 17. Dimensions de 20 mm à 630 mm."
       },
       {
@@ -1815,12 +1815,12 @@
       },
       {
         "t": "Eau chaude & froide",
-        "d": "Conçu pour l'eau potable — chaude et froide — avec une haute résistance à la température et à la pression sur des décennies."
+        "d": "Conçu pour l'eau potable : chaude et froide : avec une haute résistance à la température et à la pression sur des décennies."
       }
     ],
     "techEyebrow": "Données techniques",
     "techTitle": "Dimensions & Classes de pression",
-    "techLead": "Selon le type de tube, de 20 mm à 630 mm — Raccords jusqu'à 315 mm.",
+    "techLead": "Selon le type de tube, de 20 mm à 630 mm : Raccords jusqu'à 315 mm.",
     "ctaFeatures": "Caractéristiques du produit (PDF)",
     "tableHead": [
       "Composant",
@@ -1830,28 +1830,28 @@
     "tableRows": [
       [
         "Tubes monocouches",
-        "20 – 630 mm",
+        "20, 630 mm",
         "SDR 6 / 7,4 / 9 / 11 / 17"
       ],
       [
         "Tubes multicouches (renforcés FV)",
-        "20 – 630 mm",
+        "20, 630 mm",
         "SDR 6 / 7,4 / 9 / 11 / 17"
       ],
       [
         "Raccords",
-        "20 – 315 mm",
+        "20, 315 mm",
         "compatible avec le système"
       ],
       [
         "Vannes & Raccords filetés",
         "selon le système",
-        "—"
+        "-"
       ],
       [
         "Technique de soudage & Outils",
         "toutes dimensions",
-        "—"
+        "-"
       ]
     ],
     "narrative": {
@@ -1886,7 +1886,7 @@
           "Réduction du bruit : Excellente isolation acoustique contre les bruits d'écoulement.",
           "Hygiénique : Répond aux normes internationales les plus strictes en matière d'eau potable (DVGW, KIWA)."
         ],
-        "seoText": "Nos tubes haute performance sont fabriqués à Waldsolms selon les normes de qualité les plus élevées. La combinaison de matériaux PP-R et PP-RCT assure une résistance exceptionnelle à la température et à la pression. Que ce soit dans la domotique, la construction d'installations industrielles ou les systèmes de refroidissement complexes – ce système de tuyauterie offre une sécurité et une efficacité maximales. La technique de soudage simple et sûre garantit des connexions absolument sans fuite.",
+        "seoText": "Nos tubes haute performance sont fabriqués à Waldsolms selon les normes de qualité les plus élevées. La combinaison de matériaux PP-R et PP-RCT assure une résistance exceptionnelle à la température et à la pression. Que ce soit dans la domotique, la construction d'installations industrielles ou les systèmes de refroidissement complexes, ce système de tuyauterie offre une sécurité et une efficacité maximales. La technique de soudage simple et sûre garantit des connexions absolument sans fuite.",
         "guideTitle": "Guide : Choisir le bon tube PP-R",
         "guideText": "Le choix entre le PP-R pur, le PP-RCT ou les tuyaux renforcés de fibres dépend en grande partie de la température de fonctionnement et de la pose prévue (par ex. apparente ou encastrée).",
         "seoTitle": "Tubes K-Aqua : La Fondation",
@@ -2054,7 +2054,7 @@
     "whyChoose": "Pourquoi {product} est le bon choix",
     "tools": {
       "metaTitle": "Outils & Accessoires | K-Aqua",
-      "metaDesc": "Outils & Accessoires K-Aqua – Sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "Outils & Accessoires K-Aqua, Sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "heroEyebrow": "Ingénierie allemande",
       "heroTitle": "Outils & Accessoires.",
       "heroSubtitle": "Précision absolue.",
@@ -2114,11 +2114,11 @@
     },
     "valves": {
       "metaTitle": "Robinets & Vannes | Ingénierie Allemande | K-Aqua",
-      "metaDesc": "Robinets & Vannes K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux. Explorez la perfection technique.",
+      "metaDesc": "Robinets & Vannes K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux. Explorez la perfection technique.",
       "heroEyebrow": "La classe des vannes",
       "heroTitle": "Contrôle absolu.",
       "heroSubtitle": "Sous la plus haute pression.",
-      "heroDesc": "Bienvenue dans la cour des grands de la dynamique des fluides. Les vannes et robinets K-Aqua ne sont pas de simples composants – ils constituent le cœur incorruptible des infrastructures mondiales. Fabriqués pour l'éternité.",
+      "heroDesc": "Bienvenue dans la cour des grands de la dynamique des fluides. Les vannes et robinets K-Aqua ne sont pas de simples composants, ils constituent le cœur incorruptible des infrastructures mondiales. Fabriqués pour l'éternité.",
       "heroBtnPrimary": "Demander des informations sur la technologie",
       "heroBtnSecondary": "Découvrir l'architecture",
       "manifestoTitle": "Quand le matériau cède, le système s'effondre. <br/><span class=\"text-primary\">Nous ne cédons jamais.</span>",
@@ -2179,7 +2179,7 @@
       "hero": {
         "eyebrow": "Valves & Controls",
         "title": "PP-R Valves for Precise Control",
-        "lead": "Shut off, regulate, secure: K-Aqua PP-R valves combine corrosion-free hydraulics with German manufacturing precision — for drinking water, HVAC and industry."
+        "lead": "Shut off, regulate, secure: K-Aqua PP-R valves combine corrosion-free hydraulics with German manufacturing precision : for drinking water, HVAC and industry."
       }
     },
     "category": {
@@ -2194,12 +2194,12 @@
     "fittings": {
       "meta": {
         "title": "Pièces moulées & Raccords | K-Aqua",
-        "desc": "Pièces moulées & Raccords K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Pièces moulées & Raccords K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "eyebrow": "Fittings & Molded Parts",
         "title": "PP-R Fittings & Molded Parts for Permanently Tight Joints",
-        "lead": "From elbows to reducers: K-Aqua PP-R fittings fuse molecularly with the pipe during welding — a homogeneous system with no gaskets and no weak points."
+        "lead": "From elbows to reducers: K-Aqua PP-R fittings fuse molecularly with the pipe during welding : a homogeneous system with no gaskets and no weak points."
       },
       "intro": {
         "eyebrow": "L'autorité industrielle",
@@ -2223,7 +2223,7 @@
           },
           {
             "title": "Tolérance zéro défaut",
-            "desc": "Nous ne laissons rien au hasard. Chaque lot est analysé par mesure d'épaisseur de paroi par ultrasons, par essais hydrostatiques de pression interne à long terme et par calorimétrie différentielle à balayage (DSC). Seuls les matériaux qui dépassent nos normes internes – qui sont bien supérieures à la norme DIN EN ISO 15874 – sont approuvés."
+            "desc": "Nous ne laissons rien au hasard. Chaque lot est analysé par mesure d'épaisseur de paroi par ultrasons, par essais hydrostatiques de pression interne à long terme et par calorimétrie différentielle à balayage (DSC). Seuls les matériaux qui dépassent nos normes internes, qui sont bien supérieures à la norme DIN EN ISO 15874, sont approuvés."
           },
           {
             "title": "Résistance à la cavitation",
@@ -2305,7 +2305,7 @@
       "hero": {
         "eyebrow": "Piping Systems",
         "title": "PP-R & PP-RCT Pipes from d20 to d630",
-        "lead": "K-Aqua PP-R pipes and PP-RCT multilayer pipes for drinking water, heating and industry: mono and fiber-composite versions in every pressure class — made in Germany to DIN 8077/8078."
+        "lead": "K-Aqua PP-R pipes and PP-RCT multilayer pipes for drinking water, heating and industry: mono and fiber-composite versions in every pressure class : made in Germany to DIN 8077/8078."
       },
       "sticky": {
         "eyebrow": "Science des matériaux",
@@ -2318,7 +2318,7 @@
           },
           {
             "title": "Soudage homogène",
-            "desc": "Contrairement aux raccords à sertir ou aux raccords collés, nous utilisons le procédé de soudage par polyfusion. Le tube et le raccord fusionnent à 260°C en une seule unité moléculaire indissociable. Le système se passe complètement de joints toriques ou d'étanchéités mécaniques. Le point de connexion est physiquement plus résistant que le tube lui-même – une durée de vie 100 % sans fuite est garantie."
+            "desc": "Contrairement aux raccords à sertir ou aux raccords collés, nous utilisons le procédé de soudage par polyfusion. Le tube et le raccord fusionnent à 260°C en une seule unité moléculaire indissociable. Le système se passe complètement de joints toriques ou d'étanchéités mécaniques. Le point de connexion est physiquement plus résistant que le tube lui-même, une durée de vie 100 % sans fuite est garantie."
           },
           {
             "title": "Absence absolue de corrosion",
@@ -2332,7 +2332,7 @@
       },
       "timeline": {
         "title": "Tolérance zéro défaut",
-        "desc": "Chaque centimètre de nos tubes est surveillé au cours du processus d'extrusion. Du granulé au produit fini – qualité Made in Germany.",
+        "desc": "Chaque centimètre de nos tubes est surveillé au cours du processus d'extrusion. Du granulé au produit fini, qualité Made in Germany.",
         "items": [
           {
             "year": "Étape 01",
@@ -2393,12 +2393,12 @@
     "transitionFittings": {
       "meta": {
         "title": "Raccords de transition (Transition Fittings) | K-Aqua",
-        "desc": "Raccords de transition K-Aqua – Connectivité hybride de la plus haute qualité. Quand le métal à haute résistance rencontre le plastique innovant. L'ingénierie allemande."
+        "desc": "Raccords de transition K-Aqua, Connectivité hybride de la plus haute qualité. Quand le métal à haute résistance rencontre le plastique innovant. L'ingénierie allemande."
       },
       "hero": {
         "eyebrow": "System Transitions",
         "title": "Transition Fittings: Safely from Metal to PP-R",
-        "lead": "Brass meets polymer: K-Aqua transition fittings connect existing metal pipework to the PP-R system permanently tight and corrosion-free — tested far beyond the standard."
+        "lead": "Brass meets polymer: K-Aqua transition fittings connect existing metal pipework to the PP-R system permanently tight and corrosion-free : tested far beyond the standard."
       },
       "intro": {
         "eyebrow": "Le défi",
@@ -2420,7 +2420,7 @@
           },
           {
             "title": "Coefficients de dilatation thermique en équilibre",
-            "desc": "Les métaux et les plastiques se dilatent différemment sous l'effet des variations de température (Δα). Grâce à des joints de micro-dilatation calculés avec précision dans l'insert en laiton, nos raccords compensent les chocs extrêmes de -20°C à +95°C en millisecondes – sans aucune fuite."
+            "desc": "Les métaux et les plastiques se dilatent différemment sous l'effet des variations de température (Δα). Grâce à des joints de micro-dilatation calculés avec précision dans l'insert en laiton, nos raccords compensent les chocs extrêmes de -20°C à +95°C en millisecondes, sans aucune fuite."
           },
           {
             "title": "Contrôle qualité tolérance zéro",
@@ -2568,7 +2568,7 @@
     "bento": {
       "eyebrow": "DONNÉES DE PERFORMANCE",
       "title": "SUPÉRIORITÉ TECHNOLOGIQUE. BASÉE SUR LES DONNÉES.",
-      "lead": "Les systèmes K-Aqua ne sont pas seulement des tuyaux – ce sont des réseaux haute performance pour fluides. Développés selon les normes industrielles allemandes les plus strictes.",
+      "lead": "Les systèmes K-Aqua ne sont pas seulement des tuyaux, ce sont des réseaux haute performance pour fluides. Développés selon les normes industrielles allemandes les plus strictes.",
       "items": [
         {
           "title": "Fusion thermique",
@@ -2619,18 +2619,18 @@
         }
       ]
     },
-    "sysLead": "Le fondement de notre catalogue – quatre piliers de l'intégration système."
+    "sysLead": "Le fondement de notre catalogue, quatre piliers de l'intégration système."
   },
   "solutions": {
     "eyebrow": "Solutions",
     "title1": "Un produit engagé et",
     "titleGrad": "responsable.",
     "title2": "",
-    "lead": "Découvrez pourquoi le polypropylène est le matériau de demain pour la distribution d'eau — un choix à la fois écologique, technique et économique.",
+    "lead": "Découvrez pourquoi le polypropylène est le matériau de demain pour la distribution d'eau : un choix à la fois écologique, technique et économique.",
     "benefits": [
       {
         "t": "Respectueux de l'environnement",
-        "d": "Le polypropylène est issu de gaz autrefois brûlés en pure perte — sa valorisation réduit considérablement la pollution atmosphérique. Notre outil industriel utilise des circuits d'eau fermés pour préserver les rivières et nappes phréatiques."
+        "d": "Le polypropylène est issu de gaz autrefois brûlés en pure perte : sa valorisation réduit considérablement la pollution atmosphérique. Notre outil industriel utilise des circuits d'eau fermés pour préserver les rivières et nappes phréatiques."
       },
       {
         "t": "Totalement recyclable",
@@ -2662,11 +2662,11 @@
           },
           {
             "title": "Connexions absolument stériles",
-            "desc": "Notre soudage breveté par élément chauffant fusionne le tube et le raccord en une unité homogène et totalement sans couture. Il n'y a aucun espace mort où l'eau stagnante pourrait s'accumuler. Le résultat est un système de tuyauterie d'un seul bloc – la barrière physique absolue contre la contamination."
+            "desc": "Notre soudage breveté par élément chauffant fusionne le tube et le raccord en une unité homogène et totalement sans couture. Il n'y a aucun espace mort où l'eau stagnante pourrait s'accumuler. Le résultat est un système de tuyauterie d'un seul bloc, la barrière physique absolue contre la contamination."
           },
           {
             "title": "Isolation acoustique pour les unités de soins intensifs",
-            "desc": "Le bruit est un facteur de stress massif pour les patients et le personnel médical. Le système K-Aqua possède des propriétés d'absorption acoustique inhérentes. Le bruit de l'écoulement et les coups de bélier sont absorbés par le matériau lui-même, ce qui garantit une alimentation en eau silencieuse même dans les applications à haute pression – essentiel pour les salles d'opération et les unités de soins intensifs."
+            "desc": "Le bruit est un facteur de stress massif pour les patients et le personnel médical. Le système K-Aqua possède des propriétés d'absorption acoustique inhérentes. Le bruit de l'écoulement et les coups de bélier sont absorbés par le matériau lui-même, ce qui garantit une alimentation en eau silencieuse même dans les applications à haute pression, essentiel pour les salles d'opération et les unités de soins intensifs."
           }
         ]
       },
@@ -2695,7 +2695,7 @@
           {
             "year": "Phase 05",
             "title": "50 ans sans maintenance",
-            "text": "Après la mise en service, le système disparaît dans le mur et accomplit son service de manière silencieuse et absolument fiable – garanti pendant au moins 50 ans sans aucune fatigue du matériau."
+            "text": "Après la mise en service, le système disparaît dans le mur et accomplit son service de manière silencieuse et absolument fiable, garanti pendant au moins 50 ans sans aucune fatigue du matériau."
           }
         ]
       },
@@ -2709,7 +2709,7 @@
       },
       "intro": {
         "title": "Où une goutte d'eau <br className=\"hidden md:block\"/> fait s'effondrer le système.",
-        "desc": "Les entrepreneurs généraux font face à un paradoxe insoluble dans les projets hospitaliers : une pression de temps énorme lors de la construction se heurte aux réglementations hygiéniques les plus strictes de l'histoire humaine. Une seule zone morte dans le réseau de tuyauterie, une fissure microscopique, une connexion corrodée – et des millions d'investissements sont menacés. Nous résolvons ce paradoxe par une ingénierie allemande pure et sans compromis."
+        "desc": "Les entrepreneurs généraux font face à un paradoxe insoluble dans les projets hospitaliers : une pression de temps énorme lors de la construction se heurte aux réglementations hygiéniques les plus strictes de l'histoire humaine. Une seule zone morte dans le réseau de tuyauterie, une fissure microscopique, une connexion corrodée, et des millions d'investissements sont menacés. Nous résolvons ce paradoxe par une ingénierie allemande pure et sans compromis."
       },
       "stickySection": {
         "eyebrow": "Supériorité technologique",
@@ -2745,7 +2745,7 @@
       },
       "timelineSection": {
         "title": "Le standard K-Aqua.",
-        "desc": "De la première conception CAO à la dernière goutte d'eau – notre processus est une symphonie de précision qui ne laisse aucune place au hasard."
+        "desc": "De la première conception CAO à la dernière goutte d'eau, notre processus est une symphonie de précision qui ne laisse aucune place au hasard."
       },
       "specs": {
         "eyebrow": "Spécifications",
@@ -2949,7 +2949,7 @@
       "research": {
         "eyebrow": "Recherche & Développement",
         "title": "La chimie <br/> de l'indestructibilité.",
-        "desc": "Notre département R&D en Allemagne travaille sans relâche pour perfectionner la matrice polymère. Grâce à l'ajout d'additifs exclusifs et de composés spéciaux en fibre de verre, nous extrudons des tuyaux qui présentent une dilatation linéaire extrêmement faible – comparable à celle des tuyaux métalliques, mais sans leurs inconvénients évidents.",
+        "desc": "Notre département R&D en Allemagne travaille sans relâche pour perfectionner la matrice polymère. Grâce à l'ajout d'additifs exclusifs et de composés spéciaux en fibre de verre, nous extrudons des tuyaux qui présentent une dilatation linéaire extrêmement faible, comparable à celle des tuyaux métalliques, mais sans leurs inconvénients évidents.",
         "items": [
           "Dilatation linéaire réduite (valeur Alpha : 0,035 mm/mK)",
           "Section de débit augmentée grâce à des épaisseurs de paroi plus fines pour la même classe de pression",
@@ -2972,7 +2972,7 @@
     "vorfertigung": {
       "meta": {
         "title": "Préfabrication d'infrastructures | K-Aqua",
-        "desc": "Préfabrication K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Préfabrication K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "badge": "Ingénierie allemande. Impact mondial.",
@@ -2995,7 +2995,7 @@
         "items": [
           {
             "title": "Les projets à plusieurs milliards ne pardonnent aucune erreur.",
-            "desc": "Dans le monde de l'infrastructure de construction mondiale – que ce soit dans les métropoles désertiques du Moyen-Orient ou dans les centres de haute technologie européens – les temps d'arrêt sont synonymes de pertes catastrophiques. Nos systèmes de préfabrication sont conçus pour une réalité où la défaillance des matériaux doit être absolument exclue."
+            "desc": "Dans le monde de l'infrastructure de construction mondiale, que ce soit dans les métropoles désertiques du Moyen-Orient ou dans les centres de haute technologie européens, les temps d'arrêt sont synonymes de pertes catastrophiques. Nos systèmes de préfabrication sont conçus pour une réalité où la défaillance des matériaux doit être absolument exclue."
           },
           {
             "title": "La précision numérique rencontre l'ingénierie allemande.",
@@ -3026,7 +3026,7 @@
           },
           {
             "title": "Isolation acoustique",
-            "desc": "La structure moléculaire des tuyaux K-Aqua absorbe les ondes sonores de manière nettement supérieure au métal, ce qui permet d'obtenir des systèmes ultra-silencieux – essentiel dans les hôtels de luxe et les hôpitaux."
+            "desc": "La structure moléculaire des tuyaux K-Aqua absorbe les ondes sonores de manière nettement supérieure au métal, ce qui permet d'obtenir des systèmes ultra-silencieux, essentiel dans les hôtels de luxe et les hôpitaux."
           },
           {
             "title": "Faible perte de charge",
@@ -3038,7 +3038,7 @@
         "title1": "L'esthétique de la",
         "title2": "cohésion.",
         "p1": "Observez la soudure d'un module de préfabrication K-Aqua au microscope. Vous n'y trouverez aucune jointure. Vous y verrez une seule pièce de matériau homogène.",
-        "p2": "Ce processus nécessite non seulement des machines sophistiquées, mais aussi l'œil averti et la main sûre de nos soudeurs plastiques certifiés. Chaque paramètre – température, temps de chauffe, pression d'assemblage et temps de refroidissement – est méticuleusement surveillé.",
+        "p2": "Ce processus nécessite non seulement des machines sophistiquées, mais aussi l'œil averti et la main sûre de nos soudeurs plastiques certifiés. Chaque paramètre, température, temps de chauffe, pression d'assemblage et temps de refroidissement, est méticuleusement surveillé.",
         "p3": "C'est cette obsession microscopique du détail qui rend possible notre garantie macroscopique de plus de 50 ans de fonctionnement sans faille.",
         "items": [
           "Fraisage de précision des extrémités de tuyaux",
@@ -3096,7 +3096,7 @@
     "hochhaus": {
       "meta": {
         "title": "Infrastructure pour gratte-ciel | K-Aqua",
-        "desc": "Construction de gratte-ciel K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Construction de gratte-ciel K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "eyebrow": "La frontière verticale",
@@ -3117,7 +3117,7 @@
       "sticky": {
         "eyebrow": "Conditions extrêmes",
         "title": "Maîtriser la physique de la hauteur.",
-        "lead": "Quatre défis fondamentaux dans la construction de gratte-ciel – et comment l'ingénierie allemande de K-Aqua les surmonte.",
+        "lead": "Quatre défis fondamentaux dans la construction de gratte-ciel, et comment l'ingénierie allemande de K-Aqua les surmonte.",
         "items": [
           {
             "title": "Pression hydrostatique extrême",
@@ -3144,7 +3144,7 @@
         "items": [
           {
             "title": "La révolution PP-RCT",
-            "desc": "La nouvelle génération de polypropylène. Structure cristalline modifiée pour une résistance à la pression et à la température sans précédent avec une épaisseur de paroi réduite. Maximise le débit, minimise le poids – un facteur crucial pour l'ingénierie structurelle des grands bâtiments."
+            "desc": "La nouvelle génération de polypropylène. Structure cristalline modifiée pour une résistance à la pression et à la température sans précédent avec une épaisseur de paroi réduite. Maximise le débit, minimise le poids, un facteur crucial pour l'ingénierie structurelle des grands bâtiments."
           },
           {
             "title": "DIN EN ISO 15874",
@@ -3177,7 +3177,7 @@
           {
             "year": "Phase 3",
             "title": "Logistique Juste-à-Temps",
-            "text": "Grâce à notre réseau de distribution mondial, nous garantissons que le matériel arrive sur le chantier avec un chronométrage parfait – que ce soit dans le désert de Dubaï, à Singapour ou à Francfort-sur-le-Main."
+            "text": "Grâce à notre réseau de distribution mondial, nous garantissons que le matériel arrive sur le chantier avec un chronométrage parfait, que ce soit dans le désert de Dubaï, à Singapour ou à Francfort-sur-le-Main."
           },
           {
             "year": "Phase 4",
@@ -3313,7 +3313,7 @@
       "intro": {
         "title": "Au-delà des limites de charge conventionnelles.",
         "p1": "Là où les systèmes de tuyauterie métalliques capitulent face à la corrosion, l'incrustation et la fatigue thermique des matériaux, commence le spectre opérationnel de K-AQUA. Nos infrastructures en polypropylène copolymère random (PPR) redéfinissent les limites physiques du transport de fluides.",
-        "p2": "Chaque millimètre de notre système est le résultat de décennies de recherche en science des matériaux. Nous ne fournissons pas de simples tuyaux ; nous mettons en œuvre des artères monolithiques impeccables pour des installations qui ne tolèrent aucune défaillance. Du froid arctique aux processus industriels en ébullition – K-AQUA est la réponse architecturale aux défis d'ingénierie extrêmes."
+        "p2": "Chaque millimètre de notre système est le résultat de décennies de recherche en science des matériaux. Nous ne fournissons pas de simples tuyaux ; nous mettons en œuvre des artères monolithiques impeccables pour des installations qui ne tolèrent aucune défaillance. Du froid arctique aux processus industriels en ébullition, K-AQUA est la réponse architecturale aux défis d'ingénierie extrêmes."
       },
       "bento": {
         "header": {
@@ -3370,13 +3370,13 @@
     "rechenzentrum": {
       "meta": {
         "title": "Infrastructure de Centres de Données | K-Aqua",
-        "desc": "Centres de données K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Centres de données K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "scroll": {
         "items": [
           {
             "title": "Le défi thermique de l'IA et du HPC",
-            "desc": "Les baies modernes de calcul haute performance (HPC) et d'intelligence artificielle (IA) produisent une chaleur dissipée immense. Le refroidissement par air atteint à lui seul ses limites physiques. L'avenir appartient au Liquid Cooling (refroidissement liquide) – et donc à l'eau comme caloporteur critique directement sur la puce."
+            "desc": "Les baies modernes de calcul haute performance (HPC) et d'intelligence artificielle (IA) produisent une chaleur dissipée immense. Le refroidissement par air atteint à lui seul ses limites physiques. L'avenir appartient au Liquid Cooling (refroidissement liquide), et donc à l'eau comme caloporteur critique directement sur la puce."
           },
           {
             "title": "La corrosion est l'ennemie de la disponibilité",
@@ -3491,7 +3491,7 @@
     ],
     "vidEyebrow": "Installation",
     "vidTitle": "Le soudage expliqué en vidéo",
-    "vidLead": "Quatre techniques, quatre vidéos — tournées sur le terrain.",
+    "vidLead": "Quatre techniques, quatre vidéos : tournées sur le terrain.",
     "videos": [
       {
         "t": "Polyfusion avec appareil manuel",
@@ -3527,16 +3527,16 @@
     "title1": "L'expérience fait",
     "titleGrad": "la différence.",
     "lead": "De nouvelles stratégies fondées sur un savoir-faire éprouvé : KWT GmbH associe des décennies de maîtrise industrielle à une vision résolument tournée vers l'avenir.",
-    "h2": "K-Aqua — Un acteur de premier plan de l'eau potable",
+    "h2": "K-Aqua : Un acteur de premier plan de l'eau potable",
     "p1": "Le cœur de métier de KWT GmbH est l'extrusion de tubes et l'injection de raccords plastiques destinés aux réseaux de distribution d'eau. Cette intégration fait de nous un partenaire incontournable de la filière construction : nous sommes à la fois le fabricant et votre fournisseur direct.",
-    "p2": "Notre alliance stratégique avec KESSEL — « Leading in drainage » — consolide notre assise. Forts de cette expertise acquise au fil des décennies, nous bâtissons aujourd'hui les succès de demain.",
+    "p2": "Notre alliance stratégique avec KESSEL : « Leading in drainage » : consolide notre assise. Forts de cette expertise acquise au fil des décennies, nous bâtissons aujourd'hui les succès de demain.",
     "polEyebrow": "Politique d'entreprise",
     "polTitle": "Créer de la valeur par la synergie.",
     "polLead": "Il n'y a pas de satisfaction client sans collaborateurs engagés, ni de réussite d'entreprise sans bénéfice pour l'environnement et la société.",
     "cards": [
       {
         "t": "L'humain au centre",
-        "d": "Chaque membre de l'équipe participe activement à notre démarche d'amélioration continue — garantissant un équilibre parfait entre qualité, coût et respect des délais."
+        "d": "Chaque membre de l'équipe participe activement à notre démarche d'amélioration continue : garantissant un équilibre parfait entre qualité, coût et respect des délais."
       },
       {
         "t": "Une fiabilité absolue",
@@ -3557,7 +3557,7 @@
       "Chaque employé est tenu de signaler les dangers et de participer activement"
     ],
     "certTitle": "Une conformité certifiée",
-    "certText": "La philosophie GENAU répond aux exigences sévères des normes DIN EN ISO 14001 et 50001 — renforcées depuis octobre 2025 par la certification ISO 9001:2015.",
+    "certText": "La philosophie GENAU répond aux exigences sévères des normes DIN EN ISO 14001 et 50001 : renforcées depuis octobre 2025 par la certification ISO 9001:2015.",
     "meta": {
       "title": "Entreprise | K-Aqua",
       "desc": "L'épicentre de l'ingénierie allemande."
@@ -3578,7 +3578,7 @@
       "title1": "Copolymère Random de Polypropylène.",
       "title2": "Déchaîné.",
       "p1": "Le PP-R de type 3 n'est pas seulement un plastique. C'est un matériau thermoplastique hautement complexe que nous maîtrisons au niveau moléculaire.",
-      "p2": "Grâce à la disposition stratégique des monomères d'éthylène dans la chaîne de propylène, nous obtenons une résistance aux chocs inégalée – même à des températures négatives. Nos granulés proviennent exclusivement de l'élite mondiale des producteurs de matières premières. Nous analysons chaque lot par des tests de calorimétrie différentielle à balayage (DSC) et d'indice de fluidité (MFR). Tout ce qui manque nos spécifications ne serait-ce que d'un pour mille est impitoyablement éliminé.",
+      "p2": "Grâce à la disposition stratégique des monomères d'éthylène dans la chaîne de propylène, nous obtenons une résistance aux chocs inégalée, même à des températures négatives. Nos granulés proviennent exclusivement de l'élite mondiale des producteurs de matières premières. Nous analysons chaque lot par des tests de calorimétrie différentielle à balayage (DSC) et d'indice de fluidité (MFR). Tout ce qui manque nos spécifications ne serait-ce que d'un pour mille est impitoyablement éliminé.",
       "items": [
         {
           "title": "Masse Molaire Extrême",
@@ -3631,7 +3631,7 @@
         },
         {
           "title": "Résistance Chimique",
-          "desc": "La corrosion n'existe pas dans notre vocabulaire. Nos polymères sont immunisés contre les milieux les plus agressifs, l'incrustation et la décomposition biologique. Pendant que les métaux rouillent et se décomposent dans le sol, K-Aqua reste intact – stoïque, monolithique, indestructible."
+          "desc": "La corrosion n'existe pas dans notre vocabulaire. Nos polymères sont immunisés contre les milieux les plus agressifs, l'incrustation et la décomposition biologique. Pendant que les métaux rouillent et se décomposent dans le sol, K-Aqua reste intact, stoïque, monolithique, indestructible."
         },
         {
           "title": "Fusion Moléculaire",
@@ -3719,21 +3719,21 @@
     "btnDe": "Certificat (DE)",
     "btnEn": "Certificate (EN)",
     "eventsTitle": "Salons & Conférences",
-    "eventsText": "Venez rencontrer les experts K-Aqua lors de nos prochains événements. Aucun salon n'est programmé dans l'immédiat — restez à l'écoute.",
+    "eventsText": "Venez rencontrer les experts K-Aqua lors de nos prochains événements. Aucun salon n'est programmé dans l'immédiat : restez à l'écoute.",
     "lead": "Les dernières infos de K-Aqua. - "
   },
   "career": {
     "eyebrow": "Carrières",
     "title1": "Plus qu'un",
     "titleGrad": "simple salaire.",
-    "lead": "Calculez l'impact réel de vos avantages nets d'impôts — et découvrez en 60 secondes si l'esprit K-Aqua est fait pour vous.",
+    "lead": "Calculez l'impact réel de vos avantages nets d'impôts : et découvrez en 60 secondes si l'esprit K-Aqua est fait pour vous.",
     "benEyebrow": "Optimisation du salaire net",
     "benTitle": "Le Simulateur d'Avantages.",
     "benLead": "Des avantages défiscalisés ont souvent plus d'impact qu'une augmentation brute. Composez votre package sur mesure :",
     "benefits": {
       "sachbezug": [
         "Carte avantages en nature",
-        "Avantage en nature non imposable — mensuellement sur le compte de la carte."
+        "Avantage en nature non imposable : mensuellement sur le compte de la carte."
       ],
       "lunch": [
         "Indemnité de repas",
@@ -3745,7 +3745,7 @@
       ],
       "jobrad": [
         "Leasing JobRad",
-        "Le vélo de votre choix par conversion de salaire — économies par rapport à un achat privé."
+        "Le vélo de votre choix par conversion de salaire : économies par rapport à un achat privé."
       ],
       "kita": [
         "Indemnité de garde d'enfants",
@@ -3759,13 +3759,13 @@
     "resultLabel": "Votre gain net par mois",
     "resultNote1": "Cela correspond approximativement à",
     "resultNote2": "une hausse brute de ~{n} €",
-    "resultNote3": "— sans aucune déduction.",
+    "resultNote3": "- sans aucune déduction.",
     "resultNote4": "(Valeur indicative, variable selon votre tranche d'imposition.)",
     "apply": "Postuler maintenant",
     "call": "Ou appelez-nous : +49 (0)60 85 / 9868-410",
     "cmEyebrow": "Culture Match",
     "cmTitle": "Avez-vous l'esprit K-Aqua ?",
-    "cmIntro": "Cinq questions franches sur le quotidien et les méthodes de travail en production. Pas de test de personnalité — juste un retour à la réalité.",
+    "cmIntro": "Cinq questions franches sur le quotidien et les méthodes de travail en production. Pas de test de personnalité : juste un retour à la réalité.",
     "cmStart": "Lancer le test",
     "qLabel": "Question",
     "cmQ": [
@@ -3805,8 +3805,8 @@
         ]
       }
     ],
-    "resHigh": "Match Parfait — Rigueur, fiabilité et sens technique : c'est exactement ce que nous cherchons.",
-    "resMid": "Bon Match avec quelques points à clarifier — appelez-nous pour discuter ensemble du quotidien chez K-Aqua.",
+    "resHigh": "Match Parfait : Rigueur, fiabilité et sens technique : c'est exactement ce que nous cherchons.",
+    "resMid": "Bon Match avec quelques points à clarifier : appelez-nous pour discuter ensemble du quotidien chez K-Aqua.",
     "resLow": "En toute honnêteté : notre environnement de production n'est probablement pas fait pour vous. La vente ou l'administratif pourraient mieux vous correspondre.",
     "sendApp": "Envoyer ma candidature",
     "again": "Recommencer"
@@ -3858,7 +3858,7 @@
     "eyebrow": "Product Finder",
     "title1": "Finis les PDF interminables.",
     "titleGrad": "Vos données, instantanément.",
-    "lead": "Oubliez les catalogues de 220 pages. Filtrez interactivement l'ensemble de notre gamme PP-R/PP-RCT : dimension, pression, épaisseur — en temps réel.",
+    "lead": "Oubliez les catalogues de 220 pages. Filtrez interactivement l'ensemble de notre gamme PP-R/PP-RCT : dimension, pression, épaisseur : en temps réel.",
     "type": "Type de produit",
     "types": {
       "mono": "Tubes PP-R Monocouche",
@@ -3869,7 +3869,7 @@
     "maxD": "Diamètre extérieur max.",
     "upTo": "jusqu'à",
     "maxDAria": "Diamètre extérieur maximum en millimètres",
-    "found": "variantes trouvées — avec détails immédiats sur l'épaisseur, le diamètre intérieur et la pression nominale.",
+    "found": "variantes trouvées : avec détails immédiats sur l'épaisseur, le diamètre intérieur et la pression nominale.",
     "catalog": "Catalogue (PDF)",
     "tableHead": [
       "Type",
@@ -3879,8 +3879,8 @@
       "di (mm)",
       "Pression nominale"
     ],
-    "more": "+ {n} autres — affinez vos filtres pour voir la liste complète.",
-    "none": "Aucun résultat — essayez d'élargir vos filtres.",
+    "more": "+ {n} autres : affinez vos filtres pour voir la liste complète.",
+    "none": "Aucun résultat : essayez d'élargir vos filtres.",
     "nextEyebrow": "Aller plus loin",
     "nextTitle": "Votre projet est-il éco-responsable ?",
     "nextLead": "Transférez vos diamètres et longueurs directement dans notre calculateur CO₂ pour vous comparer au cuivre, à l'acier et au PVC.",
@@ -3985,7 +3985,7 @@
       "c": "Fin de vie (C)"
     },
     "auditor": "Cockpit de l'auditeur :",
-    "auditorBody": "Preuves EPD, certificats ISO et textes GAEB en un seul paquet — dans le",
+    "auditorBody": "Preuves EPD, certificats ISO et textes GAEB en un seul paquet : dans le",
     "trustLink": "Centre de confiance",
     "downloadPdf": "Télécharger le rapport PDF",
     "lcaLogistics": "Paramètres de l'ACV et logistique",
@@ -4003,7 +4003,7 @@
     "eyebrow": "Trust Center",
     "title1": "La confiance a une",
     "titleGrad": "mesure.",
-    "lead": "Certificats ISO, référentiel GENAU et dossiers d'audits — en libre accès total. N'attendez plus des jours pour recevoir un document administratif.",
+    "lead": "Certificats ISO, référentiel GENAU et dossiers d'audits : en libre accès total. N'attendez plus des jours pour recevoir un document administratif.",
     "certs": [
       [
         "ISO 9001:2015",
@@ -4028,11 +4028,11 @@
     "genau": [
       [
         "Santé",
-        "Santé et sécurité au travail avec évaluation continue des risques — chaque employé est tenu de signaler activement les risques."
+        "Santé et sécurité au travail avec évaluation continue des risques : chaque employé est tenu de signaler activement les risques."
       ],
       [
         "Énergie",
-        "Optimisation de l'efficacité énergétique selon la norme ISO 50001 — de l'extrudeuse au circuit fermé d'eau de refroidissement."
+        "Optimisation de l'efficacité énergétique selon la norme ISO 50001 : de l'extrudeuse au circuit fermé d'eau de refroidissement."
       ],
       [
         "Durabilité",
@@ -4040,7 +4040,7 @@
       ],
       [
         "Sécurité au travail",
-        "La prévention et l'évaluation des risques comme pratique quotidienne — et non comme exercice obligatoire annuel."
+        "La prévention et l'évaluation des risques comme pratique quotidienne : et non comme exercice obligatoire annuel."
       ],
       [
         "Environnement",
@@ -4049,7 +4049,7 @@
     ],
     "rfpEyebrow": "Dossiers en Libre-Service",
     "rfpTitle": "Votre Pack d'Appel d'Offres (RFP).",
-    "rfpLead": "Composez vous-même votre dossier pour les appels d'offres et les audits — sans délai ni intermédiaire.",
+    "rfpLead": "Composez vous-même votre dossier pour les appels d'offres et les audits : sans délai ni intermédiaire.",
     "docs": [
       "Certificat ISO 9001:2015 (DE/EN)",
       "Certificat ISO 14001:2015 (DE/EN)",
@@ -4066,7 +4066,7 @@
     "requestBtn": "Générer le Pack",
     "mailSubject": "Demande de Pack Documentaire RFP",
     "mailBody": "Merci de me faire parvenir les éléments suivants :",
-    "scope3": "Les données d'émissions Scope-3 et l'intégralité des datas EPD sont fournies sur demande — une transparence proactive plutôt qu'une contrainte réglementaire."
+    "scope3": "Les données d'émissions Scope-3 et l'intégralité des datas EPD sont fournies sur demande : une transparence proactive plutôt qu'une contrainte réglementaire."
   },
   "partner": {
     "eyebrow": "Partenariat d'Excellence",
@@ -4077,12 +4077,12 @@
     "rings": [
       {
         "l": "La Marque",
-        "t": "KESSEL — Leading in Drainage",
+        "t": "KESSEL : Leading in Drainage",
         "d": "Pionnier de l'assainissement premium. Sa présence sur des salons de rang mondial (ISH) et ses portails de formation en font l'autorité de la filière."
       },
       {
         "l": "Le Système",
-        "t": "K-Aqua — Leader de la distribution d'eau",
+        "t": "K-Aqua : Leader de la distribution d'eau",
         "d": "La même ingénierie d'excellence, appliquée à l'eau sous pression : gamme PP-R/PP-RCT intégrale (d20–d630), made in Germany. Assainissement et alimentation partagent la même philosophie."
       },
       {
@@ -4096,11 +4096,11 @@
     "cards": [
       {
         "t": "Une immunité à la corrosion",
-        "d": "Totalement insensible à la corrosion électrochimique — aucun risque d'oxydation, de piqûres ou de casse, contrairement aux conduites en cuivre ou en acier galvanisé."
+        "d": "Totalement insensible à la corrosion électrochimique : aucun risque d'oxydation, de piqûres ou de casse, contrairement aux conduites en cuivre ou en acier galvanisé."
       },
       {
         "t": "Excellence Thermique",
-        "d": "Une déperdition de chaleur minime pour vos réseaux d'eau chaude sanitaire (ECS) — garantissant des économies d'énergie massives sur des décennies."
+        "d": "Une déperdition de chaleur minime pour vos réseaux d'eau chaude sanitaire (ECS) : garantissant des économies d'énergie massives sur des décennies."
       },
       {
         "t": "Inertie Hygiénique",
@@ -4127,7 +4127,7 @@
     "schulungen": {
       "meta": {
         "title": "Formations | K-Aqua",
-        "desc": "Formations K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Formations K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
@@ -4142,7 +4142,7 @@
         "title2": "n'est <span className=\"text-primary\">pas</span> un",
         "title3": "hasard.",
         "p1": "Elle est le résultat d'une méthodologie implacable et d'une discipline industrielle froide. Lorsque des milliers de mètres cubes d'eau sont pompés sous une pression énorme à travers les artères vitales d'un gratte-ciel de 100 étages, il n'y a pas de place pour les approximations ou les interprétations.",
-        "p2": "Le programme de formation K-Aqua a été conçu pour combler le fossé entre les connaissances théoriques et la perfection mécanique sans faille. Quiconque est formé dans notre académie n'agit plus comme un simple artisan – il devient l'organe exécutif d'un système déterministe parfait."
+        "p2": "Le programme de formation K-Aqua a été conçu pour combler le fossé entre les connaissances théoriques et la perfection mécanique sans faille. Quiconque est formé dans notre académie n'agit plus comme un simple artisan, il devient l'organe exécutif d'un système déterministe parfait."
       },
       "bento": {
         "eyebrow": "LES PILIERS DE L'AUTORITÉ",
@@ -4188,7 +4188,7 @@
           },
           {
             "title": "Module Gamma : Architecture de l'hygiène & Microbiologie",
-            "desc": "Prévention des légionelles au niveau structurel. Comment éviter les conduites mortes, éradiquer les zones de stagnation et contrôler les stratifications de température de l'eau dans les systèmes complexes de conduites en boucle. Le système dicte la pureté – nous ne laissons rien au hasard."
+            "desc": "Prévention des légionelles au niveau structurel. Comment éviter les conduites mortes, éradiquer les zones de stagnation et contrôler les stratifications de température de l'eau dans les systèmes complexes de conduites en boucle. Le système dicte la pureté, nous ne laissons rien au hasard."
           },
           {
             "title": "Module Delta : L'audit final K-Aqua",
@@ -4282,7 +4282,7 @@
           },
           {
             "title": "Souveraineté thermique",
-            "desc": "Résistance permanente de -20°C à +95°C. Pas de fatigue du matériau, pas de faiblesse structurelle – même lors de chocs thermiques extrêmes."
+            "desc": "Résistance permanente de -20°C à +95°C. Pas de fatigue du matériau, pas de faiblesse structurelle, même lors de chocs thermiques extrêmes."
           },
           {
             "title": "Hygiène absolue",
@@ -4304,22 +4304,22 @@
         "lead": "Seuls ceux qui réussissent les audits externes les plus critiques ont le droit de porter le label 'German Engineering'. Voici les institutions qui valident notre qualité.",
         "items": [
           {
-            "title": "DVGW – La plus haute instance",
+            "title": "DVGW, La plus haute instance",
             "p1": "L'Association Allemande du Gaz et de l'Eau (DVGW) fixe la norme la plus stricte au monde en matière d'hygiène de l'eau potable et de résistance des matériaux.",
             "p2": "Notre certification DVGW garantit que les systèmes de tuyauterie K-Aqua, dans des conditions extrêmes, ne libèrent aucune substance toxique ni ne favorisent la croissance microbiologique. Chaque lot passe par des tests hydrostatiques de longue durée (test de pression interne au fluage) à 95°C."
           },
           {
-            "title": "SKZ – Surveillance indépendante",
+            "title": "SKZ, Surveillance indépendante",
             "p1": "Le Centre des Plastiques du Sud de l'Allemagne (SKZ) agit comme notre auditeur incorruptible. La surveillance externe confirme ce que nos laboratoires internes exigent déjà.",
             "p2": "La résistance aux chocs entaillés, la résistance à la traction et le comportement thermique sont testés par analyse DSC (Calorimétrie Différentielle à Balayage). La marque SKZ est la preuve d'une perfection mécanique bien supérieure à la norme DIN EN ISO 15874."
           },
           {
-            "title": "KTW-BWGL – Pureté absolue",
+            "title": "KTW-BWGL, Pureté absolue",
             "p1": "La base d'évaluation pour les plastiques et autres matériaux organiques en contact avec l'eau potable (Agence Fédérale de l'Environnement).",
             "p2": "Nous utilisons exclusivement du polypropylène très pur (PP-R / PP-RCT) sans additifs nocifs ni métaux lourds. Le résultat ? Une qualité d'eau de source directement au robinet. Aucune altération de l'odeur ni du goût."
           },
           {
-            "title": "ISO 9001 & 14001 – L'excellence systématique",
+            "title": "ISO 9001 & 14001, L'excellence systématique",
             "p1": "La qualité n'est pas un hasard, mais un processus absolument reproductible. Notre certification ISO 9001 prouve une gestion de la qualité sans faille, de la réception des matières premières à la livraison mondiale des marchandises.",
             "p2": "Avec la norme ISO 14001, nous prouvons que les performances industrielles et la responsabilité écologique vont de pair. Une consommation d'énergie minimisée, une utilisation efficace des ressources et une recyclabilité à 100 % de nos produits en PP."
           }
@@ -4341,7 +4341,7 @@
           },
           {
             "title": "Essai de pression interne de fluage",
-            "desc": "Les échantillons de tubes sont stockés dans des bains d'eau spéciaux à 95°C sous une pression extrême – pendant des milliers d'heures. Sans fissure. Sans rupture."
+            "desc": "Les échantillons de tubes sont stockés dans des bains d'eau spéciaux à 95°C sous une pression extrême, pendant des milliers d'heures. Sans fissure. Sans rupture."
           }
         ]
       },
@@ -4386,7 +4386,7 @@
     "glossar": {
       "meta": {
         "title": "Glossaire technique | K-Aqua",
-        "desc": "Glossaire K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Glossaire K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "eyebrow": "Glossaire technique",
@@ -4408,7 +4408,7 @@
         "items": [
           {
             "title": "Dynamique d'extrusion sous haute pression",
-            "desc": "La déformation thermoplastique dans nos usines est soumise à un contrôle de température précis à 0,1 °C près. Cette perfection cristalline garantit une structure moléculaire homogène et sans défaut, excluant absolument la formation de fissures microscopiques (fissuration sous contrainte), même lors de fluctuations extrêmes de pression et de température. Lorsque le matériau quitte notre extrudeuse, il n'est plus un simple plastique – c'est un monolithe industriel."
+            "desc": "La déformation thermoplastique dans nos usines est soumise à un contrôle de température précis à 0,1 °C près. Cette perfection cristalline garantit une structure moléculaire homogène et sans défaut, excluant absolument la formation de fissures microscopiques (fissuration sous contrainte), même lors de fluctuations extrêmes de pression et de température. Lorsque le matériau quitte notre extrudeuse, il n'est plus un simple plastique, c'est un monolithe industriel."
           },
           {
             "title": "Tests de charge hydrostatique",
@@ -4495,7 +4495,7 @@
     "videos": [
       {
         "t": "Soudage par emboîtement manuel",
-        "s": "jusqu'à d63 — Appareil de soudage manuel"
+        "s": "jusqu'à d63 : Appareil de soudage manuel"
       },
       {
         "t": "Soudage par emboîtement à la machine",
@@ -4557,58 +4557,58 @@
     "eyebrow": "Références",
     "title1": "Un globe rempli de",
     "titleGrad": "succès.",
-    "lead": "Faites tourner le globe, cliquez sur un marqueur — chaque point représente la technologie K-Aqua en pleine action. (Exemples de projets illustrant nos véritables réalisations mondiales).",
-    "canvasAria": "Globe interactif avec nos projets de référence — glissez pour tourner",
-    "note": "Les noms de projets officiels, les photos et les indicateurs clés seront mis à jour éditorialement — la plateforme est prête.",
+    "lead": "Faites tourner le globe, cliquez sur un marqueur : chaque point représente la technologie K-Aqua en pleine action. (Exemples de projets illustrant nos véritables réalisations mondiales).",
+    "canvasAria": "Globe interactif avec nos projets de référence : glissez pour tourner",
+    "note": "Les noms de projets officiels, les photos et les indicateurs clés seront mis à jour éditorialement : la plateforme est prête.",
     "projects": [
       {
         "id": "waldsolms",
         "lat": 50.4,
         "lon": 8.5,
         "title": "Waldsolms, Allemagne",
-        "d": "Siège social & R&D — c'est ici que naît chaque tube K-Aqua."
+        "d": "Siège social & R&D : c'est ici que naît chaque tube K-Aqua."
       },
       {
         "id": "dubai",
         "lat": 25.2,
         "lon": 55.3,
         "title": "Dubaï, EAU",
-        "d": "Colonnes montantes pour gratte-ciels — PP-RCT pour l'eau chaude en climat désertique."
+        "d": "Colonnes montantes pour gratte-ciels : PP-RCT pour l'eau chaude en climat désertique."
       },
       {
         "id": "warsaw",
         "lat": 52.2,
         "lon": 21,
         "title": "Varsovie, Pologne",
-        "d": "Nouveau quartier résidentiel — installation complète en eau potable d20–d110."
+        "d": "Nouveau quartier résidentiel : installation complète en eau potable d20–d110."
       },
       {
         "id": "istanbul",
         "lat": 41,
         "lon": 28.9,
         "title": "Istanbul, Turquie",
-        "d": "Complexe hôtelier premium — réseaux de bouclage en tubes multicouches renforcés."
+        "d": "Complexe hôtelier premium : réseaux de bouclage en tubes multicouches renforcés."
       },
       {
         "id": "singapore",
         "lat": 1.35,
         "lon": 103.8,
         "title": "Singapour",
-        "d": "Infrastructure urbaine — soudage bout-à-bout pour des grands diamètres jusqu'au d630."
+        "d": "Infrastructure urbaine : soudage bout-à-bout pour des grands diamètres jusqu'au d630."
       },
       {
         "id": "cape_town",
         "lat": -33.9,
         "lon": 18.4,
         "title": "Le Cap, Afrique du Sud",
-        "d": "Construction d'un nouvel hôpital — distribution hygiénique et ultra-sécurisée de l'eau potable."
+        "d": "Construction d'un nouvel hôpital : distribution hygiénique et ultra-sécurisée de l'eau potable."
       },
       {
         "id": "london",
         "lat": 51.5,
         "lon": -0.1,
         "title": "Londres, Royaume-Uni",
-        "d": "Rénovation de bureaux — le remplacement définitif et anti-corrosion des anciennes conduites métalliques."
+        "d": "Rénovation de bureaux : le remplacement définitif et anti-corrosion des anciennes conduites métalliques."
       }
     ]
   },
@@ -4616,7 +4616,7 @@
     "eyebrow": "Pour les bureaux d'études, les acheteurs & les installateurs",
     "title1": "Vous concevez, achetez ou installez.",
     "titleGrad": "Nous fournissons l'excellence.",
-    "lead": "Chaque professionnel trouve chez K-Aqua la donnée exacte dont il a besoin pour avancer — sans s'épuiser dans des PDF, ni attendre au téléphone.",
+    "lead": "Chaque professionnel trouve chez K-Aqua la donnée exacte dont il a besoin pour avancer : sans s'épuiser dans des PDF, ni attendre au téléphone.",
     "personas": [
       {
         "t": "Bureaux d'Études & Ingénieurs",
@@ -4642,7 +4642,7 @@
     "why": [
       {
         "t": "Résistance thermique et mécanique",
-        "d": "PP-RCT à structure cristalline optimisée — une marge de sécurité accrue pour les fortes températures et pressions."
+        "d": "PP-RCT à structure cristalline optimisée : une marge de sécurité accrue pour les fortes températures et pressions."
       },
       {
         "t": "Zéro corrosion",
@@ -4650,11 +4650,11 @@
       },
       {
         "t": "Recyclable & Bas Carbone",
-        "d": "Code de recyclage 5, bilan carbone drastiquement inférieur au cuivre ou à l'acier — prouvé par notre simulateur LCA."
+        "d": "Code de recyclage 5, bilan carbone drastiquement inférieur au cuivre ou à l'acier : prouvé par notre simulateur LCA."
       },
       {
         "t": "Un seul interlocuteur",
-        "d": "Tubes, raccords, vannes et outillage proviennent de la même source — en direct du fabricant."
+        "d": "Tubes, raccords, vannes et outillage proviennent de la même source : en direct du fabricant."
       }
     ],
     "promise": [
@@ -4718,7 +4718,7 @@
     "fType": "Nature du projet",
     "fDims": "Diamètres nécessaires",
     "fMeters": "Métrage estimé",
-    "dimsHint": "Une estimation globale suffit — nous l'affinerons ensemble. Choix multiple possible.",
+    "dimsHint": "Une estimation globale suffit : nous l'affinerons ensemble. Choix multiple possible.",
     "fTime": "Calendrier prévisionnel",
     "fRegion": "Région de livraison",
     "timelines": [
@@ -4750,24 +4750,24 @@
       "Directement du fabricant"
     ],
     "doneTitle": "C'est presque fini.",
-    "doneText": "Votre client de messagerie vient de s'ouvrir avec un e-mail pré-rédigé. Envoyez-le — nous vous répondrons sous 24 heures. Vous préférez en discuter de vive voix ?",
+    "doneText": "Votre client de messagerie vient de s'ouvrir avec un e-mail pré-rédigé. Envoyez-le : nous vous répondrons sous 24 heures. Vous préférez en discuter de vive voix ?",
     "doneBack": "Retour à l'accueil"
   },
   "geoContent": {
     "frankfurt": {
       "regulator": "DVGW / Ordonnance Eau Potable (TrinkwV)",
-      "water": "Eau dure (14–20 °dH) — le PP-R/PP-RCT, totalement résistant à la corrosion, empêche l'entartrage fréquent sur les métaux rugueux.",
+      "water": "Eau dure (14–20 °dH) : le PP-R/PP-RCT, totalement résistant à la corrosion, empêche l'entartrage fréquent sur les métaux rugueux.",
       "focus": [
         "Colonnes montantes pour immeubles de grande hauteur (quartier des banques)",
         "Rénovation d'hôtels et de bureaux",
         "Eau de refroidissement pour centres de données"
       ],
-      "note": "Pour la région Rhin-Main, les livraisons s'effectuent directement depuis notre usine de Waldsolms — souvent le jour même.",
+      "note": "Pour la région Rhin-Main, les livraisons s'effectuent directement depuis notre usine de Waldsolms : souvent le jour même.",
       "focusHeading": "Projets typiques à Francfort-sur-le-Main"
     },
     "berlin": {
       "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
-      "water": "Eau moyennement dure issue des berges — l'inertie du PP évite le biofilm dans les réseaux étendus.",
+      "water": "Eau moyennement dure issue des berges : l'inertie du PP évite le biofilm dans les réseaux étendus.",
       "focus": [
         "Construction de nouveaux quartiers résidentiels",
         "Construction d'écoles et de bâtiments administratifs",
@@ -4778,7 +4778,7 @@
     },
     "muenchen": {
       "regulator": "DVGW / TrinkwV, SWM",
-      "water": "Eau douce alpine au pH variable — là où le cuivre montre ses limites, le polypropylène résiste.",
+      "water": "Eau douce alpine au pH variable : là où le cuivre montre ses limites, le polypropylène résiste.",
       "focus": [
         "Construction de logements haut de gamme",
         "Construction de cliniques et de laboratoires",
@@ -4789,7 +4789,7 @@
     },
     "hamburg": {
       "regulator": "DVGW / TrinkwV, Hamburg Wasser",
-      "water": "Eau souterraine douce à moyennement dure — nos systèmes PP préservent la pureté originelle de l'eau.",
+      "water": "Eau souterraine douce à moyennement dure : nos systèmes PP préservent la pureté originelle de l'eau.",
       "focus": [
         "Nouvelle construction HafenCity",
         "Hôtellerie",
@@ -4800,7 +4800,7 @@
     },
     "wien": {
       "regulator": "ÖVGW / Ordonnance autrichienne (AT)",
-      "water": "Eau de source alpine d'une pureté exceptionnelle — préservée grâce à nos conduites 100 % neutres.",
+      "water": "Eau de source alpine d'une pureté exceptionnelle : préservée grâce à nos conduites 100 % neutres.",
       "focus": [
         "Rénovation de logements sociaux",
         "Projets hôteliers et commerciaux",
@@ -4811,7 +4811,7 @@
     },
     "zuerich": {
       "regulator": "SSIGE (SVGW) / TBDV",
-      "water": "Mix eau de lac et sources — les exigences suisses en matière d'hygiène réclament une neutralité matérielle absolue.",
+      "water": "Mix eau de lac et sources : les exigences suisses en matière d'hygiène réclament une neutralité matérielle absolue.",
       "focus": [
         "Construction de logements de haut standing",
         "Rénovation de banques et de bureaux",
@@ -4821,8 +4821,8 @@
       "focusHeading": "Projets typiques à Zurich"
     },
     "london": {
-      "regulator": "WRAS — Water Regulations Approval Scheme",
-      "water": "Eau très calcaire (Bassin de la Tamise) — le PP-RCT empêche le dépôt de tartre et maintient le débit nominal.",
+      "regulator": "WRAS : Water Regulations Approval Scheme",
+      "water": "Eau très calcaire (Bassin de la Tamise) : le PP-RCT empêche le dépôt de tartre et maintient le débit nominal.",
       "focus": [
         "Résidentiel de grande hauteur",
         "Rénovation du patrimoine",
@@ -4832,8 +4832,8 @@
       "focusHeading": "Projets typiques à Londres"
     },
     "paris": {
-      "regulator": "ACS — Attestation de Conformité Sanitaire",
-      "water": "Eau de la Seine, très calcaire — les surfaces ultra-lisses en PP garantissent des pertes de charge constantes sur des décennies.",
+      "regulator": "ACS : Attestation de Conformité Sanitaire",
+      "water": "Eau de la Seine, très calcaire : les surfaces ultra-lisses en PP garantissent des pertes de charge constantes sur des décennies.",
       "focus": [
         "Quartiers résidentiels du Grand Paris",
         "Rénovation d'hôtels et de monuments historiques",
@@ -4844,7 +4844,7 @@
     },
     "mailand": {
       "regulator": "DM 174/2004 (Contact eau potable, IT)",
-      "water": "Eau de la plaine du Pô, à forte dureté — l'absence d'entartrage réduit drastiquement les coûts de maintenance.",
+      "water": "Eau de la plaine du Pô, à forte dureté : l'absence d'entartrage réduit drastiquement les coûts de maintenance.",
       "focus": [
         "Pôle de gratte-ciel Porta Nuova",
         "Magasins phares de mode et de vente au détail",
@@ -4855,7 +4855,7 @@
     },
     "warschau": {
       "regulator": "Certificat PZH (Państwowy Zakład Higieny)",
-      "water": "Eau filtrée des berges de la Vistule — un marché immobilier dynamique nécessitant des installations ultra-rapides.",
+      "water": "Eau filtrée des berges de la Vistule : un marché immobilier dynamique nécessitant des installations ultra-rapides.",
       "focus": [
         "Construction de nouveaux quartiers résidentiels",
         "Halles logistiques et industrielles",
@@ -4866,7 +4866,7 @@
     },
     "prag": {
       "regulator": "Agréments sanitaires SZÚ (CZ)",
-      "water": "Eau des barrages de la Vltava — une demande de rénovation massive pour l'habitat historique.",
+      "water": "Eau des barrages de la Vltava : une demande de rénovation massive pour l'habitat historique.",
       "focus": [
         "Rénovation des conduites dans les bâtiments anciens",
         "Hôtellerie",
@@ -4876,8 +4876,8 @@
       "focusHeading": "Projets typiques à Prague"
     },
     "dubai": {
-      "regulator": "DEWA — Dubai Electricity & Water Authority",
-      "water": "Eau de mer dessalinisée, fortement chargée en chlorures et températures >30°C — le cas d'usage parfait pour l'endurance du PP-RCT.",
+      "regulator": "DEWA : Dubai Electricity & Water Authority",
+      "water": "Eau de mer dessalinisée, fortement chargée en chlorures et températures >30°C : le cas d'usage parfait pour l'endurance du PP-RCT.",
       "focus": [
         "Tours de très grande hauteur",
         "Complexes hôteliers",
@@ -4888,7 +4888,7 @@
     },
     "abudhabi": {
       "regulator": "DoE Abu Dhabi / Label Estidama",
-      "water": "Eau dessalinisée reminéralisée — les critères environnementaux (Estidama) favorisent nos conduites 100 % recyclables.",
+      "water": "Eau dessalinisée reminéralisée : les critères environnementaux (Estidama) favorisent nos conduites 100 % recyclables.",
       "focus": [
         "Bâtiments gouvernementaux et culturels",
         "Complexes touristiques de Saadiyat",
@@ -4898,8 +4898,8 @@
       "focusHeading": "Projets typiques à Abou Dabi"
     },
     "doha": {
-      "regulator": "Kahramaa — Qatar General Electricity & Water Corp.",
-      "water": "Eau dessalinisée à 99 %, avec des températures d'eau de ville pouvant atteindre 40 °C — la tenue à long terme de nos conduites est l'atout numéro 1.",
+      "regulator": "Kahramaa : Qatar General Electricity & Water Corp.",
+      "water": "Eau dessalinisée à 99 %, avec des températures d'eau de ville pouvant atteindre 40 °C : la tenue à long terme de nos conduites est l'atout numéro 1.",
       "focus": [
         "Développement urbain de Lusail",
         "Reconversion des stades",
@@ -4910,7 +4910,7 @@
     },
     "riad": {
       "regulator": "SASO / Saudi Water Authority",
-      "water": "Mix d'eau dessalinisée (SWCC) et de nappes profondes — des chaleurs estivales extrêmes exigeant les capacités du PP-RCT.",
+      "water": "Mix d'eau dessalinisée (SWCC) et de nappes profondes : des chaleurs estivales extrêmes exigeant les capacités du PP-RCT.",
       "focus": [
         "Giga-projets Vision 2030",
         "King Salman Park",
@@ -4921,7 +4921,7 @@
     },
     "dschidda": {
       "regulator": "SASO / SWCC",
-      "water": "Usines de dessalement en mer Rouge, ambiance saline sévère — l'invulnérabilité du plastique à la corrosion est un critère de survie absolu face à l'acier.",
+      "water": "Usines de dessalement en mer Rouge, ambiance saline sévère : l'invulnérabilité du plastique à la corrosion est un critère de survie absolu face à l'acier.",
       "focus": [
         "Jeddah Central Project",
         "Constructions portuaires et logistiques",
@@ -4942,8 +4942,8 @@
       "focusHeading": "Projets typiques à NEOM / The Line"
     },
     "kuwait": {
-      "regulator": "MEW — Ministry of Electricity & Water",
-      "water": "Eau du Golfe dessalinisée et d'eaux saumâtres — les conduites synthétiques, résistantes aux chlorures, sont la norme recommandée.",
+      "regulator": "MEW : Ministry of Electricity & Water",
+      "water": "Eau du Golfe dessalinisée et d'eaux saumâtres : les conduites synthétiques, résistantes aux chlorures, sont la norme recommandée.",
       "focus": [
         "Planification de Silk City",
         "Villes résidentielles (PAHW)",
@@ -4954,7 +4954,7 @@
     },
     "maskat": {
       "regulator": "Nama Water Services (ex-Diam)",
-      "water": "Alliance de dessalement et de l'irrigation traditionnelle Aflaj — le Sultanat d'Oman favorise les systèmes longue durée nécessitant très peu de maintenance.",
+      "water": "Alliance de dessalement et de l'irrigation traditionnelle Aflaj : le Sultanat d'Oman favorise les systèmes longue durée nécessitant très peu de maintenance.",
       "focus": [
         "Ville portuaire de Duqm",
         "Projets hôteliers et touristiques",
@@ -4964,7 +4964,7 @@
       "focusHeading": "Projets typiques à Mascate"
     },
     "manama": {
-      "regulator": "EWA — Electricity & Water Authority",
+      "regulator": "EWA : Electricity & Water Authority",
       "water": "Réseau totalement alimenté en eau dessalinisée avec de fortes pointes de chaleur estivale. Le PP-RCT conserve ses pleines réserves mécaniques là où le PVC se dégrade.",
       "focus": [
         "Bahrain Bay",
@@ -4975,8 +4975,8 @@
       "focusHeading": "Projets typiques à Manama"
     },
     "amman": {
-      "regulator": "WAJ — Water Authority of Jordan / Miyahuna",
-      "water": "L'un des pays les plus arides du monde — un soudage étanche n'est pas un luxe, c'est une stratégie de sauvegarde de l'eau (Non-Revenue Water < 2 %).",
+      "regulator": "WAJ : Water Authority of Jordan / Miyahuna",
+      "water": "L'un des pays les plus arides du monde : un soudage étanche n'est pas un luxe, c'est une stratégie de sauvegarde de l'eau (Non-Revenue Water < 2 %).",
       "focus": [
         "Sous-réseaux du pipeline de Disi",
         "Construction d'hôpitaux et d'universités",
@@ -4986,8 +4986,8 @@
       "focusHeading": "Projets typiques à Amman"
     },
     "kairo": {
-      "regulator": "HCWW — Holding Company for Water & Wastewater",
-      "water": "L'eau du Nil, soumise à une forte turbidité saisonnière — les parois d'une pureté exceptionnelle du PP limitent l'accumulation de dépôts dans les bâtiments.",
+      "regulator": "HCWW : Holding Company for Water & Wastewater",
+      "water": "L'eau du Nil, soumise à une forte turbidité saisonnière : les parois d'une pureté exceptionnelle du PP limitent l'accumulation de dépôts dans les bâtiments.",
       "focus": [
         "Nouvelle Capitale Administrative",
         "Villes résidentielles (NUCA)",
@@ -5008,7 +5008,7 @@
       "focusHeading": "Projets typiques à Istanbul"
     },
     "singapur": {
-      "regulator": "PUB — Public Utilities Board",
+      "regulator": "PUB : Public Utilities Board",
       "water": "Utilisation massive de NEWater (eau ultra-pure recyclée) sous climat équatorial. Une pression continue sur la durabilité de l'infrastructure.",
       "focus": [
         "Logements publics (HDB)",
@@ -5019,7 +5019,7 @@
       "focusHeading": "Projets typiques à Singapour"
     },
     "kualalumpur": {
-      "regulator": "SPAN — National Water Services Commission",
+      "regulator": "SPAN : National Water Services Commission",
       "water": "Eaux de surface en milieu tropical très humide. La forte résistance aux UV de nos gammes d'extérieur est ici déterminante.",
       "focus": [
         "Quartier financier TRX",
@@ -5030,8 +5030,8 @@
       "focusHeading": "Projets typiques à Kuala Lumpur"
     },
     "mumbai": {
-      "regulator": "BIS — Bureau of Indian Standards",
-      "water": "Distribution rythmée par les moussons et approvisionnements alternés — la résistance exceptionnelle aux coups de bélier (ondes de choc) est vitale.",
+      "regulator": "BIS : Bureau of Indian Standards",
+      "water": "Distribution rythmée par les moussons et approvisionnements alternés : la résistance exceptionnelle aux coups de bélier (ondes de choc) est vitale.",
       "focus": [
         "Réaménagement de grande hauteur",
         "Construction d'hôpitaux et d'infrastructures pharmaceutiques",
@@ -5052,7 +5052,7 @@
       "focusHeading": "Projets typiques au Cap"
     },
     "nairobi": {
-      "regulator": "KEBS — Kenya Bureau of Standards",
+      "regulator": "KEBS : Kenya Bureau of Standards",
       "water": "Contexte de métropole en pleine explosion démographique alliant eau de barrage et forages profonds. Les opérateurs privilégient une installation rapide, durable et sans entretien.",
       "focus": [
         "Programme de logements abordables",
@@ -5071,11 +5071,11 @@
   "productsx": {
     "pipesEyebrow": "Gamme de tubes",
     "pipesTitle": "Trois familles de tubes, une même logique de système.",
-    "pipesLead": "Monocouche, PP-RCT et multicouche renforcé de fibre de verre — plus des versions stabilisées aux UV pour les applications en extérieur.",
+    "pipesLead": "Monocouche, PP-RCT et multicouche renforcé de fibre de verre : plus des versions stabilisées aux UV pour les applications en extérieur.",
     "pipes": [
       {
         "t": "K-Pipe PP-R Monocouche",
-        "d": "Le standard éprouvé pour l'eau potable chaude et froide. Structure monocouche, gamme SDR complète dans les dimensions courantes — économique pour la construction résidentielle et tertiaire.",
+        "d": "Le standard éprouvé pour l'eau potable chaude et froide. Structure monocouche, gamme SDR complète dans les dimensions courantes : économique pour la construction résidentielle et tertiaire.",
         "tags": [
           "d20–d630",
           "SDR 6–17"
@@ -5083,7 +5083,7 @@
       },
       {
         "t": "K-Pipe PP-RCT",
-        "d": "Structure cristalline modifiée pour une plus grande réserve de température et de pression : le SDR 7,4 est conçu pour un fonctionnement continu à 70 °C sous 10 bar (1,0 MPa) — le choix idéal pour l'eau chaude et la circulation.",
+        "d": "Structure cristalline modifiée pour une plus grande réserve de température et de pression : le SDR 7,4 est conçu pour un fonctionnement continu à 70 °C sous 10 bar (1,0 MPa) : le choix idéal pour l'eau chaude et la circulation.",
         "tags": [
           "70 °C · 10 bar",
           "Eau chaude"
@@ -5091,7 +5091,7 @@
       },
       {
         "t": "K-Fiber Pipe (GF-Multilayer)",
-        "d": "Âme renforcée de fibre de verre entre deux couches de PP : dilatation thermique réduite à environ un quart, plus grand espacement des colliers, indéformable jusqu'au d630 — jusqu'à 20 bar (2,0 MPa) à 20 °C en SDR 6.",
+        "d": "Âme renforcée de fibre de verre entre deux couches de PP : dilatation thermique réduite à environ un quart, plus grand espacement des colliers, indéformable jusqu'au d630 : jusqu'à 20 bar (2,0 MPa) à 20 °C en SDR 6.",
         "tags": [
           "Âme FV",
           "d20–d630"
@@ -5099,7 +5099,7 @@
       },
       {
         "t": "Version stabilisée aux UV",
-        "d": "Pour les installations exposées au soleil — comme les serres ou les conduites aériennes — la gamme est disponible dans une version résistante aux UV.",
+        "d": "Pour les installations exposées au soleil : comme les serres ou les conduites aériennes : la gamme est disponible dans une version résistante aux UV.",
         "tags": [
           "Extérieur",
           "Agricole"
@@ -5108,7 +5108,7 @@
     ],
     "dimEyebrow": "Tableaux des dimensions",
     "dimTitle": "Chaque dimension, chaque épaisseur de paroi.",
-    "dimLead": "Sélectionnez la classe de pression — le tableau indique toutes les dimensions disponibles avec l'épaisseur de paroi, le diamètre intérieur, la pression nominale, la contenance en eau et le poids au mètre.",
+    "dimLead": "Sélectionnez la classe de pression : le tableau indique toutes les dimensions disponibles avec l'épaisseur de paroi, le diamètre intérieur, la pression nominale, la contenance en eau et le poids au mètre.",
     "dimTabAria": "Sélectionner la classe de pression",
     "dimHead": [
       "d (mm)",
@@ -5124,17 +5124,17 @@
       {
         "v": "20 bar",
         "t": "K-Fiber Pipe PP-R · SDR 6",
-        "c": "2,0 MPa en fonctionnement continu à 20 °C — eau froide sur un horizon de conception de 50 ans."
+        "c": "2,0 MPa en fonctionnement continu à 20 °C : eau froide sur un horizon de conception de 50 ans."
       },
       {
         "v": "10 bar",
         "t": "K-Pipe PP-RCT · SDR 7,4",
-        "c": "1,0 MPa en fonctionnement continu à 70 °C — eau chaude et circulation sans perte de réserve."
+        "c": "1,0 MPa en fonctionnement continu à 70 °C : eau chaude et circulation sans perte de réserve."
       }
     ],
     "matEyebrow": "Données sur les matériaux",
     "matTitle": "Ce qui distingue le matériau.",
-    "matLead": "Les principales caractéristiques du système PP-R/PP-RCT — et pourquoi elles comptent dans la planification.",
+    "matLead": "Les principales caractéristiques du système PP-R/PP-RCT : et pourquoi elles comptent dans la planification.",
     "matHead": [
       "Propriété",
       "Valeur",
@@ -5144,7 +5144,7 @@
       [
         "Densité",
         "0,905 g/cm³",
-        "Environ un dixième de celle du cuivre — transport facile, montage aisé sans équipement de levage pour les dimensions petites et moyennes."
+        "Environ un dixième de celle du cuivre : transport facile, montage aisé sans équipement de levage pour les dimensions petites et moyennes."
       ],
       [
         "Rugosité interne",
@@ -5154,7 +5154,7 @@
       [
         "Conductivité thermique",
         "0,24 W/(m·K)",
-        "Faibles pertes de chaleur dans la circulation d'eau chaude — économies d'énergie durables par rapport au métal."
+        "Faibles pertes de chaleur dans la circulation d'eau chaude : économies d'énergie durables par rapport au métal."
       ],
       [
         "Dilatation thermique (monocouche)",
@@ -5164,7 +5164,7 @@
       [
         "Dilatation thermique (K-Fiber, GF)",
         "≈ 0,04 mm/(m·K)",
-        "Environ un quart de la valeur de la monocouche — distances plus grandes entre les colliers, tracé de la tuyauterie plus régulier."
+        "Environ un quart de la valeur de la monocouche : distances plus grandes entre les colliers, tracé de la tuyauterie plus régulier."
       ],
       [
         "Température du fluide",
@@ -5174,7 +5174,7 @@
       [
         "Résistance chimique",
         "Solvants, alcalis, acides",
-        "Exceptionnellement résistant pour un plastique technique — sans corrosion ni risque de piqûre."
+        "Exceptionnellement résistant pour un plastique technique : sans corrosion ni risque de piqûre."
       ],
       [
         "Recyclage",
@@ -5184,7 +5184,7 @@
     ],
     "fitEyebrow": "Raccords & composants du système",
     "fitTitle": "Le système autour du tuyau.",
-    "fitLead": "Raccords de d20 à d315, vannes, pièces de transition et technologie de soudage complète — le tout d'une seule main et entièrement compatible.",
+    "fitLead": "Raccords de d20 à d315, vannes, pièces de transition et technologie de soudage complète : le tout d'une seule main et entièrement compatible.",
     "fitGroups": [
       {
         "t": "Raccords d20–d315",
@@ -5226,7 +5226,7 @@
     ],
     "normEyebrow": "Normes & certifications",
     "normTitle": "Testé selon les réglementations.",
-    "normLead": "Le système K-Aqua est fabriqué et testé selon les normes pertinentes de la technologie des tuyauteries — chaque lot soumis aux exigences de qualité ISO-9001.",
+    "normLead": "Le système K-Aqua est fabriqué et testé selon les normes pertinentes de la technologie des tuyauteries : chaque lot soumis aux exigences de qualité ISO-9001.",
     "normHead": [
       "Norme",
       "Titre",
@@ -5235,12 +5235,12 @@
     "norms": [
       [
         "DIN 8077",
-        "Tubes en polypropylène — Dimensions",
+        "Tubes en polypropylène : Dimensions",
         "Définit les séries de diamètres et d'épaisseurs de paroi (SDR) pour les tubes en PP."
       ],
       [
         "DIN 8078",
-        "Tubes en polypropylène — Exigences",
+        "Tubes en polypropylène : Exigences",
         "Exigences générales de qualité et essais pour les tubes en PP-R/PP-RCT."
       ],
       [
@@ -5251,12 +5251,12 @@
       [
         "DVS 2207-11",
         "Soudage du PP",
-        "Valeurs indicatives pour le soudage dans l'emboîture, l'électrosoudage et le soudage bout à bout — Base des contenus de l'Academy."
+        "Valeurs indicatives pour le soudage dans l'emboîture, l'électrosoudage et le soudage bout à bout : Base des contenus de l'Academy."
       ],
       [
         "DVGW / KTW",
         "Contact avec l'eau potable",
-        "Certificats de conformité pour le contact avec l'eau potable — disponibles sur demande dans le Trust Center."
+        "Certificats de conformité pour le contact avec l'eau potable : disponibles sur demande dans le Trust Center."
       ],
       [
         "EN 15804",
@@ -5266,7 +5266,7 @@
       [
         "ISO 9001 / 14001 / 50001",
         "Systèmes de management",
-        "Qualité, environnement et énergie — triple certification depuis octobre 2025, accréditée DAkkS."
+        "Qualité, environnement et énergie : triple certification depuis octobre 2025, accréditée DAkkS."
       ],
       [
         "GENAU",
@@ -5279,19 +5279,19 @@
     "faq": [
       {
         "q": "Pour quels fluides le système est-il conçu ?",
-        "a": "Pour l'eau potable — chaude et froide — avec une résistance élevée à la température et à la pression sur des décennies. Grâce à la résistance du PP aux solvants, aux bases et aux acides, des applications industrielles sont également possibles ; nous les examinons avec vous de manière spécifique au projet."
+        "a": "Pour l'eau potable : chaude et froide : avec une résistance élevée à la température et à la pression sur des décennies. Grâce à la résistance du PP aux solvants, aux bases et aux acides, des applications industrielles sont également possibles ; nous les examinons avec vous de manière spécifique au projet."
       },
       {
         "q": "Que signifient les cinq classes SDR ?",
-        "a": "SDR est le rapport entre le diamètre extérieur et l'épaisseur de la paroi (d/s). Plus le SDR est petit, plus la paroi est épaisse et plus la pression nominale est élevée : SDR 6 correspond à PN 20, SDR 17 correspond à PN 6. Ainsi, vous choisissez pour chaque application exactement la réserve dont vous avez besoin — sans surdimensionnement."
+        "a": "SDR est le rapport entre le diamètre extérieur et l'épaisseur de la paroi (d/s). Plus le SDR est petit, plus la paroi est épaisse et plus la pression nominale est élevée : SDR 6 correspond à PN 20, SDR 17 correspond à PN 6. Ainsi, vous choisissez pour chaque application exactement la réserve dont vous avez besoin : sans surdimensionnement."
       },
       {
         "q": "Quand utiliser Monolayer et quand utiliser K-Fiber ?",
-        "a": "Monolayer est le standard économique pour la plupart des applications. Le composite renforcé de fibres de verre réduit la dilatation thermique à environ un quart, permet des espacements de colliers plus grands et reste indéformable pour les grandes dimensions et l'eau chaude — le choix pour les conduites montantes, la circulation et les d ≥ 160."
+        "a": "Monolayer est le standard économique pour la plupart des applications. Le composite renforcé de fibres de verre réduit la dilatation thermique à environ un quart, permet des espacements de colliers plus grands et reste indéformable pour les grandes dimensions et l'eau chaude : le choix pour les conduites montantes, la circulation et les d ≥ 160."
       },
       {
         "q": "Comment les tubes sont-ils raccordés ?",
-        "a": "Par soudage avec liaison de matière — soudage dans l'emboîture manuel (jusqu'au d63) ou à la machine, électrosoudage via des raccords électrosoudables et soudage bout à bout pour les grandes dimensions jusqu'au d630. Les appareils et outils adaptés font partie de la gamme ; l'Academy présente les quatre procédés en vidéo."
+        "a": "Par soudage avec liaison de matière : soudage dans l'emboîture manuel (jusqu'au d63) ou à la machine, électrosoudage via des raccords électrosoudables et soudage bout à bout pour les grandes dimensions jusqu'au d630. Les appareils et outils adaptés font partie de la gamme ; l'Academy présente les quatre procédés en vidéo."
       },
       {
         "q": "Le système est-il conforme pour l'eau potable ?",
@@ -5299,25 +5299,25 @@
       },
       {
         "q": "Sur quelle durée de vie la conception est-elle basée ?",
-        "a": "Les niveaux de pression sont basés sur les courbes de fluage de la norme DIN 8077/8078 avec un horizon de conception de 50 ans de durée de service — facteur de sécurité inclus. Les deux points d'ancrage de la gamme : SDR 6 avec 20 bars à 20 °C et PP-RCT SDR 7,4 avec 10 bars à 70 °C."
+        "a": "Les niveaux de pression sont basés sur les courbes de fluage de la norme DIN 8077/8078 avec un horizon de conception de 50 ans de durée de service : facteur de sécurité inclus. Les deux points d'ancrage de la gamme : SDR 6 avec 20 bars à 20 °C et PP-RCT SDR 7,4 avec 10 bars à 70 °C."
       },
       {
         "q": "Où puis-je obtenir des données d'articles contractuelles ?",
-        "a": "Dans le Product Finder, vous filtrez toutes les variantes en direct et les exportez sous forme de fichier CSV. Le catalogue de produits (PDF) fournit des valeurs contractuelles ; pour les conditions de projet, la demande de projet mène directement au service commercial en cinq étapes — avec une réponse sous un jour ouvrable."
+        "a": "Dans le Product Finder, vous filtrez toutes les variantes en direct et les exportez sous forme de fichier CSV. Le catalogue de produits (PDF) fournit des valeurs contractuelles ; pour les conditions de projet, la demande de projet mène directement au service commercial en cinq étapes : avec une réponse sous un jour ouvrable."
       }
     ]
   },
   "solutionsx": {
     "segEyebrow": "Domaines d'application",
     "segTitle": "Éprouvé là où l'eau est un enjeu critique.",
-    "segLead": "Les systèmes K-Aqua sont utilisés dans des projets à travers le monde, de l'hôpital à la serre — chaque domaine d'application tire parti d'autres atouts du matériau.",
+    "segLead": "Les systèmes K-Aqua sont utilisés dans des projets à travers le monde, de l'hôpital à la serre : chaque domaine d'application tire parti d'autres atouts du matériau.",
     "segments": [
       {
         "t": "Hôpitaux et bâtiments de santé",
         "d": "L'hygiène n'est pas négociable ici : la surface intérieure lisse (0,007 mm) empêche la formation de biofilm et d'incrustations, le matériau reste inodore et sans saveur.",
         "pts": [
           "Neutralité hygiénique",
-          "Sans corrosion — pas de piqûres",
+          "Sans corrosion : pas de piqûres",
           "Référence : Construction d'un nouvel hôpital au Cap"
         ]
       },
@@ -5332,7 +5332,7 @@
       },
       {
         "t": "Bâtiments industriels et commerciaux",
-        "d": "Résistant aux solvants, alcalis et acides — là où les conduites métalliques se corrodent, le polypropylène reste insensible.",
+        "d": "Résistant aux solvants, alcalis et acides : là où les conduites métalliques se corrodent, le polypropylène reste insensible.",
         "pts": [
           "Résistance chimique",
           "Longs intervalles de maintenance",
@@ -5341,7 +5341,7 @@
       },
       {
         "t": "Serres et agriculture",
-        "d": "Versions stabilisées aux UV pour l'irrigation sous verre et en extérieur — légères, rapides à poser, moins sensibles au gel que les systèmes rigides.",
+        "d": "Versions stabilisées aux UV pour l'irrigation sous verre et en extérieur : légères, rapides à poser, moins sensibles au gel que les systèmes rigides.",
         "pts": [
           "Version résistante aux UV",
           "Faible poids",
@@ -5350,7 +5350,7 @@
       },
       {
         "t": "Infrastructures municipales",
-        "d": "Conduites d'alimentation et réseaux de grandes dimensions jusqu'au d630 — soudés bout à bout pour former des sections homogènes et durablement étanches.",
+        "d": "Conduites d'alimentation et réseaux de grandes dimensions jusqu'au d630 : soudés bout à bout pour former des sections homogènes et durablement étanches.",
         "pts": [
           "d jusqu'à 630 mm",
           "Soudage bout à bout (Butt Fusion)",
@@ -5369,7 +5369,7 @@
     ],
     "cmpEyebrow": "Comparaison des matériaux",
     "cmpTitle": "Le PP-R/PP-RCT en comparaison.",
-    "cmpLead": "Quatre matériaux de conduites, huit critères — une comparaison simplifiée comme point de départ pour le choix du matériau spécifique au projet.",
+    "cmpLead": "Quatre matériaux de conduites, huit critères : une comparaison simplifiée comme point de départ pour le choix du matériau spécifique au projet.",
     "cmpHead": [
       "Critère",
       "K-Aqua PP-R/PP-RCT",
@@ -5380,21 +5380,21 @@
     "cmpRows": [
       [
         "Corrosion",
-        "sans corrosion — immunisé contre la corrosion électrochimique",
+        "sans corrosion : immunisé contre la corrosion électrochimique",
         "Piqûres possibles",
         "résistant (selon la qualité)",
         "sans corrosion"
       ],
       [
         "Incrustation et biofilm",
-        "très faible — rugosité interne 0,007 mm",
+        "très faible : rugosité interne 0,007 mm",
         "possible",
         "faible",
         "faible"
       ],
       [
         "Conductivité thermique",
-        "0,24 W/(m·K) — faibles pertes",
+        "0,24 W/(m·K) : faibles pertes",
         "≈ 390 W/(m·K)",
         "≈ 15 W/(m·K)",
         "≈ 0,14 W/(m·K)"
@@ -5408,7 +5408,7 @@
       ],
       [
         "Technique d'assemblage",
-        "soudé par fusion de matière — section homogène",
+        "soudé par fusion de matière : section homogène",
         "soudé / serti",
         "serti / soudé",
         "collé"
@@ -5422,14 +5422,14 @@
       ],
       [
         "CO₂ (Installation)",
-        "faible — comparer dans le calculateur de CO₂",
+        "faible : comparer dans le calculateur de CO₂",
         "élevé",
         "élevé",
         "moyen"
       ],
       [
         "Recyclage",
-        "Code 5, mono-matériau — 100 % des déchets de production dans le cycle",
+        "Code 5, mono-matériau : 100 % des déchets de production dans le cycle",
         "cycle de ferraille",
         "cycle de ferraille",
         "limité"
@@ -5438,11 +5438,11 @@
     "cmpNote": "Comparaison simplifiée avec des valeurs caractéristiques typiques des matériaux ; le choix du matériau reste spécifique au projet. Base de données pour la comparaison de CO₂ : voir le calculateur de CO₂ et les fiches de données EPD.",
     "lifeEyebrow": "Cycle de vie",
     "lifeTitle": "Du gaz brut au recyclat.",
-    "lifeLead": "La responsabilité sur l'ensemble du cycle — quatre étapes qui rendent le produit écologiquement viable.",
+    "lifeLead": "La responsabilité sur l'ensemble du cycle : quatre étapes qui rendent le produit écologiquement viable.",
     "life": [
       {
         "t": "Matière première avec une histoire",
-        "d": "Le polypropylène est issu de gaz autrefois brûlés inutilement — son utilisation comme matériau réduit la pollution de l'air à la source."
+        "d": "Le polypropylène est issu de gaz autrefois brûlés inutilement : son utilisation comme matériau réduit la pollution de l'air à la source."
       },
       {
         "t": "Production en circuit fermé",
@@ -5450,7 +5450,7 @@
       },
       {
         "t": "50 ans de fonctionnement",
-        "d": "Conçu pour une durée de fonctionnement de 50 ans selon les courbes de résistance au fluage de la norme DIN 8077/8078 — facile d'entretien, résistant à l'usure, résistant au vieillissement."
+        "d": "Conçu pour une durée de fonctionnement de 50 ans selon les courbes de résistance au fluage de la norme DIN 8077/8078 : facile d'entretien, résistant à l'usure, résistant au vieillissement."
       },
       {
         "t": "Retour dans le cycle",
@@ -5461,7 +5461,7 @@
   "trustx": {
     "stakeEyebrow": "Pour votre centre d'achat",
     "stakeTitle": "Chaque rôle examine différemment.",
-    "stakeLead": "Un comité d'achat B2B compte en moyenne 11 à 20 personnes — la technique, les achats et la durabilité nécessitent des preuves différentes. Voici la carte.",
+    "stakeLead": "Un comité d'achat B2B compte en moyenne 11 à 20 personnes : la technique, les achats et la durabilité nécessitent des preuves différentes. Voici la carte.",
     "stakeHead": [
       "Rôle",
       "Ce qui compte",
@@ -5508,42 +5508,42 @@
         "l": "des clients B2B préfèrent acheter chez des fournisseurs dont la durabilité est prouvée"
       }
     ],
-    "statNote": "Chiffres clés tirés d'études sectorielles sur les achats B2B — c'est pourquoi toutes les preuves sont ici disponibles en libre-service plutôt que « sur demande écrite ».",
+    "statNote": "Chiffres clés tirés d'études sectorielles sur les achats B2B : c'est pourquoi toutes les preuves sont ici disponibles en libre-service plutôt que « sur demande écrite ».",
     "instEyebrow": "Partenaires de contrôle",
     "instTitle": "Qui se cache derrière les certifications.",
     "inst": [
       {
         "t": "Certification accréditée DAkkS",
-        "d": "Les certificats ISO 9001, 14001 et 50001 proviennent d'un organisme de certification accrédité par l'Organisme allemand d'accréditation (DAkkS) — valables de 10/2025 à 10/2028."
+        "d": "Les certificats ISO 9001, 14001 et 50001 proviennent d'un organisme de certification accrédité par l'Organisme allemand d'accréditation (DAkkS) : valables de 10/2025 à 10/2028."
       },
       {
-        "t": "SKZ — Centre des plastiques d'Allemagne du Sud",
-        "d": "L'assurance qualité des systèmes de tuyauterie est accompagnée par le célèbre institut d'essais des plastiques — des contrôles indépendants plutôt que de l'autosatisfaction."
+        "t": "SKZ : Centre des plastiques d'Allemagne du Sud",
+        "d": "L'assurance qualité des systèmes de tuyauterie est accompagnée par le célèbre institut d'essais des plastiques : des contrôles indépendants plutôt que de l'autosatisfaction."
       },
       {
-        "t": "DVGW / KTW — Contact avec l'eau potable",
+        "t": "DVGW / KTW : Contact avec l'eau potable",
         "d": "Les certificats de conformité pour le contact avec l'eau potable font partie du dossier RFP et sont fournis sur demande."
       }
     ],
     "auditEyebrow": "Calendrier d'audit",
     "auditTitle": "De la demande à l'approbation.",
-    "auditLead": "Voici comment se déroule la qualification d'un fournisseur avec K-Aqua — de manière planifiée et sans temps d'attente.",
+    "auditLead": "Voici comment se déroule la qualification d'un fournisseur avec K-Aqua : de manière planifiée et sans temps d'attente.",
     "audit": [
       {
         "t": "Préparer le dossier documentaire",
-        "d": "Composez ci-dessus votre dossier RFP — certificats, politique GENAU, EPD, GAEB et manuel d'assurance qualité, demandés au format ZIP."
+        "d": "Composez ci-dessus votre dossier RFP : certificats, politique GENAU, EPD, GAEB et manuel d'assurance qualité, demandés au format ZIP."
       },
       {
         "t": "Clarifier les questions",
-        "d": "La qualité et le support technique vous répondent à l'adresse support@k-aqua.de — dans un délai d'un jour ouvrable."
+        "d": "La qualité et le support technique vous répondent à l'adresse support@k-aqua.de : dans un délai d'un jour ouvrable."
       },
       {
         "t": "Convenir d'un audit d'usine",
-        "d": "Auditez la production, le laboratoire d'essais et les pratiques GENAU sur place à Waldsolms — rendez-vous sur demande."
+        "d": "Auditez la production, le laboratoire d'essais et les pratiques GENAU sur place à Waldsolms : rendez-vous sur demande."
       },
       {
         "t": "Approbation et requalification",
-        "d": "Après le référencement, des audits de surveillance accompagnent le cycle de 3 ans des certificats — vos documents restent à jour."
+        "d": "Après le référencement, des audits de surveillance accompagnent le cycle de 3 ans des certificats : vos documents restent à jour."
       }
     ],
     "faqEyebrow": "FAQ sur la conformité",
@@ -5551,19 +5551,19 @@
     "faq": [
       {
         "q": "Combien de temps les certificats ISO sont-ils valables ?",
-        "a": "Trois ans — le cycle actuel court de 10/2025 à 10/2028, accompagné d'audits de surveillance annuels par l'organisme de certification."
+        "a": "Trois ans : le cycle actuel court de 10/2025 à 10/2028, accompagné d'audits de surveillance annuels par l'organisme de certification."
       },
       {
         "q": "Que signifie « accrédité DAkkS » ?",
-        "a": "L'Organisme allemand d'accréditation (DAkkS) est l'instance nationale d'accréditation de l'Allemagne. Elle supervise elle-même les organismes de certification — l'accréditation rend le certificat valable au niveau international."
+        "a": "L'Organisme allemand d'accréditation (DAkkS) est l'instance nationale d'accréditation de l'Allemagne. Elle supervise elle-même les organismes de certification : l'accréditation rend le certificat valable au niveau international."
       },
       {
         "q": "Comment vérifier un certificat ?",
-        "a": "Chaque certificat porte un numéro de certificat (par ex. Q-2025-6732) et l'organisme émetteur. Ces deux informations permettent de vérifier la validité directement auprès de l'organisme de certification — ou vous pouvez faire une demande à support@k-aqua.de."
+        "a": "Chaque certificat porte un numéro de certificat (par ex. Q-2025-6732) et l'organisme émetteur. Ces deux informations permettent de vérifier la validité directement auprès de l'organisme de certification : ou vous pouvez faire une demande à support@k-aqua.de."
       },
       {
         "q": "Existe-t-il des données brutes Scope 3 et EPD ?",
-        "a": "Oui — nous fournissons les données d'émissions Scope 3 et les données brutes EPD sur demande. Une transparence proactive plutôt qu'une simple obligation : votre équipe de développement durable obtient des chiffres fiables pour son propre bilan."
+        "a": "Oui : nous fournissons les données d'émissions Scope 3 et les données brutes EPD sur demande. Une transparence proactive plutôt qu'une simple obligation : votre équipe de développement durable obtient des chiffres fiables pour son propre bilan."
       },
       {
         "q": "Fournissez-vous des textes d'appel d'offres GAEB ?",
@@ -5571,43 +5571,43 @@
       },
       {
         "q": "Qu'est-ce qu'une EPD selon la norme EN 15804 ?",
-        "a": "Une déclaration environnementale de produit (Type III) avec des données d'analyse du cycle de vie (ACV) vérifiées sur l'ensemble du cycle de vie. Elle constitue la base de données pour les certifications de bâtiments telles que LEED, BREEAM et DGNB — et pour les modèles d'achat ajustés au CO₂."
+        "a": "Une déclaration environnementale de produit (Type III) avec des données d'analyse du cycle de vie (ACV) vérifiées sur l'ensemble du cycle de vie. Elle constitue la base de données pour les certifications de bâtiments telles que LEED, BREEAM et DGNB : et pour les modèles d'achat ajustés au CO₂."
       }
     ]
   },
   "partnerx": {
     "ecoEyebrow": "L'Écosystème KESSEL",
     "ecoTitle": "Ce que gagnent les clients K-Aqua.",
-    "ecoLead": "KESSEL a bâti l'infrastructure d'une marque premium sur plusieurs décennies — K-Aqua transpose exactement cette rigueur dans le domaine de la distribution d'eau.",
+    "ecoLead": "KESSEL a bâti l'infrastructure d'une marque premium sur plusieurs décennies : K-Aqua transpose exactement cette rigueur dans le domaine de la distribution d'eau.",
     "eco": [
       {
         "t": "Présence à l'ISH de Francfort",
-        "d": "KESSEL s'expose sur le salon de référence mondial du CVC — la plateforme où l'évacuation et l'alimentation en eau se pensent de concert."
+        "d": "KESSEL s'expose sur le salon de référence mondial du CVC : la plateforme où l'évacuation et l'alimentation en eau se pensent de concert."
       },
       {
         "t": "Portail Bureaux d'Études",
-        "d": "Cette plateforme numérique destinée aux prescripteurs est le cœur de la fidélisation — elle sert de matrice pour les futurs outils digitaux de K-Aqua."
+        "d": "Cette plateforme numérique destinée aux prescripteurs est le cœur de la fidélisation : elle sert de matrice pour les futurs outils digitaux de K-Aqua."
       },
       {
         "t": "Forum Clients",
-        "d": "Des formations présentielles et hybrides sur des sites dédiés, comme Lenting ou Hambourg — parce que la transmission du savoir cimente la confiance."
+        "d": "Des formations présentielles et hybrides sur des sites dédiés, comme Lenting ou Hambourg : parce que la transmission du savoir cimente la confiance."
       },
       {
         "t": "Manuel de Planification",
-        "d": "Le savoir technique centralisé par KESSEL est notre modèle pour structurer l'expertise K-Aqua destinée aux ingénieurs — de l'Academy aux tableaux d'abaques."
+        "d": "Le savoir technique centralisé par KESSEL est notre modèle pour structurer l'expertise K-Aqua destinée aux ingénieurs : de l'Academy aux tableaux d'abaques."
       }
     ],
     "flowEyebrow": "Deux Flux, Un Bâtiment",
     "flowTitle": "L'eau qui entre, l'eau qui sort.",
-    "flowLead": "Chaque ouvrage gère une double circulation hydrique — notre partenariat couvre la totalité de ce cycle avec le même ADN d'excellence technique.",
+    "flowLead": "Chaque ouvrage gère une double circulation hydrique : notre partenariat couvre la totalité de ce cycle avec le même ADN d'excellence technique.",
     "flow": [
       {
-        "t": "K-Aqua — L'excellence de l'Adduction",
+        "t": "K-Aqua : L'excellence de l'Adduction",
         "d": "Réseaux sous pression d20–d630 : tubes, raccords, vannes et machines de soudage de haute technologie, directement issus de notre usine de Waldsolms."
       },
       {
-        "t": "KESSEL — Le leader de l'Évacuation",
-        "d": "Le fabricant premium de la technique d'assainissement : clapets anti-retour, stations de relevage, séparateurs — l'autorité incontestée de la filière."
+        "t": "KESSEL : Le leader de l'Évacuation",
+        "d": "Le fabricant premium de la technique d'assainissement : clapets anti-retour, stations de relevage, séparateurs : l'autorité incontestée de la filière."
       },
       {
         "t": "Synergie Opérationnelle",
@@ -5619,17 +5619,17 @@
     "road": [
       {
         "t": "Academy & Vidéos Techniques",
-        "d": "Démonstrations des 4 techniques de soudage et quiz d'évaluation — accessible dès aujourd'hui, pensé pour le terrain.",
+        "d": "Démonstrations des 4 techniques de soudage et quiz d'évaluation : accessible dès aujourd'hui, pensé pour le terrain.",
         "s": "Actif"
       },
       {
         "t": "Assistance Équipement de Soudage",
-        "d": "Fourniture des machines, outils et formation de vos équipes — opéré directement par le fabricant.",
+        "d": "Fourniture des machines, outils et formation de vos équipes : opéré directement par le fabricant.",
         "s": "Actif"
       },
       {
         "t": "Outils de Conception Numériques",
-        "d": "Simulateur de produits, Bilan CO₂ et portail Trust Center en libre accès — calqué sur la réussite du Portail Planificateurs.",
+        "d": "Simulateur de produits, Bilan CO₂ et portail Trust Center en libre accès : calqué sur la réussite du Portail Planificateurs.",
         "s": "Déploiement"
       },
       {
@@ -5640,15 +5640,15 @@
     ],
     "specEyebrow": "Pour vos Prescriptions",
     "specTitle": "Vos données directement dans les logiciels métiers.",
-    "specLead": "Les choix technologiques se font au cœur de vos logiciels BIM et de chiffrage (AVA) — c'est exactement là que nous injectons nos datas.",
+    "specLead": "Les choix technologiques se font au cœur de vos logiciels BIM et de chiffrage (AVA) : c'est exactement là que nous injectons nos datas.",
     "spec": [
       {
         "t": "Textes de prescription (GAEB/CCTP)",
-        "d": "Des descriptifs pré-rédigés pour vos cahiers des charges — disponibles dans les packages RFP du Trust Center."
+        "d": "Des descriptifs pré-rédigés pour vos cahiers des charges : disponibles dans les packages RFP du Trust Center."
       },
       {
         "t": "BIM & Objets CAO 3D",
-        "d": "Fichiers de modélisation pour vos jumeaux numériques — sur demande via notre force de vente, base en constante expansion."
+        "d": "Fichiers de modélisation pour vos jumeaux numériques : sur demande via notre force de vente, base en constante expansion."
       },
       {
         "t": "Fiches Techniques & Échantillons",
@@ -5659,7 +5659,7 @@
   "academyx": {
     "paramEyebrow": "Abaques de Soudage",
     "paramTitle": "Polyfusion manuelle : les référentiels.",
-    "paramLead": "Les temps de chauffe, d'assemblage et de refroidissement fixés par la DVS 2207-11 (température matrice 250–270 °C) — la doctrine théorique indispensable pour maîtriser nos tutoriels vidéos.",
+    "paramLead": "Les temps de chauffe, d'assemblage et de refroidissement fixés par la DVS 2207-11 (température matrice 250–270 °C) : la doctrine théorique indispensable pour maîtriser nos tutoriels vidéos.",
     "paramHead": [
       "d (mm)",
       "Profondeur de soudage (mm)",
@@ -5670,7 +5670,7 @@
     "paramNote": "Recommandations DVS 2207-11 pour le Polypropylène, chauffe à 250–270 °C. Seules prévalent cependant les directives fournies avec votre équipement. Le mot d'ordre : révisez nos vidéos, calibrez votre machine.",
     "stepEyebrow": "Processus point par point",
     "stepTitle": "Quatre techniques. Zéro défaut.",
-    "stepLead": "Chaque diamètre a sa procédure reine — avec cinq étapes strictes conditionnant la pérennité de l'installation sous pression.",
+    "stepLead": "Chaque diamètre a sa procédure reine : avec cinq étapes strictes conditionnant la pérennité de l'installation sous pression.",
     "procTabs": [
       "Manchon (Manuel)",
       "Manchon (Machine)",
@@ -5679,7 +5679,7 @@
     ],
     "procs": [
       {
-        "t": "Polyfusion par emboîture (Manuelle) — Jusqu'au d63",
+        "t": "Polyfusion par emboîture (Manuelle) : Jusqu'au d63",
         "steps": [
           {
             "t": "Coupe & Ébavurage",
@@ -5694,7 +5694,7 @@
             "d": "Insérez d'un même mouvement le tube dans la douille et le raccord sur le mandrin, puis déclenchez le chronomètre de chauffe."
           },
           {
-            "t": "Emboîtement rapide — Interdiction de tourner",
+            "t": "Emboîtement rapide : Interdiction de tourner",
             "d": "Assemblez de façon parfaitement axiale avant la fin du temps de tolérance. Règle d'or : ne vrillez jamais les pièces, cela déchire la structure plastique ramollie."
           },
           {
@@ -5704,7 +5704,7 @@
         ]
       },
       {
-        "t": "Polyfusion sur banc machine — Calibres intermédiaires",
+        "t": "Polyfusion sur banc machine : Calibres intermédiaires",
         "steps": [
           {
             "t": "Préparation identique au mode manuel",
@@ -5712,7 +5712,7 @@
           },
           {
             "t": "Mise en mors du tube et du raccord",
-            "d": "Le berceau de la machine verrouille l'alignement — désaxements et défauts d'insertion sont ainsi éliminés d'office."
+            "d": "Le berceau de la machine verrouille l'alignement : désaxements et défauts d'insertion sont ainsi éliminés d'office."
           },
           {
             "t": "Cycle de chauffe calibré",
@@ -5720,7 +5720,7 @@
           },
           {
             "t": "Accouplement mécanique",
-            "d": "Le charriot avance avec une force mesurée et parfaitement rectiligne — le secret d'une soudure sans faille pour les diamètres critiques (d75 à d125)."
+            "d": "Le charriot avance avec une force mesurée et parfaitement rectiligne : le secret d'une soudure sans faille pour les diamètres critiques (d75 à d125)."
           },
           {
             "t": "Refroidissement sous maintien",
@@ -5729,7 +5729,7 @@
         ]
       },
       {
-        "t": "Électrosoudage (Electrofusion) — Manchons à résistance",
+        "t": "Électrosoudage (Electrofusion) : Manchons à résistance",
         "steps": [
           {
             "t": "Grattage mécanique de la surface",
@@ -5754,7 +5754,7 @@
         ]
       },
       {
-        "t": "Soudage Bout-à-Bout (Butt Fusion) — Tuyaux Magistraux (jusqu'à 630 mm)",
+        "t": "Soudage Bout-à-Bout (Butt Fusion) : Tuyaux Magistraux (jusqu'à 630 mm)",
         "steps": [
           {
             "t": "Surfaçage au rabot",
@@ -5762,7 +5762,7 @@
           },
           {
             "t": "Tolérance zéro sur le décalage",
-            "d": "Le désaffleurement entre les deux murs ne doit pas excéder 10 % de l'épaisseur du tube — en d630, le moindre millimètre compte."
+            "d": "Le désaffleurement entre les deux murs ne doit pas excéder 10 % de l'épaisseur du tube : en d630, le moindre millimètre compte."
           },
           {
             "t": "Formation du bourrelet (Miroir)",
@@ -5774,13 +5774,13 @@
           },
           {
             "t": "Cristallisation sous charge",
-            "d": "La pression hydraulique est maintenue tout le long du chronomètre de refroidissement — pour livrer une canalisation indissociable et monolithique."
+            "d": "La pression hydraulique est maintenue tout le long du chronomètre de refroidissement : pour livrer une canalisation indissociable et monolithique."
           }
         ]
       }
     ],
     "errEyebrow": "Autopsie des Fautes",
-    "errTitle": "Les 6 défaillances ruineuses — et comment les abolir.",
+    "errTitle": "Les 6 défaillances ruineuses : et comment les abolir.",
     "errHead": [
       "Erreur",
       "Conséquence",
@@ -5790,7 +5790,7 @@
       [
         "Chauffage trop long",
         "Le bourrelet croît vers l'intérieur, la section se rétrécit",
-        "Chronométrer le temps de chauffage selon le tableau — et non au jugé"
+        "Chronométrer le temps de chauffage selon le tableau : et non au jugé"
       ],
       [
         "Torsion lors de l'assemblage",
@@ -5800,7 +5800,7 @@
       [
         "Absence d'ébavurage/de chanfreinage",
         "Le matériau se repousse, la zone d'assemblage devient irrégulière",
-        "Ébavurer chaque coupe — l'outil fait partie du système"
+        "Ébavurer chaque coupe : l'outil fait partie du système"
       ],
       [
         "Élément chauffant encrassé",
@@ -5810,7 +5810,7 @@
       [
         "Sollicitation trop précoce",
         "La soudure se déforme avant de durcir",
-        "Respecter les temps de refroidissement — pour le d110, c'est 8 minutes"
+        "Respecter les temps de refroidissement : pour le d110, c'est 8 minutes"
       ],
       [
         "Profondeur de soudage incorrecte",
@@ -5827,23 +5827,23 @@
       ],
       [
         "PN",
-        "Pression nominale en bar à 20 °C sur l'horizon de conception — SDR 6 correspond à PN 20, SDR 17 correspond à PN 6."
+        "Pression nominale en bar à 20 °C sur l'horizon de conception : SDR 6 correspond à PN 20, SDR 17 correspond à PN 6."
       ],
       [
         "d / di / s",
-        "Diamètre extérieur / diamètre intérieur / épaisseur de paroi en millimètres — di = d − 2s."
+        "Diamètre extérieur / diamètre intérieur / épaisseur de paroi en millimètres : di = d − 2s."
       ],
       [
         "PP-R",
-        "Copolymère statistique de polypropylène — le matériau standard éprouvé pour les installations d'eau potable."
+        "Copolymère statistique de polypropylène : le matériau standard éprouvé pour les installations d'eau potable."
       ],
       [
         "PP-RCT",
-        "PP-R avec structure cristalline modifiée (\"Crystallinity Temperature\") — plus de réserve de température et de pression à épaisseur de paroi égale."
+        "PP-R avec structure cristalline modifiée (\"Crystallinity Temperature\") : plus de réserve de température et de pression à épaisseur de paroi égale."
       ],
       [
         "K-Fiber / GF",
-        "Structure multicouche renforcée de fibres de verre — réduit la dilatation thermique à environ un quart."
+        "Structure multicouche renforcée de fibres de verre : réduit la dilatation thermique à environ un quart."
       ],
       [
         "Soudage par emboîtement",
@@ -5851,22 +5851,22 @@
       ],
       [
         "Électrosoudage",
-        "Electrofusion : des filaments chauffants intégrés dans le raccord génèrent la chaleur de soudage — contrôlé par paramètres."
+        "Electrofusion : des filaments chauffants intégrés dans le raccord génèrent la chaleur de soudage : contrôlé par paramètres."
       ],
       [
         "Soudage bout à bout",
-        "Butt Fusion : les extrémités planes et parallèles des tubes sont chauffées sur l'élément chauffant et assemblées sous pression — standard jusqu'au d630."
+        "Butt Fusion : les extrémités planes et parallèles des tubes sont chauffées sur l'élément chauffant et assemblées sous pression : standard jusqu'au d630."
       ],
       [
         "DVS 2207-11",
-        "Le recueil de règles pour le soudage du polypropylène — source des valeurs indicatives de cette page."
+        "Le recueil de règles pour le soudage du polypropylène : source des valeurs indicatives de cette page."
       ]
     ]
   },
   "servicex": {
     "libEyebrow": "Centre Documentaire",
     "libTitle": "La Data technique en libre accès.",
-    "libLead": "Trois guides majeurs à rapatrier instantanément, l'arsenal des certificats (Bilingue) — et un accès complet aux rapports d'audits via le hub Trust Center.",
+    "libLead": "Trois guides majeurs à rapatrier instantanément, l'arsenal des certificats (Bilingue) : et un accès complet aux rapports d'audits via le hub Trust Center.",
     "libHead": [
       "Document",
       "Contenu",
@@ -6027,7 +6027,7 @@
       },
       {
         "t": "Marquage & Traçabilité Laser",
-        "d": "Au moment de la sortie d'usine, chaque kilomètre de tube est tatoué au laser avec son identifiant de lot — impossible de truquer les résultats de laboratoire afférents."
+        "d": "Au moment de la sortie d'usine, chaque kilomètre de tube est tatoué au laser avec son identifiant de lot : impossible de truquer les résultats de laboratoire afférents."
       }
     ],
     "houseEyebrow": "L'Édifice KWT",
@@ -6084,7 +6084,7 @@
   "newsx": {
     "moreEyebrow": "Immersion & R&D",
     "moreTitle": "Entrez dans le cerveau de K-Aqua.",
-    "moreLead": "Décryptage des dynamiques industrielles, insights matériaux, et dernières mutations internes — déroulez pour approfondir.",
+    "moreLead": "Décryptage des dynamiques industrielles, insights matériaux, et dernières mutations internes : déroulez pour approfondir.",
     "readMore": "Lire le dossier",
     "readLess": "Refermer",
     "posts": [
@@ -6095,7 +6095,7 @@
         "teaser": "Le framework de KWT GmbH consolide de façon incontestable ses trois piliers cruciaux : Qualité, Maîtrise Carbone, et Efficience de l'Énergie.",
         "body": [
           "Depuis octobre 2025, le système de management de la société KWT GmbH bénéficie d'une triple certification : ISO 9001:2015 pour la qualité, ISO 14001:2015 pour l'environnement et ISO 50001:2018 pour l'énergie. Les certificats proviennent d'un organisme de certification accrédité par le DAkkS et sont valables jusqu'en octobre 2028.",
-          "Pour les achats et la conformité, cela signifie : des processus documentés et auditables, de l'extrudeuse à l'expédition. Le système de management GENAU en vigueur répondait déjà auparavant aux exigences des normes DIN EN ISO 14001 et 50001 — la certification garantit désormais sa fiabilité en externe.",
+          "Pour les achats et la conformité, cela signifie : des processus documentés et auditables, de l'extrudeuse à l'expédition. Le système de management GENAU en vigueur répondait déjà auparavant aux exigences des normes DIN EN ISO 14001 et 50001 : la certification garantit désormais sa fiabilité en externe.",
           "Les deux versions du certificat (DE/EN) sont disponibles au téléchargement ; vous pouvez constituer le dossier d'audit complet dans le Trust Center."
         ]
       },
@@ -6105,8 +6105,8 @@
         "t": "Infaillibilité du Marquage : Traquer l'histoire d'un tube dès le refroidissement",
         "teaser": "Quand l'usine débite 14 000 mètres jour, la gravure d'identification continue n'est pas un gadget, c'est l'ultime rempart Qualité.",
         "body": [
-          "Avec jusqu'à 14 000 mètres de tubes par jour et par installation, la traçabilité n'est pas une option : chaque tube est marqué en continu pendant le processus d'extrusion — avec les informations dont les concepteurs et les contrôleurs ont besoin sur le chantier.",
-          "Le marquage relie le produit physique à son lot et aux protocoles de test de l'assurance qualité. Ce qui est écrit sur le tube peut être retracé jusqu'au laboratoire d'essais — un élément du manuel d'assurance qualité que les auditeurs peuvent demander dans le Trust Center."
+          "Avec jusqu'à 14 000 mètres de tubes par jour et par installation, la traçabilité n'est pas une option : chaque tube est marqué en continu pendant le processus d'extrusion : avec les informations dont les concepteurs et les contrôleurs ont besoin sur le chantier.",
+          "Le marquage relie le produit physique à son lot et aux protocoles de test de l'assurance qualité. Ce qui est écrit sur le tube peut être retracé jusqu'au laboratoire d'essais : un élément du manuel d'assurance qualité que les auditeurs peuvent demander dans le Trust Center."
         ]
       },
       {
@@ -6115,9 +6115,9 @@
         "t": "Le PP-R : de déchet pétrolier à solution d'infrastructure de génie civil",
         "teaser": "Comprendre pourquoi ce dérivé plastique s'est hissé en haut de la pyramide face au métal.",
         "body": [
-          "Le polypropylène est issu de gaz qui étaient autrefois brûlés inutilement — leur utilisation matérielle réduit la pollution de l'air à la source. En tant que plastique technique, le PP est exceptionnellement résistant aux solvants, aux alcalis et aux acides, et permet de mouler des géométries complexes par injection.",
-          "Dans le tube, c'est surtout la surface intérieure qui compte : avec une rugosité de 0,007 mm, la perte de charge reste minimale, le biofilm et les incrustations n'ont pratiquement aucune prise. S'y ajoute la conductivité thermique de 0,24 W/(m·K) — l'eau chaude reste chaude, sans que la conduite isolée ne travaille contre elle-même.",
-          "Le PP-RCT repousse encore les limites : la structure cristalline modifiée apporte plus de réserve de température et de pression — le SDR 7,4 maintient 70 °C à 10 bar en fonctionnement continu."
+          "Le polypropylène est issu de gaz qui étaient autrefois brûlés inutilement : leur utilisation matérielle réduit la pollution de l'air à la source. En tant que plastique technique, le PP est exceptionnellement résistant aux solvants, aux alcalis et aux acides, et permet de mouler des géométries complexes par injection.",
+          "Dans le tube, c'est surtout la surface intérieure qui compte : avec une rugosité de 0,007 mm, la perte de charge reste minimale, le biofilm et les incrustations n'ont pratiquement aucune prise. S'y ajoute la conductivité thermique de 0,24 W/(m·K) : l'eau chaude reste chaude, sans que la conduite isolée ne travaille contre elle-même.",
+          "Le PP-RCT repousse encore les limites : la structure cristalline modifiée apporte plus de réserve de température et de pression : le SDR 7,4 maintient 70 °C à 10 bar en fonctionnement continu."
         ]
       },
       {
@@ -6126,8 +6126,8 @@
         "t": "La Greffe Parfaite : marier le Laiton et le Plastique",
         "teaser": "Le casse-tête de la rénovation de bâtiments historiques réglé par un insert millimétré.",
         "body": [
-          "Presque aucun projet ne part de zéro : les conduites existantes en cuivre ou en acier galvanisé doivent être raccordées. Pour cela, il existe des pièces de transition avec filetage intérieur ou extérieur en laiton intégré — le côté fileté relie l'existant métallique, le côté PP est soudé par fusion de matière.",
-          "Cela permet une rénovation par étapes : les segments corrodés sont remplacés, ceux qui fonctionnent restent — et le problème de corrosion ne se propage pas dans le nouveau système. Les raccords vissés rendent la connexion démontable si nécessaire, par exemple au niveau de la robinetterie et des compteurs d'eau."
+          "Presque aucun projet ne part de zéro : les conduites existantes en cuivre ou en acier galvanisé doivent être raccordées. Pour cela, il existe des pièces de transition avec filetage intérieur ou extérieur en laiton intégré : le côté fileté relie l'existant métallique, le côté PP est soudé par fusion de matière.",
+          "Cela permet une rénovation par étapes : les segments corrodés sont remplacés, ceux qui fonctionnent restent : et le problème de corrosion ne se propage pas dans le nouveau système. Les raccords vissés rendent la connexion démontable si nécessaire, par exemple au niveau de la robinetterie et des compteurs d'eau."
         ]
       }
     ],
@@ -6162,11 +6162,11 @@
     "facts": [
       [
         "Temps de réponse",
-        "Réponse dans un délai d'un jour ouvrable — demandes de projet avec retour personnel du service commercial"
+        "Réponse dans un délai d'un jour ouvrable : demandes de projet avec retour personnel du service commercial"
       ],
       [
         "Emplacement",
-        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf — Hesse centrale"
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf : Hesse centrale"
       ],
       [
         "Téléphone / Fax",
@@ -6275,7 +6275,7 @@
     "sectors": [
       {
         "t": "Infrastructure Clinique",
-        "d": "Une intégrité sanitaire d'ordre médical. Neutralisation de la légionelle par la perfection de nos surfaces — comme au sein des nouveaux hôpitaux d'Afrique Australe."
+        "d": "Une intégrité sanitaire d'ordre médical. Neutralisation de la légionelle par la perfection de nos surfaces : comme au sein des nouveaux hôpitaux d'Afrique Australe."
       },
       {
         "t": "Grands Complexes Hôteliers",
@@ -6298,7 +6298,7 @@
     "help": [
       [
         "d",
-        "Diamètre extérieur en millimètres — la caractéristique de chaque dimension de d20 à d630."
+        "Diamètre extérieur en millimètres : la caractéristique de chaque dimension de d20 à d630."
       ],
       [
         "SDR",
@@ -6306,7 +6306,7 @@
       ],
       [
         "Paroi (s)",
-        "Épaisseur de paroi en millimètres — résulte de d et SDR : s = d/SDR."
+        "Épaisseur de paroi en millimètres : résulte de d et SDR : s = d/SDR."
       ],
       [
         "di",
@@ -6314,33 +6314,33 @@
       ],
       [
         "Pression nominale (PN)",
-        "Pression de service continue admissible en bar à 20 °C sur l'horizon de conception — SDR 6 = PN 20 à SDR 17 = PN 6."
+        "Pression de service continue admissible en bar à 20 °C sur l'horizon de conception : SDR 6 = PN 20 à SDR 17 = PN 6."
       ]
     ],
     "flowTitle": "Du Filtre à la Cotation",
     "flow": [
       {
         "t": "Filtrer & rechercher",
-        "d": "Délimitez le type, le SDR et la dimension maximale — ou tapez directement « d110 » dans la barre de recherche."
+        "d": "Délimitez le type, le SDR et la dimension maximale : ou tapez directement « d110 » dans la barre de recherche."
       },
       {
         "t": "Vérifier & exporter",
-        "d": "Cliquez sur une ligne pour voir l'épaisseur de paroi, le di et la pression nominale en détail — la liste des résultats est exportable en CSV pour vos calculs."
+        "d": "Cliquez sur une ligne pour voir l'épaisseur de paroi, le di et la pression nominale en détail : la liste des résultats est exportable en CSV pour vos calculs."
       },
       {
         "t": "Transférer la demande",
-        "d": "Depuis la fenêtre détaillée, passez directement à la demande de projet — nous validons ensuite ensemble les dimensions et les volumes."
+        "d": "Depuis la fenêtre détaillée, passez directement à la demande de projet : nous validons ensuite ensemble les dimensions et les volumes."
       }
     ]
   },
   "co2x": {
     "methEyebrow": "Méthodologie",
     "methTitle": "Comment le calculateur fonctionne.",
-    "methLead": "La transparence plutôt qu'une boîte noire — quatre piliers structurent chaque résultat.",
+    "methLead": "La transparence plutôt qu'une boîte noire : quatre piliers structurent chaque résultat.",
     "meth": [
       {
         "t": "Modèle de masse basé sur la géométrie SDR",
-        "d": "La masse du tube est calculée selon la formule : Section annulaire × Longueur × Densité (0,905 g/cm³) — la même géométrie que celle des tableaux de dimensions."
+        "d": "La masse du tube est calculée selon la formule : Section annulaire × Longueur × Densité (0,905 g/cm³) : la même géométrie que celle des tableaux de dimensions."
       },
       {
         "t": "Facteurs de Matériaux",
@@ -6348,7 +6348,7 @@
       },
       {
         "t": "Équivalences Intelligibles",
-        "d": "Conversion basée sur environ 25 kg de CO₂ captés par an par un arbre, et 0,15 kg d'équivalent CO₂ par kilomètre parcouru en voiture — des ordres de grandeur que tout le monde saisit en réunion de projet."
+        "d": "Conversion basée sur environ 25 kg de CO₂ captés par an par un arbre, et 0,15 kg d'équivalent CO₂ par kilomètre parcouru en voiture : des ordres de grandeur que tout le monde saisit en réunion de projet."
       },
       {
         "t": "Traçabilité Prouvée",
@@ -6357,24 +6357,24 @@
     ],
     "certEyebrow": "Green Building",
     "certTitle": "Là où vos chiffres portent leurs fruits.",
-    "certLead": "Les justificatifs CO₂ ne sont pas une fin en soi — ils contribuent directement à l'obtention des certifications de bâtiments.",
+    "certLead": "Les justificatifs CO₂ ne sont pas une fin en soi : ils contribuent directement à l'obtention des certifications de bâtiments.",
     "certs": [
       {
         "t": "LEED",
-        "d": "Les EPD selon la norme EN 15804 ajoutent des points aux crédits « Matériaux » — le calculateur vous donne l'argument initial, l'EPD fournit la preuve."
+        "d": "Les EPD selon la norme EN 15804 ajoutent des points aux crédits « Matériaux » : le calculateur vous donne l'argument initial, l'EPD fournit la preuve."
       },
       {
         "t": "BREEAM",
-        "d": "Les données du cycle de vie des matériaux entrent dans l'évaluation — elles sont étayées par les déclarations de type III."
+        "d": "Les données du cycle de vie des matériaux entrent dans l'évaluation : elles sont étayées par les déclarations de type III."
       },
       {
         "t": "DGNB",
-        "d": "L'analyse du cycle de vie du bâtiment détermine des groupes de critères entiers — choisir des matériaux à faible PRG (Potentiel de Réchauffement Global) a un impact immédiat."
+        "d": "L'analyse du cycle de vie du bâtiment détermine des groupes de critères entiers : choisir des matériaux à faible PRG (Potentiel de Réchauffement Global) a un impact immédiat."
       }
     ],
-    "scopeTitle": "Scope 1, 2, 3 — en bref",
-    "scopeText": "Le Scope 1 couvre les émissions directes de l'usine, le Scope 2 l'électricité achetée, le Scope 3 la chaîne d'approvisionnement — et donc les conduites que vous achetez. C'est pourquoi K-Aqua met à disposition les données Scope 3 et les données brutes EPD sur simple demande : une transparence proactive pour votre propre bilan carbone.",
-    "statNote": "D'après les études de la profession : près de la moitié des clients B2B préfèrent acheter chez des fournisseurs dont la démarche éco-responsable est prouvée — la preuve de cette durabilité devient un critère d'achat central."
+    "scopeTitle": "Scope 1, 2, 3 : en bref",
+    "scopeText": "Le Scope 1 couvre les émissions directes de l'usine, le Scope 2 l'électricité achetée, le Scope 3 la chaîne d'approvisionnement : et donc les conduites que vous achetez. C'est pourquoi K-Aqua met à disposition les données Scope 3 et les données brutes EPD sur simple demande : une transparence proactive pour votre propre bilan carbone.",
+    "statNote": "D'après les études de la profession : près de la moitié des clients B2B préfèrent acheter chez des fournisseurs dont la démarche éco-responsable est prouvée : la preuve de cette durabilité devient un critère d'achat central."
   },
   "homedeep": {
     "plantEyebrow": "Depuis l'usine de Waldsolms",
@@ -6383,12 +6383,12 @@
       {
         "n": "14 000",
         "u": "m/Jour",
-        "l": "Production de conduites par ligne d'extrusion — la capacité requise pour les mégaprojets"
+        "l": "Production de conduites par ligne d'extrusion : la capacité requise pour les mégaprojets"
       },
       {
         "n": "0,007",
         "u": "mm",
-        "l": "Rugosité interne de la surface du tube — pertes de charge minimes, pratiquement aucun biofilm"
+        "l": "Rugosité interne de la surface du tube : pertes de charge minimes, pratiquement aucun biofilm"
       },
       {
         "n": "50",
@@ -6469,7 +6469,7 @@
         {
           "id": "sec-5",
           "title": "5. Contact and inquiry forms",
-          "content": "When you use one of our inquiry forms, we process the data provided there: phone number, email address, the topic you selected, and the page the inquiry was sent from. This data is transmitted by email to info@k-aqua.de and — where a CRM system is connected — stored there to handle your inquiry.\n\nFor applications via the careers form, the application data you provide (name, contact details, CV or details of experience and education) is transmitted by email to our HR department.\n\nThe sole purpose of processing is handling your inquiry or application. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR. The data is deleted once it is no longer required for this purpose and no statutory retention obligations apply.\n\nTo protect against automated spam submissions we use an invisible technical check (honeypot field and time threshold) — no third-party captcha services."
+          "content": "When you use one of our inquiry forms, we process the data provided there: phone number, email address, the topic you selected, and the page the inquiry was sent from. This data is transmitted by email to info@k-aqua.de and : where a CRM system is connected : stored there to handle your inquiry.\n\nFor applications via the careers form, the application data you provide (name, contact details, CV or details of experience and education) is transmitted by email to our HR department.\n\nThe sole purpose of processing is handling your inquiry or application. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR. The data is deleted once it is no longer required for this purpose and no statutory retention obligations apply.\n\nTo protect against automated spam submissions we use an invisible technical check (honeypot field and time threshold) : no third-party captcha services."
         },
         {
           "id": "sec-6",
@@ -6479,12 +6479,12 @@
         {
           "id": "sec-7",
           "title": "7. Your rights",
-          "content": "Within the scope of applicable law, you have the right at any time to:\n\n- Access to your stored personal data (Art. 15 GDPR)\n- Rectification of inaccurate data (Art. 16 GDPR)\n- Erasure (Art. 17 GDPR)\n- Restriction of processing (Art. 18 GDPR)\n- Data portability (Art. 20 GDPR)\n- Objection to processing based on legitimate interests (Art. 21 GDPR)\n- Withdrawal of given consent with effect for the future (Art. 7(3) GDPR)\n\nTo exercise these rights, contact the controller named above or our data protection officer. You also have the right to lodge a complaint with the competent supervisory authority — in our case the Hessian Commissioner for Data Protection and Freedom of Information (HBDI), Wiesbaden, Germany."
+          "content": "Within the scope of applicable law, you have the right at any time to:\n\n- Access to your stored personal data (Art. 15 GDPR)\n- Rectification of inaccurate data (Art. 16 GDPR)\n- Erasure (Art. 17 GDPR)\n- Restriction of processing (Art. 18 GDPR)\n- Data portability (Art. 20 GDPR)\n- Objection to processing based on legitimate interests (Art. 21 GDPR)\n- Withdrawal of given consent with effect for the future (Art. 7(3) GDPR)\n\nTo exercise these rights, contact the controller named above or our data protection officer. You also have the right to lodge a complaint with the competent supervisory authority : in our case the Hessian Commissioner for Data Protection and Freedom of Information (HBDI), Wiesbaden, Germany."
         },
         {
           "id": "sec-8",
           "title": "8. SSL/TLS encryption",
-          "content": "For security reasons and to protect the transmission of confidential content — such as your inquiries to us — this website uses SSL/TLS encryption. You can recognize an encrypted connection by \"https://\" and the lock symbol in your browser's address bar. With encryption enabled, the data you transmit to us cannot be read by third parties."
+          "content": "For security reasons and to protect the transmission of confidential content : such as your inquiries to us : this website uses SSL/TLS encryption. You can recognize an encrypted connection by \"https://\" and the lock symbol in your browser's address bar. With encryption enabled, the data you transmit to us cannot be read by third parties."
         }
       ]
     },
@@ -6619,11 +6619,11 @@
     "support": {
       "metaTitle": "Support Technique | K-Aqua",
       "title": "Support technique",
-      "metaDesc": "Support technique K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "Support technique K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "seoText": {
         "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that every second counts when installing industrial piping systems and PP-R high-performance lines. Our expert team for fluid technology and polymer systems assists international general contractors, architects, and civil engineers every step of the way.",
-        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring – we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
-        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones – the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+        "p2": "From initial planning and isometric calculations to pressure loss layout and on-site welding process monitoring, we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That is why our Academy provides continuous training, while our support intervenes during complex thermal expansion challenges or specific fluid pressure requirements.",
+        "p3": "By utilizing state-of-the-art diagnostic tools and predictive maintenance algorithms, we reduce downtime to an absolute minimum. Whether it involves cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones, the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
       },
       "sticky": {
         "items": [
@@ -6683,21 +6683,21 @@
         "eyebrow": "Technical Support",
         "title1": "Support that",
         "title2": "thinks ahead.",
-        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project — with a direct line to the engineers who developed the system.",
+        "desc": "From pipe sizing to final commissioning: our technical support accompanies planners and installers through every phase of a PP-R project : with a direct line to the engineers who developed the system.",
         "btnPrimary": "Submit a Project Inquiry",
         "btnGhost": "View Services"
       },
       "intro": {
         "title1": "Support isn't a call center.",
         "title2": "It's an engineering team.",
-        "p1": "We don't treat technical support as an afterthought — it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
+        "p1": "We don't treat technical support as an afterthought : it's a fixed part of every project. When a weld joint raises questions on site, or a pressure test doesn't come out as expected, every hour counts.",
         "p2": "Our engineers know every batch, every standard, and every processing specification of our systems first-hand. They review isometric drawings, recalculate pressure losses, and stand at the pipe itself during commissioning.",
-        "p3": "That's the standard of German engineering — applied to real job sites, not server racks."
+        "p3": "That's the standard of German engineering : applied to real job sites, not server racks."
       },
       "bento": {
         "eyebrow": "Services at a Glance",
         "title": "Support across the entire project",
-        "lead": "From initial planning to ongoing maintenance — our team supports your PP-R system through every phase.",
+        "lead": "From initial planning to ongoing maintenance : our team supports your PP-R system through every phase.",
         "items": [
           {
             "title": "Hydraulic Sizing & Isometrics",
@@ -6713,11 +6713,11 @@
           },
           {
             "title": "Spare Parts & Accessories Service",
-            "desc": "Fast delivery of fittings, valves, and genuine accessories — including for existing installations and older K-Aqua batches."
+            "desc": "Fast delivery of fittings, valves, and genuine accessories : including for existing installations and older K-Aqua batches."
           },
           {
             "title": "Remote Diagnosis & On-Site Support",
-            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly — deploying a site supervisor in person when needed."
+            "desc": "For open questions on installation or unclear test results, our technical support calls back promptly : deploying a site supervisor in person when needed."
           }
         ]
       },
@@ -6725,7 +6725,7 @@
         "badge": "Reliability by the Numbers",
         "title1": "Proven",
         "title2": "reliability.",
-        "p1": "We work by the principles of German engineering: what we deliver has to hold — under any job-site condition.",
+        "p1": "We work by the principles of German engineering: what we deliver has to hold : under any job-site condition.",
         "p2": "Every K-Aqua system is certified to DVGW, SKZ, and KIWA. Every batch is traceable, every weld joint fully documentable.",
         "items": [
           "Response to technical inquiries within one business day",
@@ -6738,14 +6738,14 @@
         "title1": "Ready for your",
         "title2": "next",
         "title3": "project?",
-        "desc": "Have your project supported by engineers who don't just sell PP-R systems — they design and manufacture them.",
+        "desc": "Have your project supported by engineers who don't just sell PP-R systems : they design and manufacture them.",
         "btnPrimary": "Start Your Inquiry",
         "btnGhost": "Contact Our Experts"
       }
     },
     "downloads": {
       "title": "Téléchargements",
-      "metaDesc": "Téléchargements K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "Téléchargements K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "cta": {
         "title": "Quality you can blindly trust.",
         "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
@@ -6753,7 +6753,7 @@
       },
       "meta": {
         "title": "Téléchargements | K-Aqua",
-        "desc": "Téléchargements K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
+        "desc": "Téléchargements K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux."
       },
       "hero": {
         "eyebrow": "Ressources K-Aqua",
@@ -6808,7 +6808,7 @@
           },
           {
             "title": "Certifié. À l'échelle mondiale.",
-            "desc": "SKZ, DVGW, WRAS, KIWA – notre section de téléchargement est un coffre-fort de labels de qualité mondiaux. Chaque certificat est la preuve écrite de notre politique intransigeante du zéro défaut."
+            "desc": "SKZ, DVGW, WRAS, KIWA, notre section de téléchargement est un coffre-fort de labels de qualité mondiaux. Chaque certificat est la preuve écrite de notre politique intransigeante du zéro défaut."
           }
         ]
       },
@@ -6883,7 +6883,7 @@
     },
     "bim": {
       "title": "Données BIM",
-      "metaDesc": "Données BIM K-Aqua – La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux.",
+      "metaDesc": "Données BIM K-Aqua, La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux.",
       "sticky": {
         "items": [
           {
@@ -6947,7 +6947,7 @@
         "title1": "LA PLANIFICATION NE PARDONNE",
         "title2": "AUCUNE ERREUR.",
         "p1": "Dans l'ingénierie moderne des systèmes MEP, une déviation d'un millimètre dans l'environnement virtuel peut entraîner des centaines de milliers de dollars de coûts de rectification dans la réalité physique.",
-        "p2": "C'est pourquoi nos données BIM sont traitées avec la même obsession que nos produits physiques. Nous fournissons des objets paramétriques qui ne se contentent pas d'imiter l'apparence des composants K-Aqua, mais qui se comportent numériquement comme tels. Propriétés thermiques, tolérances de pression, rayons de courbure — chaque paramètre est verrouillé."
+        "p2": "C'est pourquoi nos données BIM sont traitées avec la même obsession que nos produits physiques. Nous fournissons des objets paramétriques qui ne se contentent pas d'imiter l'apparence des composants K-Aqua, mais qui se comportent numériquement comme tels. Propriétés thermiques, tolérances de pression, rayons de courbure : chaque paramètre est verrouillé."
       },
       "bento": {
         "items": [
@@ -7000,7 +7000,7 @@
     "ausschreibungstexte": {
       "meta": {
         "title": "Textes d'appel d'offres | K-Aqua",
-        "desc": "Textes d'appel d'offres K-Aqua – La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux."
+        "desc": "Textes d'appel d'offres K-Aqua, La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux."
       },
       "timeline": {
         "items": [
@@ -7026,7 +7026,7 @@
           }
         ],
         "title": "De l'appel d'offres à l'éternité.",
-        "desc": "Un texte d'appel d'offres K-Aqua n'est pas un simple document. C'est le code source de la réalité construite. Il définit, protège et dicte l'ensemble du cycle de vie d'un bâtiment – de la première esquisse jusqu'à des décennies d'utilisation."
+        "desc": "Un texte d'appel d'offres K-Aqua n'est pas un simple document. C'est le code source de la réalité construite. Il définit, protège et dicte l'ensemble du cycle de vie d'un bâtiment, de la première esquisse jusqu'à des décennies d'utilisation."
       },
       "hero": {
         "eyebrow": "Centre de ressources K-Aqua",
@@ -7040,7 +7040,7 @@
         "title1": "La fin de l'ambiguïté.",
         "title2": "Le début du contrôle absolu.",
         "p1": "Dans l'architecture des bâtiments de grande hauteur et la construction d'installations industrielles, les formulations vagues constituent le plus grand risque existentiel. Un seul mot imprécis dans le cahier des charges peut faire la différence entre un système sans entretien pendant des décennies et un dégât des eaux catastrophique dans un gratte-ciel de 50 étages.",
-        "p2": "C'est pourquoi nous ne nous contentons pas de rédiger des textes d'appel d'offres – nous les <strong className=\"text-foreground font-medium\">concevons</strong>. Comme chaque tuyau K-Aqua, nos paquets de données numériques sont développés en Allemagne, testés dans des conditions extrêmes et certifiés. Ils traduisent la supériorité physique en une incontestabilité juridique et économique."
+        "p2": "C'est pourquoi nous ne nous contentons pas de rédiger des textes d'appel d'offres, nous les <strong className=\"text-foreground font-medium\">concevons</strong>. Comme chaque tuyau K-Aqua, nos paquets de données numériques sont développés en Allemagne, testés dans des conditions extrêmes et certifiés. Ils traduisent la supériorité physique en une incontestabilité juridique et économique."
       },
       "bento": {
         "eyebrow": "Architecture des données",
@@ -7121,7 +7121,7 @@
           },
           {
             "title": "Compatibilité GAEB & ÖNORM à 100 %",
-            "desc": "Un processus de planification moderne exige un flux de données fluide. Nos jeux de données ne sont pas simplement du texte – ce sont des artefacts hautement structurés et lisibles par machine, conçus pour une intégration immédiate dans tout logiciel professionnel d'appels d'offres, d'adjudication et de facturation (AVA). Nous livrons des formats natifs (GAEB 90, GAEB 2000, GAEB DA XML) ainsi que Datanorm et ÖNORM. Aucune perte de conversion. Aucun effort de retouche manuelle. Un flux de travail numérique qui augmente l'efficacité du processus de planification jusqu'à 40 % tout en excluant mathématiquement les erreurs de transmission."
+            "desc": "Un processus de planification moderne exige un flux de données fluide. Nos jeux de données ne sont pas simplement du texte, ce sont des artefacts hautement structurés et lisibles par machine, conçus pour une intégration immédiate dans tout logiciel professionnel d'appels d'offres, d'adjudication et de facturation (AVA). Nous livrons des formats natifs (GAEB 90, GAEB 2000, GAEB DA XML) ainsi que Datanorm et ÖNORM. Aucune perte de conversion. Aucun effort de retouche manuelle. Un flux de travail numérique qui augmente l'efficacité du processus de planification jusqu'à 40 % tout en excluant mathématiquement les erreurs de transmission."
           },
           {
             "title": "La spécification des matériaux : PPR-C (Type 3)",
@@ -7142,7 +7142,7 @@
   "markets": {
     "landwirtschaft": {
       "metaTitle": "Infrastructure Agricole",
-      "metaDesc": "K-Aqua Agriculture – Infrastructure haute performance pour les projets agricoles mondiaux. Sécurité sans compromis grâce à l'ingénierie allemande.",
+      "metaDesc": "K-Aqua Agriculture, Infrastructure haute performance pour les projets agricoles mondiaux. Sécurité sans compromis grâce à l'ingénierie allemande.",
       "heroEyebrow": "K-Aqua Market: Agriculture",
       "heroTitle": "Infrastructure Agricole.",
       "heroSubtitle": "Engineered in Germany.",
@@ -7158,7 +7158,7 @@
       "scroll1Title": "Résistance Absolue aux UV et aux Intempéries",
       "scroll1Desc": "Dans l'industrie agricole moderne, les systèmes de tuyauterie sont souvent exposés à la lumière directe du soleil et à des fluctuations de température extrêmes pendant des années. Notre matrice polymère exclusive absorbe les rayons UV sans dégradation moléculaire. Le résultat : pas de fragilisation, pas de microfissures, une intégrité structurelle à 100% même après des décennies d'utilisation dans le désert.",
       "scroll2Title": "Stabilité de la Pression pour l'Irrigation Complexe",
-      "scroll2Desc": "Les systèmes d'irrigation à pivot à grande échelle et les tuyaux d'égouttement nécessitent une pression d'eau constante et énorme sur de grandes distances. Les systèmes K-Aqua sont conçus pour absorber cinétiquement les pics de pression et les coups de bélier. La technique de soudage sans soudure garantit une étanchéité absolue à chaque joint – tolérance de fuite zéro pour une efficacité maximale des ressources.",
+      "scroll2Desc": "Les systèmes d'irrigation à pivot à grande échelle et les tuyaux d'égouttement nécessitent une pression d'eau constante et énorme sur de grandes distances. Les systèmes K-Aqua sont conçus pour absorber cinétiquement les pics de pression et les coups de bélier. La technique de soudage sans soudure garantit une étanchéité absolue à chaque joint, tolérance de fuite zéro pour une efficacité maximale des ressources.",
       "scroll3Title": "Résistance Chimique aux Engrais",
       "scroll3Desc": "La fertigation moderne (l'application d'engrais liquides et de pesticides par le système d'irrigation) nécessite des tuyaux très résistants aux produits chimiques agressifs, aux acides et aux alcalis. Notre système K-Aqua PPR ne réagit pas avec les produits agrochimiques, empêche les dépôts grâce à sa paroi interne lisse comme un miroir et protège la santé du sol.",
       "scroll4Title": "Sécurité des Rendements Grâce à la Biosécurité",
@@ -7200,7 +7200,7 @@
       "timeline5Title": "Liberté d'Entretien à Vie",
       "timeline5Text": "Après la mise en service du système, l'infrastructure disparaît de la conscience. Cela fonctionne simplement. Pour les 50+ prochaines années. Sans cycle de maintenance.",
       "section5Title": "Sécurité Certifiée",
-      "section5Desc": "Les systèmes agricoles K-Aqua sont certifiés par les instituts de test internationaux les plus renommés. Nous ne nous contentons pas de respecter les normes – nous les redéfinissons souvent.",
+      "section5Desc": "Les systèmes agricoles K-Aqua sont certifiés par les instituts de test internationaux les plus renommés. Nous ne nous contentons pas de respecter les normes, nous les redéfinissons souvent.",
       "section5List1": "DIN EN ISO 15874",
       "section5List2": "Approbation DVGW",
       "section5List3": "Surveillance de la Qualité SKZ",
@@ -7213,7 +7213,7 @@
     },
     "schiffbau": {
       "metaTitle": "Construction Navale | K-Aqua",
-      "metaDesc": "K-Aqua Construction Navale – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "K-Aqua Construction Navale, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "heroBadge": "K-Aqua MARITIME",
       "heroTitle": "Infrastructure de Construction Navale.",
       "heroSubtitle": "Engineered in Germany.",
@@ -7271,7 +7271,7 @@
     },
     "klimaanlagen": {
       "metaTitle": "Infrastructure CVC & Refroidissement | K-Aqua",
-      "metaDesc": "K-Aqua CVC & Refroidissement – Une sécurité sans compromis grâce à l'ingénierie allemande. Systèmes de tuyauterie en polypropylène pour l'eau glacée, la climatisation et le refroidissement industriel.",
+      "metaDesc": "K-Aqua CVC & Refroidissement, Une sécurité sans compromis grâce à l'ingénierie allemande. Systèmes de tuyauterie en polypropylène pour l'eau glacée, la climatisation et le refroidissement industriel.",
       "heroEyebrow": "Secteur de Marché : CVC & Refroidissement",
       "heroTitle": "L'Architecture du Froid.",
       "heroSubtitle": "Ingénierie Allemande.",
@@ -7284,7 +7284,7 @@
       "section1P1": "Dans le refroidissement industriel et la climatisation des bâtiments, la condensation, les fluctuations de température permanentes et les fluides de refroidissement agressifs imposent des exigences extrêmes au système de tuyauterie. Les tuyaux métalliques réagissent par la corrosion due aux condensats, la détérioration de l'isolation et une perte de pression rampante.",
       "section1P2": "<strong>Les systèmes en polypropylène K-Aqua (PP-R & PP-RCT)</strong> brisent ce paradigme. Nos réseaux de tuyauterie sont totalement inertes à la corrosion, offrent des caractéristiques d'écoulement exceptionnelles sans incrustation et disposent de capacités d'isolation thermique intrinsèques qui réduisent considérablement le besoin d'isolation externe. Ce n'est pas un tuyau, c'est une police d'assurance infrastructurelle.",
       "scroll1Title": "Perfection Isolée",
-      "scroll1Desc": "Nos systèmes PP-R et PP-RCT possèdent intrinsèquement une conductivité thermique extrêmement faible. Cela élimine en grande partie le risque de formation de condensation à l'extérieur du tuyau – un facteur critique dans la technologie de climatisation moderne. Contrairement aux systèmes métalliques, une isolation secondaire coûteuse et fastidieuse est souvent inutile.",
+      "scroll1Desc": "Nos systèmes PP-R et PP-RCT possèdent intrinsèquement une conductivité thermique extrêmement faible. Cela élimine en grande partie le risque de formation de condensation à l'extérieur du tuyau, un facteur critique dans la technologie de climatisation moderne. Contrairement aux systèmes métalliques, une isolation secondaire coûteuse et fastidieuse est souvent inutile.",
       "scroll2Title": "Architecture Sans Corrosion",
       "scroll2Desc": "Les systèmes d'eau glacée en acier souffrent inévitablement de la corrosion, ce qui entraîne des piqûres, des fuites et la destruction progressive du système. Les systèmes K-Aqua sont 100 % résistants à la corrosion. Pas d'incrustation, pas de rouille, pas de rétrécissement de la section du tuyau sur toute sa durée de vie de plus de 50 ans.",
       "scroll3Title": "Soudure Homogène",
@@ -7299,7 +7299,7 @@
       "bento1Title": "Jusqu'à -20°C",
       "bento1Desc": "Fonctionnement sûr même à des températures de départ extrêmement basses avec des fluides caloporteurs appropriés (par ex. mélanges de glycol).",
       "bento2Title": "DN 20 à DN 400",
-      "bento2Desc": "Spectre de dimensions complet pour n'importe quelle échelle – du refroidissement individuel des pièces aux refroidisseurs centraux.",
+      "bento2Desc": "Spectre de dimensions complet pour n'importe quelle échelle, du refroidissement individuel des pièces aux refroidisseurs centraux.",
       "bento3Title": "75 % d'Économie de Poids",
       "bento3Desc": "Par rapport aux tuyaux en acier. Cela permet des installations rapides en hauteur, réduit les charges structurelles et diminue considérablement les coûts de transport.",
       "bento4Title": "Garantie Zéro Fuite",
@@ -7340,7 +7340,7 @@
     },
     "industrie": {
       "metaTitle": "Installations industrielles | K-Aqua",
-      "metaDesc": "Installations industrielles K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "Installations industrielles K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "heroEyebrow": "Excellence Industrielle",
       "heroTitle": "Installations industrielles.",
       "heroSubtitle": "Ingénierie allemande.",
@@ -7349,7 +7349,7 @@
       "heroBtnSecondary": "Spécifications techniques",
       "section1Eyebrow": "Architecture de la fiabilité",
       "section1Title": "L'ADN d'une sécurité absolue contre les pannes.",
-      "section1Lead": "Dans l'industrie moderne de haute performance, il n'y a pas de place pour la fatigue des matériaux. Nos systèmes ne sont pas seulement développés pour les standards d'aujourd'hui – ils définissent les normes de demain.",
+      "section1Lead": "Dans l'industrie moderne de haute performance, il n'y a pas de place pour la fatigue des matériaux. Nos systèmes ne sont pas seulement développés pour les standards d'aujourd'hui, ils définissent les normes de demain.",
       "bento1Title": "Résilience thermoplastique",
       "bento1Desc": "Nos polymères haute performance PP-R et PP-RCT résistent durablement aux fluctuations extrêmes de température et aux fluides très corrosifs sans dégradation moléculaire.",
       "bento2Title": "100% résistant à la pression",
@@ -7404,7 +7404,7 @@
     },
     "trinkwasser": {
       "metaTitle": "Infrastructure d'eau potable | K-Aqua",
-      "metaDesc": "Eau potable K-Aqua – Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
+      "metaDesc": "Eau potable K-Aqua, Une sécurité sans compromis grâce à l'ingénierie allemande pour les mégaprojets mondiaux.",
       "heroEyebrow": "Infrastructure d'eau potable",
       "heroTitle": "La forme la plus pure",
       "heroSubtitle": "de la sécurité systémique.",
@@ -7495,7 +7495,7 @@
         },
         {
           "title": "Isolation Thermodynamique",
-          "desc": "Nos couches d'isolation coextrudées sont basées sur la technologie du polyuréthane à cellules fermées. Le coefficient de transfert thermique (valeur U) est réduit à un minimum théorique. La perte d'énergie n'est plus une variable dans le calcul de vos installations – elle est étouffée dans l'œuf par notre architecture système. Un contrôle thermique absolu."
+          "desc": "Nos couches d'isolation coextrudées sont basées sur la technologie du polyuréthane à cellules fermées. Le coefficient de transfert thermique (valeur U) est réduit à un minimum théorique. La perte d'énergie n'est plus une variable dans le calcul de vos installations, elle est étouffée dans l'œuf par notre architecture système. Un contrôle thermique absolu."
         },
         {
           "title": "Stérilité Certifiée",
@@ -7629,8 +7629,8 @@
     "transition-fittings_union": "PP-R Pipe Union",
     "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
     "valves_battery-female-thread": "Battery (Female Thread)",
-    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome — Heavy Part",
-    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome — Light Part",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome : Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome : Light Part",
     "valves_elongation-pieces": "Elongation Pieces",
     "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
     "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
@@ -7669,11 +7669,11 @@
       "b2Author": "Oleg M. / Hasan S.",
       "b3": "“**Fast unloading**, friendly and helpful staff.”",
       "b3Author": "Bogdan M.",
-      "c1": "“**Very good service** – great that they still produce in Germany.”",
+      "c1": "“**Very good service**, great that they still produce in Germany.”",
       "c1Author": "Daniel",
       "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
       "c2Author": "Mohamed M.",
-      "c3": "“From the chairman to the regular workers – they are **good people**.”",
+      "c3": "“From the chairman to the regular workers, they are **good people**.”",
       "c3Author": "Azim",
       "c4": "“**Great company**, does a lot for its people.”",
       "c4Author": "Monika v. B.",
@@ -8098,31 +8098,31 @@
       "eyebrow": "Industrial Reference Projects",
       "titlePlain": "Engineering that ",
       "titleAccent": "proves itself.",
-      "lead": "From Waldsolms to the world: K-Aqua PP-R and PP-RCT systems have been running for decades in high-rises, hospitals, industrial plants, and ships — under conditions that allow no second attempt.",
+      "lead": "From Waldsolms to the world: K-Aqua PP-R and PP-RCT systems have been running for decades in high-rises, hospitals, industrial plants, and ships : under conditions that allow no second attempt.",
       "cta1": "View Reference Projects",
       "cta2": "Request Test Report"
     },
     "manifesto": {
       "title": "The Doctrine of Precision",
       "p1": "In an industry where material fatigue and corrosion are treated as inevitable, our manufacturing sets a different standard. We regard every pipe not as a component, but as the outcome of applied materials science. Every batch of PP-R copolymer, every weld, and every wall thickness passes through a testing process that would rather accept scrap than a tolerance breach. This is the fundamental law of the <strong>K-Aqua Reference Class</strong>.",
-      "p2": "Our systems operate in environments where a single point of leakage can jeopardize the operation of an entire hospital or high-rise. We apply long-term internal pressure testing to ISO 9080 not as a laboratory formality, but as a hard requirement for every approved dimension: extrapolated to a 50-year service life at specified temperature and pressure rating — documented, traceable, and batch-pure.",
-      "p3": "We deliberately avoid opaque material blends. Our formulation is documented across the entire manufacturing chain — from polymer batch to finished pipe length. We calibrate extrusion temperatures to the degree, optimize the fiber-composite middle layer against longitudinal expansion, and log every electrofusion weld with exact process parameters. The result: systems that stay comfortably within spec under continuous operation at 70°C and PN20.",
-      "p4": "For us, quality assurance is not a downstream inspection step — it is built into every stage of production. By consistently applying DVGW, SKZ, and KIWA certification across all relevant dimensions, we proactively close off every avenue of failure risk. A system manufactured to DIN 8077/8078 and triple-certified can never become the weak link."
+      "p2": "Our systems operate in environments where a single point of leakage can jeopardize the operation of an entire hospital or high-rise. We apply long-term internal pressure testing to ISO 9080 not as a laboratory formality, but as a hard requirement for every approved dimension: extrapolated to a 50-year service life at specified temperature and pressure rating : documented, traceable, and batch-pure.",
+      "p3": "We deliberately avoid opaque material blends. Our formulation is documented across the entire manufacturing chain : from polymer batch to finished pipe length. We calibrate extrusion temperatures to the degree, optimize the fiber-composite middle layer against longitudinal expansion, and log every electrofusion weld with exact process parameters. The result: systems that stay comfortably within spec under continuous operation at 70°C and PN20.",
+      "p4": "For us, quality assurance is not a downstream inspection step : it is built into every stage of production. By consistently applying DVGW, SKZ, and KIWA certification across all relevant dimensions, we proactively close off every avenue of failure risk. A system manufactured to DIN 8077/8078 and triple-certified can never become the weak link."
     },
     "metrics": {
       "eyebrow": "Technical Metrics",
       "title1": "Uncompromising",
       "title2": "Parameters",
-      "lead": "Our systems aren't advertised — they're tested. These are the core metrics behind our engineering doctrine.",
+      "lead": "Our systems aren't advertised : they're tested. These are the core metrics behind our engineering doctrine.",
       "items": {
         "pressure": {
           "title": "Long-Term Pressure Testing to ISO 9080",
-          "desc": "Every approved dimension undergoes internal pressure testing at multiple temperature levels over thousands of operating hours — extrapolated along a regression line to a 50-year service life.",
+          "desc": "Every approved dimension undergoes internal pressure testing at multiple temperature levels over thousands of operating hours : extrapolated along a regression line to a 50-year service life.",
           "placeholder": "Long-term internal pressure test regression curve"
         },
         "isolation": {
           "title": "Seamless Batch Traceability",
-          "desc": "Every pipe length carries a batch number traceable all the way back to the polymer delivery — ensuring complete documentation for project acceptance and warranty claims."
+          "desc": "Every pipe length carries a batch number traceable all the way back to the polymer delivery : ensuring complete documentation for project acceptance and warranty claims."
         },
         "tolerance": {
           "title": "Wall-Thickness Tolerance in the Micrometer Range",
@@ -8130,12 +8130,12 @@
         },
         "network": {
           "title": "Global Distribution and Service Network",
-          "desc": "From Waldsolms, we supply projects in more than 35 countries, providing technical consultation, training, and spare-parts supply — well beyond project handover.",
+          "desc": "From Waldsolms, we supply projects in more than 35 countries, providing technical consultation, training, and spare-parts supply : well beyond project handover.",
           "placeholder": "K-Aqua distribution network export map"
         },
         "welding": {
           "title": "Uncompromising Weld Integrity",
-          "desc": "Every heating-element socket weld follows a documented time-temperature-pressure profile. Random-sample tensile tests and microsection images confirm the molecular fusion of pipe and fitting — no seals, no weak points.",
+          "desc": "Every heating-element socket weld follows a documented time-temperature-pressure profile. Random-sample tensile tests and microsection images confirm the molecular fusion of pipe and fitting : no seals, no weak points.",
           "placeholder": "Microsection image of a K-Aqua socket weld joint"
         }
       }
@@ -8143,7 +8143,7 @@
     "cta": {
       "title1": "Ready for Your",
       "title2": "Next Project",
-      "lead": "Planning a high-rise, an industrial facility, or a hospital project? Our engineers are ready for your specifications — backed by solid test data, not marketing promises.",
+      "lead": "Planning a high-rise, an industrial facility, or a hospital project? Our engineers are ready for your specifications : backed by solid test data, not marketing promises.",
       "btn1": "Request Test Certificates",
       "btn2": "Submit Specifications"
     },
@@ -8164,7 +8164,7 @@
       "guideText": "\n    <h2>Des connexions durables</h2>\n    <p>Les raccords constituent le tissu conjonctif de tout système sanitaire. L'efficacité globale et la durabilité d'un réseau dépendent fortement de la qualité de ses connexions. Les raccords PP-R et PPRCT de K Aqua sont conçus avec une précision microscopique pour garantir un écoulement parfait, des connexions homogènes et zéro fuite. Des coudes et tés standard aux distributeurs complexes et brides, nous fournissons la solution de raccordement idéale pour chaque défi de construction.</p>\n    <p>Le secret de notre succès réside dans le principe de soudage par polyfusion (Polyfusion Welding). Contrairement aux systèmes traditionnels en cuivre ou en acier, où le joint est le point le plus faible, un raccord PP-R fondu ne fait plus qu'un avec le tuyau. Il n'y a pas de colle à dégrader, pas de métal à corroder et pas de joint mécanique à desserrer avec le temps. Une fois refroidie, la connexion devient souvent plus solide que le tuyau lui-même.</p>\n    <p>Pour garantir des performances hydrauliques optimales, nos ingénieurs ont méticuleusement conçu les géométries internes de chaque raccord. De larges courbes et des passages internes lisses minimisent la résistance au frottement, maintiennent des débits élevés et réduisent considérablement les nuisances sonores causées par les turbulences de l'eau. Cette attention à l'ingénierie hydraulique réduit la charge sur les pompes et améliore l'efficacité énergétique de l'ensemble du système.</p>\n    <ul>\n      <li>La polyfusion garantit des connexions 100% étanches, permanentes et homogènes.</li>\n      <li>Un intérieur optimisé de manière hydrodynamique réduit la perte de pression.</li>\n      <li>Aucun joint torique ni colle ne signifie que les éléments de joint ne se dégradent pas avec le temps.</li>\n      <li>Résistance exceptionnelle aux produits chimiques agressifs, à l'eau dure et aux environnements corrosifs.</li>\n      <li>Conçu pour une installation rapide sur site, même dans des espaces restreints.</li>\n    </ul>\n    <p>Des hôpitaux de haute technologie en Allemagne nécessitant une qualité d'eau irréprochable aux systèmes de refroidissement massifs dans le désert, nos raccords ont fait leurs preuves dans les conditions les plus exigeantes. Que vous naviguiez dans des conceptions architecturales complexes avec nos raccords de dérivation ou construisiez une plomberie de diamètre massif avec des coupleurs d'électrofusion, K Aqua fournit l'intégrité structurelle sur laquelle vous pouvez compter.</p>\n    <p>Notre gamme complète va de 20 mm à 250 mm et plus, offrant une polyvalence inégalée aux planificateurs et aux installateurs. Associez nos raccords à nos systèmes de tuyauterie PP-R et PPRCT de première classe et à nos outils de soudage d'origine pour bénéficier d'une longue garantie sur l'ensemble du système et d'une tranquillité d'esprit totale.</p>\n  "
     },
     "valves": {
-      "guideText": "\n    <h2>Contrôle absolu du débit</h2>\n    <p>Un contrôle précis et un fonctionnement de longue durée sont essentiels à la gestion des réseaux sanitaires modernes. Une gestion efficace des fluides nécessite des points de contrôle robustes et fiables qui peuvent être intégrés de manière transparente au réseau de distribution principal. K Aqua propose une gamme complète de vannes d'arrêt hautes performances, notamment des vannes à boisseau sphérique à passage intégral, des vannes encastrées et des vannes de précision, toutes conçues spécifiquement pour une polyfusion directe dans les conduites PP-R.</p>\n    <p>En fabriquant le corps de vanne à partir du même polymère PP-R que les tuyaux environnants, nous éliminons le besoin de pièces de transition filetées lors de l'installation des points d'arrêt. Cela accélère considérablement le temps d'installation, réduit les coûts de matériel et élimine les points de défaillance potentiels du système. Les composants mécaniques internes – comme les billes en laiton de précision, les broches en acier inoxydable et les bagues de siège en téflon (PTFE) de haute qualité – sont conçus pour fournir un fonctionnement incroyablement fluide et sans entretien pendant des décennies.</p>\n    <p>Contrairement aux vannes à clapet métalliques traditionnelles, qui se coincent ou fuient souvent au niveau du presse-étoupe après des années d'inactivité, les vannes encapsulées dans du plastique de K Aqua sont insensibles à la corrosion externe et sont donc parfaites pour les salles des machines humides, les installations enterrées ou les environnements industriels humides.</p>\n    <ul>\n      <li>La conception à passage intégral empêche toute restriction de l'écoulement du fluide.</li>\n      <li>Les boîtiers en plastique résistants à la corrosion protègent les composants métalliques internes.</li>\n      <li>La polyfusion directe élimine le besoin de connexions filetées vulnérables.</li>\n      <li>Des poignées ergonomiques et une mécanique de précision garantissent un fonctionnement fluide.</li>\n      <li>Disponible dans une variété de tailles pour répondre aux besoins résidentiels et industriels.</li>\n    </ul>\n    <p>Notre conception à passage intégral garantit que lorsque la vanne est ouverte, le débit hydraulique n'est pas restreint, ce qui maintient une pression optimale du système et maximise l'efficacité des pompes de circulation. Que vous ayez besoin d'isoler un seul équipement sanitaire ou de contrôler la conduite d'alimentation principale d'un bâtiment commercial, les vannes K Aqua offrent la fiabilité et les performances requises.</p>\n    <p>Chaque vanne est soumise à des tests de pression stricts avant d'être emballée pour s'assurer qu'elle répond à nos normes de qualité strictes. Faites confiance à K Aqua lorsqu'il s'agit des mécanismes de contrôle qui permettent à vos réseaux de fluides de fonctionner en toute sécurité et efficacement jour après jour et année après année.</p>\n  "
+      "guideText": "\n    <h2>Contrôle absolu du débit</h2>\n    <p>Un contrôle précis et un fonctionnement de longue durée sont essentiels à la gestion des réseaux sanitaires modernes. Une gestion efficace des fluides nécessite des points de contrôle robustes et fiables qui peuvent être intégrés de manière transparente au réseau de distribution principal. K Aqua propose une gamme complète de vannes d'arrêt hautes performances, notamment des vannes à boisseau sphérique à passage intégral, des vannes encastrées et des vannes de précision, toutes conçues spécifiquement pour une polyfusion directe dans les conduites PP-R.</p>\n    <p>En fabriquant le corps de vanne à partir du même polymère PP-R que les tuyaux environnants, nous éliminons le besoin de pièces de transition filetées lors de l'installation des points d'arrêt. Cela accélère considérablement le temps d'installation, réduit les coûts de matériel et élimine les points de défaillance potentiels du système. Les composants mécaniques internes, comme les billes en laiton de précision, les broches en acier inoxydable et les bagues de siège en téflon (PTFE) de haute qualité, sont conçus pour fournir un fonctionnement incroyablement fluide et sans entretien pendant des décennies.</p>\n    <p>Contrairement aux vannes à clapet métalliques traditionnelles, qui se coincent ou fuient souvent au niveau du presse-étoupe après des années d'inactivité, les vannes encapsulées dans du plastique de K Aqua sont insensibles à la corrosion externe et sont donc parfaites pour les salles des machines humides, les installations enterrées ou les environnements industriels humides.</p>\n    <ul>\n      <li>La conception à passage intégral empêche toute restriction de l'écoulement du fluide.</li>\n      <li>Les boîtiers en plastique résistants à la corrosion protègent les composants métalliques internes.</li>\n      <li>La polyfusion directe élimine le besoin de connexions filetées vulnérables.</li>\n      <li>Des poignées ergonomiques et une mécanique de précision garantissent un fonctionnement fluide.</li>\n      <li>Disponible dans une variété de tailles pour répondre aux besoins résidentiels et industriels.</li>\n    </ul>\n    <p>Notre conception à passage intégral garantit que lorsque la vanne est ouverte, le débit hydraulique n'est pas restreint, ce qui maintient une pression optimale du système et maximise l'efficacité des pompes de circulation. Que vous ayez besoin d'isoler un seul équipement sanitaire ou de contrôler la conduite d'alimentation principale d'un bâtiment commercial, les vannes K Aqua offrent la fiabilité et les performances requises.</p>\n    <p>Chaque vanne est soumise à des tests de pression stricts avant d'être emballée pour s'assurer qu'elle répond à nos normes de qualité strictes. Faites confiance à K Aqua lorsqu'il s'agit des mécanismes de contrôle qui permettent à vos réseaux de fluides de fonctionner en toute sécurité et efficacement jour après jour et année après année.</p>\n  "
     },
     "weldInSaddles": {
       "seoTitle": "Selles à souder pour tuyaux PP-R & PPRCT",

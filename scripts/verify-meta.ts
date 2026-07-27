@@ -153,7 +153,7 @@ function collectRoutesForLocale(locale: string, msgs: any): { url: string; title
   addStatic('ressourcen/support', suppTitle, suppDesc);
 
   // 8. Sitemap
-  addStatic('sitemap', 'HTML Sitemap — Alle Seiten', 'Sitemap der K-Aqua Website mit allen Produkten, News und Ressourcen.');
+  addStatic('sitemap', 'HTML Sitemap: Alle Seiten', 'Sitemap der K-Aqua Website mit allen Produkten, News und Ressourcen.');
 
   // 9. Geo Hubs
   const hubMetaTitleTpl = getNestedValue(msgs, 'geo.hubMetaTitle') || 'K-Aqua Rohrsysteme in {country}';
@@ -194,14 +194,14 @@ function collectRoutesForLocale(locale: string, msgs: any): { url: string; title
     const catLabel = getNestedValue(msgs, `catalogx.cats.${prod.category}.label`) || prod.category;
     const itemSeo1 = getNestedValue(msgs, `catalogx.items.${prod.slug}.seo_p1`);
     const rawTitle = `${prod.title} (${catLabel})`;
-    const rawDesc = itemSeo1 || (prod as any).metaDescription || (prod as any).description || `${prod.title} — Hochwertiges K-Aqua PP-R Rohrsystem.`;
+    const rawDesc = itemSeo1 || (prod as any).metaDescription || (prod as any).description || `${prod.title} - Hochwertiges K-Aqua PP-R Rohrsystem.`;
     addStatic(`produkte/${prod.category}/${prod.slug}`, rawTitle, rawDesc);
   }
 
   // 12. News detail pages
   for (const [slug, article] of Object.entries(newsRegistry)) {
     const rawTitle = resolveLocalized((article as any).title, locale);
-    const rawDesc = resolveLocalized((article as any).teaser || (article as any).excerpt || (article as any).lead, locale) || `${rawTitle} — K-Aqua News & Insights`;
+    const rawDesc = resolveLocalized((article as any).teaser || (article as any).excerpt || (article as any).lead, locale) || `${rawTitle} - K-Aqua News & Insights`;
     addStatic(`news/${slug}`, rawTitle, rawDesc);
   }
 

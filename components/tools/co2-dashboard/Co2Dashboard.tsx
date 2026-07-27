@@ -81,15 +81,15 @@ function MethodikTab() {
         <p className="k-body">{c.methLead}</p>
         <div className="dash-accordion">
           {c.meth.map((m) => <details key={m.t}><summary>{m.t}</summary><p>{m.d}</p></details>)}
-          <details><summary>Klimapfad des Strommixes</summary><p>Optional sinkt die Netz-Intensität der gewählten Region um 2,5 % pro Jahr (Untergrenze 40 g CO₂e/kWh) — angelehnt an den UBA-Trend der letzten Jahre (379 → 353 → 344 g). Der Betrieb späterer Jahre wird dadurch leichter gewichtet als mit statischem Strommix.</p></details>
-          <details><summary>Formteil- &amp; Verschnitt-Zuschlag</summary><p>Der Zuschlag erhöht die Rohrmasse pauschal um den eingestellten Prozentsatz für Fittings, Bögen und Verschnitt — er wirkt proportional auf Herstellung, Fertigung, Transport und Ersatzzyklen.</p></details>
-          <details><summary>CO₂-Preis-Kopplung</summary><p>Die vermiedene Menge wird mit dem eingestellten CO₂-Preis (€/t) bewertet — eine Kalkulationshilfe, kein Marktpreisversprechen.</p></details>
+          <details><summary>Klimapfad des Strommixes</summary><p>Optional sinkt die Netz-Intensität der gewählten Region um 2,5 % pro Jahr (Untergrenze 40 g CO₂e/kWh), angelehnt an den UBA-Trend der letzten Jahre (379 → 353 → 344 g). Der Betrieb späterer Jahre wird dadurch leichter gewichtet als mit statischem Strommix.</p></details>
+          <details><summary>Formteil- &amp; Verschnitt-Zuschlag</summary><p>Der Zuschlag erhöht die Rohrmasse pauschal um den eingestellten Prozentsatz für Fittings, Bögen und Verschnitt. Er wirkt proportional auf Herstellung, Fertigung, Transport und Ersatzzyklen.</p></details>
+          <details><summary>CO₂-Preis-Kopplung</summary><p>Die vermiedene Menge wird mit dem eingestellten CO₂-Preis (€/t) bewertet. Eine Kalkulationshilfe, kein Marktpreisversprechen.</p></details>
         </div>
       </div>
       <div className="dash-methodik-block">
         <span className="dash-eyebrow">Datenquellen</span>
         <h2 className="k-h3">Jeder Faktor hat eine Quelle.</h2>
-        <p className="k-body">Stand Juli 2026 — produktspezifische Typ-III-EPDs ersetzen die Branchenwerte, sobald sie vorliegen.</p>
+        <p className="k-body">Stand Juli 2026. Produktspezifische Typ-III-EPDs ersetzen die Branchenwerte, sobald sie vorliegen.</p>
         <div className="dash-accordion">
           {CO2_SOURCES.map((s) => <details key={s.t}><summary>{s.t}</summary><p>{s.d}</p></details>)}
         </div>
@@ -114,7 +114,7 @@ function SeoEngine() {
   const c2s = CO2_SOURCES;
   return (
     <article className="sr-only-co2">
-      <h1>{c.h1}</h1><p>{c.intro}</p>
+      <h2>{c.h1}</h2><p>{c.intro}</p>
       <section><h2>{c.methTitle}</h2><p>{c.methLead}</p>{c.meth.map((m) => (<React.Fragment key={m.t}><h3>{m.t}</h3><p>{m.d}</p></React.Fragment>))}</section>
       <section><h2>{c.certTitle}</h2><p>{c.certLead}</p>{c.certs.map((x) => (<React.Fragment key={x.t}><h3>{x.t}</h3><p>{x.d}</p></React.Fragment>))}</section>
       <section><h2>{c.scopeTitle}</h2><p>{c.scopeText}</p></section>
@@ -314,7 +314,7 @@ export default function Co2Dashboard() {
           </Field>
           <Field fid="opplife" label={<div className="dash-field-row"><span>Nutzungsdauer {opponentResult.material.label}</span><strong>{oppLife[opponentId] || 50} Jahre</strong></div>}>
             <input type="range" className="k-range" min="15" max="70" step="5" value={oppLife[opponentId] || 50} onChange={(e) => setOppLife({ ...oppLife, [opponentId]: +e.target.value })} aria-label="Angenommene Nutzungsdauer des Vergleichswerkstoffs in Jahren" />
-            <p className="co2-mod-note">Projektannahme — K-Aqua PP-RCT ist normativ mit 50 Jahren angesetzt (ISO 10508 Klasse II). Liegt der Wert unter dem Horizont, entstehen Ersatzzyklen (Sprünge im Chart).</p>
+            <p className="co2-mod-note">Projektannahme: K-Aqua PP-RCT ist normativ mit 50 Jahren angesetzt (ISO 10508 Klasse II). Liegt der Wert unter dem Horizont, entstehen Ersatzzyklen (Sprünge im Chart).</p>
             {lifeGuide ? (
               <div className={`co2-guide ${lifeGuide.over ? 'is-over' : ''}`}>
                 <span>{lifeGuide.reason}</span>

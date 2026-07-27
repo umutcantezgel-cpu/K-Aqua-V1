@@ -1,4 +1,4 @@
-// K-Aqua — CareerDeep: Arbeitsbereiche, Warum-K-Aqua-Gründe, Bewerbungsprozess.
+// K-Aqua - CareerDeep: Arbeitsbereiche, Warum-K-Aqua-Gründe, Bewerbungsprozess.
 //
 // QUELLE: kaqua-deep-sections-3.jsx (CareerDeep). PORTIERT 1:1 (3 Abschnitte).
 // ANGEPASST: usePageL('careerx') -> getTranslations('careerx') (Server Component). BentoCard -> Card.

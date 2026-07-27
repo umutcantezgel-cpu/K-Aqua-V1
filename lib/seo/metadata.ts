@@ -75,16 +75,6 @@ export function constructMetadata({
     languages["x-default"] = cleanPath ? `${siteUrl}/de/${cleanPath}` : `${siteUrl}/de`;
   }
   let canonicalUrl = cleanPath ? `${siteUrl}/${locale}/${cleanPath}` : `${siteUrl}/${locale}`;
-  if (isVariant) {
-    // Rewrite canonical to the primary variant
-    if (cleanPath.includes('k-fiber-pipe-pp-r-sdr-74') || cleanPath.includes('k-fiber-pipe-pp-r-sdr-9') || cleanPath.includes('k-fiber-pipe-pp-r-sdr-17')) {
-      canonicalUrl = `${siteUrl}/${locale}/produkte/pipes/k-fiber-pipe-pp-rct-sdr-74`;
-    } else if (cleanPath.includes('k-pipe-pp-r-sdr-6')) {
-      canonicalUrl = `${siteUrl}/${locale}/produkte/pipes/k-pipe-pp-r-sdr-11`;
-    } else if (cleanPath.includes('hand-welding-machine-20-63')) {
-      canonicalUrl = `${siteUrl}/${locale}/produkte/tools/hand-welding-machine-50-125`;
-    }
-  }
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
   let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();

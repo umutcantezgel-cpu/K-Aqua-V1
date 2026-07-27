@@ -26,7 +26,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       const cardDesc = page.locator("div.bg-card-tint p");
       
       await expect(cardTitle).toContainText("Waldsolms, Deutschland");
-      await expect(cardDesc).toContainText("Stammwerk & Entwicklung — hier entsteht jedes K-Aqua-Rohr.");
+      await expect(cardDesc).toContainText("Stammwerk & Entwicklung - hier entsteht jedes K-Aqua-Rohr.");
     });
 
     test("should update the active project when clicking a selector chip", async ({ page }) => {
@@ -57,7 +57,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       const cardDesc = page.locator("div.bg-card-tint p");
 
       await expect(cardTitle).toContainText("Waldsolms, Germany");
-      await expect(cardDesc).toContainText("Main plant & development — this is where every K-Aqua pipe is made.");
+      await expect(cardDesc).toContainText("Main plant & development - this is where every K-Aqua pipe is made.");
     });
   });
 
@@ -75,7 +75,7 @@ test.describe("Step 16: Referenzen (Globus)", () => {
       const cardDesc = page.locator("div.bg-card-tint p");
 
       await expect(cardTitle).toContainText("فالدسولمس، ألمانيا");
-      await expect(cardDesc).toContainText("المصنع الرئيسي والتطوير — هنا يتم تصنيع كل أنبوب K-Aqua.");
+      await expect(cardDesc).toContainText("المصنع الرئيسي والتطوير - هنا يتم تصنيع كل أنبوب K-Aqua.");
     });
   });
 });

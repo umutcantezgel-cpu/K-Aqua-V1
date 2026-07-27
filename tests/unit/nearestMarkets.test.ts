@@ -45,7 +45,7 @@ describe('nearestMarkets', () => {
     // We can't directly check distance from the result, but we can verify
     // the first result is a nearby city
     expect(result.length).toBeGreaterThan(0);
-    // Frankfurt (50.11, 8.68) — nearest should be within Europe
+    // Frankfurt (50.11, 8.68) - nearest should be within Europe
     const first = result[0];
     expect(first).toBeDefined();
     expect(first!.lat).toBeGreaterThan(30);  // Should be in Europe/MENA

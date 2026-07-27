@@ -1,4 +1,4 @@
-// K-Aqua — ContactDeep: Direkte Wege (Postfächer), Gut-zu-wissen-Fakten, Kontakt-FAQ.
+// K-Aqua - ContactDeep: Direkte Wege (Postfächer), Gut-zu-wissen-Fakten, Kontakt-FAQ.
 //
 // QUELLE: kaqua-deep-sections-3.jsx (ContactDeep). PORTIERT 1:1 (3 Abschnitte).
 // ANGEPASST: usePageL('contactx') -> getTranslations('contactx') (Server Component).

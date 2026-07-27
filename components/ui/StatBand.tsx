@@ -1,10 +1,10 @@
-// K-Aqua — StatBand: responsives Kennzahlen-Band (großer Wert + Einheit + Label).
+// K-Aqua - StatBand: responsives Kennzahlen-Band (großer Wert + Einheit + Label).
 //
 // QUELLE: kaqua-deep-ui.jsx (StatBand). PORTIERT 1:1 (Layout: auto-fit Grid, min. Spaltenbreite
 // per `cols`-Prop steuerbar).
-// ANGEPASST: BentoCard -> Card (components/ui/Card, deckungsgleiche Props — siehe
+// ANGEPASST: BentoCard -> Card (components/ui/Card, deckungsgleiche Props - siehe
 // PROMPT.txt). Reveal-Delay von Millisekunden (Prototyp: `i * 70`) auf Sekunden
-// umgerechnet (`i * 0.07`) — reales Reveal.tsx (Framer Motion) erwartet Sekunden.
+// umgerechnet (`i * 0.07`) - reales Reveal.tsx (Framer Motion) erwartet Sekunden.
 // Reine Anzeige (Reveal kapselt seine eigene Motion-Logik) -> KEIN "use client" hier nötig.
 import React from "react";
 import { Reveal } from "@/components/ui/Reveal";

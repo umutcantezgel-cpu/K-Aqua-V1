@@ -34,7 +34,7 @@ export function co2ExportCsv(series: any[], horizon: number, meta: string) {
     lines.push(row.join(';'));
   }
   lines.push(''); 
-  lines.push(((window as any).CO2_DISCLAIMER || '') + ' — ' + (meta || ''));
+  lines.push(((window as any).CO2_DISCLAIMER || '') + ' | ' + (meta || ''));
   co2Download(co2Slug(meta) + '.csv', new Blob(['\ufeff' + lines.join('\n')], { type: 'text/csv;charset=utf-8' }));
 }
 

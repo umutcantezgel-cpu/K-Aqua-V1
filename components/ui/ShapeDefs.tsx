@@ -1,6 +1,6 @@
-// K-Aqua — ShapeDefs: unsichtbare SVG-Clip-Definitionen für die Formen-Bibliothek (shapes.css).
+// K-Aqua - ShapeDefs: unsichtbare SVG-Clip-Definitionen für die Formen-Bibliothek (shapes.css).
 //
-// QUELLE: kaqua-shapes.js (Prototyp). PORTIERT 1:1 — gleiche Pfade, gleiche IDs.
+// QUELLE: kaqua-shapes.js (Prototyp). PORTIERT 1:1 - gleiche Pfade, gleiche IDs.
 // Einmal im Root-Layout mounten (direkt nach dem öffnenden <body>), damit die
 // Klassen kq-shape--taper-r/-l, --dune, --pebble, --wave-b und kq-band--wave-b
 // ihre clip-path-Referenzen (url(#kq-clip-…)) auflösen können.
@@ -8,7 +8,7 @@
 import React from "react";
 
 const KQ_CLIP_PATHS: Record<string, string> = {
-  /* Echtes Trapez mit großen Radien — die Referenzform:
+  /* Echtes Trapez mit großen Radien - die Referenzform:
      linke Kante senkrecht, rechte Kante läuft nach unten ein. */
   "kq-clip-taper-r":
     "M .045 0 L .952 0 C .984 0 .999 .028 .996 .062 L .942 .908 " +
@@ -18,7 +18,7 @@ const KQ_CLIP_PATHS: Record<string, string> = {
     "M .048 0 L .955 0 C .984 0 1 .022 1 .055 L 1 .945 " +
     "C 1 .978 .984 1 .955 1 L .132 1 C .088 1 .062 .968 .058 .908 " +
     "L .004 .062 C .001 .028 .016 0 .048 0 Z",
-  /* Fließende Oberkante — für Hero-/Stimmungsbilder */
+  /* Fließende Oberkante - für Hero-/Stimmungsbilder */
   "kq-clip-dune":
     "M 0 .34 C .1 .12 .26 .02 .46 .05 C .64 .078 .78 .01 .93 .06 " +
     "C .975 .075 1 .11 1 .17 L 1 .94 C 1 .974 .978 1 .946 1 " +

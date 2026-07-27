@@ -1,10 +1,10 @@
-// K-Aqua — PartnerDeep: KESSEL-Ökosystem, Wasserwege (Versorgung+Entwässerung), gemeinsame
+// K-Aqua - PartnerDeep: KESSEL-Ökosystem, Wasserwege (Versorgung+Entwässerung), gemeinsame
 // Roadmap, Spezifikations-Kanäle (GAEB/BIM/Datenblätter).
 //
 // QUELLE: kaqua-deep-sections-2.jsx (PartnerDeep). PORTIERT 1:1 (4 Abschnitte).
 // ANGEPASST: usePageL('partnerx') -> getTranslations('partnerx') (Server Component).
 // BentoCard -> Card. Roadmap-Schritte behalten den Status-Chip (r.s: "Heute"/"Im Ausbau"/
-// "Perspektive") bei — dafür kein StepFlow (das kennt keinen Chip), sondern die
+// "Perspektive") bei - dafür kein StepFlow (das kennt keinen Chip), sondern die
 // Original-Markup-Struktur 1:1 nachgebaut.
 // Reine Server Component -> KEIN "use client".
 import React from "react";

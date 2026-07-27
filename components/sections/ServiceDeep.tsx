@@ -1,8 +1,8 @@
-// K-Aqua — ServiceDeep: Dokumentenbibliothek, Support-Wege, Service-FAQ.
+// K-Aqua - ServiceDeep: Dokumentenbibliothek, Support-Wege, Service-FAQ.
 //
 // QUELLE: kaqua-deep-sections-2.jsx (ServiceDeep). PORTIERT 1:1. Dokumentzeilen sind im
 // Prototyp bewusst immer "aufgeklappt" (kein Akkordeon, nur je eine Zeile mit
-// Download-Button ODER "im Trust Center anfordern"-Chip) — hier beibehalten.
+// Download-Button ODER "im Trust Center anfordern"-Chip) - hier beibehalten.
 // ANGEPASST: usePageL('servicex') -> getTranslations('servicex') (Server Component).
 // KButton -> Button, variant="secondary" -> variant="ghost" (siehe PROMPT.txt).
 // Reine Server Component -> KEIN "use client".

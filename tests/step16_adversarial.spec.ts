@@ -21,7 +21,7 @@ test.describe("Step 16: Referenzen (Globus) - Extended & Keyboard Verification",
       // 1. Verify canvas container has correct aria-label
       const container = page.locator("div[aria-label]");
       await expect(container).toBeVisible();
-      await expect(container).toHaveAttribute("aria-label", "Interaktiver Globus mit Referenzprojekten — ziehen zum Drehen");
+      await expect(container).toHaveAttribute("aria-label", "Interaktiver Globus mit Referenzprojekten - ziehen zum Drehen");
 
       // 2. Verify canvas element itself is present
       const canvas = page.locator("canvas");

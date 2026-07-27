@@ -27,7 +27,7 @@ export function Co2Scenarios({ paramsNow, scenarios, setScenarios, overlayIds, s
         <button type="button" className="co2-play-btn" onClick={freeze}><Icons.Check size={14} />Stand einfrieren</button>
       </div>
       {scenarios.length === 0 ? (
-        <p className="co2-mod-note">Noch keine Szenarien. Regler einstellen, benennen, einfrieren — dann hier vergleichen und als Overlay in den Chart legen.</p>
+        <p className="co2-mod-note">Noch keine Szenarien. Regler einstellen, benennen, einfrieren. Dann hier vergleichen und als Overlay in den Chart legen.</p>
       ) : (
         <div className="co2-scn-list">
           {scenarios.map((sc: any) => {

@@ -22,7 +22,7 @@ test.describe("Step 18: Geo City Pages (pSEO)", () => {
       const description = page.locator('meta[name="description"]');
       await expect(description).toHaveAttribute(
         "content",
-        "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort — DEWA — Dubai Electricity & Water Authority"
+        "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort - DEWA - Dubai Electricity & Water Authority"
       );
     });
 
@@ -81,7 +81,7 @@ test.describe("Step 18: Geo City Pages (pSEO)", () => {
       const description = page.locator('meta[name="description"]');
       await expect(description).toHaveAttribute(
         "content",
-        "أنظمة مياه شرب d20–d630، مطابقة للمتطلبات المحلية — DEWA — هيئة كهرباء ومياه دبي"
+        "أنظمة مياه شرب d20–d630، مطابقة للمتطلبات المحلية - DEWA - هيئة كهرباء ومياه دبي"
       );
 
       // Closest markets links are translated and prefixed with /ar
