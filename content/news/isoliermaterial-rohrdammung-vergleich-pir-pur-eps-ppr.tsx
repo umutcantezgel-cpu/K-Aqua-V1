@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { BentoGrid } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
