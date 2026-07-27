@@ -54,11 +54,13 @@ export default async function DatenschutzPage({ params }: Props) {
             <Reveal delay={0.06}>
               <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
                 {title}
+                <span className="sr-only">
+                  {locale === 'de' ? ' der KWT GmbH (K-Aqua)' : locale === 'ar' ? ' لشركة KWT GmbH (K-Aqua)' : ' of KWT GmbH (K-Aqua)'}
+                </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
-                {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}
+                {tLegal.has("seoH1_privacy") ? tLegal("seoH1_privacy") : `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}
               </p>
-              <p className="sr-only">{title} {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}</p>
             </Reveal>
           </div>
         </section>

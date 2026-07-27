@@ -24,10 +24,10 @@ export default function SpotlightGrid({ className = '' }: { className?: string }
   };
 
   return (
-    <div className={`ka-spotgrid ${className}`}>
+    <div className={`ka-spotgrid ${className}`} data-nosnippet="true">
       {tools.slice(0, 6).map((tool, idx) => (
         <Link key={idx} className="cell" href={getHref(tool.id)}>
-          <b>{tool.t}</b>
+          <span className="font-bold">{tool.t}</span>
           <span aria-hidden="true">{tool.d}</span>
         </Link>
       ))}

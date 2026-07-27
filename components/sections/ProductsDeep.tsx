@@ -89,19 +89,19 @@ export function ProductsDeep() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="flow" size={240} />
-              <h3 className="font-heading font-bold text-foreground">Flow</h3>
+              <div className="font-heading font-bold text-foreground">Flow</div>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="blueprint" size={240} />
-              <h3 className="font-heading font-bold text-foreground">Blueprint</h3>
+              <div className="font-heading font-bold text-foreground">Blueprint</div>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="pressure" size={240} />
-              <h3 className="font-heading font-bold text-foreground">Pressure</h3>
+              <div className="font-heading font-bold text-foreground">Pressure</div>
             </Card>
             <Card className="flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="isonet" size={240} />
-              <h3 className="font-heading font-bold text-foreground">Isometric</h3>
+              <div className="font-heading font-bold text-foreground">Isometric</div>
             </Card>
           </div>
         </div>
@@ -141,7 +141,7 @@ export function ProductsDeep() {
               <Reveal key={a.t} delay={i * 0.08}>
                 <Card tint className="h-full">
                   <span className="font-heading text-h3 font-extrabold text-foreground">{a.v}</span>
-                  <h3 className="font-heading text-small font-bold text-foreground">{a.t}</h3>
+                  <div className="font-heading text-small font-bold text-foreground">{a.t}</div>
                   <p className="text-tiny text-muted-foreground">{a.c}</p>
                 </Card>
               </Reveal>

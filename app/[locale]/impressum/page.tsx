@@ -61,9 +61,8 @@ export default async function ImpressumPage({ params }: Props) {
                 {title}
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
-                {tLegal("seoH1_imprint") || `Impressum von K-Aqua: Rechtliche Hinweise und Anbieterkennzeichnung`}
+                {tLegal.has("seoH1_imprint") ? tLegal("seoH1_imprint") : `Impressum von K-Aqua: Rechtliche Hinweise und Anbieterkennzeichnung`}
               </p>
-              <p className="sr-only">{title} {tLegal("seoH1_imprint") || `Impressum von K-Aqua: Rechtliche Hinweise und Anbieterkennzeichnung`}</p>
             </Reveal>
           </div>
         </section>

@@ -41,7 +41,7 @@ export async function SolutionsDeep() {
             {segments.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.07}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{s.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{s.t}</div>
                   <p className="text-small text-muted-foreground">{s.d}</p>
                   <ul className="mt-2 flex list-none flex-col gap-1 p-0">
                     {s.pts.map((pt) => (

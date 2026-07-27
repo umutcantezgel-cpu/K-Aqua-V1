@@ -79,7 +79,7 @@ export async function ServiceDeep() {
             {sup.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.08}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{s.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{s.t}</div>
                   <p className="text-small text-muted-foreground">{s.d}</p>
                   {s.href ? (
                     <LiquidMagneticButton fill="flood" variant="ghost" size="md" href={s.href} aria-label={`${s.c} - ${s.t}`} className="mt-2 self-start">

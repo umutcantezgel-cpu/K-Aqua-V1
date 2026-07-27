@@ -125,7 +125,6 @@ export function Academy({ data }: AcademyProps) {
             <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal mb-2">
               {data.lead}
             </p>
-            <p className="sr-only">{data.title1}{ENSPACE}{data.titleGrad} {data.lead}</p>
           </div>
         </div>
       </section>

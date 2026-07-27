@@ -49,7 +49,7 @@ export async function PartnerDeep() {
             {eco.map((e, i) => (
               <Reveal key={e.t} delay={i * 0.07}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-small font-bold text-foreground">{e.t}</h3>
+                  <div className="font-heading text-small font-bold text-foreground">{e.t}</div>
                   <p className="text-tiny text-muted-foreground">{e.d}</p>
                 </Card>
               </Reveal>
@@ -67,7 +67,7 @@ export async function PartnerDeep() {
             {flow.map((f, i) => (
               <Reveal key={f.t} delay={i * 0.08}>
                 <Card tint={i === 2} className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{f.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{f.t}</div>
                   <p className="text-small text-muted-foreground">{f.d}</p>
                 </Card>
               </Reveal>
@@ -95,7 +95,7 @@ export async function PartnerDeep() {
                 </span>
                 <div>
                   <div className="flex flex-wrap items-center gap-2">
-                    <h3 className="font-heading text-body font-bold text-foreground">{r.t}</h3>
+                    <div className="font-heading text-body font-bold text-foreground">{r.t}</div>
                     <span className="rounded-full bg-primary-soft px-2.5 py-0.5 text-tiny font-bold text-primary">{r.s}</span>
                   </div>
                   <p className="text-small leading-relaxed text-muted-foreground">{r.d}</p>
@@ -115,7 +115,7 @@ export async function PartnerDeep() {
             {spec.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.08}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-small font-bold text-foreground">{s.t}</h3>
+                  <div className="font-heading text-small font-bold text-foreground">{s.t}</div>
                   <p className="text-tiny text-muted-foreground">{s.d}</p>
                 </Card>
               </Reveal>

@@ -75,7 +75,7 @@ export function AcademyDeep() {
           <Reveal delay={0.12}>
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 items-start">
               <Card>
-                <h3 className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</h3>
+                <div className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</div>
                 <StepFlow steps={procs![proc]!.steps} />
               </Card>
               <div className="sticky top-24">

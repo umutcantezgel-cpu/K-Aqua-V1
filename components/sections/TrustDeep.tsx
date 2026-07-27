@@ -64,7 +64,7 @@ export async function TrustDeep() {
             {inst.map((it, i) => (
               <Reveal key={it.t} delay={i * 0.08}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{it.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{it.t}</div>
                   <p className="text-small text-muted-foreground">{it.d}</p>
                 </Card>
               </Reveal>

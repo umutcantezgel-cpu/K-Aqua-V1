@@ -63,9 +63,9 @@ export function CustomerReviews() {
               <div className="mb-6 bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center">
                 {c.icon}
               </div>
-              <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+              <div className="font-heading font-bold text-xl text-foreground mb-4">
                 {c.title}
-              </h3>
+              </div>
               <p className="text-body text-muted-foreground leading-relaxed">
                 {c.desc}
               </p>

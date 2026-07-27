@@ -303,6 +303,9 @@ export default async function ProductDetailPage({
               </Reveal>
               <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-2 animate-reveal">
                 {localizedTitle}
+                <span className="sr-only">
+                  {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme' : locale === 'ar' ? ' لأنظمة أنابيب PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems'}
+                </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
                 {dynamicSeoH1}
@@ -469,10 +472,10 @@ export default async function ProductDetailPage({
                 {generatedSeoNarrative && (
                   <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
-                      {tProd('labels.technicalDescription')} - {localizedTitle}
+                      {tProd('labels.technicalDescription')} (SEO) - {localizedTitle}
                     </h3>
                     <p className="text-body text-muted-foreground leading-relaxed">
-                      <span className="font-bold text-foreground">{localizedTitle} {dynamicSeoH1}</span> — {generatedSeoNarrative}
+                      {generatedSeoNarrative}
                     </p>
                   </div>
                 )}

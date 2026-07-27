@@ -58,11 +58,11 @@ export default async function NewsPage({ params }: Props) {
                 <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                   {t("titleGrad")}
                 </span>
+                <span className="sr-only"> - {t("lead")}</span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
                 {t("lead")}
               </p>
-              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("lead")}</p>
             </Reveal>
           </div>
         </section>

@@ -34,7 +34,7 @@ function CtxFull({ c }: { c: KontaktContent }) {
   return (
     <aside className="kqk-ctx" data-nosnippet="true">
       <div className="kqk-k">{c.kicker}</div>
-      <h2 className="kqk-h">{c.head}</h2>
+      <div className="kqk-h font-heading font-bold">{c.head}</div>
       <p className="kqk-t">{c.text}</p>
       <Promise_ />
     </aside>
@@ -45,7 +45,7 @@ function CtxShort({ c, withPromise }: { c: KontaktContent, withPromise?: boolean
   return (
     <aside className="kqk-ctx" data-nosnippet="true">
       <div className="kqk-k">{c.kicker}</div>
-      <h2 className="kqk-h sh">{c.short}</h2>
+      <div className="kqk-h sh font-heading font-bold">{c.short}</div>
       {withPromise && <Promise_ />}
     </aside>
   );
@@ -58,6 +58,17 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
   let actualSlug = slug;
   if (!actualSlug || actualSlug === "fallback") {
     actualSlug = resolveKontaktSlug(pathname);
+  }
+
+  // SEO Fix: Prevent Duplicate Content ("Seiten mit doppelten Textblöcken")
+  // The layout.tsx renders a global variant="block".
+  // However, some pages (Home, News, Academy) already render their own KontaktBlock.
+  // We return null for the global block on those pages to avoid duplicate text blocks.
+  if (variant === "block" && pathname) {
+    const p = pathname.replace(/^\/[a-z]{2}(\/|$)/, "/") || "/";
+    if (p === "/" || p.startsWith("/news/") || p.startsWith("/academy")) {
+      return null;
+    }
   }
 
   const key: KontaktSlug = (KONTAKT_SLUGS as readonly string[]).includes(actualSlug as KontaktSlug) ? (actualSlug as KontaktSlug) : "fallback";
@@ -112,7 +123,7 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
     case "hero":
       content = (
         <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
-          <h2 className="kqk-h sh kqk-ctx w-full lg:flex-1 lg:min-w-[220px] text-center lg:text-left">{c.short}</h2>
+          <div className="kqk-h sh kqk-ctx w-full lg:flex-1 lg:min-w-[220px] text-center lg:text-left font-heading font-bold">{c.short}</div>
           <div className="kqk-right w-full lg:flex-[2]">
             <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
           </div>

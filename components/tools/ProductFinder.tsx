@@ -141,9 +141,9 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                   </div>
 
                   <div>
-                    <h3 className="font-heading font-bold text-base text-foreground mb-3">
+                    <div className="font-heading font-bold text-base text-foreground mb-3">
                       Suche
-                    </h3>
+                    </div>
                     <div className="relative">
                       <div className="absolute inset-y-0 start-3 flex items-center pointer-events-none text-muted-foreground">
                         <Search className="w-4 h-4" />
@@ -214,7 +214,8 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                             className="hover:bg-primary-soft/50 transition-colors duration-fast group cursor-pointer"
                           >
                             <td className="p-3 px-4 border-b border-card-border font-semibold text-foreground text-start">
-                              <Link href={`/produkte/${r.category}/${slugOnly}`} className="hover:text-primary transition-colors flex items-center justify-between gap-2">
+                              <Link href={`/produkte/${r.category}/${slugOnly}`} className="hover:text-primary transition-colors flex items-center justify-between gap-2" title={r.title}>
+                                <span className="sr-only">{r.title}</span>
                                 {r.title}
                                 <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-primary" />
                               </Link>

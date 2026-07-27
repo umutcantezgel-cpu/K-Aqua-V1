@@ -69,9 +69,9 @@ export default function HomeBuyers() {
           {personas.map((persona, i) => (
             <Card key={i} className="flex flex-col h-full justify-between">
               <div>
-                <h3 className="font-heading font-bold text-xl mb-4 text-foreground">
+                <div className="font-heading font-bold text-xl mb-4 text-foreground">
                   {persona.t}
-                </h3>
+                </div>
                 <p className="text-body text-muted-foreground leading-relaxed mb-6">
                   {persona.d}
                 </p>
@@ -105,9 +105,9 @@ export default function HomeBuyers() {
               >
                 <CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-heading font-bold text-lg text-foreground mb-2">
+                  <div className="font-heading font-bold text-lg text-foreground mb-2">
                     {reason.t}
-                  </h3>
+                  </div>
                   <p className="text-body text-muted-foreground leading-relaxed">
                     {reason.d}
                   </p>

@@ -136,11 +136,13 @@ export default function Career({ careerData }: CareerProps) {
             <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
               {careerData.titleGrad}
             </span>
+            <span className="sr-only">
+              {careerData.locale === 'de' ? ' bei K-Aqua PP-R Rohrsysteme' : careerData.locale === 'ar' ? ' في أنظمة أنابيب PP-R من K-Aqua' : ' at K-Aqua PP-R Piping Systems'}
+            </span>
           </h1>
           <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty font-body font-normal mb-6">
             {careerData.lead}
           </p>
-          <p className="sr-only">{careerData.title1} {careerData.titleGrad} {careerData.lead}</p>
         </div>
       </section>
 
@@ -283,9 +285,9 @@ export default function Career({ careerData }: CareerProps) {
                     {CHAR_SPACE}
                     {STR_TOTAL_QUESTIONS}
                   </span>
-                  <h3 className="text-h3 font-heading font-bold text-foreground">
+                  <div className="text-h3 font-heading font-bold text-foreground">
                     {careerData.cmQ[cStep]?.q}
-                  </h3>
+                  </div>
                   <div className="flex flex-col gap-3 w-full">
                     {careerData.cmQ[cStep]?.o.map((opt, i) => (
                       <button
