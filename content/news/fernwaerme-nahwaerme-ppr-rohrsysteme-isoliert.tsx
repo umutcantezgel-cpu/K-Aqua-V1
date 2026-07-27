@@ -7,6 +7,7 @@ import { Stagger } from "@/components/ui/Stagger";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { Flame, Thermometer, Shield, Activity } from "@/components/ui/icon";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 
 export const fernwaermeNahwaerme: NewsPost = {
   slug: "fernwaerme-nahwaerme-ppr-rohrsysteme-isoliert",
@@ -187,9 +188,9 @@ export const fernwaermeNahwaerme: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Tiefbauprojekte effizient umsetzen</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Sprechen Sie mit unseren Infrastruktur Experten. Wir unterstützen Sie bei der Auslegung der Rohrnennweiten und der Grabenplanung.</p>
-          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Infrastruktur Beratung anfragen
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

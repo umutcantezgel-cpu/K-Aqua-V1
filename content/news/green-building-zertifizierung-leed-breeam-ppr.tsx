@@ -7,6 +7,7 @@ import { StepFlow } from "@/components/ui/StepFlow";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { Leaf, Award, Droplet, Layers, Shield, ArrowRight, Recycle } from "@/components/ui/icon";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 
 export const greenBuildingZertifizierung: NewsPost = {
   slug: "green-building-zertifizierung-leed-breeam-ppr",
@@ -149,13 +150,13 @@ export const greenBuildingZertifizierung: NewsPost = {
             Sichern Sie sich wertvolle Zertifizierungspunkte durch die richtige Materialwahl. Unsere Experten beraten Sie gerne zu LCA, EPDs und Systemauslegung.
           </p>
           <div className="mt-4">
-            <a
+            <NavLink
               href="/kontakt"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-accent-foreground font-bold hover:opacity-90 transition-opacity"
             >
               <span>Nachhaltigkeitsberatung anfragen</span>
               <ArrowRight className="w-4 h-4" />
-            </a>
+            </NavLink>
           </div>
         </CTABand>
       </Reveal>

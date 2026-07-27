@@ -36,9 +36,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   // Localized description using the regulator info
   const tRoot = await getTranslations({ locale });
-  const geoContentTrans = tRoot.raw("geoContent") as Record<string, { regulator: string }>;
+  const geoContentTrans = tRoot.raw("geoContent") as Record<string, { regulator: string; water?: string; focus?: string[] }>;
   const localizedRegulator = geoContentTrans[citySlug]?.regulator || market.regulator;
-  const description = `${tGeo("cityLead")} ${localizedRegulator}`;
+  const localizedWater = geoContentTrans[citySlug]?.water || market.water || "";
+  const localizedFocus = geoContentTrans[citySlug]?.focus || market.focus || [];
+  
+  const focusText = localizedFocus.length > 0 ? ` ${localizedFocus.join(", ")}.` : "";
+  const description = `${market.city}: ${tGeo("cityLead")} ${localizedRegulator}. ${localizedWater}${focusText}`;
 
   return constructMetadata({
     title,

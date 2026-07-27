@@ -8,6 +8,7 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { Leaf, ShieldCheck, Droplet, Thermometer } from "@/components/ui/icon";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 
 export const geothermieErdwaerme: NewsPost = {
   slug: "geothermie-erdwaerme-waermepumpen-rohre-ppr",
@@ -215,9 +216,9 @@ export const geothermieErdwaerme: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Geothermiefeld?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Ob Einfamilienhaus oder gewerbliches Sondenfeld: Unsere Experten unterstützen Sie bei der Auslegung der Verteilertechnik und Rohrdimensionierung.</p>
-          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Projektberatung anfordern
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

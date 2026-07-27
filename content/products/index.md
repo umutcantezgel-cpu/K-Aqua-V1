@@ -49,7 +49,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Elbow 45°](./fittings/elbow-45.md) | AQ04520–AQ04575 | Ø 20–75 mm |
 | [Elbow 45° (Female/Male)](./fittings/elbow-45-femalemale.md) | AQ04120–AQ04125 | Ø 20–25 mm |
 | [Elbow 90°](./fittings/elbow-90.md) | AQ09020–AQ09075 | Ø 20–75 mm |
-| [Elbow 90° (Female/Male)](./fittings/elbow-90-female-male.md) | AQ09120–AQ09125 | Ø 20–25 mm |
+| [Elbow 90° (Female/Male)](./fittings/elbow-90-femalemale.md) | AQ09120–AQ09125 | Ø 20–25 mm |
 | [Electrofusion Socket](./fittings/electrofusion-socket.md) | AQ27E20–AQ27E75 | Ø 20–75 mm |
 | [Flange Adaptor](./fittings/flange-adaptor.md) | AQ79040–AQ790125 | Ø 40–125 mm |
 | [Reducing Bush](./fittings/reducing-bush.md) | AQ2432520–AQ2435020 | Ø 25×20–50×20 mm |
