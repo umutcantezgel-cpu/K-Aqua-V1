@@ -248,14 +248,14 @@ export default async function ProductDetailPage({
     // Ignore parse errors
   }
   
-  const generatedSeoNarrative = `
-    ${tProd('narrative.intro', { title: localizedTitle, codes: codes })}
-    ${rowCountText}
-    ${sizeText}
-    ${weightText}
-    ${packText}
-    ${tProd('narrative.outro', { title: localizedTitle })}
-  `.trim();
+  const generatedSeoNarrative = [
+    tProd('narrative.intro', { title: localizedTitle, codes: codes }),
+    rowCountText,
+    sizeText,
+    weightText,
+    packText,
+    tProd('narrative.outro', { title: localizedTitle })
+  ].filter(Boolean).join(' ').trim();
 
   // Enhance schema with Local SEO properties
   Object.assign(schema, {
@@ -470,16 +470,13 @@ export default async function ProductDetailPage({
 
                 {/* 4. Generated Technical SEO Narrative & Quality Assurance */}
                 {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl">
+                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                       {tProd('labels.technicalDescription')} - {localizedTitle}
                     </h3>
-                    <div className="text-body text-muted-foreground leading-relaxed space-y-4">
-                      <p className="font-semibold text-foreground">
-                        {localizedTitle} {dynamicSeoH1}
-                      </p>
-                      {generatedSeoNarrative.split('\n').map((paragraph, i) => paragraph.trim() ? <p key={i}>{paragraph}</p> : null)}
-                    </div>
+                    <p className="text-body text-muted-foreground leading-relaxed">
+                      <strong className="text-foreground">{localizedTitle} {dynamicSeoH1}</strong> — {generatedSeoNarrative}
+                    </p>
                   </div>
                 )}
                 
