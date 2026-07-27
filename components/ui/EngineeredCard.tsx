@@ -209,7 +209,11 @@ export default function EngineeredCard({
         X 000 · Y 000
       </motion.span>
 
-      {href && <Link href={href} className="absolute inset-0 z-[4]" aria-label={`${title} - ${cta}`} />}
+      {href && (
+        <Link href={href} className="absolute inset-0 z-[4]" aria-label={`${title} - ${cta}`} title={title}>
+          <span className="sr-only">{title} - {cta}</span>
+        </Link>
+      )}
     </motion.article>
   );
 }

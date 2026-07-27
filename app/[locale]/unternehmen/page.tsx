@@ -63,11 +63,13 @@ export default async function UnternehmenPage({ params }: Props) {
                 <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                   {t("titleGrad")}
                 </span>
+                <span className="sr-only">
+                  {locale === 'de' ? ' der KWT GmbH (K-Aqua)' : locale === 'ar' ? ' لشركة KWT GmbH (K-Aqua)' : ' of KWT GmbH (K-Aqua)'}
+                </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
                 <span className="font-bold text-foreground">{t("title1")} {t("titleGrad")}</span> &ndash; {t("lead")}
               </p>
-              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("title1")} {t("titleGrad")} {t("lead")}</p>
             </Reveal>
           </div>
         </section>

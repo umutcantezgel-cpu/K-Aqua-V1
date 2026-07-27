@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
@@ -193,10 +194,10 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Überlassen Sie die komplexe Dehnungsberechnung nicht dem Zufall oder groben Schätzwerten. Nutzen Sie unsere Software-Tools oder kontaktieren Sie die K-Aqua Planungsabteilung für eine zertifizierte Festpunkt- und Dehnungsberechnung.
           </p>
-          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <Link href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             <Ruler className="w-5 h-5" />
-            Technischen Support anfordern
-          </a>
+            Technischen Support anfragen
+          </Link>
         </CTABand>
       </Reveal>
 

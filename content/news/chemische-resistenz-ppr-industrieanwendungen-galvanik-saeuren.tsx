@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { BentoGrid } from "@/components/ui/BentoGrid";
@@ -174,9 +175,9 @@ export const chemischeResistenzIndustrie: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Die chemische Beständigkeit im Anlagenbau ist ein hochkomplexes Zusammenspiel aus Medium, Konzentration, Temperaturprofil und Betriebsdruck. Kontaktieren Sie unsere Anwendungstechnik für eine garantierte, detaillierte Freigabeprüfung.
           </p>
-          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
-            Labor & Technik kontaktieren
-          </a>
+          <Link href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Technischen Support anfragen
+          </Link>
         </CTABand>
       </Reveal>
 

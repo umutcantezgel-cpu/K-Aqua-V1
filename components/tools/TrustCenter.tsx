@@ -112,7 +112,6 @@ export function TrustCenter({ data }: TrustCenterProps) {
                 {data.lead}
               </p>
             )}
-            <p className="sr-only">{data.title1}{ENSPACE}{data.titleGrad} {data.lead}</p>
           </div>
         </div>
       </section>

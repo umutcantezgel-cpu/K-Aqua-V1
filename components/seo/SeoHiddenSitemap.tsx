@@ -41,7 +41,7 @@ export default function SeoHiddenSitemap() {
           if (variantSlugs.has(p.slug)) return null;
           return (
             <li key={`prod-${p.slug}`}>
-              <Link href={`/produkte/${p.category}/${p.slug}`}>{p.title}</Link>
+              <Link href={`/produkte/${p.category}/${p.slug}`}>{p.title || p.slug}</Link>
             </li>
           );
         })}

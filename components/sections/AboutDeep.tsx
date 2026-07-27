@@ -64,7 +64,7 @@ export async function AboutDeep() {
             {house.map((h, i) => (
               <Reveal key={h.t} delay={i * 0.07}>
                 <Card tint className="h-full">
-                  <h3 className="font-heading text-small font-bold text-foreground">{h.t}</h3>
+                  <div className="font-heading text-small font-bold text-foreground">{h.t}</div>
                   <p className="text-tiny text-muted-foreground">{h.d}</p>
                 </Card>
               </Reveal>
@@ -91,7 +91,7 @@ export async function AboutDeep() {
                   {m.y}
                 </span>
                 <div>
-                  <h3 className="font-heading text-body font-bold text-foreground">{m.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{m.t}</div>
                   <p className="text-small leading-relaxed text-muted-foreground">{m.d}</p>
                 </div>
               </div>

@@ -30,11 +30,11 @@ export function NewsDeep() {
                     <span>{news.date}</span>
                     <span className="rounded-full bg-primary-soft px-2.5 py-1 font-bold text-primary">{news.tag || news.category || "News"}</span>
                   </div>
-                  <h3 className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">
+                  <div className="font-heading text-body font-bold text-foreground mt-3 group-hover:text-primary transition-colors">
                     <Link href={`/news/${slug}`} className="before:absolute before:inset-0 focus-visible:outline-none">
                       {resolveLocalized(news.title, locale)}
                     </Link>
-                  </h3>
+                  </div>
                   <p className="text-small text-muted-foreground mt-2 line-clamp-3">{resolveLocalized(news.teaser || news.excerpt, locale)}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
                     {t("readMore")} <span className="translate-x-0 group-hover:translate-x-1 transition-transform">→</span>
@@ -46,7 +46,7 @@ export function NewsDeep() {
         </div>
         <Reveal delay={0.2}>
           <Card className="mt-6">
-            <h3 className="font-heading text-small font-bold text-foreground">{t("ishTitle")}</h3>
+            <div className="font-heading text-small font-bold text-foreground">{t("ishTitle")}</div>
             <p className="text-body text-muted-foreground">{t("ishText")}</p>
           </Card>
         </Reveal>

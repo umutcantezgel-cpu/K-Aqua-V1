@@ -36,7 +36,7 @@ export async function ContactDeep() {
             {routes.map((r, i) => (
               <Reveal key={r.t} delay={i * 0.08}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{r.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{r.t}</div>
                   <p className="text-small text-muted-foreground">{r.d}</p>
                   <Button variant="ghost" size="sm" href={r.href} className="mt-2 self-start">
                     {r.c}

@@ -121,8 +121,8 @@ export function constructMetadata({
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
       // Ensure base title is cleanly padded or truncated
-      if (finalTitle.length > 55) {
-          finalTitle = finalTitle.substring(0, 52).trim() + "...";
+      if (finalTitle.length > 42) {
+          finalTitle = finalTitle.substring(0, 39).trim() + "...";
       }
 
       const lowerTitle = finalTitle.toLowerCase();
@@ -133,25 +133,7 @@ export function constructMetadata({
           suffix = " | K-Aqua";
       }
 
-      // Seobility rule: Title must be 45-65 characters.
-      // If it's too short (< 45), append contextual keywords.
-      if (finalTitle.length + suffix.length < 45 && cleanPath) {
-        if (cleanPath.includes("fittings") || cleanPath.includes("transition-fittings")) {
-           suffix += locale === 'de' ? " - PP-R Verbindungen" : locale === 'ar' ? " - تجهيزات PP-R" : " - PP-R Fittings";
-        } else if (cleanPath.includes("valves")) {
-           suffix += locale === 'de' ? " - PP-R Absperrventile" : locale === 'ar' ? " - صمامات PP-R" : " - PP-R Valves";
-        } else if (cleanPath.includes("tools") || cleanPath.includes("weld-in-saddles")) {
-           suffix += locale === 'de' ? " - Schweißwerkzeuge" : locale === 'ar' ? " - أدوات اللحام" : " - Welding Tools";
-        } else if (cleanPath.includes("accessories")) {
-           suffix += locale === 'de' ? " - Zubehörteile" : locale === 'ar' ? " - مستلزمات" : " - Accessories";
-        } else if (cleanPath.includes("pipes")) {
-           suffix += locale === 'de' ? " - Rohrleitungen" : locale === 'ar' ? " - أنابيب" : " - Piping Solutions";
-        } else if (cleanPath.includes("news")) {
-           suffix += locale === 'de' ? " - TGA Fachartikel" : locale === 'ar' ? " - مقال فني" : " - MEP Article";
-        } else if (cleanPath.includes("unternehmen") || cleanPath.includes("career")) {
-           suffix += locale === 'de' ? " - Unser Team" : locale === 'ar' ? " - فريقنا" : " - Our Team";
-        }
-      }
+
       
       // 4. Append suffix
       if (suffix) {
@@ -167,7 +149,7 @@ export function constructMetadata({
       
       // 5. Final fallback: If still under 45, pad it with a generic keyword
       if (finalTitle.length < 45) {
-          const pad = locale === 'de' ? " - PP-R Rohrsysteme" : locale === 'ar' ? " - أنظمة أنابيب PP-R" : " - PP-R Piping";
+          const pad = locale === 'de' ? " | PP-R Rohrsysteme" : locale === 'ar' ? " | أنظمة أنابيب PP-R" : " | PP-R Piping";
           if (finalTitle.length + pad.length <= 65) {
               finalTitle += pad;
           }

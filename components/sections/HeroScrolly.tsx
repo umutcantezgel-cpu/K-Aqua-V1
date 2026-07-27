@@ -143,6 +143,7 @@ export default function HeroScrolly() {
           <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
             {t('h1a')}{' '}
             <span className="text-primary">{t('h1b')}</span>
+            <span className="sr-only"> - {t('lead')}</span>
           </h1>
         </Reveal>
         <Reveal delay={0.16}>
@@ -271,7 +272,7 @@ export default function HeroScrolly() {
           showReducedDesktop ? 'block' : 'block lg:hidden'
         } py-12 bg-background relative z-10`}
       >
-        <div className="mx-auto max-w-[1400px] px-6 k-orbit-static">
+        <div className="mx-auto max-w-[1400px] px-6 k-orbit-static" data-nosnippet="true">
           {staticCardEls}
         </div>
       </section>

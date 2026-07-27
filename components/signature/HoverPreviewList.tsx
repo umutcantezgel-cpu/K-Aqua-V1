@@ -17,7 +17,7 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
         
         return (
           <Link key={idx} className="row" href={`/referenzen#${proj.id}`} data-label={imgTag}>
-            <b>{proj.title}</b>
+            <span className="font-bold">{proj.title}</span>
             <span aria-hidden="true">{proj.d}</span>
           </Link>
         );

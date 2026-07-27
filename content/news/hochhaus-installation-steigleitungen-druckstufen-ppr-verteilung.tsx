@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
@@ -8,7 +9,7 @@ import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
-import { Building, Settings, Ruler, Link } from "@/components/ui/icon";
+import { Building, Settings, Ruler, Link as LinkIcon } from "@/components/ui/icon";
 
 export const hochhausInstallationSteigleitungen: NewsPost = {
   slug: "hochhaus-installation-steigleitungen-druckstufen-ppr-verteilung",
@@ -202,9 +203,9 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">TGA-Hydraulik am Limit?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Unsere spezialisierten Projektingenieure unterstützen Sie proaktiv bei der Berechnung von Druckzonen, der Kalkulation von Festpunktlasten und der exakten Dimensionierung von Steigleitungen für Ihr nächstes Hochhausprojekt.</p>
-          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
-            Engineering anfragen
-          </a>
+          <Link href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Technischen Support anfragen
+          </Link>
         </CTABand>
       </Reveal>
 

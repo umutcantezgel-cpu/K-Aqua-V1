@@ -11,7 +11,7 @@ import SkipLink from '@/components/layout/SkipLink';
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import SeoTextExpansion from '@/components/seo/SeoTextExpansion';
+
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
 import { LiquidEngine } from '@/components/ui/LiquidEngine';
@@ -141,7 +141,6 @@ export default async function LocaleLayout({
             <KontaktBlock variant="block" />
             <KontaktFab />
             <KontaktModal />
-            <SeoTextExpansion />
             <Footer />
             <SeoHiddenSitemap />
             <CookieBanner />

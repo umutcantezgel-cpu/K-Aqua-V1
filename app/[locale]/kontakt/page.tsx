@@ -72,9 +72,8 @@ export default async function KontaktPage({ params }: Props) {
                 </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
-                {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
+                {t.has("seoH1") ? t("seoH1") : `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
               </p>
-              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}</p>
             </Reveal>
           </div>
         </section>

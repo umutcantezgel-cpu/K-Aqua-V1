@@ -158,14 +158,14 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           <div className="kqk-done slim" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
             <div className="ring"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg></div>
             <div>
-              <h3>{t("doneTitleSlim")}</h3>
+              <div className="font-heading font-bold text-lg mb-2">{t("doneTitleSlim")}</div>
               <p>{done}</p>
             </div>
           </div>
         ) : (
           <div className="kqk-done" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
             <div className="ring"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg></div>
-            <h3>{t("doneTitle")}</h3>
+            <div className="font-heading font-bold text-xl mb-4">{t("doneTitle")}</div>
             <p>{done}</p>
             <div className="alt">{t("direct")} <a href={`tel:${DIREKTWAHL_TEL}`}>{DIREKTWAHL_DISPLAY}</a></div>
           </div>

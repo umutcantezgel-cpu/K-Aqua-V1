@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsPost } from "./index";
+import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
@@ -230,12 +231,12 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Benötigen Sie für Ihre Gebäudezertifizierung oder Ausschreibung die offiziellen Zeitstandregressionskurven und Prüfberichte unserer K Aqua PPR Rohre?
           </p>
-          <a
+          <Link
             href="/ressourcen/support"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
           >
-            Zertifikate anfragen
-          </a>
+            Support kontaktieren
+          </Link>
         </CTABand>
       </Reveal>
 

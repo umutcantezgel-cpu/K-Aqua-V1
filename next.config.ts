@@ -404,6 +404,16 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        // Prevent indexing of PDF files to fix "Nicht analysierbare Datentypen"
+        source: '/pdf/:path*.pdf',
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow',
+          },
+        ],
+      },
     ];
   },
 };

@@ -78,6 +78,7 @@ export default async function ProduktePage({ params }: Props) {
               </div>
               <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-1 mb-4">
                 {t("sysTitle")}
+                <span className="sr-only"> der K-Aqua PP-R Rohrsysteme</span>
               </h1>
               <p className="text-lead text-muted-foreground max-w-[62ch] text-wrap-pretty font-normal mb-2">
                 {t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}
@@ -100,7 +101,7 @@ export default async function ProduktePage({ params }: Props) {
                       <text x="42" y="46" textAnchor="middle" fontFamily="Outfit, sans-serif" fontWeight="800" fontSize="12" fill="var(--primary, #5B2D8C)">{"PPR"}</text>
                     </svg>
                     <div className="ka-speccard-body">
-                      <h3>{r.t}</h3>
+                      <div className="font-heading font-bold text-lg text-foreground mb-2">{r.t}</div>
                       <p>{r.d}</p>
                       <div className="ka-speccard-chips">
                         <span>{"SDR 7,4"}</span><span>{"PN 20"}</span><span>{"d20–d630"}</span>

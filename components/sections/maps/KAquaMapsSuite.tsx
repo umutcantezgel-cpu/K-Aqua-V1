@@ -355,9 +355,9 @@ export function KAquaMapsSuite() {
             </div>
             <div className="bg-card border border-card-border rounded-2xl p-6 flex flex-col gap-6 shadow-sm">
               <div>
-                <h3 className="font-heading font-bold text-xl mb-1 text-foreground">
+                <div className="font-heading font-bold text-xl mb-1 text-foreground">
                   Zentrale Produktion & Entwicklungszentrum
-                </h3>
+                </div>
                 <p className="text-sm text-muted-foreground">
                   Waldsolms Brandoberndorf, Hessen, Deutschland.
                 </p>
@@ -438,9 +438,9 @@ export function KAquaMapsSuite() {
             </div>
 
             <div className="bg-card border border-card-border rounded-2xl p-6 flex flex-col gap-6 shadow-sm">
-              <h3 className="font-heading font-bold text-xl text-foreground flex items-center gap-2">
+              <div className="font-heading font-bold text-xl text-foreground flex items-center gap-2">
                 <Compass className="w-5 h-5 text-primary" /> Markt- & Logistik-Profil
-              </h3>
+              </div>
 
               {!calculatedData ? (
                 <p className="text-sm text-muted-foreground">

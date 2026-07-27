@@ -62,6 +62,7 @@ export function Partner({ data }: PartnerProps) {
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   {data.titleGrad}
                 </span>
+                <span className="sr-only"> der K-Aqua PP-R Rohrsysteme</span>
               </h1>
               <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
                 {data.lead}
@@ -157,9 +158,9 @@ export function Partner({ data }: PartnerProps) {
                       <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0 mb-6">
                         <Icon size={ICON_SIZE} />
                       </div>
-                      <h3 className="font-heading font-bold text-xl text-foreground mb-4">
+                      <div className="font-heading font-bold text-xl text-foreground mb-4">
                         {card.t}
-                      </h3>
+                      </div>
                       <p className="text-body text-muted-foreground leading-relaxed">
                         {card.d}
                       </p>

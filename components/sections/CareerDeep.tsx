@@ -37,7 +37,7 @@ export async function CareerDeep() {
             {areas.map((a, i) => (
               <Reveal key={a.t} delay={i * 0.08}>
                 <Card className="h-full">
-                  <h3 className="font-heading text-body font-bold text-foreground">{a.t}</h3>
+                  <div className="font-heading text-body font-bold text-foreground">{a.t}</div>
                   <p className="text-small text-muted-foreground">{a.d}</p>
                   <p className="mt-2 text-tiny text-faint-foreground">{a.p}</p>
                 </Card>
@@ -57,7 +57,7 @@ export async function CareerDeep() {
             {why.map((w, i) => (
               <Reveal key={w.t} delay={i * 0.07}>
                 <Card tint className="h-full">
-                  <h3 className="font-heading text-small font-bold text-foreground">{w.t}</h3>
+                  <div className="font-heading text-small font-bold text-foreground">{w.t}</div>
                   <p className="text-tiny text-muted-foreground">{w.d}</p>
                 </Card>
               </Reveal>

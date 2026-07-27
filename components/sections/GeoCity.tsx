@@ -299,7 +299,8 @@ export default function GeoCity({
 
               return (
                 <Reveal key={nm.slug} delay={idx * 0.08}>
-                  <Link href={`/maerkte/${nm.hubSlug}/${nm.slug}`} className="group block h-full">
+                  <Link href={`/maerkte/${nm.hubSlug}/${nm.slug}`} className="group block h-full" title={nm.city}>
+                    <span className="sr-only">{nm.city}</span>
                     <Card className="h-full cursor-pointer hover:border-primary hover:shadow-lift transition-all duration-fast p-8">
                       <div className="flex flex-col gap-3 text-start h-full justify-between">
                         <div>
