@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import { Card } from "@/components/ui/Card";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionHead } from "@/components/ui/SectionHead";
@@ -44,10 +46,11 @@ export default async function UnternehmenPage({ params }: Props) {
   const cards = t.raw("cards") as PolicyItem[];
   const points = t.raw("points") as string[];
 
+  const messages = await getMessages();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
-    <>
+    <NextIntlClientProvider messages={pick(messages, ['about'])}>
       <JsonLd schema={jsonLd} />
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
@@ -69,6 +72,9 @@ export default async function UnternehmenPage({ params }: Props) {
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
                 <span className="font-bold text-foreground">{t("title1")} {t("titleGrad")}</span> &ndash; {t("lead")}
+              </p>
+              <p className="sr-only" aria-hidden="true">
+                {t("title1")} {t("titleGrad")} {locale === 'de' ? ' der KWT GmbH (K-Aqua)' : locale === 'ar' ? ' لشركة KWT GmbH (K-Aqua)' : ' of KWT GmbH (K-Aqua)'}
               </p>
             </Reveal>
           </div>
@@ -198,6 +204,6 @@ export default async function UnternehmenPage({ params }: Props) {
         {/* Deep Content am Ende der Unternehmens-Seite */}
         <AboutDeep />
       </div>
-    </>
+    </NextIntlClientProvider>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -41,8 +43,10 @@ export default async function ReferenzenPage({ params }: Props) {
   const jsonLd = await getWebPageJsonLd(locale, "references");
   const t = await getTranslations({ locale, namespace: "referenzenPage" });
   const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding"] as const;
+  const messages = await getMessages();
 
   return (
+    <NextIntlClientProvider messages={pick(messages, ['referenzenPage', 'refs', 'nav', 'common'])}>
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
       <JsonLd schema={jsonLd} />
 
@@ -193,5 +197,6 @@ export default async function ReferenzenPage({ params }: Props) {
       </section>
 
     </main>
+    </NextIntlClientProvider>
   );
 }

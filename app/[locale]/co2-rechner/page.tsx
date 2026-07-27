@@ -1,7 +1,9 @@
 /* eslint-disable react/jsx-no-literals */
 import React from "react";
 import dynamic from "next/dynamic";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -37,8 +39,10 @@ export default async function Co2RechnerPage({ params }: Props) {
   const jsonLd = await getWebPageJsonLd(locale, "co2");
   
   const guideText = tCo2.has("guideText") ? tCo2.raw("guideText") as string : "";
+  const messages = await getMessages();
   
   return (
+    <NextIntlClientProvider messages={pick(messages, ['co2'])}>
     <div className="flex flex-col min-h-screen bg-background selection:bg-primary/30 relative z-20">
 
       <JsonLd schema={jsonLd} />
@@ -55,5 +59,6 @@ export default async function Co2RechnerPage({ params }: Props) {
         </section>
       )}
     </div>
+    </NextIntlClientProvider>
   );
 }

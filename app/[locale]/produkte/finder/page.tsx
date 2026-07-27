@@ -1,7 +1,9 @@
 import React, { Suspense } from "react";
 import ProductFinder from "@/components/tools/ProductFinder";
 import { FinderDeep } from "@/components/sections/FinderDeep";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import { constructMetadata } from "@/lib/seo/metadata";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
@@ -56,9 +58,10 @@ export default async function FinderPage({ params }: Props) {
 
   const cleanTitle = meta[0]?.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim() || "";
   const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
+  const messages = await getMessages();
 
   return (
-    <>
+    <NextIntlClientProvider messages={pick(messages, ['finder', 'finderx'])}>
       <JsonLd schema={webPageSchema} />
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">
@@ -110,6 +113,6 @@ export default async function FinderPage({ params }: Props) {
       )}
 
       <FinderDeep />
-    </>
+    </NextIntlClientProvider>
   );
 }

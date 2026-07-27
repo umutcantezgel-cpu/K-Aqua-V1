@@ -14,6 +14,7 @@ export default function robots(): MetadataRoute.Robots {
       disallow: [
         '/dev/',
         '/api/',
+        '/pdf/',
         '/*?*', // Prevent crawling of parametric URLs like sorting/filtering which waste crawl budget
         ...disallowedLocales.map(loc => `/${loc}/`) // Block non-core languages to save crawl budget
       ],

@@ -163,20 +163,24 @@ export default async function GeoCityPage({ params }: Props) {
         </div>
       )}
 
-      {tSeo.has('extendedMarketText.p1') && (
-        <div className="mt-16 max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16">
-          <p>{tSeo('extendedMarketText.p1')}</p>
-          <p>{tSeo('extendedMarketText.p2')}</p>
-          <p>{tSeo('extendedMarketText.p3')}</p>
-        </div>
-      )}
-
-
       {tGeo.has(`markets.${market.slug}.description`) && (
         <div className="max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4 px-4 pb-16 seo-market-content">
           <div dangerouslySetInnerHTML={{ __html: tGeo.raw(`markets.${market.slug}.description`).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
         </div>
       )}
+
+      {/* Dynamic SEO Text Blocks */}
+      <div className="sr-only" aria-hidden="true">
+        <p>
+          {locale === 'de' ? 'Das K-Aqua Vertriebsnetz in' : locale === 'ar' ? 'شبكة مبيعات K-Aqua في' : 'The K-Aqua sales network in'} {market.city} {locale === 'de' ? 'bietet maßgeschneiderte PP-R und PP-RCT Rohrsysteme an.' : locale === 'ar' ? 'توفر أنظمة أنابيب PP-R و PP-RCT مخصصة.' : 'offers tailored PP-R and PP-RCT piping systems.'}
+        </p>
+        <p>
+          {locale === 'de' ? 'Unsere Produkte erfüllen die lokalen Anforderungen, wie' : locale === 'ar' ? 'تلبي منتجاتنا المتطلبات المحلية، مثل' : 'Our products meet local requirements, such as'} {localizedData.regulator} {locale === 'de' ? 'und sind ideal für die lokale Wasserqualität:' : locale === 'ar' ? 'ومثالية لجودة المياه المحلية:' : 'and are ideal for the local water quality:'} {localizedData.water}.
+        </p>
+        <p>
+          {locale === 'de' ? 'Kontaktieren Sie unsere Partner in' : locale === 'ar' ? 'اتصل بشركائنا في' : 'Contact our partners in'} {market.city}{locale === 'de' ? ' für Ihr nächstes Infrastruktur- oder Bauprojekt mit höchsten Qualitätsstandards.' : locale === 'ar' ? ' لمشروع البنية التحتية أو البناء القادم الخاص بك بأعلى معايير الجودة.' : ' for your next infrastructure or construction project with the highest quality standards.'}
+        </p>
+      </div>
     </>
   );
 }

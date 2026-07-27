@@ -69,26 +69,8 @@ export default async function LocaleLayout({
     'quote',
     'toggle_theme_light',
     'toggle_theme_dark',
-    'home',
     'cookieConsent',
-    'products',
-    'pages',
-    'groups',
-    'productsx',
-    'newsx',
-    'academyx',
-    'co2',
-    'materials',
-    'application',
-    'trustAndCases',
-    'buyers',
-    'about',
     'footer',
-    'homex',
-    'refs',
-    'finder',
-    'finderx',
-    'enterprise',
     'kontaktBlocks',
     'kontaktForm',
     'seoExpansion'
@@ -143,6 +125,7 @@ export default async function LocaleLayout({
             <KontaktModal />
             <Footer />
             <SeoHiddenSitemap />
+
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>

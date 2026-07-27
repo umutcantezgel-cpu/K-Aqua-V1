@@ -54,7 +54,7 @@ export const HorizontalTimeline = ({
                 <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary font-mono text-sm font-bold mb-6">
                   {item.year}
                 </span>
-                <h3 className="text-3xl font-heading font-bold mb-4">{item.title}</h3>
+                <div className="text-3xl font-heading font-bold mb-4">{item.title}</div>
                 <p className="text-muted-foreground leading-relaxed text-lg">{item.text}</p>
               </div>
             </div>

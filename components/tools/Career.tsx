@@ -136,13 +136,11 @@ export default function Career({ careerData }: CareerProps) {
             <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
               {careerData.titleGrad}
             </span>
-            <span className="sr-only">
-              {careerData.locale === 'de' ? ' bei K-Aqua PP-R Rohrsysteme' : careerData.locale === 'ar' ? ' في أنظمة أنابيب PP-R من K-Aqua' : ' at K-Aqua PP-R Piping Systems'}
-            </span>
           </h1>
           <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty font-body font-normal mb-6">
             {careerData.lead}
           </p>
+          <p className="sr-only" aria-hidden="true">{careerData.title1} {careerData.titleGrad}</p>
         </div>
       </section>
 

@@ -143,13 +143,13 @@ export default function HeroScrolly() {
           <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
             {t('h1a')}{' '}
             <span className="text-primary">{t('h1b')}</span>
-            <span className="sr-only"> - {t('lead')}</span>
           </h1>
         </Reveal>
         <Reveal delay={0.16}>
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
             {t('lead')}
           </p>
+          <p className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')}</p>
         </Reveal>
         <Reveal delay={0.24}>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">

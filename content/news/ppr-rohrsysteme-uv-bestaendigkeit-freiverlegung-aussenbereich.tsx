@@ -176,9 +176,9 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Die All-in-One Lösung für Kühltürme</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Mit dem K-Aqua Isopipe System erhalten Sie ein werkseitig vorisoliertes Rohr, das gegen Hitze, Kälte, mechanische Einflüsse und UV-Strahlung gleichermaßen perfekt geschützt ist.</p>
-          <a href="/produkte/pipes" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
-            Mehr zu Isopipe erfahren
-          </a>
+          <NavLink href="/produkte/pipes" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+            Zu den UV-Rohren
+          </NavLink>
         </CTABand>
       </Reveal>
 

@@ -292,6 +292,7 @@ export default function MarketsHub({
                           href={`/maerkte/${g.hubSlug}/${g.slug}`}
                           className="flex-1 w-full"
                           tabIndex={isActive ? 0 : -1}
+                          aria-label={g.city}
                         >
                           <span className="sr-only">{g.city} </span>Marktseite öffnen
                         </LiquidMagneticButton>

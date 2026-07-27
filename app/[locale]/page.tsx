@@ -21,7 +21,10 @@ import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
+import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
+import pick from 'lodash/pick';
 
 const DOT = '•';
 const SPACE = ' ';
@@ -130,8 +133,11 @@ export default async function Page({ params }: Props) {
   ];
 
   const webPageJsonLd = await getWebPageJsonLd(locale, "home");
+  const messages = await getMessages();
+  const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers']);
 
   return (
+    <NextIntlClientProvider messages={pageMessages}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={webPageJsonLd} />
       {/* 1) Hero (Hero-Scrollytelling) */}
@@ -457,5 +463,6 @@ export default async function Page({ params }: Props) {
       {/* Signature: Edge Index */}
       <EdgeIndex />
     </div>
+    </NextIntlClientProvider>
   );
 }

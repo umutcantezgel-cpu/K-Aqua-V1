@@ -89,6 +89,21 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale: resolvedLocale,
-    messages
+    messages,
+    getMessageFallback({ namespace, key, error }) {
+      const path = [namespace, key].filter((part) => part != null).join('.');
+      if (error.code === 'MISSING_MESSAGE') {
+        return path;
+      }
+      return path;
+    },
+    onError(error) {
+      if (error.code === 'MISSING_MESSAGE') {
+        // Log gracefully instead of throwing during build
+        console.warn('Missing translation:', error.originalMessage);
+      } else {
+        console.warn('Next-intl error:', error);
+      }
+    }
   };
 });

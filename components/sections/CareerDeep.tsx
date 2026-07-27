@@ -22,9 +22,12 @@ interface WhyItem {
 
 export async function CareerDeep() {
   const t = await getTranslations("careerx");
-  const areas = t.raw("areas") as AreaItem[];
-  const why = t.raw("why") as WhyItem[];
-  const proc = t.raw("proc") as Array<{ t: string; d: string }>;
+  const rawAreas = t.raw("areas");
+  const areas = Array.isArray(rawAreas) ? rawAreas as AreaItem[] : [];
+  const rawWhy = t.raw("why");
+  const why = Array.isArray(rawWhy) ? rawWhy as WhyItem[] : [];
+  const rawProc = t.raw("proc");
+  const proc = Array.isArray(rawProc) ? rawProc as Array<{ t: string; d: string }> : [];
 
   return (
     <React.Fragment>

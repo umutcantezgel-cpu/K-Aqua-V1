@@ -14,7 +14,7 @@ import { BarChart, Thermometer, Database, CheckCircle } from "@/components/ui/ic
 export const lebensdauerBerechnungPpr: NewsPost = {
   slug: "lebensdauer-berechnung-kunststoffrohre-arrhenius-gleichung-ppr",
   title: {
-    de: "Lebensdauerberechnung von PPR Rohren",
+    de: "Lebensdauerberechnung von K-Aqua Kunststoffrohren",
     en: "Lifespan Calculation of PPR Pipes",
     ar: "حساب العمر الافتراضي لأنابيب PPR"
   },
