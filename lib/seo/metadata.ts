@@ -60,11 +60,29 @@ export function constructMetadata({
     'k-fiber-pipe-pp-r-sdr-74',
     'k-fiber-pipe-pp-r-sdr-9',
     'k-fiber-pipe-pp-r-sdr-17',
+    'k-fiber-pipe-pp-rct-sdr-74',
+    'k-fiber-uv-pipe-pp-r-sdr-74',
+    'k-fiber-uv-pipe-pp-rct-sdr-74',
+    'k-fiberclima-pipe-pp-rct-sdr-11',
     'k-pipe-pp-r-sdr-6',
-    'hand-welding-machine-20-63',
+    'k-pipe-pp-rct-sdr-74',
+    'k-pipe-purple-pp-r-sdr-11',
+    'reducing-tee-large-sizes',
+    'elbow-45',
+    'elbow-45-femalemale',
+    'metal-union-female-thread',
+    'metal-union-female-thread-yellow-brass',
+    'flat-gasket-for-unions-pp-r',
+    'adjustable-battery-female-thread',
+    'concealed-valve-chrome-heavy-part',
+    'hand-welding-machine-2063-complete-set',
+    'hand-welding-machine-mirror-50125',
+    'pipe-cutter-2040',
+    'pipe-cutter-50125-1',
+    'hand-welding-machine-20-63'
   ]);
 
-  const isVariant = Array.from(variantSlugs).some(slug => cleanPath.includes(slug));
+  const isVariant = Array.from(variantSlugs).some(slug => cleanPath.endsWith(`/${slug}`) || cleanPath === slug);
 
   const languages: Record<string, string> = {};
   if (!noIndex && !isVariant) {
@@ -103,50 +121,21 @@ export function constructMetadata({
       // 2. Analyze existing keywords to prevent "Wortwiederholung" (word repetition)
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
-      const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
-      const hasSystem = lowerTitle.includes("rohrsysteme") || lowerTitle.includes("piping systems") || lowerTitle.includes("أنظمة أنابيب");
 
-      // 3. Build a non-repetitive suffix
+      // 3. Build a non-repetitive suffix – ONLY brand, never PP-R context
+      //    to avoid keyword cannibalization across 16+ pages.
+      //    Pages needing PP-R in title already have it in their source title.
       let suffix = "";
       
       if (!hasBrand) {
           suffix = " | K-Aqua";
-          
-          // Try to make it longer if we have space and missing keywords
-          if (!hasPPR && !hasSystem) {
-              const extended = locale === 'de' ? " | K-Aqua PP-R/PP-RCT Rohrsysteme" : 
-                               locale === 'ar' ? " | K-Aqua أنظمة أنابيب PP-R/PP-RCT" : 
-                               " | K-Aqua PP-R/PP-RCT piping systems";
-              if (finalTitle.length + extended.length <= 55) {
-                  suffix = extended;
-              }
-          }
-      } else {
-          // It already has the brand. Can we add PPR context without repeating the brand?
-          // We can just append " | PP-R/PP-RCT Rohrsysteme" if it fits.
-          if (!hasPPR && !hasSystem) {
-              const context = locale === 'de' ? " | PP-R/PP-RCT Rohrsysteme" : 
-                              locale === 'ar' ? " | أنظمة أنابيب PP-R/PP-RCT" : 
-                              " | PP-R/PP-RCT piping systems";
-              if (finalTitle.length + context.length <= 55) {
-                  suffix = context;
-              }
-          }
       }
-
-      // 4. Append suffix only if it fits the 55 char strict limit
-      if (suffix && finalTitle.length + suffix.length <= 55) {
-          finalTitle += suffix;
-      }
+      // No further PP-R/Rohrsysteme context appended – each page's translation
+      // file defines its own unique title with appropriate keywords.
       
-      // 5. If it's STILL too short (< 30 chars), add generic padding to avoid "zu kurz" penalty
-      if (finalTitle.length < 30) {
-          const extraPad = locale === 'de' ? " – Premium Rohre & Fittings" : 
-                           locale === 'ar' ? " – أنابيب وتجهيزات متميزة" : 
-                           " – Premium Pipes & Fittings";
-          if (finalTitle.length + extraPad.length <= 55) {
-              finalTitle += extraPad;
-          }
+      // 4. Append suffix only if it fits a reasonable length
+      if (suffix && finalTitle.length + suffix.length <= 65) {
+          finalTitle += suffix;
       }
   }
 

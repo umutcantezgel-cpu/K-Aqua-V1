@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { BentoGrid } from "@/components/ui/BentoGrid";
@@ -208,9 +209,9 @@ export const schweissverfahrenVergleich: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Minimieren Sie Fehlerquellen und sichern Sie die Dichtheit Ihrer Großprojekte. Buchen Sie jetzt eine DVS-konforme, zertifizierte Schweißerschulung für K-Aqua PP-R Rohrsysteme für Ihr Montageteam.
           </p>
-          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Zertifizierungsschulung anfragen
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

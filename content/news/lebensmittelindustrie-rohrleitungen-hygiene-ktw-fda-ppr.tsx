@@ -8,6 +8,7 @@ import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
 import { Droplet, ShieldCheck, Coffee, Microscope } from "@/components/ui/icon";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 
 export const lebensmittelindustrieHygiene: NewsPost = {
   slug: "lebensmittelindustrie-rohrleitungen-hygiene-ktw-fda-ppr",
@@ -220,13 +221,13 @@ export const lebensmittelindustrieHygiene: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Ob Kaltwasser, VEwasser oder Druckluft in der Lebensmittelindustrie: Wir prüfen die chemische Beständigkeit unseres Systems für Ihre spezifischen Produktionsmedien.
           </p>
-          <a
-            href="/de/kontakt"
+          <NavLink
+            href="/kontakt"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
           >
             <Coffee className="w-5 h-5" />
             <span>Beratung für Anlagenbau</span>
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

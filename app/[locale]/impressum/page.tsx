@@ -17,9 +17,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "legal.impressum" });
+  
+  let description = `${t("title")} - K-Aqua`;
+  if (locale === "de") description = "Impressum und rechtliche Pflichtangaben der KWT GmbH (K-Aqua) in Waldsolms. Geschäftsführung, Handelsregister und Kontaktdaten.";
+  else if (locale === "en") description = "Legal notice and mandatory information of KWT GmbH (K-Aqua) in Waldsolms, Germany. Management, trade register and contact details.";
+  else if (locale === "ar") description = "الإشعار القانوني والمعلومات الإلزامية لشركة KWT GmbH (K-Aqua) في فالدزولمس. الإدارة والسجل التجاري وبيانات الاتصال.";
+
   const baseMetadata = constructMetadata({
     title: t("title"),
-    description: `${t("title")} - K-Aqua`,
+    description,
     path: "/impressum",
     locale,
   });

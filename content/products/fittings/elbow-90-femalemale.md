@@ -1,7 +1,7 @@
 ---
 title: "PP-R Elbow 90° Female/Male"
 category: "Fittings"
-slug: "fittings/elbow-90-female-male"
+slug: "fittings/elbow-90-femalemale"
 article_codes: ["AQ09020FM", "AQ09025FM", "AQ09032FM"]
 ---
 

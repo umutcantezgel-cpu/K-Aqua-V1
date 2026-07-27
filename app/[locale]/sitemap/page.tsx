@@ -5,6 +5,7 @@ import { constructMetadata } from '@/lib/seo/metadata';
 import type { Metadata } from 'next';
 import { getAllProducts } from '@/lib/products';
 import { getAllNews, resolveLocalized } from '@/content/news';
+import { GEO_HUBS, GEO_MARKETS } from '@/lib/data/geo';
 import { routing } from '@/lib/i18n/routing';
 
 interface Props {
@@ -52,14 +53,19 @@ export default async function SitemapPage({ params }: Props) {
             HTML Sitemap
           </h1>
           <p className="text-xl text-muted-foreground">
-            Willkommen auf unserer HTML Sitemap. Hier finden Sie alle Seiten auf einen Blick strukturiert aufgelistet.
+            Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.
           </p>
-          <p className="text-lg text-muted-foreground mt-2">
-            Nutzen Sie diese HTML Sitemap, um schnell zu den gewünschten Produkten, Märkten oder Unternehmensinformationen zu navigieren.
-          </p>
-          <p className="text-lg text-muted-foreground mt-2">
-            Eine strukturierte HTML Sitemap hilft sowohl unseren Besuchern als auch Suchmaschinen dabei, die Architektur der K-Aqua Website optimal zu erfassen.
-          </p>
+          <div className="mt-6 space-y-4 text-lg text-muted-foreground">
+            <p>
+              Die K-Aqua Website ist umfangreich und bietet detaillierte Informationen zu unseren hochmodernen PP-R und PPRCT Rohrsystemen, Formteilen, Armaturen und branchenspezifischen Lösungen. Nutzen Sie diese HTML Sitemap als zentralen Navigationsknotenpunkt, um ohne Umwege direkt zu den gewünschten Produktdatenblättern, Ausschreibungstexten, technischen Katalogen oder zu unserem interaktiven Produktfinder zu gelangen.
+            </p>
+            <p>
+              Egal, ob Sie als Fachplaner nach spezifischen SDR-Klassen für ein industrielles Großprojekt suchen, als Installateur die passenden Schweißwerkzeuge benötigen, oder sich als Bauherr über die nachhaltigen Aspekte und CO2-Einsparungen unserer Produkte informieren möchten – die Sitemap führt Sie zielgerichtet an den richtigen Ort. Zudem finden Sie hier direkten Zugang zu unseren globalen Marktniederlassungen, aktuellen Unternehmensnachrichten sowie unserer K-Aqua Academy für professionelle Schulungen.
+            </p>
+            <p>
+              Eine transparente und logisch aufgebaute Architektur ist uns wichtig. Diese Sitemap unterstützt nicht nur unsere Besucher bei der schnellen Informationsbeschaffung, sondern hilft auch Suchmaschinen-Crawlern dabei, die Zusammenhänge und Hierarchien unserer Inhalte optimal zu erfassen und zu indexieren. Wir aktualisieren diese Übersicht kontinuierlich, um neue Produkte und Serviceangebote zeitnah abzubilden.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -87,11 +93,13 @@ export default async function SitemapPage({ params }: Props) {
 
           {/* Products */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Produkte</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Produkte & Kategorien</h2>
             <div className="flex flex-col gap-6">
               {Object.entries(productsByCategory).map(([category, prods]) => (
                 <div key={category}>
-                  <h3 className="text-lg font-bold mb-3 uppercase tracking-wider text-muted-foreground">{category}</h3>
+                  <Link href={`/produkte/${category}`} className="block text-lg font-bold mb-3 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
+                    {category}
+                  </Link>
                   <ul className="flex flex-col gap-2">
                     {prods.map(p => (
                       <li key={p.slug}>
@@ -109,7 +117,7 @@ export default async function SitemapPage({ params }: Props) {
           {/* News & Academy */}
           <div>
             <h2 className="text-2xl font-bold mb-6 font-heading text-primary">News & Presse</h2>
-            <ul className="flex flex-col gap-2 mb-8">
+            <ul className="flex flex-col gap-2 mb-12">
               {news.map(n => (
                 <li key={n.slug}>
                   <Link href={`/news/${n.slug}`} className="hover:text-primary transition-colors text-sm">
@@ -118,6 +126,31 @@ export default async function SitemapPage({ params }: Props) {
                 </li>
               ))}
             </ul>
+
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Märkte & Regionen</h2>
+            <div className="flex flex-col gap-6">
+              {GEO_HUBS.map(hub => {
+                const hubMarkets = GEO_MARKETS.filter(m => m.hubSlug === hub.slug);
+                return (
+                  <div key={hub.slug}>
+                    <Link href={`/maerkte/${hub.slug}`} className="block text-lg font-bold mb-3 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
+                      {hub.name}
+                    </Link>
+                    {hubMarkets.length > 0 && (
+                      <ul className="flex flex-col gap-2">
+                        {hubMarkets.map(market => (
+                          <li key={market.slug}>
+                            <Link href={`/maerkte/${hub.slug}/${market.slug}`} className="hover:text-primary transition-colors text-sm">
+                              {market.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
         </div>

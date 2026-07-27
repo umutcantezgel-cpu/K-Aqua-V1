@@ -220,6 +220,7 @@ export default async function CategoryPage({ params }: Props) {
               <Link 
                 href={`/produkte/${category}/${p.slug}`}
                 key={p.slug}
+                aria-label={tNames?.has(`${category}_${p.slug}`.replace(/\//g, '_')) ? tNames(`${category}_${p.slug}`.replace(/\//g, '_')) : p.title}
                 className="group flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1"
               >
                 {(() => {

@@ -197,7 +197,7 @@ export const erdverlegungGrabenlos: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Nahwärme- oder Industrienetz?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Unsere Projektingenieure beraten Sie umfassend bei der Wahl der richtigen SDR-Klasse für die Zugkräfte beim HDD-Verfahren und liefern maßgeschneiderte, vorisolierte K-Aqua Systeme.</p>
-          <a href="/de/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <a href="/ressourcen/support" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Tiefbau-Projekt besprechen
           </a>
         </CTABand>

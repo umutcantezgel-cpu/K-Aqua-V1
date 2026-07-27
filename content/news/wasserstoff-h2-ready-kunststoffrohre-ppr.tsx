@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { BentoGrid } from "@/components/ui/BentoGrid";
@@ -178,9 +179,9 @@ export const wasserstoffH2Ready: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Planen Sie ein Pilotprojekt in der Wasserstoffwirtschaft?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Die Beimischung von H2 ins lokale Gasnetz oder die Planung großskaliger dezentraler Elektrolyseure erfordern präzise Planung, Mut zur Innovation und die richtigen Materialien. Kontaktieren Sie unsere Ingenieure für eine ausführliche technische Evaluierung.</p>
-          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Engineering Support kontaktieren
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

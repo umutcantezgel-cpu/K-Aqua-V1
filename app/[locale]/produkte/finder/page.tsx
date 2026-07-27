@@ -74,6 +74,17 @@ export default async function FinderPage({ params }: Props) {
         <ProductFinder initialProducts={products} />
       </Suspense>
       
+      {t.has('finderGuideText') && (
+        <section className="py-20 bg-background border-t border-card-border">
+          <div className="max-w-[1200px] mx-auto px-6">
+            <div 
+              className="prose dark:prose-invert max-w-none text-muted-foreground leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: String(t.raw('finderGuideText')) }}
+            />
+          </div>
+        </section>
+      )}
+
       {/* Dynamic SEO Catalog Index Injection */}
       {indexContent && (
         <section className="py-20 bg-background border-t border-card-border">

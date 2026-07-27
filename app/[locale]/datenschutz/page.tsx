@@ -16,9 +16,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
+
+  let description = `${t("title")} - K-Aqua`;
+  if (locale === "de") description = "Datenschutzerklärung der KWT GmbH (K-Aqua). Erfahren Sie, wie wir Ihre personenbezogenen Daten gemäß DSGVO schützen und verarbeiten.";
+  else if (locale === "en") description = "Privacy policy of KWT GmbH (K-Aqua). Learn how we protect and process your personal data in compliance with GDPR regulations.";
+  else if (locale === "ar") description = "سياسة الخصوصية لشركة KWT GmbH (K-Aqua). تعرف على كيفية حماية بياناتك الشخصية ومعالجتها وفقًا للائحة العامة لحماية البيانات.";
+
   return constructMetadata({
     title: t("title"),
-    description: `${t("title")} - K-Aqua`,
+    description,
     path: "/datenschutz",
     locale,
   });

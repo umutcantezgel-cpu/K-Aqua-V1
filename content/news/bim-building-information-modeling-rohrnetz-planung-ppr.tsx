@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
@@ -232,13 +233,13 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
           <p className="text-inverse-foreground/80 leading-relaxed">
             Beschleunigen Sie Ihren Konstruktionsprozess. Fordern Sie jetzt Zugang zu unseren Revit Familien und BIM Datenpaketen an.
           </p>
-          <a
+          <NavLink
             href="/kontakt"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
           >
             <MonitorSmartphone className="w-5 h-5" />
             <span>BIM Daten anfragen</span>
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 

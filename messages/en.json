@@ -1453,6 +1453,7 @@
       "Product Finder",
       "Instantly find the perfect PP-R or PPRCT pipe, fitting, or valve. Filter our catalog live by dimension, pressure class, and wall thickness."
     ],
+    "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Piping Systems</h2><p>Use our innovative product finder to identify the exact fitting for your specific pipeline installation. Whether you are looking for standard PP-R pipes for drinking water installations, fiber-reinforced PPRCT pipes for demanding industrial plants, or special transition fittings and valves - our tool filters the entire catalog in real time. The product search helps you select by diameter (d20 to d630), pressure class (SDR class), and material.</p><p>A well-structured piping system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows, and tees), and corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogs and instead provides you with immediate, reliable data on article numbers, packaging units, and technical specifications. With just a few clicks, you can compile your material list and ensure the compatibility of the various components for heating, cooling, and drinking water systems. This not only optimizes your planning process but also minimizes errors when ordering materials for your next construction project.</p>",
     "co2": [
       "CO2 Calculator",
       "Compare the CO2 footprint of K-Aqua PP-R plastic pipes with copper, stainless steel, and PVC. Verified according to ISO 14040/44 for Green Building."
@@ -1462,7 +1463,7 @@
       "Learn why polypropylene (PP-R/PPRCT) is the superior material for water supply. Ecological, technically advanced, and economical."
     ],
     "academy": [
-      "Welding Academy",
+      "K-Aqua Academy: PP-R Welding Techniques and Expertise",
       "Learn professional welding techniques for PP-R plastic pipes. Watch video tutorials and pass our Welding Master Quiz."
     ],
     "trust": [
@@ -1470,7 +1471,7 @@
       "Access K-Aqua's quality documentation. Download ISO certificates, the GENAU framework, and audit documents for your project."
     ],
     "service": [
-      "Service & Download Center",
+      "Service & Resources",
       "Download official K-Aqua product catalogs, technical data sheets, and installation guidelines for PP-R and PPRCT plastic piping systems."
     ],
     "partner": [
@@ -1478,7 +1479,7 @@
       "K-Aqua and KESSEL are connected by a decades-long partnership that transfers German manufacturing standards from drainage to water supply."
     ],
     "markets": [
-      "Markets & Distribution",
+      "Markets & Locations",
       "K-Aqua supplies PP-R piping systems to over 27 countries. Use our interactive world map for local standards, water profiles, and logistics information."
     ],
     "references": [
@@ -1490,7 +1491,7 @@
       "KWT GmbH pools decades of experience to manufacture the K-Aqua premium piping system. German engineering for the highest quality and innovation."
     ],
     "career": [
-      "Career at K Aqua",
+      "Career at K-Aqua",
       "Become part of our team in Waldsolms. Calculate your tax-free benefits net and test in 60 seconds whether K-Aqua is the right fit for you."
     ],
     "news": [
@@ -1534,23 +1535,23 @@
     },
     "pipes": [
       "Pipes & Systems",
-      "High-performance PP-R and PP-RCT pipes for domestic and industrial applications."
+      "High-performance PP-R and PP-RCT pipes for domestic and industrial applications. Explore all SDR classes and dimensions for your next project."
     ],
     "fittings": [
       "Fittings",
-      "Complete range of fittings for all K-Aqua piping systems."
+      "Complete range of fittings for all K-Aqua piping systems. Discover elbows, tees, reducers, and sockets for polyfusion welding."
     ],
     "valves": [
       "Valves & Accessories",
-      "Premium valves, shut-offs, and accessories for piping networks."
+      "Premium valves, shut-offs, and accessories for piping networks. High-quality ball valves, concealed valves, and check valves."
     ],
     "tools": [
       "Tools & Equipment",
-      "Professional welding tools and accessories for PP-R installation."
+      "Professional welding tools and accessories for PP-R installation. Explore welding machines, pipe cutters, and specialized tools."
     ],
     "transition-fittings": [
       "Transition Fittings",
-      "Reliable transition fittings for secure connections."
+      "Reliable transition fittings for secure connections. Discover brass transition fittings with threaded or flanged connections."
     ]
   },
   "home": {
@@ -2224,15 +2225,15 @@
       "allProducts": "All Products",
       "openInFinder": "Open in Finder",
       "artNA": "Art. N/A",
-      "viewDetails": "View Details",
+      "viewDetails": "View product specifications",
       "learnMoreKnowledge": "Learn more in K Aqua Knowledge Base",
       "learnMoreDesc": "Dive deeper into the technical documentation and discover specialized articles on the installation, sustainability, and testing of our systems.",
-      "toKnowledgeBase": "To the Knowledge Base"
+      "toKnowledgeBase": "Explore technical articles in K-Aqua Academy"
     },
     "fittings": {
       "meta": {
         "title": "Fittings & Components | K Aqua",
-        "desc": "K Aqua Fittings & Components, Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K Aqua Fittings & Components: Premium elbows, tees, couplings, and polyfusion solutions engineered in Germany for maximum reliability."
       },
       "hero": {
         "eyebrow": "Fittings & Components",
@@ -2430,7 +2431,7 @@
     },
     "transitionFittings": {
       "meta": {
-        "title": "Transition Fittings | K Aqua",
+        "title": "PP-R Transition Fittings and System Connections",
         "desc": "K Aqua Transition Fittings, Hybrid connectivity of the absolute highest class. When high-strength metal meets innovative plastic. German Engineering."
       },
       "hero": {
@@ -3010,7 +3011,7 @@
     "vorfertigung": {
       "meta": {
         "title": "Prefabrication Infrastructure | K Aqua",
-        "desc": "K-Aqua Prefabrication, Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K-Aqua Prefabrication solutions: Accelerate your project timeline with custom-engineered, factory-welded PP-R manifolds and assemblies."
       },
       "hero": {
         "badge": "German Engineering. Global Impact.",
@@ -3134,7 +3135,7 @@
     "hochhaus": {
       "meta": {
         "title": "High-Rise Infrastructure | K Aqua",
-        "desc": "K-Aqua High-Rise Construction, Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K-Aqua High-Rise Construction: German-engineered PP-R piping solutions delivering optimal pressure resistance for towering skyscrapers."
       },
       "hero": {
         "eyebrow": "The Vertical Frontier",
@@ -3284,7 +3285,7 @@
     },
     "index": {
       "meta": {
-        "title": "Solutions & K-Aqua Advantages",
+        "title": "PP-R Material Benefits and Physical Superiority",
         "desc": "System solutions for high-rise building, hospitals, hotels, data centers, and prefabrication."
       },
       "sticky": {
@@ -3408,7 +3409,7 @@
     "rechenzentrum": {
       "meta": {
         "title": "Data Center Infrastructure | K-Aqua",
-        "desc": "K-Aqua Data Center Solutions, Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K-Aqua Data Center Solutions: Secure mission-critical infrastructure with leak-proof cooling systems and German-engineered reliability."
       },
       "scroll": {
         "items": [
@@ -3598,7 +3599,7 @@
     "certText": "The practiced GENAU management fulfills the requirements of DIN EN ISO 14001 and 50001, supplemented by ISO 9001:2015 since October 2025.",
     "meta": {
       "title": "About K-Aqua | Company Profile & German Engineering",
-      "desc": "K-Aqua Company, Uncompromising safety through German Engineering for global megaprojects."
+      "desc": "KWT GmbH in Waldsolms combines German engineering excellence with cutting-edge manufacturing. Triple ISO-certified, we produce K-Aqua PP-R piping systems."
     },
     "hero": {
       "eyebrow": "The K Aqua Doctrine",
@@ -3941,6 +3942,7 @@
     "case3Desc": "Large projects with extreme requirements for longevity (SDR 11/17). Fast installation and 100% material recyclability at the end of their service life."
   },
   "co2": {
+    "guideText": "<h2>The K-Aqua CO2 Calculator: Precise Emission Analysis for Sustainable Pipe Networks</h2><p>Our CO2 Calculator is a powerful tool for determining the ecological footprint of piping systems. With increasing environmental requirements and stricter building regulations, it is becoming increasingly important for planners and builders to understand CO2 emissions over the entire life cycle of a building (Life Cycle Assessment, LCA). This calculator takes into account all decisive parameters, from raw material extraction, production, and transport to the use phase and eventual disposal or recycling.</p><p>The choice of the right pipe material has a significant impact on the energy efficiency of a building. K-Aqua PP-R and PPRCT pipes feature extremely smooth inner surfaces, which significantly reduces friction resistance and thus the required pump power. In addition, the energy required to manufacture polypropylene is significantly lower than for comparable metallic pipes such as copper or steel. With our calculator, you can simulate various scenarios, SDR classes, and insulation thicknesses to find the energetically and ecologically optimal solution for your project. In this way, you not only secure green building certificates such as LEED or BREEAM, but also make an active contribution to environmental protection.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4151,7 +4153,7 @@
     "schulungen": {
       "meta": {
         "title": "Training | K Aqua",
-        "desc": "K Aqua Training. Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K Aqua Training & Certification: Master PP-R welding techniques and installation best practices through our expert-led German programs."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
@@ -4410,7 +4412,7 @@
     "glossar": {
       "meta": {
         "title": "Technical Glossary | K Aqua",
-        "desc": "K Aqua Glossary. Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K Aqua Glossary: Explore essential terminology, technical definitions, and industry standards for German-engineered PP-R piping systems."
       },
       "hero": {
         "eyebrow": "Technical Glossary",
@@ -6795,7 +6797,7 @@
     },
     "downloads": {
       "title": "Downloads",
-      "metaDesc": "K-Aqua Downloads, Uncompromising safety through German Engineering for global megaprojects.",
+      "metaDesc": "K-Aqua Downloads: Access technical manuals, product brochures, specifications, and data sheets for our German-engineered PP-R systems.",
       "cta": {
         "title": "Quality you can blindly trust.",
         "desc": "Download our official certificates or speak directly with our engineering team about the specifications of your next megaproject.",
@@ -6803,7 +6805,7 @@
       },
       "meta": {
         "title": "Downloads | K-Aqua",
-        "desc": "K-Aqua Downloads, Uncompromising safety through German Engineering for global megaprojects."
+        "desc": "K-Aqua Downloads: Access technical manuals, product brochures, specifications, and data sheets for our German-engineered PP-R systems."
       },
       "hero": {
         "eyebrow": "K Aqua Resources",
@@ -6933,7 +6935,7 @@
     },
     "bim": {
       "title": "BIM Data",
-      "metaDesc": "K-Aqua BIM Data, Uncompromising safety through German Engineering for global megaprojects.",
+      "metaDesc": "K-Aqua BIM Data: Streamline your architectural design with our comprehensive CAD models and Revit files for German-engineered systems.",
       "sticky": {
         "items": [
           {
@@ -7192,7 +7194,7 @@
   "markets": {
     "landwirtschaft": {
       "metaTitle": "Agriculture Infrastructure | K Aqua",
-      "metaDesc": "K Aqua Agriculture. High-performance infrastructure for global agricultural projects. Uncompromising safety through German Engineering.",
+      "metaDesc": "K Aqua Agriculture: High-performance infrastructure and durable PP-R irrigation systems designed for global agricultural projects.",
       "heroEyebrow": "K Aqua Market: Agriculture",
       "heroTitle": "Agricultural Infrastructure.",
       "heroSubtitle": "Engineered in Germany.",
@@ -7263,7 +7265,7 @@
     },
     "schiffbau": {
       "metaTitle": "Shipbuilding | K Aqua",
-      "metaDesc": "K Aqua Shipbuilding. Uncompromising safety through German Engineering for global megaprojects.",
+      "metaDesc": "K Aqua Shipbuilding: Corrosion-resistant maritime piping solutions delivering certified German engineering for the global marine industry.",
       "heroBadge": "K Aqua MARITIME",
       "heroTitle": "Shipbuilding Infrastructure.",
       "heroSubtitle": "Engineered in Germany.",
@@ -7321,7 +7323,7 @@
     },
     "klimaanlagen": {
       "metaTitle": "Air Conditioning & Cooling Infrastructure | K Aqua",
-      "metaDesc": "K Aqua Air Conditioning & Cooling. Uncompromising safety through German Engineering. Polypropylene piping systems for chilled water, air conditioning, and industrial cooling.",
+      "metaDesc": "K Aqua Air Conditioning & Cooling: Advanced polypropylene piping for chilled water and HVAC systems, ensuring optimal thermal efficiency.",
       "heroEyebrow": "Market Sector: Air Conditioning & Cooling",
       "heroTitle": "The Architecture of Cold.",
       "heroSubtitle": "German Engineering.",
@@ -7390,7 +7392,7 @@
     },
     "industrie": {
       "metaTitle": "Industrial Plants | K Aqua",
-      "metaDesc": "K Aqua Industrial Plants. Uncompromising safety through German Engineering for global megaprojects.",
+      "metaDesc": "K Aqua Industrial Plants: Chemical-resistant piping systems and heavy-duty PP-R infrastructure engineered for demanding industrial sites.",
       "heroEyebrow": "Industrial Masterclass",
       "heroTitle": "Industrial Plants.",
       "heroSubtitle": "Engineered in Germany.",
@@ -7454,7 +7456,7 @@
     },
     "trinkwasser": {
       "metaTitle": "Drinking Water Infrastructure | K Aqua",
-      "metaDesc": "K Aqua Drinking Water. Uncompromising safety through German Engineering for global megaprojects.",
+      "metaDesc": "K Aqua Drinking Water: Hygienic, corrosion-free potable water piping solutions meeting the highest global safety and health standards.",
       "heroEyebrow": "Drinking Water Infrastructure",
       "heroTitle": "The Purest Form",
       "heroSubtitle": "of Systemic Security.",
@@ -8023,7 +8025,7 @@
       "done": "Our press department will contact you shortly."
     },
     "karriere": {
-      "kicker": "Career at K Aqua",
+      "kicker": "Career at K-Aqua",
       "head": "Ask an informal question about our vacancies.",
       "short": "Direct line to the HR department",
       "text": "Are you unsure whether your profile fits, or would you like to clarify details about everyday work before applying? Our HR team answers your questions easily over the phone.",

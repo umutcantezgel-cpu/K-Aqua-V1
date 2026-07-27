@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { SectionHead } from "@/components/ui/SectionHead";
@@ -182,9 +183,9 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold">Bereit für den wirtschaftlichen Wechsel zum Vollkunststoff?</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">Verzichten Sie auf teure Messingfittings, riskante O-Ringe, hohe Druckverluste und Hygienerisiken. Wir beraten Sie und Ihr Planungsteam gerne intensiv zur Umstellung Ihrer nächsten Großprojekte auf K-Aqua PPR.</p>
-          <a href="/de/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
+          <NavLink href="/kontakt" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2">
             Persönliche Projektberatung anfordern
-          </a>
+          </NavLink>
         </CTABand>
       </Reveal>
 
