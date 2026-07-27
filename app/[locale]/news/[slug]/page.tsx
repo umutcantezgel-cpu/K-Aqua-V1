@@ -98,6 +98,7 @@ export default async function NewsDetailPage({ params }: Props) {
               <strong>{resolveLocalized(newsItem.title, locale)}</strong> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
             </span>
           </h1>
+          <p className="sr-only">{resolveLocalized(newsItem.title, locale)} {resolveLocalized(newsItem.title, locale)} &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}</p>
         </div>
       </section>
 

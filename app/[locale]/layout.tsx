@@ -28,7 +28,6 @@ import '../kontakt.css';
 import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
 import { KontaktFab } from '@/components/kontakt/KontaktFab';
 import { KontaktModal } from '@/components/kontakt/KontaktModal';
-import { resolveKontaktSlug } from '@/lib/utils/resolveKontaktSlug';
 
 export function generateStaticParams() {
   return coreLocales.map((locale) => ({ locale }));
@@ -39,7 +38,6 @@ interface LayoutProps {
   params: Promise<{ locale: string }>;
 }
 
-import { headers } from 'next/headers';
 import { setRequestLocale } from 'next-intl/server';
 import pick from 'lodash/pick';
 import { Metadata } from 'next';
@@ -106,13 +104,8 @@ export default async function LocaleLayout({
 
   const orgJsonLd = await getOrganizationJsonLd(locale);
 
-  const headersList = await headers();
-  const dir = headersList.get('x-direction') || (['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr');
+  const dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
   const isRTLFont = dir === 'rtl';
-
-  const nonce = headersList.get('x-nonce') || undefined;
-  const xPathname = headersList.get('x-pathname') || '';
-  const kontaktSlug = resolveKontaktSlug(xPathname);
 
   const htmlLang = locale;
 
@@ -131,7 +124,6 @@ export default async function LocaleLayout({
           attribute="data-theme"
           defaultTheme="light"
           enableSystem={false}
-          nonce={nonce}
         >
           <NextIntlClientProvider messages={clientMessages}>
             <SignatureInitializer />
@@ -144,7 +136,7 @@ export default async function LocaleLayout({
             </main>
             {/* Invariant: this is the only full-size (variant="block") KontaktBlock per page.
                 Page-level instances (home hero, news/academy sidebar) use slim variants only. */}
-            <KontaktBlock slug={kontaktSlug} variant="block" />
+            <KontaktBlock variant="block" />
             <KontaktFab />
             <KontaktModal />
             <SeoTextExpansion />

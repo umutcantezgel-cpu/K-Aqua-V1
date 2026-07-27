@@ -71,7 +71,7 @@ export function CookieBanner() {
   return (
     <AnimatePresence>
       {isVisible && (
-        <div className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center sm:p-6 pointer-events-none">
+        <div data-nosnippet="true" className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center sm:p-6 pointer-events-none">
           {/* Blur Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}

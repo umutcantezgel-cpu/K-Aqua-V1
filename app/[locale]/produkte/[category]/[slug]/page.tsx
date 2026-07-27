@@ -478,7 +478,7 @@ export default async function ProductDetailPage({
                     </h3>
                     <div className="text-body text-muted-foreground leading-relaxed space-y-4">
                       <p className="font-semibold text-foreground">
-                        {localizedTitle} | K-Aqua – Premium Pipes & Fittings
+                        {localizedTitle} {dynamicSeoH1}
                       </p>
                       {generatedSeoNarrative.split('\n').map((paragraph, i) => paragraph.trim() ? <p key={i}>{paragraph}</p> : null)}
                     </div>

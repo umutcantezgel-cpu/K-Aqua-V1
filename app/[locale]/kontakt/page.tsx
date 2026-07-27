@@ -76,6 +76,7 @@ export default async function KontaktPage({ params }: Props) {
                   {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}
                 </span>
               </h1>
+              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("seoH1") || `Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung`}</p>
             </Reveal>
           </div>
         </section>

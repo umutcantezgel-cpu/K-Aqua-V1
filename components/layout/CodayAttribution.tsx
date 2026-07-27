@@ -33,7 +33,7 @@ export default function CodayAttribution() {
   }
 
   return (
-    <div className="flex items-center text-[10px] tracking-widest uppercase font-medium text-white/40 hover:text-white transition-colors duration-500">
+    <div data-nosnippet="true" className="flex items-center text-[10px] tracking-widest uppercase font-medium text-white/40 hover:text-white transition-colors duration-500">
       <span className="sr-only">
         {t('srDesc')}
       </span>

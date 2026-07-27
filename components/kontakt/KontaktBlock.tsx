@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { KONTAKT_SLUGS, type KontaktSlug } from "@/content/kontakt-bloecke";
+import { resolveKontaktSlug } from "@/lib/utils/resolveKontaktSlug";
 import { KontaktForm } from "./KontaktForm";
 
 export type KontaktVariant = "block" | "band" | "hero" | "inline" | "row" | "sidebar" | "tile" | "sticky" | "fab" | "modal";
@@ -50,10 +51,16 @@ function CtxShort({ c, withPromise }: { c: KontaktContent, withPromise?: boolean
   );
 }
 
-export function KontaktBlock({ slug = "fallback", variant = "block", tone = "", dynamicContext }: Props) {
+export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContext }: Props) {
   const t = useTranslations("kontaktBlocks");
   const pathname = usePathname();
-  const key: KontaktSlug = (KONTAKT_SLUGS as readonly string[]).includes(slug) ? slug : "fallback";
+  
+  let actualSlug = slug;
+  if (!actualSlug || actualSlug === "fallback") {
+    actualSlug = resolveKontaktSlug(pathname);
+  }
+
+  const key: KontaktSlug = (KONTAKT_SLUGS as readonly string[]).includes(actualSlug as KontaktSlug) ? (actualSlug as KontaktSlug) : "fallback";
   
   let resolvedDynamicContext = dynamicContext;
   if (!resolvedDynamicContext && pathname) {

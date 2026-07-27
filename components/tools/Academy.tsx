@@ -127,6 +127,7 @@ export function Academy({ data }: AcademyProps) {
                 {data.lead}
               </span>
             </h1>
+            <p className="sr-only">{data.title1}{ENSPACE}{data.titleGrad} {data.lead}</p>
           </div>
         </div>
       </section>

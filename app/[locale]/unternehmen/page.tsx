@@ -69,6 +69,7 @@ export default async function UnternehmenPage({ params }: Props) {
                   <strong>{t("title1")} {t("titleGrad")}</strong> &ndash; {t("lead")}
                 </span>
               </h1>
+              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("title1")} {t("titleGrad")} {t("lead")}</p>
             </Reveal>
           </div>
         </section>

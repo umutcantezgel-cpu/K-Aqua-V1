@@ -142,6 +142,7 @@ export default function Career({ careerData }: CareerProps) {
               {careerData.lead}
             </span>
           </h1>
+          <p className="sr-only">{careerData.title1} {careerData.titleGrad} {careerData.lead}</p>
         </div>
       </section>
 

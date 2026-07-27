@@ -78,6 +78,7 @@ export default async function ProduktePage({ params }: Props) {
                 </span>
               </h1>
               <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+                <span className="sr-only">{t("sysTitle")}{t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}</span>
                 {t("sysLead")}
               </p>
             </div>
