@@ -60,7 +60,7 @@ export default function SeoHiddenSitemap() {
         {/* Markets */}
         {GEO_MARKETS.map(market => (
           <li key={`market-${market.slug}`}>
-            <Link href={`/maerkte/${market.hubSlug}/${market.slug}`}>{market.name}</Link>
+            <Link href={`/maerkte/${market.hubSlug}/${market.slug}`}>{market.city}</Link>
           </li>
         ))}
       </ul>

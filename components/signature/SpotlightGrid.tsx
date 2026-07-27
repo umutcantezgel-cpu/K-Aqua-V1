@@ -28,7 +28,7 @@ export default function SpotlightGrid({ className = '' }: { className?: string }
       {tools.slice(0, 6).map((tool, idx) => (
         <Link key={idx} className="cell" href={getHref(tool.id)}>
           <b>{tool.t}</b>
-          <span>{tool.d}</span>
+          <span aria-hidden="true">{tool.d}</span>
         </Link>
       ))}
     </div>

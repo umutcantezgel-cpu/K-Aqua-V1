@@ -95,7 +95,7 @@ export const GEO_HUBS: GeoHub[] = [
     name: "Japan",
     region: "global",
     crisisContext: "tsunami",
-    description: "Duktile PP-R Materialien widerstehen seismischen Bewegungen und sind resistent bei Tsunamis."
+    description: "Duktile PP-R Materialien widerstehen seismischen Bewegungen und sind widerstandsfähig bei Tsunamis."
   },
   {
     slug: "uk",

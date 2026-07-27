@@ -470,7 +470,7 @@ export default async function ProductDetailPage({
 
                 {/* 4. Generated Technical SEO Narrative & Quality Assurance */}
                 {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl" data-nosnippet="true">
+                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                       {tProd('labels.technicalDescription')} - {localizedTitle}
                     </h3>
@@ -489,7 +489,7 @@ export default async function ProductDetailPage({
 
             {/* Sidebar / Quick Links */}
             <Reveal delay={0.12} className="sticky top-24">
-              <Card className="p-6 flex flex-col gap-6 shadow-md border-card-border/60">
+              <Card className="p-6 flex flex-col gap-6 shadow-md border-card-border/60" data-nosnippet="true">
                 <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3">
                   {tProd('certsAndNorms')}
                 </h3>

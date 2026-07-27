@@ -217,11 +217,9 @@ export default async function CategoryPage({ params }: Props) {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {products.map((p) => (
-              <Link 
-                href={`/produkte/${category}/${p.slug}`}
+              <div 
                 key={p.slug}
-                aria-label={tNames?.has(`${category}_${p.slug}`.replace(/\//g, '_')) ? tNames(`${category}_${p.slug}`.replace(/\//g, '_')) : p.title}
-                className="group flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1"
+                className="group flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden hover:shadow-xl hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 relative"
               >
                 {(() => {
                   const slugKey = `${category}_${p.slug}`.replace(/\//g, '_');
@@ -247,25 +245,26 @@ export default async function CategoryPage({ params }: Props) {
                           {p.article_codes ? String(p.article_codes).split(',')[0] : tc("artNA")}
                         </div>
                         <h3 className="text-lg font-heading font-bold text-foreground line-clamp-2 mb-4 group-hover:text-primary transition-colors">
-                          {localizedTitle}
+                          <Link href={`/produkte/${category}/${p.slug}`} className="before:absolute before:inset-0 focus-visible:outline-none">
+                            {localizedTitle}
+                          </Link>
                         </h3>
-                        <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all">
-                          <span className="sr-only">{localizedTitle} {tc("viewDetails")}</span>
-                          <span aria-hidden="true">{tc("viewDetails")}</span>
+                        <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all" aria-hidden="true">
+                          <span>{tc("viewDetails")}</span>
                           <ArrowRight className="w-4 h-4" />
                         </div>
                       </div>
                     </>
                   );
                 })()}
-              </Link>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-background-subtle border-t border-card-border" data-nosnippet="true">
+      <section className="py-20 bg-background-subtle border-t border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
           <ProductFAQ category={catKey} />
         </div>
@@ -273,7 +272,7 @@ export default async function CategoryPage({ params }: Props) {
 
       {/* Category Guide Section */}
       {t.has(`${catKey}.guideText`) && (
-        <section className="py-20 bg-background border-t border-card-border" data-nosnippet="true">
+        <section className="py-20 bg-background border-t border-card-border">
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="max-w-3xl mx-auto text-left mb-12">
               <div className="text-muted-foreground leading-relaxed space-y-4">
@@ -285,7 +284,7 @@ export default async function CategoryPage({ params }: Props) {
       )}
       
       {/* Deep Dive Section */}
-      <section className="py-20 bg-background border-t border-card-border" data-nosnippet="true">
+      <section className="py-20 bg-background border-t border-card-border">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6">
             <PenTool className="w-8 h-8" />

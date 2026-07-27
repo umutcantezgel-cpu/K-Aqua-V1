@@ -87,7 +87,7 @@ export function EnterpriseCompliance() {
           <div className="k-comply-row flex items-start gap-3 text-sm text-muted-foreground leading-relaxed" key={k}>
             <Check size={18} className="text-primary shrink-0 mt-0.5" />
             <span className="break-words">
-              <strong className="text-foreground font-bold">{k}</strong>: {v}
+              <span className="text-foreground font-bold">{k}</span>: {v}
             </span>
           </div>
         ))}

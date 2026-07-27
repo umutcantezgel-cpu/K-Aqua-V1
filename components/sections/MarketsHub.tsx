@@ -212,7 +212,7 @@ export default function MarketsHub({
                     className="absolute top-4 start-1/2 -translate-x-1/2 z-20 bg-card border border-card-border rounded-xl shadow-lift px-5 py-3 flex flex-col gap-0.5 pointer-events-none text-center min-w-[200px] transition-all duration-fast motion-reduce:transition-none"
                     role="status"
                   >
-                    <strong className="font-heading font-bold text-base text-foreground">{activeMarket.city}</strong>
+                    <span className="font-heading font-bold text-base text-foreground block mb-1">{activeMarket.city}</span>
                     <span className="text-small text-muted-foreground">
                       {activeMarket.country} · {formattedDistance} {geoTrans.fromPlant}
                     </span>

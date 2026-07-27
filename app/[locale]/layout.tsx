@@ -75,7 +75,6 @@ export default async function LocaleLayout({
     'pages',
     'groups',
     'productsx',
-    'catalogx',
     'newsx',
     'academyx',
     'co2',
@@ -91,15 +90,18 @@ export default async function LocaleLayout({
     'finderx',
     'enterprise',
     'kontaktBlocks',
-    'kontaktForm'
+    'kontaktForm',
+    'seoExpansion'
   ]);
 
   // Optimize HTML Payload Size by removing heavy server-only translation branches
-  // products.seoArticle and products.narrative are only used in Server Components (e.g. ProductDetailPage)
+  // products is mostly used in Server Components, so we delete heavy nested objects
   if (clientMessages.products) {
     clientMessages.products = { ...clientMessages.products };
     delete (clientMessages.products as any).seoArticle;
     delete (clientMessages.products as any).narrative;
+    delete (clientMessages.products as any).details;
+    delete (clientMessages.products as any).categories;
   }
 
   const orgJsonLd = await getOrganizationJsonLd(locale);

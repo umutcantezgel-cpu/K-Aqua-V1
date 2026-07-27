@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import pick from "lodash/pick";
 import { Link } from "@/lib/i18n/navigation";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Card } from "@/components/ui/Card";
@@ -49,7 +51,12 @@ const FEATURES_PDF_URL = "/pdf/k-aqua-product-features-en.pdf";
 
 export default async function ProduktePage({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "products" });
+  setRequestLocale(locale);
+  const [t, tNames, messages] = await Promise.all([
+    getTranslations("products"),
+    getTranslations("productNames"),
+    getMessages()
+  ]);
 
   const range = t.raw("range") as RangeItem[];
   const tableHead = t.raw("tableHead") as string[];
@@ -161,7 +168,9 @@ export default async function ProduktePage({ params }: Props) {
 
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep />
-      <CatalogBrowser />
+      <NextIntlClientProvider messages={pick(messages, ['catalogx'])}>
+        <CatalogBrowser />
+      </NextIntlClientProvider>
     </div>
   );
 }

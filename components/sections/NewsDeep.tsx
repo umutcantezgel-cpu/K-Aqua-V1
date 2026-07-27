@@ -1,6 +1,6 @@
 // K-Aqua - NewsDeep: "Mehr aus dem Hause K-Aqua"
 // Linkt auf die 50 eigenständigen News-Detailseiten (aktuell die ersten 4).
-"use client";
+
 import React from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
@@ -15,7 +15,7 @@ export function NewsDeep() {
   const allNews = getAllNews();
 
   return (
-    <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="news-more" data-nosnippet="true">
+    <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="news-more">
       <div className="mx-auto max-w-[1200px] px-6">
         <Reveal>
           <SectionHead eyebrow={t("moreEyebrow")} title={t("moreTitle")} lead={t("moreLead")} />

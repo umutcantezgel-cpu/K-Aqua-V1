@@ -83,7 +83,7 @@ export default function ProductFAQ({ category }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="w-full flex flex-col gap-8" data-nosnippet="true">
+    <section className="w-full flex flex-col gap-8">
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-xl bg-primary-soft flex items-center justify-center text-primary shrink-0">
           <MessageCircleQuestion className="w-5 h-5" />
