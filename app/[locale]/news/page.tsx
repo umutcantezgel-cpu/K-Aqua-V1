@@ -64,6 +64,7 @@ export default async function NewsPage({ params }: Props) {
                   {t("lead")}
                 </span>
               </h1>
+              <p className="sr-only">{t("title1")} {t("titleGrad")} {t("lead")}</p>
             </Reveal>
           </div>
         </section>

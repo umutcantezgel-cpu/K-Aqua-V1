@@ -60,6 +60,7 @@ export default async function DatenschutzPage({ params }: Props) {
                   {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}
                 </span>
               </h1>
+              <p className="sr-only">{title} {tLegal("seoH1_privacy") || `Datenschutzerklärung von K-Aqua: Transparenz und Sicherheit Ihrer Daten`}</p>
             </Reveal>
           </div>
         </section>
