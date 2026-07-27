@@ -186,6 +186,6 @@ export function ProductsDeep() {
           </Reveal>
         </div>
       </section>
-    </React.Fragment>
+    </div>
   );
 }
