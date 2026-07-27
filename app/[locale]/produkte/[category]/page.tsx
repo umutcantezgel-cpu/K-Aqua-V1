@@ -169,7 +169,7 @@ export default async function CategoryPage({ params }: Props) {
             </h1>
             {seoText && (
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed mb-10">
-                {seoText}
+                <span className="font-bold text-foreground mr-1">{seoTitle} –</span> {seoText}
               </p>
             )}
 

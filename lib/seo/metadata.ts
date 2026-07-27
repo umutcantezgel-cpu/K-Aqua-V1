@@ -120,27 +120,22 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      // 1. Truncate cleanTitle itself if it's already over 55 chars
+      // Ensure base title is cleanly padded or truncated
       if (finalTitle.length > 55) {
           finalTitle = finalTitle.substring(0, 52).trim() + "...";
       }
 
-      // 2. Analyze existing keywords to prevent "Wortwiederholung" (word repetition)
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
 
-      // 3. Build a non-repetitive suffix – ONLY brand, never PP-R context
-      //    to avoid keyword cannibalization across 16+ pages.
-      //    Pages needing PP-R in title already have it in their source title.
       let suffix = "";
-      
       if (!hasBrand) {
           suffix = " | K-Aqua";
       }
 
-      // If title is still too short (< 40 chars), add a context-aware unique keyword
-      // based on the path to prevent global cannibalization while satisfying the 45-65 char rule.
-      if (finalTitle.length + suffix.length < 40 && cleanPath) {
+      // Seobility rule: Title must be 45-65 characters.
+      // If it's too short (< 45), append contextual keywords.
+      if (finalTitle.length + suffix.length < 45 && cleanPath) {
         if (cleanPath.includes("fittings") || cleanPath.includes("transition-fittings")) {
            suffix += locale === 'de' ? " - PP-R Verbindungen" : locale === 'ar' ? " - تجهيزات PP-R" : " - PP-R Fittings";
         } else if (cleanPath.includes("valves")) {
@@ -158,9 +153,24 @@ export function constructMetadata({
         }
       }
       
-      // 4. Append suffix only if it fits a reasonable length
-      if (suffix && finalTitle.length + suffix.length <= 65) {
-          finalTitle += suffix;
+      // 4. Append suffix
+      if (suffix) {
+          if (finalTitle.length + suffix.length <= 65) {
+              finalTitle += suffix;
+          } else {
+              // If suffix makes it too long, append " | K-Aqua" if it fits, else nothing
+              if (!hasBrand && finalTitle.length + 9 <= 65) {
+                  finalTitle += " | K-Aqua";
+              }
+          }
+      }
+      
+      // 5. Final fallback: If still under 45, pad it with a generic keyword
+      if (finalTitle.length < 45) {
+          const pad = locale === 'de' ? " - PP-R Rohrsysteme" : locale === 'ar' ? " - أنظمة أنابيب PP-R" : " - PP-R Piping";
+          if (finalTitle.length + pad.length <= 65) {
+              finalTitle += pad;
+          }
       }
   }
 
