@@ -1,4 +1,4 @@
-/* K-Aqua — Globus-Hub: fullscreen geo navigation (light, token-driven). */
+/* K-Aqua - Globus-Hub: fullscreen geo navigation (light, token-driven). */
 .k-hub {
   position: fixed; inset: 0; z-index: 90;
   background: var(--background);

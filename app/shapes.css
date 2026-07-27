@@ -1,5 +1,5 @@
 /* ============================================================
-   K-Aqua Shapes — Dynamische Rundungen & Kanten
+   K-Aqua Shapes - Dynamische Rundungen & Kanten
    Drop-in-Bibliothek, rein geometrisch (keine Farben außer currentColor).
 
    Grundmuster (Medien-Form):
@@ -48,7 +48,7 @@
 }
 
 /* ============================================================
-   1) SWEEP — die Signaturform (Referenz):
+   1) SWEEP - die Signaturform (Referenz):
    geschwungene Kante durch leichten Skew + asymmetrische Radien.
    Für den Original-Look links/rechts an den Viewport-Rand
    "bluten" lassen (Helferklassen .kq-bleed-l / .kq-bleed-r).
@@ -63,7 +63,7 @@
   --kq-cover: 1.14;
   border-radius: var(--kq-r-lg) var(--kq-r) var(--kq-r) var(--kq-r-lg);
 }
-/* Aufsteigende Variante — horizontale Kanten kippen leicht */
+/* Aufsteigende Variante - horizontale Kanten kippen leicht */
 .kq-shape--drift {
   --kq-skew-y: -2deg;
   --kq-cover: 1.1;
@@ -80,7 +80,7 @@
 .kq-bleed-r { margin-right: calc(-1 * clamp(24px, 8vw, 140px)); }
 
 /* ============================================================
-   2) TAPER / ORGANIK — echte Trapez- und Freiformen
+   2) TAPER / ORGANIK - echte Trapez- und Freiformen
    über SVG-clipPath (objectBoundingBox). Benötigt Defs (s. o.).
    Gedacht für Querformate (Kurven skalieren mit dem Seitenverhältnis).
    ============================================================ */
@@ -97,7 +97,7 @@
 .kq-shape--pebble  { clip-path: url(#kq-clip-pebble); aspect-ratio: 5 / 4; }
 
 /* ============================================================
-   3) RADIUS-SPIELARTEN — reine border-radius-Formen
+   3) RADIUS-SPIELARTEN - reine border-radius-Formen
    ============================================================ */
 /* Blatt: gegenüberliegende Ecken voll gerundet */
 .kq-shape--leaf   { border-radius: calc(var(--kq-r-lg) * 3) var(--kq-r) calc(var(--kq-r-lg) * 3) var(--kq-r); }
@@ -113,7 +113,7 @@
 }
 
 /* ============================================================
-   4) MASKEN-FORMEN — Ausschnitte & Wellen
+   4) MASKEN-FORMEN - Ausschnitte & Wellen
    ============================================================ */
 /* Hohlkehle: konkav eingezogene Ecke */
 .kq-shape--scoop-br {
@@ -169,7 +169,7 @@
 }
 
 /* ============================================================
-   5b) TEXT-INTEGRATION — drei Muster, mit jeder Form kombinierbar:
+   5b) TEXT-INTEGRATION - drei Muster, mit jeder Form kombinierbar:
    --in      Text voll integriert (Glas-Panel im Bild)
    --out     Halbtext außen: Karte dockt unten an, ragt nur oben hinein
    --edge-l  Halbtext innen: Karte sitzt halb auf der Form
@@ -242,7 +242,7 @@
 }
 
 /* ============================================================
-   6) SEKTIONSKANTEN — für seitenübergreifende Übergänge
+   6) SEKTIONSKANTEN - für seitenübergreifende Übergänge
    auf volle Breite gedachte Bänder/Sections anwenden.
    ============================================================ */
 .kq-band { --kq-edge: 72px; position: relative; }
@@ -259,12 +259,12 @@
 }
 /* Welle unten (benötigt SVG-Defs; Wellenzahl skaliert mit der Breite) */
 .kq-band--wave-b { clip-path: url(#kq-clip-wave-b); }
-/* Ganze Sektion gekippt — Inhalt über .kq-band__inner zurückkippen */
+/* Ganze Sektion gekippt - Inhalt über .kq-band__inner zurückkippen */
 .kq-band--sweep { transform: skewY(-1.4deg); }
 .kq-band--sweep > .kq-band__inner { transform: skewY(1.4deg); }
 
 /* ============================================================
-   7) KANTEN IN BEWEGUNG — Motion-Zusatzklassen für .kq-band
+   7) KANTEN IN BEWEGUNG - Motion-Zusatzklassen für .kq-band
    Physik-Prinzipien:
      --tide    konstante Strömung (lineare Drift, nahtlose Schleife)
      --duo     Interferenz zweier gegenläufiger Wellen (Phasenversatz)
@@ -303,7 +303,7 @@
   }
 }
 
-/* Interferenz: zwei Wellen, verschiedene Perioden, gegenläufig —
+/* Interferenz: zwei Wellen, verschiedene Perioden, gegenläufig -
    die Silhouette wiederholt sich innerhalb der Schleife nie exakt */
 .kq-band-fx--duo {
   --kq-wave-h: 64px;
@@ -369,7 +369,7 @@
 }
 
 /* ============================================================
-   8) INTERAKTION — Cursor & Scroll (Engine: kaqua-shapes.js)
+   8) INTERAKTION - Cursor & Scroll (Engine: kaqua-shapes.js)
    Die Engine setzt pro Element:
      --kq-px/--kq-py  gefederte Cursorlage (-1..1, kritisch gedämpft)
      --kq-mx/--kq-my  rohe Cursorposition (0..1) für den Lichtspot
@@ -416,7 +416,7 @@
 .kq-band.kq-ix-glow[data-kq-hover]::after { opacity: 0.55; }
 
 /* Verflüssigen: schmilzt unter dem Cursor in eine organische Form
-   (reines CSS-Fallback — mit aktiver Liquid-Engine übernimmt .kq-liquid) */
+   (reines CSS-Fallback - mit aktiver Liquid-Engine übernimmt .kq-liquid) */
 .kq-ix-liquid { transition: border-radius 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
 .kq-ix-liquid:hover { border-radius: 54% 46% 44% 56% / 48% 56% 44% 52%; }
 html.kq-motion .kq-liquid.kq-ix-liquid { transition: none; }
