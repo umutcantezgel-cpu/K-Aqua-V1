@@ -48,12 +48,12 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
           <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
             <h2>Ökobilanz im Rohrleitungsbau: Warum Kunststoff nachhaltiger als Metall ist</h2>
             <p>
-              In der Debatte um nachhaltiges Bauen und Gebäudezertifizierungen (wie LEED, BREEAM oder DGNB) liegt der Fokus oft auf Dämmstoffen oder erneuerbaren Energien. Die Technische Gebäudeausrüstung (TGA) – insbesondere das Rohrleitungsnetz – wird dabei häufig unterschätzt. Doch genau hier liegen gewaltige Potenziale zur CO2-Reduktion. Wenn man den gesamten Lebenszyklus (Life Cycle Assessment, LCA) betrachtet, schneiden K Aqua PP-R (Polypropylen Random-Copolymer) Systeme signifikant besser ab als herkömmliche Metallsysteme wie Kupfer oder Stahl. Nachhaltigkeit beginnt bei der Rohstoffgewinnung und endet erst beim sortenreinen Recycling.
+              In der Debatte um nachhaltiges Bauen und Gebäudezertifizierungen (wie LEED, BREEAM oder DGNB) liegt der Fokus oft auf Dämmstoffen oder erneuerbaren Energien. Die Technische Gebäudeausrüstung (TGA), insbesondere das Rohrleitungsnetz, wird dabei häufig unterschätzt. Doch genau hier liegen gewaltige Potenziale zur CO2-Reduktion. Wenn man den gesamten Lebenszyklus (Life Cycle Assessment, LCA) betrachtet, schneiden K Aqua PP-R (Polypropylen Random-Copolymer) Systeme signifikant besser ab als herkömmliche Metallsysteme wie Kupfer oder Stahl. Nachhaltigkeit beginnt bei der Rohstoffgewinnung und endet erst beim sortenreinen Recycling.
             </p>
             
             <h3>Energieintensität der Herstellung (Embodied Energy)</h3>
             <p>
-              Der erste große ökologische Vorteil von PP-R offenbart sich bereits bei der Herstellung. Die sogenannte "graue Energie" (Embodied Energy) – also die Energiemenge, die benötigt wird, um den Rohstoff abzubauen, zu raffinieren und das Endprodukt herzustellen – ist bei Polypropylen extrem gering. 
+              Der erste große ökologische Vorteil von PP-R offenbart sich bereits bei der Herstellung. Die sogenannte "graue Energie" (Embodied Energy), also die Energiemenge, die benötigt wird, um den Rohstoff abzubauen, zu raffinieren und das Endprodukt herzustellen, ist bei Polypropylen extrem gering. 
             </p>
             <p>
               Um Kupfer zu gewinnen, müssen gigantische Mengen Erz im Tagebau abgebaut und anschließend bei über 1.200 °C unter massivem Energieaufwand verhüttet werden. Ähnlich verhält es sich bei Stahl. PP-R hingegen ist ein Nebenprodukt der Erdölraffination. Die anschließende Polymerisation und Extrusion der Rohre bei moderaten 200 °C bis 250 °C benötigt nur einen Bruchteil der Energie. Studien zeigen, dass die Herstellung eines Kilogramms PP-R bis zu 70 % weniger CO2-Emissionen verursacht als die Herstellung der volumengleichen Menge Kupfer.
@@ -77,7 +77,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
 
             <h3>Kreislaufwirtschaft: 100 % Recyclingfähigkeit</h3>
             <p>
-              Das Prinzip "Cradle to Grave" reicht uns nicht – wir denken "Cradle to Cradle". Am Ende der extrem langen Nutzungsdauer von über 50 Jahren stehen wir nicht vor einem Haufen Sondermüll. K Aqua Rohre bestehen aus reinem Kohlenstoff und Wasserstoff, ganz ohne giftige Weichmacher (Phthalate), Schwermetalle oder Halogene. 
+              Das Prinzip "Cradle to Grave" reicht uns nicht, wir denken "Cradle to Cradle". Am Ende der extrem langen Nutzungsdauer von über 50 Jahren stehen wir nicht vor einem Haufen Sondermüll. K Aqua Rohre bestehen aus reinem Kohlenstoff und Wasserstoff, ganz ohne giftige Weichmacher (Phthalate), Schwermetalle oder Halogene. 
             </p>
             <p>
               Wird das Gebäude irgendwann abgerissen, können die Rohre sortenrein gesammelt, gehäckselt, geschmolzen und zu neuen, hochwertigen Kunststoffprodukten spritzgegossen werden. Die Homogenität des Systems (Rohr und Fitting bestehen aus exakt demselben Material) macht das Recycling extrem einfach, im Gegensatz zu Verbundrohren (Mehrschichtverbund), bei denen Aluminium und verschiedene Kunststoffe aufwendig getrennt werden müssen.

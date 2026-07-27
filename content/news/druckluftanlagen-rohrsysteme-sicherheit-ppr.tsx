@@ -59,7 +59,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Der Feind im Rohr: Kondenswasser</h3>
           <p>
-            Die meisten industriellen Druckluftnetze wurden in der Vergangenheit aus verzinktem Stahl errichtet. Doch bei der Kompression von Luft entsteht unvermeidbar Kondensat (Wasser). Selbst mit modernen Lufttrocknern lässt sich Restfeuchte im Rohrnetz nie komplett ausschließen. Diese Feuchtigkeit greift das verzinkte Stahlrohr von innen an – es rostet unbemerkt. Die Rohrwandstärke nimmt im Laufe der Jahre ab, bis das Material dem Betriebsdruck von oft 10 bis 16 bar nicht mehr standhalten kann.
+            Die meisten industriellen Druckluftnetze wurden in der Vergangenheit aus verzinktem Stahl errichtet. Doch bei der Kompression von Luft entsteht unvermeidbar Kondensat (Wasser). Selbst mit modernen Lufttrocknern lässt sich Restfeuchte im Rohrnetz nie komplett ausschließen. Diese Feuchtigkeit greift das verzinkte Stahlrohr von innen an, es rostet unbemerkt. Die Rohrwandstärke nimmt im Laufe der Jahre ab, bis das Material dem Betriebsdruck von oft 10 bis 16 bar nicht mehr standhalten kann.
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Die Splitterbombe unter der Hallendecke</h3>
           <p>
@@ -85,7 +85,7 @@ export const druckluftanlagenSicherheit: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Geringerer Strömungswiderstand senkt Stromkosten</h3>
           <p>
-            Durch raue und verrostete Innenwände bei alten Metallrohren entstehen hohe Reibungsverluste. Der Kompressor muss ständig mehr Druck erzeugen (und somit mehr Strom verbrauchen), um den Druckabfall im Netz auszugleichen. K Aqua PP-R Rohre besitzen eine extrem glatte Innenfläche (k = 0,007 mm), die über die gesamte Lebensdauer unverändert bleibt. Der Druckluftfluss ist laminar und nahezu verlustfrei. Häufig kann durch die Umstellung auf PP-R der Betriebsdruck des Kompressors um 1 bis 2 bar abgesenkt werden – was tausende Euro Stromkosten pro Jahr einspart.
+            Durch raue und verrostete Innenwände bei alten Metallrohren entstehen hohe Reibungsverluste. Der Kompressor muss ständig mehr Druck erzeugen (und somit mehr Strom verbrauchen), um den Druckabfall im Netz auszugleichen. K Aqua PP-R Rohre besitzen eine extrem glatte Innenfläche (k = 0,007 mm), die über die gesamte Lebensdauer unverändert bleibt. Der Druckluftfluss ist laminar und nahezu verlustfrei. Häufig kann durch die Umstellung auf PP-R der Betriebsdruck des Kompressors um 1 bis 2 bar abgesenkt werden, was tausende Euro Stromkosten pro Jahr einspart.
           </p>
 
           <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Umrüstung im laufenden Betrieb (Hot Works Permit)</h2>

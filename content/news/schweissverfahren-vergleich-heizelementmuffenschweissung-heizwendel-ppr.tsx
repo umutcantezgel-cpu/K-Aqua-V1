@@ -59,7 +59,7 @@ export const schweissverfahrenVergleich: NewsPost = {
             Polypropylen ist ein Thermoplast. Wird es auf ca. 260 °C erhitzt, geht das Material vom festen in einen viskosen (plastischen) Schmelzzustand über. In diesem Moment lösen sich die geordneten Kristallstrukturen auf und die langen Polymerketten werden beweglich. 
           </p>
           <p>
-            Werden nun das geschmolzene Rohrende und die geschmolzene Muffeninnenseite unter leichtem Druck (Fügedruck) ineinandergeschoben, dringen die Polymerketten beider Bauteile tief ineinander ein und verhaken sich (Interdiffusion). Kühlt die Verbindung anschließend an der ruhenden Luft ab, kristallisiert das Material neu aus. Es entsteht ein neues, völlig homogenes Kristallgitter. Die Grenzfläche zwischen Rohr und Fitting verschwindet vollständig – die Bauteile sind fortan ein einziger, monolithischer Block.
+            Werden nun das geschmolzene Rohrende und die geschmolzene Muffeninnenseite unter leichtem Druck (Fügedruck) ineinandergeschoben, dringen die Polymerketten beider Bauteile tief ineinander ein und verhaken sich (Interdiffusion). Kühlt die Verbindung anschließend an der ruhenden Luft ab, kristallisiert das Material neu aus. Es entsteht ein neues, völlig homogenes Kristallgitter. Die Grenzfläche zwischen Rohr und Fitting verschwindet vollständig, die Bauteile sind fortan ein einziger, monolithischer Block.
           </p>
           
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Chemische und mechanische Integrität der Schweißnaht</h3>
@@ -151,7 +151,7 @@ export const schweissverfahrenVergleich: NewsPost = {
               <div className="p-6 rounded-2xl bg-card border border-card-border">
                 <h3 className="text-xl font-bold mb-2">3. Automatisierter Schweißprozess</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Das Schweißgerät liest den Barcode auf der Elektromuffe mittels Scanner ein. Der Automat regelt nun die Stromstärke, die Schweißzeit und den Energieeintrag völlig autark und fehlerfrei – exakt abgestimmt auf die aktuelle Umgebungstemperatur und die Dimension.
+                  Das Schweißgerät liest den Barcode auf der Elektromuffe mittels Scanner ein. Der Automat regelt nun die Stromstärke, die Schweißzeit und den Energieeintrag völlig autark und fehlerfrei, exakt abgestimmt auf die aktuelle Umgebungstemperatur und die Dimension.
                 </p>
               </div>
             </Reveal>

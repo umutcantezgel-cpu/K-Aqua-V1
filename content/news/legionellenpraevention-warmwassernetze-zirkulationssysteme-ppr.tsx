@@ -57,7 +57,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
         <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
           <h2>Legionellen im Visier: Wie moderne PP-R Zirkulationssysteme die Trinkwasserhygiene revolutionieren</h2>
           <p>
-            Die Trinkwasserhygiene ist eines der kritischsten Themen in der modernen Gebäudetechnik. Spätestens seit den drastischen Verschärfungen der Trinkwasserverordnung (TrinkwV) und den strengen Richtlinien des DVGW (z.B. W 551) wissen Planer, Installateure und Betreiber von Großanlagen: Fehler in der Planung oder Materialwahl können fatale gesundheitliche und juristische Konsequenzen haben. Der gefährlichste Feind im System ist die Legionella pneumophila – ein Bakterium, das schwere bis tödliche Lungenentzündungen (Legionärskrankheit) auslösen kann, wenn es über fein zerstäubtes Wasser, etwa unter der Dusche, eingeatmet wird. K Aqua PP-R Rohrsysteme sind präzise auf die Prävention dieser Gefahren ausgerichtet.
+            Die Trinkwasserhygiene ist eines der kritischsten Themen in der modernen Gebäudetechnik. Spätestens seit den drastischen Verschärfungen der Trinkwasserverordnung (TrinkwV) und den strengen Richtlinien des DVGW (z.B. W 551) wissen Planer, Installateure und Betreiber von Großanlagen: Fehler in der Planung oder Materialwahl können fatale gesundheitliche und juristische Konsequenzen haben. Der gefährlichste Feind im System ist die Legionella pneumophila, ein Bakterium, das schwere bis tödliche Lungenentzündungen (Legionärskrankheit) auslösen kann, wenn es über fein zerstäubtes Wasser, etwa unter der Dusche, eingeatmet wird. K Aqua PP-R Rohrsysteme sind präzise auf die Prävention dieser Gefahren ausgerichtet.
           </p>
           
           <h3>Die Brutstätte: Stagnation und kritische Temperaturen</h3>
@@ -78,7 +78,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
 
           <h3>Der Kampf gegen den Biofilm</h3>
           <p>
-            Bakterien schwimmen nicht gerne frei im Wasser. Sie heften sich an die Rohrinnenwände und bilden zusammen mit organischen Nährstoffen und Kalkablagerungen eine schleimige Schicht – den Biofilm. Dieser Biofilm schützt die Legionellen wie ein Bunker vor Chlor und teilweise sogar vor Hitze.
+            Bakterien schwimmen nicht gerne frei im Wasser. Sie heften sich an die Rohrinnenwände und bilden zusammen mit organischen Nährstoffen und Kalkablagerungen eine schleimige Schicht, den Biofilm. Dieser Biofilm schützt die Legionellen wie ein Bunker vor Chlor und teilweise sogar vor Hitze.
           </p>
           <p>
             Hier spielt PP-R seinen größten hygienischen Trumpf aus: Die Rohrinnenfläche von K Aqua Rohren ist spiegelglatt (Rauheit &lt; 0,007 mm) und chemisch absolut neutral. Im Gegensatz zu rauen Guss- oder verzinkten Stahlrohren, die durch Korrosion tiefe Krater bilden, entzieht PP-R dem Biofilm den mechanischen Haftgrund. Ohne Biofilm keine massenhafte Vermehrung von Legionellen.
@@ -100,7 +100,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           <h3>Häufig gestellte Fragen (FAQ) zur Legionellenprävention</h3>
           <h4>Dürfen Zirkulationspumpen nachts abgeschaltet werden?</h4>
           <p>
-            Nein, aus hygienischen Gründen dürfen Zirkulationspumpen gemäß VDI 6023 maximal für 8 Stunden in 24 Stunden abgeschaltet werden – Experten raten jedoch dringend zu einem 24/7 Dauerbetrieb, um Stagnation und ein Absinken der Temperatur unter 55°C absolut auszuschließen.
+            Nein, aus hygienischen Gründen dürfen Zirkulationspumpen gemäß VDI 6023 maximal für 8 Stunden in 24 Stunden abgeschaltet werden, Experten raten jedoch dringend zu einem 24/7 Dauerbetrieb, um Stagnation und ein Absinken der Temperatur unter 55°C absolut auszuschließen.
           </p>
           <h4>Was ist eine Totleitung?</h4>
           <p>

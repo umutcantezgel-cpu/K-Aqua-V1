@@ -40,7 +40,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
                 </div>
               }
               title="Der unsichtbare Schutzmantel für Rohrleitungen"
-              lead="PPR Rohre besitzen von Natur aus eine hervorragende eigene Isolationswirkung (niedrige Wärmeleitfähigkeit von 0,24 W/mK). Dennoch ist bei extremen Temperaturdifferenzen – sei es beim Transport von Fernwärme (+90°C) oder von Kaltwasser für Klimakühldecken (+6°C) – eine zusätzliche äußere Dämmung unerlässlich, um Energieverluste zu minimieren und gefährliches Tauwasser (Kondensat) an der Rohroberfläche zu verhindern."
+              lead="PPR Rohre besitzen von Natur aus eine hervorragende eigene Isolationswirkung (niedrige Wärmeleitfähigkeit von 0,24 W/mK). Dennoch ist bei extremen Temperaturdifferenzen, sei es beim Transport von Fernwärme (+90°C) oder von Kaltwasser für Klimakühldecken (+6°C), eine zusätzliche äußere Dämmung unerlässlich, um Energieverluste zu minimieren und gefährliches Tauwasser (Kondensat) an der Rohroberfläche zu verhindern."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -123,7 +123,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
         <DeepMatrix
           data={[
             ["Eigenschaft", "PIR (Polyisocyanurat)", "PUR (Polyurethan)", "EPS (Styropor)"],
-            ["Wärmeleitfähigkeit (λ)", "0,022 – 0,026 W/mK", "0,025 – 0,030 W/mK", "0,035 – 0,040 W/mK"],
+            ["Wärmeleitfähigkeit (λ)", "0,022–0,026 W/mK", "0,025–0,030 W/mK", "0,035–0,040 W/mK"],
             ["Max. Dauertemperatur", "Bis zu +150 °C", "Bis zu +120 °C", "Bis zu +80 °C"],
             ["Brandverhalten", "Schwer entflammbar (verkohlt)", "Normal entflammbar (schmilzt)", "Normal bis leicht entflammbar"],
             ["Zellstruktur", "Geschlossen (>90%)", "Geschlossen (>90%)", "Teiloffen (nimmt leicht Wasser auf)"],

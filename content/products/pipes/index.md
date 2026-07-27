@@ -7,7 +7,7 @@ layout: "category-overview"
 
 # Pipes
 
-K-Aqua PP-R and PP-RCT pipe range — available in standard, fiber-reinforced and UV-resistant versions.
+K-Aqua PP-R and PP-RCT pipe range - available in standard, fiber-reinforced and UV-resistant versions.
 
 ## Product Overview
 
@@ -28,8 +28,8 @@ K-Aqua PP-R and PP-RCT pipe range — available in standard, fiber-reinforced an
 
 ## Pipe Type Guide
 
-- **K-Pipe** — Standard PP-R or PP-RCT
-- **K-Fiber** — Fiber-reinforced middle layer reduces linear expansion by ~50 %
-- **K-Fiberclima** — Fiber pipe optimised for HVAC / chilled-water systems
-- **K-Fiber UV** — UV-resistant outer skin for outdoor and rooftop use
-- **Purple** — Colour-coded for reclaimed water / irrigation systems
+- **K-Pipe** - Standard PP-R or PP-RCT
+- **K-Fiber** - Fiber-reinforced middle layer reduces linear expansion by ~50 %
+- **K-Fiberclima** - Fiber pipe optimised for HVAC / chilled-water systems
+- **K-Fiber UV** - UV-resistant outer skin for outdoor and rooftop use
+- **Purple** - Colour-coded for reclaimed water / irrigation systems

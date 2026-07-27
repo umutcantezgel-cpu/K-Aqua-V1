@@ -17,8 +17,8 @@ the [Basis GitHub repository](https://github.com/BinomialLLC/basis_universal).
 
 The folder contains two files required for transcoding `.basis` or `.ktx2` textures:
 
-* `basis_transcoder.js` — JavaScript wrapper for the WebAssembly transcoder.
-* `basis_transcoder.wasm` — WebAssembly transcoder.
+* `basis_transcoder.js` - JavaScript wrapper for the WebAssembly transcoder.
+* `basis_transcoder.wasm` - WebAssembly transcoder.
 
 Both are dependencies of `KTX2Loader`:
 

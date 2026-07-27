@@ -48,7 +48,7 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
                 </div>
               }
               title="Der Feind aus dem All: Ultraviolette Strahlung"
-              lead="Trinkwasser- und Kühlwasserleitungen werden im Industrie- und Gewerbebau oft im Freien verlegt – beispielsweise zur Anbindung von Kühltürmen auf dem Flachdach, bei industriellen Freianlagen oder im landwirtschaftlichen Bereich. Doch Standardkunststoffe wie Polypropylen (PP-R) haben eine natürliche chemische Schwachstelle: UV-Strahlung. Die energiereichen Strahlen der Sonne (insbesondere im UV-B und UV-A Bereich) zerstören langfristig die Molekülketten des Kunststoffs, wenn das Rohr ungeschützt im Freien liegt. Ein tiefgehendes Verständnis dieses Photooxidationsprozesses ist entscheidend, um die richtige Schutzmaßnahme für langlebige Systeme auszuwählen."
+              lead="Trinkwasser- und Kühlwasserleitungen werden im Industrie- und Gewerbebau oft im Freien verlegt, beispielsweise zur Anbindung von Kühltürmen auf dem Flachdach, bei industriellen Freianlagen oder im landwirtschaftlichen Bereich. Doch Standardkunststoffe wie Polypropylen (PP-R) haben eine natürliche chemische Schwachstelle: UV-Strahlung. Die energiereichen Strahlen der Sonne (insbesondere im UV-B und UV-A Bereich) zerstören langfristig die Molekülketten des Kunststoffs, wenn das Rohr ungeschützt im Freien liegt. Ein tiefgehendes Verständnis dieses Photooxidationsprozesses ist entscheidend, um die richtige Schutzmaßnahme für langlebige Systeme auszuwählen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

@@ -92,7 +92,7 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Strömungsoptimierung durch geringe Rohrreibung</h3>
           <p>
-            Metallrohre neigen zur Inkrustation – Kalk und Rost verengen den Querschnitt und erhöhen die Oberflächenreibung (Rauigkeit). Die Pumpen müssen immer mehr Strom verbrauchen, um die gleiche Wassermenge zu fördern. PP-R hat eine extrem glatte Rohrinnenwand (k = 0,007 mm), die über 50 Jahre Betriebszeit unverändert glatt bleibt. Druckverluste werden minimiert, und die Energiekosten der Umwälzpumpen bleiben konstant auf dem niedrigsten Niveau. Ein massiver wirtschaftlicher Vorteil für Kommunen und private Betreiber.
+            Metallrohre neigen zur Inkrustation, Kalk und Rost verengen den Querschnitt und erhöhen die Oberflächenreibung (Rauigkeit). Die Pumpen müssen immer mehr Strom verbrauchen, um die gleiche Wassermenge zu fördern. PP-R hat eine extrem glatte Rohrinnenwand (k = 0,007 mm), die über 50 Jahre Betriebszeit unverändert glatt bleibt. Druckverluste werden minimiert, und die Energiekosten der Umwälzpumpen bleiben konstant auf dem niedrigsten Niveau. Ein massiver wirtschaftlicher Vorteil für Kommunen und private Betreiber.
           </p>
         </div>
       </Reveal>

@@ -30,4 +30,4 @@ PP-R socket fusion and electrofusion fittings. All fittings are compatible with 
 | [Electrofusion Socket](./electrofusion-socket.md) | 20–75 | AQ27E20–AQ27E75 |
 
 ## Material
-PP-R (Polypropylene Random Copolymer) — socket fusion welding system, compatible with SF and BF tools.
+PP-R (Polypropylene Random Copolymer) - socket fusion welding system, compatible with SF and BF tools.

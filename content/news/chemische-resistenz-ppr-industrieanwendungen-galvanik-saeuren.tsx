@@ -41,7 +41,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
                 </div>
               }
               title="Aggressive Medien absolut sicher leiten"
-              lead="In hochkomplexen industriellen Prozessen sind Rohrleitungen extremen chemischen Belastungen ausgesetzt. Starke Säuren, hochkonzentrierte Laugen und reaktive Lösungsmittel greifen klassische metallische Werkstoffe unerbittlich an und führen zu katastrophalem Lochfraß oder Flächenkorrosion. K-Aqua PP-R (Polypropylen Random Copolymer) bietet aufgrund seiner unpolaren, hydrophoben Molekularstruktur eine herausragende chemische Beständigkeit. Es ersetzt in vielen industriellen Anlagen, einschließlich sensibler ATEX-Bereiche, extrem kostenintensiven Edelstahl oder exotische Speziallegierungen – bei gleichzeitig drastisch erhöhter Lebensdauer und Wartungsfreiheit."
+              lead="In hochkomplexen industriellen Prozessen sind Rohrleitungen extremen chemischen Belastungen ausgesetzt. Starke Säuren, hochkonzentrierte Laugen und reaktive Lösungsmittel greifen klassische metallische Werkstoffe unerbittlich an und führen zu katastrophalem Lochfraß oder Flächenkorrosion. K-Aqua PP-R (Polypropylen Random Copolymer) bietet aufgrund seiner unpolaren, hydrophoben Molekularstruktur eine herausragende chemische Beständigkeit. Es ersetzt in vielen industriellen Anlagen, einschließlich sensibler ATEX-Bereiche, extrem kostenintensiven Edelstahl oder exotische Speziallegierungen, bei gleichzeitig drastisch erhöhter Lebensdauer und Wartungsfreiheit."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">
@@ -58,7 +58,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
             Die chemische Beständigkeit von Werkstoffen entscheidet sich auf molekularer Ebene. Polypropylen gehört zur Gruppe der Polyolefine. Es besteht ausschließlich aus Kohlenstoff- und Wasserstoffatomen (CH2-CH(CH3)), die durch extrem starke kovalente Bindungen miteinander verknüpft sind. Da diese Struktur elektrisch völlig unpolar ist, zeigt PP-R keinerlei Affinität zu polaren Lösungsmitteln, Säuren oder Laugen. Diese intrinsische Widerstandsfähigkeit macht PP-R zu einem unverzichtbaren Basiswerkstoff für den sicheren und langfristigen industriellen Rohrleitungsbau, der sich über Jahrzehnte hinweg bewährt hat.
           </p>
           <p>
-            Dies ist ein fundamentaler Unterschied zu Metallen. Wenn Metalle mit Säuren (niedriger pH-Wert) in Kontakt kommen, geben sie Elektronen ab, ionisieren und lösen sich auf – sie korrodieren. PP-R hingegen besitzt keine freien Elektronen, die es abgeben könnte. Das Material ist elektrochemisch tot (inert). Lochfraß (Pitting Corrosion), der bei Edelstahlleitungen (z.B. V4A / 1.4404) durch Chlorid-Ionen oft schon nach wenigen Monaten zu Mikroleckagen führt, ist bei Kunststoff physikalisch schlichtweg unmöglich. Auch die gefürchtete Flächenkorrosion oder galvanische Korrosion, die bei der Verbindung unterschiedlicher metallischer Werkstoffe auftritt, spielt bei K-Aqua PP-R keinerlei Rolle.
+            Dies ist ein fundamentaler Unterschied zu Metallen. Wenn Metalle mit Säuren (niedriger pH-Wert) in Kontakt kommen, geben sie Elektronen ab, ionisieren und lösen sich auf, sie korrodieren. PP-R hingegen besitzt keine freien Elektronen, die es abgeben könnte. Das Material ist elektrochemisch tot (inert). Lochfraß (Pitting Corrosion), der bei Edelstahlleitungen (z.B. V4A / 1.4404) durch Chlorid-Ionen oft schon nach wenigen Monaten zu Mikroleckagen führt, ist bei Kunststoff physikalisch schlichtweg unmöglich. Auch die gefürchtete Flächenkorrosion oder galvanische Korrosion, die bei der Verbindung unterschiedlicher metallischer Werkstoffe auftritt, spielt bei K-Aqua PP-R keinerlei Rolle.
           </p>
           
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Stresstrissbeständigkeit (Environmental Stress Cracking)</h3>
@@ -139,7 +139,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
             },
             {
               q: "Warum ist Schweißen im Chemieanlagenbau sicherer als Kleben?",
-              a: "Systeme wie PVC-U oder ABS werden oft geklebt. Lösungsmittelhaltige Klebstoffe können jedoch von aggressiven Säuren oder Basen ausgewaschen werden, was unweigerlich zu Leckagen führt. K-Aqua PP-R wird thermisch verschweißt (Polyfusion). Es existiert kein Fremdmaterial – die Schweißnaht besteht zu 100% aus dem chemisch beständigen PP-R Grundmaterial."
+              a: "Systeme wie PVC-U oder ABS werden oft geklebt. Lösungsmittelhaltige Klebstoffe können jedoch von aggressiven Säuren oder Basen ausgewaschen werden, was unweigerlich zu Leckagen führt. K-Aqua PP-R wird thermisch verschweißt (Polyfusion). Es existiert kein Fremdmaterial, die Schweißnaht besteht zu 100% aus dem chemisch beständigen PP-R Grundmaterial."
             },
             {
               q: "Kann PP-R für Druckluft und industrielle Gase verwendet werden?",
@@ -161,7 +161,7 @@ export const chemischeResistenzIndustrie: NewsPost = {
             stats={[
               { n: "1 - 14", u: "pH", l: "Das extrem breite Spektrum der Resistenz von PP-R." },
               { n: "0", l: "Lochfraß und elektrochemische Korrosion. Das System ist vollständig inert." },
-              { n: "100", u: "%", l: "Vollflächige Verschmelzung durch Schweißen – keine schwachen Klebenähte." }
+              { n: "100", u: "%", l: "Vollflächige Verschmelzung durch Schweißen, keine schwachen Klebenähte." }
             ]}
           />
         </div>

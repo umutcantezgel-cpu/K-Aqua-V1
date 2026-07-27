@@ -1,4 +1,4 @@
-# Routen-Map — Prototyp-Hash → Next.js App Router
+# Routen-Map - Prototyp-Hash → Next.js App Router
 
 Der Prototyp routet über `#hash` in `kaqua-app.jsx` (`VIEWS` + `resolveView`).
 In Next.js wird jede View zu einer Datei unter `app/[locale]/…/page.tsx`.
@@ -26,7 +26,7 @@ In Next.js wird jede View zu einer Datei unter `app/[locale]/…/page.tsx`.
 
 ## Locale-Segment
 
-- Locales: `de` (default), `en`, `ar` (RTL) — **freigeschaltet**; weitere erst nach 100 % Übersetzung (siehe `RULES.md`).
+- Locales: `de` (default), `en`, `ar` (RTL) - **freigeschaltet**; weitere erst nach 100 % Übersetzung (siehe `RULES.md`).
 - `app/[locale]/layout.tsx` setzt `<html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>`.
 - Mengengerüst freigeschaltet: 3 Locales × 18 Routen + 3 × 27 Geo = **135 statische Seiten**.
 - Voll ausgebaut (12 Locales): 12 × 18 + 12 × 27 = **540 Seiten**.
@@ -34,7 +34,7 @@ In Next.js wird jede View zu einer Datei unter `app/[locale]/…/page.tsx`.
 ## Slugs
 
 Deutsche Slugs sind kanonisch (Phase 1). Slug-Lokalisierung pro Sprache ist Phase 2
-(`next-intl` `pathnames`-Map) — Architektur in `19_seo_metadata_jsonld.md` vorgesehen.
+(`next-intl` `pathnames`-Map) - Architektur in `19_seo_metadata_jsonld.md` vorgesehen.
 
 ## Geo-Slugs (27)
 
@@ -42,4 +42,4 @@ Deutsche Slugs sind kanonisch (Phase 1). Slug-Lokalisierung pro Sprache ist Phas
 mailand, prag, warschau, istanbul, dubai, abu-dhabi, doha, riad, dschidda, neom,
 kuwait-stadt, maskat, manama, amman, kairo, kuala-lumpur, mumbai, nairobi`
 
-(Exakte Liste = `K_GEO.map(g => g.slug)` aus `prototype/kaqua-geo.jsx` — Quelle der Wahrheit.)
+(Exakte Liste = `K_GEO.map(g => g.slug)` aus `prototype/kaqua-geo.jsx` - Quelle der Wahrheit.)

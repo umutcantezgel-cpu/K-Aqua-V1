@@ -1,10 +1,10 @@
 # Original User Request
 
-## Initial Request — 2026-06-14T12:19:53Z
+## Initial Request - 2026-06-14T12:19:53Z
 
-# Teamwork Project Prompt — Draft
+# Teamwork Project Prompt - Draft
 
-> Status: Step 1 — Eliciting project idea
+> Status: Step 1 - Eliciting project idea
 > Goal: Craft prompt → get user approval → delegate to teamwork_preview
 
 Implement the complete frontend for the K-Aqua corporate website, porting a provided HTML/JS prototype into a production-ready Next.js 15 app following a rigid 26-step sequential plan.
@@ -39,9 +39,9 @@ Only use semantic Tailwind tokens (no hex colors in markup). Enforce accessibili
 ### Validation
 - [ ] All 26 steps in `docs/AGENT_LOG.md` are checked off.
 
-## Follow-up — 2026-07-09T10:36:26Z
+## Follow-up - 2026-07-09T10:36:26Z
 
-# Teamwork Project Prompt — Draft
+# Teamwork Project Prompt - Draft
 
 > Status: Launched
 > Goal: Teamwork Multi-Agent System is currently executing.

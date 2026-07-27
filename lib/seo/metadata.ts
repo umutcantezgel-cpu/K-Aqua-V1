@@ -83,9 +83,9 @@ export function constructMetadata({
   
   // SEO optimization: Pad very short titles (Trust Center, Sitemap, Support)
   if (cleanTitle === "Sitemap" || cleanTitle === "خريطة الموقع") {
-    cleanTitle = locale === 'de' ? "Sitemap – Alle Seiten im Überblick" : locale === 'ar' ? "خريطة الموقع – نظرة عامة على جميع الصفحات" : "Sitemap – Overview of all Pages";
+    cleanTitle = locale === 'de' ? "Sitemap: Alle Seiten im Überblick" : locale === 'ar' ? "خريطة الموقع: نظرة عامة على جميع الصفحات" : "Sitemap: Overview of all Pages";
   } else if (cleanTitle === "Trust Center" || cleanTitle === "مركز الثقة") {
-    cleanTitle = locale === 'de' ? "Trust Center – Zertifikate & Sicherheit" : locale === 'ar' ? "مركز الثقة – الشهادات والأمان" : "Trust Center – Certificates & Security";
+    cleanTitle = locale === 'de' ? "Trust Center: Zertifikate & Sicherheit" : locale === 'ar' ? "مركز الثقة: الشهادات والأمان" : "Trust Center: Certificates & Security";
   } else if (cleanTitle === "Support" || cleanTitle === "الدعم الفني") {
     cleanTitle = locale === 'de' ? "Technischer Support & Kundenservice" : locale === 'ar' ? "الدعم الفني وخدمة العملاء" : "Technical Support & Customer Service";
   }

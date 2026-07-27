@@ -7,7 +7,7 @@ article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50"]
 
 # K-Fiber Pipe PP-RCT SDR 7.4
 
-**S 3.2** — Working pressure: 20°C / 2.0 MPa — 70°C / 1.0 MPa  
+**S 3.2** - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
 Length: 4 m per bar. Fiber-reinforced middle layer reduces thermal expansion.
 
 ## Article Table

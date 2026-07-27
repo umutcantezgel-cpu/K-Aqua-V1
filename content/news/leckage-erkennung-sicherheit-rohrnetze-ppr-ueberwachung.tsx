@@ -104,7 +104,7 @@ export const leckageErkennungSicherheit: NewsPost = {
       <Reveal>
         <SectionHead
           title="Die häufigsten Ausfallursachen"
-          lead="Warum herkömmliche Rohre undicht werden – und wie PPR sie löst."
+          lead="Warum herkömmliche Rohre undicht werden, und wie PPR sie löst."
           align="center"
         />
         <div className="mt-8">
@@ -169,7 +169,7 @@ export const leckageErkennungSicherheit: NewsPost = {
           Die absolute Mehrheit aller Leckagen in Rohrleitungssystemen tritt nicht am Rohr selbst auf, sondern an den Verbindungsstellen. Herkömmliche Systeme vertrauen auf Pressfittings mit elastomeren Dichtringen (O-Ringen) oder auf mechanische Schraubverbindungen. Diese Dichtungen unterliegen einem unaufhaltsamen Alterungsprozess. Temperaturwechsel, Druckschläge, chemische Einflüsse aus dem Wasser und einfache Materialermüdung führen dazu, dass Weichmacher entweichen und die O-Ringe verspröden. Zudem sind Pressverbindungen anfällig für menschliche Montagefehler, etwa wenn ein Fitting nicht korrekt verpresst wird.
         </p>
         <p>
-          K-Aqua PP-R beseitigt dieses Risiko durch das Prinzip der stoffschlüssigen Polyfusion. Beim Muffenschweißen werden die Enden von Rohr und Fitting mittels eines Heizelements für wenige Sekunden auf Schmelztemperatur (ca. 260°C) erhitzt und anschließend ineinandergefügt. Innerhalb weniger Augenblicke verschmelzen die polymeren Ketten beider Werkstücke zu einer völlig homogenen, unlösbaren Einheit. Nach dem Abkühlen gibt es keine physische Grenze mehr zwischen Rohr und Fitting – das System agiert als ein einziges, durchgehendes Bauteil. Da hierbei komplett auf Dichtungsringe verzichtet wird, gibt es kein Bauteil, das im Laufe der Jahrzehnte altern oder versagen könnte. Die Verbindung ist nach dem Schweißvorgang genauso stark wie das unberührte Rohr selbst und widersteht extremen Zug-, Biege- und Druckbelastungen.
+          K-Aqua PP-R beseitigt dieses Risiko durch das Prinzip der stoffschlüssigen Polyfusion. Beim Muffenschweißen werden die Enden von Rohr und Fitting mittels eines Heizelements für wenige Sekunden auf Schmelztemperatur (ca. 260°C) erhitzt und anschließend ineinandergefügt. Innerhalb weniger Augenblicke verschmelzen die polymeren Ketten beider Werkstücke zu einer völlig homogenen, unlösbaren Einheit. Nach dem Abkühlen gibt es keine physische Grenze mehr zwischen Rohr und Fitting, das System agiert als ein einziges, durchgehendes Bauteil. Da hierbei komplett auf Dichtungsringe verzichtet wird, gibt es kein Bauteil, das im Laufe der Jahrzehnte altern oder versagen könnte. Die Verbindung ist nach dem Schweißvorgang genauso stark wie das unberührte Rohr selbst und widersteht extremen Zug-, Biege- und Druckbelastungen.
         </p>
 
         <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Vibrationsresistenz und Druckstoßtoleranz</h2>

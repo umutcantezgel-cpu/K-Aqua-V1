@@ -34,28 +34,28 @@ kaqua-antigravity/
 │  ├─ RULES.md-Verweis      → liegt unter agents/RULES.md
 │  └─ DESIGN_SYSTEM_BRIDGE.md ← K-Aqua ↔ Coday-Konventionen
 ├─ agents/
-│  ├─ RULES.md              ← ⚠️ VERBINDLICH — zuerst lesen
+│  ├─ RULES.md              ← ⚠️ VERBINDLICH - zuerst lesen
 │  ├─ 00_orientation.md … 26_handover.md  ← die Arbeitspakete (sequenziell)
 └─ prototype/              ← der HTML-Prototyp = QUELLE DER WAHRHEIT
    ├─ K-Aqua Redesign.html
    ├─ kaqua-*.jsx / *.css / *.js
 ```
 
-★ `app/globals.css` ist bereits vollständig — Farben (light + OLED-dark), φ-Typo-Skala,
+★ `app/globals.css` ist bereits vollständig - Farben (light + OLED-dark), φ-Typo-Skala,
 Spacing, Radii, Schatten, Motion, als Tailwind-4 `@theme`. Agent 02 verifiziert nur noch.
 
 ---
 
-## Goldene Regeln (Kurzfassung — Details in `agents/RULES.md`)
+## Goldene Regeln (Kurzfassung - Details in `agents/RULES.md`)
 
-1. **Universelle i18n** — kein hartkodierter sichtbarer Text. ESLint erzwingt es.
-2. **Sprach-Reinheit** — eine Sprache erst freischalten, wenn 100 % übersetzt. Kein Mischmasch.
-3. **Keine Bilder im Code** — nur `<MediaSlot>`-Platzhalter.
-4. **Keine erfundenen Inhalte** — Platzhalter als `// TODO(content)` belassen.
-5. **Nur semantische Tokens** — kein Hex im Markup.
-6. **A11y + Motion + RTL** — 44px-Targets, focus-ring, `useReducedMotion`, logische Properties.
+1. **Universelle i18n** - kein hartkodierter sichtbarer Text. ESLint erzwingt es.
+2. **Sprach-Reinheit** - eine Sprache erst freischalten, wenn 100 % übersetzt. Kein Mischmasch.
+3. **Keine Bilder im Code** - nur `<MediaSlot>`-Platzhalter.
+4. **Keine erfundenen Inhalte** - Platzhalter als `// TODO(content)` belassen.
+5. **Nur semantische Tokens** - kein Hex im Markup.
+6. **A11y + Motion + RTL** - 44px-Targets, focus-ring, `useReducedMotion`, logische Properties.
 
-Der **Prototyp ist Referenz für Verhalten und Inhalt** — nicht aus dem Gedächtnis nachbauen,
+Der **Prototyp ist Referenz für Verhalten und Inhalt** - nicht aus dem Gedächtnis nachbauen,
 sondern die echten Quelldateien in `prototype/` lesen.
 
 ---
@@ -65,7 +65,7 @@ sondern die echten Quelldateien in `prototype/` lesen.
 Die Prompts in `agents/` sind **sequenziell nummeriert (00 → 26)** und in sich abgeschlossen:
 jeder nennt **Input-Dateien**, **Aufgabe**, **Output-Pfade** und eine prüfbare **Definition of Done (DoD)**.
 
-- **Ein Agent pro Prompt.** Reihenfolge einhalten — spätere bauen auf früheren auf.
+- **Ein Agent pro Prompt.** Reihenfolge einhalten - spätere bauen auf früheren auf.
 - Jeder Agent liest zuerst `agents/RULES.md`, dann seinen Prompt, dann die genannten Prototyp-Dateien.
 - Nach jedem Paket: `pnpm lint && pnpm typecheck` (+ ab Agent 04 `pnpm i18n:check`) müssen grün sein, bevor der nächste Agent startet.
 
@@ -75,8 +75,8 @@ jeder nennt **Input-Dateien**, **Aufgabe**, **Output-Pfade** und eine prüfbare 
 | 00 | Orientierung & Architektur | 14 | Trust / Partner / Academy |
 | 01 | Scaffold & Toolchain | 15 | Karriere & RFQ (Käufer-Strecke) |
 | 02 | Design-Tokens verifizieren | 16 | Referenzen (Globus) |
-| 03 | UI-Primitives | 17 | Geo — Märkte-Hub (360°-Welt) |
-| 04 | Icons & Motion-Primitives | 18 | Geo — Stadt-Seiten (pSEO) |
+| 03 | UI-Primitives | 17 | Geo - Märkte-Hub (360°-Welt) |
+| 04 | Icons & Motion-Primitives | 18 | Geo - Stadt-Seiten (pSEO) |
 | 05 | i18n-Infrastruktur | 19 | SEO: Metadata & JSON-LD |
 | 06 | i18n-Inhalte & Übersetzung | 20 | Sitemap / robots / OG |
 | 07 | App-Shell (Nav/Footer) | 21 | Performance |

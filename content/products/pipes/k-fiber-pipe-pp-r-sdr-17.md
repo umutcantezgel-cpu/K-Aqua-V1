@@ -7,7 +7,7 @@ article_codes: ["AQ17PF90", "AQ17PF110", "AQ17PF125", "AQ17PF160", "AQ17PF200"]
 
 # K-Fiber Pipe PP-R SDR 17
 
-**S 8** — Working pressure: 20°C / 1.0 MPa — 60°C / 0.6 MPa  
+**S 8** - Working pressure: 20°C / 1.0 MPa - 60°C / 0.6 MPa  
 Length: 4 m per bar. Large-diameter fiber pipe for industrial and building supply.
 
 ## Article Table

@@ -57,7 +57,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert text-muted-foreground">
           <h2 className="text-3xl font-extrabold text-foreground mb-4">Das Prinzip der Flächenkühlung: Komfort durch Strahlung</h2>
           <p className="mb-4">
-            Der menschliche Körper empfindet Temperaturen nicht nur über die umgebende Lufttemperatur, sondern maßgeblich über die Strahlungswärme oder -kälte der ihn umgebenden Flächen. Flächenkühlsysteme – ob als abgehängte Klimadecke, thermische Bauteilaktivierung (BKT) im Beton oder als Wandflächenkühlung – nutzen exakt dieses Prinzip. Durch ein feines, in der Fläche verlegtes Netz aus Kapillarrohren fließt temperiertes Kaltwasser. 
+            Der menschliche Körper empfindet Temperaturen nicht nur über die umgebende Lufttemperatur, sondern maßgeblich über die Strahlungswärme oder -kälte der ihn umgebenden Flächen. Flächenkühlsysteme, ob als abgehängte Klimadecke, thermische Bauteilaktivierung (BKT) im Beton oder als Wandflächenkühlung, nutzen exakt dieses Prinzip. Durch ein feines, in der Fläche verlegtes Netz aus Kapillarrohren fließt temperiertes Kaltwasser. 
           </p>
           <p className="mb-4">
             Die Physik dahinter ist ebenso einfach wie genial: Da kalte Luft schwerer ist als warme Luft, fällt die an der Decke abgekühlte Raumluft großflächig, sanft und völlig ohne spürbaren Zug (Zugluft) wie ein unsichtbarer, kühler Schleier nach unten in den Aufenthaltsraum. Gleichzeitig gibt der wärmere menschliche Körper, ebenso wie Computerbildschirme oder Beleuchtung, seine überschüssige Wärme in Form von Infrarotstrahlung an die kühlere Deckenfläche ab (Strahlungsaustausch). Dies schafft ein unübertroffen angenehmes und gesundes Raumklima, völlig ohne surrende Gebläse.
@@ -68,7 +68,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             Ein weiterer gewaltiger Vorteil von Klimadecken ist ihre unschlagbare Energieeffizienz. Eine konventionelle Klimaanlage, die eisige Luft in den Raum bläst, benötigt extrem niedriges Kaltwasser mit einer Vorlauftemperatur von etwa 6 °C. Um das Wasser derart tief abzukühlen, müssen Kältemaschinen unter enormem Stromeinsatz harte Kompressorarbeit leisten.
           </p>
           <p className="mb-4">
-            Flächenkühlsysteme arbeiten hingegen mit einer sehr milden Vorlauftemperatur von etwa 16 bis 18 °C. Da die Kühlfläche (die gesamte Raumdecke) riesig ist, reicht diese milde Temperatur völlig aus, um den Raum effektiv zu kühlen. Dieser hohe Temperaturunterschied erlaubt den Einsatz von "Free Cooling" (Freier Kühlung). Hierbei wird in Übergangszeiten oder kühlen Nächten schlichtweg die kühle Außenluft oder das kühle Grundwasser über Erdsonden und Wärmetauscher genutzt, um das Gebäude-Kaltwasser auf 16 °C zu bringen – die stromfressenden Kompressoren bleiben komplett ausgeschaltet. Das spart gewaltige Mengen an elektrischer Energie.
+            Flächenkühlsysteme arbeiten hingegen mit einer sehr milden Vorlauftemperatur von etwa 16 bis 18 °C. Da die Kühlfläche (die gesamte Raumdecke) riesig ist, reicht diese milde Temperatur völlig aus, um den Raum effektiv zu kühlen. Dieser hohe Temperaturunterschied erlaubt den Einsatz von "Free Cooling" (Freier Kühlung). Hierbei wird in Übergangszeiten oder kühlen Nächten schlichtweg die kühle Außenluft oder das kühle Grundwasser über Erdsonden und Wärmetauscher genutzt, um das Gebäude-Kaltwasser auf 16 °C zu bringen, die stromfressenden Kompressoren bleiben komplett ausgeschaltet. Das spart gewaltige Mengen an elektrischer Energie.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-8 mb-3">Die anspruchsvolle Anbindung: Warum PPR die Steigeschächte dominiert</h3>
@@ -81,7 +81,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
           
           <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Taupunktüberwachung in der Praxis</h4>
           <p>
-            Um Kondenswasser an der Klimadecke selbst zu verhindern, verbauen Systemintegratoren Taupunktwächter. Diese intelligenten Sensoren messen permanent die relative Luftfeuchtigkeit und die Raumtemperatur. Steigt die Feuchtigkeit (etwa, wenn an einem schwülen Tag das Fenster geöffnet wird) und droht der Taupunkt unterschritten zu werden, reagiert die Gebäudeleittechnik (GLT) sofort. Das Mischventil im Keller wird angesteuert, und die Vorlauftemperatur im K-Aqua PPR-Netz wird völlig stufenlos um ein bis zwei Grad angehoben – lange bevor sich auch nur ein einziger Kondensattropfen bilden kann.
+            Um Kondenswasser an der Klimadecke selbst zu verhindern, verbauen Systemintegratoren Taupunktwächter. Diese intelligenten Sensoren messen permanent die relative Luftfeuchtigkeit und die Raumtemperatur. Steigt die Feuchtigkeit (etwa, wenn an einem schwülen Tag das Fenster geöffnet wird) und droht der Taupunkt unterschritten zu werden, reagiert die Gebäudeleittechnik (GLT) sofort. Das Mischventil im Keller wird angesteuert, und die Vorlauftemperatur im K-Aqua PPR-Netz wird völlig stufenlos um ein bis zwei Grad angehoben, lange bevor sich auch nur ein einziger Kondensattropfen bilden kann.
           </p>
         </div>
       </Reveal>
@@ -174,7 +174,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             <Reveal key="2">
               <div className="p-6 rounded-2xl border border-card-border bg-card h-full flex flex-col">
                 <h3 className="text-xl font-bold text-foreground mb-2">2. Warum K-Aqua PPR hier klar im Vorteil ist</h3>
-                <p className="text-muted-foreground leading-relaxed">Metalle wie Stahl oder Kupfer leiten kalte Wassertemperaturen ohne Zeitverlust sofort an die Rohroberfläche weiter – sie beschlagen in Sekundenbruchteilen. PPR hat eine sehr geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche extrem verzögert. Dennoch ist eine fachgerechte, diffusionsdichte Dämmung nach wie vor Pflicht.</p>
+                <p className="text-muted-foreground leading-relaxed">Metalle wie Stahl oder Kupfer leiten kalte Wassertemperaturen ohne Zeitverlust sofort an die Rohroberfläche weiter, sie beschlagen in Sekundenbruchteilen. PPR hat eine sehr geringe thermische Leitfähigkeit, was den Kondensationsprozess an der Rohroberfläche extrem verzögert. Dennoch ist eine fachgerechte, diffusionsdichte Dämmung nach wie vor Pflicht.</p>
               </div>
             </Reveal>
             <Reveal key="3">
@@ -193,7 +193,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             cols={3}
             stats={[
               { n: "16", u: "°C", l: "Die absolut ideale und äußerst stromsparende Vorlauftemperatur für Hochleistungs-Klimadecken." },
-              { n: "0", u: " dB", l: "Wahrnehmbare Betriebslautstärke im Büro – keine störenden Lüfter, Gebläse oder lauten Kompressoren." },
+              { n: "0", u: " dB", l: "Wahrnehmbare Betriebslautstärke im Büro, keine störenden Lüfter, Gebläse oder lauten Kompressoren." },
               { n: "100", u: "%", l: "Kältemittelfrei im Raum, da völlig ungefährliches, reines Leitungswasser als Trägermedium in der Decke dient." }
             ]}
           />

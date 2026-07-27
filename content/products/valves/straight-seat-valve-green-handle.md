@@ -5,9 +5,9 @@ slug: "valves/straight-seat-valve-green-handle"
 article_codes: ["AQ62591"]
 ---
 
-# Straight Seat Valve — Upper Part Only, Green Handle
+# Straight Seat Valve - Upper Part Only, Green Handle
 
-Upper spindle and handle part for straight seat (globe) valves — green handle for easy identification. Compatible with standard lower valve bodies.
+Upper spindle and handle part for straight seat (globe) valves - green handle for easy identification. Compatible with standard lower valve bodies.
 
 ## Article Table
 

@@ -7,7 +7,7 @@ article_codes: ["AQ30120", "AQ30125", "AQ30132", "AQ30140", "AQ30150", "AQ30163"
 
 # Cap
 
-PP-R socket fusion fitting — closes off the end of a pipe.
+PP-R socket fusion fitting - closes off the end of a pipe.
 
 ## Article Table
 

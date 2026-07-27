@@ -7,7 +7,7 @@ article_codes: ["AQ200PFUV20", "AQ200PFUV25", "AQ200PFUV32", "AQ200PFUV40", "AQ2
 
 # K-Fiber UV Pipe PP-R SDR 7.4
 
-**S 3.2** — Working pressure: 20°C / 2.0 MPa — 60°C / 1.0 MPa  
+**S 3.2** - Working pressure: 20°C / 2.0 MPa - 60°C / 1.0 MPa  
 Length: 4 m. UV-resistant outer layer for outdoor use.
 
 ## Article Table

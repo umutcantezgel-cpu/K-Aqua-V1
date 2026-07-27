@@ -43,7 +43,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
                 In großen Gebäudekomplexen, Krankenhäusern und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen die Schwerkraft und den Leitungswiderstand (Rohrreibung) zu fördern, leisten elektrische Umwälzpumpen kontinuierlich Schwerstarbeit. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl">
-                Genau hier an dieser unsichtbaren Schnittstelle zwischen Strömungsmechanik und Energietechnik entscheidet die Wahl des Rohrleitungsmaterials über die langfristige Wirtschaftlichkeit einer gesamten Anlage. Ein scheinbar kleines Detail – die minimale Oberflächenrauheit von K-Aqua PP-R – definiert, ob Ihr Gebäude in den kommenden Jahrzehnten zum stromfressenden Albtraum oder zum hocheffizienten Energiewunder wird.
+                Genau hier an dieser unsichtbaren Schnittstelle zwischen Strömungsmechanik und Energietechnik entscheidet die Wahl des Rohrleitungsmaterials über die langfristige Wirtschaftlichkeit einer gesamten Anlage. Ein scheinbar kleines Detail, die minimale Oberflächenrauheit von K-Aqua PP-R, definiert, ob Ihr Gebäude in den kommenden Jahrzehnten zum stromfressenden Albtraum oder zum hocheffizienten Energiewunder wird.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
               <ArrowRight className="w-12 h-12 text-cyan-500 mb-6" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Der Beschleuniger PP-R (Laminarität)</h3>
               <p className="text-muted-foreground leading-relaxed">
-                K-Aqua PP-R wird im hochpräzisen Extrusionsverfahren hergestellt. Das Ergebnis ist eine spiegelglatte, porenfreie Innenwand mit einer absoluten Oberflächenrauheit von nur 0,007 mm. An dieser extremen Glätte können sich keine Inkrustationen festsetzen. Die Wasserströmung gleitet in parallelen Schichten übereinander (Laminarströmung) nahezu widerstandslos durch das Netz. Selbst nach Jahrzehnten intensiver Nutzung bleibt der Druckverlust auf dem initialen Minimum – eine bauphysikalische Garantie für dauerhaft niedrige Energiekosten.
+                K-Aqua PP-R wird im hochpräzisen Extrusionsverfahren hergestellt. Das Ergebnis ist eine spiegelglatte, porenfreie Innenwand mit einer absoluten Oberflächenrauheit von nur 0,007 mm. An dieser extremen Glätte können sich keine Inkrustationen festsetzen. Die Wasserströmung gleitet in parallelen Schichten übereinander (Laminarströmung) nahezu widerstandslos durch das Netz. Selbst nach Jahrzehnten intensiver Nutzung bleibt der Druckverlust auf dem initialen Minimum, eine bauphysikalische Garantie für dauerhaft niedrige Energiekosten.
               </p>
             </Card>
           </div>
@@ -220,7 +220,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
               Die Adern des energieeffizienten Bauens
             </h2>
             <p className="text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Jedes elektrische Watt Pumpenstrom, das durch unnötige Rohrreibung im Leitungssystem verloren geht, ist eine auf Dauer unerträgliche wirtschaftliche und ökologische Belastung. Mit K-Aqua PP-R investieren Sie in die buchstäblich perfekte Strömungsmechanik. Die spiegelglatten Innenwände garantieren einen verlustarmen Transport Ihrer Medien von der ersten Minute an – und das beständig über die gesamte Lebensdauer des Gebäudes. Reduzieren Sie Ihre Energiekosten direkt an der Quelle.
+              Jedes elektrische Watt Pumpenstrom, das durch unnötige Rohrreibung im Leitungssystem verloren geht, ist eine auf Dauer unerträgliche wirtschaftliche und ökologische Belastung. Mit K-Aqua PP-R investieren Sie in die buchstäblich perfekte Strömungsmechanik. Die spiegelglatten Innenwände garantieren einen verlustarmen Transport Ihrer Medien von der ersten Minute an, und das beständig über die gesamte Lebensdauer des Gebäudes. Reduzieren Sie Ihre Energiekosten direkt an der Quelle.
             </p>
           </div>
         </Reveal>

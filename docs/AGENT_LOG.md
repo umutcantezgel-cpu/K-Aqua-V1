@@ -61,9 +61,9 @@ Folgende Daten sind bewusst als Platzhalter belassen und dürfen nicht durch die
 - [x] Agent 18: Erledigt am 14.06.2026
 - [x] Agent 19: Erledigt am 14.06.2026
 - [x] Agent 20: Erledigt am 14.06.2026
-- [x] Agent 21: Erledigt am 14.06.2026 — Performance Optimization
-- [x] Agent 22: Erledigt am 14.06.2026 — Accessibility Audit (WCAG AA)
-- [x] Agent 23: Erledigt am 14.06.2026 — Testing & CI
+- [x] Agent 21: Erledigt am 14.06.2026 - Performance Optimization
+- [x] Agent 22: Erledigt am 14.06.2026 - Accessibility Audit (WCAG AA)
+- [x] Agent 23: Erledigt am 14.06.2026 - Testing & CI
 - [x] Agent 24: Erledigt am 14.06.2026 von Antigravity
 - [x] Agent 25: Erledigt am 14.06.2026 von Antigravity
 - [x] Agent 26: Erledigt am 14.06.2026 von Antigravity

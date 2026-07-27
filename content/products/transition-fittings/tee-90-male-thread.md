@@ -13,10 +13,10 @@ PP-R tee with two socket fusion ends and one male thread (R) branch outlet.
 
 | Code    | d (mm) | R Thread | Pack |
 |---------|--------|----------|------|
-| AQ13R20 | 20     | ½"       | —    |
-| AQ13R25 | 25     | ¾"       | —    |
-| AQ13R32 | 32     | 1"       | —    |
-| AQ13R40 | 40     | 1¼"      | —    |
+| AQ13R20 | 20     | ½"       | -    |
+| AQ13R25 | 25     | ¾"       | -    |
+| AQ13R32 | 32     | 1"       | -    |
+| AQ13R40 | 40     | 1¼"      | -    |
 
 ## Available Sizes
 20 · 25 · 32 · 40 mm

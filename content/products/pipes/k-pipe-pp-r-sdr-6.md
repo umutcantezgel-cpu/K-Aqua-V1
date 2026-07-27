@@ -7,7 +7,7 @@ article_codes: ["AQ200P20", "AQ200P25", "AQ200P32", "AQ200P40", "AQ200P50"]
 
 # K-Pipe PP-R SDR 6
 
-**S 2.5** — Working pressure: 20°C / 2.0 MPa — 70°C / 1.0 MPa  
+**S 2.5** - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
 Length: 4 m per bar
 
 ## Article Table

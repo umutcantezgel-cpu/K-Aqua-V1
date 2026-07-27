@@ -7,7 +7,7 @@ article_codes: ["AQ974"]
 
 # Pipe Cutter 50–125 (1¼)
 
-Pipe cutter 50–125 mm — alternative model (1¼ version).
+Pipe cutter 50–125 mm - alternative model (1¼ version).
 
 | Code  | Range (mm) | Pack |
 |-------|-----------|------|

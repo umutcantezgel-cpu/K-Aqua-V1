@@ -84,7 +84,7 @@ export const schiffbauOffshore: NewsPost = {
           <StatBand
             cols={3}
             stats={[
-              { n: "75", u: "%", l: "Leichter als Stahlrohre – erhöht die Zuladungskapazität." },
+              { n: "75", u: "%", l: "Leichter als Stahlrohre, erhöht die Zuladungskapazität." },
               { n: "0", l: "Aufwand für nachträglichen Korrosionsschutz oder Innenbeschichtung." },
               { n: "50", u: "+", l: "Jahre erwartete Lebensdauer im maritimen Dauerbetrieb." }
             ]}
@@ -132,7 +132,7 @@ export const schiffbauOffshore: NewsPost = {
 
         <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Gewichtsreduktion: Der Schlüssel zur maritimen Effizienz</h2>
         <p>
-          Im modernen Schiffbau – sei es bei Kreuzfahrtschiffen, Frachtern, Yachten oder militärischen Fregatten – ist die Gewichtsreduzierung (Weight Saving) eines der wichtigsten Designkriterien. Jede Tonne Eigengewicht, die im Schiffsrumpf verbaut wird, reduziert die nutzbare Zuladung (Payload) oder erhöht den Treibstoffverbrauch und damit den CO2-Ausstoß (CII - Carbon Intensity Indicator).
+          Im modernen Schiffbau, sei es bei Kreuzfahrtschiffen, Frachtern, Yachten oder militärischen Fregatten, ist die Gewichtsreduzierung (Weight Saving) eines der wichtigsten Designkriterien. Jede Tonne Eigengewicht, die im Schiffsrumpf verbaut wird, reduziert die nutzbare Zuladung (Payload) oder erhöht den Treibstoffverbrauch und damit den CO2-Ausstoß (CII - Carbon Intensity Indicator).
         </p>
         <p>
           K-Aqua Rohrsysteme sind ca. 75 % leichter als vergleichbare Stahlrohre und bis zu 60 % leichter als CuNiFe. In einem großen Kreuzfahrtschiff mit hunderten Kilometern an Rohrleitungen bedeutet der Wechsel auf Kunststoff eine Gewichtsersparnis von mehreren hundert Tonnen. Dieses eingesparte Gewicht erhöht die Stabilität (Metazentrum) des Schiffs, senkt den Tiefgang und führt zu signifikanten Einsparungen im Treibstoffverbrauch während der gesamten Lebensdauer des Schiffes.

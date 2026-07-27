@@ -76,7 +76,7 @@ export const vorfertigungPrefabrication: NewsPost = {
 
           <h3>Building Information Modeling (BIM) als Katalysator</h3>
           <p>
-            Die Vorfertigung funktioniert nicht ohne exakte Planung. Der Prozess beginnt lange bevor der erste Schweißspiegel erhitzt wird – nämlich im digitalen Zwilling des Gebäudes. Über Building Information Modeling (BIM) werden die Verteiler, Pumpengruppen und Schachtinstallationen millimetergenau in 3D (CAD) modelliert. 
+            Die Vorfertigung funktioniert nicht ohne exakte Planung. Der Prozess beginnt lange bevor der erste Schweißspiegel erhitzt wird, nämlich im digitalen Zwilling des Gebäudes. Über Building Information Modeling (BIM) werden die Verteiler, Pumpengruppen und Schachtinstallationen millimetergenau in 3D (CAD) modelliert. 
           </p>
           <p>
             K Aqua stellt Planern und Installateuren exakte BIM-Bibliotheken zur Verfügung. Aus diesem 3D-Modell generiert die Software auf Knopfdruck automatische Stücklisten (Bill of Materials) und exakte Zuschnittpläne für die Rohre. Es gibt keine bösen Überraschungen oder Kollisionen mit Lüftungskanälen mehr, da alles virtuell bereits gebaut wurde, bevor es physisch existiert.
@@ -127,7 +127,7 @@ export const vorfertigungPrefabrication: NewsPost = {
               },
               {
                 title: "2. WerkstattSchweißung",
-                description: "Fernab von Baustellenstaub und Kälte verschweißen Spezialisten die K Aqua PPR Rohre unter perfekten klimatischen Bedingungen – oft unterstützt von stationären Schweißmaschinen."
+                description: "Fernab von Baustellenstaub und Kälte verschweißen Spezialisten die K Aqua PPR Rohre unter perfekten klimatischen Bedingungen, oft unterstützt von stationären Schweißmaschinen."
               },
               {
                 title: "3. Plug & Play Montage",

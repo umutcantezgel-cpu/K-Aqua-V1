@@ -7,7 +7,7 @@ article_codes: ["AQ60RP20","AQ60RP25","AQ60RP32","AQ60RP40"]
 
 # Tee 90° (Female Thread) for Internal Valve
 
-PP-R tee specially designed to house concealed (internal) valves — female thread branch.
+PP-R tee specially designed to house concealed (internal) valves - female thread branch.
 
 ## Article Table
 

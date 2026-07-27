@@ -91,7 +91,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
 
             <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Sicherheit für kritische Infrastrukturen</h2>
             <p>
-              Von Krankenhäusern in kalifornischen Erdbebenzonen bis hin zu hochsensiblen Rechenzentren weltweit – die Investition in viskoelastische PP-R-Rohrsysteme von K Aqua ist eine Investition in die absolute Ausfallsicherheit. Im Katastrophenfall ist die Erhaltung der Infrastruktur (Löschwasser, Trinkwasser) überlebenswichtig. Ein Rohrnetz, das nachgibt, aber nicht bricht, ist der ultimative Lebensretter für jedes Gebäude.
+              Von Krankenhäusern in kalifornischen Erdbebenzonen bis hin zu hochsensiblen Rechenzentren weltweit, die Investition in viskoelastische PP-R-Rohrsysteme von K Aqua ist eine Investition in die absolute Ausfallsicherheit. Im Katastrophenfall ist die Erhaltung der Infrastruktur (Löschwasser, Trinkwasser) überlebenswichtig. Ein Rohrnetz, das nachgibt, aber nicht bricht, ist der ultimative Lebensretter für jedes Gebäude.
             </p>
           </div>
         </Reveal>

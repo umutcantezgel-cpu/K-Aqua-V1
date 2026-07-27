@@ -7,7 +7,7 @@ article_codes: ["AQ64RCG20","AQ64RCG25"]
 
 # Battery (Female Thread)
 
-PP-R distribution manifold (battery) with female thread outlets — for underfloor heating or multiple circuit distribution.
+PP-R distribution manifold (battery) with female thread outlets - for underfloor heating or multiple circuit distribution.
 
 ## Article Table
 

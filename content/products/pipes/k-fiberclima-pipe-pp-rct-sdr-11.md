@@ -7,7 +7,7 @@ article_codes: ["AQ160F20", "AQ160F25", "AQ160F32", "AQ160F40", "AQ160F50"]
 
 # K-Fiberclima Pipe PP-RCT SDR 11
 
-**S 5** — Working pressure: 20°C / 1.6 MPa — 70°C / 0.8 MPa  
+**S 5** - Working pressure: 20°C / 1.6 MPa - 70°C / 0.8 MPa  
 Length: 4 m per bar. Optimised for HVAC and climate applications.
 
 ## Article Table

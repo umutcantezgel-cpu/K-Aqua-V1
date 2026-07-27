@@ -83,7 +83,7 @@ export const geothermieErdwaerme: NewsPost = {
 
           <h3>Installation: Von der Tiefenbohrung bis zum Verteilerschacht</h3>
           <p>
-            Die Installation einer klassischen Erdwärmesonde (Doppel-U-Sonde) erfordert Präzision. Nach der Tiefenbohrung (oft durch Fels und Gestein) wird die vorgefertigte K Aqua Sonde – beschwert durch spezielle Sondenfußgewichte – in das Bohrloch abgelassen. 
+            Die Installation einer klassischen Erdwärmesonde (Doppel-U-Sonde) erfordert Präzision. Nach der Tiefenbohrung (oft durch Fels und Gestein) wird die vorgefertigte K Aqua Sonde, beschwert durch spezielle Sondenfußgewichte, in das Bohrloch abgelassen. 
           </p>
           <p>
             Danach folgt der wichtigste thermodynamische Schritt: Das Verpressen (Verfüllen). Das Bohrloch wird von unten nach oben mit einer wärmeleitfähigen Bentonit-Zement-Suspension hohlraumfrei verfüllt. Dies sorgt dafür, dass die K Aqua Rohre perfekten Kontakt zum umliegenden Gestein haben und die Erdwärme optimal auf die im Rohr zirkulierende Sole übertragen werden kann. Alle Sonden des Grundstücks (oft 3 oder 4 Stück) werden dann in einem frostsicheren Verteilerschacht zusammengeführt. Hier erfolgt der Abgleich der Durchflussmengen, bevor die dicke Sammelleitung in den Heizungskeller zur Wärmepumpe führt.
