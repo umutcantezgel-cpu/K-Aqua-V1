@@ -342,15 +342,12 @@ export default async function ProductDetailPage({
       {/* 2. DYNAMIC SEO TEXT BLOCKS (Unique per product) */}
       <section className="py-12 bg-surface">
         <div className="mx-auto max-w-[1400px] px-6">
-          <div className="sr-only" aria-hidden="true">
+          <div className="sr-only" aria-hidden="true" data-nosnippet="true">
             <p>
-              {locale === 'de' ? 'Das Produkt' : locale === 'ar' ? 'المنتج' : 'The'} {localizedTitle} {locale === 'de' ? 'ist ein hochwertiges Element der Kategorie' : locale === 'ar' ? 'هو عنصر عالي الجودة من فئة' : 'is a high-quality component in the category'} {product.category} {locale === 'de' ? 'für professionelle PP-R und PP-RCT Rohrsysteme.' : locale === 'ar' ? 'لأنظمة أنابيب PP-R و PP-RCT الاحترافية.' : 'for professional PP-R and PP-RCT piping systems.'}
+              {locale === 'de' ? 'Das Produkt' : locale === 'ar' ? 'المنتج' : 'The product'} {localizedTitle} {locale === 'de' ? `ist ein hochwertiges ${localizedTitle}-Element der Kategorie` : locale === 'ar' ? `هو عنصر ${localizedTitle} عالي الجودة من فئة` : `is a high-quality ${localizedTitle} component in the category`} {product.category} {locale === 'de' ? 'für professionelle PP-R und PP-RCT Rohrsysteme von K-Aqua.' : locale === 'ar' ? 'لأنظمة أنابيب PP-R و PP-RCT الاحترافية من K-Aqua.' : 'for professional PP-R and PP-RCT piping systems by K-Aqua.'}
             </p>
             <p>
-              {locale === 'de' ? 'Bei der Installation von' : locale === 'ar' ? 'عند تثبيت' : 'When installing the'} {localizedTitle} {locale === 'de' ? 'profitieren Sie von maximaler Kompatibilität innerhalb des K-Aqua Sortiments.' : locale === 'ar' ? 'تستفيد من أقصى قدر من التوافق داخل مجموعة K-Aqua.' : 'you benefit from maximum compatibility within the K-Aqua range.'}
-            </p>
-            <p>
-              {locale === 'de' ? 'Artikelnummern wie' : locale === 'ar' ? 'أرقام المقالات مثل' : 'Article numbers such as'} {codes.substring(0, 20)} {locale === 'de' ? 'bestätigen, dass dieses' : locale === 'ar' ? 'تؤكد أن هذا' : 'confirm that this'} {product.category} {locale === 'de' ? 'Bauteil den internationalen Trinkwasser- und Industriestandards entspricht.' : locale === 'ar' ? 'المكون يفي بالمعايير الدولية لمياه الشرب والصناعة.' : 'component meets international drinking water and industrial standards.'}
+              {locale === 'de' ? `Bei der Installation von ${localizedTitle} profitieren Sie von maximaler Kompatibilität innerhalb des K-Aqua Sortiments. ${localizedTitle} ist verfügbar unter den Artikelnummern ${codes}.` : locale === 'ar' ? `عند تثبيت ${localizedTitle} تستفيد من أقصى قدر من التوافق داخل مجموعة K-Aqua. ${localizedTitle} متوفر تحت أرقام المقالات ${codes}.` : `When installing ${localizedTitle}, you benefit from maximum compatibility within the K-Aqua range. ${localizedTitle} is available under article numbers ${codes}.`}
             </p>
           </div>
         </div>
@@ -403,7 +400,7 @@ export default async function ProductDetailPage({
 
                 {/* 4. Generated Technical SEO Narrative & Quality Assurance */}
                 {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
+                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm" data-nosnippet="true">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                       {tProd('labels.technicalDescription')} (SEO) - {localizedTitle}
                     </h3>

@@ -297,7 +297,7 @@ export default async function CategoryPage({ params }: Props) {
             {tc("learnMoreKnowledge")}
           </h2>
           <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-            {tc("learnMoreDesc")}
+            {tc("learnMoreDesc")} {locale === 'de' ? `Vertiefen Sie Ihr Wissen über ${seoTitle} und deren Einsatzmöglichkeiten.` : locale === 'ar' ? `عمّق معرفتك بـ ${seoTitle} واستخداماتها.` : `Deepen your knowledge about ${seoTitle} and their applications.`}
           </p>
           <Link 
             href={`/academy`}

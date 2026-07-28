@@ -35,7 +35,7 @@ export function NewsDeep() {
                       {resolveLocalized(news.title, locale)}
                     </Link>
                   </div>
-                  <p className="text-small text-muted-foreground mt-2 line-clamp-3">{resolveLocalized(news.teaser || news.excerpt, locale)}</p>
+                  <p className="text-small text-muted-foreground mt-2 line-clamp-3" data-nosnippet="true">{resolveLocalized(news.teaser || news.excerpt, locale)}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 self-start text-small font-bold text-primary opacity-90 group-hover:opacity-100 transition-opacity">
                     {t("readMore")} <span className="sr-only"> {resolveLocalized(news.title, locale)}</span> <span className="translate-x-0 group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
                   </span>

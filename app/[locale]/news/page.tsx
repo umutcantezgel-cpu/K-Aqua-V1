@@ -81,7 +81,7 @@ export default async function NewsPage({ params }: Props) {
                     <h2 className="font-heading font-extrabold text-2xl lg:text-3xl text-foreground mt-2 mb-4 leading-snug">
                       {t("h2")}
                     </h2>
-                    <p className="text-body text-muted-foreground leading-relaxed">
+                    <p className="text-body text-muted-foreground leading-relaxed" data-nosnippet="true">
                       {t("p")}
                     </p>
                   </div>
