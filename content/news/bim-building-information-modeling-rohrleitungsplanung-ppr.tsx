@@ -73,9 +73,9 @@ export const bimBuildingInformationModeling: NewsPost = {
             BIM ist weit mehr als nur 3D. Die wahren Vorteile für Bauherren und Facility Manager entfalten sich durch die Anreicherung des Modells mit detaillierten Zeit- und Kostenparametern (4D & 5D).
           </p>
           <ul className="list-disc pl-6 mt-4 space-y-2">
-            <li><strong>3D BIM:</strong> Räumliches Modell zur Kollisionsprüfung und hydraulischen Auslegung.</li>
-            <li><strong>4D BIM:</strong> Verknüpfung mit dem Bauzeitenplan. Die Baustellenlogistik und Materiallieferungen (Just-in-Time) für PP-R Rohre werden exakt getaktet. Dies minimiert Lagerkosten auf der Baustelle.</li>
-            <li><strong>5D BIM:</strong> Echtzeitkostenkontrolle. Jede Änderung im 3D-Modell (z.B. eine andere Rohrführung) aktualisiert sofort die Materialliste und die Projektkosten.</li>
+            <li><span className="font-semibold">3D BIM:</span> Räumliches Modell zur Kollisionsprüfung und hydraulischen Auslegung.</li>
+            <li><span className="font-semibold">4D BIM:</span> Verknüpfung mit dem Bauzeitenplan. Die Baustellenlogistik und Materiallieferungen (Just-in-Time) für PP-R Rohre werden exakt getaktet. Dies minimiert Lagerkosten auf der Baustelle.</li>
+            <li><span className="font-semibold">5D BIM:</span> Echtzeitkostenkontrolle. Jede Änderung im 3D-Modell (z.B. eine andere Rohrführung) aktualisiert sofort die Materialliste und die Projektkosten.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Der digitale Zwilling für das Facility Management</h2>

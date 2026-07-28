@@ -62,7 +62,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
                     <Check className="w-4 h-4 text-primary" />
                   </div>
                   <div>
-                    <strong className="block text-foreground font-heading">DVGW (Deutschland)</strong>
+                    <span className="block text-foreground font-heading font-semibold">DVGW (Deutschland)</span>
                     <span className="text-muted-foreground text-sm">Die weltweit strengsten Richtlinien für Trinkwasserhygiene in Gebäuden.</span>
                   </div>
                 </li>
@@ -71,7 +71,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
                     <Check className="w-4 h-4 text-primary" />
                   </div>
                   <div>
-                    <strong className="block text-foreground font-heading">KIWA (Europa)</strong>
+                    <span className="block text-foreground font-heading font-semibold">KIWA (Europa)</span>
                     <span className="text-muted-foreground text-sm">Umfassende Zertifizierung für wasserführende Bauteile und Sanitärsysteme.</span>
                   </div>
                 </li>
@@ -80,7 +80,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
                     <Check className="w-4 h-4 text-primary" />
                   </div>
                   <div>
-                    <strong className="block text-foreground font-heading">WRAS (Großbritannien)</strong>
+                    <span className="block text-foreground font-heading font-semibold">WRAS (Großbritannien)</span>
                     <span className="text-muted-foreground text-sm">Bestätigt, dass das Material die Wasserqualität in Geschmack und Geruch nicht beeinträchtigt.</span>
                   </div>
                 </li>

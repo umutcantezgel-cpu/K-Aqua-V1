@@ -134,27 +134,37 @@ export function constructMetadata({
       const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
 
       // Step 1: Add PP-R context FIRST for short titles (before brand suffix)
-      if (finalTitle.length < 35 && !hasPPR) {
+      if (finalTitle.length < 25 && !hasPPR) {
           const pad = locale === 'de' ? " PP-R Rohrsysteme" : locale === 'ar' ? " أنظمة أنابيب PP-R" : " PP-R Piping";
           if (finalTitle.length + pad.length <= 50) {
               finalTitle += pad;
           }
       }
       
+      // Step 1b: For ultra-short titles that already have PP-R (e.g. "PP-R Muffe"), add descriptive context
+      if (finalTitle.length < 25 && hasPPR) {
+          const catPad = locale === 'de' ? ": Fitting für Rohrsysteme" : locale === 'ar' ? ": تركيب لأنظمة الأنابيب" : ": Fitting for Piping Systems";
+          if (finalTitle.length + catPad.length <= 50) {
+              finalTitle += catPad;
+          }
+      }
+      
       // Step 2: Add brand suffix last
+      // Use 58 chars as max to stay safely under 580px pixel width
+      const MAX_TITLE_CHARS = 58;
       let suffix = "";
       if (!hasBrand && !finalTitle.toLowerCase().includes("k-aqua")) {
           suffix = " | K-Aqua";
       }
       
-      if (finalTitle.length + suffix.length > 65) {
-          const availableSpace = 65 - suffix.length - 3;
+      if (finalTitle.length + suffix.length > MAX_TITLE_CHARS) {
+          const availableSpace = MAX_TITLE_CHARS - suffix.length - 3;
           if (availableSpace > 10) {
               finalTitle = finalTitle.substring(0, availableSpace).trim() + "...";
           }
       }
       
-      if (suffix && finalTitle.length + suffix.length <= 65) {
+      if (suffix && finalTitle.length + suffix.length <= MAX_TITLE_CHARS) {
           finalTitle += suffix;
       }
   }

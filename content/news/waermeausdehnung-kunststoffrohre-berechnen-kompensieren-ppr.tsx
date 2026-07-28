@@ -92,7 +92,7 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
         <div className="mt-4 flex items-start gap-3 text-sm text-muted-foreground bg-accent/30 p-4 rounded-xl">
           <Info className="w-5 h-5 text-primary shrink-0" />
           <p>
-            <strong>Ingenieurs-Tipp:</strong> Die Glasfaserschicht stoppt die Längenausdehnung nicht komplett, sondern reduziert sie. Die resultierenden, deutlich verringerten Ausdehnungskräfte müssen in der Montage dennoch durch korrekte Festpunkte gelenkt werden.
+            <span className="font-semibold">Ingenieurs-Tipp:</span> Die Glasfaserschicht stoppt die Längenausdehnung nicht komplett, sondern reduziert sie. Die resultierenden, deutlich verringerten Ausdehnungskräfte müssen in der Montage dennoch durch korrekte Festpunkte gelenkt werden.
           </p>
         </div>
       </Reveal>
@@ -105,10 +105,10 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
           </h3>
           <p className="text-muted-foreground leading-relaxed">
             Die mathematische Bestimmung der Ausdehnung in Rohrnetzen ist elementar. <br/><br/>
-            <strong>ΔL (Längenänderung in mm):</strong> Das Ergebnis, wie viel Länger das Rohr wird.<br/>
-            <strong>α (Längenausdehnungskoeffizient):</strong> Materialkonstante (z.B. 0,035 für PP-R/GF).<br/>
-            <strong>L (Rohrlänge in Metern):</strong> Die ungesicherte gerade Strecke zwischen Festpunkt und Richtungsänderung.<br/>
-            <strong>ΔT (Temperaturdifferenz in Kelvin):</strong> Differenz zwischen Montageumgebung (z.B. 15°C) und höchster (oder niedrigster) Wassertemperatur im Betrieb (z.B. 75°C). Ergibt ΔT = 60 K.
+            <span className="font-semibold">ΔL (Längenänderung in mm):</span> Das Ergebnis, wie viel Länger das Rohr wird.<br/>
+            <span className="font-semibold">α (Längenausdehnungskoeffizient):</span> Materialkonstante (z.B. 0,035 für PP-R/GF).<br/>
+            <span className="font-semibold">L (Rohrlänge in Metern):</span> Die ungesicherte gerade Strecke zwischen Festpunkt und Richtungsänderung.<br/>
+            <span className="font-semibold">ΔT (Temperaturdifferenz in Kelvin):</span> Differenz zwischen Montageumgebung (z.B. 15°C) und höchster (oder niedrigster) Wassertemperatur im Betrieb (z.B. 75°C). Ergibt ΔT = 60 K.
           </p>
         </div>
       </Reveal>

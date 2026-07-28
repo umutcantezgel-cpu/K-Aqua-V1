@@ -221,9 +221,9 @@ export default function ZipGameClient() {
           
           <div className="text-center flex flex-col items-center">
             <div className="flex items-center gap-2">
-              <h1 className="text-2xl font-black text-sky-600 uppercase tracking-widest">
+              <h2 className="text-2xl font-black text-sky-600 uppercase tracking-widest">
                 {"Z I P"}
-              </h1>
+              </h2>
               {streak > 0 && (
                 <div className="flex items-center gap-1 bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full text-xs font-bold border border-orange-200">
                   <Flame size={12} fill="currentColor" className="animate-pulse" />

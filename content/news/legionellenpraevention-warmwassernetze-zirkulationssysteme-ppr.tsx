@@ -63,10 +63,10 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           
           <h3>Die Brutstätte: Stagnation und kritische Temperaturen</h3>
           <p>
-            Legionellen sind in geringsten Konzentrationen natürlicher Bestandteil des Grundwassers. Gefährlich werden sie erst, wenn sie sich im Gebäude massenhaft vermehren. Dies geschieht vor allem dann, wenn zwei Faktoren zusammenkommen: <strong>Stagnation</strong> (stehendes Wasser) und <strong>lauwarme Temperaturen</strong> (zwischen 25 °C und 50 °C). 
+            Legionellen sind in geringsten Konzentrationen natürlicher Bestandteil des Grundwassers. Gefährlich werden sie erst, wenn sie sich im Gebäude massenhaft vermehren. Dies geschieht vor allem dann, wenn zwei Faktoren zusammenkommen: <span className="font-semibold">Stagnation</span> (stehendes Wasser) und <span className="font-semibold">lauwarme Temperaturen</span> (zwischen 25 °C und 50 °C). 
           </p>
           <p>
-            Das klassische Problem in Großgebäuden (Krankenhäuser, Hotels) sind die langen Wege vom zentralen Trinkwassererwärmer im Keller bis zur entferntesten Dusche im Dachgeschoss. Wenn in dieser langen Leitung das Wasser in der Nacht abkühlt und stagniert, entsteht eine ideale Brutstätte. Um dies zu verhindern, schreibt die Norm zwingend <strong>Zirkulationssysteme</strong> für Großanlagen vor.
+            Das klassische Problem in Großgebäuden (Krankenhäuser, Hotels) sind die langen Wege vom zentralen Trinkwassererwärmer im Keller bis zur entferntesten Dusche im Dachgeschoss. Wenn in dieser langen Leitung das Wasser in der Nacht abkühlt und stagniert, entsteht eine ideale Brutstätte. Um dies zu verhindern, schreibt die Norm zwingend <span className="font-semibold">Zirkulationssysteme</span> für Großanlagen vor.
           </p>
 
           <h3>Die Mechanik der Zirkulation</h3>
