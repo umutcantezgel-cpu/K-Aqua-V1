@@ -12,6 +12,10 @@ export default function DynamicSeoBlock({ locale }: { locale: string }) {
   const subRoute = pathParts[1] || '';
   const itemRoute = pathParts[2] || '';
 
+  // Generate a deterministic index (0-4) based on pathname characters
+  const charSum = pathname.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  const tplIdx = charSum % 5;
+
   const generateText = () => {
     const isDe = locale === 'de';
     const isAr = locale === 'ar';
@@ -20,107 +24,70 @@ export default function DynamicSeoBlock({ locale }: { locale: string }) {
     const ppr = "PP-R";
     const pprct = "PP-RCT";
     const piping = isDe ? "Rohrsysteme" : isAr ? "أنظمة أنابيب" : "Piping Systems";
-    const fittings = isDe ? "Fittings und Formteile" : isAr ? "تجهيزات ووصلات" : "Fittings and Connectors";
-    const welding = isDe ? "Schweißtechniken" : isAr ? "تقنيات لحام" : "Welding Techniques";
     
-    // Core keyword injection based on route
-    let routeKeywords = "";
-    if (mainRoute === "produkte") {
-      routeKeywords = isDe ? `Produkte, ${fittings}, ${piping}, K-Pipe, K-Fiber` 
-                    : isAr ? `المنتجات، ${fittings}، ${piping}، K-Pipe` 
-                    : `Products, ${fittings}, ${piping}, K-Pipe`;
-    } else if (mainRoute === "academy") {
-      routeKeywords = isDe ? `Academy, ${welding}, Fachwissen, Schulung, Zertifizierung` 
-                    : isAr ? `أكاديمية، ${welding}، الخبرة، التدريب` 
-                    : `Academy, ${welding}, Expertise, Training`;
-    } else if (mainRoute === "maerkte") {
-      routeKeywords = isDe ? `Märkte, globale Standorte, Vertriebsnetz, ${piping}` 
-                    : isAr ? `الأسواق، المواقع العالمية، شبكة المبيعات، ${piping}` 
-                    : `Markets, global locations, sales network, ${piping}`;
-    } else if (mainRoute === "unternehmen") {
-      routeKeywords = isDe ? `Unternehmen, KWT GmbH, Experten für Rohrherstellung, German Engineering` 
-                    : isAr ? `شركة KWT GmbH، خبراء تصنيع الأنابيب البلاستيكية، الهندسة الألمانية` 
-                    : `Company, KWT GmbH, Pipe manufacturing experts, German Engineering`;
-    } else if (mainRoute === "ressourcen") {
-      routeKeywords = isDe ? `Ressourcen, Ausschreibungstexte, Support, Downloads, ${piping}` 
-                    : isAr ? `الموارد، مواصفات العطاءات، الدعم، التنزيلات، ${piping}` 
-                    : `Resources, Tender Specifications, Support, Downloads, ${piping}`;
-    } else if (mainRoute === "datenschutz") {
-      routeKeywords = isDe ? `Datenschutzerklärung, DSGVO, Privatsphäre, ${piping}` 
-                    : isAr ? `سياسة الخصوصية، حماية البيانات، ${piping}` 
-                    : `Privacy Policy, GDPR, Data Protection, ${piping}`;
-    } else if (mainRoute === "trust-center") {
-      routeKeywords = isDe ? `Trust Center, Zertifikate, Sicherheit, ISO 9001` 
-                    : isAr ? `مركز الثقة، الشهادات، الأمان، ISO 9001` 
-                    : `Trust Center, Certificates, Security, ISO 9001`;
-    } else {
-      routeKeywords = isDe ? `${piping}, Infrastruktur, Wasserversorgung` 
-                    : isAr ? `${piping}، البنية التحتية، إمدادات المياه` 
-                    : `${piping}, Infrastructure, Water supply`;
-    }
+    // Convert path segments to natural keywords (to match H1 and Title)
+    const formatSegment = (seg) => seg.replace(/-/g, ' ').replace(/w/g, l => l.toUpperCase());
+    const kMain = formatSegment(mainRoute);
+    const kSub = subRoute ? formatSegment(subRoute) : '';
+    const kItem = itemRoute ? formatSegment(itemRoute) : '';
+    const focusKeyword = [kMain, kSub, kItem].filter(Boolean).join(" - ");
+    const h1Simulated = kItem || kSub || kMain || "K-Aqua";
 
-    const uniqueContext = `${mainRoute} ${subRoute} ${itemRoute}`.trim();
+    // Templates to prevent duplicate content flags
+    const templatesDe = [
+      `Dieses Modul unserer Website fokussiert sich auf ${focusKeyword}. Als Experte für ${ppr} und ${pprct} ${piping} legt ${kAqua} großen Wert auf höchste Standards. Die Lösung für ${h1Simulated} bietet überlegene Qualität. Egal ob Hochbau oder Industrie, unsere ${piping} überzeugen durch Langlebigkeit.`,
+      
+      `Erfahren Sie mehr über ${h1Simulated} und ${focusKeyword}. ${kAqua} ist weltweit führend in der Produktion von ${ppr} ${piping}. Wir garantieren bei jedem Projekt rund um ${h1Simulated} absolute Zuverlässigkeit. Innovation und Effizienz stehen bei unseren ${pprct}-Systemen im Mittelpunkt.`,
+      
+      `Im Bereich ${focusKeyword} bietet ${kAqua} maßgeschneiderte Lösungen. Unsere ${ppr} ${piping} sind speziell für anspruchsvolle Anwendungen konzipiert. Wenn es um ${h1Simulated} geht, vertrauen Experten auf unsere deutsche Ingenieurskunst und jahrzehntelange Erfahrung.`,
+      
+      `Detailinformationen zu ${h1Simulated} sowie ${focusKeyword}: ${kAqua} entwickelt hochmoderne ${pprct} ${piping}. Qualitätssicherung und technischer Fortschritt machen uns zum idealen Partner für Projekte im Bereich ${h1Simulated}. Wir setzen Standards in der Wasserversorgung.`,
+      
+      `Willkommen in der Sektion für ${focusKeyword}. Die ${kAqua} ${piping} aus ${ppr} setzen weltweite Maßstäbe. Speziell für Anforderungen rund um ${h1Simulated} bieten wir zertifizierte, sichere und langlebige Systemlösungen, die höchste Effizienz gewährleisten.`
+    ];
 
-    let block = "";
+    const templatesEn = [
+      `This module of our website focuses on ${focusKeyword}. As an expert in ${ppr} and ${pprct} ${piping}, ${kAqua} prioritizes the highest standards. The solution for ${h1Simulated} offers superior quality. Whether for building construction or industry, our ${piping} impress with durability.`,
+      
+      `Learn more about ${h1Simulated} and ${focusKeyword}. ${kAqua} is a global leader in the production of ${ppr} ${piping}. We guarantee absolute reliability for every project involving ${h1Simulated}. Innovation and efficiency are at the core of our ${pprct} systems.`,
+      
+      `In the field of ${focusKeyword}, ${kAqua} provides tailored solutions. Our ${ppr} ${piping} are specifically designed for demanding applications. When it comes to ${h1Simulated}, experts trust our German engineering and decades of experience.`,
+      
+      `Detailed information on ${h1Simulated} and ${focusKeyword}: ${kAqua} develops state-of-the-art ${pprct} ${piping}. Quality assurance and technical progress make us the ideal partner for projects in the ${h1Simulated} sector. We set standards in water supply.`,
+      
+      `Welcome to the section for ${focusKeyword}. The ${kAqua} ${piping} made of ${ppr} set global benchmarks. Specifically for requirements regarding ${h1Simulated}, we offer certified, secure, and long-lasting system solutions that ensure maximum efficiency.`
+    ];
+
+    const templatesAr = [
+      `يركز هذا الجزء من موقعنا على ${focusKeyword}. كخبير في ${piping} من ${ppr} و ${pprct}، تولي ${kAqua} الأولوية لأعلى المعايير. الحل لـ ${h1Simulated} يقدم جودة فائقة. سواء للبناء أو الصناعة، فإن ${piping} لدينا تثير الإعجاب بمتانتها.`,
+      
+      `تعرف على المزيد حول ${h1Simulated} و ${focusKeyword}. تعد ${kAqua} رائدة عالمياً في إنتاج ${piping} ${ppr}. نحن نضمن الموثوقية المطلقة لكل مشروع يتضمن ${h1Simulated}. الابتكار والكفاءة في صميم أنظمة ${pprct} لدينا.`,
+      
+      `في مجال ${focusKeyword}، توفر ${kAqua} حلولاً مخصصة. تم تصميم ${piping} ${ppr} خصيصاً للتطبيقات الصعبة. عندما يتعلق الأمر بـ ${h1Simulated}، يثق الخبراء في هندستنا الألمانية وخبرتنا التي تمتد لعقود.`,
+      
+      `معلومات مفصلة حول ${h1Simulated} و ${focusKeyword}: تقوم ${kAqua} بتطوير ${piping} ${pprct} متطورة. ضمان الجودة والتقدم التقني يجعلنا الشريك المثالي للمشاريع في قطاع ${h1Simulated}. نحن نضع المعايير في إمدادات المياه.`,
+      
+      `مرحباً بكم في قسم ${focusKeyword}. تضع ${piping} ${kAqua} المصنوعة من ${ppr} معايير عالمية. خصيصاً لمتطلبات ${h1Simulated}، نقدم حلول أنظمة معتمدة وآمنة وطويلة الأمد تضمن أقصى قدر من الكفاءة.`
+    ];
+
+    const targetTemplates = isDe ? templatesDe : isAr ? templatesAr : templatesEn;
+    const baseText = targetTemplates[tplIdx];
     
-    if (isDe) {
-      block = `Dieser Bereich der ${kAqua} Website befasst sich spezifisch mit dem Thema ${uniqueContext}. 
-      Als international anerkannter Hersteller von ${ppr} und ${pprct} ${piping} legen wir größten Wert darauf, 
-      dass alle Informationen rund um ${routeKeywords} transparent und präzise zur Verfügung stehen. 
-      Die KWT GmbH steht für kompromisslose Qualität in der Rohrherstellung und im Bereich ${fittings}. 
-      Unsere ${piping} werden weltweit in anspruchsvollen Projekten eingesetzt. 
-      Egal ob es um komplexe Industrieanlagen, den Hochbau oder die Trinkwasserversorgung geht, 
-      die ${welding} und das technische Fachwissen, das wir in unserer Academy vermitteln, 
-      bilden das Fundament für sichere und langlebige Installationen. 
-      In der Kategorie ${uniqueContext} finden Planer, Ingenieure und Installateure genau die Daten, 
-      die sie für ihre tägliche Arbeit benötigen. Offizielle Ausschreibungstexte, Zertifikate aus unserem Trust Center 
-      und detaillierte technische Datenblätter sind fester Bestandteil unserer Dokumentation für ${ppr} ${piping}. 
-      Darüber hinaus garantieren wir höchste Standards bei Datenschutz und Sicherheit, 
-      wie in unserer Datenschutzerklärung verankert. Vertrauen Sie auf K-Aqua und unser globales Netzwerk an Standorten und Märkten.`;
-    } else if (isAr) {
-      block = `يختص هذا القسم من موقع ${kAqua} بموضوع ${uniqueContext}. 
-      بصفتنا شركة عالمية رائدة في تصنيع ${piping} من مواد ${ppr} و ${pprct}، 
-      نحن نضمن توفير جميع المعلومات المتعلقة بـ ${routeKeywords} بشفافية ودقة. 
-      تمثل شركة KWT GmbH الجودة التي لا تقبل المساومة في تصنيع الأنابيب و ${fittings}. 
-      تُستخدم ${piping} الخاصة بنا في جميع أنحاء العالم في المشاريع الأكثر تطلبًا. 
-      سواء تعلق الأمر بالمنشآت الصناعية المعقدة، أو المباني الشاهقة، أو إمدادات مياه الشرب، 
-      فإن ${welding} والخبرة الفنية التي نقدمها تشكل الأساس لتركيبات آمنة وطويلة الأمد. 
-      في قسم ${uniqueContext}، يجد المخططون والمهندسون والمقاولون البيانات الدقيقة التي يحتاجونها لعملهم اليومي. 
-      تعد مواصفات العطاءات الرسمية والشهادات من مركز الثقة الخاص بنا وبيانات المنتجات الفنية التفصيلية 
-      جزءًا لا يتجزأ من وثائقنا الخاصة بـ ${piping} ${ppr}. 
-      بالإضافة إلى ذلك، نضمن أعلى المعايير في سياسة الخصوصية وحماية البيانات والأمان. 
-      اعتمد على K-Aqua وشبكتنا العالمية من المواقع والأسواق لنجاح مشروعك القادم.`;
-    } else {
-      block = `This section of the ${kAqua} website is specifically dedicated to ${uniqueContext}. 
-      As an internationally recognized manufacturer of ${ppr} and ${pprct} ${piping}, 
-      we place the highest priority on ensuring that all information regarding ${routeKeywords} is available transparently and precisely. 
-      KWT GmbH stands for uncompromising quality in pipe manufacturing and ${fittings}. 
-      Our ${piping} are used worldwide in the most demanding projects. 
-      Whether for complex industrial plants, high-rise construction, or drinking water supply, 
-      the ${welding} and technical expertise we provide form the foundation for secure and long-lasting installations. 
-      In the ${uniqueContext} category, planners, engineers, and installers will find exactly the data they need for their daily work. 
-      Official tender specifications, certificates from our Trust Center, and detailed technical data sheets 
-      are an integral part of our documentation for ${ppr} ${piping}. 
-      Furthermore, we guarantee the highest standards in privacy policy and data security. 
-      Trust in K-Aqua and our global network of locations and markets.`;
-    }
-
-    return `
-      ${block}
-      
-      ${isDe ? 'Zusätzliche Informationen zu' : isAr ? 'معلومات إضافية حول' : 'Additional information regarding'} ${uniqueContext}:
-      ${block.replace(kAqua, 'KWT GmbH')}
-      
-      ${isDe ? 'Technische Spezifikationen und' : isAr ? 'المواصفات الفنية و' : 'Technical specifications and'} ${routeKeywords}:
-      ${block.replace(ppr, 'Polypropylen Random-Copolymer')}
-    `;
+    // We split into paragraphs to satisfy "Textblöcke" requirements natively
+    return (
+      <div className="flex flex-col gap-4">
+        <p>{baseText}</p>
+        <p>{isDe ? "Weitere technische Details zu" : isAr ? "مزيد من التفاصيل الفنية حول" : "Further technical details on"} {h1Simulated} {isDe ? "sind in unseren Datenblättern verfügbar." : isAr ? "متوفرة في أوراق البيانات لدينا." : "are available in our data sheets."}</p>
+        <p>{isDe ? "K-Aqua steht für Zertifizierungen und höchste Qualität im Bereich" : isAr ? "تمثل K-Aqua الشهادات وأعلى جودة في مجال" : "K-Aqua stands for certifications and highest quality in"} {focusKeyword}.</p>
+      </div>
+    );
   };
 
   return (
     <div className="w-full bg-[#050505] pb-8">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 text-[11px] text-white/30 leading-relaxed text-justify opacity-80 hover:opacity-100 transition-opacity duration-500">
-        <p className="mb-2 font-medium">Technischer Hintergrund & Kontext</p>
-        <p>{generateText()}</p>
+        <p className="mb-2 font-medium">SEO & Context: {mainRoute}</p>
+        {generateText()}
       </div>
     </div>
   );
