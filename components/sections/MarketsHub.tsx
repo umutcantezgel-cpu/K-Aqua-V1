@@ -257,7 +257,7 @@ export default function MarketsHub({
                   >
                     <div className="flex w-full items-center justify-between">
                       <div className="flex flex-col">
-                        <span className="font-heading font-bold text-[17px] text-foreground">{g.city}</span>
+                        <Link href={`/maerkte/${g.hubSlug}/${g.slug}`} className="font-heading font-bold text-[17px] text-foreground hover:text-primary transition-colors relative z-10" onClick={(e) => e.stopPropagation()}>{g.city}</Link>
                         <span className="text-[13px] text-muted-foreground">
                           <Link 
                             href={`/maerkte/${g.hubSlug}`} 
