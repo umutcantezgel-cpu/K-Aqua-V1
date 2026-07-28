@@ -13,9 +13,9 @@ import { Link as NavLink } from "@/lib/i18n/navigation";
 export const lebensmittelindustrieHygiene: NewsPost = {
   slug: "lebensmittelindustrie-rohrleitungen-hygiene-ktw-fda-ppr",
   title: {
-    de: "Lebensmittelindustrie: PPR Rohrsysteme",
-    en: "Food Industry: PPR Pipe Systems",
-    ar: "صناعة الأغذية: أنظمة أنابيب PPR"
+    de: "Lebensmittelindustrie: Hygiene-Rohrleitungen",
+    en: "Food Industry: Hygienic Piping",
+    ar: "صناعة الأغذية: أنابيب صحية"
   },
   date: "2024-11-20",
   teaser: {
