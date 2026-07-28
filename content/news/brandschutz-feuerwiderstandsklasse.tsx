@@ -74,7 +74,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
 
             <h3>Die Gefahr des brennenden Abtropfens</h3>
             <p>
-              Viele konventionelle Kunststoffe weisen im Brandfall eine fatale Eigenschaft auf: Sie schmelzen und tropfen brennend ab. Diese flammenden Tropfen können sekundäre Brände in tiefer liegenden Geschossen auslösen oder Flüchtende schwer verletzen. K Aqua PP-R ist so modifiziert, dass es im Brandfall zwar erweicht und schmilzt, jedoch ausdrücklich <strong>nicht brennend abtropft</strong>. Die molekulare Integrität bleibt so lange wie physikalisch möglich erhalten, und das Material verkohlt, anstatt flüssiges Feuer zu regnen.
+              Viele konventionelle Kunststoffe weisen im Brandfall eine fatale Eigenschaft auf: Sie schmelzen und tropfen brennend ab. Diese flammenden Tropfen können sekundäre Brände in tiefer liegenden Geschossen auslösen oder Flüchtende schwer verletzen. K Aqua PP-R ist so modifiziert, dass es im Brandfall zwar erweicht und schmilzt, jedoch ausdrücklich <span className="font-semibold">nicht brennend abtropft</span>. Die molekulare Integrität bleibt so lange wie physikalisch möglich erhalten, und das Material verkohlt, anstatt flüssiges Feuer zu regnen.
             </p>
 
             <h3>Halogenfreiheit: Die unsichtbare, aber tödliche Gefahr</h3>
@@ -82,7 +82,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
               Statistiken belegen erschreckend deutlich: Bei Gebäudebränden sterben die meisten Menschen nicht durch die Flammen selbst, sondern durch toxische Rauchgase. Kunststoffe wie PVC (Polyvinylchlorid) enthalten Halogene (wie Chlor). Wenn PVC verbrennt, reagiert das Chlor mit dem Wasser in der Luft (oder dem Löschwasser) zu hochgiftigem Chlorwasserstoffgas (Salzsäuregas). Dieses Gas verätzt sofort die Atemwege der Opfer. Darüber hinaus greift die korrosive Salzsäure die Gebäudestruktur, Betonarmierungen und empfindliche elektronische Geräte massiv an, was zu enormen Folgeschäden führt.
             </p>
             <p>
-              K Aqua PP-R Rohrsysteme bestehen ausschließlich aus Kohlenstoff und Wasserstoff. Sie sind zu <strong>100 % halogenfrei</strong>. Im Brandfall entstehen bei der Verbrennung von PP-R lediglich Kohlendioxid und Wasserdampf, genau wie bei der Verbrennung von Holz oder Wachs. Es werden keine toxischen Dioxine oder korrosiven Säuregase freigesetzt. Dies bietet den Evakuierenden wertvolle zusätzliche Minuten und schützt die Gesundheit der Rettungskräfte. Zudem wird die Rauchentwicklung auf ein absolutes Minimum reduziert, was die Sicht auf Fluchtwegen drastisch verbessert.
+              K Aqua PP-R Rohrsysteme bestehen ausschließlich aus Kohlenstoff und Wasserstoff. Sie sind zu <span className="font-semibold">100 % halogenfrei</span>. Im Brandfall entstehen bei der Verbrennung von PP-R lediglich Kohlendioxid und Wasserdampf, genau wie bei der Verbrennung von Holz oder Wachs. Es werden keine toxischen Dioxine oder korrosiven Säuregase freigesetzt. Dies bietet den Evakuierenden wertvolle zusätzliche Minuten und schützt die Gesundheit der Rettungskräfte. Zudem wird die Rauchentwicklung auf ein absolutes Minimum reduziert, was die Sicht auf Fluchtwegen drastisch verbessert.
             </p>
 
             <h3>Sicherheit schon bei der Installation: Keine "Hot Works"</h3>

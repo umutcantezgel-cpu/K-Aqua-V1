@@ -55,6 +55,14 @@ export default function SeoHiddenSitemap() {
         <li><Link href="/kontakt">Kontakt zu K-Aqua</Link></li>
         <li><Link href="/ressourcen/ausschreibungstexte">Ausschreibungstexte für PP-R</Link></li>
         <li><Link href="/ressourcen/support">Technischer Support</Link></li>
+        {/* Product Categories */}
+        <li><Link href="/produkte/pipes">PP-R und PP-RCT Rohre</Link></li>
+        <li><Link href="/produkte/fittings">PP-R Formteile und Fittings</Link></li>
+        <li><Link href="/produkte/valves">PP-R Armaturen und Ventile</Link></li>
+        <li><Link href="/produkte/tools">Werkzeuge für PP-R Rohrsysteme</Link></li>
+        <li><Link href="/produkte/transition-fittings">PP-R Übergangsformteile</Link></li>
+        <li><Link href="/produkte/weld-in-saddles">PP-R Einschweißsattel</Link></li>
+        <li><Link href="/produkte/accessories">PP-R Zubehör und Ersatzteile</Link></li>
         {/* Products */}
         {products.map(p => {
           if (variantSlugs.has(p.slug)) return null;

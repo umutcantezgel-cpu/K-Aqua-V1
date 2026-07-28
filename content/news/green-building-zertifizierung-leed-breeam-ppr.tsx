@@ -67,9 +67,9 @@ export const greenBuildingZertifizierung: NewsPost = {
             LEED ist das weltweit am häufigsten verwendete Zertifizierungssystem für umweltfreundliches Bauen. Entwickelt vom U.S. Green Building Council (USGBC), bewertet es Gebäude in verschiedenen Kategorien. K Aqua PP-R Rohrsysteme tragen maßgeblich in folgenden Kategorien bei:
           </p>
           <ul className="list-disc pl-6 mt-4 mb-4">
-            <li><strong>Materials and Resources (MR):</strong> Hier werden Punkte für die Verwendung von Materialien mit transparenten Umweltproduktdeklarationen (EPDs) vergeben. Die Bereitstellung von produktspezifischen EPDs durch K Aqua erleichtert Planern den Nachweis der Umweltwirkungen.</li>
-            <li><strong>Water Efficiency (WE):</strong> Die absolute Leckagesicherheit durch homogene Schweißverbindungen und die Verhinderung von Rohrbrüchen minimieren Wasserverluste und sichern dauerhaft den effizienten Umgang mit der Ressource Wasser.</li>
-            <li><strong>Energy and Atmosphere (EA):</strong> Die geringe Wärmeleitfähigkeit von PP-R (0,24 W/mK) reduziert Wärmeverluste in Warmwassersystemen und trägt somit zur Steigerung der Gesamtenergieeffizienz des Gebäudes bei.</li>
+            <li><span className="font-semibold">Materials and Resources (MR):</span> Hier werden Punkte für die Verwendung von Materialien mit transparenten Umweltproduktdeklarationen (EPDs) vergeben. Die Bereitstellung von produktspezifischen EPDs durch K Aqua erleichtert Planern den Nachweis der Umweltwirkungen.</li>
+            <li><span className="font-semibold">Water Efficiency (WE):</span> Die absolute Leckagesicherheit durch homogene Schweißverbindungen und die Verhinderung von Rohrbrüchen minimieren Wasserverluste und sichern dauerhaft den effizienten Umgang mit der Ressource Wasser.</li>
+            <li><span className="font-semibold">Energy and Atmosphere (EA):</span> Die geringe Wärmeleitfähigkeit von PP-R (0,24 W/mK) reduziert Wärmeverluste in Warmwassersystemen und trägt somit zur Steigerung der Gesamtenergieeffizienz des Gebäudes bei.</li>
           </ul>
 
           <h3 className="text-xl font-semibold text-foreground mt-8">BREEAM (Building Research Establishment Environmental Assessment Methodology)</h3>

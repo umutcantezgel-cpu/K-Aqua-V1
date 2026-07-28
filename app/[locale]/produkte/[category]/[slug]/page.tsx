@@ -119,7 +119,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isVariant = canonicalSlug !== slug;
 
   return constructMetadata({
-    title: `${finalTitle} | K-Aqua`,
+    title: finalTitle,
     description: finalDesc,
     path: `/produkte/${category}/${canonicalSlug}`,
     locale,

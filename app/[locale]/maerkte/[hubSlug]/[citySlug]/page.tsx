@@ -37,10 +37,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const localizedWater = geoContentTrans[citySlug]?.water || market.water || "";
   const localizedFocus = geoContentTrans[citySlug]?.focus || market.focus || [];
   
-  // SEO-optimized title with target keywords
+  // SEO-optimized title with target keywords — keep concise for 580px pixel limit
   const baseTitle = tGeo("cityMetaTitle", { city: market.city });
-  const focusTitleStr = localizedFocus.length > 0 ? ` | ${localizedFocus[0]}` : "";
-  const title = `${baseTitle}${focusTitleStr}`;
+  // Focus/use-case is preserved in description, not in title (to avoid >580px)
+  const title = baseTitle;
   
   // Place the highly unique water profile string at the beginning to prevent 
   // "Duplicate Meta Description" flags from Seobility.

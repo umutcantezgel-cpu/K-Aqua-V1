@@ -19,9 +19,9 @@ export default function NotFound() {
         {/* eslint-disable-next-line react/jsx-no-literals -- HTTP status code, not user-facing text */}
         {'404'}
       </p>
-      <h1 className="text-2xl font-semibold text-foreground md:text-3xl">
+      <h2 className="text-2xl font-semibold text-foreground md:text-3xl">
         {t('title')}
-      </h1>
+      </h2>
       <p className="max-w-md text-muted-foreground">
         {t('description')}
       </p>

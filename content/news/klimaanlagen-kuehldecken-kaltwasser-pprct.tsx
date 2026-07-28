@@ -57,7 +57,7 @@ export const klimaanlagenKuehldecken: NewsPost = {
             Die Klimatechnik steht stets vor einem grundlegenden physikalischen Problem. Die Luft in einem Gebäude, insbesondere an schwülen Sommertagen oder in stark belegten Konferenzräumen, enthält hohe Mengen an unsichtbarem Wasserdampf. Sobald diese feuchtwarme Raumluft auf eine kühle Oberfläche trifft, beispielsweise auf das ungedämmte Verteilrohr einer Kältemaschine (Chiller), durch das 6 °C kaltes Wasser fließt, kühlt sich die Luft schlagartig ab. Da kalte Luft wesentlich weniger Wasserdampf speichern kann als warme, überschreitet die Luft ihren Sättigungsgrad. Die überschüssige Feuchtigkeit schlägt sich unmittelbar als flüssiges Kondensat (Schwitzwasser) auf der kalten Rohroberfläche nieder.
           </p>
           <p className="mb-4">
-            Genau diesen Moment bezeichnet man als <strong>Unterschreitung des Taupunkts</strong>. Um dies zu verhindern, müssen Kaltwasserleitungen mit einer extrem diffusionsdichten Isolierung (z. B. aus Kautschuk) ummantelt werden, die das Rohr vollständig von der Raumluft abschirmt.
+            Genau diesen Moment bezeichnet man als <span className="font-semibold">Unterschreitung des Taupunkts</span>. Um dies zu verhindern, müssen Kaltwasserleitungen mit einer extrem diffusionsdichten Isolierung (z. B. aus Kautschuk) ummantelt werden, die das Rohr vollständig von der Raumluft abschirmt.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-8 mb-3">Die fatale Gefahr der Korrosion unter der Dämmung (CUI)</h3>
@@ -68,7 +68,7 @@ export const klimaanlagenKuehldecken: NewsPost = {
             Für ein Stahlrohr ist dies das Todesurteil. Das dauerhaft stehende, sauerstoffreiche Wasser unter der Dämmung leitet einen aggressiven Rostprozess ein, die gefürchtete <em>Corrosion Under Insulation (CUI)</em>. Da der Rostprozess unter der schwarzen Isolierung im Verborgenen stattfindet, wird das Problem oft erst Jahre später entdeckt, wenn das Rohr bei hohem Anlagendruck schlagartig platzt und das Gebäude flutet.
           </p>
           <p className="mb-4">
-            Mit <strong>K-Aqua PPRCT-Rohren</strong> (wie der K-Faser Serie) gehört dieses Risiko endgültig der Vergangenheit an. Polypropylen ist ein inerter, nicht-metallischer Werkstoff. Er reagiert nicht mit Wasser oder Sauerstoff. Selbst wenn die Isolierung beschädigt ist und sich Schwitzwasser auf dem PPRCT-Rohr bildet, kann das Material nicht oxidieren. Das Rohr rostet nicht, es behält seine volle Wandstärke und die Integrität des Kühlsystems bleibt über Jahrzehnte unangetastet.
+            Mit <span className="font-semibold">K-Aqua PPRCT-Rohren</span> (wie der K-Faser Serie) gehört dieses Risiko endgültig der Vergangenheit an. Polypropylen ist ein inerter, nicht-metallischer Werkstoff. Er reagiert nicht mit Wasser oder Sauerstoff. Selbst wenn die Isolierung beschädigt ist und sich Schwitzwasser auf dem PPRCT-Rohr bildet, kann das Material nicht oxidieren. Das Rohr rostet nicht, es behält seine volle Wandstärke und die Integrität des Kühlsystems bleibt über Jahrzehnte unangetastet.
           </p>
 
           <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die natürliche Eigendämmung spart wertvollen Bauplatz</h4>
