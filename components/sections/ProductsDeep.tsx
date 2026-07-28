@@ -71,7 +71,7 @@ export function ProductsDeep() {
                     else if (tg.includes("d")) label = "Dimension";
                     return { label, value: tg };
                   })}
-                  cta={t("pipesCta") || "Details ansehen"}
+                  cta={t("pipesCta") || "Produktsystem entdecken"}
                   href={`/produkte`}
                 />
               </Reveal>

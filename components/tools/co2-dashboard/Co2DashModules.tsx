@@ -11,7 +11,7 @@ export function BreakEvenCard({ breakEven, savings, oppLabel, horizon, diffPoint
       <div className="co2-mod-head"><span>Break-even</span><Icons.Check size={14} /></div>
       <div className="co2-mod-big">{breakEven ? (breakEven.year === 0 ? 'Vom ersten Tag an vorn' : `Ab Jahr ${breakEven.year} vorn`) : `Kein Vorsprung in ${horizon} J.`}</div>
       <MiniSparkline points={diffPoints} color="var(--primary)" width={190} height={30}></MiniSparkline>
-      <p className="co2-mod-note">Vorsprung nach {horizon} Jahren vs. {oppLabel}: <strong>{fmt(anim)}</strong></p>
+      <p className="co2-mod-note">Vorsprung nach {horizon} Jahren vs. {oppLabel}: <span className="font-semibold">{fmt(anim)}</span></p>
     </div>
   );
 }
@@ -86,7 +86,7 @@ export function RegionTiles({ ctx, opponentId, horizon, currentId, onPick, fmt }
       {tiles.map((t) => (
         <button key={t.rg.id} type="button" className={`co2-region-tile ${currentId === t.rg.id ? 'is-active' : ''}`} onClick={() => onPick(t.rg.id)} title="Klick übernimmt die Region">
           <span>{t.rg.label}</span>
-          <strong>{fmt(Math.max(0, t.savings))}</strong>
+          <span className="font-semibold">{fmt(Math.max(0, t.savings))}</span>
           <MiniSparkline points={t.diff} color="var(--accent-strong)" width={110} height={20}></MiniSparkline>
         </button>
       ))}
@@ -101,10 +101,10 @@ export function LifecycleFeed({ events, horizon, onHoverYear, fmt }: any) {
         <div className="co2-feed-row" key={i} onMouseEnter={() => onHoverYear(ev.year)}>
           <span className="co2-feed-year">J {ev.year}</span>
           <span className="co2-feed-label"><i style={{ background: ev.color }}></i>{ev.materialLabel} · {ev.label}</span>
-          <strong>{fmt(ev.value)}</strong>
+          <span className="font-semibold">{fmt(ev.value)}</span>
         </div>
       ))}
-      <div className="co2-feed-row is-end"><span className="co2-feed-year">J {horizon}</span><span className="co2-feed-label">Ende Betrachtungszeitraum</span><strong></strong></div>
+      <div className="co2-feed-row is-end"><span className="co2-feed-year">J {horizon}</span><span className="co2-feed-label">Ende Betrachtungszeitraum</span><span className="font-semibold"></span></div>
     </div>
   );
 }
@@ -153,12 +153,12 @@ export function MaterialDrawer({ result, horizon, onClose, fmt }: any) {
             })}
           </svg>
           <div className="co2-donut-side">
-            <strong>{fmt(result.grandTotal)}</strong>
+            <span className="font-semibold">{fmt(result.grandTotal)}</span>
             <span>über {horizon} Jahre · {result.replacements}× Ersatz</span>
           </div>
         </div>
         <div className="co2-drawer-sec">Modellfaktoren</div>
-        <div className="co2-facts">{facts.map((f) => <React.Fragment key={f[0]}><span>{f[0]}</span><strong>{f[1]}</strong></React.Fragment>)}</div>
+        <div className="co2-facts">{facts.map((f) => <React.Fragment key={f[0]}><span>{f[0]}</span><span className="font-semibold">{f[1]}</span></React.Fragment>)}</div>
         <div className="co2-drawer-sec">Druckverlust-Verlauf über 40 Jahre (DN 110, 3 l/s)</div>
         <MiniSparkline points={aging} color={m.color} width={340} height={40}></MiniSparkline>
         <p className="co2-mod-note">Pa/m nach Darcy-Weisbach/Swamee-Jain mit alternder Rauheit k(t): Kunststoff bleibt glatt, Metall inkrustiert. {CO2_DISCLAIMER}</p>
@@ -189,7 +189,7 @@ export function Co2Coachmarks() {
   function done() { try { localStorage.setItem('kaqua-co2-coach-v1', '1'); } catch (e) {} setStep(null); }
   return (
     <div className="co2-coach" role="note">
-      <strong>{step + 1}/3 · {s.t}</strong>
+      <span className="font-semibold">{step + 1}/3 · {s.t}</span>
       <p>{s.d}</p>
       <div className="co2-coach-actions">
         <button type="button" className="co2-mini-btn" onClick={done}>Überspringen</button>

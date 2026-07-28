@@ -16,10 +16,10 @@ export function Co2Scenarios({ paramsNow, scenarios, setScenarios, overlayIds, s
     <div className="co2-scn">
       <div className="co2-scn-row is-now">
         <div>
-          <strong>Aktueller Stand</strong>
+          <span className="font-semibold">Aktueller Stand</span>
           <span className="co2-scn-chips">{describe(paramsNow)}</span>
         </div>
-        <div className="co2-scn-val"><strong>{fmt(now.savings)}</strong><small>Ersparnis vs. {now.oppLabel}</small></div>
+        <div className="co2-scn-val"><span className="font-semibold">{fmt(now.savings)}</span><small>Ersparnis vs. {now.oppLabel}</small></div>
       </div>
       <div className="co2-scn-new">
         <input type="text" className="co2-inp" value={name} placeholder="Name, z. B. Variante Ausschreibung" maxLength={40}
@@ -36,10 +36,10 @@ export function Co2Scenarios({ paramsNow, scenarios, setScenarios, overlayIds, s
             return (
               <div className="co2-scn-row" key={sc.id}>
                 <div>
-                  <strong>{sc.name} <small>· {sc.savedAt}</small></strong>
+                  <span className="font-semibold">{sc.name} <small>· {sc.savedAt}</small></span>
                   <span className="co2-scn-chips">{describe(sc.params)}</span>
                 </div>
-                <div className="co2-scn-val"><strong>{fmt(s.savings)}</strong><small>vs. {s.oppLabel}</small></div>
+                <div className="co2-scn-val"><span className="font-semibold">{fmt(s.savings)}</span><small>vs. {s.oppLabel}</small></div>
                 <div className="co2-scn-actions">
                   <button type="button" className={`co2-mini-btn ${ov ? 'is-on' : ''}`} aria-pressed={ov} onClick={() => toggleOverlay(sc.id)} title="Als gestrichelte Kurven im Chart überlagern (max. 2)">Overlay</button>
                   <button type="button" className="co2-mini-btn" onClick={() => onApply(sc.params)} title="Parameter in die Regler übernehmen">Laden</button>

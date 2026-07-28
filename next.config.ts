@@ -424,6 +424,16 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        // Edge-cache HTML pages to reduce TTFB / response time
+        source: '/:locale(de|en|ar)/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, s-maxage=3600, stale-while-revalidate=86400',
+          },
+        ],
+      },
     ];
   },
 };

@@ -207,12 +207,12 @@ export default function Career({ careerData }: CareerProps) {
                 </span>
                 <p className="text-body text-muted-foreground leading-relaxed text-wrap-pretty">
                   {careerData.resultNote1}{" "}
-                  <strong className="text-foreground">
+                  <span className="font-semibold text-foreground">
                     {careerData.resultNote2.replace(
                       "{n}",
                       formatNum(bruttoEquivalent)
                     )}
-                  </strong>{" "}
+                  </span>{" "}
                   {careerData.resultNote3}
                   <br />
                   <span className="text-small mt-2 block opacity-80">

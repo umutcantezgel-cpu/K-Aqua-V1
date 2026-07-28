@@ -11,10 +11,15 @@ import { setRequestLocale } from 'next-intl/server';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: 'products.transitionFittings.meta' });
+  const titles: Record<string, [string, string]> = {
+    de: ['PP-R Übergangsformteile: Metall-Kunststoff-Verbindungen', 'K-Aqua PP-R Übergangsformteile für sichere Verbindungen zwischen Metall- und Kunststoffrohren. Messing und Edelstahl.'],
+    en: ['PP-R Transition Fittings: Metal-to-Plastic Connections', 'K-Aqua PP-R transition fittings for secure metal-to-plastic pipe connections. Brass and stainless steel.'],
+    ar: ['تركيبات انتقالية PP-R: وصلات المعدن بالبلاستيك', 'تركيبات انتقالية PP-R من K-Aqua لتوصيلات آمنة بين الأنابيب المعدنية والبلاستيكية. نحاس وفولاذ مقاوم للصدأ.']
+  };
+  const [title, description] = titles[locale] || titles['en'];
   return constructMetadata({
-    title: t('title'),
-    description: t('desc'),
+    title,
+    description,
     path: "/produkte/transition-fittings",
     locale,
   });

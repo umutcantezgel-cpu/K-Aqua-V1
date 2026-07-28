@@ -132,6 +132,7 @@ export function Academy({ data }: AcademyProps) {
       {/* Videos Section */}
       <section className="py-16 border-b border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
+          <h2 className="sr-only">Schulungsvideos und Anleitungen</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {data.videos.map((video, idx) => {
               const asset = VIDEO_ASSETS[idx] || VIDEO_ASSETS[0];

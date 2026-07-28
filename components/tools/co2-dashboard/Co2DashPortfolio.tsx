@@ -24,9 +24,9 @@ export function Co2Portfolio({ rows, setRows, usePortfolio, setUsePortfolio, def
         <button type="button" className="co2-play-btn" onClick={add}><Icons.ArrowRight size={14} />Strang hinzufügen</button>
         <button type="button" className={`k-filter-chip ${usePortfolio ? 'is-on' : ''}`} aria-pressed={usePortfolio} onClick={() => setUsePortfolio(!usePortfolio)} disabled={on.length === 0}
           title="Aggregiert die aktiven Stränge in Kopfzeile, Chart und Aufschlüsselung">Portfolio speist Übersicht</button>
-        <div className="dash-kpi"><Icons.Ruler size={15} /><span>Aktiv</span><strong>{on.length} / {rows.length}</strong></div>
-        <div className="dash-kpi"><Icons.MapPin size={15} /><span>Gesamtlänge</span><strong>{totalKm.toLocaleString('de-DE', { maximumFractionDigits: 1 })} km</strong></div>
-        <div className="dash-kpi"><Icons.Leaf size={15} /><span>Ersparnis gesamt</span><strong>{fmt(Math.max(0, totalSav))}</strong></div>
+        <div className="dash-kpi"><Icons.Ruler size={15} /><span>Aktiv</span><span className="font-semibold">{on.length} / {rows.length}</span></div>
+        <div className="dash-kpi"><Icons.MapPin size={15} /><span>Gesamtlänge</span><span className="font-semibold">{totalKm.toLocaleString('de-DE', { maximumFractionDigits: 1 })} km</span></div>
+        <div className="dash-kpi"><Icons.Leaf size={15} /><span>Ersparnis gesamt</span><span className="font-semibold">{fmt(Math.max(0, totalSav))}</span></div>
       </div>
       {rows.length === 0 ? (
         <p className="co2-mod-note">Noch keine Stränge. Jede Zeile ist eine eigene Trasse (Name, Länge, Nennweite, SDR). Die Checkbox nimmt sie in die Aggregation auf. Region, Betriebsart, Transport und Durchfluss kommen aus der Seitenleiste.</p>
@@ -50,7 +50,7 @@ export function Co2Portfolio({ rows, setRows, usePortfolio, setUsePortfolio, def
                     {CO2_SDR_CLASSES.map((s) => <option key={s} value={s}>SDR {String(s).replace('.', ',')}</option>)}
                   </select><Icons.ChevronDown size={14} />
                 </div>
-                <span className="co2-pf-val"><MiniSparkline points={c.spark} color="var(--primary)" width={64} height={22}></MiniSparkline><strong>{fmt(Math.max(0, c.savings))}</strong></span>
+                <span className="co2-pf-val"><MiniSparkline points={c.spark} color="var(--primary)" width={64} height={22}></MiniSparkline><span className="font-semibold">{fmt(Math.max(0, c.savings))}</span></span>
                 <button type="button" className="co2-mini-btn is-danger" onClick={() => setRows(rows.filter((x: any) => x.id !== r.id))} aria-label={`${r.name} löschen`}><Icons.X size={13} /></button>
               </div>
             );

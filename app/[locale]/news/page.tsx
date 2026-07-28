@@ -92,7 +92,7 @@ export default async function NewsPage({ params }: Props) {
                           <Check className="w-5 h-5" />
                         </span>
                         <span className="text-body leading-normal">
-                          <strong className="text-foreground font-semibold">{code}</strong>
+                          <span className="text-foreground font-semibold">{code}</span>
                           {DASH}
                           {label}
                         </span>

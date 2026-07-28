@@ -241,27 +241,7 @@ export default function Header() {
         </div>
       </header>
 
-      {/* SEO Navigation (Always rendered in DOM, visually hidden) */}
-      <nav data-nosnippet="true" className="sr-only" aria-label="Sitemap">
-        <ul>
-          <li><Link href="/">{t('home')}</Link></li>
-          <li><Link href="/produkte">{t('products')}</Link></li>
-          <li><Link href="/produkte/finder">{t('finder')}</Link></li>
-          <li><Link href="/co2-rechner">{t('co2')}</Link></li>
-          <li><Link href="/projektanfrage">{t('quote')}</Link></li>
-          <li><Link href="/loesungen">{t('solutions')}</Link></li>
-          <li><Link href="/academy">{t('academy')}</Link></li>
-          <li><Link href="/trust-center">{t('trust')}</Link></li>
-          <li><Link href="/service">{t('service')}</Link></li>
-          <li><Link href="/partnerschaft">{t('partners')}</Link></li>
-          <li><Link href="/maerkte">{t('markets')}</Link></li>
-          <li><Link href="/referenzen">{t('references')}</Link></li>
-          <li><Link href="/unternehmen">{t('about')}</Link></li>
-          <li><Link href="/karriere">{t('career')}</Link></li>
-          <li><Link href="/news">{t('news')}</Link></li>
-          <li><Link href="/kontakt">{t('contact')}</Link></li>
-        </ul>
-      </nav>
+      {/* SEO Navigation moved to SeoHiddenSitemap component */}
       <AnimatePresence mode="wait">
         {menuOpen && (
           <motion.div

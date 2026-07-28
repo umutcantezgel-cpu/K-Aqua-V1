@@ -64,7 +64,7 @@ export function EnterpriseLayers() {
           <div className="k-layer-row flex items-center gap-4 p-4 rounded-xl" data-l={i + 1} key={`${layer.t}-${i}`}>
             <span className="idx flex items-center justify-center font-bold text-white shrink-0 w-8 h-8 rounded-lg bg-black/20">{i + 1}</span>
             <div className="tt flex-1 min-w-0">
-              <b className="font-heading font-bold text-white text-base leading-tight truncate">{layer.t}</b>
+              <span className="font-heading font-bold text-white text-base leading-tight truncate">{layer.t}</span>
               <span className="text-sm text-white/80 leading-snug block mt-0.5 truncate">{layer.d}</span>
             </div>
           </div>
@@ -127,7 +127,7 @@ export function EnterpriseNetwork() {
         <p className="text-lead text-muted-foreground max-w-xl">{t('lead')}</p>
         <div className="flex flex-wrap gap-2 mt-4">
           {chips.map(([b, label]) => (
-            <span className="ent-chip" key={`${b}-${label}`}><b>{b}</b> {label}</span>
+            <span className="ent-chip" key={`${b}-${label}`}><span className="font-bold">{b}</span> {label}</span>
           ))}
         </div>
       </div>

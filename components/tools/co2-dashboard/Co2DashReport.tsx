@@ -39,16 +39,16 @@ export function Co2Report({ paramRows, kaquaResult, opponentResult, savings, bre
         <div className="co2-rep-head">
           <KAquaLogo height={24}></KAquaLogo>
           <div className="co2-rep-head-r">
-            <strong>CO₂-Lebenszyklus-Bericht</strong>
+            <span className="font-semibold">CO₂-Lebenszyklus-Bericht</span>
             <span>{new Date().toLocaleDateString('de-DE', { day: '2-digit', month: 'long', year: 'numeric' })}</span>
           </div>
         </div>
         <div className="co2-rep-params">
-          {paramRows.map((p: any) => <div key={p[0]}><span>{p[0]}</span><strong>{p[1]}</strong></div>)}
+          {paramRows.map((p: any) => <div key={p[0]}><span>{p[0]}</span><span className="font-semibold">{p[1]}</span></div>)}
         </div>
         <div className="co2-rep-hero">
           <span>CO₂e-Ersparnis über {horizon} Jahre: {kaquaResult.material.label} gegenüber {opponentResult.material.label}</span>
-          <strong>{fmt(savings)}</strong>
+          <span className="font-semibold">{fmt(savings)}</span>
           <small>{breakEven ? (breakEven.year === 0 ? 'K-Aqua liegt vom ersten Tag an vorn.' : `Amortisation ab Jahr ${breakEven.year}.`) : 'Kein Vorsprung im Betrachtungszeitraum.'} {co2Price > 0 ? `Vermiedene CO₂-Kosten bei ${co2Price} €/t: ca. ${Math.round(euro).toLocaleString('de-DE')} €.` : ''}</small>
         </div>
         <Co2ReportChart series={[
@@ -75,7 +75,7 @@ export function Co2Report({ paramRows, kaquaResult, opponentResult, savings, bre
           </tbody>
         </table>
         <div className="co2-rep-meth">
-          <strong>Methodik (Kurzfassung)</strong>
+          <span className="font-semibold">Methodik (Kurzfassung)</span>
           <ul>{CO2_SEO_COPY.meth.map((m) => <li key={m.t}>{m.t}</li>)}</ul>
         </div>
         <p className="co2-rep-disclaimer">{CO2_DISCLAIMER} Äquivalente: ≈ 25 kg CO₂/Baum·Jahr, ≈ 0,15 kg CO₂e/Pkw-km. Scope-3- und EPD-Rohdaten auf Anfrage.</p>

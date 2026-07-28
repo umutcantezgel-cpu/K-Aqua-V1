@@ -289,7 +289,7 @@ export function LanguageGlobeHub({
           >
             <LangDot color={dark ? toast.bright : toast.color}></LangDot>
             <span>
-              <strong className="font-semibold">{toast.de}</strong> ist jetzt für die gesamte Website aktiv.
+              <span className="font-semibold">{toast.de}</span> ist jetzt für die gesamte Website aktiv.
             </span>
           </motion.div>
         )}
