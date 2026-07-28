@@ -77,7 +77,7 @@ export default function Header() {
 
   return (
     <>
-      <header data-nosnippet="true" className={headerClass} style={{ zIndex: menuOpen ? 80 : 40 }}>
+      <header className={headerClass} style={{ zIndex: menuOpen ? 80 : 40 }}>
         <div className="w-full max-w-[1200px] mx-auto px-4 md:px-6 flex items-center justify-between">
           {/* Logo */}
           <FluidLink
