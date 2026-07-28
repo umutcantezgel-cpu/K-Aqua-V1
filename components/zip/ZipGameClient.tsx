@@ -325,19 +325,19 @@ export default function ZipGameClient() {
             
             <div className="space-y-4 text-slate-600 font-medium text-sm">
               <p>
-                <strong className="text-slate-800">{"1. Zahlen verbinden:"}</strong><br/>
+                <span className="font-semibold text-slate-800">{"1. Zahlen verbinden:"}</span><br/>
                 {"Starte bei der "}<span className="inline-block px-2 py-0.5 bg-sky-500 text-white rounded text-xs font-bold mx-1">{"1"}</span>{" und verbinde alle Zahlen in der richtigen Reihenfolge bis zum Ziel."}
               </p>
               <p>
-                <strong className="text-slate-800">{"2. Raster füllen (IQ-Test):"}</strong><br/>
-                {"Um ein Level abzuschließen, musst du "}<strong className="text-red-500">{"JEDES einzelne leere Feld"}</strong>{" des Rasters mit deinem Rohr ausfüllen!"}
+                <span className="font-semibold text-slate-800">{"2. Raster füllen (IQ-Test):"}</span><br/>
+                {"Um ein Level abzuschließen, musst du "}<span className="font-semibold text-red-500">{"JEDES einzelne leere Feld"}</span>{" des Rasters mit deinem Rohr ausfüllen!"}
               </p>
               <p>
-                <strong className="text-slate-800">{"3. Einbahnstraßen:"}</strong><br/>
+                <span className="font-semibold text-slate-800">{"3. Einbahnstraßen:"}</span><br/>
                 {"Pfeile auf dem Spielfeld zwingen dich, in die angegebene Richtung zu gehen."}
               </p>
               <p>
-                <strong className="text-slate-800">{"4. Portale:"}</strong><br/>
+                <span className="font-semibold text-slate-800">{"4. Portale:"}</span><br/>
                 {"Führt dein Weg in ein Portal (z.B. rot), musst du den Finger anheben und am anderen roten Portal weiterzeichnen!"}
               </p>
             </div>

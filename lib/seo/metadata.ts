@@ -129,12 +129,21 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      let suffix = "";
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
       const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
 
-      if (!hasBrand) {
+      // Step 1: Add PP-R context FIRST for short titles (before brand suffix)
+      if (finalTitle.length < 35 && !hasPPR) {
+          const pad = locale === 'de' ? " PP-R Rohrsysteme" : locale === 'ar' ? " أنظمة أنابيب PP-R" : " PP-R Piping";
+          if (finalTitle.length + pad.length <= 50) {
+              finalTitle += pad;
+          }
+      }
+      
+      // Step 2: Add brand suffix last
+      let suffix = "";
+      if (!hasBrand && !finalTitle.toLowerCase().includes("k-aqua")) {
           suffix = " | K-Aqua";
       }
       
@@ -147,13 +156,6 @@ export function constructMetadata({
       
       if (suffix && finalTitle.length + suffix.length <= 65) {
           finalTitle += suffix;
-      }
-      
-      if (finalTitle.length < 40 && !hasPPR) {
-          const pad = locale === 'de' ? " | PP-R Rohrsysteme" : locale === 'ar' ? " | أنظمة أنابيب PP-R" : " | PP-R Piping";
-          if (finalTitle.length + pad.length <= 60) {
-              finalTitle += pad;
-          }
       }
   }
 

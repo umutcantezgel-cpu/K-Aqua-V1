@@ -18,7 +18,7 @@ export function Co2Breakdown({ results, phases, fmt, horizonYears }: any) {
             <div className="co2-breakdown-row" key={r.material.id}>
               <div className="co2-breakdown-label">
                 <span>{r.material.label}</span>
-                <strong>{fmt(r.grandTotal)}</strong>
+                <span className="font-semibold">{fmt(r.grandTotal)}</span>
               </div>
               <div className="co2-breakdown-bar">
                 {phases.map((p: any) => {
@@ -33,7 +33,7 @@ export function Co2Breakdown({ results, phases, fmt, horizonYears }: any) {
                       onMouseLeave={() => setHover(null)}>
                       {isHover ? (
                         <div className="co2-breakdown-tooltip">
-                          <span>{p.label}</span><strong>{fmt(value)}</strong><small>{pct.toFixed(1)}%</small>
+                          <span>{p.label}</span><span className="font-semibold">{fmt(value)}</span><small>{pct.toFixed(1)}%</small>
                         </div>
                       ) : null}
                     </div>

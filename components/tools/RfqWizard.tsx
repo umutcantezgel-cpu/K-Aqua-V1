@@ -281,7 +281,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
                           <span className="w-10 h-10 rounded-[12px] grid place-items-center bg-primary-soft text-primary shrink-0">
                             <IconComp className="w-5 h-5" />
                           </span>
-                          <strong className="text-foreground">{tp.t}</strong>
+                          <span className="font-semibold text-foreground">{tp.t}</span>
                           <span className="text-small text-muted-foreground leading-relaxed">
                             {tp.d}
                           </span>

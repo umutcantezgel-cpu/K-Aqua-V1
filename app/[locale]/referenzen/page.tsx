@@ -81,7 +81,7 @@ export default async function ReferenzenPage({ params }: Props) {
           </div>
 
           <div className="space-y-12 text-xl text-muted-foreground leading-[1.8] font-sans">
-            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p1').replace(/<strong>/g, '<strong class="text-foreground">') }} />
+            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p1').replace(/<strong>/g, '<span class="text-foreground font-semibold">').replace(/<\/strong>/g, '</span>') }} />
             <p>{t('manifesto.p2')}</p>
             <p>{t('manifesto.p3')}</p>
             <p>{t('manifesto.p4')}</p>

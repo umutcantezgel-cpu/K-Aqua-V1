@@ -294,7 +294,7 @@ export default function MarketsHub({
                           tabIndex={isActive ? 0 : -1}
                           aria-label={g.city}
                         >
-                          <span className="sr-only">{g.city} </span>Marktseite öffnen
+                          Marktseite {g.city} öffnen
                         </LiquidMagneticButton>
                         <button
                           onClick={(e) => {

@@ -10,10 +10,15 @@ import { setRequestLocale } from 'next-intl/server';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: 'products.pipes.meta' });
+  const titles: Record<string, [string, string]> = {
+    de: ['PP-R & PP-RCT Rohre: Hochleistungs-Rohrsysteme', 'Entdecken Sie das K-Aqua Sortiment an PP-R und PP-RCT Rohren für Trinkwasser, Heizung und Industrie. Made in Germany.'],
+    en: ['PP-R & PP-RCT Pipes: High-Performance Piping', 'Discover K-Aqua\'s range of PP-R and PP-RCT pipes for drinking water, heating, and industrial applications. Made in Germany.'],
+    ar: ['أنابيب PP-R و PP-RCT: أنظمة أنابيب عالية الأداء', 'اكتشف مجموعة K-Aqua من أنابيب PP-R و PP-RCT لمياه الشرب والتدفئة والتطبيقات الصناعية. صنع في ألمانيا.']
+  };
+  const [title, description] = titles[locale] || titles['en'];
   return constructMetadata({
-    title: t('title'),
-    description: t('desc'),
+    title,
+    description,
     path: "/produkte/pipes",
     locale,
   });

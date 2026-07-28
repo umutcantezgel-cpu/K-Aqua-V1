@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 /* eslint-disable react/jsx-no-literals */
 
 import FooterTrustBadges from './FooterTrustBadges';
+import FooterSitemap from './FooterSitemap';
 import CodayAttribution from './CodayAttribution';
 
 export default function Footer() {
@@ -37,8 +38,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Middle Area: Removed Sitemap as requested */}
+        {/* Footer Sitemap Navigation */}
         <div className="w-full mb-16 md:mb-24">
+          <FooterSitemap />
         </div>
 
         {/* Trust Badges Full Width */}

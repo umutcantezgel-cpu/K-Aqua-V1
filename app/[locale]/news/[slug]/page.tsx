@@ -86,6 +86,8 @@ export default async function NewsDetailPage({ params }: Props) {
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <Reveal>
             <div className="flex items-center gap-3 text-small font-semibold text-faint-foreground mb-4">
+              <span>K-Aqua</span>
+              <span className="text-muted-foreground/40">·</span>
               <span>{newsItem.date}</span>
               <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag || newsItem.category || "News"}</span>
             </div>

@@ -30,7 +30,7 @@ function RailRow({ result, kaquaTotal, onOpen }: any) {
       <div className="dash-rail-row-top"><i style={{ background: result.material.color }}></i><span>{result.material.label}</span><Icons.ChevronDown size={13} /></div>
       <MiniSparkline points={result.points} color={result.material.color} width={64} height={26}></MiniSparkline>
       <div className="dash-rail-row-val">
-        <strong>{co2Fmt(val)}</strong>
+        <span className="font-semibold">{co2Fmt(val)}</span>
         {!isKaqua ? <small className="dash-rail-delta">+{co2Fmt(deltaVal)}</small> : <small className="dash-rail-delta is-ref">Referenz</small>}
       </div>
     </button>
@@ -295,7 +295,7 @@ export default function Co2Dashboard() {
               })}
             </div>
           </Field>
-          <Field fid="length" label={<div className="dash-field-row"><span>Trassenlänge</span><strong>{lengthKm.toLocaleString('de-DE', { maximumFractionDigits: 1 })} km</strong></div>}>
+          <Field fid="length" label={<div className="dash-field-row"><span>Trassenlänge</span><span className="font-semibold">{lengthKm.toLocaleString('de-DE', { maximumFractionDigits: 1 })} km</span></div>}>
             <input type="range" className="k-range" min="0.1" max="50" step="0.1" value={lengthKm} onChange={(e) => manual(setLengthKm)(+e.target.value)} aria-label="Trassenlänge in Kilometern" />
           </Field>
           <Field fid="d" label="Nennweite">
@@ -312,7 +312,7 @@ export default function Co2Dashboard() {
           <Field label="Vergleich gegen">
             <ChipGroup options={CO2_MATERIALS.filter((m) => m.id !== 'kaqua')} value={opponentId} onChange={setOpponentId} render={(m: any) => m.label} />
           </Field>
-          <Field fid="opplife" label={<div className="dash-field-row"><span>Nutzungsdauer {opponentResult.material.label}</span><strong>{oppLife[opponentId] || 50} Jahre</strong></div>}>
+          <Field fid="opplife" label={<div className="dash-field-row"><span>Nutzungsdauer {opponentResult.material.label}</span><span className="font-semibold">{oppLife[opponentId] || 50} Jahre</span></div>}>
             <input type="range" className="k-range" min="15" max="70" step="5" value={oppLife[opponentId] || 50} onChange={(e) => setOppLife({ ...oppLife, [opponentId]: +e.target.value })} aria-label="Angenommene Nutzungsdauer des Vergleichswerkstoffs in Jahren" />
             <p className="co2-mod-note">Projektannahme: K-Aqua PP-RCT ist normativ mit 50 Jahren angesetzt (ISO 10508 Klasse II). Liegt der Wert unter dem Horizont, entstehen Ersatzzyklen (Sprünge im Chart).</p>
             {lifeGuide ? (
@@ -333,19 +333,19 @@ export default function Co2Dashboard() {
           <Field label="Betriebsart">
             <ChipGroup options={CO2_OPERATING_MODES} value={opModeId} onChange={manual(setOpModeId)} render={(m: any) => m.label} />
           </Field>
-          <Field fid="transport" label={<div className="dash-field-row"><span>Transportweg (Werk → Baustelle)</span><strong>{transportKm.toLocaleString('de-DE')} km</strong></div>}>
+          <Field fid="transport" label={<div className="dash-field-row"><span>Transportweg (Werk → Baustelle)</span><span className="font-semibold">{transportKm.toLocaleString('de-DE')} km</span></div>}>
             <input type="range" className="k-range" min="0" max="1500" step="10" value={transportKm} onChange={(e) => setTransportKm(+e.target.value)} aria-label="Transportweg in Kilometern" />
           </Field>
-          <Field fid="flow" label={<div className="dash-field-row"><span>Durchfluss</span><strong>{flowLps.toLocaleString('de-DE', { maximumFractionDigits: 1 })} l/s</strong></div>}>
+          <Field fid="flow" label={<div className="dash-field-row"><span>Durchfluss</span><span className="font-semibold">{flowLps.toLocaleString('de-DE', { maximumFractionDigits: 1 })} l/s</span></div>}>
             <input type="range" className="k-range" min="0.5" max="12" step="0.1" value={flowLps} onChange={(e) => manual(setFlowLps)(+e.target.value)} aria-label="Durchfluss in Liter pro Sekunde" />
           </Field>
-          <Field fid="horizon" label={<div className="dash-field-row"><span>Betrachtungshorizont</span><strong>{horizon} Jahre</strong></div>}>
+          <Field fid="horizon" label={<div className="dash-field-row"><span>Betrachtungshorizont</span><span className="font-semibold">{horizon} Jahre</span></div>}>
             <input type="range" className="k-range" min="10" max="100" step="5" value={horizon} onChange={(e) => setHorizon(+e.target.value)} aria-label="Betrachtungshorizont in Jahren" />
           </Field>
-          <Field fid="fittings" label={<div className="dash-field-row"><span>Formteil- &amp; Verschnitt-Zuschlag</span><strong>{fittingsPct} %</strong></div>}>
+          <Field fid="fittings" label={<div className="dash-field-row"><span>Formteil- &amp; Verschnitt-Zuschlag</span><span className="font-semibold">{fittingsPct} %</span></div>}>
             <input type="range" className="k-range" min="0" max="30" step="1" value={fittingsPct} onChange={(e) => setFittingsPct(+e.target.value)} aria-label="Formteil- und Verschnitt-Zuschlag in Prozent" />
           </Field>
-          <Field fid="price" label={<div className="dash-field-row"><span>CO₂-Preis (nEHS 2026: 55–65 €)</span><strong>{co2Price} €/t</strong></div>}>
+          <Field fid="price" label={<div className="dash-field-row"><span>CO₂-Preis (nEHS 2026: 55–65 €)</span><span className="font-semibold">{co2Price} €/t</span></div>}>
             <input type="range" className="k-range" min="0" max="300" step="5" value={co2Price} onChange={(e) => setCo2Price(+e.target.value)} aria-label="CO₂-Preis in Euro je Tonne" />
           </Field>
         </div>
@@ -356,10 +356,10 @@ export default function Co2Dashboard() {
         <header className="dash-header">
           <div className="dash-hero-row"><div className="dash-bignum">{co2Fmt(animSavings)}</div>
           <div className="dash-kpis">
-            <div className="dash-kpi"><Icons.Leaf size={15} /><span>Bäume-Äquivalent</span><strong>{Math.round(animTrees).toLocaleString('de-DE')}</strong></div>
-            <div className="dash-kpi"><Icons.MapPin size={15} /><span>Pkw-Kilometer</span><strong>{Math.round(animCarKm).toLocaleString('de-DE')}</strong></div>
-            <div className="dash-kpi"><Icons.Wrench size={15} /><span>Ersatzzyklen</span><strong>{Math.round(animReplacements)}×</strong></div>
-            {co2Price > 0 ? <div className="dash-kpi"><span className="co2-eur">€</span><span>Vermiedene CO₂-Kosten</span><strong>{Math.round(animEuro).toLocaleString('de-DE')} €</strong></div> : null}
+            <div className="dash-kpi"><Icons.Leaf size={15} /><span>Bäume-Äquivalent</span><span className="font-semibold">{Math.round(animTrees).toLocaleString('de-DE')}</span></div>
+            <div className="dash-kpi"><Icons.MapPin size={15} /><span>Pkw-Kilometer</span><span className="font-semibold">{Math.round(animCarKm).toLocaleString('de-DE')}</span></div>
+            <div className="dash-kpi"><Icons.Wrench size={15} /><span>Ersatzzyklen</span><span className="font-semibold">{Math.round(animReplacements)}×</span></div>
+            {co2Price > 0 ? <div className="dash-kpi"><span className="co2-eur">€</span><span>Vermiedene CO₂-Kosten</span><span className="font-semibold">{Math.round(animEuro).toLocaleString('de-DE')} €</span></div> : null}
           </div></div>
         </header>
 

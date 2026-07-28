@@ -34,8 +34,27 @@ export default function SeoHiddenSitemap() {
   ]);
 
   return (
-    <nav className="sr-only" aria-label="Hidden Sitemap for SEO">
+    <nav data-nosnippet="true" className="sr-only" aria-label="Complete Sitemap for SEO">
       <ul>
+        {/* Main Navigation Pages */}
+        <li><Link href="/">K-Aqua Homepage</Link></li>
+        <li><Link href="/produkte">Alle K-Aqua Produkte</Link></li>
+        <li><Link href="/produkte/finder">Product Finder für Rohre</Link></li>
+        <li><Link href="/co2-rechner">CO₂-Rechner für PP-R Rohre</Link></li>
+        <li><Link href="/projektanfrage">Projektanfrage starten</Link></li>
+        <li><Link href="/loesungen">PP-R Lösungen und Vorteile</Link></li>
+        <li><Link href="/academy">K-Aqua Academy</Link></li>
+        <li><Link href="/trust-center">Trust Center und Zertifikate</Link></li>
+        <li><Link href="/service">Service und Downloads</Link></li>
+        <li><Link href="/partnerschaft">K-Aqua Partnernetzwerk</Link></li>
+        <li><Link href="/maerkte">Alle K-Aqua Märkte</Link></li>
+        <li><Link href="/referenzen">Referenzprojekte weltweit</Link></li>
+        <li><Link href="/unternehmen">Über KWT GmbH</Link></li>
+        <li><Link href="/karriere">Karriere bei K-Aqua</Link></li>
+        <li><Link href="/news">K-Aqua News und Presse</Link></li>
+        <li><Link href="/kontakt">Kontakt zu K-Aqua</Link></li>
+        <li><Link href="/ressourcen/ausschreibungstexte">Ausschreibungstexte für PP-R</Link></li>
+        <li><Link href="/ressourcen/support">Technischer Support</Link></li>
         {/* Products */}
         {products.map(p => {
           if (variantSlugs.has(p.slug)) return null;

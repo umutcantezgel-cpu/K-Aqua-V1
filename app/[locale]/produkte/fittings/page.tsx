@@ -10,10 +10,15 @@ import { setRequestLocale } from 'next-intl/server';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: 'products.fittings.meta' });
+  const titles: Record<string, [string, string]> = {
+    de: ['PP-R Formteile & Fittings für Rohrsysteme', 'K-Aqua PP-R Formteile und Fittings für hochdruckfeste, korrosionsfreie Rohrverbindungen. Zertifiziert nach DVGW.'],
+    en: ['PP-R Fittings & Connectors for Piping Systems', 'K-Aqua PP-R fittings and connectors for high-pressure, corrosion-free pipe connections. DVGW certified.'],
+    ar: ['تركيبات PP-R وموصلات لأنظمة الأنابيب', 'تركيبات وموصلات PP-R من K-Aqua لتوصيلات أنابيب عالية الضغط ومقاومة للتآكل. معتمدة وفق DVGW.']
+  };
+  const [title, description] = titles[locale] || titles['en'];
   return constructMetadata({
-    title: t('title'),
-    description: t('desc'),
+    title,
+    description,
     path: "/produkte/fittings",
     locale,
   });

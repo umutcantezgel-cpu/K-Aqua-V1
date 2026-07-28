@@ -50,7 +50,7 @@ export default async function SitemapPage({ params }: Props) {
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
-            HTML Sitemap
+            K-Aqua HTML Sitemap
           </h1>
           <p className="text-xl text-muted-foreground font-normal mb-6">
             {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
@@ -153,7 +153,7 @@ export default async function SitemapPage({ params }: Props) {
                         {hubMarkets.map(market => (
                           <li key={market.slug}>
                             <Link href={`/maerkte/${hub.slug}/${market.slug}`} className="hover:text-primary transition-colors text-sm">
-                              {market.name}
+                              {market.city}
                             </Link>
                           </li>
                         ))}

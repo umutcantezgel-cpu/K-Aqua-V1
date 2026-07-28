@@ -24,7 +24,10 @@ const staticRoutes = [
   'produkte/valves',
   'produkte/tools',
   'produkte/transition-fittings',
+  'produkte/weld-in-saddles',
+  'produkte/accessories',
   'projektanfrage',
+  'co2-rechner',
 
   'referenzen',
   'ressourcen/support',
