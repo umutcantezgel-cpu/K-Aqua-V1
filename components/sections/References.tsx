@@ -132,9 +132,9 @@ export default function References({ referencesData }: ReferencesProps) {
                     <IconChip className="bg-primary-soft text-primary">
                       <MapPin className="w-6 h-6" />
                     </IconChip>
-                    <h3 className="text-h3 font-heading font-bold text-foreground">
+                    <h2 className="text-h3 font-heading font-bold text-foreground">
                       {activeProject.title}
-                    </h3>
+                    </h2>
                   </div>
                   <p className="text-body text-muted-foreground leading-relaxed mt-2">
                     {activeProject.d}

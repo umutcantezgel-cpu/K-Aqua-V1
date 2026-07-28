@@ -1428,7 +1428,12 @@
     "news": "News",
     "knowledge_trust": "Wissen & Vertrauen",
     "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht"
+    "sitemapAria": "Seitenübersicht",
+    "pipes": "Buizen",
+    "fittings": "Fittingen",
+    "valves": "Ventielen",
+    "accessories": "Accessoires",
+    "tools": "Gereedschappen"
   },
   "groups": {
     "tools": "Werkzeuge",
@@ -1439,6 +1444,7 @@
     "knowledge_resources": "Wissen & Ressourcen"
   },
   "pages": {
+    "finderGuideText": "<h2>Interactieve productzoeker voor K-Aqua leidingsystemen</h2><p>Gebruik onze innovatieve productzoeker om precies het juiste onderdeel voor uw specifieke leidinginstallatie te identificeren. Of u nu op zoek bent naar standaard PP-R buizen voor drinkwaterinstallaties, vezelversterkte PPRCT buizen voor veeleisende industriële toepassingen of speciale overgangsfittingen en afsluiters – onze tool filtert de volledige catalogus in realtime. De productzoekfunctie ondersteunt u bij het selecteren op diameter (d20 tot d630), drukklasse (SDR-klasse) en materiaal.</p><p>Een goed gestructureerd leidingsysteem vereist een nauwkeurige planning en de exacte combinatie van buizen, fittingen (zoals moffen, knieën en T-stukken) en bijbehorende accessoires. Onze productzoeker elimineert het tijdrovende zoeken in statische PDF-catalogi en biedt u in plaats daarvan direct betrouwbare gegevens over artikelnummers, verpakkingseenheden en technische specificaties. Met slechts een paar klikken kunt u uw materiaallijst samenstellen en de compatibiliteit van de verschillende componenten voor verwarmings-, koel- en drinkwatersystemen garanderen. Dit optimaliseert niet alleen uw planningsproces, maar minimaliseert ook fouten bij het bestellen van materialen voor uw volgende bouwproject.</p>",
     "catalogOverview": "Vollständiger Produktkatalog",
     "products": [
       "PP-R Kunststoffrohre & Fittings Übersicht",
@@ -1606,7 +1612,40 @@
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
     "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "cityMetaTitle": "PP-R leidingsystemen in {city}",
+    "hubMetaTitle": "PP-R leidingsystemen voor {country}",
+    "hubH1": "Infrastructuuroplossingen voor {country}",
+    "hubLead": "K-Aqua biedt gecertificeerde PP-R en PP-RCT infrastructuuroplossingen voor {country}. Onze leidingsystemen voldoen aan de hoogste internationale normen en zijn geoptimaliseerd voor de specifieke uitdagingen in {country}.",
+    "hubContextTitle": "Regionale context: {context}",
+    "hubContextBody": "Onze K-Aqua PP-R/PP-RCT leidingsystemen van Duitse makelij bieden duurzame infrastructuuroplossingen voor {country}. Ze zijn speciaal ontworpen om te voldoen aan de lokale infrastructurele uitdagingen.",
+    "hubCitiesTitle": "Lokale vestigingen & referentiesteden",
+    "hubs": {
+      "deutschland": {
+        "description": "Als thuismarkt van K-Aqua stelt Duitsland de hoogste eisen aan bouwkwaliteit en duurzaamheid. Onze <strong>PP-R en PP-RCT leidingsystemen</strong> pakken de dringende renovatieachterstand in de Duitse drinkwater- en verwarmingsinfrastructuur effectief en duurzaam aan. Door het gebruik van corrosievrije, DVGW-gecertificeerde materialen, verlagen we de onderhoudskosten en garanderen we tientallen jaren maximale systeemhygiëne in grote gemeentelijke, commerciële en residentiële projecten.",
+        "metaDesc": "Gecertificeerde PP-R/PP-RCT leidingsystemen voor Duitsland. Duitse techniek tegen de renovatieachterstand in de drinkwater- en verwarmingsinfrastructuur."
+      },
+      "oesterreich": {
+        "description": "In Oostenrijk vereisen uitdagende topografieën en strenge milieuregelgeving compromisloze infrastructuuroplossingen. Onze <strong>K-Aqua leidingsystemen</strong> bieden premium kwaliteit voor duurzame water- en stadsverwarmingsnetten in alpiene regio's. Met ÖVGW-geteste veiligheid en uitstekende thermische isolatie, garanderen onze PP-R en PP-RCT buizen vorst- en drukbestendige prestaties, zelfs onder de meest extreme klimatologische omstandigheden van de Alpen.",
+        "metaDesc": "Premium PP-R/PP-RCT leidingsystemen voor Oostenrijk. Vorst- en drukbestendige oplossingen voor water- en stadsverwarmingsnetten in alpiene regio's."
+      },
+      "schweiz": {
+        "description": "Zwitserland staat voor precisie, duurzaamheid en de hoogste kwaliteitsnormen. <strong>K-Aqua's PP-R en PP-RCT systemen</strong> voldoen aan deze eisen door superieure materiaalzuiverheid en SVGW-gecertificeerde voedselveiligheid. Onze volledig recyclebare, stromingsgeoptimaliseerde kunststof buizen maken energie-efficiënte sanitair- en klimaattechniek mogelijk voor vooruitstrevende Minergie-bouwprojecten in heel Zwitserland.",
+        "metaDesc": "Eersteklas PP-R/PP-RCT leidingsystemen voor Zwitserland. SVGW-gecertificeerde, recyclebare kunststof buizen voor duurzame Minergie-bouwprojecten."
+      },
+      "uae": {
+        "description": "In de extreme klimatologische omstandigheden van de Verenigde Arabische Emiraten is water de meest waardevolle hulpbron. <strong>K-Aqua PP-R/PP-RCT leidingsystemen</strong> bieden ultieme bescherming tegen corrosie en kalkaanslag, zelfs bij gebruik van ontzilt zeewater (omgekeerde osmose). Onze UV- en hittebestendige hoogwaardige buizen garanderen een duurzame watervoorziening in de gigantische megaprojecten en wolkenkrabbers van Dubai en Abu Dhabi.",
+        "metaDesc": "UV- en hittebestendige PP-R/PP-RCT leidingsystemen voor de VAE. Maximale bescherming tegen corrosie en kalkaanslag in woestijnklimaten."
+      },
+      "ksa": {
+        "description": "In het kader van Vision 2030 transformeert Saoedi-Arabië zijn volledige infrastructuur. <strong>K-Aqua levert hiervoor de essentiële waterinfrastructuur</strong>. Onze PP-RCT buizen met grote kalibers garanderen een veilige, lekvrije en efficiënte waterdistributie in nieuwe slimme steden zoals NEOM. Gecertificeerd volgens internationale normen, garanderen wij een ononderbroken werking bij extreem hoge omgevingstemperaturen.",
+        "metaDesc": "Grootkaliber PP-RCT leidingsystemen voor Saoedi-Arabië. Betrouwbare waterinfrastructuur voor Vision 2030 en megaprojecten zoals NEOM."
+      },
+      "singapur": {
+        "description": "Als een van de meest dichtbevolkte hightech stadstaten in Azië, heeft Singapore uiterst efficiënte en ruimtebesparende gebouwtechniek nodig. De innovatieve <strong>leidingsystemen van K-Aqua</strong> ondersteunen de ambitieuze Green Building-doelstellingen van Singapore door drastisch verminderde drukverliezen en optimale thermische eigenschappen. Van hoogbouw airconditioning (Chilled Water) tot ultra-zuivere drinkwatervoorziening, wij zetten de standaard in Azië.",
+        "metaDesc": "Efficiënte PP-R/PP-RCT buizen voor Singapore's Green Buildings. Gespecialiseerde systemen voor Chilled Water en ultra-zuivere drinkwatervoorziening."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua: führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
@@ -3903,6 +3942,7 @@
     "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   },
   "co2": {
+    "guideText": "<h2>Duurzaamheid en LCA (Life Cycle Assessment)</h2><p>De keuze van het juiste leidingsysteem heeft een aanzienlijke impact op de ecologische voetafdruk van een gebouw of industriële installatie. De K-Aqua CO2-calculator maakt een volledige levenscyclusanalyse (LCA) mogelijk volgens de EN 15804 normen. Deze analyse bestrijkt de gehele levenscyclus: van de winning van grondstoffen en productproductie (fasen A1-A3) via transport en installatie (fasen A4-A5) tot de gebruiksfase (fase B) en end-of-life (fase C).</p><p>In vergelijking met conventionele metalen buizen van koper of staal, hebben de PP-R en PPRCT buizen van K-Aqua een aanzienlijk gunstigere milieu-impact. Het lagere energieverbruik bij de extrusie van het plastic en het aanzienlijk lagere gewicht verminderen de CO2-uitstoot tijdens productie en transport aanzienlijk. Bovendien zorgt het spiegelgladde binnenoppervlak (ruwheid van slechts 0,007 mm) voor een extreem lage stromingsweerstand. Volgens de vergelijking van Darcy-Weisbach betekent dit dat circulatiepompen aanzienlijk minder energie (elektriciteit) hoeven te verbruiken om de vloeistof door het systeem te pompen.</p><p>Vooral in de gebruiksfase (fase B), die voor leidingsystemen vaak 50 jaar of langer duurt, leiden deze energiebesparingen tot enorme CO2- en kostenbesparingen (Total Cost of Ownership, TCO). Zelfs aan het einde van hun levensduur (fase C) biedt polypropyleen ecologische voordelen, aangezien het 100% recyclebaar is en kan worden hergebruikt in de geest van een circulaire economie (module D). Gebruik deze calculator om de ecologische en economische besparingsmogelijkheden van uw K-Aqua project nauwkeurig en transparant te kwantificeren.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "kairo": {
       "regulator": "HCWW: Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "singapur": {
       "regulator": "PUB: Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "kualalumpur": {
       "regulator": "SPAN: National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "mumbai": {
       "regulator": "BIS: Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     },
     "nairobi": {
       "regulator": "KEBS: Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "De stedelijke infrastructuur in deze regio stelt speciale eisen aan de levensduur en betrouwbaarheid van leidingsystemen. Met extreme klimatologische omstandigheden en hoge eisen aan de waterhygiëne bieden de PP-R en PPRCT oplossingen van K-Aqua een doorslaggevend voordeel. Traditionele metalen buizen hebben vaak last van corrosie en minerale afzettingen, wat leidt tot aanzienlijk drukverlies en waterverspilling door lekkages. K-Aqua systemen garanderen daarentegen een absoluut dichte, onderhoudsvrije installatie voor meer dan 50 jaar, dankzij de corrosievrije materiaaleigenschappen en homogene polyfusielasverbindingen. Daarnaast zorgt het gladde binnenoppervlak voor optimale hydraulische stromingseigenschappen, waardoor het energieverbruik voor circulatiepompen drastisch wordt verlaagd. Deze factoren maken K-Aqua de voorkeurskeuze voor grootschalige hotelcomplexen, ziekenhuizen, industriële koelsystemen en veeleisende residentiële bouwprojecten in de stedelijke sector."
     }
   },
   "notFound": {
@@ -6522,7 +6570,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "De waterbeheeruitdagingen van onze tijd vragen om op maat gemaakte, duurzame infrastructuuroplossingen. K-Aqua is actief betrokken bij internationale markten om te voldoen aan de groeiende vraag naar hygiënische en verliesvrije leidingnetwerken. Of het nu in waterarme regio's is, waar elke druppel beschermd moet worden door lekvrije lasverbindingen, of in dichtbevolkte metropolen met complexe eisen op het gebied van brandbeveiliging en geluidsisolatie: onze PP-R en PPRCT systemen bieden de nodige betrouwbaarheid.",
+      "p5": "Hierbij richten wij ons niet alleen op productdistributie, maar zien wij onszelf als een strategische lokale partner. Door middel van technische trainingen, supervisie op locatie en nauwe samenwerking met lokale autoriteiten, zorgen wij ervoor dat internationale normen (zoals DVGW, WRAS, SASO) niet alleen worden nageleefd, maar overtroffen. Zo dragen wij duurzaam bij aan de modernisering van de wereldwijde waterinfrastructuur."
     }
   },
   "application": {
@@ -8192,5 +8242,15 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "seoExpansion": {
+    "t1": "Hoogwaardige leidingsystemen & vloeistofbeheer",
+    "p1": "Als 's werelds toonaangevende fabrikant van PP-R en PPRCT leidingsystemen, biedt K-Aqua robuuste, duurzame en zeer efficiënte oplossingen voor vloeistofbeheer voor drinkwater-, verwarmings- en koelnetwerken. Ons productportfolio varieert van standaard PP-R buizen SDR 11 tot speciale glasvezelversterkte meerlagenbuizen (PP-RCT), die uitzonderlijke weerstand bieden tegen extreme temperaturen en hoge drukbelastingen. Van woninginstallaties tot massieve industriële vloeistofdistributienetwerken, onze buizen garanderen maximale operationele veiligheid. Elke buis, geëxtrudeerd met state-of-the-art Duitse machines, is zo ontworpen dat deze meer dan 50 jaar absoluut lekvrij blijft. Met de nadruk op hygiëne zijn onze drinkwaterleidingen gecertificeerd door strenge internationale testinstanties om de groei van legionella te voorkomen en de zuiverheid en smaak van drinkwater in ziekenhuizen, hotels en openbare infrastructuur strikt te behouden.",
+    "t2": "Geavanceerde fittingen, afsluiters & installatiegereedschappen",
+    "p2": "Naast de fundamentele buisarchitectuur, biedt K-Aqua een uiterst uitgebreid assortiment spuitgegoten fittingen, overgangsverbindingen en zwaar belastbare afsluiters. Onze PP-R en PP-RCT fittingen omvatten knieën, T-stukken, reducties en elektrolasmoffen, die naadloos samensmelten met de leidinginfrastructuur en een monolithisch, chemisch verbonden netwerk creëren dat vrijwel onverwoestbaar is. Wij integreren precisiegefreesd messing en ontzinkingsbestendige (DZR) metalen draden voor perfecte overgangscompatibiliteit met bestaande metalen sanitaire componenten. Om een vlotte installatie mogelijk te maken, bieden wij professionele polyfusielasapparatuur, van handmatige moflasapparaten tot massieve hydraulische stomplasapparaten. Dit complete ecosysteem zorgt ervoor dat bouwbedrijven en ingenieurs kunnen vertrouwen op één enkele, uniforme systeemarchitectuur voor elke complexe installatievereiste.",
+    "t3": "Duurzaamheid, LCA & CO2-reductie",
+    "p3": "Duurzaamheid is diep verankerd in de moleculaire engineering van onze PP-R en PPRCT systemen. Door een opmerkelijk lage oppervlakteruwheid van 0,007 mm aan de binnenkant te bieden, verminderen onze buizen de hydraulische wrijving en het drukverlies in het hele netwerk drastisch. Volgens de dynamische stromingsmodellen van Darcy-Weisbach leidt deze minimale weerstand direct tot een enorm verlaagd energieverbruik van de circulatiepompen. Over een operationele levenscyclus van 50 jaar resulteert deze efficiëntie in ongekende CO2-besparingen en verlaagt het de totale eigendomskosten (TCO) voor gebouw- en installatiebeheerders aanzienlijk. Bovendien is polypropyleen 100% recyclebaar. Via onze gevalideerde Type III milieuproductverklaringen (EPD) volgens EN 15804 bieden wij architecten en planners voor groen bouwen transparante, kwantificeerbare gegevens voor LEED-, BREEAM- en DGNB-certificeringen.",
+    "t4": "Wereldwijd bereik, German Engineering & certificeringen",
+    "p4": "Volledig vervaardigd in Duitsland onder strikte kwaliteits- en milieumanagementprotocollen volgens ISO 9001, ISO 14001 en ISO 50001, exporteert K-Aqua premium leidingoplossingen naar meer dan 50 landen wereldwijd. Ons logistieke netwerk garandeert een snelle en veilige levering van complete systemen aan megaprojecten in het Midden-Oosten, Zuidoost-Azië en heel Europa. Onze niet-aflatende inzet voor kwaliteit wordt gevalideerd door grote internationale certificeringsinstanties, waaronder DVGW, SKZ, WRAS en KIWA. Wij ondersteunen adviserende ingenieurs, BIM-modelleurs en grote aannemers met gedetailleerde CAD-/BIM-bibliotheken, intelligente berekeningssoftware en uitgebreide technische ondersteuning om een soepele projectuitvoering te garanderen. K-Aqua vertegenwoordigt de ultieme synthese van geavanceerde polymeerwetenschap, duurzame techniek en compromisloze betrouwbaarheid in vloeistofbeheer."
   }
 }

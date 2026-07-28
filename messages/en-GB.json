@@ -1428,7 +1428,12 @@
     "news": "News",
     "knowledge_trust": "Wissen & Vertrauen",
     "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht"
+    "sitemapAria": "Seitenübersicht",
+    "pipes": "Pipes",
+    "fittings": "Fittings",
+    "valves": "Valves",
+    "accessories": "Accessories",
+    "tools": "Tools"
   },
   "groups": {
     "tools": "Werkzeuge",
@@ -1546,7 +1551,8 @@
     "transition-fittings": [
       "Transition Fittings",
       "Reliable transition fittings for secure connections."
-    ]
+    ],
+    "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Pipe Systems</h2><p>Use our innovative product finder to identify the exact component for your specific piping installation. Whether you are looking for standard PP-R pipes for drinking water installations, fibre-reinforced PPRCT pipes for demanding industrial plants or special transition fittings and valves – our tool filters the entire catalogue in real time. The product search supports you in selecting by diameter (d20 to d630), pressure class (SDR class) and material.</p><p>A well-structured pipe system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows and tees) and the corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogues and instead provides you with immediate, reliable data on item numbers, packaging units and technical specifications. With just a few clicks, you can compile your materials list and ensure the compatibility of the various components for heating, cooling and drinking water systems. This not only optimises your planning process, but also minimises errors when ordering materials for your next construction project.</p>"
   },
   "home": {
     "chip": "geprüft seit Oktober 2025",
@@ -1606,7 +1612,40 @@
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
     "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "cityMetaTitle": "PP-R Pipe Systems in {city}",
+    "hubMetaTitle": "PP-R Pipe Systems for {country}",
+    "hubH1": "Infrastructure Solutions for {country}",
+    "hubLead": "K-Aqua provides certified PP-R and PP-RCT infrastructure solutions for {country}. Our pipe systems meet the highest international standards and are optimised for the specific challenges in {country}.",
+    "hubContextTitle": "Regional Context: {context}",
+    "hubContextBody": "Our German-made K-Aqua PP-R/PP-RCT pipe systems provide sustainable infrastructure solutions for {country}. They are specially designed to meet local infrastructural challenges.",
+    "hubCitiesTitle": "Local Sites & Reference Cities",
+    "hubs": {
+      "deutschland": {
+        "description": "As K-Aqua's home market, Germany has the highest standards for construction quality and durability. Our <strong>PP-R and PP-RCT pipe systems</strong> effectively and sustainably tackle the pressing renovation backlog in German drinking water and heating infrastructure. Through corrosion-free, DVGW-certified materials, we reduce maintenance costs and ensure maximum system hygiene in municipal, commercial and private large-scale projects over decades.",
+        "metaDesc": "Certified PP-R/PP-RCT pipe systems for Germany. German engineering against the renovation backlog in drinking water and heating infrastructure."
+      },
+      "oesterreich": {
+        "description": "In Austria, demanding topographies and strict environmental regulations require uncompromising infrastructure solutions. Our <strong>K-Aqua pipe systems</strong> offer premium quality for durable water and district heating networks in alpine regions. With ÖVGW-tested safety and outstanding thermal insulation, our PP-R and PP-RCT pipes guarantee frost- and pressure-proof performance even under the most extreme climatic conditions of the Alps.",
+        "metaDesc": "Premium PP-R/PP-RCT pipe systems for Austria. Frost- and pressure-proof solutions for water and district heating networks in alpine regions."
+      },
+      "schweiz": {
+        "description": "Switzerland stands for precision, sustainability and the highest quality standards. <strong>K-Aqua's PP-R and PP-RCT systems</strong> meet these requirements through first-class material purity and SVGW-certified food safety. Our fully recyclable, flow-optimised plastic pipes enable energy-efficient sanitary and air-conditioning technology for pioneering Minergie construction projects throughout Switzerland.",
+        "metaDesc": "First-class PP-R/PP-RCT pipe systems for Switzerland. SVGW-certified, recyclable plastic pipes for sustainable Minergie construction projects."
+      },
+      "uae": {
+        "description": "Under the extreme climatic conditions of the United Arab Emirates, water is the most valuable resource. <strong>K-Aqua PP-R/PP-RCT pipe systems</strong> offer ultimate protection against corrosion and calcification, even when using desalinated seawater (reverse osmosis). Our UV-resistant and heat-resistant high-performance pipes ensure a lasting water supply in the gigantic mega-projects and high-rises of Dubai and Abu Dhabi.",
+        "metaDesc": "UV- and heat-resistant PP-R/PP-RCT pipe systems for the UAE. Maximum protection against corrosion and calcification in desert climates."
+      },
+      "ksa": {
+        "description": "As part of Vision 2030, Saudi Arabia is transforming its entire infrastructure. <strong>K-Aqua provides the essential water infrastructure for this</strong>. Our large-calibre PP-RCT pipes guarantee safe, leak-free and efficient water distribution in new smart cities like NEOM. Certified to international standards, we guarantee uninterrupted operation at extremely high ambient temperatures.",
+        "metaDesc": "Large-calibre PP-RCT pipe systems for Saudi Arabia. Reliable water infrastructure for Vision 2030 and mega-projects like NEOM."
+      },
+      "singapur": {
+        "description": "As one of the most densely populated high-tech city-states in Asia, Singapore requires highly efficient and space-saving building technology. <strong>K-Aqua's innovative piping systems</strong> support Singapore's ambitious green building goals through drastically reduced pressure losses and optimal thermal properties. From high-rise air conditioning (chilled water) to ultra-pure drinking water supply, we set standards in Asia.",
+        "metaDesc": "Efficient PP-R/PP-RCT pipes for Singapore's Green Buildings. Specialised systems for chilled water and ultra-pure drinking water supply."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua: führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
@@ -3997,7 +4036,8 @@
     "phaseProduction": "Production",
     "phaseTransport": "Transport",
     "phaseOperation": "Operation",
-    "phaseEol": "End of Life"
+    "phaseEol": "End of Life",
+    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial plant. The K-Aqua CO2 calculator enables a comprehensive Life Cycle Assessment (LCA) in accordance with the standards of EN 15804. This analysis covers the entire life cycle: from raw material extraction and product manufacturing (phases A1-A3) via transport and installation (phases A4-A5) through to the use phase (phase B) and end-of-life (phase C).</p><p>Compared to conventional metal pipes made of copper or steel, K-Aqua PP-R and PPRCT pipes have a significantly more favourable life cycle assessment. The lower energy consumption during the extrusion of the plastic and the significantly lower weight considerably reduce CO2 emissions during production and transport. In addition, the mirror-smooth inner surface (roughness of only 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means that circulation pumps require significantly less energy (electricity) to convey the fluid through the system.</p><p>Particularly during the use phase (phase B), which for piping systems often lasts 50 years or longer, these energy savings add up to massive CO2 and cost savings (Total Cost of Ownership, TCO). At the end of its service life (phase C), polypropylene also offers ecological benefits, as it is 100% recyclable and can be reused in the sense of the circular economy (module D). Use this calculator to precisely and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "kairo": {
       "regulator": "HCWW: Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "singapur": {
       "regulator": "PUB: Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "kualalumpur": {
       "regulator": "SPAN: National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "mumbai": {
       "regulator": "BIS: Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     },
     "nairobi": {
       "regulator": "KEBS: Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "The urban infrastructure in this region poses special requirements for the longevity and reliability of piping systems. With extreme climatic conditions and high demands on water hygiene, PP-R and PPRCT solutions from K-Aqua offer a decisive advantage. Traditional metal pipes often suffer from corrosion and mineral deposits, leading to significant pressure losses and water waste through leaks. K-Aqua systems, on the other hand, guarantee an absolutely leak-proof, maintenance-free installation for over 50 years thanks to their corrosion-free material properties and homogeneous polyfusion welding. In addition, the smooth inner surface enables optimal hydraulic flow properties, which drastically reduces the energy demand for circulation pumps. These factors make K-Aqua the preferred choice for large-scale hotel complexes, hospitals, industrial cooling systems and demanding residential construction projects in the urban sector."
     }
   },
   "notFound": {
@@ -6522,7 +6570,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "The water management challenges of our time require tailored, durable infrastructure solutions. K-Aqua is actively involved in international markets to meet the growing need for hygienic and loss-free pipe networks. Whether in water-scarce regions where every drop must be protected by leak-proof welded joints, or in highly densified metropolises with complex requirements for fire protection and sound insulation: our PP-R and PPRCT systems provide the necessary reliability.",
+      "p5": "In doing so, we do not only focus on pure product sales, but see ourselves as a strategic partner on site. Through technical training, on-site supervision and close cooperation with local authorities, we ensure that international standards (such as DVGW, WRAS, SASO) are not only met, but exceeded. In this way, we contribute sustainably to the modernisation of the global water infrastructure."
     }
   },
   "application": {
@@ -8192,5 +8242,15 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "seoExpansion": {
+    "t1": "High-Performance Pipe Systems & Fluid Management",
+    "p1": "As a leading global manufacturer of PP-R and PPRCT pipe systems, K-Aqua offers robust, resilient and highly efficient fluid management solutions for drinking water, heating and cooling networks. Our product portfolio ranges from standard SDR 11 PP-R pipes to special glass-fibre reinforced multi-layer pipes (PP-RCT) that offer exceptional resistance to extreme temperatures and high pressure loads. From domestic installations to massive industrial fluid distribution networks, our pipes ensure maximum operational safety. Each pipe, extruded using state-of-the-art German machinery, is designed to remain absolutely leak-free over a lifecycle of more than 50 years. With a focus on hygiene, our drinking water pipes are certified by strict international testing bodies to prevent legionella growth and strictly preserve the purity and taste of drinking water in hospitals, hotels and public infrastructure.",
+    "t2": "Advanced Fittings, Valves & Installation Tools",
+    "p2": "Beyond the basic pipe architecture, K-Aqua offers an extremely comprehensive range of injection-moulded fittings, transition connections and heavy-duty valves. Our PP-R and PP-RCT fittings include elbows, tees, reducers and electrofusion sockets that merge seamlessly with the pipe infrastructure to create a monolithic, chemically bonded network that is virtually indestructible. We integrate precision-engineered brass and dezincification-resistant (DZR) metal threads for perfect transition compatibility with existing metal sanitary components. To facilitate smooth installation, we offer professional polyfusion welding tools, from manual socket welding devices to massive hydraulic butt welding machines. This complete ecosystem ensures that contractors and engineers can rely on a single, unified system architecture for any complex installation requirement.",
+    "t3": "Sustainability, Life Cycle Assessment & CO2 Reduction",
+    "p3": "Sustainability is deeply rooted in the molecular engineering of our PP-R and PPRCT systems. By providing a remarkably low internal surface roughness of 0.007 mm, our pipes drastically reduce hydraulic friction and pressure loss throughout the network. According to the Darcy-Weisbach dynamic flow models, this minimal resistance leads directly to a massive reduction in the energy consumption of circulation pumps. Over an operational lifecycle of 50 years, this efficiency results in unprecedented CO2 savings and significantly lowers the total cost of ownership (TCO) for building and plant operators. Furthermore, polypropylene is 100% recyclable. Through our validated Type III Environmental Product Declarations (EPD) in accordance with EN 15804, we provide architects and green building planners with transparent, quantifiable data for LEED, BREEAM and DGNB certifications.",
+    "t4": "Global Reach, German Engineering & Certifications",
+    "p4": "Manufactured entirely in Germany under strict quality and environmental management protocols according to ISO 9001, ISO 14001 and ISO 50001, K-Aqua exports premium pipe solutions to over 50 countries worldwide. Our logistics network guarantees fast and secure delivery of complete systems to mega-projects in the Middle East, Southeast Asia and throughout Europe. Our unwavering commitment to quality is validated by major international certification bodies, including DVGW, SKZ, WRAS and KIWA. We support consulting engineers, BIM modellers and major contractors with detailed CAD/BIM libraries, intelligent calculation software and comprehensive technical support to ensure smooth project execution. K-Aqua represents the ultimate synthesis of advanced polymer science, sustainable engineering and uncompromising reliability in fluid management."
   }
 }

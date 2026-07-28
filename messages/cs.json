@@ -1428,7 +1428,12 @@
     "news": "News",
     "knowledge_trust": "Wissen & Vertrauen",
     "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht"
+    "sitemapAria": "Seitenübersicht",
+    "pipes": "Trubky",
+    "fittings": "Tvarovky",
+    "valves": "Ventily",
+    "accessories": "Příslušenství",
+    "tools": "Nástroje"
   },
   "groups": {
     "tools": "Werkzeuge",
@@ -1440,6 +1445,7 @@
   },
   "pages": {
     "catalogOverview": "Vollständiger Produktkatalog",
+    "finderGuideText": "<h2>Interaktivní vyhledávač produktů pro potrubní systémy K-Aqua</h2><p>Využijte náš inovativní vyhledávač produktů a najděte přesně ten správný komponent pro vaši konkrétní instalaci potrubí. Ať už hledáte standardní PP-R trubky pro instalaci pitné vody, trubky PPRCT vyztužené vlákny pro náročné průmyslové systémy, nebo speciální přechodové tvarovky a armatury – náš nástroj filtruje celý katalog v reálném čase. Vyhledávání produktů vám pomůže s výběrem podle průměru (d20 až d630), tlakové třídy (třída SDR) a materiálu.</p><p>Dobře strukturovaný potrubní systém vyžaduje přesné plánování a přesnou kombinaci trubek, tvarovek (jako jsou objímky, kolena a T-kusy) a odpovídajícího příslušenství. Náš vyhledávač produktů eliminuje časově náročné vyhledávání ve statických PDF katalozích a místo toho vám okamžitě poskytne spolehlivá data o číslech položek, balicích jednotkách a technických specifikacích. Pomocí několika kliknutí můžete sestavit seznam materiálů a zajistit kompatibilitu různých komponent pro systémy vytápění, chlazení a pitné vody. To nejen optimalizuje váš proces plánování, ale také minimalizuje chyby při objednávání materiálu pro váš další stavební projekt.</p>",
     "products": [
       "PP-R Kunststoffrohre & Fittings Übersicht",
       "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
@@ -1606,7 +1612,40 @@
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
     "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "cityMetaTitle": "Potrubní systémy PP-R v {city}",
+    "hubMetaTitle": "Potrubní systémy PP-R pro {country}",
+    "hubH1": "Infrastrukturní řešení pro {country}",
+    "hubLead": "K-Aqua nabízí certifikovaná infrastrukturní řešení PP-R a PP-RCT pro {country}. Naše potrubní systémy splňují nejvyšší mezinárodní standardy a jsou optimalizovány pro specifické výzvy v {country}.",
+    "hubContextTitle": "Regionální kontext: {context}",
+    "hubContextBody": "Naše potrubní systémy K-Aqua PP-R/PP-RCT z německé výroby poskytují udržitelná infrastrukturní řešení pro {country}. Jsou speciálně navrženy tak, aby splňovaly místní infrastrukturní výzvy.",
+    "hubCitiesTitle": "Místní pobočky a referenční města",
+    "hubs": {
+      "deutschland": {
+        "description": "Jako domácí trh společnosti K-Aqua klade Německo nejvyšší požadavky na kvalitu staveb a dlouhou životnost. Naše <strong>potrubní systémy PP-R a PP-RCT</strong> efektivně a udržitelně řeší naléhavou potřebu obnovy německé infrastruktury pro pitnou vodu a vytápění. Díky nekorozivním materiálům s certifikací DVGW snižujeme náklady na údržbu a zajišťujeme maximální hygienu systému u rozsáhlých komunálních, komerčních i soukromých projektů na celá desetiletí.",
+        "metaDesc": "Certifikované potrubní systémy PP-R/PP-RCT pro Německo. Německé inženýrství proti zaostávání v modernizaci infrastruktury pitné vody a vytápění."
+      },
+      "oesterreich": {
+        "description": "V Rakousku vyžaduje náročná topografie a přísné ekologické předpisy nekompromisní infrastrukturní řešení. Naše <strong>potrubní systémy K-Aqua</strong> nabízejí prvotřídní kvalitu pro trvanlivé vodovodní a dálkové topné sítě v alpských regionech. Díky bezpečnosti prověřené ÖVGW a vynikající tepelné izolaci zaručují naše trubky PP-R a PP-RCT výkon odolný vůči mrazu a tlaku i v těch nejextrémnějších klimatických podmínkách Alp.",
+        "metaDesc": "Prémiové potrubní systémy PP-R/PP-RCT pro Rakousko. Řešení odolná proti mrazu a tlaku pro vodovodní sítě a sítě dálkového vytápění v alpských oblastech."
+      },
+      "schweiz": {
+        "description": "Švýcarsko znamená přesnost, udržitelnost a nejvyšší standardy kvality. <strong>Systémy PP-R a PP-RCT společnosti K-Aqua</strong> splňují tyto požadavky prostřednictvím prvotřídní čistoty materiálů a bezpečnosti pro styk s potravinami s certifikací SVGW. Naše plně recyklovatelné, průtokově optimalizované plastové trubky umožňují energeticky účinné sanitární a klimatizační technologie pro progresivní stavební projekty Minergie v celém Švýcarsku.",
+        "metaDesc": "Prvotřídní potrubní systémy PP-R/PP-RCT pro Švýcarsko. Recyklovatelné plastové trubky s certifikací SVGW pro udržitelné stavební projekty Minergie."
+      },
+      "uae": {
+        "description": "V extrémních klimatických podmínkách Spojených arabských emirátů je voda tím nejcennějším zdrojem. <strong>Potrubní systémy K-Aqua PP-R/PP-RCT</strong> nabízejí maximální ochranu proti korozi a tvorbě vodního kamene, a to i při použití odsolené mořské vody (reverzní osmóza). Naše vysoce výkonné trubky odolné vůči UV záření a teplu zajišťují trvalé zásobování vodou v gigantických megaprojektech a výškových budovách v Dubaji a Abú Dhabí.",
+        "metaDesc": "Potrubní systémy PP-R/PP-RCT odolné proti UV záření a teplu pro SAE. Nejvyšší ochrana proti korozi a tvorbě vodního kamene v pouštním podnebí."
+      },
+      "ksa": {
+        "description": "V rámci Vize 2030 transformuje Saúdská Arábie celou svou infrastrukturu. <strong>Společnost K-Aqua pro to poskytuje nezbytnou vodní infrastrukturu</strong>. Naše velkoprůměrové potrubí PP-RCT zajišťuje bezpečnou, bezztrátovou a efektivní distribuci vody v nových chytrých městech, jako je NEOM. S certifikací podle mezinárodních standardů garantujeme nepřetržitý provoz při extrémně vysokých okolních teplotách.",
+        "metaDesc": "Velkoprůměrové potrubní systémy PP-RCT pro Saúdskou Arábii. Spolehlivá vodní infrastruktura pro Vizi 2030 a megaprojekty, jako je NEOM."
+      },
+      "singapur": {
+        "description": "Jako jeden z nejhustěji osídlených high-tech městských států v Asii potřebuje Singapur vysoce účinné a prostorově úsporné technologie budov. <strong>Inovativní potrubní systémy společnosti K-Aqua</strong> podporují ambiciózní cíle Singapuru v oblasti zelených budov tím, že drasticky snižují tlakové ztráty a nabízejí optimální tepelné vlastnosti. Od chlazení výškových budov (chlazená voda) až po dodávky ultračisté pitné vody stanovujeme standardy v Asii.",
+        "metaDesc": "Efektivní potrubí PP-R/PP-RCT pro zelené budovy v Singapuru. Specializované systémy pro chlazenou vodu a zásobování ultračistou pitnou vodou."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua: lídr v zásobování vodou. Potrubní systémy PP-R/PPRCT pro pitnou vodu, vyráběné společností KWT GmbH ve Waldsolms.",
@@ -3903,6 +3942,7 @@
     "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   },
   "co2": {
+    "guideText": "<h2>Udržitelnost a posuzování životního cyklu (LCA)</h2><p>Výběr správného potrubního systému má významný dopad na uhlíkovou stopu budovy nebo průmyslového závodu. Kalkulačka CO2 společnosti K-Aqua umožňuje kompletní posouzení životního cyklu (LCA) v souladu s normami EN 15804. Tato analýza pokrývá celý životní cyklus: od těžby surovin a výroby produktů (fáze A1-A3) přes přepravu a instalaci (fáze A4-A5) až po fázi používání (fáze B) a konec životnosti (fáze C).</p><p>Ve srovnání s konvenčními kovovými trubkami vyrobenými z mědi nebo oceli mají trubky PP-R a PPRCT od společnosti K-Aqua výrazně příznivější ekologickou bilanci. Nižší spotřeba energie při vytlačování plastu, stejně jako podstatně nižší hmotnost, výrazně snižují emise CO2 při výrobě a dopravě. Navíc zrcadlově hladký vnitřní povrch (drsnost pouhých 0,007 mm) zajišťuje extrémně nízký odpor proudění. Podle rovnice Darcy-Weisbach to znamená, že oběhová čerpadla musí vynaložit podstatně méně energie (elektřiny) na čerpání kapaliny systémem.</p><p>Zejména ve fázi používání (fáze B), která u potrubních systémů často trvá 50 a více let, tyto úspory energie představují obrovské úspory CO2 a nákladů (celkové náklady na vlastnictví, TCO). I na konci své životnosti (fáze C) nabízí polypropylen ekologické výhody, protože je 100% recyklovatelný a může být znovu použit v rámci oběhového hospodářství (modul D). Pomocí této kalkulačky můžete přesně a transparentně kvantifikovat potenciál ekologických a ekonomických úspor vašeho projektu K-Aqua.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "kairo": {
       "regulator": "HCWW: Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "singapur": {
       "regulator": "PUB: Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "kualalumpur": {
       "regulator": "SPAN: National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "mumbai": {
       "regulator": "BIS: Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     },
     "nairobi": {
       "regulator": "KEBS: Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "Městská infrastruktura v tomto regionu klade zvláštní požadavky na trvanlivost a spolehlivost potrubních systémů. V extrémních klimatických podmínkách a při vysokých nárocích na hygienu vody nabízejí řešení PP-R a PPRCT od společnosti K-Aqua rozhodující výhodu. Tradiční kovové trubky často trpí korozí a usazeninami minerálů, což vede k významným tlakovým ztrátám a plýtvání vodou v důsledku netěsností. Systémy K-Aqua naproti tomu zaručují díky nekorodujícímu materiálu a homogennímu polyfuznímu svařování absolutně těsnou bezúdržbovou instalaci po dobu více než 50 let. Hladký vnitřní povrch navíc umožňuje optimální hydraulické tokové vlastnosti, což drasticky snižuje spotřebu energie u oběhových čerpadel. Tyto faktory dělají z K-Aqua preferovanou volbu pro rozsáhlé hotelové komplexy, nemocnice, průmyslové chladicí systémy a náročné rezidenční projekty v městském sektoru."
     }
   },
   "notFound": {
@@ -6522,8 +6570,20 @@
     "extendedMarketText": {
       "p1": "Řešení od K Aqua jsou speciálně navržena tak, aby splňovala požadavky lokálních i mezinárodních trhů.",
       "p2": "Podporujeme generální dodavatele a projektanty přímo na místě naší technickou odborností a spolehlivými systémy pro každou výzvu.",
-      "p3": "Prostřednictvím naší globální sítě zajišťujeme, že získáte přesně ty produkty, které jsou optimální pro váš regionální stavební projekt."
+      "p3": "Prostřednictvím naší globální sítě zajišťujeme, že získáte přesně ty produkty, které jsou optimální pro váš regionální stavební projekt.",
+      "p4": "Výzvy v oblasti vodního hospodářství naší doby vyžadují na míru šitá a trvanlivá infrastrukturní řešení. Společnost K-Aqua se aktivně angažuje na mezinárodních trzích, aby uspokojila rostoucí poptávku po hygienických a bezztrátových potrubních sítích. Ať už v regionech s nedostatkem vody, kde musí být každá kapka chráněna svařovanými spoji bez úniků, nebo v hustě osídlených metropolích s komplexními požadavky na protipožární ochranu a zvukovou izolaci: naše systémy PP-R a PPRCT nabízejí nezbytnou spolehlivost.",
+      "p5": "Nespoléháme se přitom pouze na prodej samotných produktů, ale vnímáme se jako strategický partner na místě. Prostřednictvím technických školení, dohledu na místě a úzké spolupráce s místními úřady zajišťujeme, že mezinárodní normy (jako DVGW, WRAS, SASO) jsou nejen dodržovány, ale i překračovány. Tímto způsobem udržitelně přispíváme k modernizaci globální vodní infrastruktury."
     }
+  },
+  "seoExpansion": {
+    "t1": "Vysoce výkonné potrubní systémy a distribuce kapalin",
+    "p1": "Jako přední světový výrobce potrubních systémů PP-R a PPRCT nabízí společnost K-Aqua robustní, odolná a vysoce účinná řešení pro distribuci kapalin pro sítě pitné vody, vytápění a chlazení. Naše produktové portfolio sahá od standardních trubek PP-R SDR 11 až po speciální vícevrstvé trubky vyztužené skelnými vlákny (PP-RCT), které nabízejí mimořádnou odolnost vůči extrémním teplotám a vysokému tlakovému zatížení. Od domovních instalací až po masivní průmyslové sítě pro rozvod kapalin zaručují naše trubky maximální provozní spolehlivost. Každá trubka, extrudovaná na nejmodernějších německých strojích, je navržena tak, aby zůstala po dobu životnosti více než 50 let absolutně bez úniků. S důrazem na hygienu jsou naše trubky pro pitnou vodu certifikovány přísnými mezinárodními zkušebnami, aby se zabránilo růstu legionelly a striktně se zachovala čistota a chuť pitné vody v nemocnicích, hotelech a veřejné infrastruktuře.",
+    "t2": "Pokročilé tvarovky, ventily a instalační nástroje",
+    "p2": "Kromě základní architektury potrubí nabízí K-Aqua mimořádně komplexní řadu vstřikovaných tvarovek, přechodových spojů a ventilů pro vysoké zatížení. Naše tvarovky PP-R a PP-RCT zahrnují kolena, T-kusy, redukce a elektrotvarovky, které hladce splývají s infrastrukturou potrubí a vytvářejí monolitickou, chemicky spojenou síť, která je prakticky nezničitelná. Zahrnujeme přesně opracovanou mosaz a kovové závity odolné proti odzinkování (DZR) pro dokonalou přechodovou kompatibilitu se stávajícími kovovými sanitárními komponenty. Abychom zajistili bezproblémovou instalaci, nabízíme profesionální polyfuzní svařovací nástroje, od ručních svářeček pro polyfuzní svařování až po masivní hydraulické stroje pro svařování natupo. Tento kompletní ekosystém zajišťuje, že se stavební firmy a inženýři mohou spolehnout na jedinou jednotnou systémovou architekturu pro jakýkoli komplexní požadavek na instalaci.",
+    "t3": "Udržitelnost, ekologická bilance a snižování emisí CO2",
+    "p3": "Udržitelnost je hluboce zakořeněna v molekulárním inženýrství našich systémů PP-R a PPRCT. Díky pozoruhodně nízké vnitřní drsnosti povrchu pouhých 0,007 mm naše trubky drasticky snižují hydraulické tření a tlakové ztráty v celé síti. Podle modelů dynamického proudění Darcy-Weisbach vede tento minimální odpor přímo k masivnímu snížení spotřeby energie oběhových čerpadel. Během 50letého provozního cyklu vede tato účinnost k bezprecedentním úsporám CO2 a výrazně snižuje celkové náklady na vlastnictví (TCO) pro provozovatele budov a zařízení. Polypropylen je navíc 100% recyklovatelný. Prostřednictvím našich ověřených environmentálních prohlášení o produktu (EPD) typu III v souladu s EN 15804 poskytujeme architektům a projektantům zelených budov transparentní a kvantifikovatelná data pro certifikace LEED, BREEAM a DGNB.",
+    "t4": "Globální dosah, německé inženýrství a certifikace",
+    "p4": "K-Aqua se kompletně vyrábí v Německu podle přísných protokolů řízení kvality a ochrany životního prostředí podle ISO 9001, ISO 14001 a ISO 50001 a exportuje prémiová potrubní řešení do více než 50 zemí po celém světě. Naše logistická síť zaručuje rychlé a bezpečné dodání kompletních systémů pro megaprojekty na Blízkém východě, v jihovýchodní Asii a po celé Evropě. Náš neúnavný závazek ke kvalitě je potvrzen hlavními mezinárodními certifikačními orgány, včetně DVGW, SKZ, WRAS a KIWA. Podporujeme konzultační inženýry, tvůrce BIM modelů a velké dodavatele podrobnými knihovnami CAD/BIM, inteligentním výpočetním softwarem a komplexní technickou podporou, abychom zajistili hladké provádění projektů. K-Aqua představuje dokonalou syntézu pokročilé polymerní vědy, udržitelného inženýrství a nekompromisní spolehlivosti při distribuci kapalin."
   },
   "application": {
     "tabs": {

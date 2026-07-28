@@ -33,7 +33,7 @@ export function StepFlow({ steps }: StepFlowProps) {
             {i + 1}
           </span>
           <div>
-            <h4 className="mb-1 font-heading text-body font-bold text-foreground">{s.t}</h4>
+            <h3 className="mb-1 font-heading text-body font-bold text-foreground">{s.t}</h3>
             <p className="text-small leading-relaxed text-muted-foreground">{s.d}</p>
           </div>
         </div>
