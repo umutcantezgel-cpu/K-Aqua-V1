@@ -155,7 +155,7 @@ export default async function SitemapPage({ params }: Props) {
                         {hubMarkets.map(market => (
                           <li key={market.slug}>
                             <Link href={`/maerkte/${hub.slug}/${market.slug}`} className="hover:text-primary transition-colors text-sm">
-                              {market.city}
+                              {market.city === hub.name ? `${market.city} (City)` : market.city}
                             </Link>
                           </li>
                         ))}
