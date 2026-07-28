@@ -1406,6 +1406,11 @@
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
   "nav": {
+    "pipes": "Tubos",
+    "fittings": "Conexões",
+    "valves": "Válvulas",
+    "accessories": "Acessórios",
+    "tools": "Ferramentas",
     "home": "Start",
     "products": "Produkte",
     "finder": "Produktfinder",
@@ -1439,6 +1444,7 @@
     "knowledge_resources": "Wissen & Ressourcen"
   },
   "pages": {
+    "finderGuideText": "<h2>Localizador Interativo de Produtos para Sistemas de Tubulação K-Aqua</h2><p>Utilize nosso inovador localizador de produtos para identificar o componente exato para sua instalação específica de tubulação. Quer você esteja procurando por tubos PP-R padrão para instalações de água potável, tubos PPRCT reforçados com fibra para aplicações industriais exigentes, ou conexões de transição e válvulas especiais – nossa ferramenta filtra todo o catálogo em tempo real. A pesquisa de produtos ajuda você a selecionar por diâmetro (d20 a d630), classe de pressão (classe SDR) e material.</p><p>Um sistema de tubulação bem estruturado requer planejamento preciso e a combinação exata de tubos, conexões (como luvas, cotovelos e tês) e os acessórios apropriados. Nosso localizador de produtos elimina a busca demorada em catálogos estáticos em PDF e, em vez disso, fornece dados instantâneos e confiáveis sobre números de itens, unidades de embalagem e especificações técnicas. Com apenas alguns cliques, você pode compilar sua lista de materiais e garantir a compatibilidade dos vários componentes para sistemas de aquecimento, refrigeração e água potável. Isso não apenas otimiza o seu processo de planejamento, mas também minimiza os erros ao encomendar materiais para o seu próximo projeto de construção.</p>",
     "catalogOverview": "Vollständiger Produktkatalog",
     "products": [
       "PP-R Kunststoffrohre & Fittings Übersicht",
@@ -1605,6 +1611,39 @@
     "nearby": "In der Nähe.",
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert, inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
+    "cityMetaTitle": "Sistemas de tubulação PP-R em {city}",
+    "hubMetaTitle": "Sistemas de tubulação PP-R para {country}",
+    "hubH1": "Soluções de infraestrutura para {country}",
+    "hubLead": "A K-Aqua oferece soluções certificadas de infraestrutura em PP-R e PP-RCT para {country}. Nossos sistemas de tubulação atendem aos mais altos padrões internacionais e são otimizados para os desafios específicos em {country}.",
+    "hubContextTitle": "Contexto regional: {context}",
+    "hubContextBody": "Nossos sistemas de tubulação K-Aqua PP-R/PP-RCT de fabricação alemã fornecem soluções sustentáveis de infraestrutura para {country}. Eles são projetados especificamente para atender aos desafios de infraestrutura locais.",
+    "hubCitiesTitle": "Locais e cidades de referência locais",
+    "hubs": {
+      "deutschland": {
+        "description": "Como mercado doméstico da K-Aqua, a Alemanha exige os mais altos padrões de qualidade de construção e durabilidade. Nossos <strong>sistemas de tubulação em PP-R e PP-RCT</strong> lidam de forma eficaz e sustentável com as urgentes necessidades de renovação da infraestrutura alemã de água potável e aquecimento. Através de materiais livres de corrosão com certificação DVGW, reduzimos os custos de manutenção e garantimos máxima higiene do sistema em projetos de grande escala municipais, comerciais e residenciais por décadas.",
+        "metaDesc": "Sistemas de tubulação PP-R/PP-RCT certificados para a Alemanha. Engenharia alemã contra os atrasos na renovação da infraestrutura de água potável e aquecimento."
+      },
+      "oesterreich": {
+        "description": "Na Áustria, topografias desafiadoras e regulamentos ambientais rígidos exigem soluções de infraestrutura sem concessões. Nossos <strong>sistemas de tubulação K-Aqua</strong> oferecem qualidade premium para redes duráveis de água e aquecimento urbano em regiões alpinas. Com segurança testada pela ÖVGW e excelente isolamento térmico, nossos tubos PP-R e PP-RCT garantem desempenho à prova de gelo e resistente à pressão, mesmo sob as condições climáticas mais extremas dos Alpes.",
+        "metaDesc": "Sistemas de tubulação PP-R/PP-RCT premium para a Áustria. Soluções à prova de gelo e resistentes à pressão para redes de água e aquecimento urbano em regiões alpinas."
+      },
+      "schweiz": {
+        "description": "A Suíça é sinônimo de precisão, sustentabilidade e os mais altos padrões de qualidade. Os <strong>sistemas PP-R e PP-RCT da K-Aqua</strong> atendem a esses requisitos por meio da pureza de material de primeira classe e segurança alimentar certificada pela SVGW. Nossos tubos de plástico totalmente recicláveis e com fluxo otimizado permitem tecnologia sanitária e de ar condicionado com eficiência energética para projetos de construção Minergie de vanguarda em toda a região suíça.",
+        "metaDesc": "Sistemas de tubulação PP-R/PP-RCT de primeira classe para a Suíça. Tubos de plástico recicláveis com certificação SVGW para projetos de construção Minergie sustentáveis."
+      },
+      "uae": {
+        "description": "Sob as condições climáticas extremas dos Emirados Árabes Unidos, a água é o recurso mais valioso. Os <strong>sistemas de tubulação K-Aqua PP-R/PP-RCT</strong> oferecem proteção máxima contra corrosão e calcificação, mesmo ao usar água do mar dessalinizada (osmose reversa). Nossos tubos de alto desempenho, resistentes aos raios UV e ao calor, garantem o abastecimento duradouro de água nos gigantescos megaprojetos e arranha-céus de Dubai e Abu Dhabi.",
+        "metaDesc": "Sistemas de tubulação PP-R/PP-RCT resistentes a UV e calor para os Emirados Árabes Unidos. Proteção máxima contra corrosão e calcificação em climas desérticos."
+      },
+      "ksa": {
+        "description": "Como parte da Visão 2030, a Arábia Saudita está transformando toda a sua infraestrutura. A <strong>K-Aqua fornece a infraestrutura hídrica essencial para isso</strong>. Nossos tubos PP-RCT de grande calibre garantem uma distribuição de água segura, sem vazamentos e eficiente em novas cidades inteligentes, como NEOM. Certificados de acordo com padrões internacionais, garantimos uma operação ininterrupta sob temperaturas ambientes extremamente altas.",
+        "metaDesc": "Sistemas de tubos PP-RCT de grande calibre para a Arábia Saudita. Infraestrutura de água confiável para a Visão 2030 e megaprojetos como NEOM."
+      },
+      "singapur": {
+        "description": "Como uma das cidades-estado de alta tecnologia mais densamente povoadas da Ásia, Singapura requer tecnologia de construção altamente eficiente e que economize espaço. Os <strong>sistemas de tubulação inovadores da K-Aqua</strong> apoiam as ambiciosas metas de construção verde (Green Building) de Singapura por meio de quedas de pressão drasticamente reduzidas e propriedades térmicas otimizadas. Desde ar condicionado em edifícios altos (água gelada) até o fornecimento de água potável ultrapura, definimos padrões na Ásia.",
+        "metaDesc": "Tubos PP-R/PP-RCT eficientes para edifícios verdes de Singapura. Sistemas especializados para água gelada e fornecimento de água potável ultrapura."
+      }
+    },
     "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
     "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
   },
@@ -3904,6 +3943,7 @@
   },
   "co2": {
     "eyebrow": "Premium Engineering Tool",
+    "guideText": "<h2>Sustentabilidade e LCA (Avaliação do Ciclo de Vida)</h2><p>A escolha do sistema de tubulação correto tem um impacto significativo na pegada de carbono de um edifício ou instalação industrial. A calculadora de CO2 da K-Aqua permite uma avaliação completa do ciclo de vida (LCA) de acordo com os padrões da EN 15804. Esta análise abrange todo o ciclo de vida: desde a extração de matéria-prima e produção do produto (fases A1-A3) até o transporte e instalação (fases A4-A5), passando pela fase de uso (fase B) e fim de vida útil (fase C).</p><p>Em comparação com tubos de metal convencionais feitos de cobre ou aço, os tubos PP-R e PPRCT da K-Aqua apresentam um balanço ecológico significativamente mais favorável. O menor consumo de energia durante a extrusão do plástico e o peso muito menor reduzem significativamente as emissões de CO2 durante a produção e o transporte. Além disso, a superfície interna espelhada (rugosidade de apenas 0,007 mm) garante uma resistência ao fluxo extremamente baixa. De acordo com a equação de Darcy-Weisbach, isso significa que as bombas de circulação precisam usar muito menos energia (eletricidade) para bombear o fluido através do sistema.</p><p>Especialmente na fase de uso (Fase B), que frequentemente dura 50 anos ou mais para sistemas de tubulação, essa economia de energia se soma a economias massivas de CO2 e custos (Custo Total de Propriedade, TCO). Até mesmo no final de sua vida útil (Fase C), o polipropileno oferece vantagens ecológicas, uma vez que é 100% reciclável e pode ser reutilizado no espírito da economia circular (Módulo D). Use esta calculadora para quantificar de forma precisa e transparente as potenciais economias ecológicas e econômicas do seu projeto K-Aqua.</p>",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
     "lead": "Berechnen Sie die realen ökologischen und ökonomischen Auswirkungen Ihres Rohrleitungssystems über den gesamten Lebenszyklus. Mit echten physikalischen Strömungsmodellen (Darcy-Weisbach) und EN-konformen LCA-Phasen.",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "kairo": {
       "regulator": "HCWW, Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "singapur": {
       "regulator": "PUB, Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "kualalumpur": {
       "regulator": "SPAN, National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "mumbai": {
       "regulator": "BIS, Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     },
     "nairobi": {
       "regulator": "KEBS, Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "A infraestrutura urbana nesta região impõe demandas especiais sobre a durabilidade e confiabilidade dos sistemas de tubulação. Com condições climáticas extremas e altos requisitos para a higiene da água, as soluções de PP-R e PPRCT da K-Aqua oferecem uma vantagem decisiva. Tubos metálicos tradicionais frequentemente sofrem de corrosão e depósitos minerais, resultando em perdas significativas de pressão e desperdício de água devido a vazamentos. Os sistemas K-Aqua, por outro lado, garantem uma instalação absolutamente livre de vazamentos e de manutenção por mais de 50 anos, graças à natureza livre de corrosão do seu material e à soldagem homogênea por polifusão. Além disso, a superfície interna lisa permite propriedades de fluxo hidráulico ideais, o que reduz drasticamente a demanda de energia das bombas de circulação. Esses fatores fazem da K-Aqua a escolha preferida para complexos hoteleiros de grande porte, hospitais, sistemas de refrigeração industrial e projetos residenciais exigentes no setor urbano."
     }
   },
   "notFound": {
@@ -6522,7 +6570,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Os desafios da gestão da água do nosso tempo exigem soluções de infraestrutura sob medida e duráveis. A K-Aqua está ativamente envolvida nos mercados internacionais para atender à crescente demanda por redes de tubos higiênicas e sem perdas. Seja em regiões com escassez de água onde cada gota deve ser protegida por conexões soldadas sem vazamentos, ou em metrópoles altamente densas com requisitos complexos para proteção contra incêndio e isolamento acústico: nossos sistemas PP-R e PPRCT oferecem a confiabilidade necessária.",
+      "p5": "Ao fazer isso, não focamos apenas na simples venda de produtos, mas nos vemos como um parceiro estratégico local. Através de treinamento técnico, supervisão no local e cooperação estreita com as autoridades locais, garantimos que os padrões internacionais (como DVGW, WRAS, SASO) não sejam apenas atendidos, mas superados. Dessa forma, damos uma contribuição sustentável à modernização da infraestrutura hídrica global."
     }
   },
   "application": {
@@ -8192,5 +8242,15 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "seoExpansion": {
+    "t1": "Sistemas de tubulação de alto desempenho e gerenciamento de fluidos",
+    "p1": "Como fabricante líder mundial de sistemas de tubulação PP-R e PPRCT, a K-Aqua oferece soluções de gerenciamento de fluidos robustas, resistentes e altamente eficientes para redes de água potável, aquecimento e refrigeração. Nosso portfólio de produtos varia de tubos padrão PP-R SDR 11 a tubos multicamadas especiais reforçados com fibra de vidro (PP-RCT), que oferecem excepcional resistência a temperaturas extremas e cargas de alta pressão. Da instalação doméstica a redes maciças de distribuição de fluidos industriais, nossos tubos garantem máxima segurança operacional. Cada tubo, extrudado utilizando o que há de mais moderno em maquinário alemão, é projetado para permanecer absolutamente sem vazamentos durante um ciclo de vida superior a 50 anos. Com foco na higiene, nossos tubos de água potável são certificados por rigorosas agências internacionais de testes para prevenir o crescimento de Legionella e manter estritamente a pureza e o sabor da água potável em hospitais, hotéis e infraestrutura pública.",
+    "t2": "Conexões, válvulas e ferramentas de instalação avançadas",
+    "p2": "Além da arquitetura básica de tubos, a K-Aqua oferece uma linha extremamente abrangente de conexões moldadas por injeção, conexões de transição e válvulas reforçadas. Nossas conexões em PP-R e PP-RCT incluem cotovelos, tês, reduções e luvas de eletrofusão que se fundem perfeitamente à infraestrutura do tubo para criar uma rede monolítica, quimicamente ligada, que é praticamente indestrutível. Integramos latão usinado com precisão e roscas metálicas resistentes à deszincificação (DZR) para perfeita compatibilidade de transição com componentes hidráulicos metálicos existentes. Para facilitar a instalação suave, oferecemos ferramentas profissionais de soldagem por polifusão, desde aparelhos de soldagem manual até enormes máquinas hidráulicas de soldagem de topo. Este ecossistema completo garante que empreiteiros e engenheiros possam contar com uma arquitetura de sistema única e unificada para cada requisito de instalação complexo.",
+    "t3": "Sustentabilidade, avaliação do ciclo de vida e redução de CO2",
+    "p3": "A sustentabilidade está profundamente enraizada na engenharia molecular dos nossos sistemas PP-R e PPRCT. Ao fornecer uma rugosidade superficial interna notavelmente baixa de 0,007 mm, nossos tubos reduzem drasticamente o atrito hidráulico e a queda de pressão em toda a rede. De acordo com os modelos de fluxo dinâmico de Darcy-Weisbach, esta resistência mínima traduz-se diretamente no consumo de energia das bombas de circulação reduzido massivamente. Ao longo de um ciclo de vida operacional de 50 anos, essa eficiência leva a uma economia de CO2 sem precedentes e reduz significativamente os custos totais de propriedade (TCO) para operadores de edifícios e instalações. Além disso, o polipropileno é 100% reciclável. Por meio de nossas declarações ambientais de produto (EPD) validadas do Tipo III de acordo com a norma EN 15804, oferecemos aos arquitetos e planejadores de construções verdes (green building) dados transparentes e quantificáveis para certificações LEED, BREEAM e DGNB.",
+    "t4": "Alcance global, engenharia alemã e certificações",
+    "p4": "Fabricada inteiramente na Alemanha, sob rigorosos protocolos de qualidade e gestão ambiental baseados nas normas ISO 9001, ISO 14001 e ISO 50001, a K-Aqua exporta soluções premium de tubulações para mais de 50 países em todo o mundo. Nossa rede logística garante a entrega rápida e segura de sistemas completos para megaprojetos no Oriente Médio, Sudeste Asiático e toda a Europa. O nosso compromisso incansável com a qualidade é validado pelos principais organismos de certificação internacionais, incluindo DVGW, SKZ, WRAS e KIWA. Apoiamos engenheiros consultores, modeladores BIM e grandes empreiteiros com bibliotecas CAD/BIM detalhadas, software de cálculo inteligente e suporte técnico abrangente para garantir uma execução de projeto perfeita. A K-Aqua representa a síntese definitiva da ciência avançada de polímeros, engenharia sustentável e confiabilidade absoluta em gestão de fluidos."
   }
 }

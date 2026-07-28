@@ -1408,6 +1408,11 @@
   "nav": {
     "home": "Start",
     "products": "Produkte",
+    "pipes": "Rury",
+    "fittings": "Kształtki",
+    "valves": "Zawory",
+    "accessories": "Akcesoria",
+    "tools": "Narzędzia",
     "finder": "Produktfinder",
     "co2": "CO₂-Rechner",
     "markets": "Märkte",
@@ -1440,6 +1445,7 @@
   },
   "pages": {
     "catalogOverview": "Vollständiger Produktkatalog",
+    "finderGuideText": "<h2>Interaktywna wyszukiwarka produktów dla systemów rurowych K-Aqua</h2><p>Skorzystaj z naszej innowacyjnej wyszukiwarki produktów, aby znaleźć idealnie dopasowany element do swojej konkretnej instalacji rurowej. Niezależnie od tego, czy szukasz standardowych rur PP-R do instalacji wody pitnej, rur PPRCT wzmocnionych włóknem szklanym do wymagających instalacji przemysłowych, czy też specjalnych kształtek przejściowych i zaworów – nasze narzędzie filtruje cały katalog w czasie rzeczywistym. Wyszukiwarka wspiera Cię w doborze na podstawie średnicy (od d20 do d630), klasy ciśnienia (SDR) i materiału.</p><p>Dobrze zaprojektowany system rurowy wymaga precyzyjnego planowania i dokładnego doboru rur, kształtek (takich jak mufy, kolana i trójniki) oraz odpowiednich akcesoriów. Nasza wyszukiwarka eliminuje czasochłonne poszukiwania w statycznych katalogach PDF i dostarcza natychmiastowe, wiarygodne dane na temat numerów artykułów, jednostek opakowań i specyfikacji technicznych. Za pomocą zaledwie kilku kliknięć możesz skompletować listę materiałów i zapewnić kompatybilność poszczególnych komponentów dla systemów ogrzewania, chłodzenia i wody pitnej. To nie tylko optymalizuje proces planowania, ale także minimalizuje błędy podczas zamawiania materiałów do kolejnego projektu budowlanego.</p>",
     "products": [
       "PP-R Kunststoffrohre & Fittings Übersicht",
       "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
@@ -1584,6 +1590,39 @@
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
+    "cityMetaTitle": "Systemy rurowe PP-R w {city}",
+    "hubMetaTitle": "Systemy rurowe PP-R dla {country}",
+    "hubH1": "Rozwiązania infrastrukturalne dla {country}",
+    "hubLead": "K-Aqua oferuje certyfikowane rozwiązania infrastrukturalne PP-R i PP-RCT dla {country}. Nasze systemy rurowe spełniają najwyższe międzynarodowe standardy i są zoptymalizowane pod kątem specyficznych wyzwań w {country}.",
+    "hubContextTitle": "Kontekst regionalny: {context}",
+    "hubContextBody": "Nasze produkowane w Niemczech systemy rurowe K-Aqua PP-R/PP-RCT zapewniają zrównoważone rozwiązania infrastrukturalne dla {country}. Są one specjalnie zaprojektowane, aby sprostać lokalnym wyzwaniom infrastrukturalnym.",
+    "hubCitiesTitle": "Lokalne oddziały i miasta referencyjne",
+    "hubs": {
+      "deutschland": {
+        "description": "Jako rodzimy rynek K-Aqua, Niemcy stawiają najwyższe wymagania w zakresie jakości budownictwa i trwałości. Nasze <strong>systemy rurowe PP-R i PP-RCT</strong> skutecznie i trwale rozwiązują pilne potrzeby modernizacyjne niemieckiej infrastruktury wody pitnej i grzewczej. Dzięki odpornym na korozję, certyfikowanym przez DVGW materiałom zmniejszamy koszty konserwacji i gwarantujemy maksymalną higienę systemu w dużych projektach komunalnych, komercyjnych i prywatnych przez dziesięciolecia.",
+        "metaDesc": "Certyfikowane systemy rurowe PP-R/PP-RCT dla Niemiec. Niemiecka inżynieria w walce z opóźnieniami w modernizacji infrastruktury wody pitnej i ogrzewania."
+      },
+      "oesterreich": {
+        "description": "W Austrii wymagająca topografia i surowe przepisy środowiskowe wymagają bezkompromisowych rozwiązań infrastrukturalnych. Nasze <strong>systemy rurowe K-Aqua</strong> oferują najwyższą jakość dla trwałych sieci wodociągowych i ciepłowniczych w regionach alpejskich. Dzięki bezpieczeństwu przetestowanemu przez ÖVGW i wyjątkowej izolacji termicznej, nasze rury PP-R i PP-RCT gwarantują odporność na mróz i ciśnienie nawet w najbardziej ekstremalnych warunkach klimatycznych Alp.",
+        "metaDesc": "Systemy rurowe PP-R/PP-RCT klasy premium dla Austrii. Odporne na mróz i ciśnienie rozwiązania dla sieci wodociągowych i ciepłowniczych w regionach alpejskich."
+      },
+      "schweiz": {
+        "description": "Szwajcaria to synonim precyzji, zrównoważonego rozwoju i najwyższych standardów jakości. <strong>Systemy PP-R i PP-RCT K-Aqua</strong> spełniają te wymagania dzięki pierwszorzędnej czystości materiału i certyfikowanemu przez SVGW bezpieczeństwu dla żywności. Nasze rury z tworzyw sztucznych, zoptymalizowane pod kątem przepływu i w pełni nadające się do recyklingu, umożliwiają energooszczędną technikę sanitarną i klimatyzacyjną w zrównoważonych projektach budowlanych Minergie na terenie całej Szwajcarii.",
+        "metaDesc": "Pierwszorzędne systemy rurowe PP-R/PP-RCT dla Szwajcarii. Certyfikowane przez SVGW rury z tworzywa sztucznego podlegające recyklingowi, przeznaczone dla zrównoważonych projektów budowlanych Minergie."
+      },
+      "uae": {
+        "description": "W ekstremalnych warunkach klimatycznych Zjednoczonych Emiratów Arabskich woda jest najcenniejszym zasobem. <strong>Systemy rurowe PP-R/PP-RCT K-Aqua</strong> zapewniają doskonałą ochronę przed korozją i powstawaniem osadów, nawet w przypadku stosowania odsalanej wody morskiej (odwrócona osmoza). Nasze wysoce wydajne rury odporne na promieniowanie UV i wysoką temperaturę zapewniają stały dopływ wody w gigantycznych megaprojektach i wieżowcach Dubaju oraz Abu Zabi.",
+        "metaDesc": "Systemy rurowe PP-R/PP-RCT odporne na promieniowanie UV i wysoką temperaturę dla ZEA. Najwyższa ochrona przed korozją i powstawaniem osadów w pustynnym klimacie."
+      },
+      "ksa": {
+        "description": "W ramach Wizji 2030, Arabia Saudyjska transformuje całą swoją infrastrukturę. <strong>K-Aqua dostarcza do tego kluczową infrastrukturę wodną</strong>. Nasze wielkośrednicowe rury PP-RCT gwarantują bezpieczną, szczelną i wydajną dystrybucję wody w nowych inteligentnych miastach (Smart Cities), takich jak NEOM. Certyfikowane zgodnie z międzynarodowymi normami gwarantujemy bezawaryjną pracę w ekstremalnie wysokich temperaturach otoczenia.",
+        "metaDesc": "Wielkośrednicowe systemy rurowe PP-RCT dla Arabii Saudyjskiej. Niezawodna infrastruktura wodna dla Wizji 2030 i megaprojektów takich jak NEOM."
+      },
+      "singapur": {
+        "description": "Jako jedno z najgęściej zaludnionych państw-miast na świecie w Azji, Singapur potrzebuje wysoce wydajnej i oszczędzającej miejsce technologii budowlanej. <strong>Innowacyjne systemy rurociągowe K-Aqua</strong> wspierają ambitne cele budownictwa ekologicznego Singapuru poprzez drastyczne zmniejszenie spadków ciśnienia i optymalizację właściwości termicznych. Wyznaczamy w Azji standardy dla wszystkiego, od klimatyzacji w wieżowcach (chilled water) po zaopatrzenie w ultraczystą wodę pitną.",
+        "metaDesc": "Wydajne rury PP-R/PP-RCT dla ekologicznych budynków w Singapurze. Specjalistyczne systemy wody lodowej (chilled water) i zasilania w ultraczystą wodę pitną."
+      }
+    },
     "eyebrow": "Märkte & Standorte",
     "title1": "Eine Welt voller",
     "title2": "Märkten.",
@@ -3903,6 +3942,7 @@
     "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   },
   "co2": {
+    "guideText": "<h2>Zrównoważony rozwój i ocena cyklu życia (LCA - Life Cycle Assessment)</h2><p>Wybór odpowiedniego systemu rurowego ma znaczący wpływ na ślad węglowy budynku lub obiektu przemysłowego. Kalkulator CO2 K-Aqua umożliwia pełną ocenę cyklu życia (LCA) zgodnie z normami EN 15804. Analiza ta obejmuje cały cykl życia: od pozyskania surowców i produkcji (Fazy A1-A3), przez transport i instalację (Fazy A4-A5), po fazę użytkowania (Faza B) i koniec cyklu życia (End-of-Life, Faza C).</p><p>W porównaniu z konwencjonalnymi rurami metalowymi wykonanymi z miedzi lub stali, rury PP-R i PPRCT firmy K-Aqua charakteryzują się znacznie korzystniejszym bilansem ekologicznym. Mniejsze zapotrzebowanie na energię podczas wytłaczania tworzywa sztucznego i znacznie niższa waga znacznie zmniejszają emisję CO2 podczas produkcji i transportu. Ponadto niezwykle gładka powierzchnia wewnętrzna (chropowatość zaledwie 0,007 mm) zapewnia ekstremalnie niski opór przepływu. Zgodnie z równaniem Darcy-Weisbacha oznacza to, że pompy cyrkulacyjne zużywają znacznie mniej energii (prądu) do pompowania cieczy przez system.</p><p>Szczególnie w fazie użytkowania (Faza B), która w przypadku systemów rurociągowych trwa często 50 lat lub dłużej, te oszczędności energii sumują się w postaci ogromnych oszczędności CO2 i redukcji kosztów (Całkowity Koszt Posiadania, TCO). Polipropylen oferuje również korzyści ekologiczne pod koniec okresu użytkowania (faza C), ponieważ w 100% nadaje się do recyklingu i może zostać ponownie użyty zgodnie z zasadą gospodarki obiegu zamkniętego (Moduł D). Użyj tego kalkulatora, aby dokładnie i w przejrzysty sposób określić ilościowo ekologiczne i ekonomiczne potencjalne oszczędności Twojego projektu K-Aqua.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "kairo": {
       "regulator": "HCWW: Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "singapur": {
       "regulator": "PUB: Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "kualalumpur": {
       "regulator": "SPAN: National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "mumbai": {
       "regulator": "BIS: Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     },
     "nairobi": {
       "regulator": "KEBS: Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "Infrastruktura miejska w tym regionie stawia szczególne wymagania co do trwałości i niezawodności systemów rurowych. Przy ekstremalnych warunkach klimatycznych i wysokich wymaganiach dotyczących higieny wody, rozwiązania K-Aqua z PP-R i PPRCT oferują decydującą przewagę. Tradycyjne rury metalowe często ulegają korozji i osadzaniu się minerałów, co prowadzi do znacznych spadków ciśnienia i strat wody w wyniku nieszczelności. Systemy K-Aqua dzięki bezkorozyjnemu materiałowi i jednorodnemu zgrzewaniu polifuzyjnemu gwarantują absolutnie szczelną, bezobsługową instalację na ponad 50 lat. Ponadto gładka powierzchnia wewnętrzna zapewnia optymalne właściwości przepływu hydraulicznego, dzięki czemu zapotrzebowanie na energię pomp obiegowych ulega drastycznemu zmniejszeniu. Czynniki te sprawiają, że produkty K-Aqua są preferowanym wyborem w przypadku dużych kompleksów hotelowych, szpitali, przemysłowych instalacji chłodniczych i wymagających projektów budownictwa mieszkaniowego w sektorze miejskim."
     }
   },
   "notFound": {
@@ -6522,7 +6570,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Wyzwania naszych czasów związane z gospodarką wodną wymagają dostosowanych do indywidualnych potrzeb i trwałych rozwiązań infrastrukturalnych. K-Aqua jest aktywnie zaangażowana na rynkach międzynarodowych w zaspokajanie rosnącego zapotrzebowania na higieniczne i bezstratne sieci rurociągów. Niezależnie od tego, czy w regionach ubogich w wodę, w których każdą kroplę należy chronić poprzez szczelne złącza spawane, czy w gęsto zaludnionych metropoliach ze złożonymi wymaganiami dotyczącymi ochrony przeciwpożarowej i izolacji akustycznej: nasze systemy PP-R i PPRCT zapewniają niezbędną niezawodność.",
+      "p5": "Opieramy się nie tylko na samej sprzedaży produktów, ale postrzegamy siebie jako strategicznego partnera lokalnego. Poprzez szkolenia techniczne, nadzór na miejscu i bliską współpracę z władzami lokalnymi zapewniamy, że normy międzynarodowe (takie jak DVGW, WRAS, SASO) są nie tylko przestrzegane, ale nawet przekraczane. W ten sposób trwale przyczyniamy się do modernizacji globalnej infrastruktury wodnej."
     }
   },
   "application": {
@@ -8192,5 +8242,15 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "seoExpansion": {
+    "t1": "Wysokowydajne systemy rurowe i zarządzanie przepływami (Fluidmanagement)",
+    "p1": "Jako wiodący na świecie producent systemów rurowych PP-R i PPRCT, K-Aqua oferuje solidne, odporne i wysoce wydajne rozwiązania do zarządzania przepływami płynów dla sieci wody pitnej, ogrzewania i chłodzenia. Nasze portfolio produktów obejmuje standardowe rury PP-R SDR 11, po specjalne rury wielowarstwowe wzmocnione włóknem szklanym (PP-RCT), które zapewniają wyjątkową odporność na ekstremalne temperatury i wysokie obciążenia ciśnieniowe. Od instalacji domowych po masowe przemysłowe sieci dystrybucji płynów, nasze rury zapewniają maksymalne bezpieczeństwo operacyjne. Każda rura, wytłaczana na najnowocześniejszych niemieckich maszynach, została zaprojektowana tak, aby pozostała całkowicie szczelna przez okres eksploatacji wynoszący ponad 50 lat. Kładąc nacisk na higienę, nasze rury do wody pitnej są certyfikowane przez rygorystyczne międzynarodowe ośrodki badawcze, co pozwala zapobiegać rozwojowi bakterii Legionella i rygorystycznie utrzymywać czystość oraz smak wody pitnej w szpitalach, hotelach i infrastrukturze publicznej.",
+    "t2": "Zaawansowane kształtki, zawory i narzędzia instalacyjne",
+    "p2": "Oprócz podstawowej architektury rur, K-Aqua oferuje niezwykle szeroką gamę formowanych wtryskowo kształtek, złączek przejściowych i wytrzymałych zaworów. Nasze kształtki z PP-R i PP-RCT obejmują kolana, trójniki, redukcje oraz mufy elektrooporowe, które płynnie łączą się z infrastrukturą rurową, tworząc monolityczną, chemicznie połączoną sieć rurociągową, która jest praktycznie niezniszczalna. Integrujemy precyzyjnie wykonany mosiądz z odpornymi na odcynkowanie gwintami metalowymi (DZR), aby zapewnić doskonałą kompatybilność z istniejącymi elementami sanitarnymi z metalu. Aby ułatwić i usprawnić instalację, oferujemy profesjonalne narzędzia do zgrzewania polifuzyjnego, począwszy od ręcznych zgrzewarek mufowych po potężne hydrauliczne zgrzewarki doczołowe. Ten kompletny ekosystem daje wykonawcom budowlanym i inżynierom pewność polegania na jednej zunifikowanej architekturze systemu dla każdego złożonego wymogu instalacyjnego.",
+    "t3": "Zrównoważony rozwój, LCA (ekobilans) i redukcja emisji CO2",
+    "p3": "Zrównoważony rozwój jest głęboko zakorzeniony w inżynierii molekularnej naszych systemów PP-R i PPRCT. Zapewniając niezwykle niską chropowatość powierzchni wewnętrznej rzędu 0,007 mm, nasze rury drastycznie zmniejszają tarcie hydrauliczne i spadek ciśnienia w całej sieci. Według dynamicznych modeli przepływu Darcy-Weisbacha, ten minimalny opór przekłada się bezpośrednio na masowe zmniejszenie zużycia energii przez pompy obiegowe. W 50-letnim cyklu życia ta wydajność pozwala osiągnąć bezprecedensowe oszczędności CO2 i znacznie zmniejszyć całkowity koszt posiadania (TCO) dla operatorów budynków i instalacji. Ponadto polipropylen w 100% nadaje się do recyklingu. Poprzez nasze zwalidowane Deklaracje Środowiskowe Produktu III typu (EPD) zgodne z normą EN 15804, dostarczamy architektom i planistom zrównoważonego budownictwa przejrzystych, wymiernych danych do certyfikacji LEED, BREEAM i DGNB.",
+    "t4": "Globalny zasięg, German Engineering & certyfikacje",
+    "p4": "Produkowane w całości w Niemczech pod rygorystycznymi protokołami zarządzania jakością i ochroną środowiska zgodnie z normami ISO 9001, ISO 14001 i ISO 50001, wysokiej jakości rozwiązania rurowe K-Aqua są eksportowane do ponad 50 krajów na całym świecie. Nasza sieć logistyczna gwarantuje szybką i bezpieczną dostawę kompletnych systemów do megaprojektów na Bliskim Wschodzie, w Azji Południowo-Wschodniej i w całej Europie. Nasze nieustanne zaangażowanie w jakość zostało potwierdzone przez najważniejsze międzynarodowe jednostki certyfikujące, takie jak DVGW, SKZ, WRAS i KIWA. Wspieramy inżynierów konsultantów, modelarzy BIM i generalnych wykonawców poprzez dostarczanie szczegółowych bibliotek CAD/BIM, inteligentnego oprogramowania obliczeniowego i kompleksowego wsparcia technicznego, w celu zapewnienia sprawnej realizacji projektów. K-Aqua to ostateczna synteza zaawansowanej wiedzy o polimerach (Polymerwissenschaft), zrównoważonej inżynierii i bezkompromisowej niezawodności w zarządzaniu płynami."
   }
 }

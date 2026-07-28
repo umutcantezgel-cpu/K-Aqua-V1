@@ -1416,6 +1416,11 @@
     "quote": "Angebot anfragen",
     "menu": "Menü",
     "lang": "Sprache",
+    "pipes": "Borular",
+    "fittings": "Ek Parçalar",
+    "valves": "Vanalar",
+    "accessories": "Aksesuarlar",
+    "tools": "Araçlar",
     "skipToContent": "Zum Inhalt springen",
     "menuPlaceholder": "Platzhalter (Mega-Menü)",
     "academy": "Academy",
@@ -1439,6 +1444,7 @@
     "knowledge_resources": "Wissen & Ressourcen"
   },
   "pages": {
+    "finderGuideText": "<h2>K-Aqua Boru Sistemleri için İnteraktif Ürün Bulucu</h2><p>Spesifik boru tesisatınız için tam olarak uygun bileşeni belirlemek amacıyla yenilikçi ürün bulucumuzu kullanın. İçme suyu tesisatı için standart PP-R borular, zorlu endüstriyel tesisler için fiber takviyeli PPRCT borular veya özel geçiş ek parçaları ve vanalar arıyor olun, aracımız tüm kataloğu gerçek zamanlı olarak filtreler. Ürün arama, çap (d20 ila d630), basınç sınıfı (SDR sınıfı) ve malzemeye göre seçim yapmanıza yardımcı olur.</p><p>İyi yapılandırılmış bir boru sistemi, hassas bir planlama ve boruların, ek parçaların (manşonlar, dirsekler ve T parçaları gibi) ve ilgili aksesuarların doğru bir şekilde kombinasyonunu gerektirir. Ürün bulucumuz, statik PDF kataloglarındaki zaman alıcı aramayı ortadan kaldırır ve bunun yerine size parça numaraları, paketleme birimleri ve teknik özellikler hakkında anında, güvenilir veriler sağlar. Sadece birkaç tıklama ile malzeme listenizi derleyebilir ve ısıtma, soğutma ve içme suyu sistemleri için çeşitli bileşenlerin uyumluluğunu sağlayabilirsiniz. Bu sadece planlama sürecinizi optimize etmekle kalmaz, aynı zamanda bir sonraki inşaat projeniz için malzeme siparişindeki hataları da en aza indirir.</p>",
     "catalogOverview": "Vollständiger Produktkatalog",
     "products": [
       "PP-R Kunststoffrohre & Fittings Übersicht",
@@ -1606,7 +1612,40 @@
     "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert, inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
     "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "cityMetaTitle": "{city} içindeki PP-R Boru Sistemleri",
+    "hubMetaTitle": "{country} için PP-R Boru Sistemleri",
+    "hubH1": "{country} için Altyapı Çözümleri",
+    "hubLead": "K-Aqua, {country} için sertifikalı PP-R ve PP-RCT altyapı çözümleri sunar. Boru sistemlerimiz en yüksek uluslararası standartları karşılar ve {country} içindeki özel zorluklar için optimize edilmiştir.",
+    "hubContextTitle": "Bölgesel Bağlam: {context}",
+    "hubContextBody": "Alman üretimi K-Aqua PP-R/PP-RCT boru sistemlerimiz {country} için sürdürülebilir altyapı çözümleri sunar. Yerel altyapı zorluklarının üstesinden gelmek için özel olarak tasarlanmıştır.",
+    "hubCitiesTitle": "Yerel Konumlar ve Referans Şehirler",
+    "hubs": {
+      "deutschland": {
+        "description": "K-Aqua'nın ana pazarı olan Almanya, inşaat kalitesi ve dayanıklılık konusunda en yüksek taleplere sahiptir. <strong>PP-R ve PP-RCT boru sistemlerimiz</strong>, Alman içme suyu ve ısıtma altyapısındaki acil yenileme ihtiyacını etkili ve sürdürülebilir bir şekilde karşılar. Korozyonsuz, DVGW sertifikalı malzemeler sayesinde bakım maliyetlerini düşürür ve belediye, ticari ve büyük ölçekli özel projelerde onlarca yıl boyunca maksimum sistem hijyeni sağlarız.",
+        "metaDesc": "Almanya için sertifikalı PP-R/PP-RCT boru sistemleri. İçme suyu ve ısıtma altyapısındaki yenileme birikimine karşı Alman Mühendisliği."
+      },
+      "oesterreich": {
+        "description": "Avusturya'da zorlu topografyalar ve katı çevre düzenlemeleri, tavizsiz altyapı çözümleri gerektirir. <strong>K-Aqua boru sistemlerimiz</strong>, Alp bölgelerindeki uzun ömürlü su ve bölgesel ısıtma ağları için üstün kalite sunar. ÖVGW test onaylı güvenlik ve olağanüstü ısı yalıtımı ile PP-R ve PP-RCT borularımız, Alplerin en zorlu iklim koşullarında bile dona ve basınca dayanıklı performansı garanti eder.",
+        "metaDesc": "Avusturya için üstün kaliteli PP-R/PP-RCT boru sistemleri. Alp bölgelerindeki su ve bölgesel ısıtma ağları için dona ve basınca dayanıklı çözümler."
+      },
+      "schweiz": {
+        "description": "İsviçre hassasiyet, sürdürülebilirlik ve en yüksek kalite standartlarını temsil eder. <strong>K-Aqua'nın PP-R ve PP-RCT sistemleri</strong>, birinci sınıf malzeme saflığı ve SVGW sertifikalı gıda güvenliği sayesinde bu gereksinimleri karşılar. Tamamen geri dönüştürülebilir, akış için optimize edilmiş plastik borularımız, İsviçre genelindeki geleceğe yönelik Minergie inşaat projeleri için enerji verimli sıhhi tesisat ve iklimlendirme teknolojisi sağlar.",
+        "metaDesc": "İsviçre için birinci sınıf PP-R/PP-RCT boru sistemleri. Sürdürülebilir Minergie inşaat projeleri için SVGW sertifikalı, geri dönüştürülebilir plastik borular."
+      },
+      "uae": {
+        "description": "Birleşik Arap Emirlikleri'nin zorlu iklim koşullarında su en değerli kaynaktır. <strong>K-Aqua PP-R/PP-RCT boru sistemleri</strong>, deniz suyu arıtması (Ters Osmoz) kullanıldığında bile korozyona ve kireçlenmeye karşı en üst düzey koruma sağlar. UV ve ısıya dayanıklı yüksek performanslı borularımız, Dubai ve Abu Dabi'deki devasa projelerde ve gökdelenlerde sürekli su tedariki sağlar.",
+        "metaDesc": "BAE için UV ve ısıya dayanıklı PP-R/PP-RCT boru sistemleri. Çöl iklimlerinde korozyona ve kireçlenmeye karşı en yüksek koruma."
+      },
+      "ksa": {
+        "description": "Vizyon 2030 kapsamında Suudi Arabistan tüm altyapısını dönüştürüyor. <strong>K-Aqua bunun için temel su altyapısını sağlar</strong>. Büyük çaplı PP-RCT borularımız NEOM gibi yeni Akıllı Şehirlerde güvenli, sızdırmaz ve verimli su dağıtımı sağlar. Uluslararası standartlara göre sertifikalandırılmış olarak, son derece yüksek ortam sıcaklıklarında bile kesintisiz çalışmayı garanti ediyoruz.",
+        "metaDesc": "Suudi Arabistan için büyük çaplı PP-RCT boru sistemleri. Vizyon 2030 ve NEOM gibi dev projeler için güvenilir su altyapısı."
+      },
+      "singapur": {
+        "description": "Asya'nın en yoğun nüfuslu yüksek teknolojili şehir devletlerinden biri olan Singapur'un son derece verimli ve yerden tasarruf sağlayan bina teknolojisine ihtiyacı var. <strong>K-Aqua'nın yenilikçi boru sistemleri</strong>, önemli ölçüde azaltılmış basınç kayıpları ve optimum termal özellikler aracılığıyla Singapur'un iddialı Yeşil Bina hedeflerini destekler. Yüksek katlı binaların iklimlendirilmesinden (Soğutulmuş Su) ultra saf içme suyu teminine kadar Asya'da standartları belirliyoruz.",
+        "metaDesc": "Singapur'un Yeşil Binaları için verimli PP-R/PP-RCT boruları. Soğutulmuş Su ve ultra saf içme suyu tedariki için özel sistemler."
+      }
+    }
   },
   "footer": {
     "tagline": "K Aqua, führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
@@ -3904,6 +3943,7 @@
   },
   "co2": {
     "eyebrow": "Premium Engineering Tool",
+    "guideText": "<h2>Sürdürülebilirlik ve LCA (Yaşam Döngüsü Değerlendirmesi)</h2><p>Doğru boru sisteminin seçimi, bir binanın veya endüstriyel tesisin karbon ayak izi üzerinde önemli bir etkiye sahiptir. K-Aqua CO2 hesaplayıcısı, EN 15804 standartlarına uygun olarak kapsamlı bir Yaşam Döngüsü Değerlendirmesi (LCA) sağlar. Bu analiz, tüm yaşam döngüsünü kapsar: hammadde çıkarımı ve ürün üretiminden (A1-A3 Aşamaları) nakliye ve kuruluma (A4-A5 Aşamaları), kullanım aşamasına (Aşama B) ve ömrünü tamamlamasına (Aşama C) kadar.</p><p>Geleneksel bakır veya çelik metal borularla karşılaştırıldığında, K-Aqua'nın PP-R ve PPRCT boruları çok daha uygun bir çevresel dengeye sahiptir. Plastiğin ekstrüzyonu sırasında gereken düşük enerji ve çok daha düşük ağırlık, üretim ve nakliye sırasındaki CO2 emisyonlarını önemli ölçüde azaltır. Ayrıca, ayna pürüzsüzlüğündeki iç yüzey (sadece 0,007 mm pürüzlülük) son derece düşük akış direnci sağlar. Darcy-Weisbach denklemine göre bu, sirkülasyon pompalarının sıvıyı sistemden pompalamak için önemli ölçüde daha az enerji (elektrik) kullanması gerektiği anlamına gelir.</p><p>Özellikle boru sistemleri için genellikle 50 yıl veya daha uzun süren kullanım aşamasında (Aşama B), bu enerji tasarrufu, muazzam CO2 ve maliyet tasarrufları (Toplam Sahip Olma Maliyeti, TCO) sağlar. Polipropilen ayrıca %100 geri dönüştürülebilir olduğundan ve döngüsel ekonomi (Modül D) bağlamında yeniden kullanılabildiğinden, ömrünün sonunda (Aşama C) ekolojik avantajlar sunar. K-Aqua projenizin ekolojik ve ekonomik tasarruf potansiyelini hassas ve şeffaf bir şekilde ölçmek için bu hesaplayıcıyı kullanın.</p>",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
     "lead": "Berechnen Sie die realen ökologischen und ökonomischen Auswirkungen Ihres Rohrleitungssystems über den gesamten Lebenszyklus. Mit echten physikalischen Strömungsmodellen (Darcy-Weisbach) und EN-konformen LCA-Phasen.",
@@ -4975,6 +5015,7 @@
       "focusHeading": "Typische Projekte in Manama"
     },
     "amman": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "WAJ, Water Authority of Jordan / Miyahuna",
       "water": "Eines der wasserärmsten Länder der Welt, leckagefreie Schweißverbindungen sind aktive Wassersparpolitik (Non-Revenue Water < 2 %).",
       "focus": [
@@ -4986,6 +5027,7 @@
       "focusHeading": "Typische Projekte in Amman"
     },
     "kairo": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "HCWW, Holding Company for Water & Wastewater",
       "water": "Nilwasser mit saisonaler Trübung, glatte PP-Oberflächen minimieren Ablagerung in der Hausinstallation.",
       "focus": [
@@ -4997,6 +5039,7 @@
       "focusHeading": "Typische Projekte in Kairo"
     },
     "istanbul": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "İSKİ / TSE-Prüfung",
       "water": "Talsperrenwasser mit saisonalen Schwankungen, erdbebensicheres, duktiles Rohrverhalten ist Planungskriterium.",
       "focus": [
@@ -5008,6 +5051,7 @@
       "focusHeading": "Typische Projekte in Istanbul"
     },
     "singapur": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "PUB, Public Utilities Board",
       "water": "NEWater & entsalztes Wasser, tropische Dauerwärme, höchste Anforderungen an Langzeit-Druckstandfestigkeit.",
       "focus": [
@@ -5019,6 +5063,7 @@
       "focusHeading": "Typische Projekte in Singapur"
     },
     "kualalumpur": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "SPAN, National Water Services Commission",
       "water": "Tropisches Oberflächenwasser, hohe Umgebungsfeuchte, UV- und alterungsbeständige Systeme sind Standard.",
       "focus": [
@@ -5030,6 +5075,7 @@
       "focusHeading": "Typische Projekte in Kuala Lumpur"
     },
     "mumbai": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "BIS, Bureau of Indian Standards",
       "water": "Monsun-geprägte Talsperrenversorgung mit Intervallbetrieb, druckstoßfeste Schweißverbindungen zählen doppelt.",
       "focus": [
@@ -5041,6 +5087,7 @@
       "focusHeading": "Typische Projekte in Mumbai"
     },
     "kapstadt": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "SABS / SANS-Normenwerk",
       "water": "Wasserknappheit nach „Day Zero\", leckagefreie Schweißverbindungen sind hier Wassersparpolitik.",
       "focus": [
@@ -5052,6 +5099,7 @@
       "focusHeading": "Typische Projekte in Kapstadt"
     },
     "nairobi": {
+      "extendedMarketText": "Bu bölgedeki kentsel altyapı, boru sistemlerinin uzun ömürlülüğü ve güvenilirliği konusunda özel taleplerde bulunmaktadır. Aşırı iklim koşulları ve su hijyeni için yüksek gereksinimler ile K-Aqua'nın PP-R ve PPRCT çözümleri belirleyici bir avantaj sunar. Geleneksel metalik borular genellikle korozyondan ve mineral birikintilerinden muzdariptir, bu da sızıntılar yoluyla önemli basınç kayıplarına ve su israfına yol açar. K-Aqua sistemleri ise korozyonsuz malzeme yapıları ve homojen polifüzyon kaynağı sayesinde 50 yılı aşkın bir süre için kesinlikle sızdırmaz, bakım gerektirmeyen bir kurulumu garanti eder. Ayrıca pürüzsüz iç yüzeyi, optimum hidrolik akış özellikleri sağlayarak sirkülasyon pompaları için enerji gereksinimini önemli ölçüde azaltır. Bu faktörler, K-Aqua'yı kentsel sektördeki büyük ölçekli otel kompleksleri, hastaneler, endüstriyel soğutma sistemleri ve zorlu konut projeleri için tercih edilen seçenek haline getirmektedir.",
       "regulator": "KEBS, Kenya Bureau of Standards",
       "water": "Talsperren- und Grundwasser-Mix in schnell wachsender Metropole, robuste, einfach schulbare Verbindungstechnik gefragt.",
       "focus": [
@@ -6522,8 +6570,20 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Günümüzün su yönetimi zorlukları, özel olarak tasarlanmış, uzun ömürlü altyapı çözümleri gerektirmektedir. K-Aqua, hijyenik ve kayıpsız boru ağlarına yönelik artan talebi karşılamak için uluslararası pazarlara aktif olarak katılmaktadır. İster sızdırmaz kaynaklı bağlantılarla her damlanın korunması gereken su kıtlığı olan bölgelerde, ister yangından korunma ve ses yalıtımı konusunda karmaşık gereksinimleri olan yoğun nüfuslu metropollerde olsun: PP-R ve PPRCT sistemlerimiz gerekli güvenilirliği sunar.",
+      "p5": "Sadece ürün satışına odaklanmıyor, aynı zamanda kendimizi sahada stratejik bir ortak olarak görüyoruz. Teknik eğitim, yerinde denetim ve yerel makamlarla yakın işbirliği sayesinde, uluslararası standartların (DVGW, WRAS, SASO gibi) sadece karşılanmasını değil, aşılmasını da sağlıyoruz. Böylece küresel su altyapısının modernizasyonuna kalıcı bir katkıda bulunuyoruz."
     }
+  },
+  "seoExpansion": {
+    "t1": "Yüksek Performanslı Boru Sistemleri ve Akışkan Yönetimi",
+    "p1": "PP-R ve PPRCT boru sistemlerinde dünyanın önde gelen üreticisi olan K-Aqua, içme suyu, ısıtma ve soğutma ağları için sağlam, dayanıklı ve yüksek verimli akışkan yönetimi çözümleri sunar. Ürün portföyümüz, standart PP-R borulardan (SDR 11) aşırı sıcaklıklara ve yüksek basınç yüklerine karşı olağanüstü direnç sunan özel cam elyaf takviyeli çok katmanlı borulara (PP-RCT) kadar uzanmaktadır. Ev tesisatlarından devasa endüstriyel sıvı dağıtım ağlarına kadar, borularımız maksimum işletim güvenliğini garanti eder. En modern Alman makineleriyle ekstrüde edilen her boru, 50 yılı aşan bir yaşam döngüsü boyunca kesinlikle sızdırmaz kalacak şekilde tasarlanmıştır. Hijyen odaklı içme suyu borularımız, lejyonella büyümesini önlemek ve hastanelerde, otellerde ve kamu altyapısında içme suyunun saflığını ve tadını kesinlikle korumak için sıkı uluslararası test kurumları tarafından sertifikalandırılmıştır.",
+    "t2": "Gelişmiş Ek Parçalar, Vanalar ve Kurulum Araçları",
+    "p2": "K-Aqua, temel boru mimarisinin ötesinde, enjeksiyon kalıplı ek parçalar, geçiş bağlantıları ve ağır hizmet tipi vanalardan oluşan son derece kapsamlı bir yelpaze sunar. PP-R ve PP-RCT ek parçalarımız, boru altyapısıyla sorunsuz bir şekilde kaynaşan ve neredeyse yok edilemez monolitik, kimyasal olarak bağlı bir ağ oluşturan dirsekler, T parçaları, redüksiyonlar ve elektrofüzyon manşonları içerir. Mevcut metal sıhhi tesisat bileşenleriyle mükemmel geçiş uyumluluğu için hassas işlenmiş pirinç ve çinkosuzlaşmaya dirençli (DZR) metal dişler entegre ediyoruz. Sorunsuz bir kurulum sağlamak için, manuel manşon kaynak cihazlarından devasa hidrolik alın kaynak makinelerine kadar profesyonel polifüzyon kaynak araçları sunuyoruz. Bu eksiksiz ekosistem, inşaat şirketlerinin ve mühendislerin her türlü karmaşık kurulum gereksinimi için tek ve birleşik bir sistem mimarisine güvenebilmelerini sağlar.",
+    "t3": "Sürdürülebilirlik, Yaşam Döngüsü Değerlendirmesi ve CO2 Azaltımı",
+    "p3": "Sürdürülebilirlik, PP-R ve PPRCT sistemlerimizin moleküler mühendisliğinde derinlere kök salmıştır. Borularımız, 0,007 mm'lik olağanüstü düşük iç yüzey pürüzlülüğü sağlayarak ağ genelinde hidrolik sürtünmeyi ve basınç kaybını önemli ölçüde azaltır. Darcy-Weisbach'ın dinamik akış modellerine göre, bu minimum direnç doğrudan sirkülasyon pompalarının enerji tüketiminde büyük bir azalmaya yol açar. 50 yıllık bir operasyonel yaşam döngüsü boyunca bu verimlilik, eşi benzeri görülmemiş CO2 tasarrufu sağlar ve bina ve tesis operatörleri için toplam sahip olma maliyetini (TCO) önemli ölçüde düşürür. Ayrıca, polipropilen %100 geri dönüştürülebilir. EN 15804 uyarınca onaylanmış Tip III Çevresel Ürün Beyanlarımız (EPD) aracılığıyla, mimarlara ve yeşil bina planlamacılarına LEED, BREEAM ve DGNB sertifikaları için şeffaf, nicel veriler sunuyoruz.",
+    "t4": "Küresel Erişim, Alman Mühendisliği ve Sertifikalar",
+    "p4": "ISO 9001, ISO 14001 ve ISO 50001 standartlarına göre katı kalite ve çevre yönetimi protokolleri altında tamamen Almanya'da üretilen K-Aqua, dünya çapında 50'den fazla ülkeye birinci sınıf boru çözümleri ihraç etmektedir. Lojistik ağımız, Orta Doğu, Güneydoğu Asya ve Avrupa'nın her yerindeki mega projelere eksiksiz sistemlerin hızlı ve güvenli teslimatını garanti eder. Kaliteye olan sarsılmaz bağlılığımız DVGW, SKZ, WRAS ve KIWA dahil olmak üzere büyük uluslararası sertifikasyon kuruluşları tarafından onaylanmaktadır. Sorunsuz proje yürütülmesini sağlamak için danışman mühendisleri, BIM modelleyicilerini ve büyük yüklenicileri ayrıntılı CAD/BIM kitaplıkları, akıllı hesaplama yazılımları ve kapsamlı teknik destek ile destekliyoruz. K-Aqua, akışkan yönetiminde gelişmiş polimer biliminin, sürdürülebilir mühendisliğin ve tavizsiz güvenilirliğin nihai sentezini temsil eder."
   },
   "application": {
     "tabs": {

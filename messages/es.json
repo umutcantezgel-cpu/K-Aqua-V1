@@ -1428,7 +1428,12 @@
     "news": "Noticias",
     "knowledge_trust": "Conocimiento y Confianza",
     "mapAria": "Open map navigation",
-    "sitemapAria": "Sitemap"
+    "sitemapAria": "Sitemap",
+    "pipes": "Tuberías",
+    "fittings": "Accesorios",
+    "valves": "Válvulas",
+    "accessories": "Complementos",
+    "tools": "Herramientas"
   },
   "groups": {
     "tools": "Products & Tools",
@@ -1439,6 +1444,7 @@
     "knowledge_resources": "Conocimiento & Recursos"
   },
   "pages": {
+    "finderGuideText": "<h2>Buscador interactivo de productos para sistemas de tuberías K-Aqua</h2><p>Utilice nuestro innovador buscador de productos para identificar el componente exacto para su instalación de tuberías específica. Ya sea que busque tuberías PP-R estándar para instalaciones de agua potable, tuberías PPRCT reforzadas con fibra para sistemas industriales exigentes o accesorios y válvulas de transición especiales, nuestra herramienta filtra todo el catálogo en tiempo real. La búsqueda de productos le ayuda a seleccionar por diámetro (d20 a d630), clase de presión (clase SDR) y material.</p><p>Un sistema de tuberías bien estructurado requiere una planificación precisa y la combinación exacta de tuberías, accesorios (como manguitos, codos y tees) y los correspondientes accesorios adicionales. Nuestro buscador de productos elimina la búsqueda que consume mucho tiempo en catálogos PDF estáticos y en su lugar le proporciona datos inmediatos y fiables sobre números de artículo, unidades de embalaje y especificaciones técnicas. Con solo unos pocos clics, puede compilar su lista de materiales y garantizar la compatibilidad de los diferentes componentes para sistemas de calefacción, refrigeración y agua potable. Esto no solo optimiza su proceso de planificación, sino que también minimiza los errores al realizar el pedido de materiales para su próximo proyecto de construcción.</p>",
     "catalogOverview": "Resumen del catálogo",
     "products": [
       "Product System",
@@ -1606,7 +1612,40 @@
     "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (data slice: product × regulation × region). In Next.js they are generated via ISR from the Headless CMS: including hreflang, Product/Offer schema, and semantic internal linking.",
     "km": "km",
     "seoExpansion": "K-Aqua fabrica sistemas de tuberías de PP-R y PP-RCT en Waldsolms para las más altas exigencias de la ingeniería de edificios y plantas a nivel mundial. Gracias a una ingeniería alemana sin concesiones y a una tecnología de producción de vanguardia, nuestros sistemas garantizan décadas de fiabilidad operativa libre de mantenimiento. Cada producto, desde d20 hasta d630, se somete a estrictos controles de calidad y cumple con normativas internacionales como DVGW, KIWA y SKZ. No solo ofrecemos materiales de primera calidad para agua potable, refrigeración e industria, sino que también apoyamos a los planificadores e instaladores con un soporte técnico integral y capacitación en la obra. Confíe en un sistema que impresiona por su extrema longevidad, resistencia a la corrosión e higiene absoluta.",
-    "seoExpansionDynamic": "Obtenga más información sobre nuestras soluciones PP-R y PPRCT en {city}. Cumplimos con los estándares locales ({regulator}) y ofrecemos sistemas óptimos para la calidad del agua ({water}). Nota adicional: {note}."
+    "seoExpansionDynamic": "Obtenga más información sobre nuestras soluciones PP-R y PPRCT en {city}. Cumplimos con los estándares locales ({regulator}) y ofrecemos sistemas óptimos para la calidad del agua ({water}). Nota adicional: {note}.",
+    "cityMetaTitle": "Sistemas de tuberías PP-R en {city}",
+    "hubMetaTitle": "Sistemas de tuberías PP-R para {country}",
+    "hubH1": "Soluciones de infraestructura para {country}",
+    "hubLead": "K-Aqua ofrece soluciones de infraestructura PP-R y PP-RCT certificadas para {country}. Nuestros sistemas de tuberías cumplen con los más altos estándares internacionales y están optimizados para los desafíos específicos en {country}.",
+    "hubContextTitle": "Contexto regional: {context}",
+    "hubContextBody": "Nuestros sistemas de tuberías K-Aqua PP-R/PP-RCT de producción alemana ofrecen soluciones de infraestructura sostenibles para {country}. Están diseñados específicamente para satisfacer los desafíos infraestructurales locales.",
+    "hubCitiesTitle": "Ubicaciones locales y ciudades de referencia",
+    "hubs": {
+      "deutschland": {
+        "description": "Como mercado nacional de K-Aqua, Alemania exige los más altos estándares de calidad y durabilidad en la construcción. Nuestros <strong>sistemas de tuberías PP-R y PP-RCT</strong> abordan de manera efectiva y sostenible los problemas de renovación pendientes en la infraestructura alemana de calefacción y agua potable. Con materiales libres de corrosión y certificados por la DVGW, reducimos los costos de mantenimiento y garantizamos la máxima higiene del sistema en proyectos a gran escala municipales, comerciales y privados durante décadas.",
+        "metaDesc": "Sistemas de tuberías PP-R/PP-RCT certificados para Alemania. Ingeniería alemana contra los problemas de renovación en la infraestructura de calefacción y agua potable."
+      },
+      "oesterreich": {
+        "description": "La topografía alpina y las exigentes regulaciones de construcción de Austria requieren soluciones de tuberías extremadamente resilientes. Nuestros sistemas K-Aqua aseguran suministros fiables de agua potable y calefacción distribuida, incluso bajo las severas variaciones de temperatura y fluctuaciones de presión que a menudo se encuentran en el paisaje de infraestructuras austriaco.",
+        "metaDesc": "Sistemas K-Aqua PP-R/PP-RCT para Austria. Soluciones de infraestructura duraderas y resistentes a las temperaturas para proyectos alpinos."
+      },
+      "schweiz": {
+        "description": "Suiza es sinónimo de precisión y del más alto nivel en ingeniería de construcción. K-Aqua suministra sistemas de tuberías sostenibles que cumplen de forma fiable con los estrictos estándares suizos de higiene (SVGW) y eficiencia energética (Minergie), lo que nos convierte en un socio preferido para proyectos exigentes de suministro e HVAC.",
+        "metaDesc": "Soluciones de tuberías premium para Suiza. Los sistemas K-Aqua cumplen con los más altos estándares suizos en cuanto a calidad e higiene del agua potable."
+      },
+      "uae": {
+        "description": "En los Emiratos Árabes Unidos, el calor extremo y la refrigeración agresiva imponen inmensas demandas a los sistemas de fluidos. Las redes PP-RCT de K-Aqua proporcionan una gestión térmica excepcional y resistencia a la corrosión para aplicaciones de refrigeración y desalinización, apoyando el rápido crecimiento arquitectónico en los EAU con infraestructura a prueba de fugas a largo plazo.",
+        "metaDesc": "Sistemas de tuberías robustos para los EAU. Soluciones K-Aqua resistentes a la corrosión para refrigeración de distritos e infraestructura de agua."
+      },
+      "ksa": {
+        "description": "La Visión 2030 de Arabia Saudita está impulsando megaproyectos masivos que requieren soluciones de construcción escalables e innovadoras. K-Aqua entrega sistemas de tuberías de gran diámetro, ligeros pero duraderos, que aceleran los tiempos de instalación y resisten el duro clima de la región de KSA y las aguas ricas en minerales.",
+        "metaDesc": "Soluciones K-Aqua de gran diámetro para Arabia Saudita. Apoyando proyectos de infraestructura de la Visión 2030 con tecnología PP-RCT."
+      },
+      "singapur": {
+        "description": "La densidad urbana de Singapur requiere soluciones de construcción ultraeficientes que ahorren espacio. K-Aqua proporciona sistemas de tuberías PP-R ligeros y fáciles de soldar que agilizan las instalaciones en rascacielos al tiempo que previenen la corrosión y mantienen una pureza estricta del agua en un clima tropical húmedo.",
+        "metaDesc": "Sistemas de tuberías eficientes para rascacielos en Singapur. Tuberías K-Aqua PP-R resistentes a la corrosión para infraestructura tropical."
+      }
+    }
   },
   "footer": {
     "tagline": "K-Aqua: Leading in Water Supply. PP-R/PP-RCT piping systems for drinking water, made by KWT GmbH in Waldsolms, Germany.",
@@ -1875,7 +1914,7 @@
           "Higiénico: Cumple con los más estrictos estándares internacionales de agua potable (DVGW, KIWA)."
         ],
         "seoText": "Nuestras tuberías de alto rendimiento se fabrican en Waldsolms bajo los más altos estándares de calidad. La combinación de materiales PP-R y PP-RCT proporciona una excepcional resistencia a la temperatura y presión. Ya sea en servicios de construcción, ingeniería de plantas industriales o sistemas de refrigeración complejos, este sistema de tuberías ofrece la máxima seguridad y eficiencia. La tecnología de soldadura simple y segura garantiza conexiones absolutamente libres de fugas.",
-        "guideTitle": "Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen",
+        "guideTitle": "Guía completa: Planificación e instalación de sistemas de tuberías K Aqua PP-R y PPRCT",
         "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <strong>PP-R und PPRCT Rohrsysteme</strong> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau: K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><strong>Erhöhter Hydraulikdurchfluss:</strong> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><strong>Reduziertes Rohrgewicht:</strong> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><strong>Höhere Druckreserven:</strong> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K): was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><strong>Weniger Dehnungsausgleicher:</strong> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><strong>Größere Befestigungsabstände:</strong> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><strong>Formstabile Verlegung:</strong> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><strong>Druckprüfung:</strong> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><strong>Wärmedämmung:</strong> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><strong>UV-Schutz:</strong> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
         "seoTitle": "Resumen de Sistemas de Tuberías PP-R y PPRCT",
         "faq": [
@@ -1950,8 +1989,8 @@
         "areas": "Fijación de tuberías, sellado, conexión de brida, reparación",
         "advTitle": "Accesorios para una instalación conforme a la normativa",
         "advList": [
-          null,
-          null,
+          "Ajuste perfecto: Todos los accesorios están adaptados geométricamente al sistema de tuberías K Aqua.",
+          "Fijación termodinámica: Abrazaderas de tubería con inserción de goma para soportes fijos y móviles.",
           "Conexiones de brida de alta calidad: Bridas locas y juntas EPDM para la transición al metal.",
           "Reparación rápida: Tapones de reparación para tuberías perforadas accidentalmente.",
           "Resistencia a los rayos UV: Algunos accesorios seleccionados están estabilizados especialmente para la instalación en exteriores."
@@ -3468,6 +3507,16 @@
       }
     }
   },
+  "seoExpansion": {
+    "t1": "Sistemas sostenibles de alta calidad para el éxito de su proyecto",
+    "p1": "K-Aqua proporciona una gama completa de productos PP-R y PP-RCT excepcionalmente duraderos que superan las expectativas de la industria. Nuestra ingeniería de precisión en Alemania garantiza la calidad del agua a la vez que optimiza los costes a largo plazo.",
+    "t2": "Soluciones de instalación adaptables para cada desafío",
+    "p2": "Ya sea para plomería residencial o entornos industriales exigentes, las conexiones especializadas de K-Aqua ofrecen una flexibilidad y seguridad de instalación sin precedentes. Mitigamos el riesgo y la complejidad con componentes diseñados por expertos.",
+    "t3": "Construyendo un futuro más limpio y ecológico juntos",
+    "p3": "Las construcciones modernas requieren materiales sostenibles. Al reemplazar los metales propensos a la corrosión con nuestros avanzados polímeros, contribuye a reducir las emisiones de carbono y promueve una economía de infraestructura verdaderamente circular.",
+    "t4": "Innovación y soporte global de un socio comprometido",
+    "p4": "En K-Aqua, la colaboración no termina en el momento de la entrega. Nuestra red de soporte global y capacitación especializada empodera a su equipo para lograr instalaciones impecables y eficiencia operativa de por vida."
+  },
   "service": {
     "eyebrow": "Servicio",
     "title1": "Customer service &",
@@ -3907,6 +3956,7 @@
     "title1": "Calculate",
     "titleGrad": "green.",
     "lead": "Model your construction project and compare the K-Aqua system directly with copper, stainless steel and PVC: as an argument for LEED, BREEAM and DGNB.",
+    "guideText": "<p>Nuestra calculadora de CO₂ es una herramienta basada en datos que ayuda a arquitectos, ingenieros e instaladores a tomar decisiones informadas con respecto a la huella ecológica de sus instalaciones de tuberías. Al cuantificar directamente el ahorro de emisiones al elegir polímeros modernos sobre metales intensivos en carbono, permite a los equipos de proyectos alcanzar sus objetivos de sostenibilidad (como las certificaciones LEED o BREEAM) con mucha mayor facilidad. Utilice esta herramienta para generar de forma rápida e impactante informes de impacto ambiental para sus clientes.</p>",
     "tabGeometry": "Tubo",
     "tabFlow": "Fluido",
     "tabEnvironment": "Instalación",
@@ -4983,7 +5033,8 @@
         "Refugee camp infrastructure"
       ],
       "note": "Development bank funded projects: K-Aqua delivers tender-compliant documentation.",
-      "focusHeading": "Typical projects in Amman"
+      "focusHeading": "Typical projects in Amman",
+      "extendedMarketText": "En el clima seco y las redes de distribución desafiantes de Amán, las tuberías PP-R de K Aqua brindan una solución resistente a las fugas y conservadora de agua, minimizando las pérdidas en una región con escasez de agua."
     },
     "kairo": {
       "regulator": "HCWW: Holding de Agua y Aguas Residuales",
@@ -4994,7 +5045,8 @@
         "Red Sea hotel corridor"
       ],
       "note": "EOS registration via local partners; Mediterranean sea freight from Hamburg 10–14 days.",
-      "focusHeading": "Typical projects in Kairo"
+      "focusHeading": "Typical projects in Kairo",
+      "extendedMarketText": "Para la metrópolis en rápida expansión de El Cairo, nuestros sistemas PP-RCT ligeros pero robustos aceleran la construcción de infraestructuras críticas al tiempo que previenen la corrosión causada por las agresivas condiciones locales del agua."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE Certification",
@@ -5005,7 +5057,8 @@
         "New hospital construction"
       ],
       "note": "Flexible supply chains via road (5–7 days) or ocean freight.",
-      "focusHeading": "Typical projects in Istanbul"
+      "focusHeading": "Typical projects in Istanbul",
+      "extendedMarketText": "En Estambul, el puente entre continentes, K Aqua suministra tuberías duraderas que soportan cargas tanto térmicas como sísmicas, ofreciendo seguridad y longevidad para proyectos tanto asiáticos como europeos."
     },
     "singapur": {
       "regulator": "PUB: Junta de Servicios Públicos",
@@ -5016,7 +5069,8 @@
         "Semiconductor ultra-pure water pre-stages"
       ],
       "note": "Ocean freight from Hamburg; complete PUB submission documents available.",
-      "focusHeading": "Typical projects in Singapur"
+      "focusHeading": "Typical projects in Singapur",
+      "extendedMarketText": "La planificación urbana de Singapur exige una construcción sostenible en espacios reducidos; nuestros sistemas de soldadura limpios y compactos garantizan un flujo de fluidos seguro sin el riesgo de degradación por humedad tropical."
     },
     "kualalumpur": {
       "regulator": "SPAN: Comisión Nacional de Servicios de Agua",
@@ -5027,7 +5081,8 @@
         "Johor industrial corridor"
       ],
       "note": "SPAN listing via distribution partners; ASEAN hub for the region.",
-      "focusHeading": "Typical projects in Kuala Lumpur"
+      "focusHeading": "Typical projects in Kuala Lumpur",
+      "extendedMarketText": "Los desarrollos de rascacielos de Kuala Lumpur se benefician de las líneas de tuberías de alta presión y con tolerancia a la temperatura de K Aqua, mitigando eficazmente los desafíos de los ciclos de enfriamiento severos y la gestión hidráulica pesada."
     },
     "mumbai": {
       "regulator": "BIS: Oficina de Normas de la India",
@@ -5038,7 +5093,8 @@
         "Smart Cities program"
       ],
       "note": "BIS compliance on a project-specific basis; technical training remote + on-site.",
-      "focusHeading": "Typical projects in Mumbai"
+      "focusHeading": "Typical projects in Mumbai",
+      "extendedMarketText": "El inmenso crecimiento y las fluctuaciones climáticas estacionales de Mumbai requieren tuberías que no sucumban a la corrosión o la rotura; K Aqua garantiza un suministro ininterrumpido en entornos industriales y residenciales extremos."
     },
     "kapstadt": {
       "regulator": "SABS / SANS standards system",
@@ -5049,7 +5105,8 @@
         "Winery process water"
       ],
       "note": "Project business with local partner network; training of welding teams included.",
-      "focusHeading": "Typical projects in Kapstadt"
+      "focusHeading": "Typical projects in Kapstadt",
+      "extendedMarketText": "A medida que Ciudad del Cabo prioriza la resiliencia del agua, los sistemas de plástico higiénicos de K Aqua evitan la contaminación y apoyan la modernización eficiente y consciente del diseño de las redes de agua envejecidas."
     },
     "nairobi": {
       "regulator": "KEBS: Oficina de Normas de Kenia",
@@ -5060,7 +5117,8 @@
         "Hospital & education buildings"
       ],
       "note": "East Africa hub: delivery via Mombasa; welding training as capacity building.",
-      "focusHeading": "Typical projects in Nairobi"
+      "focusHeading": "Typical projects in Nairobi",
+      "extendedMarketText": "El rápido desarrollo comercial de Nairobi requiere infraestructuras adaptables; K Aqua ofrece sistemas fáciles de instalar que reducen de manera drástica el tiempo y el costo de la mano de obra, estableciendo nuevos estándares de construcción en Kenia."
     }
   },
   "notFound": {
@@ -6515,14 +6573,16 @@
   },
   "seo": {
     "extendedProductText": {
-      "p1": "Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit und Langlebigkeit für anspruchsvolle Projekte weltweit.",
-      "p2": "Dank fortschrittlicher Materialien und präziser Fertigung in Deutschland garantieren wir eine einfache Installation und dauerhafte Sicherheit.",
-      "p3": "Vertrauen Sie auf zertifizierte Qualität und nachhaltige Lösungen, die höchsten internationalen Standards entsprechen und die Effizienz Ihres Projekts steigern."
+      "p1": "Nuestros sistemas K Aqua de alta calidad ofrecen la máxima fiabilidad y durabilidad para proyectos exigentes en todo el mundo.",
+      "p2": "Gracias a materiales avanzados y la fabricación de precisión en Alemania, garantizamos una instalación sencilla y seguridad a largo plazo.",
+      "p3": "Confíe en la calidad certificada y en soluciones sostenibles que cumplen con los más altos estándares internacionales y aumentan la eficiencia de su proyecto."
     },
     "extendedMarketText": {
-      "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
-      "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p1": "Las soluciones de K Aqua están diseñadas específicamente para cumplir con los requisitos de los mercados locales e internacionales.",
+      "p2": "Apoyamos a los contratistas y planificadores locales con experiencia técnica y sistemas fiables para cada desafío.",
+      "p3": "A través de nuestra red global, nos aseguramos de que reciba exactamente los productos que son más adecuados para sus proyectos de construcción regionales.",
+      "p4": "Desde la planificación inicial hasta la fase de ejecución, K Aqua es su socio de confianza.",
+      "p5": "Con innovaciones continuas y altos estándares de calidad, damos forma activa al futuro de la tecnología de tuberías a nivel global."
     }
   },
   "application": {
@@ -7689,28 +7749,30 @@
   },
   "seoArticle": {
     "transitionFittings": {
-      "seoTitle": "Übergangsfittings aus Messing & PP-R",
-      "seoText": "Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik.",
-      "advTitle": "Sichere und homogene Verbindungen",
+      "seoTitle": "Accesorios de transición en latón y PP-R",
+      "seoText": "Los accesorios de transición sirven como puente vital entre las tuberías avanzadas PP-R/PPRCT de K Aqua y los componentes existentes de acero, cobre o latón. Estos accesorios requieren un nivel extraordinario de ingeniería.",
+      "advTitle": "Conexiones seguras y homogéneas",
       "advList": [
-        "DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung.",
-        "Das verdrehsichere Design hält hohen Drehmomenten stand.",
-        "Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine leckagefreie Leistung."
+        "Los insertos de latón DZR ofrecen una resistencia superior contra la descincificación.",
+        "El diseño antitorsión soporta altos torques.",
+        "Una conexión inseparable entre el plástico y el metal garantiza un rendimiento sin fugas."
       ],
-      "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Kesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  "
+      "guideText": "\n    <h2>Cerrando la brecha</h2>\n    <p>Cuando se trata de conectar sistemas de polímeros modernos con la infraestructura metálica tradicional, las conexiones seguras y homogéneas son de absoluta importancia. Los accesorios de transición sirven como un puente vital entre las tuberías avanzadas PP-R/PPRCT de K Aqua y los componentes existentes de acero, cobre o latón como calderas, enfriadores y accesorios de plomería. Estos accesorios requieren un nivel extraordinario de ingeniería para garantizar que la conexión entre el metal y el plástico permanezca completamente libre de fugas incluso bajo ciclos térmicos extremos y estrés mecánico.</p>\n    <p>Los accesorios de transición K Aqua cuentan con insertos de latón DZR (resistentes a la descincificación) profundamente incrustados y antitorsión. Durante el proceso de moldeo por inyección, el PP-R caliente se moldea directamente alrededor del complejo perfil geométrico del inserto de latón. A medida que el plástico se enfría y se contrae, agarra el latón con una fuerza enorme, formando una unión mecánica inseparable. Este diseño evita que el inserto de latón se tuerza o se salga, incluso cuando se somete al alto torque de una llave de fontanero durante la instalación.</p>\n    <p>Además, el latón DZR de alta calidad garantiza que la porción metálica del accesorio sea extremadamente resistente a las condiciones agresivas del agua, previniendo la corrosión prematura que a menudo afecta a los accesorios de latón estándar. Esto es especialmente crítico en sistemas de agua caliente, donde la velocidad de reacción se acelera significativamente.</p>\n    <ul>\n      <li>Los insertos de latón DZR ofrecen una resistencia superior contra la descincificación y la corrosión.</li>\n      <li>El diseño antitorsión maneja altos torques durante instalaciones roscadas sin problemas.</li>\n      <li>Una unión inseparable de plástico a metal garantiza un rendimiento sin fugas durante toda su vida útil.</li>\n      <li>Disponibles en una amplia gama de configuraciones roscadas macho y hembra.</li>\n      <li>Perfectos para conectar redes PP-R a bombas metálicas, válvulas y calderas.</li>\n    </ul>\n    <p>Ya sea que necesite adaptar una tubería de refrigeración industrial masiva de 125 mm a una brida de acero, o simplemente conectar una línea de agua residencial de 20 mm a una válvula angular cromada, K Aqua tiene la pieza de transición exacta requerida.</p>\n  "
     },
     "valves": {
-      "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten: wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE): sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion eliminiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "
+      "seoTitle": "Válvulas de cierre para PP-R y PP-RCT",
+      "seoText": "Las válvulas de bola y válvulas empotradas de K-Aqua ofrecen un control de flujo absoluto. Resistentes a la corrosión y perfectamente integrables en su sistema de tuberías.",
+      "guideText": "\n    <h2>Control absoluto de flujo</h2>\n    <p>Un sistema de tuberías avanzado es tan eficaz como los mecanismos que controlan el flujo. Las válvulas de cierre, las válvulas de compuerta y los colectores son los puntos de control de la infraestructura, lo que permite a los administradores de las instalaciones aislar las secciones del sistema para realizar tareas de mantenimiento, equilibrar las presiones y garantizar la seguridad de la planta. K Aqua ofrece una amplia gama de válvulas de alto rendimiento diseñadas específicamente para integrarse perfectamente en nuestros sistemas de tuberías de PP-R y PPRCT.</p>\n    <p>La ventaja más importante de las válvulas K Aqua es que su cuerpo está fabricado con el mismo polipropileno de alta calidad que nuestras tuberías y accesorios. Esto significa que se pueden soldar directamente a la red de tuberías mediante polifusión, eliminando así cualquier conexión mecánica o roscada entre la tubería y el cuerpo de la válvula. El resultado es una estructura de material continua y monolítica que garantiza la estanqueidad y reduce drásticamente los costes de mantenimiento. Nuestras válvulas están diseñadas para soportar las mismas rigurosas clasificaciones de temperatura y presión que el propio sistema de tuberías, lo que proporciona un funcionamiento increíblemente suave y sin mantenimiento durante décadas.</p>\n    <p>A diferencia de las válvulas de compuerta metálicas tradicionales, que a menudo se atascan o gotean por el prensaestopas después de años de inactividad, las válvulas revestidas de plástico de K Aqua son inmunes a la corrosión externa, lo que las hace perfectas para salas de máquinas húmedas, instalaciones enterradas o entornos industriales húmedos.</p>\n    <ul>\n      <li>El diseño de paso total evita cualquier restricción del flujo de fluidos.</li>\n      <li>Los cuerpos de plástico resistentes a la corrosión protegen los componentes metálicos internos.</li>\n      <li>La polifusión directa elimina la necesidad de conexiones roscadas vulnerables.</li>\n      <li>Las manijas ergonómicas y la ingeniería de precisión garantizan un funcionamiento suave.</li>\n      <li>Disponible en una amplia gama de tamaños para adaptarse a las necesidades residenciales e industriales.</li>\n    </ul>\n    <p>Nuestro diseño de paso total garantiza que, cuando la válvula está abierta, el flujo hidráulico no se restringe, lo que mantiene la presión óptima del sistema y maximiza la eficiencia de las bombas de circulación. Ya sea que necesite aislar un solo accesorio sanitario o controlar la línea de suministro principal de un edificio comercial, las válvulas K Aqua brindan la confiabilidad y el rendimiento necesarios.</p>\n    <p>Cada válvula se somete a rigurosas pruebas de presión antes del embalaje para garantizar que cumpla con nuestros estrictos estándares de calidad. Confíe en K Aqua cuando se trata de los mecanismos de control que mantienen sus redes de fluidos funcionando de manera segura y eficiente día tras día, año tras año.</p>\n  "
     },
     "fittings": {
-      "seoTitle": "Kunststoff-Fittings & Formteile für PP-R",
-      "seoText": "Sichere und homogene Verbindungen mit K-Aqua PP-R Formteilen. Entdecken Sie unser umfangreiches Sortiment an Fittings für höchste Ansprüche in der Rohrinstallation.",
-      "guideText": "\n    <h2>Sichere Verbindungen</h2>\n    <p>Sichere und homogene Verbindungen bilden das entscheidende Bindeglied in jedem zuverlässigen Rohrnetz. Die wahre Stärke des K Aqua-Rohrleitungssystems liegt in seiner revolutionären Verbindungstechnik. Im Gegensatz zu herkömmlichen Systemen, die auf mechanischer Kompression, Lötzinn oder flüchtigen chemischen Klebstoffen beruhen, nutzt K Aqua die thermische Polyfusion. Unser umfassendes Sortiment an Formteilen: von einfachen Bögen und T-Stücken bis hin zu komplexen Verteilern und Gewindeübergangsstücken: ist so konzipiert, dass es auf molekularer Ebene direkt mit dem Rohr verschmolzen wird.</p>\n    <p>Beim Muffenschweißverfahren werden sowohl die Außenwand des Rohres als auch die Innenwand des Fittings gleichzeitig auf exakt 260°C erhitzt. Beim Zusammenschieben vernetzen sich die geschmolzenen Polymerketten und erstarren zu einer durchgehenden, homogenen Masse. Die resultierende Verbindung ist optisch und physisch kaum vom Rohr selbst zu unterscheiden und wird zum stärksten Punkt im gesamten Netzwerk. Dadurch wird das Risiko von Mikrolecks, die bei Press- oder Stecksystemen nach jahrelangem Gebrauch häufig auftreten, vollständig ausgeschlossen.</p>\n    <p>Dadurch entfällt der Bedarf an Gummi-O-Ringen, Dichtungen oder internen Dichtungen vollständig, die sich im Laufe der Jahrzehnte der thermischen Zyklen unweigerlich verschlechtern, austrocknen oder versagen. Da der Fitting über das Rohr gleitet, gibt es absolut keine Verringerung des inneren Querschnitts, was bedeutet, dass es an den Verbindungsstellen zu keiner Durchflussbeschränkung oder keinem Druckverlust kommt.</p>\n    <ul>\n      <li>Dauerhafte molekulare Verbindungen, die das Risiko von Undichtigkeiten eliminieren.</li>\n      <li>Keine Verringerung des Durchflussdurchmessers, wodurch der Wasserdruck erhalten bleibt.</li>\n      <li>Beständigkeit gegen extreme Druckspitzen und Wasserschlageffekte.</li>\n      <li>Schneller, effizienter Installationsprozess im Vergleich zum Löten oder Gewindeschneiden.</li>\n      <li>Umfassende Formen- und Winkelvielfalt für jedes architektonische Layout.</li>\n    </ul>\n    <p>Darüber hinaus verfügen unsere Übergangsfittings für den Anschluss an bestehende metallische Infrastrukturen über tief eingebettete, verdrehsichere DZR-Messingeinsätze, die extremen Drehmomenten bei der Installation schwerer Ventile und Sanitärarmaturen problemlos standhalten. Jedes Formteil wird strengen Maß- und Belastungstests unterzogen, bevor es unser Werk verlässt, um sicherzustellen, dass es auf Ihrer Baustelle einwandfrei funktioniert.</p>\n    <p>Wer sich für K Aqua Fittings entscheidet, investiert in die Integrität des gesamten Sanitärsystems. Unsere konsequente Qualitätskontrolle stellt sicher, dass jede Verbindung, die Sie herstellen, eine ist, um die Sie sich nie wieder Sorgen machen müssen, und bietet eine dauerhafte Lösung für alle Anwendungen.</p>\n  "
+      "seoTitle": "Accesorios y conexiones de plástico para PP-R",
+      "seoText": "Conexiones seguras y homogéneas con accesorios K-Aqua PP-R. Descubra nuestra amplia gama de accesorios para los más altos estándares en instalación de tuberías.",
+      "guideText": "\n    <h2>Conexiones seguras</h2>\n    <p>Las conexiones seguras y homogéneas forman el eslabón crucial en cualquier red de tuberías confiable. La verdadera fortaleza del sistema de tuberías K Aqua radica en su revolucionaria tecnología de unión. A diferencia de los sistemas convencionales que se basan en compresión mecánica, soldadura o adhesivos químicos volátiles, K Aqua utiliza la polifusión térmica. Nuestra amplia gama de accesorios: desde simples codos y accesorios en T hasta complejos colectores y accesorios de transición roscados: está diseñada para fusionarse directamente con la tubería a nivel molecular.</p>\n    <p>Durante el proceso de soldadura a encaje, tanto la pared exterior de la tubería como la pared interior del accesorio se calientan simultáneamente a exactamente 260 °C. Cuando se unen, las cadenas de polímero fundido se entrecruzan y se solidifican en una masa continua y homogénea. La unión resultante es óptica y físicamente casi indistinguible de la tubería misma y se convierte en el punto más fuerte de toda la red. Esto elimina por completo el riesgo de microfugas que ocurren a menudo en los sistemas de encaje a presión o a presión después de años de uso.</p>\n    <p>Esto elimina por completo la necesidad de juntas tóricas de goma, empaquetaduras o sellos internos que inevitablemente se deterioran, secan o fallan con el transcurso de décadas de ciclos térmicos. Debido a que el accesorio se desliza sobre la tubería, no hay absolutamente ninguna reducción en el área de la sección transversal interna, lo que significa que no hay restricción de flujo ni pérdida de presión en las uniones.</p>\n    <ul>\n      <li>Conexiones moleculares permanentes que eliminan el riesgo de fugas.</li>\n      <li>Sin reducción en el diámetro de flujo, preservando la presión del agua.</li>\n      <li>Resistencia contra picos de presión extremos y efectos de golpe de ariete.</li>\n      <li>Proceso de instalación rápido y eficiente en comparación con la soldadura o el roscado.</li>\n      <li>Gama completa de formas y ángulos para cualquier diseño arquitectónico.</li>\n    </ul>\n    <p>Además, nuestros accesorios de transición para la conexión a la infraestructura metálica existente cuentan con insertos de latón DZR profundamente incrustados y a prueba de torsión que pueden soportar fácilmente los pares extremos al instalar válvulas pesadas y accesorios sanitarios. Cada accesorio se somete a rigurosas pruebas de tensión y dimensiones antes de salir de nuestra fábrica para garantizar que funcione sin problemas en su sitio de construcción.</p>\n    <p>Al elegir accesorios K Aqua, invierte en la integridad de todo el sistema de plomería. Nuestro riguroso control de calidad garantiza que cada conexión que realice sea de la que nunca tendrá que preocuparse de nuevo, proporcionando una solución duradera para todas las aplicaciones.</p>\n  "
     },
     "weldInSaddles": {
-      "seoTitle": "Einschweißsättel für PP-R Rohre",
-      "seoText": "K-Aqua Einschweißsättel ermöglichen einfache und sichere nachträgliche Abzweige ohne Leitungsunterbrechung. Minimale Installationszeit und maximale Systemintegrität.",
-      "guideText": "\n    <h2>Einfaches Abzweigen</h2>\n    <p>Wenn es um die Erweiterung oder Modifikation einer bestehenden Pipeline geht, bieten Weld-in Saddles (Einschweißsättel) für maximale Flexibilität eine beispiellose Lösung. Die Einschweißsättel von K Aqua sind eine innovative und hocheffiziente Methode zur Schaffung neuer Abzweige in bestehenden PP-R- und PPRCT-Netzwerken. Anstatt einen großen Abschnitt des Hauptrohrs abzuschneiden und ein sperriges, teures T-Stück zu installieren, können Sie mit einem Sattel einfach ein Loch in die Seite des Rohrs bohren und den Abzweig direkt auf die Außenwand schweißen.</p>\n    <p>Dieser Prozess spart enorm viel Zeit, Arbeit und Material, insbesondere bei der Arbeit mit Industrierohren mit großem Durchmesser. Der Sattel verfügt über eine konkave Basis, die perfekt an die Krümmung des Hauptrohrs angepasst ist und eine große Oberfläche für den Polyfusionsprozess gewährleistet. Einmal verschweißt, wird der Sattel zu einem permanenten, integralen Bestandteil des Hauptrohrs und weist die exakt gleiche Festigkeit und Druckfestigkeit wie ein werkseitig geformtes T-Stück auf.</p>\n    <p>Für Bauunternehmer, die ältere Gebäude nachrüsten oder einem aktiven Maschinenraum neue Geräte hinzufügen, sind Einschweißsättel ein absoluter Wendepunkt. Sie benötigen deutlich weniger Platz um das Rohr herum und ermöglichen Änderungen auch in engen, beengten Räumen, in denen das Manövrieren eines großen Schneidwerkzeugs unmöglich wäre.</p>\n    <ul>\n      <li>Reduziert die Materialkosten drastisch im Vergleich zu T-Stücken mit großem Durchmesser.</li>\n      <li>Minimiert Ausfallzeiten bei Nachrüstungen und Systemerweiterungen.</li>\n      <li>Erfordert weniger physischen Platz für die Installation in überfüllten Maschinenräumen.</li>\n      <li>Erhält die strukturelle Integrität und Druckstufe der Hauptleitung.</li>\n      <li>Erhältlich mit Messing-Gewindeeinsätzen zum direkten Anschluss an Sensoren oder Ventile.</li>\n    </ul>\n    <p>Wir bieten spezielle Bohrwerkzeuge und konturierte Heizmatrizen an, die speziell für die Verwendung mit unseren Sätteln entwickelt wurden. Dies stellt sicher, dass jedes Loch perfekt rund ist und jede Schweißnaht gleichmäßig erhitzt wird, was jedes Mal eine makellose, leckagefreie Verbindung garantiert. Unsere Einschweißsättel verkörpern das Engagement von K Aqua für praktisches, intelligentes Engineering.</p>\n    <p>Egal, ob Sie einen neuen Sensoranschluss, eine Entwässerungsleitung oder einen völlig neuen Verteilerabzweig hinzufügen, K Aqua-Einschweißsättel bieten die strukturelle Festigkeit und betriebliche Einfachheit, die erforderlich sind, um die Arbeit beim ersten Mal richtig zu erledigen.</p>\n  "
+      "seoTitle": "Injertos de soldadura para tuberías PP-R",
+      "seoText": "Los injertos de soldadura K-Aqua permiten ramificaciones posteriores fáciles y seguras sin interrumpir la línea. Mínimo tiempo de instalación y máxima integridad del sistema.",
+      "guideText": "\n    <h2>Ramificación simplificada</h2>\n    <p>Cuando se trata de expandir o modificar una tubería existente, los injertos de soldadura ofrecen una solución sin igual para la máxima flexibilidad. Los injertos de soldadura de K Aqua son un método innovador y altamente eficiente para crear nuevas ramificaciones en redes PP-R y PPRCT existentes. En lugar de cortar una gran sección de la tubería principal e instalar una conexión en T costosa y voluminosa, un injerto le permite simplemente perforar un agujero en el costado de la tubería y soldar la ramificación directamente a la pared exterior.</p>\n    <p>Este proceso ahorra enormes cantidades de tiempo, mano de obra y material, especialmente cuando se trabaja con tuberías industriales de gran diámetro. El injerto cuenta con una base cóncava que se adapta perfectamente a la curvatura de la tubería principal, proporcionando una gran área de superficie para el proceso de polifusión. Una vez soldado, el injerto se convierte en una parte permanente e integral de la tubería principal, presumiendo de la misma exactitud en clasificación de presión y fuerza que una T moldeada de fábrica.</p>\n    <p>Para los contratistas que renuevan edificios antiguos o agregan nuevos equipos a una sala de máquinas activa, los injertos de soldadura son un verdadero cambio en las reglas del juego. Requieren significativamente menos espacio libre alrededor de la tubería, lo que permite realizar modificaciones en espacios reducidos y confinados donde sería imposible maniobrar con una herramienta de corte grande.</p>\n    <ul>\n      <li>Reduce drásticamente los costos de material en comparación con las conexiones en T de gran diámetro.</li>\n      <li>Minimiza el tiempo de inactividad durante renovaciones y expansiones del sistema.</li>\n      <li>Requiere menos espacio físico para la instalación en salas de máquinas abarrotadas.</li>\n      <li>Mantiene la integridad estructural y la clasificación de presión de la línea principal.</li>\n      <li>Disponible con insertos roscados de latón para conexión directa a sensores o válvulas.</li>\n    </ul>\n    <p>Ofrecemos herramientas de perforación especializadas y matrices de calentamiento contorneadas diseñadas específicamente para su uso con nuestros injertos. Esto asegura que cada orificio sea perfectamente redondo y cada soldadura se caliente uniformemente, garantizando una conexión impecable y sin fugas en todo momento. Nuestros injertos de soldadura ejemplifican el compromiso de K Aqua con la ingeniería práctica e inteligente.</p>\n    <p>Ya sea que esté agregando un nuevo puerto de sensor, una línea de drenaje o una rama de colector completamente nueva, los injertos de soldadura K Aqua proporcionan la resistencia estructural y la simplicidad operativa necesarias para hacer el trabajo bien desde la primera vez.</p>\n  "
     },
     "tools": {
       "seoTitle": "Herramientas de Soldadura y Cortatubos para PP-R",

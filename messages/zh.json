@@ -1406,6 +1406,11 @@
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
   "nav": {
+    "pipes": "管道",
+    "fittings": "管件",
+    "valves": "阀门",
+    "accessories": "配件",
+    "tools": "工具",
     "home": "Start",
     "products": "Produkte",
     "finder": "Produktfinder",
@@ -1448,6 +1453,7 @@
       "Interaktiver Produktfinder für PP-R Rohre",
       "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
     ],
+    "finderGuideText": "使用我们的产品筛选器探索涵盖整个范围的PP-R和PPRCT解决方案。通过选择类别、尺寸、压力等级等来缩小您的搜索范围。通过比较不同系统或查找适用于水分配和冷却网络的合适组件，优化您的管道系统配置。",
     "co2": [
       "CO2-Rechner für nachhaltige Rohrsysteme",
       "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
@@ -1584,6 +1590,39 @@
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
+    "cityMetaTitle": "{city} PP-R/PPRCT管道系统及水资源解决方案 | K-Aqua",
+    "hubMetaTitle": "{hub} PP-R及PPRCT管道及水分配系统",
+    "hubH1": "{hub}的饮用水和冷却网络管道解决方案",
+    "hubLead": "为{hub}及周边市场提供先进的PP-R和PPRCT聚合物管道系统。按照德国质量标准制造，满足复杂的工程及项目需求。",
+    "hubContextTitle": "{hub}地区的高性能水资源基础设施",
+    "hubContextBody": "探索针对{hub}地区的定制水资源分配解决方案。我们的管道系统具备极高的耐用性并能抵御极端温度，是酒店、医院、住宅和工业项目的理想选择。采用坚固的PP-R及PPRCT材料，提供卓越的使用寿命与可靠性，满足本地监管要求并支持可持续的水资源管理。",
+    "hubCitiesTitle": "{hub}及周边地区的重点城市",
+    "hubs": {
+      "deutschland": {
+        "description": "探索适用于德国项目的PP-R及PPRCT管道解决方案。德国工程与本地水资源管理规范的结合。",
+        "metaDesc": "在德国寻找高品质的PP-R及PPRCT管道系统？K-Aqua为您提供符合德国饮用水和冷却网络标准的高级解决方案。"
+      },
+      "oesterreich": {
+        "description": "了解针对奥地利基础设施的耐用管道系统。适用于阿尔卑斯气候下的高效饮用水和冷却解决方案。",
+        "metaDesc": "奥地利的顶级PP-R及PPRCT管道。探索K-Aqua针对极寒天气和苛刻建筑标准的高级聚合物管材。"
+      },
+      "schweiz": {
+        "description": "专门满足瑞士高质量标准的管道解决方案。探索我们在瑞士的高性能水资源管理网络。",
+        "metaDesc": "适用于瑞士项目的优质PP-R及PPRCT管道。了解K-Aqua坚固且精确的系统如何提升水分配效率。"
+      },
+      "uae": {
+        "description": "应对阿联酋的极端气温与水压需求。我们先进的PP-R管材可确保中东项目在供水方面的长期稳定。",
+        "metaDesc": "阿联酋高性能PP-R和PPRCT管道。探索K-Aqua如何为迪拜、阿布扎比及其他地区的管道系统提供保障，防止腐蚀与泄漏。"
+      },
+      "ksa": {
+        "description": "旨在满足沙特阿拉伯严格水利基础设施需求的聚合物管道解决方案。适合大型项目及恶劣环境。",
+        "metaDesc": "沙特阿拉伯领先的PP-R及PPRCT系统。了解我们的管道如何提供持久、防泄漏的水资源解决方案以应对沙漠气候。"
+      },
+      "singapur": {
+        "description": "应对新加坡的高湿度与高密度城市环境。我们的聚合物管材可提高供水及冷却网络的效率与可靠性。",
+        "metaDesc": "新加坡高级PP-R及PPRCT管道网络。了解K-Aqua的聚合物解决方案如何应对热带气候下的冷热及供水需求。"
+      }
+    },
     "eyebrow": "Märkte & Standorte",
     "title1": "Eine Welt voller",
     "title2": "Märkten.",
@@ -3903,6 +3942,7 @@
     "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   },
   "co2": {
+    "guideText": "使用我们的CO2计算器，将K-Aqua的PP-R管材的碳足迹与其他常见管材如铜、不锈钢和PVC进行比较。由于重量轻并采用节能制造工艺，PP-R管材能够显著降低整个使用寿命期间的环境影响，从而助力项目的可持续发展（绿建）评估。该数据基于ISO 14040/44生命周期评估原则，可为生态型管道及水分配系统提供透明的见解。",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4983,7 +5023,8 @@
         "Flüchtlingsstadt-Infrastruktur"
       ],
       "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman"
+      "focusHeading": "Typische Projekte in Amman",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "kairo": {
       "regulator": "HCWW, Holding Company for Water & Wastewater",
@@ -4994,7 +5035,8 @@
         "Hotel-Korridor Rotes Meer"
       ],
       "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo"
+      "focusHeading": "Typische Projekte in Kairo",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-Prüfung",
@@ -5005,7 +5047,8 @@
         "Krankenhaus-Neubauten"
       ],
       "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul"
+      "focusHeading": "Typische Projekte in Istanbul",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "singapur": {
       "regulator": "PUB, Public Utilities Board",
@@ -5016,7 +5059,8 @@
         "Halbleiter-Reinstwasser-Vorstufen"
       ],
       "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur"
+      "focusHeading": "Typische Projekte in Singapur",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "kualalumpur": {
       "regulator": "SPAN, National Water Services Commission",
@@ -5027,7 +5071,8 @@
         "Industriekorridor Johor"
       ],
       "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur"
+      "focusHeading": "Typische Projekte in Kuala Lumpur",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "mumbai": {
       "regulator": "BIS, Bureau of Indian Standards",
@@ -5038,7 +5083,8 @@
         "Smart-Cities-Programm"
       ],
       "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai"
+      "focusHeading": "Typische Projekte in Mumbai",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "kapstadt": {
       "regulator": "SABS / SANS-Normenwerk",
@@ -5049,7 +5095,8 @@
         "Weingut-Prozesswasser"
       ],
       "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt"
+      "focusHeading": "Typische Projekte in Kapstadt",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     },
     "nairobi": {
       "regulator": "KEBS, Kenya Bureau of Standards",
@@ -5060,7 +5107,8 @@
         "Kranken- & Bildungsbauten"
       ],
       "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi"
+      "focusHeading": "Typische Projekte in Nairobi",
+      "extendedMarketText": "该地区的城市基础设施对管道系统的耐用性和可靠性提出了特殊要求。在极端气候条件和严格的水卫生标准下，K-Aqua的PP-R和PPRCT解决方案提供了决定性的优势。传统的金属管道往往受困于腐蚀和矿物质沉积，导致明显的压力损失及由泄漏引发的水资源浪费。相反，凭借其无腐蚀的材料特性及均匀的热熔焊接，K-Aqua系统保证了超过50年绝对防漏且免维护的安装。此外，平滑的内表面可实现最佳的液压流动性能，大幅降低了循环泵的能耗。这些因素使K-Aqua成为大型酒店综合体、医院、工业冷却设施及城市地区高端住宅项目的首选。"
     }
   },
   "notFound": {
@@ -6522,7 +6570,9 @@
     "extendedMarketText": {
       "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
       "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
-      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind."
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "我们时代的供水管理挑战需要量身定制、持久的基础设施解决方案。K-Aqua积极参与国际市场，以满足日益增长的对卫生且无损耗的管网需求。无论是在必须通过防漏焊接保护每一滴水的缺水地区，还是在对防火和隔音有复杂要求的高密度大都市，我们的PP-R和PPRCT系统都能提供必要的可靠性。",
+      "p5": "在此过程中，我们不仅注重纯粹的产品销售，还将自己定位为本地战略合作伙伴。通过技术培训、现场监督以及与当地政府的密切合作，我们确保不仅符合国际标准（如DVGW、WRAS、SASO），甚至超越这些标准。这样，我们为全球水利基础设施的现代化做出了持久的贡献。"
     }
   },
   "application": {
@@ -8192,5 +8242,15 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
+  },
+  "seoExpansion": {
+    "t1": "高性能管道系统与流体管理",
+    "p1": "作为全球领先的PP-R和PPRCT管道系统制造商，K-Aqua为饮用水、供暖和冷却网络提供坚固、耐用且高效的流体管理解决方案。我们的产品组合从标准的SDR 11 PP-R管道到特殊的玻璃纤维增强多层管道（PP-RCT），其能够提供卓越的抗极端温度和高压载荷的能力。从家庭安装到大型工业液体分配网络，我们的管道均可确保最大的运行安全性。每一根管材均由最先进的德国设备挤压成型，经设计在其超过50年的生命周期内保持绝对防漏。注重卫生的同时，我们的饮用水管道已通过严格的国际检测机构认证，可防止军团菌滋生，并严格维持医院、酒店和公共基础设施中饮用水的纯度与口感。",
+    "t2": "先进的管件、阀门与安装工具",
+    "p2": "除了基础的管道结构之外，K-Aqua还提供极其全面的注塑管件、过渡接头及重型阀门系列。我们的PP-R和PP-RCT管件包括弯头、三通、异径管以及电熔套筒，能够与管道基础设施无缝融合，从而形成一个极其坚固的整体式化学连接网络。我们整合了精密加工的黄铜和抗脱锌（DZR）金属螺纹，以实现与现有金属卫生组件的完美过渡兼容。为了实现顺畅的安装，我们提供专业的聚熔焊接工具，从手动承插焊机到大型液压对接焊机应有尽有。这个完整的生态系统确保了建筑公司和工程师在面对复杂的安装需求时，能够依赖单一、统一的系统架构。",
+    "t3": "可持续性、生命周期评估与二氧化碳减排",
+    "p3": "可持续性深刻根植于我们的PP-R和PPRCT系统的分子工程中。通过提供极低的0.007毫米内表面粗糙度，我们的管道极大地降低了整个网络中的水力摩擦和压力损失。根据达西-魏斯巴赫的动态流量模型，这种极小的阻力直接转化为循环泵能耗的大幅降低。在50年的运行生命周期中，这种效率可带来前所未有的二氧化碳减排，并显著降低建筑和设施运营商的总体拥有成本（TCO）。此外，聚丙烯是100%可回收的。通过我们经过验证的符合EN 15804的III型环境产品声明（EPD），我们为参与绿色建筑的建筑师和规划师提供了用于LEED、BREEAM和DGNB认证的透明且可量化的数据。",
+    "t4": "全球影响力、德国工程与认证",
+    "p4": "在德国根据严格的ISO 9001、ISO 14001和ISO 50001质量及环境管理协议生产，K-Aqua高级管道解决方案已出口至全球50多个国家。我们的物流网络保证将完整的系统快速安全地交付给中东、东南亚和整个欧洲的大型项目。我们对质量的不懈追求得到了包括DVGW、SKZ、WRAS和KIWA在内的主要国际认证机构的验证。我们为咨询工程师、BIM建模师和大型承包商提供详尽的CAD/BIM库、智能计算软件及全面的技术支持，以确保项目的顺利实施。K-Aqua代表了高级聚合物科学、可持续工程与流体管理中毫不妥协的可靠性的终极综合。"
   }
 }
