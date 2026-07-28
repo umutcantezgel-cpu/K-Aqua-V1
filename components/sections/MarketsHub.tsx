@@ -258,7 +258,7 @@ export default function MarketsHub({
                     <div className="flex w-full items-center justify-between">
                       <div className="flex flex-col">
                         <Link href={`/maerkte/${g.hubSlug}/${g.slug}`} className="font-heading font-bold text-[17px] text-foreground hover:text-primary transition-colors relative z-10" onClick={(e) => e.stopPropagation()}>
-                          <span className="sr-only">City </span>{g.city}
+                          {g.city}{g.city === g.country ? ' (Stadt)' : ''}
                         </Link>
                         <span className="text-[13px] text-muted-foreground">
                           <Link 
@@ -266,7 +266,7 @@ export default function MarketsHub({
                             className="hover:underline relative z-10"
                             onClick={(e) => e.stopPropagation()}
                           >
-                            <span className="sr-only">Region </span>{g.country}
+                            {g.country}{g.city === g.country ? ' (Region)' : ''}
                           </Link>
                           {" "}· {shortRegulator}
                         </span>
