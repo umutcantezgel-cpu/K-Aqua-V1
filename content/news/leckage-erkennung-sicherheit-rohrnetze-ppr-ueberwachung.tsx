@@ -13,9 +13,9 @@ import { ShieldAlert, Search, Activity, Wrench } from "@/components/ui/icon";
 export const leckageErkennungSicherheit: NewsPost = {
   slug: "leckage-erkennung-sicherheit-rohrnetze-ppr-ueberwachung",
   title: {
-    de: "Leckageerkennung in PPR Rohrsystemen",
-    en: "Leak Detection in PPR Pipe Systems",
-    ar: "كشف التسرب في أنظمة أنابيب PPR"
+    de: "Wasserschaden-Prävention durch Leckageerkennung",
+    en: "Water Damage Prevention via Leak Detection",
+    ar: "اكتشاف التسرب في أنظمة الأنابيب"
   },
   date: "2024-12-14",
   excerpt: {
