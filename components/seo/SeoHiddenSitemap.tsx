@@ -78,18 +78,18 @@ export default function SeoHiddenSitemap() {
             <Link href={`/news/${slug}`}>{slug}</Link>
           </li>
         ))}
-        {/* Hubs */}
-        {GEO_HUBS.map(hub => (
-          <li key={`hub-${hub.slug}`}>
-            <Link href={`/maerkte/${hub.slug}`}>{hub.name}</Link>
-          </li>
-        ))}
-        {/* Markets */}
-        {GEO_MARKETS.map(market => (
-          <li key={`market-${market.slug}`}>
-            <Link href={`/maerkte/${market.hubSlug}/${market.slug}`}>{market.city}</Link>
-          </li>
-        ))}
+        <ul className="flex flex-col gap-1">
+          {GEO_HUBS.map(hub => (
+            <li key={hub.slug}>
+              <Link href={`/maerkte/${hub.slug}`}>Region {hub.name}</Link>
+            </li>
+          ))}
+          {GEO_MARKETS.map(market => (
+            <li key={market.slug}>
+              <Link href={`/maerkte/${market.hubSlug}/${market.slug}`}>Stadt {market.city}</Link>
+            </li>
+          ))}
+        </ul>
       </ul>
     </nav>
   );
