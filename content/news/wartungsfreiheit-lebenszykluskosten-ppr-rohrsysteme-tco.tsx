@@ -9,8 +9,8 @@ import { TrendingDown, Clock, Zap, ShieldCheck } from "@/components/ui/icon";
 export const wartungsfreiheitLebenszykluskosten: NewsPost = {
   slug: "wartungsfreiheit-lebenszykluskosten-ppr-rohrsysteme-tco",
   title: {
-    de: "Lebenszykluskosten (TCO) von PPR Rohren",
-    en: "Lifecycle Costs (TCO) of PPR Pipes",
+    de: "Wartungsfreiheit & Langzeit-Wirtschaftlichkeit von PPR-Netzen",
+    en: "Maintenance-free Long-term Economics of PPR Networks",
     ar: "تكاليف دورة الحياة (TCO) لأنابيب PPR"
   },
   date: "2024-12-25",
