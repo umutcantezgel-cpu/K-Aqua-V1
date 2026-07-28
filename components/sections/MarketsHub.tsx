@@ -257,14 +257,16 @@ export default function MarketsHub({
                   >
                     <div className="flex w-full items-center justify-between">
                       <div className="flex flex-col">
-                        <Link href={`/maerkte/${g.hubSlug}/${g.slug}`} className="font-heading font-bold text-[17px] text-foreground hover:text-primary transition-colors relative z-10" onClick={(e) => e.stopPropagation()}>{g.city}</Link>
+                        <Link href={`/maerkte/${g.hubSlug}/${g.slug}`} className="font-heading font-bold text-[17px] text-foreground hover:text-primary transition-colors relative z-10" onClick={(e) => e.stopPropagation()}>
+                          <span className="sr-only">City </span>{g.city}
+                        </Link>
                         <span className="text-[13px] text-muted-foreground">
                           <Link 
                             href={`/maerkte/${g.hubSlug}`} 
                             className="hover:underline relative z-10"
                             onClick={(e) => e.stopPropagation()}
                           >
-                            {g.country}
+                            <span className="sr-only">Region </span>{g.country}
                           </Link>
                           {" "}· {shortRegulator}
                         </span>
@@ -283,7 +285,7 @@ export default function MarketsHub({
                       isActive ? "mt-4 pt-4 border-t opacity-100 max-h-[500px]" : "opacity-0 max-h-0 border-t-0"
                     )}>
                       <p className="text-sm text-muted-foreground">
-                        {geoContentTrans[g.slug]?.note || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
+                        {geoContentTrans[g.slug]?.focusHeading || geoContentTrans[g.slug]?.focus?.join(", ") || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
                       </p>
                       <div className="flex flex-col sm:flex-row gap-2 mt-1">
                         <LiquidMagneticButton

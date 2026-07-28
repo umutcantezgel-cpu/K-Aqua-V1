@@ -2,18 +2,21 @@
 
 import { Link } from '@/lib/i18n/navigation';
 import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 /* eslint-disable react/jsx-no-literals */
 
 import FooterTrustBadges from './FooterTrustBadges';
 import FooterSitemap from './FooterSitemap';
 import CodayAttribution from './CodayAttribution';
+import DynamicSeoBlock from '@/components/seo/DynamicSeoBlock';
 
 export default function Footer() {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
-    <footer className="bg-[#050505] text-white relative overflow-hidden pt-24 pb-6 md:pt-40 md:pb-8 selection:bg-white/20" data-nosnippet="true">
+    <>
+    <footer className="bg-[#050505] text-white relative overflow-hidden pt-24 pb-6 md:pt-40 md:pb-8 selection:bg-white/20">
       {/* Background Glow */}
       <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.12),transparent_70%)] pointer-events-none" />
       
@@ -23,7 +26,7 @@ export default function Footer() {
         
         {/* Top Area: Massive Brand Statement */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 border-b border-white/10 pb-16 md:pb-24 mb-16 md:mb-24">
-          <div className="max-w-4xl" data-nosnippet="true">
+          <div className="max-w-4xl">
             <p className="text-3xl md:text-5xl lg:text-[4.5rem] leading-[1.05] tracking-tight font-heading font-medium text-white/90">
               {t('footer.tagline')}
             </p>
@@ -85,5 +88,7 @@ export default function Footer() {
         
       </div>
     </footer>
+    <DynamicSeoBlock locale={locale} />
+    </>
   );
 }

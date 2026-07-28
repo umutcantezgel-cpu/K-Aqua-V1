@@ -400,7 +400,7 @@ export default async function ProductDetailPage({
 
                 {/* 4. Generated Technical SEO Narrative & Quality Assurance */}
                 {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm" data-nosnippet="true">
+                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
                     <h3 className="font-heading font-bold text-xl text-foreground mb-4">
                       {tProd('labels.technicalDescription')} (SEO) - {localizedTitle}
                     </h3>

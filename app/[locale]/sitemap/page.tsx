@@ -50,7 +50,9 @@ export default async function SitemapPage({ params }: Props) {
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
           <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
-            K-Aqua HTML Sitemap
+            {locale === 'de' ? 'K-Aqua HTML Sitemap - Alle Seiten im Überblick'
+             : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
+             : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
           </h1>
           <p className="text-xl text-muted-foreground font-normal mb-6">
             {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
