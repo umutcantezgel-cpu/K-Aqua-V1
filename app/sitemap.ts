@@ -10,10 +10,7 @@ const locales = ['de', 'en', 'ar'];
 const staticRoutes = [
   '',
   'academy',
-  'datenschutz',
-  'impressum',
   'karriere',
-  'kontakt',
   'loesungen',
   'maerkte',
   'news',
@@ -26,7 +23,6 @@ const staticRoutes = [
   'produkte/transition-fittings',
   'produkte/weld-in-saddles',
   'produkte/accessories',
-  'projektanfrage',
   'co2-rechner',
 
   'referenzen',
