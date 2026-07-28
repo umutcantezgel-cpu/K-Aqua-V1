@@ -42,6 +42,8 @@ export default async function UnternehmenPage({ params }: Props) {
   setRequestLocale(locale);
   const jsonLd = await getWebPageJsonLd(locale, "about");
   const t = await getTranslations({ locale, namespace: "about" });
+  const tMeta = await getTranslations({ locale, namespace: "about.meta" });
+  const metaTitle = tMeta("title");
 
   const cards = t.raw("cards") as PolicyItem[];
   const points = t.raw("points") as string[];
@@ -52,6 +54,7 @@ export default async function UnternehmenPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, ['about'])}>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{metaTitle}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-24 lg:py-32 kq-band kq-band--slant-b">

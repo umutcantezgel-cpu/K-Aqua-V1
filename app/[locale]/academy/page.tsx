@@ -31,6 +31,8 @@ export default async function AcademyPage({ params }: Props) {
   setRequestLocale(locale);
   const jsonLd = await getArticleJsonLd(locale, "academy");
   const t = await getTranslations({ locale, namespace: "academy" });
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("academy") as string[];
 
   const data = {
     eyebrow: t("eyebrow"),
@@ -57,6 +59,7 @@ export default async function AcademyPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx'])}>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
       <Academy data={data} />
       <AcademyDeep />
     </NextIntlClientProvider>

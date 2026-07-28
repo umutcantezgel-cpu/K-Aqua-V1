@@ -42,6 +42,8 @@ export default async function ReferenzenPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "references");
   const t = await getTranslations({ locale, namespace: "referenzenPage" });
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("references") as string[];
   const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding"] as const;
   const messages = await getMessages();
 
@@ -49,6 +51,7 @@ export default async function ReferenzenPage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, ['referenzenPage', 'refs', 'nav', 'common'])}>
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
 
       {/* Hero Section */}
       <ParallaxHero

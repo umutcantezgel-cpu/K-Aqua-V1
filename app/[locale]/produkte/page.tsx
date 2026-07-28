@@ -65,6 +65,7 @@ export default async function ProduktePage({ params }: Props) {
   const rawTableRows = t.raw("tableRows");
   const tableRows = Array.isArray(rawTableRows) ? rawTableRows as string[][] : [];
   const catalogJsonLd = await getProductCatalogJsonLd(locale);
+  const tProducts = await getTranslations({ locale, namespace: "productsx" });
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("products") as string[];
 
@@ -72,6 +73,8 @@ export default async function ProduktePage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, ['productsx', 'catalogx'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
+      <h1 className="sr-only">{tProducts("pageTitle")}</h1>
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
 
       {/* 5. Legacy Range System & Data Tables (Original Requirement) */}
       <section className="py-24 bg-background">
