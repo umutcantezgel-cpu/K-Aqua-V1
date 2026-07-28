@@ -120,7 +120,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <div className="sr-only" aria-hidden="true">
+        <div className="sr-only" aria-hidden="true" data-nosnippet="true">
           <p>
             {locale === 'de' ? 'K-Aqua Rohrsysteme in' : locale === 'ar' ? 'أنظمة أنابيب K-Aqua في' : 'K-Aqua Piping Systems in'} {hub.name} {locale === 'de' ? 'bieten erstklassige PP-R und PP-RCT Lösungen.' : locale === 'ar' ? 'توفر حلول PP-R و PP-RCT من الدرجة الأولى.' : 'provide premium PP-R and PP-RCT solutions.'}
           </p>
@@ -128,7 +128,7 @@ export default async function GeoHubPage({ params }: Props) {
             {locale === 'de' ? 'Als internationaler Partner für den Markt' : locale === 'ar' ? 'كشريك دولي للسوق' : 'As an international partner for the market'} {hub.name}{locale === 'de' ? ' sichern wir lokale Expertise und höchste Trinkwasser-Qualitätsstandards.' : locale === 'ar' ? '، نضمن الخبرة المحلية وأعلى معايير جودة مياه الشرب.' : ', we ensure local expertise and the highest drinking water quality standards.'}
           </p>
           <p>
-            {locale === 'de' ? 'Erfahren Sie mehr über unsere zertifizierten Produkte und kontaktieren Sie unsere lokalen Repräsentanten für Ihr nächstes Bauprojekt.' : locale === 'ar' ? 'اكتشف المزيد عن منتجاتنا المعتمدة واتصل بممثلينا المحليين لمشروع البناء القادم الخاص بك.' : 'Discover more about our certified products and contact our local representatives for your next construction project.'}
+            {locale === 'de' ? `Kontaktieren Sie unsere ${hub.name}-Repräsentanten für Ihr nächstes Bauprojekt in ${hub.name}. K-Aqua liefert zertifizierte PP-R Rohrsysteme in die Region ${hub.name}.` : locale === 'ar' ? `اتصل بممثلينا في ${hub.name} لمشروع البناء القادم الخاص بك في ${hub.name}. K-Aqua توفر أنظمة أنابيب PP-R معتمدة في منطقة ${hub.name}.` : `Contact our ${hub.name} representatives for your next construction project in ${hub.name}. K-Aqua delivers certified PP-R piping systems to the ${hub.name} region.`}
           </p>
         </div>
 
