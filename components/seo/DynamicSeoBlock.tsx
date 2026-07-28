@@ -91,3 +91,4 @@ export default function DynamicSeoBlock({ locale }: { locale: string }) {
       </div>
     </div>
   );
+}
