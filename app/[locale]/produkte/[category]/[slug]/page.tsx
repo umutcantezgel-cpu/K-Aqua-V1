@@ -305,14 +305,14 @@ export default async function ProductDetailPage({
               <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-2 animate-reveal">
                 {localizedTitle}
                 <span className="sr-only">
-                  {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme' : locale === 'ar' ? ' لأنظمة أنابيب PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems'}
+                  {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme & Fittings' : locale === 'ar' ? ' لأنظمة أنابيب وتجهيزات PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems & Fittings'}
                 </span>
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
                 {dynamicSeoH1}
               </p>
               <p className="sr-only" aria-hidden="true">
-                {localizedTitle} {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme' : locale === 'ar' ? ' لأنظمة أنابيب PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems'}
+                {localizedTitle} {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme & Fittings' : locale === 'ar' ? ' لأنظمة أنابيب وتجهيزات PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems & Fittings'}
               </p>
               <Reveal delay={0.12}>
                 {uniqueDesc ? (

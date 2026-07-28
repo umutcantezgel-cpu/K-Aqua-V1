@@ -172,7 +172,7 @@ export default async function GeoCityPage({ params }: Props) {
       {/* Dynamic SEO Text Blocks */}
       <div className="sr-only" aria-hidden="true">
         <p>
-          {locale === 'de' ? 'Das K-Aqua Vertriebsnetz in' : locale === 'ar' ? 'شبكة مبيعات K-Aqua في' : 'The K-Aqua sales network in'} {market.city} {locale === 'de' ? 'bietet maßgeschneiderte PP-R und PP-RCT Rohrsysteme an.' : locale === 'ar' ? 'توفر أنظمة أنابيب PP-R و PP-RCT مخصصة.' : 'offers tailored PP-R and PP-RCT piping systems.'}
+          {locale === 'de' ? 'Das K-Aqua Vertriebsnetz in' : locale === 'ar' ? 'شبكة مبيعات K-Aqua في' : 'The K-Aqua sales network in'} {market.city} {locale === 'de' ? 'bietet maßgeschneiderte PP-R Rohrsysteme und Lösungen an.' : locale === 'ar' ? 'توفر أنظمة أنابيب وحلول PP-R مخصصة.' : 'offers tailored PP-R piping systems and solutions.'}
         </p>
         <p>
           {locale === 'de' ? 'Unsere Produkte erfüllen die lokalen Anforderungen, wie' : locale === 'ar' ? 'تلبي منتجاتنا المتطلبات المحلية، مثل' : 'Our products meet local requirements, such as'} {localizedData.regulator} {locale === 'de' ? 'und sind ideal für die lokale Wasserqualität:' : locale === 'ar' ? 'ومثالية لجودة المياه المحلية:' : 'and are ideal for the local water quality:'} {localizedData.water}.

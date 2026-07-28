@@ -8,8 +8,8 @@ import { HeartPulse, ShieldCheck, Droplet, Thermometer } from "@/components/ui/i
 export const trinkwasserhygieneKrankenhaus: NewsPost = {
   slug: "trinkwasserhygiene-krankenhaus-legionellen-schutz-ppr",
   title: {
-    de: "Trinkwasserhygiene in Krankenhäusern",
-    en: "Drinking Water Hygiene in Hospitals",
+    de: "Krankenhaus-Wasserversorgung: Bakterienprävention",
+    en: "Hospital Water Supply: Bacteria Prevention",
     ar: "نظافة مياه الشرب في المستشفيات"
   },
   date: "2024-11-12",

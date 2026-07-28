@@ -122,7 +122,7 @@ export default async function GeoHubPage({ params }: Props) {
         {/* Dynamic SEO Text Blocks */}
         <div className="sr-only" aria-hidden="true" data-nosnippet="true">
           <p>
-            {locale === 'de' ? 'K-Aqua Rohrsysteme in' : locale === 'ar' ? 'أنظمة أنابيب K-Aqua في' : 'K-Aqua Piping Systems in'} {hub.name} {locale === 'de' ? 'bieten erstklassige PP-R und PP-RCT Lösungen.' : locale === 'ar' ? 'توفر حلول PP-R و PP-RCT من الدرجة الأولى.' : 'provide premium PP-R and PP-RCT solutions.'}
+            {locale === 'de' ? 'K-Aqua Rohrsysteme und Lösungen in' : locale === 'ar' ? 'أنظمة أنابيب وحلول K-Aqua في' : 'K-Aqua Piping Systems and solutions in'} {hub.name} {locale === 'de' ? 'bieten erstklassige PP-R und PP-RCT Qualität.' : locale === 'ar' ? 'توفر جودة PP-R و PP-RCT من الدرجة الأولى.' : 'provide premium PP-R and PP-RCT quality.'}
           </p>
           <p>
             {locale === 'de' ? 'Als internationaler Partner für den Markt' : locale === 'ar' ? 'كشريك دولي للسوق' : 'As an international partner for the market'} {hub.name}{locale === 'de' ? ' sichern wir lokale Expertise und höchste Trinkwasser-Qualitätsstandards.' : locale === 'ar' ? '، نضمن الخبرة المحلية وأعلى معايير جودة مياه الشرب.' : ', we ensure local expertise and the highest drinking water quality standards.'}

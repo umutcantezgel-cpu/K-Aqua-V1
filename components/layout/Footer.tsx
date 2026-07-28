@@ -8,7 +8,6 @@ import { useTranslations, useLocale } from 'next-intl';
 import FooterTrustBadges from './FooterTrustBadges';
 import FooterSitemap from './FooterSitemap';
 import CodayAttribution from './CodayAttribution';
-import DynamicSeoBlock from '@/components/seo/DynamicSeoBlock';
 
 export default function Footer() {
   const t = useTranslations();
@@ -88,7 +87,6 @@ export default function Footer() {
         
       </div>
     </footer>
-    <DynamicSeoBlock locale={locale} />
     </>
   );
 }
