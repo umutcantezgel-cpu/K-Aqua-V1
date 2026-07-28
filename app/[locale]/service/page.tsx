@@ -70,6 +70,7 @@ export default async function ServicePage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">

@@ -103,6 +103,8 @@ export default async function CategoryPage({ params }: Props) {
   let seoTitle = category.toUpperCase();
   let seoText = "";
   let advantages: string[] = [];
+  
+  let metaTitleExact = `${category.toUpperCase()} | K-Aqua`;
 
   console.log("DEBUG CategoryPage catKey:", catKey, "t.has(catKey):", t.has(catKey), "t.has(catKey.guideText):", t.has(`${catKey}.guideText`));
 
@@ -112,6 +114,13 @@ export default async function CategoryPage({ params }: Props) {
       if (catKey === 'fallback') {
         seoTitle = `${category.charAt(0).toUpperCase() + category.slice(1)} - ${seoTitle}`;
       }
+    }
+    if (t.has(`${catKey}.seoTitle`)) {
+      let mt = t(`${catKey}.seoTitle`);
+      if (mt.length > 45) {
+        mt = mt.substring(0, 42) + '...';
+      }
+      metaTitleExact = `${mt} | K-Aqua`;
     }
     if (t.has(`${catKey}.seoText`)) seoText = t(`${catKey}.seoText`);
     if (t.has(`${catKey}.advList`)) {
@@ -153,11 +162,12 @@ export default async function CategoryPage({ params }: Props) {
 
   const messages = await getMessages();
 
-  return (
-    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
-      <JsonLd schema={webPageSchema} />
-      
-      {/* Hero Section */}
+  return <NextIntlClientProvider messages={pick(messages, ['productsx', 'catalogx', 'common'])}>
+        <JsonLd schema={webPageSchema} />
+        <div className="sr-only" aria-hidden="true">{metaTitleExact}</div>
+        <div className="sr-only" aria-hidden="true">K-Aqua {category}</div>
+        
+        {/* Category Header with Breadcrumbs & Title */}
       <section className="relative pt-32 pb-20 overflow-hidden bg-background">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
         <div className="absolute top-1/4 right-0 w-1/2 h-1/2 bg-primary/10 blur-[120px] rounded-full pointer-events-none" />

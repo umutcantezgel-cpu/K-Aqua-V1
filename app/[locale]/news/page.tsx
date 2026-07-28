@@ -36,6 +36,8 @@ export default async function NewsPage({ params }: Props) {
   setRequestLocale(locale);
   const jsonLd = await getArticleJsonLd(locale, "news");
   const t = await getTranslations({ locale, namespace: "news" });
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("news") as string[];
 
   const iso = t.raw("iso") as string[][];
 
@@ -44,6 +46,7 @@ export default async function NewsPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">

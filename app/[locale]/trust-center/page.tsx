@@ -28,6 +28,8 @@ export default async function TrustCenterPage({ params }: Props) {
   const { locale } = await params;
   const jsonLd = await getWebPageJsonLd(locale, "trust");
   const t = await getTranslations({ locale, namespace: "trust" });
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("trust") as string[];
 
   const data = {
     eyebrow: t("eyebrow"),
@@ -60,6 +62,7 @@ export default async function TrustCenterPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only" aria-hidden="true">{meta[0]}</div>
       <TrustCenter data={data} />
       <TrustDeep />
     </>
