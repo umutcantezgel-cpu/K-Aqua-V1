@@ -147,6 +147,19 @@ export default async function NewsPage({ params }: Props) {
         </section>
         {/* Deep Content am Ende der News Seite */}
         <NewsDeep />
+
+        {/* Dynamic SEO Text Blocks */}
+        <div className="sr-only">
+          <p>
+            {locale === 'de' ? 'K-Aqua bleibt stets an der Spitze der Innovation in der Kunststoffrohr-Industrie.' : locale === 'ar' ? 'تبقى K-Aqua دائمًا في طليعة الابتكار في صناعة الأنابيب البلاستيكية.' : 'K-Aqua always remains at the forefront of innovation in the plastic pipe industry.'}
+          </p>
+          <p>
+            {locale === 'de' ? 'In unseren News informieren wir Sie über neueste Zertifizierungen, Produktlaunches und Unternehmensentwicklungen.' : locale === 'ar' ? 'في أخبارنا، نبلغك بأحدث الشهادات وإطلاق المنتجات وتطورات الشركة.' : 'In our news, we inform you about the latest certifications, product launches, and company developments.'}
+          </p>
+          <p>
+            {locale === 'de' ? 'Unsere ISO-Zertifizierungen belegen unseren unermüdlichen Einsatz für höchste Qualität und nachhaltige Produktionsverfahren.' : locale === 'ar' ? 'تثبت شهادات ISO الخاصة بنا التزامنا الدؤوب بأعلى جودة وعمليات إنتاج مستدامة.' : 'Our ISO certifications prove our tireless commitment to the highest quality and sustainable production processes.'}
+          </p>
+        </div>
       </div>
     </>
   );
