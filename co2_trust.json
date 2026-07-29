@@ -1,0 +1,169 @@
+{
+  "co2": {
+    "guideText": "<h2>Nachhaltigkeit und LCA (Life Cycle Assessment)</h2><p>Die Wahl des richtigen Rohrleitungssystems hat signifikante Auswirkungen auf den CO2-Fußabdruck eines Gebäudes oder einer Industrieanlage. Der K-Aqua CO2-Rechner ermöglicht eine vollumfängliche Lebenszyklusanalyse (LCA) gemäß den Standards der EN 15804. Diese Analyse deckt den gesamten Lebenszyklus ab: von der Rohstoffgewinnung und Produktherstellung (Phasen A1-A3) über den Transport und die Installation (Phasen A4-A5) bis hin zur Nutzungsphase (Phase B) und dem End-of-Life (Phase C).</p><p>Im Vergleich zu herkömmlichen Metallrohren aus Kupfer oder Stahl weisen PP-R und PPRCT Rohre von K-Aqua eine deutlich vorteilhaftere Ökobilanz auf. Der geringere Energieaufwand bei der Extrusion des Kunststoffs sowie das wesentlich geringere Gewicht reduzieren die CO2-Emissionen bei Produktion und Transport erheblich. Darüber hinaus sorgt die spiegelglatte Innenoberfläche (Rauhigkeit von nur 0,007 mm) für einen extrem geringen Strömungswiderstand. Nach der Darcy-Weisbach-Gleichung bedeutet dies, dass Umwälzpumpen deutlich weniger Energie (Strom) aufwenden müssen, um die Flüssigkeit durch das System zu fördern.</p><p>Gerade in der Nutzungsphase (Phase B), die bei Rohrleitungssystemen oft 50 Jahre oder länger dauert, summiert sich diese Energieeinsparung zu massiven CO2- und Kosteneinsparungen (Total Cost of Ownership, TCO). Auch am Ende der Lebensdauer (Phase C) bietet Polypropylen ökologische Vorteile, da es zu 100 % recycelbar ist und im Sinne der Kreislaufwirtschaft (Modul D) wiederverwertet werden kann. Nutzen Sie diesen Rechner, um die ökologischen und ökonomischen Einsparpotenziale Ihres K-Aqua Projekts präzise und transparent zu quantifizieren.</p>",
+    "eyebrow": "Premium Engineering Tool",
+    "title1": "LCA & TCO Simulator",
+    "titleGrad": "Pro",
+    "lead": "Berechnen Sie die realen ökologischen und ökonomischen Auswirkungen Ihres Rohrleitungssystems über den gesamten Lebenszyklus. Mit echten physikalischen Strömungsmodellen (Darcy-Weisbach) und EN-konformen LCA-Phasen.",
+    "tabGeometry": "Rohr",
+    "tabFlow": "Fluid",
+    "tabEnvironment": "Einbau",
+    "tabLogistics": "LCA",
+    "dia": "Nennweite",
+    "length": "Leitungslänge",
+    "sdrClass": "SDR-Klasse",
+    "velocity": "Fließgeschwindigkeit (v)",
+    "velocityDesc": "Wirkt sich drastisch auf den Druckverlust und Pumpenstrom (B) aus.",
+    "fluidTemp": "Fluidtemperatur",
+    "ambientTemp": "Umgebungstemperatur",
+    "insulation": "Isolierung",
+    "insulationNone": "Keine",
+    "insulationBasic": "Basis",
+    "insulationStandard": "Standard EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Verlegeart (A5)",
+    "installBuilding": "Gebäudeinstallation",
+    "installTrench": "Erdverlegt (Bagger)",
+    "installTrenchless": "Grabenlos (HDD)",
+    "installDesc": "Erdarbeiten verursachen massive CO2-Emissionen durch Maschinen (Diesel).",
+    "lifespan": "Lebensdauer (Jahre)",
+    "lifespanDesc": "Kurzlebige Rohre (z. B. C-Stahl) müssen evtl. mehrfach ersetzt werden.",
+    "energyMixLabel": "Strommix (Betrieb & Produktion)",
+    "transportKm": "Transportdistanz (km)",
+    "co2Savings": "LCA CO₂-Einsparung",
+    "co2SavingsDesc": "Gegenüber dem ineffizientesten System (inkl. Pumpenstrom). Entspricht ca. {n} Bäumen.",
+    "costSavings": "TCO Ersparnis (NPV)",
+    "costSavingsDesc": "Ersparnis über {n} Jahre (inkl. Instandhaltung und Betriebskosten-NPV).",
+    "lcaPhases": "LCA Phasen (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Install/Transport)",
+    "phaseB": "B (Betrieb/Energie)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Modul D:",
+    "costAnalysis": "Total Cost of Ownership (NPV, {n} Jahre)",
+    "costMaterial": "Material",
+    "costInstall": "Einbau",
+    "costOperation": "Energie (NPV)",
+    "costMaintenance": "Instandhaltung",
+    "costTotal": "Gesamt",
+    "certTitle": "Zertifizierter LCA & TCO Report.",
+    "certDesc": "Beinhaltet Strömungswiderstand nach Darcy-Weisbach und EPD konforme Lebenszyklusphasen.",
+    "certBtn": "PDF-Report erzeugen",
+    "generating": "Erzeuge...",
+    "energyGreen": "Ökostrom",
+    "energyDe": "DE-Mix",
+    "energyEu": "EU-Mix",
+    "energyGlobal": "Global-Mix",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Kupfer",
+      "steel": "Edelstahl / C-Stahl",
+      "pex": "Mehrschichtverbund (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Gusseisen"
+    },
+    "project": "Your project",
+    "advanced": "Advanced LCA Parameters",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package, in the",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life"
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Vertrauen ist",
+    "titleGrad": "messbar.",
+    "lead": "Vertrauen ist messbar. Zertifikate, GENAU-Framework und Audit Dokumente, als Self Service. Kein tagelanges Warten auf manuelle Zusendung.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagement"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagement"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagement"
+      ]
+    ],
+    "accred": "DAkkS-akkreditiert",
+    "certNo": "Zertifikat-Nr.",
+    "valid": "Gültig",
+    "download": "Download",
+    "genauEyebrow": "GENAU-Framework",
+    "genauTitle": "Fünf Buchstaben. Ein System.",
+    "genauLead": "Das GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch die fünf Säulen.",
+    "genau": [
+      [
+        "Gesundheit",
+        "Arbeits- und Gesundheitsschutz mit kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
+      ],
+      [
+        "Energie",
+        "Optimierung der Energieeffizienz nach ISO 50001, vom Extruder bis zum geschlossenen Kühlwasserkreislauf."
+      ],
+      [
+        "Nachhaltigkeit",
+        "100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
+      ],
+      [
+        "Arbeitssicherheit",
+        "Prävention und Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
+      ],
+      [
+        "Umwelt",
+        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
+    "rfpLead": "Stellen Sie Ihr Audit- und Ausschreibungspaket selbst zusammen, statt tagelang auf manuelle Zusendung zu warten.",
+    "docs": [
+      "ISO 9001:2015 Zertifikat (DE/EN)",
+      "ISO 14001:2015 Zertifikat (DE/EN)",
+      "ISO 50001:2018 Zertifikat (DE/EN)",
+      "GENAU-Politik & Risikobewertung",
+      "Trinkwasser-Konformität (DVGW/KTW)",
+      "EPD-Datenblätter (Typ III, EN 15804)",
+      "GAEB-Ausschreibungstexte",
+      "Qualitätssicherungs-Handbuch"
+    ],
+    "inPackage": "Dokumente im Paket.",
+    "pickLeft": "Wählen Sie links aus.",
+    "requestZip": "Per Klick als ZIP anfordern:",
+    "requestBtn": "Paket anfordern",
+    "mailSubject": "RFP-Dokumentenpaket",
+    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  }
+}

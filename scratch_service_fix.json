@@ -1,0 +1,43 @@
+  "service": {
+    "eyebrow": "Layanan",
+    "title1": "Layanan Pelanggan &",
+    "titleGrad": "Pengetahuan.",
+    "lead": "Layanan Pelanggan & Pengetahuan kami. Menawarkan dokumen teknis untuk diunduh dan video langkah demi langkah untuk semua proses pengelasan.",
+    "dlEyebrow": "Unduhan",
+    "dlTitle": "Dokumen Teknis",
+    "downloads": [
+      {
+        "t": "Program Produk K-Aqua",
+        "s": "Katalog lengkap dengan dimensi & artikel"
+      },
+      {
+        "t": "Karakteristik Produk K-Aqua",
+        "s": "Sifat teknis & data material"
+      },
+      {
+        "t": "Jaminan Kualitas K-Aqua",
+        "s": "Prosedur pengujian & standar kualitas"
+      }
+    ],
+    "vidEyebrow": "Instalasi",
+    "vidTitle": "Proses Pengelasan dalam Video",
+    "vidLead": "Empat proses, empat video, langsung dari praktik.",
+    "videos": [
+      {
+        "t": "Pengelasan Soket dengan Alat Las Manual",
+        "s": "Pipa & Fitting PP-R/PPRCT"
+      },
+      {
+        "t": "Pengelasan Soket dengan Mesin Las",
+        "s": "Pengelasan Soket PP-R"
+      },
+      {
+        "t": "Pengelasan Elektro (Electrofusion)",
+        "s": "Pipa & Fitting PP-R/PPRCT"
+      },
+      {
+        "t": "Pengelasan Tumpul (Butt Fusion)",
+        "s": "Dimensi Besar PP-R/PPRCT"
+      }
+    ]
+  },

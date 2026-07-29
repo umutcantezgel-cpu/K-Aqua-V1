@@ -1,0 +1,422 @@
+  "geoContent": {
+  "dach": {
+    "regulator": "DVGW",
+    "water": "គុណភាពទឹកខ្ពស់។",
+    "focus": [
+      "កំដៅ",
+      "ទឹកស្អាត",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "ផលិតនៅអាល្លឺម៉ង់។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីផ្សារ DACH ។"
+  },
+  "nordic": {
+    "regulator": "KIWA",
+    "water": "សីតុណ្ហភាពត្រជាក់។",
+    "focus": [
+      "មន្ទីរពេទ្យ",
+      "កំដៅ",
+      "នាវា"
+    ],
+    "note": "ធន់នឹងភាពត្រជាក់។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់តំបន់ Nordic ។"
+  },
+  "mea": {
+    "regulator": "ISO",
+    "water": "សីតុណ្ហភាពក្តៅ។",
+    "focus": [
+      "អគារខ្ពស់",
+      "សណ្ឋាគារ",
+      "ហេដ្ឋារចនាសម្ព័ន្ធ"
+    ],
+    "note": "ប្រព័ន្ធធន់នឹងកម្តៅ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់តំបន់ MEA ។"
+  },
+  "uae": {
+    "regulator": "ESMA",
+    "water": "ទឹកសមុទ្រ។",
+    "focus": [
+      "សណ្ឋាគារ",
+      "មន្ទីរពេទ្យ",
+      "អគារខ្ពស់"
+    ],
+    "note": "ធន់នឹងសម្ពាធ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ UAE ។"
+  },
+  "ksa": {
+    "regulator": "SASO",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "គម្រោងយក្ស",
+      "អគារខ្ពស់",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "ស្តង់ដារគុណភាពខ្ពស់។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ KSA ។"
+  },
+  "qatar": {
+    "regulator": "Kahramaa",
+    "water": "កម្តៅខ្លាំង។",
+    "focus": [
+      "កីឡដ្ឋាន",
+      "អគារពាណិជ្ជកម្ម",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ភាពរឹងមាំយូរអង្វែង។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Qatar ។"
+  },
+  "kuwait": {
+    "regulator": "MEW",
+    "water": "កម្តៅខ្ពស់។",
+    "focus": [
+      "មន្ទីរពេទ្យ",
+      "អគារខ្ពស់",
+      "សាកលវិទ្យាល័យ"
+    ],
+    "note": "សម្រាប់ទីផ្សារគុយវ៉ែត។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Kuwait ។"
+  },
+  "egypt": {
+    "regulator": "EOS",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "ទីក្រុងថ្មី",
+      "សណ្ឋាគារ",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "ចែកចាយរហ័ស។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Egypt ។"
+  },
+  "singapur": {
+    "regulator": "PUB",
+    "water": "សំណើមខ្ពស់។",
+    "focus": [
+      "អគារខ្ពស់",
+      "ឧស្សាហកម្ម",
+      "មន្ទីរពេទ្យ"
+    ],
+    "note": "គុណភាពកំពូល។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Singapore ។"
+  },
+  "kualalumpur": {
+    "regulator": "SPAN",
+    "water": "តំបន់ត្រូពិច។",
+    "focus": [
+      "អគារខ្ពស់",
+      "ពាណិជ្ជកម្ម",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ចែកចាយក្នុងតំបន់។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Kuala Lumpur ។"
+  },
+  "mumbai": {
+    "regulator": "BIS",
+    "water": "សម្ពាធទឹក។",
+    "focus": [
+      "ទីក្រុងឆ្លាតវៃ",
+      "មន្ទីរពេទ្យ",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "ប្រព័ន្ធធន់នឹងសម្ពាធ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Mumbai ។"
+  },
+  "kapstadt": {
+    "regulator": "SABS",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "សណ្ឋាគារ",
+      "មន្ទីរពេទ្យ",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "គុណភាព។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Cape Town ។"
+  },
+  "nairobi": {
+    "regulator": "KEBS",
+    "water": "ទីក្រុងថ្មី។",
+    "focus": [
+      "អគារខ្ពស់",
+      "ពាណិជ្ជកម្ម",
+      "មន្ទីរពេទ្យ"
+    ],
+    "note": "ធន់នឹងសម្ពាធ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ Nairobi ។"
+  },
+  "frankfurt": {
+    "regulator": "DVGW",
+    "water": "គុណភាពទឹកខ្ពស់។",
+    "focus": [
+      "អគារខ្ពស់",
+      "មជ្ឈមណ្ឌលទិន្នន័យ",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងហិរញ្ញវត្ថុ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Frankfurt ។"
+  },
+  "berlin": {
+    "regulator": "DVGW",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "អគាររដ្ឋាភិបាល",
+      "មន្ទីរពេទ្យ",
+      "លំនៅដ្ឋាន"
+    ],
+    "note": "រដ្ឋធានី។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Berlin ។"
+  },
+  "muenchen": {
+    "regulator": "DVGW",
+    "water": "គុណភាពទឹកខ្ពស់។",
+    "focus": [
+      "បច្ចេកវិទ្យា",
+      "សាកលវិទ្យាល័យ",
+      "ពាណិជ្ជកម្ម"
+    ],
+    "note": "ទីក្រុងឧស្សាហកម្ម។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Munich ។"
+  },
+  "hamburg": {
+    "regulator": "DVGW",
+    "water": "ទឹកសមុទ្រនិងទឹកសាប។",
+    "focus": [
+      "កំពង់ផែ",
+      "នាវា",
+      "ឧស្សាហកម្ម"
+    ],
+    "note": "ទីក្រុងកំពង់ផែ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Hamburg ។"
+  },
+  "wien": {
+    "regulator": "ÖVGW",
+    "water": "ទឹកស្អាតពីភ្នំ។",
+    "focus": [
+      "វប្បធម៌",
+      "មន្ទីរពេទ្យ",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងវីយែន។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Vienna ។"
+  },
+  "zuerich": {
+    "regulator": "SVGW",
+    "water": "គុណភាពទឹកខ្ពស់បំផុត។",
+    "focus": [
+      "ហិរញ្ញវត្ថុ",
+      "មន្ទីរពេទ្យ",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងសូរិច។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Zurich ។"
+  },
+  "london": {
+    "regulator": "WRAS",
+    "water": "គុណភាពទឹកស្តង់ដារ។",
+    "focus": [
+      "អគារខ្ពស់",
+      "សណ្ឋាគារ",
+      "មជ្ឈមណ្ឌលទិន្នន័យ"
+    ],
+    "note": "ទីក្រុងឡុងដ៍។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង London ។"
+  },
+  "paris": {
+    "regulator": "CSTB",
+    "water": "ទឹកស្អាតស្តង់ដារ។",
+    "focus": [
+      "សណ្ឋាគារប្រណីត",
+      "ពាណិជ្ជកម្ម",
+      "លំនៅដ្ឋាន"
+    ],
+    "note": "ទីក្រុងប៉ារីស។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Paris ។"
+  },
+  "mailand": {
+    "regulator": "UNI",
+    "water": "គុណភាពទឹកឧស្សាហកម្ម។",
+    "focus": [
+      "រចនា",
+      "ឧស្សាហកម្ម",
+      "ពាណិជ្ជកម្ម"
+    ],
+    "note": "ទីក្រុងមីឡាន។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Milan ។"
+  },
+  "warschau": {
+    "regulator": "PZH",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "អគារខ្ពស់",
+      "ពាណិជ្ជកម្ម",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងវ៉ាសូវី។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Warsaw ។"
+  },
+  "prag": {
+    "regulator": "SZU",
+    "water": "គុណភាពទឹកល្អ។",
+    "focus": [
+      "ទេសចរណ៍",
+      "សណ្ឋាគារ",
+      "វប្បធម៌"
+    ],
+    "note": "ទីក្រុងប្រាក។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Prague ។"
+  },
+  "dubai": {
+    "regulator": "DEWA",
+    "water": "ទឹកសាប។",
+    "focus": [
+      "អគារខ្ពស់បំផុត",
+      "សណ្ឋាគារ",
+      "មជ្ឈមណ្ឌលទិន្នន័យ"
+    ],
+    "note": "ទីក្រុងឌូបៃ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Dubai ។"
+  },
+  "abudhabi": {
+    "regulator": "ADDC",
+    "water": "ទឹកសាប។",
+    "focus": [
+      "រដ្ឋាភិបាល",
+      "សណ្ឋាគារ",
+      "ហេដ្ឋារចនាសម្ព័ន្ធ"
+    ],
+    "note": "ទីក្រុងអាប៊ុយដាប៊ី។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Abu Dhabi ។"
+  },
+  "doha": {
+    "regulator": "Kahramaa",
+    "water": "ទឹកសាប។",
+    "focus": [
+      "កីឡដ្ឋាន",
+      "សណ្ឋាគារ",
+      "ពាណិជ្ជកម្ម"
+    ],
+    "note": "ទីក្រុងដូហា។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Doha ។"
+  },
+  "riad": {
+    "regulator": "SASO",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "គម្រោងធំៗ",
+      "អគារខ្ពស់",
+      "លំនៅដ្ឋាន"
+    ],
+    "note": "ទីក្រុងរីយ៉ាដ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Riyadh ។"
+  },
+  "dschidda": {
+    "regulator": "SASO",
+    "water": "ទឹកសមុទ្រនិងទឹកសាប។",
+    "focus": [
+      "កំពង់ផែ",
+      "ពាណិជ្ជកម្ម",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងជេដា។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Jeddah ។"
+  },
+  "neom": {
+    "regulator": "NEOM",
+    "water": "ទឹកសាបនិងបរិស្ថាន។",
+    "focus": [
+      "ទីក្រុងឆ្លាតវៃ",
+      "បច្ចេកវិទ្យា",
+      "ទេសចរណ៍"
+    ],
+    "note": "គម្រោង NEOM ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង NEOM ។"
+  },
+  "maskat": {
+    "regulator": "Diam",
+    "water": "ទឹកសាប។",
+    "focus": [
+      "ទេសចរណ៍",
+      "សណ្ឋាគារ",
+      "វប្បធម៌"
+    ],
+    "note": "ទីក្រុងម៉ាស្កាត។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Muscat ។"
+  },
+  "manama": {
+    "regulator": "EWA",
+    "water": "ទឹកសាប។",
+    "focus": [
+      "ហិរញ្ញវត្ថុ",
+      "អគារខ្ពស់",
+      "សណ្ឋាគារ"
+    ],
+    "note": "ទីក្រុងម៉ាណាម៉ា។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Manama ។"
+  },
+  "amman": {
+    "regulator": "WAJ",
+    "water": "ទឹកស្អាត។",
+    "focus": [
+      "ហេដ្ឋារចនាសម្ព័ន្ធ",
+      "មន្ទីរពេទ្យ",
+      "លំនៅដ្ឋាន"
+    ],
+    "note": "ទីក្រុងអាម៉ាន់។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Amman ។"
+  },
+  "kairo": {
+    "regulator": "HCWW",
+    "water": "ទឹកទន្លេនីល។",
+    "focus": [
+      "ទីក្រុងថ្មី",
+      "លំនៅដ្ឋាន",
+      "ពាណិជ្ជកម្ម"
+    ],
+    "note": "ទីក្រុងគែរ។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Cairo ។"
+  },
+  "istanbul": {
+    "regulator": "ISKI",
+    "water": "ទឹកស្តង់ដារ។",
+    "focus": [
+      "ទេសចរណ៍",
+      "សណ្ឋាគារ",
+      "មន្ទីរពេទ្យ"
+    ],
+    "note": "ទីក្រុងអ៊ីស្តង់ប៊ុល។",
+    "focusHeading": "គម្រោង",
+    "extendedMarketText": "សម្រាប់ទីក្រុង Istanbul ។"
+  }
+},

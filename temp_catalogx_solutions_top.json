@@ -1,0 +1,84 @@
+{
+  "catalogx": {
+    "eyebrow": "Kumpletong Katalogo ng Produkto",
+    "faqTitle": "Mga Madalas Itanong",
+    "title": "Lahat ng 79 na pamilya ng item, na may mga tunay na numero ng item.",
+    "lead": "Ang mga tubo, fitting, transition fitting, balbula, weld-in saddle, accessories, at tools, lahat ng nasa linya ay nanggaling mula sa sumusunod na katalogo ng K Aqua. Pumili ng kategorya, magbukas ng mga item, at i-verify ang mga numero ng item.",
+    "searchPlaceholder": "Maghanap ng numero ng item o pangalan ng produkto, e.g. \"AQ200P20\" o \"Elbow\"",
+    "noResults": "Walang natagpuang resulta. Ayusin ang paghahanap o pumili ng ibang kategorya.",
+    "codesLabel": "Mga numero ng item",
+    "sizesLabel": "Mga Laki",
+    "materialLabel": "Materyales",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Serye",
+    "pressureLabel": "Operating pressure",
+    "lenLabel": "Haba",
+    "cats": {
+      "pipes": {
+        "label": "Mga Tubo",
+        "desc": "Mga PPR at PPRCT na tubo: Standard, glass-fiber reinforced, at UV-stabilized, 12 series."
+      },
+      "fittings": {
+        "label": "Form Parts",
+        "desc": "Socket welding at electrofusion fittings, d20-d125, 13 pamilya ng item."
+      },
+      "transitionFittings": {
+        "label": "Transition Fittings",
+        "desc": "Mga transition tungo sa mga thread at brass, para sa umiiral nang mga koneksyon at valve, 13 pamilya."
+      },
+      "valves": {
+        "label": "Valves",
+        "desc": "Ball valves, concealed valves, distribution batteries, 9 pamilya ng item."
+      },
+      "weldInSaddles": {
+        "label": "Weld-in Saddles",
+        "desc": "Mga sangay nang walang pagputol ng tubo, mayroon o walang mga thread, 3 pamilya."
+      },
+      "accessories": {
+        "label": "Accessories",
+        "desc": "Pipe clamps, counter flanges, seals, plugs: 5 pamilya ng item."
+      },
+      "tools": {
+        "label": "Tools",
+        "desc": "Pipe cutters, welding devices, at tools para sa lahat ng apat na proseso ng pagsasanib, 14 pamilya."
+      }
+    },
+    "rfq": {
+      "title": "Pagtatanong sa Proyekto",
+      "desc": "Direktang humiling ng quote para sa <span class=\"font-semibold\">{title}</span>.",
+      "button": "Pumunta sa Pagtatanong"
+    },
+    "similar": {
+      "title": "Iba pa mula sa {category}"
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solusyon",
+    "title1": "Mga",
+    "titleGrad": "Sistema para sa mga Proyekto",
+    "title2": "ng Hinaharap",
+    "lead": "Nag-aalok ang K Aqua pipe systems ng perpektong solusyon para sa bawat larangan ng paggamit. Para sa mararangyang hotel, matataas na ospital, at kumplikadong industrial plants. Ang K Aqua system ay walang kapantay.",
+    "benefits": [
+      {
+        "t": "Ekologikal",
+        "d": "Nanggagaling ang polypropylene sa mga gas na dati ay sinusunog nang walang layunin, na nakapagpapababa ng malaki sa polusyon sa hangin. Gumagamit ng tubig sa pamamagitan ng nakasarang cooling circuit sa produksyon nito na pumoprotekta sa mga ilog, sapa at lawa."
+      },
+      {
+        "t": "Nare-recycle",
+        "d": "Nagtataglay ng recycling code na \"5\" ang PP at posibleng maihiwalay ayon sa uri. Nire-recycle namin ang lahat ng production waste at offcuts, sa pagnanais na palaging gumamit ng PP recyclate."
+      },
+      {
+        "t": "Superyor",
+        "d": "Bilang isang engineering plastic, ang PP ay sadyang nagtataglay ng kakaibang resistance sa solvents, alkalis at asido at binubuo ang sarili nito ng mahuhusay na hugis sa mga injection molding sa murang halaga na may mataas na mga dami."
+      },
+      {
+        "t": "Pangmatagalan",
+        "d": "Mas nagtatagal ang PP products kaysa sa mga katumbas na materyales: madaling panatilihin ang kaayusan, matatag pagdating sa kalumaan at resistant laban sa mga sukdulang temperatura."
+      }
+    ],
+    "nextEyebrow": "Susunod na Industriya",
+    "nextTitle": "Tingnan din ang",
+    "nextLead": "Tuklasin kung paano nagiging batayan ng industriya ang aming piping systems sa ibang mapanghamong mga kapaligiran.",
+    "nextCta": "Tuklasin ang Solusyon"
+  }
+}

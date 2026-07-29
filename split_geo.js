@@ -1,21 +1,10 @@
 const fs = require('fs');
-const de = require('./messages/de.json').geoContent;
-const hu = JSON.parse(fs.readFileSync('mcp_geoContent.json', 'utf8'));
-
-// hu is the tool call json!
-const repl = hu.ReplacementContent;
-// repl contains the full text. Let's find a place to split it.
-// Let's split it at `"istanbul": {`
-const lines = repl.split('\n');
-const istanbulIdx = lines.findIndex(l => l.includes('"istanbul": {'));
-
-const part1 = lines.slice(0, istanbulIdx).join('\n') + '\n  },\n  "trust": {';
-const part2 = lines.slice(istanbulIdx, -2).join('\n') + '\n  }';
-
-console.log('--- PART 1 START ---');
-console.log(part1.length);
-console.log('--- PART 2 START ---');
-console.log(part2.length);
-
-fs.writeFileSync('geo_part1.txt', part1);
-fs.writeFileSync('geo_part2.txt', part2);
+const geo = JSON.parse(fs.readFileSync('id_geo.json'));
+const keys = Object.keys(geo);
+const half = Math.ceil(keys.length / 2);
+const geo1 = {};
+const geo2 = {};
+keys.slice(0, half).forEach(k => geo1[k] = geo[k]);
+keys.slice(half).forEach(k => geo2[k] = geo[k]);
+fs.writeFileSync('geo1.json', JSON.stringify(geo1, null, 2));
+fs.writeFileSync('geo2.json', JSON.stringify(geo2, null, 2));

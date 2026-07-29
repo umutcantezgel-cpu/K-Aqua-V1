@@ -1705,169 +1705,2127 @@
     ]
   },
   "products": {
+    "narrative": {
+      "sizeRange": "Komponen ini dikilangkan dalam julat diameter nominal yang komprehensif daripada dimensi padat {minSize} mm hingga dimensi besar {maxSize} mm, yang menjamin fleksibiliti maksimum dalam pelbagai senario pemasangan.",
+      "sizeSpecific": "Komponen ini direka dengan tepat untuk diameter nominal khusus {minSize} mm dan menawarkan prestasi yang disasarkan untuk seni bina perpaipan khusus.",
+      "weights": "Kecekapan bahan dioptimumkan di seluruh julat produk, dengan berat unit berskala daripada {minWeight} kg sehingga {maxWeight} kg bergantung pada dimensi yang dipilih.",
+      "packaging": "Logistik dioptimumkan melalui unit pembungkusan standard yang direka untuk pengangkutan selamat ke seluruh dunia dan pengendalian efisien di tapak pembinaan.",
+      "rowCount": "Portfolio teknikal kami menawarkan konfigurasi ini dalam {count} varian dimensi yang sangat khusus, diskalakan dengan tepat untuk memenuhi keperluan hidraulik dan mekanikal sistem pengangkutan bendalir moden.",
+      "intro": "Produk {title} membentuk asas kepada penyelesaian pengurusan bendalir berprestasi tinggi daripada K-Aqua. Dikatalogkan secara rasmi di bawah nombor artikel {codes}, setiap varian melalui protokol jaminan kualiti yang ketat di kemudahan pengeluaran kami di Jerman sebelum penghantaran.",
+      "outro": "Dengan menggunakan teknik pemprosesan polimer yang canggih, ketepatan geometri {title} menjamin ciri aliran optimum, meminimumkan kehilangan tekanan, dan menghapuskan sepenuhnya risiko deposit kalsium (kalk) atau kakisan sepanjang hayat operasinya. Dedikasi tanpa kompromi terhadap sains bahan ini memastikan bahawa setiap sambungan mengekalkan integriti mutlak waima di bawah turun naik suhu dan tekanan yang ekstrem. Sama ada digunakan di bangunan tinggi kediaman, kemudahan penjagaan kesihatan kritikal, atau loji pemprosesan perindustrian yang mendesak, produk ini memberikan kebolehpercayaan bebas penyelenggaraan yang boleh dipercayai sepenuhnya oleh jurutera dan pemasang."
+    },
+    "uniqueProductContext": "Konteks produk unik",
+    "heroDesc": "Deskripsi wira",
+    "articleNumbers": "Nombor artikel",
+    "technicalSpecs": "Spesifikasi teknikal",
+    "eyebrow": "PRODUK",
+    "videoGuide": "Panduan Video",
+    "localAvailability": "Ketersediaan Tempatan",
+    "localDesc": "Tersedia di rantau anda.",
+    "allMarkets": "Semua Pasaran",
+    "title1": "SISTEM",
+    "titleGrad": "K-AQUA.",
+    "lead": "Penyelesaian terbaik untuk keperluan anda.",
+    "ctaCatalog": "Katalog",
+    "ctaVideos": "Video Latihan",
+    "sysEyebrow": "SISTEM",
+    "sysTitle": "Rangkaian Produk",
+    "range": [
+      {
+        "t": "Paip",
+        "d": "Tahan lama.",
+        "icon": "pipe"
+      },
+      {
+        "t": "Penyambung",
+        "d": "Sempurna.",
+        "icon": "fitting"
+      },
+      {
+        "t": "Injap",
+        "d": "Kawalan.",
+        "icon": "valve"
+      },
+      {
+        "t": "Aksesori",
+        "d": "Lengkap.",
+        "icon": "tool"
+      }
+    ],
+    "techEyebrow": "TEKNOLOGI",
+    "techTitle": "Maklumat Teknikal",
+    "techLead": "Butiran teknikal produk.",
+    "ctaFeatures": "Ciri-ciri",
+    "tableHead": [
+      "Kategori",
+      "Spesifikasi",
+      "Standard"
+    ],
+    "tableRows": [
+      [
+        "Paip Monolapisan",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Paip Pelbagai Lapisan (Diperkukuh GF)",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Penyambung & Lengkapan",
+        "20 – 315 mm",
+        "serasi dengan sistem"
+      ],
+      [
+        "Injap & Penyambung Berulir",
+        "bergantung pada sistem",
+        "-"
+      ],
+      [
+        "Teknologi Kimpalan & Alatan",
+        "semua dimensi",
+        "-"
+      ]
+    ],
+    "seoArticle": {
+      "pipes": {
+        "areas": "Sistem air minuman awam & swasta, Penyejukan & Pemanasan Udara, Pengangkutan Kimia (Kawasan Industri), Saluran Air Termal, Pembinaan Kapal",
+        "advTitle": "Kelebihan Ekstrem Paip PP-R K-Aqua",
+        "advList": [
+          "Bebas Kakisan Mutlak: Imun terhadap pendedahan bahan kimia, tiada pembentukan karat.",
+          "Kestabilan Terma: Boleh digunakan sehingga suhu operasi 95°C bergantung pada kelas tekanan (SDR).",
+          "Tingkah laku aliran dioptimumkan: Dinding dalaman paip yang licin mencegah rintangan geseran dan mengurangkan kos tenaga untuk pam.",
+          "Sifat Penebat Akustik: PP-R mengurangkan bunyi bawaan struktur (bunyi aliran) jauh lebih baik berbanding logam.",
+          "Keselamatan Gempa Bumi: Terima kasih kepada keanjalan tinggi dan kelenturan bahan tersebut.",
+          "Kebersihan: Lengai secara biologi, bebas pertumbuhan kulat (legionella), diuji 100% dari segi toksikologi."
+        ],
+        "seoText": "Sistem paip K-Aqua mewakili penyelesaian tercanggih bagi pengangkutan bendalir moden. Penyemperitan inovatif dengan bahan berkualiti tinggi memastikan paip polipropilena tidak terjejas oleh kekerasan air atau pH. Hayat perkhidmatan melangkaui separuh abad dicapai melalui penstabil haba yang secara berkesan melambatkan penuaan bahan terma. Khususnya paip pelbagai lapisan kami dengan kompaun gentian kaca meminimumkan pengembangan haba linear secara mendadak.",
+        "guideTitle": "Panduan Amalan: Meletakkan Paip K-Aqua",
+        "guideText": "<p>Untuk memastikan keselamatan sistem paip jangka panjang, parameter berikut sangat penting:</p><ul><li><span class=\"font-semibold\">Ketepatan dalam Pemotongan:</span> Gunakan alat khusus seperti gergaji pekeliling sejuk (cold circular saws) kami untuk mencapai potongan tepat 90° yang mutlak. Hanya potongan tegak lurus (perpendicular) menjamin kimpalan titik kimpalan terpusat (concentric).</li><li><span class=\"font-semibold\">Pembersihan Permukaan:</span> Terutama bagi paip Stabi (Stabi pipes), pelucutan pengupas (peeling off) mekanikal lapisan aluminium luar adalah wajib untuk menampakkan lapisan pelakuran (fusion layer).</li><li><span class=\"font-semibold\">Kimpalan (Pelakuran Termal):</span> Pada 260°C (+/- 5°C), paip PP-R dicairkan secara serentak ke dalam lengkapan (fittings). Perhatikan kedalaman sisipan yang ditetapkan dan masa pemanasan untuk mengelakkan halangan dalam paip.</li><li><span class=\"font-semibold\">Penyokongan (Penyangkut Paip):</span> Pemasangan yang betul merangkumi dimensi titik pemasangan malar dan gelongsor. Manfaatkan ciri regangan paip (pipe stretching characteristics) PP-R kami dan lengkungan pampasan (compensation bends) untuk menyerap pengembangan paksi yang tidak dapat dielakkan pada suhu terma tinggi.</li></ul>",
+        "seoTitle": "Ringkasan Sistem Paip PP-R & PPRCT",
+        "faq": [
+          {
+            "q": "Apakah yang membezakan PPRCT daripada PP-R konvensional dalam sistem paip?",
+            "a": "PPRCT (Kopolimer Rawak Polipropilena dengan Rintangan Suhu Penghabluran Terubah Suai) mempunyai struktur kristal yang diubah suai khas yang membolehkan rintangan tekanan yang lebih tinggi pada suhu operasi yang tinggi. Ini membolehkan penggunaan paip berdinding nipis pada tekanan nominal yang sama, meningkatkan diameter dalaman dan kapasiti aliran hidraulik sehingga 17%."
+          },
+          {
+            "q": "Bagaimanakah teknologi komposit gentian K-Fiber mengurangkan pengembangan haba linear?",
+            "a": "Paip K-Fiber kami mempunyai lapisan tengah bersepadu polipropilena yang diperkukuhkan gentian kaca. Lapisan ini menstabilkan paip secara mekanikal dan mengurangkan pekali pengembangan kepada lebih kurang 0.035 mm/(m·K). Ini bersamaan dengan pengurangan 75% dalam pengembangan terma berbanding paip plastik standard."
+          },
+          {
+            "q": "Adakah sistem paip PP-R K-Aqua disahkan untuk air minuman?",
+            "a": "Ya, sistem paip K-Aqua memenuhi keperluan ujian dan kebersihan yang paling ketat dari badan pensijilan antarabangsa seperti DVGW, KIWA, dan WRAS. Bahannya sama sekali tidak berbahaya, tidak berbau dan tidak berasa, serta berkesan mencegah pembentukan kapur dan biofilm."
+          },
+          {
+            "q": "Bagaimanakah sambungan kimpalan bebas kebocoran mutlak dihasilkan?",
+            "a": "Sambungan dibuat melalui polilakuran (polyfusion) terma pada suhu 260°C. Paip dan lengkapan melakur pada tahap molekul ke dalam unit homogen yang tidak boleh dipisahkan. Oleh kerana tiada pengedap getah yang terdedah kepada ralat atau lengkapan akhbar (press fittings) digunakan, kimpalan kekal ketat sepenuhnya selama lebih 50 tahun."
+          },
+          {
+            "q": "Apakah tahap tekanan dan dimensi yang tersedia untuk paip K-Aqua?",
+            "a": "K-Aqua menawarkan sistem paip dalam tahap tekanan SDR 6, SDR 7.4, SDR 9, dan SDR 11 (PN10 hingga PN25) dan dalam diameter luar dari 20 mm hingga 250 mm. Ini membolehkan kedua-dua pengedaran lantai bercabang halus dan paip utama dan penaik besar direalisasikan."
+          }
+        ]
+      },
+      "fittings": {
+        "areas": "Rangkaian air minuman, pemasangan sanitari, pengedaran perindustrian, pembinaan pemanasan",
+        "advTitle": "Sambungan yang Selamat dan Homogen",
+        "advList": [
+          "Kimpalan homogen: Paip dan lengkapan melakur menjadi unit yang tidak boleh dipisahkan.",
+          "Tiada pengedap diperlukan: Sambungan kekal tidak memerlukan cincin O yang terdedah kepada ralat.",
+          "Pemasangan mudah: Pemprosesan yang pantas dan selamat di tapak pembinaan.",
+          "Aliran penuh: Tiada penyempitan keratan rentas, memelihara tekanan sistem.",
+          "Rintangan bahan kimia: Tahan terhadap pelbagai jenis media agresif."
+        ],
+        "seoText": "Lengkapan polimer (siku, T, pengecil) yang kami hasilkan memastikan pertukaran arah tanpa halangan. Tanpa cincin pengedap (seal rings) O-Ring elastik, kami menyingkirkan titik kelemahan sistem konvensional. Penyatuan haba makromolekul mewujudkan blok monolitik, bebas daripada kerosakan (fatigue) pengedap bahan.",
+        "guideTitle": "Parameter untuk Sambungan Lengkapan Sempurna",
+        "guideText": "<p>Menyambungkan lengkapan K-Aqua bukan sekadar menekan bahan ke dalam, tetapi memerlukan pemanasan dan pelakuran mikroskopik.</p><ul><li>Semak kekeringan mutlak (absolute dryness) permukaan paip dan lengkapan sebelum pemanasan. Kelembapan sisa menyebabkan poket wap yang akan memisahkan sendi secara paksa dari dalam.</li><li>Elakkan sebarang ubah bentuk putaran semasa menolak komponen pada alat pemanasan. Gerakan lurus sahaja.</li><li>Setelah disatukan, elakkan pelarasan mekanikal. Struktur molekul berada dalam fasa tetapan kritikal.</li></ul>",
+        "seoTitle": "Lengkapan & Penyambung Plastik"
+      },
+      "valves": {
+        "areas": "Pengasingan paip, kawalan sistem, kabinet pengedaran, industri",
+        "advTitle": "Kawalan Tepat dan Fungsi Tahan Lama",
+        "advList": [
+          "Bebas penyelenggaraan: Mekanik direka untuk fungsi yang lancar selama berdekad-dekad.",
+          "Lubang penuh: Injap bebola dengan keratan rentas penuh meminimumkan kehilangan tekanan.",
+          "Penyepaduan mudah: Boleh dikimpal terus ke dalam sistem PP-R.",
+          "Pembinaan teguh: Direka untuk menahan tekanan melampau dan tukulan air.",
+          "Reka bentuk ergonomik: Mudah dikendalikan, walaupun di kawasan yang sukar dijangkau."
+        ],
+        "seoText": "Injap bebola PP-R, injap berhenti (stop valves), dan injap tak balik (non-return valves) daripada K-Aqua menggabungkan penutupan air (hydraulics) padat dengan seni bina pengurusan aliran canggih. Apabila anda mengendalikan komponen kami, anda tidak sekadar menutup air, anda menyekat tenaga kinetiknya yang melampau dengan kebolehpercayaan yang dijamin.",
+        "guideTitle": "Menyelaraskan Sistem Injap",
+        "guideText": "<p>Membina pengasingan injap yang betul ke dalam rangkaian merupakan keselamatan utama sekiranya penyelenggaraan kecemasan diperlukan.</p><ul><li>Bagi memastikan gelendong (spindle) dalam injap K-Aqua mengekalkan kemampuannya dari masa ke masa, sentiasa lekapkan bahagian pengasingan tekanan injap dengan betul.</li><li>Kimpalan terus harus dikira (calibrated) supaya injap dibiarkan terbuka sepenuhnya. Jika udara terperangkap dan mengembang semasa pelakuran (fusion), ia tidak menekan pengedap dalam injap dari sisi.</li></ul>",
+        "seoTitle": "Injap dan Injap Bebola PP-R"
+      },
+      "transitionFittings": {
+        "areas": "Sambungan perkakasan, perumahan meter, paip HVAC, loji perindustrian",
+        "advTitle": "Keselamatan Terjamin dengan Logam dan Plastik",
+        "advList": [
+          "Loyang berkualiti tinggi: Menggunakan loyang tahan nyah-zink (CW617N).",
+          "Ikatan tidak boleh dipisahkan: Loyang dan PP-R dikunci bersama secara paksa.",
+          "Rintangan kilasan: Reka bentuk khas menghalang komponen logam daripada berpusing.",
+          "Pengedap selamat: Tiada risiko kebocoran antara logam dan plastik.",
+          "Julat ukuran yang luas: Tersedia dalam pelbagai jenis benang dan dimensi."
+        ],
+        "seoText": "Lengkapan peralihan K-Aqua adalah titik penyambung penting bagi teknologi sistem berbeza (logam kepada plastik). Sisipan loyang gred komersial dihasilkan dengan mesin CNC berkejituan tinggi, kemudian diacuan (overmolded) menggunakan gabungan tekanan suhu PP-R. Ikatan makroskopik (macroscopic bond) yang berlaku sangat dipercayai dan memastikan penyambung sistem yang selamat dan tahan daya pelbagai tekanan.",
+        "guideTitle": "Amalan Bekerja bagi Sambungan Logam ke Polimer",
+        "guideText": "<p>Bencana pecah sering berlaku kerana daya berlebihan. Pemasangan peranti peralihan perlu diawasi:</p><ul><li>Sangat ditegah (strictly forbidden) menggunakan rami (hemp) konvensional dengan pes, yang merosakkan dan merenggangkan komponen. Hanya pengedap (sealant) gentian kaca (Teflon) atau pengedap kimpalan cecair polimer yang dibenarkan.</li><li>Apabila menyambungkan sisi logam dengan alat paip, sentiasa memegang perengkuh (wrench) di bahagian logam lengkapan untuk mengatasi tork—bukan bahagian PP-R.</li></ul>",
+        "seoTitle": "Lengkapan Peralihan Logam-ke-Plastik"
+      },
+      "weldInSaddles": {
+        "areas": "Sambungan cawangan, perluasan sistem, pengagihan manifold",
+        "advTitle": "Sambungan Cawangan Cekap Kos",
+        "advList": [
+          "Jimat bahan: Kurang penggunaan paip berbanding dengan lengkapan T-sendi.",
+          "Kerja paip dikurangkan: Pemasangan pantas terus pada paip utama.",
+          "Kekalkan aliran utama: Profil hidraulik tidak terganggu sepenuhnya.",
+          "Ruang terhad: Sesuai untuk pemasangan dalam aci dan dinding sempit.",
+          "Toleransi tinggi: Rintangan letupan yang luar biasa di titik kimpalan."
+        ],
+        "seoText": "Sistem Pelana Kimpalan (Weld-in Saddle) digunakan terutamanya dalam paip utama yang tebal, membekalkan bukaan kecil untuk penyaluran masuk ke sistem aliran atau ruang tambahan (branch lines), sensor tekanan udara, dan paip tambahan untuk penyebaran dalam HVAC dan tangki takungan komersial.",
+        "guideTitle": "Bekerja dengan Pelana Kimpalan",
+        "guideText": "<p>Membuka sambungan cabang pelana memerlukan fokus terhadap butiran kerana lapisan kimpalan lengkung melampau berbeza dengan cantuman soket.</p><ul><li>Gunankan mata gerudi khusus K-Aqua untuk membina bukaan saiz yang sesuai. Kesilapan penggerudian yang tidak sengaja tidak akan diampunkan.</li><li>Alat kimpalan cembung memanaskan kawasan paip utama selama beberapa saat. Lekatkan pelana terus dan pegang dalam tempoh pengerasan (setting time) yang disyorkan. Elakkan putaran pada setiap kos.</li></ul>",
+        "seoTitle": "Pelana Kimpalan PP-R (Weld-in Saddles)"
+      },
+      "accessories": {
+        "areas": "Sistem sokongan, pemasangan kalis bunyi, komponen keselamatan tambahan",
+        "advTitle": "Aksesori (Zubehör) untuk Pemasangan Patuh Standard",
+        "advList": [
+          "Kesesuaian sempurna: Semua aksesori diselaraskan secara geometri dengan sistem paip K-Aqua.",
+          "Pengancing termodinamik: Pengapit paip dengan sisipan getah untuk titik tetap dan gelongsor.",
+          "Sambungan bebibir (flange) berkualiti tinggi: Bebibir longgar dan pengedap EPDM untuk peralihan ke logam.",
+          "Pembaikan pantas: Palam pembaikan untuk paip yang ditebuk secara tidak sengaja.",
+          "Rintangan UV: Aksesori terpilih distabilkan khusus untuk kegunaan luar."
+        ],
+        "seoText": "Rangkaian aksesori (Accessories) yang betul adalah penting untuk ketahanan rangkaian paip. K-Aqua menawarkan matriks aksesori yang komprehensif: daripada pengapit (clamps) paip termodinamik untuk menyerap pengembangan paksi hingga pengedap EPDM (flat seals) untuk sambungan flange (bebibir). Hanya dengan aksesori K-Aqua yang ditala sempurna, anda memastikan pematuhan semua piawaian GEG dan DIN 18381.",
+        "guideTitle": "Panduan Pakar: Aksesori K-Aqua untuk Pemasangan Patuh Standard",
+        "guideText": "<p>Sistem paip berkualiti tinggi juga memerlukan aksesori berkualiti tinggi. Rangkaian K-Aqua merangkumi semua komponen penting untuk memastikan umur panjang, keselamatan, dan pematuhan dengan semua piawaian fizikal bangunan.</p><p>Aspek terpenting untuk menggunakan aksesori kami dengan betul:</p><ul><li><span class=\"font-semibold\">Kompensasi pengembangan linear:</span> Paip plastik mengembang apabila suhu berubah. Penggunaan bersasar pengapit paip termodinamik kami dengan sokongan tetap (fixed) dan gelongsor menyerap pergerakan ini dengan selamat dan melindungi sistem daripada tegasan sisa yang merosakkan. Ini penting terutamanya untuk loji perindustrian dan saluran penaik (risers), di mana pengembangan yang tidak terkawal boleh membawa kepada kerosakan struktur.</li><li><span class=\"font-semibold\">Sambungan bebibir kedap:</span> Untuk peralihan ke injap besar, pam, atau tangki, bebibir longgar (loose flanges) dan pengedap EPDM (flat seals) kami menawarkan keselamatan mutlak dengan tekanan yang tinggi dan getaran berterusan.</li><li><span class=\"font-semibold\">Penyelesaian pembaikan:</span> Dengan palam pembaikan inovatif kami, paip yang ditebuk secara tidak sengaja boleh dikimpal secara homogen dalam beberapa minit, mengembalikan paip ke daya ketahanan mekanikal sepenuhnya.</li></ul><p>Penggunaan aksesori asal K-Aqua secara eksklusif dapat menjamin keselamatan komprehensif dan mencegah kerosakan yang merugikan. Laburlah dalam kualiti mutlak untuk kelestarian infrastruktur yang berpanjangan.</p>",
+        "faq": [
+          {
+            "q": "Adakah aksesori sesuai untuk air sejuk dan air panas?",
+            "a": "Ya, aksesori kami seperti pengapit paip dan pengedap direka untuk digunakan dalam sistem air sejuk, air panas, dan sistem pemanasan serta mempunyai kestabilan haba yang sangat baik."
+          },
+          {
+            "q": "Bolehkah saya menggunakan aksesori pihak ketiga?",
+            "a": "Untuk menuntut jaminan penuh sistem K-Aqua, penggunaan aksesori asal amat diwajibkan. Komponen pihak ketiga boleh menyebabkan masalah kebocoran atau kegagalan mekanikal."
+          },
+          {
+            "q": "Adakah terdapat aksesori khusus untuk kegunaan industri?",
+            "a": "Ya, portfolio kami merangkumi bebibir longgar (loose flanges) tahan lasak yang menahan tekanan industri ekstrem."
+          }
+        ],
+        "seoTitle": "Aksesori Pemasangan Paip"
+      },
+      "tools": {
+        "areas": "Pra-pengilangan (Prefabrication), Pemasangan Tapak Pembinaan, Pembaikan, Aplikasi Khusus",
+        "advTitle": "Ketepatan Tertinggi untuk Sambungan Sempurna",
+        "advList": [
+          "Kawalan Suhu Tepat: Elemen pemanas mikropemproses (microprocessor) memegang paras 260°C dengan tepat.",
+          "Lapisan Tidak Melekat (Anti-stick): Teflon-PTFE untuk pencairan tanpa sisa.",
+          "Reka Bentuk Ergonomik: Mengurangkan beban fizikal pemasang.",
+          "Dokumentasi Digital: Mesin elektrofusi kimpalan mempunyai rekod berprotokol yang terbina dalam.",
+          "Hayat Panjang: Perkakasan tahan lasak untuk keadaan tapak yang agresif setiap hari."
+        ],
+        "seoText": "Rangkaian alat K-Aqua membentuk asas penting untuk pemprosesan profesional sistem paip kami. Daripada pemotong paip berketepatan hinggalah ke mesin kimpalan temu (butt-welding) CNC automatik, kami menawarkan peralatan optimum untuk setiap dimensi. Hanya dengan menggunakan alat asli yang disahkan, spesifikasi pelakuran DVS (pengimpalan keluli dan polimer) dapat dikekalkan dengan tepat, bagi memastikan jaminan sepanjang separuh abad operasi sistem tersebut.",
+        "guideTitle": "Panduan Amalan: Alat Profesional untuk Pemasangan Paip K-Aqua",
+        "guideText": "<p>Kualiti pemasangan paip plastik banyak dipengaruhi oleh kejituan alat yang digunakan. <span class=\"font-semibold\">Alatan Kimpalan dan Pemotongan K-Aqua</span> disasarkan secara khusus kepada sifat termoplastik PP-R dan PPRCT, untuk mencapai keputusan tanpa silap (flawless).</p><p>Mengapakah peralatan komersial sangat penting:</p><ul><li><span class=\"font-semibold\">Persediaan Sempurna:</span> Potongan yang tegak 90° dan bersih (burr-free) adalah prasyarat asas kimpalan terpusat yang padat. Pemotong paip dan gergaji pekeliling sejuk (cold circular saws) mengelakkan tegasan mampatan (material compressions) dan pembentukan retakan mikro.</li><li><span class=\"font-semibold\">Ketepatan Termodinamik:</span> Mesin kimpalan mikropemproses mengekalkan penyatuan pemanasan (fusion temperature) dengan ideal pada 260°C biarpun dalam keadaan angin dan cuaca yang teruk, hal yang mampu mengelakkan pemusnahan rantaian molekul polimer polipropilena.</li><li><span class=\"font-semibold\">Keselamatan Automatik:</span> Pada spesifikasi diameter (nominal diameter) paip skala besar (massive), mesin kimpalan terma atau elektrofusi CNC kami mencegah sebarang kesilapan campur tangan manusia (human error), dengan mengawal sepenuhnya dan mendokumentasikan nilai tempoh, tekanan, pemanasan dan pelakuran secara serentak.</li></ul><p>Penyelenggaraan biasa dan cucian terpusat pada elemen besi teflon pembakar adalah mutlak perlu untuk meminimumkan kecacatan sambungan yang merisikokan sistem pembocoran dalam dinding.</p>",
+        "seoTitle": "Alat Kimpalan & Pemotong Paip"
+      },
+      "fallback": {
+        "areas": "Teknologi pemasangan sejagat, Bekalan tapak, Penggenap sistem",
+        "advTitle": "Tambahan Sistem yang Sempurna",
+        "advList": [
+          "Kualiti yang Diuji: Mematuhi sistem pengurusan ISO 9001.",
+          "Keserasian Sistem: Disesuaikan dengan sempurna kepada sistem paip K-Aqua.",
+          "Ketahanan: Bahan yang teguh untuk kegunaan harian yang lasak di tapak pembinaan.",
+          "Penggunaan Selamat: Kefungsian yang dijamin apabila digunakan dengan betul.",
+          "Kecekapan Kos: Nisbah harga prestasi yang cemerlang."
+        ],
+        "seoText": "Sebagai pembekal sistem, K-Aqua bukan sahaja membekalkan paip dan lengkapan, malah turut menyediakan pelbagai alat dan aksesori yang diperlukan. Dari alat pemanas mikro hingga sistem kimpalan soket, semua peralatan teknikal kami akan memastikan jaminan pembuatan standard di persekitaran pembinaan dunia dan melangkau kecekapan jangka panjang projek."
+      }
+    },
+    "labels": {
+      "applicationAreas": "Kawasan Aplikasi",
+      "advantages": "Kelebihan Sepintas Lalu",
+      "technicalDescription": "Profil Teknikal & SEO",
+      "noResults": "Tiada produk ditemui",
+      "searchPlaceholder": "Cari melalui tajuk atau nombor artikel...",
+      "faqTitle": "Soalan Lazim (FAQ)",
+      "faqFallbackQ1": "Apakah kelebihan utama?",
+      "faqFallbackA1": "Sistem ini menawarkan ketahanan yang ekstrem, rintangan kakisan, dan ciri-ciri kebersihan yang sangat baik untuk air minuman.",
+      "faqFallbackQ2": "Adakah bahan ini mesra alam?",
+      "faqFallbackA2": "Ya, PPRCT 100% boleh dikitar semula dan mempunyai jejak karbon yang sangat rendah berbanding paip logam.",
+      "faqFallbackQ3": "Bagaimanakah proses pemasangan dilakukan?",
+      "faqFallbackA3": "Pemasangan dilakukan dengan selamat dan bebas kebocoran melalui kimpalan polilakuran.",
+      "downloads": "Muat Turun & Dokumen",
+      "tds": "Lembaran Data Teknikal",
+      "tdsDesc": "Spesifikasi & Dimensi (PDF)",
+      "cert": "Sijil & Norma",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Panduan Pemasangan",
+      "installDesc": "Arahan Kimpalan (PDF)",
+      "range": "Rangkaian Produk",
+      "rangeDesc": "Keseluruhan rangkaian produk dengan dimensi (PDF)",
+      "features": "Ciri Produk",
+      "featuresDesc": "Sifat bahan & kelebihan sistem (PDF)"
+    },
+    "specAndDim": "Spesifikasi & Dimensi",
+    "certsAndNorms": "Sijil & Norma",
+    "approved": "Diluluskan",
+    "monitoring": "Pemantauan",
+    "certified": "Disahkan",
+    "quickLinks": "Pautan Pantas",
+    "calcCo2": "Kira CO2",
+    "backToFinder": "Kembali",
+    "enterpriseCore": "Teras Syarikat",
+    "highPerformance": "Prestasi Tinggi",
+    "highPerformanceDesc": "Direka untuk tugas berat.",
+    "sysPressure": "Tekanan Sistem",
+    "tempMax": "Suhu Maksimum",
+    "material": "Bahan",
+    "norm": "Norma",
+    "certification": "Pensijilan",
+    "lifespan": "Jangka Hayat",
+    "fiberTech": "Teknologi Gentian",
+    "fiberTechDesc": "Diperkukuhkan dengan gentian kaca.",
+    "compliance": "Pematuhan",
+    "dimensions": "Dimensi",
+    "globalNetwork": "Rangkaian Global",
+    "globalNetworkDesc": "Beroperasi di seluruh dunia.",
+    "whyChoose": "Kenapa Pilih Kami",
+    "tools": {
+      "metaTitle": "Alat & Aksesori PP-R untuk Sistem Paip",
+      "metaDesc": "Temui alat dan aksesori profesional K-Aqua. Untuk pemasangan sistem paip PP-R dan PP-RCT yang selamat, cekap, dan tahan lama.",
+      "heroEyebrow": "Kejuruteraan Jerman",
+      "heroTitle": "Alat & Aksesori.",
+      "heroSubtitle": "Ketepatan Mutlak.",
+      "heroDesc": "Modul ini memberikan keselamatan tanpa kompromi untuk projek yang paling menuntut di seluruh dunia. Dihasilkan mengikut piawaian industri yang paling ketat untuk bertahan merentas generasi. Di mana kegagalan bahan bukan satu pilihan.",
+      "heroBtnPrimary": "Minta Projek",
+      "heroBtnSecondary": "Data Teknikal",
+      "bentoEyebrow": "Ekosistem K-Aqua",
+      "bentoTitle": "Alat untuk projek mega global.",
+      "bentoLead": "Apabila kontraktor antarabangsa merancang projek bernilai bilion dolar, mereka tidak bergantung pada janji, tetapi pada fakta kukuh dan peralatan berketepatan tinggi.",
+      "bento1Title": "Mesin Kimpalan Soket Elemen Pemanas",
+      "bento1Desc": "Untuk dimensi 20 mm hingga 125 mm. Reka bentuk yang padat dan teguh untuk penggunaan tugas berat di tapak pembinaan.",
+      "bento2Title": "Pemotong Paip & Gunting",
+      "bento2Desc": "Reka bentuk ergonomik untuk kerja tanpa keletihan dan potongan 90° yang sempurna.",
+      "bento3Title": "Mesin Kimpalan Temu (Butt Welding)",
+      "bento3Desc": "Untuk diameter nominal sehingga 250 mm. Dikawal oleh CNC untuk kebolehulangan yang mutlak.",
+      "bento4Title": "Set Pembaikan & Aksesori",
+      "bento4Desc": "Kepala gerudi, pelana pembaikan, dan gergaji lubang untuk sambungan cawangan seterusnya.",
+      "scrollEyebrow": "Teknologi Mendalam",
+      "scrollTitle": "Tiada ruang untuk toleransi ralat.",
+      "scrollLead": "Ketahui butiran teknologi yang menjadikan alat kami pilihan pertama bagi pemasang yang bertauliah.",
+      "scroll1Title": "Termodinamik Sempurna. Pada setiap kimpalan.",
+      "scroll1Desc": "Mesin kimpalan soket elemen pemanas kami dilengkapi dengan pin dan soket pemanas bersalut Teflon yang berketepatan tinggi. Kawalan suhu mikropemproses menjamin suhu kimpalan berterusan pada 260°C, walaupun pada suhu luaran yang ekstrem di tapak pembinaan global. Ini menghasilkan ikatan yang tidak dapat dipisahkan dan homogen pada tahap molekul.",
+      "scroll2Title": "Kimpalan Temu Dikawal CNC.",
+      "scroll2Desc": "Untuk diameter nominal yang besar (sehingga 250 mm dan ke atas), kami bergantung pada mesin kimpalan temu yang dikawal oleh CNC. Pengiraan tekanan dan masa automatik menghapuskan kesilapan manusia. Setiap kitaran kimpalan direkodkan secara digital untuk memastikan kebolehkesanan lengkap untuk kelulusan tapak. Kejuruteraan Jerman pada tahap tertinggi.",
+      "scroll3Title": "Pengupas Paip Berketepatan. Tepat hingga milimeter.",
+      "scroll3Desc": "Persediaan adalah 80% daripada kimpalan. Pengupas paip mekanikal dan elektrik kami membuang lapisan oksida dari paip K-Aqua dengan kedalaman pemotongan yang sekata. Ini mengelakkan retakan mikro dan mencipta lapisan pelakuran yang sempurna. Alat yang bertahan merentas generasi.",
+      "scroll4Title": "Gergaji Pekeliling Sejuk untuk Potongan Tepat.",
+      "scroll4Desc": "Gunting paip boleh merosakkan bentuk bahan. Gergaji pekeliling sejuk industri kami menjamin potongan sudut tepat yang sempurna dan bebas bur. Hasilnya: tiada retakan akibat tekanan, tiada kehilangan tekanan, dan keselarian mutlak sebelum proses kimpalan.",
+      "timelineTitle": "Proses Kimpalan K-Aqua",
+      "timelineDesc": "Dari pemotongan hingga pelakuran molekul. Proses yang diseragamkan yang menghasilkan 100% sistem paip kalis bocor dan bebas penyelenggaraan.",
+      "timeline1Year": "Fasa 1: Penyediaan Bahan",
+      "timeline1Title": "Potongan sempurna.",
+      "timeline1Text": "Potongan 90 darjah yang bebas bur adalah asas kepada sebarang sambungan kekal. Pemotong berketepatan dan gergaji pekeliling sejuk kami menjamin permukaan yang benar-benar rata tanpa ubah bentuk struktur mikro pada polipropilena.",
+      "timeline2Year": "Fasa 2: Penentukuran & Pengupasan",
+      "timeline2Title": "Pembuangan lapisan oksida.",
+      "timeline2Text": "Sebelum mengimpal, paip ditentukur dengan tepat dan lapisan oksida luar dibuang sehingga ke milimeter menggunakan alat pengupas khas kami. Ini membolehkan 100% permukaan bersih untuk proses pelakuran.",
+      "timeline3Year": "Fasa 3: Pelakuran Terma",
+      "timeline3Title": "Penyatuan molekul.",
+      "timeline3Text": "Paip dan penyambung dipanaskan serentak pada matriks pemanasan bersalut Teflon hingga tepat 260°C. Termostat yang dikawal mikropemproses pada mesin kimpalan K-Aqua mengekalkan suhu dengan stabil, tanpa mengira angin atau cuaca.",
+      "timeline4Year": "Fasa 4: Sambungan",
+      "timeline4Title": "Keselamatan seumur hidup.",
+      "timeline4Text": "Dalam masa pertukaran yang ditetapkan, komponen yang dipanaskan disambungkan tanpa berpusing. Selepas fasa penyejukan, bahagian baharu yang homogen terhasil. Bebas penyelenggaraan selama lebih daripada 50 tahun.",
+      "specsTitle": "Autoriti Industri. <br/> Terperinci.",
+      "specsP1": "Selama beberapa dekad, kilang utama kami di tengah-tengah Jerman telah menggabungkan kebanggaan ketukangan dengan teknologi pembuatan yang sangat automatik dan terkini.",
+      "specsP2": "Digunakan di padang pasir yang paling keras dan zon iklim paling ekstrem di dunia, bahan kami membuktikan dirinya setiap hari. Kami menetapkan piawaian yang diikuti oleh seluruh dunia.",
+      "specsList1": "Diuji ISO 9001",
+      "specsList2": "Salutan Teflon PTFE Gred A",
+      "specsList3": "Penentukuran Suhu Digital",
+      "ctaTitle": "Bersedia untuk kualiti tanpa kompromi?",
+      "ctaDesc": "Bercakap dengan Pasukan Kejuruteraan kami mengenai projek mega anda yang seterusnya dan minta sampel alat kami.",
+      "ctaBtn": "Mula Permintaan Projek",
+      "hero": {
+        "eyebrow": "Alat & Aksesori",
+        "title": "Alat kimpalan untuk pemasangan PP-R",
+        "lead": "Mesin kimpalan soket, teknologi gegelung pemanas, dan alat penentukuran: Dengan alat asal K-Aqua, anda boleh mencipta kimpalan kalis bocor secara kekal dan patuh piawaian di mana-mana tapak pembinaan. Alat profesional untuk pemasangan PP-R."
+      }
+    },
+    "valves": {
+      "metaTitle": "Injap & Lengkapan PP-R untuk Sistem Paip",
+      "metaDesc": "Kawalan aliran yang boleh dipercayai dengan injap dan lengkapan PP-R K-Aqua. Ketahanan yang tinggi dan kalis kebocoran yang kukuh untuk aplikasi industri, air minuman, dan pemanasan.",
+      "heroEyebrow": "Kejuruteraan Jerman",
+      "heroTitle": "Kawalan Mutlak.",
+      "heroSubtitle": "Di bawah tekanan tertinggi.",
+      "heroDesc": "Selamat datang ke liga tertinggi kejuruteraan bendalir. Injap dan lengkapan K-Aqua bukan sekadar komponen. Ia merupakan teras kebolehpercayaan bagi infrastruktur global yang tidak boleh dirasuah. Dihasilkan untuk bertahan lama.",
+      "heroBtnPrimary": "Minta Teknologi",
+      "heroBtnSecondary": "Teroka Seni Bina",
+      "manifestoTitle": "Apabila bahan gagal, sistem akan rosak. <br/><span class=\"text-primary\">Kami tidak akan gagal.</span>",
+      "manifestoP1": "Dalam teknologi kawalan bendalir industri, injap bukan sekadar suis untuk cecair. Ia merupakan titik persimpangan kritikal di mana tenaga kinetik, tekanan melampau, pengembangan terma, dan keagresifan bahan kimia bertembung.",
+      "manifestoP2": "Di sinilah barangan biasa terpisah dengan hasil kejuruteraan sebenar. Lengkapan kami dibuat dalam ukuran berlebihan secara sengaja, dihasilkan dengan ketepatan tahap paranoia, dan dibina untuk senario yang dianggap 'mustahil' oleh pengeluar lain. Inilah yang kami maksudkan dengan <span class=\"text-foreground font-bold\">Kejuruteraan Jerman</span>.",
+      "scrollEyebrow": "Asal Usul Kesempurnaan",
+      "scrollTitle": "Dari bahan mentah kepada lengkapan yang tidak boleh dimusnahkan.",
+      "scrollLead": "Ikuti proses penciptaan injap K-Aqua. Laluan tanpa kompromi menerusi haba, tekanan, dan ketepatan mikroskopik.",
+      "scroll1Title": "Bahan Mentah Tanpa Cacat Cela",
+      "scroll1Desc": "Injap dan lengkapan kami bermula sebagai bahan berprestasi tinggi yang tulen dan diuji secara industri. Melalui analisis spektrum yang ketat, kami menjamin dari awal lagi ketiadaan titik kelemahan mikrostruktur. Ini merupakan asas mutlak tanpa kompromi untuk rintangan kakisan mutlak dan integriti mekanikal dalam penggunaan harian selama bertahun-tahun.",
+      "scroll2Title": "Pemesinan CNC Berketepatan Tinggi",
+      "scroll2Desc": "Setiap komponen tunggal dimesin dari blok padat menggunakan mesin pemprosesan CNC 5-paksi tercanggih di kilang kami, dengan toleransi yang hampir mustahil iaitu kurang daripada satu per seribu milimeter. Ketepatan tanpa kompromi ini memastikan permukaan kedap sejajar dengan sempurna. Ia menghapuskan risiko kebocoran sepenuhnya dan menjamin operasi yang sangat lancar, tanpa geseran dan tahan haus, walaupun selepas beberapa dekad.",
+      "scroll3Title": "Aliran Tanpa Peronggaan (Cavitation-free)",
+      "scroll3Desc": "Injap hanya sebaik profil aliran dalamannya. Dengan menggunakan Dinamik Bendalir Pengiraan (CFD) termaju, kami telah mereka bentuk kontur dalaman sedemikian rupa sehingga pergolakan dan peronggaan hampir dihapuskan. Ini bermaksud pengurangan kehilangan tekanan dalam keseluruhan sistem dan meminimumkan bunyi secara mutlak walaupun pada kelajuan aliran tertinggi.",
+      "scroll4Title": "Ujian Akhir 100%. Tiada Pengecualian.",
+      "scroll4Desc": "Ujian rawak tidak mencukupi apabila infrastruktur berbilion dolar dipertaruhkan. Sebelum apa-apa lengkapan meninggalkan kilang K-Aqua, ia tertakluk kepada kitaran ujian robotik automatik sepenuhnya yang jauh melebihi tekanan dunia sebenar. Ujian tekanan tinggi hidraulik, ujian kebocoran vakum helium, dan ujian kejutan terma menjamin rekod sifar kecacatan legenda kami.",
+      "showcaseEyebrow": "Anatomi Kebolehpercayaan",
+      "showcaseTitle": "Tiada kelemahan. <br/> Tiada zon mati.",
+      "showcaseP1": "Seni bina dalaman lengkapan kami direka secara konsisten untuk <span class=\"font-semibold\">kebebasan ruang mati</span>. Zon genangan, tempat di mana bakteria seperti Legionella boleh membiak, telah dihapuskan secara geometri.",
+      "showcaseP2": "Air memecut dalam aliran berlamina yang diarahkan dengan sempurna melalui badan injap. Kedudukan kedap pepejal membersihkan diri dengan sendiri dan menutup rapat-rapat walaupun selepas kitaran kesejuta.",
+      "showcaseList1": "Kebersihan air minuman yang disahkan mengikut piawaian tertinggi",
+      "showcaseList2": "Pengedap hermetik pada tekanan operasi maksimum",
+      "showcaseList3": "Pengedap gelendong bebas penyelenggaraan dengan O-ring berganda",
+      "bentoEyebrow": "Spesifikasi",
+      "bentoTitle": "Angka keunggulan mentah.",
+      "bentoLead": "Apabila retorik pemasaran tamat, data akan mula bercakap. Temui parameter teknikal yang menjadikan injap kami pilihan utama untuk projek mega.",
+      "bento1Title": "Tekanan Berterusan PN25",
+      "bento1Desc": "Direka bentuk untuk aplikasi tekanan tinggi berterusan melangkaui kebiasaan. Ketebalan dinding dan reka bentuk benang sangat tebal sehingga ia tidak akan menyerah sedikit pun kepada lonjakan tekanan melampau dan tukulan air (water hammer). Blok keselamatan monolitik.",
+      "bento2Title": "Kedaulatan Terma",
+      "bento2Desc": "Daripada kesejukan berais kepada suhu aliran mendidih. Bahan mewah ini mengekalkan keanjalan penuhnya, tidak menjadi rapuh, dan menahan pengembangan terma dengan sangat berkesan.",
+      "bento3Title": "Ketahanan Bahan Kimia",
+      "bento3Desc": "Kakisan ialah konsep masa lalu. Lengkapan kami imun terhadap keadaan tanah yang agresif, air keras, dan proses pembasmian kuman beralklorin. Tiada karat, tiada kakisan bopeng.",
+      "bento4Title": "Ergonomik & Haptik Perindustrian",
+      "bento4Desc": "Reka bentuk memenuhi fungsi mentah. Roda tangan yang kukuh, tuil besar, dan gelendong dimesin secara tepat memberikan maklum balas taktil yang pantas dan tepat apabila membuka dan menutup, walaupun memakai sarung tangan pelindung tugas berat.",
+      "timelineEyebrow": "Laluan Keras.",
+      "timelineLead": "Garis masa jaminan kualiti tanpa kompromi. Bagaimana sebuah idea bertukar menjadi legenda industri.",
+      "timeline1Year": "Fasa 01",
+      "timeline1Title": "Pemilihan Molekul",
+      "timeline1Text": "Pemilihan aloi logam dan polimer berprestasi tinggi yang dirumus khusus untuk K-Aqua. Kami memberi tumpuan kepada ketahanan rayapan (creep resistance) mutlak dan kestabilan molekul yang maksimum.",
+      "timeline2Year": "Fasa 02",
+      "timeline2Title": "Pengoptimuman Aliran CFD",
+      "timeline2Text": "Dengan bantuan superkomputer, saluran aliran dalaman dikira melalui ribuan iterasi untuk meminimumkan rintangan aliran sehingga hampir sifar.",
+      "timeline3Year": "Fasa 03",
+      "timeline3Title": "Ujian Tekanan Ruang Iklim",
+      "timeline3Text": "Prototaip menjalani ujian ketahanan berbulan-bulan dalam ruang iklim kami pada suhu sehingga 120°C, tekanan 25 Bar, dan larutan kimia ekstrem.",
+      "timeline4Year": "Fasa 04",
+      "timeline4Title": "Pengeluaran Siri Robotik",
+      "timeline4Text": "Peralihan ke barisan pengeluaran Industri 4.0 kami yang sangat automatik. Kami mencapai kebolehulangan maksimum dengan toleransi minimum tanpa sebarang kesilapan manusia.",
+      "timeline5Year": "Fasa 05",
+      "timeline5Title": "Penggunaan Global",
+      "timeline5Text": "Digunakan di tapak pembinaan paling kritikal di dunia, daripada projek mega padang pasir hingga kemudahan luar pesisir. Disokong oleh Pasukan Kejuruteraan Lapangan kami.",
+      "finalTitle": "Bina untuk generasi akan datang. <br/>Bukan untuk penyelenggaraan seterusnya.",
+      "finalDesc": "Dalam dunia yang semakin bergantung pada usang terancang dan alat ganti yang murah, kami berdiri sebagai jawapan padu. Injap K-Aqua dipasang, kemudian dilupakan. Kerana ia hanya berfungsi dengan baik. Dekad demi dekad. Percayalah pada kepakaran industri sebenar.",
+      "ctaTitle": "Sedia untuk kawalan mutlak?",
+      "ctaDesc": "Bincang dengan Jurutera Utama kami mengenai spesifikasi untuk projek mega anda yang seterusnya. Kami menyediakan jawapan kepada cabaran yang bahkan tidak difahami oleh orang lain.",
+      "ctaBtnPrimary": "Minta Perundingan Teknikal",
+      "ctaBtnSecondary": "Spesifikasi dalam bentuk PDF",
+      "hero": {
+        "eyebrow": "Injap & Lengkapan",
+        "title": "Lengkapan & Injap PP-R untuk kawalan yang tepat",
+        "lead": "Tutup, kawal, selamatkan: Lengkapan K-Aqua yang diperbuat daripada PP-R menggabungkan hidraulik bebas kakisan dengan ketepatan pembuatan Jerman untuk air minuman, HVAC, dan industri. Untuk peraturan kawalan yang tepat dalam rangkaian air minuman dan pemanasan."
+      }
+    },
+    "category": {
+      "allProducts": "Semua Produk",
+      "openInFinder": "Buka dalam Pencari",
+      "artNA": "Art. N/A",
+      "viewDetails": "Lihat Butiran Produk",
+      "learnMoreKnowledge": "Ketahui Sistem Paip PP-R dalam portal pengetahuan",
+      "learnMoreDesc": "Selami lebih mendalam dokumentasi teknikal dan temui artikel pakar tentang pemasangan, kelestarian, dan pengujian sistem PP-R kami.",
+      "toKnowledgeBase": "Terokai artikel teknikal di Akademi K-Aqua"
+    },
+    "fittings": {
+      "meta": {
+        "title": "Lengkapan & Penyambung | K-Aqua",
+        "desc": "Lengkapan dan penyambung K-Aqua diperbuat daripada PP-R: Siku, T-sendi, pengecil, dan soket. Kedap tanpa kompromi melalui Kejuruteraan Jerman."
+      },
+      "hero": {
+        "eyebrow": "Lengkapan & Penyambung",
+        "title": "Lengkapan & Penyambung PP-R untuk sambungan kedap tahan lama",
+        "lead": "Daripada siku kepada pengecil: Lengkapan PP-R K-Aqua melakur secara molekular dengan paip semasa mengimpal. Sistem homogen tanpa pengedap dan tanpa titik lemah. Untuk sambungan kedap tahan lama dalam setiap rangkaian paip."
+      },
+      "intro": {
+        "eyebrow": "Autoriti Perindustrian",
+        "title": "Keselamatan bukan satu kebetulan. Ia boleh dikira.",
+        "lead": "Apabila kontraktor am antarabangsa merancang projek berbilion dolar, mereka tidak bergantung pada janji, tetapi pada fakta kukuh. Kami menetapkan piawaian yang diikuti oleh seluruh dunia.",
+        "text1": "Selama beberapa dekad, kilang utama kami di tengah-tengah Jerman telah menggabungkan kebanggaan ketukangan dengan teknologi pembuatan yang sangat automatik dan terkini. Setiap siku, setiap soket, setiap sendi T membawa DNA unik kejuruteraan Jerman. Digunakan di padang pasir yang paling keras, zon iklim paling ekstrem, dan kemudahan perindustrian yang paling menuntut di dunia, bahan kami membuktikan dirinya setiap hari.",
+        "text2": "Penyatuan makromolekul dalam sistem PP-R kami mencipta rangkaian paip tanpa sebarang titik lemah. Tiada cincin kedap yang boleh menghakis, tiada sambungan gam yang boleh diserang oleh bahan kimia. Paip dan lengkapan dilakurkan secara haba ke dalam satu bahan kerja yang tidak boleh dipisahkan. Inilah definisi keselamatan mutlak."
+      },
+      "sticky": {
+        "eyebrow": "Seni Bina Kesempurnaan",
+        "title": "Anatomi kebolehpercayaan.",
+        "lead": "Pemerhatian mendalam terhadap ciri fizikal dan kimia yang menjadikan lengkapan kami sebagai penanda aras global.",
+        "items": [
+          {
+            "title": "Struktur Molekul",
+            "desc": "Lengkapan kami berasaskan Kopolimer Rawak Polipropilena PP-R bersambung silang tinggi. Melalui profil suhu-tekanan terkawal semasa penyemperitan (extrusion), kami mencapai struktur kristal isotropik. Hasilnya: Rintangan yang tidak pernah berlaku sebelum ini terhadap retakan tekanan dan turun naik suhu yang melampau."
+          },
+          {
+            "title": "Ketepatan Termoplastik",
+            "desc": "Setiap lengkapan melalui proses pengacuan suntikan termoplastik dengan toleransi rongga pada tahap mikrometer. Ini memastikan indeks lebur semasa pengimpalan dengan paip kami adalah mutlak sama, untuk sambungan bahan yang homogen, tidak boleh dipisahkan, dan 100% bebas kebocoran."
+          },
+          {
+            "title": "Sifar Toleransi Ralat",
+            "desc": "Kami tidak menyerahkan apa-apa kepada nasib. Setiap kelompok dianalisis menggunakan ukuran ketebalan dinding ultrasonik, ujian rayapan tekanan dalaman hidrostatik, dan Kalorimetri Imbasan Berbeza (DSC). Hanya bahan yang melebihi piawaian dalaman kami (yang jauh melebihi DIN EN ISO 15874) diluluskan."
+          },
+          {
+            "title": "Rintangan Peronggaan",
+            "desc": "Geometri dalaman lengkapan kami yang dioptimumkan untuk aliran berkesan mencegah penurunan tekanan dan peronggaan, walaupun pada kelajuan aliran ekstrem dalam paip penaik (riser pipes) perindustrian. Ini meminimumkan pelepasan bunyi dan melindungi sistem daripada kehausan lelas (abrasive wear) dari dalam."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Data Prestasi",
+        "title": "Spesifikasi melangkaui standard.",
+        "lead": "Walaupun industri menganggap piawaian sebagai matlamat, kami melihatnya hanya sebagai minimum yang mutlak.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Pematuhan dan ujian lengkap untuk sistem paip plastik untuk pemasangan air panas dan sejuk."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Direka untuk aplikasi tekanan tinggi berterusan, walaupun pada suhu kritikal."
+          },
+          {
+            "title": "Sifat Lengai Bahan Kimia",
+            "desc": "Rintangan cemerlang terhadap media agresif. Bebas tahap pH (pH 1 hingga 14) untuk kegunaan industri."
+          },
+          {
+            "title": "Redaman Akustik",
+            "desc": "Keanjalan sedia ada pada bahan PP-R menyerap bunyi bawaan struktur dan mengurangkan bunyi aliran ke tahap minimum yang mutlak, sesuai untuk hotel mewah dan hospital."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Proses Kejadian",
+        "desc": "Dari bahan mentah molekul ke komponen yang tidak boleh dimusnahkan. Lihat ke dalam matriks pengeluaran kami yang sangat automatik.",
+        "items": [
+          {
+            "year": "Langkah 01",
+            "title": "Pemilihan Butiran (Granulate)",
+            "text": "Hanya butiran polipropilena pradesintesis berketulenan tinggi dari kilang penapisan premium Eropah yang melepasi kawalan masuk kami."
+          },
+          {
+            "year": "Langkah 02",
+            "title": "Pengkondisian Terma",
+            "text": "Sebelum pengacuan suntikan, butiran distabilkan secara terma untuk menghapuskan kelembapan sisa dan menjamin leburan yang homogen."
+          },
+          {
+            "year": "Langkah 03",
+            "title": "Pengacuan Suntikan Tekanan Tinggi",
+            "text": "Dalam sel pengacuan suntikan automatik dan dibantu robot, kami membentuk bahan di bawah tekanan besar menjadi lengkapan tanpa cacat cela."
+          },
+          {
+            "year": "Langkah 04",
+            "title": "Matriks Penyejukan",
+            "text": "Profil penyejukan terkawal komputer menghalang tekanan dalaman pada bahan dan memastikan ketepatan dimensi yang sempurna."
+          },
+          {
+            "year": "Langkah 05",
+            "title": "Pengujian & Logistik",
+            "text": "Setiap kumpulan menerima sijil digitalnya. Sedia untuk dihantar ke tapak pembinaan yang paling menuntut di dunia."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Jangka Hayat > 50 Tahun. Dijamin.",
+        "text": "Masa adalah ujian tekanan (stress test) muktamad untuk sebarang bahan. Lengkapan kami direka untuk mengatasi jangka hayat bangunan itu sendiri. Dengan menambahkan antioksidan khas dan penstabil terma ke dalam matriks PP-R kami, penuaan terma-oksidatif ditangguhkan secara besar-besaran. Walaupun dengan suhu aliran berterusan pada 70°C dan beban tekanan 10 Bar, kami menjamin jangka hayat perkhidmatan lebih daripada setengah abad. Ini bukan pemasaran. Ini adalah fizik polimer gunaan.",
+        "badge": "100% Bebas Penyelenggaraan"
+      },
+      "cta": {
+        "title": "Bersedia untuk kualiti tanpa kompromi?",
+        "desc": "Hubungi Pasukan Kejuruteraan kami. Kami bukan sahaja menyampaikan produk, kami menyampaikan keselamatan untuk projek mega anda yang seterusnya.",
+        "primary": "Mula Permintaan Projek",
+        "secondary": "Lihat Semua Rangkaian Produk"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "Sistem Paip PP-R & PPRCT | K-Aqua",
+        "desc": "Sistem paip berprestasi tinggi diperbuat daripada PP-R dan PPRCT. Kejuruteraan Jerman untuk air minuman, penghawa dingin dan industri. Keselamatan tanpa kompromi untuk projek mega."
+      },
+      "hero": {
+        "eyebrow": "Sistem Paip",
+        "title": "Paip PP-R & PPRCT dari d20 hingga d630",
+        "lead": "Paip PP-R K-Aqua dan paip pelbagai lapisan PPRCT untuk air minuman, pemanasan, dan industri: Versi komposit mono dan gentian dalam semua kelas tekanan, dikilangkan di Jerman mengikut DIN 8077/8078. Tersedia dari d20 hingga d630 untuk sambungan kedap tahan lama."
+      },
+      "sticky": {
+        "eyebrow": "Sains Bahan",
+        "title": "Kejuruteraan polimer dalam kesempurnaan.",
+        "lead": "Struktur molekul paip PP-R dan PPRCT kami telah dioptimumkan untuk beban termomekanikal yang ekstrem. Sebuah karya seni kejuruteraan Jerman.",
+        "items": [
+          {
+            "title": "Seni Bina Berbilang Lapisan PPRCT",
+            "desc": "Paip PPRCT (Kopolimer Rawak Polipropilena dengan Penghabluran dan Rintangan Suhu yang diubah suai) generasi terbaru kami mempunyai lapisan sebatian gentian kaca bersepadu. Ini mengurangkan pengembangan haba linear sehingga 75% berbanding paip PP-R standard, manakala rintangan tekanan pada suhu tinggi meningkat secara mendadak. Ketebalan dinding yang lebih nipis dengan kapasiti aliran yang dipertingkatkan adalah hasilnya."
+          },
+          {
+            "title": "Kimpalan Homogen",
+            "desc": "Tidak seperti lengkapan tekan (press fittings) atau sambungan pelekat, kami menggunakan proses kimpalan polilakuran (polyfusion). Paip dan lengkapan dilakurkan pada suhu 260°C ke dalam satu unit molekul yang tidak boleh dipisahkan. Sistem ini tidak memerlukan gelang-O atau pengedap mekanikal sama sekali. Titik sambungan lebih kuat secara fizikal daripada paip itu sendiri: jangka hayat 100% bebas kebocoran dijamin."
+          },
+          {
+            "title": "Kebebasan Mutlak dari Hakisan",
+            "desc": "Sistem logam gagal berhadapan dengan kualiti air yang agresif, paras pH rendah atau kandungan klorida yang tinggi. Paip polimer K-Aqua sepenuhnya lengai. Kakisan bopeng (pitting corrosion), kakisan celah, kakisan galvanik, atau penempelan (incrustations) secara fizikal tidak mungkin berlaku. Kehilangan geseran paip (nilai kekasaran k=0.007 mm) kekal pada paras hari pertama walaupun selepas 50 tahun beroperasi, secara drastik mengurangkan tenaga pam."
+          },
+          {
+            "title": "Penebat Haba dan Akustik",
+            "desc": "Oleh kerana kekonduksian haba PP-R yang rendah (0.24 W/mK) berbanding dengan keluli (50 W/mK) atau tembaga (380 W/mK), pembentukan pemeluwapan (condensation) dalam sistem penyejukan sangat tertangguh dan kehilangan haba dalam sistem pemanasan dapat diminimumkan. Selain itu, paip polimer berdinding tebal kami menyerap bunyi aliran dan tukulan air dengan efisien, yang menyempurnakan keselesaan akustik di bangunan bertingkat tinggi dan hotel."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Sifar Toleransi Ralat",
+        "desc": "Setiap sentimeter paip kami dipantau dalam proses penyemperitan. Daripada butiran hinggalah produk siap: Kualiti Buatan Jerman.",
+        "items": [
+          {
+            "year": "Tahap 01",
+            "title": "Bahan Mentah Premium",
+            "text": "Kami memproses secara eksklusif butiran PP-R dan PPRCT berketulenan tinggi daripada pengeluar polimer terkemuka dunia. Setiap kumpulan melalui ujian MFR (Kadar Aliran Lebur) serta pengukuran Masa Aruhan Oksidatif (OIT) dalam makmal dalaman kami sebelum diluluskan untuk penyemperitan."
+          },
+          {
+            "year": "Tahap 02",
+            "title": "Penyemperitan Berketepatan",
+            "text": "Talian penyemperitan canggih kami menghasilkan paip komposit gentian 3 lapisan dengan ketepatan mikrometer. Pengukuran ketebalan dinding ultrasonik masa nyata merentas 360° memastikan toleransi minimum yang dibenarkan tercapai, walaupun pada paip SDR 6."
+          },
+          {
+            "year": "Tahap 03",
+            "title": "Pengkondisian Terma",
+            "text": "Sejurus selepas penyemperitan, paip disejukkan secara berperingkat dalam mandian air terkawal suhu khas. Proses penyejukan lembut ini menghalang tegasan sisa dalaman (internal residual stresses) pada bahan dan memastikan kestabilan dimensi tertinggi di semua ukuran."
+          },
+          {
+            "year": "Tahap 04",
+            "title": "100% Kebolehkesanan (Traceability)",
+            "text": "Setiap paip menerima cetakan laser yang tidak terhapus dengan kumpulan tepat dan maklumat masa pengeluaran. Walaupun berdekad-dekad di dalam dinding, asal usul setiap paip K-Aqua dapat dikesan dengan sempurna kembali ke kumpulan butirannya."
+          },
+          {
+            "year": "Tahap 05",
+            "title": "Pengujian & Kelulusan",
+            "text": "Ujian tekanan pecah hidraulik pada suhu 95°C selama 1000 jam. Ujian tegangan (tensile tests), kekuatan impak bertakuk (notched impact strength), dan ujian keselamatan toksikologi. Hanya apabila produk melebihi semua piawaian (DIN 8077/8078, EN ISO 15874), barulah ia meninggalkan bengkel kami."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi",
+        "title": "Satu dimensi untuk setiap keperluan.",
+        "lead": "Boleh diskalakan daripada sambungan rumah d20 kepada paip penaik perindustrian d500. Sistem kami berkembang dengan dimensi projek anda.",
+        "items": [
+          {
+            "title": "Dimensi dari d20 hingga d500",
+            "desc": "Portfolio paip dan lengkapan yang lengkap. Sama ada siku T, pengecil, atau sambungan bebibir (flange) dalam ukuran raksasa, kami membekalkan sistem lengkap daripada satu sumber. Tiada kompromi pada hidraulik."
+          },
+          {
+            "title": "Kelas SDR 6 hingga 11",
+            "desc": "Tahap tekanan khusus (PN10 hingga PN25) melalui Nisbah Dimensi Standard (SDR) yang berbeza. Optimumkan penggunaan bahan dan aliran."
+          },
+          {
+            "title": "Kebersihan Air Minuman",
+            "desc": "Mematuhi piawaian Eropah yang paling ketat (UBA, DVGW). Gred makanan mutlak, tidak berbau dan tidak berasa. Salutan dalaman antibakteria sebagai pilihan."
+          },
+          {
+            "title": "Paip Luaran Tahan UV",
+            "desc": "Untuk pemasangan luar bangunan di zon iklim ekstrem (cth. Timur Tengah), kami menawarkan paip yang stabil terhadap UV. Lapisan pelindung luar menyekat sinaran UV dan menghalang degradasi polimer."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Biar pakar merangka dimensi projek anda.",
+        "desc": "Hantarkan isometri atau pelan P&ID anda kepada kami. Pasukan Kejuruteraan kami akan menguruskan pengiraan hidraulik dan bil bahan untuk projek berskala besar anda.",
+        "primary": "Mula Permintaan Projek"
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "Lengkapan Peralihan PP-R & Sambungan Sistem",
+        "desc": "Peralihan K-Aqua: Kesalinghubungan hibrid kelas atas yang mutlak. Apabila logam berkekuatan tinggi bertemu plastik inovatif. Kejuruteraan Jerman."
+      },
+      "hero": {
+        "eyebrow": "Peralihan Sistem",
+        "title": "Lengkapan peralihan: Selamat dari logam ke PP-R",
+        "lead": "Tembaga bertemu polimer: Lengkapan peralihan K-Aqua menghubungkan rangkaian paip logam sedia ada dengan sistem PP-R dengan cara yang kekal kedap dan bebas kakisan, diuji jauh melangkaui kebiasaan."
+      },
+      "intro": {
+        "eyebrow": "Cabaran",
+        "title": "Tempat dunia bertembung.",
+        "lead": "Peralihan daripada sistem paip logam tegar kepada rangkaian termoplastik moden ialah titik kelemahan dalam mana-mana pemasangan bangunan dan industri. Di sinilah daya ricih terma dan mekanikal maksimum bertindak."
+      },
+      "sticky": {
+        "eyebrow": "Teknologi Mendalam",
+        "title": "Anatomi Ketidakmusnahan.",
+        "lead": "Kami tidak menganggap lengkapan peralihan sebagai sekadar aksesori, sebaliknya sebagai alat mekanikal yang sangat kompleks. Setiap milimeter ketebalan dinding, setiap benang, adalah hasil analisis unsur terhingga (FEA) yang tidak terkira banyaknya.",
+        "items": [
+          {
+            "title": "Simbiosis Logam dan Polimer",
+            "desc": "Lengkapan peralihan kami menggabungkan kekuatan mekanikal loyang CW617N yang tahan nyah-zink dengan sifat lengai kimia PPRCT. Gabungan bahan ini bukan dihasilkan dengan penekanan ringkas, tetapi melalui proses pengacuan suntikan termomekanikal yang mencapai kaitan antara molekul yang tidak boleh dipisahkan."
+          },
+          {
+            "title": "Daya Kilas (Torsion) dan Tork Melampau",
+            "desc": "Kriteria kegagalan kritikal dalam lengkapan standard ialah beban tork berlebihan semasa pemasangan. Peralihan K-Aqua menyepadukan profil penambat heksagon yang dipatenkan di dalam sarung plastiknya. Hasilnya: Rintangan kilasan yang dijamin lebih daripada 300 Nm tanpa nyahlapisan (delamination) lapisan sempadan."
+          },
+          {
+            "title": "Pekali Pengembangan Terma dalam Keseimbangan",
+            "desc": "Logam dan plastik mengembang secara berbeza dengan turun naik suhu (Δα). Melalui sambungan pengembangan mikro yang dikira dengan tepat di dalam sisipan loyang, lengkapan kami mengimbangi kejutan melampau dari -20°C kepada +95°C dalam beberapa milisaat, bebas kebocoran sepenuhnya."
+          },
+          {
+            "title": "Sifar Toleransi Kawalan Kualiti",
+            "desc": "Setiap satu komponen hibrid menjalani ujian kebocoran helium automatik sepenuhnya dan pengukuran optik 3D. Jika had 10^-5 mbar·l/s dihampiri waima sedikit pun, sistem kami akan menolak bahagian tersebut sekeras-kerasnya. Kejuruteraan Jerman tidak menerima kompromi."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi",
+        "title": "Seni bina prestasi.",
+        "lead": "Apabila anda merancang projek mega dengan puluhan ribu sambungan, kebolehpercayaan statistik adalah pulangan pelaburan (ROI) yang paling penting. K-Aqua memberikan jaminan fizikal untuk itu.",
+        "items": [
+          {
+            "title": "Teras Loyang DZR",
+            "desc": "Loyang tahan nyah-zink Gred CW617N (menurut DIN EN 12164) menghapuskan risiko kakisan terpilih (selective corrosion) dalam kualiti air yang agresif."
+          },
+          {
+            "title": "Reka Bentuk Anti Putaran",
+            "desc": "Potongan poligon membentuk kunci geometri yang menyerap momen tork melampau, tanpa meletakkan tekanan pada sarung plastik."
+          },
+          {
+            "title": "Benang Ditarik Dalam (Deep-drawn)",
+            "desc": "Benang konikal dan silinder ISO 7/1 atau ISO 228, dimesin dengan toleransi ±0.01mm untuk kekedapan sempurna."
+          },
+          {
+            "title": "Matriks PPRCT",
+            "desc": "Struktur kristalin tinggi Kopolimer Rawak Polipropilena kami menawarkan kekuatan rayapan jangka panjang (creep strength) yang unggul pada suhu tinggi."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Kitaran Pembuatan",
+        "desc": "Melihat ke dalam kilang kami. Laluan dari bahan mentah ke lengkapan hibrid yang diuji adalah gabungan orkestra tekanan haba dan ketepatan tanpa belas kasihan.",
+        "items": [
+          {
+            "year": "Fasa 1",
+            "title": "Pemesinan Bahagian Kasar (CW617N)",
+            "text": "Loyang ditekan ke dalam acuan berketepatan tinggi pada 750°C, diikuti dengan pemesinan dikawal CNC dalam julat mikrometer untuk mencipta profil kedap."
+          },
+          {
+            "year": "Fasa 2",
+            "title": "Pempasifan Permukaan",
+            "text": "Untuk menghapuskan kakisan galvanik, sisipan benang melalui proses pempasifan (passivation) pelbagai peringkat di dalam mandian ultrasonik elektrolitik."
+          },
+          {
+            "year": "Fasa 3",
+            "title": "Pembentukan Berlebihan (Pengacuan Suntikan)",
+            "text": "Dalam mesin pengacuan suntikan tekanan tinggi (2,000 bar), PPRCT lebur menutup loyang. Plastik mengisi sepenuhnya setiap potongan."
+          },
+          {
+            "year": "Fasa 4",
+            "title": "Penyejukan Terkawal",
+            "text": "Penurunan suhu berperingkat dan diprogramkan menghalang tegasan sisa (internal stress) dalam kekisi plastik dan memastikan kebenaran bentuk sepusat (concentric) lengkapan."
+          },
+          {
+            "year": "Fasa 5",
+            "title": "Ujian Tekanan & Kilasan",
+            "text": "Ujian letupan rawak sehingga 120 bar serta ujian keletihan mensimulasikan penggunaan industri agresif berterusan selama 50 tahun."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Pensijilan & Parameter",
+        "title": "Fakta Teguh.",
+        "lead": "Kami bukan sekadar menguji ikut piawaian. Kami yang menentukannya. Protokol ujian dalaman kami melebihi keperluan DVGW, SKZ dan ISO sehingga 300%.",
+        "items": [
+          {
+            "label": "Tekanan Kendalian (PN)",
+            "value": "Sehingga 25 bar",
+            "sub": "Pada air 20°C"
+          },
+          {
+            "label": "Spektrum Suhu",
+            "value": "-20°C hingga +95°C",
+            "sub": "Beban puncak hingga 110°C"
+          },
+          {
+            "label": "Piawaian Benang",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Benang Dalam & Benang Luar"
+          },
+          {
+            "label": "Kitar Hayat",
+            "value": "> 50 tahun",
+            "sub": "Di bawah keadaan perindustrian"
+          },
+          {
+            "label": "Aloi Loyang",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Bebas Nyah-zink"
+          },
+          {
+            "label": "Plastik",
+            "value": "PPRCT / PP-R",
+            "sub": "Disahkan untuk air minuman"
+          },
+          {
+            "label": "Pematuhan Air Minuman",
+            "value": "UBA, DVGW",
+            "sub": "Pilihan 100% Bebas Plumbum"
+          },
+          {
+            "label": "Jaminan Kualiti",
+            "value": "ISO 9001:2015",
+            "sub": "100% Penjejakan Kumpulan"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Sambungan terkuat dalam projek anda.",
+        "desc": "Bergantung pada kejuruteraan Jerman yang terbukti. Hubungi kami untuk helaian data teknikal, model BIM, atau perundingan projek individu.",
+        "primary": "Mula Permintaan Projek",
+        "secondary": "CAD & Spesifikasi"
+      }
+    },
     "hero": {
       "eyebrow": "SISTEM PAIP",
       "title1": "K-AQUA:",
       "title2": "PRESTASI TINGGI.",
-      "desc": "Penyelesaian paip PP-R dan PPRCT untuk infrastruktur moden. Direka untuk ketahanan yang tidak tertandingi."
+      "desc": "Penyelesaian paip PP-R dan PPRCT."
     },
     "sticky": {
-      "eyebrow": "KATEGORI PRODUK",
-      "title": "PENYELESAIAN LENGKAP",
-      "lead": "Sistem komprehensif untuk pengurusan bendalir.",
+      "eyebrow": "KATEGORI",
+      "title": "PENYELESAIAN",
+      "lead": "Sistem komprehensif.",
       "items": [
-        {
-          "title": "PAIP PPR",
-          "desc": "Tahan tekanan tinggi dan kakisan."
-        },
-        {
-          "title": "PENYAMBUNG (FITTINGS)",
-          "desc": "Aliran yang dioptimumkan untuk mengurangkan kehilangan tekanan."
-        },
-        {
-          "title": "INJAP & AKSESORI",
-          "desc": "Kawalan bendalir yang boleh dipercayai."
-        },
-        {
-          "title": "PAIP KOMPOSIT",
-          "desc": "Gabungan plastik dan aluminium untuk kestabilan maksimum."
-        }
+        { "title": "PAIP PPR", "desc": "Tahan tekanan tinggi." },
+        { "title": "PENYAMBUNG", "desc": "Aliran yang dioptimumkan." },
+        { "title": "INJAP", "desc": "Kawalan bendalir." },
+        { "title": "PAIP KOMPOSIT", "desc": "Gabungan plastik aluminium." }
       ]
     },
     "bento": {
       "eyebrow": "PRESTASI",
       "title": "DATA TEKNIKAL",
-      "lead": "Direka untuk jangka hayat melebihi 50 tahun.",
+      "lead": "Jangka hayat melebihi 50 tahun.",
       "items": [
-        {
-          "title": "Kimpalan Terma",
-          "desc": "Penyatuan molekul tanpa kebocoran."
-        },
-        {
-          "title": "Bebas Kakisan",
-          "desc": "Tahan bahan kimia dan karat."
-        },
-        {
-          "title": "Aliran Dioptimumkan",
-          "desc": "Geseran yang sangat rendah."
-        },
-        {
-          "title": "Rintangan Tekanan",
-          "desc": "Sesuai untuk pemasangan tekanan tinggi."
-        }
+        { "title": "Kimpalan Terma", "desc": "Penyatuan molekul." },
+        { "title": "Bebas Kakisan", "desc": "Tahan karat." },
+        { "title": "Aliran Optimum", "desc": "Geseran rendah." },
+        { "title": "Rintangan Tekanan", "desc": "Tekanan tinggi." }
       ]
     },
     "timeline": {
       "title": "PROSES PEMASANGAN",
-      "desc": "Mudah, selamat, dan pantas.",
+      "desc": "Mudah dan selamat.",
       "items": [
-        {
-          "year": "01",
-          "title": "Perancangan",
-          "text": "Reka bentuk sistem."
-        },
-        {
-          "year": "02",
-          "title": "Pemotongan",
-          "text": "Potongan tepat dan bersih."
-        },
-        {
-          "year": "03",
-          "title": "Kimpalan",
-          "text": "Pemanasan sehingga 260°C."
-        },
-        {
-          "year": "04",
-          "title": "Ujian Tekanan",
-          "text": "Jaminan tiada kebocoran."
-        },
-        {
-          "year": "05",
-          "title": "Operasi",
-          "text": "Jangka hayat yang panjang."
-        }
+        { "year": "01", "title": "Perancangan", "text": "Reka bentuk sistem." },
+        { "year": "02", "title": "Pemotongan", "text": "Potongan tepat." },
+        { "year": "03", "title": "Kimpalan", "text": "Pemanasan sehingga 260°C." },
+        { "year": "04", "title": "Ujian Tekanan", "text": "Jaminan kualiti." },
+        { "year": "05", "title": "Operasi", "text": "Jangka hayat panjang." }
       ]
     },
-    "sysLead": "Komponen utama sistem K-Aqua: Paip, penyambung, dan injap."
+    "sysLead": "Komponen sistem utama K-Aqua."
   },
   "solutions": {
-    "hero": {
-      "eyebrow": "APLIKASI",
-      "title1": "PENYELESAIAN",
-      "title2": "INDUSTRI",
-      "desc": "Direka khas untuk pelbagai sektor. Daripada air minuman kepada bahan kimia industri."
-    },
-    "sticky": {
-      "eyebrow": "SEKTOR",
-      "title": "FLEKSIBILITI SISTEM",
-      "lead": "Sistem kami digunakan di seluruh dunia.",
-      "items": [
-        {
-          "title": "AIR MINUMAN",
-          "desc": "Pensijilan kebersihan tertinggi."
+    "eyebrow": "Penyelesaian",
+    "title1": "Produk",
+    "titleGrad": "yang Bertanggungjawab",
+    "title2": ".",
+    "lead": "Mengapa polipropilena ialah bahan yang sesuai untuk bekalan air masa depan: secara ekologi, teknikal dan ekonomi.",
+    "benefits": [
+      {
+        "t": "Mesra alam",
+        "d": "Polipropilena terhasil daripada gas yang dahulunya dibakar tanpa guna, dengan itu secara drastik mengurangkan pencemaran udara. Pengeluaran menggunakan air dalam sistem penyejukan tertutup, melindungi sungai, anak sungai dan tasik."
+      },
+      {
+        "t": "Boleh dikitar semula",
+        "d": "PP membawa kod kitar semula \"5\" dan boleh diasingkan secara tulen. Kami mengitar semula semua sisa pengeluaran dan potongan, dengan permintaan tinggi terhadap bahan kitar semula PP."
+      },
+      {
+        "t": "Unggul",
+        "d": "Sebagai plastik teknikal, PP mempunyai rintangan luar biasa terhadap pelarut, alkali dan asid, serta membentuk geometri kompleks melalui pengacuan suntikan pada kos rendah dan kuantiti yang tinggi."
+      },
+      {
+        "t": "Tahan lama",
+        "d": "Produk PP tahan jauh lebih lama berbanding bahan serupa: mudah diselenggara, tahan haus, serta tahan terhadap penuaan dan suhu ekstrem."
+      }
+    ],
+    "nextEyebrow": "Langkah seterusnya",
+    "nextTitle": "Produk Kami",
+    "nextLead": "Ketahui lebih lanjut mengenai sistem perpaipan K-Aqua kami.",
+    "nextCta": "Ke Produk",
+    "krankenhaus": {
+      "sticky": {
+        "items": [
+          {
+            "title": "Pencegahan Legionella (Legionella Prevention) sebagai Ciri Piawaian",
+            "desc": "Permukaan dalaman polipropilena secara mikroskopik adalah lebih licin (smoother) daripada keluli tahan karat perubatan. Ketiadaan keliangan makro ini secara langsung menafikan bio-filem sebagai permukaan rekatan, menghalang percambahan patogen dengan ketara dalam sistem perpaipan air minuman dari saat operasi bermula."
+          },
+          {
+            "title": "Pembasmian Kuman Secara Terma Tanpa Kelesuan Bahan",
+            "desc": "Piawaian klinikal memerlukan pembasmian kuman terma secara kerap pada suhu melebihi 70°C. Walaupun sistem konvensional menua dengan cepat dalam proses ini, sistem PP-R K-Aqua direka untuk menahan beban terma yang melampau selama berdekad-dekad. Tiada rekahan mikro, tiada kerapuhan, tiada kompromi."
+          },
+          {
+            "title": "Sambungan Steril Mutlak",
+            "desc": "Kimpalan lakuran titik pateri (socket welding) memanaskan paip dan lengkapan supaya bersepadu menjadi unit lancar yang sama sekali padu. Tiada ruang di mana takungan air boleh terbentuk. Hasilnya ialah sistem paip unibody (tuangan tunggal): satu halangan fizikal mutlak terhadap pencemaran."
+          },
+          {
+            "title": "Pengasingan Akustik untuk Unit Rawatan Rapi",
+            "desc": "Bunyi bising adalah tekanan teruk kepada pesakit dan kakitangan perubatan. Sistem K-Aqua mempunyai penyerapan akustik secara semula jadi. Bunyi pergerakan air dan lonjakan tekanan diserap oleh bahan itu sendiri, yang menjamin bekalan air yang sangat sunyi (whisper-quiet) walaupun dengan aplikasi tekanan tinggi: sangat penting untuk bilik pembedahan dan unit rawatan rapi."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fasa 01",
+            "title": "Dimensi Sistem & Hidraulik",
+            "text": "Pengiraan tepat bahagian-bahagian paip untuk mengelakkan ruang takungan. Setiap ukuran kehilangan tekanan disimulasikan dan ditangani oleh jurutera jerman kami pada model berkembar digital (digital twin) sewaktu proses perancangan."
+          },
+          {
+            "year": "Fasa 02",
+            "title": "Spesifikasi Bahan",
+            "text": "Pemilihan adunan (blends) polimer K-Aqua yang disasarkan untuk kehendak perubatan. Bahan mentah yang kami gunakan terpaksa melalui 42 tahap sekatan kualiti biarpun sebelum ia diproses ke dalam mesin pengeluaran acuan paip (extruder)."
+          },
+          {
+            "year": "Fasa 03",
+            "title": "Prapemasangan (Prefabrication) & Pengendalian Bilik Bersih",
+            "text": "Pemasangan siap (pre-assembly) pemancar edaran kompleks dalam persekitaran yang dikawal. Pengurangan sambungan tapak menjamin kadar persediaan ralat bebas dan kelancaran operasi pemasangan (clean room environment) dengan lebih pantas sehingga 40%."
+          },
+          {
+            "year": "Fasa 04",
+            "title": "Pengoperasian (Commissioning) & Pemeriksaan",
+            "text": "Kitaran pembasmian terma dan ujian keupayaan rintangan air secara lengkap. Ia diserahkan kepada pihak kontraktor beserta dokumen jejak kelulusan kimpalan digital secara terperinci untuk setiap kimpalan penyambung paip."
+          },
+          {
+            "year": "Fasa 05",
+            "title": "50 Tahun Bebas Penyelenggaraan",
+            "text": "Seusai tamat proses operasi perpaipan air perubatan ini, sistem terma kami secara ghaib membekalkan kualiti khidmat perpaipan, selamat di sebalik pelindung berdekad panjang setanding 50 tahun (minimum)."
+          }
+        ]
+      },
+      "hero": {
+        "eyebrow": "Infrastruktur Kritikal Misi (Mission-Critical)",
+        "title1": "Hospital.",
+        "title2": "Toleransi Sifar Ralat.",
+        "desc": "Dalam perkhidmatan kesihatan maksimum (medical maximal care), infrastruktur menjadi penentu di antara hidup dan mati. K-Aqua menyampaikan sistem saluran saraf hidrologi (hydrological nervous system) untuk projek mega hospital yang paling maju di peringkat global. Buatan di Jerman. Dibina untuk masa hadapan.",
+        "cta1": "Perundingan Kejuruteraan",
+        "cta2": "Muat Turun Data BIM"
+      },
+      "intro": {
+        "title": "Di mana setitik air <br className=\"hidden md:block\"/> berisiko menyebabkan sistem runtuh.",
+        "desc": "Kontraktor berdepan risiko rumit saat pengurusan projek klinikal. Waktu perancangan dan tarikh pembinaan berlawanan berikutan tempoh kesihatan paling mencabar di dunia (hygienic restrictions) dipadukan bersama. Ruang yang mati, keretakan mikroskopik dan kakisan titik pateri paip mampu menjejaskan infrastruktur pembinaan paip juta dollar (millions investment). Kami menciptanya menerusi ketelitian kompromi ukiran kejuruteraan cemerlang ke Jerman."
+      },
+      "stickySection": {
+        "eyebrow": "Keunggulan Teknologi",
+        "title": "Anatomi Keselamatan.",
+        "lead": "Kami membayangkan pembinaan hospital bukan sahaja sekadar tapak hartanah fizikal (building), namun sebagai hidupan yang hidup (biological organism). Sistem PP-R K-Aqua merupakan saluran pembuluh darah vaskular yang mustahil ditembusi (indestructible). Ketelitian millimetrik dan ujian jaminan tiada tandingan dioptimumkan ke puncak toleransi beban kegagalan keselamatan mutlak (absolute failure safety)."
+      },
+      "bentoSection": {
+        "eyebrow": "ROI & Kitaran Hayat",
+        "title": "Ekonomi menerusi Kesempurnaan.",
+        "lead": "Kualiti bukan lagi menjadi satu kelemahan titik harga, melainkan cara terbaik memastikan aliran pulangan (profitability) automasi penyelenggaraan yang selamat. K-Aqua menyingkirkan Kos Pemilikan Menyeluruh (Total Cost of Ownership) berserta ciri tahap tertinggi tanpa menjejaskan kejaminan awam perubatan pesakit (patient safety)."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "100% Rintangan Terhadap Kakisan",
+            "desc": "Berbeza dengan jenis paip besi, K-Aqua tahan lasak sepenuhnya terhadap kemusnahan elektrokimia, lubang (pitting), dan mendakan keras kalsium air (calcareous water). Kekebalan sistem tekanan dari tekanan air paip kekal sifar masalah selama pembinaan dan jaminan lebih tempoh 50 tahun pengoperasian tanpa sempadan waktu.",
+            "badge": "Tiada Kakisan"
+          },
+          {
+            "title": "Kelajuan Persediaan Berdesing (Lightning-fast)",
+            "desc": "Reka bentuk struktur jisim polipropilena yang ringan (lightweight) dan ikatan kesatuan pengedap bebas (homogeneous welding technology) menjimatkan rekod garis masa operasi penyiapan paip pada jurang pengurangan sehingga 40%.",
+            "badge": "-40% Masa"
+          },
+          {
+            "title": "Kelenturan Tahan Gempa Bumi",
+            "desc": "Keunikan sistem sel polimer berantai mengizinkan peresapan pendaratan tekanan seismik atau anjakan pergerakan keruntuhan (building settlements) dipulihkan bebas putus sambungan. Kriteria keselamatan unggul di wilayah terkesan akibat risiko aktiviti permukaan.",
+            "badge": "Tahap Seismik"
+          },
+          {
+            "title": "Kualiti Air Disahkan",
+            "desc": "Kami melengkapkan pengujian melebihi piawaian piawai keutuhan pematuhan paling tegar merentasi kancah regulasi sedunia (DIN, DVGW, SKZ, WRAS) buat laluan paip bekalan pengantaran ultra sentuhan cecair bersih (ultrapure water and clinical media)."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Piawaian K-Aqua.",
+        "desc": "Daripada gambaran format CAD hingga tetesan (drops) laluan peredaran terma pertama air buatan sistem, aliran proses penciptaan paip kami mengiringi tahap kesepaduan pengeluaran mampan (symphony of precision) sekaligus membendung kerumitan kesilapan luar jangka (accidental errors)."
+      },
+      "specs": {
+        "eyebrow": "Spesifikasi",
+        "title": "Fakta Teras (Hard Facts).",
+        "lead": "Kepada semua pembangun, perancang (planners), dan pereka bentuk kejuruteraan: Nilai spesifikasi kawalan kebatasan toleransi rintangan hidupan cecair dan kimia diaktifkan (chemical boundaries) demi kemaslahan prasarana pemulihan perubatan. Integriti operasi yang telus mewujudkan teras jaminan keselamatan pelanggan.",
+        "therm": {
+          "title": "Kapasiti Daya Tahan Terma",
+          "items": [
+            {
+              "label": "Suhu Operasi Berterusan",
+              "value": "70°C"
+            },
+            {
+              "label": "Suhu Kegagalan Maksimum",
+              "value": "95°C (100j)"
+            },
+            {
+              "label": "Kekonduksian Terma",
+              "value": "0.24 W/mK"
+            },
+            {
+              "label": "Pekali Pengembangan Lurus (Linear)",
+              "value": "0.15 mm/mK"
+            }
+          ]
         },
-        {
-          "title": "PENYEJUKAN",
-          "desc": "Sistem pengawal suhu berprestasi tinggi."
-        },
-        {
-          "title": "INDUSTRI",
-          "desc": "Tahan pelbagai bahan kimia agresif."
-        },
-        {
-          "title": "HOSPITAL",
-          "desc": "Pematuhan piawaian kesihatan."
+        "mech": {
+          "title": "Ciri Mekanikal",
+          "items": [
+            {
+              "label": "Ketumpatan (Density)",
+              "value": "0.895 g/cm³"
+            },
+            {
+              "label": "Kekuatan Regangan (Tensile Strength)",
+              "value": "23 MPa"
+            },
+            {
+              "label": "Pemanjangan pada Takat Putus (Elongation at Break)",
+              "value": "> 50%"
+            },
+            {
+              "label": "Modulus Keanjalan",
+              "value": "800 MPa"
+            }
+          ]
         }
-      ]
+      },
+      "bim": {
+        "title": "Sumber BIM & CAD",
+        "desc": "Sila ambil pakej permodelan 3D, keluarga Revit teliti lengkap dengan cetakan set data log pelan pendalaman format hidraulik terpiawai Autocad sedia digunakan ke format simulasi (BIM). Mengunci dimensi kebarangkalian kepincangan di peringkat pengkonsepsian (planning).",
+        "cta": "Pergi ke Pusat Muat Turun"
+      },
+      "cta": {
+        "eyebrow": "Langkah Seterusnya",
+        "title": "Bersedia demi megaprojek seterusnya?",
+        "desc": "Jurutera Aplikasi perubatan profesional (Application Engineers) kami sentiasa pantas menyalur bantuan penyelesaian cabaran masalah teknikal paip mega yang dipertanggungjawabkan pada skala pembangunan keperibadian projek tersebut (hospital projects). Setinggi mana bebanan paip diukur per unit pembinaan, sehabis pantas daya penyelesaian berlandas nilai profesional.",
+        "button": "Hubungi Pasukan Kejuruteraan"
+      }
     },
-    "bento": {
-      "eyebrow": "MANFAAT",
-      "title": "NILAI TAMBAH",
-      "lead": "Sebab utama mengapa perancang memilih K-Aqua.",
-      "items": [
-        {
-          "title": "Penjimatan Tenaga",
-          "desc": "Kurang kehilangan haba."
-        },
-        {
-          "title": "Jangka Hayat",
-          "desc": "Tahan lama dan bebas penyelenggaraan."
-        },
-        {
-          "title": "Kos Efektif",
-          "desc": "TCO yang lebih rendah."
-        },
-        {
-          "title": "Keselamatan",
-          "desc": "Rintangan tekanan tinggi."
-        }
-      ]
+    "hotels": {
+      "hero": {
+        "eyebrow": "Sektor Perhotelan",
+        "title1": "Hotel Mewah.",
+        "title2": "Infrastruktur Halimunan.",
+        "desc": "Bagi pihak pelabur dan pengendali resort premium global, sebarang gangguan sistem berikutan masalah kebocoran paip (leakage) bukan sekadar mendatangkan kerosakan air—ia melumpuhkan reputasi dan aliran hasil (revenue).",
+        "cta1": "Analisis Projek",
+        "cta2": "Lihat Rujukan"
+      },
+      "intro": {
+        "title1": "Kemewahan Sebenar",
+        "title2": "adalah halimunan.",
+        "titleGrad": "Dan tidak kedengaran.",
+        "desc": "Pengalaman lima bintang tiada kompromi. Baik dalam perkhidmatan mahupun struktur bangunan. Polimer PP-R kami yang berketumpatan tinggi menyingkirkan bunyi aliran air, mengelakkan kehilangan haba, dan menjamin kebersihan mikrobiologi. Selamat datang ke kelas rujukan dalam teknologi bendalir."
+      },
+      "bentoSection": {
+        "eyebrow": "Pengalaman Tetamu",
+        "title": "Keselesaan Tertinggi.",
+        "lead": "Kejuruteraan tulen bukan hanya soal kecekapan; ia memaksimumkan kadar kenikmatan pengguna. Bunyi (Noise), kualiti aliran dan suhu bekalan memainkan peranan penting secara langsung dalam kelangsungan kepuasan pelanggan."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Kesenyapan Terjaga",
+            "desc": "Aliran yang mematikan bunyi (noise-dampening) dengan struktur polimer berketumpatan tinggi memberikan privasi maksimum berbanding dengan gegaran terma besi biasa."
+          },
+          {
+            "title": "Kualiti Air Tertinggi",
+            "desc": "Tahap pengekalan suhu malar menghalang sebarang pertumbuhan bakteria berbahaya biarpun untuk penggunaan puncak kapasiti rendah (low capacity flow)."
+          },
+          {
+            "title": "Kapasiti Tekanan",
+            "desc": "Hotel mewah selalunya didirikan sebagai menara tinggi, memaksa kapasiti tekanan paip mengawal tekanan hidraulik dengan efisien tanpa kegagalan lenturan material."
+          },
+          {
+            "title": "Pengurusan Bebas Selenggara",
+            "desc": "Kitar hayat operasi puluhan tahun membolehkan pengendali penyelenggaraan (maintenance) mengabaikan kos perbelanjaan gantian (replacement)."
+          }
+        ]
+      },
+      "textSection": {
+        "eyebrow": "Paradigma Bebas Bocor",
+        "title": "Sambungan Kimpalan Molekul",
+        "h1": "Masalah Terpendam Sistem Paip Lama",
+        "p1": "Paip besi biasa amat terdedah kepada kecacatan mikroskopik sendi berikutan pengembangan cuaca, kehausan gasket, dan kerosakan kegetahan.",
+        "h2": "Kemusnahan Tersembunyi (Hidden Damages)",
+        "p2": "Bocor di bilik tetamu memusnahkan hasil sewaan, dan menelan ratusan ribu perbelanjaan kos pemulihan aset.",
+        "p3": "K-Aqua menuruti laluan inovasi radikal secara langsung.",
+        "p4": "Kejuruteraan kami memperincikan rangkaian PP-R sehingga ke molekul untuk mengikat terus penyambung ke badan paip, menyerap kejutan hidraulik (water hammer) sebagai kelenturan elastik semata-mata.",
+        "h3": "Sambungan Homogen: Penamat Segalanya",
+        "p5": "Rantaian kelemahan dalam sebarang sistem adalah pada sendi sambungan paip. Bebenang logam terkakis, pengedap gelung getah menjadi poros, rekatan gam mula hancur dimamah tekanan.",
+        "p6": "Namun kami mengaplikasikan konsep pelakuran mikroskopik (molecular fusion). Unit dipanaskan secara seragam pada skala tepat 260°C. Dalam sesaat, polimer bercantum membentuk komponen padu dan bersatu secara utuh."
+      },
+      "stickySection": {
+        "eyebrow": "Kelebihan Teras",
+        "title": "DNA Asas kepada Mahakarya (Masterpiece).",
+        "lead": "Bagaimana cara kami mengatasi cabaran modenisasi infrastruktur pelancongan (hotel) dengan bantuan keunggulan kejuruteraan radikal."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "1. Halangan Legionella Secara Molekul",
+            "p1": "Dalam rangkaian infrastruktur bersaiz raksasa (massive), takungan air diam secara sementara menukar paip konvensional menjadi habitat mematikan kepada virus berbahaya.",
+            "p2": "Namun kekasaran permukaan mikroskopik PP-R K-Aqua serendah 0.007 mm menolak kewujudan ruang penempatan kepada mikrob. Secara bersinergi dengan pembasmian suhu terma (thermal disinfection), persekitaran ini adalah yang terbersih di dunia."
+          },
+          {
+            "title": "2. Penyerapan Akustik Sepenuhnya",
+            "p1": "Saban nilai desibel memainkan peranan utama. Di dalam persekitaran resort 5-bintang elit, bunyi buangan (flush) daripada suite bersebelahan sepatutnya sifar pantulan.",
+            "p2": "Pengasingan padat bahan matriks kami meredakan frekuensi getaran bawaan sehingga 80% perbandingan saluran logam konvensional. Satu kelebihan halimunan yang diyakini sepenuhnya tetamu."
+          },
+          {
+            "title": "3. Kekebalan Penahan Tinggi di Pencakar Langit (Skyscraper)",
+            "p1": "Hotel berkapasiti melebihi 100 tahap lapisan bangunan menagih permintaan teknikal ekstrem terhadap perpaipan. Tekanan graviti (hydrostatic pressure) membebankan laluan perpaipan dasar yang bersilang.",
+            "p2": "K-Aqua merangkumi pemeringkatan kelas tekanan teratas (SDR 6 / PN 20) dipasangkan bersama peneguh paduan gentian. Kekebalan mutlak tekanan beroperasi atas terma operasi (70°C) melebihi jaminan separuh abad. Kami menguasai batas graviti mutlak."
+          },
+          {
+            "title": "4. Penyejukan & Kawalan Terma Daerah (District Cooling)",
+            "p1": "Dalam persekitaran gurun mega seperti Dubai atau Riyadh, persekitaran air dingin adalah penentu daya saing. Laluan paip menghantar air beriklim melalui perbatuan luar kepada pembinaan teras resort.",
+            "p2": "Nilai penampan (insulation) paip terma PP-R luar jangka meranapkan pengewapan kondensasi, menghentikan ketirisan kapasiti sejuk penyejukbekuan berharga. Tiada rekahan karat, tiada titisan kondensasi siling."
+          }
+        ]
+      },
+      "perf": {
+        "items": [
+          {
+            "val": "0.007",
+            "unit": "mm",
+            "title": "Kekasaran Rataan",
+            "desc": "Langkah rintangan mutlak untuk sekatan pembentukan biologi perpaipan."
+          },
+          {
+            "val": "100",
+            "unit": "%",
+            "title": "Cantuman Homogen",
+            "desc": "Pengimpalan bebas jurang di peringkat sub-molekular padu (solid)."
+          },
+          {
+            "val": ">50",
+            "unit": "J",
+            "title": "Jangka Operasi (Tahun)",
+            "desc": "Terjamin penuh kualiti tertinggi pensijilan semakan kawal selia antarabangsa ISO."
+          },
+          {
+            "val": "0",
+            "unit": "",
+            "title": "Kos Selenggara (TCO)",
+            "desc": "Operasi pasang, kimpalan dan lepaskan dengan kebolehpercayaan teguh selamanya."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Rekod Prestasi Mendunia.",
+        "desc": "Dari teluk buatan manusia pesisir Persian Teluk hingga resort alpin di cerun gunung Alps eksklusif. Apabila pembinaan impian dituntut, K-Aqua tiba mendahului pembinaan."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Dubai",
+            "title": "The Palm Jumeirah Ultra-Luxury Resort",
+            "text": "Menguasakan lebih 800 kamar suite dan lanskap kolam (pool scapes). Salinitas garam dan rintangan hawa luaran pada puncak 50°C memerangkap cabaran integriti kimia. K-Aqua menghidupkan kawalan iklim terma (District Cooling) berserta paip bekalan domestik bersinar utuh."
+          },
+          {
+            "year": "Switzerland",
+            "title": "Alpine Retreat St. Moritz",
+            "text": "Penginapan 6-Bintang setinggi 2000-meter. Cabaran risiko fros (frosts) di tapak operasi beserta syarat penebat perlindungan akuistik (sound insulation) mencabar. Paip Fiber Komposit kami menangani pengembangan pemanasan serentak beroperasi tanpa runut sepi."
+          },
+          {
+            "year": "Singapura",
+            "title": "Vertical Forest Hotel",
+            "text": "Karya ukiran bangunan mapan biologi mencapai 65 peringkat strata. Memerlukan sistem penapisan saliran mega ke semua rangkaian tanaman koridor gergasi berserta air bekalan domestik. Pautan homogen membendung bangunan bebas kecacatan titik."
+          },
+          {
+            "year": "Maldives",
+            "title": "Zero-Emission Island Resort",
+            "text": "Menjejak permukaan terumbu karang mencetus kekangan penjimatan biodiversiti marin sepenuhnya. K-Aqua meyakinkan pensijilan PP-R 100% material pulih guna. Penyingkiran mikropasitik atau penguraian zink (heavy metal) menjamin kelancaran penafasan laut bebas garam pengoksidaan (salt-corrosive-free)."
+          },
+          {
+            "year": "Masa Depan",
+            "title": "Seni Bina Megaprojek Anda Seterusnya",
+            "text": "Tuntutan pembinaan mendesak jurang keterlaluan reka bentuk di sempadan. Kami mendasari asas realiti infrastruktur kepada cabaran imaginatif projek hebat milik anda. Seiring jaminan teknologi dekad merentasi generasi kini (future-forward engineering)."
+          }
+        ]
+      },
+      "research": {
+        "eyebrow": "Fokus Inovasi (R&D)",
+        "title": "Formulasi <br/> Tanpa Batas Kemusnahan.",
+        "desc": "Kemudahan kejuruteraan F&E bertapak kami di persada Jerman berkerja keras merintis tahap kesempurnaan matriks polimer komposit terkini. Inovasi campuran aditif perlindungan eksklusif digabungkan teras gentian serentak menghasilkan paip mengembang minimal setaraf ketegaran batang logam tanpa berhadapan cacat celanya (vulnerabilities).",
+        "items": [
+          "Penurunan nilai pemanjangan (Alpha-value: 0.035 mm/mK).",
+          "Kenaikan laluan keratan rentas berikutan rekaan dimensi penipisan dinding pada daya tekanan teguh sama.",
+          "Menentang kekakisan turunan pengoksidaan unsur klorin (Chlorine) di sekeliling air lanskap pembinaan.",
+          "Pembebasan kesan peracunan alam atau jasad sepenuhnya disahkan patuh makanan (Food-grade approved)."
+        ]
+      },
+      "certs": {
+        "eyebrow": "Pematuhan & Sijil (Certifications)",
+        "title": "Ujian Pengiktirafan Paling Kejam? Kami Menghancurkannya.",
+        "lead": "Projek perhotelan megaskala menuntut perlesenan bersesuaian peringkat sejagat. K-Aqua mencatat pengesahan operasi melalui tapisan penyelia tegar (regulatory bodies) di empat penjuru seluruh pasaran antarabangsa."
+      },
+      "cta": {
+        "title": "Bina Sebagai Legasi Bersinar.",
+        "desc": "Hindari pertaruhan aset perhotelan mahupun perancangan resort dari pembinaan am kebiasaan lazim (standard pipe choices). Cetuskan tahap tanda aras tertinggi baru. Sila capai barisan wakil pengurus teknikal profesional bagi mendapatkan diagnosis perpaipan analitikal mendalam secara esklusif hari ini.",
+        "button1": "Tuntut Penilaian Projek",
+        "button2": "Pertanyaan Terus (Sales)"
+      }
     },
-    "timeline": {
-      "title": "FASA PROJEK",
-      "desc": "Sokongan dari mula hingga akhir.",
-      "items": [
-        {
-          "year": "Perancangan",
-          "title": "Sokongan CAD",
-          "text": "Perkhidmatan reka bentuk."
-        },
-        {
-          "year": "Pembekalan",
-          "title": "Logistik",
-          "text": "Penghantaran tepat pada masanya."
-        },
-        {
-          "year": "Pemasangan",
-          "title": "Latihan",
-          "text": "Panduan kimpalan di tapak."
-        },
-        {
-          "year": "Penyelenggaraan",
-          "title": "Jaminan Kualiti",
-          "text": "Sokongan teknikal jangka panjang."
+    "vorfertigung": {
+      "meta": {
+        "title": "Prapemasangan (Prefabrication)",
+        "desc": "Penyelesaian pemasangan paip siap K-Aqua dari tapak pengeluaran ke kawasan pembinaan anda."
+      },
+      "hero": {
+        "badge": "Kejuruteraan Jerman. Impak Global.",
+        "eyebrow": "Sektor Prapemasangan (Prefabrication)",
+        "title1": "Kejuruteraan Terkawal.",
+        "title2": "Disampaikan Secara Terus.",
+        "desc": "Sistem sokongan pakar Jerman merungkai risiko ralat pemasangan paip ke tahap sifar dengan menghasilkan komponen hidraulik yang komprehensif mengikut keselesaan pengeluaran kilang dalam suasana tertutup tanpa anasir kerosakan (sterile conditions).",
+        "cta1": "Hantar Lukisan CAD",
+        "cta2": "Muat Turun Panduan Teknikal"
+      },
+      "intro": {
+        "eyebrow": "Falsafah Kesempurnaan",
+        "title": "Sebab Mengapa Pasaran Global Yakin Pada K Aqua.",
+        "lead": "Apabila anda merekabentuk bangunan pencakar langit, atau hospital di mana setiap saat sangat berharga, anda tidak boleh bergantung pada pembolehubah pemasangan di tapak. Anda memerlukan ketepatan klinikal bagi prapemasangan perindustrian.",
+        "p1": "Di era evolusi pembangunan komersial pesat, elemen waktu, kesempurnaan dan tahap keselamatan mendominasi aliran perniagaan. Pemasangan secara tradisional merangkumi tahap ancaman luar jangka yang pelbagai seperti: iklim cuaca, kualiti pembuatan kontraktor, kekangan ruangan dan tempoh kelewatan luar biasa. K-Aqua menghapuskan pembolehubah ini sepenuhnya.",
+        "p2": "Platform sokongan prapemasangan ini beralih merubah tatacara pemasangan paip kepada struktur pengawalan teliti proses pembuatan berasaskan kilang. Pusat pembuatan kami di Jerman mendakap nilai kesempurnaan tulen. Pemantauan persekitaran makmal kimpalan, udara dingin dan kelembapan dipersiapkan hanya bagi memberi keselesaan integrasi padu sambungan PPR-C (Polypropylene Random Copolymer) ke tahap tertinggi.",
+        "quote": "\"Kami tidak sekadar menjual aliran paip. Kami memasarkan pelan kepastian penuh sistem kami bergerak tanpa keperluan selenggara bebas beban sepanjang 50 tahun akan datang.\"",
+        "p3": "Daripada penjajaran laluan paip naik hinggalah perincian paip peredaran sistem industri dingin penyejukan (chiller plants). Rekaan yang kami siapkan direka khusus menerusi spesifikasi isometrik fail pendigitalan berserta wakil perunding dan perancang pasukan dalam merealisasikan salinan rujukan kembar model fizikal sepenuhnya."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Tiada Titik Kegagalan dalam Mega-Projek.",
+            "desc": "Persekitaran mega komersial merangkumi metropolis gurun panas dari ufuk Timur Tengah melangkaui pusat maklumat berteknologi tinggi persada Eropah tidak akan pernah berkompromi isu kegagalan tempoh gangguan talian (downtime). Penyediaan reka bentuk prapemasangan menumpaskan cabaran tersebut terus dari peringkat reka bentuk asas di mana kekerapan tekanan kemusnahan infrastruktur ditolak seawal mula."
+          },
+          {
+            "title": "Cantuman Ketepatan Digital Bertemu Seni Kejuruteraan Jerman.",
+            "desc": "Tiap unjuran, pengedar aliran berserta struktur luar amnya dipantau secara milimetrik menerusi lakaran permodelan 3-D digital persekitaran (BIM). Apabila cetakan data rekaan mengesahkan keteguhan rekaan struktur hidrodinamik pada ujian tegangan tertinggi dan melintasi beban parameter terlampau barulah fabrikasi cetakan kilang dimulakan."
+          },
+          {
+            "title": "Gabungan Homogen Menembusi Titik Molekul.",
+            "desc": "Bertentangan berbanding paip bertaut (threaded) dan sambungan lekatan pateri am, pendigitalan terma paip lakuran poli diaktifkan sepenuhnya. Pemanjangan terma struktur sel memandu lekatan cantuman paip bersatu ke unit tunggal abadi secara seimbang. Kelahirannya menyerap ketegaran titik pemula yang mengatasi kekebalan fizikal saliran paip rujukan asal (original pipe body)."
+          },
+          {
+            "title": "Protokol Analisis 100%. Tiada Pengecualian (No Exceptions).",
+            "desc": "Setiap pasca penyiapan paip prapemasangan perlu menyeberangi rintangan program simulasi kualiti paling tegar sebelum unit dibebaskan keluar dari barisan produksi kilang K-Aqua. Ketegangan rekaan hidraulik melampau (hydrostatic pressure), pengimbasan akustik teras paduan hinggalah rujukan permodelan 3-D metrik (3D-optical). Standard kemandirian keutuhan Jerman (Zero-Error-Tolerance) dirakam jelas tanpa ragu."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Penguasaan Keupayaan Teknologi",
+        "title": "Perincian Genom (DNA) Struktur Kami.",
+        "lead": "Persijilan rasmi kualiti ketelitian Eropah DIN EN ISO 15874. Ditempa utuh selamanya. Tinjauan telus di sebalik pencapaian kemampuan tertinggi teknikal (benchmark).",
+        "items": [
+          {
+            "title": "Teras Bahan Berstruktur PPR-C (Tiga)",
+            "desc": "Titik asas ketegaran bahan mentah berdaya rintang suhu dan asid alkali menahan kelusuhan penguraian terma ekstrem merangkumi pelbagai profil medium pengantaran (fluids)."
+          },
+          {
+            "title": "Kekebalan Mutlak Terhadap Kakisan (Corrosion)",
+            "desc": "Paip laluan besi berpeluang besar termusnah dalam hari pertama proses penggunaan. Bahan seliaan polimer sebaliknya bersifat tidak telap mengawasi ancaman karat merosakkan paip mahupun sisa kalsium keladak (Incrustation)."
+          },
+          {
+            "title": "Penampan Gelombang Akuistik (Acoustic Damping)",
+            "desc": "Gagasan sebatian paip K-Aqua menterjemah ciri redaman pantulan bunyi mekanikal jauh memecahkan rekod penampan bahan keluli, membawa kedamaian pengoperasian di sekitar kediaman resort elit atau bangunan klinikal hospital."
+          },
+          {
+            "title": "Kerugian Ketirisan Daya (Pressure Loss) Rendah",
+            "desc": "Ukuran kehalusan profil dalaman milimetrik berdimensi 0.007 membenarkan penggeseran pada kebarangkalian tahap paling kerdil (minimal friction) sekaligus merangsang tahap penjimatan kos kuasa keupayaan pam dengan ketara."
+          }
+        ]
+      },
+      "visual": {
+        "title1": "Keindahan di Sebalik",
+        "title2": "Kesepaduan (Homogeneity).",
+        "p1": "Perhatikan simpulan paip prapemasangan K-Aqua menerusi lensa pantulan mikroskop. Kelicinan permukaan ini sama sekali tidak memperlihatkan jalur ikatan sambungan. Namun jasad ukiran ini terlihat seumpama tiub tuangan homogen penuh harmoni (homogeneous casting).",
+        "p2": "Tindakan pembuatan radikal bukan sekadar berbekalkan kekuatan enjin dan alatan teknologi canggih semata, melainkan memerlukan kebolehan, kesabaran serta ketajaman skil pemerhatian jurukimpal profesional kami yang mahir perincian kawalan plastik. Turutan elemen kritikal: suhu rintangan kepanasan melampau, fasa kelonggaran pengoperasian cantuman serta jangka pusingan haba dingin sentiasa diukur tepat.",
+        "p3": "Ketaksuban tersembunyi berikutan tuntutan mikroskopik sebeginilah membenarkan waranti keselamatan makroskopik mengatasi batas rantaian operasi berpanjangan separuh abad 50 tahun (50-year warranty).",
+        "items": [
+          "Pengilangan Pemangkasan Hujung Terperinci (Precision End Milling)",
+          "Pemanasan Pintar Kawalan Digital (260°C)",
+          "Penggabungan Tekanan Ekstrem Terpandu (High-Pressure Jointing)"
+        ]
+      },
+      "timeline": {
+        "eyebrow": "Seni Bina Operasi",
+        "title": "Perkembangan Format CAD Terus Ke Titik Realiti.",
+        "lead": "Carta garis masa kawalan proses tegar serba telus bersedia mendarat secara konsisten berpandukan ketibaan jadual global (Just-in-Time).",
+        "events": [
+          {
+            "title": "Tahap 1: Fasa Perincian Kejuruteraan & BIM",
+            "desc": "Mengasimilasikan penempatan pemodelan binaan simulasi bebas kerosakan hidrodinamik merentasi struktur (clash checks and flow-dynamics).",
+            "date": "Minggu 1-2"
+          },
+          {
+            "title": "Tahap 2: Fasa Pemotongan Profil CNC",
+            "desc": "Keratan rentas dimensi material polimer terperinci PPR-C berasaskan suluhan kecekapan panduan ketepatan laser automatik kilang (laser-guided CNC).",
+            "date": "Minggu 3"
+          },
+          {
+            "title": "Tahap 3: Fasa Pautan Polimer (Polyfusion)",
+            "desc": "Sinergi automasi mesin pakar dengan garapan bakat tangan profesional mendominasi pencapaian kelicinan kimpalan sempurna dalam atmosfera pengilangan tertutup.",
+            "date": "Minggu 4-5"
+          },
+          {
+            "title": "Tahap 4: Pemeriksaan Kualiti (QA) & Bebanan Tolok (Pressure Test)",
+            "desc": "Sesi kelulusan tapisan log kapasiti ketahanan tekanan ekstrim didokumentasikan di baris penghujung pautan log (protocol).",
+            "date": "Minggu 6"
+          },
+          {
+            "title": "Tahap 5: Kecekapan Hubungan Pengedaran Antarabangsa",
+            "desc": "Prosedur penyimpanan bungkus dan kawalan perjalanan pelayaran penghantaran disalur secara berkesan di bawah pelan waktu ketibaan yang tetap.",
+            "date": "Minggu Ke-7+"
+          }
+        ]
+      },
+      "manifesto": {
+        "eyebrow": "Manifesto Ketahanan Binaan",
+        "title": "Menembusi Kelulusan Paling Mendera Di Alam Semesta.",
+        "p1": "Penghasilan penyediaan komponen K-Aqua melangkaui sempadan rantaian produk kelaziman purata industri (averages). Ia terhasil semata untuk menerajui kawasan kritikal ekstrem. Saat darjah peluh keringat gurun pasir memuncak setinggi 50°C melampaui benua Dubai, atau persekitaran mencengkam dingin membenam suhu fros pergunungan Scandinavia, struktur pembinaan polipropilena tidak terkesan malah mengukuhkan kelestarian teguh tersendiri.",
+        "p2": "Pengangkutan pergerakan saliran domestik kami menepati senarai pematuhan ujian biologi dan bahan kimia terpanjang (KTW-BWGL dan W270). Tiada pertukaran rasa tercemar asing mahupun sisa bau keracunan dibebaskan di dalam medium laluan perpaipan kami. Kawalan penangkalan mikroskopik Legionella dimulakan sedari awal berbekalkan tahap rataan melicinkan kawasan ruang pedalaman yang membantut kerancakan takungan parasit biofilm berbahaya (bio-film reproduction).",
+        "p3": "Manakala saluran industri sisa pendinginan (cooling) memegang watak pengawal utama dalam pertarungan hakisan larutan peracunan keras. Sijil pelaporan profil tekanan (Standard Dimension Ratio) melakar pautan paip pelarasan kustom mengikuti profil variasi penyesuaian tahap operasi khusus untuk projek pembinaan terbabit.",
+        "p4": "Bagi kami peranan bekalan komponen perpaipan bukanlah dikelaskan selayaknya tugas khidmat bantuan sampingan yang disewa, namun ditatang atas bahu pelan sokongan jaminan (architectural responsibility). Unit kelulusan perlepasan komponen yang dibawa perlu berada dalam fungsi bersedia dipasang sewaktu pendaratannya di kawasan kem binaan (Plug & Play). Pemotongan masa operasi kimpalan sebanyak 70% dan kehilangan titik pelupusan (waste zero) mengikis kewajipan penyelenggaraan gudang takungan bekalan bahan tapak."
+      },
+      "cta": {
+        "title": "Sudah Bersedia Demi Sentuhan Kepuasan Tulen Tanpa Kompromi (Zero-Compromise)?",
+        "desc": "Serahkan masa depan operasi gergasi mega projek perpaipan anda dengan sokongan ketepatan industri profesional kejuruteraan prapemasangan cawangan sokongan pakar barisan hadapan antarabangsa perkilangan Jerman. Hantarkan deraf awal model perancangan sistem CAD kepada kumpulan jurutera aplikasi (Engineering Team).",
+        "button1": "Mulakan Rundingan Projek",
+        "button2": "Hubungi Talian Teknikal Sokongan"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Bangunan Tinggi & Pencakar Langit (High-Rise)",
+        "desc": "Keupayaan paip khusus tekanan ekstrem PPRCT menangani projek pencakar langit antarabangsa."
+      },
+      "hero": {
+        "eyebrow": "Sektor Bangunan Tinggi (High-Rise)",
+        "title1": "Tekanan Mendatar.",
+        "title2": "Dikuasai Secara Vertikal.",
+        "desc": "Kewujudan bangunan mega-tall merombak batasan logik graviti dan hidraulik (hydraulics). Keperluan material paip bagi kawasan bangunan tinggi menuntut teknologi bendalir hidraulik khusus tekanan hidrostatik ekstrem tanpa kegagalan lenturan material terma.",
+        "cta1": "Analisis Projek",
+        "cta2": "Muat Turun Helaian Data (Datasheets)"
+      },
+      "intro": {
+        "eyebrow": "Anatomi Bangunan Mega",
+        "title": "Kekuatan bangunan bergantung pada ketahanan nadinya.",
+        "lead": "Pada ketinggian 500 meter, hukum fizik tidak memberikan ruang kepada sebarang kecacatan pembinaan. Sedikit sahaja keretakan pada saluran paip utama mendatangkan kerugian berjumlah jutaan ringgit. Oleh yang demikian, di K Aqua kami memastikan segalanya bebas daripada sebarang risiko ralat.",
+        "p1": "Bangunan tinggi ibarat bandar vertikal. Ianya hidup, bergerak dan bernafas. Pada setiap tingkat, tekanan hidrostatik (hydrostatic pressure) meningkat dengan pesat. Tekanan rintangan angin memberi kesan getaran mikro terhadap setiap penjuru bangunan secara meluas. Turun naik suhu drastik dari keadaan berais merentasi bahagian bawah permukaan hinggalah bahang mentari kawasan puncaknya mewujudkan ruang gelombang pemanjangan haba besar (thermal elongation).",
+        "p2": "Sistem perpaipan logam tradisional telah mula mempamerkan kelompangan had rintangan fizikal mereka di sini. Ancaman karat, rongga berliang, masalah pengerakan (incrustation), berserta ketidakmampuan rekahan kimpal bukanlah perdebatan soalan \"Sekiranya\", namun \"Bila\". Risiko paip bocor dalam binaan bangunan tinggi bukanlah sekadar insiden kerosakan material. Ia adalah liabiliti kewangan besar (financial liability) mampu menggagalkan satu projek penuh secara keseluruhan.",
+        "p3": "K-Aqua PP-R berserta siri hibrid teknologi tinggi PPRCT menukar piawaian landskap pemuliharaan infrastruktur tinggi. Menolak ancaman pembentukan karat. Kebal kerak. Pendekatan fusi peleburan haba (thermal welding) homogen yang mengukuhkan gabungan paip serta struktur sokongan penyambung menjadikan molekul struktur satu tunjang tunggal ampuh. Jalinan bendalir dalam bangunan bakal mengungguli potensi rintangan sekukuh kemampuan fizikal komposit materialnya."
+      },
+      "sticky": {
+        "eyebrow": "Sempadan Ekstrem (Extreme Conditions)",
+        "title": "Menguasai Batasan Fizik Vertikal.",
+        "lead": "Berikut merangkumi empat tuntutan fundamental utama dalam senario pembinaan bangunan tinggi dan cara penguasaan kepakaran jurutera Jerman mengawal isu ini.",
+        "items": [
+          {
+            "title": "Kapasiti Tekanan Hidrostatik (Hydrostatic Pressure) Ekstrem",
+            "desc": "Tekanan ruang mendatar menaik mendadak pada setiap ketinggian aras meter, mencetus tegangan tekanan mencecah angka rintangan 30 bar bagi kategori pencakar langit Megatall. Komposisi profil perpaipan K-Aqua PPRCT (Polypropylene Random Copolymer bertaraf Ketahanan Terma) menawarkan lonjakan daya ketahanan mampatan kapasiti (compressive strength) sehingga 50% tambahan perbandingan kategori PP-R biasa. Paip ini menyatu sebagai rangkaian pengimbang keselamatan perpaipan di koridor bangunan ekstrem (maximum static load)."
+          },
+          {
+            "title": "Kembangan Lenturan Terma & Kawalan Daya Regangan (Stress Control)",
+            "desc": "Transmisi olakan air pemanas sepanjang terowong perpaipan menegak 300 meter memanaskan jasad paip, mewujudkan tarikan tekanan ricik dan ubah bentuk suhu mendadak (thermal expansion). Solusi sebatian polimer hibrid campuran (composite fiber technology) mampu mengecut impak ubah bentuk pengembangan linear (linear expansion) menjejak rekod paras kejatuhan 75%. Pemansuhan fungsi pemampas lingkaran kembangan haba (expansion loops) merendahkan berat sistem tanpa berdepan kepincangan kelengkapan perlindungan (structural integrity)."
+          },
+          {
+            "title": "Struktur Molekul Pautan Padu (Kebebasan Dari Tirisan)",
+            "desc": "Struktur pembinaan perpaipan berasaskan sambungan sendi klip elastomer O-Ring tidak dapat lari dari serangan kerosakan haus penuaan gasket (aging). Penggantian paip sendi kepada profil cantuman K-Aqua secara keseluruhan menyingkir punca kerosakan. Melalui langkah pautan haba pelakuran polimer seragam terma (thermal fusion) pada tetapan kepanasan 260°C, komponen tercantum secara kukuh membina sambungan yang secara teknikalnya merakam ketegaran keutuhan mutlak selari jasad (monolithic element). Tiada kebocoran. Waranti jangka operasi penuh."
+          },
+          {
+            "title": "Penyisihan Gelombang Akustik Serapan Bunyi (Sound Insulation)",
+            "desc": "Tahap keheningan merupakan kualiti standard bagi mana mana ruang unit korporat komersial bertaraf elit dan penthouse. Resapan desibel bunyi pergerakan bendalir mendadak (water hammer) harus dihapuskan. Ciri daya tumpat kepadatan penyerapan mekanikal matriks bahan PP-R mengecilkan bunyi ketukan redaman operasi pam yang cemerlang menandingi syarat penetapan ujian penampanan Jerman DIN 4109 dan VDI 4100 tanpa penambahan struktur serapan (isolation layer)."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi Keutuhan",
+        "title": "Seni Bina Seusia Abad.",
+        "lead": "Ketelitian rekaan mengiringi profil ukiran perincian ukur tahap terunggul Jerman ke arah jaminan penggunaan keboleharapan kekal (maintenance-free) seumur hidup. Kami menempa asas rujukan piawaian standard rangkaian paip global dalam senarai pilihan pasaran pembinaan pencakar langit moden.",
+        "items": [
+          {
+            "title": "Evolusi PPRCT",
+            "desc": "Revolusi penerus bahan Polypropylene generasi terkini. Kesepaduan rantaian profil binaan kristal menawarkan tindak balas kawalan rintangan tekanan penjimatan jisim ketebalan luaran (wall thickness). Kelapangan dimensi kapasiti rentas paip melicinkan kemudahan transisi edaran bekalan air tanpa membebani rekod penambahan kos struktur galas graviti bangunan (building statics)."
+          },
+          {
+            "title": "Piawaian DIN EN ISO 15874",
+            "desc": "Terdokumentasi sepenuhnya melepasi pemeriksaan piawaian keupayaan kawal selia badan ujian luar pihak ketiga di Eropah seperti SKZ dan DVGW. Pengesahan pengantaran pemakanan cecair minuman tanpa risiko rembesan atau kehausan mikroskopik."
+          },
+          {
+            "title": "Daya Rintangan Mutlak Kakisan Terma (Corrosion-Resistance)",
+            "desc": "Penentangan kakisan mutlak memihak ketahanan nilai profil pH tidak sekata (pH fluctuations), rembesan rawatan pendedahan sebatian klorin atau pertarungan kimia elektrokimia (electrochemical corrosion)."
+          },
+          {
+            "title": "Kemasan Bersepadu Prapemasangan Penuh (Complete Prefabrication)",
+            "desc": "Nilai tukaran waktu menduduki hierarki pembinaan tertinggi dalam pasaran bangunan komersial antarabangsa. K-Aqua membekal tatarajah penyelesaian lengkap merangkumi modul pemasangan komponen saluran bekalan paip naik edaran terpusat milimetrik tepat dalam garis jadual tiba penyerahan langsung ('Just-in-Time'). Menafikan kepincangan persediaan penyambung tapak dan menurunkan had waktu pemotongan purata sehingga 60%."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Kitaran Projek Bersepadu",
+        "desc": "Bermula fasa pengiraan simulasi parameter tekanan hidrolisis memandu arah operasi bekalan stabil tiada kos pengawasan menjengah ruang operasi tahunan (maintenance-free). Rantaian K-Aqua Engineering mengukuhkan ikatan penyiapan sokongan berpusat melingkari teras permohonan pelan asal hingga ke peringkat pentauliahan rasmi (commissioning).",
+        "items": [
+          {
+            "year": "Fasa 1",
+            "title": "Pemodelan BIM & Simulasi Kejuruteraan",
+            "text": "Kesepakatan barisan teknikal sokongan menyediakan khidmat perkiraan analisis laluan paip naik, pemantauan ketebalan ruang kawasan bertekanan, dan salinan pautan semakan silang log pelan maklumat Revit format bagi tapisan koordinasi penjajaran ralat."
+          },
+          {
+            "year": "Fasa 2",
+            "title": "Penyemperitan Kilang Ketepatan Ekstrim (Precision Extrusion)",
+            "text": "Penghasilan penyemperitan di tapak teknologi kimpalan mesin Jerman sentiasa terdedah kepada pemeriksaan saringan dimensi optikal ultrasonik ke atas kelebaran ukuran keliling profil ketebalan di setiap detik waktu. Kepastian semakan log kelompok paip disahkan sentiasa patuh parameter secara 100%."
+          },
+          {
+            "year": "Fasa 3",
+            "title": "Gerakan Rentas Logistik (Just-in-Time)",
+            "text": "Penguasaan ekosistem pautan logistik peniaga rangkaian pemasaran sejagat (global distribution network) memuktamadkan ketibaan pengedaran barangan terus di lantai pengoperasian pembinaan; tidak kira persada panas kering teluk Dubai, daerah Asia Tenggara Singapura mahupun Frankfurt am Main."
+          },
+          {
+            "year": "Fasa 4",
+            "title": "Pelakuran Kimpalan Homogen Bersepadu",
+            "text": "Tunjuk ajar kepakaran langsung kakitangan tempatan dipandu rapat penyelia tenaga sokongan lapangan jurutera perunding luar negara. Kimpalan terma perpaipan dicantum teguh sekelip mata dan teruji keupayaan tolok kekuatan hidraulik mendadak selesai sahaja jasad terma turun ke suhu persekitaran (cool down)."
+          },
+          {
+            "year": "Dekad Jaminan",
+            "title": "Prestasi Tempoh Tanpa Selenggara Bebas Isu",
+            "text": "Setamatnya sesi persijilan rasmi ujian ketegaran air tekanan log (pressure testing), susunan tersembunyi berlabuh beroperasi mengawasi edaran aliran sunyi belakang benteng dinding pembinaan beton (concrete). Ia berfungsi memegang paksi tanggungjawab khidmat halimunan lebih rentas batasan 50 tahun jaminan operasi mendatang secara cekap dan keutuhan abadi (invisible perfect network)."
+          }
+        ]
+      },
+      "data": {
+        "eyebrow": "Sajian Parameter Saintifik (Data)",
+        "title": "Nilai Angka Berpaksikan Kepastian Logik.",
+        "lead": "Barisan kepimpinan perancangan pengurusan kontraktor berskala gergasi tidak menyandarkan kebergantungan pemilihan pelan atas gimik janji janji periklanan (marketing promises). Kepastian pakar sentiasa dirujuk pada rekod keputusan perbandingan daya ketegangan lentur (Tensile Strength), keluk kelumpuhan tekanan masa, dan pelaporan rintangan kecacatan (Full Notch Creep Tests - FNCT).",
+        "h3_1": "Pertahanan Tahap Molekular (Molecular Resistance)",
+        "p1": "Kayu pengukur operasi paip polimer secara bersinergi memfaktorkan kombinasi kepanasan pendedahan cecair bersama ketegangan rintangan tekanan dalaman masa berlarutan (Creep curves - hydrostatic strength). Nilai industri komersial memperakui had pencapaian standard pengoperasian terhad pada garis waktu 50 tahun (50-year lifespan). Namun siri pelaporan simulasi pengujian suhu penuaan pengoksidaan (thermal-oxidative) kami mentakrif rekod kriteria rintangan melampau ke angka 100 tahun had keupayaan operasi secara terjamin. Susunan profil rantaian PPRCT K-Aqua melengahkan penyusutan tindak balas terma (thermal-oxidative degradation) pada peratusan signifikan, memanjangkan talian hayat paip walaupun diliputi ruang pengedaran tekanan tinggi tanpa berhenti.",
+        "h3_2": "Pergerakan Bendalir Hidraulik Dinamik",
+        "p2": "Kesan jangka masa operasi paip perpaipan domestik besi bakal terdedah ke arah penyusutan keratan rentas, akibat kalsium berkarat bersadur pada saluran dinding (Incrustation). Kemerosotan mendadak mengecil memacu ledakan pam beban tekanan pam tenaga buangan secara melampau. Susunan profil dinding saluran K-Aqua terhasil bersama catatan profil kelicinan keutuhan nilai serendah k = 0.007 mm. Cermin pemantulan licin menawan kekal berstruktur serupa dari peringkat pertama hingga hujung operasi (entire lifespan). Hasilnya: Tiada pengurangan penurunan kelajuan aliran tekanan, penjimatan mendadak daya sokongan pengepaman air bangunan dan penjagaan mutlak kebersihan kualiti biologi terhindar pembiakan persekitaran pertumbuhan parasit bakteria atau sel sarang Legionella (bio-film).",
+        "stats": [
+          {
+            "label": "Nilai Ketumpatan (Density) (g/cm³)",
+            "val": "0.905",
+            "standard": "ISO 1183"
+          },
+          {
+            "label": "Kadar Aliran Lebur (Melt Flow Index) (g/10min)",
+            "val": "0.3",
+            "standard": "ISO 1133"
+          },
+          {
+            "label": "Modulus Regangan Keanjalan (Tensile Modulus) (MPa)",
+            "val": "800 / 900 (RCT)",
+            "standard": "ISO 527"
+          },
+          {
+            "label": "Kekonduksian Terma Keseluruhan (Thermal Conductivity) (W/mK)",
+            "val": "0.24",
+            "standard": "DIN 52612"
+          },
+          {
+            "label": "Pekali Pembesaran Linear (Coefficient of Linear Expansion) (mm/mK)",
+            "val": "0.15 (Biasa) / 0.035 (Gentian / Fiber)",
+            "standard": "DIN 53752"
+          },
+          {
+            "label": "Penurunan Kekasaran Permukaan Dalaman k (mm)",
+            "val": "0.007",
+            "standard": "Fasiliti Ujian Berpusat (Test Bench)"
+          },
+          {
+            "label": "Kawalan Ketahanan Bahan Kimia",
+            "val": "Tahap Skala Ph 1 hingga 14",
+            "standard": "DIN 8078"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Telah Bersedia Menonjolkan Lakaran Seni Bina Persada Langit Akan Datang?",
+        "desc": "Hubungi dan raikan pelan sesi dialog pakar barisan jurutera teknikal terunggul bangunan megatall kami membincangkan halatuju penyelesaian beban log perpaipan hidraulik mendalam. Mulakan perancangan perolehan (prefab) demi kegemilangan prasarana mercu tanda perniagaan anda.",
+        "button1": "Mulakan Tinjauan Analisis Projek",
+        "button2": "Bantuan Jurutera Sokongan Talian Khusus"
+      }
+    },
+    "index": {
+      "meta": {
+        "title": "Kelebihan Material PP-R dan Keunggulan Fizikal",
+        "desc": "Terokai sistem polimer berprestasi tinggi kami untuk infrastruktur kritikal. K-Aqua menawarkan penyelesaian PP-R khusus untuk aplikasi perindustrian."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Kehomogenan Molekul (Molecular Homogeneity)",
+            "p1": "Sistem PPR K-AQUA berasaskan teknologi polifusi canggih. Melalui pemanasan berkalibrasi tepat, paip dan penyambung melebur menjadi satu unit kukuh pada peringkat molekul.",
+            "p2": "Sintesis lancar ini menyingkirkan titik kelemahan yang sentiasa berlaku dalam ikatan mekanikal atau penggunaan pelekat. Hasilnya adalah satu integriti infrastruktur mutlak, tahan terhadap kejutan hidraulik dan lonjakan tekanan melampau."
+          },
+          {
+            "title": "Daya Tahan Terma",
+            "p1": "Turun naik suhu menjadi musuh utama rangkaian paip konvensional. Polimer K-AQUA distrukturkan daripada kekisi kristal berketumpatan tinggi yang menghalang sebarang bentuk kecacatan struktur walaupun di bawah suhu operasi berterusan hingga 95°C.",
+            "p2": "Kapasiti haba spesifik bahan mengurangkan keperluan bagi penggunaan penebat berlebihan, lantas melonjakkan tahap penjimatan tenaga secara holistik."
+          },
+          {
+            "title": "Kesempurnaan Hidraulik",
+            "p1": "Kadar nilai kekasaran dalaman paip K-AQUA serendah 0.007 mm. Topografi selicir mikroskopik ini menghalang pembentukan kerak, deposit mineral, mahupun pertumbuhan bio-filem.",
+            "p2": "Kehilangan tekanan diminimumkan ke tahap asas, mengurangkan secara drastik perbelanjaan tenaga sistem pengepaman untuk jangka panjang. Pengekalan diameter laluan bendalir menjamin kadar aliran sekata."
+          },
+          {
+            "title": "Kekebalan Kimia",
+            "p1": "Tidak seperti saliran perpaipan logam, jaringan PPR K-AQUA terlindung sepenuhnya daripada pengoksidaan, rongga retak berliang dan hakisan galvanik (galvanic corrosion). Sifat lengai kopolimer merintangi rangkaian kimia agresif serta pertukaran kadar variasi pH.",
+            "p2": "Malah dalam pesekitaran kakisan tinggi perindustrian atau medium penyaluran asid keras, struktur rangkaian utuh bertahan dari sebarang gangguan."
+          }
+        ],
+        "header": {
+          "title": "Keunggulan Fizikal.",
+          "desc": "Prinsip teknikal yang memberikan sistem K-AQUA ketahanan unggul dan jaminan operasi luar biasa."
         }
-      ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fasa 01",
+            "title": "Analisis Struktur",
+            "text": "Penilaian keperluan termodinamik dan dinamik bendalir. Pengiraan rintangan hidraulik, pengembangan terma, dan peringkat kapasiti tekanan terperinci diatur rapi barisan pakar jurutera kami."
+          },
+          {
+            "year": "Fasa 02",
+            "title": "Spesifikasi Material",
+            "text": "Pemilihan rapi kopolimer PPR. Penyelarasan ukuran ketebalan dan dimensi (20mm ke 160mm) bagi setiap tetapan tekanan persekitaran perindustrian."
+          },
+          {
+            "year": "Fasa 03",
+            "title": "Sintesis Sistemik",
+            "text": "Proses kimpalan polifusi dengan pemantauan suhu terkawal ketat. Proses penggabungan rangkaian struktur kekal yang bebas tanpa pad (gasket) atau ikatan mekanikal."
+          },
+          {
+            "year": "Fasa 04",
+            "title": "Kecemerlangan Operasi",
+            "text": "Penyaluran lancar bebas penyelenggaraan selama berdekad-dekad. Permukaan anti-rekat menepis kerak perpaipan, sementara nilai ketumpatan bahan menjamin tiada pembocoran dan kelestarian penjimatan tenaga maksimum."
+          }
+        ],
+        "title": "ARKITEKTUR PROSES",
+        "desc": "Dari kalkulasi metamatik ke tahap kelangsungan jaminan prestasi kelak. Pusingan jangka hayat instalasi K-AQUA digariskan sepenuhnya di bawah protokol asas kejuruteraan teguh."
+      },
+      "hero": {
+        "eyebrow": "PENYELESAIAN PERINDUSTRIAN & PEMBINAAN",
+        "title1": "ARKITEKTUR SISTEM",
+        "title2": "YANG KEKAL ABADI.",
+        "desc": "Temui kelebihan material PP-R dan keunggulan fizikal sistem polimer berprestasi tinggi dari K-Aqua. Direka untuk bertahan dalam keadaan ekstrem, disahkan oleh kejuruteraan Jerman yang tiada kompromi. Arkitektur sistem ini direka untuk kekal abadi.",
+        "cta": "Hubungi Kami"
+      },
+      "intro": {
+        "title": "Melangkaui Had Daya Tahan Konvensional.",
+        "p1": "Apabila paip logam menemui jalan buntu gara-gara hakisan karat, kerak lapisan dalam dan kelesuan material secara terma, di situlah operasi spektrum K-AQUA bermula. Sistem prasarana kami dengan Random Copolymer Polypropylene (PPR) melakarkan mercu tanda baharu had keupayaan pemindahan cecair.",
+        "p2": "Setiap perincian sistem milimeter perpaipan lahir dari puluhan tahun penganalisisan bahan mendalam. Kami bukan setakat menjual paip; malah menjajarkan nadi infrastruktur tanpa cela ke atas platform yang menghendaki fungsi secara berterusan (zero downtime). Dari persekitaran artik beku hingga pendidihan sistem perkilangan, K-AQUA merupakan pilihan muktamad menjawab kepada cabaran kompleks kejuruteraan melampau."
+      },
+      "bento": {
+        "header": {
+          "title": "Aplikasi Vektor.",
+          "desc": "Penyelesaian berskala besar bagi segmen perindustrian dan struktur."
+        },
+        "items": [
+          {
+            "title": "Sanitari & Kebersihan Air Minuman",
+            "desc": "Persekitaran yang menepati tahap piawaian kualiti pemakanan serta ketoksikan bersih secara mutlak. Reka bentuk material tak telus cahaya yang mencegah ancaman bakteria Legionella."
+          },
+          {
+            "title": "HVAC & Pengendalian Udara",
+            "desc": "Nilai kekonduksian haba (thermal conductivity) yang sangat rendah memberi tahap pengasingan optimum. Mengekang pengewapan aliran saluran cecair sejuk."
+          },
+          {
+            "title": "Rangkaian Udara Mampat (Compressed Air)",
+            "desc": "Pertukaran gas bertekanan besar bebas risiko kebocoran. Bebas dari isu zarah kotoran atau serpihan berkarat mencemarkan bekalan udara termampat (compressed air)."
+          },
+          {
+            "title": "Pembinaan Kapal & Marin",
+            "desc": "Kekebalan menghadapi persekitaran bersalin (masin) dan hentaman gelombang frekuensi laut. Memberikan lonjakan penjimatan pemberat drastik berbanding pemasangan kerangka keluli besi."
+          },
+          {
+            "title": "Pemindahan Bendalir Komersial",
+            "desc": "Tanpa tolak ansur merangkumi pengalihan rantaian cecair bahan kimia berasid kuat, kelodak enapcemar kikis atau pelarut suci bebas zarah kotoran. K-AQUA memberi takrifan mutlak kesinambungan kelancaran penapisan terjamin."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Tahun Jangka Hayat Terjamin",
+          "desc": "Melalui standard operasi (20°C / 10 bar), daya tahan sistem PPR K-AQUA secara zahirnya bakal menyelinap melebihi separuh abad berserta kelancaran kualiti asli."
+        },
+        "1": {
+          "label": "W/mK Kekonduksian Terma",
+          "desc": "Tampil lebih cekap tenaga secara asli, memberi ruang selesa dari beban perbelanjaan pembaziran daya jika dibandingkan ke atas keupayaan penebat logam seperti kuprum (380 W/mK) oder keluli (50 W/mK)."
+        },
+        "2": {
+          "label": "Kesinambungan Homogen",
+          "desc": "Kaedah fusi berasaskan molekul menciptakan satu laluan berterusan yang kukuh, mengikat utuh kerangka paip bersama kelengkapan menjadi sebuah entiti holistik."
+        },
+        "title": "Kecemerlangan Kejuruteraan dalam Angka."
+      },
+      "cta": {
+        "eyebrow": "INISIASI PROJEK",
+        "title1": "BERSEDIA UNTUK",
+        "title2": "DIMENSI SETERUSNYA.",
+        "desc": "Berhubung dengan kumpulan pakar kami dalam memberi khidmat rujukan teknikal dan penilaian tepat merungkai tuntutan mencabar operasi anda.",
+        "button1": "Hubungi Pasukan Kejuruteraan",
+        "button2": "Lihat Spesifikasi"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Infrastruktur Pusat Data | K Aqua",
+        "desc": "K Aqua Pusat Data: Keselamatan tanpa kompromi melalui kejuruteraan Jerman untuk projek mega global. Terokai penyelesaian untuk pusat data moden."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Cabaran Terma AI dan HPC",
+            "desc": "Rak pengkomputeran berprestasi tinggi (HPC) dan Kepintaran Buatan (AI) moden menghasilkan haba buangan yang tinggi. Penyejukan udara semata-mata telah mencapai had fizikalnya. Masa depan bergantung pada Liquid Cooling dan dengan itu air memainkan peranan penting sebagai medium pemindahan haba secara langsung pada mikrocip."
+          },
+          {
+            "title": "Hakisan ialah Musuh Ketersediaan (Availability)",
+            "desc": "Sistem perpaipan logam terdedah kepada rekahan, karat dan penguraian kimia dalam operasi berterusan. Rekahan mikro dalam pusat data boleh menyebabkan kerugian jutaan ringgit akibat kegagalan operasi pelayan (server). K Aqua menyingkirkan risiko ini menerusi penggunaan material Polipropilena Kopolimer Rawak (PP-R) yang 100% bebas hakisan."
+          },
+          {
+            "title": "Sebatian Molekul Kimpalan Ultrabunyi",
+            "desc": "Di saat paip tradisional bergantung kepada pengedap atau sambungan berulir yang berisiko rosak, sistem K Aqua dilebur bersama pada peringkat molekul. Hasilnya: Jaringan perpaipan yang bersepadu, sepenuhnya bebas daripada kebocoran. Tahap toleransi sifar terhadap kebocoran."
+          },
+          {
+            "title": "Kelestarian & Pengoptimuman PUE",
+            "desc": "Nilai PUE (Power Usage Effectiveness) yang rendah ibarat pencapaian teragung bagi pengendali Pusat Data. Paip K Aqua menampilkan ciri termodinamik yang cemerlang. Pengurangan geseran dalam paip dan pengasingan haba optimum lantas meminimumkan kadar kerugian tenaga ketika edaran air sejuk."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fasa 1",
+            "title": "Simulasi & Reka Bentuk Aliran",
+            "text": "Pasukan jurutera kami menganalisis keperluan penyejukan sesebuah pusat data. Kami mengira kadar isipadu aliran, menyingkirkan sebarang kekangan kelajuan (bottlenecks) dan melaras ukuran rangkaian perpaipan untuk tahap kecekapan hidrodinamik yang optimum."
+          },
+          {
+            "year": "Fasa 2",
+            "title": "Prapemasangan Ketepatan",
+            "text": "Di kilang utama di Jerman, siri spool pengagih pelbagai peringkat siap diprapasang mengikut tempahan. Tetapan bersaiz sentimeter yang jitu, berautomatik sepenuhnya dan dijamin kualiti selia di bawah persekitaran makmal tertutup."
+          },
+          {
+            "year": "Fasa 3",
+            "title": "Logistik Tepat Pada Masanya (Just-In-Time)",
+            "text": "Projek mega tidak menampung sebarang kelewatan penghantaran. Kami menyelaras pergerakan operasi secara langsung ke tapak pembinaan di persada global, selari dengan tuntutan ketat pihak pemaju utama."
+          },
+          {
+            "year": "Fasa 4",
+            "title": "Kimpalan Homogen",
+            "text": "Pasukan pemasangan tempatan disemak oleh pakar Master Welder K-Aqua. Penggabungan kimpal secara molekul terus dari kawasan pembinaan menjanjikan seratus peratus jaminan penyesuaian struktur laluan saluran tanpa kewujudan kawasan berisiko tinggi."
+          },
+          {
+            "year": "Fasa 5",
+            "title": "Ujian Tekanan & Pemeriksaan",
+            "text": "Sebelum diserahkan, siri pengujian beban hidraulik tanpa henti bakal dijalankan. Hanya selepas melepasi ujian ketat tersebut kami mengeluarkan pelepasan siap serta penanggungan keseluruhan jaminan waranti fasiliti sistem sepenuhnya."
+          }
+        ],
+        "title": "Proses Kejuruteraan",
+        "desc": "Daripada gambaran sketsa hidrodinamik kepada penerimaan akhir: Bagaimana kami merealisasikan prasarana hiperskala global tanpa pengecualian malah siap dalam tempoh pecahan rekod luar biasa."
+      },
+      "hero": {
+        "eyebrow": "Prasarana Hiperskala & Kolokasi (Colocation)",
+        "title1": "Infrastruktur Bebas Ralat (Zero-Downtime).",
+        "title2": "Kejuruteraan Jerman.",
+        "desc": "Apabila operasi rangkaian pendingin menjadi nadi penggerak pangkalan utama maklumat serata dunia, sebarang kegagalan bahan jelas bukan sebuah pilihan. Saksikan sendiri penyelesaian aplikasi perpaipan PP-R terunggul secara keseluruhan, melengkap perkhidmatan kecekapan terjamin dalam menyokong skala sistem iklim dingin misi penting.",
+        "cta1": "Hantar Butiran Projek",
+        "cta2": "Pautan Dokumen Putih (Whitepaper) Teknikal"
+      },
+      "section1": {
+        "eyebrow": "Sistem Pendingin Kritikal Misi (Mission-Critical Cooling)",
+        "title": "Alasan Mengapa Paip Klasik Kecundang.",
+        "lead": "Cabaran tuntutan daripada kumpulan AI dan tahap kebolehan hyperscaler moden telah memintas kekangan kemampuan fizikal kerangka logam tradisi biasa."
+      },
+      "section2": {
+        "eyebrow": "Keunggulan PP-R",
+        "title": "Sains Material bagi Kurun ke-21.",
+        "lead": "Perincian rekaan tahap atomik sistem dipersiap seoptimum mungkin demi perlepasan kebal sebarang impak masalah bersama kemandirian kekal."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Sifat Kimia yang Neutral & Kebersihan Mutlak",
+            "desc": "Kitaran fungsi bendalir perlu dirawat menggunakan agen penyaman (conditioning agents). K Aqua tidak bereaksi (inert) ke atas sebarang tindakan bahan penambah (additives) lantas membantutkan penghasilan sebarang sisa biologi alganya ke tahap seratus peratus. Penamatan kemunculan sebarang partikel apung pergerakan saluran cecair pendingin hasil daripada ancaman penguraian kimia."
+          },
+          {
+            "title": "Daya Tahan Tekanan di Bangunan Tinggi",
+            "desc": "Direka khusus bertepatan kawalan menanggung had piawaian spesifikasi maksimum dalam lingkungan kapasiti melampau siri PN10 / PN20 terutamanya fasiliti pusat data di dalam bangunan bertingkat tinggi."
+          },
+          {
+            "title": "Pembuatan Pasang Siap Jerman",
+            "desc": "Blok rangkaian agihan rumit telah melepasi peringkat cantuman kimpalan pada tapak perindustrian ibu pejabat utama K-Aqua di Jerman. Pengedaran yang bercirikan konsep sedia pasang (plug-and-play) membendung isu pembaziran waktu jangkaan tarikh penyerahan fasiliti tapak projek komersial secara mendadak."
+          },
+          {
+            "title": "Lestari Gegaran Seismik",
+            "desc": "Berbanding persediaan rangka logam tegar yang rapuh, sistem perpaipan K-Aqua memanipulasikan ciri dinamik material yang secara semula jadinya melentur (elastic). Rentetan gelombang getaran gempita yang dirangsang dari stesen jana kuasa amaran mahupun impak gempa bumi bawah tanah diserap lembut tanpa mendedahkan keseluruhan sistem saluran komersial kepada kerosakan fizikal ketara."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bersedia Menuju Perlindungan Bebas Risiko?",
+        "desc": "Beralih kepada pakar jurutera rujukan kami. Projek gergasi pengkalan data (data center) terkini bakal kami amati di bawah satu penilaian bersepadu secara terus disusuli sumbangan khidmat pempakejan teknologi pasang moden.",
+        "button": "Tetapkan Jadual Rujukan Rundingan Kejuruteraan"
+      }
     }
+  },
+  "catalogx": {
+    "eyebrow": "Katalog Produk Penuh",
+    "faqTitle": "Soalan Lazim",
+    "title": "Semua 79 keluarga produk.",
+    "lead": "Paip, penyambung, injap, alat ganti dan alatan. Pilih kategori.",
+    "searchPlaceholder": "Cari nombor atau nama artikel",
+    "noResults": "Tiada hasil dijumpai.",
+    "codesLabel": "Nombor Artikel",
+    "sizesLabel": "Saiz",
+    "materialLabel": "Bahan",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Siri",
+    "pressureLabel": "Tekanan",
+    "lenLabel": "Panjang",
+    "cats": {
+      "pipes": { "label": "Paip", "desc": "Paip PPR dan PPRCT." },
+      "fittings": { "label": "Penyambung", "desc": "Penyambung kimpalan." },
+      "transitionFittings": { "label": "Penyambung Peralihan", "desc": "Peralihan ke benang." },
+      "valves": { "label": "Injap", "desc": "Injap kawalan." },
+      "weldInSaddles": { "label": "Pelana Kimpalan", "desc": "Pelana soket." },
+      "accessories": { "label": "Aksesori", "desc": "Aksesori pemasangan." },
+      "tools": { "label": "Alatan", "desc": "Alatan kimpalan." }
+    },
+    "rfq": {
+      "title": "Minta Sebut Harga",
+      "desc": "Tambahkan ke senarai.",
+      "button": "Ke Pertanyaan"
+    },
+    "similar": { "title": "Produk Serupa", "desc": "Lihat produk lain." },
+    "items": {
+  "k-pipe-pp-r-sdr-6": {
+    "seo_p1": "Paip PP-R SDR 6.",
+    "seo_p2": "Spesifikasi tekanan tinggi.",
+    "seo_p3": "Sesuai untuk air minuman.",
+    "faq": [ { "q": "Suhu?", "a": "70°C." }, { "q": "Kelebihan?", "a": "Kuat." }, { "q": "Air sejuk?", "a": "Ya." } ]
+  },
+  "k-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip PPRCT SDR 7.4.",
+    "seo_p2": "Bahan generasi baru.",
+    "seo_p3": "Aliran optimum.",
+    "faq": [ { "q": "PPRCT?", "a": "Bahan kristal." }, { "q": "Aliran?", "a": "Lebih tinggi." }, { "q": "Pemanasan?", "a": "Sesuai." } ]
+  },
+  "k-pipe-pp-r-sdr-11": {
+    "seo_p1": "Paip PP-R SDR 11.",
+    "seo_p2": "Penyelesaian standard.",
+    "seo_p3": "Kalis karat.",
+    "faq": [ { "q": "Sesuai untuk?", "a": "Air sejuk." }, { "q": "Pemasangan?", "a": "Mudah." }, { "q": "Jangka hayat?", "a": "Panjang." } ]
+  },
+  "k-pipe-purple-pp-r-sdr-11": {
+    "seo_p1": "Paip ungu PP-R SDR 11.",
+    "seo_p2": "Untuk kitar semula air.",
+    "seo_p3": "Pengenalan warna.",
+    "faq": [ { "q": "Kenapa ungu?", "a": "Tanda air bukan minuman." }, { "q": "Bahan?", "a": "Sama dengan PP-R." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "k-fiber-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip gentian PPRCT SDR 7.4.",
+    "seo_p2": "Kestabilan haba.",
+    "seo_p3": "Pengembangan rendah.",
+    "faq": [ { "q": "Kelebihan gentian?", "a": "Kuat." }, { "q": "Aplikasi?", "a": "Industri." }, { "q": "Kos?", "a": "Berbaloi." } ]
+  },
+  "k-fiberclima-pipe-pp-rct-sdr-11": {
+    "seo_p1": "Paip Fiberclima PPRCT SDR 11.",
+    "seo_p2": "Sistem penyejukan.",
+    "seo_p3": "Kecekapan tenaga.",
+    "faq": [ { "q": "Fungsi?", "a": "Penghawa dingin." }, { "q": "Kelebihan?", "a": "Jimat." }, { "q": "Suhu?", "a": "Rendah." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-74": {
+    "seo_p1": "Paip gentian PP-R SDR 7.4.",
+    "seo_p2": "Tahan tekanan tinggi.",
+    "seo_p3": "Struktur kukuh.",
+    "faq": [ { "q": "Kegunaan?", "a": "Pelbagai." }, { "q": "Kestabilan?", "a": "Tinggi." }, { "q": "Saiz?", "a": "Banyak pilihan." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-9": {
+    "seo_p1": "Paip gentian PP-R SDR 9.",
+    "seo_p2": "Kestabilan medium.",
+    "seo_p3": "Pilihan ekonomi.",
+    "faq": [ { "q": "Harga?", "a": "Mampu milik." }, { "q": "Sesuai untuk?", "a": "Perumahan." }, { "q": "Tahan karat?", "a": "Ya." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-11": {
+    "seo_p1": "Paip gentian PP-R SDR 11.",
+    "seo_p2": "Tekanan standard.",
+    "seo_p3": "Mudah dikendalikan.",
+    "faq": [ { "q": "Berat?", "a": "Ringan." }, { "q": "Pemasangan?", "a": "Mudah." }, { "q": "Kos?", "a": "Efektif." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-17": {
+    "seo_p1": "Paip gentian PP-R SDR 17.",
+    "seo_p2": "Untuk sistem tekanan rendah.",
+    "seo_p3": "Penyelesaian kos rendah.",
+    "faq": [ { "q": "Tekanan?", "a": "Rendah." }, { "q": "Sesuai untuk?", "a": "Pengairan." }, { "q": "Jangka hayat?", "a": "Panjang." } ]
+  },
+  "k-fiber-uv-pipe-pp-r-sdr-74": {
+    "seo_p1": "Paip gentian UV PP-R SDR 7.4.",
+    "seo_p2": "Perlindungan matahari.",
+    "seo_p3": "Kestabilan luar.",
+    "faq": [ { "q": "UV?", "a": "Dilindungi." }, { "q": "Luar bangunan?", "a": "Sesuai." }, { "q": "Tahan cuaca?", "a": "Ya." } ]
+  },
+  "k-fiber-uv-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip gentian UV PPRCT SDR 7.4.",
+    "seo_p2": "Prestasi maksimum luar.",
+    "seo_p3": "Tahan suhu tinggi dan UV.",
+    "faq": [ { "q": "UV?", "a": "Dilindungi." }, { "q": "Luar bangunan?", "a": "Sesuai." }, { "q": "Suhu?", "a": "Tinggi." } ]
+  },
+  "cap": {
+    "seo_p1": "Penutup akhir (Cap).",
+    "seo_p2": "Menutup hujung paip dengan selamat.",
+    "seo_p3": "Tahan tekanan tinggi.",
+    "faq": [ { "q": "Fungsi?", "a": "Penutup." }, { "q": "Pemasangan?", "a": "Kimpalan." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "socket": {
+    "seo_p1": "Soket (Socket).",
+    "seo_p2": "Penyambung paip lurus.",
+    "seo_p3": "Aliran lancar.",
+    "faq": [ { "q": "Kegunaan?", "a": "Menyambung paip." }, { "q": "Rintangan?", "a": "Kuat." }, { "q": "Saiz?", "a": "Pelbagai." } ]
+  },
+  "elbow-45": {
+    "seo_p1": "Siku 45 darjah (Elbow 45°).",
+    "seo_p2": "Penukaran arah 45 darjah.",
+    "seo_p3": "Reka bentuk optimum.",
+    "faq": [ { "q": "Sudut?", "a": "45°." }, { "q": "Aliran?", "a": "Lancar." }, { "q": "Pemasangan?", "a": "Mudah." } ]
+  },
+  "elbow-45-femalemale": {
+    "seo_p1": "Siku 45 darjah Dalam/Luar.",
+    "seo_p2": "Sambungan terus fleksibel.",
+    "seo_p3": "Jimat ruang.",
+    "faq": [ { "q": "Jenis?", "a": "Dalam/Luar." }, { "q": "Kelebihan?", "a": "Ruang sempit." }, { "q": "Mudah?", "a": "Sangat mudah." } ]
+  },
+  "elbow-90": {
+    "seo_p1": "Siku 90 darjah (Elbow 90°).",
+    "seo_p2": "Penukaran arah 90 darjah.",
+    "seo_p3": "Kuat dan padat.",
+    "faq": [ { "q": "Sudut?", "a": "90°." }, { "q": "Tekanan?", "a": "Tahan tinggi." }, { "q": "Kebocoran?", "a": "Tiada." } ]
+  },
+  "elbow-90-femalemale": {
+    "seo_p1": "Siku 90 darjah Dalam/Luar.",
+    "seo_p2": "Untuk ruang terhad.",
+    "seo_p3": "Sambungan padat.",
+    "faq": [ { "q": "Kegunaan?", "a": "Ruang sempit." }, { "q": "Kimpalan?", "a": "Cepat." }, { "q": "Kuat?", "a": "Ya." } ]
+  },
+  "electrofusion-socket": {
+    "seo_p1": "Soket Elektrofusi.",
+    "seo_p2": "Kimpalan elektrik berprestasi tinggi.",
+    "seo_p3": "Untuk kawasan sukar capai.",
+    "faq": [ { "q": "Kelebihan?", "a": "Mudah dikimpal di ruang sempit." }, { "q": "Mesin?", "a": "Perlu mesin khas." }, { "q": "Selamat?", "a": "Sangat selamat." } ]
+  },
+  "flange-adaptor": {
+    "seo_p1": "Penyesuai Bebibir (Flange Adaptor).",
+    "seo_p2": "Untuk sambungan berflange.",
+    "seo_p3": "Integrasi sistem logam.",
+    "faq": [ { "q": "Fungsi?", "a": "Sambungan logam." }, { "q": "Standard?", "a": "ISO." }, { "q": "Saiz?", "a": "Besar tersedia." } ]
+  },
+  "reducing-bush": {
+    "seo_p1": "Semak Pengurang (Reducing Bush).",
+    "seo_p2": "Menyambung paip pelbagai saiz.",
+    "seo_p3": "Pengecilan diameter.",
+    "faq": [ { "q": "Fungsi?", "a": "Tukar saiz." }, { "q": "Aliran?", "a": "Optimum." }, { "q": "Pemasangan?", "a": "Soket kimpalan." } ]
+  },
+  "reducing-tee": {
+    "seo_p1": "T Pengurang (Reducing Tee).",
+    "seo_p2": "Cabang dengan saiz berbeza.",
+    "seo_p3": "Pembahagian aliran optimum.",
+    "faq": [ { "q": "Cabang?", "a": "Saiz lebih kecil." }, { "q": "Kuat?", "a": "Ya." }, { "q": "Pilihan?", "a": "Banyak dimensi." } ]
+  },
+  "reducing-tee-large-sizes": {
+    "seo_p1": "T Pengurang Saiz Besar.",
+    "seo_p2": "Untuk paip diameter besar.",
+    "seo_p3": "Infrastruktur industri.",
+    "faq": [ { "q": "Saiz?", "a": "Besar." }, { "q": "Tekanan?", "a": "Tinggi." }, { "q": "Kegunaan?", "a": "Industri." } ]
+  },
+  "tee": {
+    "seo_p1": "Sama T (Tee).",
+    "seo_p2": "Pembahagian aliran sama saiz.",
+    "seo_p3": "Struktur kukuh.",
+    "faq": [ { "q": "Bentuk?", "a": "T." }, { "q": "Saiz?", "a": "Sama." }, { "q": "Ketahanan?", "a": "Tinggi." } ]
+  },
+  "cross": {
+    "seo_p1": "Silang (Cross).",
+    "seo_p2": "Cabang empat arah.",
+    "seo_p3": "Pembahagian sekata.",
+    "faq": [ { "q": "Arah?", "a": "Empat." }, { "q": "Sesuai untuk?", "a": "Rangkaian kompleks." }, { "q": "Lancar?", "a": "Ya." } ]
+  },
+  "cross-over": {
+    "seo_p1": "Jambatan paip (Cross-over).",
+    "seo_p2": "Mengelakkan paip bersilang.",
+    "seo_p3": "Sesuai untuk pemasangan silang.",
+    "faq": [ { "q": "Fungsi?", "a": "Elak perlanggaran paip." }, { "q": "Bentuk?", "a": "Melengkung." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "cross-over-pipe": {
+    "seo_p1": "Paip jambatan (Cross-over pipe).",
+    "seo_p2": "Jambatan pra-bentuk.",
+    "seo_p3": "Pemasangan pantas.",
+    "faq": [ { "q": "Kelebihan?", "a": "Pantas." }, { "q": "Ketahanan?", "a": "Kuat." }, { "q": "Saiz?", "a": "Standard." } ]
+  },
+  "adaptor-socket-female-thread": {
+    "seo_p1": "Penyesuai Benang Dalam.",
+    "seo_p2": "Sambungan ke komponen berbenang.",
+    "seo_p3": "Loyang berkualiti.",
+    "faq": [ { "q": "Jenis benang?", "a": "Dalam." }, { "q": "Bahan?", "a": "Loyang DZR." }, { "q": "Kebocoran?", "a": "Tiada." } ]
+  },
+  "adaptor-socket-male-thread": {
+    "seo_p1": "Penyesuai Benang Luar.",
+    "seo_p2": "Sambungan kuat berbenang luar.",
+    "seo_p3": "Tahan tekanan tinggi.",
+    "faq": [ { "q": "Jenis benang?", "a": "Luar." }, { "q": "Kelebihan?", "a": "Ketahanan lama." }, { "q": "Selamat?", "a": "Diuji." } ]
+  },
+  "elbow-90-male-thread": {
+    "seo_p1": "Siku 90° Benang Luar.",
+    "seo_p2": "Sudut dengan sambungan logam.",
+    "seo_p3": "Sempurna untuk radiator.",
+    "faq": [ { "q": "Aplikasi?", "a": "Radiator/injap." }, { "q": "Bahan logam?", "a": "Ya." }, { "q": "Kuat?", "a": "Sangat kuat." } ]
+  },
+  "elbow-bracket-90-female-thread": {
+    "seo_p1": "Pendakap Siku 90° Benang Dalam.",
+    "seo_p2": "Pemasangan dinding kukuh.",
+    "seo_p3": "Untuk pili air.",
+    "faq": [ { "q": "Pemasangan?", "a": "Dinding." }, { "q": "Stabil?", "a": "Ya." }, { "q": "Jenis?", "a": "Dalam." } ]
+  },
+  "elbowwall-bracket-90-female-thread": {
+    "seo_p1": "Siku Dinding 90°.",
+    "seo_p2": "Lekapan dinding padat.",
+    "seo_p3": "Aplikasi kebersihan.",
+    "faq": [ { "q": "Kegunaan?", "a": "Pili dinding." }, { "q": "Ketahanan?", "a": "Tinggi." }, { "q": "Sesuai?", "a": "Bilik mandi." } ]
+  },
+  "metal-union-male-thread-yellow-brass": {
+    "seo_p1": "Kesatuan Logam Benang Luar (Kuning).",
+    "seo_p2": "Sambungan boleh tanggal.",
+    "seo_p3": "Loyang kuning.",
+    "faq": [ { "q": "Warna?", "a": "Kuning." }, { "q": "Fungsi?", "a": "Boleh dibuka." }, { "q": "Kuat?", "a": "Ya." } ]
+  },
+  "metal-union-female-thread-yellow-brass": {
+    "seo_p1": "Kesatuan Logam Benang Dalam (Kuning).",
+    "seo_p2": "Sesuai untuk penyelenggaraan.",
+    "seo_p3": "Bahan berkualiti.",
+    "faq": [ { "q": "Penyelenggaraan?", "a": "Mudah." }, { "q": "Benang?", "a": "Dalam." }, { "q": "Ketat?", "a": "Ya." } ]
+  },
+  "metal-union-male-thread": {
+    "seo_p1": "Kesatuan Logam Benang Luar.",
+    "seo_p2": "Kemasan berkualiti.",
+    "seo_p3": "Sambungan industri.",
+    "faq": [ { "q": "Kemasan?", "a": "Berkualiti." }, { "q": "Aplikasi?", "a": "Industri." }, { "q": "Ketahanan?", "a": "Tinggi." } ]
+  },
+  "metal-union-female-thread": {
+    "seo_p1": "Kesatuan Logam Benang Dalam.",
+    "seo_p2": "Mudah ditanggalkan.",
+    "seo_p3": "Sesuai untuk pam.",
+    "faq": [ { "q": "Sesuai untuk?", "a": "Pam." }, { "q": "Bocor?", "a": "Tiada." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "tee-90-male-thread": {
+    "seo_p1": "T 90° Benang Luar.",
+    "seo_p2": "Cabang dengan benang logam.",
+    "seo_p3": "Integrasi alat.",
+    "faq": [ { "q": "Fungsi?", "a": "Cabang alat." }, { "q": "Bahan?", "a": "Logam/PP-R." }, { "q": "Suhu?", "a": "Tinggi." } ]
+  },
+  "tee-90-female-thread": {
+    "seo_p1": "T 90° Benang Dalam.",
+    "seo_p2": "Menyambung sensor/injap.",
+    "seo_p3": "Kukuh.",
+    "faq": [ { "q": "Untuk apa?", "a": "Injap." }, { "q": "Jenis?", "a": "Benang dalam." }, { "q": "Ketahanan?", "a": "Baik." } ]
+  },
+  "union": {
+    "seo_p1": "Kesatuan Plastik (Union).",
+    "seo_p2": "Sambungan paip boleh tanggal.",
+    "seo_p3": "Bebas karat.",
+    "faq": [ { "q": "Logam?", "a": "Tidak, plastik sepenuhnya." }, { "q": "Kuat?", "a": "Ya." }, { "q": "Pemasangan?", "a": "Mudah." } ]
+  },
+  "union-for-watermeters": {
+    "seo_p1": "Kesatuan Meter Air.",
+    "seo_p2": "Khusus untuk meter air.",
+    "seo_p3": "Mudah selenggara.",
+    "faq": [ { "q": "Fungsi?", "a": "Meter air." }, { "q": "Standard?", "a": "Ya." }, { "q": "Bocor?", "a": "Diuji sepenuhnya." } ]
+  },
+  "pp-r-ball-valve-ball-in-pp": {
+    "seo_p1": "Injap Bebola PP-R (Bola PP).",
+    "seo_p2": "Injap plastik penuh.",
+    "seo_p3": "Sesuai untuk bahan kimia.",
+    "faq": [ { "q": "Bola?", "a": "Plastik PP." }, { "q": "Kakisan?", "a": "Tiada." }, { "q": "Industri?", "a": "Sesuai." } ]
+  },
+  "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+    "seo_p1": "Injap Bebola (Bola Loyang Krom).",
+    "seo_p2": "Operasi lancar.",
+    "seo_p3": "Jangka hayat panjang.",
+    "faq": [ { "q": "Bola?", "a": "Loyang krom." }, { "q": "Lancar?", "a": "Sangat lancar." }, { "q": "Air minum?", "a": "Lulus." } ]
+  },
+  "tee-90-female-thread-for-internal-valve": {
+    "seo_p1": "T Injap Dalaman.",
+    "seo_p2": "Untuk injap tersembunyi.",
+    "seo_p3": "Reka bentuk padat.",
+    "faq": [ { "q": "Aplikasi?", "a": "Dalam dinding." }, { "q": "Ruang?", "a": "Kecil." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "concealed-valve-chrome-light-part": {
+    "seo_p1": "Injap Tersembunyi (Krom Ringan).",
+    "seo_p2": "Estetik bilik mandi.",
+    "seo_p3": "Mudah laras.",
+    "faq": [ { "q": "Pandangan?", "a": "Moden." }, { "q": "Permukaan?", "a": "Krom." }, { "q": "Kawalan?", "a": "Tepat." } ]
+  },
+  "concealed-valve-chrome-heavy-part": {
+    "seo_p1": "Injap Tersembunyi (Krom Berat).",
+    "seo_p2": "Tugas berat dan tahan lasak.",
+    "seo_p3": "Binaan mantap.",
+    "faq": [ { "q": "Binaan?", "a": "Berat." }, { "q": "Tahan lasak?", "a": "Sangat." }, { "q": "Sesuai?", "a": "Komersial." } ]
+  },
+  "straight-seat-valve-upper-part-green-handle": {
+    "seo_p1": "Injap Kerusi Lurus (Hijau).",
+    "seo_p2": "Kawalan air optimum.",
+    "seo_p3": "Pemegang hijau.",
+    "faq": [ { "q": "Warna pemegang?", "a": "Hijau." }, { "q": "Aliran?", "a": "Baik." }, { "q": "Penyelenggaraan?", "a": "Mudah." } ]
+  },
+  "elongation-pieces": {
+    "seo_p1": "Kepingan Pemanjangan.",
+    "seo_p2": "Laras jarak injap.",
+    "seo_p3": "Fleksibiliti.",
+    "faq": [ { "q": "Fungsi?", "a": "Panjangkan injap." }, { "q": "Kesesuaian?", "a": "Universal." }, { "q": "Bahan?", "a": "Tahan karat." } ]
+  },
+  "battery-female-thread": {
+    "seo_p1": "Bateri Benang Dalam.",
+    "seo_p2": "Pemasangan pancuran mandi.",
+    "seo_p3": "Jarak tepat.",
+    "faq": [ { "q": "Jarak?", "a": "Standard." }, { "q": "Kegunaan?", "a": "Bilik mandi." }, { "q": "Pemasangan?", "a": "Cepat." } ]
+  },
+  "adjustable-battery-female-thread": {
+    "seo_p1": "Bateri Boleh Laras.",
+    "seo_p2": "Jarak fleksibel.",
+    "seo_p3": "Menyesuaikan keadaan.",
+    "faq": [ { "q": "Laras?", "a": "Ya." }, { "q": "Bahan?", "a": "PP-R/Logam." }, { "q": "Jimat masa?", "a": "Ya." } ]
+  },
+  "weld-in-saddle": {
+    "seo_p1": "Pelana Kimpalan (Saddle).",
+    "seo_p2": "Cabang paip mudah.",
+    "seo_p3": "Tanpa memotong paip utama.",
+    "faq": [ { "q": "Potong paip?", "a": "Tidak perlu." }, { "q": "Proses?", "a": "Kimpalan luar." }, { "q": "Tekanan?", "a": "Selamat." } ]
+  },
+  "weld-in-saddle-female-thread": {
+    "seo_p1": "Pelana Benang Dalam.",
+    "seo_p2": "Cabang dengan benang logam.",
+    "seo_p3": "Untuk sensor/injap.",
+    "faq": [ { "q": "Kegunaan?", "a": "Alat tambah." }, { "q": "Benang?", "a": "Loyang." }, { "q": "Mudah?", "a": "Sangat mudah." } ]
+  },
+  "weld-in-saddle-male-thread": {
+    "seo_p1": "Pelana Benang Luar.",
+    "seo_p2": "Sambungan teguh.",
+    "seo_p3": "Untuk cabang luar.",
+    "faq": [ { "q": "Bahan?", "a": "PP-R dan Logam." }, { "q": "Tekanan?", "a": "Tinggi." }, { "q": "Bocor?", "a": "Tiada." } ]
+  },
+  "pipe-clamps": {
+    "seo_p1": "Pengapit Paip (Clamp).",
+    "seo_p2": "Sokongan paip kukuh.",
+    "seo_p3": "Mencegah getaran.",
+    "faq": [ { "q": "Fungsi?", "a": "Sokong paip." }, { "q": "Getaran?", "a": "Dikurangkan." }, { "q": "Bahan?", "a": "Plastik/Logam." } ]
+  },
+  "backing-flange-pp-steel-sfbf": {
+    "seo_p1": "Bebibir Sokongan (PP-Keluli).",
+    "seo_p2": "Kestabilan sambungan.",
+    "seo_p3": "Beban berat.",
+    "faq": [ { "q": "Bahan?", "a": "Keluli bersalut PP." }, { "q": "Kuat?", "a": "Sangat." }, { "q": "Karat?", "a": "Dilindungi." } ]
+  },
+  "flat-gasket": {
+    "seo_p1": "Gasket Rata.",
+    "seo_p2": "Kedapan sempurna.",
+    "seo_p3": "Untuk bebibir.",
+    "faq": [ { "q": "Kebocoran?", "a": "Sifar." }, { "q": "Bahan?", "a": "Getah EPDM." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "flat-gasket-for-unions-pp-r": {
+    "seo_p1": "Gasket untuk Kesatuan PP-R.",
+    "seo_p2": "Sesuai untuk penyambung boleh buka.",
+    "seo_p3": "Tahan panas.",
+    "faq": [ { "q": "Suhu?", "a": "Tahan panas." }, { "q": "Aplikasi?", "a": "Kesatuan PP-R." }, { "q": "Boleh ganti?", "a": "Ya." } ]
+  },
+  "plug": {
+    "seo_p1": "Palam (Plug).",
+    "seo_p2": "Penutup berbenang sementara.",
+    "seo_p3": "Ujian tekanan.",
+    "faq": [ { "q": "Kegunaan?", "a": "Ujian tekanan." }, { "q": "Boleh buka?", "a": "Ya." }, { "q": "Kedap?", "a": "Ya." } ]
+  },
+  "pipe-cutter-2040": {
+    "seo_p1": "Pemotong Paip 20-40mm.",
+    "seo_p2": "Potongan bersih tanpa serpihan.",
+    "seo_p3": "Mudah alih.",
+    "faq": [ { "q": "Saiz?", "a": "20-40mm." }, { "q": "Tajam?", "a": "Mata pisau keluli." }, { "q": "Bersih?", "a": "Ya." } ]
+  },
+  "pipe-cutter-50125": {
+    "seo_p1": "Pemotong Paip Besar 50-125mm.",
+    "seo_p2": "Tugas berat.",
+    "seo_p3": "Potongan tepat.",
+    "faq": [ { "q": "Kapasiti?", "a": "Sehingga 125mm." }, { "q": "Kerja berat?", "a": "Sesuai." }, { "q": "Cepat?", "a": "Ya." } ]
+  },
+  "pipe-cutter-50125-1": {
+    "seo_p1": "Pemotong Paip Lanjutan 50-125mm.",
+    "seo_p2": "Ergonomik.",
+    "seo_p3": "Mudah digunakan.",
+    "faq": [ { "q": "Ergonomik?", "a": "Ya." }, { "q": "Ketahanan?", "a": "Kukuh." }, { "q": "Ringan?", "a": "Ya." } ]
+  },
+  "hand-welding-machine-2032-complete-set": {
+    "seo_p1": "Set Mesin Kimpalan 20-32mm.",
+    "seo_p2": "Set lengkap juruteknik.",
+    "seo_p3": "Kawal suhu automatik.",
+    "faq": [ { "q": "Suhu?", "a": "Boleh laras." }, { "q": "Set?", "a": "Lengkap dengan acuan." }, { "q": "Mudah alih?", "a": "Ya." } ]
+  },
+  "hand-welding-machine-2063-complete-set": {
+    "seo_p1": "Set Mesin Kimpalan 20-63mm.",
+    "seo_p2": "Serbaguna untuk projek perumahan.",
+    "seo_p3": "Pemanasan pantas.",
+    "faq": [ { "q": "Kapasiti?", "a": "Hingga 63mm." }, { "q": "Cepat panas?", "a": "Ya." }, { "q": "Tahan lasak?", "a": "Sangat." } ]
+  },
+  "hand-welding-machine-mirror-50125": {
+    "seo_p1": "Cermin Kimpalan 50-125mm.",
+    "seo_p2": "Untuk paip besar.",
+    "seo_p3": "Pengagihan haba rata.",
+    "faq": [ { "q": "Haba?", "a": "Rata." }, { "q": "Berat?", "a": "Tugas berat." }, { "q": "Standard?", "a": "Industri." } ]
+  },
+  "welding-tool": {
+    "seo_p1": "Alat Kimpalan Tambahan.",
+    "seo_p2": "Acuan bersalut teflon.",
+    "seo_p3": "Mencegah plastik melekat.",
+    "faq": [ { "q": "Teflon?", "a": "Ya bersalut." }, { "q": "Melekat?", "a": "Tidak." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "welding-machine-50125-complete-set": {
+    "seo_p1": "Mesin Kimpalan Meja 50-125mm.",
+    "seo_p2": "Kimpalan tegak berketepatan tinggi.",
+    "seo_p3": "Sesuai di tapak binaan.",
+    "faq": [ { "q": "Ketepatan?", "a": "Tinggi." }, { "q": "Manual?", "a": "Mekanikal." }, { "q": "Kestabilan?", "a": "Maksimum." } ]
+  },
+  "butt-welding-machine-90250": {
+    "seo_p1": "Mesin Kimpalan Punggung (Butt-welding).",
+    "seo_p2": "Untuk paip gergasi.",
+    "seo_p3": "Industri berat.",
+    "faq": [ { "q": "Proses?", "a": "Kimpalan punggung." }, { "q": "Saiz?", "a": "90-250mm." }, { "q": "Hidraulik?", "a": "Ya." } ]
+  },
+  "electrofusion-machine": {
+    "seo_p1": "Mesin Elektrofusi.",
+    "seo_p2": "Kimpalan berkomputer.",
+    "seo_p3": "Barcode scanner.",
+    "faq": [ { "q": "Kawalan?", "a": "Digital." }, { "q": "Suhu?", "a": "Automatik." }, { "q": "Tepat?", "a": "100%." } ]
+  },
+  "welding-tool-for-weld-in-saddles": {
+    "seo_p1": "Acuan Pelana Kimpalan.",
+    "seo_p2": "Direka khas untuk pelana.",
+    "seo_p3": "Profil melengkung.",
+    "faq": [ { "q": "Bentuk?", "a": "Melengkung ikut paip." }, { "q": "Salutan?", "a": "Teflon." }, { "q": "Hasil?", "a": "Sempurna." } ]
+  },
+  "drilling-tool-for-weld-in-saddle": {
+    "seo_p1": "Gerudi Pelana.",
+    "seo_p2": "Menebuk lubang dengan bersih.",
+    "seo_p3": "Saiz tepat.",
+    "faq": [ { "q": "Kotoran?", "a": "Minimum." }, { "q": "Bahan?", "a": "Keluli tajam." }, { "q": "Tepat?", "a": "Ya." } ]
+  },
+  "welding-tool-for-repairing-plug": {
+    "seo_p1": "Alat Pembaikan Paip.",
+    "seo_p2": "Membaiki lubang gerudi bocor.",
+    "seo_p3": "Menyelamatkan pemasangan.",
+    "faq": [ { "q": "Fungsi?", "a": "Tutup bocor gerudi." }, { "q": "Cepat?", "a": "Ya." }, { "q": "Selamat?", "a": "Kekal." } ]
+  },
+  "repairing-plug": {
+    "seo_p1": "Palam Pembaikan.",
+    "seo_p2": "Bahan PP-R untuk pembaikan.",
+    "seo_p3": "Satu menjadi paip asal.",
+    "faq": [ { "q": "Bahan?", "a": "PP-R." }, { "q": "Kebocoran?", "a": "Tertutup penuh." }, { "q": "Kekuatan?", "a": "Sama seperti paip asal." } ]
+  }
+}
   }
 }

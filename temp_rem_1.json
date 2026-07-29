@@ -1,0 +1,181 @@
+{
+  "wissen": {
+    "meta": {
+      "title": "Kaalaman sa Industriya at Data ng Engineering | K Aqua",
+      "desc": "Malalim na teknikal na kaalaman, mga pagsusuri sa arkitektura ng system, at hindi nagpaparayang data ng inhinyero sa mga K Aqua pipe system."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "PPRCT Matrix Architecture",
+          "desc": "Ang structural integrity ng aming mga Polypropylene Random Copolymer (PPRCT) na may binagong crystallinity ay muling tumutukoy sa mga hangganan ng thermal resilience. Sa ilalim ng matitinding pressure at temperature cycle, ang aming hexagonal lattice structure ay nag-aalok ng mikroskopikong pamamahagi ng stress na halos nag-aalis sa materyal na pagkapagod. Isang paradigm shift sa fluid mechanics."
+        },
+        {
+          "title": "Thermodynamic Isolation",
+          "desc": "Ang aming co-extruded insulation layers ay nakabatay sa closed-cell polyurethane technology. Ang heat transfer coefficient (U-value) ay ibinababa sa pinakamababa. Ang pagkawala ng enerhiya ay hindi na isang variable sa iyong mga kalkulasyon ng system, iniiwasan ito sa pamamagitan ng aming arkitektura ng system. Ganap na thermal control."
+        },
+        {
+          "title": "Napatunayang Sterility",
+          "desc": "Sa imprastraktura ng inuming tubig, walang puwang ang kompromiso. Ang aming mga system ay hindi lamang DVGW-tested, nilalampasan din nito ang mga kinakailangan ng Drinking Water Ordinance (TrinkwV) nang husto. Ang ultra-makinis na panloob na ibabaw (roughness k=0.007 mm) ay pumipigil sa microbial adhesion at biofilm formation. Kalinisan sa molekular na antas."
+        },
+        {
+          "title": "Non-Destructive Testing (NDT)",
+          "desc": "Bawat pipe system ay sumasailalim sa aming automated ultrasound at X-ray diagnostics. Sinusuri namin ang mga weld sa sub-millimeter level. Anumang mga anomalya, pores, o inclusions ay tinutukoy sa pamamagitan ng AI-supported defect recognition bago pa man umalis ang produkto sa production line. 100% Traceability. Walang puwang para sa mga depekto."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "PHASE I",
+          "title": "Molecular Synthesis",
+          "text": "Nagsisimula ang proseso sa antas atomiko. Ang catalytic polymerization sa ilalim ng matinding pressure ay bumubuo sa base PPRCT granulate. Tinitiyak ng mga tiyak na nucleating agent ang pagbuo ng matibay na beta crystal structure."
+        },
+        {
+          "year": "PHASE II",
+          "title": "Precision Co-extrusion",
+          "text": "Ang granulate ay tinutunaw sa 240°C at pinipilit dumaan sa calibrated na mga tool. Ang sabay-sabay na extrusion ng maraming functional layers (fiberglass compound, outer layer) ay nagaganap na may micrometer-precise laser control."
+        },
+        {
+          "year": "PHASE III",
+          "title": "Thermal Stabilization",
+          "text": "Ang isang kumplikadong cooling protocol ay naga-ayos sa macromolecular orientation. Pinipigilan ng controlled temperature gradient ang internal stresses at ginagarantiyahan ang ganap na dimensional stability ng pipe geometry."
+        },
+        {
+          "year": "PHASE IV",
+          "title": "Hyper-Auditing",
+          "text": "Hydraulic burst pressure tests, long-term internal pressure tests sa 95°C, at non-destructive material analysis. Ang mga system lamang na lumalampas sa stress limit ng standard nang 300% ang nakakakuha ng pinal na pag-apruba."
+        }
+      ],
+      "title": "Genesis ng Integridad",
+      "desc": "Hindi kami basta-basta gumagawa ng mga tubo. Nagi-inhinyero kami ng mga istruktura. Bawat milimetro ay isang patunay ng walang kompromisong precision, mula sa pagpili ng hilaw na materyal hanggang sa huling stress test."
+    },
+    "hero": {
+      "eyebrow": "Teknikal na Dokumentasyon",
+      "title1": "Inhinyero hanggang sa huling",
+      "titleGrad": "detalye.",
+      "desc": "Sa site na ito, hindi ka makakahanap ng mga marketing na pangako, kundi purong pisika, data ng materyal, at empirical na mga katotohanan. Disenyong walang kompromiso. Para sa mga planner at inhinyero na mas gusto ang data kaysa sa mga salita."
+    },
+    "deep": {
+      "items": [
+        {
+          "title": "Stress & Resistance",
+          "desc": "Paano lumalaban ang aming matrix sa pressure, temperature, at chemical aggression."
+        },
+        {
+          "title": "Fluid Dynamics",
+          "desc": "Pressure loss, cavitation prevention, at laminar flow properties sa K Aqua."
+        },
+        {
+          "title": "System Architecture",
+          "desc": "Structural analysis ng aming mga transition fitting at polymer-metal integration."
+        }
+      ]
+    },
+    "grid": {
+      "items": [
+        {
+          "title": "Pamantayan at Regulasyon",
+          "desc": "Isang malalim na pagtingin sa DIN, ISO, at iba pang internasyonal na pamantayang nalalampasan namin."
+        },
+        {
+          "title": "Welding & Fusion",
+          "desc": "Ang agham sa likod ng polyfusion welding. Bakit hindi na mapaghihiwalay ang aming mga joint."
+        },
+        {
+          "title": "SDR & Dimensions",
+          "desc": "Aling Standard Dimension Ratio (SDR) ang kinakailangan para sa aling mga aplikasyon sa industriya."
+        },
+        {
+          "title": "Sustainability",
+          "desc": "Lifecycle assessment at CO2 footprint ng K Aqua system kumpara sa bakal."
+        }
+      ]
+    },
+    "cta": {
+      "title1": "Handa para sa",
+      "title2": "pagtatanong sa proyekto?",
+      "desc": "Kumonsulta sa aming mga eksperto tungkol sa iyong susunod na malaking proyekto.",
+      "button": "Simulan ang Pagtatanong"
+    }
+  },
+  "productNames": {
+    "accessories_backing-flange": "Backing Flange",
+    "accessories_flat-gasket-for-unions": "Flat Gasket para sa Unions",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "Plug",
+    "fittings_cap": "Cap",
+    "fittings_cross-over-pipe": "Cross-over Pipe",
+    "fittings_cross-over": "Cross-over",
+    "fittings_cross": "Cross",
+    "fittings_elbow-45-female-male": "Elbow 45° Female/Male",
+    "fittings_elbow-45": "Elbow 45°",
+    "fittings_elbow-90-female-male": "Elbow 90° Female/Male",
+    "fittings_elbow-90": "Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "Reducing Tee (Malaki)",
+    "fittings_reducing-tee": "Reducing Tee",
+    "fittings_socket": "Socket",
+    "fittings_tee": "Tee",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-FIBER PIPE PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-FIBER PIPE PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-FIBER PIPE PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-FIBER PIPE PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-FIBER PIPE PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-FIBER UV PIPE PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "UV-resistant na fiber pipe para sa mga outdoor installation",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-FIBER UV PIPE PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "High-performance UV-resistant fiber pipe para sa matinding outdoor na paggamit",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-FIBERCLIMA PIPE PP-RCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-PIPE PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-PIPE PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-PIPE PP-RCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-PIPE PURPLE PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine 90-250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool para sa Weld-in Saddle",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine 20-32",
+    "tools_hand-welding-machine-20-32_desc": "Compact welding device para sa maliliit na diameter",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine 20-63",
+    "tools_hand-welding-machine-20-63_desc": "Standard welding device para sa pinakamadalas gamiting mga diameter",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine Mirror 50-125",
+    "tools_pipe-cutter-20-40": "Pipe Cutter 20-40",
+    "tools_pipe-cutter-50-125-114": "Pipe Cutter 50-125",
+    "tools_pipe-cutter-50-125": "Pipe Cutter 50-125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Welding Machine 50-125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool para sa Repairing Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool para sa Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket Female Thread",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket Male Thread",
+    "transition-fittings_elbow-90-male-thread": "Elbow 90° Male Thread",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° Female Thread",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "May mounting bracket para sa ligtas na pag-install",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow Wall Bracket 90° Female Thread",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Wall bracket para sa matibay na pagkakabit sa pader",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union Female Thread (Brass)",
+    "transition-fittings_metal-union-female-thread": "Metal Union Female Thread",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union Male Thread (Brass)",
+    "transition-fittings_metal-union-male-thread": "Metal Union Male Thread",
+    "transition-fittings_tee-90-female-thread": "Tee 90° Female Thread",
+    "transition-fittings_tee-90-male-thread": "Tee 90° Male Thread",
+    "transition-fittings_union-for-watermeters": "Union para sa Watermeters",
+    "transition-fittings_union": "Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery Female Thread",
+    "valves_battery-female-thread": "Battery Female Thread",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve (Chrome, Mabigat na Bahagi)",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve (Chrome, Magaang Bahagi)",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Ball Valve (Ball sa PP)",
+    "valves_pp-r-ball-valve-brass": "PP-R Ball Valve (Brass)",
+    "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Green Handle)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° Female Thread Internal Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle Female Thread",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle Male Thread",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
+  }
+}
