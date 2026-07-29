@@ -1,0 +1,495 @@
+{
+  "catalogx": {
+    "eyebrow": "Complete Product Catalogue",
+    "faqTitle": "Frequently Asked Questions",
+    "title": "All 79 Article Families, with Real Article Numbers.",
+    "lead": "Pipes, fittings, transition fittings, valves, weld-in saddles, accessories, and tools, every line is taken from the binding K Aqua catalogue. Select a category, expand the article, check the article number.",
+    "searchPlaceholder": "Search for article number or product name, e.g., \"AQ200P20\" or \"Elbow\"",
+    "noResults": "No results found, adjust search or select another category.",
+    "codesLabel": "Article Numbers",
+    "sizesLabel": "Sizes",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Series",
+    "pressureLabel": "Operating Pressure",
+    "lenLabel": "Bar Length",
+    "cats": {
+      "pipes": {
+        "label": "Pipes",
+        "desc": "PPR and PPRCT pipes, standard, fiber-reinforced, and UV-stabilized, 12 series."
+      },
+      "fittings": {
+        "label": "Fittings",
+        "desc": "Socket fusion and electrofusion fittings, d20–d125, 13 article families."
+      },
+      "transitionFittings": {
+        "label": "Transition Fittings",
+        "desc": "Transitions to thread and brass, for existing connections and valves, 13 families."
+      },
+      "valves": {
+        "label": "Valves",
+        "desc": "Ball valves, concealed valves, manifold blocks, 9 article families."
+      },
+      "weldInSaddles": {
+        "label": "Weld-in Saddles",
+        "desc": "Branches without pipe separation, with and without threads, 3 families."
+      },
+      "accessories": {
+        "label": "Accessories",
+        "desc": "Pipe clamps, backing flanges, gaskets, plugs, 5 article families."
+      },
+      "tools": {
+        "label": "Tools",
+        "desc": "Pipe cutters, welding machines, and tools for all four joining methods, 14 families."
+      }
+    },
+    "rfq": {
+      "title": "Project Request",
+      "desc": "Request a quote directly for <span class=\"font-semibold\">{title}</span>.",
+      "button": "To Request"
+    },
+    "similar": {
+      "title": "More from {category}"
+    },
+    "items": {}
+  },
+  "__catalogx_items": {
+    "k-pipe-pp-r-sdr-6": {
+      "seo_p1": "The K Pipe PPR SDR 6 is a high-performance pipe from our comprehensive pipe system category. It is designed to handle demanding fluid transport safely and efficiently.",
+      "seo_p2": "This pipe is made of durable PPR material and is designed with the SDR 6 rating (Series S 2.5) for a high operating pressure of up to 2.0 MPa at 20°C. The standard length of 4 meters enables quick installation.",
+      "seo_p3": "Thanks to its excellent chemical and thermal resistance, the SDR 6 pipe is ideal for industrial applications and drinking water supply. The smooth inner surface minimizes pressure loss and prevents deposits.",
+      "faq": [
+        {
+          "q": "What operating temperatures is SDR 6 suitable for?",
+          "a": "It is designed for continuous operating temperatures up to 70°C and offers a pressure resistance of 20 bar at 20°C."
+        },
+        {
+          "q": "What are the advantages of the high wall thickness?",
+          "a": "The SDR 6 series (S 2.5) offers maximum pressure resistance and mechanical stability in heavily loaded systems."
+        },
+        {
+          "q": "Can I use this pipe for cold water?",
+          "a": "Yes, it is excellent for cold water systems because the smooth surface effectively prevents incrustations and bacterial growth."
+        }
+      ]
+    },
+    "k-pipe-pp-rct-sdr-74": {
+      "seo_p1": "The K Pipe PPRCT SDR 7.4 represents the next generation of plastic pipe systems. It combines improved material properties with optimised wall thickness for maximum flow rates.",
+      "seo_p2": "Made from highly crystalline PPRCT, this pipe offers an impressive nominal pressure of 2.0 MPa at 20°C at SDR 7.4 (S 3.2). The reduced wall thickness saves weight without compromising stability.",
+      "seo_p3": "Typical areas of application include complex heating, air conditioning, and sanitary systems. Thanks to the PPRCT material, installers benefit from higher long-term strength even at higher temperatures.",
+      "faq": [
+        {
+          "q": "What does PPRCT mean compared to PPR?",
+          "a": "PPRCT stands for an improved crystalline structure that allows for higher pressures at higher temperatures, enabling thinner wall thicknesses."
+        },
+        {
+          "q": "Is the flow rate higher with SDR 7.4?",
+          "a": "Yes, due to the reduced wall thickness of the PPRCT, an up to 17% higher flow capacity is achieved with the same outer diameter."
+        },
+        {
+          "q": "Is SDR 7.4 suitable for heating systems?",
+          "a": "Absolutely, the material is extremely thermally resistant and therefore ideal for supply lines in modern heating systems."
+        }
+      ]
+    },
+    "k-pipe-pp-r-sdr-11": {
+      "seo_p1": "The K-Pipe PP-R SDR 11 is the standard solution for a variety of plumbing and heating applications. It is characterized by its reliability and ease of handling.",
+      "seo_p2": "With an SDR 11 classification (Series S 5), this PP-R pipe is certified for an operating pressure of 1.2 MPa at 20°C. The 4-meter lengths can be welded flexibly and precisely.",
+      "seo_p3": "It is frequently used in cold water distribution and as a versatile pipe in building technology. The homogeneous welded connection guarantees lifetime tightness without mechanical weak points.",
+      "faq": [
+        {
+          "q": "Is the pipe suitable for cold and hot water?",
+          "a": "The SDR 11 pipe is primarily designed for cold water (20°C at 12 bar) and the low-pressure hot water range (60°C at 6 bar)."
+        },
+        {
+          "q": "How is the PP-R SDR 11 pipe installed?",
+          "a": "Installation is carried out using the socket fusion welding process, which creates absolutely homogeneous, leak-free connections."
+        },
+        {
+          "q": "Are there weight differences compared to other SDR classes?",
+          "a": "Yes, due to the thinner wall, the pipe is significantly lighter and more flexible to handle on the construction site."
+        }
+      ]
+    },
+    "k-pipe-purple-pp-r-sdr-11": {
+      "seo_p1": "The purple-coloured K-Pipe Purple PP-R SDR 11 is used for the clear identification of specific pipe systems. It prevents confusion during the installation of separate water circuits.",
+      "seo_p2": "The purple signal colour generally identifies process water, rainwater, or irrigation systems. Technically, it corresponds to standard PP-R with SDR 11 (1.2 MPa at 20°C) and offers the same high quality.",
+      "seo_p3": "The use of this special pipe increases system safety and visually ensures the standard-compliant separation of drinking and process water. Perfect for sustainable water management systems.",
+      "faq": [
+        {
+          "q": "What does the purple colour stand for?",
+          "a": "It is used to visually distinguish pipe systems for process water, grey water, or rainwater harvesting in accordance with international guidelines."
+        },
+        {
+          "q": "Can the pipe be welded with normal PP-R fittings?",
+          "a": "Yes, the purple pipe is compatible with all K Aqua standard fittings and is welded using the same parameters."
+        },
+        {
+          "q": "Does the colour affect the quality of the material?",
+          "a": "No, the physical and chemical properties are identical to the regular PP-R SDR 11 pipe."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-rct-sdr-74": {
+      "seo_p1": "The K-Fiber Pipe PPRCT SDR 7.4 is a state-of-the-art, fiber-reinforced composite pipe. The integrated fiber layer significantly reduces linear expansion.",
+      "seo_p2": "The innovative PPRCT base is supplemented by a fiber middle layer. With SDR 7.4 (S 3.2), the pipe withstands pressures of up to 2.0 MPa at 20°C, with up to 50% less thermal expansion at the same time.",
+      "seo_p3": "This makes the pipe the perfect choice for risers and long runs in building technology, where fewer fastening points are required, which saves installation time and material costs.",
+      "faq": [
+        {
+          "q": "How much does the fiber reduce thermal linear expansion?",
+          "a": "The integrated glass fiber layer reduces linear expansion by up to 75% compared to solid PP-R pipes."
+        },
+        {
+          "q": "Does the fiber pipe need to be peeled before welding?",
+          "a": "No, unlike Stabi pipes with an aluminum layer, our fiber pipe can be welded directly and without pre-treatment."
+        },
+        {
+          "q": "Is the pipe suitable for central risers?",
+          "a": "Yes, due to its extremely high inherent stiffness and pressure resistance, it is the optimal choice for large risers."
+        }
+      ]
+    },
+    "k-fiberclima-pipe-pp-rct-sdr-11": {
+      "seo_p1": "Specialized for cooling and heating water applications, the K-Fiberclima Pipe PPRCT SDR 11 offers optimal performance for climate control systems. It is designed for thermal efficiency and stability.",
+      "seo_p2": "The fiber-reinforced PPRCT material (SDR 11, S 5) ensures safe operation at 1.6 MPa (20°C) and 0.8 MPa (70°C). The thinner walls allow for an extremely high flow rate.",
+      "seo_p3": "This pipe particularly shows its strengths in large HVAC systems (heating, ventilation, air conditioning). It prevents corrosion in the cooling circuit and ensures maintenance-free, energy-efficient operation.",
+      "faq": [
+        {
+          "q": "What makes the pipe ideal for chilled water in climate control systems?",
+          "a": "The low thermal conductivity of PPRCT prevents condensation significantly better than metallic pipes."
+        },
+        {
+          "q": "How does it behave with the circulation of antifreeze agents?",
+          "a": "It is highly resistant to common glycols and antifreeze agents, preventing leaks caused by material fatigue."
+        },
+        {
+          "q": "Can the pipes be used for large volume flows?",
+          "a": "Thanks to the thinner wall (SDR 11) with maximum stability, it allows for extremely large volume flows in industrial networks."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-74": {
+      "seo_p1": "The classic K-Fiber Pipe PP-R SDR 7.4 is the proven solution when fiber reinforcement and extreme pressure resistance are required. It effectively minimizes thermal expansion.",
+      "seo_p2": "By combining PP-R and fiber technology, this pipe (SDR 7.4, S 3.2) achieves a peak operating pressure of 2.5 MPa at 20°C. It offers maximum stability for demanding networks.",
+      "seo_p3": "Whether in industrial plant construction or complex domestic hot water circulation systems, this pipe ensures rigid, deformation-free installation and highest operational reliability over decades.",
+      "faq": [
+        {
+          "q": "Is SDR 7.4 approved for high temperatures?",
+          "a": "Yes, it tolerates temperatures up to 70°C at a nominal pressure of 1.0 MPa (10 bar) and short-term peaks of 95°C."
+        },
+        {
+          "q": "How many fastening clamps are required for long distances?",
+          "a": "Thanks to the fiber reinforcement, the fastening distances can be drastically increased compared to standard pipes."
+        },
+        {
+          "q": "Are there corrosion risks with changing water qualities?",
+          "a": "No, the PP-R material is 100% corrosion-free and independent of the pH value of the transported medium."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-9": {
+      "seo_p1": "The K-Fiber Pipe PP-R SDR 9 bridges the gap between standard and high-pressure fiber pipes. It offers an excellent balance of flow capacity and pressure resistance.",
+      "seo_p2": "With the S 4 (SDR 9) series, the PP-R fiber pipe is approved for pressures up to 2.0 MPa at 20°C. The wall thicknesses are optimised for medium to high loads.",
+      "seo_p3": "This pipe is often used in commercial and industrial projects where conventional pipes reach their limits, but the extreme reserves of SDR 7.4 are not yet needed.",
+      "faq": [
+        {
+          "q": "Why choose SDR 9 instead of SDR 7.4?",
+          "a": "SDR 9 offers an excellent compromise of higher flow capacity (thinner wall) while still providing extreme pressure resistance."
+        },
+        {
+          "q": "Can it be welded with standard PP-R fittings?",
+          "a": "Absolutely, the SDR 9 fiber pipe is fully compatible with our K Aqua SDR 6 and SDR 7.4 PP-R fittings."
+        },
+        {
+          "q": "Is it approved for drinking water supply?",
+          "a": "Yes, it meets all hygienic standards for hot and cold drinking water worldwide."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-11": {
+      "seo_p1": "The K-Fiber Pipe PP-R SDR 11 is designed for weight-optimised yet dimensionally stable installations. It combines the advantages of fiber technology with a lightweight profile.",
+      "seo_p2": "The PP-R material with fiber layer in the SDR 11 classification allows pressures up to 1.6 MPa at 20°C. It offers an optimal inner cross-section for large water volumes.",
+      "seo_p3": "It is ideally suited for climate chilled water and large distribution lines. Installation is very fast thanks to the low weight and reduced fastening distances.",
+      "faq": [
+        {
+          "q": "Are the welding times shorter for SDR 11 pipes?",
+          "a": "Yes, due to the reduced wall thickness, the heating times on the heating element are shortened, which speeds up the work process."
+        },
+        {
+          "q": "What are the application limits for this SDR 11 pipe?",
+          "a": "It is designed for maximum pressures of 16 bar at 20°C and 8 bar at 60°C."
+        },
+        {
+          "q": "Do cooling systems benefit from this pipe?",
+          "a": "Yes, the excellent insulation value significantly minimizes energy loss in cooling networks."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-17": {
+      "seo_p1": "The large-dimensioned K-Fiber Pipe PP-R SDR 17 was specially developed for large-scale industrial plants and main supply lines. It offers massive flow cross-sections.",
+      "seo_p2": "With diameters of up to 200 mm and the S 8 (SDR 17) series, this pipe can handle 1.0 MPa at 20°C. The fiber reinforcement ensures high dimensional stability even with these large dimensions.",
+      "seo_p3": "Ideal for district cooling networks, municipal water supply, or as a main riser in high-rise buildings. It is the corrosion-free alternative to heavy metallic large pipes.",
+      "faq": [
+        {
+          "q": "Is SDR 17 suitable for high network pressure levels?",
+          "a": "SDR 17 (PN 10) is specially designed for low-pressure networks with enormous volume flows, e.g., district cooling networks."
+        },
+        {
+          "q": "How are such large dimensions connected?",
+          "a": "Large pipes (from 90 mm to 200 mm) are preferably connected by heating element butt welding or with electrofusion sockets."
+        },
+        {
+          "q": "What is the main advantage over steel pipes?",
+          "a": "The PP-R pipe does not rust, weighs a fraction of steel pipes, and permanently maintains a perfect flow cross-section."
+        }
+      ]
+    },
+    "k-fiber-uv-pipe-pp-r-sdr-74": {
+      "seo_p1": "The K-Fiber UV Pipe PP-R SDR 7.4 solves the problem of UV degradation in unprotected outdoor installations. It features a special, weather-resistant outer layer.",
+      "seo_p2": "In addition to the thermally stabilizing fiber middle layer and the PP-R base (SDR 7.4, 2.0 MPa), the UV jacket permanently protects the pipe against direct sunlight and weather influences.",
+      "seo_p3": "This makes it perfect for roof installations, outdoor plants, or bridge lines. Additional insulation or coatings for UV protection can be completely omitted.",
+      "faq": [
+        {
+          "q": "How is UV protection achieved with this pipe?",
+          "a": "A special, co-extruded black outer layer absorbs and blocks harmful UV radiation before it attacks the PP-R material."
+        },
+        {
+          "q": "Does the UV layer need to be removed before welding?",
+          "a": "No, since it is a homogeneous plastic layer, it is simply fused with the fitting during socket welding."
+        },
+        {
+          "q": "Is the outdoor service life limited?",
+          "a": "The UV protection layer prevents polymer degradation, ensuring the full service life of 50 years even in direct sunlight."
+        }
+      ]
+    },
+    "k-fiber-uv-pipe-pp-rct-sdr-74": {
+      "seo_p1": "The premium K-Fiber UV Pipe PPRCT SDR 7.4 combines all top features: high-performance material, fiber reinforcement, and integrated UV protection in a single product.",
+      "seo_p2": "Based on PPRCT for highest temperature resistance (up to 70°C at 1.0 MPa) and equipped with a UV-resistant shell, this SDR 7.4 pipe is the ultimate all-rounder for extreme conditions.",
+      "seo_p3": "Whether solar connection lines, cooling towers on industrial buildings, or demanding outdoor installations in hot climates, this pipe guarantees maximum service life without material fatigue.",
+      "faq": [
+        {
+          "q": "Does this pipe combine UV protection with higher flow capacity?",
+          "a": "Yes, thanks to the highly crystalline PPRCT material, a thinner wall thickness can be used while the UV layer provides extreme outdoor protection."
+        },
+        {
+          "q": "Are UV-resistant K Aqua fittings available?",
+          "a": "Fittings are usually protected by insulation, paint, or UV protection tapes, while the long pipe runs are factory-protected."
+        },
+        {
+          "q": "Is this pipe suitable for cooling towers?",
+          "a": "It is the optimal choice, as it permanently withstands both blazing sun and chemical additives in the cooling water."
+        }
+      ]
+    },
+    "cap": {
+      "seo_p1": "The Cap is an indispensable fitting within our fittings category, designed for the permanent and secure closure of pipe ends.",
+      "seo_p2": "Manufactured from high-quality PP-R material, the cap corresponds to the common SDR classes of the pipes and offers maximum pressure resistance and dimensional accuracy for a homogeneous weld.",
+      "seo_p3": "It is optimally suited for the final or temporary decommissioning of pipe sections in drinking water and heating networks, guaranteeing an absolutely leak-free and maintenance-free seal.",
+      "faq": [
+        {
+          "q": "Can the cap be used for a pressure test?",
+          "a": "Yes, after proper welding and cooling, the cap easily withstands the full test pressure of the system (up to 30 bar)."
+        },
+        {
+          "q": "How do I seal temporary lines?",
+          "a": "For temporary shut-offs, we recommend threaded plugs; the cap is homogeneously welded and is thus intended for permanent closure."
+        },
+        {
+          "q": "Is the cap leak-proof at all temperatures?",
+          "a": "Due to thermal fusion, there are no different expansion coefficients, which means it remains absolutely leak-free from 0°C to 95°C."
+        }
+      ]
+    },
+    "socket": {
+      "seo_p1": "The Socket is the fundamental connecting element of our fittings, developed for the simple and reliable extension of straight pipe sections.",
+      "seo_p2": "Made of robust PP-R, this fitting establishes a materially bonded and extremely pressure-resistant connection through socket welding, which is perfectly matched to our SDR pipe series.",
+      "seo_p3": "Whether in the private sanitary sector or in industrial plant construction, the socket ensures seamless flow without cross-sectional narrowing and prevents long-term pressure losses.",
+      "faq": [
+        {
+          "q": "How deep must the pipe be inserted into the socket?",
+          "a": "The insertion depth is exactly defined in our technical guidelines and should be marked on the pipe to avoid cross-sectional narrowing."
+        },
+        {
+          "q": "Can sockets also be used for fiber pipes?",
+          "a": "Yes, our standard sockets are fully compatible with all K Aqua PP-R, PPRCT, and fiber pipes."
+        },
+        {
+          "q": "Is there a risk of micro-leaks at the seam?",
+          "a": "No, because polyfusion creates a materially bonded, molecular connection that is as strong as the pipe itself."
+        }
+      ]
+    },
+    "elbow-45": {
+      "seo_p1": "The Elbow 45° allows gentle direction changes in the pipeline course and is one of our most frequently used fittings.",
+      "seo_p2": "Thanks to precise injection molding from durable PP-R, the elbow guarantees perfect compatibility with all K Aqua piping systems and withstands the highest system pressures.",
+      "seo_p3": "Particularly with complex pipe routings in narrow shafts or when bypassing obstacles, this 45-degree elbow effectively reduces flow resistance.",
+      "faq": [
+        {
+          "q": "When should I use a 45-degree instead of a 90-degree elbow?",
+          "a": "A 45-degree elbow significantly reduces pressure loss and flow resistance (Zeta value) in the system and prevents noise generation."
+        },
+        {
+          "q": "Are K Aqua elbows flow-optimised?",
+          "a": "Yes, the inner radii of our 45-degree elbows are extremely smooth and hydraulically optimised to prevent cavitation."
+        },
+        {
+          "q": "Can two 45-degree elbows be combined to form a 90-degree bend?",
+          "a": "Yes, this practice is often used with large dimensions to create wide bends and reduce pump resistance."
+        }
+      ]
+    },
+    "elbow-45-femalemale": {
+      "seo_p1": "The Elbow 45° Female/Male offers maximum flexibility in tight spaces and direct connection combinations.",
+      "seo_p2": "The PP-R fitting features a socket end and a spigot end, which allows direct welding to other fittings without an additional pipe piece.",
+      "seo_p3": "In compact manifold installations or when building narrow pre-wall systems, this component saves valuable assembly time and reduces the number of welds.",
+      "faq": [
+        {
+          "q": "Does a 90-degree elbow increase wear due to flow pressure?",
+          "a": "Thanks to the wall thickness reserves and the extremely smooth inner surfaces of the PP-R material, wear from abrasion is practically excluded."
+        },
+        {
+          "q": "Are there direction markings on the K Aqua elbows?",
+          "a": "Yes, our fittings often have production markings that help with exact axial alignment on the construction site."
+        },
+        {
+          "q": "Can the 90-degree elbow be used for riser pipes?",
+          "a": "Yes, it is ideal for branching lines off from shafts to the respective floor."
+        }
+      ]
+    },
+    "elbow-90": {
+      "seo_p1": "The Elbow 90° is the standard direction changer in our fittings range, designed for precise, right-angled branches.",
+      "seo_p2": "This dimensionally stable PP-R component is constructed to easily absorb the mechanical and thermal loads of the system and is compatible with all SDR levels.",
+      "seo_p3": "Perfect for corner installations and wall penetrations throughout building services engineering, it guarantees a tight and secure 90-degree bend without edges that disturb the flow.",
+      "faq": [
+        {
+          "q": "What does M/F (Male/Female) mean for this elbow?",
+          "a": "One side is welded as a socket, the other side can be directly welded into another fitting."
+        },
+        {
+          "q": "What is the advantage of the M/F construction?",
+          "a": "It saves space and avoids an additional pipe piece between two fittings, which is crucial in tight spaces."
+        },
+        {
+          "q": "Does this change the welding process?",
+          "a": "The process remains the same, only the male and female dies on the welding mirror are used simultaneously for the pipe and fitting."
+        }
+      ]
+    },
+    "elbow-90-femalemale": {
+      "seo_p1": "The Elbow 90° Female/Male is the solution for ultra-compact corner connections directly to other components.",
+      "seo_p2": "This intelligent PP-R fitting combines a regular socket end with an insertion end to seamlessly implement fitting-to-fitting welds.",
+      "seo_p3": "Especially when installing valves or heating circuit manifolds, this design significantly reduces space requirements and minimizes material and labour costs.",
+      "faq": [
+        {
+          "q": "Is the 45-degree M/F elbow suitable for parallel offsets?",
+          "a": "Yes, combined with a standard 45-degree elbow, extremely compact floor offsets can be realized."
+        },
+        {
+          "q": "Is the pressure resistance of the female/male connection just as high?",
+          "a": "The homogeneous polyfusion welding also ensures 100 percent pressure resistance (PN 25) at the joint here."
+        },
+        {
+          "q": "For which dimensions is this elbow available?",
+          "a": "It is typically produced for the common dimensions in floor distribution from 20 mm to 40 mm."
+        }
+      ]
+    },
+    "electrofusion-socket": {
+      "seo_p1": "The Electrofusion Socket is the premium solution for connections where conventional socket welding is not possible due to space constraints.",
+      "seo_p2": "Equipped with integrated heating wires made of a special alloy, this PP-R fitting automatically and computer-controlled fuses with the base pipe.",
+      "seo_p3": "Ideal for repair work in shafts, subsequent extensions, or extremely inaccessible areas, it offers a 100 percent secure and recordable connection.",
+      "faq": [
+        {
+          "q": "Does the pipe need to be peeled before electrofusion welding?",
+          "a": "Yes, removing the oxide layer using a special pipe peeler is absolutely necessary for flawless fusion."
+        },
+        {
+          "q": "Which welding machines can be used?",
+          "a": "K Aqua or universal electrofusion welding machines that can read the barcode on the socket must be used."
+        },
+        {
+          "q": "When is electrofusion welding better than heating element socket welding?",
+          "a": "Especially in confined spaces (e.g., in a shaft) where there is no room for the socket welding tool."
+        }
+      ]
+    },
+    "flange-adaptor": {
+      "seo_p1": "The Flange Adaptor serves as an essential connecting element to securely and detachably connect plastic pipes to metallic flanges or valves.",
+      "seo_p2": "The PP-R component is shaped to provide a perfect fit for backing flanges and evenly transfers the high contact pressure to the gasket.",
+      "seo_p3": "Indispensable in industrial pipeline construction and large distribution systems, the flange adaptor enables the safe transition to pumps, large valves, and steel systems.",
+      "faq": [
+        {
+          "q": "Which flange standards does the K Aqua flange adaptor support?",
+          "a": "It is compatible with standard DIN/EN flanges (e.g., PN10, PN16) and requires the appropriate K Aqua backing flange."
+        },
+        {
+          "q": "Do I need an additional gasket?",
+          "a": "Yes, a suitable EPDM flat gasket must be inserted between the PP-R flange adaptor and the counter flange."
+        },
+        {
+          "q": "How is the flange adaptor connected to the pipe?",
+          "a": "It is welded directly onto the pipe or into a socket like a conventional fitting using heating element socket welding."
+        }
+      ]
+    },
+    "reducing-bush": {
+      "seo_p1": "The Reducing Bush enables a seamless transition between different pipe dimensions within our fittings family.",
+      "seo_p2": "Manufactured from high-strength PP-R, this reducer is designed to optimise flow and avoid cavitation at the cross-sectional change.",
+      "seo_p3": "It is frequently used to taper main lines into smaller supply branches, reducing material costs and precisely balancing network pressure.",
+      "faq": [
+        {
+          "q": "Can I skip several dimensions at once?",
+          "a": "Yes, we offer reducers that achieve multi-stage cross-sectional narrowing in one component, e.g., from 63 mm to 32 mm."
+        },
+        {
+          "q": "Is the reducing bush welded into or onto the pipe?",
+          "a": "The reducer is usually designed as a male/female (M/F) fitting: the large side fits into a socket, the small side accepts the pipe."
+        },
+        {
+          "q": "Does the reduction affect the operating pressure?",
+          "a": "No, the wall thicknesses of the K Aqua reducers are dimensioned to match the nominal pressure of the overall system (up to PN 25)."
+        }
+      ]
+    },
+    "reducing-tee": {
+      "seo_p1": "The Reducing Tee combines a 90-degree branch with a simultaneous cross-sectional reduction in the branch.",
+      "seo_p2": "This multifunctional PP-R fitting offers maximum stability and pressure resistance due to its monolithic design, suitable for all standard SDR applications.",
+      "seo_p3": "In the floor distribution of drinking and heating water, the reducing tee ensures an efficient setup without additional reducers, which significantly speeds up installation.",
+      "faq": [
+        {
+          "q": "When do I use a reducing tee instead of a standard tee with a reducer?",
+          "a": "A reducing tee saves an additional weld seam and reduces installation space, making it more efficient and safer."
+        },
+        {
+          "q": "Is the branch always the reduced side?",
+          "a": "Mostly yes, since smaller branches are typically led from the main line to the consumers."
+        },
+        {
+          "q": "Can these tees cause flow noise?",
+          "a": "No, the inner radii are hydraulically optimised to minimize turbulence and cavitation noise during cross-sectional changes."
+        }
+      ]
+    },
+    "reducing-tee-large-sizes": {
+      "seo_p1": "The Reducing Tee Large Sizes is specially designed for industrial main lines with large cross-sections.",
+      "seo_p2": "This massive PP-R component withstands extreme volume flows and system pressures and enables a safe, reduced branch from large supply lines.",
+      "seo_p3": "Often used in district cooling networks and main risers, this fitting guarantees absolute stability and permanent leak-tightness under the highest loads.",
+      "faq": [
+        {
+          "q": "What special tools are needed for installation?",
+          "a": "An exact hole milling requires a special K Aqua tapping drill, as well as a saddle welding tool for heating."
+        },
+        {
+          "q": "Can a saddle be mounted on a pressurized pipe?",
+          "a": "No, the piping system must be completely emptied and depressurized before tapping and welding takes place."
+        },
+        {
+          "q": "Is the saddle connection as strong as a tee?",
+          "a": "Yes, through the deep polyfusion welding on the pipe wall, the saddle branch achieves the same pressure rating as the base pipe."
+        }
+      ]
+    }
+  }
+}

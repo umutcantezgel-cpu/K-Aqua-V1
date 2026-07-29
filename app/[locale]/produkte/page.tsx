@@ -70,10 +70,10 @@ export default async function ProduktePage({ params }: Props) {
   const meta = tPages.raw("products") as string[];
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['products', 'catalog'])}>
+    <NextIntlClientProvider messages={pick(messages, ['products', 'catalog', 'productsx', 'catalogx'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
-      <h1 className="sr-only">{tProducts("pageTitle")}</h1>
+      <h1 className="sr-only">{tProducts("title1")}</h1>
       <div className="sr-only" aria-hidden="true">{meta[0]}</div>
 
       {/* 5. Legacy Range System & Data Tables (Original Requirement) */}

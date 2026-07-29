@@ -1,0 +1,54 @@
+  "rfq": {
+    "eyebrow": "RFQ",
+    "title1": "Minta",
+    "titleGrad": "Sebut Harga.",
+    "lead": "Minta sebut harga projek anda.",
+    "steps": [
+      "Langkah"
+    ],
+    "types": [
+      {
+        "t": "Jenis",
+        "d": "Deskripsi"
+      }
+    ],
+    "fType": "Jenis",
+    "fDims": "Dimensi",
+    "fMeters": "Panjang",
+    "dimsHint": "Petunjuk",
+    "fTime": "Masa",
+    "fRegion": "Wilayah",
+    "timelines": [
+      "Masa"
+    ],
+    "regions": [
+      "Wilayah"
+    ],
+    "fName": "Nama",
+    "fCompany": "Syarikat",
+    "fEmail": "Emel",
+    "fPhone": "Telefon",
+    "fMsg": "Mesej",
+    "privacy": "Privasi",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "send": "Hantar",
+    "mailSubject": "Subjek",
+    "promise": [
+      "Janji"
+    ],
+    "doneTitle": "Selesai",
+    "doneText": "Terima kasih",
+    "doneBack": "Kembali",
+    "infoTitle": "Maklumat",
+    "infoText1": "Maklumat",
+    "infoText2": "Maklumat 2",
+    "faqTitle": "Soalan Lazim",
+    "faqs": [
+      {
+        "q": "Soalan",
+        "a": "Jawapan"
+      }
+    ]
+  }
+}

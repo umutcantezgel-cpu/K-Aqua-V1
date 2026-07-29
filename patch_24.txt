@@ -1,0 +1,120 @@
+,
+  "__resources": {
+    "bim": {
+      "title": "BIM Data",
+      "metaDesc": "K-Aqua BIM Data: Streamline your architectural design with our comprehensive CAD models and Revit files for German-engineered systems.",
+      "sticky": {
+        "items": [
+          {
+            "title": "Maximum Data Depth (LOI 500)",
+            "desc": "Our BIM models offer not only a high-precision geometric representation (LOD) but above all an unsurpassed depth of information (LOI). Every pipe, every fitting, and every valve contains all critical metadata: material specifications, pressure ratings, thermal expansion coefficients, and exact article numbers for automated tendering."
+          },
+          {
+            "title": "Collision-Free Planning",
+            "desc": "In billion-dollar projects, clash detection is non-negotiable. Our native Revit and IFC files guarantee seamless integration into your Navisworks or Solibri. The exact outer diameters including weld seam tolerances prevent costly surprises on the construction site."
+          },
+          {
+            "title": "Parametric Intelligence",
+            "desc": "K Aqua BIM families are fully parametric. They dynamically adapt to pipe routing, gradients, and dimensions. The integrated auto-routing automatically selects the correct reducers and elbow angles according to the strict specifications of DIN EN ISO 15874."
+          },
+          {
+            "title": "Lifecycle & Facility Management",
+            "desc": "The digital twin does not end with the building handover. Our BIM objects are COBie-compatible and provide Facility Management with all necessary maintenance intervals, certificates, and operating data for a safe lifecycle of over 50 years."
+          }
+        ],
+        "eyebrow": "Workflow Excellence",
+        "title": "Digital Twins in Perfection.",
+        "lead": "An insight into the depth of data that eliminates the difference between planning and reality."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Conception & MEP Planning",
+            "text": "Integration of K Aqua basic geometries in the early design phase. Rapid quantity takeoff and initial clash detection for the routing concept in the MEP master plan."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Execution Planning",
+            "text": "Transition to LOI 400. The exact specifications, flow velocities, and pressure loss calculations flow directly into the hydraulic network calculation of the building."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Tendering & Awarding",
+            "text": "Automated generation of error-free Bills of Materials (BOM) directly from the model. Every fitting is stored with the K Aqua article number and VDI 3805 data."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Prefabrication & Assembly",
+            "text": "Export of isometric drawings for industrial prefabrication. Millimeter-precise spool drawings minimize welding work on the construction site to an absolute minimum."
+          },
+          {
+            "year": "Phase 5",
+            "title": "As-Built & Operation",
+            "text": "Handover of the as-built model. The digital twin serves as a Single Source of Truth for Facility Management throughout the entire lifecycle of the building."
+          }
+        ],
+        "title": "The Lifecycle of K Aqua BIM Data",
+        "desc": "From the first sketch to decades of operation. Our data accompanies your project in every phase."
+      },
+      "hero": {
+        "desc": "This module provides uncompromising safety for the most demanding projects worldwide. Manufactured according to the strictest industrial standards to outlast generations. Download the digital twin where material failure is not an option.",
+        "btnPrimary": "BIM Library (Revit/IFC)",
+        "btnGhost": "Request BIM Consulting"
+      },
+      "intro": {
+        "title1": "The DNA of our piping systems.",
+        "title2": "Now in the cloud.",
+        "p1": "We don't see BIM as a mere 3D drawing. For K Aqua, Building Information Modeling is the transfer of our uncompromising manufacturing precision into the digital space. When international general contractors plan skyscrapers, data centres, or high-security labouratories, they do not need estimated values, they need physical reality in the form of data.",
+        "p2": "Our data sets are the result of decades of German engineering. Every wall thickness, every flow dynamic, and every thermal property has been validated by our engineers and translated natively into the families."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Native Revit® Families",
+            "desc": "No conversion losses. Programmemed directly as .rfa and .rvt for highest performance and native routing preferences."
+          },
+          {
+            "title": "VDI 3805 Conformity",
+            "desc": "Standardized product data for smooth data exchange throughout the entire MEP chain."
+          },
+          {
+            "title": "IFC4 Certification",
+            "desc": "Maximum interoperability through open BIM standards (OpenBIM). Guaranteed readable in ArchiCAD, Allplan, and Vectorworks."
+          },
+          {
+            "title": "Exact Thermal Data",
+            "desc": "Integrated calculation models for linear expansion, thermal conductivity (0.24 W/mK), and pipe friction pressure gradient."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Download the K Aqua BIM Package.",
+        "desc": "Full access to all native Revit families, IFC files, and VDI 3805 data sets. Free for planners and engineers.",
+        "btnPrimary": "To the Download Centre",
+        "btnOutline": "Contact BIM Manager"
+      }
+    },
+    "common": {
+      "eyebrow": "K Aqua RESOURCE",
+      "subtitle": "Engineered in Germany.",
+      "lead": "This module provides uncompromising safety for the most demanding projects worldwide. Manufactured according to the strictest industrial standards to outlast generations. Where material failure is not an option.",
+      "btnProject": "Request project",
+      "btnData": "Technical data",
+      "valEyebrow": "German Engineering",
+      "valTitle": "Safety without compromise.",
+      "valLead": "When international general contractors plan billion-dollar projects, they don't rely on promises, but on hard facts.",
+      "valCardTitle": "Value proposition 0{item}",
+      "valCardDesc": "Every element leaves our factory with absolute zero defect tolerance. Precision engineered to the strictest German standards for 100% freedom from maintenance.",
+      "authTitle": "The industrial authority for {module}.",
+      "authP1": "For decades, we have been combining artisanal pride with state-of-the-art, highly automated manufacturing technology in our main plant in the heart of Germany.",
+      "authP2": "Deployed in the harshest deserts and extreme climates of the world, our material proves itself anew every day. We set the standard that the rest of the world follows.",
+      "list1": "Tested according to DIN EN ISO 15874",
+      "list2": "Lifespan > 50 years",
+      "list3": "Maintenance-free & corrosion-resistant",
+      "placeholder": "Visual Asset Placeholder",
+      "ctaTitle": "Ready for uncompromising quality?",
+      "ctaLead": "Talk to our engineering team about your next megaproject."
+    }
+  }
+}

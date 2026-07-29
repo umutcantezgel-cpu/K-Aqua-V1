@@ -1,0 +1,171 @@
+{
+  "academy": {
+    "schulungen": {
+      "meta": { "title": "Latihan", "desc": "Program latihan K-Aqua." },
+      "hero": { "eyebrow": "LATIHAN", "title1": "AKADEMI", "title2": "K-AQUA", "desc": "Pusat kecemerlangan untuk teknologi plastik.", "cta1": "Ketahui Lebih Lanjut", "cta2": "Hubungi Kami" },
+      "manifesto": { "title1": "PENGETAHUAN ADALAH", "title2": "KUASA", "title3": "DAN KESELAMATAN.", "p1": "Kami berkongsi kepakaran kami.", "p2": "Latihan praktikal untuk profesional." },
+      "bento": {
+        "eyebrow": "MODUL PRAKTIKAL",
+        "title": "BENGKEL",
+        "lead": "Fokus pada kemahiran praktikal.",
+        "items": [
+          { "title": "Kimpalan Polimer", "desc": "Kimpalan soket dan pengelektrokimpalan." },
+          { "title": "Analisis Pemusnahan", "desc": "Ujian letupan tekanan tinggi." },
+          { "title": "Pengembangan Terma", "desc": "Pampasan sistem pengembangan." },
+          { "title": "Kestabilan pH", "desc": "Rintangan kimia industri." }
+        ]
+      },
+      "typography": { "t1": "TEKNOLOGI", "t2": "BAHAN" },
+      "curriculum": { "eyebrow": "KURIKULUM", "title": "MODUL LATIHAN", "lead": "Direka untuk jurutera dan pemasang." },
+      "sticky": {
+        "items": [
+          { "title": "Asas Bahan", "desc": "Pemahaman tentang PP-R dan PPRCT." },
+          { "title": "Teknik Pemasangan", "desc": "Prosedur kimpalan standard." },
+          { "title": "Kawalan Kualiti", "desc": "Pemeriksaan visual dan ujian tekanan." },
+          { "title": "Penyelesaian Masalah", "desc": "Menganalisis kerosakan sistem." }
+        ]
+      },
+      "timeline": {
+        "title": "JADUAL LATIHAN",
+        "desc": "Struktur kursus kami.",
+        "items": [
+          { "year": "Hari 1", "title": "Teori Asas", "text": "Pengenalan kepada termoplastik." },
+          { "year": "Hari 2", "title": "Latihan Praktikal", "text": "Latihan kimpalan tangan." },
+          { "year": "Hari 3", "title": "Aplikasi Lanjutan", "text": "Sistem industri yang kompleks." },
+          { "year": "Hari 4", "title": "Ujian", "text": "Penilaian kemahiran." },
+          { "year": "Sijil", "title": "Pentauliahan", "text": "Penyampaian sijil rasmi." }
+        ]
+      },
+      "spec": {
+        "eyebrow": "SPESIFIKASI",
+        "title": "BUTIRAN KURSUS",
+        "desc": "Maklumat lengkap tentang pendaftaran.",
+        "items": [
+          { "title": "Peserta", "text": "Pemasang, jurutera, pengurus." },
+          { "title": "Kapasiti", "text": "Maksimum 15 orang." },
+          { "title": "Lokasi", "text": "Pusat Latihan K-Aqua." }
+        ]
+      },
+      "cta": { "title1": "TINGKATKAN", "title2": "KEMAHIRAN ANDA", "desc": "Daftar sekarang.", "button": "Daftar" }
+    },
+    "zertifizierung": {
+      "meta": { "title": "Pensijilan", "desc": "Sijil K-Aqua." },
+      "hero": { "eyebrow": "PENSIJILAN", "title1": "KUALITI", "title2": "DISAHKAN", "desc": "Piawaian tertinggi dalam industri.", "cta1": "Lihat Sijil", "cta2": "Audit" },
+      "manifesto": { "title1": "KEPERCAYAAN", "title2": "MEMERLUKAN BUKTI", "p1": "Setiap komponen mematuhi ISO." },
+      "bento": {
+        "eyebrow": "MAKMAL",
+        "title": "UJIAN TEGAR",
+        "lead": "Proses pensijilan dalaman.",
+        "items": [
+          { "title": "Ujian Tekanan", "desc": "Ketahanan hidraulik." },
+          { "title": "Kitaran Terma", "desc": "Pemanasan dan penyejukan ekstrem." },
+          { "title": "Rintangan Kimia", "desc": "Ujian hakisan asid." },
+          { "title": "Ketulenan Air", "desc": "Kesesuaian air minuman." },
+          { "title": "Pemeriksaan Geometri", "desc": "Toleransi saiz mikrometer." }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "GLOBAL",
+        "title": "SIJIL ANTARABANGSA",
+        "lead": "Diiktiraf di seluruh dunia.",
+        "items": [
+          { "title": "ISO 9001", "p1": "Sistem Pengurusan", "p2": "Kualiti yang terjamin." },
+          { "title": "DVGW", "p1": "Standard Jerman", "p2": "Air dan Gas." },
+          { "title": "SKZ", "p1": "Pusat Plastik", "p2": "Kualiti bahan." },
+          { "title": "KIWA", "p1": "Eropah", "p2": "Pensijilan am." }
+        ]
+      },
+      "lab": {
+        "eyebrow": "TEKNOLOGI",
+        "title1": "MAKMAL",
+        "title2": "INOVASI",
+        "desc": "Fasiliti ujian terkini.",
+        "items": [
+          { "title": "Spektrometer", "desc": "Analisis komposisi." },
+          { "title": "Mikroskop", "desc": "Struktur polimer." },
+          { "title": "Mesin Ujian", "desc": "Kekuatan tegangan." }
+        ]
+      },
+      "timeline": {
+        "title": "PROSES AUDIT",
+        "desc": "Langkah-langkah pemeriksaan.",
+        "items": [
+          { "year": "Langkah 1", "title": "Bahan Mentah", "text": "Pemeriksaan resin PP-R." },
+          { "year": "Langkah 2", "title": "Penyemperitan", "text": "Pemantauan masa nyata." },
+          { "year": "Langkah 3", "title": "Penyejukan", "text": "Penstabilan terma." },
+          { "year": "Langkah 4", "title": "Ujian Makmal", "text": "Pensampelan rawak." },
+          { "year": "Langkah 5", "title": "Pelepasan", "text": "Kelulusan kualiti akhir." }
+        ]
+      },
+      "cta": { "title": "MUAT TURUN SIJIL", "desc": "Dapatkan fail PDF.", "button1": "Muat Turun", "button2": "Hubungi" }
+    },
+    "glossar": {
+      "meta": { "title": "Glosari", "desc": "Glosari teknikal K-Aqua." },
+      "hero": { "eyebrow": "GLOSARI", "title1": "ISTILAH", "title2": "TEKNIKAL", "desc": "Pangkalan data pengetahuan.", "cta1": "Mula Mencari", "cta2": "Indeks" },
+      "manifesto": { "eyebrow": "DEFINISI", "title": "JELAS", "lead": "Bahasa kejuruteraan yang tepat." },
+      "scroll": {
+        "eyebrow": "INDEKS A-Z",
+        "title": "CARI",
+        "lead": "Istilah penting.",
+        "items": [
+          { "title": "PP-R", "desc": "Polypropylene Random Copolymer." },
+          { "title": "SDR", "desc": "Standard Dimension Ratio." },
+          { "title": "PN", "desc": "Nominal Pressure." },
+          { "title": "LCA", "desc": "Life Cycle Assessment." }
+        ]
+      },
+      "bento": {
+        "eyebrow": "KONSEP KUNCI",
+        "title": "TEKNOLOGI",
+        "lead": "Prinsip reka bentuk sistem paip.",
+        "items": [
+          { "title": "Kimpalan Homogen", "desc": "Penyatuan bahan pada tahap molekul." },
+          { "title": "Kekasaran Permukaan", "desc": "Aliran bendalir yang lancar." },
+          { "title": "Hakisan Kavitasi", "desc": "Rintangan tekanan." },
+          { "title": "Dezincification", "desc": "Rintangan tembaga kepada pengakisan." },
+          { "title": "Kestabilan UV", "desc": "Perlindungan sinaran matahari." }
+        ]
+      },
+      "timeline": {
+        "title": "EVOLUSI",
+        "desc": "Sejarah teknologi paip.",
+        "items": [
+          { "year": "1980-an", "title": "Generasi Awal", "text": "Penggunaan PP-R." },
+          { "year": "2000-an", "title": "Komposit", "text": "Paip tetulang gentian kaca." },
+          { "year": "2010-an", "title": "PPRCT", "text": "Rintangan suhu yang lebih tinggi." },
+          { "year": "Kini", "title": "Sistem Pintar", "text": "Pengilangan industri 4.0." }
+        ]
+      },
+      "conclusion": { "title": "RUMUSAN", "p1": "Pengetahuan adalah kunci kejayaan.", "p2": "Terus belajar.", "p3": "Inovasi berterusan.", "p4": "Sertai akademi kami." },
+      "cta": { "title1": "SOALAN?", "title2": "TANYA KAMI", "desc": "Jurutera kami sedia membantu.", "button": "Hubungi" }
+    },
+    "eyebrow": "AKADEMI",
+    "title1": "PUSAT PENGETAHUAN",
+    "titleGrad": "K-AQUA",
+    "lead": "Sumber maklumat dan kepakaran paip plastik.",
+    "videos": [
+      { "t": "Pengenalan Kimpalan", "s": "Video 1" },
+      { "t": "Teknik Lanjutan", "s": "Video 2" },
+      { "t": "Kimpalan Elektrofusi", "s": "Video 3" },
+      { "t": "Penyelenggaraan", "s": "Video 4" }
+    ],
+    "quizEyebrow": "KUIZ",
+    "quizTitle": "UJI KEMAHIRAN ANDA",
+    "intro": "Buktikan kepakaran teknikal anda.",
+    "start": "Mula Kuiz",
+    "qLabel": "Soalan",
+    "quiz": [
+      { "q": "Apakah maksud PP-R?", "o": ["Polypropylene Random Copolymer", "Polyvinyl Chloride", "Polyethylene"] },
+      { "q": "Apakah suhu kimpalan ideal?", "o": ["260°C", "150°C", "300°C"] },
+      { "q": "Kelebihan utama paip PP-R?", "o": ["Tiada kakisan", "Ringan", "Mudah dikimpal"] },
+      { "q": "SDR bermaksud?", "o": ["Standard Dimension Ratio", "System Data Rate", "Safe Design Rule"] },
+      { "q": "Adakah K-Aqua bebas plumbum?", "o": ["Ya, 100%", "Hanya model tertentu", "Tidak"] }
+    ],
+    "resPerfect": "Sempurna! Anda seorang pakar.",
+    "resGood": "Bagus! Pengetahuan yang mantap.",
+    "resLow": "Banyak yang perlu dipelajari. Cuba lagi.",
+    "retry": "Cuba Lagi",
+    "titlePerfect": "Pakar K-Aqua",
+    "titleGood": "Jurutera K-Aqua"
+  }
+}

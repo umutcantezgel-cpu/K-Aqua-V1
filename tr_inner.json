@@ -1,0 +1,200 @@
+  "refs": {
+    "eyebrow": "Rujukan",
+    "title1": "Glob",
+    "titleGrad": "Projek.",
+    "lead": "Pusingkan glob dan lihat projek kami di seluruh dunia.",
+    "canvasAria": "Glob interaktif dengan projek rujukan",
+    "note": "Nota: Nama projek dan butiran akan dikemas kini kelak.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Jerman",
+        "d": "Pusat pembangunan dan pengeluaran paip K-Aqua."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, UAE",
+        "d": "Sistem air panas PPRCT untuk bangunan tinggi di padang pasir."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warsaw, Poland",
+        "d": "Pemasangan air minuman untuk bangunan kediaman."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Turki",
+        "d": "Sistem peredaran paip komposit untuk kompleks hotel."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapura",
+        "d": "Projek infrastruktur berskala besar."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cape Town, Afrika Selatan",
+        "d": "Sistem agihan air yang bersih untuk hospital."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Penggantian paip pejabat dengan paip bebas karat."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Untuk Perancang & Pembeli",
+    "title1": "Maklumat untuk",
+    "titleGrad": "Pembeli.",
+    "lead": "Dapatkan maklumat tepat yang anda perlukan untuk projek anda.",
+    "personas": [
+      {
+        "t": "Jurutera Perancang",
+        "d": "Data teknikal, jadual SDR dan sijil CO2 untuk projek.",
+        "cta": "Lihat Data Teknikal",
+        "goto": "products"
+      },
+      {
+        "t": "Pembeli & Logistik",
+        "d": "Penghantaran terus dari kilang dan perancangan yang mudah.",
+        "cta": "Mula Pertanyaan Projek",
+        "goto": "rfq"
+      },
+      {
+        "t": "Pemasang",
+        "d": "Panduan kimpalan dan maklumat keselamatan pemasangan.",
+        "cta": "Ke Akademi",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Kenapa K Aqua",
+    "whyTitle": "Sebab utama memilih kami.",
+    "why": [
+      {
+        "t": "Rintangan Tekanan & Haba",
+        "d": "PPRCT memberikan rintangan tekanan dan suhu yang lebih tinggi."
+      },
+      {
+        "t": "Bebas Kakisan",
+        "d": "Tiada karat berbanding paip logam tradisional."
+      },
+      {
+        "t": "Mesra Alam",
+        "d": "Boleh dikitar semula dengan jejak karbon yang rendah."
+      },
+      {
+        "t": "Satu Pembekal",
+        "d": "Sistem lengkap terus dari pengeluar."
+      }
+    ],
+    "promise": [
+      "Terus dari kilang",
+      "Maklum balas < 24 jam",
+      "Tanpa komitmen"
+    ],
+    "ctaAll": "Hantar Pertanyaan Projek"
+  },
+  "rfq": {
+    "eyebrow": "Pertanyaan Projek",
+    "title1": "Projek anda,",
+    "titleGrad": "Tawaran kami.",
+    "lead": "Lengkapkan borang dalam 4 langkah mudah. Kami akan menghubungi anda segera.",
+    "steps": [
+      "Jenis",
+      "Keperluan",
+      "Masa & Rantau",
+      "Kenalan"
+    ],
+    "types": [
+      {
+        "t": "Pembinaan Baru",
+        "d": "Sistem air untuk bangunan komersial atau kediaman."
+      },
+      {
+        "t": "Infrastruktur",
+        "d": "Sistem bekalan berskala besar."
+      },
+      {
+        "t": "Pengubahsuaian",
+        "d": "Menggantikan paip logam lama."
+      },
+      {
+        "t": "Perdagangan",
+        "d": "Pengedaran atau stokis."
+      }
+    ],
+    "fType": "Jenis Projek",
+    "fDims": "Dimensi",
+    "fMeters": "Panjang",
+    "dimsHint": "Anggaran kasar sudah memadai.",
+    "fTime": "Garis Masa",
+    "fRegion": "Rantau",
+    "timelines": [
+      "Segera",
+      "1-3 Bulan",
+      "3-6 Bulan",
+      "Fasa Perancangan"
+    ],
+    "regions": [
+      "Jerman",
+      "Eropah",
+      "Timur Tengah",
+      "Asia",
+      "Global"
+    ],
+    "fName": "Nama",
+    "fCompany": "Syarikat",
+    "fEmail": "E-Mel",
+    "fPhone": "Telefon",
+    "fMsg": "Mesej",
+    "privacy": "Data anda selamat.",
+    "back": "Kembali",
+    "next": "Seterusnya",
+    "send": "Hantar Pertanyaan",
+    "mailSubject": "Pertanyaan Projek K Aqua",
+    "promise": [
+      "Maklum balas cepat",
+      "Tanpa komitmen",
+      "Sokongan terus"
+    ],
+    "doneTitle": "Hampir Selesai.",
+    "doneText": "Sila hantar e-mel yang telah diisi secara automatik.",
+    "doneBack": "Kembali ke Laman Utama",
+    "infoTitle": "Mengenai Pertanyaan Projek",
+    "infoText1": "Gunakan borang ini untuk merancang projek anda bersama pakar kami.",
+    "infoText2": "Kami akan menyediakan tawaran terperinci berdasarkan keperluan anda.",
+    "faqTitle": "Soalan Lazim",
+    "faqs": [
+      {
+        "q": "Adakah pertanyaan ini berbayar?",
+        "a": "Tidak, ia adalah percuma dan tanpa komitmen."
+      },
+      {
+        "q": "Apa yang berlaku seterusnya?",
+        "a": "Wakil jualan kami akan menghubungi anda dalam masa 24 jam."
+      },
+      {
+        "q": "Bolehkah saya beli secara peribadi?",
+        "a": "Kami fokus kepada B2B. Pelanggan peribadi akan dirujuk kepada rakan kongsi kami."
+      },
+      {
+        "q": "Adakah data saya selamat?",
+        "a": "Ya, kami tidak menyimpan data pada pelayan."
+      }
+    ]
+  }

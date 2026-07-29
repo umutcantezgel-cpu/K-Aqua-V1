@@ -1173,5 +1173,1409 @@
     "nextTitle": "Rejalashtirishingiz qanchalik iqlimga mos?",
     "nextLead": "O'lcham va uzunlikni to'g'ridan-to'g'ri CO₂ kalkulyatoriga o'tkazing va uni mis, zanglamaydigan po'lat va PVX bilan taqqoslang.",
     "nextCta": "CO₂ kalkulyatoriga"
+  },
+  "catalogx": {
+    "eyebrow": "To'liq mahsulotlar katalogi",
+    "faqTitle": "Ko'p so'raladigan savollar",
+    "title": "Barcha 79 ta mahsulot oilasi, haqiqiy mahsulot raqamlari bilan.",
+    "lead": "Quvurlar, qismlar, o'tish armaturalari, klapanlar, payvandlash egarlari, aksessuarlar va asboblar; har bir qator rasmiy K Aqua katalogidan olingan. Toifani tanlang, mahsulotni oching, mahsulot raqamini tekshiring.",
+    "searchPlaceholder": "Mahsulot raqami yoki nomini qidiring, masalan: „AQ200P20\" yoki „Elbow\"",
+    "noResults": "Hech narsa topilmadi. Qidiruvni o'zgartiring yoki boshqa toifani tanlang.",
+    "codesLabel": "Mahsulot raqamlari",
+    "sizesLabel": "O'lchamlari",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Seriya",
+    "pressureLabel": "Ish bosimi",
+    "lenLabel": "Tayanch uzunligi",
+    "cats": {
+      "pipes": {
+        "label": "Quvurlar",
+        "desc": "PPR va PPRCT quvurlari: Standart, shisha tolali va UV-himoyalangan, 12 ta seriya."
+      },
+      "fittings": {
+        "label": "Qismlar",
+        "desc": "Mufali va elektr payvandlash qismlari, d20–d125, 13 ta mahsulot oilasi."
+      },
+      "transitionFittings": {
+        "label": "O'tish armaturalari",
+        "desc": "Mavjud ulanishlar va klapanlar uchun rezbali va latun o'tish qismlari, 13 ta oila."
+      },
+      "valves": {
+        "label": "Klapanlar",
+        "desc": "Sharli klapanlar, yashirin ventillar, taqsimlagichlar, 9 ta mahsulot oilasi."
+      },
+      "weldInSaddles": {
+        "label": "Payvandlash egarlari",
+        "desc": "Quvurni kesmasdan shoxchalar ochish, rezbali va rezbasiz, 3 ta oila."
+      },
+      "accessories": {
+        "label": "Aksessuarlar",
+        "desc": "Quvur qisqichlari, flanetslar, qistirmalar, tiqinlar: 5 ta mahsulot oilasi."
+      },
+      "tools": {
+        "label": "Asboblar",
+        "desc": "Quvur kesgichlar, barcha to'rtta ulash usuli uchun payvandlash uskunalari va asbob-uskunalar, 14 ta oila."
+      }
+    },
+    "rfq": {
+      "title": "Loyiha so'rovi",
+      "desc": "<span class=\"font-semibold\">{title}</span> uchun to'g'ridan-to'g'ri taklif so'rang.",
+      "button": "So'rov yuborish"
+    },
+    "similar": {
+      "title": "{category} bo'yicha boshqa mahsulotlar"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "K Aqua quvurlari (SDR 6) yuqori bosimli ichimlik suvi tizimlari uchun mo'ljallangan va xalqaro sanitariya standartlariga to'liq javob beradi.",
+        "seo_p2": "Qalin devorli konstruksiya barqarorlikni ta'minlaydi va tebranishlarni kamaytiradi, bu esa sanoat sharoitlarida uzoq muddatli foydalanish imkonini beradi.",
+        "seo_p3": "Quvurning ichki yuzasi juda silliq bo'lib, bu kalk yoki boshqa cho'kmalarning paydo bo'lishiga yo'l qo'ymaydi va suvning maksimal tezlikda oqishiga imkon beradi.",
+        "faq": [
+          {
+            "q": "SDR 6 ning eng yuqori bosimi qancha?",
+            "a": "SDR 6 quvurlari 20°C haroratda 25 bar (2.5 MPa) bosimgacha xavfsiz ishlash imkonini beradi."
+          },
+          {
+            "q": "SDR 6 ni isitish tizimlarida ham ishlatsa bo'ladimi?",
+            "a": "Ha, SDR 6 quvurlari yuqori bosim va haroratga chidamli bo'lib, markaziy isitish tizimlari uchun ham mos keladi."
+          },
+          {
+            "q": "Bu quvurlar kimyoviy moddalarga qanchalik chidamli?",
+            "a": "PP-R materiali kimyoviy jihatdan juda barqaror va aksariyat sanoat suyuqliklariga chidamli."
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "SDR 7.4 (PPRCT) quvurlari yupqaroq devorlari bilan ko'proq suv oqimini ta'minlab, bosimni mukammal darajada ushlab turadi.",
+        "seo_p2": "PPRCT materialining takomillashtirilgan kristalli tuzilishi yuqori haroratlarda ham mustahkamlikni saqlab qolishga yordam beradi.",
+        "seo_p3": "Katta obyektlar, jumladan shifoxona va mehmonxonalar uchun mos keluvchi bu quvur og'irligi yengilligi sababli o'rnatish ishlarini osonlashtiradi.",
+        "faq": [
+          {
+            "q": "PPRCT va PP-R ning asosiy farqi nima?",
+            "a": "PPRCT (Type 4) yuqori haroratga bardoshliroq bo'lib, devor qalinligini kamaytirish imkonini beradi va oqimni oshiradi."
+          },
+          {
+            "q": "SDR 7.4 o'rnatish vaqtini tejaydimi?",
+            "a": "Ha, quvur yengil bo'lgani sababli transport va o'rnatish tezlashadi."
+          },
+          {
+            "q": "Bu quvurlar issiq suvga qanchalik mos?",
+            "a": "PPRCT ayniqsa 70°C gacha bo'lgan issiq suv va isitish tizimlarida uzoq muddat barqaror ishlash uchun mo'ljallangan."
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "K-pipe SDR 11 sovuq suv ta'minoti va konditsioner tizimlari uchun ideal yechim hisoblanadi.",
+        "seo_p2": "Yupqaroq devori va katta ichki diametri yuqori sig'imdagi suv oqimini past bosim yo'qotishi bilan ta'minlaydi.",
+        "seo_p3": "Metall quvurlarga qaraganda yengil, korroziyaga uchramaydi va past xarajatlar evaziga tez o'rnatiladi.",
+        "faq": [
+          {
+            "q": "SDR 11 ni issiq suv uchun ishlatsa bo'ladimi?",
+            "a": "Bu quvur asosan sovuq suv (20°C gacha, 16 bar) va konditsioner tizimlari uchun mo'ljallangan."
+          },
+          {
+            "q": "Korroziya xavfi bormi?",
+            "a": "Yo'q, 100% plastik bo'lgani uchun hecham zanglamaydi."
+          },
+          {
+            "q": "SDR 11 quvurlarini qanday ulash mumkin?",
+            "a": "Barcha PP-R quvurlari kabi payvandlash orqali ulanadi va mustahkam tutashuvni ta'minlaydi."
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "Binafsharang PP-R quvurlari yomg'ir suvi va qayta ishlangan suv tarmoqlarini ichimlik suvi tarmoqlaridan farqlash uchun maxsus rangga ega.",
+        "seo_p2": "Ushbu quvur sanoat yoki sug'orish maqsadlarida qayta ishlatiladigan suv tizimlarida xavfsizlikni oshiradi va xato ulanishlarning oldini oladi.",
+        "seo_p3": "SDR 11 standarti qalinligi yomg'ir suvini yig'ish tizimlarida ishonchli, arzon va chidamli xizmat qilishini kafolatlaydi.",
+        "faq": [
+          {
+            "q": "Nima uchun quvur rangi binafsha?",
+            "a": "Binafsha rang xalqaro miqyosda texnik va qayta ishlangan suv (non-potable) ekanligini bildiradi."
+          },
+          {
+            "q": "Ushbu quvurning xususiyatlari standart PP-R dan farq qiladimi?",
+            "a": "Yo'q, fizik va kimyoviy xususiyatlari odatiy PP-R SDR 11 bilan bir xil."
+          },
+          {
+            "q": "Buni ochiq havoda ham ishlatish mumkinmi?",
+            "a": "Ochiq havoda UV (ultrabinafsha) nurlardan himoya qoplamasi bo'lmasa, uni yopiq joylarda ishlatish tavsiya etiladi."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "K-Fiber Pipe PPRCT SDR 7.4 bu eng zamonaviy shisha tolali kompozit quvurdir. Ichki tola qatlami issiqlik tufayli kengayishni sezilarli darajada kamaytiradi.",
+        "seo_p2": "Ushbu innovatsion quvur 2.0 MPa gacha bo'lgan bosimga bardosh beradi, shu bilan birga termal kengayishni 50% gacha kamaytiradi.",
+        "seo_p3": "Bu quvur binolarda kamroq tirgak nuqtalarini talab qiladi, montaj vaqtini va material xarajatlarini tejaydi, asosiy tik ko'tariluvchi liniyalar uchun juda mos.",
+        "faq": [
+          {
+            "q": "Shisha tola issiqlik kengayishini qanchalik kamaytiradi?",
+            "a": "O'rnatilgan shisha tolali qatlam oddiy PP-R quvurlariga nisbatan chiziqli kengayishni 75% gacha pasaytiradi."
+          },
+          {
+            "q": "Fayber quvurni payvandlashdan oldin qirib tashlash kerakmi?",
+            "a": "Yo'q, alyuminiy qatlamli Stabi quvurlaridan farqli o'laroq, bu quvurni to'g'ridan-to'g'ri payvandlash mumkin."
+          },
+          {
+            "q": "Tik (vertikal) suv tarmog'i uchun mosmi?",
+            "a": "Ha, yuqori qattiqlik va bosimga chidamliligi tufayli yirik tik tizimlar uchun eng yaxshi tanlovdir."
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "Sovutish va isitish suv tizimlari uchun mo'ljallangan K-Fiberclima Pipe PPRCT SDR 11 iqlim tizimlari uchun maqbul ishlashni taklif etadi.",
+        "seo_p2": "Shisha tolali PPRCT materiali (SDR 11) yuqori hajmli suv oqimiga va bosim o'zgarishlariga bardosh bera oladi, kondensatsiyaning oldini oladi.",
+        "seo_p3": "Katta HLK (isitish, shamollatish, konditsionerlash) inshootlarida ideal, u sovutish tizimlarida korroziyani oldini oladi va texnik xizmat ko'rsatishni talab qilmaydi.",
+        "faq": [
+          {
+            "q": "Nima uchun bu konditsioner suvlari uchun ideal?",
+            "a": "PPRCT past issiqlik o'tkazuvchanligi metallarga nisbatan kondensat (terlash) paydo bo'lishining oldini oladi."
+          },
+          {
+            "q": "Muzlashdan himoyalovchi suyuqliklarga qanday munosabatda?",
+            "a": "Oddiy glikol va antifrizlarga juda chidamli bo'lib, moddiy toliqish tufayli sizib chiqishni oldini oladi."
+          },
+          {
+            "q": "Sanoat tarmoqlarida ishlatsa bo'ladimi?",
+            "a": "Albatta, yupqaroq devor qalinligi va yuqori mustahkamligi bilan u yirik sanoat tarmoqlarida katta suv oqimini ta'minlaydi."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "Klassik K-Fiber Pipe PP-R SDR 7.4 ekstremal bosimga chidamlilik va mustahkamlik talab qilinganda eng ishonchli yechimdir.",
+        "seo_p2": "PP-R va tola texnologiyasining kombinatsiyasi orqali bu quvur 2.5 MPa bosimga yetib boradi va murakkab tarmoqlar uchun maksimal barqarorlikni taqdim etadi.",
+        "seo_p3": "Sanoat obyektlari qurilishida yoki murakkab issiq suv aylanish tizimlarida o'nlab yillar davomida uzluksiz xizmat qiladi.",
+        "faq": [
+          {
+            "q": "SDR 7.4 yuqori haroratlar uchun tasdiqlanganmi?",
+            "a": "Ha, u 1.0 MPa (10 Bar) bosim ostida 70°C gacha va qisqa muddatli 95°C haroratlarga bardosh bera oladi."
+          },
+          {
+            "q": "Uzoq masofalarda qancha qisqich (krepaj) kerak?",
+            "a": "Shisha tolali qatlam tufayli standart quvurlarga qaraganda qisqichlar orasidagi masofani ancha uzaytirish mumkin."
+          },
+          {
+            "q": "Turli xil suv sifatlarida korroziya xavfi bormi?",
+            "a": "Yo'q, PP-R materiali 100% zanglamaydi va tashilayotgan muhitning pH qiymatiga ta'sir qilmaydi."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "K-Fiber Pipe PP-R SDR 9 standart va yuqori bosimli quvurlar o'rtasidagi mukammal balansni ta'minlaydi. Oqim sig'imi va bosimga chidamlilik ajoyib darajada.",
+        "seo_p2": "20°C haroratda 2.0 MPa bosimgacha tasdiqlangan bu quvurning devor qalinligi o'rta va yuqori yuklamalarga mo'ljallangan.",
+        "seo_p3": "Bu quvur ko'pincha standart quvurlar bardosh bera olmaydigan, ammo SDR 7.4 gacha bo'lgan ekstremal kuch talab etilmaydigan loyihalarda qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Nima uchun SDR 7.4 o'rniga SDR 9 ni tanlash kerak?",
+            "a": "SDR 9 yupqaroq devori orqali ko'proq suv sig'imini va hali ham ajoyib bosimga chidamlilikni taklif etadi."
+          },
+          {
+            "q": "Oddiy PP-R fittinglari bilan ulasa bo'ladimi?",
+            "a": "Mutlaqo, SDR 9 quvuri K Aqua SDR 6 va SDR 7.4 fittinglari bilan to'liq mos keladi."
+          },
+          {
+            "q": "Ichimlik suvi uchun tasdiqlanganmi?",
+            "a": "Ha, u butun dunyo bo'ylab issiq va sovuq ichimlik suvi uchun barcha gigiyenik standartlarga javob beradi."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "Yengil og'irlik va shaklini yo'qotmaydigan montaj uchun mo'ljallangan K-Fiber Pipe PP-R SDR 11 yengil profil afzalliklarini tola texnologiyasi bilan birlashtiradi.",
+        "seo_p2": "SDR 11 tasnifidagi shisha tolali PP-R materiali katta hajmdagi suv uchun optimal ichki diametrni va ajoyib chidamlilikni taklif qiladi.",
+        "seo_p3": "Yengil og'irligi va tirgak oraliqlarining qisqarishi tufayli uni o'rnatish juda tez amalga oshiriladi, sovutish tarmoqlari uchun a'lo tanlov.",
+        "faq": [
+          {
+            "q": "SDR 11 quvurlarini payvandlash tezroqmi?",
+            "a": "Ha, devor qalinligi kamaygani sababli isitish vaqti qisqaradi va ish jarayoni tezlashadi."
+          },
+          {
+            "q": "Bu quvur uchun maksimal chegaralar qanday?",
+            "a": "U 20°C haroratda 16 bargacha va 60°C da 8 bargacha bosimga mo'ljallangan."
+          },
+          {
+            "q": "Sovutish tizimlari bundan foyda ko'radimi?",
+            "a": "Ha, yuqori izolyatsiya qiymati sovutish tarmoqlarida energiya yo'qotilishini sezilarli darajada kamaytiradi."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "Katta o'lchamli K-Fiber Pipe PP-R SDR 17 sanoat obyektlari va asosiy ta'minot liniyalari uchun maxsus ishlab chiqilgan bo'lib, oqim uchun keng o'zan ochadi.",
+        "seo_p2": "Diametri 200 mm gacha bo'lgan ushbu quvur past bosimli hududlarda mukammal natija ko'rsatadi, tola qatlami esa hatto katta o'lchamlarda ham yuqori barqarorlikni saqlaydi.",
+        "seo_p3": "Markaziy sovutish tarmoqlari yoki baland binolarda suv yetkazib berishning asosiy tizimlari uchun mo'ljallangan. Zanglaydigan og'ir metall quvurlarga ajoyib alternativ.",
+        "faq": [
+          {
+            "q": "SDR 17 qayerlarda qo'llaniladi?",
+            "a": "SDR 17 (PN 10) asosan ulkan hajmdagi oqimga ega past bosimli tarmoqlar, masalan, yirik sovutish magistrallari uchun mo'ljallangan."
+          },
+          {
+            "q": "Bunday katta o'lchamlarni qanday ulash mumkin?",
+            "a": "Katta quvurlar (90 mm dan 200 mm gacha) uchma-uch payvandlash (Butt-welding) yoki elektr payvandlash mufalari orqali ulanadi."
+          },
+          {
+            "q": "Po'lat quvurlardan asosiy ustunligi nima?",
+            "a": "PP-R quvur zanglamaydi, po'latdan ancha yengil va butun ishlash muddati davomida mukammal silliq oqimni saqlab qoladi."
+          }
+        ]
+      },
+      "cap": {
+        "seo_p1": "Quvur uchi tiqini (Cap) quvur liniyasini bosimga chidamli holda yopish uchun mo'ljallangan va quvurning uchiga to'g'ridan-to'g'ri payvandlanadi.",
+        "seo_p2": "U mustahkam PP-R materialidan tayyorlangan bo'lib, butun tizim bardosh beradigan maksimal bosim va haroratga chidaydi.",
+        "seo_p3": "Quvur tarmoqlarini vaqtinchalik yoki doimiy ravishda ko'r qilish uchun ideal.",
+        "faq": [
+          {
+            "q": "Tiqinni keyinchalik olib tashlash mumkinmi?",
+            "a": "Yo'q, payvandlangan birikma ajratilmas hisoblanadi. Quvurni davom ettirish uchun tiqinni kesib tashlash kerak."
+          },
+          {
+            "q": "Tiqin qanday payvandlanadi?",
+            "a": "U oddiy fittinglar kabi isitish asbobi orqali quvur uchiga payvandlanadi."
+          },
+          {
+            "q": "Bosim sinovlari uchun ishonchlimi?",
+            "a": "Ha, tiqin butun tarmoq bilan bir xil bosimga bardosh berganligi sababli, yakuniy bosim sinovlari uchun mutlaqo xavfsiz."
+          }
+        ]
+      },
+      "socket": {
+        "seo_p1": "Mufa (Socket) ikkita bir xil diametrli quvurni to'g'ri chiziqda ulaydigan eng asosiy fitting hisoblanadi.",
+        "seo_p2": "Yuqori sifatli PP-R materialidan tayyorlangan ushbu mufa ikki quvur o'rtasida mustahkam, silliq va bir jinsli payvandni kafolatlaydi.",
+        "seo_p3": "Uzun quvur liniyalarini yig'ish va kesilgan quvurlarni ulash uchun har qanday sanitariya tarmog'ida keng qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Mufaning ishonchliligi qanday?",
+            "a": "Molekulyar darajadagi payvandlash tufayli, mufa bilan ulangan joy quvurning o'zidan ham mustahkamroq bo'lishi mumkin."
+          },
+          {
+            "q": "Mufa oqimga ta'sir qiladimi?",
+            "a": "Yo'q, uning ichki tuzilishi oqimni to'smaydi va bosim yo'qotilishiga olib kelmaydi."
+          },
+          {
+            "q": "SDR 6 va SDR 11 quvurlarini bitta mufa bilan ulasa bo'ladimi?",
+            "a": "Tavsiya etilmaydi. Turli devor qalinligiga ega quvurlar payvandlanganda ichki diametrlar mos kelmasligi sababli to'siqlar paydo bo'lishi mumkin."
+          }
+        ]
+      },
+      "elbow-45": {
+        "seo_p1": "45 gradusli tirsak (Elbow 45) quvur liniyasining yo'nalishini 45 gradusga silliq o'zgartirish imkonini beradi.",
+        "seo_p2": "Burchakning 45° bo'lishi 90° li tirsaklarga qaraganda suv oqimi yo'qotilishini ancha kamaytiradi.",
+        "seo_p3": "Ayniqsa markaziy isitish, sovutish va murakkab yo'nalishdagi tarmoqlarda quvurlarni burish uchun juda samarali yechim.",
+        "faq": [
+          {
+            "q": "Qachon 90° o'rniga 45° tirsak ishlatish kerak?",
+            "a": "Suv oqimi yo'qotilishini minimallashtirish va tizimda gidravlik qarshilikni kamaytirish zarur bo'lgan joylarda."
+          },
+          {
+            "q": "Ushbu fitting ikkala tomondan ham quvurga kiritiladimi?",
+            "a": "Ha, bu standart fitting bo'lib, uning ikkala uchi ham quvurni qabul qiluvchi mufa shaklida (ichki/ichki)."
+          },
+          {
+            "q": "Katta diametrlarda ham mavjudmi?",
+            "a": "Ha, biz barcha standart diametrlar uchun 45° li tirsaklarni taqdim etamiz."
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "seo_p1": "45 gradusli ichki-tashqi tirsak (Elbow 45 female/male) joyni tejovchi fitting bo'lib, to'g'ridan-to'g'ri boshqa fittingga ulanadi.",
+        "seo_p2": "Uning bir uchi mufa (ichki), ikkinchi uchi esa quvur diametrida (tashqi) bo'lib, oraliq quvursiz ixcham o'rnatish imkonini beradi.",
+        "seo_p3": "Kollektorlar va texnik xonalar kabi joy cheklangan muhitlarda murakkab tugunlarni yig'ish uchun juda qulay.",
+        "faq": [
+          {
+            "q": "Ichki/tashqi tirsak qanday joyni tejaydi?",
+            "a": "Odatda ikkita fittingni ulash uchun qisqa quvur kerak, ammo bu fitting to'g'ridan-to'g'ri boshqa fittingning ichiga tushadi."
+          },
+          {
+            "q": "Bosimga chidamliligi oddiy tirsak bilan bir xilmi?",
+            "a": "Ha, u to'liq PP-R materialidan qilingan va barcha bosim talablariga javob beradi."
+          },
+          {
+            "q": "Uni boshqa markadagi fittinglar bilan ishlatsa bo'ladimi?",
+            "a": "Texnik jihatdan mumkin bo'lsa-da, eng yuqori sifat va xavfsizlik uchun faqat K Aqua tizimi doirasida foydalanish tavsiya etiladi."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90 gradusli tirsak (Elbow 90) quvur yo'nalishini to'g'ri burchak ostida o'zgartirish uchun eng ko'p ishlatiladigan PP-R fittingidir.",
+        "seo_p2": "Uning silliq ichki burchaklari bosim yo'qotilishini kamaytiradi va turbulentlikning oldini oladi.",
+        "seo_p3": "Sanitariya tarmoqlarida devor burchaklarida, xona ichidagi burilishlarda keng qo'llaniladi va o'ta mustahkam hisoblanadi.",
+        "faq": [
+          {
+            "q": "90° tirsak oqim tezligini pasaytiradimi?",
+            "a": "Har qanday 90° burchak oqimga biroz qarshilik ko'rsatadi, lekin bizning silliq ichki dizaynimiz bu yo'qotishni minimallashtiradi."
+          },
+          {
+            "q": "Bosim sinovidan o'tadimi?",
+            "a": "Albatta, barcha K Aqua fittinglari PN 25 bosim klassiga to'liq bardosh beradi."
+          },
+          {
+            "q": "Katta quvurlar (125mm) uchun ham 90° burchak ishlatsa bo'ladimi?",
+            "a": "Ha, biz yirik o'lchamlar uchun ham optimal shakldagi 90° tirsaklarni taklif qilamiz."
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "90 gradusli ichki-tashqi tirsak (Elbow 90 female/male) joyni maksimal tejash imkonini beruvchi to'g'ri burchakli fittingdir.",
+        "seo_p2": "Tashqi uchi to'g'ridan-to'g'ri boshqa mufaga yoki fittingga kiradi, bu esa ortiqcha payvand choklari va quvur bo'laklarini tejaydi.",
+        "seo_p3": "Xususiy va sanoat tizimlarida eng tor joylarda ham murakkab montajni osonlashtiradi.",
+        "faq": [
+          {
+            "q": "Bu fitting qachon ishlatiladi?",
+            "a": "Ikki fitting bir-biriga juda yaqin o'rnatilishi kerak bo'lganda va o'rtada quvur kesib qo'yishga joy bo'lmaganda."
+          },
+          {
+            "q": "Payvandlash vaqti qanday?",
+            "a": "Uning ichki va tashqi tomoni standart payvandlash vaqtlari bo'yicha isitiladi."
+          },
+          {
+            "q": "Uni klapanlarga to'g'ridan-to'g'ri payvandlash mumkinmi?",
+            "a": "Ha, tashqi uchi to'g'ridan-to'g'ri PP-R klapanlari mufasiga mos tushadi."
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "seo_p1": "Elektr payvandlash mufasi (Electrofusion socket) ichki spiral isitish simlariga ega bo'lib, o'ta aniq avtomatik payvandlashni ta'minlaydi.",
+        "seo_p2": "U tor joylarda, quvurlarni harakatlantirish imkoni yo'q bo'lgan uchastkalarda va yer osti yotqiziqlarida mukammal yechimdir.",
+        "seo_p3": "Maxsus apparat uning shtrix-kodini o'qiydi va payvandlash jarayonini haroratga qarab o'zi boshqaradi.",
+        "faq": [
+          {
+            "q": "Buning uchun maxsus uskuna kerakmi?",
+            "a": "Ha, K Aqua yoki boshqa universal elektr payvandlash uskunasi talab qilinadi."
+          },
+          {
+            "q": "Qachon standart mufadan ko'ra elektr mufa afzalroq?",
+            "a": "Payvandlash apparati sig'maydigan tor joylarda va quvurni ikki tomonga tortib bo'lmaydigan ta'mirlash ishlarida."
+          },
+          {
+            "q": "Payvandlashdan oldin quvurni tozalash kerakmi?",
+            "a": "Ha, oksidlanish qatlamini olib tashlash uchun maxsus qirg'ich asbobi bilan quvur uchini tozalash shart."
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "seo_p1": "Burtika yoki Flanets adapteri (Flange adaptor) plastik quvurlarni metall flanetslar va armaturalarga ishonchli ulash uchun zarur elementdir.",
+        "seo_p2": "U po'lat erkin flanetslar bilan mos tushib, yuqori bosim ostida ham qistirmalarni mukammal qisib turishini ta'minlaydi.",
+        "seo_p3": "Sanoat tarmoqlarida nasoslar, yirik klapanlar va boshqa metall tizimlarga ulanishda keng qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Qanday flanets standartlariga mos keladi?",
+            "a": "DIN/EN standartidagi (masalan, PN10, PN16) flanetslar bilan mos keladi."
+          },
+          {
+            "q": "Qo'shimcha rezina qistirma (prokladka) kerakmi?",
+            "a": "Ha, burtika va qarama-qarshi flanets o'rtasiga albatta EPDM qistirma qo'yilishi kerak."
+          },
+          {
+            "q": "Burtika quvurga qanday ulanadi?",
+            "a": "U oddiy fittinglar singari mufa orqali isitib payvandlanadi."
+          }
+        ]
+      },
+      "reducing-bush": {
+        "seo_p1": "O'tish mufasi (Reducing bush) quvur tarmog'ida turli diametrlarni uzluksiz va xavfsiz ulash imkonini beradi.",
+        "seo_p2": "PP-R dan tayyorlangan bu qism suv oqimida kavitatsiya va qarshilikni minimallashtiradigan shaklda yaratilgan.",
+        "seo_p3": "Asosiy tarmoqdan kichikroq shoxobchalarga o'tishda, bosimni muvozanatlash va materiallarni tejash maqsadida qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Bir nechta o'lchamlarni birdaniga sakrab o'tish mumkinmi?",
+            "a": "Ha, masalan 63 mm dan 32 mm ga to'g'ridan-to'g'ri o'tuvchi mufalarimiz mavjud."
+          },
+          {
+            "q": "Bu mufa quvurning ichiga kiradimi?",
+            "a": "Ha, odatda bu ichki/tashqi fitting bo'lib, uning katta uchi boshqa mufaga, kichik uchi esa quvurga ulanadi."
+          },
+          {
+            "q": "O'tish qismi bosimga qanday ta'sir qiladi?",
+            "a": "U tizimning umumiy bosimiga (PN 25) to'liq bardosh bera oladigan darajada qalin devorli qilib ishlab chiqarilgan."
+          }
+        ]
+      },
+      "reducing-tee": {
+        "seo_p1": "Reduksiyali T-qism (Reducing tee) asosiy tarmoqdan to'g'ri burchak ostida kichikroq diametrdagi quvurni ajratib olish imkonini beradi.",
+        "seo_p2": "Monolit konstruksiyaga ega bu PP-R fitting, qo'shimcha o'tish mufalarisiz ishlash imkonini beradi va maksimal mustahkamlikni saqlaydi.",
+        "seo_p3": "Ayniqsa qavatlararo taqsimlashda xarajat va vaqtni sezilarli darajada tejaydi.",
+        "faq": [
+          {
+            "q": "Nima uchun oddiy T-qism o'rniga buni tanlash kerak?",
+            "a": "U bitta payvand chokini va o'tish mufasini tejaydi, bu joyni tejaydi va tizim xavfsizligini oshiradi."
+          },
+          {
+            "q": "Faqat markaziy teshik kichikroq bo'ladimi?",
+            "a": "Ko'pincha shunday, chunki odatda asosiy tarmoqdan kichikroq iste'molchilarga suv taqsimlanadi."
+          },
+          {
+            "q": "Bunday qismlar suvda shovqin yaratadimi?",
+            "a": "Yo'q, ichki tuzilishi turbulentsiya va shovqinlarni minimallashtirish uchun silliqlangan."
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "seo_p1": "Yirik o'lchamli reduksiyali T-qism katta quvurlar tarmog'idan xavfsiz tarzda kichikroq shoxobcha ajratish uchun maxsus ishlab chiqilgan.",
+        "seo_p2": "Ushbu mustahkam PP-R elementi juda katta suv hajmi va ekstremal tizim bosimlariga qarshilik ko'rsatishga qodir.",
+        "seo_p3": "Asosan sanoat sovutish tarmoqlari, issiqlik markazlari va baland binolarning asosiy suv stoyaklarida qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Buni o'rnatish uchun maxsus asboblar kerakmi?",
+            "a": "Ha, yirik o'lchamlarni payvandlash ko'pincha maxsus yo'naltiruvchi payvandlash apparatlarini talab qiladi."
+          },
+          {
+            "q": "Bosim ostidagi quvurga payvandlash mumkinmi?",
+            "a": "Hech qachon. Tarmoqdagi suv to'liq bo'shatilib, quvur bosimsiz va quruq holatga keltirilishi shart."
+          },
+          {
+            "q": "Bu T-qism oddiy fittinglar bilan bir xil bosimga chidaydimi?",
+            "a": "Albatta, bu fittinglar tizimning maksimal PN standartiga javob beradigan qilib tayyorlangan."
+          }
+        ]
+      },
+      "tee": {
+        "seo_p1": "Teng o'lchamli uchlik (Tee) PP-R tarmoqlarida suv oqimini bir xil uchga bo'lish yoki ulash uchun eng klassik fittingdir.",
+        "seo_p2": "Polipropilendan (PP-R) tayyorlangan ushbu qism o'zining uchta bir xil mufa uchlari bilan butun tizim barqarorligini ta'minlaydi.",
+        "seo_p3": "Sanitariya inshootlarida istalgan turdagi taqsimot va tutashtirish ishlari uchun ajralmas detal.",
+        "faq": [
+          {
+            "q": "T-qism quvur o'tkazuvchanligini pasaytiradimi?",
+            "a": "Yo'q, bizning fittinglar to'liq o'tkazuvchanlikka ega bo'lib, oqimni to'smaydi."
+          },
+          {
+            "q": "Burchaklarda cho'kma yig'ilish xavfi bormi?",
+            "a": "PP-R materialining o'ta silliqligi sababli ohak (kalk) yoki boshqa cho'kmalar yig'ilmaydi."
+          },
+          {
+            "q": "Katta T-qismlar ko'proq isitish vaqtini talab qiladimi?",
+            "a": "Ha, quvur diametri qanchalik katta bo'lsa, isitish, ulash va sovutish vaqti shuncha ko'p bo'ladi."
+          }
+        ]
+      },
+      "cross": {
+        "seo_p1": "Xoch yoki krestovina (Cross) bitta asosiy oqimni uch xil yo'nalishga ixcham va tartibli tarzda taqsimlash imkonini beradi.",
+        "seo_p2": "Ushbu to'rt tomonlama PP-R fitting suv turbulentsiyasini kamaytirish maqsadida maxsus aerodinamik ichki dizaynga ega.",
+        "seo_p3": "Kollektor shkaflarida, isitish tizimlarining kesishuv nuqtalarida bir necha T-qismlarning o'rnini bosib, joy va vaqtni tejaydi.",
+        "faq": [
+          {
+            "q": "Xoch fittingi yuqori bosim yo'qotishiga olib keladimi?",
+            "a": "To'rt oqim uchrashgani sababli qarshilik to'g'ri quvurga nisbatan yuqoriroq, biroq maxsus ichki kengaytma buni minimallashtiradi."
+          },
+          {
+            "q": "Qanday holatlarda u albatta kerak bo'ladi?",
+            "a": "Ayniqsa pol isitish tizimlari va joy juda tor bo'lgan devor ichki o'rnatishlarida."
+          },
+          {
+            "q": "Uning barcha to'rt uchi bir xil o'lchamdami?",
+            "a": "Ha, standart xoch fittingimiz to'rtta bir xil diametrli mufa uchlariga ega (masalan, 4x 20mm)."
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "seo_p1": "Ichki rezbali o'tish mufasi (Adaptor Socket Female Thread) payvandlangan PP-R quvurlari va metall rezbali komponentlar o'rtasida muhim aloqa nuqtasini tashkil etadi.",
+        "seo_p2": "U mustahkam PP-R mufa korpusini yuqori sifatli metall (ichki rezba) qo'shimchasi bilan birlashtiradi. Bu standart SDR darajalarida mukammal bosimga chidamlilikni ta'minlaydi.",
+        "seo_p3": "Bu fitting binolarni o'rnatishda klapanlar, manometrlar va maxsus ventillarni ulashda uzluksiz tomchisiz o'tishlarni kafolatlash uchun ajralmas hisoblanadi.",
+        "faq": [
+          {
+            "q": "O'rnatish plitasi nima uchun xizmat qiladi?",
+            "a": "Teshiklari bo'lgan o'rnatish plitasi burchakni bevosita devorga yoki o'rnatish elementiga qattiq va mexanik tarzda qotirish imkonini beradi."
+          },
+          {
+            "q": "Metall rezba korroziyaga moyilmi?",
+            "a": "Yo'q, metall qo'shimchalar yuqori sifatli, sinkdan tozalangan latundan qilingan va shuning uchun korroziyaga juda chidamli."
+          },
+          {
+            "q": "Rezbalarni kanop (len) bilan zichlash mumkinmi?",
+            "a": "Teflon lentasidan (PTFE lentasi) foydalanishni tavsiya qilamiz. Agar kanop ishlatsangiz, latun qismini yorib yubormaslik uchun juda ehtiyotkorlik bilan, faqat shishmaydigan pasta bilan ishlash kerak."
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "seo_p1": "Tashqi rezbali o'tish mufasi (Adaptor Socket Male Thread) PP-R tarmog'ini keyingi metall quvur liniyalariga mustahkam va xavfsiz ulash imkonini beradi.",
+        "seo_p2": "Latun tashqi rezbaning yuqori quvvatli polipropilen korpusida mustahkam o'rnatilishi buralishni oldini oladi va yuqori harorat hamda bosim o'zgarishlarida uzoq xizmat muddatini kafolatlaydi.",
+        "seo_p3": "Ko'pincha isitish qozonlari, issiqlik nasoslari yoki filtrlarni ulashda qo'llaniladigan ushbu mufa doimiy va standartlarga javob beradigan rezbali ulanishni ta'minlaydi.",
+        "faq": [
+          {
+            "q": "Ichki rezba butunlay latundan qilinganmi?",
+            "a": "Ha, ichki rezba PP-R materialiga qattiq va buralmaydigan qilib inyeksiya qilingan yaxlit, yuqori sifatli latun qo'shimchasidir."
+          },
+          {
+            "q": "Kerak bo'lganda ulanishni yechish mumkinmi?",
+            "a": "Ha, metall rezba nasoslar yoki filtrlar kabi ulangan uskunalarni istalgan vaqtda xavfsiz demontaj qilish imkonini beradi."
+          },
+          {
+            "q": "Maksimal tortish (qotirish) momenti qancha?",
+            "a": "Atrofdagi plastmassada kuchlanish yoriqlari paydo bo'lishining oldini olish uchun rezbani oddiy asboblar bilan o'z me'yorida qotirish kerak."
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "seo_p1": "Tashqi rezbali 90° o'tish tirsagi (Elbow 90° Male Thread) to'g'ri burchakli yo'nalish o'zgarishini metall qismlar bilan to'g'ridan-to'g'ri rezbali ulanish bilan birlashtiradi.",
+        "seo_p2": "Shaklini saqlaydigan ushbu PP-R qismi issiqlik kengayishini o'ziga oluvchi va SDR bosim sinflarining yuqori talablariga javob beradigan yirik tashqi rezbali qo'shimcha bilan ta'minlangan.",
+        "seo_p3": "Mashinalar yoki taqsimlovchi kollektorlardagi tor montaj joylari uchun ideal, qayerdaki qo'shimcha fittinglarsiz to'g'ridan-to'g'ri 90 gradusli ulanish amalga oshirilishi kerak bo'lsa.",
+        "faq": [
+          {
+            "q": "Ushbu fitting ikkita ish jarayonini birlashtiradimi?",
+            "a": "Ha, u yo'nalishni 90 gradusga o'zgartirish bilan rezbali o'tishni birlashtiradi va shu orqali joy, material hamda bitta payvand chokini tejaydi."
+          },
+          {
+            "q": "Tashqi rezbaning usti g'adir-budirmi?",
+            "a": "Ha, K Aqua tashqi rezbalari odatda zavoddan yengil g'adir-budir qilingan bo'ladi, to buralish paytida zichlagich lenta (teflon) sirpanib ketmasligi uchun."
+          },
+          {
+            "q": "Tashqi rezba qanday materialdan tayyorlangan?",
+            "a": "U ichimlik suvi sohasidagi eng yuqori gigiyenik talablar uchun tasdiqlangan, sink ajralishiga chidamli maxsus latundan tayyorlangan."
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "seo_p1": "Ichki rezbali 90° devor tirsagi (Elbow Bracket 90° Female Thread) kran armaturalarini devorga mustahkam va xavfsiz o'rnatish uchun standart detali hisoblanadi.",
+        "seo_p2": "PP-R korpusidagi maxsus mahkamlash quloqchalari va mustahkam metall ichki rezba tufayli, barcha bosim va og'irlikni devorga xavfsiz tarzda o'tkazadi.",
+        "seo_p3": "Suv kranlarini aniq va aylanmaydigan tarzda o'rnatish maqsadida dush, vanna yoki rakovinalarni o'rnatishda keng qo'llaniladi.",
+        "faq": [
+          {
+            "q": "Devor plastinasini gipsokarton devorlarda ham ishlatsa bo'ladimi?",
+            "a": "Ha, maxsus K Aqua montaj plitalari bilan birgalikda u gipsokarton yoki yog'och karkasli devorlarga juda yaxshi qotirilishi mumkin."
+          },
+          {
+            "q": "Ushbu qism uchun shovqin himoyasi bormi?",
+            "a": "Optimal ovoz izolatsiyasi uchun biz devor burchagini binodan ajratib turadigan rezinali ovoz yutuvchi qopqoqlarni taklif qilamiz."
+          },
+          {
+            "q": "Ichki rezba qanday materialdan yasalgan?",
+            "a": "Biz faqat eng qat'iy ichimlik suvi qoidalariga mos keladigan qo'rg'oshinsiz yoki sinkdan xoli (DZR) maxsus latundan foydalanamiz."
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "seo_p1": "Uzatilgan 90° devor tirsagi (Elbow Wall Bracket 90° Female Thread) kattaroq oraliq masofa bilan devor ichiga chuqurroq o'rnatish uchun qo'shimcha moslashuvchanlikni taqdim etadi.",
+        "seo_p2": "Uzatilgan PP-R bo'yni va yuqori quvvatli latun ichki rezbasi tufayli ushbu qism qalin suvoq yoki kafel qatlamlarini kesib o'tishi kerak bo'lgan montajlar uchun mo'ljallangan.",
+        "seo_p3": "Santexniklar to'liq bosim barqarorligini saqlab qolgan holda armatura ulanishlari gipsokarton devorlariga chuqur botganda ushbu elementdan foydalanadilar.",
+        "faq": [
+          {
+            "q": "Qachon ichki rezba o'rniga tashqi rezbali devor plastinasi ishlatiladi?",
+            "a": "Odatda, to'g'ridan-to'g'ri egiluvchan shlanglarni (masalan, rakovina kranlaridan) ulanish gaykalari bilan ulash zarur bo'lganda."
+          },
+          {
+            "q": "O'rnatish plastinasi kuchli tortishishda yetarlicha mustahkammi?",
+            "a": "Ha, uchta mahkamlash halqalari bosim kuchini keng maydonga tarqatadi, shuning uchun devorga biriktirish nihoyatda barqaror."
+          },
+          {
+            "q": "Uzatgichlarni (udlinitel) burab ulash mumkinmi?",
+            "a": "Agar devor plastinasi devorning juda ichkarisiga tushib qolsa, oddiy latun kran uzatgichlarini muammosiz burab ulash mumkin."
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "seo_p1": "Tabiiy latundan tashqi rezbali gaykali ulanish (Metal Union Male Thread Yellow Brass) PP-R va metall o'rtasida eng yuqori sifatli yechiladigan aloqani ta'minlaydi.",
+        "seo_p2": "Qoplanmagan sifatli latun payvandlanadigan PP-R mufasiga mahkam biriktirilgan. Integratsiyalashgan qistirma barcha standart SDR bosimlarida xavfsizlikni kafolatlaydi.",
+        "seo_p3": "Asosan texnik xizmat ko'rsatish maqsadida tez-tez yechib turilishi kerak bo'lgan suv hisoblagichlari yoki nasoslarni ulash uchun ichimlik suvi inshootlarida foydalaniladi.",
+        "faq": [
+          {
+            "q": "Ushbu T-qismni bo'shatish ventillarini ulash uchun ishlatsa bo'ladimi?",
+            "a": "Ha, tarmoqning eng pastki qismida joylashgan ichki rezbaga to'g'ridan-to'g'ri bo'shatish yoki KFE kranlarini burab ulash mumkin."
+          },
+          {
+            "q": "Latun qo'shimchasi mahkam o'rnatilganmi?",
+            "a": "Latun qo'shimchasidagi maxsus g'adir-budirlik tufayli u PP-R ichiga ajralmas tarzda qamaladi, bu esa rezba ochganda uning buralib ketishining oldini oladi."
+          },
+          {
+            "q": "Rezba asosiy quvur tarmog'idagi oqimni kamaytiradimi?",
+            "a": "Yo'q, T-qismning asosiy tarmog'i to'liq kenglikka ega va suv oqimi uchun optimallashtirilgan."
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "seo_p1": "Tabiiy latundan ichki rezbali gaykali ulanish (Metal Union Female Thread Yellow Brass) yuqori yuklamalarga chidamli, ajratiladigan quvur ulanishlari uchun ideal yechimdir.",
+        "seo_p2": "Yuqori sifatli latun gayka va PP-R payvandlash uchi bilan jihozlangan ushbu ulanish mutlaqo kuchlanishsiz va zich ulanishni ta'minlaydi.",
+        "seo_p3": "Muntazam tozalanadigan yoki almashtiriladigan texnik xizmat elementlari, filtrlar yoki klapanlarni quvur tarmog'iga kiritish uchun ko'p ishlatiladi.",
+        "faq": [
+          {
+            "q": "Tashqi rezbali T-qism qayerda ishlatiladi?",
+            "a": "Ichki rezbali yoki gaykali uskunalarni (masalan, loy tutqichlar yoki kichik aylanma nasoslarni) to'g'ridan-to'g'ri ulash uchun juda qulay."
+          },
+          {
+            "q": "Tashqi rezbalarda plastmassa yorilish xavfi bormi?",
+            "a": "Yo'q, chunki tashqi rezbalarda zichlovchi materialning (teflonning) kengayish kuchi plastmassaga emas, balki massiv latun korpusiga ta'sir qiladi."
+          },
+          {
+            "q": "Buni issiq suv tizimlarida ishlatsam bo'ladimi?",
+            "a": "Albatta. Barcha K Aqua o'tish fittinglari kabi, doimiy 70°C va qisqa muddatli 95°C haroratlarga chidamli."
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "seo_p1": "Nikel bilan qoplangan tashqi rezbali gaykali ulanish (Metal Union Male Thread) plastmassa va metall tizimlar o'rtasida go'zal ko'rinish va ajoyib texnik ajratuvchanlikni birlashtiradi.",
+        "seo_p2": "Nikel qoplangan rezba tashqi ta'sirlardan va korroziyadan himoya qiladi, PP-R korpusi esa SDR quvurlari uchun kerakli bosim va harorat qarshiligini ta'minlaydi.",
+        "seo_p3": "Ayniqsa ochiq devor montajida yoki isitish tizimlarida keng qo'llaniladi va metall isitgichlar yoki kollektorlarga toza o'tishlarni ta'minlaydi.",
+        "faq": [
+          {
+            "q": "O'tish mufasidan ko'ra ulanish gaykasining qanday afzalligi bor?",
+            "a": "Ulanish yechiladigan hisoblanadi. Bu degani, keyinchalik PP-R quvurni kesmasdan turib ulangan qismni osongina yechib olish mumkin."
+          },
+          {
+            "q": "Qistirma ulanishning ichiga kiradimi?",
+            "a": "Ha, K Aqua ulanish gaykalari standart holatda yuqori sifatli EPDM tekis qistirmasi (suv uchun) bilan birga yetkazib beriladi."
+          },
+          {
+            "q": "Gaykani katta asbob bilan qattiq tortish mumkinmi?",
+            "a": "Qistirma ezilib ketmasligi uchun uni mos kalit bilan me'yorida va chorak burilish qo'shib qotirish kerak."
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "seo_p1": "Nikel qoplangan ichki rezbali gaykali ulanish (Metal Union Female Thread) vizual jozibali va ajratiladigan tizim o'tishlari uchun premium fittingdir.",
+        "seo_p2": "Nikel bilan qoplangan latun gayka va mustahkam polipropilen (PP-R) birikmasi yuqori tarmoq bosimlari uchun shaklini yo'qotmaydigan, doimiy zich ulanishni hosil qiladi.",
+        "seo_p3": "Ushbu fitting isitish podvallarida korroziyadan himoya muhim bo'lgan issiqlik almashtirgichlar yoki nasos guruhlarini ulashda afzal qilingan tanlovdir.",
+        "faq": [
+          {
+            "q": "Ushbu tashqi rezbali gaykali ulanish qayerda kerak?",
+            "a": "Ko'pincha suv hisoblagichlari yoki korpusida ichki rezbasi bo'lgan issiqlik almashtirgichlarni asboblarga ulashda qulay."
+          },
+          {
+            "q": "Tortish vaqtida PP-R kuchlanishsiz qoladimi?",
+            "a": "Ha, erkin aylanuvchi gayka buralish kuchlarini o'ziga oladi va payvandlangan quvur tarmog'iga burilish kuchlanishi uzatilmaydi."
+          },
+          {
+            "q": "Latun materiali ichimlik suvi uchun tasdiqlanganmi?",
+            "a": "Biz faqat Yevropa ichimlik suvi qoidalarining (UBA-ro'yxati) barcha standartlariga javob beradigan yuqori tozalikdagi DZR-latundan foydalanamiz."
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "seo_p1": "Tashqi rezbali 90°-T-qism (Tee 90° Male Thread) uzluksiz PP-R tarmog'idan metall shoxobchaga choksiz o'tish imkonini beradi.",
+        "seo_p2": "PP-R dan tayyorlangan T-qism korpusi uzluksiz uzunlik oqimini ta'minlaydi, shoxobchadagi metall qo'shimcha (tashqi rezba) esa eng yuqori bosim va zo'riqishlarga bardosh beradi.",
+        "seo_p3": "Quvur tarmog'i o'rtasida datchiklar, bo'shatish klapanlari yoki manometrlarni asosiy tarmoqni mexanik jihatdan zaiflashtirmasdan to'g'ridan-to'g'ri o'rnatish uchun ideal.",
+        "faq": [
+          {
+            "q": "Payvandlash egarining (Sattel) T-qismdan afzalligi nima?",
+            "a": "U asosiy quvurni kesmasdan turib keyinchalik tarmoq ajratish imkonini beradi va tizim yaxlitligiga ta'sirni minimallashtiradi."
+          },
+          {
+            "q": "Egar (Sattel) qanday o'rnatiladi?",
+            "a": "Asosiy quvur maxsus parma bilan teshib olinadi, keyin quvur va egar bir vaqtning o'zida isitilib, aniq tarzda payvandlanadi."
+          },
+          {
+            "q": "Sprinkler (purkagich) tizimlari uchun mosmi?",
+            "a": "K Aqua egarli o'tish qismi ba'zi xalqaro bozorlarda yengil qurilishdagi sprinkler kallaklarini ulash uchun muvaffaqiyatli qo'llanilmoqda."
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "seo_p1": "Ichki rezbali 90°-T-qism (Tee 90° Female Thread) armatura yoki datchikni to'g'ridan-to'g'ri uzluksiz PP-R trubasiga birlashtirish uchun ko'p qirrali komponentdir.",
+        "seo_p2": "Oqim uchun ikkita payvandlash mufasi va massiv ichki rezbali shoxobchaga ega ushbu element SDR bosim sinflaridagi barqarorlikning barcha talablariga javob beradi.",
+        "seo_p3": "Odatda ichimlik suvini taqsimlashda namuna olish klapanlarini ulash uchun yoki isitish tizimlarida termometrlar interfeysi sifatida ishlatiladi.",
+        "faq": [
+          {
+            "q": "Tashqi rezbali egar (Sattel) ham bir xil mustahkamlikni taqdim etadimi?",
+            "a": "Albatta. Latun qo'shimchasi PP-R matritsasida chuqur o'rnatilgan, bu esa qismni to'liq bosimga chidamli (PN 25) qiladi."
+          },
+          {
+            "q": "Shoxobcha o'lchamlarida cheklovlar bormi?",
+            "a": "Texnik sabablarga ko'ra egar shoxobchasining diametri asosiy quvur diametridan doimo ancha kichik bo'lishi kerak (masalan, 63 mm dan 1/2\" ga)."
+          },
+          {
+            "q": "Egarni shisha tolali quvurlarga (Faserrohre) ham payvandlash mumkinmi?",
+            "a": "Ha, u barcha K Aqua quvur turlariga (Standard, PPRCT, Faser, UV) teshilganidan so'ng bir xil darajada mos keladi."
+          }
+        ]
+      },
+      "union": {
+        "seo_p1": "To'liq plastik gaykali ulanish (Union) butunlay polipropilendan (PP-R) tayyorlangan ulanish elementi bo'lib, metall qismlarsiz ajratiladigan aloqa hosil qiladi.",
+        "seo_p2": "Ishonchli zichlash tizimi va plastikdan tayyorlangan mustahkam gaykalari tufayli ushbu ulanish PP-R quvurlari tizimining standart ish bosimiga to'liq bardosh beradi.",
+        "seo_p3": "U kimyo sanoatida yoki agresiv vositalarda bo'lgani kabi metall bilan aloqa qilish qat'iyan man etilgan mutlaqo korroziyasiz tizimlar uchun ajralmasdir.",
+        "faq": [
+          {
+            "q": "Qachon men metall erkin flanets o'rniga PP-R flanetsini tanlayman?",
+            "a": "PP-R flanetsidan tashiladigan vosita yuqori korroziyali bo'lsa va metall bilan har qanday aloqadan qochish kerak bo'lsa (to'liq plastik tizim) foydalaniladi."
+          },
+          {
+            "q": "To'liq plastik flanetslarda bosim cheklovlari bormi?",
+            "a": "Plastmassa po'latga qaraganda egiluvchanroq bo'lganligi sababli, kattaroq o'lchamdagi plastik flanetslarda maksimal nominal bosimlar biroz pasaytirilgan."
+          },
+          {
+            "q": "Vintlar uchun maxsus shaybalar kerakmi?",
+            "a": "Ha, vintning tortish kuchini plastmassa bo'ylab teng taqsimlash uchun katta yuzali shaybalardan foydalanish qat'iy tavsiya etiladi."
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "seo_p1": "Suv o'lchagich gaykali ulanishi (Union for Watermeters) suv o'lchagichlarni PP-R quvurlariga kuchlanishsiz va standartlarga mos ravishda integratsiya qilish uchun maxsus ishlab chiqilgan.",
+        "seo_p2": "Konstruksiyada payvandlanadigan PP-R uchi va massiv ulanish gaykasini muhrlash (plombalash) imkoniyati mavjud bo'lib, ichimlik suvi tizimlarining standart bosimiga mo'ljallangan.",
+        "seo_p3": "U asboblarning yemirilishisiz hisoblash moslamalarini tez va xavfsiz almashtirish imkonini beradi hamda aynan mos tushuvchi tekis qistirma yordamida suv sizib chiqishini oldini oladi.",
+        "faq": [
+          {
+            "q": "Suv hisoblagich ulanishining xususiyati nimada?",
+            "a": "U odatda standartlashtirilgan suv hisoblagichlariga to'liq mos keladigan plombalash imkoniyati va maxsus rezba o'lchamlariga ega."
+          },
+          {
+            "q": "Qistirmalar issiq suv uchun mo'ljallanganmi?",
+            "a": "To'plamdagi maxsus qistirmalar modeliga ko'ra sovuq suv yoki issiq suv hisoblagichlari (issiqlik hisoblagichlar) uchun ajratilgan."
+          },
+          {
+            "q": "PP-R quvur suv o'lchagichning og'irligini ko'tara oladimi?",
+            "a": "Kattaroq va og'irroq hisoblagichlar (uy tarmog'i ulanishi) uchun quvur tarmog'ini mexanik tarzda zo'riqtirmaslik maqsadida hisoblagich uchun alohida tirgak qo'yishni tavsiya qilamiz."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "seo_p1": "PP sharchali PP-R sharli klapani (PP-R Ball Valve Ball in PP) eng yuqori gigiyenik talablar uchun butunlay korroziyasiz yopish (absperr) armaturasidir.",
+        "seo_p2": "Bu to'liq plastik ventil uzoq muddatli PP-R korpusiga va polipropilendan yasalgan aniq ishlangan sharchaga ega. SDR sinflarining tizim bosimiga ishonchli bardosh beradi.",
+        "seo_p3": "U tez-tez kimyo sanoati ob'ektlarida yoki demineralizatsiyalangan suvda qo'llaniladi, chunki u tashilayotgan muhit bilan har qanday metall aloqasini tizimli ravishda inkor etadi.",
+        "faq": [
+          {
+            "q": "Ventildagi plastik sharchaning qanday afzalligi bor?",
+            "a": "U muhitda korroziya va ionlar ajralib chiqishini oldini oladi, bu o'ta toza suv yoki agressiv kimyoviy moddalar uchun qat'iy talabdir."
+          },
+          {
+            "q": "Ventil issiq suvga ham mos keladimi?",
+            "a": "Ha, sharchaning maxsus termoplastik materiali va teflon (PTFE) qistirmalari yuqori haroratlarda ham to'liq ishlashni kafolatlaydi."
+          },
+          {
+            "q": "Ventilga qanday texnik xizmat ko'rsatiladi?",
+            "a": "K Aqua PP-R sharli klapanlari o'z konstruksiyasi tufayli mutlaqo texnik xizmat ko'rsatishdan xoli bo'lib, o'nlab yillar davomida uzluksiz ishlashga mo'ljallangan."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "seo_p1": "Xromlangan latun sharchali sharli klapan (PP-R Ball Valve Ball in Brass Chromium Plated) plastmassaning payvandlanuvchanligini metallning mexanik qattiqligi bilan birlashtiradi.",
+        "seo_p2": "Katta PP-R korpusiga o'rnatilgan yuqori jiloli xromlangan latun sharcha hatto katta harorat o'zgarishlarida ham nihoyatda ishqalanishsiz va yedirilishsiz yopishni ta'minlaydi.",
+        "seo_p3": "Bu ichimlik suvi va isitish tarmoqlaridagi asosiy yopish uchun standart armatura bo'lib, mutlaq ishonchlilik va uzoq muddatli, texnik xizmat ko'rsatilmaydigan ishlash muddati bilan ajralib turadi.",
+        "faq": [
+          {
+            "q": "Latun sharcha oqim o'tkazishda afzalliklarga egami?",
+            "a": "Ha, xromlangan latun sharchani yupqaroq devor bilan yasash mumkin, bu esa to'liq, qarshiliksiz o'tkazuvchanlikni ta'minlaydi."
+          },
+          {
+            "q": "Latun sharcha ichimlik suvi uchun yaroqlimi?",
+            "a": "Albatta, biz faqat og'ir metallarni ichimlik suviga ajratib chiqarmaydigan yuqori tozalikdagi, sertifikatlangan DZR-latundan foydalanamiz."
+          },
+          {
+            "q": "Ventilni mavjud metall quvurlar tarmoqlariga birlashtirish mumkinmi?",
+            "a": "Ha, o'tish mufalari yoki flanetslar bilan birgalikda uni aralash o'rnatishlarda yopuvchi ventil sifatida muammosiz qo'llash mumkin."
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "seo_p1": "Ichki ventil uchun ichki rezbali 90°-T-qismi to'g'ridan-to'g'ri quvur tarmog'iga yashirin ventillarni o'rnatish imkonini beruvchi maxsus moslamadir.",
+        "seo_p2": "Suv oqimi uchun ikkita payvandlanadigan uchi va ventil mexanizmi (masalan, to'g'ri o'rindiqli ventil yuqori qismi) uchun standartlashtirilgan latun ichki rezbasiga ega.",
+        "seo_p3": "Bu qism yashirin ventillarni o'rnatishda oraliq qismlarni qisqartirish orqali santexniklar uchun xarajat va vaqtni maksimal darajada tejaydi.",
+        "faq": [
+          {
+            "q": "Bu T-qism odatiy ichki rezbali T-qismdan nimasi bilan farq qiladi?",
+            "a": "Rezba aynan ventil mexanizmlari (O-ring yopishtirgichlar bilan) muammosiz o'rnatilishi va oqimni optimal tarzda to'sishi uchun chuqurroq va maxsus ishlangan."
+          },
+          {
+            "q": "Qanday ventillarni ulash mumkin?",
+            "a": "Barcha standart K Aqua yashirin va to'g'ri o'rindiqli ventillarning yuqori qismlari ushbu fitting bilan to'liq mos keladi."
+          },
+          {
+            "q": "Ushbu fitting bosim pasayishiga olib keladimi?",
+            "a": "Ichki dizayn oqim uchun optimallashtirilgan, biroq ventil o'rnatilgandan so'ng, ventil turiga qarab tabiiy gidravlik qarshilik paydo bo'lishi mumkin."
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "seo_p1": "Yashirin xromli ventil (yengil qism) vannaxona va oshxonalarda devor ichiga o'rnatish uchun mo'ljallangan estetik jihatdan jozibali yopish armaturasidir.",
+        "seo_p2": "Yengil vaznli konstruksiya to'liq ochish va yopish mexanizmini xromlangan tutqich bilan birlashtirib, PP-R tarmog'iga ulanadigan yashirin qismni to'ldiradi.",
+        "seo_p3": "Ko'zga ko'rinarli interyer dizaynlari uchun mukammal mos keladi hamda alohida iste'molchilarni ishonchli ravishda to'xtatib turish imkonini beradi.",
+        "faq": [
+          {
+            "q": "Yengil (light) versiyaning og'ir (heavy) versiyadan farqi nimada?",
+            "a": "Yengil qism asosan oddiy yopish funktsiyalari uchun ixchamroq qilib tayyorlangan, og'ir qism esa yuqori oqimlar va sanoat talablari uchun maslahat beriladi."
+          },
+          {
+            "q": "Xrom qoplama kafel ustida joylashadimi?",
+            "a": "Ha, xromlangan rozeta kafel ustiga yopiladi va devor teshigini chiroyli yashiradi."
+          },
+          {
+            "q": "O'rnatish chuqurligini o'zgartirish mumkinmi?",
+            "a": "Yashirin ventil devor ichiga o'rnatilgach, maxsus uzaytirgichlar (elongation pieces) yordamida tashqi tutqich uzunligini sozlash mumkin."
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "seo_p1": "Yashirin xromli ventilning og'ir qismi (Concealed Valve Chrome Heavy Part) yuqori talablar va doimiy foydalanish uchun o'ta mustahkam latun-xrom yopish mexanizmidir.",
+        "seo_p2": "Ushbu mustahkamlangan versiya kattaroq oqim bosimini ta'minlaydi va tez-tez ishlatiladigan jamoat binolari va mehmonxonalar uchun barqarorlikni taklif etadi.",
+        "seo_p3": "Og'ir konstruksiya silliq ishlashni va suv zarbalariga maksimal qarshilikni kafolatlaydi.",
+        "faq": [
+          {
+            "q": "Nega men og'ir versiyani tanlashim kerak?",
+            "a": "Ko'proq oqim, yaxshilangan ovoz izolatsiyasi (shovqin pastligi) va asosan suv bosimi katta bo'lgan yirik loyihalarda mustahkamligi uchun."
+          },
+          {
+            "q": "PP-R korpusi ushbu ventil bilan birga keladimi?",
+            "a": "Odatda u maxsus yashirin ventil T-qismiga ulanadigan mexanizm qismi sifatida keladi."
+          },
+          {
+            "q": "Maxsus parvarish talab etiladimi?",
+            "a": "Yo'q, valf ichki mexanizmlari zavodda doimiy soqol bilan to'ldirilgan bo'lib, uning yillar davomida xizmat qilishini ta'minlaydi."
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "seo_p1": "To'g'ri o'rindiqli ventil yuqori qismi (Straight Seat Valve) yashil tutqichli klassik yopish moslamasi bo'lib, quvur tarmog'ini qo'lda to'liq nazorat qilish imkonini beradi.",
+        "seo_p2": "Barcha standart PP-R ventil korpuslariga (T-qismlarga) to'g'ri keluvchi mustahkam latun asosli va ergonomik K Aqua yashil tutqichiga ega mexanizmdir.",
+        "seo_p3": "Odatda isitish xonalarida, suv o'lchagichlardan oldin va keyin yoki ko'zga tashlanmaydigan texnik qismlarda tarmoqni yopish uchun eng ishonchli variant.",
+        "faq": [
+          {
+            "q": "Yashil tutqich plastmassami yoki metall?",
+            "a": "Tutqich yuqori chidamli plastmassadan tayyorlangan bo'lib, zanglamaydi va kuchli burashlarga chidaydi."
+          },
+          {
+            "q": "Rezinali (prokladka) qistirma issiq suvga dosh beradimi?",
+            "a": "Ha, yuqori sifatli EPDM yoki PTFE qistirmalari isitish tizimlari haroratiga muammosiz dosh beradi."
+          },
+          {
+            "q": "Yuqori qismini qancha vaqtda bir yog'lash kerak?",
+            "a": "Shpindel rezbasi zavodda oziq-ovqat uchun xavfsiz moy bilan ta'minlangan, qo'shimcha moylash talab etilmaydi."
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "seo_p1": "Uzatgich qismlar (Elongation Pieces) - bu armatura ulanishlari devorda juda chuqur qolib ketganda ishlatiladigan muammo yechimlaridir.",
+        "seo_p2": "Bu mustahkam latun qismlar suv oqimini kamaytirmasdan yoki bosimni pasaytirmasdan, yashirin ventillarning rezbasini millimetr aniqlik bilan tashqariga uzaytiradi.",
+        "seo_p3": "Ular kafel qatlami qalinlashib ketgan hollarda tashqi tutqichlarni muammosiz o'rnatishga yordam beradi.",
+        "faq": [
+          {
+            "q": "Qachon menga ventil uzaytirgichi kerak bo'ladi?",
+            "a": "Agar suvoq yoki kafel rejalashtirilganidan qalinroq bo'lsa va yashirin ventilning shpindeli devordan yetarlicha chiqib turmasa."
+          },
+          {
+            "q": "Bir nechta uzatgichlarni birlashtirish mumkinmi?",
+            "a": "Texnik jihatdan mumkin, ammo mustahkamlikni saqlash uchun birdaniga bitta uzun (long) versiyani ishlatishni maslahat beramiz."
+          },
+          {
+            "q": "Uzatgich rezbasi standartlashtirilganmi?",
+            "a": "Ha, uzatgichlarimizning rezbasi K Aqua yashirin ventillarining standart qismlariga aniq mos keladi."
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "seo_p1": "Ichki rezbali taqsimlovchi batareya (Battery Female Thread) bir nechta chiquvchi nuqtalarni ixcham va oldindan yig'ilgan PP-R blokida birlashtiradi.",
+        "seo_p2": "Yaxlit polipropilen korpus va integratsiyalashgan latun rezbalari armaturalar uchun aniq, o'zgarmas oraliq masofani (stichmaß) kafolatlaydi.",
+        "seo_p3": "Bu batareya dush yoki vanna kranlarini o'rnatishni tezlashtiradi, chunki alohida devor tirsaklarini bir-biriga moslab o'lchashga hojat qolmaydi.",
+        "faq": [
+          {
+            "q": "Batareyadagi oraliq masofa (stichmaß) qancha?",
+            "a": "U 150 mm lik xalqaro standart oraliqqa qotirilgan va 99% devor kranlari uchun mos keladi."
+          },
+          {
+            "q": "Batareyani burish yoki egish mumkinmi?",
+            "a": "Yo'q, markaziy plastik ko'prik qat'iy oraliqni ushlab turadi. O'zgacha oraliqlar uchun individual devor burchaklarini ishlatish kerak."
+          },
+          {
+            "q": "Batareya devorga qanday qotiriladi?",
+            "a": "G'isht, beton yoki gipsokarton devorlarga vintlar bilan ishonchli qotirish uchun u bir nechta o'rnatish teshiklariga ega."
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "seo_p1": "Sozlanuvchan taqsimlovchi batareya (Adjustable Battery Female Thread) nostandart oraliqlarga ega devor kranlarini o'rnatishda maksimal moslashuvchanlikni taklif qiladi.",
+        "seo_p2": "PP-R relsli tizimi tufayli integratsiyalashgan ichki rezbalarning o'rnini aniq sozlash va keyin qulflab qo'yish mumkin.",
+        "seo_p3": "Bu qayta ta'mirlash loyihalari yoki 150 mm lik standart masofa qo'llanilmaydigan maxsus armaturalar uchun ideal yechimdir.",
+        "faq": [
+          {
+            "q": "Masofani qanchalik aniq sozlash mumkin?",
+            "a": "Sirpanuvchi rels orqali devor plastinalarini armaturaning talab qilingan o'lchamiga mutlaqo silliq, chegarasiz sozlash mumkin."
+          },
+          {
+            "q": "Sozlanadigan versiyada o'rni siljib ketish xavfi bormi?",
+            "a": "To'g'ri o'lcham o'rnatilgach, u qattiq qulflanadi. Shuning uchun kafel terish jarayonida siljib ketishi mumkin emas."
+          },
+          {
+            "q": "To'g'rilash uchun suv sathi (uroven) kerakmi?",
+            "a": "Ha, barcha armatura ulanishlarida bo'lgani kabi, yakuniy qotirishdan oldin montaj plitasi suv sathi bilan aniq gorizontal holatga keltirilishi kerak."
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "seo_p1": "Payvandlanadigan egar (Weld-in Saddle) asosiy quvurni butunlay kesib tashlamasdan, yangi shoxobchalar ochish uchun inqilobiy yechimdir.",
+        "seo_p2": "Egar shaklidagi PP-R fittingi asosiy quvurni teshib olingandan so'ng to'g'ridan-to'g'ri quvur devoriga payvandlanadi. Bu original quvur kabi bosimga chidamlilikni kafolatlaydi.",
+        "seo_p3": "Sanoat tarmoqlari va yirik ko'taruvchi stoyaklarda katta o'rnatish vaqtini tejaydi, chunki tarmoqni kengaytirish uchun uni qismlarga ajratish shart emas.",
+        "faq": [
+          {
+            "q": "Metall rezbali egardan farqi nimada?",
+            "a": "Bu payvandlanadigan egar butunlay PP-R dan iborat bo'lib, uning teshigiga bevosita boshqa PP-R quvur yoki fitting payvandlanadi."
+          },
+          {
+            "q": "Asosiy quvur ma'lum bir qalinlikda bo'lishi kerakmi?",
+            "a": "Yo'q, to'g'ri teshilgan taqdirda, egarni barcha K Aqua bosim darajalariga (SDR 6 dan SDR 17 gacha) xavfsiz payvandlash mumkin."
+          },
+          {
+            "q": "Teshish va payvandlash qancha vaqt oladi?",
+            "a": "Tajribali santexnik maxsus asbob bilan teshish va payvandlash jarayoni uchun ko'pi bilan 3-5 daqiqa sarflaydi."
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "seo_p1": "Ichki rezbali payvandlanadigan egar (Weld-in Saddle Female Thread) egar montaji tezligini bevosita metall ulanish bilan birlashtiradi.",
+        "seo_p2": "PP-R egar korpusidan tashqari, bu fitting mustahkam latun ichki rezbaga ega bo'lib, klapanlar va datchiklar uchun buralmaydigan mustahkam asos bo'ladi.",
+        "seo_p3": "Mavjud quvur tarmoqlarini kesmasdan, ularga bo'shatish klapanlari, havo chiqargichlar yoki datchiklarni qo'shish uchun ideal yechim.",
+        "faq": [
+          {
+            "q": "Ushbu egarning asosiy afzalligi nimada?",
+            "a": "Bu mavjud quvurga to'g'ridan-to'g'ri metall ichki rezbani o'rnatish imkonini beradi, bu esa vaqt va joyni favqulodda tejaydi."
+          },
+          {
+            "q": "Bunga termometrlarni burab qotirsa bo'ladimi?",
+            "a": "Ha, egar isitish tarmoqlarida harorat datchiklari yoki kichik manometrlarni doimiy va bosimga chidamli ulash uchun ajoyib interfeysdir."
+          },
+          {
+            "q": "Latun rezba yulib ketishdan himoyalanganmi?",
+            "a": "Albatta. Latun bo'lak PP-R strukturasi ichiga chuqur joylashtirilgan va maxsus yuzasi tufayli ajralmas qilib mexanik tarzda qotirilgan."
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "seo_p1": "Tashqi rezbali payvandlanadigan egar (Weld-in Saddle Male Thread) ulanish gaykalari yordamida tizim qismlarini bevosita asosiy quvurga zudlik bilan ulash imkonini beradi.",
+        "seo_p2": "Choksiz payvandlangan PP-R egar og'ir yuklamalarga va doimiy harorat o'zgarishlariga bardosh beruvchi massiv latun tashqi rezbaga ega.",
+        "seo_p3": "Kollektor o'rnatishlarida yopish ventillari yoki nasos chiquvchilarini o'ta ixcham va gidravlik jihatdan optimal o'rnatish uchun ko'p ishlatiladi.",
+        "faq": [
+          {
+            "q": "Egardagi tashqi rezba qanday ulanishlar uchun mos keladi?",
+            "a": "U ichki rezbali armaturalarni to'g'ridan-to'g'ri ulash uchun yoki ulanish gaykasi bilan ta'minlangan qismlarga o'rnatish uchun a'lo darajada."
+          },
+          {
+            "q": "Ushbu egar barcha quvur o'lchamlari uchun mavjudmi?",
+            "a": "Payvandlanadigan egar odatda 40 mm dan 125 mm gacha bo'lgan asosiy quvurlar uchun ishlab chiqariladi, tashqi rezba esa odatda 1/2\" yoki 3/4\" bo'ladi."
+          },
+          {
+            "q": "Teshilgandan keyin zichlik qanday ta'minlanadi?",
+            "a": "Egar va quvurning erishi natijasida molekulyar darajada 100% zich bo'lgan, bir jinsli choksiz aloqa hosil bo'ladi."
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "seo_p1": "Quvur qisqichlari (Pipe Clamps) PP-R quvurlari tarmog'ini o'rnatishda, ham ko'rinadigan joylarda hamda shift o'rnatishlarida aniq va ishonchli ushlab turish uchun mo'ljallangan.",
+        "seo_p2": "Elastomer qistirma bilan jihozlangan mustahkam dizayn quvurlarning issiqlik tufayli kengayishini qoplaydi hamda kuchlanish yoki mexanik zo'riqishsiz barqaror o'rnatish imkonini beradi.",
+        "seo_p3": "Sanoat tarmoqlaridan tortib, uydagi sanitariya tizimlarigacha barcha quvurlar yo'nalishini xavfsiz va tizimli boshqarish uchun juda mos keladi.",
+        "faq": [
+          {
+            "q": "Nima uchun rezina (elastomer) qistirmali qisqichlar kerak?",
+            "a": "Rezina qistirma tebranishlarni yutadi, shovqinni kamaytiradi (akustik izolyatsiya) va quvurning issiqlik kengayishi vaqtida erkin siljishiga imkon beradi."
+          },
+          {
+            "q": "Qisqichlar orasidagi masofa qancha bo'lishi kerak?",
+            "a": "Qisqichlar orasidagi masofa quvur diametri, suv harorati va quvur turiga (masalan, standart yoki shisha tolali quvur) bog'liq bo'ladi. Katalogimizdagi jadvallarda aniq masofalar berilgan."
+          },
+          {
+            "q": "Ushbu qisqichlar tashqi muhitda ishlatilishi mumkinmi?",
+            "a": "Ha, galvanizatsiyalangan sirt ularni korroziyadan himoya qiladi, shuning uchun ular ma'lum darajada ochiq havoda yoki nam xonalarda ham foydalanilishi mumkin."
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "seo_p1": "Po'lat qoplamali PP tayanuvchi flanets (Backing Flange PP/Steel SFBF) yirik hajmdagi tizimlarda quvurlarni o'zaro yoki boshqa metall flanetslarga ulashda maksimal xavfsizlikni ta'minlaydi.",
+        "seo_p2": "Po'lat yadro unga mislsiz mustahkamlik bag'ishlaydi, tashqi polipropilen qoplamasi esa 100% korroziyaga qarshilik va izolyatsiyani kafolatlaydi.",
+        "seo_p3": "Kimyoviy zavodlarda, suzish havzalarida va yuqori bosimli agregatlarda eng yuqori ulanish xavfsizligini ta'minlash uchun mo'ljallangan.",
+        "faq": [
+          {
+            "q": "Ushbu flanetsning oddiy po'lat flanetsdan farqi nimada?",
+            "a": "Bu flanets ichidagi po'lat bilan mustahkamlangan, lekin to'liq plastik qoplamaga ega, shuning uchun zanglamaydi va maxsus izolyatsiya talab qilmaydi."
+          },
+          {
+            "q": "Barcha standart klapanlarga mos keladimi?",
+            "a": "Ha, ularning burg'ulash o'lchamlari standart EN/DIN o'lchamlariga (PN10/PN16) mos keladi, shuning uchun standart flanetslar bilan bemalol ulanadi."
+          },
+          {
+            "q": "O'rnatishda maxsus ko'rsatmalar bormi?",
+            "a": "Flanetsni burtika (flange adaptor) ortiga o'rnatish kerak. Vintlar teng va krest usulida, asta-sekin qotirilishi lozim."
+          }
+        ]
+      },
+      "flat-gasket": {
+        "seo_p1": "Yassi qistirma (Flat Gasket) flanets ulanishlari o'rtasida mutlaq zichlikni va suv oqib ketmasligini ta'minlaydigan muhim elementdir.",
+        "seo_p2": "Yuqori sifatli EPDM kauchukdan ishlangan bu qistirmalar keng harorat oralig'ida va turli kimyoviy moddalar ta'sirida o'z shakli va elastikligini saqlab qoladi.",
+        "seo_p3": "U isitish va sovitish tizimlaridan tortib to toza ichimlik suvi uzatish stansiyalarigacha – har bir flanets ulanishining asosiy qismidir.",
+        "faq": [
+          {
+            "q": "Qistirma materiali ichimlik suvi uchun ruxsat etilganmi?",
+            "a": "Ha, EPDM materiali oziq-ovqat va ichimlik suvi uchun barcha zarur gigiyenik standartlarga javob beradi."
+          },
+          {
+            "q": "Qistirma uzoq yillardan keyin qurib qolmaydimi?",
+            "a": "Yuqori sifatli EPDM standart rezinalarga nisbatan o'ta bardoshli bo'lib, o'n yillar davomida o'z moslashuvchanligini saqlaydi."
+          },
+          {
+            "q": "Har safar flanets ochilganda qistirma almashtirilishi kerakmi?",
+            "a": "Xavfsizlik nuqtai nazaridan, flanetsli ulanish har gal yechilganda yangi qistirma o'rnatish qat'iy tavsiya etiladi."
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "seo_p1": "PP-R ulanish gaykalari uchun yassi qistirma maxsus gaykali ulanishlarning (Unions) geometriyasiga aniq moslashtirilgan ehtiyot qismdir.",
+        "seo_p2": "K Aqua gaykali ulanishlaridagi truba yuzasiga qat'iy to'g'ri keluvchi EPDM qistirmasi, yopish kuchi mukammal taqsimlanishini va siqilib yorilmasligini kafolatlaydi.",
+        "seo_p3": "Nasos yoki hisoblagich kabi uskunalarda kichikroq bo'g'inlarni mustahkam va ishonchli zichlash uchun ajralmas detal.",
+        "faq": [
+          {
+            "q": "O-ring bilan yassi qistirma o'rtasidagi farq nima?",
+            "a": "Yassi qistirma kengroq tekis yuzada zichlashadi, bu esa ulanish gaykalarida O-ringlarga qaraganda bosim o'zgarishlariga ancha ishonchli javob beradi."
+          },
+          {
+            "q": "Buni issiqlik hisoblagichlarida ishlatsa bo'ladimi?",
+            "a": "Ha, bu EPDM qistirmalari yuqori haroratga bardoshli bo'lib, markaziy isitish tizimlarida ishlash uchun ham sertifikatlangan."
+          },
+          {
+            "q": "Boshqa brendlarning gaykalariga to'g'ri keladimi?",
+            "a": "U asosan K Aqua gaykali ulanishlari uchun maxsus o'lchamlarda tayyorlangan, biroq xuddi shunday o'lchamdagi boshqa brendlarga ham mos kelishi mumkin."
+          }
+        ]
+      },
+      "plug": {
+        "seo_p1": "Tiqin (Plug) sanitariya o'rnatish vaqtida yoki keyinchalik rezbali ochiq joylarni vaqtinchalik yoxud doimiy yopish uchun xizmat qiladi.",
+        "seo_p2": "Mustahkam PP-R dan ishlangan bo'lib, ko'pincha rezbali halqa qistirmasiga ega, bu esa tarmoq bosimini sinashda ham yuqori qarshilikka dosh beradi.",
+        "seo_p3": "Qurilish bosqichida quvurlarni chang va kirdan himoya qiladi hamda armatura o'rnatilguncha rozetkalarni yopib turadi.",
+        "faq": [
+          {
+            "q": "Ushbu tiqin sinov bosimlariga (opressovka) bardosh bera oladimi?",
+            "a": "Ha, u tizimning to'liq sinov bosimlariga (ko'pincha 15 bardan yuqori) chidash uchun mustahkam tarzda yaratilgan."
+          },
+          {
+            "q": "Tiqinni qo'shimcha ravishda teflon bilan izolyatsiya qilish kerakmi?",
+            "a": "Bizning tiqinlarda ko'pincha O-ring o'rnatilgan bo'lib, teflon yoki kanop (len) kabi qo'shimcha zichlagich materiallarga ehtiyoj yo'q."
+          },
+          {
+            "q": "Devorda doimiy ravishda qoldirish mumkinmi?",
+            "a": "U asosan vaqtinchalik (qurilish) tiqini sifatida yaratilgan. Doimiy ko'r ulanishlar uchun latun (messing) tiqinlardan foydalanish tavsiya etiladi."
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "seo_p1": "Quvur kesgich d20-d40 (Pipe Cutter 20-40) kichik va o'rta quvur diametrlarida aniq va toza kesishlar uchun zaruriy professional vositadir.",
+        "seo_p2": "Titan bilan qoplangan tig'i (lezviya) va mexanik dastak kuchi tufayli, kesgich PP-R quvurlarini deformatsiyasiz mutlaq to'g'ri burchak ostida kesishni kafolatlaydi.",
+        "seo_p3": "Toza, qirindi va parchalarsiz kesish standartlarga javob beradigan sifatli payvandlashning asosiy shartidir. Bu kesgich har bir usta uchun ajralmas hamrohdir.",
+        "faq": [
+          {
+            "q": "Nima uchun maxsus quvur kesgich juda muhim?",
+            "a": "PP-R quvurni arra bilan kesish mikro yoriqlar va qirindilar qoldiradi. Keskich orqali qilingan silliq va tekis kesishgina nuqsonsiz payvandlash imkonini beradi."
+          },
+          {
+            "q": "Tig'ini almashtirish mumkinmi?",
+            "a": "Ha, uzoq ishlatish tufayli o'tmaslashgan yuqori quvvatli po'lat tig'ni osongina asl ehtiyot qismiga almashtirish mumkin."
+          },
+          {
+            "q": "Kesgich sovuq havo sharoitida qanday ishlaydi?",
+            "a": "Mexanizm doim yaxshi ishlaydi, ammo muzlash haroratida PP-R quvurlarini kesish tavsiya etilmaydi, chunki quvur yorilishi va parchalanishi mumkin."
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "seo_p1": "Yirik quvur kesgich d50-d125 (Pipe Cutter 50-125) katta diametrli plastik quvurlar uchun mustahkam aylanma g'ildirakli (rolikli) kesish asbobidir.",
+        "seo_p2": "Uning po'lat korpusi va maxsus ishlangan kesish g'ildiragi yirik SDR sinflarining qalin devorlarini mukammal parallellik bilan osongina kesib o'tadi.",
+        "seo_p3": "Sanoat ob'ektlarida asosiy taqsimlash quvurlarini tayyorlash uchun ideal. Ushbu asbob arra ishlatilganda yuzaga kelishi mumkin bo'lgan notekis va pachoqlangan uchlarning oldini oladi.",
+        "faq": [
+          {
+            "q": "Bunday qalin quvurlarni kesish jarayoni qanday ishlaydi?",
+            "a": "Asbob quvur atrofiga biriktiriladi, kesish g'ildiragi sekinlashtirilib asta-sekin tortiladi va kesgich quvur atrofida bir tekisda aylanma harakatlantiriladi."
+          },
+          {
+            "q": "Bu asbob shisha tolali kompozit (faser) quvurlarni ham kesadimi?",
+            "a": "Ha, maxsus qattiqlashtirilgan kesish g'ildiragi bizning shisha tolali PPRCT quvurlarimizni ham juda aniqlik va qiyinchiliksiz kesib o'tadi."
+          },
+          {
+            "q": "Bu kesgich faska olish zaruratini yo'q qiladimi?",
+            "a": "Mufali payvandlashda faska olish talab qilinmaydi. Shuning uchun bu vositaning mutlaqo tekis va silliq kesimi to'g'ridan-to'g'ri payvandlash uchun mukammaldir."
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "seo_p1": "Yuqori unumdor quvur kesgich d50-d125 V1 (Pipe Cutter 50-125-1) ayniqsa tez va ergonomik kesish ishlari uchun takomillashtirilgan versiyadir.",
+        "seo_p2": "Optimallashtirilgan aylanma shpindel mexanizmi va o'rnatilgan tezkor qaytarish tizimi orqali qalin PP-R quvurlarni kesish jarayonini nihoyatda tezlashtiradi.",
+        "seo_p3": "50 mm dan oshuvchi yirik quvurlar ko'p sarflanadigan qurilish loyihalari uchun mo'ljallangan bo'lib, u foydalanuvchining jismoniy zo'riqishini minimal darajaga tushiradi.",
+        "faq": [
+          {
+            "q": "'Tezkor qaytarish mexanizmi' (Schnellrücklauf) nima?",
+            "a": "Kesish tugagandan so'ng, tugmani bosish orqali kesish g'ildiragini orqaga uzoq buramasdan, birdaniga dastlabki holatga qaytarish mumkin."
+          },
+          {
+            "q": "Bu model statsionar (bir joyda turuvchi) dastgoh sifatida yaxshiroqmi?",
+            "a": "U ko'chma vosita, biroq uning massiv tuzilishi va shpindelning aniq harakati uni ustaxonalarda statsionar oldindan yig'ish (tayyorlash) ishlari uchun a'lo darajada mos qiladi."
+          },
+          {
+            "q": "Ushbu quvur kesgich uchun ehtiyot qismlar bormi?",
+            "a": "Ha, kesish g'ildiragi hamda yo'naltiruvchi roliklar (g'ildirakchalar) doimiy ravishda asl ehtiyot qismlar sifatida mavjud."
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "seo_p1": "d20-d32 qo'l payvandlash uskunasi (Hand Welding Machine 20-32 Complete Set) kichik diametrli quvurlarni ulash uchun professional tayanch stansiyasidir.",
+        "seo_p2": "To'plamda termostatik boshqariladigan 800 vattli isitish elementi, teflon qoplamali payvandlash nosadkalari hamda mustahkam metall quti ichidagi turadigan podyomnik mavjud.",
+        "seo_p3": "Ko'rinmas (shkaturka osti) va qavatlararo tez va standartlarga javob beradigan montaj uchun tayyorlangan ushbu uskuna kerakli 260°C haroratni har doim mutlaq barqaror saqlaydi.",
+        "faq": [
+          {
+            "q": "Elektron termostat nima uchun bu qadar muhim?",
+            "a": "Faqat aniq termostatgina xavfsiz PP-R payvandlashi uchun talab etiladigan, aynan DVS me'yorlariga mos keluvchi 260°C doimiy haroratni kafolatlaydi."
+          },
+          {
+            "q": "Isitish fazasi qancha vaqt davom etadi?",
+            "a": "Kuchli 800 Vtli isitgich elementi tufayli qurilma odatda 10 daqiqadan kamroq vaqt ichida o'zining to'liq ishchi haroratiga yetadi."
+          },
+          {
+            "q": "Kassa (Chemodan) ichida qanday asboblar bor?",
+            "a": "To'plamga isitkich, tayanch oyog'i, 20, 25 va 32 mm uchun teflon nosadkalar, olti burchakli kalit va montaj vintlari (po'lat quti ichida) kiradi."
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "seo_p1": "d20-d63 qo'l payvandlash uskunasi (Hand Welding Machine 20-63 Complete Set) butun klassik ichki muhandislik montaj ishlari spektrini qamrab oladi.",
+        "seo_p2": "Yuqori issiqlik sig'imi va nosadkalar uchun qo'shaloq ulagich joylari (teshiklar) bilan bu qurilma asbobni almashtirmasdan turli diametrlarni bir vaqtda isitishga imkon beradi.",
+        "seo_p3": "Mustahkam to'plam og'ir qurilish sharoitlariga mo'ljallangan va hatto noqulay ob-havo sharoitlarida ham murosa qilmaydigan aniq payvandlash haroratini ta'minlaydi.",
+        "faq": [
+          {
+            "q": "Bir vaqtning o'zida bir nechta nosadkalarni o'rnatsa bo'ladimi?",
+            "a": "Ha, keng isitish xanjari formasi uzluksiz ishlash uchun bir vaqtning o'zida uchtagacha nosadka juftini qotirish imkonini beradi."
+          },
+          {
+            "q": "Qurilma kerakli haroratga yetganida xabar beradimi?",
+            "a": "Ha, yaxshi ko'rinadigan nazorat chirog'i (indikator) ishchi harorat 260°C ga yetib, barqarorlashgach, ustani xabardor qiladi."
+          },
+          {
+            "q": "Uskuna yirik qurilish ob'ektlarida uzluksiz ishlash uchun mosmi?",
+            "a": "Albatta. Uzoq muddat ishlaydigan isitish elementi va yuqori haroratga chidamli kabellar asosan sanoat ob'ektlarida uzluksiz smenali ish rejimiga mo'ljallangan."
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "seo_p1": "Oynali qo'l payvandlash uskunasi d50-d125 (Hand Welding Machine Mirror 50-125) katta mufali payvandlash ishlari uchun maxsus ishlab chiqilgan.",
+        "seo_p2": "Juda tekis, keng maydonli isitish oynasi (spiegel) yirik fittinglar va quvurlarning bir tekis isitilishini kafolatlaydi. 1200 vattdan ortiq quvvat qizdirish bosqichlarining tezligini ta'minlaydi.",
+        "seo_p3": "Sanoatda yirik ta'minot tarmoqlarini qo'lda ishlashda bu qurilma mutlaqo zarurdir, chunki payvandlash jarayonida haroratning pasayishi halokatli oqibatlarga olib kelishi mumkin.",
+        "faq": [
+          {
+            "q": "Nima uchun yirik quvurlar uchun tekis oyna kerak?",
+            "a": "Katta diametrlar (50 mm dan boshlab) juda katta massaga ega. Tekis oyna issiqlikni plastmassaga tez va teng taqsimlash uchun juda katta aloqa yuzasini taqdim etadi."
+          },
+          {
+            "q": "Uskunaning og'irligi qancha?",
+            "a": "Yuqori quvvatiga qaramay qurilma ergonomik muvozanatga ega, biroq 90 mm dan kattaroq quvurlarda to'g'ri ulash uchun odatda ikkita usta kerak bo'ladi."
+          },
+          {
+            "q": "Teflon qoplamali yuzalarni tozalash kerakmi?",
+            "a": "Ha, har bir foydalanishdan keyin ular hali issiq bo'lgan holatda tuklarsiz qog'oz sochiq yoki maxsus yog'och kurakcha bilan ehtiyotkorlik bilan tozalanishi kerak."
+          }
+        ]
+      },
+      "welding-tool": {
+        "seo_p1": "Payvandlash nosadkalari (Welding Tool) PP-R materialini bevosita eritish vazifasini bajaruvchi teflon qoplamali isitish shtiftlari va gilzalaridir.",
+        "seo_p2": "Yuqori issiqlik o'tkazuvchan qotishmalardan tayyorlangan hamda maxsus yopishmaydigan PTFE qatlami bilan qoplangan bo'lib, mukammal, qoldiqsiz molekulyar erishni kafolatlaydi.",
+        "seo_p3": "Faqat shikastlanmagan va yuqori sifatli payvandlash vositalari bilangina 50 yillik xizmat muddatini kafolatlovchi, DVS talab qiladigan choksiz bir xillikka erishish mumkin.",
+        "faq": [
+          {
+            "q": "Payvandlash nosadkasini qachon almashtirish kerak?",
+            "a": "Teflon qoplama tirnalishi bilan yoki unga PP-R qoldiqlari yopishib qolganda, nosoz choklarning oldini olish uchun nosadkani zudlik bilan almashtirish shart."
+          },
+          {
+            "q": "Plastmassa qoldiqlarini pichoq bilan qirtishlash mumkinmi?",
+            "a": "Pichoq mikro-nozik PTFE yopishmaydigan qoplamasini darhol yo'q qiladi. Hali issiq bo'lgan asbob ustida faqat yumshoq lattalardan foydalaning."
+          },
+          {
+            "q": "K Aqua nosadkalari boshqa brend uskunalariga ham tushadimi?",
+            "a": "Mahkamlash teshigi sanoat standartlariga mos keladi, shuning uchun bizning nosadkalar deyarli barcha professional mufali payvandlash uskunalariga to'g'ri keladi."
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "seo_p1": "Stol payvandlash uskunasi d50-d125 (Welding Machine 50-125 Complete Set) yirik quvur tugunlarini oldindan yig'ish uchun statsionar aniqlikni taklif etadi.",
+        "seo_p2": "Unda quvurlarni qistirish jag'lari, kuchni tejab ulash uchun dastak mexanizmi hamda mutlaqo aniq ulanish bosimi va vaqtini ta'minlovchi raqamli boshqariladigan isitish elementi mavjud.",
+        "seo_p3": "Kollektorlar yoki murakkab sanoat tugunlarini ustaxonada ishlab chiqarishda ushbu mashina inson xatosini bartaraf etadi va ishlash tezligini maksimal darajaga ko'taradi.",
+        "faq": [
+          {
+            "q": "Statsionar mashinaning qo'l uskunasidan ustunligi nimada?",
+            "a": "Dastak (richag) mexanizmi yirik quvurlarni aniq, qiyishmasdan biriktirish imkonini beradi. Buni qo'lda qilish uchun o'ta katta kuch talab etilar edi."
+          },
+          {
+            "q": "Buning yordamida kichik quvurlarni ham payvandlasa bo'ladimi?",
+            "a": "Texnik jihatdan ha, ammo mashina asosan 50 mm dan 125 mm gacha bo'lgan o'lchamlarning yuqori ulanish kuchi uchun maxsus ishlab chiqilgan."
+          },
+          {
+            "q": "Quvur qanday qotiriladi?",
+            "a": "Turli qo'shimchalari bo'lgan universal qistirish jag'lari quvurni zararlamay, lekin o'ta mahkam ushlab turadi va kuchli, chiziqli harakatni ta'minlaydi."
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "seo_p1": "Uchma-uch payvandlash uskunasi d90-d250 (Butt Welding Machine 90-250) yirik formatdagi, mufasiz (flanetsiz) quvurni quvurga to'g'ridan-to'g'ri ulash uchun High End tizimidir.",
+        "seo_p2": "Gidravlik presslash bloki, CNC orqali boshqariladigan isitish oynasi va aniq quvur frezasi (randa) eng yuqori darajadagi to'liq avtomatlashtirilgan, bayonnomalanadigan payvand chokini ta'minlaydi.",
+        "seo_p3": "Munitsipal asosiy suv quvurlari yoki 90 mm dan boshlanadigan sanoat sovutish tarmoqlari uchun sertifikatlangan va qabul qilinadigan uchma-uch payvandlashni amalga oshirishda ushbu qurilma almashtirib bo'lmas vositadir.",
+        "faq": [
+          {
+            "q": "Mufali (Muffen) va uchma-uch (Stumpf) payvandlashning farqi nimada?",
+            "a": "Uchma-uch payvandlashda quvurning uchlari tekis silliqlanadi va hech qanday qo'shimcha fitting (mufa) ishlatilmasdan to'g'ridan-to'g'ri bir-biriga yopishtirilib eritiladi."
+          },
+          {
+            "q": "Sifat nazorati uchun payvandlash ma'lumotlari saqlanadimi?",
+            "a": "Ha, integratsiyalashgan CNC tizimi keyinchalik tahlil qilish uchun har bir payvand choki uchun harorat, bosim va vaqtni protokollashtiradi (qayd etadi)."
+          },
+          {
+            "q": "Frezasi (randa) nega kerak?",
+            "a": "Randa payvandlashdan oldin ikkala quvur uchini mutlaqo parallel va oksidlanishsiz qilib kesadi, bu esa uzoq muddatli molekulyar aloqa uchun o'ta muhimdir."
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "seo_p1": "Elektr payvandlash apparati (Electrofusion Machine) elektr qarshilik yordamida isitiladigan mufalarning to'liq avtomatik payvandlash jarayonini boshqaradi.",
+        "seo_p2": "Aqlli mikroprotsessor skaner orqali fitting shtrix-kodini o'qiydi va atrof-muhit haroratiga bog'liq holda kerakli kuchlanish hamda payvandlash vaqtini avtomatik hisoblab chiqadi.",
+        "seo_p3": "Haddan tashqari tor shaxtalardagi ta'mirlash, keyinchalik tarmoq ajratish yoki klassik mufali payvandlashni joy yetishmovchiligi sababli bajarish imkonsiz bo'lgan yerosti ishlari uchun ajralmas.",
+        "faq": [
+          {
+            "q": "Apparat payvandlash parametrlarini qanday o'qiydi?",
+            "a": "Har bir elektr mufa shtrix-kodga ega bo'lib, uni usta skaner orqali o'qiydi. Qurilma shundan so'ng to'liq avtomatik tarzda o'zini sozlaydi."
+          },
+          {
+            "q": "Qurilma ob'ektdagi harorat o'zgarishlarini inobatga oladimi?",
+            "a": "Ha, atrof-muhit sensori haroratni o'lchaydi va shunga mos ravishda payvandlash vaqtini avtomatik moslashtiradi (qishda uzoqroq, yozda qisqaroq)."
+          },
+          {
+            "q": "Elektr payvandlashdan oldin quvurni qirtishlash (tozalash) kerakmi?",
+            "a": "Albatta! PP-R quvuridagi oksidlanish qatlami payvandlash hududida maxsus tozalash vositasi bilan mexanik tarzda qirib tashlanishi shart."
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "seo_p1": "Payvandlanadigan egar uchun payvandlash nosadkasi mavjud PP-R quvurlariga egarlarni (sattel) o'rnatish uchun maxsus tayyorlangan.",
+        "seo_p2": "U quvur devori uchun botiq (konkav) shakldagi isitish shtiftidan hamda egar uchun qavariq (konveks) shakldagi isitish gilzasidan iborat bo'lib, ikkalasi ham yuqori sifatli teflon qoplamasiga ega.",
+        "seo_p3": "Egarni quvur tarmog'i bilan bir jinsli va ajralmas qilib eritish uchun u asosiy quvurdagi aynan kerakli maydonni o'ta aniq isitib beradi.",
+        "faq": [
+          {
+            "q": "Nega asbobning botiq va qavariq tomonlari bor?",
+            "a": "Botiq tomon yumaloq tashqi quvurni isitadi, qavariq tomon esa egar shaklidagi shoxobchani erish haroratiga keltiradi."
+          },
+          {
+            "q": "Bitta asbob barcha quvurlarga to'g'ri keladimi?",
+            "a": "Yo'q, har bir asosiy quvur va shoxobcha kombinatsiyasi uchun (masalan, 63 mm dan 20 mm gacha) aniq mos keladigan maxsus egar nosadkasi kerak."
+          },
+          {
+            "q": "U asbobga qanday qotiriladi?",
+            "a": "U oddiy isitish nosadkasi singari K Aqua qo'l asbobining isitish xanjariga to'g'ridan-to'g'ri inbus vinti (shestigrannik) yordamida burab qotiriladi."
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "seo_p1": "Payvandlanadigan egar uchun maxsus parma (Drilling Tool for Weld-in Saddle) egarli shoxobchalar uchun o'ta aniq tayyorgarlik vositasidir.",
+        "seo_p2": "U nafaqat suvli asosiy quvurga aynan kerakli o'lchamdagi teshikni ochadi, balki keyingi payvandlash uchun chekka qismlarini toza qilib frezalaydi.",
+        "seo_p3": "Haddan tashqari o'tkir va toza parmalangan teshik, keyinchalik egarni payvandlash vaqtida quvur tarmog'iga plastmassa qirindilari tushib qolmasligi uchun juda muhimdir.",
+        "faq": [
+          {
+            "q": "Nima uchun oddiy yog'och yoki metall parmasidan foydalanish mumkin emas?",
+            "a": "Standart parmalar plastmassani yirtadi va nazoratsiz qirindilar hosil qiladi. Bizning maxsus parmamiz teshikni frezalaydi va qirindini toza tutib qoladi."
+          },
+          {
+            "q": "Parmani oddiy akkumulyatorli drelga (shurupovyort) ulash mumkinmi?",
+            "a": "Ha, parma har qanday standart drelga mos keluvchi standartlashtirilgan olti burchakli uchi bilan ta'minlangan."
+          },
+          {
+            "q": "Teshikning chetlarini tozalash (zaukentlar) kerakmi?",
+            "a": "Yo'q, parmaning freza boshi teshik qirrasini keyingi payvandlash uchun avtomatik ravishda tayyorlaydigan va tekislaydigan qilib yasalgan."
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "seo_p1": "Ta'mirlash tiqini uchun payvandlash nosadkasi tasodifan teshilgan quvurlarni tezda sozlash uchun mo'ljallangan yuqori ixtisoslashtirilgan qo'shimchadir.",
+        "seo_p2": "Bu konus shaklidagi isitish pimi (stifti) shikastlangan teshikning ichki qismini va ayni vaqtda tegishli PP-R ta'mirlash tiqinini erish haroratiga keltiradi.",
+        "seo_p3": "Qurilish maydonchasida devorni burg'ulash vaqtida tasodifan teshilgan quvurlarni (masalan, dyubel teshiklari) zudlik bilan va ishonchli yopib ketish uchun u eng zo'r najotdir.",
+        "faq": [
+          {
+            "q": "Ta'mirlash pimi (stifti) qanday ishlaydi?",
+            "a": "Konus shaklidagi vosita teshikni eritadi. Shundan so'ng, xuddi shunday isitilgan PP-R ta'mirlash tiqini teshikka bosiladi va quvur bilan abadiy birlashadi."
+          },
+          {
+            "q": "Ta'mirlangan joy haqiqatan ham xavfsizmi?",
+            "a": "Ha, bu shunchaki yelimlash emas, balki buzilmagan quvur kabi bosimga bardosh beruvchi molekulyar payvandlashdir."
+          },
+          {
+            "q": "Qanday o'lchamdagi teshiklarni ta'mirlash mumkin?",
+            "a": "Uskuna odatdagi burg'ulash avariyalari (dyubel teshiklari) uchun 7 mm dan 11 mm gacha bo'lgan oraliqqa juda mos keladi."
+          }
+        ]
+      },
+      "repairing-plug": {
+        "seo_p1": "Ta'mirlash tiqini (Repairing Plug) - bu teshik ochilish avariyalarini hal qiluvchi maxsus payvandlash asbobi bilan birgalikda ishlatiladigan massiv PP-R tayoqchasidir.",
+        "seo_p2": "U K Aqua quvurlar tizimi bilan aynan bir xil materialdan ishlangan bo'lib, shikastlangan quvurga kiritilganda butunlay bir xil (gomogen) massaga aylanadi.",
+        "seo_p3": "Quvur qismlarini almashtirish uchun devorlarni katta maydonda buzish o'rniga, teshik shunchaki payvandlanadi. Ta'mirlangan joy shundan so'ng asl quvur bilan bir xil bosimga chidamlilikka ega bo'ladi.",
+        "faq": [
+          {
+            "q": "Ta'mirlash tiqini qanday materialdan tayyorlangan?",
+            "a": "U 100% yuqori sifatli PP-R (Polypropylene Random Copolymer Typ 3) dan ishlangan, huddi K Aqua quvur tizimlari kabi."
+          },
+          {
+            "q": "Payvandlangandan keyin tiqinni kesib tashlash kerakmi?",
+            "a": "Ha, payvandlangan joy to'liq sovigach, tiqinning chiqib turgan uchi quvur devoriga tekislab (silliq qilib) kesib tashlanadi."
+          },
+          {
+            "q": "Tiqinni ichida suv bor quvurda ham ishlatsa bo'ladimi?",
+            "a": "Yo'q, teshilgan chiziqda suv to'liq o'chirilgan va quvurning teshilgan qismi butunlay quruq bo'lishi shart."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "K-Fiber UV Pipe PP-R SDR 7.4 quvuri ochiq tashqi montaj sharoitida ultrabinafsha (UV) nurlar ta'sirida buzilish (degradatsiya) muammosini hal qiladi. U maxsus, ob-havoga chidamli tashqi qatlamga ega.",
+        "seo_p2": "Issiqlik barqarorligini ta'minlovchi shisha tolali o'rta qatlam va PP-R asosi (SDR 7.4, 2.0 MPa) bilan bir qatorda, UV-qoplamasi quvurni to'g'ridan-to'g'ri quyosh nurlari va iqlim sharoitlaridan doimiy himoya qiladi.",
+        "seo_p3": "Shu sababli u tom qurilmalari, ochiq havo stansiyalari yoki ko'prik quvurlari uchun juda mos keladi. UV nuridan himoyalash uchun qo'shimcha izolyatsiya yoki bo'yoqlarga mutlaqo hojat qolmaydi.",
+        "faq": [
+          {
+            "q": "Bu quvurda UV nurdan himoya qanday ta'minlanadi?",
+            "a": "Maxsus qo'shib ekstruziya qilingan qora tashqi qatlam zararli UV nurlarini PP-R materialiga ta'sir qilishdan oldin yutadi va to'sadi."
+          },
+          {
+            "q": "Payvandlashdan oldin UV qatlamini olib tashlash kerakmi?",
+            "a": "Yo'q, bu bir xil (gomogen) plastik qatlam bo'lgani uchun, mufali payvandlash jarayonida u bevosita fitting bilan birga erib birlashadi."
+          },
+          {
+            "q": "Ochiq havoda foydalanish muddati qisqaradimi?",
+            "a": "UV himoya qatlami polimerning yemirilishini oldini oladi, shuning uchun hatto to'g'ridan-to'g'ri quyosh nuri ostida ham quvur o'zining to'liq 50 yillik xizmat muddatini kafolatlaydi."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Premium K-Fiber UV Pipe PPRCT SDR 7.4 quvuri barcha ustun xususiyatlarni: yuqori quvvatli material, shisha tolali mustahkamlash va integratsiyalashgan UV himoyasini bitta mahsulotda birlashtiradi.",
+        "seo_p2": "Yuqori haroratga chidamli PPRCT (1.0 MPa da 70°C gacha) va UV ga chidamli qobiqqa ega bo'lgan bu SDR 7.4 quvuri ekstremal sharoitlar uchun universal, mukammal yechimdir.",
+        "seo_p3": "Quyosh isitish (solar) tizimlari, sanoat binolaridagi sovutish minoralari yoxud issiq iqlimdagi murakkab tashqi inshootlar uchun bo'ladimi, ushbu quvur material toliqishisiz maksimal xizmat muddatini kafolatlaydi.",
+        "faq": [
+          {
+            "q": "Bu quvur UV himoyasini yuqori oqim o'tkazuvchanligi bilan birlashtiradimi?",
+            "a": "Ha, yuqori kristalli PPRCT materiali yupqaroq devor qalinligidan foydalanishga imkon beradi, ayni paytda UV qatlami esa tashqi ta'sirlardan o'ta ishonchli himoya qiladi."
+          },
+          {
+            "q": "UV ga chidamli K Aqua fittinglari bormi?",
+            "a": "Odatda fittinglar izolyatsiya, bo'yoq yoki UV-himoya lentalari yordamida himoya qilinadi, asosiy uzun trassalar (quvurlar) esa zavodning o'zida allaqachon himoyalangan qatlam bilan qoplangan."
+          },
+          {
+            "q": "Ushbu quvur sovutish minoralari (gradirni) uchun mos keladimi?",
+            "a": "Bu optimal tanlov, chunki u jazirama quyoshga ham, sovutish suvidagi kimyoviy qo'shimchalarga ham uzluksiz bardosh bera oladi."
+          }
+        ]
+      },
+      "cross-over": {
+        "seo_p1": "O'tish qismi (Cross-over) cheklangan joylarda sovuq va issiq suv quvurlarining bir-birini kesib o'tishi uchun juda aqlli yechimdir.",
+        "seo_p2": "Bu egik PP-R formali detal integratsiyalashgan mufa uchlariga va ko'prik shakliga ega bo'lib, quvurlarni bitta tekislikda (balandlikda farq qilmasdan) yotqizish imkonini beradi.",
+        "seo_p3": "U devor ichi va isitiladigan pol (tyopliy pol) montajlarida to'qnashuvlarning oldini oladi hamda estetik jihatdan chiroyli va tekis quvur o'tkazishda suvning to'siqsiz oqimini ta'minlaydi.",
+        "faq": [
+          {
+            "q": "O'tish yoyi (Oqqush bo'yni) ning egriligi qanday o'lchamda?",
+            "a": "Egrilik shunday aniq o'lchanganki, xuddi shunday yoki undan kichik diametrdagi K Aqua quvuri ustidan tegmasdan, bemalol sakrab o'tish imkonini beradi."
+          },
+          {
+            "q": "Buni o'rnatish uchun maxsus mufalar kerakmi?",
+            "a": "Bu o'tish yoyi odatda payvandlanmagan quvur uchlariga ega bo'lib, tizimga standart mufalar (muftalar) orqali ikki tomondan ulanadi."
+          },
+          {
+            "q": "To'g'ri PP-R quvurni issiq havo bilan o'zim yoy (ko'prik) qilib egsam bo'ladimi?",
+            "a": "Yo'q! Issiq havo (fen) bilan qo'lda egish quvurning molekulyar strukturasini yo'q qiladi va kafolatning zudlik bilan bekor qilinishiga olib keladi."
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "seo_p1": "O'tish quvuri (Cross-over Pipe) o'tish qismining uzunaytirilgan versiyasi bo'lib, uchlariga bevosita mufa ulash zarur bo'lmagan ko'prik quvurlari uchun idealdir.",
+        "seo_p2": "Yuqori sifatli PP-R dan ishlangan bo'lib, uchlari faqat toza quvur ko'rinishida, bu esa payvandlash mufalarini joylashtirishda ustaga maksimal erkinlik beradi.",
+        "seo_p3": "Santexniklar bu detalni katta kollektorli tizimlardagi qiyin kesishmalarda, quvurlarni ob'ekt sharoitlariga moslashuvchan ravishda moslashtirish uchun ishlatishadi.",
+        "faq": [
+          {
+            "q": "Crossing Tee bilan o'tish qismining (Kreuzstück) farqi nimada?",
+            "a": "Crossing Tee bir quvurni kesishuvsiz o'tkazib yuborish bilan birga o'zida shoxobchani ham mujassamlashtiradi."
+          },
+          {
+            "q": "Bu detal qanday payvandlanadi?",
+            "a": "U standart fittinglar singari, isitish elementi bilan mufali payvandlash yordamida quvur tarmog'iga ulanadi."
+          },
+          {
+            "q": "Bunday konstruksiyada suv oqimi pasayadimi?",
+            "a": "Ixcham geometriyasiga qaramay, uning ichki qismi oqim uchun optimallashtirilgan bo'lib, kesim (diametr) ning sezilarli darajada torayishi kuzatilmaydi."
+          }
+        ]
+      }
+    }
   }
 }

@@ -1,0 +1,722 @@
+{
+  "academyx": {
+    "paramEyebrow": "Welding Parameters",
+    "paramTitle": "Socket welding: the reference values.",
+    "paramLead": "Heating, changeover and cooling times for socket welding according to DVS 2207-11 (heating element 250–270 °C), the basis shown practically in the videos.",
+    "paramHead": [
+      "d (mm)",
+      "Welding depth (mm)",
+      "Heating (s)",
+      "Changeover max. (s)",
+      "Cooling (min)"
+    ],
+    "paramNote": "Reference values according to DVS 2207-11 for PP at 250–270 °C heating element temperature. The welding machine manufacturer's specifications and the processing instructions are binding; in case of doubt: watch the video, check parameters on the device.",
+    "stepEyebrow": "Step-by-step procedure",
+    "stepTitle": "Four procedures, one quality standard.",
+    "stepLead": "Each procedure has its dimension range, and five steps that determine the connection's quality.",
+    "procTabs": [
+      "Socket (Manual)",
+      "Socket (Machine)",
+      "Electrofusion",
+      "Butt Welding"
+    ],
+    "procs": [
+      {
+        "t": "Manual socket welding, up to d63",
+        "steps": [
+          {
+            "t": "Cut & deburr",
+            "d": "Cut pipe at right angles, cleanly deburr and chamfer, use pipe cutter from the K Aqua tool range."
+          },
+          {
+            "t": "Mark welding depth",
+            "d": "Mark insertion depth on the pipe according to the table (e.g. 14 mm for d20), it defines the joining zone."
+          },
+          {
+            "t": "Simultaneous heating",
+            "d": "Push pipe into the heating bush, fitting onto the heating spigot, slide on simultaneously and keep the heating time exactly."
+          },
+          {
+            "t": "Join swiftly, without twisting",
+            "d": "Join axially within the changeover time. Never twist: twisting destroys the plasticized structure."
+          },
+          {
+            "t": "Fix & cool",
+            "d": "Fix connection for a few seconds, then wait the cooling time before mechanical load is applied."
+          }
+        ]
+      },
+      {
+        "t": "Machine socket welding, medium dimensions",
+        "steps": [
+          {
+            "t": "Prepare as with manual welding",
+            "d": "Cut to length, deburr, mark welding depth, the basic rules remain identical."
+          },
+          {
+            "t": "Clamp pipe & fitting",
+            "d": "The machine holds both joining partners coaxially, offset and tilt errors are mechanically excluded."
+          },
+          {
+            "t": "Heat with heating element",
+            "d": "Heating bush and spigot according to DVS reference values; the machine maintains position and time reproducibly."
+          },
+          {
+            "t": "Machine joining",
+            "d": "The feed joins axially and evenly, the key to constant quality, especially for d75 to d125."
+          },
+          {
+            "t": "Cool under fixation",
+            "d": "Only unclamp and process further after the cooling time has elapsed."
+          }
+        ]
+      },
+      {
+        "t": "Electrofusion, heating coil fittings",
+        "steps": [
+          {
+            "t": "Peel surface",
+            "d": "Peel and clean the pipe surface in the joining zone, oxide skin and dirt prevent welding."
+          },
+          {
+            "t": "Mark insertion depth",
+            "d": "Mark depth on the pipe, push pipe into the fitting up to the stop."
+          },
+          {
+            "t": "Fix tension-free",
+            "d": "Use holding clamps, the fitting must not be under bending stress during welding."
+          },
+          {
+            "t": "Start welding process",
+            "d": "The device energizes the embedded heating coils in the fitting, parameters come from the fitting, not from feeling."
+          },
+          {
+            "t": "Observe cooling time",
+            "d": "Only move or load after the specified cooling time, check control indicators on the fitting."
+          }
+        ]
+      },
+      {
+        "t": "Butt Fusion, large dimensions up to d630",
+        "steps": [
+          {
+            "t": "Face ends",
+            "d": "Face both pipe ends in the machine until continuous shavings appear, plane parallelism is mandatory."
+          },
+          {
+            "t": "Align & check offset",
+            "d": "Maximum offset 10% of the wall thickness, every millimeter counts at d630."
+          },
+          {
+            "t": "Heat on the heating element",
+            "d": "Equalize under pressure until a bead forms, then heat through without pressure, times according to DVS 2207-11."
+          },
+          {
+            "t": "Change over & join",
+            "d": "Remove the heating element swiftly and bring the ends together under defined joining pressure."
+          },
+          {
+            "t": "Cool under joining pressure",
+            "d": "The joining pressure remains until the end of the cooling time, then the homogeneous, permanently tight string is created."
+          }
+        ]
+      }
+    ],
+    "errEyebrow": "Defectology",
+    "errTitle": "The six most expensive mistakes, and their prevention.",
+    "errHead": [
+      "Mistake",
+      "Consequence",
+      "Prevention"
+    ],
+    "errRows": [
+      [
+        "Too long heating",
+        "Bead grows inwards, cross-section narrows",
+        "Stop heating time according to table, not by feeling"
+      ],
+      [
+        "Twisting when joining",
+        "Plasticized structure is destroyed, connection leaking",
+        "Only join axially, use marking as a check"
+      ],
+      [
+        "Missing deburring/chamfering",
+        "Material pushes up, joining zone becomes uneven",
+        "Deburr every cut, tool is part of the system"
+      ],
+      [
+        "Dirty heating element",
+        "Adhesions burn and become embedded in the seam",
+        "Clean heating surfaces with a lint-free cloth before each weld"
+      ],
+      [
+        "Premature loading",
+        "Seam deforms before solidifying",
+        "Observe cooling times, 8 minutes for d110"
+      ],
+      [
+        "Incorrect welding depth",
+        "Too short: small joining area · too deep: cross-section narrowing",
+        "Always mark insertion depth, never guess"
+      ]
+    ],
+    "glossEyebrow": "Glossary",
+    "glossTitle": "The terms of piping technology.",
+    "gloss": [
+      [
+        "SDR",
+        "Standard Dimension Ratio = Outer diameter divided by wall thickness (d/s). Smaller SDR = thicker wall = higher nominal pressure."
+      ],
+      [
+        "PN",
+        "Nominal pressure in bar at 20 °C over the design horizon, SDR 6 corresponds to PN 20, SDR 17 corresponds to PN 6."
+      ],
+      [
+        "d / di / s",
+        "Outer diameter / Inner diameter / Wall thickness in millimeters, di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylene Random Copolymer, the proven standard material for drinking water installations."
+      ],
+      [
+        "PPRCT",
+        "PP-R with modified crystal structure ('Crystallinity Temperature'), more temperature and pressure reserve with the same wall."
+      ],
+      [
+        "K-Fiber / GF",
+        "Glass fiber reinforced multilayer construction, reduces thermal expansion to about a quarter."
+      ],
+      [
+        "Socket welding",
+        "Socket Fusion: pipe and fitting are plasticized via heating bush and spigot and joined together."
+      ],
+      [
+        "Electrofusion",
+        "Electrofusion: embedded heating coils in the fitting generate the welding heat, parameter-controlled."
+      ],
+      [
+        "Butt Welding",
+        "Butt Fusion: plane-parallel pipe ends are heated on the heating element and joined under pressure, standard up to d630."
+      ],
+      [
+        "DVS 2207-11",
+        "The regulations for welding polypropylene, source of the reference values on this page."
+      ]
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Document Library",
+    "libTitle": "All documents, one overview.",
+    "libLead": "Three catalogues for direct download, certificates in two languages, and audit documents as self service in the Trust Centre.",
+    "libHead": [
+      "Dokument",
+      "Inhalt",
+      "Sprache",
+      "Zugriff"
+    ],
+    "libRows": [
+      {
+        "t": "K Aqua Product Range",
+        "s": "Complete catalogue: dimensions, items, system overview",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Product Features",
+        "s": "Technical properties and material data",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Quality Assurance",
+        "s": "Test methods and quality standards",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO Certificates (German)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "GENAU Policy & Risk Assessment",
+        "s": "Management system, prevention, risk assessment",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "EPD Data Sheets (Type III, EN 15804)",
+        "s": "Life cycle assessment data for LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "GAEB specification texts",
+        "s": "Ready-made texts for bills of quantities",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Quality Assurance Manual",
+        "s": "QA processes for supplier audits",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Download",
+    "libRequest": "Request in Trust Centre",
+    "supEyebrow": "Support paths",
+    "supTitle": "Three ways to get answers.",
+    "supLead": "Depending on your request, a different path is the fastest way to your goal, all with a response within one working day.",
+    "sup": [
+      {
+        "t": "Sales & Projects",
+        "d": "Offers, conditions, delivery times and project advice, or directly the project inquiry in five steps.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Quality & Technical Support",
+        "d": "Material, planning and processing questions, certificate checking, complaints according to QA manual.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Processing & Academy",
+        "d": "Four welding methods as video plus parameter tables, briefing for your team by arrangement.",
+        "c": "To the Academy",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Service FAQ",
+    "faqTitle": "Quick answers.",
+    "faq": [
+      {
+        "q": "What documents do I need for planning?",
+        "a": "Product range (dimensions and articles), product properties (material data) and, depending on the project, the dimension tables on the product page. For tenders, GAEB texts and EPD complete the package, both in the Trust Centre."
+      },
+      {
+        "q": "Where can I find the welding parameters?",
+        "a": "The reference values according to DVS 2207-11 are available in the Academy, including step-by-step instructions and defectology. The specifications of your welding equipment manufacturer are always binding."
+      },
+      {
+        "q": "How do I get certificates and audit documents?",
+        "a": "Download ISO certificates directly here (DE/EN). You can put together the GENAU policy, EPD, GAEB and QA manual as an RFP package in the Trust Centre, requested at the click of a button instead of waiting for days."
+      },
+      {
+        "q": "Who do I contact for technical questions?",
+        "a": "Contact support@k-aqua.de, the quality and technical support team will answer within one working day regarding material, planning and processing."
+      },
+      {
+        "q": "What is the quickest way to get an offer?",
+        "a": "Via the project inquiry: five steps, non-binding, with personal feedback from sales within one working day, directly from the manufacturer, without intermediaries."
+      },
+      {
+        "q": "In which languages are the documents available?",
+        "a": "Catalogues currently in English, certificates in German and English. This website operates in three languages (DE/EN/AR), further document languages on request via sales."
+      }
+    ]
+  },
+  "aboutx": {
+    "numEyebrow": "Numbers from the plant",
+    "numTitle": "Waldsolms in key figures.",
+    "numLead": "Central Hesse, Auweg 3, this is where KWT GmbH develops and manufactures the entire K Aqua programme.",
+    "nums": [
+      {
+        "n": "14,000",
+        "u": "m",
+        "l": "Pipe per day and extrusion line, capacity for major projects"
+      },
+      {
+        "n": "20–630",
+        "u": "mm",
+        "l": "Dimensional range of pipe production, fittings up to 315 mm"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "of cut-offs and production waste are returned to the cycle"
+      },
+      {
+        "n": "3",
+        "u": "× ISO",
+        "l": "Quality, environment, energy, DAkkS-accredited since October 2025"
+      }
+    ],
+    "prodEyebrow": "Production",
+    "prodTitle": "Four stations, one quality promise.",
+    "prodLead": "From the granulate to the marked pipe, this is how the product is created.",
+    "prod": [
+      {
+        "t": "Extrusion",
+        "d": "Monolayer and glass fiber reinforced multilayer pipes are produced on extrusion lines with a daily output of up to 14,000 meters per line."
+      },
+      {
+        "t": "Injection molding",
+        "d": "Fittings from d20 to d315 are manufactured by injection molding, complex geometries with high volume and constant quality."
+      },
+      {
+        "t": "Closed cooling circuit",
+        "d": "The process water in production circulates in a closed circuit, water protection as a system decision, monitored according to ISO 14001."
+      },
+      {
+        "t": "Marking & Inspection",
+        "d": "Each pipe is continuously marked during the extrusion process and tested according to the QA manual, traceability per batch."
+      }
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Four benefits, one house.",
+    "houseLead": "The corporate policy of KWT GmbH considers benefit as a cycle, none exists without the other three.",
+    "house": [
+      {
+        "t": "Customer benefit",
+        "d": "Wishes of customers and interested parties are recognized, taken seriously and implemented, in compliance with legal and social standards."
+      },
+      {
+        "t": "Employee benefit",
+        "d": "All employees are involved in the continuous improvement process, no customer benefit without employee benefit."
+      },
+      {
+        "t": "Company benefit",
+        "d": "Quality always remains compatible with costs and deadlines, so the success of today carries the investments of tomorrow."
+      },
+      {
+        "t": "Environment & Ecosystem",
+        "d": "Resource conservation and environmental compatibility are part of the understanding of quality, anchored in the GENAU system."
+      }
+    ],
+    "mileEyebrow": "Milestones",
+    "mileTitle": "The path so far.",
+    "miles": [
+      {
+        "y": "Decades",
+        "t": "Manufacturing experience",
+        "d": "Plastics processing for water supply, experience that flows into every batch."
+      },
+      {
+        "y": "Partnership",
+        "t": "Close connection to KESSEL",
+        "d": "KWT shares a long-standing community of values with the premium manufacturer \"Leading in Drainage\"."
+      },
+      {
+        "y": "GENAU",
+        "t": "Management system in the House of KWT",
+        "d": "Occupational safety, environment and energy as daily practice of every employee, not as an audit exercise."
+      },
+      {
+        "y": "10/2025",
+        "t": "Triple ISO-certified",
+        "d": "ISO 9001, 14001 and 50001 in one step, DAkkS-accredited, valid until 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Digital Platform",
+        "d": "Product finder, CO₂ calculator, Trust Centre and Academy make the website a toolbox."
+      }
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "From factory and knowledge",
+    "moreTitle": "More from K-Aqua.",
+    "moreLead": "News from K-Aqua. Backgrounds on manufacturing and materials science, expandable.",
+    "readMore": "Read full PP-R pipes article",
+    "readLess": "Read less",
+    "posts": [
+      {
+        "date": "October 2025",
+        "tag": "Company",
+        "t": "Triple certified: ISO 9001, 14001 and 50001",
+        "teaser": "The ISO management system of KWT GmbH now includes quality, environment, and energy, DAkkS-accredited.",
+        "body": [
+          "Since October 2025, the management system of KWT GmbH is triple certified: ISO 9001:2015 for quality, ISO 14001:2015 for environment, and ISO 50001:2018 for energy. The certificates are issued by a DAkkS-accredited certification body and are valid until October 2028.",
+          "For purchasing and compliance, this means: documented, auditable processes from extruder to shipping. The lived GENAU management system already met the requirements of DIN EN ISO 14001 and 50001, the audit makes it externally verifiable.",
+          "Both certificate versions (DE/EN) are available for download; the complete audit package can be compiled in the Trust Centre."
+        ]
+      },
+      {
+        "date": "2018",
+        "tag": "Production",
+        "t": "Continuously marked: Traceability from the extruder",
+        "teaser": "Every K-Aqua pipe bears a continuous marking directly from the extrusion process.",
+        "body": [
+          "With up to 14,000 meters of pipe per day and line, traceability is not optional: every pipe is continuously marked during the extrusion process, with the details planners and inspectors need on site.",
+          "The marking links the physical product to its batch and the quality assurance test reports. What is printed on the pipe can be traced back to the test labouratory, a component of the QA manual that auditors can request in the Trust Centre."
+        ]
+      },
+      {
+        "date": "Knowledge",
+        "tag": "Material",
+        "t": "Why PP-R anyway?",
+        "teaser": "From flare gas to drinking water pipe: the short material history of polypropylene.",
+        "body": [
+          "Polypropylene is produced from gases that were previously flared off uselessly, its material use reduces air pollution at the source. As an engineering plastic, PP is unusually resistant to solvents, alkalis, and acids and forms complex geometries in injection molding.",
+          "In a pipe, the inner surface counts most: with 0.007 mm roughness, pressure loss remains minimal, and biofilm and incrustation find almost no hold. Add to this a thermal conductivity of 0.24 W/(m·K), hot water stays hot without the pipe insulating against itself.",
+          "PPRCT pushes the limits even further: the modified crystal structure brings more temperature and pressure reserve, SDR 7.4 holds 70 °C at 10 bar in continuous operation."
+        ]
+      },
+      {
+        "date": "Knowledge",
+        "tag": "Material",
+        "t": "Brass meets Polypropylene: Transitions into existing systems",
+        "teaser": "Renovation almost always means a system change, transition pieces with brass threads make it clean.",
+        "body": [
+          "Hardly any project starts on a green field: existing pipes made of copper or galvanized steel must be connected. For this purpose, there are transition pieces with embedded brass female or male threads, the threaded side connects to the existing metal, the PP side is materially welded.",
+          "This allows section-by-section renovation: corroded lines are replaced, functioning ones remain, and the corrosion problem doesn't migrate to the new system. Screw connections make the joint detachable if necessary, such as at valves and water meters."
+        ]
+      }
+    ],
+    "ishTitle": "Industry Meeting Point",
+    "ishText": "The HVAC industry meets at ISH in Frankfurt, the world's leading trade fair where partner KESSEL regularly exhibits. As soon as K-Aqua dates are set, they will appear here."
+  },
+  "contactx": {
+    "routeEyebrow": "Direct Routes",
+    "routeTitle": "Who answers for what.",
+    "routeLead": "Three inboxes, clear responsibilities, response within one business day.",
+    "routes": [
+      {
+        "t": "Sales & Projects",
+        "d": "Offers, delivery times, conditions, project consulting from d20 to d630.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Quality & Technical Support",
+        "d": "Material and processing questions, certificates, complaints.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Career & Application",
+        "d": "Applications and questions about working at K Aqua, directly to Andrea Nickel.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Good to know",
+    "facts": [
+      [
+        "Response Time",
+        "Response within one business day, project inquiries with personal feedback from sales"
+      ],
+      [
+        "Location",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Central Hesse"
+      ],
+      [
+        "Phone / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Languages",
+        "German and English, website additionally in Arabic"
+      ],
+      [
+        "Plant Visit",
+        "Audits and tours by appointment via sales"
+      ]
+    ],
+    "mapLabel": "Location map Waldsolms, save map section",
+    "faqEyebrow": "Before you write",
+    "faqTitle": "The four most common questions.",
+    "faq": [
+      {
+        "q": "What belongs in a good project inquiry?",
+        "a": "Project type, required dimensions (rough is enough), estimated run length, delivery region, and timeframe. The structured project inquiry asks for exactly these five points, filled out in two minutes."
+      },
+      {
+        "q": "How fast will I get an answer?",
+        "a": "Within one business day, project inquiries are answered personally by sales, technical questions by the support team."
+      },
+      {
+        "q": "Can I visit or audit the plant?",
+        "a": "Yes, by appointment. For supplier audits, the RFP document package from the Trust Centre is recommended in advance; then the on-site appointment is maximally efficient."
+      },
+      {
+        "q": "Where can I find certificates and tender texts?",
+        "a": "ISO certificates (DE/EN) under Service & Downloads, the complete audit package including GAEB texts in the Trust Centre, as self-service, without waiting."
+      }
+    ]
+  },
+  "careerx": {
+    "areaEyebrow": "Work Areas",
+    "areaTitle": "Where you work at K-Aqua.",
+    "areaLead": "Creativity and experience are the basis of our market-leading solutions, four areas carry them, across the Waldsolms plant.",
+    "areas": [
+      {
+        "t": "Production & Manufacturing",
+        "d": "Set up, operate, and monitor extrusion lines with up to 14,000 meters of daily output, plus injection molding for fittings from d20 to d315.",
+        "p": "Technical understanding, diligence, willingness to work in shifts"
+      },
+      {
+        "t": "Technology & Maintenance",
+        "d": "Keeping extruders, tools, and peripherals running: maintenance, fault analysis, and continuous improvement according to GENAU.",
+        "p": "Training in mechatronics, electrical engineering, or metal, finding causes instead of patching symptoms"
+      },
+      {
+        "t": "Sales & Application Technology",
+        "d": "Supporting projects from Frankfurt to the Middle East: advising on dimensions, SDR classes, and welding technology, directly from the manufacturer.",
+        "p": "Technical consulting competence, languages are a plus"
+      },
+      {
+        "t": "Administration & Commercial",
+        "d": "Order processing, purchasing, and organization, the processes that keep quality compatible with costs and deadlines.",
+        "p": "Structured way of working, enjoyment of clear workflows"
+      }
+    ],
+    "areaNote": "Your profile is not listed? Unsolicited applications are expressly welcome, the company is growing.",
+    "whyEyebrow": "Why K-Aqua",
+    "whyTitle": "Four reasons to work here.",
+    "why": [
+      {
+        "t": "Growing Market Position",
+        "d": "A strong position that is continuously expanded, your work visibly contributes to success."
+      },
+      {
+        "t": "Safety as a System",
+        "d": "GENAU makes occupational safety a daily practice: reporting hazards is mandatory and taken seriously, by everyone, for everyone."
+      },
+      {
+        "t": "Product with Substance",
+        "d": "Pipes designed for 50 years of operation that work globally in hospitals and hotels, results that last."
+      },
+      {
+        "t": "Benefits that arrive net",
+        "d": "Tax-free extras from the benefit card to the JobBike, calculate above what your package yields."
+      }
+    ],
+    "procEyebrow": "Application Process",
+    "procTitle": "Three steps to the contract.",
+    "proc": [
+      {
+        "t": "Send Application",
+        "d": "By email to Andrea Nickel, with CV generator or direct application from this page. No cover letter novel needed."
+      },
+      {
+        "t": "Have a Conversation",
+        "d": "We will get back to you promptly and discuss the daily routine honestly, gladly also by phone at +49 (0)60 85 / 9868-410."
+      },
+      {
+        "t": "Get to know the plant",
+        "d": "You will see the production and team in Waldsolms before you decide, then follows the contract offer."
+      }
+    ],
+    "procContact": "Contact person: Andrea Nickel · andrea.nickel@k-aqua.de"
+  },
+  "refsx": {
+    "secEyebrow": "Global fields of application",
+    "secTitle": "Where K Aqua technology works.",
+    "secLead": "For decades, K Aqua products have proven themselves countless times in destinations all over the world; these building types characterize the reference programme.",
+    "sectors": [
+      {
+        "t": "Hospitals",
+        "d": "Hygienic drinking water distribution with biofilm-inhibiting inner surface, as in the new hospital building in Cape Town."
+      },
+      {
+        "t": "Hotels",
+        "d": "Hot water circulation in continuous operation, thermally efficient, as in the Istanbul hotel complex with fiber composite pipe."
+      },
+      {
+        "t": "Industrial buildings",
+        "d": "Chemically resistant and corrosion-free for process and industrial water, from commercial buildings to production halls."
+      },
+      {
+        "t": "Greenhouses & Infrastructure",
+        "d": "UV-stabilized irrigation under glass and supply networks up to d630, as in the Singapore infrastructure project."
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Reading Guide",
+    "helpTitle": "How to read the table.",
+    "helpLead": "Five terms are enough to understand every row in the assortment.",
+    "help": [
+      [
+        "d",
+        "Outer diameter in millimeters, the key parameter of every dimension from d20 to d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Smaller SDR means thicker wall and higher nominal pressure."
+      ],
+      [
+        "Wall (s)",
+        "Wall thickness in millimeters, derived from d and SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Inner diameter = d - 2s. Decisive for flow rate and pressure loss."
+      ],
+      [
+        "Nominal Pressure (PN)",
+        "Permissible continuous operating pressure in bar at 20 °C over the design horizon, SDR 6 = PN 20 to SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "From Filter to Offer",
+    "flow": [
+      {
+        "t": "Filter & search",
+        "d": "Narrow down type, SDR, and maximum dimension, or type \"d110\" directly into the search."
+      },
+      {
+        "t": "Check & export",
+        "d": "Click row for wall thickness, di, and nominal pressure in detail, the hit list transfers via CSV into your calculation."
+      },
+      {
+        "t": "Submit inquiry",
+        "d": "Directly from the detail window into the project inquiry; we will clarify dimensions and quantities together."
+      }
+    ]
+  },
+  "co2x": {
+    "methEyebrow": "Methodology",
+    "methTitle": "How the calculator calculates.",
+    "methLead": "Transparency instead of a black box, four building blocks behind every result.",
+    "meth": [
+      {
+        "t": "Mass model from SDR geometry",
+        "d": "The pipe mass follows from ring cross-section × length × density (0.905 g/cm³), the same geometry as in the dimension tables."
+      },
+      {
+        "t": "Material factors",
+        "d": "The emission factors per material are demonstration values for system comparison. Binding factors are provided by ecoinvent or product-specific Type III EPDs according to EN 15804."
+      },
+      {
+        "t": "Illustrative equivalents",
+        "d": "Conversion with around 25 kg CO₂ annual sequestration per tree and 0.15 kg CO₂e per car kilometer, orders of magnitude that everyone in the project meeting understands."
+      },
+      {
+        "t": "Verifiable path",
+        "d": "For audit and review, the document counts: EPD data sheets and Scope 3 data are available in the Trust Centre or upon request."
+      }
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Where the numbers pay off.",
+    "certLead": "CO₂ proofs are not an end in themselves; they contribute directly to building certifications.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPDs according to EN 15804 contribute to material credits, the calculator provides the preliminary argument, the EPD the proof."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Lifecycle data of the materials flows into the evaluation, verifiable through Type III declarations."
+      },
+      {
+        "t": "DGNB",
+        "d": "The lifecycle assessment of the building decides entire criteria groups; material selection with low GWP has a direct impact."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3, briefly explained",
+    "scopeText": "Scope 1 includes direct emissions from the plant, Scope 2 the purchased electricity, Scope 3 the supply chain, which includes your purchased pipes. That is why K Aqua provides Scope 3 data and EPD raw data upon request: proactive transparency for your own carbon footprint.",
+    "statNote": "From industry studies: Around half of B2B customers prefer to buy from demonstrably sustainable suppliers; the proof becomes a procurement criterion."
+  }
+}

@@ -120,7 +120,7 @@
       "eyebrow": "Kualiti Disahkan",
       "title1": "Sistem Pengurusan ",
       "titleHighlight": "GENAU",
-      "title2": "",
+      "title2": " ",
       "p1": "Matlamat Sistem Pengurusan GENAU adalah penambahbaikan berterusan kesihatan pekerjaan, keselamatan dan perlindungan alam sekitar di dalam syarikat.",
       "p2": "Semua aktiviti syarikat di KWT dijalankan dengan mempertimbangkan pemuliharaan sumber, keserasian alam sekitar dan pematuhan ketat terhadap semua kewajipan. Pengurusan GENAU yang diamalkan memenuhi keperluan tinggi bagi ",
       "p3": " dan ",
@@ -626,6 +626,7 @@
     "case3Desc": "Kebersihan air minuman terjamin."
   },
   "co2": {
+    "guideText": "<h2>Kelestarian dan LCA (Penilaian Kitaran Hayat)</h2><p>Pemilihan sistem paip yang betul mempunyai kesan ketara ke atas jejak karbon bangunan atau loji perindustrian. Kalkulator CO2 K-Aqua membolehkan analisis kitaran hayat (LCA) yang komprehensif mengikut piawaian EN 15804. Analisis ini meliputi keseluruhan kitaran hayat: daripada pengekstrakan bahan mentah dan pengeluaran produk (Fasa A1-A3) kepada pengangkutan dan pemasangan (Fasa A4-A5) hinggalah ke fasa penggunaan (Fasa B) dan akhir hayat (Fasa C).</p><p>Berbanding dengan paip logam konvensional yang diperbuat daripada tembaga atau keluli, paip PP-R dan PPRCT daripada K-Aqua mempunyai profil persekitaran yang jauh lebih baik. Tenaga yang lebih rendah diperlukan semasa penyemperitan plastik serta berat yang lebih ringan dapat mengurangkan pelepasan CO2 dengan ketara semasa pengeluaran dan pengangkutan. Di samping itu, permukaan dalam yang sangat licin (kekasaran hanya 0.007 mm) memastikan rintangan aliran yang sangat rendah. Menurut persamaan Darcy-Weisbach, ini bermakna pam edaran memerlukan kurang tenaga (elektrik) untuk mengepam bendalir melalui sistem.</p><p>Terutamanya semasa fasa penggunaan (Fasa B), yang sering bertahan 50 tahun atau lebih untuk sistem paip, penjimatan tenaga ini menambah sehingga penjimatan CO2 dan kos yang besar (Jumlah Kos Pemilikan, TCO). Pada akhir jangka hayatnya (Fasa C), polipropilena juga menawarkan kelebihan ekologi kerana ia 100% boleh dikitar semula dan boleh digunakan semula selaras dengan ekonomi pekeliling (Modul D). Gunakan kalkulator ini untuk mengukur dengan tepat dan telus potensi penjimatan ekologi dan ekonomi bagi projek K-Aqua anda.</p>",
     "eyebrow": "Kalkulator CO2",
     "title1": "Jejak Karbon",
     "titleGrad": "Dioptimumkan.",
@@ -1048,7 +1049,7 @@
       "eyebrow": "Kualiti Diuji",
       "title1": "Sistem Pengurusan ",
       "titleHighlight": "GENAU",
-      "title2": "",
+      "title2": " ",
       "p1": "Keselamatan dan perlindungan alam sekitar.",
       "p2": "Mematuhi piawaian pengurusan:",
       "p3": "ISO 14001 dan ISO 50001.",
@@ -1060,160 +1061,646 @@
   },
   "academy": {
     "schulungen": {
-      "meta": { "title": "Akademi K Aqua", "desc": "Latihan" },
-      "hero": { "eyebrow": "Latihan", "title1": "Latihan", "title2": "K Aqua", "desc": "Deskripsi", "cta1": "Mula", "cta2": "Ketahui" },
-      "manifesto": { "title1": "A", "title2": "B", "title3": "C", "p1": "p1", "p2": "p2" },
-      "bento": { "eyebrow": "Bento", "title": "Bento", "lead": "Bento", "items": [{ "title": "T", "desc": "D" }] },
-      "typography": { "t1": "T1", "t2": "T2" },
-      "curriculum": { "eyebrow": "C", "title": "C", "lead": "C" },
-      "sticky": { "items": [{ "title": "T", "desc": "D" }] },
-      "timeline": { "title": "T", "desc": "D", "items": [{ "year": "Y", "title": "T", "text": "T" }] },
-      "spec": { "eyebrow": "S", "title": "S", "desc": "D", "items": [{ "title": "T", "text": "T" }] },
-      "cta": { "title1": "T", "title2": "T", "desc": "D", "button": "B" }
+      "meta": {
+        "title": "Latihan",
+        "desc": "Program latihan K-Aqua."
+      },
+      "hero": {
+        "eyebrow": "LATIHAN",
+        "title1": "AKADEMI",
+        "title2": "K-AQUA",
+        "desc": "Pusat kecemerlangan untuk teknologi plastik.",
+        "cta1": "Ketahui Lebih Lanjut",
+        "cta2": "Hubungi Kami"
+      },
+      "manifesto": {
+        "title1": "PENGETAHUAN ADALAH",
+        "title2": "KUASA",
+        "title3": "DAN KESELAMATAN.",
+        "p1": "Kami berkongsi kepakaran kami.",
+        "p2": "Latihan praktikal untuk profesional."
+      },
+      "bento": {
+        "eyebrow": "MODUL PRAKTIKAL",
+        "title": "BENGKEL",
+        "lead": "Fokus pada kemahiran praktikal.",
+        "items": [
+          {
+            "title": "Kimpalan Polimer",
+            "desc": "Kimpalan soket dan pengelektrokimpalan."
+          },
+          {
+            "title": "Analisis Pemusnahan",
+            "desc": "Ujian letupan tekanan tinggi."
+          },
+          {
+            "title": "Pengembangan Terma",
+            "desc": "Pampasan sistem pengembangan."
+          },
+          {
+            "title": "Kestabilan pH",
+            "desc": "Rintangan kimia industri."
+          }
+        ]
+      },
+      "typography": {
+        "t1": "TEKNOLOGI",
+        "t2": "BAHAN"
+      },
+      "curriculum": {
+        "eyebrow": "KURIKULUM",
+        "title": "MODUL LATIHAN",
+        "lead": "Direka untuk jurutera dan pemasang."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Asas Bahan",
+            "desc": "Pemahaman tentang PP-R dan PPRCT."
+          },
+          {
+            "title": "Teknik Pemasangan",
+            "desc": "Prosedur kimpalan standard."
+          },
+          {
+            "title": "Kawalan Kualiti",
+            "desc": "Pemeriksaan visual dan ujian tekanan."
+          },
+          {
+            "title": "Penyelesaian Masalah",
+            "desc": "Menganalisis kerosakan sistem."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "JADUAL LATIHAN",
+        "desc": "Struktur kursus kami.",
+        "items": [
+          {
+            "year": "Hari 1",
+            "title": "Teori Asas",
+            "text": "Pengenalan kepada termoplastik."
+          },
+          {
+            "year": "Hari 2",
+            "title": "Latihan Praktikal",
+            "text": "Latihan kimpalan tangan."
+          },
+          {
+            "year": "Hari 3",
+            "title": "Aplikasi Lanjutan",
+            "text": "Sistem industri yang kompleks."
+          },
+          {
+            "year": "Hari 4",
+            "title": "Ujian",
+            "text": "Penilaian kemahiran."
+          },
+          {
+            "year": "Sijil",
+            "title": "Pentauliahan",
+            "text": "Penyampaian sijil rasmi."
+          }
+        ]
+      },
+      "spec": {
+        "eyebrow": "SPESIFIKASI",
+        "title": "BUTIRAN KURSUS",
+        "desc": "Maklumat lengkap tentang pendaftaran.",
+        "items": [
+          {
+            "title": "Peserta",
+            "text": "Pemasang, jurutera, pengurus."
+          },
+          {
+            "title": "Kapasiti",
+            "text": "Maksimum 15 orang."
+          },
+          {
+            "title": "Lokasi",
+            "text": "Pusat Latihan K-Aqua."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "TINGKATKAN",
+        "title2": "KEMAHIRAN ANDA",
+        "desc": "Daftar sekarang.",
+        "button": "Daftar"
+      }
     },
     "zertifizierung": {
-      "meta": { "title": "Sijil", "desc": "Sijil" },
-      "hero": { "eyebrow": "S", "title1": "T", "title2": "T", "desc": "D", "cta1": "C", "cta2": "C" },
-      "manifesto": { "title1": "T", "title2": "T", "p1": "P" },
-      "bento": { "eyebrow": "B", "title": "T", "lead": "L", "items": [{ "title": "T", "desc": "D" }] },
-      "certifications": { "eyebrow": "C", "title": "T", "lead": "L", "items": [{ "title": "T", "p1": "P", "p2": "P" }] },
-      "lab": { "eyebrow": "L", "title1": "T", "title2": "T", "desc": "D", "items": [{ "title": "T", "desc": "D" }] },
-      "timeline": { "title": "T", "desc": "D", "items": [{ "year": "Y", "title": "T", "text": "T" }] },
-      "cta": { "title": "T", "desc": "D", "button1": "B", "button2": "B" }
+      "meta": {
+        "title": "Pensijilan",
+        "desc": "Sijil K-Aqua."
+      },
+      "hero": {
+        "eyebrow": "PENSIJILAN",
+        "title1": "KUALITI",
+        "title2": "DISAHKAN",
+        "desc": "Piawaian tertinggi dalam industri.",
+        "cta1": "Lihat Sijil",
+        "cta2": "Audit"
+      },
+      "manifesto": {
+        "title1": "KEPERCAYAAN",
+        "title2": "MEMERLUKAN BUKTI",
+        "p1": "Setiap komponen mematuhi ISO."
+      },
+      "bento": {
+        "eyebrow": "MAKMAL",
+        "title": "UJIAN TEGAR",
+        "lead": "Proses pensijilan dalaman.",
+        "items": [
+          {
+            "title": "Ujian Tekanan",
+            "desc": "Ketahanan hidraulik."
+          },
+          {
+            "title": "Kitaran Terma",
+            "desc": "Pemanasan dan penyejukan ekstrem."
+          },
+          {
+            "title": "Rintangan Kimia",
+            "desc": "Ujian hakisan asid."
+          },
+          {
+            "title": "Ketulenan Air",
+            "desc": "Kesesuaian air minuman."
+          },
+          {
+            "title": "Pemeriksaan Geometri",
+            "desc": "Toleransi saiz mikrometer."
+          }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "GLOBAL",
+        "title": "SIJIL ANTARABANGSA",
+        "lead": "Diiktiraf di seluruh dunia.",
+        "items": [
+          {
+            "title": "ISO 9001",
+            "p1": "Sistem Pengurusan",
+            "p2": "Kualiti yang terjamin."
+          },
+          {
+            "title": "DVGW",
+            "p1": "Standard Jerman",
+            "p2": "Air dan Gas."
+          },
+          {
+            "title": "SKZ",
+            "p1": "Pusat Plastik",
+            "p2": "Kualiti bahan."
+          },
+          {
+            "title": "KIWA",
+            "p1": "Eropah",
+            "p2": "Pensijilan am."
+          }
+        ]
+      },
+      "lab": {
+        "eyebrow": "TEKNOLOGI",
+        "title1": "MAKMAL",
+        "title2": "INOVASI",
+        "desc": "Fasiliti ujian terkini.",
+        "items": [
+          {
+            "title": "Spektrometer",
+            "desc": "Analisis komposisi."
+          },
+          {
+            "title": "Mikroskop",
+            "desc": "Struktur polimer."
+          },
+          {
+            "title": "Mesin Ujian",
+            "desc": "Kekuatan tegangan."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "PROSES AUDIT",
+        "desc": "Langkah-langkah pemeriksaan.",
+        "items": [
+          {
+            "year": "Langkah 1",
+            "title": "Bahan Mentah",
+            "text": "Pemeriksaan resin PP-R."
+          },
+          {
+            "year": "Langkah 2",
+            "title": "Penyemperitan",
+            "text": "Pemantauan masa nyata."
+          },
+          {
+            "year": "Langkah 3",
+            "title": "Penyejukan",
+            "text": "Penstabilan terma."
+          },
+          {
+            "year": "Langkah 4",
+            "title": "Ujian Makmal",
+            "text": "Pensampelan rawak."
+          },
+          {
+            "year": "Langkah 5",
+            "title": "Pelepasan",
+            "text": "Kelulusan kualiti akhir."
+          }
+        ]
+      },
+      "cta": {
+        "title": "MUAT TURUN SIJIL",
+        "desc": "Dapatkan fail PDF.",
+        "button1": "Muat Turun",
+        "button2": "Hubungi"
+      }
     },
     "glossar": {
-      "meta": { "title": "Glosari", "desc": "Glosari" },
-      "hero": { "eyebrow": "G", "title1": "T", "title2": "T", "desc": "D", "cta1": "C", "cta2": "C" },
-      "manifesto": { "eyebrow": "M", "title": "T", "lead": "L" },
-      "scroll": { "eyebrow": "S", "title": "T", "lead": "L", "items": [{ "title": "T", "desc": "D" }] },
-      "bento": { "eyebrow": "B", "title": "T", "lead": "L", "items": [{ "title": "T", "desc": "D" }] },
-      "timeline": { "title": "T", "desc": "D", "items": [{ "year": "Y", "title": "T", "text": "T" }] },
-      "conclusion": { "title": "T", "p1": "P", "p2": "P", "p3": "P", "p4": "P" },
-      "cta": { "title1": "T", "title2": "T", "desc": "D", "button": "B" }
+      "meta": {
+        "title": "Glosari",
+        "desc": "Glosari teknikal K-Aqua."
+      },
+      "hero": {
+        "eyebrow": "GLOSARI",
+        "title1": "ISTILAH",
+        "title2": "TEKNIKAL",
+        "desc": "Pangkalan data pengetahuan.",
+        "cta1": "Mula Mencari",
+        "cta2": "Indeks"
+      },
+      "manifesto": {
+        "eyebrow": "DEFINISI",
+        "title": "JELAS",
+        "lead": "Bahasa kejuruteraan yang tepat."
+      },
+      "scroll": {
+        "eyebrow": "INDEKS A-Z",
+        "title": "CARI",
+        "lead": "Istilah penting.",
+        "items": [
+          {
+            "title": "PP-R",
+            "desc": "Polypropylene Random Copolymer."
+          },
+          {
+            "title": "SDR",
+            "desc": "Standard Dimension Ratio."
+          },
+          {
+            "title": "PN",
+            "desc": "Nominal Pressure."
+          },
+          {
+            "title": "LCA",
+            "desc": "Life Cycle Assessment."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "KONSEP KUNCI",
+        "title": "TEKNOLOGI",
+        "lead": "Prinsip reka bentuk sistem paip.",
+        "items": [
+          {
+            "title": "Kimpalan Homogen",
+            "desc": "Penyatuan bahan pada tahap molekul."
+          },
+          {
+            "title": "Kekasaran Permukaan",
+            "desc": "Aliran bendalir yang lancar."
+          },
+          {
+            "title": "Hakisan Kavitasi",
+            "desc": "Rintangan tekanan."
+          },
+          {
+            "title": "Dezincification",
+            "desc": "Rintangan tembaga kepada pengakisan."
+          },
+          {
+            "title": "Kestabilan UV",
+            "desc": "Perlindungan sinaran matahari.",
+            "label": "50+ TAHUN"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "EVOLUSI",
+        "desc": "Sejarah teknologi paip.",
+        "items": [
+          {
+            "year": "1980-an",
+            "title": "Generasi Awal",
+            "text": "Penggunaan PP-R."
+          },
+          {
+            "year": "2000-an",
+            "title": "Komposit",
+            "text": "Paip tetulang gentian kaca."
+          },
+          {
+            "year": "2010-an",
+            "title": "PPRCT",
+            "text": "Rintangan suhu yang lebih tinggi."
+          },
+          {
+            "year": "Kini",
+            "title": "Sistem Pintar",
+            "text": "Pengilangan industri 4.0."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "RUMUSAN",
+        "p1": "Pengetahuan adalah kunci kejayaan.",
+        "p2": "Terus belajar.",
+        "p3": "Inovasi berterusan.",
+        "p4": "Sertai akademi kami."
+      },
+      "cta": {
+        "title1": "SOALAN?",
+        "title2": "TANYA KAMI",
+        "desc": "Jurutera kami sedia membantu.",
+        "button": "Hubungi"
+      }
     },
-    "eyebrow": "Akademi",
-    "title1": "Pengetahuan",
-    "titleGrad": "Akademi K Aqua.",
-    "lead": "Latihan dan teknik kimpalan.",
+    "eyebrow": "AKADEMI",
+    "title1": "PUSAT PENGETAHUAN",
+    "titleGrad": "K-AQUA",
+    "lead": "Sumber maklumat dan kepakaran paip plastik.",
     "videos": [
       {
-        "t": "Kimpalan Soket",
+        "t": "Pengenalan Kimpalan",
         "s": "Video 1"
+      },
+      {
+        "t": "Teknik Lanjutan",
+        "s": "Video 2"
+      },
+      {
+        "t": "Kimpalan Elektrofusi",
+        "s": "Video 3"
+      },
+      {
+        "t": "Penyelenggaraan",
+        "s": "Video 4"
       }
     ],
-    "quizEyebrow": "Kuiz",
-    "quizTitle": "Uji Pengetahuan Anda",
-    "intro": "Mulakan kuiz sekarang.",
-    "start": "Mula",
+    "quizEyebrow": "KUIZ",
+    "quizTitle": "UJI KEMAHIRAN ANDA",
+    "intro": "Buktikan kepakaran teknikal anda.",
+    "start": "Mula Kuiz",
     "qLabel": "Soalan",
     "quiz": [
       {
-        "q": "Soalan 1",
+        "q": "Apakah maksud PP-R?",
         "o": [
-          "Opsyen 1"
+          "Polypropylene Random Copolymer",
+          "Polyvinyl Chloride",
+          "Polyethylene"
+        ]
+      },
+      {
+        "q": "Apakah suhu kimpalan ideal?",
+        "o": [
+          "260°C",
+          "150°C",
+          "300°C"
+        ]
+      },
+      {
+        "q": "Kelebihan utama paip PP-R?",
+        "o": [
+          "Tiada kakisan",
+          "Ringan",
+          "Mudah dikimpal"
+        ]
+      },
+      {
+        "q": "SDR bermaksud?",
+        "o": [
+          "Standard Dimension Ratio",
+          "System Data Rate",
+          "Safe Design Rule"
+        ]
+      },
+      {
+        "q": "Adakah K-Aqua bebas plumbum?",
+        "o": [
+          "Ya, 100%",
+          "Hanya model tertentu",
+          "Tidak"
         ]
       }
     ],
-    "resPerfect": "Sempurna",
-    "resGood": "Bagus",
-    "resLow": "Cuba lagi",
-    "retry": "Ulang",
-    "titlePerfect": "Master",
-    "titleGood": "Pakar"
+    "resPerfect": "Sempurna! Anda seorang pakar.",
+    "resGood": "Bagus! Pengetahuan yang mantap.",
+    "resLow": "Banyak yang perlu dipelajari. Cuba lagi.",
+    "retry": "Cuba Lagi",
+    "titlePerfect": "Pakar K-Aqua",
+    "titleGood": "Jurutera K-Aqua"
   },
   "refs": {
     "eyebrow": "Rujukan",
-    "title1": "Projek",
-    "titleGrad": "Global.",
-    "lead": "Projek kami di seluruh dunia.",
-    "canvasAria": "Glob",
-    "note": "Nota rujukan.",
+    "title1": "Glob",
+    "titleGrad": "Projek.",
+    "lead": "Pusingkan glob dan lihat projek kami di seluruh dunia.",
+    "canvasAria": "Glob interaktif dengan projek rujukan",
+    "note": "Nota: Nama projek dan butiran akan dikemas kini kelak.",
     "projects": [
       {
-        "id": "1",
-        "lat": 0,
-        "lon": 0,
-        "title": "Projek 1",
-        "d": "Deskripsi"
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Jerman",
+        "d": "Pusat pembangunan dan pengeluaran paip K-Aqua."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, UAE",
+        "d": "Sistem air panas PPRCT untuk bangunan tinggi di padang pasir."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warsaw, Poland",
+        "d": "Pemasangan air minuman untuk bangunan kediaman."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Turki",
+        "d": "Sistem peredaran paip komposit untuk kompleks hotel."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapura",
+        "d": "Projek infrastruktur berskala besar."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cape Town, Afrika Selatan",
+        "d": "Sistem agihan air yang bersih untuk hospital."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Penggantian paip pejabat dengan paip bebas karat."
       }
     ]
   },
   "buyers": {
-    "eyebrow": "Pembeli",
+    "eyebrow": "Untuk Perancang & Pembeli",
     "title1": "Maklumat untuk",
     "titleGrad": "Pembeli.",
-    "lead": "Panduan untuk pembeli.",
+    "lead": "Dapatkan maklumat tepat yang anda perlukan untuk projek anda.",
     "personas": [
       {
-        "t": "Jurutera",
-        "d": "Data Teknikal",
-        "cta": "Lihat",
+        "t": "Jurutera Perancang",
+        "d": "Data teknikal, jadual SDR dan sijil CO2 untuk projek.",
+        "cta": "Lihat Data Teknikal",
         "goto": "products"
+      },
+      {
+        "t": "Pembeli & Logistik",
+        "d": "Penghantaran terus dari kilang dan perancangan yang mudah.",
+        "cta": "Mula Pertanyaan Projek",
+        "goto": "rfq"
+      },
+      {
+        "t": "Pemasang",
+        "d": "Panduan kimpalan dan maklumat keselamatan pemasangan.",
+        "cta": "Ke Akademi",
+        "goto": "academy"
       }
     ],
-    "whyEyebrow": "Sebab",
-    "whyTitle": "Kenapa Pilih Kami",
+    "whyEyebrow": "Kenapa K Aqua",
+    "whyTitle": "Sebab utama memilih kami.",
     "why": [
       {
-        "t": "Kualiti",
-        "d": "Terbaik"
+        "t": "Rintangan Tekanan & Haba",
+        "d": "PPRCT memberikan rintangan tekanan dan suhu yang lebih tinggi."
+      },
+      {
+        "t": "Bebas Kakisan",
+        "d": "Tiada karat berbanding paip logam tradisional."
+      },
+      {
+        "t": "Mesra Alam",
+        "d": "Boleh dikitar semula dengan jejak karbon yang rendah."
+      },
+      {
+        "t": "Satu Pembekal",
+        "d": "Sistem lengkap terus dari pengeluar."
       }
     ],
     "promise": [
-      "Janji"
+      "Terus dari kilang",
+      "Maklum balas < 24 jam",
+      "Tanpa komitmen"
     ],
-    "ctaAll": "Hubungi"
+    "ctaAll": "Hantar Pertanyaan Projek"
   },
   "rfq": {
-    "eyebrow": "RFQ",
-    "title1": "Minta",
-    "titleGrad": "Sebut Harga.",
-    "lead": "Minta sebut harga projek anda.",
+    "eyebrow": "Pertanyaan Projek",
+    "title1": "Projek anda,",
+    "titleGrad": "Tawaran kami.",
+    "lead": "Lengkapkan borang dalam 4 langkah mudah. Kami akan menghubungi anda segera.",
     "steps": [
-      "Langkah"
+      "Jenis",
+      "Keperluan",
+      "Masa & Rantau",
+      "Kenalan"
     ],
     "types": [
       {
-        "t": "Jenis",
-        "d": "Deskripsi"
+        "t": "Pembinaan Baru",
+        "d": "Sistem air untuk bangunan komersial atau kediaman."
+      },
+      {
+        "t": "Infrastruktur",
+        "d": "Sistem bekalan berskala besar."
+      },
+      {
+        "t": "Pengubahsuaian",
+        "d": "Menggantikan paip logam lama."
+      },
+      {
+        "t": "Perdagangan",
+        "d": "Pengedaran atau stokis."
       }
     ],
-    "fType": "Jenis",
+    "fType": "Jenis Projek",
     "fDims": "Dimensi",
     "fMeters": "Panjang",
-    "dimsHint": "Petunjuk",
-    "fTime": "Masa",
-    "fRegion": "Wilayah",
+    "dimsHint": "Anggaran kasar sudah memadai.",
+    "fTime": "Garis Masa",
+    "fRegion": "Rantau",
     "timelines": [
-      "Masa"
+      "Segera",
+      "1-3 Bulan",
+      "3-6 Bulan",
+      "Fasa Perancangan"
     ],
     "regions": [
-      "Wilayah"
+      "Jerman",
+      "Eropah",
+      "Timur Tengah",
+      "Asia",
+      "Global"
     ],
     "fName": "Nama",
     "fCompany": "Syarikat",
-    "fEmail": "Emel",
+    "fEmail": "E-Mel",
     "fPhone": "Telefon",
     "fMsg": "Mesej",
-    "privacy": "Privasi",
+    "privacy": "Data anda selamat.",
     "back": "Kembali",
     "next": "Seterusnya",
-    "send": "Hantar",
-    "mailSubject": "Subjek",
+    "send": "Hantar Pertanyaan",
+    "mailSubject": "Pertanyaan Projek K Aqua",
     "promise": [
-      "Janji"
+      "Maklum balas cepat",
+      "Tanpa komitmen",
+      "Sokongan terus"
     ],
-    "doneTitle": "Selesai",
-    "doneText": "Terima kasih",
-    "doneBack": "Kembali",
-    "infoTitle": "Maklumat",
-    "infoText1": "Maklumat",
-    "infoText2": "Maklumat 2",
+    "doneTitle": "Hampir Selesai.",
+    "doneText": "Sila hantar e-mel yang telah diisi secara automatik.",
+    "doneBack": "Kembali ke Laman Utama",
+    "infoTitle": "Mengenai Pertanyaan Projek",
+    "infoText1": "Gunakan borang ini untuk merancang projek anda bersama pakar kami.",
+    "infoText2": "Kami akan menyediakan tawaran terperinci berdasarkan keperluan anda.",
     "faqTitle": "Soalan Lazim",
     "faqs": [
       {
-        "q": "Soalan",
-        "a": "Jawapan"
+        "q": "Adakah pertanyaan ini berbayar?",
+        "a": "Tidak, ia adalah percuma dan tanpa komitmen."
+      },
+      {
+        "q": "Apa yang berlaku seterusnya?",
+        "a": "Wakil jualan kami akan menghubungi anda dalam masa 24 jam."
+      },
+      {
+        "q": "Bolehkah saya beli secara peribadi?",
+        "a": "Kami fokus kepada B2B. Pelanggan peribadi akan dirujuk kepada rakan kongsi kami."
+      },
+      {
+        "q": "Adakah data saya selamat?",
+        "a": "Ya, kami tidak menyimpan data pada pelayan."
       }
     ]
   }

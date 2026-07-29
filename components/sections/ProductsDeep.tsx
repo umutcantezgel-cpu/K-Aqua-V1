@@ -38,14 +38,14 @@ export function ProductsDeep() {
   const locale = useLocale() as "de" | "en" | "ar";
   const [sdr, setSdr] = useState<number>(6);
 
-  const pipes = t.raw("pipes") as PipeFamily[];
-  const anchors = t.raw("anchors") as Anchor[];
-  const matHead = t.raw("matHead") as string[];
-  const matRows = t.raw("matRows") as string[][];
-  const normHead = t.raw("normHead") as string[];
-  const norms = t.raw("norms") as string[][];
-  const faq = t.raw("faq") as Array<{ q: string; a: string }>;
-  const dimHead = t.raw("dimHead") as string[];
+  const pipes = (t.raw("pipes") || []) as PipeFamily[];
+  const anchors = (t.raw("anchors") || []) as Anchor[];
+  const matHead = (t.raw("matHead") || []) as string[];
+  const matRows = (t.raw("matRows") || []) as string[][];
+  const normHead = (t.raw("normHead") || []) as string[];
+  const norms = (t.raw("norms") || []) as string[][];
+  const faq = (t.raw("faq") || []) as Array<{ q: string; a: string }>;
+  const dimHead = (t.raw("dimHead") || []) as string[];
 
   const fmtSdr = (s: number) => "SDR " + (locale === "de" ? String(s).replace(".", ",") : String(s));
   const rows = tableForSdr(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
