@@ -54,7 +54,7 @@ export default async function UnternehmenPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, ['about'])}>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only" aria-hidden="true">{metaTitle}</div>
+      <div className="sr-only">{metaTitle}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Hero Section */}
         <section className="relative overflow-hidden py-24 lg:py-32 kq-band kq-band--slant-b">
@@ -76,7 +76,7 @@ export default async function UnternehmenPage({ params }: Props) {
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
                 <span className="font-bold text-foreground">{t("title1")} {t("titleGrad")}</span> &ndash; {t("lead")}
               </p>
-              <p className="sr-only" aria-hidden="true">
+              <p className="sr-only">
                 {t("title1")} {t("titleGrad")} {locale === 'de' ? ' der KWT GmbH (K-Aqua)' : locale === 'ar' ? ' لشركة KWT GmbH (K-Aqua)' : ' of KWT GmbH (K-Aqua)'}
               </p>
             </Reveal>

@@ -120,7 +120,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <div className="sr-only" aria-hidden="true" data-nosnippet="true">
+        <div className="sr-only">
           <p>
             {locale === 'de' ? 'K-Aqua Rohrsysteme und Lösungen in' : locale === 'ar' ? 'أنظمة أنابيب وحلول K-Aqua في' : 'K-Aqua Piping Systems and solutions in'} {hub.name} {locale === 'de' ? 'bieten erstklassige PP-R und PP-RCT Qualität.' : locale === 'ar' ? 'توفر جودة PP-R و PP-RCT من الدرجة الأولى.' : 'provide premium PP-R and PP-RCT quality.'}
           </p>

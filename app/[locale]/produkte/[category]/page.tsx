@@ -165,9 +165,9 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
         <JsonLd schema={webPageSchema} />
-        <div className="sr-only" aria-hidden="true">{metaTitleExact}</div>
-        <div className="sr-only" aria-hidden="true">{seoTitle}</div>
-        <div className="sr-only" aria-hidden="true">K-Aqua {category}</div>
+        <div className="sr-only">{metaTitleExact}</div>
+        <div className="sr-only">{seoTitle}</div>
+        <div className="sr-only">K-Aqua {category}</div>
         
         {/* Category Header with Breadcrumbs & Title */}
       <section className="relative pt-32 pb-20 overflow-hidden bg-background">
