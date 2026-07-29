@@ -163,7 +163,7 @@ export default async function CategoryPage({ params }: Props) {
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['productsx', 'catalogx', 'common'])}>
+    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
         <JsonLd schema={webPageSchema} />
         <div className="sr-only" aria-hidden="true">{metaTitleExact}</div>
         <div className="sr-only" aria-hidden="true">K-Aqua {category}</div>
