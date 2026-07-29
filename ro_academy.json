@@ -1,0 +1,447 @@
+{
+  "academy": {
+    "eyebrow": "K Aqua Academy",
+    "title1": "Cunoaștere care",
+    "titleGrad": "conectează.",
+    "lead": "Patru procese de sudură în video și un test care te face maestru sudor. Cunoaștere care conectează. Optimizat pentru șantier: obiective mari, contraste ridicate.",
+    "videos": [
+      {
+        "t": "Sudură cu mufă, manuală",
+        "s": "până la d63: Aparat de sudură manual"
+      },
+      {
+        "t": "Sudură cu mufă, cu mașină",
+        "s": "dimensiuni medii"
+      },
+      {
+        "t": "Electro-sudură",
+        "s": "Fitinguri cu rezistență electrică"
+      },
+      {
+        "t": "Sudură cap la cap (Stumpfschweißen)",
+        "s": "Dimensiuni mari până la d630"
+      }
+    ],
+    "quizEyebrow": "Quiz Maestru Sudor",
+    "quizTitle": "Cinci Întrebări. O Insignă.",
+    "intro": "Testați-vă cunoștințele de procesare PP-R/PPRCT. Fără erori = Titlul „Maestru Sudor\".",
+    "start": "Începe Quiz-ul",
+    "qLabel": "Întrebare",
+    "quiz": [
+      {
+        "q": "Care este procesul de sudură standard pentru dimensiuni mari (ex. d630)?",
+        "o": [
+          "Sudură cu mufă, manuală",
+          "Sudură cap la cap (Butt Fusion)",
+          "Lipire"
+        ]
+      },
+      {
+        "q": "Ce înseamnă SDR la sistemele de conducte?",
+        "o": [
+          "Raportul Dimensional Standard (Standard Dimension Ratio - d/s)",
+          "Static Density Rating",
+          "Sicherheits-Druck-Reserve (Rezervă de Presiune de Siguranță)"
+        ]
+      },
+      {
+        "q": "Ce diferențiază PPRCT de PP-R clasic?",
+        "o": [
+          "Preț mai mic",
+          "Structură cristalină modificată → rezervă mai mare de temperatură și presiune",
+          "Armătură metalică"
+        ]
+      },
+      {
+        "q": "Ce cod de reciclare are polipropilena?",
+        "o": [
+          "Cod 3",
+          "Cod 5",
+          "Cod 7"
+        ]
+      },
+      {
+        "q": "La electro-sudură (Electrofusion), căldura provine din...",
+        "o": [
+          "o oglindă de încălzire",
+          "rezistențe electrice integrate în fiting",
+          "aer cald"
+        ]
+      }
+    ],
+    "resPerfect": "Perfect! Titlul „Maestru Sudor\" a fost obținut!",
+    "resGood": "Solid! Titlul „Calfă Sudor\" asigurat. Pentru maestru: toate cele cinci corecte.",
+    "resLow": "Videoclipurile de mai sus ajută. Apoi veți obține titlul de maestru.",
+    "retry": "Încearcă din nou",
+    "titlePerfect": "Maestru Sudor",
+    "titleGood": "Calfă Sudor",
+    "schulungen": {
+      "meta": {
+        "title": "Instruiri | K Aqua",
+        "desc": "K Aqua Instruiri: Siguranță fără compromisuri prin inginerie germană pentru megaproiecte globale. Participați la cursurile noastre de experți."
+      },
+      "hero": {
+        "eyebrow": "GERMAN ENGINEERING ACADEMY",
+        "title1": "Testarea",
+        "title2": "Elitei Industriale.",
+        "desc": "Programul de instruire K Aqua nu este o educație continuă obișnuită. Este inițierea în lumea fără compromisuri a construcției germane de conducte. Pentru ingineri și tehnicieni responsabili de megaproiecte, unde eșecul material nu este o opțiune, ci o catastrofă absolută. Predăm în micrometri, gândim în decenii.",
+        "cta1": "Începeți aplicarea la Academie",
+        "cta2": "Vezi Curriculum"
+      },
+      "manifesto": {
+        "title1": "Precizia",
+        "title2": "este <span className=\"text-primary\">niciodată</span>",
+        "title3": "o întâmplare.",
+        "p1": "Este rezultatul unei metodologii implacabile și al unei discipline industriale de gheață. Atunci când mii de metri cubi de apă sunt pompați sub presiune enormă prin liniile de salvare ale unui zgârie-nori de 100 de etaje, nu există spațiu pentru aproximări sau interpretări.",
+        "p2": "Programul de instruire K Aqua a fost dezvoltat pentru a reduce decalajul dintre cunoștințele teoretice și perfecțiunea mecanică, fără erori. Cine este instruit în academia noastră, nu mai acționează ca un simplu meșter. El devine organul executiv al unui sistem perfect, determinist."
+      },
+      "bento": {
+        "eyebrow": "Pilonii Autorității",
+        "title": "Cunoașterea ca armă absolută.",
+        "lead": "Modulele noastre tehnice de instruire nu sunt concepute pentru a vă face viața ușoară. Sunt concepute pentru a eradica nemilos erorile.",
+        "items": [
+          {
+            "title": "Fuziune omogenă a materialului",
+            "desc": "Dincolo de lipire sau garnituri mecanice instabile. Ne antrenăm pentru calibrarea exactă a temperaturii, presiunii și timpului pentru a topi țevile și fitingurile la nivel molecular într-o structură monolitică inseparabilă."
+          },
+          {
+            "title": "Analiză destructivă",
+            "desc": "Pentru a înțelege limitele, trebuie să le depășești. Module practice pe bancurile noastre de testare la înaltă presiune, cu presiuni de explozie cu mult peste 100 de bari. Analizăm eșecul pentru a-l exclude în practică."
+          },
+          {
+            "title": "Dilatare termică liniară",
+            "desc": "Compensarea calculată cu sânge rece a fluctuațiilor de temperatură din proiecte majore folosind curburi de dilatare (lire) și sisteme de puncte fixe precis calculate."
+          },
+          {
+            "title": "Medii agresive & Stabilitate pH",
+            "desc": "Analiză în profunzime a rezistenței împotriva substanțelor chimice industriale foarte concentrate. Academia oferă cunoștințe aprofundate despre oboseala materialului sub expunere chimică continuă și variații radicale de pH."
+          }
+        ]
+      },
+      "typography": {
+        "t1": "TOLERANȚĂ",
+        "t2": "ZERO ERORI."
+      },
+      "curriculum": {
+        "eyebrow": "CURRICULUMUL",
+        "title": "Fără compromisuri academice.",
+        "lead": "Patru module. O singură doctrină. Fiecare segment al curriculumului nostru este conceput pentru a identifica și elimina sistemic punctele slabe în execuție."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Modul Alpha: Mecanica fluidelor & Cinetică",
+            "desc": "Matematica apei. Descompunem efectele complexe ale cavitației și scenariile cu lovituri de berbec (șocuri de presiune) în variabile calculabile. Veți învăța nu doar să amortizați simptomele de șoc hidrodinamic, ci să le eliminați sistemic. Pentru rețele de conducte care operează într-o perfecțiune completă și silențioasă."
+          },
+          {
+            "title": "Modul Beta: Proiectare Parametrică a Conductelor",
+            "desc": "Proiectarea sistemelor de conducte ca disciplină algoritmică. Instruirea include utilizarea celor mai avansate instrumente CAD/BIM pentru detectarea coliziunilor și optimizarea utilizării materialelor. Fără estimări. Doar calcul pur, la rece."
+          },
+          {
+            "title": "Modul Gamma: Arhitectura Igienei & Microbiologie",
+            "desc": "Prevenirea Legionelelor la nivel structural. Cum să evitați tronsoanele de stagnare (dead legs), să eliminați zonele de stagnare și să controlați stratificarea temperaturii apei în sisteme complexe înelare. Sistemul dictează puritatea, noi nu lăsăm nimic la voia întâmplării."
+          },
+          {
+            "title": "Modul Delta: Auditul Final K Aqua",
+            "desc": "Examinarea nu este un drept, este un privilegiu. Examenul presupune construcția și apărarea teoretică a unui sistem de alimentare cu apă independent, sub condiții extreme simulate (de ex., activitate seismică, temperatură exterioară de 50°C). Doar cei care dovedesc o absență absolută a erorilor vor purta certificatul K Aqua."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Calea spre Certificare.",
+        "desc": "Transformarea de la instalator la Master-Engineer K Aqua certificat urmează un ritm strict, implacabil. Numai cine parcurge acest drum până la capăt primește autorizația pentru sistemele noastre de înaltă performanță.",
+        "items": [
+          {
+            "year": "FAZA 01",
+            "title": "Fizica materialelor & Onboarding",
+            "text": "Înțelegerea limitelor fizice. O introducere profundă în specificațiile moleculare ale materialului PP-R/PPRCT. Aici se toarnă fundația durității industriale."
+          },
+          {
+            "year": "FAZA 02",
+            "title": "Laborator & Teste de stres",
+            "text": "Distrugere hands-on. Experimentarea limitei de rupere în bancul de probă și studiul formării fisurilor microscopice. Doar cel care cunoaște slăbiciunea poate construi forța absolută."
+          },
+          {
+            "year": "FAZA 03",
+            "title": "Doctrina Fuziunii",
+            "text": "Protocolul de sudură perfect. Antrenament mecanic al secvențelor de mișcare termodinamică până la un automatism muscular, infailibil. Fiecare mișcare a mâinii este calibrată."
+          },
+          {
+            "year": "FAZA 04",
+            "title": "Arhitectura Sistemului",
+            "text": "Scalare de la un segment simplu de țeavă la infrastructura unui zgârie-nori. Executăm tabele cu pierderi de presiune, viteze de curgere și divizoare de debit cu o logică de fier."
+          },
+          {
+            "year": "FAZA 05",
+            "title": "Examenul de Maestru",
+            "text": "Un audit de 48 de ore sub supravegherea nemiloasă a inginerilor-șefi germani. Fără toleranță pentru calcule greșite. O singură greșeală înseamnă excludere imediată."
+          }
+        ]
+      },
+      "spec": {
+        "eyebrow": "STANDARD GLOBAL",
+        "title": "Etalonul (Benchmark) global pentru siguranță.",
+        "desc": "Certificatul nostru nu este doar o bucată de hârtie. Este o promisiune turnată în titan pentru dezvoltatori și investitori din întreaga lume. Acolo unde este prezent certificatul K Aqua, instalarea a fost efectuată conform celor mai stricte standarde de inginerie germane.",
+        "items": [
+          {
+            "title": "Valabilitate internațională",
+            "text": "Recunoscut de autoritățile de top în construcții și reglementări din lume."
+          },
+          {
+            "title": "Transparența auditului",
+            "text": "Documentare digitală completă a fiecărui proces de sudură."
+          },
+          {
+            "title": "Autoritate pe viață",
+            "text": "Odată dobândit, îl distinge pe Inginer ca făcând parte dintr-o castă de elită."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "Gata pentru",
+        "title2": "control absolut?",
+        "desc": "Supuneți-vă standardului ingineriei germane. Trimiteți-ne profilul dumneavoastră sau solicitați specificațiile pentru audituri interne ale companiei.",
+        "button": "Inițiază aplicația"
+      }
+    },
+    "zertifizierung": {
+      "meta": {
+        "title": "Certificate & Norme | K Aqua",
+        "desc": "DVGW, SKZ, ISO și altele. Descoperiți siguranța fără compromisuri și calitatea German Engineering a sistemelor de conducte K Aqua."
+      },
+      "hero": {
+        "eyebrow": "Standarde de Inginerie Germană",
+        "title1": "Certificate.",
+        "title2": "Proiectat în Germania.",
+        "desc": "Acest modul oferă securitate fără compromisuri pentru cele mai solicitante proiecte din întreaga lume. Fabricat conform celor mai stricte standarde din industrie pentru a dura generații. Deoarece eșecul material nu este niciodată o opțiune.",
+        "cta1": "Solicită un proiect",
+        "cta2": "Manual Tehnic"
+      },
+      "manifesto": {
+        "title1": "Un certificat este doar o bucată de hârtie.",
+        "title2": "Procesul din spatele lui este din oțel.",
+        "p1": "Mulți producători văd normele ca obiectivul suprem. Noi le vedem ca limita absolută de jos (minimul). Toleranțele noastre interne sunt mult mai stricte decât ceea ce solicită DVGW, ISO sau SKZ. Când o țeavă K Aqua părăsește fabrica noastră, a fost analizată la nivel molecular, torturată cu presiuni extreme și împinsă termic la limita absolută."
+      },
+      "bento": {
+        "eyebrow": "Pilonii Securității",
+        "title": "ADN-ul unui sistem de conducte perfect.",
+        "lead": "Când antreprenorii generali internaționali planifică proiecte de miliarde, ei nu se bazează pe promisiuni de marketing. Ei cer fapte concrete, măsurabile fizic.",
+        "items": [
+          {
+            "title": "Rezistență extremă la presiune",
+            "desc": "Testat pentru sarcini continue până la PN20/PN25. Testele noastre de presiune de explozie demonstrează rezerve cu mult peste norme. Rupturile de conducte aparțin trecutului."
+          },
+          {
+            "title": "Suveranitate Termică",
+            "desc": "Permanent rezistent de la -20°C la +95°C. Fără oboseală a materialului, fără slăbire structurală, chiar și în caz de șocuri termice extreme."
+          },
+          {
+            "title": "Igienă Absolută",
+            "desc": "Fără coroziune. Fără încrustare. Sigur pentru alimente, toxicologic inofensiv și rezistent la creșterea Legionellelor."
+          },
+          {
+            "title": "Protecție împotriva incendiilor (B1/B2)",
+            "desc": "Clasificat conform DIN 4102. Greu inflamabil și cu dezvoltare minimă de fum pentru cea mai mare siguranță în infrastructurile critice ale clădirilor."
+          },
+          {
+            "title": "Garanție pentru ciclul de viață",
+            "desc": "O durată de viață definită de 50 de ani în conformitate cu cel mai strict standard ISO. În realitatea arhitecturală, cu toate acestea, este construit pentru a dura generații întregi."
+          }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "Autoritățile",
+        "title": "Cei mai duri examinatori din lume.",
+        "lead": "Numai cei care trec de cele mai critice audituri externe au voie să poarte eticheta 'German Engineering'. Iată instituțiile care ne validează calitatea.",
+        "items": [
+          {
+            "title": "DVGW: Cea mai înaltă autoritate",
+            "p1": "Asociația Germană pentru Tehnologia Gazelor și a Apei (DVGW) stabilește cel mai strict standard mondial pentru igiena apei potabile și durabilitatea materialelor.",
+            "p2": "Testarea noastră DVGW garantează că sistemele de conducte K Aqua, în condiții extreme, nu eliberează substanțe toxice și nu favorizează creșterea microbiologică. Fiecare lot este supus unor teste hidrostatice pe termen lung (test de rezistență la presiune internă) la 95°C."
+          },
+          {
+            "title": "SKZ: Monitorizare independentă",
+            "p1": "Centrul German al Plasticelor din Sud (SKZ) acționează ca auditorul nostru incoruptibil. Inspecția externă terță protejează ceea ce laboratoarele noastre interne specifică deja.",
+            "p2": "Sunt testate rezistența la impact (crestată), rezistența la tracțiune și comportamentul termic folosind analiza DSC (Calorimetrie Dinamică cu Scanare). Marca SKZ este dovada perfecțiunii mecanice, mult dincolo de cerințele DIN EN ISO 15874."
+          },
+          {
+            "title": "KTW-BWGL: Puritate absolută",
+            "p1": "Baza de evaluare pentru materialele plastice și alte materiale organice în contact cu apa potabilă (Agenția Federală de Mediu UBA).",
+            "p2": "Utilizăm exclusiv polipropilenă de înaltă puritate (PP-R / PPRCT) fără aditivi nocivi sau metale grele. Rezultatul? Apă de calitate ca de izvor direct de la robinet. Fără afectarea mirosului, fără afectarea gustului."
+          },
+          {
+            "title": "ISO 9001 & 14001: Excelență Sistematică",
+            "p1": "Calitatea nu este un accident, ci un proces absolut reproductibil. Certificarea noastră ISO 9001 dovedește un management complet al calității, de la primirea materiilor prime până la livrarea globală a produselor.",
+            "p2": "Prin ISO 14001, dovedim că performanța industrială superioară și responsabilitatea ecologică merg mână în mână. Consum de energie minimizat, utilizarea eficientă a resurselor și reciclabilitate 100% a produselor noastre din PP."
+          }
+        ]
+      },
+      "lab": {
+        "eyebrow": "În interiorul Laboratorului",
+        "title1": "Anatomia",
+        "title2": "perfecțiunii.",
+        "desc": "Înainte ca un sistem K Aqua să părăsească fabrica, acesta trebuie să treacă prin centrul nostru de testare intern. O instalație ultra-echipată, în care supunem materialele la condiții pe care nu le vor experimenta niciodată în realitate.",
+        "items": [
+          {
+            "title": "MFR (Melt Flow Rate / Indice de Curgere la Topire)",
+            "desc": "Controlul ratei debitului de topire pentru a asigura vâscozitatea exactă în timpul extrudării și în timpul sudării ulterioare pe șantier."
+          },
+          {
+            "title": "OIT (Oxidation Induction Time)",
+            "desc": "Analiză termică pentru a determina rezistența la îmbătrânire. Dovada că stabilizatorii noștri protejează plasticul de degradare timp de zeci de ani."
+          },
+          {
+            "title": "Test de presiune internă (Rezistență la oboseală)",
+            "desc": "Eșantioanele de țevi sunt depozitate în băi de apă speciale la 95°C sub presiune extremă, timp de mii de ore. Fără nicio crăpătură. Fără rupere."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Decenii de Inovație.",
+        "desc": "Standardele noastre de calitate nu au apărut peste noapte. Ele sunt rezultatul a zeci de ani de inginerie și optimizare continuă a proceselor.",
+        "items": [
+          {
+            "year": "1990",
+            "title": "Nașterea Standardului",
+            "text": "Fiind pionieri în extrudarea țevilor din plastic, am implementat din timp proceduri interne de testare care au mers mult dincolo de cerințele industriei din acel moment. Piatra de temelie a unei culturi a calității fără compromisuri."
+          },
+          {
+            "year": "1995",
+            "title": "Integrarea ISO 9001",
+            "text": "Auditul complet al sistemelor noastre de management al calității conform ISO 9001. Fiecare mișcare, fiecare lot de materii prime, fiecare setare a mașinii este acum documentată sistematic și făcută complet trasabilă."
+          },
+          {
+            "year": "2005",
+            "title": "Certificarea DVGW & SKZ",
+            "text": "Admiterea în cercul exclusivist al producătorilor testați DVGW și SKZ. Sigiliul oficial pentru igienă absolută, rezistență extremă la presiune și durabilitate de neegalat sub cele mai dure condiții de utilizare cu apă potabilă."
+          },
+          {
+            "year": "2015",
+            "title": "Norme Globale (WRAS, KTW)",
+            "text": "Extinderea certificărilor pentru piețele internaționale. Îndeplinirea orientărilor stricte KTW (UBA) și a cerințelor britanice WRAS. K Aqua devine standardul global pentru megaproiecte internaționale."
+          },
+          {
+            "year": "2024",
+            "title": "Analiza Calității Next-Gen",
+            "text": "Introducerea testelor puternic automatizate OIT (Timpul de Inducție a Oxidării) și MFR (Melt Flow Rate) în laboratorul nostru de precizie. Analiza defecțiunilor bazată pe AI în timpul extrudării pentru o rată de eroare de 100% zero."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Calitate în care puteți avea încredere oarbă.",
+        "desc": "Descărcați certificatele noastre oficiale sau discutați direct cu echipa noastră de ingineri despre specificațiile pentru următorul dumneavoastră megaproiect.",
+        "button1": "Descărcați certificate",
+        "button2": "Contactați suportul tehnic"
+      }
+    },
+    "glossar": {
+      "meta": {
+        "title": "Glossar Tehnic | K Aqua",
+        "desc": "Descoperiți semnificațiile tehnice și specificațiile din spatele K Aqua. De la PP-R la Polyfusion, explorați lexicul ingineriei noastre germane."
+      },
+      "hero": {
+        "eyebrow": "Glosar Tehnic",
+        "title1": "Terminologia",
+        "title2": "Siguranței Absolute.",
+        "desc": "Bun venit în centrul lexical al tehnologiei conductelor. Aici decodificăm principiile ingineriei germane. Fără marketing. Doar fapte fizice, știința materialelor și autoritate industrială.",
+        "cta1": "Contactați Ingineria",
+        "cta2": "Explorați Glosarul"
+      },
+      "manifesto": {
+        "eyebrow": "Doctrina",
+        "title": "Arhitectura infailibilității.",
+        "lead": "Un sistem de conducte este sistemul cardiovascular al fiecărui megaproiect. O defecțiune înseamnă un atac de cord infrastructural. De aceea, nu vorbim despre țevi, ci despre artere industriale vitale. Fiecare termen din acest glosar reprezintă un pilon al filozofiei noastre de „Zero Erori”."
+      },
+      "scroll": {
+        "eyebrow": "Cinematică & Știința Materialelor",
+        "title": "Procesul K Aqua.",
+        "lead": "De la granulația la nivel molecular până la testul de presiune final. Înțelegeți principiile fizice care fac sistemele noastre indestructibile.",
+        "items": [
+          {
+            "title": "Dinamica de Extrudere la Înaltă Presiune",
+            "desc": "Deformarea termoplastică în fabricile noastre este supusă unui control precis al temperaturii la cel mai apropiat 0,1°C. Această perfecțiune cristalină garantează o structură moleculară omogenă, impecabilă, care exclude absolut crăparea microscopică (Stress Cracking), chiar și sub presiune extremă și fluctuații de temperatură. Atunci când materialul părăsește extruderul nostru, nu mai este doar un plastic obișnuit. Este un monolit industrial."
+          },
+          {
+            "title": "Teste Hidrostatice de Sarcină",
+            "desc": "În laboratoarele noastre de testare, fiecare țeavă este supusă unei simulări hidrostatice care depășește de mai multe ori condițiile reale. Aplicăm presiuni interne mult peste orice cerință normativă (până la 100 de bari, în funcție de clasa SDR). Acest lucru asigură integritatea sudurilor și elasticitatea moleculară a materialului PP-R pe o durată de viață proiectată de peste 50 de ani în infrastructuri critice."
+          },
+          {
+            "title": "Tehnologia de Sudare prin Polifuziune",
+            "desc": "Conexiunile sunt punctul slab al sistemelor convenționale. K Aqua elimină acest risc prin polifuziune. La nivel molecular, țeava și fitingul fuzionează într-o unitate continuă, inseparabilă. Nu există filete care pot coroda, nicio garnitură care poate eșua. Rezultatul este un sistem de conducte care se comportă ca și cum ar fi fost turnat dintr-o singură bucată."
+          },
+          {
+            "title": "Rezistența la Cavitație & Mecanica Fluidelor",
+            "desc": "Datorită unui perete interior ultra-neted (rugozitate < 0,007 mm), conductele K Aqua reduc rezistența la curgere aproape la zero. Acest lucru previne formarea biofilmelor și elimină efectele de micro-cavitație la fluxuri de mare viteză. Pierderile de presiune din sistem sunt reduse drastic, ceea ce maximizează eficiența energetică a sistemelor de pompe conectate la scară industrială."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenclatură",
+        "title": "Parametrii Tehnici.",
+        "lead": "Cele mai importante vocabule din tehnologia conductelor industriale, distilate la esența lor.",
+        "items": [
+          {
+            "title": "PP-R (Polipropilenă Copolimer Random)",
+            "desc": "Baza moleculară. Un polimer termoplastic extrem de cristalin care oferă o rezistență excepțională la temperaturi și presiuni ridicate. Este ADN-ul longevității noastre."
+          },
+          {
+            "title": "Dilatarea termică liniară",
+            "desc": "Modificarea lungimii materialului la schimbarea temperaturii. Conductele noastre armate cu fibră reduc această valoare la un minim absolut (α = 0,035 mm/mK), ceea ce crește enorm stabilitatea structurală în ghene."
+          },
+          {
+            "title": "Rezistența la fluaj (Creep Strength)",
+            "desc": "Capacitatea sistemului de a rezista la o presiune internă constantă la temperaturi specifice de-a lungul deceniilor, fără a se deforma sau a exploda. Conductele K Aqua sunt calibrate pentru mai mult de 50 de ani."
+          },
+          {
+            "title": "Coeficientul pierderilor de presiune",
+            "desc": "O valoare matematică ce descrie pierderea de energie a fluxului din cauza frecării pe peretele interior al țevii. Datorită suprafețelor nano-netede, această valoare este marginalizată în sistemele K Aqua."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "Raportul dintre diametrul exterior (d) și grosimea peretelui (s). O țeavă SDR 6 rezistă la presiuni masiv mai mari decât o țeavă SDR 11. Alegerea corectă este crucială pentru design-ul sistemului.",
+            "label": "50+ ANI"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Rigoare de Reglementare.",
+        "desc": "Pentru noi, normele nu sunt reglementări, ci punctul de plecare al ingineriei noastre. O cronologie a certificărilor și standardelor pe care sistemele noastre nu doar că le îndeplinesc, ci le domină.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Baza Normativă",
+            "text": "Baza normelor germane pentru conducte. Considerăm aceste standarde nu ca un obiectiv, ci ca un minim absolut. Toleranțele noastre interne sunt cu până la 30% mai stricte decât cele cerute de DIN."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Testare Globală",
+            "text": "Sigiliul internațional de aprobare pentru sistemele de conducte din plastic pentru instalațiile de apă caldă și rece. Dovada aplicabilității globale, fără compromisuri, a sistemelor noastre."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Standard Dimension Ratios (Rapoarte Dimensionale Standard)",
+            "text": "Un raport precis între diametrul exterior și grosimea peretelui. Inginerii noștri calibrează fiecare lot pentru a garanta rezistența maximă la presiune cu un debit optim."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Igienă & Testarea Materialelor",
+            "text": "Certificate care atestă siguranța absolută pentru alimente și apă potabilă. Fără metale grele, fără leșiere (levigare). Dinamică a fluidelor pură, necontaminată, pentru cele mai înalte cerințe de igienă."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Rezistența la degradare în cazuri extreme.",
+        "p1": "În aplicațiile industriale, nu operarea normală determină calitatea unui sistem de conducte, ci stabilitatea la limită. Coroziunea chimică, cavitația cauzată de loviturile de berbec și șocurile termice sunt dușmanii naturali ai instalațiilor convenționale.",
+        "p2": "<strong>Matricea K Aqua</strong> izolează mediul fluid de împrejurimi printr-un strat barieră inert. Nu are loc niciun schimb de ioni. Sistemele metalice se degradează din momentul în care apa curge prin ele. Se sacrifică pe ele însele pentru a funcționa. Sistemul nostru PP-R rămâne impecabil pe interior, chiar și după decenii.",
+        "p3": "Conceptul de <strong>rezistență la crăparea sub stres (Stress Cracking)</strong> (ESCR) este de o importanță centrală în chimia polimerilor. Modificăm greutatea moleculară a copolimerului nostru astfel încât să amortizeze vârfurile de stres în loc să se rupă sub ele. Rezultatul este un sistem care absoarbe șocurile, vibrațiile și tasările clădirii.",
+        "p4": "Cine înțelege terminologia tehnologiei conductelor înțelege de asemenea de ce compromisurile aici pot însemna ruina. German Engineering nu este o promisiune goală, ci suma unor parametri fizici, preciși, pe care îi manifestăm în fiecare centimetru al producției noastre."
+      },
+      "cta": {
+        "title1": "Teoria s-a încheiat.",
+        "title2": "Practica începe.",
+        "desc": "Confruntați-ne inginerii cu cele mai dure cerințe tehnice ale dumneavoastră. Noi vom oferi arhitectura de sistem.",
+        "button": "Începe Briefing-ul de Inginerie"
+      }
+    }
+  }
+}

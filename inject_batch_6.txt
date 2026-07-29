@@ -1,0 +1,555 @@
+,
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Vertrauen ist",
+    "titleGrad": "messbar.",
+    "lead": "Vertrauen ist messbar. Sertifikati, GENAU-Framework i Audit Dokumente, als Self Service. Kein tagelanges Warten na manuelle Zusendung.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagement"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagement"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagement"
+      ]
+    ],
+    "accred": "DAkkS-akkreditiert",
+    "certNo": "Zertifikat-Nr.",
+    "valid": "Gültig",
+    "download": "Download",
+    "genauEyebrow": "GENAU-Framework",
+    "genauTitle": "Fünf Buchstaben. Ein System.",
+    "genauLead": "  GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch   fünf Säulen.",
+    "genau": [
+      [
+        "Gesundheit",
+        "Arbeits- i Gesundheitsschutz sa kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
+      ],
+      [
+        "Energie",
+        "Optimierung   Energieeffizienz nach ISO 50001, vom Extruder do zum geschlossenen Kühlwasserkreislauf."
+      ],
+      [
+        "Nachhaltigkeit",
+        "100 %   Schnittreste i Produktionsabfälle gehen zurück u   Wertstoffkreislauf."
+      ],
+      [
+        "Arbeitssicherheit",
+        "Prävention i Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
+      ],
+      [
+        "Umwelt",
+        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
+    "rfpLead": "Stellen Sie Ihr Audit- i Ausschreibungspaket selbst zusammen, statt tagelang na manuelle Zusendung zu warten.",
+    "docs": [
+      "ISO 9001:2015 Zertifikat (DE/EN)",
+      "ISO 14001:2015 Zertifikat (DE/EN)",
+      "ISO 50001:2018 Zertifikat (DE/EN)",
+      "GENAU-Politik & Risikobewertung",
+      "Pijaća voda-Konformität (DVGW/KTW)",
+      "EPD-Datenblätter (Typ III, EN 15804)",
+      "GAEB-Ausschreibungstexte",
+      "Qualitätssicherungs-Handbuch"
+    ],
+    "inPackage": "Dokumente im Paket.",
+    "pickLeft": "Wählen Sie links aus.",
+    "requestZip": "Per Klick als ZIP anfordern:",
+    "requestBtn": "Paket anfordern",
+    "mailSubject": "RFP-Dokumentenpaket",
+    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
+    "scope3": "Scope-3-Emissionsdaten i EPD-Rohdaten na Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  },
+  "partner": {
+    "eyebrow": "Partnerschaft",
+    "title1": "Zwei Marken.",
+    "titleGrad": "Eine Haltung.",
+    "lead": "Zwei Marken. Eine Haltung.   enge, jahrzehntelange Partnerschaft sa KESSEL überträgt Premium-Vertrauen aus   Entwässerung u   Wasserversorgung.",
+    "onionAria": "Zwiebelschalenmodell   Partnerschaft",
+    "rings": [
+      {
+        "l": "Kernmarke",
+        "t": "KESSEL: Leading u Drainage",
+        "d": "Premiumhersteller   Entwässerungstechnik. Weltleitmessen wie   ISH,   PlanerPortal i   KundenForum machen KESSEL zur Autorität   TGA-Branche."
+      },
+      {
+        "l": "System",
+        "t": "K Aqua: führend u   Wasserversorgung",
+        "d": "  Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt u Deutschland. Entwässerung i Versorgung aus einer Wertegemeinschaft."
+      },
+      {
+        "l": "Service",
+        "t": "Gemeinsames Ökosystem",
+        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support i digitale Planungswerkzeuge, perspektivisch do zum parametrischen Rohrnetz-Konfigurator."
+      }
+    ],
+    "whyEyebrow": "Warum PP-R/PPRCT",
+    "whyTitle": "  Rückgrat des Produktversprechens.",
+    "cards": [
+      {
+        "t": "Absolute Korrosionsfreiheit",
+        "d": "Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie kod Kupfer ili verzinktem Stahl."
+      },
+      {
+        "t": "Thermische Effizienz",
+        "d": "Minimaler Wärmeverlust u   Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte."
+      },
+      {
+        "t": "Hygienische Neutralität",
+        "d": "Geschmacks- i geruchsneutral;   extrem glatte Innenoberfläche verhindert Biofilm i Inkrustation."
+      }
+    ]
+  },
+  "academy": {
+    "schulungen": {
+      "meta": {
+        "title": "Schulungen | K Aqua",
+        "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering za globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
+      },
+      "hero": {
+        "eyebrow": "GERMAN ENGINEERING Akademija",
+        "title1": "Prüfung  ",
+        "title2": "Industriellen Elite.",
+        "desc": "  K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist   Initiation u   kompromisslose Welt des deutschen Rohrleitungsbaus. za Ingenieure i Techniker,   Megaprojekte verantworten, u denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren u Mikrometern, wir denken u Jahrzehnten.",
+        "cta1": "Akademie-Bewerbung starten",
+        "cta2": "Curriculum einsehen"
+      },
+      "manifesto": {
+        "title1": "Präzision",
+        "title2": "ist <span className=\"text-primary\">kein</span>",
+        "title3": "Zufall.",
+        "p1": "Sie ist   Resultat unerbittlicher Methodik i eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch   Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum za Näherungswerte ili Interpretationen.",
+        "p2": "  K Aqua Schulungsprogramm wurde entwickelt, um   Lücke zwischen theoretischem Wissen i fehlerfreier, maschineller Perfektion zu schließen. Wer u unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker. Er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+      },
+      "bento": {
+        "eyebrow": "  SÄULEN   AUTORITÄT",
+        "title": "Wissen als absolute Waffe.",
+        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "items": [
+          {
+            "title": "Homogene Materialverschmelzung",
+            "desc": "Jenseits od Verklebungen ili instabilen mechanischen Dichtungen. Wir trainieren   exakte Kalibrierung od Temperatur, Druck i Zeit, um Cevi i Fitinzi na molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+          },
+          {
+            "title": "Destruktive Analytik",
+            "desc": "Um   Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module u unseren Hochdruck-Prüfständen sa Berstdrücken weit jenseits   100 Bar. Wir analysieren   Versagen, um es u   Praxis auszuschließen."
+          },
+          {
+            "title": "Thermische Längenausdehnung",
+            "desc": "Eiskalte Kompensation od Temperaturschwankungen u Großprojekten durch präzise berechnete Dehnungsbögen i Festpunkt-Systeme."
+          },
+          {
+            "title": "Aggressive Medien & pH-Stabilität",
+            "desc": "Tiefen-Analyse   Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien.   Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung i radikalen pH-Verschiebungen."
+          }
+        ]
+      },
+      "typography": {
+        "t1": "NULL-FEHLER",
+        "t2": "TOLERANZ."
+      },
+      "curriculum": {
+        "eyebrow": "  CURRICULUM",
+        "title": "Akademische Kompromisslosigkeit.",
+        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen u   Ausführung zu identifizieren i systemisch zu vernichten."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
+            "desc": "  Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte i Druckschlag-Szenarien u berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. za Rohrnetze,   u völliger, geräuschloser Perfektion operieren."
+          },
+          {
+            "title": "Modul Beta: Parametrisches Leitungsdesign",
+            "desc": "  Entwurf od Rohrleitungssystemen als algorithmische Disziplin.   Schulung beinhaltet   Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung i zur Optimierung   Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+          },
+          {
+            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
+            "desc": "Legionellenprävention na strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht i Wassertemperatur-Schichtungen u komplexen Ringleitungs-Systemen kontrolliert.   System diktiert   Reinheit, wir überlassen nichts dem Zufall."
+          },
+          {
+            "title": "Modul Delta:   finale K Aqua Audit",
+            "desc": "Prüfung ist kein Recht, sie ist ein Privileg.   Prüfung verlangt   Konstruktion i theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z. B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt   K Aqua Zertifikat."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "  Zertifizierungs-Pfad.",
+        "desc": "  Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad do zum Ende geht, erhält   Autorisation za unsere Hochleistungs-Systeme.",
+        "items": [
+          {
+            "year": "PHASE 01",
+            "title": "Materialphysik & Onboarding",
+            "text": "  Begreifen   physikalischen Limits. Eine tiefgreifende Einführung u   molekularen PP-R/PPRCT Werkstoff-Specifikacije. Hier wird   Fundament   industriellen Härte gegossen."
+          },
+          {
+            "year": "PHASE 02",
+            "title": "Laboratorium & Belastungstests",
+            "text": "Hands-on Zerstörung.   Erleben   Berstgrenze im Prüfstand i   Studium mikroskopischer Rissbildungen. Nur wer   Schwäche kennt, kann   absolute Stärke konstruieren."
+          },
+          {
+            "year": "PHASE 03",
+            "title": "Fusions-Doktrin",
+            "text": "  perfekte Schweißprotokoll. Mechanisches Training   thermodynamischen Bewegungsabläufe do zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
+          },
+          {
+            "year": "PHASE 04",
+            "title": "System-Architektur",
+            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten i Strömungsteiler sa eiserner Logik."
+          },
+          {
+            "year": "PHASE 05",
+            "title": "  Meisterprüfung",
+            "text": "Ein 48-stündiges Audit unter   gnadenlosen Aufsicht   deutschen Chef-Ingenieure. Keine Toleranz za Fehlkalkulationen. Ein Fehler bedeutet   sofortigen Ausschluss."
+          }
+        ]
+      },
+      "spec": {
+        "eyebrow": "GLOBALER STANDARD",
+        "title": "  globale Benchmark za Sicherheit.",
+        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein u Titan gegossenes Versprechen an Bauherren i Investoren weltweit. Wo   K Aqua Zertifikat vorliegt, wurde   Instalacija nach   strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "items": [
+          {
+            "title": "Internationale Gültigkeit",
+            "text": "Anerkannt od   weltweit führenden Bau- i Aufsichtsbehörden."
+          },
+          {
+            "title": "Audit-Transparenz",
+            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
+          },
+          {
+            "title": "Lebenslange Autorität",
+            "text": "Einmal erworben, zeichnet es   Engineer als Teil einer elitären Kaste aus."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "Bereit za  ",
+        "title2": "absolute Kontrolle?",
+        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil ili fordern Sie   Specifikacije za firmeninterne Audits an.",
+        "button": "Bewerbung initiieren"
+      }
+    },
+    "zertifizierung": {
+      "meta": {
+        "title": "Sertifikati & Standardi | K Aqua",
+        "desc": "DVGW, SKZ, ISO i mehr. Entdecken Sie   kompromisslose Sicherheit i German Engineering-Qualität   K Aqua Rohrleitungssysteme."
+      },
+      "hero": {
+        "eyebrow": "German Engineering Standards",
+        "title1": "Sertifikati.",
+        "title2": "Engineered u Germany.",
+        "desc": "Dieses Modul liefert kompromisslose Sicherheit za   anspruchsvollsten Projekte weltweit. Gefertigt nach   strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
+        "cta1": "Projekt anfragen",
+        "cta2": "Technisches Handbuch"
+      },
+      "manifesto": {
+        "title1": "Ein Zertifikat ist nur Papier.",
+        "title2": "  Prozess dahinter ist aus Stahl.",
+        "p1": "Viele Hersteller sehen Standardi als   ultimative Ziel. Wir sehen sie als   absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als  , was DVGW, ISO ili SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es na Molekularebene analysiert, sa extremen Drücken gefoltert i thermisch ans absolute Limit getrieben."
+      },
+      "bento": {
+        "eyebrow": "  Säulen   Sicherheit",
+        "title": "  DNA eines perfekten Rohrsystems.",
+        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht na Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+        "items": [
+          {
+            "title": "Extreme Druckbeständigkeit",
+            "desc": "geprüft za Dauerbelastungen do PN20/PN25. Unsere Berstdrucktests beweisen Reserven,   weit jenseits   Standardi liegen. Rohrbrüche gehören   Vergangenheit an."
+          },
+          {
+            "title": "Thermische Souveränität",
+            "desc": "Dauerhaft beständig od -20°C do +95°C. Kein Materialermü , keine strukturelle Schwächung, auch kod extremen thermischen Schocks."
+          },
+          {
+            "title": "Absolute Hygiene",
+            "desc": "Bez korozije. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich i resistent gegen Legionellen-Wachstum."
+          },
+          {
+            "title": "Brandschutz (B1/B2)",
+            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar i minimale Rauchentwicklung za höchste Sicherheit u kritischen Gebäudeinfrastrukturen."
+          },
+          {
+            "title": "Lebenszyklus-Garantie",
+            "desc": "Eine definierte Vek trajanja od 50 Jahren nach strengster ISO-Norm. u   architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+          }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "  Instanzen",
+        "title": "  härtesten Prüfer   Welt.",
+        "lead": "Nur wer   kritischsten externen Audits besteht, darf   Label 'German Engineering' tragen. Hier sind   Institutionen,   unsere Qualität validieren.",
+        "items": [
+          {
+            "title": "DVGW:   höchste Instanz",
+            "p1": "  Deutsche Verein des Gas- i Wasserfaches (DVGW) setzt   weltweit strengsten Standard za Trinkwasserhygiene i Materialbeständigkeit.",
+            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) kod 95°C."
+          },
+          {
+            "title": "SKZ: Unabhängige Überwachung",
+            "p1": "  Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert   ab, was unsere internen Labore bereits vorgeben.",
+            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit i   thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry).   SKZ-Zeichen ist   Beweis za mechanische Perfektion, weit über   DIN EN ISO 15874 hinaus."
+          },
+          {
+            "title": "KTW-BWGL: Absolute Reinheit",
+            "p1": "  Bewertungsgrundlage za Kunststoffe i andere organische Materialien im Kontakt sa Pijaća voda (Umweltbundesamt).",
+            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive ili Schwermetalle.   Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+          },
+          {
+            "title": "ISO 9001 & 14001: Systematische Exzellenz",
+            "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement od   Rohstoffannahme do zur weltweiten Warenauslieferung.",
+            "p2": "sa ISO 14001 beweisen wir, dass industrielle Höchstleistung i ökologische Verantwortung Hand u Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung i   100%ige Recyclingfähigkeit unserer PP-Proizvodi."
+          }
+        ]
+      },
+      "lab": {
+        "eyebrow": "Inside the Lab",
+        "title1": "  Anatomie",
+        "title2": "  Perfektion.",
+        "desc": "Bevor ein K Aqua System   Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, u   wir Materialien Bedingungen aussetzen,   sie u   Realität niemals erleben werden.",
+        "items": [
+          {
+            "title": "MFR (Melt Flow Rate)",
+            "desc": "Kontrolle   Schmelzflussrate zur Gewährleistung exakter Viskosität während   Extrusion i beim späteren Schweißen na   Baustelle."
+          },
+          {
+            "title": "OIT (Oxidation Induction Time)",
+            "desc": "Thermische Analyse zur Bestimmung   Alterungsbeständigkeit.   Beweis, dass unsere Stabilisatoren   Kunststoff über Jahrzehnte vor Degradation schützen."
+          },
+          {
+            "title": "Zeitstand-Innendruckversuch",
+            "desc": "Rohrproben werden u speziellen Wasserbädern kod 95°C unter extremem Druck gelagert, za tausende od Stunden. Ohne Riss. Ohne Bruch."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Jahrzehnte   Innovation.",
+        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind   Resultat jahrzehntelanger Ingenieurskunst i kontinuierlicher Prozessoptimierung.",
+        "items": [
+          {
+            "year": "1990",
+            "title": "  Geburtsstunde   Norm",
+            "text": "Als Pioniere   Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren,   weit über   damaligen Industrieanforderungen hinausgingen.   Grundstein za eine kompromisslose Qualitätskultur."
+          },
+          {
+            "year": "1995",
+            "title": "ISO 9001 Integration",
+            "text": "  vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert i vollkommen rückverfolgbar gemacht."
+          },
+          {
+            "year": "2005",
+            "title": "DVGW & SKZ Prüfung",
+            "text": "  Aufnahme u   exklusiven Kreis   DVGW- i SKZ-geprüften Hersteller.   offizielle Siegel za absolute Hygiene, extreme Druckfestigkeit i unübertroffene Langlebigkeit kod härtesten Bedingungen im Trinkwassereinsatz."
+          },
+          {
+            "year": "2015",
+            "title": "Globale Standardi (WRAS, KTW)",
+            "text": "Expansion   Zertifizierungen za internationale Märkte. Erfüllung   strikten KTW-Leitlinie (UBA) i   britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard za internationale Megaprojekte."
+          },
+          {
+            "year": "2024",
+            "title": "Next-Gen Quality Analytics",
+            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) i MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während   Extrusion za eine 100%ige Null Fehler-Quote."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Qualität,   Sie blind vertrauen können.",
+        "desc": "Laden Sie sich unsere offiziellen Sertifikati herunter ili sprechen Sie direkt sa unserem Engineering Team über   Specifikacije Ihres nächsten Megaprojekts.",
+        "button1": "Sertifikati herunterladen",
+        "button2": "Technischen Support kontaktieren"
+      }
+    },
+    "glossar": {
+      "meta": {
+        "title": "Technisches Glossar | K Aqua",
+        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering za globale Megaprojekte. Entdecken Sie Fachbegriffe   PP-R Rohrtechnik."
+      },
+      "hero": {
+        "eyebrow": "Technisches Glossar",
+        "title1": "Terminologie  ",
+        "title2": "Absoluten Sicherheit.",
+        "desc": "Willkommen im lexikalischen Kern   Tehnologija cevovoda. Hier decodieren wir   Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft i industrielle Autorität.",
+        "cta1": "Engineering kontaktieren",
+        "cta2": "Glossar erkunden"
+      },
+      "manifesto": {
+        "eyebrow": "  Doktrin",
+        "title": "  Architektur   Unfehlbarkeit.",
+        "lead": "Ein Rohrleitungssystem ist   kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet   infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht od Rohren, sondern od lebenswichtigen Industrie-Arterien. Jeder Begriff u diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+      },
+      "scroll": {
+        "eyebrow": "Kinematik & Materialwissenschaft",
+        "title": "  K Aqua Prozess.",
+        "lead": "od   molekularen Granulat-Ebene do zur finalen Druckprüfung. Verstehen Sie   physikalischen Prinzipien,   unsere Systeme unzerstörbar machen.",
+        "items": [
+          {
+            "title": "Extrusionsdynamik unter Hochdruck",
+            "desc": "  thermoplastische Verformung u unseren Werken unterliegt einer präzisen Temperaturkontrolle na 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur,   mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- i Temperaturschwankungen absolut ausschließt. Wenn   Materijal unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
+          },
+          {
+            "title": "Hydrostatische Belastungstests",
+            "desc": "u unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt,   reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke,   jenseits jeder normativen Forderung liegen (do zu 100 bar, abhängig od   SDR-Klasse). Dies sichert   Integrität   Schweißnähte i   molekular Elastizität des PP-R Materials über eine prognostizierte Vek trajanja od mehr als 50 Jahren u kritischen Infrastrukturen."
+          },
+          {
+            "title": "Polyfusions-Schweißtechnik",
+            "desc": "Verbindungen sind u herkömmlichen Systemen   Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. na molekularer Ebene verschmelzen Rohr i Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde,   korrodieren, keine Dichtungen,   versagen können.   Resultat ist ein Rohrleitungssystem,   sich verhält, als wäre es aus einem einzigen Stück gegossen."
+          },
+          {
+            "title": "Kavitationsresistenz & Strömungsmechanik",
+            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Cevi   Strömungswiderstand gegen Null. Dies verhindert   Bildung od Biofilmen i eliminiert mikro-kavitative Effekte kod Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was   Energieeffizienz   angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenklatur",
+        "title": "Technische Parameter.",
+        "lead": "  wichtigsten Vokabeln   industriellen Tehnologija cevovoda, destilliert na ihre Essenz.",
+        "items": [
+          {
+            "title": "PP-R (Polypropylen Random Copolymer)",
+            "desc": "  molekulare Basis. Ein hochkristallines thermoplastisches Polymer,   außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen i Drücke bietet. Es ist   DNA unserer Langlebigkeit."
+          },
+          {
+            "title": "Lineare thermische Ausdehnung",
+            "desc": "  Längenänderung des Materials kod Temperaturwechsel. Unsere faserverstärkten (Faser) Cevi reduzieren diesen Wert na ein absolutes Minimum (α = 0,035 mm/mK), was   strukturelle Stabilität u Schächten enorm erhöht."
+          },
+          {
+            "title": "Zeitstandfestigkeit",
+            "desc": "  Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck kod spezifischen Temperaturen standzuhalten, ohne zu deformieren ili zu bersten. K Aqua Cevi werden na 50+ Jahre kalibriert."
+          },
+          {
+            "title": "Druckverlust-Koeffizient",
+            "desc": "Ein mathematischer Wert,     Energieverlust   Strömung durch Reibung an   Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert u K Aqua Systemen marginalisiert."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "  Verhältnis zwischen dem Außendurchmesser (d) i   Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr.   korrekte Wahl ist entscheidend za   System-Design.",
+            "label": "50+ YRS"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Regulatorische Härte.",
+        "desc": "Standardi sind za uns keine Vorschriften, sondern   Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie   Zertifizierungen i Standards,   unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Normative Basis",
+            "text": "  Grundlage   deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind do zu 30 % strenger als od   DIN gefordert."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Globale Prüfung",
+            "text": "  internationale Gütesiegel za Kunststoffrohrleitungssysteme za   Warm- i Kaltwasserinstallation. Ein Beweis za   kompromisslose globale Anwendbarkeit unserer Systeme."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Standard Dimension Ratios",
+            "text": "Ein präzises Verhältnis od Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz kod optimaler Durchflussmenge zu garantieren."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Hygiene & Materialprüfung",
+            "text": "Sertifikati,     absolute Lebensmittel- i Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik za höchste hygienische Ansprüche."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Zersetzungsresistenz im Extremfall.",
+        "p1": "u industriellen Applikationen entscheidet nicht   Normalbetrieb über   Qualität eines Rohrleitungssystems, sondern   Stabilität u   Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge i thermische Schocks sind   natürlichen Feinde herkömmlicher Installationen.",
+        "p2": "  <strong>K Aqua Matrix</strong> isoliert   fluide Medium durch eine inerte Sperrschicht od   Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren od dem Moment an, u dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
+        "p3": "  Begriff   <strong>Spannungsrissbeständigkeit</strong> (Environmental Stress Cracking Resistance, ESCR) ist u   Polymerchemie od zentraler Bedeutung. Wir modifizieren   Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen.   Resultat ist ein System,   Erschütterungen, Vibrationen i Setzungen des Baukörpers absorbiert.",
+        "p4": "Wer   Terminologie   Tehnologija cevovoda verstanden hat, versteht auch, warum Kompromisse hier   Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern   Summe präziser, physikalischer Parameter,   wir u jedem einzelnen Zentimeter unserer Produktion manifestieren."
+      },
+      "cta": {
+        "title1": "  Theorie beendet.",
+        "title2": "  Praxis beginnt.",
+        "desc": "Konfrontieren Sie unsere Ingenieure sa Ihren härtesten technischen Anforderungen. Wir liefern   Systemarchitektur.",
+        "button": "Engineering Briefing starten"
+      }
+    },
+    "eyebrow": "K Aqua Akademija",
+    "title1": "Wissen,  ",
+    "titleGrad": "verbindet.",
+    "lead": "Vier Schweißverfahren im Video i ein Quiz,   Sie zum Schweißmeister macht. Wissen,   verbindet. Optimiert za   Baustelle: große Ziele, hohe Kontraste.",
+    "videos": [
+      {
+        "t": "Muffenschweißen od Hand",
+        "s": "do d63: Handschweißgerät"
+      },
+      {
+        "t": "Muffenschweißen sa Maschine",
+        "s": "mittlere Dimenzije"
+      },
+      {
+        "t": "Elektroschweißen",
+        "s": "Heizwendelfittings"
+      },
+      {
+        "t": "Stumpfschweißen",
+        "s": "GroßDimenzije do d630"
+      }
+    ],
+    "quizEyebrow": "Schweißmeister-Quiz",
+    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
+    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
+    "start": "Quiz starten",
+    "qLabel": "Frage",
+    "quiz": [
+      {
+        "q": "Welches Schweißverfahren ist za GroßDimenzije (z. B. d630) Standard?",
+        "o": [
+          "Muffenschweißen od Hand",
+          "Stumpfschweißen (Butt Fusion)",
+          "Kleben"
+        ]
+      },
+      {
+        "q": "Wofür steht SDR kod Rohrsystemen?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Sicherheits-Druck-Reserve"
+        ]
+      },
+      {
+        "q": "Was unterscheidet PPRCT od klassischem PP-R?",
+        "o": [
+          "Niedrigerer Preis",
+          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
+          "Metallische Verstärkung"
+        ]
+      },
+      {
+        "q": "Welchen Recycling Code trägt Polypropylen?",
+        "o": [
+          "Code 3",
+          "Code 5",
+          "Code 7"
+        ]
+      },
+      {
+        "q": "Beim Elektroschweißen (Electrofusion) kommt   Wärme …",
+        "o": [
+          "aus einem Heizelement-Spiegel",
+          "aus eingebetteten Heizwendeln im Fitting",
+          "aus Heißluft"
+        ]
+      }
+    ],
+    "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
+    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. za   Meister: alle fünf richtig.",
+    "resLow": "  Videos oben helfen. Danach klappt   Meister.",
+    "retry": "Nochmal versuchen",
+    "titlePerfect": "Schweißmeister",
+    "titleGood": "Schweiß-Geselle"
+  }

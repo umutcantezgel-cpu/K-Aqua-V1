@@ -1,0 +1,86 @@
+{
+  "legal": {
+    "impressum": {
+      "title": "Impresszum",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Adatok a TMG 5. §-a alapján",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Ügyvezetés",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Cégbíróság és székhely",
+          "content": "Wetzlar HRB 6732\n\nA társaság székhelye:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "Adószám (Umsatzsteuer-ID)",
+          "content": "Közösségi adószám az ÁFA-törvény (Umsatzsteuergesetz) 27 a §-a alapján:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Jogi nyilatkozat és felelősségkizárás",
+          "content": "A K-Aqua PP-R és PPRCT csőrendszerek csúcstechnológiás termékek az ivóvíz, a fűtővíz és az ipari folyadékok szállítására. A weboldalon található információkat a lehető legnagyobb gondossággal állítottuk össze. Ennek ellenére nem vállalunk felelősséget a megadott műszaki adatok és specifikációk abszolút helyességéért, teljességéért és aktualitásáért. A továbbfejlesztés során végrehajtott műszaki változtatások jogát bármikor fenntartjuk.\n\nLinkekért való felelősség\nWeboldalunk harmadik felek külső weboldalaira mutató linkeket tartalmaz, amelyek tartalmára nincs befolyásunk. Ezért ezen idegen tartalmakért nem vállalhatunk felelősséget. A hivatkozott oldalak tartalmáért mindig az adott oldal szolgáltatója vagy üzemeltetője a felelős.\n\nSzerzői jog\nAz oldal üzemeltetői által készített tartalmak, műszaki rajzok, 3D modellek és alkotások a német szerzői jog hatálya alá tartoznak. A szerzői jog határain kívül eső sokszorosításhoz, feldolgozáshoz, terjesztéshez és a hasznosítás bármely formájához az adott szerző, illetve készítő írásos hozzájárulása szükséges."
+        },
+        {
+          "id": "section-faq",
+          "title": "Gyakran Ismételt Kérdések (Impresszum és Szolgáltatás)",
+          "content": "Hogyan léphetek kapcsolatba a műszaki támogatással?\nA PP-R csővezetékekkel, a hegesztési paraméterekkel vagy az egyedi gyártással kapcsolatos kérdésekkel a fenti e-mail címen vagy telefonon érheti el műszaki támogatásunkat nyitvatartási időben.\n\nHol találom a részletes tanúsítványokat és engedélyeket?\nMinden DVGW, KIWA és SKZ tanúsítvány csőrendszereinkhez letölthető a „Források” (Erőforrások) részben vagy közvetlenül az adott termék részletező oldalán.\n\nMilyen garanciát nyújt a K-Aqua?\nA K-Aqua átfogó rendszergaranciát nyújt minden PP-R és PPRCT csőre és idomra, feltéve, hogy azokat szakszerűen, eredeti K-Aqua szerszámokkal telepítették és hegesztették. Kérésre szívesen elküldjük Önnek a részletes garanciális feltételeket."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Adatvédelmi nyilatkozat",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Adatvédelem dióhéjban",
+          "content": "Ez az adatvédelmi nyilatkozat arról tájékoztatja Önt, hogy milyen személyes adatokat dolgozunk fel ténylegesen ezen a weboldalon, és milyen célból.\n\nRöviden összefoglalva: Személyes adatokat csak akkor dolgozunk fel, ha azokat aktívan megadja nekünk kapcsolatfelvételi és ajánlatkérő űrlapjainkon keresztül, valamint a weboldal meglátogatásakor technikailag szükséges mértékben (a tárhelyszolgáltatónk szervernapló adatai). Jelenleg nem használunk harmadik féltől származó elemzési vagy marketing szolgáltatásokat; az ilyen technológiákat kizárólag a süti banneren keresztüli kifejezett hozzájárulása után töltenénk be."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Az adatkezelő",
+          "content": "Ezen a weboldalon az adatkezelésért felelős szerv:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelefon: +49 (0)60 85 / 9868-410\nE-mail: info@k-aqua.de\n\nAz adatkezelő az a természetes vagy jogi személy, aki egyedül vagy másokkal együtt dönt a személyes adatok feldolgozásának céljairól és eszközeiről."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Adatvédelmi tisztviselő",
+          "content": "Vállalatunkhoz adatvédelmi tisztviselőt neveztünk ki:\n\nSILA Consulting GmbH\nRoland Nießing úr\nLandwehr 103-105\n46325 Borken\nTelefon: +49 2861 80847 700\nE-mail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Tárhelyszolgáltatás és szervernaplófájlok",
+          "content": "Ez a weboldal a Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA) szerverein van hosztolva. A weboldal meglátogatásakor a tárhelyszolgáltató automatikusan technikai hozzáférési adatokat dolgoz fel úgynevezett szervernaplófájlokban: IP-cím, a hozzáférés dátuma és időpontja, a meglátogatott oldal, a böngésző típusa és verziója, valamint az operációs rendszer.\n\nEzek az adatok kizárólag a weboldal biztonságos, stabil elérését és a hibaelemzést szolgálják; nem kerülnek összevonásra más adatforrásokkal. A jogalap a DSGVO 6. cikk (1) bekezdés f) pontja (online kínálatunk biztonságos nyújtásához fűződő jogos érdek). A Vercel-lel adatfeldolgozói szerződést kötöttünk; az USA-ba történő adattovábbítás az EU általános szerződési feltételei, illetve az EU-USA Adatvédelmi Keretrendszer (Data Privacy Framework) alapján történik."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Kapcsolati és ajánlatkérő űrlapok",
+          "content": "Ha valamelyik ajánlatkérő űrlapunkat használja, feldolgozzuk az ott megadott adatokat: telefonszám, e-mail cím, a választott kérés és az oldal, ahonnan a kérést elküldték. Ezeket az adatokat e-mailben továbbítjuk az info@k-aqua.de címre, és (amennyiben CRM rendszer van csatlakoztatva) ott tároljuk a kérés feldolgozása céljából.\n\nA karrier űrlapon keresztül történő jelentkezések esetén a megadott jelentkezési adatokat (név, elérhetőség, önéletrajz, tapasztalat és végzettség) e-mailben továbbítjuk a személyzeti osztályunknak.\n\nA feldolgozás célja kizárólag az Ön kérésének vagy jelentkezésének feldolgozása. A jogalap a DSGVO 6. cikk (1) bekezdés b) pontja (szerződéskötést megelőző intézkedések), illetve a DSGVO 6. cikk (1) bekezdés f) pontja. Az adatokat töröljük, amint a cél teljesül, és jogszabályban előírt megőrzési kötelezettségek nem állnak fenn.\n\nAz automatizált spameküldések elleni védelem érdekében egy láthatatlan műszaki ellenőrzést (Honeypot mező és időkuszöb) használunk, külső Captcha szolgáltatások nélkül."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Sütik és hozzájárulás",
+          "content": "Ez a weboldal technikailag szükséges sütiket, illetve hasonló tárolási technológiákat használ, például az Ön nyelvi és megjelenítési beállításainak, valamint a sütikre vonatkozó döntésének tárolására. Ezek a weboldal működéséhez elengedhetetlenek (Jogalap: DSGVO 6. cikk (1) bekezdés f) pont, illetve TDDDG 25. § (2) bekezdés).\n\nA süti banneren keresztül ezen felül hozzájárulhat az \"Elemzés\" és a \"Marketing\" kategóriákhoz. Jelenleg nem használunk elemzési vagy marketing szolgáltatásokat; ha a jövőben ilyen szolgáltatásokat integrálnak, azok csak az Ön hozzájárulása után töltődnek be (DSGVO 6. cikk (1) bekezdés a) pont, TDDDG 25. § (1) bekezdés). Ön bármikor visszavonhatja a megadott hozzájárulását a jövőre nézve a süti beállításokban."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Az Ön jogai",
+          "content": "A vonatkozó jogszabályi előírások keretein belül Önnek bármikor joga van a következőkhöz:\n\n- Tájékoztatás a tárolt személyes adatairól (DSGVO 15. cikk)\n- Helytelen adatok helyesbítése (DSGVO 16. cikk)\n- Törlés (DSGVO 17. cikk)\n- A feldolgozás korlátozása (DSGVO 18. cikk)\n- Adathordozhatóság (DSGVO 20. cikk)\n- Kifogás a jogos érdekeken alapuló feldolgozással szemben (DSGVO 21. cikk)\n- A megadott hozzájárulás visszavonása a jövőre nézve (DSGVO 7. cikk (3) bekezdés)\n\nKérjük, lépjen kapcsolatba a fent említett felelős szervvel vagy adatvédelmi tisztviselőnkkel. Önnek joga van panaszt is tenni az illetékes felügyeleti hatóságnál (esetünkben: a Hesseni Adatvédelmi és Információszabadság Biztos (HBDI), Wiesbaden)."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL- vagy TLS-titkosítás",
+          "content": "Biztonsági okokból és a bizalmas tartalmak (például a nekünk küldött kérései) átvitelének védelme érdekében ez az oldal SSL- vagy TLS-titkosítást használ. A titkosított kapcsolatot a böngésző címsorában található \"https://\" és a lakat szimbólum jelzi. Ha a titkosítás aktív, az Ön által nekünk továbbított adatokat harmadik felek nem olvashatják el."
+        }
+      ]
+    },
+    "toc": "Tartalom",
+    "eyebrow": "Jogi információk"
+  }
+}

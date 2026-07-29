@@ -1,0 +1,1323 @@
+{
+  "catalogx": {
+    "eyebrow": "Pilnas produktų katalogas",
+    "faqTitle": "Dažniausiai užduodami klausimai",
+    "title": "Visos 79 prekių grupės su tikrais prekių numeriais.",
+    "lead": "Vamzdžiai, jungiamosios detalės, pereinamosios detalės, armatūra, įvirinami balnai, priedai ir įrankiai – kiekviena eilutė iš oficialaus „K Aqua“ katalogo. Pasirinkite kategoriją, išskleiskite prekę, patikrinkite prekės numerį.",
+    "searchPlaceholder": "Ieškoti prekės numerio arba pavadinimo, pvz., „AQ200P20“ arba „Elbow“",
+    "noResults": "Rezultatų nerasta. Pakeiskite paieškos kriterijus arba pasirinkite kitą kategoriją.",
+    "codesLabel": "Prekių numeriai",
+    "sizesLabel": "Dydžiai",
+    "materialLabel": "Medžiaga",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Serija",
+    "pressureLabel": "Darbinis slėgis",
+    "lenLabel": "Strypo ilgis",
+    "cats": {
+      "pipes": {
+        "label": "Vamzdžiai",
+        "desc": "PPR ir PPRCT vamzdžiai: standartiniai, sutvirtinti stiklo pluoštu ir atsparūs UV spinduliams, 12 serijų."
+      },
+      "fittings": {
+        "label": "Jungiamosios detalės",
+        "desc": "Movinio ir elektrinio virinimo detalės, d20–d125, 13 prekių grupių."
+      },
+      "transitionFittings": {
+        "label": "Pereinamosios detalės",
+        "desc": "Perėjimai į sriegį ir žalvarį esamoms jungtims bei armatūrai, 13 grupių."
+      },
+      "valves": {
+        "label": "Armatūra",
+        "desc": "Rutuliniai ventiliai, potinkiniai ventiliai, skirstytuvai, 9 prekių grupės."
+      },
+      "weldInSaddles": {
+        "label": "Įvirinami balnai",
+        "desc": "Atšakos be vamzdžio pjovimo, su sriegiu ir be jo, 3 grupės."
+      },
+      "accessories": {
+        "label": "Priedai",
+        "desc": "Vamzdžių laikikliai, atraminiai flanšai, tarpinės, aklės: 5 prekių grupės."
+      },
+      "tools": {
+        "label": "Įrankiai",
+        "desc": "Vamzdžių žirklės, virinimo aparatai ir įrankiai visiems keturiems jungimo būdams, 14 grupių."
+      }
+    },
+    "rfq": {
+      "title": "Projekto užklausa",
+      "desc": "Pateikite tiesioginę užklausą dėl <span class=\"font-semibold\">{title}</span>.",
+      "button": "Pateikti užklausą"
+    },
+    "similar": {
+      "title": "Daugiau iš kategorijos {category}"
+    },
+    "items": {}
+  },
+  "toggle_theme_light": "Perjungti į šviesiąją temą",
+  "toggle_theme_dark": "Perjungti į tamsiąją temą",
+  "nav": {
+    "home": "Pradžia",
+    "products": "Produktai",
+    "finder": "Produktų paieška",
+    "co2": "CO₂ skaičiuoklė",
+    "markets": "Rinkos",
+    "trust": "Patikimumo centras",
+    "contact": "Kontaktai",
+    "quote": "Gauti pasiūlymą",
+    "menu": "Meniu",
+    "lang": "Kalba",
+    "skipToContent": "Pereiti prie turinio",
+    "menuPlaceholder": "Vieta (Mega-Meniu)",
+    "academy": "Akademija",
+    "service": "Aptarnavimas",
+    "about": "Apie mus",
+    "solutions": "Sprendimai",
+    "partners": "Partnerystė",
+    "references": "Referencijos",
+    "career": "Karjera",
+    "news": "Naujienos",
+    "knowledge_trust": "Žinios ir patikimumas",
+    "mapAria": "Atidaryti žemėlapio navigaciją",
+    "sitemapAria": "Svetainės medis",
+    "pipes": "Vamzdžiai",
+    "fittings": "Jungiamosios detalės",
+    "valves": "Armatūra",
+    "accessories": "Priedai",
+    "tools": "Įrankiai"
+  },
+  "groups": {
+    "tools": "Įrankiai",
+    "knowledge": "Žinios",
+    "company": "Įmonė",
+    "products": "Produktai",
+    "markets_solutions": "Rinkos ir sprendimai",
+    "knowledge_resources": "Žinios ir ištekliai"
+  },
+  "pages": {
+    "catalogOverview": "Pilnas produktų katalogas",
+    "products": [
+      "Produktai ir detalės",
+      "Atraskite visas „K Aqua“ plastikinių vamzdžių sistemas nuo d20 iki d630 mm. Aukštos kokybės PP-R ir PPRCT vamzdžiai buičiai bei pramonei."
+    ],
+    "finder": [
+      "Produktų paieška",
+      "Raskite tinkamiausią PP-R ar PPRCT vamzdį, jungtį arba armatūrą. Filtruokite mūsų katalogą pagal matmenis, slėgio klases ir sienelės storį realiuoju laiku."
+    ],
+    "finderGuideText": "<h2>Interaktyvi „K-Aqua“ vamzdžių sistemų paieška</h2><p>Naudokitės mūsų inovatyvia paieška, norėdami rasti tiksliai jūsų projektui tinkantį komponentą. Nesvarbu, ar ieškote standartinių PP-R vamzdžių geriamajam vandeniui, stiklo pluoštu sutvirtintų PPRCT vamzdžių pramonei, ar specialių pereinamųjų detalių ir armatūros – mūsų įrankis filtruoja katalogą realiuoju laiku. Paieška padeda rinktis pagal skersmenį (nuo d20 iki d630), slėgio klasę (SDR) ir medžiagą.</p><p>Gerai suplanuota vamzdynų sistema reikalauja tikslumo parenkant vamzdžius, jungiamąsias detales (tokias kaip movos, alkūnės, trišakiai) ir priedus. Mūsų įrankis pašalina būtinybę naršyti po statinius PDF katalogus, suteikdamas momentinę, patikimą informaciją apie prekių numerius, pakuočių dydžius ir technines specifikacijas. Vos keliais paspaudimais galite sudaryti reikalingų medžiagų sąrašą ir užtikrinti šildymo, vėsinimo bei geriamojo vandens sistemų komponentų suderinamumą. Tai optimizuoja planavimo procesą ir sumažina užsakymų klaidų tikimybę jūsų kitame statybų projekte.</p>",
+    "co2": [
+      "CO2 skaičiuoklė",
+      "Palyginkite „K Aqua“ PP-R plastikinių vamzdžių CO2 pėdsaką su variu, nerūdijančiu plienu ir PVC. Sertifikuota pagal ISO 14040/44 „Žaliesiems pastatams“."
+    ],
+    "solutions": [
+      "Medžiagų privalumai",
+      "Sužinokite, kodėl polipropilenas (PP-R/PPRCT) yra geriausia medžiaga vandentiekiui. Tai ekologiška, techniškai pažangu ir ekonomiška."
+    ],
+    "academy": [
+      "K-Aqua Akademija: PP-R virinimo metodai ir ekspertinės žinios",
+      "Išmokite profesionalių PP-R plastikinių vamzdžių virinimo technikų. Žiūrėkite mokomuosius vaizdo įrašus ir spręskite virinimo meistro testą."
+    ],
+    "trust": [
+      "Patikimumo centras",
+      "Pasiekite „K Aqua“ kokybės dokumentaciją. Atsisiųskite ISO sertifikatus, GENAU sistemą ir audito dokumentus savo projektui."
+    ],
+    "service": [
+      "Aptarnavimo ir atsisiuntimų centras",
+      "Atsisiųskite oficialius „K Aqua“ produktų katalogus, techninius duomenų lapus ir montavimo instrukcijas PP-R ir PPRCT plastiko sistemoms."
+    ],
+    "partner": [
+      "Partnerystė su KESSEL",
+      "„K Aqua“ ir KESSEL sieja ilgametė partnerystė, perkelianti Vokietijos gamybos standartus iš nuotekų sistemų į vandentiekio sprendimus."
+    ],
+    "markets": [
+      "Rinkos ir atstovybės",
+      "„K Aqua“ tiekia PP-R vamzdynus į daugiau nei 27 šalis. Naudokite mūsų interaktyvų žemėlapį vietiniams standartams, vandens profiliams ir logistikos informacijai rasti."
+    ],
+    "references": [
+      "Referenciniai projektai",
+      "Atraskite projektus visame pasaulyje, kuriuose naudotos „K-Aqua“ PP-R vamzdžių sistemos. Mūsų interaktyvus 3D gaublys rodo buitines, komercines ir pramonines sistemas."
+    ],
+    "about": [
+      "Apie KWT GmbH",
+      "KWT GmbH sujungia dešimtmečių patirtį gamindama „K Aqua“ aukščiausios klasės vamzdžių sistemas. Vokiečių inžinerija užtikrina aukščiausią kokybę ir inovacijas."
+    ],
+    "career": [
+      "Karjera įmonėje K-Aqua",
+      "Prisijunkite prie mūsų komandos Waldsolms mieste. Apskaičiuokite savo privalumus po mokesčių ir per 60 sekundžių sužinokite, ar „K Aqua“ jums tinka."
+    ],
+    "news": [
+      "Naujienos | K-Aqua įmonės pranešimai",
+      "Sekite naujienas apie „K Aqua“ inovacijas, produktus, parodas ir mūsų įsipareigojimą gamybai, sertifikuotai pagal trigubą ISO standartą."
+    ],
+    "contact": [
+      "Kontaktai, pardavimai ir palaikymas",
+      "Susisiekite su „K Aqua“ ekspertų komanda dėl pardavimų, palaikymo ar partnerystės. Greitas reagavimo laikas pasauliniams B2B klientams."
+    ],
+    "rfq": [
+      "Projekto užklausa",
+      "Keturi paprasti žingsniai, kad gautumėte neįpareigojantį pasiūlymą jūsų kitam vamzdynų projektui. Mūsų pardavimų komanda susisieks per 24 valandas."
+    ],
+    "home": [
+      "PP-R ir PPRCT vamzdžių sistemos",
+      "„K Aqua“ gamina aukščiausios klasės PP-R ir PPRCT plastikinių vamzdžių sistemas geriamajam vandeniui ir pramonei. Vokiečių inžinerija pasauliniams projektams."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Privatumo politika",
+        "Išsami „K Aqua“ svetainės privatumo politika pagal BDAR."
+      ],
+      "impressum": [
+        "Teisinė informacija",
+        "KWT GmbH, „K Aqua“ gamintojo, teisinė ir įmonės informacija."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "patikrinta kokybė",
+      "title1": "Sistema ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "„GENAU“ valdymo sistemos tikslas – nuolatinis darbuotojų, aplinkos ir sveikatos apsaugos gerinimas įmonėje.",
+      "p2": "Visa KWT veikla vykdoma atsižvelgiant į išteklių taupymą, suderinamumą su aplinka ir griežtą įsipareigojimų laikymąsi. Taikoma „GENAU“ valdymo sistema atitinka griežtus ",
+      "p3": " ir ",
+      "list1Title": "Ekologinė atsakomybė",
+      "list1Desc": "Aplinkos apsauga yra mūsų supratimo apie kokybę dalis, kuriai įsipareigoję visi KWT GmbH darbuotojai.",
+      "list2Title": "Energijos vartojimo efektyvumas",
+      "list2Desc": "Tikslinis rizikos nustatymas ir priemonių įgyvendinimas siekiant optimizuoti energijos suvartojimą."
+    },
+    "pipes": [
+      "Vamzdžiai ir sistemos",
+      "Aukštos klasės PP-R ir PP-RCT vamzdžiai buičiai bei pramonei. Atraskite visas SDR klases ir dydžius savo kitam projektui."
+    ],
+    "fittings": [
+      "Jungiamosios detalės",
+      "Pilnas detalių asortimentas visoms „K-Aqua“ vamzdžių sistemoms. Atraskite alkūnes, trišakius, perėjimus ir movas difuziniam virinimui."
+    ],
+    "valves": [
+      "Armatūra ir ventiliai",
+      "Aukščiausios kokybės armatūra ir priedai vamzdynų tinklams. Rutuliniai ventiliai, potinkiniai ir atbuliniai vožtuvai."
+    ],
+    "tools": [
+      "Įrankiai ir priedai",
+      "Profesionalūs virinimo įrankiai ir priedai PP-R sistemoms. Atraskite virinimo aparatus, vamzdžių žirkles ir specialius įrankius."
+    ],
+    "transition-fittings": [
+      "Pereinamosios detalės",
+      "Patikimos detalės saugioms jungtims. Atraskite žalvarines pereinamąsias detales su sriegiu arba flanšu."
+    ]
+  },
+  "home": {
+    "chip": "sertifikuota nuo 2025 m. spalio",
+    "h1a": "Lyderiai",
+    "h1b": "K-Aqua PP-R vamzdžių sistemų srityje",
+    "globeAria": "Interaktyvus gaublys, vilkite, kad pasuktumėte",
+    "scrolly": [
+      {
+        "t": "Pagaminta Vokietijoje",
+        "d": "Kiekvienas vamzdis ir detalė kuriami bei gaminami Waldsolms mieste."
+      },
+      {
+        "t": "nuo d20 iki d630",
+        "d": "Pilna sistema: penkios slėgio klasės, jungiamosios detalės, armatūra ir virinimo technika."
+      },
+      {
+        "t": "Trigubas sertifikavimas",
+        "d": "ISO 9001, 14001 ir 50001: kokybė, aplinkosauga ir energetika iš vienos valdymo sistemos."
+      },
+      {
+        "t": "27 rinkos visame pasaulyje",
+        "d": "Nuo Frankfurto iki NEOM: atitinka vietinius standartus ir vandens profilius."
+      }
+    ],
+    "lead": "K-Aqua kuria ir gamina PP-R ir PP-RCT vamzdžių sistemas geriamajam vandeniui nuo 20 iki 630 mm, bendradarbiaudama su aukščiausios klasės gamintoju KESSEL.",
+    "ctaProducts": "Atrasti produktų sistemą",
+    "ctaContact": "Susisiekti",
+    "toolsEyebrow": "Interaktyvūs įrankiai",
+    "toolsTitle1": "Jokio ilgo teksto.",
+    "toolsTitle2": "Įrankiai.",
+    "toolsLead": "Svetainė dirba už jus: filtruokite, skaičiuokite, mokykitės.",
+    "bandTitle": "Pasiruošę naujos kartos vandentiekiui?",
+    "bandLead": "Aptarkite savo projektą su mūsų pardavimų komanda – nuo planavimo iki virinimo technologijų.",
+    "bandBtn": "Pradėti projekto užklausą",
+    "bandBtn2": "Atsisiuntimai ir aptarnavimas"
+  },
+  "footer": {
+    "tagline": "K-Aqua, lyderis vandentiekio srityje. PP-R/PP-RCT vamzdžių sistemos geriamajam vandeniui, kurias gamina KWT GmbH Waldsolms mieste.",
+    "colTools": "Produktai ir įrankiai",
+    "colCompany": "Įmonė",
+    "colContact": "Kontaktai",
+    "directions": "Kryptys ir vietovė",
+    "rights": "Visos teisės saugomos.",
+    "imprint": "Teisinė informacija",
+    "privacy": "Privatumo politika",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Vokietija",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Pateikti užklausą",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R vamzdžių standartai"
+      },
+      {
+        "t": "Tvarumas",
+        "s": "Draugiškas aplinkai"
+      },
+      {
+        "t": "GENAU sistema",
+        "s": "Integruotas valdymas"
+      },
+      {
+        "t": "Pagaminta Vokietijoje",
+        "s": "Gamyba Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Interneto svetainės dizainas: Coday",
+        "Coday Web Agency projektas",
+        "Coday Web Agency",
+        "Skaitmenizuota Coday"
+      ],
+      "srDesc": "Šią svetainę sukūrė ir techniškai įgyvendino Coday Web Agency, interneto dizaino ir SEO ekspertai Hesene.",
+      "linkTitle": "Coday Web Agency - Premium dizainas"
+    }
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europa",
+    "nahost": "Artimieji Rytai",
+    "global": "Afrika ir Azija-Ramusis vandenynas"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "didžiausias vamzdžio matmuo asortimente"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "slėgio klasės: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "sertifikuota kokybė, aplinkosauga ir energija"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "gamybos atliekų perdirbama"
+      }
+    ],
+    "heroBadgeLabel": "Vamzdžių matmenys, nuo SDR 6 iki SDR 17",
+    "marquee": [
+      "Lyderis vandentiekio srityje",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Pagaminta Waldsolms",
+      "100 % perdirbimas",
+      "Partneris: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Produktų paieška",
+        "d": "Filtruokite 170+ prekių realiuoju laiku: matmenys, SDR, sienelės storis.",
+        "cta": "Filtruoti dabar"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂ skaičiuoklė",
+        "d": "Jūsų projektas vs. varis, nerūdijantis plienas ir PVC (medžiais ir automobilių km).",
+        "cta": "Skaičiuoti dabar"
+      },
+      {
+        "id": "academy",
+        "t": "Akademija + Testas",
+        "d": "Keturi virinimo būdai vaizdo įrašuose, tada virinimo meistro testas.",
+        "cta": "Tapti meistru"
+      },
+      {
+        "id": "references",
+        "t": "Referencijų gaublys",
+        "d": "Sukite planetą, atraskite projektus: nuo Waldsolms iki Singapūro.",
+        "cta": "Sukti gaublį"
+      },
+      {
+        "id": "trust",
+        "t": "Patikimumo centras",
+        "d": "Patikrinkite sertifikatus ir patys susidarykite dokumentų paketą.",
+        "cta": "Sudaryti paketą"
+      },
+      {
+        "id": "career",
+        "t": "Privalumų skaičiuoklė",
+        "d": "Kiek verti neapmokestinami priedai, plius 60 sekundžių kultūros atitikimo testas.",
+        "cta": "Tikrinti pajamas"
+      }
+    ],
+    "vsEyebrow": "Skirtumas",
+    "vsTitle": "Pramonės standartas vs. Skaitmeninis K Aqua.",
+    "vsBadTitle": "Taip daro pramonė",
+    "vsGoodTitle": "Taip daro K Aqua",
+    "vsBad": [
+      "220 puslapių PDF katalogai be paieškos",
+      "Sertifikatai tik raštišku prašymu",
+      "Techniniai duomenys paslėpti lentelėse",
+      "Karjeros puslapis: tik pašto dėžutė"
+    ],
+    "vsGood": [
+      "Produktų paieška: filtruokite per sekundes",
+      "Patikimumo centras: atsisiuntimai savitarnoje",
+      "CO₂ skaičiuoklė paverčia duomenis argumentu",
+      "Privalumų skaičiuoklė + Kultūros atitikimas"
+    ],
+    "coEyebrow": "Įmonė",
+    "coTitle1": "Statybinių medžiagų tiekėjas ir gamintojas:",
+    "coTitle2": "iš vienų rankų.",
+    "coLead": "KWT GmbH gamina vamzdžius ir jungiamąsias detales vandentiekiui iš įvairių plastikų, taip pozicionuodama save statybų vertės grandinėje kaip tiekėją ir gamintoją viename.",
+    "kesselTitle": "Stipri partnerystė su KESSEL",
+    "kesselText": "Su „leading in drainage“ premium gamintoju KESSEL mus sieja glaudus ir ilgalaikis bendradarbiavimas. Šią dešimtmečių patirtį nešame į ateitį.",
+    "kesselCta": "Daugiau apie partnerystę",
+    "worldTitle": "Patikrinta visame pasaulyje",
+    "worldText": "K Aqua produktai dešimtmečiais buvo sėkmingai naudojami daugybėje projektų visame pasaulyje.",
+    "worldCta": "Referencijų gaublys",
+    "cards": [
+      {
+        "t": "GENAU valdymo sistema",
+        "d": "Nuolatinis darbuotojų, aplinkos ir sveikatos apsaugos gerinimas pagal DIN EN ISO 14001 ir 50001."
+      },
+      {
+        "t": "Gamyba Vokietijoje",
+        "d": "Kūrimas ir gamyba Waldsolms mieste: kokybė, išlaidos ir terminai visada suderinti."
+      },
+      {
+        "t": "Ekologinė atsakomybė",
+        "d": "Išteklių tausojimas ir suderinamumas su aplinka yra neatsiejama mūsų kokybės sampratos dalis."
+      }
+    ],
+    "manifestTitle": "Mūsų misija",
+    "manifestText": "Vanduo yra mūsų vertingiausias išteklius. Mes jį saugome moderniomis vamzdžių sistemomis.",
+    "grEyebrow": "Pasaulinis pasiekiamumas",
+    "grTitle1": "Tarptautiniai",
+    "grTitle2": "Prekybos keliai",
+    "grLead": "Iš Vokietijos į pasaulį: mūsų K Aqua vamzdžių sistemos yra moderniausių megaprojeltų visame pasaulyje pagrindas. Nuo NEOM Saudo Arabijoje iki sudėtingų pramonės objektų Singapūre.",
+    "grHqLabel": "Būstinė ir gamyba",
+    "grHqValue": "Vokietija (Frankfurtas)",
+    "grExportLabel": "Pagrindinės eksporto rinkos",
+    "grExportValue": "Saudo Arabija (NEOM), JAE, Kataras, Lotynų Amerika",
+    "grCta": "Atrasti pasaulinius projektus"
+  },
+  "products": {
+    "narrative": {
+      "sizeRange": "Šis komponentas gaminamas plačiame vardinių matmenų diapazone: nuo kompaktiškų {minSize} mm iki įspūdingų {maxSize} mm, kas užtikrina maksimalų universalumą įvairiuose montavimo scenarijuose.",
+      "sizeSpecific": "Šis komponentas tiksliai suprojektuotas specifiniam {minSize} mm matmeniui, užtikrinant tikslinį našumą specializuotoms vamzdynų architektūroms.",
+      "weights": "Medžiagų naudojimo efektyvumas optimizuotas visame asortimente: priklausomai nuo matmens, vieneto svoris svyruoja nuo {minWeight} kg iki {maxWeight} kg.",
+      "packaging": "Logistika optimizuojama naudojant standartizuotas pakuotes, skirtas saugiam transportavimui visame pasaulyje ir patogiam darbui statybvietėje.",
+      "rowCount": "Mūsų techniniame asortimente šis komponentas prieinamas {count} specializuotų matmenų, tiksliai pritaikytų modernių skysčių transportavimo sistemų hidrauliniams ir mechaniniams reikalavimams.",
+      "intro": "Produktas {title} yra vienas iš K Aqua aukštos kokybės skysčių valdymo sprendimų pamatų. Kiekvienas variantas, oficialiai registruotas {codes} artikulo numeriu(-iais), prieš pristatymą praeina griežtą kokybės kontrolę mūsų Vokietijos gamyklose.",
+      "outro": "Naudojant pažangias polimerų apdirbimo technologijas, geometrinis {title} tikslumas garantuoja optimalias srauto charakteristikas, sumažina slėgio nuostolius ir visiškai pašalina kalkėjimo ar korozijos riziką viso eksploatavimo metu. Šis bekompromisis dėmesys medžiagų mokslui užtikrina, kad kiekviena jungtis išlaiko absoliutų vientisumą net esant ekstremaliems temperatūros ar slėgio svyravimams. Nesvarbu, ar tai būtų aukštybiniai gyvenamieji pastatai, ypatingos svarbos sveikatos priežiūros įstaigos, ar sudėtingi pramonės objektai, šis produktas užtikrina priežiūros nereikalaujantį patikimumą, kuriuo gali aklai pasikliauti inžinieriai ir montuotojai."
+    },
+    "uniqueProductContext": "Produktas {title} yra esminė K Aqua {category} asortimento dalis. Sukurtas maksimaliam ilgaamžiškumui ir sklandžiam integravimui, jis atitinka aukščiausius tarptautinius standartus modernioms vamzdynų ir santechnikos sistemoms. Šį specifinį produktą galite identifikuoti ir užsisakyti pagal artikulo numerį (-ius): {codes}. Dėl papildomos dokumentacijos ar pagalbos susisiekite su mūsų technine komanda.",
+    "heroDesc": "Atraskite specifikacijas, matmenis ir pritaikymo sritis. Dėl išsamesnės informacijos atsisiųskite techninį duomenų lapą.",
+    "articleNumbers": "Artikulų numeriai",
+    "technicalSpecs": "Techninės specifikacijos",
+    "eyebrow": "Produktai",
+    "videoGuide": "K Aqua vaizdo instrukcija",
+    "localAvailability": "Vietinis prieinamumas",
+    "localDesc": "Raskite vietinius platintojus, sertifikatus ir standartus savo regione.",
+    "allMarkets": "Žiūrėti visas 50+ rinkų",
+    "title1": "PP-R/PPRCT vamzdžiai ir detalės",
+    "titleGrad": "geriamajam vandeniui.",
+    "lead": "Išsami vamzdynų sistema karštam ir šaltam geriamajam vandeniui: nuo vamzdžių ir detalių iki virinimo technologijų. Keturi elementai, viena sistema.",
+    "ctaCatalog": "Produktų katalogas (PDF)",
+    "ctaVideos": "Montavimo vaizdo įrašai",
+    "sysEyebrow": "Sistema",
+    "sysTitle": "K-Aqua PP-R vamzdžiai ir detalės: Keturi elementai, viena sistema.",
+    "range": [
+      {
+        "t": "Vamzdžiai: vieno ir kelių sluoksnių",
+        "d": "Vieno sluoksnio ir stiklo pluoštu sustiprinti kelių sluoksnių vamzdžiai SDR 6, 7.4, 9, 11 ir 17. Matmenys nuo 20 mm iki 630 mm."
+      },
+      {
+        "t": "Detalės ir armatūra",
+        "d": "Detalės nuo 20 mm iki 315 mm, taip pat vožtuvai, jungtys ir perėjimai."
+      },
+      {
+        "t": "Virinimo technika ir įrankiai",
+        "d": "Pjovimo įrankiai ir įranga moviniam, sandūriniam bei elektrovirinimo procesui."
+      },
+      {
+        "t": "Karštas ir šaltas vanduo",
+        "d": "Skirta geriamajam vandeniui (karštam ir šaltam), pasižymi dideliu atsparumu temperatūrai ir slėgiui."
+      }
+    ],
+    "techEyebrow": "Techniniai duomenys",
+    "techTitle": "Matmenys ir slėgio klasės",
+    "techLead": "Priklausomai nuo vamzdžio tipo, nuo 20 mm iki 630 mm, detalės iki 315 mm.",
+    "ctaFeatures": "Produkto savybės (PDF)",
+    "tableHead": [
+      "Komponentas",
+      "Matmenys",
+      "Slėgio klasės"
+    ],
+    "tableRows": [
+      [
+        "Vieno sluoksnio vamzdžiai",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Kelių sluoksnių vamzdžiai (stiklo pluoštas)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Detalės",
+        "20 – 315 mm",
+        "Suderinama su sistema"
+      ],
+      [
+        "Vožtuvai ir jungtys",
+        "Priklauso nuo sistemos",
+        "-"
+      ],
+      [
+        "Virinimo technika ir įrankiai",
+        "Visi matmenys",
+        "-"
+      ]
+    ],
+    "seoArticle": {
+      "pipes": {
+        "areas": "Geriamasis vanduo, šildymas, klimato kontrolė, pramonė, laivų statyba",
+        "advTitle": "Aukščiausios kokybės vamzdynų technologijos",
+        "advList": [
+          "Be korozijos: 100% atsparumas.",
+          "Mažas slėgio kritimas: lygus vidinis paviršius.",
+          "Ilgas tarnavimo laikas: daugiau nei 50 metų.",
+          "Triukšmo mažinimas: puiki garso izoliacija.",
+          "Higieniška: atitinka DVGW, KIWA."
+        ],
+        "seoText": "Mūsų vamzdžiai gaminami Vokietijoje pagal aukščiausius standartus.",
+        "guideTitle": "PP-R ir PPRCT planavimas ir montavimas",
+        "guideText": "<p>Saugūs, atsparūs ir ilgaamžiai K Aqua vamzdžiai užtikrina patikimą veikimą.</p>",
+        "seoTitle": "PP-R ir PPRCT sistemų apžvalga",
+        "faq": [
+          { "q": "Kuo PPRCT skiriasi nuo PP-R?", "a": "PPRCT atlaiko aukštesnį slėgį esant aukštai temperatūrai." }
+        ]
+      },
+      "fittings": {
+        "areas": "Geriamasis vanduo, santechnika, pramonė, šildymas",
+        "advTitle": "Saugios jungtys",
+        "advList": [
+          "Vientisas suvirinimas.",
+          "Nereikia tarpinių.",
+          "Paprastas montavimas.",
+          "Pilnas srautas.",
+          "Cheminis atsparumas."
+        ],
+        "seoText": "K Aqua detalės garantuoja patikimą sujungimą be nuotėkio.",
+        "guideTitle": "Saugios jungtys su K Aqua",
+        "guideText": "<p>Vientisas suvirinimas pašalina mikronuotėkių riziką.</p>",
+        "seoTitle": "Plastikinės jungiamosios detalės"
+      },
+      "valves": {
+        "areas": "Srautų valdymas, skirstymo spintos, pramonė",
+        "advTitle": "Tikslus valdymas",
+        "advList": [
+          "Nereikalauja priežiūros.",
+          "Pilnas pralaidumas.",
+          "Lengvas integravimas.",
+          "Aukštos kokybės medžiagos.",
+          "Saugus uždarymas."
+        ],
+        "seoText": "K Aqua vožtuvai leidžia tiksliai valdyti srautus.",
+        "guideTitle": "Sistemų valdymas su vožtuvais",
+        "guideText": "<p>Optimalus srautų ir slėgio valdymas kiekvienai sistemai.</p>",
+        "seoTitle": "Uždarymo vožtuvai ir rutuliniai čiaupai"
+      },
+      "weldInSaddles": {
+        "areas": "Papildomos atšakos, sistemos plėtra",
+        "advTitle": "Maksimalus lankstumas",
+        "advList": [
+          "Montavimas po įrengimo.",
+          "Taupo laiką.",
+          "Atsparumas slėgiui.",
+          "Pilnas srautas.",
+          "Universalus."
+        ],
+        "seoText": "Suvirinami balnai (Weld-in Saddles) idealiai tinka esamų sistemų išplėtimui.",
+        "guideTitle": "Sistemų lankstumas su balnais",
+        "guideText": "<p>Greita ir patikima sistemos modifikacija.</p>",
+        "seoTitle": "Įvirinami balnai vamzdynams"
+      },
+      "accessories": {
+        "areas": "Tvirtinimas, sandarinimas, flanšai",
+        "advTitle": "Priedai normų atitinkamam montavimui",
+        "advList": [
+          "Tobulas pritaikymas.",
+          "Termodinaminis fiksavimas.",
+          "Aukštos kokybės flanšai.",
+          "Greitas remontas.",
+          "Atsparumas UV."
+        ],
+        "seoText": "K Aqua priedai užtikrina sistemos vientisumą.",
+        "guideTitle": "K Aqua montavimo priedai",
+        "guideText": "<p>Garantuoja sistemų saugumą ir atitiktį standartams.</p>",
+        "faq": [
+          { "q": "Ar priedai tinka karštam vandeniui?", "a": "Taip, visi priedai sukurti ekstremalioms temperatūroms." }
+        ],
+        "seoTitle": "Montavimo priedai"
+      },
+      "tools": {
+        "areas": "Pasiruošimas, montavimas, remontas",
+        "advTitle": "Aukščiausias tikslumas",
+        "advList": [
+          "Tiksli temperatūros kontrolė.",
+          "Teflono danga.",
+          "Ergonomiškas dizainas.",
+          "Skaitmeninė dokumentacija.",
+          "Ilgas tarnavimo laikas."
+        ],
+        "seoText": "Profesionalūs K Aqua įrankiai tobulam suvirinimui.",
+        "guideTitle": "K Aqua įrankiai montuotojams",
+        "guideText": "<p>Patikima įranga be klaidų montavimui.</p>",
+        "seoTitle": "Suvirinimo įrankiai ir pjovikliai"
+      },
+      "fallback": {
+        "areas": "Universali technika, statybvietės poreikiai",
+        "advTitle": "Tobulas sistemos papildymas",
+        "advList": [
+          "Patikrinta kokybė.",
+          "Suderinamumas.",
+          "Ilgaamžiškumas.",
+          "Saugus naudojimas.",
+          "Ekonomiškumas."
+        ],
+        "seoText": "Viskas ko reikia sklandžiam K Aqua montavimui."
+      }
+    },
+    "labels": {
+      "applicationAreas": "Pritaikymo sritys",
+      "advantages": "Privalumai iš pirmo žvilgsnio",
+      "technicalDescription": "Techninis profilis",
+      "noResults": "Produktų nerasta",
+      "searchPlaceholder": "Ieškoti pagal pavadinimą ar artikulą...",
+      "faqTitle": "Dažniausiai užduodami klausimai (DUK)",
+      "faqFallbackQ1": "Kokie pagrindiniai privalumai?",
+      "faqFallbackA1": "Sistema užtikrina ilgaamžiškumą, atsparumą korozijai ir higieną.",
+      "faqFallbackQ2": "Ar medžiaga ekologiška?",
+      "faqFallbackA2": "Taip, PPRCT yra 100% perdirbama.",
+      "faqFallbackQ3": "Kaip vyksta montavimas?",
+      "faqFallbackA3": "Montavimas atliekamas polifuzinio suvirinimo būdu.",
+      "downloads": "Atsisiuntimai ir dokumentai",
+      "tds": "Techninis duomenų lapas",
+      "tdsDesc": "Specifikacijos (PDF)",
+      "cert": "Sertifikatai",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Montavimo vadovas",
+      "installDesc": "Suvirinimo instrukcija (PDF)",
+      "range": "Produktų asortimentas",
+      "rangeDesc": "Visi produktai (PDF)",
+      "features": "Produkto savybės",
+      "featuresDesc": "Medžiagų savybės (PDF)"
+    },
+    "specAndDim": "Specifikacijos ir matmenys",
+    "certsAndNorms": "Sertifikatai ir normos",
+    "approved": "patvirtinta",
+    "monitoring": "stebima",
+    "certified": "sertifikuota",
+    "quickLinks": "Greitosios nuorodos",
+    "calcCo2": "Apskaičiuoti CO2",
+    "backToFinder": "Atgal į produktų paiešką",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "Aukšto našumo vamzdžių sistemos",
+    "highPerformanceDesc": "Pramoniniam pritaikymui, geriamajam vandeniui ir klimato kontrolei.",
+    "sysPressure": "Sistemos slėgis",
+    "tempMax": "Maksimali temperatūra",
+    "material": "Medžiaga",
+    "norm": "Standartas",
+    "certification": "Sertifikavimas",
+    "lifespan": "Tarnavimo laikas",
+    "fiberTech": "Pluošto kompozito technologija",
+    "fiberTechDesc": "3 sluoksnių struktūra minimaliam plėtimuisi.",
+    "compliance": "Atitiktis ir standartai",
+    "dimensions": "Matmenys",
+    "globalNetwork": "Pasaulinis tinklas",
+    "globalNetworkDesc": "K Aqua sistemos naudojamos daugiau nei 40 šalių.",
+    "whyChoose": "Kodėl {product} yra geras pasirinkimas",
+    "tools": {
+      "metaTitle": "PP-R įrankiai",
+      "metaDesc": "Atraskite profesionalius K-Aqua įrankius.",
+      "heroEyebrow": "Vokiška inžinerija",
+      "heroTitle": "Įrankiai ir priedai.",
+      "heroSubtitle": "Absoliutus tikslumas.",
+      "heroDesc": "Tai užtikrina saugumą jūsų projektams.",
+      "heroBtnPrimary": "Projekto užklausa",
+      "heroBtnSecondary": "Techniniai duomenys",
+      "bentoEyebrow": "K Aqua ekosistema",
+      "bentoTitle": "Įrankiai pasauliniams mega projektams.",
+      "bentoLead": "Pasitikėkite tikslia įranga.",
+      "bento1Title": "Movinio suvirinimo prietaisai",
+      "bento1Desc": "20–125 mm matmenims.",
+      "bento2Title": "Pjovikliai ir žirklės",
+      "bento2Desc": "Ergonomiškas dizainas tiksliems pjūviams.",
+      "bento3Title": "Sandūrinio suvirinimo mašinos",
+      "bento3Desc": "Iki 250 mm CNC valdymas.",
+      "bento4Title": "Remonto komplektai",
+      "bento4Desc": "Balnai ir grąžtai atšakoms.",
+      "scrollEyebrow": "Gili technologija",
+      "scrollTitle": "Jokių tolerancijos klaidų.",
+      "scrollLead": "Atraskite technologijas, leidžiančias tobulai montuoti.",
+      "scroll1Title": "Tobula termodinamika.",
+      "scroll1Desc": "Temperatūros palaikymas prie 260°C.",
+      "scroll2Title": "CNC valdymas.",
+      "scroll2Desc": "Išvengiama žmogiškų klaidų ir viskas dokumentuojama.",
+      "scroll3Title": "Tikslios skutimo mašinos.",
+      "scroll3Desc": "Pašalina oksidacinį sluoksnį idealiam virinimui.",
+      "scroll4Title": "Tikslūs pjūklai.",
+      "scroll4Desc": "Garantuoja lygius pjūvius be įtempių.",
+      "timelineTitle": "K Aqua suvirinimo procesas",
+      "timelineDesc": "Nuo pjovimo iki molekulinio sujungimo.",
+      "timeline1Year": "1 Fazė",
+      "timeline1Title": "Tobulas pjūvis.",
+      "timeline1Text": "Statūs kampai be drožlių.",
+      "timeline2Year": "2 Fazė",
+      "timeline2Title": "Oksido pašalinimas.",
+      "timeline2Text": "Vamzdžio kalibravimas ir nuskutimas.",
+      "timeline3Year": "3 Fazė",
+      "timeline3Title": "Terminis sujungimas.",
+      "timeline3Text": "Kaitinimas iki 260°C.",
+      "timeline4Year": "4 Fazė",
+      "timeline4Title": "Gyvenimo trukmės saugumas.",
+      "timeline4Text": "Vientisas sujungimas be nuotėkio.",
+      "specsTitle": "Pramoninis autoritetas.",
+      "specsP1": "Sujungiame amatus su automatizacija.",
+      "specsP2": "Naudojama atšiauriausiomis sąlygomis.",
+      "specsList1": "ISO 9001 sertifikuota",
+      "specsList2": "A klasės teflono danga",
+      "specsList3": "Skaitmeninė temperatūros kontrolė",
+      "ctaTitle": "Pasiruošę kokybei?",
+      "ctaDesc": "Susisiekite su mūsų komanda.",
+      "ctaBtn": "Pradėti užklausą",
+      "hero": {
+        "eyebrow": "Įrankiai",
+        "title": "PP-R suvirinimo įrankiai",
+        "lead": "Užtikrina ilgalaikes ir sandarias jungtis."
+      }
+    },
+    "valves": {
+      "metaTitle": "PP-R vožtuvai ir armatūra",
+      "metaDesc": "Atraskite aukštos kokybės vožtuvus.",
+      "heroEyebrow": "Armatūros klasė",
+      "heroTitle": "Absoliuti kontrolė.",
+      "heroSubtitle": "Aukščiausiame slėgyje.",
+      "heroDesc": "K Aqua vožtuvai – pasaulinės infrastruktūros širdis.",
+      "heroBtnPrimary": "Užklausti technologijos",
+      "heroBtnSecondary": "Atrasti architektūrą",
+      "manifestoTitle": "Mes nenusileidžiame.",
+      "manifestoP1": "Pramonėje vožtuvas yra kritinis mazgas.",
+      "manifestoP2": "Mūsų inžinerija orientuota į neįmanomus scenarijus.",
+      "scrollEyebrow": "Tobulumo kilmė",
+      "scrollTitle": "Nuo žaliavos iki nesunaikinamo vožtuvo.",
+      "scrollLead": "K Aqua vožtuvų kūrimo kelias.",
+      "scroll1Title": "Nepriekaištinga žaliava",
+      "scroll1Desc": "Visiškai švari medžiaga be mikroskopinių silpnybių.",
+      "scroll2Title": "Tiksli CNC gamyba",
+      "scroll2Desc": "Apdorojimas iš vieno gabalo maksimaliam tikslumui.",
+      "scroll3Title": "Srautas be kavitacijos",
+      "scroll3Desc": "Sumažinta trintis ir triukšmas.",
+      "scroll4Title": "100% testavimas.",
+      "scroll4Desc": "Kiekvienas vožtuvas išbandomas prieš išsiuntimą.",
+      "showcaseEyebrow": "Patikimumo anatomija",
+      "showcaseTitle": "Jokių silpnų vietų.",
+      "showcaseP1": "Viduje nėra negyvų zonų, kuriose kauptųsi bakterijos.",
+      "showcaseP2": "Vanduo teka tobulai sureguliuotu sluoksniu.",
+      "showcaseList1": "Geriamojo vandens higiena",
+      "showcaseList2": "Hermetiškas uždarymas esant maksimaliam slėgiui",
+      "showcaseList3": "Priežiūros nereikalaujantys sandarikliai",
+      "bentoEyebrow": "Specifikacijos",
+      "bentoTitle": "Pranašumas skaičiais.",
+      "bentoLead": "Techniniai parametrai, paverčiantys mūsų vožtuvus geriausiu pasirinkimu.",
+      "bento1Title": "PN25 slėgis",
+      "bento1Desc": "Ilgalaikis atsparumas aukštam slėgiui.",
+      "bento2Title": "Šiluminis atsparumas",
+      "bento2Desc": "Nuo šalčio iki virimo temperatūros.",
+      "bento3Title": "Cheminis atsparumas",
+      "bento3Desc": "Imunitetas agresyviam vandeniui ir dezinfekcijai.",
+      "bento4Title": "Ergonomika",
+      "bento4Desc": "Tvirtas ir patogus dizainas.",
+      "timelineEyebrow": "Saugumo kelias.",
+      "timelineLead": "Kompromisų nepripažįstantis kokybės užtikrinimas.",
+      "timeline1Year": "1 Fazė",
+      "timeline1Title": "Molekulių atranka",
+      "timeline1Text": "Aukščiausios kokybės polimerų parinkimas.",
+      "timeline2Year": "2 Fazė",
+      "timeline2Title": "Srauto optimizavimas",
+      "timeline2Text": "Vidinių kanalų dizainas srauto palengvinimui.",
+      "timeline3Year": "3 Fazė",
+      "timeline3Title": "Streso testai",
+      "timeline3Text": "Klimato kamerose iki 120°C ir 25 Bar.",
+      "timeline4Year": "4 Fazė",
+      "timeline4Title": "Serijinė gamyba",
+      "timeline4Text": "Automatizuota pramonė 4.0 be žmogiškų klaidų.",
+      "timeline5Year": "5 Fazė",
+      "timeline5Title": "Pasaulinis naudojimas",
+      "timeline5Text": "Kritinėse statybvietėse visame pasaulyje.",
+      "finalTitle": "Statykite kartoms.",
+      "finalDesc": "Mūsų produktai įmontuojami ir pamirštami, nes jie tiesiog veikia.",
+      "ctaTitle": "Pasiruošę absoliučiai kontrolei?",
+      "ctaDesc": "Aptarkite savo projektą su mūsų inžinieriais.",
+      "ctaBtnPrimary": "Prašyti konsultacijos",
+      "ctaBtnSecondary": "Atsisiųsti PDF",
+      "hero": {
+        "eyebrow": "Vožtuvai ir armatūra",
+        "title": "PP-R armatūra",
+        "lead": "Korozijai atspari hidraulika ir vokiškas tikslumas."
+      }
+    }
+  },
+  "geo": {
+    "eyebrow": "Rinkos ir atstovybės",
+    "title1": "Pasaulis pilnas",
+    "title2": "rinkų.",
+    "lead": "Atraskite „K-Aqua“ PP-R vamzdžių sistemų atstovybes: {n} rinkos {c} šalyse, kiekviena su savo puslapiu apie vietinius standartus, vandens profilį, pritaikymą ir logistiką. Sukite pasaulį laisvai; sąrašas jus nukreips tiesiai į pasirinktą miestą.",
+    "all": "Visi",
+    "cityTitle": "PP-R/PPRCT vamzdžių sistemos {city} mieste.",
+    "cityLead": "Geriamojo vandens sistemos d20–d630, patikrintos pagal vietinius reikalavimus.",
+    "allMarkets": "Visos rinkos",
+    "request": "Projekto užklausa",
+    "finder": "Produktų paieška",
+    "fromPlant": "km nuo Waldsolms gamyklos",
+    "regFrame": "Reguliavimo aplinka",
+    "water": "Vandens profilis ir medžiagų atsparumas",
+    "typical": "Tipiniai projektai {city}",
+    "onSite": "Apdorojimas vietoje",
+    "onSiteText": "Virinimo technikos mokymai ir vaizdo dokumentacija jūsų komandai Akademijoje.",
+    "toAcademy": "Į Akademiją",
+    "nearbyEyebrow": "Susijusios rinkos",
+    "nearby": "Netoliese.",
+    "prodNote": "Gamybos pastaba: šie puslapiai atitinka Programmatic-SEO šabloną. Next.js naudoja ISR generavimą iš CMS.",
+    "km": "km",
+    "seoExpansion": "K-Aqua Waldsolms mieste gamina PP-R ir PPRCT vamzdžių sistemas aukščiausiems pasauliniams pastatų inžinerijos standartams. Vokiečių inžinerijos dėka garantuojame dešimtmečius nereikalaujantį priežiūros veikimą. Visi produktai, nuo d20 iki d630, griežtai tikrinami ir atitinka ISO, DVGW, KIWA, SKZ. Suteikiame ne tik medžiagas, bet ir inžinerinę pagalbą bei mokymus.",
+    "seoExpansionDynamic": "Sužinokite daugiau apie PP-R ir PPRCT sprendimus {city} mieste. Mes atitinkame vietinius standartus ({regulator}) ir siūlome optimalias sistemas pagal vandens kokybę ({water}). Pastaba: {note}.",
+    "cityMetaTitle": "PP-R vamzdžių sistemos {city}",
+    "hubMetaTitle": "PP-R vamzdžių sistemos - {country}",
+    "hubH1": "Infrastruktūros sprendimai - {country}",
+    "hubLead": "„K-Aqua“ siūlo sertifikuotus PP-R ir PP-RCT infrastruktūros sprendimus šaliai {country}. Mūsų vamzdžių sistemos atitinka aukščiausius tarptautinius standartus ir yra pritaikytos specifiniams vietiniams iššūkiams.",
+    "hubContextTitle": "Regioninis kontekstas: {context}",
+    "hubContextBody": "Mūsų „K-Aqua“ PP-R/PP-RCT vamzdžių sistemos, pagamintos Vokietijoje, teikia tvarius infrastruktūros sprendimus {country} šaliai. Jos sukurtos atlaikyti vietinius inžinerinius iššūkius.",
+    "hubCitiesTitle": "Vietinės atstovybės ir referenciniai miestai",
+    "hubs": {
+      "deutschland": {
+        "description": "Kaip „K-Aqua“ namų rinka, Vokietija kelia aukščiausius statybų ir ilgaamžiškumo reikalavimus. Mūsų <span class=\"font-semibold\">PP-R ir PP-RCT vamzdžių sistemos</span> efektyviai sprendžia geriamojo vandens ir šildymo infrastruktūros modernizavimo problemas. Naudodami nerūdijančias, DVGW sertifikuotas medžiagas, mes mažiname priežiūros išlaidas.",
+        "metaDesc": "Sertifikuotos PP-R/PP-RCT vamzdžių sistemos Vokietijai. Vokiška inžinerija kovojant su geriamojo vandens infrastruktūros senėjimu."
+      },
+      "oesterreich": {
+        "description": "Austrijoje sudėtingas reljefas ir griežti aplinkosaugos reikalavimai diktuoja bekompromisius infrastruktūros sprendimus. Mūsų <span class=\"font-semibold\">K-Aqua vamzdžių sistemos</span> siūlo aukščiausią kokybę vandentiekio ir centralizuoto šildymo tinklams kalnuotuose regionuose. Šilumos izoliacija ir atsparumas šalčiui atitinka griežčiausius reikalavimus.",
+        "metaDesc": "Aukščiausios klasės PP-R/PP-RCT vamzdžių sistemos Austrijai. Sistemų atsparumas šalčiui ir slėgiui."
+      },
+      "schweiz": {
+        "description": "Šveicarija garsėja tikslumu, tvarumu ir aukščiausiais kokybės standartais. <span class=\"font-semibold\">K-Aqua PP-R ir PP-RCT sistemos</span> atitinka šiuos reikalavimus užtikrindamos medžiagų grynumą ir SVGW sertifikuotą saugą.",
+        "metaDesc": "Aukščiausios klasės PP-R/PP-RCT sistemos Šveicarijai. SVGW sertifikuoti ir perdirbami plastikiniai vamzdžiai."
+      },
+      "uae": {
+        "description": "Jungtiniuose Arabų Emyratuose vanduo yra brangiausias išteklius. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT vamzdžių sistemos</span> suteikia maksimalią apsaugą nuo korozijos ir kalkėjimo net naudojant gėlintą jūros vandenį. UV ir karščiui atsparūs vamzdžiai užtikrina ilgalaikį vandens tiekimą Dubajaus dangoraižiuose.",
+        "metaDesc": "UV spinduliams ir karščiui atsparios PP-R/PP-RCT sistemos JAE. Apsauga nuo korozijos dykumų klimato sąlygomis."
+      },
+      "ksa": {
+        "description": "Pagal „Vision 2030“ Saudo Arabija transformuoja visą savo infrastruktūrą. <span class=\"font-semibold\">K-Aqua tiekia būtinąją vandens infrastruktūrą</span>. Didelio skersmens PP-RCT vamzdžiai užtikrina efektyvų ir saugų vandens paskirstymą išmaniuosiuose miestuose, tokiuose kaip NEOM.",
+        "metaDesc": "Didelio kalibro PP-RCT sistemos Saudo Arabijai. Vandens infrastruktūra „Vision 2030“ ir NEOM projektui."
+      },
+      "singapur": {
+        "description": "Būdamas vienas tankiausiai apgyvendintų aukštųjų technologijų miestų-valstybių, Singapūras reikalauja ypač efektyvios pastatų inžinerijos. <span class=\"font-semibold\">K-Aqua novatoriškos vamzdynų sistemos</span> palaiko ekologiškų pastatų (Green Building) tikslus drastiškai sumažindamos slėgio nuostolius.",
+        "metaDesc": "Efektyvūs PP-R/PP-RCT vamzdžiai Singapūro ekologiškiems pastatams. Vėsinimo ir ypač švaraus geriamojo vandens sistemos."
+      }
+    }
+  },
+  "solutions": {
+    "eyebrow": "Sprendimai",
+    "title1": "Sistemos architektūra",
+    "titleGrad": "Pasauliniams projektams",
+    "title2": "ir infrastruktūrai.",
+    "lead": "Atraskite pritaikytus K Aqua sprendimus pramoniniams ir komerciniams projektams.",
+    "benefits": "Medžiagų pranašumai",
+    "nextEyebrow": "Pritaikymo sritys",
+    "nextTitle": "Vamzdynų sistemos bet kokiai užduočiai",
+    "nextLead": "Nuo ligoninių iki viešbučių ir duomenų centrų.",
+    "nextCta": "Į produktų asortimentą",
+    "index": {
+      "meta": {
+        "title": "PP-R Medžiagų pranašumai ir savybės",
+        "desc": "Atraskite K-Aqua PP-R sprendimus."
+      },
+      "sticky": {
+        "items": [],
+        "header": { "title": "Fizinis pranašumas", "desc": "K-Aqua sistemų ilgaamžiškumas" }
+      },
+      "timeline": {
+        "items": [],
+        "title": "Proceso architektūra",
+        "desc": "Nuo skaičiavimų iki saugaus veikimo"
+      },
+      "hero": {
+        "eyebrow": "Pramonės sprendimai",
+        "title1": "Sistemos architektūra",
+        "title2": "amžinybei.",
+        "desc": "K-Aqua sukurta atlaikyti ekstremalias sąlygas.",
+        "cta": "Susisiekti"
+      },
+      "intro": {
+        "title": "Už įprastų ribų.",
+        "p1": "K-Aqua siūlo neprilygstamą kokybę.",
+        "p2": "Atsparumas korozijai ir slėgiui."
+      },
+      "bento": {
+        "header": { "title": "Pritaikymo sritys", "desc": "Sprendimai pramoniniams sektoriams" },
+        "items": []
+      },
+      "stats": {
+        "title": "Inžinerijos menas skaičiais",
+        "0": { "label": "Metų garantuoto veikimo", "desc": "Ilgiau nei 50 metų." },
+        "1": { "label": "W/mK šilumos laidumas", "desc": "Puiki izoliacija." },
+        "2": { "label": "Vientisos jungtys", "desc": "Molekulinis suvirinimas." }
+      },
+      "cta": {
+        "eyebrow": "Projekto inicijavimas",
+        "title1": "Pasiruošę",
+        "title2": "kitam etapui.",
+        "desc": "Susisiekite su inžinieriais.",
+        "button1": "Susisiekti su inžinieriais",
+        "button2": "Žiūrėti specifikacijas"
+      }
+    },
+    "krankenhaus": {
+      "sticky": { "items": [] },
+      "timeline": { "items": [] },
+      "hero": { "eyebrow": "Infrastruktūra", "title1": "Ligoninės.", "title2": "Nulis klaidų.", "desc": "Medicinos srityje infrastruktūra sprendžia viską.", "cta1": "Inžinerijos konsultacijos", "cta2": "BIM duomenys" }
+    },
+    "hotels": {
+      "sticky": { "items": [] },
+      "timeline": { "items": [] },
+      "hero": { "eyebrow": "Premium segmentas", "title1": "Viešbučiai.", "title2": "Prabanga.", "desc": "Aukščiausi vandens ir klimato kontrolės standartai.", "cta1": "Projektas viešbučiams", "cta2": "BIM duomenys" }
+    },
+    "vorfertigung": {
+      "sticky": { "items": [] },
+      "timeline": { "items": [] },
+      "hero": { "eyebrow": "Pramonė", "title1": "Gamyklos.", "title2": "Efektyvumas.", "desc": "Iš anksto surinkti komponentai greitam montavimui.", "cta1": "Susisiekti", "cta2": "BIM duomenys" }
+    },
+    "hochhaus": {
+      "sticky": { "items": [] },
+      "timeline": { "items": [] },
+      "hero": { "eyebrow": "Aukštybiniai pastatai", "title1": "Dangoraižiai.", "title2": "Slėgis.", "desc": "Ypač atsparios slėgiui sistemos dangoraižiams.", "cta1": "Konsultacijos", "cta2": "BIM duomenys" }
+    },
+    "rechenzentrum": {
+      "meta": { "title": "Duomenų centrai", "desc": "Vėsinimo sprendimai" },
+      "scroll": { "items": [] },
+      "timeline": { "items": [], "title": "Procesas", "desc": "Inžinerijos procesas" },
+      "hero": { "eyebrow": "Duomenų centrai", "title1": "Aušinimas.", "title2": "Saugumas.", "desc": "Iki nulio sumažinta prastovos rizika.", "cta1": "Užklausti", "cta2": "BIM duomenys" },
+      "section1": { "eyebrow": "Vėsinimas", "title": "Saugus veikimas", "lead": "Užkerta kelią tradicinių vamzdžių gedimams." },
+      "section2": { "eyebrow": "PP-R pranašumas", "title": "Medžiagų mokslas", "lead": "Tobula infrastruktūra 21 amžiui." },
+      "bento": { "items": [] },
+      "cta": { "title": "Pasiruošę saugumui?", "desc": "Susisiekite su mumis.", "button": "Pokalbis" }
+    }
+  },
+  "service": {
+    "eyebrow": "Aptarnavimas",
+    "title1": "Atsisiuntimai ir",
+    "titleGrad": "Pagalba",
+    "lead": "Raskite techninius duomenis, instrukcijas ir vaizdo įrašus.",
+    "dlEyebrow": "Atsisiuntimai",
+    "dlTitle": "Visi dokumentai vienoje vietoje",
+    "downloads": [],
+    "vidEyebrow": "Vaizdo įrašai",
+    "vidTitle": "Mokomieji vaizdo įrašai",
+    "vidLead": "Žiūrėkite kaip teisingai montuoti.",
+    "videos": []
+  },
+  "about": {
+    "seo": {},
+    "eyebrow": "Apie mus",
+    "title1": "K-Aqua",
+    "titleGrad": "Istorija",
+    "lead": "Esame lyderiai vamzdynų sistemų srityje.",
+    "h2": "Mūsų misija",
+    "p1": "K-Aqua kuria inovatyvius sprendimus.",
+    "p2": "Saugome aplinką ir užtikriname kokybę.",
+    "polEyebrow": "Politika",
+    "polTitle": "Kokybės politika",
+    "polLead": "Mūsų kokybės standartai.",
+    "cards": [],
+    "genauEyebrow": "GENAU",
+    "genauTitle": "Valdymo sistema",
+    "genauLead": "Mūsų GENAU valdymo sistema.",
+    "points": [],
+    "certTitle": "Sertifikatai",
+    "certText": "Esame sertifikuoti pagal ISO.",
+    "meta": { "title": "Apie K-Aqua", "desc": "Sužinokite daugiau apie K-Aqua." },
+    "hero": { "eyebrow": "Apie K-Aqua", "title1": "Kokybė", "title2": "Inovacijos", "desc": "Mūsų požiūris į inovacijas" },
+    "intro": { "title": "Įvadas", "p1": "Apie mus", "p2": "Skaityti toliau" },
+    "material": { "title": "Medžiagos" },
+    "timeline": { "items": [], "title": "Istorija" },
+    "sticky": { "items": [], "header": { "title": "Mūsų vertybės", "desc": "Kodėl mes?" } },
+    "bento": { "header": { "title": "Pranašumai", "desc": "Kodėl K-Aqua" }, "items": [] },
+    "values": { "items": [] },
+    "genauManagement": { "title": "GENAU valdymas", "desc": "Integruota sistema" }
+  },
+  "news": {
+    "eyebrow": "Naujienos",
+    "title1": "Naujienos ir",
+    "titleGrad": "Renginiai",
+    "date": "Data",
+    "h2": "Paskutinės naujienos",
+    "p": "Skaitykite apie mūsų pasiekimus.",
+    "iso": "ISO Sertifikatai",
+    "btnDe": "Skaityti vokiškai",
+    "btnEn": "Skaityti angliškai",
+    "eventsTitle": "Artėjantys renginiai",
+    "eventsText": "Susitikime renginiuose.",
+    "lead": "K-Aqua naujienos."
+  },
+  "career": {
+    "eyebrow": "Karjera",
+    "title1": "Karjera K-Aqua: daugiau nei",
+    "titleGrad": "tik atlyginimas.",
+    "lead": "Apskaičiuokite, kiek neto atneša neapmokestinami priedai, ir per 60 sekundžių sužinokite, ar K-Aqua tinka Jums.",
+    "benEyebrow": "Neto atlyginimo optimizavimas",
+    "benTitle": "Privalumų skaičiuoklė.",
+    "benLead": "Neapmokestinami priedai dažnai yra naudingesni nei bruto atlyginimo pakėlimas. Susidarykite savo paketą:",
+    "benefits": {
+      "sachbezug": [
+        "Daiktinė kortelė",
+        "Neapmokestinamas priedas kiekvieną mėnesį į kortelės sąskaitą."
+      ],
+      "lunch": [
+        "Maisto kompensacija",
+        "Skaitmeniniai maisto talonai pietums ir prekybos centrui."
+      ],
+      "internet": [
+        "Interneto kompensacija",
+        "Kompensacija už asmeninį interneto naudojimą."
+      ],
+      "jobrad": [
+        "JobRad lizingas",
+        "Dviratis, kurio įmokos išskaičiuojamos iš atlyginimo."
+      ],
+      "kita": [
+        "Vaikų darželio kompensacija",
+        "Neapmokestinamas priedas vaikų priežiūrai."
+      ],
+      "vwl": [
+        "Taupymo fondas",
+        "Mėnesinė darbdavio įmoka."
+      ]
+    },
+    "resultLabel": "Neto daugiau per mėnesį",
+    "resultNote1": "Tai apytiksliai atitinka",
+    "resultNote2": "bruto padidėjimą ~{n} €",
+    "resultNote3": "be mokesčių atskaitymo.",
+    "resultNote4": "(Orientacinė vertė, priklausomai nuo mokesčių klasės.)",
+    "apply": "Kandidatuoti dabar",
+    "call": "Arba skambinkite: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Kultūros atitikimas",
+    "cmTitle": "Ar K-Aqua tinka Jums?",
+    "cmIntro": "Penki atviri klausimai apie darbo procesus ir kasdienybę gamyboje. Tai ne asmenybės testas, o realybės patikrinimas.",
+    "cmStart": "Pradėti testą",
+    "qLabel": "Klausimas",
+    "cmQ": [
+      {
+        "q": "Kaip jums labiausiai patinka dirbti?",
+        "o": [
+          "Aiškūs procesai, darni komanda",
+          "Kiekvieną dieną išbandyti ką nors naujo"
+        ]
+      },
+      {
+        "q": "Vyksta masinė gamyba. Mašina praneša apie nuokrypį.",
+        "o": [
+          "Iš karto pažiūrėti ir rasti priežastį",
+          "Iš pradžių leisti dirbti toliau"
+        ]
+      },
+      {
+        "q": "Kas jus labiau motyvuoja?",
+        "o": [
+          "Produktas, kuris tarnauja 50 metų",
+          "Greiti, matomi rezultatai"
+        ]
+      },
+      {
+        "q": "Pamaininis darbas jums yra ...",
+        "o": [
+          "Planuojamas ir priimtinas",
+          "Gana sudėtingas dalykas"
+        ]
+      },
+      {
+        "q": "Jūsų santykis su technologijomis?",
+        "o": [
+          "Noriu suprasti, kaip viskas veikia",
+          "Svarbiausia, kad veiktų"
+        ]
+      }
+    ],
+    "resHigh": "Stiprus atitikimas. Tikslumas, patikimumas ir technologijų supratimas: būtent tai, ko mums reikia.",
+    "resMid": "Geras atitikimas. Geriausia tiesiog paskambinti ir aptarti kasdienio darbo detales.",
+    "resLow": "Sąžiningas rezultatas: K-Aqua gamybos aplinka gali nebūti tinkamiausia. Pardavimų ar administracijos sritis galbūt tiktų labiau.",
+    "sendApp": "Siųsti paraišką",
+    "again": "Bandyti dar kartą"
+  },
+  "contact": {
+    "eyebrow": "Kontaktai",
+    "title1": "Pasikalbėkime apie Jūsų",
+    "titleGrad": "projektą.",
+    "locTitle": "Būstinė Vokietijoje",
+    "salesTitle": "Pardavimai",
+    "supportTitle": "Kokybė ir techninis palaikymas",
+    "supportText": "Aptarkime jūsų projektą. Mūsų palaikymo komanda padės visais techniniais klausimais susijusiais su planavimu, medžiagomis ir montavimu."
+  },
+  "imprint": {
+    "eyebrow": "Teisinė informacija",
+    "title": "Impressum",
+    "rows": [
+      [
+        "Įmonė",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Vadovybė",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Registrų teismas",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Būstinė",
+        "Waldsolms"
+      ],
+      [
+        "PVM kodas",
+        "DE 296238486"
+      ],
+      [
+        "Telefonas / Faksas",
+        "+49 (0)60 85 / 9868-410 · Faksas -420"
+      ],
+      [
+        "El. paštas",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Produktų paieška",
+    "title1": "Jokių PDF dykumų.",
+    "titleGrad": "Iškart duomenys.",
+    "lead": "Vietoj 220 puslapių katalogų: filtruokite visą PP-R/PPRCT sistemą interaktyviai. Matmenys, slėgio klasė, sienelės storis, viskas gyvai.",
+    "type": "Produkto tipas",
+    "types": {
+      "mono": "PP-R vieno sluoksnio",
+      "fiber": "PPRCT pluošto kompozitas (GF)",
+      "fitting": "Formuotos detalės"
+    },
+    "sdr": "Slėgio klasė (SDR)",
+    "maxD": "Maks. išorinis skersmuo",
+    "upTo": "iki",
+    "maxDAria": "Maksimalus išorinis skersmuo milimetrais",
+    "found": "Rasti produktai. Kiekvienas rodomas su sienelės storiu, vidiniu skersmeniu ir slėgiu.",
+    "catalog": "Katalogas (PDF)",
+    "tableHead": [
+      "Tipas",
+      "d (mm)",
+      "SDR",
+      "Sienelė (mm)",
+      "di (mm)",
+      "Vardinis slėgis"
+    ],
+    "more": "+ {n} kitų. Susiaurinkite filtrus, kad pamatytumėte pilną sąrašą.",
+    "none": "Nerasta atitikmenų. Atleiskite filtrus.",
+    "nextEyebrow": "Mąstymas į priekį",
+    "nextTitle": "Kaip tai draugiška klimatui?",
+    "nextLead": "Perduokite matmenis tiesiogiai į CO₂ skaičiuoklę ir palyginkite su variu, nerūdijančiu plienu ir PVC.",
+    "nextCta": "Į CO₂ skaičiuoklę"
+  },
+  "trustAndCases": {
+    "eyebrow": "Pasitikėjimas",
+    "title": "Sertifikuota kokybė.",
+    "lead": "Patikimumas ir tarptautiniai projektai.",
+    "trustTitle": "Sertifikatai",
+    "iso9001": "ISO 9001",
+    "iso14001": "ISO 14001",
+    "iso50001": "ISO 50001",
+    "madeInGermany": "Pagaminta Vokietijoje",
+    "case1Title": "Projektas 1",
+    "case1Desc": "Aprašymas 1",
+    "case2Title": "Projektas 2",
+    "case2Desc": "Aprašymas 2",
+    "case3Title": "Projektas 3",
+    "case3Desc": "Aprašymas 3"
+  },
+  "co2": {
+    "guideText": "CO2 vadovas",
+    "eyebrow": "CO2",
+    "title1": "Skaičiuoklė",
+    "titleGrad": "Ekologija",
+    "lead": "Apskaičiuokite sutaupymus.",
+    "tabGeometry": "Geometrija",
+    "tabFlow": "Srautas",
+    "tabEnvironment": "Aplinka",
+    "tabLogistics": "Logistika",
+    "dia": "Skersmuo",
+    "length": "Ilgis",
+    "sdrClass": "SDR",
+    "velocity": "Greitis",
+    "velocityDesc": "Turi įtakos slėgiui.",
+    "fluidTemp": "Temperatūra",
+    "ambientTemp": "Aplinkos temp.",
+    "insulation": "Izoliacija",
+    "insulationNone": "Nėra",
+    "insulationBasic": "Bazinė",
+    "insulationStandard": "Standartinė",
+    "insulationPremium": "Premium",
+    "installMethod": "Montavimo būdas",
+    "installBuilding": "Pastate",
+    "installTrench": "Tranšėjoje",
+    "installTrenchless": "Be tranšėjos",
+    "installDesc": "Emisijos.",
+    "lifespan": "Tarnavimo laikas",
+    "lifespanDesc": "Tarnavimo laiko informacija.",
+    "energyMixLabel": "Energijos miksas",
+    "transportKm": "Transporto atstumas (km)",
+    "co2Savings": "CO2 sutaupymai",
+    "co2SavingsDesc": "Palyginus su alternatyva.",
+    "costSavings": "Išlaidų sutaupymai",
+    "costSavingsDesc": "LCC santaupos.",
+    "lcaPhases": "LCA fazės",
+    "phaseA13": "A1-A3",
+    "phaseA45": "A4-A5",
+    "phaseB": "B",
+    "phaseC": "C",
+    "moduleD": "D modulis:",
+    "costAnalysis": "Išlaidų analizė",
+    "costMaterial": "Medžiagos",
+    "costInstall": "Montavimas",
+    "costOperation": "Veikimas",
+    "costMaintenance": "Priežiūra",
+    "costTotal": "Viso",
+    "certTitle": "Sertifikuota ataskaita",
+    "certDesc": "Ataskaitos aprašymas.",
+    "certBtn": "Generuoti PDF",
+    "generating": "Generuojama...",
+    "energyGreen": "Žalioji",
+    "energyDe": "DE-Miksas",
+    "energyEu": "EU-Miksas",
+    "energyGlobal": "Globalus miksas",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Varis",
+      "steel": "Plienas",
+      "pex": "PEX",
+      "pehd": "PEHD",
+      "castiron": "Ketus"
+    },
+    "project": "Projektas",
+    "advanced": "Išplėstiniai parametrai",
+    "tempMode": "Temperatūros režimas",
+    "tempCold": "Šaltas",
+    "tempHot": "Karštas",
+    "recycle": "Perdirbimas",
+    "disclaimer": "Informacija apskaičiuota...",
+    "savedLabel": "Sutaupyta vs alternatyva",
+    "savedBody1": "Prilygsta",
+    "trees": "medžiams",
+    "or": "arba",
+    "carKm": "automobilių km",
+    "compareTitle": "Palyginimas",
+    "phases": {
+      "a13": "A1-A3",
+      "a4": "A4",
+      "b": "B",
+      "c": "C"
+    },
+    "auditor": "Auditorius",
+    "auditorBody": "Duomenys auditoriams",
+    "trustLink": "Patikimumo centras",
+    "downloadPdf": "Atsisiųsti",
+    "lcaLogistics": "Logistika",
+    "energyMix": "Miksas",
+    "transportMode": "Transporto būdas",
+    "transportTruck": "Sunkvežimis",
+    "transportShip": "Laivas",
+    "transportAir": "Lėktuvas",
+    "phaseProduction": "Gamyba",
+    "phaseTransport": "Transportas",
+    "phaseOperation": "Operacija",
+    "phaseEol": "Pabaiga"
+  },
+  "trust": {
+    "eyebrow": "Patikimumo centras",
+    "title1": "Pasitikėjimas yra",
+    "titleGrad": "išmatuojamas.",
+    "lead": "Sertifikatai, GENAU sistema ir dokumentai - atsisiuntimui.",
+    "certs": [
+      ["ISO 9001:2015", "Kokybės valdymas"],
+      ["ISO 14001:2015", "Aplinkos apsauga"],
+      ["ISO 50001:2018", "Energijos valdymas"]
+    ],
+    "accred": "DAkkS akredituota",
+    "certNo": "Sertifikato Nr.",
+    "valid": "Galioja",
+    "download": "Atsisiųsti",
+    "genauEyebrow": "GENAU sistema",
+    "genauTitle": "Penkios raidės. Viena sistema.",
+    "genauLead": "GENAU valdymo sistema.",
+    "genau": [
+      ["Sveikata", "Darbuotojų apsauga."],
+      ["Energija", "Efektyvumas."],
+      ["Tvarumas", "Perdirbimas."],
+      ["Saugumas", "Rizikų prevencija."],
+      ["Aplinka", "ISO 14001."]
+    ],
+    "rfpEyebrow": "Savitarna",
+    "rfpTitle": "RFP dokumentų paketas.",
+    "rfpLead": "Susidarykite savo auditų paketą.",
+    "docs": [
+      "ISO 9001", "ISO 14001", "ISO 50001", "GENAU", "Geriamojo vandens atitiktis", "EPD", "GAEB", "Kokybės vadovas"
+    ],
+    "inPackage": "Dokumentai pakete.",
+    "pickLeft": "Pasirinkite kairėje.",
+    "requestZip": "Gauti ZIP archyvą:",
+    "requestBtn": "Prašyti paketo",
+    "mailSubject": "RFP paketas",
+    "mailBody": "Prašau atsiųsti dokumentus:",
+    "scope3": "Scope-3 emisijų duomenys pagal užklausą."
+  },
+  "partner": {
+    "eyebrow": "Partnerystė",
+    "title1": "Du prekės ženklai.",
+    "titleGrad": "Vienas požiūris.",
+    "lead": "Ilgametė K-Aqua ir KESSEL partnerystė.",
+    "onionAria": "Partnerystės modelis",
+    "rings": [
+      { "l": "Prekės ženklas", "t": "KESSEL", "d": "Premium gamintojas." },
+      { "l": "Sistema", "t": "K Aqua", "d": "Lyderis vandentiekyje." },
+      { "l": "Aptarnavimas", "t": "Ekosistema", "d": "Bendra pagalba planuotojams." }
+    ],
+    "whyEyebrow": "Kodėl PP-R",
+    "whyTitle": "Produkto pranašumas.",
+    "cards": [
+      { "t": "Be korozijos", "d": "Imunitetas korozijai." },
+      { "t": "Terminis efektyvumas", "d": "Minimalūs šilumos nuostoliai." },
+      { "t": "Higiena", "d": "Jokių bakterijų." }
+    ]
+  }
+}

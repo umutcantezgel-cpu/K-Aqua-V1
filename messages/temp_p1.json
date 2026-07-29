@@ -1,0 +1,81 @@
+{
+  "narrative": {
+    "sizeRange": "This component is manufactured in a comprehensive nominal size range from compact {minSize} mm to a substantial {maxSize} mm, ensuring maximum versatility in various installation scenarios.",
+    "sizeSpecific": "This component is precisely designed for a specific nominal size of {minSize} mm, offering targeted performance for specialized piping architectures.",
+    "weights": "Material efficiency is optimized across the entire range, with unit weights scaling from {minWeight} kg to {maxWeight} kg depending on the selected dimension.",
+    "packaging": "Logistics are optimized by standardized packaging units designed for safe global transport and efficient handling on the construction site.",
+    "rowCount": "Our technical portfolio offers this configuration in {count} highly specialized dimensional variants, precisely scaled to meet the hydraulic and mechanical requirements of modern fluid transport systems.",
+    "intro": "The product {title} forms a cornerstone of K Aqua's high-performance fluid management solutions. Officially cataloged under the article numbers {codes}, each variant undergoes strict quality assurance protocols in our German production facilities before delivery.",
+    "outro": "By employing advanced polymer processing techniques, the geometric precision of {title} guarantees optimal flow characteristics, minimizes pressure losses, and completely eliminates the risk of limescale deposits or corrosion over the entire service life. This uncompromising dedication to material science ensures that every connection maintains absolute integrity even under extreme thermal and pressure fluctuations. Whether used in high-rise residential buildings, critical healthcare facilities, or demanding industrial processing plants, this product delivers maintenance-free reliability that engineers and installers can trust blindly."
+  },
+  "uniqueProductContext": "The product {title} is an essential part of the K Aqua {category} range. Designed for maximum durability and seamless integration, it meets the highest international standards for modern piping and plumbing applications. You can identify and order this specific product using the article number(s): {codes}. For further documentation or support, please contact our technical team.",
+  "heroDesc": "Discover the specifications, dimensions, and areas of application. For detailed information, download the Technical Data Sheet.",
+  "articleNumbers": "Article Numbers",
+  "technicalSpecs": "Technical Specifications",
+  "eyebrow": "Products",
+  "videoGuide": "K Aqua Video Guide",
+  "localAvailability": "Local Availability",
+  "localDesc": "Find local distributors, specific approvals, and standards for your region.",
+  "allMarkets": "View all 50+ markets",
+  "title1": "PP-R/PPRCT Pipes & Fittings for",
+  "titleGrad": "Drinking Water.",
+  "lead": "A complete K-Aqua PP-R piping system for hot and cold drinking water, from the pipe to the fitting to the welding technology. Four building blocks, one system.",
+  "ctaCatalog": "Product Catalog (PDF)",
+  "ctaVideos": "Installation Videos",
+  "sysEyebrow": "The System",
+  "sysTitle": "K-Aqua PP-R Pipes & Fittings: Four building blocks, one system.",
+  "range": [
+    {
+      "t": "Pipes: Mono & Multilayer",
+      "d": "Monolayer and glass-fiber reinforced multilayer pipes in SDR 6, 7.4, 9, 11, and 17. Dimensions from 20 mm to 630 mm."
+    },
+    {
+      "t": "Fittings & Valves",
+      "d": "Fittings from 20 mm to 315 mm, complemented by valves, unions, and transition pieces."
+    },
+    {
+      "t": "Welding Technology & Tools",
+      "d": "Cutting tools, welding devices, and welding machines for socket, butt, and electrofusion welding processes."
+    },
+    {
+      "t": "Hot & Cold Water",
+      "d": "Designed for drinking water, hot and cold, with high temperature and pressure resistance over decades."
+    }
+  ],
+  "techEyebrow": "Technical Data",
+  "techTitle": "Dimensions & Pressure Ratings",
+  "techLead": "Depending on the pipe type from 20 mm to 630 mm, fittings up to 315 mm.",
+  "ctaFeatures": "Product Features (PDF)",
+  "tableHead": [
+    "Component",
+    "Dimension",
+    "Pressure Ratings"
+  ],
+  "tableRows": [
+    [
+      "Monolayer Pipes",
+      "20, 630 mm",
+      "SDR 6 / 7.4 / 9 / 11 / 17"
+    ],
+    [
+      "Multilayer Pipes (GF-reinforced)",
+      "20, 630 mm",
+      "SDR 6 / 7.4 / 9 / 11 / 17"
+    ],
+    [
+      "Fittings",
+      "20, 315 mm",
+      "system compatible"
+    ],
+    [
+      "Valves & Unions",
+      "system dependent",
+      "-"
+    ],
+    [
+      "Welding Technology & Tools",
+      "all dimensions",
+      "-"
+    ]
+  ]
+}

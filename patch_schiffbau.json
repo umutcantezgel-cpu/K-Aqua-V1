@@ -1,0 +1,14 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Patch schiffbau",
+  "Description": "Patch schiffbau",
+  "ReplacementChunks": [
+    {
+      "StartLine": 7192,
+      "EndLine": 7193,
+      "AllowMultiple": false,
+      "TargetContent": "    \"schiffbau\": {\n      \"metaTitle\": \"Ladjedelniška infrastruktura\",",
+      "ReplacementContent": "    \"schiffbau\": {\n      \"heroBadge\": \"Nemški inženiring. Globalni vpliv.\",\n      \"metaTitle\": \"Ladjedelniška infrastruktura\","
+    }
+  ]
+}

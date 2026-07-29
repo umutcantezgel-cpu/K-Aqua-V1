@@ -1,0 +1,318 @@
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Drikkevannsforskriften (TrinkwV)",
+      "water": "Hardt vann (14–20 °dH): korrosjonsfri PP-R/PPRCT forhindrer kalkbelegg på ru metalloverflater.",
+      "focus": [
+        "Stigerør i høyhus (Finansdistriktet)",
+        "Renovering av hotell og kontor",
+        "Kjølevann for datasentre"
+      ],
+      "note": "I Rhein-Main-området leverer K Aqua fra fabrikken i Waldsolms, ofte samme dag.",
+      "focusHeading": "Typiske prosjekter i Frankfurt am Main"
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Middels hardt vann fra elvebreddsfiltrering: hygienisk nøytralitet i PP forhindrer biofilmdannelse i store nettverk.",
+      "focus": [
+        "Nybygg av boligområder",
+        "Skole- og administrasjonsbygg",
+        "Sanering av eldre bygninger"
+      ],
+      "note": "Store prosjekter i hovedstadsregionen leveres via logistikkpartnere innen 24 timer.",
+      "focusHeading": "Typiske prosjekter i Berlin"
+    },
+    "muenchen": {
+      "regulator": "DVGW / TrinkwV, SWM",
+      "water": "Mykt alpevann med lav pH-margin: PP er motstandsdyktig der kobber møter økt løselighet.",
+      "focus": [
+        "Premium boligbygging",
+        "Klinikk- og laboratoriebygg",
+        "Bryggeri- og prosessvann"
+      ],
+      "note": "Sør-Tyskland-logistikk over natten; sveiseteknikk-opplæring kan bestilles på stedet.",
+      "focusHeading": "Typiske prosjekter i München"
+    },
+    "hamburg": {
+      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+      "water": "Mykt til middels hardt grunnvann: smaksnøytrale PP-systemer opprettholder den høye råvannskvaliteten.",
+      "focus": [
+        "HafenCity nybygg",
+        "Hotellvirksomhet",
+        "Maritim forsyningsteknikk"
+      ],
+      "note": "Nord-Tyskland fra lager; store dimensjoner d250+ prosjektbasert direkte fra ekstrudering.",
+      "focusHeading": "Typiske prosjekter i Hamburg"
+    },
+    "wien": {
+      "regulator": "ÖVGW / Drikkevannsforskriften (AT)",
+      "water": "Høykildevann av utmerket kvalitet: verdibevaring gjennom absolutt inerte rørmaterialer.",
+      "focus": [
+        "Sanering av kommunale boliger",
+        "Hotell- og næringsprosjekter",
+        "Underfordeling for fjernvarme"
+      ],
+      "note": "EUs indre marked: ingen tollformaliteter, levering på 48 timer.",
+      "focusHeading": "Typiske prosjekter i Wien"
+    },
+    "zuerich": {
+      "regulator": "SVGW / TBDV",
+      "water": "Blanding av sjø- og kildevann: Sveitsiske hygienekrav krever testet materialnøytralitet.",
+      "focus": [
+        "Høykost boligbygging",
+        "Bank- og kontorsanering",
+        "Sykehusbygging"
+      ],
+      "note": "Eksportbehandling inkludert sveitsiske samsvarsbevis fra én enkelt kilde.",
+      "focusHeading": "Typiske prosjekter i Zürich"
+    },
+    "london": {
+      "regulator": "WRAS: Water Regulations Approval Scheme",
+      "water": "Svært hardt vann (Themsen-bekkenet): PPRCT forblir fri for kjelstein og innsnevring av tverrsnitt.",
+      "focus": [
+        "High-Rise Residential",
+        "Heritage-renovering",
+        "Distriktsomfattende varmtvannsnett"
+      ],
+      "note": "WRAS-kompatibel dokumentasjon og engelskspråklige datablader er tilgjengelige.",
+      "focusHeading": "Typiske prosjekter i London"
+    },
+    "paris": {
+      "regulator": "ACS: Attestation de Conformité Sanitaire",
+      "water": "Hardt Seine-vann med kalkinnhold: glatte innvendige PP-overflater holder trykktapene konstante over tiår.",
+      "focus": [
+        "Grand Paris boligområder",
+        "Hotell- og monumentrenovering",
+        "Etterbruk av OL-anlegg"
+      ],
+      "note": "ACS-samsvarsbevis og franske installasjonsretningslinjer er inkludert i leveransen.",
+      "focusHeading": "Typiske prosjekter i Paris"
+    },
+    "mailand": {
+      "regulator": "DM 174/2004 (Drikkevannskontakt, IT)",
+      "water": "Grunnvann fra Po-sletten med høy hardhet: systemer frie for inkrustasjon reduserer vedlikeholdskostnadene merkbart.",
+      "focus": [
+        "Høyhus-klyngen Porta Nuova",
+        "Mote- og detaljhandel flaggskip",
+        "Industri i Nord-Italia"
+      ],
+      "note": "Alpetransitt-logistikk 48–72 timer; italienske dokumenter tilgjengelige.",
+      "focusHeading": "Typiske prosjekter i Milano"
+    },
+    "warschau": {
+      "regulator": "PZH-Hygienesertifikat (Państwowy Zakład Higieny)",
+      "water": "Wisla-elvebreddsfiltrering: raskt voksende boligmarked med stort behov for systemer som kan installeres raskt.",
+      "focus": [
+        "Nybygg av boligkvarterer",
+        "Logistikk- og industrihaller",
+        "Modernisering av prefabrikkerte blokker"
+      ],
+      "note": "EU-logistikk 24–48 timer; polskspråklige behandlingsretningslinjer tilgjengelig.",
+      "focusHeading": "Typiske prosjekter i Warszawa"
+    },
+    "prag": {
+      "regulator": "SZÚ-Hygienegodkjenning (CZ)",
+      "water": "Vltava-demningsvann: stabil kvalitet, sterkt renoveringsmarked i bygninger fra gründer-tiden.",
+      "focus": [
+        "Rørsanering i eldre bygninger",
+        "Hotellvirksomhet",
+        "Bilindustriens underleverandører"
+      ],
+      "note": "Nabomarked fra fabrikk: levering på 24 timer, teknisk støttelinje på tysk og engelsk.",
+      "focusHeading": "Typiske prosjekter i Praha"
+    },
+    "dubai": {
+      "regulator": "DEWA: Dubai Electricity & Water Authority",
+      "water": "Avsaltet sjøvann med høy kloridbelastning og kontinuerlige temperaturer >30 °C: kjernescenariet for PPRCT temperaturreserver.",
+      "focus": [
+        "Super-High-Rise-tårn",
+        "Hotell-resorter",
+        "District Cooling Make-up"
+      ],
+      "note": "Sjøfrakt (FCL) fra Hamburg; stumpsveisingsovervåking på byggeplassen kan bestilles.",
+      "focusHeading": "Typiske prosjekter i Dubai"
+    },
+    "abudhabi": {
+      "regulator": "DoE Abu Dhabi / Estidama",
+      "water": "Avsaltet vann med etterherding: Estidama-bærekraftspoeng belønner resirkulerbare rørmaterialer.",
+      "focus": [
+        "Regjerings- og kulturbygg",
+        "Saadiyat-resorter",
+        "Industrisoner KIZAD"
+      ],
+      "note": "Pearl-Rating-dokumentasjon (materialtransparens) er vedlagt tilbudet.",
+      "focusHeading": "Typiske prosjekter i Abu Dhabi"
+    },
+    "doha": {
+      "regulator": "Kahramaa: Qatar General Electricity & Water Corp.",
+      "water": "99 % avsaltet vann, nettemperaturer opp til 40 °C om sommeren: langvarig trykkmotstand er det sentrale utvalgskriteriet.",
+      "focus": [
+        "Lusail byutvikling",
+        "Etterbruk av stadioner",
+        "Hospitality"
+      ],
+      "note": "QCS-kompatible innleveringsdokumenter og tredjeparts testrapporter tilgjengelig.",
+      "focusHeading": "Typiske prosjekter i Doha"
+    },
+    "riad": {
+      "regulator": "SASO / Saudi Water Authority",
+      "water": "Blanding av avsalting (SWCC-rørledninger) og fossilt grunnvann: ekstrem sommervarme krever PPRCT-reserver.",
+      "focus": [
+        "Vision-2030 Giga-prosjekter",
+        "King Salman Park",
+        "Utvidelser av boligbyer"
+      ],
+      "note": "SASO-testing og SABER-registrering leveres prosjektspesifikt.",
+      "focusHeading": "Typiske prosjekter i Riyadh"
+    },
+    "dschidda": {
+      "regulator": "SASO / SWCC",
+      "water": "Rødehavet-avsalting med høy saltinnhold i miljøet: absolutt frihet fra korrosjon er et avgjørende kriterium mot metall her.",
+      "focus": [
+        "Jeddah Central Project",
+        "Havne- og logistikkbygg",
+        "Pilegrims-hospitality (Makkah-korridoren)"
+      ],
+      "note": "Sjøfrakt direkte til Jeddah Islamic Port; arabiskspråklige datablader er under utarbeid.",
+      "focusHeading": "Typiske prosjekter i Jeddah"
+    },
+    "neom": {
+      "regulator": "NEOM Authority / SASO",
+      "water": "100 % fornybart drevet avsalting planlagt. Prosjektet krever fullstendig resirkulerbare materialer: Resirkuleringskode 5 inkludert.",
+      "focus": [
+        "Lineærby-infrastruktur",
+        "Oxagon industrihavn",
+        "Trojena fjellresorter"
+      ],
+      "note": "Tidlig planleggingsfase: K Aqua støtter med EPD-data og parametriske rørnettmodeller.",
+      "focusHeading": "Typiske prosjekter i NEOM / The Line"
+    },
+    "kuwait": {
+      "regulator": "MEW: Ministry of Electricity & Water",
+      "water": "Avsaltet gulfvann, blandet med brakkvann: kloridresistente plastsystemer er standardanbefalingen.",
+      "focus": [
+        "Silk City-planlegging",
+        "Boligbyer (PAHW)",
+        "Medfølgende infrastruktur for olje og gass"
+      ],
+      "note": "MEW prekvalifisering via lokale partnere; levering via Shuwaikh Port.",
+      "focusHeading": "Typiske prosjekter i Kuwait by"
+    },
+    "maskat": {
+      "regulator": "Nama Water Services (tidligere Diam)",
+      "water": "Avsalting pluss Aflaj-tradisjon: Oman belønner holdbare systemer med lite vedlikehold i offentlige anbud.",
+      "focus": [
+        "Havnebyen Duqm",
+        "Hotell- og turismeprosjekter",
+        "Moskeer og kulturbygg"
+      ],
+      "note": "GCC-logistikk-korridor via Jebel Ali; teknisk godkjenning i henhold til Nama-protokollen.",
+      "focusHeading": "Typiske prosjekter i Muskat"
+    },
+    "manama": {
+      "regulator": "EWA: Electricity & Water Authority",
+      "water": "Fullt avsaltet nettverk med høye sommertemperaturer: PPRCT opprettholder trykkreserven der PVC eldes.",
+      "focus": [
+        "Bahrain Bay",
+        "Renovering av finansdistrikt",
+        "Øyutviklinger"
+      ],
+      "note": "Kompakt marked med korte avstander: komplette pakker inkludert utleie av sveiseteknologi.",
+      "focusHeading": "Typiske prosjekter i Manama"
+    },
+    "amman": {
+      "regulator": "WAJ: Water Authority of Jordan / Miyahuna",
+      "water": "Et av de mest vannfattige landene i verden. Lekkasjefrie sveiseskjøter er aktiv vannsparepolitikk (Non-Revenue Water < 2 %).",
+      "focus": [
+        "Disi-Pipeline-undernett",
+        "Sykehus- og universitetsbygg",
+        "Infrastruktur for flyktningebyer"
+      ],
+      "note": "Utviklingsbank-finansierte prosjekter: K Aqua leverer anbudskompatibel dokumentasjon.",
+      "focusHeading": "Typiske prosjekter i Amman",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "kairo": {
+      "regulator": "HCWW: Holding Company for Water & Wastewater",
+      "water": "Nilvann med sesongmessig uklarhet: glatte PP-overflater minimerer avleiringer i husinstallasjonen.",
+      "focus": [
+        "New Administrative Capital",
+        "Boligbyer (NUCA)",
+        "Hotellkorridoren langs Rødehavet"
+      ],
+      "note": "EOS-registrering via lokale partnere; middelhavssjøfrakt fra Hamburg 10–14 dager.",
+      "focusHeading": "Typiske prosjekter i Kairo",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplexe, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "istanbul": {
+      "regulator": "İSKİ / TSE-Testing",
+      "water": "Damvann med sesongmessige svingninger: jordskjelvsikkert, duktilt rørutforming er et planleggingskriterium.",
+      "focus": [
+        "Hotellkomplekser",
+        "Høyhus boliger",
+        "Nye sykehusbygninger"
+      ],
+      "note": "Fleksible forsyningskjeder over land (5–7 dager) eller sjøfrakt.",
+      "focusHeading": "Typiske prosjekter i Istanbul",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "singapur": {
+      "regulator": "PUB: Public Utilities Board",
+      "water": "NEWater og avsaltet vann, tropisk kontinuerlig varme: de høyeste kravene til langvarig trykkmotstand.",
+      "focus": [
+        "Offentlige boliger (HDB)",
+        "Marina-høyhus",
+        "Halvleder forberedende trinn for ultrarent vann"
+      ],
+      "note": "Sjøfrakt fra Hamburg; komplette PUB innleveringsdokumenter tilgjengelig.",
+      "focusHeading": "Typiske prosjekter i Singapore",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "kualalumpur": {
+      "regulator": "SPAN: National Water Services Commission",
+      "water": "Tropisk overflatevann, høy luftfuktighet: UV- og aldringsbestandige systemer er standard.",
+      "focus": [
+        "TRX-Finansdistrikt",
+        "Blandingsbruk-tårn",
+        "Industrikorridor Johor"
+      ],
+      "note": "SPAN-oppføring via distribusjonspartnere; ASEAN-knutepunkt for regionen.",
+      "focusHeading": "Typiske prosjekter i Kuala Lumpur",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "mumbai": {
+      "regulator": "BIS: Bureau of Indian Standards",
+      "water": "Monsun-dominert damforsyning med intervalldrift: trykkstøtbestandige sveiseskjøter teller dobbelt.",
+      "focus": [
+        "Høyhus-ombygging",
+        "Sykehus- og farmasøytisk konstruksjon",
+        "Smart Cities Program"
+      ],
+      "note": "BIS-samsvar prosjektbasert; teknisk opplæring eksternt og på stedet.",
+      "focusHeading": "Typiske prosjekter i Mumbai",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "kapstadt": {
+      "regulator": "SABS / SANS standarder",
+      "water": "Vannmangel etter \"Day Zero\": lekkasjefrie sveiseskjøter er vannsparepolitikk her.",
+      "focus": [
+        "Sykehus- og hotellbygg",
+        "Township-infrastruktur",
+        "Vingård prosessvann"
+      ],
+      "note": "Prosjektvirksomhet med lokalt partnernettverk; opplæring av sveiseteam inkludert.",
+      "focusHeading": "Typiske prosjekter i Cape Town",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    },
+    "nairobi": {
+      "regulator": "KEBS: Kenya Bureau of Standards",
+      "water": "Blanding av demning og grunnvann i en raskt voksende metropol: robuste tilkoblingsteknologier som er enkle å trene er etterspurt.",
+      "focus": [
+        "Rimelig bolig-program",
+        "Tatu City",
+        "Sykehus- og utdanningsbygg"
+      ],
+      "note": "Øst-Afrika Hub: Levering via Mombasa; sveisetrening som kapasitetsbygging.",
+      "focusHeading": "Typiske prosjekter i Nairobi",
+      "extendedMarketText": "Den urbane infrastrukturen i denne regionen stiller spesielle krav til holdbarheten og påliteligheten til rørsystemer. Med ekstreme klimatiske forhold og høye krav til vannhygiene gir PP-R- og PPRCT-løsninger fra K-Aqua en avgjørende fordel. Tradisjonelle metallrør lider ofte av korrosjon og mineralavleiringer, noe som fører til betydelige trykktap og vannsvinn gjennom lekkasjer. K-Aqua systemer garanterer derimot en helt tett, vedlikeholdsfri installasjon i over 50 år takket være deres korrosjonsfrie materialegenskaper og homogene polyfusjonssveising. I tillegg muliggjør den glatte indre overflaten optimale hydrauliske strømningsegenskaper, noe som drastisk reduserer energibehovet for sirkulasjonspumper. Disse faktorene gjør K-Aqua til det foretrukne valget for store hotellkomplekser, sykehus, industrielle kjølesystemer og krevende boligprosjekter i bysektoren."
+    }
+  }

@@ -1,0 +1,247 @@
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
+      "water": "Közép-hesseni vízellátás: magas minőségi követelmények, hangsúly a tartós, korróziómentes és karbantartásmentes rendszereken az ivóvízhálózatokban.",
+      "focus": [
+        "Kereskedelmi magasépítés (pl. Mainhattan)",
+        "Repülőtéri és logisztikai infrastruktúra",
+        "Ipari üzemek a Rajna-Majna vidéken"
+      ],
+      "note": "A Waldsolms-i gyár közelsége garantálja a legrövidebb szállítási utakat és az azonnali gyártói támogatást.",
+      "focusHeading": "Typische Projekte in Frankfurt am Main"
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Vegyes vízellátás (talajvíz és felszíni víz): a mészlerakódásokkal szembeni ellenálló képesség és a rugalmasság a régi hálózatok felújításánál döntő jelentőségű.",
+      "focus": [
+        "Középületek és minisztériumok",
+        "Kórházépítés (pl. Charité bővítések)",
+        "Városi lakóépületek felújítása"
+      ],
+      "note": "Nagykereskedelmi és közvetlen szállítási logisztika kiterjedt projekttámogatással.",
+      "focusHeading": "Typische Projekte in Berlin"
+    },
+    "muenchen": {
+      "regulator": "DVGW / TrinkwV, SWM",
+      "water": "Magas vízkeménység az Elő-Alpokból (Mangfall-völgy): a vízkőlerakódás megakadályozása a csövekben és idomokban elengedhetetlen.",
+      "focus": [
+        "Technológiai ipari központok",
+        "Élvonalbeli orvostudományi és kutatási létesítmények",
+        "Exkluzív lakóépületek"
+      ],
+      "note": "Nagy sűrűségű bajorországi telepítői hálózat KESSEL-szinergiákkal (Lenting).",
+      "focusHeading": "Typische Projekte in München"
+    },
+    "hamburg": {
+      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+      "water": "Kiváló minőségű talajvíz: fókusz a higiénián és a kikötői környezetben a sós víz közelsége miatti tartósságon.",
+      "focus": [
+        "Kikötővárosi fejlesztések (HafenCity)",
+        "Tengerészeti és hajógyári infrastruktúra",
+        "Nagy szállodai és turisztikai projektek"
+      ],
+      "note": "Exportközpont a nemzetközi szállításokhoz (tengeri árufuvarozás) és erős regionális értékesítés.",
+      "focusHeading": "Typische Projekte in Hamburg"
+    },
+    "wien": {
+      "regulator": "ÖVGW / Trinkwasserverordnung (AT)",
+      "water": "Első osztályú hegyi forrásvíz (Alpok): A higiénia és az ízsemlegesség megőrzése a legfontosabb (0,007 mm érdesség).",
+      "focus": [
+        "Önkormányzati lakásépítés és felújítás",
+        "Történelmi középületek modernizálása",
+        "Szálloda- és wellness szektor"
+      ],
+      "note": "Az osztrák piac zökkenőmentes kiszolgálása ÖNORM és DAkkS szabványokkal.",
+      "focusHeading": "Typische Projekte in Wien"
+    },
+    "zuerich": {
+      "regulator": "SVGW / TBDV",
+      "water": "Szigorú svájci higiéniai és környezetvédelmi szabványok: alacsony CO2-kibocsátás (EPD) és tanúsított biztonság (SVGW, ha alkalmazható).",
+      "focus": [
+        "Minőségi iroda- és pénzügyi épületek",
+        "Gyógyszeripari laboratóriumok",
+        "Luxus lakóparkok"
+      ],
+      "note": "Közvetlen szállítások Svájcba, beleértve a vámügyintézést és a helyi projektkísérést.",
+      "focusHeading": "Typische Projekte in Zürich"
+    },
+    "london": {
+      "regulator": "WRAS: Water Regulations Approval Scheme",
+      "water": "Öregedő városi infrastruktúra: az utólagos felszereléshez és az új építésekhez nagy tartósságra és szivárgásmentességre van szükség (WRAS konformitás).",
+      "focus": [
+        "Canary Wharf és City magasépítés",
+        "Egészségügyi ellátás (NHS projektek)",
+        "Tömegközlekedési csomópontok (pl. Crossrail)"
+      ],
+      "note": "UK specifikus tanúsítványok és metrikus/birodalmi átmenetek rendelkezésre állnak.",
+      "focusHeading": "Typische Projekte in London"
+    },
+    "paris": {
+      "regulator": "ACS: Attestation de Conformité Sanitaire",
+      "water": "Összetett vízellátó hálózat: a régi épületek és a modern (pl. Grand Paris Express) felújítások rugalmas csatlakozásokat igényelnek.",
+      "focus": [
+        "Nagy sport- és kulturális események infrastruktúrája",
+        "Kereskedelmi és divatközpontok",
+        "Banlieue revitalizációs projektek"
+      ],
+      "note": "Francia nyelvű műszaki dokumentáció (CSTB/NF minősítések).",
+      "focusHeading": "Typische Projekte in Paris"
+    },
+    "mailand": {
+      "regulator": "DM 174/2004 (Trinkwasserkontakt, IT)",
+      "water": "Észak-olaszországi ipari központ: robusztus megoldások az ipari vízhez és az ivóvízhez meleg éghajlaton.",
+      "focus": [
+        "Ipari és gyártó létesítmények",
+        "Divat- és tervező negyedek irodaépületei",
+        "Egészségügyi komplexumok"
+      ],
+      "note": "Kiszolgálás regionális forgalmazókon keresztül, dedikált projekttámogatással.",
+      "focusHeading": "Typische Projekte in Mailand"
+    },
+    "warschau": {
+      "regulator": "PZH-Hygienezertifikat (Państwowy Zakład Higieny)",
+      "water": "Erős modernizáció és növekedés: fókusz az energiahatékonyságon és a hosszú élettartamon az új negyedekben.",
+      "focus": [
+        "Modern üzleti és IT-parkok",
+        "Infrastrukturális korszerűsítés",
+        "Kiterjedt lakóövezetek"
+      ],
+      "note": "Erős jelenlét a kelet-európai növekedési piacon GAEB kompatibilis kiírásokkal.",
+      "focusHeading": "Typische Projekte in Warschau"
+    },
+    "prag": {
+      "regulator": "SZÚ-Hygienezulassung (CZ)",
+      "water": "Történelmi központ modern kiegészítésekkel: fókusz a megbízhatóságon és a rezgéselnyelésen a szállítmányozás/ipari területeken.",
+      "focus": [
+        "Történelmi épületek felújítása",
+        "Nagy turisztikai szállodák",
+        "Új ipari parkok a periférián"
+      ],
+      "note": "Közeli szállítási útvonalak és szoros műszaki együttműködés a tervezőkkel.",
+      "focusHeading": "Typische Projekte in Prag"
+    },
+    "dubai": {
+      "regulator": "DEWA: Dubai Electricity & Water Authority",
+      "water": "Színtiszta sótalanított tengervíz, extrém hőség, magas páratartalom: Maximális korrózióállóság, UV-stabilitás és PPRCT a magas hőmérsékletekhez.",
+      "focus": [
+        "Luxus szállodák és üdülők",
+        "Szuper magas felhőkarcolók (Super-talls)",
+        "Óriási bevásárlóközpontok és hűtőközpontok"
+      ],
+      "note": "Megbízható referenciák a Közel-Keleten; dedikált logisztika és helyszíni képzés.",
+      "focusHeading": "Typische Projekte in Dubai"
+    },
+    "abudhabi": {
+      "regulator": "DoE Abu Dhabi / Estidama",
+      "water": "Sótalanítás, víztakarékossági fókusz (Estidama): szivárgásmentesség (homogén hegesztés) elengedhetetlen a zöld épületekhez.",
+      "focus": [
+        "Kormányzati és adminisztratív komplexumok",
+        "Kulturális negyedek (pl. Saadiyat Island)",
+        "Nagy kórházi projektek"
+      ],
+      "note": "Közvetlen támogatás zöld épület minősítésekhez (EPD adatokkal).",
+      "focusHeading": "Typische Projekte in Abu Dhabi"
+    },
+    "doha": {
+      "regulator": "Kahramaa: Qatar General Electricity & Water Corp.",
+      "water": "Gyors növekedés, 100% sótalanítás: a legmagasabb megbízhatóság a sport-, oktatási és egészségügyi infrastruktúrában.",
+      "focus": [
+        "Sportlétesítmények és stadionok környéke",
+        "Oktatási város (Education City)",
+        "Fejlett egészségügyi központok"
+      ],
+      "note": "Projektek erős helyi jelenléttel és magas QA követelményekkel (ISO/DAkkS).",
+      "focusHeading": "Typische Projekte in Doha"
+    },
+    "riad": {
+      "regulator": "SASO / Saudi Water Authority",
+      "water": "Nagyszabású infrastrukturális átalakulás (Vision 2030): rendkívül forró klíma, igény a méretezhetőségre (d630-ig) és a megbízhatóságra.",
+      "focus": [
+        "Nagy lakó- és vegyes használatú (Mixed-use) projektek",
+        "Új pénzügyi központok (KAFD)",
+        "Infrastruktúra a metróhoz és közlekedéshez"
+      ],
+      "note": "SASO megfelelőség és jelentős kapacitások biztosítva a waldsolmsi gyárból.",
+      "focusHeading": "Typische Projekte in Riad"
+    },
+    "dschidda": {
+      "regulator": "SASO / SWCC",
+      "water": "Magas páratartalom és sótartalom a Vörös-tenger partján: A korróziómentes PP-R felváltja a hagyományos fémeket.",
+      "focus": [
+        "Tengerparti fejlesztések és luxusvillák",
+        "Logisztikai és kikötői létesítmények",
+        "Kereskedelmi tornyok"
+      ],
+      "note": "Fókuszban a tengerparti környezettel szembeni ellenálló képesség; helyi partnerek bevonásával.",
+      "focusHeading": "Typische Projekte in Dschidda"
+    },
+    "neom": {
+      "regulator": "NEOM Authority / SASO",
+      "water": "Futurisztikus mega-projekt, fókusz a 100%-os fenntarthatóságon és zöld energián: A körforgásos (újrahasznosítható) és EPD-igazolt PP-R kötelező.",
+      "focus": [
+        "THE LINE infrastruktúra",
+        "Oxagon ipari város",
+        "Trojena hegyi üdülő"
+      ],
+      "note": "A legmagasabb fenntarthatósági és innovációs szabványok; projektigazgatás Németországból.",
+      "focusHeading": "Typische Projekte in NEOM / The Line"
+    },
+    "kuwait": {
+      "regulator": "MEW: Ministry of Electricity & Water",
+      "water": "Erős hőingadozások, 100% sótalanítás: A hőtágulás kezelése (K-Fiber) kritikus a biztonság szempontjából.",
+      "focus": [
+        "Kormányzati és olajipari központok",
+        "Nagy egészségügyi városok",
+        "Egyetemi kampuszok"
+      ],
+      "note": "Helyi minisztériumi engedélyek (MEW stb.) támogatott beszerzése.",
+      "focusHeading": "Typische Projekte in Kuwait-Stadt"
+    },
+    "maskat": {
+      "regulator": "Nama Water Services (vormals Diam)",
+      "water": "Változó víznyomás, sótartalmú környezet: Robusztus hegesztési varratok (PN20) és UV-védelem elengedhetetlen a tetőtéri telepítéseknél.",
+      "focus": [
+        "Turisztikai és vendéglátóipari projektek",
+        "Lakóépület-fejlesztések",
+        "Repülőtér bővítések"
+      ],
+      "note": "A régió növekvő piaca, műszaki támogatással ellátva.",
+      "focusHeading": "Typische Projekte in Maskat"
+    },
+    "manama": {
+      "regulator": "EWA: Electricity & Water Authority",
+      "water": "Szigetállam magas sótartalommal, sótalanítás: Korrózióállóság a szálloda- és luxus szektorban.",
+      "focus": [
+        "Mesterséges szigetek fejlesztése",
+        "Pénzügyi kikötő épületek",
+        "Kereskedelmi központok"
+      ],
+      "note": "Szoros együttműködés a helyi fejlesztőkkel a specifikációtól a telepítésig.",
+      "focusHeading": "Typische Projekte in Manama"
+    },
+    "amman": {
+      "regulator": "WAJ: Water Authority of Jordan / Miyahuna",
+      "water": "Extrém vízhiány, vízellátás szivattyúzással és tartályokkal: Nulla szivárgás a legfontosabb prioritás a vízmegőrzés érdekében.",
+      "focus": [
+        "Központi kórházak (NGO/nemzeti)",
+        "Lakótömbök víztároló rendszerekkel",
+        "Önkormányzati vízelosztás"
+      ],
+      "note": "Oktatás és képzés a helyi szerelők számára a hibamentes telepítés érdekében.",
+      "focusHeading": "Tipikus projektek itt: Amman",
+      "extendedMarketText": "Ennek a régiónak a városi infrastruktúrája különleges követelményeket támaszt a csővezeték-rendszerek tartósságával és megbízhatóságával szemben. Az extrém éghajlati viszonyok és a víz higiéniájával szembeni magas követelmények miatt a K-Aqua PP-R és PPRCT megoldásai döntő előnyt jelentenek. A hagyományos fémcsövek gyakran szenvednek korróziótól és ásványi lerakódásoktól, ami jelentős nyomásveszteséghez és a szivárgások miatti vízpazarláshoz vezet. A K-Aqua rendszerek ezzel szemben korróziómentes anyaguknak és a homogén polifúziós hegesztésnek köszönhetően abszolút tömített, karbantartásmentes telepítést garantálnak több mint 50 évre. Ezenkívül a sima belső felület optimális hidraulikus áramlási tulajdonságokat tesz lehetővé, ami drasztikusan csökkenti a keringető szivattyúk energiaigényét. Ezek a tényezők teszik a K-Aqua-t az elsődleges választássá nagy szállodakomplexumok, kórházak, ipari hűtőrendszerek és igényes lakóépítési projektek számára a városi szektorban."
+    },
+    "kairo": {
+      "regulator": "HCWW: Holding Company for Water & Wastewater",
+      "water": "Nílusból származó víz és új városfejlesztések (Új Főváros): Hatalmas volumenigény (d630-ig) megbízható nyomásállósággal.",
+      "focus": [
+        "Új Közigazgatási Főváros épületei",
+        "Nagy kiterjedésű lakóparkok",
+        "Kulturális intézmények (Nagy Egyiptomi Múzeum)"
+      ],
+      "note": "Magas gyártási kapacitás Waldsolmsban biztosítja az időben történő szállítást.",
+      "focusHeading": "Tipikus projektek itt: Kairó",
+      "extendedMarketText": "Ennek a régiónak a városi infrastruktúrája különleges követelményeket támaszt a csővezeték-rendszerek tartósságával és megbízhatóságával szemben. Az extrém éghajlati viszonyok és a víz higiéniájával szembeni magas követelmények miatt a K-Aqua PP-R és PPRCT megoldásai döntő előnyt jelentenek. A hagyományos fémcsövek gyakran szenvednek korróziótól és ásványi lerakódásoktól, ami jelentős nyomásveszteséghez és a szivárgások miatti vízpazarláshoz vezet. A K-Aqua rendszerek ezzel szemben korróziómentes anyaguknak és a homogén polifúziós hegesztésnek köszönhetően abszolút tömített, karbantartásmentes telepítést garantálnak több mint 50 évre. Ezenkívül a sima belső felület optimális hidraulikus áramlási tulajdonságokat tesz lehetővé, ami drasztikusan csökkenti a keringető szivattyúk energiaigényét. Ezek a tényezők teszik a K-Aqua-t az elsődleges választássá nagy szállodakomplexumok, kórházak, ipari hűtőrendszerek és igényes lakóépítési projektek számára a városi szektorban."
+    },
+  },
+  "trust": {

@@ -1,0 +1,1292 @@
+{
+  "toggle_theme_light": "Chuyển sang giao diện sáng",
+  "toggle_theme_dark": "Chuyển sang giao diện tối",
+  "nav": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "finder": "Tìm kiếm sản phẩm",
+    "co2": "Máy tính CO₂",
+    "markets": "Thị trường",
+    "trust": "Trung tâm tin cậy",
+    "contact": "Liên hệ",
+    "quote": "Yêu cầu báo giá",
+    "menu": "Thực đơn",
+    "lang": "Ngôn ngữ",
+    "skipToContent": "Chuyển đến nội dung chính",
+    "menuPlaceholder": "Giữ chỗ (Mega-Menu)",
+    "academy": "Học viện",
+    "service": "Dịch vụ",
+    "about": "Về chúng tôi",
+    "solutions": "Giải pháp",
+    "partners": "Đối tác",
+    "references": "Dự án tiêu biểu",
+    "career": "Tuyển dụng",
+    "news": "Tin tức",
+    "knowledge_trust": "Kiến thức & Niềm tin",
+    "mapAria": "Mở điều hướng bản đồ",
+    "sitemapAria": "Sơ đồ trang web",
+    "pipes": "Ống",
+    "fittings": "Phụ kiện",
+    "valves": "Van",
+    "accessories": "Linh kiện",
+    "tools": "Dụng cụ"
+  },
+  "groups": {
+    "tools": "Dụng cụ",
+    "knowledge": "Kiến thức",
+    "company": "Công ty",
+    "products": "Sản phẩm",
+    "markets_solutions": "Thị trường & Giải pháp",
+    "knowledge_resources": "Kiến thức & Tài nguyên"
+  },
+  "pages": {
+    "catalogOverview": "Tổng quan danh mục sản phẩm",
+    "products": [
+      "Sản phẩm & Phụ kiện",
+      "Khám phá toàn bộ hệ thống ống nhựa của K Aqua từ d20 đến d630 mm. Ống PP-R và PPRCT hiệu suất cao cho gia dụng và công nghiệp."
+    ],
+    "finder": [
+      "Tìm kiếm sản phẩm",
+      "Tìm ngay ống PP-R hoặc PPRCT, phụ kiện hoặc van hoàn hảo. Lọc danh mục của chúng tôi trực tiếp theo kích thước, cấp áp suất và độ dày thành."
+    ],
+    "finderGuideText": "<h2>Công cụ tìm kiếm sản phẩm tương tác cho hệ thống ống K-Aqua</h2><p>Sử dụng công cụ tìm kiếm sản phẩm sáng tạo của chúng tôi để xác định chính xác thành phần phù hợp cho hệ thống đường ống cụ thể của bạn. Cho dù bạn đang tìm kiếm ống PP-R tiêu chuẩn cho lắp đặt nước uống, ống PPRCT gia cường sợi cho các nhà máy công nghiệp đòi hỏi khắt khe hay các phụ kiện chuyển đổi và van đặc biệt - công cụ của chúng tôi lọc toàn bộ danh mục theo thời gian thực. Việc tìm kiếm sản phẩm hỗ trợ bạn lựa chọn theo đường kính (d20 đến d630), cấp áp suất (SDR) và vật liệu.</p><p>Một hệ thống đường ống được cấu trúc tốt đòi hỏi sự lập kế hoạch chính xác và sự kết hợp chính xác của các đường ống, phụ kiện (như măng sông, cút và tê) và các linh kiện tương ứng. Công cụ tìm kiếm sản phẩm của chúng tôi loại bỏ việc tìm kiếm mất thời gian trong các tệp PDF tĩnh và thay vào đó cung cấp cho bạn dữ liệu đáng tin cậy ngay lập tức về mã số bài viết, đơn vị đóng gói và thông số kỹ thuật. Chỉ với một vài cú nhấp chuột, bạn có thể thiết lập danh sách vật liệu của mình và đảm bảo tính tương thích của các thành phần khác nhau cho các hệ thống sưởi, làm mát và nước uống. Điều này không chỉ tối ưu hóa quá trình lập kế hoạch của bạn mà còn giảm thiểu lỗi khi đặt hàng vật liệu cho dự án xây dựng tiếp theo của bạn.</p>",
+    "co2": [
+      "Máy tính CO2",
+      "So sánh lượng khí thải carbon của ống nhựa K Aqua PP-R với đồng, thép không gỉ và PVC. Đã được kiểm chứng theo tiêu chuẩn ISO 14040/44 cho Công trình Xanh."
+    ],
+    "solutions": [
+      "Ưu điểm vật liệu",
+      "Tìm hiểu lý do tại sao Polypropylene (PP-R/PPRCT) là vật liệu vượt trội cho việc cung cấp nước. Thân thiện với môi trường, tiên tiến về kỹ thuật và tiết kiệm."
+    ],
+    "academy": [
+      "Học viện K-Aqua: Kỹ thuật hàn PP-R và kiến thức chuyên môn",
+      "Tìm hiểu kỹ thuật hàn chuyên nghiệp cho ống nhựa PP-R. Xem video hướng dẫn và hoàn thành bài kiểm tra Chuyên gia hàn (Welding-Master) của chúng tôi."
+    ],
+    "trust": [
+      "Trung tâm tin cậy",
+      "Truy cập vào tài liệu chất lượng của K Aqua. Tải xuống các chứng chỉ ISO, khung GENAU và tài liệu kiểm toán cho dự án của bạn."
+    ],
+    "service": [
+      "Trung tâm Dịch vụ & Tải xuống",
+      "Tải xuống danh mục sản phẩm chính thức của K Aqua, bảng dữ liệu kỹ thuật và hướng dẫn lắp đặt cho các hệ thống ống nhựa PP-R và PPRCT."
+    ],
+    "partner": [
+      "Quan hệ đối tác KESSEL",
+      "K Aqua và KESSEL có một mối quan hệ đối tác kéo dài nhiều thập kỷ, mang các tiêu chuẩn sản xuất của Đức từ hệ thống thoát nước sang cung cấp nước."
+    ],
+    "markets": [
+      "Thị trường & Vị trí",
+      "K Aqua cung cấp hệ thống ống PP-R tại hơn 27 quốc gia. Sử dụng bản đồ thế giới tương tác của chúng tôi để biết các tiêu chuẩn địa phương, chất lượng nước và thông tin hậu cần."
+    ],
+    "references": [
+      "Dự án tiêu biểu",
+      "Khám phá các dự án tham khảo trên toàn thế giới với hệ thống ống PP-R của K-Aqua. Quả địa cầu 3D tương tác của chúng tôi hiển thị các lắp đặt dân dụng, thương mại & công nghiệp."
+    ],
+    "about": [
+      "Về KWT GmbH",
+      "KWT GmbH đúc kết nhiều thập kỷ kinh nghiệm để sản xuất hệ thống ống cao cấp K Aqua. Kỹ thuật Đức cho chất lượng và sự đổi mới cao nhất."
+    ],
+    "career": [
+      "Tuyển dụng tại K-Aqua",
+      "Trở thành một phần của nhóm chúng tôi tại Waldsolms. Tính toán các lợi ích ròng được miễn thuế của bạn và kiểm tra trong 60 giây xem K Aqua có phù hợp với bạn không."
+    ],
+    "news": [
+      "Tin tức & Cập nhật | Tin tức công ty K-Aqua",
+      "Cập nhật các đổi mới của K Aqua, sản phẩm, sự kiện triển lãm và cam kết của chúng tôi đối với sản xuất được kiểm định bằng 3 chứng nhận ISO."
+    ],
+    "contact": [
+      "Liên hệ, Bán hàng & Hỗ trợ",
+      "Liên hệ với nhóm chuyên gia của K Aqua cho các yêu cầu bán hàng, hỗ trợ hoặc đối tác. Thời gian phản hồi nhanh cho các khách hàng B2B toàn cầu."
+    ],
+    "rfq": [
+      "Yêu cầu dự án",
+      "Yêu cầu báo giá không ràng buộc cho dự án đường ống tiếp theo của bạn trong bốn bước đơn giản. Nhóm bán hàng của chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ."
+    ],
+    "home": [
+      "Hệ thống ống PP-R & PPRCT",
+      "K Aqua sản xuất các hệ thống ống nhựa PP-R và PPRCT hạng nhất cho nước uống và các ứng dụng công nghiệp. Kỹ thuật Đức cho các dự án toàn cầu."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Chính sách bảo mật",
+        "Chính sách bảo mật toàn diện cho trang web K Aqua theo các hướng dẫn GDPR."
+      ],
+      "impressum": [
+        "Impressum & Thông báo pháp lý",
+        "Thông tin pháp lý của công ty KWT GmbH, nhà sản xuất của K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Chất lượng đã được kiểm định",
+      "title1": "Hệ thống quản lý ",
+      "titleHighlight": "GENAU",
+      "title2": " ",
+      "p1": "Mục tiêu của hệ thống quản lý GENAU là không ngừng cải thiện an toàn lao động, môi trường và sức khỏe trong công ty.",
+      "p2": "Tất cả các hoạt động của công ty tại KWT đều được thực hiện dựa trên việc xem xét sự bảo tồn tài nguyên, tương thích với môi trường và tuân thủ nghiêm ngặt tất cả các nghĩa vụ. Việc thực hành quản lý GENAU đáp ứng các yêu cầu cao của ",
+      "p3": " và ",
+      "list1Title": "Trách nhiệm sinh thái",
+      "list1Desc": "Bảo vệ môi trường là một phần trong cam kết chất lượng của chúng tôi, điều mà tất cả nhân viên của KWT GmbH đều tận tâm thực hiện.",
+      "list2Title": "Hiệu quả năng lượng",
+      "list2Desc": "Xác định mục tiêu các rủi ro và thực hiện các biện pháp để tối ưu hóa hiệu quả năng lượng."
+    },
+    "pipes": [
+      "Ống & Hệ thống",
+      "Ống PP-R và PP-RCT hiệu suất cao cho gia dụng và công nghiệp. Khám phá tất cả các cấp SDR và kích thước cho dự án tiếp theo của bạn."
+    ],
+    "fittings": [
+      "Phụ tùng & Phụ kiện",
+      "Hoàn thiện toàn bộ các phụ kiện cho tất cả các hệ thống ống K-Aqua. Khám phá các góc, tê, ống côn và măng sông cho hàn nóng chảy."
+    ],
+    "valves": [
+      "Linh kiện & Van",
+      "Van cao cấp và linh kiện cho mạng lưới đường ống. Van bi chất lượng cao, van âm tường, van góc và van một chiều."
+    ],
+    "tools": [
+      "Dụng cụ & Linh kiện",
+      "Dụng cụ hàn chuyên nghiệp và linh kiện cho lắp đặt PP-R. Khám phá máy hàn, máy cắt ống và các dụng cụ đặc biệt."
+    ],
+    "transition-fittings": [
+      "Khớp nối chuyển đổi",
+      "Phụ tùng chuyển đổi đáng tin cậy cho các kết nối an toàn. Khám phá phụ tùng chuyển đổi bằng đồng thau với kết nối ren hoặc mặt bích."
+    ]
+  },
+  "footer": {
+    "tagline": "K-Aqua, nhà lãnh đạo trong cung cấp nước. Hệ thống ống PP-R/PP-RCT cho nước uống, được sản xuất bởi KWT GmbH tại Waldsolms.",
+    "colTools": "Sản phẩm & Công cụ",
+    "colCompany": "Công ty",
+    "colContact": "Liên hệ",
+    "directions": "Chỉ đường & Vị trí",
+    "rights": "Bảo lưu mọi quyền.",
+    "imprint": "Impressum",
+    "privacy": "Bảo mật",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Đức",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Yêu cầu dự án",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Tiêu chuẩn ống PP-R"
+      },
+      {
+        "t": "Bền vững",
+        "s": "Thân thiện với môi trường"
+      },
+      {
+        "t": "Hệ thống GENAU",
+        "s": "Quản lý tích hợp"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Sản xuất tại Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Thiết kế web bởi Coday",
+        "Một dự án của Coday Web Agency",
+        "Coday Web Agency",
+        "Số hóa bởi Coday"
+      ],
+      "srDesc": "Trang web này được thiết kế và triển khai kỹ thuật bởi Coday Web Agency, các chuyên gia về thiết kế web và SEO tại Hessen.",
+      "linkTitle": "Đến Coday Web Agency - Thiết kế web cao cấp"
+    }
+  },
+  "regions": {
+    "dach": "DACH (Đức, Áo, Thụy Sĩ)",
+    "europa": "Châu Âu",
+    "nahost": "Trung Đông",
+    "global": "Châu Phi & Châu Á Thái Bình Dương"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang được yêu cầu không tồn tại hoặc đã bị di chuyển.",
+    "backHome": "Về Trang chủ"
+  },
+  "home": {
+    "chip": "đã được kiểm định từ tháng 10 năm 2025",
+    "h1a": "Dẫn đầu trong",
+    "h1b": "Hệ thống ống PP-R K-Aqua",
+    "globeAria": "Quả địa cầu tương tác, kéo để xoay",
+    "scrolly": [
+      {
+        "t": "Sản xuất tại Đức",
+        "d": "Phát triển và sản xuất tại Waldsolms cho mọi đường ống, mọi phụ kiện."
+      },
+      {
+        "t": "từ d20 đến d630",
+        "d": "Một hệ thống hoàn chỉnh: năm cấp áp suất, phụ tùng, linh kiện van và công nghệ hàn."
+      },
+      {
+        "t": "Kiểm định ba lần",
+        "d": "ISO 9001, 14001 và 50001: Chất lượng, môi trường và năng lượng từ một hệ thống quản lý."
+      },
+      {
+        "t": "27 thị trường trên toàn thế giới",
+        "d": "Từ Frankfurt đến NEOM: đã được kiểm tra theo tiêu chuẩn và thông số nước địa phương."
+      }
+    ],
+    "lead": "K-Aqua phát triển và sản xuất hệ thống ống nhựa PP-R và PP-RCT cho nước uống từ 20 đến 630 mm, hợp tác với nhà sản xuất cao cấp KESSEL.",
+    "ctaProducts": "Khám phá hệ thống sản phẩm",
+    "ctaContact": "Liên hệ với chúng tôi",
+    "toolsEyebrow": "Công cụ tương tác",
+    "toolsTitle1": "Không chỉ là văn bản.",
+    "toolsTitle2": "Các công cụ.",
+    "toolsLead": "Trang web làm việc cho bạn: lọc, tính toán, tìm hiểu.",
+    "bandTitle": "Sẵn sàng cho thế hệ cung cấp nước tiếp theo?",
+    "bandLead": "Nói chuyện với nhóm bán hàng của chúng tôi về dự án của bạn, từ việc lên kế hoạch đến công nghệ hàn.",
+    "bandBtn": "Bắt đầu yêu cầu dự án",
+    "bandBtn2": "Tải xuống & Dịch vụ"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "kích thước ống lớn nhất trong chương trình"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Cấp áp suất: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Chất lượng, Môi trường & Năng lượng được chứng nhận"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Phế liệu sản xuất được tái chế"
+      }
+    ],
+    "heroBadgeLabel": "Kích thước ống, SDR 6 đến SDR 17",
+    "marquee": [
+      "Dẫn đầu trong cung cấp nước",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Sản xuất tại Waldsolms",
+      "100% tái chế",
+      "Đối tác: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Tìm kiếm sản phẩm",
+        "d": "Lọc trực tiếp hơn 170 biến thể sản phẩm: kích thước, SDR, độ dày thành ngay lập tức.",
+        "cta": "Lọc ngay"
+      },
+      {
+        "id": "co2",
+        "t": "Máy tính CO₂",
+        "d": "Dự án của bạn so với Đồng, Thép không gỉ và PVC, quy ra cây xanh và km xe ô tô.",
+        "cta": "Tính toán ngay"
+      },
+      {
+        "id": "academy",
+        "t": "Học viện + Quiz",
+        "d": "Bốn quy trình hàn trong video, sau đó là bài kiểm tra Chuyên gia hàn.",
+        "cta": "Trở thành chuyên gia"
+      },
+      {
+        "id": "references",
+        "t": "Quả địa cầu dự án",
+        "d": "Xoay hành tinh, khám phá các dự án: từ Waldsolms đến Singapore.",
+        "cta": "Xoay quả địa cầu"
+      },
+      {
+        "id": "trust",
+        "t": "Trung tâm tin cậy",
+        "d": "Kiểm tra các chứng chỉ và tự tạo gói tài liệu RFP.",
+        "cta": "Tạo gói tài liệu"
+      },
+      {
+        "id": "career",
+        "t": "Máy tính Phúc lợi",
+        "d": "Những ưu đãi miễn thuế mang lại những gì, cộng với 60 giây Culture Match.",
+        "cta": "Kiểm tra ưu đãi thực"
+      }
+    ],
+    "vsEyebrow": "Sự khác biệt",
+    "vsTitle": "Tiêu chuẩn ngành vs. K Aqua số hóa.",
+    "vsBadTitle": "Ngành làm như thế nào",
+    "vsGoodTitle": "K Aqua làm như thế nào",
+    "vsBad": [
+      "220 trang PDF danh mục không có công cụ tìm kiếm",
+      "Chứng chỉ chỉ khi có yêu cầu bằng văn bản",
+      "Dữ liệu kỹ thuật sâu trong các bảng rắc rối",
+      "Trang tuyển dụng: một hộp thư"
+    ],
+    "vsGood": [
+      "Công cụ tìm kiếm sản phẩm: lọc trong vài giây",
+      "Trung tâm tin cậy: Tải xuống tự phục vụ",
+      "Máy tính CO₂ biến dữ liệu thành lập luận",
+      "Máy tính phúc lợi + Culture Match"
+    ],
+    "coEyebrow": "Công ty",
+    "coTitle1": "Nhà cung cấp vật liệu xây dựng và nhà sản xuất:",
+    "coTitle2": "từ một nguồn.",
+    "coLead": "KWT GmbH sản xuất ống và phụ kiện để cấp nước từ các loại nhựa khác nhau và nhờ đó định vị bản thân trong chuỗi giá trị xây dựng vừa là nhà cung cấp vừa là nhà sản xuất.",
+    "kesselTitle": "Đối tác mạnh mẽ với KESSEL",
+    "kesselText": "Chúng tôi có mối quan hệ đối tác chặt chẽ, lâu dài với nhà sản xuất cao cấp KESSEL, \"Leading in drainage\". Chúng tôi mang kinh nghiệm nhiều thập kỷ này vào tương lai.",
+    "kesselCta": "Tìm hiểu thêm về quan hệ đối tác",
+    "worldTitle": "Được chứng minh trên toàn thế giới",
+    "worldText": "Sản phẩm K Aqua đã chứng minh bản thân vô số lần trong các dự án trên toàn thế giới qua nhiều thập kỷ.",
+    "worldCta": "Quả địa cầu dự án",
+    "cards": [
+      {
+        "t": "Hệ thống quản lý GENAU",
+        "d": "Liên tục cải thiện an toàn lao động, bảo vệ môi trường và sức khỏe theo DIN EN ISO 14001 và 50001."
+      },
+      {
+        "t": "Sản xuất tại Đức",
+        "d": "Phát triển và sản xuất tại Waldsolms: Chất lượng, chi phí và tiến độ luôn hài hòa."
+      },
+      {
+        "t": "Trách nhiệm sinh thái",
+        "d": "Tiết kiệm tài nguyên và thân thiện với môi trường là một phần không thể thiếu trong nhận thức chất lượng của chúng tôi."
+      }
+    ],
+    "manifestTitle": "Nhiệm vụ của chúng tôi",
+    "manifestText": "Nước là nguồn tài nguyên quý giá nhất của chúng tôi. Chúng tôi bảo vệ nó bằng các hệ thống ống hướng tới tương lai.",
+    "grEyebrow": "Phạm vi toàn cầu",
+    "grTitle1": "Tuyến đường thương mại",
+    "grTitle2": "quốc tế",
+    "grLead": "Từ Đức ra thế giới: Hệ thống đường ống K Aqua của chúng tôi là xương sống của những siêu dự án hiện đại nhất trên toàn thế giới. Từ NEOM ở Ả Rập Xê-út đến các nhà máy công nghiệp vô cùng phức tạp ở Singapore.",
+    "grHqLabel": "Trụ sở chính & Sản xuất",
+    "grHqValue": "Đức (Frankfurt)",
+    "grExportLabel": "Thị trường xuất khẩu cốt lõi",
+    "grExportValue": "Ả Rập Xê-út (NEOM), UAE, Qatar, Mỹ Latinh",
+    "grCta": "Khám phá các dự án toàn cầu"
+  },
+  "products": {
+    "narrative": {
+      "sizeRange": "Thành phần này được sản xuất trong phạm vi kích thước danh nghĩa rộng từ mức nhỏ gọn {minSize} mm đến mức đáng kể {maxSize} mm, đảm bảo tính linh hoạt tối đa trong nhiều tình huống lắp đặt khác nhau.",
+      "sizeSpecific": "Thành phần này được thiết kế chính xác cho kích thước danh nghĩa cụ thể là {minSize} mm và cung cấp hiệu suất mục tiêu cho các kiến trúc đường ống chuyên dụng.",
+      "weights": "Hiệu quả vật liệu được tối ưu hóa trên toàn bộ phạm vi, với trọng lượng từng bộ phận dao động từ {minWeight} kg đến {maxWeight} kg tùy thuộc vào kích thước đã chọn.",
+      "packaging": "Hậu cần được tối ưu hóa thông qua các đơn vị đóng gói tiêu chuẩn, được thiết kế để vận chuyển an toàn trên toàn cầu và xử lý hiệu quả tại công trường.",
+      "rowCount": "Danh mục kỹ thuật của chúng tôi cung cấp cấu hình này trong {count} biến thể kích thước chuyên biệt cao, được chia tỷ lệ chính xác để đáp ứng các yêu cầu về thủy lực và cơ học của các hệ thống vận chuyển chất lỏng hiện đại.",
+      "intro": "Sản phẩm {title} là nền tảng của các giải pháp quản lý chất lỏng hiệu suất cao của K Aqua. Được phân loại chính thức theo các mã số bài viết {codes}, mỗi biến thể đều trải qua các quy trình đảm bảo chất lượng nghiêm ngặt tại các cơ sở sản xuất của chúng tôi ở Đức trước khi giao hàng.",
+      "outro": "Bằng cách sử dụng các kỹ thuật xử lý polyme tiên tiến, độ chính xác hình học của {title} đảm bảo các đặc tính dòng chảy tối ưu, giảm thiểu tổn thất áp suất và loại bỏ hoàn toàn nguy cơ đóng cặn hoặc ăn mòn trong suốt vòng đời hoạt động của nó. Sự cống hiến không khoan nhượng đối với khoa học vật liệu này đảm bảo rằng mọi kết nối đều duy trì tính toàn vẹn tuyệt đối ngay cả dưới những biến động khắc nghiệt về nhiệt độ và áp suất. Cho dù được sử dụng trong các tòa nhà chung cư cao tầng, các cơ sở chăm sóc sức khỏe quan trọng hay các nhà máy chế biến công nghiệp đòi hỏi khắt khe, sản phẩm này mang lại độ tin cậy không cần bảo trì mà các kỹ sư và người lắp đặt có thể hoàn toàn tin tưởng."
+    },
+    "uniqueProductContext": "Sản phẩm {title} là một phần thiết yếu của dòng {category} K Aqua. Nó được thiết kế cho độ bền tối đa và tích hợp liền mạch, đáp ứng các tiêu chuẩn quốc tế cao nhất cho các ứng dụng đường ống và vệ sinh hiện đại. Bạn có thể xác định và đặt hàng sản phẩm cụ thể này theo (các) mã số bài viết: {codes}. Để có thêm tài liệu hoặc hỗ trợ, vui lòng liên hệ với đội ngũ kỹ thuật của chúng tôi.",
+    "heroDesc": "Khám phá các thông số kỹ thuật, kích thước và lĩnh vực ứng dụng. Để biết thông tin chi tiết, hãy tải xuống Bảng Dữ liệu Kỹ thuật.",
+    "articleNumbers": "Mã số bài viết",
+    "technicalSpecs": "Thông số kỹ thuật",
+    "eyebrow": "Sản phẩm",
+    "videoGuide": "Hướng dẫn video K Aqua",
+    "localAvailability": "Tính khả dụng tại địa phương",
+    "localDesc": "Tìm đại lý địa phương, giấy phép cụ thể và tiêu chuẩn cho khu vực của bạn.",
+    "allMarkets": "Xem tất cả hơn 50 thị trường",
+    "title1": "Ống & Phụ tùng PP-R/PPRCT cho",
+    "titleGrad": "Nước uống.",
+    "lead": "Một hệ thống đường ống hoàn chỉnh cho nước uống nóng và lạnh: từ ống, phụ kiện đến công nghệ hàn. Bốn thành phần, một hệ thống.",
+    "ctaCatalog": "Danh mục sản phẩm (PDF)",
+    "ctaVideos": "Video lắp đặt",
+    "sysEyebrow": "Hệ thống",
+    "sysTitle": "Ống & Phụ tùng PP-R K-Aqua: Bốn thành phần, một hệ thống.",
+    "range": [
+      {
+        "t": "Ống: Đơn & Đa lớp",
+        "d": "Ống đơn lớp và đa lớp gia cường sợi thủy tinh với SDR 6, 7.4, 9, 11 và 17. Kích thước từ 20 mm đến 630 mm."
+      },
+      {
+        "t": "Phụ tùng & Linh kiện van",
+        "d": "Phụ kiện từ 20 mm đến 315 mm, bổ sung bằng van, khớp nối ren và khớp nối chuyển đổi."
+      },
+      {
+        "t": "Công nghệ hàn & Dụng cụ",
+        "d": "Dụng cụ cắt, máy hàn và thiết bị hàn cho các quy trình hàn măng sông, hàn giáp mối và hàn điện trở."
+      },
+      {
+        "t": "Nước nóng & Lạnh",
+        "d": "Được thiết kế cho nước uống (nóng và lạnh) với khả năng chịu nhiệt độ và áp suất cao trong nhiều thập kỷ."
+      }
+    ],
+    "techEyebrow": "Dữ liệu kỹ thuật",
+    "techTitle": "Kích thước & Cấp áp suất",
+    "techLead": "Tùy thuộc vào loại ống, từ 20 mm đến 630 mm, phụ tùng lên đến 315 mm.",
+    "ctaFeatures": "Đặc tính sản phẩm (PDF)",
+    "tableHead": [
+      "Thành phần",
+      "Kích thước",
+      "Cấp áp suất"
+    ],
+    "tableRows": [
+      [
+        "Ống đơn lớp",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Ống đa lớp (gia cường GF)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Phụ tùng",
+        "20 – 315 mm",
+        "tương thích hệ thống"
+      ],
+      [
+        "Van & Khớp nối ren",
+        "tùy thuộc hệ thống",
+        "-"
+      ],
+      [
+        "Công nghệ hàn & Dụng cụ",
+        "mọi kích thước",
+        "-"
+      ]
+    ],
+    "seoArticle": {},
+    "labels": {
+      "applicationAreas": "Lĩnh vực ứng dụng",
+      "advantages": "Tổng quan về lợi ích của bạn",
+      "technicalDescription": "Hồ sơ kỹ thuật & SEO",
+      "noResults": "Không tìm thấy sản phẩm",
+      "searchPlaceholder": "Tìm kiếm theo tiêu đề hoặc mã số bài viết...",
+      "faqTitle": "Câu hỏi thường gặp (FAQ)",
+      "faqFallbackQ1": "Những lợi ích chính là gì?",
+      "faqFallbackA1": "Hệ thống mang lại tuổi thọ cực cao, khả năng chống ăn mòn và các đặc tính vệ sinh tuyệt vời cho nước uống.",
+      "faqFallbackQ2": "Vật liệu có thân thiện với môi trường không?",
+      "faqFallbackA2": "Có, PPRCT có thể tái chế 100% và có lượng khí thải carbon rất thấp so với ống kim loại.",
+      "faqFallbackQ3": "Việc cài đặt được thực hiện như thế nào?",
+      "faqFallbackA3": "Việc lắp đặt an toàn và không bị rò rỉ thông qua hàn nhiệt chảy đa (polyfusion).",
+      "downloads": "Tải xuống & Tài liệu",
+      "tds": "Bảng dữ liệu kỹ thuật",
+      "tdsDesc": "Thông số kỹ thuật & Kích thước (PDF)",
+      "cert": "Chứng chỉ & Tiêu chuẩn",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Hướng dẫn lắp đặt",
+      "installDesc": "Hướng dẫn hàn (PDF)",
+      "range": "Danh mục sản phẩm",
+      "rangeDesc": "Toàn bộ phạm vi sản phẩm có kích thước (PDF)",
+      "features": "Đặc tính sản phẩm",
+      "featuresDesc": "Đặc tính vật liệu & Ưu điểm hệ thống (PDF)"
+    },
+    "specAndDim": "Thông số kỹ thuật & Kích thước",
+    "certsAndNorms": "Chứng chỉ & Tiêu chuẩn",
+    "approved": "đã được phê duyệt",
+    "monitoring": "được giám sát",
+    "certified": "được chứng nhận",
+    "quickLinks": "Truy cập nhanh",
+    "calcCo2": "Tính toán lượng khí thải CO2",
+    "backToFinder": "Quay lại công cụ tìm kiếm sản phẩm",
+    "enterpriseCore": "Lõi doanh nghiệp",
+    "highPerformance": "Hệ thống ống hiệu suất cao",
+    "highPerformanceDesc": "Cho các ứng dụng công nghiệp, cung cấp nước uống và kiểm soát khí hậu trong điều kiện khắc nghiệt.",
+    "sysPressure": "Áp suất hệ thống",
+    "tempMax": "Nhiệt độ tối đa",
+    "material": "Vật liệu",
+    "norm": "Tiêu chuẩn",
+    "certification": "Chứng nhận",
+    "lifespan": "Tuổi thọ",
+    "fiberTech": "Công nghệ hỗn hợp sợi",
+    "fiberTechDesc": "Cấu trúc 3 lớp giúp giảm thiểu sự giãn nở tuyến tính và tăng cường độ ổn định tối đa ở nhiệt độ cao.",
+    "compliance": "Tuân thủ & Tiêu chuẩn",
+    "dimensions": "Kích thước",
+    "globalNetwork": "Mạng lưới toàn cầu",
+    "globalNetworkDesc": "Hệ thống K Aqua đang được sử dụng ở hơn 40 quốc gia trên toàn thế giới.",
+    "whyChoose": "Tại sao {product} là sự lựa chọn đúng đắn",
+    "sysLead": "Nền tảng của danh mục của chúng tôi: bốn khối xây dựng của một hệ thống tích hợp. Ống, phụ tùng, van và dụng cụ tạo thành một hệ thống PP-R và PP-RCT.",
+    "tools": {
+      "metaTitle": "Công cụ & Phụ kiện PP-R cho hệ thống ống",
+      "metaDesc": "Khám phá các công cụ và phụ kiện chuyên nghiệp của K-Aqua.",
+      "heroEyebrow": "Kỹ thuật Đức",
+      "heroTitle": "Công cụ & Phụ kiện.",
+      "heroSubtitle": "Độ chính xác tuyệt đối.",
+      "heroDesc": "Mô-đun này cung cấp sự an toàn không khoan nhượng cho các dự án đòi hỏi khắt khe nhất trên toàn thế giới.",
+      "heroBtnPrimary": "Yêu cầu dự án",
+      "heroBtnSecondary": "Thông số kỹ thuật",
+      "bentoEyebrow": "Hệ sinh thái K Aqua",
+      "bentoTitle": "Công cụ cho các siêu dự án toàn cầu.",
+      "bentoLead": "Khi các nhà thầu lên kế hoạch, họ tin vào các công cụ chính xác cao.",
+      "bento1Title": "Máy hàn măng sông",
+      "bento1Desc": "Cho kích thước từ 20 mm đến 125 mm.",
+      "bento2Title": "Máy cắt ống & Kéo",
+      "bento2Desc": "Thiết kế tiện dụng cho công việc không mệt mỏi.",
+      "bento3Title": "Máy hàn giáp mối",
+      "bento3Desc": "Cho đường kính danh nghĩa lên đến 250 mm.",
+      "bento4Title": "Bộ dụng cụ sửa chữa",
+      "bento4Desc": "Đầu khoan và cưa lỗ cho các nhánh bổ sung.",
+      "scrollEyebrow": "Công nghệ chuyên sâu",
+      "scrollTitle": "Không có chỗ cho sai số.",
+      "scrollLead": "Khám phá các chi tiết công nghệ làm cho công cụ của chúng tôi trở thành lựa chọn hàng đầu.",
+      "scroll1Title": "Nhiệt động học hoàn hảo.",
+      "scroll1Desc": "Máy hàn măng sông đảm bảo nhiệt độ ổn định 260°C.",
+      "scroll2Title": "Hàn giáp mối điều khiển CNC.",
+      "scroll2Desc": "Đối với kích thước danh nghĩa lớn.",
+      "scroll3Title": "Máy bào ống chính xác.",
+      "scroll3Desc": "Sự chuẩn bị chiếm 80% công việc hàn.",
+      "scroll4Title": "Cưa đĩa lạnh để cắt chính xác.",
+      "scroll4Desc": "Đảm bảo đường cắt vuông góc hoàn hảo.",
+      "timelineTitle": "Quy trình hàn K Aqua",
+      "timelineDesc": "Từ cắt đến hợp nhất phân tử.",
+      "timeline1Year": "Giai đoạn 1",
+      "timeline1Title": "Cắt hoàn hảo.",
+      "timeline1Text": "Đường cắt 90 độ không có gờ là nền tảng.",
+      "timeline2Year": "Giai đoạn 2",
+      "timeline2Title": "Loại bỏ lớp oxit.",
+      "timeline2Text": "Ống được hiệu chỉnh chính xác trước khi hàn.",
+      "timeline3Year": "Giai đoạn 3",
+      "timeline3Title": "Hợp nhất phân tử.",
+      "timeline3Text": "Ống và phụ kiện được đun nóng đến chính xác 260°C.",
+      "timeline4Year": "Giai đoạn 4",
+      "timeline4Title": "Bảo mật trọn đời.",
+      "timeline4Text": "Các bộ phận hợp nhất thành một khối duy nhất.",
+      "specsTitle": "Thẩm quyền công nghiệp. <br/> Đến từng chi tiết.",
+      "specsP1": "Công nghệ sản xuất tự động hóa cao.",
+      "specsP2": "Được sử dụng trong các vùng khí hậu khắc nghiệt nhất.",
+      "specsList1": "Đã kiểm tra ISO 9001",
+      "specsList2": "Lớp phủ Teflon PTFE loại A",
+      "specsList3": "Hiệu chuẩn nhiệt độ kỹ thuật số",
+      "ctaTitle": "Sẵn sàng cho chất lượng không khoan nhượng?",
+      "ctaDesc": "Nói chuyện với nhóm kỹ thuật của chúng tôi.",
+      "ctaBtn": "Bắt đầu yêu cầu",
+      "hero": {
+        "eyebrow": "Công cụ & Phụ kiện",
+        "title": "Dụng cụ hàn PP-R",
+        "lead": "Thiết bị chuyên nghiệp cho lắp đặt PP-R."
+      }
+    },
+    "valves": {
+      "metaTitle": "Van PP-R cho hệ thống ống",
+      "metaDesc": "Khám phá van chất lượng cao từ K-Aqua.",
+      "heroEyebrow": "Hạng mục Van",
+      "heroTitle": "Kiểm soát tuyệt đối.",
+      "heroSubtitle": "Dưới áp lực cao nhất.",
+      "heroDesc": "Van và linh kiện K Aqua là trái tim của cơ sở hạ tầng.",
+      "heroBtnPrimary": "Yêu cầu công nghệ",
+      "heroBtnSecondary": "Khám phá kiến trúc",
+      "manifestoTitle": "Khi vật liệu hỏng, hệ thống hỏng. <br/><span class=\"text-primary\">Chúng tôi không nhượng bộ.</span>",
+      "manifestoP1": "Một van không chỉ là một công tắc cho chất lỏng.",
+      "manifestoP2": "Thiết kế vượt mức và chính xác. Kỹ thuật Đức.",
+      "scrollEyebrow": "Nguồn gốc của sự hoàn hảo",
+      "scrollTitle": "Từ nguyên liệu thô đến van không thể phá hủy.",
+      "scrollLead": "Quy trình tạo ra van K Aqua.",
+      "scroll1Title": "Nguyên liệu thô hoàn hảo",
+      "scroll1Desc": "Phân tích quang phổ nghiêm ngặt đảm bảo chất lượng.",
+      "scroll2Title": "Gia công CNC chính xác",
+      "scroll2Desc": "Sản xuất trên trung tâm gia công CNC 5 trục.",
+      "scroll3Title": "Dòng chảy không tạo bọt khí",
+      "scroll3Desc": "Động lực học chất lỏng (CFD) tiên tiến.",
+      "scroll4Title": "Kiểm tra 100%. Không có ngoại lệ.",
+      "scroll4Desc": "Chu kỳ kiểm tra tự động hóa hoàn toàn.",
+      "showcaseEyebrow": "Phân tích độ tin cậy",
+      "showcaseTitle": "Không có điểm yếu.",
+      "showcaseP1": "Không có không gian chết trong van.",
+      "showcaseP2": "Lớp đóng kín tự làm sạch.",
+      "showcaseList1": "Vệ sinh nước uống được chứng nhận",
+      "showcaseList2": "Đóng kín tại áp suất hoạt động tối đa",
+      "showcaseList3": "Gioăng trục chính bảo trì miễn phí",
+      "bentoEyebrow": "Thông số kỹ thuật",
+      "bentoTitle": "Sự vượt trội qua các con số.",
+      "bentoLead": "Khám phá các thông số kỹ thuật.",
+      "bento1Title": "Áp suất liên tục PN25",
+      "bento1Desc": "Được thiết kế cho các ứng dụng áp suất cao.",
+      "bento2Title": "Khả năng chịu nhiệt",
+      "bento2Desc": "Vật liệu giữ nguyên độ đàn hồi từ lạnh đến nóng.",
+      "bento3Title": "Kháng hóa chất",
+      "bento3Desc": "Miễn nhiễm với nước cứng và chất khử trùng.",
+      "bento4Title": "Công thái học công nghiệp",
+      "bento4Desc": "Phản hồi xúc giác chính xác.",
+      "timelineEyebrow": "Con đường của sự bền bỉ.",
+      "timelineLead": "Quá trình đảm bảo chất lượng.",
+      "timeline1Year": "Giai đoạn 01",
+      "timeline1Title": "Lựa chọn phân tử",
+      "timeline1Text": "Hợp kim kim loại và polyme hiệu suất cao.",
+      "timeline2Year": "Giai đoạn 02",
+      "timeline2Title": "Tối ưu hóa dòng chảy CFD",
+      "timeline2Text": "Tính toán bởi siêu máy tính.",
+      "timeline3Year": "Giai đoạn 03",
+      "timeline3Title": "Kiểm tra buồng khí hậu",
+      "timeline3Text": "Thử nghiệm ở 120°C, áp suất 25 Bar.",
+      "timeline4Year": "Giai đoạn 04",
+      "timeline4Title": "Sản xuất hàng loạt bằng robot",
+      "timeline4Text": "Dây chuyền sản xuất công nghiệp 4.0.",
+      "timeline5Year": "Giai đoạn 05",
+      "timeline5Title": "Triển khai toàn cầu",
+      "timeline5Text": "Từ siêu dự án sa mạc đến giàn khoan ngoài khơi.",
+      "finalTitle": "Xây dựng cho các thế hệ. <br/>Không phải cho kỳ bảo trì tiếp theo.",
+      "finalDesc": "Van K Aqua được lắp đặt và sau đó hoạt động quên thời gian.",
+      "ctaTitle": "Sẵn sàng cho kiểm soát tuyệt đối?",
+      "ctaDesc": "Nói chuyện với các kỹ sư trưởng của chúng tôi.",
+      "ctaBtnPrimary": "Yêu cầu tư vấn kỹ thuật",
+      "ctaBtnSecondary": "Thông số kỹ thuật (PDF)",
+      "hero": {
+        "eyebrow": "Van & Phụ kiện",
+        "title": "Van PP-R",
+        "lead": "Kiểm soát chính xác dòng chảy nước."
+      }
+    },
+    "category": {
+      "allProducts": "Tất cả sản phẩm",
+      "openInFinder": "Mở trong Finder",
+      "artNA": "Mã. N/A",
+      "viewDetails": "Xem chi tiết",
+      "learnMoreKnowledge": "Khám phá hệ thống PP-R trong cổng kiến thức",
+      "learnMoreDesc": "Đi sâu vào tài liệu kỹ thuật.",
+      "toKnowledgeBase": "Khám phá các bài viết trong Học viện K-Aqua"
+    },
+    "fittings": {
+      "meta": {
+        "title": "Phụ tùng & Fittings | K Aqua",
+        "desc": "Phụ tùng và Fittings K-Aqua từ PP-R: Co, tê, thu và măng sông. Kín nước tuyệt đối nhờ Kỹ thuật Đức."
+      },
+      "hero": {
+        "eyebrow": "Phụ tùng & Fittings",
+        "title": "Fittings & Phụ tùng PP-R cho kết nối kín vĩnh viễn",
+        "lead": "Từ co đến thu: K Aqua PP-R Fittings hợp nhất phân tử với ống khi hàn."
+      },
+      "intro": {
+        "eyebrow": "Thẩm quyền công nghiệp",
+        "title": "Sự an toàn không phải ngẫu nhiên. Nó có thể tính toán được.",
+        "lead": "Khi các tổng thầu quốc tế lên kế hoạch, họ tin vào sự thật.",
+        "text1": "Trong nhiều thập kỷ, chúng tôi đã kết hợp niềm tự hào thủ công với công nghệ sản xuất hiện đại.",
+        "text2": "Sự hợp nhất của các đại phân tử tạo ra một mạng lưới không có điểm yếu."
+      },
+      "sticky": {
+        "eyebrow": "Kiến trúc hoàn hảo",
+        "title": "Giải phẫu sự tin cậy.",
+        "lead": "Khám phá các đặc tính vật lý và hóa học.",
+        "items": [
+          {
+            "title": "Cấu trúc phân tử",
+            "desc": "Fittings của chúng tôi dựa trên Polypropylen Random Copolymer liên kết ngang cao."
+          },
+          {
+            "title": "Độ chính xác nhiệt dẻo",
+            "desc": "Mỗi phụ tùng trải qua quá trình ép phun."
+          },
+          {
+            "title": "Không dung sai lỗi",
+            "desc": "Chúng tôi không để lại gì cho cơ hội."
+          },
+          {
+            "title": "Kháng tạo bọt khí",
+            "desc": "Hình học tối ưu hóa dòng chảy."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Dữ liệu hiệu suất",
+        "title": "Thông số kỹ thuật vượt tiêu chuẩn.",
+        "lead": "Trong khi ngành coi tiêu chuẩn là mục tiêu, chúng tôi coi đó là mức tối thiểu.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Tuân thủ hoàn toàn."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Thiết kế cho ứng suất áp suất cao."
+          },
+          {
+            "title": "Tính trơ hóa học",
+            "desc": "Kháng hóa chất xuất sắc."
+          },
+          {
+            "title": "Giảm xóc âm thanh",
+            "desc": "Hấp thụ tiếng ồn trong cơ thể."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Quy trình Genesis",
+        "desc": "Từ khối lượng thô phân tử đến thành phần không thể phá hủy.",
+        "items": [
+          {
+            "year": "Bước 01",
+            "title": "Lựa chọn hạt",
+            "text": "PP nguyên chất."
+          },
+          {
+            "year": "Bước 02",
+            "title": "Điều hòa nhiệt",
+            "text": "Ổn định nhiệt độ."
+          },
+          {
+            "year": "Bước 03",
+            "title": "Ép phun áp lực cao",
+            "text": "Định hình áp lực lớn."
+          },
+          {
+            "year": "Bước 04",
+            "title": "Làm mát ma trận",
+            "text": "Làm mát bằng máy tính."
+          },
+          {
+            "year": "Bước 05",
+            "title": "Kiểm tra & Logistics",
+            "text": "Chứng nhận kỹ thuật số."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Tuổi thọ > 50 năm. Đảm bảo.",
+        "text": "Thời gian là bài kiểm tra.",
+        "badge": "100% không bảo trì"
+      },
+      "cta": {
+        "title": "Sẵn sàng cho chất lượng?",
+        "desc": "Kết nối với đội ngũ kỹ thuật.",
+        "primary": "Bắt đầu yêu cầu",
+        "secondary": "Xem toàn bộ"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "Hệ thống ống PP-R & PPRCT | K Aqua",
+        "desc": "Hệ thống ống hiệu suất cao."
+      },
+      "hero": {
+        "eyebrow": "Hệ thống ống",
+        "title": "Ống PP-R & PPRCT từ d20 đến d630",
+        "lead": "Ống K Aqua PP-R và PPRCT."
+      },
+      "sticky": {
+        "eyebrow": "Khoa học vật liệu",
+        "title": "Kỹ thuật polyme hoàn hảo.",
+        "lead": "Cấu trúc phân tử được tối ưu hóa.",
+        "items": [
+          {
+            "title": "Kiến trúc PPRCT",
+            "desc": "Thế hệ mới nhất."
+          },
+          {
+            "title": "Hàn đồng nhất",
+            "desc": "Trái ngược với phụ kiện ép."
+          },
+          {
+            "title": "Không ăn mòn",
+            "desc": "Miễn nhiễm với ăn mòn."
+          },
+          {
+            "title": "Cách nhiệt và âm thanh",
+            "desc": "Độ dẫn nhiệt thấp."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Không dung sai",
+        "desc": "Giám sát mỗi cm.",
+        "items": [
+          {
+            "year": "Cấp độ 01",
+            "title": "Nguyên liệu cao cấp",
+            "text": "Sử dụng hạt PP-R."
+          },
+          {
+            "year": "Cấp độ 02",
+            "title": "Đùn chính xác",
+            "text": "Hệ thống đùn hiện đại."
+          },
+          {
+            "year": "Cấp độ 03",
+            "title": "Điều hòa nhiệt",
+            "text": "Làm mát dần."
+          },
+          {
+            "year": "Cấp độ 04",
+            "title": "Truy xuất nguồn gốc 100%",
+            "text": "Khắc laser."
+          },
+          {
+            "year": "Cấp độ 05",
+            "title": "Kiểm tra & Giải phóng",
+            "text": "Thử nghiệm thủy lực."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Thông số kỹ thuật",
+        "title": "Một kích thước cho mọi yêu cầu.",
+        "lead": "Có thể mở rộng.",
+        "items": [
+          {
+            "title": "Kích thước từ d20 đến d500",
+            "desc": "Danh mục đầu tư hoàn hảo."
+          },
+          {
+            "title": "SDR 6 đến 11",
+            "desc": "Xếp hạng áp suất."
+          },
+          {
+            "title": "Vệ sinh nước uống",
+            "desc": "Đáp ứng tiêu chuẩn."
+          },
+          {
+            "title": "Ống ngoài trời chống tia cực tím",
+            "desc": "Cho lắp đặt ngoài trời."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Để chuyên gia định cỡ dự án của bạn.",
+        "desc": "Gửi kế hoạch P&ID.",
+        "primary": "Bắt đầu dự án"
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "Chuyển tiếp và kết nối PP-R",
+        "desc": "Kết nối lai."
+      },
+      "hero": {
+        "eyebrow": "Kết nối hệ thống",
+        "title": "Phụ kiện chuyển tiếp",
+        "lead": "Đồng thau kết hợp polyme."
+      },
+      "intro": {
+        "eyebrow": "Thử thách",
+        "title": "Nơi thế giới va chạm.",
+        "lead": "Sự chuyển tiếp từ kim loại cứng sang mạng lưới nhiệt dẻo."
+      },
+      "sticky": {
+        "eyebrow": "Công nghệ sâu",
+        "title": "Giải phẫu sự không thể phá hủy.",
+        "lead": "Không chỉ là phụ kiện.",
+        "items": [
+          {
+            "title": "Sự cộng sinh kim loại và polyme",
+            "desc": "Kết hợp sức mạnh."
+          },
+          {
+            "title": "Mô-men xoắn xoắn cực đại",
+            "desc": "Thiết kế chống xoay."
+          },
+          {
+            "title": "Hệ số giãn nở",
+            "desc": "Cân bằng nhiệt."
+          },
+          {
+            "title": "Kiểm soát chất lượng",
+            "desc": "Không thỏa hiệp."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Đặc điểm",
+        "title": "Kiến trúc hiệu suất.",
+        "lead": "Dành cho các siêu dự án.",
+        "items": [
+          {
+            "title": "Lõi đồng thau DZR",
+            "desc": "Chống khử kẽm."
+          },
+          {
+            "title": "Thiết kế chống quay",
+            "desc": "Chống xoay."
+          },
+          {
+            "title": "Sợi được rút sâu",
+            "desc": "Ren ISO."
+          },
+          {
+            "title": "PPRCT Matrix",
+            "desc": "Cấu trúc tinh thể cao."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Chu kỳ sản xuất",
+        "desc": "Cái nhìn vào nhà máy của chúng tôi.",
+        "items": [
+          {
+            "year": "Giai đoạn 1",
+            "title": "Gia công",
+            "text": "Ép ở 750°C."
+          },
+          {
+            "year": "Giai đoạn 2",
+            "title": "Thụ động hóa bề mặt",
+            "text": "Loại bỏ ăn mòn."
+          },
+          {
+            "year": "Giai đoạn 3",
+            "title": "Ép phun",
+            "text": "Bao bọc kim loại."
+          },
+          {
+            "year": "Giai đoạn 4",
+            "title": "Làm mát",
+            "text": "Phòng ngừa căng thẳng."
+          },
+          {
+            "year": "Giai đoạn 5",
+            "title": "Kiểm tra áp lực",
+            "text": "Thử nghiệm phá hủy."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Chứng chỉ & Thông số",
+        "title": "Sự thật cứng rắn.",
+        "lead": "Chúng tôi định nghĩa tiêu chuẩn.",
+        "items": [
+          {
+            "label": "Áp suất hoạt động (PN)",
+            "value": "Lên đến 25 bar",
+            "sub": "Ở nước 20°C"
+          },
+          {
+            "label": "Phạm vi nhiệt độ",
+            "value": "-20°C đến +95°C",
+            "sub": "Tải tối đa lên đến 110°C"
+          },
+          {
+            "label": "Tiêu chuẩn ren",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Trong & ngoài"
+          },
+          {
+            "label": "Vòng đời",
+            "value": "> 50 năm",
+            "sub": "Điều kiện công nghiệp"
+          },
+          {
+            "label": "Hợp kim đồng thau",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Không khử kẽm"
+          },
+          {
+            "label": "Nhựa",
+            "value": "PPRCT / PP-R",
+            "sub": "Được chứng nhận nước uống"
+          },
+          {
+            "label": "Sự tuân thủ nước uống",
+            "value": "UBA, DVGW",
+            "sub": "Các tùy chọn không có chì 100%"
+          },
+          {
+            "label": "Đảm bảo chất lượng",
+            "value": "ISO 9001:2015",
+            "sub": "Theo dõi hàng loạt 100%"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Kết nối mạnh nhất cho dự án của bạn.",
+        "desc": "Dựa trên kỹ thuật Đức.",
+        "primary": "Bắt đầu dự án",
+        "secondary": "CAD & Đặc điểm kỹ thuật"
+      }
+    },
+    "hero": {
+      "eyebrow": "Kiến trúc hệ thống",
+      "title1": "K-AQUA: KIẾN TRÚC",
+      "title2": "TUYỆT ĐỐI CỦA NƯỚC.",
+      "desc": "Độ chính xác ở cấp độ phân tử. Được phát triển cho sự vĩnh cửu. Hệ thống đường ống, phụ kiện và van của chúng tôi xác định tiêu chuẩn toàn cầu."
+    },
+    "sticky": {
+      "eyebrow": "PHẠM VI SẢN PHẨM",
+      "title": "KỸ THUẬT KHÔNG KHOAN NHƯỢNG.",
+      "lead": "Mỗi thành phần là một phần của một hệ thống khép kín, hoàn hảo.",
+      "items": [
+        {
+          "title": "HỆ THỐNG ỐNG PPR: TĨNH MẠCH KHÔNG THỂ PHÁ HỦY",
+          "desc": "Hệ thống PPR K Aqua là xương sống của vận tải chất lỏng hiện đại."
+        },
+        {
+          "title": "PHỤ KIỆN: HÌNH HỌC HOÀN HẢO",
+          "desc": "Mỗi phụ kiện K Aqua là một kiệt tác của cơ học chất lỏng."
+        },
+        {
+          "title": "VAN & PHỤ KIỆN: KIỂM SOÁT TUYỆT ĐỐI",
+          "desc": "Công nghệ kiểm soát và cách ly công nghiệp."
+        },
+        {
+          "title": "ỐNG COMPOSITE: SỰ TƯƠNG TÁC CỦA VẬT LIỆU",
+          "desc": "Nhôm kết hợp polyme hiệu suất cao."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "DỮ LIỆU HIỆU SUẤT",
+      "title": "SỰ VƯỢT TRỘI CÔNG NGHỆ.",
+      "lead": "Hệ thống K Aqua không chỉ là đường ống.",
+      "items": [
+        {
+          "title": "Hàn nhiệt",
+          "desc": "Mối hàn đồng nhất."
+        },
+        {
+          "title": "Miễn dịch ăn mòn",
+          "desc": "Chống ăn mòn tuyệt đối."
+        },
+        {
+          "title": "Tối ưu hóa dòng chảy",
+          "desc": "Công nghệ tường mịn."
+        },
+        {
+          "title": "Kháng áp lực PN25+",
+          "desc": "Được thiết kế cho ứng suất tối đa."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "QUY TRÌNH CÀI ĐẶT. ĐỊNH NGHĨA LẠI.",
+      "desc": "Nhanh hơn. An toàn hơn. Sạch hơn.",
+      "items": [
+        {
+          "year": "GIAI ĐOẠN 01",
+          "title": "KẾ HOẠCH & ĐỊNH CỠ",
+          "text": "Tính toán thủy lực chính xác."
+        },
+        {
+          "year": "GIAI ĐOẠN 02",
+          "title": "CẮT & CHUẨN BỊ",
+          "text": "Cắt lạnh."
+        },
+        {
+          "year": "GIAI ĐOẠN 03",
+          "title": "HÀN YẾU TỐ NHIỆT",
+          "text": "Công cụ làm nóng."
+        },
+        {
+          "year": "GIAI ĐOẠN 04",
+          "title": "KIỂM TRA ÁP LỰC",
+          "text": "Kiểm tra hệ thống."
+        },
+        {
+          "year": "GIAI ĐOẠN 05",
+          "title": "HOẠT ĐỘNG TRONG THẬP KỶ",
+          "text": "Không bảo trì."
+        }
+      ]
+    }
+  },
+  "catalogx": {
+    "eyebrow": "Danh mục sản phẩm đầy đủ",
+    "faqTitle": "Câu hỏi thường gặp",
+    "title": "Tất cả 79 họ sản phẩm, với mã số bài viết thực.",
+    "lead": "Ống, phụ tùng, phụ kiện chuyển đổi, van, yên hàn, phụ kiện và dụng cụ, mọi dòng đều đến từ danh mục K Aqua bắt buộc. Chọn danh mục, mở rộng bài viết, kiểm tra số bài viết.",
+    "searchPlaceholder": "Tìm kiếm số bài viết hoặc tên sản phẩm, ví dụ: 'AQ200P20' hoặc 'Elbow'",
+    "noResults": "Không tìm thấy. Điều chỉnh tìm kiếm hoặc chọn danh mục khác.",
+    "codesLabel": "Mã số bài viết",
+    "sizesLabel": "Kích thước",
+    "materialLabel": "Vật liệu",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Dòng sản phẩm",
+    "pressureLabel": "Áp suất hoạt động",
+    "lenLabel": "Chiều dài thanh",
+    "cats": {
+      "pipes": {
+        "label": "Ống",
+        "desc": "Ống PPR và PPRCT: Tiêu chuẩn, gia cố sợi và chống tia cực tím, 12 dòng."
+      },
+      "fittings": {
+        "label": "Phụ tùng",
+        "desc": "Phụ tùng hàn măng sông và hàn điện trở, d20–d125, 13 họ bài viết."
+      },
+      "transitionFittings": {
+        "label": "Phụ tùng chuyển tiếp",
+        "desc": "Chuyển sang ren và đồng thau, cho các kết nối và van hiện có, 13 họ."
+      },
+      "valves": {
+        "label": "Van",
+        "desc": "Van bi, van âm tường, van phân phối, 9 họ bài viết."
+      },
+      "weldInSaddles": {
+        "label": "Yên hàn",
+        "desc": "Nhánh không cắt ống, có và không có ren, 3 họ."
+      },
+      "accessories": {
+        "label": "Phụ kiện",
+        "desc": "Kẹp ống, mặt bích phản, miếng đệm, phích cắm: 5 họ bài viết."
+      },
+      "tools": {
+        "label": "Dụng cụ",
+        "desc": "Máy cắt ống, thiết bị hàn và dụng cụ cho cả 4 quy trình ghép, 14 họ."
+      }
+    },
+    "rfq": {
+      "title": "Yêu cầu dự án",
+      "desc": "Yêu cầu báo giá trực tiếp cho <span class=\"font-semibold\">{title}</span>.",
+      "button": "Đến yêu cầu"
+    },
+    "similar": {
+      "title": "Thêm từ {category}"
+    }
+  },
+  "solutions": {
+    "title": "Ứng dụng hệ thống",
+    "desc": "Von komplexen industriellen Netzwerken bis hin zur hygienischen Trinkwasserversorgung in Hochhäusern. K Aqua liefert die architektonische Grundlage für Projekte, die keine Kompromisse dulden.",
+    "items": {
+      "hot-cold-water": {
+        "title": "Trinkwasser",
+        "desc": "Toxikologisch unbedenklich und absolut korrosionsfrei. Unsere PP-R und PPRCT Systeme übertreffen die strengsten Hygieneanforderungen für Kalt- und Warmwasserinstallationen weltweit."
+      },
+      "climate-technology": {
+        "title": "Klimatechnik",
+        "desc": "Optimierte Strömungsdynamik und exzellente Isolationseigenschaften. Das ideale Rohrsystem für Kaltwasser-Klimaanlagen und komplexe Heizkreisläufe in gewerblichen Großprojekten."
+      },
+      "industrial-applications": {
+        "title": "Industrieanlagen",
+        "desc": "Chemisch inert und extrem druckbeständig. K Aqua Systeme widerstehen aggressiven Medien und industriellen Dauerbelastungen, wo herkömmliche Materialien längst versagen."
+      },
+      "shipbuilding": {
+        "title": "Schiffbau",
+        "desc": "Leichtgewichtige, salzwasserresistente und vibrationsabsorbierende Rohrleitungen. Geprüft und zertifiziert für den extremen Einsatz auf den Weltmeeren."
+      }
+    }
+  },
+  "service": {
+    "title": "Technischer Support",
+    "desc": "Wir verkaufen keine Rohre, wir liefern funktionierende Systeme. Unser Engineering-Team begleitet Sie von der ersten P&ID-Zeichnung bis zur finalen Druckprüfung auf der Baustelle.",
+    "items": {
+      "consulting": {
+        "title": "Engineering Consulting",
+        "desc": "Unsere Chef-Ingenieure analysieren Ihre Isometrien und übernehmen die hydraulische Dimensionierung für maximale Effizienz."
+      },
+      "training": {
+        "title": "Zertifizierung & Training",
+        "desc": "Schulung von Installateuren weltweit im K Aqua DVS-Schweißverfahren. Wir garantieren die Qualität der Ausführung."
+      },
+      "logistics": {
+        "title": "Globale Logistik",
+        "desc": "Just-in-time Lieferung an jede Baustelle der Welt. Unser Supply-Chain-Management toleriert keine Verzögerungen."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Die K Aqua Doktrin",
+      "title": "Wir formen Wasser.",
+      "lead": "Kein Marketing, keine Kompromisse. Nur pure Ingenieurskunst, entwickelt und gefertigt im Herzen Deutschlands. Wir sind das globale Rückgrat für Rohrleitungssysteme, die Generationen überdauern."
+    },
+    "history": {
+      "title": "Aus Waldsolms in die Welt",
+      "desc": "Was als Vision für perfektes Fluidmanagement begann, hat sich zu einem technologischen Maßstab entwickelt. Heute vertrauen die anspruchsvollsten Megaprojekte der Welt auf Systeme von K Aqua."
+    },
+    "material": {
+      "eyebrow": "Materialwissenschaft",
+      "title1": "Polypropylen Random Copolymerisat.",
+      "title2": "Entfesselt.",
+      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
+      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "items": [
+        {
+          "title": "Extreme Molmasse",
+          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+        },
+        {
+          "title": "Kristalline Optimierung",
+          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Die Evolution der Perfektion",
+      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Der Ursprung der Toleranzlosigkeit",
+          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+        },
+        {
+          "year": "2005",
+          "title": "Die Polypropylen-Revolution",
+          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+        },
+        {
+          "year": "2015",
+          "title": "Die architektonische Symbiose",
+          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+        },
+        {
+          "year": "2026",
+          "title": "Die Molekulare Diktatur",
+          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "DIE PHYSIK BEZWUNGEN",
+      "title": "Die Vier Säulen der Macht.",
+      "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "items": [
+        {
+          "title": "Absolutismus in der Qualität",
+          "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+        },
+        {
+          "title": "Thermische Unverwundbarkeit",
+          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+        },
+        {
+          "title": "Chemische Resistenz",
+          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+        },
+        {
+          "title": "Molekulare Fusion",
+          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "INDUSTRIELLE DOMINANZ",
+      "title": "Infrastruktur auf Steroiden.",
+      "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+      "items": [
+        {
+          "title": "Brachiale Extrusion",
+          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+        },
+        {
+          "title": "geprüfte Überlegenheit",
+          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+        },
+        {
+          "title": "Hygiene-Diktat",
+          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+        },
+        {
+          "title": "Ressourcen-Effizienz",
+          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Unternehmenspolitik",
+      "title": "Das Fundament unseres Handelns.",
+      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+      "items": [
+        {
+          "title": "Kunden-Obsession",
+          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+        },
+        {
+          "title": "Strategische Allianzen",
+          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+        },
+        {
+          "title": "Ökologischer Imperativ",
+          "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "geprüfte Qualität",
+      "title1": "Das ",
+      "titleHighlight": "GENAU",
+      "title2": " Management System",
+      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
+      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
+      "p3": " und ",
+      "list1Title": "Ökologische Verantwortung",
+      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
+      "list2Title": "Energieeffizienz",
+      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
+    }
+  }
+}

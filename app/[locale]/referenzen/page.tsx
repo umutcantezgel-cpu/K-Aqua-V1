@@ -52,6 +52,7 @@ export default async function ReferenzenPage({ params }: Props) {
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
       <JsonLd schema={jsonLd} />
       <div className="sr-only" aria-hidden="true">{meta[0]}</div>
+      <div className="sr-only" aria-hidden="true">{t('hero.titlePlain')} {t('hero.titleAccent')}</div>
 
       {/* Hero Section */}
       <ParallaxHero

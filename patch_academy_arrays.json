@@ -1,0 +1,88 @@
+{
+  "schulungen": {
+    "timeline": {
+      "items": [
+        {
+          "year": "FAZA 01",
+          "title": "Fizika materialov in uvajanje",
+          "text": "Razumevanje fizikalnih omejitev. Poglobljen uvod v molekularne specifikacije materialov PP-R/PPRCT. Tu se ulije temelj industrijske trdnosti."
+        },
+        {
+          "year": "FAZA 02",
+          "title": "Laboratorij in stresni testi",
+          "text": "Praktično uničevanje. Doživljanje meje porušitve na preskusni napravi in preučevanje mikroskopskih razpok. Le kdor pozna slabosti, lahko konstruira absolutno moč."
+        },
+        {
+          "year": "FAZA 03",
+          "title": "Doktrina fuzije",
+          "text": "Popoln varilni protokol. Mehansko usposabljanje termodinamičnih gibov do nezmotljivega mišičnega avtomatizma. Vsak gib roke je kalibriran."
+        },
+        {
+          "year": "FAZA 04",
+          "title": "Sistemska arhitektura",
+          "text": "Stopnjevanje od enostavnega cevnega segmenta do infrastrukture nebotičnika. Z jekleno logiko izvajamo tabele padcev tlaka, hitrosti pretoka in delilnike pretoka."
+        },
+        {
+          "year": "FAZA 05",
+          "title": "Mojstrski izpit",
+          "text": "48-urna presoja pod neusmiljenim nadzorom nemških glavnih inženirjev. Ni tolerance za napačne izračune. Ena napaka pomeni takojšnjo izključitev."
+        }
+      ]
+    }
+  },
+  "zertifizierung": {
+    "bento": {
+      "items": [
+        {
+          "title": "Ekstremna tlačna odpornost",
+          "desc": "preizkušeno za trajne obremenitve do PN20/PN25. Naši preskusi porušitvenega tlaka dokazujejo rezerve daleč nad standardi. Pokanja cevi so preteklost."
+        },
+        {
+          "title": "Toplotna suverenost",
+          "desc": "Trajno odporno od -20°C do +95°C. Brez utrujenosti materiala, brez strukturne oslabitve, tudi pri ekstremnih toplotnih šokih."
+        },
+        {
+          "title": "Absolutna higiena",
+          "desc": "Brez korozije. Brez inkrustacije. Varno za živila, toksikološko neoporečno in odporno na rast legionele."
+        },
+        {
+          "title": "Požarna zaščita (B1/B2)",
+          "desc": "Klasificirano po DIN 4102. Težko vnetljivo in z minimalnim nastajanjem dima za največjo varnost v kritičnih infrastrukturah."
+        },
+        {
+          "title": "Doživljenjska garancija",
+          "desc": "Opredeljena življenjska doba 50 let v skladu z najstrožjim standardom ISO. V arhitekturni realnosti pa so zgrajeni, da trajajo cele generacije."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "1990",
+          "title": "Rojstvo standarda",
+          "text": "Kot pionirji pri ekstruziji plastičnih cevi smo zgodaj implementirali interne preizkusne postopke, ki so daleč presegli takratne zahteve industrije. Temelj za kulturo kakovosti brez kompromisov."
+        },
+        {
+          "year": "1995",
+          "title": "Integracija ISO 9001",
+          "text": "Celovit pregled naših sistemov vodenja kakovosti v skladu z ISO 9001. Vsak postopek, vsaka serija surovin in vsaka nastavitev stroja je od takrat sistematično dokumentirana in popolnoma sledljiva."
+        },
+        {
+          "year": "2005",
+          "title": "Preskus DVGW & SKZ",
+          "text": "Sprejem v ekskluziven krog proizvajalcev, ki so pridobili certifikata DVGW in SKZ. Uradni pečat za absolutno higieno, ekstremno tlačno odpornost in neprekosljivo vzdržljivost v najtežjih pogojih pitne vode."
+        },
+        {
+          "year": "2015",
+          "title": "Globalni standardi (WRAS, KTW)",
+          "text": "Širitev certifikatov za mednarodne trge. Skladnost s strogo smernico KTW (Zvezna agencija za okolje) in britanskimi specifikacijami WRAS. K Aqua postane globalni standard za mednarodne megaprojekte."
+        },
+        {
+          "year": "2024",
+          "title": "Analitika kakovosti naslednje generacije",
+          "text": "Uvedba visoko avtomatiziranih testov OIT in MFR v lastnem preciznem laboratoriju. Analiza napak med ekstruzijo, podprta z umetno inteligenco, za 100-odstotno stopnjo brez napak."
+        }
+      ]
+    }
+  }
+}

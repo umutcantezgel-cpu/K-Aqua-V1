@@ -1,0 +1,34 @@
+{
+  "finder": {
+    "eyebrow": "Produktfinder",
+    "title1": "Inga PDF-öknar.",
+    "titleGrad": "Omedelbar data.",
+    "lead": "Istället för 220-sidiga kataloger: Filtrera hela PP-R/PPRCT-systemet interaktivt. Dimension, tryckklass, väggtjocklek, allt live.",
+    "type": "Produkttyp",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Fiberkomposit (GF)",
+      "fitting": "Formdelar"
+    },
+    "sdr": "Tryckklass (SDR)",
+    "maxD": "Max. ytterdiameter",
+    "upTo": "till",
+    "maxDAria": "Maximal ytterdiameter i millimeter",
+    "found": "artikelvarianter hittade. Alla omedelbart med väggtjocklek, innerdiameter och nominellt tryck.",
+    "catalog": "Katalog (PDF)",
+    "tableHead": [
+      "Typ",
+      "d (mm)",
+      "SDR",
+      "Vägg (mm)",
+      "di (mm)",
+      "Nom. tryck"
+    ],
+    "more": "+ {n} fler. Förfina filtren för hela listan.",
+    "none": "Inga träffar. Lätta på filtren.",
+    "nextEyebrow": "Tänk vidare",
+    "nextTitle": "Hur klimatvänlig är din planering?",
+    "nextLead": "Överför dimension och längd direkt till CO₂-kalkylatorn och jämför mot koppar, rostfritt stål och PVC.",
+    "nextCta": "Till CO₂-kalkylatorn"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie die Tabelle.",
+    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
+      {
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR und maximale Dimension eingrenzen oder direkt „d110\" in die Suche tippen."
+      },
+      {
+        "t": "Prüfen & exportieren",
+        "d": "Zeile anklicken für Wandstärke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation."
+      },
+      {
+        "t": "Anfrage übergeben",
+        "d": "Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam."
+      }
+    ]
+  },
+  "co2x": {
+    "methEyebrow": "Methodik",
+    "methTitle": "So rechnet der Rechner.",
+    "methLead": "Transparenz statt Blackbox: vier Bausteine hinter jedem Ergebnis.",
+    "meth": [
+      {
+        "t": "Massenmodell aus der SDR-Geometrie",
+        "d": "Die Rohrmasse folgt aus Ringquerschnitt × Länge × Dichte (0,905 g/cm³), dieselbe Geometrie wie in den Dimensionstabellen."
+      },
+      {
+        "t": "Materialfaktoren",
+        "d": "Die Emissionsfaktoren je Werkstoff sind Demonstrationswerte für den Systemvergleich. Verbindliche Faktoren liefern ecoinvent bzw. produktspezifische Typ-III-EPDs nach EN 15804."
+      },
+      {
+        "t": "Anschauliche Äquivalente",
+        "d": "Umrechnung mit rund 25 kg CO₂ Jahresbindung je Baum und 0,15 kg CO₂e je Pkw-Kilometer, Größenordnungen, die jeder im Projektmeeting versteht."
+      },
+      {
+        "t": "Belegbarer Pfad",
+        "d": "Für Audit und Prüfung zählt das Dokument: EPD-Datenblätter und Scope-3-Daten gibt es im Trust Center bzw. auf Anfrage."
+      }
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Wo die Zahlen einzahlen.",
+    "certLead": "CO₂-Nachweise sind kein Selbstzweck: sie zahlen direkt auf Gebäudezertifizierungen ein.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPDs nach EN 15804 zahlen auf die Material-Credits ein. Der Rechner liefert das Vorab-Argument, die EPD den Nachweis."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Lebenszyklusdaten der Materialien fließen in die Bewertung, belastbar durch Typ-III-Deklarationen."
+      },
+      {
+        "t": "DGNB",
+        "d": "Die Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen. Materialwahl mit niedrigem GWP wirkt direkt."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: kurz erklärt",
+    "scopeText": "Scope 1 umfasst direkte Emissionen des Werks, Scope 2 den eingekauften Strom, Scope 3 die Lieferkette, also auch Ihre eingekauften Rohre. Deshalb stellt K Aqua Scope-3-Daten und EPD-Rohdaten auf Anfrage bereit: proaktive Transparenz für Ihre eigene Klimabilanz.",
+    "statNote": "Aus Branchenstudien: Rund die Hälfte der B2B-Kunden kauft bevorzugt bei nachweislich nachhaltigen Lieferanten. Der Nachweis wird zum Beschaffungskriterium."
+  },
+  "homedeep": {
+    "plantEyebrow": "Aus dem Werk Waldsolms",
+    "plantTitle": "Präzision, die man messen kann.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/Tag",
+        "l": "Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte"
+      },
+      {
+        "n": "0,007",
+        "u": "mm",
+        "l": "Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Jahre",
+        "l": "Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Zertifikate und Audit Dokumente als Self Service im Trust Center.",
+    "badgeCta": "Zum Trust Center"
+  },
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Angaben gemäß § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Geschäftsführung",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Registergericht & Sitz",
+          "content": "Wetzlar HRB 6732\n\nSitz der Gesellschaft:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "Umsatzsteuer-ID",
+          "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Rechtliche Hinweise & Disclaimer",
+          "content": "K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.\n\nHaftung für Links\nUnsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+        },
+        {
+          "id": "section-faq",
+          "title": "Häufig gestellte Fragen (Impressum & Service)",
+          "content": "Wie kann ich den technischen Support kontaktieren?\nSie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.\n\nWo finde ich detaillierte Zertifikate und Zulassungen?\nAlle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.\n\nWelche Gewährleistung bietet K Aqua?\nK Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Datenschutz auf einen Blick",
+          "content": "Diese Datenschutzerklärung informiert Sie darüber, welche personenbezogenen Daten auf dieser Website tatsächlich verarbeitet werden und zu welchem Zweck.\n\nKurz zusammengefasst: Wir verarbeiten personenbezogene Daten nur, wenn Sie uns diese aktiv über unsere Kontakt- und Anfrageformulare mitteilen, sowie in technisch notwendigem Umfang beim Aufruf der Website (Server-Logdaten unseres Hosting-Anbieters). Analyse- oder Marketing-Dienste Dritter setzen wir derzeit nicht ein; entsprechende Technologien würden ausschließlich nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner geladen."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Verantwortliche Stelle",
+          "content": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelefon: +49 (0)60 85 / 9868-410\nE-Mail: info@k-aqua.de\n\nVerantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Datenschutzbeauftragter",
+          "content": "Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nTelefon: +49 2861 80847 700\nE-Mail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Hosting und Server-Logfiles",
+          "content": "Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.\n\nDiese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Kontakt- und Anfrageformulare",
+          "content": "Wenn Sie eines unserer Anfrageformulare nutzen, verarbeiten wir die dort angegebenen Daten: Telefonnummer, E-Mail-Adresse, das von Ihnen gewählte Anliegen sowie die Seite, von der die Anfrage gesendet wurde. Diese Daten werden per E-Mail an info@k-aqua.de übermittelt und (sofern ein CRM-System angebunden ist) dort zur Bearbeitung Ihrer Anfrage gespeichert.\n\nBei Bewerbungen über das Karriereformular werden die von Ihnen angegebenen Bewerbungsdaten (Name, Kontaktdaten, Lebenslauf bzw. Angaben zu Erfahrung und Ausbildung) per E-Mail an unsere Personalabteilung übermittelt.\n\nZweck der Verarbeitung ist ausschließlich die Bearbeitung Ihrer Anfrage bzw. Bewerbung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.\n\nZum Schutz vor automatisierten Spam-Einsendungen setzen wir eine unsichtbare technische Prüfung (Honeypot-Feld und Zeitschwelle) ein, ohne Captcha-Dienste Dritter."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies und Einwilligung",
+          "content": "Diese Website verwendet technisch notwendige Cookies bzw. vergleichbare Speichertechnologien, etwa zur Speicherung Ihrer Sprach- und Darstellungseinstellungen sowie Ihrer Cookie-Entscheidung. Diese sind für den Betrieb der Website erforderlich (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO bzw. § 25 Abs. 2 TDDDG).\n\nÜber den Cookie-Banner können Sie zusätzlich den Kategorien \"Analyse\" und \"Marketing\" zustimmen. Derzeit setzen wir keine Analyse- oder Marketing-Dienste ein; sollten solche Dienste künftig eingebunden werden, werden sie ausschließlich nach Ihrer Einwilligung geladen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Ihre Rechte",
+          "content": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:\n\n- Auskunft über Ihre gespeicherten personenbezogenen Daten (Art. 15 DSGVO)\n- Berichtigung unrichtiger Daten (Art. 16 DSGVO)\n- Löschung (Art. 17 DSGVO)\n- Einschränkung der Verarbeitung (Art. 18 DSGVO)\n- Datenübertragbarkeit (Art. 20 DSGVO)\n- Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n- Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)\n\nWenden Sie sich hierzu an die oben genannte verantwortliche Stelle oder unseren Datenschutzbeauftragten. Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (für uns: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI), Wiesbaden)."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL- bzw. TLS-Verschlüsselung",
+          "content": "Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte (etwa Ihrer Anfragen an uns) eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \"https://\" und dem Schloss-Symbol in der Adresszeile Ihres Browsers. Bei aktivierter Verschlüsselung können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+        }
+      ]
+    },
+    "toc": "Inhalt",
+    "eyebrow": "Rechtliches"
+  },
+  "navigation": {
+    "cookieTitle": "We use cookies",
+    "cookieDesc": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "cookieAccept": "Accept All",
+    "cookieDecline": "Decline Only Essential"
+  },
+  "cookieConsent": {
+    "title": "Privatsphäre-Einstellungen & Cookies",
+    "description": "Wir nutzen Cookies und ähnliche Technologien (wie Pixel und Local Storage), um dir das bestmögliche Erlebnis auf unserer Plattform zu bieten. Einige sind zwingend erforderlich, während andere uns helfen, diese Website zu verbessern. Du hast jederzeit die volle Kontrolle.",
+    "customize": "Einstellungen anpassen",
+    "declineAll": "Nur Essenzielle",
+    "acceptAll": "Alle akzeptieren",
+    "acceptSelected": "Auswahl speichern",
+    "essentialTitle": "Essenziell (Technisch notwendig)",
+    "essentialDesc": "Diese Cookies sind für das reibungslose Funktionieren der Website (z. B. Navigation, Sicherheit, Speicherung deiner Privacy-Präferenzen) zwingend erforderlich. Ohne diese Technologien kann K Aqua nicht ordnungsgemäß betrieben werden. Sie speichern keine persönlich identifizierbaren Daten.",
+    "analyticsTitle": "Statistik & Analyse",
+    "analyticsDesc": "Diese Cookies helfen uns, das Verhalten unserer Besucher zu verstehen. Wir sammeln pseudonymisierte Daten darüber, wie Nutzer mit K Aqua interagieren (z. B. meistbesuchte Seiten, Verweildauer, Fehlermeldungen). Dadurch können wir Fehler beheben und die Plattform kontinuierlich verbessern.",
+    "marketingTitle": "Marketing & Personalisierung",
+    "marketingDesc": "Wir verwenden diese Technologien, um dir relevantere Inhalte und Werbeanzeigen (auch auf externen Plattformen) anzuzeigen. Wenn du dies deaktivierst, siehst du weiterhin Werbung, diese ist jedoch weniger auf deine Interessen zugeschnitten.",
+    "vendorListTitle": "Detaillierte Cookie-Liste ansehen",
+    "backToSimple": "Zurück zur Übersicht"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit und Langlebigkeit für anspruchsvolle Projekte weltweit.",
+      "p2": "Dank fortschrittlicher Materialien und präziser Fertigung in Deutschland garantieren wir eine einfache Installation und dauerhafte Sicherheit.",
+      "p3": "Vertrauen Sie auf zertifizierte Qualität und nachhaltige Lösungen, die höchsten internationalen Standards entsprechen und die Effizienz Ihres Projekts steigern."
+    },
+    "extendedMarketText": {
+      "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
+      "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Die wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv in internationalen Märkten, um dem wachsenden Bedarf an hygienischen und verlustfreien Rohrnetzen zu begegnen. Ob in wasserarmen Regionen, in denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, oder in hochverdichteten Metropolen mit komplexen Anforderungen an den Brandschutz und die Schallisolierung: unsere PP-R und PPRCT Systeme bieten die notwendige Zuverlässigkeit.",
+      "p5": "Dabei setzen wir nicht nur auf den reinen Produktvertrieb, sondern verstehen uns als strategischer Partner vor Ort. Durch technische Schulungen, Vor-Ort-Supervision und die enge Zusammenarbeit mit lokalen Behörden stellen wir sicher, dass internationale Normen (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung der globalen Wasserinfrastruktur bei."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Schnellkontakt & Kultur",
+      "detailed": "Jobportal & Bewerbung"
+    },
+    "portal": {
+      "eyebrow": "Offene Stellen",
+      "title": "Werde Teil unseres",
+      "titleGrad": "Teams",
+      "lead": "Entdecke spannende Karrieremöglichkeiten bei K Aqua und bewirb dich in wenigen Minuten.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Produktionsmitarbeiter (m/w/d)",
+          "type": "Vollzeit / Schicht",
+          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+        },
+        {
+          "id": "machine",
+          "title": "Maschinen- und Anlagenführer (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+        },
+        {
+          "id": "logistics",
+          "title": "Fachkraft für Lagerlogistik (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+        },
+        {
+          "id": "sales",
+          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+        },
+        {
+          "id": "pm",
+          "title": "Produktmanager (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+        },
+        {
+          "id": "init",
+          "title": "Initiativbewerbung",
+          "type": "Vollzeit / Teilzeit",
+          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+        }
+      ],
+      "steps": {
+        "step1": "Persönliche Daten",
+        "step2": "Lebenslauf & Unterlagen",
+        "step3": "Überprüfung"
+      },
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "startDate": "Frühestmögliches Eintrittsdatum",
+        "uploadTitle": "PDF hochladen",
+        "uploadDesc": "Ziehe deinen Lebenslauf hierhin oder klicke zum Auswählen (max. 5MB)",
+        "builderTitle": "Oder: CV online erstellen",
+        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
+        "workExp": "Berufserfahrung hinzufügen",
+        "education": "Ausbildung hinzufügen",
+        "company": "Unternehmen",
+        "role": "Position",
+        "school": "Schule / Uni",
+        "degree": "Abschluss",
+        "from": "Von",
+        "to": "Bis",
+        "skills": "Fähigkeiten (Kommagetrennt)",
+        "next": "Weiter",
+        "back": "Zurück",
+        "submit": "Bewerbung absenden",
+        "submitting": "Wird gesendet...",
+        "success": "Vielen Dank für deine Bewerbung!",
+        "successSub": "Wir haben deine Unterlagen erhalten und melden uns in Kürze bei dir.",
+        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+      }
+    }
+  },
+  "menu": {
+    "pipes": "Rohre",
+    "fittings": "Fittings",
+    "transition": "Übergangsfittings",
+    "valves": "Ventile & Hähne",
+    "tools": "Schweißwerkzeuge"
+  },
+  "quote": "Projektanfrage"
+}

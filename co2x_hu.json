@@ -1,0 +1,45 @@
+{
+  "co2x": {
+    "methEyebrow": "Módszertan",
+    "methTitle": "Így számol a kalkulátor.",
+    "methLead": "Átláthatóság a fekete doboz helyett: négy építőelem minden eredmény mögött.",
+    "meth": [
+      {
+        "t": "Tömegmodell az SDR geometriából",
+        "d": "A cső tömege a gyűrű keresztmetszetéből × hosszból × sűrűségből (0,905 g/cm³) adódik, ugyanaz a geometria, mint a mérettáblázatokban."
+      },
+      {
+        "t": "Anyagtényezők",
+        "d": "Az anyagonkénti kibocsátási tényezők a rendszer összehasonlítását szolgáló demonstrációs értékek. Kötelező érvényű tényezőket az ecoinvent, illetve az EN 15804 szerinti termékspecifikus III. típusú EPD-k szolgáltatnak."
+      },
+      {
+        "t": "Szemléletes egyenértékek",
+        "d": "Átszámítás fánként kb. 25 kg CO₂ éves megkötéssel és személygépkocsi-kilométerenként 0,15 kg CO₂e-vel, olyan nagyságrendek, amelyeket mindenki megért a projektmegbeszéléseken."
+      },
+      {
+        "t": "Igazolható útvonal",
+        "d": "Az audit és a vizsgáztatás szempontjából a dokumentum a mérvadó: az EPD adatlapok és a Scope-3 adatok a Trust Centerben, illetve kérésre elérhetők."
+      }
+    ],
+    "certEyebrow": "Zöld Építés (Green Building)",
+    "certTitle": "Hol számítanak a számok.",
+    "certLead": "A CO₂-igazolások nem öncélúak: közvetlenül hozzájárulnak az épületteljesítmény-tanúsítványokhoz.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "Az EN 15804 szerinti EPD-k beszámítanak az anyagok pontértékébe (Credits). A kalkulátor biztosítja az előzetes érvet, az EPD pedig a bizonyítékot."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Az anyagok életciklus-adatai beépülnek az értékelésbe, amelyet a III. típusú nyilatkozatok támasztanak alá."
+      },
+      {
+        "t": "DGNB",
+        "d": "Az épület életciklus-értékelése teljes kritériumcsoportokat dönt el. Az alacsony GWP-vel rendelkező anyagválasztás közvetlen hatással van."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: röviden elmagyarázva",
+    "scopeText": "A Scope 1 a gyár közvetlen kibocsátását foglalja magában, a Scope 2 a vásárolt villamos energiát, a Scope 3 pedig az ellátási láncot, tehát az Ön által vásárolt csöveket is. Éppen ezért a K-Aqua kérésre rendelkezésre bocsátja a Scope-3 adatokat és az EPD nyersadatokat: proaktív átláthatóság az Ön saját klímamérlegéhez.",
+    "statNote": "Iparági tanulmányokból: A B2B ügyfelek mintegy fele előnyben részesíti az igazoltan fenntartható beszállítóktól történő vásárlást. Az igazolás beszerzési kritériummá válik."
+  }
+}

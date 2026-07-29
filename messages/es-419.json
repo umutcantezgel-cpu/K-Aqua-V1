@@ -1,0 +1,2793 @@
+{
+  "toggle_theme_light": "Cambiar a tema claro",
+  "toggle_theme_dark": "Cambiar a tema oscuro",
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "finder": "Buscador de productos",
+    "co2": "Calculadora de CO₂",
+    "markets": "Mercados",
+    "trust": "Centro de confianza",
+    "contact": "Contacto",
+    "quote": "Solicitar cotización",
+    "menu": "Menú",
+    "lang": "Idioma",
+    "skipToContent": "Saltar al contenido",
+    "menuPlaceholder": "Marcador de posición (Megamenú)",
+    "academy": "Academia",
+    "service": "Servicios",
+    "about": "Empresa",
+    "solutions": "Soluciones",
+    "partners": "Socios",
+    "references": "Referencias",
+    "career": "Carreras",
+    "news": "Noticias",
+    "knowledge_trust": "Conocimiento y Confianza",
+    "mapAria": "Abrir navegación del mapa",
+    "sitemapAria": "Mapa del sitio",
+    "pipes": "Tuberías",
+    "fittings": "Conexiones",
+    "valves": "Válvulas",
+    "accessories": "Accesorios",
+    "tools": "Herramientas"
+  },
+  "groups": {
+    "tools": "Herramientas",
+    "knowledge": "Conocimiento",
+    "company": "Empresa",
+    "products": "Productos",
+    "markets_solutions": "Mercados y Soluciones",
+    "knowledge_resources": "Conocimiento y Recursos"
+  },
+  "pages": {
+    "catalogOverview": "Catálogo completo de productos",
+    "products": [
+      "Productos y Conexiones",
+      "Descubra los sistemas completos de tuberías plásticas de K-Aqua desde d20 hasta d630 mm. Tuberías PP-R y PPRCT de alto rendimiento para el hogar y la industria."
+    ],
+    "finder": [
+      "Buscador de productos",
+      "Encuentre de inmediato la tubería, conexión o válvula PP-R o PPRCT perfecta. Filtre nuestro catálogo en vivo por dimensión, clase de presión y espesor de pared."
+    ],
+    "finderGuideText": "<h2>Buscador interactivo de productos para sistemas de tuberías K-Aqua</h2><p>Utilice nuestro innovador buscador de productos para identificar el componente exacto para su instalación de tuberías específica. Ya sea que busque tuberías PP-R estándar para instalaciones de agua potable, tuberías PPRCT reforzadas con fibra para sistemas industriales exigentes o conexiones de transición y válvulas especiales, nuestra herramienta filtra todo el catálogo en tiempo real. La búsqueda de productos lo asiste en la selección por diámetro (d20 a d630), clase de presión (clase SDR) y material.</p><p>Un sistema de tuberías bien estructurado requiere una planificación precisa y la combinación exacta de tuberías, piezas conformadas (como coplas, codos y tees) y los accesorios correspondientes. Nuestro buscador de productos elimina la laboriosa búsqueda en catálogos PDF estáticos y le proporciona de inmediato datos fiables sobre números de artículo, unidades de embalaje y especificaciones técnicas. Con solo unos clics puede compilar su lista de materiales y asegurar la compatibilidad de los diferentes componentes para sistemas de calefacción, refrigeración y agua potable. Esto no solo optimiza su proceso de planificación, sino que también minimiza los errores al pedir material para su próximo proyecto de construcción.</p>",
+    "co2": [
+      "Calculadora de CO2",
+      "Compare la huella de carbono de las tuberías plásticas PP-R de K-Aqua con el cobre, acero inoxidable y PVC. Verificado según ISO 14040/44 para Green Building."
+    ],
+    "solutions": [
+      "Ventajas del material",
+      "Descubra por qué el polipropileno (PP-R/PPRCT) es el material superior para el suministro de agua. Ecológico, tecnológicamente avanzado y rentable."
+    ],
+    "academy": [
+      "K-Aqua Academy: Técnicas de termofusión PP-R y conocimientos técnicos",
+      "Aprenda técnicas profesionales de termofusión para tuberías plásticas PP-R. Vea nuestros videos tutoriales y complete nuestro cuestionario Welding Master."
+    ],
+    "trust": [
+      "Centro de Confianza",
+      "Acceda a la documentación de calidad de K-Aqua. Descargue los certificados ISO, el marco de trabajo GENAU y los documentos de auditoría para su proyecto."
+    ],
+    "service": [
+      "Centro de Servicios y Descargas",
+      "Descargue los catálogos de productos oficiales de K-Aqua, las fichas técnicas y las guías de instalación para los sistemas de tuberías plásticas PP-R y PPRCT."
+    ],
+    "partner": [
+      "Asociación KESSEL",
+      "K-Aqua y KESSEL comparten una asociación de décadas que traslada los estándares de fabricación alemanes desde el drenaje hasta el suministro de agua."
+    ],
+    "markets": [
+      "Mercados y Ubicaciones",
+      "K-Aqua suministra sistemas de tuberías PP-R en más de 27 países. Utilice nuestro mapa mundial interactivo para conocer los estándares locales, perfiles de agua e información logística."
+    ],
+    "references": [
+      "Proyectos de Referencia",
+      "Descubra proyectos de referencia a nivel mundial con los sistemas de tuberías PP-R de K-Aqua. Nuestro globo 3D interactivo muestra instalaciones residenciales, comerciales e industriales."
+    ],
+    "about": [
+      "Acerca de KWT GmbH",
+      "KWT GmbH combina décadas de experiencia para fabricar el sistema de tuberías premium K-Aqua. Ingeniería alemana para la más alta calidad e innovación."
+    ],
+    "career": [
+      "Carreras en K-Aqua",
+      "Únase a nuestro equipo en Waldsolms. Calcule sus beneficios netos libres de impuestos y compruebe en 60 segundos si K-Aqua es la opción adecuada para usted."
+    ],
+    "news": [
+      "Actualidad y Noticias | Avisos corporativos de K-Aqua",
+      "Manténgase al día sobre las innovaciones de K-Aqua, productos, apariciones en ferias y nuestro compromiso con la producción triplemente certificada por la ISO."
+    ],
+    "contact": [
+      "Contacto, Ventas y Soporte",
+      "Comuníquese con el equipo de expertos de K-Aqua para consultas de ventas, soporte o asociaciones. Tiempos de respuesta rápidos para clientes B2B globales."
+    ],
+    "rfq": [
+      "Solicitud de proyecto",
+      "Solicite una cotización sin compromiso para su próximo proyecto de tuberías en cuatro sencillos pasos. Nuestro equipo de ventas se comunicará con usted en 24 horas."
+    ],
+    "home": [
+      "Sistemas de tuberías PP-R y PPRCT",
+      "K-Aqua produce sistemas de tuberías plásticas PP-R y PPRCT de primera clase para agua potable y aplicaciones industriales. Ingeniería alemana para proyectos globales."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Política de Privacidad",
+        "Declaración de privacidad completa para el sitio web de K-Aqua conforme a las directrices del RGPD."
+      ],
+      "impressum": [
+        "Aviso legal e Información de la empresa",
+        "Aviso legal e información corporativa de KWT GmbH, fabricante de K-Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "calidad comprobada",
+      "title1": "El ",
+      "titleHighlight": "GENAU",
+      "title2": " Sistema de Gestión",
+      "p1": "El objetivo del sistema de gestión GENAU es la mejora continua de la salud, seguridad ocupacional y protección ambiental en la empresa.",
+      "p2": "Todas las actividades empresariales en KWT se llevan a cabo teniendo en cuenta la conservación de recursos, la compatibilidad ambiental y el cumplimiento estricto de todas las obligaciones. El sistema de gestión GENAU implementado cumple con los altos requisitos de ",
+      "p3": " y ",
+      "list1Title": "Responsabilidad Ecológica",
+      "list1Desc": "La protección del medio ambiente es parte de nuestro concepto de calidad, al cual se comprometen todos los empleados de KWT GmbH.",
+      "list2Title": "Eficiencia Energética",
+      "list2Desc": "Identificación específica de riesgos y aplicación de medidas para optimizar la eficiencia energética."
+    },
+    "pipes": [
+      "Tuberías y Sistemas",
+      "Tuberías de PP-R y PP-RCT de alto rendimiento para el hogar y la industria. Descubra todas las clases SDR y dimensiones para su próximo proyecto."
+    ],
+    "fittings": [
+      "Piezas y Conexiones",
+      "Gama completa de conexiones para todos los sistemas de tuberías K-Aqua. Descubra codos, tees, reducciones y coplas para la termofusión."
+    ],
+    "valves": [
+      "Accesorios y Válvulas",
+      "Válvulas y accesorios premium para redes de tuberías. Válvulas de bola de alta calidad, válvulas empotradas, válvulas de asiento inclinado y válvulas de retención."
+    ],
+    "tools": [
+      "Herramientas y Accesorios",
+      "Herramientas profesionales de termofusión y accesorios para la instalación de PP-R. Descubra máquinas de soldar, cortatubos y herramientas especiales."
+    ],
+    "transition-fittings": [
+      "Transiciones",
+      "Conexiones de transición fiables para uniones seguras. Descubra las conexiones de transición de latón con rosca o bridas."
+    ]
+  },
+  "home": {
+    "chip": "comprobado desde octubre de 2025",
+    "h1a": "Líder en",
+    "h1b": "sistemas de tuberías PP-R K-Aqua",
+    "globeAria": "Globo interactivo, arrastre para girar",
+    "scrolly": [
+      {
+        "t": "Fabricado en Alemania",
+        "d": "Desarrollo y producción en nuestra sede en Waldsolms para cada tubería, cada conexión."
+      },
+      {
+        "t": "d20 hasta d630",
+        "d": "Un sistema completo: cinco clases de presión, conexiones, válvulas y tecnología de termofusión."
+      },
+      {
+        "t": "Triplemente certificado",
+        "d": "ISO 9001, 14001 y 50001: calidad, medio ambiente y energía en un solo sistema de gestión."
+      },
+      {
+        "t": "27 mercados a nivel mundial",
+        "d": "Desde Frankfurt hasta NEOM: probado frente a las normas locales y perfiles de agua."
+      }
+    ],
+    "lead": "K-Aqua desarrolla y fabrica sistemas de tuberías de PP-R y PP-RCT para agua potable desde 20 hasta 630 mm, en asociación con el fabricante premium KESSEL.",
+    "ctaProducts": "Descubrir los sistemas de productos",
+    "ctaContact": "Ponerse en contacto",
+    "toolsEyebrow": "Herramientas interactivas",
+    "toolsTitle1": "No hay muros de texto.",
+    "toolsTitle2": "Solo herramientas.",
+    "toolsLead": "El sitio web trabaja para usted: filtre, calcule, aprenda.",
+    "bandTitle": "¿Listo para la próxima generación en suministro de agua?",
+    "bandLead": "Hable con nuestro equipo de ventas sobre su proyecto, desde la planificación hasta la tecnología de termofusión.",
+    "bandBtn": "Iniciar solicitud de proyecto",
+    "bandBtn2": "Descargas y Servicios"
+  },
+  "geo": {
+    "eyebrow": "Mercados y Ubicaciones",
+    "title1": "Un mundo de",
+    "title2": "Mercados.",
+    "lead": "Descubra las ubicaciones de K-Aqua para sistemas de tuberías PP-R: {n} mercados en {c} países, cada uno con su propia página de inicio sobre normas, perfiles de agua, casos de uso y logística. Agarre el mundo y gírelo libremente; la lista lo llevará directamente a la ciudad.",
+    "all": "Todos",
+    "cityTitle": "Sistemas de tuberías PP-R/PPRCT en {city}.",
+    "cityLead": "Sistemas de agua potable d20–d630, probados contra los requisitos locales.",
+    "allMarkets": "Todos los mercados",
+    "request": "Solicitar proyecto",
+    "finder": "Buscador de productos",
+    "fromPlant": "km desde la fábrica en Waldsolms",
+    "regFrame": "Marco regulatorio",
+    "water": "Perfil de agua y respuesta del material",
+    "typical": "Proyectos típicos en {city}",
+    "onSite": "Procesamiento en el sitio",
+    "onSiteText": "Instrucción de tecnología de termofusión y documentación en video para su equipo en la Academia.",
+    "toAcademy": "A la Academia",
+    "nearbyEyebrow": "Mercados relacionados",
+    "nearby": "Cercanos.",
+    "prodNote": "Nota de producción: Estas páginas corresponden a la plantilla SEO programática (Porción de datos: Producto × Regulaciones × Región). En Next.js se generan mediante ISR a partir del CMS Headless, incluyendo hreflang, Product-/Offer-Schema y enlaces internos semánticos.",
+    "km": "km",
+    "seoExpansion": "K-Aqua fabrica en Waldsolms sistemas de tuberías PP-R y PPRCT para las más altas exigencias de la tecnología de construcción y plantas a nivel mundial. Gracias a la inflexible ingeniería alemana y la tecnología de producción más moderna, nuestros sistemas garantizan décadas de confiabilidad operativa libre de mantenimiento. Cada producto, desde d20 hasta d630, pasa por estrictos controles de calidad y cumple con los estándares internacionales como DVGW, KIWA y SKZ. No solo ofrecemos materiales de primera clase para agua potable, refrigeración e industria, sino que también apoyamos a los planificadores e instaladores con un soporte técnico integral y capacitación en el sitio. Confíe en un sistema que convence por su extrema durabilidad, resistencia a la corrosión e higiene absoluta.",
+    "seoExpansionDynamic": "Obtenga más información sobre nuestras soluciones PP-R y PPRCT en {city}. Cumplimos con los estándares locales ({regulator}) y ofrecemos sistemas óptimos para la calidad del agua ({water}). Nota adicional: {note}.",
+    "cityMetaTitle": "Sistemas de tuberías PP-R en {city}",
+    "hubMetaTitle": "Sistemas de tuberías PP-R para {country}",
+    "hubH1": "Soluciones de infraestructura para {country}",
+    "hubLead": "K-Aqua ofrece soluciones de infraestructura PP-R y PP-RCT certificadas para {country}. Nuestros sistemas de tuberías cumplen con los más altos estándares internacionales y están optimizados para los desafíos específicos en {country}.",
+    "hubContextTitle": "Contexto regional: {context}",
+    "hubContextBody": "Nuestros sistemas de tuberías PP-R/PP-RCT de K-Aqua, fabricados en Alemania, brindan soluciones de infraestructura sostenibles para {country}. Están diseñados específicamente para satisfacer los desafíos de infraestructura locales.",
+    "hubCitiesTitle": "Ubicaciones locales y ciudades de referencia",
+    "hubs": {
+      "deutschland": {
+        "description": "Como mercado de origen de K-Aqua, Alemania plantea las mayores exigencias en cuanto a la calidad y durabilidad de la construcción. Nuestros <span class=\"font-semibold\">sistemas de tuberías PP-R y PP-RCT</span> abordan de manera eficaz y sostenible el retraso urgente en las renovaciones de la infraestructura de agua potable y calefacción de Alemania. Mediante materiales libres de corrosión con certificación DVGW, reducimos los costos de mantenimiento y garantizamos la máxima higiene del sistema en grandes proyectos municipales, comerciales y privados durante décadas.",
+        "metaDesc": "Sistemas de tuberías PP-R/PP-RCT certificados para Alemania. Ingeniería alemana contra el retraso en las renovaciones de la infraestructura de agua potable y calefacción."
+      },
+      "oesterreich": {
+        "description": "En Austria, la topografía desafiante y las estrictas regulaciones ambientales exigen soluciones de infraestructura sin compromisos. Nuestros <span class=\"font-semibold\">sistemas de tuberías K-Aqua</span> ofrecen calidad premium para redes duraderas de agua y calefacción urbana en regiones alpinas. Con la seguridad aprobada por ÖVGW y un aislamiento térmico excepcional, nuestras tuberías de PP-R y PP-RCT garantizan un rendimiento resistente a las heladas y a la presión incluso en las condiciones climáticas más extremas de los Alpes.",
+        "metaDesc": "Sistemas de tuberías PP-R/PP-RCT premium para Austria. Soluciones seguras frente a la presión y a prueba de heladas para redes de agua y calefacción urbana en regiones alpinas."
+      },
+      "schweiz": {
+        "description": "Suiza es sinónimo de precisión, sostenibilidad y los más altos estándares de calidad. <span class=\"font-semibold\">Los sistemas PP-R y PP-RCT de K-Aqua</span> cumplen con estos requisitos gracias a la pureza del material de primera clase y la seguridad alimentaria certificada por SVGW. Nuestras tuberías plásticas completamente reciclables y de flujo optimizado permiten un uso eficiente de la energía en la tecnología sanitaria y de aire acondicionado para los proyectos de construcción vanguardistas Minergie en toda Suiza.",
+        "metaDesc": "Sistemas de tuberías PP-R/PP-RCT de primera clase para Suiza. Tuberías plásticas reciclables con certificación SVGW para proyectos de construcción Minergie sostenibles."
+      },
+      "uae": {
+        "description": "Bajo las condiciones climáticas extremas de los Emiratos Árabes Unidos, el agua es el recurso más valioso. <span class=\"font-semibold\">Los sistemas de tuberías PP-R/PP-RCT de K-Aqua</span> ofrecen una protección definitiva contra la corrosión y la calcificación, incluso al utilizar agua de mar desalinizada (Ósmosis Inversa). Nuestras tuberías de alto rendimiento, resistentes a los rayos UV y al calor, aseguran el suministro de agua duradero en los megaproyectos gigantescos y rascacielos de Dubái y Abu Dabi.",
+        "metaDesc": "Sistemas de tuberías PP-R/PP-RCT resistentes a los rayos UV y al calor para los Emiratos Árabes Unidos. Máxima protección contra la corrosión y calcificación en climas desérticos."
+      },
+      "ksa": {
+        "description": "Como parte de su Visión 2030, Arabia Saudita está transformando toda su infraestructura. <span class=\"font-semibold\">K-Aqua proporciona la infraestructura esencial para el agua en este proceso</span>. Nuestras tuberías PP-RCT de gran calibre garantizan una distribución de agua segura, eficiente y libre de fugas en nuevas ciudades inteligentes como NEOM. Certificadas según los estándares internacionales, garantizamos un funcionamiento ininterrumpido a temperaturas ambientales extremadamente altas.",
+        "metaDesc": "Sistemas de tuberías PP-RCT de gran calibre para Arabia Saudita. Infraestructura de agua confiable para la Visión 2030 y megaproyectos como NEOM."
+      },
+      "singapur": {
+        "description": "Como una de las ciudades-estado de alta tecnología más densamente pobladas de Asia, Singapur necesita una tecnología de construcción altamente eficiente que ahorre espacio. <span class=\"font-semibold\">Los innovadores sistemas de tuberías de K-Aqua</span> apoyan los ambiciosos objetivos de Green-Building de Singapur al reducir drásticamente las caídas de presión y ofrecer propiedades térmicas óptimas. Desde el aire acondicionado de gran altura (Chilled Water) hasta el suministro de agua potable ultrapura, marcamos la pauta en Asia.",
+        "metaDesc": "Tuberías PP-R/PP-RCT eficientes para los Green Buildings de Singapur. Sistemas especializados para Chilled Water y suministro de agua potable ultrapura."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, líder en suministro de agua. Sistemas de tuberías de PP-R/PP-RCT para agua potable, fabricados por KWT GmbH en Waldsolms.",
+    "colTools": "Productos y Herramientas",
+    "colCompany": "Empresa",
+    "colContact": "Contacto",
+    "directions": "Ubicación y cómo llegar",
+    "rights": "Todos los derechos reservados.",
+    "imprint": "Aviso Legal",
+    "privacy": "Privacidad",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Alemania",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Solicitar proyecto",
+    "badges": [
+      {
+        "t": "Certificación SKZ",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Estándares de tuberías PP-R"
+      },
+      {
+        "t": "Sostenibilidad",
+        "s": "Ecológico"
+      },
+      {
+        "t": "Sistema GENAU",
+        "s": "Gestión Integrada"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Producción en Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Diseño web de Coday",
+        "Un proyecto de la Agencia Web Coday",
+        "Agencia Web Coday",
+        "Digitalizado por Coday"
+      ],
+      "srDesc": "Este sitio web fue diseñado y realizado técnicamente por Coday Web Agency, expertos en diseño web y GEO en Hesse.",
+      "linkTitle": "Ir a Coday Web Agency - Diseño web premium"
+    }
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europa",
+    "nahost": "Oriente Medio",
+    "global": "África y Asia-Pacífico"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "dimensión máxima de tubería en el programa"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "clases de presión: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "calidad, medio ambiente y energía comprobada"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "los residuos de producción son reciclados"
+      }
+    ],
+    "heroBadgeLabel": "Dimensiones de tubería, SDR 6 a SDR 17",
+    "marquee": [
+      "Líder en suministro de agua",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Fabricado en Waldsolms",
+      "100 % Reciclaje",
+      "Socio: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Buscador de productos",
+        "d": "Filtre más de 170 variantes de artículos en vivo: dimensión, SDR, grosor de pared al instante.",
+        "cta": "Filtrar ahora"
+      },
+      {
+        "id": "co2",
+        "t": "Calculadora de CO₂",
+        "d": "Su proyecto frente a cobre, acero inoxidable y PVC, en árboles y kilómetros de coche.",
+        "cta": "Calcular ahora"
+      },
+      {
+        "id": "academy",
+        "t": "Academia + Cuestionario",
+        "d": "Cuatro procesos de soldadura en video, seguido del cuestionario para maestros soldadores.",
+        "cta": "Convertirse en maestro"
+      },
+      {
+        "id": "references",
+        "t": "Globo de referencias",
+        "d": "Gire el planeta, descubra proyectos: desde Waldsolms hasta Singapur.",
+        "cta": "Girar el globo"
+      },
+      {
+        "id": "trust",
+        "t": "Centro de Confianza",
+        "d": "Compruebe los certificados y elabore el paquete de documentos RFP por su cuenta.",
+        "cta": "Crear paquete"
+      },
+      {
+        "id": "career",
+        "t": "Calculadora de beneficios",
+        "d": "Lo que los extras libres de impuestos le aportan netos, más un Culture Match en 60 segundos.",
+        "cta": "Comprobar el monto neto"
+      }
+    ],
+    "vsEyebrow": "La diferencia",
+    "vsTitle": "Estándar de la industria frente al formato digital de K-Aqua.",
+    "vsBadTitle": "Así lo hace la industria",
+    "vsGoodTitle": "Así lo hace K-Aqua",
+    "vsBad": [
+      "Catálogos PDF de 220 páginas sin búsqueda",
+      "Certificados solo por solicitud por escrito",
+      "Datos técnicos ocultos en desiertos de tablas",
+      "Página de carreras: un buzón"
+    ],
+    "vsGood": [
+      "Buscador de productos: filtrar en segundos",
+      "Centro de confianza: descargas de autoservicio",
+      "La calculadora de CO₂ convierte los datos en un argumento",
+      "Calculadora de beneficios + Culture Match"
+    ],
+    "coEyebrow": "La Empresa",
+    "coTitle1": "Proveedor de materiales y fabricante:",
+    "coTitle2": "de una sola fuente.",
+    "coLead": "KWT GmbH fabrica tuberías y piezas moldeadas para el suministro de agua a partir de varios plásticos, posicionándose así en la cadena de valor de la construcción como proveedor y fabricante simultáneamente.",
+    "kesselTitle": "Sólida asociación con KESSEL",
+    "kesselText": "Compartimos una estrecha y duradera asociación con el fabricante premium KESSEL, \"Líderes en drenaje\". Llevamos esta experiencia de décadas hacia el futuro.",
+    "kesselCta": "Más información sobre la asociación",
+    "worldTitle": "Probado a nivel mundial",
+    "worldText": "Los productos de K-Aqua han demostrado su valía innumerables veces en proyectos de todo el mundo a lo largo de décadas.",
+    "worldCta": "Globo de referencias",
+    "cards": [
+      {
+        "t": "Sistema de gestión GENAU",
+        "d": "Mejora continua en seguridad laboral, protección del medio ambiente y salud según DIN EN ISO 14001 y 50001."
+      },
+      {
+        "t": "Fabricación en Alemania",
+        "d": "Desarrollo y producción en nuestras instalaciones de Waldsolms: calidad, costes y plazos siempre en armonía."
+      },
+      {
+        "t": "Responsabilidad ecológica",
+        "d": "La conservación de recursos y la compatibilidad ambiental son partes integrales de nuestra concepción de la calidad."
+      }
+    ],
+    "manifestTitle": "Nuestra Misión",
+    "manifestText": "El agua es nuestro recurso más valioso. Lo protegemos con sistemas de tuberías orientados al futuro.",
+    "grEyebrow": "Alcance global",
+    "grTitle1": "Rutas comerciales",
+    "grTitle2": "internacionales",
+    "grLead": "De Alemania para el mundo: Nuestros sistemas de tuberías K-Aqua son la columna vertebral de los megaproyectos más avanzados a nivel global. Desde NEOM en Arabia Saudita hasta complejas plantas industriales en Singapur.",
+    "grHqLabel": "Sede y Producción",
+    "grHqValue": "Alemania (Fráncfort)",
+    "grExportLabel": "Mercados clave de exportación",
+    "grExportValue": "Arabia Saudita (NEOM), EAU, Qatar, América Latina",
+    "grCta": "Descubrir proyectos a nivel mundial"
+  },
+  "service": {
+    "eyebrow": "Servicio",
+    "title1": "Servicio al cliente y",
+    "titleGrad": "conocimientos técnicos.",
+    "lead": "Nuestro servicio al cliente y conocimientos técnicos. Le ofrecemos documentos técnicos para descargar y videos paso a paso de todos los procesos de termofusión.",
+    "dlEyebrow": "Descargas",
+    "dlTitle": "Documentación Técnica",
+    "downloads": [
+      {
+        "t": "Programa de productos K-Aqua",
+        "s": "Catálogo completo con dimensiones y artículos"
+      },
+      {
+        "t": "Propiedades de los productos K-Aqua",
+        "s": "Características técnicas y datos de materiales"
+      },
+      {
+        "t": "Aseguramiento de calidad K-Aqua",
+        "s": "Procedimientos de prueba y estándares de calidad"
+      }
+    ],
+    "vidEyebrow": "Instalación",
+    "vidTitle": "Procesos de termofusión en video",
+    "vidLead": "Cuatro procesos, cuatro videos, directamente desde la práctica.",
+    "videos": [
+      {
+        "t": "Termofusión de coplas con equipo manual",
+        "s": "Tuberías y conexiones PP-R/PPRCT"
+      },
+      {
+        "t": "Termofusión con máquina",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Electrofusión",
+        "s": "Tuberías y conexiones PP-R/PPRCT"
+      },
+      {
+        "t": "Termofusión a tope (Butt Fusion)",
+        "s": "Grandes dimensiones PP-R/PPRCT"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "Noticias y Eventos",
+    "title1": "Novedades de",
+    "titleGrad": "K-Aqua.",
+    "date": "Octubre de 2025",
+    "h2": "Contamos con triple certificación ISO",
+    "p": "Nuestro sistema de gestión ISO se ha ampliado y ahora incluye la gestión de calidad, medio ambiente y energía:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Sistema de gestión de calidad"
+      ],
+      [
+        "ISO 14001:2015",
+        "Sistema de gestión ambiental"
+      ],
+      [
+        "ISO 50001:2018",
+        "Sistema de gestión de energía"
+      ]
+    ],
+    "btnDe": "Certificado (DE)",
+    "btnEn": "Certificado (EN)",
+    "eventsTitle": "Ferias y Eventos",
+    "eventsText": "Visite a K-Aqua en los próximos eventos. Actualmente no hay fechas anunciadas. Vuelva a consultar pronto.",
+    "lead": "Lea las últimas novedades de K-Aqua."
+  },
+  "career": {
+    "eyebrow": "Carrera",
+    "title1": "Carrera en K-Aqua: Más que",
+    "titleGrad": "solo un salario.",
+    "lead": "Calcule cuánto le aportan en neto los beneficios libres de impuestos y compruebe en 60 segundos si K-Aqua encaja con usted.",
+    "benEyebrow": "Optimización del salario neto",
+    "benTitle": "La Calculadora de Beneficios.",
+    "benLead": "Los extras libres de impuestos y de tributación plana a menudo tienen un impacto mayor que un aumento del salario bruto. Arme su paquete:",
+    "benefits": {
+      "sachbezug": [
+        "Tarjeta de beneficios en especie",
+        "Beneficios en especie libres de impuestos, abonados mensualmente en su cuenta de la tarjeta."
+      ],
+      "lunch": [
+        "Subsidio de comida",
+        "Vales de comida digitales para almuerzos y supermercados."
+      ],
+      "internet": [
+        "Subsidio de internet",
+        "Apoyo para el uso privado de internet."
+      ],
+      "jobrad": [
+        "Leasing JobRad",
+        "La bicicleta de sus sueños mediante conversión salarial, con ahorro frente a la compra privada."
+      ],
+      "kita": [
+        "Subsidio para guardería",
+        "Ayuda libre de impuestos para el cuidado infantil."
+      ],
+      "vwl": [
+        "Beneficios patrimoniales",
+        "Aporte mensual de ahorro por parte del empleador."
+      ]
+    },
+    "resultLabel": "Más neto por mes",
+    "resultNote1": "Esto equivale aproximadamente a un",
+    "resultNote2": "aumento bruto de ~{n} €",
+    "resultNote3": "sin deducciones.",
+    "resultNote4": "(Valor de referencia, dependiendo de la categoría fiscal).",
+    "apply": "Postularse ahora",
+    "call": "O llamar al: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "¿Es K-Aqua adecuado para usted?",
+    "cmIntro": "Cinco preguntas honestas sobre la forma de trabajar y el día a día en producción. No es una prueba de personalidad, es una comprobación de la realidad.",
+    "cmStart": "Iniciar prueba",
+    "qLabel": "Pregunta",
+    "cmQ": [
+      {
+        "q": "¿Cómo prefiere trabajar?",
+        "o": [
+          "Procesos claros, equipo bien coordinado",
+          "Probar algo nuevo cada día"
+        ]
+      },
+      {
+        "q": "La producción en serie está en marcha. Una máquina informa una desviación.",
+        "o": [
+          "Revisar de inmediato, encontrar la causa",
+          "Dejar que siga funcionando por ahora"
+        ]
+      },
+      {
+        "q": "¿Qué lo motiva más?",
+        "o": [
+          "Un producto que dura 50 años",
+          "Resultados rápidos y visibles"
+        ]
+      },
+      {
+        "q": "El trabajo por turnos para usted es…",
+        "o": [
+          "Planificable y está bien",
+          "Más bien difícil"
+        ]
+      },
+      {
+        "q": "¿Su relación con la tecnología?",
+        "o": [
+          "Quiero entender cómo funcionan las cosas",
+          "Lo principal es que funcione"
+        ]
+      }
+    ],
+    "resHigh": "Gran coincidencia. Precisión, confiabilidad y comprensión técnica: exactamente nuestro perfil.",
+    "resMid": "Buena coincidencia con necesidad de conversar. Lo mejor es llamar directamente y aclarar el día a día.",
+    "resLow": "Resultado honesto: el día a día en la producción de K-Aqua probablemente no sea su entorno. Las ventas o la administración podrían encajar mejor.",
+    "sendApp": "Enviar postulación",
+    "again": "Otra vez"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title1": "Hablemos de su",
+    "titleGrad": "proyecto.",
+    "locTitle": "Ubicación en Alemania",
+    "salesTitle": "Ventas",
+    "supportTitle": "Calidad y Soporte Técnico",
+    "supportText": "Hablemos de su proyecto. Nuestro equipo de soporte lo ayuda con preguntas técnicas sobre planificación, materiales y procesamiento."
+  },
+  "imprint": {
+    "eyebrow": "Legal",
+    "title": "Aviso Legal",
+    "rows": [
+      [
+        "Empresa",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Dirección Ejecutiva",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Tribunal de Registro",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Sede",
+        "Waldsolms"
+      ],
+      [
+        "N.º de IVA",
+        "DE 296238486"
+      ],
+      [
+        "Teléfono / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Correo Electrónico",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "Los sistemas de tuberías de PP-R y PPRCT de K-Aqua son fabricados por KWT GmbH en Waldsolms, Alemania, con la más alta precisión. Nuestro aviso legal ofrece a nuestros clientes y socios comerciales total transparencia sobre nuestra estructura corporativa, representantes legales y todos los datos relevantes del registro mercantil. Damos gran importancia a la comunicación abierta y al cumplimiento de todos los requisitos legales en las transacciones comerciales nacionales e internacionales. La información proporcionada en nuestras páginas es revisada y actualizada continuamente para proporcionarle en todo momento datos técnicos y comerciales correctos de nuestros sistemas de tuberías plásticas.",
+      "impressum2": "Como fabricante a nivel global de soluciones de tuberías plásticas de primera calidad para agua potable, sistemas de calefacción y refrigeración, así como aplicaciones industriales altamente complejas, estamos comprometidos con el estricto cumplimiento de todas las normas legales y regulatorias. Esto incluye la protección de datos, competencia leal y pautas de comercio internacional. Sin embargo, no podemos asumir ninguna responsabilidad o garantía por la actualidad, exactitud e integridad de la información y las herramientas de software proporcionadas para los cálculos hidráulicos. El contenido y la estructura de los sitios web de K-Aqua están protegidos por derechos de autor. La reproducción de información, fichas técnicas o guías de instalación requiere consentimiento previo.",
+      "kontakt1": "¿Tiene preguntas técnicas sobre nuestras tuberías PP-R/PPRCT o necesita ayuda con un proyecto internacional? El equipo de contacto de K-Aqua en Waldsolms está a su disposición.",
+      "kontakt2": "Ya sean cálculos isométricos, capacitaciones de termofusión en el sitio o consultas comerciales: nuestros ingenieros y representantes de ventas responden rápidamente para garantizar el éxito de su proyecto.",
+      "projektanfrage1": "¿Planea un proyecto de construcción pionero? Envíenos su solicitud de proyecto para los sistemas de tuberías de PP-R y PPRCT de K-Aqua. Nuestro departamento técnico en Waldsolms se especializa en el diseño y dimensionamiento de instalaciones a gran escala. Esto incluye rascacielos exigentes, hospitales sensibles a la higiene, extensas redes de refrigeración urbana y complejos sistemas industriales de calefacción y refrigeración. Gracias a nuestras décadas de experiencia en ingeniería de polímeros, comprendemos los requisitos hidráulicos y térmicos específicos de la infraestructura de los edificios modernos. Con K-Aqua, no solo elige un producto, sino una solución de sistema integral.",
+      "projektanfrage2": "En cuanto nos proporcione las especificaciones detalladas de su proyecto, diagramas P&ID o isometrías, nuestros ingenieros expertos comenzarán un análisis en profundidad. Lo apoyamos con cálculos complejos de caídas de presión, la determinación de la expansión térmica lineal y el posicionamiento exacto de soportes fijos y móviles. Además, creamos listas precisas de materiales (Bill of Materials) y diseñamos conexiones de transición a medida para la conexión a componentes metálicos de gran tamaño. Nuestro objetivo es diseñar una red de tuberías perfectamente equilibrada hidráulicamente que minimice el consumo de energía de sus bombas y garantice una vida útil libre de mantenimiento de más de 50 años.",
+      "projektanfrage3": "La discreción y la confiabilidad son nuestra principal prioridad. Cada solicitud de proyecto se trata de forma estrictamente confidencial y es procesada exclusivamente por nuestro equipo cualificado de ingenieros alemanes. También coordinamos la logística a nivel mundial y nos aseguramos de que nuestras tuberías y conexiones de alta gama lleguen a su sitio de construcción a tiempo y sin daños. Además, ofrecemos capacitaciones de termofusión en el sitio por nuestros instructores certificados para garantizar que la instalación se lleve a cabo exactamente de acuerdo con las pautas de ingeniería alemanas. Con K-Aqua asegura la máxima eficiencia, una ausencia absoluta de fugas y la longevidad de todo su sistema de tuberías.",
+      "news1": "Manténgase al día con las últimas noticias de K-Aqua. Publicamos regularmente actualizaciones sobre nuevos desarrollos de productos PP-R/PPRCT, apariciones en ferias internacionales y grandes proyectos mundiales.",
+      "news2": "Nuestra sección de noticias también lo informa sobre las innovaciones técnicas en la termofusión de coplas, los avances en la ciencia de los materiales del copolímero aleatorio de polipropileno y las iniciativas de sostenibilidad en nuestra fábrica en Waldsolms."
+    },
+    "eyebrow": "Acerca de nosotros",
+    "title1": "La experiencia es su",
+    "titleGrad": "ventaja.",
+    "lead": "Nuevas estrategias, conocimiento acumulado: Como fabricante de K-Aqua, KWT GmbH combina décadas de experiencia en la fabricación con una visión clara hacia el futuro.",
+    "h2": "K-Aqua: líderes en suministro de agua",
+    "p1": "El área de negocio de KWT GmbH es la producción de tuberías y conexiones para el suministro de agua a partir de diferentes plásticos. Así, la empresa se posiciona en la cadena de valor de la construcción como proveedor de materiales de construcción y fabricante.",
+    "p2": "Mantenemos una asociación estrecha y duradera con el fabricante premium KESSEL, \"Líderes en drenaje\". Con esta experiencia de décadas, llevamos nuestro éxito hacia el futuro.",
+    "polEyebrow": "Política Corporativa",
+    "polTitle": "El beneficio surge de la interacción.",
+    "polLead": "No hay beneficio para el cliente sin beneficio para el empleado, no hay beneficio para el empleado sin beneficio corporativo, y no hay beneficio corporativo sin beneficio para el medio ambiente y nuestro entorno.",
+    "cards": [
+      {
+        "t": "Las personas en el centro",
+        "d": "Todos los empleados están involucrados en el proceso de mejora continua. La calidad siempre sigue siendo compatible con los costos y los plazos."
+      },
+      {
+        "t": "Confiabilidad",
+        "d": "Los deseos de los clientes y todas las partes interesadas se reconocen, se toman en serio y se implementan de conformidad con las normas legales y sociales."
+      },
+      {
+        "t": "Responsabilidad ecológica",
+        "d": "Todas las actividades corporativas se llevan a cabo considerando la conservación de los recursos, la compatibilidad ambiental y el cumplimiento estricto de todas las obligaciones."
+      }
+    ],
+    "genauEyebrow": "Sistema de gestión GENAU",
+    "genauTitle": "Mirar de cerca. Mejorar de forma precisa.",
+    "genauLead": "El sistema de gestión GENAU está integrado en la House of KWT y, por lo tanto, es un elemento central de nuestra filosofía.",
+    "points": [
+      "Mejora continua en seguridad laboral, protección del medio ambiente y salud",
+      "Optimización de la eficiencia energética",
+      "Prevención, identificación continua de peligros y evaluación de riesgos",
+      "Todo empleado tiene la obligación de informar sobre peligros y participar activamente"
+    ],
+    "certTitle": "probado según las normas",
+    "certText": "La gestión aplicada GENAU cumple con los requisitos de la norma DIN EN ISO 14001 y 50001, y desde octubre de 2025 se complementa con la norma ISO 9001:2015.",
+    "meta": {
+      "title": "Sobre KWT GmbH: Expertos en fabricación de tuberías",
+      "desc": "KWT GmbH en Waldsolms combina la ingeniería alemana con la fabricación de última generación. Producimos los sistemas de tuberías K-Aqua PP-R con triple certificación ISO."
+    },
+    "hero": {
+      "eyebrow": "La doctrina K-Aqua",
+      "title1": "Ingeniería Alemana.",
+      "title2": "Sin compromisos.",
+      "desc": "No hacemos concesiones. Definimos el estándar global para los sistemas de tuberías PP-R. Bienvenido al epicentro de la ingeniería alemana."
+    },
+    "intro": {
+      "title1": "NO SOLO CONDUCIMOS AGUA.",
+      "title2": "LA CONTROLAMOS.",
+      "desc": "Durante más de 30 años, hemos estado fabricando sistemas de tuberías construidos para durar toda la vida. Sin lugar para errores. Sin espacio para la mediocridad. Solo precisión pura e implacable, que se manifiesta en cada conexión individual."
+    },
+    "material": {
+      "eyebrow": "Ciencia de los Materiales",
+      "title1": "Copolímero Aleatorio de Polipropileno.",
+      "title2": "Desatado.",
+      "p1": "El PP-R Tipo 3 no es un simple plástico. Es un material termoplástico altamente complejo que dominamos a nivel molecular.",
+      "p2": "A través de la disposición estratégica de los monómeros de etileno en la cadena de propileno, logramos una resistencia al impacto sin igual, incluso en temperaturas bajo cero. Nuestros gránulos provienen exclusivamente de la élite global de productores de materias primas. Analizamos cada lote mediante pruebas de Calorimetría Diferencial de Barrido (DSC) y el Índice de Fluidez del Fundido (MFR). Lo que incumpla nuestras especificaciones en lo más mínimo es eliminado sin piedad.",
+      "items": [
+        {
+          "title": "Masa Molar Extrema",
+          "desc": "Garantiza la máxima resistencia a la fluencia y una resistencia absoluta al agrietamiento por tensión bajo presiones extremas."
+        },
+        {
+          "title": "Optimización Cristalina",
+          "desc": "El equilibrio termodinámico perfecto. Máxima flexibilidad para condiciones de instalación radicales con rigidez axial simultánea."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "La Evolución de la Perfección",
+      "desc": "Un ascenso imparable hacia el poder del mercado global. Cada década es un hito de superioridad tecnológica.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "El origen de la intolerancia",
+          "text": "Donde otros hacían concesiones, nosotros trazamos una línea roja. La fundación de K-Aqua se basó en un principio inquebrantable: Sistemas de tuberías impecables. Nuestras primeras extrusoras funcionaron con una precisión que sorprendió al mercado."
+        },
+        {
+          "year": "2005",
+          "title": "La revolución del polipropileno",
+          "text": "Nos negamos a aceptar el status quo. Con la introducción de nuestra mezcla patentada de PP-R, redefinimos la estabilidad térmica. Mientras los productos de la competencia colapsaban bajo presión, nuestros sistemas permanecían estoicamente intactos. Un triunfo de la química de los polímeros."
+        },
+        {
+          "year": "2015",
+          "title": "La simbiosis arquitectónica",
+          "text": "Desde los horizontes de Dubái hasta las plantas industriales en la región del Ruhr: K-Aqua se ha convertido en sinónimo de infraestructura indestructible. Nuestras tuberías compuestas de PPRCT revolucionaron la construcción de edificios. Menos expansión, más flujo, dominación absoluta."
+        },
+        {
+          "year": "2026",
+          "title": "La Dictadura Molecular",
+          "text": "Hoy controlamos cada aspecto de la producción. Desde la selección de los gránulos en bruto hasta la inspección final, nuestros sistemas están sujetos a un régimen de calidad dictatorial. ¿El resultado? Una vida útil garantizada que dura generaciones."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FÍSICA CONQUISTADA",
+      "title": "Los Cuatro Pilares del Poder.",
+      "lead": "Tecnología que roza la magia. No solo hemos superado las limitaciones de los sistemas de tuberías convencionales, las hemos pulverizado.",
+      "items": [
+        {
+          "title": "Absolutismo en Calidad",
+          "desc": "Cada milímetro de nuestros sistemas PP-R y PPRCT pasa por las pruebas de estrés más brutales. Una vida útil de 50 años no es una promesa, es una certeza matemática. Toleramos cero desviaciones. Lo que sale de nuestras naves industriales es la perfección en forma de polímero."
+        },
+        {
+          "title": "Invulnerabilidad Térmica",
+          "desc": "Nuestras tuberías de material compuesto (Fibra K-Aqua) neutralizan la expansión térmica lineal de forma casi completa. Ya sea a -20 °C bajo cero o a +95 °C de ebullición, nuestros sistemas mantienen su forma de manera absoluta. Una obra maestra de la ingeniería que parece desafiar las leyes de la física."
+        },
+        {
+          "title": "Resistencia Química",
+          "desc": "La corrosión no existe en nuestro vocabulario. Nuestros polímeros son inmunes a los medios más agresivos, a la incrustación y a la descomposición biológica. Mientras que los metales en el suelo se oxidan y decaen, K-Aqua permanece intacto: estoico, monolítico, indestructible."
+        },
+        {
+          "title": "Fusión Molecular",
+          "desc": "A través de nuestro proceso de termofusión homogénea, la tubería y la conexión se funden a nivel molecular en una unidad inseparable. Sin sellos que puedan desgastarse. Sin debilidades mecánicas. Una estructura monolítica que dura para siempre."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "DOMINIO INDUSTRIAL",
+      "title": "Infraestructura con esteroides.",
+      "lead": "No solo hacemos tuberías. Creamos las arterias de la civilización moderna. K-Aqua es la columna vertebral de megaproyectos industriales y arquitectónicos en todo el mundo.",
+      "items": [
+        {
+          "title": "Extrusión Bruta",
+          "desc": "Equipos de alto rendimiento que operan bajo presiones brutales. El resultado es una consistencia del grosor de la pared insuperable hasta el nivel micrométrico."
+        },
+        {
+          "title": "Superioridad Comprobada",
+          "desc": "ISO 9001, 14001, 50001. No solo superamos las normas, las dictamos. Acreditación internacional como estándar absoluto."
+        },
+        {
+          "title": "Dictado de Higiene",
+          "desc": "Apto para el contacto con alimentos, toxicológicamente inofensivo y absolutamente resistente a los gérmenes. El agua potable permanece intacta y pura en los sistemas de K-Aqua. Sin excepciones."
+        },
+        {
+          "title": "Eficiencia de Recursos",
+          "desc": "Totalmente reciclable. Mínima huella de CO2 en la producción. Porque el verdadero poder tecnológico siempre significa responsabilidad hacia el futuro."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Política Corporativa",
+      "title": "La base de nuestras acciones.",
+      "desc": "La tecnología por sí sola no es suficiente. La verdadera grandeza se manifiesta en la forma en que una empresa interactúa con su entorno, sus empleados y sus socios.",
+      "items": [
+        {
+          "title": "Obsesión por el Cliente",
+          "desc": "No solo servimos a los mercados, los dominamos a través de un enfoque radical en el cliente. Sus requisitos son nuestras órdenes. Nuestras soluciones son precisas, escalables y totalmente intransigentes en su ejecución."
+        },
+        {
+          "title": "Alianzas Estratégicas",
+          "desc": "No buscamos proveedores, formamos alianzas estratégicas con los mejores productores de materias primas del planeta. Investigación compartida, estándares de calidad compartidos, dominancia compartida."
+        },
+        {
+          "title": "Imperativo Ecológico",
+          "desc": "La sostenibilidad en K-Aqua no es un eslogan de marketing, es un imperativo físico. La longevidad es la máxima protección ambiental. Nuestros sistemas minimizan la huella energética desde la producción hasta el reciclaje."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "calidad comprobada",
+      "title1": "El ",
+      "titleHighlight": "GENAU",
+      "title2": " Sistema de Gestión",
+      "p1": "El objetivo del sistema de gestión GENAU es la mejora continua de la salud, seguridad ocupacional y protección ambiental en la empresa.",
+      "p2": "Todas las actividades empresariales en KWT se llevan a cabo teniendo en cuenta la conservación de recursos, la compatibilidad ambiental y el cumplimiento estricto de todas las obligaciones. El sistema de gestión GENAU implementado cumple con los altos requisitos de ",
+      "p3": " y ",
+      "list1Title": "Responsabilidad Ecológica",
+      "list1Desc": "La protección del medio ambiente es parte de nuestro concepto de calidad, al cual se comprometen todos los empleados de KWT GmbH.",
+      "list2Title": "Eficiencia Energética",
+      "list2Desc": "Identificación específica de riesgos y aplicación de medidas para optimizar la eficiencia energética."
+    }
+  },
+  "finder": {
+    "eyebrow": "Buscador de productos",
+    "title1": "Sin desierto de PDF.",
+    "titleGrad": "Datos al instante.",
+    "lead": "En lugar de catálogos de 220 páginas: Filtre el sistema completo PP-R/PPRCT de forma interactiva. Dimensión, clase de presión, grosor de pared, todo en vivo.",
+    "type": "Tipo de producto",
+    "types": {
+      "mono": "Monocapa PP-R",
+      "fiber": "Material compuesto PPRCT (Fibra de Vidrio)",
+      "fitting": "Conexiones"
+    },
+    "sdr": "Clase de presión (SDR)",
+    "maxD": "Diámetro exterior máx.",
+    "upTo": "hasta",
+    "maxDAria": "Diámetro exterior máximo en milímetros",
+    "found": "Variantes de artículos encontradas. Cada una al instante con grosor de pared, diámetro interior y presión nominal.",
+    "catalog": "Catálogo (PDF)",
+    "tableHead": [
+      "Tipo",
+      "d (mm)",
+      "SDR",
+      "Pared (mm)",
+      "di (mm)",
+      "Presión nominal"
+    ],
+    "more": "+ {n} más. Refine el filtro para la lista completa.",
+    "none": "Sin resultados. Relaje el filtro.",
+    "nextEyebrow": "Pensar a futuro",
+    "nextTitle": "¿Qué tan respetuosa con el clima es su planificación?",
+    "nextLead": "Transfiera la dimensión y longitud directamente a la calculadora de CO₂ y compare contra cobre, acero inoxidable y PVC.",
+    "nextCta": "Ir a la calculadora de CO₂"
+  },
+  "co2": {
+    "guideText": "<h2>Sostenibilidad y LCA (Análisis de Ciclo de Vida)</h2><p>La elección del sistema de tuberías adecuado tiene un impacto significativo en la huella de carbono de un edificio o instalación industrial. La calculadora de CO2 de K-Aqua permite un Análisis de Ciclo de Vida (LCA) completo según los estándares de la norma EN 15804. Este análisis cubre todo el ciclo de vida: desde la extracción de materias primas y la fabricación del producto (fases A1-A3) hasta el transporte e instalación (fases A4-A5), pasando por la fase de uso (fase B) y el fin de vida (fase C).</p><p>En comparación con las tuberías de metal convencionales como el cobre o el acero, las tuberías PP-R y PPRCT de K-Aqua tienen un balance ecológico mucho más favorable. El menor requerimiento de energía durante la extrusión del plástico, así como el peso significativamente menor, reducen considerablemente las emisiones de CO2 durante la producción y el transporte. Además, la superficie interior súper lisa (rugosidad de solo 0,007 mm) asegura una resistencia al flujo extremadamente baja. Según la ecuación de Darcy-Weisbach, esto significa que las bombas de circulación tienen que usar mucha menos energía (electricidad) para mover el fluido a través del sistema.</p><p>Especialmente en la fase de uso (fase B), que a menudo dura 50 años o más para los sistemas de tuberías, este ahorro de energía suma ahorros masivos de CO2 y costos (Costo Total de Propiedad, TCO). También al final de su vida útil (fase C), el polipropileno ofrece ventajas ecológicas, ya que es 100% reciclable y puede reutilizarse en el sentido de la economía circular (Módulo D). Utilice esta calculadora para cuantificar el potencial de ahorro ecológico y económico de su proyecto K-Aqua de manera precisa y transparente.</p>",
+    "eyebrow": "Herramienta de Ingeniería Premium",
+    "title1": "Simulador LCA & TCO",
+    "titleGrad": "Pro",
+    "lead": "Calcule los impactos ecológicos y económicos reales de su sistema de tuberías durante todo su ciclo de vida. Con modelos reales de flujo físico (Darcy-Weisbach) y fases LCA conformes a EN.",
+    "tabGeometry": "Tubería",
+    "tabFlow": "Fluido",
+    "tabEnvironment": "Instalación",
+    "tabLogistics": "LCA",
+    "dia": "Diámetro nominal",
+    "length": "Longitud de tubería",
+    "sdrClass": "Clase SDR",
+    "velocity": "Velocidad de flujo (v)",
+    "velocityDesc": "Afecta drásticamente la caída de presión y la energía de la bomba (B).",
+    "fluidTemp": "Temperatura del fluido",
+    "ambientTemp": "Temperatura ambiente",
+    "insulation": "Aislamiento",
+    "insulationNone": "Ninguno",
+    "insulationBasic": "Básico",
+    "insulationStandard": "Estándar EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Método de instalación (A5)",
+    "installBuilding": "Instalación en edificio",
+    "installTrench": "Bajo tierra (excavadora)",
+    "installTrenchless": "Sin zanja (HDD)",
+    "installDesc": "El trabajo de excavación causa emisiones masivas de CO2 a través de las máquinas (diésel).",
+    "lifespan": "Vida útil (años)",
+    "lifespanDesc": "Las tuberías de vida corta (p. ej., acero al carbono) pueden necesitar ser reemplazadas varias veces.",
+    "energyMixLabel": "Mix de energía (Operación y Producción)",
+    "transportKm": "Distancia de transporte (km)",
+    "co2Savings": "Ahorro de CO₂ en LCA",
+    "co2SavingsDesc": "En comparación con el sistema más ineficiente (incl. electricidad de la bomba). Equivale aprox. a {n} árboles.",
+    "costSavings": "Ahorro TCO (NPV)",
+    "costSavingsDesc": "Ahorro sobre {n} años (incl. mantenimiento y costos operativos NPV).",
+    "lcaPhases": "Fases LCA (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Instalación/Transporte)",
+    "phaseB": "B (Operación/Energía)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Módulo D:",
+    "costAnalysis": "Costo Total de Propiedad (NPV, {n} años)",
+    "costMaterial": "Material",
+    "costInstall": "Instalación",
+    "costOperation": "Energía (NPV)",
+    "costMaintenance": "Mantenimiento",
+    "costTotal": "Total",
+    "certTitle": "Reporte LCA y TCO Certificado.",
+    "certDesc": "Incluye resistencia al flujo según Darcy-Weisbach y fases de ciclo de vida conformes a EPD.",
+    "certBtn": "Generar Reporte PDF",
+    "generating": "Generando...",
+    "energyGreen": "Energía verde",
+    "energyDe": "Mix DE",
+    "energyEu": "Mix UE",
+    "energyGlobal": "Mix Global",
+    "materials": {
+      "kaqua": "K-Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Cobre",
+      "steel": "Acero inoxidable / Acero al carbono",
+      "pex": "Material compuesto multicapa (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Hierro fundido"
+    },
+    "project": "Su proyecto",
+    "advanced": "Parámetros LCA Avanzados",
+    "tempMode": "Temperatura de funcionamiento",
+    "tempCold": "Agua fría (10°C)",
+    "tempHot": "Agua caliente (60°C)",
+    "recycle": "Habilitar crédito de reciclaje de Fin de Vida",
+    "disclaimer": "Los cálculos se basan en EPD de Tipo III validados (EN 15804) y la base de datos ecoinvent (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "Ahorro de CO₂e vs. la mejor alternativa",
+    "savedBody1": "Equivale a la absorción de CO₂ de",
+    "trees": "{n} árboles",
+    "or": "o",
+    "carKm": "{n} kilómetros en auto",
+    "compareTitle": "Análisis de Ciclo de Vida (LCA)",
+    "phases": {
+      "a13": "Producción (A1-A3)",
+      "a4": "Transporte (A4)",
+      "b": "Operación/Térmico (B)",
+      "c": "Fin de Vida (C)"
+    },
+    "auditor": "Panel del auditor:",
+    "auditorBody": "Evidencia de EPD, certificados ISO y textos GAEB como un paquete, en el",
+    "trustLink": "Centro de Confianza",
+    "downloadPdf": "Descargar Reporte PDF",
+    "lcaLogistics": "Parámetros de LCA y Logística",
+    "energyMix": "Mix de Energía de Producción",
+    "transportMode": "Modo de Transporte",
+    "transportTruck": "Camión",
+    "transportShip": "Barco",
+    "transportAir": "Flete Aéreo",
+    "phaseProduction": "Producción",
+    "phaseTransport": "Transporte",
+    "phaseOperation": "Operación",
+    "phaseEol": "Fin de Vida"
+  },
+  "trust": {
+    "eyebrow": "Centro de Confianza",
+    "title1": "La confianza es",
+    "titleGrad": "medible.",
+    "lead": "La confianza es medible. Certificados, sistema GENAU y documentos de auditoría, como autoservicio. Sin esperas de días para el envío manual.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Gestión de calidad"
+      ],
+      [
+        "ISO 14001:2015",
+        "Gestión ambiental"
+      ],
+      [
+        "ISO 50001:2018",
+        "Gestión de energía"
+      ]
+    ],
+    "accred": "Acreditado por DAkkS",
+    "certNo": "N.º de certificado",
+    "valid": "Válido",
+    "download": "Descargar",
+    "genauEyebrow": "Sistema GENAU",
+    "genauTitle": "Cinco letras. Un sistema.",
+    "genauLead": "El sistema de gestión GENAU está anclado en la House of KWT. Haga clic a través de los cinco pilares.",
+    "genau": [
+      [
+        "Salud",
+        "Seguridad y salud laboral con identificación continua de peligros. Todo empleado está obligado a reportar activamente los riesgos."
+      ],
+      [
+        "Energía",
+        "Optimización de la eficiencia energética según ISO 50001, desde la extrusora hasta el circuito cerrado de agua de refrigeración."
+      ],
+      [
+        "Sostenibilidad",
+        "El 100% de los recortes y desechos de producción regresan al ciclo de reciclaje."
+      ],
+      [
+        "Seguridad laboral",
+        "Prevención y evaluación de riesgos como práctica diaria, no como un ejercicio anual obligatorio."
+      ],
+      [
+        "Medio ambiente",
+        "Gestión ambiental según ISO 14001: La conservación de los recursos es parte del concepto de calidad."
+      ]
+    ],
+    "rfpEyebrow": "Autoservicio",
+    "rfpTitle": "Su paquete de documentos RFP.",
+    "rfpLead": "Reúna su propio paquete de auditoría y licitación en lugar de esperar días para el envío manual.",
+    "docs": [
+      "Certificado ISO 9001:2015 (DE/EN)",
+      "Certificado ISO 14001:2015 (DE/EN)",
+      "Certificado ISO 50001:2018 (DE/EN)",
+      "Política GENAU & Evaluación de riesgos",
+      "Conformidad de agua potable (DVGW/KTW)",
+      "Fichas de datos EPD (Tipo III, EN 15804)",
+      "Textos de licitación GAEB",
+      "Manual de aseguramiento de calidad"
+    ],
+    "inPackage": "Documentos en el paquete.",
+    "pickLeft": "Seleccione a la izquierda.",
+    "requestZip": "Solicite un ZIP con un clic:",
+    "requestBtn": "Solicitar paquete",
+    "mailSubject": "Paquete de documentos RFP",
+    "mailBody": "Por favor, envíeme los siguientes documentos:",
+    "scope3": "Datos de emisiones de Alcance 3 y datos brutos EPD a pedido: transparencia proactiva en lugar de cumplimiento de obligaciones."
+  },
+  "partner": {
+    "eyebrow": "Asociación",
+    "title1": "Dos marcas.",
+    "titleGrad": "Una actitud.",
+    "lead": "Dos marcas. Una actitud. La estrecha asociación de décadas entre K-Aqua y KESSEL transfiere la confianza superior desde el drenaje hacia el suministro de agua para sistemas de tuberías PP-R.",
+    "onionAria": "Modelo de capas de cebolla de la asociación",
+    "rings": [
+      {
+        "l": "Marca principal",
+        "t": "KESSEL: Líderes en Drenaje",
+        "d": "Fabricante premium de tecnología de drenaje. Las principales ferias comerciales del mundo como ISH, el Portal para Planificadores y el Foro de Clientes hacen de KESSEL la autoridad en la industria de la edificación y construcción."
+      },
+      {
+        "l": "Sistema",
+        "t": "K-Aqua: líderes en suministro de agua",
+        "d": "El lado del suministro del mismo ADN de ingeniería: sistema completo PP-R/PPRCT d20–d630, fabricado en Alemania. Drenaje y suministro desde una comunidad de valores compartidos."
+      },
+      {
+        "l": "Servicio",
+        "t": "Ecosistema compartido",
+        "d": "Los planificadores se benefician doblemente: capacitación, soporte de termofusión y herramientas de planificación digital, en el futuro hasta un configurador de redes de tuberías paramétricas."
+      }
+    ],
+    "whyEyebrow": "Por qué PP-R/PPRCT",
+    "whyTitle": "La columna vertebral de la promesa del producto.",
+    "cards": [
+      {
+        "t": "Ausencia absoluta de corrosión",
+        "d": "Inmune a la corrosión electroquímica: sin picaduras, sin roturas de tuberías como con el cobre o el acero galvanizado."
+      },
+      {
+        "t": "Eficiencia térmica",
+        "d": "Pérdida de calor mínima en la circulación de agua caliente: ahorro directo de energía a lo largo de décadas."
+      },
+      {
+        "t": "Neutralidad higiénica",
+        "d": "Neutro en sabor y olor; la superficie interior extremadamente lisa previene el biofilm y las incrustaciones."
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "Referencias",
+    "title1": "Un globo lleno de",
+    "titleGrad": "proyectos.",
+    "lead": "Gire el globo, toque un marcador: Cada marca representa la tecnología comprobada de K-Aqua en acción. (Proyectos de ejemplo como marcadores de posición para referencias reales.)",
+    "canvasAria": "Globo interactivo con proyectos de referencia, arrastre para girar",
+    "note": "Los nombres de los proyectos, fotos y cifras clave reales deberían añadirse de forma editorial. El escenario está listo para ello.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Alemania",
+        "d": "Planta principal y desarrollo: aquí se fabrica cada tubería K-Aqua."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubái, EAU",
+        "d": "Tuberías ascendentes en rascacielos: PPRCT para agua caliente bajo condiciones desérticas."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Varsovia, Polonia",
+        "d": "Nueva construcción de distrito residencial: instalación completa de agua potable d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Estambul, Turquía",
+        "d": "Complejo hotelero: tuberías de circulación con material compuesto de fibra."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Proyecto de infraestructura: grandes dimensiones hasta d630 con soldadura a tope."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Ciudad del Cabo, Sudáfrica",
+        "d": "Nueva construcción de hospital: distribución higiénica de agua potable."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "Londres, Reino Unido",
+        "d": "Renovación de oficinas: reemplazo libre de corrosión de las tuberías existentes."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Para Planificadores, Compradores e Instaladores",
+    "title1": "Usted planifica, calcula o instala.",
+    "titleGrad": "Nosotros proporcionamos la base.",
+    "lead": "Cada rol encuentra exactamente la información que necesita en K-Aqua para la próxima decisión, sin tener que navegar por montañas de PDF, sin largas esperas al teléfono.",
+    "personas": [
+      {
+        "t": "Planificadores e Ingenieros Especialistas",
+        "d": "Datos técnicos que cumplen con los estándares, tablas SDR y certificados de CO₂ para licitaciones, listos para usar.",
+        "cta": "A los datos técnicos",
+        "goto": "products"
+      },
+      {
+        "t": "Compras y Adquisición",
+        "d": "Entrega directa de fábrica, logística predecible desde Waldsolms y un solo contacto en lugar de intermediarios.",
+        "cta": "Iniciar solicitud de proyecto",
+        "goto": "rfq"
+      },
+      {
+        "t": "Instaladores y Procesadores",
+        "d": "Cuatro procesos de termofusión en video, resumen de herramientas y límites de procesamiento claros, seguridad en el sitio de construcción.",
+        "cta": "A la Academia",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Por qué K-Aqua",
+    "whyTitle": "Seis razones que influyen en el cálculo.",
+    "why": [
+      {
+        "t": "Resistente a la presión y al agua caliente",
+        "d": "PPRCT con estructura cristalina modificada: más temperatura y reserva de presión a lo largo de décadas."
+      },
+      {
+        "t": "Sin corrosión",
+        "d": "Sin óxido, sin incrustaciones, sin riesgos de picaduras como en las tuberías de metal."
+      },
+      {
+        "t": "Reciclable y bajo en CO₂",
+        "d": "Código de reciclaje 5, huella significativamente menor que el cobre o el acero: verificable en la calculadora de CO₂."
+      },
+      {
+        "t": "Un solo punto de contacto",
+        "d": "Tuberías, conexiones, válvulas y tecnología de soldadura de una sola fuente, del fabricante, no del intermediario."
+      }
+    ],
+    "promise": [
+      "Directo de fábrica",
+      "Respuesta < 24 h",
+      "Sin compromiso"
+    ],
+    "ctaAll": "Solicitud de proyecto en 2 minutos"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página solicitada no existe o ha sido movida.",
+    "backHome": "Volver a la página de inicio"
+  },
+  "legal": {
+    "impressum": {
+      "title": "Aviso Legal",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Información",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nAlemania\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Dirección Ejecutiva",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Tribunal de Registro y Sede",
+          "content": "Wetzlar HRB 6732\n\nSede de la empresa:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "N.º de IVA",
+          "content": "Número de identificación a efectos del IVA:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Aviso legal y descargo de responsabilidad",
+          "content": "Los sistemas de tuberías de PP-R y PPRCT de K-Aqua son productos de alta tecnología para el transporte de agua potable, agua de calefacción y fluidos industriales. La información de este sitio web ha sido compilada con el mayor cuidado posible. Sin embargo, no asumimos ninguna responsabilidad por la exactitud absoluta, integridad y actualidad de los datos técnicos y especificaciones proporcionados. Nos reservamos el derecho de realizar cambios técnicos como parte del desarrollo continuo en cualquier momento.\n\nResponsabilidad por enlaces\nNuestro sitio web contiene enlaces a sitios web externos de terceros, sobre cuyos contenidos no tenemos ninguna influencia. Por lo tanto, no podemos asumir ninguna responsabilidad por estos contenidos externos. El proveedor o el operador respectivo de las páginas es siempre responsable de los contenidos de las páginas enlazadas.\n\nDerechos de autor\nLos contenidos, dibujos técnicos, modelos 3D y obras en estas páginas creadas por los operadores del sitio están sujetos a la ley alemana de derechos de autor. La duplicación, edición, distribución y cualquier tipo de explotación fuera de los límites de los derechos de autor requieren el consentimiento por escrito del respectivo autor o creador."
+        },
+        {
+          "id": "section-faq",
+          "title": "Preguntas Frecuentes (Legal y Servicio)",
+          "content": "¿Cómo puedo contactar al soporte técnico?\nPuede contactar a nuestro soporte técnico para preguntas sobre tuberías PP-R, parámetros de soldadura o productos hechos a medida a través de la dirección de correo electrónico indicada arriba o por teléfono durante nuestro horario de atención.\n\n¿Dónde puedo encontrar certificados y aprobaciones detallados?\nTodos los certificados DVGW, KIWA y SKZ para nuestros sistemas de tuberías están disponibles para su descarga en la sección \"Recursos\" o directamente en las respectivas páginas de detalles del producto.\n\n¿Qué garantía ofrece K-Aqua?\nK-Aqua ofrece una garantía integral del sistema para todas las tuberías y conexiones PP-R y PPRCT, siempre que hayan sido instaladas y soldadas profesionalmente utilizando herramientas originales de K-Aqua. Estaremos encantados de enviarle las condiciones de garantía detalladas a pedido."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Política de Privacidad",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Privacidad de un vistazo",
+          "content": "Esta política de privacidad le informa sobre qué datos personales se procesan realmente en este sitio web y con qué propósito.\n\nEn resumen: Solo procesamos datos personales si nos los proporciona activamente a través de nuestros formularios de contacto y solicitud, así como en la medida técnicamente necesaria al visitar el sitio web (datos de registro del servidor de nuestro proveedor de alojamiento). Actualmente no utilizamos servicios de análisis o marketing de terceros; dichas tecnologías solo se cargarían después de su consentimiento explícito a través del banner de cookies."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Parte responsable",
+          "content": "El responsable del tratamiento de datos en este sitio web es:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nAlemania\nTeléfono: +49 (0)60 85 / 9868-410\nCorreo electrónico: info@k-aqua.de\n\nLa parte responsable es la persona física o jurídica que decide, sola o en conjunto con otras, sobre los propósitos y los medios para procesar datos personales."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Oficial de Protección de Datos",
+          "content": "Hemos designado a un oficial de protección de datos para nuestra empresa:\n\nSILA Consulting GmbH\nSr. Roland Nießing\nLandwehr 103-105\n46325 Borken\nAlemania\nTeléfono: +49 2861 80847 700\nCorreo electrónico: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Alojamiento y archivos de registro del servidor",
+          "content": "Este sitio web está alojado en Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, EE. UU. Al visitar el sitio web, el proveedor de alojamiento procesa automáticamente los datos técnicos de acceso en los llamados archivos de registro del servidor: dirección IP, fecha y hora del acceso, página visitada, tipo y versión del navegador y sistema operativo.\n\nEstos datos se utilizan exclusivamente para la entrega segura y estable del sitio web y para el análisis de errores; no se fusionan con otras fuentes de datos. La base legal es el Art. 6 Párrafo 1 lit. f GDPR (interés legítimo en el suministro seguro de nuestra oferta en línea). Hemos celebrado un acuerdo de procesamiento de pedidos con Vercel; la transferencia a EE. UU. tiene lugar sobre la base de las cláusulas contractuales tipo de la UE o el Marco de Privacidad de Datos UE-EE. UU."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Formularios de contacto y solicitud",
+          "content": "Si utiliza uno de nuestros formularios de solicitud, procesamos los datos proporcionados allí: número de teléfono, dirección de correo electrónico, la solicitud que seleccionó y la página desde la cual se envió la solicitud. Estos datos se transmiten por correo electrónico a info@k-aqua.de y (si hay un sistema CRM conectado) se almacenan allí para procesar su solicitud.\n\nEn el caso de solicitudes enviadas a través del formulario de carrera, los datos de su solicitud (nombre, datos de contacto, currículum vitae o información sobre experiencia y educación) se enviarán a nuestro departamento de recursos humanos por correo electrónico.\n\nEl propósito del procesamiento es exclusivamente manejar su consulta o solicitud de empleo. La base legal es el Art. 6 Párrafo 1 lit. b GDPR (implementación de medidas precontractuales) o el Art. 6 Párrafo 1 lit. f GDPR. Los datos se eliminarán tan pronto como ya no sean necesarios para su propósito y no existan obligaciones legales de retención.\n\nPara proteger contra envíos de spam automatizados, utilizamos una verificación técnica invisible (campo honeypot y umbral de tiempo) sin servicios de Captcha de terceros."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies y consentimiento",
+          "content": "Este sitio web utiliza cookies técnicamente necesarias o tecnologías de almacenamiento comparables, como para guardar sus preferencias de idioma, visualización y cookies. Estas son requeridas para la operación del sitio web (Base legal: Art. 6 Párrafo 1 lit. f GDPR).\n\nA través del banner de cookies, puede dar su consentimiento adicional a las categorías \"Análisis\" y \"Marketing\". Actualmente no utilizamos ningún servicio de análisis o marketing; si dichos servicios se integran en el futuro, se cargarán exclusivamente después de su consentimiento. Puede revocar su consentimiento en cualquier momento con efecto futuro a través de la configuración de cookies."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Sus derechos",
+          "content": "Dentro del marco de las disposiciones legales aplicables, usted tiene derecho en cualquier momento a:\n\n- Información sobre sus datos personales almacenados (Art. 15 GDPR)\n- Rectificación de datos incorrectos (Art. 16 GDPR)\n- Supresión (Art. 17 GDPR)\n- Restricción del procesamiento (Art. 18 GDPR)\n- Portabilidad de datos (Art. 20 GDPR)\n- Oposición al procesamiento basado en intereses legítimos (Art. 21 GDPR)\n- Revocación de consentimientos dados con efecto futuro (Art. 7 Párrafo 3 GDPR)\n\nPara hacerlo, comuníquese con el responsable mencionado anteriormente o con nuestro oficial de protección de datos. Además, usted tiene derecho a presentar una queja ante la autoridad de control competente."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. Cifrado SSL o TLS",
+          "content": "Por razones de seguridad y para proteger la transmisión de contenido confidencial (como sus consultas dirigidas a nosotros), este sitio web utiliza cifrado SSL o TLS. Puede reconocer una conexión cifrada por \"https://\" y el símbolo del candado en la barra de direcciones de su navegador. Si el cifrado está activado, los datos que nos transmite no pueden ser leídos por terceros."
+        }
+      ]
+    },
+    "toc": "Contenido",
+    "eyebrow": "Legal"
+  },
+  "navigation": {
+    "cookieTitle": "Utilizamos cookies",
+    "cookieDesc": "Utilizamos cookies para mejorar su experiencia de navegación, ofrecer anuncios o contenido personalizado y analizar nuestro tráfico. Al hacer clic en \"Aceptar Todo\", usted da su consentimiento para nuestro uso de cookies.",
+    "cookieAccept": "Aceptar Todo",
+    "cookieDecline": "Rechazar No Esenciales"
+  },
+  "cookieConsent": {
+    "title": "Configuración de privacidad y cookies",
+    "description": "Utilizamos cookies y tecnologías similares (como píxeles y almacenamiento local) para brindarle la mejor experiencia posible en nuestra plataforma. Algunas son obligatorias, mientras que otras nos ayudan a mejorar este sitio web. Usted tiene el control total en todo momento.",
+    "customize": "Ajustar configuración",
+    "declineAll": "Solo Esenciales",
+    "acceptAll": "Aceptar Todo",
+    "acceptSelected": "Guardar selección",
+    "essentialTitle": "Esencial (Técnicamente necesario)",
+    "essentialDesc": "Estas cookies son estrictamente necesarias para el correcto funcionamiento del sitio web (p. ej., navegación, seguridad, almacenamiento de sus preferencias de privacidad). Sin estas tecnologías, K-Aqua no puede funcionar correctamente. No almacenan ningún dato de identificación personal.",
+    "analyticsTitle": "Estadística y Análisis",
+    "analyticsDesc": "Estas cookies nos ayudan a comprender el comportamiento de nuestros visitantes. Recopilamos datos seudonimizados sobre cómo los usuarios interactúan con K-Aqua (p. ej., las páginas más visitadas, la duración de la estadía, los mensajes de error). Esto nos permite corregir errores y mejorar continuamente la plataforma.",
+    "marketingTitle": "Marketing y Personalización",
+    "marketingDesc": "Utilizamos estas tecnologías para mostrarle contenido y anuncios más relevantes (incluso en plataformas externas). Si deshabilita esto, seguirá viendo publicidad, pero estará menos adaptada a sus intereses.",
+    "vendorListTitle": "Ver la lista detallada de cookies",
+    "backToSimple": "Volver a la vista general"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Nuestros sistemas K-Aqua de alta calidad ofrecen la máxima fiabilidad y durabilidad para proyectos exigentes en todo el mundo.",
+      "p2": "Gracias a los materiales avanzados y la fabricación de precisión en Alemania, garantizamos una instalación sencilla y una seguridad duradera.",
+      "p3": "Confíe en la calidad certificada y en soluciones sostenibles que cumplen con los más altos estándares internacionales y aumentan la eficiencia de su proyecto."
+    },
+    "extendedMarketText": {
+      "p1": "Las soluciones de K-Aqua están especialmente diseñadas para cumplir con los requisitos de los mercados locales e internacionales.",
+      "p2": "Apoyamos a contratistas generales y planificadores en el sitio con experiencia técnica y sistemas confiables para cada desafío.",
+      "p3": "A través de nuestra red global, nos aseguramos de que reciba exactamente los productos que se adaptan de manera óptima a su proyecto de construcción regional.",
+      "p4": "Los desafíos de gestión del agua de nuestro tiempo requieren soluciones de infraestructura personalizadas y duraderas. K-Aqua participa activamente en los mercados internacionales para satisfacer la creciente necesidad de redes de tuberías higiénicas y sin pérdidas. Ya sea en regiones con escasez de agua, donde cada gota debe protegerse mediante uniones de soldadura sin fugas, o en áreas metropolitanas de alta densidad con requisitos complejos de protección contra incendios e insonorización: nuestros sistemas PP-R y PPRCT ofrecen la confiabilidad necesaria.",
+      "p5": "Al hacerlo, no solo dependemos de la venta pura del producto, sino que nos vemos a nosotros mismos como un socio estratégico en el sitio. A través de capacitaciones técnicas, supervisión en el sitio y una estrecha cooperación con las autoridades locales, aseguramos que los estándares internacionales (como DVGW, WRAS, SASO) no solo se cumplan, sino que se superen. De esta manera, hacemos una contribución duradera a la modernización de la infraestructura global del agua."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Contacto Rápido y Cultura",
+      "detailed": "Portal de Empleo y Solicitud"
+    },
+    "portal": {
+      "eyebrow": "Vacantes",
+      "title": "Forme parte de nuestro",
+      "titleGrad": "equipo",
+      "lead": "Descubra emocionantes oportunidades profesionales en K-Aqua y postúlese en solo unos minutos.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Trabajador de Producción (h/m/d)",
+          "type": "Tiempo completo / Turnos",
+          "desc": "Apóyenos en la producción moderna de tuberías y conexiones."
+        },
+        {
+          "id": "machine",
+          "title": "Operador de Máquinas y Plantas (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Operación y monitoreo de nuestras líneas de extrusión de alta tecnología."
+        },
+        {
+          "id": "logistics",
+          "title": "Especialista en Logística de Almacén (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Responsabilidad por la entrada y salida de mercancías, así como el control de inventario."
+        },
+        {
+          "id": "sales",
+          "title": "Representante de Ventas Técnicas en Campo (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Soporte para grandes cuentas y planificadores de proyectos a nivel internacional."
+        },
+        {
+          "id": "pm",
+          "title": "Gerente de Producto (h/m/d)",
+          "type": "Tiempo completo",
+          "desc": "Dé forma al futuro de nuestros sistemas de tuberías PP-R."
+        },
+        {
+          "id": "init",
+          "title": "Solicitud Espontánea",
+          "type": "Tiempo completo / Medio tiempo",
+          "desc": "¿No hay un trabajo adecuado? ¡Solo envíe una solicitud espontánea!"
+        }
+      ],
+      "steps": {
+        "step1": "Datos personales",
+        "step2": "Currículum y documentos",
+        "step3": "Revisar"
+      },
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "startDate": "Fecha de inicio más temprana",
+        "uploadTitle": "Subir PDF",
+        "uploadDesc": "Arrastre su currículum aquí o haga clic para seleccionar (máx. 5MB)",
+        "builderTitle": "O: Crear CV en línea",
+        "builderDesc": "¿No tiene un PDF a mano? Simplemente complete su historial aquí.",
+        "workExp": "Agregar experiencia laboral",
+        "education": "Agregar educación",
+        "company": "Empresa",
+        "role": "Puesto",
+        "school": "Escuela / Universidad",
+        "degree": "Título",
+        "from": "Desde",
+        "to": "Hasta",
+        "skills": "Habilidades (separadas por comas)",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "submit": "Enviar solicitud",
+        "submitting": "Enviando...",
+        "success": "¡Gracias por su solicitud!",
+        "successSub": "Hemos recibido sus documentos y nos pondremos en contacto con usted en breve.",
+        "error": "Ocurrió un error. Por favor, inténtelo de nuevo más tarde."
+      }
+    }
+  },
+  "menu": {
+    "pipes": "Tuberías",
+    "fittings": "Conexiones",
+    "transition": "Conexiones de Transición",
+    "valves": "Válvulas y Llaves",
+    "tools": "Herramientas de Soldadura"
+  },
+  "quote": "Solicitud de Proyecto",
+  "kontaktForm": {
+    "phoneLabel": "Teléfono",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Por favor, introduzca un número de teléfono",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "compras@empresa.com",
+    "emailError": "Por favor, introduzca un correo electrónico válido",
+    "chipsLabel": "¿Qué necesita?",
+    "send": "Enviar solicitud",
+    "sendError": "Error al enviar. Por favor, inténtelo de nuevo o llámenos directamente:",
+    "legal": "Sin publicidad, no se compartirán sus datos.",
+    "legalLink": "Política de Privacidad",
+    "doneTitle": "Gracias, hemos recibido su solicitud.",
+    "doneTitleSlim": "Gracias, solicitud recibida.",
+    "direct": "¿Tiene prisa? Marcación directa",
+    "promise": "Respuesta dentro de un día hábil",
+    "ccAria": "Código de país",
+    "closeAria": "Cerrar",
+    "fabAria": "Contacto",
+    "interests": {
+      "rohrsysteme": "Sistemas de tuberías",
+      "trinkwassernetze": "Redes de agua potable",
+      "bim": "Datos BIM",
+      "ersatzteile": "Repuestos",
+      "beratung": "Asesoramiento"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "Sistemas de tuberías de",
+    "heroTitleEm": "alto rendimiento",
+    "heroLead": "Para aplicaciones industriales, suministro de agua potable y tecnología de aire acondicionado en condiciones extremas.",
+    "telemetry": {
+      "pressureLabel": "Presión del sistema",
+      "liveSuffix": "MPa en vivo",
+      "tempLabel": "Temperatura máx.",
+      "tempNote": "PN20 · Funcionamiento continuo",
+      "meta": [
+        [
+          "Material",
+          "K-Aqua PP-R (Tipo 3)"
+        ],
+        [
+          "Norma",
+          "DIN 8077/8078"
+        ],
+        [
+          "Certificación",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Vida útil",
+          "> 50 años"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Tecnología de Material Compuesto",
+      "desc": "Estructura de 3 capas para expansión térmica lineal minimizada y máxima estabilidad a altas temperaturas.",
+      "ariaGroup": "Capas de material",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Capa exterior"
+        },
+        {
+          "t": "Material compuesto de fibra",
+          "d": "Capa intermedia"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Capa interior"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Cumplimiento y Normas",
+      "items": [
+        [
+          "DVGW",
+          "Aprobación de agua potable"
+        ],
+        [
+          "SKZ",
+          "Garantía de calidad"
+        ],
+        [
+          "KIWA",
+          "Certificación del sistema"
+        ],
+        [
+          "DIN 8077/8078",
+          "Dimensiones y tolerancias"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimensiones",
+    "network": {
+      "title": "Red Global",
+      "lead": "Los sistemas K-Aqua se utilizan en más de 35 países de todo el mundo. De Waldsolms al mundo.",
+      "chips": [
+        [
+          "35+",
+          "Países"
+        ],
+        [
+          "3",
+          "Continentes"
+        ],
+        [
+          "ISO",
+          "Certificado"
+        ]
+      ]
+    }
+  },
+  "trustAndCases": {
+    "eyebrow": "Seguridad certificada",
+    "title": "Calidad y áreas de aplicación comprobadas",
+    "lead": "Como fabricante con sede en Alemania, garantizamos los más altos estándares. Nuestros sistemas de tuberías se utilizan en todo el mundo en infraestructuras críticas.",
+    "trustTitle": "Certificado y Comprobado",
+    "iso9001": "Gestión de calidad",
+    "iso14001": "Gestión ambiental",
+    "iso50001": "Gestión de energía",
+    "madeInGermany": "Fabricado en Alemania",
+    "case1Title": "Suministro municipal de agua",
+    "case1Desc": "Renovación de redes de agua potable. Uso de tuberías PPR libres de corrosión para la máxima seguridad de suministro con un mantenimiento mínimo.",
+    "case2Title": "Sistemas de enfriamiento industrial",
+    "case2Desc": "Instalación de tuberías de gran calibre en la industria pesada. Alta resistencia a la presión y resistencia química que garantizan fiabilidad.",
+    "case3Title": "Infraestructura e ingeniería civil",
+    "case3Desc": "Proyectos a gran escala con demandas extremas de durabilidad (SDR 11/17). Instalación rápida y reciclabilidad del material al 100% al final de su vida útil."
+  },
+  "rfq": {
+    "eyebrow": "Solicitud de proyecto",
+    "title1": "Su proyecto,",
+    "titleGrad": "nuestra oferta.",
+    "lead": "Cuatro pasos rápidos para una solicitud sin compromiso. Recibirá comentarios personales de nuestro equipo de ventas en el plazo de un día hábil.",
+    "steps": [
+      "Tipo de proyecto",
+      "Requisito",
+      "Plazo y Región",
+      "Contacto"
+    ],
+    "types": [
+      {
+        "t": "Nueva construcción / Edificación",
+        "d": "Instalación de agua potable en edificios residenciales o comerciales."
+      },
+      {
+        "t": "Infraestructura / Ingeniería civil",
+        "d": "Líneas de suministro, grandes dimensiones, redes."
+      },
+      {
+        "t": "Renovación / Reemplazo",
+        "d": "Sustitución de tuberías existentes de metal o PVC."
+      },
+      {
+        "t": "Comercio / Reventa",
+        "d": "Distribución, almacenamiento o negocio de proyectos."
+      }
+    ],
+    "fType": "Tipo de proyecto",
+    "fDims": "Dimensiones requeridas",
+    "fMeters": "Longitud estimada",
+    "dimsHint": "Estimaciones generales son suficientes; podemos especificar los detalles juntos. Posibilidad de selección múltiple.",
+    "fTime": "Plazo planificado",
+    "fRegion": "Región de entrega",
+    "timelines": [
+      "Inmediato / En curso",
+      "En 1–3 meses",
+      "En 3–6 meses",
+      "Fase de planificación"
+    ],
+    "regions": [
+      "Alemania",
+      "DACH",
+      "Europa",
+      "Oriente Medio",
+      "Mundial"
+    ],
+    "fName": "Nombre",
+    "fCompany": "Empresa",
+    "fEmail": "Correo electrónico",
+    "fPhone": "Teléfono",
+    "fMsg": "Mensaje (opcional)",
+    "privacy": "Al enviar, se abrirá un correo electrónico prellenado a info@k-aqua.de. No se almacenan datos en esta página.",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "send": "Enviar solicitud",
+    "mailSubject": "Solicitud de proyecto K-Aqua",
+    "promise": [
+      "Respuesta < 24 h",
+      "Sin compromiso",
+      "Directo del fabricante"
+    ],
+    "doneTitle": "Casi listo.",
+    "doneText": "Su programa de correo electrónico se ha abierto con la solicitud prellenada. Envíela. Nos pondremos en contacto con usted dentro de un día hábil. ¿Prefiere hablar directamente?",
+    "doneBack": "Volver a la página de inicio",
+    "infoTitle": "Acerca de la solicitud de proyecto",
+    "infoText1": "Utilice nuestra herramienta de solicitud para coordinar su proyecto de construcción o industrial desde el principio con nuestros expertos. Ya sea que se encuentre en la fase de planificación o ya tenga listas de materiales concretas, lo ayudaremos con el dimensionamiento y la selección de materiales.",
+    "infoText2": "Al trabajar de cerca con el equipo de ventas de K-Aqua, no solo recibe ofertas precisas, sino también valiosos consejos técnicos sobre las clases de presión (clases SDR), métodos de instalación y accesorios compatibles con el sistema. Envíenos su información básica y nos pondremos en contacto con usted en un día hábil.",
+    "faqTitle": "Preguntas frecuentes sobre la solicitud",
+    "faqs": [
+      {
+        "q": "¿Tiene algún costo la solicitud del proyecto?",
+        "a": "No, usar esta herramienta y la posterior preparación de una oferta por parte de nuestro equipo de ventas es completamente gratuito y sin compromiso para usted."
+      },
+      {
+        "q": "¿Qué sucede después de enviar la solicitud?",
+        "a": "Su solicitud se enruta directamente a nuestro equipo de ventas interno. Un representante de ventas personal se comunicará con usted en 24 horas para aclarar cualquier pregunta sin responder o proporcionarle directamente una oferta personalizada."
+      },
+      {
+        "q": "¿Puedo hacer consultas como particular?",
+        "a": "K-Aqua está dirigido principalmente a mayoristas, planificadores e instaladores especializados en el sector B2B. Estaremos encantados de derivar a los clientes privados a nuestros socios especialistas regionales."
+      },
+      {
+        "q": "¿Qué tan seguros están mis datos?",
+        "a": "Sus entradas no se almacenan en el servidor, sino que se transfieren directamente a su programa de correo electrónico, desde donde nos envía la solicitud de forma segura. Tratamos sus datos con estricta confidencialidad de acuerdo con las pautas vigentes del GDPR."
+      }
+    ]
+  },
+  "productsx": {
+    "pipesEyebrow": "Programa de tuberías",
+    "pipesTitle": "Tres familias de tuberías, un concepto de sistema.",
+    "pipesLead": "Monocapa, PPRCT y material compuesto reforzado con fibra de vidrio, además de versiones estabilizadas a los rayos UV para aplicaciones en exteriores.",
+    "pipes": [
+      {
+        "t": "K-Pipe PP-R Monocapa",
+        "d": "El estándar probado para agua potable fría y caliente. Estructura de una sola capa, rango completo de SDR en las dimensiones habituales: económico para edificios residenciales y comerciales.",
+        "tags": [
+          "d20–d630",
+          "SDR 6–17"
+        ]
+      },
+      {
+        "t": "K-Pipe PPRCT",
+        "d": "Estructura cristalina modificada para más temperatura y reserva de presión: el SDR 7.4 está diseñado para un funcionamiento continuo a 70 °C a 10 bar (1.0 MPa), la elección para agua caliente y circulación.",
+        "tags": [
+          "70 °C · 10 bar",
+          "Agua caliente"
+        ]
+      },
+      {
+        "t": "K-Fiber Pipe (GF-Multicapa)",
+        "d": "Núcleo reforzado con fibra de vidrio entre dos capas de PP: expansión térmica reducida a aproximadamente una cuarta parte, espaciado de abrazaderas más amplio, mantiene su forma hasta d630, hasta 20 bar (2.0 MPa) a 20 °C en SDR 6.",
+        "tags": [
+          "Núcleo GF",
+          "d20–d630"
+        ]
+      },
+      {
+        "t": "Versión estabilizada a los rayos UV",
+        "d": "Para instalaciones expuestas al sol (como invernaderos o líneas aéreas), la gama está disponible en una versión resistente a los rayos UV.",
+        "tags": [
+          "Área exterior",
+          "Agrícola"
+        ]
+      }
+    ],
+    "dimEyebrow": "Tablas de dimensiones",
+    "dimTitle": "Cada dimensión, cada grosor de pared.",
+    "dimLead": "Seleccione la clase de presión. La tabla muestra todas las dimensiones disponibles con grosor de pared, diámetro interno, presión nominal, contenido de agua y peso por metro.",
+    "dimTabAria": "Seleccionar clase de presión",
+    "dimHead": [
+      "d (mm)",
+      "Pared s (mm)",
+      "di (mm)",
+      "Presión nominal",
+      "Contenido de agua (l/m)",
+      "Peso (kg/m)"
+    ],
+    "dimNote": "Valores calculados a partir de la geometría SDR (s = d/SDR, densidad 0.905 g/cm³) según la serie DIN 8077. El catálogo de productos y las hojas de datos específicos del proyecto son vinculantes.",
+    "anchorsTitle": "Anclajes de diseño vinculantes del programa",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "K-Fiber Pipe PP-R · SDR 6",
+        "c": "2.0 MPa funcionamiento continuo a 20 °C: agua fría sobre el horizonte de diseño de 50 años."
+      },
+      {
+        "v": "10 bar",
+        "t": "K-Pipe PPRCT · SDR 7.4",
+        "c": "1.0 MPa funcionamiento continuo a 70 °C: agua caliente y circulación sin pérdida de reserva."
+      }
+    ],
+    "matEyebrow": "Datos del material",
+    "matTitle": "Lo que distingue al material.",
+    "matLead": "Los valores clave más importantes del sistema PP-R/PPRCT y por qué cuentan en la planificación.",
+    "matHead": [
+      "Propiedad",
+      "Valor",
+      "Significado para su proyecto"
+    ],
+    "matRows": [
+      [
+        "Densidad",
+        "0.905 g/cm³",
+        "Aproximadamente un décimo de la del cobre: transporte fácil, instalación sencilla sin equipo de elevación para dimensiones pequeñas y medianas."
+      ],
+      [
+        "Rugosidad interna",
+        "0.007 mm",
+        "Superficie extremadamente lisa: caída de presión mínima, casi sin incrustaciones ni formación de biofilm."
+      ],
+      [
+        "Conductividad térmica",
+        "0.24 W/(m·K)",
+        "Baja pérdida de calor en la circulación de agua caliente: ahorro duradero de energía frente al metal."
+      ],
+      [
+        "Expansión lineal (Monocapa)",
+        "≈ 0.15 mm/(m·K)",
+        "Se compensa estructuralmente a través de brazos de expansión y puntos fijos."
+      ],
+      [
+        "Expansión lineal (K-Fiber, GF)",
+        "≈ 0.04 mm/(m·K)",
+        "Aproximadamente una cuarta parte del valor del monocapa: mayor distancia entre abrazaderas, un diseño de tubería más uniforme."
+      ],
+      [
+        "Temperatura del medio",
+        "frío hasta 70 °C funcionamiento continuo",
+        "Agua potable fría y caliente; anclaje de diseño: PPRCT SDR 7.4 a 70 °C · 10 bar."
+      ],
+      [
+        "Resistencia química",
+        "Disolventes, álcalis, ácidos",
+        "Inusualmente resistente como plástico de ingeniería: libre de corrosión sin riesgo de picaduras."
+      ],
+      [
+        "Reciclaje",
+        "Código 5 (PP)",
+        "Se puede separar por tipo; el 100% de los residuos de producción vuelven al ciclo de reciclaje."
+      ]
+    ],
+    "fitEyebrow": "Conexiones y componentes del sistema",
+    "fitTitle": "El sistema alrededor de la tubería.",
+    "fitLead": "Conexiones de d20 a d315, válvulas, transiciones y tecnología de soldadura completa: todo de una sola fuente, todo compatible con el sistema.",
+    "fitGroups": [
+      {
+        "t": "Conexiones d20–d315",
+        "items": [
+          "Codos de 90° y 45°",
+          "Tes, también reducidas",
+          "Copas y copas de reparación",
+          "Reducciones",
+          "Tapones"
+        ]
+      },
+      {
+        "t": "Transiciones y Acoples",
+        "items": [
+          "Piezas de transición con rosca interior de latón",
+          "Piezas de transición con rosca exterior de latón",
+          "Acoples (desmontables)",
+          "Conexión a tuberías de metal existentes"
+        ]
+      },
+      {
+        "t": "Válvulas",
+        "items": [
+          "Válvulas",
+          "Válvulas de bola",
+          "Llaves de cierre para tuberías ascendentes y de distribución"
+        ]
+      },
+      {
+        "t": "Tecnología de soldadura y Herramientas",
+        "items": [
+          "Dispositivos de termofusión manual (hasta d63)",
+          "Máquinas de termofusión de coplas",
+          "Dispositivos de electrofusión",
+          "Máquinas de termofusión a tope para dimensiones grandes",
+          "Cortatubos y herramientas de corte"
+        ]
+      }
+    ],
+    "normEyebrow": "Normas y Certificaciones",
+    "normTitle": "Probado frente a las regulaciones.",
+    "normLead": "El sistema K-Aqua se fabrica y prueba según las normas aplicables de tecnología de tuberías. Cada lote está bajo los requisitos de calidad ISO-9001.",
+    "normHead": [
+      "Norma",
+      "Título",
+      "Significado"
+    ],
+    "norms": [
+      [
+        "DIN 8077",
+        "Tuberías de polipropileno: Dimensiones",
+        "Define las series de diámetro y grosor de pared (SDR) para tuberías PP."
+      ],
+      [
+        "DIN 8078",
+        "Tuberías de polipropileno: Requisitos",
+        "Requisitos generales de calidad y pruebas para tuberías PP-R/PPRCT."
+      ],
+      [
+        "DIN EN ISO 15874",
+        "Sistemas de tuberías plásticas",
+        "Norma del sistema para instalaciones de agua fría y caliente de polipropileno."
+      ],
+      [
+        "DVS 2207-11",
+        "Soldadura de PP",
+        "Valores guía para termofusión a tope, electrofusión y de coplas: base de la Academia."
+      ],
+      [
+        "DVGW / KTW",
+        "Contacto con agua potable",
+        "Certificados de conformidad para el contacto con agua potable: se pueden solicitar en el Centro de Confianza."
+      ],
+      [
+        "EN 15804",
+        "EPD (Tipo III)",
+        "Declaraciones Ambientales de Producto como base de datos para LEED, BREEAM y DGNB."
+      ],
+      [
+        "ISO 9001 / 14001 / 50001",
+        "Sistemas de gestión",
+        "Calidad, medio ambiente y energía: triple certificación desde octubre de 2025, acreditado por DAkkS."
+      ],
+      [
+        "GENAU",
+        "Sistema de gestión integrado",
+        "El sistema interno en House of KWT combina la seguridad laboral, el medio ambiente y la energía en el día a día."
+      ]
+    ],
+    "faqEyebrow": "Preguntas frecuentes",
+    "faqTitle": "Respuestas para planificación y compras.",
+    "faq": [
+      {
+        "q": "¿Para qué medios está diseñado el sistema?",
+        "a": "Para agua potable (fría y caliente) con alta resistencia a la presión y temperatura a lo largo de décadas. Debido a la resistencia del PP a los disolventes, álcalis y ácidos, también es posible para aplicaciones industriales; comprobaremos esto específicamente con usted para su proyecto."
+      },
+      {
+        "q": "¿Qué representan las cinco clases SDR?",
+        "a": "SDR es la relación entre el diámetro exterior y el espesor de la pared (d/s). SDR menor = pared más gruesa = presión nominal más alta: SDR 6 corresponde a PN 20, SDR 17 corresponde a PN 6. Así es como elige exactamente la reserva que necesita para cada aplicación, sin sobredimensionar."
+      },
+      {
+        "q": "¿Cuándo usar monocapa y cuándo K-Fiber?",
+        "a": "El monocapa es el estándar económico para la mayoría de las aplicaciones. El compuesto de fibra reforzado con fibra de vidrio reduce la expansión térmica a aproximadamente una cuarta parte, permite una mayor separación de las abrazaderas y conserva su forma en dimensiones grandes y con agua caliente, siendo la opción ideal para conductos ascendentes, circulación y d ≥ 160."
+      },
+      {
+        "q": "¿Cómo se conectan las tuberías?",
+        "a": "De manera cohesiva por termofusión: de coplas a mano (hasta d63) o a máquina, electrofusión a través de accesorios de resistencia térmica y termofusión a tope para dimensiones grandes hasta d630. Los equipos y herramientas correspondientes forman parte de la gama; los cuatro procesos se muestran en video en la Academia."
+      },
+      {
+        "q": "¿Cumple el sistema con los estándares de agua potable?",
+        "a": "El sistema está desarrollado para el agua potable; el polipropileno no tiene olor ni sabor. Ponemos a disposición los certificados de conformidad para el contacto con agua potable (DVGW/KTW) en el Centro de Confianza como parte del paquete de documentos de RFP."
+      },
+      {
+        "q": "¿En qué vida útil se basa el diseño?",
+        "a": "Las clases de presión se basan en las curvas de regresión de fluencia de DIN 8077/8078 con un horizonte de diseño de 50 años de vida operativa, incluido el factor de seguridad. Los dos anclajes del programa: SDR 6 con 20 bar a 20 °C y PPRCT SDR 7.4 con 10 bar a 70 °C."
+      },
+      {
+        "q": "¿Dónde puedo obtener datos de artículos vinculantes?",
+        "a": "En el buscador de productos puede filtrar todas las variantes en vivo y exportarlas como CSV. Los valores vinculantes son proporcionados por el catálogo de productos (PDF); para condiciones de proyecto, la solicitud de proyecto lleva directamente a ventas en cinco pasos. Respuesta dentro de un día hábil."
+      }
+    ]
+  },
+  "solutionsx": {
+    "segEyebrow": "Áreas de aplicación",
+    "segTitle": "Probado donde el agua es crítica.",
+    "segLead": "Los sistemas K-Aqua operan a nivel mundial en proyectos que van desde hospitales hasta invernaderos. Cada área de aplicación aprovecha diferentes fortalezas del material.",
+    "segments": [
+      {
+        "t": "Hospitales y Edificios de Salud",
+        "d": "La higiene no es negociable aquí: La superficie interior lisa (0.007 mm) inhibe el biofilm y las incrustaciones, el material permanece neutro en sabor y olor.",
+        "pts": [
+          "Neutralidad higiénica",
+          "Sin corrosión: sin picaduras",
+          "Referencia: Nuevo hospital en Ciudad del Cabo"
+        ]
+      },
+      {
+        "t": "Hoteles y Edificios Residenciales Altos",
+        "d": "Circulación de agua caliente 24/7: baja conductividad térmica ahorra energía a largo plazo, el PPRCT puede soportar un funcionamiento continuo a 70 °C.",
+        "pts": [
+          "Eficiencia térmica",
+          "PPRCT para circulación",
+          "Referencia: Complejo hotelero en Estambul"
+        ]
+      },
+      {
+        "t": "Industria y Edificios Comerciales",
+        "d": "Resistente a disolventes, álcalis y ácidos. Donde las tuberías metálicas se corroen, el polipropileno permanece intacto.",
+        "pts": [
+          "Resistencia química",
+          "Intervalos de mantenimiento largos",
+          "Agua de proceso y servicio"
+        ]
+      },
+      {
+        "t": "Invernaderos y Agricultura",
+        "d": "Versiones estabilizadas contra rayos UV para riego en exteriores y bajo vidrio: ligeras, de rápida instalación, menos sensibles a las heladas que los sistemas rígidos.",
+        "pts": [
+          "Versión resistente a UV",
+          "Peso ligero",
+          "Área de aplicación del programa de referencia"
+        ]
+      },
+      {
+        "t": "Infraestructura Municipal",
+        "d": "Líneas de suministro y redes en grandes dimensiones hasta d630: soldadas a tope en tramos homogéneos, permanentemente herméticos.",
+        "pts": [
+          "d hasta 630 mm",
+          "Soldadura a tope (Butt Fusion)",
+          "Referencia: Infraestructura de Singapur"
+        ]
+      },
+      {
+        "t": "Rehabilitación y Reemplazo",
+        "d": "Reemplazo de tuberías de metal o PVC corroídas: las piezas de transición con roscas de latón conectan el sistema existente de manera limpia con el nuevo sistema.",
+        "pts": [
+          "Transiciones a roscas metálicas",
+          "Rehabilitación en secciones",
+          "Problema de corrosión resuelto permanentemente"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Comparación de materiales",
+    "cmpTitle": "PP-R/PPRCT en comparación.",
+    "cmpLead": "Cuatro materiales de tubería, ocho criterios: una comparación simplificada como punto de partida para la elección de material específica del proyecto.",
+    "cmpHead": [
+      "Criterio",
+      "K-Aqua PP-R/PPRCT",
+      "Cobre",
+      "Acero inoxidable",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Corrosión",
+        "sin corrosión: inmune a la corrosión electroquímica",
+        "posibilidad de picaduras",
+        "resistente (según la calidad)",
+        "sin corrosión"
+      ],
+      [
+        "Incrustaciones y Biofilm",
+        "muy baja: rugosidad interna de 0.007 mm",
+        "posible",
+        "baja",
+        "baja"
+      ],
+      [
+        "Conductividad térmica",
+        "0.24 W/(m·K): bajas pérdidas",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0.14 W/(m·K)"
+      ],
+      [
+        "Densidad / Peso",
+        "0.905 g/cm³",
+        "8.9 g/cm³",
+        "7.9 g/cm³",
+        "1.55 g/cm³"
+      ],
+      [
+        "Tecnología de conexión",
+        "soldadura por cohesión: tramo homogéneo",
+        "soldado / presionado",
+        "presionado / soldado",
+        "pegado"
+      ],
+      [
+        "Sabor y Olor",
+        "neutro",
+        "posible emisión de metal",
+        "neutro",
+        "neutro"
+      ],
+      [
+        "CO₂ (Construcción)",
+        "bajo, comparar en calculadora de CO₂",
+        "alto",
+        "alto",
+        "medio"
+      ],
+      [
+        "Reciclaje",
+        "Código 5, clasificado: el 100% de los residuos de producción vuelve al ciclo",
+        "ciclo de chatarra",
+        "ciclo de chatarra",
+        "limitado"
+      ]
+    ],
+    "cmpNote": "Comparación simplificada con valores típicos de materiales; la elección del material sigue siendo específica del proyecto. Para la base de cifras del CO₂, consulte la calculadora de CO₂ y las hojas de datos EPD.",
+    "lifeEyebrow": "Ciclo de vida",
+    "lifeTitle": "Del gas crudo al reciclado.",
+    "lifeLead": "Responsabilidad en todo el ciclo: cuatro estaciones que hacen que el producto sea ecológicamente sostenible.",
+    "life": [
+      {
+        "t": "Materia prima con historia",
+        "d": "El polipropileno se fabrica a partir de gases que solían quemarse inútilmente. Su uso como material reduce la contaminación del aire en la fuente."
+      },
+      {
+        "t": "Fabricación en el ciclo",
+        "d": "La producción en Waldsolms se enfría en un circuito cerrado de agua, protegiendo así ríos, arroyos y lagos; la eficiencia energética se gestiona según ISO 50001."
+      },
+      {
+        "t": "50 años en funcionamiento",
+        "d": "Diseñado según las curvas de fluencia de DIN 8077/8078 para una vida operativa de 50 años: fácil de mantener, resistente al desgaste y al envejecimiento."
+      },
+      {
+        "t": "De vuelta al ciclo",
+        "d": "Código de reciclaje 5: se puede separar por tipo con alta demanda de reciclado PP. El 100% de los recortes y residuos de producción se reciclan."
+      }
+    ]
+  },
+  "trustx": {
+    "stakeEyebrow": "Para su Centro de Compras",
+    "stakeTitle": "Cada rol evalúa de manera diferente.",
+    "stakeLead": "Un comité de compras B2B consta en promedio de 11 a 20 personas. Tecnología, compras y sostenibilidad necesitan diferentes evidencias. Aquí está el mapa.",
+    "stakeHead": [
+      "Rol",
+      "Qué importa",
+      "Evidencia Relevante"
+    ],
+    "stakeRows": [
+      [
+        "Ingeniero / Planificador",
+        "Clases de presión y dimensiones (d20–d630), sin toxicidad, soldabilidad, longevidad del lote",
+        "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Tablas de dimensiones"
+      ],
+      [
+        "Compras / Adquisición",
+        "Capacidad de entrega, minimización de riesgos, criterios estrictos de RFP, Costo Total de Propiedad",
+        "ISO 9001 como \"boleto de entrada\" · Manual de GC · Textos GAEB"
+      ],
+      [
+        "Sostenibilidad / Cumplimiento",
+        "Huella de CO₂, emisiones de Alcance 1/2/3, Compras Verdes, eficiencia energética en la producción",
+        "ISO 14001 · ISO 50001 · EPD (EN 15804) · Datos de Alcance 3 a pedido"
+      ]
+    ],
+    "statEyebrow": "Por qué el Autoservicio",
+    "statTitle": "La adquisición ha cambiado.",
+    "stats": [
+      {
+        "n": "70",
+        "u": "%",
+        "l": "de los compradores B2B investigan anónimamente antes de contactar a ventas"
+      },
+      {
+        "n": "11–20",
+        "u": "",
+        "l": "partes interesadas forman el centro de compras típico de un proyecto"
+      },
+      {
+        "n": "87",
+        "u": "",
+        "l": "puntos de contacto puede involucrar una decisión de compra B2B"
+      },
+      {
+        "n": "50",
+        "u": "%",
+        "l": "de los clientes B2B prefieren comprar a proveedores comprobadamente sostenibles"
+      }
+    ],
+    "statNote": "Cifras clave de estudios de la industria sobre adquisiciones B2B. Es por eso que todas las evidencias están disponibles aquí para el autoservicio en lugar de \"bajo solicitud por escrito\".",
+    "instEyebrow": "Socios de Pruebas",
+    "instTitle": "Quién está detrás de la evidencia.",
+    "inst": [
+      {
+        "t": "Pruebas acreditadas por DAkkS",
+        "d": "Los certificados ISO 9001, 14001 y 50001 provienen de una empresa de certificación acreditada por el Organismo Alemán de Acreditación (DAkkS): válidos desde 10/2025 hasta 10/2028."
+      },
+      {
+        "t": "SKZ: Centro de Plásticos del Sur de Alemania",
+        "d": "La garantía de calidad de los sistemas de tuberías está acompañada por el reconocido instituto de pruebas de plásticos: pruebas independientes en lugar de autoelogio."
+      },
+      {
+        "t": "DVGW / KTW: Contacto con agua potable",
+        "d": "Los certificados de conformidad para el contacto con el agua potable son parte del paquete de documentos RFP y se proporcionan bajo solicitud."
+      }
+    ],
+    "auditEyebrow": "Hoja de ruta de la Auditoría",
+    "auditTitle": "De la consulta a la aprobación.",
+    "auditLead": "Así es como funciona la calificación de un proveedor con K-Aqua: predecible y sin tiempos de espera.",
+    "audit": [
+      {
+        "t": "Armar paquete de documentos",
+        "d": "Reúna su paquete RFP arriba: certificados, política GENAU, EPD, GAEB y manual de GC, solicitados como un ZIP."
+      },
+      {
+        "t": "Aclarar dudas",
+        "d": "Calidad y soporte técnico responden a support@k-aqua.de en el plazo de un día hábil."
+      },
+      {
+        "t": "Programar auditoría de fábrica",
+        "d": "Audite la producción, el laboratorio de pruebas y la práctica GENAU en el sitio en Waldsolms: cita por acuerdo."
+      },
+      {
+        "t": "Aprobación y Recalificación",
+        "d": "Después de la inclusión, las auditorías de vigilancia acompañan el ciclo de 3 años de los certificados. Sus documentos se mantienen actualizados."
+      }
+    ],
+    "faqEyebrow": "Preguntas frecuentes de cumplimiento",
+    "faqTitle": "Las preguntas de auditoría más comunes.",
+    "faq": [
+      {
+        "q": "¿Por cuánto tiempo son válidos los certificados ISO?",
+        "a": "Tres años. El ciclo actual va de 10/2025 a 10/2028, acompañado de auditorías anuales de vigilancia por la empresa de certificación."
+      },
+      {
+        "q": "¿Qué significa \"Acreditado por DAkkS\"?",
+        "a": "El Organismo Alemán de Acreditación (DAkkS) es el organismo nacional de acreditación de Alemania. Supervisa a las propias empresas de certificación. La acreditación hace que el certificado sea confiable internacionalmente."
+      },
+      {
+        "q": "¿Cómo verifico un certificado?",
+        "a": "Cada certificado lleva un número (p. ej., Q-2025-6732) y el organismo emisor. Con ambos detalles, la validez se puede verificar directamente con la empresa de certificación. O puede preguntar en support@k-aqua.de."
+      },
+      {
+        "q": "¿Están disponibles los datos de Alcance 3 y los datos brutos de EPD?",
+        "a": "Sí, proporcionamos datos de emisiones de Alcance 3 y datos brutos de EPD a pedido. Transparencia proactiva en lugar de mero cumplimiento de obligaciones: su equipo de sostenibilidad recibe cifras sólidas para su propio balance."
+      },
+      {
+        "q": "¿Suministran textos de licitación GAEB?",
+        "a": "Sí, los textos GAEB forman parte del paquete de documentos RFP. Esto permite que el sistema K-Aqua se transfiera sin problemas a su software AVA y a las especificaciones."
+      },
+      {
+        "q": "¿Qué es una EPD según EN 15804?",
+        "a": "Una Declaración Ambiental de Producto (Tipo III) con datos de balance ecológico verificados sobre el ciclo de vida. Es la base de datos para certificaciones de edificios como LEED, BREEAM y DGNB, y para modelos de adquisición ajustados por CO₂."
+      }
+    ]
+  },
+  "partnerx": {
+    "ecoEyebrow": "El Ecosistema KESSEL",
+    "ecoTitle": "De qué se benefician los clientes de K-Aqua.",
+    "ecoLead": "KESSEL ha construido la infraestructura de una marca premium durante décadas. K-Aqua aporta esta misma actitud al suministro de agua.",
+    "eco": [
+      {
+        "t": "ISH Frankfurt",
+        "d": "KESSEL muestra su presencia en la principal feria comercial del mundo de la industria HVAC, el escenario donde el drenaje y el suministro se piensan juntos."
+      },
+      {
+        "t": "Portal de Planificadores",
+        "d": "La plataforma digital para planificadores especializados es el núcleo de la retención diaria de planificadores: un modelo a seguir para las herramientas digitales de K-Aqua."
+      },
+      {
+        "t": "Foro de Clientes",
+        "d": "Sesiones de capacitación físicas e híbridas en ubicaciones dedicadas, incluidas Lenting y Hamburgo. La transferencia de conocimientos es retención."
+      },
+      {
+        "t": "Manual de Planificación",
+        "d": "El conocimiento de planificación mantenido editorialmente por KESSEL es una referencia de cómo K-Aqua está ampliando su área de conocimiento para planificadores: desde la Academia hasta las tablas de dimensiones."
+      }
+    ],
+    "flowEyebrow": "Dos flujos, un edificio",
+    "flowTitle": "Suministro hacia adentro, drenaje hacia afuera.",
+    "flowLead": "Cada edificio necesita ambas direcciones. La asociación cubre todo el ciclo del agua con un ADN de ingeniería común.",
+    "flow": [
+      {
+        "t": "K-Aqua: Líderes en Suministro de Agua",
+        "d": "Suministro de agua potable d20–d630: Tuberías, conexiones, válvulas y tecnología de soldadura, fabricadas en Waldsolms."
+      },
+      {
+        "t": "KESSEL: Líderes en Drenaje",
+        "d": "El fabricante premium de tecnología de drenaje: protección contra reflujo, estaciones de bombeo, separadores. La autoridad de la industria HVAC."
+      },
+      {
+        "t": "Comercio compartido",
+        "d": "Los planificadores y procesadores trabajan con una comunidad de valores compartidos: la misma filosofía de calidad, soporte coordinado, distancias cortas."
+      }
+    ],
+    "roadEyebrow": "Hoja de ruta conjunta",
+    "roadTitle": "Desde videos de capacitación hasta un configurador.",
+    "road": [
+      {
+        "t": "Academia y Videos",
+        "d": "Cuatro procesos de soldadura como documentación en video más cuestionario: disponibles hoy, optimizados para obras de construcción.",
+        "s": "Hoy"
+      },
+      {
+        "t": "Soporte de tecnología de soldadura",
+        "d": "Dispositivos, herramientas e instrucciones para su equipo, directamente del fabricante.",
+        "s": "Hoy"
+      },
+      {
+        "t": "Herramientas de planificación digital",
+        "d": "Buscador de productos, calculadora de CO₂ y Centro de Confianza como autoservicio, en expansión siguiendo el modelo del Portal de Planificadores.",
+        "s": "En expansión"
+      },
+      {
+        "t": "Configurador paramétrico de redes de tuberías",
+        "d": "La perspectiva: configurar redes de tuberías de forma paramétrica y transferirlas directamente a una lista de materiales y una consulta.",
+        "s": "Perspectiva"
+      }
+    ],
+    "specEyebrow": "Para su especificación",
+    "specTitle": "Datos a donde se toman las decisiones.",
+    "specLead": "La especificación del producto se decide en el software AVA y CAD. Ahí es donde entregamos.",
+    "spec": [
+      {
+        "t": "Textos de licitación GAEB",
+        "d": "Textos listos para su lista de cantidades: parte del paquete RFP en el Centro de Confianza."
+      },
+      {
+        "t": "Datos BIM y CAD",
+        "d": "Datos de planificación para trabajos basados en modelos, a pedido a través de ventas, expansión en curso."
+      },
+      {
+        "t": "Fichas técnicas y Muestras",
+        "d": "Catálogo de productos y propiedades como PDF, muestras y consultoría de proyectos directamente desde la fábrica."
+      }
+    ]
+  },
+  "academyx": {
+    "paramEyebrow": "Parámetros de soldadura",
+    "paramTitle": "Termofusión de coplas: los valores guía.",
+    "paramLead": "Tiempos de calentamiento, cambio y enfriamiento para la termofusión de coplas según DVS 2207-11 (elemento de calentamiento 250–270 °C), la base mostrada en la práctica en los videos.",
+    "paramHead": [
+      "d (mm)",
+      "Profundidad de soldadura (mm)",
+      "Calentamiento (s)",
+      "Cambio máx. (s)",
+      "Enfriamiento (min)"
+    ],
+    "paramNote": "Valores guía según DVS 2207-11 para PP a una temperatura del elemento calefactor de 250–270 °C. Las instrucciones del fabricante de la máquina de soldar y de procesamiento son vinculantes. En caso de duda: vea el video, verifique los parámetros en el dispositivo.",
+    "stepEyebrow": "Procedimiento paso a paso",
+    "stepTitle": "Cuatro procesos, un estándar de calidad.",
+    "stepLead": "Cada proceso tiene su rango dimensional y cinco pasos que determinan la calidad de la conexión.",
+    "procTabs": [
+      "Copla (Manual)",
+      "Copla (Máquina)",
+      "Electrofusión",
+      "Termofusión a tope"
+    ],
+    "procs": [
+      {
+        "t": "Termofusión manual de coplas: hasta d63",
+        "steps": [
+          {
+            "t": "Corte y desbarbado",
+            "d": "Corte el tubo en un ángulo recto, desbarbe y bisele limpiamente. Use el cortador de tubos de la gama de herramientas de K-Aqua."
+          },
+          {
+            "t": "Marcar la profundidad de soldadura",
+            "d": "Marque la profundidad de inserción según la tabla (p. ej., 14 mm para d20) en la tubería: define la zona de unión."
+          },
+          {
+            "t": "Calentar simultáneamente",
+            "d": "Tubo en el dado calentador, accesorio en el mandril calentador. Empuje simultáneamente y mantenga el tiempo de calentamiento exactamente."
+          },
+          {
+            "t": "Unir rápidamente, sin girar",
+            "d": "Una axialmente dentro del tiempo de cambio. Nunca tuerza: torcer destruye la estructura plastificada."
+          },
+          {
+            "t": "Fijar y enfriar",
+            "d": "Fije la conexión por unos segundos, luego espere el tiempo de enfriamiento antes de aplicar carga mecánica."
+          }
+        ]
+      },
+      {
+        "t": "Termofusión de coplas con máquina: dimensiones medias",
+        "steps": [
+          {
+            "t": "Prepárese como en la soldadura manual",
+            "d": "Corte, desbarbe, marque la profundidad de soldadura. Las reglas básicas siguen siendo idénticas."
+          },
+          {
+            "t": "Sujete el tubo y el accesorio",
+            "d": "La máquina mantiene ambos elementos a unir coaxiales. Los errores de desplazamiento y de inclinación se excluyen mecánicamente."
+          },
+          {
+            "t": "Calentar con elemento calefactor",
+            "d": "Dado y mandril calefactor según los valores guía de DVS; la máquina mantiene la posición y el tiempo de forma reproducible."
+          },
+          {
+            "t": "Unión a máquina",
+            "d": "El avance se une de forma axial y uniforme, la clave de la calidad constante, especialmente para d75 a d125."
+          },
+          {
+            "t": "Enfriamiento bajo fijación",
+            "d": "Solo desenganche y procese después de que haya transcurrido el tiempo de enfriamiento."
+          }
+        ]
+      },
+      {
+        "t": "Electrofusión: Accesorios de bobina calefactora",
+        "steps": [
+          {
+            "t": "Pelar la superficie",
+            "d": "Pele y limpie la superficie de la tubería en la zona de unión. La capa de óxido y la suciedad evitan que se produzca la soldadura."
+          },
+          {
+            "t": "Marcar la profundidad de inserción",
+            "d": "Marque la profundidad en la tubería, empuje la tubería hasta el fondo en el accesorio."
+          },
+          {
+            "t": "Fijar sin tensión",
+            "d": "Use abrazaderas de sujeción: el accesorio no debe estar bajo tensión de flexión durante la soldadura."
+          },
+          {
+            "t": "Iniciar proceso de soldadura",
+            "d": "El dispositivo energiza las bobinas de calentamiento integradas en el accesorio. Los parámetros provienen del accesorio, no de la intuición."
+          },
+          {
+            "t": "Mantener tiempo de enfriamiento",
+            "d": "Mueva o cargue solo después del tiempo de enfriamiento especificado. Compruebe los indicadores de control en el accesorio."
+          }
+        ]
+      },
+      {
+        "t": "Termofusión a tope (Butt Fusion): dimensiones grandes hasta d630",
+        "steps": [
+          {
+            "t": "Aplanar extremos",
+            "d": "Aplane ambos extremos de los tubos en la máquina hasta crear virutas continuas: el paralelismo plano es obligatorio."
+          },
+          {
+            "t": "Alinear y comprobar desalineación",
+            "d": "Desalineación máxima del 10% del espesor de la pared. A d630, cada milímetro cuenta."
+          },
+          {
+            "t": "Calentar en el elemento calefactor",
+            "d": "Iguale bajo presión hasta que se forme un cordón, luego caliente sin presión. Tiempos según DVS 2207-11."
+          },
+          {
+            "t": "Cambiar y unir",
+            "d": "Retire el elemento calefactor rápidamente y junte los extremos a la presión de unión definida."
+          },
+          {
+            "t": "Enfriar bajo presión de unión",
+            "d": "La presión de unión permanece hasta el final del tiempo de enfriamiento, luego se crea la línea homogénea y permanentemente apretada."
+          }
+        ]
+      }
+    ],
+    "errEyebrow": "Prevención de errores",
+    "errTitle": "Los seis errores más costosos y su prevención.",
+    "errHead": [
+      "Error",
+      "Consecuencia",
+      "Prevención"
+    ],
+    "errRows": [
+      [
+        "Tiempo de calentamiento excesivo",
+        "El cordón crece hacia adentro, la sección transversal se estrecha",
+        "Controle el tiempo de calentamiento según la tabla, no por intuición"
+      ],
+      [
+        "Torsión al unir",
+        "Se destruye la estructura plastificada, la conexión gotea",
+        "Solo una de forma axial, use la marca como control"
+      ],
+      [
+        "Falta de desbarbado/biselado",
+        "El material es empujado hacia arriba, la zona de unión se vuelve desigual",
+        "Desbarbe cada corte: la herramienta es parte del sistema"
+      ],
+      [
+        "Elemento calefactor sucio",
+        "Las adherencias se queman y se incrustan en la costura",
+        "Limpie las superficies de calentamiento con un paño que no suelte pelusa antes de cada soldadura"
+      ],
+      [
+        "Carga demasiado temprana",
+        "La costura se deforma antes de solidificarse",
+        "Cumpla con los tiempos de enfriamiento: para d110 esto es 8 minutos"
+      ],
+      [
+        "Profundidad de soldadura incorrecta",
+        "Demasiado corta: pequeña área de unión · demasiado profunda: estrechamiento de sección",
+        "Siempre marque la profundidad de inserción, nunca calcule a ojo"
+      ]
+    ],
+    "glossEyebrow": "Glosario",
+    "glossTitle": "Términos de tecnología de tuberías.",
+    "gloss": [
+      [
+        "SDR",
+        "Relación Dimensional Estándar (Standard Dimension Ratio) = diámetro exterior dividido por el espesor de la pared (d/s). SDR menor = pared más gruesa = presión nominal más alta."
+      ],
+      [
+        "PN",
+        "Presión nominal en bar a 20 °C durante el horizonte de diseño: SDR 6 corresponde a PN 20, SDR 17 corresponde a PN 6."
+      ],
+      [
+        "d / di / s",
+        "Diámetro exterior / Diámetro interior / Espesor de pared en milímetros. di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Copolímero Aleatorio de Polipropileno (Polypropylene Random Copolymer): el material estándar probado para instalaciones de agua potable."
+      ],
+      [
+        "PPRCT",
+        "PP-R con estructura cristalina modificada (\"Temperatura de Cristalinidad\"): más temperatura y reserva de presión con la misma pared."
+      ],
+      [
+        "K-Fiber / GF",
+        "Estructura multicapa reforzada con fibra de vidrio: reduce la expansión térmica a aproximadamente una cuarta parte."
+      ],
+      [
+        "Termofusión de coplas",
+        "Socket Fusion: el tubo y el accesorio se plastifican sobre un dado y un mandril calefactor y se unen."
+      ],
+      [
+        "Electrofusión",
+        "Electrofusion: las bobinas de calentamiento integradas en el accesorio generan el calor de soldadura, controlado por parámetros."
+      ],
+      [
+        "Termofusión a tope",
+        "Butt Fusion: los extremos de los tubos paralelos y planos se calientan en el elemento calefactor y se unen a presión, estándar hasta d630."
+      ],
+      [
+        "DVS 2207-11",
+        "Conjunto de normas para la soldadura de polipropileno: la fuente de los valores guía en esta página."
+      ]
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Biblioteca de documentos",
+    "libTitle": "Todos los documentos, un resumen.",
+    "libLead": "Tres catálogos para descarga directa, certificados en dos idiomas y documentos de auditoría como autoservicio en el Centro de Confianza.",
+    "libHead": [
+      "Documento",
+      "Contenido",
+      "Idioma",
+      "Acceso"
+    ],
+    "libRows": [
+      {
+        "t": "Programa de productos K-Aqua",
+        "s": "Catálogo completo: dimensiones, artículos, descripción general del sistema",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "Características de los productos K-Aqua",
+        "s": "Propiedades técnicas y datos de materiales",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "Aseguramiento de calidad K-Aqua",
+        "s": "Procedimientos de prueba y estándares de calidad",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "Certificados ISO (Alemán)",
+        "s": "ISO 9001 · 14001 · 50001, acreditados por DAkkS",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "Certificados ISO (Inglés)",
+        "s": "ISO 9001 · 14001 · 50001, acreditados por DAkkS",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "Política GENAU y evaluación de riesgos",
+        "s": "Sistema de gestión, prevención, evaluación de riesgos",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Fichas técnicas EPD (Tipo III, EN 15804)",
+        "s": "Datos de balance ecológico para LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Textos de licitación GAEB",
+        "s": "Textos listos para especificaciones / lista de cantidades",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Manual de aseguramiento de calidad",
+        "s": "Procesos de GC para auditorías de proveedores",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Descargar",
+    "libRequest": "Solicitar en el Centro de Confianza",
+    "supEyebrow": "Canales de soporte",
+    "supTitle": "Tres formas de obtener respuestas.",
+    "supLead": "Dependiendo de su consulta, hay un canal más rápido, todos con respuesta dentro de un día hábil.",
+    "sup": [
+      {
+        "t": "Ventas y Proyectos",
+        "d": "Ofertas, condiciones, plazos de entrega y asesoramiento de proyectos. O directamente a la solicitud del proyecto en cinco pasos.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Calidad y Soporte técnico",
+        "d": "Preguntas sobre materiales, planificación y procesamiento, verificación de certificados, quejas según el manual de GC.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Procesamiento y Academia",
+        "d": "Cuatro procesos de soldadura en video más tablas de parámetros: instrucciones para su equipo a pedido.",
+        "c": "Ir a la Academia",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Preguntas frecuentes de Servicio",
+    "faqTitle": "Respuestas rápidas.",
+    "faq": [
+      {
+        "q": "¿Qué documentos necesito para planificar?",
+        "a": "El programa de productos (dimensiones y artículos), las características del producto (datos del material) y, dependiendo del proyecto, las tablas de dimensiones en la página del producto. Para licitaciones, los textos GAEB y las EPD completan el paquete. Ambos en el Centro de Confianza."
+      },
+      {
+        "q": "¿Dónde puedo encontrar los parámetros de soldadura?",
+        "a": "Los valores guía según DVS 2207-11 se pueden encontrar en la Academia, incluidas instrucciones paso a paso e información sobre errores. Las especificaciones del fabricante de su equipo de soldadura siempre son vinculantes."
+      },
+      {
+        "q": "¿Cómo obtengo certificados y documentos de auditoría?",
+        "a": "Puede descargar los certificados ISO directamente aquí (DE/EN). Puede solicitar la política GENAU, EPD, GAEB y el manual de GC como un paquete RFP en el Centro de Confianza: con un solo clic, sin esperas de días."
+      },
+      {
+        "q": "¿A quién dirijo las preguntas técnicas?",
+        "a": "A support@k-aqua.de. El equipo de calidad y soporte técnico responde en un plazo de un día hábil sobre materiales, planificación y procesamiento."
+      },
+      {
+        "q": "¿Cuál es la forma más rápida de obtener un presupuesto?",
+        "a": "A través de la solicitud de proyecto: cinco pasos, sin compromiso, con comentarios personales de ventas dentro de un día hábil. Directo del fabricante, sin intermediarios."
+      },
+      {
+        "q": "¿En qué idiomas están disponibles los documentos?",
+        "a": "Catálogos actualmente en inglés, certificados en alemán e inglés. Este sitio web funciona en tres idiomas (DE/EN/AR). Se pueden solicitar otros idiomas de documentos a través de ventas."
+      }
+    ]
+  },
+  "aboutx": {
+    "numEyebrow": "Cifras de la fábrica",
+    "numTitle": "Waldsolms en cifras clave.",
+    "numLead": "Hesse Central, Auweg 3: aquí KWT GmbH desarrolla y fabrica el programa completo K-Aqua.",
+    "nums": [
+      {
+        "n": "14.000",
+        "u": "m",
+        "l": "de tubería por día y línea de extrusión: capacidad para grandes proyectos"
+      },
+      {
+        "n": "20–630",
+        "u": "mm",
+        "l": "Rango de dimensiones de producción de tuberías, conexiones hasta 315 mm"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "de los recortes y residuos de producción vuelven al ciclo"
+      },
+      {
+        "n": "3",
+        "u": "× ISO",
+        "l": "Calidad, medio ambiente, energía: acreditación DAkkS desde octubre de 2025"
+      }
+    ],
+    "prodEyebrow": "Producción",
+    "prodTitle": "Cuatro estaciones, una promesa de calidad.",
+    "prodLead": "Desde el granulado hasta la tubería marcada: así se crea el producto.",
+    "prod": [
+      {
+        "t": "Extrusión",
+        "d": "Las tuberías monocapa y multicapa reforzadas con fibra de vidrio se producen en líneas de extrusión con una capacidad diaria de hasta 14.000 metros por línea."
+      },
+      {
+        "t": "Moldeo por inyección",
+        "d": "Las conexiones de d20 a d315 se fabrican mediante moldeo por inyección: geometrías complejas en grandes cantidades con calidad constante."
+      },
+      {
+        "t": "Circuito de refrigeración cerrado",
+        "d": "El agua de proceso para la fabricación circula en un circuito cerrado: la protección del agua como una decisión del sistema, monitoreada según ISO 14001."
+      },
+      {
+        "t": "Marcado y Prueba",
+        "d": "Cada tubería se marca continuamente en el proceso de extrusión y se prueba según el manual de GC: trazabilidad para cada lote."
+      }
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Cuatro beneficios, una sola casa.",
+    "houseLead": "La política corporativa de KWT GmbH considera el beneficio como un ciclo: ninguno existe sin los otros tres.",
+    "house": [
+      {
+        "t": "Beneficio para el cliente",
+        "d": "Los deseos de los clientes y las partes interesadas son reconocidos, tomados en serio e implementados, cumpliendo con los estándares legales y sociales."
+      },
+      {
+        "t": "Beneficio para el empleado",
+        "d": "Todos los empleados están involucrados en el proceso de mejora continua. Sin beneficio para el empleado, no hay beneficio para el cliente."
+      },
+      {
+        "t": "Beneficio para la empresa",
+        "d": "La calidad siempre sigue siendo compatible con los costos y los plazos, para que el éxito de hoy soporte las inversiones del mañana."
+      },
+      {
+        "t": "Medio ambiente y Entorno",
+        "d": "La conservación de recursos y la compatibilidad ambiental son parte del entendimiento de la calidad, anclados en el sistema GENAU."
+      }
+    ],
+    "mileEyebrow": "Hitos",
+    "mileTitle": "El camino recorrido hasta aquí.",
+    "miles": [
+      {
+        "y": "Décadas",
+        "t": "de experiencia en fabricación",
+        "d": "Procesamiento de plásticos para el suministro de agua: experiencia que fluye en cada lote."
+      },
+      {
+        "y": "Asociación",
+        "t": "Estrecha conexión con KESSEL",
+        "d": "KWT comparte una comunidad de valores duradera con el fabricante premium \"Líderes en Drenaje\"."
+      },
+      {
+        "y": "GENAU",
+        "t": "Sistema de gestión en House of KWT",
+        "d": "Salud y seguridad ocupacional, medio ambiente y energía como práctica diaria de cada empleado, no como un mero ejercicio de auditoría."
+      },
+      {
+        "y": "10/2025",
+        "t": "Triple certificación ISO",
+        "d": "ISO 9001, 14001 y 50001 en un solo paso: acreditado por DAkkS, válido hasta 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Plataforma digital",
+        "d": "El buscador de productos, la calculadora de CO₂, el Centro de Confianza y la Academia convierten el sitio web en una caja de herramientas."
+      }
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "De la fábrica y el conocimiento",
+    "moreTitle": "Más de K-Aqua.",
+    "moreLead": "Noticias de K-Aqua. Información sobre fabricación y ciencia de los materiales, expandible.",
+    "readMore": "Leer artículo completo",
+    "readLess": "Ocultar",
+    "posts": [
+      {
+        "date": "Octubre 2025",
+        "tag": "Empresa",
+        "t": "Triple certificación: ISO 9001, 14001 y 50001",
+        "teaser": "El sistema de gestión ISO de KWT GmbH ahora cubre calidad, medio ambiente y energía: acreditado por DAkkS.",
+        "body": [
+          "Desde octubre de 2025, el sistema de gestión de KWT GmbH ha sido certificado tres veces: ISO 9001:2015 para calidad, ISO 14001:2015 para el medio ambiente e ISO 50001:2018 para la energía. Los certificados provienen de una empresa de certificación acreditada por DAkkS y son válidos hasta octubre de 2028.",
+          "Para compras y cumplimiento, esto significa: procesos documentados y auditables desde la extrusora hasta el envío. El sistema de gestión activo GENAU ya cumplía con los requisitos de DIN EN ISO 14001 y 50001 con anterioridad. La certificación lo hace robusto externamente.",
+          "Ambas versiones de certificados (DE/EN) están disponibles para descargar; puede compilar el paquete de auditoría completo en el Centro de Confianza."
+        ]
+      },
+      {
+        "date": "2018",
+        "tag": "Producción",
+        "t": "Marcado continuo: trazabilidad desde la extrusora",
+        "teaser": "Cada tubería K-Aqua tiene un marcado continuo proveniente directamente del proceso de extrusión.",
+        "body": [
+          "Con hasta 14.000 metros de tubería por día y planta, la trazabilidad no es opcional: cada tubería se marca continuamente durante el proceso de extrusión, proporcionando la información que los planificadores e inspectores necesitan en el sitio de construcción.",
+          "El marcado conecta el producto físico con su lote y los registros de inspección de garantía de calidad. Lo que está escrito en la tubería se puede rastrear hasta el laboratorio de pruebas, un componente básico del manual de GC, que los auditores pueden solicitar en el Centro de Confianza."
+        ]
+      },
+      {
+        "date": "Conocimiento",
+        "tag": "Material",
+        "t": "¿Por qué PP-R?",
+        "teaser": "Del gas de antorcha a la tubería de agua potable: la breve historia material del polipropileno.",
+        "body": [
+          "El polipropileno está hecho de gases que antes se quemaban inútilmente. Su uso como material reduce la contaminación del aire en la fuente. Como plástico técnico, el PP es inusualmente resistente a los solventes, álcalis y ácidos, y forma geometrías complejas en el moldeo por inyección.",
+          "En la tubería, la superficie interior cuenta por encima de todo: Con una rugosidad de 0,007 mm, la pérdida de presión se mantiene mínima y la biopelícula y las incrustaciones casi no encuentran agarre. Además, tiene una conductividad térmica de 0,24 W/(m·K): el agua caliente se mantiene caliente sin que la tubería aislada trabaje contra sí misma.",
+          "PPRCT empuja los límites aún más: La estructura cristalina modificada aporta más reserva térmica y de presión. SDR 7.4 resiste 70 °C a 10 bar en funcionamiento continuo."
+        ]
+      },
+      {
+        "date": "Conocimiento",
+        "tag": "Material",
+        "t": "Latón contra polipropileno: Transiciones al inventario existente",
+        "teaser": "La renovación casi siempre significa un cambio de sistema: las piezas de transición con rosca de latón lo hacen posible y limpio.",
+        "body": [
+          "Casi ningún proyecto comienza en un terreno sin edificar: las líneas existentes hechas de cobre o acero galvanizado deben estar conectadas. Hay piezas de transición con roscas interiores o exteriores de latón incrustadas para este propósito: el lado roscado conecta el stock de metal, el lado de PP está soldado cohesivamente.",
+          "Esto permite que la renovación se lleve a cabo en secciones: se reemplazan los tramos corroídos, los que funcionan permanecen y el problema de corrosión no se traslada al nuevo sistema. Si es necesario, las conexiones atornilladas hacen que la unión se pueda aflojar nuevamente, por ejemplo en válvulas y medidores de agua."
+        ]
+      }
+    ],
+    "ishTitle": "Punto de encuentro de la industria",
+    "ishText": "La industria HVAC se reúne en ISH en Frankfurt, la principal feria comercial del mundo, en la que el socio KESSEL exhibe regularmente. Tan pronto como se determinen las fechas de K-Aqua, aparecerán aquí."
+  },
+  "contactx": {
+    "routeEyebrow": "Caminos Directos",
+    "routeTitle": "Quién responde por qué.",
+    "routeLead": "Tres bandejas de entrada, responsabilidades claras: respuestas dentro de un día hábil en cada caso.",
+    "routes": [
+      {
+        "t": "Ventas y Proyectos",
+        "d": "Ofertas, plazos de entrega, condiciones, consultoría de proyectos desde d20 hasta d630.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Calidad y Soporte Técnico",
+        "d": "Consultas sobre materiales y procesamiento, certificados, quejas.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Carrera y Solicitudes",
+        "d": "Solicitudes y preguntas sobre trabajar en K-Aqua: directamente a Andrea Nickel.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Bueno saber",
+    "facts": [
+      [
+        "Tiempo de respuesta",
+        "Respuesta en el plazo de un día hábil: solicitudes de proyecto con comentarios personales del equipo de ventas"
+      ],
+      [
+        "Ubicación",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Hesse Central, Alemania"
+      ],
+      [
+        "Teléfono / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Idiomas",
+        "Alemán e inglés, sitio web adicional en árabe"
+      ],
+      [
+        "Visita a fábrica",
+        "Auditorías y recorridos con cita previa a través del departamento de ventas"
+      ]
+    ],
+    "mapLabel": "Mapa de direcciones Waldsolms",
+    "faqEyebrow": "Antes de escribir",
+    "faqTitle": "Las cuatro preguntas más frecuentes.",
+    "faq": [
+      {
+        "q": "¿Qué se debe incluir en una buena solicitud de proyecto?",
+        "a": "El tipo de proyecto, las dimensiones necesarias (aproximadamente son suficientes), la longitud de la trayectoria estimada, la región de entrega y el plazo. Estos son exactamente los cinco puntos que solicita la consulta estructurada del proyecto, completados en dos minutos."
+      },
+      {
+        "q": "¿Qué tan rápido recibiré una respuesta?",
+        "a": "En el plazo de un día hábil: las solicitudes de proyecto son respondidas personalmente por el departamento de ventas, las preguntas técnicas por el equipo de soporte."
+      },
+      {
+        "q": "¿Puedo visitar o auditar la fábrica?",
+        "a": "Sí, con cita previa. Para auditorías de proveedores, recomendamos usar de antemano el paquete de documentos RFP del Centro de Confianza, haciendo que su visita sea lo más eficiente posible."
+      },
+      {
+        "q": "¿Dónde puedo encontrar certificados y textos de licitación?",
+        "a": "Certificados ISO (DE/EN) en Servicio y Descargas, el paquete de auditoría completo, incluidos los textos GAEB, en el Centro de Confianza: como un autoservicio, sin esperas."
+      }
+    ]
+  },
+  "careerx": {
+    "areaEyebrow": "Áreas de Trabajo",
+    "areaTitle": "Dónde se trabaja en K-Aqua.",
+    "areaLead": "La creatividad y la experiencia son la base de nuestras soluciones líderes en el mercado: cuatro áreas las sustentan, en toda la fábrica de Waldsolms.",
+    "areas": [
+      {
+        "t": "Producción y Fabricación",
+        "d": "Configurar, operar y monitorear líneas de extrusión con hasta 14.000 metros de capacidad diaria, además de moldeo por inyección para accesorios de d20 a d315.",
+        "p": "Comprensión técnica, cuidado, disposición para trabajar por turnos"
+      },
+      {
+        "t": "Tecnología y Mantenimiento",
+        "d": "Mantener extrusoras, herramientas y periféricos en funcionamiento: mantenimiento, análisis de fallas y mejora continua de acuerdo con GENAU.",
+        "p": "Entrenamiento en mecatrónica, electricidad o metal: encontrar causas en lugar de tapar síntomas"
+      },
+      {
+        "t": "Ventas y Soporte de Aplicaciones",
+        "d": "Acompañar proyectos desde Frankfurt hasta Oriente Medio: asesoramiento sobre dimensiones, clases SDR y tecnología de soldadura, directo del fabricante.",
+        "p": "Habilidades de consultoría técnica, dominio de idiomas es una ventaja"
+      },
+      {
+        "t": "Administración y Comercial",
+        "d": "Procesamiento de pedidos, compras y organización: los procesos que mantienen la calidad compatible con los costos y los plazos.",
+        "p": "Forma estructurada de trabajar, disfrute de procesos claros"
+      }
+    ],
+    "areaNote": "¿Su perfil no está ahí? Las solicitudes espontáneas son expresamente bienvenidas; la empresa está creciendo.",
+    "whyEyebrow": "Por qué K-Aqua",
+    "whyTitle": "Cuatro razones para trabajar aquí.",
+    "why": [
+      {
+        "t": "Creciente posición en el mercado",
+        "d": "Una posición sólida que se expande continuamente: su trabajo contribuye visiblemente al éxito."
+      },
+      {
+        "t": "La seguridad como sistema",
+        "d": "GENAU hace de la seguridad en el trabajo una práctica diaria: reportar peligros es obligatorio y se toma en serio, por todos, para todos."
+      },
+      {
+        "t": "Producto con sustancia",
+        "d": "Tuberías diseñadas para 50 años de funcionamiento, utilizadas a nivel mundial en hospitales y hoteles: resultados que perduran."
+      },
+      {
+        "t": "Beneficios que importan",
+        "d": "Extras libres de impuestos desde tarjetas de beneficios en especie hasta JobRad: calcule arriba lo que le brinda su paquete."
+      }
+    ],
+    "procEyebrow": "Proceso de solicitud",
+    "procTitle": "Tres pasos hasta el contrato.",
+    "proc": [
+      {
+        "t": "Enviar solicitud",
+        "d": "Por correo electrónico a Andrea Nickel: con el generador de CV o directamente desde esta página. No hace falta una novela como carta de presentación."
+      },
+      {
+        "t": "La Entrevista",
+        "d": "Nos pondremos en contacto rápidamente para explicarle nuestro día a día, también de manera telefónica en el +49 (0)60 85 / 9868-410."
+      },
+      {
+        "t": "Conozca la fábrica",
+        "d": "Verá la producción y el equipo en Waldsolms antes de tomar una decisión. Luego sigue la oferta de contrato."
+      }
+    ],
+    "procContact": "Contacto: Andrea Nickel · andrea.nickel@k-aqua.de"
+  }
+}

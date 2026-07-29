@@ -58,8 +58,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     if (t.has(`${catKey}.seoTitle`)) {
       title = t(`${catKey}.seoTitle`);
-      if (title.length > 45) {
-        title = title.substring(0, 42) + '...';
+      if (title.length > 55) {
+        title = title.substring(0, 52) + '...';
       }
       title = `${title} | K-Aqua`;
     }
@@ -117,8 +117,8 @@ export default async function CategoryPage({ params }: Props) {
     }
     if (t.has(`${catKey}.seoTitle`)) {
       let mt = t(`${catKey}.seoTitle`);
-      if (mt.length > 45) {
-        mt = mt.substring(0, 42) + '...';
+      if (mt.length > 55) {
+        mt = mt.substring(0, 52) + '...';
       }
       metaTitleExact = `${mt} | K-Aqua`;
     }
@@ -166,6 +166,7 @@ export default async function CategoryPage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
         <JsonLd schema={webPageSchema} />
         <div className="sr-only" aria-hidden="true">{metaTitleExact}</div>
+        <div className="sr-only" aria-hidden="true">{seoTitle}</div>
         <div className="sr-only" aria-hidden="true">K-Aqua {category}</div>
         
         {/* Category Header with Breadcrumbs & Title */}

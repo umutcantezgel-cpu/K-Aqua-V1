@@ -1,0 +1,228 @@
+{
+  "cookieConsent": {
+    "title": "Vi använder cookies",
+    "message": "Vi använder cookies för att förbättra din upplevelse och analysera vår trafik.",
+    "acceptAll": "Acceptera alla",
+    "rejectAll": "Avvisa alla",
+    "preferences": "Hantera inställningar",
+    "details": "Cookie-detaljer",
+    "essential": "Nödvändiga",
+    "essentialDesc": "Krävs för grundläggande funktionalitet på webbplatsen.",
+    "analytics": "Analys",
+    "analyticsDesc": "Hjälper oss att förstå hur besökare interagerar med webbplatsen.",
+    "marketing": "Marknadsföring",
+    "marketingDesc": "Används för att leverera relevanta annonser.",
+    "save": "Spara inställningar",
+    "privacyPolicy": "Integritetspolicy"
+  },
+  "application": {
+    "residential": "Bostäder",
+    "commercial": "Kommersiella byggnader"
+  },
+  "enterprise": {
+    "certTitle": "Globalt certifierad.",
+    "certDesc": "Testad och godkänd i över 40 länder.",
+    "qualityTitle": "Tysk tillverkning.",
+    "qualityDesc": "100% extruderad i Tyskland för maximal precision.",
+    "supportTitle": "Ingenjörsstöd.",
+    "supportDesc": "Från planering till prefabricering.",
+    "projTitle": "Beprövad över hela världen.",
+    "projDesc": "Från skyskrapor till datacenter."
+  },
+  "buyers": {
+    "title1": "Information för",
+    "titleGrad": "Inköpare.",
+    "lead": "Effektiv upphandling genom direkt tillgång till tillverkaren.",
+    "rfq": "Projektförfrågan",
+    "rfqDesc": "Ladda upp stycklistor. Offert inom 24h.",
+    "catalog": "Produktkatalog",
+    "catalogDesc": "Alla artiklar, dimensioner och förpackningsstorlekar.",
+    "contact": "Inköpskontakt",
+    "contactDesc": "Direkt linje till vårt säljteam."
+  },
+  "aboutx": {
+    "genauEyebrow": "Kvalitetslöfte",
+    "genauTitle": "Systemet GENAU.",
+    "genauLead": "K-Aqua arbetar efter sitt eget stränga ledningssystem.",
+    "genau": [
+      {
+        "t": "Ekologi",
+        "d": "Miljöskydd är högsta prioritet i alla processer."
+      },
+      {
+        "t": "Effektivitet",
+        "d": "Maximalt energiutnyttjande vid produktionen."
+      },
+      {
+        "t": "Arbetsmiljö",
+        "d": "Säkra och ergonomiska arbetsplatser för alla anställda."
+      }
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Fyra fördelar, ett hus.",
+    "houseLead": "KWT GmbH:s företagspolicy ser nytta som ett kretslopp: ingen existerar utan de andra tre.",
+    "house": [
+      {
+        "t": "Kundnytta",
+        "d": "Kunders och intressenters önskemål identifieras, tas på allvar och genomförs, i enlighet med juridiska och sociala standarder."
+      },
+      {
+        "t": "Medarbetarnytta",
+        "d": "Alla anställda är involverade i den ständiga förbättringsprocessen. Ingen kundnytta utan medarbetarnytta."
+      },
+      {
+        "t": "Företagsnytta",
+        "d": "Kvalitet förblir alltid förenligt med kostnader och tidsramar, så att dagens framgång bär morgondagens investeringar."
+      },
+      {
+        "t": "Miljö & Omvärld",
+        "d": "Resursbevarande och miljöförenlighet är en del av kvalitetsförståelsen, förankrad i GENAU-systemet."
+      }
+    ],
+    "mileEyebrow": "Milstolpar",
+    "mileTitle": "Vägen hit.",
+    "miles": [
+      {
+        "y": "Årtionden",
+        "t": "Tillverkningserfarenhet",
+        "d": "Plastbearbetning för vattenförsörjning: erfarenhet som flyter in i varje batch."
+      },
+      {
+        "y": "Partnerskap",
+        "t": "Nära koppling till KESSEL",
+        "d": "KWT har en långvarig värdegemenskap med premiumtillverkaren \"Leading in Drainage\"."
+      },
+      {
+        "y": "GENAU",
+        "t": "Ledningssystem i House of KWT",
+        "d": "Arbetsmiljö, miljö och energi som daglig praxis för varje medarbetare, inte som en revisionsövning."
+      },
+      {
+        "y": "10/2025",
+        "t": "Trippel ISO-certifierad",
+        "d": "ISO 9001, 14001 och 50001 i ett svep: DAkkS-ackrediterad, giltig till 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Digital plattform",
+        "d": "Produktfinder, CO₂-kalkylator, Trust Center och Academy gör webbplatsen till en verktygslåda."
+      }
+    ]
+  },
+  "contactx": {
+    "routeEyebrow": "Direkta vägar",
+    "routeTitle": "Vem svarar för vad.",
+    "routeLead": "Tre inkorgar, tydliga ansvarsområden: Svar inom en arbetsdag.",
+    "routes": [
+      {
+        "t": "Försäljning & Projekt",
+        "d": "Offerter, leveranstider, villkor, projektrådgivning från d20 till d630.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Kvalitet & Teknisk support",
+        "d": "Material- och bearbetningsfrågor, certifikat, reklamationer.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Karriär & Ansökan",
+        "d": "Ansökningar och frågor om att arbeta hos K Aqua: direkt till Andrea Nickel.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Bra att veta",
+    "facts": [
+      [
+        "Svarstid",
+        "Svar inom en arbetsdag: Projektförfrågningar med personlig återkoppling från försäljning."
+      ],
+      [
+        "Plats",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Mellanhessen"
+      ],
+      [
+        "Telefon / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Språk",
+        "Tyska och engelska, webbplatsen dessutom på arabiska"
+      ],
+      [
+        "Fabriksbesök",
+        "Revisioner och visningar efter överenskommelse via försäljning"
+      ]
+    ],
+    "mapLabel": "Karta Waldsolms, spara kartutsnitt",
+    "faqEyebrow": "Innan du skriver",
+    "faqTitle": "De fyra vanligaste frågorna.",
+    "faq": [
+      {
+        "q": "Vad ingår i en bra projektförfrågan?",
+        "a": "Projekttyp, nödvändiga dimensioner (ungefär räcker), uppskattad längd, leveransregion och tidsram. Exakt dessa fem punkter efterfrågas i den strukturerade projektförfrågan, ifylld på två minuter."
+      },
+      {
+        "q": "Hur snabbt får jag svar?",
+        "a": "Inom en arbetsdag: Projektförfrågningar besvaras personligen av försäljning, tekniska frågor av supportteamet."
+      },
+      {
+        "q": "Kan jag besöka eller granska fabriken?",
+        "a": "Ja, efter överenskommelse. För leverantörsrevisioner rekommenderas RFP-dokumentpaketet från Trust Center i förväg, då blir mötet på plats maximalt effektivt."
+      },
+      {
+        "q": "Var hittar jag certifikat och upphandlingsunderlag?",
+        "a": "ISO-certifikat (DE/EN) under Service & Nedladdningar, det kompletta revisionspaketet inklusive GAEB-texter i Trust Center: som självbetjäning, utan väntetid."
+      }
+    ]
+  },
+  "customerReviews": {
+    "eyebrow": "Kvalitet som förenar",
+    "title": "Vad våra kunder och partners säger",
+    "lead": "Från byggherrar till speditionsfirmor och långvariga medarbetare: K Aqua KWT GmbH står för högsta precision från Waldsolms. Läs själv vilka erfarenheter människor dagligen har med vår service och våra produkter \"Made in Germany\".",
+    "trustBadge": "Google Recensioner",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(Baserat på 44 recensioner)",
+    "tabA": "Kvalitet & \"Made in Germany\"",
+    "tabB": "Logistik & Leverans",
+    "tabC": "Kundservice & Team",
+    "reviews": {
+      "a1": "\"En fabrik i Waldsolms, Tyskland, specialiserad på PPR-rör och rördelar **Made in Germany**. Utmärkt personal.\"",
+      "a1Author": "Giulio C.",
+      "a2": "\"**Tysk kvalitet** på PPR-beläggningar och armaturer, mycket vänlig personal.\"",
+      "a2Author": "Veronica P.",
+      "a3": "\"**Modernt företag**. Producerar plaströr i alla storlekar och tillbehör.\"",
+      "a3Author": "Ewald S.",
+      "a4": "\"PPR-rör och formdelar från **tysk produktion**, utmärkta anställda och produkter.\"",
+      "a4Author": "Kais S.",
+      "a5": "\"**Högkvalitativa produkter** och en toppen tysk fabrik.\"",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "\"Mycket bra produkter, **pålitlig kvalitet** och punktlig leverans.\"",
+      "a6Author": "Klaus T.",
+      "b1": "\"Mycket trevligt bemötande, **snabb lossning**. Jag fick ta min långa rast här. Dusch och toalett erbjöds också. Här känner man sig **uppskattad** som lastbilschaufför. Jag kommer gärna tillbaka hit.\"",
+      "b1Author": "Michael S.",
+      "b2": "\"De aktuella koordinaterna för ingången är **50.428210, 8.499154**. Ungefär 100 meter bort finns en parkering. Vänlig personal.\"",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "\"**Snabb lossning**, vänlig och hjälpsam personal.\"",
+      "b3Author": "Bogdan M.",
+      "c1": "\"**Mycket bra service**, fantastiskt att det fortfarande produceras i Tyskland.\"",
+      "c1Author": "Daniel",
+      "c2": "\"**Mycket vänlig** och hjälpsam personal. E-postmeddelanden besvaras **omgående**.\"",
+      "c2Author": "Mohamed M.",
+      "c3": "\"Från ordföranden till de vanliga arbetarna: de är **goda människor**.\"",
+      "c3Author": "Azim",
+      "c4": "\"**Toppenföretag**, gör mycket för sina anställda.\"",
+      "c4Author": "Monika v. B.",
+      "c5": "\"De anställda är **mycket vänliga och hjälpsamma**.\"",
+      "c5Author": "Piera V.",
+      "c6": "\"Kompetent team och **enastående kundservice** på alla nivåer.\"",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Övertyga dig själv om vår service.",
+    "ctaText": "Har du frågor om våra PPR-rörsystem eller vill du diskutera ett projekt med oss? Vårt team från Waldsolms finns här för dig.",
+    "ctaBtn": "Kontakta oss nu",
+    "disclaimer": "Information om granskning av recensioner: De recensioner som visas här kommer från vår Google-företagsprofil. Google anger: Recensioner granskas inte. Vi har förkortat författarnas namn av dataskyddsskäl (GDPR)."
+  }
+}

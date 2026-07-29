@@ -1,0 +1,284 @@
+{
+  "refsx": {
+    "secEyebrow": "Einsatzfelder weltweit",
+    "secTitle": "Wo K Aqua-Technik arbeitet.",
+    "secLead": "Über Jahrzehnte haben sich K Aqua-Produkte unzählige Male in Destinationen auf der ganzen Welt bewährt. Diese Gebäudetypen prägen das Referenzprogramm.",
+    "sectors": [
+      {
+        "t": "Krankenhäuser",
+        "d": "Hygienische Trinkwasserverteilung mit biofilm-hemmender Innenfläche, wie beim Krankenhausneubau in Kapstadt."
+      },
+      {
+        "t": "Hotels",
+        "d": "Warmwasser-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul mit Faserverbundrohr."
+      },
+      {
+        "t": "Industriegebäude",
+        "d": "Chemisch beständig und korrosionsfrei für Prozess- und Brauchwasser, vom Gewerbebau bis zur Fertigungshalle."
+      },
+      {
+        "t": "Gewächshäuser & Infrastruktur",
+        "d": "UV-stabilisierte Bewässerung unter Glas und Versorgungsnetze bis d630, wie im Infrastrukturprojekt Singapur."
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie die Tabelle.",
+    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
+      {
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR und maximale Dimension eingrenzen oder direkt „d110\" in die Suche tippen."
+      },
+      {
+        "t": "Prüfen & exportieren",
+        "d": "Zeile anklicken für Wandstärke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation."
+      },
+      {
+        "t": "Anfrage übergeben",
+        "d": "Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam."
+      }
+    ]
+  },
+  "wissen": {
+    "meta": {
+      "title": "Fachwissen & Engineering Data | K Aqua",
+      "desc": "Tiefgreifendes technisches Fachwissen, systemarchitektonische Analysen und kompromisslose Ingenieursdaten zu K Aqua Rohrsystemen."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "PPRCT Matrix-Architektur",
+          "desc": "Die strukturelle Integrität unserer Polypropylen Random Copolymerisate mit modifizierter Kristallinität (PPRCT) definiert die Grenzen der thermischen Belastbarkeit neu. Unter extremen Druck- und Temperaturzyklen bietet unsere hexagonale Gitterstruktur eine mikroskopische Spannungsverteilung, die Materialermüdung faktisch eliminiert. Ein Paradigmenwechsel in der Fluidmechanik."
+        },
+        {
+          "title": "Thermodynamische Isolation",
+          "desc": "Unsere koextrudierten Isolationsschichten basieren auf geschlossenzelliger Polyurethan-Technologie. Der Wärmedurchgangskoeffizient (U-Wert) wird auf ein theoretisches Minimum reduziert. Energieverlust ist keine Variable mehr in der Berechnung Ihrer Anlagen, er wird durch unsere Systemarchitektur im Keim erstickt. Absolute thermische Kontrolle."
+        },
+        {
+          "title": "geprüfte Sterilität",
+          "desc": "In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-geprüft, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene."
+        },
+        {
+          "title": "Zerstörungsfreie Prüfung (NDT)",
+          "desc": "Jedes Rohrleitungssystem durchläuft unsere automatisierte Ultraschall- und Röntgendiagnostik. Wir analysieren Schweißnähte auf der Submillimeter-Ebene. Anomalien, Lunker oder Einschlüsse werden durch KI-gestützte Fehlererkennung identifiziert, bevor das Produkt die Fertigungsstraße verlässt. 100% Traceability. Null Toleranz für Defekte."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "PHASE I",
+          "title": "Molekulare Synthese",
+          "text": "Der Prozess beginnt auf atomarer Ebene. Katalytische Polymerisation unter extremen Druckbedingungen formt das Basis-PPRCT-Granulat. Spezifische Nukleierungsmittel induzieren die Bildung der widerstandsfähigen Beta-Kristallstruktur."
+        },
+        {
+          "year": "PHASE II",
+          "title": "Präzisions-Koextrusion",
+          "text": "Das Granulat wird bei 240°C aufgeschmolzen und durch kalibrierte Werkzeuge gepresst. Die simultane Extrusion mehrerer Funktionsschichten (Glasfaser-Compound, Deckschicht) erfolgt mit mikrometergenauer Laserkontrolle."
+        },
+        {
+          "year": "PHASE III",
+          "title": "Thermische Stabilisierung",
+          "text": "Ein komplexes Kühlprotokoll fixiert die makromolekulare Orientierung. Der kontrollierte Temperaturgradient verhindert Eigenspannungen und garantiert die absolute Dimensionsstabilität der Rohrgeometrie."
+        },
+        {
+          "year": "PHASE IV",
+          "title": "Hyper-Auditierung",
+          "text": "Hydraulische Berstdrucktests, Zeitstand-Innendruckversuche bei 95°C und zerstörungsfreie Materialanalysen. Nur Systeme, die das Belastungslimit der Norm um 300% übertreffen, erhalten die finale Freigabe."
+        }
+      ],
+      "title": "Genese der Integrität",
+      "desc": "Vom molekularen Katalysator bis zum hyper-auditierten Endprodukt. Ein sequentieller Einblick in unsere kompromisslose Fertigungsmatrix."
+    },
+    "hero": {
+      "eyebrow": "System Intelligence",
+      "title1": "Die Technische",
+      "title2": "Wissensdatenbank",
+      "desc": "Kompromisslose Präzision. Datengesteuerte Analysen. Kein Raum für Fehlertoleranz. Tauchen Sie ein in die reine, verifizierte Ingenieurskunst der K Aqua Systemarchitektur.",
+      "status": "System Status: Online",
+      "clearance": "Clearance Level 4"
+    },
+    "deep": {
+      "badge": "Kernspezifikationen",
+      "title1": "Materialwissenschaft &",
+      "title2": "Protokolle",
+      "desc": "Wir überlassen nichts dem Zufall. Jede Spezifikation ist das Resultat empirischer Forschung und rigoroser Stresstests unter extremsten industriellen Bedingungen."
+    },
+    "grid": {
+      "badge": "Publikationen",
+      "title1": "geprüftes",
+      "title2": "Wissen",
+      "desc": "Zugriff auf tiefgreifende technische Artikel, Whitepaper und systemarchitektonische Analysen. Verifizierte Daten für Ingenieure und Planer.",
+      "read": "Read"
+    },
+    "cta": {
+      "title1": "SYSTEMINTEGRITÄT",
+      "title2": "BESTÄTIGT.",
+      "desc": "Sie haben das Ende der Spezifikationen erreicht. Bereit, die Theorie in industrielle Realität umzusetzen?",
+      "btn": "Kontakt Initiieren"
+    }
+  },
+  "customerReviews": {
+    "eyebrow": "Qualität, die verbindet",
+    "title": "Was unsere Kunden und Partner sagen",
+    "lead": "Von Bauherren über Speditionen bis hin zu langjährigen Mitarbeitern: Die K Aqua KWT GmbH steht für höchste Präzision aus Waldsolms. Lesen Sie selbst, welche Erfahrungen Menschen täglich mit unserem Service und unseren Produkten „Made in Germany“ machen.",
+    "trustBadge": "Google Rezensionen",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(Basierend auf 44 Bewertungen)",
+    "tabA": "Qualität & „Made in Germany“",
+    "tabB": "Logistik & Anlieferung",
+    "tabC": "Kundenservice & Team",
+    "reviews": {
+      "a1": "„Eine Fabrik in Waldsolms, Deutschland, spezialisiert auf PPR-Rohre und -Fittings **Made in Germany**. Hervorragendes Personal.“",
+      "a1Author": "Giulio C.",
+      "a2": "„**Deutsche Qualität** bei PPR-Beschichtungen und Armaturen, sehr freundliches Personal.“",
+      "a2Author": "Veronica P.",
+      "a3": "„**Modernes Unternehmen**. Produziert Kunststoffrohre aller Größen und Zubehör.“",
+      "a3Author": "Ewald S.",
+      "a4": "„PPR-Rohre und Formstücke aus **deutscher Fertigung**, hervorragende Mitarbeiter und Produkte.“",
+      "a4Author": "Kais S.",
+      "a5": "„**Hochwertige Produkte** und eine top deutsche Fabrik.“",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "„Sehr gute Produkte, **zuverlässige Qualität** und pünktliche Lieferung.“",
+      "a6Author": "Klaus T.",
+      "b1": "„Sehr netter Umgang, **schnelle Entladung**. Ich durfte hier meine große Pause einlegen. Dusche und Toilette wurden mir auch angeboten. Hier fühlt man sich als LKW-Fahrer **wertgeschätzt**. Ich komme sehr gerne wieder hierher.“",
+      "b1Author": "Michael S.",
+      "b2": "„Die aktuellen Koordinaten des Eingangs lauten **50.428210, 8.499154**. Etwa 100 Meter entfernt befindet sich ein Parkplatz. Freundliches Personal.“",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "„**Schnelles Entladen**, freundliches und hilfsbereites Personal.“",
+      "b3Author": "Bogdan M.",
+      "c1": "„**Sehr guter Service**, toll, dass noch in Deutschland produziert wird.“",
+      "c1Author": "Daniel",
+      "c2": "„**Sehr freundliches** und hilfsbereites Personal. E-Mails werden **umgehend beantwortet**.“",
+      "c2Author": "Mohamed M.",
+      "c3": "„Vom Vorsitzenden bis zu den einfachen Arbeitern: es sind **gute Menschen**.“",
+      "c3Author": "Azim",
+      "c4": "„**Tolle Firma**, tut einiges für ihre Leute.“",
+      "c4Author": "Monika v. B.",
+      "c5": "„Die Mitarbeiter sind **sehr freundlich und hilfsbereit**.“",
+      "c5Author": "Piera V.",
+      "c6": "„Kompetentes Team und eine **hervorragende Kundenbetreuung** auf allen Ebenen.“",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Überzeugen Sie sich selbst von unserem Service.",
+    "ctaText": "Haben Sie Fragen zu unseren PPR-Rohrsystemen oder möchten Sie ein Projekt mit uns besprechen? Unser Team aus Waldsolms ist für Sie da.",
+    "ctaBtn": "Jetzt Kontakt aufnehmen",
+    "disclaimer": "Hinweis zur Überprüfung von Bewertungen: Die hier dargestellten Bewertungen stammen aus unserem Google-Unternehmensprofil. Google gibt an: Rezensionen werden nicht überprüft. Wir haben die Namen der Verfasser aus Gründen des Datenschutzes (DSGVO) abgekürzt."
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Bitte Telefonnummer angeben",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "einkauf@firma.com",
+    "emailError": "Bitte gültige E-Mail angeben",
+    "chipsLabel": "Was benötigen Sie",
+    "send": "Anfrage senden",
+    "sendError": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an:",
+    "legal": "Keine Werbung, keine Weitergabe.",
+    "legalLink": "Datenschutz",
+    "doneTitle": "Danke, Ihre Anfrage ist da.",
+    "doneTitleSlim": "Danke, Anfrage ist da.",
+    "direct": "Eilig? Direktwahl",
+    "promise": "Antwort innerhalb eines Arbeitstages",
+    "ccAria": "Landesvorwahl",
+    "closeAria": "Schließen",
+    "fabAria": "Kontakt",
+    "interests": {
+      "rohrsysteme": "Rohrsysteme",
+      "trinkwassernetze": "Trinkwassernetze",
+      "bim": "BIM Daten",
+      "ersatzteile": "Ersatzteile",
+      "beratung": "Beratung"
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrielle Referenzprojekte",
+      "titlePlain": "Technik, die sich ",
+      "titleAccent": "beweist.",
+      "lead": "Von Waldsolms in die Welt: K-Aqua PP-R und PP-RCT Systeme laufen seit Jahrzehnten in Hochhäusern, Krankenhäusern, Industrieanlagen und Schiffen, unter Bedingungen, die keinen zweiten Versuch zulassen. Technik, die sich beweist, in jedem Projekt.",
+      "cta1": "Referenzprojekte ansehen",
+      "cta2": "Prüfbericht anfordern"
+    },
+    "manifesto": {
+      "title": "Doktrin der Präzision",
+      "p1": "In einer Branche, in der Materialermüdung und Korrosion als unvermeidlich gelten, setzt unsere Fertigung einen anderen Maßstab. Wir betrachten jedes Rohr nicht als Bauteil, sondern als Ergebnis angewandter Werkstoffwissenschaft. Jede Charge PP-R Copolymer, jede Schweißnaht und jede Wanddicke durchläuft einen Prüfprozess, der Ausschuss lieber in Kauf nimmt als eine Toleranzüberschreitung. Das ist das fundamentale Gesetz der <strong>K-Aqua Referenzklasse</strong>.",
+      "p2": "Unsere Systeme laufen in Umgebungen, in denen ein einziger Leckagepunkt den Betrieb eines ganzen Krankenhauses oder Hochhauses gefährdet. Wir setzen Langzeit-Innendruckprüfungen nach ISO 9080 nicht als Laborformalität ein, sondern als harte Vorgabe für jede freigegebene Dimension: Extrapolation auf 50 Jahre Betriebsdauer bei spezifizierter Temperatur und Druckstufe: dokumentiert, nachvollziehbar, chargenrein zurückverfolgbar.",
+      "p3": "Wir verzichten bewusst auf undurchsichtige Materialmischungen. Unsere Rezeptur ist über die gesamte Fertigungskette hinweg dokumentiert, von der Polymercharge bis zur fertigen Rohrlänge. Wir kalibrieren Extrusionstemperaturen auf das Grad genau, optimieren die Faserverbund-Mittelschicht gegen Längsausdehnung und protokollieren jede Heizwendel-Schweißung mit exakten Prozessparametern. Das Resultat sind Systeme, die bei 70°C Dauerbetrieb und PN20 mühelos im Normbereich bleiben.",
+      "p4": "Qualitätssicherung ist bei uns kein nachgelagerter Prüfschritt, sondern Teil jeder Produktionsstufe. Durch die durchgängige Anwendung von DVGW-, SKZ- und KIWA-Zertifizierung auf allen relevanten Dimensionen entziehen wir Ausfallrisiken proaktiv jede Angriffsfläche. Ein System, das nach DIN 8077/8078 gefertigt und dreifach zertifiziert ist, kann sich niemals als Schwachstelle erweisen."
+    },
+    "metrics": {
+      "eyebrow": "Technische Kennzahlen",
+      "title1": "Kompromisslose",
+      "title2": "Parameter",
+      "lead": "Unsere Systeme werden nicht beworben, sie werden geprüft. Dies sind die Kernkennzahlen unserer technologischen Doktrin.",
+      "items": {
+        "pressure": {
+          "title": "Langzeit-Druckprüfung nach ISO 9080",
+          "desc": "Jede freigegebene Dimension durchläuft Innendrucktests bei mehreren Temperaturstufen über tausende Betriebsstunden, extrapoliert auf eine Regressionsgerade für 50 Jahre Lebensdauer.",
+          "placeholder": "Regressionskurve Langzeit-Innendruckprüfung"
+        },
+        "isolation": {
+          "title": "Lückenlose Chargen-Rückverfolgbarkeit",
+          "desc": "Jede Rohrlänge trägt eine Chargennummer, die bis zur Polymer-Anlieferung zurückverfolgt werden kann, für lückenlose Dokumentation bei Bauabnahme und Gewährleistung."
+        },
+        "tolerance": {
+          "title": "Wanddicken-Toleranz im Mikrometerbereich",
+          "desc": "Kontinuierliche Ultraschall-Wanddickenmessung während der Extrusion hält jede Dimension exakt innerhalb der DIN 8077/8078 Toleranzfelder."
+        },
+        "network": {
+          "title": "Globales Vertriebs- und Servicenetz",
+          "desc": "Von Waldsolms aus beliefern wir Projekte in über 35 Ländern und stellen technische Beratung, Schulung und Ersatzteilversorgung sicher, auch nach Bauabnahme.",
+          "placeholder": "Exportkarte K-Aqua Vertriebsnetz"
+        },
+        "welding": {
+          "title": "Kompromisslose Schweißnahtintegrität",
+          "desc": "Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen und Schliffbilder bestätigen die molekulare Verschmelzung von Rohr und Fitting: ohne Dichtungen, ohne Schwachstellen.",
+          "placeholder": "Schliffbild einer K-Aqua Muffenschweißverbindung"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Bereit für Ihr",
+      "title2": "nächstes Projekt",
+      "lead": "Planen Sie ein Hochhaus, eine Industrieanlage oder ein Krankenhausprojekt? Unsere Ingenieure erwarten Ihre Spezifikationen mit belastbaren Prüfdaten statt Marketingversprechen.",
+      "btn1": "Prüfzertifikate anfordern",
+      "btn2": "Spezifikationen senden"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  }
+}

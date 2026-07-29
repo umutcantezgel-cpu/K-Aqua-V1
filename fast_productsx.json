@@ -1,0 +1,241 @@
+{
+  "productsx": {
+    "pipesEyebrow": "Potrubný program",
+    "pipesTitle": "Tri rodiny potrubí, jeden systémový nápad.",
+    "pipesLead": "Monovrstva, PPRCT a kompozit vystužený sklenenými vláknami, plus UV stabilizované verzie pre vonkajšie aplikácie.",
+    "pipes": [
+      {
+        "t": "K-Pipe PP-R monovrstva",
+        "d": "Osvedčený štandard pre teplú a studenú pitnú vodu. Jednovrstvová štruktúra, plná šírka pásma SDR v obvyklých rozmeroch: ekonomická pre obytné a komerčné budovy.",
+        "tags": [
+          "d20-d630",
+          "SDR 6-17"
+        ]
+      },
+      {
+        "t": "K-Pipe PPRCT",
+        "d": "70 °C · 10 bar",
+        "tags": [
+          "70 °C · 10 bar",
+          "Horúca voda"
+        ]
+      },
+      {
+        "t": "Potrubie z K-vlákna (GF viacvrstvové)",
+        "d": "Jadro vystužené sklenenými vláknami medzi dvoma vrstvami PP: tepelná rozťažnosť znížená na približne štvrtinu, väčší rozstup medzi svorkami, rozmerovo stabilný do d630, do 20 barov (2,0 MPa) pri 20 °C v SDR 6.",
+        "tags": [
+          "GF jadro",
+          "d20-d630"
+        ]
+      },
+      {
+        "t": "Verzia s UV stabilizáciou",
+        "d": "Pre inštalácie vystavené slnku (ako sú skleníky alebo vzdušné vedenia) je program dostupný vo verzii odolnej voči UV žiareniu.",
+        "tags": [
+          "Vonkajší priestor",
+          "Tabuľky rozmerov"
+        ]
+      }
+    ],
+    "dimEyebrow": "Tabuľky rozmerov",
+    "dimTitle": "Akýkoľvek rozmer, akákoľvek hrúbka steny.",
+    "dimLead": "Vyberte úroveň tlaku. V tabuľke sú uvedené všetky dostupné rozmery s hrúbkou steny, vnútorným priemerom, menovitým tlakom, obsahom vody a hmotnosťou na meter.",
+    "dimTabAria": "Zvoľte úroveň tlaku",
+    "dimHead": [
+      "d (mm)",
+      "Stena s (mm)",
+      "di (mm)",
+      "Vypočítané hodnoty z geometrie SDR (s = d/SDR, hustota 0,905 g/cm³) podľa série DIN 8077. Katalóg produktov a špecifické dátové listy projektu sú záväzné.",
+      "Obsah vody (l/m)",
+      "Hmotnosť (kg/m)"
+    ],
+    "dimNote": "Vypočítané hodnoty z geometrie SDR (s = d/SDR, hustota 0,905 g/cm³) podľa série DIN 8077. Katalóg produktov a špecifické dátové listy projektu sú záväzné.",
+    "anchorsTitle": "Viazanie dizajnových kotiev z programu",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "Potrubie z K-vlákna PP-R · SDR 6",
+        "c": "2,0 MPa nepretržitá prevádzka pri 20 °C: studená voda v 50-ročnom projektovom horizonte."
+      },
+      {
+        "v": "10 bar",
+        "t": "K-Pipe PPRCT · SDR 7.4",
+        "c": "1,0 MPa nepretržitá prevádzka pri 70 °C: teplá voda a cirkulácia bez straty rezervy."
+      }
+    ],
+    "matEyebrow": "Materiálové údaje",
+    "matTitle": "Hodnota",
+    "matLead": "Hodnota",
+    "matHead": [
+      "Hodnota",
+      "Hodnota",
+      "Dôležitosť pre váš projekt"
+    ],
+    "matRows": [
+      [
+        "hustota",
+        "0,905 g/cm³",
+        "Približne desatina medi: jednoduchá preprava, jednoduchá montáž bez zdvíhacieho zariadenia pre malé a stredné rozmery."
+      ],
+      [
+        "Vnútorná drsnosť",
+        "0,007 mm",
+        "Extrémne hladký povrch: minimálna tlaková strata, takmer žiadne inkrustácie a tvorba biofilmu."
+      ],
+      [
+        "Tepelná vodivosť",
+        "0,24 W/(m K)",
+        "Nízke tepelné straty pri cirkulácii teplej vody: trvalá úspora energie v porovnaní s kovom."
+      ],
+      [
+        "≈ 0,15 mm/(m K)",
+        "≈ 0,15 mm/(m K)",
+        "Konštrukčne sa uchytí pomocou dilatačných nôh a pevných bodov."
+      ],
+      [
+        "Rozšírenie dĺžky (K-Fiber, GF)",
+        "≈ 0,04 mm/(m K)",
+        "Teplota média"
+      ],
+      [
+        "Teplota média",
+        "za studena do 70 °C nepretržitá prevádzka",
+        "pitná voda teplá a studená; Dizajnová kotva: PPRCT SDR 7,4 pri 70 °C · 10 bar."
+      ],
+      [
+        "Chemická odolnosť",
+        "Rozpúšťadlá, zásady, kyseliny",
+        "Nezvyčajne odolný ako technický plast: bez korózie a bez rizika jamkovej korózie."
+      ],
+      [
+        "Kód 5 (PP)",
+        "Kód 5 (PP)",
+        "Možno oddeliť podľa typu; 100 % výrobného odpadu sa vracia späť do recyklačného cyklu."
+      ]
+    ],
+    "fitEyebrow": "Lisované diely a systémové komponenty",
+    "fitTitle": "Systém okolo potrubia.",
+    "fitLead": "Výlisky d20–d315",
+    "fitGroups": [
+      {
+        "t": "Výlisky d20–d315",
+        "items": [
+          "Uhly 90° a 45°",
+          "T-kusy, tiež zmenšené",
+          "Rukávy a rukávy",
+          "Zníženia",
+          "Koncovky"
+        ]
+      },
+      {
+        "t": "Prechody a skrutkové spojenia",
+        "items": [
+          "Prechodové kusy s mosadzným vnútorným závitom",
+          "Prechodové kusy s mosadzným vonkajším závitom",
+          "Skrutkové spoje (uvoľniteľné)",
+          "Pripojenie k existujúcim kovovým rúram"
+        ]
+      },
+      {
+        "t": "armatúry",
+        "items": [
+          "Ventily",
+          "Guľové ventily",
+          "Bariéry pre stúpačky a rozvody"
+        ]
+      },
+      {
+        "t": "Zváracia technika a nástroje",
+        "items": [
+          "Ručné zváracie stroje (do d63)",
+          "Stroje na zváranie zásuviek",
+          "Elektrické zváracie stroje",
+          "Zváračky na tupo pre veľké rozmery",
+          "Rezačky rúr a rezné nástroje"
+        ]
+      }
+    ],
+    "normEyebrow": "Normy a dôkazy",
+    "normTitle": "Testované podľa predpisov.",
+    "normLead": "Systém K Aqua je vyrobený a testovaný podľa príslušných noriem technológie potrubí. Každá šarža podľa požiadaviek kvality ISO 9001.",
+    "normHead": [
+      "štandardná",
+      "titul",
+      "Význam"
+    ],
+    "norms": [
+      [
+        "DIN 8077",
+        "Polypropylénové rúry: rozmery",
+        "Definuje sériu priemerov a hrúbok steny (SDR) pre PP rúry."
+      ],
+      [
+        "DIN EN ISO 15874",
+        "Polypropylénové rúry: požiadavky",
+        "Všeobecné požiadavky na kvalitu a skúšky pre rúry PP-R/PPRCT."
+      ],
+      [
+        "Systém štandardný pre inštalácie teplej a studenej vody vyrobený z polypropylénu.",
+        "Plastové potrubné systémy",
+        "Systém štandardný pre inštalácie teplej a studenej vody vyrobený z polypropylénu."
+      ],
+      [
+        "DVS 2207-11",
+        "Zváranie PP",
+        "Smerné hodnoty pre zásuvkové, elektrické a tupé zváranie: Základ obsahu akadémie."
+      ],
+      [
+        "DVGW/KTW",
+        "Kontakt s pitnou vodou",
+        "Doklad o zhode pre styk s pitnou vodou: možno si vyžiadať v Centre dôvery."
+      ],
+      [
+        "EN 15804",
+        "EPD (Typ III)",
+        "Environmentálne vyhlásenia o produktoch ako databáza pre LEED, BREEAM a DGNB."
+      ],
+      [
+        "ISO 9001/14001/50001",
+        "Systémy riadenia",
+        "Kvalita, životné prostredie a energia: od októbra 2025 trikrát testované, akreditované DAkkS."
+      ],
+      [
+        "PRESNE",
+        "Integrovaný systém riadenia",
+        "Vnútropodnikový systém v dome KWT spája bezpečnosť pri práci, životné prostredie a energiu v každodennom živote."
+      ]
+    ],
+    "faqEyebrow": "Často kladené otázky",
+    "faqTitle": "Odpovede na plánovanie a nákup.",
+    "faq": [
+      {
+        "q": "Pre aké médiá je systém určený?",
+        "a": "Pre pitnú vodu (teplú a studenú) s odolnosťou voči vysokej teplote a tlaku počas desaťročí. Vďaka odolnosti PP voči rozpúšťadlám, zásadám a kyselinám sú možné aj priemyselné aplikácie; Kontrolujeme ich s vami na základe projektu."
+      },
+      {
+        "q": "SDR je pomer vonkajšieho priemeru k hrúbke steny (d/s). Menší SDR = hrubšia stena = vyšší menovitý tlak: SDR 6 zodpovedá PN 20, SDR 17 zodpovedá PN 6. To znamená, že si môžete vybrať presne takú rezervu, akú potrebujete pre každú aplikáciu, bez predimenzovania.",
+        "a": "SDR je pomer vonkajšieho priemeru k hrúbke steny (d/s). Menší SDR = hrubšia stena = vyšší menovitý tlak: SDR 6 zodpovedá PN 20, SDR 17 zodpovedá PN 6. To znamená, že si môžete vybrať presne takú rezervu, akú potrebujete pre každú aplikáciu, bez predimenzovania."
+      },
+      {
+        "q": "Kedy monovrstva, kedy K-vlákno?",
+        "a": "Monovrstva je ekonomický štandard pre väčšinu aplikácií. Vláknitý kompozit vystužený sklenenými vláknami znižuje tepelnú rozťažnosť približne na štvrtinu, umožňuje väčší rozstup svoriek a zostáva rozmerovo stabilný pri veľkých rozmeroch a horúcej vode, voľba pre stúpačky, cirkuláciu a d ≥ 160."
+      },
+      {
+        "q": "Ako sú potrubia spojené?",
+        "a": "Súdržné zváraním: hrdlové zváranie ručne (do d63) alebo strojom, elektrické zváranie pomocou elektro-cievkových tvaroviek a zváranie na tupo pre veľké rozmery do d630. Správne vybavenie a nástroje sú súčasťou programu; Akadémia ukazuje všetky štyri postupy vo videu."
+      },
+      {
+        "q": "Vyhovuje systém pitnej vode?",
+        "a": "Systém je určený pre pitnú vodu; Polypropylén je bez chuti a zápachu. Doklad o zhode pre kontakt s pitnou vodou (DVGW/KTW) poskytujeme v Centre dôveryhodnosti ako súčasť balíka dokumentov RFP."
+      },
+      {
+        "q": "Z akej životnosti vychádza dizajn?",
+        "a": "Úrovne tlaku vychádzajú z regresných kriviek dotvarovania podľa DIN 8077/8078 s projektovým horizontom 50 rokov prevádzky vrátane bezpečnostného faktora. Dva programové kotvy: SDR 6 s 20 barmi pri 20 °C a PPRCT SDR 7,4 s 10 barmi pri 70 °C."
+      },
+      {
+        "q": "Kde získam záväzné údaje o článku?",
+        "a": "Vo vyhľadávači produktov vyfiltrujete všetky varianty naživo a exportujete ich ako CSV. Katalóg produktov (PDF) poskytuje záväzné hodnoty; Pokiaľ ide o podmienky projektu, dopytovanie projektu vedie priamo k predaju v piatich krokoch. Odpovedzte do jedného pracovného dňa."
+      }
+    ]
+  }
+}

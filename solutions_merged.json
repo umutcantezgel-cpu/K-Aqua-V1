@@ -1,0 +1,847 @@
+{
+  "eyebrow": "Ipari Megoldások",
+  "title1": "Mérnöki munka",
+  "titleGrad": "a legextrémebb",
+  "title2": "alkalmazásokhoz.",
+  "lead": "A K-Aqua nem csupán csöveket gyárt, hanem a kritikus infrastruktúrák érhálózatát építi fel. Megoldásaink ott kezdődnek, ahol a hagyományos anyagok feladják.",
+  "benefits": [
+    {
+      "t": "Umweltfreundlich",
+      "d": "Polypropylen entsteht aus Gasen, die früher nutzlos verbrannt wurden, und reduziert so die Luftverschmutzung drastisch. Die Produktion nutzt Wasser im geschlossenen Kühlkreislauf und schützt Flüsse, Bäche und Seen."
+    },
+    {
+      "t": "Recycelbar",
+      "d": "PP trägt den Recycling Code „5\" und lässt sich sortenrein trennen. Wir recyceln sämtliche Produktionsabfälle und Verschnitte, bei hoher Nachfrage nach PP-Rezyklat."
+    },
+    {
+      "t": "Überlegen",
+      "d": "Als technischer Kunststoff ist PP ungewöhnlich beständig gegen Lösungsmittel, Laugen und Säuren und formt im Spritzguss komplexe Geometrien bei niedrigen Kosten und hohen Stückzahlen."
+    },
+    {
+      "t": "Langlebig",
+      "d": "PP-Produkte halten deutlich länger als vergleichbare Materialien: pflegeleicht, verschleißfest und beständig gegen Alterung und Temperaturextreme."
+    }
+  ],
+  "nextEyebrow": "Termékskála",
+  "nextTitle": "A megoldás a részletekben rejlik",
+  "nextLead": "Nézze meg, hogyan öltenek testet ezek az anyagi előnyök a K-Aqua termékprogramjában.",
+  "nextCta": "Tovább a termékprogramhoz",
+  "krankenhaus": {
+    "sticky": {
+      "items": [
+        {
+          "title": "Legionella-megelőzés molekuláris szinten",
+          "desc": "A kritikus kórházi infrastruktúrában a vízhigiénia nem opció, hanem túlélési kérdés. K-Aqua csőrendszereink rendkívül sima, pórusmentes belső felületeket használnak, amelyek fizikailag megakadályozzák a biofilmek képződését és a legionella elszaporodását. A német mérnöki munka itt azt jelenti: megelőzés tökéletes anyagtudomány révén, nem pedig utólagos vegyi kezeléssel."
+        },
+        {
+          "title": "Termikus fertőtlenítés anyagkifáradás nélkül",
+          "desc": "A klinikai szabványok rendszeres, 70°C feletti termikus fertőtlenítést írnak elő. Míg a hagyományos rendszerek ennél gyorsan öregszenek, a K-Aqua PPR rendszert évtizedeken át tartó extrém hőterhelésre tervezték. Nincsenek mikrorepedések, nincs ridegedés, nincsenek kompromisszumok."
+        },
+        {
+          "title": "Abszolút steril csatlakozások",
+          "desc": "Szabadalmaztatott fűtőelemes tokos hegesztésünk homogén, teljesen varratmentes egységgé olvasztja össze a csövet és az idomot. Nem jönnek létre holtterek, ahol pangó víz gyűlhetne össze. Az eredmény egy öntvényből készült csőrendszer: abszolút fizikai gát a szennyeződések ellen."
+        },
+        {
+          "title": "Akusztikus szigetelés intenzív osztályok számára",
+          "desc": "A zaj hatalmas stressztényező a betegek és az egészségügyi személyzet számára. A K-Aqua rendszer eredendő hangelnyelő tulajdonságokkal rendelkezik. Az áramlási zajokat és a nyomáslökéseket maga az anyag nyeli el, ami még nagynyomású alkalmazásoknál is suttogás-halk vízellátást garantál: ez elengedhetetlen a műtőkben és az intenzív osztályokon."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "1. Fázis",
+          "title": "Rendszerméretezés és Hidraulika",
+          "text": "A vezeték-keresztmetszetek pontos kiszámítása a pangó zónák elkerülése érdekében. Minden milliméternyi nyomásveszteséget a német mérnökeink a tervezési fázisban a digitális ikertestvéren szimulálnak és kiküszöbölnek."
+        },
+        {
+          "year": "2. Fázis",
+          "title": "Anyagspecifikáció",
+          "text": "A specifikus K-Aqua polimer keverékek kiválasztása, a klinikai követelményekre optimalizálva. Nyersanyagaink 42 minőségbiztosítási lépésen mennek keresztül, mielőtt egyáltalán elérnék az extrudert."
+        },
+        {
+          "year": "3. Fázis",
+          "title": "Előgyártás és Tisztatéri Kezelés",
+          "text": "Komplex elosztók előzetes összeszerelése ellenőrzött környezetben. A helyszíni hegesztési varratok minimalizálása akár 40%-kal gyorsabb, hibamentes telepítést garantál tisztatéri körülmények között."
+        },
+        {
+          "year": "4. Fázis",
+          "title": "Üzembe helyezés és Tesztelés",
+          "text": "Teljes hidrosztatikus nyomáspróba és termikus kezdeti fertőtlenítés. A fővállalkozónak történő átadás minden egyes hegesztési varrat hiánytalan, digitális dokumentációjával történik."
+        },
+        {
+          "year": "5. Fázis",
+          "title": "50 Év Karbantartásmentesség",
+          "text": "Az üzembe helyezés után a rendszer eltűnik a falban, és némán, abszolút megbízhatóan végzi a dolgát, legalább 50 évig garantáltan, mindennemű anyagkifáradás nélkül."
+        }
+      ]
+    },
+    "hero": {
+      "eyebrow": "Küldetéskritikus Infrastruktúra",
+      "title1": "Kórházak.",
+      "title2": "Nulla Hibatűrés.",
+      "desc": "A maximális orvosi ellátásban az infrastruktúra életről és halálról dönt. A K-Aqua biztosítja a hidrológiai idegrendszert a világ legfejlettebb klinikai megaprojektjeihez. Németországban gyártva. Az örökkévalóságnak építve.",
+      "cta1": "Mérnöki Tanácsadás",
+      "cta2": "BIM Adatok letöltése"
+    },
+    "intro": {
+      "title": "Ahol egy csepp víz <br className=\"hidden md:block\"/> a rendszer összeomlását okozhatja.",
+      "desc": "A fővállalkozók a klinikai projekteknél egy megoldhatatlan paradoxonnal néznek szembe: az építkezés során fellépő hatalmas időnyomás találkozik az emberiség történetének legszigorúbb higiéniai előírásaival. Egyetlen pangó tér a csőhálózatban, egy mikroszkopikus repedés, egy korrodálódó csatlakozás: és több milliós beruházások kerülnek veszélybe. Mi tiszta, megalkuvást nem ismerő német mérnöki munkával oldjuk meg ezt a paradoxont."
+    },
+    "stickySection": {
+      "eyebrow": "Technológiai Fölény",
+      "title": "A Biztonság Anatómiája.",
+      "lead": "Egy kórházra nem épületként, hanem biológiai szervezetként tekintünk. A K-Aqua rendszer a megsemmisíthetetlen érrendszere. Csővezetékeink minden millimétere abszolút megbízhatóságra van kalibrálva."
+    },
+    "bentoSection": {
+      "eyebrow": "Megtérülés és Életciklus",
+      "title": "Gazdaságosság a tökéletesség révén.",
+      "lead": "A minőség nem költségtényező, hanem az egyetlen út a nyereségességhez az épületautomatikában. A K-Aqua példátlan szintre csökkenti a teljes birtoklási költséget (TCO), miközben maximális betegbiztonságot garantál."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "100% Korrózióállóság",
+          "desc": "A fémcsövekkel ellentétben a K-Aqua teljesen immunis az elektrokémiai korrózióra, a lyukkorrózióra és a meszes vízre. Nincs lerakódás, nincs nyomásveszteség 50 év folyamatos üzemeltetés során."
+        },
+        {
+          "title": "Villámgyors Telepítés",
+          "desc": "Az alacsony önsúly és a homogén hegesztési technológia akár 40%-kal csökkenti a telepítési időt. Kevesebb munkanap, kisebb kockázat az építkezésen.",
+          "badge": "-40% Idő"
+        },
+        {
+          "title": "Földrengésbiztos Rugalmasság",
+          "desc": "Az anyag moduláris molekuláris szerkezete lehetővé teszi a szeizmikus sokkok és az épületsüllyedések törés nélküli elnyelését. Elengedhetetlen a kockázatos területeken lévő kórházak számára.",
+          "badge": "Szeizmikus Minősítés"
+        },
+        {
+          "title": "Vizsgált Ivóvízminőség",
+          "desc": "Teljesíti és felülmúlja a világ legszigorúbb szabványait (DIN, DVGW, SKZ, WRAS) a tiszta víz és a rendkívül érzékeny klinikai közegek szállítása terén."
+        }
+      ]
+    },
+    "timelineSection": {
+      "title": "A K-Aqua Szabvány.",
+      "desc": "Az első CAD-rajztól az utolsó csepp vízig folyamatunk a precizitás szimfóniája, amely nem hagy teret a véletleneknek."
+    },
+    "specs": {
+      "eyebrow": "Specifikációk",
+      "title": "A kemény tények.",
+      "lead": "Mérnököknek, tervezőknek és építészeknek: Rendszerünk fizikai és kémiai határértékei klinikai használatra. Az átláthatóság a bizalom alapja.",
+      "therm": {
+        "title": "Termikus terhelhetőség",
+        "items": [
+          {
+            "label": "Folyamatos üzemi hőmérséklet",
+            "value": "70°C"
+          },
+          {
+            "label": "Maximális üzemzavari hőmérséklet",
+            "value": "95°C (100h)"
+          },
+          {
+            "label": "Hővezető képesség",
+            "value": "0.24 W/mK"
+          },
+          {
+            "label": "Lineáris hőtágulási együttható",
+            "value": "0.15 mm/mK"
+          }
+        ]
+      },
+      "mech": {
+        "title": "Mechanikai tulajdonságok",
+        "items": [
+          {
+            "label": "Sűrűség",
+            "value": "0.895 g/cm³"
+          },
+          {
+            "label": "Szakítószilárdság",
+            "value": "23 MPa"
+          },
+          {
+            "label": "Szakadási nyúlás",
+            "value": "> 50%"
+          },
+          {
+            "label": "Rugalmassági modulus",
+            "value": "800 MPa"
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM és CAD Erőforrások",
+      "desc": "Töltsön le részletes Revit-családokat, AutoCAD-fájlokat és teljes hidraulikus adatkészleteket az épületinformációs modellezéséhez (BIM). Milliméteres tervezési biztonság a projektjéhez.",
+      "cta": "Tovább a Letöltőközpontba"
+    },
+    "cta": {
+      "eyebrow": "Következő Lépések",
+      "title": "Készen áll a következő megaprojektre?",
+      "desc": "Alkalmazástechnikai mérnökeink készen állnak, hogy megoldják klinikai projektjének legbonyolultabb hidraulikai kihívásait. Egyetlen projekt sem túl nagy, egyetlen szabvány sem túl szigorú.",
+      "button": "Mérnöki Csapat Kapcsolatfelvétele"
+    }
+  },
+  "hotels": {
+    "hero": {
+      "eyebrow": "Vendéglátás és Luxus Üdülőhelyek",
+      "title1": "Kiválóság minden",
+      "title2": "cseppben.",
+      "desc": "5 csillag nem ismeri a kompromisszumot. A szállodáknak láthatatlan, hangtalan és teljesen hibamentes infrastruktúrára van szükségük a színfalak mögött. A K-Aqua a luxus megaprojektek számára készült ivóvíz- és klímarendszer világszerte.",
+      "cta1": "Mérnöki Szakértelem",
+      "cta2": "Katalógus Kérése"
+    },
+    "intro": {
+      "title1": "Az igazi luxus ",
+      "title2": "láthatatlan.",
+      "titleGrad": "És hallhatatlan.",
+      "desc": "Egy ötcsillagos élmény nem tűr kompromisszumot. Sem a kiszolgálásban, sem az épület szerkezetében. Nagy sűrűségű PP-R polimereink kiküszöbölik az áramlási zajokat, megakadályozzák a hőveszteséget és garantálják a mikrobiológiai tisztaságot. Üdvözöljük a folyadéktechnika referenciakategóriájában."
+    },
+    "bentoSection": {
+      "eyebrow": "A tökéletesség anatómiája",
+      "title": "Specifikációk, amelyek dekonstruálják az ipari szabványt.",
+      "lead": "A hagyományos csővezetékek minden elemét megkérdőjeleztük, és anyagtudományi mesterművekkel helyettesítettük."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Referencia osztályú akusztikai szigetelés",
+          "desc": "A hangszigetelés a legfőbb minőségi jellemző a high-end szállodaiparban. Szabadalmaztatott háromrétegű polimer szerkezetünk közvetlenül a forrásnál nyeli el a testhangokat és az áramlási zajokat. A víz suttogása sem hatol be vendégei lakosztályába. DIN 4109 szerint tesztelve."
+        },
+        {
+          "title": "Termikus ellenállóképesség",
+          "desc": "Minimális hőveszteség maximális hatékonyság mellett. A K-Aqua PP-R molekuláris sűrűsége természetes módon szigetel, és drasztikusan csökkenti a másodlagos szigetelés iránti igényt. Az eredmény: Hatalmas megtakarítás a működési költségekben (OPEX)."
+        },
+        {
+          "title": "100% Korróziómentesség",
+          "desc": "Agresszív víz, klóros medencék vagy extrém sótartalom a tengerparti üdülőhelyeken? Ahol a fémek kapitulálnak, a K-Aqua megőrzi szerkezeti integritását. Egy fél évszázadon át."
+        },
+        {
+          "title": "Mikrobiológiai erődítmény",
+          "desc": "A legionellák és biofilmek a mikroszkopikus egyenetlenségeken alakulnak ki. A K-Aqua csövek belső felülete molekuláris szinten olyan sima, hogy a baktériumok egyszerűen nem tudnak megtapadni. Klinikai tisztaság az Ön üdülőhelyének ivóvízellátásában."
+        }
+      ]
+    },
+    "textSection": {
+      "title": "A csend mögötti mérnöki munka",
+      "p1": "A felhőkarcolókban és a kiterjedt üdülőközpontokban extrém fizikai körülmények uralkodnak. Több száz méter magasra pumpált víznyomás. Hőmérséklet-különbségek, amelyek a hagyományos anyagokat terhelhetőségük határára tolják.",
+      "p2": "A hagyományos rézrendszerek jelentős eróziós jelenségeket mutatnak nagy áramlási sebességeknél. A toronyházak felszállóvezetékeiben fellépő nyomásingadozások által okozott kavitáció elkerülhetetlenül mikrorepedésekhez, lyukkorrózióhoz és végül katasztrofális vízkárokhoz vezet, amelyek egész emeleteket béníthatnak meg. Egy szállodaüzemeltető számára ez nem csupán hatalmas felújítási költségeket, hanem helyrehozhatatlan hírnévvesztést is jelent.",
+      "p3": "A K-Aqua egy radikálisan más utat választ.",
+      "p4": "Rendszereink a legújabb generációs polipropilén random kopolimeren (PP-R) alapulnak. Németországi központi gyárunkban egy rendkívül komplex extrudálási folyamat révén úgy igazítjuk a polimer láncokat, hogy azok a rugalmasság és az extrém nyomásállóság páratlan kombinációját mutassák. Amikor nyomáslökések (vízkalapács) lépnek fel a rendszerben, az anyag rugalmasan elnyeli ezt a kinetikus energiát, ahelyett, hogy akusztikus sokkként vagy mechanikus repedésként továbbítaná az épület szerkezetének.",
+      "h3": "Homogén hegesztési kötések: A szivárgás vége",
+      "p5": "A leggyengébb láncszem minden csővezetékrendszerben a csatlakozás. A menetek korrodálódnak, a tömítőgyűrűk porózussá válnak, a ragasztott kötések pedig a termikus ciklusok miatt elfáradnak.",
+      "p6": "Mi a molekuláris fúzió elvét alkalmazzuk. A csövet és az idomot termikusan pontosan 260°C-ra hevítik, majd egymásba tolják. A másodperc töredéke alatt a két alkatrész polimer láncai szétválaszthatatlan, monolitikus egységgé olvadnak össze. Az eredmény: Nincs többé \"csatlakozás\". A cső és az idom egyetlen, folytonos anyagdarabot alkot. Tömítés nélkül, gyenge pontok nélkül, 100%-os megbízhatósággal."
+    },
+    "stickySection": {
+      "eyebrow": "A 4 Pillér",
+      "title": "Egy mestermű DNS-e.",
+      "lead": "Hogyan oldjuk meg a modern szállodai infrastruktúra legnagyobb kihívásait radikális mérnöki munkával."
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "1. Legionella-megelőzés molekuláris szinten",
+          "p1": "A kiterjedt szállodai hálózatokban az ideiglenesen használaton kívüli lakosztályokban pangó víz halálos csapdává válhat. A legionellák a durva csőfalakon képződő biofilmekben szaporodnak.",
+          "p2": "A K-Aqua PP-R mikroszkopikus felületi érdessége 0,007 mm. Nincsenek pórusok, nincsenek rések, nincsenek rögzítési pontok. A termikus fertőtlenítéssel kombinálva a fizikailag lehetséges legsterilebb környezetet biztosítjuk."
+        },
+        {
+          "title": "2. Abszolút Hangelnyelés",
+          "p1": "Minden decibel számít. A luxus üdülőhelyeken a vécéöblítés vagy a zuhanyozás a szomszédos lakosztályban nem lehet hallható.",
+          "p2": "Kompozit anyagunk (K-Aqua szálerősítésű cső) nagy sűrűségének és magas belső csillapítási tényezőjének köszönhetően akár 80%-kal is csökkentjük a testhangot a fémrendszerekhez képest. Egy különbség, amit vendégei nem fognak hallani."
+        },
+        {
+          "title": "3. Nagy nyomású ellenálló képesség a felhőkarcolókban",
+          "p1": "A 80, 100 vagy 120 emeletes szállodák extrém követelményeket támasztanak a felszállóvezetékekkel szemben. Az épület alsó részén a hidrosztatikus nyomás hatalmas.",
+          "p2": "A K-Aqua speciális nyomásfokozatokat (SDR 6 / PN 20) kínál szálerősítéssel kombinálva, amelyek 70°C-os hőmérsékleten, folyamatos terhelés mellett is több mint 50 éves élettartamot garantálnak. Mi legyőzzük a gravitációt."
+        },
+        {
+          "title": "4. Hőmérséklet-menedzsment és Távhűtés (District Cooling)",
+          "p1": "Sivatagi régiókban, mint például Dubaiban vagy Rijádban, a hideg a legdrágább árucikk. A távhűtési rendszerek nagy távolságokra szállítják a hűtött vizet az üdülőhelyre.",
+          "p2": "A PP-R kiváló szigetelési értékei megakadályozzák a kondenzációt és masszívan minimalizálják a hűtési veszteséget. Nincsenek többé átrozsdásodott hűtőcsövek, nincsenek csöpögő mennyezetek. Csak a tiszta, hamisítatlan hatékonyság."
+        }
+      ]
+    },
+    "perf": {
+      "items": [
+        {
+          "val": "0.007",
+          "unit": "mm",
+          "title": "Felületi érdesség",
+          "desc": "Abszolút ellenállás a biofilmekkel és a lerakódásokkal szemben."
+        },
+        {
+          "val": "100",
+          "unit": "%",
+          "title": "Homogén Fúzió",
+          "desc": "Hegesztett kötések, amelyek molekuláris szinten olvadnak össze."
+        },
+        {
+          "val": ">50",
+          "unit": "Év",
+          "title": "Élettartam",
+          "desc": "A legszigorúbb ISO szabványok szerint tesztelve és bizonyítva."
+        },
+        {
+          "val": "0",
+          "unit": "",
+          "title": "Karbantartási igény",
+          "desc": "Telepítse, zárja le, és felejtse el örökre."
+        }
+      ]
+    },
+    "timelineSection": {
+      "title": "Referenciák, amelyek történelmet írnak.",
+      "desc": "A Perzsa-öböl mesterséges szigeteitől az Alpok legexkluzívabb síparadicsomaiig. Ahol a lehetetlent építik, a K-Aqua már ott van."
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Dubai",
+          "title": "The Palm Jumeirah Ultra-Luxury Resort",
+          "text": "800 lakosztály és 4 hatalmas medencerendszer felszerelése. Az extrém sótartalom és az akár 50°C-os környezeti hőmérséklet maximális termikus és kémiai ellenállást követelt meg. A K-Aqua a teljes hideg- és melegvíz hálózatot szállította, beleértve a távhűtési (District Cooling) csatlakozást is."
+        },
+        {
+          "year": "Svájc",
+          "title": "Alpine Retreat St. Moritz",
+          "text": "Egy 6 csillagos üdülőhely 2000 méteres magasságban. A kihívás: Extrém fagyveszély az építési fázisban és maximális követelmények a hangszigeteléssel szemben. PP-R szálerősítésű csöveink magabiztosan elnyelték a hőtágulást és garantálták a csendes működést."
+        },
+        {
+          "year": "Szingapúr",
+          "title": "Vertical Forest Hotel",
+          "text": "Az ökológiai építészet 65 emeletes mesterműve. A több ezer erkélynövény bonyolult öntözőrendszere, valamint a teljes ivóvíz-infrastruktúra K-Aqua rendszerrel valósult meg. A homogén hegesztési technológia megóvta az épületet a mikroszkopikus szivárgásoktól."
+        },
+        {
+          "year": "Maldív-szigetek",
+          "title": "Zero-Emission Island Resort",
+          "text": "Közvetlenül a zátony fölé építve, abszolút környezetvédelmi megfelelőség volt az elvárás. A K-Aqua csövek 100%-ban újrahasznosíthatók, nem bocsátanak ki mikroműanyagot vagy nehézfémeket, és kopás nélkül ellenállnak az erősen korrozív sós tengeri levegőnek."
+        },
+        {
+          "year": "Jövő",
+          "title": "Az Ön Következő Megaprojektje",
+          "text": "Az építészet határai naponta kitolódnak. Készen állunk arra, hogy lerakjuk az alapokat a legmerészebb vízióihoz. Olyan technológiával, amely évtizedekkel megelőzi korát."
+        }
+      ]
+    },
+    "research": {
+      "eyebrow": "Kutatás és Fejlesztés",
+      "title": "A megsemmisíthetetlenség <br/> kémiája.",
+      "desc": "Németországi K+F részlegünk fáradhatatlanul dolgozik a polimer mátrix tökéletesítésén. Szabadalmaztatott adalékanyagok és speciális üvegszál-keverékek hozzáadásával olyan csöveket extrudálunk, amelyek rendkívül alacsony hőtágulással rendelkeznek, ami a fémcsövekhez hasonlítható, de azok kirívó hátrányai nélkül.",
+      "items": [
+        "Csökkentett lineáris hőtágulás (Alfa-érték: 0,035 mm/mK)",
+        "Növelt áramlási keresztmetszet a vékonyabb falvastagságnak köszönhetően, azonos nyomásfokozat mellett",
+        "Tökéletes ellenállás a klórvegyületekkel szemben a szállodai medenceterületeken",
+        "Toxikológiailag teljesen ártalmatlan, élelmiszerbiztonsági szempontból tesztelt"
+      ]
+    },
+    "certs": {
+      "eyebrow": "Megfelelőség és Tanúsítványok",
+      "title": "A világ legszigorúbb szabványai? Mi túlszárnyaljuk őket.",
+      "lead": "A nemzetközi projektek nemzetközi jóváhagyásokat igényelnek. A K-Aqua-t a legszigorúbb szabályozó hatóságok tesztelték és engedélyezték világszerte."
+    },
+    "cta": {
+      "title": "Építsen az Örökkévalóságnak.",
+      "desc": "Ne elégedjen meg a szabványokkal következő szálloda- vagy üdülőprojektjénél. Definiálja újra azt. Lépjen kapcsolatba vezető mérnökeinkkel egy mélyreható műszaki értékelésért.",
+      "button1": "Projekt Értékelése",
+      "button2": "Közvetlen Kapcsolat az Értékesítéssel"
+    }
+  },
+  "vorfertigung": {
+    "meta": {
+      "title": "Ipari Előgyártás | K-Aqua",
+      "desc": "K-Aqua Előgyártás: Maximális pontosság és sebesség német mérnöki munkával. Ismerje meg ipari megoldásainkat."
+    },
+    "hero": {
+      "badge": "K-Aqua Előgyártás (Prefabrication)",
+      "title1": "Milliméteres pontosság.",
+      "title2": "Telepítés másodpercek alatt.",
+      "desc": "Amikor az építkezéseken szűkös az idő, és a minőség-ellenőrzés kulcsfontosságú, mi áthelyezzük a komplexitást a gyárba. A K-Aqua Előgyártás Plug & Play rendszereket szállít, milliméteres pontossággal hegesztve, és pontosan időben a világ bármely pontjára leszállítva.",
+      "cta1": "Előgyártás ajánlatkérés",
+      "cta2": "Katalógus letöltése"
+    },
+    "intro": {
+      "eyebrow": "A paradigmaváltás",
+      "title": "Az építkezés nem helyszíne a kísérletezésnek.",
+      "lead": "A komplex elosztók helyszíni hegesztése kiszámíthatatlan kockázatokat rejt: por, ingadozó hőmérséklet és szűkös hely. A K-Aqua eliminálja ezeket a változókat.",
+      "p1": "A nagy projektek esetében az építkezésen az idő az egyik legnagyobb költségtényező. Képzett telepítőkkel végezni a hegesztést rossz időjárás, szűk aknák és feszített határidők mellett – ez hibákhoz és késésekhez vezet.",
+      "p2": "Az előregyártással ezeket a kockázatokat áthelyezzük egy ellenőrzött környezetbe. A németországi üzemünkben található mérnökeink átveszik a csőhálózati terveket (CAD/BIM), és mikrométeres pontosságú, teljesen hegesztett, tesztelt csomópontokat építenek.",
+      "quote": "Nem csupán csöveket szállítunk. Plug-and-play infrastruktúrát szállítunk.",
+      "p3": "Tapasztalataink szerint az előregyártott elosztók telepítési ideje az építkezésen akár 70%-kal is csökkenhet. Kevesebb hulladék, kevesebb szerszámigény a helyszínen, és garantált nulla hibaarány a gyári nyomáspróbáknak köszönhetően."
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "BIM Tervezés",
+          "desc": "A 3D modell alapján pontos gyártási rajzokat készítünk, elkerülve az ütközéseket már a tervezés során."
+        },
+        {
+          "title": "Klímaszabályozott Hegesztés",
+          "desc": "Tökéletes feltételek (hőmérséklet, pormentesség) a DVS által minősített hegesztők számára a csúcsminőségű fúzió érdekében."
+        },
+        {
+          "title": "Digitális Nyomáspróba",
+          "desc": "Minden elosztó magas nyomású hidraulikus teszten esik át, dokumentált jegyzőkönyvvel, mielőtt elhagyja a gyárat."
+        },
+        {
+          "title": "100% Prüfprotokoll. Keine Ausnahmen.",
+          "desc": "Bevor ein vorgefertigtes K Aqua Modul unser Werk verlässt, durchläuft es ein drakonisches Testprogramm. Von hydrostatischen Druckprüfungen weit über den industriellen Standard hinaus, über Ultraschall-Schweißnahtkontrollen, bis hin zur optischen 3D-Vermessung. Deutsche Null Fehlertoleranz in Reinform."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Előnyök",
+      "title": "Miért az előregyártás a jövő?",
+      "lead": "Amikor a határidők szorosak és a szakemberhiány akut, az előregyártás az egyetlen megbízható megoldás.",
+      "items": [
+        {
+          "title": "PPR-C (Typ 3) Material",
+          "desc": "Unser Ausgangsmaterial bietet eine beispiellose thermische und chemische Beständigkeit. Es widersteht extremen Temperaturen und aggressiven Medien ohne Degradation."
+        },
+        {
+          "title": "Absolute Korrosionsfreiheit",
+          "desc": "Während metallische Systeme ab dem ersten Tag der Installation langsam degradieren, bleibt unser Polymer-System völlig immun gegen Korrosion, Lochfraß und Inkrustation."
+        },
+        {
+          "title": "Akustische Dämmung",
+          "desc": "Die molekulare Struktur von K Aqua Rohren absorbiert Schallwellen signifikant besser als Metall, was zu flüsterleisen Systemen führt, essenziell in Luxushotels und Krankenhäusern."
+        },
+        {
+          "title": "Geringer Druckverlust",
+          "desc": "Eine Innenraumrauheit von nur 0,007 mm garantiert minimale Reibung, verhindert Ablagerungen und reduziert den Energiebedarf der Pumpensysteme drastisch."
+        }
+      ]
+    },
+    "visual": {
+      "title1": "Die Ästhetik der",
+      "title2": "Stoffschlüssigkeit.",
+      "p1": "Betrachten Sie die Schweißnaht eines K Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.",
+      "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer geprüften Kunststoffschweißer. Jeder Parameter: Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit, wird pedantisch überwacht.",
+      "p3": "Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.",
+      "items": [
+        "Präzisionsfräsen der Rohrenden",
+        "Computergesteuerte Erhitzung (260°C)",
+        "Exakte Fügung unter Hochdruck"
+      ]
+    },
+    "timeline": {
+      "eyebrow": "A Folyamat",
+      "title": "Von der CAD-Zeichnung zur Baustelle.",
+      "lead": "Tervezéstől a beépítésig",
+      "events": [
+        {
+          "title": "Phase 1: Engineering & BIM",
+          "desc": "Nahtlose Integration in die architektonischen Modelle. Kollisionsprüfung und Strömungssimulation.",
+          "date": "Woche 1-2"
+        },
+        {
+          "title": "Phase 2: CNC-Zuschnitt",
+          "desc": "Millimetergenauer Zuschnitt der PPR-C Materialien durch lasergestützte CNC-Anlagen.",
+          "date": "Woche 3"
+        },
+        {
+          "title": "Phase 3: Polyfusion",
+          "desc": "Robotergestützte und handwerkliche Meisterschweißungen unter streng kontrollierten klimatischen Bedingungen im Werkstattumfeld.",
+          "date": "Woche 4-5"
+        },
+        {
+          "title": "Phase 4: QA & Druckprüfung",
+          "desc": "Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und geprüft.",
+          "date": "Woche 6"
+        },
+        {
+          "title": "Phase 5: Global Logistics",
+          "desc": "Sichere Verpackung und weltweiter Versand mit Just-in-Time Lieferung auf die Baustelle.",
+          "date": "Woche 7+"
+        }
+      ]
+    },
+    "manifesto": {
+      "eyebrow": "Das Manifest der Langlebigkeit",
+      "title": "Nem improvizálunk. Mi tervezünk.",
+      "p1": "Egy építkezés kaotikus lehet. A csőrendszernek azonban nem szabad annak lennie.",
+      "p2": "Az előregyártás biztosítja, hogy a kritikus infrastruktúra mindig azonos, kompromisszumok nélküli német minőségben készüljön el, függetlenül attól, hogy a világ mely pontján építkezik.",
+      "p3": "Gleichzeitig sind unsere industriellen Kühl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.",
+      "p4": "Wir betrachten Vorfertigung nicht als bloße Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit für großflächige Materiallagerung auf der Baustelle."
+    },
+    "cta": {
+      "title": "Tervezze meg velünk következő projektjét",
+      "desc": "Vegye fel a kapcsolatot mérnökeinkkel az előregyártott megoldásokért.",
+      "button1": "Projekt anfragen",
+      "button2": "Technischen Support kontaktieren"
+    }
+  },
+  "hochhaus": {
+    "meta": {
+      "title": "Magasépület Infrastruktúra | K-Aqua",
+      "desc": "K-Aqua Magasépületek: Maximális megbízhatóság német mérnöki munkával a felhőkarcolók számára. Fedezze fel épületgépészeti megoldásainkat."
+    },
+    "hero": {
+      "eyebrow": "Skyscraper & Vertical Engineering",
+      "title1": "A Gravitáció",
+      "title2": "Legyőzése.",
+      "desc": "A felhőkarcolók korunk technológiai csodái. Épületgépészeti (MEP) infrastruktúrájuk nem ismerheti a hibázás fogalmát. A K-Aqua kompromisszumot nem ismerő, extrém nyomásálló PP-R csőrendszereket szállít a világ legmerészebb magasépületei számára.",
+      "cta1": "Mérnöki Csapat Kapcsolatfelvétele",
+      "cta2": "Projekt Referenciák"
+    },
+    "intro": {
+      "eyebrow": "Magasépítés",
+      "title": "A függőleges kihívás.",
+      "lead": "A felhőkarcolók extrém követelményeket támasztanak a csőhálózatokkal szemben. Nyomás, hőmérséklet, statika – a K-Aqua rendszer mindezt uralja.",
+      "p1": "Minél magasabb az épület, annál nagyobb a hidrosztatikus nyomás az alsó szinteken. A 100 méternél magasabb épületekben a hagyományos műanyag csövek gyorsan elérik határaikat.",
+      "p2": "A K-Aqua SDR 6 és SDR 7.4 PP-R csövei úgy lettek kialakítva, hogy ellenálljanak ezeknek az extrém nyomásviszonyoknak, akár PN25 (25 bar) értékig, folyamatos működés mellett.",
+      "p3": "Rendszereink kis súlya drasztikusan csökkenti az épület szerkezetére nehezedő statikus terhelést, és megkönnyíti a szállítást és a telepítést a felső szinteken."
+    },
+    "sticky": {
+      "eyebrow": "Kritikus Tényezők",
+      "title": "Magasépítési követelmények.",
+      "lead": "Minden felhőkarcoló egyedi, de a kihívások azonosak. A K-Aqua mindegyikre választ ad.",
+      "items": [
+        {
+          "title": "Extrém Nyomásállóság",
+          "desc": "Robusztus falvastagságok és polifúziós kötések garantálják a rendszer integritását a legnagyobb hidrosztatikus terhelés alatt is."
+        },
+        {
+          "title": "Zajcsillapítás",
+          "desc": "A PP-R anyag természetes rezgéscsillapító tulajdonságai megakadályozzák az áramlási zajok átterjedését az épület szerkezetére."
+        },
+        {
+          "title": "Korróziómentesség",
+          "desc": "A magas épületekben a rozsda és a vízkő katasztrofális lehet. A PP-R immunis mindkettőre."
+        },
+        {
+          "title": "Akkustische Entkopplung (Schallschutz)",
+          "desc": "In Luxus-Penthouses und High End Offices ist Stille das ultimative Gut. Fließgeräusche und Druckschläge müssen eliminiert werden. Die hohe Materialdichte und die schallabsorbierenden Eigenschaften unserer PP-R Polymere dämpfen Körperschall und Fließgeräusche massiv und übertreffen die strengen Anforderungen der DIN 4109 und VDI 4100 bei Weitem."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Teljesítmény",
+      "title": "Műszaki Adatok a csúcsra",
+      "lead": "Miért választják a vezető építészek a K-Aquát a világ legmagasabb épületeihez?",
+      "items": [
+        {
+          "title": "Die PPRCT Revolution",
+          "desc": "Die nächste Generation des Polypropylens. Modifizierte kristalline Struktur für nie dagewesene Druck- und Temperaturbeständigkeit bei reduzierter Wandstärke. Maximiert den Durchfluss, minimiert das Gewicht, ein entscheidender Faktor bei der Statik großer Gebäude."
+        },
+        {
+          "title": "DIN EN ISO 15874",
+          "desc": "geprüfte Sicherheit durch unabhängige deutsche Prüfinstitute wie SKZ und DVGW. Höchste Trinkwassergüte, keine Auswaschungen."
+        },
+        {
+          "title": "Absolute Korrosionsresistenz",
+          "desc": "Unempfindlich gegen pH-Wert-Schwankungen, aggressive Wasserqualitäten, Chlorierung und elektrochemische Korrosion (Lochfraß)."
+        },
+        {
+          "title": "Vollständige Vorfertigung (Prefabrication)",
+          "desc": "Zeit ist das teuerste Gut auf der Baustelle. Wir liefern millimetergenau vorgefertigte Verteiler-Arrays, Zählerbalken und Steigleitungskomponenten direkt 'Just-in-Time'. Reduziert die Installationszeit um bis zu 60% und eliminiert Fehlerquellen auf der Baustelle."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Der Projektzyklus",
+      "desc": "Von der ersten Strömungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.",
+      "items": [
+        {
+          "year": "Phase 1",
+          "title": "Engineering & BIM",
+          "text": "Unsere Ingenieure unterstützen bei der Auslegung der Steigleitungen, der Berechnung der Druckzonen und stellen vollständige BIM-Daten (Revit) zur Kollisionsprüfung und TGA-Planung bereit."
+        },
+        {
+          "year": "Phase 2",
+          "title": "Präzisionsextrusion",
+          "text": "In unseren hochmodernen Anlagen in Deutschland werden Rohre und Fittings unter ständiger Ultraschall-Wanddickenkontrolle und strengster Laborüberwachung gefertigt. Jede Charge ist 100% nachverfolgbar."
+        },
+        {
+          "year": "Phase 3",
+          "title": "Just-in-Time Logistik",
+          "text": "Durch unser weltweites Vertriebsnetzwerk stellen wir sicher, dass das Material taktgenau auf der Baustelle eintrifft, egal ob in der Wüste von Dubai, in Singapur oder in Frankfurt am Main."
+        },
+        {
+          "year": "Phase 4",
+          "title": "Homogene Verschmelzung",
+          "text": "Lokale Installateure werden von unseren Technikern vor Ort geschult. Die thermischen Schweißverbindungen werden in Sekundenschnelle gesetzt und sind sofort nach dem Auskühlen voll druckbelastbar."
+        },
+        {
+          "year": "Jahrzehnte",
+          "title": "Wartungsfreier Betrieb",
+          "text": "Nach der finalen Druckprüfung verschwinden unsere Systeme im Schacht oder Beton. Für die nächsten 50+ Jahre werden Sie nie wieder an sie denken müssen. Ein unsichtbares, perfektes Netzwerk."
+        }
+      ]
+    },
+    "data": {
+      "eyebrow": "Die Daten",
+      "title": "PP-R SDR 6 a magasépítésben",
+      "lead": "Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).",
+      "h3_1": "Molekulare Beständigkeit",
+      "p1": "Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchenüblichen Standardvorgaben gehen von einer 50-jährigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit für eine Lebensdauer von über 100 Jahren. Das K Aqua PPRCT Material verzögert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.",
+      "h3_2": "Hydraulische Strömungsdynamik",
+      "p2": "Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand für die Förderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberflächenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfläche bleibt über die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften können.",
+      "stats": [
+        {
+          "label": "Dichte (g/cm³)",
+          "val": "0.905",
+          "standard": "ISO 1183"
+        },
+        {
+          "label": "Schmelzindex (g/10min)",
+          "val": "0.3",
+          "standard": "ISO 1133"
+        },
+        {
+          "label": "Zug-E-Modul (MPa)",
+          "val": "800 / 900 (RCT)",
+          "standard": "ISO 527"
+        },
+        {
+          "label": "Wärmeleitfähigkeit (W/mK)",
+          "val": "0.24",
+          "standard": "DIN 52612"
+        },
+        {
+          "label": "Längenausdehnungskoeffizient (mm/mK)",
+          "val": "0.15 (Standard) / 0.035 (Faser)",
+          "standard": "DIN 53752"
+        },
+        {
+          "label": "Oberflächenrauigkeit k (mm)",
+          "val": "0.007",
+          "standard": "Prüfstand"
+        },
+        {
+          "label": "Chemische Beständigkeit",
+          "val": "Ph-Wert 1 bis 14",
+          "standard": "DIN 8078"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Készen áll arra, hogy formálja a jövő városképét?",
+      "desc": "Beszéljen dedikált magasépítési mérnökcsapatunkkal áramlástani számításokról, statikai méretezésről és testreszabott előgyártási megoldásokról a következő megaprojektjéhez.",
+      "button1": "Projekt Ajánlatkérés",
+      "button2": "Műszaki Támogatás Kapcsolatfelvétel"
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "PP-R Anyagi Előnyök és Fizikai Fölény",
+      "desc": "Fedezze fel nagy teljesítményű polimer rendszereinket a kritikus infrastruktúrák számára. A K-Aqua személyre szabott PP-R megoldásokat kínál ipari alkalmazásokhoz."
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "Molekuláris Homogenitás",
+          "p1": "A K-AQUA PP-R rendszer a fejlett polifúziós technológián alapul. A pontosan kalibrált hevítés révén a cső és az idom molekuláris szinten egyetlen, szétválaszthatatlan, koherens egységgé olvad össze.",
+          "p2": "Ez a hézagmentes szintézis kiküszöböli mindazokat a gyenge pontokat, amelyek a mechanikus vagy ragasztott kötéseknél elkerülhetetlenül felmerülnek. Az eredmény egy abszolút integritású infrastruktúra, amely könnyedén ellenáll a hidraulikus sokkoknak és az extrém nyomásingadozásoknak."
+        },
+        {
+          "title": "Termikus Kitartás",
+          "p1": "A termikus ingadozások a hagyományos csőrendszerek legfőbb ellenségei. A K-AQUA polimerek rendkívül sűrű kristályráccsal rendelkeznek, amely még az akár 95°C-os folyamatos üzemi hőmérséklet mellett is megakadályozza a szerkezeti deformációt.",
+          "p2": "Az anyag fajlagos hőkapacitása ráadásul csökkenti az extrém szigetelések szükségességét, ami jelentősen növeli a teljes rendszer energiahatékonyságát."
+        },
+        {
+          "title": "Hidraulikus Tökéletesség",
+          "p1": "A K-AQUA csövek belső felületét a mindössze 0,007 mm-es abszolút érdességi érték jellemzi. Ez a mikroszkopikusan sima topográfia megakadályozza a lerakódásokat, az ásványi kiválásokat és a biofilmek képződését.",
+          "p2": "Az áramlási veszteségek a fizikai minimumra csökkennek, ami drasztikusan lecsökkenti a szivattyúrendszerek energiaigényét az évtizedek során. Az állandó belső átmérő folyamatos, csökkenés nélküli áramlási sebességet garantál."
+        },
+        {
+          "title": "Kémiai Immunitás",
+          "p1": "A fémrendszerekkel ellentétben a K-AQUA PP-R hálózat teljesen védett az oxidációval, a lyukkorrózióval és a galvanikus korrózióval szemben. A kopolimer inert tulajdonságai ellenállnak az agresszív vegyi anyagok és a változó pH-értékek extrém széles skálájának.",
+          "p2": "Még a rendkívül korrozív ipari környezetben vagy agresszív folyadékok szállítása során is érintetlen marad a csővezeték molekuláris integritása."
+        }
+      ],
+      "header": {
+        "title": "Fizikai Fölény.",
+        "desc": "Azok a műszaki elvek, amelyek a K-AQUA rendszereknek a kiemelkedő élettartamukat és üzembiztonságukat adják."
+      }
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "1. Fázis",
+          "title": "Szerkezeti Elemzés",
+          "text": "A termodinamikai és áramlástani követelmények értékelése. A nyomásfokozatok, a hőtágulás és a hidraulikus ellenállások pontos kiszámítása mérnökeink által."
+        },
+        {
+          "year": "2. Fázis",
+          "title": "Anyagspecifikáció",
+          "text": "Az optimális PP-R kopolimer kiválasztása. A falvastagságok és méretek (20 mm-től 160 mm-ig) összehangolása az ipari alkalmazás specifikus terhelési profiljával."
+        },
+        {
+          "year": "3. Fázis",
+          "title": "Rendszer Szintézis",
+          "text": "Polifúziós hegesztés szigorúan ellenőrzött termikus paraméterek mellett. Egy monolitikus hálózat létrehozása tömítések és mechanikai gyenge pontok nélkül."
+        },
+        {
+          "year": "4. Fázis",
+          "title": "Működési Kiválóság",
+          "text": "Évtizedeken át tartó, karbantartásmentes üzemeltetés. Az inert felületek megakadályozzák a lerakódásokat, míg a molekuláris sűrűség abszolút szivárgásmentességet garantál maximális energiahatékonyság mellett."
+        }
+      ],
+      "title": "FOLYAMAT ARCHITEKTÚRA",
+      "desc": "A matematikai kalkulációtól az örökös üzembiztonságig. A K-AQUA telepítések életciklusa szigorú mérnöki protokollokat követ."
+    },
+    "hero": {
+      "eyebrow": "IPARI ÉS ÉPÍTŐIPARI MEGOLDÁSOK",
+      "title1": "RENDSZERARCHITEKTÚRA",
+      "title2": "AZ ÖRÖKKÉVALÓSÁGNAK.",
+      "desc": "Nagy teljesítményű polimer rendszerek kritikus infrastruktúrákhoz. Extrém körülményekre fejlesztve, megalkuvást nem ismerő német mérnöki munkával igazolva. Az anyagtudomány és az alkalmazott áramlástan tökéletes szintézise. Ez a rendszerarchitektúra az örökkévalóságnak készült.",
+      "cta": "Kapcsolatfelvétel"
+    },
+    "intro": {
+      "title": "A hagyományos terhelési határokon túl.",
+      "p1": "Ahol a fém csőrendszerek kapitulálnak a korrózió, a lerakódások és a termikus anyagkifáradás miatt, ott kezdődik a K-AQUA működési tartománya. A Polypropylene Random Kopolimer (PP-R) infrastruktúráink újraírják a folyadékszállítás fizikai határait.",
+      "p2": "Rendszerünk minden millimétere évtizedes anyagtudományi kutatás eredménye. Mi nem egyszerű csöveket szállítunk; hibátlan, monolitikus érhálózatokat építünk ki azokhoz a létesítményekhez, amelyek nem engedhetik meg maguknak a leállást. A sarkvidéki hidegtől a forrásban lévő ipari folyamatokig a K-AQUA a tökéletes architekturális válasz az extrém mérnöki kihívásokra."
+    },
+    "bento": {
+      "header": {
+        "title": "Alkalmazási Vektorok.",
+        "desc": "Skálázható rendszermegoldások speciális ipari és épületgépészeti szektorokhoz."
+      },
+      "items": [
+        {
+          "title": "Ivóvíz-higiénia és Szaniter",
+          "desc": "Abszolút élelmiszerbiztonság és toxikológiai ártalmatlanság. A legionella képződésének megakadályozása az átlátszatlan, fényt elnyelő anyagkialakítás révén."
+        },
+        {
+          "title": "HVAC és Klímatechnika",
+          "desc": "Nagy hatékonyságú hőszigetelés az alacsony hővezető képesség révén. Kondenzáció minimalizálása a hűtővízvezetékeknél."
+        },
+        {
+          "title": "Sűrített Levegő Hálózatok",
+          "desc": "Szivárgásmentes átvitel extrém üzemi nyomásokon. Nincs a sűrített levegő szennyeződése rozsda vagy leváló részecskék miatt."
+        },
+        {
+          "title": "Hajóépítés és Offshore",
+          "desc": "Ellenáll a sós környezetnek és a masszív rezgéseknek. Jelentős súlycsökkentés az acél telepítésekhez képest."
+        },
+        {
+          "title": "Ipari Folyadékszállítás",
+          "desc": "Kompromisszumok nélküli teljesítmény agresszív vegyszerek, abrazív iszapok vagy nagy tisztaságú folyamatfolyadékok szállítása során. A K-AQUA rendszer garantálja a zavartalan, biztonságos termelést."
+        }
+      ]
+    },
+    "stats": {
+      "0": {
+        "label": "Év garantált élettartam",
+        "desc": "Normál üzemi feltételek mellett (20°C / 10 bar) a K-AQUA PP-R rendszerek tartóssága könnyedén meghaladja a fél évszázadot, bármilyen jelentős anyagromlás nélkül."
+      },
+      "1": {
+        "label": "W/mK hővezető képesség",
+        "desc": "A rézhez (380 W/mK) vagy az acélhoz (50 W/mK) képest a K-AQUA természetéből fakadóan szigetel, ami jelentős megtakarítást eredményez a külső szigetelésben és a hőveszteségekben."
+      },
+      "2": {
+        "label": "Homogén kötések",
+        "desc": "A molekuláris hegesztés révén egy teljesen hézagmentes rendszer jön létre. A cső és az idom egyetlen, elválaszthatatlan alkatrésszé olvad össze."
+      },
+      "title": "Mérnöki Munka Számokban."
+    },
+    "cta": {
+      "eyebrow": "PROJEKT INDÍTÁSA",
+      "title1": "KÉSÉSZEN ÁLL A",
+      "title2": "KÖVETKEZŐ DIMENZIÓRA.",
+      "desc": "Lépjen kapcsolatba mérnökeinkkel az Ön specifikációinak és kihívásainak részletes műszaki értékeléséhez.",
+      "button1": "Mérnöki csapat kapcsolatfelvétele",
+      "button2": "Specifikációk megtekintése"
+    }
+  },
+  "rechenzentrum": {
+    "meta": {
+      "title": "Adatközponti Infrastruktúra | K-Aqua",
+      "desc": "K-Aqua Adatközpontok: Kompromisszumok nélküli biztonság a német mérnöki munkának köszönhetően globális megaprojektek számára."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "A mesterséges intelligencia (MI/AI) és a HPC termikus kihívása",
+          "desc": "A modern High-Performance Computing (HPC) és a Mesterséges Intelligencia (AI) rack-ek hatalmas mennyiségű hulladékhőt termelnek. A légkondicionálás önmagában fizikai határaihoz ér. A jövő a folyadékhűtésé (Liquid Cooling), ahol a víz kulcsfontosságú hőátadó közegként jelenik meg, közvetlenül a chipek mellett."
+        },
+        {
+          "title": "A korrózió a rendelkezésre állás ellensége",
+          "desc": "A fém csőhálózatok folyamatos működés során lyukkorróziónak, rozsdásodásnak és kémiai bomlásnak vannak kitéve. Egyetlen mikroszkopikus repedés az adatközpontban milliós károkat okozhat a szerverek leállása miatt. A K-Aqua kiküszöböli ezt a kockázatot a 100%-ban korrózióálló Polypropylene Random Kopolimer (PP-R) technológiával."
+        },
+        {
+          "title": "Ultrahangos Molekuláris Hegesztés",
+          "desc": "Ahol a hagyományos csövek hibára hajlamos tömítésekre vagy csavarkötésekre támaszkodnak, ott a K-Aqua rendszerek molekuláris szinten olvadnak össze. Az eredmény: egy teljesen homogén, abszolút szivárgásmentes csőhálózat. Nulla tolerancia a szivárgásokkal szemben."
+        },
+        {
+          "title": "Fenntarthatóság és PUE Optimalizálás",
+          "desc": "Az alacsony PUE (Power Usage Effectiveness) érték az adatközpont-üzemeltetők Szent Grálja. A K-Aqua csövek kiváló termodinamikai tulajdonságokkal rendelkeznek. A kisebb súrlódási veszteségek és az optimális hőszigetelés nagymértékben minimalizálják az energiaveszteséget a hűtővíz-keringtetés során."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "1. Fázis",
+          "title": "Áramlásszimuláció és Tervezés",
+          "text": "Mérnökeink elemzik az adatközpont hűtési követelményeit. Kiszámítjuk a térfogatáramokat, kiküszöböljük a szűk keresztmetszeteket, és úgy méretezzük a csőhálózatot, hogy az maximális hidrodinamikai hatékonyságot nyújtson."
+        },
+        {
+          "year": "2. Fázis",
+          "title": "Precíziós Előgyártás",
+          "text": "Németországi anyavállalatunknál az összetett elosztó rendszereket (Spools) méretre gyártjuk. Centiméteres pontossággal, teljesen automatizáltan és laboratóriumi körülmények között minőségbiztosítva."
+        },
+        {
+          "year": "3. Fázis",
+          "title": "Just-In-Time Logisztika",
+          "text": "A megaprojektek nem tűrik a szállítási késedelmeket. A globális logisztikát közvetlenül az építkezéshez koordináljuk, szinkronizálva a fővállalkozók szigorú ütemtervével."
+        },
+        {
+          "year": "4. Fázis",
+          "title": "Homogén Hegesztés",
+          "text": "A helyi telepítőcsapatokat K-Aqua Mesterhegesztők vizsgáztatják. A helyszíni molekuláris hegesztés 100%-ban szivárgásmentes, homogén, gyenge pontok nélküli vezetékrendszert garantál."
+        },
+        {
+          "year": "5. Fázis",
+          "title": "Nyomáspróba és Ellenőrzés",
+          "text": "Átadás előtt könyörtelen hidraulikus nyomás- és terheléspróbát hajtunk végre. Csak a tesztek sikeres teljesítése után adjuk meg a hozzájárulást és vállaljuk a teljes rendszergaranciát."
+        }
+      ],
+      "title": "A Mérnöki Folyamat",
+      "desc": "A hidrodinamikai vázlattól a végső átvételig: hogyan valósítjuk meg a globális Hyperscale infrastruktúrákat kompromisszumok nélkül, rekordidő alatt."
+    },
+    "hero": {
+      "eyebrow": "Hyperscale és Colocation Infrastruktúra",
+      "title1": "Zero-Downtime Infrastruktúra.",
+      "title2": "Engineered in Germany.",
+      "desc": "Amikor a hűtőrendszerek a globális adatközpontok szívét jelentik, az anyaghiba nem opció. Fedezze fel a legbiztonságosabb, leghatékonyabb és legjobban skálázható PP-R csőrendszert az üzletkritikus hűtési és klímatechnológiákhoz.",
+      "cta1": "Projekt Ajánlatkérés",
+      "cta2": "Műszaki Whitepaper"
+    },
+    "section1": {
+      "eyebrow": "Küldetéskritikus Hűtés",
+      "title": "Miért buknak el a hagyományos csövek?",
+      "lead": "A modern Hyperscalerek és a mesterséges intelligencia klaszterek követelményei meghaladják a hagyományos fémrendszerek fizikai határait."
+    },
+    "section2": {
+      "eyebrow": "A PP-R Fölénye",
+      "title": "Anyagtudomány a 21. század számára.",
+      "lead": "Rendszerünk minden atomi részletét az abszolút megbízhatóságra és tartósságra optimalizáltuk."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Kémiai Semlegesség és Tisztaság",
+          "desc": "A zárt hűtőkörök kondicionáló szereket igényelnek. A K-Aqua teljesen inert az agresszív adalékanyagokkal szemben, és teljes mértékben megakadályozza az algák és a biofilmek képződését. Nincs kémiai bomlás, nincsenek részecskék a hűtővízben."
+        },
+        {
+          "title": "Nyomásállóság a Magasépületekben",
+          "desc": "Folyamatos csúcsterhelésekre tervezték extrém PN10 / PN20 nyomásviszonyok között a vertikális magasépület-adatközpontokban."
+        },
+        {
+          "title": "Német Előgyártás",
+          "desc": "Bonyolult elosztóblokkokat hegesztünk előre a németországi anyavállalatunknál. Plug-and-Play szállítás a drasztikusan lerövidített építési idők érdekében."
+        },
+        {
+          "title": "Földrengésállóság (Seismic Resistance)",
+          "desc": "A merev fémrendszerekkel ellentétben a mi PP-R rendszerünk definiált belső rugalmassággal rendelkezik. A vészhelyzeti áramfejlesztőktől származó lökéshullámokat és a masszív vibrációkat, valamint az erős szeizmikus aktivitást elnyeli ahelyett, hogy pusztító töréseket okozna."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Készen áll a kompromisszumok nélküli biztonságra?",
+      "desc": "Lépjen kapcsolatba mérnöki csapatunkkal. Kielemezzük az Ön következő adatközpont-megaprojektjét, és megépítjük a jövő infrastruktúráját.",
+      "button": "Mérnöki Megbeszélés Egyeztetése"
+    }
+  }
+}

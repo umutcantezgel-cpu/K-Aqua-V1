@@ -1,0 +1,35 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Fix markets",
+  "Description": "Fix remaining markets keys",
+  "ReplacementChunks": [
+    {
+      "StartLine": 7324,
+      "EndLine": 7400,
+      "AllowMultiple": true,
+      "TargetContent": "      \"ctaBtn1\": \"Zahtevaj poizvedbo za projekt\",\n      \"ctaBtn2\": \"Tabela kemične odpornosti\"\n    },\n    \"trinkwasser\": {",
+      "ReplacementContent": "      \"ctaBtn\": \"Zahtevajte tehnično svetovanje\"\n    },\n    \"trinkwasser\": {"
+    },
+    {
+      "StartLine": 7414,
+      "EndLine": 7415,
+      "AllowMultiple": true,
+      "TargetContent": "      \"section1P2\": \"Neprekosljiva kemična čistost naših polimerov preprečuje vsakršen vpliv na okus in vonj. Zaradi gladkosti notranjih sten se v vodi ne zadržujejo usedline (inkrustacije). Mikrobiološka varnost ni prepuščena naključju.\",\n      \"scroll1Title\": \"Higiena pitne vode (Legionela)\",",
+      "ReplacementContent": "      \"section1P2\": \"Neprekosljiva kemična čistost naših polimerov preprečuje vsakršen vpliv na okus in vonj. Zaradi gladkosti notranjih sten se v vodi ne zadržujejo usedline (inkrustacije). Mikrobiološka varnost ni prepuščena naključju.\",\n      \"section1P3\": \"Homogeno polifuzijsko varjenje pomeni, da omrežje ni sestavljeno iz tisočev posameznih delov, temveč iz ene same neprekinjene makromolekule. To je bistvo <em class=\\\"text-foreground italic\\\">nemškega inženiringa (German Engineering)</em>: Gradnja sistema, ki ne deluje le danes, ampak bo čez 50 let imel popolnoma enake hidravlične in higienske lastnosti kot na dan zagona.\",\n      \"scroll1Title\": \"Higiena pitne vode (Legionela)\","
+    },
+    {
+      "StartLine": 7453,
+      "EndLine": 7454,
+      "AllowMultiple": true,
+      "TargetContent": "      \"section3Title\": \"Preskušeno preko meja.\",\n      \"section3P1\": \"Za certificiranje sistema pitne vode na najvišjih mednarodnih ravneh normativni standardi niso dovolj; biti morajo izhodišče. V lastnih laboratorijih za testiranje materialov komponente K Aqua prestajajo stroga in brutalna testiranja.\",",
+      "ReplacementContent": "      \"section3Title\": \"Preskušeno preko meja.\",\n      \"section3Lead\": \"Preizkušeno po najstrožjih svetovnih standardih (DIN, EN, ISO, DVGW, SKZ), K Aqua zagotavlja merljivo vrhunsko zmogljivost v vseh ključnih KPI-jih.\",\n      \"section3P1\": \"Za certificiranje sistema pitne vode na najvišjih mednarodnih ravneh normativni standardi niso dovolj; biti morajo izhodišče. V lastnih laboratorijih za testiranje materialov komponente K Aqua prestajajo stroga in brutalna testiranja.\","
+    },
+    {
+      "StartLine": 7451,
+      "EndLine": 7452,
+      "AllowMultiple": true,
+      "TargetContent": "      \"timeline4Title\": \"Preskus tlaka in izpiranje\",\n      \"timeline4Desc\": \"Potrditev integritete sistema z vodo in natančno izpiranje za zagotovitev higienske varnosti pred uporabo.\",",
+      "ReplacementContent": "      \"timeline4Title\": \"Preskus tlaka in izpiranje\",\n      \"timeline4Desc\": \"Potrditev integritete sistema z vodo in natančno izpiranje za zagotovitev higienske varnosti pred uporabo.\",\n      \"timeline5Year\": \"Faza 5\",\n      \"timeline5Title\": \"Integracija sistema\",\n      \"timeline5Desc\": \"Montaža na gradbišču s strani certificiranih varilcev. Homogena polifuzija ustvari neomejen sistem brez mehanskih šibkih točk. Končni preskus tlaka potrjuje celovito varnost celotnega omrežja.\","
+    }
+  ]
+}

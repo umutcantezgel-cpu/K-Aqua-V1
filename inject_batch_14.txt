@@ -1,0 +1,113 @@
+,
+  "cookieConsent": {
+    "title": "Privatsphäre-Einstellungen & Cookies",
+    "description": "Wir nutzen Cookies i ähnliche Technologien (wie Pixel i Local Storage), um dir   bestmögliche Erlebnis na unserer Plattform zu bieten. Einige sind zwingend erforderlich, während andere uns helfen, diese Website zu verbessern. Du hast jederzeit   volle Kontrolle.",
+    "customize": "Einstellungen anpassen",
+    "declineAll": "Nur Essenzielle",
+    "acceptAll": "Alle akzeptieren",
+    "acceptSelected": "Auswahl speichern",
+    "essentialTitle": "Essenziell (Technisch notwendig)",
+    "essentialDesc": "Diese Cookies sind za   reibungslose Funktionieren   Website (z. B. Navigation, Sicherheit, Speicherung deiner Privacy-Präferenzen) zwingend erforderlich. Ohne diese Technologien kann K Aqua nicht ordnungsgemäß betrieben werden. Sie speichern keine persönlich identifizierbaren Daten.",
+    "analyticsTitle": "Statistik & Analyse",
+    "analyticsDesc": "Diese Cookies helfen uns,   Verhalten unserer Besucher zu verstehen. Wir sammeln pseudonymisierte Daten darüber, wie Nutzer sa K Aqua interagieren (z. B. meistbesuchte Seiten, Verweildauer, Fehlermeldungen). Dadurch können wir Fehler beheben i   Plattform kontinuierlich verbessern.",
+    "marketingTitle": "Marketing & Personalisierung",
+    "marketingDesc": "Wir verwenden diese Technologien, um dir relevantere Inhalte i Werbeanzeigen (auch na externen Plattformen) anzuzeigen. Wenn du dies deaktivierst, siehst du weiterhin Werbung, diese ist jedoch weniger na deine Interessen zugeschnitten.",
+    "vendorListTitle": "Detaillierte Cookie-Liste ansehen",
+    "backToSimple": "Zurück zur Übersicht"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit i Langlebigkeit za anspruchsvolle Projekte weltweit.",
+      "p2": "Dank fortschrittlicher Materialien i präziser Fertigung u Deutschland garantieren wir eine einfache Instalacija i dauerhafte Sicherheit.",
+      "p3": "Vertrauen Sie na zertifizierte Qualität i nachhaltige Rešenja,   höchsten internationalen Standards entsprechen i   Effizienz Ihres Projekts steigern."
+    },
+    "extendedMarketText": {
+      "p1": "  Rešenja od K Aqua sind speziell darauf ausgelegt,   Anforderungen lokaler i internationaler Märkte gerecht zu werden.",
+      "p2": "Wir unterstützen Generalunternehmer i Planer vor Ort sa technischer Expertise i zuverlässigen Systemen za jede Herausforderung.",
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau   Proizvodi erhalten,   za Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "  wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv u internationalen Märkten, um dem wachsenden Bedarf an hygienischen i verlustfreien Rohrnetzen zu begegnen. Ob u wasserarmen Regionen, u denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, ili u hochverdichteten Metropolen sa komplexen Anforderungen an   Brandschutz i   Schallisolierung: unsere PP-R i PPRCT Systeme bieten   notwendige Zuverlässigkeit.",
+      "p5": "Dabei setzen wir nicht nur na   reinen Produktvertrieb, sondern verstehen uns als strategischer Partneri vor Ort. Durch technische Schulungen, Vor-Ort-Supervision i   enge Zusammenarbeit sa lokalen Behörden stellen wir sicher, dass internationale Standardi (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung   globalen Wasserinfrastruktur kod."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Schnellkontakt & Kultur",
+      "detailed": "Jobportal & Bewerbung"
+    },
+    "portal": {
+      "eyebrow": "Offene Stellen",
+      "title": "Werde Teil unseres",
+      "titleGrad": "Teams",
+      "lead": "Entdecke spannende Karrieremöglichkeiten kod K Aqua i bewirb dich u wenigen Minuten.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Produktionsmitarbeiter (m/w/d)",
+          "type": "Vollzeit / Schicht",
+          "desc": "Unterstütze uns u   modernen Rohr- i Fitting-Produktion."
+        },
+        {
+          "id": "machine",
+          "title": "Maschinen- i Anlagenführer (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Bedienung i Überwachung unserer Hightech-Extrusionsanlagen."
+        },
+        {
+          "id": "logistics",
+          "title": "Fachkraft za Lagerlogistik (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Verantwortung za Warenein- i -ausgang sowie Bestandskontrolle."
+        },
+        {
+          "id": "sales",
+          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Betreuung od Großkunden i Projektplanern im internationalen Raum."
+        },
+        {
+          "id": "pm",
+          "title": "Produktmanager (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Gestalte   Zukunft unserer PP-R Rohrleitungssysteme."
+        },
+        {
+          "id": "init",
+          "title": "Initiativbewerbung",
+          "type": "Vollzeit / Teilzeit",
+          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+        }
+      ],
+      "steps": {
+        "step1": "Persönliche Daten",
+        "step2": "Lebenslauf & Unterlagen",
+        "step3": "Überprüfung"
+      },
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "startDate": "Frühestmögliches Eintrittsdatum",
+        "uploadTitle": "PDF hochladen",
+        "uploadDesc": "Ziehe deinen Lebenslauf hierhin ili klicke zum Auswählen (max. 5MB)",
+        "builderTitle": "ili: CV online erstellen",
+        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
+        "workExp": "Berufserfahrung hinzufügen",
+        "education": "Ausbildung hinzufügen",
+        "company": "Kompanija",
+        "role": "Position",
+        "school": "Schule / Uni",
+        "degree": "Abschluss",
+        "from": "od",
+        "to": "do",
+        "skills": "Fähigkeiten (Kommagetrennt)",
+        "next": "Weiter",
+        "back": "Zurück",
+        "submit": "Bewerbung absenden",
+        "submitting": "Wird gesendet...",
+        "success": "Vielen Dank za deine Bewerbung!",
+        "successSub": "Wir haben deine Unterlagen erhalten i melden uns u Kürze kod dir.",
+        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+      }
+    }
+  }

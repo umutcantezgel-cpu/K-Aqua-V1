@@ -1,0 +1,223 @@
+  "narrative": {
+    "sizeRange": "Denne komponent produceres i et omfattende udvalg af nominelle diametre fra kompakte {minSize} mm op til betydelige {maxSize} mm, hvilket sikrer maksimal alsidighed i en lang række installationsscenarier.",
+    "sizeSpecific": "Denne komponent er præcist designet til en specifik nominel diameter på {minSize} mm og tilbyder målrettet ydeevne til specialiserede rørlayouts.",
+    "weights": "Materialeeffektiviteten er optimeret på tværs af hele sortimentet med stykkevægte, der skalerer fra {minWeight} kg op til {maxWeight} kg afhængigt af den valgte dimension.",
+    "packaging": "Logistikken er optimeret gennem standardiserede emballageenheder designet til sikker global transport og effektiv håndtering på byggepladsen.",
+    "rowCount": "Vores tekniske portefølje tilbyder denne konfiguration i {count} højt specialiserede dimensionelle varianter, der er præcist skaleret til at imødekomme de hydrauliske og mekaniske krav i moderne væsketransportsystemer.",
+    "intro": "Produktet {title} udgør en hjørnesten i K Aquas højtydende løsninger til væskehåndtering. Officielt katalogiseret under varenumrene {codes} gennemgår hver variant strenge kvalitetssikringsprotokoller på vores tyske produktionsfaciliteter før levering.",
+    "outro": "Gennem brugen af avancerede polymerbehandlingsteknikker garanterer den geometriske præcision af {title} optimale flowegenskaber, minimerer tryktab og eliminerer fuldstændigt risikoen for kalkaflejringer eller korrosion over hele driftslevetiden. Dette kompromisløse engagement i materialevidenskab sikrer, at hver samling bevarer absolut integritet, selv under ekstreme termiske og trykmæssige udsving. Uanset om det bruges i beboelseshøjhuse, kritiske sundhedsfaciliteter eller krævende industrielle procesanlæg, leverer dette produkt en vedligeholdelsesfri pålidelighed, som ingeniører og installatører kan stole blindt på."
+  },
+  "uniqueProductContext": "Produktet {title} er en integreret del af K Aquas {category}-sortiment. Udviklet til maksimal holdbarhed og problemfri integration opfylder det de højeste internationale standarder for moderne rør- og VVS-applikationer. Du kan identificere og bestille dette specifikke produkt ved hjælp af varenummeret/-numrene: {codes}. For yderligere dokumentation eller support bedes du kontakte vores tekniske team.",
+  "heroDesc": "Udforsk specifikationer, dimensioner og anvendelsesområder. For detaljeret information, download det tekniske datablad.",
+  "articleNumbers": "Varenumre",
+  "technicalSpecs": "Tekniske specifikationer",
+  "eyebrow": "Produkter",
+  "videoGuide": "K Aqua videovejledning",
+  "localAvailability": "Lokal tilgængelighed",
+  "localDesc": "Find lokale forhandlere, specifikke godkendelser og standarder for din region.",
+  "allMarkets": "Se alle 50+ markeder",
+  "title1": "PP-R/PPRCT Rør & Fittings til",
+  "titleGrad": "drikkevand.",
+  "lead": "Et komplet rørsystem til varmt og koldt drikkevand: fra rør over fitting til svejseteknologi. Fire byggesten, ét system.",
+  "ctaCatalog": "Produktkatalog (PDF)",
+  "ctaVideos": "Installationsvideoer",
+  "sysEyebrow": "Systemet",
+  "sysTitle": "K-Aqua PP-R Rør & Fittings: Fire byggesten, ét system.",
+  "range": [
+    {
+      "t": "Rør: Mono & Multilayer",
+      "d": "Monolayer- og glasfiberforstærkede multilayer-rør i SDR 6, 7,4, 9, 11 og 17. Dimensioner fra 20 mm til 630 mm."
+    },
+    {
+      "t": "Fittings & Ventiler",
+      "d": "Fittings fra 20 mm til 315 mm, suppleret med ventiler, forskruninger og overgangsstykker."
+    },
+    {
+      "t": "Svejseteknologi & Værktøj",
+      "d": "Skæreværktøjer, svejsemaskiner og svejseapparater til muffe-, stuk- og elektrosvejsning."
+    },
+    {
+      "t": "Varmt & koldt vand",
+      "d": "Designet til drikkevand (varmt og koldt) med høj temperatur- og trykmodstand over årtier."
+    }
+  ],
+  "techEyebrow": "Tekniske data",
+  "techTitle": "Dimensioner & trykklasser",
+  "techLead": "Afhængigt af rørtype fra 20 mm til 630 mm, fittings op til 315 mm.",
+  "ctaFeatures": "Produktegenskaber (PDF)",
+  "tableHead": [
+    "Komponent",
+    "Dimension",
+    "Trykklasser"
+  ],
+  "tableRows": [
+    [
+      "Monolayer-rør",
+      "20 – 630 mm",
+      "SDR 6 / 7,4 / 9 / 11 / 17"
+    ],
+    [
+      "Multilayer-rør (GF-forstærket)",
+      "20 – 630 mm",
+      "SDR 6 / 7,4 / 9 / 11 / 17"
+    ],
+    [
+      "Fittings",
+      "20 – 315 mm",
+      "systemkompatibel"
+    ],
+    [
+      "Ventiler & forskruninger",
+      "systemafhængig",
+      "-"
+    ],
+    [
+      "Svejseteknologi & Værktøjer",
+      "alle dimensioner",
+      "-"
+    ]
+  ],
+  "labels": {
+    "applicationAreas": "Anvendelsesområder",
+    "advantages": "Dine fordele i et overblik",
+    "technicalDescription": "Teknisk profil & SEO",
+    "noResults": "Ingen produkter fundet",
+    "searchPlaceholder": "Søg efter titel eller varenummer...",
+    "faqTitle": "Ofte stillede spørgsmål (FAQ)",
+    "faqFallbackQ1": "Hvad er de vigtigste fordele?",
+    "faqFallbackA1": "Systemet tilbyder ekstrem holdbarhed, korrosionsbestandighed og fremragende hygiejniske egenskaber til drikkevand.",
+    "faqFallbackQ2": "Er materialet miljøvenligt?",
+    "faqFallbackA2": "Ja, PPRCT er 100 % genanvendeligt og har et meget lavt CO2-aftryk sammenlignet med metalrør.",
+    "faqFallbackQ3": "Hvordan foregår installationen?",
+    "faqFallbackA3": "Installationen foretages sikkert og lækagefrit ved hjælp af polyfusionssvejsning.",
+    "downloads": "Downloads & Dokumenter",
+    "tds": "Teknisk datablad",
+    "tdsDesc": "Specifikationer & mål (PDF)",
+    "cert": "Certifikater & Standarder",
+    "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+    "install": "Installationsvejledning",
+    "installDesc": "Vejledning til svejsning (PDF)",
+    "range": "Produktsortiment",
+    "rangeDesc": "Komplet produktsortiment med mål (PDF)",
+    "features": "Produktegenskaber",
+    "featuresDesc": "Materialeegenskaber & systemfordele (PDF)"
+  },
+  "specAndDim": "Specifikationer & Dimensioner",
+  "certsAndNorms": "Certifikater & Standarder",
+  "approved": "godkendt",
+  "monitoring": "overvåget",
+  "certified": "certificeret",
+  "quickLinks": "Hurtig adgang",
+  "calcCo2": "Beregn CO2-aftryk",
+  "backToFinder": "Tilbage til produktfinder",
+  "enterpriseCore": "Enterprise Core",
+  "highPerformance": "Højtydende Rørsystemer",
+  "highPerformanceDesc": "Til industrielle applikationer, drikkevandsforsyning og klimastyring under ekstreme forhold.",
+  "sysPressure": "Systemtryk",
+  "tempMax": "Maks. Temperatur",
+  "material": "Materiale",
+  "norm": "Standard",
+  "certification": "Certificering",
+  "lifespan": "Levetid",
+  "fiberTech": "Fiberkomposit-teknologi",
+  "fiberTechDesc": "3-lags struktur til minimeret lineær udvidelse og maksimal stabilitet ved høje temperaturer.",
+  "compliance": "Overholdelse & Standarder",
+  "dimensions": "Dimensioner",
+  "globalNetwork": "Globalt Netværk",
+  "globalNetworkDesc": "K Aqua systemer er i brug i over 40 lande verden over.",
+  "whyChoose": "Hvorfor {product} er det rigtige valg",
+  "sysLead": "Fundamentet i vores katalog: fire byggeklodser i et integreret system. Rør, fittings, ventiler og værktøj udgør et system af PP-R og PP-RCT.",
+  "hero": {
+    "eyebrow": "SYSTEMARKITEKTUR",
+    "title1": "K-AQUA: DEN ABSOLUTTE",
+    "title2": "VANDARKITEKTUR.",
+    "desc": "Præcision på molekylært niveau. Designet for evigt. Vores rørsystemer, fittings og ventiler definerer den globale standard for industriel og civil vandinfrastruktur. Ingen kompromiser. Kun ren ydeevne."
+  },
+  "sticky": {
+    "eyebrow": "PRODUKTSPEKTRET",
+    "title": "KOMPROMISLØS INGENIØRKUNST.",
+    "lead": "Hver komponent er en del af et lukket, perfekt system. Fra forsyning til slutpunkt kontrollerer vi strømmen af vand, kemikalier og gasser med ubarmhjertig pålidelighed.",
+    "items": [
+      {
+        "title": "PPR-RØRSYSTEMER: UOPSLIDELIGE ÅRER",
+        "desc": "K Aqua PPR-systemet (Polypropylene Random Copolymer) er rygraden i moderne væsketransport. Termisk smeltet til en homogen enhed, modstår det ekstreme tryk, kemiske angreb og termiske belastninger. Et system, der ikke lækker, ikke korroderer og holder i årtier."
+      },
+      {
+        "title": "FITTINGS: GEOMETRISK PERFEKTION",
+        "desc": "Hver K Aqua fitting er et mesterværk inden for strømningsmekanik. Reduceret kavitation, optimerede vægtykkelser og nøjagtige tolerancer i mikrometerområdet garanterer minimale tryktab og maksimal systemsikkerhed. Vi overlader ikke strømningen til tilfældighederne."
+      },
+      {
+        "title": "VENTILER & ARMATURER: ABSOLUT KONTROL",
+        "desc": "Industriel afspærrings- og reguleringsteknologi, der opererer under de hårdeste forhold over hele verden. Vores kugleventiler, skråsædeventiler og kontraventiler er testet til titusindvis af cyklusser uden forringelse af ydeevnen. Maksimal tæthed ved maksimal belastning."
+      },
+      {
+        "title": "MULTILAYER RØR: MATERIALERNES SYNERGI",
+        "desc": "Aluminium møder højtydende polymer. K Aqua flerlags kompositrør kombinerer den mekaniske stabilitet fra metal med plastens fleksibilitet og kemiske resistens. 100 % ilttæt. Minimal længdeudvidelse. Den ultimative løsning til komplekse VVS-systemer."
+      }
+    ]
+  },
+  "bento": {
+    "eyebrow": "YDEEVNEDATA",
+    "title": "TEKNOLOGISK OVERLEGENHED. DATADREVET.",
+    "lead": "K Aqua systemer er ikke bare rør. De er højtydende netværk til væsker. Udviklet efter de strengeste tyske industristandarder.",
+    "items": [
+      {
+        "title": "Termisk Fusion",
+        "desc": "Homogene svejsesømme. Materialet bliver ét. Ingen lim, ingen tætningsringe, der kan svigte. 100 % sikkerhed mod lækager på molekylær basis."
+      },
+      {
+        "title": "Korrosionsimmunitet",
+        "desc": "Absolut modstandsdygtig over for grubetæring, rust og elektrokemisk korrosion. Det transporterede medie forbliver i sin reneste form."
+      },
+      {
+        "title": "Strømningsoptimering",
+        "desc": "Glatvægsteknologi (ruhed 0,007 mm) med minimal friktionskoefficient forhindrer aflejringer og minimerer tryktab massivt."
+      },
+      {
+        "title": "Trykmodstand PN25+",
+        "desc": "Designet til maksimal belastning i højhuse, industrianlæg og kritisk infrastruktur. Designet til problemfri drift over 50 år."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "INSTALLATIONSPROCESSEN. OMDIFINERET.",
+    "desc": "Hurtigere. Sikrere. Renere. Vores system reducerer installationstiden drastisk, samtidig med at fejlkilder reduceres til et minimum. En kronologi af effektivitet.",
+    "items": [
+      {
+        "year": "FASE 01",
+        "title": "PLANLÆGNING & DIMENSIONERING",
+        "text": "Nøjagtig hydraulisk beregning og dimensionering af rørdiametre. Undgå overdimensionering gennem overlegne flowegenskaber."
+      },
+      {
+        "year": "FASE 02",
+        "title": "SKÆRING & FORBEREDELSE",
+        "text": "Kold og spånfri skæring af rørene. Absolut rene skærekanter garanterer en perfekt svejseforberedelse uden risiko for kontaminering."
+      },
+      {
+        "year": "FASE 03",
+        "title": "VARMEELEMENT-MUFFESVEJSNING",
+        "text": "Værktøjet opvarmer præcist rør og fitting til 260°C. På sekunder skabes en molekylær forbindelse, der er uadskillelig."
+      },
+      {
+        "year": "FASE 04",
+        "title": "TRYKPRØVNING & GODKENDELSE",
+        "text": "Systemet sættes under ekstremt prøvetryk. Ingen tolerance over for lækager. K Aqua leverer 100 % sikkerhed fra den første dråbe."
+      },
+      {
+        "year": "FASE 05",
+        "title": "DRIFT I ÅRTIER",
+        "text": "Vedligeholdelsesfri. Støjsvag. Systemet arbejder i baggrunden af verdens mest moderne bygninger med ubarmhjertig pålidelighed."
+      }
+    ]
+  },
+  "category": {
+    "title": "Kategorier",
+    "all": "Alle Produkter",
+    "allProducts": "Alle Produkter",
+    "openInFinder": "Åbn i Finder",
+    "artNA": "Art. N/A",
+    "viewDetails": "Vis produktdetaljer",
+    "learnMoreKnowledge": "Opdag PP-R rørsystemer i vidensportalen",
+    "learnMoreDesc": "Dyk dybere ned i den tekniske dokumentation og opdag faglige artikler om installation, bæredygtighed og test af vores PP-R-systemer.",
+    "toKnowledgeBase": "Opdag faglige artikler i K-Aqua Academy"
+  },

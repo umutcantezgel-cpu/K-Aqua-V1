@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "cta1": "Stik z inženirji",
+    "cta2": "Raziščite slovar"
+  },
+  "manifesto": {
+    "eyebrow": "Doktrina",
+    "title": "Arhitektura nezmotljivosti.",
+    "lead": "Cevovodni sistem je kardiovaskularni sistem vsakega megaprojekta. Okvara pomeni infrastrukturni srčni infarkt. Zato ne govorimo o ceveh, temveč o vitalnih industrijskih arterijah. Vsak pojem v tem slovarju predstavlja steber naše filozofije ničelne tolerance do napak."
+  },
+  "scroll": {
+    "eyebrow": "Kinematika in znanost o materialih",
+    "title": "Proces K Aqua.",
+    "lead": "Od molekularne ravni granulata do končnega tlačnega preizkusa. Spoznajte fizikalna načela, ki naše sisteme delajo neuničljive."
+  },
+  "bento": {
+    "eyebrow": "Nomenklatura",
+    "lead": "Najpomembnejši izrazi industrijskega cevovodnega inženiringa, destilirani do svojega bistva.",
+    "items": [
+      {
+        "title": "PP-R (Polipropilen Random Kopolimer)",
+        "desc": "Molekularna osnova. Visoko kristalni termoplastični polimer, ki nudi izjemno odpornost na visoke temperature in tlake. To je DNK naše dolgoživosti."
+      },
+      {
+        "title": "Vzdolžno toplotno raztezanje",
+        "desc": "Sprememba dolžine materiala pri temperaturnih spremembah. Naše cevi, ojačane s steklenimi vlakni (Faser), zmanjšajo to vrednost na absolutni minimum (α = 0,035 mm/mK), kar močno poveča strukturno stabilnost v jaških."
+      },
+      {
+        "title": "Zmogljivost polzenja",
+        "desc": "Sposobnost sistema, da desetletja vzdrži konstanten notranji tlak pri določenih temperaturah, ne da bi se deformiral ali počil. Cevi K Aqua so kalibrirane na 50+ let."
+      },
+      {
+        "title": "Koeficient padca tlaka",
+        "desc": "Matematična vrednost, ki opisuje izgubo energije pretoka zaradi trenja na notranji steni cevi. Zahvaljujoč nano-gladkim površinam je ta vrednost v sistemih K Aqua marginalizirana."
+      },
+      {
+        "title": "SDR (Standard Dimension Ratio)",
+        "desc": "Razmerje med zunanjim premerom (d) in debelino stene (s). Cev SDR 6 vzdrži bistveno višje tlake kot cev SDR 11. Pravilna izbira je ključna za načrtovanje sistema.",
+        "label": "50+ LET"
+      }
+    ]
+  },
+  "conclusion": {
+    "title": "Odpornost na degradacijo v ekstremnih primerih.",
+    "p1": "Pri industrijskih aplikacijah o kakovosti cevovodnega sistema ne odloča normalno delovanje, temveč stabilnost v mejnih območjih. Kemična korozija, kavitacija zaradi vodnih udarov in toplotni šoki so naravni sovražniki konvencionalnih inštalacij.",
+    "p2": "<span className=\"font-semibold\">Matrica K Aqua</span> izolira fluidni medij od okolice z inertno zaporno plastjo. Do ionske izmenjave ne pride. Kovinski sistemi se začnejo razgrajevati v trenutku, ko skoznje steče voda. Žrtvujejo se, da bi delovali. Naš sistem PP-R ostaja brezhiben v notranjosti tudi po več desetletjih.",
+    "p3": "Koncept <span className=\"font-semibold\">odpornosti proti napetostnemu razpokanju</span> (Environmental Stress Cracking Resistance, ESCR) je osrednjega pomena v kemiji polimerov. Molekulsko maso našega kopolimera modificiramo tako, da ublaži obremenitvene vrhove, namesto da bi se pod njimi zlomil. Rezultat je sistem, ki absorbira tresljaje, vibracije in posedanje zgradbe.",
+    "p4": "Kdor razume terminologijo cevovodne tehnologije, tudi razume, zakaj lahko kompromisi tukaj pomenijo propad. Nemški inženiring ni prazna obljuba, temveč vsota natančnih fizikalnih parametrov, ki jih manifestiramo v vsakem centimetru naše proizvodnje."
+  },
+  "cta": {
+    "button": "Začni inženirski brifing"
+  }
+}

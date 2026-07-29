@@ -1,0 +1,410 @@
+{
+  "eyebrow": "Trhy a riešenia",
+  "title1": "Potrubné siete pre",
+  "titleGrad": "Infrastruktúru.",
+  "title2": "Ktorá definuje zajtrajšok.",
+  "lead": "Spoločnosť K Aqua nevyvíja iba rúry; navrhujeme kritické systémy prívodu vody pre náročné projekty po celom svete.",
+  "benefits": [
+    {
+      "title": "Neobmedzená škálovateľnosť.",
+      "desc": "Naše inžinierstvo spĺňa požiadavky od luxusných víl až po 100-poschodové mrakodrapy s identickou, nekompromisnou materiálovou kvalitou."
+    },
+    {
+      "title": "Prispôsobenie na molekulárnej úrovni.",
+      "desc": "Aplikácie s vysokým tlakom, systémy chladenej vody alebo rozvody pitnej vody: K-Aqua poskytuje termoplastickú presnosť pre každý prípad použitia."
+    },
+    {
+      "title": "Odolnosť bez kompromisov.",
+      "desc": "Eliminácia korózie a inkrustácie na molekulárnej úrovni zaručuje životnosť viac ako 50 rokov v tých najtvrdších priemyselných prostrediach."
+    }
+  ],
+  "nextEyebrow": "Materiály",
+  "nextTitle": "Surovina.",
+  "nextLead": "Pozrite sa, ako sa tieto materiálové výhody konkretizujú v produktovom rade K Aqua.",
+  "nextCta": "Prejsť na produktový rad",
+  "krankenhaus": {
+    "meta": {
+      "title": "Nemocničná a klinická infraštruktúra | K Aqua",
+      "desc": "K Aqua nemocnice: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Objavte naše systémy pitnej vody pre nemocnice."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "Najvyššia čistota vďaka nepriehľadnosti (Opacite)",
+          "desc": "Na rozdiel od bežných systémov sú potrubia K Aqua úplne nepriehľadné (100% ochrana proti svetlu). To znemožňuje fotosyntézu a masívne zabraňuje tvorbe rias a mikrobiologickej kontaminácii v systéme pitnej vody."
+        },
+        {
+          "title": "Žiadne hromadenie vodného kameňa a biofilmov",
+          "desc": "Kovové rúry korodujú a poskytujú ideálny povrch pre biofilmy – živnú pôdu pre legionely. Hladká vnútorná štruktúra z PP-R od K Aqua nedáva baktériám žiadnu šancu na uchytenie. Voda prichádza na vodovodný kohútik v presne takej kvalite, v akej opustila vodáreň."
+        },
+        {
+          "title": "Molekulárna termostabilita",
+          "desc": "Nemocnice vyžadujú pravidelné termické dezinfekcie, pri ktorých teplota vody stúpa nad 70°C. Polyméry K-Aqua s vysokou hustotou zvládajú tieto teplotné špičky bez toho, aby degradovali alebo uvoľňovali toxické zlúčeniny."
+        },
+        {
+          "title": "Absolútna absencia olova a ťažkých kovov",
+          "desc": "Pri konštrukcii celého systému sa nepoužíva žiadne olovo, nikel, ani iné nebezpečné ťažké kovy. Náš PP-R je pre potraviny bezpečný a chemicky inertný, na ochranu pacientov so zníženou imunitou."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Krok 1",
+          "title": "Analýza odberných bodov",
+          "text": "Naši inžinieri identifikujú v nemocnici všetky kritické miesta spotreby (napríklad operačné sály, JIS) a navrhujú okružné (Ring loop) a sériové potrubné systémy (Series loop), aby sa zabránilo stagnácii."
+        },
+        {
+          "year": "Krok 2",
+          "title": "Hygienické (sanitárne) dimenzovanie",
+          "text": "Aby sme zabránili poklesu tlaku a nadmerným dobám zdržania, vytvárame optimálne parametre hydraulického prietoku vo viacposchodových zdravotníckych zariadeniach (nemocniciach)."
+        },
+        {
+          "year": "Krok 3",
+          "title": "Bezzáhybová inštalácia",
+          "text": "Homogénne polyfúzne zváranie eliminuje O-krúžky a mŕtve zóny (totraum), v ktorých by sa mohli hromadiť patogény."
+        },
+        {
+          "year": "Krok 4",
+          "title": "Kontrola a uvedenie do prevádzky",
+          "text": "Prísna vizuálna kontrola a tlakové skúšky podľa medzinárodných sanitárnych predpisov (napr. DVGW) pred konečným schválením systému na lekárske použitie."
+        }
+      ],
+      "title": "Protokol hygieny",
+      "desc": "Od dimenzovania rúr až po preplachovanie: Takto navrhujeme siete na prívod vody so sterilnou čistotou."
+    },
+    "hero": {
+      "eyebrow": "Klinická infraštruktúra vody",
+      "title1": "Hygiena bez kompromisov.",
+      "title2": "German Engineering.",
+      "desc": "V zdravotníckych zariadeniach nie je kvalita vody otázkou komfortu, ale prežitia. Vybavte svoje nemocničné projekty hygienicky najpokročilejšími potrubnými systémami z PP-R od K Aqua.",
+      "cta1": "Konzultovať projekt",
+      "cta2": "Stiahnuť certifikácie"
+    },
+    "section1": {
+      "eyebrow": "Infekčné riziko číslo 1",
+      "title": "Prečo staré vodovodné siete ohrozujú život.",
+      "lead": "Stagnácia, korózia a usadeniny vodného kameňa menia kovové potrubné systémy na živnú pôdu pre patogény."
+    },
+    "section2": {
+      "eyebrow": "Riešenie: K Aqua PP-R",
+      "title": "Antibakteriálne vďaka inžinierstvu.",
+      "lead": "Náš prístup: Zabrániť rastu baktérií už na mikroskopickej úrovni prostredníctvom vedy o polyméroch."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "UBA & DVGW zhoda",
+          "desc": "Všetky systémy na pitnú vodu spĺňajú najprísnejšie smernice Nemeckej agentúry pre životné prostredie (UBA) a sú certifikované podľa DVGW W270 / KTW pre použitie v pitnej vode."
+        },
+        {
+          "title": "Bezpečné zvary (Totraumfreie Schweißnähte)",
+          "desc": "Spoje nevytvárajú medzery (žiadne mŕtve zóny). Baktérie nenachádzajú žiadny úkryt pred preplachovaním a dezinfekciou systému."
+        },
+        {
+          "title": "Extrémna chemická odolnosť",
+          "desc": "Na rozdiel od medi zvládne PP-R bez poškodenia chlórovanie (Chlorine-shock) a použitie iných dezinfekčných chemikálií (napr. oxid chloričitý)."
+        },
+        {
+          "title": "Akustická izolácia pre zotavenie",
+          "desc": "Materiál PP-R pohlcuje hluk z tečúcej vody, čím minimalizuje hladinu hluku na oddeleniach pacientov, čo je životne dôležité pre zotavenie."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Urobte svoju kliniku bezpečnou pre budúcnosť.",
+      "desc": "Náš inžiniersky tím pre zdravotníctvo vás podporí pri hygienickom dimenzovaní vodovodnej siete vašej nemocnice.",
+      "button": "Vyžiadať si koncepciu (Koncept)"
+    }
+  },
+  "hotels": {
+    "meta": {
+      "title": "Luxusné hotely a rezorty | K Aqua",
+      "desc": "K Aqua Hotelová infraštruktúra: Nekompromisná bezpečnosť a komfort pre luxusné rezorty a pohostinstvo. Nemecké inžinierstvo na najvyššej úrovni."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "Konštantný vysoký tlak na všetkých podlažiach",
+          "desc": "Hosťia v 5-hviezdičkových hoteloch očakávajú bezchybný zážitok zo sprchovania, dokonca aj na 50. poschodí, kým si tisíce iných ľudí v ten istý čas púšťajú vodu. Hladké vnútorné steny PP-R znižujú straty trením a zaručujú stabilný prietok v celom systéme."
+        },
+        {
+          "title": "Akustický dizajn: Tichý ako šepot",
+          "desc": "Vodné nárazy (Water hammer) a zvuky tečúcej vody ničia zážitok z luxusu. Rúry K Aqua PP-R majú vynikajúcu zvukovú izoláciu. Molekulárna štruktúra absorbuje zvuky prenášané konštrukciou podstatne lepšie ako kovové rúry a zabezpečuje pokoj v apartmáne."
+        },
+        {
+          "title": "Trvalé zásobovanie teplou vodou",
+          "desc": "Či už ide o kúpele, wellness alebo izbové služby: Nízka tepelná vodivosť našich rúr znamená obrovskú úsporu energie pre prevádzkovateľov hotelov. Teplá voda si zachováva svoju teplotu oveľa dlhšie s menšou potrebou prídavnej izolácie."
+        },
+        {
+          "title": "Rýchla inštalácia, rýchlejšia návratnosť investícií",
+          "desc": "Čas sú peniaze, najmä pri výstavbe hotelov. Rýchla polyfúzna technika zvárania masívne znižuje čas inštalácie, zatiaľ čo predvyrobené rozdeľovače K Aqua posúvajú váš projekt na rýchle uvedenie do prevádzky (otvorenie)."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Krok 1",
+          "title": "Simulácia špičkového zaťaženia",
+          "text": "Modelujeme súčasné scenáre odberu ráno a večer pre bezstratové dimenzovanie rozdeľovačov teplej a studenej vody."
+        },
+        {
+          "year": "Krok 2",
+          "title": "Optimalizácia teploty (cirkulácie)",
+          "text": "Návrh efektívnych cirkulačných potrubí, aby horúca voda dorazila na najvyššie poschodia bez čakania."
+        },
+        {
+          "year": "Krok 3",
+          "title": "Úspora priestoru v stúpačkách",
+          "text": "Kompaktné inštalácie z PP-R umožňujú užšie inštalačné šachty, čo otvára cenný priestor, ktorý je možné priamo premeniť na prenajímateľnú obytnú (úžitkovú) plochu."
+        },
+        {
+          "year": "Krok 4",
+          "title": "Skúšky tlaku a prevzatie (systému)",
+          "text": "Striktné overovanie celej inštalácie pomocou vodného tlaku pre udelenie K-Aqua garancie (záruky na systém)."
+        }
+      ],
+      "title": "Pohostinnosť (Hospitality) sa stretáva so strojárstvom",
+      "desc": "Od prvej kvapky po wellnes sprchu snov: Systémový návrh bez kompromisov."
+    },
+    "hero": {
+      "eyebrow": "Luxusné pohostinstvo (Hospitality)",
+      "title1": "Päť hviezdičiek pre vodu.",
+      "title2": "Nulové kompromisy.",
+      "desc": "V luxusnom hotelovom sektore a prémiových rezortoch definuje technológia prúdenia vody (potrubná technika) úroveň komfortu hosťa. K Aqua dodáva tichú, výkonnú a krištáľovo čistú vodu do každého apartmánu na celom svete.",
+      "cta1": "Pre hotelových developerov",
+      "cta2": "Skúsenosti a referencie"
+    },
+    "section1": {
+      "eyebrow": "Sťažnosti a údržba",
+      "title": "Keď staré potrubia narúšajú komfort.",
+      "lead": "Hrdzavá voda, kolísavý tlak a hlučné rúry (stúpačky) sú pre hotelových hostí a hodnotenia na internete katastrofou."
+    },
+    "section2": {
+      "eyebrow": "Zážitok K Aqua",
+      "title": "Neviditeľná dokonalosť za stenami.",
+      "lead": "Čistý tlak. Dokonalá hygiena. A to všetko v absolútnej tichosti (bezhlučne). Toto je luxus, pre ktorý sme vytvorili naše potrubia."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Žiadne sfarbenie (hrdza)",
+          "desc": "100% nekorodujúci PP-R znamená žiadnu hnedú vodu na začiatku dňa. Vaše kúpeľňové vybavenie a keramika zostanú neporušené."
+        },
+        {
+          "title": "Certifikované pre prímorské rezorty",
+          "desc": "Či už ide o Maldivy alebo Dubaj, chlórovaná a odsoľovaná voda v prímorských strediskách je pre PP-R absolútne neškodná. Soľ a vlhkosť vzduchu ho nenarúšajú ani zvonku."
+        },
+        {
+          "title": "Ochrana proti legionelám v mŕtvej sezóne",
+          "desc": "Využitie našich premyslených kruhových vedení zamedzuje stagnácii, aj keď sú izby a sekcie v hoteli mimo sezóny prázdne."
+        },
+        {
+          "title": "Rýchle opravy pri obnove",
+          "desc": "Počas renovácií hotelov (Retrofiting) je potrubie K Aqua možné hladko spojiť s existujúcimi kovovými systémami pomocou nášho sortimentu prechodových tvaroviek."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Povzneste pohodlie svojho hosťa na novú úroveň.",
+      "desc": "Kontaktujte náš technický tím a my navrhneme spoľahlivé PP-R potrubné riešenie pre váš rezort.",
+      "button": "Konzultovať dizajn hotela"
+    }
+  },
+  "vorfertigung": {
+    "meta": {
+      "title": "Prefabrikácia | K Aqua",
+      "desc": "K Aqua Prefabrikácia: Modulárne systémy šité na mieru pre váš veľký stavebný projekt. Urýchlite inštaláciu pomocou nemeckého inžinierstva a kvality."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "Radikálna redukcia inštalačného času",
+          "desc": "Vo svete megaprojektov každá sekunda na stavbe stojí obrovské sumy. Dodávame hotové zvarené moduly a rozdeľovače (Custom Manifolds). Na stavbe sa zrealizujú iba finálne prepojenia. Tým sa čas inštalácie na stavenisku skráti až o 60%."
+        },
+        {
+          "title": "Strojová presnosť pripravená v Nemecku",
+          "desc": "Namiesto zvárania v nepriaznivých podmienkach (dážď, špina, prach) sa naše moduly zvárajú v našej nemeckej továrni pod klimatickými podmienkami na CNC riadených stoloch. Extrémna kvalita zvaru, nízke tolerancie – 100% zaručené."
+        },
+        {
+          "title": "Redukcia rizík a ľudských chýb",
+          "desc": "Menej zvarov na stavbe znamená menšie riziko úniku pri tlakových testoch, menšiu náchylnosť k chybám v dôsledku nedostatku kvalifikovanej pracovnej sily. Získate systém Plug & Play (zapoj a funguj), ktorý eliminuje najväčšie zdroje chýb na stavenisku."
+        },
+        {
+          "title": "Logistická efektivita na stavenisku",
+          "desc": "Staveniská v metropolách majú minimálny skladovací priestor. Pripravené modulárne jednotky dodávame Just-In-Time na správne poschodie, označené QR kódmi a digitálne integrované do BIM systému."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Fáza 1",
+          "title": "BIM Import & Analýza dát",
+          "text": "Odovzdáte nám vaše 3D izometrie (REVIT / AutoCAD). Náš inžiniersky tím naskenuje dáta a optimalizuje hydraulický dizajn a segmenty."
+        },
+        {
+          "year": "Fáza 2",
+          "title": "Dizajn prefabrikácie",
+          "text": "Potrubnú sieť delíme na prepraviteľné moduly. Vypočítame dilatačné slučky (Expansion loops) a polohy pevných bodov priamo do dizajnu (do CAD)."
+        },
+        {
+          "year": "Fáza 3",
+          "title": "Továrenské zváranie",
+          "text": "Naši Master zvárači a CNC automaty vyrábajú sekcie. Každý modul (spool) prechádza podrobnou kontrolou v ideálnych klimatických podmienkach."
+        },
+        {
+          "year": "Fáza 4",
+          "title": "Tlaková skúška v závode",
+          "text": "Skúšame sekcie s tlakom presahujúcim 1,5 násobok menovitého tlaku už priamo vo výrobe, pre nulové prekvapenia na stavbe."
+        },
+        {
+          "year": "Fáza 5",
+          "title": "Dodanie Plug & Play",
+          "text": "Jednotky dorazia na stavbu. Stačí ich zavesiť, napojiť a zvariť konce. Vaše potrubie (stúpačka) je hotové za zlomok času."
+        }
+      ],
+      "title": "Od plánu po plug-and-play",
+      "desc": "Ako K Aqua transformuje 3D modely na na mieru vyrobené potrubné riešenia."
+    },
+    "hero": {
+      "eyebrow": "Továrenská prefabrikácia",
+      "title1": "Postavené v továrni.",
+      "title2": "Namontované v minútach.",
+      "desc": "Najlepší spôsob, ako vyriešiť problémy na stavenisku, je nepresunúť ich na stavenisko. K Aqua prefabrikuje modulárne PP-R systémy (Manifolds) na mieru vo vlastnom nemeckom závode – pre bezprecedentnú kvalitu, rýchlosť a nákladovú efektivitu.",
+      "cta1": "Požiadať o prefabrikáciu",
+      "cta2": "Zistiť viac o technológii"
+    },
+    "section1": {
+      "eyebrow": "Chaos na stavbe",
+      "title": "Prečo tradičné inštalácie neuspejú v termíne.",
+      "lead": "Zlé poveternostné podmienky, nedostatok miesta a chýbajúca pracovná sila (montéri) spôsobujú drahé zdržania."
+    },
+    "section2": {
+      "eyebrow": "Presun rizika",
+      "title": "Nemecká precíznosť s prístupom Plug-and-Play.",
+      "lead": "Presúvame 70% inštalačných prác z vášho nebezpečného a chaotického staveniska do nášho kontrolovaného sterilného laboratória."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Zložitá výroba rozdeľovačov (Manifolds)",
+          "desc": "Priestorovo úsporné, perfektne zarovnané systémy distribúcie studenej a teplej vody (chiller a kotolňa), ktoré ušetria inštalatérom dni komplikovaného zvárania sediel a kolien."
+        },
+        {
+          "title": "Presné dodržanie harmonogramu (Schedule)",
+          "desc": "Počas toho, ako generálny dodávateľ leje betón (hrubá stavba), my vyrábame potrubné systémy (Manifolds). Keď sú šachty pripravené, stúpačky sú tiež pripravené na inštaláciu."
+        },
+        {
+          "title": "Nula strát materiálu",
+          "desc": "Platíte len za to, čo je v systéme (čistý model) - žiadne odrezky alebo stratené potrubia / poškodené armatúry na stavbe. 100% istota rozpočtu pre projektový manažment."
+        },
+        {
+          "title": "Vizuálna estetika",
+          "desc": "Perfektné pravé uhly. Bezchybné zarovnanie. Prefabrikované prvky svedčia o inžinierskom majstrovstve a estetickej dokonalosti hneď na prvý pohľad."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Chcete zrýchliť váš ďalší projekt?",
+      "desc": "Odošlite nám plány potrubí. Vypracujeme koncept prefabrikácie, ktorý zachráni váš stavebný harmonogram.",
+      "button": "Kontaktujte náš technický tím"
+    }
+  },
+  "hochhaus": {
+    "meta": {
+      "title": "Infrastruktúra výškových budov | K Aqua",
+      "desc": "K Aqua výškové budovy: Bezpečné vodovodné systémy (stúpačky a rozvody) pre mrakodrapy a komerčné budovy. Zistite viac o nemeckom inžinierstve."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "Obrovská pevnosť (tlak) pre závratné výšky",
+          "desc": "Doprava vody do výšky 200 metrov a viac si vyžaduje obrovský tlak zo spodných (suterénnych) zosilňovacích čerpadiel. Špeciálne vyvinuté rúrky PP-R SDR6/PN20 a viacvrstvové rúrky (Faserverbund) hravo odolávajú statickému a dynamickému tlaku v budovách bez toho, aby praskli."
+        },
+        {
+          "title": "Výhoda nízkej hmotnosti na vrchole",
+          "desc": "K Aqua PP-R má zhruba len osminu hmotnosti v porovnaní s oceľovými rúrami. Pri stúpačkách siahajúcich cez desiatky poschodí táto úspora statickej záťaže ohromne znižuje namáhanie nosnej konštrukcie budovy."
+        },
+        {
+          "title": "Riešenie vodného rázu (Water Hammer)",
+          "desc": "Rýchle zatváranie ventilov alebo zapínanie obehových (Booster) čerpadiel vo výškových budovách vytvára kinetické nárazy, ktoré lámu tvrdé materiály. Elasticita (modul pružnosti) systému K Aqua absorbuje tieto nárazy (Water Hammer) ako tlmič v aute a chráni kľúčovú infraštruktúru."
+        },
+        {
+          "title": "Stabilita pri zemetraseniach",
+          "desc": "Veže a mrakodrapy sa kývajú, či už v dôsledku tlaku vetra alebo kvôli seizmickej činnosti. Naše flexibilné homopolymérové potrubia prispôsobujú svoj tvar štrukturálnym zmenám, zatiaľ čo tuhá meď a železo by pri rovnakom zaťažení (napätí) rýchlo praskli."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Fáza 1",
+          "title": "Zónovanie budovy (Pressure zoning)",
+          "text": "Inžiniersky tím rozdeľuje stúpačky veže na tlakové zóny a počíta (špecifikuje) tlakové redukčné ventily, aby chránil najnižšie poschodia každej zóny pred obrovským vodným stĺpcom."
+        },
+        {
+          "year": "Fáza 2",
+          "title": "Dizajn (manažment) dĺžkovej rozťažnosti",
+          "text": "Stúpačka s dĺžkou 100 metrov sa v závislosti od teploty rozťahuje. Navrhujeme dilatačné spoje, kompenzátory tvaru U (Omega slučky) a presné kotevné body."
+        },
+        {
+          "year": "Fáza 3",
+          "title": "Požiarna bezpečnosť",
+          "text": "Zabezpečujeme, že priechody PP-R stúpačiek cez požiarne úseky každého poschodia sú odborne vybavené protipožiarnymi manžetami (intumescentnými páskami)."
+        },
+        {
+          "year": "Fáza 4",
+          "title": "Dodatočná stabilizácia / seizmické kotvy",
+          "text": "Integrácia podporných kotevných upevnení, ktoré fixujú hmotnosť celej stúpačky v kritických bodoch k jadru (betónu) budovy."
+        }
+      ],
+      "title": "Inžinierstvo vertikálneho toku",
+      "desc": "Dodanie stoviek ton vody proti gravitácii si vyžaduje bezchybné inžinierstvo (a odvahu)."
+    },
+    "hero": {
+      "eyebrow": "Výšková inštalácia",
+      "title1": "Voda pre",
+      "title2": "Megastavby (Mrakodrapy).",
+      "desc": "Pri vežiach prevyšujúcich 50 poschodí sa potrubie neriadi štandardnými pravidlami. Ide o ťažkú, vertikálnu hydrauliku. K Aqua dodáva plastové systémy (PPR a PPRCT), ktoré sú navrhnuté na výdrž pri extrémnych tlakoch, seizmických záchvevoch (Movement) a vodných rázoch – pričom zároveň radikálne šetria konštrukčnú (mŕtvu) hmotnosť.",
+      "cta1": "Riešenia pre veže",
+      "cta2": "Konzultujte BIM dáta"
+    },
+    "section1": {
+      "eyebrow": "Limit klasických kovov",
+      "title": "Prečo oceľ prehráva vo výškach.",
+      "lead": "Korózia, statická hmotnosť (zaťaženie) a nepružnosť (zlomeniny) diskvalifikujú tradičnú oceľ pre bezpečné, seizmicky odolné inštalácie mrakodrapov."
+    },
+    "section2": {
+      "eyebrow": "Výhoda K Aqua (Polymérov)",
+      "title": "Elastická a extrémne silná.",
+      "lead": "Zmenili sme hru (pravidlá hry): Vysokovýkonné termoplasty, ktoré nepraskajú, s kompozitnými (sklolaminátovými) jadrami pre maximálnu tepelnú a mechanickú odolnosť."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Predchádzanie hluku čerpadiel",
+          "desc": "Mohutné prečerpávacie (Booster) systémy na spodku (v suteréne) prenášajú vibrácie a hluk na konštrukciu (vedenia). Polypropylén izoluje tento prenos a zabezpečuje pokoj obyvateľov (nájomníkov)."
+        },
+        {
+          "title": "Pružnosť pre vertikálnu hriadeľ",
+          "desc": "Modul pružnosti materiálu PP-R od K Aqua zabraňuje trhlinám a zlomeniu aj pod obrovským pnutím od teplotných výkyvov alebo seizmických šokov."
+        },
+        {
+          "title": "Udržateľnosť budovy (Green Building)",
+          "desc": "Nižšie nároky na izoláciu (PP-R sám izoluje) šetria stavebný priestor v úzkych šachtách, čím poskytujú viac prenajímateľného priestoru pre developerov výškových budov."
+        },
+        {
+          "title": "Riešenie po desaťročia (No Retrofitting)",
+          "desc": "Životnosť > 50 rokov odstraňuje nutnosť zložitej (a extrémne drahej) výmeny kovovej stúpačky za 25 rokov."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Staviate vyššie? (Going up?)",
+      "desc": "Dajte si preveriť návrh svojho potrubného systému (stúpačiek) priamo od našich špecialistov na vertikálnu hydrauliku. Nemecká inžinierska elita.",
+      "button": "Konzultácia pre výškové budovy"
+    }
+  }
+}

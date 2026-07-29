@@ -1,0 +1,182 @@
+  "kontaktBlocks": {
+    "support": {
+      "title": "Suport Tehnic & Planificare",
+      "desc": "Aveți nevoie de date de proiectare, cataloage BIM sau asistență pentru dimensionare? Inginerii noștri de sistem sprijină proiectul dumneavoastră."
+    },
+    "sales": {
+      "title": "Vânzări & Logistică",
+      "desc": "Informații despre prețuri, termene de livrare internaționale și comenzi în curs."
+    },
+    "general": {
+      "title": "Informații Generale",
+      "desc": "Orice altceva. Recepția noastră vă va direcționa către persoana potrivită."
+    },
+    "produkte": {
+      "kicker": "Sisteme de Conducte K Aqua",
+      "head": "Discutați cu un inginer de aplicații despre cerințele dumneavoastră.",
+      "short": "Sunt potrivite conductele noastre pentru proiectul dvs.?",
+      "text": "Fie că este vorba de presiune extremă, substanțe chimice agresive sau spațiu limitat: spuneți-ne condițiile cadru. Vom verifica rapid și onest dacă sistemul nostru PP-R este soluția potrivită.",
+      "interest": "Sisteme de conducte",
+      "done": "Verificăm cerința și vă contactăm în scurt timp."
+    },
+    "produkte_trinkwasser": {
+      "kicker": "Apă Potabilă",
+      "head": "Fără compromisuri la calitatea apei potabile.",
+      "short": "Asistență privind normele apei potabile",
+      "text": "Nu sunteți sigur care sunt directivele (DVGW, UBA) care se aplică instalației dumneavoastră? Vă consultăm gratuit cu privire la selectarea conductelor adecvate pentru rețele igienice de apă potabilă.",
+      "interest": "Rețele de apă potabilă",
+      "done": "Un expert în apă potabilă vă va contacta."
+    },
+    "produkte_klima": {
+      "kicker": "Climă & Răcire",
+      "head": "Evitați formarea condensului în rețeaua de apă rece.",
+      "short": "Calculul izolației pentru conductele de răcire",
+      "text": "Conductivitatea termică scăzută a PP-R reduce necesarul de izolație. Dați-ne temperatura de tur și cea a mediului ambiant, iar noi calculăm grosimea exactă a izolației necesare.",
+      "interest": "Rețele de apă potabilă",
+      "done": "Un inginer vă va contacta pentru calculul izolației."
+    },
+    "produkte_industrie": {
+      "kicker": "Conducte Industriale",
+      "head": "Oțelul inoxidabil a cedat? Să vorbim despre rezistența chimică.",
+      "short": "Test de rezistență pentru fluidul dvs.",
+      "text": "Trimiteți-ne fișa de siguranță a mediului dumneavoastră de producție. Laboratorul nostru va verifica rezistența chimică a PP-R împotriva soluției dumneavoastră specifice (acizi, baze, etc.).",
+      "interest": "Consultanță",
+      "done": "Laboratorul nostru verifică rezistența și vă va contacta."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Construcții Navale & Marină",
+      "head": "Construcție ușoară și rezistență la vibrații pentru rețelele navale.",
+      "short": "Solicitați aprobări pentru construcții navale",
+      "text": "Fie că este vorba de apă gri, neagră sau de balast: spuneți-ne clasa navei. Vă vom trimite certificatele de clasificare corespunzătoare (DNV, Lloyd's) pentru sistemul nostru.",
+      "interest": "Consultanță",
+      "done": "Un expert maritim vă va trimite certificatele relevante."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Agricultură & Sere",
+      "head": "Rețele robuste de irigare pentru recolte maxime.",
+      "short": "Proiectați sisteme de irigație",
+      "text": "Spuneți-ne numărul de hectare și necesarul de apă. Vom proiecta o rețea PP-R durabilă, rezistentă la îngheț, care previne blocajele cauzate de alge prin opacitate totală.",
+      "interest": "Rețele de apă potabilă",
+      "done": "Vă vom contacta în scurt timp pentru a discuta rețeaua dvs. de irigare."
+    },
+    "maerkte": {
+      "kicker": "Piețe Regionale",
+      "head": "Discutați cu un specialist în exporturi pentru regiunea dumneavoastră.",
+      "short": "Logistică și aprobare pentru țara dvs.",
+      "text": "Exportăm la nivel mondial. Spuneți-ne țara de destinație și vă vom informa despre normele locale, partenerii de vânzări locali și timpii realiști de transport maritim de la fabrica noastră.",
+      "interest": "Consultanță",
+      "done": "Un manager de export pentru regiunea dvs. vă va contacta."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "Construcții de Zgârie-Nori",
+      "head": "Stabilizarea presiunii în coloane ascendente extreme.",
+      "short": "Calculați pierderea de presiune în clădiri înalte",
+      "text": "Hidromecanica în construcțiile de zgârie-nori nu tolerează greșeli. Spuneți-ne înălțimea clădirii și numărul de etaje, noi vă ajutăm cu poziționarea reductoarelor de presiune și a curbelor de expansiune.",
+      "interest": "Date BIM",
+      "done": "Un specialist în hidraulică pentru clădiri înalte vă va contacta pentru o discuție."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Spitale",
+      "head": "Igienă și prevenirea legionelei în operațiunile clinice.",
+      "short": "Igiena apei potabile pentru clinici",
+      "text": "Protejarea pacienților imunocompromiși este o prioritate maximă. Vă consultăm privind conductele inelare, evitarea zonelor moarte și dezinfecția termică cu sistemul nostru PP-R.",
+      "interest": "Rețele de apă potabilă",
+      "done": "Un expert în igiena apei potabile se va prezenta imediat."
+    },
+    "loesungen_hotel": {
+      "kicker": "Complexe Hoteliere",
+      "head": "Decuplare acustică pentru somnul netulburat al oaspeților dvs.",
+      "short": "Izolație fonică în construcțiile hoteliere",
+      "text": "Zgomotul conductelor în camerele adiacente duce la plângeri. Spuneți-ne structurile pereților, iar noi vă recomandăm fixări izolante fonic și optimizări ale fluxului.",
+      "interest": "Consultanță",
+      "done": "Vă contactăm pentru a optimiza izolarea fonică în instalația dumneavoastră."
+    },
+    "loesungen": {
+      "kicker": "Soluții Speciale",
+      "head": "Soluții de sisteme individuale pentru proiecte de construcții complexe.",
+      "short": "Consultanță tehnică pentru proiectul dvs. special",
+      "text": "Soluțiile standard nu sunt suficiente pentru proiectul dumneavoastră? Schițați-ne provocarea, departamentul nostru de proiectare va concepe distribuitoare și componente speciale personalizate.",
+      "interest": "Consultanță",
+      "done": "Departamentul nostru de proiectare analizează cererea dvs. și vă contactează."
+    },
+    "co2_rechner": {
+      "kicker": "Economie de CO2",
+      "head": "Haideți să validăm amprenta de carbon a proiectului dvs.",
+      "short": "Solicitați un bilanț detaliat de CO2",
+      "text": "Calculatorul oferă valori orientative. Trimiteți-ne lista exactă a componentelor, iar noi vă vom emite un certificat detaliat privind reducerea de CO2 în comparație cu țevile metalice pentru auditul dvs. de sustenabilitate.",
+      "interest": "Consultanță",
+      "done": "Un ofițer de sustenabilitate vă va contacta pentru emiterea certificatului."
+    },
+    "trust_center": {
+      "kicker": "Certificate & Norme",
+      "head": "Aveți nevoie de un certificat specific pentru recepția construcției?",
+      "short": "Solicitați certificate pentru recepție",
+      "text": "Dacă inspectorul pe șantier solicită o anumită dovadă (DVGW, SKZ, KIWA), spuneți-ne norma. Vă vom trimite documentul actualizat la zi direct în format PDF.",
+      "interest": "Date BIM",
+      "done": "Vom căuta certificatul potrivit și vi-l vom trimite."
+    },
+    "projektanfrage": {
+      "kicker": "Start Proiect",
+      "head": "Transmiteți-ne datele cheie, noi livrăm un buget inițial.",
+      "short": "Estimare rapidă de buget pentru dezvoltatori",
+      "text": "Încărcați planurile în pasul următor sau spuneți-ne la telefon metrii pătrați aproximativi și tipul de utilizare. Vă vom oferi un prim cadru de preț.",
+      "interest": "Sisteme de conducte",
+      "done": "Echipa de proiect vă va contacta pentru a discuta bugetul."
+    },
+    "kontakt": {
+      "kicker": "Linie Directă",
+      "head": "Cea mai scurtă cale către sediul central K Aqua.",
+      "short": "Vă sunăm pe șantier",
+      "text": "Fără timp de așteptare. Introduceți numărul dvs. și precizați tema generală. Consultantul potrivit de la vânzări sau tehnic vă va contacta imediat.",
+      "interest": "Consultanță",
+      "done": "Cererea dumneavoastră a fost primită. Consultantul potrivit vă va contacta imediat."
+    },
+    "news": {
+      "kicker": "Presă & Media",
+      "head": "Întrebări despre un comunicat de presă sau un produs nou?",
+      "short": "Contact pentru comunicarea corporativă",
+      "text": "Pentru imagini de înaltă rezoluție, interviuri cu conducerea sau informații tehnice de fond despre inovațiile noastre, lăsați-ne pur și simplu datele dvs. de contact.",
+      "interest": "Consultanță",
+      "done": "Departamentul nostru de presă vă va contacta în curând."
+    },
+    "karriere": {
+      "kicker": "Cariere la K-Aqua",
+      "head": "Puneți o întrebare informală despre posturile noastre vacante.",
+      "short": "Linie scurtă către departamentul de resurse umane",
+      "text": "Nu sunteți sigur dacă profilul dvs. se potrivește sau doriți să clarificați detalii despre munca de zi cu zi înainte de a aplica? Echipa noastră de HR vă răspunde cu ușurință la întrebări prin telefon.",
+      "interest": "Consultanță",
+      "done": "Departamentul de Resurse Umane vă contactează pentru o scurtă cunoaștere."
+    },
+    "partnerschaft": {
+      "kicker": "Deveniți Distribuitor",
+      "head": "Extindeți-vă gama cu țevi premium germane.",
+      "short": "Solicitați condiții pentru partenerii de vânzări",
+      "text": "Sunteți angrosist și căutați un furnizor de încredere PP-R? Spuneți-ne regiunea și grupul dvs. țintă, discutăm despre modele de exclusivitate și condiții de distribuitor.",
+      "interest": "Consultanță",
+      "done": "Managerul nostru de vânzări pentru parteneriate vă va contacta."
+    },
+    "impressum": {
+      "kicker": "Informații Legale",
+      "head": "Întrebări despre informațiile companiei noastre?",
+      "short": "Contactați secretariatul K Aqua",
+      "text": "Lăsați-ne numărul dvs. aici dacă aveți întrebări legale sau formale despre compania noastră.",
+      "interest": "Consultanță",
+      "done": "Vă vom contacta pentru a clarifica întrebarea dvs."
+    },
+    "datenschutz": {
+      "kicker": "Protecția Datelor",
+      "head": "Discutați cu responsabilul nostru cu protecția datelor.",
+      "short": "Solicitați informații despre datele dvs.",
+      "text": "Vă luăm în serios confidențialitatea. Dacă doriți informații, ștergere sau detalii despre prelucrarea datelor dvs., vă rugăm să lăsați datele dvs. de contact.",
+      "interest": "Consultanță",
+      "done": "Responsabilul cu protecția datelor vă va contacta imediat."
+    },
+    "fallback": {
+      "kicker": "Contact",
+      "head": "Discutați direct cu inginerii noștri.",
+      "short": "Linie directă către inginerii noștri",
+      "text": "Număr de telefon, email, un clic pe subiectul dumneavoastră. Nu este nevoie de mai mult, restul le lămurim în discuție.",
+      "interest": "Consultanță",
+      "done": "Un consultant tehnic vă va contacta în decurs de o zi lucrătoare."
+    }
+  },

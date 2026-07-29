@@ -1,0 +1,54 @@
+{
+  "buyers": {
+    "eyebrow": "Für Planer, Einkauf & Verarbeiter",
+    "title1": "Sie planen, kalkulieren oder verlegen.",
+    "titleGrad": "Wir liefern die Grundlage.",
+    "lead": "Jede Rolle findet bei K Aqua genau die Information, die sie für die nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "personas": [
+      {
+        "t": "Planer & Fachingenieure",
+        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
+        "cta": "Zu den technischen Daten",
+        "goto": "products"
+      },
+      {
+        "t": "Einkauf & Beschaffung",
+        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
+        "cta": "Projektanfrage starten",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installateure & Verarbeiter",
+        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
+        "cta": "Zur Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Warum K Aqua",
+    "whyTitle": "Sechs Gründe, die in der Kalkulation ankommen.",
+    "why": [
+      {
+        "t": "Druckfest & heißwasserfest",
+        "d": "PPRCT mit modifizierter Kristallstruktur: mehr Temperatur- und Druckreserve über Jahrzehnte."
+      },
+      {
+        "t": "Korrosionsfrei",
+        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
+      },
+      {
+        "t": "Recycelbar & CO₂-arm",
+        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl: belegbar im CO₂-Rechner."
+      },
+      {
+        "t": "Ein Ansprechpartner",
+        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+      }
+    ],
+    "promise": [
+      "Werksdirekt",
+      "Antwort < 24 h",
+      "Unverbindlich"
+    ],
+    "ctaAll": "Projektanfrage in 2 Minuten"
+  }
+}

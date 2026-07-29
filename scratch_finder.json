@@ -1,0 +1,34 @@
+{
+  "finder": {
+    "eyebrow": "Produktfinder",
+    "title1": "Keine PDF-Wüste.",
+    "titleGrad": "Sofort Daten.",
+    "lead": "Statt 220-seitiger Kataloge: Filtern Sie das komplette PP-R/PPRCT-System interaktiv. Dimension, Druckstufe, Wandstärke, alles live.",
+    "type": "Produkttyp",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Faserverbund (GF)",
+      "fitting": "Formteile"
+    },
+    "sdr": "Druckstufe (SDR)",
+    "maxD": "Max. Außendurchmesser",
+    "upTo": "bis",
+    "maxDAria": "Maximaler Außendurchmesser in Millimetern",
+    "found": "Artikelvarianten gefunden. Jede sofort mit Wandstärke, Innendurchmesser und Nenndruck.",
+    "catalog": "Katalog (PDF)",
+    "tableHead": [
+      "Typ",
+      "d (mm)",
+      "SDR",
+      "Wand (mm)",
+      "di (mm)",
+      "Nenndruck"
+    ],
+    "more": "+ {n} weitere. Filter verfeinern für die volle Liste.",
+    "none": "Keine Treffer. Filter lockern.",
+    "nextEyebrow": "Weiterdenken",
+    "nextTitle": "Wie klimafreundlich ist Ihre Planung?",
+    "nextLead": "Übergeben Sie Dimension und Länge direkt an den CO₂-Rechner und vergleichen Sie gegen Kupfer, Edelstahl und PVC.",
+    "nextCta": "Zum CO₂-Rechner"
+  }
+}

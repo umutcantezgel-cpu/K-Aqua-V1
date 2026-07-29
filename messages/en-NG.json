@@ -1,0 +1,1879 @@
+{
+  "toggle_theme_light": "Switch to light theme",
+  "toggle_theme_dark": "Switch to dark theme",
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "finder": "Product Finder",
+    "co2": "CO₂ Calculator",
+    "markets": "Markets",
+    "trust": "Trust Centre",
+    "contact": "Contact",
+    "quote": "Request a Quote",
+    "menu": "Menu",
+    "lang": "Language",
+    "skipToContent": "Skip to content",
+    "menuPlaceholder": "Placeholder (Mega Menu)",
+    "academy": "Academy",
+    "service": "Service",
+    "about": "Company",
+    "solutions": "Solutions",
+    "partners": "Partnership",
+    "references": "References",
+    "career": "Careers",
+    "news": "News",
+    "knowledge_trust": "Knowledge & Trust",
+    "mapAria": "Open map navigation",
+    "sitemapAria": "Site map",
+    "pipes": "Pipes",
+    "fittings": "Fittings",
+    "valves": "Valves",
+    "accessories": "Accessories",
+    "tools": "Tools"
+  },
+  "groups": {
+    "tools": "Tools",
+    "knowledge": "Knowledge",
+    "company": "Company",
+    "products": "Products",
+    "markets_solutions": "Markets & Solutions",
+    "knowledge_resources": "Knowledge & Resources"
+  },
+  "pages": {
+    "catalogOverview": "Complete Product Catalogue",
+    "products": [
+      "Products & Fittings",
+      "Discover K Aqua's complete plastic piping systems from d20 to d630 mm. High-performance PP-R and PPRCT pipes for domestic and industrial use."
+    ],
+    "finder": [
+      "Product Finder",
+      "Instantly find the perfect PP-R or PPRCT pipe, fitting, or valve. Filter our catalogue live by dimension, pressure class, and wall thickness."
+    ],
+    "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Piping Systems</h2><p>Use our innovative product finder to identify the exact component for your specific piping installation. Whether you are looking for standard PP-R pipes for potable water installations, fibre-reinforced PPRCT pipes for demanding industrial systems, or special transition fittings and valves – our tool filters the entire catalogue in real time. The product search supports you in selecting by diameter (d20 to d630), pressure class (SDR class), and material.</p><p>A well-structured piping system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows, and tees), and the corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogues and instead provides you with immediate, reliable data on article numbers, packaging units, and technical specifications. With just a few clicks, you can compile your bill of materials and ensure the compatibility of the various components for heating, cooling, and potable water systems. This not only optimises your planning process but also minimises errors when ordering materials for your next construction project.</p>",
+    "co2": [
+      "CO2 Calculator",
+      "Compare the CO2 footprint of K Aqua PP-R plastic pipes with copper, stainless steel, and PVC. Verified according to ISO 14040/44 for Green Building."
+    ],
+    "solutions": [
+      "Material Advantages",
+      "Learn why polypropylene (PP-R/PPRCT) is the superior material for water supply. Ecological, technically advanced, and economical."
+    ],
+    "academy": [
+      "K-Aqua Academy: PP-R Welding Techniques and Expertise",
+      "Learn professional welding techniques for PP-R plastic pipes. Watch video tutorials and complete our Welding Master Quiz."
+    ],
+    "trust": [
+      "Trust Centre",
+      "Access K Aqua's quality documentation. Download ISO certificates, the GENAU framework, and audit documents for your project."
+    ],
+    "service": [
+      "Service & Download Centre",
+      "Download official K Aqua product catalogues, technical data sheets, and installation guidelines for PP-R and PPRCT plastic piping systems."
+    ],
+    "partner": [
+      "KESSEL Partnership",
+      "K Aqua and KESSEL share a decades-long partnership that transfers German manufacturing standards from drainage to water supply."
+    ],
+    "markets": [
+      "Markets & Locations",
+      "K Aqua supplies PP-R piping systems to over 27 countries. Use our interactive world map for local standards, water profiles, and logistics information."
+    ],
+    "references": [
+      "Reference Projects",
+      "Discover worldwide reference projects featuring K-Aqua PP-R piping systems. Our interactive 3D globe showcases domestic, commercial & industrial installations."
+    ],
+    "about": [
+      "About KWT GmbH",
+      "KWT GmbH combines decades of experience to manufacture the K Aqua premium piping system. German engineering for the highest quality and innovation."
+    ],
+    "career": [
+      "Careers at K-Aqua",
+      "Join our team in Waldsolms. Calculate your tax-free benefits net value and test in 60 seconds if K Aqua is the right fit for you."
+    ],
+    "news": [
+      "Latest & News | K-Aqua Company Updates",
+      "Stay up-to-date with K Aqua innovations, products, trade fair appearances, and our commitment to triple ISO-certified production."
+    ],
+    "contact": [
+      "Contact, Sales & Support",
+      "Contact the K Aqua expert team for sales enquiries, support, or partnerships. Fast response times for global B2B clients."
+    ],
+    "rfq": [
+      "Project Enquiry",
+      "Request a no-obligation quote for your next piping project in four easy steps. Our sales team will get back to you within 24 hours."
+    ],
+    "home": [
+      "PP-R & PPRCT Piping Systems",
+      "K Aqua produces premium PP-R and PPRCT plastic piping systems for potable water and industrial applications. German engineering for global projects."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Privacy Policy",
+        "Comprehensive privacy policy for the K Aqua website in accordance with GDPR guidelines."
+      ],
+      "impressum": [
+        "Imprint & Legal Notices",
+        "Imprint and legal company information of KWT GmbH, manufacturer of K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "certified quality",
+      "title1": "The ",
+      "titleHighlight": "GENAU",
+      "title2": " Management System",
+      "p1": "The goal of the GENAU Management System is the continuous improvement of occupational health, safety, and environmental protection in the company.",
+      "p2": "All corporate activities at KWT are carried out with consideration for resource conservation, environmental compatibility, and strict adherence to all obligations. The practised GENAU management meets the high requirements of ",
+      "p3": " and ",
+      "list1Title": "Ecological Responsibility",
+      "list1Desc": "Environmental protection is part of our understanding of quality, to which all employees of KWT GmbH are committed.",
+      "list2Title": "Energy Efficiency",
+      "list2Desc": "Targeted identification of risks and implementation of measures to optimise energy efficiency."
+    },
+    "pipes": [
+      "Pipes & Systems",
+      "High-performance PP-R and PP-RCT pipes for domestic and industrial use. Discover all SDR classes and dimensions for your next project."
+    ],
+    "fittings": [
+      "Fittings",
+      "Complete range of fittings for all K-Aqua piping systems. Discover elbows, tees, reducers, and sockets for polyfusion."
+    ],
+    "valves": [
+      "Valves",
+      "Premium valves and accessories for piping networks. High-quality ball valves, concealed valves, angle seat valves, and non-return valves."
+    ],
+    "tools": [
+      "Tools & Accessories",
+      "Professional welding tools and accessories for PP-R installation. Discover welding machines, pipe cutters, and special tools."
+    ],
+    "transition-fittings": [
+      "Transition Fittings",
+      "Reliable transition fittings for secure connections. Discover brass transition fittings with threaded or flanged connections."
+    ]
+  },
+  "home": {
+    "chip": "certified since October 2025",
+    "h1a": "Leading in",
+    "h1b": "K-Aqua PP-R Piping Systems",
+    "globeAria": "Interactive globe, drag to rotate",
+    "scrolly": [
+      {
+        "t": "Manufactured in Germany",
+        "d": "Development and production at the Waldsolms site for every pipe, every fitting."
+      },
+      {
+        "t": "d20 to d630",
+        "d": "A complete system: five pressure classes, fittings, valves, and welding technology."
+      },
+      {
+        "t": "Triple certified",
+        "d": "ISO 9001, 14001, and 50001: Quality, Environment, and Energy from a single management system."
+      },
+      {
+        "t": "27 Markets Worldwide",
+        "d": "From Frankfurt to NEOM: tested against local standards and water profiles."
+      }
+    ],
+    "lead": "K-Aqua develops and manufactures PP-R and PP-RCT piping systems for potable water from 20 to 630 mm, in partnership with premium manufacturer KESSEL.",
+    "ctaProducts": "Discover Product System",
+    "ctaContact": "Get in Touch",
+    "toolsEyebrow": "Interactive Tools",
+    "toolsTitle1": "No wall of text.",
+    "toolsTitle2": "Tools.",
+    "toolsLead": "The website works for you: filter, calculate, learn.",
+    "bandTitle": "Ready for the next generation of water supply?",
+    "bandLead": "Speak with our sales team about your project, from planning to welding technology.",
+    "bandBtn": "Start Project Enquiry",
+    "bandBtn2": "Downloads & Service"
+  },
+  "geo": {
+    "eyebrow": "Markets & Locations",
+    "title1": "A world full of",
+    "title2": "Markets.",
+    "lead": "Discover K-Aqua locations for PP-R piping systems: {n} markets in {c} countries, each with a dedicated landing page covering standards, water profiles, applications, and logistics. Grab the globe and spin it freely; the list flies you right to the city.",
+    "all": "All",
+    "cityTitle": "PP-R/PPRCT Piping Systems in {city}.",
+    "cityLead": "Potable water systems d20–d630, tested against local requirements.",
+    "allMarkets": "All Markets",
+    "request": "Request Project",
+    "finder": "Product Finder",
+    "fromPlant": "km from Waldsolms plant",
+    "regFrame": "Regulatory Framework",
+    "water": "Water Profile & Material Response",
+    "typical": "Typical Projects in {city}",
+    "onSite": "On-site Processing",
+    "onSiteText": "Welding technology instruction and video documentation for your team in the Academy.",
+    "toAcademy": "To the Academy",
+    "nearbyEyebrow": "Related Markets",
+    "nearby": "Nearby.",
+    "prodNote": "Production note: These pages correspond to the programmatic SEO template (data slice: Product × Regulations × Region). In Next.js, they are generated via ISR from the headless CMS, including hreflang, Product/Offer schema, and semantic internal linking.",
+    "km": "km",
+    "seoExpansion": "K Aqua manufactures PP-R and PPRCT piping systems in Waldsolms for the highest demands of global building and plant engineering. Thanks to uncompromising German engineering and state-of-the-art production technology, our systems guarantee decades of maintenance-free operational reliability. Every product, from d20 to d630, undergoes strict quality controls and complies with international standards such as DVGW, KIWA, and SKZ. We not only offer premium materials for potable water, cooling, and industry, but also support planners and installers with comprehensive technical support and on-site training. Trust in a system that impresses with extreme longevity, freedom from corrosion, and absolute hygiene.",
+    "seoExpansionDynamic": "Learn more about our PP-R and PPRCT solutions in {city}. We meet local standards ({regulator}) and offer optimal systems for water quality ({water}). Additional note: {note}.",
+    "cityMetaTitle": "PP-R Piping Systems in {city}",
+    "hubMetaTitle": "PP-R Piping Systems for {country}",
+    "hubH1": "Infrastructure Solutions for {country}",
+    "hubLead": "K-Aqua offers certified PP-R and PP-RCT infrastructure solutions for {country}. Our piping systems meet the highest international standards and are optimised for the specific challenges in {country}.",
+    "hubContextTitle": "Regional Context: {context}",
+    "hubContextBody": "Our German-made K-Aqua PP-R/PP-RCT piping systems deliver sustainable infrastructure solutions for {country}. They are specifically designed to meet the infrastructural challenges on site.",
+    "hubCitiesTitle": "Local Sites & Reference Cities",
+    "hubs": {
+      "deutschland": {
+        "description": "As K-Aqua's home market, Germany has the highest demands for construction quality and longevity. Our <span class=\"font-semibold\">PP-R and PP-RCT piping systems</span> effectively and sustainably tackle the pressing renovation backlog in Germany's potable water and heating infrastructure. With corrosion-free, DVGW-certified materials, we reduce maintenance costs and ensure maximum system hygiene in municipal, commercial, and private large-scale projects for decades to come.",
+        "metaDesc": "Certified PP-R/PP-RCT piping systems for Germany. German engineering to tackle the renovation backlog in potable water and heating infrastructure."
+      },
+      "oesterreich": {
+        "description": "In Austria, demanding topographies and strict environmental regulations require uncompromising infrastructure solutions. Our <span class=\"font-semibold\">K-Aqua piping systems</span> offer premium quality for durable water and district heating networks in alpine regions. With ÖVGW-tested safety and outstanding thermal insulation, our PP-R and PP-RCT pipes guarantee frost- and pressure-resistant performance even under the most extreme climatic conditions of the Alps.",
+        "metaDesc": "Premium PP-R/PP-RCT piping systems for Austria. Frost- and pressure-resistant solutions for water and district heating networks in alpine regions."
+      },
+      "schweiz": {
+        "description": "Switzerland stands for precision, sustainability, and the highest quality standards. <span class=\"font-semibold\">K-Aqua's PP-R and PP-RCT systems</span> meet these requirements through first-class material purity and SVGW-certified food safety. Our fully recyclable, flow-optimised plastic pipes enable energy-efficient plumbing and climate technology for forward-looking Minergie construction projects throughout Switzerland.",
+        "metaDesc": "First-class PP-R/PP-RCT piping systems for Switzerland. SVGW-certified, recyclable plastic pipes for sustainable Minergie construction projects."
+      },
+      "uae": {
+        "description": "Under the extreme climatic conditions of the United Arab Emirates, water is the most valuable resource. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT piping systems</span> offer ultimate protection against corrosion and calcification, even when using desalinated seawater (Reverse Osmosis). Our UV-resistant and heat-resistant high-performance pipes ensure permanent water supply in the gigantic megaprojects and high-rises of Dubai and Abu Dhabi.",
+        "metaDesc": "UV- and heat-resistant PP-R/PP-RCT piping systems for the UAE. Highest protection against corrosion and calcification in desert climates."
+      },
+      "ksa": {
+        "description": "As part of Vision 2030, Saudi Arabia is transforming its entire infrastructure. <span class=\"font-semibold\">K-Aqua provides the essential water infrastructure for this</span>. Our large-calibre PP-RCT pipes guarantee safe, leak-free, and efficient water distribution in new Smart Cities like NEOM. Certified to international standards, we guarantee uninterrupted operation at extremely high ambient temperatures.",
+        "metaDesc": "Large-calibre PP-RCT piping systems for Saudi Arabia. Reliable water infrastructure for Vision 2030 and mega-projects like NEOM."
+      },
+      "singapur": {
+        "description": "As one of Asia's most densely populated high-tech city-states, Singapore requires highly efficient and space-saving building technology. <span class=\"font-semibold\">K-Aqua's innovative piping systems</span> support Singapore's ambitious Green Building goals through drastically reduced pressure losses and optimal thermal properties. From high-rise air conditioning (Chilled Water) to ultra-pure drinking water supply, we set standards in Asia.",
+        "metaDesc": "Efficient PP-R/PP-RCT pipes for Singapore's Green Buildings. Specialised systems for Chilled Water and ultra-pure drinking water supply."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, leading in water supply. PP-R/PP-RCT piping systems for potable water, manufactured by KWT GmbH in Waldsolms.",
+    "colTools": "Products & Tools",
+    "colCompany": "Company",
+    "colContact": "Contact",
+    "directions": "Directions & Location",
+    "rights": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Request a Project",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R Pipe Standards"
+      },
+      {
+        "t": "Sustainability",
+        "s": "Environmentally friendly"
+      },
+      {
+        "t": "GENAU System",
+        "s": "Integrated Management"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Production in Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Web design by Coday",
+        "A project by Coday Web Agency",
+        "Coday Web Agency",
+        "Digitised by Coday"
+      ],
+      "srDesc": "This website was designed and technically implemented by Coday Web Agency, experts in web design and SEO.",
+      "linkTitle": "To Coday Web Agency - Premium Web Design"
+    }
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europe",
+    "nahost": "Middle East",
+    "global": "Africa & Asia-Pacific"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "maximum pipe dimension in the range"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Pressure classes: SDR 6 / 7.4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Quality, Environment & Energy certified"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "production waste is recycled"
+      }
+    ],
+    "heroBadgeLabel": "Pipe dimensions, SDR 6 to SDR 17",
+    "marquee": [
+      "Leading in water supply",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Manufactured in Waldsolms",
+      "100% Recycling",
+      "Partner: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Product Finder",
+        "d": "Filter 170+ item variants live: Dimension, SDR, wall thickness instantly.",
+        "cta": "Filter now"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂ Calculator",
+        "d": "Your project vs. copper, stainless steel and PVC, in trees and car miles.",
+        "cta": "Calculate now"
+      },
+      {
+        "id": "academy",
+        "t": "Academy + Quiz",
+        "d": "Four welding methods on video, then the Welding Master Quiz.",
+        "cta": "Become a master"
+      },
+      {
+        "id": "references",
+        "t": "Reference Globe",
+        "d": "Spin the planet, discover projects: from Waldsolms to Singapore.",
+        "cta": "Spin globe"
+      },
+      {
+        "id": "trust",
+        "t": "Trust Centre",
+        "d": "Verify certificates and compile the RFP document package yourself.",
+        "cta": "Build package"
+      },
+      {
+        "id": "career",
+        "t": "Benefits Calculator",
+        "d": "See what tax-free extras yield net, plus a 60-second Culture Match.",
+        "cta": "Check net pay"
+      }
+    ],
+    "vsEyebrow": "The Difference",
+    "vsTitle": "Industry standard vs. K Aqua digital.",
+    "vsBadTitle": "How the industry does it",
+    "vsGoodTitle": "How K Aqua does it",
+    "vsBad": [
+      "220-page PDF catalogues with no search",
+      "Certificates only upon written request",
+      "Technical data buried in tables",
+      "Career page: a drop box"
+    ],
+    "vsGood": [
+      "Product Finder: filter in seconds",
+      "Trust Centre: Downloads as Self-Service",
+      "CO₂ Calculator turns data into arguments",
+      "Benefits Calculator + Culture Match"
+    ],
+    "coEyebrow": "The Company",
+    "coTitle1": "Building materials supplier and manufacturer:",
+    "coTitle2": "from a single source.",
+    "coLead": "KWT GmbH manufactures pipes and fittings for water supply from various plastics, positioning itself in the construction value chain as both supplier and manufacturer.",
+    "kesselTitle": "Strong partnership with KESSEL",
+    "kesselText": "With the premium manufacturer KESSEL, \"Leading in drainage\", we share a close, long-standing partnership. We are carrying this decades-long experience into the future.",
+    "kesselCta": "More about the partnership",
+    "worldTitle": "Proven worldwide",
+    "worldText": "K Aqua products have proven themselves countless times over decades in projects around the world.",
+    "worldCta": "Reference Globe",
+    "cards": [
+      {
+        "t": "GENAU Management System",
+        "d": "Continuous improvement of occupational health, safety and environmental protection according to DIN EN ISO 14001 and 50001."
+      },
+      {
+        "t": "Manufacturing in Germany",
+        "d": "Development and production at the Waldsolms site: Quality, costs and schedules always in harmony."
+      },
+      {
+        "t": "Ecological Responsibility",
+        "d": "Resource conservation and environmental compatibility are integral parts of our understanding of quality."
+      }
+    ],
+    "manifestTitle": "Our Mission",
+    "manifestText": "Water is our most valuable resource. We protect it with forward-looking piping systems.",
+    "grEyebrow": "Global Reach",
+    "grTitle1": "International",
+    "grTitle2": "Trade Routes",
+    "grLead": "From Germany to the world: Our K Aqua piping systems are the backbone of the most modern megaprojects worldwide. From NEOM in Saudi Arabia to highly complex industrial plants in Singapore.",
+    "grHqLabel": "HQ & Production",
+    "grHqValue": "Germany (Frankfurt)",
+    "grExportLabel": "Core Export Markets",
+    "grExportValue": "Saudi Arabia (NEOM), UAE, Qatar, Latin America",
+    "grCta": "Discover worldwide projects"
+  },
+  "products": {
+    "narrative": {
+      "sizeRange": "This component is manufactured in an extensive nominal diameter range from a compact {minSize} mm up to a substantial {maxSize} mm, ensuring maximum versatility across diverse installation scenarios.",
+      "sizeSpecific": "This component is precisely designed for a specific nominal diameter of {minSize} mm, providing targeted performance for specialised piping architectures.",
+      "weights": "Material efficiency is optimised across the entire range, with unit weights scaling from {minWeight} kg up to {maxWeight} kg depending on the selected dimension.",
+      "packaging": "Logistics are streamlined through standardised packaging units, designed for secure global transit and efficient handling on site.",
+      "rowCount": "Our technical portfolio offers this configuration in {count} highly specialised dimensional variants, precisely scaled to meet the hydraulic and mechanical demands of modern fluid transport systems.",
+      "intro": "The product {title} forms a cornerstone of K Aqua's high-performance fluid management solutions. Officially catalogued under the article numbers {codes}, each variant undergoes rigorous quality assurance protocols in our German manufacturing facilities prior to dispatch.",
+      "outro": "Through the application of advanced polymer processing techniques, the geometric precision of {title} guarantees optimal flow characteristics, minimises pressure losses, and completely eliminates the risk of calcification or corrosion over its entire operational lifespan. This uncompromising dedication to material science ensures that every connection maintains absolute integrity, even under extreme thermal and pressure fluctuations. Whether deployed in residential high-rises, critical healthcare facilities, or demanding industrial processing plants, this product delivers maintenance-free reliability that engineers and installers can trust implicitly."
+    },
+    "uniqueProductContext": "The product {title} is an essential component of the K Aqua {category} range. It has been developed for maximum longevity as well as seamless integration and meets the highest international standards for modern piping and plumbing applications. You can identify and order this specific product using the article number(s): {codes}. For further documentation or assistance, please contact our technical team.",
+    "heroDesc": "Discover the specifications, dimensions, and areas of application. For detailed information, download the Technical Data Sheet.",
+    "articleNumbers": "Article Numbers",
+    "technicalSpecs": "Technical Specifications",
+    "eyebrow": "Products",
+    "videoGuide": "K Aqua Video Guide",
+    "localAvailability": "Local Availability",
+    "localDesc": "Find local distributors, specific approvals, and standards for your region.",
+    "allMarkets": "View all 50+ markets",
+    "title1": "PP-R/PPRCT Pipes & Fittings for",
+    "titleGrad": "Potable Water.",
+    "lead": "A complete piping system for hot and cold potable water: from the pipe to the fitting to the welding technology. Four components, one system.",
+    "ctaCatalog": "Product Catalogue (PDF)",
+    "ctaVideos": "Installation Videos",
+    "sysEyebrow": "The System",
+    "sysTitle": "K-Aqua PP-R Pipes & Fittings: Four components, one system.",
+    "range": [
+      {
+        "t": "Pipes: Mono & Multilayer",
+        "d": "Monolayer and glass-fibre reinforced multilayer pipes in SDR 6, 7.4, 9, 11, and 17. Dimensions from 20 mm to 630 mm."
+      },
+      {
+        "t": "Fittings & Valves",
+        "d": "Fittings from 20 mm to 315 mm, complemented by valves, threaded connections, and transition pieces."
+      },
+      {
+        "t": "Welding Technology & Tools",
+        "d": "Cutting tools, welding devices, and welding machines for socket, butt, and electrofusion welding processes."
+      },
+      {
+        "t": "Hot & Cold Water",
+        "d": "Designed for potable water (hot and cold) with high temperature and pressure resistance over decades."
+      }
+    ],
+    "techEyebrow": "Technical Data",
+    "techTitle": "Dimensions & Pressure Classes",
+    "techLead": "Depending on the pipe type, from 20 mm to 630 mm, fittings up to 315 mm.",
+    "ctaFeatures": "Product Features (PDF)",
+    "tableHead": [
+      "Component",
+      "Dimension",
+      "Pressure Classes"
+    ],
+    "tableRows": [
+      [
+        "Monolayer Pipes",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Multilayer Pipes (GF reinforced)",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Fittings",
+        "20 – 315 mm",
+        "system compatible"
+      ],
+      [
+        "Valves & Threaded Connections",
+        "system dependent",
+        "-"
+      ],
+      [
+        "Welding Technology & Tools",
+        "all dimensions",
+        "-"
+      ]
+    ],
+    "seoArticle": {
+      "pipes": {
+        "areas": "Potable water installation, heating systems, climate control, industrial plants, shipbuilding",
+        "advTitle": "Superior piping technology for every project",
+        "advList": [
+          "No corrosion: 100% resistant to pitting and rust.",
+          "Low pressure loss: The extremely smooth inner surface minimises friction and saves pump energy.",
+          "Long lifespan: Guaranteed over 50 years maintenance-free in continuous operation.",
+          "Noise reduction: Excellent sound insulation against flow noise.",
+          "Hygienic: Meets the strictest international potable water standards (DVGW, KIWA)."
+        ],
+        "seoText": "Our high-performance pipes are manufactured in Waldsolms according to the highest quality standards. The material combination of PP-R and PPRCT ensures exceptional temperature and pressure resistance. Whether in domestic engineering, industrial plant construction, or complex cooling systems, this piping system delivers maximum safety and efficiency. The simple and secure welding technology guarantees absolutely leak-free connections.",
+        "guideTitle": "Comprehensive Guide: Planning and Installation of K Aqua PP-R & PPRCT Piping Systems",
+        "guideText": "<h2>Comprehensive Guide: Planning, Materials Science and Installation of K Aqua PP-R & PPRCT Piping Systems</h2><p>Choosing the right pipe material is the crucial foundation for the longevity, operational safety, and energy efficiency of modern building and industrial infrastructures. Manufactured in Germany (Waldsolms), our <span class=\"font-semibold\">PP-R and PPRCT piping systems</span> offer the future-proof alternative to conventional metal pipes made of copper, steel, or brass, thanks to their excellent thermal, chemical, and mechanical properties.</p><p>Whether in domestic engineering for potable water and heating networks, in industrial plant construction, in cooling systems, or in shipbuilding, K Aqua pipes stand for uncompromising German engineering and guarantee an absolutely leak-free and maintenance-free operation for decades.</p><h2>Material Innovation: PP-R and PPRCT in direct comparison</h2><p>While standard Polypropylene Random Copolymer (PP-R) already has excellent properties regarding corrosion resistance and hygiene, the further developed PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) sets new standards in piping technology. Through a targeted modification of the crystal structure in the polymerisation process, PPRCT offers significantly higher compressive strength at elevated operating temperatures up to 95°C.</p><p>This material advantage makes it possible to manufacture pipes with significantly lower wall thicknesses (higher SDR classes) at the same nominal pressure. The results for the user are outstanding:</p><ul><li><span class=\"font-semibold\">Increased hydraulic flow:</span> A larger internal diameter increases the flow volume by up to 17% compared to standard PP-R pipes.</li><li><span class=\"font-semibold\">Reduced pipe weight:</span> The saving of material significantly simplifies transport and handling on site.</li><li><span class=\"font-semibold\">Higher pressure reserves:</span> Maximum safety reserves even at peak loads in continuous hot water use.</li></ul><h2>Fibre Composite Technology (K-Fiber) for minimal linear expansion</h2><p>A central aspect when planning hot water and heating pipes is the thermal linear expansion of plastic pipes. K Aqua addresses this challenge with the innovative K-Fiber composite technology. The three-layer K-Fiber pipes have a middle polypropylene layer reinforced with high-strength glass fibres.</p><p>This mechanical stabilisation reduces the linear coefficient of thermal expansion to exactly 0.035 mm/(m·K), which corresponds to a reduction in thermal linear expansion of around 75% compared to unreinforced solid plastic pipes. For specialist planners and installers, this means:</p><ul><li><span class=\"font-semibold\">Fewer expansion compensators:</span> Significant savings in bending legs and expansion loops in the pipeline route.</li><li><span class=\"font-semibold\">Greater fixing distances:</span> Saving of pipe clamps and fixed points in route planning.</li><li><span class=\"font-semibold\">Dimensionally stable routing:</span> No sagging of pipes in open routes or risers.</li></ul><h2>Homogeneous Polyfusion Welding: Leak tightness for 50+ years</h2><p>The heart of the K Aqua piping system is the permanent, cohesive connection technology via thermal polyfusion. During the welding process, the pipe end and the socket of the fitting are heated to exactly 260°C using an electronically controlled welding device. The polymer chains of both components melt at the joining surfaces.</p><p>When joined together, the melted macromolecules interlock completely at the molecular level. After cooling, a homogeneous, monolithic material structure is formed without seams, adhesives, or elastic seals. Because no rubber O-rings or mechanical press connections are used, aging damage, resinification, or brittleness of seals are a thing of the past. The welded joint withstands the same pressures as the pipe itself.</p><h2>Hydraulics, Hygiene and Environmental Compatibility</h2><p>Potable water safety and energy efficiency are top priorities at K Aqua. The mirror-smooth inner surface of our PP-R and PPRCT pipes has an extremely low roughness of only k = 0.007 mm. This effectively prevents the adhesion of limescale deposits (incrustation) and stops the formation of breeding grounds for biofilms and Legionella.</p><p>In addition, the material polypropylene is physiologically completely harmless, tasteless and odourless, and free of heavy metals and plasticisers. K Aqua piping systems are certified worldwide according to the strictest testing standards (including DVGW, KIWA, WRAS). The system is also ecologically convincing: The polymer is 100% recyclable and has an excellent ecological footprint in the manufacturing process compared to metal pipes.</p><h2>Important routing and planning instructions</h2><p>To ensure flawless function over the guaranteed lifespan of 50 years, the following points must be observed during installation:</p><ul><li><span class=\"font-semibold\">Pressure testing:</span> After completion of the installation, the pipe network must be subjected to a pressure test according to DIN 1988 / DIN EN 806.</li><li><span class=\"font-semibold\">Thermal insulation:</span> Pipes for hot water and heating must be professionally insulated according to the applicable energy saving ordinances (e.g. GEG) to minimise heat loss.</li><li><span class=\"font-semibold\">UV protection:</span> When routed exposed outdoors, UV-protected pipes must be used or suitable covers provided.</li></ul>",
+        "seoTitle": "PP-R & PPRCT Piping Systems Overview",
+        "faq": [
+          {
+            "q": "What is the difference between PPRCT and conventional PP-R in piping systems?",
+            "a": "PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) has a specially modified crystal structure that allows for higher compressive strength at elevated operating temperatures. This allows thinner-walled pipes to be used at the same nominal pressure, increasing the internal diameter and hydraulic flow capacity by up to 17%."
+          },
+          {
+            "q": "How does K-Fiber composite technology reduce thermal linear expansion?",
+            "a": "Our K-Fiber pipes have an integrated middle layer of glass-fibre reinforced polypropylene. This layer mechanically stabilises the pipe and lowers the expansion coefficient to approx. 0.035 mm/(m·K). This corresponds to a reduction in thermal linear expansion of 75% compared to standard plastic pipes."
+          },
+          {
+            "q": "Are K Aqua PP-R piping systems certified for potable water?",
+            "a": "Yes, K Aqua piping systems meet the strictest testing and hygiene requirements of international certification bodies such as DVGW, KIWA, and WRAS. The material is completely harmless, tasteless and odourless, and effectively prevents limescale and biofilm formation."
+          },
+          {
+            "q": "How is an absolutely leak-free welded joint created?",
+            "a": "The connection is made by thermal polyfusion at 260°C. The pipe and fitting fuse at the molecular level into a homogeneous, inseparable unit. Since no error-prone rubber seals or press fittings are used, the weld seam remains completely tight for over 50 years."
+          },
+          {
+            "q": "What pressure classes and dimensions are available for K Aqua pipes?",
+            "a": "K Aqua offers piping systems in pressure classes SDR 6, SDR 7.4, SDR 9, and SDR 11 (PN10 to PN25) as well as in outer diameters from 20 mm to 250 mm. This makes it possible to implement both finely branched floor distributions and massive main and riser pipes."
+          }
+        ]
+      },
+      "fittings": {
+        "areas": "Potable water network, sanitary installation, industrial distribution, heating systems",
+        "advTitle": "Secure and homogeneous connections",
+        "advList": [
+          "Homogeneous welding: Pipe and fitting fuse into an inseparable unit.",
+          "No seals required: The permanent connection does not need error-prone O-rings.",
+          "Simple installation: Fast and secure processing on site.",
+          "Full flow: No cross-sectional narrowing, which maintains the system pressure.",
+          "Chemical resistance: Resistant to a wide variety of aggressive media."
+        ],
+        "seoText": "K Aqua fittings are the link for reliable pipe networks. Manufactured in Germany, these fittings offer maximum precision and dimensional stability. The welding technique (socket welding) takes only a few seconds and cools to form a joint that is just as strong as the pipe itself. This eliminates the risk of micro-leaks, which can often occur with press or push-fit systems after years.",
+        "guideTitle": "Technical Guide: Secure connections with K Aqua Fittings",
+        "guideText": "<p>Fittings are the heart of any complex pipe network. With the high-quality <span class=\"font-semibold\">K Aqua PP-R fittings</span>, you can realise installations that withstand the highest pressures and temperatures.</p><p>The advantages of homogeneous welding are undisputed:</p><ul><li><span class=\"font-semibold\">Cohesive connection:</span> During heating, the fitting and pipe fuse into a single workpiece. This consistently eliminates weak points such as aging O-rings or mechanical compressions.</li><li><span class=\"font-semibold\">Flow optimisation:</span> Our fittings are designed to maintain the cross-section at the joints. This minimises turbulence and reduces the energy consumption of circulation pumps.</li><li><span class=\"font-semibold\">Highest material quality:</span> The use of premium Polypropylene Random Copolymer achieves outstanding chemical and thermal resistance that goes far beyond normative requirements.</li></ul><p>During processing, attention must be paid to clean, burr-free cuts and strict adherence to the heating and cooling times. This is how you ensure the maintenance-free operating time of over 50 years guaranteed by the manufacturer in all installation areas.</p>",
+        "seoTitle": "Plastic Fittings & Moulded Parts"
+      },
+      "valves": {
+        "areas": "Branch isolation, system control, manifold cabinets, industry",
+        "advTitle": "Precise control and durable function",
+        "advList": [
+          "Maintenance-free: The mechanics are designed for decades of smooth operation.",
+          "Full bore: Ball valves with full cross-section minimise pressure losses.",
+          "Simple integration: Can be welded directly into the PP-R system.",
+          "High-quality materials: Valve seats and balls made of corrosion-resistant alloys.",
+          "Secure shut-off: 100% tight even under extreme pressure and temperature changes."
+        ],
+        "seoText": "K Aqua shut-off valves and ball valves combine proven PP-R welding technology with high-quality mechanical components. They enable precise control of fluids and safe isolation of network sections for maintenance work. Each valve undergoes strict pressure tests prior to dispatch to ensure maximum operational safety in critical applications.",
+        "guideTitle": "Expert Guide: System control with K Aqua Valves and Fittings",
+        "guideText": "<p>The precise control and isolation of material flows is essential in modern water and heating networks. <span class=\"font-semibold\">K Aqua shut-off valves and fittings</span> combine the longevity of polypropylene with the precision of metallic sealing and actuating mechanisms.</p><p>What you need to know when integrating PP-R valves:</p><ul><li><span class=\"font-semibold\">Dead-space-free design:</span> To avoid water stagnation and contamination (e.g. Legionella), our valves are designed to be flow-optimised and hygienic, making them ideal for sensitive potable water installations.</li><li><span class=\"font-semibold\">Pressure and temperature stability:</span> The solid valve bodies and high-quality brass or PP balls ensure a 100% seal, even with extreme pressure surges and high flow temperatures.</li><li><span class=\"font-semibold\">Ease of maintenance:</span> Even after many years of continuous use, K Aqua ball valves and angle seat valves can be operated smoothly and precisely thanks to Teflon-coated sealing elements.</li></ul><p>To maximise plant availability, we recommend strategically positioning the valves during the planning phase to enable maintenance work and flushing processes without extensive network interruptions.</p>",
+        "seoTitle": "Shut-off Valves & Ball Valves"
+      },
+      "weldInSaddles": {
+        "areas": "Subsequent branches, pipe network expansion, distribution setup",
+        "advTitle": "Weld-in Saddles for maximum flexibility",
+        "advList": [
+          "Subsequent installation: Expansion of existing PP-R pipe networks without severing the main pipe.",
+          "Time-saving: Drilling, heating, welding in, done in a few minutes.",
+          "Pressure-resistant: The saddle weld achieves the same pressure class as the base pipe.",
+          "Full flow: No cross-sectional narrowing in the main branch.",
+          "Versatile: Available with or without metallic thread transition (F/M)."
+        ],
+        "seoText": "Weld-in saddles for maximum flexibility are the perfect solution for subsequent branches in existing pipeline networks. Instead of laboriously cutting the main pipe and inserting tees, the pipe is simply drilled and the saddle is homogeneously welded on. This technique saves enormous assembly times and material costs in industrial distribution systems.",
+        "guideTitle": "Installation Guide: Flexibility through Weld-in Saddles",
+        "guideText": "<p>Modifying or expanding existing industrial and commercial pipe networks is often associated with high effort. <span class=\"font-semibold\">K Aqua weld-in saddles</span> offer an efficient and extremely secure solution for creating subsequent branches without interrupting the line.</p><p>The key technical advantages at a glance:</p><ul><li><span class=\"font-semibold\">Minimal installation time:</span> Instead of severing the main pipe and installing conventional tees, the pipe is simply precisely drilled and the saddle welded on. This drastically reduces installation costs.</li><li><span class=\"font-semibold\">Preservation of system integrity:</span> Through polyfusion, the weld-in saddle connects inseparably to the pipe wall, whereby the system retains its original pressure and temperature resistance (up to PN 25).</li><li><span class=\"font-semibold\">Flexible connection options:</span> Available as a pure plastic branch or with an integrated metal thread (F/M), saddles enable the direct connection of sensors, pressure gauges, or branch lines in tight spaces.</li></ul><p>To ensure a flawless weld, the use of the special K Aqua drilling and welding tools is strictly required, as they guarantee the exact milling depth and heating surface for a perfect connection.</p>",
+        "seoTitle": "Weld-in Saddles for Pipelines"
+      },
+      "accessories": {
+        "areas": "Pipe fastening, sealing, flange connection, repair",
+        "advTitle": "Accessories for a standard-compliant installation",
+        "advList": [
+          "Perfect fit: All accessories are geometrically matched to the K Aqua piping system.",
+          "Thermodynamic fastening: Pipe clamps with rubber inlay for fixed and sliding supports.",
+          "High-quality flange connections: Loose flanges and EPDM seals for transition to metal.",
+          "Quick repair: Repair plugs for accidentally drilled pipes.",
+          "UV resistance: Selected accessories are specially stabilised for outdoor installation."
+        ],
+        "seoText": "The right range of accessories is crucial for the longevity of a pipe network. K Aqua offers a comprehensive accessories matrix: from the thermodynamic fastening clamp to absorb linear expansion to the EPDM flat gasket for flange connections. Only with perfectly matched K Aqua accessories can you guarantee compliance with all GEG and DIN 18381 specifications.",
+        "guideTitle": "Expert Advice: K Aqua Accessories for standard-compliant installations",
+        "guideText": "<p>A high-quality piping system requires equally high-quality accessories. The K Aqua range includes all the essential components to ensure longevity, safety, and compliance with all building physics standards.</p><p>The most important aspects regarding the correct use of our accessories:</p><ul><li><span class=\"font-semibold\">Compensation for linear expansion:</span> Plastic pipes expand with temperature changes. The targeted use of our thermodynamic pipe clamps as fixed and sliding supports safely absorbs these movements and protects the system from damaging internal stresses. This is of crucial importance particularly in industrial plants and risers, where uncontrolled expansion could lead to structural damage.</li><li><span class=\"font-semibold\">Tight flange connections:</span> For transitions to large valves, pumps, or tanks, our loose flanges and the precisely matched EPDM flat gaskets offer absolute safety with high contact pressures and continuous vibrations. They guarantee a seamless, liquid-tight connection, thus preventing potentially disastrous leaks in critical infrastructures.</li><li><span class=\"font-semibold\">Repair solutions:</span> With our innovative repair plug, accidentally drilled pipes (e.g. on construction sites) can be homogeneously welded in minutes so that the pipe regains its full mechanical resilience. A complete replacement of the pipe section is therefore unnecessary.</li></ul><p>In addition to compensation and leak tightness, <span class=\"font-semibold\">insulation and fire protection</span> play a central role in professional installation. The K Aqua accessories range is designed to minimise thermal losses and meet the highest safety standards. Our special seals and fasteners are designed to effectively dampen sound transmission and prevent structure-borne noise propagation in the masonry.</p><p>By exclusively using original K Aqua accessories, you secure the full system warranty and avoid cost-intensive defects caused by incompatible third-party products. Invest in uncompromising quality to guarantee the trouble-free operation of your piping system for decades.</p>",
+        "faq": [
+          {
+            "q": "Are the accessories suitable for cold and hot water?",
+            "a": "Yes, our accessories such as pipe clamps and flat gaskets are designed for use in cold water, hot water, and heating systems and exhibit excellent thermal stability."
+          },
+          {
+            "q": "Can I use accessories from third-party providers?",
+            "a": "In order to claim the full K Aqua system warranty, it is mandatory to use original accessories. Third-party components can lead to leak issues or mechanical failures."
+          },
+          {
+            "q": "Are there special accessories for industrial use?",
+            "a": "Yes, our range includes heavy-duty loose flanges with a steel core, special EPDM gaskets, and reinforced pipe clamps that can easily withstand extreme industrial loads."
+          }
+        ],
+        "seoTitle": "Accessories for Pipe Installation"
+      },
+      "tools": {
+        "areas": "Pre-fabrication, site assembly, repair, special applications",
+        "advTitle": "Highest precision for the perfect connection",
+        "advList": [
+          "Precise temperature control: Microprocessor-controlled heating elements hold exactly 260°C.",
+          "Anti-stick coating: Teflon-PTFE for a residue-free melt.",
+          "Ergonomic design: Reduces the physical strain on the installer.",
+          "Digital documentation: Butt and electrofusion welding machines with protocol function.",
+          "Long lifespan: Robust mechanics for the harsh realities of the construction site."
+        ],
+        "seoText": "The K Aqua tool range forms the indispensable basis for the professional processing of our piping systems. From the precise pipe shear to the automated CNC butt welding machine, we offer the optimal equipment for every dimension. Only with calibrated original tools can the joining parameters required by the DVS be precisely maintained in order to guarantee a lifespan of over 50 years.",
+        "guideTitle": "Practical Guide: Pro tools for K Aqua pipe assembly",
+        "guideText": "<p>The quality of a plastic pipe installation stands and falls with the precision of the tools used. <span class=\"font-semibold\">K Aqua welding and cutting tools</span> are specifically tailored to the thermoplastic properties of PP-R and PPRCT to achieve flawless results.</p><p>Why professional equipment is indispensable:</p><ul><li><span class=\"font-semibold\">Flawless preparation:</span> An absolutely square and burr-free cut is the basic prerequisite for a tight weld. Our pipe cutters and cold circular saws prevent material compressions and microcracks.</li><li><span class=\"font-semibold\">Thermodynamic precision:</span> The microprocessor-controlled socket welding devices keep the ideal joining temperature of 260°C constant even in adverse weather conditions, which reliably prevents degradation of the polymer.</li><li><span class=\"font-semibold\">Automated safety:</span> For large nominal diameters, our computer-controlled butt welding and electrofusion welding machines eliminate human error by fully automatically regulating pressure, time, and temperature, and digitally documenting them for building inspection.</li></ul><p>Regular maintenance and cleaning of the Teflon-coated heating spigots is essential to ensure a homogeneous melt and permanently resilient, leak-free pipe networks.</p>",
+        "seoTitle": "Welding Tools & Pipe Cutters"
+      },
+      "fallback": {
+        "areas": "Universal installation technology, site requirements, system completion",
+        "advTitle": "Perfect system completion",
+        "advList": [
+          "Certified quality: Complies with the ISO 9001 management system.",
+          "System compatibility: Perfectly matched to the K Aqua piping system.",
+          "Longevity: Robust materials for the harsh everyday construction site.",
+          "Safe application: Guaranteed function with professional application.",
+          "Economy: Excellent price-performance ratio."
+        ],
+        "seoText": "As a system provider, K Aqua supplies not only pipes and fittings, but also all the necessary tools and accessories. From the high-precision welding device to the reliable pipe cutter: our tools guarantee standard-compliant processing and maximum installation safety. Rely on original accessories to maintain the warranty of your K Aqua overall system."
+      }
+    },
+    "labels": {
+      "applicationAreas": "Areas of Application",
+      "advantages": "Your Advantages at a Glance",
+      "technicalDescription": "Technical Profile & SEO",
+      "noResults": "No products found",
+      "searchPlaceholder": "Search by title or article number...",
+      "faqTitle": "Frequently Asked Questions (FAQ)",
+      "faqFallbackQ1": "What are the main advantages?",
+      "faqFallbackA1": "The system offers extreme longevity, corrosion resistance, and excellent hygienic properties for potable water.",
+      "faqFallbackQ2": "Is the material environmentally friendly?",
+      "faqFallbackA2": "Yes, PPRCT is 100% recyclable and has a very low CO2 footprint compared to metal pipes.",
+      "faqFallbackQ3": "How is it installed?",
+      "faqFallbackA3": "The installation is secure and leak-free via polyfusion welding.",
+      "downloads": "Downloads & Documents",
+      "tds": "Technical Data Sheet",
+      "tdsDesc": "Specifications & Dimensions (PDF)",
+      "cert": "Certificates & Standards",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Installation Guide",
+      "installDesc": "Instructions for Welding (PDF)",
+      "range": "Product Range",
+      "rangeDesc": "Complete product range with dimensions (PDF)",
+      "features": "Product Features",
+      "featuresDesc": "Material properties & system advantages (PDF)"
+    },
+    "specAndDim": "Specifications & Dimensions",
+    "certsAndNorms": "Certificates & Standards",
+    "approved": "approved",
+    "monitoring": "monitored",
+    "certified": "certified",
+    "quickLinks": "Quick Access",
+    "calcCo2": "Calculate CO2 Footprint",
+    "backToFinder": "Back to Product Finder",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "High-Performance Pipe Systems",
+    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
+    "sysPressure": "System Pressure",
+    "tempMax": "Max Temperature",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certification",
+    "lifespan": "Lifespan",
+    "fiberTech": "Fibre-Composite Technology",
+    "fiberTechDesc": "3-layer structure for minimised linear expansion and maximum stability at high temperatures.",
+    "compliance": "Compliance & Standards",
+    "dimensions": "Dimensions",
+    "globalNetwork": "Global Network",
+    "globalNetworkDesc": "K Aqua systems are in use in over 40 countries worldwide.",
+    "whyChoose": "Why {product} is the right choice",
+    "tools": {
+      "metaTitle": "PP-R Tools & Accessories for Piping Systems",
+      "metaDesc": "Discover professional K-Aqua tools and accessories. For secure, efficient, and durable installations of PP-R and PP-RCT piping systems.",
+      "heroEyebrow": "German Engineering",
+      "heroTitle": "Tools & Accessories.",
+      "heroSubtitle": "Absolute Precision.",
+      "heroDesc": "This module delivers uncompromising safety for the most demanding projects worldwide. Manufactured according to the strictest industry standards to last for generations. Where material failure is not an option.",
+      "heroBtnPrimary": "Request Project",
+      "heroBtnSecondary": "Technical Data",
+      "bentoEyebrow": "The K Aqua Ecosystem",
+      "bentoTitle": "Tools for global megaprojects.",
+      "bentoLead": "When international general contractors plan billion-dollar projects, they don't rely on promises, but on hard facts and highly precise equipment.",
+      "bento1Title": "Heating element socket welders",
+      "bento1Desc": "For dimensions 20 mm to 125 mm. Compact, robust design for tough construction site use.",
+      "bento2Title": "Pipe cutters & shears",
+      "bento2Desc": "Ergonomic designs for fatigue-free work and perfect 90° cuts.",
+      "bento3Title": "Butt welding machines",
+      "bento3Desc": "For nominal diameters up to 250 mm. CNC-controlled for absolute repeat accuracy.",
+      "bento4Title": "Repair sets & accessories",
+      "bento4Desc": "Drill heads, repair saddles, and hole saws for subsequent branches.",
+      "scrollEyebrow": "Deep Technology",
+      "scrollTitle": "No room for error tolerances.",
+      "scrollLead": "Discover the technological details that make our tool the first choice for certified installers.",
+      "scroll1Title": "Perfect Thermodynamics. With every weld.",
+      "scroll1Desc": "Our heating element socket welding devices are equipped with highly precise, Teflon-coated heating spigots and heating sockets. The microprocessor-controlled temperature regulation guarantees a constant welding temperature of 260°C, even in extreme outdoor temperatures on global construction sites. This creates an inseparable, homogeneous connection at the molecular level.",
+      "scroll2Title": "CNC-controlled butt welding.",
+      "scroll2Desc": "For large nominal diameters (up to 250 mm and more), we rely on CNC-controlled butt welding machines. Automatic pressure and time calculation eliminate sources of human error. Every welding cycle is digitally recorded to ensure complete traceability for the building inspection. German engineering at the highest level.",
+      "scroll3Title": "Precision pipe peelers. Accurate to the millimetre.",
+      "scroll3Desc": "Preparation is 80% of the weld. Our mechanical and electrical pipe peelers remove the oxide layer of K Aqua pipes with an absolutely uniform cutting depth. This prevents microcracks and creates a perfect fusion plane. A tool that outlasts generations.",
+      "scroll4Title": "Cold circular saws for precise cuts.",
+      "scroll4Desc": "Pipe shears can deform the material. Our industrial cold circular saws guarantee perfectly square, burr-free cuts. The result: No stress-induced cracks, no pressure loss, absolute plane parallelism before the welding process.",
+      "timelineTitle": "The K Aqua Welding Process",
+      "timelineDesc": "From the cut to the molecular fusion. A standardised process that leads to 100% tight and maintenance-free piping systems.",
+      "timeline1Year": "Phase 1: Material Preparation",
+      "timeline1Title": "The perfect cut.",
+      "timeline1Text": "A burr-free, 90-degree cut is the foundation of every permanent connection. Our precision cutters and cold circular saws guarantee an absolutely flat surface without microstructural deformations of the polypropylene.",
+      "timeline2Year": "Phase 2: Calibration & Peeling",
+      "timeline2Title": "Removal of the oxide layer.",
+      "timeline2Text": "Before welding, the pipe is exactly calibrated and the outer oxide layer is removed to the millimetre with our special peeler tools. This allows a 100% pure surface for the fusion process.",
+      "timeline3Year": "Phase 3: Thermal Fusion",
+      "timeline3Title": "Molecular amalgamation.",
+      "timeline3Text": "Pipe and fitting are heated simultaneously on the Teflon-coated heating matrix to exactly 260°C. The microprocessor-controlled thermostat of the K Aqua welding devices keeps the temperature constant, regardless of wind or weather.",
+      "timeline4Year": "Phase 4: The Connection",
+      "timeline4Title": "Lifelong security.",
+      "timeline4Text": "Within the specified changeover time, the heated components are joined together without twisting. After the cooling phase, a new, absolutely homogeneous workpiece is created. Maintenance-free for over 50 years.",
+      "specsTitle": "Industrial Authority. <br/> Down to the detail.",
+      "specsP1": "For decades, we have been combining craftsman's pride with the most modern, highly automated production technology in our main plant in the heart of Germany.",
+      "specsP2": "In use in the harshest deserts and most extreme climate zones in the world, our material proves itself every single day. We set the standard that the rest of the world follows.",
+      "specsList1": "ISO 9001 certified",
+      "specsList2": "Teflon PTFE Coating Grade A",
+      "specsList3": "Digital Temperature Calibration",
+      "ctaTitle": "Ready for uncompromising quality?",
+      "ctaDesc": "Speak with our engineering team about your next megaproject and request samples of our tools.",
+      "ctaBtn": "Start Project Enquiry",
+      "hero": {
+        "eyebrow": "Tools & Accessories",
+        "title": "Welding Tools for PP-R Installation",
+        "lead": "Socket welders, electrofusion technology and calibration tools: With K Aqua original tools, standard-compliant, permanently tight welded connections are created on every construction site. Professional tools for PP-R installation."
+      }
+    },
+    "valves": {
+      "metaTitle": "PP-R Fittings & Valves for Piping Systems",
+      "metaDesc": "Discover high-quality fittings and valves from K-Aqua. Maximum safety and longevity through German engineering for demanding pipe networks.",
+      "heroEyebrow": "The Valve Class",
+      "heroTitle": "Absolute Control.",
+      "heroSubtitle": "Under extreme pressure.",
+      "heroDesc": "Welcome to the premier league of fluid engineering. K Aqua valves and fittings are not just components. They are the incorruptible heart of global infrastructure. Built to last.",
+      "heroBtnPrimary": "Request Technology",
+      "heroBtnSecondary": "Discover the Architecture",
+      "manifestoTitle": "If the material yields, the system breaks. <br/><span class=\"text-primary\">We do not yield.</span>",
+      "manifestoP1": "In industrial fluid engineering, a valve is never just a switch for liquids. It is the critical node where kinetic energy, extreme pressure, thermal expansion, and chemical aggressiveness meet.",
+      "manifestoP2": "This is where banal mass-produced goods separate from true engineering. Our valves are massively over-engineered, paranodially precisely manufactured, and built for scenarios that other manufacturers would call \"impossible\". This is what we understand by <span class=\"text-foreground font-bold\">German Engineering</span>.",
+      "scrollEyebrow": "The Genesis of Perfection",
+      "scrollTitle": "From raw material to indestructible valve.",
+      "scrollLead": "Accompany the creation process of a K Aqua valve. An uncompromising path through heat, pressure, and microscopic precision.",
+      "scroll1Title": "Flawless raw material",
+      "scroll1Desc": "Our valves and fittings begin their existence as pure, industrially tested high-performance material. Through strict spectral analysis, we guarantee even before the first milling head is used that absolutely no microstructural weak points are present. This is the non-negotiable basis for later absolute corrosion resistance and mechanical integrity in years of continuous use.",
+      "scroll2Title": "High-precision CNC machining",
+      "scroll2Desc": "Every single component is milled from solid blocks in our plant on state-of-the-art 5-axis CNC machining centres with an absurd tolerance of less than a thousandth of a millimetre. This uncompromising precision ensures that sealing surfaces lie perfectly on top of one another. It completely eliminates leakage risks and guarantees absolutely smooth, silky, and wear-free operation, even after decades.",
+      "scroll3Title": "Cavitation-free flow",
+      "scroll3Desc": "A valve is only as good as its internal flow profile. Using the most advanced computational fluid dynamics (CFD), we have designed the internal contours so that turbulence and cavitation are practically eliminated. This means less pressure loss in the overall system and absolute noise minimisation even at the highest flow velocities.",
+      "scroll4Title": "100% Final Inspection. No exceptions.",
+      "scroll4Desc": "Random samples are not enough when billion-dollar infrastructures are at stake. Before a valve leaves the K Aqua plant, it is subjected to a fully automated, robotic test cycle that exceeds real loads many times over. High-pressure hydraulic tests, helium-vacuum leak tests, and thermal shock tests guarantee our legendary zero-defect rate.",
+      "showcaseEyebrow": "Anatomy of Reliability",
+      "showcaseTitle": "No weak points. <br/> No blind spots.",
+      "showcaseP1": "The internal architecture of our valves is consistently trimmed for <span class=\"font-semibold\">zero dead space</span>. Stagnation zones where bacteria like Legionella could multiply have been geometrically eliminated.",
+      "showcaseP2": "The water shoots through the valve body in a perfectly guided laminar flow. The massive sealing seats are self-cleaning and close hermetically even after the millionth cycle.",
+      "showcaseList1": "Certified potable water hygiene to the highest standards",
+      "showcaseList2": "Hermetic seal at maximum operating pressure",
+      "showcaseList3": "Maintenance-free spindle seals with double O-ring",
+      "bentoEyebrow": "Specifications",
+      "bentoTitle": "The bare numbers of superiority.",
+      "bentoLead": "When marketing phrases end, the data speaks. Discover the technical parameters that make our valves the ultimate choice for megaprojects.",
+      "bento1Title": "PN25 Continuous Pressure Load",
+      "bento1Desc": "Developed for continuous high-pressure applications beyond the norm. The wall thicknesses and thread designs are so massively constructed that they do not give in the slightest, even with extreme pressure peaks and water hammer. A monolithic block of safety.",
+      "bento2Title": "Thermal Sovereignty",
+      "bento2Desc": "From icy cold to boiling flow temperatures. The high-end material retains its full elasticity, does not embrittle, and resists thermal expansion extremely effectively.",
+      "bento3Title": "Chemical Resistance",
+      "bento3Desc": "Corrosion is a concept from the past. Our valves are immune to aggressive soil conditions, hard water, and chlorine-based disinfection measures. No rusting, no pitting.",
+      "bento4Title": "Industrial Ergonomics & Haptics",
+      "bento4Desc": "Designed for operators wearing heavy protective gloves. The handles offer maximum torque transfer without the risk of breaking off. Form follows absolute function.",
+      "ctaTitle": "Ready for absolute control?",
+      "ctaDesc": "Integrate K Aqua valves into your next piping project. Speak to our engineers about pressure ratings, material specs, and lead times.",
+      "ctaBtn": "Contact Engineering Team",
+      "timelineEyebrow": "The Path of Hardness.",
+      "timelineLead": "A timeline of uncompromising quality assurance. How an idea becomes an industrial legend.",
+      "timeline1Year": "Phase 01",
+      "timeline1Title": "Molecular Selection",
+      "timeline1Text": "Selection of metallic alloys and high-performance polymers specifically formulated for K Aqua. We rely on absolute creep resistance and maximum molecular stability.",
+      "timeline2Year": "Phase 02",
+      "timeline2Title": "CFD Flow Optimisation",
+      "timeline2Text": "Using supercomputers, the internal flow channels are calculated in thousands of iterations to minimise flow resistance to zero.",
+      "timeline3Year": "Phase 03",
+      "timeline3Title": "Climate Chamber Stress Test",
+      "timeline3Text": "Prototypes undergo months of continuous endurance tests in our climate chambers at up to 120°C, 25 bar pressure, and extreme chemical solutions.",
+      "timeline4Year": "Phase 04",
+      "timeline4Title": "Robotic Series Production",
+      "timeline4Text": "The transfer into our highly automated Industry 4.0 production line. We achieve maximum reproducibility with minimal tolerances without any source of human error.",
+      "timeline5Year": "Phase 05",
+      "timeline5Title": "Global Deployment",
+      "timeline5Text": "Deployment on the most critical construction sites in the world, from desert megaprojects to offshore facilities. Accompanied by our field engineering team.",
+      "finalTitle": "Build for generations. <br/>Not for the next maintenance interval.",
+      "finalDesc": "In a world that increasingly relies on rapid obsolescence and cheap replacement products, we stand as a steadfast counter-pole. A K Aqua valve is installed and then forgotten. Because it simply works. Decade after decade. Trust in true industrial authority.",
+      "ctaBtnPrimary": "Request Technical Consulting",
+      "ctaBtnSecondary": "Specifications as PDF",
+      "hero": {
+        "eyebrow": "Valves & Fittings",
+        "title": "PP-R Fittings & Valves for precise regulation",
+        "lead": "Shut-off, regulate, secure: K Aqua fittings made of PP-R combine corrosion-free hydraulics with German manufacturing precision for potable water, HVAC, and industry. For precise regulation in potable water and heating networks."
+      }
+    },
+    "category": {
+      "allProducts": "All Products",
+      "openInFinder": "Open in Finder",
+      "artNA": "Art. N/A",
+      "viewDetails": "View Product Details",
+      "learnMoreKnowledge": "Discover PP-R piping systems in the Knowledge Portal",
+      "learnMoreDesc": "Dive deeper into the technical documentation and discover expert articles on the installation, sustainability, and testing of our PP-R systems.",
+      "toKnowledgeBase": "Discover expert articles in the K-Aqua Academy"
+    },
+    "fittings": {
+      "meta": {
+        "title": "Moulded Parts & Fittings | K Aqua",
+        "desc": "K-Aqua moulded parts and fittings made of PP-R: Elbows, tees, reducers, and sockets. Uncompromising leak-tightness through German Engineering."
+      },
+      "hero": {
+        "eyebrow": "Moulded Parts & Fittings",
+        "title": "PP-R Fittings & Moulded Parts for permanently tight connections",
+        "lead": "From the elbow to the reducer: K Aqua PP-R fittings fuse molecularly with the pipe during welding. A homogeneous system without seals and without weak points. For permanently tight connections in every pipe network."
+      },
+      "intro": {
+        "eyebrow": "The Industrial Authority",
+        "title": "Safety is no coincidence. It is predictable.",
+        "lead": "When international general contractors plan billion-dollar projects, they don't rely on promises, but on hard facts. We set the standard that the rest of the world follows.",
+        "text1": "For decades, we have been combining craftsman's pride with the most modern, highly automated production technology in our main plant in the heart of Germany. Every elbow, every socket, every tee carries the unmistakable DNA of German engineering. In use in the harshest deserts, most extreme climate zones, and most demanding industrial plants in the world, our material proves itself every single day.",
+        "text2": "The fusion of macromolecules in our PP-R system creates a pipeline network without weak points. There are no sealing rings that can corrode, no adhesive joints that are attacked by chemicals. The pipe and the fitting are thermally fused into a single, inseparable workpiece. This is the absolute definition of safety."
+      },
+      "sticky": {
+        "eyebrow": "Architecture of Perfection",
+        "title": "The Anatomy of Reliability.",
+        "lead": "A deep dive into the physical and chemical properties that make our fittings the global benchmark.",
+        "items": [
+          {
+            "title": "The molecular structure",
+            "desc": "Our fittings are based on a highly cross-linked PP-R Polypropylene Random Copolymer. Through controlled temperature-pressure profiles during extrusion, we achieve an isotropic crystal structure. The result: An unprecedented resistance to stress cracks and extreme temperature fluctuations."
+          },
+          {
+            "title": "Thermoplastic Precision",
+            "desc": "Every fitting undergoes a thermoplastic injection moulding process with cavity tolerances in the micrometre range. This ensures that the melt indices during welding with our pipes are absolutely identical, for a homogeneous, inseparable, and 100% leak-free material connection."
+          },
+          {
+            "title": "Zero Fault Tolerance",
+            "desc": "We leave nothing to chance. Using ultrasonic wall thickness measurement, hydrostatic internal pressure creep rupture tests, and DSC (Differential Scanning Calorimetry), every batch is analysed. Only material that exceeds our internal standards (which are well above DIN EN ISO 15874) receives approval."
+          },
+          {
+            "title": "Cavitation Resistance",
+            "desc": "The flow-optimised internal geometry of our fittings effectively prevents pressure drops and cavitation, even at extreme flow velocities in industrial risers. This minimises noise emissions and protects the system from abrasive wear from the inside."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Performance Data",
+        "title": "Specifications beyond the standard.",
+        "lead": "While the industry sees standards as a goal, we view them merely as an absolute minimum.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Full compliance and testing for plastics piping systems for hot and cold water installations."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Designed for permanent high-pressure stress even at critical temperatures."
+          },
+          {
+            "title": "Chemical Inertness",
+            "desc": "Outstanding resistance against aggressive media. pH-value independent (pH 1 to 14) for industrial use."
+          },
+          {
+            "title": "Acoustic Damping",
+            "desc": "The inherent elasticity of the PP-R material absorbs structure-borne noise and reduces flow noise to an absolute minimum, ideal for luxury hotels and hospitals."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "The Genesis Process",
+        "desc": "From the molecular raw mass to the indestructible component. A look into our highly automated manufacturing matrix.",
+        "items": [
+          {
+            "year": "Step 01",
+            "title": "Granule Selection",
+            "text": "Only highly pure, pre-synthesised polypropylene granules from premium European refineries pass our incoming inspection."
+          },
+          {
+            "year": "Step 02",
+            "title": "Thermal Conditioning",
+            "text": "Before injection moulding, the granulate is thermally stabilised to eliminate residual moisture and guarantee a homogeneous melt."
+          },
+          {
+            "year": "Step 03",
+            "title": "High-Pressure Injection Moulding",
+            "text": "In fully automated, robot-supported injection moulding cells, we form the material under enormous pressure into flawless fittings."
+          },
+          {
+            "year": "Step 04",
+            "title": "Cooling Matrix",
+            "text": "A computer-controlled cooling profile prevents internal stresses in the material and ensures perfect dimensional accuracy."
+          },
+          {
+            "year": "Step 05",
+            "title": "Inspection & Logistics",
+            "text": "Every batch receives its digital certificate. Ready for dispatch to the most demanding construction sites in the world."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Lifespan > 50 Years. Guaranteed.",
+        "text": "Time is the ultimate stress test for any material. Our fittings are designed to outlast the lifespan of the building itself. By adding special antioxidants and thermal stabilisers to our PP-R matrix, thermal-oxidative aging is massively delayed. Even with continuous flow temperatures of 70°C and pressure loads of 10 bar, we guarantee a service life of over half a century. This is not marketing. This is applied polymer physics.",
+        "badge": "100% Maintenance-Free"
+      },
+      "cta": {
+        "title": "Ready for uncompromising quality?",
+        "desc": "Connect with our engineering team. We don't just deliver products, we deliver the security for your next megaproject.",
+        "primary": "Start Project Enquiry",
+        "secondary": "View Entire Range"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "PP-R & PPRCT Piping Systems | K Aqua",
+        "desc": "High-performance piping systems made of PP-R and PPRCT. German Engineering for potable water, climate, and industry. Uncompromising safety for megaprojects."
+      },
+      "hero": {
+        "eyebrow": "Piping Systems",
+        "title": "PP-R & PPRCT Pipes from d20 to d630",
+        "lead": "K Aqua PP-R pipes and PPRCT multilayer pipes for potable water, heating, and industry: Mono and fibre-composite versions in all pressure classes, manufactured in Germany according to DIN 8077/8078. Available from d20 to d630 for permanently tight connections."
+      },
+      "sticky": {
+        "eyebrow": "Material Science",
+        "title": "Polymer Engineering in perfection.",
+        "lead": "The molecular structure of our PP-R and PPRCT pipes has been optimised for extreme thermomechanical loads. A masterpiece of German engineering.",
+        "items": [
+          {
+            "title": "PPRCT Multilayer Architecture",
+            "desc": "Our next-generation PPRCT (Polypropylene Random Copolymers with modified Crystallinity and Temperature resistance) pipes feature an integrated glass fibre compound layer. This reduces the thermal linear expansion by up to 75% compared to standard PP-R pipes, while drastically increasing the compressive strength at high temperatures. Thinner wall thicknesses with increased flow capacity are the result."
+          },
+          {
+            "title": "Homogeneous Welding",
+            "desc": "In contrast to press fittings or adhesive joints, we use the polyfusion welding process. Pipe and fitting fuse at 260°C into a single, inseparable molecular unit. The system operates entirely without O-rings or mechanical seals. The joint is physically stronger than the pipe itself: a 100% leak-free lifespan is guaranteed."
+          },
+          {
+            "title": "Absolute Freedom from Corrosion",
+            "desc": "Metallic systems capitulate to aggressive water qualities, low pH values, or high chloride content. K Aqua polymer pipes are completely inert. Pitting, crevice corrosion, galvanic corrosion, or incrustations are physically excluded. The pipe friction loss (roughness value k=0.007 mm) remains at day one levels even after 50 years of operation, which massively reduces pump energy."
+          },
+          {
+            "title": "Thermal and Acoustic Insulation",
+            "desc": "Thanks to the low thermal conductivity of PP-R (0.24 W/mK) compared to steel (50 W/mK) or copper (380 W/mK), condensation on cooling systems is significantly delayed and heat losses in heating systems are minimised. In addition, our thick-walled polymer pipes efficiently absorb flow noise and water hammers, perfecting acoustic comfort in high-rises and hotels."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Zero Fault Tolerance",
+        "desc": "Every centimetre of our pipes is monitored in the extrusion process. From the granulate to the finished product: Quality Made in Germany.",
+        "items": [
+          {
+            "year": "Stage 01",
+            "title": "Premium Raw Material",
+            "text": "We exclusively process highly pure PP-R and PPRCT granules from the world's leading polymer manufacturers. Every batch undergoes an MFR test (Melt Flow Rate) and an oxidative induction time measurement (OIT) in our in-house laboratory before being released for extrusion."
+          },
+          {
+            "year": "Stage 02",
+            "title": "Precision Extrusion",
+            "text": "Our state-of-the-art extrusion lines manufacture 3-layer fibre composite pipes with micrometre precision. Ultrasonic wall thickness measurement in real-time over 360° ensures that the minimum permissible tolerances are exceeded, even with SDR 6 pipes."
+          },
+          {
+            "year": "Stage 03",
+            "title": "Thermal Conditioning",
+            "text": "Immediately after extrusion, the pipes are gradually cooled down in specially tempered water baths. This gentle cooling process prevents internal residual stresses in the material and ensures the highest dimensional accuracy across all dimensions."
+          },
+          {
+            "year": "Stage 04",
+            "title": "100% Traceability",
+            "text": "Every pipe receives an indelible laser imprint with exact batch and production time details. Even after decades in the wall, the origin of every K Aqua pipe can be traced back seamlessly to the granule batch."
+          },
+          {
+            "year": "Stage 05",
+            "title": "Testing & Approval",
+            "text": "Hydraulic burst pressure test at 95°C for 1000 hours. Tensile tests, notched impact strength, and toxicological safety testing. Only when the product exceeds all standards (DIN 8077/8078, EN ISO 15874) does it leave our factory."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifications",
+        "title": "A dimension for every requirement.",
+        "lead": "Scalable from d20 house connections to d500 industrial risers. Our system grows with the dimensions of your project.",
+        "items": [
+          {
+            "title": "Dimensions from d20 to d500",
+            "desc": "Seamless portfolio of pipes and fittings. Whether tees, reducers, or flange connections in gigantic dimensions, we deliver the complete system from a single source. No compromises on hydraulics."
+          },
+          {
+            "title": "SDR Classes 6 to 11",
+            "desc": "Tailor-made pressure classes (PN10 to PN25) through various Standard Dimension Ratios. Optimise material usage and flow."
+          },
+          {
+            "title": "Potable Water Hygiene",
+            "desc": "Complies with the strictest European standards (UBA, DVGW). Absolutely food-safe, tasteless and odourless. Optional antibacterial inner coating."
+          },
+          {
+            "title": "UV-Resistant Outdoor Pipes",
+            "desc": "For outdoor installations in extreme climates (e.g. Middle East), we offer special UV-stabilised pipes. The protective outer layer blocks UV radiation and prevents polymer degradation."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Have your project dimensioned by experts.",
+        "desc": "Send us your isometrics or P&ID plans. Our engineering team handles the hydraulic calculation and bill of materials generation for your large-scale project.",
+        "primary": "Start Project Enquiry"
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "PP-R Transition Fittings and System Connections",
+        "desc": "K Aqua Transitions: Hybrid connectivity of the absolute highest class. When high-strength metal meets innovative plastic. German Engineering."
+      },
+      "hero": {
+        "eyebrow": "System Transitions",
+        "title": "Transition Fittings: Securely from metal to PP-R",
+        "lead": "Brass meets polymer: K Aqua transition fittings connect existing metal pipelines permanently tightly and corrosion-free to the PP-R system, tested well beyond the standard."
+      },
+      "intro": {
+        "eyebrow": "The Challenge",
+        "title": "Where worlds collide.",
+        "lead": "The transition from rigid metallic piping systems to modern thermoplastic networks is the Achilles nerve of every building and industrial installation. Maximum thermal and mechanical shear forces are at work here."
+      },
+      "sticky": {
+        "eyebrow": "Deep Tech",
+        "title": "Anatomy of Indestructibility.",
+        "lead": "We do not consider a transition fitting as an accessory, but as a highly complex mechanical instrument. Every millimetre of wall thickness, every thread is the result of countless Finite Element Analyses (FEA).",
+        "items": [
+          {
+            "title": "The Symbiosis of Metal and Polymer",
+            "desc": "Our transition fittings combine the relentless mechanical strength of dezincification-resistant CW617N brass with the chemical inertness of PPRCT. This material fusion is not created by simple pressing, but by a thermomechanical injection moulding process that achieves an inseparable molecular interlocking."
+          },
+          {
+            "title": "Extreme Torsion and Torque",
+            "desc": "A critical failure criterion for standard fittings is torque overload during installation. K Aqua transitions integrate a patented hexagonal anchoring profile in the plastic jacket. The result: Over 300 Nm guaranteed torsional resistance without delamination of the boundary layer."
+          },
+          {
+            "title": "Thermal Expansion Coefficients in Equilibrium",
+            "desc": "Metals and plastics expand differently during temperature fluctuations (Δα). Thanks to precisely calculated micro-expansion joints in the brass insert, our fittings compensate for extreme shocks from -20°C to +95°C in milliseconds, absolutely leak-free."
+          },
+          {
+            "title": "Zero-Tolerance Quality Control",
+            "desc": "Every single hybrid component undergoes a fully automated helium leak test and a 3D optical measurement. If the limit value of 10^-5 mbar·l/s is even slightly touched, our system rigorously rejects the part. German Engineering tolerates no compromises."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifications",
+        "title": "Architecture of Performance.",
+        "lead": "When you plan megaprojects with tens of thousands of connections, statistical reliability is the most important ROI. K Aqua provides you with the physical guarantee for it.",
+        "items": [
+          {
+            "title": "DZR Brass Core",
+            "desc": "Dezincification-resistant brass grade CW617N (according to DIN EN 12164) eliminates the risk of selective corrosion in aggressive water qualities."
+          },
+          {
+            "title": "Anti-Rotation Design",
+            "desc": "Polygonal undercuts form a geometric lock that absorbs extreme tightening torques without stressing the plastic casing."
+          },
+          {
+            "title": "Deep-Drawn Thread",
+            "desc": "Conical and cylindrical ISO 7/1 and ISO 228 threads, machine-cut with a tolerance of ±0.01mm for perfect sealing."
+          },
+          {
+            "title": "PPRCT Matrix",
+            "desc": "The highly crystalline structure of our Polypropylene Random Copolymer offers outstanding long-term creep resistance at high temperatures."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "The Manufacturing Cycle",
+        "desc": "A look into our manufactory. The journey from raw material to tested hybrid fitting is an orchestra of heat, pressure, and ruthless precision.",
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Blank Machining (CW617N)",
+            "text": "The brass is pressed into high-precision dies at 750°C, followed by CNC-controlled machining in the micrometre range to create the sealing profile."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Surface Passivation",
+            "text": "To eliminate galvanic corrosion, the thread inserts undergo a multi-stage passivation process in electrolytic ultrasonic baths."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Injection Moulding",
+            "text": "In high-pressure injection moulding machines (2,000 bar), the molten PPRCT encloses the brass. The plastic completely fills every undercut."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Controlled Cooling",
+            "text": "A programmed, gradual temperature reduction prevents internal stresses in the plastic lattice and ensures the concentric dimensional accuracy of the fitting."
+          },
+          {
+            "year": "Phase 5",
+            "title": "Pressure & Torsion Testing",
+            "text": "Random burst tests up to 120 bar and continuous vibration tests simulate 50 years of the most aggressive industrial endurance stress."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Certifications & Parameters",
+        "title": "Hard Facts.",
+        "lead": "We don't just test to the standard. We define it. Our internal test protocols exceed the requirements of DVGW, SKZ, and ISO by up to 300%.",
+        "items": [
+          {
+            "label": "Operating Pressure (PN)",
+            "value": "Up to 25 bar",
+            "sub": "At 20°C water"
+          },
+          {
+            "label": "Temperature Spectrum",
+            "value": "-20°C to +95°C",
+            "sub": "Peak load up to 110°C"
+          },
+          {
+            "label": "Thread Standards",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Internal thread & external thread"
+          },
+          {
+            "label": "Lifecycle",
+            "value": "> 50 Years",
+            "sub": "Under industrial conditions"
+          },
+          {
+            "label": "Brass Alloy",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Dezincification-free"
+          },
+          {
+            "label": "Plastic",
+            "value": "PPRCT / PP-R",
+            "sub": "Potable water certified"
+          },
+          {
+            "label": "Potable Water Compliance",
+            "value": "UBA, DVGW",
+            "sub": "100% lead-free options"
+          },
+          {
+            "label": "Quality Assurance",
+            "value": "ISO 9001:2015",
+            "sub": "100% batch tracking"
+          }
+        ]
+      },
+      "cta": {
+        "title": "The strongest connection of your project.",
+        "desc": "Rely on proven German engineering. Contact us for technical data sheets, BIM models, or individual project advice.",
+        "primary": "Start Project Enquiry",
+        "secondary": "CAD & Specifications"
+      }
+    },
+    "hero": {
+      "eyebrow": "SYSTEM ARCHITECTURE",
+      "title1": "K-AQUA: THE ABSOLUTE",
+      "title2": "ARCHITECTURE OF WATER.",
+      "desc": "Precision at the molecular level. Engineered for eternity. Our piping systems, fittings, and valves define the global standard for industrial and civil water infrastructure. No compromises. Just pure performance."
+    },
+    "sticky": {
+      "eyebrow": "THE PRODUCT SPECTRUM",
+      "title": "UNCOMPROMISING ENGINEERING.",
+      "lead": "Every component is part of a closed, perfect system. From the feed-in to the end point, we control the flow of water, chemicals, and gases with relentless reliability.",
+      "items": [
+        {
+          "title": "PPR PIPING SYSTEMS: INDESTRUCTIBLE VEINS",
+          "desc": "The K Aqua PPR system (Polypropylene Random Copolymer) is the backbone of modern fluid transport. Thermally fused into a homogeneous unit, it withstands extreme pressures, chemical attacks, and thermal loads. A system that does not leak, does not corrode, and lasts for decades."
+        },
+        {
+          "title": "FITTINGS: GEOMETRIC PERFECTION",
+          "desc": "Every K Aqua fitting is a masterpiece of fluid mechanics. Reduced cavitation, optimised wall thicknesses, and exact tolerances in the micrometre range guarantee minimal pressure losses and maximum system safety. We do not leave the flow to chance."
+        },
+        {
+          "title": "VALVES & FITTINGS: ABSOLUTE CONTROL",
+          "desc": "Industrial shut-off and control technology operating under the harshest conditions worldwide. Our ball valves, angle seat valves, and non-return valves are tested for tens of thousands of cycles without performance degradation. Maximum tightness under maximum load."
+        },
+        {
+          "title": "COMPOSITE PIPES: THE SYNERGY OF MATERIALS",
+          "desc": "Aluminium meets high-performance polymer. K Aqua multilayer composite pipes combine the mechanical stability of metal with the flexibility and chemical resistance of plastic. 100% oxygen-tight. Minimal linear expansion. The ultimate solution for complex HVAC systems."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "PERFORMANCE DATA",
+      "title": "TECHNOLOGICAL SUPERIORITY. DATA-DRIVEN.",
+      "lead": "K Aqua systems are not just pipes. They are high-performance networks for fluids. Developed according to the strictest German industrial standards.",
+      "items": [
+        {
+          "title": "Thermal Fusion",
+          "desc": "Homogeneous weld seams. The material becomes one. No glue, no sealing rings that can fail. 100% security against leaks on a molecular basis."
+        },
+        {
+          "title": "Corrosion Immunity",
+          "desc": "Absolutely resistant to pitting, rust, and electrochemical corrosion. The transported medium remains in its purest state."
+        },
+        {
+          "title": "Flow Optimisation",
+          "desc": "Smooth wall technology (roughness 0.007 mm) with minimal friction coefficient prevents deposits and massively minimises pressure loss."
+        },
+        {
+          "title": "Pressure Resistance PN25+",
+          "desc": "Designed for maximum stress in high-rises, industrial plants, and critical infrastructure. Designed for trouble-free operation over 50 years."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "THE INSTALLATION PROCESS. REDEFINED.",
+      "desc": "Faster. Safer. Cleaner. Our system drastically reduces installation time while minimising sources of error. A chronology of efficiency.",
+      "items": [
+        {
+          "year": "PHASE 01",
+          "title": "PLANNING & DIMENSIONING",
+          "text": "Exact hydraulic calculation and layout of the pipe diameters. Avoidance of overdimensioning due to superior flow properties."
+        },
+        {
+          "year": "PHASE 02",
+          "title": "CUTTING & PREPARATION",
+          "text": "Cold and chipless cutting of the pipes. Absolutely clean cut edges guarantee perfect weld preparation without risk of contamination."
+        },
+        {
+          "year": "PHASE 03",
+          "title": "HEATING ELEMENT SOCKET WELDING",
+          "text": "The tool heats the pipe and fitting exactly to 260°C. In seconds, a molecular connection is created that is inseparable."
+        },
+        {
+          "year": "PHASE 04",
+          "title": "PRESSURE TESTING & ACCEPTANCE",
+          "text": "The system is placed under extreme test pressure. No tolerance for leaks. K Aqua delivers 100% security from the very first drop."
+        },
+        {
+          "year": "PHASE 05",
+          "title": "OPERATION FOR DECADES",
+          "text": "Maintenance-free. Low-noise. The system operates in the background of the most modern buildings in the world with relentless reliability."
+        }
+      ]
+    },
+    "sysLead": "The foundation of our catalogue: four components of an integrated system. Pipes, fittings, valves, and tools form a system made of PP-R and PP-RCT."
+  },
+  "solutions": {
+    "eyebrow": "",
+    "title1": "",
+    "titleGrad": "",
+    "title2": "",
+    "lead": "",
+    "benefits": {},
+    "nextEyebrow": "",
+    "nextTitle": "",
+    "nextLead": "",
+    "nextCta": "",
+    "krankenhaus": {},
+    "hotels": {},
+    "vorfertigung": {},
+    "hochhaus": {},
+    "index": {},
+    "rechenzentrum": {}
+  },
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Customer Service &",
+    "titleGrad": "Know-how.",
+    "lead": "Our customer service & know-how offers technical documents for download and step-by-step videos on all welding procedures.",
+    "dlEyebrow": "Downloads",
+    "dlTitle": "Technical Documents",
+    "downloads": [
+      {
+        "t": "K Aqua Product Range",
+        "s": "Complete catalogue with dimensions & articles"
+      },
+      {
+        "t": "K Aqua Product Properties",
+        "s": "Technical properties & material data"
+      },
+      {
+        "t": "K Aqua Quality Assurance",
+        "s": "Test procedures & quality standards"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Welding procedures on video",
+    "vidLead": "Four procedures, four videos, straight from the field.",
+    "videos": [
+      {
+        "t": "Socket welding with hand welding tool",
+        "s": "PP-R/PPRCT pipe & fitting"
+      },
+      {
+        "t": "Socket welding with welding machine",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Electrofusion welding",
+        "s": "PP-R/PPRCT pipe & fitting"
+      },
+      {
+        "t": "Butt fusion welding",
+        "s": "PP-R/PPRCT large dimensions"
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "The K Aqua PP-R and PPRCT piping systems are manufactured by KWT GmbH in Waldsolms, Germany, with the highest precision. Our imprint offers our customers and business partners complete transparency regarding our corporate structure, legal representatives, and all relevant commercial register data. We place great value on open communication and compliance with all legal requirements in national and international business transactions. The information provided on our pages is continuously checked and updated to always provide you with correct technical and commercial data on our plastic piping systems.",
+      "impressum2": "As a globally operating manufacturer of premium plastic pipe solutions for potable water, heating and cooling systems, and highly complex industrial applications, we are committed to strict compliance with all legal and regulatory standards. This includes data protection, fair competition conditions, and international trade guidelines. However, no liability or guarantee can be assumed for the topicality, correctness, and completeness of the provided information and software tools for hydraulic calculation. The content and structure of the K Aqua websites are protected by copyright. The reproduction of information, technical data sheets, or installation guidelines requires prior consent.",
+      "kontakt1": "Do you have technical questions about our PP-R/PPRCT pipes or do you need support with an international project? The K Aqua contact team in Waldsolms is at your disposal.",
+      "kontakt2": "Whether it is isometric calculations, on-site welder training, or commercial enquiries: our engineers and sales representatives reply promptly to ensure the success of your project.",
+      "projektanfrage1": "Are you planning a pioneering construction project? Send us your project enquiry for K Aqua PP-R and PPRCT piping systems. Our technical department in Waldsolms is specialised in the design and dimensioning of large-scale installations. These include demanding high-rises, hygienically sensitive hospitals, extensive district cooling networks, and complex industrial cooling and heating systems. Thanks to our decades of experience in polymer engineering, we understand the specific hydraulic and thermal requirements placed on the infrastructure of modern buildings. With K Aqua, you choose not only a product but a holistic system solution.",
+      "projektanfrage2": "As soon as you share your detailed project specifications, P&ID plans, or isometrics with us, our specialist engineers begin a profound analysis. We support you with complex pressure loss calculations, determining thermal linear expansions, and the exact positioning of fixed and sliding supports. Furthermore, we create precise bills of materials and design tailor-made transition fittings for connecting to large metallic components. Our goal is to design a hydraulically perfectly balanced pipe network for you that minimises the energy consumption of your pumps and guarantees a maintenance-free service life of over 50 years.",
+      "projektanfrage3": "Discretion and reliability are our top priorities. Every project enquiry is treated with strict confidentiality and processed exclusively by our qualified German engineering team. We also coordinate worldwide logistics and ensure that our high-end pipes and fittings arrive at your construction site on time and undamaged. Additionally, we offer on-site welder training through our certified instructors to ensure that the installation is carried out exactly according to the specifications of German Engineering. With K Aqua, you secure maximum efficiency, absolute freedom from leaks, and the longevity of your entire piping system.",
+      "news1": "Stay up to date with the latest news from K Aqua. We regularly publish updates on new PP-R/PPRCT product developments, international trade fair appearances, and global megaprojects.",
+      "news2": "Our news section also informs you about technical innovations in socket welding, material science advancements in Polypropylene Random Copolymer, and sustainability initiatives at our plant in Waldsolms."
+    },
+    "eyebrow": "About Us",
+    "title1": "Experience is your",
+    "titleGrad": "advantage.",
+    "lead": "New strategies, grown knowledge: As the manufacturer of K-Aqua, KWT GmbH combines decades of manufacturing experience with a clear vision forward.",
+    "h2": "K Aqua: Leading in water supply",
+    "p1": "The business field of KWT GmbH is the production of pipes and fittings for water supply from various plastics. With this, the company positions itself in the construction value chain as a building material supplier and manufacturer.",
+    "p2": "There is a close and long-standing partnership with the premium manufacturer KESSEL, \"Leading in drainage\". With this experience from decades, we carry our success into the future.",
+    "polEyebrow": "Corporate Policy",
+    "polTitle": "Value is created in interaction.",
+    "polLead": "No customer value without employee value, no employee value without corporate value, and no corporate value without value for the environment and society.",
+    "cards": [
+      {
+        "t": "People at the centre",
+        "d": "All employees are involved in the continuous improvement process. Quality always remains compatible with costs and deadlines."
+      },
+      {
+        "t": "Reliability",
+        "d": "The wishes of customers and all interested parties are recognised, taken seriously, and implemented in compliance with legal and social standards."
+      },
+      {
+        "t": "Ecological Responsibility",
+        "d": "All corporate activities are carried out in consideration of resource conservation, environmental compatibility, and strict adherence to all obligations."
+      }
+    ],
+    "genauEyebrow": "GENAU Management System",
+    "genauTitle": "Look closely. Improve exactly.",
+    "genauLead": "The GENAU management system is integrated into the House of KWT and is thus a central element of our philosophy.",
+    "points": [
+      "Continuous improvement of occupational, environmental, and health protection",
+      "Optimisation of energy efficiency",
+      "Prevention, ongoing hazard identification, and risk assessment",
+      "Every employee is obliged to report hazards and actively participate"
+    ],
+    "certTitle": "Certified to standard",
+    "certText": "The lived GENAU management fulfils the requirements of DIN EN ISO 14001 and 50001, supplemented by ISO 9001:2015 since October 2025.",
+    "meta": {
+      "title": "About KWT GmbH: Experts in Pipe Manufacturing",
+      "desc": "KWT GmbH in Waldsolms combines German engineering art with state-of-the-art manufacturing. Triple ISO-certified, we produce K-Aqua PP-R piping systems."
+    },
+    "hero": {
+      "eyebrow": "The K Aqua Doctrine",
+      "title1": "German Engineering.",
+      "title2": "Uncompromising.",
+      "desc": "We make no compromises. We define the global standard for PP-R piping systems. Welcome to the epicentre of German engineering art."
+    },
+    "intro": {
+      "title1": "WE DON'T JUST GUIDE WATER.",
+      "title2": "WE CONTROL IT.",
+      "desc": "For over 30 years, we have been manufacturing piping systems built for eternity. No room for error. No place for mediocrity. Only pure, relentless precision that manifests in every single fitting."
+    },
+    "material": {
+      "eyebrow": "Material Science",
+      "title1": "Polypropylene Random Copolymer.",
+      "title2": "Unleashed.",
+      "p1": "PP-R Type 3 is not just a plastic. It is a highly complex, thermoplastic material that we master at the molecular level.",
+      "p2": "Through the strategic arrangement of ethylene monomers in the propylene chain, we achieve unparalleled impact strength, even at sub-zero temperatures. Our granules come exclusively from the global elite of raw material producers. We analyse every batch using Differential Scanning Calorimetry (DSC) and Melt Flow Rate (MFR) tests. Anything that misses our specifications by even a fraction of a percent is ruthlessly eliminated.",
+      "items": [
+        {
+          "title": "Extreme Molar Mass",
+          "desc": "Guarantees maximum creep strength and absolute resistance to stress corrosion cracking under extreme pressures."
+        },
+        {
+          "title": "Crystalline Optimisation",
+          "desc": "The perfect thermodynamic balance. Maximum flexibility for radical laying conditions with simultaneous axial stiffness."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "The Evolution of Perfection",
+      "desc": "An unstoppable rise to global market dominance. Every decade a milestone of technological superiority.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "The Origin of Zero Tolerance",
+          "text": "Where others made compromises, we drew a red line. The founding of K Aqua was based on a single, unshakable principle: Flawless piping systems. Our first extruders ran with a precision that shocked the market."
+        },
+        {
+          "year": "2005",
+          "title": "The Polypropylene Revolution",
+          "text": "We refused to accept the status quo. With the introduction of our proprietary PP-R compound, we redefined thermal stability. While competing products collapsed under pressure, our systems remained stoically intact. A triumph of polymer chemistry."
+        },
+        {
+          "year": "2015",
+          "title": "The Architectural Symbiosis",
+          "text": "From the skylines in Dubai to the industrial plants in the Ruhr area: K Aqua became synonymous with indestructible infrastructure. Our PPRCT fibre composite pipes revolutionised building construction. Less expansion, more flow, absolute dominance."
+        },
+        {
+          "year": "2026",
+          "title": "The Molecular Dictatorship",
+          "text": "Today, we control every aspect of production. From the selection of raw granules to the final inspection, our systems are subject to a dictatorial quality regime. The result? A guaranteed lifespan that outlasts generations."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "PHYSICS CONQUERED",
+      "title": "The Four Pillars of Power.",
+      "lead": "Technology that borders on magic. We haven't just overcome the limitations of conventional piping systems, we have pulverised them.",
+      "items": [
+        {
+          "title": "Absolutism in Quality",
+          "desc": "Every millimetre of our PP-R and PPRCT systems undergoes the most brutal stress tests. A 50-year lifespan is not a promise, but a mathematical certainty. We tolerate zero deviations. What leaves our halls is perfection in polymer form."
+        },
+        {
+          "title": "Thermal Invulnerability",
+          "desc": "Our fibre composite pipes (K Aqua Faser) almost completely neutralise thermal linear expansion. Whether freezing -20°C or boiling +95°C, our systems remain absolutely dimensionally stable. An engineering masterpiece that seems to defy the laws of physics."
+        },
+        {
+          "title": "Chemical Resistance",
+          "desc": "Corrosion does not exist in our vocabulary. Our polymers are immune to the most aggressive media, incrustation, and biological degradation. While metals in the ground rust and decay, K Aqua remains untouched: stoic, monolithic, indestructible."
+        },
+        {
+          "title": "Molecular Fusion",
+          "desc": "Through our homogeneous welding process, pipe and fitting fuse at the molecular level into an inseparable unit. No seals that can fatigue. No mechanical weak points. A monolithic structure that lasts forever."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "INDUSTRIAL DOMINANCE",
+      "title": "Infrastructure on steroids.",
+      "lead": "We don't just manufacture pipes. We create the arteries of modern civilisation. K Aqua is the backbone of industrial and architectural megaprojects worldwide.",
+      "items": [
+        {
+          "title": "Brutal Extrusion",
+          "desc": "High-performance lines operating under brutal pressure. The result is unmatched wall thickness consistency down to the micrometre range."
+        },
+        {
+          "title": "Certified Superiority",
+          "desc": "ISO 9001, 14001, 50001. We don't just exceed standards, we dictate them. International accreditation as the absolute standard."
+        },
+        {
+          "title": "Hygiene Dictate",
+          "desc": "Food-safe, toxicologically harmless, and absolutely germ-resistant. Potable water remains untouched and pure in K Aqua systems. No exceptions."
+        },
+        {
+          "title": "Resource Efficiency",
+          "desc": "Fully recyclable. Minimal carbon footprint during manufacturing. Because true technological power always means responsibility for the future."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Corporate Policy",
+      "title": "The foundation of our actions.",
+      "desc": "Technology alone is not enough. True greatness manifests in the way a company interacts with its environment, its employees, and its partners.",
+      "items": [
+        {
+          "title": "Customer Obsession",
+          "desc": "We don't just serve markets, we dominate them through radical customer focus. Your requirements are our command. Our solutions are precise, scalable, and absolutely uncompromising in their execution."
+        },
+        {
+          "title": "Strategic Alliances",
+          "desc": "We are not looking for suppliers, we form strategic alliances with the best raw material producers on the planet. Joint research, joint quality standards, joint dominance."
+        },
+        {
+          "title": "Ecological Imperative",
+          "desc": "Sustainability is not a marketing slogan at K Aqua, but a physical imperative. Longevity is the ultimate environmental protection. Our systems minimise the energetic footprint from production to recycling."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Certified Quality",
+      "title1": "The ",
+      "titleHighlight": "GENAU",
+      "title2": " Management System",
+      "p1": "The goal of the GENAU management system is the continuous improvement of occupational, environmental, and health protection within the company.",
+      "p2": "All corporate activities at KWT are carried out taking into account resource conservation, environmental compatibility, and strict compliance with all obligations. The practiced GENAU management fulfills the high requirements of ",
+      "p3": " and ",
+      "list1Title": "Ecological Responsibility",
+      "list1Desc": "Environmental protection is part of our understanding of quality, to which all KWT GmbH employees are committed.",
+      "list2Title": "Energy Efficiency",
+      "list2Desc": "Targeted identification of risks and implementation of measures to optimise energy efficiency."
+    }
+  },
+  "news": {
+    "eyebrow": "News & Events",
+    "title1": "Latest from",
+    "titleGrad": "K Aqua.",
+    "date": "October 2025",
+    "h2": "We are triple ISO-certified",
+    "p": "Our ISO management system has been expanded and now includes quality, environmental, and energy management:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Quality Management System"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental Management System"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy Management System"
+      ]
+    ],
+    "btnDe": "Certificate (DE)",
+    "btnEn": "Certificate (EN)",
+    "eventsTitle": "Trade Fairs & Events",
+    "eventsText": "Visit K Aqua at upcoming events. Currently, no dates have been announced. Please check back soon.",
+    "lead": "Read the latest from K Aqua. "
+  },
+  "career": {
+    "eyebrow": "Career",
+    "title1": "Career at K-Aqua: More than",
+    "titleGrad": "just a salary.",
+    "lead": "Calculate the net benefit of tax-free extras and test in 60 seconds whether K Aqua is the right fit for you.",
+    "benEyebrow": "Net Wage Optimisation",
+    "benTitle": "The Benefits Calculator.",
+    "benLead": "Tax-free and flat-taxed extras often have a stronger impact than a gross increase. Put together your package:",
+    "benefits": {
+      "sachbezug": [
+        "Benefit Card",
+        "Tax-free benefit, monthly onto the card account."
+      ],
+      "lunch": [
+        "Meal Allowance",
+        "Digital meal vouchers for lunch & supermarket."
+      ],
+      "internet": [
+        "Internet Allowance",
+        "Allowance for private internet use."
+      ],
+      "jobrad": [
+        "JobRad Leasing",
+        "Dream bike via salary sacrifice, savings vs. private purchase."
+      ],
+      "kita": [
+        "Daycare Allowance",
+        "Tax-free allowance for childcare."
+      ],
+      "vwl": [
+        "Capital-Forming Benefits",
+        "Monthly savings contribution from the employer."
+      ]
+    },
+    "resultLabel": "Net more per month",
+    "resultNote1": "This roughly corresponds to a",
+    "resultNote2": "gross increase of ~{n} €",
+    "resultNote3": "without deductions.",
+    "resultNote4": "(Guideline, depending on tax class.)",
+    "apply": "Apply now",
+    "call": "Or call: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "Does K Aqua suit you?",
+    "cmIntro": "Five honest questions about the way of working and everyday life in production. Not a personality test, a reality check.",
+    "cmStart": "Start test",
+    "qLabel": "Question",
+    "cmQ": [
+      {
+        "q": "How do you prefer to work?",
+        "o": [
+          "Clear processes, well-rehearsed team",
+          "Trying something new every day"
+        ]
+      },
+      {
+        "q": "Large series is running. A machine reports a deviation.",
+        "o": [
+          "Look immediately, find the cause",
+          "Let it keep running for now"
+        ]
+      },
+      {
+        "q": "What motivates you more?",
+        "o": [
+          "A product that lasts 50 years",
+          "Fast, visible results"
+        ]
+      },
+      {
+        "q": "Shift work is for you...",
+        "o": [
+          "Plannable and okay",
+          "Rather difficult"
+        ]
+      },
+      {
+        "q": "Your relationship with technology?",
+        "o": [
+          "I want to understand how things work",
+          "The main thing is it runs"
+        ]
+      }
+    ],
+    "resHigh": "Strong match. Precision, reliability, and technical understanding: exactly our profile.",
+    "resMid": "Good match with a need for discussion. It's best to call directly and clarify the day-to-day routine.",
+    "resLow": "Honest result: Everyday production at K Aqua is probably not your environment. Sales or administration might be a better fit.",
+    "sendApp": "Send application",
+    "again": "Again"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title1": "Let's talk about your",
+    "titleGrad": "project.",
+    "locTitle": "Location Germany",
+    "salesTitle": "Sales",
+    "supportTitle": "Quality & Technical Support",
+    "supportText": "Let's talk about your project. Our support team helps with technical questions regarding planning, material, and processing."
+  },
+  "imprint": {
+    "eyebrow": "Legal",
+    "title": "Imprint",
+    "rows": [
+      [
+        "Company",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Management",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Register Court",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Headquarters",
+        "Waldsolms"
+      ],
+      [
+        "VAT ID No.",
+        "DE 296238486"
+      ],
+      [
+        "Phone / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Email",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Product Finder",
+    "title1": "No PDF desert.",
+    "titleGrad": "Instant data.",
+    "lead": "Instead of 220-page catalogues: Filter the complete PP-R/PPRCT system interactively. Dimension, pressure class, wall thickness, everything live.",
+    "type": "Product Type",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Fibre Composite (GF)",
+      "fitting": "Fittings"
+    },
+    "sdr": "Pressure Class (SDR)",
+    "maxD": "Max. Outer Diameter",
+    "upTo": "up to",
+    "maxDAria": "Maximum outer diameter in millimetres",
+    "found": "Item variants found. Each instantly with wall thickness, inner diameter, and nominal pressure.",
+    "catalog": "Catalogue (PDF)",
+    "tableHead": [
+      "Type",
+      "d (mm)",
+      "SDR",
+      "Wall (mm)",
+      "di (mm)",
+      "Nominal Pressure"
+    ],
+    "more": "+ {n} more. Refine filters for the full list.",
+    "none": "No matches. Loosen filters.",
+    "nextEyebrow": "Thinking ahead",
+    "nextTitle": "How climate-friendly is your planning?",
+    "nextLead": "Pass the dimension and length directly to the CO₂ calculator and compare against copper, stainless steel, and PVC.",
+    "nextCta": "To the CO₂ Calculator"
+  },
+  "trustAndCases": {
+    "eyebrow": "Certified Security",
+    "title": "Proven Quality & Areas of Application",
+    "lead": "As a manufacturer based in Germany, we guarantee the highest standards. Our piping systems are in use worldwide in critical infrastructures.",
+    "trustTitle": "Certified & Tested",
+    "iso9001": "Quality Management",
+    "iso14001": "Environmental Management",
+    "iso50001": "Energy Management",
+    "madeInGermany": "Made in Germany",
+    "case1Title": "Municipal Water Supply",
+    "case1Desc": "Renewal of potable water networks. Use of corrosion-free PPR pipes for maximum supply security with minimum maintenance effort.",
+    "case2Title": "Industrial Cooling Systems",
+    "case2Desc": "Installation of large-calibre pipelines in heavy industry. High pressure resistance and chemical resistance guarantee reliability.",
+    "case3Title": "Infrastructure & Civil Engineering",
+    "case3Desc": "Megaprojects with extreme demands on longevity (SDR 11/17). Fast installation and 100% material recyclability at the end of the service life."
+  },
+  "co2": {
+    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial plant. The K-Aqua CO2 calculator enables a comprehensive life cycle assessment (LCA) in accordance with the standards of EN 15804. This analysis covers the entire life cycle: from raw material extraction and product manufacturing (phases A1-A3) via transport and installation (phases A4-A5) up to the use phase (phase B) and end-of-life (phase C).</p><p>Compared to conventional metal pipes made of copper or steel, K-Aqua PP-R and PPRCT pipes have a significantly more favourable ecological balance. The lower energy requirement for extruding the plastic and the significantly lower weight considerably reduce CO2 emissions during production and transport. Furthermore, the mirror-smooth inner surface (roughness of only 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means that circulation pumps have to use significantly less energy (electricity) to pump the fluid through the system.</p><p>Especially in the use phase (phase B), which for piping systems often lasts 50 years or more, this energy saving adds up to massive CO2 and cost savings (Total Cost of Ownership, TCO). Polypropylene also offers ecological advantages at the end of its service life (phase C), as it is 100% recyclable and can be reused in the sense of the circular economy (Module D). Use this calculator to precisely and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>",
+    "eyebrow": "Premium Engineering Tool",
+    "title1": "LCA & TCO Simulator",
+    "titleGrad": "Pro",
+    "lead": "Calculate the real ecological and economic impacts of your piping system over the entire life cycle. With real physical flow models (Darcy-Weisbach) and EN-compliant LCA phases.",
+    "tabGeometry": "Pipe",
+    "tabFlow": "Fluid",
+    "tabEnvironment": "Installation",
+    "tabLogistics": "LCA",
+    "dia": "Nominal diameter",
+    "length": "Pipe length",
+    "sdrClass": "SDR class",
+    "velocity": "Flow velocity (v)",
+    "velocityDesc": "Drastically affects the pressure loss and pump power (B).",
+    "fluidTemp": "Fluid temperature",
+    "ambientTemp": "Ambient temperature",
+    "insulation": "Insulation",
+    "insulationNone": "None",
+    "insulationBasic": "Basic",
+    "insulationStandard": "Standard EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Installation method (A5)",
+    "installBuilding": "Building installation",
+    "installTrench": "Buried (excavator)",
+    "installTrenchless": "Trenchless (HDD)",
+    "installDesc": "Earthworks cause massive CO2 emissions through machines (diesel).",
+    "lifespan": "Lifespan (years)",
+    "lifespanDesc": "Short-lived pipes (e.g. carbon steel) may have to be replaced several times.",
+    "energyMixLabel": "Electricity mix (Operation & Production)",
+    "transportKm": "Transport distance (km)",
+    "co2Savings": "LCA CO₂ Savings",
+    "co2SavingsDesc": "Compared to the most inefficient system (incl. pump power). Equals approx. {n} trees.",
+    "costSavings": "TCO Savings (NPV)",
+    "costSavingsDesc": "Savings over {n} years (incl. maintenance and operating costs NPV).",
+    "lcaPhases": "LCA Phases (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Install/Transport)",
+    "phaseB": "B (Operation/Energy)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Module D:",
+    "costAnalysis": "Total Cost of Ownership (NPV, {n} years)",
+    "costMaterial": "Material",
+    "costInstall": "Installation",
+    "costOperation": "Energy (NPV)",
+    "costMaintenance": "Maintenance",
+    "costTotal": "Total",
+    "certTitle": "Certified LCA & TCO Report.",
+    "certDesc": "Includes flow resistance according to Darcy-Weisbach and EPD compliant life cycle phases.",
+    "certBtn": "Generate PDF Report",
+    "generating": "Generating...",
+    "energyGreen": "Green Electricity",
+    "energyDe": "DE-Mix",
+    "energyEu": "EU-Mix",
+    "energyGlobal": "Global-Mix",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Copper",
+      "steel": "Stainless steel / Carbon steel",
+      "pex": "Multilayer composite (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Cast iron"
+    },
+    "project": "Your project",
+    "advanced": "Advanced LCA Parameters",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package, in the",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life"
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Trust is",
+    "titleGrad": "measurable.",
+    "lead": "Trust is measurable. Certificates, GENAU framework, and audit documents, as a self-service. No waiting for days for manual delivery.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Quality Management"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental Management"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy Management"
+      ]
+    ],
+    "accred": "DAkkS-accredited",
+    "certNo": "Certificate No.",
+    "valid": "Valid",
+    "download": "Download",
+    "genauEyebrow": "GENAU Framework",
+    "genauTitle": "Five letters. One system.",
+    "genauLead": "The GENAU management system is anchored in the House of KWT. Click your way through the five pillars.",
+    "genau": [
+      [
+        "Health",
+        "Occupational health and safety with continuous hazard identification. Every employee is obliged to proactively report risks."
+      ],
+      [
+        "Energy",
+        "Optimisation of energy efficiency according to ISO 50001, from the extruder to the closed cooling water circuit."
+      ],
+      [
+        "Sustainability",
+        "100% of offcuts and production waste go back into the recycling loop."
+      ],
+      [
+        "Occupational Safety",
+        "Prevention and risk assessment as daily practice, not as an annual obligatory exercise."
+      ],
+      [
+        "Environment",
+        "Environmental management according to ISO 14001: Resource conservation is part of the understanding of quality."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Your RFP document package.",
+    "rfpLead": "Put together your audit and tender package yourself, instead of waiting days for manual delivery.",
+    "docs": [
+      "ISO 9001:2015 Certificate (DE/EN)",
+      "ISO 14001:2015 Certificate (DE/EN)",
+      "ISO 50001:2018 Certificate (DE/EN)",
+      "GENAU Policy & Risk Assessment",
+      "Potable Water Conformity (DVGW/KTW)",
+      "EPD Data Sheets (Type III, EN 15804)",
+      "GAEB Tender Texts",
+      "Quality Assurance Manual"
+    ],
+    "inPackage": "Documents in the package.",
+    "pickLeft": "Please select on the left.",
+    "requestZip": "Request as ZIP with a click:",
+    "requestBtn": "Request package",
+    "mailSubject": "RFP Document Package",
+    "mailBody": "Please send me the following documents:",
+    "scope3": "Scope 3 emissions data and EPD raw data on request: proactive transparency instead of mere compliance."
+  }
+}

@@ -65,12 +65,12 @@ export default async function ProduktePage({ params }: Props) {
   const rawTableRows = t.raw("tableRows");
   const tableRows = Array.isArray(rawTableRows) ? rawTableRows as string[][] : [];
   const catalogJsonLd = await getProductCatalogJsonLd(locale);
-  const tProducts = await getTranslations({ locale, namespace: "productsx" });
+  const tProducts = await getTranslations({ locale, namespace: "products" });
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("products") as string[];
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['productsx', 'catalogx'])}>
+    <NextIntlClientProvider messages={pick(messages, ['products', 'catalog'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
       <h1 className="sr-only">{tProducts("pageTitle")}</h1>

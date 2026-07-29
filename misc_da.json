@@ -1,0 +1,50 @@
+{
+  "category": {
+    "allProducts": "Alle Produkter",
+    "openInFinder": "Åbn i Produktfinder",
+    "artNA": "Varenr. N/A",
+    "viewDetails": "Vis produktdetaljer",
+    "learnMoreKnowledge": "Opdag PP-R rørsystemer i vores vidensbase",
+    "learnMoreDesc": "Dyk dybere ned i den tekniske dokumentation og opdag fagartikler om installation, bæredygtighed og test af vores PP-R systemer.",
+    "toKnowledgeBase": "Opdag fagartikler i K-Aqua Academy"
+  },
+  "fittings": {
+    "intro": {
+      "text1": "I årtier har vi på vores hovedfabrik i hjertet af Tyskland forenet håndværksmæssig stolthed med topmoderne, højautomatiseret produktionsteknologi. Hver bøjning, hver muffe, hvert T-stykke bærer det umiskendelige DNA fra tysk ingeniørkunst. I brug i de hårdeste ørkener, mest ekstreme klimazoner og mest krævende industrianlæg i verden, beviser vores materiale sit værd hver eneste dag.",
+      "text2": "Sammensmeltningen af makromolekyler i vores PP-R system skaber et rørledningsnetværk uden svage punkter. Der er ingen pakningsringe, der kan korrodere, ingen limninger, der angribes af kemikalier. Rør og fitting smeltes termisk sammen til et enkelt, uadskilleligt emne. Dette er den absolutte definition af sikkerhed."
+    },
+    "timeline": {
+      "items": {
+        "4": {
+          "year": "Trin 04",
+          "title": "Kølings-matrix",
+          "text": "En computerstyret afkølingsprofil forhindrer indre spændinger i materialet og sikrer perfekt dimensionsstabilitet."
+        },
+        "5": {
+          "year": "Trin 05",
+          "title": "Test & Logistik",
+          "text": "Hver batch modtager sit digitale certifikat. Klar til forsendelse til de mest krævende byggepladser i verden."
+        }
+      }
+    },
+    "depth": {
+      "title": "Levetid > 50 år. Garanteret.",
+      "text": "Tid er den ultimative stresstest for ethvert materiale. Vores fittings er designet til at overleve selve bygningens levetid. Gennem tilsætning af specielle antioxidanter og termiske stabilisatorer i vores PP-R matrix, forsinkes termisk-oxidativ aldring massivt. Selv ved kontinuerlige fremløbstemperaturer på 70°C og trykbelastninger på 10 bar garanterer vi en levetid på over et halvt århundrede. Det er ikke markedsføring. Det er anvendt polymerfysik.",
+      "badge": "100% vedligeholdelsesfri"
+    },
+    "cta": {
+      "secondary": "Se hele sortimentet"
+    }
+  },
+  "pipes": {
+    "timeline": {
+      "items": {
+        "4": {
+          "year": "Trin 05",
+          "title": "Test & Frigivelse",
+          "text": "Hydraulisk sprængtrykstest ved 95°C over 1000 timer. Trækforsøg, slagstyrke og toksikologisk sikkerhedstest. Kun hvis produktet overgår alle standarder (DIN 8077/8078, EN ISO 15874), forlader det vores fabrik."
+        }
+      }
+    }
+  }
+}

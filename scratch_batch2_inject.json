@@ -1,0 +1,432 @@
+  "wissen": {
+    "meta": {
+      "title": "Fagkunnskap og tekniske data | K Aqua",
+      "desc": "Dypgående teknisk ekspertise, systemarkitekturanalyser og kompromissløse ingeniørdata for K Aqua rørsystemer."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "PPRCT matrisearkitektur",
+          "desc": "Den strukturelle integriteten til våre polypropylen random-kopolymerer med modifisert krystallinitet (PPRCT) omdefinerer grensene for termisk kapasitet. Under ekstreme trykk- og temperatursykluser tilbyr vår sekskantede gitterstruktur en mikroskopisk spenningsfordeling som praktisk talt eliminerer materialtretthet. Et paradigmeskifte innen fluidmekanikk."
+        },
+        {
+          "title": "Termodynamisk isolasjon",
+          "desc": "Våre koekstruderte isolasjonslag er basert på lukketcellet polyuretanteknologi. Varmeoverføringskoeffisienten (U-verdi) reduseres til et teoretisk minimum. Energitap er ikke lenger en variabel i beregningen av anlegget ditt, det kveles i fødselen av systemarkitekturen vår. Absolutt termisk kontroll."
+        },
+        {
+          "title": "Sertifisert sterilitet",
+          "desc": "Det er ingen kompromisser i drikkevannsinfrastrukturen. Systemene våre er ikke bare DVGW-testet, de overgår kravene i drikkevannsforordningen (TrinkwV) med flere størrelsesordener. Den ultraglatte indre overflaten (ruhetsverdi k = 0,007 mm) forhindrer mikrobiell adhesjon og biofilmdannelse. Renhet på molekylært nivå."
+        },
+        {
+          "title": "Ikke-destruktiv testing (NDT)",
+          "desc": "Hvert rørsystem går gjennom vår automatiserte ultralyd- og røntgendiagnostikk. Vi analyserer sveisesømmer på sub-millimeternivå. Anomalier, hulrom eller inneslutninger identifiseres av AI-støttet feildeteksjon før produktet forlater produksjonslinjen. 100 % sporbarhet. Nulltoleranse for defekter."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "FASE I",
+          "title": "Molekylær syntese",
+          "text": "Prosessen begynner på atomnivå. Katalytisk polymerisasjon under ekstreme trykkforhold danner basis-PPRCT-granulatet. Spesifikke kimeringsmidler induserer dannelsen av den motstandsdyktige beta-krystallstrukturen."
+        },
+        {
+          "year": "FASE II",
+          "title": "Presisjons-koekstrudering",
+          "text": "Granulatet smeltes ved 240 °C og presses gjennom kalibrerte verktøy. Samtidig ekstrudering av flere funksjonelle lag (glassfiberblanding, dekklag) utføres med laserkontroll på mikrometernivå."
+        },
+        {
+          "year": "FASE III",
+          "title": "Termisk stabilisering",
+          "text": "En kompleks kjøleprotokoll fikserer den makromolekylære orienteringen. Den kontrollerte temperaturgradienten forhindrer restspenninger og garanterer den absolutte dimensjonsstabiliteten til rørgeometrien."
+        },
+        {
+          "year": "FASE IV",
+          "title": "Hyper-revisjon",
+          "text": "Hydrauliske sprengtrykktester, langtidstester av innvendig trykk ved 95 °C og ikke-destruktiv materialanalyse. Kun systemer som overskrider standardens belastningsgrense med 300 % får den endelige godkjenningen."
+        }
+      ],
+      "title": "Integritetens opprinnelse",
+      "desc": "Fra molekylær katalysator til hyper-revidert sluttprodukt. Et sekvensielt innblikk i vår kompromissløse produksjonsmatrise."
+    },
+    "hero": {
+      "eyebrow": "System Intelligence",
+      "title1": "Den tekniske",
+      "title2": "kunnskapsdatabasen",
+      "desc": "Kompromissløs presisjon. Datadrevne analyser. Ingen rom for feiltoleranse. Fordyp deg i den rene, verifiserte ingeniørkunsten bak K Aqua-systemarkitekturen.",
+      "status": "Systemstatus: Online",
+      "clearance": "Klareringsnivå 4"
+    },
+    "deep": {
+      "badge": "Kjernespesifikasjoner",
+      "title1": "Materialvitenskap og",
+      "title2": "protokoller",
+      "desc": "Vi overlater ingenting til tilfeldighetene. Hver spesifikasjon er resultatet av empirisk forskning og strenge stresstester under de mest ekstreme industrielle forhold."
+    },
+    "grid": {
+      "badge": "Publikasjoner",
+      "title1": "Sertifisert",
+      "title2": "kunnskap",
+      "desc": "Få tilgang til dyptgående tekniske artikler, whitepapers og analyser av systemarkitektur. Verifiserte data for ingeniører og planleggere.",
+      "read": "Les"
+    },
+    "cta": {
+      "title1": "SYSTEMINTEGRITET",
+      "title2": "BEKREFTET.",
+      "desc": "Du har nådd slutten av spesifikasjonene. Klar til å gjøre teori om til industriell virkelighet?",
+      "btn": "Initier kontakt"
+    }
+  },
+  "productNames": {
+    "accessories_backing-flange": "Løsflens PP-Stål (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flatt pakning for forskruninger PP-R",
+    "accessories_flat-gasket": "Flatt pakning",
+    "accessories_pipe-clamps": "Rørklammer",
+    "accessories_plug": "PP-R Rørplugg",
+    "fittings_cap": "PP-R Endekappe",
+    "fittings_cross-over-pipe": "PP-R Kryssrør (Rør)",
+    "fittings_cross-over": "PP-R Kryssrør",
+    "fittings_cross": "PP-R Kryss",
+    "fittings_elbow-45-female-male": "PP-R Albue 45° (Innvendig/Utvendig gjenge)",
+    "fittings_elbow-45": "PP-R Standard albue 45°",
+    "fittings_elbow-90-female-male": "PP-R Albue 90° (Innvendig/Utvendig gjenge)",
+    "fittings_elbow-90": "PP-R Standard albue 90°",
+    "fittings_electrofusion-socket": "Elektrosveisemuffe",
+    "fittings_flange-adaptor": "Flensadapter",
+    "fittings_reducing-bush": "Reduksjonsmuffe",
+    "fittings_reducing-tee-large": "PP-R T-stykke redusert (Stor)",
+    "fittings_reducing-tee": "T-stykke redusert",
+    "fittings_socket": "PP-R Muffe",
+    "fittings_tee": "PP-R T-stykke",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Rør PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Rør PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Rør PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Rør PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Rør PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV-rør PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Flerlags komposittrør med spesiell UV-beskyttelseskappe for utendørs bruk (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV-rør PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Høyytelses komposittrør (PPRCT) med svart UV-beskyttelseslag for krevende utendørsinstallasjoner (SDR 7.4).",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Rør PPRCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe Rør PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe Rør PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe Rør PPRCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Lilla PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Stumpsveisemaskin d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Boreverktøy for påsveisingssaler",
+    "tools_electrofusion-machine": "Elektrosveiseapparat",
+    "tools_hand-welding-machine-20-32": "Håndsveiseapparat d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "Kompakt muffesveiseapparat som et komplett sett for små dimensjoner fra d20 til d32 mm.",
+    "tools_hand-welding-machine-20-63": "Håndsveiseapparat d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "Allsidig muffesveiseapparat i et sett (varmeplate, stativ, matriser) for rør fra d20 til d63 mm.",
+    "tools_hand-welding-machine-mirror-50-125": "Håndsveiseapparat (kun speil) 50–125",
+    "tools_pipe-cutter-20-40": "Skralle-rørsaks d20-d40",
+    "tools_pipe-cutter-50-125-114": "Rørkutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Proff-rørkutter d50-d125",
+    "tools_repairing-plug": "Reparasjonsplugg",
+    "tools_welding-machine-50-125": "Sveisemaskin d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Sveiseverktøy for reparasjonsplugg",
+    "tools_welding-tool-for-weld-in-saddles": "Sveiseverktøy for påsveisingssaler",
+    "tools_welding-tool": "Sveiseverktøy",
+    "transition-fittings_adaptor-socket-female-thread": "Overgangsmuffe (Innvendig gjenge)",
+    "transition-fittings_adaptor-socket-male-thread": "Overgangsmuffe (Utvendig gjenge)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Overgangsalbue 90° (Utvendig gjenge)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Veggfeste albue 90° (Innvendig gjenge)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Ensidig veggfeste albue for sikker veggmontering av armaturer (Innvendig gjenge).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Dobbel veggfeste albue 90° (Innvendig gjenge)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Toside veggfeste for ekstremt stabile, fastskrudde forbindelser.",
+    "transition-fittings_metal-union-female-thread-brass": "Metall-forskruning av messing CW617N (Innvendig gjenge)",
+    "transition-fittings_metal-union-female-thread": "Forskruning med PP-R mutter (Innvendig gjenge)",
+    "transition-fittings_metal-union-male-thread-brass": "Metall-forskruning av messing CW617N (Utvendig gjenge)",
+    "transition-fittings_metal-union-male-thread": "Forskruning med PP-R mutter (Utvendig gjenge)",
+    "transition-fittings_tee-90-female-thread": "T-stykke 90° (Innvendig gjenge)",
+    "transition-fittings_tee-90-male-thread": "T-stykke 90° (Utvendig gjenge)",
+    "transition-fittings_union-for-watermeters": "Vannmåler-forskruning",
+    "transition-fittings_union": "PP-R Rørforskruning",
+    "valves_adjustable-battery-female-thread": "Justerbart batteri (Innvendig gjenge)",
+    "valves_battery-female-thread": "Batteri (Innvendig gjenge)",
+    "valves_concealed-valve-chrome-heavy-part": "Innbyggingsventil Krom: Tung overdel",
+    "valves_concealed-valve-chrome-light-part": "Innbyggingsventil Krom: Lett overdel",
+    "valves_elongation-pieces": "Forlengelsesstykker",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Kuleventil (PP-kule)",
+    "valves_pp-r-ball-valve-brass": "PP-R Kuleventil (Messingkule, forkrommet)",
+    "valves_straight-seat-valve-green-handle": "Seteventil (Overdel)",
+    "valves_tee-90-female-thread-internal-valve": "T-stykke 90° (Innvendig gjenge) for innbyggingsventil",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Påsveisingssal (Innvendig gjenge)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Påsveisingssal (Utvendig gjenge)",
+    "weld-in-saddles_weld-in-saddle": "Påsveisingssal"
+  },
+  "customerReviews": {
+    "eyebrow": "Kvalitet som forbinder",
+    "title": "Hva våre kunder og partnere sier",
+    "lead": "Fra utbyggere til speditører til langvarige ansatte: K Aqua KWT GmbH står for høyeste presisjon fra Waldsolms. Les selv hvilke erfaringer folk gjør daglig med vår service og våre produkter \"Made in Germany\".",
+    "trustBadge": "Google Anmeldelser",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(Basert på 44 anmeldelser)",
+    "tabA": "Kvalitet og \"Made in Germany\"",
+    "tabB": "Logistikk og levering",
+    "tabC": "Kundeservice og team",
+    "reviews": {
+      "a1": "„En fabrikk i Waldsolms, Tyskland, som spesialiserer seg på PPR-rør og -fittings **Made in Germany**. Utmerket personale.“",
+      "a1Author": "Giulio C.",
+      "a2": "„**Tysk kvalitet** på PPR-belegg og armaturer, svært vennlig personale.“",
+      "a2Author": "Veronica P.",
+      "a3": "„**Moderne selskap**. Produserer plastrør i alle størrelser og tilbehør.“",
+      "a3Author": "Ewald S.",
+      "a4": "„PPR-rør og -fittings fra **tysk produksjon**, utmerkede ansatte og produkter.“",
+      "a4Author": "Kais S.",
+      "a5": "„**Høykvalitets produkter** og en topp tysk fabrikk.“",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "„Veldig gode produkter, **pålitelig kvalitet** og punktlig levering.“",
+      "a6Author": "Klaus T.",
+      "b1": "„Veldig hyggelig å ha med å gjøre, **rask lossing**. Jeg fikk lov til å ta den lange pausen min her. Dusj og toalett ble også tilbudt meg. Her føler du deg **verdsatt** som lastebilsjåfør. Jeg kommer gjerne tilbake hit.“",
+      "b1Author": "Michael S.",
+      "b2": "„De nåværende koordinatene for inngangen er **50.428210, 8.499154**. Det er en parkeringsplass omtrent 100 meter unna. Vennlig personale.“",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "„**Rask lossing**, vennlig og hjelpsomt personale.“",
+      "b3Author": "Bogdan M.",
+      "c1": "„**Veldig god service**, flott at det fortsatt produseres i Tyskland.“",
+      "c1Author": "Daniel",
+      "c2": "„**Veldig vennlig** og hjelpsomt personale. E-poster besvares **umiddelbart**.“",
+      "c2Author": "Mohamed M.",
+      "c3": "„Fra formannen til de vanlige arbeiderne: de er **gode mennesker**.“",
+      "c3Author": "Azim",
+      "c4": "„**Flott selskap**, gjør mye for folket sitt.“",
+      "c4Author": "Monika v. B.",
+      "c5": "„De ansatte er **veldig vennlige og hjelpsomme**.“",
+      "c5Author": "Piera V.",
+      "c6": "„Kompetent team og en **fremragende kundeservice** på alle nivåer.“",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Overbevis deg selv om servicen vår.",
+    "ctaText": "Har du spørsmål om PPR-rørsystemene våre, eller vil du diskutere et prosjekt med oss? Teamet vårt i Waldsolms er der for deg.",
+    "ctaBtn": "Ta kontakt nå",
+    "disclaimer": "Merknad om vurdering av anmeldelser: Anmeldelsene som vises her kommer fra vår bedriftsprofil på Google. Google oppgir: Anmeldelser blir ikke verifisert. Vi har forkortet navnene til forfatterne av personvernhensyn (GDPR)."
+  },
+  "seoArticle": {
+    "fittings": {
+      "seoTitle": "Plastfittings og formdeler for PP-R",
+      "seoText": "Sikre og homogene forbindelser med K-Aqua PP-R formdeler. Oppdag vårt omfattende utvalg av fittings for de høyeste kravene innen rørinstallasjon.",
+      "guideText": "\n    <h2>Sikre forbindelser</h2>\n    <p>Sikre og homogene forbindelser utgjør det avgjørende bindeleddet i ethvert pålitelig rørnettverk. Den sanne styrken til K Aqua-rørsystemet ligger i den revolusjonerende tilkoblingsteknologien. I motsetning til konvensjonelle systemer, som er avhengige av mekanisk kompresjon, loddetinn eller flyktige kjemiske lim, bruker K Aqua termisk polyfusjon. Vårt omfattende utvalg av formdeler, fra enkle albuer og t-stykker til komplekse manifolder og gjengeoverganger, er designet for å smelte direkte sammen med røret på molekylært nivå.</p>\n    <p>I muffesveiseprosessen varmes både rørets yttervegg og fittingens innervegg opp samtidig til nøyaktig 260 °C. Når de skyves sammen, kryssbindes de smeltede polymerkjeder og stivner til en kontinuerlig, homogen masse. Den resulterende forbindelsen kan visuelt og fysisk knapt skilles fra selve røret, og blir det sterkeste punktet i hele nettverket. Dette eliminerer fullstendig risikoen for mikrolekkasjer, som ofte oppstår med press- eller plug-in-systemer etter mange års bruk.</p>\n    <p>Dette fjerner behovet for gummi-o-ringer, pakninger eller innvendige tetninger fullstendig, som uunngåelig vil forringes, tørke ut eller svikte over tiår med termiske sykluser. Fordi fittingen glir over røret, er det absolutt ingen reduksjon i det indre tverrsnittet, noe som betyr at det ikke er noen strømningsbegrensning eller trykktap ved skjøtene.</p>\n    <ul>\n      <li>Permanente molekylære bindinger som eliminerer risikoen for lekkasjer.</li>\n      <li>Ingen reduksjon i strømningsdiameter, slik at vanntrykket opprettholdes.</li>\n      <li>Motstand mot ekstreme trykktopper og vannslageffekter.</li>\n      <li>Rask, effektiv installasjonsprosess sammenlignet med lodding eller gjenging.</li>\n      <li>Omfattende utvalg av former og vinkler for enhver arkitektonisk layout.</li>\n    </ul>\n    <p>I tillegg har overgangsfittingsene våre for tilkobling til eksisterende metallisk infrastruktur dypt innstøpte, vridningssikre DZR-messinginnsatser som lett tåler ekstreme dreiemomenter ved montering av tunge ventiler og sanitærarmaturer. Hver fitting gjennomgår strenge dimensjons- og stresstester før den forlater fabrikken for å sikre at den fungerer feilfritt på byggeplassen din.</p>\n    <p>Alle som velger K Aqua fittings investerer i integriteten til hele VVS-systemet. Vår strenge kvalitetskontroll sikrer at hver tilkobling du oppretter er en du aldri trenger å bekymre deg for igjen, og gir en varig løsning for alle bruksområder.</p>\n  "
+    },
+    "transitionFittings": {
+      "seoTitle": "Overgangsfittings av messing og PP-R",
+      "seoText": "Overgangsfittings fungerer som en avgjørende bro mellom de avanserte PP-R/PPRCT-rørene fra K Aqua og eksisterende stål-, kobber- eller messingkomponenter. Disse beslagene krever et eksepsjonelt nivå av ingeniørkunst.",
+      "advTitle": "Sikre og homogene forbindelser",
+      "advList": [
+        "DZR-messinginnsatser gir overlegen motstand mot avsinking.",
+        "Det vridningssikre designet tåler høye dreiemomenter.",
+        "En uatskillelig forbindelse mellom plast og metall sikrer lekkasjefri ytelse."
+      ],
+      "guideText": "\n    <h2>Å bygge bro</h2>\n    <p>Når det gjelder å koble moderne polymersystemer med tradisjonell metallinfrastruktur, er sikre og homogene tilkoblinger av absolutt viktighet. Overgangsfittings fungerer som en viktig bro mellom K Aquas avanserte PP-R/PPRCT-rør og eksisterende stål-, kobber- eller messingkomponenter som kjeler, kjølere og sanitærarmaturer. Disse beslagene krever et eksepsjonelt ingeniørnivå for å sikre at forbindelsen mellom metall og plast forblir helt tett selv under ekstreme termiske sykluser og mekanisk påkjenning.</p>\n    <p>K Aqua overgangsfittings har dypt innstøpte, vridningssikre DZR (Dezincification Resistant) messinginnsatser. Under sprøytestøpeprosessen formes den varme PP-R direkte rundt det komplekse geometriske profilet til messinginnsatsen. Når plasten avkjøles og krymper, griper den tak i messingen med enorm kraft, og skaper en uatskillelig mekanisk binding. Denne utformingen forhindrer at messinginnsatsen vrir seg eller trekkes ut, selv når den utsettes for det høye dreiemomentet til en rørnøkkel under installasjonen.</p>\n    <p>Videre sikrer den høykvalitets DZR-messingen at den metalliske delen av fittingen er ekstremt motstandsdyktig mot aggressive vannforhold, og forhindrer dermed for tidlig korrosjon som ofte plager standard messingfittings. Dette er spesielt avgjørende i varmtvannssystemer, hvor reaksjonshastigheten akselereres betydelig.</p>\n    <ul>\n      <li>DZR messinginnsatser gir overlegen motstand mot avsinking og korrosjon.</li>\n      <li>Den vridningssikre designen tåler lett høye dreiemomenter ved gjengeinstallasjoner.</li>\n      <li>En uatskillelig forbindelse mellom plast og metall sikrer livslang, lekkasjefri ytelse.</li>\n      <li>Tilgjengelig i et bredt utvalg av konfigurasjoner med innvendig og utvendig gjenge.</li>\n      <li>Perfekt for tilkobling av PP-R nettverk til metalliske pumper, ventiler og kjeler.</li>\n    </ul>\n    <p>Enten du trenger å tilpasse en massiv 125 mm industriell kjøleledning til en stålflens eller bare koble en 20 mm boligvannledning til en krom hjørneventil, har K Aqua det nøyaktige overgangsstykket som kreves.</p>\n  "
+    },
+    "valves": {
+      "guideText": "\n    <h2>Absolutt strømningskontroll</h2>\n    <p>Presis kontroll og langvarig funksjon er avgjørende for håndteringen av moderne rørnettverk. Effektiv væskehåndtering krever robuste, pålitelige kontrollpunkter som integreres sømløst i hoveddistribusjonsnettet. K Aqua tilbyr en omfattende serie høyytelses avstengningsventiler, inkludert kuleventiler med full boring, innbyggingsventiler og presisjonsventiler, som alle er spesialdesignet for direkte polyfusjon i PP-R rør.</p>\n    <p>Ved å produsere ventilhuset fra nøyaktig samme PP-R-polymer som de omkringliggende rørene, eliminerer vi behovet for gjengeoverganger når vi installerer avstengningspunkter. Dette reduserer installasjonstiden drastisk, reduserer materialkostnadene og eliminerer potensielle svake punkter i systemet. De interne mekaniske komponentene, som presisjonsmaskinerte messingkuler, spindler i rustfritt stål og høykvalitets teflon-seteringer (PTFE), er designet for å gi utrolig jevn, vedlikeholdsfri drift i flere tiår.</p>\n    <p>I motsetning til konvensjonelle metalliske sluseventiler, som ofte setter seg fast eller lekker ved pakkboksen etter år med inaktivitet, er K Aquas plastinnkapslede ventiler immune mot ekstern korrosjon, noe som gjør dem perfekte for fuktige maskinrom, nedgravde installasjoner eller fuktige industrielle miljøer.</p>\n    <ul>\n      <li>Designet med full boring forhindrer enhver begrensning av væskestrømmen.</li>\n      <li>Korrosjonsbestandige plasthus beskytter innvendige metallkomponenter.</li>\n      <li>Direkte polyfusjon eliminerer behovet for sårbare gjengeforbindelser.</li>\n      <li>Ergonomiske håndtak og presisjonsteknikk sikrer jevn drift.</li>\n      <li>Tilgjengelig i en rekke størrelser for å møte behovene til både bolig- og industrisektorer.</li>\n    </ul>\n    <p>Vår design med full boring sikrer at når ventilen er åpen, blir ikke den hydrauliske strømmen begrenset, og opprettholder optimalt systemtrykk og maksimerer effektiviteten til sirkulasjonspumpene. Enten du trenger å isolere et enkelt sanitærarmatur eller kontrollere hovedforsyningsledningen i en næringsbygning, leverer K Aqua-ventiler påliteligheten og ytelsen du trenger.</p>\n    <p>Hver ventil gjennomgår streng trykktesting før pakking for å sikre at den oppfyller våre kompromissløse kvalitetsstandarder. Stol på K Aqua for kontrollmekanismene som holder væskenettverkene dine i drift på en sikker og effektiv måte dag etter dag, år etter år.</p>\n  "
+    },
+    "weldInSaddles": {
+      "seoTitle": "Påsveisingssaler for PP-R rør",
+      "seoText": "K-Aqua påsveisingssaler muliggjør enkle og sikre ettermonterte avgreninger uten ledningsavbrudd. Minimal installasjonstid og maksimal systemintegritet.",
+      "guideText": "\n    <h2>Enkel forgrening</h2>\n    <p>Når det gjelder å utvide eller modifisere en eksisterende rørledning, tilbyr Weld-in Saddles (påsveisingssaler) en enestående løsning for maksimal fleksibilitet. K Aquas påsveisingssaler er en innovativ og svært effektiv metode for å skape nye forgreninger i eksisterende PP-R og PPRCT nettverk. I stedet for å kutte av en stor del av hovedrøret og installere et klumpete, dyrt T-stykke, lar en sal deg ganske enkelt bore et hull i siden av røret og sveise grenen direkte til ytterveggen.</p>\n    <p>Denne prosessen sparer enormt mye tid, arbeid og materialer, spesielt når du arbeider med industrielle rør med stor diameter. Salen har en konkav base som er perfekt tilpasset krumningen av hovedrøret, og sikrer et stort overflateareal for polyfusjonsprosessen. Når salen er sveiset, blir den en permanent, integrert del av hovedrøret og har nøyaktig samme styrke og trykkklassifisering som et fabrikkstøpt T-stykke.</p>\n    <p>For entreprenører som ettermonterer eldre bygninger eller legger til nytt utstyr til et aktivt maskinrom, er påsveisingssaler en absolutt game-changer. De krever betydelig mindre plass rundt røret og tillater modifikasjoner selv på trange steder der det ville være umulig å manøvrere et stort skjæreverktøy.</p>\n    <ul>\n      <li>Reduserer materialkostnadene drastisk sammenlignet med T-stykker med stor diameter.</li>\n      <li>Minimerer nedetid ved ettermontering og systemutvidelser.</li>\n      <li>Krever mindre fysisk plass for installasjon i overfylte maskinrom.</li>\n      <li>Opprettholder den strukturelle integriteten og trykkvurderingen til hovedlinjen.</li>\n      <li>Tilgjengelig med messinggjengeinnsatser for direkte tilkobling til sensorer eller ventiler.</li>\n    </ul>\n    <p>Vi tilbyr spesielle boreverktøy og konturerte varmematriser som er spesielt designet for bruk med salene våre. Dette sikrer at hvert hull er perfekt rundt og at hver sveisesøm varmes jevnt, og garanterer en feilfri, lekkasjefri skjøt hver gang. Våre påsveisingssaler legemliggjør K Aquas engasjement for praktisk, smart ingeniørarbeid.</p>\n    <p>Enten du legger til en ny sensortilkobling, en dreneringslinje eller en helt ny manifoldgren, gir K Aqua påsveisingssaler den strukturelle styrken og operasjonelle enkelheten som trengs for å få jobben gjort riktig første gang.</p>\n  "
+    },
+    "tools": {
+      "seoTitle": "Sveiseverktøy og rørkuttere for PP-R",
+      "seoText": "Profesjonelle K-Aqua-verktøy for rørinstallasjon. Oppdag sveiseutstyr og rørkuttere for høyeste presisjon og perfekte tilkoblinger.",
+      "guideText": "\n    <h2>Presisjon i hvert kutt</h2>\n    <p>Høyeste presisjon for den perfekte forbindelsen er varemerket til våre verktøy. Påliteligheten til ethvert polyfusjonsrørsystem avhenger fullstendig av presisjonen til installasjonsverktøyene. K Aqua tilbyr et omfattende utvalg av profesjonelt skjære- og sveiseutstyr designet for å eliminere menneskelige feil og garantere perfekte, homogene tilkoblinger ved hvert enkelt punkt, fra 20 mm boliglinjer til massive 250 mm industrielle hovedledninger.</p>\n    <p>En feilfri sveis begynner med et perfekt rettvinklet, rent kutt. Våre skralle- og rotasjonsrørkuttere gir en gradfri 90-graders kant som er absolutt nødvendig for at røret skal sitte riktig i muffen. Hvis et rør kuttes på skrå, vil den resulterende sveisen være ujevn, noe som potensielt kan føre til strømningsbegrensninger eller langsiktige strukturelle feil. Våre fresere er bygget av herdet stål for å motstå påkjenningene på byggeplassen.</p>\n    <p>For sveiseprosessen har K Aquas håndsveisemaskiner og høyytelses hydrauliske sveisestasjoner elektronisk styrte varmeelementer. Disse termostatene opprettholder strengt den kritiske temperaturen på 260 °C som kreves for optimal molekylær binding, og forhindrer at plasten brytes ned fra overoppheting, eller danner sprø, svake skjøter fra underoppheting.</p>\n    <ul>\n      <li>Elektronisk styrte termostater garanterer presise sveisetemperaturer.</li>\n      <li>Teflon-belegg (PTFE) av høy kvalitet forhindrer at plast fester seg til matrisene.</li>\n      <li>Skralle-rørkuttere reduserer tretthet i hendene og sikrer perfekt firkantede kutt.</li>\n      <li>Kraftig hydraulisk utstyr gir den enorme kraften som trengs for rør med stor diameter.</li>\n      <li>Elektrosveisemaskiner tilbyr automatisert, dokumentert sveising for kritiske bruksområder.</li>\n    </ul>\n    <p>Selve varmematrisene er belagt med høykvalitets non-stick Teflon (PTFE) for å sikre en ren varmeoverføring og forhindre at den smeltede plasten rives ved fjerning. Ved å bruke K Aquas originale automatiserte elektrosveisemaskiner, stumpsveiseutstyr og spesialiserte salverktøy, kan entreprenører maksimere effektiviteten på stedet, redusere fysisk tretthet betydelig, og gi sine kunder dokumentert 100 % lekkasjesikker kvalitetssikring.</p>\n    <p>Å investere i profesjonelt K Aqua-verktøy er en investering i lang levetid og integritet for arbeidet ditt. De er bygget for å fungere pålitelig i de tøffeste miljøene, og sikrer at du kan levere tysk-utviklet perfeksjon på ethvert prosjekt, uavhengig av omfang eller kompleksitet.</p>\n  "
+    },
+    "accessories": {
+      "seoTitle": "Tilbehør for PP-R rørinstallasjoner",
+      "seoText": "Profesjonelt tilbehør fra K-Aqua for din rørinstallasjon. Oppdag rørklammer, pakninger, reparasjonsplugger og motflenser for høyeste sikkerhet.",
+      "guideText": "\n    <h2>Siste finpuss</h2>\n    <p>Accessories (tilbehør) for en standardkompatibel installasjon gjør et funksjonelt sanitærsystem til et profesjonelt mesterverk. Mens rør og fittings utgjør kjernen i nettverket, er støttetilbehør avgjørende for å kompensere for termisk ekspansjon, dempe vibrasjoner og sikre en sikker integrasjon i bygningsinfrastrukturen. K Aqua tilbyr et omfattende økosystem av tilbehør designet for å harmonisere perfekt med våre PP-R og PPRCT produkter.</p>\n    <p>En av de viktigste aspektene ved ethvert varmtvanns- eller varmesystem er å kontrollere den langsgående ekspansjonen av rørene. Våre spesialiserte rørklemmer er konstruert for å fungere som enten faste punkter eller glideførere, slik at røret kan utvide seg jevnt og trekke seg sammen uten å forårsake spenningsskader på skjøtene eller bygningsstrukturen. Disse klemmene har tykke gummiforinger som gir utmerket lydisolering, og forhindrer overføring av strømningsstøy gjennom veggene.</p>\n    <p>I tillegg inkluderer vårt sortiment høykvalitets EPDM-flate pakninger, spesialiserte sveiseflenser med stålkerne for industrielle tilkoblinger, og robuste reparasjonsplugger som muliggjør raske og permanente reparasjoner i tilfelle et rør ved et uhell blir punktert under konstruksjonen.</p>\n    <ul>\n      <li>Akustisk forede rørklammer eliminerer overføring av strømningsstøy.</li>\n      <li>Riktige forankringssystemer styrer termisk utvidelse og sammentrekning trygt.</li>\n      <li>Stålforsterkede sveiseflenser sikrer en trygg tilkobling til tungt maskineri.</li>\n      <li>Høykvalitets EPDM pakninger gir spenstige, langvarige tetninger ved flensforbindelser.</li>\n      <li>Spesialiserte reparasjonsplugger gir en permanent løsning på utilsiktede borehull.</li>\n    </ul>\n    <p>Bruk av generisk eller inkompatibelt tilbehør kan forringe ytelsen til et førsteklasses rørsystem betydelig. For eksempel, å bruke uforede klemmer på et varmtvannsrør kan føre til forstyrrende klikkelyder ettersom røret utvider seg, mens feil forankring kan føre til at røret bøyer seg eller til og med sprekker under termisk påkjenning. K Aqua-tilbehør gjennomgår strenge tester for å sikre at de oppfyller våre krevende standarder.</p>\n    <p>Ved å bruke vårt fulle utvalg av tilbehør kan installatører sikre at arbeidet deres ikke bare oppfyller, men overgår lokale byggekoder og industristandarder. Det er oppmerksomheten på disse små detaljene som kjennetegner en virkelig profesjonell installasjon, og garanterer tiår med feilfri drift.</p>\n  "
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Vennligst oppgi telefonnummer",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "innkjop@firma.com",
+    "emailError": "Vennligst oppgi en gyldig e-postadresse",
+    "chipsLabel": "Hva trenger du",
+    "send": "Send forespørsel",
+    "sendError": "Sending mislyktes. Prøv igjen eller ring oss direkte:",
+    "legal": "Ingen reklame, ingen utlevering.",
+    "legalLink": "Personvern",
+    "doneTitle": "Takk, forespørselen din er mottatt.",
+    "doneTitleSlim": "Takk, forespørsel mottatt.",
+    "direct": "Haster? Direkte anrop",
+    "promise": "Svar innen én virkedag",
+    "ccAria": "Landskode",
+    "closeAria": "Lukk",
+    "fabAria": "Kontakt",
+    "interests": {
+      "rohrsysteme": "Rørsystemer",
+      "trinkwassernetze": "Drikkevannsnett",
+      "bim": "BIM data",
+      "ersatzteile": "Reservedeler",
+      "beratung": "Rådgivning"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "Høyytelses",
+    "heroTitleEm": "Rørsystemer",
+    "heroLead": "For industrielle applikasjoner, drikkevannsforsyning og klimateknologi under ekstreme forhold.",
+    "telemetry": {
+      "pressureLabel": "Systemtrykk",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Temperatur maks.",
+      "tempNote": "PN20 · Kontinuerlig drift",
+      "meta": [
+        [
+          "Materiale",
+          "K Aqua PP-R (Type 3)"
+        ],
+        [
+          "Standard",
+          "DIN 8077/8078"
+        ],
+        [
+          "Sertifisering",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Levetid",
+          "> 50 år"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Fiberkompositt-teknologi",
+      "desc": "3-lags struktur for minimert langsgående ekspansjon og maksimal stabilitet ved høye temperaturer.",
+      "ariaGroup": "Materiallag",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Ytterlag"
+        },
+        {
+          "t": "Fiberkompositt",
+          "d": "Mellomlag"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Innerlag"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Samsvar og standarder",
+      "items": [
+        [
+          "DVGW",
+          "Drikkevannsgodkjenning"
+        ],
+        [
+          "SKZ",
+          "Kvalitetsovervåking"
+        ],
+        [
+          "KIWA",
+          "Systemsertifisering"
+        ],
+        [
+          "DIN 8077/8078",
+          "Rørdimensjoner og toleranser"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimensjoner",
+    "network": {
+      "title": "Globalt nettverk",
+      "lead": "K Aqua systemer er i bruk i over 35 land over hele verden. Fra Waldsolms ut i verden.",
+      "chips": [
+        [
+          "35+",
+          "Land"
+        ],
+        [
+          "3",
+          "Kontinenter"
+        ],
+        [
+          "ISO",
+          "Sertifisert"
+        ]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrielle referanseprosjekter",
+      "titlePlain": "Teknologi som ",
+      "titleAccent": "beviser seg.",
+      "lead": "Fra Waldsolms ut i verden: K-Aqua PP-R og PP-RCT systemer har vært i drift i flere tiår i høyhus, sykehus, industrianlegg og skip, under forhold som ikke tillater et nytt forsøk. Teknologi som beviser seg, i hvert prosjekt.",
+      "cta1": "Se referanseprosjekter",
+      "cta2": "Be om testrapport"
+    },
+    "manifesto": {
+      "title": "Presisjonens doktrine",
+      "p1": "I en bransje hvor materialtretthet og korrosjon anses som uunngåelig, setter vår produksjon en annen standard. Vi ser ikke på hvert rør som en komponent, men som et resultat av anvendt materialvitenskap. Hver batch av PP-R kopolymer, hver sveisesøm og hver veggtykkelse gjennomgår en testprosess som heller aksepterer skrap enn en toleranseoverskridelse. Det er den grunnleggende loven i <span class=\"font-semibold\">K-Aqua referanseklassen</span>.",
+      "p2": "Systemene våre kjører i miljøer der ett enkelt lekkasjepunkt truer driften av et helt sykehus eller høyhus. Vi bruker ikke langsiktige interne trykktester i henhold til ISO 9080 som en laboratorieformalitet, men som et hardt krav for enhver utgitt dimensjon: Ekstrapolering til 50 års driftstid ved spesifisert temperatur og trykknivå: dokumentert, forståelig, sporbar etter batch.",
+      "p3": "Vi unngår bevisst uoversiktlige materialblandinger. Vår oppskrift er dokumentert på tvers av hele produksjonskjeden, fra polymerbatchen til den ferdige rørlengden. Vi kalibrerer ekstruderingstemperaturer til nøyaktig grad, optimerer fiberkomposittmellomlaget mot langsgående ekspansjon og logger hver elektrosveising med nøyaktige prosessparametere. Resultatet er systemer som uanstrengt holder seg innenfor normalområdet ved 70°C kontinuerlig drift og PN20.",
+      "p4": "For oss er kvalitetssikring ikke et etterfølgende testtrinn, men en del av hvert produksjonstrinn. Ved å konsekvent bruke DVGW-, SKZ- og KIWA-sertifisering for alle relevante dimensjoner, fjerner vi proaktivt alle angrepsflater fra risikoen for feil. Et system som er produsert i henhold til DIN 8077/8078 og trippelsertifisert, kan aldri vise seg å være et svakt punkt."
+    },
+    "metrics": {
+      "eyebrow": "Tekniske indikatorer",
+      "title1": "Kompromissløse",
+      "title2": "parametere",
+      "lead": "Systemene våre er ikke annonsert, de blir testet. Dette er kjerneberegningene for vår teknologiske doktrine.",
+      "items": {
+        "pressure": {
+          "title": "Langtidstrykkprøving i henhold til ISO 9080",
+          "desc": "Hver utgitte dimensjon gjennomgår innvendige trykktester ved flere temperaturnivåer over tusenvis av driftstimer, ekstrapolert til en regresjonslinje for 50 års levetid.",
+          "placeholder": "Regresjonskurve Langtids innvendig trykktest"
+        },
+        "isolation": {
+          "title": "Sømløs batch-sporbarhet",
+          "desc": "Hver rørlengde bærer et batchnummer som kan spores tilbake til leveransen av polymeren, for sømløs dokumentasjon ved byggegodkjenning og garanti."
+        },
+        "tolerance": {
+          "title": "Veggtykkelsestoleranse i mikrometerområdet",
+          "desc": "Kontinuerlig ultralydsmåling av veggtykkelse under ekstrudering holder hver dimensjon nøyaktig innenfor toleransefeltene i DIN 8077/8078."
+        },
+        "network": {
+          "title": "Globalt salgs- og servicenettverk",
+          "desc": "Fra Waldsolms forsyner vi prosjekter i over 35 land og sikrer teknisk rådgivning, opplæring og reservedelsforsyning, også etter at bygget er akseptert.",
+          "placeholder": "Eksportkart K-Aqua salgsnettverk"
+        },
+        "welding": {
+          "title": "Kompromissløs sveisesømintegritet",
+          "desc": "Hver varmeelementmuffesveising følger en dokumentert tid-temperatur-trykkprofil. Tilfeldige strekktester og mikrosnitt bekrefter den molekylære fusjonen av rør og fitting: uten tetninger, uten svake punkter.",
+          "placeholder": "Mikrosnitt av en K-Aqua muffesveiseforbindelse"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Klar for ditt",
+      "title2": "neste prosjekt",
+      "lead": "Planlegger du et høyhus, et industrianlegg eller et sykehusprosjekt? Våre ingeniører venter på dine spesifikasjoner med pålitelige testdata i stedet for markedsføringsløfter.",
+      "btn1": "Be om testsertifikater",
+      "btn2": "Send spesifikasjoner"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  },
+  "seoExpansion": {
+    "t1": "Høyytelses rørsystemer og væskestyring",
+    "p1": "Som en av verdens ledende produsenter av PP-R og PPRCT rørsystemer, tilbyr K-Aqua robuste, slitesterke og svært effektive væskehåndteringsløsninger for drikkevanns-, varme- og kjølenettverk. Vår produktportefølje spenner fra standard PP-R-rør SDR 11 til spesielle glassfiberforsterkede flerlagsrør (PP-RCT) som tilbyr eksepsjonell motstand mot ekstreme temperaturer og høytrykksbelastninger. Fra husinstallasjoner til massive industrielle væskedistribusjonsnettverk, garanterer våre rør maksimal driftssikkerhet. Hvert rør, ekstrudert med toppmoderne tysk maskineri, er konstruert for å forbli absolutt lekkasjefritt over en levetid på mer enn 50 år. Med fokus på hygiene, er våre drikkevannsrør sertifisert av strenge internasjonale testbyråer for å forhindre vekst av legionella og strengt opprettholde renheten og smaken av drikkevann på sykehus, hoteller og offentlig infrastruktur.",
+    "t2": "Avanserte fittings, ventiler og installasjonsverktøy",
+    "p2": "I tillegg til den grunnleggende rørarkitekturen, tilbyr K-Aqua et ekstremt omfattende utvalg av sprøytestøpte fittings, overgangsforbindelser og kraftige ventiler. Våre PP-R og PP-RCT fittings inkluderer albuer, T-stykker, reduksjoner og elektrosveisemuffer som sømløst smelter sammen med rørinfrastrukturen og skaper et monolitisk, kjemisk bundet nettverk som er praktisk talt uforgjengelig. Vi integrerer presisjonskonstruert messing og avsinkingsbestandige (DZR) metallgjenger for perfekt overgangskompatibilitet med eksisterende VVS-komponenter av metall. For å muliggjøre jevn installasjon, tilbyr vi profesjonelt polyfusjonssveiseverktøy, fra manuelle muffesveisere til massive hydrauliske stumpsveisemaskiner. Dette komplette økosystemet sikrer at entreprenører og ingeniører kan stole på én enkelt, enhetlig systemarkitektur for ethvert komplekst installasjonsbehov.",
+    "t3": "Bærekraft, livssyklusanalyse og CO2-reduksjon",
+    "p3": "Bærekraft er dypt forankret i den molekylære teknologien til våre PP-R og PPRCT systemer. Ved å gi en bemerkelsesverdig lav innvendig overflateruhet på 0,007 mm, reduserer rørene våre drastisk hydraulisk friksjon og trykktap gjennom hele nettverket. Ifølge Darcy-Weisbachs dynamiske strømningsmodeller fører denne minimale motstanden direkte til et massivt redusert energiforbruk for sirkulasjonspumper. Over en operativ livssyklus på 50 år oversettes denne effektiviteten til enestående CO2-besparelser og reduserer de totale eierkostnadene (TCO) betydelig for bygnings- og anleggsoperatører. I tillegg er polypropylen 100 % resirkulerbart. Gjennom våre validerte Type III Environmental Product Declarations (EPD) i henhold til EN 15804 gir vi grønne bygningsarkitekter og planleggere transparente, kvantifiserbare data for LEED-, BREEAM- og DGNB-sertifiseringer.",
+    "t4": "Global rekkevidde, German Engineering og sertifiseringer",
+    "p4": "Produsert utelukkende i Tyskland under strenge kvalitets- og miljøstyringsprotokoller i henhold til ISO 9001, ISO 14001 og ISO 50001, eksporterer K-Aqua premium rørløsninger til over 50 land over hele verden. Vårt logistikknettverk garanterer rask og sikker levering av komplette systemer til megaprosjekter i Midtøsten, Sørøst-Asia og over hele Europa. Vårt urokkelige engasjement for kvalitet er validert av store internasjonale sertifiseringsorganer inkludert DVGW, SKZ, WRAS og KIWA. Vi støtter rådgivende ingeniører, BIM-modellerere og store entreprenører med detaljerte CAD/BIM-biblioteker, intelligent beregningsprogramvare og omfattende teknisk støtte for å sikre problemfri prosjektgjennomføring. K-Aqua representerer den ultimate syntesen av avansert polymervitenskap, bærekraftig teknikk og kompromissløs pålitelighet innen væskehåndtering."
+  }
+}

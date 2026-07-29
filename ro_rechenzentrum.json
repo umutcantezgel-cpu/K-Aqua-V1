@@ -1,0 +1,100 @@
+    "rechenzentrum": {
+      "meta": {
+        "title": "Infrastructură Centre de Date | K Aqua",
+        "desc": "K Aqua Centre de Date: Siguranță fără compromisuri prin inginerie germană pentru megaproiecte globale. Descoperiți soluții pentru centre de date moderne."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Provocarea termică a AI și HPC",
+            "desc": "Rack-urile moderne de High-Performance Computing (HPC) și Inteligență Artificială (AI) produc o cantitate imensă de căldură reziduală. Răcirea exclusiv cu aer își atinge limitele fizice. Viitorul aparține Răcirii Lichide (Liquid Cooling) și, prin urmare, apei ca agent termic critic direct pe cip."
+          },
+          {
+            "title": "Coroziunea este inamicul disponibilității",
+            "desc": "Sistemele metalice de conducte sunt supuse, în funcționare continuă, la pitting (coroziune prin perforare), rugină și descompunere chimică. O microfisură într-un centru de date poate cauza daune de milioane prin defectarea serverelor. K Aqua elimină acest risc folosind Copolimer Random de Polipropilenă (PP-R) 100% fără coroziune."
+          },
+          {
+            "title": "Conexiuni moleculare sudate cu ultrasunete",
+            "desc": "Acolo unde conductele convenționale se bazează pe garnituri predispuse la erori sau conexiuni cu șuruburi, sistemele K Aqua fuzionează la nivel molecular. Rezultatul: o rețea de conducte complet omogenă, absolut fără scurgeri. Toleranță zero pentru scurgeri."
+          },
+          {
+            "title": "Sustenabilitate & Optimizarea PUE",
+            "desc": "O valoare PUE (Eficiența Utilizării Energiei) scăzută este Sfântul Graal al operatorilor de centre de date. Conductele K Aqua au proprietăți termodinamice excelente. Pierderile reduse prin frecare în conducte și izolarea termică optimă minimizează masiv pierderile de energie în timpul circulației apei de răcire."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Faza 1",
+            "title": "Simularea Curgerii & Proiectare",
+            "text": "Inginerii noștri analizează cerințele de răcire ale centrului de date. Calculăm debitele volumetrice, eliminăm blocajele și dimensionăm rețeaua de conducte pentru eficiență hidrodinamică maximă."
+          },
+          {
+            "year": "Faza 2",
+            "title": "Prefabricare de Precizie",
+            "text": "În fabrica noastră din Germania, bobinele complexe de distribuție sunt prefabricate la comandă. Cu precizie milimetrică, complet automatizat și cu o calitate garantată în condiții de laborator."
+          },
+          {
+            "year": "Faza 3",
+            "title": "Logistică Just-In-Time",
+            "text": "Megaproiectele nu iartă întârzierile la livrare. Coordonăm logistica globală direct pe șantier, sincronizată cu ritmul strict al antreprenorilor generali."
+          },
+          {
+            "year": "Faza 4",
+            "title": "Sudură Omogenă",
+            "text": "Echipele locale de instalare sunt testate de maeștrii sudori K Aqua. Sudura moleculară pe șantier garantează o structură omogenă a conductelor, 100% fără scurgeri, fără puncte slabe."
+          },
+          {
+            "year": "Faza 5",
+            "title": "Testare de Presiune & Verificare",
+            "text": "Înainte de predare, se efectuează un test implacabil de presiune și rezistență hidraulică. Doar dacă sistemul trece aceste teste, eliberăm aprobarea și ne asumăm garanția completă a sistemului."
+          }
+        ],
+        "title": "Procesul de Inginerie",
+        "desc": "De la schița hidrodinamică până la recepția finală: Cum realizăm infrastructuri globale Hyperscale fără compromisuri și în timp record."
+      },
+      "hero": {
+        "eyebrow": "Infrastructură Hyperscale & Colocation",
+        "title1": "Infrastructură cu Timp de Neplăcere Zero.",
+        "title2": "Proiectat în Germania.",
+        "desc": "Atunci când sistemele de răcire formează inima centrelor globale de date, defecțiunea materialului nu este o opțiune. Descoperiți cea mai sigură, eficientă și scalabilă soluție de conducte PP-R pentru tehnologia critică de răcire și climatizare.",
+        "cta1": "Solicită proiect",
+        "cta2": "Cartea Albă Tehnică"
+      },
+      "section1": {
+        "eyebrow": "Răcire Critică (Mission-Critical)",
+        "title": "De ce conductele clasice eșuează.",
+        "lead": "Cerințele moderne ale sistemelor Hyperscale și clusterelor AI depășesc limitele fizice ale sistemelor tradiționale din metal."
+      },
+      "section2": {
+        "eyebrow": "Superioritatea PP-R",
+        "title": "Știința materialelor pentru secolul 21.",
+        "lead": "Fiecare detaliu atomic al sistemului nostru a fost optimizat pentru siguranță absolută împotriva defecțiunilor și durabilitate."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Neutralitate Chimică & Puritate",
+            "desc": "Circuitele închise de răcire necesită agenți de condiționare. K Aqua se comportă absolut inert față de aditivii agresivi și previne complet formarea algelor și a biofilmului. Fără descompunere chimică, fără particule în apa de răcire."
+          },
+          {
+            "title": "Reziliență la Presiune în Clădiri Înalte",
+            "desc": "Proiectat pentru sarcini maxime constante în condiții extreme de presiune PN10 / PN20 în centrele verticale de date (zgârie-nori)."
+          },
+          {
+            "title": "Prefabricare Germană",
+            "desc": "Sudăm în prealabil blocuri complexe de distribuție în fabrica noastră principală din Germania. Livrare Plug-and-Play pentru timpi de construcție reduși drastic."
+          },
+          {
+            "title": "Rezistență la Cutremur (Seismic Resistance)",
+            "desc": "Spre deosebire de sistemele rigide din metal, sistemul nostru PP-R are o elasticitate intrinsecă definită. Undele de șoc și vibrațiile masive de la generatoarele de urgență sau activitățile seismice puternice sunt absorbite în loc să provoace fracturi distructive."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Sunteți gata pentru siguranță fără compromisuri?",
+        "desc": "Conectați-vă cu echipa noastră de inginerie. Vom analiza următorul dumneavoastră megaproiect de centru de date și vom livra infrastructura viitorului.",
+        "button": "Programați o discuție tehnică"
+      }
+    }

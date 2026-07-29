@@ -1,0 +1,1536 @@
+{
+  "catalogx": {
+    "view_product_details": "Katso tuotetiedot",
+    "back_to_catalog": "Takaisin tuoteluetteloon",
+    "article_number": "Tuotenumero",
+    "dimensions": "Mitat",
+    "packaging_unit": "Pakkausyksikkö",
+    "weight": "Paino",
+    "material": "Materiaali",
+    "type": "Tyyppi",
+    "dimension": "Mitta",
+    "standard": "Standardi",
+    "system": "Järjestelmä",
+    "more_info": "Lisätietoja",
+    "request_quote": "Pyydä tarjous",
+    "no_articles": "Tälle tuotteelle ei löytynyt tuotenumeroita.",
+    "catalog_categories": "Tuotekategoriat",
+    "category_pipes": "Putket",
+    "category_fittings": "Liittimet",
+    "category_valves": "Venttiilit",
+    "category_accessories": "Tarvikkeet",
+    "all_products": "Kaikki tuotteet",
+    "search_placeholder": "Hae tuotteita, mittoja tai tyyppejä...",
+    "filter_by_type": "Suodata tyypin mukaan",
+    "filter_by_dimension": "Suodata mitan mukaan",
+    "clear_filters": "Tyhjennä suodattimet",
+    "results": "tulokset",
+    "view_details": "Näytä tiedot",
+    "no_results": "Valituilla kriteereillä ei löytynyt tuotteita.",
+    "eyebrow": "Täydellinen tuoteluettelo",
+    "faqTitle": "Usein kysytyt kysymykset",
+    "title": "Kaikki 79 tuoteperhettä aidoilla tuotenumeroilla.",
+    "lead": "Putket, liittimet, siirtymäliittimet, venttiilit, hitsattavat satulat, tarvikkeet ja työkalut – jokainen rivi perustuu sitovaan K Aqua -luetteloon. Valitse kategoria, avaa tuote ja tarkista tuotenumero.",
+    "searchPlaceholder": "Etsi tuotenumeroa tai tuotteen nimeä, esim. 'AQ200P20' tai 'Elbow'",
+    "noResults": "Ei tuloksia. Muokkaa hakua tai valitse toinen kategoria.",
+    "codesLabel": "Tuotenumerot",
+    "sizesLabel": "Koot",
+    "materialLabel": "Materiaali",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Sarja",
+    "pressureLabel": "Käyttöpaine",
+    "lenLabel": "Pituus",
+    "cats": {
+      "pipes": {
+        "label": "Putket",
+        "desc": "PPR- ja PPRCT-putket: standardi, kuituvahvistettu ja UV-suojattu, 12 sarjaa."
+      },
+      "fittings": {
+        "label": "Liittimet",
+        "desc": "Muhvihitsaus- ja sähköhitsausliittimet, d20–d125, 13 tuoteperhettä."
+      },
+      "transitionFittings": {
+        "label": "Siirtymäliittimet",
+        "desc": "Siirtymät kierteisiin ja messinkiin olemassa oleville liitännöille ja venttiileille, 13 perhettä."
+      },
+      "valves": {
+        "label": "Venttiilit",
+        "desc": "Palloventtiilit, uppoasennusventtiilit, jakotukit, 9 tuoteperhettä."
+      },
+      "weldInSaddles": {
+        "label": "Hitsattavat satulat",
+        "desc": "Haaroitukset ilman putken katkaisua, kierteellä ja ilman, 3 perhettä."
+      },
+      "accessories": {
+        "label": "Tarvikkeet",
+        "desc": "Putkikiinnikkeet, vastalaipat, tiivisteet, tulpat: 5 tuoteperhettä."
+      },
+      "tools": {
+        "label": "Työkalut",
+        "desc": "Putkileikkurit, hitsauskoneet ja -työkalut kaikkiin neljään liitosmenetelmään, 14 perhettä."
+      }
+    },
+    "rfq": {
+      "title": "Projektikysely",
+      "desc": "Pyydä suoraan tarjous kohteelle <span class=\"font-semibold\">{title}</span>.",
+      "button": "Kyselyyn"
+    },
+    "similar": {
+      "title": "Lisää kategoriasta {category}"
+    },
+    "items": {}
+  },
+  "toggle_theme_light": "Vaihda vaaleaan teemaan",
+  "toggle_theme_dark": "Vaihda tummaan teemaan",
+  "nav": {
+    "home": "Etusivu",
+    "products": "Tuotteet",
+    "finder": "Tuotehaku",
+    "co2": "CO₂-laskuri",
+    "markets": "Markkinat",
+    "trust": "Trust Center",
+    "contact": "Yhteystiedot",
+    "quote": "Pyydä tarjous",
+    "menu": "Valikko",
+    "lang": "Kieli",
+    "skipToContent": "Siirry sisältöön",
+    "menuPlaceholder": "Paikkamerkki (Mega-valikko)",
+    "academy": "Akatemia",
+    "service": "Palvelut",
+    "about": "Yritys",
+    "solutions": "Ratkaisut",
+    "partners": "Kumppanuus",
+    "references": "Referenssit",
+    "career": "Ura",
+    "news": "Uutiset",
+    "knowledge_trust": "Tieto ja Luottamus",
+    "mapAria": "Avaa kartan navigointi",
+    "sitemapAria": "Sivustokartta",
+    "pipes": "Putket",
+    "fittings": "Liittimet",
+    "valves": "Venttiilit",
+    "accessories": "Tarvikkeet",
+    "tools": "Työkalut"
+  },
+  "groups": {
+    "tools": "Työkalut",
+    "knowledge": "Tieto",
+    "company": "Yritys",
+    "products": "Tuotteet",
+    "markets_solutions": "Markkinat ja Ratkaisut",
+    "knowledge_resources": "Tieto ja Resurssit"
+  },
+  "pages": {
+    "catalogOverview": "Täydellinen tuoteluettelo",
+    "products": [
+      "Tuotteet ja Liittimet",
+      "Tutustu K Aquan täydellisiin muoviputkijärjestelmiin d20 - d630 mm. Tehokkaat PP-R ja PPRCT putket kotitalouksiin ja teollisuuteen."
+    ],
+    "finder": [
+      "Tuotehaku",
+      "Löydä heti täydellinen PP-R- tai PPRCT-putki, liitin tai venttiili. Suodata luetteloamme livenä mitan, paineluokan ja seinämänpaksuuden mukaan."
+    ],
+    "finderGuideText": "<h2>Interaktiivinen tuotehaku K-Aqua-putkijärjestelmille</h2><p>Hyödynnä innovatiivista tuotehakuamme löytääksesi juuri oikean osan putkiasennukseesi. Etsitpä sitten standardeja PP-R-putkia käyttövesiasennuksiin, kuituvahvistettuja PPRCT-putkia vaativiin teollisuuslaitoksiin tai erityisiä siirtymäliittimiä ja venttiilejä – työkalumme suodattaa koko luettelon reaaliajassa. Tuotehaku auttaa sinua valitsemaan halkaisijan (d20–d630), paineluokan (SDR-luokka) ja materiaalin mukaan.</p><p>Hyvin jäsennelty putkistojärjestelmä vaatii tarkkaa suunnittelua sekä putkien, liittimien (kuten muhvit, kulmat ja T-haarat) ja muiden tarvikkeiden tarkkaa yhdistämistä. Tuotehakumme poistaa aikaa vievän haun staattisista PDF-luetteloista ja tarjoaa sinulle välittömästi luotettavat tiedot tuotenumeroista, pakkausyksiköistä ja teknisistä asioista. Vain muutamalla napsautuksella voit koota materiaaliluettelosi ja varmistaa eri komponenttien yhteensopivuuden lämmitys-, jäähdytys- ja käyttövesijärjestelmissä. Tämä ei ainoastaan optimoi suunnitteluprosessiasi, vaan myös minimoi virheet materiaalien tilaamisessa seuraavaa rakennusprojektiasi varten.</p>",
+    "co2": [
+      "CO2-laskuri",
+      "Vertaile K Aqua PP-R -muoviputkien hiilijalanjälkeä kupariin, ruostumattomaan teräkseen ja PVC:hen. Testattu ISO 14040/44 mukaisesti vihreään rakentamiseen (Green Building)."
+    ],
+    "solutions": [
+      "Materiaalien edut",
+      "Lue, miksi polypropeeni (PP-R/PPRCT) on ylivertainen materiaali vedenjakeluun. Ekologinen, teknisesti edistynyt ja taloudellinen."
+    ],
+    "academy": [
+      "K-Aqua Academy: PP-R -hitsaustekniikat ja asiantuntemus",
+      "Opi ammattimaisia hitsaustekniikoita PP-R-muoviputkille. Katso opetusvideoita ja suorita Welding-Master-tietovisamme."
+    ],
+    "trust": [
+      "Trust Center",
+      "Pääsy K Aquan laatudokumentaatioon. Lataa ISO-sertifikaatit, GENAU-kehys ja auditointidokumentit projektiisi."
+    ],
+    "service": [
+      "Palvelu- ja Latauskeskus",
+      "Lataa viralliset K Aqua -tuoteluettelot, tekniset tiedotteet ja asennusohjeet PP-R- ja PPRCT-muoviputkijärjestelmille."
+    ],
+    "partner": [
+      "KESSEL Kumppanuus",
+      "K Aquaa ja KESSELIÄ yhdistää vuosikymmeniä kestänyt kumppanuus, joka tuo saksalaiset valmistusstandardit viemäröinnistä vedenjakeluun."
+    ],
+    "markets": [
+      "Markkinat ja Sijainnit",
+      "K Aqua toimittaa PP-R-putkijärjestelmiä yli 27 maahan. Käytä interaktiivista maailmankarttaamme nähdäksesi paikalliset standardit, vesiprofiilit ja logistiikkatiedot."
+    ],
+    "references": [
+      "Referenssiprojektit",
+      "Tutustu maailmanlaajuisiin referenssiprojekteihin, joissa on K-Aqua PP-R -putkijärjestelmiä. Interaktiivinen 3D-maapallomme näyttää kotitalous-, kaupalliset ja teollisuuskohteet."
+    ],
+    "about": [
+      "Tietoa KWT GmbH:sta",
+      "KWT GmbH yhdistää vuosikymmenten kokemuksen valmistaakseen K Aqua -premium-putkijärjestelmiä. Saksalaista insinööritaitoa huippulaatuun ja innovaatioihin."
+    ],
+    "career": [
+      "Ura K-Aquassa",
+      "Tule osaksi tiimiämme Waldsolmsiin. Laske verottomat etusi netto ja testaa 60 sekunnissa, sopiiko K Aqua sinulle."
+    ],
+    "news": [
+      "Ajankohtaista ja Uutiset | K-Aqua -yritysuutiset",
+      "Pysy ajan tasalla K Aquan innovaatioista, tuotteista, messuosallistumisista ja sitoutumisestamme kolminkertaisesti ISO-testattuun tuotantoon."
+    ],
+    "contact": [
+      "Yhteystiedot, Myynti ja Tuki",
+      "Ota yhteyttä K Aquan asiantuntijatiimiin myyntikyselyissä, tuessa tai kumppanuuksissa. Nopeat vastausajat globaaleille B2B-asiakkaille."
+    ],
+    "rfq": [
+      "Projektikysely",
+      "Pyydä sitoumusvapaa tarjous seuraavasta putkiprojektistasi neljässä helpossa vaiheessa. Myyntitiimimme vastaa 24 tunnin sisällä."
+    ],
+    "home": [
+      "PP-R ja PPRCT Putkijärjestelmät",
+      "K Aqua valmistaa ensiluokkaisia PP-R- ja PPRCT-muoviputkijärjestelmiä käyttövesi- ja teollisuussovelluksiin. Saksalaista insinööritaitoa globaaleihin projekteihin."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Tietosuojaseloste",
+        "Kattava tietosuojaseloste K Aqua -verkkosivustolle GDPR-ohjeiden mukaisesti."
+      ],
+      "impressum": [
+        "Julkaisutiedot ja oikeudelliset huomautukset",
+        "Julkaisutiedot ja oikeudelliset yritystiedot KWT GmbH:lle, K Aquan valmistajalle."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "testattu laatu",
+      "title1": " ",
+      "titleHighlight": "GENAU",
+      "title2": " -hallintajärjestelmä",
+      "p1": "GENAU-hallintajärjestelmän tavoitteena on jatkuvasti parantaa yrityksen työ-, ympäristö- ja terveydensuojelua.",
+      "p2": "Kaikki yrityksen toimet KWT:llä toteutetaan ottaen huomioon resurssien säästäminen, ympäristöystävällisyys ja kaikkien velvoitteiden tiukka noudattaminen. Käytännössä toteutettu GENAU-hallinta täyttää samalla seuraavien standardien korkeat vaatimukset: ",
+      "p3": " ja ",
+      "list1Title": "Ekologinen vastuu",
+      "list1Desc": "Ympäristönsuojelu on osa laatukäsitystämme, johon kaikki KWT GmbH:n työntekijät ovat sitoutuneet.",
+      "list2Title": "Energiatehokkuus",
+      "list2Desc": "Riskien kohdennettu tunnistaminen ja toimenpiteiden toteuttaminen energiatehokkuuden optimoimiseksi."
+    },
+    "pipes": [
+      "Putket ja Järjestelmät",
+      "Tehokkaat PP-R- ja PP-RCT-putket kotitalouksiin ja teollisuuteen. Tutustu kaikkiin SDR-luokkiin ja mittoihin seuraavaa projektiasi varten."
+    ],
+    "fittings": [
+      "Putkiosat ja Liittimet",
+      "Täydellinen valikoima putkiosia kaikkiin K-Aqua-putkijärjestelmiin. Tutustu kulmiin, T-haaroihin, supistuksiin ja muhveihin (polyfuusio)."
+    ],
+    "valves": [
+      "Armatuurit ja Venttiilit",
+      "Premium-armatuurit ja -tarvikkeet putkiverkostoihin. Laadukkaat palloventtiilit, uppoasennusventtiilit, vinoutetut venttiilit ja takaiskuventtiilit."
+    ],
+    "tools": [
+      "Työkalut ja Tarvikkeet",
+      "Ammattilaisten hitsaustyökalut ja tarvikkeet PP-R-asennukseen. Tutustu hitsauskoneisiin, putkileikkureihin ja erikoistyökaluihin."
+    ],
+    "transition-fittings": [
+      "Siirtymäliittimet",
+      "Luotettavat siirtymäliittimet turvallisiin liitäntöihin. Tutustu messinkisiin siirtymäliittimiin kierre- tai laippaliitännöillä."
+    ]
+  },
+  "home": {
+    "chip": "Vedenjakelu",
+    "h1a": "Vesitekniikan",
+    "h1b": "Uusi Aikakausi.",
+    "globeAria": "3D-maapallo, jossa näkyvät kohteet",
+    "scrolly": [
+      {
+        "t": "Valmistettu Saksassa",
+        "d": "Kehitys ja tuotanto Waldsolmsissa – jokaiselle putkelle ja liittimelle."
+      },
+      {
+        "t": "d20 – d630",
+        "d": "Täydellinen järjestelmä: viisi paineluokkaa, liittimet, venttiilit ja hitsaustekniikka."
+      },
+      {
+        "t": "Kolminkertaisesti testattu",
+        "d": "ISO 9001, 14001 ja 50001: laatu, ympäristö ja energia samasta hallintajärjestelmästä."
+      },
+      {
+        "t": "27 markkinaa maailmanlaajuisesti",
+        "d": "Frankfurtista NEOMiin: testattu paikallisia normeja ja vesiprofiileja vastaan."
+      }
+    ],
+    "lead": "K-Aqua kehittää ja valmistaa PP-R- ja PP-RCT-putkijärjestelmiä juomavedelle kokoluokissa 20–630 mm, yhteistyössä premium-valmistaja KESSELin kanssa.",
+    "ctaProducts": "Tutustu tuotejärjestelmään",
+    "ctaContact": "Ota yhteyttä",
+    "toolsEyebrow": "Interaktiiviset työkalut",
+    "toolsTitle1": "Ei pelkkää tekstiä.",
+    "toolsTitle2": "Työkalut.",
+    "toolsLead": "Verkkosivusto tekee työn puolestasi: suodata, laske, opi.",
+    "bandTitle": "Oletko valmis vedenjakelun seuraavaan sukupolveen?",
+    "bandLead": "Keskustele myyntitiimimme kanssa projektistasi, suunnittelusta hitsaustekniikkaan.",
+    "bandBtn": "Aloita projektikysely",
+    "bandBtn2": "Lataukset ja palvelut"
+  },
+  "geo": {
+    "eyebrow": "Markkinat ja Sijainnit",
+    "title1": "Maailma täynnä",
+    "title2": "Markkinoita.",
+    "lead": "Tutustu K-Aquan sijainteihin PP-R-putkijärjestelmille: {n} markkinaa {c} maassa, jokaisella on oma laskeutumissivunsa normeille, vesiprofiilille, sovelluksille ja logistiikalle. Tartu maailmaan ja pyöritä sitä vapaasti; luettelo lennättää sinut suoraan kaupunkiin.",
+    "all": "Kaikki",
+    "cityTitle": "PP-R/PPRCT-putkijärjestelmät kohteessa {city}.",
+    "cityLead": "Juomavesijärjestelmät d20–d630, testattu paikallisia vaatimuksia vastaan.",
+    "allMarkets": "Kaikki markkinat",
+    "request": "Pyydä projektia",
+    "finder": "Tuotehaku",
+    "fromPlant": "km tehtaalta Waldsolmsista",
+    "regFrame": "Sääntelykehys",
+    "water": "Vesiprofiili ja materiaalivaste",
+    "typical": "Tyypilliset projektit kohteessa {city}",
+    "onSite": "Käsittely paikan päällä",
+    "onSiteText": "Hitsaustekniikan opastus ja videodokumentaatio tiimillesi Academyssa.",
+    "toAcademy": "Siirry Academyyn",
+    "nearbyEyebrow": "Liittyvät markkinat",
+    "nearby": "Lähistöllä.",
+    "prodNote": "Tuotantohuomautus: Nämä sivut vastaavat Programmatic-SEO-mallia. Ne luodaan Headless CMS:stä ISR-menetelmällä.",
+    "km": "km",
+    "seoExpansion": "K Aqua valmistaa Waldsolmsissa PP-R- ja PPRCT-putkijärjestelmiä maailmanlaajuisen rakennus- ja talotekniikan korkeimpiin vaatimuksiin. Tinkimättömän saksalaisen insinööritaidon (German Engineering) ja uusimman tuotantoteknologian ansiosta järjestelmämme takaavat vuosikymmenten huoltovapaan käyttövarmuuden. Jokainen tuote, koosta d20 kokoon d630, läpikäy tiukat laadunvalvonnat ja täyttää kansainväliset standardit, kuten DVGW, KIWA ja SKZ. Tarjoamme ensiluokkaisia materiaaleja käyttövedelle, jäähdytykseen ja teollisuuteen, sekä tuemme suunnittelijoita ja asentajia kattavalla teknisellä tuella ja paikallisilla koulutuksilla. Luota järjestelmään, joka vakuuttaa äärimmäisellä kestävyydellä, korroosionvapaudella ja ehdottomalla hygienialla.",
+    "seoExpansionDynamic": "Lue lisää PP-R- ja PPRCT-ratkaisuistamme kohteessa {city}. Täytämme paikalliset standardit ({regulator}) ja tarjoamme optimaaliset järjestelmät vedenlaadulle ({water}). Lisätieto: {note}.",
+    "cityMetaTitle": "PP-R Putkijärjestelmät kohteessa {city}",
+    "hubMetaTitle": "PP-R Putkijärjestelmät alueelle {country}",
+    "hubH1": "Infrastruktuuriratkaisut alueelle {country}",
+    "hubLead": "K-Aqua tarjoaa sertifioidut PP-R- ja PP-RCT-infrastruktuuriratkaisut alueelle {country}. Putkijärjestelmämme täyttävät korkeimmat kansainväliset standardit ja on optimoitu {country} erityisiin haasteisiin.",
+    "hubContextTitle": "Alueellinen konteksti: {context}",
+    "hubContextBody": "Saksassa valmistetut K-Aqua PP-R/PP-RCT -putkijärjestelmämme tarjoavat kestäviä infrastruktuuriratkaisuja alueelle {country}. Ne on suunniteltu vastaamaan paikallisiin infrastruktuurin haasteisiin.",
+    "hubCitiesTitle": "Paikalliset sijainnit ja referenssikaupungit",
+    "hubs": {
+      "deutschland": {
+        "description": "K-Aquan kotimarkkina Saksa asettaa korkeimmat vaatimukset rakentamisen laadulle ja kestävyydelle. <span class=\"font-semibold\">PP-R- ja PP-RCT-putkijärjestelmämme</span> ratkaisevat Saksan käyttövesi- ja lämmitysinfrastruktuurin korjausvelan tehokkaasti ja kestävästi. Korroosiovapailla, DVGW-sertifioiduilla materiaaleilla vähennämme ylläpitokustannuksia ja takaamme maksimaalisen järjestelmän hygienian kunnallisissa, kaupallisissa ja yksityisissä suurhankkeissa vuosikymmenten ajaksi.",
+        "metaDesc": "Sertifioidut PP-R/PP-RCT-putkijärjestelmät Saksalle. German Engineering ratkaisee käyttövesi- ja lämmitysinfrastruktuurin korjausvelan."
+      },
+      "oesterreich": {
+        "description": "Itävallassa vaativat pinnanmuodot ja tiukat ympäristömääräykset edellyttävät tinkimättömiä infrastruktuuriratkaisuja. <span class=\"font-semibold\">K-Aqua-putkijärjestelmämme</span> tarjoavat premium-laatua kestäviin vesi- ja kaukolämpöverkkoihin alppialueilla. ÖVGW-testatulla turvallisuudella ja erinomaisella lämmöneristyksellä PP-R- ja PP-RCT-putkemme takaavat pakkas- ja paineturvallisen suorituskyvyn jopa Alppien äärimmäisimmissä ilmasto-oloissa.",
+        "metaDesc": "Premium PP-R/PP-RCT-putkijärjestelmät Itävallalle. Pakkas- ja paineturvalliset ratkaisut vesi- ja kaukolämpöverkkoihin alppialueilla."
+      },
+      "schweiz": {
+        "description": "Sveitsi edustaa tarkkuutta, kestävyyttä ja korkeimpia laatustandardeja. <span class=\"font-semibold\">K-Aquan PP-R- ja PP-RCT-järjestelmät</span> täyttävät nämä vaatimukset ensiluokkaisella materiaalin puhtaudella ja SVGW-sertifioidulla elintarviketurvallisuudella. Täysin kierrätettävät, virtaukseltaan optimoidut muoviputkemme mahdollistavat energiatehokkaan saniteetti- ja ilmastointitekniikan tulevaisuuteen suuntautuville Minergie-rakennushankkeille koko Sveitsin alueella.",
+        "metaDesc": "Ensiluokkaiset PP-R/PP-RCT-putkijärjestelmät Sveitsille. SVGW-sertifioidut, kierrätettävät muoviputket kestävään Minergie-rakentamiseen."
+      },
+      "uae": {
+        "description": "Yhdistyneiden arabiemiirikuntien äärimmäisissä ilmasto-oloissa vesi on arvokkain resurssi. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT-putkijärjestelmät</span> tarjoavat äärimmäisen suojan korroosiota ja kalkkeutumista vastaan, jopa käytettäessä suoloista puhdistettua merivettä (Reverse Osmosis). UV- ja lämpöä kestävät suurtehoputkemme varmistavat pysyvän vedensaannin Dubain ja Abu Dhabin jättimäisissä megaprojekteissa ja pilvenpiirtäjissä.",
+        "metaDesc": "UV- ja lämpöä kestävät PP-R/PP-RCT-putkijärjestelmät Arabiemiirikuntiin. Korkein suoja korroosiota ja kalkkeutumista vastaan aavikkoilmastossa."
+      },
+      "ksa": {
+        "description": "Vision 2030 -ohjelman puitteissa Saudi-Arabia uudistaa koko infrastruktuurinsa. <span class=\"font-semibold\">K-Aqua toimittaa tähän välttämättömän vesi-infrastruktuurin</span>. Suurkaliiperiset PP-RCT-putkemme takaavat turvallisen, vuodottoman ja tehokkaan vedenjakelun uusissa älykaupungeissa kuten NEOM. Kansainvälisten standardien mukaisesti sertifioituina takaamme keskeytymättömän toiminnan erittäin korkeissa ympäristölämpötiloissa.",
+        "metaDesc": "Suurkaliiperiset PP-RCT-putkijärjestelmät Saudi-Arabialle. Luotettava vesi-infrastruktuuri Vision 2030 -megaprojekteihin kuten NEOM."
+      },
+      "singapur": {
+        "description": "Yhtenä Aasian tiheimmin asutuista huipputeknologian kaupunkivaltioista Singapore tarvitsee erittäin tehokasta ja tilaa säästävää talotekniikkaa. <span class=\"font-semibold\">K-Aquan innovatiiviset putkijärjestelmät</span> tukevat Singaporen kunnianhimoisia Green Building -tavoitteita vähentämällä painehäviöitä huomattavasti ja tarjoamalla optimaaliset lämpöominaisuudet. Pilvenpiirtäjien ilmastoinnista (Chilled Water) erittäin puhtaaseen käyttöveden jakeluun – asetamme Aasian standardit.",
+        "metaDesc": "Tehokkaat PP-R/PP-RCT-putket Singaporen Green Buildings -kohteisiin. Erikoisjärjestelmät Chilled Water -verkkoihin ja erittäin puhtaaseen käyttöveden jakeluun."
+      }
+    }
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "suurin putkikoko valikoimassa"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Paineluokat: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Laatu, ympäristö ja energia testattu"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Tuotantojäte kierrätetään"
+      }
+    ],
+    "heroBadgeLabel": "Putkikoot, SDR 6 - SDR 17",
+    "marquee": [
+      "Edelläkävijä vedenjakelussa",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Valmistettu Waldsolmsissa",
+      "100 % Kierrätys",
+      "Kumppani: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Tuotehaku",
+        "d": "Suodata 170+ tuoteversiota livenä: mitat, SDR, seinämänpaksuus heti.",
+        "cta": "Suodata nyt"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂-laskuri",
+        "d": "Projektisi vs. kupari, teräs ja PVC, puina ja ajokilometreinä.",
+        "cta": "Laske nyt"
+      },
+      {
+        "id": "academy",
+        "t": "Academy + Tietovisa",
+        "d": "Neljä hitsausmenetelmää videolla, sitten hitsausmestari-tietovisa.",
+        "cta": "Ryhdy mestariksi"
+      },
+      {
+        "id": "references",
+        "t": "Referenssigloobus",
+        "d": "Pyöritä planeettaa, tutki projekteja: Waldsolmsista Singaporeen.",
+        "cta": "Pyöritä gloobusta"
+      },
+      {
+        "id": "trust",
+        "t": "Trust Center",
+        "d": "Tarkista sertifikaatit ja kokoa RFP-dokumenttipaketti itse.",
+        "cta": "Kokoa paketti"
+      },
+      {
+        "id": "career",
+        "t": "Etu-laskuri",
+        "d": "Katso mitä verottomat edut tuovat nettona, plus 60 sekunnin Culture Match.",
+        "cta": "Tarkista netto"
+      }
+    ],
+    "vsEyebrow": "Ero",
+    "vsTitle": "Alan standardi vs. K Aqua digitaalisesti.",
+    "vsBadTitle": "Näin ala toimii",
+    "vsGoodTitle": "Näin K Aqua toimii",
+    "vsBad": [
+      "220-sivuiset PDF-luettelot ilman hakua",
+      "Sertifikaatit vain kirjallisesta pyynnöstä",
+      "Tekniset tiedot syvällä taulukkoviidakoissa",
+      "Urasivu: pelkkä postilaatikko"
+    ],
+    "vsGood": [
+      "Tuotehaku: suodata sekunneissa",
+      "Trust Center: lataukset itsepalveluna",
+      "CO₂-laskuri tekee tiedoista argumentin",
+      "Etu-laskuri + Culture Match"
+    ],
+    "coEyebrow": "Yritys",
+    "coTitle1": "Rakennusmateriaalien toimittaja ja valmistaja:",
+    "coTitle2": "samasta paikasta.",
+    "coLead": "KWT GmbH valmistaa putkia ja liittimiä vedenjakeluun erilaisista muoveista, asemioiden itsensä rakentamisen arvoketjussa toimittajana ja valmistajana.",
+    "kesselTitle": "Vahva kumppanuus KESSELin kanssa",
+    "kesselText": "Premium-valmistaja KESSELin (\"Leading in drainage\") kanssa meillä on tiivis, pitkäaikainen kumppanuus. Viemme tämän vuosikymmenten kokemuksen tulevaisuuteen.",
+    "kesselCta": "Lisää kumppanuudesta",
+    "worldTitle": "Maailmanlaajuisesti hyväksi todettu",
+    "worldText": "K Aqua -tuotteet ovat todistaneet itsensä lukemattomia kertoja vuosikymmenten aikana projekteissa ympäri maailman.",
+    "worldCta": "Referenssigloobus",
+    "cards": [
+      {
+        "t": "GENAU-hallintajärjestelmä",
+        "d": "Työ-, ympäristö- ja terveydensuojelun jatkuva parantaminen standardien DIN EN ISO 14001 ja 50001 mukaisesti."
+      },
+      {
+        "t": "Valmistus Saksassa",
+        "d": "Kehitys ja tuotanto Waldsolmsin toimipisteessä: laatu, kustannukset ja aikataulut aina tasapainossa."
+      },
+      {
+        "t": "Ekologinen vastuu",
+        "d": "Resurssien säästäminen ja ympäristöystävällisyys ovat kiinteä osa laatukäsitystämme."
+      }
+    ],
+    "manifestTitle": "Missiomme",
+    "manifestText": "Vesi on arvokkain resurssimme. Suojelemme sitä tulevaisuuteen suuntautuvilla putkijärjestelmillä.",
+    "grEyebrow": "Globaali ulottuvuus",
+    "grTitle1": "Kansainväliset",
+    "grTitle2": "kauppareitit",
+    "grLead": "Saksasta maailmalle: K Aqua -putkijärjestelmämme ovat maailman nykyaikaisimpien megaprojektien selkäranka. NEOMista Saudi-Arabiassa Singaporen erittäin monimutkaisiin teollisuuslaitoksiin.",
+    "grHqLabel": "Pääkonttori ja tuotanto",
+    "grHqValue": "Saksa (Frankfurt)",
+    "grExportLabel": "Viennin ydinmarkkinat",
+    "grExportValue": "Saudi-Arabia (NEOM), Arabiemiirikunnat, Qatar, Latinalainen Amerikka",
+    "grCta": "Tutustu maailmanlaajuisiin projekteihin"
+  },
+  "productsx": {
+    "heroTitle": "Kokonaisvaltainen PP-R/PPRCT-putkijärjestelmä.",
+    "heroLead": "Täydellinen järjestelmä talotekniikkaan, teollisuuteen ja vedenjakeluun: Putket, liittimet ja armatuurit mitasta d20 mittaan d630. Sertifioitu, kierrätettävä, korroosiovapaa.",
+    "scrollEyebrow": "Valikoiman laajuus",
+    "scrollTitle": "Ohjelma.",
+    "scrollLead": "Yksi ohjelma. Viisi paineluokkaa. Neljä asennustapaa. Saksalaista insinööritaitoa joka tasolla.",
+    "scroll": [
+      {
+        "t": "PP-R / PPRCT",
+        "d": "Valitse Polypropyleeni Random Copolymer (SDR 6 - 11) tai seuraavan sukupolven PP-RCT (SDR 7,4 / 11) välillä suurempiin virtausnopeuksiin korkeissa lämpötiloissa."
+      },
+      {
+        "t": "170+ Tuoteversiota",
+        "d": "Standardi, kuituvahvistettu (GF) pienennetylle lämpölaajenemiselle, UV-suojattu ulkoasennukseen. d20 – d630 mm."
+      },
+      {
+        "t": "Liittimet ja Armatuurit",
+        "d": "Kulmat, T-haarat, supistukset, messinkisiirtymät, palloventtiilit. Integroitu ja mitoitettu täsmälleen putkisarjoille."
+      },
+      {
+        "t": "Työkalut",
+        "d": "Käsihitsauslaitteista suuriin puskuhitsauskoneisiin d630 mm asti. Neljä hitsausmenetelmää tuettuina."
+      }
+    ],
+    "sysEyebrow": "Järjestelmä",
+    "sysTitle": "Järjestelmän osat",
+    "sysLead": "Luettelomme perusta: integroidun järjestelmän neljä rakennuspalikkaa. Putket, liittimet, armatuurit ja työkalut muodostavat yhden järjestelmän PP-R:stä ja PP-RCT:stä.",
+    "dimEyebrow": "Mitat ja parametrit",
+    "dimTitle": "Geometria ja paineluokat.",
+    "dimLead": "PP-R-ohjelma nojautuu viiteen Standard Dimension Ratio (SDR) -luokkaan. Tämä tarjoaa oikean paineenkestävyyden sovelluksellesi aina 630 mm ulkohalkaisijaan asti.",
+    "dimTabAria": "Valitse paineluokka",
+    "dimHead": [
+      "d (mm)",
+      "Seinämä s (mm)",
+      "di (mm)",
+      "Nimellispaine",
+      "Vesitilavuus (l/m)",
+      "Paino (kg/m)"
+    ],
+    "dimNote": "Lasketut arvot SDR-geometriasta. Tuoteluettelo ja projektikohtaiset tietolehdet ovat sitovia.",
+    "anchorsTitle": "Sitovat suunnittelupisteet ohjelmasta",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "K-Fiber Pipe PP-R · SDR 6",
+        "c": "2,0 MPa jatkuva käyttö 20 °C:ssa: Kylmä vesi 50 vuoden käyttöiällä."
+      },
+      {
+        "v": "10 bar",
+        "t": "K-Pipe PPRCT · SDR 7,4",
+        "c": "1,0 MPa jatkuva käyttö 70 °C:ssa: Lämminvesi ja kierto ilman reservin menetystä."
+      }
+    ],
+    "matEyebrow": "Materiaalin tiedot",
+    "matTitle": "Mikä tekee materiaalista poikkeuksellisen.",
+    "matLead": "PP-R/PPRCT-järjestelmän tärkeimmät ominaisuudet ja miksi ne merkitsevät suunnittelussa.",
+    "matHead": [
+      "Ominaisuus",
+      "Arvo",
+      "Merkitys projektillesi"
+    ],
+    "matRows": [
+      [
+        "Tiheys",
+        "0,905 g/cm³",
+        "Noin kymmenesosa kuparista: kevyt kuljettaa, helppo asentaa ilman nostolaitteita pienissä ja keskisuurissa mitoissa."
+      ],
+      [
+        "Sisäpinnan karheus",
+        "0,007 mm",
+        "Erittäin sileä pinta: minimaalinen painehäviö, ei juurikaan karstoittumista ja biokalvon muodostumista."
+      ],
+      [
+        "Lämmönjohtavuus",
+        "0,24 W/(m·K)",
+        "Pienet lämpöhäviöt lämpimän veden kierrossa: pysyvä energiansäästö metalliin verrattuna."
+      ],
+      [
+        "Pituuden laajeneminen (Monolayer)",
+        "≈ 0,15 mm/(m·K)",
+        "Hallitaan rakenteellisesti paisuntalenkeillä ja kiintopisteillä."
+      ],
+      [
+        "Pituuden laajeneminen (K-Fiber, GF)",
+        "≈ 0,04 mm/(m·K)",
+        "Noin neljännes Monolayer-arvosta: suuremmat kiinnikevälit, siistimpi asennusjälki."
+      ],
+      [
+        "Väliaineen lämpötila",
+        "kylmästä 70 °C jatkuvaan käyttöön",
+        "Juomavesi kuuma ja kylmä; Suunnittelupiste: PPRCT SDR 7,4 / 70 °C · 10 bar."
+      ],
+      [
+        "Kemiallinen kestävyys",
+        "Liuottimet, emäkset, hapot",
+        "Teknisenä muovina epätavallisen kestävä: korroosiovapaa ilman pistesyöpymisen riskiä."
+      ],
+      [
+        "Kierrätys",
+        "Koodi 5 (PP)",
+        "Täysin eroteltavissa; 100 % tuotantojätteestä palautuu materiaalikiertoon."
+      ]
+    ],
+    "fitEyebrow": "Liittimet ja järjestelmäkomponentit",
+    "fitTitle": "Järjestelmä putken ympärillä.",
+    "fitLead": "Liittimet d20 - d315, armatuurit, siirtymät ja täydellinen hitsaustekniikka: kaikki yhdestä paikasta, kaikki yhteensopivaa.",
+    "fitGroups": [
+      {
+        "t": "Liittimet d20–d315",
+        "items": [
+          "Kulmat 90° ja 45°",
+          "T-haarat, myös supistetut",
+          "Muhvit",
+          "Supistukset",
+          "Päätytulpat"
+        ]
+      },
+      {
+        "t": "Siirtymät ja kierreliitännät",
+        "items": [
+          "Siirtymäosat messinki-sisäkierteellä",
+          "Siirtymäosat messinki-ulkokierteellä",
+          "Kierreliitännät (irrotettavat)",
+          "Liitokset olemassa oleviin metalliputkiin"
+        ]
+      },
+      {
+        "t": "Armatuurit",
+        "items": [
+          "Venttiilit",
+          "Palloventtiilit",
+          "Sulkuventtiilit nousu- ja jakoverkostoihin"
+        ]
+      },
+      {
+        "t": "Hitsaustekniikka ja työkalut",
+        "items": [
+          "Käsihitsauskoneet (d63 asti)",
+          "Muhvihitsauskoneet",
+          "Sähköhitsauskoneet",
+          "Puskuhitsauskoneet suurille mitoille",
+          "Putkileikkurit ja katkaisutyökalut"
+        ]
+      }
+    ],
+    "normEyebrow": "Standardit ja todistukset",
+    "normTitle": "Testattu sääntöjä vastaan.",
+    "normLead": "K Aqua -järjestelmä valmistetaan ja testataan putkistotekniikan asiaankuuluvien standardien mukaisesti.",
+    "normHead": [
+      "Standardi",
+      "Otsikko",
+      "Merkitys"
+    ],
+    "norms": [
+      [
+        "DIN 8077",
+        "Polypropeeniputket: Mitat",
+        "Määrittää PP-putkien halkaisija- ja seinämänpaksuussarjat (SDR)."
+      ],
+      [
+        "DIN 8078",
+        "Polypropeeniputket: Vaatimukset",
+        "Yleiset laatuvaatimukset ja testit PP-R/PPRCT-putkille."
+      ],
+      [
+        "DIN EN ISO 15874",
+        "Muoviputkijärjestelmät",
+        "Järjestelmästandardi lämpimän ja kylmän veden asennuksille polypropeenista."
+      ],
+      [
+        "DVS 2207-11",
+        "PP:n hitsaus",
+        "Ohjearvot muhvi-, sähkö- ja puskuhitsaukselle: Academy-sisältöjen perusta."
+      ],
+      [
+        "DVGW / KTW",
+        "Juomavesikontakti",
+        "Vaatimustenmukaisuustodistukset juomavesikontaktille: saatavilla Trust Centeristä."
+      ],
+      [
+        "EN 15804",
+        "EPD (Tyyppi III)",
+        "Ympäristöselosteet tietopohjana LEED-, BREEAM- ja DGNB-sertifioinneille."
+      ],
+      [
+        "ISO 9001 / 14001 / 50001",
+        "Hallintajärjestelmät",
+        "Laatu, ympäristö ja energia: kolminkertaisesti testattu, DAkkS-akkreditoitu."
+      ],
+      [
+        "GENAU",
+        "Integroitu hallintajärjestelmä",
+        "KWT:n oma järjestelmä yhdistää työturvallisuuden, ympäristön ja energian arjessa."
+      ]
+    ],
+    "faqEyebrow": "Usein kysyttyä",
+    "faqTitle": "Vastauksia suunnitteluun ja hankintaan.",
+    "faq": [
+      {
+        "q": "Mille aineille järjestelmä on suunniteltu?",
+        "a": "Juomavedelle (kuuma ja kylmä) korkealla lämpötilan- ja paineenkestolla vuosikymmenten ajan. Koska PP kestää liuottimia, emäksiä ja happoja, myös teollisuussovellukset ovat mahdollisia; arvioimme nämä projektikohtaisesti kanssasi."
+      },
+      {
+        "q": "Mitä viisi SDR-luokkaa tarkoittavat?",
+        "a": "SDR on ulkohalkaisijan ja seinämänpaksuuden suhde (d/s). Pieni SDR = paksumpi seinämä = suurempi nimellispaine: SDR 6 vastaa PN 20, SDR 17 vastaa PN 6. Näin valitset sovellukseen juuri tarvittavan reservin ilman ylimitoitusta."
+      },
+      {
+        "q": "Milloin Monolayer, milloin K-Fiber?",
+        "a": "Monolayer on taloudellinen standardi useimpiin sovelluksiin. Lasikuituvahvisteinen K-Fiber vähentää lämpölaajenemisen noin neljännekseen, sallii pidemmät kiinnikevälit ja pysyy muodossaan suurissa mitoissa ja kuumassa vedessä – oikea valinta nousuputkiin, kiertoon ja d ≥ 160."
+      },
+      {
+        "q": "Miten putket yhdistetään?",
+        "a": "Aineenkohtaisesti hitsaamalla: muhvihitsaus käsin (d63 asti) tai koneella, sähköhitsaus lämpövastusliittimillä ja puskuhitsaus suurille mitoille d630 asti. Sopivat laitteet ja työkalut kuuluvat ohjelmaan; Academy näyttää kaikki neljä menetelmää videolla."
+      },
+      {
+        "q": "Onko järjestelmä juomavesihyväksytty?",
+        "a": "Järjestelmä on kehitetty juomavedelle; polypropeeni on mautonta ja hajutonta. Juomavesikontaktin (DVGW/KTW) vaatimustenmukaisuustodistukset tarjoamme Trust Centerissä osana RFP-dokumenttipakettia."
+      },
+      {
+        "q": "Mihin käyttöikään suunnittelu perustuu?",
+        "a": "Paineluokat perustuvat DIN 8077/8078:n ryömintälujuuskäyriin 50 vuoden suunnitteluiällä, turvallisuuskerroin mukaan lukien. Ohjelman kaksi tukipilaria: SDR 6 arvolla 20 bar 20 °C:ssa ja PPRCT SDR 7,4 arvolla 10 bar 70 °C:ssa."
+      },
+      {
+        "q": "Mistä saan sitovat tuotetiedot?",
+        "a": "Tuotehaussa suodatat kaikki versiot livenä ja viet ne CSV-muodossa. Sitovat arvot löytyvät tuoteluettelosta (PDF); projektiehdot saat projektikyselyn kautta viidessä vaiheessa suoraan myynnistä. Vastaus yhden työpäivän kuluessa."
+      }
+    ],
+    "pipesEyebrow": "Putkivalikoima",
+    "pipesTitle": "Putkityypit",
+    "pipesLead": "Kolme päätuotelinjaa kaikkiin sovelluksiin.",
+    "pipes": [
+      {
+        "t": "K-Pipe PP-R Monolayer",
+        "d": "Hyväksi todettu standardi juomavedelle kuumana ja kylmänä. Yksikerroksinen rakenne, täysi SDR-valikoima yleisimmissä mitoissa: taloudellinen asuin- ja liikerakentamiseen.",
+        "tags": [
+          "d20–d630",
+          "SDR 6–17"
+        ]
+      },
+      {
+        "t": "K-Pipe PPRCT",
+        "d": "Muokattu kiderakenne antaa enemmän lämpö- ja painereserviä: SDR 7,4 on suunniteltu 70 °C jatkuvaan käyttöön 10 bar (1,0 MPa) paineella, valinta lämpimälle vedelle ja kierrolle.",
+        "tags": [
+          "70 °C · 10 bar",
+          "Lämmin vesi"
+        ]
+      },
+      {
+        "t": "K-Fiber Pipe (GF-Multilayer)",
+        "d": "Lasikuituvahvisteinen ydin kahden PP-kerroksen välissä: lämpölaajeneminen vähentynyt noin neljännekseen, suuremmat kiinnikevälit, muotovakaa d630 asti, jopa 20 bar (2,0 MPa) 20 °C:ssa SDR 6:lla.",
+        "tags": [
+          "GF-Ydin",
+          "d20–d630"
+        ]
+      },
+      {
+        "t": "UV-stabiloitu versio",
+        "d": "Auringonvalolle altistuviin asennuksiin (kuten kasvihuoneisiin tai vapaasti asennettaviin putkiin) on saatavana UV-kestävä versio koko ohjelmasta.",
+        "tags": [
+          "Ulkokäyttö",
+          "Maatalous"
+        ]
+      }
+    ]
+  },
+  "solutionsx": {
+    "title": "Ratkaisut",
+    "desc": "K Aqua tarjoaa räätälöityjä ratkaisuja erilaisille sektoreille ja sovelluksille.",
+    "segEyebrow": "Segmentit",
+    "segTitle": "Käyttökohteet",
+    "segLead": "Järjestelmämme soveltuu moniin eri segmentteihin.",
+    "segments": [
+      {
+        "t": "Sairaalat & Terveydenhuolto",
+        "d": "Hygienia ei ole täällä neuvoteltavissa: Sileä sisäpinta (0,007 mm) ehkäisee biokalvoa ja karstoittumista, materiaali pysyy mauttomana ja hajuttomana.",
+        "pts": [
+          "Hygieeninen neutraalius",
+          "Korroosiovapaa: ei pistesyöpymistä",
+          "Referenssi: Kapkaupungin uusi sairaala"
+        ]
+      },
+      {
+        "t": "Hotellit & Korkeat asuinrakennukset",
+        "d": "Lämminvesikierto ympäri vuorokauden: alhainen lämmönjohtavuus säästää energiaa jatkuvasti, PPRCT kestää 70 °C jatkuvan käytön.",
+        "pts": [
+          "Terminen tehokkuus",
+          "PPRCT kiertoon",
+          "Referenssi: Hotellikompleksi Istanbul"
+        ]
+      },
+      {
+        "t": "Teollisuus & Liikerakennukset",
+        "d": "Kestää liuottimia, emäksiä ja happoja. Siellä missä metalliputket korrodoituvat, polypropeeni pysyy vahingoittumattomana.",
+        "pts": [
+          "Kemiallinen kestävyys",
+          "Pitkät huoltovälit",
+          "Prosessivesi ja käyttövesi"
+        ]
+      },
+      {
+        "t": "Kasvihuoneet & Maatalous",
+        "d": "UV-stabiloidut versiot lasinalaiseen ja ulkokasteluun: kevyt, nopeasti asennettava, pakkasenkestävämpi kuin jäykät järjestelmät.",
+        "pts": [
+          "UV-kestävä malli",
+          "Alhainen paino",
+          "Referenssikohde ohjelmasta"
+        ]
+      },
+      {
+        "t": "Kunnallinen infrastruktuuri",
+        "d": "Jakelulinjat ja verkot suurissa mitoissa d630 asti: puskuhitsattu homogeenisiksi, kestävästi tiiviiksi linjoiksi.",
+        "pts": [
+          "d jopa 630 mm",
+          "Puskuhitsaus (Butt Fusion)",
+          "Referenssi: Infrastruktuuri Singapore"
+        ]
+      },
+      {
+        "t": "Saneeraus & Vaihto",
+        "d": "Korrodoituneiden metalli- tai PVC-putkien korvaaminen: messinkikierteiset siirtymäkappaleet sitovat olemassa olevan siististi uuteen järjestelmään.",
+        "pts": [
+          "Siirtymät metallikierteisiin",
+          "Osittainen saneeraus",
+          "Korroosio-ongelma ratkaistu pysyvästi"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Vertailu",
+    "cmpTitle": "PP-R vs. Metalli",
+    "cmpLead": "Miksi muovi on ylivoimainen metalliin verrattuna.",
+    "cmpHead": [
+      "Kriteeri",
+      "K Aqua PP-R/PPRCT",
+      "Kupari",
+      "Ruostumaton teräs",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Korroosio",
+        "korroosiovapaa: immuuni sähkökemialliselle korroosiolle",
+        "Pistesyöpyminen mahdollista",
+        "kestävä (laadusta riippuen)",
+        "korroosiovapaa"
+      ],
+      [
+        "Karstoittuminen & Biokalvo",
+        "erittäin alhainen: sisäkarheus 0,007 mm",
+        "mahdollista",
+        "vähäistä",
+        "vähäistä"
+      ],
+      [
+        "Lämmönjohtavuus",
+        "0,24 W/(m·K): pienet häviöt",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0,14 W/(m·K)"
+      ],
+      [
+        "Tiheys / Paino",
+        "0,905 g/cm³",
+        "8,9 g/cm³",
+        "7,9 g/cm³",
+        "1,55 g/cm³"
+      ],
+      [
+        "Liitäntätekniikka",
+        "aineenkohtaisesti hitsattu: homogeeninen linja",
+        "juotettu / puristettu",
+        "puristettu / hitsattu",
+        "liimattu"
+      ],
+      [
+        "Maku & Haju",
+        "neutraali",
+        "Metallin irtoaminen mahdollista",
+        "neutraali",
+        "neutraali"
+      ],
+      [
+        "CO₂ (Rakentaminen)",
+        "matala, vertaile CO₂-laskurissa",
+        "korkea",
+        "korkea",
+        "keskitaso"
+      ],
+      [
+        "Kierrätys",
+        "Koodi 5, eroteltavissa: 100 % tuotantojätteestä kiertoon",
+        "Romukierto",
+        "Romukierto",
+        "rajoitettu"
+      ]
+    ],
+    "cmpNote": "Tiedot perustuvat laboratoriotesteihin.",
+    "lifeEyebrow": "Elinkaari",
+    "lifeTitle": "Kestävää rakentamista",
+    "lifeLead": "Järjestelmämme kestää sukupolvia.",
+    "life": [
+      {
+        "t": "Raaka-aineella on historia",
+        "d": "Polypropeeni syntyy kaasuista, jotka aiemmin poltettiin hyödyttöminä. Sen käyttö materiaalina vähentää ilman saastumista sen lähteellä."
+      },
+      {
+        "t": "Tuotanto kiertotaloudessa",
+        "d": "Tuotanto Waldsolmsissa jäähtyy suljetussa vesikierrossa ja suojelee siten jokia, puroja ja järviä; energiatehokkuutta ohjaa ISO 50001."
+      },
+      {
+        "t": "50 vuotta käytössä",
+        "d": "Suunniteltu DIN 8077/8078 -standardin ryömintälujuuskäyrien mukaisesti 50 vuoden käyttöikään: helppohoitoinen, kestävä, ei vanhene."
+      },
+      {
+        "t": "Takaisin kiertoon",
+        "d": "Kierrätyskoodi 5: lajiteltavissa helposti PP-uusiomateriaalin kovan kysynnän ansiosta. 100 % leikkuujätteistä ja tuotantojätteistä kierrätetään."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Yritys",
+    "title1": "Saksalaista",
+    "titleGrad": "Insinööritaitoa.",
+    "lead": "KWT GmbH (K-Aqua) yhdistää vuosikymmenten muoviosaamisen ehdottomaan laatutietoisuuteen. Olemme kumppanisi putkisto- ja talotekniikassa koko maailmassa.",
+    "seo": "Asiantuntemusta polypropeenista ja PP-R-putkista. K Aqua valmistaa Saksassa ehdottomalla laadulla – talotekniikkaan, teollisuuteen ja maatalouteen.",
+    "h2": "Yrityksen profiili",
+    "p1": "Yksin Saksassa tuotettu laatu asettaa globaalit standardit kestävyydelle ja laadulle.",
+    "p2": "Huipputeknologian valmistajana yhdistämme innovatiivisen materiaalitieteen (PPRCT) vakiintuneeseen teolliseen asiantuntemukseen.",
+    "polEyebrow": "Politiikka",
+    "polTitle": "Yrityksen ohjesäännöt",
+    "polLead": "Laatu ei ole lupaus, vaan mitattava standardi. Strategiamme perustuu kestävyyteen ja absoluuttiseen tarkkuuteen.",
+    "cards": [
+      {
+        "t": "Innovaatiot",
+        "d": "Jatkuva materiaalien, kuten kuituvahvistetun PP-R:n, kehittäminen."
+      },
+      {
+        "t": "Globaali visio",
+        "d": "Standardien asettaminen asuin- ja teollisuusrakentamiseen maailmanlaajuisesti."
+      },
+      {
+        "t": "Kestävä kehitys",
+        "d": "Resurssitehokas tuotanto täydellä kierrätettävyydellä."
+      }
+    ],
+    "genauEyebrow": "GENAU-järjestelmä",
+    "genauTitle": "Sertifioitua johtamista",
+    "genauLead": "GENAU (terveys, energia, kestävyys, työturvallisuus, ympäristö) määrittää toimintamme kehyksen.",
+    "points": [
+      {
+        "t": "Laadunhallinta",
+        "d": "ISO 9001:2015 varmistaa tuotantomme jatkuvan prosessinhallinnan."
+      },
+      {
+        "t": "Ympäristönhallinta",
+        "d": "ISO 14001:2015 varmistaa materiaalien ja veden tehokkaan käytön."
+      },
+      {
+        "t": "Energianhallinta",
+        "d": "ISO 50001:2018 vähentää CO₂-päästöjä jatkuvan energiatehokkuuden optimoinnin avulla."
+      }
+    ],
+    "certTitle": "Sertifioinnit",
+    "certText": "Auditoitu ja hyväksytty riippumattomien laitosten toimesta maksimaalisen turvallisuuden takaamiseksi projekteissasi.",
+    "meta": {
+      "desc": "Emme tee kompromisseja. Määritämme globaalin standardin PP-R-putkijärjestelmille. Tervetuloa saksalaisen insinööritaidon ytimeen."
+    },
+    "intro": {
+      "title1": "EMME AINOASTAAN JOHDA VETTÄ.",
+      "title2": "ME HALLITSEMME SITÄ.",
+      "desc": "Yli 30 vuoden ajan olemme valmistaneet ikuisiksi tarkoitettuja putkijärjestelmiä. Ei sijaa virheille. Ei sijaa keskinkertaisuudelle. Vain puhdasta, armotonta tarkkuutta, joka ilmenee jokaisessa liittimessä."
+    },
+    "material": {
+      "eyebrow": "Materiaalitiede",
+      "title1": "Polypropeeni Random Copolymer.",
+      "title2": "Valloilleen päästettynä.",
+      "p1": "PP-R tyyppi 3 ei ole vain muovia. Se on erittäin monimutkainen termoplastinen materiaali, jota hallitsemme molekyylitasolla.",
+      "p2": "Järjestelemällä etyleenimonomeerejä strategisesti propeeniketjussa saavutamme vertaansa vailla olevan iskunkestävyyden jopa pakkasasteissa. Rakeemme tulevat yksinomaan globaalilta raaka-ainetuottajien eliitiltä. Analysoimme jokaisen erän Differential Scanning Calorimetry (DSC) - ja Melt Flow Rate (MFR) -testeillä. Mikä tahansa, mikä poikkeaa vaatimuksistamme edes promillen, hylätään armottomasti.",
+      "items": [
+        {
+          "title": "Äärimmäinen moolimassa",
+          "desc": "Takaa maksimaalisen virumislujuuden ja ehdottoman kestävyyden jännityskorroosiota vastaan äärimmäisissä paineissa."
+        },
+        {
+          "title": "Kiteinen optimointi",
+          "desc": "Täydellinen termodynaaminen tasapaino. Korkein joustavuus radikaaleissa asennusolosuhteissa samanaikaisella aksiaalisella jäykkyydellä."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Täydellisyyden evoluutio",
+      "desc": "Pysäyttämätön nousu globaaliin markkinavaltaan. Joka vuosikymmen uusi teknologisen ylivoimaisuuden virstanpylväs.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Nollatoleranssin alkuperä",
+          "text": "Kun muut tekivät kompromisseja, me vedimme rajan. K Aquan perustaminen pohjautui yhteen, järkähtämättömään periaatteeseen: virheettömät putkijärjestelmät. Ensimmäiset ekstruuderimme toimivat tarkkuudella, joka järkytti markkinoita."
+        },
+        {
+          "year": "2005",
+          "title": "Polypropeenivallankumous",
+          "text": "Kieltäydyimme hyväksymästä vallitsevaa tilannetta. Omalla PP-R-seoksellamme määrittelimme lämpöstabiilisuuden uudelleen. Kun kilpailijoiden tuotteet romahtivat paineen alla, järjestelmämme pysyivät stoalaisesti ehjinä. Polymeerikemian riemuvoitto."
+        },
+        {
+          "year": "2015",
+          "title": "Arkkitehtoninen symbioosi",
+          "text": "Dubain pilvenpiirtäjistä Ruhrin alueen teollisuuslaitoksiin: K Aquasta tuli tuhoutumattoman infrastruktuurin synonyymi. PPRCT-kuituvahvisteiset putkemme mullistivat talonrakennuksen. Vähemmän laajenemista, enemmän virtausta, ehdotonta dominanssia."
+        },
+        {
+          "year": "2026",
+          "title": "Molekulaarinen diktatuuri",
+          "text": "Tänään kontrolloimme jokaista tuotannon osa-aluetta. Raakarakeiden valinnasta lopputarkastukseen järjestelmämme ovat diktatorisen laatujärjestelmän alaisia. Tulos? Taattu käyttöikä, joka kestää sukupolvelta toiselle."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FYSIIKKA ON VOITETTU",
+      "title": "Vallan neljä pilaria.",
+      "lead": "Teknologiaa, joka rajoittuu taikuuteen. Emme ainoastaan ylittäneet perinteisten putkijärjestelmien rajoituksia, vaan olemme murskanneet ne.",
+      "items": [
+        {
+          "title": "Absolutismi laadussa",
+          "desc": "Jokainen millimetri PP-R- ja PPRCT-järjestelmistämme käy läpi mitä raaimmat kuormitustestit. 50 vuoden käyttöikä ei ole lupaus, vaan matemaattinen varmuus. Emme siedä nolla poikkeamia. Se, mikä jättää tehtaamme, on täydellisyyttä polymeerimuodossa."
+        },
+        {
+          "title": "Terminen haavoittumattomuus",
+          "desc": "Kuituvahvisteiset putkemme (K Aqua Fiber) neutralisoivat lämpölaajenemisen lähes täysin. Olipa kyseessä jääkylmä -20 °C tai kiehuva +95 °C, järjestelmämme pysyvät ehdottoman muotostabiileina. Insinööritaidon mestarinäyte, joka tuntuu uhmaavan fysiikan lakeja."
+        },
+        {
+          "title": "Kemiallinen kestävyys",
+          "desc": "Korroosiota ei ole sanastossamme. Polymeerimme ovat immuuneja aggressiivisimmille aineille, karstoittumiselle ja biologiselle hajoamiselle. Kun metallit ruostuvat ja hajoavat maassa, K Aqua pysyy koskemattomana: stoalaisena, monoliittisena, tuhoutumattomana."
+        },
+        {
+          "title": "Molekulaarinen fuusio",
+          "desc": "Homogeenisen hitsausprosessimme avulla putki ja liitin sulautuvat molekyylitasolla erottamattomaksi kokonaisuudeksi. Ei tiivisteitä, jotka voisivat väsyä. Ei mekaanisia heikkouksia. Monoliittinen rakenne, joka kestää ikuisesti."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "TEOLLINEN DOMINANSSI",
+      "title": "Infrastruktuuria steroideilla.",
+      "lead": "Emme valmista vain putkia. Luomme modernin sivilisaation valtimot. K Aqua on teollisten ja arkkitehtonisten megaprojektien selkäranka maailmanlaajuisesti.",
+      "items": [
+        {
+          "title": "Brutaali ekstruusio",
+          "desc": "Huipputehokkaat laitteistot, jotka toimivat äärimmäisessä paineessa. Tuloksena on voittamaton seinämänpaksuuden johdonmukaisuus mikrometritasolle asti."
+        },
+        {
+          "title": "Testattu ylivoimaisuus",
+          "desc": "ISO 9001, 14001, 50001. Emme vain ylitä standardeja, me sanelemme ne. Kansainvälinen akkreditointi ehdottomana standardina."
+        },
+        {
+          "title": "Hygienia-sääntö",
+          "desc": "Elintarviketurvallinen, toksikologisesti vaaraton ja täysin bakteeriresistentti. Juomavesi pysyy koskemattoman puhtaana K Aqua -järjestelmissä. Ei poikkeuksia."
+        },
+        {
+          "title": "Resurssitehokkuus",
+          "desc": "Täysin kierrätettävä. Minimaalinen hiilijalanjälki tuotannossa. Koska todellinen teknologinen valta merkitsee aina myös vastuuta tulevaisuudesta."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Yrityspolitiikka",
+      "title": "Toimintamme perusta.",
+      "desc": "Teknologia yksin ei riitä. Todellinen suuruus ilmenee tavassa, jolla yritys toimii ympäristönsä, työntekijöidensä ja kumppaniensa kanssa.",
+      "items": [
+        {
+          "title": "Asiakas-obsessio",
+          "desc": "Emme vain palvele markkinoita, me hallitsemme niitä radikaalilla asiakaskeskeisyydellä. Vaatimuksesi ovat lakimme. Ratkaisumme ovat tarkkoja, skaalautuvia ja ehdottoman tinkimättömiä toteutuksessaan."
+        },
+        {
+          "title": "Strategiset allianssit",
+          "desc": "Emme etsi toimittajia, me muodostamme strategisia alliansseja planeetan parhaiden raaka-ainetuottajien kanssa. Yhteinen tutkimus, yhteiset laatustandardit, yhteinen dominanssi."
+        },
+        {
+          "title": "Ekologinen imperatiivi",
+          "desc": "Kestävä kehitys ei ole K Aqualla markkinointislogan, vaan fysikaalinen imperatiivi. Pitkäikäisyys on äärimmäistä ympäristönsuojelua. Järjestelmämme minimoivat energiankulutuksen tuotannosta kierrätykseen."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Testattu laatu",
+      "title1": "Tämä ",
+      "titleHighlight": "GENAU",
+      "title2": " -hallintajärjestelmä",
+      "p1": "GENAU-hallintajärjestelmän tavoitteena on jatkuvasti parantaa työturvallisuutta, ympäristönsuojelua ja terveyttä yrityksessä.",
+      "p2": "Kaikki KWT:n yritystoiminta tapahtuu resurssien säästämisen, ympäristöystävällisyyden ja kaikkien velvoitteiden tarkan noudattamisen puitteissa. Käytössä oleva GENAU-hallintajärjestelmä täyttää siten standardien korkeat vaatimukset.",
+      "p3": " ja ",
+      "list1Title": "Ekologinen vastuu",
+      "list1Desc": "Ympäristönsuojelu on osa laatukäsitystämme, johon kaikki KWT GmbH:n työntekijät sitoutuvat.",
+      "list2Title": "Energiatehokkuus",
+      "list2Desc": "Riskien kohdennettu tunnistaminen ja toimenpiteiden toteuttaminen energiatehokkuuden optimoimiseksi."
+    }
+  },
+  "news": {
+    "eyebrow": "Uutiset ja tapahtumat",
+    "title1": "Ajankohtaista yrityksestä",
+    "titleGrad": "K Aqua.",
+    "date": "Lokakuu 2025",
+    "h2": "Olemme kolminkertaisesti ISO-sertifioituja",
+    "p": "ISO-hallintajärjestelmämme on laajennettu ja kattaa nyt laatu-, ympäristö- ja energianhallinnan:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Laadunhallintajärjestelmä"
+      ],
+      [
+        "ISO 14001:2015",
+        "Ympäristöhallintajärjestelmä"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energianhallintajärjestelmä"
+      ]
+    ],
+    "btnDe": "Sertifikaatti (DE)",
+    "btnEn": "Sertifikaatti (EN)",
+    "eventsTitle": "Messut ja tapahtumat",
+    "eventsText": "Vieraile K Aquan osastolla tulevissa tapahtumissa. Tällä hetkellä ei ole ilmoitettuja tapahtumia. Tarkista tilanne pian uudelleen.",
+    "lead": "Lue viimeisimmät uutiset K Aqualta."
+  },
+  "career": {
+    "eyebrow": "Ura",
+    "title1": "Ura K-Aqualla: Enemmän kuin",
+    "titleGrad": "vain palkka.",
+    "lead": "Laske kuinka paljon verottomat edut tuovat nettona, ja testaa 60 sekunnissa sopiiko K Aqua sinulle.",
+    "benEyebrow": "Netto-palkan optimointi",
+    "benTitle": "Etulaskuri.",
+    "benLead": "Verovapaat ja kiinteästi verotetut edut vaikuttavat usein enemmän kuin bruttopalkan korotus. Kokoa oma pakettisi:",
+    "benefits": {
+      "sachbezug": [
+        "Luontoisetukortti",
+        "Verovapaa luontoisetu, kuukausittain kortille."
+      ],
+      "lunch": [
+        "Ateriatuki",
+        "Digitaaliset lounassetelit lounaaseen ja supermarkettiin."
+      ],
+      "internet": [
+        "Nettituki",
+        "Tuki yksityiseen internetin käyttöön."
+      ],
+      "jobrad": [
+        "Työsuhdepyörä",
+        "Toivepyörä palkanpidätyksenä, säästö verrattuna yksityisostoon."
+      ],
+      "kita": [
+        "Päivähoitotuki",
+        "Verovapaa tuki lastenhoitoon."
+      ],
+      "vwl": [
+        "Pääomaa kerryttävät edut",
+        "Työnantajan maksama kuukausittainen säästöosuus."
+      ]
+    },
+    "resultLabel": "Nettona enemmän kuukaudessa",
+    "resultNote1": "Tämä vastaa karkeasti",
+    "resultNote2": "bruttokorotusta n. ~{n} €",
+    "resultNote3": "ilman vähennyksiä.",
+    "resultNote4": "(Suuntaa-antava arvo, riippuu veroluokasta.)",
+    "apply": "Hae nyt",
+    "call": "Tai soita: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "Sopiiko K Aqua sinulle?",
+    "cmIntro": "Viisi rehellistä kysymystä työtavoista ja arjesta tuotannossa. Ei persoonallisuustesti, vaan todellisuustarkistus.",
+    "cmStart": "Aloita testi",
+    "qLabel": "Kysymys",
+    "cmQ": [
+      {
+        "q": "Miten mieluiten työskentelet?",
+        "o": [
+          "Selkeät prosessit, yhteen hitsautunut tiimi",
+          "Kokeilen jotain uutta joka päivä"
+        ]
+      },
+      {
+        "q": "Suursarja on käynnissä. Kone ilmoittaa poikkeamasta.",
+        "o": [
+          "Tarkistan heti, etsin syyn",
+          "Annan ensin käydä edelleen"
+        ]
+      },
+      {
+        "q": "Mikä motivoi sinua eniten?",
+        "o": [
+          "Tuote, joka kestää 50 vuotta",
+          "Nopeat, näkyvät tulokset"
+        ]
+      },
+      {
+        "q": "Vuorotyö on sinulle …",
+        "o": [
+          "Suunniteltavissa ja ok",
+          "Pikemminkin vaikeaa"
+        ]
+      },
+      {
+        "q": "Suhteesi tekniikkaan?",
+        "o": [
+          "Haluan ymmärtää, miten asiat toimivat",
+          "Pääasia että se toimii"
+        ]
+      }
+    ],
+    "resHigh": "Vahva osuma. Tarkkuus, luotettavuus ja tekninen ymmärrys: juuri meidän profiilimme.",
+    "resMid": "Hyvä osuma, mutta vaatii keskustelua. Parasta soittaa suoraan ja selvittää arki.",
+    "resLow": "Rehellinen tulos: Tuotantoarki K Aqualla ei luultavasti ole sinun ympäristösi. Myynti tai hallinto voisivat sopia paremmin.",
+    "sendApp": "Lähetä hakemus",
+    "again": "Uudelleen"
+  },
+  "contact": {
+    "eyebrow": "Ota yhteyttä",
+    "title1": "Keskustellaan sinun",
+    "titleGrad": "projektistasi.",
+    "locTitle": "Sijainti Saksassa",
+    "salesTitle": "Myynti",
+    "supportTitle": "Laatu ja tekninen tuki",
+    "supportText": "Keskustellaan projektistasi. Tukitiimimme auttaa teknisissä kysymyksissä koskien suunnittelua, materiaalia ja asennusta."
+  },
+  "imprint": {
+    "eyebrow": "Oikeudellista",
+    "title": "Julkaisutiedot",
+    "rows": [
+      [
+        "Yritys",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Johdon edustajat",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Rekisterituomioistuin",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Kotipaikka",
+        "Waldsolms"
+      ],
+      [
+        "ALV-numero",
+        "DE 296238486"
+      ],
+      [
+        "Puhelin / Faksi",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Sähköposti",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Tuotehaku",
+    "title1": "Ei PDF-aavikkoa.",
+    "titleGrad": "Dataa välittömästi.",
+    "lead": "220-sivuisten luetteloiden sijaan: Suodata koko PP-R/PPRCT-järjestelmä interaktiivisesti. Mitat, paineluokka, seinämänpaksuus, kaikki livenä.",
+    "type": "Tuotetyyppi",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Kuituvahvisteinen (GF)",
+      "fitting": "Liittimet"
+    },
+    "sdr": "Paineluokka (SDR)",
+    "maxD": "Maks. ulkohalkaisija",
+    "upTo": "asti",
+    "maxDAria": "Maksimaalinen ulkohalkaisija millimetreinä",
+    "found": "Tuoteversiota löydetty. Jokainen välittömästi seinämänpaksuuden, sisähalkaisijan ja nimellispaineen kera.",
+    "catalog": "Luettelo (PDF)",
+    "tableHead": [
+      "Tyyppi",
+      "d (mm)",
+      "SDR",
+      "Seinämä (mm)",
+      "di (mm)",
+      "Nimellispaine"
+    ],
+    "more": "+ {n} muuta. Tarkenna suodatinta saadaksesi koko luettelon.",
+    "none": "Ei osumia. Välennä suodattimia.",
+    "nextEyebrow": "Ajattele pidemmälle",
+    "nextTitle": "Kuinka ilmastoystävällinen on suunnitelmasi?",
+    "nextLead": "Syötä mitat ja pituus suoraan CO₂-laskuriin ja vertaa kupariin, ruostumattomaan teräkseen ja PVC:hen.",
+    "nextCta": "CO₂-laskuriin"
+  },
+  "trustAndCases": {
+    "title": "Luottamus ja referenssit",
+    "desc": "K Aqua -järjestelmien luotettavuus on todistettu lukuisissa projekteissa ympäri maailman."
+  },
+  "co2": {
+    "eyebrow": "CO₂-laskuri",
+    "title1": "Faktat",
+    "titleGrad": "Pöytään.",
+    "lead": "Vertaa K-Aqua-putkien hiilijalanjälkeä ja TCO-kuluja (Total Cost of Ownership) perinteisiin materiaaleihin.",
+    "tabGeometry": "Putki",
+    "tabFlow": "Neste",
+    "tabEnvironment": "Asennus",
+    "tabLogistics": "LCA",
+    "dia": "Nimellismitta",
+    "length": "Putkilinjan pituus",
+    "sdrClass": "SDR-luokka",
+    "velocity": "Virtausnopeus (v)",
+    "velocityDesc": "Vaikuttaa dramaattisesti painehäviöön ja pumppausenergiaan (B).",
+    "fluidTemp": "Nesteen lämpötila",
+    "ambientTemp": "Ympäristön lämpötila",
+    "insulation": "Eristys",
+    "insulationNone": "Ei mitään",
+    "insulationBasic": "Perus",
+    "insulationStandard": "Standardi EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Asennustapa (A5)",
+    "installBuilding": "Rakennusasennus",
+    "installTrench": "Maahan asennettu (kaivinkone)",
+    "installTrenchless": "Kaivamaton (HDD)",
+    "installDesc": "Maanrakennustyöt aiheuttavat suuria CO2-päästöjä koneiden (diesel) vuoksi.",
+    "lifespan": "Käyttöikä (vuosia)",
+    "lifespanDesc": "Lyhytikäiset putket (esim. hiiliteräs) saatetaan joutua vaihtamaan useita kertoja.",
+    "energyMixLabel": "Sähköjakauma (käyttö ja tuotanto)",
+    "transportKm": "Kuljetusmatka (km)",
+    "co2Savings": "LCA CO₂-säästö",
+    "co2SavingsDesc": "Verrattuna tehottomimpaan järjestelmään (sis. pumppausenergian). Vastaa noin {n} puuta.",
+    "costSavings": "TCO-säästö (NPV)",
+    "costSavingsDesc": "Säästö {n} vuoden aikana (sis. ylläpidon ja käyttökustannukset - NPV).",
+    "lcaPhases": "LCA-vaiheet (EN 15804)",
+    "phaseA13": "A1-A3 (Materiaali)",
+    "phaseA45": "A4-A5 (Asennus/Kuljetus)",
+    "phaseB": "B (Käyttö/Energia)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Moduuli D:",
+    "costAnalysis": "Total Cost of Ownership (NPV, {n} vuotta)",
+    "costMaterial": "Materiaali",
+    "costInstall": "Asennus",
+    "costOperation": "Energia (NPV)",
+    "costMaintenance": "Ylläpito",
+    "costTotal": "Yhteensä",
+    "certTitle": "Sertifioitu LCA- ja TCO-raportti.",
+    "certDesc": "Sisältää virtausvastuksen Darcy-Weisbachin mukaan ja EPD-vaatimusten mukaiset elinkaarivaiheet.",
+    "certBtn": "Luo PDF-raportti",
+    "generating": "Luodaan...",
+    "energyGreen": "Vihreä sähkö",
+    "energyDe": "DE-Mix",
+    "energyEu": "EU-Mix",
+    "energyGlobal": "Global-Mix",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Kupari",
+      "steel": "Ruostumaton teräs / Hiiliteräs",
+      "pex": "Monikerrosputki (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Valurauta"
+    },
+    "project": "Projektisi",
+    "advanced": "Kehittyneet LCA-parametrit",
+    "tempMode": "Käyttölämpötila",
+    "tempCold": "Kylmä vesi (10°C)",
+    "tempHot": "Kuuma vesi (60°C)",
+    "recycle": "Ota käyttöön elinkaaren lopun (End-of-Life) kierrätyshyvitys",
+    "disclaimer": "Laskelmat perustuvat vahvistettuihin Type III EPD -selosteisiin (EN 15804) ja ecoinvent-tietokantaan (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e-säästö verrattuna parhaaseen vaihtoehtoon",
+    "savedBody1": "Vastaa hiilidioksidin sidontaa",
+    "trees": "{n} puuta",
+    "or": "tai",
+    "carKm": "{n} autokilometriä",
+    "compareTitle": "Elinkaariarviointi (LCA)",
+    "phases": {
+      "a13": "Tuotanto (A1-A3)",
+      "a4": "Kuljetus (A4)",
+      "b": "Käyttö/Terminen (B)",
+      "c": "Elinkaaren loppu (C)"
+    },
+    "auditor": "Auditor-näkymä:",
+    "auditorBody": "EPD-todisteet, ISO-sertifikaatit ja GAEB-tekstit pakettina",
+    "trustLink": "Trust Centerissä",
+    "downloadPdf": "Lataa PDF-raportti",
+    "lcaLogistics": "LCA- ja logistiikkaparametrit",
+    "energyMix": "Tuotannon sähköjakauma",
+    "transportMode": "Kuljetusmuoto",
+    "transportTruck": "Kuorma-auto",
+    "transportShip": "Laiva",
+    "transportAir": "Lentorahti",
+    "phaseProduction": "Tuotanto",
+    "phaseTransport": "Kuljetus",
+    "phaseOperation": "Käyttö",
+    "phaseEol": "Elinkaaren loppu"
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Luottamus on",
+    "titleGrad": "mitattavissa.",
+    "lead": "Luottamus on mitattavissa. Sertifikaatit, GENAU-kehys ja auditointiasiakirjat itsepalveluna. Ei päivien odottelua manuaaliseen toimitukseen.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Laadunhallinta"
+      ],
+      [
+        "ISO 14001:2015",
+        "Ympäristönhallinta"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energianhallinta"
+      ]
+    ],
+    "accred": "DAkkS-akkreditoitu",
+    "certNo": "Sertifikaattinumero",
+    "valid": "Voimassa",
+    "download": "Lataa",
+    "genauEyebrow": "GENAU-kehys",
+    "genauTitle": "Viisi kirjainta. Yksi järjestelmä.",
+    "genauLead": "GENAU-hallintajärjestelmä on ankkuroitu House of KWT -konseptiin. Napsauta viiden pilarin läpi.",
+    "genau": [
+      [
+        "Terveys",
+        "Työturvallisuus ja terveyden suojelu jatkuvalla vaarojen tunnistamisella. Jokainen työntekijä on velvollinen ilmoittamaan riskeistä aktiivisesti."
+      ],
+      [
+        "Energia",
+        "Energiatehokkuuden optimointi ISO 50001 -standardin mukaisesti ekstruuderista suljettuun jäähdytysvesikiertoon."
+      ],
+      [
+        "Kestävyys",
+        "100 % leikkausjätteestä ja tuotantojätteestä palautuu materiaalikiertoon."
+      ],
+      [
+        "Työturvallisuus",
+        "Ennaltaehkäisy ja riskienarviointi jokapäiväisenä käytäntönä, ei vuotuisena pakkopullana."
+      ],
+      [
+        "Ympäristö",
+        "Ympäristönhallinta ISO 14001:n mukaan: resurssien säästäminen on osa laatukäsitystämme."
+      ]
+    ],
+    "rfpEyebrow": "Itsepalvelu",
+    "rfpTitle": "RFP-dokumenttipakettisi.",
+    "rfpLead": "Kokoa auditointi- ja tarjouspakettisi itse, sen sijaan että odottaisit manuaalista toimitusta päiväkaupalla.",
+    "docs": [
+      "ISO 9001:2015 Sertifikaatti (DE/EN)",
+      "ISO 14001:2015 Sertifikaatti (DE/EN)",
+      "ISO 50001:2018 Sertifikaatti (DE/EN)",
+      "GENAU-politiikka & riskienarviointi",
+      "Juomavesiyhteensopivuus (DVGW/KTW)",
+      "EPD-tietolehdet (Tyyppi III, EN 15804)",
+      "GAEB-tarjoustekstit",
+      "Laadunvarmistuskäsikirja"
+    ],
+    "inPackage": "Dokumentit paketissa.",
+    "pickLeft": "Valitse vasemmalta.",
+    "requestZip": "Pyydä yhdellä klikkauksella ZIP-tiedostona:",
+    "requestBtn": "Pyydä paketti",
+    "mailSubject": "RFP-dokumenttipaketti",
+    "mailBody": "Voisitteko lähettää minulle seuraavat asiakirjat:",
+    "scope3": "Scope-3-päästötiedot ja EPD-raakatiedot pyynnöstä: proaktiivinen avoimuus velvollisuuden täyttämisen sijaan."
+  },
+  "partner": {
+    "eyebrow": "Kumppanuus",
+    "title1": "Kaksi brändiä.",
+    "titleGrad": "Yksi asenne.",
+    "lead": "Kaksi brändiä. Yksi asenne. K-Aquan ja KESSELin tiivis, vuosikymmeniä kestänyt kumppanuus siirtää premium-luottamuksen viemäröinnistä vedenjakeluun PP-R-putkijärjestelmille.",
+    "onionAria": "Kumppanuuden sipulimalli",
+    "rings": [
+      {
+        "l": "Ydinbrändi",
+        "t": "KESSEL: Leading in Drainage",
+        "d": "Viemäröintitekniikan premium-valmistaja. Maailman johtavat messut kuten ISH, suunnittelijaportaali ja asiakasfoorumi tekevät KESSEListä talotekniikka-alan auktoriteetin."
+      },
+      {
+        "l": "Järjestelmä",
+        "t": "K Aqua: edelläkävijä vedenjakelussa",
+        "d": "Saman insinööri-DNA:n jakelupuoli: täydellinen PP-R/PPRCT-järjestelmä d20–d630, valmistettu Saksassa. Viemäröinti ja jakelu samasta arvopohjasta."
+      },
+      {
+        "l": "Palvelu",
+        "t": "Yhteinen ekosysteemi",
+        "d": "Suunnittelijat hyötyvät tuplasti: koulutukset, hitsaustekniikkatuki ja digitaaliset suunnittelutyökalut, tulevaisuudessa aina parametriseen putkiston konfiguraattoriin asti."
+      }
+    ],
+    "whyEyebrow": "Miksi PP-R/PPRCT",
+    "whyTitle": "Tuotelupauksen selkäranka.",
+    "cards": [
+      {
+        "t": "Ehdottomasti korroosiovapaa",
+        "d": "Immuuni sähkökemialliselle korroosiolle: ei pistesyöpymistä, ei putkirikkoja kuten kuparilla tai sinkityllä teräksellä."
+      },
+      {
+        "t": "Terminen tehokkuus",
+        "d": "Minimaalinen lämpöhäviö lämpimän veden kierrossa: suoraa energiansäästöä vuosikymmenten ajan."
+      },
+      {
+        "t": "Hygieeninen neutraalius",
+        "d": "Mauton ja hajuton; äärimmäisen sileä sisäpinta estää biokalvon muodostumisen ja karstoittumisen."
+      }
+    ]
+  },
+  "academy": {
+    "title": "Akatemia",
+    "desc": "Opi kaikki PP-R-putkien käsittelystä ja asennuksesta asiantuntijoidemme opastuksella."
+  },
+  "refs": {
+    "title": "Referenssit",
+    "desc": "Tutustu maailmanlaajuisiin projekteihin, joissa K-Aqua-putkijärjestelmiä on käytetty onnistuneesti."
+  },
+  "buyers": {
+    "title": "Ostajille",
+    "desc": "Tietoa ostajille ja hankintapäättäjille."
+  },
+  "rfq": {
+    "title": "Tarjouspyyntö",
+    "desc": "Lähetä tarjouspyyntö projektistasi K-Aqualle."
+  },
+  "geoContent": {
+    "title": "Maakohtaiset tiedot",
+    "desc": "Lue lisää ratkaisuistamme eri maissa."
+  },
+  "notFound": {
+    "title": "Sivua ei löytynyt",
+    "desc": "Etsimääsi sivua ei ole olemassa."
+  },
+  "trustx": {
+    "title": "Luottamuskeskus",
+    "desc": "Sertifikaatit ja laatudokumentit."
+  },
+  "partnerx": {
+    "title": "Kumppanit",
+    "desc": "Lisätietoa kumppanuuksistamme."
+  },
+  "academyx": {
+    "title": "Akatemia lisätiedot",
+    "desc": "Syvennä osaamistasi K-Aquan Akatemiassa."
+  },
+  "servicex": {
+    "title": "Palvelut",
+    "desc": "K-Aquan kattavat asiantuntijapalvelut."
+  },
+  "footer": {
+    "tagline": "K-Aqua, edelläkävijä vedenjakelussa. PP-R/PP-RCT-putkijärjestelmät käyttövedelle, valmistanut KWT GmbH Waldsolmsissa.",
+    "colTools": "Tuotteet ja Työkalut",
+    "colCompany": "Yritys",
+    "colContact": "Yhteystiedot",
+    "directions": "Ajo-ohjeet ja Sijainti",
+    "rights": "Kaikki oikeudet pidätetään.",
+    "imprint": "Julkaisutiedot",
+    "privacy": "Tietosuoja",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Saksa",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Kysy projektia",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R Putkistandardit"
+      },
+      {
+        "t": "Kestävyys",
+        "s": "Ympäristöystävällinen"
+      },
+      {
+        "t": "GENAU-System",
+        "s": "Integroitu hallintajärjestelmä"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Tuotanto Waldsolmsissa"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Verkkosivujen suunnittelu: Coday",
+        "Coday Web Agencyn projekti",
+        "Coday Web Agency",
+        "Digitalisoinut Coday"
+      ],
+      "srDesc": "Tämän verkkosivuston on suunnitellut ja teknisesti toteuttanut Coday Web Agency, web-suunnittelun ja SEO:n asiantuntijat.",
+      "linkTitle": "Siirry Coday Web Agencyyn - Premium Web-suunnittelu"
+    }
+  },
+  "regions": {
+    "dach": "DACH (Saksa, Itävalta, Sveitsi)",
+    "europa": "Eurooppa",
+    "nahost": "Lähi- ja Keski-Itä",
+    "global": "Afrikka ja Aasian ja Tyynenmeren alue"
+  }
+}

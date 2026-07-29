@@ -1,0 +1,711 @@
+  "products": {
+    "narrative": {
+      "sizeRange": "Denna komponent tillverkas i ett omfattande dimensioneringsintervall från kompakta {minSize} mm upp till ansenliga {maxSize} mm, vilket säkerställer maximal mångsidighet i en mängd olika installationsscenarier.",
+      "sizeSpecific": "Denna komponent är exakt dimensionerad för en specifik nominell diameter på {minSize} mm, vilket erbjuder målinriktad prestanda för specialiserade rörledningsarkitekturer.",
+      "weights": "Materialeffektiviteten optimeras över hela sortimentet, där enhetsvikterna skalas från {minWeight} kg upp till {maxWeight} kg beroende på vald dimension.",
+      "packaging": "Logistiken optimeras genom standardiserade förpackningsenheter, designade för säker global transport och effektiv hantering på byggarbetsplatsen.",
+      "rowCount": "Vår tekniska portfölj erbjuder denna konfiguration i {count} mycket specialiserade dimensioneringsvarianter, som skalas exakt för att möta de hydrauliska och mekaniska kraven hos moderna system för vätsketransport.",
+      "intro": "Produkten {title} är en hörnsten i K Aquas högpresterande vätskehanteringslösningar. Officiellt katalogiserad under artikelnumren {codes}, genomgår varje variant rigorösa protokoll för kvalitetssäkring i våra tyska produktionsanläggningar innan leverans.",
+      "outro": "Genom användningen av avancerade tekniker för polymerbearbetning garanterar den geometriska precisionen hos {title} optimala flödesegenskaper, minimerar tryckfall och eliminerar helt risken för kalkavlagringar eller korrosion under dess operativa livslängd. Denna kompromisslösa hängivenhet till materialvetenskap säkerställer att varje anslutning behåller absolut integritet, även under extrema termiska och tryckrelaterade fluktuationer. Oavsett om den används i bostadshöghus, kritiska hälsovårdsinrättningar eller krävande industriella processanläggningar, levererar denna produkt en underhållsfri tillförlitlighet som ingenjörer och installatörer blint kan lita på."
+    },
+    "uniqueProductContext": "Produkten {title} är en integrerad del av K Aquas sortiment av {category}. Utvecklad för maximal hållbarhet och sömlös integration uppfyller den högsta internationella standarder för moderna rörlednings- och sanitetstillämpningar. Du kan identifiera och beställa denna specifika produkt med artikelnumren: {codes}. För ytterligare dokumentation eller support, kontakta vårt tekniska team.",
+    "heroDesc": "Upptäck specifikationer, dimensioner och tillämpningsområden. För detaljerad information ladda ner det tekniska databladet.",
+    "articleNumbers": "Artikelnummer",
+    "technicalSpecs": "Tekniska specifikationer",
+    "eyebrow": "Produkter",
+    "videoGuide": "K Aqua Videoguide",
+    "localAvailability": "Lokal tillgänglighet",
+    "localDesc": "Hitta lokala återförsäljare, specifika godkännanden och standarder för din region.",
+    "allMarkets": "Se alla 50+ marknader",
+    "title1": "PP-R/PPRCT-rör och formdelar för",
+    "titleGrad": "dricksvatten.",
+    "lead": "Ett komplett rörledningssystem för varmt och kallt dricksvatten: från röret via formdelen till svetstekniken. Fyra byggstenar, ett system.",
+    "ctaCatalog": "Produktkatalog (PDF)",
+    "ctaVideos": "Installationsvideor",
+    "sysEyebrow": "Systemet",
+    "sysTitle": "K-Aqua PP-R Rör & Rördelar: Fyra byggstenar, ett system.",
+    "range": [
+      {
+        "t": "Rör: Mono- & Multilayer",
+        "d": "Monolayer- och glasfiberförstärkta Multilayer-rör i SDR 6, 7.4, 9, 11 och 17. Dimensioner från 20 mm till 630 mm."
+      },
+      {
+        "t": "Formdelar & Armaturer",
+        "d": "Rördelar från 20 mm till 315 mm, kompletterade med ventiler, förskruvningar och övergångsstycken."
+      },
+      {
+        "t": "Svetsteknik & Verktyg",
+        "d": "Skärverktyg, svetsapparater och svetsmaskiner för muff-, stum- och elektrosvetsning."
+      },
+      {
+        "t": "Varmt & Kallt vatten",
+        "d": "Designat för dricksvatten (varmt och kallt) med hög temperatur- och tryckbeständighet under årtionden."
+      }
+    ],
+    "techEyebrow": "Teknisk Data",
+    "techTitle": "Dimensioner & Tryckklasser",
+    "techLead": "Beroende på rörtyp, från 20 mm till 630 mm, rördelar upp till 315 mm.",
+    "ctaFeatures": "Produktegenskaper (PDF)",
+    "tableHead": [
+      "Komponent",
+      "Dimension",
+      "Tryckklasser"
+    ],
+    "tableRows": [
+      [
+        "Monolayer-rör",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Multilayer-rör (GF-förstärkta)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Formdelar",
+        "20 – 315 mm",
+        "systemkompatibel"
+      ],
+      [
+        "Ventiler & Förskruvningar",
+        "systemberoende",
+        "-"
+      ],
+      [
+        "Svetsteknik & Verktyg",
+        "alla dimensioner",
+        "-"
+      ]
+    ],
+    "labels": {
+      "applicationAreas": "Användningsområden",
+      "advantages": "Dina fördelar i korthet",
+      "technicalDescription": "Teknisk profil & SEO",
+      "noResults": "Inga produkter hittades",
+      "searchPlaceholder": "Sök efter titel eller artikelnummer...",
+      "faqTitle": "Vanliga frågor (FAQ)",
+      "faqFallbackQ1": "Vilka är de viktigaste fördelarna?",
+      "faqFallbackA1": "Systemet erbjuder extrem hållbarhet, korrosionsbeständighet och utmärkta hygieniska egenskaper för dricksvatten.",
+      "faqFallbackQ2": "Är materialet miljövänligt?",
+      "faqFallbackA2": "Ja, PPRCT är 100% återvinningsbart och har ett mycket lågt koldioxidavtryck jämfört med metallrör.",
+      "faqFallbackQ3": "Hur utförs installationen?",
+      "faqFallbackA3": "Installationen är säker och läckagefri med polyfusionssvetsning.",
+      "downloads": "Nedladdningar & Dokument",
+      "tds": "Tekniskt Datablad",
+      "tdsDesc": "Specifikationer & Dimensioner (PDF)",
+      "cert": "Certifikat & Standarder",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Installationsguide",
+      "installDesc": "Anvisningar för svetsning (PDF)",
+      "range": "Produktprogram",
+      "rangeDesc": "Komplett produktkatalog med dimensioner (PDF)",
+      "features": "Produktegenskaper",
+      "featuresDesc": "Materialegenskaper & systemfördelar (PDF)"
+    },
+    "specAndDim": "Specifikationer & Dimensioner",
+    "certsAndNorms": "Certifikat & Standarder",
+    "approved": "godkänd",
+    "monitoring": "övervakad",
+    "certified": "certifierad",
+    "quickLinks": "Snabblänkar",
+    "calcCo2": "Beräkna CO2-avtryck",
+    "backToFinder": "Tillbaka till produktsök",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "Högpresterande rörsystem",
+    "highPerformanceDesc": "För industriella applikationer, dricksvattenförsörjning och klimatanläggningar under extrema förhållanden.",
+    "sysPressure": "Systemtryck",
+    "tempMax": "Maximal Temperatur",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certifiering",
+    "lifespan": "Livslängd",
+    "fiberTech": "Faserkompositteknologi",
+    "fiberTechDesc": "Trelagersstruktur för minimerad linjär expansion och maximal stabilitet vid höga temperaturer.",
+    "compliance": "Efterlevnad & Standarder",
+    "dimensions": "Dimensioner",
+    "globalNetwork": "Globalt Nätverk",
+    "globalNetworkDesc": "K Aqua system används i över 40 länder över hela världen.",
+    "whyChoose": "Varför {product} är det rätta valet",
+    "category": {
+      "allProducts": "Alla Produkter",
+      "openInFinder": "Öppna i Sök",
+      "artNA": "Art. N/A",
+      "viewDetails": "Visa Produktdetaljer",
+      "learnMoreKnowledge": "Upptäck PP-R-rörsystem i kunskapsportalen",
+      "learnMoreDesc": "Dyk djupare in i den tekniska dokumentationen och upptäck fackartiklar om installation, hållbarhet och testning av våra PP-R-system.",
+      "toKnowledgeBase": "Läs fackartiklar i K-Aqua Academy"
+    },
+    "hero": {
+      "eyebrow": "SYSTEMARKITEKTUR",
+      "title1": "K-AQUA: DEN ABSOLUTA",
+      "title2": "ARKITEKTUREN FÖR VATTEN.",
+      "desc": "Precision på molekylär nivå. Byggd för att hålla. Våra rörsystem, rördelar och ventiler definierar den globala standarden för industriell och civil vatteninfrastruktur. Inga kompromisser. Bara ren prestanda."
+    },
+    "sticky": {
+      "eyebrow": "PRODUKTSPEKTRUM",
+      "title": "KOMPROMISSLÖS INGENJÖRSKONST.",
+      "lead": "Varje komponent är en del av ett slutet, perfekt system. Från inlopp till slutpunkt kontrollerar vi flödet av vatten, kemikalier och gaser med obönhörlig tillförlitlighet.",
+      "items": [
+        {
+          "title": "PPR-RÖRSYSTEM: OFÖRSTÖRBARA ÅDROR",
+          "desc": "K Aquas PPR-system (Polypropen Random Copolymer) är ryggraden i moderna vätsketransporter. Termiskt sammansmälta till en homogen enhet tål de extrema tryck, kemiska attacker och termiska belastningar. Ett system som inte läcker, inte korroderar och håller i årtionden."
+        },
+        {
+          "title": "RÖRDELAR: GEOMETRISK PERFEKTION",
+          "desc": "Varje K Aqua-rördel är ett mästerverk inom strömningsmekanik. Reducerad kavitation, optimerad väggtjocklek och exakta toleranser inom mikrometerområdet garanterar minimala tryckförluster och maximal systemsäkerhet. Vi lämnar inte flödet åt slumpen."
+        },
+        {
+          "title": "VENTILER & ARMATURER: ABSOLUT KONTROLL",
+          "desc": "Industriell avstängnings- och styrteknik, som fungerar under de tuffaste förhållandena i världen. Våra kulventiler, snedsätesventiler och backventiler är testade för tiotusentals cykler utan att förlora prestanda. Maximal täthet vid maximal belastning."
+        },
+        {
+          "title": "KOMPOSITRÖR: MATERIALSYNERGI",
+          "desc": "Aluminium möter högpresterande polymer. K Aquas flerskiktsrör kombinerar den mekaniska stabiliteten hos metall med flexibiliteten och den kemiska resistensen hos plast. 100 % syrediffusionstäta. Minimal linjär expansion. Den ultimata lösningen för komplexa VVS-system."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "PRESTANDADATA",
+      "title": "TEKNOLOGISK ÖVERLÄGSENHET. DATADRIVEN.",
+      "lead": "K Aqua-system är inte bara rör. De är högpresterande nätverk för vätskor. Designade enligt de strängaste tyska industristandarderna.",
+      "items": [
+        {
+          "title": "Termisk Fusion",
+          "desc": "Homogena svetsfogar. Materialet blir till ett. Inget lim, inga O-ringar som kan misslyckas. 100% läckagesäkerhet på molekylär nivå."
+        },
+        {
+          "title": "Korrosionsimmunitet",
+          "desc": "Absolut motståndskraftig mot gropfrätning (pitting), rost och elektrokemisk korrosion. Det transporterade mediet förblir i sin renaste form."
+        },
+        {
+          "title": "Strömningsoptimering",
+          "desc": "Glattväggsteknik (ytjämnhet 0,007 mm) med minimal friktionskoefficient förhindrar avlagringar och minimerar tryckförlusten massivt."
+        },
+        {
+          "title": "Tryckmotstånd PN25+",
+          "desc": "Byggd för maximal påfrestning i höghus, industrianläggningar och kritisk infrastruktur. Designad för störningsfri drift i över 50 år."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "INSTALLATIONSPROCESSEN. ODEFINIERAD.",
+      "desc": "Snabbare. Säkrare. Renare. Vårt system minskar installationstiden dramatiskt, samtidigt som felkällor minimeras till ett absolut minimum. En kronologi över effektivitet.",
+      "items": [
+        {
+          "year": "FAS 01",
+          "title": "PLANERING & DIMENSIONERING",
+          "text": "Exakt hydraulisk beräkning och utformning av rördiametrar. Undviker överdimensionering genom överlägsna flödesegenskaper."
+        },
+        {
+          "year": "FAS 02",
+          "title": "KAPNING & FÖRBEREDELSE",
+          "text": "Kall och spånfri kapning av rör. Helt rena snitt garanterar perfekt svetsförberedelse utan risk för kontaminering."
+        },
+        {
+          "year": "FAS 03",
+          "title": "MUFFSVETSNING",
+          "text": "Verktyget värmer upp både rör och rördel exakt till 260°C. Inom några sekunder skapas en molekylär bindning som är oskiljbar."
+        },
+        {
+          "year": "FAS 04",
+          "title": "TRYCKTEST & GODKÄNNANDE",
+          "text": "Systemet utsätts för ett extremt testtryck. Ingen tolerans för läckage. K Aqua ger 100% säkerhet från den första droppen."
+        },
+        {
+          "year": "FAS 05",
+          "title": "DRIFT I ÅRTIONDEN",
+          "text": "Underhållsfri. Tyst. Systemet arbetar obemärkt i de modernaste byggnaderna i världen med obeveklig tillförlitlighet."
+        }
+      ]
+    },
+    "sysLead": "Grunden för vår katalog: fyra byggstenar i ett integrerat system. Rör, formdelar, ventiler och verktyg bildar ett system av PP-R och PP-RCT.",
+    "pipes": {
+      "meta": {
+        "title": "PP-R & PPRCT Rörsystem | K Aqua",
+        "desc": "Högpresterande rörsystem av PP-R och PPRCT. Tysk ingenjörskonst för dricksvatten, klimat och industri. Kompromisslös säkerhet för megaprojekt."
+      },
+      "hero": {
+        "eyebrow": "Rörsystem",
+        "title": "PP-R & PPRCT Rör från d20 till d630",
+        "lead": "K Aqua PP-R-rör och PPRCT-flerskiktsrör för dricksvatten, uppvärmning och industri: Mono- och fiberkompositutföranden i alla tryckklasser, tillverkade i Tyskland enligt DIN 8077/8078. Tillgängliga från d20 till d630 för permanent täta anslutningar."
+      },
+      "sticky": {
+        "eyebrow": "Materialvetenskap",
+        "title": "Polymerteknik i perfektion.",
+        "lead": "Den molekylära strukturen hos våra PP-R och PPRCT rör har optimerats för extrema termomekaniska belastningar. Ett mästerverk av tysk ingenjörskonst.",
+        "items": [
+          {
+            "title": "PPRCT Multilayer-arkitektur",
+            "desc": "Våra senaste generationens PPRCT (Polypropylene Random Copolymers with modified Crystallinity and Temperature resistance) rör har ett integrerat glasfiberkompositskikt. Detta minskar den termiska linjära expansionen med upp till 75 % jämfört med standard PP-R-rör, samtidigt som tryckhållfastheten vid höga temperaturer ökar drastiskt. Tunna väggtjocklekar med ökad flödeskapacitet är resultatet."
+          },
+          {
+            "title": "Homogen svetsning",
+            "desc": "Till skillnad från presskopplingar eller limförband använder vi polyfusionssvetsning. Rör och rördel smälter samman vid 260°C till en enda, oskiljaktig molekylär enhet. Systemet klarar sig helt utan O-ringar eller mekaniska tätningar. Anslutningen är fysiskt starkare än själva röret: en 100% läckagefri livslängd garanteras."
+          },
+          {
+            "title": "Absolut korrosionsfrihet",
+            "desc": "Metalliska system kapitulerar inför aggressiva vattenkvaliteter, lågt pH eller högt kloridinnehåll. K Aquas polymerrör är helt inerta. Gropfrätning, spaltkorrosion, galvanisk korrosion eller beläggningar är fysiskt omöjliga. Rörets friktionsförlust (ytjämnhet k=0,007 mm) förblir på samma nivå som dag ett, även efter 50 års drift, vilket massivt minskar pumpenergin."
+          },
+          {
+            "title": "Termisk och akustisk isolering",
+            "desc": "Tack vare den låga värmeledningsförmågan hos PP-R (0,24 W/mK) jämfört med stål (50 W/mK) eller koppar (380 W/mK), fördröjs kondensbildning kraftigt i kylsystem och värmeförluster minimeras i värmesystem. Dessutom absorberar våra tjockväggiga polymerrör strömningsljud och tryckslag (Water Hammers) effektivt, vilket fulländar den akustiska komforten i höghus och hotell."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Noll feltolerans",
+        "desc": "Varje centimeter av våra rör övervakas i extruderingsprocessen. Från granulat till färdig produkt: Kvalitet Made in Germany.",
+        "items": [
+          {
+            "year": "Steg 01",
+            "title": "Premium Råmaterial",
+            "text": "Vi bearbetar uteslutande högrent PP-R- och PPRCT-granulat från världens ledande polymertillverkare. Varje batch genomgår ett MFR-test (Melt Flow Rate) samt en mätning av oxidativ induktionstid (OIT) i vårt eget laboratorium innan den godkänns för extrudering."
+          },
+          {
+            "year": "Steg 02",
+            "title": "Precisions-extrudering",
+            "text": "Våra toppmoderna extruderingslinjer tillverkar 3-skikts fiberkompositrör med mikrometerprecision. Ultraljudsmätning av väggtjocklek i realtid över 360° säkerställer att även för SDR 6-rör underskrids inte de minsta tillåtna toleranserna."
+          },
+          {
+            "year": "Steg 03",
+            "title": "Termisk konditionering",
+            "text": "Omedelbart efter extrudering kyls rören ner gradvis i specialtempererade vattenbad. Denna skonsamma kylprocess förhindrar inre restspänningar i materialet och säkerställer högsta dimensionella noggrannhet över alla dimensioner."
+          },
+          {
+            "year": "Steg 04",
+            "title": "100% Spårbarhet",
+            "text": "Varje rör får ett outplånligt lasertryck med exakt batch- och produktionstidsangivelse. Även efter årtionden i väggen kan ursprunget för varje K Aqua rör spåras sömlöst tillbaka till granulatbatchen."
+          },
+          {
+            "year": "Steg 05",
+            "title": "Testning & Godkännande",
+            "text": "Hydrauliskt sprängtryckstest vid 95°C över 1000 timmar. Dragprov, slaghållfasthet och toxikologisk säkerhetsprövning. Endast när produkten överträffar alla standarder (DIN 8077/8078, EN ISO 15874) lämnar den vår verkstad."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifikationer",
+        "title": "En dimension för varje krav.",
+        "lead": "Skalbar från d20 husanslutningar upp till d500 industriella stigledningar. Vårt system växer med ditt projekts dimensioner.",
+        "items": [
+          {
+            "title": "Dimensioner från d20 till d500",
+            "desc": "Komplett portfölj av rör och rördelar. Oavsett om det handlar om T-rör, reduktioner eller flänsanslutningar i gigantiska dimensioner, levererar vi hela systemet från en enda källa. Inga kompromisser gällande hydrauliken."
+          },
+          {
+            "title": "SDR-klasser 6 till 11",
+            "desc": "Skräddarsydda tryckklasser (PN10 till PN25) via olika Standard Dimension Ratios. Optimera materialanvändning och flöde."
+          },
+          {
+            "title": "Dricksvattenhygien",
+            "desc": "Uppfyller de strängaste europeiska normerna (UBA, DVGW). Helt livsmedelssäker, smak- och luktneutral. Valfri antibakteriell inre beläggning."
+          },
+          {
+            "title": "UV-beständiga Yttermantlar",
+            "desc": "För utomhusinstallationer i extrema klimat (t.ex. Mellanöstern) erbjuder vi speciella UV-stabiliserade rör. Den skyddande ytterskiktet blockerar UV-strålning och förhindrar nedbrytning av polymeren."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Låt experter dimensionera ditt projekt.",
+        "desc": "Skicka oss dina isometrier eller P&ID-planer. Vårt ingenjörsteam tar hand om den hydrauliska beräkningen och framställningen av materiallistor (BOM) för ditt megaprojekt.",
+        "primary": "Starta Projektförfrågan"
+      }
+    },
+    "fittings": {
+      "meta": {
+        "title": "PP-R Fittings & Formdelar | K Aqua",
+        "desc": "K Aqua rördelar och formdelar av PP-R: Absolut täta anslutningar, noll tryckförlust. Tillverkade i Tyskland för maximal strömningsdynamik."
+      },
+      "hero": {
+        "eyebrow": "Formdelsteknik",
+        "title": "PP-R Rördelar: Molekylär Fusion, Maximalt Flöde.",
+        "lead": "Inga tätningar. Inga limningar. K Aquas rördelar smälts samman med röret på en molekylär nivå. Resultatet: En homogen, 100% läckagefri infrastruktur för dricksvatten och processmedia."
+      },
+      "sticky": {
+        "eyebrow": "Teknologin bakom formen",
+        "title": "Konstruerade för oavbrutet flöde.",
+        "lead": "En rördel är inte bara en böj. Det är stället där tryck och friktion når sitt maximum. K Aquas rördelar neutraliserar dessa krafter genom överlägsen hydrodynamik.",
+        "items": [
+          {
+            "title": "Kavitationsfri Strömning (CFD-Optimerad)",
+            "desc": "Traditionella formdelar (som metallbågar) orsakar ofta svåra flödesstörningar. Våra formdelar är optimerade genom Computational Fluid Dynamics (CFD). Den mjuka, oavbrutna inre konturen förhindrar kavitation och garanterar en stabil, laminär strömning även vid extremt vattentryck."
+          },
+          {
+            "title": "Förstärkta Vägstrukturer",
+            "desc": "Vid korsningar, som till exempel T-stycken, uppstår enorma skjuv- och sprängkrafter. Våra formsprutade rördelar är medvetet överdimensionerade på dessa kritiska punkter. Godstjockleken är mycket högre än branschens genomsnitt. Detta säkerställer den gigantiska PN25-prestandan."
+          },
+          {
+            "title": "Monolitisk Integration",
+            "desc": "Mekaniskt pressade anslutningar eller rördelar förlitar sig på O-ringar. Dessa ringar (av EPDM, NBR) försvagas över tid och resulterar oundvikligen i droppande läckor. Polyfusionssvetsning omvandlar PP-R-materialet till ett monolitiskt block. Där det inte finns någon fog kan det inte uppstå något fel."
+          },
+          {
+            "title": "Universell Kompatibilitet",
+            "desc": "Våra PP-R och PPRCT rördelar är helt kompatibla bakåt. Du kan bygga högtemperatursrörledningar (SDR 6) eller extremflödesrör (SDR 11) – du kan alltid använda samma K Aqua rördelar. Detta minskar lagringskostnaderna och misstag på byggarbetsplatsen massivt."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Från Granulat till Global Standard",
+        "desc": "Sprutgjutning av högpresterande formdelar är en konst som vi har fulländat i Waldsolms under decennier.",
+        "items": [
+          {
+            "year": "Steg 01",
+            "title": "Beredning av Smälta",
+            "text": "PP-R granulatet plastificeras vid exakt kontrollerade temperaturer. Den homogena smältan garanterar konsekventa materialegenskaper utan inneslutningar."
+          },
+          {
+            "year": "Steg 02",
+            "title": "Högtrycks-Sprutgjutning",
+            "text": "I formar med enorm spännkraft sprutas materialet in. Detta resulterar i en otroligt tät och robust ytstruktur som motstår smuts och beläggningar."
+          },
+          {
+            "year": "Steg 03",
+            "title": "Laser-Precision 3D",
+            "text": "Varje gjutform är CNC-fräst med extrem precision för att säkerställa att diametern och insticksdjupet på rördelarna matchar svetsverktygen och rören perfekt ner till hundradels millimetern."
+          },
+          {
+            "year": "Steg 04",
+            "title": "Kylnings-Matris",
+            "text": "En datorstyrd nedkylningsprofil förhindrar inre spänningar i materialet och garanterar perfekt dimensionell stabilitet."
+          },
+          {
+            "year": "Steg 05",
+            "title": "Provning & Logistik",
+            "text": "Varje parti får sitt digitala certifikat. Redo för leverans till de mest krävande byggarbetsplatserna i världen."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Livslängd > 50 År. Garanterat.",
+        "text": "Tid är det ultimata stresstestet för alla material. Våra formdelar är designade för att överträffa själva byggnadens livslängd. Genom att tillsätta speciella antioxidanter och termiska stabilisatorer i vår PP-R-matris fördröjs den termooxidativa åldringen massivt. Även med kontinuerliga framledningstemperaturer på 70°C och en tryckbelastning på 10 bar, garanterar vi en livslängd på över ett halvt sekel. Det är inte marknadsföring. Det är tillämpad polymerfysik.",
+        "badge": "100% Underhållsfritt"
+      },
+      "cta": {
+        "title": "Redo för kompromisslös kvalitet?",
+        "desc": "Anslut till vårt ingenjörsteam. Vi levererar inte bara produkter, vi levererar säkerheten för ditt nästa megaprojekt.",
+        "primary": "Starta Projektförfrågan",
+        "secondary": "Se Hela Sortimentet"
+      }
+    },
+    "valves": {
+      "metaTitle": "Industriella PP-R Ventiler & Armaturer | K Aqua",
+      "metaDesc": "Högpresterande PP-R ventiler, kulventiler och armaturer från K Aqua. Konstruerade för extrema industriella tillämpningar och 100 % hygieniskt dricksvatten.",
+      "heroEyebrow": "Industriell Avstängningsteknik",
+      "heroTitle": "Ventiler för evigheten.",
+      "heroSubtitle": "Kontroll över varje droppe.",
+      "heroDesc": "Ett rörledningssystem är bara så starkt som dess svagaste länk. K Aquas industriella PP-R-ventiler och armaturer är medvetet överdimensionerade. Läckagefria. Slitstarka. Oövervinnerliga.",
+      "heroBtnPrimary": "Begär Teknologi",
+      "heroBtnSecondary": "Upptäck Arkitekturen",
+      "manifestoTitle": "När materialet ger vika bryter systemet samman. <br/><span class=\"text-primary\">Vi ger inte vika.</span>",
+      "manifestoP1": "Inom industriell flödesteknik är en ventil aldrig bara en strömbrytare för vätskor. Det är den kritiska noden där kinetisk energi, extremt tryck, termisk expansion och kemisk aggressivitet möts.",
+      "manifestoP2": "Det är här banal massproduktion skiljs från äkta ingenjörskonst. Våra armaturer är medvetet överdimensionerade, tillverkade med extrem precision och byggda för scenarier som andra tillverkare skulle beteckna som \"omöjliga\". Detta är vad vi menar med <span class=\"text-foreground font-bold\">Tysk Ingenjörskonst</span>.",
+      "scrollEyebrow": "Perfektionens Uppkomst",
+      "scrollTitle": "Från råmaterial till oförstörbar armatur.",
+      "scrollLead": "Följ skapandeprocessen för en K Aqua ventil. En kompromisslös resa genom extrem hetta, högt tryck och mikroskopisk precision.",
+      "scroll1Title": "Felfritt Råmaterial",
+      "scroll1Desc": "Våra ventiler och armaturer börjar sin existens som rent, industriellt testat högpresterande material. Genom strikta spektralanalytiska undersökningar garanterar vi redan innan det första fräshuvudet används att det absolut inte finns några mikrostrukturella svagheter. Detta är den oförhandlingsbara grunden för den framtida absoluta korrosionsbeständigheten och mekaniska integriteten under åratals kontinuerlig användning.",
+      "scroll2Title": "Högprecisions CNC-bearbetning",
+      "scroll2Desc": "Varje enskild komponent tillverkas ur solida block i vår fabrik på toppmoderna 5-axliga CNC-bearbetningscenter med en absurd tolerans på under en tusendels millimeter. Denna kompromisslösa precision säkerställer att tätningsytorna passar perfekt ihop. Den eliminerar helt läckagerisker och garanterar en absolut smidig, silkeslen och slitagefri drift, även efter årtionden.",
+      "scroll3Title": "Kavitationsfritt Flöde",
+      "scroll3Desc": "En ventil är bara så bra som dess inre flödesprofil. Med hjälp av den mest avancerade beräkningsströmningsdynamiken (CFD) har vi utformat de inre konturerna så att turbulens och kavitation är praktiskt taget uteslutna. Detta innebär mindre tryckförlust i hela systemet och absolut ljudminimering även vid de högsta flödeshastigheterna.",
+      "scroll4Title": "100% Slutprovning. Inga Undantag.",
+      "scroll4Desc": "Stickprov är inte tillräckliga när miljardinfrastrukturer står på spel. Innan en ventil lämnar K Aquas fabrik genomgår den en helt automatiserad, robotiserad testcykel som vida överstiger de verkliga påfrestningarna. Hydrauliska högtryckstester, helium-vakuum-läckagetester och termiska chocktester garanterar vår legendariska noll-felfrekvens.",
+      "showcaseEyebrow": "Tillförlitlighetens Anatomi",
+      "showcaseTitle": "Inga Svaga Punkter. <br/> Inga Döda Vinklar.",
+      "showcaseP1": "Den inre arkitekturen hos våra armaturer är konsekvent utformad för att <strong>eliminera döda utrymmen</strong>. Stagnationszoner där bakterier som legionella kan föröka sig är geometriskt eliminerade.",
+      "showcaseP2": "Vattnet rusar i en perfekt styrd laminär strömning genom ventilkroppen. De solida tätningssätena är självrengörande och stänger hermetiskt även efter den miljonte cykeln.",
+      "showcaseList1": "Certifierad dricksvattenhygien enligt högsta standarder",
+      "showcaseList2": "Hermetisk tätning vid maximalt drifttryck",
+      "showcaseList3": "Underhållsfria spindeltätningar med dubbel O-ring",
+      "bentoEyebrow": "Specifikationer",
+      "bentoTitle": "Överlägsenhetens nakna siffror.",
+      "bentoLead": "När marknadsföringsflosklerna tar slut talar datan. Upptäck de tekniska parametrar som gör våra ventiler till det ultimata valet för megaprojekt.",
+      "bento1Title": "PN25 Kontinuerlig Tryckbelastning",
+      "bento1Desc": "Utvecklad för kontinuerliga högtrycksapplikationer som överträffar standarden. Väggtjockleken och gängkonstruktionerna är så solida att de inte ger vika alls, ens vid extrema tryckspikar och tryckslag (water hammers). Ett monolitiskt säkerhetsblock.",
+      "bento2Title": "Termisk Överlägsenhet",
+      "bento2Desc": "Från isande kyla till kokande framledningstemperaturer. Det högpresterande materialet behåller sin fulla elasticitet, blir inte sprött och motstår termisk expansion extremt effektivt.",
+      "bento3Title": "Kemisk Resistens",
+      "bento3Desc": "Korrosion är ett koncept från det förflutna. Våra armaturer är immuna mot aggressiva markförhållanden, hårt vatten och klorhaltiga desinfektionsmedel. Ingen rost, ingen gropfrätning (pitting).",
+      "bento4Title": "Industriell Ergonomi & Taktilitet",
+      "bento4Desc": "Design möter rå funktionalitet. De massiva handrattarna, solida spakarna och precisionsbearbetade spindlarna ger omedelbar, taktil och absolut exakt återkoppling vid öppning och stängning, även med tjocka skyddshandskar.",
+      "timelineEyebrow": "Hårdhetens Väg.",
+      "timelineLead": "En tidslinje över kompromisslös kvalitetssäkring. Hur en idé blir en industriell legend.",
+"timeline1Year": "Fas 01",
+      "timeline1Title": "Molekylär Urval",
+      "timeline1Text": "Val av metalliska legeringar och högpresterande polymerer som formulerats specifikt för K Aqua. Vi förlitar oss på absolut krypmotstånd och maximal molekylär stabilitet.",
+      "timeline2Year": "Fas 02",
+      "timeline2Title": "CFD Strömningsoptimering",
+      "timeline2Text": "Med hjälp av superdatorer beräknas de inre flödeskanalerna i tusentals iterationer för att minimera flödesmotståndet till noll.",
+      "timeline3Year": "Fas 03",
+      "timeline3Title": "Stresstest i Klimatkammare",
+      "timeline3Text": "Prototyper genomgår månader av uthållighetstester i våra klimatkammare med temperaturer upp till 120°C, 25 bar tryck och extrema kemiska lösningar.",
+      "timeline4Year": "Fas 04",
+      "timeline4Title": "Robotiserad Serieproduktion",
+      "timeline4Text": "Övergång till vår högautomatiserade Industri 4.0 produktionslinje. Vi uppnår maximal repeterbarhet med minimala toleranser, utan mänskliga felkällor.",
+      "timeline5Year": "Fas 05",
+      "timeline5Title": "Global Driftsättning",
+      "timeline5Text": "Implementering på de mest kritiska byggarbetsplatserna i världen, från megaprojekt i öknen till offshore-anläggningar. Med stöd av vårt field-engineering team.",
+      "finalTitle": "Bygg för Generationer. <br/>Inte för nästa serviceintervall.",
+      "finalDesc": "I en värld som i allt högre grad förlitar sig på planerat åldrande och billiga ersättningsprodukter står vi som en orubblig motpol. En K Aqua armatur installeras och sedan glöms den bort. Eftersom den helt enkelt fungerar. Årtionde efter årtionde. Lita på äkta industriell auktoritet.",
+      "ctaTitle": "Redo för absolut kontroll?",
+      "ctaDesc": "Prata med våra chefsingenjörer om specifikationerna för ditt nästa megaprojekt. Vi levererar lösningar på problem som andra inte ens har förstått ännu.",
+      "ctaBtnPrimary": "Begär Teknisk Konsultation",
+      "ctaBtnSecondary": "Specifikationer som PDF",
+      "hero": {
+        "eyebrow": "Ventiler & Armaturer",
+        "title": "PP-R Armaturer & Ventiler för Exakt Reglering",
+        "lead": "Stäng av, reglera, säkra: K Aqua-ventiler av PP-R kombinerar korrosionsfri hydraulik med tysk tillverkningsprecision för dricksvatten, VVS och industri. För exakt reglering i dricksvatten- och värmenätverk."
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "PP-R Övergångsformdelar och Systemanslutningar",
+        "desc": "K Aqua Övergångar: Hybridanslutningar i absolut toppklass. När höghållfast metall möter innovativ plast. Tysk ingenjörskonst."
+      },
+      "hero": {
+        "eyebrow": "Systemövergångar",
+        "title": "Övergångskopplingar: Säkert från metall till PP-R",
+        "lead": "Mässing möter polymer: K Aquas övergångskopplingar förbinder befintliga metallrör permanent tätt och korrosionsfritt med PP-R systemet, testade långt utöver standarderna."
+      },
+      "intro": {
+        "eyebrow": "Utmaningen",
+        "title": "Där världar kolliderar.",
+        "lead": "Övergången från styva metalliska rörsystem till moderna termoplastiska nätverk är akilleshälen i varje byggnads- och industriinstallation. Här verkar maximala termiska och mekaniska skjuvkrafter."
+      },
+      "sticky": {
+        "eyebrow": "Deep Tech",
+        "title": "Oförstörbarhetens anatomi.",
+        "lead": "Vi betraktar inte en övergångskoppling som ett tillbehör, utan som ett mycket komplext mekaniskt instrument. Varje millimeter av väggtjocklek, varje gänga är resultatet av otaliga finita element-analyser (FEA).",
+        "items": [
+          {
+            "title": "Symbiosen mellan metall och polymer",
+            "desc": "Våra övergångskopplingar kombinerar den oförlåtande mekaniska styrkan hos avzinkningshärdig CW617N-mässing med den kemiska trögheten hos PPRCT. Denna materialsammanfogning skapas inte genom enkel pressning, utan genom en termomekanisk formsprutningsprocess som uppnår en oskiljbar molekylär sammanlåsning."
+          },
+          {
+            "title": "Extremt Torsions- och Vridmoment",
+            "desc": "Ett kritiskt felkriterium för standardkopplingar är överbelastning av vridmomentet under installationen. K Aquas övergångar integrerar en patenterad hexagonal förankringsprofil i plasthöljet. Resultatet: Över 300 Nm garanterad torsionsresistans utan delaminering av gränsskiktet."
+          },
+          {
+            "title": "Balanserade Värmeutvidgningskoefficienter",
+            "desc": "Metaller och plaster expanderar olika (Δα) när temperaturen fluktuerar. Genom exakt beräknade mikroskopiska expansionsfogar i mässingsinsatsen kompenserar våra kopplingar för extrema chocker från -20°C till +95°C på millisekunder, med absolut läckagefrihet."
+          },
+          {
+            "title": "Nolltolerans Kvalitetskontroll",
+            "desc": "Varje hybridkomponent genomgår ett helt automatiserat heliumläckagetest och en optisk 3D-mätning. Om gränsvärdet på 10^-5 mbar·l/s ens tangeras kasserar vårt system komponenten omedelbart. Tysk ingenjörskonst accepterar inga kompromisser."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifikationer",
+        "title": "Prestandans arkitektur.",
+        "lead": "När du planerar megaprojekt med tiotusentals anslutningar är statistisk tillförlitlighet den viktigaste ROI:n. K Aqua ger dig den fysiska garantin för detta.",
+        "items": [
+          {
+            "title": "DZR Mässingskärna",
+            "desc": "Avzinkningshärdig mässing av kvalitet CW617N (enligt DIN EN 12164) eliminerar risken för selektiv korrosion i aggressiva vattenkvaliteter."
+          },
+          {
+            "title": "Anti-Rotationsdesign",
+            "desc": "Polygonala underskärningar bildar ett geometriskt lås som absorberar extrema åtdragningsmoment utan att belasta plasthöljet."
+          },
+          {
+            "title": "Djupdragen Gänga",
+            "desc": "Koniska och cylindriska ISO 7/1 och ISO 228 gängor, maskinskurna med en tolerans på ±0,01 mm för perfekt täthet."
+          },
+          {
+            "title": "PPRCT Matris",
+            "desc": "Den högkristallina strukturen hos vår Polypropylene Random Copolymer erbjuder överlägsen långsiktig hållfasthet vid höga temperaturer."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Tillverkningscykeln",
+        "desc": "En titt in i vår fabrik. Vägen från råmaterial till testad hybridkoppling är en orkester av värme, tryck och skoningslös precision.",
+        "items": [
+          {
+            "year": "Fas 1",
+            "title": "Bearbetning av Råmaterial (CW617N)",
+            "text": "Mässingen pressas in i högprecisionsmatriser vid 750°C, följt av CNC-styrd bearbetning på mikrometernivå för att skapa tätningsprofilen."
+          },
+          {
+            "year": "Fas 2",
+            "title": "Ytpassivering",
+            "text": "För att eliminera galvanisk korrosion genomgår gänginsatserna en flerstegspassiveringsprocess i elektrolytiska ultraljudsbad."
+          },
+          {
+            "year": "Fas 3",
+            "title": "Formsprutning (Injection Molding)",
+            "text": "I högtrycksformsprutningsmaskiner (2 000 bar) omsluter den smälta PPRCT-plasten mässingen. Plasten fyller ut varje underskärning fullständigt."
+          },
+          {
+            "year": "Fas 4",
+            "title": "Kontrollerad Kylning",
+            "text": "En programmerad, gradvis temperatursänkning förhindrar inre spänningar i plastgallret och säkerställer kopplingens koncentriska formstabilitet."
+          },
+          {
+            "year": "Fas 5",
+            "title": "Tryck- & Torsionstest",
+            "text": "Slumpmässiga sprängtester upp till 120 bar och utmattningstester simulerar 50 års extremt industriellt slitage."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Certifieringar & Parametrar",
+        "title": "Hårda fakta.",
+        "lead": "Vi testar inte bara enligt standarder. Vi definierar dem. Våra interna testprotokoll överträffar kraven från DVGW, SKZ och ISO med upp till 300 %.",
+        "items": [
+          {
+            "label": "Driftstryck (PN)",
+            "value": "Upp till 25 bar",
+            "sub": "Vid 20°C vatten"
+          },
+          {
+            "label": "Temperaturspektrum",
+            "value": "-20°C till +95°C",
+            "sub": "Toppbelastning upp till 110°C"
+          },
+          {
+            "label": "Gängstandarder",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Innergänga & Yttergänga"
+          },
+          {
+            "label": "Livslängd",
+            "value": "> 50 år",
+            "sub": "Under industriella förhållanden"
+          },
+          {
+            "label": "Mässingslegering",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Avzinkningshärdig"
+          },
+          {
+            "label": "Plast",
+            "value": "PPRCT / PP-R",
+            "sub": "Dricksvattencertifierad"
+          },
+          {
+            "label": "Dricksvattenöverensstämmelse",
+            "value": "UBA, DVGW",
+            "sub": "100% Blyfria alternativ"
+          },
+          {
+            "label": "Kvalitetssäkring",
+            "value": "ISO 9001:2015",
+            "sub": "100% Batch-spårning"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Den starkaste länken i ditt projekt.",
+        "desc": "Lita på beprövad tysk ingenjörskonst. Kontakta oss för tekniska datablad, BIM-modeller eller individuell projektrådgivning.",
+        "primary": "Starta Projektförfrågan",
+        "secondary": "CAD & Specifikationer"
+      }
+    },
+    "tools": {
+      "metaTitle": "Professionella Verktyg & Tillbehör för PP-R System",
+      "metaDesc": "Upptäck professionella verktyg och tillbehör från K-Aqua. För säkra, effektiva och hållbara installationer av PP-R- och PP-RCT-rörsystem.",
+      "heroEyebrow": "German Engineering",
+      "heroTitle": "Verktyg & Tillbehör.",
+      "heroSubtitle": "Absolut precision.",
+      "heroDesc": "Denna modul ger kompromisslös säkerhet för de mest krävande projekten världen över. Tillverkade enligt de strängaste industristandarderna för att hålla i generationer. Där materialfel inte är ett alternativ.",
+      "heroBtnPrimary": "Begär Projekt",
+      "heroBtnSecondary": "Tekniska Data",
+      "bentoEyebrow": "K Aquas Ekosystem",
+      "bentoTitle": "Verktyg för globala megaprojekt.",
+      "bentoLead": "När internationella huvudentreprenörer planerar miljardprojekt förlitar de sig inte på löften, utan på hårda fakta och högprecisionsutrustning.",
+      "bento1Title": "Muffsvetsmaskiner (Heizelement)",
+      "bento1Desc": "För dimensioner 20 mm till 125 mm. Kompakt, robust design för tuff användning på byggarbetsplatser.",
+      "bento2Title": "Röravskärare & Saxar",
+      "bento2Desc": "Ergonomisk design för utmattningsfritt arbete och perfekta 90°-snitt.",
+      "bento3Title": "Stumsvetsmaskiner",
+      "bento3Desc": "För nominella diametrar upp till 250 mm. CNC-styrda för absolut repeterbarhet.",
+      "bento4Title": "Reparationssatser & Tillbehör",
+      "bento4Desc": "Borrhuvuden, reparationssadlar och hålsågar för eftermonterade avstick.",
+      "scrollEyebrow": "Djupgående Teknologi",
+      "scrollTitle": "Inget utrymme för feltoleranser.",
+      "scrollLead": "Upptäck de tekniska detaljerna som gör våra verktyg till förstavalet för certifierade installatörer.",
+      "scroll1Title": "Perfekt termodynamik. Vid varje svetsning.",
+      "scroll1Desc": "Våra muffsvetsmaskiner är utrustade med högprecisions, teflonbelagda värmedorn och värmebussningar. Den mikroprocessorstyrda temperaturregleringen garanterar en konstant svetstemperatur på 260°C, även vid extrema utomhustemperaturer på globala byggarbetsplatser. Detta skapar en oskiljbar, homogen fog på molekylär nivå.",
+      "scroll2Title": "CNC-styrd stumsvetsning.",
+      "scroll2Desc": "För stora nominella diametrar (upp till 250 mm och mer) använder vi CNC-styrda stumsvetsmaskiner. Automatisk tryck- och tidsberäkning eliminerar mänskliga felkällor. Varje svetscykel registreras digitalt för att säkerställa fullständig spårbarhet för bygginspektionen. Tysk ingenjörskonst på högsta nivå.",
+      "scroll3Title": "Precisions-Rörskalare. På millimetern exakt.",
+      "scroll3Desc": "Förberedelserna utgör 80% av svetsningen. Våra mekaniska och elektriska rörskalare tar bort oxidskiktet från K Aqua-rören med absolut jämnt skärdjup. Detta förhindrar mikrosprickor och skapar ett perfekt fusionsplan. Ett verktyg som håller i generationer.",
+      "scroll4Title": "Kallcirkelsågar för exakta snitt.",
+      "scroll4Desc": "Rörsaxar kan deformera materialet. Våra industriella kallcirkelsågar garanterar perfekt vinkelräta, gradfria snitt. Resultatet: Inga spänningsinducerade sprickor, inget tryckfall, absolut parallellitet innan svetsprocessen.",
+      "timelineTitle": "K Aquas Svetsprocess",
+      "timelineDesc": "Från snittet till molekylär fusion. En standardiserad process som resulterar i 100 % täta och underhållsfria rörsystem.",
+      "timeline1Year": "Fas 1: Materialförberedelse",
+      "timeline1Title": "Det perfekta snittet.",
+      "timeline1Text": "Ett gradfritt, 90-graders snitt är grunden för varje permanent anslutning. Våra precisionsavskärare och kallcirkelsågar garanterar en absolut plan yta utan mikrostrukturella deformationer i polypropenen.",
+      "timeline2Year": "Fas 2: Kalibrering & Skalning",
+      "timeline2Title": "Borttagning av oxidskiktet.",
+      "timeline2Text": "Innan svetsning kalibreras röret exakt och det yttre oxidskiktet avlägsnas med millimeterprecision med våra speciella skalverktyg. Detta möjliggör en 100 % ren yta för fusionsprocessen.",
+      "timeline3Year": "Fas 3: Termisk Fusion",
+      "timeline3Title": "Molekylär sammansmältning.",
+      "timeline3Text": "Röret och rördelen värms samtidigt upp på den teflonbelagda värmematrisen till exakt 260°C. K Aquas svetsutrustnings mikroprocessorstyrda termostat håller temperaturen konstant, oavsett vind eller väder.",
+      "timeline4Year": "Fas 4: Anslutningen",
+      "timeline4Title": "Livslång säkerhet.",
+      "timeline4Text": "Inom den specificerade omställningstiden sammanfogas de uppvärmda komponenterna utan vridning. Efter kylfasen skapas ett nytt, helt homogent arbetsstycke. Underhållsfritt i över 50 år.",
+      "specsTitle": "Industriell Auktoritet. <br/> Ned till minsta detalj.",
+      "specsP1": "I decennier har vi kombinerat hantverksmässig stolthet med toppmodern, högautomatiserad tillverkningsteknik i vår huvudfabrik i hjärtat av Tyskland.",
+      "specsP2": "Genom att användas i världens hårdaste öknar och mest extrema klimat bevisar vårt material sig själv varje dag. Vi sätter den standard som resten av världen följer.",
+      "specsList1": "ISO 9001 certifierad",
+      "specsList2": "Teflon PTFE beläggning av kvalitet A",
+      "specsList3": "Digital temperaturkalibrering",
+      "ctaTitle": "Redo för kompromisslös kvalitet?",
+      "ctaDesc": "Prata med vårt ingenjörsteam om ditt nästa megaprojekt och begär varuprov på våra verktyg.",
+      "ctaBtn": "Starta Projektförfrågan",
+      "hero": {
+        "eyebrow": "Verktyg & Tillbehör",
+        "title": "Svetsverktyg för PP-R-installationer",
+        "lead": "Muffsvetsmaskiner, värmespiralteknik och kalibreringsverktyg: Med originalverktyg från K Aqua skapas permanenta, täta och standardiserade svetsfogar på varje byggarbetsplats. Professionella verktyg för PP-R-installationer."
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Kundservice &",
+    "titleGrad": "Expertis.",
+    "lead": "Vår kundservice & expertis erbjuder dig tekniska dokument för nedladdning och steg-för-steg-videor för alla svetstekniker.",
+    "dlEyebrow": "Nedladdningar",
+    "dlTitle": "Tekniska Dokument",
+    "downloads": [
+      {
+        "t": "K Aqua Produktprogram",
+        "s": "Fullständig katalog med dimensioner & artiklar"
+      },
+      {
+        "t": "K Aqua Produktegenskaper",
+        "s": "Tekniska egenskaper & materialdata"
+      },
+      {
+        "t": "K Aqua Kvalitetssäkring",
+        "s": "Testmetoder & kvalitetsstandarder"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Svetstekniker på video",
+    "vidLead": "Fyra tekniker, fyra videor, direkt från praktiken.",
+    "videos": [
+      {
+        "t": "Muffsvetsning med handsvets",
+        "s": "PP-R/PPRCT Rör & Rördel"
+      },
+      {
+        "t": "Muffsvetsning med svetsmaskin",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Elektrosvetsning (Electrofusion)",
+        "s": "PP-R/PPRCT Rör & Rördel"
+      },
+      {
+        "t": "Stumsvetsning (Butt Fusion)",
+        "s": "PP-R/PPRCT Stora dimensioner"
+      }
+    ]
+  },

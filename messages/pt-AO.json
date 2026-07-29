@@ -1,0 +1,1633 @@
+{
+  "toggle_theme_light": "Mudar para o tema claro",
+  "toggle_theme_dark": "Mudar para o tema escuro",
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "finder": "Pesquisa de Produtos",
+    "co2": "Calculadora de CO₂",
+    "markets": "Mercados",
+    "trust": "Centro de Confiança",
+    "contact": "Contacto",
+    "quote": "Pedir Cotação",
+    "menu": "Menu",
+    "lang": "Idioma",
+    "skipToContent": "Saltar para o conteúdo",
+    "menuPlaceholder": "Marcador de posição (Mega-Menu)",
+    "academy": "Academia",
+    "service": "Serviço",
+    "about": "Empresa",
+    "solutions": "Soluções",
+    "partners": "Parceria",
+    "references": "Referências",
+    "career": "Carreira",
+    "news": "Notícias",
+    "knowledge_trust": "Conhecimento e Confiança",
+    "mapAria": "Abrir navegação por mapa",
+    "sitemapAria": "Mapa do site",
+    "pipes": "Tubos",
+    "fittings": "Acessórios",
+    "valves": "Válvulas",
+    "accessories": "Acessórios extra",
+    "tools": "Ferramentas"
+  },
+  "catalogx": {
+    "eyebrow": "Catálogo completo de produtos",
+    "faqTitle": "Perguntas Frequentes",
+    "title": "Todas as 79 famílias de artigos, com referências reais.",
+    "lead": "Tubos, acessórios, uniões de transição, válvulas, selas de derivação, acessórios e ferramentas, cada linha provém do catálogo oficial da K Aqua. Seleccione a categoria, expanda o artigo, verifique a referência.",
+    "searchPlaceholder": "Pesquisar referência ou nome do produto, ex. «AQ200P20» ou «Elbow»",
+    "noResults": "Sem resultados. Ajuste a pesquisa ou escolha outra categoria.",
+    "codesLabel": "Referências",
+    "sizesLabel": "Dimensões",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Série",
+    "pressureLabel": "Pressão de serviço",
+    "lenLabel": "Comprimento da vara",
+    "cats": {
+      "pipes": {
+        "label": "Tubos",
+        "desc": "Tubos PPR e PPRCT: standard, reforçados com fibra e com protecção UV, 12 séries."
+      },
+      "fittings": {
+        "label": "Acessórios",
+        "desc": "Acessórios para soldadura por termofusão e electrofusão, d20–d125, 13 famílias de artigos."
+      },
+      "transitionFittings": {
+        "label": "Uniões de transição",
+        "desc": "Transições para rosca e latão, para ligações existentes e válvulas, 13 famílias."
+      },
+      "valves": {
+        "label": "Válvulas",
+        "desc": "Válvulas de esfera, válvulas de encastre, colectores, 9 famílias de artigos."
+      },
+      "weldInSaddles": {
+        "label": "Selas de derivação",
+        "desc": "Derivações sem corte do tubo, com e sem rosca, 3 famílias."
+      },
+      "accessories": {
+        "label": "Acessórios extra",
+        "desc": "Abraçadeiras, flanges, juntas, tampões: 5 famílias de artigos."
+      },
+      "tools": {
+        "label": "Ferramentas",
+        "desc": "Corta-tubos, máquinas e matrizes de soldadura para os quatro métodos de união, 14 famílias."
+      }
+    },
+    "rfq": {
+      "title": "Pedido de projecto",
+      "desc": "Solicite directamente uma cotação para <span class=\"font-semibold\">{title}</span>.",
+      "button": "Ir para o pedido"
+    },
+    "similar": {
+      "title": "Mais da {category}"
+    },
+    "items": {}
+  },
+  "groups": {
+    "pipes": "Sistemas de tubagens",
+    "fittings": "Acessórios e Uniões",
+    "valves": "Válvulas e Colectores",
+    "accessories": "Material de fixação e Acessórios",
+    "tools": "Tecnologia de soldadura e Ferramentas"
+  },
+  "pages": {
+    "home": "Início",
+    "solutions": "Soluções de Aplicação",
+    "service": "Academia de Formação",
+    "about": "A Empresa K-Aqua",
+    "news": "Notícias e Feiras",
+    "career": "Carreiras na K-Aqua",
+    "contact": "Fale Connosco",
+    "imprint": "Informação Legal",
+    "products": "Gama de Produtos",
+    "finder": "Pesquisa de Artigos",
+    "refs": "Projetos de Referência",
+    "rfq": "Pedido de Cotação",
+    "co2": "Calculadora Ambiental",
+    "trust": "Certificados e Confiança",
+    "privacy": "Privacidade",
+    "terms": "Termos de Venda"
+  },
+  "home": {
+    "heroEyebrow": "Sistemas de tubagens Premium",
+    "heroTitle": "Soluções fiáveis de água em {country}",
+    "heroDesc": "Os tubos PP-R/PP-RCT da K-Aqua garantem a segurança da água a longo prazo. Perfeitos para canalização e aquecimento com tecnologia de soldadura alemã.",
+    "heroCta": "Ver Catálogo",
+    "heroSecCta": "Áreas de Aplicação"
+  },
+  "geo": {
+    "heroEyebrow": "Qualidade Alemã – Envio para todo o mundo",
+    "heroTitle": "Sistemas de tubagens PP-R para <span class=\"text-kaqua\">{city}</span> e Região",
+    "heroDesc": "Engenharia líder do produtor alemão, perfeitamente adaptada às exigências técnicas e normas de construção na região de {city}.",
+    "heroCta": "Para o Portefólio K Aqua",
+    "heroSecCta": "Consultar o Especialista",
+    "contextTitle": "A sua vantagem para projectos em {city}",
+    "contextBody": "O nosso suporte técnico na região de {city} apoia planeadores e instaladores no cálculo, escolha de material e acompanhamento em obra, garantindo conformidade com a regulamentação local. Entregamos tubos e acessórios directamente da fábrica alemã, adequados a todas as especificações de clima e águas locais.",
+    "distributors": "Parceiros & Distribuidores:",
+    "distributorsTitle": "Logística e Parcerias na Região",
+    "distributorsText": "Uma rede forte para os seus estaleiros. Os nossos distribuidores certificados fornecem K-Aqua PP-R/PPRCT e toda a gama de tecnologia de fusão a {city} de forma rápida e fiável.",
+    "typical": "Projectos típicos em {city}",
+    "onSite": "Trabalho em obra",
+    "onSiteText": "Instruções sobre tecnologia de soldadura e documentação em vídeo para a sua equipa na Academia.",
+    "toAcademy": "Para a Academia",
+    "nearbyEyebrow": "Mercados Relacionados",
+    "nearby": "Nas proximidades.",
+    "prodNote": "Nota de produção: Estas páginas seguem o modelo de SEO Programático (Segmento de dados: Produto × Regulamentação × Região). No Next.js, são geradas via ISR do Headless CMS, incluindo hreflang, Product-/Offer-Schema e linkagem interna semântica.",
+    "km": "km",
+    "seoExpansion": "A K Aqua fabrica em Waldsolms sistemas de tubagens PP-R e PPRCT para as maiores exigências mundiais de engenharia de edifícios e instalações. Graças a uma Engenharia Alemã sem compromissos e a tecnologia de ponta na produção, os nossos sistemas garantem décadas de funcionamento seguro e sem manutenção. Cada produto, do d20 ao d630, é sujeito a um rigoroso controlo de qualidade de acordo com normas internacionais como DVGW, KIWA e SKZ. Não fornecemos apenas materiais de primeira linha para água potável, refrigeração e indústria, mas também apoiamos projectistas e instaladores com extenso suporte técnico e formação no local. Confie num sistema que se destaca pela sua durabilidade extrema, isenção de corrosão e higiene absoluta.",
+    "seoExpansionDynamic": "Saiba mais sobre as nossas soluções em PP-R e PPRCT em {city}. Cumprimos as normas locais ({regulator}) e oferecemos sistemas perfeitos para a qualidade da água ({water}). Informação adicional: {note}.",
+    "cityMetaTitle": "Sistemas de tubos PP-R em {city}",
+    "hubMetaTitle": "Sistemas de tubos PP-R para {country}",
+    "hubH1": "Soluções de Infraestrutura para {country}",
+    "hubLead": "A K-Aqua disponibiliza soluções certificadas em PP-R e PP-RCT para {country}. Os nossos tubos cumprem as mais rigorosas normas internacionais e estão optimizados para os desafios específicos de {country}.",
+    "hubContextTitle": "Contexto regional: {context}",
+    "hubContextBody": "Os nossos sistemas K-Aqua em PP-R/PP-RCT de fabrico alemão, oferecem infraestruturas duradouras para {country}. São desenhados para responder perfeitamente aos desafios estruturais a nível local.",
+    "hubCitiesTitle": "Localizações & Cidades de Referência",
+    "hubs": {
+      "deutschland": {
+        "description": "Como mercado doméstico da K-Aqua, a Alemanha exige os mais elevados padrões de qualidade e durabilidade na construção. Os nossos <span class=\"font-semibold\">sistemas de tubos PP-R e PP-RCT</span> resolvem o atraso nas infraestruturas de água e aquecimento na Alemanha de forma sustentável e eficaz. Com materiais isentos de corrosão e certificados pela DVGW, reduzimos os custos de manutenção e asseguramos higiene máxima em grandes projectos residenciais, comerciais e municipais por décadas.",
+        "metaDesc": "Sistemas de tubagens PP-R/PP-RCT certificados para a Alemanha. Engenharia Alemã na renovação infraestrutural de água e aquecimento."
+      },
+      "oesterreich": {
+        "description": "Na Áustria, topografias difíceis e regulamentos ambientais estritos exigem soluções irrepreensíveis. Os nossos <span class=\"font-semibold\">sistemas K-Aqua</span> oferecem uma qualidade superior para as redes de água e aquecimento distrital das zonas alpinas. Com a garantia da ÖVGW e uma excepcional capacidade de isolamento térmico, os nossos tubos PP-R e PP-RCT asseguram máxima protecção contra o gelo e as mais duras exigências climáticas dos Alpes.",
+        "metaDesc": "Tubagens premium PP-R/PP-RCT para a Áustria. Soluções seguras contra o gelo e a pressão para redes de água e calor em ambiente alpino."
+      },
+      "schweiz": {
+        "description": "A Suíça é símbolo de precisão, sustentabilidade e excelência. Os <span class=\"font-semibold\">sistemas PP-R e PP-RCT da K-Aqua</span> cumprem perfeitamente esses requisitos através da pureza ímpar dos materiais e da certificação de segurança alimentar SVGW. Recicláveis e com fluxos aperfeiçoados, os nossos tubos suportam climatização e canalização sustentável de primeira linha nos mais inovadores projectos Minergie por toda a Suíça.",
+        "metaDesc": "Tubos PP-R/PP-RCT de topo para a Suíça. Certificação SVGW, tubos de plástico recicláveis para edifícios Minergie."
+      },
+      "uae": {
+        "description": "A água é o recurso mais escasso e valioso nos Emirados Árabes Unidos e o seu clima. Os <span class=\"font-semibold\">tubos PP-R/PP-RCT da K-Aqua</span> são a barreira definitiva contra a corrosão e calcificação, mesmo quando se utiliza água dessalinizada (Osmose Inversa). Resistentes ao calor e aos raios UV, garantem infraestrutura de água segura em super-arranha-céus e nos megaprojectos monumentais em Dubai e Abu Dhabi.",
+        "metaDesc": "Tubos PP-R/PP-RCT resistentes a UV e calor para os EAU. Forte defesa contra corrosão e calcificação em climas desérticos."
+      },
+      "ksa": {
+        "description": "Guiada pela Visão 2030, a Arábia Saudita tem transformado profundamente a sua infraestrutura. <span class=\"font-semibold\">A K-Aqua tem acompanhado, fornecendo redes vitais de água</span>. Os nossos tubos de PP-RCT de grande diâmetro proporcionam ligações de água impecáveis, sem perdas, nas inovadoras Smart Cities como o projecto NEOM. Validados por standards de topo globais, atestam uma durabilidade soberba ao calor escaldante exterior.",
+        "metaDesc": "Sistemas de PP-RCT de alto calibre para a Arábia Saudita. Distribuição de água vital e de confiança para a Visão 2030, incluindo projectos como NEOM."
+      },
+      "singapur": {
+        "description": "Sendo uma das cidades tecnológicas e densamente populadas da Ásia, Singapura obriga a que os edifícios disponham das canalizações mais eficientes e compactas possíveis. As <span class=\"font-semibold\">inovadoras linhas de tubagem da K-Aqua</span> respondem à agenda 'Green-Building' de Singapura ao erradicar drasticamente descidas de pressão e exibir a melhor protecção de temperatura. Da climatização de arranha-céus (Água Gélida) à puríssima distribuição de água potável, definimos um standard intocável na Ásia.",
+        "metaDesc": "Sistemas PP-R/PP-RCT de elevada eficiência para edifícios ecológicos em Singapura. Preparados para Água Gélida e ultra filtrada."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, líder no abastecimento de água. Sistemas de tubos PP-R/PP-RCT para água potável, fabricados pela KWT GmbH em Waldsolms.",
+    "colTools": "Produtos e Ferramentas",
+    "colCompany": "Empresa",
+    "colContact": "Contacto",
+    "directions": "Direcções e Localização",
+    "rights": "Todos os direitos reservados.",
+    "imprint": "Informação Legal",
+    "privacy": "Privacidade",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Alemanha",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Pedir cotação para o projecto",
+    "badges": [
+      {
+        "t": "Certificação SKZ",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Normas de tubos PP-R"
+      },
+      {
+        "t": "Sustentabilidade",
+        "s": "Amigo do ambiente"
+      },
+      {
+        "t": "Sistema GENAU",
+        "s": "Gestão Integrada"
+      },
+      {
+        "t": "Fabricado na Alemanha",
+        "s": "Produção em Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Webdesign por Coday",
+        "Um projecto da Coday Web Agency",
+        "Coday Web Agency",
+        "Digitalizado por Coday"
+      ],
+      "srDesc": "Este website foi concebido e implementado tecnicamente pela Coday Web Agency, peritos em web design e GEO em Hesse.",
+      "linkTitle": "Ir para a Coday Web Agency - Webdesign Premium"
+    }
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europa",
+    "nahost": "Médio Oriente",
+    "global": "África & Ásia-Pacífico"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "dimensão máxima de tubo no programa"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Classes de pressão: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Qualidade, Ambiente & Energia certificados"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "dos resíduos de produção são reciclados"
+      }
+    ],
+    "heroBadgeLabel": "Dimensões de tubo, SDR 6 até SDR 17",
+    "marquee": [
+      "Líder no abastecimento de água",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Fabricado em Waldsolms",
+      "100 % Reciclagem",
+      "Parceiro: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Pesquisa de Produtos",
+        "d": "Filtre 170+ variantes ao vivo: Dimensão, SDR, espessura da parede instantaneamente.",
+        "cta": "Filtrar agora"
+      },
+      {
+        "id": "co2",
+        "t": "Calculadora de CO₂",
+        "d": "O seu projecto vs. cobre, aço inoxidável e PVC, medido em árvores e quilómetros automóveis.",
+        "cta": "Calcular agora"
+      },
+      {
+        "id": "academy",
+        "t": "Academia + Quiz",
+        "d": "Quatro processos de soldadura em vídeo e o teste Mestre Soldador.",
+        "cta": "Tornar-se Mestre"
+      },
+      {
+        "id": "references",
+        "t": "Globo de Referências",
+        "d": "Gire o planeta e descubra projectos: de Waldsolms a Singapura.",
+        "cta": "Girar o globo"
+      },
+      {
+        "id": "trust",
+        "t": "Centro de Confiança",
+        "d": "Verifique certificados e compile o seu próprio pacote RFP de documentos.",
+        "cta": "Criar pacote"
+      },
+      {
+        "id": "career",
+        "t": "Calculadora de Benefícios",
+        "d": "O impacto dos extras livres de impostos no salário líquido e o 'Culture Match' de 60 segundos.",
+        "cta": "Verificar benefícios"
+      }
+    ],
+    "vsEyebrow": "A diferença",
+    "vsTitle": "Standard da Indústria vs. K Aqua digital.",
+    "vsBadTitle": "Como o sector o faz",
+    "vsGoodTitle": "Como a K Aqua o faz",
+    "vsBad": [
+      "Catálogos em PDF de 220 páginas sem pesquisa",
+      "Certificados apenas por pedido escrito",
+      "Dados técnicos escondidos em desertos de tabelas",
+      "Página de carreiras: uma simples caixa de correio"
+    ],
+    "vsGood": [
+      "Pesquisa de Produtos: filtros em segundos",
+      "Centro de Confiança: Downloads em Self-Service",
+      "Calculadora de CO₂ transforma dados em argumentos",
+      "Calculadora de Benefícios + 'Culture Match'"
+    ],
+    "coEyebrow": "A Empresa",
+    "coTitle1": "Fornecedor de material de construção e fabricante:",
+    "coTitle2": "tudo no mesmo sítio.",
+    "coLead": "A KWT GmbH fabrica tubos e acessórios para abastecimento de água a partir de vários plásticos, posicionando-se assim na cadeia de valor da construção como fornecedor e fabricante ao mesmo tempo.",
+    "kesselTitle": "Forte parceria com a KESSEL",
+    "kesselText": "Temos uma parceria sólida e duradoura com a KESSEL, uma fabricante premium e \"Líder em drenagem\". Transportamos esta experiência de décadas para o futuro.",
+    "kesselCta": "Saiba mais sobre a parceria",
+    "worldTitle": "Comprovado em todo o mundo",
+    "worldText": "Os produtos K Aqua provaram a sua eficácia milhares de vezes ao longo de décadas em projectos por todo o mundo.",
+    "worldCta": "Globo de Referências",
+    "cards": [
+      {
+        "t": "Sistema de Gestão GENAU",
+        "d": "Melhoria contínua da saúde e segurança no trabalho e ambiente, segundo a DIN EN ISO 14001 e 50001."
+      },
+      {
+        "t": "Fabricado na Alemanha",
+        "d": "Desenvolvimento e produção em Waldsolms: equilíbrio constante entre qualidade, custo e prazos."
+      },
+      {
+        "t": "Responsabilidade Ecológica",
+        "d": "A conservação de recursos e a sustentabilidade ambiental são parte integral da nossa visão de qualidade."
+      }
+    ],
+    "manifestTitle": "A Nossa Missão",
+    "manifestText": "A água é o nosso recurso mais precioso. Protegemo-la com sistemas de tubagens virados para o futuro.",
+    "grEyebrow": "Alcance Global",
+    "grTitle1": "Rotas",
+    "grTitle2": "Comerciais Internacionais",
+    "grLead": "Da Alemanha para o mundo: os nossos sistemas K Aqua são a espinha dorsal dos mais modernos megaprojectos em todo o planeta. De NEOM na Arábia Saudita às complexas instalações industriais de Singapura.",
+    "grHqLabel": "Sede & Produção",
+    "grHqValue": "Alemanha (Frankfurt)",
+    "grExportLabel": "Principais Mercados de Exportação",
+    "grExportValue": "Arábia Saudita (NEOM), EAU, Qatar, América Latina",
+    "grCta": "Descubra Projectos Mundiais"
+  },
+  "service": {
+    "eyebrow": "Serviço",
+    "title1": "Apoio ao Cliente &",
+    "titleGrad": "Know-how.",
+    "lead": "O nosso serviço de apoio e know-how oferece documentação técnica para download e vídeos passo-a-passo para todos os processos de soldadura.",
+    "dlEyebrow": "Downloads",
+    "dlTitle": "Documentação Técnica",
+    "downloads": [
+      {
+        "t": "Gama de Produtos K Aqua",
+        "s": "Catálogo completo com dimensões e artigos"
+      },
+      {
+        "t": "Propriedades dos Produtos K Aqua",
+        "s": "Características técnicas e dados de material"
+      },
+      {
+        "t": "Garantia de Qualidade K Aqua",
+        "s": "Métodos de teste e normas de qualidade"
+      }
+    ],
+    "vidEyebrow": "Instalação",
+    "vidTitle": "Processos de Soldadura em Vídeo",
+    "vidLead": "Quatro métodos, quatro vídeos, directamente da prática.",
+    "videos": [
+      {
+        "t": "Soldadura de termofusão manual",
+        "s": "Tubo e Acessório PP-R/PPRCT"
+      },
+      {
+        "t": "Soldadura de termofusão com máquina",
+        "s": "Soldadura de encaixe PP-R"
+      },
+      {
+        "t": "Electrofusão",
+        "s": "Tubo e Acessório PP-R/PPRCT"
+      },
+      {
+        "t": "Soldadura topo a topo (Butt Fusion)",
+        "s": "Grandes dimensões PP-R/PPRCT"
+      }
+    ]
+  },
+  "about": {
+    "intro": {
+      "title1": "NÃO APENAS TRANSPORTAMOS ÁGUA.",
+      "title2": "NÓS CONTROLA-MO-LA.",
+      "desc": "Há mais de 30 anos que fabricamos sistemas de tubagens construídos para durar uma eternidade. Sem margem para erros. Sem espaço para a mediocridade. Apenas pura, implacável precisão que se manifesta em cada acessório individual."
+    },
+    "material": {
+      "eyebrow": "Ciência dos Materiais",
+      "title1": "Copolímero Aleatório de Polipropileno.",
+      "title2": "Libertado.",
+      "p1": "O PP-R Tipo 3 não é apenas um plástico. É um material termoplástico altamente complexo que dominamos a nível molecular.",
+      "p2": "Através do arranjo estratégico de monómeros de etileno na cadeia de propileno, alcançamos uma resistência inigualável ao impacto, mesmo em temperaturas negativas. Os nossos granulados provêm exclusivamente da elite global de produtores de matéria-prima. Analisamos cada lote através de testes de Calorimetria de Varrimento Diferencial (DSC) e Índice de Fluidez (MFR). O que falha as nossas especificações, nem que seja por um milésimo, é impiedosamente eliminado.",
+      "items": [
+        {
+          "title": "Massa Molar Extrema",
+          "desc": "Garante máxima resistência ao envelhecimento térmico e total resistência à fissuração por tensão sob pressões extremas."
+        },
+        {
+          "title": "Optimização Cristalina",
+          "desc": "O equilíbrio termodinâmico perfeito. Máxima flexibilidade para condições de instalação radicais, com simultânea rigidez axial."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "A Evolução da Perfeição",
+      "desc": "Uma ascensão imparável para a dominação global do mercado. Cada década, um marco de superioridade tecnológica.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "A Origem da Tolerância Zero",
+          "text": "Onde outros faziam compromissos, nós traçamos uma linha vermelha. A fundação da K Aqua baseou-se num único princípio inabalável: Sistemas de tubagens impecáveis. As nossas primeiras extrusoras funcionaram com uma precisão que chocou o mercado."
+        },
+        {
+          "year": "2005",
+          "title": "A Revolução do Polipropileno",
+          "text": "Recusámo-nos a aceitar o status quo. Com a introdução da nossa mistura proprietária de PP-R, redefinimos a estabilidade térmica. Enquanto os produtos concorrentes colapsavam sob pressão, os nossos sistemas permaneciam estoicamente intactos. Um triunfo da química dos polímeros."
+        },
+        {
+          "year": "2015",
+          "title": "A Simbiose Arquitectónica",
+          "text": "Dos horizontes do Dubai às instalações industriais no Ruhr: a K Aqua tornou-se sinónimo de infraestrutura indestrutível. Os nossos tubos compostos de PPRCT e fibra revolucionaram a construção civil. Menos expansão, mais fluxo, dominação absoluta."
+        },
+        {
+          "year": "2026",
+          "title": "A Ditadura Molecular",
+          "text": "Hoje, controlamos cada aspecto da produção. Desde a selecção dos granulados brutos até à inspecção final, os nossos sistemas estão sujeitos a um regime de qualidade ditatorial. O resultado? Uma vida útil garantida que dura gerações."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "A FÍSICA CONQUISTADA",
+      "title": "Os Quatro Pilares do Poder.",
+      "lead": "Tecnologia que roça a magia. Não superamos apenas as limitações dos sistemas convencionais de tubos, nós pulverizamo-las.",
+      "items": [
+        {
+          "title": "Absolutismo na Qualidade",
+          "desc": "Cada milímetro dos nossos sistemas PP-R e PPRCT passa por testes de carga brutais. 50 anos de vida útil não são uma promessa, são uma certeza matemática. Toleramos zero desvios. O que sai das nossas instalações é perfeição em forma de polímero."
+        },
+        {
+          "title": "Invulnerabilidade Térmica",
+          "desc": "Os nossos tubos compostos por fibra (K Aqua Faser) neutralizam a dilatação térmica quase na totalidade. Seja a gelados -20°C ou a escaldantes +95°C, os nossos sistemas mantêm-se absolutamente estáveis. Uma obra-prima da engenharia que parece desafiar as leis da física."
+        },
+        {
+          "title": "Resistência Química",
+          "desc": "Corrosão não existe no nosso vocabulário. Os nossos polímeros são imunes aos fluidos mais agressivos, à incrustação e à decomposição biológica. Enquanto os metais na terra enferrujam e apodrecem, a K Aqua permanece intocada: estóica, monolítica, indestrutível."
+        },
+        {
+          "title": "Fusão Molecular",
+          "desc": "Através do nosso processo de soldadura homogénea, tubo e acessório fundem-se a nível molecular numa unidade inseparável. Sem juntas que possam ceder. Sem pontos mecânicos fracos. Uma estrutura monolítica que dura para sempre."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "DOMINAÇÃO INDUSTRIAL",
+      "title": "Infraestrutura com Esteróides.",
+      "lead": "Não fazemos apenas tubos. Nós criamos as artérias da civilização moderna. A K Aqua é a espinha dorsal de megaprojectos industriais e arquitectónicos em todo o mundo.",
+      "items": [
+        {
+          "title": "Extrusão Brutal",
+          "desc": "Linhas de alta performance que operam sob pressão brutal. O resultado é uma consistência insuperável da espessura da parede até ao nível micrométrico."
+        },
+        {
+          "title": "Superioridade Comprovada",
+          "desc": "ISO 9001, 14001, 50001. Não ultrapassamos apenas as normas, nós ditamo-las. Acreditação internacional como standard absoluto."
+        },
+        {
+          "title": "Ditadura da Higiene",
+          "desc": "Seguro para contacto com alimentos, toxicologicamente inofensivo e absolutamente resistente a germes. A água potável mantém-se intocada nos sistemas K Aqua. Sem excepções."
+        },
+        {
+          "title": "Eficiência de Recursos",
+          "desc": "Totalmente reciclável. Pegada de CO2 mínima durante a produção. Porque o verdadeiro poder tecnológico também significa responsabilidade para com o futuro."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Política Corporativa",
+      "title": "A Base das nossas Acções.",
+      "desc": "Tecnologia por si só não basta. A verdadeira grandeza manifesta-se na forma como uma empresa interage com o seu ambiente, os seus colaboradores e os seus parceiros.",
+      "items": [
+        {
+          "title": "Obsessão pelo Cliente",
+          "desc": "Não servimos apenas os mercados, dominamo-los através de um foco radical no cliente. Os seus requisitos são ordens para nós. As nossas soluções são precisas, escaláveis e absolutamente inflexíveis na sua execução."
+        },
+        {
+          "title": "Alianças Estratégicas",
+          "desc": "Não procuramos fornecedores, formamos alianças estratégicas com os melhores produtores mundiais de matéria-prima. Investigação conjunta, padrões de qualidade conjuntos, domínio conjunto."
+        },
+        {
+          "title": "Imperativo Ecológico",
+          "desc": "Na K Aqua, sustentabilidade não é um slogan de marketing, mas um imperativo físico. A durabilidade é a derradeira protecção ambiental. Os nossos sistemas minimizam a pegada energética, desde a produção até à reciclagem."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Qualidade Comprovada",
+      "title1": "O Sistema de Gestão ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "O objectivo do sistema de gestão GENAU é a melhoria contínua da saúde, segurança e protecção ambiental na empresa.",
+      "p2": "Todas as actividades empresariais na KWT são realizadas tendo em consideração a conservação de recursos, a compatibilidade ambiental e o estrito cumprimento de todas as obrigações. O sistema de gestão GENAU em vigor cumpre os elevados requisitos da ",
+      "p3": " e ",
+      "list1Title": "Responsabilidade Ecológica",
+      "list1Desc": "A protecção ambiental faz parte da nossa compreensão de qualidade, à qual todos os colaboradores da KWT GmbH se comprometem.",
+      "list2Title": "Eficiência Energética",
+      "list2Desc": "Identificação direccionada de riscos e implementação de medidas para optimizar a eficiência energética."
+    }
+  },
+  "news": {
+    "eyebrow": "Notícias e Eventos",
+    "title1": "Actualizações da",
+    "titleGrad": "K Aqua.",
+    "date": "Outubro 2025",
+    "h2": "Temos tripla certificação ISO",
+    "p": "O nosso sistema de gestão ISO foi expandido e inclui agora gestão da qualidade, ambiental e de energia:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Sistema de Gestão da Qualidade"
+      ],
+      [
+        "ISO 14001:2015",
+        "Sistema de Gestão Ambiental"
+      ],
+      [
+        "ISO 50001:2018",
+        "Sistema de Gestão de Energia"
+      ]
+    ],
+    "btnDe": "Certificado (DE)",
+    "btnEn": "Certificado (EN)",
+    "eventsTitle": "Feiras & Eventos",
+    "eventsText": "Visite a K Aqua nos próximos eventos. De momento, não há datas anunciadas. Volte em breve.",
+    "lead": "Leia as novidades da K Aqua. "
+  },
+  "career": {
+    "eyebrow": "Carreira",
+    "title1": "Carreira na K-Aqua: Mais do que",
+    "titleGrad": "apenas o salário.",
+    "lead": "Calcule quanto rendem os benefícios isentos de impostos no final do mês, e descubra em 60 segundos se a K Aqua é para si.",
+    "benEyebrow": "Optimização do Salário Líquido",
+    "benTitle": "A Calculadora de Benefícios.",
+    "benLead": "Os extras isentos ou com taxa fixa de imposto têm muitas vezes um impacto maior do que um aumento bruto. Crie o seu pacote:",
+    "benefits": {
+      "sachbezug": [
+        "Cartão de Benefícios em Espécie",
+        "Benefício em espécie isento de impostos, mensal na conta do cartão."
+      ],
+      "lunch": [
+        "Subsídio de Alimentação",
+        "Senhas de refeição digitais para o almoço e supermercado."
+      ],
+      "internet": [
+        "Subsídio de Internet",
+        "Apoio financeiro para o uso de internet privada."
+      ],
+      "jobrad": [
+        "Leasing de Bicicleta",
+        "Bicicleta de sonho por dedução salarial, poupança vs. compra privada."
+      ],
+      "kita": [
+        "Subsídio de Infantário",
+        "Apoio financeiro isento de impostos para cuidados infantis."
+      ],
+      "vwl": [
+        "Benefícios de Acumulação de Capital",
+        "Contribuição mensal de poupança pelo empregador."
+      ]
+    },
+    "resultLabel": "Líquido adicional por mês",
+    "resultNote1": "Isso corresponde a cerca de um",
+    "resultNote2": "aumento bruto de ~{n} €",
+    "resultNote3": "sem deduções.",
+    "resultNote4": "(Valor indicativo, dependendo do escalão de IRS.)",
+    "apply": "Candidatar-se agora",
+    "call": "Ou ligar para: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Avaliador de Perfil ('Culture Matcher')",
+    "cmTitle": "A K Aqua é a empresa certa para si?",
+    "cmIntro": "Cinco perguntas honestas sobre a forma como trabalhamos e a rotina diária na produção. Não é um teste de personalidade, é um choque de realidade.",
+    "cmStart": "Iniciar teste",
+    "qLabel": "Pergunta",
+    "cmQ": [
+      {
+        "q": "Como prefere trabalhar?",
+        "o": [
+          "Processos claros, equipa bem sintonizada",
+          "Experimentar algo novo todos os dias"
+        ]
+      },
+      {
+        "q": "A produção em grande escala está a decorrer. Uma máquina reporta um desvio.",
+        "o": [
+          "Verificar imediatamente, encontrar a causa",
+          "Deixar continuar e ver no que dá"
+        ]
+      },
+      {
+        "q": "O que o(a) motiva mais?",
+        "o": [
+          "Um produto que dure 50 anos",
+          "Resultados rápidos e visíveis"
+        ]
+      },
+      {
+        "q": "O trabalho por turnos para si é...",
+        "o": [
+          "Planeável e aceitável",
+          "Bastante complicado"
+        ]
+      },
+      {
+        "q": "A sua relação com a tecnologia?",
+        "o": [
+          "Gosto de perceber como as coisas funcionam",
+          "O que interessa é que funcione"
+        ]
+      }
+    ],
+    "resHigh": "Excelente compatibilidade. Precisão, fiabilidade e compreensão técnica: exactamente o nosso perfil.",
+    "resMid": "Boa compatibilidade, mas há temas a falar. O melhor é ligar-nos directamente e clarificarmos a rotina diária.",
+    "resLow": "Resultado sincero: A rotina de produção da K Aqua não parece ser o seu ambiente ideal. Vendas ou Administração talvez se adequem melhor.",
+    "sendApp": "Enviar candidatura",
+    "again": "Repetir"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title1": "Vamos falar sobre o seu",
+    "titleGrad": "projecto.",
+    "locTitle": "Sede na Alemanha",
+    "salesTitle": "Vendas",
+    "supportTitle": "Qualidade e Suporte Técnico",
+    "supportText": "Vamos falar sobre o seu projecto. A nossa equipa de apoio ajuda com questões técnicas sobre planeamento, material e processamento."
+  },
+  "imprint": {
+    "eyebrow": "Avisos Legais",
+    "title": "Ficha Técnica",
+    "rows": [
+      [
+        "Empresa",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Direcção",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Tribunal de Registo",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Sede",
+        "Waldsolms"
+      ],
+      [
+        "NIPC / IVA",
+        "DE 296238486"
+      ],
+      [
+        "Telefone / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "E-Mail",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Pesquisa de Produtos",
+    "title1": "Sem mar de PDFs.",
+    "titleGrad": "Dados imediatos.",
+    "lead": "Em vez de catálogos de 220 páginas: filtre o sistema PP-R/PPRCT inteiro de forma interactiva. Dimensão, classe de pressão, espessura – tudo ao vivo.",
+    "type": "Tipo de Produto",
+    "types": {
+      "mono": "PP-R Monocamada",
+      "fiber": "PPRCT Fibras Composto (GF)",
+      "fitting": "Acessórios"
+    },
+    "sdr": "Classe de Pressão (SDR)",
+    "maxD": "Diâmetro exterior máx.",
+    "upTo": "até",
+    "maxDAria": "Diâmetro exterior máximo em milímetros",
+    "found": "Variantes de artigo encontradas. Cada uma com espessura de parede, diâmetro interior e pressão nominal na hora.",
+    "catalog": "Catálogo (PDF)",
+    "tableHead": [
+      "Tipo",
+      "d (mm)",
+      "SDR",
+      "Espessura (mm)",
+      "di (mm)",
+      "Pressão Nominal"
+    ],
+    "more": "+ {n} outras. Refine os filtros para a lista completa.",
+    "none": "Nenhum resultado. Afrouxe os filtros.",
+    "nextEyebrow": "Pensar Mais Longe",
+    "nextTitle": "Quão ecológico é o seu plano?",
+    "nextLead": "Transfira a dimensão e o comprimento directamente para a calculadora de CO₂ e compare com o cobre, o aço inoxidável e o PVC.",
+    "nextCta": "Para a Calculadora de CO₂"
+  },
+  "co2": {
+    "guideText": "<h2>Sustentabilidade e ACV (Avaliação do Ciclo de Vida)</h2><p>A escolha do sistema de tubagens correcto tem um impacto significativo na pegada de CO2 de um edifício ou instalação industrial. A Calculadora de CO2 da K-Aqua possibilita uma Avaliação do Ciclo de Vida (ACV) completa, conforme a norma EN 15804. Esta análise cobre todo o ciclo: extracção de matérias-primas e produção (Fases A1-A3), transporte e instalação (Fases A4-A5), utilização (Fase B) e fim-de-vida (Fase C).</p><p>Quando comparados com tubos convencionais de metal, como cobre ou aço, os tubos PP-R e PPRCT da K-Aqua revelam um balanço ecológico muito mais positivo. A energia mais baixa consumida na extrusão do plástico e o peso incrivelmente inferior cortam massivamente as emissões de CO2 na produção e transporte. E a superfície interna suave que se assemelha a um espelho (rugosidade de 0,007 mm) garante uma resistência mínima ao fluxo. Pela equação de Darcy-Weisbach, as bombas de circulação requerem muito menos energia eléctrica para transportar água ao longo da rede.</p><p>No período de utilização (Fase B), que habitualmente excede os 50 anos nestes sistemas, essa modesta poupança energética resulta num ganho gigantesco de CO2 e custos (Custo Total de Propriedade, TCO). Mesmo no final do ciclo (Fase C), o polipropileno traz dividendos ambientais pois é 100% reciclável, podendo voltar ao circuito (Módulo D). Utilize a calculadora para prever as economias ecológicas e orçamentais da obra da K-Aqua de forma escrupulosamente precisa.</p>",
+    "eyebrow": "Ferramenta Premium de Engenharia",
+    "title1": "Simulador de ACV & TCO",
+    "titleGrad": "Pro",
+    "lead": "Calcule os reais impactos ambientais e económicos do seu sistema de tubagem em todo o seu ciclo. Com modelos autênticos de fluxo físico (Darcy-Weisbach) e fases ACV ajustadas à EN.",
+    "tabGeometry": "Tubo",
+    "tabFlow": "Fluido",
+    "tabEnvironment": "Montagem",
+    "tabLogistics": "ACV",
+    "dia": "Diâmetro Nominal",
+    "length": "Comprimento da linha",
+    "sdrClass": "Classe SDR",
+    "velocity": "Velocidade de fluxo (v)",
+    "velocityDesc": "Afeta de forma drástica as perdas de pressão e o custo das bombas (B).",
+    "fluidTemp": "Temperatura do Fluido",
+    "ambientTemp": "Temperatura Ambiente",
+    "insulation": "Isolamento",
+    "insulationNone": "Nenhum",
+    "insulationBasic": "Básico",
+    "insulationStandard": "Standard GEG/EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Tipo de Montagem (A5)",
+    "installBuilding": "Interior do Edifício",
+    "installTrench": "Trincheira (Escavadora)",
+    "installTrenchless": "Sem Trincheira (HDD)",
+    "installDesc": "O movimento de terras causa altas emissões de CO2 (Gasóleo).",
+    "lifespan": "Tempo de Vida (Anos)",
+    "lifespanDesc": "Sistemas frágeis (como aço carbono) podem obrigar a substituições múltiplas.",
+    "energyMixLabel": "Mix de Energia Eléctrica (Operação & Produção)",
+    "transportKm": "Distância de Transporte (km)",
+    "co2Savings": "Poupança de CO₂ em ACV",
+    "co2SavingsDesc": "Face à alternativa menos eficiente (inc. as bombas). Equivale a aprox. {n} árvores.",
+    "costSavings": "Poupança de Custos TCO (NPV)",
+    "costSavingsDesc": "Poupança para {n} anos (inclui operação e custos líquidos NPV).",
+    "lcaPhases": "Fases de ACV (EN 15804)",
+    "phaseA13": "A1-A3 (Matéria-prima)",
+    "phaseA45": "A4-A5 (Montagem/Transporte)",
+    "phaseB": "B (Uso/Energia)",
+    "phaseC": "C (Fim da Vida)",
+    "moduleD": "Módulo D:",
+    "costAnalysis": "Custo Total de Propriedade (NPV, {n} anos)",
+    "costMaterial": "Material",
+    "costInstall": "Instalação",
+    "costOperation": "Energia (NPV)",
+    "costMaintenance": "Manutenção",
+    "costTotal": "Global",
+    "certTitle": "Relatório Certificado ACV & TCO.",
+    "certDesc": "Integra resistências de Darcy-Weisbach e ciclos definidos por EPD.",
+    "certBtn": "Criar Relatório em PDF",
+    "generating": "A gerar...",
+    "energyGreen": "Energia Verde",
+    "energyDe": "Mix-DE",
+    "energyEu": "Mix-EU",
+    "energyGlobal": "Mix Global",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Cobre",
+      "steel": "Aço Inoxidável / Aço C",
+      "pex": "Compósito Multicamadas (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Ferro Fundido"
+    },
+    "project": "O seu projecto",
+    "advanced": "Parâmetros Avançados de ACV",
+    "tempMode": "Temperatura de operação",
+    "tempCold": "Água fria (10°C)",
+    "tempHot": "Água quente (60°C)",
+    "recycle": "Ativar crédito de Fim de Vida por reciclagem",
+    "disclaimer": "Os cálculos advêm de EPDs validados do Tipo III (EN 15804) e base de dados Ecoinvent (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "Poupança de CO₂e vs. alternativa",
+    "savedBody1": "Equivalente à captação de CO₂ de",
+    "trees": "{n} árvores",
+    "or": "ou",
+    "carKm": "{n} km percorridos",
+    "compareTitle": "Avaliação do Ciclo de Vida (ACV)",
+    "phases": {
+      "a13": "Produção (A1-A3)",
+      "a4": "Transporte (A4)",
+      "b": "Operação/Térmica (B)",
+      "c": "Fim da Vida Útil (C)"
+    },
+    "auditor": "Área de Auditoria:",
+    "auditorBody": "Ficheiros EPD, certificados ISO e textos técnicos prontos num só pacote, no",
+    "trustLink": "Centro de Confiança",
+    "downloadPdf": "Baixar PDF de Relatório",
+    "lcaLogistics": "Parâmetros de ACV & Logística",
+    "energyMix": "Mix de Energia de Produção",
+    "transportMode": "Modo de Transporte",
+    "transportTruck": "Camião",
+    "transportShip": "Navio",
+    "transportAir": "Carga Aérea",
+    "phaseProduction": "Produção",
+    "phaseTransport": "Transporte",
+    "phaseOperation": "Operação",
+    "phaseEol": "Fim de Vida Útil"
+  },
+  "trustAndCases": {
+    "eyebrow": "Segurança Certificada",
+    "title": "Qualidade Comprovada & Áreas de Aplicação",
+    "lead": "Como fabricante sediado na Alemanha, garantimos os mais altos padrões. Os nossos sistemas de tubagens são utilizados em infraestruturas críticas a nível mundial.",
+    "trustTitle": "Certificado & Testado",
+    "iso9001": "Gestão da Qualidade",
+    "iso14001": "Gestão Ambiental",
+    "iso50001": "Gestão de Energia",
+    "madeInGermany": "Made in Germany",
+    "case1Title": "Abastecimento de Água Municipal",
+    "case1Desc": "Renovação de redes de água potável. Utilização de tubos PPR sem corrosão para máxima segurança de abastecimento com manutenção mínima.",
+    "case2Title": "Sistemas de Arrefecimento Industrial",
+    "case2Desc": "Instalação de tubagens de grande diâmetro na indústria pesada. Elevada resistência à pressão e química garantem um funcionamento sem falhas.",
+    "case3Title": "Infraestrutura & Engenharia Civil",
+    "case3Desc": "Megaprojectos com requisitos extremos de durabilidade (SDR 11/17). Instalação rápida e 100% de reciclabilidade no fim da vida útil."
+  },
+  "trust": {
+    "eyebrow": "Centro de Confiança",
+    "title1": "A confiança é",
+    "titleGrad": "mensurável.",
+    "lead": "A confiança é mensurável. Certificados, estrutura GENAU e documentos de auditoria, disponíveis em self-service. Sem esperar dias por envio manual.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Gestão da Qualidade"
+      ],
+      [
+        "ISO 14001:2015",
+        "Gestão Ambiental"
+      ],
+      [
+        "ISO 50001:2018",
+        "Gestão de Energia"
+      ]
+    ],
+    "accred": "Acreditado pela DAkkS",
+    "certNo": "Nº de Certificado",
+    "valid": "Válido",
+    "download": "Download",
+    "genauEyebrow": "Estrutura GENAU",
+    "genauTitle": "Cinco letras. Um sistema.",
+    "genauLead": "O sistema de gestão GENAU está ancorado na House of KWT. Clique nas cinco secções.",
+    "genau": [
+      [
+        "Saúde",
+        "Segurança e saúde no trabalho com avaliação contínua de riscos. Cada colaborador tem a obrigação de reportar os riscos ativamente."
+      ],
+      [
+        "Energia",
+        "Optimização da eficiência energética segundo a ISO 50001, desde a extrusora até ao circuito fechado de água de arrefecimento."
+      ],
+      [
+        "Sustentabilidade",
+        "100% dos resíduos de corte e de produção regressam ao ciclo de reciclagem."
+      ],
+      [
+        "Segurança no Trabalho",
+        "Prevenção e avaliação de riscos como prática diária, não como um exercício anual obrigatório."
+      ],
+      [
+        "Ambiente",
+        "Gestão ambiental segundo a ISO 14001: A conservação de recursos é parte da nossa definição de qualidade."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "O seu pacote de documentos RFP.",
+    "rfpLead": "Compile o seu próprio pacote de auditoria e concurso, em vez de esperar dias pelo envio manual.",
+    "docs": [
+      "Certificado ISO 9001:2015 (DE/EN)",
+      "Certificado ISO 14001:2015 (DE/EN)",
+      "Certificado ISO 50001:2018 (DE/EN)",
+      "Política GENAU & Avaliação de Riscos",
+      "Conformidade de Água Potável (DVGW/KTW)",
+      "Fichas de dados EPD (Tipo III, EN 15804)",
+      "Textos de Concurso GAEB",
+      "Manual de Garantia de Qualidade"
+    ],
+    "inPackage": "Documentos no pacote.",
+    "pickLeft": "Selecione à esquerda.",
+    "requestZip": "Solicitar como ZIP com um clique:",
+    "requestBtn": "Solicitar Pacote",
+    "mailSubject": "Pacote de documentos RFP",
+    "mailBody": "Por favor envie-me os seguintes documentos:",
+    "scope3": "Dados de emissões de Âmbito 3 e dados brutos de EPD a pedido: transparência proactiva em vez do mero cumprimento de deveres."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "A página solicitada não existe ou foi movida.",
+    "backHome": "Voltar à página inicial"
+  },
+  "homedeep": {
+    "plantEyebrow": "Da fábrica de Waldsolms",
+    "plantTitle": "Precisão que se pode medir.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/Dia",
+        "l": "Produção de tubo por linha de extrusão: capacidade para megaprojectos"
+      },
+      {
+        "n": "0,007",
+        "u": "mm",
+        "l": "Rugosidade interna da superfície do tubo: mínima perda de pressão, quase nulo biofilme"
+      },
+      {
+        "n": "50",
+        "u": "Anos",
+        "l": "Horizonte de planeamento pelas curvas de rotura por fluência DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "Sistema GENAU",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Certificados e documentos de auditoria em self service no Centro de Confiança.",
+    "badgeCta": "Para o Centro de Confiança"
+  },
+  "navigation": {
+    "cookieTitle": "Usamos cookies",
+    "cookieDesc": "Usamos cookies para melhorar a sua experiência de navegação, exibir anúncios ou conteúdos personalizados e analisar o nosso tráfego. Ao clicar em \"Aceitar Todos\", concorda com a nossa utilização de cookies.",
+    "cookieAccept": "Aceitar Todos",
+    "cookieDecline": "Rejeitar Excepto Essenciais"
+  },
+  "cookieConsent": {
+    "title": "Definições de Privacidade & Cookies",
+    "description": "Usamos cookies e tecnologias similares (como píxeis e Local Storage) para lhe oferecer a melhor experiência na nossa plataforma. Alguns são estritamente necessários, enquanto outros nos ajudam a melhorar o site. Você tem controlo total a qualquer altura.",
+    "customize": "Ajustar Definições",
+    "declineAll": "Apenas Essenciais",
+    "acceptAll": "Aceitar Todos",
+    "acceptSelected": "Guardar Selecção",
+    "essentialTitle": "Essencial (Tecnicamente necessário)",
+    "essentialDesc": "Estes cookies são necessários para o bom funcionamento do site (ex. navegação, segurança, gravar opções de privacidade). Sem estas tecnologias, a K Aqua não funciona correctamente. Não guardam informações de identificação pessoal.",
+    "analyticsTitle": "Estatísticas & Análise",
+    "analyticsDesc": "Ajudam-nos a compreender o comportamento dos visitantes. Recolhemos dados anonimizados de como os utilizadores interagem (ex. páginas mais visitadas, tempo, erros). Isso permite-nos corrigir falhas e melhorar a plataforma.",
+    "marketingTitle": "Marketing & Personalização",
+    "marketingDesc": "Usamos estas tecnologias para lhe mostrar conteúdos e anúncios mais relevantes (também em plataformas externas). Se desactivar, continuará a ver anúncios, mas menos adaptados aos seus interesses.",
+    "vendorListTitle": "Ver lista detalhada de cookies",
+    "backToSimple": "Voltar ao Resumo"
+  },
+    "onionAria": "Modelo em camadas da parceria",
+    "rings": [
+      {
+        "l": "Marca Central",
+        "t": "KESSEL: Líder em Drenagem",
+        "d": "Fabricante premium de tecnologia de drenagem. As feiras mundiais de referência como a ISH, o Portal do Planeador e o Fórum do Cliente fazem da KESSEL a autoridade no sector de AVAC."
+      },
+      {
+        "l": "Sistema",
+        "t": "K Aqua: líder no abastecimento de água",
+        "d": "A vertente de abastecimento do mesmo ADN de engenharia: sistema completo de PP-R/PPRCT d20–d630, fabricado na Alemanha. Drenagem e abastecimento vindos de uma mesma comunidade de valores."
+      },
+      {
+        "l": "Serviço",
+        "t": "Ecossistema partilhado",
+        "d": "Os projectistas beneficiam a dobrar: formações, apoio técnico em soldadura e ferramentas digitais de planeamento, evoluindo até ao configurador paramétrico de redes de tubagem."
+      }
+    ],
+    "whyEyebrow": "Porquê PP-R/PPRCT",
+    "whyTitle": "A espinha dorsal da nossa promessa de produto.",
+    "cards": [
+      {
+        "t": "Total ausência de corrosão",
+        "d": "Imune à corrosão electroquímica: sem corrosão por picadas (pitting) ou rupturas de tubos, como ocorre no cobre ou no aço galvanizado."
+      },
+      {
+        "t": "Eficiência térmica",
+        "d": "Perda de calor mínima na circulação de água quente: poupança directa de energia durante décadas."
+      },
+      {
+        "t": "Neutralidade higiénica",
+        "d": "Inodoro e insípido; a superfície interior extremamente lisa impede a formação de biofilmes e incrustações."
+      }
+    ]
+  },
+  "academy": {
+    "schulungen": {
+      "meta": {
+        "title": "Formações | K Aqua",
+        "desc": "Formações K Aqua: Segurança inflexível através da Engenharia Alemã para megaprojectos globais. Participe nas nossas formações especializadas."
+      },
+      "hero": {
+        "eyebrow": "ACADEMIA DE ENGENHARIA ALEMÃ",
+        "title1": "Exame da",
+        "title2": "Elite Industrial.",
+        "desc": "O programa de formação K Aqua não é uma qualificação comum. É a iniciação no mundo implacável da engenharia de tubagens alemã. Para engenheiros e técnicos responsáveis por megaprojectos onde a falha do material não é uma opção, mas sim uma catástrofe absoluta. Ensinamos em micrómetros, pensamos em décadas.",
+        "cta1": "Iniciar Candidatura à Academia",
+        "cta2": "Ver Currículo"
+      },
+      "manifesto": {
+        "title1": "A precisão",
+        "title2": "<span className=\"text-primary\">não é</span>",
+        "title3": "um acaso.",
+        "p1": "Ela é o resultado de uma metodologia implacável e de uma disciplina industrial fria. Quando milhares de metros cúbicos de água são bombeados sob enorme pressão através das linhas de vida de um arranha-céus de 100 andares, não há margem para aproximações ou interpretações.",
+        "p2": "O programa de formação da K Aqua foi desenvolvido para colmatar a lacuna entre o conhecimento teórico e a perfeição automatizada sem falhas. Quem é treinado na nossa academia, deixa de agir como um mero operário. Torna-se no órgão executivo de um sistema perfeito e determinista."
+      },
+      "bento": {
+        "eyebrow": "OS PILARES DA AUTORIDADE",
+        "title": "O conhecimento como arma absoluta.",
+        "lead": "Os nossos módulos de formação técnica não foram concebidos para facilitar a sua vida. Foram desenhados para erradicar falhas impiedosamente.",
+        "items": [
+          {
+            "title": "Fusão Homogénea de Materiais",
+            "desc": "Para além das colagens ou juntas mecânicas instáveis. Treinamos a calibração exacta da temperatura, pressão e tempo para fundir tubos e acessórios a nível molecular, criando uma estrutura monolítica e inseparável."
+          },
+          {
+            "title": "Análise Destrutiva",
+            "desc": "Para compreender os limites, é necessário ultrapassá-los. Módulos práticos nas nossas bancadas de testes de alta pressão com pressões de ruptura muito superiores a 100 Bar. Analisamos a falha para a excluir da prática."
+          },
+          {
+            "title": "Expansão Térmica Linear",
+            "desc": "Compensação calculada a frio de flutuações de temperatura em grandes projectos através de curvas de expansão e sistemas de pontos fixos calculados com precisão."
+          },
+          {
+            "title": "Fluidos Agressivos & Estabilidade de pH",
+            "desc": "Análise profunda da resiliência a químicos industriais altamente concentrados. A academia transmite conhecimentos profundos sobre fadiga de material sob stress químico contínuo e desvios radicais de pH."
+          }
+        ]
+      },
+      "typography": {
+        "t1": "TOLERÂNCIA",
+        "t2": "ZERO ERROS."
+      },
+      "curriculum": {
+        "eyebrow": "O CURRÍCULO",
+        "title": "Intransigência académica.",
+        "lead": "Quatro módulos. Uma doutrina. Cada segmento do nosso currículo visa identificar falhas na execução e eliminá-las de forma sistémica."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Módulo Alfa: Mecânica de Fluidos & Cinética",
+            "desc": "A matemática da água. Desconstruímos os complexos efeitos de cavitação e os cenários de golpes de aríete em variáveis calculáveis. Aprende a não só amortecer os sintomas de choque hidrodinâmico, mas também a eliminá-los de forma sistémica. Para redes de tubagens que funcionam em perfeita e silenciosa sintonia."
+          },
+          {
+            "title": "Módulo Beta: Design Paramétrico de Tubagens",
+            "desc": "O desenho de sistemas de tubagens como disciplina algorítmica. A formação inclui a utilização de ferramentas avançadas CAD/BIM para detecção de colisões e optimização do material. Sem estimativas. Puros e frios cálculos."
+          },
+          {
+            "title": "Módulo Gama: Arquitectura de Higiene & Microbiologia",
+            "desc": "Prevenção de legionela a nível estrutural. Como evitar pernas mortas (dead legs), aniquilar zonas de estagnação e controlar as estratificações de temperatura em complexos sistemas de anel fechado. O sistema dita a pureza, nada deixamos ao acaso."
+          },
+          {
+            "title": "Módulo Delta: A Auditoria K Aqua Final",
+            "desc": "O exame não é um direito, é um privilégio. Exige a construção e defesa teórica de um sistema de abastecimento de água autossuficiente sob condições extremas simuladas (ex. actividade sísmica, 50°C de temperatura exterior). Apenas quem prova ser absolutamente infalível ostentará o certificado K Aqua."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "A via de certificação.",
+        "desc": "A transformação de instalador num Engenheiro Master certificado K Aqua segue um ritmo estrito e inexorável. Só os que percorrem este caminho até ao fim ganham a autorização para os nossos sistemas de alta performance.",
+        "items": [
+          {
+            "year": "FASE 01",
+            "title": "Física dos Materiais & Integração",
+            "text": "A compreensão dos limites físicos. Uma introdução aprofundada às especificações moleculares do material PP-R/PPRCT. É aqui que se forja a base da robustez industrial."
+          },
+          {
+            "year": "FASE 02",
+            "title": "Laboratório & Testes de Carga",
+            "text": "Destruição prática (hands-on). Experienciar o limite de ruptura na bancada de testes e o estudo da formação microscópica de fissuras. Somente quem conhece a fraqueza consegue conceber a força absoluta."
+          },
+          {
+            "year": "FASE 03",
+            "title": "Doutrina de Fusão",
+            "text": "O protocolo de soldadura perfeito. Treino mecânico dos movimentos termodinâmicos até se atingir um automatismo muscular infalível. Cada movimento da mão é calibrado."
+          },
+          {
+            "year": "FASE 04",
+            "title": "Arquitectura de Sistema",
+            "text": "Escalonamento, desde o segmento de tubo simples até à infraestrutura de um arranha-céus. Executamos tabelas de queda de pressão, velocidades de fluxo e divisores de fluxo com lógica férrea."
+          },
+          {
+            "year": "FASE 05",
+            "title": "O Exame Final (Master)",
+            "text": "Uma auditoria de 48 horas sob a supervisão impiedosa de Engenheiros Chefes alemães. Zero tolerância para erros de cálculo. Um erro significa exclusão imediata."
+          }
+        ]
+      },
+      "spec": {
+        "eyebrow": "PADRÃO GLOBAL",
+        "title": "O marco global para a segurança.",
+        "desc": "O nosso exame não é apenas um pedaço de papel. É uma promessa moldada em titânio para promotores e investidores em todo o mundo. Onde o certificado K Aqua é apresentado, a instalação foi realizada segundo os mais rígidos padrões de engenharia alemã.",
+        "items": [
+          {
+            "title": "Validade Internacional",
+            "text": "Reconhecido pelas principais autoridades mundiais da construção e supervisão."
+          },
+          {
+            "title": "Transparência de Auditoria",
+            "text": "Documentação digital, sem falhas, de cada processo de soldadura."
+          },
+          {
+            "title": "Autoridade Vitalícia",
+            "text": "Uma vez obtido, distingue o Engenheiro como membro de uma elite de topo."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "Pronto para o",
+        "title2": "controlo absoluto?",
+        "desc": "Submeta-se aos padrões da engenharia alemã. Envie-nos o seu perfil ou peça as especificações para auditorias internas na sua empresa.",
+        "button": "Iniciar candidatura"
+      }
+    },
+    "zertifizierung": {
+      "meta": {
+        "title": "Certificados & Normas | K Aqua",
+        "desc": "DVGW, SKZ, ISO e muito mais. Descubra a segurança intransigente e a qualidade da Engenharia Alemã dos sistemas de tubagens K Aqua."
+      },
+      "hero": {
+        "eyebrow": "Normas de Engenharia Alemã",
+        "title1": "Certificados.",
+        "title2": "Projectados na Alemanha.",
+        "desc": "Este módulo proporciona segurança intransigente para os projectos mais exigentes em todo o mundo. Produzidos segundo os mais rígidos padrões da indústria para durar gerações. Porque a falha do material nunca é uma opção.",
+        "cta1": "Solicitar Projecto",
+        "cta2": "Manual Técnico"
+      },
+      "manifesto": {
+        "title1": "Um certificado é apenas papel.",
+        "title2": "O processo subjacente é feito de aço.",
+        "p1": "Muitos fabricantes vêm as normas como o objectivo final. Nós vemo-las como o limite mínimo absoluto. As nossas tolerâncias internas são muito mais estritas do que a DVGW, ISO ou SKZ exigem. Quando um tubo K Aqua deixa a nossa fábrica, foi analisado a nível molecular, torturado com pressões extremas e levado ao limite térmico absoluto."
+      },
+      "bento": {
+        "eyebrow": "Os Pilares da Segurança",
+        "title": "O ADN de um sistema de tubagem perfeito.",
+        "lead": "Quando os empreiteiros globais desenham projectos de biliões de dólares, não confiam em promessas de marketing. Eles exigem dados físicos concretos e mensuráveis.",
+        "items": [
+          {
+            "title": "Extrema resistência à pressão",
+            "desc": "Testado para cargas contínuas até PN20/PN25. Os nossos testes de pressão de ruptura comprovam reservas muito além do padrão estabelecido. A ruptura de tubos é coisa do passado."
+          },
+          {
+            "title": "Soberania Térmica",
+            "desc": "Resistência duradoura de -20°C a +95°C. Sem fadiga do material, sem enfraquecimento estrutural, mesmo em situações de choques térmicos extremos."
+          },
+          {
+            "title": "Higiene Absoluta",
+            "desc": "Sem corrosão. Sem incrustações. Compatível com alimentos, toxicologicamente inofensivo e resistente ao crescimento de legionela."
+          },
+          {
+            "title": "Protecção contra Incêndios (B1/B2)",
+            "desc": "Classificado segundo a DIN 4102. Dificilmente inflamável com mínima emissão de fumo para garantir a máxima segurança em infraestruturas críticas."
+          },
+          {
+            "title": "Garantia de Ciclo de Vida",
+            "desc": "Vida útil predefinida de 50 anos segundo a mais rigorosa norma ISO. Contudo, na realidade arquitectónica, é construído para durar gerações."
+          }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "As Entidades",
+        "title": "Os inspectores mais duros do mundo.",
+        "lead": "Apenas aqueles que passam pelas auditorias externas mais rigorosas podem usar a etiqueta 'German Engineering'. Eis as instituições que validam a nossa qualidade.",
+        "items": [
+          {
+            "title": "DVGW: A Autoridade Máxima",
+            "p1": "A Associação Alemã do Gás e Água (DVGW) dita o padrão mais estrito do mundo para a higiene da água potável e para a durabilidade dos materiais.",
+            "p2": "O nosso certificado DVGW atesta que sob as condições mais extremas os sistemas K Aqua não libertam substâncias tóxicas e não permitem proliferação microbiana. Cada lote passa por testes hidrostáticos de longo prazo a 95°C."
+          },
+          {
+            "title": "SKZ: Inspecção Independente",
+            "p1": "O Centro de Plásticos do Sul da Alemanha (SKZ) actua como o nosso auditor incorruptível. Supervisões de terceiros garantem o que os nossos próprios laboratórios declaram.",
+            "p2": "Testamos a resistência ao impacto por entalhe, a força de tensão e o comportamento térmico utilizando a análise DSC. A marca SKZ é a prova de perfeição mecânica, indo bem mais além que a norma DIN EN ISO 15874."
+          },
+          {
+            "title": "KTW-BWGL: Pureza Absoluta",
+            "p1": "O critério de avaliação para plásticos e outros materiais orgânicos que contactam com a água potável (Agência Federal do Ambiente, Alemanha).",
+            "p2": "Utilizamos unicamente polipropileno (PP-R / PPRCT) de elevadíssima pureza sem quaisquer aditivos nefastos ou metais pesados. O resultado? Qualidade de água pura de nascente directo da sua torneira. Sem qualquer impacto no odor ou no sabor."
+          },
+          {
+            "title": "ISO 9001 & 14001: Excelência Sistemática",
+            "p1": "A qualidade não é por mero acaso, trata-se de um processo 100% reproduzível. A certificação ISO 9001 documenta a nossa gestão de qualidade integral desde a chegada da matéria-prima até à entrega nos quatro cantos do mundo.",
+            "p2": "Com a ISO 14001, provamos que o melhor desempenho industrial é indissociável da responsabilidade ambiental. Optimização dos consumos de energia, eficiência de recursos e 100% de reciclabilidade de todos os nossos produtos de PP."
+          }
+        ]
+      },
+      "lab": {
+        "eyebrow": "Dentro do Laboratório",
+        "title1": "A Anatomia",
+        "title2": "da Perfeição.",
+        "desc": "Antes que qualquer sistema K Aqua deixe a nossa fábrica, tem de ultrapassar o nosso centro de testes interno. Trata-se de uma unidade apetrechada onde sujeitamos os materiais a pressões e condições que jamais encontrarão na vida real.",
+        "items": [
+          {
+            "title": "MFR (Índice de Fluidez - Melt Flow Rate)",
+            "desc": "Monitorização do índice de fluidez para assegurar uma viscosidade exacta ao longo da extrusão e nas soldaduras posteriores nas obras."
+          },
+          {
+            "title": "OIT (Tempo de Indução de Oxidação - Oxidation Induction Time)",
+            "desc": "Análise térmica para ajuizar da resistência ao envelhecimento. A prova insofismável de que os nossos agentes estabilizadores protegem o plástico da degradação ao longo das décadas."
+          },
+          {
+            "title": "Teste Hidrostático a Longo Prazo",
+            "desc": "Amostras dos tubos mergulham em banhos aquecidos dedicados, permanecendo a 95°C sob pressões extremas por largos milhares de horas. Sem fissurar. Sem quebrar."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Décadas de Inovação.",
+        "desc": "Os nossos padrões de qualidade não foram forjados do dia para a noite. Eles são a epítome de longas décadas de engenharia mestra e optimização incessante.",
+        "items": [
+          {
+            "year": "1990",
+            "title": "O Nascimento da Norma",
+            "text": "No nosso papel de percursores da extrusão do tubo de plástico, cedo introduzimos protocolos de testes internos que esmagavam as solicitações da época na indústria. Ergueu-se assim o suporte da nossa irrepreensível e rigorosa cultura da qualidade."
+          },
+          {
+            "year": "1995",
+            "title": "Integração ISO 9001",
+            "text": "A auditoria holística da nossa metodologia de gestão de qualidade rumo à certificação ISO 9001. A partir deste ponto, todo o processo de cada matéria-prima, de cada máquina, passou a ser sistematicamente registado e tornou-se integralmente rastreável."
+          },
+          {
+            "year": "2005",
+            "title": "Inspecção SKZ & DVGW",
+            "text": "A ascensão ao panteão exclusivo dos fabricantes com duplo selo DVGW e SKZ. A homologação oficial no plano da higiene intransigente, robustez face à pressão e indestrutível vitalidade nos panoramas de consumo de água potável mais hostis."
+          },
+          {
+            "year": "2015",
+            "title": "Padrões Globais (WRAS, KTW)",
+            "text": "Alargamento de certificações para abranger mais áreas geográficas. Cumprimento escrupuloso das rígidas disposições da UBA (KTW) e WRAS (no Reino Unido). A K Aqua transfigura-se num standard de classe mundial para os megaprojectos à escala global."
+          },
+          {
+            "year": "2024",
+            "title": "Next-Gen Quality Analytics",
+            "text": "Deploy de ensaios OIT (Oxidation Induction Time) e MFR (Melt Flow Rate) sumamente automatizados em nossos laboratórios de altíssima precisão. Inteligência artificial na vanguarda da busca por defeitos da extrusão. Rumo firme a taxas residuais de Zero Erros."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Qualidade em que se confia de olhos fechados.",
+        "desc": "Faça download de todas as nossas certificações regulamentares ou converse de forma imediata com o nosso corpo de engenheiros. Saiba as especificações do seu próximo empreendimento a fundo.",
+        "button1": "Descarregar Certificados",
+        "button2": "Contactar Suporte Técnico"
+      }
+    },
+    "glossar": {
+      "meta": {
+        "title": "Glossário Técnico | K Aqua",
+        "desc": "Glossário K Aqua: Segurança inflexível através de German Engineering para megaprojectos mundiais. Consulte a terminologia da tecnologia de tubos PP-R."
+      },
+      "hero": {
+        "eyebrow": "Glossário Técnico",
+        "title1": "Terminologia da",
+        "title2": "Segurança Absoluta.",
+        "desc": "Bem-vindo(a) ao núcleo semântico da tecnologia da tubagem. Aqui dissecamos e explicamos de fio a pavio o que significa a Engenharia Alemã. Sem adornos publicitários. Apenas dados físicos, avanços em engenharia dos materiais e autoridade cimeira.",
+        "cta1": "Falar com Engenharia",
+        "cta2": "Percorrer Glossário"
+      },
+      "manifesto": {
+        "eyebrow": "A Doutrina",
+        "title": "A Arquitectura do Infalível.",
+        "lead": "Qualquer rede de tubagens funciona como o sistema cardiovascular dos megaprojectos. Sucumbir traduz-se no colapso sistémico daquela artéria industrial. É por essa razão que os termos deste vocabulário não se referem tão só a 'tubos'. São os alicerces indiscutíveis da política de zero anomalias de que nos orgulhamos."
+      },
+      "scroll": {
+        "eyebrow": "Cinemática & Ciências Físicas dos Materiais",
+        "title": "O Procedimento K Aqua.",
+        "lead": "Siga-nos desde a escala dos grânulos moleculares até ao crivo final do teste de compressão. Desvende quais os princípios físicos inquebrantáveis que alicerçam e transformam a nossa tubagem em colossos inquebráveis.",
+        "items": [
+          {
+            "title": "Dinâmica de Extrusão sob Elevada Pressão",
+            "desc": "O amoldamento da nossa resina termoplástica assenta num controlo super estrito de 0,1 °C na temperatura da nossa linha de produção. A homogeneidade microscópica confere de imediato garantias anti stress cracking (rachadura). Mesmo submetidos a altíssimos choques e picos termodinâmicos. Finda a viagem do extrusor, já não o tratamos por mero plástico. Acabamos de produzir o mais robusto monólito a uso industrial."
+          },
+          {
+            "title": "Cargas de Verificação Hidrostática",
+            "desc": "Os testes hidrostáticos e exames internos a que são submetidos operam em parâmetros consideravelmente superiores a tudo quanto se assiste de natural nestes meios. Disparamos a pressão nos tubos de modo a obliterar qualquer norma exterior que tenhamos à vista (na casa dos 100 bar para dadas classes de resistência - SDR). Isto cauciona a inexpugnabilidade de ambas, juntas de soldadura e ligações intermoleculares das condutas, num plano vitalício muito superior a cinquenta anos para infraestruturas do mais alto rigor e exigência."
+          },
+          {
+            "title": "Ferramental da Polifusão",
+            "desc": "Tradicionalmente, tubos interligados expõem sempre brechas faceis à rotura. Graças à técnica de fusão na K Aqua extirpamos as probabilidades desses abismos. Molecular e termicamente fundidos, o acessório e o tubo convertem-se, pela mais natural osmose e ligação inter-atómica num segmento sólido imperturbável. Já não existem nem falências nos vedantes nem fissuras na união por abraçadeiras – o resultado da tubulação assume então uma postura puramente unificada com se houvesse jorrado inteira a partir do único molde."
+          },
+          {
+            "title": "Abaixo o Cavitamento & Super-mecânica das Fluidez",
+            "desc": "Através da sua micro-rugosidade ínfima (< 0,007 mm de calibre liso), K Aqua arrasa e desvanece resistências ao jorro e perdas de bombagem no fluxo ao longo da tubulação de tal modo que dificilmente lhes notará perdas visíveis, dissipando perigos como proliferações por depósito microbiológico de resíduos, sem jamais incorrer a efeitos letais micro-cavitantes e afins (sistemas e esquemas em altas velocidades cinéticas). Fáceis ao extremo no escoamento e transposição hidrodinâmica sem sobregastar motores."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenclatura",
+        "title": "Grelha dos Parâmetros.",
+        "lead": "As expressões basilares do calão dos instaladores das mais grandiosas tubagens destiladas e transpostas diretamente no coração de uma única secção pragmática.",
+        "items": [
+          {
+            "title": "PP-R (Copolímero Aleatório de Polipropileno)",
+            "desc": "Eis o berço microscópico-molecular de todas as tubagens e artefactos K Aqua. O mais puro concentrado em compósito polímero hiper-cristalizado munido de extrema protecção a picos violentos de temperatura/pressões que fundamenta a vitalidade e tempo de vida de todo este portfólio."
+          },
+          {
+            "title": "Elasticidade ou Ligeira Deslocalização Térmica Axial",
+            "desc": "Como os diferentes componentes encurtam as condutas nos trambolhões de calor ou gélidas ondas térmicas. A solução nos modelos por fusão compósitos (incorporados por tubulações Fibra Faser). A mitigação impõe coeficientes do tipo (α = 0,035 mm/mK) resguardando todas e quaisquer frestas, poços mecânicos, veios e infraestrutura cimentada nos veios e estruturas colossais."
+          },
+          {
+            "title": "Cálculo à Durabilidade de Pressões sob Tempos Extremados",
+            "desc": "Qual a bravura que a estrutura mantém e quão incorrupta preserva os fluxos face a violentíssimos impulsos, não soçobrando a perversos dilatamentos, micro-furos nem explosões de corpo. Esta malha é garantida perante um compromisso exímio em 50 longos anos K Aqua."
+          },
+          {
+            "title": "Coeficientes Hidráulicos/Resistivos das Dinâmicas Hidrodinâmicas",
+            "desc": "O somatório numérico pelo calvário e debilitações fluídas dissipando atrito na jornada. Aniquilado sob a forma dum tubo imensamente aveludado onde as superfícies lisas renegam estorvos e abrandam quaisquer choques interiores."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio - Coeficientes e Proporções Regulares ao Dimensional do Tubo)",
+            "desc": "Expressa simplesmente a divisão e respectiva divisão aritmética partilhada: perímetro vs capa expessurada nos exteriores. Ao apostar e instalar um valor da fasquia (ex: SDR 6) vai impor robusteces assombrosamente maiores de que ao embutir SDR 11. Tudo se afina ao calibrar projectos.",
+            "label": "50+ ANOS"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Severidade nas Condutas da Homologação",
+        "desc": "Cingimo-nos a todas estas imposições mundiais e globais como o estalão ou rasto por via das nossas produções exímias; desbastam-se numa grelha ou calendário da superação.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Solo Fundamental & Pilares Base",
+            "text": "Eis os cânones inaugurais no território alemão que não visamos com o fim mas ao invés como meros pontos embrionários do ínfimo degrau (na calibração diária destas métricas K Aqua onde por vez a supressão galga limites no campo da precisão 30% avassaladores aos pedinchos destas imposições normativas de carácter industrial alemães)."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Aval & Selagem Universal ao Longo de Todos os Continentes",
+            "text": "Como dístico central carimbado mundialmente da idoneidade que sanciona polímeros termoplásticos no transbordo ou manobras por fluxos térmicos, seja ao escaldante aquecimento, como do frígido fluxo – este é o epíteto cabal da transversal e indissociável versatilidade total e irrepreensível."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Relação de Dimensão Standardizada das Expessuras nas Tubagens Industriais",
+            "text": "Diz respeito às espessuras calculadíssimas que conferem à largura e anel de corte e as mais estritas pressões do calibre volumétrico; de forma milimétrica são exauridas até se calhar nos exactos traços calibrados a resistir todo a pressão com máxima propulsão num ápice."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Toxinas Inexistentes & Integridade nos Elementos Base",
+            "text": "São estas chancelas puritanas, seladas à mercê dos alimentos intocáveis e ao impenetrável transbordo pautado ao nível mais prístino na gestão da higiene, que conferem na íntegra a desassombração de depósitos tóxicos ao ser servido nas piores instâncias e demandas mais severas higienicamente faladas nos meandros das mais impolutas qualidades."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Imunidade Suprema nas mais Hostis e Degradantes Conjunções.",
+        "p1": "Nas linhas cruciais mais árduas do escoamento diário é que sobressai a estirpe que pauta verdadeiramente uma canalização na superação limítrofe: a erosão pela via das quimicas caóticas, solavancos estrondosos, implosões a quente num segundo de estalo... Estes flagelos constituem todo um tormento natural nos alicerces mais vulgares num projecto frágil na banalidade do quotidiano destas engenharias em plásticos rotos ou ferros apodrecidos.",
+        "p2": "A <span class=\"font-semibold\">K Aqua Matrix</span> contorna tudo disto rechaçando os materiais líquidos corrosivos num exílio por uma via morta ao exterior e repeliendo ionizações danosas. Toda canalização vulgar se corrói desde a primeira injecção de esguicho – sacrificam os seus dias perante a sua servidão de canos enferrujados nas piores decadências do ferro envelhecido; K Aqua em vez disto ergue os tubos sem a miséria e inactividade das paredes devoradas, mantendo imaculado cada interior longínquo nos confins dos seus lares intemporais nas entranhas destes arranha-céus.",
+        "p3": "Ao falarmos nos moldes à <span class=\"font-semibold\">Environmental Stress Cracking Resistance, ESCR - Resistência Absoluta às Deslocações Críticas Derivativas por Clivagens Perigosas</span> entramos no núcleo puro ou coração do polímero. Calibramos no exacto equilíbrio com um copolímero tão resiliente que não retalha nem amordaça, escorraçando os impactos na total abastança flexível (amparando embates fortes e suprimindo fissura nas pancadas dadas num edifício sismicamente em vibrações agressivas e contorcidas que desfigurariam canos fracos).",
+        "p4": "Todos sabem nos trâmites daqueles que percebem de infraestruturas, qual fatal e destrutivo é brincar no fio da navalha poupando misérias aquando se instalam sistemas com as infraestruturas. Trata-se então do selo inquebrável por virtude na Engenharia de raiz alemã ao moldar nos centimétricos limites e ao materializar nas suas fileiras o estrito desígnio por mais colossais desígnios nas produções com mestria exímia que nunca trairá a segurança imposta nestes mandatos."
+      },
+      "cta": {
+        "title1": "Cessou o debate teórico.",
+        "title2": "É o arranque da operação.",
+        "desc": "Confrontem na nossa matriz de soluções as mais inexpugnáveis exigências estruturais. Nós construímos e providenciamos cada desenho de rede industrial sob a fasquia requerida.",
+        "button": "Agendar Diagnóstico Técnico de Engenharia (Briefing)"
+      }
+    },
+    "eyebrow": "K-Aqua Academy",
+    "title1": "Conhecimento que",
+    "titleGrad": "conecta.",
+    "lead": "Quatro técnicas de soldadura em PP-R em vídeo e um questionário que o tornará num Mestre Soldador. Conhecimento que liga as pessoas na K-Aqua Academy. Otimizado para a obra: grandes alvos, alto contraste.",
+    "videos": [
+      {
+        "t": "Soldadura de encaixe manual (Muffenschweißen)",
+        "s": "até d63: Equipamento de soldadura manual"
+      },
+      {
+        "t": "Soldadura de encaixe mecânica",
+        "s": "Dimensões médias"
+      },
+      {
+        "t": "Electro-soldadura (Electrofusion)",
+        "s": "Acessórios eletrossoldáveis"
+      },
+      {
+        "t": "Soldadura topo a topo (Stumpfschweißen)",
+        "s": "Grandes dimensões até d630"
+      }
+    ],
+    "quizEyebrow": "Questionário do Mestre Soldador",
+    "quizTitle": "Cinco perguntas. Um crachá.",
+    "intro": "Teste os seus conhecimentos de processamento de PP-R/PPRCT. Zero erros = Título \"Mestre Soldador\".",
+    "start": "Iniciar Questionário",
+    "qLabel": "Pergunta",
+    "quiz": [
+      {
+        "q": "Qual é a técnica padrão de soldadura para grandes dimensões (ex. d630)?",
+        "o": [
+          "Soldadura de encaixe manual",
+          "Soldadura topo a topo (Butt Fusion)",
+          "Colagem"
+        ]
+      },
+      {
+        "q": "O que significa SDR em sistemas de tubagens?",
+        "o": [
+          "Relação Dimensional Padrão (Standard Dimension Ratio d/s)",
+          "Static Density Rating (Avaliação Estática de Densidade)",
+          "Reserva de Pressão de Segurança"
+        ]
+      },
+      {
+        "q": "O que distingue o PPRCT do clássico PP-R?",
+        "o": [
+          "Preço inferior",
+          "Estrutura cristalina modificada → mais reserva térmica e de pressão",
+          "Reforço metálico"
+        ]
+      },
+      {
+        "q": "Que código de reciclagem tem o Polipropileno?",
+        "o": [
+          "Código 3",
+          "Código 5",
+          "Código 7"
+        ]
+      },
+      {
+        "q": "Na electro-soldadura (electrofusion), de onde provém o calor...",
+        "o": [
+          "de um espelho de aquecimento",
+          "das resistências (filamentos) embutidas no acessório",
+          "de ar quente"
+        ]
+      }
+    ],
+    "resPerfect": "Perfeito! Conquistou o título de \"Mestre Soldador\"!",
+    "resGood": "Sólido! Tem o título de \"Oficial Soldador\". Para o título de Mestre, acerte em todas as cinco.",
+    "resLow": "Os vídeos acima vão ajudar. A seguir vai conseguir tornar-se um Mestre.",
+    "retry": "Tentar Novamente",
+    "titlePerfect": "Mestre Soldador",
+    "titleGood": "Oficial Soldador"
+  },
+  "refs": {
+    "eyebrow": "Referências",
+    "title1": "Um globo cheio de",
+    "titleGrad": "projetos.",
+    "lead": "Gire o globo e toque num marcador: cada marcação representa o uso eficaz da tecnologia K Aqua. (Os projetos de exemplo são marcas de posição (placeholders) para referências reais).",
+    "canvasAria": "Globo interativo com projetos de referência, arraste para rodar",
+    "note": "A equipe editorial deverá completar futuramente os nomes reais de projetos, fotografias e métricas exatas.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Alemanha",
+        "d": "Fábrica-Mãe & I&D: aqui começa a jornada de cada tubo K Aqua."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, EAU",
+        "d": "Condutas para arranha-céus: O recurso ao material PPRCT sob brutais tempestades abrasadoras nos abastecimentos aquecidos no cenário inóspito árido das areias vizinhas deste emirato."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Varsóvia, Polônia",
+        "d": "Prédios para urbanização domiciliar e novos condomínios habitacionais: Condutas gerais ao caudal puríssimo das distribuições domésticas de dimensões contidas nas fasquias do perfil SDR-d20-ao d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istambul, Turquia",
+        "d": "As condutas de retro-distribuição numa majestosa cadeia complexa de hotelaria turca: escoamento com suporte termo estabilizado pela canalização nos veios de compósito fibroso."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapura",
+        "d": "Arteriais públicas massivas sob infra-estrutura monumental: as grandes passagens a grandes calibres nas extensões tubulares d630 via união topo a topo impenetrável."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cidade do Cabo, África do Sul",
+        "d": "Pavilhões em moderníssimo centro hospitalar novo na via da medicina de precisão, escoando impoluta hidratação imaculada."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "Londres, RU",
+        "d": "Restruturação arquitectónica integral na renovação no âmago dos escritórios no frenesim metropolitano citadino: extirpadas raízes arcaicas, cede as posições aos colossais blocos de não degradação anticorrosiva."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Para Projectistas, Compras & Instaladores",
+    "title1": "Quer planeie, calcule ou instale.",
+    "titleGrad": "Nós fornecemos a base.",
+    "lead": "Na K Aqua, cada perfil profissional encontra exactamente a informação que precisa para tomar a decisão correcta. Acabaram as pesquisas intermináveis em PDFs ou a espera infindável na linha de telefone.",
+    "personas": [
+      {
+        "t": "Projectistas e Engenheiros",
+        "d": "Fichas técnicas rigorosamente de acordo com as normas da indústria, tabelas SDR directas e os vitais comprovativos de sustentabilidade com balanço da pegada de CO₂ logo apurados aos concursos.",
+        "cta": "Ir para as Fichas Técnicas",
+        "goto": "products"
+      },
+      {
+        "t": "Compras & Procurement (Aprovisionamento)",
+        "d": "Uma rota traçada de Waldsolms rumo à optimização sem atalhos intermédios - directo sem intermediários para despachos da fábrica - sem engulhos, e planeáveis rigorosamente.",
+        "cta": "Lançar Orçamentação de Empreendimento",
+        "goto": "rfq"
+      },
+      {
+        "t": "Mestres de Obra & Instaladores Operacionais",
+        "d": "Vídeos com técnicas demonstrativas sobre métodos para realizar ligações exímias, quadros pormenorizados sobre ferramentas, garantias e resguardos essenciais perante cada constrangimento nas implantações in-loco (na obra).",
+        "cta": "Aceder à secção formativa (Academy)",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Motivos K Aqua",
+    "whyTitle": "6 trunfos vitais transpostos para o sucesso das estimativas de orçamentação.",
+    "why": [
+      {
+        "t": "Robustez invulnerável térmica em cargas altíssimas pressurizadas de calor abrasador",
+        "d": "Copolímero Aleatório e a sua estrutura altamente afinada nos favos microscópicos (PPRCT) oferecem extrema estabilidade térmica na retenção a altíssimas tolerâncias perante choques destrutivos e a fortes batidas hidráulicas da propulsão ao longo das décadas."
+      },
+      {
+        "t": "Erradicação da Ferrugem & da Degradação",
+        "d": "Um pesadelo de ontem que aqui foi extinto sem as habituais contaminações perfuradoras nem entupimentos de sarro corrosivos das canalizações metálicas vulgares e fracas no subsolo húmido."
+      },
+      {
+        "t": "Total Resguardo do Ecossistema na Redução das Emissões Dióxido-carbónicas (CO₂)",
+        "d": "Amparo 100% atrelado nos contornos recicláveis com classificação base nr°5: pegada ambiental super baixa contraposta nas infraestruturas em liga/aço; valores expostos para apuramento directo pela via da aplicação da ferramenta."
+      },
+      {
+        "t": "Comércio Directo num Sítio Só Centralizado na Sede K Aqua Alemã",
+        "d": "Componentes isolados ou redes conjuntas, da mínima peça à aparatosa parafernália técnica/mecânica ou as linhas estruturais do traçado para a rede: num fornecedor ímpar da central em matriz ao invés do distribuidor disperso ao cliente, garantindo apoio supremo."
+      }
+    ],
+    "promise": [
+      "Venda Direta à Fábrica",
+      "Garantia de Assistência em menos de 24h",
+      "Isenção de Quaisquer Condicionantes (Obrigatórias no Compromisso)"
+    ],
+    "ctaAll": "Lançar Cotação & Consulta (RFQ) em 2 min"
+  },
+  "rfq": {
+    "eyebrow": "Consulta e Apresentação do Projecto (Request for Quote)",
+    "title1": "O seu empreendimento,",
+    "titleGrad": "uma cotação exímia nossa.",
+    "lead": "4 simples passos numa consulta liberta de condicionalismos, num orçamento exaurido sob medida e que farão os nossos engenheiros de suporte comercial responder com soluções inequívocas e irrefutáveis à sua chamada no prazo estrondoso num dia laboral.",
+    "steps": [
+      "Tipologia",
+      "Orçamentação (Necessidade)",
+      "Prazos & Logística de Geografia",
+      "Dados"
+    ],
+    "types": [
+      {
+        "t": "Levantamento & Arranha-céus Arquitectónicos / Condomínios e Lotes Habitacionais Novos",
+        "d": "Redes em água potável (infraestrutura civil geral)."
+      },
+      {
+        "t": "Urbanismo Geral e Trabalhos Subterrâneos Extensos / Escavações Subterrâneas e Trabalhos Topológicos Massivos Industriais",
+        "d": "Abastecimento ao arrepio duma geografia colossal com os tubos titânicos no diâmetro brutal de alto alcance em quilómetros sem perdas à longa extensão (redes completas macro)."
+      },
+      {
+        "t": "Empreitadas Renovadoras / Salvamento da Canalização Arruinada do Ontem Obsoleto",
+        "d": "Conversões profundas (de ferro-velho) nas reconstruções das falhas do velho (Aço/Cobre/PVC), para a modernidade germânica."
+      },
+      {
+        "t": "Intermediação & Expedição Distribuidora do Fornecimento Retalhista (Exportação Global & Despachos de Comércio)",
+        "d": "Stocks imensos ao retalho macro ou à gestão e fluxos expedicionários aduaneiros logísticos, gerindo stocks a pedido contínuo (Negócios de Projetos/Licitações de Exportação Global)."
+      }
+    ],
+    "fType": "Âmbito Sectorial (Qual é a Tipologia de Edificação/Sectorial)",
+    "fDims": "Os Espectros & Dimensões",
+    "fMeters": "Escala / Comprimentos das Metragens Gerais Calculadas / Distância Longa Global Periferizada Extensamente na Planta / Projecção de Matérias/Quilómetros a Utilizar",
+    "dimsHint": "Colocaque as informações aproximadas (não se aflija perante pormenores, nós rectificamos); pode introduzir várias medidas na escala conjunta em concordância.",
+    "fTime": "Plano & Agenda de Desenvolvimento Temporal Projetada de Actuação / Horizontes à Partida",
+    "fRegion": "Locais Demarcados para Entregas nas Transacções",
+    "timelines": [
+      "Urgente e Crítica / A decorrer já sem estagnações",
+      "Próxima Janela do Ciclo: Daqui aos próximos trinta (30) a noventa dias corridos no Calendário",
+      "De entre o lapso ou janela do Terceiro e os Sessenta a Noventa dias e Noventa à data do Fim Semestral",
+      "Fase de Estaleiro Prévio de Estudo / Projectistas Envolvidos e Fase Conceptiva do Papel Desenho-Projecto & Ideia Arquitectónica/Concursos"
+    ],
+    "regions": [
+      "Território Nacional na Alemanha Base-Matriz de Venda",
+      "DACH e Aliança e Confederações Vizinhos",
+      "Para Paises da Europa Ocidental e Leste Expandido / Comunidade Total das Zonas Continentais / Países Associados Circundantes de Proximidade",
+      "Oriente do Meio Expandido / Cidades na Área e Zona Médio Oriente Árabe e Próximos Territórios / Aliados Interiores & Estados Vizinhos Globais Envoltos à Mesma Janela Horária e Meridiana Continental do Extremo",
+      "Cobertura Cosmopolita da Orbe da Distribuição Extensiva (À Projecção Total Planeta Internacional / O Mundo Fora desta Bússola e Limitações Locais)."
+    ],
+    "fName": "O seu Nome",
+    "fCompany": "O Nome da sua Sociedade",
+    "fEmail": "Email Institucional Electrónico ou E-mail da Conta Correspondente",
+    "fPhone": "O Aparelho Telefónico à Via Despachada para Conversação a Longo Curso e Fio Conector ou Telefone Portátil Pessoal Digital (Smartphone / Rede Telefónica Terrestre-Linha Base).",
+    "fMsg": "Quaisquer Considerações Acopladas nos Textos a Expor a mais, Ou Detalhes Secundários de Importância Crucial Adicionados por Extenso em Manuscritos (opcional/livre preenchimento)",
+    "privacy": "A sua instrução abrirá com carácter instantâneo um quadro das comunicações nativas geradas já na formatação exigida em correio informático, destinado sob os seus critérios ao: info@k-aqua.de e assegurando ausência do registo dos dados gravados de forma inapropriada neste servidor público ao enviar estas suas informações. Absoluto anonimato respeitado.",
+    "back": "Rumo à Fase Anterior",
+    "next": "Continuar Rumo à Frente do Percurso",
+    "send": "Enviar Cotação",
+    "mailSubject": "K Aqua Request for Quote (RFQ) Projecto Consulta de Solicitação",
+    "promise": [
+      "Contactos imediatos de Volta (< 24 h)",
+      "Zero Restrições de Vínculos",
+      "Em Linha com os Titulares Centrais Fabris Alemães (Ligados à Gestão K Aqua)"
+    ],
+    "doneTitle": "Estamos nos Finais.",
+    "doneText": "Abriu com exactidão o quadro informático dos correios via e-mail configurado às indicações primordiais para carregar no botão ao envio expedido. Apenas nos confirme a ordem. Devolveremos com precisão um diagnóstico no espaço das imediatas vinte e quatro horas seguintes de âmbito útil nas actividades labotais/empresariais. Almeja a facilidade dum trato telefónico verbal do pronto? Então pode discar directamente, contactando pelo meio directo e oral.",
+    "doneBack": "Volte ao Portal Doméstico Primitivo de Recepção",
+    "infoTitle": "Sobre o Envio Deste Questionário / Explicativo (Anotações do Request)",
+    "infoText1": "Trata-se disto da oportunidade à calibração preliminar no campo destas interacções do engenho mecânico-físico em alinhamento aos crivos dos mestres industriais alemães especializados. Independentemente disto se cruzar no esboço, ou estando enraizada na malha burocrática profunda à aprovação e delineamento minucioso dos consumíveis do projecto da obra: intervimos ajudando na seleção irrepreensível.",
+    "infoText2": "Através da via do envolvimento do quadro directivo alemão mercantil K Aqua, ser-lhe-á não apenas formulada resposta comercial apurada mas antes do mais a verdadeira avaliação do quadro tecnológico consultando os parâmetros de robusteces perante a tensão à rotura sob fortes impactos e estipuladas SDR para enquadrar acessórios devidos: as calibrações. Expõe-se na consulta ao dispor e no âmbito do trabalho comercial ser-lhe-á dita num ápice útil.",
+    "faqTitle": "Questionamentos Habitualizados",
+    "faqs": [
+      {
+        "q": "O inquérito debita na conta de facturação despesas inerentes ou custo monetário exigível por serviços prestados?",
+        "a": "Negativo: absolutamente nenhum ónus nas custas à prestação deste suporte de viabilidade do orçamentador ou nas despesas para os crivos e estudos técnicos por suporte; gratuito em toda a extensão do serviço nos bastidores da marca."
+      },
+      {
+        "q": "Que percurso desencadeia a concretização da partilha destas premissas informativas (no formulário ou painel de envios do sistema ao apertar enter/click)?",
+        "a": "Ao descer do painel a remessa transita sob via relâmpago nas vias de recepção nos centros de avaliação. Estará escalado prontamente pelo representante mais dedicado nos crivos comerciais ao auxílio e diagnóstico no limite máximo do quadrante temporal de limite às 24 Horas em fuso regulamentado."
+      },
+      {
+        "q": "Um sujeito isento a titularidades comerciais, fora destas corporações em escala global de importadores/mercadores também requere aval e prospecção pelo K Aqua RFQ?",
+        "a": "K Aqua orienta as atenções primordiais ao grossista ou engenharia pesada ligada ao perfil do formato Business/Industrial globalizado internacional ou no universo corporativo gigantesco dos megaprojectos B2B (E o sector profissional do projecto estruturado). O quadro dos particulares e as suas ambições de canalizações residuais menores encontram apoio em fornecedores e subsidiárias a retalho."
+      },
+      {
+        "q": "Até que patamar estão estes dígitos ou registos mantidos herméticos sob vigilâncias da salvaguarda ao meu sigilo pessoal e de corporação?",
+        "a": "Ao invés da conservação cimentada num gravador na matriz central da nossa sede ao enviar por estes formulários, transitamos pelo vosso portão a emissão via-serviço (ou email). Segrega os seus detalhes corporativos resguardando de fugas sem deixar lastro exposto. Nós lidaremos sigilosamente os ficheiros (nos rigores da regulação RGPD europeia e Alemã de Protecção a Dados Restritos de Integridade Profunda e Altamente Monitorizada, preservando intransigentemente as confissões da esfera individual)."
+      }
+    ]
+  }
+}

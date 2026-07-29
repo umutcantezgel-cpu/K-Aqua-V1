@@ -1,0 +1,110 @@
+      "scroll": {
+        "items": [
+          {
+            "title": "Radikálna redukcia inštalačného času",
+            "desc": "Vo svete megaprojektov každá sekunda na stavbe stojí obrovské sumy. Dodávame hotové zvarené moduly a rozdeľovače (Custom Manifolds). Na stavbe sa zrealizujú iba finálne prepojenia. Tým sa čas inštalácie na stavenisku skráti až o 60%."
+          },
+          {
+            "title": "Strojová presnosť pripravená v Nemecku",
+            "desc": "Namiesto zvárania v nepriaznivých podmienkach (dážď, špina, prach) sa naše moduly zvárajú v našej nemeckej továrni pod klimatickými podmienkami na CNC riadených stoloch. Extrémna kvalita zvaru, nízke tolerancie – 100% zaručené."
+          },
+          {
+            "title": "Redukcia rizík a ľudských chýb",
+            "desc": "Menej zvarov na stavbe znamená menšie riziko úniku pri tlakových testoch, menšiu náchylnosť k chybám v dôsledku nedostatku kvalifikovanej pracovnej sily. Získate systém Plug & Play (zapoj a funguj), ktorý eliminuje najväčšie zdroje chýb na stavenisku."
+          },
+          {
+            "title": "Logistická efektivita na stavenisku",
+            "desc": "Staveniská v metropolách majú minimálny skladovací priestor. Pripravené modulárne jednotky dodávame Just-In-Time na správne poschodie, označené QR kódmi a digitálne integrované do BIM systému."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fáza 1",
+            "title": "BIM Import & Analýza dát",
+            "text": "Odovzdáte nám vaše 3D izometrie (REVIT / AutoCAD). Náš inžiniersky tím naskenuje dáta a optimalizuje hydraulický dizajn a segmenty."
+          },
+          {
+            "year": "Fáza 2",
+            "title": "Dizajn prefabrikácie",
+            "text": "Potrubnú sieť delíme na prepraviteľné moduly. Vypočítame dilatačné slučky (Expansion loops) a polohy pevných bodov priamo do dizajnu (do CAD)."
+          },
+          {
+            "year": "Fáza 3",
+            "title": "Továrenské zváranie",
+            "text": "Naši Master zvárači a CNC automaty vyrábajú sekcie. Každý modul (spool) prechádza podrobnou kontrolou v ideálnych klimatických podmienkach."
+          },
+          {
+            "year": "Fáza 4",
+            "title": "Tlaková skúška v závode",
+            "text": "Skúšame sekcie s tlakom presahujúcim 1,5 násobok menovitého tlaku už priamo vo výrobe, pre nulové prekvapenia na stavbe."
+          },
+          {
+            "year": "Fáza 5",
+            "title": "Dodanie Plug & Play",
+            "text": "Jednotky dorazia na stavbu. Stačí ich zavesiť, napojiť a zvariť konce. Vaše potrubie (stúpačka) je hotové za zlomok času."
+          }
+        ],
+        "title": "Od plánu po plug-and-play",
+        "desc": "Ako K Aqua transformuje 3D modely na na mieru vyrobené potrubné riešenia."
+      },
+      "hero": {
+        "eyebrow": "Továrenská prefabrikácia",
+        "title1": "Postavené v továrni.",
+        "title2": "Namontované v minútach.",
+        "desc": "Najlepší spôsob, ako vyriešiť problémy na stavenisku, je nepresunúť ich na stavenisko. K Aqua prefabrikuje modulárne PP-R systémy (Manifolds) na mieru vo vlastnom nemeckom závode – pre bezprecedentnú kvalitu, rýchlosť a nákladovú efektivitu.",
+        "cta1": "Požiadať o prefabrikáciu",
+        "cta2": "Zistiť viac o technológii"
+      },
+      "section1": {
+        "eyebrow": "Chaos na stavbe",
+        "title": "Prečo tradičné inštalácie neuspejú v termíne.",
+        "lead": "Zlé poveternostné podmienky, nedostatok miesta a chýbajúca pracovná sila (montéri) spôsobujú drahé zdržania."
+      },
+      "section2": {
+        "eyebrow": "Presun rizika",
+        "title": "Nemecká precíznosť s prístupom Plug-and-Play.",
+        "lead": "Presúvame 70% inštalačných prác z vášho nebezpečného a chaotického staveniska do nášho kontrolovaného sterilného laboratória."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Zložitá výroba rozdeľovačov (Manifolds)",
+            "desc": "Priestorovo úsporné, perfektne zarovnané systémy distribúcie studenej a teplej vody (chiller a kotolňa), ktoré ušetria inštalatérom dni komplikovaného zvárania sediel a kolien."
+          },
+          {
+            "title": "Presné dodržanie harmonogramu (Schedule)",
+            "desc": "Počas toho, ako generálny dodávateľ leje betón (hrubá stavba), my vyrábame potrubné systémy (Manifolds). Keď sú šachty pripravené, stúpačky sú tiež pripravené na inštaláciu."
+          },
+          {
+            "title": "Nula strát materiálu",
+            "desc": "Platíte len za to, čo je v systéme (čistý model) - žiadne odrezky alebo stratené potrubia / poškodené armatúry na stavbe. 100% istota rozpočtu pre projektový manažment."
+          },
+          {
+            "title": "Vizuálna estetika",
+            "desc": "Perfektné pravé uhly. Bezchybné zarovnanie. Prefabrikované prvky svedčia o inžinierskom majstrovstve a estetickej dokonalosti hneď na prvý pohľad."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Chcete zrýchliť váš ďalší projekt?",
+        "desc": "Odošlite nám plány potrubí. Vypracujeme koncept prefabrikácie, ktorý zachráni váš stavebný harmonogram.",
+        "button": "Kontaktujte náš technický tím"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Infrastruktúra výškových budov | K Aqua",
+        "desc": "K Aqua výškové budovy: Bezpečné vodovodné systémy (stúpačky a rozvody) pre mrakodrapy a komerčné budovy. Zistite viac o nemeckom inžinierstve."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Obrovská pevnosť (tlak) pre závratné výšky",
+            "desc": "Doprava vody do výšky 200 metrov a viac si vyžaduje obrovský tlak zo spodných (suterénnych) zosilňovacích čerpadiel. Špeciálne vyvinuté rúrky PP-R SDR6/PN20 a viacvrstvové rúrky (Faserverbund) hravo odolávajú statickému a dynamickému tlaku v budovách bez toho, aby praskli."
+          },
+          {
+            "title": "Výhoda nízkej hmotnosti na vrchole",
+            "desc": "K Aqua PP-R má zhruba len osminu hmotnosti v porovnaní s oceľovými rúrami. Pri stúpačkách siahajúcich cez desiatky poschodí táto úspora statickej záťaže ohromne znižuje namáhanie nosnej konštrukcie budovy."
+          },

@@ -1,0 +1,266 @@
+{
+  "solutions": {
+    "eyebrow": "Lösningar",
+    "title1": "Vatten är inte bara vatten.",
+    "titleGrad": "Varje bransch är annorlunda.",
+    "title2": "Våra lösningar anpassar sig.",
+    "lead": "Från det höga trycket i en skyskrapa till hygienkraven på ett sjukhus. Våra system erbjuder den tekniska grunden för en säker vattenförsörjning.",
+    "benefits": [
+      {
+        "t": "100% Hygienisk",
+        "d": "Utan tungmetaller, skyddar dricksvattnet permanent."
+      },
+      {
+        "t": "Extrem livslängd",
+        "d": "Över 50 års drift utan rost eller korrosion."
+      },
+      {
+        "t": "Energibesparande",
+        "d": "Släta ytor (0,007 mm) minskar pumpenergin avsevärt."
+      },
+      {
+        "t": "Effektiv installation",
+        "d": "Homogen svetsning går tre gånger snabbare än konventionell rörläggning."
+      }
+    ],
+    "nextEyebrow": "Utforska",
+    "nextTitle": "Lösningar i detalj.",
+    "nextLead": "Lär dig mer om våra specifika branschlösningar och hur vi löser komplexa problem.",
+    "nextCta": "Läs mer",
+    "krankenhaus": {
+      "meta": {
+        "title": "Sjukhus rörsystem | K Aqua",
+        "desc": "K Aqua rörsystem för sjukhus: Maximal hygien, noll korrosion. Lär dig hur vår tyska teknik skyddar patienter."
+      },
+      "hero": {
+        "eyebrow": "Kritisk infrastruktur",
+        "title1": "Där varje detalj",
+        "title2": "kan rädda liv.",
+        "desc": "På sjukhus och kliniker kompromissar man inte med vattenkvaliteten. K Aqua erbjuder det säkraste, mest hygieniska och korrosionsfria PP-R rörsystemet på den globala marknaden.",
+        "cta1": "Få rådgivning",
+        "cta2": "Tekniska data"
+      },
+      "intro": {
+        "title": "Hygien är inte förhandlingsbart.",
+        "desc": "Vårdinrättningar har de strängaste kraven på dricksvatteninfrastruktur i världen. Legionella, pseudomonas och andra patogener utgör dödliga hot. Konventionella rör av koppar eller stål bildar med tiden mikroskopiska porer och avlagringar – den perfekta grobädden för biofilmsbildning.\nK Aquas PP-R (Polypropen Random Copolymer) sätter nya standarder här. Den extremt släta, kemiskt inerta ytan erbjuder ingen fästpunkt för mikroorganismer och reagerar inte kemiskt med vattnet. Resultatet är absolut renhet, årtionde efter årtionde."
+      },
+      "stickySection": {
+        "eyebrow": "Systemkrav"
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Inkrustation & Biofilm",
+            "desc": "K Aquas extremt släta inneryta (råhet 0,007 mm) förhindrar kalkavlagringar och därmed bildandet av biofilm, där patogener vanligtvis förökar sig."
+          },
+          {
+            "title": "Kemisk resistens",
+            "desc": "Systemet tål desinfektionsmedel och uppfyller de högsta hygienkraven i känsliga områden (t.ex. operationssalar, intensivvård)."
+          },
+          {
+            "title": "Termisk isolering",
+            "desc": "Materialets låga värmeledningsförmåga bibehåller rätt temperatur. Varmvattnet förblir varmt, kallvattnet kallt. En av de mest kritiska faktorerna för legionellaprevention."
+          },
+          {
+            "title": "Akustisk dämpning",
+            "desc": "Materialets utmärkta ljudabsorberande egenskaper säkerställer tyst flöde och noll vattenslag, avgörande för patientens komfort."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Vägen till rent vatten."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Mål",
+            "title": "Absolut hygien",
+            "text": "Systemet måste stödja nolltoleranspolicyn mot nosokomiala infektioner och säkerställa en oklanderlig dricksvattenkvalitet (VDI 6023)."
+          },
+          {
+            "year": "Krav",
+            "title": "Långsiktig säkerhet",
+            "text": "Långsiktigt motstånd mot desinfektion och termiska chocker, som ingår i hygienplanen."
+          },
+          {
+            "year": "Design",
+            "title": "Cirkulation",
+            "text": "Konsekvent utformning som cirkulerande system för att utesluta stagnation."
+          },
+          {
+            "year": "Utförande",
+            "title": "Homogen svetsning",
+            "text": "Polyfusion resulterar i ett system utan döda utrymmen och utan risker från O-ringar och tätningar."
+          },
+          {
+            "year": "Drift",
+            "title": "Pålitlighet",
+            "text": "Decennier av prestanda med konstant låga driftkostnader och minimalt underhåll."
+          }
+        ]
+      },
+      "bento": {
+        "title": "Dina fördelar",
+        "items": [
+          {
+            "title": "Nolltolerans mot biofilm.",
+            "desc": "Slätheten är vårt vapen mot mikrobiell tillväxt."
+          },
+          {
+            "title": "Ingen metallisk korrosion.",
+            "desc": "Plast korroderar inte. Inga utfällningar, inget rött vatten."
+          },
+          {
+            "title": "Extrem kemisk resistens.",
+            "desc": "Oavsett om det är klorering eller andra desinfektionsmedel, K Aqua håller."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "Redo för",
+        "title2": "nästa projekt?",
+        "desc": "Upptäck varför sjukhus runt om i världen litar på K Aqua.",
+        "btn1": "Referenser",
+        "btn2": "Få en offert"
+      }
+    },
+    "hotels": {
+      "meta": {
+        "title": "Rörsystem för hotell och resorter | K Aqua",
+        "desc": "K Aqua: Osynlig lyx för topphotell. Tyst, hygienisk och oförstörbar vatteninfrastruktur för lyxresorter över hela världen."
+      },
+      "hero": {
+        "badge": "Lyxhotell & Resorter",
+        "title1": "Osynlig",
+        "title2": "Perfektion.",
+        "desc": "I den globala lyxhotellbranschen är gästens upplevelse allt. Bullriga avlopp, fluktuerande vattentryck eller ännu värre - korroderat kranvatten - är oacceptabelt. K Aqua designar infrastruktur för dem som kräver det absoluta.",
+        "cta1": "Hämta specifikationer",
+        "cta2": "Prata med experter"
+      },
+      "intro": {
+        "eyebrow": "Sanningen bakom väggarna",
+        "title": "Ditt hotell är bara så bra som dess artärer.",
+        "lead": "Du investerar miljoner i inredning av marmor och bladguld. Men om gästen i presidentviten väcks kl. 03:00 av tryckslag i ledningarna, är hela upplevelsen förstörd.",
+        "p1": "Den sanna kvaliteten på en femstjärnig resort mäts inte bara av det som är synligt, utan av vad som förblir helt obemärkt. Vatten måste flyta i exakt rätt temperatur, med perfekt tryck och framför allt ljudlöst. 24 timmar om dygnet, 365 dagar om året, i årtionden.",
+        "h2": "Slutet för metallisk kompromiss",
+        "p3": "Konventionella rörsystem av koppar eller stål är dömda att misslyckas i moderna högpresterande miljöer. Aggressivt vatten korroderar rör, trycksvängningar försvagar mekaniska fogar och värmeförluster i kilometarlånga ledningar driver upp energikostnaderna enormt.",
+        "p4": "K Aqua PP-R-system är svaret från materialvetenskapen. Som en inert polymer reagerar den inte kemiskt med omgivningen. Den rostar aldrig. Den fäller inte ut metalljoner i dricksvattnet. Och den isolerar både termiskt och akustiskt på en nivå som metall aldrig kan nå.",
+        "h3": "Homogena svetsförband: Slutet för läckage",
+        "p5": "Den svagaste länken i alla rörsystem är anslutningen. Gängor korroderar, tätningsringar blir porösa, limfogar mattas ut av termisk cykling.",
+        "p6": "Vi använder oss av principen om molekylär fusion. Rör och formdel värms termiskt till exakt 260°C och fogas därefter samman. Inom bråkdelar av sekunder smälter polymerkedjorna i båda komponenterna samman till en oskiljaktig, monolitisk enhet. Resultatet: Det finns ingen \"anslutning\" längre. Rör och formdel är ett enda genomgående stycke material. Utan tätning, utan svag punkt, med 100% tillförlitlighet."
+      },
+      "stickySection": {
+        "eyebrow": "De 4 pelarna",
+        "title": "DNA:t i ett mästerverk.",
+        "lead": "Hur vi löser de största utmaningarna i modern hotellinfrastruktur med radikal ingenjörskonst."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "1. Legionellaprevention på molekylär nivå",
+            "p1": "I vidsträckta hotellnätverk kan stagnerande vatten i tillfälligt oanvända sviter bli en dödlig fälla. Legionella förökar sig i biofilm som bildas på skrovliga rörväggar.",
+            "p2": "Den mikroskopiska ytjämnheten hos K Aqua PP-R är 0,007 mm. Det finns inga porer, inga nischer, inga fästpunkter. I kombination med termisk desinfektion erbjuder vi den mest sterila miljö som är fysiskt möjlig."
+          },
+          {
+            "title": "2. Absolut ljudabsorption",
+            "p1": "Varje decibel räknas. I lyxresorter får toalettspolningen eller duschningen i angränsande svit inte märkas.",
+            "p2": "Tack vare vårt kompositmaterials (K Aqua Fiberkomposit) höga densitet och höga inre dämpningsfaktor minskar vi det strukturburna ljudet med upp till 80% jämfört med metalliska system. En skillnad som dina gäster inte kommer att höra."
+          },
+          {
+            "title": "3. Högtrycksresiliens i skyskrapor",
+            "p1": "Hotell med 80, 100 eller 120 våningar ställer extrema krav på stigledningarna. Det hydrostatiska trycket i den nedre delen av byggnaden är enormt.",
+            "p2": "K Aqua erbjuder specifika tryckklasser (SDR 6 / PN 20) i kombination med fiberförstärkning, vilket garanterar en livslängd på över 50 år under kontinuerlig belastning även vid temperaturer på 70°C. Vi besegrar gravitationen."
+          },
+          {
+            "title": "4. Thermal Management & District Cooling",
+            "p1": "I ökenregioner som Dubai eller Riad är kyla den dyraste råvaran. Fjärrkylasystem transporterar kylt vatten över långa sträckor till anläggningen.",
+            "p2": "PP-R:s utmärkta isoleringsvärden förhindrar kondensbildning och minimerar kylförlusten kraftigt. Inga mer sönderrostade kylarledningar, inga droppande tak. Bara ren, oförfalskad effektivitet."
+          }
+        ]
+      },
+      "perf": {
+        "items": [
+          {
+            "val": "0.007",
+            "unit": "mm",
+            "title": "Ytjämnhet",
+            "desc": "Absolut resistens mot biofilm och inkrustation."
+          },
+          {
+            "val": "100",
+            "unit": "%",
+            "title": "Homogen fusion",
+            "desc": "Svetsfogar som smälter samman på molekylär nivå."
+          },
+          {
+            "val": ">50",
+            "unit": "År",
+            "title": "Livslängd",
+            "desc": "Testat och godkänt enligt de strängaste ISO-standarderna."
+          },
+          {
+            "val": "0",
+            "unit": "",
+            "title": "Underhållsbehov",
+            "desc": "Installera, försegla och glöm det för alltid."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Referenser som skriver historia.",
+        "desc": "Från konstgjorda öar i Persiska viken till de mest exklusiva skidorterna i Alperna. Där det omöjliga byggs, finns K Aqua redan på plats."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Dubai",
+            "title": "The Palm Jumeirah Ultra-Luxury Resort",
+            "text": "Utrustning av 800 sviter och 4 enorma poolområden. Extrem salthalt och omgivningstemperaturer på upp till 50°C krävde maximal termisk och kemisk beständighet. K Aqua levererade hela kall- och varmvattennätet inklusive fjärrkylanslutning."
+          },
+          {
+            "year": "Schweiz",
+            "title": "Alpine Retreat St. Moritz",
+            "text": "En 6-stjärnig resort på 2 000 meters höjd. Utmaningen: Extrem frostrisk under byggfasen och maximala krav på ljudisolering. Våra PP-R-fiberkompositrör absorberade termiska längdförändringar galant och garanterade ljudlös drift."
+          },
+          {
+            "year": "Singapore",
+            "title": "Vertical Forest Hotel",
+            "text": "Ett 65-våningars mästerverk inom ekologisk arkitektur. Det komplexa bevattningssystemet för tusentals balkongväxter samt hela dricksvatteninfrastrukturen förverkligades med K Aqua. Den homogena svetstekniken skyddade byggnaden från mikroskopiska läckage."
+          },
+          {
+            "year": "Maldiverna",
+            "title": "Zero-Emission Island Resort",
+            "text": "Byggt direkt över revet krävdes absolut miljökompatibilitet. K Aqua-rör är 100% återvinningsbara, avger inget mikroplast eller tungmetaller och tål den extremt korrosiva salta havsluften utan något slitage."
+          },
+          {
+            "year": "Framtid",
+            "title": "Ditt nästa megaprojekt",
+            "text": "Arkitekturens gränser flyttas dagligen. Vi är redo att gjuta grunden för dina djärvaste visioner. Med teknik som ligger decennier före sin tid."
+          }
+        ]
+      },
+      "research": {
+        "eyebrow": "Forskning & Utveckling",
+        "title": "Kemins <br/> oförstörbarhet.",
+        "desc": "Vår FoU-avdelning i Tyskland arbetar outtröttligt med att fullända polymermatrisen. Genom att tillsätta egenutvecklade tillsatser och speciella glasfiberföreningar extruderar vi rör som har en extremt låg termisk expansion, jämförbar med metallrör, men utan deras uppenbara nackdelar.",
+        "items": [
+          "Reducerad linjär expansion (Alpha-värde: 0,035 mm/mK)",
+          "Ökad flödesarea genom tunnare väggtjocklekar vid samma tryckklass",
+          "Perfekt resistens mot klorföreningar i hotellpoolområden",
+          "Toxikologiskt helt ofarligt, testat för livsmedelssäkerhet"
+        ]
+      },
+      "certs": {
+        "eyebrow": "Efterlevnad & Certifieringar",
+        "title": "Världens tuffaste standarder? Vi överträffar dem.",
+        "lead": "Internationella projekt kräver internationella godkännanden. K Aqua är globalt testat, granskat och godkänt av de strängaste tillsynsmyndigheterna."
+      },
+      "cta": {
+        "title": "Bygg för evigheten.",
+        "desc": "Lita inte på standarden för ditt nästa hotell- eller resortprojekt. Omdefiniera den. Kontakta våra chefsingenjörer för en djup teknisk utvärdering.",
+        "button1": "Låt utvärdera projektet",
+        "button2": "Direktkontakt försäljning"
+      }
+    }
+  }
+}

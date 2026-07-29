@@ -1,0 +1,109 @@
+,
+  "refsx": {
+    "secEyebrow": "Einsatzfelder weltweit",
+    "secTitle": "Wo K Aqua-Technik arbeitet.",
+    "secLead": "Über Jahrzehnte haben sich K Aqua-Proizvodi unzählige Male u Destinationen na   ganzen Welt bewährt. Diese Gebäudetypen prägen   Referenzprogramm.",
+    "sectors": [
+      {
+        "t": "Krankenhäuser",
+        "d": "Hygienische Trinkwasserverteilung sa biofilm-hemmender Innenfläche, wie beim Krankenhausneubau u Kapstadt."
+      },
+      {
+        "t": "Hotels",
+        "d": "Topla voda-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul sa Faserverbundrohr."
+      },
+      {
+        "t": "Industriegebäude",
+        "d": "Chemisch beständig i korrosionsfrei za Prozess- i Brauchwasser, vom Gewerbebau do zur Fertigungshalle."
+      },
+      {
+        "t": "Gewächshäuser & Infrastruktur",
+        "d": "UV-stabilisierte Bewässerung unter Glas i Versorgungsnetze do d630, wie im Infrastrukturprojekt Singapur."
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie   Tabelle.",
+    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Außendurchmesser u Millimetern:   Kenngröße jeder Dimension od d20 do d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand i höheren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandstärke u Millimetern: ergibt sich aus d i SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d − 2s. Maßgeblich za Durchfluss i Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zulässiger Dauerbetriebsdruck u bar kod 20 °C über   Auslegungshorizont: SDR 6 = PN 20 do SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
+      {
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR i maximale Dimension eingrenzen ili direkt „d110\" u   Pretraga tippen."
+      },
+      {
+        "t": "Prüfen & exportieren",
+        "d": "Zeile anklicken za Wandstärke, di i Nenndruck im Detail.   Trefferliste wandert per CSV u Ihre Kalkulation."
+      },
+      {
+        "t": "Anfrage übergeben",
+        "d": "Aus dem Detailfenster direkt u   Projektanfrage: Dimenzije i Mengen klären wir gemeinsam."
+      }
+    ]
+  },
+  "co2x": {
+    "methEyebrow": "Methodik",
+    "methTitle": "So rechnet   Rechner.",
+    "methLead": "Transparenz statt Blackbox: vier Bausteine hinter jedem Ergebnis.",
+    "meth": [
+      {
+        "t": "Massenmodell aus   SDR-Geometrie",
+        "d": "  Rohrmasse folgt aus Ringquerschnitt × Länge × Dichte (0,905 g/cm³), dieselbe Geometrie wie u   Dimensionstabellen."
+      },
+      {
+        "t": "Materialfaktoren",
+        "d": "  Emissionsfaktoren je Werkstoff sind Demonstrationswerte za   Systemvergleich. Verbindliche Faktoren liefern ecoinvent bzw. produktspezifische Typ-III-EPDs nach EN 15804."
+      },
+      {
+        "t": "Anschauliche Äquivalente",
+        "d": "Umrechnung sa rund 25 kg CO₂ Jahresbindung je Baum i 0,15 kg CO₂e je Pkw-Kilometer, Größenordnungen,   jeder im Projektmeeting versteht."
+      },
+      {
+        "t": "Belegbarer Pfad",
+        "d": "za Audit i Prüfung zählt   Dokument: EPD-Datenblätter i Scope-3-Daten gibt es im Trust Center bzw. na Anfrage."
+      }
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Wo   Zahlen einzahlen.",
+    "certLead": "CO₂-Nachweise sind kein Selbstzweck: sie zahlen direkt na Gebäudezertifizierungen ein.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPDs nach EN 15804 zahlen na   Materijal-Credits ein.   Rechner liefert   Vorab-Argument,   EPD   Nachweis."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Lebenszyklusdaten   Materialien fließen u   Bewertung, belastbar durch Typ-III-Deklarationen."
+      },
+      {
+        "t": "DGNB",
+        "d": "  Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen. Materialwahl sa niedrigem GWP wirkt direkt."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: kurz erklärt",
+    "scopeText": "Scope 1 umfasst direkte Emissionen des Werks, Scope 2   eingekauften Strom, Scope 3   Lieferkette, also auch Ihre eingekauften Cevi. Deshalb stellt K Aqua Scope-3-Daten i EPD-Rohdaten na Anfrage bereit: proaktive Transparenz za Ihre eigene Klimabilanz.",
+    "statNote": "Aus Branchenstudien: Rund   Hälfte   B2B-Kunden kauft bevorzugt kod nachweislich nachhaltigen Lieferanten.   Nachweis wird zum Beschaffungskriterium."
+  }

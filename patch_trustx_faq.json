@@ -1,0 +1,14 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Patch trustx faq",
+  "Description": "Add missing faq",
+  "ReplacementChunks": [
+    {
+      "StartLine": 1,
+      "EndLine": 1,
+      "AllowMultiple": true,
+      "TargetContent": "{",
+      "ReplacementContent": "        },\n        {\n          \"q\": \"Ali zagotavljate specifikacijska besedila GAEB?\",\n          \"a\": \"Da, besedila GAEB so del paketa dokumentov RFP. Tako se sistem K Aqua brez težav vključi v vašo AVA programsko opremo in popise del.\"\n        },\n        {\n          \"q\": \"Kaj je EPD po EN 15804?\",\n          \"a\": \"Okoljska deklaracija proizvoda (Tip III) z revidiranimi podatki o oceni življenjskega cikla. Predstavlja podatkovno osnovo za certificiranje stavb kot so LEED, BREEAM in DGNB, ter za modele nabave, prilagojene emisijam CO₂.\"\n        }"
+    }
+  ]
+}

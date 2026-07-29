@@ -1,0 +1,215 @@
+  "careerx": {
+    "teamEyebrow": "Echipa K Aqua",
+    "teamTitle": "Inovație în polimeri ca angajament zilnic.",
+    "teamLead": "La fabrica noastră din Waldsolms lucrăm la componente infrastructurale esențiale pentru proiecte globale de construcții, fără compromisuri în calitate.",
+    "benefitsTitle": "Cultura Muncii",
+    "benefits": [
+      {
+        "t": "Cultură corporativă GENAU",
+        "d": "De la un mediu de lucru deschis la siguranța industrială: trăim zilnic valorile noastre."
+      },
+      {
+        "t": "Tehnologie de ultimă oră",
+        "d": "Operarea echipamentelor de extrudare moderne de înaltă performanță într-o fabrică eficientă energetic."
+      },
+      {
+        "t": "Perspectivă pe termen lung",
+        "d": "Oferim angajare sigură în cadrul unei companii cu creștere stabilă pe piețele globale."
+      }
+    ]
+  },
+  "refsx": {
+    "showcaseEyebrow": "Proiecte Reper",
+    "showcaseTitle": "Infrastructură industrială în aplicare.",
+    "showcaseLead": "De la clinici de înaltă performanță și turnuri zgârie-nori până la rețele de răcire a centrelor de date: Acolo unde eșecul nu este tolerat, sistemele PP-R de la K Aqua preiau controlul.",
+    "filterAll": "Toate proiectele",
+    "filterHospitals": "Sănătate (Clinici)",
+    "filterHotels": "Ospitalitate (Hoteluri)",
+    "filterData": "Centre de Date",
+    "filterHighrise": "Infrastructură Zgârie-nori",
+    "projects": [
+      {
+        "t": "Spitalul General Central",
+        "loc": "Frankfurt, Germania",
+        "tag": "Sănătate",
+        "d": "Peste 14.000 de metri de țevi PP-R și PPRCT au fost instalate pentru a garanta igienă clinică absolută și temperaturi stabile ale rețelei de apă pentru siguranța pacienților."
+      },
+      {
+        "t": "Turnurile de Birouri Skyline",
+        "loc": "Riad, Arabia Saudită",
+        "tag": "Infrastructură Zgârie-nori",
+        "d": "Coloane ascendente (risers) de mare capacitate implementate utilizând clasa SDR 6 (PN20) pentru a rezista stresului mecanic masiv la presiuni ridicate deasupra celui de-al 50-lea etaj."
+      },
+      {
+        "t": "Răcire HyperScale",
+        "loc": "Dublin, Irlanda",
+        "tag": "Centre de Date",
+        "d": "Pentru buclele (loops) complexe de apă rece, inginerii de sistem s-au bazat pe țevi K Aqua cu fuziune fără fisuri pentru a menține eliminarea continuă a căldurii din hardware cu timp de funcționare complet."
+      }
+    ]
+  },
+  "finderx": {
+    "toolEyebrow": "Configurator Sistem",
+    "toolTitle": "Găsiți Conducta Corectă.",
+    "toolLead": "Selectați cu ușurință domeniul aplicației dvs., cerințele de temperatură și clasa de presiune. Sistemul nostru va returna clasa SDR PP-R/PPRCT care oferă siguranța corespunzătoare conform standardului DIN.",
+    "step1": "Tipul Aplicației",
+    "step2": "Regim Termic",
+    "step3": "Presiune Nominală (PN)",
+    "btnResults": "Afișează Rezultatele",
+    "btnReset": "Resetează Filtrele"
+  },
+  "co2x": {
+    "calcEyebrow": "Calculul Emisiilor",
+    "calcTitle": "Economii Documentate de CO₂.",
+    "calcLead": "Sistemele polimerice PP-R de la K Aqua depășesc instalările metalice convenționale și prin eficiența emisiilor de gaze de seră, pe ciclul complet de viață.",
+    "compareTitle": "Oțel/Cupru vs. K Aqua PP-R",
+    "compareText": "Reduceți emisiile nete de carbon. În timp ce oțelul galvanizat și conductele de cupru necesită o topire uriașă de energie, materiile prime plastice moderne se extrudează la temperaturi reduse și sunt capabile de reciclare totală, fără degradarea parametrilor.",
+    "calculatorBtn": "Lansează Calculatorul CO₂"
+  },
+  "homedeep": {
+    "headline": "Infrastructura K Aqua pentru Aplicații Solicitante",
+    "subtext": "Explorează capacitățile avansate ale țevilor PP-R pentru rețelele din clădiri comerciale mari."
+  },
+  "legal": {
+    "title": "Informații Legale",
+    "lead": "Declarație completă privind confidențialitatea datelor, drepturile de autor și datele oficiale de înregistrare corporativă (Imprint).",
+    "imprint": {
+      "title": "Imprint (Informații Corporative)",
+      "content": "KWT Kunststoff-Wasser-Technologie GmbH\nAuweg 3, 35647 Waldsolms-Brandoberndorf, Germania\n\nTelefon: +49 (0)60 85 / 9868-410\nEmail: info@k-aqua.de\n\nReprezentată prin Directori Generali.\nNumăr înregistrare comercială și Cod de identificare fiscală: furnizate la cerere."
+    },
+    "privacy": {
+      "title": "Politica de Confidențialitate",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Prezentare generală",
+          "content": "Protecția datelor dumneavoastră personale este o prioritate foarte mare pentru KWT GmbH. Tratăm datele personale în mod confidențial."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. Criptare SSL/TLS",
+          "content": "Pentru motive de securitate și pentru a proteja transmiterea de conținut confidențial (cum ar fi solicitările pe care ni le trimiteți), acest site utilizează criptare SSL sau TLS. O conexiune criptată poate fi recunoscută prin trecerea de la „http://” la „https://” în linia de adresă a browserului. Atunci când criptarea este activată, datele transmise nu pot fi citite de terți."
+        }
+      ]
+    },
+    "toc": "Cuprins",
+    "eyebrow": "Legal"
+  },
+  "navigation": {
+    "cookieTitle": "Folosim module cookie",
+    "cookieDesc": "Utilizăm module cookie pentru a vă îmbunătăți experiența de navigare, a vă oferi conținut personalizat și a analiza traficul nostru. Făcând clic pe „Accept Toate”, sunteți de acord cu utilizarea lor.",
+    "cookieAccept": "Accept Toate",
+    "cookieDecline": "Respingeți-le pe cele Neesențiale"
+  },
+  "cookieConsent": {
+    "title": "Setări de Confidențialitate & Cookies",
+    "description": "Utilizăm module cookie și tehnologii similare (cum ar fi pixelii și stocarea locală) pentru a vă oferi cea mai bună experiență. Unele sunt strict necesare, în timp ce altele ne ajută să îmbunătățim platforma.",
+    "customize": "Personalizați setările",
+    "declineAll": "Doar cele Esențiale",
+    "acceptAll": "Accept Toate",
+    "acceptSelected": "Salvați Selecția",
+    "essentialTitle": "Esențiale (Necesare tehnic)",
+    "essentialDesc": "Aceste module cookie sunt esențiale pentru funcționarea corectă a site-ului web (ex. navigare, securitate, preferințe de confidențialitate). Fără aceste tehnologii, K Aqua nu poate funcționa optim. Nu colectează date personale.",
+    "analyticsTitle": "Statistici & Analize",
+    "analyticsDesc": "Ne ajută să înțelegem comportamentul vizitatorilor. Colectăm date pseudonimizate despre cum interacționează utilizatorii cu K Aqua, permițându-ne să remediem erorile și să îmbunătățim platforma.",
+    "marketingTitle": "Marketing & Personalizare",
+    "marketingDesc": "Le folosim pentru a afișa conținut și reclame mai relevante. Dacă dezactivați această opțiune, veți vedea în continuare publicitate, dar nu va fi adaptată intereselor dumneavoastră.",
+    "vendorListTitle": "Vizualizați Lista Detaliată de Cookies",
+    "backToSimple": "Înapoi la Prezentarea Generală"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Sistemele noastre K Aqua de înaltă calitate oferă fiabilitate și durabilitate maximă pentru proiecte pretențioase la nivel mondial.",
+      "p2": "Datorită materialelor avansate și producției precise din Germania, garantăm instalarea simplă și o protecție durabilă.",
+      "p3": "Bazați-vă pe o calitate certificată și soluții durabile care îndeplinesc cele mai înalte standarde internaționale și cresc eficiența."
+    },
+    "extendedMarketText": {
+      "p1": "Soluțiile K Aqua sunt concepute special pentru a răspunde cerințelor piețelor locale și internaționale.",
+      "p2": "Sprijinim contractorii și planificatorii cu expertiză tehnică și sisteme fiabile pentru fiecare provocare.",
+      "p3": "Prin rețeaua noastră globală ne asigurăm că veți obține exact produsele care sunt optime pentru dezvoltarea regională.",
+      "p4": "Provocările din managementul apei din zilele noastre necesită soluții de infrastructură adaptate și durabile. K Aqua se angajează activ pe piețele internaționale pentru a răspunde cererii în creștere de rețele de țevi sigure, fără scurgeri. Fie în regiunile cu deficit de apă unde fiecare picătură trebuie protejată, fie în metropole unde regulamentele de stingere a incendiilor și zgomot necesită o calitate înaltă: sistemele noastre PP-R/PPRCT oferă asistență absolută.",
+      "p5": "În acest sens, noi servim drept partener local de sistem de conducte (System Partner). Prin formare detaliată (academie), asistență a planificatorilor, și monitorizare la fața locului (supervision) dovedim constant că normele riguroase (cum ar fi DVGW, WRAS, SASO) nu sunt doar respectate, ci sunt chiar depășite. Promovăm modernizarea globală durabilă a apei."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Contact Rapid & Cultură",
+      "detailed": "Portal de Locuri de Muncă & Aplicație"
+    },
+    "portal": {
+      "eyebrow": "Poziții Deschise",
+      "title": "Deveniți parte din",
+      "titleGrad": "Echipa Noastră",
+      "lead": "Descoperiți oportunități captivante de carieră la K Aqua și trimiteți-vă cererea de angajare în doar câteva minute.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Muncitor în Producție (m/f/d)",
+          "type": "Normă Întreagă / Ture",
+          "desc": "Sprijiniți producția noastră avansată de țevi și fitinguri."
+        },
+        {
+          "id": "machine",
+          "title": "Operator Mașini și Instalații (m/f/d)",
+          "type": "Normă Întreagă",
+          "desc": "Operarea liniilor de producție (extruder) de înaltă tehnologie."
+        },
+        {
+          "id": "logistics",
+          "title": "Specialist Logistică (m/f/d)",
+          "type": "Normă Întreagă",
+          "desc": "Responsabil de bunurile de intrare/ieșire și controlul inventarului (depozitării)."
+        },
+        {
+          "id": "sales",
+          "title": "Inginer Vânzări Tehnice de Teren (m/f/d)",
+          "type": "Normă Întreagă",
+          "desc": "Supervizarea conturilor-cheie globale și a planificatorilor mari de proiecte la fața locului."
+        },
+        {
+          "id": "pm",
+          "title": "Manager de Produs (m/f/d)",
+          "type": "Normă Întreagă",
+          "desc": "Formați strategic viitorul soluțiilor sistemelor noastre de conducte."
+        },
+        {
+          "id": "init",
+          "title": "Aplicație Spontană",
+          "type": "Normă Întreagă / Part-Time",
+          "desc": "Nu ați găsit locul de muncă ideal listat mai sus? Depuneți-vă oricum CV-ul interesant!"
+        }
+      ],
+      "steps": {
+        "step1": "Detalii Personale",
+        "step2": "CV & Documente",
+        "step3": "Verificare"
+      },
+      "form": {
+        "firstName": "Prenume",
+        "lastName": "Nume de Familie",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "startDate": "Data de Începere (Disponibilitate)",
+        "uploadTitle": "Încărcare PDF",
+        "uploadDesc": "Trageți și plasați fișierul sau faceți clic pentru a răsfoi (maxim 5 MB)",
+        "builderTitle": "Sau compilați CV-ul digital",
+        "builderDesc": "Fără PDF acum? Enumerați rapid etapele carierei dvs. în rândurile de mai jos.",
+        "workExp": "Adăugați Experiență de Lucru",
+        "education": "Adăugați Educație",
+        "company": "Companie",
+        "role": "Rol",
+        "school": "Școală / Universitate",
+        "degree": "Diplomă",
+        "from": "De la",
+        "to": "Până la",
+        "skills": "Abilități (Separate prin virgulă)",
+        "next": "Următorul",
+        "back": "Înapoi",
+        "submit": "Depuneți Aplicația",
+        "submitting": "Se procesează datele de transmitere...",
+        "success": "Vă mulțumim pentru interesul manifestat prin aplicația dvs.!",
+        "successSub": "Am stocat temporar detaliile dvs. Vă vom contacta rapid.",
+        "error": "A apărut o eroare neașteptată de rețea. Vă rugăm să încercați din nou cu răbdare mai târziu."
+      }
+    }
+  }

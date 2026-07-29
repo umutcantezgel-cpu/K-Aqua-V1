@@ -1,0 +1,425 @@
+{
+  "trustAndCases": {
+    "eyebrow": "Zertifizierte Sicherheit",
+    "title": "Bewährte Qualität & Einsatzbereiche",
+    "lead": "Als Hersteller mit Sitz in Deutschland garantieren wir höchste Standards. Unsere Rohrsysteme sind weltweit in kritischen Infrastrukturen im Einsatz.",
+    "trustTitle": "Zertifiziert & Geprüft",
+    "iso9001": "Qualitätsmanagement",
+    "iso14001": "Umweltmanagement",
+    "iso50001": "Energiemanagement",
+    "madeInGermany": "Made in Germany",
+    "case1Title": "Kommunale Wasserversorgung",
+    "case1Desc": "Erneuerung von Trinkwassernetzen. Einsatz von korrosionsfreien PPR-Rohren für maximale Versorgungssicherheit bei minimalem Wartungsaufwand.",
+    "case2Title": "Industrielle Kühlsysteme",
+    "case2Desc": "Installation von großkalibrigen Rohrleitungen in der Schwerindustrie. Hohe Druckbeständigkeit und chemische Resistenz garantieren Ausfallsicherheit.",
+    "case3Title": "Infrastruktur & Tiefbau",
+    "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
+  },
+  "co2": {
+    "guideText": "<h2>Nachhaltigkeit und LCA (Life Cycle Assessment)</h2><p>Die Wahl des richtigen Rohrleitungssystems hat signifikante Auswirkungen auf den CO2-Fußabdruck eines Gebäudes oder einer Industrieanlage. Der K-Aqua CO2-Rechner ermöglicht eine vollumfängliche Lebenszyklusanalyse (LCA) gemäß den Standards der EN 15804. Diese Analyse deckt den gesamten Lebenszyklus ab: von der Rohstoffgewinnung und Produktherstellung (Phasen A1-A3) über den Transport und die Installation (Phasen A4-A5) bis hin zur Nutzungsphase (Phase B) und dem End-of-Life (Phase C).</p><p>Im Vergleich zu herkömmlichen Metallrohren aus Kupfer oder Stahl weisen PP-R und PPRCT Rohre von K-Aqua eine deutlich vorteilhaftere Ökobilanz auf. Der geringere Energieaufwand bei der Extrusion des Kunststoffs sowie das wesentlich geringere Gewicht reduzieren die CO2-Emissionen bei Produktion und Transport erheblich. Darüber hinaus sorgt die spiegelglatte Innenoberfläche (Rauhigkeit von nur 0,007 mm) für einen extrem geringen Strömungswiderstand. Nach der Darcy-Weisbach-Gleichung bedeutet dies, dass Umwälzpumpen deutlich weniger Energie (Strom) aufwenden müssen, um die Flüssigkeit durch das System zu fördern.</p><p>Gerade in der Nutzungsphase (Phase B), die bei Rohrleitungssystemen oft 50 Jahre oder länger dauert, summiert sich diese Energieeinsparung zu massiven CO2- und Kosteneinsparungen (Total Cost of Ownership, TCO). Auch am Ende der Lebensdauer (Phase C) bietet Polypropylen ökologische Vorteile, da es zu 100 % recycelbar ist und im Sinne der Kreislaufwirtschaft (Modul D) wiederverwertet werden kann. Nutzen Sie diesen Rechner, um die ökologischen und ökonomischen Einsparpotenziale Ihres K-Aqua Projekts präzise und transparent zu quantifizieren.</p>",
+    "eyebrow": "Premium Engineering Tool",
+    "title1": "LCA & TCO Simulator",
+    "titleGrad": "Pro",
+    "lead": "Berechnen Sie die realen ökologischen und ökonomischen Auswirkungen Ihres Rohrleitungssystems über den gesamten Lebenszyklus. Mit echten physikalischen Strömungsmodellen (Darcy-Weisbach) und EN-konformen LCA-Phasen.",
+    "tabGeometry": "Rohr",
+    "tabFlow": "Fluid",
+    "tabEnvironment": "Einbau",
+    "tabLogistics": "LCA",
+    "dia": "Nennweite",
+    "length": "Leitungslänge",
+    "sdrClass": "SDR-Klasse",
+    "velocity": "Fließgeschwindigkeit (v)",
+    "velocityDesc": "Wirkt sich drastisch auf den Druckverlust und Pumpenstrom (B) aus.",
+    "fluidTemp": "Fluidtemperatur",
+    "ambientTemp": "Umgebungstemperatur",
+    "insulation": "Isolierung",
+    "insulationNone": "Keine",
+    "insulationBasic": "Basis",
+    "insulationStandard": "Standard EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Verlegeart (A5)",
+    "installBuilding": "Gebäudeinstallation",
+    "installTrench": "Erdverlegt (Bagger)",
+    "installTrenchless": "Grabenlos (HDD)",
+    "installDesc": "Erdarbeiten verursachen massive CO2-Emissionen durch Maschinen (Diesel).",
+    "lifespan": "Lebensdauer (Jahre)",
+    "lifespanDesc": "Kurzlebige Rohre (z. B. C-Stahl) müssen evtl. mehrfach ersetzt werden.",
+    "energyMixLabel": "Strommix (Betrieb & Produktion)",
+    "transportKm": "Transportdistanz (km)",
+    "co2Savings": "LCA CO₂-Einsparung",
+    "co2SavingsDesc": "Gegenüber dem ineffizientesten System (inkl. Pumpenstrom). Entspricht ca. {n} Bäumen.",
+    "costSavings": "TCO Ersparnis (NPV)",
+    "costSavingsDesc": "Ersparnis über {n} Jahre (inkl. Instandhaltung und Betriebskosten-NPV).",
+    "lcaPhases": "LCA Phasen (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Install/Transport)",
+    "phaseB": "B (Betrieb/Energie)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Modul D:",
+    "costAnalysis": "Total Cost of Ownership (NPV, {n} Jahre)",
+    "costMaterial": "Material",
+    "costInstall": "Einbau",
+    "costOperation": "Energie (NPV)",
+    "costMaintenance": "Instandhaltung",
+    "costTotal": "Gesamt",
+    "certTitle": "Zertifizierter LCA & TCO Report.",
+    "certDesc": "Beinhaltet Strömungswiderstand nach Darcy-Weisbach und EPD konforme Lebenszyklusphasen.",
+    "certBtn": "PDF-Report erzeugen",
+    "generating": "Erzeuge...",
+    "energyGreen": "Ökostrom",
+    "energyDe": "DE-Mix",
+    "energyEu": "EU-Mix",
+    "energyGlobal": "Global-Mix",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Kupfer",
+      "steel": "Edelstahl / C-Stahl",
+      "pex": "Mehrschichtverbund (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Gusseisen"
+    },
+    "project": "Your project",
+    "advanced": "Advanced LCA Parameters",
+    "tempMode": "Operating temperature",
+    "tempCold": "Cold water (10°C)",
+    "tempHot": "Hot water (60°C)",
+    "recycle": "Enable End-of-Life recycling credit",
+    "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e Savings vs. best alternative",
+    "savedBody1": "Equals the CO₂ absorption of",
+    "trees": "{n} trees",
+    "or": "or",
+    "carKm": "{n} car kilometres",
+    "compareTitle": "Life-Cycle Assessment (LCA)",
+    "phases": {
+      "a13": "Production (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Operation/Thermal (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Auditor cockpit:",
+    "auditorBody": "EPD evidence, ISO certificates and GAEB texts as a package, in the",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Download PDF Report",
+    "lcaLogistics": "LCA & Logistics Parameters",
+    "energyMix": "Production Energy Mix",
+    "transportMode": "Transport Mode",
+    "transportTruck": "Truck",
+    "transportShip": "Ship",
+    "transportAir": "Air Freight",
+    "phaseProduction": "Production",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Operation",
+    "phaseEol": "End of Life"
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Vertrauen ist",
+    "titleGrad": "messbar.",
+    "lead": "Vertrauen ist messbar. Zertifikate, GENAU-Framework und Audit Dokumente, als Self Service. Kein tagelanges Warten auf manuelle Zusendung.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagement"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagement"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagement"
+      ]
+    ],
+    "accred": "DAkkS-akkreditiert",
+    "certNo": "Zertifikat-Nr.",
+    "valid": "Gültig",
+    "download": "Download",
+    "genauEyebrow": "GENAU-Framework",
+    "genauTitle": "Fünf Buchstaben. Ein System.",
+    "genauLead": "Das GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch die fünf Säulen.",
+    "genau": [
+      [
+        "Gesundheit",
+        "Arbeits- und Gesundheitsschutz mit kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
+      ],
+      [
+        "Energie",
+        "Optimierung der Energieeffizienz nach ISO 50001, vom Extruder bis zum geschlossenen Kühlwasserkreislauf."
+      ],
+      [
+        "Nachhaltigkeit",
+        "100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
+      ],
+      [
+        "Arbeitssicherheit",
+        "Prävention und Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
+      ],
+      [
+        "Umwelt",
+        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
+    "rfpLead": "Stellen Sie Ihr Audit- und Ausschreibungspaket selbst zusammen, statt tagelang auf manuelle Zusendung zu warten.",
+    "docs": [
+      "ISO 9001:2015 Zertifikat (DE/EN)",
+      "ISO 14001:2015 Zertifikat (DE/EN)",
+      "ISO 50001:2018 Zertifikat (DE/EN)",
+      "GENAU-Politik & Risikobewertung",
+      "Trinkwasser-Konformität (DVGW/KTW)",
+      "EPD-Datenblätter (Typ III, EN 15804)",
+      "GAEB-Ausschreibungstexte",
+      "Qualitätssicherungs-Handbuch"
+    ],
+    "inPackage": "Dokumente im Paket.",
+    "pickLeft": "Wählen Sie links aus.",
+    "requestZip": "Per Klick als ZIP anfordern:",
+    "requestBtn": "Paket anfordern",
+    "mailSubject": "RFP-Dokumentenpaket",
+    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  },
+  "partner": {
+    "eyebrow": "Partnerschaft",
+    "title1": "Zwei Marken.",
+    "titleGrad": "Eine Haltung.",
+    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft zwischen K-Aqua und KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung für PP-R Rohrsysteme.",
+    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
+    "rings": [
+      {
+        "l": "Kernmarke",
+        "t": "KESSEL: Leading in Drainage",
+        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
+      },
+      {
+        "l": "System",
+        "t": "K Aqua: führend in der Wasserversorgung",
+        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
+      },
+      {
+        "l": "Service",
+        "t": "Gemeinsames Ökosystem",
+        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge, perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
+      }
+    ],
+    "whyEyebrow": "Warum PP-R/PPRCT",
+    "whyTitle": "Das Rückgrat des Produktversprechens.",
+    "cards": [
+      {
+        "t": "Absolute Korrosionsfreiheit",
+        "d": "Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie bei Kupfer oder verzinktem Stahl."
+      },
+      {
+        "t": "Thermische Effizienz",
+        "d": "Minimaler Wärmeverlust in der Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte."
+      },
+      {
+        "t": "Hygienische Neutralität",
+        "d": "Geschmacks- und geruchsneutral; die extrem glatte Innenoberfläche verhindert Biofilm und Inkrustation."
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "Referenzen",
+    "title1": "Ein Globus voller",
+    "titleGrad": "Projekte.",
+    "lead": "Drehen Sie den Globus, tippen Sie auf einen Marker: Jede Markierung steht für bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter für echte Referenzen.)",
+    "canvasAria": "Interaktiver Globus mit Referenzprojekten, ziehen zum Drehen",
+    "note": "Echte Projektnamen, Fotos und Kennzahlen sollten redaktionell ergänzt werden. Die Bühne dafür steht.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Deutschland",
+        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, VAE",
+        "d": "Hochhaus-Steigleitungen: PPRCT für Heißwasser unter Wüstenbedingungen."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warschau, Polen",
+        "d": "Wohnquartier-Neubau: komplette Trinkwasserinstallation d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Türkei",
+        "d": "Hotelkomplex: Zirkulationsleitungen mit Faserverbundrohr."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infrastrukturprojekt: Großdimensionen bis d630 im Stumpfschweißverfahren."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Kapstadt, Südafrika",
+        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Für Planer, Einkauf & Verarbeiter",
+    "title1": "Sie planen, kalkulieren oder verlegen.",
+    "titleGrad": "Wir liefern die Grundlage.",
+    "lead": "Jede Rolle findet bei K Aqua genau die Information, die sie für die nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "personas": [
+      {
+        "t": "Planer & Fachingenieure",
+        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
+        "cta": "Zu den technischen Daten",
+        "goto": "products"
+      },
+      {
+        "t": "Einkauf & Beschaffung",
+        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
+        "cta": "Projektanfrage starten",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installateure & Verarbeiter",
+        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
+        "cta": "Zur Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Warum K Aqua",
+    "whyTitle": "Sechs Gründe, die in der Kalkulation ankommen.",
+    "why": [
+      {
+        "t": "Druckfest & heißwasserfest",
+        "d": "PPRCT mit modifizierter Kristallstruktur: mehr Temperatur- und Druckreserve über Jahrzehnte."
+      },
+      {
+        "t": "Korrosionsfrei",
+        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
+      },
+      {
+        "t": "Recycelbar & CO₂-arm",
+        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl: belegbar im CO₂-Rechner."
+      },
+      {
+        "t": "Ein Ansprechpartner",
+        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+      }
+    ],
+    "promise": [
+      "Werksdirekt",
+      "Antwort < 24 h",
+      "Unverbindlich"
+    ],
+    "ctaAll": "Projektanfrage in 2 Minuten"
+  },
+  "rfq": {
+    "eyebrow": "Projektanfrage",
+    "title1": "Ihr Projekt,",
+    "titleGrad": "unser Angebot.",
+    "lead": "In vier kurzen Schritten zur unverbindlichen Anfrage. Sie erhalten innerhalb eines Werktags eine persönliche Rückmeldung vom Vertrieb.",
+    "steps": [
+      "Projektart",
+      "Bedarf",
+      "Termin & Region",
+      "Kontakt"
+    ],
+    "types": [
+      {
+        "t": "Neubau / Hochbau",
+        "d": "Trinkwasserinstallation in Wohn- oder Gewerbebau."
+      },
+      {
+        "t": "Infrastruktur / Tiefbau",
+        "d": "Versorgungsleitungen, Großdimensionen, Netze."
+      },
+      {
+        "t": "Sanierung / Austausch",
+        "d": "Ersatz von Bestandsleitungen aus Metall oder PVC."
+      },
+      {
+        "t": "Handel / Wiederverkauf",
+        "d": "Distribution, Lager oder Projektgeschäft."
+      }
+    ],
+    "fType": "Projektart",
+    "fDims": "Benötigte Dimensionen",
+    "fMeters": "Geschätzte Lauflänge",
+    "dimsHint": "Grobe Angaben genügen, wir konkretisieren gemeinsam. Mehrfachauswahl möglich.",
+    "fTime": "Geplanter Zeitrahmen",
+    "fRegion": "Lieferregion",
+    "timelines": [
+      "Sofort / laufend",
+      "In 1–3 Monaten",
+      "In 3–6 Monaten",
+      "Planungsphase"
+    ],
+    "regions": [
+      "Deutschland",
+      "DACH",
+      "Europa",
+      "Naher & Mittlerer Osten",
+      "Weltweit"
+    ],
+    "fName": "Name",
+    "fCompany": "Unternehmen",
+    "fEmail": "E-Mail",
+    "fPhone": "Telefon",
+    "fMsg": "Nachricht (optional)",
+    "privacy": "Mit dem Absenden öffnen Sie eine vorausgefüllte E-Mail an info@k-aqua.de. Es werden keine Daten auf dieser Seite gespeichert.",
+    "back": "Zurück",
+    "next": "Weiter",
+    "send": "Anfrage senden",
+    "mailSubject": "Projektanfrage K Aqua",
+    "promise": [
+      "Antwort < 24 h",
+      "Unverbindlich",
+      "Direkt vom Hersteller"
+    ],
+    "doneTitle": "Fast geschafft.",
+    "doneText": "Ihr E-Mail-Programm hat sich mit der vorausgefüllten Anfrage geöffnet. Senden Sie sie ab. Wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
+    "doneBack": "Zurück zur Startseite",
+    "infoTitle": "Über die Projektanfrage",
+    "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben oder Industrieprojekt frühzeitig mit unseren Experten abzustimmen. Egal ob Sie in der Planungsphase stecken oder bereits konkrete Materiallisten vorliegen haben, wir unterstützen Sie bei der Dimensionierung und Materialauswahl.",
+    "infoText2": "Durch die enge Zusammenarbeit mit dem K Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Druckstufen (SDR-Klassen), Verlegeverfahren und systemkonformem Zubehör. Senden Sie uns Ihre Rahmendaten, und wir melden uns innerhalb eines Werktags bei Ihnen zurück.",
+    "faqTitle": "Häufig gestellte Fragen zur Anfrage",
+    "faqs": [
+      {
+        "q": "Ist die Projektanfrage kostenpflichtig?",
+        "a": "Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich."
+      },
+      {
+        "q": "Was passiert nach dem Absenden der Anfrage?",
+        "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten."
+      },
+      {
+        "q": "Kann ich auch als Privatperson anfragen?",
+        "a": "K Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter."
+      },
+      {
+        "q": "Wie sicher sind meine Daten?",
+        "a": "Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien."
+      }
+    ]
+  }
+}

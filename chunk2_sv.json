@@ -1,0 +1,244 @@
+{
+  "co2x": {
+    "methEyebrow": "Metodik",
+    "methTitle": "Så räknar kalkylatorn.",
+    "methLead": "Transparens istället för en svart låda: fyra byggstenar bakom varje resultat.",
+    "meth": [
+      {
+        "t": "Massamodell från SDR-geometri",
+        "d": "Rörets massa följer av tvärsnitt × längd × densitet (0,905 g/cm³), samma geometri som i dimensionstabellerna."
+      },
+      {
+        "t": "Materialfaktorer",
+        "d": "Emissionsfaktorerna per material är demonstrationsvärden för systemjämförelse. Bindande faktorer tillhandahålls av ecoinvent respektive produktspecifika Typ-III-EPD:er enligt EN 15804."
+      },
+      {
+        "t": "Tydliga ekvivalenter",
+        "d": "Omräkning med cirka 25 kg CO₂-bindning per träd och år och 0,15 kg CO₂e per bilkilometer, storleksordningar som alla förstår i projektmötet."
+      },
+      {
+        "t": "Verifikationsväg",
+        "d": "För revision och granskning räknas dokumentet: EPD-datablad och Scope-3-data finns i Trust Center eller på begäran."
+      }
+    ],
+    "certEyebrow": "Miljöbyggnad",
+    "certTitle": "Var siffrorna lönar sig.",
+    "certLead": "CO₂-bevis är inget självändamål: de bidrar direkt till byggnadscertifieringar.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPD:er enligt EN 15804 bidrar till materialpoängen. Kalkylatorn levererar det preliminära argumentet, EPD:n beviset."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Materialens livscykeldata flödar in i utvärderingen, verifierbara genom Typ-III-deklarationer."
+      },
+      {
+        "t": "DGNB",
+        "d": "Byggnadens livscykelanalys avgör hela kriteriegrupper. Materialval med låg GWP har direkt effekt."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: kort förklarat",
+    "scopeText": "Scope 1 omfattar fabrikens direkta utsläpp, Scope 2 den inköpta elen, Scope 3 leveranskedjan, alltså även dina inköpta rör. Därför tillhandahåller K Aqua Scope-3-data och EPD-rådata på begäran: proaktiv transparens för din egen klimatberäkning.",
+    "statNote": "Från branschstudier: Ungefär hälften av B2B-kunderna köper hellre från bevisligen hållbara leverantörer. Beviset blir ett inköpskriterium."
+  },
+  "co2": {
+    "guideText": "<h2>Hållbarhet och LCA (Livscykelanalys)</h2><p>Valet av rätt rörsystem har betydande inverkan på koldioxidavtrycket för en byggnad eller industrianläggning. K-Aquas CO2-kalkylator möjliggör en fullständig livscykelanalys (LCA) enligt EN 15804-standarden. Denna analys täcker hela livscykeln: från utvinning av råmaterial och produkttillverkning (Fas A1-A3) via transport och installation (Fas A4-A5) till användningsfasen (Fas B) och slutet av livscykeln (Fas C).</p><p>Jämfört med traditionella metallrör i koppar eller stål har PP-R och PPRCT rör från K-Aqua en betydligt mer fördelaktig ekobalans. Den lägre energiförbrukningen vid extrudering av plasten och den mycket lägre vikten minskar CO2-utsläppen vid produktion och transport avsevärt. Dessutom ger den spegelblanka innerytan (råhet på endast 0,007 mm) ett extremt lågt strömningsmotstånd. Enligt Darcy-Weisbachs ekvation innebär detta att cirkulationspumpar måste använda betydligt mindre energi (el) för att pumpa vätskan genom systemet.</p><p>Särskilt i användningsfasen (Fas B), som för rörsystem ofta varar i 50 år eller mer, ackumuleras denna energibesparing till massiva CO2- och kostnadsbesparingar (Total Cost of Ownership, TCO). Även i slutet av livscykeln (Fas C) erbjuder polypropen ekologiska fördelar, eftersom det är 100% återvinningsbart och kan återanvändas i enlighet med cirkulär ekonomi (Modul D). Använd denna kalkylator för att exakt och transparent kvantifiera de ekologiska och ekonomiska besparingspotentialerna för ditt K-Aqua projekt.</p>",
+    "eyebrow": "Premium Ingenjörsverktyg",
+    "title1": "LCA & TCO Simulator",
+    "titleGrad": "Pro",
+    "lead": "Beräkna den verkliga ekologiska och ekonomiska påverkan av ditt rörsystem över hela dess livscykel. Med riktiga fysiska flödesmodeller (Darcy-Weisbach) och EN-kompatibla LCA-faser.",
+    "tabGeometry": "Rör",
+    "tabFlow": "Vätska",
+    "tabEnvironment": "Installation",
+    "tabLogistics": "LCA",
+    "dia": "Nominell diameter",
+    "length": "Rörlängd",
+    "sdrClass": "SDR-Klass",
+    "velocity": "Flödeshastighet (v)",
+    "velocityDesc": "Påverkar tryckfall och pumpenergi (B) drastiskt.",
+    "fluidTemp": "Vätsketemperatur",
+    "ambientTemp": "Omgivningstemperatur",
+    "insulation": "Isolering",
+    "insulationNone": "Ingen",
+    "insulationBasic": "Bas",
+    "insulationStandard": "Standard (EnEV)",
+    "insulationPremium": "Premium",
+    "installMethod": "Installationsmetod (A5)",
+    "installBuilding": "Byggnadsinstallation",
+    "installTrench": "Förlagd i mark (Grävmaskin)",
+    "installTrenchless": "Schaktfri (HDD)",
+    "installDesc": "Markarbeten orsakar massiva CO2-utsläpp via maskiner (Diesel).",
+    "lifespan": "Livslängd (År)",
+    "lifespanDesc": "Kortlivade rör (t.ex. kolstål) kan behöva bytas ut flera gånger.",
+    "energyMixLabel": "Energimix (Drift & Produktion)",
+    "transportKm": "Transportavstånd (km)",
+    "co2Savings": "LCA CO₂-besparing",
+    "co2SavingsDesc": "Jämfört med det mest ineffektiva systemet (inkl. pumpenergi). Motsvarar ca {n} träd.",
+    "costSavings": "TCO Besparing (NPV)",
+    "costSavingsDesc": "Besparing över {n} år (inkl. underhåll och driftkostnader-NPV).",
+    "lcaPhases": "LCA Faser (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Installation/Transport)",
+    "phaseB": "B (Drift/Energi)",
+    "phaseC": "C (EoL)",
+    "moduleD": "Modul D:",
+    "costAnalysis": "Total Cost of Ownership (NPV, {n} år)",
+    "costMaterial": "Material",
+    "costInstall": "Installation",
+    "costOperation": "Energi (NPV)",
+    "costMaintenance": "Underhåll",
+    "costTotal": "Totalt",
+    "certTitle": "Certifierad LCA & TCO Rapport.",
+    "certDesc": "Inkluderar flödesmotstånd enligt Darcy-Weisbach och EPD-kompatibla livscykelfaser.",
+    "certBtn": "Generera PDF-rapport",
+    "generating": "Genererar...",
+    "energyGreen": "Grön El",
+    "energyDe": "DE-Mix",
+    "energyEu": "EU-Mix",
+    "energyGlobal": "Global Mix",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Koppar",
+      "steel": "Rostfritt / Kolstål",
+      "pex": "Flerlager PEX",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Gjutjärn"
+    },
+    "project": "Ditt projekt",
+    "advanced": "Avancerade LCA Parametrar",
+    "tempMode": "Drifttemperatur",
+    "tempCold": "Kallvatten (10°C)",
+    "tempHot": "Varmvatten (60°C)",
+    "recycle": "Aktivera End-of-Life återvinningskredit",
+    "disclaimer": "Beräkningar baseras på validerade Typ III EPD:er (EN 15804) och ecoinvent-databasen (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "CO₂e-besparing mot bästa alternativet",
+    "savedBody1": "Motsvarar CO₂-upptagningen för",
+    "trees": "{n} träd",
+    "or": "eller",
+    "carKm": "{n} bilkilometer",
+    "compareTitle": "Livscykelanalys (LCA)",
+    "phases": {
+      "a13": "Produktion (A1-A3)",
+      "a4": "Transport (A4)",
+      "b": "Drift/Termisk (B)",
+      "c": "End-of-Life (C)"
+    },
+    "auditor": "Granskningspanel:",
+    "auditorBody": "EPD-bevis, ISO-certifikat och GAEB-texter som ett paket, i",
+    "trustLink": "Trust Center",
+    "downloadPdf": "Ladda ner PDF Rapport",
+    "lcaLogistics": "LCA & Logistikparametrar",
+    "energyMix": "Produktion Energimix",
+    "transportMode": "Transportläge",
+    "transportTruck": "Lastbil",
+    "transportShip": "Fartyg",
+    "transportAir": "Flygfrakt",
+    "phaseProduction": "Produktion",
+    "phaseTransport": "Transport",
+    "phaseOperation": "Drift",
+    "phaseEol": "End of Life"
+  },
+  "academyx": {
+    "certEyebrow": "Verifierad kompetens",
+    "certTitle": "Certifikatet.",
+    "certLead": "En K Aqua-certifiering är beviset på att ditt team behärskar materialet.",
+    "certs": [
+      {
+        "t": "Standardiserat utförande",
+        "d": "Minimerar risken för läckor eller reklamationer orsakade av felaktig montering."
+      },
+      {
+        "t": "Försprång i upphandlingar",
+        "d": "Certifierade installatörer föredras i stora projekt."
+      },
+      {
+        "t": "3 års giltighet",
+        "d": "Med repetitionskurs för att hålla sig uppdaterad med det senaste."
+      }
+    ],
+    "faqEyebrow": "Snabba svar",
+    "faqTitle": "Vanliga frågor om träningen.",
+    "faq": [
+      {
+        "q": "Kostnad för träningen?",
+        "a": "Grundträningen för K Aqua-partners är vanligtvis kostnadsfri. Kontakta din lokala representant."
+      },
+      {
+        "q": "Var äger den rum?",
+        "a": "Antingen direkt på din byggarbetsplats, hos din lokala handlare eller i vår anläggning i Waldsolms."
+      },
+      {
+        "q": "Får deltagarna ett certifikat?",
+        "a": "Ja, efter framgångsrikt deltagande utfärdas ett officiellt K Aqua-certifikat för varje deltagare."
+      },
+      {
+        "q": "Hur lång tid tar grundträningen?",
+        "a": "I genomsnitt cirka 3 till 4 timmar, beroende på deltagarantal och tidigare erfarenhet."
+      }
+    ]
+  },
+  "careerx": {
+    "heroEyebrow": "Karriär hos KWT GmbH",
+    "heroTitle": "Stabilitet möter innovation.",
+    "heroLead": "I decennier har vi format marknaden för PP-R-rörsystem från Waldsolms, Hessen. Framgången för vårt K Aqua-varumärke bygger på personerna bakom extrudrarna, vid skrivborden och hos kunden.",
+    "areasTitle": "Där vi växer.",
+    "areas": [
+      {
+        "t": "Produktion & Extrudering",
+        "d": "Hjärtat i Waldsolms.",
+        "p": "Maskinoperatörer, processmekaniker och skiftledare för plastteknik."
+      },
+      {
+        "t": "Kvalitet & Logistik",
+        "d": "För den perfekta produkten.",
+        "p": "Kvalitetskontroll, lagerlogistik och fraktorganisation."
+      },
+      {
+        "t": "Försäljning & Teknik",
+        "d": "För globala projekt.",
+        "p": "Försäljningsingenjörer, teknisk support och kundservice."
+      },
+      {
+        "t": "Administration",
+        "d": "Ledningen i bakgrunden.",
+        "p": "Inköp, redovisning, personal och IT i Waldsolms."
+      }
+    ],
+    "whyTitle": "Varför KWT?",
+    "why": [
+      {
+        "t": "Långsiktigt perspektiv",
+        "d": "Etablerat, expansivt familjeföretag med stark marknadsposition."
+      },
+      {
+        "t": "Regional förankring",
+        "d": "Moderna arbetsplatser mitt i Hessen, korta beslutsvägar."
+      },
+      {
+        "t": "Vidareutveckling",
+        "d": "Vi stödjer din utveckling, vare sig det gäller maskinen eller på kontoret."
+      },
+      {
+        "t": "Kollegialt team",
+        "d": "Rak kommunikation, stark gemenskap och respektfull interaktion."
+      }
+    ],
+    "procTitle": "Din väg till oss.",
+    "proc": [
+      {
+        "t": "Ansökan",
+        "d": "Skicka dina dokument med löneanspråk till Andrea Nickel (andrea.nickel@k-aqua.de)."
+      },
+      {
+        "t": "Första samtalet",
+        "d": "Lär känna oss. Okomplicerat och direkt."
+      },
+      {
+        "t": "Provjobb",
+        "d": "Särskilt för tekniska roller: Ta en titt på arbetsplatsen och teamet."
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Patch resources ausschreibungstexte",
+  "Description": "Patch resources",
+  "ReplacementChunks": [
+    {
+      "StartLine": 6976,
+      "EndLine": 6977,
+      "AllowMultiple": false,
+      "TargetContent": "    \"ausschreibungstexte\": {\n      \"title\": \"Besedila za razpise\",",
+      "ReplacementContent": "    \"ausschreibungstexte\": {\n      \"meta\": {\n        \"title\": \"Uradna besedila za razpise za cevne sisteme PP-R\",\n        \"desc\": \"Prenesite podrobna besedila za razpise K-Aqua. Nudimo brezkompromisno varnost nemškega inženiringa za vaše globalne megaprojekte.\"\n      },\n      \"title\": \"Besedila za razpise\","
+    },
+    {
+      "StartLine": 6985,
+      "EndLine": 6986,
+      "AllowMultiple": false,
+      "TargetContent": "      },\n      \"manifesto\": {",
+      "ReplacementContent": "      },\n      \"timeline\": {\n        \"items\": [\n          {\n            \"year\": \"Faza 1: Parametrizacija\",\n            \"title\": \"Definicija popolnosti.\",\n            \"text\": \"Proces se začne v TGA načrtovanju. Natančna definicija nazivnih širin, tlačnih stopenj (PN) in razredov SDR za vročo in hladno vodo. Ne puščamo sivih con. Vsak fiting, vsaka objemka, vsaka spojka je matematično natančno zabeležena.\"\n          },\n          {\n            \"year\": \"Faza 2: Oddaja\",\n            \"title\": \"Oddaja ponudb brez kompromisov.\",\n            \"text\": \"Zaradi granularne, kristalno jasne strukture naših besedil so ponudbe resnično primerljive. Damping cene zaradi manjvrednih materialov ali skritih pomanjkljivosti so takoj opazne. Zrno se loči od plev.\"\n          },\n          {\n            \"year\": \"Faza 3: Izvedba\",\n            \"title\": \"Načrt za gradbišče.\",\n            \"text\": \"Besedila za razpise služijo kot zavezujoč, pravni pravilnik za vodstvo gradbišča in inštalaterje. Vsak zvar, vsaka pritrditev mora biti v skladu z določenimi smernicami DVS. Odstopanja so onemogočena.\"\n          },\n          {\n            \"year\": \"Faza 4: Življenjski cikel\",\n            \"title\": \"50+ let popolnoma brez vzdrževanja.\",\n            \"text\": \"Rezultat brezhibne specifikacije je sistem brez napak, ki traja desetletja. Maksimalna odpornost proti koroziji, inkrustaciji in kemični degradaciji. Medgeneracijska varnost, zasnovana v Nemčiji.\"\n          }\n        ],\n        \"title\": \"Od razpisa do večnosti.\",\n        \"desc\": \"Besedilo za razpis K Aqua ni zgolj dokument. Je izvorna koda za izgrajeno realnost. Določa, varuje in narekuje celoten življenjski cikel stavbe, od prve skice do večdesetletne uporabe.\"\n      },\n      \"manifesto\": {"
+    }
+  ]
+}

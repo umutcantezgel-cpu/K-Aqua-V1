@@ -1,0 +1,70 @@
+      "items": [
+        {
+          "year": "Trin 1",
+          "title": "Forberedelse",
+          "text": "Røret skæres vinkelret. Indstiksdybden markeres på røret for at undgå overopvarmning af materialet."
+        },
+        {
+          "year": "Trin 2",
+          "title": "Opvarmning",
+          "text": "Rør og fitting skubbes samtidigt ind i det forvarmede (260°C) varmeværktøj uden at dreje og holdes der i den foreskrevne opvarmningstid."
+        },
+        {
+          "year": "Trin 3",
+          "title": "Samling",
+          "text": "Efter opvarmningsfasen trækkes delene hurtigt af værktøjet og skubbes straks (uden at dreje) ind i hinanden op til markeringen."
+        },
+        {
+          "year": "Trin 4",
+          "title": "Fiksering",
+          "text": "Forbindelsen fikseres kort. Under afkølingsfasen smelter polymermolekylerne sammen og danner en uadskillelig, tryktæt enhed."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Driftsparametre",
+      "title": "Tal, der tæller.",
+      "lead": "Specifikationer, som en professionel installatør kan stole på.",
+      "items": [
+        {
+          "label": "Svejsetemperatur",
+          "value": "260°C",
+          "sub": "For PP-R og PPRCT"
+        },
+        {
+          "label": "Spændingsforsyning",
+          "value": "230 V / 110 V",
+          "sub": "Afhængigt af markedsversion"
+        },
+        {
+          "label": "Dimensioner",
+          "value": "20 - 630 mm",
+          "sub": "Komplet systemdækning"
+        },
+        {
+          "label": "Certificering",
+          "value": "CE mærket",
+          "sub": "Europæisk sikkerhedsstandard"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Har du brug for udstyr til dit projekt?",
+      "desc": "Vi rådgiver dig om det optimale værktøjsvalg til din rørdimension og tilbyder lejeudstyr til store projekter.",
+      "primary": "Forespørg om værktøj"
+    }
+  },
+  "valves": {
+    "meta": {
+      "title": "PP-R Ventiler og Armaturer",
+      "desc": "K Aqua PP-R ventiler: Kugleventiler, skråsædeventiler og indbygningsventiler for maksimal flowkontrol og systemintegration."
+    },
+    "hero": {
+      "eyebrow": "Væskekontrol",
+      "title": "Ventiler: Absolut kontrol i netværket",
+      "lead": "Hvor systemer skal adskilles, reguleres eller afspærres. K Aqua PP-R-ventiler tilbyder maksimal driftssikkerhed takket være integrerede messingkomponenter og homogene svejsetilslutninger."
+    },
+    "intro": {
+      "eyebrow": "Sikker afspærring",
+      "title": "Ingen svage led i kæden.",
+      "lead": "En rørledning er kun så sikker som dens svageste afspærringsarmatur. Vores ventiler er fuldstændig integreret i PP-R-systemet, hvilket eliminerer lækager ved overgange og garanterer et konstant flow."

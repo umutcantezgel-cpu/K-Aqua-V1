@@ -1,0 +1,923 @@
+{
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Kundenservice &",
+    "titleGrad": "Know-how.",
+    "lead": "Unser Kundenservice & Know-how. bietet Ihnen technische unterlagen zum download und schritt-für-schritt-videos zu allen schweißverfahren.",
+    "dlEyebrow": "Downloads",
+    "dlTitle": "Technische Unterlagen",
+    "downloads": [
+      {
+        "t": "K Aqua Produktprogramm",
+        "s": "Vollständiger Katalog mit Dimensionen & Artikeln"
+      },
+      {
+        "t": "K Aqua Produkteigenschaften",
+        "s": "Technische Eigenschaften & Materialdaten"
+      },
+      {
+        "t": "K Aqua Qualitätssicherung",
+        "s": "Prüfverfahren & Qualitätsstandards"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Schweißverfahren im Video",
+    "vidLead": "Vier Verfahren, vier Videos, direkt aus der Praxis.",
+    "videos": [
+      {
+        "t": "Muffenschweißen mit Handschweißgerät",
+        "s": "PP-R/PPRCT Rohr & Formteil"
+      },
+      {
+        "t": "Muffenschweißen mit Schweißmaschine",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Elektroschweißen (Electrofusion)",
+        "s": "PP-R/PPRCT Rohr & Formteil"
+      },
+      {
+        "t": "Stumpfschweißen (Butt Fusion)",
+        "s": "PP-R/PPRCT Großdimensionen"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "News & Events",
+    "title1": "Aktuelles von",
+    "titleGrad": "K Aqua.",
+    "date": "Oktober 2025",
+    "h2": "Wir sind dreifach ISO-geprüft",
+    "p": "Unser ISO-Managementsystem wurde erweitert und umfasst nun Qualitäts-, Umwelt- und Energiemanagement:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagementsystem"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagementsystem"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagementsystem"
+      ]
+    ],
+    "btnDe": "Zertifikat (DE)",
+    "btnEn": "Certificate (EN)",
+    "eventsTitle": "Messen & Events",
+    "eventsText": "Besuchen Sie K Aqua auf kommenden Veranstaltungen. Aktuell sind keine Termine angekündigt. Schauen Sie bald wieder vorbei.",
+    "lead": "Lesen Sie Aktuelles von K Aqua. "
+  },
+  "career": {
+    "eyebrow": "Karriere",
+    "title1": "Karriere bei K-Aqua: Mehr als",
+    "titleGrad": "nur Gehalt.",
+    "lead": "Rechnen Sie aus, was steuerfreie Benefits netto bringen, und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt.",
+    "benEyebrow": "Netto-Lohn-Optimierung",
+    "benTitle": "Der Benefits-Rechner.",
+    "benLead": "Steuerfreie und pauschalversteuerte Extras wirken oft stärker als eine Bruttoerhöhung. Stellen Sie Ihr Paket zusammen:",
+    "benefits": {
+      "sachbezug": [
+        "Sachbezugskarte",
+        "Steuerfreier Sachbezug, monatlich aufs Kartenkonto."
+      ],
+      "lunch": [
+        "Essenszuschuss",
+        "Digitale Essensmarken für Mittagessen & Supermarkt."
+      ],
+      "internet": [
+        "Internetpauschale",
+        "Zuschuss zur privaten Internetnutzung."
+      ],
+      "jobrad": [
+        "JobRad-Leasing",
+        "Wunschrad per Gehaltsumwandlung, Ersparnis vs. Privatkauf."
+      ],
+      "kita": [
+        "Kita-Zuschuss",
+        "Steuerfreier Zuschuss zur Kinderbetreuung."
+      ],
+      "vwl": [
+        "Vermögenswirksame Leistungen",
+        "Monatlicher Sparbeitrag vom Arbeitgeber."
+      ]
+    },
+    "resultLabel": "Netto mehr pro Monat",
+    "resultNote1": "Das entspricht grob einer",
+    "resultNote2": "Bruttoerhöhung von ~{n} €",
+    "resultNote3": "ohne Abzüge.",
+    "resultNote4": "(Richtwert, abhängig von Steuerklasse.)",
+    "apply": "Jetzt bewerben",
+    "call": "Oder anrufen: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "Passt K Aqua zu Ihnen?",
+    "cmIntro": "Fünf ehrliche Fragen zu Arbeitsweise und Alltag in der Fertigung. Kein Persönlichkeitstest, ein Realitätscheck.",
+    "cmStart": "Test starten",
+    "qLabel": "Frage",
+    "cmQ": [
+      {
+        "q": "Wie arbeiten Sie am liebsten?",
+        "o": [
+          "Klare Abläufe, eingespieltes Team",
+          "Jeden Tag etwas Neues ausprobieren"
+        ]
+      },
+      {
+        "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+        "o": [
+          "Sofort hinschauen, Ursache finden",
+          "Erstmal weiterlaufen lassen"
+        ]
+      },
+      {
+        "q": "Was motiviert Sie mehr?",
+        "o": [
+          "Ein Produkt, das 50 Jahre hält",
+          "Schnelle, sichtbare Ergebnisse"
+        ]
+      },
+      {
+        "q": "Schichtarbeit ist für Sie …",
+        "o": [
+          "Planbar und okay",
+          "Eher schwierig"
+        ]
+      },
+      {
+        "q": "Ihr Verhältnis zu Technik?",
+        "o": [
+          "Ich will verstehen, wie Dinge funktionieren",
+          "Hauptsache es läuft"
+        ]
+      }
+    ],
+    "resHigh": "Starkes Match. Präzision, Verlässlichkeit und Technikverständnis: genau unser Profil.",
+    "resMid": "Gutes Match mit Gesprächsbedarf. Am besten direkt anrufen und den Alltag klären.",
+    "resLow": "Ehrliches Ergebnis: Fertigungsalltag bei K Aqua ist vermutlich nicht Ihr Umfeld. Vertrieb oder Verwaltung könnten besser passen.",
+    "sendApp": "Bewerbung senden",
+    "again": "Nochmal"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title1": "Sprechen wir über Ihr",
+    "titleGrad": "Projekt.",
+    "locTitle": "Standort Deutschland",
+    "salesTitle": "Vertrieb",
+    "supportTitle": "Qualität & technischer Support",
+    "supportText": "Sprechen wir über Ihr Projekt. Unser Support Team hilft bei technischen Fragen rund um Planung, Material und Verarbeitung."
+  },
+  "imprint": {
+    "eyebrow": "Rechtliches",
+    "title": "Impressum",
+    "rows": [
+      [
+        "Unternehmen",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Geschäftsführung",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Registergericht",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Sitz",
+        "Waldsolms"
+      ],
+      [
+        "USt-IdNr.",
+        "DE 296238486"
+      ],
+      [
+        "Telefon / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "E-Mail",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Produktfinder",
+    "title1": "Keine PDF-Wüste.",
+    "titleGrad": "Sofort Daten.",
+    "lead": "Statt 220-seitiger Kataloge: Filtern Sie das komplette PP-R/PPRCT-System interaktiv. Dimension, Druckstufe, Wandstärke, alles live.",
+    "type": "Produkttyp",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Faserverbund (GF)",
+      "fitting": "Formteile"
+    },
+    "sdr": "Druckstufe (SDR)",
+    "maxD": "Max. Außendurchmesser",
+    "upTo": "bis",
+    "maxDAria": "Maximaler Außendurchmesser in Millimetern",
+    "found": "Artikelvarianten gefunden. Jede sofort mit Wandstärke, Innendurchmesser und Nenndruck.",
+    "catalog": "Katalog (PDF)",
+    "tableHead": [
+      "Typ",
+      "d (mm)",
+      "SDR",
+      "Wand (mm)",
+      "di (mm)",
+      "Nenndruck"
+    ],
+    "more": "+ {n} weitere. Filter verfeinern für die volle Liste.",
+    "none": "Keine Treffer. Filter lockern.",
+    "nextEyebrow": "Weiterdenken",
+    "nextTitle": "Wie klimafreundlich ist Ihre Planung?",
+    "nextLead": "Übergeben Sie Dimension und Länge direkt an den CO₂-Rechner und vergleichen Sie gegen Kupfer, Edelstahl und PVC.",
+    "nextCta": "Zum CO₂-Rechner"
+  },
+  "trustAndCases": {
+    "eyebrow": "Zertifizierte Sicherheit",
+    "title": "Bewährte Qualität & Einsatzbereiche",
+    "lead": "Als Hersteller mit Sitz in Deutschland garantieren wir höchste Standards. Unsere Rohrsysteme sind weltweit in kritischen Infrastrukturen im Einsatz.",
+    "trustTitle": "Zertifiziert & Geprüft",
+    "iso9001": "Qualitätsmanagement",
+    "iso14001": "Umweltmanagement",
+    "iso50001": "Energiemanagement",
+    "madeInGermany": "Made in Germany",
+    "case1Title": "Kommunale Wasserversorgung",
+    "case1Desc": "Erneuerung von Trinkwassernetzen. Einsatz von korrosionsfreien PPR-Rohren für maximale Versorgungssicherheit bei minimalem Wartungsaufwand.",
+    "case2Title": "Industrielle Kühlsysteme",
+    "case2Desc": "Installation von großkalibrigen Rohrleitungen in der Schwerindustrie. Hohe Druckbeständigkeit und chemische Resistenz garantieren Ausfallsicherheit.",
+    "case3Title": "Infrastruktur & Tiefbau",
+    "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Vertrauen ist",
+    "titleGrad": "messbar.",
+    "lead": "Vertrauen ist messbar. Zertifikate, GENAU-Framework und Audit Dokumente, als Self Service. Kein tagelanges Warten auf manuelle Zusendung.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagement"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagement"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagement"
+      ]
+    ],
+    "accred": "DAkkS-akkreditiert",
+    "certNo": "Zertifikat-Nr.",
+    "valid": "Gültig",
+    "download": "Download",
+    "genauEyebrow": "GENAU-Framework",
+    "genauTitle": "Fünf Buchstaben. Ein System.",
+    "genauLead": "Das GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch die fünf Säulen.",
+    "genau": [
+      [
+        "Gesundheit",
+        "Arbeits- und Gesundheitsschutz mit kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
+      ],
+      [
+        "Energie",
+        "Optimierung der Energieeffizienz nach ISO 50001, vom Extruder bis zum geschlossenen Kühlwasserkreislauf."
+      ],
+      [
+        "Nachhaltigkeit",
+        "100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
+      ],
+      [
+        "Arbeitssicherheit",
+        "Prävention und Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
+      ],
+      [
+        "Umwelt",
+        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
+    "rfpLead": "Stellen Sie Ihr Audit- und Ausschreibungspaket selbst zusammen, statt tagelang auf manuelle Zusendung zu warten.",
+    "docs": [
+      "ISO 9001:2015 Zertifikat (DE/EN)",
+      "ISO 14001:2015 Zertifikat (DE/EN)",
+      "ISO 50001:2018 Zertifikat (DE/EN)",
+      "GENAU-Politik & Risikobewertung",
+      "Trinkwasser-Konformität (DVGW/KTW)",
+      "EPD-Datenblätter (Typ III, EN 15804)",
+      "GAEB-Ausschreibungstexte",
+      "Qualitätssicherungs-Handbuch"
+    ],
+    "inPackage": "Dokumente im Paket.",
+    "pickLeft": "Wählen Sie links aus.",
+    "requestZip": "Per Klick als ZIP anfordern:",
+    "requestBtn": "Paket anfordern",
+    "mailSubject": "RFP-Dokumentenpaket",
+    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  },
+  "partner": {
+    "eyebrow": "Partnerschaft",
+    "title1": "Zwei Marken.",
+    "titleGrad": "Eine Haltung.",
+    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft zwischen K-Aqua und KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung für PP-R Rohrsysteme.",
+    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
+    "rings": [
+      {
+        "l": "Kernmarke",
+        "t": "KESSEL: Leading in Drainage",
+        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
+      },
+      {
+        "l": "System",
+        "t": "K Aqua: führend in der Wasserversorgung",
+        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
+      },
+      {
+        "l": "Service",
+        "t": "Gemeinsames Ökosystem",
+        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge, perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
+      }
+    ],
+    "whyEyebrow": "Warum PP-R/PPRCT",
+    "whyTitle": "Das Rückgrat des Produktversprechens.",
+    "cards": [
+      {
+        "t": "Absolute Korrosionsfreiheit",
+        "d": "Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie bei Kupfer oder verzinktem Stahl."
+      },
+      {
+        "t": "Thermische Effizienz",
+        "d": "Minimaler Wärmeverlust in der Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte."
+      },
+      {
+        "t": "Hygienische Neutralität",
+        "d": "Geschmacks- und geruchsneutral; die extrem glatte Innenoberfläche verhindert Biofilm und Inkrustation."
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "Referenzen",
+    "title1": "Ein Globus voller",
+    "titleGrad": "Projekte.",
+    "lead": "Drehen Sie den Globus, tippen Sie auf einen Marker: Jede Markierung steht für bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter für echte Referenzen.)",
+    "canvasAria": "Interaktiver Globus mit Referenzprojekten, ziehen zum Drehen",
+    "note": "Echte Projektnamen, Fotos und Kennzahlen sollten redaktionell ergänzt werden. Die Bühne dafür steht.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Deutschland",
+        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, VAE",
+        "d": "Hochhaus-Steigleitungen: PPRCT für Heißwasser unter Wüstenbedingungen."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warschau, Polen",
+        "d": "Wohnquartier-Neubau: komplette Trinkwasserinstallation d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Türkei",
+        "d": "Hotelkomplex: Zirkulationsleitungen mit Faserverbundrohr."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infrastrukturprojekt: Großdimensionen bis d630 im Stumpfschweißverfahren."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Kapstadt, Südafrika",
+        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Für Planer, Einkauf & Verarbeiter",
+    "title1": "Sie planen, kalkulieren oder verlegen.",
+    "titleGrad": "Wir liefern die Grundlage.",
+    "lead": "Jede Rolle findet bei K Aqua genau die Information, die sie für die nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "personas": [
+      {
+        "t": "Planer & Fachingenieure",
+        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
+        "cta": "Zu den technischen Daten",
+        "goto": "products"
+      },
+      {
+        "t": "Einkauf & Beschaffung",
+        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
+        "cta": "Projektanfrage starten",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installateure & Verarbeiter",
+        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
+        "cta": "Zur Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Warum K Aqua",
+    "whyTitle": "Sechs Gründe, die in der Kalkulation ankommen.",
+    "why": [
+      {
+        "t": "Druckfest & heißwasserfest",
+        "d": "PPRCT mit modifizierter Kristallstruktur: mehr Temperatur- und Druckreserve über Jahrzehnte."
+      },
+      {
+        "t": "Korrosionsfrei",
+        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
+      },
+      {
+        "t": "Recycelbar & CO₂-arm",
+        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl: belegbar im CO₂-Rechner."
+      },
+      {
+        "t": "Ein Ansprechpartner",
+        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+      }
+    ],
+    "promise": [
+      "Werksdirekt",
+      "Antwort < 24 h",
+      "Unverbindlich"
+    ],
+    "ctaAll": "Projektanfrage in 2 Minuten"
+  },
+  "rfq": {
+    "eyebrow": "Projektanfrage",
+    "title1": "Ihr Projekt,",
+    "titleGrad": "unser Angebot.",
+    "lead": "In vier kurzen Schritten zur unverbindlichen Anfrage. Sie erhalten innerhalb eines Werktags eine persönliche Rückmeldung vom Vertrieb.",
+    "steps": [
+      "Projektart",
+      "Bedarf",
+      "Termin & Region",
+      "Kontakt"
+    ],
+    "types": [
+      {
+        "t": "Neubau / Hochbau",
+        "d": "Trinkwasserinstallation in Wohn- oder Gewerbebau."
+      },
+      {
+        "t": "Infrastruktur / Tiefbau",
+        "d": "Versorgungsleitungen, Großdimensionen, Netze."
+      },
+      {
+        "t": "Sanierung / Austausch",
+        "d": "Ersatz von Bestandsleitungen aus Metall oder PVC."
+      },
+      {
+        "t": "Handel / Wiederverkauf",
+        "d": "Distribution, Lager oder Projektgeschäft."
+      }
+    ],
+    "fType": "Projektart",
+    "fDims": "Benötigte Dimensionen",
+    "fMeters": "Geschätzte Lauflänge",
+    "dimsHint": "Grobe Angaben genügen, wir konkretisieren gemeinsam. Mehrfachauswahl möglich.",
+    "fTime": "Geplanter Zeitrahmen",
+    "fRegion": "Lieferregion",
+    "timelines": [
+      "Sofort / laufend",
+      "In 1–3 Monaten",
+      "In 3–6 Monaten",
+      "Planungsphase"
+    ],
+    "regions": [
+      "Deutschland",
+      "DACH",
+      "Europa",
+      "Naher & Mittlerer Osten",
+      "Weltweit"
+    ],
+    "fName": "Name",
+    "fCompany": "Unternehmen",
+    "fEmail": "E-Mail",
+    "fPhone": "Telefon",
+    "fMsg": "Nachricht (optional)",
+    "privacy": "Mit dem Absenden öffnen Sie eine vorausgefüllte E-Mail an info@k-aqua.de. Es werden keine Daten auf dieser Seite gespeichert.",
+    "back": "Zurück",
+    "next": "Weiter",
+    "send": "Anfrage senden",
+    "mailSubject": "Projektanfrage K Aqua",
+    "promise": [
+      "Antwort < 24 h",
+      "Unverbindlich",
+      "Direkt vom Hersteller"
+    ],
+    "doneTitle": "Fast geschafft.",
+    "doneText": "Ihr E-Mail-Programm hat sich mit der vorausgefüllten Anfrage geöffnet. Senden Sie sie ab. Wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
+    "doneBack": "Zurück zur Startseite",
+    "infoTitle": "Über die Projektanfrage",
+    "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben oder Industrieprojekt frühzeitig mit unseren Experten abzustimmen. Egal ob Sie in der Planungsphase stecken oder bereits konkrete Materiallisten vorliegen haben, wir unterstützen Sie bei der Dimensionierung und Materialauswahl.",
+    "infoText2": "Durch die enge Zusammenarbeit mit dem K Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Druckstufen (SDR-Klassen), Verlegeverfahren und systemkonformem Zubehör. Senden Sie uns Ihre Rahmendaten, und wir melden uns innerhalb eines Werktags bei Ihnen zurück.",
+    "faqTitle": "Häufig gestellte Fragen zur Anfrage",
+    "faqs": [
+      {
+        "q": "Ist die Projektanfrage kostenpflichtig?",
+        "a": "Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich."
+      },
+      {
+        "q": "Was passiert nach dem Absenden der Anfrage?",
+        "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten."
+      },
+      {
+        "q": "Kann ich auch als Privatperson anfragen?",
+        "a": "K Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter."
+      },
+      {
+        "q": "Wie sicher sind meine Daten?",
+        "a": "Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zur Startseite"
+  },
+  "menu": {
+    "pipes": "Rohre",
+    "fittings": "Fittings",
+    "transition": "Übergangsfittings",
+    "valves": "Ventile & Hähne",
+    "tools": "Schweißwerkzeuge"
+  },
+  "quote": "Projektanfrage",
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Angaben gemäß § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Geschäftsführung",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Registergericht & Sitz",
+          "content": "Wetzlar HRB 6732\n\nSitz der Gesellschaft:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "Umsatzsteuer-ID",
+          "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Rechtliche Hinweise & Disclaimer",
+          "content": "K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.\n\nHaftung für Links\nUnsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+        },
+        {
+          "id": "section-faq",
+          "title": "Häufig gestellte Fragen (Impressum & Service)",
+          "content": "Wie kann ich den technischen Support kontaktieren?\nSie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.\n\nWo finde ich detaillierte Zertifikate und Zulassungen?\nAlle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.\n\nWelche Gewährleistung bietet K Aqua?\nK Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Datenschutz auf einen Blick",
+          "content": "Diese Datenschutzerklärung informiert Sie darüber, welche personenbezogenen Daten auf dieser Website tatsächlich verarbeitet werden und zu welchem Zweck.\n\nKurz zusammengefasst: Wir verarbeiten personenbezogene Daten nur, wenn Sie uns diese aktiv über unsere Kontakt- und Anfrageformulare mitteilen, sowie in technisch notwendigem Umfang beim Aufruf der Website (Server-Logdaten unseres Hosting-Anbieters). Analyse- oder Marketing-Dienste Dritter setzen wir derzeit nicht ein; entsprechende Technologien würden ausschließlich nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner geladen."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Verantwortliche Stelle",
+          "content": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelefon: +49 (0)60 85 / 9868-410\nE-Mail: info@k-aqua.de\n\nVerantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Datenschutzbeauftragter",
+          "content": "Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nTelefon: +49 2861 80847 700\nE-Mail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Hosting und Server-Logfiles",
+          "content": "Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.\n\nDiese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Kontakt- und Anfrageformulare",
+          "content": "Wenn Sie eines unserer Anfrageformulare nutzen, verarbeiten wir die dort angegebenen Daten: Telefonnummer, E-Mail-Adresse, das von Ihnen gewählte Anliegen sowie die Seite, von der die Anfrage gesendet wurde. Diese Daten werden per E-Mail an info@k-aqua.de übermittelt und (sofern ein CRM-System angebunden ist) dort zur Bearbeitung Ihrer Anfrage gespeichert.\n\nBei Bewerbungen über das Karriereformular werden die von Ihnen angegebenen Bewerbungsdaten (Name, Kontaktdaten, Lebenslauf bzw. Angaben zu Erfahrung und Ausbildung) per E-Mail an unsere Personalabteilung übermittelt.\n\nZweck der Verarbeitung ist ausschließlich die Bearbeitung Ihrer Anfrage bzw. Bewerbung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.\n\nZum Schutz vor automatisierten Spam-Einsendungen setzen wir eine unsichtbare technische Prüfung (Honeypot-Feld und Zeitschwelle) ein, ohne Captcha-Dienste Dritter."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies und Einwilligung",
+          "content": "Diese Website verwendet technisch notwendige Cookies bzw. vergleichbare Speichertechnologien, etwa zur Speicherung Ihrer Sprach- und Darstellungseinstellungen sowie Ihrer Cookie-Entscheidung. Diese sind für den Betrieb der Website erforderlich (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO bzw. § 25 Abs. 2 TDDDG).\n\nÜber den Cookie-Banner können Sie zusätzlich den Kategorien \"Analyse\" und \"Marketing\" zustimmen. Derzeit setzen wir keine Analyse- oder Marketing-Dienste ein; sollten solche Dienste künftig eingebunden werden, werden sie ausschließlich nach Ihrer Einwilligung geladen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Ihre Rechte",
+          "content": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:\n\n- Auskunft über Ihre gespeicherten personenbezogenen Daten (Art. 15 DSGVO)\n- Berichtigung unrichtiger Daten (Art. 16 DSGVO)\n- Löschung (Art. 17 DSGVO)\n- Einschränkung der Verarbeitung (Art. 18 DSGVO)\n- Datenübertragbarkeit (Art. 20 DSGVO)\n- Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n- Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)\n\nWenden Sie sich hierzu an die oben genannte verantwortliche Stelle oder unseren Datenschutzbeauftragten. Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (für uns: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI), Wiesbaden)."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL- bzw. TLS-Verschlüsselung",
+          "content": "Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte (etwa Ihrer Anfragen an uns) eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \"https://\" und dem Schloss-Symbol in der Adresszeile Ihres Browsers. Bei aktivierter Verschlüsselung können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+        }
+      ]
+    },
+    "toc": "Inhalt",
+    "eyebrow": "Rechtliches"
+  },
+  "navigation": {
+    "cookieTitle": "We use cookies",
+    "cookieDesc": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "cookieAccept": "Accept All",
+    "cookieDecline": "Decline Only Essential"
+  },
+  "cookieConsent": {
+    "title": "Privatsphäre-Einstellungen & Cookies",
+    "description": "Wir nutzen Cookies und ähnliche Technologien (wie Pixel und Local Storage), um dir das bestmögliche Erlebnis auf unserer Plattform zu bieten. Einige sind zwingend erforderlich, während andere uns helfen, diese Website zu verbessern. Du hast jederzeit die volle Kontrolle.",
+    "customize": "Einstellungen anpassen",
+    "declineAll": "Nur Essenzielle",
+    "acceptAll": "Alle akzeptieren",
+    "acceptSelected": "Auswahl speichern",
+    "essentialTitle": "Essenziell (Technisch notwendig)",
+    "essentialDesc": "Diese Cookies sind für das reibungslose Funktionieren der Website (z. B. Navigation, Sicherheit, Speicherung deiner Privacy-Präferenzen) zwingend erforderlich. Ohne diese Technologien kann K Aqua nicht ordnungsgemäß betrieben werden. Sie speichern keine persönlich identifizierbaren Daten.",
+    "analyticsTitle": "Statistik & Analyse",
+    "analyticsDesc": "Diese Cookies helfen uns, das Verhalten unserer Besucher zu verstehen. Wir sammeln pseudonymisierte Daten darüber, wie Nutzer mit K Aqua interagieren (z. B. meistbesuchte Seiten, Verweildauer, Fehlermeldungen). Dadurch können wir Fehler beheben und die Plattform kontinuierlich verbessern.",
+    "marketingTitle": "Marketing & Personalisierung",
+    "marketingDesc": "Wir verwenden diese Technologien, um dir relevantere Inhalte und Werbeanzeigen (auch auf externen Plattformen) anzuzeigen. Wenn du dies deaktivierst, siehst du weiterhin Werbung, diese ist jedoch weniger auf deine Interessen zugeschnitten.",
+    "vendorListTitle": "Detaillierte Cookie-Liste ansehen",
+    "backToSimple": "Zurück zur Übersicht"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit und Langlebigkeit für anspruchsvolle Projekte weltweit.",
+      "p2": "Dank fortschrittlicher Materialien und präziser Fertigung in Deutschland garantieren wir eine einfache Installation und dauerhafte Sicherheit.",
+      "p3": "Vertrauen Sie auf zertifizierte Qualität und nachhaltige Lösungen, die höchsten internationalen Standards entsprechen und die Effizienz Ihres Projekts steigern."
+    },
+    "extendedMarketText": {
+      "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
+      "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Die wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv in internationalen Märkten, um dem wachsenden Bedarf an hygienischen und verlustfreien Rohrnetzen zu begegnen. Ob in wasserarmen Regionen, in denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, oder in hochverdichteten Metropolen mit komplexen Anforderungen an den Brandschutz und die Schallisolierung: unsere PP-R und PPRCT Systeme bieten die notwendige Zuverlässigkeit.",
+      "p5": "Dabei setzen wir nicht nur auf den reinen Produktvertrieb, sondern verstehen uns als strategischer Partner vor Ort. Durch technische Schulungen, Vor-Ort-Supervision und die enge Zusammenarbeit mit lokalen Behörden stellen wir sicher, dass internationale Normen (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung der globalen Wasserinfrastruktur bei."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Schnellkontakt & Kultur",
+      "detailed": "Jobportal & Bewerbung"
+    },
+    "portal": {
+      "eyebrow": "Offene Stellen",
+      "title": "Werde Teil unseres",
+      "titleGrad": "Teams",
+      "lead": "Entdecke spannende Karrieremöglichkeiten bei K Aqua und bewirb dich in wenigen Minuten.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Produktionsmitarbeiter (m/w/d)",
+          "type": "Vollzeit / Schicht",
+          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+        },
+        {
+          "id": "machine",
+          "title": "Maschinen- und Anlagenführer (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+        },
+        {
+          "id": "logistics",
+          "title": "Fachkraft für Lagerlogistik (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+        },
+        {
+          "id": "sales",
+          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+        },
+        {
+          "id": "pm",
+          "title": "Produktmanager (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+        },
+        {
+          "id": "init",
+          "title": "Initiativbewerbung",
+          "type": "Vollzeit / Teilzeit",
+          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+        }
+      ],
+      "steps": {
+        "step1": "Persönliche Daten",
+        "step2": "Lebenslauf & Unterlagen",
+        "step3": "Überprüfung"
+      },
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "startDate": "Frühestmögliches Eintrittsdatum",
+        "uploadTitle": "PDF hochladen",
+        "uploadDesc": "Ziehe deinen Lebenslauf hierhin oder klicke zum Auswählen (max. 5MB)",
+        "builderTitle": "Oder: CV online erstellen",
+        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
+        "workExp": "Berufserfahrung hinzufügen",
+        "education": "Ausbildung hinzufügen",
+        "company": "Unternehmen",
+        "role": "Position",
+        "school": "Schule / Uni",
+        "degree": "Abschluss",
+        "from": "Von",
+        "to": "Bis",
+        "skills": "Fähigkeiten (Kommagetrennt)",
+        "next": "Weiter",
+        "back": "Zurück",
+        "submit": "Bewerbung absenden",
+        "submitting": "Wird gesendet...",
+        "success": "Vielen Dank für deine Bewerbung!",
+        "successSub": "Wir haben deine Unterlagen erhalten und melden uns in Kürze bei dir.",
+        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+      }
+    }
+  },
+  "homedeep": {
+    "plantEyebrow": "Aus dem Werk Waldsolms",
+    "plantTitle": "Präzision, die man messen kann.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/Tag",
+        "l": "Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte"
+      },
+      {
+        "n": "0,007",
+        "u": "mm",
+        "l": "Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Jahre",
+        "l": "Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Zertifikate und Audit Dokumente als Self Service im Trust Center.",
+    "badgeCta": "Zum Trust Center"
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "Hochleistungs-",
+    "heroTitleEm": "Rohrsysteme",
+    "heroLead": "Für industrielle Anwendungen, Trinkwasserversorgung und Klimatechnik unter extremen Bedingungen.",
+    "telemetry": {
+      "pressureLabel": "Systemdruck",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Temperatur max.",
+      "tempNote": "PN20 · Dauerbetrieb",
+      "meta": [
+        [
+          "Material",
+          "K Aqua PP-R (Typ 3)"
+        ],
+        [
+          "Norm",
+          "DIN 8077/8078"
+        ],
+        [
+          "Zertifizierung",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Lebensdauer",
+          "> 50 Jahre"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Faserverbund-Technologie",
+      "desc": "3-Schicht-Aufbau für minimierte Längsausdehnung und maximale Stabilität bei hohen Temperaturen.",
+      "ariaGroup": "Materialschichten",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Außenschicht"
+        },
+        {
+          "t": "Faserverbund",
+          "d": "Mittelschicht"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Innenschicht"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Compliance & Normen",
+      "items": [
+        [
+          "DVGW",
+          "Trinkwasser-Zulassung"
+        ],
+        [
+          "SKZ",
+          "Güteüberwachung"
+        ],
+        [
+          "KIWA",
+          "Systemzertifizierung"
+        ],
+        [
+          "DIN 8077/8078",
+          "Rohrmaße & Toleranzen"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimensionen",
+    "network": {
+      "title": "Globales Netzwerk",
+      "lead": "K Aqua Systeme sind weltweit in über 35 Ländern im Einsatz. Von Waldsolms in die Welt.",
+      "chips": [
+        [
+          "35+",
+          "Länder"
+        ],
+        [
+          "3",
+          "Kontinente"
+        ],
+        [
+          "ISO",
+          "Zertifiziert"
+        ]
+      ]
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Bitte Telefonnummer angeben",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "einkauf@firma.com",
+    "emailError": "Bitte gültige E-Mail angeben",
+    "chipsLabel": "Was benötigen Sie",
+    "send": "Anfrage senden",
+    "sendError": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an:",
+    "legal": "Keine Werbung, keine Weitergabe.",
+    "legalLink": "Datenschutz",
+    "doneTitle": "Danke, Ihre Anfrage ist da.",
+    "doneTitleSlim": "Danke, Anfrage ist da.",
+    "direct": "Eilig? Direktwahl",
+    "promise": "Antwort innerhalb eines Arbeitstages",
+    "ccAria": "Landesvorwahl",
+    "closeAria": "Schließen",
+    "fabAria": "Kontakt",
+    "interests": {
+      "rohrsysteme": "Rohrsysteme",
+      "trinkwassernetze": "Trinkwassernetze",
+      "bim": "BIM Daten",
+      "ersatzteile": "Ersatzteile",
+      "beratung": "Beratung"
+    }
+  }
+}

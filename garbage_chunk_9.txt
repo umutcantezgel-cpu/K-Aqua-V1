@@ -1,0 +1,70 @@
+    "hero": {
+      "eyebrow": "Systemovergange",
+      "title": "Overgangsfittings: Sikkert fra Metal til PP-R",
+      "lead": "Messing møder polymer: K Aqua overgangsfittings forbinder eksisterende metalrør permanent, tæt og korrosionsfrit med PP-R systemet, testet langt ud over standardkravene."
+    },
+    "intro": {
+      "eyebrow": "Udfordringen",
+      "title": "Hvor verdener kolliderer.",
+      "lead": "Overgangen fra stive metalliske rørsystemer til moderne termoplastiske netværk er akilleshælen i enhver bygnings- og industriinstallation. Her virker maksimale termiske og mekaniske forskydningskræfter."
+    },
+    "sticky": {
+      "eyebrow": "Deep Tech",
+      "title": "Anatomi af uovervindelighed.",
+      "lead": "Vi betragter ikke en overgangsfitting som et tilbehør, men som et yderst komplekst mekanisk instrument. Hver millimeter vægtykkelse, hver gevindgang er resultatet af utallige finite element analyser (FEA).",
+      "items": [
+        {
+          "title": "Symbiosen af Metal og Polymer",
+          "desc": "Vores overgangsfittings kombinerer den ubarmhjertige mekaniske styrke af afzinkningsbestandig CW617N-messing med den kemiske inerthed fra PPRCT. Denne materialefusion opnås ikke ved simpel presning, men gennem en termomekanisk sprøjtestøbeproces, der skaber en uadskillelig molekylær forankring."
+        },
+        {
+          "title": "Ekstremt Vridnings- og Drejningsmoment",
+          "desc": "Et kritisk fejlscenarie for standardfittings er overbelastning af drejningsmomentet under installationen. K Aqua-overgange integrerer en patenteret sekskantet forankringsprofil i plastkappen. Resultatet: Over 300 Nm garanteret vridningsmodstand uden delaminering af grænsefladen."
+        },
+        {
+          "title": "Termiske Udvidelseskoefficienter i Balance",
+          "desc": "Metaller og plast udvider sig forskelligt (Δα) under temperaturudsving. Gennem præcist beregnede mikro-ekspansionsfuger i messingindsatsen kompenserer vores fittings for ekstreme chok fra -20°C til +95°C i millisekunder, absolut lækagefrit."
+        },
+        {
+          "title": "Nul-Tolerance Kvalitetskontrol",
+          "desc": "Hver eneste hybridkomponent gennemgår en fuldautomatisk helium-lækagetest og en optisk 3D-måling. Hvis grænseværdien på 10^-5 mbar·l/s blot tangeres, udelukker vores system komponenten konsekvent. Tysk ingeniørkunst tillader ingen kompromiser."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Specifikationer",
+      "title": "Præstationens Arkitektur.",
+      "lead": "Når man planlægger megaprojekter med titusindvis af forbindelser, er statistisk pålidelighed den vigtigste ROI. K Aqua giver dig den fysiske garanti for dette.",
+      "items": [
+        {
+          "title": "DZR Messingkerne",
+          "desc": "Afzinkningsbestandig messing af kvaliteten CW617N (ifølge DIN EN 12164) eliminerer risikoen for selektiv korrosion i aggressive vandkvaliteter."
+        },
+        {
+          "title": "Anti-Rotations Design",
+          "desc": "Polygonale underskæringer danner en geometrisk lås, der absorberer ekstreme tilspændingsmomenter uden at belaste plastkappen."
+        },
+        {
+          "title": "Dybttrukket Gevind",
+          "desc": "Koniske og cylindriske ISO 7/1 og ISO 228 gevind, maskinbearbejdet med en tolerance på ±0,01 mm for perfekt tæthed."
+        },
+        {
+          "title": "PPRCT Matrix",
+          "desc": "Den højkrystallinske struktur i vores Polypropylene Random Copolymer tilbyder fremragende langtidskrybestyrke ved høje temperaturer."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Fremstillingscyklussen",
+      "desc": "Et kig ind i vores fabrik. Vejen fra råmateriale til en testet hybridfitting er et orkester af varme, tryk og ubarmhjertig præcision.",
+      "items": [
+        {
+          "year": "Fase 1",
+          "title": "Forarbejdning af Emner (CW617N)",
+          "text": "Messingen presses i højpræcise matricer ved 750°C, efterfulgt af CNC-styret bearbejdning i mikrometerområdet for at skabe tætningsprofilen."
+        },
+        {
+          "year": "Fase 2",
+          "title": "Overfladepassivering",
+          "text": "For at eliminere galvanisk korrosion gennemgår gevindindsatserne en flertrins passiveringsproces i elektrolytiske ultralydsbade."
+        },

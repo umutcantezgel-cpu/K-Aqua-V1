@@ -1,0 +1,122 @@
+{
+  "cookieConsent": {
+    "title": "Privatsphäre-Einstellungen & Cookies",
+    "description": "Wir nutzen Cookies und ähnliche Technologien (wie Pixel und Local Storage), um dir das bestmögliche Erlebnis auf unserer Plattform zu bieten. Einige sind zwingend erforderlich, während andere uns helfen, diese Website zu verbessern. Du hast jederzeit die volle Kontrolle.",
+    "customize": "Einstellungen anpassen",
+    "declineAll": "Nur Essenzielle",
+    "acceptAll": "Alle akzeptieren",
+    "acceptSelected": "Auswahl speichern",
+    "essentialTitle": "Essenziell (Technisch notwendig)",
+    "essentialDesc": "Diese Cookies sind für das reibungslose Funktionieren der Website (z. B. Navigation, Sicherheit, Speicherung deiner Privacy-Präferenzen) zwingend erforderlich. Ohne diese Technologien kann K Aqua nicht ordnungsgemäß betrieben werden. Sie speichern keine persönlich identifizierbaren Daten.",
+    "analyticsTitle": "Statistik & Analyse",
+    "analyticsDesc": "Diese Cookies helfen uns, das Verhalten unserer Besucher zu verstehen. Wir sammeln pseudonymisierte Daten darüber, wie Nutzer mit K Aqua interagieren (z. B. meistbesuchte Seiten, Verweildauer, Fehlermeldungen). Dadurch können wir Fehler beheben und die Plattform kontinuierlich verbessern.",
+    "marketingTitle": "Marketing & Personalisierung",
+    "marketingDesc": "Wir verwenden diese Technologien, um dir relevantere Inhalte und Werbeanzeigen (auch auf externen Plattformen) anzuzeigen. Wenn du dies deaktivierst, siehst du weiterhin Werbung, diese ist jedoch weniger auf deine Interessen zugeschnitten.",
+    "vendorListTitle": "Detaillierte Cookie-Liste ansehen",
+    "backToSimple": "Zurück zur Übersicht"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit und Langlebigkeit für anspruchsvolle Projekte weltweit.",
+      "p2": "Dank fortschrittlicher Materialien und präziser Fertigung in Deutschland garantieren wir eine einfache Installation und dauerhafte Sicherheit.",
+      "p3": "Vertrauen Sie auf zertifizierte Qualität und nachhaltige Lösungen, die höchsten internationalen Standards entsprechen und die Effizienz Ihres Projekts steigern."
+    },
+    "extendedMarketText": {
+      "p1": "Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.",
+      "p2": "Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.",
+      "p3": "Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.",
+      "p4": "Die wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv in internationalen Märkten, um dem wachsenden Bedarf an hygienischen und verlustfreien Rohrnetzen zu begegnen. Ob in wasserarmen Regionen, in denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, oder in hochverdichteten Metropolen mit komplexen Anforderungen an den Brandschutz und die Schallisolierung: unsere PP-R und PPRCT Systeme bieten die notwendige Zuverlässigkeit.",
+      "p5": "Dabei setzen wir nicht nur auf den reinen Produktvertrieb, sondern verstehen uns als strategischer Partner vor Ort. Durch technische Schulungen, Vor-Ort-Supervision und die enge Zusammenarbeit mit lokalen Behörden stellen wir sicher, dass internationale Normen (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung der globalen Wasserinfrastruktur bei."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Schnellkontakt & Kultur",
+      "detailed": "Jobportal & Bewerbung"
+    },
+    "portal": {
+      "eyebrow": "Offene Stellen",
+      "title": "Werde Teil unseres",
+      "titleGrad": "Teams",
+      "lead": "Entdecke spannende Karrieremöglichkeiten bei K Aqua und bewirb dich in wenigen Minuten.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Produktionsmitarbeiter (m/w/d)",
+          "type": "Vollzeit / Schicht",
+          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+        },
+        {
+          "id": "machine",
+          "title": "Maschinen- und Anlagenführer (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+        },
+        {
+          "id": "logistics",
+          "title": "Fachkraft für Lagerlogistik (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+        },
+        {
+          "id": "sales",
+          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+        },
+        {
+          "id": "pm",
+          "title": "Produktmanager (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+        },
+        {
+          "id": "init",
+          "title": "Initiativbewerbung",
+          "type": "Vollzeit / Teilzeit",
+          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+        }
+      ],
+      "steps": {
+        "step1": "Persönliche Daten",
+        "step2": "Lebenslauf & Unterlagen",
+        "step3": "Überprüfung"
+      },
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "startDate": "Frühestmögliches Eintrittsdatum",
+        "uploadTitle": "PDF hochladen",
+        "uploadDesc": "Ziehe deinen Lebenslauf hierhin oder klicke zum Auswählen (max. 5MB)",
+        "builderTitle": "Oder: CV online erstellen",
+        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
+        "workExp": "Berufserfahrung hinzufügen",
+        "education": "Ausbildung hinzufügen",
+        "company": "Unternehmen",
+        "role": "Position",
+        "school": "Schule / Uni",
+        "degree": "Abschluss",
+        "from": "Von",
+        "to": "Bis",
+        "skills": "Fähigkeiten (Kommagetrennt)",
+        "next": "Weiter",
+        "back": "Zurück",
+        "submit": "Bewerbung absenden",
+        "submitting": "Wird gesendet...",
+        "success": "Vielen Dank für deine Bewerbung!",
+        "successSub": "Wir haben deine Unterlagen erhalten und melden uns in Kürze bei dir.",
+        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+      }
+    }
+  },
+  "menu": {
+    "pipes": "Rohre",
+    "fittings": "Fittings",
+    "transition": "Übergangsfittings",
+    "valves": "Ventile & Hähne",
+    "tools": "Schweißwerkzeuge"
+  },
+  "quote": "Projektanfrage"
+}

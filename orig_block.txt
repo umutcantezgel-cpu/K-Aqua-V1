@@ -1,0 +1,235 @@
+  "tools": {
+    "meta": {
+      "title": "PP-R Svejseværktøj og Udstyr",
+      "desc": "Professionelt K Aqua svejseværktøj, rørskærere og maskiner til perfekt installation af PP-R og PPRCT rørsystemer."
+    },
+    "hero": {
+      "eyebrow": "Installationsteknik",
+      "title": "Værktøj: Præcision til den perfekte svejsesøm",
+      "lead": "Den bedste rørforbindelse er kun så god som det værktøj, den er lavet med. K Aqua tilbyder et komplet sortiment af professionelt svejse- og skæreværktøj til 100% lækagefrie installationer."
+    },
+    "intro": {
+      "eyebrow": "Den rigtige hardware",
+      "title": "Ingen kompromiser på byggepladsen.",
+      "lead": "Termisk polyfusion kræver nøjagtige temperaturer, præcise skærekanter og ren forarbejdning. Vores værktøj er designet til den hårde hverdag på byggepladsen og garanterer DVS-kompatible svejsninger."
+    },
+    "sticky": {
+      "eyebrow": "Værktøjsportefølje",
+      "title": "Udstyret til enhver dimension.",
+      "lead": "Fra det handy håndsvejseapparat til fordelingsboksen til den computerstyrede stuksvejsemaskine til industrielle hovedlinjer.",
+      "items": [
+        {
+          "title": "Muffesvejsning (20-125 mm)",
+          "desc": "Håndsvejseapparater og stationære bordsvejsemaskiner med mikroprocessorstyrede varmeelementer. Garanterer en konstant smeltetemperatur på 260°C for homogene forbindelser."
+        },
+        {
+          "title": "Elektrosvejsning (20-630 mm)",
+          "desc": "Fuldautomatiske elektrosvejsemaskiner med stregkodescanner. Læser de optimale svejseparametre direkte fra fittingen og dokumenterer hver enkelt svejsesøm til kvalitetssikring."
+        },
+        {
+          "title": "Stuksvejsning (90-630 mm)",
+          "desc": "Hydrauliske stuksvejsemaskiner til flangeløse storrørsforbindelser. Med integreret CNC-styring, rørhøvl og digital dataregistrering til kommunale projekter."
+        },
+        {
+          "title": "Rørskærere & Forberedelse",
+          "desc": "Sakse, rulleskærere og skrælværktøj i industriel kvalitet. Uundværlig for gratfrie, retvinklede snit og fjernelse af oxidlaget før elektrosvejsning."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Teknologiske fordele",
+      "title": "Sikkerhed indbygget.",
+      "lead": "Vores værktøjer er ikke bare tilbehør, de er kalibrerede instrumenter til at skabe en uadskillelig materialeforbindelse.",
+      "items": [
+        {
+          "title": "Teflon-belægning",
+          "desc": "Højkvalitets PTFE-belægning på alle varmeværktøjer forhindrer, at smeltet PP-R sætter sig fast, og sikrer restfri samling."
+        },
+        {
+          "title": "Temperaturkontrol",
+          "desc": "Elektroniske termostater og omgivelsessensorer forhindrer temperatursvingninger og underkøling af svejsesømmen i koldt vejr."
+        },
+        {
+          "title": "Ergonomi",
+          "desc": "Vægtreducerede enheder, optimerede håndtagsmekanismer og hurtig-tilbage funktioner beskytter installatøren ved højt rørforbrug."
+        },
+        {
+          "title": "Dokumentation",
+          "desc": "Store maskiner tilbyder USB-grænseflader og protokolprintere til gnidningsløs godkendelse af trykbærende systemer."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Muffesvejseprocessen",
+      "desc": "Standardiseret og ufejlbarlig. Sådan skaber du den perfekte forbindelse.",
+      "items": [
+        {
+          "year": "Trin 1",
+          "title": "Forberedelse",
+          "text": "Røret skæres vinkelret. Indstiksdybden markeres på røret for at undgå overopvarmning af materialet."
+        },
+        {
+          "year": "Trin 2",
+          "title": "Opvarmning",
+          "text": "Rør og fitting skubbes samtidigt ind i det forvarmede (260°C) varmeværktøj uden at dreje og holdes der i den foreskrevne opvarmningstid."
+        },
+        {
+          "year": "Trin 3",
+          "title": "Samling",
+          "text": "Efter opvarmningsfasen trækkes delene hurtigt af værktøjet og skubbes straks (uden at dreje) ind i hinanden op til markeringen."
+        },
+        {
+          "year": "Trin 4",
+          "title": "Fiksering",
+          "text": "Forbindelsen fikseres kort. Under afkølingsfasen smelter polymermolekylerne sammen og danner en uadskillelig, tryktæt enhed."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Driftsparametre",
+      "title": "Tal, der tæller.",
+      "lead": "Specifikationer, som en professionel installatør kan stole på.",
+      "items": [
+        {
+          "label": "Svejsetemperatur",
+          "value": "260°C",
+          "sub": "For PP-R og PPRCT"
+        },
+        {
+          "label": "Spændingsforsyning",
+          "value": "230 V / 110 V",
+          "sub": "Afhængigt af markedsversion"
+        },
+        {
+          "label": "Dimensioner",
+          "value": "20 - 630 mm",
+          "sub": "Komplet systemdækning"
+        },
+        {
+          "label": "Certificering",
+          "value": "CE mærket",
+          "sub": "Europæisk sikkerhedsstandard"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Har du brug for udstyr til dit projekt?",
+      "desc": "Vi rådgiver dig om det optimale værktøjsvalg til din rørdimension og tilbyder lejeudstyr til store projekter.",
+      "primary": "Forespørg om værktøj"
+    }
+  },
+  "valves": {
+    "meta": {
+      "title": "PP-R Ventiler og Armaturer",
+      "desc": "K Aqua PP-R ventiler: Kugleventiler, skråsædeventiler og indbygningsventiler for maksimal flowkontrol og systemintegration."
+    },
+    "hero": {
+      "eyebrow": "Væskekontrol",
+      "title": "Ventiler: Absolut kontrol i netværket",
+      "lead": "Hvor systemer skal adskilles, reguleres eller afspærres. K Aqua PP-R-ventiler tilbyder maksimal driftssikkerhed takket være integrerede messingkomponenter og homogene svejsetilslutninger."
+    },
+    "intro": {
+      "eyebrow": "Sikker afspærring",
+      "title": "Ingen svage led i kæden.",
+      "lead": "En rørledning er kun så sikker som dens svageste afspærringsarmatur. Vores ventiler er fuldstændig integreret i PP-R-systemet, hvilket eliminerer lækager ved overgange og garanterer et konstant flow."
+    },
+    "sticky": {
+      "eyebrow": "Ventilsortiment",
+      "title": "Den rigtige armatur til enhver position.",
+      "lead": "Uanset om det er synlig kælderinstallation eller skjult badeværelsesinstallation - vi tilbyder den passende afspærringsteknik.",
+      "items": [
+        {
+          "title": "Kugleventiler (Ball Valves)",
+          "desc": "Klassikeren til hurtig og sikker afspærring af hoved- og fordelerledninger. Med en massiv forkromet messingkugle for minimalt slid og fuld gennemstrømning uden tryktab."
+        },
+        {
+          "title": "Skråsædeventiler (Straight Seat Valves)",
+          "desc": "Ideel til finregulering af flowet. Det udskiftelige messingoverdel tillader vedligeholdelse uden at fjerne ventilhuset fra rørnetværket. Høj trykmodstand."
+        },
+        {
+          "title": "Indbygningsventiler (Concealed Valves)",
+          "desc": "Designet til skjult installation under puds eller fliser. Kompakt design med udskiftelige overdele. Fås med elegant krom-roset og greb til den synlige overflade."
+        },
+        {
+          "title": "Ventiler med omløber (Union Valves)",
+          "desc": "Kombinerer en afspærringsventil med en adskillelig forskruning. Perfekt til direkte tilslutning af pumper eller filtre, der skal fjernes regelmæssigt til vedligeholdelse."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Konstruktionsdetaljer",
+      "title": "Højtydende mekanik.",
+      "lead": "Vores ventiler er hybride mesterværker, der kombinerer plastens korrosionsbestandighed med metallens mekaniske stabilitet.",
+      "items": [
+        {
+          "title": "Homogen integration",
+          "desc": "Takket være PP-R-svejsemuffer på begge sider svejses ventilen ind i rørnetværket og bliver en permanent, lækagefri del af systemet."
+        },
+        {
+          "title": "Højkvalitets messing",
+          "desc": "Alle vandbærende metaldele (kugler, spindler) er lavet af entzinkningsbestandigt messing (CW617N) og er godkendt til drikkevand."
+        },
+        {
+          "title": "Teflon- og EPDM-tætninger",
+          "desc": "Slidstærke PTFE-sæderinge og temperaturbestandige EPDM O-ringe sikrer jævn drift og tæthed over titusindvis af koblingscyklusser."
+        },
+        {
+          "title": "Vedligeholdelsesvenlig",
+          "desc": "Mange af vores ventildesign tillader, at den mekaniske indmad (overdelen) kan udskiftes under systemtryk (efter afspærring), hvilket minimerer nedetid."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Kvalitetskontrol af ventiler",
+      "desc": "Hver ventil testes intensivt, inden den forlader vores fabrik.",
+      "items": [
+        {
+          "year": "Test 1",
+          "title": "Materialeanalyse",
+          "text": "Spektrometrisk kontrol af messing- og plastgranulatet for at sikre 100% renhed og overholdelse af drikkevandsstandarder."
+        },
+        {
+          "year": "Test 2",
+          "title": "Tryktest",
+          "text": "Hver samlet ventil udsættes for et pneumatisk og hydraulisk testtryk, der langt overstiger det nominelle driftstryk, for at opdage de mindste lækager."
+        },
+        {
+          "year": "Test 3",
+          "title": "Udholdenhedstest",
+          "text": "Stikprøvekontrol under simuleret, årelang brug. Ventiler åbnes og lukkes tusindvis af gange med kogende og koldt vand for at teste slidstyrken."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Tekniske Data",
+      "title": "Ventil Specifikationer",
+      "lead": "Dimensioneret til den globale standard.",
+      "items": [
+        {
+          "label": "Dimensioner",
+          "value": "20 - 125 mm",
+          "sub": "For kugleventiler og skråsædeventiler"
+        },
+        {
+          "label": "Maks. Tryk (PN)",
+          "value": "25 bar",
+          "sub": "Afhængig af model og temperatur"
+        },
+        {
+          "label": "Maks. Temperatur",
+          "value": "95°C",
+          "sub": "Kortvarig top 110°C"
+        },
+        {
+          "label": "Anvendelse",
+          "value": "Drikkevand & Varme",
+          "sub": "Ikke til brandbare gasser"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Integrer sikkerhed i dit rørnetværk.",
+      "desc": "Find de rigtige ventiler og armaturer til din applikation i vores produktkatalog.",
+      "primary": "Se alle ventiler"
+    }
+  },

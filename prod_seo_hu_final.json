@@ -1,0 +1,154 @@
+{
+  "valves": {
+    "areas": "Ivóvíz, Fűtés, Ipar, Klíma",
+    "advTitle": "Maximális biztonság és élettartam",
+    "advList": [
+      "Nincs korrózió",
+      "Teljes átfolyás",
+      "Karbantartásmentes tömítés",
+      "Abszolút kompatibilitás",
+      "Könnyű súly"
+    ],
+    "seoText": "A K-Aqua szelepek garantálják a pontos és biztonságos szabályozást.",
+    "guideTitle": "Gyakorlati útmutató: PP-R szelepek telepítése",
+    "guideText": "A PP-R szelepek a modern csőhálózatok elengedhetetlen elemei.",
+    "seoTitle": "PP-R Szelepek és Szerelvények"
+  },
+  "fittings": {
+    "areas": "Ivóvíz, Szaniter, Ipar, Fűtés",
+    "advTitle": "Biztonságos és homogén kötések",
+    "advList": [
+      "Homogén hegesztés: A cső és az idom elválaszthatatlan egységgé olvad össze.",
+      "Nincs szükség tömítésekre: A tartós kötéshez nincs szükség hibaérzékeny O-gyűrűkre.",
+      "Egyszerű telepítés: Gyors és biztonságos feldolgozás az építkezésen.",
+      "Teljes áteresztés: Nincs keresztmetszet-csökkenés, ami fenntartja a rendszernyomást.",
+      "Vegyi ellenállás: Ellenáll számos agresszív közegnek."
+    ],
+    "seoText": "A K-Aqua idomok maximális biztonságot nyújtanak.",
+    "guideTitle": "Útmutató a PP-R idomokhoz",
+    "guideText": "A megfelelő hegesztés elengedhetetlen.",
+    "seoTitle": "PP-R Idomok és Formadarabok"
+  },
+  "pipes": {
+    "areas": "Ivóvíz-hálózatok, Klímaberendezések, Fűtés",
+    "advTitle": "Kiváló áramlási tulajdonságok",
+    "advList": [
+      "Sima belső felület",
+      "Hosszú élettartam",
+      "Alacsony hőtágulás",
+      "Magas nyomásállóság",
+      "Környezetbarát"
+    ],
+    "seoText": "A K-Aqua PP-R csövei biztosítják a tiszta ivóvíz áramlását.",
+    "guideTitle": "Csövek telepítése",
+    "guideText": "A csövek szakszerű telepítése.",
+    "seoTitle": "PP-R Csőrendszerek",
+    "faq": [
+      {
+        "q": "Mi a különbség a PPRCT és a hagyományos PP-R között a csőrendszerekben?",
+        "a": "A PPRCT (módosított kristályszerkezetű és magasabb hőmérséklet-állóságú polipropilén random kopolimer) egy speciálisan módosított kristályszerkezettel rendelkezik, amely magasabb nyomásállóságot tesz lehetővé megemelt üzemi hőmérsékleten. Ez lehetővé teszi vékonyabb falú csövek használatát azonos névleges nyomás mellett, ami akár 17%-kal növeli a belső átmérőt és a hidraulikus áramlási kapacitást."
+      },
+      {
+        "q": "Hogyan csökkenti a K-Fiber (üvegszálas) kompozit technológia a lineáris hőtágulást?",
+        "a": "K-Fiber csöveink üvegszállal erősített polipropilénből készült integrált középső réteggel rendelkeznek. Ez a réteg mechanikailag stabilizálja a csövet, és a tágulási együtthatót kb. 0,035 mm/(m·K) értékre csökkenti. Ez a termikus hőtágulás 75%-os csökkenését jelenti a hagyományos műanyag csövekhez képest."
+      },
+      {
+        "q": "Tanúsítva vannak a K-Aqua PP-R csőrendszerek ivóvízhez?",
+        "a": "Igen, a K-Aqua csőrendszerek megfelelnek az olyan nemzetközi tanúsító testületek legszigorúbb vizsgálati és higiéniai követelményeinek, mint a DVGW, KIWA és WRAS. Az anyag teljesen ártalmatlan, íz- és szagtalan, valamint hatékonyan megakadályozza a vízkő és a biofilm képződését."
+      },
+      {
+        "q": "Hogyan jön létre az abszolút szivárgásmentes hegesztett kötés?",
+        "a": "A kötés 260°C-os termikus polifúzióval jön létre. A cső és az idom molekuláris szinten egy homogén, oldhatatlan egységgé olvad össze. Mivel nem használnak hibalehetőséget magában rejtő gumitömítéseket vagy présidomokat, a hegesztési varrat több mint 50 évig teljesen tömített marad."
+      },
+      {
+        "q": "Milyen nyomásosztályok és méretek érhetők el a K-Aqua csövekhez?",
+        "a": "A K-Aqua csőrendszereket SDR 6, SDR 7.4, SDR 9 és SDR 11 (PN10-től PN25-ig) nyomásosztályokban, valamint 20 mm-től 250 mm-ig terjedő külső átmérőben kínálja. Ezzel finom elosztóhálózatok és masszív fő- és felszállóvezetékek is megvalósíthatók."
+      }
+    ]
+  },
+  "transitionFittings": {
+    "areas": "Fémről műanyagra való átmenet",
+    "advTitle": "Biztonságos rendszerátmenet",
+    "advList": [
+      "DZR sárgaréz",
+      "Szivárgásmentes",
+      "Korrózióálló"
+    ],
+    "seoText": "Az átmeneti idomok biztosítják a fém és a PP-R közötti kötést.",
+    "guideTitle": "Átmeneti idomok használata",
+    "guideText": "Fontos a megfelelő nyomaték alkalmazása.",
+    "seoTitle": "PP-R Átmeneti Idomok"
+  },
+  "weldInSaddles": {
+    "areas": "Utólagos leágazások",
+    "advTitle": "Költséghatékony és gyors",
+    "advList": [
+      "Utólagos telepítés: Meglévő PP-R csőhálózatok bővítése a főcső elvágása nélkül.",
+      "Időtakarékos: Fúrás, melegítés, behegesztés - percek alatt kész.",
+      "Nyomásálló: A nyereghegesztés eléri az alapcső nyomásosztályát.",
+      "Teljes áteresztés: Nincs keresztmetszet-csökkenés a főágban.",
+      "Sokoldalú: Kapható fém menetes átmenettel vagy anélkül (BM/KM)."
+    ],
+    "seoText": "A hegeszthető nyergek lehetővé teszik a gyors utólagos leágazásokat.",
+    "guideTitle": "Hegeszthető nyergek telepítése",
+    "guideText": "Fúrja ki a csövet, és hegessze be a nyerget.",
+    "seoTitle": "PP-R Hegeszthető Nyergek"
+  },
+  "accessories": {
+    "areas": "Rögzítés és szigetelés",
+    "advTitle": "Szabványnak megfelelő kiegészítők",
+    "advList": [
+      "Tökéletes illeszkedés: Minden tartozék geometriailag a K-Aqua csőrendszerhez van igazítva.",
+      "Termodinamikus rögzítés: Csőbilincsek gumibetéttel fix és csúszó megfogáshoz.",
+      "Kiváló minőségű karimás kötések: Laza karimák és EPDM tömítések a fémre történő átmenethez.",
+      "Gyors javítás: Javítódugók véletlenül megfúrt csövekhez.",
+      "UV-állóság: A kiválasztott tartozékok speciálisan kültéri telepítésre vannak stabilizálva."
+    ],
+    "seoText": "A megfelelő tartozékok biztosítják a csőrendszer hosszú élettartamát.",
+    "guideTitle": "Tartozékok használata",
+    "guideText": "Használja a megfelelő csőbilincseket.",
+    "faq": [
+      {
+        "q": "Alkalmasak-e hideg és meleg vízhez?",
+        "a": "Igen, a tartozékok mindkettőre alkalmasak."
+      },
+      {
+        "q": "Használhatok-e más gyártótól származó tartozékot?",
+        "a": "Csak az eredeti tartozékokkal garantáljuk a rendszergaranciát."
+      },
+      {
+        "q": "Vannak-e ipari tartozékok?",
+        "a": "Igen, kínálunk nagy teherbírású karimákat és tömítéseket."
+      }
+    ],
+    "seoTitle": "Kiegészítők Csőrendszerekhez"
+  },
+  "tools": {
+    "areas": "Hegesztés, vágás, előkészítés",
+    "advTitle": "Precíz szerszámok a tökéletes kötéshez",
+    "advList": [
+      "Pontos hőmérséklet-szabályozás: A mikroprocesszor vezérlésű fűtőelemek pontosan 260°C-on tartják a hőt.",
+      "Tapadásmentes bevonat: Teflon-PTFE a maradékmentes olvadékért.",
+      "Ergonomikus kialakítás: Csökkenti a telepítő fizikai megterhelését.",
+      "Digitális dokumentáció: Tompa- és elektrofúziós hegesztőgépek protokoll funkcióval.",
+      "Hosszú élettartam: Robusztus mechanika a zord építkezési mindennapokhoz."
+    ],
+    "seoText": "A minőségi telepítéshez elengedhetetlenek a megfelelő szerszámok.",
+    "guideTitle": "Hegesztőszerszámok használata",
+    "guideText": "Mindig tartsa tisztán a fűtőelemeket.",
+    "seoTitle": "Hegesztőszerszámok és Csővágók"
+  },
+  "fallback": {
+    "areas": "Univerzális",
+    "advTitle": "Tökéletes rendszerkiegészítés",
+    "advList": [
+      "Tesztelt minőség: Megfelel az ISO 9001 irányítási rendszernek.",
+      "Rendszerkompatibilitás: Tökéletesen a K-Aqua csőrendszerhez hangolva.",
+      "Hosszú élettartam: Robusztus anyagok a zord építkezési mindennapokhoz.",
+      "Biztonságos alkalmazás: Garantált működés szakszerű használat esetén.",
+      "Gazdaságosság: Kiváló ár-érték arány."
+    ],
+    "seoText": "A K-Aqua teljes rendszermegoldást kínál.",
+    "seoTitle": "Termékek"
+  }
+}
