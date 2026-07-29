@@ -1,45 +1,43 @@
 {
-  "service": {
-    "eyebrow": "Service",
-    "title1": "Kundenservice &",
-    "titleGrad": "Know-how.",
-    "lead": "Unser Kundenservice & Know-how. bietet Ihnen technische unterlagen zum download und schritt-für-schritt-videos zu allen schweißverfahren.",
-    "dlEyebrow": "Downloads",
-    "dlTitle": "Technische Unterlagen",
-    "downloads": [
-      {
-        "t": "K Aqua Produktprogramm",
-        "s": "Vollständiger Katalog mit Dimensionen & Artikeln"
-      },
-      {
-        "t": "K Aqua Produkteigenschaften",
-        "s": "Technische Eigenschaften & Materialdaten"
-      },
-      {
-        "t": "K Aqua Qualitätssicherung",
-        "s": "Prüfverfahren & Qualitätsstandards"
-      }
-    ],
-    "vidEyebrow": "Installation",
-    "vidTitle": "Schweißverfahren im Video",
-    "vidLead": "Vier Verfahren, vier Videos, direkt aus der Praxis.",
-    "videos": [
-      {
-        "t": "Muffenschweißen mit Handschweißgerät",
-        "s": "PP-R/PPRCT Rohr & Formteil"
-      },
-      {
-        "t": "Muffenschweißen mit Schweißmaschine",
-        "s": "PP-R Socket Welding"
-      },
-      {
-        "t": "Elektroschweißen (Electrofusion)",
-        "s": "PP-R/PPRCT Rohr & Formteil"
-      },
-      {
-        "t": "Stumpfschweißen (Butt Fusion)",
-        "s": "PP-R/PPRCT Großdimensionen"
-      }
-    ]
-  }
+  "eyebrow": "Service",
+  "title1": "Kundenservice &",
+  "titleGrad": "Know-how.",
+  "lead": "Unser Kundenservice & Know-how. bietet Ihnen technische unterlagen zum download und schritt-für-schritt-videos zu allen schweißverfahren.",
+  "dlEyebrow": "Downloads",
+  "dlTitle": "Technische Unterlagen",
+  "downloads": [
+    {
+      "t": "K Aqua Produktprogramm",
+      "s": "Vollständiger Katalog mit Dimensionen & Artikeln"
+    },
+    {
+      "t": "K Aqua Produkteigenschaften",
+      "s": "Technische Eigenschaften & Materialdaten"
+    },
+    {
+      "t": "K Aqua Qualitätssicherung",
+      "s": "Prüfverfahren & Qualitätsstandards"
+    }
+  ],
+  "vidEyebrow": "Installation",
+  "vidTitle": "Schweißverfahren im Video",
+  "vidLead": "Vier Verfahren, vier Videos, direkt aus der Praxis.",
+  "videos": [
+    {
+      "t": "Muffenschweißen mit Handschweißgerät",
+      "s": "PP-R/PPRCT Rohr & Formteil"
+    },
+    {
+      "t": "Muffenschweißen mit Schweißmaschine",
+      "s": "PP-R Socket Welding"
+    },
+    {
+      "t": "Elektroschweißen (Electrofusion)",
+      "s": "PP-R/PPRCT Rohr & Formteil"
+    },
+    {
+      "t": "Stumpfschweißen (Butt Fusion)",
+      "s": "PP-R/PPRCT Großdimensionen"
+    }
+  ]
 }

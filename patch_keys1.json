@@ -1,0 +1,231 @@
+{
+  "trust": {
+    "eyebrow": "Loyihalashtirish arxitekturasi",
+    "title1": "Murosasiz",
+    "titleGrad": "mukammallik.",
+    "lead": "Sanoat o'rnatishlarida ruxsat etiladigan xatolar darajasi nolga teng. Bizning PP-R/PPRCT polimer tizimlarimiz bosim ostida deformatsiyalanmaydi, korroziyaga uchramaydi va eng talabchan sharoitlarda ellik yildan ortiq chidaydi.",
+    "bento": {
+      "thermo": {
+        "title": "Termodinamik barqarorlik",
+        "p1": "Bizning quvur tizimlarimiz yuqori haroratga chidamli PPRCT asosida qurilgan. Molekulyar struktura doimiy issiqlik va yuqori bosim sharoitida o'rmalash egri chiziqlarini mukammal ushlab turadi.",
+        "p2": "Jismoniy xususiyatlar shuni anglatadiki: 90°C da va sanoat bosimida o'z xususiyatlarini buzmasdan, chiziqli kengayish muammosisiz uzoq muddat ishlash."
+      },
+      "hydraulics": {
+        "title": "Gidravlika oqimi kafolati",
+        "p1": "Foydalanish yillari o'tgan sari quvurlarning ichki diametri qisqarmaydi. K Aqua silliq ichki devorlari (g'adir-budurligi bor-yo'g'i 0,007 mm) kalkulyatsiya va haqiqat mos kelishini ta'minlaydi.",
+        "p2": "Tizim nasoslarning quvvatini kamaytiradi, chunki bosim yo'qotilishi va ishqalanish metall alternativlarga qaraganda ancha past bo'ladi."
+      },
+      "conclusion": {
+        "title": "Ekstremal sharoitlarda parchalanishga chidamlilik.",
+        "p1": "Sanoat qo'llanmalarida quvur tizimining sifatini odatiy ishlash emas, balki chegaraviy sharoitlardagi barqarorlik belgilaydi. Kimyoviy korroziya, bosim urishlari natijasidagi kavitatsiya va termik zarbalar an'anaviy o'rnatishlarning tabiiy dushmanlaridir.",
+        "p2": "<span class=\"font-semibold\">K Aqua Matrix</span> inert to'siq qatlami orqali suyuq muhitni atrof-muhitdan ajratadi. Ion almashinuvi sodir bo'lmaydi. Metall tizimlar ulardan suv o'tgan paytdan boshlab degradatsiyaga uchraydi. Ular ishlash uchun o'zlarini qurbon qilishadi. Bizning PP-R tizimimiz o'n yilliklardan keyin ham mukammal bo'lib qoladi.",
+        "p3": "<span class=\"font-semibold\">Stress yorilishiga chidamlilik</span> (Environmental Stress Cracking Resistance, ESCR) tushunchasi polimer kimyosida katta ahamiyatga ega. Biz kopolimerimizning molekulyar og'irligini shunday o'zgartiramizki, u yuklanish cho'qqilarida buzilish o'rniga ularni yutadi. Natijada - bino silkinishlari, tebranishlar va cho'kishlarini o'zlashtiradigan tizim.",
+        "p4": "Quvur texnologiyasi terminologiyasini tushunganlar, nima uchun bu yerda murosaga kelish halokatli bo'lishi mumkinligini ham tushunishadi. Nemis muhandisligi quruq va'da emas, balki biz ishlab chiqarishimizning har bir santimetrida namoyon bo'ladigan aniq jismoniy parametrlarning yig'indisidir."
+      },
+      "cta": {
+        "title1": "Nazariya tugadi.",
+        "title2": "Amaliyot boshlanadi.",
+        "desc": "Bizning muhandislarimizga eng og'ir texnik talablaringizni bering. Biz tizim arxitekturasini taqdim etamiz.",
+        "button": "Muhandislik brifingini boshlash"
+      }
+    }
+  },
+  "partner": {
+    "eyebrow": "Bizning mas'uliyatimiz",
+    "title1": "Biz global miqyosda ishlaymiz.",
+    "titleGrad": "Lekin mahalliymiz.",
+    "lead": "K Aqua PP-R tizimlari butun dunyo bo'ylab qo'llaniladi. Shunga qaramay, biz har bir metr quvurni Valdsolmsdagi (Germaniya) zavodimizda ishlab chiqaramiz va sinovdan o'tkazamiz.",
+    "globeAria": "Interaktiv globus, aylantirish uchun torting",
+    "factory": "Bizning zavodimiz (Valdsolms)",
+    "factoryDesc": "Markaziy Yevropa bo'ylab etkazib berish. Mahsulotlarni kuzatib borish va nemis sifati nazorati.",
+    "globeTooltip": "Butun dunyo bo'ylab K-Aqua"
+  },
+  "academy": {
+    "eyebrow": "K-Aqua Akademiyasi",
+    "title1": "Birlashtiradigan",
+    "titleGrad": "bilim.",
+    "lead": "To'rtta PP-R payvandlash usuli videoda va sizni payvandlash ustasiga aylantiradigan viktorina. K-Aqua akademiyasida birlashtiradigan bilimlar. Qurilish maydonchasi uchun optimallashtirilgan: katta maqsadlar, yuqori kontrast.",
+    "videos": [
+      {
+        "t": "Qo'lda rozetkali payvandlash",
+        "s": "d63 gacha: Qo'l payvandlash uskunasi"
+      },
+      {
+        "t": "Mashinada rozetkali payvandlash",
+        "s": "o'rtacha o'lchamlar"
+      },
+      {
+        "t": "Elektr payvandlash",
+        "s": "Elektr isitiladigan fittinglar"
+      },
+      {
+        "t": "Tugma payvandlash (Butt welding)",
+        "s": "d630 gacha bo'lgan katta o'lchamlar"
+      }
+    ],
+    "quizEyebrow": "Payvandlash ustasi viktorinasi",
+    "quizTitle": "Besh savol. Bitta unvon.",
+    "intro": "PP-R/PPRCT haqidagi bilimlaringizni sinab ko'ring. Xatosiz = \"Payvandlash ustasi\" unvoni.",
+    "start": "Viktorinani boshlash",
+    "qLabel": "Savol",
+    "quiz": [
+      {
+        "q": "Katta o'lchamlar (masalan, d630) uchun qaysi payvandlash usuli standart hisoblanadi?",
+        "o": [
+          "Qo'lda rozetkali payvandlash",
+          "Tugma payvandlash (Butt Fusion)",
+          "Yelimlash"
+        ]
+      },
+      {
+        "q": "Quvur tizimlarida SDR nimani anglatadi?",
+        "o": [
+          "Standard Dimension Ratio (d/s) - Standart o'lcham nisbati",
+          "Static Density Rating",
+          "Xavfsizlik-bosim-zaxirasi"
+        ]
+      },
+      {
+        "q": "PPRCT an'anaviy PP-R dan nimasi bilan farq qiladi?",
+        "o": [
+          "Past narxi bilan",
+          "O'zgartirilgan kristal strukturasi → ko'proq harorat va bosim zaxirasi",
+          "Metall bilan mustahkamlangani"
+        ]
+      },
+      {
+        "q": "Polipropilen qanday qayta ishlash kodiga ega?",
+        "o": [
+          "Kod 3",
+          "Kod 5",
+          "Kod 7"
+        ]
+      },
+      {
+        "q": "Elektr payvandlashda (Electrofusion) issiqlik qayerdan keladi ...",
+        "o": [
+          "isitish elementi oynasidan",
+          "fittingga o'rnatilgan issiqlik spirallaridan",
+          "issiq havodan"
+        ]
+      }
+    ],
+    "resPerfect": "Ajoyib! \"Payvandlash ustasi\" unvoniga loyiq topildingiz!",
+    "resGood": "Yaxshi! \"Payvandchi yordamchisi\" unvoniga ega bo'ldingiz. Usta bo'lish uchun beshtasi ham to'g'ri bo'lishi kerak.",
+    "resLow": "Yuqoridagi videolar yordam beradi. Shundan so'ng usta unvonini olishingiz mumkin.",
+    "retry": "Yana urinib ko'rish",
+    "titlePerfect": "Payvandlash ustasi",
+    "titleGood": "Payvandchi yordamchisi"
+  },
+  "refs": {
+    "eyebrow": "Loyihalar",
+    "title1": "Loyihalar bilan to'la",
+    "titleGrad": "globus.",
+    "lead": "Globusni aylantiring, belgiga bosing: Har bir belgi amalda qo'llanilayotgan tasdiqlangan K Aqua texnologiyasini anglatadi. (Haqiqiy loyihalar uchun misollar.)",
+    "canvasAria": "Loyihalar ko'rsatilgan interaktiv globus, aylantirish uchun torting",
+    "note": "Haqiqiy loyiha nomlari, fotosuratlari va ko'rsatkichlari tahririyat tomonidan qo'shilishi kerak. Buning uchun asos yaratilgan.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Valdsolms, Germaniya",
+        "d": "Asosiy zavod va rivojlantirish: bu yerda har bir K Aqua quvuri ishlab chiqariladi."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubay, BAA",
+        "d": "Osmono'par binolar ko'targichlari: cho'l sharoitida issiq suv uchun PPRCT."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Varshava, Polsha",
+        "d": "Yangi turar-joy hududi: d20-d110 to'liq ichimlik suvi o'rnatilishi."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Turkiya",
+        "d": "Mehmonxona majmuasi: tolali kompozit quvurlar bilan sirkulyatsiya tarmoqlari."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infratuzilma loyihasi: d630 gacha bo'lgan katta o'lchamlar tugma payvandlash orqali."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Keyptaun, Janubiy Afrika",
+        "d": "Yangi shifoxona binosi: ichimlik suvini gigienik taqsimlash."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, Buyuk Britaniya",
+        "d": "Ofisni ta'mirlash: mavjud quvurlarni korroziyasiz muqobilga almashtirish."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Loyihachilar, xaridorlar va o'rnatuvchilar uchun",
+    "title1": "Siz rejalashtirasiz, hisoblaysiz yoki o'rnatasiz.",
+    "titleGrad": "Biz poydevor yetkazib beramiz.",
+    "lead": "K Aqua da har bir rol navbatdagi qaror uchun zarur bo'lgan ma'lumotni to'g'ridan-to'g'ri topadi. PDF varaqlashlarsiz, qayta qo'ng'iroqni kutishlarsiz.",
+    "personas": [
+      {
+        "t": "Loyihachilar va mutaxassis muhandislar",
+        "d": "Standartlarga mos texnik ma'lumotlar, SDR jadvallari va tender uchun bevosita ishlatilishi mumkin bo'lgan CO₂ dalillari.",
+        "cta": "Texnik ma'lumotlarga",
+        "goto": "products"
+      },
+      {
+        "t": "Xarid va ta'minot",
+        "d": "To'g'ridan-to'g'ri zavoddan yetkazib berish, Valdsolmsdan rejalashtiriladigan logistika va vositachilar o'rniga yagona aloqa shaxsi.",
+        "cta": "Loyiha so'rovini boshlash",
+        "goto": "rfq"
+      },
+      {
+        "t": "Santexniklar va o'rnatuvchilar",
+        "d": "To'rtta payvandlash usuli video orqali, asbob-uskunalar tahlili va aniq ishlov berish chegaralari, qurilish maydonchasida xavfsizlik.",
+        "cta": "Akademiyaga o'tish",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Nima uchun K Aqua",
+    "whyTitle": "Hisob-kitobda aks etadigan to'rtta sabab.",
+    "why": [
+      {
+        "t": "Bosimga va issiq suvga chidamli",
+        "d": "O'zgartirilgan kristal strukturali PPRCT: o'n yilliklar davomida ko'proq harorat va bosim zaxirasi."
+      },
+      {
+        "t": "Korroziyasiz",
+        "d": "Metall quvurlardagi kabi zang yo'q, qobiq bog'lamaydi, chuqur korroziya xavfi yo'q."
+      },
+      {
+        "t": "Qayta ishlanadigan va kam CO₂",
+        "d": "Qayta ishlash kodi 5, mis yoki po'latdan sezilarli darajada kichik iz qoldiradi: CO₂ kalkulyatorida tasdiqlanadi."
+      },
+      {
+        "t": "Yagona aloqa shaxsi",
+        "d": "Quvur, fittinglar, klapanlar va payvandlash texnologiyasi bir joydan - vositachidan emas, bevosita ishlab chiqaruvchidan."
+      }
+    ],
+    "promise": [
+      "Zavoddan bevosita",
+      "Javob < 24 soat",
+      "Majburiyatsiz"
+    ],
+    "ctaAll": "2 daqiqa ichida loyiha so'rovi"
+  }
+}

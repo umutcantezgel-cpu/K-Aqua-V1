@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Projektanfrage",
+  "title1": "Ihr Projekt,",
+  "titleGrad": "unser Angebot.",
+  "lead": "In vier kurzen Schritten zur unverbindlichen Anfrage. Sie erhalten innerhalb eines Werktags eine persönliche Rückmeldung vom Vertrieb.",
+  "steps": [
+    "Projektart",
+    "Bedarf",
+    "Termin & Region",
+    "Kontakt"
+  ],
+  "types": [
+    {
+      "t": "Neubau / Hochbau",
+      "d": "Trinkwasserinstallation in Wohn- oder Gewerbebau."
+    },
+    {
+      "t": "Infrastruktur / Tiefbau",
+      "d": "Versorgungsleitungen, Großdimensionen, Netze."
+    },
+    {
+      "t": "Sanierung / Austausch",
+      "d": "Ersatz von Bestandsleitungen aus Metall oder PVC."
+    },
+    {
+      "t": "Handel / Wiederverkauf",
+      "d": "Distribution, Lager oder Projektgeschäft."
+    }
+  ],
+  "fType": "Projektart",
+  "fDims": "Benötigte Dimensionen",
+  "fMeters": "Geschätzte Lauflänge",
+  "dimsHint": "Grobe Angaben genügen, wir konkretisieren gemeinsam. Mehrfachauswahl möglich.",
+  "fTime": "Geplanter Zeitrahmen",
+  "fRegion": "Lieferregion",
+  "timelines": [
+    "Sofort / laufend",
+    "In 1–3 Monaten",
+    "In 3–6 Monaten",
+    "Planungsphase"
+  ],
+  "regions": [
+    "Deutschland",
+    "DACH",
+    "Europa",
+    "Naher & Mittlerer Osten",
+    "Weltweit"
+  ],
+  "fName": "Name",
+  "fCompany": "Unternehmen",
+  "fEmail": "E-Mail",
+  "fPhone": "Telefon",
+  "fMsg": "Nachricht (optional)",
+  "privacy": "Mit dem Absenden öffnen Sie eine vorausgefüllte E-Mail an info@k-aqua.de. Es werden keine Daten auf dieser Seite gespeichert.",
+  "back": "Zurück",
+  "next": "Weiter",
+  "send": "Anfrage senden",
+  "mailSubject": "Projektanfrage K Aqua",
+  "promise": [
+    "Antwort < 24 h",
+    "Unverbindlich",
+    "Direkt vom Hersteller"
+  ],
+  "doneTitle": "Fast geschafft.",
+  "doneText": "Ihr E-Mail-Programm hat sich mit der vorausgefüllten Anfrage geöffnet. Senden Sie sie ab. Wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
+  "doneBack": "Zurück zur Startseite",
+  "infoTitle": "Über die Projektanfrage",
+  "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben oder Industrieprojekt frühzeitig mit unseren Experten abzustimmen. Egal ob Sie in der Planungsphase stecken oder bereits konkrete Materiallisten vorliegen haben, wir unterstützen Sie bei der Dimensionierung und Materialauswahl.",
+  "infoText2": "Durch die enge Zusammenarbeit mit dem K Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Druckstufen (SDR-Klassen), Verlegeverfahren und systemkonformem Zubehör. Senden Sie uns Ihre Rahmendaten, und wir melden uns innerhalb eines Werktags bei Ihnen zurück.",
+  "faqTitle": "Häufig gestellte Fragen zur Anfrage",
+  "faqs": [
+    {
+      "q": "Ist die Projektanfrage kostenpflichtig?",
+      "a": "Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich."
+    },
+    {
+      "q": "Was passiert nach dem Absenden der Anfrage?",
+      "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten."
+    },
+    {
+      "q": "Kann ich auch als Privatperson anfragen?",
+      "a": "K Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter."
+    },
+    {
+      "q": "Wie sicher sind meine Daten?",
+      "a": "Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien."
+    }
+  ]
+}

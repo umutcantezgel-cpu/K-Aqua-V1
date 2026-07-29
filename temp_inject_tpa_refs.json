@@ -1,0 +1,341 @@
+  "trust": {
+    "eyebrow": "Sertipiko at Kalidad",
+    "title1": "Bawat pag-apruba na",
+    "titleGrad": "kailangan mo.",
+    "lead": "I-download ang lahat ng internasyonal at pambansang sertipikasyon, ulat sa kalinisan, at ISO management verification para sa iyong K Aqua system dito.",
+    "certEyebrow": "Mga Sertipiko (Self-Service)",
+    "certTitle": "Opisyal na Na-verify.",
+    "certLead": "I-download ang mga kasalukuyang sertipiko para sa iyong pagpaplano at dokumentasyon ng proyekto.",
+    "list": [
+      {
+        "t": "DVGW",
+        "d": "Regulasyon ng German inuming tubig",
+        "dl": "DVGW-Zertifikat.pdf"
+      },
+      {
+        "t": "SKZ",
+        "d": "De-kalidad na pagsubok sa paggawa ng tubo",
+        "dl": "SKZ-Zertifikat.pdf"
+      },
+      {
+        "t": "WRAS",
+        "d": "Pag-apruba ng kalinisan (UK)",
+        "dl": "WRAS-Zertifikat.pdf"
+      },
+      {
+        "t": "AENOR",
+        "d": "System approval para sa Spain",
+        "dl": "AENOR-Zertifikat.pdf"
+      },
+      {
+        "t": "ISO 9001",
+        "d": "Pamamahala sa kalidad",
+        "dl": "ISO-9001.pdf"
+      },
+      {
+        "t": "ISO 14001",
+        "d": "Pamamahala sa kapaligiran",
+        "dl": "ISO-14001.pdf"
+      },
+      {
+        "t": "ISO 50001",
+        "d": "Pamamahala sa enerhiya",
+        "dl": "ISO-50001.pdf"
+      }
+    ]
+  },
+  "partner": {
+    "eyebrow": "Programa ng Kasosyo",
+    "title1": "Isang mas malakas na bono.",
+    "titleGrad": "Para sa wholesale.",
+    "lead": "Tinutustusan namin ang wholesale – direkta mula sa Waldsolms. Naging opisyal na K Aqua Partner at makinabang sa pinakamabilis na logistik at eksklusibong kondisyon.",
+    "heroCta": "Maging partner na ngayon",
+    "benefits": [
+      {
+        "t": "Direktang access sa tagagawa",
+        "d": "Walang mahabang pag-uusap. Direktang tumatawag ka sa pabrika."
+      },
+      {
+        "t": "Diskwento sa proyekto",
+        "d": "Suporta sa pagkalkula para sa malalaking proyekto at matinding kumpetisyon."
+      },
+      {
+        "t": "Priyoridad na logistik",
+        "d": "Available ang malalaking tubo o fitting nang mas mabilis at direktang ipadadala sa construction site kung kinakailangan."
+      },
+      {
+        "t": "Opisyal na Listahan",
+        "d": "Ipo-posisyon ka namin bilang isang inirerekomendang K Aqua supplier sa iyong rehiyon."
+      }
+    ],
+    "contactTitle": "Mag-apply bilang partner",
+    "contactText": "Naghahanap kami ng malalakas na B2B partner na gustong magbenta ng K Aqua ng may eksklusibong karapatan sa kanilang mga rehiyon. Interesado? Ipadala sa amin ang iyong pagtatanong.",
+    "cta": "Makipag-ugnayan sa sales"
+  },
+  "academy": {
+    "eyebrow": "Sentro ng Pagsasanay",
+    "title1": "Malinaw na mga parameter.",
+    "titleGrad": "Ligtas na welds.",
+    "lead": "Ipinapakita namin nang hakbang-hakbang kung paano maayos na napoproseso ang PP-R at PPRCT - para sa matibay at homogenous na mga joint.",
+    "methodsEyebrow": "Mga Paraan ng Welding",
+    "methodsTitle": "Apat na paraan para sa pagiging perpekto.",
+    "methodsLead": "Mula d20 hanggang d630, nag-aalok kami ng tamang pamamaraan ng pagsasanib para sa bawat dimensyon at bawat kinakailangan sa construction site. Sa pamamagitan ng pagtunaw, ang parehong tubo at fitting ay nagiging isang hindi mapaghihiwalay na materyal na yunit.",
+    "methods": [
+      {
+        "t": "Polyfusion Welding",
+        "d": "Ang klasiko para sa d20 hanggang d125. Ang tubo at fitting ay parehong pinapainit nang sabay at pagkatapos ay isinasama.",
+        "icon": "Heater"
+      },
+      {
+        "t": "Electrofusion Welding",
+        "d": "Espesyal na welding socket na may pinagsamang heating wire. Awtomatikong kontrolado at naida-dokumento (d20–d630).",
+        "icon": "Zap"
+      },
+      {
+        "t": "Butt Welding",
+        "d": "Para sa malalaking tubo na d90 hanggang d630. Ang mga gilid ay sabay na pinapainit at pinipiga gamit ang hydraulic machine.",
+        "icon": "AlignVerticalSpaceAround"
+      },
+      {
+        "t": "Weld-in Saddles",
+        "d": "Praktikal na solusyon para sa mga huling koneksyon (hal. mga sensor o sangay) nang hindi pinuputol ang pangunahing tubo.",
+        "icon": "GitMerge"
+      }
+    ],
+    "vidEyebrow": "Mga Tutorial na Video",
+    "vidTitle": "Ganyan ito ginagawa.",
+    "vidLead": "Panoorin nang direkta kung ano ang mahalaga: Panahon ng pag-init, oras ng paglamig, presyon. Iniiwasan ng aming maiikling tutorial ang malalaking error sa assembly.",
+    "videos": [
+      {
+        "id": "poly",
+        "t": "Polyfusion (Socket) Welding",
+        "d": "Paano i-weld nang tama ang d20-d125 gamit ang socket welding device.",
+        "dur": "3:45 Min",
+        "thumb": "/images/academy/poly-thumb.jpg"
+      },
+      {
+        "id": "electro",
+        "t": "Electrofusion Welding",
+        "d": "Paghahanda (pag-scrape) at automated na proseso ng welding ng mga e-socket.",
+        "dur": "4:20 Min",
+        "thumb": "/images/academy/electro-thumb.jpg"
+      },
+      {
+        "id": "butt",
+        "t": "Butt Welding (d90+)",
+        "d": "Mga makina ng CNC, mga yugto ng presyon at eksaktong pagpapantay ng mga tubo.",
+        "dur": "5:10 Min",
+        "thumb": "/images/academy/butt-thumb.jpg"
+      },
+      {
+        "id": "saddle",
+        "t": "Weld-in Saddles",
+        "d": "Pagbubutas ng tubo at pagwi-weld ng branch socket.",
+        "dur": "2:50 Min",
+        "thumb": "/images/academy/saddle-thumb.jpg"
+      }
+    ],
+    "ctaTitle": "Personal na Pagsasanay?",
+    "ctaText": "Nag-aalok kami ng K Aqua Masterclass (sertipikasyon ng welder) para sa mga contractor at malalaking site teams. Sa site o sa amin.",
+    "ctaButton": "Mag-book ng Pagsasanay"
+  },
+  "refs": {
+    "eyebrow": "Mga Sanggunian",
+    "title1": "Isang Globo na Puno ng",
+    "titleGrad": "Proyekto.",
+    "lead": "Iikot ang globo, i-tap ang isang marker: Ang bawat marka ay kumakatawan sa subok nang K Aqua technology. (Mga halimbawa ng proyekto bilang placeholder para sa tunay na mga sanggunian.)",
+    "canvasAria": "Interaktibong globo na may mga reference na proyekto, i-drag para paikutin",
+    "note": "Ang mga totoong pangalan ng proyekto, larawan, at key figures ay dapat idagdag sa pamamagitan ng pag-edit. Nakahanda na ang stage para rito.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Germany",
+        "d": "Pangunahing pabrika at pag-unlad: dito ginagawa ang bawat K Aqua pipe."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, UAE",
+        "d": "Risers para sa matataas na gusali: PPRCT para sa mainit na tubig sa ilalim ng mga kondisyon ng disyerto."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warsaw, Poland",
+        "d": "Bagong residential area construction: kumpletong instalasyon ng inuming tubig d20-d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Turkey",
+        "d": "Hotel complex: Mga linya ng sirkulasyon na may fiber composite pipe."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapore",
+        "d": "Infrastrukturang proyekto: Malaking sukat hanggang d630 na isinagawa sa butt welding method."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cape Town, South Africa",
+        "d": "Pagtatayo ng bagong ospital: malinis na pamamahagi ng inuming tubig."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Pagkukumpuni ng opisina: solusyong hindi kinakalawang pamalit sa mga lumang tubo."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Para sa mga Planner, Pagbili at Tagaproseso",
+    "title1": "Ikaw ang nagpaplano, nagkakalkula o nag-i-install.",
+    "titleGrad": "Kami ang nagbibigay ng batayan.",
+    "lead": "Mahahanap ng bawat posisyon sa K Aqua ang eksaktong impormasyong kailangan nila para sa susunod na desisyon, nang hindi na nagbabasa ng maraming PDF at hindi naghihintay ng tawag pabalik.",
+    "personas": [
+      {
+        "t": "Mga Planner at Espesyalistang Inhinyero",
+        "d": "Sumusunod sa pamantayang teknikal na data, mga SDR table, at katibayan ng CO₂ para sa pagtatanong, na magagamit nang direkta.",
+        "cta": "Sa teknikal na data",
+        "goto": "products"
+      },
+      {
+        "t": "Pagbili & Pagkuha",
+        "d": "Direktang paghahatid mula sa pabrika, napaplanong logistik mula Waldsolms at iisang contact sa halip na mga tagapamagitan.",
+        "cta": "Simulan ang pagtatanong sa proyekto",
+        "goto": "rfq"
+      },
+      {
+        "t": "Mga Installer at Tagaproseso",
+        "d": "Apat na paraan ng welding bilang video, pangkalahatang ideya ng tool at malinaw na hangganan ng pagproseso, kaligtasan sa construction site.",
+        "cta": "Tungo sa Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Bakit K Aqua",
+    "whyTitle": "Anim na dahilan kung bakit ito maganda sa kalkulasyon.",
+    "why": [
+      {
+        "t": "Matibay sa presyon at mainit na tubig",
+        "d": "PPRCT na may modipikadong istrukturang kristal: higit pang reserba sa temperatura at presyon sa loob ng mga dekada."
+      },
+      {
+        "t": "Hindi kinakalawang",
+        "d": "Walang kalawang, walang encrustation, walang panganib sa pag-ukit kumpara sa mga metal na tubo."
+      },
+      {
+        "t": "Nare-recycle at low-CO₂",
+        "d": "Recycling Code 5, mas maliit na footprint kumpara sa tanso o asero: maipapakita sa CO₂ calculator."
+      },
+      {
+        "t": "Iisang contact person",
+        "d": "Tubo, fitting, balbula at welding technology mula sa iisang source, mula sa manufacturer, hindi mula sa tagapamagitan."
+      }
+    ],
+    "promise": [
+      "Direkta mula sa pabrika",
+      "Sagot < 24 oras",
+      "Walang obligasyon"
+    ],
+    "ctaAll": "Pagtatanong sa proyekto sa 2 minuto"
+  },
+  "rfq": {
+    "eyebrow": "Pagtatanong sa Proyekto",
+    "title1": "Iyong proyekto,",
+    "titleGrad": "aming alok.",
+    "lead": "Sa apat na maiikling hakbang tungo sa pagtatanong na walang obligasyon. Makakatanggap ka ng personal na tugon mula sa sales team sa loob ng isang working day.",
+    "steps": [
+      "Uri ng proyekto",
+      "Pangangailangan",
+      "Petsa & Rehiyon",
+      "Kontak"
+    ],
+    "types": [
+      {
+        "t": "Bagong gusali / Structural engineering",
+        "d": "Pag-install ng inuming tubig sa mga gusaling paninirahan o komersyal."
+      },
+      {
+        "t": "Imprastraktura / Civil engineering",
+        "d": "Mga linya ng suplay, malalaking dimensyon, mga network."
+      },
+      {
+        "t": "Pag-renovate / Pagpapalit",
+        "d": "Pagpapalit ng umiiral na mga metal o PVC na tubo."
+      },
+      {
+        "t": "Kalakalan / Muling Pagbebenta",
+        "d": "Distribusyon, imbakan o negosyong pangproyekto."
+      }
+    ],
+    "fType": "Uri ng proyekto",
+    "fDims": "Mga kailangang dimensyon",
+    "fMeters": "Tinatayang haba",
+    "dimsHint": "Sapat na ang tinatayang mga detalye, lilinawin natin nang magkasama. Posible ang pagpili ng marami.",
+    "fTime": "Nakaplanong timeframe",
+    "fRegion": "Rehiyon ng paghahatid",
+    "timelines": [
+      "Agad / kasalukuyan",
+      "Sa loob ng 1-3 buwan",
+      "Sa loob ng 3-6 na buwan",
+      "Yugto ng pagpaplano"
+    ],
+    "regions": [
+      "Alemanya",
+      "DACH",
+      "Europa",
+      "Middle East",
+      "Sa buong mundo"
+    ],
+    "fName": "Pangalan",
+    "fCompany": "Kompanya",
+    "fEmail": "Email",
+    "fPhone": "Telepono",
+    "fMsg": "Mensahe (opsyonal)",
+    "privacy": "Sa pagpapadala, bubuksan mo ang isang paunang napunan na email sa info@k-aqua.de. Walang data na naiimbak sa page na ito.",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "send": "Ipadala ang Pagtatanong",
+    "mailSubject": "Pagtatanong sa Proyekto sa K Aqua",
+    "promise": [
+      "Sagot < 24 oras",
+      "Walang obligasyon",
+      "Direkta mula sa manufacturer"
+    ],
+    "doneTitle": "Halos tapos na.",
+    "doneText": "Ang iyong email program ay bumukas na kasama ang paunang napunang pagtatanong. Ipadala ito. Makikipag-ugnayan kami sa loob ng isang working day. Mas gusto mo bang mag-usap nang direkta?",
+    "doneBack": "Bumalik sa homepage",
+    "infoTitle": "Tungkol sa pagtatanong sa proyekto",
+    "infoText1": "Gamitin ang aming tool sa pagtatanong upang i-coordinate nang maaga ang iyong proyekto sa konstruksyon o industriya kasama ang aming mga eksperto. Nasa yugto ka man ng pagpaplano o mayroon nang mga konkretong listahan ng materyal, susuportahan ka namin sa pagdimensyon at pagpili ng materyal.",
+    "infoText2": "Sa malapit na pakikipagtulungan sa K Aqua sales team, hindi ka lamang makakatanggap ng tumpak na mga alok, kundi pati na rin ng mahalagang teknikal na payo tungkol sa mga antas ng presyon (SDR classes), mga pamamaraan ng pag-install at system-compliant na mga accessory. Ipadala sa amin ang iyong pangunahing data at babalikan ka namin sa loob ng isang working day.",
+    "faqTitle": "Mga Madalas Itanong tungkol sa pagtatanong",
+    "faqs": [
+      {
+        "q": "May bayad ba ang pagtatanong sa proyekto?",
+        "a": "Hindi, ang paggamit ng tool na ito at ang kasunod na pag-alok ng aming sales team ay ganap na libre at walang obligasyon para sa iyo."
+      },
+      {
+        "q": "Ano ang mangyayari pagkatapos ipadala ang pagtatanong?",
+        "a": "Ang iyong pagtatanong ay direktang ipapasa sa aming internal sales team. Isang personal na contact ang makikipag-ugnayan sa iyo sa loob ng 24 na oras upang linawin ang mga bukas na katanungan o upang direktang magpadala sa iyo ng isang pasadyang alok."
+      },
+      {
+        "q": "Maaari ba akong magtanong bilang isang pribadong indibidwal?",
+        "a": "Ang K Aqua ay pangunahing nakatuon sa mga wholesaler, planner at espesyalistang installer sa B2B sector. Ikalulugod naming i-forward ang mga pribadong customer sa aming mga kasosyong rehiyonal."
+      },
+      {
+        "q": "Gaano kaseguro ang aking data?",
+        "a": "Ang iyong inilagay na impormasyon ay hindi naiimbak sa server kundi direktang inililipat sa iyong email program, mula kung saan maipadadala mo nang ligtas ang pagtatanong sa amin. Mahigpit na itinatrato ang iyong data nang kumpidensyal ayon sa mga alituntunin ng GDPR."
+      }
+    ]
+  },

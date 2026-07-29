@@ -1,0 +1,159 @@
+{
+  "krankenhaus": {
+    "sticky": {
+      "items": [
+        {
+          "title": "Legionellenprävention auf molekularer Ebene",
+          "desc": "In der kritischen Krankenhausinfrastruktur ist Wasserhygiene keine Option, sondern eine Überlebensfrage. Unsere K Aqua Rohrsysteme nutzen extrem glatte, porenfreie Innenoberflächen, die die Bildung von Biofilmen und die Proliferation von Legionellen physikalisch unterbinden. German Engineering bedeutet hier: Prävention durch perfekte Materialwissenschaft, nicht durch chemische Nachbehandlung."
+        },
+        {
+          "title": "Thermische Desinfektion ohne Materialermüdung",
+          "desc": "Klinische Standards erfordern regelmäßige thermische Desinfektionen bei Temperaturen über 70°C. Während herkömmliche Systeme hierbei rasch altern, ist das K Aqua PPR-System für extreme thermische Belastungen über Jahrzehnte hinweg ausgelegt. Keine Mikrorisse, keine Versprödung, keine Kompromisse."
+        },
+        {
+          "title": "Absolut sterile Verbindungen",
+          "desc": "Unsere patentierte Heizelement-Muffenschweißung verschmilzt Rohr und Fitting zu einer homogenen, vollkommen nahtlosen Einheit. Es entstehen keinerlei Toträume, in denen sich Stagnationswasser sammeln könnte. Das Ergebnis ist ein Leitungssystem aus einem Guss: die absolute physikalische Barriere gegen Kontamination."
+        },
+        {
+          "title": "Akustische Isolation für Intensivstationen",
+          "desc": "Lärm ist ein massiver Stressfaktor für Patienten und medizinisches Personal. Das K Aqua System besitzt inhärente schallabsorbierende Eigenschaften. Fließgeräusche und Druckstöße werden vom Material selbst geschluckt, was eine flüsterleise Wasserversorgung selbst bei Hochdruckanwendungen garantiert: essenziell für Operationssäle und Intensivstationen."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Phase 01",
+          "title": "Systemdimensionierung & Hydraulik",
+          "text": "Präzise Berechnung der Leitungsquerschnitte zur Vermeidung von Stagnationszonen. Jeder Millimeter Druckverlust wird in der Planungsphase durch unsere deutschen Ingenieure am digitalen Zwilling simuliert und eliminiert."
+        },
+        {
+          "year": "Phase 02",
+          "title": "Materialspezifikation",
+          "text": "Auswahl der spezifischen K Aqua Polymerblends, optimiert für klinische Anforderungen. Unsere Rohstoffe durchlaufen 42 Qualitätssicherungsschritte, bevor sie überhaupt den Extruder erreichen."
+        },
+        {
+          "year": "Phase 03",
+          "title": "Vorfertigung & Reinraum-Handling",
+          "text": "Vorkonfektionierung von komplexen Verteilern in kontrollierten Umgebungen. Minimierung der Schweißnähte auf der Baustelle garantiert eine bis zu 40% schnellere, fehlerfreie Installation unter Reinraumbedingungen."
+        },
+        {
+          "year": "Phase 04",
+          "title": "Inbetriebnahme & Prüfung",
+          "text": "Vollständige hydrostatische Druckprüfung und thermische Initialdesinfektion. Die Übergabe an den Generalunternehmer erfolgt mit einer lückenlosen, digitalen Dokumentation jeder einzelnen Schweißnaht."
+        },
+        {
+          "year": "Phase 05",
+          "title": "50 Jahre Wartungsfreiheit",
+          "text": "Nach der Inbetriebnahme verschwindet das System in der Wand und verrichtet lautlos und absolut zuverlässig seinen Dienst, garantiert für mindestens 50 Jahre ohne jegliche Materialermüdung."
+        }
+      ]
+    },
+    "hero": {
+      "eyebrow": "Mission-Critical Infrastructure",
+      "title1": "Krankenhäuser.",
+      "title2": "Null Fehlertoleranz.",
+      "desc": "In der medizinischen Maximalversorgung entscheidet die Infrastruktur über Leben und Tod. K Aqua liefert das hydrologische Nervensystem für die fortschrittlichsten Klinik-Megaprojekte der Welt. Gefertigt in Deutschland. Gebaut für die Ewigkeit.",
+      "cta1": "Engineering Consulting",
+      "cta2": "BIM Daten herunterladen"
+    },
+    "intro": {
+      "title": "Wo ein Tropfen Wasser <br className=\"hidden md:block\"/> das System kollabieren lässt.",
+      "desc": "Generalunternehmer stehen bei Klinikprojekten vor einem unlösbaren Paradox: Enormer Zeitdruck bei der Errichtung trifft auf die strengsten hygienischen Vorgaben der Menschheitsgeschichte. Ein einziger Totraum im Rohrnetz, ein mikroskopischer Riss, eine korrodierende Verbindung: und Millioneninvestitionen sind gefährdet. Wir lösen dieses Paradox durch reine, kompromisslose deutsche Ingenieurskunst."
+    },
+    "stickySection": {
+      "eyebrow": "Technologische Überlegenheit",
+      "title": "Die Anatomie der Sicherheit.",
+      "lead": "Wir betrachten ein Krankenhaus nicht als Gebäude, sondern als biologischen Organismus. Das K Aqua System ist sein unzerstörbares Gefäßsystem. Jeder Millimeter unserer Rohrleitungen ist auf absolute Ausfallsicherheit kalibriert."
+    },
+    "bentoSection": {
+      "eyebrow": "ROI & Lebenszyklus",
+      "title": "Wirtschaftlichkeit durch Perfektion.",
+      "lead": "Qualität ist kein Kostenfaktor, sondern der einzige Weg zur Profitabilität in der Gebäudeautomation. K Aqua minimiert die Total Cost of Ownership auf ein beispielloses Niveau und garantiert gleichzeitig maximale Patientensicherheit."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "100% Korrosionsresistenz",
+          "desc": "Im Gegensatz zu metallischen Rohren ist K Aqua vollständig immun gegen elektrochemische Korrosion, Lochfraß und kalkhaltiges Wasser. Keine Inkrustation, kein Druckverlust über 50 Jahre Dauerbetrieb."
+        },
+        {
+          "title": "Blitzschnelle Installation",
+          "desc": "Das geringe Eigengewicht und die homogene Schweißtechnik reduzieren die Installationszeit um bis zu 40%. Weniger Manntage, geringeres Risiko auf der Baustelle.",
+          "badge": "-40% Time"
+        },
+        {
+          "title": "Erdbebensichere Flexibilität",
+          "desc": "Die modulare molekulare Struktur des Materials erlaubt es, seismische Schocks und Gebäudesetzungen zu absorbieren, ohne zu brechen. Essenziell für Krankenhäuser in Risikogebieten.",
+          "badge": "Seismic Grade"
+        },
+        {
+          "title": "geprüfte Trinkwassergüte",
+          "desc": "Erfüllt und übertrifft die weltweit strengsten Normen (DIN, DVGW, SKZ, WRAS) für den Transport von Reinstwasser und hochsensiblen klinischen Medien."
+        }
+      ]
+    },
+    "timelineSection": {
+      "title": "Der K Aqua Standard.",
+      "desc": "Von der ersten CAD-Zeichnung bis zum letzten Wassertropfen ist unser Prozess eine Symphonie der Präzision, die keinen Raum für Zufälle lässt."
+    },
+    "specs": {
+      "eyebrow": "Spezifikationen",
+      "title": "Die harten Fakten.",
+      "lead": "Für Ingenieure, Planer und Architekten: Die physikalischen und chemischen Grenzwerte unseres Systems für den klinischen Einsatz. Transparenz ist die Basis für Vertrauen.",
+      "therm": {
+        "title": "Thermische Belastbarkeit",
+        "items": [
+          {
+            "label": "Dauerbetriebstemperatur",
+            "value": "70°C"
+          },
+          {
+            "label": "Maximale Störfalltemperatur",
+            "value": "95°C (100h)"
+          },
+          {
+            "label": "Wärmeleitfähigkeit",
+            "value": "0.24 W/mK"
+          },
+          {
+            "label": "Linearer Ausdehnungskoeffizient",
+            "value": "0.15 mm/mK"
+          }
+        ]
+      },
+      "mech": {
+        "title": "Mechanische Eigenschaften",
+        "items": [
+          {
+            "label": "Dichte",
+            "value": "0.895 g/cm³"
+          },
+          {
+            "label": "Zugfestigkeit",
+            "value": "23 MPa"
+          },
+          {
+            "label": "Bruchdehnung",
+            "value": "> 50%"
+          },
+          {
+            "label": "Elastizitätsmodul",
+            "value": "800 MPa"
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM & CAD Ressourcen",
+      "desc": "Laden Sie detaillierte Revit-Familien, AutoCAD-Dateien und vollständige hydraulische Datensätze für Ihre Gebäudeinformationsmodellierung (BIM) herunter. Millimetergenaue Planungssicherheit für Ihr Projekt.",
+      "cta": "Zum Download-Center"
+    },
+    "cta": {
+      "eyebrow": "Next Steps",
+      "title": "Bereit für das nächste Megaprojekt?",
+      "desc": "Unsere Application Engineers stehen bereit, um die komplexesten hydraulischen Herausforderungen Ihres Klinikprojekts zu lösen. Kein Projekt ist zu groß, kein Standard zu streng.",
+      "button": "Engineering Team kontaktieren"
+    }
+  }
+}

@@ -1,0 +1,327 @@
+"academyx": {
+    "paramEyebrow": "Welding Parameters",
+    "paramTitle": "Socket welding: the reference values.",
+    "paramLead": "Heating, changeover and cooling times for socket welding according to DVS 2207-11 (heating element 250–270 °C), the basis shown practically in the videos.",
+    "paramHead": [
+      "d (mm)",
+      "Welding depth (mm)",
+      "Heating (s)",
+      "Changeover max. (s)",
+      "Cooling (min)"
+    ],
+    "paramNote": "Reference values according to DVS 2207-11 for PP at 250–270 °C heating element temperature. The welding machine manufacturer's specifications and the processing instructions are binding; in case of doubt: watch the video, check parameters on the device.",
+    "stepEyebrow": "Step-by-step procedure",
+    "stepTitle": "Four procedures, one quality standard.",
+    "stepLead": "Each procedure has its dimension range, and five steps that determine the connection's quality.",
+    "procTabs": [
+      "Socket (Manual)",
+      "Socket (Machine)",
+      "Electrofusion",
+      "Butt Welding"
+    ],
+    "procs": [
+      {
+        "t": "Manual socket welding, up to d63",
+        "steps": [
+          {
+            "t": "Cut & deburr",
+            "d": "Cut pipe at right angles, cleanly deburr and chamfer, use pipe cutter from the K Aqua tool range."
+          },
+          {
+            "t": "Mark welding depth",
+            "d": "Mark insertion depth on the pipe according to the table (e.g. 14 mm for d20), it defines the joining zone."
+          },
+          {
+            "t": "Simultaneous heating",
+            "d": "Push pipe into the heating bush, fitting onto the heating spigot, slide on simultaneously and keep the heating time exactly."
+          },
+          {
+            "t": "Join swiftly, without twisting",
+            "d": "Join axially within the changeover time. Never twist: twisting destroys the plasticized structure."
+          },
+          {
+            "t": "Fix & cool",
+            "d": "Fix connection for a few seconds, then wait the cooling time before mechanical load is applied."
+          }
+        ]
+      },
+      {
+        "t": "Machine socket welding, medium dimensions",
+        "steps": [
+          {
+            "t": "Prepare as with manual welding",
+            "d": "Cut to length, deburr, mark welding depth, the basic rules remain identical."
+          },
+          {
+            "t": "Clamp pipe & fitting",
+            "d": "The machine holds both joining partners coaxially, offset and tilt errors are mechanically excluded."
+          },
+          {
+            "t": "Heat with heating element",
+            "d": "Heating bush and spigot according to DVS reference values; the machine maintains position and time reproducibly."
+          },
+          {
+            "t": "Machine joining",
+            "d": "The feed joins axially and evenly, the key to constant quality, especially for d75 to d125."
+          },
+          {
+            "t": "Cool under fixation",
+            "d": "Only unclamp and process further after the cooling time has elapsed."
+          }
+        ]
+      },
+      {
+        "t": "Electrofusion, heating coil fittings",
+        "steps": [
+          {
+            "t": "Peel surface",
+            "d": "Peel and clean the pipe surface in the joining zone, oxide skin and dirt prevent welding."
+          },
+          {
+            "t": "Mark insertion depth",
+            "d": "Mark depth on the pipe, push pipe into the fitting up to the stop."
+          },
+          {
+            "t": "Fix tension-free",
+            "d": "Use holding clamps, the fitting must not be under bending stress during welding."
+          },
+          {
+            "t": "Start welding process",
+            "d": "The device energizes the embedded heating coils in the fitting, parameters come from the fitting, not from feeling."
+          },
+          {
+            "t": "Observe cooling time",
+            "d": "Only move or load after the specified cooling time, check control indicators on the fitting."
+          }
+        ]
+      },
+      {
+        "t": "Butt Fusion, large dimensions up to d630",
+        "steps": [
+          {
+            "t": "Face ends",
+            "d": "Face both pipe ends in the machine until continuous shavings appear, plane parallelism is mandatory."
+          },
+          {
+            "t": "Align & check offset",
+            "d": "Maximum offset 10% of the wall thickness, every millimeter counts at d630."
+          },
+          {
+            "t": "Heat on the heating element",
+            "d": "Equalize under pressure until a bead forms, then heat through without pressure, times according to DVS 2207-11."
+          },
+          {
+            "t": "Change over & join",
+            "d": "Remove the heating element swiftly and bring the ends together under defined joining pressure."
+          },
+          {
+            "t": "Cool under joining pressure",
+            "d": "The joining pressure remains until the end of the cooling time, then the homogeneous, permanently tight string is created."
+          }
+        ]
+      }
+    ],
+    "errEyebrow": "Defectology",
+    "errTitle": "The six most expensive mistakes, and their prevention.",
+    "errHead": [
+      "Mistake",
+      "Consequence",
+      "Prevention"
+    ],
+    "errRows": [
+      [
+        "Too long heating",
+        "Bead grows inwards, cross-section narrows",
+        "Stop heating time according to table, not by feeling"
+      ],
+      [
+        "Twisting when joining",
+        "Plasticized structure is destroyed, connection leaking",
+        "Only join axially, use marking as a check"
+      ],
+      [
+        "Missing deburring/chamfering",
+        "Material pushes up, joining zone becomes uneven",
+        "Deburr every cut, tool is part of the system"
+      ],
+      [
+        "Dirty heating element",
+        "Adhesions burn and become embedded in the seam",
+        "Clean heating surfaces with a lint-free cloth before each weld"
+      ],
+      [
+        "Premature loading",
+        "Seam deforms before solidifying",
+        "Observe cooling times, 8 minutes for d110"
+      ],
+      [
+        "Incorrect welding depth",
+        "Too short: small joining area · too deep: cross-section narrowing",
+        "Always mark insertion depth, never guess"
+      ]
+    ],
+    "glossEyebrow": "Glossary",
+    "glossTitle": "The terms of piping technology.",
+    "gloss": [
+      [
+        "SDR",
+        "Standard Dimension Ratio = Outer diameter divided by wall thickness (d/s). Smaller SDR = thicker wall = higher nominal pressure."
+      ],
+      [
+        "PN",
+        "Nominal pressure in bar at 20 °C over the design horizon, SDR 6 corresponds to PN 20, SDR 17 corresponds to PN 6."
+      ],
+      [
+        "d / di / s",
+        "Outer diameter / Inner diameter / Wall thickness in millimeters, di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylene Random Copolymer, the proven standard material for drinking water installations."
+      ],
+      [
+        "PPRCT",
+        "PP-R with modified crystal structure ('Crystallinity Temperature'), more temperature and pressure reserve with the same wall."
+      ],
+      [
+        "K-Fiber / GF",
+        "Glass fiber reinforced multilayer construction, reduces thermal expansion to about a quarter."
+      ],
+      [
+        "Socket welding",
+        "Socket Fusion: pipe and fitting are plasticized via heating bush and spigot and joined together."
+      ],
+      [
+        "Electrofusion",
+        "Electrofusion: embedded heating coils in the fitting generate the welding heat, parameter-controlled."
+      ],
+      [
+        "Butt Welding",
+        "Butt Fusion: plane-parallel pipe ends are heated on the heating element and joined under pressure, standard up to d630."
+      ],
+      [
+        "DVS 2207-11",
+        "The regulations for welding polypropylene, source of the reference values on this page."
+      ]
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Document Library",
+    "libTitle": "All documents, one overview.",
+    "libLead": "Three catalogues for direct download, certificates in two languages, and audit documents as self service in the Trust Centre.",
+    "libHead": [
+      "Dokument",
+      "Inhalt",
+      "Sprache",
+      "Zugriff"
+    ],
+    "libRows": [
+      {
+        "t": "K Aqua Product Range",
+        "s": "Complete catalogue: dimensions, items, system overview",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Product Features",
+        "s": "Technical properties and material data",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Quality Assurance",
+        "s": "Test methods and quality standards",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO Certificates (German)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "GENAU Policy & Risk Assessment",
+        "s": "Management system, prevention, risk assessment",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "EPD Data Sheets (Type III, EN 15804)",
+        "s": "Life cycle assessment data for LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "GAEB specification texts",
+        "s": "Ready-made texts for bills of quantities",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Quality Assurance Manual",
+        "s": "QA processes for supplier audits",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Download",
+    "libRequest": "Request in Trust Centre",
+    "supEyebrow": "Support paths",
+    "supTitle": "Three ways to get answers.",
+    "supLead": "Depending on your request, a different path is the fastest way to your goal, all with a response within one working day.",
+    "sup": [
+      {
+        "t": "Sales & Projects",
+        "d": "Offers, conditions, delivery times and project advice, or directly the project inquiry in five steps.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Quality & Technical Support",
+        "d": "Material, planning and processing questions, certificate checking, complaints according to QA manual.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Processing & Academy",
+        "d": "Four welding methods as video plus parameter tables, briefing for your team by arrangement.",
+        "c": "To the Academy",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Service FAQ",
+    "faqTitle": "Quick answers.",
+    "faq": [
+      {
+        "q": "What documents do I need for planning?",
+        "a": "Product range (dimensions and articles), product properties (material data) and, depending on the project, the dimension tables on the product page. For tenders, GAEB texts and EPD complete the package, both in the Trust Centre."
+      },
+      {
+        "q": "Where can I find the welding parameters?",
+        "a": "The reference values according to DVS 2207-11 are available in the Academy, including step-by-step instructions and defectology. The specifications of your welding equipment manufacturer are always binding."
+      },
+      {
+        "q": "How do I get certificates and audit documents?",
+        "a": "Download ISO certificates directly here (DE/EN). You can put together the GENAU policy, EPD, GAEB and QA manual as an RFP package in the Trust Centre, requested at the click of a button instead of waiting for days."
+      },
+      {
+        "q": "Who do I contact for technical questions?",
+        "a": "Contact support@k-aqua.de, the quality and technical support team will answer within one working day regarding material, planning and processing."
+      },
+      {
+        "q": "What is the quickest way to get an offer?",
+        "a": "Via the project inquiry: five steps, non-binding, with personal feedback from sales within one working day, directly from the manufacturer, without intermediaries."
+      },
+      {
+        "q": "In which languages are the documents available?",
+        "a": "Catalogues currently in English, certificates in German and English. This website operates in three languages (DE/EN/AR), further document languages on request via sales."
+      }
+    ]
+  }

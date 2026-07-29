@@ -2350,25 +2350,488 @@
     "globalNetworkDesc": "Tersedia di lebih dari 50 negara.",
     "whyChoose": "Mengapa memilih sistem ini?",
     "tools": {
-      "title": "Alat Las",
-      "desc": "Peralatan presisi tinggi untuk instalasi aman."
+      "metaTitle": "Alat & Aksesoris PP-R untuk Sistem Perpipaan",
+      "metaDesc": "Temukan alat dan aksesoris profesional K-Aqua. Untuk instalasi sistem perpipaan PP-R dan PP-RCT yang aman, efisien, dan tahan lama.",
+      "heroEyebrow": "Rekayasa Jerman",
+      "heroTitle": "Alat & Aksesoris.",
+      "heroSubtitle": "Presisi Mutlak.",
+      "heroDesc": "Modul ini memberikan keamanan tanpa kompromi untuk proyek paling menuntut di seluruh dunia. Diproduksi menurut standar industri yang paling ketat untuk bertahan selama beberapa generasi. Di mana kegagalan material bukanlah pilihan.",
+      "heroBtnPrimary": "Minta Proyek",
+      "heroBtnSecondary": "Data Teknis",
+      "bentoEyebrow": "Ekosistem K-Aqua",
+      "bentoTitle": "Alat untuk megaproyek global.",
+      "bentoLead": "Ketika kontraktor umum internasional merencanakan proyek bernilai miliaran, mereka tidak mengandalkan janji, melainkan pada fakta kuat dan peralatan berpresisi tinggi.",
+      "bento1Title": "Mesin las soket elemen pemanas",
+      "bento1Desc": "Untuk dimensi 20 mm hingga 125 mm. Desain ringkas dan tangguh untuk penggunaan kasar di lokasi konstruksi.",
+      "bento2Title": "Pemotong pipa & Gunting",
+      "bento2Desc": "Desain ergonomis untuk pekerjaan tanpa lelah dan potongan 90° yang sempurna.",
+      "bento3Title": "Mesin las butt",
+      "bento3Desc": "Untuk diameter nominal hingga 250 mm. Dikendalikan CNC untuk pengulangan absolut.",
+      "bento4Title": "Set perbaikan & Aksesoris",
+      "bento4Desc": "Kepala bor, sadel perbaikan, dan gergaji lubang untuk percabangan tambahan.",
+      "scrollEyebrow": "Teknologi Mendalam",
+      "scrollTitle": "Tidak ada ruang untuk toleransi kesalahan.",
+      "scrollLead": "Temukan detail teknologi yang menjadikan alat kami pilihan pertama bagi pemasang bersertifikat.",
+      "scroll1Title": "Termodinamika Sempurna. Pada setiap pengelasan.",
+      "scroll1Desc": "Mesin las soket elemen pemanas kami dilengkapi dengan duri pemanas berlapis teflon berpresisi tinggi dan soket pemanas. Kontrol suhu berbasis mikroprosesor menjamin suhu pengelasan konstan 260°C, bahkan pada suhu luar ekstrem di lokasi konstruksi global. Ini menciptakan ikatan yang tak terpisahkan dan homogen pada tingkat molekuler.",
+      "scroll2Title": "Pengelasan butt yang dikendalikan CNC.",
+      "scroll2Desc": "Untuk diameter nominal besar (hingga 250 mm dan lebih), kami mengandalkan mesin las butt yang dikendalikan CNC. Perhitungan tekanan dan waktu otomatis menghilangkan sumber kesalahan manusia. Setiap siklus pengelasan dicatat secara digital untuk memastikan ketertelusuran lengkap untuk inspeksi konstruksi. Rekayasa Jerman di tingkat tertinggi.",
+      "scroll3Title": "Pengupas pipa presisi. Tepat dalam milimeter.",
+      "scroll3Desc": "Persiapan adalah 80% dari pengelasan. Pengupas pipa mekanis dan elektrik kami menghilangkan lapisan oksida dari pipa K-Aqua dengan kedalaman pemotongan yang benar-benar seragam. Ini mencegah retakan mikro dan menciptakan bidang peleburan yang sempurna. Alat yang bertahan selama generasi.",
+      "scroll4Title": "Gergaji bundar dingin untuk potongan presisi.",
+      "scroll4Desc": "Gunting pipa dapat mengubah bentuk material. Gergaji bundar dingin industri kami menjamin potongan persegi panjang tanpa gerinda. Hasilnya: Tidak ada retakan akibat tegangan, tidak ada kehilangan tekanan, paralelisme absolut sebelum proses pengelasan.",
+      "timelineTitle": "Proses Pengelasan K-Aqua",
+      "timelineDesc": "Dari pemotongan hingga peleburan molekuler. Proses terstandarisasi yang menghasilkan sistem perpipaan yang 100% kedap dan bebas perawatan.",
+      "timeline1Year": "Fase 1: Persiapan Material",
+      "timeline1Title": "Potongan yang sempurna.",
+      "timeline1Text": "Potongan 90 derajat tanpa gerinda adalah fondasi dari setiap sambungan yang tahan lama. Pemotong presisi dan gergaji bundar dingin kami menjamin permukaan yang benar-benar datar tanpa deformasi struktural mikro dari polipropilen.",
+      "timeline2Year": "Fase 2: Kalibrasi & Pengupasan",
+      "timeline2Title": "Penghapusan lapisan oksida.",
+      "timeline2Text": "Sebelum pengelasan, pipa dikalibrasi dengan tepat dan lapisan oksida luar dihilangkan dengan presisi milimeter menggunakan alat pengupas khusus kami. Ini memungkinkan permukaan yang 100% bersih untuk proses peleburan.",
+      "timeline3Year": "Fase 3: Peleburan Termal",
+      "timeline3Title": "Fusi Molekuler.",
+      "timeline3Text": "Pipa dan fitting dipanaskan secara bersamaan pada matriks pemanas berlapis teflon pada suhu 260°C. Termostat berbasis mikroprosesor dari mesin las K-Aqua menjaga suhu tetap konstan, tanpa memandang angin atau cuaca.",
+      "timeline4Year": "Fase 4: Sambungan",
+      "timeline4Title": "Keamanan seumur hidup.",
+      "timeline4Text": "Dalam waktu penggantian yang ditentukan, komponen yang dipanaskan disatukan tanpa diputar. Setelah fase pendinginan, bagian yang sama sekali homogen dan baru tercipta. Bebas perawatan selama lebih dari 50 tahun.",
+      "specsTitle": "Otoritas Industri. <br/> Hingga ke setiap detail.",
+      "specsP1": "Selama beberapa dekade, di pabrik utama kami di jantung Jerman, kami telah menggabungkan kebanggaan pengerjaan dengan teknologi manufaktur terotomatisasi modern.",
+      "specsP2": "Digunakan di gurun yang paling keras dan iklim ekstrem di dunia, material kami membuktikan kemampuannya setiap hari. Kami menetapkan standar yang diikuti oleh seluruh dunia.",
+      "specsList1": "Diuji menurut ISO 9001",
+      "specsList2": "Lapisan Teflon PTFE Kelas A",
+      "specsList3": "Kalibrasi suhu digital",
+      "ctaTitle": "Siap untuk kualitas tanpa kompromi?",
+      "ctaDesc": "Bicaralah dengan tim teknik kami tentang megaproyek Anda berikutnya dan mintalah sampel alat kami.",
+      "ctaBtn": "Mulai Permintaan Proyek",
+      "hero": {
+        "eyebrow": "Alat & Aksesoris",
+        "title": "Alat las untuk instalasi PP-R",
+        "lead": "Mesin las soket, teknologi kumparan pemanas, dan alat kalibrasi: Dengan alat asli K-Aqua, sambungan las yang kedap secara permanen dan sesuai standar dibuat di setiap lokasi konstruksi. Alat profesional untuk instalasi PP-R."
+      }
     },
     "valves": {
-      "title": "Katup & Kontrol",
-      "desc": "Katup tugas berat yang tidak akan menimbulkan korosi."
+      "metaTitle": "Katup & Fitting PP-R untuk Sistem Perpipaan",
+      "metaDesc": "Temukan katup dan fitting berkualitas tinggi dari K-Aqua. Keamanan dan ketahanan maksimal melalui Rekayasa Jerman untuk jaringan perpipaan yang menuntut.",
+      "heroEyebrow": "Kelas Katup",
+      "heroTitle": "Kontrol Mutlak.",
+      "heroSubtitle": "Di bawah tekanan tertinggi.",
+      "heroDesc": "Selamat datang di liga teratas teknologi fluida. Katup dan fitting K Aqua bukan sekadar komponen. Mereka adalah jantung tak terbantahkan dari infrastruktur global. Dibuat untuk keabadian.",
+      "heroBtnPrimary": "Minta Teknologi",
+      "heroBtnSecondary": "Jelajahi Arsitektur",
+      "manifestoTitle": "Jika material menyerah, sistem akan rusak. <br/><span class=\"text-primary\">Kami tidak akan menyerah.</span>",
+      "manifestoP1": "Dalam teknologi fluida industri, katup tidak pernah hanya sekadar sakelar untuk cairan. Ini adalah titik kritis di mana energi kinetik, tekanan ekstrem, ekspansi termal, dan agresivitas kimia bertemu.",
+      "manifestoP2": "Di sinilah produk massal biasa terpisah dari rekayasa sejati. Katup kami dibuat dengan dimensi berlebih yang masif, diproduksi dengan tingkat presisi yang sangat tinggi, dan dibangun untuk skenario yang akan disebut 'mustahil' oleh produsen lain. Inilah yang kami maksud dengan <span class=\"text-foreground font-bold\">Rekayasa Jerman</span>.",
+      "scrollEyebrow": "Asal Usul Kesempurnaan",
+      "scrollTitle": "Dari bahan mentah hingga katup yang tak bisa dihancurkan.",
+      "scrollLead": "Ikuti proses pembuatan katup K Aqua. Jalur tanpa kompromi melalui panas, tekanan, dan presisi mikroskopis.",
+      "scroll1Title": "Bahan Mentah Tanpa Cacat",
+      "scroll1Desc": "Katup dan fitting kami memulai keberadaannya sebagai material berkinerja tinggi yang murni dan teruji secara industri. Melalui analisis spektral yang ketat, kami menjamin bahkan sebelum kepala frais pertama digunakan, sama sekali tidak ada titik lemah pada struktur mikro.",
+      "scroll2Title": "Pemesinan CNC Presisi Tinggi",
+      "scroll2Desc": "Setiap komponen tunggal diproduksi di pabrik kami pada pusat pemesinan CNC 5 sumbu canggih dengan toleransi luar biasa di bawah seperseribu milimeter dari balok utuh. Presisi tanpa kompromi ini memastikan permukaan penyegelan sejajar dengan sempurna.",
+      "scroll3Title": "Aliran Bebas Kavitasi",
+      "scroll3Desc": "Sebuah katup hanya sebaik profil aliran internalnya. Dengan menggunakan dinamika fluida komputasi (CFD) yang canggih, kami telah merancang kontur internal sehingga turbulensi dan kavitasi hampir mustahil terjadi.",
+      "scroll4Title": "Pengujian Akhir 100%. Tanpa Pengecualian.",
+      "scroll4Desc": "Pengambilan sampel acak tidak cukup ketika infrastruktur miliaran dolar dipertaruhkan. Sebelum sebuah katup meninggalkan pabrik K Aqua, ia menjalani siklus pengujian robotik otomatis penuh yang jauh melebihi tekanan dunia nyata.",
+      "showcaseEyebrow": "Anatomi Keandalan",
+      "showcaseTitle": "Tanpa kelemahan. <br/> Tanpa titik mati.",
+      "showcaseP1": "Arsitektur internal katup kami secara konsisten dipangkas menjadi <span class=\"font-semibold\">kebebasan ruang mati</span>. Zona stagnasi, tempat bakteri seperti Legionella dapat berkembang biak, dihilangkan secara geometris.",
+      "showcaseP2": "Air mengalir melalui badan katup dalam aliran laminar berpemandu sempurna. Dudukan penyegelan masif mampu membersihkan sendiri dan menutup rapat secara hermetis bahkan setelah siklus yang kesekian juta.",
+      "showcaseList1": "Kebersihan air minum teruji dengan standar tertinggi",
+      "showcaseList2": "Segel hermetis pada tekanan operasi maksimum",
+      "showcaseList3": "Segel spindel bebas perawatan dengan cincin-O ganda",
+      "bentoEyebrow": "Spesifikasi",
+      "bentoTitle": "Angka keunggulan absolut.",
+      "bentoLead": "Saat jargon pemasaran berakhir, data yang berbicara. Temukan parameter teknis yang menjadikan katup kami pilihan utama untuk megaproyek.",
+      "bento1Title": "Beban Tekanan Berkelanjutan PN25",
+      "bento1Desc": "Dikembangkan untuk aplikasi tekanan tinggi kontinu melampaui norma. Ketebalan dinding dan konstruksi ulir didesain sangat masif sehingga tidak menyerah sedikit pun bahkan pada puncak tekanan ekstrem dan palu air.",
+      "bento2Title": "Kedaulatan Termal",
+      "bento2Desc": "Dari dingin membeku hingga suhu aliran mendidih. Material kelas atas mempertahankan elastisitas penuhnya, tidak menjadi rapuh, dan menahan ekspansi termal dengan sangat efektif.",
+      "bento3Title": "Ketahanan Kimia",
+      "bento3Desc": "Korosi adalah konsep dari masa lalu. Katup kami kebal terhadap kondisi tanah yang agresif, air keras, dan disinfeksi dengan klorin. Tanpa karat, tanpa korosi sumuran.",
+      "bento4Title": "Ergonomi & Haptik Industri",
+      "bento4Desc": "Desain bertemu dengan fungsionalitas murni. Roda tangan masif, tuas padat, dan spindel mesin presisi menawarkan umpan balik taktil dan presisi seketika saat menutup dan membuka, bahkan dengan sarung tangan pelindung berat.",
+      "timelineEyebrow": "Jalan Kekerasan.",
+      "timelineLead": "Garis waktu jaminan kualitas tanpa kompromi. Bagaimana sebuah ide menjadi legenda industri.",
+      "timeline1Year": "Fase 01",
+      "timeline1Title": "Seleksi Molekuler",
+      "timeline1Text": "Pemilihan paduan logam dan polimer berkinerja tinggi yang diformulasikan khusus untuk K Aqua. Kami mengandalkan ketahanan rambat mutlak dan stabilitas molekuler maksimal.",
+      "timeline2Year": "Fase 02",
+      "timeline2Title": "Optimalisasi Aliran CFD",
+      "timeline2Text": "Dengan menggunakan superkomputer, saluran aliran internal dihitung dalam ribuan iterasi untuk meminimalkan hambatan aliran hingga mendekati nol.",
+      "timeline3Year": "Fase 03",
+      "timeline3Title": "Uji Stres Ruang Iklim",
+      "timeline3Text": "Prototipe menjalani uji beban kontinu selama berbulan-bulan di ruang iklim kami hingga 120°C, tekanan 25 Bar, dan solusi kimia ekstrem.",
+      "timeline4Year": "Fase 04",
+      "timeline4Title": "Produksi Seri Robotik",
+      "timeline4Text": "Transisi ke lini produksi Industri 4.0 kami yang sangat otomatis. Kami mencapai reproduktibilitas maksimal dengan toleransi minimal tanpa sumber kesalahan manusia.",
+      "timeline5Year": "Fase 05",
+      "timeline5Title": "Penyebaran Global",
+      "timeline5Text": "Disediakan di lokasi konstruksi paling kritis di dunia, dari megaproyek gurun pasir hingga fasilitas lepas pantai. Didampingi oleh Tim Teknik Lapangan kami.",
+      "finalTitle": "Bangun untuk generasi. <br/>Bukan untuk interval pemeliharaan berikutnya.",
+      "finalDesc": "Di dunia yang semakin mengandalkan keusangan yang cepat dan produk pengganti yang murah, kami berdiri sebagai tandingan baja. Sebuah katup K Aqua dipasang lalu dilupakan. Karena ia berfungsi dengan baik. Dekade demi dekade.",
+      "ctaTitle": "Siap untuk kontrol mutlak?",
+      "ctaDesc": "Bicaralah dengan Kepala Insinyur kami tentang spesifikasi megaproyek Anda berikutnya. Kami memberikan solusi untuk masalah yang belum dipahami orang lain.",
+      "ctaBtnPrimary": "Minta Konsultasi Teknis",
+      "ctaBtnSecondary": "Spesifikasi sebagai PDF",
+      "hero": {
+        "eyebrow": "Katup & Fitting",
+        "title": "Katup & Fitting PP-R untuk Regulasi Presisi",
+        "lead": "Mematikan, mengatur, mengamankan: Katup K Aqua yang terbuat dari PP-R memadukan hidraulik bebas korosi dengan presisi manufaktur Jerman untuk air minum, HVAC, dan industri. Untuk kontrol akurat di jaringan air minum dan pemanas."
+      }
     },
-    "category": "Kategori",
+    "category": {
+      "allProducts": "Semua Produk",
+      "openInFinder": "Buka di Finder",
+      "artNA": "Art. T/A",
+      "viewDetails": "Lihat Detail Produk",
+      "learnMoreKnowledge": "Temukan Sistem Perpipaan PP-R di Portal Pengetahuan",
+      "learnMoreDesc": "Selami lebih dalam dokumentasi teknis dan temukan artikel khusus tentang instalasi, keberlanjutan, dan pengujian sistem PP-R kami.",
+      "toKnowledgeBase": "Temukan artikel di K-Aqua Academy"
+    },
     "fittings": {
-      "title": "Soket & Fitting",
-      "desc": "Geometri sempurna untuk kehilangan tekanan minimal."
+      "meta": {
+        "title": "Fitting & Sambungan | K-Aqua",
+        "desc": "Fitting dan sambungan K-Aqua yang terbuat dari PP-R: Siku, Tee, Reducer, dan Soket. Kekedapan tanpa kompromi melalui Rekayasa Jerman."
+      },
+      "hero": {
+        "eyebrow": "Fitting & Sambungan",
+        "title": "Fitting PP-R & Sambungan untuk koneksi kedap permanen",
+        "lead": "Dari siku hingga reducer: Fitting PP-R K-Aqua menyatu secara molekuler dengan pipa saat pengelasan. Sistem yang homogen tanpa segel dan tanpa titik lemah. Untuk sambungan kedap permanen di jaringan perpipaan manapun."
+      },
+      "intro": {
+        "eyebrow": "Otoritas Industri",
+        "title": "Keamanan bukanlah suatu kebetulan. Hal itu dapat diperhitungkan.",
+        "lead": "Ketika kontraktor umum internasional merencanakan proyek bernilai miliaran, mereka tidak mengandalkan janji, melainkan pada fakta kuat. Kami menetapkan standar yang diikuti oleh seluruh dunia.",
+        "text1": "Selama beberapa dekade, di pabrik utama kami di jantung Jerman, kami telah menggabungkan kebanggaan pengerjaan dengan teknologi manufaktur terotomatisasi modern. Setiap siku, setiap soket, setiap Tee membawa DNA rekayasa Jerman yang tak salah lagi. Digunakan di gurun yang paling keras, iklim ekstrem, dan fasilitas industri paling menuntut di dunia, material kami membuktikan kemampuannya setiap hari.",
+        "text2": "Peleburan makromolekul dalam sistem PP-R kami menciptakan jaringan perpipaan tanpa titik lemah. Tidak ada cincin segel yang bisa menimbulkan korosi, tidak ada titik perekatan yang diserang oleh bahan kimia. Pipa dan fitting disatukan secara termal menjadi benda kerja tunggal yang tak terpisahkan. Inilah definisi mutlak dari keamanan."
+      },
+      "sticky": {
+        "eyebrow": "Arsitektur Kesempurnaan",
+        "title": "Anatomi keandalan.",
+        "lead": "Wawasan mendalam tentang sifat fisik dan kimia yang menjadikan fitting kami tolok ukur global.",
+        "items": [
+          {
+            "title": "Struktur Molekuler",
+            "desc": "Fitting kami didasarkan pada PP-R Kopolimer Acak Polipropilen yang sangat saling terhubung. Melalui profil tekanan-suhu yang terkontrol selama ekstrusi, kami mencapai struktur kristal isotropik. Hasilnya: Ketahanan yang belum pernah ada sebelumnya terhadap retakan tegangan dan fluktuasi suhu ekstrem."
+          },
+          {
+            "title": "Presisi Termoplastik",
+            "desc": "Setiap fitting melalui proses cetakan injeksi termoplastik dengan toleransi rongga dalam rentang mikrometer. Hal ini memastikan bahwa indeks leleh saat pengelasan dengan pipa kami benar-benar identik, untuk sambungan material yang homogen, tidak terpisahkan, dan 100% bebas kebocoran."
+          },
+          {
+            "title": "Toleransi Kesalahan Nol",
+            "desc": "Kami tidak menyerahkan apa pun pada kebetulan. Setiap batch dianalisis menggunakan pengukuran ketebalan dinding ultrasonik, uji kegagalan mulur tekanan internal hidrostatik, dan DSC (Kalorimetri Pemindaian Diferensial). Hanya material yang melampaui standar internal kami (yang jauh melebihi DIN EN ISO 15874) yang dirilis."
+          },
+          {
+            "title": "Ketahanan Kavitasi",
+            "desc": "Geometri internal fitting kami yang dioptimalkan alirannya secara efektif mencegah penurunan tekanan dan kavitasi, bahkan pada kecepatan aliran ekstrem pada saluran tegak industri. Hal ini meminimalkan emisi kebisingan dan melindungi sistem dari abrasi internal."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Data Performa",
+        "title": "Spesifikasi di luar standar.",
+        "lead": "Meskipun industri memandang standar sebagai target, kami melihatnya hanya sebagai persyaratan minimum absolut.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Kepatuhan penuh dan pengujian untuk sistem perpipaan plastik untuk instalasi air panas dan dingin."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Dirancang untuk paparan tekanan tinggi permanen bahkan pada suhu kritis."
+          },
+          {
+            "title": "Inersia Kimia",
+            "desc": "Ketahanan luar biasa terhadap media agresif. Independen terhadap nilai pH (pH 1 hingga 14) untuk penggunaan industri."
+          },
+          {
+            "title": "Peredam Akustik",
+            "desc": "Elastisitas yang melekat pada bahan PP-R menyerap kebisingan yang dibawa struktur dan mengurangi kebisingan aliran ke tingkat minimum, ideal untuk hotel mewah dan rumah sakit."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Proses Kejadian",
+        "desc": "Dari bahan mentah molekuler hingga komponen yang tidak bisa dihancurkan. Sekilas tentang matriks produksi kami yang sangat terotomatisasi.",
+        "items": [
+          {
+            "year": "Langkah 01",
+            "title": "Pemilihan Butiran",
+            "text": "Hanya butiran polipropilen yang telah disintesis dengan kemurnian tinggi dari kilang premium Eropa yang melewati kontrol penerimaan kami."
+          },
+          {
+            "year": "Langkah 02",
+            "title": "Pengondisian Termal",
+            "text": "Sebelum pencetakan injeksi, butiran distabilkan secara termal untuk menghilangkan sisa kelembapan dan menjamin lelehan yang homogen."
+          },
+          {
+            "year": "Langkah 03",
+            "title": "Cetakan Injeksi Tekanan Tinggi",
+            "text": "Dalam sel cetakan injeksi berbantuan robot yang sepenuhnya otomatis, kami membentuk material di bawah tekanan luar biasa untuk membuat fitting yang sempurna."
+          },
+          {
+            "year": "Langkah 04",
+            "title": "Matriks Pendinginan",
+            "text": "Profil pendinginan yang dikendalikan komputer mencegah tekanan internal pada material dan memastikan akurasi dimensi yang sempurna."
+          },
+          {
+            "year": "Langkah 05",
+            "title": "Pengujian & Logistik",
+            "text": "Setiap batch menerima sertifikat digitalnya. Siap dikirim ke lokasi konstruksi paling menuntut di dunia."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Masa Pakai > 50 Tahun. Dijamin.",
+        "text": "Waktu adalah uji tekanan akhir untuk material any pun. Fitting kami dirancang untuk melampaui masa pakai bangunan itu sendiri. Penambahan antioksidan khusus dan stabilisator termal pada matriks PP-R kami secara masif menunda penuaan oksidatif termal. Bahkan dengan suhu aliran terus menerus 70°C dan beban tekanan 10 Bar, kami menjamin masa pakai lebih dari setengah abad. Ini bukan sekadar pemasaran. Ini adalah penerapan fisika polimer.",
+        "badge": "100% Bebas Perawatan"
+      },
+      "cta": {
+        "title": "Siap untuk kualitas tanpa kompromi?",
+        "desc": "Terhubung dengan tim teknis kami. Kami tidak hanya memberikan produk, kami juga memberikan keamanan untuk megaproyek Anda berikutnya.",
+        "primary": "Mulai Permintaan Proyek",
+        "secondary": "Lihat Seluruh Rangkaian"
+      }
     },
     "pipes": {
-      "title": "Pipa PPR & PPRCT",
-      "desc": "Urat nadi yang tidak bisa dihancurkan."
+      "meta": {
+        "title": "Sistem Perpipaan PP-R & PPRCT | K-Aqua",
+        "desc": "Sistem perpipaan berkinerja tinggi yang terbuat dari PP-R dan PPRCT. Rekayasa Jerman untuk air minum, penyejuk udara, dan industri. Keamanan tanpa kompromi untuk megaproyek."
+      },
+      "hero": {
+        "eyebrow": "Sistem Perpipaan",
+        "title": "Pipa PP-R & PPRCT dari d20 hingga d630",
+        "lead": "Pipa PP-R dan pipa multilayer PPRCT K-Aqua untuk air minum, pemanas, dan industri: Desain komposit mono dan serat di semua tingkat tekanan, diproduksi di Jerman menurut DIN 8077/8078. Tersedia dari d20 hingga d630 untuk koneksi kedap secara permanen."
+      },
+      "sticky": {
+        "eyebrow": "Ilmu Material",
+        "title": "Rekayasa Polimer menuju Kesempurnaan.",
+        "lead": "Struktur molekuler dari pipa PP-R dan PPRCT kami telah dioptimalkan untuk beban termomekanis yang ekstrem. Sebuah mahakarya rekayasa Jerman.",
+        "items": [
+          {
+            "title": "Arsitektur Multilayer PPRCT",
+            "desc": "Pipa PPRCT (Kopolimer Acak Polipropilen dengan Kristalinitas dan Ketahanan Suhu yang dimodifikasi) generasi terbaru kami dilengkapi lapisan senyawa serat kaca terintegrasi. Ini mengurangi ekspansi linier termal hingga 75% dibandingkan dengan pipa PP-R standar, sekaligus secara drastis meningkatkan ketahanan tekanan pada suhu tinggi. Ketebalan dinding yang lebih tipis dengan kapasitas aliran yang meningkat adalah hasilnya."
+          },
+          {
+            "title": "Pengelasan Homogen",
+            "desc": "Tidak seperti fitting tekan atau sambungan berperekat, kami menggunakan proses pengelasan polifusi. Pipa dan fitting melebur pada 260°C menjadi satu unit molekuler yang tak terpisahkan. Sistem ini bekerja sepenuhnya tanpa o-ring atau segel mekanis. Sambungan ini secara fisik lebih kuat dari pipa itu sendiri: masa pakai 100% bebas kebocoran dijamin."
+          },
+          {
+            "title": "Bebas Korosi Mutlak",
+            "desc": "Sistem logam menyerah pada kualitas air yang agresif, nilai pH rendah, atau kandungan klorida yang tinggi. Pipa polimer K-Aqua sepenuhnya inert. Korosi sumuran, korosi celah, korosi galvanik, atau kerak secara fisik tidak mungkin terjadi. Hilangnya gesekan pipa (nilai kekasaran k=0.007 mm) tetap pada tingkat hari pertama bahkan setelah 50 tahun beroperasi, yang secara masif mengurangi energi pompa."
+          },
+          {
+            "title": "Isolasi Termal dan Akustik",
+            "desc": "Berkat konduktivitas termal PP-R yang rendah (0.24 W/mK) dibandingkan dengan baja (50 W/mK) atau tembaga (380 W/mK), pembentukan kondensasi dalam sistem pendingin sangat tertunda dan kehilangan panas dalam sistem pemanas diminimalkan. Selain itu, pipa polimer berdinding tebal kami secara efisien menyerap kebisingan aliran dan palu air (water hammer), yang menyempurnakan kenyamanan akustik di gedung tinggi dan hotel."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Toleransi Kesalahan Nol",
+        "desc": "Setiap sentimeter pipa kami dipantau selama proses ekstrusi. Dari butiran hingga produk jadi: Kualitas Buatan Jerman.",
+        "items": [
+          {
+            "year": "Langkah 01",
+            "title": "Bahan Mentah Premium",
+            "text": "Kami hanya memproses butiran PP-R dan PPRCT dengan kemurnian tinggi dari produsen polimer terkemuka di dunia. Setiap batch menjalani pengujian MFR (Laju Aliran Lelehan) dan pengukuran Waktu Induksi Oksidatif (OIT) di laboratorium internal sebelum dirilis untuk ekstrusi."
+          },
+          {
+            "year": "Langkah 02",
+            "title": "Ekstrusi Presisi",
+            "text": "Fasilitas ekstrusi canggih kami memproduksi pipa komposit serat 3 lapis dengan presisi mikrometer. Pengukuran ketebalan dinding ultrasonik secara real-time di atas 360° memastikan bahwa bahkan pada pipa SDR 6, toleransi minimum yang diizinkan selalu terpenuhi."
+          },
+          {
+            "year": "Langkah 03",
+            "title": "Pengondisian Termal",
+            "text": "Segera setelah ekstrusi, pipa didinginkan secara bertahap dalam penangas air dengan kontrol suhu khusus. Proses pendinginan yang lembut ini mencegah tegangan sisa internal pada bahan dan memastikan akurasi dimensi tertinggi di semua dimensi."
+          },
+          {
+            "year": "Langkah 04",
+            "title": "Keterlacakan 100%",
+            "text": "Setiap pipa menerima cetakan laser yang tak terhapuskan dengan detail batch dan waktu produksi yang tepat. Bahkan setelah beberapa dekade berada di dalam dinding, asal usul setiap pipa K-Aqua dapat ditelusuri sepenuhnya hingga ke batch butiran aslinya."
+          },
+          {
+            "year": "Langkah 05",
+            "title": "Pengujian & Persetujuan",
+            "text": "Uji tekanan ledak hidrolik pada 95°C selama 1000 jam. Uji tarik, kekuatan impak berlekuk, dan uji keamanan toksikologi. Hanya jika produk melampaui semua standar (DIN 8077/8078, EN ISO 15874), ia akan meninggalkan bengkel kami."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi",
+        "title": "Satu dimensi untuk setiap kebutuhan.",
+        "lead": "Dapat diskalakan mulai dari sambungan rumah d20 hingga pipa tegak industri d500. Sistem kami berkembang mengikuti skala proyek Anda.",
+        "items": [
+          {
+            "title": "Dimensi dari d20 hingga d500",
+            "desc": "Portofolio pipa dan fitting yang komprehensif. Baik tee, reducer, atau sambungan flensa dalam dimensi besar, kami menyediakan sistem lengkap dari satu sumber. Tidak ada kompromi pada hidrolika."
+          },
+          {
+            "title": "Kelas SDR 6 hingga 11",
+            "desc": "Peringkat tekanan yang disesuaikan (PN10 hingga PN25) melalui berbagai Rasio Dimensi Standar. Optimalkan penggunaan material dan aliran."
+          },
+          {
+            "title": "Kebersihan Air Minum",
+            "desc": "Sesuai dengan standar Eropa paling ketat (UBA, DVGW). Benar-benar aman untuk makanan, bebas bau, dan tidak berasa. Tersedia pelapis bagian dalam antibakteri opsional."
+          },
+          {
+            "title": "Pipa Luar Tahan UV",
+            "desc": "Untuk instalasi luar ruangan di iklim ekstrem (misalnya Timur Tengah), kami menawarkan pipa khusus dengan penstabil UV. Lapisan pelindung luarnya memblokir radiasi UV dan mencegah degradasi polimer."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Beri dimensi pada proyek Anda oleh para ahli.",
+        "desc": "Kirimkan isometrik atau denah P&ID Anda kepada kami. Tim teknis kami akan menangani perhitungan hidrolik dan pembuatan tagihan material untuk megaproyek Anda.",
+        "primary": "Mulai Permintaan Proyek"
+      }
     },
     "transitionFittings": {
-      "title": "Fitting Transisi",
-      "desc": "Transisi tanpa cacat dari plastik ke logam."
+      "meta": {
+        "title": "Fitting Transisi PP-R & Koneksi Sistem",
+        "desc": "K-Aqua Transisi: Konektivitas hibrida kelas atas absolut. Ketika logam berkekuatan tinggi bertemu dengan plastik inovatif. Rekayasa Jerman."
+      },
+      "hero": {
+        "eyebrow": "Transisi Sistem",
+        "title": "Fitting Transisi: Aman dari logam ke PP-R",
+        "lead": "Kuningan bertemu polimer: Fitting transisi K-Aqua menghubungkan pipa logam yang ada ke sistem PP-R secara permanen kedap dan bebas korosi, diuji jauh melampaui standar."
+      },
+      "intro": {
+        "eyebrow": "Tantangannya",
+        "title": "Tempat dunia bertabrakan.",
+        "lead": "Transisi dari sistem perpipaan logam yang kaku ke jaringan termoplastik modern adalah kelemahan dari setiap instalasi bangunan dan industri. Ini adalah tempat gaya geser termal dan mekanis maksimum bekerja."
+      },
+      "sticky": {
+        "eyebrow": "Teknologi Mendalam",
+        "title": "Anatomi Ketidakhancuran.",
+        "lead": "Kami tidak menganggap fitting transisi sebagai aksesori, tetapi sebagai instrumen mekanis yang sangat kompleks. Setiap milimeter ketebalan dinding, setiap ulir adalah hasil dari Analisis Elemen Hingga (FEA) yang tak terhitung jumlahnya.",
+        "items": [
+          {
+            "title": "Simbiosis Logam dan Polimer",
+            "desc": "Fitting transisi kami menggabungkan kekuatan mekanis yang luar biasa dari kuningan CW617N tahan dezincifikasi dengan kelembaman kimiawi PPRCT. Fusi material ini tidak diciptakan melalui pengepresan sederhana, tetapi melalui proses pencetakan injeksi termomekanis yang mencapai penguncian molekuler yang tak terpisahkan."
+          },
+          {
+            "title": "Torsi Ekstrem",
+            "desc": "Kriteria kegagalan kritis pada fitting standar adalah kelebihan torsi selama instalasi. Transisi K-Aqua mengintegrasikan profil penahan heksagonal yang dipatenkan ke dalam selubung plastik. Hasilnya: Resistensi torsi terjamin lebih dari 300 Nm tanpa delaminasi pada lapisan batas."
+          },
+          {
+            "title": "Koefisien Ekspansi Termal Seimbang",
+            "desc": "Logam dan plastik memuai secara berbeda selama fluktuasi suhu (Δα). Melalui sambungan ekspansi mikro yang diperhitungkan secara presisi pada sisipan kuningan, fitting kami mengkompensasi guncangan ekstrem dari -20°C hingga +95°C dalam hitungan milidetik, sama sekali tanpa kebocoran."
+          },
+          {
+            "title": "Kontrol Kualitas Toleransi Nol",
+            "desc": "Setiap komponen hibrida melalui uji kebocoran helium yang sepenuhnya otomatis dan pengukuran optik 3D. Jika batas 10^-5 mbar·l/s sedikit saja tersentuh, sistem kami akan langsung menolak komponen tersebut. Rekayasa Jerman tidak menoleransi kompromi."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi",
+        "title": "Arsitektur Kinerja.",
+        "lead": "Ketika Anda merencanakan megaproyek dengan puluhan ribu sambungan, keandalan statistik adalah ROI terpenting. K-Aqua memberi Anda jaminan fisik untuk hal ini.",
+        "items": [
+          {
+            "title": "Inti Kuningan DZR",
+            "desc": "Kuningan kelas CW617N yang tahan dezincifikasi (menurut DIN EN 12164) menghilangkan risiko korosi selektif dalam kualitas air yang agresif."
+          },
+          {
+            "title": "Desain Anti-Rotasi",
+            "desc": "Potongan bagian bawah poligonal membentuk kunci geometris yang menyerap torsi pengencangan ekstrem tanpa membebani selubung plastik."
+          },
+          {
+            "title": "Ulir Ditarik Dalam",
+            "desc": "Ulir ISO 7/1 atau ISO 228 kerucut dan silinder, dipotong mesin dengan toleransi ±0.01mm untuk kekedapan sempurna."
+          },
+          {
+            "title": "Matriks PPRCT",
+            "desc": "Struktur kristal tinggi dari Polipropilen Kopolimer Acak kami menawarkan kekuatan mulur jangka panjang yang luar biasa pada suhu tinggi."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Siklus Produksi",
+        "desc": "Sekilas ke dalam pabrik kami. Perjalanan dari bahan baku ke fitting hibrida yang teruji adalah orkestrasi panas, tekanan, dan presisi tanpa henti.",
+        "items": [
+          {
+            "year": "Fase 1",
+            "title": "Pemesinan Komponen Kasar (CW617N)",
+            "text": "Kuningan ditekan pada suhu 750°C ke dalam cetakan berpresisi tinggi, diikuti oleh pemesinan CNC dalam rentang mikrometer untuk membuat profil penyegelan."
+          },
+          {
+            "year": "Fase 2",
+            "title": "Pasivasi Permukaan",
+            "text": "Untuk menghilangkan korosi galvanik, sisipan ulir melalui proses pasivasi multi-tahap dalam penangas ultrasonik elektrolitik."
+          },
+          {
+            "year": "Fase 3",
+            "title": "Cetakan Injeksi Berlebih",
+            "text": "Dalam mesin cetak injeksi tekanan tinggi (2.000 bar), PPRCT cair menyelimuti kuningan. Plastik mengisi setiap potongan bawah sepenuhnya."
+          },
+          {
+            "year": "Fase 4",
+            "title": "Pendinginan Terkendali",
+            "text": "Penurunan suhu bertahap yang diprogram mencegah tegangan sisa dalam kisi plastik dan memastikan bentuk konsentris fitting."
+          },
+          {
+            "year": "Fase 5",
+            "title": "Pengujian Tekanan & Torsi",
+            "text": "Uji ledak acak hingga 120 bar serta uji kelelahan mensimulasikan beban kontinu industri paling agresif selama 50 tahun."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Sertifikasi & Parameter",
+        "title": "Fakta Keras.",
+        "lead": "Kami tidak hanya menguji sesuai standar. Kami mendefinisikannya. Protokol pengujian internal kami melebihi persyaratan DVGW, SKZ, dan ISO hingga 300%.",
+        "items": [
+          {
+            "label": "Tekanan Operasi (PN)",
+            "value": "Hingga 25 bar",
+            "sub": "Pada air 20°C"
+          },
+          {
+            "label": "Spektrum Suhu",
+            "value": "-20°C hingga +95°C",
+            "sub": "Beban puncak hingga 110°C"
+          },
+          {
+            "label": "Standar Ulir",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Ulir Dalam & Luar"
+          },
+          {
+            "label": "Siklus Hidup",
+            "value": "> 50 Tahun",
+            "sub": "Di bawah kondisi industri"
+          },
+          {
+            "label": "Paduan Kuningan",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Bebas Dezincifikasi"
+          },
+          {
+            "label": "Plastik",
+            "value": "PPRCT / PP-R",
+            "sub": "Bersertifikat Air Minum"
+          },
+          {
+            "label": "Kepatuhan Air Minum",
+            "value": "UBA, DVGW",
+            "sub": "Opsi 100% Bebas Timbal"
+          },
+          {
+            "label": "Jaminan Kualitas",
+            "value": "ISO 9001:2015",
+            "sub": "100% Pelacakan Batch"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Koneksi terkuat untuk proyek Anda.",
+        "desc": "Andalkan rekayasa Jerman yang telah terbukti. Hubungi kami untuk lembar data teknis, model BIM, atau konsultasi proyek individu.",
+        "primary": "Mulai Permintaan Proyek",
+        "secondary": "CAD & Spesifikasi"
+      }
     },
     "hero": {
       "eyebrow": "ARSITEKTUR SISTEM",
@@ -2474,6 +2937,10 @@
       {
         "t": "Unggul Secara Teknis",
         "d": "Sebagai plastik teknis, PP sangat tahan terhadap pelarut, alkali, dan asam, dan dapat dibentuk menjadi geometri kompleks dalam pencetakan injeksi dengan biaya rendah."
+      },
+      {
+        "t": "Tahan Lama",
+        "d": "Produk PP bertahan secara signifikan lebih lama daripada material sebanding: mudah dirawat, tahan aus, dan tahan terhadap penuaan serta suhu ekstrem."
       }
     ],
     "nextEyebrow": "Langkah Berikutnya",
@@ -2601,6 +3068,709 @@
         "desc": "Hubungi insinyur kami untuk evaluasi mendalam.",
         "button1": "Hubungi Tim Teknik",
         "button2": "Lihat Spesifikasi"
+      }
+    },
+    "krankenhaus": {
+      "meta": {
+        "title": "Infrastruktur Rumah Sakit & Kesehatan | K-Aqua",
+        "desc": "K-Aqua Rumah Sakit: Kebersihan mutlak, aman dari Legionella dan 100% bebas kebocoran. Keamanan sistem yang terjamin untuk proyek-proyek kesehatan."
+      },
+      "hero": {
+        "eyebrow": "Infrastruktur Misi-Kritis",
+        "title1": "Rumah Sakit.",
+        "title2": "Toleransi Kesalahan Nol.",
+        "desc": "Dalam perawatan medis tingkat maksimum, infrastruktur menentukan hidup dan mati. K-Aqua menyediakan sistem saraf hidrologis untuk megaproyek klinis paling maju di dunia. Diproduksi di Jerman. Dibangun untuk keabadian.",
+        "cta1": "Konsultasi Teknik",
+        "cta2": "Unduh Data BIM"
+      },
+      "intro": {
+        "title": "Di mana setetes air <br className=\"hidden md:block\"/> dapat meruntuhkan sistem.",
+        "desc": "Kontraktor umum menghadapi paradoks yang tak terpecahkan dalam proyek rumah sakit: Tekanan waktu yang sangat besar selama konstruksi bertemu dengan spesifikasi kebersihan paling ketat dalam sejarah manusia. Satu ruang mati di jaringan pipa, satu retakan mikroskopis, satu sambungan yang berkarat: dan investasi jutaan dolar dipertaruhkan. Kami menyelesaikan paradoks ini melalui rekayasa Jerman yang murni dan tanpa kompromi."
+      },
+      "stickySection": {
+        "eyebrow": "Keunggulan Teknologi",
+        "title": "Anatomi Keamanan.",
+        "lead": "Kami tidak menganggap rumah sakit sebagai bangunan, melainkan sebagai organisme biologis. Sistem K-Aqua adalah sistem vaskularnya yang tidak dapat dihancurkan. Setiap milimeter pipa kami dikalibrasi untuk keandalan absolut."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Pencegahan Legionella pada tingkat molekuler",
+            "desc": "Dalam infrastruktur rumah sakit yang kritis, kebersihan air bukanlah pilihan, melainkan pertanyaan tentang kelangsungan hidup. Sistem pipa K-Aqua kami menggunakan permukaan bagian dalam yang sangat halus dan bebas pori-pori yang secara fisik mencegah pembentukan bio-film dan perkembangbiakan Legionella. Rekayasa Jerman di sini berarti: Pencegahan melalui ilmu material yang sempurna, bukan melalui perawatan pasca kimiawi."
+          },
+          {
+            "title": "Disinfeksi termal tanpa kelelahan material",
+            "desc": "Standar klinis memerlukan disinfeksi termal secara teratur pada suhu di atas 70°C. Sementara sistem konvensional menua dengan cepat dalam proses ini, sistem PPR K-Aqua dirancang untuk beban termal ekstrem selama beberapa dekade. Tanpa retakan mikro, tanpa penggetasan, tanpa kompromi."
+          },
+          {
+            "title": "Sambungan yang benar-benar steril",
+            "desc": "Pengelasan soket elemen pemanas yang dipatenkan kami menyatukan pipa dan fitting menjadi unit yang homogen dan sepenuhnya tanpa batas. Sama sekali tidak ada ruang mati tempat air stagnan dapat menumpuk. Hasilnya adalah sistem perpipaan tunggal yang di-cor: penghalang fisik absolut terhadap kontaminasi."
+          },
+          {
+            "title": "Isolasi akustik untuk unit perawatan intensif",
+            "desc": "Kebisingan adalah faktor stres masif bagi pasien dan staf medis. Sistem K-Aqua memiliki sifat peredam suara yang melekat. Kebisingan aliran dan lonjakan tekanan diserap oleh material itu sendiri, yang menjamin pasokan air setenang bisikan bahkan dalam aplikasi tekanan tinggi: sangat penting untuk ruang operasi dan unit perawatan intensif."
+          }
+        ]
+      },
+      "bentoSection": {
+        "eyebrow": "ROI & Siklus Hidup",
+        "title": "Efisiensi biaya melalui kesempurnaan.",
+        "lead": "Kualitas bukanlah faktor biaya, melainkan satu-satunya jalan menuju profitabilitas dalam otomatisasi bangunan. K-Aqua meminimalkan Total Biaya Kepemilikan (TCO) ke tingkat yang belum pernah terjadi sebelumnya dan secara bersamaan menjamin keamanan pasien maksimum."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Ketahanan Korosi 100%",
+            "desc": "Tidak seperti pipa logam, K-Aqua sepenuhnya kebal terhadap korosi elektrokimia, korosi sumuran, dan air berkapur. Tanpa pengerakan, tanpa kehilangan tekanan selama 50 tahun operasi berkelanjutan."
+          },
+          {
+            "title": "Instalasi Secepat Kilat",
+            "desc": "Bobot intrinsik yang rendah dan teknologi pengelasan homogen mengurangi waktu pemasangan hingga 40%. Lebih sedikit hari kerja, lebih rendah risiko di lokasi konstruksi.",
+            "badge": "Waktu -40%"
+          },
+          {
+            "title": "Fleksibilitas Tahan Gempa",
+            "desc": "Struktur molekuler modular material memungkinkannya menyerap guncangan seismik dan penurunan bangunan tanpa putus. Sangat penting untuk rumah sakit di daerah berisiko.",
+            "badge": "Tingkat Seismik"
+          },
+          {
+            "title": "Kualitas Air Minum Teruji",
+            "desc": "Memenuhi dan melampaui standar paling ketat di dunia (DIN, DVGW, SKZ, WRAS) untuk pengangkutan air ultra-murni dan media klinis yang sangat sensitif."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Standar K-Aqua.",
+        "desc": "Dari gambar CAD pertama hingga tetesan air terakhir, proses kami adalah simfoni presisi yang tidak menyisakan ruang bagi kebetulan."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fase 01",
+            "title": "Dimensi Sistem & Hidrolika",
+            "text": "Perhitungan presisi penampang pipa untuk menghindari zona stagnasi. Setiap milimeter kehilangan tekanan disimulasikan dan dieliminasi oleh insinyur Jerman kami pada kembaran digital selama fase perencanaan."
+          },
+          {
+            "year": "Fase 02",
+            "title": "Spesifikasi Material",
+            "text": "Pemilihan campuran polimer K-Aqua khusus, dioptimalkan untuk kebutuhan klinis. Bahan baku kami melalui 42 langkah jaminan kualitas sebelum mencapai ekstruder."
+          },
+          {
+            "year": "Fase 03",
+            "title": "Prafabrikasi & Penanganan Ruang Bersih",
+            "text": "Pra-perakitan manifold kompleks dalam lingkungan yang terkendali. Meminimalkan lapisan las di lokasi konstruksi menjamin pemasangan 40% lebih cepat dan bebas kesalahan dalam kondisi ruang bersih."
+          },
+          {
+            "year": "Fase 04",
+            "title": "Komisioning & Pengujian",
+            "text": "Uji tekanan hidrostatik lengkap dan disinfeksi awal termal. Serah terima ke kontraktor umum dilakukan dengan dokumentasi digital yang lancar dari setiap sambungan las tunggal."
+          },
+          {
+            "year": "Fase 05",
+            "title": "50 Tahun Bebas Perawatan",
+            "text": "Setelah commissioning, sistem menghilang ke dalam dinding dan melakukan tugasnya secara diam-diam dan benar-benar dapat diandalkan, dijamin selama setidaknya 50 tahun tanpa kelelahan material apa pun."
+          }
+        ]
+      },
+      "specs": {
+        "eyebrow": "Spesifikasi",
+        "title": "Fakta keras.",
+        "lead": "Untuk insinyur, perencana, dan arsitek: Batas fisik dan kimia sistem kami untuk penggunaan klinis. Transparansi adalah dasar untuk kepercayaan.",
+        "therm": {
+          "title": "Ketahanan Termal",
+          "items": [
+            {
+              "label": "Suhu operasi berkelanjutan",
+              "value": "70°C"
+            },
+            {
+              "label": "Suhu kejadian maksimum",
+              "value": "95°C (100j)"
+            },
+            {
+              "label": "Konduktivitas termal",
+              "value": "0.24 W/mK"
+            },
+            {
+              "label": "Koefisien ekspansi linier",
+              "value": "0.15 mm/mK"
+            }
+          ]
+        },
+        "mech": {
+          "title": "Sifat Mekanik",
+          "items": [
+            {
+              "label": "Kepadatan",
+              "value": "0.895 g/cm³"
+            },
+            {
+              "label": "Kekuatan tarik",
+              "value": "23 MPa"
+            },
+            {
+              "label": "Perpanjangan patah",
+              "value": "> 50%"
+            },
+            {
+              "label": "Modulus Elastisitas",
+              "value": "800 MPa"
+            }
+          ]
+        }
+      },
+      "bim": {
+        "title": "Bumber Daya BIM & CAD",
+        "desc": "Unduh keluarga Revit terperinci, file AutoCAD, dan kumpulan data hidrolik lengkap untuk Building Information Modeling (BIM) Anda. Perencanaan presisi milimeter untuk proyek Anda.",
+        "cta": "Ke Pusat Unduhan"
+      },
+      "cta": {
+        "eyebrow": "Langkah Berikutnya",
+        "title": "Siap untuk megaproyek berikutnya?",
+        "desc": "Insinyur Aplikasi kami siap memecahkan tantangan hidrolik paling kompleks dalam proyek klinik Anda. Tidak ada proyek yang terlalu besar, tidak ada standar yang terlalu ketat.",
+        "button": "Hubungi Tim Teknik"
+      }
+    },
+    "hotels": {
+      "meta": {
+        "title": "Infrastruktur Hotel & Resor | K-Aqua",
+        "desc": "K-Aqua Hotel: Solusi perpipaan bebas korosi, menyerap suara, dan higienis untuk resor bintang 6 dan jaringan hotel global. Rekayasa Jerman."
+      },
+      "hero": {
+        "eyebrow": "Infrastruktur Perhotelan Bintang 6",
+        "title1": "Kemewahan Tak Terlihat.",
+        "title2": "Kinerja Terdengar.",
+        "desc": "Hotel kelas atas hidup dari pengalaman tanpa cacat. K-Aqua menghadirkan infrastruktur perpipaan yang beroperasi sepenuhnya tanpa suara, sama sekali bebas kebocoran, dan secara maksimal efisien dalam hal energi di balik dinding berlapis marmer.",
+        "cta1": "Mulai Permintaan Proyek",
+        "cta2": "Lihat Referensi Global"
+      },
+      "intro": {
+        "title1": "Kemewahan sejati",
+        "title2": "itu tidak terlihat.",
+        "titleGrad": "Dan tidak terdengar.",
+        "desc": "Pengalaman bintang lima tidak mentolerir kompromi. Baik dalam pelayanan maupun struktur bangunan. Polimer PP-R kami yang sangat padat menghilangkan suara aliran, mencegah hilangnya panas, dan menjamin kemurnian mikrobiologis. Selamat datang di kelas referensi rekayasa fluida."
+      },
+      "textSection": {
+        "title": "Seni rekayasa di balik keheningan",
+        "p1": "Di gedung pencakar langit dan kompleks resor yang luas, kondisi fisik yang ekstrem terjadi. Tekanan air yang dipompa setinggi ratusan meter. Perbedaan suhu yang mendorong bahan tradisional ke batas ketahanannya.",
+        "p2": "Sistem tembaga tradisional menunjukkan tanda-tanda erosi yang signifikan pada kecepatan aliran yang tinggi. Kavitasi, yang disebabkan oleh fluktuasi tekanan dalam pipa tegak hotel bertingkat tinggi, mau tidak mau menyebabkan retakan mikro, korosi sumuran, dan pada akhirnya kerusakan air yang parah yang dapat melumpuhkan seluruh lantai. Bagi operator hotel, ini bukan hanya berarti biaya renovasi yang besar, tetapi hilangnya reputasi yang tidak dapat diperbaiki.",
+        "p3": "K-Aqua mengambil pendekatan yang sangat berbeda.",
+        "p4": "Sistem kami didasarkan pada Kopolimer Acak Polipropilen (PP-R) generasi terbaru. Melalui proses ekstrusi yang sangat kompleks di fasilitas produksi kami di Jerman, kami menyelaraskan rantai polimer sedemikian rupa sehingga mereka menunjukkan kombinasi fleksibilitas dan ketahanan tekanan yang belum pernah ada sebelumnya. Ketika lonjakan tekanan (Palu Air) terjadi di dalam sistem, bahan tersebut secara elastis menyerap energi kinetik ini alih-alih meneruskannya sebagai guncangan akustik atau robekan mekanis pada struktur bangunan.",
+        "h3": "Sambungan Las Homogen: Akhir dari Kebocoran",
+        "p5": "Mata rantai terlemah dalam sistem perpipaan apa pun adalah sambungannya. Ulir berkarat, cincin segel menjadi keropos, sambungan perekat kelelahan karena siklus termal.",
+        "p6": "Kami menggunakan prinsip fusi molekuler. Pipa dan fitting dipanaskan secara termal hingga 260°C lalu disatukan. Dalam sepersekian detik, rantai polimer dari kedua komponen menyatu menjadi satu unit monolitik yang tak terpisahkan. Hasilnya: Tidak ada lagi \"sambungan\". Pipa dan fitting adalah satu kesatuan bahan yang kontinu. Tanpa segel, tanpa titik lemah, dengan keandalan 100%."
+      },
+      "bentoSection": {
+        "eyebrow": "Anatomi Kesempurnaan",
+        "title": "Spesifikasi yang mendekonstruksi standar industri.",
+        "lead": "Kami telah mempertanyakan setiap elemen dari pipa klasik dan menggantinya dengan mahakarya ilmu material."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Isolasi Akustik Kelas Referensi",
+            "desc": "Isolasi suara adalah fitur kualitas tertinggi di segmen hotel kelas atas. Struktur polimer tiga lapis milik kami menyerap suara rambatan struktur dan suara aliran langsung dari sumbernya. Tidak ada bisikan air yang menembus ke dalam suite tamu Anda. Teruji menurut DIN 4109."
+          },
+          {
+            "title": "Ketahanan Termal",
+            "desc": "Kehilangan panas minimal dengan efisiensi maksimal. Kepadatan molekuler K-Aqua PP-R mengisolasi secara alami dan secara drastis mengurangi kebutuhan akan insulasi sekunder. Hasilnya: Penghematan besar pada biaya operasional (OPEX)."
+          },
+          {
+            "title": "100% Bebas Korosi",
+            "desc": "Air agresif, kolam renang berklorin, atau salinitas ekstrem di resor tepi laut? Di mana logam menyerah, K-Aqua mempertahankan integritas strukturalnya. Selama setengah abad."
+          },
+          {
+            "title": "Benteng Mikrobiologis",
+            "desc": "Legionella dan bio-film terbentuk dari ketidakteraturan mikroskopis. Permukaan dalam pipa K-Aqua sangat halus pada tingkat molekuler sehingga bakteri sama sekali tidak dapat menempel. Kemurnian klinis untuk pasokan air minum di resor Anda."
+          }
+        ]
+      },
+      "stickySection": {
+        "eyebrow": "4 Pilar",
+        "title": "DNA dari sebuah Mahakarya.",
+        "lead": "Bagaimana kami memecahkan tantangan terbesar infrastruktur hotel modern melalui rekayasa radikal."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "1. Pencegahan Legionella pada Tingkat Molekuler",
+            "p1": "Dalam jaringan hotel yang luas, air yang tergenang di kamar yang tidak terpakai sementara dapat menjadi perangkap yang mematikan. Legionella berkembang biak di bio-film yang terbentuk di dinding pipa yang kasar.",
+            "p2": "Kekasaran permukaan mikroskopis dari PP-R K-Aqua adalah 0,007 mm. Tidak ada pori-pori, tidak ada celah, tidak ada titik jangkar. Dikombinasikan dengan disinfeksi termal, kami menawarkan lingkungan paling steril yang mungkin secara fisik."
+          },
+          {
+            "title": "2. Penyerapan Suara Absolut",
+            "p1": "Setiap desibel diperhitungkan. Di resor mewah, menyiram toilet atau mandi di kamar sebelah tidak boleh terdengar.",
+            "p2": "Berkat kepadatan tinggi dari bahan komposit kami (komposit serat K-Aqua) dan faktor redaman internal yang tinggi, kami mengurangi suara bawaan struktur hingga 80% dibandingkan dengan sistem logam. Perbedaan yang tidak akan didengar oleh tamu Anda."
+          },
+          {
+            "title": "3. Ketahanan Tekanan Tinggi pada Pencakar Langit",
+            "p1": "Hotel dengan 80, 100, atau 120 lantai memberikan tuntutan ekstrem pada pipa tegak. Tekanan hidrostatik di bagian bawah gedung sangat besar.",
+            "p2": "K-Aqua menawarkan kelas tekanan khusus (SDR 6 / PN 20) yang dikombinasikan dengan perkuatan serat, yang menjamin masa pakai lebih dari 50 tahun di bawah beban terus menerus bahkan pada suhu 70°C. Kami menaklukkan gravitasi."
+          },
+          {
+            "title": "4. Manajemen Termal & Pendinginan Distrik",
+            "p1": "Di daerah gurun seperti Dubai atau Riyadh, dingin adalah komoditas termahal. Sistem Pendingin Distrik mengangkut air dingin melalui jarak jauh ke resor.",
+            "p2": "Nilai insulasi yang sangat baik dari PP-R mencegah pembentukan kondensat dan secara masif meminimalkan kehilangan pendinginan. Tidak ada lagi pipa pendingin yang berkarat, tidak ada lagi langit-langit yang menetes. Hanya efisiensi murni dan tidak tercampur."
+          }
+        ]
+      },
+      "perf": {
+        "items": [
+          {
+            "val": "0.007",
+            "unit": "mm",
+            "title": "Kekasaran Permukaan",
+            "desc": "Ketahanan mutlak terhadap bio-film dan pembentukan kerak."
+          },
+          {
+            "val": "100",
+            "unit": "%",
+            "title": "Fusi Homogen",
+            "desc": "Sambungan las yang menyatu pada tingkat molekuler."
+          },
+          {
+            "val": ">50",
+            "unit": "Tahun",
+            "title": "Masa Pakai",
+            "desc": "Diuji dan diverifikasi menurut standar ISO yang paling ketat."
+          },
+          {
+            "val": "0",
+            "unit": "",
+            "title": "Upaya Pemeliharaan",
+            "desc": "Pasang, segel, dan lupakan selamanya."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Referensi yang membuat sejarah.",
+        "desc": "Dari pulau buatan di Teluk Persia hingga resor ski paling eksklusif di Pegunungan Alpen. Di mana hal yang tidak mungkin dibangun, K-Aqua sudah ada di sana."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Dubai",
+            "title": "Resor Ultra-Mewah The Palm Jumeirah",
+            "text": "Melengkapi 800 kamar kelas atas dan 4 area kolam renang yang luas. Salinitas ekstrem dan suhu sekitar hingga 50°C menuntut ketahanan termal dan kimia maksimum. K-Aqua memasok seluruh jaringan air dingin dan panas termasuk koneksi Pendingin Distrik."
+          },
+          {
+            "year": "Swiss",
+            "title": "Retret Alpine St. Moritz",
+            "text": "Resor bintang 6 di ketinggian 2.000 meter. Tantangannya: Risiko embun beku ekstrem selama fase konstruksi dan persyaratan maksimum untuk isolasi suara. Pipa komposit serat PP-R kami menyerap perubahan panjang termal dengan mudah dan menjamin operasi yang sunyi."
+          },
+          {
+            "year": "Singapura",
+            "title": "Hotel Hutan Vertikal",
+            "text": "Karya arsitektur ekologi 65 lantai. Sistem irigasi kompleks untuk ribuan tanaman balkon serta seluruh infrastruktur air minum direalisasikan dengan K-Aqua. Teknologi pengelasan homogen melindungi bangunan dari kebocoran mikroskopis."
+          },
+          {
+            "year": "Maladewa",
+            "title": "Resor Pulau Nol-Emisi",
+            "text": "Dibangun tepat di atas terumbu karang, kompatibilitas lingkungan mutlak diperlukan. Pipa K-Aqua 100% dapat didaur ulang, tidak melepaskan mikroplastik atau logam berat apa pun, dan menahan udara laut asin yang sangat korosif tanpa keausan."
+          },
+          {
+            "year": "Masa Depan",
+            "title": "Megaproyek Anda berikutnya",
+            "text": "Batas arsitektur bergeser setiap hari. Kami siap untuk menuangkan fondasi untuk visi Anda yang paling berani. Dengan teknologi yang puluhan tahun lebih maju dari zamannya."
+          }
+        ]
+      },
+      "research": {
+        "eyebrow": "Penelitian & Pengembangan",
+        "title": "Kimia <br/> Ketidakhancuran.",
+        "desc": "Departemen R&D kami di Jerman bekerja tanpa lelah untuk menyempurnakan matriks polimer. Melalui penambahan aditif kepemilikan dan senyawa serat kaca khusus, kami mengekstrusi pipa yang memiliki ekspansi linier yang sangat rendah, sebanding dengan pipa logam, tetapi tanpa kelemahan mencoloknya.",
+        "items": [
+          "Ekspansi linier berkurang (Nilai Alfa: 0,035 mm/mK)",
+          "Penampang aliran meningkat karena ketebalan dinding yang lebih tipis pada kelas tekanan yang sama",
+          "Ketahanan total terhadap senyawa klorin di area kolam hotel",
+          "Tentu tidak berbahaya secara toksikologi, diuji aman untuk makanan"
+        ]
+      },
+      "certs": {
+        "eyebrow": "Kepatuhan & Sertifikasi",
+        "title": "Standar terberat di dunia? Kami melampauinya.",
+        "lead": "Proyek internasional membutuhkan persetujuan internasional. K-Aqua diuji, diverifikasi, dan disetujui secara global oleh otoritas pengatur yang paling ketat."
+      },
+      "cta": {
+        "title": "Bangun untuk keabadian.",
+        "desc": "Jangan mengandalkan standar untuk proyek hotel atau resor Anda berikutnya. Definisikan ulang. Hubungi insinyur senior kami untuk evaluasi teknis yang mendalam.",
+        "button1": "Evaluasi Proyek",
+        "button2": "Kontak Penjualan Langsung"
+      }
+    },
+    "vorfertigung": {
+      "meta": {
+        "title": "Infrastruktur Pra-fabrikasi | K-Aqua",
+        "desc": "K-Aqua Pra-fabrikasi: Keamanan tanpa kompromi melalui Rekayasa Jerman untuk megaproyek global. Temukan solusi pra-fabrikasi kami."
+      },
+      "hero": {
+        "badge": "Rekayasa Jerman. Dampak Global.",
+        "title1": "Pra-fabrikasi.",
+        "title2": "Didefinisikan ulang.",
+        "desc": "Otoritas industri untuk sistem perpipaan prafabrikasi tanpa cacat. Dirancang untuk bertahan selama beberapa generasi, diproduksi dengan presisi yang memimpin pasar global. Di mana kesalahan bukanlah pilihan, K-Aqua mengambil alih.",
+        "cta1": "Mulai Permintaan Proyek",
+        "cta2": "Spesifikasi Teknis"
+      },
+      "intro": {
+        "eyebrow": "Filosofi Kesempurnaan",
+        "title": "Mengapa pasar dunia mempercayai K-Aqua.",
+        "lead": "Ketika Anda merancang bangunan pencakar langit, atau rumah sakit di mana setiap detik berharga, Anda tidak bisa mengandalkan variabel perakitan di lokasi. Anda membutuhkan presisi klinis dari prafabrikasi industri.",
+        "p1": "Dalam industri konstruksi modern, waktu, kualitas, dan keamanan adalah sumber daya yang paling berharga. Pemasangan pipa tradisional di lokasi membawa risiko yang tidak dapat dihitung: kondisi cuaca, kualitas pengerjaan yang berfluktuasi, kurangnya ruang, dan penundaan yang tidak terduga. K-Aqua sepenuhnya menghilangkan variabel-variabel ini.",
+        "p2": "Solusi pra-fabrikasi kami mengubah pengerjaan instalasi pipa yang tidak dapat diprediksi menjadi proses industri yang sangat terkontrol. Kondisi optimal berlaku di fasilitas produksi Jerman kami. Suhu, kelembaban, kebersihan: semuanya disesuaikan secara presisi dengan proses pengelasan sistem PP-R (Polipropilen Random Kopolimer) kami.",
+        "quote": "\"Kami tidak menjual pipa. Kami menjual kepastian mutlak bahwa sistem akan beroperasi bebas perawatan selama 50 tahun ke depan.\"",
+        "p3": "Mulai dari stasiun manifold kompleks hingga pipa tegak hingga solusi khusus yang disesuaikan untuk sistem pendingin industri. Kami memproduksi sesuai dengan gambar ISO Anda atau bekerja sama dengan tim teknik Anda untuk mengembangkan kembaran digital yang optimal, yang kemudian diubah menjadi kenyataan fisik."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Proyek bernilai miliaran tidak menoleransi kesalahan.",
+            "desc": "Di dunia infrastruktur konstruksi global, baik di kota-kota gurun Timur Tengah maupun di pusat teknologi tinggi Eropa, waktu henti identik dengan kerugian yang sangat besar. Sistem pra-fabrikasi kami dikembangkan untuk kenyataan di mana kegagalan material sama sekali tidak dapat diterima."
+          },
+          {
+            "title": "Presisi digital bertemu rekayasa Jerman.",
+            "desc": "Setiap sistem perpipaan, setiap manifold, dan setiap modul khusus direncanakan hingga milimeter terakhir sebagai kembaran digital di lingkungan BIM (Building Information Modeling) mutakhir kami. Produksi hanya dimulai setelah simulasi mengkonfirmasi dinamika aliran sempurna dan ketahanan mutlak dalam kondisi ekstrem."
+          },
+          {
+            "title": "Fusi homogen pada tingkat molekuler.",
+            "desc": "Tidak seperti sambungan mekanis atau sistem berperekat, kami menggunakan proses pengelasan polifusi termal yang paling canggih. Pipa dan fitting melebur menjadi satu unit yang tak terpisahkan. Hasilnya adalah sambungan material yang lebih kuat dari pipa itu sendiri."
+          },
+          {
+            "title": "Log pengujian 100%. Tanpa pengecualian.",
+            "desc": "Sebelum modul K-Aqua prafabrikasi meninggalkan pabrik kami, ia melalui program pengujian yang ketat. Mulai dari uji tekanan hidrostatik yang jauh melampaui standar industri, kontrol lapisan las ultrasonik, hingga pengukuran optik 3D. Toleransi kesalahan nol Jerman dalam bentuknya yang paling murni."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Keunggulan Teknis",
+        "title": "DNA sistem kami.",
+        "lead": "Diuji menurut DIN EN ISO 15874. Dirancang untuk keabadian. Penyelaman mendalam ke dalam spesifikasi teknis yang menjadikan kami tolak ukur.",
+        "items": [
+          {
+            "title": "Material PP-R (Tipe 3)",
+            "desc": "Bahan awal kami menawarkan ketahanan termal dan kimia yang belum pernah ada sebelumnya. Tahan terhadap suhu ekstrem dan media agresif tanpa degradasi."
+          },
+          {
+            "title": "Bebas Korosi Mutlak",
+            "desc": "Sementara sistem logam perlahan-lahan menurun sejak hari pertama instalasi, sistem polimer kami tetap sepenuhnya kebal terhadap korosi, pitting, dan kerak."
+          },
+          {
+            "title": "Insulasi Akustik",
+            "desc": "Struktur molekuler pipa K-Aqua menyerap gelombang suara secara signifikan lebih baik daripada logam, menghasilkan sistem yang setenang bisikan, penting di hotel mewah dan rumah sakit."
+          },
+          {
+            "title": "Penurunan Tekanan Rendah",
+            "desc": "Kekasaran permukaan bagian dalam hanya 0,007 mm menjamin gesekan minimal, mencegah penumpukan, dan secara drastis mengurangi kebutuhan energi sistem pompa."
+          }
+        ]
+      },
+      "visual": {
+        "title1": "Estetika dari",
+        "title2": "Keterikatan material.",
+        "p1": "Lihatlah lapisan las modul prafabrikasi K-Aqua di bawah mikroskop. Anda tidak akan menemukan lapisan. Anda akan melihat sepotong bahan yang tunggal dan homogen.",
+        "p2": "Proses ini membutuhkan tidak hanya mesin yang sangat canggih, tetapi juga mata yang terlatih dan tangan yang stabil dari ahli las plastik bersertifikat kami. Setiap parameter: suhu, waktu pemanasan, tekanan penyambungan, dan waktu pendinginan, dipantau dengan sangat teliti.",
+        "p3": "Inilah obsesi mikroskopis terhadap detail yang memungkinkan jaminan makroskopis kami selama lebih dari 50 tahun pengoperasian tanpa masalah.",
+        "items": [
+          "Penggilingan presisi pada ujung pipa",
+          "Pemanasan yang dikendalikan komputer (260°C)",
+          "Penyambungan presisi di bawah tekanan tinggi"
+        ]
+      },
+      "timeline": {
+        "eyebrow": "Arsitektur Proses",
+        "title": "Dari gambar CAD hingga lokasi konstruksi.",
+        "lead": "Proses yang transparan dan kaku yang menjamin pengiriman tepat waktu di seluruh dunia.",
+        "events": [
+          {
+            "title": "Fase 1: Rekayasa & BIM",
+            "desc": "Integrasi mulus ke dalam model arsitektur. Pemeriksaan benturan dan simulasi aliran.",
+            "date": "Minggu 1-2"
+          },
+          {
+            "title": "Fase 2: Pemotongan CNC",
+            "desc": "Pemotongan presisi milimeter dari bahan PP-R oleh sistem CNC berbantuan laser.",
+            "date": "Minggu 3"
+          },
+          {
+            "title": "Fase 3: Polifusi",
+            "desc": "Pengelasan berbantuan robot dan ahli di bawah kondisi iklim yang terkontrol ketat di lingkungan bengkel.",
+            "date": "Minggu 4-5"
+          },
+          {
+            "title": "Fase 4: QA & Pengujian Tekanan",
+            "desc": "Uji beban di bawah tekanan ekstrem. Setiap sambungan dicatat dan diuji.",
+            "date": "Minggu 6"
+          },
+          {
+            "title": "Fase 5: Logistik Global",
+            "desc": "Pengemasan aman dan pengiriman ke seluruh dunia dengan pengiriman tepat waktu ke lokasi konstruksi.",
+            "date": "Minggu 7+"
+          }
+        ]
+      },
+      "manifesto": {
+        "eyebrow": "Manifesto Keabadian",
+        "title": "Disetujui untuk lingkungan yang paling menuntut di planet ini.",
+        "p1": "Prafabrikasi K-Aqua tidak dibuat untuk rata-rata. Mereka dirancang untuk kondisi ekstrem. Ketika suhu di luar di Dubai melonjak hingga 50°C atau turun jauh di bawah titik beku selama musim dingin di Skandinavia, integritas struktur polipropilen kami tetap tidak terpengaruh.",
+        "p2": "Sistem air minum kami memenuhi persyaratan higienis yang paling ketat di seluruh dunia, termasuk KTW-BWGL dan W270. Material ini tidak melepaskan bau, rasa, atau polutan apa pun ke dalam air. Ini secara proaktif mencegah pertumbuhan Legionella melalui permukaan bagian dalamnya yang sangat halus, yang tidak menawarkan tempat berkembang biak untuk bio-film.",
+        "p3": "Pada saat yang sama, pipa air pemanas dan pendingin industri kami mampu menahan bahan kimia yang paling agresif. Klasifikasi SDR (Standard Dimension Ratio) pipa kami memungkinkan adaptasi yang tepat terhadap profil tekanan dan suhu spesifik proyek Anda.",
+        "p4": "Kami tidak menganggap pra-fabrikasi sebagai sekadar layanan, melainkan tanggung jawab arsitektural. Setiap modul yang tiba di lokasi konstruksi siap untuk segera dipasang (Plug & Play). Ini mengurangi waktu pemasangan hingga 70%, meminimalkan sisa material hingga nol, dan menghilangkan kebutuhan akan penyimpanan material skala besar di lokasi."
+      },
+      "cta": {
+        "title": "Siap untuk kualitas tanpa kompromi?",
+        "desc": "Andalkan keandalan mutlak dari prafabrikasi industri Jerman pada megaproyek Anda berikutnya. Tim Teknis kami sedang menunggu model CAD Anda.",
+        "button1": "Mulai Permintaan Proyek",
+        "button2": "Hubungi Dukungan Teknis"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Infrastruktur Gedung Bertingkat & Pencakar Langit | K-Aqua",
+        "desc": "K-Aqua Gedung Bertingkat: Rekayasa Jerman menaklukkan gravitasi. Sistem pipa berkinerja tinggi untuk beban tekanan ekstrem di gedung pencakar langit."
+      },
+      "hero": {
+        "eyebrow": "Rekayasa Gedung Pencakar Langit",
+        "title1": "Kami menaklukkan.",
+        "title2": "Gravitasi.",
+        "desc": "Ketika Anda membangun menuju awan, tekanan hidrostatik tumbuh tanpa henti. Fisika tidak mentolerir kelemahan. Jelajahi satu-satunya sistem pipa yang menahan beban kontinu ekstrem ini dengan aman, sambil mengurangi berat struktur secara keseluruhan secara masif.",
+        "cta1": "Mulai Permintaan Proyek",
+        "cta2": "Spesifikasi Teknis"
+      },
+      "intro": {
+        "eyebrow": "Anatomi Megabuilding",
+        "title": "Sebuah bangunan hanya sekuat pembuluh darahnya.",
+        "lead": "Di ketinggian 500 meter, fisika tidak menoleransi kesalahan konstruksi. Retakan rambut di pipa tegak berarti kerusakan bencana senilai jutaan dolar. Itulah mengapa kami di K-Aqua tidak membiarkan apa pun pada kebetulan.",
+        "p1": "Gedung pencakar langit adalah kota vertikal. Mereka berdenyut, mereka bergerak, mereka bernapas. Dengan setiap lantai, tekanan hidrostatik meningkat secara eksponensial. Beban angin menyebabkan getaran mikro di seluruh struktur. Perbedaan suhu antara fondasi yang membeku dan puncak yang bermandikan sinar matahari menyebabkan ekspansi linier termal yang sangat besar.",
+        "p2": "Sistem perpipaan logam tradisional mencapai batas fisik mutlaknya di sini. Korosi, korosi sumuran, pengerakan, dan patah lelah pada jahitan las bukanlah pertanyaan tentang \"Apakah\", tetapi \"Kapan\". Dalam konstruksi gedung bertingkat tinggi, kebocoran bukan sekadar masalah teknis. Ini adalah risiko finansial yang dapat membahayakan seluruh proyek.",
+        "p3": "Polimer berkinerja tinggi K-Aqua (PP-R & PPRCT) secara mendasar mengubah aturan permainan infrastruktur gedung bertingkat tinggi. Mereka tidak menimbulkan korosi. Mereka tidak mengapur. Dan melalui teknologi pengelasan termal homogen kami, pipa dan fitting menyatu pada tingkat molekuler menjadi satu unit yang tak terpisahkan. Sistem sirkulasi menjadi sekuat bahan itu sendiri."
+      },
+      "sticky": {
+        "eyebrow": "Kondisi Ekstrem",
+        "title": "Menguasai fisika ketinggian.",
+        "lead": "Empat tantangan mendasar dalam konstruksi gedung bertingkat tinggi dan bagaimana keunggulan rekayasa Jerman dari K-Aqua mengatasinya.",
+        "items": [
+          {
+            "title": "Tekanan Hidrostatik Ekstrem",
+            "desc": "Dengan setiap meter ketinggian, kolom air bertambah. Di gedung pencakar langit (megatalls), tekanan melebihi 30 bar. Pipa K-Aqua PPRCT (Kopolimer Acak Polipropilen dengan Kristalinitas dan Ketahanan Suhu yang dimodifikasi) menawarkan ketahanan tekanan hingga 50% lebih tinggi pada suhu tinggi dibandingkan PP-R standar. Pipa ini bertindak sebagai tulang punggung pasokan air yang tidak dapat dihancurkan, bahkan di zona beban statis maksimum."
+          },
+          {
+            "title": "Ekspansi Termal Linier & Kontrol Tegangan",
+            "desc": "Memompa air panas melalui pipa sepanjang 300 meter menghasilkan ekspansi linier dan gaya geser yang sangat besar. Teknologi komposit serat kami mengurangi ekspansi termal hingga 75%. Ini berarti lebih sedikit titik fiksasi, tidak ada loop ekspansi, dan integritas struktural tertinggi, dikemas dalam sistem yang ringan dan mudah dipasang."
+          },
+          {
+            "title": "Homogenitas Molekuler (Bebas Kebocoran)",
+            "desc": "Di mana cincin-O atau fitting tekan yang terbuat dari elastomer dipasang, kebocoran pasti terjadi karena penuaan. K-Aqua sepenuhnya menghilangkan segel/karet. Melalui pengelasan soket elemen pemanas termal, pipa dan fitting melebur pada suhu tepat 260°C. Sambungan yang dihasilkan secara mekanis sama kuatnya dengan pipa itu sendiri. Nol kebocoran. Dijamin seumur hidup."
+          },
+          {
+            "title": "Pemisahan Akustik (Isolasi Suara)",
+            "desc": "Di penthouse mewah dan kantor kelas atas, kesunyian adalah komoditas tertinggi. Kebisingan aliran dan kejutan tekanan harus dihilangkan. Kepadatan bahan yang tinggi serta sifat peredam suara dari polimer PP-R kami secara masif meredam suara rambatan struktur dan suara aliran, serta jauh melampaui persyaratan ketat DIN 4109 dan VDI 4100."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spesifikasi",
+        "title": "Arsitektur untuk keabadian.",
+        "lead": "Diproduksi secara presisi sesuai dengan standar Jerman yang paling ketat untuk operasi bebas perawatan 100%. Kami mendefinisikan standar global di segmen sistem perpipaan untuk pencakar langit.",
+        "items": [
+          {
+            "title": "Revolusi PPRCT",
+            "desc": "Generasi berikutnya dari polipropilen. Struktur kristal termodifikasi untuk ketahanan tekanan dan suhu yang belum pernah terjadi sebelumnya dengan ketebalan dinding yang lebih tipis. Memaksimalkan aliran, meminimalkan berat, sebuah faktor penting dalam statika bangunan besar."
+          },
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Keamanan teruji oleh lembaga pengujian independen Jerman seperti SKZ dan DVGW. Kualitas air minum tertinggi, tidak ada pelepasan residu (leaching)."
+          },
+          {
+            "title": "Ketahanan Korosi Absolut",
+            "desc": "Kebal terhadap fluktuasi nilai pH, kualitas air yang agresif, klorinasi, dan korosi elektrokimia (korosi sumuran/pitting)."
+          },
+          {
+            "title": "Pra-fabrikasi Lengkap",
+            "desc": "Waktu adalah komoditas paling mahal di lokasi konstruksi. Kami mengirimkan susunan manifold rakitan pra-cetak presisi milimeter, meteran air, dan komponen riser pipe secara langsung 'Just-in-Time'. Mengurangi waktu pemasangan hingga 60% dan menghilangkan sumber kesalahan di lokasi."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Siklus Proyek",
+        "desc": "Dari simulasi aliran pertama hingga operasi puluhan tahun yang bebas perawatan. Inilah cara Tim Teknik K-Aqua mendampingi megaproyek Anda dari gagasan awal hingga penyelesaian (commissioning).",
+        "items": [
+          {
+            "year": "Fase 1",
+            "title": "Rekayasa & BIM",
+            "text": "Insinyur kami mendukung perancangan riser pipe, penghitungan zona tekanan, dan menyediakan data BIM lengkap (Revit) untuk pemeriksaan tabrakan (clash detection) dan perencanaan MEP."
+          },
+          {
+            "year": "Fase 2",
+            "title": "Ekstrusi Presisi",
+            "text": "Di fasilitas canggih kami di Jerman, pipa dan fitting diproduksi di bawah kendali ketebalan dinding ultrasonik konstan dan pemantauan laboratorium paling ketat. Setiap batch 100% dapat dilacak."
+          },
+          {
+            "year": "Fase 3",
+            "title": "Logistik Just-in-Time",
+            "text": "Melalui jaringan distribusi global kami, kami memastikan bahwa material tiba di lokasi konstruksi dengan tepat waktu, baik itu di padang pasir Dubai, di Singapura, ataupun di Frankfurt am Main."
+          },
+          {
+            "year": "Fase 4",
+            "title": "Fusi Homogen",
+            "text": "Pemasang lokal dilatih oleh teknisi kami di lokasi. Sambungan las termal ditetapkan dalam hitungan detik dan dapat menahan tekanan penuh segera setelah pendinginan."
+          },
+          {
+            "year": "Fase 5",
+            "title": "Operasi Bebas Perawatan",
+            "text": "Setelah uji tekanan akhir, sistem kami menghilang ke dalam poros atau beton. Selama lebih dari 50 tahun ke depan, Anda tidak perlu lagi memikirkannya. Sebuah jaringan tak terlihat yang sempurna."
+          }
+        ]
+      },
+      "data": {
+        "eyebrow": "Data",
+        "title": "Keunggulan berbasis fakta.",
+        "lead": "Kontraktor umum tidak percaya pada janji pemasaran. Mereka percaya pada kekuatan tarik, kurva rayapan, ketahanan tekanan balik, dan FNCT (Full Notch Creep Tests).",
+        "h3_1": "Ketahanan Molekuler",
+        "p1": "Umur pakai pipa plastik di bawah tekanan dan suhu ditentukan oleh kekuatan tekanan internal hidrostatis jangka panjang (kurva mulur/creep curves). Standar industri pada umumnya mengasumsikan masa operasi 50 tahun. Pengujian laboratorium internal kami dan simulasi penuaan termo-oksidatif memverifikasi daya tahan selama lebih dari 100 tahun. Bahan K-Aqua PPRCT secara signifikan menunda timbulnya degradasi termo-oksidatif, bahkan pada sirkulasi dengan suhu konstan yang tinggi.",
+        "h3_2": "Dinamika Aliran Hidrolik",
+        "p2": "Pipa logam menjadi kasar selama bertahun-tahun akibat korosi dan kerak (inkrustasi). Kehilangan akibat gesekan pipa meningkat, penampang melintang menyempit, biaya energi untuk pompa pendorong (booster) membengkak. Pipa K-Aqua memiliki kekasaran permukaan mutlak k = 0,007 mm. Permukaan semulus cermin ini tetap stabil sempurna sepanjang umur pakainya. Hasilnya: Kehilangan tekanan yang minimal, penghematan energi besar-besaran untuk pengoperasian pompa, dan kebersihan mutlak, karena tidak ada bio-film maupun bakteri Legionella yang dapat menempel.",
+        "stats": [
+          {
+            "label": "Kepadatan (g/cm³)",
+            "val": "0.905",
+            "standard": "ISO 1183"
+          },
+          {
+            "label": "Indeks Leleh (g/10min)",
+            "val": "0.3",
+            "standard": "ISO 1133"
+          },
+          {
+            "label": "Modulus Elastisitas Tarik (MPa)",
+            "val": "800 / 900 (RCT)",
+            "standard": "ISO 527"
+          },
+          {
+            "label": "Konduktivitas Termal (W/mK)",
+            "val": "0.24",
+            "standard": "DIN 52612"
+          },
+          {
+            "label": "Koef. Ekspansi Linier (mm/mK)",
+            "val": "0.15 (Standar) / 0.035 (Fiber)",
+            "standard": "DIN 53752"
+          },
+          {
+            "label": "Kekasaran Permukaan k (mm)",
+            "val": "0.007",
+            "standard": "Berdasarkan Pengujian"
+          },
+          {
+            "label": "Ketahanan Kimia",
+            "val": "Nilai Ph 1 sampai 14",
+            "standard": "DIN 8078"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Siap mewarnai cakrawala masa depan?",
+        "desc": "Bicaralah dengan tim Rekayasa Gedung Tinggi khusus kami mengenai penghitungan aliran, desain struktural, dan solusi prafabrikasi yang dibuat khusus untuk megaproyek Anda berikutnya.",
+        "button1": "Mulai Permintaan Proyek",
+        "button2": "Hubungi Dukungan Teknis"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Infrastruktur Pusat Data | K-Aqua",
+        "desc": "Pusat Data K-Aqua: Keamanan tanpa kompromi melalui Rekayasa Jerman untuk megaproyek global. Temukan solusi untuk pusat data modern."
+      },
+      "hero": {
+        "eyebrow": "Infrastruktur Hyperscale & Colocation",
+        "title1": "Infrastruktur Bebas Waktu Henti.",
+        "title2": "Direkayasa di Jerman.",
+        "desc": "Ketika sistem pendingin membentuk jantung pusat data global, kegagalan material bukanlah suatu pilihan. Temukan solusi perpipaan PP-R yang paling aman, paling efisien, dan paling dapat diskalakan untuk teknologi pendinginan dan penyejuk udara yang kritis bagi bisnis.",
+        "cta1": "Mulai Permintaan Proyek",
+        "cta2": "Laporan Teknis"
+      },
+      "section1": {
+        "eyebrow": "Pendinginan Kritis Misi",
+        "title": "Mengapa pipa klasik gagal.",
+        "lead": "Tuntutan sistem hyperscaler dan cluster AI modern melampaui batas fisik dari sistem logam tradisional."
+      },
+      "section2": {
+        "eyebrow": "Keunggulan PP-R",
+        "title": "Ilmu Material untuk Abad ke-21.",
+        "lead": "Setiap detail atomik dari sistem kami telah dioptimalkan untuk keandalan dan daya tahan mutlak."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Tantangan termal dari AI dan HPC",
+            "desc": "Rak High-Performance Computing (HPC) dan Kecerdasan Buatan (AI) modern menghasilkan panas buangan yang sangat besar. Pendinginan udara saja mencapai batas fisiknya. Masa depan adalah milik Pendinginan Cair (Liquid Cooling) dan dengan demikian air sebagai media perpindahan panas kritis langsung pada cip."
+          },
+          {
+            "title": "Korosi adalah musuh ketersediaan",
+            "desc": "Sistem perpipaan logam mengalami lubang korosi (pitting), karat, dan dekomposisi kimia di bawah operasi berkelanjutan. Retakan mikro di pusat data dapat menyebabkan kerusakan jutaan dolar karena pemadaman server. K-Aqua menghilangkan risiko ini melalui Polypropylene Random Copolymer (PP-R) yang 100% bebas korosi."
+          },
+          {
+            "title": "Sambungan molekuler yang dilas secara ultrasonik",
+            "desc": "Di mana pipa konvensional mengandalkan segel atau sambungan berulir yang rawan kesalahan, sistem K-Aqua menyatu pada tingkat molekuler. Hasilnya: Jaringan pipa yang benar-benar homogen dan sepenuhnya bebas kebocoran. Toleransi nol untuk kebocoran."
+          },
+          {
+            "title": "Keberlanjutan & Optimalisasi PUE",
+            "desc": "Nilai PUE (Power Usage Effectiveness) yang rendah adalah tujuan utama operator pusat data. Pipa K-Aqua memiliki sifat termodinamika yang sangat baik. Kehilangan gesekan pipa yang lebih rendah dan insulasi panas yang optimal secara masif meminimalkan kehilangan energi dalam sirkulasi air pendingin."
+          }
+        ]
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Netralitas & Kemurnian Kimia",
+            "desc": "Sirkuit pendingin tertutup memerlukan bahan pengondisian. K-Aqua bereaksi secara mutlak lembam terhadap bahan aditif agresif dan sepenuhnya mencegah pembentukan alga dan bio-film. Tidak ada dekomposisi kimia, tidak ada partikel dalam air pendingin."
+          },
+          {
+            "title": "Ketahanan Tekanan pada Gedung Bertingkat",
+            "desc": "Dirancang untuk beban puncak konstan di bawah kondisi tekanan PN10 / PN20 yang ekstrem pada pusat data gedung bertingkat vertikal."
+          },
+          {
+            "title": "Prafabrikasi Jerman",
+            "desc": "Kami pra-las blok manifold kompleks di pabrik utama kami di Jerman. Pengiriman Plug-and-Play untuk waktu konstruksi yang berkurang drastis."
+          },
+          {
+            "title": "Tahan Gempa (Seismic Resistance)",
+            "desc": "Berbeda dengan sistem logam yang kaku, sistem PP-R kami memiliki elastisitas bawaan (intrinsik) yang pasti. Gelombang kejut dan getaran masif dari generator darurat atau aktivitas seismik yang kuat akan diserap alih-alih menyebabkan patahan yang merusak."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Proses Rekayasa",
+        "desc": "Dari sketsa hidrodinamik hingga penerimaan akhir: Bagaimana kami mewujudkan infrastruktur hiperskala global tanpa kompromi dan dalam waktu singkat.",
+        "items": [
+          {
+            "year": "Fase 1",
+            "title": "Simulasi & Desain Aliran",
+            "text": "Insinyur kami menganalisis persyaratan pendinginan pusat data. Kami menghitung laju aliran volumetrik, menghilangkan penyempitan (bottlenecks), dan menentukan dimensi jaringan pipa untuk efisiensi hidrodinamika maksimum."
+          },
+          {
+            "year": "Fase 2",
+            "title": "Prafabrikasi Presisi",
+            "text": "Di kantor pusat Jerman, spool manifold kompleks diprafabrikasi sesuai pesanan. Akurat hingga sentimeter, otomatis penuh, dan dengan kualitas yang terjamin di bawah kondisi laboratorium."
+          },
+          {
+            "year": "Fase 3",
+            "title": "Logistik Just-In-Time",
+            "text": "Megaproyek tidak menoleransi keterlambatan pengiriman. Kami mengoordinasikan logistik global langsung ke lokasi konstruksi, disinkronkan dengan jadwal ketat kontraktor umum."
+          },
+          {
+            "year": "Fase 4",
+            "title": "Pengelasan Homogen",
+            "text": "Tim instalasi lokal diperiksa oleh ahli las Master K-Aqua. Pengelasan molekuler di lokasi menjamin struktur saluran yang 100% bebas kebocoran dan homogen tanpa titik lemah."
+          },
+          {
+            "year": "Fase 5",
+            "title": "Pengujian Tekanan & Pemeriksaan",
+            "text": "Sebelum serah terima, dilakukan pengujian tekanan hidrolik dan pengujian beban yang tak kenal ampun. Hanya ketika sistem lulus tes ini, kami memberikan persetujuan dan menanggung garansi sistem sepenuhnya."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Siap untuk keamanan tanpa kompromi?",
+        "desc": "Terhubung dengan tim Rekayasa kami. Kami akan menganalisis megaproyek pusat data Anda berikutnya dan menghadirkan infrastruktur masa depan.",
+        "button": "Jadwalkan Percakapan Teknis"
       }
     }
   },
@@ -3397,5 +4567,374 @@
     "retry": "Ulangi",
     "titlePerfect": "Sertifikat Diberikan",
     "titleGood": "Selamat Lulus"
+  },
+  "refs": {
+    "eyebrow": "Megaproyek di Seluruh Dunia",
+    "title1": "Dimana kegagalan",
+    "titleGrad": "bukan pilihan.",
+    "lead": "Sistem perpipaan kami beroperasi di proyek-proyek infrastruktur paling kritis di dunia. Dari distrik keuangan di Timur Tengah hingga pabrik semikonduktor di Eropa.",
+    "canvasAria": "Jelajahi peta proyek kami",
+    "note": "Klik pada sebuah pin untuk melihat detail proyek. Di seluruh dunia, K-Aqua mewakili German Engineering dalam praktiknya.",
+    "projects": [
+      {
+        "id": "dubai-mall",
+        "city": "Dubai",
+        "title": "Dubai Mall Zabeel",
+        "desc": "Salah satu pusat perbelanjaan terbesar di dunia.",
+        "role": "Pasokan utama sistem perpipaan."
+      },
+      {
+        "id": "qatar-stadium",
+        "city": "Doha",
+        "title": "Stadion Piala Dunia FIFA 2022",
+        "desc": "Stadion Al Thumama & Stadion Pendidikan.",
+        "role": "Koneksi sistem HVAC."
+      },
+      {
+        "id": "saudi-hospital",
+        "city": "Riyadh",
+        "title": "Rumah Sakit Militer Riyadh",
+        "desc": "Fasilitas medis canggih di Arab Saudi.",
+        "role": "Fasilitas air minum dan perpipaan rumah sakit."
+      }
+    ]
+  },
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
+      "water": "Air Keras (14-20 °dH): PP-R/PPRCT bebas korosi mencegah inkrustasi kapur pada permukaan logam kasar.",
+      "focus": [
+        "Pipa Tegak Gedung Pencakar Langit (Distrik Bank)",
+        "Renovasi Hotel & Kantor",
+        "Air Pendingin Pusat Data"
+      ],
+      "note": "Di wilayah Rhine-Main, K Aqua dikirimkan dari pabrik Waldsolms, sering kali pada hari yang sama.",
+      "focusHeading": "Proyek Khas di Frankfurt",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Air Sedang dari filtrat tepi sungai: PP netral secara higienis mencegah pembentukan biofilm dalam jaringan yang luas.",
+      "focus": [
+        "Pembangunan Perumahan Baru",
+        "Pembangunan Sekolah & Administrasi",
+        "Renovasi Gedung Lama"
+      ],
+      "note": "Proyek besar di ibu kota dipasok melalui mitra logistik dalam waktu 24 jam.",
+      "focusHeading": "Proyek Khas di Berlin",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "muenchen": {
+      "regulator": "DVGW / SWM",
+      "water": "Air Keras (V-Alp): Ketahanan PP-R mencegah endapan mineral.",
+      "focus": [
+        "Pusat TI & Teknologi",
+        "Kampus Universitas",
+        "Kompleks Perumahan Mewah"
+      ],
+      "note": "Pengiriman cepat melalui logistik regional.",
+      "focusHeading": "Proyek Khas di München",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "hamburg": {
+      "regulator": "DVGW / Hamburg Wasser",
+      "water": "Air Sedang: Pencegahan korosi optimal di area pelabuhan dan logistik.",
+      "focus": [
+        "Pembangunan Kota Pelabuhan",
+        "Industri Maritim",
+        "Pembangunan Perkotaan"
+      ],
+      "note": "Hub ekspor ke Skandinavia.",
+      "focusHeading": "Proyek Khas di Hamburg",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "wien": {
+      "regulator": "ÖVGW / Wiener Wasser",
+      "water": "Air Keras (Alpen): Pipa PP-R ideal untuk proyek infrastruktur bersejarah dan modern.",
+      "focus": [
+        "Rumah Sakit & Kesehatan",
+        "Distrik Bisnis Baru",
+        "Transportasi Cairan Industri"
+      ],
+      "note": "Pengiriman efisien di kawasan DACH.",
+      "focusHeading": "Proyek Khas di Wina",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "zuerich": {
+      "regulator": "SVGW",
+      "water": "Kualitas air luar biasa, standar keamanan Swiss yang sangat tinggi.",
+      "focus": [
+        "Infrastruktur Medis",
+        "Markas Perusahaan Global",
+        "Hotel Mewah"
+      ],
+      "note": "Sertifikasi SVGW lengkap.",
+      "focusHeading": "Proyek Khas di Zürich",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "london": {
+      "regulator": "WRAS",
+      "water": "Sertifikasi WRAS menjamin kompatibilitas penuh dengan sistem perpipaan Inggris.",
+      "focus": [
+        "Kompleks Canary Wharf",
+        "Pembangunan Transportasi",
+        "Fasilitas Komersial"
+      ],
+      "note": "Dukungan penuh untuk spesifikasi teknik Inggris.",
+      "focusHeading": "Proyek Khas di London",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "paris": {
+      "regulator": "CSTB / ACS",
+      "water": "Sertifikasi kebersihan ACS memastikan kesesuaian untuk semua proyek di Prancis.",
+      "focus": [
+        "Proyek Olimpiade 2024",
+        "Renovasi Monumen",
+        "Infrastruktur Transportasi Grand Paris"
+      ],
+      "note": "Material tersedia melalui jaringan distribusi Prancis.",
+      "focusHeading": "Proyek Khas di Paris",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "mailand": {
+      "regulator": "UNI",
+      "water": "Standar industri tinggi untuk desain dan manufaktur di Italia Utara.",
+      "focus": [
+        "Pameran & Desain",
+        "Fashion District",
+        "Industri Manufaktur"
+      ],
+      "note": "Kehadiran kuat di kawasan industri Lombardy.",
+      "focusHeading": "Proyek Khas di Mailand",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "warschau": {
+      "regulator": "PZH",
+      "water": "Sertifikasi kebersihan memastikan kualitas di pasar Eropa Timur.",
+      "focus": [
+        "Pertumbuhan Perkotaan Baru",
+        "Pusat Logistik",
+        "Modernisasi Gedung"
+      ],
+      "note": "Logistik cepat 24-48 jam ke Polandia.",
+      "focusHeading": "Proyek Khas di Warsawa",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "prag": {
+      "regulator": "SZU",
+      "water": "Pasar renovasi kuat dengan stabilitas tinggi.",
+      "focus": [
+        "Renovasi Gedung Sejarah",
+        "Industri Otomotif",
+        "Fasilitas Perhotelan"
+      ],
+      "note": "Dekat dengan pabrik, pengiriman sangat cepat.",
+      "focusHeading": "Proyek Khas di Praha",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "dubai": {
+      "regulator": "DEWA",
+      "water": "Suhu ekstrem dan beban pendingin tinggi. PP-R unggul dalam ketahanan suhu.",
+      "focus": [
+        "Gedung Pencakar Langit Super",
+        "Resor Mewah",
+        "Pendingin Distrik"
+      ],
+      "note": "Kehadiran kuat dengan logistik proyek berskala penuh.",
+      "focusHeading": "Proyek Khas di Dubai",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "abudhabi": {
+      "regulator": "DoE / Estidama",
+      "water": "Mendukung peringkat keberlanjutan Estidama di proyek pemerintahan.",
+      "focus": [
+        "Gedung Pemerintahan",
+        "Resor Saadiyat",
+        "Zona Industri KIZAD"
+      ],
+      "note": "Sertifikasi untuk keberlanjutan bangunan hijau.",
+      "focusHeading": "Proyek Khas di Abu Dhabi",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "doha": {
+      "regulator": "Kahramaa",
+      "water": "Ketahanan tekanan jangka panjang adalah kriteria utama.",
+      "focus": [
+        "Pembangunan Kota Lusail",
+        "Infrastruktur Piala Dunia",
+        "Perhotelan"
+      ],
+      "note": "Memenuhi standar QCS secara penuh.",
+      "focusHeading": "Proyek Khas di Doha",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "riad": {
+      "regulator": "SASO (Saudi Standards)",
+      "water": "Suhu air tinggi, standar pengujian Saudi yang ketat.",
+      "focus": [
+        "Proyek Visi 2030",
+        "Kota Keuangan",
+        "Pembangunan Komersial Besar"
+      ],
+      "note": "Kehadiran lokal dengan dukungan pelatihan.",
+      "focusHeading": "Proyek Khas di Riyadh",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "dschidda": {
+      "regulator": "SASO / NWC",
+      "water": "Sistem suplai air pesisir dengan kelembaban tinggi.",
+      "focus": [
+        "Infrastruktur Pelabuhan",
+        "Distrik Pesisir",
+        "Zona Industri"
+      ],
+      "note": "Logistik pelabuhan langsung.",
+      "focusHeading": "Proyek Khas di Jeddah",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "neom": {
+      "regulator": "NEOM Authority Standards",
+      "water": "Fokus penuh pada keberlanjutan tanpa kompromi.",
+      "focus": [
+        "The Line",
+        "Trojena",
+        "Oxagon"
+      ],
+      "note": "Kerja sama strategis untuk material bangunan hijau masa depan.",
+      "focusHeading": "Proyek Khas di NEOM",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "kuwait": {
+      "regulator": "MEW (Ministry of Electricity and Water)",
+      "water": "Suhu tertinggi di musim panas menuntut PPRCT berkinerja tinggi.",
+      "focus": [
+        "Rumah Sakit Terpusat",
+        "Pengembangan Universitas",
+        "Fasilitas Komersial"
+      ],
+      "note": "Proyek turnkey dengan garansi sistem penuh.",
+      "focusHeading": "Proyek Khas di Kuwait",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "maskat": {
+      "regulator": "PAEW",
+      "water": "Ekspansi jaringan air dengan standar internasional.",
+      "focus": [
+        "Pariwisata & Resor",
+        "Pusat Logistik Oman",
+        "Perumahan Kelas Atas"
+      ],
+      "note": "Pengalaman lama di pasar Oman.",
+      "focusHeading": "Proyek Khas di Muskat",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "manama": {
+      "regulator": "EWA Bahrain",
+      "water": "Kondisi air Teluk dengan salinitas tinggi pada tahap pra-pengolahan.",
+      "focus": [
+        "Pembangunan Properti Finansial",
+        "Hotel Mewah",
+        "Infrastruktur Publik"
+      ],
+      "note": "Sertifikasi EWA lengkap.",
+      "focusHeading": "Proyek Khas di Manama",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "amman": {
+      "regulator": "JISM",
+      "water": "Keterbatasan air menuntut sistem tanpa kebocoran absolut.",
+      "focus": [
+        "Proyek Kesehatan Publik",
+        "Pusat Komersial",
+        "Infrastruktur Air"
+      ],
+      "note": "Mendukung strategi konservasi air Yordania.",
+      "focusHeading": "Proyek Khas di Amman",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "kairo": {
+      "regulator": "EOS (Egyptian Organization for Standardization)",
+      "water": "Kebutuhan tinggi di wilayah ibu kota baru dan infrastruktur monumental.",
+      "focus": [
+        "New Administrative Capital",
+        "Museum & Monumen",
+        "Fasilitas Transportasi"
+      ],
+      "note": "Proyek berskala masif dengan suplai berkelanjutan.",
+      "focusHeading": "Proyek Khas di Kairo",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "istanbul": {
+      "regulator": "TSE (Turkish Standards Institution)",
+      "water": "Megacity dengan risiko seismik menuntut pipa PP-R yang fleksibel namun kuat.",
+      "focus": [
+        "Infrastruktur Bandara",
+        "Rumah Sakit Kota Terpadu (City Hospitals)",
+        "Pusat Perbelanjaan"
+      ],
+      "note": "Pipa fleksibel K-Aqua tahan gempa, dukungan proyek lokal.",
+      "focusHeading": "Proyek Khas di Istanbul",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "singapur": {
+      "regulator": "PUB: Public Utilities Board",
+      "water": "Air NEWater & Desalinasi, panas tropis permanen.",
+      "focus": [
+        "Public Housing (HDB)",
+        "Gedung Pencakar Langit Marina",
+        "Fasilitas Semikonduktor"
+      ],
+      "note": "Pengiriman laut dari Hamburg; dokumentasi PUB lengkap.",
+      "focusHeading": "Proyek Khas di Singapura",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "kualalumpur": {
+      "regulator": "SPAN",
+      "water": "Kelembapan tropis sangat tinggi, tahan terhadap paparan sinar UV.",
+      "focus": [
+        "Distrik Keuangan TRX",
+        "Menara Penggunaan Campuran",
+        "Koridor Industri Johor"
+      ],
+      "note": "Terdaftar SPAN; pusat ASEAN untuk kawasan ini.",
+      "focusHeading": "Proyek Khas di Kuala Lumpur",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "mumbai": {
+      "regulator": "BIS",
+      "water": "Sistem pasokan bendungan muson menuntut ketahanan lonjakan tekanan.",
+      "focus": [
+        "Pembangunan Kembali Gedung Tinggi",
+        "Farmasi & Rumah Sakit",
+        "Smart Cities Program"
+      ],
+      "note": "Kesesuaian BIS sesuai proyek; pelatihan pengelasan.",
+      "focusHeading": "Proyek Khas di Mumbai",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "kapstadt": {
+      "regulator": "SABS / SANS",
+      "water": "Kelangkaan air (Day Zero) memprioritaskan perpipaan bebas bocor.",
+      "focus": [
+        "Hotel & Rumah Sakit",
+        "Infrastruktur Township",
+        "Proses Air Kebun Anggur"
+      ],
+      "note": "Proyek melalui mitra lokal dengan pelatihan tim.",
+      "focusHeading": "Proyek Khas di Cape Town",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    },
+    "nairobi": {
+      "regulator": "KEBS",
+      "water": "Campuran bendungan dan air tanah menuntut sambungan yang tangguh.",
+      "focus": [
+        "Program Perumahan Terjangkau",
+        "Tatu City",
+        "Bangunan Medis & Pendidikan"
+      ],
+      "note": "Pusat logistik Afrika Timur melalui Mombasa.",
+      "focusHeading": "Proyek Khas di Nairobi",
+      "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
+    }
   }
 }

@@ -1,0 +1,68 @@
+  "academy": {
+    "eyebrow": "Sentro ng Pagsasanay",
+    "title1": "Malinaw na mga parameter.",
+    "titleGrad": "Ligtas na welds.",
+    "lead": "Ipinapakita namin nang hakbang-hakbang kung paano maayos na napoproseso ang PP-R at PPRCT - para sa matibay at homogenous na mga joint.",
+    "methodsEyebrow": "Mga Paraan ng Welding",
+    "methodsTitle": "Apat na paraan para sa pagiging perpekto.",
+    "methodsLead": "Mula d20 hanggang d630, nag-aalok kami ng tamang pamamaraan ng pagsasanib para sa bawat dimensyon at bawat kinakailangan sa construction site. Sa pamamagitan ng pagtunaw, ang parehong tubo at fitting ay nagiging isang hindi mapaghihiwalay na materyal na yunit.",
+    "methods": [
+      {
+        "t": "Polyfusion Welding",
+        "d": "Ang klasiko para sa d20 hanggang d125. Ang tubo at fitting ay parehong pinapainit nang sabay at pagkatapos ay isinasama.",
+        "icon": "Heater"
+      },
+      {
+        "t": "Electrofusion Welding",
+        "d": "Espesyal na welding socket na may pinagsamang heating wire. Awtomatikong kontrolado at naida-dokumento (d20–d630).",
+        "icon": "Zap"
+      },
+      {
+        "t": "Butt Welding",
+        "d": "Para sa malalaking tubo na d90 hanggang d630. Ang mga gilid ay sabay na pinapainit at pinipiga gamit ang hydraulic machine.",
+        "icon": "AlignVerticalSpaceAround"
+      },
+      {
+        "t": "Weld-in Saddles",
+        "d": "Praktikal na solusyon para sa mga huling koneksyon (hal. mga sensor o sangay) nang hindi pinuputol ang pangunahing tubo.",
+        "icon": "GitMerge"
+      }
+    ],
+    "vidEyebrow": "Mga Tutorial na Video",
+    "vidTitle": "Ganyan ito ginagawa.",
+    "vidLead": "Panoorin nang direkta kung ano ang mahalaga: Panahon ng pag-init, oras ng paglamig, presyon. Iniiwasan ng aming maiikling tutorial ang malalaking error sa assembly.",
+    "videos": [
+      {
+        "id": "poly",
+        "t": "Polyfusion (Socket) Welding",
+        "d": "Paano i-weld nang tama ang d20-d125 gamit ang socket welding device.",
+        "dur": "3:45 Min",
+        "thumb": "/images/academy/poly-thumb.jpg"
+      },
+      {
+        "id": "electro",
+        "t": "Electrofusion Welding",
+        "d": "Paghahanda (pag-scrape) at automated na proseso ng welding ng mga e-socket.",
+        "dur": "4:20 Min",
+        "thumb": "/images/academy/electro-thumb.jpg"
+      },
+      {
+        "id": "butt",
+        "t": "Butt Welding (d90+)",
+        "d": "Mga makina ng CNC, mga yugto ng presyon at eksaktong pagpapantay ng mga tubo.",
+        "dur": "5:10 Min",
+        "thumb": "/images/academy/butt-thumb.jpg"
+      },
+      {
+        "id": "saddle",
+        "t": "Weld-in Saddles",
+        "d": "Pagbubutas ng tubo at pagwi-weld ng branch socket.",
+        "dur": "2:50 Min",
+        "thumb": "/images/academy/saddle-thumb.jpg"
+      }
+    ],
+    "ctaTitle": "Personal na Pagsasanay?",
+    "ctaText": "Nag-aalok kami ng K Aqua Masterclass (sertipikasyon ng welder) para sa mga contractor at malalaking site teams. Sa site o sa amin.",
+    "ctaButton": "Mag-book ng Pagsasanay"
+  },
+

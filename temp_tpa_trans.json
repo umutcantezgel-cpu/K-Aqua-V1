@@ -1,0 +1,143 @@
+{
+  "trust": {
+    "eyebrow": "Sertipiko at Kalidad",
+    "title1": "Bawat pag-apruba na",
+    "titleGrad": "kailangan mo.",
+    "lead": "I-download ang lahat ng internasyonal at pambansang sertipikasyon, ulat sa kalinisan, at ISO management verification para sa iyong K Aqua system dito.",
+    "certEyebrow": "Mga Sertipiko (Self-Service)",
+    "certTitle": "Opisyal na Na-verify.",
+    "certLead": "I-download ang mga kasalukuyang sertipiko para sa iyong pagpaplano at dokumentasyon ng proyekto.",
+    "list": [
+      {
+        "t": "DVGW",
+        "d": "Regulasyon ng German inuming tubig",
+        "dl": "DVGW-Zertifikat.pdf"
+      },
+      {
+        "t": "SKZ",
+        "d": "De-kalidad na pagsubok sa paggawa ng tubo",
+        "dl": "SKZ-Zertifikat.pdf"
+      },
+      {
+        "t": "WRAS",
+        "d": "Pag-apruba ng kalinisan (UK)",
+        "dl": "WRAS-Zertifikat.pdf"
+      },
+      {
+        "t": "AENOR",
+        "d": "System approval para sa Spain",
+        "dl": "AENOR-Zertifikat.pdf"
+      },
+      {
+        "t": "ISO 9001",
+        "d": "Pamamahala sa kalidad",
+        "dl": "ISO-9001.pdf"
+      },
+      {
+        "t": "ISO 14001",
+        "d": "Pamamahala sa kapaligiran",
+        "dl": "ISO-14001.pdf"
+      },
+      {
+        "t": "ISO 50001",
+        "d": "Pamamahala sa enerhiya",
+        "dl": "ISO-50001.pdf"
+      }
+    ]
+  },
+  "partner": {
+    "eyebrow": "Programa ng Kasosyo",
+    "title1": "Isang mas malakas na bono.",
+    "titleGrad": "Para sa wholesale.",
+    "lead": "Tinutustusan namin ang wholesale – direkta mula sa Waldsolms. Naging opisyal na K Aqua Partner at makinabang sa pinakamabilis na logistik at eksklusibong kondisyon.",
+    "heroCta": "Maging partner na ngayon",
+    "benefits": [
+      {
+        "t": "Direktang access sa tagagawa",
+        "d": "Walang mahabang pag-uusap. Direktang tumatawag ka sa pabrika."
+      },
+      {
+        "t": "Diskwento sa proyekto",
+        "d": "Suporta sa pagkalkula para sa malalaking proyekto at matinding kumpetisyon."
+      },
+      {
+        "t": "Priyoridad na logistik",
+        "d": "Available ang malalaking tubo o fitting nang mas mabilis at direktang ipadadala sa construction site kung kinakailangan."
+      },
+      {
+        "t": "Opisyal na Listahan",
+        "d": "Ipo-posisyon ka namin bilang isang inirerekomendang K Aqua supplier sa iyong rehiyon."
+      }
+    ],
+    "contactTitle": "Mag-apply bilang partner",
+    "contactText": "Naghahanap kami ng malalakas na B2B partner na gustong magbenta ng K Aqua ng may eksklusibong karapatan sa kanilang mga rehiyon. Interesado? Ipadala sa amin ang iyong pagtatanong.",
+    "cta": "Makipag-ugnayan sa sales"
+  },
+  "academy": {
+    "eyebrow": "Sentro ng Pagsasanay",
+    "title1": "Malinaw na mga parameter.",
+    "titleGrad": "Ligtas na welds.",
+    "lead": "Ipinapakita namin nang hakbang-hakbang kung paano maayos na napoproseso ang PP-R at PPRCT - para sa matibay at homogenous na mga joint.",
+    "methodsEyebrow": "Mga Paraan ng Welding",
+    "methodsTitle": "Apat na paraan para sa pagiging perpekto.",
+    "methodsLead": "Mula d20 hanggang d630, nag-aalok kami ng tamang pamamaraan ng pagsasanib para sa bawat dimensyon at bawat kinakailangan sa construction site. Sa pamamagitan ng pagtunaw, ang parehong tubo at fitting ay nagiging isang hindi mapaghihiwalay na materyal na yunit.",
+    "methods": [
+      {
+        "t": "Polyfusion Welding",
+        "d": "Ang klasiko para sa d20 hanggang d125. Ang tubo at fitting ay parehong pinapainit nang sabay at pagkatapos ay isinasama.",
+        "icon": "Heater"
+      },
+      {
+        "t": "Electrofusion Welding",
+        "d": "Espesyal na welding socket na may pinagsamang heating wire. Awtomatikong kontrolado at naida-dokumento (d20–d630).",
+        "icon": "Zap"
+      },
+      {
+        "t": "Butt Welding",
+        "d": "Para sa malalaking tubo na d90 hanggang d630. Ang mga gilid ay sabay na pinapainit at pinipiga gamit ang hydraulic machine.",
+        "icon": "AlignVerticalSpaceAround"
+      },
+      {
+        "t": "Weld-in Saddles",
+        "d": "Praktikal na solusyon para sa mga huling koneksyon (hal. mga sensor o sangay) nang hindi pinuputol ang pangunahing tubo.",
+        "icon": "GitMerge"
+      }
+    ],
+    "vidEyebrow": "Mga Tutorial na Video",
+    "vidTitle": "Ganyan ito ginagawa.",
+    "vidLead": "Panoorin nang direkta kung ano ang mahalaga: Panahon ng pag-init, oras ng paglamig, presyon. Iniiwasan ng aming maiikling tutorial ang malalaking error sa assembly.",
+    "videos": [
+      {
+        "id": "poly",
+        "t": "Polyfusion (Socket) Welding",
+        "d": "Paano i-weld nang tama ang d20-d125 gamit ang socket welding device.",
+        "dur": "3:45 Min",
+        "thumb": "/images/academy/poly-thumb.jpg"
+      },
+      {
+        "id": "electro",
+        "t": "Electrofusion Welding",
+        "d": "Paghahanda (pag-scrape) at automated na proseso ng welding ng mga e-socket.",
+        "dur": "4:20 Min",
+        "thumb": "/images/academy/electro-thumb.jpg"
+      },
+      {
+        "id": "butt",
+        "t": "Butt Welding (d90+)",
+        "d": "Mga makina ng CNC, mga yugto ng presyon at eksaktong pagpapantay ng mga tubo.",
+        "dur": "5:10 Min",
+        "thumb": "/images/academy/butt-thumb.jpg"
+      },
+      {
+        "id": "saddle",
+        "t": "Weld-in Saddles",
+        "d": "Pagbubutas ng tubo at pagwi-weld ng branch socket.",
+        "dur": "2:50 Min",
+        "thumb": "/images/academy/saddle-thumb.jpg"
+      }
+    ],
+    "ctaTitle": "Personal na Pagsasanay?",
+    "ctaText": "Nag-aalok kami ng K Aqua Masterclass (sertipikasyon ng welder) para sa mga contractor at malalaking site teams. Sa site o sa amin.",
+    "ctaButton": "Mag-book ng Pagsasanay"
+  }
+}

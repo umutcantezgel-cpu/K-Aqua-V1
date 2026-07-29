@@ -1,0 +1,257 @@
+{
+  "notFound": {
+    "title": "Hindi Nahanap ang Pahina",
+    "desc": "Ikinalulungkot namin, ngunit hindi nahanap ang pahinang hinahanap mo.",
+    "back": "Bumalik sa Homepage"
+  },
+  "navigation": {
+    "skipToContent": "Laktawan patungo sa nilalaman",
+    "toggleMenu": "I-toggle ang Menu",
+    "backToHome": "Bumalik sa Homepage",
+    "companyName": "K Aqua",
+    "openSearch": "Buksan ang Paghahanap",
+    "openCart": "Buksan ang Cart",
+    "openAccount": "Buksan ang Account",
+    "openLanguage": "Palitan ang Wika"
+  },
+  "menu": {
+    "products": "Mga Produkto",
+    "solutions": "Mga Solusyon",
+    "company": "Kumpanya",
+    "contact": "Kontak"
+  },
+  "quote": {
+    "request": "Humiling ng Alok"
+  },
+  "cookieConsent": {
+    "title": "Pinahahalagahan namin ang iyong privacy",
+    "description": "Gumagamit kami ng cookies upang mapahusay ang iyong karanasan sa pag-browse, maghatid ng mga isinapersonal na ad o nilalaman, at suriin ang aming trapiko. Sa pag-click sa 'Tanggapin Lahat', pumapayag ka sa aming paggamit ng cookies.",
+    "acceptAll": "Tanggapin Lahat",
+    "rejectAll": "Tanggihan Lahat",
+    "customize": "I-customize",
+    "savePreferences": "I-save ang mga Kagustuhan",
+    "necessary": "Kinakailangan",
+    "necessaryDesc": "Ang mga kinakailangang cookies ay kritikal para sa mga pangunahing paggana ng website, at ang website ay hindi gagana tulad ng nilalayon nang wala ang mga ito. Ang mga cookies na ito ay hindi nag-iimbak ng anumang personal na nakikilalang data.",
+    "analytics": "Analytics",
+    "analyticsDesc": "Ang mga analytical cookies ay ginagamit upang maunawaan kung paano nakikipag-ugnayan ang mga bisita sa website. Ang mga cookies na ito ay tumutulong sa pagbibigay ng impormasyon sa mga sukatan tulad ng bilang ng mga bisita, bounce rate, pinagmulan ng trapiko, atbp.",
+    "marketing": "Marketing",
+    "marketingDesc": "Ang mga marketing cookies ay ginagamit upang maghatid sa mga bisita ng mga naka-customize na patalastas batay sa mga pahinang binisita nila noon at upang suriin ang bisa ng mga kampanya sa advertising.",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "vendors": "Mga Vendor",
+    "vendorListTitle": "Tingnan ang detalyadong listahan ng Cookie",
+    "backToSimple": "Bumalik sa pangkalahatang-ideya"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Ang aming mataas na kalidad na K Aqua system ay nag-aalok ng maximum na pagiging maaasahan at tibay para sa mga hinihinging proyekto sa buong mundo.",
+      "p2": "Salamat sa mga advanced na materyales at tumpak na pagmamanupaktura sa Germany, ginagarantiyahan namin ang madaling pag-install at pangmatagalang kaligtasan.",
+      "p3": "Magtiwala sa sertipikadong kalidad at mga napapanatiling solusyon na nakakatugon sa pinakamataas na internasyonal na pamantayan at nagpapataas ng kahusayan ng iyong proyekto."
+    },
+    "extendedMarketText": {
+      "p1": "Ang mga solusyon ng K Aqua ay partikular na idinisenyo upang matugunan ang mga hinihingi ng mga lokal at internasyonal na merkado.",
+      "p2": "Sinuportahan namin ang mga general contractor at planner sa lugar gamit ang teknikal na kadalubhasaan at maaasahang system para sa bawat hamon.",
+      "p3": "Sa pamamagitan ng aming pandaigdigang network, tinitiyak namin na nakakatanggap ka ng eksaktong mga produkto na pinakamahusay na nababagay sa iyong proyekto sa pagtatayo sa rehiyon.",
+      "p4": "Ang mga hamon sa pamamahala ng tubig sa ating panahon ay nangangailangan ng pinasadya, pangmatagalang mga solusyon sa imprastraktura. Aktibong nakikilahok ang K Aqua sa mga internasyonal na merkado upang matugunan ang lumalaking pangangailangan para sa malinis at walang tagas na pipe network. Maging sa mga rehiyon na mahina ang tubig kung saan dapat protektahan ang bawat patak, o sa makapal na matataong lungsod na may kumplikadong kinakailangan sa kaligtasan laban sa sunog at paghihiwalay ng tunog: nag-aalok ang aming PP-R at PPRCT system ng kinakailangang pagiging maaasahan.",
+      "p5": "Sa paggawa nito, hindi lamang kami nakatuon sa purong pagbebenta ng produkto, kundi nakikita rin namin ang aming mga sarili bilang isang estratehikong kasosyo sa lugar. Sa pamamagitan ng mga teknikal na kurso sa pagsasanay, on-site supervision at malapit na kooperasyon sa mga lokal na awtoridad, tinitiyak namin na ang mga internasyonal na pamantayan (tulad ng DVGW, WRAS, SASO) ay hindi lamang nasusunod, kundi nahihigitan pa. Sa ganitong paraan, gumagawa kami ng pangmatagalang kontribusyon sa paggawa ng makabago na global water infrastructure."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Mabilis na Kontak & Kultura",
+      "detailed": "Portal ng Trabaho & Aplikasyon"
+    },
+    "portal": {
+      "eyebrow": "Mga Bukas na Posisyon",
+      "title": "Maging bahagi ng aming",
+      "titleGrad": "Koponan",
+      "lead": "Tumuklas ng kapana-panabik na mga pagkakataon sa karera sa K Aqua at mag-apply sa loob ng ilang minuto.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Manggagawa sa Produksyon (m/f/d)",
+          "type": "Full-time / Shift",
+          "desc": "Suportahan kami sa modernong pagmamanupaktura ng tubo at fitting."
+        },
+        {
+          "id": "machine",
+          "title": "Machine at Plant Operator (m/f/d)",
+          "type": "Full-time",
+          "desc": "Pag-operate at pagsubaybay sa aming high-tech na extrusion plants."
+        },
+        {
+          "id": "logistics",
+          "title": "Espesyalista sa Warehouse Logistics (m/f/d)",
+          "type": "Full-time",
+          "desc": "Responsibilidad para sa mga papasok at palabas na produkto, pati na rin ang pagkontrol ng imbentaryo."
+        },
+        {
+          "id": "sales",
+          "title": "Technical Sales Representative (m/f/d)",
+          "type": "Full-time",
+          "desc": "Pamamahala sa mga key account at tagaplano ng proyekto sa buong mundo."
+        },
+        {
+          "id": "pm",
+          "title": "Tagapamahala ng Produkto (m/f/d)",
+          "type": "Full-time",
+          "desc": "Hubugin ang kinabukasan ng aming mga PP-R piping system."
+        },
+        {
+          "id": "init",
+          "title": "Kusang Aplikasyon (Unsolicited)",
+          "type": "Full-time / Part-time",
+          "desc": "Walang angkop na posisyon? Magpadala lang ng isang kusang aplikasyon!"
+        }
+      ],
+      "steps": {
+        "step1": "Personal na Data",
+        "step2": "Resume at Dokumento",
+        "step3": "Pagsusuri"
+      },
+      "form": {
+        "firstName": "Unang Pangalan",
+        "lastName": "Huling Pangalan",
+        "email": "Email",
+        "phone": "Telepono",
+        "startDate": "Pinakamaagang Posibleng Petsa ng Pagsisimula",
+        "uploadTitle": "Mag-upload ng PDF",
+        "uploadDesc": "I-drag ang iyong resume rito o i-click para pumili (max. 5MB)",
+        "builderTitle": "O kaya: Lumikha ng CV online",
+        "builderDesc": "Wala kang PDF? Ipunan lang ang iyong background dito.",
+        "workExp": "Magdagdag ng Karanasan sa Trabaho",
+        "education": "Magdagdag ng Edukasyon",
+        "company": "Kumpanya",
+        "role": "Posisyon",
+        "school": "Paaralan / Unibersidad",
+        "degree": "Kurso / Antas",
+        "from": "Mula",
+        "to": "Hanggang",
+        "skills": "Mga Kasanayan (Comma-separated)",
+        "next": "Susunod",
+        "back": "Bumalik",
+        "submit": "Ipadala ang Aplikasyon",
+        "submitting": "Ipinapadala...",
+        "success": "Salamat sa iyong aplikasyon!",
+        "successSub": "Natanggap na namin ang iyong mga dokumento at babalikan ka namin sa lalong madaling panahon.",
+        "error": "May naganap na error. Mangyaring subukan muli mamaya."
+      }
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "High-performance",
+    "heroTitleEm": "Piping Systems",
+    "heroLead": "Para sa mga pang-industriyang aplikasyon, suplay ng inuming tubig at teknolohiya sa air conditioning sa ilalim ng matitinding kundisyon.",
+    "telemetry": {
+      "pressureLabel": "Presyon ng System",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Max na Temperatura.",
+      "tempNote": "PN20 · Tuloy-tuloy na operasyon",
+      "meta": [
+        [
+          "Materyal",
+          "K Aqua PP-R (Uri 3)"
+        ],
+        [
+          "Pamantayan",
+          "DIN 8077/8078"
+        ],
+        [
+          "Sertipikasyon",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Tagal ng Buhay",
+          "> 50 Taon"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Fiber Composite Technology",
+      "desc": "3-layer na disenyo para sa pinababang linear expansion at maximum na katatagan sa matataas na temperatura.",
+      "ariaGroup": "Material layers",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Panlabas na layer"
+        },
+        {
+          "t": "Fiber composite",
+          "d": "Gitnang layer"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Panloob na layer"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Pagsunod at Mga Pamantayan",
+      "items": [
+        [
+          "DVGW",
+          "Pag-apruba sa Inuming Tubig"
+        ],
+        [
+          "SKZ",
+          "Pagsubaybay sa Kalidad"
+        ],
+        [
+          "KIWA",
+          "System Certification"
+        ],
+        [
+          "DIN 8077/8078",
+          "Mga Sukat ng Tubo at Tolerances"
+        ]
+      ]
+    },
+    "rangeTitle": "Mga Dimensyon",
+    "network": {
+      "title": "Pandaigdigang Network",
+      "lead": "Ang mga K Aqua system ay ginagamit sa mahigit 35 bansa sa buong mundo. Mula sa Waldsolms hanggang sa mundo.",
+      "chips": [
+        [
+          "35+",
+          "Mga Bansa"
+        ],
+        [
+          "3",
+          "Mga Kontinente"
+        ],
+        [
+          "ISO",
+          "Sertipikado"
+        ]
+      ]
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telepono",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Mangyaring ilagay ang numero ng telepono",
+    "emailLabel": "Email",
+    "emailPlaceholder": "purchasing@company.com",
+    "emailError": "Mangyaring maglagay ng wastong email",
+    "chipsLabel": "Ano ang kailangan mo",
+    "send": "Ipadala ang pagtatanong",
+    "sendError": "Bigo ang pagpapadala. Mangyaring subukan muli o tawagan kami nang direkta:",
+    "legal": "Walang spam, hindi ibabahagi ang data.",
+    "legalLink": "Proteksyon sa Data",
+    "doneTitle": "Salamat, natanggap na ang iyong pagtatanong.",
+    "doneTitleSlim": "Salamat, natanggap na ang pagtatanong.",
+    "direct": "Nagmamadali? Direktang tawag",
+    "promise": "Sasagot sa loob ng isang araw ng trabaho",
+    "ccAria": "Country code",
+    "closeAria": "Isara",
+    "fabAria": "Kontak",
+    "interests": {
+      "rohrsysteme": "Pipe systems",
+      "trinkwassernetze": "Drinking water networks",
+      "bim": "BIM data",
+      "ersatzteile": "Mga spare part",
+      "beratung": "Pagpapayo"
+    }
+  }
+}

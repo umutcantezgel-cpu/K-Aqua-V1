@@ -1,0 +1,123 @@
+{
+  "career": {
+    "benefits": {
+      "sachbezug": [
+        "Sachbezugskarte",
+        "Steuerfreier Sachbezug, monatlich aufs Kartenkonto."
+      ],
+      "lunch": [
+        "Essenszuschuss",
+        "Digitale Essensmarken für Mittagessen & Supermarkt."
+      ],
+      "internet": [
+        "Internetpauschale",
+        "Zuschuss zur privaten Internetnutzung."
+      ],
+      "jobrad": [
+        "JobRad-Leasing",
+        "Wunschrad per Gehaltsumwandlung, Ersparnis vs. Privatkauf."
+      ],
+      "kita": [
+        "Kita-Zuschuss",
+        "Steuerfreier Zuschuss zur Kinderbetreuung."
+      ],
+      "vwl": [
+        "Vermögenswirksame Leistungen",
+        "Monatlicher Sparbeitrag vom Arbeitgeber."
+      ]
+    },
+    "resultLabel": "Netto mehr pro Monat",
+    "resultNote1": "Das entspricht grob einer",
+    "resultNote2": "Bruttoerhöhung von ~{n} €",
+    "resultNote3": "ohne Abzüge.",
+    "resultNote4": "(Richtwert, abhängig von Steuerklasse.)",
+    "apply": "Jetzt bewerben",
+    "call": "Oder anrufen: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Culture Matcher",
+    "cmTitle": "Passt K Aqua zu Ihnen?",
+    "cmIntro": "Fünf ehrliche Fragen zu Arbeitsweise und Alltag in der Fertigung. Kein Persönlichkeitstest, ein Realitätscheck.",
+    "cmStart": "Test starten",
+    "qLabel": "Frage",
+    "cmQ": [
+      {
+        "q": "Wie arbeiten Sie am liebsten?",
+        "o": [
+          "Klare Abläufe, eingespieltes Team",
+          "Jeden Tag etwas Neues ausprobieren"
+        ]
+      },
+      {
+        "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+        "o": [
+          "Sofort hinschauen, Ursache finden",
+          "Erstmal weiterlaufen lassen"
+        ]
+      },
+      {
+        "q": "Was motiviert Sie mehr?",
+        "o": [
+          "Ein Produkt, das 50 Jahre hält",
+          "Schnelle, sichtbare Ergebnisse"
+        ]
+      },
+      {
+        "q": "Schichtarbeit ist für Sie …",
+        "o": [
+          "Planbar und okay",
+          "Eher schwierig"
+        ]
+      },
+      {
+        "q": "Ihr Verhältnis zu Technik?",
+        "o": [
+          "Ich will verstehen, wie Dinge funktionieren",
+          "Hauptsache es läuft"
+        ]
+      }
+    ],
+    "resHigh": "Starkes Match. Präzision, Verlässlichkeit und Technikverständnis: genau unser Profil.",
+    "resMid": "Gutes Match mit Gesprächsbedarf. Am besten direkt anrufen und den Alltag klären.",
+    "resLow": "Ehrliches Ergebnis: Fertigungsalltag bei K Aqua ist vermutlich nicht Ihr Umfeld. Vertrieb oder Verwaltung könnten besser passen.",
+    "sendApp": "Bewerbung senden",
+    "again": "Nochmal"
+  },
+  "contact": {
+    "locTitle": "Standort Deutschland",
+    "salesTitle": "Vertrieb",
+    "supportTitle": "Qualität & technischer Support",
+    "supportText": "Sprechen wir über Ihr Projekt. Unser Support Team hilft bei technischen Fragen rund um Planung, Material und Verarbeitung."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "rows": [
+      [
+        "Unternehmen",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Geschäftsführung",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Registergericht",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Sitz",
+        "Waldsolms"
+      ],
+      [
+        "USt-IdNr.",
+        "DE 296238486"
+      ],
+      [
+        "Telefon / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "E-Mail",
+        "info@k-aqua.de"
+      ]
+    ]
+  }
+}
