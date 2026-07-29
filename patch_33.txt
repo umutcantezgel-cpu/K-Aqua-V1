@@ -1,0 +1,192 @@
+,
+  "kontaktForm": {
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Please provide a phone number",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "purchasing@company.com",
+    "emailError": "Please provide a valid e-mail",
+    "chipsLabel": "What do you need?",
+    "send": "Send Inquiry",
+    "sendError": "Sending failed. Please try again or call us directly:",
+    "legal": "No advertising, no disclosure.",
+    "legalLink": "Privacy Policy",
+    "doneTitle": "Thank you, your inquiry has been received.",
+    "doneTitleSlim": "Thank you, inquiry received.",
+    "direct": "In a hurry? Direct line",
+    "promise": "Reply within one business day",
+    "ccAria": "Country Code",
+    "closeAria": "Close",
+    "fabAria": "Contact",
+    "interests": {
+      "rohrsysteme": "Piping Systems",
+      "trinkwassernetze": "Drinking Water Networks",
+      "bim": "BIM Data",
+      "ersatzteile": "Spare Parts",
+      "beratung": "Consulting"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "High-Performance",
+    "heroTitleEm": "Piping Systems",
+    "heroLead": "For industrial applications, drinking water supply and air conditioning under extreme conditions.",
+    "telemetry": {
+      "pressureLabel": "System Pressure",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Temperature max.",
+      "tempNote": "PN20 · Continuous operation",
+      "meta": [
+        [
+          "Material",
+          "K Aqua PP-R (Type 3)"
+        ],
+        [
+          "Standard",
+          "DIN 8077/8078"
+        ],
+        [
+          "Certification",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Lifespan",
+          "> 50 Years"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Fiber Composite Technology",
+      "desc": "3-layer construction for minimized linear expansion and maximum stability at high temperatures.",
+      "ariaGroup": "Material Layers",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Outer layer"
+        },
+        {
+          "t": "Fiber composite",
+          "d": "Middle layer"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Inner layer"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Compliance & Standards",
+      "items": [
+        [
+          "DVGW",
+          "Drinking water approval"
+        ],
+        [
+          "SKZ",
+          "Quality monitoring"
+        ],
+        [
+          "KIWA",
+          "System certification"
+        ],
+        [
+          "DIN 8077/8078",
+          "Pipe dimensions & tolerances"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimensions",
+    "network": {
+      "title": "Global Network",
+      "lead": "K Aqua systems are deployed worldwide in over 35 countries. From Waldsolms to the world.",
+      "chips": [
+        [
+          "35+",
+          "Countries"
+        ],
+        [
+          "3",
+          "Continents"
+        ],
+        [
+          "ISO",
+          "Certified"
+        ]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrial Reference Projects",
+      "titlePlain": "Engineering that ",
+      "titleAccent": "proves itself.",
+      "lead": "From Waldsolms to the world: K-Aqua PP-R and PP-RCT systems have been running for decades in high-rises, hospitals, industrial plants and ships, under conditions that do not allow a second try. Engineering that proves itself, in every project.",
+      "cta1": "View Reference Projects",
+      "cta2": "Request Test Report"
+    },
+    "manifesto": {
+      "title": "Doctrine of Precision",
+      "p1": "In an industry where material fatigue and corrosion are considered inevitable, our manufacturing sets a different standard. We don't consider each pipe a component, but rather the result of applied materials science. Every batch of PP-R copolymer, every weld seam, and every wall thickness undergoes a testing process that prefers to accept rejects rather than exceeding tolerances. This is the fundamental law of the <span class=\"font-semibold\">K-Aqua Reference Class</span>.",
+      "p2": "Our systems run in environments where a single leak point endangers the operation of an entire hospital or high-rise. We use long-term internal pressure tests according to ISO 9080 not as a labouratory formality, but as a hard requirement for every released dimension: extrapolation to 50 years of operation at a specified temperature and pressure rating, documented, traceable, and traceable by batch.",
+      "p3": "We deliberately refrain from opaque material mixtures. Our formulation is documented throughout the entire manufacturing chain, from the polymer batch to the finished pipe length. We calibrate extrusion temperatures precisely to the degree, optimise the fiber composite middle layer against linear expansion, and log every electrofusion weld with exact process parameters. The result is systems that effortlessly remain within the standard range at 70°C continuous operation and PN20.",
+      "p4": "For us, quality assurance is not a downstream testing step, but part of every production stage. By consistently applying DVGW, SKZ, and KIWA certification to all relevant dimensions, we proactively remove any point of attack for failure risks. A system manufactured according to DIN 8077/8078 and triply certified can never prove to be a weak point."
+    },
+    "metrics": {
+      "eyebrow": "Technical Key Figures",
+      "title1": "Uncompromising",
+      "title2": "Parameters",
+      "lead": "Our systems are not advertised, they are tested. These are the core metrics of our technological doctrine.",
+      "items": {
+        "pressure": {
+          "title": "Long-Term Pressure Test according to ISO 9080",
+          "desc": "Every released dimension undergoes internal pressure tests at several temperature levels over thousands of operating hours, extrapolated onto a regression line for a 50-year lifespan.",
+          "placeholder": "Regression curve of long-term internal pressure test"
+        },
+        "isolation": {
+          "title": "Seamless Batch Traceability",
+          "desc": "Every pipe length carries a batch number that can be traced back to the polymer delivery, for seamless documentation during building acceptance and warranty."
+        },
+        "tolerance": {
+          "title": "Wall Thickness Tolerance in the Micrometer Range",
+          "desc": "Continuous ultrasonic wall thickness measurement during extrusion keeps every dimension exactly within the DIN 8077/8078 tolerance fields."
+        },
+        "network": {
+          "title": "Global Sales and Service Network",
+          "desc": "From Waldsolms, we supply projects in over 35 countries and ensure technical consulting, training, and spare parts supply, even after building acceptance.",
+          "placeholder": "Export map K-Aqua sales network"
+        },
+        "welding": {
+          "title": "Uncompromising Weld Seam Integrity",
+          "desc": "Every heating element socket weld follows a documented time-temperature-pressure profile. Random tensile tests and micrographs confirm the molecular fusion of pipe and fitting, without seals, without weak points.",
+          "placeholder": "Micrograph of a K-Aqua socket weld joint"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Ready for your",
+      "title2": "next project",
+      "lead": "Are you planning a high-rise, an industrial plant, or a hospital project? Our engineers are waiting for your specifications, with solid test data instead of marketing promises.",
+      "btn1": "Request Test Certificates",
+      "btn2": "Send Specifications"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  },
+  "seoExpansion": {
+    "t1": "High-Performance Piping Systems & Fluid Management",
+    "p1": "As a global leader in the manufacturing of PP-R and PPRCT piping systems, K-Aqua provides robust, resilient, and highly efficient fluid management solutions for drinking water, heating, and cooling networks. Our product portfolio spans from standard PP-R pipes SDR 11 to specialized glass-fiber reinforced multi-layer pipes (PP-RCT) which offer exceptional resistance against extreme temperatures and high-pressure loads. From residential plumbing networks to massive industrial fluid distribution grids, our pipes ensure maximum operational safety. Extruded with state-of-the-art German machinery, every pipe is engineered to deliver zero-leakage performance over a lifecycle exceeding 50 years. With a focus on hygiene, our drinking water pipes are certified by rigorous international testing bodies to prevent the growth of legionella and strictly preserve the purity and taste of potable water across hospitals, hotels, and public infrastructure.",
+    "t2": "Advanced Fittings, Valves & Installation Tools",
+    "p2": "Beyond the essential piping architecture, K-Aqua provides an exhaustively comprehensive range of injection-molded fittings, transition joints, and heavy-duty valves. Our PP-R and PP-RCT fittings include elbows, tees, reducers, and electrofusion sockets designed to seamlessly fuse with the pipe infrastructure, creating a monolithic, chemically bonded network that is virtually indestructible. We integrate precision-machined brass and DZR (Dezincification Resistant) metal threads for perfect transitional compatibility with existing metal plumbing components. To facilitate frictionless installation, we offer professional-grade polyfusion welding tools, from manual socket welders to massive hydraulic butt-welding machines. This complete ecosystem ensures that contractors and engineers can rely on a single, unified system architecture for any complex installation requirement.",
+    "t3": "Sustainability, Life Cycle Assessment & CO2 Reduction",
+    "p3": "Sustainability is deeply embedded within the molecular engineering of our PP-R and PPRCT systems. By providing a remarkably low internal surface roughness of 0.007 mm, our pipes drastically reduce the hydraulic friction and pressure loss across the network. According to the Darcy-Weisbach flow dynamic models, this minimal resistance translates directly into massively reduced energy consumption for circulation pumps. Over a 50-year operational lifecycle, this efficiency yields unparalleled CO2 emissions savings and substantially lowers the Total Cost of Ownership (TCO) for building operators. Furthermore, polypropylene is 100% recyclable. Through our validated Type III Environmental Product Declarations (EPD) complying with EN 15804, we provide architects and green-building planners with transparent, quantifiable data for LEED, BREEAM, and DGNB certifications.",
+    "t4": "Global Reach, German Engineering & Certifications",
+    "p4": "Manufactured entirely in Germany under strict ISO 9001, ISO 14001, and ISO 50001 quality and environmental management protocols, K-Aqua exports premium piping solutions to over 50 countries worldwide. Our logistics network guarantees the rapid, secure delivery of complete systems to mega-projects in the Middle East, Southeast Asia, and across Europe. Our relentless commitment to quality is validated by major international certification bodies including DVGW, SKZ, WRAS, and KIWA. We empower consulting engineers, BIM modelers, and large-scale contractors with detailed CAD/BIM libraries, intelligent calculation software, and comprehensive technical support to ensure flawless project execution. K-Aqua represents the ultimate synthesis of advanced polymer science, sustainable engineering, and uncompromising reliability in fluid management."
+  }
+}

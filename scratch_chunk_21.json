@@ -1,0 +1,290 @@
+{
+  "careerx": {
+    "areaEyebrow": "Work Areas",
+    "areaTitle": "Where you work at K-Aqua.",
+    "areaLead": "Creativity and experience are the basis of our market-leading solutions, four areas carry them, across the Waldsolms plant.",
+    "areas": [
+      {
+        "t": "Production & Manufacturing",
+        "d": "Set up, operate, and monitor extrusion lines with up to 14,000 meters of daily output, plus injection molding for fittings from d20 to d315.",
+        "p": "Technical understanding, diligence, willingness to work in shifts"
+      },
+      {
+        "t": "Technology & Maintenance",
+        "d": "Keeping extruders, tools, and peripherals running: maintenance, fault analysis, and continuous improvement according to GENAU.",
+        "p": "Training in mechatronics, electrical engineering, or metal, finding causes instead of patching symptoms"
+      },
+      {
+        "t": "Sales & Application Technology",
+        "d": "Supporting projects from Frankfurt to the Middle East: advising on dimensions, SDR classes, and welding technology, directly from the manufacturer.",
+        "p": "Technical consulting competence, languages are a plus"
+      },
+      {
+        "t": "Administration & Commercial",
+        "d": "Order processing, purchasing, and organization, the processes that keep quality compatible with costs and deadlines.",
+        "p": "Structured way of working, enjoyment of clear workflows"
+      }
+    ],
+    "areaNote": "Your profile is not listed? Unsolicited applications are expressly welcome, the company is growing.",
+    "whyEyebrow": "Why K-Aqua",
+    "whyTitle": "Four reasons to work here.",
+    "why": [
+      {
+        "t": "Growing Market Position",
+        "d": "A strong position that is continuously expanded, your work visibly contributes to success."
+      },
+      {
+        "t": "Safety as a System",
+        "d": "GENAU makes occupational safety a daily practice: reporting hazards is mandatory and taken seriously, by everyone, for everyone."
+      },
+      {
+        "t": "Product with Substance",
+        "d": "Pipes designed for 50 years of operation that work globally in hospitals and hotels, results that last."
+      },
+      {
+        "t": "Benefits that arrive net",
+        "d": "Tax-free extras from the benefit card to the JobBike, calculate above what your package yields."
+      }
+    ],
+    "procEyebrow": "Application Process",
+    "procTitle": "Three steps to the contract.",
+    "proc": [
+      {
+        "t": "Send Application",
+        "d": "By email to Andrea Nickel, with CV generator or direct application from this page. No cover letter novel needed."
+      },
+      {
+        "t": "Have a Conversation",
+        "d": "We will get back to you promptly and discuss the daily routine honestly, gladly also by phone at +49 (0)60 85 / 9868-410."
+      },
+      {
+        "t": "Get to know the plant",
+        "d": "You will see the production and team in Waldsolms before you decide, then follows the contract offer."
+      }
+    ],
+    "procContact": "Contact person: Andrea Nickel · andrea.nickel@k-aqua.de"
+  },
+  "refsx": {
+    "secEyebrow": "Global fields of application",
+    "secTitle": "Where K Aqua technology works.",
+    "secLead": "For decades, K Aqua products have proven themselves countless times in destinations all over the world; these building types characterize the reference programme.",
+    "sectors": [
+      {
+        "t": "Hospitals",
+        "d": "Hygienic drinking water distribution with biofilm-inhibiting inner surface, as in the new hospital building in Cape Town."
+      },
+      {
+        "t": "Hotels",
+        "d": "Hot water circulation in continuous operation, thermally efficient, as in the Istanbul hotel complex with fiber composite pipe."
+      },
+      {
+        "t": "Industrial buildings",
+        "d": "Chemically resistant and corrosion-free for process and industrial water, from commercial buildings to production halls."
+      },
+      {
+        "t": "Greenhouses & Infrastructure",
+        "d": "UV-stabilized irrigation under glass and supply networks up to d630, as in the Singapore infrastructure project."
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Reading Guide",
+    "helpTitle": "How to read the table.",
+    "helpLead": "Five terms are enough to understand every row in the assortment.",
+    "help": [
+      [
+        "d",
+        "Outer diameter in millimeters, the key parameter of every dimension from d20 to d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Smaller SDR means thicker wall and higher nominal pressure."
+      ],
+      [
+        "Wall (s)",
+        "Wall thickness in millimeters, derived from d and SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Inner diameter = d - 2s. Decisive for flow rate and pressure loss."
+      ],
+      [
+        "Nominal Pressure (PN)",
+        "Permissible continuous operating pressure in bar at 20 °C over the design horizon, SDR 6 = PN 20 to SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "From Filter to Offer",
+    "flow": [
+      {
+        "t": "Filter & search",
+        "d": "Narrow down type, SDR, and maximum dimension, or type \"d110\" directly into the search."
+      },
+      {
+        "t": "Check & export",
+        "d": "Click row for wall thickness, di, and nominal pressure in detail, the hit list transfers via CSV into your calculation."
+      },
+      {
+        "t": "Submit inquiry",
+        "d": "Directly from the detail window into the project inquiry; we will clarify dimensions and quantities together."
+      }
+    ]
+  },
+  "co2x": {
+    "methEyebrow": "Methodology",
+    "methTitle": "How the calculator calculates.",
+    "methLead": "Transparency instead of a black box, four building blocks behind every result.",
+    "meth": [
+      {
+        "t": "Mass model from SDR geometry",
+        "d": "The pipe mass follows from ring cross-section × length × density (0.905 g/cm³), the same geometry as in the dimension tables."
+      },
+      {
+        "t": "Material factors",
+        "d": "The emission factors per material are demonstration values for system comparison. Binding factors are provided by ecoinvent or product-specific Type III EPDs according to EN 15804."
+      },
+      {
+        "t": "Illustrative equivalents",
+        "d": "Conversion with around 25 kg CO₂ annual sequestration per tree and 0.15 kg CO₂e per car kilometer, orders of magnitude that everyone in the project meeting understands."
+      },
+      {
+        "t": "Verifiable path",
+        "d": "For audit and review, the document counts: EPD data sheets and Scope 3 data are available in the Trust Centre or upon request."
+      }
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Where the numbers pay off.",
+    "certLead": "CO₂ proofs are not an end in themselves; they contribute directly to building certifications.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPDs according to EN 15804 contribute to material credits, the calculator provides the preliminary argument, the EPD the proof."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Lifecycle data of the materials flows into the evaluation, verifiable through Type III declarations."
+      },
+      {
+        "t": "DGNB",
+        "d": "The lifecycle assessment of the building decides entire criteria groups; material selection with low GWP has a direct impact."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3, briefly explained",
+    "scopeText": "Scope 1 includes direct emissions from the plant, Scope 2 the purchased electricity, Scope 3 the supply chain, which includes your purchased pipes. That is why K Aqua provides Scope 3 data and EPD raw data upon request: proactive transparency for your own carbon footprint.",
+    "statNote": "From industry studies: Around half of B2B customers prefer to buy from demonstrably sustainable suppliers; the proof becomes a procurement criterion."
+  },
+  "homedeep": {
+    "plantEyebrow": "From the Waldsolms Plant",
+    "plantTitle": "Precision that can be measured.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/day",
+        "l": "Pipe production per extrusion line, capacity for major projects"
+      },
+      {
+        "n": "0.007",
+        "u": "mm",
+        "l": "Inner roughness of the pipe surface, minimal pressure loss, hardly any biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Years",
+        "l": "Design horizon according to the creep rupture curves of DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Certificates and audit documents as self-service in the Trust Centre.",
+    "badgeCta": "To the Trust Centre"
+  },
+  "legal": {
+    "impressum": {
+      "title": "Imprint",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Information according to § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Management",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Registry Court & Seat",
+          "content": "Wetzlar HRB 6732\n\nRegistered office:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "VAT ID",
+          "content": "Value added tax identification number according to § 27 a Value Added Tax Act:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Legal Notice & Disclaimer",
+          "content": "K-Aqua PP-R and PPRCT piping systems are high-tech products for the transport of drinking water, heating water, and industrial fluids. The information on this website has been compiled with the greatest possible care. Nevertheless, we assume no liability for the absolute accuracy, completeness, and timeliness of the technical data and specifications provided. Technical changes in the course of further development remain reserved at all times.\n\nLiability for links\nOur website contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages.\n\nCopyright\nThe content, technical drawings, 3D models, and works created by the site operators on these pages are subject to German copyright law. The reproduction, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator."
+        },
+        {
+          "id": "section-faq",
+          "title": "Frequently Asked Questions (Imprint & Service)",
+          "content": "How can I contact technical support?\nYou can reach our technical support for questions about PP-R pipelines, welding parameters, or custom-made products via the email address mentioned above or by phone during our business hours.\n\nWhere can I find detailed certificates and approvals?\nAll DVGW, KIWA, and SKZ certificates for our piping systems are available for download in the \"Resources\" section or directly on the respective product detail pages.\n\nWhat warranty does K-Aqua offer?\nK-Aqua offers a comprehensive system warranty for all PP-R and PPRCT pipes and fittings, provided they have been professionally installed and welded with original K-Aqua tools. We will gladly send you detailed warranty conditions upon request."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Data protection at a glance",
+          "content": "This privacy policy informs you about which personal data is actually processed on this website and for what purpose.\n\nIn brief: We only process personal data if you actively provide it to us via our contact and request forms, as well as to the technically necessary extent when you visit the website (server log data of our hosting provider). We currently do not use third-party analytics or marketing services; corresponding technologies would only be loaded after your explicit consent via the cookie banner."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Responsible Body",
+          "content": "The responsible body for data processing on this website is:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nPhone: +49 (0)60 85 / 9868-410\nEmail: info@k-aqua.de\n\nThe responsible body is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Data Protection Officer",
+          "content": "We have appointed a data protection officer for our company:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nPhone: +49 2861 80847 700\nEmail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Hosting and server log files",
+          "content": "This website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA. When you visit the website, the hosting provider automatically processes technical access data in so-called server log files: IP address, date and time of access, page accessed, browser type and version, and operating system.\n\nThis data is used exclusively for the secure, stable delivery of the website and error analysis; it is not merged with other data sources. The legal basis is Art. 6 para. 1 lit. f GDPR (legitimate interest in the secure provision of our online offering). A data processing agreement is in place with Vercel; data is transferred to the USA on the basis of the EU Standard Contractual Clauses or the EU-US Data Privacy Framework."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Contact and request forms",
+          "content": "If you use one of our request forms, we process the data provided there: phone number, email address, your chosen request, and the page from which the request was sent. This data is transmitted by email to info@k-aqua.de and, if a CRM system is connected, stored there to process your request.\n\nFor applications via the career form, the application data you provide (name, contact details, CV or details of experience and education) is transmitted by email to our HR department.\n\nThe purpose of the processing is exclusively to process your request or application. The legal basis is Art. 6 para. 1 lit. b GDPR (performance of pre-contractual measures) or Art. 6 para. 1 lit. f GDPR. The data will be deleted as soon as it is no longer required for the purpose and there are no conflicting statutory retention obligations.\n\nTo protect against automated spam submissions, we use an invisible technical check (honeypot field and time threshold), without third-party captcha services."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies and consent",
+          "content": "This website uses technically necessary cookies or comparable storage technologies, for example to store your language and display settings as well as your cookie decision. These are required for the operation of the website (legal basis: Art. 6 para. 1 lit. f GDPR or § 25 para. 2 TDDDG).\n\nVia the cookie banner, you can additionally consent to the categories \"Analytics\" and \"Marketing\". We currently do not use any analytics or marketing services; should such services be integrated in the future, they will only be loaded after your consent (Art. 6 para. 1 lit. a GDPR, § 25 para. 1 TDDDG). You can revoke your consent at any time with effect for the future via the cookie settings."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Your Rights",
+          "content": "Within the framework of the applicable legal provisions, you have the right at any time to:\n\n- Information about your stored personal data (Art. 15 GDPR)\n- Correction of incorrect data (Art. 16 GDPR)\n- Deletion (Art. 17 GDPR)\n- Restriction of processing (Art. 18 GDPR)\n- Data portability (Art. 20 GDPR)\n- Objection to processing based on legitimate interests (Art. 21 GDPR)\n- Revocation of consent given with effect for the future (Art. 7 para. 3 GDPR)\n\nTo do so, contact the responsible body mentioned above or our data protection officer. In addition, you have the right to lodge a complaint with the competent supervisory authority, for us: The Hessian Commissioner for Data Protection and Freedom of Information (HBDI), Wiesbaden."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL or TLS encryption",
+          "content": "For security reasons and to protect the transmission of confidential content, such as your requests to us, this website uses SSL or TLS encryption. You can recognize an encrypted connection by \"https://\" and the lock symbol in your browser's address bar. If encryption is activated, the data you transmit to us cannot be read by third parties."
+        }
+      ]
+    },
+    "toc": "Content",
+    "eyebrow": "Legal"
+  }
+}

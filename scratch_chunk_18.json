@@ -1,0 +1,397 @@
+{
+  "notFound": {
+    "title": "Page not found",
+    "description": "The requested page does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "productsx": {
+    "pipesEyebrow": "Pipe Programme",
+    "pipesTitle": "Three Pipe Families, One System Concept.",
+    "pipesLead": "Monolayer, PPRCT and glass fiber reinforced composite, plus UV-stabilized versions for outdoor applications.",
+    "pipes": [
+      {
+        "t": "K-Pipe PP-R Monolayer",
+        "d": "The proven standard for hot and cold drinking water. Single-layer construction, full SDR range in standard dimensions, economical for residential and commercial construction.",
+        "tags": [
+          "d20–d630",
+          "SDR 6–17"
+        ]
+      },
+      {
+        "t": "K-Pipe PPRCT",
+        "d": "Modified crystal structure for more temperature and pressure reserve: SDR 7.4 is designed for 70 °C continuous operation at 10 bar (1.0 MPa), the choice for hot water and circulation.",
+        "tags": [
+          "70 °C · 10 bar",
+          "Hot Water"
+        ]
+      },
+      {
+        "t": "K-Fiber Pipe (GF-Multilayer)",
+        "d": "Glass fiber reinforced core between two PP layers: thermal expansion reduced to about a quarter, larger clamp distances, dimensionally stable up to d630, up to 20 bar (2.0 MPa) at 20 °C in SDR 6.",
+        "tags": [
+          "GF-Core",
+          "d20–d630"
+        ]
+      },
+      {
+        "t": "UV-stabilized Version",
+        "d": "For installations with sun exposure, such as greenhouses or overhead lines, the programme is available in a UV-resistant version.",
+        "tags": [
+          "Outdoor",
+          "Agricultural"
+        ]
+      }
+    ],
+    "dimEyebrow": "Dimension Tables",
+    "dimTitle": "Every Dimension, Every Wall Thickness.",
+    "dimLead": "Select the pressure rating, the table shows all available dimensions with wall thickness, inner diameter, nominal pressure, water content, and weight per meter.",
+    "dimTabAria": "Select Pressure Rating",
+    "dimHead": [
+      "d (mm)",
+      "Wall s (mm)",
+      "di (mm)",
+      "Nominal Pressure",
+      "Water Content (l/m)",
+      "Weight (kg/m)"
+    ],
+    "dimNote": "Calculated values from the SDR geometry (s = d/SDR, density 0.905 g/cm³) according to the series of DIN 8077. The product catalogue and project-specific data sheets are binding.",
+    "anchorsTitle": "Binding Design Anchors from the Programme",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "K-Fiber Pipe PP-R · SDR 6",
+        "c": "2.0 MPa continuous operation at 20 °C, cold water over the 50-year design horizon."
+      },
+      {
+        "v": "10 bar",
+        "t": "K-Pipe PPRCT · SDR 7.4",
+        "c": "1.0 MPa continuous operation at 70 °C, hot water and circulation without reserve loss."
+      }
+    ],
+    "matEyebrow": "Material Data",
+    "matTitle": "What Sets the Material Apart.",
+    "matLead": "The key characteristics of the PP-R/PPRCT system, and why they matter in planning.",
+    "matHead": [
+      "Property",
+      "Value",
+      "Significance for Your Project"
+    ],
+    "matRows": [
+      [
+        "Density",
+        "0.905 g/cm³",
+        "About a tenth of copper, easy transport, simple installation without hoisting gear for small and medium dimensions."
+      ],
+      [
+        "Inner Roughness",
+        "0.007 mm",
+        "Extremely smooth surface: minimal pressure loss, hardly any incrustation and biofilm formation."
+      ],
+      [
+        "Thermal Conductivity",
+        "0.24 W/(m·K)",
+        "Low heat losses in hot water circulation, permanent energy savings compared to metal."
+      ],
+      [
+        "Linear Expansion (Monolayer)",
+        "≈ 0.15 mm/(m·K)",
+        "Absorbed structurally via expansion loops and fixed points."
+      ],
+      [
+        "Linear Expansion (K-Fiber, GF)",
+        "≈ 0.04 mm/(m·K)",
+        "About a quarter of the monolayer value, larger clamp distances, calmer pipeline appearance."
+      ],
+      [
+        "Media Temperature",
+        "cold up to 70 °C continuous operation",
+        "Drinking water hot and cold; design anchor: PPRCT SDR 7.4 at 70 °C · 10 bar."
+      ],
+      [
+        "Chemical Resistance",
+        "Solvents, alkalis, acids",
+        "Unusually resistant for an engineering plastic, corrosion-free with no risk of pitting."
+      ],
+      [
+        "Recycling",
+        "Code 5 (PP)",
+        "Can be separated by type; 100 % of production waste goes back into the recycling loop."
+      ]
+    ],
+    "fitEyebrow": "Fittings & System Components",
+    "fitTitle": "The System Around the Pipe.",
+    "fitLead": "Fittings from d20 to d315, valves, transitions, and complete welding technology, everything from a single source, everything system-compatible.",
+    "fitGroups": [
+      {
+        "t": "Fittings d20–d315",
+        "items": [
+          "Elbows 90° and 45°",
+          "T-pieces, also reduced",
+          "Sockets and sliding sockets",
+          "Reducers",
+          "End caps"
+        ]
+      },
+      {
+        "t": "Transitions & Unions",
+        "items": [
+          "Transition pieces with brass female thread",
+          "Transition pieces with brass male thread",
+          "Unions (detachable)",
+          "Connection to existing metal pipelines"
+        ]
+      },
+      {
+        "t": "Valves",
+        "items": [
+          "Valves",
+          "Ball valves",
+          "Shut-offs for risers and distribution lines"
+        ]
+      },
+      {
+        "t": "Welding Technology & Tools",
+        "items": [
+          "Manual welding devices (up to d63)",
+          "Socket welding machines",
+          "Electrofusion devices",
+          "Butt welding machines for large dimensions",
+          "Pipe cutters and cutting tools"
+        ]
+      }
+    ],
+    "normEyebrow": "Standards & Certifications",
+    "normTitle": "Tested Against the Rulebooks.",
+    "normLead": "The K-Aqua system is manufactured and tested against relevant piping technology standards, every batch under ISO-9001 quality requirements.",
+    "normHead": [
+      "Standard",
+      "Title",
+      "Significance"
+    ],
+    "norms": [
+      [
+        "DIN 8077",
+        "Polypropylene Pipes: Dimensions",
+        "Defines diameter and wall thickness series (SDR) for PP pipes."
+      ],
+      [
+        "DIN 8078",
+        "Polypropylene Pipes: Requirements",
+        "General quality requirements and tests for PP-R/PPRCT pipes."
+      ],
+      [
+        "DIN EN ISO 15874",
+        "Plastics Piping Systems",
+        "System standard for hot and cold water installations made of polypropylene."
+      ],
+      [
+        "DVS 2207-11",
+        "Welding of PP",
+        "Guidelines for socket, electrofusion, and butt welding, basis of Academy content."
+      ],
+      [
+        "DVGW / KTW",
+        "Drinking Water Contact",
+        "Proofs of conformity for contact with drinking water, requestable in the Trust Centre."
+      ],
+      [
+        "EN 15804",
+        "EPD (Type III)",
+        "Environmental product declarations as data basis for LEED, BREEAM, and DGNB."
+      ],
+      [
+        "ISO 9001 / 14001 / 50001",
+        "Management Systems",
+        "Quality, Environment, and Energy, triple certified since October 2025, DAkkS accredited."
+      ],
+      [
+        "GENAU",
+        "Integrated Management System",
+        "The in-house system in the House of KWT combines occupational safety, environment, and energy in everyday life."
+      ]
+    ],
+    "faqEyebrow": "Frequently Asked Questions",
+    "faqTitle": "Answers for Planning and Purchasing.",
+    "faq": [
+      {
+        "q": "Which media is the system designed for?",
+        "a": "For drinking water, hot and cold, with high temperature and pressure resistance over decades. Due to PP's resistance to solvents, alkalis, and acids, industrial applications are also possible; we verify these on a project-specific basis with you."
+      },
+      {
+        "q": "What do the five SDR classes stand for?",
+        "a": "SDR is the ratio of outer diameter to wall thickness (d/s). Smaller SDR = thicker wall = higher nominal pressure: SDR 6 corresponds to PN 20, SDR 17 corresponds to PN 6. This way you choose exactly the reserve you need per application, without over-dimensioning."
+      },
+      {
+        "q": "When Monolayer, when K-Fiber?",
+        "a": "Monolayer is the economical standard for most applications. The glass fiber reinforced composite reduces thermal expansion to about a quarter, allows larger clamp distances, and remains dimensionally stable for large dimensions and hot water, the choice for risers, circulation, and d ≥ 160."
+      },
+      {
+        "q": "How are the pipes connected?",
+        "a": "Material-bonded by welding, manual socket welding (up to d63) or by machine, electrofusion via heating coil fittings, and butt welding for large dimensions up to d630. The suitable devices and tools are part of the programme; all four methods are shown in the Academy video."
+      },
+      {
+        "q": "Is the system compliant for drinking water?",
+        "a": "The system is developed for drinking water; polypropylene is tasteless and odorless. We provide the conformity proofs for drinking water contact (DVGW/KTW) in the Trust Centre as part of the RFP document package."
+      },
+      {
+        "q": "What lifespan is the design based on?",
+        "a": "The pressure ratings are based on the creep regression curves of DIN 8077/8078 with a design horizon of 50 years of operation, including safety factor. The two programme anchors: SDR 6 with 20 bar at 20 °C and PPRCT SDR 7.4 with 10 bar at 70 °C."
+      },
+      {
+        "q": "Where can I get binding article data?",
+        "a": "In the Product Finder, you filter all variants live and export them as CSV. The product catalogue (PDF) provides binding values; for project conditions, the project inquiry leads directly to sales in five steps, response within one working day."
+      }
+    ]
+  },
+  "solutionsx": {
+    "segEyebrow": "Areas of Application",
+    "segTitle": "Proven where water is critical.",
+    "segLead": "K Aqua systems operate worldwide in projects from hospitals to greenhouses; each area of application utilizes different strengths of the material.",
+    "segments": [
+      {
+        "t": "Hospitals & Healthcare Facilities",
+        "d": "Hygiene is non-negotiable here: The smooth inner surface (0.007 mm) inhibits biofilm and encrustation; the material remains tasteless and odorless.",
+        "pts": [
+          "Hygienic Neutrality",
+          "Corrosion-free, no pitting",
+          "Reference: Cape Town New Hospital Building"
+        ]
+      },
+      {
+        "t": "Hotels & High-Rise Residential Buildings",
+        "d": "24/7 hot water circulation: low thermal conductivity permanently saves energy, PPRCT withstands 70 °C continuous operation.",
+        "pts": [
+          "Thermal Efficiency",
+          "PPRCT for circulation",
+          "Reference: Istanbul Hotel Complex"
+        ]
+      },
+      {
+        "t": "Industry & Commercial Construction",
+        "d": "Resistant to solvents, alkalis, and acids; where metal pipes corrode, polypropylene remains unaffected.",
+        "pts": [
+          "Chemical Resistance",
+          "Long maintenance intervals",
+          "Process and service water"
+        ]
+      },
+      {
+        "t": "Greenhouses & Agriculture",
+        "d": "UV-stabilized versions for irrigation under glass and outdoors, lightweight, quickly installed, less sensitive to frost than rigid systems.",
+        "pts": [
+          "UV-resistant execution",
+          "Low weight",
+          "Application area from the reference programme"
+        ]
+      },
+      {
+        "t": "Municipal Infrastructure",
+        "d": "Supply lines and networks in large dimensions up to d630, butt-welded into homogeneous, permanently tight lines.",
+        "pts": [
+          "d up to 630 mm",
+          "Butt Fusion",
+          "Reference: Singapore Infrastructure"
+        ]
+      },
+      {
+        "t": "Renovation & Replacement",
+        "d": "Replacement of corroded existing metal or PVC pipes: transition pieces with brass threads cleanly connect the existing system to the new one.",
+        "pts": [
+          "Transitions to metal threads",
+          "Section-by-section renovation",
+          "Corrosion problem permanently solved"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Material Comparison",
+    "cmpTitle": "PP-R/PPRCT in Comparison.",
+    "cmpLead": "Four piping materials, eight criteria, a simplified comparison as a starting point for project-specific material selection.",
+    "cmpHead": [
+      "Criterion",
+      "K Aqua PP-R/PPRCT",
+      "Copper",
+      "Stainless Steel",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Corrosion",
+        "corrosion-free, immune to electrochemical corrosion",
+        "pitting possible",
+        "resistant (quality dependent)",
+        "corrosion-free"
+      ],
+      [
+        "Encrustation & Biofilm",
+        "very low, inner roughness 0.007 mm",
+        "possible",
+        "low",
+        "low"
+      ],
+      [
+        "Thermal Conductivity",
+        "0.24 W/(m·K), low losses",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0.14 W/(m·K)"
+      ],
+      [
+        "Density / Weight",
+        "0.905 g/cm³",
+        "8.9 g/cm³",
+        "7.9 g/cm³",
+        "1.55 g/cm³"
+      ],
+      [
+        "Joining Technology",
+        "materially welded, homogeneous strand",
+        "soldered / pressed",
+        "pressed / welded",
+        "glued"
+      ],
+      [
+        "Taste & Odor",
+        "neutral",
+        "metal release possible",
+        "neutral",
+        "neutral"
+      ],
+      [
+        "CO₂ (Construction)",
+        "low, compare in the CO₂ calculator",
+        "high",
+        "high",
+        "medium"
+      ],
+      [
+        "Recycling",
+        "Code 5, pure grade, 100% production waste recycled",
+        "scrap cycle",
+        "scrap cycle",
+        "limited"
+      ]
+    ],
+    "cmpNote": "Simplified comparison with typical material characteristics; material selection remains project-specific. Data basis for CO₂ comparison: see CO₂ calculator and EPD data sheets.",
+    "lifeEyebrow": "Lifecycle",
+    "lifeTitle": "From Raw Gas to Recyclate.",
+    "lifeLead": "Responsibility over the entire cycle, four stages that make the product ecologically sustainable.",
+    "life": [
+      {
+        "t": "Raw Material with History",
+        "d": "Polypropylene is created from gases that were previously flared uselessly; its use as a material reduces air pollution at the source."
+      },
+      {
+        "t": "Manufacturing in a Loop",
+        "d": "Production in Waldsolms cools in a closed water loop, protecting rivers, streams, and lakes; ISO 50001 manages energy efficiency."
+      },
+      {
+        "t": "50 Years in Operation",
+        "d": "Designed according to the creep rupture curves of DIN 8077/8078 for 50 years of operation, easy to maintain, wear-resistant, age-resistant."
+      },
+      {
+        "t": "Back into the Loop",
+        "d": "Recycling Code 5: pure grade separation with high demand for PP recyclate. 100% of offcuts and production waste are recycled."
+      }
+    ]
+  }
+}

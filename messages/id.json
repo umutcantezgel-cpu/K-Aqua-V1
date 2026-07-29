@@ -913,8 +913,8 @@
     "statTitle": "Pengadaan telah berubah.",
     "stats": [
       {"n": "70", "u": "%", "l": "pembeli B2B meneliti secara anonim sebelum menghubungi bagian penjualan"},
-      {"n": "11–20", "u": "", "l": "Pemangku kepentingan membentuk pusat pembelian tipikal dari sebuah proyek"},
-      {"n": "87", "u": "", "l": "Titik kontak dapat menjadi bagian dari keputusan pembelian B2B"},
+      {"n": "11–20", "u": " ", "l": "Pemangku kepentingan membentuk pusat pembelian tipikal dari sebuah proyek"},
+      {"n": "87", "u": " ", "l": "Titik kontak dapat menjadi bagian dari keputusan pembelian B2B"},
       {"n": "50", "u": "%", "l": "pelanggan B2B lebih suka membeli dari pemasok yang terbukti berkelanjutan"}
     ],
     "statNote": "Angka-angka penting dari studi industri tentang pengadaan B2B. Oleh karena itu, semua bukti tersedia untuk diambil sendiri di sini, bukan \"atas permintaan tertulis\".",
@@ -1031,6 +1031,31 @@
           {"t": "Pendinginan di Bawah Tekanan", "d": "Biarkan koneksi mendingin di bawah tekanan mesin untuk waktu pendinginan penuh sebelum dilepas."}
         ]
       }
+    ],
+    "errEyebrow": "Ilmu Kesalahan",
+    "errTitle": "Enam kesalahan termahal dan pencegahannya.",
+    "errHead": ["Kesalahan", "Konsekuensi", "Pencegahan"],
+    "errRows": [
+      ["Pemanasan terlalu lama", "Manik tumbuh ke dalam, penampang menyempit", "Hentikan waktu pemanasan sesuai tabel, bukan berdasarkan perasaan"],
+      ["Memutar saat menyambung", "Struktur plastis hancur, sambungan bocor", "Sambung hanya secara aksial, gunakan tanda sebagai kontrol"],
+      ["Kurangnya deburring/chamfering", "Material menumpuk, zona sambungan menjadi tidak merata", "Deburr setiap potongan: alat ini bagian dari sistem"],
+      ["Elemen pemanas kotor", "Kotoran terbakar dan mengendap di dalam jahitan", "Bersihkan permukaan pemanas sebelum setiap pengelasan dengan kain bebas serat"],
+      ["Beban terlalu dini", "Jahitan berubah bentuk sebelum mengeras", "Patuhi waktu pendinginan: untuk d110 ini adalah 8 menit"],
+      ["Kedalaman pengelasan salah", "Terlalu pendek: area sambungan kecil · terlalu dalam: penyempitan penampang", "Selalu tandai kedalaman penyisipan, jangan pernah menebak"]
+    ],
+    "glossEyebrow": "Glosarium",
+    "glossTitle": "Istilah-istilah teknik perpipaan.",
+    "gloss": [
+      ["SDR", "Standard Dimension Ratio = Diameter luar dibagi ketebalan dinding (d/s). SDR kecil = dinding lebih tebal = tekanan nominal lebih tinggi."],
+      ["PN", "Tekanan nominal dalam bar pada 20 °C di atas horizon desain: SDR 6 sesuai dengan PN 20, SDR 17 sesuai dengan PN 6."],
+      ["d / di / s", "Diameter luar / diameter dalam / ketebalan dinding dalam milimeter. di = d − 2s."],
+      ["PP-R", "Polypropylene Random Copolymer: material standar yang teruji untuk instalasi air minum."],
+      ["PPRCT", "PP-R dengan struktur kristal termodifikasi (\"Crystallinity Temperature\"): lebih banyak cadangan suhu dan tekanan dengan dinding yang sama."],
+      ["K-Fiber / GF", "Struktur multilayer yang diperkuat serat kaca: mengurangi ekspansi termal menjadi sekitar seperempat."],
+      ["Pengelasan Soket", "Socket Fusion: pipa dan fitting diplastisasi menggunakan selongsong pemanas dan mandrel lalu disambungkan."],
+      ["Pengelasan Elektro", "Electrofusion: kumparan pemanas tertanam di fitting menghasilkan panas pengelasan, dikendalikan parameter."],
+      ["Pengelasan Butt", "Butt Fusion: ujung pipa sejajar datar dipanaskan pada elemen pemanas dan disambungkan di bawah tekanan, standar hingga d630."],
+      ["DVS 2207-11", "Seperangkat aturan untuk mengelas polipropilena: sumber nilai panduan di halaman ini."]
     ]
   },
   "servicex": {
@@ -1151,6 +1176,68 @@
       {
         "q": "Dalam bahasa apa dokumen tersedia?",
         "a": "Katalog saat ini dalam bahasa Inggris, sertifikat dalam bahasa Jerman dan Inggris. Situs web ini bekerja dalam tiga bahasa (DE/EN/AR). Bahasa dokumen lainnya berdasarkan permintaan melalui penjualan."
+      }
+    ],
+    "libHead": [
+      "Dokumen",
+      "Isi",
+      "Bahasa",
+      "Akses"
+    ],
+    "libRows": [
+      {
+        "t": "Program Produk K Aqua",
+        "s": "Katalog lengkap: dimensi, artikel, gambaran sistem",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "Karakteristik Produk K Aqua",
+        "s": "Karakteristik teknis dan data material",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "Jaminan Kualitas K Aqua",
+        "s": "Prosedur pengujian dan standar kualitas",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "Sertifikat ISO (Jerman)",
+        "s": "ISO 9001 · 14001 · 50001, terakreditasi DAkkS",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "Sertifikat ISO (Inggris)",
+        "s": "ISO 9001 · 14001 · 50001, terakreditasi DAkkS",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "Kebijakan GENAU & Penilaian Risiko",
+        "s": "Sistem manajemen, pencegahan, penilaian bahaya",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Lembar Data EPD (Tipe III, EN 15804)",
+        "s": "Data siklus hidup untuk LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Teks Tender GAEB",
+        "s": "Teks siap pakai untuk daftar kuantitas",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Manual Jaminan Kualitas",
+        "s": "Proses QA untuk audit pemasok",
+        "lang": "DE/EN",
+        "href": null
       }
     ]
   },
@@ -1308,6 +1395,849 @@
         "description": "Sebagai salah satu negara-kota berteknologi tinggi paling padat penduduknya di Asia, Singapura memerlukan teknologi bangunan yang sangat efisien dan hemat ruang. <span class=\"font-semibold\">Sistem pipa inovatif K-Aqua</span> mendukung tujuan Green-Building Singapura yang ambisius dengan mengurangi kehilangan tekanan secara drastis dan mengoptimalkan karakteristik termal. Dari sistem pendingin udara gedung tinggi (Air Dingin) hingga suplai air minum ultra-murni, kami menetapkan standar di Asia.",
         "metaDesc": "Pipa PP-R/PP-RCT efisien untuk Bangunan Hijau Singapura. Sistem khusus untuk Air Dingin dan pasokan air minum ultra-murni."
       }
+    }
+  },
+  "buyers": {
+    "eyebrow": "Untuk Perencana, Pembelian & Instalatir",
+    "title1": "Anda merencanakan, menghitung, atau menginstal.",
+    "titleGrad": "Kami menyediakan dasarnya.",
+    "lead": "Setiap peran menemukan informasi yang tepat di K Aqua untuk keputusan berikutnya, tanpa mencari di PDF, tanpa menunggu balasan.",
+    "personas": [
+      {
+        "t": "Perencana & Insinyur Spesialis",
+        "d": "Data teknis yang sesuai standar, tabel SDR, dan bukti CO₂ untuk tender, siap digunakan langsung.",
+        "cta": "Ke data teknis",
+        "goto": "products"
+      },
+      {
+        "t": "Pembelian & Pengadaan",
+        "d": "Pengiriman langsung dari pabrik, logistik terencana dari Waldsolms, dan satu narahubung alih-alih perantara.",
+        "cta": "Mulai permintaan proyek",
+        "goto": "rfq"
+      },
+      {
+        "t": "Instalatir & Kontraktor",
+        "d": "Empat metode pengelasan sebagai video, gambaran alat, dan batas pemrosesan yang jelas, keamanan di lokasi.",
+        "cta": "Ke Akademi",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Mengapa K Aqua",
+    "whyTitle": "Enam alasan yang relevan dalam kalkulasi.",
+    "why": [
+      {
+        "t": "Tahan tekanan & tahan air panas",
+        "d": "PPRCT dengan struktur kristal termodifikasi: cadangan suhu dan tekanan lebih banyak selama puluhan tahun."
+      },
+      {
+        "t": "Bebas korosi",
+        "d": "Tidak ada karat, tidak ada pengerasan, tidak ada risiko korosi sumuran seperti pada pipa logam."
+      },
+      {
+        "t": "Dapat didaur ulang & rendah CO₂",
+        "d": "Kode Daur Ulang 5, jejak yang jauh lebih kecil daripada tembaga atau baja: dapat diverifikasi dalam kalkulator CO₂."
+      },
+      {
+        "t": "Satu Narahubung",
+        "d": "Pipa, fitting, katup, dan teknologi pengelasan dari satu sumber, dari pabrikan, bukan dari perantara."
+      }
+    ],
+    "promise": [
+      "Langsung dari pabrik",
+      "Balasan < 24 jam",
+      "Tanpa kewajiban"
+    ],
+    "ctaAll": "Permintaan proyek dalam 2 menit"
+  },
+  "cookieConsent": {
+    "title": "Privasi Anda",
+    "description": "Kami menggunakan cookie untuk mengoptimalkan situs web kami untuk Anda dan untuk terus memperbaikinya. Ini termasuk cookie yang diperlukan untuk pengoperasian situs, serta cookie yang hanya digunakan untuk tujuan statistik anonim.",
+    "customize": "Sesuaikan",
+    "declineAll": "Tolak",
+    "acceptAll": "Terima semua",
+    "acceptSelected": "Simpan pilihan",
+    "essentialTitle": "Diperlukan",
+    "essentialDesc": "Cookie ini diperlukan untuk fungsi dasar situs web. Ini memastikan bahwa situs web berfungsi dengan benar.",
+    "analyticsTitle": "Analisis",
+    "analyticsDesc": "Membantu kami memahami bagaimana pengunjung berinteraksi dengan situs web dengan mengumpulkan dan melaporkan informasi secara anonim.",
+    "marketingTitle": "Pemasaran",
+    "marketingDesc": "Digunakan untuk melacak pengunjung di seluruh situs web untuk menampilkan iklan yang relevan.",
+    "vendorListTitle": "Daftar Vendor",
+    "backToSimple": "Kembali"
+  },
+  "legal": {
+    "datenschutz": {
+      "title": "Kebijakan Privasi",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Ikhtisar Perlindungan Data",
+          "content": "Informasi berikut memberikan gambaran sederhana tentang apa yang terjadi pada data pribadi Anda saat mengunjungi situs web ini. Data pribadi adalah semua data yang dapat digunakan untuk mengidentifikasi Anda secara pribadi."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Pihak yang Bertanggung Jawab",
+          "content": "Pihak yang bertanggung jawab atas pemrosesan data di situs web ini adalah:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelepon: +49 (0)60 85 / 9868-410\nE-mail: info@k-aqua.de"
+        }
+      ]
+    },
+    "impressum": {
+      "title": "Jejak",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Informasi kontak",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFaks +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Manajemen",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Pendaftaran",
+          "content": "Wetzlar HRB 6732\nLokasi: Waldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "ID PPN",
+          "content": "DE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Penafian Hukum",
+          "content": "Sistem perpipaan K Aqua PP-R dan PPRCT adalah produk berteknologi tinggi."
+        }
+      ]
+    },
+    "agb": [
+      "Syarat dan Ketentuan Umum",
+      "Syarat dan ketentuan bisnis umum."
+    ],
+    "toc": "Isi",
+    "eyebrow": "Hukum"
+  },
+  "rfq": {
+    "eyebrow": "Permintaan Proyek",
+    "title1": "Proyek Anda,",
+    "titleGrad": "penawaran kami.",
+    "lead": "Empat langkah singkat menuju permintaan tanpa kewajiban. Anda akan menerima tanggapan pribadi dari bagian penjualan dalam satu hari kerja.",
+    "steps": [
+      "Jenis Proyek",
+      "Kebutuhan",
+      "Tanggal & Wilayah",
+      "Kontak"
+    ],
+    "types": [
+      {
+        "t": "Konstruksi Baru / Bangunan Komersial",
+        "d": "Instalasi air minum di perumahan atau komersial."
+      },
+      {
+        "t": "Infrastruktur / Teknik Sipil",
+        "d": "Jalur suplai, dimensi besar, jaringan."
+      },
+      {
+        "t": "Renovasi / Penggantian",
+        "d": "Penggantian pipa logam atau PVC yang ada."
+      },
+      {
+        "t": "Perdagangan / Penjualan Kembali",
+        "d": "Distribusi, gudang, atau bisnis proyek."
+      }
+    ],
+    "fType": "Jenis Proyek",
+    "fDims": "Dimensi yang dibutuhkan",
+    "fMeters": "Perkiraan panjang",
+    "dimsHint": "Informasi kasar sudah cukup, kita akan memperjelasnya bersama. Pilihan ganda dimungkinkan.",
+    "fTime": "Kerangka waktu yang direncanakan",
+    "fRegion": "Wilayah pengiriman",
+    "timelines": [
+      "Segera / berkelanjutan",
+      "Dalam 1–3 bulan",
+      "Dalam 3–6 bulan",
+      "Fase perencanaan"
+    ],
+    "regions": [
+      "Jerman",
+      "DACH",
+      "Eropa",
+      "Timur Tengah",
+      "Seluruh dunia"
+    ],
+    "fName": "Nama",
+    "fCompany": "Perusahaan",
+    "fEmail": "Email",
+    "fPhone": "Telepon",
+    "fMsg": "Pesan (opsional)",
+    "privacy": "Dengan mengirimkan, Anda membuka email yang sudah diisi ke info@k-aqua.de. Tidak ada data yang disimpan di halaman ini.",
+    "back": "Kembali",
+    "next": "Lanjut",
+    "send": "Kirim Permintaan",
+    "mailSubject": "Permintaan Proyek K Aqua",
+    "promise": [
+      "Tanggapan < 24 jam",
+      "Tanpa kewajiban",
+      "Langsung dari produsen"
+    ],
+    "doneTitle": "Hampir selesai.",
+    "doneText": "Program email Anda telah terbuka dengan permintaan yang sudah diisi. Kirimkan. Kami akan menghubungi Anda dalam satu hari kerja. Lebih suka berbicara langsung?",
+    "doneBack": "Kembali ke Beranda",
+    "infoTitle": "Tentang permintaan proyek",
+    "infoText1": "Gunakan alat permintaan kami untuk mengoordinasikan proyek konstruksi atau industri Anda dengan para ahli kami sedini mungkin.",
+    "infoText2": "Melalui kerja sama erat dengan penjualan K Aqua, Anda tidak hanya menerima penawaran presisi, tetapi juga saran teknis berharga mengenai kelas tekanan (SDR).",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "faqs": [
+      {
+        "q": "Apakah permintaan proyek ini berbayar?",
+        "a": "Tidak, ini sepenuhnya gratis dan tanpa kewajiban."
+      },
+      {
+        "q": "Apa yang terjadi setelah mengirim permintaan?",
+        "a": "Permintaan Anda dialihkan langsung ke staf penjualan internal kami."
+      }
+    ]
+  },
+  "seo": {
+    "homeTitle": "K Aqua PP-R Pipe Systems | Pabrikan Jerman",
+    "homeDesc": "Sistem perpipaan Polypropylene (PP-R/PPRCT) premium untuk air bersih dan AC. Direkayasa di Jerman untuk megaproyek.",
+    "extendedProductText": "Sistem perpipaan K-Aqua PP-R diproduksi 100% di Jerman sesuai standar DIN 8077/8078 dan sertifikasi DVGW. Kami menjamin kualitas premium yang tahan hingga 50 tahun untuk proyek konstruksi di seluruh dunia.",
+    "extendedMarketText": "Sistem kami telah teruji di kondisi ekstrem, memberikan keandalan infrastruktur air minum dan sistem iklim secara global dengan ketahanan tekanan tinggi dan bebas korosi."
+  },
+  "seoArticle": {
+    "published": "Diterbitkan",
+    "author": "Penulis",
+    "readingTime": "Waktu baca"
+  },
+  "seoExpansion": {
+    "t1": "Sistem Pipa Kinerja Tinggi & Manajemen Fluida",
+    "p1": "Sebagai produsen terkemuka sistem pipa PP-R dan PPRCT di dunia, K-Aqua menawarkan solusi tangguh, kuat, dan sangat efisien untuk jaringan air minum, pemanas, dan pendingin. Pipa kami direkayasa di Jerman, memastikan masa pakai lebih dari 50 tahun yang bebas kebocoran. Disertifikasi oleh lembaga pengujian internasional, kami mencegah pertumbuhan legionella dan menjaga kemurnian air minum di rumah sakit, hotel, dan infrastruktur.",
+    "t2": "Soket Canggih, Katup & Alat Instalasi",
+    "p2": "K-Aqua menyediakan rangkaian komprehensif soket cetakan injeksi, fitting transisi, dan katup tugas berat. Jaringan ini bergabung secara termal tanpa lapisan mekanik yang lemah. Kami juga menyediakan peralatan pengelasan profesional untuk setiap kebutuhan situs.",
+    "t3": "Keberlanjutan, EPD & Pengurangan CO2",
+    "p3": "Keberlanjutan tertanam dalam teknik perpipaan PP-R kami. Permukaan halus secara internal meminimalkan gesekan dan secara drastis mengurangi konsumsi energi pemompaan. Ini berarti penghematan CO2 yang tak tertandingi dan total biaya kepemilikan (TCO) yang lebih rendah. Bahan kami 100% dapat didaur ulang dan dilengkapi Deklarasi Produk Lingkungan (EPD).",
+    "t4": "Jangkauan Global, Rekayasa Jerman & Sertifikasi",
+    "p4": "Diproduksi di Jerman dengan manajemen kualitas ISO 9001, 14001, dan 50001, kami mengekspor solusi premium ke lebih dari 50 negara. Sistem yang disertifikasi oleh DVGW, SKZ, dan KIWA memberikan sintesis tertinggi dalam sains polimer dan keandalan manajemen fluida."
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Proyek Referensi Industri",
+      "titlePlain": "Teknologi yang ",
+      "titleAccent": "membuktikan dirinya.",
+      "lead": "Dari Waldsolms ke dunia: Sistem K-Aqua PP-R dan PP-RCT telah berjalan selama puluhan tahun di gedung pencakar langit, rumah sakit, dan pabrik industri.",
+      "cta1": "Lihat proyek referensi",
+      "cta2": "Minta laporan pengujian"
+    },
+    "manifesto": {
+      "title": "Doktrin Presisi",
+      "p1": "Dalam industri di mana kelelahan material dan korosi dianggap tidak terhindarkan, pabrik kami menetapkan standar yang berbeda.",
+      "p2": "Sistem kami berjalan di lingkungan di mana satu titik kebocoran membahayakan pengoperasian seluruh rumah sakit.",
+      "p3": "Kami sengaja menghindari campuran bahan yang buram. Resep kami didokumentasikan di seluruh rantai produksi.",
+      "p4": "Jaminan kualitas bagi kami bukanlah langkah pengujian hilir, melainkan bagian dari setiap tahap produksi."
+    },
+    "metrics": {
+      "eyebrow": "Angka Kunci Teknis",
+      "title1": "Parameter yang",
+      "title2": "Tanpa Kompromi",
+      "lead": "Sistem kami tidak diiklankan, mereka diuji.",
+      "items": {
+        "pressure": {
+          "title": "Uji tekanan jangka panjang menurut ISO 9080",
+          "desc": "Setiap dimensi yang dirilis menjalani pengujian tekanan internal.",
+          "placeholder": "Kurva regresi"
+        },
+        "isolation": {
+          "title": "Ketertelusuran batch yang mulus",
+          "desc": "Setiap panjang pipa memiliki nomor batch."
+        },
+        "tolerance": {
+          "title": "Toleransi ketebalan dinding dalam rentang mikrometer",
+          "desc": "Pengukuran ketebalan ultrasonik terus menerus."
+        },
+        "network": {
+          "title": "Jaringan Penjualan dan Layanan Global",
+          "desc": "Dari Waldsolms kami memasok proyek di lebih dari 35 negara.",
+          "placeholder": "Peta ekspor"
+        },
+        "welding": {
+          "title": "Integritas jahitan las tanpa kompromi",
+          "desc": "Setiap lasan soket elemen pemanas mengikuti profil tekanan-waktu-suhu yang didokumentasikan.",
+          "placeholder": "Mikrograf"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Siap untuk",
+      "title2": "proyek Anda berikutnya",
+      "lead": "Apakah Anda merencanakan gedung bertingkat atau proyek industri? Insinyur kami menunggu spesifikasi Anda.",
+      "btn1": "Minta sertifikat pengujian",
+      "btn2": "Kirim spesifikasi"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Inti Perusahaan",
+    "heroTitle": "Sistem Pipa ",
+    "heroTitleEm": "Kinerja Tinggi",
+    "heroLead": "Untuk aplikasi industri, pasokan air minum, dan teknologi AC.",
+    "telemetry": {
+      "pressureLabel": "Tekanan Sistem",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Suhu maks.",
+      "tempNote": "PN20 · Operasi Berkelanjutan",
+      "meta": [
+        ["Bahan", "K Aqua PP-R (Tipe 3)"],
+        ["Standar", "DIN 8077/8078"],
+        ["Sertifikasi", "DVGW, SKZ, KIWA"],
+        ["Masa Pakai", "> 50 Tahun"]
+      ]
+    },
+    "layers": {
+      "title": "Teknologi Komposit Serat",
+      "desc": "Struktur 3 lapis untuk ekspansi longitudinal yang diminimalkan.",
+      "ariaGroup": "Lapisan material",
+      "items": [
+        {"t": "PPRCT", "d": "Lapisan luar"},
+        {"t": "Komposit serat", "d": "Lapisan tengah"},
+        {"t": "PPRCT", "d": "Lapisan dalam"}
+      ]
+    },
+    "comply": {
+      "title": "Kepatuhan & Standar",
+      "items": [
+        ["DVGW", "Persetujuan Air Minum"],
+        ["SKZ", "Pemantauan Kualitas"],
+        ["KIWA", "Sertifikasi Sistem"],
+        ["DIN 8077/8078", "Dimensi Pipa & Toleransi"]
+      ]
+    },
+    "rangeTitle": "Dimensi",
+    "network": {
+      "title": "Jaringan Global",
+      "lead": "Sistem K Aqua beroperasi di lebih dari 35 negara.",
+      "chips": [
+        ["35+", "Negara"],
+        ["3", "Benua"],
+        ["ISO", "Tersertifikasi"]
+      ]
+    }
+  },
+  "newsx": {
+    "moreEyebrow": "Lebih Lanjut",
+    "moreTitle": "Artikel lainnya.",
+    "moreLead": "Pengetahuan material dan wawasan industri dari K Aqua.",
+    "readMore": "Baca lebih lanjut",
+    "readLess": "Lebih sedikit",
+    "posts": [
+      {
+        "date": "Pengetahuan",
+        "tag": "Material",
+        "t": "Mengapa sebenarnya PP-R?",
+        "teaser": "Dari gas suar hingga pipa air minum: sejarah singkat material polypropylene.",
+        "body": [
+          "Polypropylene terbuat dari gas yang dulunya dibakar sia-sia. Penggunaannya mengurangi polusi udara.",
+          "Dalam pipa, permukaan bagian dalam adalah kuncinya: Kekasaran 0,007 mm.",
+          "PPRCT mendorong batas lebih jauh dengan struktur kristal termodifikasi."
+        ]
+      },
+      {
+        "date": "Pengetahuan",
+        "tag": "Material",
+        "t": "Kuningan bertemu Polypropylene: Transisi ke sistem yang ada",
+        "teaser": "Renovasi berarti mengubah sistem: perlengkapan transisi dengan ulir kuningan membuatnya bersih.",
+        "body": [
+          "Hampir tidak ada proyek yang dimulai dari awal: Pipa yang ada harus disambungkan.",
+          "Ini memungkinkan renovasi bagian demi bagian."
+        ]
+      }
+    ],
+    "ishTitle": "Titik Pertemuan Industri",
+    "ishText": "Industri HVAC bertemu di ISH di Frankfurt. Tanggal K Aqua akan muncul di sini."
+  },
+  "contactx": {
+    "routeEyebrow": "Rute Langsung",
+    "routeTitle": "Siapa yang menjawab apa.",
+    "routeLead": "Tiga kotak masuk, tanggung jawab jelas.",
+    "routes": [
+      {
+        "t": "Penjualan & Proyek",
+        "d": "Penawaran, waktu pengiriman, kondisi.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Kualitas & Dukungan Teknis",
+        "d": "Pertanyaan material, sertifikat, keluhan.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Karir & Aplikasi",
+        "d": "Pekerjaan di K Aqua.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Senang mengetahui",
+    "facts": [
+      ["Waktu respons", "Balasan dalam satu hari kerja"],
+      ["Lokasi", "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf"],
+      ["Telepon / Faks", "+49 (0)60 85 / 9868-410 · Faks -420"],
+      ["Bahasa", "Jerman dan Inggris"],
+      ["Kunjungan pabrik", "Sesuai janji"]
+    ],
+    "mapLabel": "Peta akses Waldsolms",
+    "faqEyebrow": "Sebelum menulis",
+    "faqTitle": "Empat pertanyaan paling umum.",
+    "faq": [
+      {
+        "q": "Apa yang harus ada dalam permintaan proyek?",
+        "a": "Jenis proyek, dimensi, panjang, wilayah, dan kerangka waktu."
+      },
+      {
+        "q": "Seberapa cepat saya mendapat balasan?",
+        "a": "Dalam satu hari kerja."
+      },
+      {
+        "q": "Dapatkah saya mengunjungi pabrik?",
+        "a": "Ya, dengan janji temu."
+      },
+      {
+        "q": "Di mana sertifikatnya?",
+        "a": "Di Pusat Kepercayaan (Trust Center)."
+      }
+    ]
+  },
+  "careerx": {
+    "areaEyebrow": "Area Kerja",
+    "areaTitle": "Tempat Anda bekerja di K Aqua.",
+    "areaLead": "Kreativitas dan pengalaman adalah fondasi kami.",
+    "areas": [
+      {
+        "t": "Produksi & Manufaktur",
+        "d": "Mesin ekstrusi dan cetakan injeksi.",
+        "p": "Pemahaman teknis, kesiapan shift"
+      },
+      {
+        "t": "Teknologi & Pemeliharaan",
+        "d": "Menjaga mesin tetap berjalan.",
+        "p": "Pelatihan mekatronika"
+      },
+      {
+        "t": "Penjualan & Rekayasa",
+        "d": "Saran proyek teknis.",
+        "p": "Kompetensi penasehat teknis"
+      },
+      {
+        "t": "Administrasi & Komersial",
+        "d": "Pembelian dan organisasi.",
+        "p": "Kerja terstruktur"
+      }
+    ],
+    "areaNote": "Aplikasi spontan selalu diterima.",
+    "whyEyebrow": "Mengapa K Aqua",
+    "whyTitle": "Empat alasan untuk bekerja di sini.",
+    "why": [
+      {"t": "Posisi pasar berkembang", "d": "Berkontribusi pada kesuksesan."},
+      {"t": "Keselamatan", "d": "Sistem GENAU melindungi Anda."},
+      {"t": "Produk dengan substansi", "d": "Pipa dengan masa pakai 50 tahun."},
+      {"t": "Manfaat", "d": "Manfaat tambahan dari kartu prabayar hingga sepeda."}
+    ],
+    "procEyebrow": "Proses Aplikasi",
+    "procTitle": "Tiga langkah menuju kontrak.",
+    "proc": [
+      {"t": "Kirim aplikasi", "d": "Melalui email ke Andrea Nickel."},
+      {"t": "Wawancara", "d": "Kami menghubungi Anda segera."},
+      {"t": "Kunjungan pabrik", "d": "Lihat produksi sebelum memutuskan."}
+    ],
+    "procContact": "Kontak: Andrea Nickel · andrea.nickel@k-aqua.de"
+  },
+  "refsx": {
+    "title1": "Dimana K Aqua beroperasi.",
+    "title2": "Proyek global.",
+    "lead": "Sistem perpipaan Polypropylene kami telah beroperasi selama puluhan tahun di gedung pencakar langit, rumah sakit, dan lokasi industri.",
+    "filters": ["Semua", "Konstruksi Bertingkat", "Perawatan Kesehatan", "Infrastruktur"],
+    "projects": [
+      {
+        "t": "Mega Hospital Dubai",
+        "cat": "Perawatan Kesehatan",
+        "d": "Jaringan pasokan air untuk fasilitas medis berteknologi tinggi di UEA. Diimplementasikan dengan PPRCT SDR 7.4."
+      },
+      {
+        "t": "Pusat Data Frankfurt",
+        "cat": "Infrastruktur",
+        "d": "Pipa air pendingin tanpa korosi untuk ketersediaan maksimum di lingkungan yang sangat penting."
+      },
+      {
+        "t": "Menara Bandara",
+        "cat": "Konstruksi Bertingkat",
+        "d": "Sistem perpipaan tahan tekanan dari lantai dasar hingga lantai paling atas."
+      }
+    ],
+    "more": "Lihat proyek referensi"
+  },
+  "finderx": {
+    "heroTitle": "Pencari Produk",
+    "heroLead": "Temukan artikel, nomor komponen, dan informasi yang tepat.",
+    "categories": [
+      {"id": "pipes", "t": "Pipa", "d": "PP-R dan PPRCT"},
+      {"id": "fittings", "t": "Soket", "d": "Penyambung dan pembagian"},
+      {"id": "tools", "t": "Alat", "d": "Mesin las dan aksesori"}
+    ],
+    "results": "Hasil",
+    "search": "Cari nomor bagian"
+  },
+  "application": {
+    "tabs": {
+      "quick": "Kontak Cepat & Budaya",
+      "detailed": "Portal Pekerjaan & Lamaran"
+    },
+    "portal": {
+      "eyebrow": "Lowongan Terbuka",
+      "title": "Jadilah bagian dari",
+      "titleGrad": "tim kami",
+      "lead": "Temukan peluang karir yang menarik di K Aqua dan melamar dalam beberapa menit.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Pekerja Produksi (pria/wanita/lainnya)",
+          "type": "Penuh waktu / Shift",
+          "desc": "Dukung kami dalam produksi pipa dan fitting modern."
+        },
+        {
+          "id": "machine",
+          "title": "Operator Mesin dan Pabrik (pria/wanita/lainnya)",
+          "type": "Penuh waktu",
+          "desc": "Pengoperasian dan pemantauan sistem ekstrusi berteknologi tinggi kami."
+        },
+        {
+          "id": "logistics",
+          "title": "Spesialis Logistik Gudang (pria/wanita/lainnya)",
+          "type": "Penuh waktu",
+          "desc": "Tanggung jawab atas penerimaan barang, pengeluaran barang, dan pengendalian inventaris."
+        },
+        {
+          "id": "sales",
+          "title": "Penjualan Teknis Eksternal (pria/wanita/lainnya)",
+          "type": "Penuh waktu",
+          "desc": "Dukungan untuk pelanggan besar dan perencana proyek di wilayah internasional."
+        },
+        {
+          "id": "pm",
+          "title": "Manajer Produk (pria/wanita/lainnya)",
+          "type": "Penuh waktu",
+          "desc": "Bentuk masa depan sistem perpipaan PP-R kami."
+        },
+        {
+          "id": "init",
+          "title": "Lamaran Spontan",
+          "type": "Penuh waktu / Paruh waktu",
+          "desc": "Tidak ada posisi yang cocok? Kirimkan saja lamaran spontan!"
+        }
+      ],
+      "steps": {
+        "step1": "Data Pribadi",
+        "step2": "CV & Dokumen",
+        "step3": "Tinjauan"
+      },
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Surel (E-Mail)",
+        "phone": "Telepon",
+        "startDate": "Tanggal mulai paling awal yang mungkin",
+        "uploadTitle": "Unggah PDF",
+        "uploadDesc": "Seret CV Anda ke sini atau klik untuk memilih (maks. 5MB)",
+        "builderTitle": "Atau: Buat CV daring",
+        "builderDesc": "Tidak punya PDF? Isi saja karir Anda di sini.",
+        "workExp": "Tambahkan Pengalaman Kerja",
+        "education": "Tambahkan Pendidikan",
+        "company": "Perusahaan",
+        "role": "Posisi",
+        "school": "Sekolah / Universitas",
+        "degree": "Gelar",
+        "from": "Dari",
+        "to": "Hingga",
+        "skills": "Keterampilan (dipisahkan koma)",
+        "next": "Lanjut",
+        "back": "Kembali",
+        "submit": "Kirim Lamaran",
+        "submitting": "Mengirim...",
+        "success": "Terima kasih atas lamaran Anda!",
+        "successSub": "Kami telah menerima dokumen Anda dan akan segera menghubungi Anda.",
+        "error": "Terjadi kesalahan. Silakan coba lagi nanti."
+      }
+    }
+  },
+  "resources": {
+    "technical": "Data Teknis",
+    "certificates": "Sertifikat",
+    "bim": "BIM / CAD Data"
+  },
+  "markets": {
+    "eu": "Eropa (DVGW, SKZ)",
+    "me": "Timur Tengah (Kementerian Lokal)",
+    "asia": "Asia Pasifik"
+  },
+  "wissen": {
+    "materialTitle": "Pengetahuan Material",
+    "materialDesc": "Polypropylene dan aplikasinya.",
+    "weldingTitle": "Teknologi Pengelasan",
+    "weldingDesc": "Pelatihan dan parameter standar."
+  },
+  "productNames": {
+    "accessories_blind-flange": "Flensa Buta",
+    "accessories_flange-adaptor": "Adaptor Flensa PP-R",
+    "accessories_flange": "Flensa",
+    "accessories_gasket": "Gasket",
+    "accessories_pipe-clamp": "Klem Pipa PP-R",
+    "accessories_pipe-clip": "Klip Pipa PP-R",
+    "accessories_pipe-stopper": "Penutup Pipa",
+    "fittings_cap": "Tutup PP-R",
+    "fittings_cross": "Silang PP-R",
+    "fittings_elbow-45": "Siku PP-R 45°",
+    "fittings_elbow-90": "Siku PP-R 90°",
+    "fittings_electrofusion-socket": "Soket Elektro-fusi",
+    "fittings_reducer": "Pereduksi PP-R",
+    "fittings_socket": "Soket PP-R",
+    "fittings_tee": "Tee PP-R",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "Pipa K-Fiber PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "Pipa K-Fiber PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "Pipa K-Fiber PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "Pipa K-Fiber PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "Pipa K-Fiber PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "Pipa K-Fiber UV PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Pipa komposit multilayer dengan selubung pelindung UV khusus untuk di luar ruangan.",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "Pipa K-Fiber UV PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Pipa komposit kinerja tinggi dengan lapisan hitam pelindung UV.",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "Pipa K-Fiberclima PPRCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "Pipa K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "Pipa K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "Pipa K-Pipe PPRCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "Pipa K-Pipe Ungu PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Mesin Las Butt d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Alat Bor untuk Pelana Las",
+    "tools_electrofusion-machine": "Mesin Las Elektro-fusi",
+    "tools_hand-welding-machine-20-32": "Mesin Las Tangan d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "Mesin las soket kompak sebagai set lengkap untuk dimensi kecil dari d20 hingga d32 mm.",
+    "tools_hand-welding-machine-20-63": "Mesin Las Tangan d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "Mesin las soket serbaguna dalam set untuk pipa d20 hingga d63 mm.",
+    "tools_hand-welding-machine-mirror-50-125": "Mesin Las Tangan (hanya cermin) 50-125",
+    "tools_pipe-cutter-20-40": "Pemotong Pipa Ratchet d20-d40",
+    "tools_pipe-cutter-50-125-114": "Pemotong Pipa 1 1/4",
+    "tools_pipe-cutter-50-125": "Pemotong Pipa Profesional d50-d125",
+    "tools_repairing-plug": "Steker Perbaikan",
+    "tools_welding-machine-50-125": "Mesin Las d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Alat Las untuk Steker Perbaikan",
+    "tools_welding-tool-for-weld-in-saddles": "Alat Las untuk Pelana Las",
+    "tools_welding-tool": "Alat Las",
+    "transition-fittings_adaptor-socket-female-thread": "Soket Adaptor (Ulir Dalam)",
+    "transition-fittings_adaptor-socket-male-thread": "Soket Adaptor (Ulir Luar)",
+    "transition-fittings_elbow-90-male-thread": "Siku PP-R 90° (Ulir Luar)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Braket Dinding Siku 90° (Ulir Dalam)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Braket dinding sepihak.",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Braket Dinding Ganda Siku 90° (Ulir Dalam)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Pengikat dinding ganda.",
+    "transition-fittings_metal-union-female-thread-brass": "Konektor Logam Kuningan CW617N (Ulir Dalam)",
+    "transition-fittings_metal-union-female-thread": "Konektor dengan Mur PP-R (Ulir Dalam)",
+    "transition-fittings_metal-union-male-thread-brass": "Konektor Logam Kuningan CW617N (Ulir Luar)",
+    "transition-fittings_metal-union-male-thread": "Konektor dengan Mur PP-R (Ulir Luar)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Ulir Dalam)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Ulir Luar)",
+    "transition-fittings_union-for-watermeters": "Konektor Meteran Air",
+    "transition-fittings_union": "Konektor Pipa PP-R",
+    "valves_adjustable-battery-female-thread": "Baterai Dapat Disesuaikan (Ulir Dalam)",
+    "valves_battery-female-thread": "Baterai (Ulir Dalam)",
+    "valves_concealed-valve-chrome-heavy-part": "Katup Tersembunyi Krom: Bagian Berat",
+    "valves_concealed-valve-chrome-light-part": "Katup Tersembunyi Krom: Bagian Ringan",
+    "valves_elongation-pieces": "Potongan Perpanjangan",
+    "valves_pp-r-ball-valve-ball-in-pp": "Katup Bola PP-R (Bola PP)",
+    "valves_pp-r-ball-valve-brass": "Katup Bola PP-R (Kuningan, Lapis Krom)",
+    "valves_straight-seat-valve-green-handle": "Katup Duduk Lurus",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Ulir Dalam) untuk Katup",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Pelana Las (Ulir Dalam)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Pelana Las (Ulir Luar)",
+    "weld-in-saddles_weld-in-saddle": "Pelana Las"
+  },
+  "customerReviews": {
+    "eyebrow": "Kualitas yang menghubungkan",
+    "title": "Apa kata pelanggan dan mitra kami",
+    "lead": "Kualitas buatan Waldsolms, Jerman. Baca sendiri pengalaman mereka.",
+    "trustBadge": "Ulasan Google",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(Berdasarkan 44 ulasan)",
+    "tabA": "Kualitas & \"Buatan Jerman\"",
+    "tabB": "Logistik & Pengiriman",
+    "tabC": "Layanan Pelanggan & Tim",
+    "reviews": {
+      "a1": "“Pabrik di Waldsolms, mengkhususkan diri pada **Buatan Jerman**.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**Kualitas Jerman**, staf yang sangat ramah.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Perusahaan modern**. Memproduksi pipa plastik semua ukuran.”",
+      "a3Author": "Ewald S.",
+      "a4": "“Pipa dan perlengkapan PPR dari **pabrikan Jerman**.”",
+      "a4Author": "Kais S.",
+      "a5": "“**Produk berkualitas tinggi**.”",
+      "a5Author": "Abdoo4560 D.",
+      "a6": "“Produk yang sangat baik, **kualitas andal** dan pengiriman tepat waktu.”",
+      "a6Author": "Klaus T.",
+      "b1": "“Penanganan yang sangat baik, **pembongkaran cepat**.”",
+      "b1Author": "Michael S.",
+      "b2": "“Staf yang ramah.”",
+      "b2Author": "Oleg M.",
+      "b3": "“**Pembongkaran cepat**.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Layanan yang sangat baik**.”",
+      "c1Author": "Daniel",
+      "c2": "“Staf **sangat ramah**. Email **segera dibalas**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“Orang-orang baik.”",
+      "c3Author": "Azim",
+      "c4": "“**Perusahaan hebat**.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“Karyawan **sangat ramah**.”",
+      "c5Author": "Piera V.",
+      "c6": "“Tim yang kompeten.”",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Yakinkan diri Anda.",
+    "ctaText": "Ada pertanyaan? Tim kami siap membantu.",
+    "ctaBtn": "Hubungi Sekarang",
+    "disclaimer": "Catatan: Ulasan dari Profil Bisnis Google kami."
+  },
+  "kontaktBlocks": {
+    "produkte": {
+      "kicker": "Katalog & Pengadaan",
+      "head": "Tanyakan waktu pengiriman dan ketersediaan langsung.",
+      "short": "Cek ketersediaan dan ketentuan",
+      "text": "Anda merencanakan tenggat waktu yang ketat? Kami siap membantu.",
+      "interest": "Sistem perpipaan",
+      "done": "Penjualan dalam kami akan segera memeriksa ketersediaan."
+    },
+    "k_pipe_sdr_6": {
+      "kicker": "Dukungan Teknis SDR 6",
+      "head": "Klarifikasi batas tekanan ekstrem langsung dengan para insinyur.",
+      "short": "Tanyakan aplikasi SDR 6",
+      "text": "Jika pipa standar gagal, SDR 6 direkomendasikan. Diskusikan batasan tekanan.",
+      "interest": "Sistem perpipaan",
+      "done": "Seorang spesialis teknik tekanan tinggi akan menghubungi Anda."
+    },
+    "k_pipe_sdr_7_4": {
+      "kicker": "Dukungan Teknis SDR 7.4",
+      "head": "Hitung peningkatan laju aliran dengan PPRCT.",
+      "short": "Tanyakan aplikasi SDR 7.4 PPRCT",
+      "text": "PPRCT memungkinkan dinding yang lebih tipis dan aliran yang lebih besar.",
+      "interest": "Sistem perpipaan",
+      "done": "Seorang spesialis perpipaan akan menghubungi Anda."
+    },
+    "k_fiber_sdr_11": {
+      "kicker": "Dukungan Teknis K-Fiber",
+      "head": "Kendalikan ekspansi termal.",
+      "short": "Tanyakan kompensasi ekspansi",
+      "text": "Serat mengurangi ekspansi. Kami membantu perhitungan.",
+      "interest": "Sistem perpipaan",
+      "done": "Dukungan teknis kami akan menghubungi Anda."
+    },
+    "k_fiber_uv": {
+      "kicker": "Dukungan Teknis Tahan UV",
+      "head": "Instalasi luar ruangan tanpa risiko degradasi.",
+      "short": "Tanyakan aplikasi UV-Outdoor",
+      "text": "Pipa hitam kami tahan UV. Tanyakan tentang masa pakai.",
+      "interest": "Sistem perpipaan",
+      "done": "Pakar material kami akan menghubungi Anda."
+    },
+    "fittings": {
+      "kicker": "Soket & Fitting",
+      "head": "Pertanyaan tentang pemasangan.",
+      "short": "Tanyakan aplikasi soket",
+      "text": "Punya pertanyaan tentang teknologi pengelasan?",
+      "interest": "Sistem perpipaan",
+      "done": "Ahli las kami akan menghubungi Anda."
+    },
+    "transition": {
+      "kicker": "Koneksi Logam",
+      "head": "Transisi bebas korosi ke sistem yang ada.",
+      "short": "Tanyakan transisi logam-plastik",
+      "text": "Renovasi dan sambungkan perpipaan lama.",
+      "interest": "Sistem perpipaan",
+      "done": "Pakar sistem hibrida akan menghubungi Anda."
+    },
+    "valves": {
+      "kicker": "Katup & Kontrol",
+      "head": "Dukungan untuk katup plastik murni.",
+      "short": "Tanyakan tentang katup PPR",
+      "text": "Katup 100% plastik menghindari korosi.",
+      "interest": "Sistem perpipaan",
+      "done": "Kami akan membantu pemilihan katup Anda."
+    },
+    "weld_saddles": {
+      "kicker": "Sadel Las",
+      "head": "Percabangan retroaktif tanpa memotong pipa utama.",
+      "short": "Pertanyaan tentang sadel las",
+      "text": "Butuh bantuan dengan teknik sadel?",
+      "interest": "Sistem perpipaan",
+      "done": "Tim dukungan teknis akan segera membalas."
+    },
+    "tools": {
+      "kicker": "Teknologi Pengelasan",
+      "head": "Penyewaan dan pembelian mesin las.",
+      "short": "Peralatan pengelasan & instruksi",
+      "text": "Butuh mesin atau perbaikan?",
+      "interest": "Peralatan",
+      "done": "Layanan peralatan kami akan menghubungi Anda."
+    },
+    "academy": {
+      "kicker": "Pelatihan K-Aqua",
+      "head": "Ajukan pelatihan di lokasi.",
+      "short": "Pesan kursus Akademi",
+      "text": "Latih tim Anda dengan instruktur resmi kami.",
+      "interest": "Konsultasi",
+      "done": "Manajer Akademi akan segera mengonfirmasi."
+    },
+    "fallback": {
+      "kicker": "Kontak",
+      "head": "Bicara langsung dengan insinyur kami.",
+      "short": "Jalur langsung",
+      "text": "Satu klik dan kami akan menghubungi Anda kembali.",
+      "interest": "Konsultasi",
+      "done": "Kami akan segera menghubungi Anda."
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telepon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Harap masukkan nomor telepon",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "email@perusahaan.com",
+    "emailError": "Harap masukkan email valid",
+    "chipsLabel": "Apa yang Anda butuhkan",
+    "send": "Kirim Permintaan",
+    "sendError": "Gagal mengirim. Coba lagi atau hubungi kami.",
+    "legal": "Tidak ada iklan, tidak ada pembagian data.",
+    "legalLink": "Kebijakan Privasi",
+    "doneTitle": "Terima kasih, kami menerimanya.",
+    "doneTitleSlim": "Terima kasih.",
+    "direct": "Mendesak? Telepon langsung",
+    "promise": "Balasan dalam satu hari kerja",
+    "ccAria": "Kode negara",
+    "closeAria": "Tutup",
+    "fabAria": "Kontak",
+    "interests": {
+      "rohrsysteme": "Sistem Pipa",
+      "trinkwassernetze": "Jaringan Air Minum",
+      "bim": "Data BIM",
+      "ersatzteile": "Suku Cadang",
+      "beratung": "Konsultasi"
     }
   }
 }

@@ -1,0 +1,374 @@
+{
+  "homedeep": {
+    "plantEyebrow": "From the Waldsolms Plant",
+    "plantTitle": "Precision that can be measured.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/day",
+        "l": "Pipe production per extrusion line, capacity for major projects"
+      },
+      {
+        "n": "0.007",
+        "u": "mm",
+        "l": "Inner roughness of the pipe surface, minimal pressure loss, hardly any biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Years",
+        "l": "Design horizon according to the creep rupture curves of DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Certificates and audit documents as self-service in the Trust Centre.",
+    "badgeCta": "To the Trust Centre"
+  },
+  "legal": {
+    "impressum": {
+      "title": "Imprint",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Information according to § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Management",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Registry Court & Seat",
+          "content": "Wetzlar HRB 6732\n\nRegistered office:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "VAT ID",
+          "content": "Value added tax identification number according to § 27 a Value Added Tax Act:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Legal Notice & Disclaimer",
+          "content": "K-Aqua PP-R and PPRCT piping systems are high-tech products for the transport of drinking water, heating water, and industrial fluids. The information on this website has been compiled with the greatest possible care. Nevertheless, we assume no liability for the absolute accuracy, completeness, and timeliness of the technical data and specifications provided. Technical changes in the course of further development remain reserved at all times.\n\nLiability for links\nOur website contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages.\n\nCopyright\nThe content, technical drawings, 3D models, and works created by the site operators on these pages are subject to German copyright law. The reproduction, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator."
+        },
+        {
+          "id": "section-faq",
+          "title": "Frequently Asked Questions (Imprint & Service)",
+          "content": "How can I contact technical support?\nYou can reach our technical support for questions about PP-R pipelines, welding parameters, or custom-made products via the email address mentioned above or by phone during our business hours.\n\nWhere can I find detailed certificates and approvals?\nAll DVGW, KIWA, and SKZ certificates for our piping systems are available for download in the \"Resources\" section or directly on the respective product detail pages.\n\nWhat warranty does K-Aqua offer?\nK-Aqua offers a comprehensive system warranty for all PP-R and PPRCT pipes and fittings, provided they have been professionally installed and welded with original K-Aqua tools. We will gladly send you detailed warranty conditions upon request."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Data protection at a glance",
+          "content": "This privacy policy informs you about which personal data is actually processed on this website and for what purpose.\n\nIn brief: We only process personal data if you actively provide it to us via our contact and request forms, as well as to the technically necessary extent when you visit the website (server log data of our hosting provider). We currently do not use third-party analytics or marketing services; corresponding technologies would only be loaded after your explicit consent via the cookie banner."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Responsible Body",
+          "content": "The responsible body for data processing on this website is:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nPhone: +49 (0)60 85 / 9868-410\nEmail: info@k-aqua.de\n\nThe responsible body is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Data Protection Officer",
+          "content": "We have appointed a data protection officer for our company:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nPhone: +49 2861 80847 700\nEmail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Hosting and server log files",
+          "content": "This website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA. When you visit the website, the hosting provider automatically processes technical access data in so-called server log files: IP address, date and time of access, page accessed, browser type and version, and operating system.\n\nThis data is used exclusively for the secure, stable delivery of the website and error analysis; it is not merged with other data sources. The legal basis is Art. 6 para. 1 lit. f GDPR (legitimate interest in the secure provision of our online offering). A data processing agreement is in place with Vercel; data is transferred to the USA on the basis of the EU Standard Contractual Clauses or the EU-US Data Privacy Framework."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Contact and request forms",
+          "content": "If you use one of our request forms, we process the data provided there: phone number, email address, your chosen request, and the page from which the request was sent. This data is transmitted by email to info@k-aqua.de and, if a CRM system is connected, stored there to process your request.\n\nFor applications via the career form, the application data you provide (name, contact details, CV or details of experience and education) is transmitted by email to our HR department.\n\nThe purpose of the processing is exclusively to process your request or application. The legal basis is Art. 6 para. 1 lit. b GDPR (performance of pre-contractual measures) or Art. 6 para. 1 lit. f GDPR. The data will be deleted as soon as it is no longer required for the purpose and there are no conflicting statutory retention obligations.\n\nTo protect against automated spam submissions, we use an invisible technical check (honeypot field and time threshold), without third-party captcha services."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies and consent",
+          "content": "This website uses technically necessary cookies or comparable storage technologies, for example to store your language and display settings as well as your cookie decision. These are required for the operation of the website (legal basis: Art. 6 para. 1 lit. f GDPR or § 25 para. 2 TDDDG).\n\nVia the cookie banner, you can additionally consent to the categories \"Analytics\" and \"Marketing\". We currently do not use any analytics or marketing services; should such services be integrated in the future, they will only be loaded after your consent (Art. 6 para. 1 lit. a GDPR, § 25 para. 1 TDDDG). You can revoke your consent at any time with effect for the future via the cookie settings."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Your Rights",
+          "content": "Within the framework of the applicable legal provisions, you have the right at any time to:\n\n- Information about your stored personal data (Art. 15 GDPR)\n- Correction of incorrect data (Art. 16 GDPR)\n- Deletion (Art. 17 GDPR)\n- Restriction of processing (Art. 18 GDPR)\n- Data portability (Art. 20 GDPR)\n- Objection to processing based on legitimate interests (Art. 21 GDPR)\n- Revocation of consent given with effect for the future (Art. 7 para. 3 GDPR)\n\nTo do so, contact the responsible body mentioned above or our data protection officer. In addition, you have the right to lodge a complaint with the competent supervisory authority, for us: The Hessian Commissioner for Data Protection and Freedom of Information (HBDI), Wiesbaden."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL or TLS encryption",
+          "content": "For security reasons and to protect the transmission of confidential content, such as your requests to us, this website uses SSL or TLS encryption. You can recognize an encrypted connection by \"https://\" and the lock symbol in your browser's address bar. If encryption is activated, the data you transmit to us cannot be read by third parties."
+        }
+      ]
+    },
+    "toc": "Content",
+    "eyebrow": "Legal"
+  },
+  "navigation": {
+    "cookieTitle": "We use cookies",
+    "cookieDesc": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "cookieAccept": "Accept All",
+    "cookieDecline": "Decline Only Essential"
+  },
+  "cookieConsent": {
+    "title": "Privacy Settings & Cookies",
+    "description": "We use cookies and similar technologies (like pixels and local storage) to give you the best possible experience on our platform. Some are absolutely necessary, while others help us improve this website. You have full control at all times.",
+    "customise": "Customise Settings",
+    "declineAll": "Only Essential",
+    "acceptAll": "Accept All",
+    "acceptSelected": "Save Selection",
+    "essentialTitle": "Essential (Technically Necessary)",
+    "essentialDesc": "These cookies are absolutely necessary for the smooth functioning of the website (e.g., navigation, security, saving your privacy preferences). Without these technologies, K Aqua cannot operate properly. They do not store any personally identifiable data.",
+    "analyticsTitle": "Statistics & Analysis",
+    "analyticsDesc": "These cookies help us understand the behavior of our visitors. We collect pseudonymized data about how users interact with K Aqua (e.g., most visited pages, time spent, error messages). This allows us to fix errors and continuously improve the platform.",
+    "marketingTitle": "Marketing & Personalization",
+    "marketingDesc": "We use these technologies to show you more relevant content and advertisements, also on external platforms. If you deactivate this, you will still see advertisements, but they will be less tailored to your interests.",
+    "vendorListTitle": "View Detailed Cookie List",
+    "backToSimple": "Back to Overview"
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "Our high-quality K-Aqua systems offer maximum reliability and durability for demanding projects worldwide.",
+      "p2": "Thanks to advanced materials and precise manufacturing in Germany, we guarantee simple installation and lasting safety.",
+      "p3": "Trust in certified quality and sustainable solutions that meet the highest international standards and increase the efficiency of your project."
+    },
+    "extendedMarketText": {
+      "p1": "K-Aqua's solutions are specifically designed to meet the demands of local and international markets.",
+      "p2": "We support general contractors and planners on-site with technical expertise and reliable systems for every challenge.",
+      "p3": "Through our global network, we ensure that you receive exactly the products optimally suited for your regional construction projects.",
+      "p4": "The water management challenges of our time demand tailored, durable infrastructure solutions. K-Aqua is actively engaged in international markets to meet the growing need for hygienic and leak-free piping networks. Whether in arid regions where every drop must be protected by leak-proof welded joints, or in highly dense metropolises with complex fire protection and sound insulation requirements, our PP-R and PPRCT systems provide the necessary reliability.",
+      "p5": "In doing so, we focus not only on pure product distribution but see ourselves as a strategic local partner. Through technical training, on-site supervision, and close cooperation with local authorities, we ensure that international standards (such as DVGW, WRAS, SASO) are not just met, but exceeded. Thus, we sustainably contribute to the modernization of global water infrastructure."
+    }
+  },
+  "application": {
+    "tabs": {
+      "quick": "Quick Contact & Culture",
+      "detailed": "Job Portal & Application"
+    },
+    "portal": {
+      "eyebrow": "Open Positions",
+      "title": "Become part of our",
+      "titleGrad": "Team",
+      "lead": "Discover exciting career opportunities at K-Aqua and apply in just a few minutes.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Production Worker (m/f/d)",
+          "type": "Full-time / Shift",
+          "desc": "Support us in modern pipe and fitting production."
+        },
+        {
+          "id": "machine",
+          "title": "Machine and Plant Operator (m/f/d)",
+          "type": "Full-time",
+          "desc": "Operation and monitoring of our high-tech extrusion lines."
+        },
+        {
+          "id": "logistics",
+          "title": "Warehouse Logistics Specialist (m/f/d)",
+          "type": "Full-time",
+          "desc": "Responsibility for incoming and outgoing goods as well as inventory control."
+        },
+        {
+          "id": "sales",
+          "title": "Technical Field Sales Representative (m/f/d)",
+          "type": "Full-time",
+          "desc": "Support for key accounts and project planners internationally."
+        },
+        {
+          "id": "pm",
+          "title": "Product Manager (m/f/d)",
+          "type": "Full-time",
+          "desc": "Shape the future of our PP-R piping systems."
+        },
+        {
+          "id": "init",
+          "title": "Unsolicited Application",
+          "type": "Full-time / Part-time",
+          "desc": "No suitable position? Simply send us an unsolicited application!"
+        }
+      ],
+      "steps": {
+        "step1": "Personal Data",
+        "step2": "CV & Documents",
+        "step3": "Review"
+      },
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "startDate": "Earliest possible start date",
+        "uploadTitle": "Upload PDF",
+        "uploadDesc": "Drag your CV here or click to select (max. 5MB)",
+        "builderTitle": "Or: Create CV online",
+        "builderDesc": "Don't have a PDF? Simply fill out your work experience here.",
+        "workExp": "Add work experience",
+        "education": "Add education",
+        "company": "Company",
+        "role": "Position",
+        "school": "School / University",
+        "degree": "Degree",
+        "from": "From",
+        "to": "To",
+        "skills": "Skills (comma-separated)",
+        "next": "Next",
+        "back": "Back",
+        "submit": "Submit Application",
+        "submitting": "Submitting...",
+        "success": "Thank you for your application!",
+        "successSub": "We have received your documents and will get back to you shortly.",
+        "error": "An error occurred. Please try again later."
+      }
+    }
+  },
+  "menu": {
+    "pipes": "Pipes",
+    "fittings": "Fittings",
+    "transition": "Transition Fittings",
+    "valves": "Valves & Taps",
+    "tools": "Welding Tools"
+  },
+  "quote": "Project Inquiry",
+  "resources": {},
+  "__resources": {
+    "support": {
+      "title": "Technical Support",
+      "sub": "Engineering consulting, application technology, and on-site support.",
+      "metaDesc": "Technical support, consulting, and application engineering for K-Aqua piping systems.",
+      "seoText": {
+        "p1": "K-Aqua's technical support is the backbone of our global infrastructure projects. We know that when installing industrial piping systems and high-performance PP-R lines, every second counts. Our team of fluid dynamics and polymer systems experts is by the side of international general contractors, architects, and civil engineers every step of the way.",
+        "p2": "From initial planning and isometric calculations to pressure loss design and on-site welding process monitoring, we guarantee flawless implementation. Our Polypropylene Random Copolymer (PP-R) systems require the highest level of craftsmanship. That's why our Academy offers continuous training, while support steps in for complex thermal expansions or specific flow pressure requirements.",
+        "p3": "By using state-of-the-art diagnostic tools and predictive maintenance algorithms, we minimize downtime to an absolute minimum. Whether it's cold water systems in desert regions, high-purity industrial plants, or heating networks in arctic zones, the K-Aqua support infrastructure ensures smooth operation and the uncompromising longevity of your investment."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Predictive System Monitoring",
+            "desc": "Our algorithms continuously analyze anomalies in the infrastructure. Before a critical state is reached, our level-3 team intervenes. Zero tolerance for latency. Zero tolerance for failures. We act before the error occurs."
+          },
+          {
+            "title": "Military Response Times",
+            "desc": "For us, an SLA is not a guideline, but a physical law. For critical incidents, we guarantee initial responses in the millisecond range and immediate escalation to dedicated senior engineers. No holding patterns, just immediate execution."
+          },
+          {
+            "title": "Architecture Audits",
+            "desc": "Your systems are put to the test according to the strictest standards of German engineering. Scalability, redundancy, and reliability are verified through ruthless stress tests. Vulnerabilities are eliminated, not managed."
+          },
+          {
+            "title": "Direct Developer Access",
+            "desc": "Forget conventional support. For complex system integrations, you communicate directly with our core developers. No first-level filter, just raw, unfiltered technical expertise for immediate problem solving at the source code level."
+          }
+        ],
+        "eyebrow": "Escalation Protocols",
+        "title": "Sovereignty in Crisis",
+        "lead": "How we maintain system integrity under extreme load conditions."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomaly Detection",
+            "text": "Automated systems detect micro-deviations in the data stream long before a visible failure."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostic Triage",
+            "text": "AI-supported log analysis isolates the error vector. Assignment to the exactly matching specialist cluster."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Intervention",
+            "text": "Deployment of hotfixes or automatic rerouting of traffic to redundant high-availability nodes."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Root Cause Analysis",
+            "text": "Forensic investigation of the incident. Modification of the core architecture for permanent prevention."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem Protocol",
+            "text": "Detailed technical report with cryptographic signature for absolute transparency and audit security."
+          }
+        ],
+        "title": "The Emergency: Chronicle of an Intervention",
+        "desc": "Every second counts. Our standardized procedure in the event of a critical system anomaly. Coldly calculated. Mercilessly executed."
+      },
+      "hero": {
+        "eyebrow": "Technical Support",
+        "title1": "Support that",
+        "title2": "thinks ahead.",
+        "desc": "From pipe sizing to commissioning: Our technical support accompanies planners and installers through every phase of a PP-R project, with a direct line to the engineers who developed the system. Support that thinks ahead, from planning to commissioning.",
+        "btnPrimary": "Submit project inquiry",
+        "btnGhost": "View services"
+      },
+      "intro": {
+        "title1": "Support is not a call centre.",
+        "title2": "It is an engineering team.",
+        "p1": "We do not consider technical support to be a downstream service, but an integral part of every project. If a weld seam is unclear on the construction site or a pressure test does not turn out as expected, every hour counts.",
+        "p2": "Our engineers know every batch, every standard, and every processing regulation of our systems firsthand. They check isometrics, recalculate pressure losses, and stand right by the pipe during commissioning.",
+        "p3": "This is the claim of German engineering, applied to real construction sites, not to server racks."
+      },
+      "bento": {
+        "eyebrow": "Services at a Glance",
+        "title": "Support throughout the entire project",
+        "lead": "From initial planning to ongoing maintenance, our team accompanies your PP-R system through every phase.",
+        "items": [
+          {
+            "title": "Hydraulic Design & Isometrics",
+            "desc": "We check your planning documents, recalculate pressure losses and dimensioning, and provide a reliable material list before construction begins."
+          },
+          {
+            "title": "Welding Technology Support",
+            "desc": "Our technicians accompany the socket and electrofusion welding on site, check process parameters, and train your assembly team directly on the construction site upon request."
+          },
+          {
+            "title": "Pressure Testing & Acceptance",
+            "desc": "We support the execution and documentation of the pressure test according to DIN 1988 and provide the test protocols required for building acceptance."
+          },
+          {
+            "title": "Spare Parts & Accessories Service",
+            "desc": "Fast delivery of fittings, valves, and original accessories, even for existing systems and older K-Aqua batches."
+          },
+          {
+            "title": "Remote Diagnosis & On-Site Deployment",
+            "desc": "For unresolved questions about processing or unclear test results, our technical support will call you back at short notice, if necessary with the deployment of a supervisor on site."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Reliability in Numbers",
+        "title1": "Tested",
+        "title2": "Reliability.",
+        "p1": "We work according to the principles of German engineering: What we deliver must hold up under all construction site conditions.",
+        "p2": "Every K-Aqua system is certified according to DVGW, SKZ, and KIWA. Every batch is traceable, every weld seam can be documented.",
+        "items": [
+          "Response to technical inquiries within one working day",
+          "Over 50 years of documented system lifespan with proper installation",
+          "Direct line to technical sales without holding patterns",
+          "Training and certifications via the K-Aqua Academy"
+        ]
+      },
+      "cta": {
+        "title1": "Ready for your",
+        "title2": "next",
+        "title3": "project?",
+        "desc": "Let your project be accompanied by engineers who not only sell PP-R systems but also develop and manufacture them themselves.",
+        "btnPrimary": "Start inquiry",
+        "btnGhost": "Contact experts"
+      },
+      "metaTitle": "Technical Support & Consulting | K-Aqua"
+    }
+  }
+}

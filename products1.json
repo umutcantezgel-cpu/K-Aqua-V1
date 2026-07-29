@@ -1,9 +1,250 @@
 {
-  "sizeRange": "Diese Komponente wird in einem umfangreichen Nennweitenbereich von kompakten {minSize} mm bis zu beachtlichen {maxSize} mm gefertigt, was maximale Vielseitigkeit in unterschiedlichsten Installationsszenarien gewährleistet.",
-  "sizeSpecific": "Diese Komponente ist präzise für eine spezifische Nennweite von {minSize} mm ausgelegt und bietet zielgerichtete Leistung für spezialisierte Rohrleitungsarchitekturen.",
-  "weights": "Die Materialeffizienz ist über das gesamte Sortiment hinweg optimiert, wobei die Stückgewichte je nach gewählter Dimension von {minWeight} kg bis zu {maxWeight} kg skalieren.",
-  "packaging": "Die Logistik wird durch standardisierte Verpackungseinheiten optimiert, die für den sicheren weltweiten Transport und ein effizientes Handling auf der Baustelle konzipiert sind.",
-  "rowCount": "Unser technisches Portfolio bietet diese Konfiguration in {count} hochspezialisierten Dimensionsvarianten, die präzise skaliert sind, um den hydraulischen und mechanischen Anforderungen moderner Flüssigkeitstransportsysteme gerecht zu werden.",
-  "intro": "Das Produkt {title} bildet einen Eckpfeiler der Hochleistungs-Fluidmanagement-Lösungen von K Aqua. Offiziell unter den Artikelnummern {codes} katalogisiert, durchläuft jede Variante vor der Auslieferung strenge Qualitätssicherungsprotokolle in unseren deutschen Produktionsstätten.",
-  "outro": "Durch den Einsatz fortschrittlicher Polymerverarbeitungstechniken garantiert die geometrische Präzision von {title} optimale Strömungseigenschaften, minimiert Druckverluste und eliminiert das Risiko von Kalkablagerungen oder Korrosion über die gesamte Betriebslebensdauer vollständig. Diese kompromisslose Hingabe zur Materialwissenschaft stellt sicher, dass jede Verbindung auch unter extremen thermischen und Druckschwankungen absolute Integrität bewahrt. Ob in Wohnhochhäusern, kritischen Gesundheitseinrichtungen oder anspruchsvollen industriellen Verarbeitungsanlagen eingesetzt, liefert dieses Produkt eine wartungsfreie Zuverlässigkeit, auf die Ingenieure und Installateure blind vertrauen können."
+  "narrative": {
+    "sizeRange": "Diese Komponente wird in einem umfangreichen Nennweitenbereich von kompakten {minSize} mm bis zu beachtlichen {maxSize} mm gefertigt, was maximale Vielseitigkeit in unterschiedlichsten Installationsszenarien gewährleistet.",
+    "sizeSpecific": "Diese Komponente ist präzise für eine spezifische Nennweite von {minSize} mm ausgelegt und bietet zielgerichtete Leistung für spezialisierte Rohrleitungsarchitekturen.",
+    "weights": "Die Materialeffizienz ist über das gesamte Sortiment hinweg optimiert, wobei die Stückgewichte je nach gewählter Dimension von {minWeight} kg bis zu {maxWeight} kg skalieren.",
+    "packaging": "Die Logistik wird durch standardisierte Verpackungseinheiten optimiert, die für den sicheren weltweiten Transport und ein effizientes Handling auf der Baustelle konzipiert sind.",
+    "rowCount": "Unser technisches Portfolio bietet diese Konfiguration in {count} hochspezialisierten Dimensionsvarianten, die präzise skaliert sind, um den hydraulischen und mechanischen Anforderungen moderner Flüssigkeitstransportsysteme gerecht zu werden.",
+    "intro": "Das Produkt {title} bildet einen Eckpfeiler der Hochleistungs-Fluidmanagement-Lösungen von K Aqua. Offiziell unter den Artikelnummern {codes} katalogisiert, durchläuft jede Variante vor der Auslieferung strenge Qualitätssicherungsprotokolle in unseren deutschen Produktionsstätten.",
+    "outro": "Durch den Einsatz fortschrittlicher Polymerverarbeitungstechniken garantiert die geometrische Präzision von {title} optimale Strömungseigenschaften, minimiert Druckverluste und eliminiert das Risiko von Kalkablagerungen oder Korrosion über die gesamte Betriebslebensdauer vollständig. Diese kompromisslose Hingabe zur Materialwissenschaft stellt sicher, dass jede Verbindung auch unter extremen thermischen und Druckschwankungen absolute Integrität bewahrt. Ob in Wohnhochhäusern, kritischen Gesundheitseinrichtungen oder anspruchsvollen industriellen Verarbeitungsanlagen eingesetzt, liefert dieses Produkt eine wartungsfreie Zuverlässigkeit, auf die Ingenieure und Installateure blind vertrauen können."
+  },
+  "uniqueProductContext": "Das Produkt {title} ist ein wesentlicher Bestandteil des K Aqua {category}-Sortiments. Es wurde für maximale Langlebigkeit sowie nahtlose Integration entwickelt und erfüllt die höchsten internationalen Standards für moderne Rohrleitungs- und Sanitäranwendungen. Sie können dieses spezifische Produkt anhand der Artikelnummer(n) identifizieren und bestellen: {codes}. Für weitere Dokumentationen oder Unterstützung wenden Sie sich bitte an unser technisches Team.",
+  "heroDesc": "Entdecken Sie die Spezifikationen, Dimensionen und Einsatzbereiche. Für detaillierte Informationen laden Sie das Technische Datenblatt herunter.",
+  "articleNumbers": "Artikelnummern",
+  "technicalSpecs": "Technische Spezifikationen",
+  "eyebrow": "Produkte",
+  "videoGuide": "K Aqua Video-Anleitung",
+  "localAvailability": "Lokale Verfügbarkeit",
+  "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
+  "allMarkets": "Alle 50+ Märkte ansehen",
+  "title1": "PP-R/PPRCT Rohre & Formteile für",
+  "titleGrad": "Trinkwasser.",
+  "lead": "Ein vollständiges Rohrleitungssystem für heißes und kaltes Trinkwasser: vom Rohr über das Formteil bis zur Schweißtechnik. Vier Bausteine, ein System.",
+  "ctaCatalog": "Produktkatalog (PDF)",
+  "ctaVideos": "Installationsvideos",
+  "sysEyebrow": "Das System",
+  "sysTitle": "K-Aqua PP-R Rohre & Fittings: Vier Bausteine, ein System.",
+  "range": [
+    {
+      "t": "Rohre: Mono & Multilayer",
+      "d": "Monolayer- und glasfaserverstärkte Multilayer-Rohre in SDR 6, 7,4, 9, 11 und 17. Dimensionen von 20 mm bis 630 mm."
+    },
+    {
+      "t": "Formteile & Armaturen",
+      "d": "Fittings von 20 mm bis 315 mm, ergänzt um Ventile, Verschraubungen und Übergangsstücke."
+    },
+    {
+      "t": "Schweißtechnik & Werkzeug",
+      "d": "Schneidwerkzeuge, Schweißgeräte und Schweißmaschinen für Muffen-, Stumpf- und Elektroschweißverfahren."
+    },
+    {
+      "t": "Heiß- & Kaltwasser",
+      "d": "Ausgelegt für Trinkwasser (heiß und kalt) mit hoher Temperatur- und Druckbeständigkeit über Jahrzehnte."
+    }
+  ],
+  "techEyebrow": "Technische Daten",
+  "techTitle": "Dimensionen & Druckstufen",
+  "techLead": "Je nach Rohrtyp ab 20 mm bis 630 mm, Formteile bis 315 mm.",
+  "ctaFeatures": "Produkteigenschaften (PDF)",
+  "tableHead": [
+    "Komponente",
+    "Dimension",
+    "Druckstufen"
+  ],
+  "tableRows": [
+    [
+      "Monolayer-Rohre",
+      "20 – 630 mm",
+      "SDR 6 / 7,4 / 9 / 11 / 17"
+    ],
+    [
+      "Multilayer-Rohre (GF-verstärkt)",
+      "20 – 630 mm",
+      "SDR 6 / 7,4 / 9 / 11 / 17"
+    ],
+    [
+      "Formteile",
+      "20 – 315 mm",
+      "systemkompatibel"
+    ],
+    [
+      "Ventile & Verschraubungen",
+      "systemabhängig",
+      "-"
+    ],
+    [
+      "Schweißtechnik & Werkzeuge",
+      "alle Dimensionen",
+      "-"
+    ]
+  ],
+  "seoArticle": {
+    "pipes": {
+      "areas": "Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau",
+      "advTitle": "Überlegene Rohrleitungstechnik für jedes Projekt",
+      "advList": [
+        "Keine Korrosion: 100% resistent gegen Lochfraß und Rost.",
+        "Geringer Druckverlust: Die extrem glatte Innenfläche minimiert Reibung und spart Pumpenenergie.",
+        "Lange Lebensdauer: Garantiert über 50 Jahre wartungsfrei im Dauereinsatz.",
+        "Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.",
+        "Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA)."
+      ],
+      "seoText": "Unsere Hochleistungsrohre werden in Waldsolms nach höchsten Qualitätsstandards gefertigt. Die Materialkombination PP-R und PPRCT sorgt für außergewöhnliche Temperatur- und Druckbeständigkeit. Egal ob in der Haustechnik, im industriellen Anlagenbau oder bei komplexen Kühlsystemen, dieses Rohrsystem liefert maximale Sicherheit und Effizienz. Die einfache und sichere Schweißtechnik garantiert absolut leckagefreie Verbindungen.",
+      "guideTitle": "Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen",
+      "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <span class=\"font-semibold\">PP-R und PPRCT Rohrsysteme</span> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau, K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><span class=\"font-semibold\">Erhöhter Hydraulikdurchfluss:</span> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><span class=\"font-semibold\">Reduziertes Rohrgewicht:</span> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><span class=\"font-semibold\">Höhere Druckreserven:</span> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K), was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><span class=\"font-semibold\">Weniger Dehnungsausgleicher:</span> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><span class=\"font-semibold\">Größere Befestigungsabstände:</span> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><span class=\"font-semibold\">Formstabile Verlegung:</span> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><span class=\"font-semibold\">Druckprüfung:</span> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><span class=\"font-semibold\">Wärmedämmung:</span> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><span class=\"font-semibold\">UV-Schutz:</span> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
+      "seoTitle": "PP-R & PPRCT Rohrsysteme Übersicht",
+      "faq": [
+        {
+          "q": "Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?",
+          "a": "PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) besitzt eine speziell modifizierte Kristallstruktur, die eine höhere Druckbeständigkeit bei erhöhten Betriebstemperaturen ermöglicht. Dadurch können dünnwandigere Rohre bei gleichem Nenndruck eingesetzt werden, was den Innendurchmesser und die hydraulische Durchflusskapazität um bis zu 17 % erhöht."
+        },
+        {
+          "q": "Wie reduziert die K-Fiber Faserverbundtechnologie die thermische Längenausdehnung?",
+          "a": "Unsere K-Fiber Rohre besitzen eine integrierte Mittelschicht aus glasfaserverstärktem Polypropylen. Diese Schicht stabilisiert das Rohr mechanisch und senkt den Ausdehnungskoeffizienten auf ca. 0,035 mm/(m·K). Dies entspricht einer Reduktion der thermischen Längenausdehnung um 75 % gegenüber Standard-Kunststoffrohren."
+        },
+        {
+          "q": "Sind K Aqua PP-R Rohrsysteme für Trinkwasser zertifiziert?",
+          "a": "Ja, K Aqua Rohrsysteme erfüllen die strengsten Prüf- und Hygieneanforderungen internationaler Zertifizierungsstellen wie DVGW, KIWA und WRAS. Der Werkstoff ist vollkommen unbedenklich, geschmacks- und geruchsneutral und verhindert wirksam Kalk- sowie Biofilmbildung."
+        },
+        {
+          "q": "Wie wird eine absolut leckagefreie Schweißverbindung hergestellt?",
+          "a": "Die Verbindung erfolgt durch thermische Polyfusion bei 260°C. Rohr und Fitting verschmelzen dabei auf molekularer Ebene zu einer homogenen, unlösbaren Einheit. Da keine fehleranfälligen Gummidichtungen oder Pressfittings verwendet werden, bleibt die Schweißnaht über 50 Jahre lang vollkommen dicht."
+        },
+        {
+          "q": "Welche Druckstufen und Dimensionen sind für K Aqua Rohre verfügbar?",
+          "a": "K Aqua bietet Rohrsysteme in den Druckstufen SDR 6, SDR 7.4, SDR 9 und SDR 11 (PN10 bis PN25) sowie in Außendurchmessern von 20 mm bis 250 mm an. Damit lassen sich sowohl feingliedrige Etagenverteilungen als auch massive Haupt- und Steigleitungen realisieren."
+        }
+      ]
+    },
+    "fittings": {
+      "areas": "Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau",
+      "advTitle": "Sichere und homogene Verbindungen",
+      "advList": [
+        "Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.",
+        "Keine Dichtungen nötig: Die dauerhafte Verbindung benötigt keine fehleranfälligen O-Ringe.",
+        "Einfache Montage: Schnelle und sichere Verarbeitung auf der Baustelle.",
+        "Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.",
+        "Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien."
+      ],
+      "seoText": "Formteile von K Aqua sind das Bindeglied für zuverlässige Rohrnetze. Gefertigt in Deutschland, bieten diese Fittings höchste Präzision und Maßhaltigkeit. Die Verschweißungstechnik (Muffenschweißen) dauert nur wenige Sekunden und kühlt zu einer Verbindung ab, die genauso stark ist wie das Rohr selbst. Dadurch eliminieren Sie das Risiko von Mikroleckagen, wie sie oft bei Press- oder Stecksystemen nach Jahren auftreten können.",
+      "guideTitle": "Technischer Leitfaden: Sichere Verbindungen mit K Aqua Formteilen",
+      "guideText": "<p>Fittings sind das Herzstück jedes komplexen Rohrnetzwerks. Mit den hochwertigen <span class=\"font-semibold\">K Aqua PP-R Formteilen</span> realisieren Sie Installationen, die höchsten Drücken und Temperaturen standhalten.</p><p>Die Vorteile der homogenen Verschweißung sind unbestritten:</p><ul><li><span class=\"font-semibold\">Stoffschlüssige Verbindung:</span> Bei der Erwärmung verschmelzen Fitting und Rohr zu einem einzigen Werkstück. Dies schließt Schwachstellen wie alternde O-Ringe oder mechanische Verpressungen konsequent aus.</li><li><span class=\"font-semibold\">Strömungsoptimierung:</span> Unsere Fittings sind so konzipiert, dass der Querschnitt an den Verbindungsstellen erhalten bleibt. Das minimiert Turbulenzen und reduziert den Energieverbrauch von Umwälzpumpen.</li><li><span class=\"font-semibold\">Höchste Materialqualität:</span> Durch die Verwendung von erstklassigem Polypropylen Random Copolymerisat wird eine herausragende chemische und thermische Beständigkeit erzielt, die weit über den normativen Vorgaben liegt.</li></ul><p>Bei der Verarbeitung ist auf saubere, gratfreie Schnitte sowie auf die exakte Einhaltung der Erwärmungs- und Abkühlzeiten zu achten. So gewährleisten Sie die vom Hersteller zugesicherte, wartungsfreie Betriebszeit von über 50 Jahren in allen Installationsbereichen.</p>",
+      "seoTitle": "Kunststoff-Fittings & Formteile"
+    },
+    "valves": {
+      "areas": "Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie",
+      "advTitle": "Präzise Steuerung und langlebige Funktion",
+      "advList": [
+        "Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.",
+        "Voller Durchgang: Kugelhähne mit vollem Querschnitt minimieren Druckverluste.",
+        "Einfache Integration: Direkt in das PP-R System einschweißbar.",
+        "Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.",
+        "Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln."
+      ],
+      "seoText": "Absperrarmaturen und Ventile von K Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten.",
+      "guideTitle": "Expertenratgeber: Anlagensteuerung mit K Aqua Ventilen und Armaturen",
+      "guideText": "<p>Die präzise Steuerung und Isolation von Stoffströmen ist in modernen Wasser- und Heizungsnetzen unerlässlich. <span class=\"font-semibold\">K Aqua Absperrarmaturen und Ventile</span> kombinieren die Langlebigkeit von Polypropylen mit der Präzision metallischer Dicht- und Stellmechanismen.</p><p>Was Sie bei der Integration von PP-R Ventilen wissen müssen:</p><ul><li><span class=\"font-semibold\">Totraumfreie Konstruktion:</span> Zur Vermeidung von Stagnationswasser und Verkeimung (z. B. Legionellen) sind unsere Armaturen strömungsoptimiert und hygienegerecht konstruiert, was sie ideal für sensible Trinkwasserinstallationen macht.</li><li><span class=\"font-semibold\">Druck- und Temperaturstabilität:</span> Die massiven Ventilkörper und die hochwertigen Messing- oder PP-Kugeln gewährleisten eine 100%ige Abdichtung, selbst bei extremen Druckschlägen und hohen Vorlauftemperaturen.</li><li><span class=\"font-semibold\">Wartungsfreundlichkeit:</span> Auch nach vielen Jahren im Dauereinsatz lassen sich K Aqua Kugelhähne und Schrägsitzventile dank teflonbeschichteter Dichtelemente leichtgängig und präzise bedienen.</li></ul><p>Für eine maximale Anlagenverfügbarkeit empfehlen wir, die Armaturen bereits in der Planungsphase strategisch zu positionieren, um Wartungsarbeiten und Spülvorgänge ohne weitreichende Netzunterbrechungen durchführen zu können.</p>",
+      "seoTitle": "Absperrventile & Kugelhähne"
+    },
+    "weldInSaddles": {
+      "areas": "Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau",
+      "advTitle": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität",
+      "advList": [
+        "Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.",
+        "Zeitsparend: Bohren, Aufheizen, Einschweißen, fertig in wenigen Minuten.",
+        "Druckresistent: Die Sattelschweißung erreicht dieselbe Druckstufe wie das Basisrohr.",
+        "Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.",
+        "Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG)."
+      ],
+      "seoText": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen.",
+      "guideTitle": "Installationsleitfaden: Flexibilität durch Einschweißsättel (Weld-in Saddles)",
+      "guideText": "<p>Die Modifikation oder Erweiterung bestehender industrieller und gewerblicher Rohrnetze ist oft mit hohem Aufwand verbunden. Hier bieten <span class=\"font-semibold\">K Aqua Einschweißsättel</span> eine effiziente und äußerst sichere Lösung, um nachträgliche Abzweige ohne Leitungsunterbrechung zu schaffen.</p><p>Die wesentlichen technischen Vorteile im Überblick:</p><ul><li><span class=\"font-semibold\">Minimale Installationszeit:</span> Anstatt das Hauptrohr zu trennen und konventionelle T-Stücke einzubauen, wird das Rohr lediglich passgenau angebohrt und der Sattel aufgeschweißt. Das senkt die Montagekosten drastisch.</li><li><span class=\"font-semibold\">Erhalt der Systemintegrität:</span> Durch die Polyfusion verbindet sich der Einschweißsattel untrennbar mit der Rohrwandung, wodurch das System seine ursprüngliche Druck- und Temperaturbeständigkeit (bis PN 25) beibehält.</li><li><span class=\"font-semibold\">Flexible Anschlussmöglichkeiten:</span> Erhältlich als reiner Kunststoffabzweig oder mit integriertem Metallgewinde (IG/AG), ermöglichen Sättel den direkten Anschluss von Sensoren, Manometern oder Abzweigleitungen auf engstem Raum.</li></ul><p>Um eine einwandfreie Schweißung zu gewährleisten, ist die Verwendung der speziellen K Aqua Anbohr- und Schweißwerkzeuge zwingend erforderlich, da sie die exakte Frästiefe und Erwärmungsfläche für eine makellose Verbindung garantieren.</p>",
+      "seoTitle": "Einschweißsättel für Rohrleitungen"
+    },
+    "accessories": {
+      "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
+      "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
+      "advList": [
+        "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.",
+        "Thermodynamische Befestigung: Rohrschellen mit Gummieinlage für Fest- und Loslager.",
+        "Hochwertige Flanschverbindungen: Losflansche und EPDM-Dichtungen für den Übergang auf Metall.",
+        "Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.",
+        "UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert."
+      ],
+      "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.",
+      "guideTitle": "Fachratgeber: K Aqua Zubehör für normgerechte Installationen",
+      "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><span class=\"font-semibold\">Kompensation der Längenausdehnung:</span> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen. Dies ist besonders bei industriellen Anlagen und Steigleitungen von entscheidender Bedeutung, wo unkontrollierte Ausdehnungen zu strukturellen Schäden führen könnten.</li><li><span class=\"font-semibold\">Dichte Flanschverbindungen:</span> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen. Sie garantieren eine nahtlose, flüssigkeitsdichte Verbindung und verhindern so potenziell desaströse Leckagen in kritischen Infrastrukturen.</li><li><span class=\"font-semibold\">Reparaturlösungen:</span> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält. Ein kompletter Austausch des Leitungsabschnitts entfällt somit.</li></ul><p>Zusätzlich zur Kompensation und Dichtigkeit spielen <span class=\"font-semibold\">Isolierung und Brandschutz</span> eine zentrale Rolle bei der fachgerechten Installation. Das Zubehörsortiment von K Aqua ist darauf ausgelegt, thermische Verluste zu minimieren und höchste Sicherheitsstandards zu erfüllen. Unsere Spezialdichtungen und Befestigungselemente sind so konstruiert, dass sie Schallübertragungen effektiv dämpfen und Körperschallausbreitung im Mauerwerk verhindern.</p><p>Durch die ausschließliche Verwendung von Original K Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte. Investieren Sie in kompromisslose Qualität, um den störungsfreien Betrieb Ihres Leitungssystems für Jahrzehnte zu garantieren.</p> Accessories (Zubehör) für eine normgerechte Installation.",
+      "faq": [
+        {
+          "q": "Sind die Zubehörteile für Kalt- und Warmwasser geeignet?",
+          "a": "Ja, unsere Accessories wie Rohrschellen und Flachdichtungen sind für den Einsatz in Kaltwasser-, Warmwasser- und Heizungssystemen konzipiert und weisen eine hervorragende thermische Stabilität auf."
+        },
+        {
+          "q": "Kann ich Zubehör von Drittanbietern verwenden?",
+          "a": "Um die volle K Aqua Systemgewährleistung in Anspruch zu nehmen, ist es zwingend erforderlich, Original-Zubehörteile zu verwenden. Fremdkomponenten können zu Dichtigkeitsproblemen oder mechanischen Ausfällen führen."
+        },
+        {
+          "q": "Gibt es spezielles Zubehör für den industriellen Einsatz?",
+          "a": "Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten."
+        }
+      ],
+      "seoTitle": "Zubehör für die Rohrinstallation"
+    },
+    "tools": {
+      "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
+      "advTitle": "Höchste Präzision für die perfekte Verbindung",
+      "advList": [
+        "Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.",
+        "Antihaft-Beschichtung: Teflon-PTFE für eine rückstandsfreie Schmelze.",
+        "Ergonomisches Design: Reduziert die physische Belastung des Installateurs.",
+        "Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.",
+        "Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag."
+      ],
+      "seoText": "Das K Aqua Werkzeugsortiment bildet die unverzichtbare Grundlage für die fachgerechte Verarbeitung unserer Rohrleitungssysteme. Von der präzisen Rohrschere bis zur automatisierten CNC-Stumpfschweißmaschine bieten wir für jede Dimension das optimale Equipment. Nur mit kalibrierten Originalwerkzeugen lassen sich die vom DVS geforderten Fügeparameter exakt einhalten, um die Lebensdauer von über 50 Jahren zu garantieren.",
+      "guideTitle": "Praxisleitfaden: Profi-Werkzeuge für die K Aqua Rohrmontage",
+      "guideText": "<p>Die Qualität einer Kunststoffrohr-Installation steht und fällt mit der Präzision der verwendeten Werkzeuge. <span class=\"font-semibold\">K Aqua Schweiß- und Schneidwerkzeuge</span> sind speziell auf die thermoplastischen Eigenschaften von PP-R und PPRCT abgestimmt, um fehlerfreie Ergebnisse zu erzielen.</p><p>Warum professionelles Equipment unverzichtbar ist:</p><ul><li><span class=\"font-semibold\">Makellose Vorbereitung:</span> Ein absolut rechtwinkliger und gratfreier Schnitt ist die Grundvoraussetzung für eine dichte Schweißnaht. Unsere Rohrschneider und Kaltkreissägen verhindern Materialstauchungen und Mikrorisse.</li><li><span class=\"font-semibold\">Thermodynamische Präzision:</span> Die mikroprozessorgesteuerten Muffenschweißgeräte halten die ideale Fügetemperatur von 260°C auch bei widrigen Wetterbedingungen konstant, was eine Degradation des Polymers zuverlässig verhindert.</li><li><span class=\"font-semibold\">Automatisierte Sicherheit:</span> Bei großen Nennweiten eliminieren unsere computergesteuerten Stumpfschweiß- und Elektroschweißmaschinen menschliche Fehler, indem sie Druck, Zeit und Temperatur vollautomatisch regeln und für die Bauabnahme digital dokumentieren.</li></ul><p>Eine regelmäßige Wartung und Reinigung der teflonbeschichteten Heizdorne ist essenziell, um eine homogene Schmelze und dauerhaft belastbare, leckagefreie Leitungsnetze zu gewährleisten.</p>",
+      "seoTitle": "Schweißwerkzeuge & Rohrabschneider"
+    },
+    "fallback": {
+      "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
+      "advTitle": "Perfekte Systemergänzung",
+      "advList": [
+        "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
+        "Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.",
+        "Langlebigkeit: Robuste Materialien für den rauen Baustellenalltag.",
+        "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
+        "Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis."
+      ],
+      "seoText": "Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten."
+    }
+  },
+  "labels": {
+    "applicationAreas": "Einsatzgebiete",
+    "advantages": "Ihre Vorteile im Überblick",
+    "technicalDescription": "Technisches Profil & SEO",
+    "noResults": "Keine Produkte gefunden",
+    "searchPlaceholder": "Suchen nach Titel oder Artikelnummer...",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faqFallbackQ1": "Was sind die Hauptvorteile?",
+    "faqFallbackA1": "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.",
+    "faqFallbackQ2": "Ist das Material umweltfreundlich?",
+    "faqFallbackA2": "Ja, PPRCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.",
+    "faqFallbackQ3": "Wie erfolgt die Installation?",
+    "faqFallbackA3": "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.",
+    "downloads": "Downloads & Dokumente",
+    "tds": "Technisches Datenblatt",
+    "tdsDesc": "Spezifikationen & Maße (PDF)",
+    "cert": "Zertifikate & Normen",
+    "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+    "install": "Installations-Guide",
+    "installDesc": "Anleitung zum Schweißen (PDF)",
+    "range": "Produktprogramm",
+    "rangeDesc": "Komplettes Produktprogramm mit Maßen (PDF)",
+    "features": "Produkteigenschaften",
+    "featuresDesc": "Materialeigenschaften & Systemvorteile (PDF)"
+  },
+  "specAndDim": "Spezifikationen & Dimensionen",
+  "certsAndNorms": "Zertifikate & Normen",
+  "approved": "geprüft",
+  "monitoring": "überwacht"
 }

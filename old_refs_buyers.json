@@ -1,0 +1,44 @@
+  "refs": {
+    "eyebrow": "Rujukan",
+    "title1": "Projek",
+    "titleGrad": "Global.",
+    "lead": "Projek kami di seluruh dunia.",
+    "canvasAria": "Glob",
+    "note": "Nota rujukan.",
+    "projects": [
+      {
+        "id": "1",
+        "lat": 0,
+        "lon": 0,
+        "title": "Projek 1",
+        "d": "Deskripsi"
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Pembeli",
+    "title1": "Maklumat untuk",
+    "titleGrad": "Pembeli.",
+    "lead": "Panduan untuk pembeli.",
+    "personas": [
+      {
+        "t": "Jurutera",
+        "d": "Data Teknikal",
+        "cta": "Lihat",
+        "goto": "products"
+      }
+    ],
+    "whyEyebrow": "Sebab",
+    "whyTitle": "Kenapa Pilih Kami",
+    "why": [
+      {
+        "t": "Kualiti",
+        "d": "Terbaik"
+      }
+    ],
+    "promise": [
+      "Janji"
+    ],
+    "ctaAll": "Hubungi"
+  },
+  "rfq": {

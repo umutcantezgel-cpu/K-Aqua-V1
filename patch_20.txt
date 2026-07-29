@@ -1,0 +1,342 @@
+,
+  "servicex": {
+    "libEyebrow": "Document Library",
+    "libTitle": "All documents, one overview.",
+    "libLead": "Three catalogues for direct download, certificates in two languages, and audit documents as self service in the Trust Centre.",
+    "libHead": [
+      "Dokument",
+      "Inhalt",
+      "Sprache",
+      "Zugriff"
+    ],
+    "libRows": [
+      {
+        "t": "K Aqua Product Range",
+        "s": "Complete catalogue: dimensions, items, system overview",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Product Features",
+        "s": "Technical properties and material data",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Quality Assurance",
+        "s": "Test methods and quality standards",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO Certificates (German)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "GENAU Policy & Risk Assessment",
+        "s": "Management system, prevention, risk assessment",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "EPD Data Sheets (Type III, EN 15804)",
+        "s": "Life cycle assessment data for LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "GAEB specification texts",
+        "s": "Ready-made texts for bills of quantities",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Quality Assurance Manual",
+        "s": "QA processes for supplier audits",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Download",
+    "libRequest": "Request in Trust Centre",
+    "supEyebrow": "Support paths",
+    "supTitle": "Three ways to get answers.",
+    "supLead": "Depending on your request, a different path is the fastest way to your goal, all with a response within one working day.",
+    "sup": [
+      {
+        "t": "Sales & Projects",
+        "d": "Offers, conditions, delivery times and project advice, or directly the project inquiry in five steps.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Quality & Technical Support",
+        "d": "Material, planning and processing questions, certificate checking, complaints according to QA manual.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Processing & Academy",
+        "d": "Four welding methods as video plus parameter tables, briefing for your team by arrangement.",
+        "c": "To the Academy",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Service FAQ",
+    "faqTitle": "Quick answers.",
+    "faq": [
+      {
+        "q": "What documents do I need for planning?",
+        "a": "Product range (dimensions and articles), product properties (material data) and, depending on the project, the dimension tables on the product page. For tenders, GAEB texts and EPD complete the package, both in the Trust Centre."
+      },
+      {
+        "q": "Where can I find the welding parameters?",
+        "a": "The reference values according to DVS 2207-11 are available in the Academy, including step-by-step instructions and defectology. The specifications of your welding equipment manufacturer are always binding."
+      },
+      {
+        "q": "How do I get certificates and audit documents?",
+        "a": "Download ISO certificates directly here (DE/EN). You can put together the GENAU policy, EPD, GAEB and QA manual as an RFP package in the Trust Centre, requested at the click of a button instead of waiting for days."
+      },
+      {
+        "q": "Who do I contact for technical questions?",
+        "a": "Contact support@k-aqua.de, the quality and technical support team will answer within one working day regarding material, planning and processing."
+      },
+      {
+        "q": "What is the quickest way to get an offer?",
+        "a": "Via the project inquiry: five steps, non-binding, with personal feedback from sales within one working day, directly from the manufacturer, without intermediaries."
+      },
+      {
+        "q": "In which languages are the documents available?",
+        "a": "Catalogues currently in English, certificates in German and English. This website operates in three languages (DE/EN/AR), further document languages on request via sales."
+      }
+    ]
+  },
+  "aboutx": {
+    "numEyebrow": "Numbers from the plant",
+    "numTitle": "Waldsolms in key figures.",
+    "numLead": "Central Hesse, Auweg 3, this is where KWT GmbH develops and manufactures the entire K Aqua programme.",
+    "nums": [
+      {
+        "n": "14,000",
+        "u": "m",
+        "l": "Pipe per day and extrusion line, capacity for major projects"
+      },
+      {
+        "n": "20–630",
+        "u": "mm",
+        "l": "Dimensional range of pipe production, fittings up to 315 mm"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "of cut-offs and production waste are returned to the cycle"
+      },
+      {
+        "n": "3",
+        "u": "× ISO",
+        "l": "Quality, environment, energy, DAkkS-accredited since October 2025"
+      }
+    ],
+    "prodEyebrow": "Production",
+    "prodTitle": "Four stations, one quality promise.",
+    "prodLead": "From the granulate to the marked pipe, this is how the product is created.",
+    "prod": [
+      {
+        "t": "Extrusion",
+        "d": "Monolayer and glass fiber reinforced multilayer pipes are produced on extrusion lines with a daily output of up to 14,000 meters per line."
+      },
+      {
+        "t": "Injection molding",
+        "d": "Fittings from d20 to d315 are manufactured by injection molding, complex geometries with high volume and constant quality."
+      },
+      {
+        "t": "Closed cooling circuit",
+        "d": "The process water in production circulates in a closed circuit, water protection as a system decision, monitored according to ISO 14001."
+      },
+      {
+        "t": "Marking & Inspection",
+        "d": "Each pipe is continuously marked during the extrusion process and tested according to the QA manual, traceability per batch."
+      }
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Four benefits, one house.",
+    "houseLead": "The corporate policy of KWT GmbH considers benefit as a cycle, none exists without the other three.",
+    "house": [
+      {
+        "t": "Customer benefit",
+        "d": "Wishes of customers and interested parties are recognized, taken seriously and implemented, in compliance with legal and social standards."
+      },
+      {
+        "t": "Employee benefit",
+        "d": "All employees are involved in the continuous improvement process, no customer benefit without employee benefit."
+      },
+      {
+        "t": "Company benefit",
+        "d": "Quality always remains compatible with costs and deadlines, so the success of today carries the investments of tomorrow."
+      },
+      {
+        "t": "Environment & Ecosystem",
+        "d": "Resource conservation and environmental compatibility are part of the understanding of quality, anchored in the GENAU system."
+      }
+    ],
+    "mileEyebrow": "Milestones",
+    "mileTitle": "The path so far.",
+    "miles": [
+      {
+        "y": "Decades",
+        "t": "Manufacturing experience",
+        "d": "Plastics processing for water supply, experience that flows into every batch."
+      },
+      {
+        "y": "Partnership",
+        "t": "Close connection to KESSEL",
+        "d": "KWT shares a long-standing community of values with the premium manufacturer \"Leading in Drainage\"."
+      },
+      {
+        "y": "GENAU",
+        "t": "Management system in the House of KWT",
+        "d": "Occupational safety, environment and energy as daily practice of every employee, not as an audit exercise."
+      },
+      {
+        "y": "10/2025",
+        "t": "Triple ISO-certified",
+        "d": "ISO 9001, 14001 and 50001 in one step, DAkkS-accredited, valid until 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Digital Platform",
+        "d": "Product finder, CO₂ calculator, Trust Centre and Academy make the website a toolbox."
+      }
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "From factory and knowledge",
+    "moreTitle": "More from K-Aqua.",
+    "moreLead": "News from K-Aqua. Backgrounds on manufacturing and materials science, expandable.",
+    "readMore": "Read full PP-R pipes article",
+    "readLess": "Read less",
+    "posts": [
+      {
+        "date": "October 2025",
+        "tag": "Company",
+        "t": "Triple certified: ISO 9001, 14001 and 50001",
+        "teaser": "The ISO management system of KWT GmbH now includes quality, environment, and energy, DAkkS-accredited.",
+        "body": [
+          "Since October 2025, the management system of KWT GmbH is triple certified: ISO 9001:2015 for quality, ISO 14001:2015 for environment, and ISO 50001:2018 for energy. The certificates are issued by a DAkkS-accredited certification body and are valid until October 2028.",
+          "For purchasing and compliance, this means: documented, auditable processes from extruder to shipping. The lived GENAU management system already met the requirements of DIN EN ISO 14001 and 50001, the audit makes it externally verifiable.",
+          "Both certificate versions (DE/EN) are available for download; the complete audit package can be compiled in the Trust Centre."
+        ]
+      },
+      {
+        "date": "2018",
+        "tag": "Production",
+        "t": "Continuously marked: Traceability from the extruder",
+        "teaser": "Every K-Aqua pipe bears a continuous marking directly from the extrusion process.",
+        "body": [
+          "With up to 14,000 meters of pipe per day and line, traceability is not optional: every pipe is continuously marked during the extrusion process, with the details planners and inspectors need on site.",
+          "The marking links the physical product to its batch and the quality assurance test reports. What is printed on the pipe can be traced back to the test labouratory, a component of the QA manual that auditors can request in the Trust Centre."
+        ]
+      },
+      {
+        "date": "Knowledge",
+        "tag": "Material",
+        "t": "Why PP-R anyway?",
+        "teaser": "From flare gas to drinking water pipe: the short material history of polypropylene.",
+        "body": [
+          "Polypropylene is produced from gases that were previously flared off uselessly, its material use reduces air pollution at the source. As an engineering plastic, PP is unusually resistant to solvents, alkalis, and acids and forms complex geometries in injection molding.",
+          "In a pipe, the inner surface counts most: with 0.007 mm roughness, pressure loss remains minimal, and biofilm and incrustation find almost no hold. Add to this a thermal conductivity of 0.24 W/(m·K), hot water stays hot without the pipe insulating against itself.",
+          "PPRCT pushes the limits even further: the modified crystal structure brings more temperature and pressure reserve, SDR 7.4 holds 70 °C at 10 bar in continuous operation."
+        ]
+      },
+      {
+        "date": "Knowledge",
+        "tag": "Material",
+        "t": "Brass meets Polypropylene: Transitions into existing systems",
+        "teaser": "Renovation almost always means a system change, transition pieces with brass threads make it clean.",
+        "body": [
+          "Hardly any project starts on a green field: existing pipes made of copper or galvanized steel must be connected. For this purpose, there are transition pieces with embedded brass female or male threads, the threaded side connects to the existing metal, the PP side is materially welded.",
+          "This allows section-by-section renovation: corroded lines are replaced, functioning ones remain, and the corrosion problem doesn't migrate to the new system. Screw connections make the joint detachable if necessary, such as at valves and water meters."
+        ]
+      }
+    ],
+    "ishTitle": "Industry Meeting Point",
+    "ishText": "The HVAC industry meets at ISH in Frankfurt, the world's leading trade fair where partner KESSEL regularly exhibits. As soon as K-Aqua dates are set, they will appear here."
+  },
+  "contactx": {
+    "routeEyebrow": "Direct Routes",
+    "routeTitle": "Who answers for what.",
+    "routeLead": "Three inboxes, clear responsibilities, response within one business day.",
+    "routes": [
+      {
+        "t": "Sales & Projects",
+        "d": "Offers, delivery times, conditions, project consulting from d20 to d630.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Quality & Technical Support",
+        "d": "Material and processing questions, certificates, complaints.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Career & Application",
+        "d": "Applications and questions about working at K Aqua, directly to Andrea Nickel.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Good to know",
+    "facts": [
+      [
+        "Response Time",
+        "Response within one business day, project inquiries with personal feedback from sales"
+      ],
+      [
+        "Location",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Central Hesse"
+      ],
+      [
+        "Phone / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Languages",
+        "German and English, website additionally in Arabic"
+      ],
+      [
+        "Plant Visit",
+        "Audits and tours by appointment via sales"
+      ]
+    ],
+    "mapLabel": "Location map Waldsolms, save map section",
+    "faqEyebrow": "Before you write",
+    "faqTitle": "The four most common questions.",
+    "faq": [
+      {
+        "q": "What belongs in a good project inquiry?",
+        "a": "Project type, required dimensions (rough is enough), estimated run length, delivery region, and timeframe. The structured project inquiry asks for exactly these five points, filled out in two minutes."
+      },
+      {
+        "q": "How fast will I get an answer?",
+        "a": "Within one business day, project inquiries are answered personally by sales, technical questions by the support team."
+      },
+      {
+        "q": "Can I visit or audit the plant?",
+        "a": "Yes, by appointment. For supplier audits, the RFP document package from the Trust Centre is recommended in advance; then the on-site appointment is maximally efficient."
+      },
+      {
+        "q": "Where can I find certificates and tender texts?",
+        "a": "ISO certificates (DE/EN) under Service & Downloads, the complete audit package including GAEB texts in the Trust Centre, as self-service, without waiting."
+      }
+    ]
+  }
+}

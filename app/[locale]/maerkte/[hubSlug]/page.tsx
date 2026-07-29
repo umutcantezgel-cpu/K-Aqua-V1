@@ -31,9 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   
-  const title = tGeo("hubMetaTitle", { country: hub.name });
+  const title = tGeo("hubMetaTitle", { country: hub.name, hub: hub.name });
   const description = tGeo.has(`hubs.${hub.slug}.metaDesc`)
-    ? tGeo(`hubs.${hub.slug}.metaDesc`)
+    ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hub.name, hub: hub.name })
     : hub.description;
 
   return constructMetadata({
@@ -65,7 +65,7 @@ export default async function GeoHubPage({ params }: Props) {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
 
   const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: tGeo("eyebrow"), path: "/maerkte" },
+    { name: tGeo("eyebrow", { country: hub.name, hub: hub.name }), path: "/maerkte" },
     { name: hub.name, path: `/maerkte/${hub.slug}` }
   ]);
 
@@ -79,18 +79,18 @@ export default async function GeoHubPage({ params }: Props) {
         <div className="mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
             <Globe className="w-4 h-4" />
-            <span>{tGeo("eyebrow")} / {hub.name}</span>
+            <span>{tGeo("eyebrow", { country: hub.name, hub: hub.name })} / {hub.name}</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            {tGeo("hubH1", { country: hub.name })}
+            {tGeo("hubH1", { country: hub.name, hub: hub.name })}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
-            <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name })}</span> &ndash;{" "}
+            <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name, hub: hub.name })}</span> &ndash;{" "}
             {tGeo.has(`hubs.${hub.slug}.description`) ? (
-               <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`) }} />
+               <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`, { country: hub.name, hub: hub.name }) }} />
             ) : (
-               tGeo("hubLead", { country: hub.name })
+               tGeo("hubLead", { country: hub.name, hub: hub.name })
             )}
           </p>
           
@@ -98,7 +98,7 @@ export default async function GeoHubPage({ params }: Props) {
 
         {/* Cities Grid */}
         <div>
-          <h2 className="text-2xl font-semibold mb-8">{tGeo("hubCitiesTitle")}</h2>
+          <h2 className="text-2xl font-semibold mb-8">{tGeo("hubCitiesTitle", { country: hub.name, hub: hub.name })}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {hubMarkets.map(market => (
               <Link 

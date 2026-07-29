@@ -1,0 +1,244 @@
+{
+  "schulungen": {
+    "meta": {
+      "title": "Akademi K Aqua",
+      "desc": "Latihan"
+    },
+    "hero": {
+      "eyebrow": "Latihan",
+      "title1": "Latihan",
+      "title2": "K Aqua",
+      "desc": "Deskripsi",
+      "cta1": "Mula",
+      "cta2": "Ketahui"
+    },
+    "manifesto": {
+      "title1": "A",
+      "title2": "B",
+      "title3": "C",
+      "p1": "p1",
+      "p2": "p2"
+    },
+    "bento": {
+      "eyebrow": "Bento",
+      "title": "Bento",
+      "lead": "Bento",
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "typography": {
+      "t1": "T1",
+      "t2": "T2"
+    },
+    "curriculum": {
+      "eyebrow": "C",
+      "title": "C",
+      "lead": "C"
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "T",
+      "desc": "D",
+      "items": [
+        {
+          "year": "Y",
+          "title": "T",
+          "text": "T"
+        }
+      ]
+    },
+    "spec": {
+      "eyebrow": "S",
+      "title": "S",
+      "desc": "D",
+      "items": [
+        {
+          "title": "T",
+          "text": "T"
+        }
+      ]
+    },
+    "cta": {
+      "title1": "T",
+      "title2": "T",
+      "desc": "D",
+      "button": "B"
+    }
+  },
+  "zertifizierung": {
+    "meta": {
+      "title": "Sijil",
+      "desc": "Sijil"
+    },
+    "hero": {
+      "eyebrow": "S",
+      "title1": "T",
+      "title2": "T",
+      "desc": "D",
+      "cta1": "C",
+      "cta2": "C"
+    },
+    "manifesto": {
+      "title1": "T",
+      "title2": "T",
+      "p1": "P"
+    },
+    "bento": {
+      "eyebrow": "B",
+      "title": "T",
+      "lead": "L",
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "certifications": {
+      "eyebrow": "C",
+      "title": "T",
+      "lead": "L",
+      "items": [
+        {
+          "title": "T",
+          "p1": "P",
+          "p2": "P"
+        }
+      ]
+    },
+    "lab": {
+      "eyebrow": "L",
+      "title1": "T",
+      "title2": "T",
+      "desc": "D",
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "T",
+      "desc": "D",
+      "items": [
+        {
+          "year": "Y",
+          "title": "T",
+          "text": "T"
+        }
+      ]
+    },
+    "cta": {
+      "title": "T",
+      "desc": "D",
+      "button1": "B",
+      "button2": "B"
+    }
+  },
+  "glossar": {
+    "meta": {
+      "title": "Glosari",
+      "desc": "Glosari"
+    },
+    "hero": {
+      "eyebrow": "G",
+      "title1": "T",
+      "title2": "T",
+      "desc": "D",
+      "cta1": "C",
+      "cta2": "C"
+    },
+    "manifesto": {
+      "eyebrow": "M",
+      "title": "T",
+      "lead": "L"
+    },
+    "scroll": {
+      "eyebrow": "S",
+      "title": "T",
+      "lead": "L",
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "B",
+      "title": "T",
+      "lead": "L",
+      "items": [
+        {
+          "title": "T",
+          "desc": "D"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "T",
+      "desc": "D",
+      "items": [
+        {
+          "year": "Y",
+          "title": "T",
+          "text": "T"
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "T",
+      "p1": "P",
+      "p2": "P",
+      "p3": "P",
+      "p4": "P"
+    },
+    "cta": {
+      "title1": "T",
+      "title2": "T",
+      "desc": "D",
+      "button": "B"
+    }
+  },
+  "eyebrow": "Akademi",
+  "title1": "Pengetahuan",
+  "titleGrad": "Akademi K Aqua.",
+  "lead": "Latihan dan teknik kimpalan.",
+  "videos": [
+    {
+      "t": "Kimpalan Soket",
+      "s": "Video 1"
+    }
+  ],
+  "quizEyebrow": "Kuiz",
+  "quizTitle": "Uji Pengetahuan Anda",
+  "intro": "Mulakan kuiz sekarang.",
+  "start": "Mula",
+  "qLabel": "Soalan",
+  "quiz": [
+    {
+      "q": "Soalan 1",
+      "o": [
+        "Opsyen 1"
+      ]
+    }
+  ],
+  "resPerfect": "Sempurna",
+  "resGood": "Bagus",
+  "resLow": "Cuba lagi",
+  "retry": "Ulang",
+  "titlePerfect": "Master",
+  "titleGood": "Pakar"
+}
