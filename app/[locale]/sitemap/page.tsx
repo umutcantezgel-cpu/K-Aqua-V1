@@ -54,7 +54,7 @@ export default async function SitemapPage({ params }: Props) {
              : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
              : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
           </h1>
-          <div className="sr-only" aria-hidden="true">
+          <div className="sr-only">
             {locale === 'de' ? 'K-Aqua HTML Sitemap - Alle Seiten im Überblick'
              : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
              : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}

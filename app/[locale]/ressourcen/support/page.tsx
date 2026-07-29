@@ -34,8 +34,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only" aria-hidden="true">{tMeta('metaTitle')}</div>
-      <div className="sr-only" aria-hidden="true">{t('support.hero.title1')} {t('support.hero.title2')}</div>
+      <div className="sr-only">{tMeta('metaTitle')}</div>
+      <div className="sr-only">{t('support.hero.title1')} {t('support.hero.title2')}</div>
       <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
       
       {/* 1) Epic Parallax Hero */}

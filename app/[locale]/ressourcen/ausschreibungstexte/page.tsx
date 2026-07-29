@@ -51,7 +51,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only" aria-hidden="true">{tMeta('title')}</div>
+      <div className="sr-only">{tMeta('title')}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
       
       {/* 1) Apple-Style Parallax Hero */}

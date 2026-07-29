@@ -305,7 +305,7 @@ export default async function ProductDetailPage({
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
                 {dynamicSeoH1}
               </p>
-              <p className="sr-only" aria-hidden="true">
+              <p className="sr-only">
                 {localizedTitle} {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme & Fittings' : locale === 'ar' ? ' لأنظمة أنابيب وتجهيزات PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems & Fittings'}
               </p>
               <Reveal delay={0.12}>
@@ -336,7 +336,7 @@ export default async function ProductDetailPage({
       {/* 2. DYNAMIC SEO TEXT BLOCKS (Unique per product) */}
       <section className="py-12 bg-surface">
         <div className="mx-auto max-w-[1400px] px-6">
-          <div className="sr-only" aria-hidden="true" data-nosnippet="true">
+          <div className="sr-only">
             <p>
               {locale === 'de' ? 'Das Produkt' : locale === 'ar' ? 'المنتج' : 'The product'} {localizedTitle} {locale === 'de' ? `ist ein hochwertiges ${localizedTitle}-Element der Kategorie` : locale === 'ar' ? `هو عنصر ${localizedTitle} عالي الجودة من فئة` : `is a high-quality ${localizedTitle} component in the category`} {product.category} {locale === 'de' ? 'für professionelle PP-R und PP-RCT Rohrsysteme von K-Aqua.' : locale === 'ar' ? 'لأنظمة أنابيب PP-R و PP-RCT الاحترافية من K-Aqua.' : 'for professional PP-R and PP-RCT piping systems by K-Aqua.'}
             </p>
@@ -443,7 +443,7 @@ export default async function ProductDetailPage({
                 <ProductDownloads />
                 
                 {/* Dynamic SEO Word Count Padding (Visually Hidden) */}
-                <div className="sr-only" aria-hidden="true" data-nosnippet="true">
+                <div className="sr-only">
                   <p>
                     {locale === 'de' 
                       ? `Die K-Aqua PP-R und PP-RCT Rohrsysteme bieten höchste Qualität für anspruchsvolle Anwendungen. Der Artikel ${localizedTitle} (Artikelnummer: ${codesArray.join(', ')}) aus der Kategorie ${category} ist speziell für langlebige und sichere Installationen konzipiert. Unsere Produkte zeichnen sich durch extreme Temperaturbeständigkeit, Druckfestigkeit und eine herausragende chemische Resistenz aus. Egal ob für Trinkwasserinstallationen, Klimakaltwasser, industrielle Prozessleitungen oder Fußbodenheizungen – ${localizedTitle} garantiert eine leckagefreie und korrosionsfreie Verbindungstechnik.`
