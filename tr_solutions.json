@@ -1,0 +1,63 @@
+{
+  "solutions": {
+    "hero": {
+      "eyebrow": "APLIKASI",
+      "title1": "PENYELESAIAN",
+      "title2": "INDUSTRI",
+      "desc": "Direka khas untuk pelbagai sektor. Daripada air minuman kepada bahan kimia."
+    },
+    "sticky": {
+      "eyebrow": "SEKTOR",
+      "title": "FLEKSIBILITI SISTEM",
+      "lead": "Sistem kami digunakan secara meluas.",
+      "items": [
+        { "title": "AIR MINUMAN", "desc": "Sijil kebersihan tertinggi." },
+        { "title": "PENYEJUKAN", "desc": "Sistem cekap tenaga." },
+        { "title": "INDUSTRI", "desc": "Tahan bahan kimia." },
+        { "title": "HOSPITAL", "desc": "Standard kesihatan." }
+      ]
+    },
+    "bento": {
+      "eyebrow": "MANFAAT",
+      "title": "NILAI TAMBAH",
+      "lead": "Kelebihan utama K-Aqua.",
+      "items": [
+        { "title": "Penjimatan Tenaga", "desc": "Kecekapan haba." },
+        { "title": "Jangka Hayat", "desc": "Tahan lama." },
+        { "title": "Kos Efektif", "desc": "TCO rendah." },
+        { "title": "Keselamatan", "desc": "Tahan tekanan." }
+      ]
+    },
+    "timeline": {
+      "title": "FASA PROJEK",
+      "desc": "Sokongan penuh.",
+      "items": [
+        { "year": "Perancangan", "title": "Sokongan CAD", "text": "Reka bentuk sistem." },
+        { "year": "Pembekalan", "title": "Logistik", "text": "Penghantaran tepat." },
+        { "year": "Pemasangan", "title": "Latihan", "text": "Kimpalan di tapak." },
+        { "year": "Penyelenggaraan", "title": "Jaminan Kualiti", "text": "Sokongan jangka panjang." }
+      ]
+    },
+    "eyebrow": "APLIKASI",
+    "title1": "PENYELESAIAN",
+    "titleGrad": "TERBAIK.",
+    "title2": "UNTUK INDUSTRI.",
+    "lead": "Sistem kami menyelesaikan masalah kompleks.",
+    "benefits": [
+      { "t": "Kualiti", "d": "Bahan terbaik." },
+      { "t": "Selamat", "d": "Tiada kebocoran." },
+      { "t": "Inovasi", "d": "Teknologi terkini." },
+      { "t": "Ekonomi", "d": "Kos kitaran hayat yang rendah." }
+    ],
+    "nextEyebrow": "APAKAH SETERUSNYA?",
+    "nextTitle": "Langkah Seterusnya",
+    "nextLead": "Hubungi kami hari ini.",
+    "nextCta": "Hubungi Kami",
+    "krankenhaus": { "t": "Hospital", "d": "Sistem air bersih yang selamat." },
+    "hotels": { "t": "Hotel", "d": "Keselesaan pelanggan maksimum." },
+    "vorfertigung": { "t": "Prapemasangan", "d": "Penghantaran lebih pantas." },
+    "hochhaus": { "t": "Bangunan Tinggi", "d": "Menahan tekanan tinggi." },
+    "index": { "t": "Indeks", "d": "Senarai aplikasi." },
+    "rechenzentrum": { "t": "Pusat Data", "d": "Penyejukan sistem pelayan." }
+  }
+}

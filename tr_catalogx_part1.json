@@ -1,0 +1,462 @@
+{
+  "catalogx": {
+    "eyebrow": "Katalog Produk Penuh",
+    "faqTitle": "Soalan Lazim",
+    "title": "Semua 79 keluarga produk.",
+    "lead": "Paip, penyambung, injap, alat ganti dan alatan. Pilih kategori.",
+    "searchPlaceholder": "Cari nombor atau nama artikel",
+    "noResults": "Tiada hasil dijumpai.",
+    "codesLabel": "Nombor Artikel",
+    "sizesLabel": "Saiz",
+    "materialLabel": "Bahan",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Siri",
+    "pressureLabel": "Tekanan",
+    "lenLabel": "Panjang",
+    "cats": {
+      "pipes": { "label": "Paip", "desc": "Paip PPR dan PPRCT." },
+      "fittings": { "label": "Penyambung", "desc": "Penyambung kimpalan." },
+      "transitionFittings": { "label": "Penyambung Peralihan", "desc": "Peralihan ke benang." },
+      "valves": { "label": "Injap", "desc": "Injap kawalan." },
+      "weldInSaddles": { "label": "Pelana Kimpalan", "desc": "Pelana soket." },
+      "accessories": { "label": "Aksesori", "desc": "Aksesori pemasangan." },
+      "tools": { "label": "Alatan", "desc": "Alatan kimpalan." }
+    },
+    "rfq": {
+      "title": "Minta Sebut Harga",
+      "p": "Tambahkan ke senarai.",
+      "btn": "Ke Pertanyaan",
+      "none": "Tiada artikel dipilih.",
+      "count": "artikel"
+    },
+    "similar": { "title": "Produk Serupa", "desc": "Lihat produk lain." },
+    "items": {
+  "k-pipe-pp-r-sdr-6": {
+    "seo_p1": "Paip PP-R SDR 6.",
+    "seo_p2": "Spesifikasi tekanan tinggi.",
+    "seo_p3": "Sesuai untuk air minuman.",
+    "faq": [ { "q": "Suhu?", "a": "70°C." }, { "q": "Kelebihan?", "a": "Kuat." }, { "q": "Air sejuk?", "a": "Ya." } ]
+  },
+  "k-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip PPRCT SDR 7.4.",
+    "seo_p2": "Bahan generasi baru.",
+    "seo_p3": "Aliran optimum.",
+    "faq": [ { "q": "PPRCT?", "a": "Bahan kristal." }, { "q": "Aliran?", "a": "Lebih tinggi." }, { "q": "Pemanasan?", "a": "Sesuai." } ]
+  },
+  "k-pipe-pp-r-sdr-11": {
+    "seo_p1": "Paip PP-R SDR 11.",
+    "seo_p2": "Penyelesaian standard.",
+    "seo_p3": "Kalis karat.",
+    "faq": [ { "q": "Sesuai untuk?", "a": "Air sejuk." }, { "q": "Pemasangan?", "a": "Mudah." }, { "q": "Jangka hayat?", "a": "Panjang." } ]
+  },
+  "k-pipe-purple-pp-r-sdr-11": {
+    "seo_p1": "Paip ungu PP-R SDR 11.",
+    "seo_p2": "Untuk kitar semula air.",
+    "seo_p3": "Pengenalan warna.",
+    "faq": [ { "q": "Kenapa ungu?", "a": "Tanda air bukan minuman." }, { "q": "Bahan?", "a": "Sama dengan PP-R." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "k-fiber-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip gentian PPRCT SDR 7.4.",
+    "seo_p2": "Kestabilan haba.",
+    "seo_p3": "Pengembangan rendah.",
+    "faq": [ { "q": "Kelebihan gentian?", "a": "Kuat." }, { "q": "Aplikasi?", "a": "Industri." }, { "q": "Kos?", "a": "Berbaloi." } ]
+  },
+  "k-fiberclima-pipe-pp-rct-sdr-11": {
+    "seo_p1": "Paip Fiberclima PPRCT SDR 11.",
+    "seo_p2": "Sistem penyejukan.",
+    "seo_p3": "Kecekapan tenaga.",
+    "faq": [ { "q": "Fungsi?", "a": "Penghawa dingin." }, { "q": "Kelebihan?", "a": "Jimat." }, { "q": "Suhu?", "a": "Rendah." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-74": {
+    "seo_p1": "Paip gentian PP-R SDR 7.4.",
+    "seo_p2": "Tahan tekanan tinggi.",
+    "seo_p3": "Struktur kukuh.",
+    "faq": [ { "q": "Kegunaan?", "a": "Pelbagai." }, { "q": "Kestabilan?", "a": "Tinggi." }, { "q": "Saiz?", "a": "Banyak pilihan." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-9": {
+    "seo_p1": "Paip gentian PP-R SDR 9.",
+    "seo_p2": "Kestabilan medium.",
+    "seo_p3": "Pilihan ekonomi.",
+    "faq": [ { "q": "Harga?", "a": "Mampu milik." }, { "q": "Sesuai untuk?", "a": "Perumahan." }, { "q": "Tahan karat?", "a": "Ya." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-11": {
+    "seo_p1": "Paip gentian PP-R SDR 11.",
+    "seo_p2": "Tekanan standard.",
+    "seo_p3": "Mudah dikendalikan.",
+    "faq": [ { "q": "Berat?", "a": "Ringan." }, { "q": "Pemasangan?", "a": "Mudah." }, { "q": "Kos?", "a": "Efektif." } ]
+  },
+  "k-fiber-pipe-pp-r-sdr-17": {
+    "seo_p1": "Paip gentian PP-R SDR 17.",
+    "seo_p2": "Untuk sistem tekanan rendah.",
+    "seo_p3": "Penyelesaian kos rendah.",
+    "faq": [ { "q": "Tekanan?", "a": "Rendah." }, { "q": "Sesuai untuk?", "a": "Pengairan." }, { "q": "Jangka hayat?", "a": "Panjang." } ]
+  },
+  "k-fiber-uv-pipe-pp-r-sdr-74": {
+    "seo_p1": "Paip gentian UV PP-R SDR 7.4.",
+    "seo_p2": "Perlindungan matahari.",
+    "seo_p3": "Kestabilan luar.",
+    "faq": [ { "q": "UV?", "a": "Dilindungi." }, { "q": "Luar bangunan?", "a": "Sesuai." }, { "q": "Tahan cuaca?", "a": "Ya." } ]
+  },
+  "k-fiber-uv-pipe-pp-rct-sdr-74": {
+    "seo_p1": "Paip gentian UV PPRCT SDR 7.4.",
+    "seo_p2": "Prestasi maksimum luar.",
+    "seo_p3": "Tahan suhu tinggi dan UV.",
+    "faq": [ { "q": "UV?", "a": "Dilindungi." }, { "q": "Luar bangunan?", "a": "Sesuai." }, { "q": "Suhu?", "a": "Tinggi." } ]
+  },
+  "cap": {
+    "seo_p1": "Penutup akhir (Cap).",
+    "seo_p2": "Menutup hujung paip dengan selamat.",
+    "seo_p3": "Tahan tekanan tinggi.",
+    "faq": [ { "q": "Fungsi?", "a": "Penutup." }, { "q": "Pemasangan?", "a": "Kimpalan." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "socket": {
+    "seo_p1": "Soket (Socket).",
+    "seo_p2": "Penyambung paip lurus.",
+    "seo_p3": "Aliran lancar.",
+    "faq": [ { "q": "Kegunaan?", "a": "Menyambung paip." }, { "q": "Rintangan?", "a": "Kuat." }, { "q": "Saiz?", "a": "Pelbagai." } ]
+  },
+  "elbow-45": {
+    "seo_p1": "Siku 45 darjah (Elbow 45°).",
+    "seo_p2": "Penukaran arah 45 darjah.",
+    "seo_p3": "Reka bentuk optimum.",
+    "faq": [ { "q": "Sudut?", "a": "45°." }, { "q": "Aliran?", "a": "Lancar." }, { "q": "Pemasangan?", "a": "Mudah." } ]
+  },
+  "elbow-45-femalemale": {
+    "seo_p1": "Siku 45 darjah Dalam/Luar.",
+    "seo_p2": "Sambungan terus fleksibel.",
+    "seo_p3": "Jimat ruang.",
+    "faq": [ { "q": "Jenis?", "a": "Dalam/Luar." }, { "q": "Kelebihan?", "a": "Ruang sempit." }, { "q": "Mudah?", "a": "Sangat mudah." } ]
+  },
+  "elbow-90": {
+    "seo_p1": "Siku 90 darjah (Elbow 90°).",
+    "seo_p2": "Penukaran arah 90 darjah.",
+    "seo_p3": "Kuat dan padat.",
+    "faq": [ { "q": "Sudut?", "a": "90°." }, { "q": "Tekanan?", "a": "Tahan tinggi." }, { "q": "Kebocoran?", "a": "Tiada." } ]
+  },
+  "elbow-90-femalemale": {
+    "seo_p1": "Siku 90 darjah Dalam/Luar.",
+    "seo_p2": "Untuk ruang terhad.",
+    "seo_p3": "Sambungan padat.",
+    "faq": [ { "q": "Kegunaan?", "a": "Ruang sempit." }, { "q": "Kimpalan?", "a": "Cepat." }, { "q": "Kuat?", "a": "Ya." } ]
+  },
+  "electrofusion-socket": {
+    "seo_p1": "Soket Elektrofusi.",
+    "seo_p2": "Kimpalan elektrik berprestasi tinggi.",
+    "seo_p3": "Untuk kawasan sukar capai.",
+    "faq": [ { "q": "Kelebihan?", "a": "Mudah dikimpal di ruang sempit." }, { "q": "Mesin?", "a": "Perlu mesin khas." }, { "q": "Selamat?", "a": "Sangat selamat." } ]
+  },
+  "flange-adaptor": {
+    "seo_p1": "Penyesuai Bebibir (Flange Adaptor).",
+    "seo_p2": "Untuk sambungan berflange.",
+    "seo_p3": "Integrasi sistem logam.",
+    "faq": [ { "q": "Fungsi?", "a": "Sambungan logam." }, { "q": "Standard?", "a": "ISO." }, { "q": "Saiz?", "a": "Besar tersedia." } ]
+  },
+  "reducing-bush": {
+    "seo_p1": "Semak Pengurang (Reducing Bush).",
+    "seo_p2": "Menyambung paip pelbagai saiz.",
+    "seo_p3": "Pengecilan diameter.",
+    "faq": [ { "q": "Fungsi?", "a": "Tukar saiz." }, { "q": "Aliran?", "a": "Optimum." }, { "q": "Pemasangan?", "a": "Soket kimpalan." } ]
+  },
+  "reducing-tee": {
+    "seo_p1": "T Pengurang (Reducing Tee).",
+    "seo_p2": "Cabang dengan saiz berbeza.",
+    "seo_p3": "Pembahagian aliran optimum.",
+    "faq": [ { "q": "Cabang?", "a": "Saiz lebih kecil." }, { "q": "Kuat?", "a": "Ya." }, { "q": "Pilihan?", "a": "Banyak dimensi." } ]
+  },
+  "reducing-tee-large-sizes": {
+    "seo_p1": "T Pengurang Saiz Besar.",
+    "seo_p2": "Untuk paip diameter besar.",
+    "seo_p3": "Infrastruktur industri.",
+    "faq": [ { "q": "Saiz?", "a": "Besar." }, { "q": "Tekanan?", "a": "Tinggi." }, { "q": "Kegunaan?", "a": "Industri." } ]
+  },
+  "tee": {
+    "seo_p1": "Sama T (Tee).",
+    "seo_p2": "Pembahagian aliran sama saiz.",
+    "seo_p3": "Struktur kukuh.",
+    "faq": [ { "q": "Bentuk?", "a": "T." }, { "q": "Saiz?", "a": "Sama." }, { "q": "Ketahanan?", "a": "Tinggi." } ]
+  },
+  "cross": {
+    "seo_p1": "Silang (Cross).",
+    "seo_p2": "Cabang empat arah.",
+    "seo_p3": "Pembahagian sekata.",
+    "faq": [ { "q": "Arah?", "a": "Empat." }, { "q": "Sesuai untuk?", "a": "Rangkaian kompleks." }, { "q": "Lancar?", "a": "Ya." } ]
+  },
+  "cross-over": {
+    "seo_p1": "Jambatan paip (Cross-over).",
+    "seo_p2": "Mengelakkan paip bersilang.",
+    "seo_p3": "Sesuai untuk pemasangan silang.",
+    "faq": [ { "q": "Fungsi?", "a": "Elak perlanggaran paip." }, { "q": "Bentuk?", "a": "Melengkung." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "cross-over-pipe": {
+    "seo_p1": "Paip jambatan (Cross-over pipe).",
+    "seo_p2": "Jambatan pra-bentuk.",
+    "seo_p3": "Pemasangan pantas.",
+    "faq": [ { "q": "Kelebihan?", "a": "Pantas." }, { "q": "Ketahanan?", "a": "Kuat." }, { "q": "Saiz?", "a": "Standard." } ]
+  },
+  "adaptor-socket-female-thread": {
+    "seo_p1": "Penyesuai Benang Dalam.",
+    "seo_p2": "Sambungan ke komponen berbenang.",
+    "seo_p3": "Loyang berkualiti.",
+    "faq": [ { "q": "Jenis benang?", "a": "Dalam." }, { "q": "Bahan?", "a": "Loyang DZR." }, { "q": "Kebocoran?", "a": "Tiada." } ]
+  },
+  "adaptor-socket-male-thread": {
+    "seo_p1": "Penyesuai Benang Luar.",
+    "seo_p2": "Sambungan kuat berbenang luar.",
+    "seo_p3": "Tahan tekanan tinggi.",
+    "faq": [ { "q": "Jenis benang?", "a": "Luar." }, { "q": "Kelebihan?", "a": "Ketahanan lama." }, { "q": "Selamat?", "a": "Diuji." } ]
+  },
+  "elbow-90-male-thread": {
+    "seo_p1": "Siku 90° Benang Luar.",
+    "seo_p2": "Sudut dengan sambungan logam.",
+    "seo_p3": "Sempurna untuk radiator.",
+    "faq": [ { "q": "Aplikasi?", "a": "Radiator/injap." }, { "q": "Bahan logam?", "a": "Ya." }, { "q": "Kuat?", "a": "Sangat kuat." } ]
+  },
+  "elbow-bracket-90-female-thread": {
+    "seo_p1": "Pendakap Siku 90° Benang Dalam.",
+    "seo_p2": "Pemasangan dinding kukuh.",
+    "seo_p3": "Untuk pili air.",
+    "faq": [ { "q": "Pemasangan?", "a": "Dinding." }, { "q": "Stabil?", "a": "Ya." }, { "q": "Jenis?", "a": "Dalam." } ]
+  },
+  "elbowwall-bracket-90-female-thread": {
+    "seo_p1": "Siku Dinding 90°.",
+    "seo_p2": "Lekapan dinding padat.",
+    "seo_p3": "Aplikasi kebersihan.",
+    "faq": [ { "q": "Kegunaan?", "a": "Pili dinding." }, { "q": "Ketahanan?", "a": "Tinggi." }, { "q": "Sesuai?", "a": "Bilik mandi." } ]
+  },
+  "metal-union-male-thread-yellow-brass": {
+    "seo_p1": "Kesatuan Logam Benang Luar (Kuning).",
+    "seo_p2": "Sambungan boleh tanggal.",
+    "seo_p3": "Loyang kuning.",
+    "faq": [ { "q": "Warna?", "a": "Kuning." }, { "q": "Fungsi?", "a": "Boleh dibuka." }, { "q": "Kuat?", "a": "Ya." } ]
+  },
+  "metal-union-female-thread-yellow-brass": {
+    "seo_p1": "Kesatuan Logam Benang Dalam (Kuning).",
+    "seo_p2": "Sesuai untuk penyelenggaraan.",
+    "seo_p3": "Bahan berkualiti.",
+    "faq": [ { "q": "Penyelenggaraan?", "a": "Mudah." }, { "q": "Benang?", "a": "Dalam." }, { "q": "Ketat?", "a": "Ya." } ]
+  },
+  "metal-union-male-thread": {
+    "seo_p1": "Kesatuan Logam Benang Luar.",
+    "seo_p2": "Kemasan berkualiti.",
+    "seo_p3": "Sambungan industri.",
+    "faq": [ { "q": "Kemasan?", "a": "Berkualiti." }, { "q": "Aplikasi?", "a": "Industri." }, { "q": "Ketahanan?", "a": "Tinggi." } ]
+  },
+  "metal-union-female-thread": {
+    "seo_p1": "Kesatuan Logam Benang Dalam.",
+    "seo_p2": "Mudah ditanggalkan.",
+    "seo_p3": "Sesuai untuk pam.",
+    "faq": [ { "q": "Sesuai untuk?", "a": "Pam." }, { "q": "Bocor?", "a": "Tiada." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "tee-90-male-thread": {
+    "seo_p1": "T 90° Benang Luar.",
+    "seo_p2": "Cabang dengan benang logam.",
+    "seo_p3": "Integrasi alat.",
+    "faq": [ { "q": "Fungsi?", "a": "Cabang alat." }, { "q": "Bahan?", "a": "Logam/PP-R." }, { "q": "Suhu?", "a": "Tinggi." } ]
+  },
+  "tee-90-female-thread": {
+    "seo_p1": "T 90° Benang Dalam.",
+    "seo_p2": "Menyambung sensor/injap.",
+    "seo_p3": "Kukuh.",
+    "faq": [ { "q": "Untuk apa?", "a": "Injap." }, { "q": "Jenis?", "a": "Benang dalam." }, { "q": "Ketahanan?", "a": "Baik." } ]
+  },
+  "union": {
+    "seo_p1": "Kesatuan Plastik (Union).",
+    "seo_p2": "Sambungan paip boleh tanggal.",
+    "seo_p3": "Bebas karat.",
+    "faq": [ { "q": "Logam?", "a": "Tidak, plastik sepenuhnya." }, { "q": "Kuat?", "a": "Ya." }, { "q": "Pemasangan?", "a": "Mudah." } ]
+  },
+  "union-for-watermeters": {
+    "seo_p1": "Kesatuan Meter Air.",
+    "seo_p2": "Khusus untuk meter air.",
+    "seo_p3": "Mudah selenggara.",
+    "faq": [ { "q": "Fungsi?", "a": "Meter air." }, { "q": "Standard?", "a": "Ya." }, { "q": "Bocor?", "a": "Diuji sepenuhnya." } ]
+  },
+  "pp-r-ball-valve-ball-in-pp": {
+    "seo_p1": "Injap Bebola PP-R (Bola PP).",
+    "seo_p2": "Injap plastik penuh.",
+    "seo_p3": "Sesuai untuk bahan kimia.",
+    "faq": [ { "q": "Bola?", "a": "Plastik PP." }, { "q": "Kakisan?", "a": "Tiada." }, { "q": "Industri?", "a": "Sesuai." } ]
+  },
+  "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+    "seo_p1": "Injap Bebola (Bola Loyang Krom).",
+    "seo_p2": "Operasi lancar.",
+    "seo_p3": "Jangka hayat panjang.",
+    "faq": [ { "q": "Bola?", "a": "Loyang krom." }, { "q": "Lancar?", "a": "Sangat lancar." }, { "q": "Air minum?", "a": "Lulus." } ]
+  },
+  "tee-90-female-thread-for-internal-valve": {
+    "seo_p1": "T Injap Dalaman.",
+    "seo_p2": "Untuk injap tersembunyi.",
+    "seo_p3": "Reka bentuk padat.",
+    "faq": [ { "q": "Aplikasi?", "a": "Dalam dinding." }, { "q": "Ruang?", "a": "Kecil." }, { "q": "Selamat?", "a": "Ya." } ]
+  },
+  "concealed-valve-chrome-light-part": {
+    "seo_p1": "Injap Tersembunyi (Krom Ringan).",
+    "seo_p2": "Estetik bilik mandi.",
+    "seo_p3": "Mudah laras.",
+    "faq": [ { "q": "Pandangan?", "a": "Moden." }, { "q": "Permukaan?", "a": "Krom." }, { "q": "Kawalan?", "a": "Tepat." } ]
+  },
+  "concealed-valve-chrome-heavy-part": {
+    "seo_p1": "Injap Tersembunyi (Krom Berat).",
+    "seo_p2": "Tugas berat dan tahan lasak.",
+    "seo_p3": "Binaan mantap.",
+    "faq": [ { "q": "Binaan?", "a": "Berat." }, { "q": "Tahan lasak?", "a": "Sangat." }, { "q": "Sesuai?", "a": "Komersial." } ]
+  },
+  "straight-seat-valve-upper-part-green-handle": {
+    "seo_p1": "Injap Kerusi Lurus (Hijau).",
+    "seo_p2": "Kawalan air optimum.",
+    "seo_p3": "Pemegang hijau.",
+    "faq": [ { "q": "Warna pemegang?", "a": "Hijau." }, { "q": "Aliran?", "a": "Baik." }, { "q": "Penyelenggaraan?", "a": "Mudah." } ]
+  },
+  "elongation-pieces": {
+    "seo_p1": "Kepingan Pemanjangan.",
+    "seo_p2": "Laras jarak injap.",
+    "seo_p3": "Fleksibiliti.",
+    "faq": [ { "q": "Fungsi?", "a": "Panjangkan injap." }, { "q": "Kesesuaian?", "a": "Universal." }, { "q": "Bahan?", "a": "Tahan karat." } ]
+  },
+  "battery-female-thread": {
+    "seo_p1": "Bateri Benang Dalam.",
+    "seo_p2": "Pemasangan pancuran mandi.",
+    "seo_p3": "Jarak tepat.",
+    "faq": [ { "q": "Jarak?", "a": "Standard." }, { "q": "Kegunaan?", "a": "Bilik mandi." }, { "q": "Pemasangan?", "a": "Cepat." } ]
+  },
+  "adjustable-battery-female-thread": {
+    "seo_p1": "Bateri Boleh Laras.",
+    "seo_p2": "Jarak fleksibel.",
+    "seo_p3": "Menyesuaikan keadaan.",
+    "faq": [ { "q": "Laras?", "a": "Ya." }, { "q": "Bahan?", "a": "PP-R/Logam." }, { "q": "Jimat masa?", "a": "Ya." } ]
+  },
+  "weld-in-saddle": {
+    "seo_p1": "Pelana Kimpalan (Saddle).",
+    "seo_p2": "Cabang paip mudah.",
+    "seo_p3": "Tanpa memotong paip utama.",
+    "faq": [ { "q": "Potong paip?", "a": "Tidak perlu." }, { "q": "Proses?", "a": "Kimpalan luar." }, { "q": "Tekanan?", "a": "Selamat." } ]
+  },
+  "weld-in-saddle-female-thread": {
+    "seo_p1": "Pelana Benang Dalam.",
+    "seo_p2": "Cabang dengan benang logam.",
+    "seo_p3": "Untuk sensor/injap.",
+    "faq": [ { "q": "Kegunaan?", "a": "Alat tambah." }, { "q": "Benang?", "a": "Loyang." }, { "q": "Mudah?", "a": "Sangat mudah." } ]
+  },
+  "weld-in-saddle-male-thread": {
+    "seo_p1": "Pelana Benang Luar.",
+    "seo_p2": "Sambungan teguh.",
+    "seo_p3": "Untuk cabang luar.",
+    "faq": [ { "q": "Bahan?", "a": "PP-R dan Logam." }, { "q": "Tekanan?", "a": "Tinggi." }, { "q": "Bocor?", "a": "Tiada." } ]
+  },
+  "pipe-clamps": {
+    "seo_p1": "Pengapit Paip (Clamp).",
+    "seo_p2": "Sokongan paip kukuh.",
+    "seo_p3": "Mencegah getaran.",
+    "faq": [ { "q": "Fungsi?", "a": "Sokong paip." }, { "q": "Getaran?", "a": "Dikurangkan." }, { "q": "Bahan?", "a": "Plastik/Logam." } ]
+  },
+  "backing-flange-pp-steel-sfbf": {
+    "seo_p1": "Bebibir Sokongan (PP-Keluli).",
+    "seo_p2": "Kestabilan sambungan.",
+    "seo_p3": "Beban berat.",
+    "faq": [ { "q": "Bahan?", "a": "Keluli bersalut PP." }, { "q": "Kuat?", "a": "Sangat." }, { "q": "Karat?", "a": "Dilindungi." } ]
+  },
+  "flat-gasket": {
+    "seo_p1": "Gasket Rata.",
+    "seo_p2": "Kedapan sempurna.",
+    "seo_p3": "Untuk bebibir.",
+    "faq": [ { "q": "Kebocoran?", "a": "Sifar." }, { "q": "Bahan?", "a": "Getah EPDM." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "flat-gasket-for-unions-pp-r": {
+    "seo_p1": "Gasket untuk Kesatuan PP-R.",
+    "seo_p2": "Sesuai untuk penyambung boleh buka.",
+    "seo_p3": "Tahan panas.",
+    "faq": [ { "q": "Suhu?", "a": "Tahan panas." }, { "q": "Aplikasi?", "a": "Kesatuan PP-R." }, { "q": "Boleh ganti?", "a": "Ya." } ]
+  },
+  "plug": {
+    "seo_p1": "Palam (Plug).",
+    "seo_p2": "Penutup berbenang sementara.",
+    "seo_p3": "Ujian tekanan.",
+    "faq": [ { "q": "Kegunaan?", "a": "Ujian tekanan." }, { "q": "Boleh buka?", "a": "Ya." }, { "q": "Kedap?", "a": "Ya." } ]
+  },
+  "pipe-cutter-2040": {
+    "seo_p1": "Pemotong Paip 20-40mm.",
+    "seo_p2": "Potongan bersih tanpa serpihan.",
+    "seo_p3": "Mudah alih.",
+    "faq": [ { "q": "Saiz?", "a": "20-40mm." }, { "q": "Tajam?", "a": "Mata pisau keluli." }, { "q": "Bersih?", "a": "Ya." } ]
+  },
+  "pipe-cutter-50125": {
+    "seo_p1": "Pemotong Paip Besar 50-125mm.",
+    "seo_p2": "Tugas berat.",
+    "seo_p3": "Potongan tepat.",
+    "faq": [ { "q": "Kapasiti?", "a": "Sehingga 125mm." }, { "q": "Kerja berat?", "a": "Sesuai." }, { "q": "Cepat?", "a": "Ya." } ]
+  },
+  "pipe-cutter-50125-1": {
+    "seo_p1": "Pemotong Paip Lanjutan 50-125mm.",
+    "seo_p2": "Ergonomik.",
+    "seo_p3": "Mudah digunakan.",
+    "faq": [ { "q": "Ergonomik?", "a": "Ya." }, { "q": "Ketahanan?", "a": "Kukuh." }, { "q": "Ringan?", "a": "Ya." } ]
+  },
+  "hand-welding-machine-2032-complete-set": {
+    "seo_p1": "Set Mesin Kimpalan 20-32mm.",
+    "seo_p2": "Set lengkap juruteknik.",
+    "seo_p3": "Kawal suhu automatik.",
+    "faq": [ { "q": "Suhu?", "a": "Boleh laras." }, { "q": "Set?", "a": "Lengkap dengan acuan." }, { "q": "Mudah alih?", "a": "Ya." } ]
+  },
+  "hand-welding-machine-2063-complete-set": {
+    "seo_p1": "Set Mesin Kimpalan 20-63mm.",
+    "seo_p2": "Serbaguna untuk projek perumahan.",
+    "seo_p3": "Pemanasan pantas.",
+    "faq": [ { "q": "Kapasiti?", "a": "Hingga 63mm." }, { "q": "Cepat panas?", "a": "Ya." }, { "q": "Tahan lasak?", "a": "Sangat." } ]
+  },
+  "hand-welding-machine-mirror-50125": {
+    "seo_p1": "Cermin Kimpalan 50-125mm.",
+    "seo_p2": "Untuk paip besar.",
+    "seo_p3": "Pengagihan haba rata.",
+    "faq": [ { "q": "Haba?", "a": "Rata." }, { "q": "Berat?", "a": "Tugas berat." }, { "q": "Standard?", "a": "Industri." } ]
+  },
+  "welding-tool": {
+    "seo_p1": "Alat Kimpalan Tambahan.",
+    "seo_p2": "Acuan bersalut teflon.",
+    "seo_p3": "Mencegah plastik melekat.",
+    "faq": [ { "q": "Teflon?", "a": "Ya bersalut." }, { "q": "Melekat?", "a": "Tidak." }, { "q": "Tahan lama?", "a": "Ya." } ]
+  },
+  "welding-machine-50125-complete-set": {
+    "seo_p1": "Mesin Kimpalan Meja 50-125mm.",
+    "seo_p2": "Kimpalan tegak berketepatan tinggi.",
+    "seo_p3": "Sesuai di tapak binaan.",
+    "faq": [ { "q": "Ketepatan?", "a": "Tinggi." }, { "q": "Manual?", "a": "Mekanikal." }, { "q": "Kestabilan?", "a": "Maksimum." } ]
+  },
+  "butt-welding-machine-90250": {
+    "seo_p1": "Mesin Kimpalan Punggung (Butt-welding).",
+    "seo_p2": "Untuk paip gergasi.",
+    "seo_p3": "Industri berat.",
+    "faq": [ { "q": "Proses?", "a": "Kimpalan punggung." }, { "q": "Saiz?", "a": "90-250mm." }, { "q": "Hidraulik?", "a": "Ya." } ]
+  },
+  "electrofusion-machine": {
+    "seo_p1": "Mesin Elektrofusi.",
+    "seo_p2": "Kimpalan berkomputer.",
+    "seo_p3": "Barcode scanner.",
+    "faq": [ { "q": "Kawalan?", "a": "Digital." }, { "q": "Suhu?", "a": "Automatik." }, { "q": "Tepat?", "a": "100%." } ]
+  },
+  "welding-tool-for-weld-in-saddles": {
+    "seo_p1": "Acuan Pelana Kimpalan.",
+    "seo_p2": "Direka khas untuk pelana.",
+    "seo_p3": "Profil melengkung.",
+    "faq": [ { "q": "Bentuk?", "a": "Melengkung ikut paip." }, { "q": "Salutan?", "a": "Teflon." }, { "q": "Hasil?", "a": "Sempurna." } ]
+  },
+  "drilling-tool-for-weld-in-saddle": {
+    "seo_p1": "Gerudi Pelana.",
+    "seo_p2": "Menebuk lubang dengan bersih.",
+    "seo_p3": "Saiz tepat.",
+    "faq": [ { "q": "Kotoran?", "a": "Minimum." }, { "q": "Bahan?", "a": "Keluli tajam." }, { "q": "Tepat?", "a": "Ya." } ]
+  },
+  "welding-tool-for-repairing-plug": {
+    "seo_p1": "Alat Pembaikan Paip.",
+    "seo_p2": "Membaiki lubang gerudi bocor.",
+    "seo_p3": "Menyelamatkan pemasangan.",
+    "faq": [ { "q": "Fungsi?", "a": "Tutup bocor gerudi." }, { "q": "Cepat?", "a": "Ya." }, { "q": "Selamat?", "a": "Kekal." } ]
+  },
+  "repairing-plug": {
+    "seo_p1": "Palam Pembaikan.",
+    "seo_p2": "Bahan PP-R untuk pembaikan.",
+    "seo_p3": "Satu menjadi paip asal.",
+    "faq": [ { "q": "Bahan?", "a": "PP-R." }, { "q": "Kebocoran?", "a": "Tertutup penuh." }, { "q": "Kekuatan?", "a": "Sama seperti paip asal." } ]
+  }
+}
+  }
+}
