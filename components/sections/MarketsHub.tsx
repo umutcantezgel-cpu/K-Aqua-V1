@@ -318,6 +318,19 @@ export default function MarketsHub({
           
 
 
+          <div className="sr-only">
+            <p>
+              {locale === 'de' ? 'K-Aqua ist Ihr weltweiter Partner für PP-R und PP-RCT Rohrsysteme.' : locale === 'ar' ? 'K-Aqua هي شريكك العالمي لأنظمة أنابيب PP-R و PP-RCT.' : 'K-Aqua is your global partner for PP-R and PP-RCT piping systems.'}
+              {locale === 'de' ? ' Wir beliefern internationale Märkte mit erstklassiger deutscher Ingenieurskunst.' : locale === 'ar' ? ' نقوم بتوريد الأسواق الدولية بأفضل الهندسة الألمانية.' : ' We supply international markets with first-class German engineering.'}
+            </p>
+            <p>
+              {locale === 'de' ? 'Unsere globalen Hubs und lokalen Vertriebsnetze gewährleisten eine schnelle Verfügbarkeit.' : locale === 'ar' ? 'تضمن مراكزنا العالمية وشبكات المبيعات المحلية توفرًا سريعًا.' : 'Our global hubs and local sales networks ensure fast availability.'}
+              {locale === 'de' ? ' Von Europa bis zum Nahen Osten bieten wir maßgeschneiderte Lösungen.' : locale === 'ar' ? ' من أوروبا إلى الشرق الأوسط ، نقدم حلولاً مخصصة.' : ' From Europe to the Middle East, we offer tailored solutions.'}
+            </p>
+            <p>
+              {locale === 'de' ? 'Wählen Sie Ihren Zielmarkt aus der interaktiven Karte aus, um spezifische Zertifizierungen und Kontakte zu finden.' : locale === 'ar' ? 'اختر السوق المستهدف من الخريطة التفاعلية للعثور على شهادات وجهات اتصال محددة.' : 'Select your target market from the interactive map to find specific certifications and contacts.'}
+            </p>
+          </div>
         </div>
       </section>
     </div>
