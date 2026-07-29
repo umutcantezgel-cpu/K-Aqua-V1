@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Fachwissen & Engineering Data | K Aqua",
+    "desc": "Tiefgreifendes technisches Fachwissen, systemarchitektonische Analysen und kompromisslose Ingenieursdaten zu K Aqua Rohrsystemen."
+  },
+  "scroll": {
+    "items": [
+      {
+        "title": "PPRCT Matrix-Architektur",
+        "desc": "Die strukturelle Integrität unserer Polypropylen Random Copolymerisate mit modifizierter Kristallinität (PPRCT) definiert die Grenzen der thermischen Belastbarkeit neu. Unter extremen Druck- und Temperaturzyklen bietet unsere hexagonale Gitterstruktur eine mikroskopische Spannungsverteilung, die Materialermüdung faktisch eliminiert. Ein Paradigmenwechsel in der Fluidmechanik."
+      },
+      {
+        "title": "Thermodynamische Isolation",
+        "desc": "Unsere koextrudierten Isolationsschichten basieren auf geschlossenzelliger Polyurethan-Technologie. Der Wärmedurchgangskoeffizient (U-Wert) wird auf ein theoretisches Minimum reduziert. Energieverlust ist keine Variable mehr in der Berechnung Ihrer Anlagen, er wird durch unsere Systemarchitektur im Keim erstickt. Absolute thermische Kontrolle."
+      },
+      {
+        "title": "geprüfte Sterilität",
+        "desc": "In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-geprüft, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene."
+      },
+      {
+        "title": "Zerstörungsfreie Prüfung (NDT)",
+        "desc": "Jedes Rohrleitungssystem durchläuft unsere automatisierte Ultraschall- und Röntgendiagnostik. Wir analysieren Schweißnähte auf der Submillimeter-Ebene. Anomalien, Lunker oder Einschlüsse werden durch KI-gestützte Fehlererkennung identifiziert, bevor das Produkt die Fertigungsstraße verlässt. 100% Traceability. Null Toleranz für Defekte."
+      }
+    ]
+  },
+  "timeline": {
+    "items": [
+      {
+        "year": "PHASE I",
+        "title": "Molekulare Synthese",
+        "text": "Der Prozess beginnt auf atomarer Ebene. Katalytische Polymerisation unter extremen Druckbedingungen formt das Basis-PPRCT-Granulat. Spezifische Nukleierungsmittel induzieren die Bildung der widerstandsfähigen Beta-Kristallstruktur."
+      },
+      {
+        "year": "PHASE II",
+        "title": "Präzisions-Koextrusion",
+        "text": "Das Granulat wird bei 240°C aufgeschmolzen und durch kalibrierte Werkzeuge gepresst. Die simultane Extrusion mehrerer Funktionsschichten (Glasfaser-Compound, Deckschicht) erfolgt mit mikrometergenauer Laserkontrolle."
+      },
+      {
+        "year": "PHASE III",
+        "title": "Thermische Stabilisierung",
+        "text": "Ein komplexes Kühlprotokoll fixiert die makromolekulare Orientierung. Der kontrollierte Temperaturgradient verhindert Eigenspannungen und garantiert die absolute Dimensionsstabilität der Rohrgeometrie."
+      },
+      {
+        "year": "PHASE IV",
+        "title": "Hyper-Auditierung",
+        "text": "Hydraulische Berstdrucktests, Zeitstand-Innendruckversuche bei 95°C und zerstörungsfreie Materialanalysen. Nur Systeme, die das Belastungslimit der Norm um 300% übertreffen, erhalten die finale Freigabe."
+      }
+    ],
+    "title": "Genese der Integrität",
+    "desc": "Vom molekularen Katalysator bis zum hyper-auditierten Endprodukt. Ein sequentieller Einblick in unsere kompromisslose Fertigungsmatrix."
+  },
+  "hero": {
+    "eyebrow": "System Intelligence",
+    "title1": "Die Technische",
+    "title2": "Wissensdatenbank",
+    "desc": "Kompromisslose Präzision. Datengesteuerte Analysen. Kein Raum für Fehlertoleranz. Tauchen Sie ein in die reine, verifizierte Ingenieurskunst der K Aqua Systemarchitektur.",
+    "status": "System Status: Online",
+    "clearance": "Clearance Level 4"
+  },
+  "deep": {
+    "badge": "Kernspezifikationen",
+    "title1": "Materialwissenschaft &",
+    "title2": "Protokolle",
+    "desc": "Wir überlassen nichts dem Zufall. Jede Spezifikation ist das Resultat empirischer Forschung und rigoroser Stresstests unter extremsten industriellen Bedingungen."
+  },
+  "grid": {
+    "badge": "Publikationen",
+    "title1": "geprüftes",
+    "title2": "Wissen",
+    "desc": "Zugriff auf tiefgreifende technische Artikel, Whitepaper und systemarchitektonische Analysen. Verifizierte Daten für Ingenieure und Planer.",
+    "read": "Read"
+  },
+  "cta": {
+    "title1": "SYSTEMINTEGRITÄT",
+    "title2": "BESTÄTIGT.",
+    "desc": "Sie haben das Ende der Spezifikationen erreicht. Bereit, die Theorie in industrielle Realität umzusetzen?",
+    "btn": "Kontakt Initiieren"
+  }
+}

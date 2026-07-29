@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Strokovni slovar PP-R | K Aqua",
+    "desc": "Razložena tehnična terminologija cevi, polifuzije, SDR in mehanike fluidov."
+  },
+  "hero": {
+    "eyebrow": "Terminologija",
+    "title1": "Jezik",
+    "title2": "inženirjev.",
+    "desc": "SDR, MFI, PPRCT, Polifuzija. Razjasnili smo tehnični žargon, da lahko natančno načrtujete.",
+    "status": "Indeks: Pripravljen",
+    "clearance": "Nivo: Javno"
+  },
+  "manifesto": {
+    "badge": "Definicije",
+    "title1": "Natančnost v",
+    "title2": "vsaki besedi.",
+    "desc": "Brez natančne terminologije ni natančne izvedbe. Naš slovar postavlja standarde komuniciranja za vaše projekte.",
+    "action": "Prenesi slovar",
+    "stats": [
+      {
+        "n": "50+",
+        "l": "Tehničnih pojmov"
+      },
+      {
+        "n": "100%",
+        "l": "Standardizirano"
+      }
+    ]
+  },
+  "scroll": {
+    "items": [
+      {
+        "title": "SDR (Standard Dimension Ratio)",
+        "desc": "Razmerje med zunanjim premerom in debelino stene cevi. Manjši kot je SDR, debelejša je stena in višji je vzdržan tlak."
+      },
+      {
+        "title": "PP-R (Polipropilen Random Kopolimer)",
+        "desc": "Vrsta plastike (Tip 3), uporabljena v naših ceveh. Znana po svoji izjemni termični odpornosti in kemični stabilnosti."
+      },
+      {
+        "title": "PPRCT",
+        "desc": "Nova generacija PP-R z modificirano kristalno strukturo, ki omogoča tanjše stene (večji pretok) ob ohranjanju visoke tlačne zmogljivosti, še posebej pri visokih temperaturah."
+      },
+      {
+        "title": "Polifuzijsko varjenje",
+        "desc": "Postopek hkratnega segrevanja zunanjosti cevi in notranjosti fitinga ter združitve pod tlakom. Ustvari homogen spoj brez tveganja puščanja."
+      }
+    ]
+  },
+  "bento": {
+    "badge": "Fizika fluidov",
+    "title": "Ključni pojmi",
+    "f1Title": "Vodni udar",
+    "f1Desc": "Udarni val zaradi nenadne zaustavitve pretoka vode. PP-R cevi K Aqua ga zaradi svoje prožnosti učinkoviteje absorbirajo kot kovinske cevi.",
+    "f2Title": "Toplotno raztezanje",
+    "f2Desc": "Sprememba dolžine cevi zaradi sprememb temperature tekočine. Za dolgo življenjsko dobo se mora natančno obvladovati s kompenzatorji (drsni nosilci).",
+    "f3Title": "Odpornost proti razcinkovanju (DZR)",
+    "f3Desc": "Značilnost naših visokokakovostnih medeninastih vložkov v prehodnih fitingih, ki preprečuje krhkost ob stiku z agresivno vodo."
+  },
+  "timeline": {
+    "items": [
+      {
+        "year": "MFI",
+        "title": "Melt Flow Index (Indeks pretoka taline)",
+        "text": "Mera viskoznosti polimera pri določeni temperaturi, ključna za proizvodnjo."
+      },
+      {
+        "year": "PN",
+        "title": "Nominalni tlak",
+        "text": "Klasifikacija, ki označuje maksimalen dovoljen delovni tlak pri 20 °C."
+      },
+      {
+        "year": "LCA",
+        "title": "Life Cycle Assessment (Ocena življenjskega cikla)",
+        "text": "Metodologija za oceno okoljskega vpliva sistema PP-R skozi celotno življenjsko dobo."
+      },
+      {
+        "year": "BIM",
+        "title": "Building Information Modeling",
+        "text": "Digitalna reprezentacija fizičnih in funkcionalnih značilnosti stavbe (uporabljamo format Revit)."
+      }
+    ],
+    "title": "Akronimi",
+    "desc": "Hitra referenca najpogosteje uporabljenih kratic v naši dokumentaciji."
+  },
+  "conclusion": {
+    "badge": "Razumevanje",
+    "title1": "Jasnost prinaša",
+    "title2": "kakovost.",
+    "desc": "Ko govorimo isti jezik, lahko skupaj zgradimo brezkompromisne sisteme."
+  },
+  "cta": {
+    "title1": "NIMATE",
+    "title2": "ODGOVORA?",
+    "desc": "Ne najdete iskanega pojma? Naša inženirska ekipa vam je na voljo.",
+    "btn": "Vprašajte inženirje"
+  }
+}

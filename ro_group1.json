@@ -1,0 +1,357 @@
+{
+  "notFound": {
+    "title": "Așteptați un moment.",
+    "subtitle": "A apărut o fisură în conductă.",
+    "p1": "URL-ul solicitat a dus într-o fundătură.",
+    "p2": "Următoarea secțiune de conductă intactă se află la un clic distanță:",
+    "btn": "Înapoi la pagina principală"
+  },
+  "productsx": {
+    "menu": {
+      "explore": "Explorează Sortimentul"
+    },
+    "tabs": [
+      {
+        "title": "Domeniu de aplicație",
+        "desc": "Selectarea sistemului după cazul de utilizare."
+      },
+      {
+        "title": "Categorie de produse",
+        "desc": "Conducte, fitinguri și armături."
+      },
+      {
+        "title": "Diametru (Dimensiune)",
+        "desc": "De la d16 până la conducte industriale mari."
+      }
+    ]
+  },
+  "solutionsx": {
+    "scroll": {
+      "items": [
+        {
+          "title": "Dezinfecție termică fără degradare",
+          "desc": "Igiena spitalicească necesită peste 70 °C în rețea. K Aqua rămâne inert: fără fisuri de tensiune, fără miros, cu proprietăți complete de material și izolare fonică integrată pentru saloanele pacienților."
+        },
+        {
+          "title": "Reziliență la presiune până în penthouse",
+          "desc": "PN20 / SDR 6 stăpânește presiunea hidrostatică în coloanele ascendente. Pentru hoteluri, acest lucru înseamnă siguranță operațională fără micro-scurgeri care ar putea distruge încet plafoanele suitelor pe parcursul a zeci de ani."
+        },
+        {
+          "title": "Coroziunea oprită complet",
+          "desc": "Coroziunea distruge disponibilitatea (uptime-ul). K Aqua PP-R elimină degradarea în circuitele de răcire: fără pitting (coroziune prin punctare), fără pierderi de energie prin rugină. Menține conductivitatea termică constantă la 0,24 W/(m·K)."
+        },
+        {
+          "title": "Securitatea planificării direct din fabrică",
+          "desc": "Preasamblarea înseamnă riscuri zero pe șantier. Sudăm și testăm sub presiune distribuitoare complexe de conducte la milimetru în fabrică, perfect sincronizat cu modelul dumneavoastră BIM."
+        }
+      ]
+    },
+    "hub": {
+      "hospital": "Infrastructură Clinică",
+      "hospitalLead": "Igiena absolută a apei potabile pentru spitale.",
+      "hotel": "Hoteluri & Resorturi",
+      "hotelLead": "Fără zgomot, fără scurgeri. Fiabilitate pentru oaspeți.",
+      "data": "Cooling Centre de Date",
+      "dataLead": "Sisteme sigure la presiune, fără coroziune.",
+      "prefab": "Prefabricare (Spools)",
+      "prefabLead": "Fără risc pe șantier. Calitate fabrică plug & play."
+    }
+  },
+  "trustx": {
+    "title1": "Pentru Achiziții & Audit",
+    "title2": "Informații structurate.",
+    "lead": "Toate certificatele, normele și ghidurile de la ISO 9001 la KTW-BWGL. Descărcați direct întregul pachet (Fișier ZIP) pentru solicitarea dumneavoastră de propunere (RFP) ca pachet de audit complet.",
+    "topicsTitle": "Trei piloni ai transparenței",
+    "topics": [
+      {
+        "t": "Managementul Calității (ISO)",
+        "d": "De la extruder până la finalizare: Sistemul triplu ISO al K Aqua."
+      },
+      {
+        "t": "Conformitatea cu apa potabilă",
+        "d": "SKZ, DVGW și recomandările UBA – puritate la nivel de senzor."
+      },
+      {
+        "t": "Pregătirea auditului (RFP)",
+        "d": "Pachet complet de descărcare pentru evaluarea eficientă a furnizorilor."
+      }
+    ],
+    "isoTitle": "Manuale de Calitate, Norme și Orientări",
+    "isoItems": [
+      {
+        "t": "Pachet de Audit (RFP-Bundle)",
+        "desc": "Fișier ZIP cu toate certificatele și specificațiile esențiale. Pachetul standard pentru fiecare evaluare a furnizorilor în departamentul de achiziții.",
+        "badge": "Recomandat"
+      },
+      {
+        "t": "Certificat ISO 9001",
+        "desc": "Sistem auditat de management al calității: Trasabilitate 100% de la materia primă la conducta ambalată, auditabil dincolo de limitele fabricii."
+      },
+      {
+        "t": "Aprobare DVGW",
+        "desc": "Esențial pentru piața germană: Materialul și sistemul aprobate pentru contactul pe termen lung cu apa potabilă conform reglementărilor privind tehnologia gazelor și apei."
+      }
+    ],
+    "compEyebrow": "Management & Materiale",
+    "compTitle": "Siguranța Sistemului (Compliance)",
+    "compList": [
+      {
+        "t": "ISO 14001: Managementul Mediului",
+        "desc": "Răcire cu circuit închis, reciclare în fabrică și utilizare optimizată a materiilor prime ca politică corporativă demonstrabilă."
+      },
+      {
+        "t": "ISO 50001: Managementul Energiei",
+        "desc": "Procese documentate de eficiență, de la acționările extruderelor până la iluminatul halei."
+      },
+      {
+        "t": "Supraveghere externă SKZ",
+        "desc": "Monitorizare continuă dincolo de standardele noastre interne, de către un centru independent de plastic din sudul Germaniei."
+      },
+      {
+        "t": "KTW-BWGL",
+        "desc": "Baza de evaluare a Agenției Federale de Mediu din Germania. Siguranță neechivocă pentru igiena apei potabile, testat micro-biologic."
+      }
+    ],
+    "rfpTitle": "Evaluare independentă a furnizorilor",
+    "rfpLead": "K Aqua se concentrează pe verificabilitate absolută. De la materialul aprobat KTW la unitatea de producție triplu certificată ISO din Germania.",
+    "rfpList": [
+      "Zero eșecuri sistemice: Peste două decenii de experiență, control complet asupra lanțului de aprovizionare din fabrica noastră din Hesse.",
+      "Durabilitate demonstrabilă: Rezistență certificată pentru mai mult de 50 de ani (ISO 15874).",
+      "Siguranța materialelor: Fără eliberare de substanțe perfluorurate, compuși halogeni sau agenți de plastifiere (ftalați) dăunători."
+    ],
+    "dlEyebrow": "Materiale pentru Audit",
+    "dlTitle": "Totul la îndemână.",
+    "dlBundle": "Descărcați pachetul de audit K Aqua (ZIP)",
+    "dlSingle": "sau descărcați certificate individuale"
+  },
+  "partnerx": {
+    "networkEyebrow": "Rețeaua",
+    "networkTitle": "Infrastructură Puternică. Legături Puternice.",
+    "networkLead": "K Aqua PP-R stă la baza proiectelor internaționale solicitante de conducte. O infrastructură fiabilă are nevoie de parteneri puternici. KESSEL și K Aqua reprezintă un etalon (benchmark).",
+    "kesselTitle": "Parteneriat bazat pe Calitate",
+    "kesselItems": [
+      {
+        "t": "Expertiză comună",
+        "d": "Experiență vastă reunită: de la alimentare la tehnologia de scurgere."
+      },
+      {
+        "t": "Inginerie Germană",
+        "d": "Ambele companii produc în Germania cu niveluri maxime de calitate."
+      },
+      {
+        "t": "Sinergii Industriale",
+        "d": "Inovație în polimeri combinată cu procese durabile."
+      }
+    ]
+  },
+  "academyx": {
+    "infoEyebrow": "Transfer de Cunoștințe",
+    "infoTitle": "Instruire în Polimeri. Fără compromisuri.",
+    "infoLead": "K Aqua oferă cunoștințe tehnice esențiale de conducte industriale PP-R. Module de instruire, parametrii sudurii și evaluare practică (hands-on).",
+    "modulesTitle": "Curriculum",
+    "modules": [
+      {
+        "t": "Analiza Materialelor & Extrudere",
+        "d": "De la granulele PP-R până la proprietățile fizice ale țevii finite."
+      },
+      {
+        "t": "Protocol de Sudură",
+        "d": "Temperatura, presiunea, și timpii exacți de îmbinare pentru polifuziune fără erori."
+      },
+      {
+        "t": "Controlul Calității",
+        "d": "Metode de inspecție destructivă și analiză OIT/MFR din centrul nostru de excelență."
+      }
+    ]
+  },
+  "servicex": {
+    "downloadEyebrow": "Centrul de Resurse",
+    "downloadTitle": "Date tehnice. La comandă.",
+    "downloadLead": "Obțineți fișe tehnice, pachete BIM/CAD, date GAEB, și manuale de instalare PP-R direct pe dispozitivul dumneavoastră.",
+    "categories": [
+      {
+        "t": "Modele CAD & BIM",
+        "d": "Fișiere Revit și .dwg precise milimetric pentru planificarea digitală a instalațiilor dumneavoastră."
+      },
+      {
+        "t": "Fișe Tehnice de Produs",
+        "d": "Tabele de presiune/temperatură SDR, proprietăți termice și ghiduri operaționale."
+      },
+      {
+        "t": "Texte de Licitație",
+        "d": "Descrieri GAEB gata de utilizare pentru includerea directă în cerințele dumneavoastră specifice."
+      }
+    ]
+  },
+  "aboutx": {
+    "introEyebrow": "KWT & K Aqua",
+    "introTitle": "Producție Germană. Expertiză PP-R.",
+    "introLead": "Sistemele de conducte K Aqua sunt produse de KWT Kunststoff-Wasser-Technologie GmbH în centrul Germaniei. Decenii de experiență a polimerilor turnate într-un sistem industrial absolut sigur.",
+    "coreTitle": "Valori Centrale",
+    "coreItems": [
+      {
+        "t": "Producție locală",
+        "d": "Facilitatea noastră din Germania asigură lanțuri de aprovizionare scurte, inspecții riguroase și zero compromisuri."
+      },
+      {
+        "t": "Inovare în Polimeri",
+        "d": "Inginerie de top care depășește permanent specificațiile minime de siguranță."
+      },
+      {
+        "t": "Mediu & Societate",
+        "d": "Eficiența resurselor și protecția mediului sunt încorporate adânc în sistemul nostru GENAU."
+      }
+    ],
+    "mileEyebrow": "Puncte de Referință",
+    "mileTitle": "Drumul nostru până aici.",
+    "miles": [
+      {
+        "y": "Zeci de ani",
+        "t": "Experiență în producție",
+        "d": "Procesarea polimerilor pentru alimentarea cu apă: expertiză infuzată în fiecare lot de extrudare."
+      },
+      {
+        "y": "Parteneriat",
+        "t": "Colaborare strânsă cu KESSEL",
+        "d": "Legături îndelungate cu „Leading in Drainage” împărtășind o fundație de valori comună."
+      },
+      {
+        "y": "GENAU",
+        "t": "Sistem de Management in-house KWT",
+        "d": "Siguranța la locul de muncă, mediul, și managementul energetic practicate zilnic de angajați, nu doar un exercițiu de audit."
+      },
+      {
+        "y": "10/2025",
+        "t": "Certificare Triplă ISO",
+        "d": "ISO 9001, 14001, și 50001 certificate simultan: acreditat DAkkS, valid până în 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Platformă Digitală",
+        "d": "Selectorul de Produse, Calculatorul CO₂, Centrul de Încredere (Trust Center) și Academia fac din site-ul nostru o trusă de scule tehnică."
+      }
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "Din Fabrică & Știință",
+    "moreTitle": "Mai multe de la K Aqua.",
+    "moreLead": "Noutăți recente de la K Aqua. Informații detaliate de producție și de știință a materialelor, complet expandabile.",
+    "readMore": "Citiți articolul complet de specialitate K Aqua",
+    "readLess": "Restrângeți",
+    "posts": [
+      {
+        "date": "Octombrie 2025",
+        "tag": "Companie",
+        "t": "Trei audituri finalizate: ISO 9001, 14001, și 50001",
+        "teaser": "Sistemul de management ISO al KWT GmbH acoperă acum Calitatea, Mediul și Energia: Acreditat DAkkS.",
+        "body": [
+          "Începând din octombrie 2025, sistemul de management al KWT GmbH a trecut printr-un audit triplu: ISO 9001:2015 pentru calitatea generală, ISO 14001:2015 pentru mediu și ISO 50001:2018 pentru managementul energiei. Certificatele sunt emise de o firmă de certificare acreditată DAkkS și sunt valabile până în octombrie 2028.",
+          "Pentru achiziții și conformitate, acest lucru se traduce prin procese documentate, auditabile, direct de la linia de extrudare la logistica de transport. Dinamica internă de management GENAU îndeplinea anterior cu mult directivele DIN EN ISO 14001 și 50001; auditul certifică în mod fiabil aceste angajamente pe plan extern.",
+          "Ambele variante ale certificatelor (DE/EN) sunt acum disponibile; puteți compila și pachetul complet de documente de audit în cadrul Trust Center (Centrul de Încredere)."
+        ]
+      },
+      {
+        "date": "2018",
+        "tag": "Producție",
+        "t": "Marcare Continuă: Trasabilitate de la Extruder",
+        "teaser": "Fiecare țeavă K Aqua conține marcaje unice, imprimate chiar din cadrul procesului de extrudare.",
+        "body": [
+          "La capacități care se apropie de 14.000 metri de țeavă per mașină de extrudare pe zi, documentarea trasabilității este vitală. Fiecare secțiune extrudată poartă semne continue de identificare furnizând referințe clare de care depind proiectanții și inspectorii calității pe șantier.",
+          "Această marcă leagă unitatea fabricată fizic de fișierele precise ale lotului său și de testele departamentului de Asigurare a Calității (QA). Tot textul de pe secțiunile țevii poate fi urmărit complet până înapoi la laborator, servind ca un pilon definitoriu pentru Manualul nostru de Asigurare a Calității pe care auditorii îl pot recupera din Trust Center."
+        ]
+      },
+      {
+        "date": "Cunoștințe",
+        "tag": "Material",
+        "t": "De ce Polipropilenă PP-R?",
+        "teaser": "De la un produs secundar rezidual ars cu facla la conducte de apă potabilă: istoria scurtă a polipropilenei.",
+        "body": [
+          "Polipropilena provine din gaze hidrocarburice care altfel se ardeau anterior fără valoare. Utilizarea sa comercială reduce drastic poluarea atmosferică de la sursă. Ca produs tehnic avansat, plasticul este excepțional de stabil din punct de vedere chimic în contact cu substanțe caustice, solvenți sau acizi - permițând modelarea arhitecturilor complexe.",
+          "Performanța conductelor provine din diametrul lor interior: la o rugozitate de micro-formă de 0,007 mm, căderile de presiune scad la un minim, în timp ce incrustarea sau acumularea de bacterii (biofilm) devin virtual inexistente. Împreună cu reținerea termică redusă (0,24 W/(m·K)): apa caldă reține căldura optimă fără ca peretele țevii să disipeze pasiv energia de încălzire intern.",
+          "PPRCT împinge materialul într-un domeniu critic: Structura sa chimică re-echilibrată mărește constant presiunea pe termen lung și durabilitatea la temperaturi înalte de stres. SDR 7.4 tolerează o presiune uimitoare de 10 bari la niveluri continui de 70 °C, fără efort."
+        ]
+      },
+      {
+        "date": "Cunoștințe",
+        "tag": "Material",
+        "t": "Alamă întâlnește Polipropilena: Tranziții către Sisteme Existente",
+        "teaser": "Modernizarea înseamnă inevitabil tranziție: Cuplele din alamă filetat rezolvă curat și sigur această problemă.",
+        "body": [
+          "Foarte puține proiecte încep pe o suprafață complet curată, neexploatată. Rețelele de țevi de distribuție anterioare pre-formate cu oțel galvanizat, plumb sau cupru au nevoie de joncțiuni perfecte. Pentru a facilita astfel de operațiuni: unități specializate de transfer infuzate cu fire exterioare sau interioare integrate din aliaj de alamă; filetul metalic rezolvă tranzițiile în perete, în timp ce interfața PP se sudează perfect în noua ramură de conductă a sistemului dvs.",
+          "Această arhitectură avansată susține modernizări secvențiale: Segmentele metalice expuse riscului sau degradate sunt tăiate și extrase. Segmentele structurale stabile rămân intacte, dar cel mai important este că niciun agent oxidant sau flux de particule corozive din aval nu migrează în rețeaua curată recent echipată. Mecanismele de filetare ale porturilor pot fi detașate complet conform specificațiilor (precum fixările apometrelor) fără deteriorări structurale suplimentare."
+        ]
+      }
+    ],
+    "ishTitle": "Hub Industrie TGA",
+    "ishText": "Tehnologia sectorului HVAC (TGA) se expune la ISH Frankfurt, târgul comercial global principal la care partenerul nostru KESSEL prezintă progrese majore. Când programările de panel ale K Aqua sunt disponibile oficial, le puteți găsi chiar aici."
+  },
+  "contactx": {
+    "routeEyebrow": "Rutare Directă",
+    "routeTitle": "Echipa potrivită pentru solicitarea dumneavoastră.",
+    "routeLead": "Trei inboxuri (căsuțe poștale), responsabilități strict conturate: Veți primi suport expert într-o singură zi lucrătoare.",
+    "routes": [
+      {
+        "t": "Vânzări & Proiecte",
+        "d": "Cotații, termene de livrare, termeni logistici, suport tehnic pentru proiecte de la d20 la d630.",
+        "c": "info@k-aqua.de",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Calitate & Suport Tehnic",
+        "d": "Documentații de garanție de funcționare a materialelor (QA), asistență de conformitate tehnică.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Carieră & Resurse Umane",
+        "d": "Aplicații, poziții vacante, comunicare generală HR: adresați direct Andreei Nickel.",
+        "c": "andrea.nickel@k-aqua.de",
+        "href": "mailto:andrea.nickel@k-aqua.de"
+      }
+    ],
+    "factsTitle": "Parametri Importanți",
+    "facts": [
+      [
+        "Perioada de Răspuns (SLA)",
+        "Garanție clară în termen de o zi lucrătoare. Echipele noastre de cont preiau și răspund imediat solicitărilor generale de proiecte."
+      ],
+      [
+        "Unitatea Centrală de Bază",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Hessen, Germania."
+      ],
+      [
+        "Voce / Facsimil",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Comunicare multilingvă",
+        "Germană și Engleză - Domeniul digital disponibil adițional în Arabă."
+      ],
+      [
+        "Vizite Fabrica (Audituri)",
+        "Coordonarea tururilor vizuale pentru certificarea auditorilor terți necesită exclusiv pre-solicitarea prin contactele agenților de vânzări."
+      ]
+    ],
+    "mapLabel": "Harta locației cu cartierul Waldsolms, afișând instrucțiunile rutei de descărcare logistică",
+    "faqEyebrow": "Înainte de a ne contacta (FAQ)",
+    "faqTitle": "Cele mai stringente 4 Întrebări Frecvente.",
+    "faq": [
+      {
+        "q": "Ce structură compune o Specificație de Proiect / Cerere adecvată?",
+        "a": "Tipologia proiectului general, limitele min/max cerute de dimensionare structurală, aproximări complete de rutare a țevilor pe plan, codul poștal logistic regional de livrare și datele preconizate ale proiectului. Acesta conține nucleul formularului nostru, care poate fi configurat în sistem sub două minute."
+      },
+      {
+        "q": "Voi fi pus pe o listă de așteptare pentru suportul tehnic?",
+        "a": "Nu, răspunsurile intră într-un singur interval garantat de zi lucrătoare. Asistența pentru contracte este direcționată direct către inginerii de vânzări, defecțiunile/garanțiile merg echipei specializate Support."
+      },
+      {
+        "q": "Cum este structurat protocolul de Audit extern la unitatea voastră de producție?",
+        "a": "Se admit tururi de examinare complete. Echipa de cont recomandă să descărcați și să examinați digital componentele pre-formulate „RFP-Bundle” listate în Trust Center înainte de o vizită; permițând audituri în fabrică extrem de simplificate și complet eficiente din punct de vedere al resurselor."
+      },
+      {
+        "q": "Unde se află cataloagele BIM (Revit) și textul standard GAEB/Licitație?",
+        "a": "Certificate ISO standardizate și date tehnice arhivate găsite în Service & Downloads. Pachetul GAEB aprofundat, fișierele și jurnalele complete pot fi recuperate imediat din Trust Center ca flux Self-Service independent."
+      }
+    ]
+  }
+}

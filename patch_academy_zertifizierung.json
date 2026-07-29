@@ -1,0 +1,63 @@
+{
+  "bento": {
+    "items": [
+      {
+        "title": "Doživljenjska garancija",
+        "desc": "Opredeljena življenjska doba 50 let v skladu z najstrožjim standardom ISO. V arhitekturni realnosti pa so zgrajeni, da trajajo cele generacije."
+      }
+    ]
+  },
+  "certifications": {
+    "items": [
+      {
+        "title": "DVGW: Najvišja instanca",
+        "p1": "Nemško združenje za plin in vodo (DVGW) postavlja najstrožji svetovni standard za higieno pitne vode in odpornost materialov.",
+        "p2": "Naš preizkus DVGW zagotavlja, da cevni sistemi K Aqua v ekstremnih pogojih ne sproščajo strupenih snovi ali spodbujajo mikrobiološke rasti. Vsaka serija gre skozi dolgoročne hidrostatične preizkuse pri 95 °C."
+      },
+      {
+        "title": "SKZ: Neodvisen nadzor",
+        "p1": "Južnonemški center za plastiko (SKZ) deluje kot naš nepodkupljiv presojevalec. Zunanji nadzor tretje osebe zagotavlja to, kar že določajo naši notranji laboratoriji.",
+        "p2": "Testirajo se udarna žilavost, natezna trdnost in toplotno obnašanje z uporabo DSC analize (dinamična diferencialna kalorimetrija). Oznaka SKZ je dokaz mehanske popolnosti, ki daleč presega DIN EN ISO 15874."
+      },
+      {
+        "title": "KTW-BWGL: Absolutna čistost",
+        "p1": "Osnova za ocenjevanje plastike in drugih organskih materialov v stiku s pitno vodo (Zvezna agencija za okolje).",
+        "p2": "Uporabljamo izključno polipropilen visoke čistosti (PP-R / PPRCT) brez škodljivih dodatkov ali težkih kovin. Rezultat? Kakovost izvirske vode neposredno iz pipe. Brez poslabšanja vonja in okusa."
+      },
+      {
+        "title": "ISO 9001 & 14001: Sistematična odličnost",
+        "p1": "Kakovost ni naključje, temveč popolnoma ponovljiv proces. Naš certifikat ISO 9001 dokazuje celovito upravljanje kakovosti od prevzema surovin do svetovne dostave blaga.",
+        "p2": "Z ISO 14001 dokazujemo, da gresta najvišja industrijska zmogljivost in ekološka odgovornost z roko v roki. Zmanjšana poraba energije, učinkovita raba virov in 100-odstotna možnost recikliranja naših PP izdelkov."
+      }
+    ]
+  },
+  "lab": {
+    "desc": "Preden sistem K Aqua zapusti tovarno, mora skozi naš interni testni center. Visoko opremljen objekt, kjer materiale izpostavljamo pogojem, ki jih v resnici ne bodo nikoli doživeli.",
+    "items": [
+      {
+        "title": "MFR (Melt Flow Rate - Indeks pretoka taline)",
+        "desc": "Kontrola pretoka taline za zagotovitev natančne viskoznosti med ekstruzijo in pri poznejšem varjenju na gradbišču."
+      },
+      {
+        "title": "OIT (Oxidation Induction Time - Čas indukcije oksidacije)",
+        "desc": "Toplotna analiza za določitev odpornosti proti staranju. Dokaz, da naši stabilizatorji desetletja ščitijo plastiko pred degradacijo."
+      },
+      {
+        "title": "Preizkus notranjega tlaka pri polzenju",
+        "desc": "Vzorci cevi so shranjeni v posebnih vodnih kopelih pri 95 °C pod ekstremnim pritiskom na tisoče ur. Brez razpok. Brez zloma."
+      }
+    ]
+  },
+  "timeline": {
+    "items": [
+      {
+        "year": "2024",
+        "title": "Analitika kakovosti naslednje generacije",
+        "text": "Uvedba visoko avtomatiziranih testov OIT in MFR v lastnem preciznem laboratoriju. Analiza napak med ekstruzijo, podprta z umetno inteligenco, za 100-odstotno stopnjo brez napak."
+      }
+    ]
+  },
+  "cta": {
+    "desc": "Prenesite si naše uradne certifikate ali pa se o specifikacijah za vaš naslednji megaprojekt pogovorite neposredno z našo inženirsko ekipo."
+  }
+}

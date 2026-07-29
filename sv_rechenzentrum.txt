@@ -1,0 +1,100 @@
+    "rechenzentrum": {
+      "meta": {
+        "title": "Datacenterinfrastruktur | K Aqua",
+        "desc": "K Aqua Datacenter: Kompromisslös säkerhet genom German Engineering för globala megaprojekt. Upptäck lösningar för moderna datacenter."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Den termiska utmaningen med AI och HPC",
+            "desc": "Moderna High-Performance Computing (HPC) och Artificiell Intelligens (AI) rack producerar enorm värme. Enbart luftkylning når sina fysikaliska gränser. Framtiden tillhör flytande kylning (Liquid Cooling) och därmed vatten som det kritiska värmeöverföringsmediet direkt vid chipet."
+          },
+          {
+            "title": "Korrosion är fienden till drifttid",
+            "desc": "Metallrörssystem är föremål för pitting, rost och kemisk nedbrytning vid kontinuerlig drift. En mikrospricka i ett datacenter kan orsaka miljontals skador genom serveravbrott. K Aqua eliminerar denna risk genom att använda 100% korrosionsfritt Polypropen Random Copolymer (PP-R)."
+          },
+          {
+            "title": "Ultraljudssvetsade Molekylära Förbindningar",
+            "desc": "Där traditionella rör använder felbenägna tätningar eller skruvanslutningar, smälter K Aquas system samman på en molekylär nivå. Resultatet: Ett helt homogent, absolut läckagefritt rörledningsnätverk. Nolltolerans för läckor."
+          },
+          {
+            "title": "Hållbarhet & PUE Optimering",
+            "desc": "En låg PUE (Power Usage Effectiveness) är den heliga graalen för datacenteroperatörer. K Aqua rör har utmärkta termodynamiska egenskaper. Lägre rörfriktion och optimal värmeisolering minimerar energiförlusterna massivt vid cirkulation av kylvatten."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fas 1",
+            "title": "Flödessimulering & Design",
+            "text": "Våra ingenjörer analyserar datacentrets kylbehov. Vi beräknar volymflöden, eliminerar flaskhalsar och dimensionerar rörledningsnätet för maximal hydrodynamisk effektivitet."
+          },
+          {
+            "year": "Fas 2",
+            "title": "Precisions-Prefabricering",
+            "text": "I vår fabrik i Tyskland prefabriceras komplexa grenrör/fördelare exakt efter mått. Exakt på centimetern, helt automatiserat och kvalitetssäkrat under laboratorieförhållanden."
+          },
+          {
+            "year": "Fas 3",
+            "title": "Just-In-Time Logistik",
+            "text": "Megaprojekt tolererar inga leveransförseningar. Vi samordnar den globala logistiken direkt till byggarbetsplatsen, synkroniserat med huvudentreprenörernas strikta tidsschema."
+          },
+          {
+            "year": "Fas 4",
+            "title": "Homogen Svetsning",
+            "text": "Lokala installationsteam granskas av K Aquas mästersvetsare. Den molekylära svetsningen på plats garanterar en 100% läckagefri, homogen rörledningsstruktur utan svaga punkter."
+          },
+          {
+            "year": "Fas 5",
+            "title": "Trycktest & Godkännande",
+            "text": "Före överlämnandet genomförs ett obönhörligt hydrauliskt tryck- och stresstest. Först när systemet klarar dessa tester ger vi godkännandet och tar på oss hela systemgarantin."
+          }
+        ],
+        "title": "Ingenjörsprocessen",
+        "desc": "Från den hydrodynamiska skissen till det slutliga godkännandet: Hur vi förverkligar globala Hyperscale-infrastrukturer utan kompromisser och på rekordtid."
+      },
+      "hero": {
+        "eyebrow": "Hyperscale & Colocation Infrastructure",
+        "title1": "Zero-Downtime Infrastruktur.",
+        "title2": "Engineered i Tyskland.",
+        "desc": "När kylsystem utgör hjärtat i globala datacenter är materialfel inget alternativ. Upptäck den säkraste, mest effektiva och mest skalbara PP-R rörlösningen för affärskritisk kyl- och klimatteknik.",
+        "cta1": "Begär projekt",
+        "cta2": "Tekniskt Whitepaper"
+      },
+      "section1": {
+        "eyebrow": "Mission-Critical Cooling",
+        "title": "Varför klassiska rör misslyckas.",
+        "lead": "Kraven från moderna Hyperscalers och AI-kluster överskrider de fysiska gränserna för traditionella metallsystem."
+      },
+      "section2": {
+        "eyebrow": "Överlägsenheten hos PP-R",
+        "title": "Materialvetenskap för det 21:a århundradet.",
+        "lead": "Varje atomär detalj i vårt system har optimerats för absolut tillförlitlighet och hållbarhet."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Kemisk Neutralitet & Renhet",
+            "desc": "Slutna kylkretsar kräver konditioneringsmedel. K Aqua förhåller sig helt inaktivt mot aggressiva tillsatser och förhindrar helt alg- och tillväxt av biofilm. Ingen kemisk nedbrytning, inga partiklar i kylvattnet."
+          },
+          {
+            "title": "Tryckresiliens i Skyskrapor",
+            "desc": "Designad för konstanta toppbelastningar under extrema PN10 / PN20 tryckförhållanden i vertikala datacenter-skyskrapor."
+          },
+          {
+            "title": "Tysk Prefabricering",
+            "desc": "Vi försvetsar komplexa grenrör/fördelarblock i vår fabrik i Tyskland. Plug-and-play-leverans för drastiskt kortare byggtider."
+          },
+          {
+            "title": "Jordbävningssäker (Seismic Resistance)",
+            "desc": "Till skillnad från stela metallsystem har vårt PP-R-system en definierad inre elasticitet. Chockvågor och massiva vibrationer från nödgeneratorer eller stark seismisk aktivitet absorberas istället för att orsaka förödande brott."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Redo för kompromisslös säkerhet?",
+        "desc": "Anslut till vårt ingenjörsteam. Vi analyserar ditt nästa datacenter-megaprojekt och levererar framtidens infrastruktur.",
+        "button": "Boka Ingenjörssamtal"
+      }
+    }

@@ -1,0 +1,1177 @@
+{
+  "toggle_theme_light": "Yorqin mavzuga o'tish",
+  "toggle_theme_dark": "Qorong'i mavzuga o'tish",
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "finder": "Mahsulot qidirish",
+    "co2": "CO₂ kalkulyatori",
+    "markets": "Bozorlar",
+    "trust": "Ishonch markazi",
+    "contact": "Aloqa",
+    "quote": "Narx so'rash",
+    "menu": "Menyu",
+    "lang": "Til",
+    "skipToContent": "Kontentga o'tish",
+    "menuPlaceholder": "To'ldiruvchi (Mega menyu)",
+    "academy": "Akademiya",
+    "service": "Xizmat",
+    "about": "Kompaniya",
+    "solutions": "Yechimlar",
+    "partners": "Hamkorlik",
+    "references": "Loyihalar",
+    "career": "Karyera",
+    "news": "Yangiliklar",
+    "knowledge_trust": "Bilim va ishonch",
+    "mapAria": "Xaritali navigatsiyani ochish",
+    "sitemapAria": "Sayt xaritasi",
+    "pipes": "Quburlar",
+    "fittings": "Fitinglar",
+    "valves": "Ventillar",
+    "accessories": "Aksessuarlar",
+    "tools": "Asboblar"
+  },
+  "groups": {
+    "tools": "Asboblar",
+    "knowledge": "Bilim",
+    "company": "Kompaniya",
+    "products": "Mahsulotlar",
+    "markets_solutions": "Bozorlar va yechimlar",
+    "knowledge_resources": "Bilim va resurslar"
+  },
+  "pages": {
+    "co2": [
+      "CO2 kalkulyatori",
+      "K-Aqua PP-R plastik quvurlarining CO2 izini mis, zanglamaydigan po'lat va PVX bilan solishtiring. Yashil binolar uchun ISO 14040/44 bo'yicha tasdiqlangan."
+    ],
+    "solutions": [
+      "Materialning afzalliklari",
+      "Nima uchun polipropilen (PP-R/PPRCT) suv ta'minoti uchun ustun material ekanligini bilib oling. Ekologik, texnologik jihatdan ilg'or va tejamkor."
+    ],
+    "catalogOverview": "To'liq mahsulotlar katalogi",
+    "products": [
+      "Mahsulotlar va fitinglar",
+      "d20 dan d630 mm gacha bo'lgan K-Aqua'ning to'liq plastik quvurlar tizimlarini kashf eting. Uy xo'jaligi va sanoat uchun yuqori samarali PP-R va PPRCT quvurlari."
+    ],
+    "finder": [
+      "Mahsulot qidirish",
+      "Mukammal PP-R yoki PPRCT quvuri, fiting yoki valfni darhol toping. Katalogimizni o'lcham, bosim klassi va devor qalinligi bo'yicha jonli filtrlang."
+    ],
+    "finderGuideText": "<h2>K-Aqua quvurlar tizimlari uchun interaktiv mahsulot qidirish</h2><p>Maxsus quvur o'rnatish uchun aynan mos keladigan qismni aniqlash uchun bizning innovatsion mahsulot qidiruvchimizdan foydalaning. Ichimlik suvi o'rnatish uchun standart PP-R quvurlarini, talabchan sanoat tizimlari uchun tolali mustahkamlangan PPRCT quvurlarini yoki maxsus o'tish fitinglari va klapanlarni qidiryapsizmi - bizning vositamiz butun katalogni real vaqt rejimida filtrlaydi. Mahsulotni qidirish sizga diametr (d20 dan d630 gacha), bosim klassi (SDR klassi) va material bo'yicha tanlashda yordam beradi.</p><p>Yaxshi tuzilgan quvurlar tizimi aniq rejalashtirishni va quvurlar, fitinglar (muftalar, tirsaklar va troyniklar kabi) va tegishli aksessuarlarning aniq kombinatsiyasini talab qiladi. Bizning mahsulot qidiruvchimiz statik PDF kataloglarida vaqt talab qiladigan qidiruvlarni bartaraf qiladi va o'rniga mahsulot raqamlari, qadoqlash birliklari va texnik shartlar bo'yicha darhol, ishonchli ma'lumotlarni taqdim etadi. Bir necha marta bosish orqali siz materiallar ro'yxatini tuzishingiz va isitish, sovutish va ichimlik suvi tizimlari uchun turli komponentlarning mosligini ta'minlashingiz mumkin. Bu nafaqat rejalashtirish jarayonini optimallashtiradi, balki keyingi qurilish loyihangiz uchun materiallarga buyurtma berishda xatoliklarni kamaytiradi.</p>",
+    "academy": [
+      "K-Aqua akademiyasi: PP-R payvandlash texnikasi va tajriba",
+      "PP-R plastik quvurlarini professional payvandlash texnikasini o'rganing. Video darsliklarni tomosha qiling va bizning Payvandlash ustasi testidan o'ting."
+    ],
+    "trust": [
+      "Ishonch markazi",
+      "K-Aqua sifat hujjatlariga kiring. Loyihangiz uchun ISO sertifikatlari, GENAU tizimi va audit hujjatlarini yuklab oling."
+    ],
+    "service": [
+      "Xizmat va yuklab olish markazi",
+      "Rasmiy K-Aqua mahsulot kataloglarini, texnik ma'lumotlarni va PP-R hamda PPRCT plastik quvurlari tizimlari bo'yicha o'rnatish ko'rsatmalarini yuklab oling."
+    ],
+    "partner": [
+      "KESSEL hamkorligi",
+      "K-Aqua va KESSEL uzoq yillik hamkorlik bilan bog'langan bo'lib, nemis ishlab chiqarish standartlarini drenajdan suv ta'minotiga o'tkazadi."
+    ],
+    "markets": [
+      "Bozorlar va joylashuvlar",
+      "K-Aqua 27 dan ortiq mamlakatlarga PP-R quvurlari tizimlarini yetkazib beradi. Mahalliy standartlar, suv profillari va logistika ma'lumotlari uchun bizning interaktiv dunyo xaritamizdan foydalaning."
+    ],
+    "references": [
+      "Loyiha namunalari",
+      "K-Aqua PP-R quvur tizimlari bilan butun dunyo bo'ylab loyihalarni kashf eting. Bizning interaktiv 3D globusimiz maishiy, tijorat va sanoat obyektlarini namoyish etadi."
+    ],
+    "about": [
+      "KWT GmbH haqida",
+      "KWT GmbH K-Aqua premium quvurlar tizimini ishlab chiqarish uchun o'n yillik tajribaga ega. Eng yuqori sifat va innovatsiyalar uchun nemis muhandisligi."
+    ],
+    "career": [
+      "K-Aqua da karyera",
+      "Waldsolmsdagi jamoamizning bir qismiga aylaning. Soliqsiz nafaqalaringizni sof qiymatini hisoblang va K-Aqua sizga mos kelishini 60 soniyada bilib oling."
+    ],
+    "news": [
+      "Yangiliklar va xabarlar | K-Aqua kompaniyasi yangiliklari",
+      "K-Aqua innovatsiyalari, mahsulotlari, ko'rgazmalari va uch marta ISO sertifikatlangan ishlab chiqarish majburiyatlarimizdan xabardor bo'ling."
+    ],
+    "contact": [
+      "Aloqa, savdo va qo'llab-quvvatlash",
+      "Savdo bo'yicha savollar, qo'llab-quvvatlash yoki hamkorlik uchun K-Aqua ekspert jamoasiga murojaat qiling. Global B2B mijozlari uchun tezkor javob vaqtlari."
+    ],
+    "rfq": [
+      "Loyiha so'rovi",
+      "Keyingi quvur loyihangiz uchun to'rt oddiy bosqichda majburiyatsiz narx so'rang. Bizning savdo guruhimiz 24 soat ichida siz bilan bog'lanadi."
+    ],
+    "home": [
+      "PP-R va PPRCT quvur tizimlari",
+      "K-Aqua ichimlik suvi va sanoat ilovalari uchun yuqori darajadagi PP-R va PPRCT plastik quvurlari tizimlarini ishlab chiqaradi. Global loyihalar uchun nemis muhandisligi."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Maxfiylik siyosati",
+        "GDPR qoidalariga muvofiq K-Aqua veb-sayti uchun keng qamrovli maxfiylik siyosati."
+      ],
+      "impressum": [
+        "Imprint va huquqiy ma'lumotlar",
+        "K-Aqua ishlab chiqaruvchisi KWT GmbH korporativ yuridik ma'lumotlari va huquqiy manbalar."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Sinalgan sifat",
+      "title1": "Ushbu ",
+      "titleHighlight": "GENAU",
+      "title2": " boshqaruv tizimi",
+      "p1": "GENAU boshqaruv tizimining maqsadi korxonada mehnat, atrof-muhit va sog'liqni saqlashni doimiy ravishda yaxshilashdir.",
+      "p2": "KWT dagi barcha korporativ faoliyatlar resurslarni tejash, ekologik moslik va barcha majburiyatlarga qat'iy rioya etishni hisobga olgan holda amalga oshiriladi. Amaldagi GENAU menejmenti quyidagi yuqori talablarga javob beradi ",
+      "p3": " va ",
+      "list1Title": "Ekologik javobgarlik",
+      "list1Desc": "Atrof-muhitni muhofaza qilish - bu KWT GmbH ning barcha xodimlari rioya etadigan sifat tushunchamizning bir qismidir.",
+      "list2Title": "Energiya samaradorligi",
+      "list2Desc": "Xavflarni maqsadli aniqlash va energiya samaradorligini optimallashtirish bo'yicha chora-tadbirlarni amalga oshirish."
+    },
+    "pipes": [
+      "Quvurlar va tizimlar",
+      "Maishiy va sanoat ehtiyojlari uchun yuqori unumdor PP-R va PP-RCT quvurlari. Keyingi loyihangiz uchun barcha SDR toifalari va o'lchamlarini kashf eting."
+    ],
+    "fittings": [
+      "Qismlar va fitinglar",
+      "Barcha K-Aqua quvur tizimlari uchun to'liq fitinglar to'plami. Polifuziya uchun burchaklar, troyniklar, reduktorlar va muftalarni kashf eting."
+    ],
+    "valves": [
+      "Armaturalar va klapanlar",
+      "Quvur tarmoqlari uchun premium armaturalar va aksessuarlar. Yuqori sifatli sharli klapanlar, yashirin klapanlar, burchakli uvali klapanlar va orqaga qaytish klapanlari."
+    ],
+    "tools": [
+      "Asboblar va aksessuarlar",
+      "PP-R o'rnatish uchun professional payvandlash asboblari va aksessuarlar. Payvandlash mashinalari, quvur kesgichlar va maxsus asboblarni kashf eting."
+    ],
+    "transition-fittings": [
+      "O'tish qismlari",
+      "Xavfsiz ulanishlar uchun ishonchli o'tish qismlari. Rezbali yoki flanetsli ulanishlari bo'lgan guruchli o'tish qismlarini kashf eting."
+    ]
+  },
+  "home": {
+    "chip": "2025 yil oktyabr oyidan beri tasdiqlangan",
+    "h1a": "Peshaqadam",
+    "h1b": "K-Aqua PP-R quvur tizimlari",
+    "globeAria": "Interaktiv globus, aylantirish uchun torting",
+    "scrolly": [
+      {
+        "t": "Germaniyada ishlab chiqarilgan",
+        "d": "Waldsolms shahrida ishlab chiqilgan va tayyorlangan har bir quvur va har bir qism."
+      },
+      {
+        "t": "d20 dan d630 gacha",
+        "d": "To'liq tizim: beshta bosim darajasi, fitinglar, klapanlar va payvandlash texnologiyasi."
+      },
+      {
+        "t": "Uch marta tekshirilgan",
+        "d": "ISO 9001, 14001 va 50001: bitta boshqaruv tizimidan sifat, atrof-muhit va energiya."
+      },
+      {
+        "t": "Dunyo bo'ylab 27 bozor",
+        "d": "Frankfurtdan NEOMgacha: mahalliy standartlar va suv profillari bo'yicha sinovdan o'tgan."
+      }
+    ],
+    "lead": "K-Aqua KESSEL premium ishlab chiqaruvchisi bilan hamkorlikda 20 dan 630 mm gacha bo'lgan ichimlik suvi uchun PP-R va PP-RCT quvur tizimlarini ishlab chiqadi va ishlab chiqaradi.",
+    "ctaProducts": "Mahsulot tizimini kashf eting",
+    "ctaContact": "Aloqaga chiqing",
+    "toolsEyebrow": "Interaktiv asboblar",
+    "toolsTitle1": "Hech qanday quruq matn emas.",
+    "toolsTitle2": "Asboblar.",
+    "toolsLead": "Sayt siz uchun ishlaydi: filtrlash, hisoblash, o'rganish.",
+    "bandTitle": "Suv ta'minotining keyingi avlodiga tayyormisiz?",
+    "bandLead": "Loyiha bo'yicha rejalashtirishdan tortib to payvandlash texnologiyasigacha bo'lgan masalalarni bizning savdo guruhimiz bilan muhokama qiling.",
+    "bandBtn": "Loyiha so'rovini boshlash",
+    "bandBtn2": "Yuklab olishlar va xizmatlar"
+  },
+  "geo": {
+    "eyebrow": "Bozorlar va joylashuvlar",
+    "title1": "Bozorlarga boy",
+    "title2": "dunyo.",
+    "lead": "PP-R quvur tizimlari uchun K-Aqua joylashuvlarini kashf eting: {c} mamlakatdagi {n} bozor, ularning har biri standartlar, suv profili, foydalanish holatlari va logistika uchun o'ziga xos ochilish sahifasiga ega. Dunyoni ushlang va uni erkin aylantiring; ro'yxat sizni to'g'ri shaharga olib boradi.",
+    "all": "Barchasi",
+    "cityTitle": "{city} da PP-R/PPRCT quvur tizimlari.",
+    "cityLead": "d20-d630 ichimlik suvi tizimlari, mahalliy talablarga qarshi sinovdan o'tgan.",
+    "allMarkets": "Barcha bozorlar",
+    "request": "Loyihani so'rash",
+    "finder": "Mahsulot qidirish",
+    "fromPlant": "Waldsolms zavodidan km",
+    "regFrame": "Tartibga solish doirasi",
+    "water": "Suv profili va material javobi",
+    "title": "Hududiy mavjudlik & Loyihalar.",
+    "subtitle": "K-Aqua PP-R va PP-RCT quvur tizimlari butun dunyo bo'ylab suv ta'minoti va isitish tarmoqlarida muvaffaqiyatli qo'llaniladi. Hududingizdagi texnik xususiyatlar, loyihalar va bog'lanish uchun mutaxassislarni ko'ring.",
+    "cta": "Bozorlarni ko'rish",
+    "mapTitle": "Bozorlar xaritasi",
+    "mapSubtitle": "Mintaqangizni tanlang",
+    "hubLink": "Mintaqa ma'lumotlari",
+    "typical": "{city} shahridagi odatiy loyihalar",
+    "onSite": "Joyida o'rnatish",
+    "onSiteText": "Akademiyamizda sizning jamoangiz uchun payvandlash bo'yicha ko'rsatmalar va video hujjatlar.",
+    "toAcademy": "Akademiyaga o'tish",
+    "nearbyEyebrow": "Yaqin atrofdagi bozorlar",
+    "nearby": "Yaqin atrofda.",
+    "prodNote": "Ishlab chiqarish eslatmasi: Ushbu sahifalar Programmatic-SEO-shabloniga (Ma'lumotlar kesimi: Mahsulot × Tartibga solish × Hudud) mos keladi. Next.js da ular Headless CMS dan ISR orqali yaratiladi, jumladan hreflang, Product-/Offer-Schema va semantik ichki havolalar.",
+    "km": "km",
+    "seoExpansion": "K-Aqua Waldsolmsda dunyodagi binolar va tizim muhandisligining eng yuqori talablari uchun PP-R va PPRCT quvur tizimlarini ishlab chiqaradi. Murosasiz nemis muhandisligi va eng zamonaviy ishlab chiqarish texnologiyasi sharofati bilan bizning tizimlarimiz o'nlab yillar davomida texnik xizmat ko'rsatmaydigan operatsion xavfsizlikni kafolatlaydi. D20 dan d630 gacha bo'lgan har bir mahsulot qattiq sifat nazoratidan o'tadi va DVGW, KIWA va SKZ kabi xalqaro standartlarga javob beradi. Biz nafaqat ichimlik suvi, sovutish va sanoat uchun birinchi darajali materiallarni taklif etamiz, balki rejalashtiruvchilar va o'rnatuvchilarga keng qamrovli texnik yordam va joyida treninglar o'tkazamiz. Favqulodda chidamlilik, korroziyasizlik va mutlaq gigiena bilan ajralib turadigan tizimga ishoning.",
+    "seoExpansionDynamic": "{city} shahridagi PP-R va PPRCT yechimlarimiz haqida ko'proq bilib oling. Biz mahalliy standartlarga javob beramiz ({regulator}) va suv sifati ({water}) uchun optimal tizimlarni taklif etamiz. Qo'shimcha eslatma: {note}.",
+    "cityMetaTitle": "{city} da PP-R quvur tizimlari",
+    "hubMetaTitle": "{country} uchun PP-R quvur tizimlari",
+    "hubH1": "{country} uchun infratuzilma yechimlari",
+    "hubLead": "K-Aqua {country} uchun sertifikatlangan PP-R va PP-RCT infratuzilma yechimlarini taklif etadi. Quvur tizimlarimiz eng yuqori xalqaro standartlarga javob beradi va {country} dagi o'ziga xos qiyinchiliklar uchun optimallashtirilgan.",
+    "hubContextTitle": "Hududiy kontekst: {context}",
+    "hubContextBody": "Bizning Germaniyada ishlab chiqarilgan K-Aqua PP-R/PP-RCT quvur tizimlari {country} uchun barqaror infratuzilma yechimlarini taqdim etadi. Ular mahalliy infratuzilma qiyinchiliklarini bartaraf etish uchun maxsus ishlab chiqilgan.",
+    "hubCitiesTitle": "Mahalliy joylashuvlar va namunaviy shaharlar",
+    "hubs": {
+      "deutschland": {
+        "description": "K-Aqua'ning asosiy bozori sifatida Germaniya qurilish sifati va uzoq umr ko'rish borasida eng yuqori talablarni qo'yadi. Bizning <span class=\"font-semibold\">PP-R va PP-RCT quvur tizimlarimiz</span> Germaniyaning ichimlik suvi va isitish infratuzilmasidagi zarur yangilanish ehtiyojlarini samarali va barqaror qoplaydi. Korroziyasiz, DVGW tomonidan sertifikatlangan materiallar orqali biz texnik xizmat ko'rsatish xarajatlarini kamaytiramiz va o'nlab yillar davomida shahar, tijorat va xususiy yirik loyihalarda maksimal tizim gigiyenasini ta'minlaymiz.",
+        "metaDesc": "Germaniya uchun sertifikatlangan PP-R/PP-RCT quvur tizimlari. Ichimlik suvi va isitish infratuzilmasini yangilash uchun nemis muhandisligi."
+      },
+      "oesterreich": {
+        "description": "Avstriyada murakkab relyef va qat'iy atrof-muhit qoidalari murosasiz infratuzilma yechimlarini talab qiladi. Bizning <span class=\"font-semibold\">K-Aqua quvur tizimlarimiz</span> Alp mintaqalarida uzoq muddatli suv va markaziy isitish tarmoqlari uchun yuqori sifatni taklif etadi. ÖVGW tomonidan tasdiqlangan xavfsizlik va ajoyib issiqlik izolyatsiyasi bilan bizning PP-R va PP-RCT quvurlarimiz hatto Alp tog'larining eng ekstremal iqlim sharoitida ham sovuqqa va bosimga chidamli ishlashni kafolatlaydi.",
+        "metaDesc": "Avstriya uchun yuqori sifatli PP-R/PP-RCT quvur tizimlari. Alp tog'laridagi suv va markazlashtirilgan isitish tarmoqlari uchun sovuq va bosimga chidamli yechimlar."
+      },
+      "schweiz": {
+        "description": "Shveytsariya aniqlik, barqarorlik va eng yuqori sifat standartlari bilan sinonimdir. <span class=\"font-semibold\">K-Aqua'ning PP-R va PP-RCT tizimlari</span> yuqori sifatli materiallar va SVGW tomonidan sertifikatlangan oziq-ovqat xavfsizligi orqali ushbu talablarga javob beradi. To'liq qayta ishlanadigan, oqim optimallashtirilgan plastik quvurlarimiz butun Shveytsariya bo'ylab istiqbolli Minergie qurilish loyihalari uchun energiya tejovchi sanitariya va iqlimlashtirish texnologiyalarini imkon beradi.",
+        "metaDesc": "Shveytsariya uchun birinchi darajali PP-R/PP-RCT quvur tizimlari. Barqaror Minergie qurilish loyihalari uchun SVGW tomonidan sertifikatlangan, qayta ishlanadigan plastik quvurlar."
+      },
+      "uae": {
+        "description": "Birlashgan Arab Amirliklarining ekstremal iqlim sharoitida suv eng qimmatli resursdir. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT quvur tizimlari</span> chuchuklashtirilgan dengiz suvidan (teskari osmos) foydalanilganda ham korroziya va kalsifikatsiyadan yakuniy himoyani taklif qiladi. Bizning ultrabinafsha nurlari va issiqlikka chidamli yuqori samarali quvurlarimiz Dubay va Abu-Dabining ulkan loyihalari va osmono'par binolarida barqaror suv ta'minotini ta'minlaydi.",
+        "metaDesc": "BAA uchun ultrabinafsha nurlari va issiqlikka chidamli PP-R/PP-RCT quvur tizimlari. Cho'l iqlimlarida korroziya va kalsifikatsiyaga qarshi maksimal himoya."
+      },
+      "ksa": {
+        "description": "2030-yilgi reja doirasida Saudiya Arabistoni o'zining butun infratuzilmasini o'zgartirmoqda. <span class=\"font-semibold\">K-Aqua buning uchun muhim suv infratuzilmasini taqdim etadi</span>. Katta kalibrli PP-RCT quvurlarimiz NEOM kabi yangi aqlli shaharlarda xavfsiz, oqishsiz va samarali suv taqsimotini ta'minlaydi. Xalqaro standartlarga muvofiq sertifikatlangan holda biz juda yuqori muhit haroratida ham uzluksiz ishlashni kafolatlaymiz.",
+        "metaDesc": "Saudiya Arabistoni uchun katta kalibrli PP-RCT quvur tizimlari. 2030-yilgi reja va NEOM kabi mega loyihalar uchun ishonchli suv infratuzilmasi."
+      },
+      "singapur": {
+        "description": "Osiyodagi aholi eng zich joylashgan yuqori texnologiyali shahar-davlatlardan biri sifatida Singapur yuqori samarali va joyni tejaydigan qurilish texnologiyasiga muhtoj. <span class=\"font-semibold\">K-Aqua'ning innovatsion quvur tizimlari</span> bosimning yo'qotilishini keskin kamaytirish va optimal issiqlik xususiyatlari orqali Singapurning yashil binolar bo'yicha istiqbolli maqsadlarini qo'llab-quvvatlaydi. Osmono'par binolarni sovutishdan (chilled water) tortib to o'ta toza ichimlik suvi ta'minotigacha biz Osiyoda standartlarni o'rnatamiz.",
+        "metaDesc": "Singapurning yashil binolari uchun samarali PP-R/PP-RCT quvurlari. Sovutilgan suv va ultra toza ichimlik suvi ta'minoti uchun maxsus tizimlar."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua suv ta'minoti sohasida yetakchi. Waldsolmsdagi KWT GmbH tomonidan ishlab chiqarilgan ichimlik suvi uchun PP-R/PP-RCT quvur tizimlari.",
+    "colTools": "Mahsulotlar va asboblar",
+    "colCompany": "Kompaniya",
+    "colContact": "Aloqa",
+    "directions": "Joylashuv va yo'nalishlar",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "imprint": "Imprint (Nashr haqida)",
+    "privacy": "Maxfiylik siyosati",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Germaniya",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Loyiha bo'yicha murojaat qilish",
+    "badges": [
+      {
+        "t": "SKZ sertifikati",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R quvur standartlari"
+      },
+      {
+        "t": "Barqarorlik",
+        "s": "Ekologik toza"
+      },
+      {
+        "t": "GENAU-tizimi",
+        "s": "Birlashgan boshqaruv"
+      },
+      {
+        "t": "Germaniyada ishlab chiqarilgan",
+        "s": "Waldsolmsdagi ishlab chiqarish"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Coday veb-dizayni",
+        "Coday Web Agency loyihasi",
+        "Coday Web Agency",
+        "Coday tomonidan raqamlashtirilgan"
+      ],
+      "srDesc": "Ushbu veb-sayt Hessen shahridagi veb-dizayn va GEO bo'yicha mutaxassislar bo'lgan Coday Web Agency tomonidan ishlab chiqilgan va texnik jihatdan amalga oshirilgan.",
+      "linkTitle": "Coday Web Agency - Premium veb-dizayniga o'tish"
+    }
+  },
+  "regions": {
+    "dach": "DACH (Germaniya, Avstriya, Shveytsariya)",
+    "europa": "Yevropa",
+    "nahost": "Yaqin va O'rta Sharq",
+    "global": "Afrika va Osiyo-Tinch okeani"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "Dasturdagi maksimal quvur o'lchami"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Bosim darajalari: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Sifat, atrof-muhit va energiya tekshirilgan"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Ishlab chiqarish chiqindilari qayta ishlanadi"
+      }
+    ],
+    "heroBadgeLabel": "Quvur o'lchamlari, SDR 6 dan SDR 17 gacha",
+    "marquee": [
+      "Suv ta'minotida yetakchi",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Waldsolmsda ishlab chiqarilgan",
+      "100 % qayta ishlash",
+      "Hamkor: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Mahsulot qidirish",
+        "d": "170+ mahsulot variantlarini jonli filtrlash: O'lcham, SDR, devor qalinligi darhol.",
+        "cta": "Hozir filtrlash"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂ kalkulyatori",
+        "d": "Loyihangizni mis, zanglamaydigan po'lat va PVX bilan taqqoslang, daraxtlar va avtomobil kilometrlarida.",
+        "cta": "Hozir hisoblash"
+      },
+      {
+        "id": "academy",
+        "t": "Akademiya + Viktorina",
+        "d": "Videoda to'rtta payvandlash usuli, so'ngra payvandlash ustasi viktorinasi.",
+        "cta": "Usta bo'lish"
+      },
+      {
+        "id": "references",
+        "t": "Loyiha globusi",
+        "d": "Sayyorani aylantiring, loyihalarni kashf eting: Waldsolmsdan Singapurgacha.",
+        "cta": "Globusni aylantirish"
+      },
+      {
+        "id": "trust",
+        "t": "Ishonch markazi",
+        "d": "Sertifikatlarni tekshiring va RFP hujjatlar paketini o'zingiz tuzing.",
+        "cta": "Paket tuzish"
+      },
+      {
+        "id": "career",
+        "t": "Foyda kalkulyatori",
+        "d": "Soliqsiz qo'shimchalar qancha sof foyda keltiradi, shuningdek, 60 soniyalik Culture Match.",
+        "cta": "Sof foydani tekshirish"
+      }
+    ],
+    "vsEyebrow": "Farq",
+    "vsTitle": "Sanoat standarti vs. K-Aqua raqamli.",
+    "vsBadTitle": "Sanoat shunday qiladi",
+    "vsGoodTitle": "K-Aqua shunday qiladi",
+    "vsBad": [
+      "Qidiruvsiz 220 sahifalik PDF kataloglari",
+      "Sertifikatlar faqat yozma so'rov bo'yicha",
+      "Texnik ma'lumotlar jadvallar cho'lida",
+      "Karyera sahifasi: pochta qutisi"
+    ],
+    "vsGood": [
+      "Mahsulot qidirish: soniyalarda filtrlash",
+      "Ishonch markazi: O'z-o'ziga xizmat sifatida yuklab olishlar",
+      "CO₂ kalkulyatori ma'lumotlarni dalilga aylantiradi",
+      "Foyda kalkulyatori + Culture Match"
+    ],
+    "coEyebrow": "Kompaniya",
+    "coTitle1": "Qurilish materiallari yetkazib beruvchisi va ishlab chiqaruvchisi:",
+    "coTitle2": "bitta manbadan.",
+    "coLead": "KWT GmbH suv ta'minoti uchun turli plastmassalardan quvurlar va fitinglar ishlab chiqaradi va o'zini qurilish zanjirida ham yetkazib beruvchi, ham ishlab chiqaruvchi sifatida ko'rsatadi.",
+    "kesselTitle": "KESSEL bilan kuchli hamkorlik",
+    "kesselText": "Premium ishlab chiqaruvchi KESSEL bilan, \"Drenajda yetakchi\", bizni yaqin, uzoq muddatli hamkorlik bog'laydi. Biz o'n yillik bu tajribani kelajakka olib o'tamiz.",
+    "kesselCta": "Hamkorlik haqida ko'proq",
+    "worldTitle": "Butun dunyo bo'ylab isbotlangan",
+    "worldText": "K-Aqua mahsulotlari o'nlab yillar davomida butun dunyo bo'ylab loyihalarda son-sanoqsiz marta o'zini isbotlagan.",
+    "worldCta": "Loyiha globusi",
+    "cards": [
+      {
+        "t": "GENAU boshqaruv tizimi",
+        "d": "DIN EN ISO 14001 va 50001 bo'yicha mehnat, atrof-muhit va sog'liqni saqlashni doimiy takomillashtirish."
+      },
+      {
+        "t": "Germaniyada ishlab chiqarilgan",
+        "d": "Waldsolmsda ishlab chiqish va ishlab chiqarish: Sifat, xarajatlar va muddatlar har doim uyg'unlikda."
+      },
+      {
+        "t": "Ekologik javobgarlik",
+        "d": "Resurslarni tejash va atrof-muhitga moslik bizning sifat tushunchamizning ajralmas qismidir."
+      }
+    ],
+    "manifestTitle": "Bizning missiyamiz",
+    "manifestText": "Suv bizning eng qimmatli resursimizdir. Biz uni istiqbolli quvur tizimlari bilan himoya qilamiz.",
+    "grEyebrow": "Global qamrov",
+    "grTitle1": "Xalqaro",
+    "grTitle2": "savdo yo'llari",
+    "grLead": "Germaniyadan dunyoga: Bizning K-Aqua quvur tizimlarimiz dunyodagi eng zamonaviy mega loyihalarning asosidir. Saudiya Arabistonidagi NEOMdan tortib, Singapurdagi o'ta murakkab sanoat obyektlarigacha.",
+    "grHqLabel": "Bosh ofis va ishlab chiqarish",
+    "grHqValue": "Germaniya (Frankfurt)",
+    "grExportLabel": "Eksport asosiy bozorlari",
+    "grExportValue": "Saudiya Arabistoni (NEOM), BAA, Qatar, Lotin Amerikasi",
+    "grCta": "Dunyodagi loyihalarni kashf eting"
+  },
+  "solutions": {
+    "eyebrow": "Yechimlar",
+    "title1": "Murakkab loyihalar uchun",
+    "titleGrad": "nemislarning",
+    "title2": "muhandislik ishlari.",
+    "lead": "Sanoat bozorlaridan tortib to mega loyihalargacha: K Aqua ning quvur tizimlari har bir soha uchun moslashtirilgan xavfsizlik va mukammallikni taklif etadi.",
+    "nextEyebrow": "Oldinga o'ylash",
+    "nextTitle": "Rejalashtirishingiz qanchalik iqlimga mos?",
+    "nextLead": "O'lcham va uzunlikni to'g'ridan-to'g'ri CO₂ kalkulyatoriga o'tkazing va uni mis, zanglamaydigan po'lat va PVX bilan taqqoslang.",
+    "nextCta": "CO₂ kalkulyatoriga",
+    "benefits": [
+      {
+        "t": "Ekologik toza",
+        "d": "Polipropilen ilgari foydasiz yondirilgan gazlardan hosil bo'ladi va shuning uchun havo ifloslanishini keskin kamaytiradi. Ishlab chiqarish suvdan yopiq sovutish davrida foydalanadi va daryolar, soylar va ko'llarni himoya qiladi."
+      },
+      {
+        "t": "Qayta ishlanishi mumkin",
+        "d": "PP \"5\" qayta ishlash kodiga ega va uni turiga ko'ra saralash mumkin. PP-qayta ishlangan mahsulotlarga yuqori talab bo'lgan holda, barcha ishlab chiqarish chiqindilarini qayta ishlaymiz."
+      },
+      {
+        "t": "Ustun",
+        "d": "Texnik plastmassa sifatida PP erituvchilar, ishqorlar va kislotalarga g'ayrioddiy chidamli bo'lib, inyeksion kalıplamada arzon narxlarda va yuqori hajmlarda murakkab geometriyalarni hosil qiladi."
+      },
+      {
+        "t": "Uzoq umr ko'ruvchi",
+        "d": "PP mahsulotlari solishtirma materiallardan ancha uzoqroq xizmat qiladi: tozalash oson, aşınmaya bardoshli, qarish va haroratning haddan tashqari ko'tarilishiga chidamli."
+      }
+    ],
+    "krankenhaus": {
+      "meta": {
+        "title": "Kasalxonalar va sog'liqni saqlash muassasalari | K Aqua",
+        "desc": "K Aqua quvur tizimlari shifoxonalar va sog'liqni saqlash muassasalari uchun mukammal gigiyena, xavfsizlik va chidamlilikni ta'minlaydi."
+      },
+      "hero": {
+        "eyebrow": "KASALXONALAR VA SOG'LIQNI SAQLASH",
+        "title1": "Klinik",
+        "title2": "mukammallik.",
+        "desc": "Shifoxonalar va tibbiy muassasalardagi quvurlar tizimi uchun xavfsizlik va gigiyena bo'yicha murosasiz yondashuv. K-Aqua quvurlari toza ichimlik suvi va barqaror operatsion ishonchlilikni ta'minlaydi.",
+        "cta1": "Klinik xususiyatlarni ko'rish",
+        "cta2": "Sog'liqni saqlash loyihasi uchun so'rov"
+      }
+    },
+    "hotels": {
+      "meta": {
+        "title": "Mehmonxonalar va dam olish maskanlari | K Aqua",
+        "desc": "K Aqua quvurlari mehmonxonalar uchun barqaror va jim ishlash, shuningdek, suv sifati va ishonchliligini ta'minlaydi."
+      },
+      "hero": {
+        "eyebrow": "MEHMONXONALAR VA DAM OLISH MASKANLARI",
+        "title1": "Yuqori darajadagi mehmonlar uchun",
+        "title2": "yuqori sifat.",
+        "desc": "Besh yulduzli kurortlardan tortib to shahar markazidagi mehmonxonalargacha. Biz shovqinsiz va muammosiz suv ta'minotini ta'minlab, misli ko'rilmagan qulaylikni yaratamiz.",
+        "cta1": "Loyihani rejalashtirish",
+        "cta2": "Mehmonxona yechimlari bilan tanishish"
+      }
+    },
+    "vorfertigung": {
+      "meta": {
+        "title": "Oldindan ishlab chiqarish | K Aqua",
+        "desc": "K Aqua oldindan ishlab chiqarish xizmati bilan vaqtni tejang va sifatni ta'minlang."
+      },
+      "hero": {
+        "eyebrow": "OLDINDAN ISHLAB CHIQARISH VA YIG'ISH",
+        "title1": "Vaqtni tejaydigan",
+        "title2": "aniqlik.",
+        "desc": "Fabrikamızda yig'ilgan komponentlar orqali qurilish vaqtini qisqartiring va montaj xatolarini minimal darajaga tushiring. Eng yuqori aniqlikdagi texnologiya.",
+        "cta1": "Ishlab chiqarish jarayoni",
+        "cta2": "Maslahat olish"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Ko'p qavatli binolar | K Aqua",
+        "desc": "K Aqua tizimlari ko'p qavatli binolar uchun yuqori bosim va o'zgaruvchan haroratga bardosh beradigan xavfsiz quvurlar."
+      },
+      "hero": {
+        "eyebrow": "KO'P QAVATLI BINOLAR VA MINORALAR",
+        "title1": "Vertikal",
+        "title2": "barqarorlik.",
+        "desc": "Osmono'par binolarda suv bosimi va haroratning o'zgarishi alohida qiyinchiliklarni tug'diradi. Biz ekstremal sharoitlarda ishlash uchun mustahkam PP-R quvurlarini taklif etamiz.",
+        "cta1": "Arxitektura yechimlari",
+        "cta2": "Muhandislar bilan bog'lanish"
+      }
+    },
+    "index": {
+      "bento": {
+        "header": {
+          "title": "Ilovalar vektorlari.",
+          "desc": "Maxsus sanoat va qurilish tarmoqlari uchun kengaytiriladigan tizim yechimlari."
+        },
+        "items": [
+          {
+            "title": "Ichimlik suvi gigiyenasi va sanitariya",
+            "desc": "Mutlaq oziq-ovqat xavfsizligi va toksikologik zararsizlik. Xira, shaffof bo'lmagan material dizayni orqali legionella shakllanishining oldini olish."
+          },
+          {
+            "title": "HVAC va iqlim texnologiyasi",
+            "desc": "Past issiqlik o'tkazuvchanligi tufayli yuqori samarali issiqlik izolyatsiyasi. Sovutish suvi quvurlarida kondensatsiyani minimallashtirish."
+          },
+          {
+            "title": "Siqilgan havo tarmoqlari",
+            "desc": "Haddan tashqari ish bosimlarida oqishsiz uzatish. Siqilgan havoning zang yoki qotib qolgan zarralar bilan ifloslanishi yo'q."
+          },
+          {
+            "title": "Kemasozlik va ofshor",
+            "desc": "Tuzli muhitlarga va kuchli tebranishlarga chidamli. Po'lat o'rnatish bilan solishtirganda og'irlikni sezilarli darajada kamaytirish."
+          },
+          {
+            "title": "Sanoat suyuqliklarini tashish",
+            "desc": "Agressiv kimyoviy moddalar, abraziv loy yoki yuqori toza texnologik suyuqliklarni tashishda murosasiz ishlash. K-AQUA tizimi uzluksiz, xavfsiz ishlab chiqarishni kafolatlaydi."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Yillik kafolatlangan xizmat muddati",
+          "desc": "Standart ish sharoitlarida (20°C / 10 bar) K-AQUA PPR tizimlarining ishlash muddati materialning jiddiy buzilishisiz yarim asrdan osongina oshadi."
+        },
+        "1": {
+          "label": "W/mK issiqlik o'tkazuvchanligi",
+          "desc": "Mis (380 W/mK) yoki po'lat (50 W/mK) bilan solishtirganda, K-AQUA tabiiy ravishda izolyatsiya qiladi, ya'ni tashqi izolyatsiya va energiya yo'qotilishida katta tejash degani."
+        },
+        "2": {
+          "label": "Gomogen birikmalar",
+          "desc": "Molekulyar payvandlash mutlaqo choksiz tizimni yaratadi. Quvur va fiting yagona ajralmas qismga birlashtiriladi."
+        },
+        "title": "Muhandislik raqamlarda."
+      },
+      "cta": {
+        "eyebrow": "LOYIHANI BOSHLASH",
+        "title1": "KEYINGI O'LCHAMGA",
+        "title2": "TAYYORMISIZ.",
+        "desc": "Spetsifikatsiyalaringiz va muammolaringizni batafsil texnik baholash uchun muhandislarimiz bilan bog'laning.",
+        "button1": "Muhandislar guruhi bilan bog'lanish",
+        "button2": "Xususiyatlarni ko'rish"
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Bosqich 01",
+            "title": "Tarkibiy tahlil",
+            "text": "Termodinamik va suyuqlik dinamik talablarini baholash. Muhandislarimiz tomonidan bosim darajalarini, chiziqli issiqlik kengayishini va gidravlik qarshiliklarni aniq hisoblash."
+          },
+          {
+            "year": "Bosqich 02",
+            "title": "Materialning xususiyatlari",
+            "text": "Optimal PPR sopolimerini tanlash. Sanoat ilovalarining o'ziga xos yuk profillariga devor qalinligi va o'lchamlarini (20 mm dan 160 mm gacha) muvofiqlashtirish."
+          },
+          {
+            "year": "Bosqich 03",
+            "title": "Tizimli sintez",
+            "text": "Qattiq nazorat qilinadigan issiqlik parametrlari ostida polifuzion payvandlash. Muhrlar yoki mexanik zaif tomonlarsiz monolit tarmoq yaratish."
+          },
+          {
+            "year": "Bosqich 04",
+            "title": "Operatsion mukammallik",
+            "text": "O'n yillik texnik xizmat ko'rsatmasdan ishlash. Inert yuzalar qatlamlanishining oldini oladi, molekulyar zichlik esa maksimal energiya samaradorligida oqmasligini kafolatlaydi."
+          }
+        ],
+        "title": "JARAYON ARXITEKTURASI",
+        "desc": "Matematik hisob-kitobdan abadiy operatsion ishonchlilikka qadar. K-AQUA o'rnatishning hayot aylanishi qat'iy muhandislik protokollariga amal qiladi."
+      },
+      "hero": {
+        "eyebrow": "SANOAT VA QURILISH YECHIMLARI",
+        "title1": "ABADANLIK UCHUN",
+        "title2": "TIZIM ARXITEKTURASI.",
+        "desc": "PP-R materiallarining afzalliklari va K-Aqua dan yuqori unumdor polimer tizimlarimizning jismoniy ustunligini kashf eting. Ekstremal sharoitlarda ishlab chiqilgan, murosasiz nemis muhandisligi tomonidan tasdiqlangan. Ushbu tizim arxitekturasi abadiy xizmat qilish uchun mo'ljallangan.",
+        "cta": "Aloqa"
+      },
+      "intro": {
+        "title": "An'anaviy yuk chegaralaridan tashqari.",
+        "p1": "Metall quvurlar tizimlari korroziya, qatlamlanish va issiqlik moddiy charchoqlariga taslim bo'lgan joyda K-AQUA ning operatsion spektri boshlanadi. Polipropilen tasodifiy sopolimer (PPR) infratuzilmamiz suyuqlik transportining jismoniy chegaralarini qayta belgilaydi.",
+        "p2": "Tizimimizning har bir millimetri o'nlab yillik materialshunoslik izlanishlari natijasidir. Biz shunchaki quvurlarni etkazib bermaymiz; biz uzilishlarga toqat qilmaydigan tizimlar uchun benuqson, monolitik qon tomirlarini tatbiq etamiz. Arktika sovuqidan tortib, qaynayotgan sanoat jarayonlarigacha, K-AQUA muhandislikning ekstremal muammolariga me'moriy javobdir."
+      }
+    },
+    "core": {
+      "meta": {
+        "title": "Asosiy yechimlar | K Aqua",
+        "desc": "K Aqua Asosiy yechimlari: Talabchan muhitlar uchun murosasiz muhandislik. Murakkab loyihalar va qiyinchiliklar uchun innovatsion yechimlarni kashf eting."
+      },
+      "hero": {
+        "eyebrow": "Murosasiz muhandislik",
+        "title1": "Murakkab tizimlar uchun.",
+        "title2": "Xatoliklarga yo'l qo'yilmaydigan muhitlar.",
+        "desc": "Biz faqatgina quvur sotmaymiz. Biz har qanday bosim, harorat va kimyoviy stressga chidaydigan zamonaviy infratuzilma tizimlarini loyihalashtiramiz.",
+        "cta1": "Texnik xususiyatlarni ko'rish",
+        "cta2": "Muhandislar jamoasi bilan bog'lanish"
+      },
+      "bento1": {
+        "eyebrow": "MATERIAL FANLARI",
+        "title": "Chegaralarni qayta belgilash.",
+        "lead": "PPR va PPRCT oddiy polimerlar emas. Ular termodinamika va suyuqliklar mexanikasi yillar davomida olib borgan tadqiqotlarining natijasidir.",
+        "items": [
+          {
+            "title": "Ichimlik suvi gigiyenasi",
+            "desc": "Zararsiz va kimyoviy jihatdan barqaror. K-AQUA tizimlari eng qattiq xalqaro ichimlik suvi standartlaridan (DVGW, KIWA) o'tgan bo'lib, mutlaqo toza va sog'lom suv ta'minotini kafolatlaydi."
+          },
+          {
+            "title": "Kemalar qurilishi va dengiz",
+            "desc": "Tuzli muhitlarga va kuchli tebranishlarga chidamli. Po'lat konstruktsiyalar bilan solishtirganda sezilarli darajada vaznni kamaytirish."
+          },
+          {
+            "title": "Sanoat suyuqliklarini tashish",
+            "desc": "Agressiv kimyoviy moddalar, abraziv loy yoki yuqori toza jarayon suyuqliklarini tashishda murosasiz ishlash. K-AQUA tizimi uzluksiz, xavfsiz ishlab chiqarishni kafolatlaydi."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Yillik kafolatlangan ishlash muddati",
+          "desc": "Standart ish sharoitlarida (20°C / 10 bar) K-AQUA PPR tizimlarining xizmat qilish muddati materialning sezilarli darajada buzilishisiz yarim asrdan osongina oshadi."
+        },
+        "1": {
+          "label": "W/mK issiqlik o'tkazuvchanligi",
+          "desc": "Mis (380 W/mK) yoki po'lat (50 W/mK) bilan solishtirganda K-AQUA o'z-o'zidan izolyatsiya qiladi, bu tashqi izolyatsiya va energiya yo'qotishlarida katta tejamkorlikni anglatadi."
+        },
+        "2": {
+          "label": "Bir xil ulanishlar",
+          "desc": "Molekulyar payvandlash orqali mutlaqo choksiz tizim yaratiladi. Quvur va fiting bitta, ajralmas qismga birlashadi."
+        },
+        "title": "Muhandislik san'ati raqamlarda."
+      },
+      "cta": {
+        "eyebrow": "LOYIHANI BOSHLASH",
+        "title1": "KEYINGI BOSQICHGA",
+        "title2": "TAYYORMISIZ.",
+        "desc": "Sizning texnik xususiyatlaringiz va qiyinchiliklaringizni batafsil texnik baholash uchun muhandislarimizga murojaat qiling.",
+        "button1": "Muhandislar jamoasi bilan bog'lanish",
+        "button2": "Texnik xususiyatlarni ko'rish"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Ma'lumotlar markazlari infratuzilmasi | K Aqua",
+        "desc": "K Aqua ma'lumotlar markazlari: Global mega loyihalar uchun nemis muhandisligi orqali murosasiz xavfsizlik. Zamonaviy ma'lumotlar markazlari uchun yechimlarni kashf eting."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "AI va HPC ning issiqlik muammosi",
+            "desc": "Zamonaviy Yuqori Unumdor Hisoblash (HPC) va Sun'iy Intellekt (AI) stoykalari katta miqdorda issiqlik ishlab chiqaradi. Havo bilan sovutish o'zining jismoniy chegaralariga yetib bordi. Kelajak suyuqlik bilan sovutishga tegishli va shuning uchun suv bevosita chipda muhim issiqlik tashuvchisi hisoblanadi."
+          },
+          {
+            "title": "Korroziya mavjudlikning dushmanidir",
+            "desc": "Metall quvurlar tizimlari uzluksiz ishlashda chuqurlashish, zang va kimyoviy parchalanishga uchraydi. Ma'lumotlar markazidagi mikro yoriq serverning ishdan chiqishi orqali millionlab zarar yetkazishi mumkin. K Aqua buni 100% korroziyasiz Polipropilen Tasodifiy Kopolimeri (PP-R) orqali yo'q qiladi."
+          },
+          {
+            "title": "Ultratovushli payvandlangan molekulyar ulanishlar",
+            "desc": "An'anaviy quvurlar xatoga moyil bo'lgan muhrlar yoki burama ulanishlarga tayansa-da, K Aqua tizimlari molekulyar darajada birlashadi. Natija: Butunlay bir xil, mutlaqo oqishsiz quvurlar tarmog'i. Oqishlar uchun nol tolerantlik."
+          },
+          {
+            "title": "Barqarorlik va PUE optimallashtirish",
+            "desc": "Past PUE (Quvvatdan Foydalanish Samaradorligi) ko'rsatkichi ma'lumotlar markazi operatorlarining Muqaddas Grali hisoblanadi. K Aqua quvurlari mukammal termodinamik xususiyatlarga ega. Quvurlardagi ishqalanish yo'qotishlarining kamayishi va optimal issiqlik izolyatsiyasi sovutish suvining aylanishidagi energiya yo'qotishlarini keskin kamaytiradi."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "1-bosqich",
+            "title": "Oqim simulyatsiyasi va dizayn",
+            "text": "Bizning muhandislarimiz ma'lumotlar markazining sovutish talablarini tahlil qiladilar. Biz hajm oqimlarini hisoblaymiz, to'siqlarni olib tashlaymiz va maksimal gidrodinamik samaradorlik uchun quvurlar tarmog'ini o'lchaymiz."
+          },
+          {
+            "year": "2-bosqich",
+            "title": "Aniq yig'ma qismlar",
+            "text": "Germaniyadagi bosh zavodda murakkab tarqatuvchi g'altaklar o'lchamiga qarab oldindan ishlab chiqariladi. Santimetrgacha aniqlikda, to'liq avtomatlashtirilgan va laboratoriya sharoitida sifati ta'minlangan."
+          },
+          {
+            "year": "3-bosqich",
+            "title": "O'z vaqtida logistika",
+            "text": "Mega loyihalar yetkazib berishdagi kechikishlarni kechirmaydi. Biz bosh pudratchilarning qat'iy jadvaliga moslashtirilgan holda, to'g'ridan-to'g'ri qurilish maydoniga global logistikani muvofiqlashtiramiz."
+          },
+          {
+            "year": "4-bosqich",
+            "title": "Bir xil payvandlash",
+            "text": "Mahalliy o'rnatish guruhlari K Aqua usta payvandchilari tomonidan sinovdan o'tkaziladi. Qurilish maydonidagi molekulyar payvandlash zaif nuqtalarsiz 100% oqishsiz, bir xil chiziq tuzilishini kafolatlaydi."
+          },
+          {
+            "year": "5-bosqich",
+            "title": "Bosim sinovi va tekshirish",
+            "text": "Topshtirishdan oldin shafqatsiz gidravlik bosim va yuk sinovi o'tkaziladi. Tizim ushbu sinovlardan o'tgandan keyingina biz tasdiqlaymiz va tizim uchun to'liq kafolatni o'z zimmamizga olamiz."
+          }
+        ],
+        "title": "Muhandislik jarayoni",
+        "desc": "Gidrodinamik eskizdan yakuniy qabul qilishgacha: Qanday qilib biz global giperskeyl infratuzilmalarini murosasiz va rekord vaqt ichida amalga oshiramiz."
+      },
+      "hero": {
+        "eyebrow": "Giperskeyl va birgalikda joylashish infratuzilmasi",
+        "title1": "Nol ishlamay qolish infratuzilmasi.",
+        "title2": "Germaniyada ishlab chiqilgan.",
+        "desc": "Sovutish tizimlari global ma'lumotlar markazlarining qalbini tashkil qilganda, materiallarning ishdan chiqishi qabul qilinishi mumkin emas. Biznes uchun muhim bo'lgan sovutish va iqlimlashtirish texnologiyasi uchun eng xavfsiz, eng samarali va kengaytiriladigan PP-R quvurlari yechimini kashf eting.",
+        "cta1": "Loyihani so'rash",
+        "cta2": "Texnik oq qog'oz"
+      },
+      "section1": {
+        "eyebrow": "Missiya uchun muhim sovutish",
+        "title": "Nega klassik quvurlar muvaffaqiyatsizlikka uchraydi.",
+        "lead": "Zamonaviy giperskeylerlar va sun'iy intellekt klasterlarining talablari an'anaviy metall tizimlarining fizik chegaralaridan oshib ketadi."
+      },
+      "section2": {
+        "eyebrow": "PP-R ning ustunligi",
+        "title": "21-asr uchun materialshunoslik.",
+        "lead": "Tizimimizning har bir atom detali mutlaq ishonchlilik va chidamlilik uchun optimallashtirilgan."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Kimyoviy neytrallik va soflik",
+            "desc": "Yopiq sovutish davrlari konditsionerlarni talab qiladi. K Aqua tajovuzkor qo'shimchalarga nisbatan butunlay inert bo'lib, suv o'tlari va biofilm shakllanishining to'liq oldini oladi. Kimyoviy parchalanish yo'q, sovutish suvida zarrachalar yo'q."
+          },
+          {
+            "title": "Ko'p qavatli binolarda bosimga chidamlilik",
+            "desc": "Vertikal ko'p qavatli ma'lumotlar markazlarida ekstremal PN10 / PN20 bosim sharoitida doimiy maksimal yuklar uchun mo'ljallangan."
+          },
+          {
+            "title": "Nemis tayyor qismlari",
+            "desc": "Biz Germaniyadagi bosh zavodimizda murakkab tarqatuvchi bloklarni oldindan payvandlaymiz. Qurilish vaqtini keskin qisqartirish uchun Plug-and-Play (ulan va ishlat) yetkazib berish."
+          },
+          {
+            "title": "Zilzilaga chidamli (Seysmik chidamlilik)",
+            "desc": "Qattiq metall tizimlardan farqli o'laroq, bizning PP-R tizimimiz belgilangan ichki elastiklikka ega. Favqulodda generatorlar yoki kuchli seysmik harakatlar natijasida yuzaga keladigan zarba to'lqinlari va kuchli tebranishlar vayron qiluvchi yoriqlar hosil qilish o'rniga so'riladi."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Murosasiz xavfsizlikka tayyormisiz?",
+        "desc": "Bizning muhandislik guruhimiz bilan bog'laning. Biz keyingi ma'lumotlar markazi mega loyihangizni tahlil qilamiz va kelajak infratuzilmasini taqdim etamiz.",
+        "button": "Muhandislik uchrashuvini belgilash"
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Xizmat",
+    "title1": "Mijozlarga xizmat va",
+    "titleGrad": "Nou-xau.",
+    "lead": "Bizning mijozlarga xizmat ko'rsatish va nou-xau sizga yuklab olish uchun texnik hujjatlarni va barcha payvandlash jarayonlari uchun bosqichma-bosqich videolarni taqdim etadi.",
+    "dlEyebrow": "Yuklab olishlar",
+    "dlTitle": "Texnik hujjatlar",
+    "downloads": [
+      {
+        "t": "K Aqua Mahsulot dasturi",
+        "s": "O'lchamlar va maqolalar bilan to'liq katalog"
+      },
+      {
+        "t": "K Aqua Mahsulot xususiyatlari",
+        "s": "Texnik xususiyatlar va materiallar ma'lumotlari"
+      },
+      {
+        "t": "K Aqua Sifat kafolati",
+        "s": "Sinov usullari va sifat standartlari"
+      }
+    ],
+    "vidEyebrow": "O'rnatish",
+    "vidTitle": "Videoda payvandlash jarayoni",
+    "vidLead": "To'rtta jarayon, to'rtta video, to'g'ridan-to'g'ri amaliyotdan.",
+    "videos": [
+      {
+        "t": "Qo'lda payvandlash uskunasi bilan muftali payvandlash",
+        "s": "PP-R/PPRCT Quvur va fiting"
+      },
+      {
+        "t": "Payvandlash mashinasi bilan muftali payvandlash",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Elektr payvandlash (Electrofusion)",
+        "s": "PP-R/PPRCT Quvur va fiting"
+      },
+      {
+        "t": "Tugma payvandlash (Butt Fusion)",
+        "s": "PP-R/PPRCT Katta o'lchamlar"
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "K Aqua PP-R va PPRCT quvurlar tizimi Germaniyaning Waldsolms shahridagi KWT GmbH tomonidan eng yuqori aniqlik bilan ishlab chiqariladi. Bizning impressum mijozlarimiz va biznes hamkorlarimizga korporativ tuzilmamiz, qonuniy vakillarimiz va barcha tegishli tijorat reestri ma'lumotlari haqida to'liq shaffoflikni taklif etadi. Biz ochiq muloqotga va milliy hamda xalqaro biznesdagi barcha huquqiy talablarga rioya qilishga katta ahamiyat beramiz. Veb-saytlarimizda taqdim etilgan ma'lumotlar doimiy ravishda tekshiriladi va yangilanadi, shunda siz har doim bizning plastik quvurlar tizimimiz haqida to'g'ri texnik va tijorat ma'lumotlariga ega bo'lasiz.",
+      "impressum2": "Ichimlik suvi, isitish va sovutish tizimlari hamda yuqori murakkablikdagi sanoat ilovalari uchun yuqori sifatli plastik quvurlar yechimlarining global ishlab chiqaruvchisi sifatida biz barcha huquqiy va me'yoriy standartlarga qat'iy rioya qilishga majburmiz. Bunga ma'lumotlarni himoya qilish, adolatli raqobat shartlari va xalqaro savdo ko'rsatmalari kiradi. Biroq, taqdim etilgan ma'lumotlar va gidravlik hisoblash uchun dasturiy vositalarning dolzarbligi, to'g'riligi va to'liqligi uchun javobgarlik yoki kafolatni o'z zimmamizga olmaymiz. K Aqua veb-saytlarining mazmuni va tuzilishi mualliflik huquqi bilan himoyalangan. Ma'lumotlarni, texnik ma'lumotlar varaqlarini yoki o'rnatish ko'rsatmalarini ko'paytirish uchun oldindan ruxsat olinishi kerak.",
+      "kontakt1": "Sizda PP-R/PPRCT quvurlarimiz haqida texnik savollaringiz bormi yoki xalqaro loyiha bo'yicha yordam kerakmi? Valdsolmsdagi K Aqua aloqa guruhi sizga yordam berishdan mamnun bo'ladi.",
+      "kontakt2": "Izometrik hisob-kitoblar bo'ladimi, joyida payvandlash bo'yicha mashg'ulotlarmi yoki tijorat so'rovlari bo'ladimi: loyihangiz muvaffaqiyatini ta'minlash uchun muhandislarimiz va savdo vakillarimiz zudlik bilan javob berishadi.",
+      "projektanfrage1": "Innovatsion qurilish loyihasini rejalashtiryapsizmi? K Aqua PP-R va PPRCT quvurlar tizimi bo'yicha loyiha so'rovingizni bizga yuboring. Valdsolmsdagi texnik bo'limimiz yirik inshootlarni loyihalash va o'lchashga ixtisoslashgan. Bunga talabchan ko'p qavatli binolar, gigiyenik jihatdan sezgir kasalxonalar, keng tarqalgan markaziy sovutish tarmoqlari va murakkab sanoat sovutish va isitish tizimlari kiradi. Polimer muhandisligidagi o'n yillik tajribamiz tufayli biz zamonaviy binolarning infratuzilmasiga qo'yiladigan o'ziga xos gidravlik va termal talablarni tushunamiz. K Aqua bilan siz nafaqat mahsulotni, balki yaxlit tizimli yechimni ham tanlaysiz.",
+      "projektanfrage2": "Detaillashgan loyiha xususiyatlarini, P&ID rejalarini yoki izometriyalarini bizga taqdim etishingiz bilanoq, bizning mutaxassis muhandislarimiz chuqur tahlil qilishni boshlaydilar. Biz sizga murakkab bosim yo'qotilishini hisoblash, chiziqli issiqlik kengayishini aniqlash va mahkamlangan va bo'sh tayanchlarni aniq joylashtirishda yordam beramiz. Shuningdek, biz aniq materiallar ro'yxatini (Bill of Materials) yaratamiz va yirik metall komponentlarga ulanish uchun moslashtirilgan o'tish fitinglarini loyihalashtiramiz. Bizning maqsadimiz nasoslaringizning energiya sarfini minimallashtiradigan va 50 yildan ortiq texnik xizmat ko'rsatmaydigan xizmat muddatini kafolatlaydigan gidravlik jihatdan mukammal muvozanatli quvurlar tarmog'ini loyihalashdir.",
+      "projektanfrage3": "Ehtiyotkorlik va ishonchlilik bizning asosiy ustuvorligimizdir. Har bir loyiha so'rovi qat'iy maxfiy tutiladi va faqat malakali nemis muhandislar guruhimiz tomonidan qayta ishlanadi. Shuningdek, biz butun dunyo bo'ylab logistikani muvofiqlashtiramiz va yuqori sifatli quvurlarimiz va armaturalarimiz qurilish maydonchangizga o'z vaqtida va zararsiz etib kelishini ta'minlaymiz. Bundan tashqari, o'rnatish Germaniya muhandisligining texnik xususiyatlariga muvofiq bajarilishini ta'minlash uchun bizning sertifikatlangan o'qituvchilarimiz tomonidan joyida payvandlash treninglarini taklif qilamiz. K Aqua bilan siz barcha quvurlar tizimining maksimal samaradorligini, mutlaq sızdırmazlığını va uzoq umr ko'rishini ta'minlaysiz.",
+      "news1": "K Aqua'dan so'nggi yangiliklardan xabardor bo'ling. Biz muntazam ravishda yangi PP-R/PPRCT mahsulotlarini ishlab chiqish, xalqaro savdo yarmarkalari va global mega loyihalar bo'yicha yangilanishlarni e'lon qilamiz.",
+      "news2": "Bizning yangiliklar bo'limimiz, shuningdek, muftali payvandlashdagi texnik innovatsiyalar, polipropilen random kopolimeridagi materialshunoslik yutuqlari va Valdsolmsdagi zavodimizdagi barqarorlik tashabbuslari haqida ma'lumot beradi."
+    },
+    "eyebrow": "Biz haqimizda",
+    "title1": "Tajriba - sizning",
+    "titleGrad": "afzalligingiz.",
+    "lead": "Yangi strategiyalar, o'sib borayotgan bilim: K-Aqua ishlab chiqaruvchisi sifatida KWT GmbH o'n yillik ishlab chiqarish tajribasini kelajakka aniq qarash bilan birlashtiradi.",
+    "h2": "K Aqua: suv ta'minotida yetakchi",
+    "p1": "KWT GmbH ning faoliyat sohasi turli plastmassalardan suv ta'minoti uchun quvurlar va armatura ishlab chiqarishdir. Shu tariqa kompaniya o'zini qurilish zanjirida qurilish materiallari yetkazib beruvchi va ishlab chiqaruvchi sifatida ko'rsatadi.",
+    "p2": "Premium ishlab chiqaruvchi KESSEL, „Drenajda yetakchi“ bilan yaqin va uzoq muddatli hamkorlik mavjud. Ushbu o'n yillik tajriba bilan biz muvaffaqiyatimizni kelajakka olib boramiz.",
+    "polEyebrow": "Kompaniya siyosati",
+    "polTitle": "Foyda o'zaro ta'sirdan kelib chiqadi.",
+    "polLead": "Xodimlar foydasisiz mijozlar foydasi bo'lmaydi, kompaniya foydasisiz xodimlar foydasi bo'lmaydi va atrof-muhit va boshqa mavjudotlar uchun foydasiz kompaniya foydasi bo'lmaydi.",
+    "cards": [
+      {
+        "t": "Odamlarga e'tibor",
+        "d": "Barcha xodimlar doimiy takomillashtirish jarayonida ishtirok etadilar. Sifat har doim xarajatlar va muddatlarga mos keladi."
+      },
+      {
+        "t": "Ishonchlilik",
+        "d": "Mijozlar va barcha manfaatdor tomonlarning istaklari e'tirof etiladi, jiddiy qabul qilinadi va huquqiy va ijtimoiy standartlarga muvofiq amalga oshiriladi."
+      },
+      {
+        "t": "Ekologik javobgarlik",
+        "d": "Barcha biznes tadbirlari resurslarni tejash, atrof-muhitga moslik va barcha majburiyatlarga qat'iy rioya qilishni hisobga olgan holda amalga oshiriladi."
+      }
+    ],
+    "genauEyebrow": "GENAU boshqaruv tizimi",
+    "genauTitle": "Diqqat bilan qarang. Aniq yaxshilang.",
+    "genauLead": "GENAU boshqaruv tizimi KWT uyiga integratsiya qilingan va shuning uchun bizning falsafamizning markaziy elementi hisoblanadi.",
+    "points": [
+      "Kasbiy, atrof-muhit va sog'liqni saqlashni doimiy ravishda takomillashtirish",
+      "Energiya samaradorligini optimallashtirish",
+      "Oldini olish, doimiy xavfni aniqlash va xavflarni baholash",
+      "Har bir xodim xavf-xatarlar haqida xabar berishga va faol ishtirok etishga majburdir"
+    ],
+    "certTitle": "standartga muvofiq sinovdan o'tgan",
+    "certText": "Amaldagi GENAU boshqaruvi 2025 yil oktyabr oyidan beri ISO 9001:2015 bilan to'ldirilgan DIN EN ISO 14001 va 50001 talablariga javob beradi.",
+    "meta": {
+      "title": "KWT GmbH haqida: quvur ishlab chiqarish bo'yicha mutaxassislar",
+      "desc": "Valdsolmsdagi KWT GmbH nemis muhandisligini zamonaviy ishlab chiqarish bilan birlashtiradi. Biz uch marta ISO sertifikatiga ega K-Aqua PP-R quvurlar tizimlarini ishlab chiqaramiz."
+    },
+    "hero": {
+      "eyebrow": "K Aqua Doktrinasi",
+      "title1": "Nemis muhandisligi.",
+      "title2": "Murosasiz.",
+      "desc": "Biz hech qanday murosaga bormaymiz. Biz PP-R quvurlari tizimlari uchun global standartni aniqlaymiz. Nemis muhandisligining epitsentriga xush kelibsiz."
+    },
+    "intro": {
+      "title1": "BIZ FAQAT SUVNI O'TKAZMAYMIZ.",
+      "title2": "BIZ UNI NAZORAT QILAMIZ.",
+      "desc": "30 yildan ortiq vaqt davomida biz abadiy qurilgan quvur tizimlarini ishlab chiqaramiz. Xatolarga o'rin yo'q. O'rtamiyonalikka o'rin yo'q. Faqat har bir armaturada o'zini namoyon qiladigan sof, tinimsiz aniqlik."
+    },
+    "material": {
+      "eyebrow": "Materialshunoslik",
+      "title1": "Polipropilen Random Kopolimeri.",
+      "title2": "Ochib berildi.",
+      "p1": "PP-R Typ 3 shunchaki plastmassa emas. Bu biz molekulyar darajada nazorat qiladigan yuqori murakkab, termoplastik materialdir.",
+      "p2": "Propilen zanjirida etilen monomerlarini strategik joylashtirish orqali, hatto noldan past haroratlarda ham misli ko'rilmagan zarba kuchiga erishamiz. Bizning granulalarimiz faqatgina xomashyo ishlab chiqaruvchilarining global elitasidan keladi. Biz har bir partiyani DSC va MFR sinovlari orqali tahlil qilamiz. Bizning xususiyatlarimizga ozgina ham to'g'ri kelmaydigan narsalar shafqatsizlarcha yo'q qilinadi.",
+      "items": [
+        {
+          "title": "Ekstremal Molyar Massa",
+          "desc": "Maksimal o'rmalanish kuchi va haddan tashqari bosim ostida kuchlanish korroziyasining yorilishiga mutlaq qarshilik kafolatlanadi."
+        },
+        {
+          "title": "Kristalli optimallashtirish",
+          "desc": "Mukammal termodinamik muvozanat. Bir vaqtning o'zida eksenel qattiqlik bilan radikal o'rnatish sharoitlari uchun yuqori moslashuvchanlik."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Mukammallik evolyutsiyasi",
+      "desc": "Global bozor qudratiga to'xtovsiz ko'tarilish. Har bir o'n yillik - texnologik ustunlikning muhim bosqichidir.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Murosasizlikning kelib chiqishi",
+          "text": "Boshqalar murosa qilgan joyda biz qizil chiziq tortdik. K Aqua ning asosi bitta qat'iy tamoyilga asoslangan: Mukammal quvur tizimlari. Bizning birinchi ekstruderlarimiz bozorni hayratda qoldiradigan aniqlik bilan ishladi."
+        },
+        {
+          "year": "2005",
+          "title": "Polipropilen inqilobi",
+          "text": "Biz status-kvoni qabul qilishdan bosh tortdik. Bizning xususiy PP-R aralashmamizni joriy etish bilan biz issiqlik barqarorligini qayta ta'rifladik. Raqobatchilar mahsulotlari bosim ostida qulab tushganda, bizning tizimlarimiz mustahkam bo'lib qoldi. Polimer kimyosining g'alabasi."
+        },
+        {
+          "year": "2015",
+          "title": "Arxitektura simbiozi",
+          "text": "Dubaydagi osmono'par binolardan tortib Rur havzasidagi sanoat obyektlarigacha: K Aqua buzilmas infratuzilmaning sinonimiga aylandi. Bizning PPRCT shisha tolali kompozit quvurlarimiz binolar qurilishida inqilob qildi. Kamroq kengayish, ko'proq oqim, mutlaq hukmronlik."
+        },
+        {
+          "year": "2026",
+          "title": "Molekulyar diktatura",
+          "text": "Bugungi kunda biz ishlab chiqarishning har bir jihatini nazorat qilamiz. Xom granulalarni tanlashdan tortib yakuniy tekshiruvgacha, bizning tizimlarimiz qat'iy sifat rejimiga bo'ysunadi. Natijami? Avlodlarga xizmat qiladigan kafolatlangan hayot davri."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FIZIKANI YENGISH",
+      "title": "Hukmronlikning to'rtta ustuni.",
+      "lead": "Sehrga yaqinlashadigan texnologiya. Biz an'anaviy quvur tizimlarining cheklovlarini nafaqat yengib o'tdik, balki ularni parchalab tashladik.",
+      "items": [
+        {
+          "title": "Sifatda mutlaqiyat",
+          "desc": "Bizning PP-R va PPRCT tizimlarining har bir millimetri eng shafqatsiz stress sinovlaridan o'tadi. 50 yillik xizmat muddati shunchaki va'da emas, balki matematik ishonchdir. Biz hech qanday og'ishga toqat qilmaymiz. Bizning zallarimizdan chiqayotgan narsa polimer shaklidagi mukammallikdir."
+        },
+        {
+          "title": "Issiqlik daxlsizligi",
+          "desc": "Bizning shisha tolali kompozit quvurlarimiz (K Aqua tolasi) termal chiziqli kengayishni deyarli to'liq neytrallaydi. Qahraton -20°C yoki qaynayotgan +95°C bo'ladimi, tizimlarimiz shaklini mutlaqo saqlab qoladi. Fizika qonunlariga zid bo'lib ko'ringan muhandislik mo'jizasi."
+        },
+        {
+          "title": "Kimyoviy qarshilik",
+          "desc": "Korroziya bizning lug'atimizda yo'q. Bizning polimerlarimiz eng agressiv muhitlarga, inkrustatsiyaga va biologik degradatsiyaga qarshi immunitetga ega. Metallar er ostida zanglab, parchalanib ketayotganda, K Aqua daxlsiz qoladi: barqaror, monolitik, buzilmas."
+        },
+        {
+          "title": "Molekulyar termoyadroviy",
+          "desc": "Bizning bir xil payvandlash jarayonimiz orqali quvur va fiting molekulyar darajada erib, ajralmas birlikka aylanadi. Charchashi mumkin bo'lgan muhrlar yo'q. Mexanik zaif tomonlar yo'q. Abadiy davom etadigan monolit struktura."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "SANOAT HUKMRONLIGI",
+      "title": "Steroidlardagi infratuzilma.",
+      "lead": "Biz shunchaki quvurlar ishlab chiqarmaymiz. Biz zamonaviy sivilizatsiyaning qon tomirlarini yaratamiz. K Aqua butun dunyo bo'ylab sanoat va me'moriy mega loyihalarning asosidir.",
+      "items": [
+        {
+          "title": "Kuchli ekstruziya",
+          "desc": "Shafqatsiz bosim ostida ishlaydigan yuqori unumdorlik tizimlari. Natijada mikrometr oralig'igacha misli ko'rilmagan devor qalinligi mustahkamligi olinadi."
+        },
+        {
+          "title": "Tasdiqlangan ustunlik",
+          "desc": "ISO 9001, 14001, 50001. Biz standartlardan nafaqat oshib o'tamiz, balki ularni o'zimiz belgilaymiz. Xalqaro akkreditatsiya mutlaq standart sifatida."
+        },
+        {
+          "title": "Gigiyena qoidalari",
+          "desc": "Oziq-ovqat xavfsizligi, toksikologik jihatdan zararsiz va mutlaqo mikroblarga chidamli. K Aqua tizimlarida ichimlik suvi tegmasdan, toza qoladi. Istisnosiz."
+        },
+        {
+          "title": "Resurs samaradorligi",
+          "desc": "To'liq qayta ishlanishi mumkin. Ishlab chiqarish jarayonida minimal CO2 izi. Chunki haqiqiy texnologik kuch doimo kelajak uchun javobgarlikni anglatadi."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Kompaniya siyosati",
+      "title": "Harakatlarimiz poydevori.",
+      "desc": "Faqat texnologiya yetarli emas. Haqiqiy buyuklik kompaniyaning o'z atrof-muhiti, xodimlari va sheriklari bilan qanday munosabatda bo'lishida namoyon bo'ladi.",
+      "items": [
+        {
+          "title": "Mijozlarga bo'lgan e'tibor",
+          "desc": "Biz bozorlarga shunchaki xizmat qilmaymiz, radikal mijozlarga e'tibor qaratish orqali ularda hukmronlik qilamiz. Sizning talablaringiz - bizning buyrug'imizdir. Bizning yechimlarimiz aniq, kengaytiriladigan va ijro etishda mutlaqo murosasizdir."
+        },
+        {
+          "title": "Strategik ittifoqlar",
+          "desc": "Biz yetkazib beruvchilarni qidirmaymiz, sayyoramizdagi eng yaxshi xom ashyo ishlab chiqaruvchilari bilan strategik ittifoq tuzamiz. Birgalikda tadqiqotlar, birgalikda sifat standartlari, birgalikda hukmronlik."
+        },
+        {
+          "title": "Ekologik majburiyat",
+          "desc": "Barqarorlik K Aqua uchun shunchaki marketing shiori emas, balki jismoniy majburiyatdir. Uzoq umr ko'rish atrof-muhitni muhofaza qilishning yakuniy ko'rinishidir. Bizning tizimlarimiz ishlab chiqarishdan tortib qayta ishlashgacha bo'lgan energiya izini minimallashtiradi."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Tasdiqlangan sifat",
+      "title1": "",
+      "titleHighlight": "GENAU",
+      "title2": " boshqaruv tizimi",
+      "p1": "GENAU boshqaruv tizimining maqsadi kompaniyada mehnat, atrof-muhit va sog'liqni saqlashni doimiy takomillashtirishdir.",
+      "p2": "KWT dagi barcha biznes tadbirlari resurslarni tejash, atrof-muhitga moslik va barcha majburiyatlarga qat'iy rioya qilishni hisobga olgan holda amalga oshiriladi. Amaldagi GENAU boshqaruvi yuqori talablarga javob beradi ",
+      "p3": " va ",
+      "list1Title": "Ekologik javobgarlik",
+      "list1Desc": "Atrof-muhitni muhofaza qilish sifat tushunchamizning bir qismidir va unga KWT GmbH ning barcha xodimlari rioya qiladi.",
+      "list2Title": "Energiya samaradorligi",
+      "list2Desc": "Xatarlarni maqsadli aniqlash va energiya samaradorligini optimallashtirish choralarini ko'rish."
+    }
+  },
+  "news": {
+    "eyebrow": "Yangiliklar va voqealar",
+    "title1": "K Aqua dan",
+    "titleGrad": "so'nggi yangiliklar.",
+    "date": "Oktyabr 2025",
+    "h2": "Biz uch karra ISO sertifikatiga egamiz",
+    "p": "ISO boshqaruv tizimimiz kengaytirildi va endi u sifat, atrof-muhit va energiyani boshqarishni o'z ichiga oladi:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Sifatni boshqarish tizimi"
+      ],
+      [
+        "ISO 14001:2015",
+        "Atrof-muhitni boshqarish tizimi"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiyani boshqarish tizimi"
+      ]
+    ],
+    "btnDe": "Sertifikat (DE)",
+    "btnEn": "Certificate (EN)",
+    "eventsTitle": "Ko'rgazmalar va tadbirlar",
+    "eventsText": "K Aqua ga kelgusi tadbirlarda tashrif buyuring. Hozirda hech qanday sana e'lon qilinmagan. Yaqinda yana tekshirib ko'ring.",
+    "lead": "K Aqua haqidagi so'nggi yangiliklarni o'qing."
+  },
+  "career": {
+    "eyebrow": "Karyera",
+    "title1": "K-Aqua da karyera: Faqat",
+    "titleGrad": "maosh emas.",
+    "lead": "Soliqsiz imtiyozlar qancha sof foyda keltirishini hisoblang va 60 soniya ichida K Aqua sizga mos keladimi yoki yo'qligini tekshiring.",
+    "benEyebrow": "Sof ish haqini optimallashtirish",
+    "benTitle": "Foyda kalkulyatori.",
+    "benLead": "Soliqsiz va qat'iy soliqqa tortiladigan qo'shimchalar ko'pincha yalpi o'sishdan kuchliroq ta'sir ko'rsatadi. O'z paketingizni tuzing:",
+    "benefits": {
+      "sachbezug": [
+        "Moddiy yordam kartasi",
+        "Soliqsiz moddiy yordam, har oy karta hisobiga."
+      ],
+      "lunch": [
+        "Oziq-ovqat nafaqasi",
+        "Tushlik va supermarket uchun raqamli oziq-ovqat talonlari."
+      ],
+      "internet": [
+        "Internet to'lovi",
+        "Shaxsiy internet foydalanish uchun subsidiya."
+      ],
+      "jobrad": [
+        "JobRad lizingi",
+        "Ish haqini konvertatsiya qilish orqali orzuingizdagi velosiped, xususiy xaridga nisbatan tejamkorlik."
+      ],
+      "kita": [
+        "Bolalar bog'chasi nafaqasi",
+        "Bolalarga qarash uchun soliqsiz nafaqa."
+      ],
+      "vwl": [
+        "Kompaniya tomonidan qo'shimcha",
+        "Ish beruvchi tomonidan oylik tejash hissasi."
+      ]
+    },
+    "resultLabel": "Oyiga sof ko'proq",
+    "resultNote1": "Bu taxminan quyidagiga to'g'ri keladi",
+    "resultNote2": "yalpi o'sish ~{n} €",
+    "resultNote3": "chegirmalarsiz.",
+    "resultNote4": "(Yo'riqnoma qiymati, soliq sinfiga bog'liq.)",
+    "apply": "Hozir murojaat qiling",
+    "call": "Yoki qo'ng'iroq qiling: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Madaniyat mosligi",
+    "cmTitle": "K Aqua sizga mos keladimi?",
+    "cmIntro": "Ishlash usuli va ishlab chiqarishdagi kundalik hayot haqida beshta halol savol. Shaxsiyat testi emas, haqiqatni tekshirish.",
+    "cmStart": "Sinovni boshlash",
+    "qLabel": "Savol",
+    "cmQ": [
+      {
+        "q": "Qanday ishlashni afzal ko'rasiz?",
+        "o": [
+          "Aniq jarayonlar, yaxshi kelishilgan jamoa",
+          "Har kuni yangi narsalarni sinab ko'rish"
+        ]
+      },
+      {
+        "q": "Katta seriyalar ishlamoqda. Mashina og'ish haqida xabar beradi.",
+        "o": [
+          "Darhol qarang, sababini toping",
+          "Avval ishlashda davom eting"
+        ]
+      },
+      {
+        "q": "Sizni nima ko'proq undaydi?",
+        "o": [
+          "50 yil davom etadigan mahsulot",
+          "Tez, ko'rinadigan natijalar"
+        ]
+      },
+      {
+        "q": "Smenali ish siz uchun...",
+        "o": [
+          "Rejalashtirilgan va joyida",
+          "Biroz qiyin"
+        ]
+      },
+      {
+        "q": "Sizning texnologiyaga munosabatingiz?",
+        "o": [
+          "Men hamma narsa qanday ishlashini tushunishni xohlayman",
+          "Eng asosiysi shundaki, u ishlaydi"
+        ]
+      }
+    ],
+    "resHigh": "Kuchli moslik. Aniqlik, ishonchlilik va texnik tushunish: aynan bizning profilimiz.",
+    "resMid": "Suhbat ehtiyoji bilan yaxshi moslik. Eng yaxshisi to'g'ridan-to'g'ri qo'ng'iroq qilib, kundalik hayotni aniqlab olish.",
+    "resLow": "Rostgo'y natija: K Aqua-dagi kundalik ishlab chiqarish ehtimol sizning muhitingiz emas. Savdo yoki boshqaruv yaxshiroq mos kelishi mumkin.",
+    "sendApp": "Ilovani yuborish",
+    "again": "Yana"
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title1": "Loyihaingiz haqida",
+    "titleGrad": "gaplashamiz.",
+    "locTitle": "Germaniya manzili",
+    "salesTitle": "Sotish",
+    "supportTitle": "Sifat va texnik yordam",
+    "supportText": "Loyihaingiz haqida gaplashamiz. Bizning yordam guruhimiz rejalashtirish, materiallar va ishlov berish bilan bog'liq texnik savollarda yordam beradi."
+  },
+  "imprint": {
+    "eyebrow": "Huquqiy",
+    "title": "Impressum",
+    "rows": [
+      [
+        "Kompaniya",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Boshqaruv",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Ro'yxatga olish sudi",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Manzil",
+        "Waldsolms"
+      ],
+      [
+        "Soliq ID raqami",
+        "DE 296238486"
+      ],
+      [
+        "Telefon / Faks",
+        "+49 (0)60 85 / 9868-410 · Faks -420"
+      ],
+      [
+        "E-pochta",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Mahsulot qidirish",
+    "title1": "PDF cho'li emas.",
+    "titleGrad": "Darhol ma'lumotlar.",
+    "lead": "220 betlik kataloglar o'rniga: To'liq PP-R/PPRCT tizimini interaktiv tarzda filtrlang. O'lcham, bosim darajasi, devor qalinligi, hammasi jonli.",
+    "type": "Mahsulot turi",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Faserverbund (GF)",
+      "fitting": "Formteile"
+    },
+    "sdr": "Bosim darajasi (SDR)",
+    "maxD": "Maks. tashqi diametri",
+    "upTo": "gacha",
+    "maxDAria": "Millimetrdagi maksimal tashqi diametr",
+    "found": "Maqola variantlari topildi. Har biri darhol devor qalinligi, ichki diametri va nominal bosim bilan.",
+    "catalog": "Katalog (PDF)",
+    "tableHead": [
+      "Tur",
+      "d (mm)",
+      "SDR",
+      "Devor (mm)",
+      "di (mm)",
+      "Nominal bosim"
+    ],
+    "more": "+ {n} ko'proq. To'liq ro'yxat uchun filtrlarni yaxshilang.",
+    "none": "Natijalar topilmadi. Filtrlarni bo'shating.",
+    "nextEyebrow": "Oldinga o'ylash",
+    "nextTitle": "Rejalashtirishingiz qanchalik iqlimga mos?",
+    "nextLead": "O'lcham va uzunlikni to'g'ridan-to'g'ri CO₂ kalkulyatoriga o'tkazing va uni mis, zanglamaydigan po'lat va PVX bilan taqqoslang.",
+    "nextCta": "CO₂ kalkulyatoriga"
+  }
+}

@@ -1,0 +1,201 @@
+,
+  "refs": {
+    "eyebrow": "Reference",
+    "title1": "Ein Globus voller",
+    "titleGrad": "Projekte.",
+    "lead": "Drehen Sie   Globus, tippen Sie na einen Marker: Jede Markierung steht za bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter za echte Reference.)",
+    "canvasAria": "Interaktiver Globus sa Referenzprojekten, ziehen zum Drehen",
+    "note": "Echte Projektnamen, Fotos i Kennzahlen sollten redaktionell ergänzt werden.   Bühne dafür steht.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Deutschland",
+        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, VAE",
+        "d": "Hochhaus-Steigleitungen: PPRCT za Heißwasser unter Wüstenbedingungen."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warschau, Polen",
+        "d": "Wohnquartier-Neubau: komplette Instalacija pijaće vode d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Türkei",
+        "d": "Hotelkomplex: Zirkulationsleitungen sa Faserverbundrohr."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infrastrukturprojekt: GroßDimenzije do d630 im Stumpfschweißverfahren."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Kapstadt, Südafrika",
+        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Bürosanierung: korrosionsfreier Ersatz za Bestandsleitungen."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "za Planer, Einkauf & Verarbeiter",
+    "title1": "Sie planen, kalkulieren ili verlegen.",
+    "titleGrad": "Wir liefern   Grundlage.",
+    "lead": "Jede Rolle findet kod K Aqua genau   Information,   sie za   nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "personas": [
+      {
+        "t": "Planer & Fachingenieure",
+        "d": "Normkonforme Tehnički podaci, SDR-Tabellen i CO₂-Nachweise za   Ausschreibung, direkt verwertbar.",
+        "cta": "Zu   technischen Daten",
+        "goto": "products"
+      },
+      {
+        "t": "Einkauf & Beschaffung",
+        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms i ein Ansprechpartner statt Zwischenhandel.",
+        "cta": "Projektanfrage starten",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installateure & Verarbeiter",
+        "d": "Vier Schweißverfahren als Video, WerkzeugPregled i klare Verarbeitungsgrenzen, Sicherheit na   Baustelle.",
+        "cta": "Zur Akademija",
+        "goto": "Akademija"
+      }
+    ],
+    "whyEyebrow": "Warum K Aqua",
+    "whyTitle": "Sechs Gründe,   u   Kalkulation ankommen.",
+    "why": [
+      {
+        "t": "Druckfest & heißwasserfest",
+        "d": "PPRCT sa modifizierter Kristallstruktur: mehr Temperatur- i Druckreserve über Jahrzehnte."
+      },
+      {
+        "t": "Korrosionsfrei",
+        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie kod metallischen Leitungen."
+      },
+      {
+        "t": "Recycelbar & CO₂-arm",
+        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer ili Stahl: belegbar im CO₂-Rechner."
+      },
+      {
+        "t": "Ein Ansprechpartner",
+        "d": "Rohr, Formteil, Armatur i Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+      }
+    ],
+    "promise": [
+      "Werksdirekt",
+      "Antwort < 24 h",
+      "Unverbindlich"
+    ],
+    "ctaAll": "Projektanfrage u 2 Minuten"
+  },
+  "rfq": {
+    "eyebrow": "Projektanfrage",
+    "title1": "Ihr Projekt,",
+    "titleGrad": "unser Angebot.",
+    "lead": "u vier kurzen Schritten zur unverbindlichen Anfrage. Sie erhalten innerhalb eines Werktags eine persönliche Rückmeldung vom Vertrieb.",
+    "steps": [
+      "Projektart",
+      "Bedarf",
+      "Termin & Region",
+      "Kontakt"
+    ],
+    "types": [
+      {
+        "t": "Neubau / Hochbau",
+        "d": "Instalacija pijaće vode u Wohn- ili Gewerbebau."
+      },
+      {
+        "t": "Infrastruktur / Tiefbau",
+        "d": "Versorgungsleitungen, GroßDimenzije, Netze."
+      },
+      {
+        "t": "Sanierung / Austausch",
+        "d": "Ersatz od Bestandsleitungen aus Metall ili PVC."
+      },
+      {
+        "t": "Handel / Wiederverkauf",
+        "d": "Distribution, Lager ili Projektgeschäft."
+      }
+    ],
+    "fType": "Projektart",
+    "fDims": "Benötigte Dimenzije",
+    "fMeters": "Geschätzte Lauflänge",
+    "dimsHint": "Grobe Angaben genügen, wir konkretisieren gemeinsam. Mehrfachauswahl möglich.",
+    "fTime": "Geplanter Zeitrahmen",
+    "fRegion": "Lieferregion",
+    "timelines": [
+      "Sofort / laufend",
+      "u 1–3 Monaten",
+      "u 3–6 Monaten",
+      "Planungsphase"
+    ],
+    "regions": [
+      "Deutschland",
+      "DACH",
+      "Europa",
+      "Naher & Mittlerer Osten",
+      "Weltweit"
+    ],
+    "fName": "Name",
+    "fCompany": "Kompanija",
+    "fEmail": "E-Mail",
+    "fPhone": "Telefon",
+    "fMsg": "Nachricht (optional)",
+    "privacy": "sa dem Absenden öffnen Sie eine vorausgefüllte E-Mail an info@k-aqua.de. Es werden keine Daten na dieser Seite gespeichert.",
+    "back": "Zurück",
+    "next": "Weiter",
+    "send": "Anfrage senden",
+    "mailSubject": "Projektanfrage K Aqua",
+    "promise": [
+      "Antwort < 24 h",
+      "Unverbindlich",
+      "Direkt vom Hersteller"
+    ],
+    "doneTitle": "Fast geschafft.",
+    "doneText": "Ihr E-Mail-Programm hat sich sa   vorausgefüllten Anfrage geöffnet. Senden Sie sie ab. Wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
+    "doneBack": "Zurück zur Startseite",
+    "infoTitle": "Über   Projektanfrage",
+    "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben ili Industrieprojekt frühzeitig sa unseren Experten abzustimmen. Egal ob Sie u   Planungsphase stecken ili bereits konkrete Materiallisten vorliegen haben, wir unterstützen Sie kod   Dimensionierung i Materialauswahl.",
+    "infoText2": "Durch   enge Zusammenarbeit sa dem K Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Klase pritiska (SDR-Klassen), Verlegeverfahren i systemkonformem Pribor. Senden Sie uns Ihre Rahmendaten, i wir melden uns innerhalb eines Werktags kod Ihnen zurück.",
+    "faqTitle": "Häufig gestellte Fragen zur Anfrage",
+    "faqs": [
+      {
+        "q": "Ist   Projektanfrage kostenpflichtig?",
+        "a": "Nein,   Nutzung dieses Tools i   anschließende Angebotserstellung durch unser Vertriebsteam sind za Sie völlig kostenlos i unverbindlich."
+      },
+      {
+        "q": "Was passiert nach dem Absenden   Anfrage?",
+        "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb od 24 Stunden sa Ihnen u Verbindung setzen, um offene Fragen zu klären ili Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten."
+      },
+      {
+        "q": "Kann ich auch als Privatperson anfragen?",
+        "a": "K Aqua richtet sich primär an Großhändler, Planer i Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter."
+      },
+      {
+        "q": "Wie sicher sind meine Daten?",
+        "a": "Ihre Eingaben werden nicht na dem Server gespeichert, sondern direkt u Ihr E-Mail-Programm übertragen, od wo aus Sie   Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach   geltenden DSGVO-Richtlinien."
+      }
+    ]
+  }

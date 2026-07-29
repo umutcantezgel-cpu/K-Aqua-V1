@@ -1,0 +1,426 @@
+,
+  "academyx": {
+    "paramEyebrow": "Schweißparameter",
+    "paramTitle": "Muffenschweißen:   Richtwerte.",
+    "paramLead": "Anwärm-, Umstell- i Abkühlzeiten za   Muffenschweißen nach DVS 2207-11 (Heizelement 250–270 °C),   Grundlage,   u   Videos praktisch gezeigt wird.",
+    "paramHead": [
+      "d (mm)",
+      "Schweißtiefe (mm)",
+      "Anwärmen (s)",
+      "Umstellen max. (s)",
+      "Abkühlen (min)"
+    ],
+    "paramNote": "Richtwerte nach DVS 2207-11 za PP kod 250–270 °C Heizelementtemperatur. Verbindlich sind   Angaben des Schweißgeräte-Herstellers i   Verarbeitungsanleitung. Im Zweifel gilt: Video ansehen, Parameter am Gerät prüfen.",
+    "stepEyebrow": "Verfahren Schritt za Schritt",
+    "stepTitle": "Vier Verfahren, ein Qualitätsanspruch.",
+    "stepLead": "Jedes Verfahren hat seinen Dimensionsbereich i fünf Schritte,   über   Qualität   Verbindung entscheiden.",
+    "procTabs": [
+      "Muffe (Hand)",
+      "Muffe (Maschine)",
+      "Elektroschweißen",
+      "Stumpfschweißen"
+    ],
+    "procs": [
+      {
+        "t": "Muffenschweißen od Hand: do d63",
+        "steps": [
+          {
+            "t": "Schneiden & entgraten",
+            "d": "Rohr rechtwinklig ablängen, sauber entgraten i anfasen. Rohrschneider aus dem K Aqua-Werkzeugprogramm verwenden."
+          },
+          {
+            "t": "Schweißtiefe anzeichnen",
+            "d": "Einstecktiefe nach Tabelle (z. B. 14 mm kod d20) am Rohr markieren: sie definiert   Fügezone."
+          },
+          {
+            "t": "Gleichzeitig anwärmen",
+            "d": "Rohr u   Heizbuchse, Fitting na   Heizdorn. Gleichzeitig aufschieben i   Anwärmzeit exakt halten."
+          },
+          {
+            "t": "Zügig fügen, ohne Drehen",
+            "d": "Innerhalb   Umstellzeit axial fügen. Niemals verdrehen: Drehen zerstört   plastifizierte Gefüge."
+          },
+          {
+            "t": "Fixieren & abkühlen",
+            "d": "Verbindung einige Sekunden fixieren, dann   Abkühlzeit abwarten, bevor mechanische Last aufgebracht wird."
+          }
+        ]
+      },
+      {
+        "t": "Muffenschweißen sa Maschine: mittlere Dimenzije",
+        "steps": [
+          {
+            "t": "Vorbereiten wie beim Handschweißen",
+            "d": "Ablängen, entgraten, Schweißtiefe markieren.   Grundregeln bleiben identisch."
+          },
+          {
+            "t": "Rohr & Fitting einspannen",
+            "d": "  Maschine hält beide Fügepartner koaxial. Versatz i Kippfehler sind mechanisch ausgeschlossen."
+          },
+          {
+            "t": "Anwärmen sa Heizelement",
+            "d": "Heizbuchse i -dorn nach DVS-Richtwerten;   Maschine hält Position i Zeit reproduzierbar."
+          },
+          {
+            "t": "Maschinell fügen",
+            "d": "  Vorschub fügt axial i gleichmäßig, besonders kod d75 do d125   Schlüssel zu konstanter Qualität."
+          },
+          {
+            "t": "Abkühlen unter Fixierung",
+            "d": "Erst nach Ablauf   Abkühlzeit ausspannen i weiterverarbeiten."
+          }
+        ]
+      },
+      {
+        "t": "Elektroschweißen (Electrofusion): Heizwendelfittings",
+        "steps": [
+          {
+            "t": "Oberfläche schälen",
+            "d": "  Rohroberfläche u   Fügezone schälen i reinigen. Oxidhaut i Verschmutzung verhindern   Verschweißung."
+          },
+          {
+            "t": "Einstecktiefe markieren",
+            "d": "Tiefe am Rohr anzeichnen, Rohr do zum Anschlag u   Fitting schieben."
+          },
+          {
+            "t": "Spannungsfrei fixieren",
+            "d": "Halteklemmen verwenden:   Fitting darf während des Schweißens nicht unter Biegespannung stehen."
+          },
+          {
+            "t": "Schweißprozess starten",
+            "d": "  Gerät bestromt   eingebetteten Heizwendeln im Fitting. Parameter kommen vom Fitting, nicht aus dem Gefühl."
+          },
+          {
+            "t": "Abkühlzeit einhalten",
+            "d": "Erst nach   angegebenen Abkühlzeit bewegen ili belasten. Kontrollindikatoren am Fitting prüfen."
+          }
+        ]
+      },
+      {
+        "t": "Stumpfschweißen (Butt Fusion): GroßDimenzije do d630",
+        "steps": [
+          {
+            "t": "Enden planhobeln",
+            "d": "Beide Rohrenden u   Maschine planhobeln, do durchgehende Späne entstehen: Planparallelität ist Pflicht."
+          },
+          {
+            "t": "Ausrichten & Versatz prüfen",
+            "d": "Versatz maximal 10 %   Wanddicke. kod d630 zählt jeder Millimeter."
+          },
+          {
+            "t": "Anwärmen am Heizelement",
+            "d": "Angleichen unter Druck do zur Wulstbildung, dann drucklos durchwärmen. Zeiten nach DVS 2207-11."
+          },
+          {
+            "t": "Umstellen & fügen",
+            "d": "Heizelement zügig entnehmen i   Enden unter definiertem Fügedruck zusammenfahren."
+          },
+          {
+            "t": "Abkühlen unter Fügedruck",
+            "d": "  Fügedruck bleibt do zum Ende   Abkühlzeit, dann entsteht   homogene, dauerhaft dichte Strang."
+          }
+        ]
+      }
+    ],
+    "errEyebrow": "Fehlerkunde",
+    "errTitle": "  sechs teuersten Fehler i ihre Prävention.",
+    "errHead": [
+      "Fehler",
+      "Folge",
+      "Prävention"
+    ],
+    "errRows": [
+      [
+        "Zu langes Anwärmen",
+        "Wulst wächst nach innen, Querschnitt verengt sich",
+        "Anwärmzeit nach Tabelle stoppen, nicht nach Gefühl"
+      ],
+      [
+        "Verdrehen beim Fügen",
+        "Plastifiziertes Gefüge wird zerstört, Verbindung undicht",
+        "Nur axial fügen, Markierung als Kontrolle nutzen"
+      ],
+      [
+        "Fehlendes Entgraten/Anfasen",
+        "Materijal schiebt sich na, Fügezone wird ungleichmäßig",
+        "Jeden Schnitt entgraten: Werkzeug gehört zum System"
+      ],
+      [
+        "Verschmutztes Heizelement",
+        "Anhaftungen verbrennen i lagern sich u   Naht ein",
+        "Heizflächen vor jeder Schweißung sa fusselfreiem Tuch reinigen"
+      ],
+      [
+        "Zu frühe Belastung",
+        "Naht verformt sich vor dem Erstarren",
+        "Abkühlzeiten einhalten: kod d110 sind   8 Minuten"
+      ],
+      [
+        "Falsche Schweißtiefe",
+        "Zu kurz: kleine Fügefläche · zu tief: Querschnittsverengung",
+        "Einstecktiefe immer anzeichnen, nie schätzen"
+      ]
+    ],
+    "glossEyebrow": "Glossar",
+    "glossTitle": "  Begriffe   Tehnologija cevovoda.",
+    "gloss": [
+      [
+        "SDR",
+        "Standard Dimension Ratio = Außendurchmesser geteilt durch Wandstärke (d/s). Kleiner SDR = dickere Wand = höherer Nenndruck."
+      ],
+      [
+        "PN",
+        "Nenndruck u bar kod 20 °C über   Auslegungshorizont: SDR 6 entspricht PN 20, SDR 17 entspricht PN 6."
+      ],
+      [
+        "d / di / s",
+        "Außendurchmesser / Innendurchmesser / Wandstärke u Millimetern. di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylen Random Copolymer:   bewährte Standardwerkstoff za Trinkwasserinstallationen."
+      ],
+      [
+        "PPRCT",
+        "PP-R sa modifizierter Kristallstruktur („Crystallinity Temperature\"): mehr Temperatur- i Druckreserve kod gleicher Wand."
+      ],
+      [
+        "K-Fiber / GF",
+        "Glasfaserverstärkter Multilayer-Aufbau: reduziert   Wärmeausdehnung na rund ein Viertel."
+      ],
+      [
+        "Muffenschweißen",
+        "Socket Fusion: Rohr i Fitting werden über Heizbuchse i -dorn plastifiziert i ineinandergefügt."
+      ],
+      [
+        "Elektroschweißen",
+        "Electrofusion: eingebettete Heizwendeln im Fitting erzeugen   Schweißwärme, parametergesteuert."
+      ],
+      [
+        "Stumpfschweißen",
+        "Butt Fusion: planparallele Rohrenden werden am Heizelement erwärmt i unter Druck gefügt, Standard do d630."
+      ],
+      [
+        "DVS 2207-11",
+        "  Regelwerk za   Schweißen od Polypropylen: Quelle   Richtwerte na dieser Seite."
+      ]
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Dokumentenbibliothek",
+    "libTitle": "Alle Unterlagen, ein Überblick.",
+    "libLead": "Drei Kataloge zum direkten Download, Sertifikati u zwei Sprachen i   Audit Dokumente als Self Service im Trust Center.",
+    "libHead": [
+      "Dokument",
+      "Inhalt",
+      "Sprache",
+      "Zugriff"
+    ],
+    "libRows": [
+      {
+        "t": "K Aqua Produktprogramm",
+        "s": "Vollständiger Katalog: Dimenzije, Artikel, SystemPregled",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Produkteigenschaften",
+        "s": "Technische Eigenschaften i Materialdaten",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Qualitätssicherung",
+        "s": "Prüfverfahren i Qualitätsstandards",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO-Sertifikati (Deutsch)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-akkreditiert",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "GENAU-Politik & Risikobewertung",
+        "s": "Managementsystem, Prävention, Gefährdungsermittlung",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "EPD-Datenblätter (Typ III, EN 15804)",
+        "s": "Ökobilanzdaten za LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "GAEB-Ausschreibungstexte",
+        "s": "Fertige Texte za Leistungsverzeichnisse",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Qualitätssicherungs-Handbuch",
+        "s": "QS-Prozesse za Lieferantenaudits",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Download",
+    "libRequest": "Im Trust Center anfordern",
+    "supEyebrow": "Support-Wege",
+    "supTitle": "Drei Wege zur Antwort.",
+    "supLead": "Je nach Anliegen führt ein anderer Weg am schnellsten zum Ziel, alle sa Antwort innerhalb eines Werktags.",
+    "sup": [
+      {
+        "t": "Vertrieb & Projekte",
+        "d": "Angebote, Konditionen, Lieferzeiten i Projektberatung. ili direkt   Projektanfrage u fünf Schritten.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Qualität & technischer Support",
+        "d": "Materijal-, Planungs- i Verarbeitungsfragen, Zertifikatsprüfung, Reklamationen nach QS-Handbuch.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Verarbeitung & Akademija",
+        "d": "Vier Schweißverfahren als Video plus Parametertabellen: Einweisung za Ihre Kolonne nach Absprache.",
+        "c": "Zur Akademija",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Service-FAQ",
+    "faqTitle": "Schnelle Antworten.",
+    "faq": [
+      {
+        "q": "Welche Unterlagen brauche ich za   Planiranje?",
+        "a": "Produktprogramm (Dimenzije i Artikel), Produkteigenschaften (Materialdaten) i je nach Projekt   Dimensionstabellen na   Produktseite. za Ausschreibungen ergänzen GAEB-Texte i EPD   Paket. Beides im Trust Center."
+      },
+      {
+        "q": "Wo finde ich   Schweißparameter?",
+        "a": "  Richtwerte nach DVS 2207-11 stehen u   Akademija, inklusive Schritt-za-Schritt-Anleitungen i Fehlerkunde. Verbindlich sind immer   Angaben Ihres Schweißgeräte-Herstellers."
+      },
+      {
+        "q": "Wie erhalte ich Sertifikati i Audit Dokumente?",
+        "a": "ISO-Sertifikati laden Sie hier direkt herunter (DE/EN). GENAU-Politik, EPD, GAEB i QS-Handbuch schnüren Sie im Trust Center als RFP-Paket: per Klick angefordert statt tagelang gewartet."
+      },
+      {
+        "q": "An wen richte ich technische Rückfragen?",
+        "a": "An support@k-aqua.de.   Team za Qualität i technischen Support antwortet innerhalb eines Werktags zu Materijal, Planiranje i Verarbeitung."
+      },
+      {
+        "q": "Wie komme ich am schnellsten zum Angebot?",
+        "a": "Über   Projektanfrage: fünf Schritte, unverbindlich, sa persönlicher Rückmeldung des Vertriebs innerhalb eines Werktags. Direkt vom Hersteller, ohne Zwischenhandel."
+      },
+      {
+        "q": "u welchen Sprachen gibt es   Unterlagen?",
+        "a": "Kataloge aktuell na Englisch, Sertifikati na Deutsch i Englisch. Diese Website arbeitet dreisprachig (DE/EN/AR). Weitere Dokumentsprachen na Anfrage über   Vertrieb."
+      }
+    ]
+  },
+  "aboutx": {
+    "numEyebrow": "Zahlen aus dem Werk",
+    "numTitle": "Waldsolms u Kennzahlen.",
+    "numLead": "Mittelhessen, Auweg 3: hier entwickelt i fertigt   KWT GmbH   komplette K Aqua-Programm.",
+    "nums": [
+      {
+        "n": "14.000",
+        "u": "m",
+        "l": "Rohr pro Tag i Extrusionsanlage: Kapazität za Großprojekte"
+      },
+      {
+        "n": "20–630",
+        "u": "mm",
+        "l": "Dimensionsbereich   Rohrfertigung, Fitinzi do 315 mm"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "  Schnittreste i Produktionsabfälle gehen zurück u   Kreislauf"
+      },
+      {
+        "n": "3",
+        "u": "× ISO",
+        "l": "Qualität, Umwelt, Energie: DAkkS-akkreditiert seit Oktober 2025"
+      }
+    ],
+    "prodEyebrow": "Fertigung",
+    "prodTitle": "Vier Stationen, ein Qualitätsversprechen.",
+    "prodLead": "Vom Granulat do zum gekennzeichneten Rohr: so entsteht   Produkt.",
+    "prod": [
+      {
+        "t": "Extrusion",
+        "d": "Monolayer- i glasfaserverstärkte Multilayer-Cevi entstehen na Extrusionsanlagen sa do zu 14.000 Metern Tagesleistung je Anlage."
+      },
+      {
+        "t": "Spritzguss",
+        "d": "Fitinzi od d20 do d315 werden im Spritzguss gefertigt: komplexe Geometrien kod hoher Stückzahl i konstanter Qualität."
+      },
+      {
+        "t": "Geschlossener Kühlkreislauf",
+        "d": "  Prozesswasser   Fertigung zirkuliert im geschlossenen Kreislauf: Gewässerschutz als Systementscheidung, überwacht nach ISO 14001."
+      },
+      {
+        "t": "Kennzeichnung & Prüfung",
+        "d": "Jedes Rohr wird im Extrusionsprozess fortlaufend gekennzeichnet i nach QS-Handbuch geprüft: Rückverfolgbarkeit je Charge."
+      }
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Vier Nutzen, ein Haus.",
+    "houseLead": "  Unternehmenspolitik   KWT GmbH denkt Nutzen als Kreislauf: keiner existiert ohne   anderen drei.",
+    "house": [
+      {
+        "t": "Kundennutzen",
+        "d": "Wünsche od Kunden i Interessierten werden erkannt, ernst genommen i umgesetzt, unter Einhaltung gesetzlicher i sozialer Standards."
+      },
+      {
+        "t": "Mitarbeiternutzen",
+        "d": "Alle Mitarbeitenden sind u   kontinuierlichen Verbesserungsprozess eingebunden. Kein Kundennutzen ohne Mitarbeiternutzen."
+      },
+      {
+        "t": "Unternehmensnutzen",
+        "d": "Qualität bleibt stets sa Kosten i Terminen vereinbar, so trägt   Erfolg od heute   Investitionen od morgen."
+      },
+      {
+        "t": "Umwelt & Mitwelt",
+        "d": "Ressourcenschonung i Umweltverträglichkeit sind Teil des Qualitätsverständnisses, verankert im GENAU-System."
+      }
+    ],
+    "mileEyebrow": "Meilensteine",
+    "mileTitle": "  Weg do hierher.",
+    "miles": [
+      {
+        "y": "Jahrzehnte",
+        "t": "Fertigungserfahrung",
+        "d": "Kunststoffverarbeitung za   Wasserversorgung: Erfahrung,   u jede Charge einfließt."
+      },
+      {
+        "y": "Partnerschaft",
+        "t": "Enge Verbindung zu KESSEL",
+        "d": "sa dem Premiumhersteller „Leading u Drainage\" verbindet KWT eine langjährige Wertegemeinschaft."
+      },
+      {
+        "y": "GENAU",
+        "t": "Managementsystem im House of KWT",
+        "d": "Arbeitsschutz, Umwelt i Energie als tägliche Praxis jedes Mitarbeitenden, nicht als Audit-Übung."
+      },
+      {
+        "y": "10/2025",
+        "t": "Dreifach ISO-geprüft",
+        "d": "ISO 9001, 14001 i 50001 u einem Schritt: DAkkS-akkreditiert, gültig do 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Digitale Plattform",
+        "d": "Pretraga proizvoda, CO₂-Rechner, Trust Center i Akademija machen   Website zum Werkzeugkasten."
+      }
+    ]
+  }

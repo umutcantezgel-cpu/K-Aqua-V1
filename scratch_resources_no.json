@@ -1,0 +1,524 @@
+  "resources": {
+    "support": {
+      "title": "Teknisk support",
+      "metaDesc": "Dra nytte av teknisk support fra K-Aqua. Vi støtter megaprosjektene dine med tysk ingeniørkunst, hydraulikkdesign og sveisesupport på stedet.",
+      "seoText": {
+        "p1": "K Aquas tekniske support er ryggraden i våre globale infrastrukturprosjekter. Vi vet at hvert sekund teller ved installasjon av industrielle rørsystemer og PP-R høyytelsesrør. Vårt team av eksperter på væsketeknologi og polymersystemer støtter internasjonale hovedentreprenører, arkitekter og sivilingeniører ved hvert trinn på veien.",
+        "p2": "Fra første planlegging og isometrisk beregning til utforming av trykktapsberegningen og overvåking av sveiseprosessene på stedet: vi garanterer feilfri implementering. Våre polypropylen random copolymer (PP-R) systemer krever det høyeste nivået av håndverkspresisjon. Dette er grunnen til at Akademiet vårt tilbyr kontinuerlig opplæring, mens support griper inn med kompleks termisk utvidelse eller spesielle strømningstrykkkrav.",
+        "p3": "Ved å bruke state-of-the-art diagnostiske verktøy og prediktive vedlikeholdsalgoritmer minimerer vi nedetid til et absolutt minimum. Uansett om det er kaldtvannssystemer i ørkenstrøk, ultrarene industrianlegg eller varmenettverk i arktiske soner: K Aqua supportinfrastruktur sikrer jevn drift og kompromissløs lang levetid for investeringen din."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Prediktiv systemovervåking",
+            "desc": "Algoritmene våre analyserer kontinuerlig uregelmessigheter i infrastrukturen. Før en kritisk tilstand nås, griper vårt nivå 3-team inn. Null toleranse for forsinkelse. Null toleranse for feil. Vi handler før feilen oppstår."
+          },
+          {
+            "title": "Militære reaksjonstider",
+            "desc": "For oss er en SLA ikke en retningslinje, men en fysisk lov. Ved kritiske hendelser garanterer vi innledende reaksjoner på millisekundnivå og umiddelbar eskalering til dedikerte senioringeniører. Ingen venting, bare umiddelbar utførelse."
+          },
+          {
+            "title": "Arkitekturrevisjoner",
+            "desc": "Systemene dine settes på prøve i henhold til de strengeste standarder for tysk ingeniørkunst. Skalerbarhet, redundans og pålitelighet verifiseres gjennom hensynsløse stresstester. Svake punkter elimineres, ikke administreres."
+          },
+          {
+            "title": "Direkte tilgang for utviklere",
+            "desc": "Glem konvensjonell support. For komplekse systemintegrasjoner kommuniserer du direkte med våre kjerneutviklere. Ingen førstelinjefilter, men rå, ufiltrert teknisk ekspertise for umiddelbar problemløsning på kildekodenivå."
+          }
+        ],
+        "eyebrow": "Eskaleringsprotokoller",
+        "title": "Suverenitet i krise",
+        "lead": "Hvordan vi opprettholder systemets integritet under ekstreme belastningsforhold."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomalideteksjon",
+            "text": "Automatiserte systemer oppdager mikroavvik i datastrømmen lenge før en synlig feil."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostisk triage",
+            "text": "AI-støttet logganalyse isolerer feilvektoren. Tildeling til det nøyaktig matchende spesialistklyngen."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Intervensjon",
+            "text": "Innføring av hurtigreparasjoner eller automatisk omdirigering av trafikk til redundante noder med høy tilgjengelighet."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Årsaksanalyse",
+            "text": "Rettsmedisinsk undersøkelse av hendelsen. Modifikasjon av kjernearkitekturen for permanent forebygging."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Obduksjonsprotokoll",
+            "text": "Detaljert teknisk rapport med kryptografisk signatur for absolutt åpenhet og revisjonssikkerhet."
+          }
+        ],
+        "title": "Nødsituasjonen: Krønike av en intervensjon",
+        "desc": "Hvert sekund teller. Vår standardiserte prosess i tilfelle en kritisk systemanomali. Kaldt beregnet. Nådeløst henrettet."
+      },
+      "hero": {
+        "eyebrow": "Teknisk support",
+        "title1": "Support som",
+        "title2": "tenker med deg.",
+        "desc": "Fra rørdesign til byggegodkjenning: Vår tekniske støtte følger planleggere og installatører gjennom hver fase av et PP-R-prosjekt, med en direkte linje til ingeniørene som utviklet systemet. Støtte som tenker fremover, fra planlegging til idriftsettelse.",
+        "btnPrimary": "Send prosjektforespørsel",
+        "btnGhost": "Se tjenester"
+      },
+      "intro": {
+        "title1": "Support er ikke et kundesenter.",
+        "title2": "Det er et ingeniørteam.",
+        "p1": "Vi ser ikke på teknisk støtte som en nedstrømstjeneste, men som en integrert del av ethvert prosjekt. Hvis en sveisesøm på byggeplassen er uklar eller en trykktest ikke slår ut som forventet, teller hver time.",
+        "p2": "Våre ingeniører kjenner hver batch, hver standard og hver prosesseringsregel for systemene våre førstehånds. De sjekker isometrier, beregner trykktap og er rett ved røret under igangkjøring.",
+        "p3": "Dette er påstanden om tysk ingeniørkunst brukt på ekte byggeplasser, ikke serverstativer."
+      },
+      "bento": {
+        "eyebrow": "Et overblikk over våre tjenester",
+        "title": "Støtte gjennom hele prosjektet",
+        "lead": "Fra første planlegging til løpende vedlikehold: teamet vårt støtter PP-R-systemet ditt gjennom hver fase.",
+        "items": [
+          {
+            "title": "Hydraulisk design og isometri",
+            "desc": "Vi sjekker planleggingsdokumentene dine, beregner trykktap og dimensjonering, og leverer en pålitelig materialliste før byggestart."
+          },
+          {
+            "title": "Sveiseteknisk støtte",
+            "desc": "Våre teknikere følger muffe- og elektrosveisingen på stedet, kontrollerer prosessparametere og lærer opp monteringsteamet ditt direkte på byggeplassen hvis ønskelig."
+          },
+          {
+            "title": "Trykktesting & Godkjenning",
+            "desc": "Vi bistår med utførelse og dokumentasjon av trykktestingen i henhold til DIN 1988 og stiller testprotokollene som kreves for byggegodkjenning."
+          },
+          {
+            "title": "Service for reservedeler og tilbehør",
+            "desc": "Rask levering av fittings, ventiler og originalt tilbehør, også for eksisterende systemer og eldre K-Aqua batcher."
+          },
+          {
+            "title": "Fjerndiagnose og innsats på stedet",
+            "desc": "Ved ubesvarte spørsmål om behandling eller uklare testresultater, vil vår tekniske støtte ringe deg tilbake på kort varsel og eventuelt distribuere en formann på stedet."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Pålitelighet i tall",
+        "title1": "Sertifisert",
+        "title2": "pålitelighet.",
+        "p1": "Vi jobber etter prinsippene for tysk ingeniørkunst: Det vi leverer må holde under alle byggeplassforhold.",
+        "p2": "Hvert K-Aqua-system er sertifisert i henhold til DVGW, SKZ og KIWA. Hver batch er sporbar, hver sveisesøm kan dokumenteres.",
+        "items": [
+          "Svar på tekniske henvendelser innen én virkedag",
+          "Over 50 års dokumentert systemlevetid ved riktig installasjon",
+          "Direkte linje til teknisk salg uten å stå på vent",
+          "Kurs og sertifiseringer via K-Aqua Academy"
+        ]
+      },
+      "cta": {
+        "title1": "Klar for ditt",
+        "title2": "neste",
+        "title3": "prosjekt?",
+        "desc": "Få prosjektet ditt støttet av ingeniører som ikke bare selger PP-R-systemer, men som utvikler og produserer dem selv.",
+        "btnPrimary": "Start forespørsel",
+        "btnGhost": "Kontakt eksperter"
+      },
+      "metaTitle": "Teknisk støtte og service for PP-R rørsystemer"
+    },
+    "downloads": {
+      "title": "Nedlastinger",
+      "metaDesc": "K Aqua Nedlastinger: Kompromissløs sikkerhet gjennom tysk ingeniørkunst for globale megaprosjekter. Last ned brosjyrer og datablader nå.",
+      "cta": {
+        "title": "Kvalitet du kan stole blindt på.",
+        "desc": "Last ned våre offisielle sertifikater eller snakk direkte med ingeniørteamet vårt om spesifikasjonene for ditt neste megaprosjekt.",
+        "btn": "Evaluer prosjektet"
+      },
+      "meta": {
+        "title": "Nedlastinger | K Aqua",
+        "desc": "K Aqua Nedlastinger: Kompromissløs sikkerhet gjennom tysk ingeniørkunst for globale megaprosjekter. Last ned brosjyrer og datablader nå."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Ressurser",
+        "title1": "Nedlastinger.",
+        "title2": "Engineered in Germany.",
+        "desc": "Denne modulen leverer kompromissløs sikkerhet for de mest krevende prosjektene over hele verden. Produsert til de strengeste bransjestandardene for å vare i generasjoner. Våre spesifikasjoner starter der materielle feil ikke er et alternativ.",
+        "cta1": "Forespørsel om prosjekt",
+        "cta2": "Gå til dokumenter"
+      },
+      "timeline": {
+        "title": "Presisjonens evolusjon.",
+        "desc": "Hvordan vi har omdefinert standardene for rørsystemer i 30 år.",
+        "items": [
+          {
+            "year": "1995",
+            "title": "Den første tekniske dokumentasjonen",
+            "text": "Som pioner innen plastrørekstrudering definerte vi de første standardene for PP-R rørsystemer i Tyskland. Spesifikasjonene våre ble bransjens blåkopi."
+          },
+          {
+            "year": "2008",
+            "title": "ISO-testing og globale standarder",
+            "text": "Med internasjonal ekspansjon ble våre tekniske datablad tilpasset globale standarder, alltid med forutsetningen: Tysk standard er den absolutte basislinjen, ingen unntak."
+          },
+          {
+            "year": "2015",
+            "title": "BIM og digitale tvillinger",
+            "text": "Introduksjon av høypresisjons Building Information Modeling (BIM)-data. Milliardprosjekter planlegges nå virtuelt med K Aqua systemer før jorden brytes i virkeligheten."
+          },
+          {
+            "year": "2026",
+            "title": "Sanntidsdata og prediktiv analyse",
+            "text": "Dagens kataloger og tekniske datablader er dynamiske datamodeller som integrerer sanntids ytelsesparametere fra globale installasjoner. Tysk ingeniørkunst i den digitale tidsalderen."
+          }
+        ]
+      },
+      "sticky": {
+        "eyebrow": "Dyp innsikt",
+        "title": "DNA av tysk ingeniørkunst.",
+        "lead": "Et K Aqua datablad er mer enn kolonner med tall. Det er løftet om at hver del som installeres, vil yte nøyaktig som ingeniørene har beregnet.",
+        "items": [
+          {
+            "title": "Anatomien i våre spesifikasjoner",
+            "desc": "Et K Aqua datablad er ikke bare et stykke papir. Det er det destillerte resultatet av tusenvis av timer med hard stresstesting. Vi dokumenterer toleranser i mikrometerområdet fordi en millimeteravvik i megaprosjekter kan ha katastrofale konsekvenser."
+          },
+          {
+            "title": "Materialvitenskap: PPRCT i tall",
+            "desc": "Våre nedlastinger gir grundige molekylære analyser. Du vil finne ut nøyaktig hvorfor den krystallinske strukturen til vårt PPRCT-materiale forblir stabil ved en kontinuerlig belastning på 90°C i over 50 år. Data som gir bygningsingeniører absolutt sikkerhet."
+          },
+          {
+            "title": "Hydraulisk presisjon",
+            "desc": "Strømningshastigheter, trykktapstabeller, kavitasjonsgrenser. Våre dokumenter tilbyr væskemekanikk på akademisk nivå, forberedt for umiddelbar bruk i praksis. Planlagt for høyhus der vann skal transporteres mot ekstrem tyngdekraft."
+          },
+          {
+            "title": "Testet. Verdensomspennende.",
+            "desc": "SKZ, DVGW, WRAS, KIWA: vår nedlastingsseksjon er et hvelv med globale godkjenningsmerker. Hvert sertifikat er skriftlig bevis på vår kompromissløse nullfeilspolicy."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Databasen",
+        "title": "Spesifikasjoner uten kompromisser.",
+        "lead": "Når internasjonale hovedentreprenører planlegger milliardprosjekter stoler de ikke på løfter, men på harde fakta. Her finner du de tekniske parameterne som definerer vårt markedslederskap.",
+        "items": [
+          {
+            "title": "Tekniske datablader",
+            "desc": "Mikrometernøyaktige dimensjoner, trykktapstabeller og termiske utvidelseskoeffisienter. Bibelen for enhver planlegger."
+          },
+          {
+            "title": "Sertifikater og standarder",
+            "desc": "Det skriftlige beviset på vår nulltoleranse. Dokumentert sikkerhet ifølge ISO, DVGW, SKZ med mer."
+          },
+          {
+            "title": "BIM og CAD modeller",
+            "desc": "Høypresisjons digitale tvillinger av våre rørsystemer for sømløs integrasjon i Revit og ArchiCAD."
+          },
+          {
+            "title": "Produktkataloger 2026",
+            "desc": "Hele K Aqua-porteføljen på over 500 sider. Fra 20 mm røret til 500 mm industriventilen, fullt dokumentert."
+          }
+        ]
+      },
+      "methodology": {
+        "subtitle": "K Aqua metoden",
+        "title": "Hvorfor våre data er urørlige.",
+        "p1": "I byggebransjen blir feil ofte ikke synlige før årevis etter ferdigstillelse. Hvis et rørsystem svikter i veggene til en 50-etasjers skyskraper, er skadene i millioner.",
+        "p2": "Det er nettopp derfor vi utsetter systemene våre for ekstreme aldringstester. Vi simulerer 50 år med kontinuerlig stress i våre høytrykkslaboratorier. Resultatene flyter direkte inn i våre tekniske dokumenter.",
+        "card1": {
+          "title": "99,9 %",
+          "desc": "Dimensjonsnøyaktighet i ekstrudering, dokumentert i hver batch."
+        },
+        "card2": {
+          "title": "0 Feil",
+          "desc": "Toleranse med våre internasjonale testsertifikater."
+        }
+      },
+      "files": {
+        "eyebrow": "Direkte tilgang",
+        "title": "Viktige nedlastinger.",
+        "lead": "Last ned de viktigste spesifikasjonene direkte.",
+        "items": [
+          {
+            "title": "Hovedkatalog 2026",
+            "type": "PDF, 42 MB"
+          },
+          {
+            "title": "Tekniske spesifikasjoner PPRCT",
+            "type": "PDF, 12 MB"
+          },
+          {
+            "title": "Trykktapstabeller",
+            "type": "XLSX, 2 MB"
+          },
+          {
+            "title": "BIM/Revit bibliotek",
+            "type": "ZIP, 850 MB"
+          },
+          {
+            "title": "SKZ sertifikat (GER)",
+            "type": "PDF, 1 MB"
+          },
+          {
+            "title": "DVGW drikkevannsgodkjenning",
+            "type": "PDF, 1,5 MB"
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM-Data",
+      "metaDesc": "K Aqua BIM Data: Kompromissløs sikkerhet gjennom tysk ingeniørkunst for globale megaprosjekter. Få tilgang til vår BIM-database.",
+      "sticky": {
+        "items": [
+          {
+            "title": "Maksimal datadybde (LOI 500)",
+            "desc": "Våre BIM-modeller tilbyr ikke bare en svært presis geometrisk representasjon (LOD), men fremfor alt en uovertruffen informasjonsdybde (LOI). Hvert rør, armatur og ventil inneholder all kritisk metadata: materialspesifikasjoner, trykkklasser, termiske utvidelseskoeffisienter og nøyaktige varenummer for automatiserte anbud."
+          },
+          {
+            "title": "Kollisjonsfri planlegging",
+            "desc": "I milliardprosjekter er konfliktkontroll ikke omsettelig. Våre native Revit- og IFC-filer garanterer sømløs integrasjon i din Navisworks eller Solibri. De nøyaktige utvendige diametrene, inkludert toleranser for sveisesømmer, forhindrer kostbare overraskelser på byggeplassen."
+          },
+          {
+            "title": "Parametrisk intelligens",
+            "desc": "K Aqua BIM-familier er fullt parametriske. De tilpasser seg dynamisk til ruting, gradienter og dimensjoner. Den integrerte automatiske rutingen velger automatisk de riktige reduksjonene og bøyevinklene i samsvar med de strenge kravene i DIN EN ISO 15874."
+          },
+          {
+            "title": "Livssyklus og anleggsadministrasjon",
+            "desc": "Den digitale tvillingen slutter ikke med overleveringen av bygget. Våre BIM-objekter er COBie-kompatible og gir Facility Management alle nødvendige vedlikeholdsintervaller, sertifikater og driftsdata for en sikker livssyklus på over 50 år."
+          }
+        ],
+        "eyebrow": "Workflow Excellence",
+        "title": "Digitale tvillinger til perfeksjon.",
+        "lead": "Et innblikk i dybden av data som eliminerer gapet mellom planlegging og virkelighet."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fase 1",
+            "title": "Konsept & TGA-Planlegging",
+            "text": "Integrasjon av K Aqua grunngeometrier i tidlig design. Rask mengdeberegning og innledende kollisjonskontroll for rutekonseptet i MEP-hovedplanen."
+          },
+          {
+            "year": "Fase 2",
+            "title": "Utførelsesplanlegging",
+            "text": "Konvertering til LOI 400. De nøyaktige spesifikasjonene, strømningshastighetene og trykktapsberegningene flyter direkte inn i den hydrauliske nettverksberegningen for bygget."
+          },
+          {
+            "year": "Fase 3",
+            "title": "Anbud & Tildeling",
+            "text": "Automatisert generering av feilfrie stykklister (BOM) direkte fra modellen. Hvert tilbehør har K Aqua artikkelnummer og VDI 3805 data."
+          },
+          {
+            "year": "Fase 4",
+            "title": "Prefabrikasjon og montering",
+            "text": "Eksport av isometriske tegninger for industriell prefabrikasjon. Millimeternøyaktige spool-tegninger minimerer sveisearbeid på byggeplassen til et absolutt minimum."
+          },
+          {
+            "year": "Fase 5",
+            "title": "As-Built og drift",
+            "text": "Overlevering av den ferdigbygde (As-Built) modellen. Den digitale tvillingen fungerer som den eneste kilden til sannhet for anleggsadministrasjon over hele bygningens levetid."
+          }
+        ],
+        "title": "Livssyklusen til K Aqua BIM-data",
+        "desc": "Fra den første skissen til flere tiår med drift. Våre data følger prosjektet ditt i alle faser."
+      },
+      "hero": {
+        "desc": "Denne modulen leverer kompromissløs sikkerhet for de mest krevende prosjektene over hele verden. Produsert til de strengeste bransjestandardene for å vare i generasjoner. Last ned den digitale tvillingen der maskinvarefeil ikke er et alternativ.",
+        "btnPrimary": "BIM bibliotek (Revit/IFC)",
+        "btnGhost": "Be om BIM-rådgivning"
+      },
+      "intro": {
+        "title1": "DNAet til rørsystemene våre.",
+        "title2": "Nå i skyen.",
+        "p1": "Vi ser ikke på BIM som en ren 3D-tegning. For K Aqua betyr Building Information Modeling overføring av vår kompromissløse produksjonspresisjon til det digitale rommet. Når internasjonale totalentreprenører planlegger skyskrapere, datasentre eller høysikkerhetslaboratorier, trenger de ikke estimerte verdier, de trenger fysisk virkelighet i form av data.",
+        "p2": "Datasentrene våre er resultatet av tiår med tysk ingeniørkunst. Hver veggtykkelse, hver væskedynamikk og hver termisk egenskap ble validert av våre ingeniører og oversatt naturlig til familiene."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Native Revit® familier",
+            "desc": "Ingen konverteringstap. Programmert direkte som .rfa og .rvt for topp ytelse og opprinnelige ruting-preferanser."
+          },
+          {
+            "title": "VDI 3805 overholdelse",
+            "desc": "Standardiserte produktdata for jevn datautveksling gjennom hele MEP-kjeden."
+          },
+          {
+            "title": "IFC4 testing",
+            "desc": "Maksimal interoperabilitet gjennom åpne BIM-standarder (OpenBIM). Garantert å være lesbar i ArchiCAD, Allplan og Vectorworks."
+          },
+          {
+            "title": "Nøyaktige termiske data",
+            "desc": "Integrerte beregningsmodeller for lineær ekspansjon, termisk ledningsevne (0,24 W/mK) og rørfriksjonstrykkfall."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Last ned K Aqua BIM-pakken.",
+        "desc": "Full tilgang til alle opprinnelige Revit-familier, IFC-filer og VDI 3805-datasett. Gratis for planleggere og ingeniører.",
+        "btnPrimary": "Til Nedlastingssenter",
+        "btnOutline": "Kontakt BIM Manager"
+      }
+    },
+    "common": {
+      "eyebrow": "K Aqua RESOURCE",
+      "subtitle": "Engineered in Germany.",
+      "lead": "Denne modulen leverer kompromissløs sikkerhet for de mest krevende prosjektene over hele verden. Produsert til de strengeste bransjestandardene for å vare i generasjoner. Der materielle feil ikke er et alternativ.",
+      "btnProject": "Forespørsel om prosjekt",
+      "btnData": "Tekniske data",
+      "valEyebrow": "German Engineering",
+      "valTitle": "Sikkerhet uten kompromisser.",
+      "valLead": "Når internasjonale hovedentreprenører planlegger milliardprosjekter stoler de ikke på løfter, men på harde fakta.",
+      "valCardTitle": "Verdiløfte 0{item}",
+      "valCardDesc": "Hvert element forlater vår fabrikk med en absolutt nullfeilstoleranse. Presisjon produsert etter de strengeste tyske standarder for å være 100 % vedlikeholdsfri.",
+      "authTitle": "Den industrielle autoriteten for {module}.",
+      "authP1": "I flere tiår har vi kombinert håndverkstolthet med topp moderne, høyt automatisert produksjonsteknologi på vår fabrikk i hjertet av Tyskland.",
+      "authP2": "I bruk i de tøffeste ørkenene og de mest ekstreme klimasoner i verden, beviser materialet vårt seg hver dag. Vi setter standarden som resten av verden følger.",
+      "list1": "Sertifisert i henhold til DIN EN ISO 15874",
+      "list2": "Levetid > 50 år",
+      "list3": "Vedlikeholdsfri og korrosjonsbestandig",
+      "placeholder": "Visual Asset Placeholder",
+      "ctaTitle": "Klar for kompromissløs kvalitet?",
+      "ctaLead": "Snakk med vårt ingeniørteam om ditt neste megaprosjekt."
+    },
+    "ausschreibungstexte": {
+      "meta": {
+        "title": "Offisielle anbudstekster for PP-R rørsystemer",
+        "desc": "Last ned detaljerte K-Aqua anbudstekster. Vi tilbyr kompromissløs sikkerhet gjennom tysk ingeniørkunst for dine globale megaprosjekter."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fase 1: Parametrisering",
+            "title": "Definisjonen av perfeksjon.",
+            "text": "Prosessen starter i MEP-planlegging. Nøyaktig definisjon av nominelle diametre, trykkklasser (PN) og SDR-klasser for varmt og kaldt vann. Vi legger ikke igjen noen gråsoner. Hver fitting, hver klemme, hver muffe er matematisk nøyaktig registrert."
+          },
+          {
+            "year": "Fase 2: Tildeling",
+            "title": "Innsending uten kompromisser.",
+            "text": "På grunn av den granulære, krystallklare strukturen i tekstene våre, er tilbud virkelig sammenlignbare. Dumpingpriser på grunn av dårlige materialer eller skjulte utelatelser blir umiddelbart åpenbare. Klinten skilles fra hveten."
+          },
+          {
+            "year": "Fase 3: Utførelse",
+            "title": "En plan for byggeplassen.",
+            "text": "Anbudstekstene fungerer som en bindende, juridisk regelbok for byggeledelse og installatører. Hver sveis og hver fiksering må være i samsvar med de spesifiserte DVS-retningslinjene. Avvik blir umuliggjort."
+          },
+          {
+            "year": "Fase 4: Livssyklus",
+            "title": "50+ år med absolutt vedlikeholdsfri.",
+            "text": "Resultatet av en feilfri spesifikasjon er et system som er feilfritt i flere tiår. Maksimal motstandsdyktighet mot korrosjon, inkrustering og kjemisk nedbrytning. Tverrgenerasjonssikkerhet, konstruert i Tyskland."
+          }
+        ],
+        "title": "Fra anbud til evighet.",
+        "desc": "En anbudstekst fra K Aqua er ikke bare et dokument. Det er kildekoden for den bygde virkeligheten. Den definerer, beskytter og dikterer hele livssyklusen til en bygning, fra den første skissen til flere tiår med bruk."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Resource Center",
+        "title1": "Anbudstekster.",
+        "title2": "Engineered in Germany.",
+        "desc": "Arkitektur begynner med en tanke. Prosjektering begynner med en spesifikasjon. Våre K-Aqua-anbudstekster er det juridisk bindende grunnlaget for PP-R-rørsystemer uten kompromisser. Millimeter presis. VOB-kompatibel. Ubestridelig.",
+        "cta1": "Last ned GAEB-tekster",
+        "cta2": "Be om planleggingsråd"
+      },
+      "manifesto": {
+        "title1": "Slutten på tvetydighet.",
+        "title2": "Begynnelsen på absolutt kontroll.",
+        "p1": "I bygningsarkitektur og industrianleggskonstruksjon er vage formuleringer den største eksistensielle risikoen. Et enkelt, upresist ord i spesifikasjonen kan utgjøre forskjellen mellom et system som forblir vedlikeholdsfritt i flere tiår, og katastrofale vannskader i et 50-etasjers høyhus.",
+        "p2": "Derfor skriver vi ikke bare anbudstekster, vi <span class=\"text-foreground font-medium font-semibold\">prosjekterer</span> dem. I likhet med hver enkelt K Aqua-rørdel, er våre digitale datapakker også utviklet i Tyskland og testet under ekstreme forhold. De oversetter fysisk overlegenhet til juridisk og økonomisk uangripelighet."
+      },
+      "bento": {
+        "eyebrow": "Dataenes arkitektur",
+        "title": "Spesifikasjoner som beskytter.",
+        "lead": "Utviklet for TGA-spesialistplanleggere, arkitekter og visjonære ingeniører som ikke kan tolerere noen feil ved planlegging av milliardprosjekter.",
+        "items": [
+          {
+            "title": "VOB/C og DIN 18381 kompatibel",
+            "desc": "Hver enkelt vare tilsvarer nøyaktig det siste tildelings- og kontraktsreglementet for byggeytelser. Du er absolutt på den sikre siden juridisk og minimerer ansvarsrisikoen drastisk."
+          },
+          {
+            "title": "Støtter GAEB formater",
+            "desc": "XML, d81, d83. Perfekt importkompatibilitet for ORCA, RIB iTWO, Nevaris og alle vanlige AVA-systemer. Ingen syntaksfeil, ingen løsninger."
+          },
+          {
+            "title": "Produsentnøytrale varianter",
+            "desc": "For offentlige anskaffelsesprosedyrer tilbyr vi juridisk sikre, absolutt produktnøytrale beskrivelser som setter premiumstandarden uten å bryte anskaffelsesretningslinjene."
+          },
+          {
+            "title": "Detaljert tilbehørsmatrise",
+            "desc": "Fra det komplekse støpte tilbehøret til stengeventilen til den termodynamiske monteringsklemmen: sømløs registrering av hele økosystemet forhindrer kostbare tillegg."
+          },
+          {
+            "title": "BIM-Ready Integrasjon",
+            "desc": "Koble anbudstekstene våre sømløst til våre svært detaljerte Revit-modeller for en konsistent, konfliktfri 5D-planlegging i sanntid."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Anatomien til en varelinje.",
+        "desc": "Vi overlater ingenting til tilfeldighetene. Hvert element er et mesterverk av tysk ingeniørkunst, komprimert i tekstform. Her er hva tekstene våre dekker i detalj:",
+        "items": [
+          {
+            "title": "Rørsystemer SDR 6 / SDR 7.4",
+            "desc": "PN 20. Fiberkomposittteknologi med integrert minimering av lineær utvidelse for maksimal dimensjonsstabilitet."
+          },
+          {
+            "title": "Elektrosveisebeslag",
+            "desc": "Helautomatisk sveisedokumentasjon og 100 % homogene, permanente og lekkasjesikre skjøter."
+          },
+          {
+            "title": "Overgangsforskruninger",
+            "desc": "Avsinkingsfri førsteklasses messing (DZR), permanent og uatskillelig støpt inn i PP-R matrisen."
+          },
+          {
+            "title": "Avstengningsventiler",
+            "desc": "Vedlikeholdsfrie kule- og seteventiler, strømningsoptimalisert og dødtrom-minimert for legionellabeskytning."
+          },
+          {
+            "title": "Manifold systemer",
+            "desc": "Modulære, høykapasitets fordelere for komplekse stigerør og gulvforbindelser i store prosjekter."
+          },
+          {
+            "title": "Isolasjon i henhold til GEG",
+            "desc": "Integrerte spesifikasjoner for å strengt unngå varmetap og kondens (som faller under duggpunktet)."
+          },
+          {
+            "title": "Brannbeskyttelseskrager",
+            "desc": "R90/R120 kompatible, svært reaktive skott-systemer for sikre vegg- og takgjennomføringer."
+          },
+          {
+            "title": "Systemfester",
+            "desc": "Nøyaktige spesifikasjoner for faste og flytende lager for kontrollert absorpsjon av termisk lineær ekspansjon."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Begynn med spesifikasjonen.",
+        "desc": "Få tilgang til vårt komplette, kontinuerlig oppdaterte bibliotek med anbudstekster. Garantert feilfri, standardkompatibel og klar til bruk i ditt neste internasjonale megaprosjekt.",
+        "btn1": "Gå til nedlastingsportalen",
+        "btn2": "Kontakt rådgivningsteamet"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Absolutt rettssikkerhet (VOB/C)",
+            "desc": "I planleggingen av internasjonale megaprosjekter er tvetydighet fienden. Et enkelt manglende ord i spesifikasjonene kan utgjøre forskjellen mellom et system som forblir vedlikeholdsfritt i flere tiår, og en katastrofal millioners skade. Våre anbudstekster er standardisert til på millimeteren iht. VOB/C og DIN 18381. Hver tjenestebeskrivelse er kalibrert på en slik måte at tekniske smutthull, tolkningsrom og juridiske gråsoner er fullstendig eliminert. Slik garanterer vi at kvaliteten du spesifiserer på papiret, er nøyaktig den kvaliteten som monteres på byggeplassen."
+          },
+          {
+            "title": "100% GAEB & ÖNORM-kompatibilitet",
+            "desc": "En moderne planleggingsprosess krever sømløs dataflyt. Datasettene våre er ikke bare tekst, de er svært strukturerte, maskinlesbare gjenstander designet for umiddelbar integrering i enhver profesjonell AVA-programvare (anbud, tildeling, fakturering). Vi leverer native formater (GAEB 90, GAEB 2000, GAEB DA XML) samt Datanorm og ÖNORM. Ingen konverteringstap. Ingen manuell etterarbeid kreves. En digital arbeidsflyt som øker planleggingseffektiviteten med opptil 40 % og samtidig matematisk eliminerer overføringsfeil."
+          },
+          {
+            "title": "Materialspesifikasjon: PPR-C (Type 3)",
+            "desc": "Vanninfrastruktur er et bygnings nervesystem. Våre varelinjer definerer klart og entydig den overlegne molekylære strukturen til vår polypropylen random kopolymer (PPR-C Type 3). De fikser kritiske parametere som krypestyrke, krypeadferd og termisk lengdeutvidelse. Bare gjennom denne kompromissløse detaljdybden kan du effektivt beskytte prosjektet ditt mot dårligere derivater og farlige forfalskninger, som uunngåelig ville kapitulert ved topptrykk på 20 bar eller temperaturfluktuasjoner."
+          },
+          {
+            "title": "Termodynamisk og akustisk presisjon",
+            "desc": "Premium arkitektur krever premium fysikk. Et profesjonelt anbud dekker ikke bare selve rørsystemet, men hele det fysiske økosystemet. Tekstene våre inneholder detaljerte spesifikasjoner for varmetapskoeffisienter i henhold til Building Energy Act (GEG) / EnEV, samt strenge lydisolasjonskrav (DIN 4109). Dette sikrer at anlegget ditt ikke bare er mekanisk ekstremt spenstig, men opererer også termodynamisk med stor effektivitet og akustisk i det absolutte premiumsegmentet (hviskestandard)."
+          },
+          {
+            "title": "Bærekraftsmålinger (ESG & LEED)",
+            "desc": "Fremtidens bygging er sirkulær og CO2-optimalisert. Anbud må i dag kunne bevise grønne standarder. K Aqua-tekster integrerer fullstendige EPD-er (Environmental Product Declarations) og livssyklusvurderinger. Vi definerer det nøyaktige økologiske fotavtrykket, resirkulerbarheten og energieffektiviteten i ekstrudering. Perfekt for bygninger som skal testes i henhold til DGNB, LEED, BREEAM eller WELL. Spesifiser grønn ytelse, ikke bare grønne løfter."
+          }
+        ]
+      }
+    }
+  }

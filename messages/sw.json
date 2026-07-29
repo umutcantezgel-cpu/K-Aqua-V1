@@ -1,0 +1,2203 @@
+{
+  "toggle_theme_light": "Badilisha kwenye muundo mweupe",
+  "toggle_theme_dark": "Badilisha kwenye muundo mweusi",
+  "nav": {
+    "home": "Mwanzo",
+    "products": "Bidhaa",
+    "finder": "Mtafutaji wa Bidhaa",
+    "co2": "Kikokotoo cha CO₂",
+    "markets": "Masoko",
+    "trust": "Kituo cha Uaminifu",
+    "contact": "Mawasiliano",
+    "quote": "Omba Nukuu",
+    "menu": "Menyu",
+    "lang": "Lugha",
+    "skipToContent": "Ruka hadi kwenye maudhui",
+    "menuPlaceholder": "Kishika nafasi (Menyu Kuu)",
+    "academy": "Chuo",
+    "service": "Huduma",
+    "about": "Kampuni",
+    "solutions": "Masuluhisho",
+    "partners": "Ushirikiano",
+    "references": "Marejeleo",
+    "career": "Kazi",
+    "news": "Habari",
+    "knowledge_trust": "Maarifa & Uaminifu",
+    "mapAria": "Fungua urambazaji wa ramani",
+    "sitemapAria": "Muhtasari wa tovuti",
+    "pipes": "Mabomba",
+    "fittings": "Fitingi",
+    "valves": "Valvu",
+    "accessories": "Vifaa",
+    "tools": "Zana"
+  },
+  "groups": {
+    "tools": "Zana",
+    "knowledge": "Maarifa",
+    "company": "Kampuni",
+    "products": "Bidhaa",
+    "markets_solutions": "Masoko & Masuluhisho",
+    "knowledge_resources": "Maarifa & Rasilimali"
+  },
+  "menu": {
+    "pipes": "Mabomba",
+    "fittings": "Fitingi",
+    "transition": "Fitingi za mpito",
+    "valves": "Valvu & Mabomba",
+    "tools": "Zana za kulehemu"
+  },
+  "quote": "Ombi la mradi",
+  "notFound": {
+    "title": "Ukurasa haujapatikana",
+    "description": "Ukurasa ulioombwa haupo au umehamishwa.",
+    "backHome": "Rudi Mwanzo"
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Ulaya",
+    "nahost": "Mashariki ya Kati",
+    "global": "Afrika & Asia-Pasifiki"
+  },
+  "pages": {
+    "catalogOverview": "Muhtasari wa Katalogi Kamili",
+    "products": [
+      "Bidhaa & Fitingi",
+      "Gundua mifumo kamili ya mabomba ya plastiki ya K Aqua kuanzia d20 hadi d630 mm. Mabomba ya utendaji wa juu ya PP-R na PPRCT kwa matumizi ya nyumbani na viwandani."
+    ],
+    "finder": [
+      "Mtafutaji wa Bidhaa",
+      "Pata bomba la PP-R au PPRCT, fitingi au valvu kamili mara moja. Chuja katalogi yetu moja kwa moja kulingana na vipimo, darasa la shinikizo na unene wa ukuta."
+    ],
+    "finderGuideText": "<h2>Mtafutaji Kuingiliana wa Bidhaa kwa Mifumo ya Mabomba ya K-Aqua</h2><p>Tumia mtafutaji wetu wa bidhaa wa kibunifu kutambua kipande kinachofaa zaidi kwa usakinishaji wako mahususi wa mabomba. Iwe unatafuta mabomba ya kawaida ya PP-R kwa usakinishaji wa maji ya kunywa, mabomba ya PPRCT yaliyoimarishwa na nyuzi kwa mitambo ya viwanda inayohitaji, au fitingi za mpito na valvu maalum - zana yetu huchuja katalogi nzima katika muda halisi. Utafutaji wa bidhaa unakusaidia kuchagua kulingana na kipenyo (d20 hadi d630), darasa la shinikizo (Darasa la SDR), na nyenzo.</p><p>Mfumo wa mabomba uliopangwa vizuri unahitaji mipango makini na muunganisho kamili wa mabomba, fitingi (kama soketi, viwiko, na T-vipande), na vifaa husika. Mtafutaji wetu wa bidhaa huondoa utafutaji unaotumia muda mwingi katika katalogi tuli za PDF na badala yake hukupa data ya papo hapo na ya kuaminika kuhusu nambari za bidhaa, vitengo vya ufungaji, na vipimo vya kiufundi. Kwa kubofya mara chache tu, unaweza kuandaa orodha yako ya vifaa na kuhakikisha utangamano wa vipengele mbalimbali kwa mifumo ya joto, kupoza, na maji ya kunywa. Hii sio tu inaboresha mchakato wako wa kupanga bali pia inapunguza makosa wakati wa kuagiza vifaa kwa mradi wako ujao wa ujenzi.</p>",
+    "co2": [
+      "Kikokotoo cha CO2",
+      "Linganisha nyayo za CO2 za mabomba ya plastiki ya K Aqua ya PP-R na shaba, chuma cha pua, na PVC. Imethibitishwa kulingana na ISO 14040/44 kwa Ujenzi wa Kijani."
+    ],
+    "solutions": [
+      "Faida za Nyenzo",
+      "Jifunze kwa nini Polypropylen (PP-R/PPRCT) ni nyenzo bora zaidi kwa usambazaji wa maji. Kiikolojia, kiufundi ya kisasa, na kiuchumi."
+    ],
+    "academy": [
+      "Chuo cha K-Aqua: Mbinu za Kulehemu za PP-R na Utaalamu",
+      "Jifunze mbinu za kitaalamu za kulehemu kwa mabomba ya plastiki ya PP-R. Tazama mafunzo ya video na ukamilishe Maswali yetu ya Mwalimu wa Kulehemu."
+    ],
+    "trust": [
+      "Kituo cha Uaminifu",
+      "Fikia nyaraka za ubora za K Aqua. Pakua vyeti vya ISO, mfumo wa GENAU, na nyaraka za ukaguzi kwa mradi wako."
+    ],
+    "service": [
+      "Kituo cha Huduma na Upakuaji",
+      "Pakua katalogi rasmi za bidhaa za K Aqua, karatasi za data za kiufundi, na miongozo ya usakinishaji wa mifumo ya mabomba ya plastiki ya PP-R na PPRCT."
+    ],
+    "partner": [
+      "Ushirikiano wa KESSEL",
+      "K Aqua na KESSEL wanaunganishwa na ushirikiano wa miongo kadhaa ambao huhamisha viwango vya uzalishaji vya Ujerumani kutoka kwenye mifereji ya maji kwenda kwenye usambazaji wa maji."
+    ],
+    "markets": [
+      "Masoko & Maeneo",
+      "K Aqua inasambaza mifumo ya mabomba ya PP-R katika zaidi ya nchi 27. Tumia ramani yetu ya dunia inayoingiliana kwa viwango vya ndani, profaili za maji, na taarifa za vifaa."
+    ],
+    "references": [
+      "Miradi ya Marejeleo",
+      "Gundua miradi ya marejeleo kote ulimwenguni ukitumia mifumo ya mabomba ya K-Aqua PP-R. Globu yetu ya 3D inayoingiliana inaonyesha mitambo ya nyumbani, kibiashara na viwandani."
+    ],
+    "about": [
+      "Kuhusu KWT GmbH",
+      "KWT GmbH inachanganya uzoefu wa miongo kadhaa ili kutengeneza mfumo wa mabomba wa kiwango cha juu wa K Aqua. Uhandisi wa Kijerumani kwa ubora na ubunifu wa hali ya juu."
+    ],
+    "career": [
+      "Kazi katika K-Aqua",
+      "Kuwa sehemu ya timu yetu mjini Waldsolms. Kokotoa manufaa yako ya jumla yasiyo na kodi na ujaribu katika sekunde 60 ikiwa K Aqua inakufaa."
+    ],
+    "news": [
+      "Matukio & Habari | Matangazo ya Kampuni ya K-Aqua",
+      "Pata taarifa kuhusu ubunifu wa K Aqua, bidhaa, maonyesho ya biashara, na kujitolea kwetu kwa uzalishaji uliothibitishwa mara tatu na ISO."
+    ],
+    "contact": [
+      "Mawasiliano, Mauzo & Msaada",
+      "Wasiliana na timu ya wataalamu wa K Aqua kwa maswali ya mauzo, msaada au ushirikiano. Nyakati za majibu ya haraka kwa wateja wa B2B wa kimataifa."
+    ],
+    "rfq": [
+      "Ombi la Mradi",
+      "Omba nukuu isiyo na wajibu kwa mradi wako unaofuata wa mabomba katika hatua nne rahisi. Timu yetu ya mauzo itawasiliana nawe ndani ya saa 24."
+    ],
+    "home": [
+      "Mifumo ya Mabomba ya PP-R & PPRCT",
+      "K Aqua inatengeneza mifumo ya mabomba ya plastiki ya PP-R na PPRCT ya kiwango cha kwanza kwa maji ya kunywa na matumizi ya viwandani. Uhandisi wa Kijerumani kwa miradi ya kimataifa."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Sera ya Faragha",
+        "Sera kamili ya faragha kwa tovuti ya K Aqua kulingana na miongozo ya GDPR."
+      ],
+      "impressum": [
+        "Alama & Taarifa za Kisheria",
+        "Alama na taarifa za kisheria za kampuni ya KWT GmbH, mtengenezaji wa K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "ubora uliothibitishwa",
+      "title1": "Mfumo wa Usimamizi wa ",
+      "titleHighlight": "GENAU",
+      "title2": " Mfumo",
+      "p1": "Lengo la Mfumo wa Usimamizi wa GENAU ni uboreshaji endelevu wa afya, usalama na mazingira ya kazi katika kampuni.",
+      "p2": "Shughuli zote za kampuni katika KWT hufanywa kwa kuzingatia uhifadhi wa rasilimali, uendelevu wa mazingira, na kufuata madhubuti ahadi zote. Usimamizi wa GENAU unaotekelezwa unakidhi mahitaji ya juu ya ",
+      "p3": " na ",
+      "list1Title": "Wajibu wa Kiikolojia",
+      "list1Desc": "Ulinzi wa mazingira ni sehemu ya uelewa wetu wa ubora, ambao wafanyakazi wote wa KWT GmbH wanajitolea.",
+      "list2Title": "Ufanisi wa Nishati",
+      "list2Desc": "Utambulisho makini wa hatari na utekelezaji wa hatua za kuboresha ufanisi wa nishati."
+    },
+    "pipes": [
+      "Mabomba & Mifumo",
+      "Mabomba ya utendaji wa juu ya PP-R na PP-RCT kwa matumizi ya nyumbani na viwandani. Gundua madaraja yote ya SDR na vipimo kwa mradi wako unaofuata."
+    ],
+    "fittings": [
+      "Fitingi",
+      "Aina kamili ya fitingi kwa mifumo yote ya mabomba ya K-Aqua. Gundua viwiko, T-vipande, vipunguza, na soketi kwa muunganisho wa polyfusion."
+    ],
+    "valves": [
+      "Valvu",
+      "Valvu za kiwango cha kwanza na vifaa kwa mitandao ya mabomba. Valvu za mpira za ubora wa juu, valvu zilizofichwa, valvu za kiti cha pembe, na valvu za kuzuia kurudi nyuma."
+    ],
+    "tools": [
+      "Zana & Vifaa",
+      "Zana za kitaalamu za kulehemu na vifaa kwa usakinishaji wa PP-R. Gundua mashine za kulehemu, vikata mabomba, na zana maalum."
+    ],
+    "transition-fittings": [
+      "Mabadiliko",
+      "Fitingi za mpito za kuaminika kwa viunganisho salama. Gundua fitingi za mpito za shaba na viunganisho vya nyuzi au flana."
+    ]
+  },
+  "home": {
+    "chip": "imethibitishwa tangu Oktoba 2025",
+    "h1a": "Inayoongoza katika",
+    "h1b": "Mifumo ya Mabomba ya K-Aqua PP-R",
+    "globeAria": "Globu inayoingiliana, buruta kuzungusha",
+    "scrolly": [
+      {
+        "t": "Imetengenezwa Ujerumani",
+        "d": "Maendeleo na uzalishaji katika eneo la Waldsolms kwa kila bomba, kila fitingi."
+      },
+      {
+        "t": "d20 hadi d630",
+        "d": "Mfumo kamili: madaraja matano ya shinikizo, fitingi, valvu na teknolojia ya kulehemu."
+      },
+      {
+        "t": "Imekaguliwa mara tatu",
+        "d": "ISO 9001, 14001 na 50001: Ubora, mazingira na nishati kutoka kwa mfumo mmoja wa usimamizi."
+      },
+      {
+        "t": "Masoko 27 duniani kote",
+        "d": "Kutoka Frankfurt hadi NEOM: imepimwa dhidi ya viwango na profaili za maji za ndani."
+      }
+    ],
+    "lead": "K-Aqua inatengeneza na kuzalisha mifumo ya mabomba ya PP-R na PP-RCT kwa maji ya kunywa kuanzia milimita 20 hadi 630, kwa ushirikiano na mtengenezaji mkuu KESSEL.",
+    "ctaProducts": "Gundua mfumo wa bidhaa",
+    "ctaContact": "Wasiliana nasi",
+    "toolsEyebrow": "Zana Zinazoingiliana",
+    "toolsTitle1": "Hakuna jangwa la maandishi.",
+    "toolsTitle2": "Zana.",
+    "toolsLead": "Tovuti inakufanyia kazi: chuja, kokotoa, jifunze.",
+    "bandTitle": "Uko tayari kwa kizazi kijacho cha usambazaji wa maji?",
+    "bandLead": "Zungumza na timu yetu ya mauzo kuhusu mradi wako, kuanzia kupanga hadi teknolojia ya kulehemu.",
+    "bandBtn": "Anzisha ombi la mradi",
+    "bandBtn2": "Vipakuliwa & Huduma"
+  },
+  "footer": {
+    "tagline": "K-Aqua, kiongozi katika usambazaji wa maji. Mifumo ya mabomba ya PP-R/PP-RCT kwa maji ya kunywa, inayotengenezwa na KWT GmbH mjini Waldsolms.",
+    "colTools": "Bidhaa & Zana",
+    "colCompany": "Kampuni",
+    "colContact": "Mawasiliano",
+    "directions": "Maelekezo & Mahali",
+    "rights": "Haki zote zimehifadhiwa.",
+    "imprint": "Alama",
+    "privacy": "Sera ya Faragha",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Ujerumani",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Omba mradi",
+    "badges": [
+      {
+        "t": "Vyeti vya SKZ",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Viwango vya Bomba la PP-R"
+      },
+      {
+        "t": "Uendelevu",
+        "s": "Rafiki kwa Mazingira"
+      },
+      {
+        "t": "Mfumo wa GENAU",
+        "s": "Usimamizi Jumuishi"
+      },
+      {
+        "t": "Imetengenezwa Ujerumani",
+        "s": "Uzalishaji huko Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Usanifu wa Tovuti na Coday",
+        "Mradi wa Coday Web Agency",
+        "Coday Web Agency",
+        "Imewekwa dijitali na Coday"
+      ],
+      "srDesc": "Tovuti hii ilibuniwa na kutekelezwa kitaalam na Coday Web Agency, wataalamu wa usanifu wa tovuti na GEO katika eneo la Hessen.",
+      "linkTitle": "Kwenda Coday Web Agency - Usanifu Bora wa Tovuti"
+    }
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "kipenyo cha juu cha bomba kwenye programu"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Madaraja ya shinikizo: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Ubora, Mazingira & Nishati zimepimwa"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Taka za uzalishaji zinarejelewa"
+      }
+    ],
+    "heroBadgeLabel": "Vipimo vya mabomba, SDR 6 hadi SDR 17",
+    "marquee": [
+      "Inayoongoza katika usambazaji wa maji",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Imetengenezwa Waldsolms",
+      "Usindikaji wa 100 %",
+      "Mshirika: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Mtafutaji wa Bidhaa",
+        "d": "Chuja zaidi ya aina 170+ za bidhaa moja kwa moja: Kipimo, SDR, unene wa ukuta mara moja.",
+        "cta": "Chuja sasa"
+      },
+      {
+        "id": "co2",
+        "t": "Kikokotoo cha CO₂",
+        "d": "Mradi wako dhidi ya shaba, chuma cha pua na PVC, kwa miti na kilomita za gari.",
+        "cta": "Kokotoa sasa"
+      },
+      {
+        "id": "academy",
+        "t": "Chuo + Maswali",
+        "d": "Video za mbinu nne za kulehemu, kisha Maswali ya Mwalimu wa Kulehemu.",
+        "cta": "Kuwa mwalimu"
+      },
+      {
+        "id": "references",
+        "t": "Globu ya Marejeleo",
+        "d": "Zungusha sayari, gundua miradi: kutoka Waldsolms hadi Singapore.",
+        "cta": "Zungusha globu"
+      },
+      {
+        "id": "trust",
+        "t": "Kituo cha Uaminifu",
+        "d": "Angalia vyeti na uandae kifurushi cha nyaraka za RFP wewe mwenyewe.",
+        "cta": "Unda kifurushi"
+      },
+      {
+        "id": "career",
+        "t": "Kikokotoo cha Manufaa",
+        "d": "Nini maana ya ziada zisizo na kodi katika wavu, pamoja na Uwiano wa Utamaduni wa sekunde 60.",
+        "cta": "Angalia wavu"
+      }
+    ],
+    "vsEyebrow": "Tofauti",
+    "vsTitle": "Kiwango cha tasnia dhidi ya K Aqua kidijitali.",
+    "vsBadTitle": "Hivi ndivyo tasnia inavyofanya",
+    "vsGoodTitle": "Hivi ndivyo K Aqua inavyofanya",
+    "vsBad": [
+      "Katalogi za PDF zenye kurasa 220 bila utafutaji",
+      "Vyeti kwa ombi la maandishi pekee",
+      "Data za kiufundi zilizofichwa kwenye majedwali",
+      "Ukurasa wa kazi: kisanduku cha barua"
+    ],
+    "vsGood": [
+      "Mtafutaji wa bidhaa: chuja kwa sekunde",
+      "Kituo cha Uaminifu: Vipakuliwa kama Huduma ya Kibinafsi",
+      "Kikokotoo cha CO₂ kinafanya data kuwa hoja",
+      "Kikokotoo cha manufaa + Uwiano wa Utamaduni"
+    ],
+    "coEyebrow": "Kampuni",
+    "coTitle1": "Msambazaji wa vifaa vya ujenzi na mtengenezaji:",
+    "coTitle2": "kutoka chanzo kimoja.",
+    "coLead": "KWT GmbH inatengeneza mabomba na fitingi kwa usambazaji wa maji kutoka kwa plastiki mbalimbali na inajiweka katika mnyororo wa thamani wa ujenzi kama msambazaji na mtengenezaji kwa wakati mmoja.",
+    "kesselTitle": "Ushirikiano thabiti na KESSEL",
+    "kesselText": "Kwa kushirikiana na mtengenezaji mkuu KESSEL, \"Inayoongoza katika mifereji ya maji\", tunaunganishwa na ushirikiano wa karibu, wa muda mrefu. Tunaleta uzoefu huu wa miongo kadhaa kwenye siku zijazo.",
+    "kesselCta": "Zaidi kuhusu ushirikiano",
+    "worldTitle": "Imethibitishwa duniani kote",
+    "worldText": "Bidhaa za K Aqua zimethibitishwa mara nyingi katika miradi ulimwenguni kote kwa miongo kadhaa.",
+    "worldCta": "Globu ya Marejeleo",
+    "cards": [
+      {
+        "t": "Mfumo wa Usimamizi wa GENAU",
+        "d": "Uboreshaji endelevu wa usalama na afya kazini na utunzaji wa mazingira kulingana na DIN EN ISO 14001 na 50001."
+      },
+      {
+        "t": "Uzalishaji nchini Ujerumani",
+        "d": "Maendeleo na uzalishaji katika eneo la Waldsolms: Ubora, gharama na tarehe za mwisho daima kwa upatano."
+      },
+      {
+        "t": "Wajibu wa Kiikolojia",
+        "d": "Uhifadhi wa rasilimali na utangamano wa mazingira ni sehemu muhimu ya uelewa wetu wa ubora."
+      }
+    ],
+    "manifestTitle": "Dhamira yetu",
+    "manifestText": "Maji ni rasilimali yetu yenye thamani zaidi. Tunayalinda kwa mifumo ya mabomba inayoangalia mbele.",
+    "grEyebrow": "Ufikiaji wa Kimataifa",
+    "grTitle1": "Njia za biashara za",
+    "grTitle2": "kimataifa",
+    "grLead": "Kutoka Ujerumani hadi duniani: Mifumo yetu ya mabomba ya K Aqua ndio uti wa mgongo wa miradi mikubwa ya kisasa zaidi ulimwenguni kote. Kutoka NEOM nchini Saudi Arabia hadi mitambo ya viwanda inayohitaji utaalam wa hali ya juu huko Singapore.",
+    "grHqLabel": "Makao Makuu & Uzalishaji",
+    "grHqValue": "Ujerumani (Frankfurt)",
+    "grExportLabel": "Masoko makuu ya usafirishaji",
+    "grExportValue": "Saudi Arabia (NEOM), UAE, Qatar, Amerika ya Kusini",
+    "grCta": "Gundua miradi duniani kote"
+  },
+  "news": {
+    "eyebrow": "Habari & Matukio",
+    "title1": "Taarifa za hivi punde kutoka",
+    "titleGrad": "K Aqua.",
+    "date": "Oktoba 2025",
+    "h2": "Tumethibitishwa mara tatu na ISO",
+    "p": "Mfumo wetu wa usimamizi wa ISO umepanuliwa na sasa unajumuisha ubora, mazingira, na usimamizi wa nishati:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Mfumo wa Usimamizi wa Ubora"
+      ],
+      [
+        "ISO 14001:2015",
+        "Mfumo wa Usimamizi wa Mazingira"
+      ],
+      [
+        "ISO 50001:2018",
+        "Mfumo wa Usimamizi wa Nishati"
+      ]
+    ],
+    "btnDe": "Cheti (DE)",
+    "btnEn": "Cheti (EN)",
+    "eventsTitle": "Maonyesho ya Biashara & Matukio",
+    "eventsText": "Tembelea K Aqua katika matukio yajayo. Kwa sasa hakuna tarehe zilizotangazwa. Tafadhali angalia tena hivi karibuni.",
+    "lead": "Soma habari za hivi punde kutoka K Aqua. "
+  },
+  "contact": {
+    "eyebrow": "Mawasiliano",
+    "title1": "Tuzungumze kuhusu mradi",
+    "titleGrad": "wako.",
+    "locTitle": "Mahali Ujerumani",
+    "salesTitle": "Mauzo",
+    "supportTitle": "Ubora & Usaidizi wa Kiufundi",
+    "supportText": "Tuzungumze kuhusu mradi wako. Timu yetu ya usaidizi inaweza kusaidia na maswali ya kiufundi kuhusu mipango, nyenzo na usindikaji."
+  },
+  "imprint": {
+    "eyebrow": "Kisheria",
+    "title": "Alama",
+    "rows": [
+      [
+        "Kampuni",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Usimamizi",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Mahakama ya Usajili",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Makao Makuu",
+        "Waldsolms"
+      ],
+      [
+        "Nambari ya VAT",
+        "DE 296238486"
+      ],
+      [
+        "Simu / Faksi",
+        "+49 (0)60 85 / 9868-410 · Faksi -420"
+      ],
+      [
+        "Barua pepe",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Mtafutaji wa Bidhaa",
+    "title1": "Hakuna jangwa la PDF.",
+    "titleGrad": "Data za papo hapo.",
+    "lead": "Badala ya katalogi za kurasa 220: Chuja mfumo kamili wa PP-R/PPRCT kwa kuingiliana. Kipimo, kiwango cha shinikizo, unene wa ukuta, yote moja kwa moja.",
+    "type": "Aina ya bidhaa",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Imeimarishwa na Nyuzi (GF)",
+      "fitting": "Fitingi"
+    },
+    "sdr": "Kiwango cha Shinikizo (SDR)",
+    "maxD": "Kipenyo cha juu cha nje",
+    "upTo": "hadi",
+    "maxDAria": "Kipenyo cha juu cha nje kwa milimita",
+    "found": "Aina za bidhaa zimepatikana. Kila moja moja kwa moja na unene wa ukuta, kipenyo cha ndani na shinikizo la kawaida.",
+    "catalog": "Katalogi (PDF)",
+    "tableHead": [
+      "Aina",
+      "d (mm)",
+      "SDR",
+      "Ukuta (mm)",
+      "di (mm)",
+      "Shinikizo la kawaida"
+    ],
+    "more": "+ {n} zaidi. Boresha vichungi kwa orodha kamili.",
+    "none": "Hakuna matokeo. Legeza vichungi.",
+    "nextEyebrow": "Fikiria mbele",
+    "nextTitle": "Upangaji wako una urafiki kiasi gani na hali ya hewa?",
+    "nextLead": "Peleka kipimo na urefu moja kwa moja kwenye kikokotoo cha CO₂ na ulinganishe dhidi ya shaba, chuma cha pua na PVC.",
+    "nextCta": "Kwenda kwenye kikokotoo cha CO₂"
+  },
+  "trustAndCases": {
+    "eyebrow": "Usalama Uliothibitishwa",
+    "title": "Ubora Uliothibitishwa & Maeneo ya Maombi",
+    "lead": "Kama mtengenezaji aliyeko Ujerumani, tunahakikisha viwango vya juu zaidi. Mifumo yetu ya mabomba inatumika katika miundombinu muhimu ulimwenguni kote.",
+    "trustTitle": "Imethibitishwa & Imejaribiwa",
+    "iso9001": "Usimamizi wa Ubora",
+    "iso14001": "Usimamizi wa Mazingira",
+    "iso50001": "Usimamizi wa Nishati",
+    "madeInGermany": "Imetengenezwa Ujerumani",
+    "case1Title": "Usambazaji wa maji wa manispaa",
+    "case1Desc": "Usasishaji wa mitandao ya maji ya kunywa. Matumizi ya mabomba ya PPR yasiyo na kutu kwa ulinzi wa juu wa usambazaji na matengenezo madogo.",
+    "case2Title": "Mifumo ya kupoza ya viwanda",
+    "case2Desc": "Usakinishaji wa mabomba ya kiwango kikubwa katika viwanda nzito. Upinzani wa shinikizo la juu na upinzani wa kemikali unahakikisha uaminifu.",
+    "case3Title": "Miundombinu & Uhandisi wa Umma",
+    "case3Desc": "Miradi mikubwa yenye mahitaji makubwa ya kudumu (SDR 11/17). Usakinishaji wa haraka na 100% uwezo wa kurejelewa nyenzo mwishoni mwa maisha yake."
+  },
+  "career": {
+    "eyebrow": "Kazi",
+    "title1": "Kazi katika K-Aqua: Zaidi ya",
+    "titleGrad": "mshahara tu.",
+    "lead": "Kokotoa nini manufaa yasiyo na kodi huleta kwa wavu, na ujaribu kwa sekunde 60 ikiwa K Aqua inakufaa.",
+    "benEyebrow": "Uboreshaji wa Mshahara Wavu",
+    "benTitle": "Kikokotoo cha Manufaa.",
+    "benLead": "Ziada zisizo na kodi na zinazotozwa ushuru mkupuo mara nyingi zina athari kubwa kuliko ongezeko la jumla. Unda kifurushi chako:",
+    "benefits": {
+      "sachbezug": [
+        "Kadi ya Manufaa ya Nyenzo",
+        "Manufaa ya nyenzo yasiyo na kodi, kila mwezi kwenye akaunti ya kadi."
+      ],
+      "lunch": [
+        "Ruzuku ya Chakula",
+        "Vocha za chakula za dijiti kwa chakula cha mchana na duka kuu."
+      ],
+      "internet": [
+        "Ruzuku ya Mtandao",
+        "Ruzuku kwa matumizi ya mtandao binafsi."
+      ],
+      "jobrad": [
+        "Kukodisha Baiskeli (JobRad)",
+        "Baiskeli ya ndoto kupitia ubadilishaji wa mshahara, kuokoa dhidi ya ununuzi wa kibinafsi."
+      ],
+      "kita": [
+        "Ruzuku ya Kituo cha Watoto (Kita)",
+        "Ruzuku isiyo na kodi kwa malezi ya watoto."
+      ],
+      "vwl": [
+        "Faida za Kuunda Utajiri",
+        "Mchango wa akiba wa kila mwezi kutoka kwa mwajiri."
+      ]
+    },
+    "resultLabel": "Wavu zaidi kwa mwezi",
+    "resultNote1": "Hii inalingana takriban na",
+    "resultNote2": "ongezeko la jumla la ~{n} €",
+    "resultNote3": "bila makato.",
+    "resultNote4": "(Thamani ya mwongozo, kulingana na darasa la ushuru.)",
+    "apply": "Tuma maombi sasa",
+    "call": "Au piga simu: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Mlinganishaji wa Utamaduni",
+    "cmTitle": "Je, K Aqua inakufaa?",
+    "cmIntro": "Maswali matano ya uaminifu kuhusu jinsi tunavyofanya kazi na maisha ya kila siku katika uzalishaji. Sio mtihani wa utu, hundi ya ukweli.",
+    "cmStart": "Anza mtihani",
+    "qLabel": "Swali",
+    "cmQ": [
+      {
+        "q": "Unapendelea kufanya kazi vipi?",
+        "o": [
+          "Michakato wazi, timu yenye uzoefu",
+          "Kujaribu kitu kipya kila siku"
+        ]
+      },
+      {
+        "q": "Uzalishaji mkubwa unaendelea. Mashine inaripoti kupotoka.",
+        "o": [
+          "Angalia mara moja, tafuta sababu",
+          "Acha iendelee kwanza"
+        ]
+      },
+      {
+        "q": "Ni nini kinakupa motisha zaidi?",
+        "o": [
+          "Bidhaa inayodumu kwa miaka 50",
+          "Matokeo ya haraka, yanayoonekana"
+        ]
+      },
+      {
+        "q": "Kazi ya zamu kwako ni ...",
+        "o": [
+          "Inapangika na sawa",
+          "Ni ngumu kidogo"
+        ]
+      },
+      {
+        "q": "Uhusiano wako na teknolojia?",
+        "o": [
+          "Nataka kuelewa jinsi mambo yanavyofanya kazi",
+          "Kikubwa ni kwamba inafanya kazi"
+        ]
+      }
+    ],
+    "resHigh": "Ulinganifu mzuri. Usahihi, uaminifu na uelewa wa kiufundi: haswa wasifu wetu.",
+    "resMid": "Ulinganifu mzuri na hitaji la majadiliano. Ni vyema kupiga simu moja kwa moja na kufafanua maisha ya kila siku.",
+    "resLow": "Matokeo ya uaminifu: Maisha ya kila siku ya uzalishaji katika K Aqua labda sio mazingira yako. Mauzo au utawala vinaweza kufaa zaidi.",
+    "sendApp": "Tuma maombi",
+    "again": "Tena"
+  },
+  "co2": {
+    "guideText": "<h2>Uendelevu na Tathmini ya Mzunguko wa Maisha (LCA)</h2><p>Chaguo la mfumo sahihi wa mabomba lina athari kubwa kwa nyayo za CO2 za jengo au mtambo wa viwanda. Kikokotoo cha K-Aqua CO2 kinaruhusu Uchambuzi kamili wa Mzunguko wa Maisha (LCA) kulingana na viwango vya EN 15804. Uchambuzi huu unashughulikia mzunguko mzima wa maisha: kutoka kwa uchimbaji wa malighafi na utengenezaji wa bidhaa (Awamu A1-A3) kupitia usafirishaji na usakinishaji (Awamu A4-A5) hadi awamu ya matumizi (Awamu B) na mwisho wa maisha (Awamu C).</p><p>Ikilinganishwa na mabomba ya kawaida ya chuma kutoka shaba au chuma, mabomba ya PP-R na PPRCT kutoka K-Aqua yana tathmini bora zaidi ya mzunguko wa maisha. Matumizi ya chini ya nishati wakati wa uvujaji wa plastiki na uzito wa chini sana hupunguza sana uzalishaji wa CO2 wakati wa uzalishaji na usafirishaji. Zaidi ya hayo, uso wa ndani laini kama kioo (ukali wa milimita 0.007 tu) huhakikisha upinzani wa chini sana wa mtiririko. Kulingana na mlinganyo wa Darcy-Weisbach, hii ina maana kwamba pampu za mzunguko zinapaswa kutumia nishati (umeme) kidogo sana kusukuma kioevu kupitia mfumo.</p><p>Hasa katika awamu ya matumizi (Awamu B), ambayo mara nyingi huchukua miaka 50 au zaidi kwa mifumo ya mabomba, uokoaji huu wa nishati huongezeka kwa CO2 kubwa na kuokoa gharama (Gharama ya Jumla ya Umiliki, TCO). Hata mwishoni mwa maisha (Awamu C), Polypropylen inatoa faida za kiikolojia kwa sababu inaweza kurejeshwa kwa 100% na inaweza kutumika tena kwa maana ya uchumi wa mzunguko (Moduli D). Tumia kikokotoo hiki kukadiria kwa usahihi na kwa uwazi uwezekano wa akiba ya kiikolojia na kiuchumi ya mradi wako wa K-Aqua.</p>",
+    "eyebrow": "Zana ya Uhandisi ya Kulipia",
+    "title1": "Kifanisi cha LCA & TCO",
+    "titleGrad": "Pro",
+    "lead": "Kokotoa athari halisi za kiikolojia na kiuchumi za mfumo wako wa mabomba katika mzunguko mzima wa maisha. Ukiwa na miundo halisi ya mtiririko (Darcy-Weisbach) na awamu za LCA zinazotii EN.",
+    "tabGeometry": "Bomba",
+    "tabFlow": "Kioevu",
+    "tabEnvironment": "Usakinishaji",
+    "tabLogistics": "LCA",
+    "dia": "Kipenyo cha Kawaida",
+    "length": "Urefu wa bomba",
+    "sdrClass": "Darasa la SDR",
+    "velocity": "Kasi ya mtiririko (v)",
+    "velocityDesc": "Inaathiri sana upotezaji wa shinikizo na nguvu ya pampu (B).",
+    "fluidTemp": "Joto la kioevu",
+    "ambientTemp": "Joto la mazingira",
+    "insulation": "Insulation",
+    "insulationNone": "Hakuna",
+    "insulationBasic": "Msingi",
+    "insulationStandard": "Kawaida EnEV",
+    "insulationPremium": "Kulipia",
+    "installMethod": "Njia ya usakinishaji (A5)",
+    "installBuilding": "Usakinishaji wa jengo",
+    "installTrench": "Imewekwa ardhini (Mchimbaji)",
+    "installTrenchless": "Bila mtaro (HDD)",
+    "installDesc": "Kazi za ardhini husababisha uzalishaji mkubwa wa CO2 kupitia mashine (Dizeli).",
+    "lifespan": "Muda wa maisha (Miaka)",
+    "lifespanDesc": "Mabomba ya muda mfupi (k.m., chuma cha kaboni) yanaweza kuhitaji kubadilishwa mara nyingi.",
+    "energyMixLabel": "Mchanganyiko wa umeme (Uendeshaji & Uzalishaji)",
+    "transportKm": "Umbali wa usafiri (km)",
+    "co2Savings": "LCA CO₂-Akiba",
+    "co2SavingsDesc": "Ikilinganishwa na mfumo usiofaa zaidi (pamoja na nishati ya pampu). Sawa na takriban miti {n}.",
+    "costSavings": "Akiba ya TCO (NPV)",
+    "costSavingsDesc": "Akiba kwa zaidi ya miaka {n} (pamoja na matengenezo na NPV ya gharama za uendeshaji).",
+    "lcaPhases": "Awamu za LCA (EN 15804)",
+    "phaseA13": "A1-A3 (Nyenzo)",
+    "phaseA45": "A4-A5 (Sakinisha/Usafiri)",
+    "phaseB": "B (Uendeshaji/Nishati)",
+    "phaseC": "C (Mwisho wa Maisha)",
+    "moduleD": "Moduli D:",
+    "costAnalysis": "Gharama ya Jumla ya Umiliki (NPV, miaka {n})",
+    "costMaterial": "Nyenzo",
+    "costInstall": "Usakinishaji",
+    "costOperation": "Nishati (NPV)",
+    "costMaintenance": "Matengenezo",
+    "costTotal": "Jumla",
+    "certTitle": "Ripoti Iliyothibitishwa ya LCA & TCO.",
+    "certDesc": "Inajumuisha upinzani wa mtiririko kulingana na Darcy-Weisbach na awamu za mzunguko wa maisha zinazotii EPD.",
+    "certBtn": "Zalisha ripoti ya PDF",
+    "generating": "Inazalisha...",
+    "energyGreen": "Umeme wa Kijani",
+    "energyDe": "DE-Mchanganyiko",
+    "energyEu": "EU-Mchanganyiko",
+    "energyGlobal": "Kimataifa-Mchanganyiko",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Shaba",
+      "steel": "Chuma cha Pua / Chuma cha C",
+      "pex": "Mchanganyiko wa Tabaka Nyingi (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Chuma cha kutupwa"
+    },
+    "project": "Mradi wako",
+    "advanced": "Vigezo vya juu vya LCA",
+    "tempMode": "Joto la uendeshaji",
+    "tempCold": "Maji baridi (10°C)",
+    "tempHot": "Maji ya moto (60°C)",
+    "recycle": "Wezesha mkopo wa kurejeleza wa Mwisho wa Maisha",
+    "disclaimer": "Mokokotoo yanategemea EPD za Aina ya III zilizothibitishwa (EN 15804) na hifadhidata ya ecoinvent (A1-A3, A4, B, C1-C4).",
+    "savedLabel": "Akiba ya CO₂e dhidi ya mbadala bora",
+    "savedBody1": "Sawa na unyonyaji wa CO₂ wa",
+    "trees": "miti {n}",
+    "or": "au",
+    "carKm": "kilomita {n} za gari",
+    "compareTitle": "Tathmini ya Mzunguko wa Maisha (LCA)",
+    "phases": {
+      "a13": "Uzalishaji (A1-A3)",
+      "a4": "Usafiri (A4)",
+      "b": "Uendeshaji/Joto (B)",
+      "c": "Mwisho wa Maisha (C)"
+    },
+    "auditor": "Sehemu ya Mkaguzi:",
+    "auditorBody": "Ushahidi wa EPD, vyeti vya ISO na maandishi ya GAEB kama kifurushi, kwenye",
+    "trustLink": "Kituo cha Uaminifu",
+    "downloadPdf": "Pakua Ripoti ya PDF",
+    "lcaLogistics": "Vigezo vya LCA & Vifaa",
+    "energyMix": "Mchanganyiko wa Nishati ya Uzalishaji",
+    "transportMode": "Njia ya Usafiri",
+    "transportTruck": "Lori",
+    "transportShip": "Meli",
+    "transportAir": "Usafiri wa Ndege",
+    "phaseProduction": "Uzalishaji",
+    "phaseTransport": "Usafiri",
+    "phaseOperation": "Uendeshaji",
+    "phaseEol": "Mwisho wa Maisha"
+  },
+  "trust": {
+    "eyebrow": "Kituo cha Uaminifu",
+    "title1": "Uaminifu ni",
+    "titleGrad": "unaopimika.",
+    "lead": "Uaminifu unapimika. Vyeti, Mfumo wa GENAU na nyaraka za ukaguzi, kama Huduma ya Kibinafsi. Hakuna kusubiri kwa siku kwa utoaji wa mikono.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Usimamizi wa Ubora"
+      ],
+      [
+        "ISO 14001:2015",
+        "Usimamizi wa Mazingira"
+      ],
+      [
+        "ISO 50001:2018",
+        "Usimamizi wa Nishati"
+      ]
+    ],
+    "accred": "Imeidhinishwa na DAkkS",
+    "certNo": "Nambari ya Cheti",
+    "valid": "Sahihi",
+    "download": "Pakua",
+    "genauEyebrow": "Mfumo wa GENAU",
+    "genauTitle": "Herufi tano. Mfumo mmoja.",
+    "genauLead": "Mfumo wa usimamizi wa GENAU umejikita katika Nyumba ya KWT. Bofya kupitia nguzo tano.",
+    "genau": [
+      [
+        "Afya",
+        "Usalama na afya kazini na tathmini endelevu ya hatari. Kila mfanyakazi analazimika kuripoti hatari kikamilifu."
+      ],
+      [
+        "Nishati",
+        "Uboreshaji wa ufanisi wa nishati kulingana na ISO 50001, kutoka kwa extruder hadi mzunguko wa maji ya kupoza uliofungwa."
+      ],
+      [
+        "Uendelevu",
+        "100 % ya vipande na taka za uzalishaji hurudi kwenye mzunguko wa kurejeleza."
+      ],
+      [
+        "Usalama kazini",
+        "Uzuiaji na tathmini ya hatari kama mazoezi ya kila siku, sio kama jukumu la kila mwaka."
+      ],
+      [
+        "Mazingira",
+        "Usimamizi wa mazingira kulingana na ISO 14001: Uhifadhi wa rasilimali ni sehemu ya uelewa wa ubora."
+      ]
+    ],
+    "rfpEyebrow": "Huduma ya Kibinafsi",
+    "rfpTitle": "Kifurushi chako cha nyaraka za RFP.",
+    "rfpLead": "Kusanya ukaguzi wako na kifurushi cha zabuni mwenyewe, badala ya kusubiri siku kwa utoaji wa mikono.",
+    "docs": [
+      "Cheti cha ISO 9001:2015 (DE/EN)",
+      "Cheti cha ISO 14001:2015 (DE/EN)",
+      "Cheti cha ISO 50001:2018 (DE/EN)",
+      "Sera ya GENAU & Tathmini ya Hatari",
+      "Kufuata Maji ya Kunywa (DVGW/KTW)",
+      "Karatasi za Data za EPD (Aina ya III, EN 15804)",
+      "Maandishi ya Zabuni ya GAEB",
+      "Mwongozo wa Uhakikisho wa Ubora"
+    ],
+    "inPackage": "Nyaraka kwenye kifurushi.",
+    "pickLeft": "Chagua kushoto.",
+    "requestZip": "Omba kama ZIP kwa kubofya:",
+    "requestBtn": "Omba kifurushi",
+    "mailSubject": "Kifurushi cha nyaraka za RFP",
+    "mailBody": "Tafadhali nitumie nyaraka zifuatazo:",
+    "scope3": "Takwimu za utoaji wa Upeo wa 3 na data mbichi ya EPD kwa ombi: uwazi thabiti badala ya utii wa wajibu tu."
+  },
+  "partner": {
+    "eyebrow": "Ushirikiano",
+    "title1": "Chapa mbili.",
+    "titleGrad": "Msimamo mmoja.",
+    "lead": "Chapa mbili. Msimamo mmoja. Ushirikiano wa karibu wa miongo kadhaa kati ya K-Aqua na KESSEL unahamisha uaminifu wa kulipia kutoka kwenye mifereji ya maji kwenda kwenye usambazaji wa maji kwa mifumo ya mabomba ya PP-R.",
+    "onionAria": "Muundo wa vitunguu wa ushirikiano",
+    "rings": [
+      {
+        "l": "Chapa kuu",
+        "t": "KESSEL: Inayoongoza katika Mifereji ya Maji",
+        "d": "Mtengenezaji mkuu wa teknolojia ya mifereji ya maji. Maonyesho ya biashara yanayoongoza duniani kama vile ISH, PlanerPortal na KundenForum yanaifanya KESSEL kuwa mamlaka ya sekta ya TGA."
+      },
+      {
+        "l": "Mfumo",
+        "t": "K Aqua: inayoongoza katika usambazaji wa maji",
+        "d": "Upande wa usambazaji wa DNA hiyo hiyo ya uhandisi: mfumo kamili wa PP-R/PPRCT d20–d630, uliotengenezwa nchini Ujerumani. Mifereji ya maji na usambazaji kutoka jamii moja ya maadili."
+      },
+      {
+        "l": "Huduma",
+        "t": "Mfumo wa Ikolojia wa Pamoja",
+        "d": "Wapangaji wanafaidika mara mbili: mafunzo, msaada wa teknolojia ya kulehemu na zana za kupanga dijitali, mwishowe hadi kisanidi cha mtandao wa mabomba ya parametric."
+      }
+    ],
+    "whyEyebrow": "Kwa nini PP-R/PPRCT",
+    "whyTitle": "Uti wa mgongo wa ahadi ya bidhaa.",
+    "cards": [
+      {
+        "t": "Uhuru kamili wa kutu",
+        "d": "Imekingwa dhidi ya ulikaji wa kielektroniki: hakuna shimo, hakuna hatari ya kupasuka kwa bomba kama shaba au chuma cha mabati."
+      },
+      {
+        "t": "Ufanisi wa joto",
+        "d": "Upotezaji mdogo wa joto katika mzunguko wa maji ya moto: uokoaji wa nishati wa moja kwa moja kwa miongo kadhaa."
+      },
+      {
+        "t": "Utokuwa na Upendeleo wa Usafi",
+        "d": "Hauna ladha na hauna harufu; uso laini sana wa ndani huzuia filamu ya kibaolojia na kushikana."
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "Marejeleo",
+    "title1": "Globu iliyojaa",
+    "titleGrad": "miradi.",
+    "lead": "Zungusha globu, gusa alama: Kila alama inawakilisha teknolojia iliyothibitishwa ya K Aqua inayotumika. (Miradi ya mfano kama viweka nafasi kwa marejeleo halisi.)",
+    "canvasAria": "Globu inayoingiliana na miradi ya marejeleo, buruta kuzungusha",
+    "note": "Majina halisi ya miradi, picha na takwimu muhimu zinapaswa kuongezwa kiuhariri. Jukwaa la hilo liko tayari.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Ujerumani",
+        "d": "Kiwanda kikuu & Maendeleo: hapa ndipo kila bomba la K Aqua linatengenezwa."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, UAE",
+        "d": "Mabomba ya kupanda ghorofani: PPRCT kwa maji ya moto chini ya hali ya jangwa."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warsaw, Poland",
+        "d": "Ujenzi wa robo ya makazi: usakinishaji kamili wa maji ya kunywa d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Uturuki",
+        "d": "Jengo la hoteli: mistari ya mzunguko yenye bomba la mchanganyiko wa nyuzi."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapore",
+        "d": "Mradi wa miundombinu: vipimo vikubwa hadi d630 kwa mchakato wa kulehemu kwa kitako."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cape Town, Afrika Kusini",
+        "d": "Ujenzi mpya wa hospitali: usambazaji wa maji ya kunywa yenye usafi."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Ukarabati wa ofisi: ubadilishaji usio na kutu kwa mistari iliyopo."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "Kwa Wapangaji, Wanunuzi & Wasakinishaji",
+    "title1": "Unapanga, unakokotoa au unasakinisha.",
+    "titleGrad": "Tunatoa msingi.",
+    "lead": "Kila jukumu linapata haswa habari inazohitaji kwa uamuzi unaofuata kwenye K Aqua, bila kuvinjari PDF, bila kusubiri kupigiwa simu.",
+    "personas": [
+      {
+        "t": "Wapangaji & Wahandisi",
+        "d": "Data ya kiufundi inayokidhi viwango, majedwali ya SDR na vyeti vya CO₂ kwa zabuni, zinazoweza kutumika moja kwa moja.",
+        "cta": "Nenda kwenye data za kiufundi",
+        "goto": "products"
+      },
+      {
+        "t": "Ununuzi & Upatikanaji",
+        "d": "Uwasilishaji wa moja kwa moja kutoka kiwandani, vifaa vinavyopangika kutoka Waldsolms na mtu wa kuwasiliana naye badala ya waamuzi.",
+        "cta": "Anzisha ombi la mradi",
+        "goto": "rfq"
+      },
+      {
+        "t": "Wasakinishaji & Wachakataji",
+        "d": "Michakato minne ya kulehemu kama video, muhtasari wa zana na mipaka wazi ya usindikaji, usalama kwenye tovuti.",
+        "cta": "Nenda Kwenye Chuo",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Kwa nini K Aqua",
+    "whyTitle": "Sababu sita zinazofika kwenye hesabu.",
+    "why": [
+      {
+        "t": "Inastahimili shinikizo & maji ya moto",
+        "d": "PPRCT yenye muundo uliobadilishwa wa kioo: akiba zaidi ya joto na shinikizo kwa miongo kadhaa."
+      },
+      {
+        "t": "Bila kutu",
+        "d": "Hakuna kutu, hakuna kushikana, hakuna hatari ya kutoboka kama mabomba ya metali."
+      },
+      {
+        "t": "Inarejeleka & CO₂-chini",
+        "d": "Nambari ya Usindikaji 5, nyayo ndogo zaidi kuliko shaba au chuma: inaweza kuthibitishwa katika kikokotoo cha CO₂."
+      },
+      {
+        "t": "Mtu mmoja wa kuwasiliana naye",
+        "d": "Bomba, fitingi, valvu na teknolojia ya kulehemu kutoka chanzo kimoja, kutoka kwa mtengenezaji, sio kutoka kwa waamuzi."
+      }
+    ],
+    "promise": [
+      "Moja kwa moja kutoka kiwandani",
+      "Majibu < 24 h",
+      "Bila wajibu"
+    ],
+    "ctaAll": "Ombi la mradi ndani ya dakika 2"
+  },
+  "rfq": {
+    "eyebrow": "Ombi la Mradi",
+    "title1": "Mradi wako,",
+    "titleGrad": "ofa yetu.",
+    "lead": "Kwa hatua nne fupi hadi ombi lisilo na wajibu. Utapokea majibu ya kibinafsi kutoka kwa mauzo ndani ya siku moja ya kazi.",
+    "steps": [
+      "Aina ya mradi",
+      "Mahitaji",
+      "Tarehe & Eneo",
+      "Mawasiliano"
+    ],
+    "types": [
+      {
+        "t": "Jengo Jipya / Ujenzi wa Majengo",
+        "d": "Usakinishaji wa maji ya kunywa katika ujenzi wa makazi au biashara."
+      },
+      {
+        "t": "Miundombinu / Uhandisi wa Umma",
+        "d": "Mistari ya usambazaji, vipimo vikubwa, mitandao."
+      },
+      {
+        "t": "Ukarabati / Ubadilishaji",
+        "d": "Ubadilishaji wa mistari iliyopo ya metali au PVC."
+      },
+      {
+        "t": "Biashara / Uuzaji",
+        "d": "Usambazaji, ghala au biashara ya mradi."
+      }
+    ],
+    "fType": "Aina ya mradi",
+    "fDims": "Vipimo vinavyohitajika",
+    "fMeters": "Makadirio ya urefu",
+    "dimsHint": "Maelezo mabaya yanatosha, tutabainisha pamoja. Uchaguzi mwingi unawezekana.",
+    "fTime": "Muda uliopangwa",
+    "fRegion": "Eneo la utoaji",
+    "timelines": [
+      "Mara moja / inaendelea",
+      "Katika miezi 1–3",
+      "Katika miezi 3–6",
+      "Awamu ya kupanga"
+    ],
+    "regions": [
+      "Ujerumani",
+      "DACH",
+      "Ulaya",
+      "Mashariki ya Kati",
+      "Ulimwenguni kote"
+    ],
+    "fName": "Jina",
+    "fCompany": "Kampuni",
+    "fEmail": "Barua pepe",
+    "fPhone": "Simu",
+    "fMsg": "Ujumbe (hiari)",
+    "privacy": "Kwa kuwasilisha unafungua barua pepe iliyojazwa awali kwa info@k-aqua.de. Hakuna data itakayohifadhiwa kwenye ukurasa huu.",
+    "back": "Rudi",
+    "next": "Ifuatayo",
+    "send": "Tuma ombi",
+    "mailSubject": "Ombi la Mradi K Aqua",
+    "promise": [
+      "Majibu < 24 h",
+      "Bila wajibu",
+      "Moja kwa moja kutoka kwa mtengenezaji"
+    ],
+    "doneTitle": "Karibu umalize.",
+    "doneText": "Programu yako ya barua pepe imefunguliwa na ombi lililojazwa awali. Itume. Tutawasiliana nawe ndani ya siku moja ya kazi. Ungependa kuzungumza moja kwa moja?",
+    "doneBack": "Rudi kwenye ukurasa wa mwanzo",
+    "infoTitle": "Kuhusu ombi la mradi",
+    "infoText1": "Tumia zana yetu ya kuomba ili kuratibu mradi wako wa ujenzi au mradi wa viwanda na wataalam wetu mapema. Iwe uko katika awamu ya kupanga au tayari unazo orodha maalum za nyenzo, tunakusaidia kwa kupima na kuchagua nyenzo.",
+    "infoText2": "Kwa kufanya kazi kwa karibu na mauzo ya K Aqua, hupati tu matoleo sahihi, bali pia ushauri muhimu wa kiufundi kuhusu madaraja ya shinikizo (madaraja ya SDR), njia za usakinishaji na vifaa vinavyoendana na mfumo. Tutumie data yako ya msingi, nasi tutawasiliana nawe ndani ya siku moja ya kazi.",
+    "faqTitle": "Maswali yanayoulizwa mara kwa mara kuhusu ombi",
+    "faqs": [
+      {
+        "q": "Je, ombi la mradi linatozwa malipo?",
+        "a": "Hapana, matumizi ya zana hii na utayarishaji wa ofa unaofuata na timu yetu ya mauzo ni bure kabisa na hauna wajibu kwako."
+      },
+      {
+        "q": "Ni nini kitatokea baada ya kuwasilisha ombi?",
+        "a": "Ombi lako litatumwa moja kwa moja kwa timu yetu ya mauzo ya ndani. Mtu wa mawasiliano binafsi atawasiliana nawe ndani ya saa 24 ili kufafanua maswali yoyote wazi au kukupa ofa inayokufaa moja kwa moja."
+      },
+      {
+        "q": "Je, ninaweza pia kuuliza kama mtu binafsi?",
+        "a": "K Aqua kimsingi inalenga wauzaji wa jumla, wapangaji na wasakinishaji maalum katika sekta ya B2B. Tunafurahi kupeleka wateja binafsi kwa washirika wetu maalum wa kikanda."
+      },
+      {
+        "q": "Je, data yangu iko salama kiasi gani?",
+        "a": "Taarifa zako hazihifadhiwi kwenye seva, bali zinahamishiwa moja kwa moja kwenye programu yako ya barua pepe, kutoka ambapo unatuma ombi kwetu kwa usalama. Tunashughulikia data yako kwa usiri mkubwa kulingana na miongozo ya GDPR inayotumika."
+      }
+    ]
+  },
+  "geo": {
+    "eyebrow": "Masoko & Maeneo",
+    "title1": "Ulimwengu uliojaa",
+    "title2": "masoko.",
+    "lead": "Gundua maeneo ya K-Aqua kwa mifumo ya mabomba ya PP-R: masoko {n} katika nchi {c}, kila moja ikiwa na ukurasa wake wa kutua kuhusu viwango, wasifu wa maji, matukio ya matumizi na vifaa. Shika dunia na uizungushe kwa uhuru; orodha inakupeleka moja kwa moja kwenye jiji.",
+    "all": "Yote",
+    "cityTitle": "Mifumo ya mabomba ya PP-R/PPRCT mjini {city}.",
+    "cityLead": "Mifumo ya maji ya kunywa d20–d630, iliyojaribiwa dhidi ya mahitaji ya ndani.",
+    "allMarkets": "Masoko yote",
+    "request": "Omba mradi",
+    "finder": "Mtafutaji wa Bidhaa",
+    "fromPlant": "km kutoka kiwanda cha Waldsolms",
+    "regFrame": "Mfumo wa Udhibiti",
+    "water": "Wasifu wa Maji & Majibu ya Nyenzo",
+    "typical": "Miradi ya kawaida katika {city}",
+    "onSite": "Usindikaji kwenye tovuti",
+    "onSiteText": "Maagizo ya teknolojia ya kulehemu na nyaraka za video kwa timu yako kwenye Chuo.",
+    "toAcademy": "Kwenda Kwenye Chuo",
+    "nearbyEyebrow": "Masoko Yanayohusiana",
+    "nearby": "Karibu.",
+    "prodNote": "Dokezo la uzalishaji: Kurasa hizi zinalingana na kiolezo cha Programmatic-SEO (Kipande cha data: Bidhaa × Udhibiti × Eneo). Katika Next.js, zinazalishwa kupitia ISR kutoka kwa Headless CMS, ikijumuisha hreflang, Product-/Offer-Schema na viungo vya ndani vya kimantiki.",
+    "km": "km",
+    "seoExpansion": "K Aqua inatengeneza mifumo ya mabomba ya PP-R na PPRCT mjini Waldsolms kwa mahitaji ya juu zaidi ya teknolojia ya majengo na mitambo duniani kote. Shukrani kwa Uhandisi wa Kijerumani usio na maelewano na teknolojia ya kisasa ya uzalishaji, mifumo yetu inahakikisha usalama wa uendeshaji wa miongo kadhaa, usio na matengenezo. Kila bidhaa, kuanzia d20 hadi d630, hupitia udhibiti mkali wa ubora na inatii viwango vya kimataifa kama vile DVGW, KIWA na SKZ. Hatutoi tu vifaa vya ubora wa kwanza kwa maji ya kunywa, kupoza na viwanda, lakini pia tunasaidia wapangaji na wasakinishaji kwa msaada kamili wa kiufundi na mafunzo kwenye tovuti. Tumaini mfumo unaoshawishi kwa uimara uliokithiri, uhuru kutoka kwa kutu na usafi kamili.",
+    "seoExpansionDynamic": "Jifunze zaidi kuhusu suluhisho zetu za PP-R na PPRCT katika {city}. Tunatimiza viwango vya ndani ({regulator}) na tunatoa mifumo bora kwa ubora wa maji ({water}). Kidokezo cha ziada: {note}.",
+    "cityMetaTitle": "Mifumo ya Mabomba ya PP-R mjini {city}",
+    "hubMetaTitle": "Mifumo ya Mabomba ya PP-R kwa {country}",
+    "hubH1": "Suluhisho za Miundombinu kwa {country}",
+    "hubLead": "K-Aqua inatoa suluhisho zilizothibitishwa za miundombinu ya PP-R na PP-RCT kwa {country}. Mifumo yetu ya mabomba inatimiza viwango vya juu zaidi vya kimataifa na imeboreshwa kwa changamoto maalum nchini {country}.",
+    "hubContextTitle": "Muktadha wa Kikanda: {context}",
+    "hubContextBody": "Mifumo yetu ya mabomba ya K-Aqua PP-R/PP-RCT iliyotengenezwa Ujerumani inatoa suluhisho endelevu za miundombinu kwa {country}. Zimeundwa mahususi kukabiliana na changamoto za miundombinu ya ndani.",
+    "hubCitiesTitle": "Maeneo ya Ndani & Miji ya Marejeleo",
+    "hubs": {
+      "deutschland": {
+        "description": "Kama soko la nyumbani la K-Aqua, Ujerumani inatoa mahitaji ya juu zaidi kwa ubora wa ujenzi na uimara. <span class=\"font-semibold\">Mifumo yetu ya mabomba ya PP-R na PP-RCT</span> inakabiliana na kizuizi kikubwa cha ukarabati katika miundombinu ya maji ya kunywa na joto nchini Ujerumani kwa ufanisi na endelevu.",
+        "metaDesc": "Mifumo ya mabomba ya PP-R/PP-RCT iliyothibitishwa kwa Ujerumani. Uhandisi wa Kijerumani dhidi ya kizuizi cha ukarabati katika miundombinu ya maji ya kunywa na joto."
+      },
+      "oesterreich": {
+        "description": "Nchini Austria, mandhari magumu na kanuni kali za mazingira zinahitaji suluhisho za miundombinu zisizo na maelewano. <span class=\"font-semibold\">Mifumo yetu ya mabomba ya K-Aqua</span> inatoa ubora wa kulipia kwa maji yanayodumu na mitandao ya joto ya wilaya katika maeneo ya milimani.",
+        "metaDesc": "Mifumo ya mabomba ya PP-R/PP-RCT ya kulipia kwa Austria. Suluhisho zinazostahimili baridi na shinikizo kwa maji na mitandao ya joto ya wilaya katika maeneo ya milimani."
+      },
+      "schweiz": {
+        "description": "Uswizi inasimamia usahihi, uendelevu na viwango vya juu zaidi vya ubora. <span class=\"font-semibold\">Mifumo ya K-Aqua's PP-R na PP-RCT</span> inatimiza mahitaji haya kupitia usafi wa nyenzo wa daraja la kwanza na usalama wa chakula ulioidhinishwa na SVGW.",
+        "metaDesc": "Mifumo ya mabomba ya PP-R/PP-RCT ya daraja la kwanza kwa Uswizi. Mabomba ya plastiki yaliyoidhinishwa na SVGW, yanayorejeleka kwa miradi endelevu ya ujenzi wa Minergie."
+      },
+      "uae": {
+        "description": "Chini ya hali mbaya ya hali ya hewa ya Falme za Kiarabu, maji ndiyo rasilimali yenye thamani zaidi. <span class=\"font-semibold\">Mifumo ya mabomba ya K-Aqua PP-R/PP-RCT</span> inatoa ulinzi wa mwisho dhidi ya kutu na ukalisishaji, hata wakati wa kutumia maji ya bahari yaliyotiwa chumvi.",
+        "metaDesc": "Mifumo ya mabomba ya PP-R/PP-RCT inayostahimili UV na joto kwa UAE. Ulinzi wa juu zaidi dhidi ya kutu na ukalisishaji katika hali ya hewa ya jangwa."
+      },
+      "ksa": {
+        "description": "Kama sehemu ya Dira ya 2030, Saudi Arabia inabadilisha miundombinu yake yote. <span class=\"font-semibold\">K-Aqua inatoa miundombinu muhimu ya maji kwa hili</span>. Mabomba yetu ya PPRCT yenye kipenyo kikubwa yanahakikisha usambazaji salama, usiovuja na wenye ufanisi wa maji katika Miji mahiri mipya kama NEOM.",
+        "metaDesc": "Mabomba ya PPRCT yenye kipenyo kikubwa kwa Saudi Arabia. Miundombinu ya maji ya kuaminika kwa Vision 2030 na Miradi mikubwa kama NEOM."
+      },
+      "singapur": {
+        "description": "Kama mojawapo ya miji-mataifa ya teknolojia ya juu yenye msongamano mkubwa zaidi barani Asia, Singapore inahitaji teknolojia ya ujenzi yenye ufanisi mkubwa na inayookoa nafasi. <span class=\"font-semibold\">Mifumo ya mabomba ya ubunifu ya K-Aqua's</span> inasaidia malengo kabambe ya Jengo la Kijani la Singapore.",
+        "metaDesc": "Mabomba bora ya PP-R/PP-RCT kwa Majengo ya Kijani ya Singapore. Mifumo maalum kwa Maji yaliyopozwa na usambazaji wa maji safi sana ya kunywa."
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Huduma",
+    "title1": "Huduma kwa Wateja &",
+    "titleGrad": "Utaalamu.",
+    "lead": "Huduma kwa Wateja wetu & Utaalamu. inakupa nyaraka za kiufundi za kupakua na video za hatua kwa hatua kwa michakato yote ya kulehemu.",
+    "dlEyebrow": "Vipakuliwa",
+    "dlTitle": "Nyaraka za Kiufundi",
+    "downloads": [
+      {
+        "t": "Programu ya Bidhaa ya K Aqua",
+        "s": "Katalogi kamili na vipimo & makala"
+      },
+      {
+        "t": "Sifa za Bidhaa za K Aqua",
+        "s": "Sifa za kiufundi & data ya nyenzo"
+      },
+      {
+        "t": "Uhakikisho wa Ubora wa K Aqua",
+        "s": "Taratibu za majaribio & viwango vya ubora"
+      }
+    ],
+    "vidEyebrow": "Usakinishaji",
+    "vidTitle": "Mchakato wa kulehemu kwenye video",
+    "vidLead": "Michakato minne, video nne, moja kwa moja kutoka kwa mazoezi.",
+    "videos": [
+      {
+        "t": "Kulehemu kwa soketi kwa zana ya mkono",
+        "s": "Bomba la PP-R/PPRCT & fitingi"
+      },
+      {
+        "t": "Kulehemu kwa soketi kwa mashine",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Kulehemu kwa umeme (Electrofusion)",
+        "s": "Bomba la PP-R/PPRCT & fitingi"
+      },
+      {
+        "t": "Kulehemu kwa kitako (Butt Fusion)",
+        "s": "Vipimo vikubwa vya PP-R/PPRCT"
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "Mifumo ya mabomba ya K Aqua PP-R na PPRCT inatengenezwa na KWT GmbH mjini Waldsolms, Ujerumani, kwa usahihi mkubwa.",
+      "impressum2": "Kama mtengenezaji wa kimataifa wa suluhisho za mabomba ya plastiki ya kulipia, tumejitolea kufuata kwa ukali viwango vyote vya kisheria na udhibiti.",
+      "kontakt1": "Je, una maswali ya kiufundi kuhusu mabomba yetu ya PP-R/PPRCT au unahitaji usaidizi kwa mradi wa kimataifa? Timu ya mawasiliano ya K Aqua huko Waldsolms inafurahi kusaidia.",
+      "kontakt2": "Iwe ni mahesabu ya isometriska, mafunzo ya kulehemu kwenye tovuti au maswali ya kibiashara: wahandisi wetu na wafanyakazi wa mauzo hujibu haraka.",
+      "projektanfrage1": "Je, unapanga mradi mkubwa wa ujenzi? Tutumie ombi lako la mradi kwa mifumo ya mabomba ya K Aqua PP-R na PPRCT. Idara yetu ya kiufundi ni mtaalamu wa kubuni mitambo mikubwa.",
+      "projektanfrage2": "Mara tu unapotupa maelezo ya mradi wako, wahandisi wetu wanaanza uchambuzi wa kina. Tunakusaidia kwa mahesabu tata ya upotezaji wa shinikizo.",
+      "projektanfrage3": "Usiri na uaminifu ndio vipaumbele vyetu vya kwanza. Kila ombi la mradi linashughulikiwa kwa usiri mkubwa.",
+      "news1": "Endelea kusasishwa na habari za hivi punde kutoka K Aqua. Tunachapisha masasisho mara kwa mara kuhusu maendeleo mapya ya bidhaa.",
+      "news2": "Sehemu yetu ya habari pia inakujulisha kuhusu ubunifu wa kiufundi katika kulehemu kwa soketi, maendeleo ya kisayansi ya nyenzo na mipango ya uendelevu."
+    },
+    "eyebrow": "Kuhusu sisi",
+    "title1": "Uzoefu ni",
+    "titleGrad": "faida yako.",
+    "lead": "Mikakati mipya, maarifa yaliyokuzwa: Kama mtengenezaji wa K-Aqua, KWT GmbH inachanganya uzoefu wa miongo kadhaa wa utengenezaji na maono wazi ya siku zijazo.",
+    "h2": "K Aqua: inayoongoza katika usambazaji wa maji",
+    "p1": "Eneo la biashara la KWT GmbH ni utengenezaji wa mabomba na fitingi kwa usambazaji wa maji kutoka kwa plastiki mbalimbali. Hivyo, kampuni inajiweka kwenye mnyororo wa thamani wa ujenzi kama msambazaji na mtengenezaji.",
+    "p2": "Kwa kushirikiana na mtengenezaji mkuu KESSEL, \"Inayoongoza katika mifereji ya maji\", ushirikiano wa karibu na wa muda mrefu upo. Kwa uzoefu huu wa miongo kadhaa, tunabeba mafanikio yetu kuelekea siku zijazo.",
+    "polEyebrow": "Sera ya Kampuni",
+    "polTitle": "Faida huja kupitia ushirikiano.",
+    "polLead": "Hakuna faida kwa mteja bila faida kwa mfanyakazi, hakuna faida kwa mfanyakazi bila faida kwa kampuni na hakuna faida kwa kampuni bila faida kwa mazingira.",
+    "cards": [
+      {
+        "t": "Watu katikati",
+        "d": "Wafanyakazi wote wanashiriki katika mchakato wa uboreshaji endelevu. Ubora daima hubaki sambamba na gharama na tarehe za mwisho."
+      },
+      {
+        "t": "Uaminifu",
+        "d": "Matakwa ya wateja na washikadau wote yanatambuliwa, yanachukuliwa kwa uzito na kutekelezwa kwa kufuata viwango vya kisheria na kijamii."
+      },
+      {
+        "t": "Wajibu wa Kiikolojia",
+        "d": "Shughuli zote za kampuni hufanywa kwa kuzingatia uhifadhi wa rasilimali, utangamano wa mazingira na kufuata madhubuti ahadi zote."
+      }
+    ],
+    "genauEyebrow": "Mfumo wa Usimamizi wa GENAU",
+    "genauTitle": "Angalia kwa karibu. Boresha haswa.",
+    "genauLead": "Mfumo wa usimamizi wa GENAU umeunganishwa katika Nyumba ya KWT na kwa hivyo ni sehemu kuu ya falsafa yetu.",
+    "points": [
+      "Uboreshaji endelevu wa usalama, afya kazini na utunzaji wa mazingira",
+      "Uboreshaji wa ufanisi wa nishati",
+      "Kuzuia, tathmini endelevu ya hatari na udhibiti",
+      "Kila mfanyakazi analazimika kuripoti hatari na kushiriki kikamilifu"
+    ],
+    "certTitle": "imejaribiwa kulingana na viwango",
+    "certText": "Usimamizi wa GENAU unaotekelezwa unakidhi mahitaji ya DIN EN ISO 14001 na 50001, ikiongezewa na ISO 9001:2015 tangu Oktoba 2025.",
+    "meta": {
+      "title": "Kuhusu KWT GmbH: Wataalam katika utengenezaji wa mabomba",
+      "desc": "KWT GmbH mjini Waldsolms inachanganya Uhandisi wa Kijerumani na utengenezaji wa kisasa. Kwa vyeti vitatu vya ISO tunazalisha mifumo ya mabomba ya K-Aqua PP-R."
+    },
+    "hero": {
+      "eyebrow": "Mafundisho ya K Aqua",
+      "title1": "Uhandisi wa Kijerumani.",
+      "title2": "Usio na maelewano.",
+      "desc": "Hatufanyi maelewano. Tunafafanua kiwango cha kimataifa cha mifumo ya mabomba ya PP-R. Karibu kwenye kitovu cha uhandisi wa Kijerumani."
+    },
+    "intro": {
+      "title1": "HATUELEKEZI MAJI TU.",
+      "title2": "TUNAYADHIBITI.",
+      "desc": "Kwa zaidi ya miaka 30 tumekuwa tukitengeneza mifumo ya mabomba iliyojengwa kudumu. Hakuna nafasi ya makosa. Hakuna nafasi ya wastani. Usahihi safi, usio na kikomo tu ambao unaonekana katika kila fitingi."
+    },
+    "material": {
+      "eyebrow": "Sayansi ya Nyenzo",
+      "title1": "Polypropylen Random Copolymer.",
+      "title2": "Imefunguliwa.",
+      "p1": "PP-R Aina ya 3 sio plastiki tu. Ni nyenzo changamano ya thermoplastiki ambayo tunaidhibiti katika kiwango cha molekuli.",
+      "p2": "Kupitia mpangilio wa kimkakati, tunafikia upinzani wa kipekee wa athari, hata kwenye joto la chini. Granules zetu zinatoka tu kwa wasomi wa kimataifa.",
+      "items": [
+        {
+          "title": "Misa kubwa ya molar",
+          "desc": "Inahakikisha nguvu ya juu ya kutambaa na upinzani kamili wa ufa wa mkazo wa mazingira chini ya shinikizo kali."
+        },
+        {
+          "title": "Uboreshaji wa fuwele",
+          "desc": "Usawa kamili wa thermodynamic. Unyumbufu wa hali ya juu kwa hali ngumu ya usakinishaji na ugumu wa axial kwa wakati mmoja."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Mabadiliko ya Ukamilifu",
+      "desc": "Kuinuka kusikozuilika kwa nguvu ya soko la kimataifa. Kila muongo ni hatua muhimu ya ubora wa kiteknolojia.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Asili ya kutovumiliana",
+          "text": "Mahali ambapo wengine walifanya maelewano, sisi tulichora mstari mwekundu. Kuanzishwa kwa K Aqua kulitegemea kanuni moja: Mifumo isiyo na makosa."
+        },
+        {
+          "year": "2005",
+          "title": "Mapinduzi ya Polypropylen",
+          "text": "Tulikataa kukubali hali ilivyo. Kwa kuanzishwa kwa mchanganyiko wetu wa umiliki wa PP-R, tulifafanua upya utulivu wa joto."
+        },
+        {
+          "year": "2015",
+          "title": "Ishara ya Usanifu",
+          "text": "Kutoka anga za Dubai hadi mitambo ya viwanda katika eneo la Ruhr: K Aqua ikawa kisawe cha miundombinu isiyoweza kuharibika."
+        },
+        {
+          "year": "2026",
+          "title": "Udikteta wa Molekuli",
+          "text": "Leo tunadhibiti kila nyanja ya uzalishaji. Mifumo yetu inakabiliwa na udikteta wa ubora ili kuhakikisha muda mrefu wa maisha."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FIZIKIA IMESHINDWA",
+      "title": "Nguzo Nne za Nguvu.",
+      "lead": "Teknolojia inayokaribia uchawi. Hatujashinda tu mapungufu ya mifumo ya kawaida, tumeyasaga.",
+      "items": [
+        {
+          "title": "Absolutism katika Ubora",
+          "desc": "Kila milimita inakabiliwa na majaribio ya kikatili ya dhiki. Miaka 50 sio ahadi, lakini hakika ya hisabati."
+        },
+        {
+          "title": "Kutoweza Kujeruhiwa kwa Joto",
+          "desc": "Mabomba yetu ya mchanganyiko hupunguza upanuzi wa joto karibu kabisa. Iwe -20°C au +95°C, hubaki thabiti."
+        },
+        {
+          "title": "Upinzani wa Kemikali",
+          "desc": "Kutu haipo kwenye msamiati wetu. Polima zetu hazishambuliwi na vyombo vikali vya habari na kuharibika."
+        },
+        {
+          "title": "Mchanganyiko wa Molekuli",
+          "desc": "Bomba na fitingi huungana katika kiwango cha molekuli na kuwa kitengo kimoja, kisichoweza kutenganishwa."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "UTAWAALA WA KIWANDANI",
+      "title": "Miundombinu kwenye Steroids.",
+      "lead": "Hatutengenezi mabomba tu. Tunaunda mishipa ya ustaarabu wa kisasa. K Aqua ni uti wa mgongo wa miradi mikubwa.",
+      "items": [
+        {
+          "title": "Uchimbaji wa Kikatili",
+          "desc": "Mifumo ya utendaji wa juu inayofanya kazi chini ya shinikizo la kikatili kwa unene thabiti wa ukuta."
+        },
+        {
+          "title": "Ubora uliothibitishwa",
+          "desc": "ISO 9001, 14001, 50001. Hatupiti tu viwango, tunaviandika."
+        },
+        {
+          "title": "Maagizo ya Usafi",
+          "desc": "Salama kwa chakula, salama kitoksikolojia na inayokinza vijidudu kabisa. Maji hubaki safi."
+        },
+        {
+          "title": "Ufanisi wa Rasilimali",
+          "desc": "Inarejeleka kikamilifu. Alama ndogo ya CO2 wakati wa utengenezaji."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Sera ya Kampuni",
+      "title": "Msingi wa matendo yetu.",
+      "desc": "Teknolojia pekee haitoshi. Ukuu wa kweli unadhihirika katika jinsi kampuni inavyoshirikiana na mazingira na wafanyakazi.",
+      "items": [
+        {
+          "title": "Mtazamo wa Mteja",
+          "desc": "Hatutumikii masoko tu, tunayatawala kupitia mwelekeo kamili wa wateja."
+        },
+        {
+          "title": "Miungano ya Kimkakati",
+          "desc": "Tunaunda miungano ya kimkakati na wazalishaji bora wa malighafi."
+        },
+        {
+          "title": "Jambo la Kiikolojia",
+          "desc": "Uendelevu sio kauli mbiu ya masoko, bali ni hitaji la kimwili."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "ubora uliothibitishwa",
+      "title1": "Mfumo wa Usimamizi wa ",
+      "titleHighlight": "GENAU",
+      "title2": " Mfumo",
+      "p1": "Lengo la Mfumo wa Usimamizi wa GENAU ni uboreshaji endelevu wa afya, usalama na mazingira ya kazi katika kampuni.",
+      "p2": "Shughuli zote za kampuni katika KWT hufanywa kwa kuzingatia uhifadhi wa rasilimali. Usimamizi wa GENAU unaotekelezwa unakidhi mahitaji ya juu ya ",
+      "p3": " na ",
+      "list1Title": "Wajibu wa Kiikolojia",
+      "list1Desc": "Ulinzi wa mazingira ni sehemu ya uelewa wetu wa ubora.",
+      "list2Title": "Ufanisi wa Nishati",
+      "list2Desc": "Utambulisho makini wa hatari na utekelezaji wa hatua za kuboresha ufanisi wa nishati."
+    }
+  },
+  "solutions": {
+    "eyebrow": "Suluhisho",
+    "title1": "Bidhaa",
+    "titleGrad": "inayowajibika.",
+    "title2": "",
+    "lead": "Kwa nini Polypropylen ni nyenzo sahihi kwa usambazaji wa maji wa kesho: kiikolojia, kiufundi na kiuchumi.",
+    "benefits": [
+      {
+        "t": "Rafiki kwa mazingira",
+        "d": "Polypropylen inatengenezwa kutoka kwa gesi ambazo zamani zilichomwa bure, na hivyo kupunguza uchafuzi wa hewa. Uzalishaji unatumia maji katika mzunguko uliofungwa wa kupoza na kulinda mito na maziwa."
+      },
+      {
+        "t": "Inarejeleka",
+        "d": "PP inabeba nambari ya urejelezaji '5' na inaweza kutenganishwa kwa aina. Tunarejeleza taka zote za uzalishaji."
+      },
+      {
+        "t": "Bora",
+        "d": "Kama plastiki ya kiufundi, PP inastahimili vimumunyisho, alkali na asidi."
+      },
+      {
+        "t": "Inadumu",
+        "d": "Bidhaa za PP hudumu muda mrefu zaidi kuliko nyenzo zinazolingana: ni rahisi kutunza, inastahimili kuchakaa."
+      }
+    ],
+    "nextEyebrow": "Hatua Inayofuata",
+    "nextTitle": "Kutoka nyenzo hadi mfumo.",
+    "nextLead": "Tazama jinsi faida hizi za nyenzo zinavyoonekana katika programu ya bidhaa ya K Aqua.",
+    "nextCta": "Kwenye programu ya bidhaa",
+    "krankenhaus": {
+      "sticky": {
+        "items": [
+          {
+            "title": "Kuzuia Legionella katika kiwango cha molekuli",
+            "desc": "Katika miundombinu muhimu ya hospitali, usafi wa maji sio chaguo, bali ni swali la kuishi. Mifumo yetu ya mabomba inazuia kimwili malezi ya filamu ya kibaolojia."
+          },
+          {
+            "title": "Kusafisha kwa joto bila uchovu wa nyenzo",
+            "desc": "Viwango vya kliniki vinahitaji kusafisha kwa joto mara kwa mara kwenye joto zaidi ya 70°C. Mfumo wa K Aqua PPR umeundwa kwa mzigo mkubwa wa joto kwa miongo kadhaa."
+          },
+          {
+            "title": "Viunganisho visivyo na vijidudu kabisa",
+            "desc": "Mchakato wetu wa kulehemu wenye hati miliki unaunganisha bomba na fitingi kuwa kitengo kimoja kisicho na mshono. Hakuna maeneo yaliyokufa ambapo maji yanaweza kutuama."
+          },
+          {
+            "title": "Insulation ya sauti kwa vyumba vya wagonjwa mahututi",
+            "desc": "Kelele ni sababu kubwa ya mkazo kwa wagonjwa na wafanyakazi wa matibabu. Mfumo wa K Aqua unachukua sauti zinazotiririka na mishtuko ya shinikizo."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Awamu 01",
+            "title": "Upimaji wa mfumo & Haidroliki",
+            "text": "Uhesabuji sahihi wa sehemu za mstari ili kuepuka maeneo ya vilio."
+          },
+          {
+            "year": "Awamu 02",
+            "title": "Uainishaji wa nyenzo",
+            "text": "Uchaguzi wa mchanganyiko maalum wa polima wa K Aqua, ulioboreshwa kwa mahitaji ya kliniki."
+          },
+          {
+            "year": "Awamu 03",
+            "title": "Uandaaji & Ushughulikiaji wa Chumba safi",
+            "text": "Kukusanya mapema wasambazaji tata katika mazingira yanayodhibitiwa."
+          },
+          {
+            "year": "Awamu 04",
+            "title": "Uagizaji & Upimaji",
+            "text": "Uchunguzi kamili wa shinikizo la hydrostatic na kusafisha kwa joto la awali."
+          },
+          {
+            "year": "Awamu 05",
+            "title": "Miaka 50 bila matengenezo",
+            "text": "Baada ya kuanza, mfumo hutoweka kwenye ukuta na hufanya kazi yake kimya kimya."
+          }
+        ]
+      },
+      "hero": {
+        "eyebrow": "Miundombinu Muhimu kwa Misheni",
+        "title1": "Hospitali.",
+        "title2": "Uvumilivu wa makosa sifuri.",
+        "desc": "K Aqua hutoa mfumo wa neva wa haidroliki kwa miradi ya hali ya juu zaidi ya kliniki ulimwenguni. Imetengenezwa Ujerumani. Imejengwa kudumu.",
+        "cta1": "Ushauri wa Uhandisi",
+        "cta2": "Pakua Takwimu za BIM"
+      },
+      "intro": {
+        "title": "Ambapo tone moja la maji <br className=\"hidden md:block\"/> hufanya mfumo kuanguka.",
+        "desc": "Kandarasi wakuu wanakabiliwa na kitendawili katika miradi ya kliniki: Shinikizo kubwa la wakati linakidhi miongozo kali ya usafi. Tunaondoa kitendawili hiki kupitia Uhandisi wa Kijerumani usio na maelewano."
+      },
+      "stickySection": {
+        "eyebrow": "Ubora wa kiteknolojia",
+        "title": "Anatomia ya Usalama.",
+        "lead": "Tunachukulia hospitali kama kiumbe hai. Mfumo wa K Aqua ni mfumo wake wa mishipa isiyoweza kuharibika."
+      },
+      "bentoSection": {
+        "eyebrow": "ROI & Mzunguko wa Maisha",
+        "title": "Faida kupitia ukamilifu.",
+        "lead": "K Aqua inapunguza Gharama ya Jumla ya Umiliki (TCO) kwa kiwango ambacho hakijawahi kuonekana."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Ustahimilivu wa Kutu 100%",
+            "desc": "Kinga kamili dhidi ya kutu, shimo, na maji ya chaki. Hakuna inkrustation."
+          },
+          {
+            "title": "Usakinishaji wa haraka wa umeme",
+            "desc": "Teknolojia ya kulehemu inayofanana inapunguza wakati wa ufungaji hadi 40%.",
+            "badge": "-40% Muda"
+          },
+          {
+            "title": "Unyumbufu salama kwa tetemeko la ardhi",
+            "desc": "Inachukua mshtuko wa seismic bila kuvunja. Muhimu kwa hospitali katika maeneo ya hatari.",
+            "badge": "Daraja la Seismic"
+          },
+          {
+            "title": "Ubora wa maji ya kunywa uliojaribiwa",
+            "desc": "Inakidhi na kuzidi viwango vikali zaidi ulimwenguni (DIN, DVGW, SKZ, WRAS)."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Kiwango cha K Aqua.",
+        "desc": "Kutoka mchoro wa kwanza wa CAD hadi tone la mwisho la maji, mchakato wetu ni wimbo wa usahihi."
+      },
+      "specs": {
+        "eyebrow": "Vipimo",
+        "title": "Ukweli mkuu.",
+        "lead": "Ufafanuzi wa kiufundi kwa wahandisi na wasanifu. Uwazi ndio msingi wa uaminifu.",
+        "therm": {
+          "title": "Uwezo wa Mzigo wa Joto",
+          "items": [
+            {
+              "label": "Joto la uendeshaji linaloendelea",
+              "value": "70°C"
+            },
+            {
+              "label": "Kiwango cha juu cha joto la hitilafu",
+              "value": "95°C (100h)"
+            },
+            {
+              "label": "Uendeshaji wa joto",
+              "value": "0.24 W/mK"
+            },
+            {
+              "label": "Mgawo wa upanuzi wa mstari",
+              "value": "0.15 mm/mK"
+            }
+          ]
+        },
+        "mech": {
+          "title": "Sifa za Mitambo",
+          "items": [
+            {
+              "label": "Msongamano",
+              "value": "0.895 g/cm³"
+            },
+            {
+              "label": "Nguvu ya kuvuta",
+              "value": "23 MPa"
+            },
+            {
+              "label": "Kurefusha kwa kuvunja",
+              "value": "> 50%"
+            },
+            {
+              "label": "Moduli ya elasticity",
+              "value": "800 MPa"
+            }
+          ]
+        }
+      },
+      "bim": {
+        "title": "Rasilimali za BIM & CAD",
+        "desc": "Pakua familia za kina za Revit, faili za AutoCAD na hifadhidata kamili za haidroliki.",
+        "cta": "Kwenda Kituo cha Upakuaji"
+      },
+      "cta": {
+        "eyebrow": "Hatua Zinazofuata",
+        "title": "Uko tayari kwa mradi mkuu unaofuata?",
+        "desc": "Wahandisi wetu wa Maombi wako tayari kutatua changamoto ngumu zaidi za haidroliki.",
+        "button": "Wasiliana na Timu ya Uhandisi"
+      }
+    },
+    "hotels": {
+      "hero": {
+        "eyebrow": "MIUNDOMBINU YA HOTELS & RESORTS",
+        "title1": "Usanifu wa Ukimya.",
+        "title2": "Uhandisi nchini Ujerumani.",
+        "desc": "K Aqua hutoa mifumo ya mabomba isiyo na maelewano kwa miradi ya hoteli inayohitaji sana ulimwenguni.",
+        "cta1": "Tathmini mradi",
+        "cta2": "Karatasi Nyeupe ya Kiufundi"
+      },
+      "intro": {
+        "title1": "Anasa ya kweli",
+        "title2": "haionekani.",
+        "titleGrad": "Na haisikiki.",
+        "desc": "Polima zetu za PP-R zenye msongamano mkubwa huondoa kelele ya mtiririko, kuzuia upotezaji wa joto na kuhakikisha usafi wa mikrobiolojia."
+      },
+      "bentoSection": {
+        "eyebrow": "Anatomia ya Ukamilifu",
+        "title": "Vipimo ambavyo vinavunja kiwango cha tasnia.",
+        "lead": "Tumehoji kila kipengele cha bomba la kawaida."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Insulation ya acoustic ya darasa la kumbukumbu",
+            "desc": "Ulinzi wa sauti ni ishara kuu ya ubora katika sehemu ya hoteli za kifahari."
+          },
+          {
+            "title": "Uimara wa Joto",
+            "desc": "Kupoteza joto kidogo kwa ufanisi wa juu. Kuokoa sana katika OPEX."
+          },
+          {
+            "title": "Uhuru kamili wa kutu",
+            "desc": "Pale ambapo metali hushindwa, K Aqua huhifadhi uadilifu wake wa kimuundo."
+          },
+          {
+            "title": "Ngome ya Microbiological",
+            "desc": "Usafi wa kliniki kwa usambazaji wa maji ya kunywa katika mapumziko yako."
+          }
+        ]
+      },
+      "textSection": {
+        "title": "Uhandisi nyuma ya ukimya",
+        "p1": "Katika majengo marefu, shinikizo la maji husukumwa mamia ya mita juu.",
+        "p2": "Mifumo ya jadi ya shaba inaonyesha kuvaa kubwa. K Aqua inachukua njia tofauti sana.",
+        "p3": "K Aqua inachukua mbinu tofauti kabisa.",
+        "p4": "Mifumo yetu inategemea Polypropylen Random Copolymer (PP-R).",
+        "h3": "Viunganisho vya kulehemu vyenye homogeneous",
+        "p5": "Kiungo dhaifu zaidi katika mfumo wa bomba ni uunganisho. Mifumo yetu inaondoa viungo hivi.",
+        "p6": "Bomba na fitting hutiwa moto hadi 260°C na kuunganishwa kwa asilimia 100%."
+      },
+      "stickySection": {
+        "eyebrow": "Nguzo 4",
+        "title": "DNA ya Kito.",
+        "lead": "Jinsi tunavyotatua changamoto kubwa za miundombinu ya kisasa ya hoteli."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "1. Kinga ya Legionella katika kiwango cha molekuli",
+            "p1": "Maji yanayotuama yanaweza kuwa mtego hatari katika mitandao mikubwa ya hoteli.",
+            "p2": "Uso laini sana wa K Aqua PP-R hutoa mazingira tasa zaidi yanayowezekana kimwili."
+          },
+          {
+            "title": "2. Ufyonzwaji wa Sauti Kabisa",
+            "p1": "Katika mapumziko ya anasa, kelele kutoka kwenye vyumba jirani haikubaliki.",
+            "p2": "Tunapunguza kelele zinazotokana na muundo kwa hadi 80% ikilinganishwa na mifumo ya chuma."
+          },
+          {
+            "title": "3. Ustahimilivu wa Shinikizo la Juu katika Skyscraper",
+            "p1": "Hoteli zilizo na ghorofa 80+ zinahitaji mahitaji makubwa.",
+            "p2": "K Aqua inatoa madaraja maalum ya shinikizo ili kuhakikisha usalama kamili."
+          },
+          {
+            "title": "4. Usimamizi wa Joto & Upunguzaji wa Wilaya",
+            "p1": "Katika mikoa ya jangwa, baridi ndio bidhaa ghali zaidi.",
+            "p2": "Insulation bora ya PP-R inazuia fidia na inapunguza upotezaji wa baridi."
+          }
+        ]
+      },
+      "perf": {
+        "items": [
+          {
+            "val": "0.007",
+            "unit": "mm",
+            "title": "Ukwaru wa uso",
+            "desc": "Ustahimilivu kamili dhidi ya filamu ya kibaolojia."
+          },
+          {
+            "val": "100",
+            "unit": "%",
+            "title": "Uunganishaji mmoja",
+            "desc": "Inaungana katika kiwango cha molekuli."
+          },
+          {
+            "val": ">50",
+            "unit": "Miaka",
+            "title": "Muda wa maisha",
+            "desc": "Imejaribiwa kulingana na viwango vikali zaidi."
+          },
+          {
+            "val": "0",
+            "unit": "",
+            "title": "Matengenezo",
+            "desc": "Sakinisha, funga na usahau milele."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Marejeleo ambayo yanaandika historia.",
+        "desc": "Kutoka visiwa bandia hadi kwenye milima ya Alps. Ambapo yasiyowezekana yanajengwa, K Aqua ipo."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Dubai",
+            "title": "The Palm Jumeirah Ultra-Luxury Resort",
+            "text": "Salinitas uliokithiri na joto zilihitaji upinzani wa juu. K Aqua ilitoa mfumo mzima."
+          },
+          {
+            "year": "Uswizi",
+            "title": "Alpine Retreat St. Moritz",
+            "text": "Kivutio cha nyota 6 kwenye urefu wa mita 2,000. Changamoto: Hatari ya baridi."
+          },
+          {
+            "year": "Singapore",
+            "title": "Vertical Forest Hotel",
+            "text": "Kito cha ghorofa 65 cha usanifu wa kiikolojia. Mfumo tata wa umwagiliaji uliofanywa na K Aqua."
+          },
+          {
+            "year": "Malediven",
+            "title": "Zero-Emission Island Resort",
+            "text": "Ustahimilivu kamili wa mazingira ulihitajika. Mabomba ya K Aqua yanaweza kurejelewa 100%."
+          },
+          {
+            "year": "Siku zijazo",
+            "title": "Mradi wako unaofuata",
+            "text": "Mipaka ya usanifu inabadilika kila siku. Tuko tayari kuweka msingi kwa maono yako."
+          }
+        ]
+      },
+      "research": {
+        "eyebrow": "Utafiti na Maendeleo",
+        "title": "Kemia ya kutoweza kuharibika.",
+        "desc": "Idara yetu ya R&D inafanya kazi bila kuchoka ili kukamilisha matriki ya polima.",
+        "items": [
+          "Kupunguza upanuzi wa mstari",
+          "Kuongezeka kwa sehemu ya mtiririko",
+          "Kupinga kikamilifu misombo ya klorini",
+          "Salama kwa sumu, salama kwa chakula"
+        ]
+      },
+      "certs": {
+        "eyebrow": "Utiifu & Vyeti",
+        "title": "Viwango vikali zaidi duniani? Tunavizidi.",
+        "lead": "Miradi ya kimataifa inahitaji idhini za kimataifa."
+      },
+      "cta": {
+        "title": "Jenga kwa umilele.",
+        "desc": "Wasiliana na wahandisi wetu kwa tathmini ya kina ya kiufundi.",
+        "button1": "Pata mradi kutathminiwa",
+        "button2": "Wasiliana na Mauzo moja kwa moja"
+      }
+    },
+    "vorfertigung": {
+      "meta": {
+        "title": "Miundombinu ya Uandaaji | K Aqua",
+        "desc": "Uandaaji wa K Aqua: Usalama usio na maelewano kupitia Uhandisi wa Kijerumani kwa miradi mikubwa duniani."
+      },
+      "hero": {
+        "badge": "Uhandisi wa Kijerumani. Athari ya Kimataifa.",
+        "title1": "Uandaaji (Prefabrication).",
+        "title2": "Imefafanuliwa upya.",
+        "desc": "Mamlaka ya kiviwanda kwa mifumo ya mabomba isiyo na makosa, iliyoandaliwa mapema. Imeundwa kudumu kwa vizazi. Ambapo makosa sio chaguo, K Aqua huanza.",
+        "cta1": "Omba mradi",
+        "cta2": "Vipimo vya kiufundi"
+      },
+      "intro": {
+        "eyebrow": "Falsafa ya Ukamilifu",
+        "title": "Kwa nini soko la kimataifa linaamini K Aqua.",
+        "lead": "Unapobuni jengo linalogusa anga, au hospitali ambayo kila sekunde ni muhimu, huwezi kutegemea vigeu vya utengenezaji kwenye tovuti. Unahitaji usahihi wa kliniki wa uandaaji wa viwandani.",
+        "p1": "Katika tasnia ya ujenzi ya kisasa, wakati, ubora na usalama ndizo rasilimali zenye thamani zaidi. Ufungaji wa mabomba ya jadi kwenye tovuti una hatari zisizohesabika.",
+        "p2": "Suluhisho zetu za uandaaji hubadilisha ufundi usiotabirika wa ufungaji wa mabomba kuwa mchakato unaodhibitiwa sana wa viwandani.",
+        "quote": "\"Hatuuzi mabomba. Tunauza uhakika kamili kwamba mfumo utafanya kazi bila matengenezo kwa miaka 50 ijayo.\"",
+        "p3": "Kuanzia vituo tata vya usambazaji hadi suluhisho maalum zilizoboreshwa kwa mifumo ya kupoza ya viwandani."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Miradi ya mabilioni haisamehe makosa.",
+            "desc": "Katika ulimwengu wa miundombinu ya ujenzi wa kimataifa, wakati wa kupumzika ni sawa na hasara mbaya."
+          },
+          {
+            "title": "Usahihi wa dijiti unakutana na uhandisi wa Kijerumani.",
+            "desc": "Kila mfumo wa bomba umepangwa mapema kama pacha wa dijiti katika mazingira yetu ya kisasa ya BIM."
+          },
+          {
+            "title": "Mchanganyiko wa homogeneous kwenye kiwango cha molekuli.",
+            "desc": "Tofauti na viunganisho vya mitambo au mifumo iliyounganishwa na gundi, tunatumia mchakato wa kulehemu wa polyfusion ya joto."
+          },
+          {
+            "title": "100% Itifaki ya mtihani. Hakuna tofauti.",
+            "desc": "Kabla moduli ya uandaaji ya K Aqua haijaacha kiwanda chetu, hupitia programu kali ya majaribio."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Ubora wa Kiufundi",
+        "title": "DNA ya mifumo yetu.",
+        "lead": "Imejaribiwa kulingana na DIN EN ISO 15874. Imeundwa kwa umilele.",
+        "items": [
+          {
+            "title": "Nyenzo ya PPR-C (Aina ya 3)",
+            "desc": "Nyenzo yetu ya msingi inatoa upinzani wa joto na kemikali usio na kifani."
+          },
+          {
+            "title": "Uhuru kamili wa kutu",
+            "desc": "Wakati mifumo ya metali inaharibika, mfumo wetu wa polima unabaki na kinga kamili dhidi ya kutu."
+          },
+          {
+            "title": "Insulation ya acoustic",
+            "desc": "Muundo wa molekuli wa mabomba ya K Aqua huchukua mawimbi ya sauti bora zaidi kuliko chuma."
+          },
+          {
+            "title": "Upotezaji mdogo wa shinikizo",
+            "desc": "Ukwaru wa mambo ya ndani wa 0.007 mm tu inahakikisha msuguano mdogo."
+          }
+        ]
+      },
+      "visual": {
+        "title1": "Urembo wa",
+        "title2": "Ushikamano wa Nyenzo.",
+        "p1": "Tazama mshono wa kulehemu wa moduli ya uandaaji ya K Aqua chini ya darubini. Hutapata mshono.",
+        "p2": "Mchakato huu unahitaji sio tu mashine za kisasa, bali pia jicho lililofunzwa na mkono thabiti.",
+        "p3": "Ni hamu hii ya microscopic kwa maelezo ambayo hufanya dhamana yetu ya miaka 50 iwezekanavyo.",
+        "items": [
+          "Usagaji sahihi wa ncha za bomba",
+          "Kupokanzwa kunakodhibitiwa na kompyuta (260°C)",
+          "Uunganisho kamili chini ya shinikizo la juu"
+        ]
+      },
+      "timeline": {
+        "eyebrow": "Usanifu wa Mchakato",
+        "title": "Kutoka mchoro wa CAD hadi kwenye tovuti ya ujenzi.",
+        "lead": "Mchakato wa uwazi, thabiti ambao unahakikisha uwasilishaji kwa wakati ulimwenguni kote.",
+        "events": [
+          {
+            "title": "Awamu ya 1: Uhandisi & BIM",
+            "desc": "Ushirikiano usio na mshono katika mifano ya usanifu.",
+            "date": "Wiki 1-2"
+          },
+          {
+            "title": "Awamu ya 2: Kukata kwa CNC",
+            "desc": "Kukata kwa milimita kwa nyenzo za PPR-C na mifumo ya CNC inayoungwa mkono na laser.",
+            "date": "Wiki 3"
+          },
+          {
+            "title": "Awamu ya 3: Polyfusion",
+            "desc": "Ulehemu mkuu unaoungwa mkono na roboti na wa mikono chini ya hali zinazodhibitiwa kikamilifu.",
+            "date": "Wiki 4-5"
+          },
+          {
+            "title": "Awamu ya 4: QA & Upimaji wa Shinikizo",
+            "desc": "Majaribio ya kupakia chini ya shinikizo kali.",
+            "date": "Wiki 6"
+          },
+          {
+            "title": "Awamu ya 5: Vifaa vya Kimataifa",
+            "desc": "Ufungashaji salama na usafirishaji wa ulimwenguni kote.",
+            "date": "Wiki 7+"
+          }
+        ]
+      },
+      "manifesto": {
+        "eyebrow": "Ilani ya Kudumu",
+        "title": "Imeidhinishwa kwa mazingira magumu zaidi kwenye sayari.",
+        "p1": "Uandaaji wa K Aqua haujaundwa kwa wastani. Imeundwa kwa hali mbaya zaidi.",
+        "p2": "Mifumo yetu ya maji ya kunywa inakidhi mahitaji magumu zaidi ya usafi ulimwenguni, ikiwa ni pamoja na KTW-BWGL na W270.",
+        "p3": "Wakati huo huo, mistari yetu ya maji ya kupoza na kupokanzwa ya viwandani ina uwezo wa kuhimili kemikali kali zaidi.",
+        "p4": "Tunaona uandaaji kama jukumu la usanifu, sio huduma tu. Kila moduli hupunguza muda wa ufungaji kwa hadi 70%."
+      },
+      "cta": {
+        "title": "Uko tayari kwa ubora usio na maelewano?",
+        "desc": "Tegemea uaminifu kamili wa uandaaji wa viwanda wa Ujerumani kwa mradi wako mkuu unaofuata.",
+        "button1": "Omba mradi",
+        "button2": "Wasiliana na Msaada wa Kiufundi"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Miundombinu ya Majengo Marefu | K Aqua",
+        "desc": "Majengo Marefu ya K Aqua: Usalama usio na maelewano kupitia Uhandisi wa Kijerumani."
+      },
+      "hero": {
+        "eyebrow": "Mpaka wa wima",
+        "title1": "Ujenzi wa Majengo Marefu.",
+        "title2": "Uhandisi nchini Ujerumani.",
+        "desc": "Miradi mikubwa inahitaji zaidi ya mabomba tu. Inahitaji mfumo wa mzunguko usio na makosa, usio na matengenezo ambao unaweza kuhimili shinikizo kubwa.",
+        "cta1": "Omba mradi",
+        "cta2": "Vipimo vya kiufundi"
+      },
+      "intro": {
+        "eyebrow": "Anatomia ya Majengo Makubwa",
+        "title": "Jengo lina nguvu tu kama mishipa yake.",
+        "lead": "Kwa urefu wa mita 500, fizikia haisamehe makosa ya kubuni. Ufa wa nywele kwenye bomba linalopanda inamaanisha uharibifu mkubwa.",
+        "p1": "Majengo marefu ni miji ya wima. Yanasukuma, yanasonga, yanapumua. Kwa kila sakafu, shinikizo la hydrostatic huongezeka kwa kasi.",
+        "p2": "Mifumo ya mabomba ya metali ya jadi hufikia kikomo chao kabisa cha mwili hapa. Kutu na uharibifu wa nyenzo sio swali la \"kama\", lakini \"lini\".",
+        "p3": "Polima za utendaji wa juu za K Aqua (PP-R & PPRCT) zinabadilisha kabisa sheria za mchezo wa miundombinu ya majengo marefu."
+      },
+      "sticky": {
+        "eyebrow": "Hali mbaya",
+        "title": "Kumiliki fizikia ya urefu.",
+        "lead": "Changamoto nne za msingi katika ujenzi wa majengo marefu na jinsi uhandisi wa Ujerumani wa K Aqua unavyozishinda.",
+        "items": [
+          {
+            "title": "Shinikizo kubwa la Hydrostatic",
+            "desc": "Kwa kila mita ya urefu, safu ya maji inakua. Mabomba ya K Aqua PPRCT hutoa hadi 50% ya juu ya nguvu ya shinikizo kwenye joto la juu."
+          },
+          {
+            "title": "Upanuzi wa mstari wa joto & Udhibiti wa mvutano",
+            "desc": "Teknolojia yetu ya mchanganyiko wa nyuzi inapunguza upanuzi wa joto kwa hadi 75%."
+          },
+          {
+            "title": "Usawa wa Masi (Bila Uvujaji)",
+            "desc": "K Aqua inaondoa mihuri kabisa. Kwa kulehemu tundu la kipengele cha kupokanzwa cha joto, bomba na fitingi huungana kwa 260°C haswa."
+          },
+          {
+            "title": "Kutenganisha kwa Sauti (Insulation ya sauti)",
+            "desc": "Msongamano mkubwa wa nyenzo na sifa za kunyonya sauti za polima zetu za PP-R hupunguza sana kelele."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Vipimo",
+        "title": "Usanifu kwa umilele.",
+        "lead": "Imeundwa kwa usahihi kwa viwango vikali zaidi vya Ujerumani kwa operesheni isiyo na matengenezo 100%.",
+        "items": [
+          {
+            "title": "Mapinduzi ya PPRCT",
+            "desc": "Kizazi kijacho cha Polypropylen. Muundo wa fuwele uliobadilishwa kwa upinzani ambao haujawahi kuonekana."
+          },
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Usalama uliothibitishwa na taasisi huru za majaribio za Ujerumani kama SKZ na DVGW."
+          },
+          {
+            "title": "Ustahimilivu kamili wa Kutu",
+            "desc": "Haipitishi mabadiliko ya thamani ya pH, sifa za maji kali, klorini na kutu ya kielektroniki."
+          },
+          {
+            "title": "Uandaaji Kamili (Prefabrication)",
+            "desc": "Tunatoa safu za usambazaji zilizotengenezwa tayari kwa milimita moja kwa moja 'Just-in-Time'."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Mzunguko wa Mradi",
+        "desc": "Kutoka uigaji wa kwanza wa mtiririko hadi miongo kadhaa ya uendeshaji usio na matengenezo.",
+        "items": [
+          {
+            "year": "Awamu 1",
+            "title": "Uhandisi & BIM",
+            "text": "Wahandisi wetu wanasaidia katika kubuni mabomba yanayopanda, kuhesabu maeneo ya shinikizo."
+          },
+          {
+            "year": "Awamu 2",
+            "title": "Uchimbaji wa Usahihi",
+            "text": "Katika vituo vyetu vya kisasa nchini Ujerumani, mabomba na fitingi hutengenezwa chini ya udhibiti wa mara kwa mara wa ukuta wa ultrasonic."
+          },
+          {
+            "year": "Awamu 3",
+            "title": "Lojistiki ya Just-in-Time",
+            "text": "Kupitia mtandao wetu wa usambazaji wa kimataifa, tunahakikisha kuwa nyenzo zinafika kwenye tovuti ya ujenzi kwa wakati."
+          },
+          {
+            "year": "Awamu 4",
+            "title": "Mchanganyiko Mmoja",
+            "text": "Wasakinishaji wa ndani wanafunzwa na mafundi wetu kwenye tovuti."
+          },
+          {
+            "year": "Miongo",
+            "title": "Uendeshaji Usio na Matengenezo",
+            "text": "Baada ya mtihani wa mwisho wa shinikizo, mifumo yetu hupotea kwenye shimoni au saruji kwa miaka 50+ ijayo."
+          }
+        ]
+      },
+      "data": {
+        "eyebrow": "Takwimu",
+        "title": "Ubora unaotegemea ukweli.",
+        "lead": "Wanakandarasi wakuu hawaamini ahadi za masoko. Wanaamini katika nguvu ya mvutano, upinzani wa shinikizo la nyuma na FNCT.",
+        "h3_1": "Uimara wa Masi",
+        "p1": "Muda wa maisha wa bomba la plastiki chini ya shinikizo na joto huamuliwa by nguvu ya ndani ya shinikizo. Vipimo vyetu vinathibitisha uwezo wa mzigo kwa maisha ya zaidi ya miaka 100.",
+        "h3_2": "Mienendo ya mtiririko wa haidroliki",
+        "p2": "Mabomba ya chuma huwa mbaya zaidi ya miaka kutokana na kutu na incrustation. Mabomba ya K Aqua yana ukwaru kamili wa k = 0.007 mm.",
+        "stats": [
+          {
+            "label": "Msongamano (g/cm³)",
+            "val": "0.905",
+            "standard": "ISO 1183"
+          },
+          {
+            "label": "Fahirisi ya Kuyeyuka (g/10min)",
+            "val": "0.3",
+            "standard": "ISO 1133"
+          },
+          {
+            "label": "Tensile Modulus (MPa)",
+            "val": "800 / 900 (RCT)",
+            "standard": "ISO 527"
+          },
+          {
+            "label": "Uendeshaji wa joto (W/mK)",
+            "val": "0.24",
+            "standard": "DIN 52612"
+          },
+          {
+            "label": "Mgawo wa upanuzi wa mstari (mm/mK)",
+            "val": "0.15 (Standard) / 0.035 (Faser)",
+            "standard": "DIN 53752"
+          },
+          {
+            "label": "Ukwaru wa uso k (mm)",
+            "val": "0.007",
+            "standard": "Sehemu ya Mtihani"
+          },
+          {
+            "label": "Upinzani wa Kemikali",
+            "val": "Ph 1 hadi 14",
+            "standard": "DIN 8078"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Je, uko tayari kuunda skyline ya siku zijazo?",
+        "desc": "Zungumza na Timu yetu iliyojitolea ya Uhandisi wa Majengo Makubwa kuhusu mahesabu ya mtiririko na miundo ya tuli.",
+        "button1": "Omba mradi",
+        "button2": "Wasiliana na Msaada wa Kiufundi"
+      }
+    },
+    "index": {
+      "meta": {
+        "title": "Faida za Nyenzo za PP-R na Ubora wa Kimwili",
+        "desc": "Gundua mifumo yetu ya polima yenye utendaji wa juu kwa miundombinu muhimu."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Ushikamano wa Masi",
+            "p1": "Mfumo wa K-AQUA PPR unategemea teknolojia ya hali ya juu ya polyfusion.",
+            "p2": "Usanisi huu usio na mshono huondoa udhaifu wowote ambao ungetokea kwa uhakika na miunganisho ya kimitambo."
+          },
+          {
+            "title": "Uvumilivu wa Joto",
+            "p1": "Kushuka kwa joto ni adui mkuu wa mifumo ya kawaida ya mabomba. Polima za K-AQUA zimeundwa na kimiani ya fuwele yenye msongamano mkubwa.",
+            "p2": "Uwezo maalum wa joto wa nyenzo pia unapunguza hitaji la insulation kali."
+          },
+          {
+            "title": "Ukamilifu wa Haidroliki",
+            "p1": "Thamani kamili ya ukwaru ya 0.007 mm tu inafafanua uso wa ndani wa mabomba ya K-AQUA.",
+            "p2": "Hasara za mtiririko hupunguzwa kwa kiwango cha chini cha mwili, ambayo hupunguza sana mahitaji ya nishati ya mifumo ya pampu."
+          },
+          {
+            "title": "Kinga ya Kemikali",
+            "p1": "Tofauti na mifumo ya metali, mtandao wa K-AQUA PPR una kinga kamili ya oxidation, shimo, na kutu ya galvanic.",
+            "p2": "Hata katika mazingira ya viwanda yenye babuzi sana, uadilifu wa molekuli ya bomba bado haujaguswa."
+          }
+        ],
+        "header": {
+          "title": "Ubora wa Kimwili.",
+          "desc": "Kanuni za kiufundi zinazoipa mifumo ya K-AQUA uimara wake bora na usalama wa uendeshaji."
+        }
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Awamu 01",
+            "title": "Uchambuzi wa Miundo",
+            "text": "Tathmini ya mahitaji ya thermodynamic na majimaji. Hesabu sahihi ya ukadiriaji wa shinikizo."
+          },
+          {
+            "year": "Awamu 02",
+            "title": "Uainishaji wa Nyenzo",
+            "text": "Uchaguzi wa copolymer bora ya PPR. Kurekebisha unene wa ukuta na vipimo."
+          },
+          {
+            "year": "Awamu 03",
+            "title": "Usanisi wa Kitaratibu",
+            "text": "Kulehemu kwa polyfusion chini ya vigezo vya joto vinavyodhibitiwa sana."
+          },
+          {
+            "year": "Awamu 04",
+            "title": "Ubora wa Uendeshaji",
+            "text": "Miongo kadhaa ya operesheni isiyo na matengenezo."
+          }
+        ],
+        "title": "USANIFU WA MCHAKATO",
+        "desc": "Kutoka hesabu ya hisabati hadi uaminifu wa uendeshaji wa milele. Mzunguko wa maisha ya usakinishaji wa K-AQUA hufuata itifaki kali za uhandisi."
+      },
+      "hero": {
+        "eyebrow": "SULUHISHO LA KIWANDA NA KIMUUNDO",
+        "title1": "USANIFU WA MFUMO",
+        "title2": "KWA UMILELE.",
+        "desc": "Gundua faida za nyenzo za PP-R na ubora wa kimwili wa mifumo yetu ya polima yenye utendaji wa juu kutoka K-Aqua.",
+        "cta": "Wasiliana nasi"
+      },
+      "intro": {
+        "title": "Zaidi ya mipaka ya kawaida ya dhiki.",
+        "p1": "Ambapo mifumo ya mabomba ya metali hujisalimisha kwa kutu, K-AQUA inaanza wigo wake wa uendeshaji.",
+        "p2": "Kila milimita ya mfumo wetu ni matokeo ya miongo kadhaa ya utafiti wa sayansi ya nyenzo. Hatutoi mabomba rahisi tu; tunatekeleza njia za maisha kwa vifaa visivyovumilia kufeli."
+      },
+      "bento": {
+        "header": {
+          "title": "Vekta za Maombi.",
+          "desc": "Ufumbuzi wa mfumo unaoweza kupanuka kwa sekta maalum za viwanda na ujenzi."
+        },
+        "items": [
+          {
+            "title": "Usafi wa Maji ya Kunywa & Usafi",
+            "desc": "Usalama kamili wa chakula na usalama wa kitoksikolojia. Uzuiaji wa malezi ya legionella."
+          },
+          {
+            "title": "HVAC & Teknolojia ya Hali ya Hewa",
+            "desc": "Insulation yenye ufanisi mkubwa ya joto kutokana na conductivity ya chini ya mafuta."
+          },
+          {
+            "title": "Mitandao ya Hewa iliyoshinikizwa",
+            "desc": "Usambazaji usiovuja katika shinikizo kali la kufanya kazi."
+          },
+          {
+            "title": "Ujenzi wa meli na Offshore",
+            "desc": "Inastahimili mazingira ya chumvi na mitetemo mikubwa."
+          },
+          {
+            "title": "Usafiri wa Fluid Viwandani",
+            "desc": "Utendaji usio na kifani wakati wa kusafirisha kemikali kali au vimiminika safi sana."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Miaka ya maisha iliyohakikishwa",
+          "desc": "Chini ya hali ya kawaida ya uendeshaji (20°C / 10 bar), uimara wa mifumo ya K-AQUA PPR unazidi karne nusu kwa urahisi bila uharibifu mkubwa wa nyenzo."
+        },
+        "1": {
+          "label": "W/mK conductivity ya mafuta",
+          "desc": "Ikilinganishwa na shaba (380 W/mK) au chuma (50 W/mK), K-AQUA huingiza kiasili, ikimaanisha kuokoa kubwa kwa insulation ya nje."
+        },
+        "2": {
+          "label": "Viunganisho vya Homogeneous",
+          "desc": "Kulehemu kwa molekuli huunda mfumo usio na mshono kabisa."
+        },
+        "title": "Uhandisi katika takwimu."
+      },
+      "cta": {
+        "eyebrow": "UANZISHWAJI WA MRADI",
+        "title1": "TAYARI KWA",
+        "title2": "DIMENSION INAYOFUATA.",
+        "desc": "Wasiliana na wahandisi wetu kwa tathmini ya kina ya kiufundi ya vipimo na changamoto zako.",
+        "button1": "Wasiliana na timu ya uhandisi",
+        "button2": "Tazama vipimo"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Miundombinu ya Vituo vya Data | K Aqua",
+        "desc": "Vituo vya Data vya K Aqua: Usalama usio na maelewano kupitia Uhandisi wa Kijerumani kwa miradi mikubwa duniani. Gundua suluhisho kwa vituo vya data vya kisasa."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Changamoto ya joto ya AI na HPC",
+            "desc": "Rafu za kisasa za High-Performance Computing (HPC) na Artificial Intelligence (AI) huzalisha joto kubwa sana. Kupoza kwa hewa pekee hufikia kikomo chake cha kimwili. Wakati ujao ni wa Kupoza kwa Maji (Liquid Cooling) na hivyo maji kama njia muhimu ya kuhamisha joto moja kwa moja kwenye chipu."
+          },
+          {
+            "title": "Kutu ni adui wa upatikanaji",
+            "desc": "Mifumo ya mabomba ya metali inakabiliwa na shimo, kutu na mtengano wa kemikali katika operesheni inayoendelea. Ufa mdogo katika kituo cha data unaweza kusababisha uharibifu wa mamilioni kutokana na kushindwa kwa seva. K Aqua inaondoa hatari hii kupitia Polypropylen Random Copolymer (PP-R) isiyo na kutu 100%."
+          },
+          {
+            "title": "Viunganisho vya Masi vilivyounganishwa na Ultrasonic",
+            "desc": "Ambapo mabomba ya kawaida yanategemea mihuri inayokabiliwa na makosa au miunganisho iliyofungwa, mifumo ya K Aqua inaunganishwa kwa kiwango cha masi. Matokeo: Mtandao wa bomba wenye homogeneous kabisa, usiovuja kabisa. Uvumilivu sifuri kwa uvujaji."
+          },
+          {
+            "title": "Uendelevu & Uboreshaji wa PUE",
+            "desc": "Thamani ya chini ya PUE (Power Usage Effectiveness) ni lengo kuu la waendeshaji wa kituo cha data. Mabomba ya K Aqua yana sifa bora za thermodynamic. Upotezaji mdogo wa msuguano wa bomba na insulation bora ya joto hupunguza sana upotezaji wa nishati wakati wa mzunguko wa maji ya kupoza."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Awamu 1",
+            "title": "Uigaji wa Mtiririko & Muundo",
+            "text": "Wahandisi wetu huchambua mahitaji ya kupoza ya kituo cha data. Tunahesabu mtiririko wa kiasi, kuondoa vikwazo na kurekebisha mtandao wa bomba kwa ufanisi mkubwa wa hydrodynamic."
+          },
+          {
+            "year": "Awamu 2",
+            "title": "Uandaaji wa Usahihi",
+            "text": "Katika kiwanda kikuu nchini Ujerumani, wasambazaji tata waliotengenezwa tayari huandaliwa. Kwa usahihi wa sentimita, otomatiki kikamilifu na ubora umehakikishiwa chini ya hali ya maabara."
+          },
+          {
+            "year": "Awamu 3",
+            "title": "Lojistiki ya Just-In-Time",
+            "text": "Miradi mikubwa haisamehe ucheleweshaji wa utoaji. Tunaratibu vifaa vya ulimwenguni kote moja kwa moja kwenye tovuti ya ujenzi, iliyosawazishwa na ratiba kali ya wanakandarasi wakuu."
+          },
+          {
+            "year": "Awamu 4",
+            "title": "Mchanganyiko Mmoja",
+            "text": "Timu za ufungaji za mitaa zinachunguzwa na welders wakuu wa K Aqua. Kulehemu kwa masi kwenye tovuti kunahakikisha 100% isiyovuja, muundo wa mstari wa homogeneous bila udhaifu."
+          },
+          {
+            "year": "Awamu 5",
+            "title": "Mtihani wa Shinikizo & Upimaji",
+            "text": "Kabla ya kukabidhiwa, mtihani mkali wa shinikizo la haidroliki na mzigo unafanywa. Ni baada tu ya mfumo kupita vipimo hivi, tunatoa idhini na kuchukua udhamini kamili wa mfumo."
+          }
+        ],
+        "title": "Mchakato wa Uhandisi",
+        "desc": "Kutoka kwa mchoro wa hydrodynamic hadi ukaguzi wa mwisho: Jinsi tunavyogundua miundombinu ya hyperscale ya kimataifa bila maelewano na kwa wakati wa rekodi."
+      },
+      "hero": {
+        "eyebrow": "Hyperscale & Colocation Infrastructure",
+        "title1": "Miundombinu ya Zero-Downtime.",
+        "title2": "Uhandisi nchini Ujerumani.",
+        "desc": "Wakati mifumo ya kupoza inapounda moyo wa vituo vya data vya kimataifa, kushindwa kwa nyenzo sio chaguo. Gundua suluhisho salama, la ufanisi na la hatari la PP-R kwa teknolojia muhimu ya kupoza na hali ya hewa.",
+        "cta1": "Omba mradi",
+        "cta2": "Karatasi Nyeupe ya Kiufundi"
+      },
+      "section1": {
+        "eyebrow": "Kupoza Muhimu kwa Misheni",
+        "title": "Kwa nini mabomba ya kawaida hushindwa.",
+        "lead": "Mahitaji ya makundi ya kisasa ya hyperscale na AI yanazidi mipaka ya kimwili ya mifumo ya jadi ya metali."
+      },
+      "section2": {
+        "eyebrow": "Ubora wa PP-R",
+        "title": "Sayansi ya nyenzo kwa karne ya 21.",
+        "lead": "Kila undani wa atomiki wa mfumo wetu umeboreshwa kwa uaminifu kamili na uimara."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Kutokuwa na upande kwa Kemikali & Usafi",
+            "desc": "Mizunguko iliyofungwa ya kupoza inahitaji mawakala wa hali. K Aqua hufanya kazi kwa uvivu kabisa kwa viongeza vya fujo na huzuia kabisa malezi ya mwani na filamu ya kibaolojia. Hakuna mtengano wa kemikali, hakuna chembe katika maji baridi."
+          },
+          {
+            "title": "Ustahimilivu wa Shinikizo katika Majengo Marefu",
+            "desc": "Imeundwa kwa mizigo ya kilele inayoendelea chini ya hali mbaya ya shinikizo ya PN10 / PN20 katika vituo vya data vya wima vya juu."
+          },
+          {
+            "title": "Uandaaji wa Kijerumani",
+            "desc": "Tunatengeneza vitalu vya wasambazaji tata katika kiwanda chetu kikuu nchini Ujerumani. Uwasilishaji wa Plug-and-Play kwa kupunguza sana muda wa ujenzi."
+          },
+          {
+            "title": "Inastahimili Tetemeko la Ardhi (Seismic Resistance)",
+            "desc": "Tofauti na mifumo ya chuma ngumu, mfumo wetu wa PP-R una elasticity maalum ya ndani. Mawimbi ya mshtuko na mitetemo mikubwa inayosababishwa na jenereta za nguvu za dharura au shughuli kali za seismic huchukuliwa badala ya kusababisha fractures za uharibifu."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Uko tayari kwa usalama usio na maelewano?",
+        "desc": "Ungana na Timu yetu ya Uhandisi. Tutachambua mradi wako mkubwa unaofuata wa kituo cha data na kutoa miundombinu ya siku zijazo.",
+        "button": "Panga mkutano wa uhandisi"
+      }
+    }
+  },
+  "products": {
+    "narrative": {
+      "sizeRange": "Kipengele hiki kinatengenezwa kwa ukubwa tofauti kutoka {minSize} mm thabiti hadi {maxSize} mm, kuhakikisha matumizi mengi katika hali tofauti za ufungaji.",
+      "sizeSpecific": "Kipengele hiki kimeundwa kwa usahihi kwa ukubwa mahususi wa {minSize} mm, kikitoa utendaji uliolengwa kwa usanifu maalum wa mabomba.",
+      "weights": "Ufanisi wa nyenzo umeboreshwa kwa anuwai yote, na uzani wa kipande ukiongezeka kutoka {minWeight} kg hadi {maxWeight} kg kulingana na vipimo vilivyochaguliwa.",
+      "packaging": "Usafirishaji huboreshwa kupitia vitengo vya ufungaji sanifu, vilivyoundwa kwa usafirishaji salama wa kimataifa na utunzaji mzuri kwenye tovuti ya ujenzi.",
+      "rowCount": "Kwingineko yetu ya kiufundi inatoa usanidi huu katika lahaja {count} zenye vipimo maalum, zilizopimwa kwa usahihi kukidhi mahitaji ya haidroliki na mitambo ya mifumo ya kisasa ya usafirishaji wa maji.",
+      "intro": "Bidhaa ya {title} inaunda msingi wa suluhisho la usimamizi wa majimaji yenye utendaji wa juu kutoka K Aqua. Imeorodheshwa rasmi chini ya nambari za bidhaa {codes}, kila lahaja hupitia itifaki kali za uhakikisho wa ubora katika vifaa vyetu vya uzalishaji nchini Ujerumani kabla ya kutolewa.",
+      "outro": "Kwa kutumia mbinu za hali ya juu za usindikaji wa polima, usahihi wa kijiometri wa {title} unahakikisha sifa bora za mtiririko, hupunguza upotezaji wa shinikizo na huondoa kabisa hatari ya kiwango cha chokaa au kutu katika maisha yote ya kufanya kazi. Kujitolea huku kusiostahimilika kwa sayansi ya nyenzo kunahakikisha kwamba kila uunganisho unadumisha uadilifu kamili, hata chini ya mabadiliko makubwa ya joto na shinikizo. Iwe inatumiwa katika majengo marefu ya makazi, vituo muhimu vya afya, au vifaa vya usindikaji vya viwanda vinavyohitaji sana, bidhaa hii hutoa kuegemea bila matengenezo ambayo wahandisi na wasanidi wanaweza kutegemea kikamilifu."
+    },
+    "uniqueProductContext": "Bidhaa {title} ni sehemu muhimu ya anuwai ya K Aqua {category}. Imeundwa kwa uimara wa juu pamoja na ushirikiano usio na mshono, ikitimiza viwango vya juu vya kimataifa vya matumizi ya mabomba na usafi wa kisasa. Unaweza kutambua na kuagiza bidhaa hii maalum kwa nambari za bidhaa: {codes}. Kwa nyaraka zaidi au usaidizi, tafadhali wasiliana na timu yetu ya kiufundi.",
+    "heroDesc": "Gundua vipimo, vipimo na maeneo ya maombi. Pakua Karatasi ya Data ya Kiufundi kwa habari ya kina.",
+    "articleNumbers": "Nambari za Makala",
+    "technicalSpecs": "Maelezo ya Kiufundi",
+    "eyebrow": "Bidhaa",
+    "videoGuide": "Mwongozo wa Video wa K Aqua",
+    "localAvailability": "Upatikanaji wa Ndani",
+    "localDesc": "Pata wafanyabiashara wa ndani, idhini maalum na viwango vya mkoa wako.",
+    "allMarkets": "Tazama masoko yote 50+",
+    "title1": "Mabomba ya PP-R/PPRCT & Fitingi kwa",
+    "titleGrad": "Maji ya kunywa.",
+    "lead": "Mfumo kamili wa bomba la maji ya kunywa ya moto na baridi: kutoka kwa bomba hadi fitingi hadi teknolojia ya kulehemu. Vipengele vinne, mfumo mmoja.",
+    "ctaCatalog": "Katalogi ya Bidhaa (PDF)",
+    "ctaVideos": "Video za Ufungaji",
+    "sysEyebrow": "Mfumo",
+    "sysTitle": "Mabomba ya K-Aqua PP-R & Fitingi: Vipengele vinne, mfumo mmoja.",
+    "range": [
+      {
+        "t": "Mabomba: Mono & Multilayer",
+        "d": "Mabomba ya Mono na yaliyoimarishwa kwa glasi ya Multilayer katika SDR 6, 7.4, 9, 11 na 17. Vipimo kutoka 20 mm hadi 630 mm."
+      },
+      {
+        "t": "Fitingi & Vali",
+        "d": "Fitingi kutoka 20 mm hadi 315 mm, zikisaidiwa na vali, viungio na vipande vya mpito."
+      },
+      {
+        "t": "Teknolojia ya Kulehemu & Zana",
+        "d": "Zana za kukata, vifaa vya kulehemu na mashine za kulehemu kwa tundu, kitako na michakato ya kulehemu ya electro."
+      },
+      {
+        "t": "Maji ya Moto & Baridi",
+        "d": "Imeundwa kwa maji ya kunywa (moto na baridi) yenye upinzani wa juu wa joto na shinikizo kwa miongo kadhaa."
+      }
+    ],
+    "techEyebrow": "Data ya Kiufundi",
+    "techTitle": "Vipimo & Viwango vya Shinikizo",
+    "techLead": "Kulingana na aina ya bomba, kutoka 20 mm hadi 630 mm, fitingi hadi 315 mm.",
+    "ctaFeatures": "Vipengele vya Bidhaa (PDF)",
+    "tableHead": [
+      "Kipengele",
+      "Vipimo",
+      "Viwango vya Shinikizo"
+    ],
+    "tableRows": [
+      [
+        "Mabomba ya Monolayer",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Mabomba ya Multilayer (GF-imarishwa)",
+        "20 – 630 mm",
+        "SDR 6 / 7.4 / 9 / 11 / 17"
+      ],
+      [
+        "Fitingi",
+        "20 – 315 mm",
+        "inayoendana na mfumo"
+      ],
+      [
+        "Vali & Viungio",
+        "inategemea mfumo",
+        "-"
+      ],
+      [
+        "Teknolojia ya Kulehemu & Zana",
+        "vipimo vyote",
+        "-"
+      ]
+    ]
+  }
+}

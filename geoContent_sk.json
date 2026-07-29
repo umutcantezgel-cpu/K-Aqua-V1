@@ -1,0 +1,310 @@
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Nariadenie o pitnej vode (TrinkwV)",
+      "water": "Tvrdá voda (14–20 °dH): PP-R/PPRCT bez korózie zabraňuje usadzovaniu vodného kameňa na drsných kovových povrchoch.",
+      "focus": [
+        "Stúpačky výškových budov (Banková štvrť)",
+        "Rekonštrukcie hotelov a kancelárií",
+        "Chladiaca voda pre dátové centrá"
+      ],
+      "note": "V oblasti Rýn-Mohan dodáva K Aqua priamo zo závodu Waldsolms, často v ten istý deň.",
+      "focusHeading": "Typické projekty vo Frankfurte nad Mohanom"
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Stredne tvrdá voda z brehového filtrátu: hygienická neutralita PP zabraňuje tvorbe biofilmu v rozsiahlych sieťach.",
+      "focus": [
+        "Nová výstavba obytných štvrtí",
+        "Výstavba škôl a administratívnych budov",
+        "Rekonštrukcia starých budov"
+      ],
+      "note": "Veľké projekty v regióne hlavného mesta sú dodávané prostredníctvom špedičných partnerov do 24 hodín.",
+      "focusHeading": "Typické projekty v Berlíne"
+    },
+    "muenchen": {
+      "regulator": "DVGW / TrinkwV, SWM",
+      "water": "Mäkká alpská voda s nízkym rozsahom pH: PP je odolný tam, kde meď naráža na zvýšenú rozpustnosť.",
+      "focus": [
+        "Prémiová bytová výstavba",
+        "Výstavba kliník a laboratórií",
+        "Pivovarská a procesná voda"
+      ],
+      "note": "Rýchle dodanie do južného Nemecka a blízkych alpských oblastí z hesenského výrobného centra.",
+      "focusHeading": "Typické projekty v Mníchove"
+    },
+    "hamburg": {
+      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+      "water": "Premenlivá tvrdosť vody z podzemných vôd: Inertný materiál PP-R nepodlieha korózii pod napätím (Stress corrosion cracking).",
+      "focus": [
+        "Prístavná a námorná infraštruktúra (HafenCity)",
+        "Výstavba lodí a jacht",
+        "Komerčná bytová výstavba"
+      ],
+      "note": "Silné zameranie na projekty odolné voči prístavnej klíme. Dodávky presne na čas (Just-in-Time) pre Hanzové mesto.",
+      "focusHeading": "Typické projekty v Hamburgu"
+    },
+    "wien": {
+      "regulator": "ÖVGW / Rakúske nariadenie o pitnej vode",
+      "water": "Vysoko kvalitná pramenitá horská voda (mäkká): K Aqua zachováva čistotu bez uvoľňovania iónov ťažkých kovov.",
+      "focus": [
+        "Luxusné hotelierstvo a nemocnice",
+        "Viedenská mestská výstavba a rekonštrukcie",
+        "Priemyselné chladiace siete (dátové centrá)"
+      ],
+      "note": "Závod vo Waldsolmse zásobuje rakúsky trh plynulo vďaka optimalizovanej DACH logistike.",
+      "focusHeading": "Typické projekty vo Viedni"
+    },
+    "zuerich": {
+      "regulator": "SVGW / Švajčiarske normy",
+      "water": "Voda z jazier a prameňov (stredne tvrdá): Plastový systém PP-R chráni pred vápennými usadeninami a chlórovaním.",
+      "focus": [
+        "Farmaceutický priemysel a laboratórna infraštruktúra",
+        "High-end rezidencie",
+        "Podzemné inštalácie (tunely)"
+      ],
+      "note": "Najvyššie švajčiarske požiadavky na kvalitu plne spĺňa nemecké inžinierstvo K Aqua.",
+      "focusHeading": "Typické projekty v Zürichu"
+    },
+    "london": {
+      "regulator": "WRAS (Water Regulations Advisory Scheme)",
+      "water": "Veľmi tvrdá voda (okolo 20 °dH): Hladké vnútro rúr zabraňuje extrémnemu hromadeniu vodného kameňa a upchatiu.",
+      "focus": [
+        "Obchodné mrakodrapy v The City",
+        "Rozšírenia historických luxusných hotelov",
+        "Masívne obytné komplexy"
+      ],
+      "note": "Certifikované materiály spĺňajúce prísne požiadavky WRAS pre bezproblémové prijatie v Spojenom kráľovstve.",
+      "focusHeading": "Typické projekty v Londýne"
+    },
+    "paris": {
+      "regulator": "CSTB / ACS (Attestation de Conformité Sanitaire)",
+      "water": "Vysoko kolísavý obsah vápnika zo Seiny/Marny: Systém je absolútne imúnny voči agresívnemu usadzovaniu.",
+      "focus": [
+        "Inštalácie v múzeách (na ochranu umenia pred únikom vody)",
+        "La Défense kancelárske veže",
+        "Sanitácia v metropole"
+      ],
+      "note": "So schválením ACS garantuje K Aqua dokonalú hygienu pre francúzsky trh.",
+      "focusHeading": "Typické projekty v Paríži"
+    },
+    "mailand": {
+      "regulator": "Ministero della Salute / UNI (Ente Italiano di Normazione)",
+      "water": "Tvrdá padská (Po-level) podzemná voda: Plastové rúry eliminujú galvanickú koróziu (galvanic corrosion).",
+      "focus": [
+        "Luxusné nákupné centrá a rezidencie",
+        "Chladenie výrobných zariadení",
+        "Kliniky a lekárska technika"
+      ],
+      "note": "Krátke dodacie vzdialenosti cez Alpy zabezpečujú hladkú realizáciu projektov v severnom Taliansku.",
+      "focusHeading": "Typické projekty v Miláne"
+    },
+    "warschau": {
+      "regulator": "PZH (Państwowy Zakład Higieny)",
+      "water": "Chemicky upravovaná voda: Odolnosť PP-R zamedzuje reakcii s dezinfekčnými zložkami.",
+      "focus": [
+        "Novodobé kancelárske mrakodrapy",
+        "Logistické centrá",
+        "Masová bytová výstavba"
+      ],
+      "note": "Z Nemecka priamo do rýchlo rastúceho poľského stavebného boomu – spoľahlivo a certifikovane.",
+      "focusHeading": "Typické projekty vo Varšave"
+    },
+    "prag": {
+      "regulator": "SZÚ (Státní zdravotní ústav)",
+      "water": "Upravovaná vltavská voda: Hladký povrch nepodporuje žiadnu tvorbu biofilmu.",
+      "focus": [
+        "Ochrana historických budov",
+        "Moderné business parky",
+        "Sieť diaľkového vykurovania"
+      ],
+      "note": "Rýchla dostupnosť pre trhy strednej Európy vďaka bezprostrednej blízkosti nášho nemeckého závodu.",
+      "focusHeading": "Typické projekty v Prahe"
+    },
+    "dubai": {
+      "regulator": "DCL (Dubai Central Laboratory) / ESMA",
+      "water": "Odsoľovaná, veľmi agresívna voda (mäkká, nízke pH): Kov rýchlo koroduje, PP-R ponúka dokonalú obranu (odolnosť).",
+      "focus": [
+        "Hyper-výškové budovy (mrakodrapy nad 300m)",
+        "Mega hotely a umelé ostrovy",
+        "Sieť chladenej vody (District Cooling)"
+      ],
+      "note": "K Aqua systémy dokážu odolávať extrémnym letným teplotám počas skladovania a výstavby lepšie ako PVC.",
+      "focusHeading": "Typické projekty v Dubaji"
+    },
+    "abudhabi": {
+      "regulator": "QCC (Quality and Conformity Council)",
+      "water": "Agresívna morská odsoľovaná voda (RO): Imunita K Aqua voči soľným rezíduám garantuje 50+ ročnú životnosť.",
+      "focus": [
+        "Kultúrne komplexy (múzeá na ostrove Saadiyat)",
+        "Infraštruktúra letísk",
+        "Luxusné rezorty"
+      ],
+      "note": "Plne v súlade s normami Abu Dhabi (Estidama) pre udržateľné stavebníctvo.",
+      "focusHeading": "Typické projekty v Abú Zabí"
+    },
+    "doha": {
+      "regulator": "Kahramaa",
+      "water": "Vysoko chlórovaná RO-voda zo zálivu: Chemická odolnosť (chemical resistance) zabraňuje degradácii stien potrubia.",
+      "focus": [
+        "Športová infraštruktúra (štadióny)",
+        "Obytné veže (The Pearl)",
+        "Medicínske a výskumné centrá"
+      ],
+      "note": "Dodávame riešenia vo veľkých dimenziách pre rozsiahle chladiace okruhy (chilled water networks).",
+      "focusHeading": "Typické projekty v Dohe"
+    },
+    "riad": {
+      "regulator": "SASO (Saudi Standards, Metrology and Quality Organization)",
+      "water": "Extrémna tvrdosť z artézskych studní + odsoľovanie: PP-R je najlepšou zbraňou proti blokujúcemu (inštalatérskemu) usadzovaniu.",
+      "focus": [
+        "Projekty Saudi Vision 2030",
+        "Finančná štvrť KAFD (výškové budovy)",
+        "Nemocničné megakomplexy"
+      ],
+      "note": "K Aqua je preferovaným materiálom pre projekty so štátnym financovaním (Saudi Vision 2030).",
+      "focusHeading": "Typické projekty v Rijáde"
+    },
+    "dschidda": {
+      "regulator": "SASO",
+      "water": "Korozívne prostredie (červené more) + odsoľovaná voda: Exteriérová aj interiérová odolnosť potrubia je kľúčová.",
+      "focus": [
+        "Náboženská infraštruktúra a hotely pre pútnikov",
+        "Pobrežné komerčné veže",
+        "Odsoľovacie terminály (priemyselné rozvody)"
+      ],
+      "note": "Vysoká odolnosť K Aqua PP-R proti vlhkosti s vysokým obsahom soli v ovzduší.",
+      "focusHeading": "Typické projekty v Džidde"
+    },
+    "neom": {
+      "regulator": "NEOM Authority Standards (SASO baseline)",
+      "water": "100% obnoviteľne odsoľovaná voda, nulová uhlíková stopa (Zero Carbon): Ekologický PP-R materiál presne pasuje do vízie.",
+      "focus": [
+        "The Line (lineárne mestské inštalácie)",
+        "Trojena (Extrémne teplotné extrémy v horách)",
+        "Oxagon (Priemyselné rozvody plávajúce na vode)"
+      ],
+      "note": "Udržateľnosť a recyklovateľnosť (Recyclability) K Aqua materiálu z nás robí ideálneho partnera.",
+      "focusHeading": "Typické projekty v regióne NEOM"
+    },
+    "kuwait": {
+      "regulator": "MEW (Ministry of Electricity and Water)",
+      "water": "Veľmi vysoké teploty napájacej vody z nádrží: Termálna stabilita (Thermal endurance) materiálu K Aqua je kritická.",
+      "focus": [
+        "Vládne a verejné inštitúcie",
+        "Vily a rezidenčné komplexy v drsných podmienkach",
+        "Ropný a plynárenský administratívny sektor"
+      ],
+      "note": "K Aqua vydrží aj v prípadoch, keď zlyhá chladenie strešných nádrží (water tanks).",
+      "focusHeading": "Typické projekty v Kuwaite"
+    },
+    "maskat": {
+      "regulator": "PAEW (Public Authority for Electricity and Water)",
+      "water": "Zmes podzemných a RO vôd: O-krúžky v lisovaných spojoch zlyhávajú, fúzované (fused) spoje K Aqua nie.",
+      "focus": [
+        "Ekologické turistické rezorty",
+        "Priemyselné chladenie prístavov",
+        "Rozvody čistej (potravinárskej) vody v spracovateľskom priemysle"
+      ],
+      "note": "Zvárané spoje neobsahujú žiadne gumové tesnenia, ktoré by vysychali v horúcej klíme.",
+      "focusHeading": "Typické projekty v Maskate"
+    },
+    "manama": {
+      "regulator": "EWA (Electricity and Water Authority)",
+      "water": "Závislosť na morských RO staniciach: Žiadne uvoľňovanie medi do pitnej vody vďaka PP-R.",
+      "focus": [
+        "Komerčné veže na Bahrain Bay",
+        "Luxusné umelé útesy a ostrovy",
+        "Infrastruktúra chladenia okresov (District cooling)"
+      ],
+      "note": "Spoľahlivé zásobovanie pre ostrovný štát s limitovanými sladkovodnými zdrojmi.",
+      "focusHeading": "Typické projekty v Manáme"
+    },
+    "amman": {
+      "regulator": "JSMO (Jordan Standards and Metrology Organization)",
+      "water": "Obmedzené zdroje (prerušované dodávky, tlakové rázy): Flexibilita materiálu zabraňuje prasklinám od vodných rázov.",
+      "focus": [
+        "Obytné komplexy strednej triedy (minimalizácia únikov)",
+        "Zdravotnícke zariadenia",
+        "Systémy na zber a rozvod dažďovej/recyklovanej vody"
+      ],
+      "note": "Extrémna hydrostatická odolnosť v systémoch s častým cyklovaním čerpadiel.",
+      "focusHeading": "Typické projekty v Ammáne"
+    },
+    "kairo": {
+      "regulator": "EOS (Egyptian Organization for Standardization)",
+      "water": "Voda z Nílu s premenlivou úpravou: Hladké potrubia minimalizujú akumuláciu sedimentov a piesku.",
+      "focus": [
+        "Nové administratívne hlavné mesto (New Administrative Capital)",
+        "Vládne komplexy a ministerstvá",
+        "Masívne urbanistické rozširovanie"
+      ],
+      "note": "Pripojenie pomocou veľkých priemerov PP-R (až 500mm+) pre obrovské vládne infraštruktúry.",
+      "focusHeading": "Typické projekty v Káhire"
+    },
+    "istanbul": {
+      "regulator": "TSE (Türk Standardları Enstitüsü)",
+      "water": "Eurázijské vodné zdroje (stredne tvrdá): Plast chráni pred koróziou v zložitých topografických sieťach.",
+      "focus": [
+        "Megaprojekty (letiská, nemocnice - City Hospitals)",
+        "Seizmicky odolné (seismic-proof) potrubné inštalácie",
+        "Turistické komplexy"
+      ],
+      "note": "Elastický modul potrubí K Aqua absorbuje seizmickú energiu pri otrasoch (zemetraseniach) omnoho lepšie ako tuhé kovové systémy.",
+      "focusHeading": "Typické projekty v Istanbule"
+    },
+    "singapur": {
+      "regulator": "PUB (Public Utilities Board)",
+      "water": "NEWater (vysoko čistá recyklovaná voda): K Aqua (potravinársky bezpečný materiál) neznečisťuje laboratórne čistú vodu.",
+      "focus": [
+        "Polovodičové a high-tech laboratóriá",
+        "High-density obytné bloky (HDB/Condos)",
+        "Nemocnice a virologické inštitúty"
+      ],
+      "note": "Najprísnejšie normy zelenej výstavby (Green Mark) v Ázii sú dokonale zosúladené s našou recyklovateľnosťou.",
+      "focusHeading": "Typické projekty v Singapure"
+    },
+    "kualalumpur": {
+      "regulator": "SPAN (Suruhanjaya Perkhidmatan Air Negara)",
+      "water": "Tropická dažďová a povrchová voda: Rúry bez priepustnosti svetla zabraňujú rastu rias v teplom podnebí.",
+      "focus": [
+        "Mrakodrapy (Kuala Lumpur City Centre)",
+        "Nákupné mega-centrá s obrovským chladením (Chiller systems)",
+        "Luxusné obytné komplexy"
+      ],
+      "note": "Odolné voči vysokým teplotám a vlhkosti, počas a po inštalácii (kondenzácia chladenej vody).",
+      "focusHeading": "Typické projekty v Kuala Lumpur"
+    },
+    "mumbai": {
+      "regulator": "BIS (Bureau of Indian Standards)",
+      "water": "Kolísavý tlak (tlakové pumpy): Spoľahlivé zvárané spoje neprasknú pod vodnými rázmi (Water hammers).",
+      "focus": [
+        "Prémiové rezidenčné veže",
+        "Farmaceutické závody v regióne",
+        "Moderné hotelierstvo (Hospitality)"
+      ],
+      "note": "Poskytuje garanciu ochrany (Zero-leakage) pred zatečením, čo je zásadné v drahých nehnuteľnostiach s častými zrážkami (monzún).",
+      "focusHeading": "Typické projekty v Bombaji"
+    },
+    "kapstadt": {
+      "regulator": "SABS (South African Bureau of Standards)",
+      "water": "Vodná kríza (obmedzené zdroje): Systémy bez netesností (Zero-leak) zachraňujú každú vzácnu kvapku.",
+      "focus": [
+        "Odsoľovacie a reverzné osmotické stanice",
+        "Verejné zdravotnícke komplexy",
+        "Priemyselné potravinárske komplexy (vinárstvo)"
+      ],
+      "note": "K Aqua ponúka robustné (heavy-duty) systémy, ktoré nestrácajú vodu únikmi z opotrebovaných O-krúžkov.",
+      "focusHeading": "Typické projekty v Kapskom Meste"
+    },
+    "nairobi": {
+      "regulator": "KEBS (Kenya Bureau of Standards)",
+      "water": "Výkyvy v zásobovaní: Systém vydrží striedanie prázdnych a plných (natlakovaných) rúr bez oslabenia zvarov.",
+      "focus": [
+        "Medzinárodné obchodné centrá",
+        "Infraštruktúra regionálnych nemocníc",
+        "Rýchlo rastúci logistický sektor"
+      ],
+      "note": "Nemecká kvalita poskytuje bezúdržbovú prevádzku (Maintenance-free), šetriac na vzácnej technickej pracovnej sile.",
+      "focusHeading": "Typické projekty v Nairobi"
+    }
+  }

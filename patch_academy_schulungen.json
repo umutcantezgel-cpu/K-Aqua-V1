@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "cta1": "Začnite prijavo na akademijo",
+    "cta2": "Oglejte si kurikulum"
+  },
+  "manifesto": {
+    "title3": "naključje.",
+    "p1": "Je rezultat neizprosne metodologije in hladne, industrijske discipline. Ko se tisoče kubičnih metrov vode pod ogromnim pritiskom črpa skozi življenjske žile 100-nadstropnega nebotičnika, ni prostora za približke ali interpretacije.",
+    "p2": "Program usposabljanja K Aqua je bil razvit za premostitev vrzeli med teoretičnim znanjem in brezhibno, strojno popolnostjo. Kdor se usposablja v naši akademiji, ne deluje več zgolj kot obrtnik. Postane izvršilni organ popolnega, determinističnega sistema."
+  },
+  "bento": {
+    "eyebrow": "STEBRI AVTORITETE",
+    "lead": "Naši tehnični moduli usposabljanja niso zasnovani zato, da bi vam olajšali delo. Zasnovani so tako, da neusmiljeno odpravljajo napake.",
+    "items": [
+      {
+        "title": "Homogena zlitost materialov",
+        "desc": "Onkraj lepljenja ali nestabilnih mehanskih tesnil. Usposabljamo se za natančno kalibracijo temperature, tlaka in časa, da se cevi in fitingi na molekularni ravni zlijejo v neločljivo, monolitno strukturo."
+      },
+      {
+        "title": "Destruktivna analitika",
+        "desc": "Da bi razumeli meje, jih morate preseči. Praktični moduli v naših visokotlačnih testnih postajah z razpočni tlaki, ki močno presegajo 100 barov. Analiziramo odpovedi, da jih v praksi izključimo."
+      },
+      {
+        "title": "Vzdolžno toplotno raztezanje",
+        "desc": "Hladna kompenzacija temperaturnih nihanj pri velikih projektih z natančno izračunanimi ekspanzijskimi zankami in sistemi fiksnih točk."
+      },
+      {
+        "title": "Agresivni mediji in pH-stabilnost",
+        "desc": "Poglobljena analiza odpornosti proti visoko koncentriranim industrijskim kemikalijam. Akademija posreduje poglobljeno znanje o utrujenosti materiala pod stalnimi kemičnimi obremenitvami in radikalnimi pH-spremembami."
+      }
+    ]
+  },
+  "typography": {
+    "t1": "NIČELNA TOLERANCA",
+    "t2": "ZA NAPAKE."
+  },
+  "curriculum": {
+    "eyebrow": "KURIKULUM",
+    "lead": "Štirje moduli. Ena doktrina. Vsak segment našega učnega načrta je zasnovan tako, da prepozna pomanjkljivosti v izvedbi in jih sistemsko odpravi."
+  },
+  "sticky": {
+    "items": [
+      {
+        "title": "Modul Alfa: Mehanika fluidov in kinetika",
+        "desc": "Matematika vode. Kompleksne učinke kavitacije in scenarije vodnega udara razčlenimo na izračunljive spremenljivke. Ne naučite se zgolj blažiti simptomov hidrodinamičnega šoka, temveč jih sistemsko odpraviti. Za cevna omrežja, ki delujejo v popolni, tihi dovršenosti."
+      },
+      {
+        "title": "Modul Beta: Parametrično načrtovanje cevi",
+        "desc": "Zasnova cevnih sistemov kot algoritmična disciplina. Usposabljanje vključuje uporabo najsodobnejših CAD/BIM orodij za preverjanje trkov in optimizacijo izrabe materialov. Brez ocenjevanja. Čisti, hladni izračuni."
+      },
+      {
+        "title": "Modul Gama: Higienska arhitektura in mikrobiologija",
+        "desc": "Preprečevanje legionele na strukturni ravni. Kako se izogniti slepim rokavom, odpraviti območja stagnacije in nadzorovati stratifikacijo temperature vode v kompleksnih sistemih s krožnimi vodi. Sistem narekuje čistost, ničesar ne prepuščamo naključju."
+      },
+      {
+        "title": "Modul Delta: Končna presoja K Aqua",
+        "desc": "Preskus ni pravica, je privilegij. Preizkus zahteva konstrukcijo in teoretično zagovarjanje samozadostnega sistema oskrbe z vodo v simuliranih ekstremnih pogojih (npr. potresna aktivnost, 50 °C zunanje temperature). Le tisti, ki dokažejo absolutno brezhibnost, pridobijo certifikat K Aqua."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Pot certificiranja.",
+    "desc": "Preoblikovanje od inštalaterja do certificiranega glavnega inženirja K Aqua (Master-Engineer) sledi strogemu, neizprosnemu ritmu. Samo tisti, ki prehodijo to pot do konca, prejmejo pooblastilo za naše visoko zmogljive sisteme.",
+    "items": [
+      {
+        "year": "FAZA 05",
+        "title": "Mojstrski izpit",
+        "text": "48-urna presoja pod neusmiljenim nadzorom nemških glavnih inženirjev. Ni tolerance za napačne izračune. Ena napaka pomeni takojšnjo izključitev."
+      }
+    ]
+  },
+  "spec": {
+    "eyebrow": "GLOBALNI STANDARD",
+    "items": [
+      {
+        "title": "Mednarodna veljavnost",
+        "text": "Priznano s strani vodilnih svetovnih gradbenih in nadzornih organov."
+      },
+      {
+        "title": "Transparentnost presoje",
+        "text": "Brezhibna, digitalna dokumentacija vsakega varilnega postopka."
+      },
+      {
+        "title": "Dosmrtna avtoriteta",
+        "text": "Ko je enkrat pridobljena, inženirja označuje kot del elitne kaste."
+      }
+    ]
+  },
+  "cta": {
+    "button": "Začnite prijavo"
+  }
+}

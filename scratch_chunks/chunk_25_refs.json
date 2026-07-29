@@ -1,0 +1,61 @@
+{
+  "refs": {
+    "eyebrow": "Referenzen",
+    "title1": "Ein Globus voller",
+    "titleGrad": "Projekte.",
+    "lead": "Drehen Sie den Globus, tippen Sie auf einen Marker: Jede Markierung steht für bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter für echte Referenzen.)",
+    "canvasAria": "Interaktiver Globus mit Referenzprojekten, ziehen zum Drehen",
+    "note": "Echte Projektnamen, Fotos und Kennzahlen sollten redaktionell ergänzt werden. Die Bühne dafür steht.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Deutschland",
+        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, VAE",
+        "d": "Hochhaus-Steigleitungen: PPRCT für Heißwasser unter Wüstenbedingungen."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warschau, Polen",
+        "d": "Wohnquartier-Neubau: komplette Trinkwasserinstallation d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Türkei",
+        "d": "Hotelkomplex: Zirkulationsleitungen mit Faserverbundrohr."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapur",
+        "d": "Infrastrukturprojekt: Großdimensionen bis d630 im Stumpfschweißverfahren."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Kapstadt, Südafrika",
+        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
+      }
+    ]
+  }
+}

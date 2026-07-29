@@ -1,0 +1,70 @@
+      "title": "Ventil Specifikationer",
+      "lead": "Dimensioneret til den globale standard.",
+      "items": [
+        {
+          "label": "Dimensioner",
+          "value": "20 - 125 mm",
+          "sub": "For kugleventiler og skråsædeventiler"
+        },
+        {
+          "label": "Maks. Tryk (PN)",
+          "value": "25 bar",
+          "sub": "Afhængig af model og temperatur"
+        },
+        {
+          "label": "Maks. Temperatur",
+          "value": "95°C",
+          "sub": "Kortvarig top 110°C"
+        },
+        {
+          "label": "Anvendelse",
+          "value": "Drikkevand & Varme",
+          "sub": "Ikke til brandbare gasser"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Integrer sikkerhed i dit rørnetværk.",
+      "desc": "Find de rigtige ventiler og armaturer til din applikation i vores produktkatalog.",
+      "primary": "Se alle ventiler"
+    }
+  },
+  "category": {
+    "title": "Kategorier",
+    "all": "Alle Produkter"
+  },
+  "fittings": {
+    "meta": {
+      "title": "PP-R Fittings og Rørdele",
+      "desc": "K Aqua PP-R fittings: Bøjninger, T-stykker, reduktioner og muffer til en 100% lækagefri og homogen samling af rørsystemer."
+    },
+    "hero": {
+      "eyebrow": "Systemforbindelser",
+      "title": "Fittings: Den sikre form for retningsændring",
+      "lead": "Hver retningsændring, hver forgrening er et kritisk punkt. K Aqua PP-R fittings omdanner disse punkter til systemets stærkeste led – takket være homogen molekylær sammensmeltning."
+    },
+    "intro": {
+      "eyebrow": "Sømløs integration",
+      "title": "Når to dele bliver til én.",
+      "lead": "I modsætning til limede eller pressede rørforbindelser anvender vi termisk polyfusion. Fitting og rør opvarmes og smeltes sammen, så de danner én enkelt, uadskillelig struktur uden pakninger eller svage punkter."
+    },
+    "sticky": {
+      "eyebrow": "Fitting Typer",
+      "title": "Det komplette sortiment.",
+      "lead": "Vores sortiment af fittings giver dig mulighed for at bygge enhver tænkelig geometri i rørnettet uden at gå på kompromis med gennemstrømning eller sikkerhed.",
+      "items": [
+        {
+          "title": "Vinkler & Bøjninger",
+          "desc": "45° og 90° vinkler til retningsændringer. Vores flow-optimerede design minimerer tryktabet i bøjningen markant sammenlignet med standard fittings."
+        },
+        {
+          "title": "T-stykker & Forgreninger",
+          "desc": "Lige og reducerede T-stykker til effektiv fordeling af væsker. Designet til at modstå de høje trykforskelle ved forgreninger."
+        },
+        {
+          "title": "Muffer & Reduktioner",
+          "desc": "Forbinder rør af samme eller forskellige diametre sikkert og permanent. Reduktioner er udformet konisk for at undgå kavitation."
+        },
+        {
+          "title": "Endekapper & Propper",
+          "desc": "Til sikker og tryktæt afslutning af rørledninger eller midlertidig forsegling af systemer under byggefasen."

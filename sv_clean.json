@@ -1,0 +1,6066 @@
+{
+  "toggle_theme_light": "Byt till ljust tema",
+  "toggle_theme_dark": "Byt till mörkt tema",
+  "nav": {
+    "home": "Start",
+    "products": "Produkter",
+    "finder": "Produktsök",
+    "co2": "CO₂-kalkylator",
+    "markets": "Marknader",
+    "trust": "Trust Center",
+    "contact": "Kontakt",
+    "quote": "Begär offert",
+    "menu": "Meny",
+    "lang": "Språk",
+    "skipToContent": "Hoppa till innehåll",
+    "menuPlaceholder": "Platshållare (Mega-Meny)",
+    "academy": "Academy",
+    "service": "Service",
+    "about": "Företaget",
+    "solutions": "Lösningar",
+    "partners": "Partnerskap",
+    "references": "Referenser",
+    "career": "Karriär",
+    "news": "Nyheter",
+    "knowledge_trust": "Kunskap & Förtroende",
+    "mapAria": "Öppna kartnavigering",
+    "sitemapAria": "Webbplatsöversikt",
+    "pipes": "Rör",
+    "fittings": "Rördelar",
+    "valves": "Ventiler",
+    "accessories": "Tillbehör",
+    "tools": "Verktyg"
+  },
+  "groups": {
+    "tools": "Verktyg",
+    "knowledge": "Kunskap",
+    "company": "Företag",
+    "products": "Produkter",
+    "markets_solutions": "Marknader & Lösningar",
+    "knowledge_resources": "Kunskap & Resurser"
+  },
+  "home": {
+    "chip": "verifierad sedan oktober 2025",
+    "h1a": "Ledande inom",
+    "h1b": "K-Aqua PP-R-rörsystem",
+    "globeAria": "Interaktiv glob, dra för att rotera",
+    "scrolly": [
+      {
+        "t": "Tillverkat i Tyskland",
+        "d": "Utveckling och produktion i Waldsolms för varje rör, varje rördel."
+      },
+      {
+        "t": "d20 till d630",
+        "d": "Ett komplett system: fem tryckklasser, rördelar, ventiler och svetsteknik."
+      },
+      {
+        "t": "Trippelcertifierad",
+        "d": "ISO 9001, 14001 och 50001: kvalitet, miljö och energi från ett ledningssystem."
+      },
+      {
+        "t": "27 marknader världen över",
+        "d": "Från Frankfurt till NEOM: testad mot lokala standarder och vattenprofiler."
+      }
+    ],
+    "lead": "K Aqua utvecklar och tillverkar PP-R/PPRCT-rörsystem för dricksvatten från 20 till 630 mm, i partnerskap med premiumtillverkaren KESSEL.",
+    "ctaProducts": "Upptäck produktsystemet",
+    "ctaContact": "Kontakta oss",
+    "toolsEyebrow": "Interaktiva verktyg",
+    "toolsTitle1": "Ingen textöken.",
+    "toolsTitle2": "Verktyg.",
+    "toolsLead": "Webbplatsen arbetar för dig: filtrera, beräkna, lära dig.",
+    "bandTitle": "Redo för nästa generation av vattenförsörjning?",
+    "bandLead": "Prata med vårt säljteam om ditt projekt, från planering till svetsteknik.",
+    "bandBtn": "Starta projektförfrågan",
+    "bandBtn2": ""
+  },
+  "pages": {
+    "catalogOverview": "Fullständig produktkatalog",
+    "products": [
+      "Produkter & Rördelar",
+      "Upptäck K Aquas kompletta plaströrsystem från d20 till d630 mm. Högpresterande PP-R- och PPRCT-rör för hushåll och industri."
+    ],
+    "finder": [
+      "Produktsök",
+      "Hitta direkt det perfekta PP-R- eller PPRCT-röret, rördelen eller ventilen. Filtrera vår katalog live efter dimension, tryckklass och väggtjocklek."
+    ],
+    "finderGuideText": "<h2>Interaktiv produktsökning för K-Aqua-rörsystem</h2><p>Använd vårt innovativa sökverktyg för att identifiera exakt rätt komponent för din specifika rörinstallation. Oavsett om du letar efter standard-PP-R-rör för dricksvatteninstallationer, fiberförstärkta PPRCT-rör för krävande industrianläggningar eller speciella övergångskopplingar och ventiler – vårt verktyg filtrerar hela katalogen i realtid. Produktsökningen hjälper dig att välja efter diameter (d20 till d630), tryckklass (SDR-klass) och material.</p><p>Ett välstrukturerat rörsystem kräver noggrann planering och exakt kombination av rör, rördelar (som muffar, vinklar och T-rör) och tillhörande tillbehör. Vårt sökverktyg eliminerar den tidskrävande sökningen i statiska PDF-kataloger och ger dig istället omedelbara, tillförlitliga data om artikelnummer, förpackningsstorlekar och tekniska specifikationer. Med bara några klick kan du sammanställa din materiallista och säkerställa kompatibiliteten hos de olika komponenterna för värme-, kyl- och dricksvattensystem. Detta optimerar inte bara din planeringsprocess, utan minimerar även fel vid materialbeställning för ditt nästa byggprojekt.</p>",
+    "co2": [
+      "CO2-kalkylator",
+      "Jämför koldioxidavtrycket från K Aquas PP-R-plaströr med koppar, rostfritt stål och PVC. Verifierat enligt ISO 14040/44 för miljöbyggnad."
+    ],
+    "solutions": [
+      "Materialfördelar",
+      "Lär dig varför polypropen (PP-R/PPRCT) är det överlägsna materialet för vattenförsörjning. Ekologiskt, tekniskt avancerat och ekonomiskt."
+    ],
+    "academy": [
+      "K-Aqua Academy: PP-R svetsteknik och expertis",
+      "Lär dig professionella svetstekniker för PP-R-plaströr. Titta på videoguider och genomför vårt Welding-Master-Quiz."
+    ],
+    "trust": [
+      "Trust Center",
+      "Få tillgång till K Aquas kvalitetsdokumentation. Ladda ner ISO-certifikat, GENAU-ramverket och revisionsdokument för ditt projekt."
+    ],
+    "service": [
+      "Service & Download Center",
+      "Ladda ner officiella K Aqua-produktkataloger, tekniska datablad och installationsanvisningar för PP-R- och PPRCT-plaströrsystem."
+    ],
+    "partner": [
+      "KESSEL Partnerskap",
+      "K Aqua och KESSEL förenas i ett decennielångt partnerskap som överför tyska tillverkningsstandarder från avlopp till vattenförsörjning."
+    ],
+    "markets": [
+      "Marknader & Platser",
+      "K Aqua levererar PP-R-rörsystem till över 27 länder. Använd vår interaktiva världskarta för lokala standarder, vattenprofiler och logistikinformation."
+    ],
+    "references": [
+      "Referensprojekt",
+      "Upptäck världsomspännande referensprojekt med K-Aquas PP-R-rörsystem. Vår interaktiva 3D-glob visar hushålls-, kommersiella och industriella installationer."
+    ],
+    "about": [
+      "Om KWT GmbH",
+      "KWT GmbH samlar årtionden av erfarenhet för att tillverka K Aquas premiumrörsystem. Tysk ingenjörskonst för högsta kvalitet och innovation."
+    ],
+    "career": [
+      "Karriär hos K-Aqua",
+      "Bli en del av vårt team i Waldsolms. Beräkna dina skattefria förmåner netto och testa på 60 sekunder om K Aqua passar dig."
+    ],
+    "news": [
+      "Aktuellt & Nyheter | K-Aqua Företagsnyheter",
+      "Håll dig uppdaterad om K Aquas innovationer, produkter, mässdeltaganden och vårt engagemang för den trippel-ISO-certifierade produktionen."
+    ],
+    "contact": [
+      "Kontakt, Försäljning & Support",
+      "Kontakta K Aquas expertteam för försäljningsfrågor, support eller partnerskap. Snabba svarstider för globala B2B-kunder."
+    ],
+    "rfq": [
+      "Projektförfrågan",
+      "Begär en oförbindlig offert för ditt nästa rörprojekt i fyra enkla steg. Vårt säljteam återkommer inom 24 timmar."
+    ],
+    "home": [
+      "PP-R- & PPRCT-rörsystem",
+      "K Aqua tillverkar förstklassiga PP-R- och PPRCT-plaströrsystem för dricksvatten och industriella tillämpningar. Tysk ingenjörskonst för globala projekt."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Integritetspolicy",
+        "Omfattande integritetspolicy för K Aquas webbplats enligt GDPR-riktlinjerna."
+      ],
+      "impressum": [
+        "Impressum & Juridisk information",
+        "Impressum och juridisk företagsinformation för KWT GmbH, tillverkare av K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "certifierad kvalitet",
+      "title1": "Ledningssystemet ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "Målet med GENAU-ledningssystemet är den ständiga förbättringen av arbetsmiljö, miljöskydd och hälsoskydd inom företaget.",
+      "p2": "Alla företagsaktiviteter på KWT utförs med hänsyn till resursbevarande, miljökompatibilitet och strikt efterlevnad av alla skyldigheter. Det praktiserade GENAU-ledningssystemet uppfyller de höga kraven i ",
+      "p3": " och ",
+      "list1Title": "Ekologiskt ansvar",
+      "list1Desc": "Miljöskydd är en del av vår kvalitetsförståelse, som alla medarbetare på KWT GmbH förbinder sig till.",
+      "list2Title": "Energieffektivitet",
+      "list2Desc": "Målinriktad identifiering av risker och genomförande av åtgärder för att optimera energieffektiviteten."
+    },
+    "pipes": [
+      "Rör & System",
+      "Högpresterande PP-R- och PP-RCT-rör för hushåll och industri. Upptäck alla SDR-klasser och dimensioner för ditt nästa projekt."
+    ],
+    "fittings": [
+      "Rördelar & Kopplingar",
+      "Komplett sortiment av rördelar för alla K-Aquas rörsystem. Upptäck vinklar, T-rör, reduktioner och muffar för polyfusion."
+    ],
+    "valves": [
+      "Ventiler",
+      "Premiumventiler och tillbehör för rörledningsnät. Högkvalitativa kulventiler, inbyggda ventiler, snedsätesventiler och backventiler."
+    ],
+    "tools": [
+      "Verktyg & Tillbehör",
+      "Professionella svetsverktyg och tillbehör för PP-R-installation. Upptäck svetsmaskiner, rörsaxar och specialverktyg."
+    ],
+    "transition-fittings": [
+      "Övergångar",
+      "Pålitliga övergångskopplingar för säkra anslutningar. Upptäck övergångskopplingar i mässing med gängor eller flänsanslutningar."
+    ]
+  },
+  "catalogx": {
+    "eyebrow": "Fullständig produktkatalog",
+    "faqTitle": "Vanliga frågor",
+    "title": "Alla 79 produktfamiljer med riktiga artikelnummer.",
+    "lead": "Rör, rördelar, övergångskopplingar, ventiler, insvetsningssadlar, tillbehör och verktyg, varje rad är hämtad från den bindande K Aqua-katalogen. Välj kategori, fäll ut artikeln, kontrollera artikelnummer.",
+    "searchPlaceholder": "Sök på artikelnummer eller produktnamn, t.ex. \"AQ200P20\" eller \"Elbow\"",
+    "noResults": "Inga träffar. Anpassa sökningen eller välj en annan kategori.",
+    "codesLabel": "Artikelnummer",
+    "sizesLabel": "Storlekar",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Serie",
+    "pressureLabel": "Driftstryck",
+    "lenLabel": "Stånglängd",
+    "cats": {
+      "pipes": {
+        "label": "Rör",
+        "desc": "PPR- och PPRCT-rör: standard, fiberförstärkta och UV-stabiliserade, 12 serier."
+      },
+      "fittings": {
+        "label": "Rördelar",
+        "desc": "Muffsvets- och elektrosvetsrördelar, d20–d125, 13 produktfamiljer."
+      },
+      "transitionFittings": {
+        "label": "Övergångskopplingar",
+        "desc": "Övergångar till gängor och mässing, för befintliga anslutningar och ventiler, 13 familjer."
+      },
+      "valves": {
+        "label": "Ventiler",
+        "desc": "Kulventiler, inbyggda ventiler, fördelare, 9 produktfamiljer."
+      },
+      "weldInSaddles": {
+        "label": "Insvetsningssadlar",
+        "desc": "Avstickningar utan röravskiljning, med och utan gängor, 3 familjer."
+      },
+      "accessories": {
+        "label": "Tillbehör",
+        "desc": "Rörklämmor, motflänsar, tätningar, pluggar: 5 produktfamiljer."
+      },
+      "tools": {
+        "label": "Verktyg",
+        "desc": "Rörsaxar, svetsmaskiner och svetsverktyg för alla fyra fogningsmetoderna, 14 familjer."
+      }
+    },
+    "rfq": {
+      "title": "Projektförfrågan",
+      "desc": "Begär en offert för <strong>{title}</strong> direkt.",
+      "button": "Till förfrågan"
+    },
+    "similar": {
+      "title": "Fler från {category}"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "cap": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "socket": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-45": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "reducing-bush": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "reducing-tee": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "tee": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "cross": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "cross-over": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "union": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "flat-gasket": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "plug": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "welding-tool": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "repairing-plug": {
+        "seo_p1": "",
+        "seo_p2": "",
+        "seo_p3": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      }
+    }
+  },
+  "geo": {
+    "eyebrow": "Marknader & Platser",
+    "title1": "En värld av",
+    "title2": "marknader.",
+    "lead": "{n} marknader i {c} länder, var och en med sin egen landningssida: standarder, vattenprofil, användningsfall, logistik. Ta tag i världen och snurra den fritt; listan flyger dig exakt till staden.",
+    "all": "Alla",
+    "cityTitle": "PP-R/PPRCT-rörsystem i {city}.",
+    "cityLead": "Dricksvattensystem d20–d630, testade mot lokala krav.",
+    "allMarkets": "Alla marknader",
+    "request": "Begär projekt",
+    "finder": "Produktsök",
+    "fromPlant": "km från fabriken i Waldsolms",
+    "regFrame": "Regulatoriskt ramverk",
+    "water": "Vattenprofil & Materialrespons",
+    "typical": "Typiska projekt i {city}",
+    "onSite": "Bearbetning på plats",
+    "onSiteText": "Utbildning i svetsteknik och videodokumentation för ert arbetslag i Academy.",
+    "toAcademy": "Till Academy",
+    "nearbyEyebrow": "Närliggande marknader",
+    "nearby": "I närheten.",
+    "prodNote": "Produktionsanteckning: Dessa sidor motsvarar den programmatiska SEO-mallen (Datasnitt: Produkt × Regelverk × Region). I Next.js genereras de via ISR från ett Headless CMS, inklusive hreflang, Product-/Offer-Schema och semantisk intern länkning.",
+    "km": "km",
+    "seoExpansion": "K Aqua tillverkar i Waldsolms PP-R- och PPRCT-rörsystem för de högsta kraven inom global byggnads- och anläggningsteknik. Tack vare kompromisslös tysk ingenjörskonst och den senaste produktionstekniken garanterar våra system årtionden av underhållsfri driftsäkerhet. Varje produkt, från d20 till d630, genomgår strikta kvalitetskontroller och uppfyller internationella standarder som DVGW, KIWA och SKZ. Vi erbjuder inte bara förstklassiga material för dricksvatten, kyla och industri, utan stöder också planerare och installatörer med omfattande teknisk support och utbildning på plats. Lita på ett system som övertygar genom extrem livslängd, korrosionsfrihet och absolut hygien.",
+    "seoExpansionDynamic": "Läs mer om våra PP-R- och PPRCT-lösningar i {city}. Vi uppfyller de lokala standarderna ({regulator}) och erbjuder optimala system för vattenkvaliteten ({water}). Ytterligare information: {note}.",
+    "cityMetaTitle": "PP-R-rörsystem i {city}",
+    "hubMetaTitle": "PP-R-rörsystem för {country}",
+    "hubH1": "Infrastrukturlösningar för {country}",
+    "hubLead": "K-Aqua erbjuder certifierade PP-R- och PP-RCT-infrastrukturlösningar för {country}. Våra rörsystem uppfyller de högsta internationella standarderna och är optimerade för de specifika utmaningarna i {country}.",
+    "hubContextTitle": "Regional kontext: {context}",
+    "hubContextBody": "Våra tyskproducerade K-Aqua PP-R/PP-RCT-rörsystem levererar hållbara infrastrukturlösningar för {country}. De är speciellt utformade för att möta de lokala infrastrukturella utmaningarna.",
+    "hubCitiesTitle": "Lokala anläggningar & Referensstäder",
+    "hubs": {
+      "deutschland": {
+        "description": "Som K-Aquas hemmamarknad har Tyskland de högsta kraven på byggkvalitet och hållbarhet. Våra <strong>PP-R- och PP-RCT-rörsystem</strong> hanterar effektivt och hållbart det akuta renoveringsbehovet i den tyska dricksvatten- och värmeinfrastrukturen. Genom korrosionsfria, DVGW-certifierade material minskar vi underhållskostnaderna och säkerställer maximal systemhygien i kommunala, kommersiella och privata storskaliga projekt över årtionden.",
+        "metaDesc": "Certifierade PP-R/PP-RCT-rörsystem för Tyskland. Tysk ingenjörskonst mot renoveringsbehovet i dricksvatten- och värmeinfrastrukturen."
+      },
+      "oesterreich": {
+        "description": "I Österrike kräver utmanande topografier och stränga miljökrav kompromisslösa infrastrukturlösningar. Våra <strong>K-Aqua-rörsystem</strong> erbjuder premiumkvalitet för hållbara vatten- och fjärrvärmenät i alpina regioner. Med ÖVGW-testad säkerhet och enastående värmeisolering garanterar våra PP-R- och PP-RCT-rör frost- och trycksäker prestanda även under de mest extrema klimatförhållandena i Alperna.",
+        "metaDesc": "Premium PP-R/PP-RCT-rörsystem för Österrike. Frost- och trycksäkra lösningar för vatten- och fjärrvärmenät i alpina regioner."
+      },
+      "schweiz": {
+        "description": "Schweiz står för precision, hållbarhet och de högsta kvalitetsstandarderna. <strong>K-Aquas PP-R- och PP-RCT-system</strong> uppfyller dessa krav genom förstklassig materialrenhet och SVGW-certifierad livsmedelssäkerhet. Våra helt återvinningsbara, flödesoptimerade plaströr möjliggör energieffektiv sanitets- och klimatteknik för framtidsorienterade Minergie-byggprojekt i hela Schweiz.",
+        "metaDesc": "Förstklassiga PP-R/PP-RCT-rörsystem för Schweiz. SVGW-certifierade, återvinningsbara plaströr för hållbara Minergie-byggprojekt."
+      },
+      "uae": {
+        "description": "Under de extrema klimatförhållandena i Förenade Arabemiraten är vatten den mest värdefulla resursen. <strong>K-Aqua PP-R/PP-RCT-rörsystem</strong> erbjuder optimalt skydd mot korrosion och förkalkning, även vid användning av avsaltat havsvatten (omvänd osmos). Våra UV-beständiga och värmetåliga högpresterande rör säkerställer hållbar vattenförsörjning i de gigantiska megaprojekten och skyskraporna i Dubai och Abu Dhabi.",
+        "metaDesc": "UV- och värmebeständiga PP-R/PP-RCT-rörsystem för Förenade Arabemiraten. Högsta skydd mot korrosion och förkalkning i ökenklimat."
+      },
+      "ksa": {
+        "description": "Inom ramen för Vision 2030 omvandlar Saudiarabien hela sin infrastruktur. <strong>K-Aqua levererar den nödvändiga vatteninfrastrukturen för detta</strong>. Våra stor-kalibriga PP-RCT-rör säkerställer säker, läckagefri och effektiv vattendistribution i nya Smart Cities som NEOM. Certifierade enligt internationella standarder garanterar vi oavbruten drift vid extremt höga omgivningstemperaturer.",
+        "metaDesc": "Stor-kalibriga PP-RCT-rörsystem för Saudiarabien. Tillförlitlig vatteninfrastruktur för Vision 2030 och megaprojekt som NEOM."
+      },
+      "singapur": {
+        "description": "Som en av Asiens mest tätbefolkade högteknologiska stadsstater behöver Singapore mycket effektiv och utrymmesbesparande byggnadsteknik. <strong>K-Aquas innovativa rörsystem</strong> stöder Singapores ambitiösa miljömål genom drastiskt minskade tryckförluster och optimala termiska egenskaper. Från luftkonditionering i skyskrapor (kylvatten) till ultraren dricksvattenförsörjning sätter vi standarder i Asien.",
+        "metaDesc": "Effektiva PP-R/PP-RCT-rör för Singapores gröna byggnader. Specialiserade system för kylvatten och ultraren dricksvattenförsörjning."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, ledande inom vattenförsörjning. PP-R/PP-RCT-rörsystem för dricksvatten, tillverkade av KWT GmbH i Waldsolms.",
+    "colTools": "Produkter & Verktyg",
+    "colCompany": "Företaget",
+    "colContact": "Kontakt",
+    "directions": "Vägbeskrivning & Plats",
+    "rights": "Alla rättigheter förbehållna.",
+    "imprint": "Impressum",
+    "privacy": "Integritetspolicy",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Tyskland",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Begär projekt",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R rörstandarder"
+      },
+      {
+        "t": "Hållbarhet",
+        "s": "Miljövänlig"
+      },
+      {
+        "t": "GENAU-systemet",
+        "s": "Integrerad ledning"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Produktion i Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Webbdesign av Coday",
+        "Ett projekt av Coday Web Agency",
+        "Coday Web Agency",
+        "Digitaliserat av Coday"
+      ],
+      "srDesc": "Denna webbplats designades och implementerades tekniskt av Coday Web Agency, experter på webbdesign och SEO i Hessen.",
+      "linkTitle": "Till Coday Web Agency - Premium webbdesign"
+    }
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Europa",
+    "nahost": "Mellanöstern",
+    "global": "Afrika & Asien-Stillahavsområdet"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "maximal rördimension i programmet"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "tryckklasser: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "kvalitets-, miljö- & energicertifierad"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "produktionsavfall återvinns"
+      }
+    ],
+    "heroBadgeLabel": "Rördimensioner, SDR 6 till SDR 17",
+    "marquee": [
+      "Ledande inom vattenförsörjning",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Tillverkad i Waldsolms",
+      "100 % återvinning",
+      "Partner: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Produktsök",
+        "d": "Filtrera över 170 artikelvarianter live: dimension, SDR, väggtjocklek omedelbart.",
+        "cta": "Filtrera nu"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂-kalkylator",
+        "d": "Ditt projekt mot koppar, rostfritt stål och PVC, i träd och bilkilometer.",
+        "cta": "Räkna nu"
+      },
+      {
+        "id": "academy",
+        "t": "Academy + Quiz",
+        "d": "Fyra svetstekniker på video, sedan Svetsmästar-Quizet.",
+        "cta": "Bli mästare"
+      },
+      {
+        "id": "references",
+        "t": "Referensglob",
+        "d": "Snurra planeten, upptäck projekt: från Waldsolms till Singapore.",
+        "cta": "Snurra globen"
+      },
+      {
+        "id": "trust",
+        "t": "Trust Center",
+        "d": "Kontrollera certifikat och sätt ihop RFP-dokumentpaketet själv.",
+        "cta": "Bygg paket"
+      },
+      {
+        "id": "career",
+        "t": "Förmånskalkylator",
+        "d": "Se vad skattefria extraförmåner ger netto, plus 60-sekunders kulturmatchning.",
+        "cta": "Kolla netto"
+      }
+    ],
+    "vsEyebrow": "Skillnaden",
+    "vsTitle": "Branschstandard mot K Aqua digitalt.",
+    "vsBadTitle": "Så gör branschen",
+    "vsGoodTitle": "Så gör K Aqua",
+    "vsBad": [
+      "220-sidiga PDF-kataloger utan sökning",
+      "Certifikat endast på skriftlig begäran",
+      "Tekniska data djupt i tabellöknar",
+      "Karriärsida: en brevlåda"
+    ],
+    "vsGood": [
+      "Produktsök: filtrera på sekunder",
+      "Trust Center: Nedladdningar som självbetjäning",
+      "CO₂-kalkylatorn gör data till argument",
+      "Förmånskalkylator + Kulturmatchning"
+    ],
+    "coEyebrow": "Företaget",
+    "coTitle1": "Byggmaterialleverantör och tillverkare:",
+    "coTitle2": "från en och samma källa.",
+    "coLead": "KWT GmbH tillverkar rör och rördelar för vattenförsörjning av olika plaster och positionerar sig därmed i byggvärdekedjan som både leverantör och tillverkare.",
+    "kesselTitle": "Starkt partnerskap med KESSEL",
+    "kesselText": "Med premiumtillverkaren KESSEL, \"Leading in drainage\", delar vi ett nära och långvarigt partnerskap. Denna erfarenhet från årtionden för vi med oss in i framtiden.",
+    "kesselCta": "Mer om partnerskapet",
+    "worldTitle": "Världsomspännande bevisat",
+    "worldText": "K Aquas produkter har bevisat sig åtskilliga gånger under årtionden i projekt över hela världen.",
+    "worldCta": "Referensglob",
+    "cards": [
+      {
+        "t": "GENAU-ledningssystem",
+        "d": "Ständig förbättring av arbetsmiljö-, miljö- och hälsoskydd enligt DIN EN ISO 14001 och 50001."
+      },
+      {
+        "t": "Tillverkning i Tyskland",
+        "d": "Utveckling och produktion i Waldsolms: kvalitet, kostnader och deadlines alltid i harmoni."
+      },
+      {
+        "t": "Ekologiskt ansvar",
+        "d": "Resursbevarande och miljöhänsyn är en integrerad del av vår kvalitetsförståelse."
+      }
+    ],
+    "manifestTitle": "Vår mission",
+    "manifestText": "Vatten är vår mest värdefulla resurs. Vi skyddar det med framtidsinriktade rörsystem.",
+    "grEyebrow": "Global räckvidd",
+    "grTitle1": "Internationella",
+    "grTitle2": "handelsvägar",
+    "grLead": "Från Tyskland ut i världen: Våra K Aqua-rörsystem är ryggraden i världens mest moderna megaprojekt. Från NEOM i Saudiarabien till mycket komplexa industrianläggningar i Singapore.",
+    "grHqLabel": "Huvudkontor & Produktion",
+    "grHqValue": "Tyskland (Frankfurt)",
+    "grExportLabel": "Viktiga exportmarknader",
+    "grExportValue": "Saudiarabien (NEOM), Förenade Arabemiraten, Qatar, Latinamerika",
+    "grCta": "Upptäck globala projekt"
+  },
+  "products": {
+    "narrative": {
+      "sizeRange": "Denna komponent tillverkas i ett omfattande dimensioneringsintervall från kompakta {minSize} mm upp till ansenliga {maxSize} mm, vilket säkerställer maximal mångsidighet i en mängd olika installationsscenarier.",
+      "sizeSpecific": "Denna komponent är exakt dimensionerad för en specifik nominell diameter på {minSize} mm, vilket erbjuder målinriktad prestanda för specialiserade rörledningsarkitekturer.",
+      "weights": "Materialeffektiviteten optimeras över hela sortimentet, där enhetsvikterna skalas från {minWeight} kg upp till {maxWeight} kg beroende på vald dimension.",
+      "packaging": "Logistiken optimeras genom standardiserade förpackningsenheter, designade för säker global transport och effektiv hantering på byggarbetsplatsen.",
+      "rowCount": "Vår tekniska portfölj erbjuder denna konfiguration i {count} mycket specialiserade dimensioneringsvarianter, som skalas exakt för att möta de hydrauliska och mekaniska kraven hos moderna system för vätsketransport.",
+      "intro": "Produkten {title} är en hörnsten i K Aquas högpresterande vätskehanteringslösningar. Officiellt katalogiserad under artikelnumren {codes}, genomgår varje variant rigorösa protokoll för kvalitetssäkring i våra tyska produktionsanläggningar innan leverans.",
+      "outro": "Genom användningen av avancerade tekniker för polymerbearbetning garanterar den geometriska precisionen hos {title} optimala flödesegenskaper, minimerar tryckfall och eliminerar helt risken för kalkavlagringar eller korrosion under dess operativa livslängd. Denna kompromisslösa hängivenhet till materialvetenskap säkerställer att varje anslutning behåller absolut integritet, även under extrema termiska och tryckrelaterade fluktuationer. Oavsett om den används i bostadshöghus, kritiska hälsovårdsinrättningar eller krävande industriella processanläggningar, levererar denna produkt en underhållsfri tillförlitlighet som ingenjörer och installatörer blint kan lita på."
+    },
+    "uniqueProductContext": "Produkten {title} är en integrerad del av K Aquas sortiment av {category}. Utvecklad för maximal hållbarhet och sömlös integration uppfyller den högsta internationella standarder för moderna rörlednings- och sanitetstillämpningar. Du kan identifiera och beställa denna specifika produkt med artikelnumren: {codes}. För ytterligare dokumentation eller support, kontakta vårt tekniska team.",
+    "heroDesc": "Upptäck specifikationer, dimensioner och tillämpningsområden. För detaljerad information ladda ner det tekniska databladet.",
+    "articleNumbers": "Artikelnummer",
+    "technicalSpecs": "Tekniska specifikationer",
+    "eyebrow": "Produkter",
+    "videoGuide": "K Aqua Videoguide",
+    "localAvailability": "Lokal tillgänglighet",
+    "localDesc": "Hitta lokala återförsäljare, specifika godkännanden och standarder för din region.",
+    "allMarkets": "Se alla 50+ marknader",
+    "title1": "PP-R/PPRCT-rör och formdelar för",
+    "titleGrad": "dricksvatten.",
+    "lead": "Ett komplett rörledningssystem för varmt och kallt dricksvatten: från röret via formdelen till svetstekniken. Fyra byggstenar, ett system.",
+    "ctaCatalog": "Produktkatalog (PDF)",
+    "ctaVideos": "Installationsvideor",
+    "sysEyebrow": "Systemet",
+    "sysTitle": "K-Aqua PP-R Rör & Rördelar: Fyra byggstenar, ett system.",
+    "range": [
+      {
+        "t": "Rör: Mono- & Multilayer",
+        "d": "Monolayer- och glasfiberförstärkta Multilayer-rör i SDR 6, 7.4, 9, 11 och 17. Dimensioner från 20 mm till 630 mm."
+      },
+      {
+        "t": "Formdelar & Armaturer",
+        "d": "Rördelar från 20 mm till 315 mm, kompletterade med ventiler, förskruvningar och övergångsstycken."
+      },
+      {
+        "t": "Svetsteknik & Verktyg",
+        "d": "Skärverktyg, svetsapparater och svetsmaskiner för muff-, stum- och elektrosvetsning."
+      },
+      {
+        "t": "Varmt & Kallt vatten",
+        "d": "Designat för dricksvatten (varmt och kallt) med hög temperatur- och tryckbeständighet under årtionden."
+      }
+    ],
+    "techEyebrow": "Teknisk Data",
+    "techTitle": "Dimensioner & Tryckklasser",
+    "techLead": "Beroende på rörtyp, från 20 mm till 630 mm, rördelar upp till 315 mm.",
+    "ctaFeatures": "Produktegenskaper (PDF)",
+    "tableHead": [
+      "Komponent",
+      "Dimension",
+      "Tryckklasser"
+    ],
+    "tableRows": [
+      [
+        "Monolayer-rör",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Multilayer-rör (GF-förstärkta)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Formdelar",
+        "20 – 315 mm",
+        "systemkompatibel"
+      ],
+      [
+        "Ventiler & Förskruvningar",
+        "systemberoende",
+        "-"
+      ],
+      [
+        "Svetsteknik & Verktyg",
+        "alla dimensioner",
+        "-"
+      ]
+    ],
+    "labels": {
+      "applicationAreas": "Användningsområden",
+      "advantages": "Dina fördelar i korthet",
+      "technicalDescription": "Teknisk profil & SEO",
+      "noResults": "Inga produkter hittades",
+      "searchPlaceholder": "Sök efter titel eller artikelnummer...",
+      "faqTitle": "Vanliga frågor (FAQ)",
+      "faqFallbackQ1": "Vilka är de viktigaste fördelarna?",
+      "faqFallbackA1": "Systemet erbjuder extrem hållbarhet, korrosionsbeständighet och utmärkta hygieniska egenskaper för dricksvatten.",
+      "faqFallbackQ2": "Är materialet miljövänligt?",
+      "faqFallbackA2": "Ja, PPRCT är 100% återvinningsbart och har ett mycket lågt koldioxidavtryck jämfört med metallrör.",
+      "faqFallbackQ3": "Hur utförs installationen?",
+      "faqFallbackA3": "Installationen är säker och läckagefri med polyfusionssvetsning.",
+      "downloads": "Nedladdningar & Dokument",
+      "tds": "Tekniskt Datablad",
+      "tdsDesc": "Specifikationer & Dimensioner (PDF)",
+      "cert": "Certifikat & Standarder",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Installationsguide",
+      "installDesc": "Anvisningar för svetsning (PDF)",
+      "range": "Produktprogram",
+      "rangeDesc": "Komplett produktkatalog med dimensioner (PDF)",
+      "features": "Produktegenskaper",
+      "featuresDesc": "Materialegenskaper & systemfördelar (PDF)"
+    },
+    "specAndDim": "Specifikationer & Dimensioner",
+    "certsAndNorms": "Certifikat & Standarder",
+    "approved": "godkänd",
+    "monitoring": "övervakad",
+    "certified": "certifierad",
+    "quickLinks": "Snabblänkar",
+    "calcCo2": "Beräkna CO2-avtryck",
+    "backToFinder": "Tillbaka till produktsök",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "Högpresterande rörsystem",
+    "highPerformanceDesc": "För industriella applikationer, dricksvattenförsörjning och klimatanläggningar under extrema förhållanden.",
+    "sysPressure": "Systemtryck",
+    "tempMax": "Maximal Temperatur",
+    "material": "Material",
+    "norm": "Standard",
+    "certification": "Certifiering",
+    "lifespan": "Livslängd",
+    "fiberTech": "Faserkompositteknologi",
+    "fiberTechDesc": "Trelagersstruktur för minimerad linjär expansion och maximal stabilitet vid höga temperaturer.",
+    "compliance": "Efterlevnad & Standarder",
+    "dimensions": "Dimensioner",
+    "globalNetwork": "Globalt Nätverk",
+    "globalNetworkDesc": "K Aqua system används i över 40 länder över hela världen.",
+    "whyChoose": "Varför {product} är det rätta valet",
+    "category": {
+      "allProducts": "Alla Produkter",
+      "openInFinder": "Öppna i Sök",
+      "artNA": "Art. N/A",
+      "viewDetails": "Visa Produktdetaljer",
+      "learnMoreKnowledge": "Upptäck PP-R-rörsystem i kunskapsportalen",
+      "learnMoreDesc": "Dyk djupare in i den tekniska dokumentationen och upptäck fackartiklar om installation, hållbarhet och testning av våra PP-R-system.",
+      "toKnowledgeBase": "Läs fackartiklar i K-Aqua Academy"
+    },
+    "hero": {
+      "eyebrow": "SYSTEMARKITEKTUR",
+      "title1": "K-AQUA: DEN ABSOLUTA",
+      "title2": "ARKITEKTUREN FÖR VATTEN.",
+      "desc": "Precision på molekylär nivå. Byggd för att hålla. Våra rörsystem, rördelar och ventiler definierar den globala standarden för industriell och civil vatteninfrastruktur. Inga kompromisser. Bara ren prestanda."
+    },
+    "sticky": {
+      "eyebrow": "PRODUKTSPEKTRUM",
+      "title": "KOMPROMISSLÖS INGENJÖRSKONST.",
+      "lead": "Varje komponent är en del av ett slutet, perfekt system. Från inlopp till slutpunkt kontrollerar vi flödet av vatten, kemikalier och gaser med obönhörlig tillförlitlighet.",
+      "items": [
+        {
+          "title": "PPR-RÖRSYSTEM: OFÖRSTÖRBARA ÅDROR",
+          "desc": "K Aquas PPR-system (Polypropen Random Copolymer) är ryggraden i moderna vätsketransporter. Termiskt sammansmälta till en homogen enhet tål de extrema tryck, kemiska attacker och termiska belastningar. Ett system som inte läcker, inte korroderar och håller i årtionden."
+        },
+        {
+          "title": "RÖRDELAR: GEOMETRISK PERFEKTION",
+          "desc": "Varje K Aqua-rördel är ett mästerverk inom strömningsmekanik. Reducerad kavitation, optimerad väggtjocklek och exakta toleranser inom mikrometerområdet garanterar minimala tryckförluster och maximal systemsäkerhet. Vi lämnar inte flödet åt slumpen."
+        },
+        {
+          "title": "VENTILER & ARMATURER: ABSOLUT KONTROLL",
+          "desc": "Industriell avstängnings- och styrteknik, som fungerar under de tuffaste förhållandena i världen. Våra kulventiler, snedsätesventiler och backventiler är testade för tiotusentals cykler utan att förlora prestanda. Maximal täthet vid maximal belastning."
+        },
+        {
+          "title": "KOMPOSITRÖR: MATERIALSYNERGI",
+          "desc": "Aluminium möter högpresterande polymer. K Aquas flerskiktsrör kombinerar den mekaniska stabiliteten hos metall med flexibiliteten och den kemiska resistensen hos plast. 100 % syrediffusionstäta. Minimal linjär expansion. Den ultimata lösningen för komplexa VVS-system."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "PRESTANDADATA",
+      "title": "TEKNOLOGISK ÖVERLÄGSENHET. DATADRIVEN.",
+      "lead": "K Aqua-system är inte bara rör. De är högpresterande nätverk för vätskor. Designade enligt de strängaste tyska industristandarderna.",
+      "items": [
+        {
+          "title": "Termisk Fusion",
+          "desc": "Homogena svetsfogar. Materialet blir till ett. Inget lim, inga O-ringar som kan misslyckas. 100% läckagesäkerhet på molekylär nivå."
+        },
+        {
+          "title": "Korrosionsimmunitet",
+          "desc": "Absolut motståndskraftig mot gropfrätning (pitting), rost och elektrokemisk korrosion. Det transporterade mediet förblir i sin renaste form."
+        },
+        {
+          "title": "Strömningsoptimering",
+          "desc": "Glattväggsteknik (ytjämnhet 0,007 mm) med minimal friktionskoefficient förhindrar avlagringar och minimerar tryckförlusten massivt."
+        },
+        {
+          "title": "Tryckmotstånd PN25+",
+          "desc": "Byggd för maximal påfrestning i höghus, industrianläggningar och kritisk infrastruktur. Designad för störningsfri drift i över 50 år."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "INSTALLATIONSPROCESSEN. ODEFINIERAD.",
+      "desc": "Snabbare. Säkrare. Renare. Vårt system minskar installationstiden dramatiskt, samtidigt som felkällor minimeras till ett absolut minimum. En kronologi över effektivitet.",
+      "items": [
+        {
+          "year": "FAS 01",
+          "title": "PLANERING & DIMENSIONERING",
+          "text": "Exakt hydraulisk beräkning och utformning av rördiametrar. Undviker överdimensionering genom överlägsna flödesegenskaper."
+        },
+        {
+          "year": "FAS 02",
+          "title": "KAPNING & FÖRBEREDELSE",
+          "text": "Kall och spånfri kapning av rör. Helt rena snitt garanterar perfekt svetsförberedelse utan risk för kontaminering."
+        },
+        {
+          "year": "FAS 03",
+          "title": "MUFFSVETSNING",
+          "text": "Verktyget värmer upp både rör och rördel exakt till 260°C. Inom några sekunder skapas en molekylär bindning som är oskiljbar."
+        },
+        {
+          "year": "FAS 04",
+          "title": "TRYCKTEST & GODKÄNNANDE",
+          "text": "Systemet utsätts för ett extremt testtryck. Ingen tolerans för läckage. K Aqua ger 100% säkerhet från den första droppen."
+        },
+        {
+          "year": "FAS 05",
+          "title": "DRIFT I ÅRTIONDEN",
+          "text": "Underhållsfri. Tyst. Systemet arbetar obemärkt i de modernaste byggnaderna i världen med obeveklig tillförlitlighet."
+        }
+      ]
+    },
+    "sysLead": "Grunden för vår katalog: fyra byggstenar i ett integrerat system. Rör, formdelar, ventiler och verktyg bildar ett system av PP-R och PP-RCT.",
+    "pipes": {
+      "meta": {
+        "title": "PP-R & PPRCT Rörsystem | K Aqua",
+        "desc": "Högpresterande rörsystem av PP-R och PPRCT. Tysk ingenjörskonst för dricksvatten, klimat och industri. Kompromisslös säkerhet för megaprojekt."
+      },
+      "hero": {
+        "eyebrow": "Rörsystem",
+        "title": "PP-R & PPRCT Rör från d20 till d630",
+        "lead": "K Aqua PP-R-rör och PPRCT-flerskiktsrör för dricksvatten, uppvärmning och industri: Mono- och fiberkompositutföranden i alla tryckklasser, tillverkade i Tyskland enligt DIN 8077/8078. Tillgängliga från d20 till d630 för permanent täta anslutningar."
+      },
+      "sticky": {
+        "eyebrow": "Materialvetenskap",
+        "title": "Polymerteknik i perfektion.",
+        "lead": "Den molekylära strukturen hos våra PP-R och PPRCT rör har optimerats för extrema termomekaniska belastningar. Ett mästerverk av tysk ingenjörskonst.",
+        "items": [
+          {
+            "title": "PPRCT Multilayer-arkitektur",
+            "desc": "Våra senaste generationens PPRCT (Polypropylene Random Copolymers with modified Crystallinity and Temperature resistance) rör har ett integrerat glasfiberkompositskikt. Detta minskar den termiska linjära expansionen med upp till 75 % jämfört med standard PP-R-rör, samtidigt som tryckhållfastheten vid höga temperaturer ökar drastiskt. Tunna väggtjocklekar med ökad flödeskapacitet är resultatet."
+          },
+          {
+            "title": "Homogen svetsning",
+            "desc": "Till skillnad från presskopplingar eller limförband använder vi polyfusionssvetsning. Rör och rördel smälter samman vid 260°C till en enda, oskiljaktig molekylär enhet. Systemet klarar sig helt utan O-ringar eller mekaniska tätningar. Anslutningen är fysiskt starkare än själva röret: en 100% läckagefri livslängd garanteras."
+          },
+          {
+            "title": "Absolut korrosionsfrihet",
+            "desc": "Metalliska system kapitulerar inför aggressiva vattenkvaliteter, lågt pH eller högt kloridinnehåll. K Aquas polymerrör är helt inerta. Gropfrätning, spaltkorrosion, galvanisk korrosion eller beläggningar är fysiskt omöjliga. Rörets friktionsförlust (ytjämnhet k=0,007 mm) förblir på samma nivå som dag ett, även efter 50 års drift, vilket massivt minskar pumpenergin."
+          },
+          {
+            "title": "Termisk och akustisk isolering",
+            "desc": "Tack vare den låga värmeledningsförmågan hos PP-R (0,24 W/mK) jämfört med stål (50 W/mK) eller koppar (380 W/mK), fördröjs kondensbildning kraftigt i kylsystem och värmeförluster minimeras i värmesystem. Dessutom absorberar våra tjockväggiga polymerrör strömningsljud och tryckslag (Water Hammers) effektivt, vilket fulländar den akustiska komforten i höghus och hotell."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Noll feltolerans",
+        "desc": "Varje centimeter av våra rör övervakas i extruderingsprocessen. Från granulat till färdig produkt: Kvalitet Made in Germany.",
+        "items": [
+          {
+            "year": "Steg 01",
+            "title": "Premium Råmaterial",
+            "text": "Vi bearbetar uteslutande högrent PP-R- och PPRCT-granulat från världens ledande polymertillverkare. Varje batch genomgår ett MFR-test (Melt Flow Rate) samt en mätning av oxidativ induktionstid (OIT) i vårt eget laboratorium innan den godkänns för extrudering."
+          },
+          {
+            "year": "Steg 02",
+            "title": "Precisions-extrudering",
+            "text": "Våra toppmoderna extruderingslinjer tillverkar 3-skikts fiberkompositrör med mikrometerprecision. Ultraljudsmätning av väggtjocklek i realtid över 360° säkerställer att även för SDR 6-rör underskrids inte de minsta tillåtna toleranserna."
+          },
+          {
+            "year": "Steg 03",
+            "title": "Termisk konditionering",
+            "text": "Omedelbart efter extrudering kyls rören ner gradvis i specialtempererade vattenbad. Denna skonsamma kylprocess förhindrar inre restspänningar i materialet och säkerställer högsta dimensionella noggrannhet över alla dimensioner."
+          },
+          {
+            "year": "Steg 04",
+            "title": "100% Spårbarhet",
+            "text": "Varje rör får ett outplånligt lasertryck med exakt batch- och produktionstidsangivelse. Även efter årtionden i väggen kan ursprunget för varje K Aqua rör spåras sömlöst tillbaka till granulatbatchen."
+          },
+          {
+            "year": "Steg 05",
+            "title": "Testning & Godkännande",
+            "text": "Hydrauliskt sprängtryckstest vid 95°C över 1000 timmar. Dragprov, slaghållfasthet och toxikologisk säkerhetsprövning. Endast när produkten överträffar alla standarder (DIN 8077/8078, EN ISO 15874) lämnar den vår verkstad."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifikationer",
+        "title": "En dimension för varje krav.",
+        "lead": "Skalbar från d20 husanslutningar upp till d500 industriella stigledningar. Vårt system växer med ditt projekts dimensioner.",
+        "items": [
+          {
+            "title": "Dimensioner från d20 till d500",
+            "desc": "Komplett portfölj av rör och rördelar. Oavsett om det handlar om T-rör, reduktioner eller flänsanslutningar i gigantiska dimensioner, levererar vi hela systemet från en enda källa. Inga kompromisser gällande hydrauliken."
+          },
+          {
+            "title": "SDR-klasser 6 till 11",
+            "desc": "Skräddarsydda tryckklasser (PN10 till PN25) via olika Standard Dimension Ratios. Optimera materialanvändning och flöde."
+          },
+          {
+            "title": "Dricksvattenhygien",
+            "desc": "Uppfyller de strängaste europeiska normerna (UBA, DVGW). Helt livsmedelssäker, smak- och luktneutral. Valfri antibakteriell inre beläggning."
+          },
+          {
+            "title": "UV-beständiga Yttermantlar",
+            "desc": "För utomhusinstallationer i extrema klimat (t.ex. Mellanöstern) erbjuder vi speciella UV-stabiliserade rör. Den skyddande ytterskiktet blockerar UV-strålning och förhindrar nedbrytning av polymeren."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Låt experter dimensionera ditt projekt.",
+        "desc": "Skicka oss dina isometrier eller P&ID-planer. Vårt ingenjörsteam tar hand om den hydrauliska beräkningen och framställningen av materiallistor (BOM) för ditt megaprojekt.",
+        "primary": "Starta Projektförfrågan"
+      }
+    },
+    "fittings": {
+      "meta": {
+        "title": "PP-R Fittings & Formdelar | K Aqua",
+        "desc": "K Aqua rördelar och formdelar av PP-R: Absolut täta anslutningar, noll tryckförlust. Tillverkade i Tyskland för maximal strömningsdynamik."
+      },
+      "hero": {
+        "eyebrow": "Formdelsteknik",
+        "title": "PP-R Rördelar: Molekylär Fusion, Maximalt Flöde.",
+        "lead": "Inga tätningar. Inga limningar. K Aquas rördelar smälts samman med röret på en molekylär nivå. Resultatet: En homogen, 100% läckagefri infrastruktur för dricksvatten och processmedia."
+      },
+      "intro": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "text1": "",
+        "text2": ""
+      },
+      "bento": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "sticky": {
+        "eyebrow": "Teknologin bakom formen",
+        "title": "Konstruerade för oavbrutet flöde.",
+        "lead": "En rördel är inte bara en böj. Det är stället där tryck och friktion når sitt maximum. K Aquas rördelar neutraliserar dessa krafter genom överlägsen hydrodynamik.",
+        "items": [
+          {
+            "title": "Kavitationsfri Strömning (CFD-Optimerad)",
+            "desc": "Traditionella formdelar (som metallbågar) orsakar ofta svåra flödesstörningar. Våra formdelar är optimerade genom Computational Fluid Dynamics (CFD). Den mjuka, oavbrutna inre konturen förhindrar kavitation och garanterar en stabil, laminär strömning även vid extremt vattentryck."
+          },
+          {
+            "title": "Förstärkta Vägstrukturer",
+            "desc": "Vid korsningar, som till exempel T-stycken, uppstår enorma skjuv- och sprängkrafter. Våra formsprutade rördelar är medvetet överdimensionerade på dessa kritiska punkter. Godstjockleken är mycket högre än branschens genomsnitt. Detta säkerställer den gigantiska PN25-prestandan."
+          },
+          {
+            "title": "Monolitisk Integration",
+            "desc": "Mekaniskt pressade anslutningar eller rördelar förlitar sig på O-ringar. Dessa ringar (av EPDM, NBR) försvagas över tid och resulterar oundvikligen i droppande läckor. Polyfusionssvetsning omvandlar PP-R-materialet till ett monolitiskt block. Där det inte finns någon fog kan det inte uppstå något fel."
+          },
+          {
+            "title": "Universell Kompatibilitet",
+            "desc": "Våra PP-R och PPRCT rördelar är helt kompatibla bakåt. Du kan bygga högtemperatursrörledningar (SDR 6) eller extremflödesrör (SDR 11) – du kan alltid använda samma K Aqua rördelar. Detta minskar lagringskostnaderna och misstag på byggarbetsplatsen massivt."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Från Granulat till Global Standard",
+        "desc": "Sprutgjutning av högpresterande formdelar är en konst som vi har fulländat i Waldsolms under decennier.",
+        "items": [
+          {
+            "year": "Steg 01",
+            "title": "Beredning av Smälta",
+            "text": "PP-R granulatet plastificeras vid exakt kontrollerade temperaturer. Den homogena smältan garanterar konsekventa materialegenskaper utan inneslutningar."
+          },
+          {
+            "year": "Steg 02",
+            "title": "Högtrycks-Sprutgjutning",
+            "text": "I formar med enorm spännkraft sprutas materialet in. Detta resulterar i en otroligt tät och robust ytstruktur som motstår smuts och beläggningar."
+          },
+          {
+            "year": "Steg 03",
+            "title": "Laser-Precision 3D",
+            "text": "Varje gjutform är CNC-fräst med extrem precision för att säkerställa att diametern och insticksdjupet på rördelarna matchar svetsverktygen och rören perfekt ner till hundradels millimetern."
+          },
+          {
+            "year": "Steg 04",
+            "title": "Kylnings-Matris",
+            "text": "En datorstyrd nedkylningsprofil förhindrar inre spänningar i materialet och garanterar perfekt dimensionell stabilitet."
+          },
+          {
+            "year": "Steg 05",
+            "title": "Provning & Logistik",
+            "text": "Varje parti får sitt digitala certifikat. Redo för leverans till de mest krävande byggarbetsplatserna i världen."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Livslängd > 50 År. Garanterat.",
+        "text": "Tid är det ultimata stresstestet för alla material. Våra formdelar är designade för att överträffa själva byggnadens livslängd. Genom att tillsätta speciella antioxidanter och termiska stabilisatorer i vår PP-R-matris fördröjs den termooxidativa åldringen massivt. Även med kontinuerliga framledningstemperaturer på 70°C och en tryckbelastning på 10 bar, garanterar vi en livslängd på över ett halvt sekel. Det är inte marknadsföring. Det är tillämpad polymerfysik.",
+        "badge": "100% Underhållsfritt"
+      },
+      "cta": {
+        "title": "Redo för kompromisslös kvalitet?",
+        "desc": "Anslut till vårt ingenjörsteam. Vi levererar inte bara produkter, vi levererar säkerheten för ditt nästa megaprojekt.",
+        "primary": "Starta Projektförfrågan",
+        "secondary": "Se Hela Sortimentet"
+      }
+    },
+    "valves": {
+      "metaTitle": "Industriella PP-R Ventiler & Armaturer | K Aqua",
+      "metaDesc": "Högpresterande PP-R ventiler, kulventiler och armaturer från K Aqua. Konstruerade för extrema industriella tillämpningar och 100 % hygieniskt dricksvatten.",
+      "heroEyebrow": "Industriell Avstängningsteknik",
+      "heroTitle": "Ventiler för evigheten.",
+      "heroSubtitle": "Kontroll över varje droppe.",
+      "heroDesc": "Ett rörledningssystem är bara så starkt som dess svagaste länk. K Aquas industriella PP-R-ventiler och armaturer är medvetet överdimensionerade. Läckagefria. Slitstarka. Oövervinnerliga.",
+      "heroBtnPrimary": "Begär Teknologi",
+      "heroBtnSecondary": "Upptäck Arkitekturen",
+      "manifestoTitle": "När materialet ger vika bryter systemet samman. <br/><span class=\"text-primary\">Vi ger inte vika.</span>",
+      "manifestoP1": "Inom industriell flödesteknik är en ventil aldrig bara en strömbrytare för vätskor. Det är den kritiska noden där kinetisk energi, extremt tryck, termisk expansion och kemisk aggressivitet möts.",
+      "manifestoP2": "Det är här banal massproduktion skiljs från äkta ingenjörskonst. Våra armaturer är medvetet överdimensionerade, tillverkade med extrem precision och byggda för scenarier som andra tillverkare skulle beteckna som \"omöjliga\". Detta är vad vi menar med <span class=\"text-foreground font-bold\">Tysk Ingenjörskonst</span>.",
+      "scrollEyebrow": "Perfektionens Uppkomst",
+      "scrollTitle": "Från råmaterial till oförstörbar armatur.",
+      "scrollLead": "Följ skapandeprocessen för en K Aqua ventil. En kompromisslös resa genom extrem hetta, högt tryck och mikroskopisk precision.",
+      "scroll1Title": "Felfritt Råmaterial",
+      "scroll1Desc": "Våra ventiler och armaturer börjar sin existens som rent, industriellt testat högpresterande material. Genom strikta spektralanalytiska undersökningar garanterar vi redan innan det första fräshuvudet används att det absolut inte finns några mikrostrukturella svagheter. Detta är den oförhandlingsbara grunden för den framtida absoluta korrosionsbeständigheten och mekaniska integriteten under åratals kontinuerlig användning.",
+      "scroll2Title": "Högprecisions CNC-bearbetning",
+      "scroll2Desc": "Varje enskild komponent tillverkas ur solida block i vår fabrik på toppmoderna 5-axliga CNC-bearbetningscenter med en absurd tolerans på under en tusendels millimeter. Denna kompromisslösa precision säkerställer att tätningsytorna passar perfekt ihop. Den eliminerar helt läckagerisker och garanterar en absolut smidig, silkeslen och slitagefri drift, även efter årtionden.",
+      "scroll3Title": "Kavitationsfritt Flöde",
+      "scroll3Desc": "En ventil är bara så bra som dess inre flödesprofil. Med hjälp av den mest avancerade beräkningsströmningsdynamiken (CFD) har vi utformat de inre konturerna så att turbulens och kavitation är praktiskt taget uteslutna. Detta innebär mindre tryckförlust i hela systemet och absolut ljudminimering även vid de högsta flödeshastigheterna.",
+      "scroll4Title": "100% Slutprovning. Inga Undantag.",
+      "scroll4Desc": "Stickprov är inte tillräckliga när miljardinfrastrukturer står på spel. Innan en ventil lämnar K Aquas fabrik genomgår den en helt automatiserad, robotiserad testcykel som vida överstiger de verkliga påfrestningarna. Hydrauliska högtryckstester, helium-vakuum-läckagetester och termiska chocktester garanterar vår legendariska noll-felfrekvens.",
+      "showcaseEyebrow": "Tillförlitlighetens Anatomi",
+      "showcaseTitle": "Inga Svaga Punkter. <br/> Inga Döda Vinklar.",
+      "showcaseP1": "Den inre arkitekturen hos våra armaturer är konsekvent utformad för att <strong>eliminera döda utrymmen</strong>. Stagnationszoner där bakterier som legionella kan föröka sig är geometriskt eliminerade.",
+      "showcaseP2": "Vattnet rusar i en perfekt styrd laminär strömning genom ventilkroppen. De solida tätningssätena är självrengörande och stänger hermetiskt även efter den miljonte cykeln.",
+      "showcaseList1": "Certifierad dricksvattenhygien enligt högsta standarder",
+      "showcaseList2": "Hermetisk tätning vid maximalt drifttryck",
+      "showcaseList3": "Underhållsfria spindeltätningar med dubbel O-ring",
+      "bentoEyebrow": "Specifikationer",
+      "bentoTitle": "Överlägsenhetens nakna siffror.",
+      "bentoLead": "När marknadsföringsflosklerna tar slut talar datan. Upptäck de tekniska parametrar som gör våra ventiler till det ultimata valet för megaprojekt.",
+      "bento1Title": "PN25 Kontinuerlig Tryckbelastning",
+      "bento1Desc": "Utvecklad för kontinuerliga högtrycksapplikationer som överträffar standarden. Väggtjockleken och gängkonstruktionerna är så solida att de inte ger vika alls, ens vid extrema tryckspikar och tryckslag (water hammers). Ett monolitiskt säkerhetsblock.",
+      "bento2Title": "Termisk Överlägsenhet",
+      "bento2Desc": "Från isande kyla till kokande framledningstemperaturer. Det högpresterande materialet behåller sin fulla elasticitet, blir inte sprött och motstår termisk expansion extremt effektivt.",
+      "bento3Title": "Kemisk Resistens",
+      "bento3Desc": "Korrosion är ett koncept från det förflutna. Våra armaturer är immuna mot aggressiva markförhållanden, hårt vatten och klorhaltiga desinfektionsmedel. Ingen rost, ingen gropfrätning (pitting).",
+      "bento4Title": "Industriell Ergonomi & Taktilitet",
+      "bento4Desc": "Design möter rå funktionalitet. De massiva handrattarna, solida spakarna och precisionsbearbetade spindlarna ger omedelbar, taktil och absolut exakt återkoppling vid öppning och stängning, även med tjocka skyddshandskar.",
+      "timelineEyebrow": "Hårdhetens Väg.",
+      "timelineLead": "En tidslinje över kompromisslös kvalitetssäkring. Hur en idé blir en industriell legend.",
+      "timeline1Year": "Fas 01",
+      "timeline1Title": "Molekylär Urval",
+      "timeline1Text": "Val av metalliska legeringar och högpresterande polymerer som formulerats specifikt för K Aqua. Vi förlitar oss på absolut krypmotstånd och maximal molekylär stabilitet.",
+      "timeline2Year": "Fas 02",
+      "timeline2Title": "CFD Strömningsoptimering",
+      "timeline2Text": "Med hjälp av superdatorer beräknas de inre flödeskanalerna i tusentals iterationer för att minimera flödesmotståndet till noll.",
+      "timeline3Year": "Fas 03",
+      "timeline3Title": "Stresstest i Klimatkammare",
+      "timeline3Text": "Prototyper genomgår månader av uthållighetstester i våra klimatkammare med temperaturer upp till 120°C, 25 bar tryck och extrema kemiska lösningar.",
+      "timeline4Year": "Fas 04",
+      "timeline4Title": "Robotiserad Serieproduktion",
+      "timeline4Text": "Övergång till vår högautomatiserade Industri 4.0 produktionslinje. Vi uppnår maximal repeterbarhet med minimala toleranser, utan mänskliga felkällor.",
+      "timeline5Year": "Fas 05",
+      "timeline5Title": "Global Driftsättning",
+      "timeline5Text": "Implementering på de mest kritiska byggarbetsplatserna i världen, från megaprojekt i öknen till offshore-anläggningar. Med stöd av vårt field-engineering team.",
+      "finalTitle": "Bygg för Generationer. <br/>Inte för nästa serviceintervall.",
+      "finalDesc": "I en värld som i allt högre grad förlitar sig på planerat åldrande och billiga ersättningsprodukter står vi som en orubblig motpol. En K Aqua armatur installeras och sedan glöms den bort. Eftersom den helt enkelt fungerar. Årtionde efter årtionde. Lita på äkta industriell auktoritet.",
+      "ctaTitle": "Redo för absolut kontroll?",
+      "ctaDesc": "Prata med våra chefsingenjörer om specifikationerna för ditt nästa megaprojekt. Vi levererar lösningar på problem som andra inte ens har förstått ännu.",
+      "ctaBtnPrimary": "Begär Teknisk Konsultation",
+      "ctaBtnSecondary": "Specifikationer som PDF",
+      "hero": {
+        "eyebrow": "Ventiler & Armaturer",
+        "title": "PP-R Armaturer & Ventiler för Exakt Reglering",
+        "lead": "Stäng av, reglera, säkra: K Aqua-ventiler av PP-R kombinerar korrosionsfri hydraulik med tysk tillverkningsprecision för dricksvatten, VVS och industri. För exakt reglering i dricksvatten- och värmenätverk."
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "PP-R Övergångsformdelar och Systemanslutningar",
+        "desc": "K Aqua Övergångar: Hybridanslutningar i absolut toppklass. När höghållfast metall möter innovativ plast. Tysk ingenjörskonst."
+      },
+      "hero": {
+        "eyebrow": "Systemövergångar",
+        "title": "Övergångskopplingar: Säkert från metall till PP-R",
+        "lead": "Mässing möter polymer: K Aquas övergångskopplingar förbinder befintliga metallrör permanent tätt och korrosionsfritt med PP-R systemet, testade långt utöver standarderna."
+      },
+      "intro": {
+        "eyebrow": "Utmaningen",
+        "title": "Där världar kolliderar.",
+        "lead": "Övergången från styva metalliska rörsystem till moderna termoplastiska nätverk är akilleshälen i varje byggnads- och industriinstallation. Här verkar maximala termiska och mekaniska skjuvkrafter."
+      },
+      "sticky": {
+        "eyebrow": "Deep Tech",
+        "title": "Oförstörbarhetens anatomi.",
+        "lead": "Vi betraktar inte en övergångskoppling som ett tillbehör, utan som ett mycket komplext mekaniskt instrument. Varje millimeter av väggtjocklek, varje gänga är resultatet av otaliga finita element-analyser (FEA).",
+        "items": [
+          {
+            "title": "Symbiosen mellan metall och polymer",
+            "desc": "Våra övergångskopplingar kombinerar den oförlåtande mekaniska styrkan hos avzinkningshärdig CW617N-mässing med den kemiska trögheten hos PPRCT. Denna materialsammanfogning skapas inte genom enkel pressning, utan genom en termomekanisk formsprutningsprocess som uppnår en oskiljbar molekylär sammanlåsning."
+          },
+          {
+            "title": "Extremt Torsions- och Vridmoment",
+            "desc": "Ett kritiskt felkriterium för standardkopplingar är överbelastning av vridmomentet under installationen. K Aquas övergångar integrerar en patenterad hexagonal förankringsprofil i plasthöljet. Resultatet: Över 300 Nm garanterad torsionsresistans utan delaminering av gränsskiktet."
+          },
+          {
+            "title": "Balanserade Värmeutvidgningskoefficienter",
+            "desc": "Metaller och plaster expanderar olika (Δα) när temperaturen fluktuerar. Genom exakt beräknade mikroskopiska expansionsfogar i mässingsinsatsen kompenserar våra kopplingar för extrema chocker från -20°C till +95°C på millisekunder, med absolut läckagefrihet."
+          },
+          {
+            "title": "Nolltolerans Kvalitetskontroll",
+            "desc": "Varje hybridkomponent genomgår ett helt automatiserat heliumläckagetest och en optisk 3D-mätning. Om gränsvärdet på 10^-5 mbar·l/s ens tangeras kasserar vårt system komponenten omedelbart. Tysk ingenjörskonst accepterar inga kompromisser."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Specifikationer",
+        "title": "Prestandans arkitektur.",
+        "lead": "När du planerar megaprojekt med tiotusentals anslutningar är statistisk tillförlitlighet den viktigaste ROI:n. K Aqua ger dig den fysiska garantin för detta.",
+        "items": [
+          {
+            "title": "DZR Mässingskärna",
+            "desc": "Avzinkningshärdig mässing av kvalitet CW617N (enligt DIN EN 12164) eliminerar risken för selektiv korrosion i aggressiva vattenkvaliteter."
+          },
+          {
+            "title": "Anti-Rotationsdesign",
+            "desc": "Polygonala underskärningar bildar ett geometriskt lås som absorberar extrema åtdragningsmoment utan att belasta plasthöljet."
+          },
+          {
+            "title": "Djupdragen Gänga",
+            "desc": "Koniska och cylindriska ISO 7/1 och ISO 228 gängor, maskinskurna med en tolerans på ±0,01 mm för perfekt täthet."
+          },
+          {
+            "title": "PPRCT Matris",
+            "desc": "Den högkristallina strukturen hos vår Polypropylene Random Copolymer erbjuder överlägsen långsiktig hållfasthet vid höga temperaturer."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Tillverkningscykeln",
+        "desc": "En titt in i vår fabrik. Vägen från råmaterial till testad hybridkoppling är en orkester av värme, tryck och skoningslös precision.",
+        "items": [
+          {
+            "year": "Fas 1",
+            "title": "Bearbetning av Råmaterial (CW617N)",
+            "text": "Mässingen pressas in i högprecisionsmatriser vid 750°C, följt av CNC-styrd bearbetning på mikrometernivå för att skapa tätningsprofilen."
+          },
+          {
+            "year": "Fas 2",
+            "title": "Ytpassivering",
+            "text": "För att eliminera galvanisk korrosion genomgår gänginsatserna en flerstegspassiveringsprocess i elektrolytiska ultraljudsbad."
+          },
+          {
+            "year": "Fas 3",
+            "title": "Formsprutning (Injection Molding)",
+            "text": "I högtrycksformsprutningsmaskiner (2 000 bar) omsluter den smälta PPRCT-plasten mässingen. Plasten fyller ut varje underskärning fullständigt."
+          },
+          {
+            "year": "Fas 4",
+            "title": "Kontrollerad Kylning",
+            "text": "En programmerad, gradvis temperatursänkning förhindrar inre spänningar i plastgallret och säkerställer kopplingens koncentriska formstabilitet."
+          },
+          {
+            "year": "Fas 5",
+            "title": "Tryck- & Torsionstest",
+            "text": "Slumpmässiga sprängtester upp till 120 bar och utmattningstester simulerar 50 års extremt industriellt slitage."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Certifieringar & Parametrar",
+        "title": "Hårda fakta.",
+        "lead": "Vi testar inte bara enligt standarder. Vi definierar dem. Våra interna testprotokoll överträffar kraven från DVGW, SKZ och ISO med upp till 300 %.",
+        "items": [
+          {
+            "label": "Driftstryck (PN)",
+            "value": "Upp till 25 bar",
+            "sub": "Vid 20°C vatten"
+          },
+          {
+            "label": "Temperaturspektrum",
+            "value": "-20°C till +95°C",
+            "sub": "Toppbelastning upp till 110°C"
+          },
+          {
+            "label": "Gängstandarder",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Innergänga & Yttergänga"
+          },
+          {
+            "label": "Livslängd",
+            "value": "> 50 år",
+            "sub": "Under industriella förhållanden"
+          },
+          {
+            "label": "Mässingslegering",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Avzinkningshärdig"
+          },
+          {
+            "label": "Plast",
+            "value": "PPRCT / PP-R",
+            "sub": "Dricksvattencertifierad"
+          },
+          {
+            "label": "Dricksvattenöverensstämmelse",
+            "value": "UBA, DVGW",
+            "sub": "100% Blyfria alternativ"
+          },
+          {
+            "label": "Kvalitetssäkring",
+            "value": "ISO 9001:2015",
+            "sub": "100% Batch-spårning"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Den starkaste länken i ditt projekt.",
+        "desc": "Lita på beprövad tysk ingenjörskonst. Kontakta oss för tekniska datablad, BIM-modeller eller individuell projektrådgivning.",
+        "primary": "Starta Projektförfrågan",
+        "secondary": "CAD & Specifikationer"
+      }
+    },
+    "tools": {
+      "metaTitle": "Professionella Verktyg & Tillbehör för PP-R System",
+      "metaDesc": "Upptäck professionella verktyg och tillbehör från K-Aqua. För säkra, effektiva och hållbara installationer av PP-R- och PP-RCT-rörsystem.",
+      "heroEyebrow": "German Engineering",
+      "heroTitle": "Verktyg & Tillbehör.",
+      "heroSubtitle": "Absolut precision.",
+      "heroDesc": "Denna modul ger kompromisslös säkerhet för de mest krävande projekten världen över. Tillverkade enligt de strängaste industristandarderna för att hålla i generationer. Där materialfel inte är ett alternativ.",
+      "heroBtnPrimary": "Begär Projekt",
+      "heroBtnSecondary": "Tekniska Data",
+      "bentoEyebrow": "K Aquas Ekosystem",
+      "bentoTitle": "Verktyg för globala megaprojekt.",
+      "bentoLead": "När internationella huvudentreprenörer planerar miljardprojekt förlitar de sig inte på löften, utan på hårda fakta och högprecisionsutrustning.",
+      "bento1Title": "Muffsvetsmaskiner (Heizelement)",
+      "bento1Desc": "För dimensioner 20 mm till 125 mm. Kompakt, robust design för tuff användning på byggarbetsplatser.",
+      "bento2Title": "Röravskärare & Saxar",
+      "bento2Desc": "Ergonomisk design för utmattningsfritt arbete och perfekta 90°-snitt.",
+      "bento3Title": "Stumsvetsmaskiner",
+      "bento3Desc": "För nominella diametrar upp till 250 mm. CNC-styrda för absolut repeterbarhet.",
+      "bento4Title": "Reparationssatser & Tillbehör",
+      "bento4Desc": "Borrhuvuden, reparationssadlar och hålsågar för eftermonterade avstick.",
+      "scrollEyebrow": "Djupgående Teknologi",
+      "scrollTitle": "Inget utrymme för feltoleranser.",
+      "scrollLead": "Upptäck de tekniska detaljerna som gör våra verktyg till förstavalet för certifierade installatörer.",
+      "scroll1Title": "Perfekt termodynamik. Vid varje svetsning.",
+      "scroll1Desc": "Våra muffsvetsmaskiner är utrustade med högprecisions, teflonbelagda värmedorn och värmebussningar. Den mikroprocessorstyrda temperaturregleringen garanterar en konstant svetstemperatur på 260°C, även vid extrema utomhustemperaturer på globala byggarbetsplatser. Detta skapar en oskiljbar, homogen fog på molekylär nivå.",
+      "scroll2Title": "CNC-styrd stumsvetsning.",
+      "scroll2Desc": "För stora nominella diametrar (upp till 250 mm och mer) använder vi CNC-styrda stumsvetsmaskiner. Automatisk tryck- och tidsberäkning eliminerar mänskliga felkällor. Varje svetscykel registreras digitalt för att säkerställa fullständig spårbarhet för bygginspektionen. Tysk ingenjörskonst på högsta nivå.",
+      "scroll3Title": "Precisions-Rörskalare. På millimetern exakt.",
+      "scroll3Desc": "Förberedelserna utgör 80% av svetsningen. Våra mekaniska och elektriska rörskalare tar bort oxidskiktet från K Aqua-rören med absolut jämnt skärdjup. Detta förhindrar mikrosprickor och skapar ett perfekt fusionsplan. Ett verktyg som håller i generationer.",
+      "scroll4Title": "Kallcirkelsågar för exakta snitt.",
+      "scroll4Desc": "Rörsaxar kan deformera materialet. Våra industriella kallcirkelsågar garanterar perfekt vinkelräta, gradfria snitt. Resultatet: Inga spänningsinducerade sprickor, inget tryckfall, absolut parallellitet innan svetsprocessen.",
+      "timelineTitle": "K Aquas Svetsprocess",
+      "timelineDesc": "Från snittet till molekylär fusion. En standardiserad process som resulterar i 100 % täta och underhållsfria rörsystem.",
+      "timeline1Year": "Fas 1: Materialförberedelse",
+      "timeline1Title": "Det perfekta snittet.",
+      "timeline1Text": "Ett gradfritt, 90-graders snitt är grunden för varje permanent anslutning. Våra precisionsavskärare och kallcirkelsågar garanterar en absolut plan yta utan mikrostrukturella deformationer i polypropenen.",
+      "timeline2Year": "Fas 2: Kalibrering & Skalning",
+      "timeline2Title": "Borttagning av oxidskiktet.",
+      "timeline2Text": "Innan svetsning kalibreras röret exakt och det yttre oxidskiktet avlägsnas med millimeterprecision med våra speciella skalverktyg. Detta möjliggör en 100 % ren yta för fusionsprocessen.",
+      "timeline3Year": "Fas 3: Termisk Fusion",
+      "timeline3Title": "Molekylär sammansmältning.",
+      "timeline3Text": "Röret och rördelen värms samtidigt upp på den teflonbelagda värmematrisen till exakt 260°C. K Aquas svetsutrustnings mikroprocessorstyrda termostat håller temperaturen konstant, oavsett vind eller väder.",
+      "timeline4Year": "Fas 4: Anslutningen",
+      "timeline4Title": "Livslång säkerhet.",
+      "timeline4Text": "Inom den specificerade omställningstiden sammanfogas de uppvärmda komponenterna utan vridning. Efter kylfasen skapas ett nytt, helt homogent arbetsstycke. Underhållsfritt i över 50 år.",
+      "specsTitle": "Industriell Auktoritet. <br/> Ned till minsta detalj.",
+      "specsP1": "I decennier har vi kombinerat hantverksmässig stolthet med toppmodern, högautomatiserad tillverkningsteknik i vår huvudfabrik i hjärtat av Tyskland.",
+      "specsP2": "Genom att användas i världens hårdaste öknar och mest extrema klimat bevisar vårt material sig själv varje dag. Vi sätter den standard som resten av världen följer.",
+      "specsList1": "ISO 9001 certifierad",
+      "specsList2": "Teflon PTFE beläggning av kvalitet A",
+      "specsList3": "Digital temperaturkalibrering",
+      "ctaTitle": "Redo för kompromisslös kvalitet?",
+      "ctaDesc": "Prata med vårt ingenjörsteam om ditt nästa megaprojekt och begär varuprov på våra verktyg.",
+      "ctaBtn": "Starta Projektförfrågan",
+      "hero": {
+        "eyebrow": "Verktyg & Tillbehör",
+        "title": "Svetsverktyg för PP-R-installationer",
+        "lead": "Muffsvetsmaskiner, värmespiralteknik och kalibreringsverktyg: Med originalverktyg från K Aqua skapas permanenta, täta och standardiserade svetsfogar på varje byggarbetsplats. Professionella verktyg för PP-R-installationer."
+      }
+    },
+    "seoArticle": {
+      "pipes": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "seoTitle": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ]
+      },
+      "fittings": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "seoTitle": ""
+      },
+      "valves": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "seoTitle": ""
+      },
+      "weldInSaddles": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "seoTitle": ""
+      },
+      "accessories": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "faq": [
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          },
+          {
+            "q": "",
+            "a": ""
+          }
+        ],
+        "seoTitle": ""
+      },
+      "tools": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": "",
+        "guideTitle": "",
+        "guideText": "",
+        "seoTitle": ""
+      },
+      "fallback": {
+        "areas": "",
+        "advTitle": "",
+        "advList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "seoText": ""
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Kundservice &",
+    "titleGrad": "Expertis.",
+    "lead": "Vår kundservice & expertis erbjuder dig tekniska dokument för nedladdning och steg-för-steg-videor för alla svetstekniker.",
+    "dlEyebrow": "Nedladdningar",
+    "dlTitle": "Tekniska Dokument",
+    "downloads": [
+      {
+        "t": "K Aqua Produktprogram",
+        "s": "Fullständig katalog med dimensioner & artiklar"
+      },
+      {
+        "t": "K Aqua Produktegenskaper",
+        "s": "Tekniska egenskaper & materialdata"
+      },
+      {
+        "t": "K Aqua Kvalitetssäkring",
+        "s": "Testmetoder & kvalitetsstandarder"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Svetstekniker på video",
+    "vidLead": "Fyra tekniker, fyra videor, direkt från praktiken.",
+    "videos": [
+      {
+        "t": "Muffsvetsning med handsvets",
+        "s": "PP-R/PPRCT Rör & Rördel"
+      },
+      {
+        "t": "Muffsvetsning med svetsmaskin",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Elektrosvetsning (Electrofusion)",
+        "s": "PP-R/PPRCT Rör & Rördel"
+      },
+      {
+        "t": "Stumsvetsning (Butt Fusion)",
+        "s": "PP-R/PPRCT Stora dimensioner"
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "",
+      "impressum2": "",
+      "kontakt1": "",
+      "kontakt2": "",
+      "projektanfrage1": "",
+      "projektanfrage2": "",
+      "projektanfrage3": "",
+      "news1": "",
+      "news2": ""
+    },
+    "eyebrow": "Företagsprofil",
+    "title1": "Pionjärer inom",
+    "titleGrad": "PP-R Teknik.",
+    "lead": "I över ett halvt århundrade har K Aqua drivit utvecklingen av termoplastiska rörsystem. Vår mission: Att säkerställa den globala vattenförsörjningen med korrosionsfria, extremt hållbara system.",
+    "h2": "Vår Mission",
+    "p1": "Vatten är livets grundval och en begränsad resurs. Den säkra, hygieniska och förlustfria transporten av vatten är en av de mest akuta globala utmaningarna. K Aqua antar denna utmaning.",
+    "p2": "I vår anläggning i Tyskland utvecklar vi plaströrsystem som definierar branschens framtid: Läckagefria, korrosionsbeständiga och utformade för en livslängd på över 50 år. Genom den senaste extruderingstekniken och strikt kvalitetskontroll levererar vi system som fungerar felfritt även under extrema förhållanden.",
+    "polEyebrow": "",
+    "polTitle": "",
+    "polLead": "",
+    "cards": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "genauEyebrow": "",
+    "genauTitle": "",
+    "genauLead": "",
+    "points": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "certTitle": "",
+    "certText": "",
+    "meta": {
+      "title": "",
+      "desc": ""
+    },
+    "hero": {
+      "eyebrow": "",
+      "title1": "",
+      "title2": "",
+      "desc": ""
+    },
+    "intro": {
+      "title1": "",
+      "title2": "",
+      "desc": ""
+    },
+    "material": {
+      "eyebrow": "",
+      "title1": "",
+      "title2": "",
+      "p1": "",
+      "p2": "",
+      "items": [
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        }
+      ]
+    },
+    "timeline": {
+      "title": "",
+      "desc": "",
+      "items": [
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": [
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": [
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Företagspolicy",
+      "title": "Grunden för vårt agerande.",
+      "desc": "Teknik i sig är inte tillräckligt. Sann storhet manifesterar sig i hur ett företag interagerar med sin miljö, sina anställda och sina partners.",
+      "items": [
+        {
+          "title": "Kundbesatthet",
+          "desc": "Vi betjänar inte bara marknader, vi dominerar dem genom radikal kundfokusering. Dina krav är vår befallning. Våra lösningar är precisa, skalbara och absolut kompromisslösa i sitt utförande."
+        },
+        {
+          "title": "Strategiska Allianser",
+          "desc": "Vi letar inte efter leverantörer, vi bildar strategiska allianser med de bästa råvaruproducenterna på planeten. Gemensam forskning, gemensamma kvalitetsstandarder, gemensam dominans."
+        },
+        {
+          "title": "Ekologiskt Imperativ",
+          "desc": "Hållbarhet är inte en marknadsföringsslogan för K Aqua, utan ett fysiskt imperativ. Hållbarhet är det ultimata miljöskyddet. Våra system minimerar det energetiska fotavtrycket från produktion till återvinning."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Certifierad kvalitet",
+      "title1": "Ledningssystemet ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "Målet med GENAU-ledningssystemet är den ständiga förbättringen av arbetsmiljö-, miljö- och hälsoskyddet inom företaget.",
+      "p2": "Alla KWT:s företagsaktiviteter utförs med hänsyn till resursbevarande, miljövänlighet och strikt efterlevnad av alla åtaganden. Det praktiserade GENAU-ledningssystemet uppfyller de höga kraven i ",
+      "p3": " och ",
+      "list1Title": "Ekologiskt ansvar",
+      "list1Desc": "Miljöskydd är en del av vår kvalitetsförståelse, vilket alla anställda på KWT GmbH är engagerade i.",
+      "list2Title": "Energieffektivitet",
+      "list2Desc": "Riktad identifiering av risker och implementering av åtgärder för att optimera energieffektiviteten."
+    }
+  },
+  "news": {
+    "eyebrow": "Nyheter & Event",
+    "title1": "Nyheter från",
+    "titleGrad": "K Aqua.",
+    "date": "Oktober 2025",
+    "h2": "Vi är trippel-ISO-certifierade",
+    "p": "Vårt ISO-ledningssystem har utökats och omfattar nu kvalitets-, miljö- och energiledning:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Kvalitetsledningssystem"
+      ],
+      [
+        "ISO 14001:2015",
+        "Miljöledningssystem"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiledningssystem"
+      ]
+    ],
+    "btnDe": "Certifikat (DE)",
+    "btnEn": "Certificate (EN)",
+    "eventsTitle": "Mässor & Event",
+    "eventsText": "Besök K Aqua på kommande evenemang. För närvarande finns inga inplanerade datum. Kolla in snart igen.",
+    "lead": "Läs de senaste nyheterna från K Aqua."
+  },
+  "career": {
+    "eyebrow": "Karriär",
+    "title1": "Mer än",
+    "titleGrad": "bara lön.",
+    "lead": "Beräkna vad skattefria förmåner ger dig i netto, och testa på 60 sekunder om K Aqua är rätt för dig.",
+    "benEyebrow": "Netto-löne-optimering",
+    "benTitle": "Förmånskalkylatorn.",
+    "benLead": "Skattefria och schablonbeskattade extraförmåner har ofta större effekt än en löneförhöjning. Sätt ihop ditt paket:",
+    "benefits": {
+      "sachbezug": [
+        "Förmånskort",
+        "Skattefri förmån, månatligen på kortkontot."
+      ],
+      "lunch": [
+        "Måltidsbidrag",
+        "Digitala matkuponger för lunch & stormarknad."
+      ],
+      "internet": [
+        "Internetbidrag",
+        "Bidrag för privat internetanvändning."
+      ],
+      "jobrad": [
+        "Förmånscykel (JobRad)",
+        "Drömcykel via löneavdrag, besparing jämfört med privatköp."
+      ],
+      "kita": [
+        "Förskolebidrag",
+        "Skattefritt bidrag för barnomsorg."
+      ],
+      "vwl": [
+        "Kapitalbildande förmåner",
+        "Månatligt sparbidrag från arbetsgivaren."
+      ]
+    },
+    "resultLabel": "Netto mer per månad",
+    "resultNote1": "Detta motsvarar ungefär en",
+    "resultNote2": "bruttoökning på ~{n} kr",
+    "resultNote3": "utan avdrag.",
+    "resultNote4": "(Riktvärde, beroende på skatteklass.)",
+    "apply": "Ansök nu",
+    "call": "Eller ring: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Kulturmatchning",
+    "cmTitle": "Passar K Aqua dig?",
+    "cmIntro": "Fem ärliga frågor om arbetssätt och vardag i tillverkningen. Inget personlighetstest, en realitetscheck.",
+    "cmStart": "Starta testet",
+    "qLabel": "Fråga",
+    "cmQ": [
+      {
+        "q": "Hur föredrar du att arbeta?",
+        "o": [
+          "Tydliga processer, sammansvetsat team",
+          "Att prova på nya saker varje dag"
+        ]
+      },
+      {
+        "q": "Storserieproduktion pågår. En maskin rapporterar en avvikelse.",
+        "o": [
+          "Undersök omedelbart, hitta orsaken",
+          "Låt den vara igång för tillfället"
+        ]
+      },
+      {
+        "q": "Vad motiverar dig mer?",
+        "o": [
+          "En produkt som håller i 50 år",
+          "Snabba, synliga resultat"
+        ]
+      },
+      {
+        "q": "Skiftarbete är för dig …",
+        "o": [
+          "Planerbart och okej",
+          "Ganska svårt"
+        ]
+      },
+      {
+        "q": "Din relation till teknik?",
+        "o": [
+          "Jag vill förstå hur saker fungerar",
+          "Huvudsaken är att det fungerar"
+        ]
+      }
+    ],
+    "resHigh": "Stark matchning. Precision, pålitlighet och teknisk förståelse: exakt vår profil.",
+    "resMid": "Bra matchning med behov av diskussion. Bäst att ringa direkt och klargöra vardagen.",
+    "resLow": "Ärligt resultat: Tillverkningsvardagen på K Aqua är förmodligen inte din miljö. Försäljning eller administration kanske passar bättre.",
+    "sendApp": "Skicka ansökan",
+    "again": "Igen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title1": "Låt oss prata om ditt",
+    "titleGrad": "projekt.",
+    "locTitle": "Plats Tyskland",
+    "salesTitle": "Försäljning",
+    "supportTitle": "Kvalitet & teknisk support",
+    "supportText": "Låt oss prata om ditt projekt. Vårt supportteam hjälper till med tekniska frågor gällande planering, material och bearbetning."
+  },
+  "imprint": {
+    "eyebrow": "Juridiskt",
+    "title": "Impressum",
+    "rows": [
+      [
+        "Företag",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Företagsledning",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Registerdomstol",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Säte",
+        "Waldsolms"
+      ],
+      [
+        "Momsregistreringsnummer",
+        "DE 296238486"
+      ],
+      [
+        "Telefon / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "E-post",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "trustAndCases": {
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "trustTitle": "K-Aqua litar man på över hela världen.",
+    "iso9001": "",
+    "iso14001": "",
+    "iso50001": "",
+    "madeInGermany": "",
+    "case1Title": "",
+    "case1Desc": "",
+    "case2Title": "",
+    "case2Desc": "",
+    "case3Title": "",
+    "case3Desc": ""
+  },
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Dokumentation &",
+    "titleGrad": "Standarder.",
+    "lead": "För anbud, tillstånd eller inspektioner. Ladda ner datablad, ISO-certifikat och garantivillkor.",
+    "certs": [
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "accred": "",
+    "certNo": "",
+    "valid": "",
+    "download": "",
+    "genauEyebrow": "",
+    "genauTitle": "",
+    "genauLead": "",
+    "genau": [
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "rfpEyebrow": "",
+    "rfpTitle": "",
+    "rfpLead": "",
+    "docs": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "inPackage": "",
+    "pickLeft": "",
+    "requestZip": "",
+    "requestBtn": "",
+    "mailSubject": "",
+    "mailBody": "",
+    "scope3": ""
+  },
+  "partner": {
+    "eyebrow": "Företag",
+    "title1": "Ett partnerskap för",
+    "titleGrad": "Framtiden.",
+    "lead": "Med KESSEL vid vår sida kombinerar vi tysk vattenförsörjning med decennier av dräneringsexpertis.",
+    "onionAria": "",
+    "rings": [
+      {
+        "l": "",
+        "t": "",
+        "d": ""
+      },
+      {
+        "l": "",
+        "t": "",
+        "d": ""
+      },
+      {
+        "l": "",
+        "t": "",
+        "d": ""
+      }
+    ],
+    "whyEyebrow": "",
+    "whyTitle": "",
+    "cards": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "Referenser",
+    "title1": "Byggt över",
+    "titleGrad": "hela världen.",
+    "lead": "Från skyskrapor i Qatar till industrianläggningar i Tyskland. Utforska våra projekt interaktivt.",
+    "canvasAria": "",
+    "note": "",
+    "projects": [
+      {
+        "id": "",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "",
+        "d": ""
+      },
+      {
+        "id": "",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "",
+        "d": ""
+      }
+    ]
+  },
+  "rfq": {
+    "eyebrow": "PROJEKTINITIERING",
+    "title1": "Starta din",
+    "titleGrad": "Förfrågan.",
+    "lead": "Ladda upp dina isometrier, P&ID-planer eller stycklistor. Vårt ingenjörsteam granskar kraven och skickar en teknisk utvärdering och offert.",
+    "steps": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "types": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "fType": "",
+    "fDims": "",
+    "fMeters": "",
+    "dimsHint": "",
+    "fTime": "",
+    "fRegion": "",
+    "timelines": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "regions": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "fName": "",
+    "fCompany": "",
+    "fEmail": "",
+    "fPhone": "",
+    "fMsg": "",
+    "privacy": "",
+    "back": "",
+    "next": "",
+    "send": "",
+    "mailSubject": "",
+    "promise": [
+      "",
+      "",
+      ""
+    ],
+    "doneTitle": "",
+    "doneText": "",
+    "doneBack": "",
+    "infoTitle": "",
+    "infoText1": "",
+    "infoText2": "",
+    "faqTitle": "",
+    "faqs": [
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      }
+    ]
+  },
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "berlin": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "muenchen": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "hamburg": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "wien": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "zuerich": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "london": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "paris": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "mailand": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "warschau": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "prag": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "dubai": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "abudhabi": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "doha": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "riad": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "dschidda": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "neom": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "kuwait": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "maskat": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "manama": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": ""
+    },
+    "amman": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": "",
+      "extendedMarketText": ""
+    },
+    "kairo": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": "",
+      "extendedMarketText": ""
+    },
+    "istanbul": {
+      "regulator": "",
+      "water": "",
+      "focus": [
+        "",
+        "",
+        ""
+      ],
+      "note": "",
+      "focusHeading": "",
+      "extendedMarketText": ""
+    },
+    "singapur": {
+      "regulator": "PUB",
+      "water": "NEWater och avsaltat vatten.",
+      "focus": [
+        "Public Housing (HDB)",
+        "Datacenter",
+        "Halvledarindustri"
+      ],
+      "note": "PUB-godkända system.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Stadsstaten kräver extrem utrymmeseffektivitet..."
+    },
+    "kualalumpur": {
+      "regulator": "SPAN",
+      "water": "Tropiskt ytvatten, hög luftfuktighet.",
+      "focus": [
+        "Kylsystem",
+        "Blandad bebyggelse",
+        "Infrastruktur"
+      ],
+      "note": "SPAN-listning krävs.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Malaysia genomgår en snabb modernisering..."
+    },
+    "mumbai": {
+      "regulator": "BIS",
+      "water": "Oregelbunden vattenförsörjning, höga tryckstötar.",
+      "focus": [
+        "Sjukhus & Läkemedel",
+        "Höghus",
+        "Smart Cities"
+      ],
+      "note": "BIS-konformitet projektbaserad.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Indiens infrastruktur kräver robusta och stötsäkra system..."
+    },
+    "kapstadt": {
+      "regulator": "SABS / SANS",
+      "water": "Vattenbrist, fokus på läckagefria system.",
+      "focus": [
+        "Sjukhus",
+        "Bostadsutveckling",
+        "Vingårdar"
+      ],
+      "note": "SABS-standarder.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Sydafrika fokuserar på maximal vattensäkerhet..."
+    },
+    "nairobi": {
+      "regulator": "KEBS",
+      "water": "Blandning av ytvatten och grundvatten.",
+      "focus": [
+        "Affordable Housing",
+        "Offentliga byggnader",
+        "Kliniker"
+      ],
+      "note": "Östafrikansk knutpunkt.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Kenyas snabba tillväxt kräver tillförlitliga VVS-lösningar..."
+    }
+  },
+  "notFound": {
+    "title": "Sidan hittades inte",
+    "description": "Den begärda sidan finns inte eller har flyttats.",
+    "backHome": "Till startsidan"
+  },
+  "productsx": {
+    "pipesEyebrow": "",
+    "pipesTitle": "",
+    "pipesLead": "",
+    "pipes": [
+      {
+        "t": "",
+        "d": "",
+        "tags": [
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "tags": [
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "tags": [
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "tags": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "dimEyebrow": "",
+    "dimTitle": "",
+    "dimLead": "",
+    "dimTabAria": "",
+    "dimHead": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "dimNote": "",
+    "anchorsTitle": "",
+    "anchors": [
+      {
+        "v": "",
+        "t": "",
+        "c": ""
+      },
+      {
+        "v": "",
+        "t": "",
+        "c": ""
+      }
+    ],
+    "matEyebrow": "",
+    "matTitle": "",
+    "matLead": "",
+    "matHead": [
+      "",
+      "",
+      ""
+    ],
+    "matRows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "fitEyebrow": "",
+    "fitTitle": "",
+    "fitLead": "",
+    "fitGroups": [
+      {
+        "t": "",
+        "items": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "items": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "items": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "items": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "normEyebrow": "",
+    "normTitle": "",
+    "normLead": "",
+    "normHead": [
+      "",
+      "",
+      ""
+    ],
+    "norms": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "faqEyebrow": "",
+    "faqTitle": "",
+    "faq": [
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      }
+    ]
+  },
+  "solutionsx": {
+    "segEyebrow": "",
+    "segTitle": "",
+    "segLead": "",
+    "segments": [
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "t": "",
+        "d": "",
+        "pts": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "cmpEyebrow": "",
+    "cmpTitle": "",
+    "cmpLead": "",
+    "cmpHead": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "cmpRows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "cmpNote": "",
+    "lifeEyebrow": "",
+    "lifeTitle": "",
+    "lifeLead": "",
+    "life": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ]
+  },
+  "trustx": {
+    "stakeEyebrow": "",
+    "stakeTitle": "",
+    "stakeLead": "",
+    "stakeHead": [
+      "",
+      "",
+      ""
+    ],
+    "stakeRows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "statEyebrow": "",
+    "statTitle": "",
+    "stats": [
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      },
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      },
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      },
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      }
+    ],
+    "statNote": "",
+    "instEyebrow": "",
+    "instTitle": "",
+    "inst": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "auditEyebrow": "Auditering",
+    "auditTitle": "Inspektion i fabriken.",
+    "auditLead": "Transparens hela vägen in i vår tillverkning.",
+    "audit": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "faqEyebrow": "",
+    "faqTitle": "",
+    "faq": [
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      }
+    ]
+  },
+  "partnerx": {
+    "ecoEyebrow": "",
+    "ecoTitle": "",
+    "ecoLead": "",
+    "eco": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "flowEyebrow": "",
+    "flowTitle": "",
+    "flowLead": "",
+    "flow": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ],
+    "roadEyebrow": "",
+    "roadTitle": "",
+    "road": [
+      {
+        "t": "",
+        "d": "",
+        "s": ""
+      },
+      {
+        "t": "",
+        "d": "",
+        "s": ""
+      },
+      {
+        "t": "",
+        "d": "",
+        "s": ""
+      },
+      {
+        "t": "",
+        "d": "",
+        "s": ""
+      }
+    ],
+    "specEyebrow": "",
+    "specTitle": "",
+    "specLead": "",
+    "spec": [
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "",
+    "libTitle": "",
+    "libLead": "",
+    "libHead": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "libRows": [
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "s": "",
+        "lang": "",
+        "href": ""
+      }
+    ],
+    "libOpen": "",
+    "libRequest": "",
+    "supEyebrow": "",
+    "supTitle": "",
+    "supLead": "",
+    "sup": [
+      {
+        "t": "",
+        "d": "",
+        "c": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "d": "",
+        "c": "",
+        "href": ""
+      },
+      {
+        "t": "",
+        "d": "",
+        "c": "",
+        "href": ""
+      }
+    ],
+    "faqEyebrow": "",
+    "faqTitle": "",
+    "faq": [
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      },
+      {
+        "q": "",
+        "a": ""
+      }
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "",
+    "moreTitle": "",
+    "moreLead": "",
+    "readMore": "",
+    "readLess": "",
+    "posts": [
+      {
+        "date": "",
+        "tag": "",
+        "t": "",
+        "teaser": "",
+        "body": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "date": "",
+        "tag": "",
+        "t": "",
+        "teaser": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      {
+        "date": "",
+        "tag": "",
+        "t": "",
+        "teaser": "",
+        "body": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "date": "",
+        "tag": "",
+        "t": "",
+        "teaser": "",
+        "body": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "ishTitle": "",
+    "ishText": ""
+  },
+  "refsx": {
+    "secEyebrow": "Tillämpningsområden",
+    "secTitle": "Var K Aqua används.",
+    "secLead": "Över hela världen bevisar våra produkter sin kvalitet.",
+    "sectors": [
+      {
+        "t": "Sjukhus",
+        "d": "För hygieniskt dricksvatten."
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Läshjälp",
+    "helpTitle": "Så läser du tabellen.",
+    "helpLead": "Fem termer är allt du behöver:",
+    "help": [
+      [
+        "d",
+        "Ytterdiameter i mm."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Mindre SDR = tjockare vägg."
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "flowTitle": "Från filter till offert",
+    "flow": [
+      {
+        "t": "Sök",
+        "d": "Hitta rätt produkt snabbt."
+      },
+      {
+        "t": "",
+        "d": ""
+      },
+      {
+        "t": "",
+        "d": ""
+      }
+    ]
+  },
+  "homedeep": {
+    "plantEyebrow": "Från fabriken i Waldsolms",
+    "plantTitle": "Precision som kan mätas.",
+    "plant": [
+      {
+        "n": "14 000",
+        "u": "m/dag",
+        "l": "Rörproduktion per extruderingslinje: Kapacitet för stora projekt."
+      },
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      },
+      {
+        "n": "",
+        "u": "",
+        "l": ""
+      }
+    ],
+    "badges": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "badgeNote": "",
+    "badgeCta": ""
+  },
+  "legal": {
+    "impressum": {
+      "title": "",
+      "sections": [
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "",
+      "sections": [
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        },
+        {
+          "id": "",
+          "title": "",
+          "content": ""
+        }
+      ]
+    },
+    "toc": "",
+    "eyebrow": ""
+  },
+  "navigation": {
+    "cookieTitle": "",
+    "cookieDesc": "",
+    "cookieAccept": "",
+    "cookieDecline": ""
+  },
+  "seo": {
+    "extendedProductText": {
+      "p1": "",
+      "p2": "",
+      "p3": ""
+    },
+    "extendedMarketText": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": "",
+      "p5": ""
+    }
+  },
+  "menu": {
+    "pipes": "",
+    "fittings": "",
+    "transition": "",
+    "valves": "",
+    "tools": ""
+  },
+  "quote": "",
+  "resources": {
+    "support": {
+      "title": "",
+      "metaDesc": "",
+      "seoText": {
+        "p1": "",
+        "p2": "",
+        "p3": ""
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ],
+        "eyebrow": "",
+        "title": "",
+        "lead": ""
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          }
+        ],
+        "title": "",
+        "desc": ""
+      },
+      "hero": {
+        "eyebrow": "",
+        "title1": "",
+        "title2": "",
+        "desc": "",
+        "btnPrimary": "",
+        "btnGhost": ""
+      },
+      "intro": {
+        "title1": "",
+        "title2": "",
+        "p1": "",
+        "p2": "",
+        "p3": ""
+      },
+      "bento": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "p1": "",
+        "p2": "",
+        "items": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "cta": {
+        "title1": "",
+        "title2": "",
+        "title3": "",
+        "desc": "",
+        "btnPrimary": "",
+        "btnGhost": ""
+      },
+      "metaTitle": ""
+    },
+    "downloads": {
+      "title": "",
+      "metaDesc": "",
+      "cta": {
+        "title": "",
+        "desc": "",
+        "btn": ""
+      },
+      "meta": {
+        "title": "",
+        "desc": ""
+      },
+      "hero": {
+        "eyebrow": "",
+        "title1": "",
+        "title2": "",
+        "desc": "",
+        "cta1": "",
+        "cta2": ""
+      },
+      "timeline": {
+        "title": "",
+        "desc": "",
+        "items": [
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          }
+        ]
+      },
+      "sticky": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "methodology": {
+        "subtitle": "",
+        "title": "",
+        "p1": "",
+        "p2": "",
+        "card1": {
+          "title": "",
+          "desc": ""
+        },
+        "card2": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "files": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "type": ""
+          },
+          {
+            "title": "",
+            "type": ""
+          },
+          {
+            "title": "",
+            "type": ""
+          },
+          {
+            "title": "",
+            "type": ""
+          },
+          {
+            "title": "",
+            "type": ""
+          },
+          {
+            "title": "",
+            "type": ""
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "",
+      "metaDesc": "",
+      "sticky": {
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ],
+        "eyebrow": "",
+        "title": "",
+        "lead": ""
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          }
+        ],
+        "title": "",
+        "desc": ""
+      },
+      "hero": {
+        "desc": "",
+        "btnPrimary": "",
+        "btnGhost": ""
+      },
+      "intro": {
+        "title1": "",
+        "title2": "",
+        "p1": "",
+        "p2": ""
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "cta": {
+        "title": "",
+        "desc": "",
+        "btnPrimary": "",
+        "btnOutline": ""
+      }
+    },
+    "common": {
+      "eyebrow": "",
+      "subtitle": "",
+      "lead": "",
+      "btnProject": "",
+      "btnData": "",
+      "valEyebrow": "",
+      "valTitle": "",
+      "valLead": "",
+      "valCardTitle": "",
+      "valCardDesc": "",
+      "authTitle": "",
+      "authP1": "",
+      "authP2": "",
+      "list1": "",
+      "list2": "",
+      "list3": "",
+      "placeholder": "",
+      "ctaTitle": "",
+      "ctaLead": ""
+    },
+    "ausschreibungstexte": {
+      "meta": {
+        "title": "",
+        "desc": ""
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          },
+          {
+            "year": "",
+            "title": "",
+            "text": ""
+          }
+        ],
+        "title": "",
+        "desc": ""
+      },
+      "hero": {
+        "eyebrow": "",
+        "title1": "",
+        "title2": "",
+        "desc": "",
+        "cta1": "",
+        "cta2": ""
+      },
+      "manifesto": {
+        "title1": "",
+        "title2": "",
+        "p1": "",
+        "p2": ""
+      },
+      "bento": {
+        "eyebrow": "",
+        "title": "",
+        "lead": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "grid": {
+        "title": "",
+        "desc": "",
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      },
+      "cta": {
+        "title": "",
+        "desc": "",
+        "btn1": "",
+        "btn2": ""
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          },
+          {
+            "title": "",
+            "desc": ""
+          }
+        ]
+      }
+    }
+  },
+  "markets": {
+    "landwirtschaft": {
+      "metaTitle": "",
+      "metaDesc": "",
+      "heroEyebrow": "",
+      "heroTitle": "",
+      "heroSubtitle": "",
+      "heroDesc": "",
+      "heroBtnPrimary": "",
+      "heroBtnSecondary": "",
+      "section1Eyebrow": "",
+      "section1Title": "",
+      "section1Lead": "",
+      "section2Eyebrow": "",
+      "section2Title": "",
+      "section2Lead": "",
+      "scroll1Title": "",
+      "scroll1Desc": "",
+      "scroll2Title": "",
+      "scroll2Desc": "",
+      "scroll3Title": "",
+      "scroll3Desc": "",
+      "scroll4Title": "",
+      "scroll4Desc": "",
+      "section3Eyebrow": "",
+      "section3Title": "",
+      "section3Lead": "",
+      "bento1Title": "",
+      "bento1Desc": "",
+      "bento2Title": "",
+      "bento2Desc": "",
+      "bento3Title": "",
+      "bento3Desc": "",
+      "bento4Title": "",
+      "bento4Desc": "",
+      "section4Title": "",
+      "section4Highlight": "",
+      "section4P1": "",
+      "section4P2": "",
+      "section4Stat1Val": "",
+      "section4Stat1Lbl": "",
+      "section4Stat2Val": "",
+      "section4Stat2Lbl": "",
+      "timelineTitle": "",
+      "timelineDesc": "",
+      "timeline1Year": "",
+      "timeline1Title": "",
+      "timeline1Text": "",
+      "timeline2Year": "",
+      "timeline2Title": "",
+      "timeline2Text": "",
+      "timeline3Year": "",
+      "timeline3Title": "",
+      "timeline3Text": "",
+      "timeline4Year": "",
+      "timeline4Title": "",
+      "timeline4Text": "",
+      "timeline5Year": "",
+      "timeline5Title": "",
+      "timeline5Text": "",
+      "section5Title": "",
+      "section5Desc": "",
+      "section5List1": "",
+      "section5List2": "",
+      "section5List3": "",
+      "section5List4": "",
+      "section5List5": "",
+      "ctaTitle": "",
+      "ctaDesc": "",
+      "ctaBtn1": "",
+      "ctaBtn2": ""
+    },
+    "schiffbau": {
+      "metaTitle": "",
+      "metaDesc": "",
+      "heroBadge": "",
+      "heroTitle": "",
+      "heroSubtitle": "",
+      "heroDesc": "",
+      "heroBtnPrimary": "",
+      "heroBtnSecondary": "",
+      "section1Eyebrow": "",
+      "section1Title": "",
+      "section1Lead": "",
+      "section1P1": "",
+      "section1P2": "",
+      "scroll1Title": "",
+      "scroll1Desc": "",
+      "scroll2Title": "",
+      "scroll2Desc": "",
+      "scroll3Title": "",
+      "scroll3Desc": "",
+      "scroll4Title": "",
+      "scroll4Desc": "",
+      "section2Eyebrow": "",
+      "section2Title": "",
+      "section2Lead": "",
+      "bento1Title": "",
+      "bento1Desc": "",
+      "bento2Title": "",
+      "bento2Desc": "",
+      "bento3Title": "",
+      "bento3Desc": "",
+      "bento4Title": "",
+      "bento4Desc": "",
+      "section3Title": "",
+      "section3P1": "",
+      "section3P2": "",
+      "section3P3": "",
+      "section3List1": "",
+      "section3List2": "",
+      "section3List3": "",
+      "section3List4": "",
+      "section4Eyebrow": "",
+      "section4Title": "",
+      "section4Lead": "",
+      "timeline1Title": "",
+      "timeline1Desc": "",
+      "timeline2Title": "",
+      "timeline2Desc": "",
+      "timeline3Title": "",
+      "timeline3Desc": "",
+      "timeline4Title": "",
+      "timeline4Desc": "",
+      "section5Title": "",
+      "section5Desc": "",
+      "ctaTitle": "",
+      "ctaDesc": "",
+      "ctaBtn": ""
+    },
+    "klimaanlagen": {
+      "metaTitle": "",
+      "metaDesc": "",
+      "heroEyebrow": "",
+      "heroTitle": "",
+      "heroSubtitle": "",
+      "heroDesc": "",
+      "heroBtnPrimary": "",
+      "heroBtnSecondary": "",
+      "section1Eyebrow": "",
+      "section1Title": "",
+      "section1Lead": "",
+      "section1P1": "",
+      "section1P2": "",
+      "scroll1Title": "",
+      "scroll1Desc": "",
+      "scroll2Title": "",
+      "scroll2Desc": "",
+      "scroll3Title": "",
+      "scroll3Desc": "",
+      "scroll4Title": "",
+      "scroll4Desc": "",
+      "section2Eyebrow": "",
+      "section2Title": "",
+      "section2Lead": "",
+      "bentoHeader": "",
+      "bentoSubheader": "",
+      "bento1Title": "",
+      "bento1Desc": "",
+      "bento2Title": "",
+      "bento2Desc": "",
+      "bento3Title": "",
+      "bento3Desc": "",
+      "bento4Title": "",
+      "bento4Desc": "",
+      "timelineEyebrow": "",
+      "timelineLead": "",
+      "timeline1Year": "",
+      "timeline1Title": "",
+      "timeline1Desc": "",
+      "timeline2Year": "",
+      "timeline2Title": "",
+      "timeline2Desc": "",
+      "timeline3Year": "",
+      "timeline3Title": "",
+      "timeline3Desc": "",
+      "timeline4Year": "",
+      "timeline4Title": "",
+      "timeline4Desc": "",
+      "timeline5Year": "",
+      "timeline5Title": "",
+      "timeline5Desc": "",
+      "section3Eyebrow": "",
+      "section3Title": "",
+      "section3P1": "",
+      "section3P2": "",
+      "card1Title": "",
+      "card1Desc": "",
+      "card2Title": "",
+      "card2Desc": "",
+      "card3Title": "",
+      "card3Desc": "",
+      "card4Title": "",
+      "card4Desc": "",
+      "ctaTitle": "",
+      "ctaDesc": "",
+      "ctaBtn1": "",
+      "ctaBtn2": ""
+    },
+    "industrie": {
+      "metaTitle": "",
+      "metaDesc": "",
+      "heroEyebrow": "",
+      "heroTitle": "",
+      "heroSubtitle": "",
+      "heroDesc": "",
+      "heroBtnPrimary": "",
+      "heroBtnSecondary": "",
+      "section1Eyebrow": "",
+      "section1Title": "",
+      "section1Lead": "",
+      "bento1Title": "",
+      "bento1Desc": "",
+      "bento2Title": "",
+      "bento2Desc": "",
+      "bento3Title": "",
+      "bento3Desc": "",
+      "bento4Title": "",
+      "bento4Desc": "",
+      "section2Eyebrow": "",
+      "section2Title": "",
+      "section2Lead": "",
+      "scroll1Title": "",
+      "scroll1Desc": "",
+      "scroll2Title": "",
+      "scroll2Desc": "",
+      "scroll3Title": "",
+      "scroll3Desc": "",
+      "scroll4Title": "",
+      "scroll4Desc": "",
+      "timelineEyebrow": "",
+      "timelineLead": "",
+      "timeline1Year": "",
+      "timeline1Title": "",
+      "timeline1Desc": "",
+      "timeline2Year": "",
+      "timeline2Title": "",
+      "timeline2Desc": "",
+      "timeline3Year": "",
+      "timeline3Title": "",
+      "timeline3Desc": "",
+      "timeline4Year": "",
+      "timeline4Title": "",
+      "timeline4Desc": "",
+      "timeline5Year": "",
+      "timeline5Title": "",
+      "timeline5Desc": "",
+      "section3Eyebrow": "",
+      "section3Title": "",
+      "section3P1": "",
+      "section3P2": "",
+      "stat1Value": "",
+      "stat1Label": "",
+      "stat2Value": "",
+      "stat2Label": "",
+      "stat3Value": "",
+      "stat3Label": "",
+      "stat4Value": "",
+      "stat4Label": "",
+      "ctaTitle": "",
+      "ctaDesc": "",
+      "ctaBtn": ""
+    },
+    "trinkwasser": {
+      "metaTitle": "",
+      "metaDesc": "",
+      "heroEyebrow": "",
+      "heroTitle": "",
+      "heroSubtitle": "",
+      "heroDesc": "",
+      "heroBtnPrimary": "",
+      "heroBtnSecondary": "",
+      "section1Eyebrow": "",
+      "section1Title": "",
+      "section1Lead": "",
+      "section1P1": "",
+      "section1P2": "",
+      "section1P3": "",
+      "section2Eyebrow": "",
+      "section2Title": "",
+      "section2Lead": "",
+      "scroll1Title": "",
+      "scroll1Desc": "",
+      "scroll2Title": "",
+      "scroll2Desc": "",
+      "scroll3Title": "",
+      "scroll3Desc": "",
+      "scroll4Title": "",
+      "scroll4Desc": "",
+      "section3Eyebrow": "",
+      "section3Title": "",
+      "section3Lead": "",
+      "bento1Title": "",
+      "bento1Desc": "",
+      "bento2Title": "",
+      "bento2Desc": "",
+      "bento3Title": "",
+      "bento3Desc": "",
+      "bento4Title": "",
+      "bento4Desc": "",
+      "bento5Title": "",
+      "bento5Desc": "",
+      "bento6Title": "",
+      "bento6Desc": "",
+      "bento7Title": "",
+      "bento7Desc": "",
+      "timelineEyebrow": "",
+      "timelineLead": "",
+      "timeline1Year": "",
+      "timeline1Title": "",
+      "timeline1Desc": "",
+      "timeline2Year": "",
+      "timeline2Title": "",
+      "timeline2Desc": "",
+      "timeline3Year": "",
+      "timeline3Title": "",
+      "timeline3Desc": "",
+      "timeline4Year": "",
+      "timeline4Title": "",
+      "timeline4Desc": "",
+      "timeline5Year": "",
+      "timeline5Title": "",
+      "timeline5Desc": "",
+      "section4Title": "",
+      "section4P1": "",
+      "section4P2": "",
+      "stat1Value": "",
+      "stat1Unit": "",
+      "stat1Label": "",
+      "stat2Value": "",
+      "stat2Unit": "",
+      "stat2Label": "",
+      "stat3Value": "",
+      "stat3Unit": "",
+      "stat3Label": "",
+      "stat4Value": "",
+      "stat4Unit": "",
+      "stat4Label": "",
+      "ctaTitle": "",
+      "ctaDesc": "",
+      "ctaBtn": ""
+    }
+  },
+  "wissen": {
+    "meta": {
+      "title": "",
+      "desc": ""
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        },
+        {
+          "title": "",
+          "desc": ""
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        },
+        {
+          "year": "",
+          "title": "",
+          "text": ""
+        }
+      ],
+      "title": "",
+      "desc": ""
+    },
+    "hero": {
+      "eyebrow": "",
+      "title1": "",
+      "title2": "",
+      "desc": "",
+      "status": "",
+      "clearance": ""
+    },
+    "deep": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "desc": ""
+    },
+    "grid": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "desc": "",
+      "read": ""
+    },
+    "cta": {
+      "title1": "",
+      "title2": "",
+      "desc": "",
+      "btn": ""
+    }
+  },
+  "productNames": {
+    "accessories_backing-flange": "",
+    "accessories_flat-gasket-for-unions": "",
+    "accessories_flat-gasket": "",
+    "accessories_pipe-clamps": "",
+    "accessories_plug": "",
+    "fittings_cap": "",
+    "fittings_cross-over-pipe": "",
+    "fittings_cross-over": "",
+    "fittings_cross": "",
+    "fittings_elbow-45-female-male": "",
+    "fittings_elbow-45": "",
+    "fittings_elbow-90-female-male": "",
+    "fittings_elbow-90": "",
+    "fittings_electrofusion-socket": "",
+    "fittings_flange-adaptor": "",
+    "fittings_reducing-bush": "",
+    "fittings_reducing-tee-large": "",
+    "fittings_reducing-tee": "",
+    "fittings_socket": "",
+    "fittings_tee": "",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "",
+    "pipes_k-pipe-pp-r-sdr-11": "",
+    "pipes_k-pipe-pp-r-sdr-6": "",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "",
+    "tools_butt-welding-machine-90-250": "",
+    "tools_drilling-tool-for-weld-in-saddle": "",
+    "tools_electrofusion-machine": "",
+    "tools_hand-welding-machine-20-32": "",
+    "tools_hand-welding-machine-20-32_desc": "",
+    "tools_hand-welding-machine-20-63": "",
+    "tools_hand-welding-machine-20-63_desc": "",
+    "tools_hand-welding-machine-mirror-50-125": "",
+    "tools_pipe-cutter-20-40": "",
+    "tools_pipe-cutter-50-125-114": "",
+    "tools_pipe-cutter-50-125": "",
+    "tools_repairing-plug": "",
+    "tools_welding-machine-50-125": "",
+    "tools_welding-tool-for-repairing-plug": "",
+    "tools_welding-tool-for-weld-in-saddles": "",
+    "tools_welding-tool": "",
+    "transition-fittings_adaptor-socket-female-thread": "",
+    "transition-fittings_adaptor-socket-male-thread": "",
+    "transition-fittings_elbow-90-male-thread": "",
+    "transition-fittings_elbow-bracket-90-female-thread": "",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "",
+    "transition-fittings_metal-union-female-thread-brass": "",
+    "transition-fittings_metal-union-female-thread": "",
+    "transition-fittings_metal-union-male-thread-brass": "",
+    "transition-fittings_metal-union-male-thread": "",
+    "transition-fittings_tee-90-female-thread": "",
+    "transition-fittings_tee-90-male-thread": "",
+    "transition-fittings_union-for-watermeters": "",
+    "transition-fittings_union": "",
+    "valves_adjustable-battery-female-thread": "",
+    "valves_battery-female-thread": "",
+    "valves_concealed-valve-chrome-heavy-part": "",
+    "valves_concealed-valve-chrome-light-part": "",
+    "valves_elongation-pieces": "",
+    "valves_pp-r-ball-valve-ball-in-pp": "",
+    "valves_pp-r-ball-valve-brass": "",
+    "valves_straight-seat-valve-green-handle": "",
+    "valves_tee-90-female-thread-internal-valve": "",
+    "weld-in-saddles_weld-in-saddle-female-thread": "",
+    "weld-in-saddles_weld-in-saddle-male-thread": "",
+    "weld-in-saddles_weld-in-saddle": ""
+  },
+  "seoArticle": {
+    "transitionFittings": {
+      "seoTitle": "",
+      "seoText": "",
+      "advTitle": "",
+      "advList": [
+        "",
+        "",
+        ""
+      ],
+      "guideText": ""
+    },
+    "valves": {
+      "guideText": ""
+    },
+    "fittings": {
+      "seoTitle": "",
+      "seoText": "",
+      "guideText": ""
+    },
+    "weldInSaddles": {
+      "seoTitle": "",
+      "seoText": "",
+      "guideText": ""
+    },
+    "tools": {
+      "seoTitle": "",
+      "seoText": "",
+      "guideText": ""
+    },
+    "accessories": {
+      "seoTitle": "",
+      "seoText": "",
+      "guideText": ""
+    }
+  },
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "unternehmen": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_fittings": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_rohre": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_armaturen": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_werkzeuge": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_uebergaenge": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte_zubehoer": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "katalog": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "finder": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "produkte": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "academy": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "referenzen": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "support": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "ausschreibungstexte": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "service": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte_klima": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte_industrie": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte_schiffbau": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "maerkte": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "loesungen_hochhaus": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "loesungen_hotel": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "loesungen": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "co2_rechner": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "trust_center": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "projektanfrage": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "kontakt": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "news": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "karriere": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "partnerschaft": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "impressum": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "datenschutz": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    },
+    "fallback": {
+      "kicker": "",
+      "head": "",
+      "short": "",
+      "text": "",
+      "interest": "",
+      "done": ""
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "",
+    "phonePlaceholder": "",
+    "phoneError": "",
+    "emailLabel": "",
+    "emailPlaceholder": "",
+    "emailError": "",
+    "chipsLabel": "",
+    "send": "Skicka",
+    "sendError": "",
+    "legal": "",
+    "legalLink": "",
+    "doneTitle": "",
+    "doneTitleSlim": "",
+    "direct": "",
+    "promise": "",
+    "ccAria": "",
+    "closeAria": "",
+    "fabAria": "",
+    "interests": {
+      "rohrsysteme": "",
+      "trinkwassernetze": "",
+      "bim": "",
+      "ersatzteile": "",
+      "beratung": ""
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "",
+      "titlePlain": "",
+      "titleAccent": "",
+      "lead": "",
+      "cta1": "",
+      "cta2": ""
+    },
+    "manifesto": {
+      "title": "",
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "metrics": {
+      "eyebrow": "",
+      "title1": "",
+      "title2": "",
+      "lead": "",
+      "items": {
+        "pressure": {
+          "title": "",
+          "desc": "",
+          "placeholder": ""
+        },
+        "isolation": {
+          "title": "",
+          "desc": ""
+        },
+        "tolerance": {
+          "title": "",
+          "desc": ""
+        },
+        "network": {
+          "title": "",
+          "desc": "",
+          "placeholder": ""
+        },
+        "welding": {
+          "title": "",
+          "desc": "",
+          "placeholder": ""
+        }
+      }
+    },
+    "cta": {
+      "title1": "",
+      "title2": "",
+      "lead": "",
+      "btn1": "",
+      "btn2": ""
+    },
+    "icons": {
+      "pressure": "",
+      "isolation": "",
+      "tolerance": "",
+      "network": "",
+      "welding": "",
+      "manifesto": "",
+      "cta": ""
+    }
+  },
+  "seoExpansion": {
+    "t1": "Högpresterande rörsystem",
+    "p1": "K-Aqua levererar världsledande lösningar för vätskehantering.",
+    "t2": "Avancerade formdelar och ventiler",
+    "p2": "Våra formdelar garanterar 100% läckagefria installationer.",
+    "t3": "Hållbarhet och miljö",
+    "p3": "Våra system minskar CO2-utsläpp och energiförbrukning.",
+    "t4": "Global räckvidd",
+    "p4": "Tysk ingenjörskonst exporterad till över 50 länder."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kontaktForm": {
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Bitte Telefonnummer angeben",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "einkauf@firma.com",
+    "emailError": "Bitte gültige E-Mail angeben",
+    "chipsLabel": "Was benötigen Sie",
+    "send": "Anfrage senden",
+    "sendError": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an:",
+    "legal": "Keine Werbung, keine Weitergabe.",
+    "legalLink": "Datenschutz",
+    "doneTitle": "Danke, Ihre Anfrage ist da.",
+    "doneTitleSlim": "Danke, Anfrage ist da.",
+    "direct": "Eilig? Direktwahl",
+    "promise": "Antwort innerhalb eines Arbeitstages",
+    "ccAria": "Landesvorwahl",
+    "closeAria": "Schließen",
+    "fabAria": "Kontakt",
+    "interests": {
+      "rohrsysteme": "Rohrsysteme",
+      "trinkwassernetze": "Trinkwassernetze",
+      "bim": "BIM Daten",
+      "ersatzteile": "Ersatzteile",
+      "beratung": "Beratung"
+    }
+  }
+}

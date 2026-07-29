@@ -1,0 +1,287 @@
+{
+  "geo": {
+    "eyebrow": "Märkte & Standorte",
+    "title1": "Eine Welt voller",
+    "title2": "Märkten.",
+    "lead": "Entdecken Sie die K-Aqua Standorte für PP-R Rohrsysteme: {n} Märkte in {c} Ländern, jeder mit eigener Landingpage zu Normen, Wasserprofil, Anwendungsfällen und Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
+    "all": "Alle",
+    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
+    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
+    "allMarkets": "Alle Märkte",
+    "request": "Projekt anfragen",
+    "finder": "Produktfinder",
+    "fromPlant": "km ab Werk Waldsolms",
+    "regFrame": "Regulatorischer Rahmen",
+    "water": "Wasserprofil & Materialantwort",
+    "typical": "Typische Projekte in {city}",
+    "onSite": "Verarbeitung vor Ort",
+    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne in der Academy.",
+    "toAcademy": "Zur Academy",
+    "nearbyEyebrow": "Verwandte Märkte",
+    "nearby": "In der Nähe.",
+    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert, inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "km": "km",
+    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "cityMetaTitle": "PP-R Rohrsysteme in {city}",
+    "hubMetaTitle": "PP-R Rohrsysteme für {country}",
+    "hubH1": "Infrastruktur-Lösungen für {country}",
+    "hubLead": "K-Aqua bietet zertifizierte PP-R und PP-RCT Infrastruktur-Lösungen für {country}. Unsere Rohrsysteme erfüllen die höchsten internationalen Standards und sind für die spezifischen Herausforderungen in {country} optimiert.",
+    "hubContextTitle": "Regionaler Kontext: {context}",
+    "hubContextBody": "Unsere K-Aqua PP-R/PP-RCT Rohrsysteme aus deutscher Produktion liefern nachhaltige Infrastruktur-Lösungen für {country}. Sie sind speziell dafür ausgelegt, den infrastrukturellen Herausforderungen vor Ort gerecht zu werden.",
+    "hubCitiesTitle": "Lokale Standorte & Referenzstädte",
+    "hubs": {
+      "deutschland": {
+        "description": "Als K-Aqua's Heimatmarkt bietet Deutschland höchste Ansprüche an Bauqualität und Langlebigkeit. Unsere <span class=\"font-semibold\">PP-R und PP-RCT Rohrsysteme</span> bewältigen den drängenden Sanierungsstau in der deutschen Trinkwasser- und Heizungsinfrastruktur effektiv und nachhaltig. Durch korrosionsfreie, DVGW-zertifizierte Materialien reduzieren wir Wartungskosten und gewährleisten maximale Systemhygiene in kommunalen, gewerblichen und privaten Großprojekten über Jahrzehnte hinweg.",
+        "metaDesc": "Zertifizierte PP-R/PP-RCT Rohrsysteme für Deutschland. German Engineering gegen den Sanierungsstau in der Trinkwasser- und Heizungsinfrastruktur."
+      },
+      "oesterreich": {
+        "description": "In Österreich erfordern anspruchsvolle Topographien und strenge Umweltauflagen kompromisslose Infrastrukturlösungen. Unsere <span class=\"font-semibold\">K-Aqua Rohrsysteme</span> bieten Premium-Qualität für langlebige Wasser- und Fernwärmenetze in alpinen Regionen. Mit ÖVGW-geprüfter Sicherheit und herausragender thermischer Isolierung garantieren unsere PP-R und PP-RCT Rohre frost- und drucksichere Performance selbst unter extremsten klimatischen Bedingungen der Alpen.",
+        "metaDesc": "Premium PP-R/PP-RCT Rohrsysteme für Österreich. Frost- und drucksichere Lösungen für Wasser- und Fernwärmenetze in alpinen Regionen."
+      },
+      "schweiz": {
+        "description": "Die Schweiz steht für Präzision, Nachhaltigkeit und höchste Qualitätsstandards. <span class=\"font-semibold\">K-Aqua's PP-R und PP-RCT Systeme</span> erfüllen diese Anforderungen durch erstklassige Materialreinheit und SVGW-zertifizierte Lebensmittelsicherheit. Unsere komplett recycelbaren, strömungsoptimierten Kunststoffrohre ermöglichen energieeffiziente Sanitär- und Klimatechnik für zukunftsweisende Minergie-Bauprojekte im gesamten Schweizer Raum.",
+        "metaDesc": "Erstklassige PP-R/PP-RCT Rohrsysteme für die Schweiz. SVGW-zertifizierte, recycelbare Kunststoffrohre für nachhaltige Minergie-Bauprojekte."
+      },
+      "uae": {
+        "description": "Unter den extremen klimatischen Bedingungen der Vereinigten Arabischen Emirate ist Wasser die wertvollste Ressource. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT Rohrsysteme</span> bieten ultimativen Schutz vor Korrosion und Verkalkung, selbst bei der Verwendung von entsalztem Meerwasser (Reverse Osmosis). Unsere UV-beständigen und hitzeresistenten Hochleistungsrohre sichern die dauerhafte Wasserversorgung in den gigantischen Megaprojekten und Hochhäusern Dubais und Abu Dhabis.",
+        "metaDesc": "UV- und hitzebeständige PP-R/PP-RCT Rohrsysteme für die VAE. Höchster Schutz gegen Korrosion und Verkalkung in Wüstenklimata."
+      },
+      "ksa": {
+        "description": "Im Rahmen der Vision 2030 transformiert Saudi-Arabien seine gesamte Infrastruktur. <span class=\"font-semibold\">K-Aqua liefert hierfür die essenzielle Wasser-Infrastruktur</span>. Unsere großkalibrigen PP-RCT Rohre gewährleisten eine sichere, leckagefreie und effiziente Wasserverteilung in neuen Smart Cities wie NEOM. Zertifiziert nach internationalen Standards garantieren wir einen unterbrechungsfreien Betrieb bei extrem hohen Umgebungstemperaturen.",
+        "metaDesc": "Großkalibrige PP-RCT Rohrsysteme für Saudi-Arabien. Zuverlässige Wasser-Infrastruktur für Vision 2030 und Mega-Projekte wie NEOM."
+      },
+      "singapur": {
+        "description": "Als einer der dichtbesiedeltsten Hightech-Stadtstaaten Asiens benötigt Singapur hochgradig effiziente und platzsparende Gebäudetechnik. <span class=\"font-semibold\">K-Aqua's innovative Rohrleitungssysteme</span> unterstützen die ehrgeizigen Green-Building-Ziele Singapurs durch drastisch reduzierte Druckverluste und optimale thermische Eigenschaften. Von Hochhaus-Klimatisierung (Chilled Water) bis hin zur ultrareinen Trinkwasserversorgung setzen wir Standards in Asien.",
+        "metaDesc": "Effiziente PP-R/PP-RCT Rohre für Singapurs Green Buildings. Spezialisierte Systeme für Chilled Water und ultrareine Trinkwasserversorgung."
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Service",
+    "title1": "Kundenservice &",
+    "titleGrad": "Know-how.",
+    "lead": "Unser Kundenservice & Know-how. bietet Ihnen technische unterlagen zum download und schritt-für-schritt-videos zu allen schweißverfahren.",
+    "dlEyebrow": "Downloads",
+    "dlTitle": "Technische Unterlagen",
+    "downloads": [
+      {
+        "t": "K Aqua Produktprogramm",
+        "s": "Vollständiger Katalog mit Dimensionen & Artikeln"
+      },
+      {
+        "t": "K Aqua Produkteigenschaften",
+        "s": "Technische Eigenschaften & Materialdaten"
+      },
+      {
+        "t": "K Aqua Qualitätssicherung",
+        "s": "Prüfverfahren & Qualitätsstandards"
+      }
+    ],
+    "vidEyebrow": "Installation",
+    "vidTitle": "Schweißverfahren im Video",
+    "vidLead": "Vier Verfahren, vier Videos, direkt aus der Praxis.",
+    "videos": [
+      {
+        "t": "Muffenschweißen mit Handschweißgerät",
+        "s": "PP-R/PPRCT Rohr & Formteil"
+      },
+      {
+        "t": "Muffenschweißen mit Schweißmaschine",
+        "s": "PP-R Socket Welding"
+      },
+      {
+        "t": "Elektroschweißen (Electrofusion)",
+        "s": "PP-R/PPRCT Rohr & Formteil"
+      },
+      {
+        "t": "Stumpfschweißen (Butt Fusion)",
+        "s": "PP-R/PPRCT Großdimensionen"
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "Die K Aqua PP-R und PPRCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, mit höchster Präzision hergestellt. Unser Impressum bietet unseren Kunden und Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur, die gesetzlichen Vertreter und alle relevanten Handelsregisterdaten. Wir legen größten Wert auf eine offene Kommunikation und die Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr. Die auf unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft und aktualisiert, um Ihnen stets korrekte technische und kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
+      "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser, Heizungs- und Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen und regulatorischen Standards. Dies schließt den Datenschutz, faire Wettbewerbsbedingungen und internationale Handelsrichtlinien mit ein. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt und Struktur der K Aqua Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen, technischen Datenblättern oder Installationsrichtlinien bedarf der vorherigen Zustimmung.",
+      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
+      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen: unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
+      "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage für K Aqua PP-R und PPRCT Rohrsysteme. Unsere technische Abteilung in Waldsolms ist auf die Auslegung und Dimensionierung von Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, hygienisch sensible Krankenhäuser, weitreichende Fernkältenetze und komplexe industrielle Kühl- und Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir die spezifischen hydraulischen und thermischen Anforderungen, die an die Infrastruktur moderner Bauwerke gestellt werden. Mit K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
+      "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne oder Isometrien mitteilen, beginnen unsere Fachingenieure mit einer tiefgehenden Analyse. Wir unterstützen Sie bei komplexen Druckverlustberechnungen, der Ermittlung von thermischen Längenausdehnungen und der exakten Positionierung von Fest- und Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) und konzipieren maßgeschneiderte Übergangsfittings für die Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen, das den Energieverbrauch Ihrer Pumpen minimiert und eine wartungsfreie Lebensdauer von über 50 Jahren garantiert.",
+      "projektanfrage3": "Diskretion und Zuverlässigkeit stehen bei uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt und ausschließlich von unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus die weltweite Logistik und gewährleisten, dass unsere High End-Rohre und Formteile termingerecht und unbeschadet auf Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass die Installation exakt nach den Vorgaben des German Engineerings ausgeführt wird. Mit K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit und die Langlebigkeit Ihres gesamten Rohrleitungssystems.",
+      "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
+      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
+    },
+    "eyebrow": "Über uns",
+    "title1": "Erfahrung ist Ihr",
+    "titleGrad": "Vorteil.",
+    "lead": "Neue Strategien, gewachsenes Wissen: Als Hersteller von K-Aqua verbindet die KWT GmbH jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
+    "h2": "K Aqua: führend in der Wasserversorgung",
+    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
+    "p2": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
+    "polEyebrow": "Unternehmenspolitik",
+    "polTitle": "Nutzen entsteht im Zusammenspiel.",
+    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+    "cards": [
+      {
+        "t": "Menschen im Mittelpunkt",
+        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden. Qualität bleibt dabei stets mit Kosten und Terminen vereinbar."
+      },
+      {
+        "t": "Verlässlichkeit",
+        "d": "Wünsche von Kunden und allen Interessierten werden unter Einhaltung gesetzlicher und sozialer Standards erkannt, ernst genommen und umgesetzt."
+      },
+      {
+        "t": "Ökologische Verantwortung",
+        "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
+      }
+    ],
+    "genauEyebrow": "GENAU-Managementsystem",
+    "genauTitle": "Genau hinschauen. Genau verbessern.",
+    "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+    "points": [
+      "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
+      "Optimierung der Energieeffizienz",
+      "Prävention, laufende Gefahrenermittlung und Risikobewertung",
+      "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
+    ],
+    "certTitle": "geprüft nach Norm",
+    "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001, seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "meta": {
+      "title": "Über KWT GmbH: Experten für Rohrherstellung",
+      "desc": "Die KWT GmbH in Waldsolms vereint deutsche Ingenieurskunst mit modernster Fertigung. Dreifach ISO-zertifiziert produzieren wir K-Aqua PP-R Rohrsysteme."
+    },
+    "hero": {
+      "eyebrow": "Die K Aqua Doktrin",
+      "title1": "German Engineering.",
+      "title2": "Kompromisslos.",
+      "desc": "Wir machen keine Kompromisse. Wir definieren den globalen Standard für PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+    },
+    "intro": {
+      "title1": "WIR LEITEN NICHT NUR WASSER.",
+      "title2": "WIR KONTROLLIEREN ES.",
+      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+    },
+    "material": {
+      "eyebrow": "Materialwissenschaft",
+      "title1": "Polypropylen Random Copolymerisat.",
+      "title2": "Entfesselt.",
+      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
+      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "items": [
+        {
+          "title": "Extreme Molmasse",
+          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+        },
+        {
+          "title": "Kristalline Optimierung",
+          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Die Evolution der Perfektion",
+      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Der Ursprung der Toleranzlosigkeit",
+          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+        },
+        {
+          "year": "2005",
+          "title": "Die Polypropylen-Revolution",
+          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+        },
+        {
+          "year": "2015",
+          "title": "Die architektonische Symbiose",
+          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+        },
+        {
+          "year": "2026",
+          "title": "Die Molekulare Diktatur",
+          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "DIE PHYSIK BEZWUNGEN",
+      "title": "Die Vier Säulen der Macht.",
+      "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "items": [
+        {
+          "title": "Absolutismus in der Qualität",
+          "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+        },
+        {
+          "title": "Thermische Unverwundbarkeit",
+          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+        },
+        {
+          "title": "Chemische Resistenz",
+          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+        },
+        {
+          "title": "Molekulare Fusion",
+          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "INDUSTRIELLE DOMINANZ",
+      "title": "Infrastruktur auf Steroiden.",
+      "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+      "items": [
+        {
+          "title": "Brachiale Extrusion",
+          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+        },
+        {
+          "title": "geprüfte Überlegenheit",
+          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+        },
+        {
+          "title": "Hygiene-Diktat",
+          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+        },
+        {
+          "title": "Ressourcen-Effizienz",
+          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Unternehmenspolitik",
+      "title": "Das Fundament unseres Handelns.",
+      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+      "items": [
+        {
+          "title": "Kunden-Obsession",
+          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+        },
+        {
+          "title": "Strategische Allianzen",
+          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+        },
+        {
+          "title": "Ökologischer Imperativ",
+          "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "geprüfte Qualität",
+      "title1": "Das ",
+      "titleHighlight": "GENAU",
+      "title2": " Management System",
+      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
+      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
+      "p3": " und ",
+      "list1Title": "Ökologische Verantwortung",
+      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
+      "list2Title": "Energieeffizienz",
+      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
+    }
+  }
+}

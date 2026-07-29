@@ -1,0 +1,311 @@
+{
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Trust is",
+    "titleGrad": "measurable.",
+    "lead": "Trust is measurable. Certificates, GENAU framework, and audit documents, as self service. No waiting for days for manual delivery.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Quality management"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental management"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy management"
+      ]
+    ],
+    "accred": "DAkkS-accredited",
+    "certNo": "Certificate No.",
+    "valid": "Valid",
+    "download": "Download",
+    "genauEyebrow": "GENAU Framework",
+    "genauTitle": "Five letters. One system.",
+    "genauLead": "The GENAU management system is anchored in the House of KWT, click through the five pillars.",
+    "genau": [
+      [
+        "Health",
+        "Occupational health and safety with continuous hazard identification, every employee is required to actively report risks."
+      ],
+      [
+        "Energy",
+        "Optimization of energy efficiency according to ISO 50001, from the extruder to the closed cooling water circuit."
+      ],
+      [
+        "Sustainability",
+        "100% of offcuts and production waste go back into the recycling loop."
+      ],
+      [
+        "Work safety",
+        "Prevention and risk assessment as daily practice, not as an annual mandatory exercise."
+      ],
+      [
+        "Environment",
+        "Environmental management according to ISO 14001: Resource conservation is part of the quality understanding."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Your RFP Document Package.",
+    "rfpLead": "Assemble your audit and tender package yourself, instead of waiting for days for manual delivery.",
+    "docs": [
+      "ISO 9001:2015 Certificate (DE/EN)",
+      "ISO 14001:2015 Certificate (DE/EN)",
+      "ISO 50001:2018 Certificate (DE/EN)",
+      "GENAU Policy & Risk Assessment",
+      "Potable Water Conformity (DVGW/KTW)",
+      "EPD Data Sheets (Type III, EN 15804)",
+      "GAEB Tender Texts",
+      "Quality Assurance Manual"
+    ],
+    "inPackage": "Documents in the package.",
+    "pickLeft": "Select on the left.",
+    "requestZip": "Request as ZIP with one click:",
+    "requestBtn": "Request package",
+    "mailSubject": "RFP Document Package",
+    "mailBody": "Please send me the following documents:",
+    "scope3": "Scope 3 emissions data and raw EPD data upon request, proactive transparency instead of mere compliance."
+  },
+  "partner": {
+    "eyebrow": "Partnership",
+    "title1": "Two brands.",
+    "titleGrad": "One attitude.",
+    "lead": "Two brands. One attitude. The close, decades-long partnership with KESSEL transfers premium trust from drainage into water supply.",
+    "onionAria": "Onion shell model of the partnership",
+    "rings": [
+      {
+        "l": "Core brand",
+        "t": "KESSEL, Leading in Drainage",
+        "d": "Premium manufacturer of drainage technology. World-leading trade fairs like ISH, the PlannerPortal, and the CustomerForum make KESSEL the authority of the building services engineering industry."
+      },
+      {
+        "l": "System",
+        "t": "K Aqua, leading in water supply",
+        "d": "The supply side of the same engineering DNA: complete PP-R/PPRCT system d20–d630, manufactured in Germany. Drainage and supply from a community of values."
+      },
+      {
+        "l": "Service",
+        "t": "Shared ecosystem",
+        "d": "Planners profit twice: training, welding technology support, and digital planning tools, perspectively up to the parametric pipe network configurator."
+      }
+    ],
+    "whyEyebrow": "Why PP-R/PPRCT",
+    "whyTitle": "The backbone of the product promise.",
+    "cards": [
+      {
+        "t": "Absolute freedom from corrosion",
+        "d": "Immune to electrochemical corrosion, no pitting, no pipe bursts like with copper or galvanized steel."
+      },
+      {
+        "t": "Thermal efficiency",
+        "d": "Minimal heat loss in hot water circulation, direct energy savings over decades."
+      },
+      {
+        "t": "Hygienic neutrality",
+        "d": "Tasteless and odorless; the extremely smooth inner surface prevents biofilm and incrustation."
+      }
+    ]
+  },
+  "refs": {
+    "eyebrow": "References",
+    "title1": "A Globe Full of",
+    "titleGrad": "Projects.",
+    "lead": "Rotate the globe, tap a marker; each mark represents proven K Aqua technology in action. (Example projects as placeholders for real references.)",
+    "canvasAria": "Interactive globe with reference projects, drag to rotate",
+    "note": "Real project names, photos, and key figures should be added editorially; the stage is set.",
+    "projects": [
+      {
+        "id": "waldsolms",
+        "lat": 50.4,
+        "lon": 8.5,
+        "title": "Waldsolms, Germany",
+        "d": "Headquarters & Development, where every K Aqua pipe is created."
+      },
+      {
+        "id": "dubai",
+        "lat": 25.2,
+        "lon": 55.3,
+        "title": "Dubai, UAE",
+        "d": "High-rise risers, PPRCT for hot water under desert conditions."
+      },
+      {
+        "id": "warsaw",
+        "lat": 52.2,
+        "lon": 21,
+        "title": "Warsaw, Poland",
+        "d": "New residential district, complete drinking water installation d20–d110."
+      },
+      {
+        "id": "istanbul",
+        "lat": 41,
+        "lon": 28.9,
+        "title": "Istanbul, Turkey",
+        "d": "Hotel complex, circulation lines with fiber composite pipe."
+      },
+      {
+        "id": "singapore",
+        "lat": 1.35,
+        "lon": 103.8,
+        "title": "Singapore",
+        "d": "Infrastructure project, large dimensions up to d630 using butt welding."
+      },
+      {
+        "id": "cape_town",
+        "lat": -33.9,
+        "lon": 18.4,
+        "title": "Cape Town, South Africa",
+        "d": "New hospital building, hygienic drinking water distribution."
+      },
+      {
+        "id": "london",
+        "lat": 51.5,
+        "lon": -0.1,
+        "title": "London, UK",
+        "d": "Office renovation, corrosion-free replacement for existing pipelines."
+      }
+    ]
+  },
+  "buyers": {
+    "eyebrow": "For Planners, Purchasing & Installers",
+    "title1": "You plan, calculate, or install.",
+    "titleGrad": "We provide the foundation.",
+    "lead": "Every role finds exactly the information they need for the next decision at K Aqua, without pouring over PDFs, without waiting on hold for a callback.",
+    "personas": [
+      {
+        "t": "Planners & Engineers",
+        "d": "Standard-compliant technical data, SDR tables, and CO₂ certificates for tendering, directly usable.",
+        "cta": "To Technical Data",
+        "goto": "products"
+      },
+      {
+        "t": "Purchasing & Procurement",
+        "d": "Direct delivery from the factory, plannable logistics from Waldsolms, and one contact person instead of intermediaries.",
+        "cta": "Start Project Request",
+        "goto": "rfq"
+      },
+      {
+        "t": "Installers & Processors",
+        "d": "Four welding methods on video, tool overview, and clear processing limits; safety on the construction site.",
+        "cta": "To the Academy",
+        "goto": "academy"
+      }
+    ],
+    "whyEyebrow": "Why K Aqua",
+    "whyTitle": "Six reasons that matter in calculation.",
+    "why": [
+      {
+        "t": "Pressure & Hot Water Resistant",
+        "d": "PPRCT with modified crystal structure, more temperature and pressure reserves for decades."
+      },
+      {
+        "t": "Corrosion-free",
+        "d": "No rust, no encrustation, no pitting risks like with metallic pipes."
+      },
+      {
+        "t": "Recyclable & Low-CO₂",
+        "d": "Recycling Code 5, significantly smaller footprint than copper or steel, verifiable in the CO₂ calculator."
+      },
+      {
+        "t": "One Contact Person",
+        "d": "Pipe, fitting, valve, and welding technology from a single source, from the manufacturer, not through intermediaries."
+      }
+    ],
+    "promise": [
+      "Direct from Factory",
+      "Response < 24 h",
+      "Non-binding"
+    ],
+    "ctaAll": "Project Request in 2 Minutes"
+  },
+  "rfq": {
+    "eyebrow": "Project Request",
+    "title1": "Your Project,",
+    "titleGrad": "Our Offer.",
+    "lead": "Four short steps to a non-binding request. You will receive personal feedback from sales within one working day.",
+    "steps": [
+      "Project Type",
+      "Demand",
+      "Timeline & Region",
+      "Contact"
+    ],
+    "types": [
+      {
+        "t": "New Construction / Building Construction",
+        "d": "Drinking water installation in residential or commercial buildings."
+      },
+      {
+        "t": "Infrastructure / Civil Engineering",
+        "d": "Supply lines, large dimensions, networks."
+      },
+      {
+        "t": "Renovation / Replacement",
+        "d": "Replacement of existing metal or PVC pipes."
+      },
+      {
+        "t": "Trade / Resale",
+        "d": "Distribution, warehousing, or project business."
+      }
+    ],
+    "fType": "Project Type",
+    "fDims": "Required Dimensions",
+    "fMeters": "Estimated Length",
+    "dimsHint": "Rough estimates are sufficient, we'll specify together. Multiple selection possible.",
+    "fTime": "Planned Timeline",
+    "fRegion": "Delivery Region",
+    "timelines": [
+      "Immediate / Ongoing",
+      "In 1–3 Months",
+      "In 3–6 Months",
+      "Planning Phase"
+    ],
+    "regions": [
+      "Germany",
+      "DACH",
+      "Europe",
+      "Middle East",
+      "Worldwide"
+    ],
+    "fName": "Name",
+    "fCompany": "Company",
+    "fEmail": "Email",
+    "fPhone": "Phone",
+    "fMsg": "Message (optional)",
+    "privacy": "By submitting, you open a pre-filled email to info@k-aqua.de. No data is stored on this site.",
+    "back": "Back",
+    "next": "Next",
+    "send": "Send Request",
+    "mailSubject": "K Aqua Project Request",
+    "promise": [
+      "Response < 24 h",
+      "Non-binding",
+      "Direct from Manufacturer"
+    ],
+    "doneTitle": "Almost done.",
+    "doneText": "Your email program has opened with the pre-filled request. Send it off, we'll get back to you within a working day. Prefer to speak directly?",
+    "doneBack": "Back to Homepage",
+    "infoTitle": "About the Project Request",
+    "infoText1": "Use our request tool to coordinate your construction or industrial project with our experts at an early stage. Whether you are in the planning phase or already have concrete material lists, we will support you with dimensioning and material selection.",
+    "infoText2": "Through close cooperation with K Aqua Sales, you'll not only receive precise offers but also valuable technical advice regarding pressure ratings (SDR classes), laying methods, and system-compliant accessories. Send us your parameters, and we'll get back to you within one working day.",
+    "faqTitle": "Frequently Asked Questions about Requests",
+    "faqs": [
+      {
+        "q": "Is the project request subject to a fee?",
+        "a": "No, the use of this tool and the subsequent preparation of an offer by our sales team are completely free of charge and non-binding for you."
+      },
+      {
+        "q": "What happens after the request is sent?",
+        "a": "Your request is sent directly to our internal sales team. A personal contact person will get in touch with you within 24 hours to clarify any open questions or present a tailored offer."
+      },
+      {
+        "q": "Can I also make a request as a private individual?",
+        "a": "K Aqua is primarily aimed at wholesalers, planners, and professional installers in the B2B sector. We are happy to refer private customers to our regional specialist partners."
+      },
+      {
+        "q": "How secure is my data?",
+        "a": "Your inputs are not stored on the server but transferred directly to your email program, from where you can securely send the request to us. We treat your data strictly confidential according to current GDPR guidelines."
+      }
+    ]
+  }
+}

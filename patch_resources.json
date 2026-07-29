@@ -1,0 +1,14 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Patch resources ausschreibungstexte missing keys",
+  "Description": "Patch resources",
+  "ReplacementChunks": [
+    {
+      "StartLine": 6976,
+      "EndLine": 6977,
+      "AllowMultiple": false,
+      "TargetContent": "    \"ausschreibungstexte\": {\n      \"title\": \"Besedila za razpise\",",
+      "ReplacementContent": "    \"ausschreibungstexte\": {\n      \"meta\": {\n        \"title\": \"Uradna besedila za razpise za cevne sisteme PP-R\",\n        \"desc\": \"Prenesite podrobna besedila za razpise K-Aqua. Nudimo brezkompromisno varnost nemškega inženiringa za vaše globalne megaprojekte.\"\n      },\n      \"title\": \"Besedila za razpise\","
+    }
+  ]
+}

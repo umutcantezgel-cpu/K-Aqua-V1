@@ -1,0 +1,350 @@
+,
+  "solutionsx": {
+    "segEyebrow": "Einsatzfelder",
+    "segTitle": "Bewährt, wo Wasser kritisch ist.",
+    "segLead": "K Aqua-Systeme arbeiten weltweit u Projekten vom Krankenhaus do zum Gewächshaus. Jedes Einsatzfeld nutzt andere Stärken des Werkstoffs.",
+    "segments": [
+      {
+        "t": "Krankenhäuser & Gesundheitsbau",
+        "d": "Hygiene ist hier nicht verhandelbar:   glatte Innenfläche (0,007 mm) hemmt Biofilm i Inkrustation,   Werkstoff bleibt geschmacks- i geruchsneutral.",
+        "pts": [
+          "Hygienische Neutralität",
+          "Korrosionsfrei: kein Lochfraß",
+          "Referenz: Krankenhausneubau Kapstadt"
+        ]
+      },
+      {
+        "t": "Hotels & Wohnhochbau",
+        "d": "Topla voda-Zirkulation rund um   Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PPRCT hält 70 °C Dauerbetrieb.",
+        "pts": [
+          "Thermische Effizienz",
+          "PPRCT za Zirkulation",
+          "Referenz: Hotelkomplex Istanbul"
+        ]
+      },
+      {
+        "t": "Industrie & Gewerbebau",
+        "d": "Beständig gegen Lösungsmittel, Laugen i Säuren. Wo Metallleitungen korrodieren, bleibt Polypropylen unbeeindruckt.",
+        "pts": [
+          "Chemische Beständigkeit",
+          "Lange Wartungsintervalle",
+          "Prozess- i Brauchwasser"
+        ]
+      },
+      {
+        "t": "Gewächshäuser & Agrar",
+        "d": "UV-stabilisierte Ausführungen za   Bewässerung unter Glas i im Freien: leicht, schnell verlegt, frostunempfindlicher als starre Systeme.",
+        "pts": [
+          "UV-beständige Ausführung",
+          "Geringes Gewicht",
+          "Einsatzfeld aus dem Referenzprogramm"
+        ]
+      },
+      {
+        "t": "Kommunale Infrastruktur",
+        "d": "Versorgungsleitungen i Netze u GroßDimenzije do d630: stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.",
+        "pts": [
+          "d do 630 mm",
+          "Stumpfschweißen (Butt Fusion)",
+          "Referenz: Infrastruktur Singapur"
+        ]
+      },
+      {
+        "t": "Sanierung & Austausch",
+        "d": "Ersatz korrodierter Metall- ili PVC-Bestandsleitungen: Übergangsstücke sa Messing-Gewinde binden   Bestand sauber an   neue System an.",
+        "pts": [
+          "Übergänge na Metall-Gewinde",
+          "Abschnittsweise Sanierung",
+          "Korrosionsproblem dauerhaft gelöst"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Werkstoffvergleich",
+    "cmpTitle": "PP-R/PPRCT im Vergleich.",
+    "cmpLead": "Vier Leitungswerkstoffe, acht Kriterien: eine vereinfachte Gegenüberstellung als Startpunkt za   projektspezifische Werkstoffwahl.",
+    "cmpHead": [
+      "Kriterium",
+      "K Aqua PP-R/PPRCT",
+      "Kupfer",
+      "Edelstahl",
+      "PVC-C"
+    ],
+    "cmpRows": [
+      [
+        "Korrosion",
+        "korrosionsfrei: immun gegen elektrochemische Korrosion",
+        "Lochfraß möglich",
+        "beständig (güteabhängig)",
+        "korrosionsfrei"
+      ],
+      [
+        "Inkrustation & Biofilm",
+        "sehr gering: Innenrauheit 0,007 mm",
+        "möglich",
+        "gering",
+        "gering"
+      ],
+      [
+        "Wärmeleitfähigkeit",
+        "0,24 W/(m·K): geringe Verluste",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0,14 W/(m·K)"
+      ],
+      [
+        "Dichte / Gewicht",
+        "0,905 g/cm³",
+        "8,9 g/cm³",
+        "7,9 g/cm³",
+        "1,55 g/cm³"
+      ],
+      [
+        "Verbindungstechnik",
+        "stoffschlüssig geschweißt: homogener Strang",
+        "gelötet / gepresst",
+        "gepresst / geschweißt",
+        "geklebt"
+      ],
+      [
+        "Geschmack & Geruch",
+        "neutral",
+        "Metallabgabe möglich",
+        "neutral",
+        "neutral"
+      ],
+      [
+        "CO₂ (Errichtung)",
+        "niedrig, im CO₂-Rechner vergleichen",
+        "hoch",
+        "hoch",
+        "mittel"
+      ],
+      [
+        "Recycling",
+        "Code 5, sortenrein: 100 % Produktionsabfälle im Kreislauf",
+        "Schrottkreislauf",
+        "Schrottkreislauf",
+        "eingeschränkt"
+      ]
+    ],
+    "cmpNote": "Vereinfachte Gegenüberstellung sa typischen Werkstoffkennwerten;   Werkstoffwahl bleibt projektspezifisch. Zahlenbasis za   CO₂-Vergleich: siehe CO₂-Rechner i EPD-Datenblätter.",
+    "lifeEyebrow": "Lebenszyklus",
+    "lifeTitle": "Vom Rohgas do zum Rezyklat.",
+    "lifeLead": "Verantwortung über   gesamten Zyklus: vier Stationen,     Produkt ökologisch tragfähig machen.",
+    "life": [
+      {
+        "t": "Rohstoff sa Geschichte",
+        "d": "Polypropylen entsteht aus Gasen,   früher nutzlos abgefackelt wurden.   Nutzung als Werkstoff reduziert Luftverschmutzung an   Quelle."
+      },
+      {
+        "t": "Fertigung im Kreislauf",
+        "d": "  Produktion u Waldsolms kühlt im geschlossenen Wasserkreislauf i schützt damit Flüsse, Bäche i Seen;   Energieeffizienz steuert ISO 50001."
+      },
+      {
+        "t": "50 Jahre im Betrieb",
+        "d": "Ausgelegt nach   Zeitstandkurven   DIN 8077/8078 na 50 Jahre Betriebsdauer: pflegeleicht, verschleißfest, alterungsbeständig."
+      },
+      {
+        "t": "Zurück u   Kreislauf",
+        "d": "Recycling Code 5: sortenrein trennbar kod hoher Nachfrage nach PP-Rezyklat. 100 %   Schnittreste i Produktionsabfälle werden recycelt."
+      }
+    ]
+  },
+  "trustx": {
+    "stakeEyebrow": "za Ihr Buying Center",
+    "stakeTitle": "Jede Rolle prüft anders.",
+    "stakeLead": "Ein B2B-Beschaffungsgremium besteht im Schnitt aus 11 do 20 Personen. Technik, Einkauf i Nachhaltigkeit brauchen unterschiedliche Nachweise. Hier ist   Landkarte.",
+    "stakeHead": [
+      "Rolle",
+      "Worauf es ankommt",
+      "Relevante Nachweise"
+    ],
+    "stakeRows": [
+      [
+        "Ingenieur / Fachplaner",
+        "Klase pritiska i Dimenzije (d20–d630), Toxizitätsfreiheit, Schweißbarkeit, Langlebigkeit   Charge",
+        "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Dimensionstabellen"
+      ],
+      [
+        "Einkauf / Procurement",
+        "Lieferfähigkeit, Risikominimierung, harte RFP-Kriterien, Total Cost of Ownership",
+        "ISO 9001 als „Ticket-to-Play\" · QS-Handbuch · GAEB-Texte"
+      ],
+      [
+        "Nachhaltigkeit / Compliance",
+        "CO₂-Bilanz, Scope-1/2/3-Emissionen, Green Procurement, Energieeffizienz   Fertigung",
+        "ISO 14001 · ISO 50001 · EPD (EN 15804) · Scope-3-Daten na Anfrage"
+      ]
+    ],
+    "statEyebrow": "Warum Self Service",
+    "statTitle": "Beschaffung hat sich verändert.",
+    "stats": [
+      {
+        "n": "70",
+        "u": "%",
+        "l": "  B2B-Käufer recherchieren anonym, bevor sie   Vertrieb kontaktieren"
+      },
+      {
+        "n": "11–20",
+        "u": "",
+        "l": "Stakeholder bilden   typische Buying Center eines Projekts"
+      },
+      {
+        "n": "87",
+        "u": "",
+        "l": "Touchpoints kann eine B2B-Kaufentscheidung umfassen"
+      },
+      {
+        "n": "50",
+        "u": "%",
+        "l": "  B2B-Kunden kaufen bevorzugt kod nachweislich nachhaltigen Lieferanten"
+      }
+    ],
+    "statNote": "Kennzahlen aus Branchenstudien zur B2B-Beschaffung. Deshalb stehen alle Nachweise hier zum Selbstabruf bereit statt „na schriftliche Anfrage\".",
+    "instEyebrow": "Prüfpartner",
+    "instTitle": "Wer hinter   Nachweisen steht.",
+    "inst": [
+      {
+        "t": "DAkkS-akkreditierte Prüfung",
+        "d": "  ISO-Sertifikati 9001, 14001 i 50001 stammen od einer durch   Deutsche Akkreditierungsstelle (DAkkS) akkreditierten Zertifizierungsgesellschaft: Gültigkeit 10/2025 do 10/2028."
+      },
+      {
+        "t": "SKZ: Süddeutsches Kunststoff-Zentrum",
+        "d": "  Qualitätssicherung   Rohrsysteme wird durch   renommierte Kunststoff-Prüfinstitut begleitet: unabhängige Prüfungen statt Eigenlob."
+      },
+      {
+        "t": "DVGW / KTW: Trinkwasserkontakt",
+        "d": "Konformitätsnachweise za   Kontakt sa Pijaća voda gehören zum RFP-Dokumentenpaket i werden na Anfrage bereitgestellt."
+      }
+    ],
+    "auditEyebrow": "Audit-Fahrplan",
+    "auditTitle": "od   Anfrage zur Freigabe.",
+    "auditLead": "So läuft eine Lieferantenqualifizierung sa K Aqua: planbar i ohne Wartezeiten.",
+    "audit": [
+      {
+        "t": "Dokumentenpaket schnüren",
+        "d": "Stellen Sie oben Ihr RFP-Paket zusammen: Sertifikati, GENAU-Politik, EPD, GAEB i QS-Handbuch, als ZIP angefordert."
+      },
+      {
+        "t": "Rückfragen klären",
+        "d": "Qualität i technischer Support antworten unter support@k-aqua.de, innerhalb eines Werktags."
+      },
+      {
+        "t": "Werksaudit vereinbaren",
+        "d": "Auditieren Sie Fertigung, Prüflabor i GENAU-Praxis vor Ort u Waldsolms: Termin nach Vereinbarung."
+      },
+      {
+        "t": "Freigabe & Requalifizierung",
+        "d": "Nach   Listung begleiten Überwachungsaudits   3-Jahres-Zyklus   Sertifikati. Ihre Unterlagen bleiben aktuell."
+      }
+    ],
+    "faqEyebrow": "Compliance-FAQ",
+    "faqTitle": "  häufigsten Prüffragen.",
+    "faq": [
+      {
+        "q": "Wie lange sind   ISO-Sertifikati gültig?",
+        "a": "Drei Jahre.   aktuelle Zyklus läuft od 10/2025 do 10/2028, begleitet od jährlichen Überwachungsaudits   Zertifizierungsgesellschaft."
+      },
+      {
+        "q": "Was bedeutet „DAkkS-akkreditiert\"?",
+        "a": "  Deutsche Akkreditierungsstelle (DAkkS) ist   nationale Akkreditierungsstelle Deutschlands. Sie überwacht   Zertifizierungsgesellschaften selbst.   Akkreditierung macht   Zertifikat international belastbar."
+      },
+      {
+        "q": "Wie verifiziere ich ein Zertifikat?",
+        "a": "Jedes Zertifikat trägt eine Zertifikat-Nummer (z. B. Q-2025-6732) i   ausstellende Stelle. sa beiden Angaben lässt sich   Gültigkeit direkt kod   Zertifizierungsgesellschaft prüfen. ili Sie fragen unter support@k-aqua.de an."
+      },
+      {
+        "q": "Gibt es Scope-3- i EPD-Rohdaten?",
+        "a": "Ja, Scope-3-Emissionsdaten i EPD-Rohdaten stellen wir na Anfrage bereit. Proaktive Transparenz statt Pflichterfüllung: Ihr Nachhaltigkeits-Team erhält belastbare Zahlen za   eigene Bilanz."
+      },
+      {
+        "q": "Liefern Sie GAEB-Ausschreibungstexte?",
+        "a": "Ja, GAEB-Texte gehören zum RFP-Dokumentenpaket. Damit wandert   K Aqua-System ohne Reibung u Ihre AVA-Software i   Leistungsverzeichnisse."
+      },
+      {
+        "q": "Was ist eine EPD nach EN 15804?",
+        "a": "Eine Umweltproduktdeklaration (Typ III) sa geprüften Ökobilanzdaten über   Lebenszyklus. Sie ist   Datenbasis za Gebäudezertifizierungen wie LEED, BREEAM i DGNB, i za CO₂-adjustierte Beschaffungsmodelle."
+      }
+    ]
+  },
+  "partnerx": {
+    "ecoEyebrow": "  KESSEL-Ökosystem",
+    "ecoTitle": "Wovon K Aqua-Kunden profitieren.",
+    "ecoLead": "KESSEL hat über Jahrzehnte   Infrastruktur einer Premiummarke aufgebaut. K Aqua bringt dieselbe Haltung u   Wasserversorgung.",
+    "eco": [
+      {
+        "t": "ISH Frankfurt",
+        "d": "KESSEL zeigt Präsenz na   Weltleitmesse   TGA-Branche,   Bühne, na   Entwässerung i Versorgung zusammen gedacht werden."
+      },
+      {
+        "t": "PlanerPortal",
+        "d": "  digitale Plattform za Fachplaner ist   Herzstück   täglichen Planerbindung: Vorbild za   digitalen Alati od K Aqua."
+      },
+      {
+        "t": "KundenForum",
+        "d": "Physische i hybride Schulungen an dedizierten Standorten, unter anderem u Lenting i Hamburg. Wissenstransfer ist Bindung."
+      },
+      {
+        "t": "Planungshandbuch",
+        "d": "  redaktionell gepflegte Planungswissen od KESSEL ist Referenz dafür, wie K Aqua seinen Wissensbereich za Planer ausbaut: od   Akademija do zu   Dimensionstabellen."
+      }
+    ],
+    "flowEyebrow": "Zwei Ströme, ein Gebäude",
+    "flowTitle": "Versorgung rein, Entwässerung raus.",
+    "flowLead": "Jedes Gebäude braucht beide Richtungen.   Partnerschaft deckt   kompletten Wasserweg sa einer gemeinsamen Ingenieurs-DNA ab.",
+    "flow": [
+      {
+        "t": "K Aqua: Leading u Water Supply",
+        "d": "Trinkwasserversorgung d20–d630: Cevi, Fitinzi, Armature i Schweißtechnik, gefertigt u Waldsolms."
+      },
+      {
+        "t": "KESSEL: Leading u Drainage",
+        "d": "  Premiumhersteller   Entwässerungstechnik: Rückstauschutz, Hebeanlagen, Abscheider.   Autorität   TGA-Branche."
+      },
+      {
+        "t": "Gemeinsames Gewerk",
+        "d": "Planer i Verarbeiter arbeiten sa einer Wertegemeinschaft: gleiche Qualitätsphilosophie, abgestimmter Support, kurze Wege."
+      }
+    ],
+    "roadEyebrow": "Gemeinsame Roadmap",
+    "roadTitle": "Vom Schulungsvideo zum Konfigurator.",
+    "road": [
+      {
+        "t": "Akademija & Videos",
+        "d": "Vier Schweißverfahren als Videodokumentation plus Quiz: heute verfügbar, baustellenoptimiert.",
+        "s": "Heute"
+      },
+      {
+        "t": "Schweißtechnik-Support",
+        "d": "Geräte, Alati i Einweisung za Ihre Kolonne, direkt vom Hersteller.",
+        "s": "Heute"
+      },
+      {
+        "t": "Digitale Planungswerkzeuge",
+        "d": "Pretraga proizvoda, CO₂-Rechner i Trust Center als Self Service, im Ausbau nach dem Vorbild PlanerPortal.",
+        "s": "Im Ausbau"
+      },
+      {
+        "t": "Parametrischer Rohrnetz-Konfigurator",
+        "d": "  Perspektive: Rohrnetze parametrisch konfigurieren i direkt u Stückliste i Anfrage überführen.",
+        "s": "Perspektive"
+      }
+    ],
+    "specEyebrow": "za Ihre Spezifikation",
+    "specTitle": "Daten dahin, wo entschieden wird.",
+    "specLead": "  Produktspezifikation entscheidet sich u AVA- i CAD-Software. Dort liefern wir hin.",
+    "spec": [
+      {
+        "t": "GAEB-Ausschreibungstexte",
+        "d": "Fertige Texte za Ihr Leistungsverzeichnis: Teil des RFP-Pakets im Trust Center."
+      },
+      {
+        "t": "BIM- & CAD-Daten",
+        "d": "Planungsdaten za   modellbasierte Arbeit, na Anfrage über   Vertrieb, Ausbau läuft."
+      },
+      {
+        "t": "Datenblätter & Muster",
+        "d": "Produktkatalog i Eigenschaften als PDF, Muster i Projektberatung direkt vom Werk."
+      }
+    ]
+  }

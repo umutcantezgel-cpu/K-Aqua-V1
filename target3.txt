@@ -1,0 +1,61 @@
+    "singapur": {
+      "regulator": "PUB",
+      "water": "NEWater och avsaltat vatten.",
+      "focus": [
+        "Public Housing (HDB)",
+        "Datacenter",
+        "Halvledarindustri"
+      ],
+      "note": "PUB-godkända system.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Stadsstaten kräver extrem utrymmeseffektivitet..."
+    },
+    "kualalumpur": {
+      "regulator": "SPAN",
+      "water": "Tropiskt ytvatten, hög luftfuktighet.",
+      "focus": [
+        "Kylsystem",
+        "Blandad bebyggelse",
+        "Infrastruktur"
+      ],
+      "note": "SPAN-listning krävs.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Malaysia genomgår en snabb modernisering..."
+    },
+    "mumbai": {
+      "regulator": "BIS",
+      "water": "Oregelbunden vattenförsörjning, höga tryckstötar.",
+      "focus": [
+        "Sjukhus & Läkemedel",
+        "Höghus",
+        "Smart Cities"
+      ],
+      "note": "BIS-konformitet projektbaserad.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Indiens infrastruktur kräver robusta och stötsäkra system..."
+    },
+    "kapstadt": {
+      "regulator": "SABS / SANS",
+      "water": "Vattenbrist, fokus på läckagefria system.",
+      "focus": [
+        "Sjukhus",
+        "Bostadsutveckling",
+        "Vingårdar"
+      ],
+      "note": "SABS-standarder.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Sydafrika fokuserar på maximal vattensäkerhet..."
+    },
+    "nairobi": {
+      "regulator": "KEBS",
+      "water": "Blandning av ytvatten och grundvatten.",
+      "focus": [
+        "Affordable Housing",
+        "Offentliga byggnader",
+        "Kliniker"
+      ],
+      "note": "Östafrikansk knutpunkt.",
+      "focusHeading": "Typiska Projekt",
+      "extendedMarketText": "Kenyas snabba tillväxt kräver tillförlitliga VVS-lösningar..."
+    }
+  },

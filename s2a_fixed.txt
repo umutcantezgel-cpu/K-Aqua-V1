@@ -1,0 +1,327 @@
+  "nextLead": "Se hvordan disse materialefordele konkretiseres i K Aqua produktprogrammet.",
+  "nextCta": "Til produktprogrammet",
+  "krankenhaus": {
+    "sticky": {
+      "items": [
+        {
+          "title": "Legionella-forebyggelse på molekylært niveau",
+          "desc": "I kritisk hospitalsinfrastruktur er vandhygiejne et spørgsmål om overlevelse. Vores PP-R rørsystemer har porefrie overflader, der fysisk forhindrer biofilm."
+        },
+        {
+          "title": "Termisk desinfektion uden materialetræthed",
+          "desc": "Kliniske standarder kræver termisk desinfektion ved over 70°C. K Aqua PPR-systemet er designet til ekstreme termiske belastninger i årtier."
+        },
+        {
+          "title": "Absolut uigennemtrængelighed for lys",
+          "desc": "Vand i mørke er dødt vand for alger. Vores PP-R rør blokerer 100% lys, hvilket fratager mikroorganismer basis for liv."
+        },
+        {
+          "title": "Hurtig, vibrationsfri installation",
+          "desc": "Ved hospitalstilbygninger under drift er støj uacceptabelt. Vores polyfusionsteknologi skaber permanente samlinger på få sekunder – helt lydløst."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Phase 01",
+          "title": "Systemdimensionierung & Hydraulik",
+          "text": "Präzise Berechnung der Leitungsquerschnitte zur Vermeidung von Stagnationszonen. Jeder Millimeter Druckverlust wird in der Planungsphase durch unsere deutschen Ingenieure am digitalen Zwilling simuliert und eliminiert."
+        },
+        {
+          "year": "Phase 02",
+          "title": "Materialspezifikation",
+          "text": "Auswahl der spezifischen K Aqua Polymerblends, optimiert für klinische Anforderungen. Unsere Rohstoffe durchlaufen 42 Qualitätssicherungsschritte, bevor sie überhaupt den Extruder erreichen."
+        },
+        {
+          "year": "Phase 03",
+          "title": "Vorfertigung & Reinraum-Handling",
+          "text": "Vorkonfektionierung von komplexen Verteilern in kontrollierten Umgebungen. Minimierung der Schweißnähte auf der Baustelle garantiert eine bis zu 40% schnellere, fehlerfreie Installation unter Reinraumbedingungen."
+        },
+        {
+          "year": "Phase 04",
+          "title": "Inbetriebnahme & Prüfung",
+          "text": "Vollständige hydrostatische Druckprüfung und thermische Initialdesinfektion. Die Übergabe an den Generalunternehmer erfolgt mit einer lückenlosen, digitalen Dokumentation jeder einzelnen Schweißnaht."
+        },
+        {
+          "year": "Phase 05",
+          "title": "50 Jahre Wartungsfreiheit",
+          "text": "Nach der Inbetriebnahme verschwindet das System in der Wand und verrichtet lautlos und absolut zuverlässig seinen Dienst, garantiert für mindestens 50 Jahre ohne jegliche Materialermüdung."
+        }
+      ]
+    },
+    "hero": {
+      "eyebrow": "Hygiejne Infrastruktur",
+      "title1": "Nul.",
+      "title2": "Tolerance.",
+      "desc": "Når vandkvalitet beskytter menneskeliv. K Aqua leverer fuldstændig fri for døde rum, korrosions-immune PP-R rørsystemer til klinisk infrastruktur.",
+      "cta1": "Start klinikprojekt",
+      "cta2": "Læs hygiejnerapport"
+    },
+    "intro": {
+      "title": "Hvor én dråbe vand <br className=\"hidden md:block\"/> kan få systemet til at kollapse.",
+      "desc": "Totalentreprenører står over for et uløseligt paradoks i klinikprojekter: Enormt tidspres under byggeriet møder de strengeste hygiejnekrav. Et eneste dødt rum, en mikrorevne: og millioninvesteringer er i fare. Vi løser dette paradoks."
+    },
+    "stickySection": {
+      "eyebrow": "Technologische Überlegenheit",
+      "title": "Die Anatomie der Sicherheit.",
+      "lead": "Wir betrachten ein Krankenhaus nicht als Gebäude, sondern als biologischen Organismus. Das K Aqua System ist sein unzerstörbares Gefäßsystem. Jeder Millimeter unserer Rohrleitungen ist auf absolute Ausfallsicherheit kalibriert."
+    },
+    "bentoSection": {
+      "eyebrow": "ROI & Lebenszyklus",
+      "title": "Wirtschaftlichkeit durch Perfektion.",
+      "lead": "Qualität ist kein Kostenfaktor, sondern der einzige Weg zur Profitabilität in der Gebäudeautomation. K Aqua minimiert die Total Cost of Ownership auf ein beispielloses Niveau und garantiert gleichzeitig maximale Patientensicherheit."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Ingen korrosion",
+          "desc": "Sygdomsfremkaldende stoffer kan ikke sætte sig i korrosionshuller, og tungmetaller frigives ikke."
+        },
+        {
+          "title": "Homogen sammensmeltning",
+          "desc": "Der er ingen o-ringe, der kan ældes eller koloniseres af bakterier.",
+          "badge": "-40% Time"
+        },
+        {
+          "title": "Toksikologisk harmløs",
+          "desc": "Opfylder de højeste medicinske standarder. Vandets smag og lugt forbliver uberørt.",
+          "badge": "Seismic Grade"
+        },
+        {
+          "title": "Ingen døde rum",
+          "desc": "Flowoptimerede fittings forhindrer stagnerende vand, hvor patogener kan formere sig."
+        }
+      ]
+    },
+    "timelineSection": {
+      "title": "Der K Aqua Standard.",
+      "desc": "Von der ersten CAD-Zeichnung bis zum letzten Wassertropfen ist unser Prozess eine Symphonie der Präzision, die keinen Raum für Zufälle lässt."
+    },
+    "specs": {
+      "eyebrow": "Spezifikationen",
+      "title": "Die harten Fakten.",
+      "lead": "Für Ingenieure, Planer und Architekten: Die physikalischen und chemischen Grenzwerte unseres Systems für den klinischen Einsatz. Transparenz ist die Basis für Vertrauen.",
+      "therm": {
+        "title": "Thermische Belastbarkeit",
+        "items": [
+          {
+            "label": "Dauerbetriebstemperatur",
+            "value": "70°C"
+          },
+          {
+            "label": "Maximale Störfalltemperatur",
+            "value": "95°C (100h)"
+          },
+          {
+            "label": "Wärmeleitfähigkeit",
+            "value": "0.24 W/mK"
+          },
+          {
+            "label": "Linearer Ausdehnungskoeffizient",
+            "value": "0.15 mm/mK"
+          }
+        ]
+      },
+      "mech": {
+        "title": "Mechanische Eigenschaften",
+        "items": [
+          {
+            "label": "Dichte",
+            "value": "0.895 g/cm³"
+          },
+          {
+            "label": "Zugfestigkeit",
+            "value": "23 MPa"
+          },
+          {
+            "label": "Bruchdehnung",
+            "value": "> 50%"
+          },
+          {
+            "label": "Elastizitätsmodul",
+            "value": "800 MPa"
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM & CAD Ressourcen",
+      "desc": "Laden Sie detaillierte Revit-Familien, AutoCAD-Dateien und vollständige hydraulische Datensätze für Ihre Gebäudeinformationsmodellierung (BIM) herunter. Millimetergenaue Planungssicherheit für Ihr Projekt.",
+      "cta": "Zum Download-Center"
+    },
+    "cta": {
+      "eyebrow": "Next Steps",
+      "title": "Sikre kliniske vandforsyninger.",
+      "desc": "Samarbejd med os for at designe et rørsystem, der overgår fremtidens hospitalsstandarder.",
+      "button": "Kontakt hygiejneeksperter"
+    }
+  },
+  "hotels": {
+    "hero": {
+      "eyebrow": "Gæstfrihedens Infrastruktur",
+      "title1": "Perfekt tryk.",
+      "title2": "Total stilhed.",
+      "desc": "K Aqua garanterer jævnt vandtryk, absolut akustisk ro og fejlfri hygiejne for de mest krævende resort- og hotelprojekter.",
+      "cta1": "Udforsk hotelløsninger",
+      "cta2": "Læs casestudiet"
+    },
+    "intro": {
+      "title1": "Sand luksus",
+      "title2": "er usynlig.",
+      "titleGrad": "Og uhørlig.",
+      "desc": "Vores højdensitets PP-R polymerer eliminerer flowstøj, forhindrer termisk tab og garanterer mikrobiologisk renhed."
+    },
+    "bentoSection": {
+      "eyebrow": "Die Anatomie der Perfektion",
+      "title": "Spezifikationen, die den Industriestandard dekonstruieren.",
+      "lead": "Wir haben jedes Element der klassischen Rohrleitung hinterfragt und durch materialwissenschaftliche Meisterleistungen ersetzt."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Elimineret Vandhammerslag",
+          "desc": "Vores rørsystemer udjævner automatisk trykstød i netværket, hvilket beskytter dyre armaturer."
+        },
+        {
+          "title": "Ingen Skjulte Lækager",
+          "desc": "Molekylært svejste samlinger sikrer, at der ikke opstår vandskader bag marmorfliserne."
+        },
+        {
+          "title": "Renhed fra Kilde til Hane",
+          "desc": "Fuldt beskyttet mod korrosion. Drikkevandet bevarer sin absolutte smagsneutralitet."
+        },
+        {
+          "title": "Reduceret Vedligeholdelse",
+          "desc": "Ingen rust, ingen slidte o-ringe. Dette sænker hotellets driftsomkostninger betydeligt."
+        }
+      ]
+    },
+    "textSection": {
+      "title": "Die Ingenieurskunst hinter der Stille",
+      "p1": "In Wolkenkratzern und weitläufigen Resort-Anlagen herrschen extreme physikalische Bedingungen. Wasserdruck, der hunderte Meter in die Höhe gepumpt wird. Temperaturdifferenzen, die traditionelle Materialien an ihre Belastungsgrenzen bringen.",
+      "p2": "Traditionelle Kupfersysteme weisen bei hohen Fließgeschwindigkeiten signifikante Erosionserscheinungen auf. Die Kavitation, verursacht durch Druckschwankungen in Steigleitungen von Hochhaushotels, führt unweigerlich zu Mikrorissen, Lochfraß und letztlich zu katastrophalen Wasserschäden, die ganze Etagen lahmlegen können. Für einen Hotelbetreiber bedeutet dies nicht nur massive Sanierungskosten, sondern einen irreparablen Reputationsverlust.",
+      "p3": "K Aqua geht einen radikal anderen Weg.",
+      "p4": "Unsere Systeme basieren auf Polypropylen Random Copolymerisat (PP-R) der neuesten Generation. Durch einen hochkomplexen Extrusionsprozess in unserem deutschen Stammwerk richten wir die Polymerketten so aus, dass sie eine beispiellose Kombination aus Flexibilität und extremer Druckresistenz aufweisen. Wenn es im System zu Druckschlägen (Water Hammer) kommt, fängt das Material diese kinetische Energie elastisch ab, anstatt sie als akustischen Schock oder mechanischen Riss an die Bausubstanz weiterzugeben.",
+      "h3": "Homogene Schweißverbindungen: Das Ende der Leckage",
+      "p5": "Det svageste led i ethvert rørsystem er samlingen. Gevind korroderer, tætningsringe bliver porøse, limforbindelser trænges af termisk cyklus.",
+      "p6": "Wir nutzen das Prinzip der molekularen Fusion. Rohr und Fitting werden thermisch auf exakt 260°C erhitzt und anschließend zusammengefügt. Innerhalb von Sekundenbruchteilen verschmelzen die Polymerketten beider Bauteile zu einer unzertrennlichen, monolithischen Einheit. Das Resultat: Es gibt keine \"Verbindung\" mehr. Rohr und Fitting sind ein einziges, durchgehendes Stück Material. Ohne Dichtung, ohne Schwachstelle, mit einer Ausfallsicherheit von 100%."
+    },
+    "stickySection": {
+      "eyebrow": "Die 4 Säulen",
+      "title": "Et mesterværks DNA.",
+      "lead": "Hvordan vi løser de største udfordringer inden for moderne hotelinfrastruktur gennem radikal ingeniørkunst."
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "Akustisk Usynlighed",
+          "p1": "I omfattende hotelnetværk kan stagnerende vand i midlertidigt ubrugte suiter blive en dødelig fælde. Legionella spreder sig i biofilm, der dannes på ru rørvægge.",
+          "p2": "Den mikroskopiske overfladeruhed af K Aqua PP-R er 0,007 mm. Der er ingen porer, ingen nicher, ingen forankringspunkter. I kombination med termisk desinfektion tilbyder vi det mest sterile miljø, der er fysisk muligt.",
+          "desc": "K Aqua polymerer absorberer strømningsstøj markant takket være deres lavere densitet og iboende elasticitet."
+        },
+        {
+          "title": "Konstant, Perfekt Tryk",
+          "p1": "Hver decibel tæller. I luksusresorts må toiletskyl eller brusebad i nabosuiten ikke kunne mærkes.",
+          "p2": "På grund af den høje tæthed i vores kompositmateriale (K Aqua glasfiberforstærket) og den høje interne dæmpningsfaktor reducerer vi strukturstøj med op til 80 % sammenlignet med metalsystemer. En forskel dine gæster ikke vil høre.",
+          "desc": "Ingen inkrustation betyder, at rørets tværsnit bevares 100%. Gæsterne oplever en kraftfuld bruseoplevelse på alle etager."
+        },
+        {
+          "title": "Ekstrem Energieffektivitet",
+          "p1": "Hoteller med 80, 100 eller 120 etager stiller ekstreme krav til stigrørene. Det hydrostatiske tryk i bunden af bygningen er enormt.",
+          "p2": "K Aqua tilbyder specielle trykklasser (SDR 6 / PN 20) i kombination med fiberforstærkning, der garanterer en levetid på over 50 år under kontinuerlig belastning selv ved temperaturer på 70°C. Vi overvinder tyngdekraften.",
+          "desc": "Vandet forbliver varmt længere, kondens elimineres, og isoleringsomkostningerne reduceres drastisk."
+        },
+        {
+          "title": "Hurtig Etage-Installation",
+          "p1": "I ørkenregioner som Dubai eller Riyadh er kulde det dyreste aktiv. Fjernkølingssystemer transporterer koldt vand over lange afstande til resortet.",
+          "p2": "PP-R's fremragende isoleringsværdier forhindrer kondensdannelse og minimerer køletab massivt. Ingen gennemtærede kølerør mere, ingen dryppende lofter. Kun ren, uforfalsket effektivitet.",
+          "desc": "Termisk polyfusionssvejsning og den lave materialevægt fremskynder montage og etagefordeling betydeligt."
+        }
+      ]
+    },
+    "perf": {
+      "items": [
+        {
+          "val": "0.007",
+          "unit": "mm",
+          "title": "Overfladeruhed",
+          "desc": "Absolut modstandsdygtighed over for biofilm og inkrustation."
+        },
+        {
+          "val": "100",
+          "unit": "%",
+          "title": "Homogen Fusion",
+          "desc": "Svejseforbindelser, der smelter sammen på molekylært niveau."
+        },
+        {
+          "val": ">50",
+          "unit": "J",
+          "title": "Års levetid",
+          "desc": "Testet og godkendt efter de strengeste ISO-standarder."
+        },
+        {
+          "val": "0",
+          "unit": "dB",
+          "title": "Vedligeholdelseskrav",
+          "desc": "Installer, forsegl og glem for evigt."
+        }
+      ]
+    },
+    "timelineSection": {
+      "title": "Referencer der skriver historie.",
+      "desc": "Fra kunstige øer i Den Persiske Golf til de mest eksklusive skisportssteder i Alperne. Hvor det umulige bygges, er K Aqua allerede på plads."
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Dubai",
+          "title": "The Palm Jumeirah Ultra-Luksus Resort",
+          "text": "Udstyr af 800 suiter og 4 enorme poolområder. Ekstrem saltholdighed og omgivelsestemperaturer på op til 50°C krævede maksimal termisk og kemisk modstandsdygtighed. K Aqua leverede hele kold- og varmtvandsnettet, inklusive fjernkølingsforbindelsen."
+        },
+        {
+          "year": "Schweiz",
+          "title": "Alpine Retreat St. Moritz",
+          "text": "Et 6-stjernet resort i 2.000 meters højde. Udfordringen: Ekstrem risiko for frost under byggefasen og maksimale krav til lydisolering. Vores PP-R fiberkompositrør absorberede termiske længdeændringer suverænt og garanterede lydløs drift."
+        },
+        {
+          "year": "Singapur",
+          "title": "Lodret Skov Hotel",
+          "text": "Et 65-etagers mesterværk inden for økologisk arkitektur. Det komplekse vandingssystem til tusindvis af altanplanter og hele drikkevandsinfrastrukturen blev realiseret med K Aqua. Den homogene svejseteknik reddede bygningen fra mikroskopiske lækager."
+        },
+        {
+          "year": "Malediven",
+          "title": "Nul-Emission Ø-resort",
+          "text": "Bygget direkte over revet var absolut miljøkompatibilitet et krav. K Aqua rør er 100 % genanvendelige, frigiver ikke mikroplast eller tungmetaller og kan modstå den stærkt korrosive, salte havluft uden slitage."
+        },
+        {
+          "year": "Zukunft",
+          "title": "Dit næste megaprojekt",
+          "text": "Arkitekturens grænser skubbes dagligt. Vi er klar til at støbe fundamentet for dine dristigste visioner. Med teknologi, der er årtier forud for sin tid."
+        }
+      ]
+    },
+    "research": {
+      "eyebrow": "Forschung & Entwicklung",
+      "title": "Uforgængelighedens kemi.",
+      "desc": "Vores F&U-afdeling i Tyskland arbejder utrætteligt på at perfektionere polymermatrixen. Ved at tilføje proprietære additiver og specielle glasfiberforbindelser ekstruderer vi rør, der har en ekstrem lav lineær udvidelse, der kan sammenlignes med metalrør, men uden deres iøjnefaldende ulemper.",
+      "items": [
+        "Reduceret lineær udvidelse (alfa-værdi: 0,035 mm/mK)",
+        "Forøget flowtværsnit gennem tyndere vægtykkelser på samme trykniveau",
+        "Komplet modstandsdygtighed over for klorforbindelser i hotellets poolområde",
+        "Toksikologisk fuldstændig ufarlig, fødevaresikker testet"
+      ]
+    },
+    "certs": {
+      "eyebrow": "Compliance & Zertifizierungen",
+      "title": "De hårdeste standarder i verden? Vi overgår dem.",
+      "lead": "Internationale projekter kræver internationale godkendelser. K Aqua er testet, godkendt og frigivet på verdensplan af de strengeste regulatoriske myndigheder."
+    },
+    "cta": {
+      "title": "Byg et ophold i verdensklasse.",
+      "desc": "Integrer det mest pålidelige VVS-system til dine gæster og minimer driftsomkostninger.",
+      "button1": "Få projektet evalueret",
+      "button2": "Direkte kontakt til salg",
+      "button": "Kontakt vores Hospitality-team"
+    }
+  }

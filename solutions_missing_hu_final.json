@@ -1,0 +1,247 @@
+{
+  "vorfertigung": {
+    "meta": {
+      "title": "Ipari Előgyártás | K-Aqua",
+      "desc": "K-Aqua Előgyártás: Maximális pontosság és sebesség német mérnöki munkával. Ismerje meg ipari megoldásainkat."
+    },
+    "hero": {
+      "badge": "K-Aqua Előgyártás (Prefabrication)",
+      "eyebrow": "Ipari Előgyártás",
+      "title1": "Milliméteres pontosság.",
+      "title2": "Telepítés másodpercek alatt.",
+      "desc": "Amikor az építkezéseken szűkös az idő, és a minőség-ellenőrzés kulcsfontosságú, mi áthelyezzük a komplexitást a gyárba. A K-Aqua Előgyártás Plug & Play rendszereket szállít, milliméteres pontossággal hegesztve, és pontosan időben a világ bármely pontjára leszállítva.",
+      "cta1": "Előgyártás ajánlatkérés",
+      "cta2": "Katalógus letöltése"
+    },
+    "intro": {
+      "eyebrow": "A paradigmaváltás",
+      "title": "Az építkezés nem helyszíne a kísérletezésnek.",
+      "lead": "A komplex elosztók helyszíni hegesztése kiszámíthatatlan kockázatokat rejt: por, ingadozó hőmérséklet és szűkös hely. A K-Aqua eliminálja ezeket a változókat.",
+      "p1": "A nagy projektek esetében az építkezésen az idő az egyik legnagyobb költségtényező. Képzett telepítőkkel végezni a hegesztést rossz időjárás, szűk aknák és feszített határidők mellett – ez hibákhoz és késésekhez vezet.",
+      "p2": "Az előregyártással ezeket a kockázatokat áthelyezzük egy ellenőrzött környezetbe. A németországi üzemünkben található mérnökeink átveszik a csőhálózati terveket (CAD/BIM), és mikrométeres pontosságú, teljesen hegesztett, tesztelt csomópontokat építenek.",
+      "quote": "Nem csupán csöveket szállítunk. Plug-and-play infrastruktúrát szállítunk.",
+      "p3": "Tapasztalataink szerint az előregyártott elosztók telepítési ideje az építkezésen akár 70%-kal is csökkenhet. Kevesebb hulladék, kevesebb szerszámigény a helyszínen, és garantált nulla hibaarány a gyári nyomáspróbáknak köszönhetően."
+    },
+    "sticky": {
+      "eyebrow": "Mérnöki Pontosság",
+      "title": "A Gyárból az Építkezésre.",
+      "lead": "Minden modul egyedi gyártású. Nincs helye az improvizációnak. Ezt garantálja az ipari előregyártás.",
+      "items": [
+        {
+          "title": "BIM Tervezés",
+          "desc": "A 3D modell alapján pontos gyártási rajzokat készítünk, elkerülve az ütközéseket már a tervezés során."
+        },
+        {
+          "title": "Klímaszabályozott Hegesztés",
+          "desc": "Tökéletes feltételek (hőmérséklet, pormentesség) a DVS által minősített hegesztők számára a csúcsminőségű fúzió érdekében."
+        },
+        {
+          "title": "Digitális Nyomáspróba",
+          "desc": "Minden elosztó magas nyomású hidraulikus teszten esik át, dokumentált jegyzőkönyvvel, mielőtt elhagyja a gyárat."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Előnyök",
+      "title": "Miért az előregyártás a jövő?",
+      "lead": "Amikor a határidők szorosak és a szakemberhiány akut, az előregyártás az egyetlen megbízható megoldás.",
+      "b1Title": "Költség- és Időmegtakarítás",
+      "b1Desc": "Minimalizált kivitelezési idő, csökkentett állványzat- és emelőgépköltségek.",
+      "b2Title": "Plug & Play",
+      "b2Desc": "Az előre összeszerelt, kalibrált modulok a helyszínen egyszerűen karimával vagy hegesztéssel csatlakoznak a rendszerhez.",
+      "b3Title": "Minőséggarancia",
+      "b3Desc": "A gyári körülmények között végzett gyártás kiküszöböli a helyszíni környezeti hibákat.",
+      "b4Title": "Nincs Anyagveszteség",
+      "b4Desc": "Pontosan annyi anyagot használunk fel, amennyire szükség van, felesleges hulladék és maradékok nélkül."
+    },
+    "visual": {
+      "title": "A különbség a részletekben rejlik",
+      "desc": "Nézze meg az ipari szabványok szerint hegesztett varratok és az építkezési körülmények közötti különbségeket."
+    },
+    "timeline": {
+      "eyebrow": "A Folyamat",
+      "lead": "Tervezéstől a beépítésig",
+      "t1Year": "01",
+      "t1Title": "Elemzés",
+      "t1Text": "Meglévő tervek vagy BIM modellek átvétele.",
+      "t2Year": "02",
+      "t2Title": "Mérnöki Tervezés",
+      "t2Text": "Részletes 3D gyártási rajzok és alkatrészlisták készítése.",
+      "t3Year": "03",
+      "t3Title": "Gyártás",
+      "t3Text": "Hegesztés, méretellenőrzés és minőségbiztosítás a németországi üzemben.",
+      "t4Year": "04",
+      "t4Title": "Nyomáspróba",
+      "t4Text": "Hitelesített hidraulikus tesztelés minden egyes modulon.",
+      "t5Year": "05",
+      "t5Title": "Kiszállítás",
+      "t5Text": "Biztonságos csomagolás, Just-In-Time szállítás az építkezésre."
+    },
+    "manifesto": {
+      "title": "Nem improvizálunk. Mi tervezünk.",
+      "p1": "Egy építkezés kaotikus lehet. A csőrendszernek azonban nem szabad annak lennie.",
+      "p2": "Az előregyártás biztosítja, hogy a kritikus infrastruktúra mindig azonos, kompromisszumok nélküli német minőségben készüljön el, függetlenül attól, hogy a világ mely pontján építkezik."
+    },
+    "cta": {
+      "title": "Tervezze meg velünk következő projektjét",
+      "desc": "Vegye fel a kapcsolatot mérnökeinkkel az előregyártott megoldásokért.",
+      "btnPrimary": "Ajánlatkérés",
+      "btnSecondary": "Tudjon meg többet"
+    }
+  },
+  "hochhaus": {
+    "meta": {
+      "title": "Magasépület Infrastruktúra | K-Aqua",
+      "desc": "K-Aqua Magasépületek: Maximális megbízhatóság német mérnöki munkával a felhőkarcolók számára. Fedezze fel épületgépészeti megoldásainkat."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "A Magasépületek Kihívásai",
+          "desc": "200 méter felett a fizika könyörtelenül érvényesül. A vízvezetékhálózat statikus nyomása az alsóbb szinteken extrém magasságokba emelkedik. Az épületkilengések miatti dinamikus terhelések mikroszkopikus repedéseket okozhatnak a merev rendszerekben. A K-Aqua-t pontosan ezekre a szélsőségekre fejlesztették ki."
+        },
+        {
+          "title": "Súlycsökkentés = Költségcsökkentés",
+          "desc": "Az acél nehéz. Egy 60 emeletes épületben a fém csőhálózat több ezer tonnát tesz ki. A K-Aqua PP-R csövek több mint 70%-kal könnyebbek. Ez nemcsak a telepítést gyorsítja fel, hanem csökkenti az épület szerkezetének statikus terhelését is, ami masszív acél- és betonmegtakarítást eredményez."
+        },
+        {
+          "title": "Abszolút Hangelnyelés",
+          "desc": "A luxus felhőkarcolókban a csend elvárás. A nagy nyomáson lezúduló víz és a szivattyúk rezgése a fémcsöveken keresztül felerősödik (testhang). A PP-R rugalmas mátrixa elnyeli a rezgéseket, így a vízellátás láthatatlan és hangtalan marad."
+        },
+        {
+          "title": "Korrózióvédelem",
+          "desc": "A zárt hűtőkörökben vagy a fűtési rendszerekben a fém oxigénnel érintkezve korrodál. A K-Aqua oxigéndiffúziós gát (Oxyban) technológiája biztosítja, hogy egyetlen oxigénmolekula se hatolhasson be a rendszerbe."
+        }
+      ]
+    },
+    "hero": {
+      "eyebrow": "Skyscraper & Vertical Engineering",
+      "title1": "A Gravitáció",
+      "title2": "Legyőzése.",
+      "desc": "A felhőkarcolók korunk technológiai csodái. Épületgépészeti (MEP) infrastruktúrájuk nem ismerheti a hibázás fogalmát. A K-Aqua kompromisszumot nem ismerő, extrém nyomásálló PP-R csőrendszereket szállít a világ legmerészebb magasépületei számára.",
+      "cta1": "Mérnöki Csapat Kapcsolatfelvétele",
+      "cta2": "Projekt Referenciák"
+    },
+    "text": {
+      "h2": "Mérnöki Munka Extrém Magasságokban",
+      "p1": "Egy 300 méteres felhőkarcoló nem csupán egy épület – ez egy függőleges város. A vízellátó hálózat ennek a városnak az érrendszere. Két alapvető, de egyben gyilkos erőt kell itt leküzdeni: az extrém hidrosztatikus nyomást és a termikus/statikus mozgásokat.",
+      "h3_1": "Nyomás és Rugalmasság (Elastikus Mátrix)",
+      "p1_1": "Hagyományosan vastag falú acélt vagy rezet használnak a magas felszállóvezetékeknél. A probléma: A fém merev. Amikor a vízpumpák hirtelen leállnak vagy elindulnak, óriási nyomáshullámok (vízkalapács) jönnek létre, amelyek szétzúzzák a hegesztési varratokat. Ezenkívül a szélterhelés miatt maga az épület is folyamatosan mozog.",
+      "p1_2": "A K-Aqua Faser (szálerősítésű) SDR 6 csövek, PN20 / PN25 nyomásfokozattal, teljesen új megközelítést alkalmaznak. Képesek elviselni a magas statikus nyomást (akár 25 bar), ugyanakkor az integrált polimer mátrixnak köszönhetően rendelkeznek a szükséges rugalmassággal ahhoz, hogy a hidraulikus ütéseket és az épület mozgását deformálódás nélkül elnyeljék.",
+      "h3_2": "Hidraulikus Áramlásdinamika",
+      "p2": "Az évek során a fémcsövek korrózió és lerakódások miatt érdessé válnak. Nő a csősúrlódási veszteség, szűkül a keresztmetszet, és drasztikusan megnő a szivattyúk energiafogyasztása. A K-Aqua csövek abszolút felületi érdessége mindössze k = 0,007 mm. Ez a tükörsima felület az élettartam során végig állandó marad. Az eredmény: minimális nyomásveszteség, óriási energiamegtakarítás a szivattyúzásnál, valamint teljes higiénia, hiszen sem biofilm, sem legionella nem tud megtapadni.",
+      "stats": [
+        {
+          "label": "Sűrűség (g/cm³)",
+          "val": "0.905",
+          "standard": "ISO 1183"
+        },
+        {
+          "label": "Folyásmutató (g/10 perc)",
+          "val": "0.3",
+          "standard": "ISO 1133"
+        },
+        {
+          "label": "Szakító rugalmassági modulus (MPa)",
+          "val": "800 / 900 (RCT)",
+          "standard": "ISO 527"
+        },
+        {
+          "label": "Hővezető képesség (W/mK)",
+          "val": "0.24",
+          "standard": "DIN 52612"
+        },
+        {
+          "label": "Hőtágulási együttható (mm/mK)",
+          "val": "0.15 (Standard) / 0.035 (Szálerősítésű)",
+          "standard": "DIN 53752"
+        },
+        {
+          "label": "Felületi érdesség, k (mm)",
+          "val": "0.007",
+          "standard": "Tesztpad"
+        },
+        {
+          "label": "Vegyszerállóság",
+          "val": "pH 1 - 14",
+          "standard": "DIN 8078"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Készen áll arra, hogy formálja a jövő városképét?",
+      "desc": "Beszéljen dedikált magasépítési mérnökcsapatunkkal áramlástani számításokról, statikai méretezésről és testreszabott előgyártási megoldásokról a következő megaprojektjéhez.",
+      "button1": "Projekt Ajánlatkérés",
+      "button2": "Műszaki Támogatás Kapcsolatfelvétel"
+    },
+    "intro": {
+      "eyebrow": "Magasépítés",
+      "title": "A függőleges kihívás.",
+      "lead": "A felhőkarcolók extrém követelményeket támasztanak a csőhálózatokkal szemben. Nyomás, hőmérséklet, statika – a K-Aqua rendszer mindezt uralja.",
+      "p1": "Minél magasabb az épület, annál nagyobb a hidrosztatikus nyomás az alsó szinteken. A 100 méternél magasabb épületekben a hagyományos műanyag csövek gyorsan elérik határaikat.",
+      "p2": "A K-Aqua SDR 6 és SDR 7.4 PP-R csövei úgy lettek kialakítva, hogy ellenálljanak ezeknek az extrém nyomásviszonyoknak, akár PN25 (25 bar) értékig, folyamatos működés mellett.",
+      "quote": "Nem csupán vizet szállítunk. Biztonságot építünk a magasba.",
+      "p3": "Rendszereink kis súlya drasztikusan csökkenti az épület szerkezetére nehezedő statikus terhelést, és megkönnyíti a szállítást és a telepítést a felső szinteken."
+    },
+    "sticky": {
+      "eyebrow": "Kritikus Tényezők",
+      "title": "Magasépítési követelmények.",
+      "lead": "Minden felhőkarcoló egyedi, de a kihívások azonosak. A K-Aqua mindegyikre választ ad.",
+      "items": [
+        {
+          "title": "Extrém Nyomásállóság",
+          "desc": "Robusztus falvastagságok és polifúziós kötések garantálják a rendszer integritását a legnagyobb hidrosztatikus terhelés alatt is."
+        },
+        {
+          "title": "Zajcsillapítás",
+          "desc": "A PP-R anyag természetes rezgéscsillapító tulajdonságai megakadályozzák az áramlási zajok átterjedését az épület szerkezetére."
+        },
+        {
+          "title": "Korróziómentesség",
+          "desc": "A magas épületekben a rozsda és a vízkő katasztrofális lehet. A PP-R immunis mindkettőre."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Teljesítmény",
+      "title": "Műszaki Adatok a csúcsra",
+      "lead": "Miért választják a vezető építészek a K-Aquát a világ legmagasabb épületeihez?",
+      "b1Title": "Könnyű Súly",
+      "b1Desc": "Akár 70%-kal könnyebb, mint a fémcsövek, ami jelentősen felgyorsítja a daruzást és az akna-szerelést.",
+      "b2Title": "Rugalmasság",
+      "b2Desc": "A műanyag csövek jobban elnyelik az épület mozgását és a szeizmikus rezgéseket, mint a merev fémrendszerek.",
+      "b3Title": "Alacsony Hőveszteség",
+      "b3Desc": "A PP-R kiváló szigetelő, így csökken a hűtési/fűtési energiaveszteség a hosszú felszállóvezetékeken.",
+      "b4Title": "Gyors Hegesztés",
+      "b4Desc": "A polifúzió percek alatt elvégezhető, felgyorsítva a kivitelezési időt a szoros határidős projekteknél."
+    },
+    "timeline": {
+      "eyebrow": "Telepítés",
+      "lead": "Hatékonyság a magasban",
+      "t1Year": "01",
+      "t1Title": "Logisztika",
+      "t1Text": "Könnyű súlyú csövek szállítása a legfelső szintekre.",
+      "t2Year": "02",
+      "t2Title": "Előkészítés",
+      "t2Text": "Felszállóvezetékek szakaszos hegesztése és rögzítése az aknákban.",
+      "t3Year": "03",
+      "t3Title": "Nyomáspróba",
+      "t3Text": "Szakaszos nyomáspróba a beépítés során.",
+      "t4Year": "04",
+      "t4Title": "Üzembe helyezés",
+      "t4Text": "Teljes rendszer integráció és tesztelés."
+    },
+    "data": {
+      "title": "PP-R SDR 6 a magasépítésben",
+      "desc": "A legkeményebb nyomásosztály a legmagasabb kihívásokhoz.",
+      "value1": "25 Bar",
+      "label1": "Névleges Nyomás",
+      "value2": "-70%",
+      "label2": "Súlycsökkenés",
+      "value3": "50+ Év",
+      "label3": "Élettartam",
+      "value4": "0",
+      "label4": "Korrózió"
+    }
+  }
+}

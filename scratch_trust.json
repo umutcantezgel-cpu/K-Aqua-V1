@@ -1,0 +1,71 @@
+{
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Vertrauen ist",
+    "titleGrad": "messbar.",
+    "lead": "Vertrauen ist messbar. Zertifikate, GENAU-Framework und Audit Dokumente, als Self Service. Kein tagelanges Warten auf manuelle Zusendung.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Qualitätsmanagement"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umweltmanagement"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energiemanagement"
+      ]
+    ],
+    "accred": "DAkkS-akkreditiert",
+    "certNo": "Zertifikat-Nr.",
+    "valid": "Gültig",
+    "download": "Download",
+    "genauEyebrow": "GENAU-Framework",
+    "genauTitle": "Fünf Buchstaben. Ein System.",
+    "genauLead": "Das GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch die fünf Säulen.",
+    "genau": [
+      [
+        "Gesundheit",
+        "Arbeits- und Gesundheitsschutz mit kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
+      ],
+      [
+        "Energie",
+        "Optimierung der Energieeffizienz nach ISO 50001, vom Extruder bis zum geschlossenen Kühlwasserkreislauf."
+      ],
+      [
+        "Nachhaltigkeit",
+        "100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
+      ],
+      [
+        "Arbeitssicherheit",
+        "Prävention und Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
+      ],
+      [
+        "Umwelt",
+        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
+    "rfpLead": "Stellen Sie Ihr Audit- und Ausschreibungspaket selbst zusammen, statt tagelang auf manuelle Zusendung zu warten.",
+    "docs": [
+      "ISO 9001:2015 Zertifikat (DE/EN)",
+      "ISO 14001:2015 Zertifikat (DE/EN)",
+      "ISO 50001:2018 Zertifikat (DE/EN)",
+      "GENAU-Politik & Risikobewertung",
+      "Trinkwasser-Konformität (DVGW/KTW)",
+      "EPD-Datenblätter (Typ III, EN 15804)",
+      "GAEB-Ausschreibungstexte",
+      "Qualitätssicherungs-Handbuch"
+    ],
+    "inPackage": "Dokumente im Paket.",
+    "pickLeft": "Wählen Sie links aus.",
+    "requestZip": "Per Klick als ZIP anfordern:",
+    "requestBtn": "Paket anfordern",
+    "mailSubject": "RFP-Dokumentenpaket",
+    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  }
+}

@@ -1,0 +1,1313 @@
+{
+  "toggle_theme_light": "Beralih ke tema terang",
+  "toggle_theme_dark": "Beralih ke tema gelap",
+  "nav": {
+    "home": "Beranda",
+    "products": "Produk",
+    "finder": "Pencari Produk",
+    "co2": "Kalkulator CO₂",
+    "markets": "Pasar",
+    "trust": "Pusat Kepercayaan",
+    "contact": "Kontak",
+    "quote": "Minta Penawaran",
+    "menu": "Menu",
+    "lang": "Bahasa",
+    "skipToContent": "Lompat ke Konten",
+    "menuPlaceholder": "Tempat Penampung (Mega-Menu)",
+    "academy": "Akademi",
+    "service": "Layanan",
+    "about": "Perusahaan",
+    "solutions": "Solusi",
+    "partners": "Kemitraan",
+    "references": "Referensi",
+    "career": "Karier",
+    "news": "Berita",
+    "knowledge_trust": "Pengetahuan & Kepercayaan",
+    "mapAria": "Buka navigasi peta",
+    "sitemapAria": "Peta Situs",
+    "pipes": "Pipa",
+    "fittings": "Fiting",
+    "valves": "Katup",
+    "accessories": "Aksesori",
+    "tools": "Peralatan"
+  },
+  "groups": {
+    "tools": "Peralatan",
+    "knowledge": "Pengetahuan",
+    "company": "Perusahaan",
+    "products": "Produk",
+    "markets_solutions": "Pasar & Solusi",
+    "knowledge_resources": "Pengetahuan & Sumber Daya"
+  },
+  "regions": {
+    "dach": "DACH",
+    "europa": "Eropa",
+    "nahost": "Timur Tengah",
+    "global": "Afrika & Asia Pasifik"
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman yang diminta tidak ada atau telah dipindahkan.",
+    "backHome": "Kembali ke Beranda"
+  },
+  "menu": {
+    "pipes": "Pipa",
+    "fittings": "Fiting",
+    "transition": "Fiting Transisi",
+    "valves": "Katup & Keran",
+    "tools": "Peralatan Las"
+  },
+  "quote": "Permintaan Proyek",
+  "contact": {
+    "eyebrow": "Kontak",
+    "title1": "Mari bicarakan",
+    "titleGrad": "Proyek Anda.",
+    "locTitle": "Lokasi Jerman",
+    "salesTitle": "Penjualan",
+    "supportTitle": "Kualitas & Dukungan Teknis",
+    "supportText": "Mari bicarakan proyek Anda. Tim Dukungan kami akan membantu pertanyaan teknis terkait perencanaan, material, dan pemrosesan."
+  },
+  "imprint": {
+    "eyebrow": "Hukum",
+    "title": "Impresum",
+    "rows": [
+      ["Perusahaan", "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"],
+      ["Manajemen", "Philipp Nickel, Marcello Gallio"],
+      ["Pengadilan Daftar", "Wetzlar HRB 6732"],
+      ["Lokasi", "Waldsolms"],
+      ["No. PPN", "DE 296238486"],
+      ["Telepon / Faks", "+49 (0)60 85 / 9868-410 · Faks -420"],
+      ["E-Mail", "info@k-aqua.de"]
+    ]
+  },
+  "navigation": {
+    "cookieTitle": "Kami menggunakan cookie",
+    "cookieDesc": "Kami menggunakan cookie untuk meningkatkan pengalaman penelusuran Anda, menyajikan iklan atau konten yang dipersonalisasi, dan menganalisis lalu lintas kami. Dengan mengklik \"Terima Semua\", Anda menyetujui penggunaan cookie kami.",
+    "cookieAccept": "Terima Semua",
+    "cookieDecline": "Tolak Selain yang Esensial"
+  },
+  "home": {
+    "chip": "diuji sejak Oktober 2025",
+    "h1a": "Terdepan di",
+    "h1b": "Sistem Pipa PP-R K-Aqua",
+    "globeAria": "Globe Interaktif, tarik untuk memutar",
+    "scrolly": [
+      {
+        "t": "Diproduksi di Jerman",
+        "d": "Pengembangan dan produksi di lokasi Waldsolms untuk setiap pipa dan fiting."
+      },
+      {
+        "t": "d20 hingga d630",
+        "d": "Sistem yang lengkap: lima tingkat tekanan, fiting, katup, dan teknologi pengelasan."
+      },
+      {
+        "t": "Diuji tiga kali",
+        "d": "ISO 9001, 14001, dan 50001: Kualitas, lingkungan, dan energi dari satu sistem manajemen."
+      },
+      {
+        "t": "27 pasar di seluruh dunia",
+        "d": "Dari Frankfurt hingga NEOM: diuji sesuai dengan standar dan profil air lokal."
+      }
+    ],
+    "lead": "K-Aqua mengembangkan dan memproduksi sistem pipa PP-R dan PP-RCT untuk air minum berukuran 20 hingga 630 mm, bermitra dengan pabrikan premium KESSEL.",
+    "ctaProducts": "Temukan Sistem Produk",
+    "ctaContact": "Hubungi Kami",
+    "toolsEyebrow": "Peralatan Interaktif",
+    "toolsTitle1": "Bukan sekadar teks.",
+    "toolsTitle2": "Peralatan.",
+    "toolsLead": "Situs web ini bekerja untuk Anda: filter, hitung, pelajari.",
+    "bandTitle": "Siap untuk generasi penyediaan air berikutnya?",
+    "bandLead": "Bicarakan dengan tim penjualan kami mengenai proyek Anda, mulai dari perencanaan hingga teknologi pengelasan.",
+    "bandBtn": "Mulai Permintaan Proyek",
+    "bandBtn2": "Unduhan & Layanan"
+  },
+  "news": {
+    "eyebrow": "Berita & Acara",
+    "title1": "Pembaruan dari",
+    "titleGrad": "K Aqua.",
+    "date": "Oktober 2025",
+    "h2": "Kami memiliki tiga sertifikasi ISO",
+    "p": "Sistem manajemen ISO kami telah diperluas dan kini mencakup manajemen kualitas, lingkungan, dan energi:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Sistem Manajemen Mutu"
+      ],
+      [
+        "ISO 14001:2015",
+        "Sistem Manajemen Lingkungan"
+      ],
+      [
+        "ISO 50001:2018",
+        "Sistem Manajemen Energi"
+      ]
+    ],
+    "btnDe": "Sertifikat (DE)",
+    "btnEn": "Sertifikat (EN)",
+    "eventsTitle": "Pameran & Acara",
+    "eventsText": "Kunjungi K Aqua di acara-acara mendatang. Saat ini tidak ada acara yang dijadwalkan. Silakan periksa kembali nanti.",
+    "lead": "Baca berita terbaru dari K Aqua."
+  },
+  "footer": {
+    "tagline": "K-Aqua, pemimpin dalam pasokan air. Sistem pipa PP-R/PP-RCT untuk air minum, diproduksi oleh KWT GmbH di Waldsolms.",
+    "colTools": "Produk & Peralatan",
+    "colCompany": "Perusahaan",
+    "colContact": "Kontak",
+    "directions": "Arah & Lokasi",
+    "rights": "Hak cipta dilindungi undang-undang.",
+    "imprint": "Impresum",
+    "privacy": "Privasi",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Jerman",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Minta Proyek",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Standar Pipa PP-R"
+      },
+      {
+        "t": "Keberlanjutan",
+        "s": "Ramah Lingkungan"
+      },
+      {
+        "t": "Sistem GENAU",
+        "s": "Manajemen Terpadu"
+      },
+      {
+        "t": "Dibuat di Jerman",
+        "s": "Produksi di Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Desain Web oleh Coday",
+        "Sebuah proyek dari Coday Web Agency",
+        "Coday Web Agency",
+        "Didigitalkan oleh Coday"
+      ],
+      "srDesc": "Situs web ini dirancang dan diwujudkan secara teknis oleh Coday Web Agency, pakar desain web dan GEO di Hessen.",
+      "linkTitle": "Ke Coday Web Agency - Desain Web Premium"
+    }
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "dimensi pipa maksimum dalam program"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "tingkat tekanan: SDR 6 / 7.4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Kualitas, Lingkungan & Energi teruji"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "limbah produksi didaur ulang"
+      }
+    ],
+    "heroBadgeLabel": "Dimensi Pipa, SDR 6 hingga SDR 17",
+    "marquee": [
+      "Pemimpin dalam pasokan air",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Diproduksi di Waldsolms",
+      "100 % Daur Ulang",
+      "Mitra: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Pencari Produk",
+        "d": "Filter lebih dari 170 varian artikel secara langsung: dimensi, SDR, ketebalan dinding dalam sekejap.",
+        "cta": "Filter sekarang"
+      },
+      {
+        "id": "co2",
+        "t": "Kalkulator CO₂",
+        "d": "Proyek Anda vs. tembaga, baja tahan karat, dan PVC, dalam setara pohon dan kilometer mobil.",
+        "cta": "Hitung sekarang"
+      },
+      {
+        "id": "academy",
+        "t": "Akademi + Kuis",
+        "d": "Empat metode pengelasan di video, lalu kuis ahli las.",
+        "cta": "Jadi Ahli"
+      },
+      {
+        "id": "references",
+        "t": "Globe Referensi",
+        "d": "Putar planet, temukan proyek: dari Waldsolms ke Singapura.",
+        "cta": "Putar Globe"
+      },
+      {
+        "id": "trust",
+        "t": "Pusat Kepercayaan",
+        "d": "Periksa sertifikat dan kemas paket dokumen permintaan proposal Anda sendiri.",
+        "cta": "Buat paket"
+      },
+      {
+        "id": "career",
+        "t": "Kalkulator Tunjangan",
+        "d": "Apa penghasilan bersih dari tunjangan bebas pajak Anda, plus 60 detik Cocok Budaya.",
+        "cta": "Cek bersih"
+      }
+    ],
+    "vsEyebrow": "Perbedaan",
+    "vsTitle": "Standar industri vs. digital K Aqua.",
+    "vsBadTitle": "Begitulah cara industri",
+    "vsGoodTitle": "Begitulah cara K Aqua",
+    "vsBad": [
+      "Katalog PDF 220 halaman tanpa pencarian",
+      "Sertifikat hanya dengan permintaan tertulis",
+      "Data teknis terkubur dalam lautan tabel",
+      "Halaman karier: hanya kotak masuk"
+    ],
+    "vsGood": [
+      "Pencari Produk: filter dalam hitungan detik",
+      "Pusat Kepercayaan: unduh layanan mandiri",
+      "Kalkulator CO₂ menjadikan data argumen",
+      "Kalkulator Tunjangan + Cocok Budaya"
+    ],
+    "coEyebrow": "Perusahaan",
+    "coTitle1": "Pemasok dan produsen bahan bangunan:",
+    "coTitle2": "dari satu sumber.",
+    "coLead": "KWT GmbH memproduksi pipa dan fiting untuk pasokan air dari berbagai plastik, menempatkan dirinya dalam rantai nilai konstruksi sebagai pemasok dan produsen.",
+    "kesselTitle": "Kemitraan yang kuat dengan KESSEL",
+    "kesselText": "Kemitraan yang erat dan berjangka panjang menghubungkan kami dengan pabrikan premium KESSEL, \"Terdepan dalam drainase\". Kami membawa pengalaman puluhan tahun ini ke masa depan.",
+    "kesselCta": "Lebih lanjut tentang kemitraan",
+    "worldTitle": "Terbukti di Seluruh Dunia",
+    "worldText": "Produk K Aqua telah terbukti tak terhitung jumlahnya selama beberapa dekade di proyek-proyek di seluruh dunia.",
+    "worldCta": "Globe Referensi",
+    "cards": [
+      {
+        "t": "Sistem Manajemen GENAU",
+        "d": "Peningkatan berkelanjutan keselamatan kerja, lingkungan dan kesehatan menurut DIN EN ISO 14001 dan 50001."
+      },
+      {
+        "t": "Manufaktur di Jerman",
+        "d": "Pengembangan dan produksi di lokasi Waldsolms: Kualitas, biaya dan tenggat waktu selalu selaras."
+      },
+      {
+        "t": "Tanggung Jawab Ekologi",
+        "d": "Konservasi sumber daya dan kelestarian lingkungan merupakan bagian integral dari pemahaman kualitas kami."
+      }
+    ],
+    "manifestTitle": "Misi Kami",
+    "manifestText": "Air adalah sumber daya paling berharga kita. Kami melindunginya dengan sistem pipa perintis.",
+    "grEyebrow": "Jangkauan Global",
+    "grTitle1": "Rute Perdagangan",
+    "grTitle2": "Internasional",
+    "grLead": "Dari Jerman ke seluruh dunia: Sistem Pipa K Aqua kami adalah tulang punggung megaproyek paling modern di seluruh dunia. Dari NEOM di Arab Saudi hingga fasilitas industri yang sangat kompleks di Singapura.",
+    "grHqLabel": "Kantor Pusat & Produksi",
+    "grHqValue": "Jerman (Frankfurt)",
+    "grExportLabel": "Pasar Ekspor Inti",
+    "grExportValue": "Arab Saudi (NEOM), UEA, Qatar, Amerika Latin",
+    "grCta": "Temukan proyek di seluruh dunia"
+  },
+  "career": {
+    "eyebrow": "Karier",
+    "title1": "Karier di K-Aqua: Lebih dari",
+    "titleGrad": "sekadar gaji.",
+    "lead": "Hitung berapa banyak manfaat bebas pajak yang dibawa pulang ke pendapatan bersih Anda, dan uji dalam 60 detik apakah K Aqua cocok untuk Anda.",
+    "benEyebrow": "Pengoptimalan Gaji Bersih",
+    "benTitle": "Kalkulator Tunjangan.",
+    "benLead": "Tunjangan bebas pajak dan potongan tarif sering kali lebih efektif daripada kenaikan gaji kotor. Kumpulkan paket Anda:",
+    "benefits": {
+      "sachbezug": [
+        "Kartu Non-tunai",
+        "Benefit non-tunai bebas pajak, dibayarkan bulanan ke kartu Anda."
+      ],
+      "lunch": [
+        "Tunjangan Makan",
+        "Voucher makan digital untuk makan siang & supermarket."
+      ],
+      "internet": [
+        "Tunjangan Internet",
+        "Subsidi untuk penggunaan internet pribadi."
+      ],
+      "jobrad": [
+        "Sewa JobRad",
+        "Sepeda pilihan Anda melalui konversi gaji, hemat dibandingkan dengan pembelian pribadi."
+      ],
+      "kita": [
+        "Tunjangan Penitipan Anak",
+        "Tunjangan penitipan anak bebas pajak."
+      ],
+      "vwl": [
+        "Manfaat Pembentukan Modal",
+        "Kontribusi tabungan bulanan dari pemberi kerja."
+      ]
+    },
+    "resultLabel": "Lebih banyak bersih per bulan",
+    "resultNote1": "Itu setara dengan rata-rata",
+    "resultNote2": "Kenaikan gaji kotor ~{n} €",
+    "resultNote3": "tanpa potongan.",
+    "resultNote4": "(Nilai indikatif, bergantung pada kelas pajak.)",
+    "apply": "Daftar sekarang",
+    "call": "Atau hubungi: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Pencocokan Budaya",
+    "cmTitle": "Apakah K Aqua cocok untuk Anda?",
+    "cmIntro": "Lima pertanyaan jujur tentang cara kerja dan kehidupan sehari-hari di manufaktur. Bukan tes kepribadian, sebuah pemeriksaan realitas.",
+    "cmStart": "Mulai Ujian",
+    "qLabel": "Pertanyaan",
+    "cmQ": [
+      {
+        "q": "Bagaimana Anda lebih suka bekerja?",
+        "o": [
+          "Prosedur jelas, tim terkoordinasi",
+          "Mencoba hal baru setiap hari"
+        ]
+      },
+      {
+        "q": "Seri besar sedang berjalan. Mesin melaporkan deviasi.",
+        "o": [
+          "Segera periksa, temukan akar penyebabnya",
+          "Biarkan berjalan sebentar"
+        ]
+      },
+      {
+        "q": "Apa yang lebih memotivasi Anda?",
+        "o": [
+          "Produk yang bertahan 50 tahun",
+          "Hasil cepat yang terlihat"
+        ]
+      },
+      {
+        "q": "Bekerja shift untuk Anda ...",
+        "o": [
+          "Dapat direncanakan dan tidak masalah",
+          "Agak sulit"
+        ]
+      },
+      {
+        "q": "Hubungan Anda dengan teknologi?",
+        "o": [
+          "Saya ingin mengerti cara benda bekerja",
+          "Yang penting berfungsi"
+        ]
+      }
+    ],
+    "resHigh": "Cocok Kuat. Presisi, keandalan, dan pemahaman teknis: persis profil kami.",
+    "resMid": "Cocok Bagus dengan kebutuhan diskusi. Sebaiknya langsung hubungi dan klarifikasi hari kerja.",
+    "resLow": "Hasil jujur: Pekerjaan manufaktur sehari-hari di K Aqua mungkin bukan lingkungan Anda. Penjualan atau administrasi mungkin lebih cocok.",
+    "sendApp": "Kirim Aplikasi",
+    "again": "Lagi"
+  },
+  "finder": {
+    "eyebrow": "Pencari Produk",
+    "title1": "Bukan lautan PDF.",
+    "titleGrad": "Data Instan.",
+    "lead": "Alih-alih katalog setebal 220 halaman: Filter sistem PP-R/PPRCT secara interaktif. Dimensi, tingkat tekanan, ketebalan dinding, semuanya langsung.",
+    "type": "Jenis Produk",
+    "types": {
+      "mono": "PP-R Monolayer",
+      "fiber": "PPRCT Fiber Composite (GF)",
+      "fitting": "Fiting"
+    },
+    "sdr": "Tingkat Tekanan (SDR)",
+    "maxD": "Maks. Diameter Luar",
+    "upTo": "hingga",
+    "maxDAria": "Diameter luar maksimum dalam milimeter",
+    "found": "Varian artikel ditemukan. Semuanya langsung dengan ketebalan dinding, diameter dalam, dan tekanan nominal.",
+    "catalog": "Katalog (PDF)",
+    "tableHead": [
+      "Tipe",
+      "d (mm)",
+      "SDR",
+      "Dinding (mm)",
+      "di (mm)",
+      "Tekanan Nominal"
+    ],
+    "more": "+ {n} lainnya. Perhalus filter untuk daftar lengkap.",
+    "none": "Tidak ada hasil. Longgarkan filter.",
+    "nextEyebrow": "Berpikir ke Depan",
+    "nextTitle": "Seberapa ramah iklim perencanaan Anda?",
+    "nextLead": "Kirimkan dimensi dan panjang langsung ke kalkulator CO₂ dan bandingkan dengan tembaga, baja tahan karat, dan PVC.",
+    "nextCta": "Ke Kalkulator CO₂"
+  },
+  "trustAndCases": {
+    "eyebrow": "Keamanan Bersertifikat",
+    "title": "Kualitas & Area Aplikasi Terbukti",
+    "lead": "Sebagai pabrikan yang berbasis di Jerman, kami menjamin standar tertinggi. Sistem pipa kami digunakan di seluruh dunia dalam infrastruktur kritis.",
+    "trustTitle": "Bersertifikasi & Teruji",
+    "iso9001": "Manajemen Mutu",
+    "iso14001": "Manajemen Lingkungan",
+    "iso50001": "Manajemen Energi",
+    "madeInGermany": "Dibuat di Jerman",
+    "case1Title": "Pasokan Air Kota",
+    "case1Desc": "Pembaruan jaringan air minum. Penggunaan pipa PPR bebas korosi untuk keamanan pasokan maksimum dengan upaya pemeliharaan minimum.",
+    "case2Title": "Sistem Pendingin Industri",
+    "case2Desc": "Pemasangan pipa berkaliber besar di industri berat. Ketahanan tekanan tinggi dan ketahanan bahan kimia menjamin keandalan.",
+    "case3Title": "Infrastruktur & Teknik Sipil",
+    "case3Desc": "Proyek berskala besar dengan persyaratan ekstrem untuk umur panjang (SDR 11/17). Instalasi cepat dan 100% daur ulang bahan di akhir masa pakainya."
+  },
+  "co2x": {
+    "methEyebrow": "Metodologi",
+    "methTitle": "Begini cara kalkulator menghitung.",
+    "methLead": "Transparansi alih-alih kotak hitam: empat blok bangunan di balik setiap hasil.",
+    "meth": [
+      {
+        "t": "Model massa dari geometri SDR",
+        "d": "Massa pipa mengikuti penampang cincin × panjang × kepadatan (0.905 g/cm³), geometri yang sama seperti pada tabel dimensi."
+      },
+      {
+        "t": "Faktor Material",
+        "d": "Faktor emisi per material adalah nilai demonstrasi untuk perbandingan sistem. Faktor yang mengikat disediakan oleh ecoinvent atau EPD Tipe III spesifik produk menurut EN 15804."
+      },
+      {
+        "t": "Padanan yang Jelas",
+        "d": "Konversi menggunakan penyerapan sekitar 25 kg CO₂ per tahun per pohon dan 0.15 kg CO₂e per kilometer mobil penumpang, besaran yang dipahami semua orang dalam rapat proyek."
+      },
+      {
+        "t": "Jalur yang Dapat Dibuktikan",
+        "d": "Untuk audit dan verifikasi, hanya dokumen yang penting: Lembar data EPD dan data Scope-3 tersedia di Pusat Kepercayaan atau berdasarkan permintaan."
+      }
+    ],
+    "certEyebrow": "Bangunan Hijau",
+    "certTitle": "Di mana angkanya terbayar.",
+    "certLead": "Bukti CO₂ bukan tujuan akhir: itu langsung berkontribusi pada sertifikasi bangunan.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPD menurut EN 15804 berkontribusi pada kredit material. Kalkulator memberikan argumen awal, EPD memberikan buktinya."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Data siklus hidup dari material mengalir ke penilaian, didukung oleh deklarasi Tipe III."
+      },
+      {
+        "t": "DGNB",
+        "d": "Penilaian siklus hidup bangunan menentukan keseluruhan kelompok kriteria. Pemilihan bahan dengan GWP rendah memiliki efek langsung."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: dijelaskan secara singkat",
+    "scopeText": "Scope 1 mencakup emisi langsung dari pabrik, Scope 2 energi yang dibeli, Scope 3 rantai pasokan, termasuk pipa yang Anda beli. Inilah mengapa K Aqua menyediakan data Scope 3 dan data mentah EPD berdasarkan permintaan: transparansi proaktif untuk keseimbangan iklim Anda sendiri.",
+    "statNote": "Dari studi industri: Sekitar setengah dari pelanggan B2B lebih memilih membeli dari pemasok yang terbukti berkelanjutan. Bukti menjadi kriteria pengadaan."
+  },
+  "homedeep": {
+    "plantEyebrow": "Dari pabrik Waldsolms",
+    "plantTitle": "Presisi yang dapat Anda ukur.",
+    "plant": [
+      {
+        "n": "14.000",
+        "u": "m/hari",
+        "l": "Produksi pipa per jalur ekstrusi: Kapasitas untuk proyek berskala besar"
+      },
+      {
+        "n": "0,007",
+        "u": "mm",
+        "l": "Kekasaran dalam permukaan pipa: kehilangan tekanan minimal, hampir tidak ada biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Tahun",
+        "l": "Cakrawala desain berdasarkan kurva mulur DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "Sistem GENAU",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "Sistem GENAU",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Sertifikat dan dokumen audit sebagai layanan mandiri di Pusat Kepercayaan.",
+    "badgeCta": "Ke Pusat Kepercayaan"
+  },
+  "pages": {
+    "catalogOverview": "Ikhtisar Katalog Produk",
+    "products": [
+      "Produk & Fiting",
+      "Temukan sistem pipa plastik lengkap K Aqua dari d20 hingga d630 mm. Pipa PP-R dan PPRCT berperforma tinggi untuk penggunaan rumah tangga dan industri."
+    ],
+    "finder": [
+      "Pencari Produk",
+      "Temukan segera pipa, fiting, atau katup PP-R atau PPRCT yang tepat. Filter katalog kami secara langsung berdasarkan dimensi, kelas tekanan, dan ketebalan dinding."
+    ],
+    "finderGuideText": "<h2>Pencari Produk Interaktif untuk Sistem Pipa K-Aqua</h2><p>Gunakan pencari produk inovatif kami untuk mengidentifikasi komponen yang tepat untuk instalasi perpipaan spesifik Anda. Baik Anda mencari pipa PP-R standar untuk instalasi air minum, pipa PPRCT yang diperkuat serat untuk pabrik industri yang menuntut, atau fiting transisi dan katup khusus – alat kami menyaring seluruh katalog secara real-time. Pencarian produk membantu Anda dalam memilih berdasarkan diameter (d20 hingga d630), kelas tekanan (kelas SDR), dan material.</p><p>Sistem perpipaan yang terstruktur dengan baik memerlukan perencanaan yang tepat dan kombinasi akurat dari pipa, fiting (seperti soket, siku, dan tee) beserta aksesori yang sesuai. Pencari produk kami menghilangkan pencarian yang memakan waktu dalam katalog PDF statis dan sebaliknya memberi Anda data seketika yang dapat diandalkan mengenai nomor artikel, unit pengemasan, dan spesifikasi teknis. Hanya dengan beberapa klik, Anda dapat menyusun daftar material Anda dan memastikan kompatibilitas berbagai komponen untuk sistem pemanas, pendingin, dan air minum. Ini tidak hanya mengoptimalkan proses perencanaan Anda, tetapi juga meminimalkan kesalahan saat memesan bahan untuk proyek konstruksi Anda berikutnya.</p>",
+    "co2": [
+      "Kalkulator CO2",
+      "Bandingkan jejak CO2 pipa plastik PP-R K Aqua dengan tembaga, baja tahan karat, dan PVC. Teruji menurut ISO 14040/44 untuk Green Building."
+    ],
+    "solutions": [
+      "Keunggulan Material",
+      "Pelajari mengapa Polypropylene (PP-R/PPRCT) adalah material unggul untuk pasokan air. Ekologis, maju secara teknis, dan ekonomis."
+    ],
+    "academy": [
+      "K-Aqua Academy: Teknik Pengelasan PP-R dan Keahlian",
+      "Pelajari teknik pengelasan profesional untuk pipa plastik PP-R. Tonton video tutorial dan selesaikan Kuis Master Las kami."
+    ],
+    "trust": [
+      "Pusat Kepercayaan",
+      "Akses dokumentasi kualitas K Aqua. Unduh sertifikat ISO, kerangka kerja GENAU, dan dokumen Audit untuk proyek Anda."
+    ],
+    "service": [
+      "Pusat Layanan & Unduhan",
+      "Unduh katalog produk resmi K Aqua, lembar data teknis, dan panduan instalasi untuk sistem pipa plastik PP-R dan PPRCT."
+    ],
+    "partner": [
+      "Kemitraan KESSEL",
+      "K Aqua dan KESSEL telah dihubungkan oleh kemitraan puluhan tahun yang mentransfer standar manufaktur Jerman dari drainase ke pasokan air."
+    ],
+    "markets": [
+      "Pasar & Lokasi",
+      "K Aqua memasok sistem pipa PP-R di lebih dari 27 negara. Gunakan peta dunia interaktif kami untuk standar lokal, profil air, dan informasi logistik."
+    ],
+    "references": [
+      "Proyek Referensi",
+      "Temukan proyek referensi global dengan sistem pipa PP-R K-Aqua. Globe 3D interaktif kami menunjukkan instalasi rumah tangga, komersial & industri."
+    ],
+    "about": [
+      "Tentang KWT GmbH",
+      "KWT GmbH menggabungkan pengalaman puluhan tahun untuk memproduksi sistem pipa premium K Aqua. Rekayasa Jerman untuk kualitas dan inovasi tertinggi."
+    ],
+    "career": [
+      "Karier di K-Aqua",
+      "Menjadi bagian dari tim kami di Waldsolms. Hitung manfaat bebas pajak bersih Anda dan uji dalam 60 detik apakah K Aqua cocok untuk Anda."
+    ],
+    "news": [
+      "Berita & Acara | Pengumuman Perusahaan K-Aqua",
+      "Tetap perbarui tentang inovasi K Aqua, produk, pameran dagang, dan komitmen kami pada produksi tiga bersertifikat ISO."
+    ],
+    "contact": [
+      "Kontak, Penjualan & Dukungan",
+      "Hubungi tim ahli K Aqua untuk pertanyaan penjualan, dukungan, atau kemitraan. Waktu respons cepat untuk pelanggan B2B global."
+    ],
+    "rfq": [
+      "Permintaan Proyek",
+      "Minta penawaran tanpa komitmen untuk proyek pipa Anda berikutnya dalam empat langkah sederhana. Tim penjualan kami akan menghubungi Anda kembali dalam waktu 24 jam."
+    ],
+    "home": [
+      "Sistem Pipa PP-R & PPRCT",
+      "K Aqua memproduksi sistem pipa plastik PP-R dan PPRCT kelas satu untuk air minum dan aplikasi industri. Rekayasa Jerman untuk proyek global."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Kebijakan Privasi",
+        "Kebijakan privasi komprehensif untuk situs web K Aqua sesuai dengan pedoman GDPR."
+      ],
+      "impressum": [
+        "Impresum & Pemberitahuan Hukum",
+        "Impresum dan informasi hukum perusahaan KWT GmbH, produsen K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Kualitas Teruji",
+      "title1": "Sistem Manajemen ",
+      "titleHighlight": "GENAU",
+      "title2": " ",
+      "p1": "Tujuan sistem Manajemen GENAU adalah peningkatan berkelanjutan keselamatan kerja, perlindungan lingkungan, dan kesehatan di perusahaan.",
+      "p2": "Semua aktivitas perusahaan di KWT dilakukan dengan mempertimbangkan konservasi sumber daya, kompatibilitas lingkungan, dan kepatuhan yang ketat terhadap semua kewajiban. Manajemen GENAU yang dipraktikkan memenuhi tuntutan tinggi ",
+      "p3": " dan ",
+      "list1Title": "Tanggung Jawab Ekologi",
+      "list1Desc": "Perlindungan lingkungan adalah bagian dari pemahaman kami tentang kualitas, yang menjadi komitmen semua karyawan KWT GmbH.",
+      "list2Title": "Efisiensi Energi",
+      "list2Desc": "Identifikasi risiko yang ditargetkan dan pelaksanaan tindakan untuk mengoptimalkan efisiensi energi."
+    },
+    "pipes": [
+      "Pipa",
+      "Rangkaian lengkap pipa PP-R dan PP-RCT. Temukan pipa Monolayer, Glass Fiber Composite, dan pipa berkaliber besar dari d20 hingga d630."
+    ],
+    "fittings": [
+      "Fiting & Cetakan",
+      "Rangkaian lengkap fiting untuk semua sistem pipa K-Aqua. Temukan siku, tee, peredam, dan soket untuk polifusi."
+    ],
+    "valves": [
+      "Katup & Keran",
+      "Katup premium dan aksesori untuk jaringan perpipaan. Katup bola berkualitas tinggi, katup tersembunyi, katup dudukan miring, dan katup satu arah."
+    ],
+    "tools": [
+      "Peralatan & Aksesori",
+      "Peralatan las profesional dan aksesori untuk instalasi PP-R. Temukan mesin las, pemotong pipa, dan peralatan khusus."
+    ],
+    "transition-fittings": [
+      "Transisi",
+      "Fiting transisi andal untuk koneksi yang aman. Temukan fiting transisi kuningan dengan ulir atau koneksi flensa."
+    ]
+  },
+  "productsx": {
+    "pipesEyebrow": "Program Pipa",
+    "pipesTitle": "Tiga keluarga pipa, satu konsep sistem.",
+    "pipesLead": "Monolayer, PPRCT dan fiber-reinforced composite, ditambah versi stabil UV untuk aplikasi luar ruangan.",
+    "pipes": [
+      {
+        "t": "Pipa K Monolayer PP-R",
+        "d": "Standar teruji untuk air minum panas dan dingin. Struktur lapisan tunggal, rentang SDR penuh dalam dimensi umum: ekonomis untuk bangunan perumahan dan komersial.",
+        "tags": ["d20–d630", "SDR 6–17"]
+      },
+      {
+        "t": "Pipa K PPRCT",
+        "d": "Struktur kristal yang dimodifikasi untuk lebih banyak cadangan suhu dan tekanan: SDR 7.4 dirancang untuk operasi kontinu 70 °C pada 10 bar (1.0 MPa), pilihan untuk air panas dan sirkulasi.",
+        "tags": ["70 °C · 10 bar", "Air panas"]
+      },
+      {
+        "t": "Pipa Serat K (GF-Multilayer)",
+        "d": "Inti yang diperkuat serat kaca di antara dua lapisan PP: ekspansi termal berkurang menjadi sekitar seperempat, jarak klem yang lebih besar, dimensi stabil hingga d630, hingga 20 bar (2.0 MPa) pada 20 °C di SDR 6.",
+        "tags": ["Inti GF", "d20–d630"]
+      },
+      {
+        "t": "Versi Stabil UV",
+        "d": "Untuk instalasi dengan paparan sinar matahari (seperti rumah kaca atau saluran luar ruang), program ini tersedia dalam versi tahan UV.",
+        "tags": ["Luar ruangan", "Pertanian"]
+      }
+    ],
+    "dimEyebrow": "Tabel Dimensi",
+    "dimTitle": "Setiap dimensi, setiap ketebalan dinding.",
+    "dimLead": "Pilih tingkat tekanan. Tabel ini menunjukkan semua dimensi yang tersedia dengan ketebalan dinding, diameter dalam, tekanan nominal, volume air, dan berat per meter.",
+    "dimTabAria": "Pilih tingkat tekanan",
+    "dimHead": [
+      "d (mm)",
+      "Dinding s (mm)",
+      "di (mm)",
+      "Tekanan Nominal",
+      "Volume Air (l/m)",
+      "Berat (kg/m)"
+    ],
+    "dimNote": "Nilai terhitung dari geometri SDR (s = d/SDR, kepadatan 0.905 g/cm³) menurut seri DIN 8077. Mengikat pada katalog produk dan lembar data spesifik proyek.",
+    "anchorsTitle": "Batas desain yang mengikat dari program",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "Pipa Serat K PP-R · SDR 6",
+        "c": "Operasi kontinu 2.0 MPa pada 20 °C: Air dingin selama siklus desain 50 tahun."
+      },
+      {
+        "v": "10 bar",
+        "t": "Pipa K PPRCT · SDR 7.4",
+        "c": "Operasi kontinu 1.0 MPa pada 70 °C: Air panas dan sirkulasi tanpa kehilangan cadangan."
+      }
+    ],
+    "matEyebrow": "Data Material",
+    "matTitle": "Apa yang membedakan material ini.",
+    "matLead": "Karakteristik kunci sistem PP-R/PPRCT dan mengapa mereka penting dalam perencanaan.",
+    "matHead": ["Properti", "Nilai", "Arti untuk Proyek Anda"],
+    "matRows": [
+      ["Kepadatan", "0.905 g/cm³", "Sekitar sepersepuluh dari tembaga: transportasi ringan, perakitan mudah tanpa alat angkat untuk dimensi kecil dan menengah."],
+      ["Kekasaran Dalam", "0.007 mm", "Permukaan sangat halus: kehilangan tekanan minimal, hampir tidak ada inkrustasi dan pembentukan biofilm."],
+      ["Konduktivitas Termal", "0.24 W/(m·K)", "Kehilangan panas rendah pada sirkulasi air panas: penghematan energi permanen dibandingkan logam."],
+      ["Ekspansi Linear (Monolayer)", "≈ 0.15 mm/(m·K)", "Diserap secara struktural oleh kaki ekspansi dan titik tetap."],
+      ["Ekspansi Linear (Pipa Serat, GF)", "≈ 0.04 mm/(m·K)", "Sekitar seperempat dari nilai Monolayer: jarak penjepit lebih besar, tampilan garis lebih tenang."],
+      ["Suhu Media", "dingin hingga 70 °C operasi kontinu", "Air minum panas dan dingin; titik desain: PPRCT SDR 7.4 pada 70 °C · 10 bar."],
+      ["Ketahanan Kimia", "Pelarut, basa, asam", "Sangat tahan sebagai plastik teknis: bebas korosi tanpa risiko pitting (lubang)."],
+      ["Daur Ulang", "Kode 5 (PP)", "Murni dapat dipisahkan; 100% limbah produksi masuk kembali ke siklus bahan."]
+    ],
+    "fitEyebrow": "Fiting & Komponen Sistem",
+    "fitTitle": "Sistem di sekitar pipa.",
+    "fitLead": "Fiting dari d20 hingga d315, katup, transisi, dan teknologi pengelasan lengkap: semuanya dari satu sumber, semua kompatibel dengan sistem.",
+    "fitGroups": [
+      {
+        "t": "Fiting d20–d315",
+        "items": [
+          "Siku 90° dan 45°",
+          "Tee, juga peredam",
+          "Soket dan soket selip",
+          "Peredam",
+          "Tutup ujung"
+        ]
+      },
+      {
+        "t": "Transisi & Fiting Ulir",
+        "items": [
+          "Potongan transisi dengan ulir internal kuningan",
+          "Potongan transisi dengan ulir eksternal kuningan",
+          "Koneksi sekrup (dapat dilepas)",
+          "Koneksi ke pipa logam yang ada"
+        ]
+      },
+      {
+        "t": "Katup",
+        "items": [
+          "Katup",
+          "Katup bola",
+          "Katup pemutus untuk garis vertikal dan distribusi"
+        ]
+      },
+      {
+        "t": "Teknologi Pengelasan & Alat",
+        "items": [
+          "Mesin las tangan (hingga d63)",
+          "Mesin las soket",
+          "Mesin las elektro",
+          "Mesin las butt (pantat) untuk dimensi besar",
+          "Pemotong pipa dan alat pemotong"
+        ]
+      }
+    ],
+    "normEyebrow": "Standar & Bukti",
+    "normTitle": "Teruji terhadap standar.",
+    "normLead": "Sistem K Aqua diproduksi dan diuji terhadap standar relevan teknologi perpipaan. Setiap batch berada di bawah persyaratan kualitas ISO 9001.",
+    "normHead": ["Standar", "Judul", "Arti"],
+    "norms": [
+      ["DIN 8077", "Pipa Polipropilena: Dimensi", "Mendefinisikan seri diameter dan ketebalan dinding (SDR) untuk pipa PP."],
+      ["DIN 8078", "Pipa Polipropilena: Persyaratan", "Persyaratan kualitas umum dan tes untuk pipa PP-R/PPRCT."],
+      ["DIN EN ISO 15874", "Sistem perpipaan plastik", "Standar sistem untuk instalasi air panas dan dingin yang terbuat dari polipropilena."],
+      ["DVS 2207-11", "Pengelasan PP", "Nilai referensi untuk pengelasan soket, elektro dan butt: dasar dari konten Akademi."],
+      ["DVGW / KTW", "Kontak air minum", "Bukti kesesuaian untuk kontak dengan air minum: tersedia berdasarkan permintaan di Pusat Kepercayaan."],
+      ["EN 15804", "EPD (Tipe III)", "Deklarasi produk lingkungan sebagai dasar data untuk LEED, BREEAM dan DGNB."],
+      ["ISO 9001 / 14001 / 50001", "Sistem Manajemen", "Kualitas, Lingkungan dan Energi: diuji tiga kali sejak Oktober 2025, terakreditasi DAkkS."],
+      ["GENAU", "Sistem Manajemen Terpadu", "Sistem internal di House of KWT menggabungkan kesehatan, keselamatan kerja, lingkungan dan energi."]
+    ],
+    "faqEyebrow": "Pertanyaan Umum",
+    "faqTitle": "Jawaban untuk perencanaan dan pembelian.",
+    "faq": [
+      {
+        "q": "Sistem ini dirancang untuk media apa?",
+        "a": "Untuk air minum (panas dan dingin) dengan ketahanan suhu dan tekanan tinggi selama puluhan tahun. Karena PP tahan terhadap pelarut, basa, dan asam, aplikasi industri juga dimungkinkan; kami meninjaunya bersama Anda berdasarkan proyek tertentu."
+      },
+      {
+        "q": "Apa arti dari kelima kelas SDR?",
+        "a": "SDR adalah rasio diameter luar dengan ketebalan dinding (d/s). SDR kecil = dinding lebih tebal = tekanan nominal lebih tinggi: SDR 6 sesuai dengan PN 20, SDR 17 sesuai dengan PN 6. Dengan cara ini Anda dapat memilih cadangan persis yang Anda butuhkan untuk setiap aplikasi, tanpa dimensi berlebihan."
+      },
+      {
+        "q": "Kapan Monolayer, kapan K-Fiber?",
+        "a": "Monolayer adalah standar ekonomis untuk sebagian besar aplikasi. Serat kaca yang diperkuat mengurangi ekspansi termal hingga sekitar seperempat, memungkinkan jarak penjepit yang lebih lebar, dan tetap stabil dimensinya dengan dimensi besar dan air panas - pilihan ideal untuk riser, sirkulasi, dan d ≥ 160."
+      },
+      {
+        "q": "Bagaimana pipa dihubungkan?",
+        "a": "Melalui pengelasan bahan seragam: Pengelasan soket dengan tangan (hingga d63) atau dengan mesin, pengelasan elektro melalui fiting koil pemanas dan pengelasan butt untuk dimensi besar hingga d630. Alat dan perangkat yang sesuai termasuk dalam program; semua empat metode ditunjukkan di video Akademi."
+      },
+      {
+        "q": "Apakah sistem sesuai untuk air minum?",
+        "a": "Sistem ini dikembangkan untuk air minum; polipropilen tidak berasa dan tidak berbau. Bukti kesesuaian untuk kontak air minum (DVGW/KTW) kami sediakan di Pusat Kepercayaan sebagai bagian dari paket dokumen RFP."
+      },
+      {
+        "q": "Berapa umur yang didasarkan pada desain?",
+        "a": "Tingkat tekanan didasarkan pada kurva regresi waktu mulur dari DIN 8077/8078 dengan cakrawala desain 50 tahun operasi, termasuk faktor keamanan. Dua jangkar program: SDR 6 dengan 20 bar pada 20 °C dan PPRCT SDR 7.4 dengan 10 bar pada 70 °C."
+      },
+      {
+        "q": "Di mana saya bisa mendapatkan data artikel yang mengikat?",
+        "a": "Dalam pencari produk, Anda memfilter semua varian secara langsung dan mengekspornya sebagai CSV. Katalog produk (PDF) memberikan nilai yang mengikat; untuk kondisi proyek, permintaan proyek dalam lima langkah langsung ditujukan ke penjualan. Jawaban dalam satu hari kerja."
+      }
+    ]
+  },
+  "solutionsx": {
+    "segEyebrow": "Area Aplikasi",
+    "segTitle": "Terbukti di mana air sangat penting.",
+    "segLead": "Sistem K Aqua bekerja di proyek-proyek di seluruh dunia, mulai dari rumah sakit hingga rumah kaca. Setiap area aplikasi memanfaatkan kekuatan material yang berbeda.",
+    "segments": [
+      {
+        "t": "Rumah Sakit & Bangunan Kesehatan",
+        "d": "Kebersihan tidak dapat dinegosiasikan di sini: Permukaan bagian dalam yang halus (0.007 mm) menghambat biofilm dan inkrustasi, bahan tetap tidak berasa dan tidak berbau.",
+        "pts": [
+          "Netralitas Higienis",
+          "Bebas korosi: tidak ada korosi sumuran",
+          "Referensi: Rumah sakit baru Cape Town"
+        ]
+      },
+      {
+        "t": "Hotel & Konstruksi Perumahan Tinggi",
+        "d": "Sirkulasi air panas 24 jam sehari: konduktivitas termal yang rendah menghemat energi secara permanen, PPRCT menahan operasi kontinu 70 °C.",
+        "pts": [
+          "Efisiensi termal",
+          "PPRCT untuk sirkulasi",
+          "Referensi: Kompleks hotel Istanbul"
+        ]
+      },
+      {
+        "t": "Industri & Bangunan Komersial",
+        "d": "Tahan terhadap pelarut, basa, dan asam. Di mana pipa logam berkarat, polipropilen tetap tidak terpengaruh.",
+        "pts": [
+          "Ketahanan kimia",
+          "Interval pemeliharaan panjang",
+          "Proses dan air industri"
+        ]
+      },
+      {
+        "t": "Rumah Kaca & Pertanian",
+        "d": "Versi yang distabilkan UV untuk irigasi di bawah kaca dan di luar ruangan: ringan, mudah dipasang, lebih tahan beku daripada sistem kaku.",
+        "pts": [
+          "Desain tahan UV",
+          "Berat yang ringan",
+          "Area aplikasi dari program referensi"
+        ]
+      },
+      {
+        "t": "Infrastruktur Kota",
+        "d": "Jalur suplai dan jaringan dalam dimensi besar hingga d630: dilas butt menjadi string seragam dan rapat permanen.",
+        "pts": [
+          "d hingga 630 mm",
+          "Pengelasan Butt",
+          "Referensi: Infrastruktur Singapura"
+        ]
+      },
+      {
+        "t": "Renovasi & Penggantian",
+        "d": "Penggantian pipa besi logam atau PVC yang berkarat: Adaptor dengan ulir kuningan dengan rapi menghubungkan sistem yang ada ke sistem baru.",
+        "pts": [
+          "Transisi ke ulir logam",
+          "Renovasi berdasarkan bagian",
+          "Masalah korosi terpecahkan secara permanen"
+        ]
+      }
+    ],
+    "cmpEyebrow": "Perbandingan Material",
+    "cmpTitle": "PP-R/PPRCT sebagai perbandingan.",
+    "cmpLead": "Empat bahan pipa, delapan kriteria: perbandingan yang disederhanakan sebagai titik awal untuk pemilihan material spesifik proyek.",
+    "cmpHead": ["Kriteria", "K Aqua PP-R/PPRCT", "Tembaga", "Besi tahan karat", "PVC-C"],
+    "cmpRows": [
+      ["Korosi", "bebas korosi: kebal korosi elektrokimia", "Mungkin terjadi pitting", "tahan (tergantung kualitas)", "bebas korosi"],
+      ["Inkrustasi & Biofilm", "sangat rendah: kekasaran bagian dalam 0.007 mm", "mungkin", "rendah", "rendah"],
+      ["Konduktivitas Termal", "0.24 W/(m·K): kerugian rendah", "≈ 390 W/(m·K)", "≈ 15 W/(m·K)", "≈ 0.14 W/(m·K)"],
+      ["Kepadatan / Berat", "0.905 g/cm³", "8.9 g/cm³", "7.9 g/cm³", "1.55 g/cm³"],
+      ["Teknologi Sambungan", "pengelasan material seragam: untaian homogen", "disolder / ditekan", "ditekan / dilas", "direkatkan"],
+      ["Rasa & Bau", "netral", "Pelepasan logam dimungkinkan", "netral", "netral"],
+      ["CO₂ (Konstruksi)", "rendah, bandingkan di kalkulator CO₂", "tinggi", "tinggi", "sedang"],
+      ["Daur Ulang", "Kode 5, murni terpisah: 100% limbah manufaktur masuk ke daur ulang", "Siklus memo besi", "Siklus memo besi", "terbatas"]
+    ],
+    "cmpNote": "Perbandingan sederhana dengan nilai material tipikal; pemilihan material tetap spesifik proyek. Dasar angka untuk perbandingan CO₂: lihat kalkulator CO₂ dan lembar data EPD.",
+    "lifeEyebrow": "Siklus Hidup",
+    "lifeTitle": "Dari gas mentah hingga daur ulang.",
+    "lifeLead": "Tanggung jawab selama keseluruhan siklus: empat tahapan yang membuat produk berkelanjutan secara ekologis.",
+    "life": [
+      {
+        "t": "Bahan baku dengan sejarah",
+        "d": "Polipropilena dibuat dari gas yang dulunya dibakar sia-sia. Penggunaannya sebagai bahan mengurangi polusi udara dari sumbernya."
+      },
+      {
+        "t": "Manufaktur dalam siklus",
+        "d": "Produksi di Waldsolms mendingin dalam sirkuit air tertutup dan dengan demikian melindungi sungai, aliran, dan danau; efisiensi energi dikontrol oleh ISO 50001."
+      },
+      {
+        "t": "50 tahun beroperasi",
+        "d": "Dirancang untuk siklus desain operasi 50 tahun menurut kurva regresi waktu mulur DIN 8077/8078: perawatan mudah, tahan aus, tahan penuaan."
+      },
+      {
+        "t": "Kembali ke siklus",
+        "d": "Kode Daur Ulang 5: sepenuhnya dapat dipisahkan dengan permintaan tinggi akan PP daur ulang. 100% dari limbah pemotongan dan sisa produksi didaur ulang."
+      }
+    ]
+  },
+  "trustx": {
+    "stakeEyebrow": "Untuk Pusat Pembelian Anda",
+    "stakeTitle": "Setiap peran memeriksa secara berbeda.",
+    "stakeLead": "Komite pengadaan B2B rata-rata terdiri dari 11 hingga 20 orang. Teknologi, pembelian, dan keberlanjutan memerlukan bukti yang berbeda. Inilah petanya.",
+    "stakeHead": ["Peran", "Apa yang penting", "Bukti relevan"],
+    "stakeRows": [
+      ["Insinyur / Perencana Khusus", "Tingkat tekanan dan dimensi (d20–d630), bebas dari toksisitas, kemampuan las, umur panjang batch", "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Tabel dimensi"],
+      ["Pembelian / Pengadaan", "Kemampuan pengiriman, minimalisasi risiko, kriteria RFP yang ketat, Total Cost of Ownership", "ISO 9001 sebagai \"Tiket-untuk-Bermain\" · Manual QA · Teks GAEB"],
+      ["Keberlanjutan / Kepatuhan", "Jejak CO₂, emisi Scope 1/2/3, Pengadaan Hijau, efisiensi energi produksi", "ISO 14001 · ISO 50001 · EPD (EN 15804) · Data Scope 3 sesuai permintaan"]
+    ],
+    "statEyebrow": "Mengapa Layanan Mandiri",
+    "statTitle": "Pengadaan telah berubah.",
+    "stats": [
+      {"n": "70", "u": "%", "l": "pembeli B2B meneliti secara anonim sebelum menghubungi bagian penjualan"},
+      {"n": "11–20", "u": "", "l": "Pemangku kepentingan membentuk pusat pembelian tipikal dari sebuah proyek"},
+      {"n": "87", "u": "", "l": "Titik kontak dapat menjadi bagian dari keputusan pembelian B2B"},
+      {"n": "50", "u": "%", "l": "pelanggan B2B lebih suka membeli dari pemasok yang terbukti berkelanjutan"}
+    ],
+    "statNote": "Angka-angka penting dari studi industri tentang pengadaan B2B. Oleh karena itu, semua bukti tersedia untuk diambil sendiri di sini, bukan \"atas permintaan tertulis\".",
+    "instEyebrow": "Mitra Ujian",
+    "instTitle": "Siapa yang berada di balik bukti.",
+    "inst": [
+      {"t": "Ujian terakreditasi DAkkS", "d": "Sertifikat ISO 9001, 14001, dan 50001 berasal dari perusahaan sertifikasi yang terakreditasi oleh Badan Akreditasi Jerman (DAkkS): Berlaku dari 10/2025 hingga 10/2028."},
+      {"t": "SKZ: Pusat Plastik Jerman Selatan", "d": "Jaminan kualitas sistem perpipaan didampingi oleh institut pengujian plastik terkenal: pengujian independen dan bukan sekadar pujian diri sendiri."},
+      {"t": "DVGW / KTW: Kontak air minum", "d": "Bukti kesesuaian untuk kontak dengan air minum merupakan bagian dari paket dokumen RFP dan disediakan atas permintaan."}
+    ],
+    "auditEyebrow": "Jadwal Audit",
+    "auditTitle": "Dari pertanyaan ke persetujuan.",
+    "auditLead": "Beginilah cara kerja kualifikasi pemasok dengan K Aqua: dapat direncanakan dan tanpa waktu tunggu.",
+    "audit": [
+      {"t": "Ikat Paket Dokumen", "d": "Susun paket RFP Anda di atas: sertifikat, kebijakan GENAU, EPD, GAEB, dan manual QA, diminta sebagai ZIP."},
+      {"t": "Klarifikasi Pertanyaan", "d": "Kualitas dan dukungan teknis menjawab di support@k-aqua.de, dalam satu hari kerja."},
+      {"t": "Atur audit pabrik", "d": "Audit produksi, laboratorium pengujian, dan praktik GENAU di lokasi di Waldsolms: janji temu dengan kesepakatan."},
+      {"t": "Persetujuan & Rekualifikasi", "d": "Setelah pencantuman, audit pengawasan menyertai siklus 3 tahun dari sertifikat. Dokumen Anda tetap mutakhir."}
+    ],
+    "faqEyebrow": "Kepatuhan-FAQ",
+    "faqTitle": "Pertanyaan ujian yang paling umum.",
+    "faq": [
+      {"q": "Berapa lama sertifikat ISO berlaku?", "a": "Tiga tahun. Siklus saat ini berjalan dari 10/2025 hingga 10/2028, disertai dengan audit pengawasan tahunan oleh perusahaan sertifikasi."},
+      {"q": "Apa arti dari \"terakreditasi DAkkS\"?", "a": "Badan Akreditasi Jerman (DAkkS) adalah badan akreditasi nasional Jerman. Ini memantau perusahaan sertifikasi itu sendiri. Akreditasi membuat sertifikat dapat diandalkan secara internasional."},
+      {"q": "Bagaimana cara memverifikasi sertifikat?", "a": "Setiap sertifikat memiliki nomor sertifikat (misalnya Q-2025-6732) dan badan penerbitnya. Dengan kedua informasi tersebut, keabsahan dapat diperiksa secara langsung dengan lembaga sertifikasi. Atau Anda dapat menanyakannya di support@k-aqua.de."},
+      {"q": "Apakah ada data mentah Scope 3 dan EPD?", "a": "Ya, kami memberikan data emisi Scope 3 dan data mentah EPD sesuai permintaan. Transparansi proaktif daripada pemenuhan kewajiban: Tim keberlanjutan Anda menerima angka yang andal untuk neraca mereka sendiri."},
+      {"q": "Apakah Anda mengirimkan teks spesifikasi GAEB?", "a": "Ya, teks GAEB adalah bagian dari paket dokumen RFP. Hal ini memungkinkan sistem K Aqua untuk berpindah ke dalam perangkat lunak AVA Anda dan daftar spesifikasi tanpa hambatan."},
+      {"q": "Apa itu EPD menurut EN 15804?", "a": "Sebuah Deklarasi Produk Lingkungan (Tipe III) dengan data penilaian siklus hidup yang terverifikasi selama siklus hidup. Ini adalah dasar data untuk sertifikasi bangunan seperti LEED, BREEAM dan DGNB, dan untuk model pengadaan yang disesuaikan CO₂."}
+    ]
+  },
+  "partnerx": {
+    "ecoEyebrow": "Ekosistem KESSEL",
+    "ecoTitle": "Apa yang diuntungkan pelanggan K Aqua.",
+    "ecoLead": "KESSEL telah membangun infrastruktur merek premium selama puluhan tahun. K Aqua membawa sikap yang sama terhadap pasokan air.",
+    "eco": [
+      {"t": "ISH Frankfurt", "d": "KESSEL hadir di pameran perdagangan terkemuka di dunia untuk industri TGA, panggung tempat drainase dan pasokan dipertimbangkan bersama."},
+      {"t": "PlanerPortal (Portal Perencana)", "d": "Platform digital untuk perencana spesialis adalah inti dari retensi perencana harian: model untuk alat digital K Aqua."},
+      {"t": "KundenForum (Forum Pelanggan)", "d": "Kursus pelatihan fisik dan hibrida di lokasi khusus, termasuk di Lenting dan Hamburg. Transfer pengetahuan adalah ikatan."},
+      {"t": "Manual Perencanaan", "d": "Pengetahuan perencanaan KESSEL yang dikelola secara editorial adalah referensi tentang bagaimana K Aqua memperluas area pengetahuannya bagi para perencana: dari Akademi hingga tabel dimensi."}
+    ],
+    "flowEyebrow": "Dua aliran, satu bangunan",
+    "flowTitle": "Pasokan masuk, drainase keluar.",
+    "flowLead": "Setiap bangunan membutuhkan kedua arah. Kemitraan ini mencakup seluruh jalur air dengan DNA teknik bersama.",
+    "flow": [
+      {"t": "K Aqua: Terdepan dalam Pasokan Air", "d": "Pasokan air minum d20–d630: Pipa, fiting, katup, dan teknologi pengelasan, diproduksi di Waldsolms."},
+      {"t": "KESSEL: Terdepan dalam Drainase", "d": "Produsen premium teknologi drainase: perlindungan aliran balik, stasiun pengangkat, pemisah. Otoritas di industri TGA."},
+      {"t": "Perdagangan Bersama", "d": "Perencana dan pemroses bekerja dengan komunitas nilai: filosofi kualitas yang sama, dukungan terkoordinasi, rute pendek."}
+    ],
+    "roadEyebrow": "Peta Jalan Bersama",
+    "roadTitle": "Dari video pelatihan hingga konfigurator.",
+    "road": [
+      {"t": "Akademi & Video", "d": "Empat metode pengelasan sebagai dokumentasi video plus kuis: tersedia saat ini, dioptimalkan untuk lokasi konstruksi.", "s": "Hari ini"},
+      {"t": "Dukungan Teknologi Pengelasan", "d": "Perangkat, alat, dan instruksi untuk tim Anda, langsung dari produsen.", "s": "Hari ini"},
+      {"t": "Alat Perencanaan Digital", "d": "Pencari produk, kalkulator CO₂, dan Pusat Kepercayaan sebagai layanan mandiri, sedang diperluas berdasarkan model PlanerPortal.", "s": "Sedang diperluas"},
+      {"t": "Konfigurator Jaringan Pipa Parametrik", "d": "Perspektif: Mengonfigurasi jaringan perpipaan secara parametrik dan mentransfernya langsung ke bill of materials dan inquiry.", "s": "Perspektif"}
+    ],
+    "specEyebrow": "Untuk Spesifikasi Anda",
+    "specTitle": "Data ditujukan ke tempat keputusan dibuat.",
+    "specLead": "Spesifikasi produk ditentukan dalam perangkat lunak AVA dan CAD. Di sanalah kami menyampaikannya.",
+    "spec": [
+      {"t": "Teks Spesifikasi GAEB", "d": "Teks yang telah disiapkan untuk daftar spesifikasi Anda: Bagian dari paket RFP di Pusat Kepercayaan."},
+      {"t": "Data BIM & CAD", "d": "Perencanaan data untuk pekerjaan berbasis model, tersedia berdasarkan permintaan melalui penjualan, ekspansi sedang berlangsung."},
+      {"t": "Lembar Data & Sampel", "d": "Katalog produk dan properti sebagai PDF, sampel dan saran proyek langsung dari pabrik."}
+    ]
+  },
+  "academyx": {
+    "paramEyebrow": "Parameter Pengelasan",
+    "paramTitle": "Pengelasan soket: nilai panduan.",
+    "paramLead": "Waktu pemanasan, waktu transisi, dan waktu pendinginan untuk pengelasan soket menurut DVS 2207-11 (elemen pemanas 250–270 °C), dasar yang ditunjukkan secara praktis dalam video.",
+    "paramHead": ["d (mm)", "Kedalaman Las (mm)", "Pemanasan (d)", "Transisi maks. (d)", "Pendinginan (mnt)"],
+    "paramNote": "Nilai referensi menurut DVS 2207-11 untuk PP pada suhu elemen pemanas 250–270 °C. Spesifikasi dari pabrik mesin las dan panduan pemrosesan bersifat mengikat. Jika ragu: tonton videonya, periksa parameter pada perangkat.",
+    "stepEyebrow": "Prosedur langkah demi langkah",
+    "stepTitle": "Empat metode, satu standar kualitas.",
+    "stepLead": "Setiap metode memiliki rentang dimensinya sendiri dan lima langkah yang menentukan kualitas koneksi.",
+    "procTabs": ["Soket (Manual)", "Soket (Mesin)", "Pengelasan Elektro", "Pengelasan Butt"],
+    "procs": [
+      {
+        "t": "Pengelasan soket manual: hingga d63",
+        "steps": [
+          {"t": "Potong & bersihkan sisa", "d": "Potong pipa siku kanan, deburr dengan bersih dan talang. Gunakan pemotong pipa dari jajaran peralatan K Aqua."},
+          {"t": "Tandai kedalaman pengelasan", "d": "Tandai kedalaman penyisipan menurut tabel (mis. 14 mm untuk d20) pada pipa: ini menentukan zona penyambungan."},
+          {"t": "Panaskan bersama", "d": "Pipa ke soket pemanas, fiting ke kerucut pemanas. Dorong pada saat yang bersamaan dan pertahankan waktu pemanasan persis."},
+          {"t": "Gabungkan dengan cepat, tanpa memutar", "d": "Bergabung secara aksial dalam waktu konversi. Jangan pernah memelintir: memelintir akan menghancurkan struktur plastik."},
+          {"t": "Perbaiki & dinginkan", "d": "Perbaiki koneksi selama beberapa detik, lalu tunggu waktu pendinginan sebelum memuat secara mekanis."}
+        ]
+      },
+      {
+        "t": "Pengelasan soket dengan mesin: dimensi sedang",
+        "steps": [
+          {"t": "Jepit & sejajarkan", "d": "Jepit pipa dan fiting di mesin. Periksa keselarasan aksial agar pengelasan tepat."},
+          {"t": "Penggilingan", "d": "Giling pipa di kedua ujungnya secara paralel untuk menghilangkan lapisan luar. Ini penting untuk kebersihan lasan."},
+          {"t": "Pemanasan & Tekanan", "d": "Masukkan elemen pemanas dan berikan tekanan pemanasan yang benar. Pertahankan suhu dan tekanan dengan cermat."},
+          {"t": "Lepaskan elemen", "d": "Tarik mundur alat secara cepat untuk melepas elemen pemanas setelah waktu tercapai."},
+          {"t": "Gabungkan & Dinginkan", "d": "Terapkan tekanan sambungan secara bertahap dan biarkan koneksi mendingin sepenuhnya di bawah tekanan."}
+        ]
+      },
+      {
+        "t": "Pengelasan Elektro",
+        "steps": [
+          {"t": "Persiapan & Pembersihan", "d": "Bersihkan pipa dan lepaskan lapisan oksidasi. Tandai kedalaman sisipan pada pipa."},
+          {"t": "Penyisipan Fiting", "d": "Sisipkan pipa ke dalam fiting elektro dengan lurus. Pastikan tidak ada ketegangan pada rakitan."},
+          {"t": "Sambungan Kabel", "d": "Hubungkan kabel dari mesin las ke fiting. Mesin akan membaca kode batang atau memasukkan parameter secara manual."},
+          {"t": "Siklus Las", "d": "Mulai siklus las. Mesin akan menerapkan arus yang benar untuk waktu yang ditentukan."},
+          {"t": "Pendinginan", "d": "Tunggu siklus pendinginan selesai tanpa memindahkan atau membebani sambungan."}
+        ]
+      },
+      {
+        "t": "Pengelasan Butt: untuk dimensi besar",
+        "steps": [
+          {"t": "Perataan & Penjepitan", "d": "Perataan pipa besar harus sangat tepat. Jepit pipa pada mesin las butt."},
+          {"t": "Pemangkasan", "d": "Pangkas ujung pipa dengan trimmer yang terintegrasi pada mesin untuk menciptakan ujung yang benar-benar rata."},
+          {"t": "Pemanasan", "d": "Masukkan pelat pemanas dan berikan tekanan pemanasan awal hingga terbentuk butiran. Kurangi tekanan selama fase pemanasan."},
+          {"t": "Melepas Pemanas & Menyambung", "d": "Keluarkan pelat secara cepat. Satukan kedua ujung pipa dengan tekanan gabungan yang telah ditentukan."},
+          {"t": "Pendinginan di Bawah Tekanan", "d": "Biarkan koneksi mendingin di bawah tekanan mesin untuk waktu pendinginan penuh sebelum dilepas."}
+        ]
+      }
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Pusat Unduhan",
+    "libTitle": "Perpustakaan K Aqua.",
+    "libLead": "Katalog, lembar data, dan manual. Sertifikat dan bahan kepatuhan dapat disatukan dalam Pusat Kepercayaan.",
+    "libTypes": ["Semua", "Dokumentasi Produk", "Kepatuhan & Keberlanjutan"],
+    "libItems": [
+      {
+        "t": "Program Produk K Aqua",
+        "s": "Gambaran keseluruhan artikel, dimensi, SDR, unit kemasan",
+        "lang": "DE",
+        "href": "/pdf/k-aqua-produktprogramm-de.pdf"
+      },
+      {
+        "t": "K Aqua Product Range",
+        "s": "Artikel overview, dimensions, SDR, packaging units",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Produkteigenschaften",
+        "s": "Karakteristik teknis dan data material",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Qualitätssicherung",
+        "s": "Prosedur pengujian dan standar kualitas",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO-Zertifikate (Deutsch)",
+        "s": "ISO 9001 · 14001 · 50001, terakreditasi DAkkS",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "Kebijakan & Penilaian Risiko GENAU",
+        "s": "Sistem manajemen, pencegahan, penilaian risiko",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Lembar Data EPD (Tipe III, EN 15804)",
+        "s": "Data LCA untuk LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "Teks spesifikasi GAEB",
+        "s": "Teks siap pakai untuk tagihan kuantitas (bill of quantities)",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Manual Jaminan Kualitas",
+        "s": "Proses QA untuk audit pemasok",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "Unduh",
+    "libRequest": "Minta di Pusat Kepercayaan",
+    "supEyebrow": "Saluran Dukungan",
+    "supTitle": "Tiga cara ke jawaban.",
+    "supLead": "Tergantung pada masalahnya, jalan yang berbeda mengarah ke tujuan dengan cepat, semua dengan jawaban dalam satu hari kerja.",
+    "sup": [
+      {
+        "t": "Penjualan & Proyek",
+        "d": "Penawaran, ketentuan, waktu pengiriman dan saran proyek. Atau langsung saja inquiry proyek dalam lima langkah.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Kualitas & dukungan teknis",
+        "d": "Pertanyaan material, perencanaan dan pemrosesan, pemeriksaan sertifikat, keluhan sesuai dengan manual jaminan kualitas.",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Pemrosesan & Akademi",
+        "d": "Empat proses pengelasan sebagai video plus tabel parameter: instruksi untuk tim Anda berdasarkan kesepakatan.",
+        "c": "Ke Akademi",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Layanan-FAQ",
+    "faqTitle": "Jawaban cepat.",
+    "faq": [
+      {
+        "q": "Dokumen apa yang saya perlukan untuk perencanaan?",
+        "a": "Program produk (dimensi dan artikel), properti produk (data material) dan, tergantung proyek, tabel dimensi pada halaman produk. Untuk tender, teks GAEB dan EPD melengkapi paket. Keduanya di Pusat Kepercayaan."
+      },
+      {
+        "q": "Di mana saya bisa menemukan parameter pengelasan?",
+        "a": "Nilai panduan menurut DVS 2207-11 dapat ditemukan di Akademi, termasuk petunjuk langkah demi langkah dan panduan kesalahan. Spesifikasi produsen mesin las Anda selalu mengikat."
+      },
+      {
+        "q": "Bagaimana cara mendapatkan sertifikat dan dokumen audit?",
+        "a": "Anda dapat mengunduh sertifikat ISO langsung dari sini (DE/EN). Anda dapat menyatukan kebijakan GENAU, EPD, GAEB, dan manual QA di Pusat Kepercayaan sebagai paket RFP: diminta dengan sekali klik alih-alih menunggu berhari-hari."
+      },
+      {
+        "q": "Siapa yang harus saya hubungi untuk pertanyaan teknis?",
+        "a": "Ke support@k-aqua.de. Tim kualitas dan dukungan teknis merespons materi, perencanaan, dan pemrosesan dalam satu hari kerja."
+      },
+      {
+        "q": "Bagaimana saya mendapatkan penawaran dengan cepat?",
+        "a": "Melalui permintaan proyek: lima langkah, tanpa komitmen, dengan umpan balik pribadi dari penjualan dalam satu hari kerja. Langsung dari pabrikan, tanpa perantara."
+      },
+      {
+        "q": "Dalam bahasa apa dokumen tersedia?",
+        "a": "Katalog saat ini dalam bahasa Inggris, sertifikat dalam bahasa Jerman dan Inggris. Situs web ini bekerja dalam tiga bahasa (DE/EN/AR). Bahasa dokumen lainnya berdasarkan permintaan melalui penjualan."
+      }
+    ]
+  },
+  "aboutx": {
+    "numEyebrow": "Angka dari pabrik",
+    "numTitle": "Waldsolms dalam figur kunci.",
+    "numLead": "Hessen Tengah, Auweg 3: di sinilah KWT GmbH mengembangkan dan memproduksi seluruh program K Aqua.",
+    "nums": [
+      {
+        "n": "14.000",
+        "u": "m",
+        "l": "pipa per hari dan jalur ekstrusi: kapasitas untuk proyek besar"
+      },
+      {
+        "n": "20–630",
+        "u": "mm",
+        "l": "Rentang dimensi produksi pipa, fiting hingga 315 mm"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "dari sisa pemotongan dan limbah produksi kembali ke siklus"
+      },
+      {
+        "n": "3",
+        "u": "× ISO",
+        "l": "Kualitas, Lingkungan, Energi: Terakreditasi DAkkS sejak Oktober 2025"
+      }
+    ],
+    "prodEyebrow": "Produksi",
+    "prodTitle": "Empat stasiun, satu janji kualitas.",
+    "prodLead": "Dari butiran hingga pipa yang ditandai: begitulah produk dibuat.",
+    "prod": [
+      {
+        "t": "Ekstrusi",
+        "d": "Pipa multilayer Monolayer dan yang diperkuat serat kaca diproduksi pada sistem ekstrusi dengan output harian hingga 14.000 meter per sistem."
+      },
+      {
+        "t": "Cetakan injeksi",
+        "d": "Fiting dari d20 hingga d315 diproduksi menggunakan cetakan injeksi: geometri kompleks dalam jumlah besar dan kualitas yang konsisten."
+      },
+      {
+        "t": "Sirkuit pendingin tertutup",
+        "d": "Sirkulasi proses manufaktur dalam sirkuit tertutup: perlindungan air sebagai keputusan sistem, dipantau menurut ISO 14001."
+      },
+      {
+        "t": "Pelabelan & Pengujian",
+        "d": "Setiap pipa terus diberi label dalam proses ekstrusi dan diuji menurut panduan jaminan kualitas: ketertelusuran per batch."
+      }
+    ],
+    "houseEyebrow": "Rumah KWT",
+    "houseTitle": "Empat keuntungan, satu rumah.",
+    "houseLead": "Kebijakan perusahaan KWT GmbH memandang keuntungan sebagai sebuah siklus: tidak satu pun ada tanpa tiga lainnya.",
+    "house": [
+      {
+        "t": "Keuntungan pelanggan",
+        "d": "Keinginan pelanggan dan pihak yang berkepentingan diakui, ditanggapi dengan serius dan diterapkan, dengan tetap mematuhi standar hukum dan sosial."
+      },
+      {
+        "t": "Keuntungan karyawan",
+        "d": "Seluruh karyawan dilibatkan dalam proses perbaikan berkesinambungan. Tidak ada manfaat pelanggan tanpa manfaat karyawan."
+      },
+      {
+        "t": "Manfaat perusahaan",
+        "d": "Kualitas selalu dikompromikan dengan biaya dan tenggat waktu, sehingga kesuksesan hari ini membawa investasi masa depan."
+      },
+      {
+        "t": "Lingkungan hidup & sesama manusia",
+        "d": "Konservasi sumber daya dan pelestarian lingkungan adalah bagian dari pemahaman kualitas, berlabuh pada sistem GENAU."
+      }
+    ],
+    "mileEyebrow": "Tonggak sejarah",
+    "mileTitle": "Jalan menuju ke sini.",
+    "miles": [
+      {
+        "y": "Puluhan tahun",
+        "t": "Pengalaman Manufaktur",
+        "d": "Pemrosesan plastik untuk pasokan air: pengalaman yang mengalir ke setiap batch."
+      },
+      {
+        "y": "Kemitraan",
+        "t": "Koneksi erat dengan KESSEL",
+        "d": "KWT dihubungkan dengan produsen premium \"Leading in Drainage\" oleh komunitas nilai jangka panjang."
+      },
+      {
+        "y": "GENAU",
+        "t": "Sistem Manajemen di House of KWT",
+        "d": "Keselamatan kerja, perlindungan lingkungan dan kesehatan sebagai praktik harian untuk setiap karyawan, bukan sekadar latihan audit."
+      },
+      {
+        "y": "10/2025",
+        "t": "Sertifikasi tiga ISO",
+        "d": "ISO 9001, 14001 dan 50001 dalam satu langkah: terakreditasi DAkkS, berlaku hingga 10/2028."
+      },
+      {
+        "y": "2026",
+        "t": "Platform Digital",
+        "d": "Pencari produk, kalkulator CO₂, Pusat Kepercayaan dan Akademi mengubah situs web menjadi kotak peralatan."
+      }
+    ]
+  },
+  "geo": {
+    "eyebrow": "Pasar & Lokasi",
+    "title1": "Dunia yang penuh dengan",
+    "title2": "Pasar.",
+    "lead": "Temukan lokasi K-Aqua untuk sistem pipa PP-R: {n} pasar di {c} negara, masing-masing dengan halaman arahannya sendiri tentang standar, profil air, kasus penggunaan, dan logistik. Pegang dunia dan putar dengan bebas; daftarnya akan menerbangkan Anda tepat ke kota.",
+    "all": "Semua",
+    "cityTitle": "Sistem Pipa PP-R/PPRCT di {city}.",
+    "cityLead": "Sistem air minum d20–d630, diuji terhadap persyaratan lokal.",
+    "allMarkets": "Semua Pasar",
+    "request": "Minta Proyek",
+    "finder": "Pencari Produk",
+    "fromPlant": "km dari pabrik Waldsolms",
+    "regFrame": "Kerangka Regulasi",
+    "water": "Profil Air & Respons Material",
+    "typical": "Proyek umum di {city}",
+    "onSite": "Pemrosesan di Lokasi",
+    "onSiteText": "Instruksi teknologi pengelasan dan dokumentasi video untuk tim Anda di Akademi.",
+    "toAcademy": "Ke Akademi",
+    "nearbyEyebrow": "Pasar Terkait",
+    "nearby": "Di dekat.",
+    "prodNote": "Catatan Produksi: Halaman ini sesuai dengan templat Programmatic-SEO (Data Slice: Product × Regulation × Region). Di Next.js, ini dibuat melalui ISR dari Headless CMS, termasuk hreflang, skema Product/Offer, dan penautan internal semantik.",
+    "km": "km",
+    "seoExpansion": "K Aqua memproduksi sistem pipa PP-R dan PPRCT di Waldsolms untuk tuntutan tertinggi di teknologi bangunan dan pabrik global. Berkat Rekayasa Jerman yang tanpa kompromi dan teknologi produksi mutakhir, sistem kami menjamin keandalan operasional puluhan tahun tanpa perawatan. Setiap produk, dari d20 hingga d630, melalui kontrol kualitas ketat dan mematuhi standar internasional seperti DVGW, KIWA, dan SKZ. Kami tidak hanya menawarkan material kelas satu untuk air minum, pendingin, dan industri, tetapi juga mendukung perencana dan instalatir dengan dukungan teknis dan pelatihan komprehensif di lokasi. Percayakan pada sistem yang meyakinkan karena daya tahan ekstrem, kebebasan dari korosi, dan kebersihan absolut.",
+    "seoExpansionDynamic": "Pelajari lebih lanjut tentang solusi PP-R dan PPRCT kami di {city}. Kami memenuhi standar lokal ({regulator}) dan menawarkan sistem optimal untuk kualitas air ({water}). Catatan tambahan: {note}.",
+    "cityMetaTitle": "Sistem Pipa PP-R di {city}",
+    "hubMetaTitle": "Sistem Pipa PP-R untuk {country}",
+    "hubH1": "Solusi Infrastruktur untuk {country}",
+    "hubLead": "K-Aqua menawarkan solusi infrastruktur PP-R dan PP-RCT bersertifikat untuk {country}. Sistem perpipaan kami memenuhi standar internasional tertinggi dan dioptimalkan untuk tantangan khusus di {country}.",
+    "hubContextTitle": "Konteks Regional: {context}",
+    "hubContextBody": "Sistem perpipaan K-Aqua PP-R/PP-RCT produksi Jerman memberikan solusi infrastruktur berkelanjutan untuk {country}. Mereka dirancang khusus untuk memenuhi tantangan infrastruktur lokal.",
+    "hubCitiesTitle": "Lokasi Lokal & Kota Referensi",
+    "hubs": {
+      "deutschland": {
+        "description": "Sebagai pasar utama K-Aqua, Jerman menawarkan permintaan tertinggi untuk kualitas bangunan dan umur panjang. <span class=\"font-semibold\">Sistem pipa PP-R dan PP-RCT</span> kami mengatasi penundaan renovasi pada infrastruktur air minum dan pemanas Jerman secara efektif dan berkelanjutan. Dengan bahan bersertifikat DVGW yang bebas korosi, kami mengurangi biaya pemeliharaan dan menjamin kebersihan sistem maksimal dalam proyek skala besar komunal, komersial, dan pribadi selama beberapa dekade.",
+        "metaDesc": "Sistem pipa PP-R/PP-RCT bersertifikat untuk Jerman. Rekayasa Jerman melawan penundaan renovasi pada infrastruktur air minum dan pemanas."
+      },
+      "oesterreich": {
+        "description": "Di Austria, topografi yang menantang dan peraturan lingkungan yang ketat memerlukan solusi infrastruktur tanpa kompromi. <span class=\"font-semibold\">Sistem pipa K-Aqua kami</span> menawarkan kualitas premium untuk air bersih yang tahan lama dan jaringan pemanas distrik di wilayah Alpen. Dengan keamanan teruji ÖVGW dan insulasi termal yang luar biasa, pipa PP-R dan PP-RCT kami menjamin kinerja anti-beku dan tahan tekanan bahkan dalam kondisi iklim paling ekstrem di Alpen.",
+        "metaDesc": "Sistem pipa PP-R/PP-RCT premium untuk Austria. Solusi tahan beku dan tahan tekanan untuk air dan jaringan pemanas distrik di kawasan Alpen."
+      },
+      "schweiz": {
+        "description": "Swiss adalah singkatan dari presisi, keberlanjutan, dan standar kualitas tertinggi. <span class=\"font-semibold\">Sistem PP-R dan PP-RCT K-Aqua</span> memenuhi persyaratan ini melalui kemurnian material kelas satu dan keamanan pangan bersertifikat SVGW. Pipa plastik kami yang sepenuhnya dapat didaur ulang dan dioptimalkan alirannya memungkinkan pipa sanitasi dan pendingin udara hemat energi untuk proyek konstruksi Minergie masa depan di seluruh Swiss.",
+        "metaDesc": "Sistem pipa PP-R/PP-RCT kelas satu untuk Swiss. Pipa plastik bersertifikat SVGW dan dapat didaur ulang untuk proyek konstruksi Minergie berkelanjutan."
+      },
+      "uae": {
+        "description": "Dalam kondisi iklim ekstrem di Uni Emirat Arab, air adalah sumber daya paling berharga. <span class=\"font-semibold\">Sistem pipa K-Aqua PP-R/PP-RCT</span> memberikan perlindungan terbaik terhadap korosi dan kalsifikasi, bahkan saat menggunakan air laut yang didesalinasi (Reverse Osmosis). Pipa berkinerja tinggi kami yang tahan UV dan panas menjamin pasokan air jangka panjang di proyek-proyek besar dan gedung pencakar langit yang sangat besar di Dubai dan Abu Dhabi.",
+        "metaDesc": "Sistem pipa PP-R/PP-RCT yang tahan UV dan panas untuk UEA. Perlindungan tertinggi terhadap korosi dan kalsifikasi di iklim gurun."
+      },
+      "ksa": {
+        "description": "Sebagai bagian dari Visi 2030, Arab Saudi sedang mentransformasi seluruh infrastrukturnya. <span class=\"font-semibold\">K-Aqua menyediakan infrastruktur air penting untuk ini</span>. Pipa PP-RCT kami yang berkaliber besar memastikan distribusi air yang aman, bebas kebocoran, dan efisien di Kota Pintar baru seperti NEOM. Bersertifikat standar internasional, kami menjamin operasi tanpa gangguan pada suhu lingkungan yang sangat tinggi.",
+        "metaDesc": "Sistem pipa PP-RCT berkaliber besar untuk Arab Saudi. Infrastruktur air andal untuk Visi 2030 dan Proyek Besar seperti NEOM."
+      },
+      "singapur": {
+        "description": "Sebagai salah satu negara-kota berteknologi tinggi paling padat penduduknya di Asia, Singapura memerlukan teknologi bangunan yang sangat efisien dan hemat ruang. <span class=\"font-semibold\">Sistem pipa inovatif K-Aqua</span> mendukung tujuan Green-Building Singapura yang ambisius dengan mengurangi kehilangan tekanan secara drastis dan mengoptimalkan karakteristik termal. Dari sistem pendingin udara gedung tinggi (Air Dingin) hingga suplai air minum ultra-murni, kami menetapkan standar di Asia.",
+        "metaDesc": "Pipa PP-R/PP-RCT efisien untuk Bangunan Hijau Singapura. Sistem khusus untuk Air Dingin dan pasokan air minum ultra-murni."
+      }
+    }
+  }
+}

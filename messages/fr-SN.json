@@ -1,0 +1,712 @@
+{
+  "toggle_theme_light": "Passer au thème clair",
+  "toggle_theme_dark": "Passer au thème sombre",
+  "quote": "Demande de projet",
+  "menu": {
+    "pipes": "Tuyaux",
+    "fittings": "Raccords",
+    "transition": "Raccords de transition",
+    "valves": "Vannes & Robinets",
+    "tools": "Outils de soudage"
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "finder": "Recherche de produits",
+    "co2": "Calculateur de CO₂",
+    "markets": "Marchés",
+    "trust": "Centre de confiance",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "menu": "Menu",
+    "lang": "Langue",
+    "skipToContent": "Passer au contenu",
+    "menuPlaceholder": "Espace réservé (Méga Menu)",
+    "academy": "Académie",
+    "service": "Service",
+    "about": "Entreprise",
+    "solutions": "Solutions",
+    "partners": "Partenariats",
+    "references": "Références",
+    "career": "Carrière",
+    "news": "Actualités",
+    "knowledge_trust": "Savoir & Confiance",
+    "mapAria": "Ouvrir la navigation sur la carte",
+    "sitemapAria": "Plan du site",
+    "pipes": "Tuyaux",
+    "fittings": "Raccords",
+    "valves": "Vannes",
+    "accessories": "Accessoires",
+    "tools": "Outils"
+  },
+  "groups": {
+    "tools": "Outils",
+    "knowledge": "Savoir",
+    "company": "Entreprise",
+    "products": "Produits",
+    "markets_solutions": "Marchés & Solutions",
+    "knowledge_resources": "Savoir & Ressources"
+  },
+  "pages": {
+    "catalogOverview": "Catalogue complet de produits",
+    "products": [
+      "Produits & Raccords",
+      "Découvrez les systèmes complets de tuyauterie plastique de K Aqua, du d20 au d630 mm. Tuyaux PP-R et PPRCT haute performance pour un usage domestique et industriel."
+    ],
+    "finder": [
+      "Recherche de produits",
+      "Trouvez instantanément le tuyau, le raccord ou la vanne PP-R ou PPRCT parfait. Filtrez notre catalogue en direct par dimension, classe de pression et épaisseur de paroi."
+    ],
+    "finderGuideText": "<h2>Recherche interactive de produits pour les systèmes de tuyauterie K-Aqua</h2><p>Utilisez notre outil de recherche de produits innovant pour identifier le composant exact correspondant à votre installation spécifique. Que vous recherchiez des tuyaux PP-R standard pour la plomberie d'eau potable, des tuyaux PPRCT renforcés de fibres pour des installations industrielles exigeantes, ou des raccords de transition et des vannes spécifiques – notre outil filtre l'ensemble du catalogue en temps réel. La recherche de produits vous aide dans votre choix par diamètre (d20 à d630), classe de pression (classe SDR) et matériau.</p><p>Un système de tuyauterie bien structuré nécessite une planification précise et la combinaison exacte de tuyaux, de raccords (tels que manchons, coudes et tés) et des accessoires correspondants. Notre outil de recherche de produits élimine la recherche chronophage dans des catalogues PDF statiques et vous fournit des données fiables et immédiates sur les numéros d'articles, les unités d'emballage et les spécifications techniques. En quelques clics, vous pouvez constituer votre liste de matériel et vous assurer de la compatibilité des différents composants pour les systèmes de chauffage, de refroidissement et d'eau potable. Cela optimise non seulement votre processus de planification, mais minimise également les erreurs lors de la commande de matériel pour votre prochain projet de construction.</p>",
+    "co2": [
+      "Calculateur de CO2",
+      "Comparez l'empreinte carbone des tuyaux plastiques K Aqua PP-R avec le cuivre, l'acier inoxydable et le PVC. Certifié selon la norme ISO 14040/44 pour la construction écologique (Green Building)."
+    ],
+    "solutions": [
+      "Avantages des matériaux",
+      "Découvrez pourquoi le polypropylène (PP-R/PPRCT) est le matériau supérieur pour l'approvisionnement en eau. Écologique, techniquement avancé et économique."
+    ],
+    "academy": [
+      "Académie K-Aqua : Techniques de soudage et expertise PP-R",
+      "Apprenez les techniques de soudage professionnelles pour les tuyaux plastiques PP-R. Regardez des tutoriels vidéo et passez notre quiz Welding-Master."
+    ],
+    "trust": [
+      "Centre de confiance",
+      "Accédez à la documentation qualité de K Aqua. Téléchargez les certificats ISO, le cadre GENAU et les documents d'audit pour votre projet."
+    ],
+    "service": [
+      "Centre de service & de téléchargement",
+      "Téléchargez les catalogues de produits officiels de K Aqua, les fiches techniques et les directives d'installation pour les systèmes de tuyauterie plastique PP-R et PPRCT."
+    ],
+    "partner": [
+      "Partenariat KESSEL",
+      "K Aqua et KESSEL partagent un partenariat de plusieurs décennies qui transpose les normes de fabrication allemandes du drainage à l'approvisionnement en eau."
+    ],
+    "markets": [
+      "Marchés & Emplacements",
+      "K Aqua fournit des systèmes de tuyauterie PP-R dans plus de 27 pays. Utilisez notre carte mondiale interactive pour des informations sur les normes locales, les normes de l'eau et la logistique."
+    ],
+    "references": [
+      "Projets de référence",
+      "Découvrez les projets de référence mondiaux utilisant les systèmes de tuyauterie K-Aqua PP-R. Notre globe interactif 3D montre les installations domestiques, commerciales et industrielles."
+    ],
+    "about": [
+      "À propos de KWT GmbH",
+      "KWT GmbH rassemble des décennies d'expérience pour fabriquer le système de tuyauterie premium K Aqua. L'ingénierie allemande pour la plus haute qualité et l'innovation."
+    ],
+    "career": [
+      "Carrière chez K-Aqua",
+      "Rejoignez notre équipe à Waldsolms. Calculez vos avantages nets exonérés d'impôt et testez en 60 secondes si K Aqua est fait pour vous."
+    ],
+    "news": [
+      "Actualités & Nouvelles | Mises à jour de l'entreprise K-Aqua",
+      "Restez informé des innovations, des produits, des salons professionnels de K Aqua et de notre engagement envers la production certifiée ISO (triple certification)."
+    ],
+    "contact": [
+      "Contact, Ventes & Support",
+      "Contactez l'équipe d'experts de K Aqua pour les demandes de vente, de support ou les partenariats. Temps de réponse rapides pour les clients B2B mondiaux."
+    ],
+    "rfq": [
+      "Demande de projet",
+      "Demandez un devis sans engagement pour votre prochain projet de tuyauterie en quatre étapes simples. Notre équipe de vente vous répondra dans les 24 heures."
+    ],
+    "home": [
+      "Systèmes de tuyauterie PP-R & PPRCT",
+      "K Aqua produit des systèmes de tuyauterie en plastique PP-R et PPRCT de première qualité pour l'eau potable et les applications industrielles. L'ingénierie allemande pour des projets mondiaux."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Politique de confidentialité",
+        "Politique de confidentialité complète pour le site K Aqua conformément aux directives du RGPD."
+      ],
+      "impressum": [
+        "Mentions légales",
+        "Mentions légales et informations juridiques de KWT GmbH, fabricant de K Aqua."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Qualité vérifiée",
+      "title1": "Le système de gestion ",
+      "titleHighlight": "GENAU",
+      "title2": " Système de gestion",
+      "p1": "L'objectif du système de gestion GENAU est l'amélioration continue de la santé et de la sécurité au travail, ainsi que de la protection de l'environnement au sein de l'entreprise.",
+      "p2": "Toutes les activités de l'entreprise chez KWT sont menées en tenant compte de la préservation des ressources, du respect de l'environnement et de la stricte conformité à toutes les obligations. La gestion GENAU pratiquée répond ainsi aux exigences élevées des normes ",
+      "p3": " et ",
+      "list1Title": "Responsabilité écologique",
+      "list1Desc": "La protection de l'environnement fait partie de notre conception de la qualité, à laquelle s'engagent tous les employés de KWT GmbH.",
+      "list2Title": "Efficacité énergétique",
+      "list2Desc": "Identification ciblée des risques et mise en œuvre de mesures pour optimiser l'efficacité énergétique."
+    },
+    "pipes": [
+      "Tuyaux & Systèmes",
+      "Tuyaux PP-R et PP-RCT haute performance pour les applications domestiques et industrielles. Découvrez toutes les classes SDR et les dimensions pour votre prochain projet."
+    ],
+    "fittings": [
+      "Pièces moulées & Raccords",
+      "Gamme complète de raccords pour tous les systèmes de tuyauterie K-Aqua. Découvrez les coudes, tés, réductions et manchons pour la polyfusion."
+    ],
+    "valves": [
+      "Vannes & Robinets",
+      "Vannes premium et accessoires pour réseaux de tuyauterie. Robinets à tournant sphérique, vannes encastrées, robinets à siège incliné et clapets anti-retour de haute qualité."
+    ],
+    "tools": [
+      "Outils & Accessoires",
+      "Outils de soudage professionnels et accessoires pour l'installation PP-R. Découvrez les machines à souder, les coupe-tubes et les outils spéciaux."
+    ],
+    "transition-fittings": [
+      "Raccords de transition",
+      "Raccords de transition fiables pour des connexions sécurisées. Découvrez les raccords de transition en laiton avec filetage ou connexions à bride."
+    ]
+  },
+  "home": {
+    "chip": "vérifié depuis octobre 2025",
+    "h1a": "Leader dans",
+    "h1b": "les systèmes de tuyauterie PP-R K-Aqua",
+    "globeAria": "Globe interactif, glisser pour tourner",
+    "scrolly": [
+      {
+        "t": "Fabriqué en Allemagne",
+        "d": "Développement et production sur le site de Waldsolms pour chaque tuyau, chaque raccord."
+      },
+      {
+        "t": "d20 à d630",
+        "d": "Un système complet : cinq classes de pression, raccords, vannes et technique de soudage."
+      },
+      {
+        "t": "Triple certification",
+        "d": "ISO 9001, 14001 et 50001 : qualité, environnement et énergie issus d'un seul système de gestion."
+      },
+      {
+        "t": "27 marchés mondiaux",
+        "d": "De Francfort à NEOM : testés contre les normes et les profils d'eau locaux."
+      }
+    ],
+    "lead": "K-Aqua développe et fabrique des systèmes de tuyauterie PP-R et PP-RCT pour l'eau potable de 20 à 630 mm, en partenariat avec le fabricant premium KESSEL.",
+    "ctaProducts": "Découvrir la gamme de produits",
+    "ctaContact": "Nous contacter",
+    "toolsEyebrow": "Outils interactifs",
+    "toolsTitle1": "Pas de mur de texte.",
+    "toolsTitle2": "Des outils.",
+    "toolsLead": "Le site travaille pour vous : filtrez, calculez, apprenez.",
+    "bandTitle": "Prêt pour la prochaine génération d'approvisionnement en eau ?",
+    "bandLead": "Discutez de votre projet avec notre équipe de vente, de la planification à la technique de soudage.",
+    "bandBtn": "Démarrer une demande de projet",
+    "bandBtn2": "Téléchargements & Service"
+  },
+  "geo": {
+    "eyebrow": "Marchés & Emplacements",
+    "title1": "Un monde de",
+    "title2": "marchés.",
+    "lead": "Découvrez les sites K-Aqua pour les systèmes de tuyauterie PP-R : {n} marchés dans {c} pays, chacun avec sa propre page d'atterrissage sur les normes, le profil de l'eau, les cas d'utilisation et la logistique. Saisissez le monde et faites-le tourner librement ; la liste vous emmène directement à la ville.",
+    "all": "Tous",
+    "cityTitle": "Systèmes de tuyauterie PP-R/PPRCT à {city}.",
+    "cityLead": "Systèmes d'eau potable d20–d630, testés contre les exigences locales.",
+    "allMarkets": "Tous les marchés",
+    "request": "Demander un devis",
+    "finder": "Recherche de produits",
+    "fromPlant": "km depuis l'usine de Waldsolms",
+    "regFrame": "Cadre réglementaire",
+    "water": "Profil de l'eau & réponse matérielle",
+    "typical": "Projets typiques à {city}",
+    "onSite": "Traitement sur site",
+    "onSiteText": "Formation aux techniques de soudage et documentation vidéo pour votre équipe dans l'Academy.",
+    "toAcademy": "Aller à l'Academy",
+    "nearbyEyebrow": "Marchés connexes",
+    "nearby": "À proximité.",
+    "prodNote": "Note de production : Ces pages correspondent au modèle SEO programmatique (Tranche de données : Produit × Réglementation × Région). Dans Next.js, elles sont générées via ISR depuis le CMS Headless, incluant hreflang, le schéma Produit/Offre et le maillage interne sémantique.",
+    "km": "km",
+    "seoExpansion": "K Aqua fabrique à Waldsolms des systèmes de tuyauterie PP-R et PPRCT pour les exigences les plus élevées de la technologie mondiale du bâtiment et des installations. Grâce à une ingénierie allemande sans compromis et à une technologie de production de pointe, nos systèmes garantissent des décennies de fiabilité opérationnelle sans entretien. Chaque produit, du d20 au d630, subit des contrôles de qualité stricts et répond aux normes internationales telles que DVGW, KIWA et SKZ. Nous offrons non seulement des matériaux de première classe pour l'eau potable, le refroidissement et l'industrie, mais nous soutenons également les planificateurs et les installateurs avec un support technique complet et des formations sur site. Faites confiance à un système qui impressionne par son extrême longévité, son absence de corrosion et son hygiène absolue.",
+    "seoExpansionDynamic": "Découvrez-en plus sur nos solutions PP-R et PPRCT à {city}. Nous répondons aux normes locales ({regulator}) et offrons des systèmes optimaux pour la qualité de l'eau ({water}). Note supplémentaire : {note}.",
+    "cityMetaTitle": "Systèmes de tuyauterie PP-R à {city}",
+    "hubMetaTitle": "Systèmes de tuyauterie PP-R pour {country}",
+    "hubH1": "Solutions d'infrastructure pour {country}",
+    "hubLead": "K-Aqua propose des solutions d'infrastructure PP-R et PP-RCT certifiées pour {country}. Nos systèmes de tuyauterie répondent aux normes internationales les plus strictes et sont optimisés pour les défis spécifiques en {country}.",
+    "hubContextTitle": "Contexte régional : {context}",
+    "hubContextBody": "Nos systèmes de tuyauterie K-Aqua PP-R/PP-RCT de production allemande fournissent des solutions d'infrastructure durables pour {country}. Ils sont spécialement conçus pour relever les défis infrastructurels locaux.",
+    "hubCitiesTitle": "Sites locaux & villes de référence",
+    "hubs": {
+      "deutschland": {
+        "description": "En tant que marché intérieur de K-Aqua, l'Allemagne a les plus hautes exigences en matière de qualité de construction et de longévité. Nos <span class=\"font-semibold\">systèmes de tuyauterie PP-R et PP-RCT</span> s'attaquent efficacement et durablement à l'important retard de rénovation des infrastructures allemandes d'eau potable et de chauffage. Grâce à des matériaux sans corrosion et certifiés DVGW, nous réduisons les coûts de maintenance et garantissons une hygiène maximale du système dans les grands projets municipaux, commerciaux et privés pendant des décennies.",
+        "metaDesc": "Systèmes de tuyauterie PP-R/PP-RCT certifiés pour l'Allemagne. L'ingénierie allemande contre le retard de rénovation des infrastructures d'eau potable et de chauffage."
+      },
+      "oesterreich": {
+        "description": "En Autriche, la topographie exigeante et les réglementations environnementales strictes requièrent des solutions d'infrastructure sans compromis. Nos <span class=\"font-semibold\">systèmes de tuyauterie K-Aqua</span> offrent une qualité premium pour des réseaux durables d'eau et de chauffage urbain dans les régions alpines. Avec une sécurité certifiée ÖVGW et une isolation thermique exceptionnelle, nos tuyaux PP-R et PP-RCT garantissent une performance à l'épreuve du gel et de la pression, même dans les conditions climatiques les plus extrêmes des Alpes.",
+        "metaDesc": "Systèmes de tuyauterie PP-R/PP-RCT premium pour l'Autriche. Solutions résistantes au gel et à la pression pour les réseaux d'eau et de chauffage urbain dans les régions alpines."
+      },
+      "schweiz": {
+        "description": "La Suisse est synonyme de précision, de durabilité et des normes de qualité les plus élevées. <span class=\"font-semibold\">Les systèmes PP-R et PP-RCT de K-Aqua</span> répondent à ces exigences grâce à une pureté des matériaux de première classe et une sécurité alimentaire certifiée SVGW. Nos tuyaux en plastique entièrement recyclables et optimisés pour le débit permettent une technologie sanitaire et de climatisation écoénergétique pour des projets de construction Minergie d'avant-garde dans toute la Suisse.",
+        "metaDesc": "Systèmes de tuyauterie PP-R/PP-RCT de première classe pour la Suisse. Tuyaux en plastique recyclables et certifiés SVGW pour des projets de construction Minergie durables."
+      },
+      "uae": {
+        "description": "Dans les conditions climatiques extrêmes des Émirats arabes unis, l'eau est la ressource la plus précieuse. <span class=\"font-semibold\">Les systèmes de tuyauterie K-Aqua PP-R/PP-RCT</span> offrent une protection ultime contre la corrosion et l'entartrage, même en cas d'utilisation d'eau de mer dessalée (osmose inverse). Nos tuyaux haute performance, résistants aux UV et à la chaleur, assurent un approvisionnement en eau durable dans les gigantesques mégaprojets et gratte-ciel de Dubaï et d'Abou Dabi.",
+        "metaDesc": "Systèmes de tuyauterie PP-R/PP-RCT résistants aux UV et à la chaleur pour les EAU. Protection maximale contre la corrosion et l'entartrage dans les climats désertiques."
+      },
+      "ksa": {
+        "description": "Dans le cadre de la Vision 2030, l'Arabie saoudite transforme l'ensemble de ses infrastructures. <span class=\"font-semibold\">K-Aqua fournit l'infrastructure essentielle de l'eau</span>. Nos tuyaux PP-RCT de grand calibre assurent une distribution d'eau sûre, sans fuite et efficace dans de nouvelles villes intelligentes comme NEOM. Certifiés selon les normes internationales, nous garantissons un fonctionnement ininterrompu à des températures ambiantes extrêmement élevées.",
+        "metaDesc": "Systèmes de tuyauterie PP-RCT de grand calibre pour l'Arabie saoudite. Infrastructure d'eau fiable pour la Vision 2030 et les mégaprojets comme NEOM."
+      },
+      "singapur": {
+        "description": "En tant que l'une des cités-États high-tech les plus densément peuplées d'Asie, Singapour a besoin de technologies du bâtiment hautement efficaces et peu encombrantes. <span class=\"font-semibold\">Les systèmes de tuyauterie innovants de K-Aqua</span> soutiennent les objectifs ambitieux de Singapour en matière de bâtiments écologiques (Green Building) grâce à des pertes de pression considérablement réduites et des propriétés thermiques optimales. De la climatisation des gratte-ciel (eau glacée) à l'approvisionnement en eau potable ultra-pure, nous établissons des normes en Asie.",
+        "metaDesc": "Tuyaux PP-R/PP-RCT efficaces pour les Green Buildings de Singapour. Systèmes spécialisés pour l'eau glacée et l'approvisionnement en eau potable ultra-pure."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, leader dans l'approvisionnement en eau. Systèmes de tuyauterie PP-R/PP-RCT pour l'eau potable, fabriqués par KWT GmbH à Waldsolms.",
+    "colTools": "Produits & Outils",
+    "colCompany": "Entreprise",
+    "colContact": "Contact",
+    "directions": "Accès & Emplacement",
+    "rights": "Tous droits réservés.",
+    "imprint": "Mentions légales",
+    "privacy": "Confidentialité",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Allemagne",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Demander un devis",
+    "badges": [
+      {
+        "t": "Certifié SKZ",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "Normes des tuyaux PP-R"
+      },
+      {
+        "t": "Durabilité",
+        "s": "Respectueux de l'environnement"
+      },
+      {
+        "t": "Système GENAU",
+        "s": "Gestion intégrée"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Production à Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Webdesign par Coday",
+        "Un projet de la Coday Web Agency",
+        "Coday Web Agency",
+        "Digitalisé par Coday"
+      ],
+      "srDesc": "Ce site web a été conçu et techniquement réalisé par la Coday Web Agency, experts en webdesign et GEO en Hesse.",
+      "linkTitle": "Vers Coday Web Agency - Webdesign Premium"
+    }
+  },
+  "regions": {
+    "dach": "DACH (Allemagne, Autriche, Suisse)",
+    "europa": "Europe",
+    "nahost": "Moyen-Orient",
+    "global": "Afrique & Asie-Pacifique"
+  },
+  "catalogx": {
+    "eyebrow": "Catalogue complet de produits",
+    "faqTitle": "Foire aux questions",
+    "title": "Toutes les 79 familles d'articles, avec de vrais numéros d'articles.",
+    "lead": "Tuyaux, raccords, raccords de transition, vannes, selles à souder, accessoires et outils, chaque ligne provient du catalogue officiel K Aqua. Choisissez une catégorie, développez un article, vérifiez le numéro d'article.",
+    "searchPlaceholder": "Rechercher par numéro d'article ou nom de produit, ex. « AQ200P20 » ou « Elbow »",
+    "noResults": "Aucun résultat. Modifiez votre recherche ou choisissez une autre catégorie.",
+    "codesLabel": "Numéros d'articles",
+    "sizesLabel": "Tailles",
+    "materialLabel": "Matériau",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Série",
+    "pressureLabel": "Pression de service",
+    "lenLabel": "Longueur de barre",
+    "cats": {
+      "pipes": {
+        "label": "Tuyaux",
+        "desc": "Tuyaux PPR et PPRCT : standard, renforcés de fibres et stabilisés aux UV, 12 séries."
+      },
+      "fittings": {
+        "label": "Raccords",
+        "desc": "Raccords à souder par emboîtement et électrosoudables, d20–d125, 13 familles d'articles."
+      },
+      "transitionFittings": {
+        "label": "Raccords de transition",
+        "desc": "Transitions vers filetage et laiton, pour les connexions existantes et les vannes, 13 familles."
+      },
+      "valves": {
+        "label": "Vannes",
+        "desc": "Vannes à bille, vannes encastrées, collecteurs, 9 familles d'articles."
+      },
+      "weldInSaddles": {
+        "label": "Selles à souder",
+        "desc": "Dérivations sans coupe de tuyau, avec et sans filetage, 3 familles."
+      },
+      "accessories": {
+        "label": "Accessoires",
+        "desc": "Colliers de serrage, contre-brides, joints, bouchons : 5 familles d'articles."
+      },
+      "tools": {
+        "label": "Outils",
+        "desc": "Coupe-tubes, machines et outils de soudage pour les quatre méthodes d'assemblage, 14 familles."
+      }
+    },
+    "rfq": {
+      "title": "Demande de projet",
+      "desc": "Demandez directement un devis pour <span class=\"font-semibold\">{title}</span>.",
+      "button": "Vers la demande"
+    },
+    "similar": {
+      "title": "Plus de {category}"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "Le K Pipe PPR SDR 6 est un tuyau haute performance de notre vaste catégorie de systèmes de tuyauterie. Il est conçu pour transporter des fluides complexes de manière sûre et efficace.",
+        "seo_p2": "Ce tuyau est fabriqué en PPR durable et est conçu avec la classification SDR 6 (série S 2.5) pour une pression de service élevée allant jusqu'à 2,0 MPa à 20°C. La longueur standard de 4 mètres permet une installation rapide.",
+        "seo_p3": "Grâce à son excellente résistance chimique et thermique, le tuyau SDR 6 est idéal pour les applications industrielles et l'approvisionnement en eau potable. La surface intérieure lisse minimise les pertes de pression et prévient les incrustations.",
+        "faq": [
+          {
+            "q": "Pour quelles températures de service le SDR 6 est-il adapté ?",
+            "a": "Il est conçu pour des températures de service continues allant jusqu'à 70°C et offre une résistance à la pression de 20 bars à 20°C."
+          },
+          {
+            "q": "Quels sont les avantages de la forte épaisseur de paroi ?",
+            "a": "La série SDR 6 (S 2.5) offre une résistance maximale à la pression et une stabilité mécanique pour les systèmes fortement sollicités."
+          },
+          {
+            "q": "Puis-je utiliser ce tuyau pour l'eau froide ?",
+            "a": "Oui, il est excellent pour les systèmes d'eau froide car la surface lisse empêche efficacement les incrustations et la croissance bactérienne."
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Le K Pipe PPRCT SDR 7.4 représente la nouvelle génération de systèmes de tuyauterie en plastique. Il combine des propriétés matérielles améliorées avec une épaisseur de paroi optimisée pour des débits maximaux.",
+        "seo_p2": "Fabriqué en PPRCT hautement cristallin, ce tuyau offre une pression nominale impressionnante de 2,0 MPa à 20°C en SDR 7.4 (S 3.2). L'épaisseur de paroi réduite permet de gagner du poids sans compromettre la stabilité.",
+        "seo_p3": "Les domaines d'application typiques incluent les systèmes complexes de chauffage, de climatisation et de plomberie. Grâce au matériau PPRCT, les installateurs bénéficient d'une résistance à long terme plus élevée, même à des températures plus élevées.",
+        "faq": [
+          {
+            "q": "Que signifie PPRCT par rapport au PPR ?",
+            "a": "PPRCT désigne une structure cristalline améliorée qui permet des pressions plus élevées à des températures plus élevées, rendant possibles des parois plus fines."
+          },
+          {
+            "q": "Le débit est-il plus élevé avec le SDR 7.4 ?",
+            "a": "Oui, grâce à l'épaisseur de paroi réduite du PPRCT, une capacité de débit jusqu'à 17 % supérieure est atteinte pour le même diamètre extérieur."
+          },
+          {
+            "q": "Le SDR 7.4 est-il adapté aux systèmes de chauffage ?",
+            "a": "Absolument, le matériau est extrêmement résistant thermiquement et donc idéal pour les conduites d'alimentation des systèmes de chauffage modernes."
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "Le K-Pipe PP-R SDR 11 est la solution standard pour diverses applications de plomberie et de chauffage. Il se caractérise par sa fiabilité et sa facilité de manipulation.",
+        "seo_p2": "Avec une classification SDR 11 (série S 5), ce tuyau en PP-R est certifié pour une pression de service de 1,2 MPa à 20°C. Les barres de 4 mètres peuvent être soudées de manière flexible et précise.",
+        "seo_p3": "Il est fréquemment utilisé dans les distributions d'eau froide et comme conduite polyvalente dans les services du bâtiment. Le joint soudé homogène garantit une étanchéité à vie sans faiblesses mécaniques.",
+        "faq": [
+          {
+            "q": "Le tuyau est-il adapté à l'eau froide et chaude ?",
+            "a": "Le tuyau SDR 11 est principalement conçu pour l'eau froide (20°C à 12 bars) et les applications d'eau chaude à basse pression (60°C à 6 bars)."
+          },
+          {
+            "q": "Comment le tuyau PP-R SDR 11 est-il installé ?",
+            "a": "L'installation se fait par soudage par emboîtement à élément chauffant, ce qui crée des joints absolument homogènes et sans fuites."
+          },
+          {
+            "q": "Y a-t-il des différences de poids par rapport aux autres classes SDR ?",
+            "a": "Oui, en raison de l'épaisseur de paroi plus faible, le tuyau est nettement plus léger et plus flexible à manipuler sur le chantier."
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "Le K-Pipe Purple PP-R SDR 11 de couleur violette sert à identifier clairement les systèmes de tuyauterie spécifiques. Il prévient les confusions lors de l'installation de circuits d'eau séparés.",
+        "seo_p2": "La couleur de signalisation violette indique généralement l'eau de service, l'eau de pluie ou les systèmes d'irrigation. Techniquement, il correspond au PP-R standard avec SDR 11 (1,2 MPa à 20°C) et offre la même haute qualité.",
+        "seo_p3": "L'utilisation de ce tuyau spécial augmente la sécurité du système et assure visuellement la séparation de l'eau potable et de l'eau de service conformément aux normes. Parfait pour les systèmes de gestion durable de l'eau.",
+        "faq": [
+          {
+            "q": "Que signifie la couleur violette ?",
+            "a": "Elle sert à différencier visuellement les systèmes de tuyauterie pour l'eau de service, les eaux grises ou l'utilisation des eaux de pluie selon les directives internationales."
+          },
+          {
+            "q": "Le tuyau peut-il être soudé avec des raccords PP-R normaux ?",
+            "a": "Oui, le tuyau violet est compatible avec tous les raccords standard K Aqua et est soudé avec les mêmes paramètres."
+          },
+          {
+            "q": "La couleur affecte-t-elle la qualité du matériau ?",
+            "a": "Non, les propriétés physiques et chimiques sont identiques à celles du tuyau standard PP-R SDR 11."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Le K-Fiber Pipe PPRCT SDR 7.4 est un tuyau composite de pointe renforcé de fibres. La couche de fibres intégrée réduit considérablement l'expansion linéaire.",
+        "seo_p2": "La base innovante en PPRCT est complétée par une couche intermédiaire en fibres. Avec le SDR 7.4 (S 3.2), le tuyau résiste à des pressions allant jusqu'à 2,0 MPa à 20°C, avec jusqu'à 50 % d'expansion thermique en moins.",
+        "seo_p3": "Cela fait de ce tuyau le choix parfait pour les colonnes montantes et les longs tracés dans les services du bâtiment, nécessitant moins de points de fixation, ce qui permet de gagner du temps d'installation et de réduire les coûts matériels.",
+        "faq": [
+          {
+            "q": "Dans quelle mesure la fibre réduit-elle l'expansion thermique linéaire ?",
+            "a": "La couche de fibre de verre intégrée réduit l'expansion linéaire jusqu'à 75 % par rapport aux tuyaux PP-R massifs."
+          },
+          {
+            "q": "Le tuyau en fibre doit-il être épluché avant le soudage ?",
+            "a": "Non, contrairement aux tuyaux Stabi avec une couche d'aluminium, notre tuyau en fibre peut être soudé directement et sans préparation."
+          },
+          {
+            "q": "Le tuyau est-il adapté aux colonnes montantes centrales ?",
+            "a": "Oui, grâce à sa rigidité inhérente extrêmement élevée et à sa résistance à la pression, c'est le choix optimal pour les grandes colonnes montantes."
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "Spécialisé pour les applications de refroidissement et de chauffage, le K-Fiberclima Pipe PPRCT SDR 11 offre des performances optimales pour les systèmes de climatisation. Il est conçu pour l'efficacité thermique et la stabilité.",
+        "seo_p2": "Le matériau PPRCT renforcé de fibres (SDR 11, S 5) assure un fonctionnement sûr à 1,6 MPa (20°C) et 0,8 MPa (70°C). Les parois plus fines permettent un débit extrêmement élevé.",
+        "seo_p3": "Ce tuyau montre ses atouts en particulier dans les grands systèmes CVC (chauffage, ventilation, climatisation). Il empêche la corrosion dans le circuit de refroidissement et assure un fonctionnement écoénergétique et sans entretien.",
+        "faq": [
+          {
+            "q": "Qu'est-ce qui rend le tuyau idéal pour l'eau froide de climatisation ?",
+            "a": "La faible conductivité thermique du PPRCT prévient la condensation beaucoup mieux que les tuyaux métalliques."
+          },
+          {
+            "q": "Comment se comporte-t-il avec la circulation d'antigel ?",
+            "a": "Il est extrêmement résistant aux glycols courants et aux antigels, prévenant les fuites dues à la fatigue du matériau."
+          },
+          {
+            "q": "Les tuyaux peuvent-ils être utilisés pour de grands débits ?",
+            "a": "Grâce à la paroi plus fine (SDR 11) avec une stabilité maximale, il permet des débits extrêmement importants dans les réseaux industriels."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "Le K-Fiber Pipe PP-R SDR 7.4 classique est la solution éprouvée lorsque le renforcement en fibres et la résistance extrême à la pression sont requis. Il minimise efficacement l'expansion thermique.",
+        "seo_p2": "En combinant le PP-R et la technologie des fibres, ce tuyau (SDR 7.4, S 3.2) atteint une pression de service maximale de 2,5 MPa à 20°C. Il offre une stabilité maximale pour les réseaux exigeants.",
+        "seo_p3": "Que ce soit dans la construction d'installations industrielles ou dans les systèmes complexes de circulation d'eau chaude, ce tuyau assure une installation rigide, sans déformation et une sécurité de fonctionnement optimale pendant des décennies.",
+        "faq": [
+          {
+            "q": "Le SDR 7.4 est-il approuvé pour les températures élevées ?",
+            "a": "Oui, il tolère des températures allant jusqu'à 70°C à une pression nominale de 1,0 MPa (10 bars) et des pointes à court terme de 95°C."
+          },
+          {
+            "q": "Combien de colliers de fixation sont nécessaires pour les longues distances ?",
+            "a": "Grâce au renforcement en fibres, les distances de fixation peuvent être considérablement augmentées par rapport aux tuyaux standards."
+          },
+          {
+            "q": "Y a-t-il des risques de corrosion avec des qualités d'eau variables ?",
+            "a": "Non, le matériau PP-R est 100 % sans corrosion et indépendant du pH du fluide transporté."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "Le K-Fiber Pipe PP-R SDR 9 comble l'écart entre les tuyaux en fibres standards et haute pression. Il offre un excellent équilibre entre capacité de débit et résistance à la pression.",
+        "seo_p2": "Avec la série S 4 (SDR 9), le tuyau en fibre PP-R est approuvé pour des pressions allant jusqu'à 2,0 MPa à 20°C. L'épaisseur de la paroi est optimisée pour des charges moyennes à élevées.",
+        "seo_p3": "Ce tuyau est souvent utilisé dans des projets commerciaux et industriels où les tuyaux conventionnels atteignent leurs limites, mais où les réserves extrêmes du SDR 7.4 ne sont pas encore nécessaires.",
+        "faq": [
+          {
+            "q": "Pourquoi choisir le SDR 9 au lieu du SDR 7.4 ?",
+            "a": "Le SDR 9 offre un excellent compromis entre une capacité de débit plus élevée (paroi plus fine) et une résistance extrême à la pression."
+          },
+          {
+            "q": "Peut-il être soudé avec des raccords PP-R standards ?",
+            "a": "Absolument, le tuyau en fibre SDR 9 est entièrement compatible avec nos raccords PP-R K Aqua SDR 6 et SDR 7.4."
+          },
+          {
+            "q": "Est-il approuvé pour l'approvisionnement en eau potable ?",
+            "a": "Oui, il répond à toutes les normes d'hygiène mondiales pour l'eau potable chaude et froide."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "Le K-Fiber Pipe PP-R SDR 11 est conçu pour des installations optimisées en poids tout en conservant leur forme. Il combine les avantages de la technologie des fibres avec un profil léger.",
+        "seo_p2": "Le matériau PP-R avec incrustation de fibres dans la classification SDR 11 permet des pressions allant jusqu'à 1,6 MPa à 20°C. Il offre une section interne optimale pour de grands volumes d'eau.",
+        "seo_p3": "Il est excellent pour l'eau froide de climatisation et les grandes lignes de distribution. L'installation est très rapide grâce au faible poids et aux distances de fixation réduites.",
+        "faq": [
+          {
+            "q": "Les temps de soudage sont-ils plus courts pour les tuyaux SDR 11 ?",
+            "a": "Oui, en raison de l'épaisseur de paroi réduite, les temps de chauffage sur l'élément chauffant sont plus courts, ce qui accélère le processus de travail."
+          },
+          {
+            "q": "Quelles sont les limites d'application pour ce tuyau SDR 11 ?",
+            "a": "Il est conçu pour des pressions maximales de 16 bars à 20°C et de 8 bars à 60°C."
+          },
+          {
+            "q": "Les systèmes de refroidissement bénéficient-ils de ce tuyau ?",
+            "a": "Oui, l'excellente valeur d'isolation minimise considérablement la perte d'énergie dans les réseaux de refroidissement."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "Le K-Fiber Pipe PP-R SDR 17 de grande dimension a été spécialement développé pour les grandes installations industrielles et les principaux réseaux d'alimentation. Il offre des sections d'écoulement massives.",
+        "seo_p2": "Avec des diamètres allant jusqu'à 200 mm et la série S 8 (SDR 17), ce tuyau supporte 1,0 MPa à 20°C. Le renforcement en fibres assure une grande stabilité dimensionnelle même avec ces grandes dimensions.",
+        "seo_p3": "Idéal pour les réseaux de refroidissement urbain, l'approvisionnement en eau municipal ou comme conduite montante principale dans les immeubles de grande hauteur. C'est l'alternative sans corrosion aux lourds tuyaux métalliques de grande dimension.",
+        "faq": [
+          {
+            "q": "Le SDR 17 est-il adapté aux réseaux haute pression ?",
+            "a": "Le SDR 17 (PN 10) est spécialement conçu pour les réseaux basse pression avec d'énormes débits, par ex. dans les réseaux de refroidissement urbain."
+          },
+          {
+            "q": "Comment connecter d'aussi grandes dimensions ?",
+            "a": "Les grands tuyaux (de 90 mm à 200 mm) sont de préférence connectés par soudage bout à bout à élément chauffant ou avec des manchons électrosoudables."
+          },
+          {
+            "q": "Quel est le principal avantage par rapport aux tuyaux en acier ?",
+            "a": "Le tuyau en PP-R ne rouille pas, pèse une fraction des tuyaux en acier et maintient de façon permanente une section d'écoulement parfaite."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "Le K-Fiber UV Pipe PP-R SDR 7.4 résout le problème de la dégradation par les UV pour les installations extérieures non protégées. Il dispose d'une couche extérieure spéciale résistante aux intempéries.",
+        "seo_p2": "En plus de la couche intermédiaire en fibres à stabilisation thermique et de la base PP-R (SDR 7.4, 2,0 MPa), la gaine UV protège le tuyau de manière permanente contre la lumière directe du soleil et les intempéries.",
+        "seo_p3": "Cela le rend parfait pour les installations sur les toits, les installations en plein air ou les lignes de pont. L'isolation supplémentaire ou la peinture pour la protection UV peuvent être complètement omises.",
+        "faq": [
+          {
+            "q": "Comment la protection UV est-elle obtenue sur ce tuyau ?",
+            "a": "Une couche extérieure noire spéciale, co-extrudée, absorbe et bloque les rayons UV nocifs avant qu'ils n'attaquent le matériau PP-R."
+          },
+          {
+            "q": "La couche UV doit-elle être retirée avant le soudage ?",
+            "a": "Non, comme il s'agit d'une couche de plastique homogène, elle est simplement fondue avec le raccord lors du soudage par emboîtement."
+          },
+          {
+            "q": "La durée de vie en extérieur est-elle limitée ?",
+            "a": "La couche de protection UV empêche la dégradation des polymères, de sorte que la durée de vie complète de 50 ans est garantie même en plein soleil."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Le tuyau premium K-Fiber UV Pipe PPRCT SDR 7.4 combine toutes les caractéristiques de pointe : matériau haute performance, renforcement en fibres et protection UV intégrée dans un seul produit.",
+        "seo_p2": "Basé sur du PPRCT pour la plus haute résistance à la température (jusqu'à 70°C à 1,0 MPa) et équipé d'une enveloppe résistante aux UV, ce tuyau SDR 7.4 est l'outil polyvalent ultime pour les conditions extrêmes.",
+        "seo_p3": "Que ce soit pour des lignes de connexion solaire, des tours de refroidissement sur des bâtiments industriels ou des installations extérieures exigeantes dans des climats chauds, ce tuyau garantit une durée de vie maximale sans fatigue matérielle.",
+        "faq": [
+          {
+            "q": "Ce tuyau combine-t-il la protection UV avec une capacité de débit plus élevée ?",
+            "a": "Oui, grâce au matériau PPRCT hautement cristallin, une épaisseur de paroi plus fine peut être utilisée, tandis que la couche UV offre une protection extérieure extrême."
+          },
+          {
+            "q": "Les raccords K Aqua résistants aux UV sont-ils disponibles ?",
+            "a": "Les raccords sont généralement protégés par une isolation, de la peinture ou du ruban de protection UV, tandis que les longs tracés de tuyaux sont protégés en usine."
+          },
+          {
+            "q": "Ce tuyau est-il adapté aux tours de refroidissement ?",
+            "a": "C'est le choix optimal, car il résiste en permanence à la fois au soleil brûlant et aux additifs chimiques de l'eau de refroidissement."
+          }
+        ]
+      }
+    }
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "dimension maximale de tuyau au programme"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "classes de pression : SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "qualité, environnement & énergie vérifiés"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "les déchets de production sont recyclés"
+      }
+    ],
+    "heroBadgeLabel": "Dimensions de tuyaux, SDR 6 à SDR 17",
+    "marquee": [
+      "Leader dans l'approvisionnement en eau",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Fabriqué à Waldsolms",
+      "100 % Recyclage",
+      "Partenaire : KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Recherche de produits",
+        "d": "Filtrer en direct plus de 170 variantes d'articles : dimension, SDR, épaisseur de paroi instantanément.",
+        "cta": "Filtrer maintenant"
+      },
+      {
+        "id": "co2",
+        "t": "Calculateur de CO₂",
+        "d": "Votre projet vs. cuivre, acier inoxydable et PVC, en arbres et kilomètres de voiture.",
+        "cta": "Calculer maintenant"
+      },
+      {
+        "id": "academy",
+        "t": "Académie + Quiz",
+        "d": "Quatre méthodes de soudage en vidéo, puis le quiz du maître soudeur.",
+        "cta": "Devenir maître"
+      },
+      {
+        "id": "references",
+        "t": "Globe des références",
+        "d": "Tourner la planète, découvrir des projets : de Waldsolms à Singapour.",
+        "cta": "Tourner le globe"
+      },
+      {
+        "id": "trust",
+        "t": "Centre de confiance",
+        "d": "Vérifier les certificats et constituer soi-même le pack de documents RFP.",
+        "cta": "Créer le pack"
+      },
+      {
+        "id": "career",
+        "t": "Calculateur d'avantages",
+        "d": "Ce que les extras exonérés d'impôt rapportent net, plus un test de compatibilité culturelle en 60 secondes.",
+        "cta": "Vérifier le net"
+      }
+    ],
+    "vsEyebrow": "La différence",
+    "vsTitle": "Standard de l'industrie vs. K Aqua numérique.",
+    "vsBadTitle": "Comment fait l'industrie",
+    "vsGoodTitle": "Comment fait K Aqua",
+    "vsBad": [
+      "Catalogues PDF de 220 pages sans recherche",
+      "Certificats uniquement sur demande écrite",
+      "Données techniques perdues dans des déserts de tableaux",
+      "Page carrière : une simple boîte aux lettres"
+    ],
+    "vsGood": [
+      "Recherche de produits : filtrer en quelques secondes",
+      "Centre de confiance : téléchargements en libre-service",
+      "Le calculateur de CO₂ transforme les données en arguments",
+      "Calculateur d'avantages + Compatibilité culturelle"
+    ],
+    "coEyebrow": "L'entreprise",
+    "coTitle1": "Fournisseur de matériaux de construction et fabricant :",
+    "coTitle2": "tout en un.",
+    "coLead": "KWT GmbH fabrique des tuyaux et des raccords en divers plastiques pour l'approvisionnement en eau, se positionnant ainsi dans la chaîne de valeur de la construction à la fois comme fournisseur et fabricant.",
+    "kesselTitle": "Partenariat solide avec KESSEL",
+    "kesselText": "Un partenariat étroit et de longue date nous lie au fabricant premium KESSEL, « Leading in drainage ». Nous portons cette expérience de plusieurs décennies vers l'avenir.",
+    "kesselCta": "Plus sur le partenariat",
+    "worldTitle": "Éprouvé dans le monde entier",
+    "worldText": "Les produits K Aqua ont fait leurs preuves d'innombrables fois au fil des décennies dans des projets du monde entier.",
+    "worldCta": "Globe des références",
+    "cards": [
+      {
+        "t": "Système de gestion GENAU",
+        "d": "Amélioration continue de la santé, de la sécurité au travail et de l'environnement selon DIN EN ISO 14001 et 50001."
+      },
+      {
+        "t": "Fabrication en Allemagne",
+        "d": "Développement et production sur le site de Waldsolms : la qualité, les coûts et les délais toujours en harmonie."
+      },
+      {
+        "t": "Responsabilité écologique",
+        "d": "La préservation des ressources et le respect de l'environnement font partie intégrante de notre conception de la qualité."
+      }
+    ],
+    "manifestTitle": "Notre mission",
+    "manifestText": "L'eau est notre ressource la plus précieuse. Nous la protégeons avec des systèmes de tuyauterie d'avant-garde.",
+    "grEyebrow": "Portée mondiale",
+    "grTitle1": "Routes commerciales",
+    "grTitle2": "internationales",
+    "grLead": "D'Allemagne au monde entier : Nos systèmes de tuyauterie K Aqua sont l'épine dorsale des mégaprojets les plus modernes du monde. De NEOM en Arabie saoudite aux installations industrielles hautement complexes de Singapour.",
+    "grHqLabel": "Siège & Production",
+    "grHqValue": "Allemagne (Francfort)",
+    "grExportLabel": "Marchés d'exportation clés",
+    "grExportValue": "Arabie saoudite (NEOM), EAU, Qatar, Amérique latine",
+    "grCta": "Découvrir les projets mondiaux"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "academy": {
+    "terminology": {
+      "meta": {
+        "title": "Förståelse av terminologi | K Aqua",
+        "desc": "Förstå den tekniska terminologin för rörledningssystem: SDR, Kavitation, Termisk Expansion och mer förklarat för ingenjörer och installatörer."
+      },
+      "hero": {
+        "badge": "Kunskapsdatabas: Terminologi",
+        "title1": "Språket i",
+        "title2": "Systemdesign.",
+        "desc": "För att bygga infrastruktur som håller i generationer måste man först behärska den fysikaliska terminologin bakom den. En guide till de mest kritiska parametrarna inom plaströrsteknik."
+      },
+      "intro": {
+        "title1": "Från materialvetenskap",
+        "title2": "till applikation.",
+        "desc": "Ett rör är inte bara en ihålig cylinder. Det är resultatet av komplexa termodynamiska beräkningar, polymerkemi och strömningsmekanik. Förstå krafterna som verkar på varje led i systemet.",
+        "items": [
+          {
+            "title": "Molekylär integritet",
+            "desc": "Vår PP-R/PPRCT-matris är syntetiserad för att motstå oxidation och kemisk nedbrytning över årtionden. Det säkerställer att materialet inte försprödas, även under ihållande termisk stress."
+          },
+          {
+            "title": "Kavitationsmotstånd & Strömningsmekanik",
+            "desc": "Genom en ultraglatt innervägg (råhet < 0,007 mm) minimerar K Aqua-rör strömningsmotståndet till nästan noll. Detta förhindrar bildandet av biofilm och eliminerar mikrokavitativa effekter vid höghastighetsflöden. Tryckförluster i systemet reduceras drastiskt, vilket maximerar energieffektiviteten för anslutna pumpsystem i industriell skala."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenklatur",
+        "title": "Tekniska parametrar.",
+        "lead": "De viktigaste begreppen inom industriell rörledningsteknik, destillerade till sin kärna.",
+        "items": [
+          {
+            "title": "PP-R (Polypropen Random Copolymer)",
+            "desc": "Den molekylära basen. En högkristallin termoplastisk polymer som erbjuder exceptionell motståndskraft mot höga temperaturer och tryck. Det är DNA:t i vår livslängd."
+          },
+          {
+            "title": "Linjär termisk expansion",
+            "desc": "Längdförändringen hos materialet vid temperaturförändringar. Våra fiberförstärkta rör reducerar detta värde till ett absolut minimum (α = 0,035 mm/mK), vilket enormt ökar den strukturella stabiliteten i schakt."
+          },
+          {
+            "title": "Kryphållfasthet",
+            "desc": "Systemets förmåga att stå emot konstant inre tryck vid specifika temperaturer över årtionden, utan att deformeras eller brista. K Aqua-rör kalibreras för 50+ år."
+          },
+          {
+            "title": "Tryckfallskoefficient",
+            "desc": "Ett matematiskt värde som beskriver energiförlusten i flödet på grund av friktion mot rörets innervägg. Genom nanoglatta ytor marginaliseras detta värde i K Aqua-system."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "Förhållandet mellan ytterdiametern (d) och väggtjockleken (s). Ett SDR 6-rör tål betydligt högre tryck än ett SDR 11-rör. Rätt val är avgörande för systemdesignen.",
+            "label": "50+ ÅR"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Regulatorisk hårdhet.",
+        "desc": "För oss är standarder inte föreskrifter, utan utgångspunkten för vår ingenjörskonst. En kronologi över de certifieringar och standarder som våra system inte bara uppfyller, utan dominerar.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Normativ bas",
+            "text": "Grunden för de tyska rörledningsstandarderna. Vi betraktar inte dessa standarder som ett mål, utan som ett absolut minimum. Våra interna toleranser är upp till 30 % strängare än vad DIN kräver."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Global provning",
+            "text": "Den internationella kvalitetsmärkningen för plaströrsystem för varm- och kallvatteninstallation. Ett bevis på våra systems kompromisslösa globala tillämpbarhet."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Standard Dimension Ratios",
+            "text": "Ett exakt förhållande mellan ytterdiameter och väggtjocklek. Våra ingenjörer kalibrerar varje batch för att garantera maximal tryckresistens vid optimalt flöde."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Hygien & Materialprovning",
+            "text": "Certifikat som intygar den absoluta lämpligheten för livsmedel och dricksvatten. Inga tungmetaller, ingen utlakning. Ren, okontaminerad flödesdynamik för de högsta hygieniska kraven."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Nedbrytningsmotstånd i extrema fall.",
+        "p1": "I industriella applikationer är det inte den normala driften som avgör kvaliteten på ett rörledningssystem, utan stabiliteten i gränsområdena. Kemisk korrosion, kavitation orsakad av tryckslag och termiska chocker är traditionella installationers naturliga fiender.",
+        "p2": "<strong>K Aqua-matrisen</strong> isolerar det flytande mediet från omgivningen genom ett inert barriärskikt. Inget jonbyte äger rum. Metalliska system bryts ner från det ögonblick vatten rinner genom dem. De offrar sig själva för att fungera. Vårt PP-R-system förblir obefläckat på insidan även efter decennier.",
+        "p3": "Begreppet <strong>Spänningssprickbildningsmotstånd</strong> (Environmental Stress Cracking Resistance, ESCR) är centralt inom polymerkemi. Vi modifierar molekylvikten i vår sampolymer så att den absorberar belastningstoppar istället för att gå sönder under dem. Resultatet är ett system som absorberar stötar, vibrationer och sättningar i byggnadskroppen.",
+        "p4": "Den som har förstått terminologin för rörledningsteknik förstår också varför kompromisser här kan innebära ruin. Tysk ingenjörskonst är inget tomt löfte, utan summan av exakta fysiska parametrar som vi manifesterar i varje enskild centimeter av vår produktion."
+      },
+      "cta": {
+        "title1": "Teorin är över.",
+        "title2": "Praktiken börjar.",
+        "desc": "Konfrontera våra ingenjörer med dina tuffaste tekniska krav. Vi levererar systemarkitekturen.",
+        "button": "Starta teknisk genomgång"
+      }
+    },
+    "eyebrow": "K Aqua Academy",
+    "title1": "Kunskap som",
+    "titleGrad": "förenar.",
+    "lead": "Fyra svetsmetoder på video och ett quiz som gör dig till svetsmästare. Kunskap som förenar. Optimerad för byggarbetsplatsen: stora mål, hög kontrast.",
+    "videos": [
+      {
+        "t": "Muffsvetsning för hand",
+        "s": "upp till d63: Handsvetsmaskin"
+      },
+      {
+        "t": "Muffsvetsning med maskin",
+        "s": "medelstora dimensioner"
+      },
+      {
+        "t": "Elektrosvetsning",
+        "s": "Elsvetsmuffar"
+      },
+      {
+        "t": "Stumsvetsning",
+        "s": "Stora dimensioner upp till d630"
+      }
+    ],
+    "quizEyebrow": "Svetsmästare-Quiz",
+    "quizTitle": "Fem frågor. Ett märke.",
+    "intro": "Testa din kunskap om PP-R/PPRCT-bearbetning. Felfri = Titeln \"Svetsmästare\".",
+    "start": "Starta quiz",
+    "qLabel": "Fråga",
+    "quiz": [
+      {
+        "q": "Vilken svetsmetod är standard för stora dimensioner (t.ex. d630)?",
+        "o": [
+          "Muffsvetsning för hand",
+          "Stumsvetsning (Butt Fusion)",
+          "Limning"
+        ]
+      },
+      {
+        "q": "Vad står SDR för inom rörsystem?",
+        "o": [
+          "Standard Dimension Ratio (d/s)",
+          "Static Density Rating",
+          "Säkerhets-Tryck-Reserv"
+        ]
+      },
+      {
+        "q": "Vad skiljer PPRCT från klassisk PP-R?",
+        "o": [
+          "Lägre pris",
+          "Modifierad kristallstruktur → mer temperatur- & tryckreserv",
+          "Metallisk förstärkning"
+        ]
+      },
+      {
+        "q": "Vilken återvinningskod har polypropen?",
+        "o": [
+          "Kod 3",
+          "Kod 5",
+          "Kod 7"
+        ]
+      },
+      {
+        "q": "Vid elektrosvetsning (Electrofusion) kommer värmen ...",
+        "o": [
+          "från en värmespegel",
+          "från inbäddade värmeslingor i rördelen",
+          "från varmluft"
+        ]
+      }
+    ],
+    "resPerfect": "Perfekt! Du förtjänar titeln \"Svetsmästare\"!",
+    "resGood": "Gediget! Titeln \"Svetsgesäll\" säkrad. För att bli mästare krävs alla fem rätt.",
+    "resLow": "Videon ovan hjälper. Sedan klarar du mästaren.",
+    "retry": "Försök igen",
+    "titlePerfect": "Svetsmästare",
+    "titleGood": "Svetsgesäll"
+  }
+}

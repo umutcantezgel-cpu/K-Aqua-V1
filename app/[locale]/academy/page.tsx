@@ -60,6 +60,7 @@ export default async function AcademyPage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx'])}>
       <JsonLd schema={jsonLd} />
       <div className="sr-only" aria-hidden="true">{meta[0]}</div>
+      <div className="sr-only" aria-hidden="true">{data.title1} {data.titleGrad}</div>
       <Academy data={data} />
       <AcademyDeep />
     </NextIntlClientProvider>

@@ -1,0 +1,207 @@
+    "bim": {
+      "title": "BIM údaje",
+      "metaDesc": "K Aqua BIM dáta: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Prístup k našej BIM databáze.",
+      "sticky": {
+        "items": [
+          {
+            "title": "Nemecké inžinierstvo",
+            "desc": "Zabezpečte svoj projekt potrubným systémom vyvinutým v Nemecku so zameraním na najvyššiu kvalitu, dlhú životnosť a spoľahlivosť."
+          },
+          {
+            "title": "Globálny dosah, lokálne prispôsobený",
+            "desc": "Získajte prístup ku komplexnému portfóliu produktov prispôsobených medzinárodným štandardom a požiadavkám."
+          },
+          {
+            "title": "Špičková podpora",
+            "desc": "Využite našu rozsiahlu technickú dokumentáciu a špecializovanú podporu, aby bol váš projekt úspešný."
+          },
+          {
+            "title": "BIM údaje priamo od výrobcu",
+            "desc": "Všetky údaje BIM sa spravujú a aktualizujú priamo v nemeckom Waldsolmse – dostanete spoľahlivé informácie z prvej ruky, ktoré si nevyžadujú detektívnu prácu v hĺbkovom formáte."
+          }
+        ]
+      },
+      "hero": {
+        "title1": "Návrh z",
+        "title2": "ďalšia generácia",
+        "lead": "Bezchybná virtuálna konštrukcia si vyžaduje bezchybné digitálne dáta.",
+        "p1": "V modelovaní informačných systémov budov (BIM) neexistujú polovičné opatrenia. Nepresne modelovaný komponent môže spustiť dominový efekt stretov s rozsahom celého projektu. Z tohto dôvodu sme každý jednotlivý komponent K-Aqua zdigitalizovali do natívnych BIM modelov vysokej hustoty.",
+        "p2": "Naše parametrické modely (Revit, IFC) sú viac než len čistá geometria. Každý objekt so sebou nesie celú DNA K-Aqua: tlakové triedy, termodynamické charakteristiky, prevádzkové teploty a hmotnosti. To umožňuje simulácie fyzického výkonu vo vašom softvéri v reálnom čase.",
+        "p3": "Eliminujeme zmätok pri koordinácii TZB. S údajmi K-Aqua je každý detail, od hĺbky prieniku zvárania v hrdle až po milimetrovo presnú stratu objemu prúdenia pri elektrofúznych tvarovkách, dimenzovaný tak presne, že váš virtuálny návrh môže byť priamo implementovaný na stavbe so 100% zhodou."
+      },
+      "bento": {
+        "eyebrow": "Ekosystém K Aqua BIM",
+        "title": "Potrubia: Inteligentné údaje.",
+        "lead": "Dodávame oveľa viac než len trojrozmerné tvary. Poskytujeme inžiniersku inteligenciu, ktorá zefektívňuje koordináciu projektov (Clash Detection).",
+        "items": [
+          {
+            "title": "Materiálové špecifikácie (PP-RCT)",
+            "desc": "Integrované údaje pre koeficienty tepelnej rozťažnosti, tepelnej vodivosti a hustoty materiálu pre presné simulačné analýzy."
+          },
+          {
+            "title": "Geometrická presnosť (LOD 400)",
+            "desc": "Vysoká úroveň detailov vrátane presnej hĺbky zasunutia a polomerov pre zvárané komponenty, čo zaručuje, že diely do seba zapadajú bez kolízií."
+          },
+          {
+            "title": "Výpočet dynamického tlaku",
+            "desc": "Modely obsahujú plynulé klasifikácie tlaku (triedy SDR), vďaka čomu môže softvér bezpečne analyzovať stratu tlaku a limity systému."
+          },
+          {
+            "title": "Kusovník (BOM)",
+            "desc": "Prepojené s našimi systémami s kódmi tovaru pre automatickú ťažbu kusovníka. Každé zváranie do objímky je zohľadnené."
+          },
+          {
+            "title": "Automatické smerovanie",
+            "desc": "Armatúry sa automaticky pridávajú a upravujú pri návrhu potrubia (Revit Auto-Route), čím ušetríte nespočetné hodiny času navrhovania."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Podporované formáty a platformy",
+        "desc": "Naše dáta bezproblémovo prispôsobíme pracovnému postupu, s ktorým už pracujete.",
+        "items": [
+          {
+            "title": "Autodesk Revit (.RVT / .RFA)",
+            "desc": "Dátovo bohaté skupiny objektov s plne parametrickým obsahom, vrátane konfigurovaných tráskových systémov."
+          },
+          {
+            "title": "IFC (Industry Foundation Classes)",
+            "desc": "Štandardný otvorený formát s kompletnou súpravou inžinierskych údajov pre aplikácie na akejkoľvek platforme BIM (napr. ArchiCAD, Allplan)."
+          },
+          {
+            "title": "AutoCAD MEP (.DWG)",
+            "desc": "Podrobné 3D (a 2D) inteligentné modely pre prostredia založené predovšetkým na CAD, pripravené na izometriu."
+          },
+          {
+            "title": "Navisworks (.NWD)",
+            "desc": "Pripravené súbory ideálne na rýchlu detekciu kolízií (Clash Detection) a plánovanie 4D virtuálnej konštrukcie."
+          },
+          {
+            "title": "Bentley MicroStation",
+            "desc": "Prispôsobené pre projekty veľkej infraštruktúry s natívnou kompatibilitou formátov a inštalačnými balíkmi pre prostredia DGN."
+          },
+          {
+            "title": "Trimble (SketchUp a SysQue)",
+            "desc": "Presné a ľahké modely, ktoré boli optimalizované pre návrh a výstupy konštrukcie orientované na realizáciu."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Začnite dizajn s dôverou.",
+        "desc": "Stiahnite si našu komplexnú knižnicu BIM a vneste priamo nemeckú inžiniersku presnosť do svojho ďalšieho modelu budovy.",
+        "btn1": "Vyžiadať knižnicu BIM",
+        "btn2": "Sprievodca integráciou modelu"
+      }
+    },
+    "common": {
+      "title": "Nemôžete nájsť presný dokument?",
+      "text": "Náš inžiniersky tím pre technickú podporu vám rád poskytne všetky certifikáty, testovacie protokoly alebo knižnice špecifické pre daný projekt, ktoré tu nie sú uvedené.",
+      "btn1": "Obráťte sa na podporu",
+      "btn2": "Preskúmajte vyhľadávač produktov"
+    },
+    "ausschreibungstexte": {
+      "metaTitle": "Špecifikačné texty / špecifikácie materiálu | K Aqua",
+      "metaDesc": "Právne zabezpečené špecifikácie materiálov K Aqua a výberové konania pre vaše projekty v súlade so štandardmi (GAEB, VOB/C, DIN) stiahnuť tu.",
+      "hero": {
+        "title1": "Nenapadnuteľný",
+        "title2": "Ponukové texty",
+        "lead": "Súdržnosť zmlúv je v MEP inžinierstve rovnako dôležitá ako fyzická súdržnosť.",
+        "p1": "V architektúre a inžinierstve priemyselných zariadení sú nejednoznačné špecifikácie pre TZB systémy obrovským existenčným rizikom. Jediné nepresné slovo vo vašom návrhu špecifikácie môže znamenať rozdiel medzi desaťročiami bezúdržbovej prevádzky – a katastrofickým poškodením vodou v 50-poschodovej výškovej budove.",
+        "p2": "Preto naše texty len tak nezaraďujeme k sebe, ale ich konštruujeme: Hovoríme o zmluvnom inžinierstve. Presne ako naše fyzické potrubia K-Aqua, aj naše digitálne texty sú vyvíjané a overované v Nemecku. Technickú prevahu premieňame na nepopierateľnú právnu a ekonomickú istotu pre architektov aj projektantov."
+      },
+      "bento": {
+        "eyebrow": "Architektúra údajov o rozpočte",
+        "title": "Špecifikácie, ktoré poskytujú ochranu.",
+        "lead": "Špeciálne kalibrované pre dizajnérov TZB (MEP) a vizionárskych inžinierov, ktorí netolerujú žiadne riziká vo fáze zadávania v megaprojektoch.",
+        "items": [
+          {
+            "title": "Úplný súlad s VOB/C a DIN 18381",
+            "desc": "Každá jednotlivá položka slúži na presné dodržanie najnovších regulačných noriem pre zadávanie zákaziek na stavebné práce (napr. v Nemecku a v medzinárodnom meradle v spojení s ISO). Sme schopní radikálne minimalizovať vaše riziko zodpovednosti zo strany VOB (Vergabe- und Vertragsordnung pre stavebné služby)."
+          },
+          {
+            "title": "Natívne výstupné formáty GAEB",
+            "desc": "Poskytujeme formáty XML, d81 a d83. Zabezpečujeme plnú kompatibilitu s vašimi preferovanými programami AVA (ako sú ORCA, RIB iTWO, Nevaris) bez straty formátovania – integrované hladko ako objímkové zvary."
+          },
+          {
+            "title": "Verzie neutrálne k značke a ochranné verzie",
+            "desc": "Dostupné pre verejné obstarávanie, v ktorom nie je možné špecifikovať K-Aqua priamo: získate prísne popisy profilov požiadaviek, ktoré automaticky vytláčajú produkty nižšej kvality a zabezpečujú štandard kvality neutrálny voči značke na našej úrovni."
+          },
+          {
+            "title": "Podrobná matica príslušenstva (Zubehör)",
+            "desc": "Od špecifických zváraných tvaroviek až po presne upevnené termodynamické potrubné objímky: plná integrácia ekosystému do ponuky úplne zabraňuje nočnej more nečakaných dodatočných poplatkov na stavenisku."
+          },
+          {
+            "title": "Plynulá podpora integrácie BIM",
+            "desc": "Dokonalá synapsia ponukových (výberových) textov spojená s našimi vysoko presnými modulmi Revit/IFC, ktoré uľahčujú skutočné a komplexné plánovanie projektu 5D pre inteligentnú kontrolu nákladov."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Anatómia dokonalého dizajnu.",
+        "desc": "Vo svete špecifikácií nenechávame nič na náhodu. Zistite, ako hlboko pokrývame inžiniersku realitu s ohromujúcim detailom:",
+        "items": [
+          {
+            "title": "Technológia potrubia s rozmerovým pomerom (SDR 6 / SDR 7.4)",
+            "desc": "Definícia PN 20 (tlak). Zložitá kompozitná štruktúra s vláknami znižuje lineárnu tepelnú rozťažnosť – špecifikované pre absolútnu toleranciu nulového napätia."
+          },
+          {
+            "title": "Inžinierstvo elektrofúzneho zvárania",
+            "desc": "Procesy spájania zahŕňajú plne zdokumentovanú automatizáciu parametrov zvárania elektrotvarovkou, ktorá odzrkadľuje 100% zhodu s neustálym tesnením."
+          },
+          {
+            "title": "Spojenia so závitom a prírubami",
+            "desc": "Špecifikácia nekompromisne vysokokvalitnej prémiovej mosadze s odolnosťou voči odzinkovaní (DZR), bezpečne zakorenenej v ochrannej vstrekovanej matrici PP-R."
+          },
+          {
+            "title": "Uzatváracie ventily a izolácia (Vlákno)",
+            "desc": "Guľové alebo iné bezúdržbové ventily s optimalizáciou CFD, prísne navrhnuté pre vyšší prietok tekutín s ochranou proti baktériám legionely."
+          },
+          {
+            "title": "Prepracované potrubia s viacerými bodmi",
+            "desc": "Popis hromadne vyrábaných vysoko prietokových rozvádzačov, ktoré poskytujú konštantný prísun tlakovej vody vo veľkých viacpodlažných komerčných inštaláciách."
+          },
+          {
+            "title": "Tepelná integrácia (napr. podľa GEG noriem)",
+            "desc": "Podrobná špecifikácia izolácií potrubí odolných proti roseniu, presne prispôsobených minimalizácii tepelných strát v súlade s normami pre energetickú účinnosť (napr. nemecký zákon GEG)."
+          },
+          {
+            "title": "Manžety protipožiarnej ochrany",
+            "desc": "Poskytujeme presné údaje o protipožiarnych manžetách podľa certifikácií R90/R120. Správne utesnenie okolo potrubí prechádzajúcich protipožiarnymi stenami a stropmi zachraňuje životy."
+          },
+          {
+            "title": "Optimalizovaná kotviaca technika",
+            "desc": "Špeciálne objímky a upevňovacie lišty s integrovaným odhlučnením s návrhom umožňujúcim pohlcovanie vypočítanej dĺžkovej rozťažnosti."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Aktivujte presnosť v dokumentoch.",
+        "desc": "Vstúpte do nášho aktualizovaného sťahovacieho centra s textami výberových konaní. Posuňte svoju zodpovednosť do bezpečnej zóny s dokumentáciou odolnou voči chybám pre váš ďalší medzinárodný projekt.",
+        "btn1": "Navštívte Knižnicu na stiahnutie",
+        "btn2": "Poraďte sa s naším tímom odborníkov"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Právna dokonalosť a neústupná bezpečnosť (VOB/C)",
+            "desc": "Na obrovskom ihrisku medzinárodných (a nemeckých) megaprojektov je svojvoľný výklad požiadaviek stelesneným nepriateľom. Každé zmeškané slovo, každý vágny termín zanecháva otvorené zadné dvierka pre právne riziká a ohrozuje vklady v hodnote miliónov. Naše popisy sú presne zosúladené s prísnymi toleranciami VOB/C a DIN 18381 (a ďalšími prekladmi pre medzinárodný obstarávateľský kódex). Technické medzery – bez ohľadu na to, aké sú malé – sú hermeticky utesnené. Zaručená kvalita, ktorú navrhujete v ateliéri, prežije v surovom prostredí výstavby s dokonalým právnym štítom."
+          },
+          {
+            "title": "Technická interoperabilita (GAEB a ÖNORM)",
+            "desc": "Špičkové inžinierstvo potrebuje bezproblémový prenos dát. Manuálne zadávanie textu vedie k zlyhaniu ľudského faktora; K Aqua prenos nie. Vďaka našej plnej integrácii a prispôsobivosti strojovo čitateľným formátom ako GAEB (90/2000/XML), Datanorm alebo ÖNORM je čas vývoja znížený až o 40 %. Poskytujeme bezchybné reťazce digitálnych procesov bez kopírovania a vkladania špagetového textu do softvérov na zadávanie zákaziek ako RIB, ORCA alebo Nevaris."
+          },
+          {
+            "title": "Nekompromisná definícia materiálu: Kopolymér typu 3 (PP-R)",
+            "desc": "Komerčná infraštruktúra vody slúži ako krvné cievy modernej budovy. Vo vašich textoch musí byť uvedené správne molekulárne inžinierstvo K Aqua. Prísne definovaním vlastností kompozitu zo sklenených vlákien, procesov spájania podľa noriem DVS a presných teplotných posunov (PP-R / PP-RCT), text chráni váš systém. Odstráni falšovateľov orientovaných na rozpočet (value engineering) a zabráni podradným plastom preniknúť k vysokotlakovým komerčným inštaláciám PN20."
+          },
+          {
+            "title": "Termodynamická a akustická presnosť",
+            "desc": "Prémiová architektúra vyžaduje prémiovú fyziku. Profesionálny tender pokrýva nielen holý potrubný systém, ale celý fyzický ekosystém. Naše texty obsahujú podrobné špecifikácie koeficientov tepelných strát podľa zákona o energetike budov (GEG) / EnEV ako aj prísne rozmery zvukovej izolácie (DIN 4109). To zaisťuje, že váš systém je nielen extrémne odolný mechanicky, ale pracuje aj s vysokou termodynamickou účinnosťou a akustikou v absolútne prémiovom segmente (štandard šepotu)."
+          },
+          {
+            "title": "Metriky udržateľnosti (ESG a LEED)",
+            "desc": "Budúcnosť stavebníctva je kruhová a optimalizovaná pre CO2. Dnešné tendre musia preukázať ekologické štandardy. Texty K Aqua integrujú kompletné EPD (Environmental Product Declarations) a analýzy životného cyklu. Definujeme presnú ekologickú stopu, recyklovateľnosť a energetickú efektívnosť pri extrúzii. Dokonale sa hodí pre budovy, ktoré je potrebné testovať podľa DGNB, LEED, BREEAM alebo WELL. Špecifikujte zelený výkon, nielen zelené sľuby."
+          }
+        ]
+      }
+    }

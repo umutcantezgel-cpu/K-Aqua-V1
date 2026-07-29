@@ -1,0 +1,76 @@
+    "stakeRows": [
+      {
+        "stakeholder": "Glavni izvajalci",
+        "value": "Izvrševanje v roku z inštalacijskimi in predfabriciranimi sistemi z ničelno napako."
+      },
+      {
+        "stakeholder": "TGA Inženirji",
+        "value": "Fizično podprta gotovost v izračunih preko overjenih BIM podatkov."
+      },
+      {
+        "stakeholder": "Upravljavci objektov",
+        "value": "Odpravljena potreba po vzdrževanju infrastrukture in dolgoročna operativna varnost."
+      },
+      {
+        "stakeholder": "Investitorji",
+        "value": "Maksimiran ROI skozi 50-letne obratovalne cikle brez vmesnih prekinitev."
+      }
+    ],
+    "statEyebrow": "Surovi podatki",
+    "statTitle": "Merljiva moč",
+    "stats": [
+      {
+        "value": "50+",
+        "label": "Let življenjske dobe"
+      },
+      {
+        "value": "0%",
+        "label": "Korozija / Jamičasta korozija"
+      },
+      {
+        "value": "100%",
+        "label": "Moč zlitja s cevjo"
+      },
+      {
+        "value": "ISO",
+        "label": "9001, 14001, 50001"
+      }
+    ],
+    "statNote": "Podatki so preverjeni v našem notranjem laboratoriju za testiranje materialov.",
+    "instEyebrow": "Globalno certificiranje",
+    "instTitle": "Preverjeno in odobreno",
+    "inst": [
+      {
+        "name": "DVGW",
+        "desc": "Certifikacija higienskih standardov pitne vode (Nemčija)"
+      },
+      {
+        "name": "SKZ",
+        "desc": "Zavarovanje kakovosti za plastične komponente"
+      },
+      {
+        "name": "WRAS",
+        "desc": "Odobritev po predpisih o oskrbi z vodo (UK)"
+      },
+      {
+        "name": "KIWA",
+        "desc": "Mednarodni certifikat in zagotovilo kakovosti"
+      }
+    ],
+    "auditEyebrow": "Naše razumevanje revizije",
+    "auditTitle": "Strožji od standarda",
+    "auditLead": "Uradni standardi DIN in ISO definirajo našo spodnjo mejo. V naši proizvodnji gremo bistveno dlje.",
+    "audit": [
+      {
+        "title": "Nadzor vmesnega procesa",
+        "desc": "Samodejna meritev vsake cevi in vsakega fitinga med postopkom ekstruzije in brizganja s sistemom ultrazvočnega in laserskega senzorja."
+      },
+      {
+        "title": "Termodinamično testiranje",
+        "desc": "Dolgoročni tlaki in temperaturni cikli (nad 95°C) za potrditev napovedane 50-letne življenjske dobe v ekstremnih pogojih."
+      },
+      {
+        "title": "Mikrobiološka izolacija",
+        "desc": "Površine v naši seriji pitne vode so zasnovane za absolutno minimalno nastajanje biofilma v skladu s KTW smernicami."
+      }
+    ]

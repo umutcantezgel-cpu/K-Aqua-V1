@@ -1,0 +1,53 @@
+"catalogx": {
+  "eyebrow": "Πλήρης Κατάλογος Προϊόντων",
+  "faqTitle": "Συχνές Ερωτήσεις",
+  "title": "Όλες οι 79 οικογένειες προϊόντων, με πραγματικούς κωδικούς.",
+  "lead": "Σωλήνες, εξαρτήματα, μεταβάσεις, βαλβίδες, εργαλεία.",
+  "searchPlaceholder": "Αναζήτηση κωδικού ή προϊόντος",
+  "noResults": "Δεν βρέθηκαν αποτελέσματα.",
+  "codesLabel": "Κωδικοί",
+  "sizesLabel": "Μεγέθη",
+  "materialLabel": "Υλικό",
+  "sdrLabel": "SDR",
+  "seriesLabel": "Σειρά",
+  "pressureLabel": "Πίεση Λειτουργίας",
+  "lenLabel": "Μήκος",
+  "cats": {
+    "pipes": {
+      "label": "Rohre",
+      "desc": "PPR und PPRCT Rohre: Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+    },
+    "fittings": {
+      "label": "Formteile",
+      "desc": "Muffenschweiß und Elektroschweißformteile, d20–d125, 13 Artikelfamilien."
+    },
+    "transitionFittings": {
+      "label": "Übergangsfittings",
+      "desc": "Übergänge auf Gewinde und Messing, für Bestandsanschlüsse und Armaturen, 13 Familien."
+    },
+    "valves": {
+      "label": "Armaturen",
+      "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien, 9 Artikelfamilien."
+    },
+    "weldInSaddles": {
+      "label": "Einschweißsattel",
+      "desc": "Abzweige ohne Rohrtrennung, mit und ohne Gewinde, 3 Familien."
+    },
+    "accessories": {
+      "label": "Zubehör",
+      "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+    },
+    "tools": {
+      "label": "Werkzeuge",
+      "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+    }
+  },
+  "rfq": {
+    "title": "Αίτημα Έργου",
+    "desc": "Ζητήστε προσφορά για {title}.",
+    "button": "Αίτημα"
+  },
+  "similar": {
+    "title": "Περισσότερα από {category}"
+  }
+, "items": {

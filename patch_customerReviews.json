@@ -1,0 +1,14 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/sl.json",
+  "Instruction": "Patch customerReviews",
+  "Description": "Add missing keys in customerReviews",
+  "ReplacementChunks": [
+    {
+      "StartLine": 7672,
+      "EndLine": 7673,
+      "AllowMultiple": true,
+      "TargetContent": "      \"c1Author\": \"Daniel\"\n    }",
+      "ReplacementContent": "      \"c1Author\": \"Daniel\",\n      \"c2\": \"„**Zelo prijazno** in ustrežljivo osebje. E-poštna sporočila so **odgovorjena takoj**.“\",\n      \"c2Author\": \"Mohamed M.\",\n      \"c3\": \"„Od predsednika do preprostih delavcev: to so **dobri ljudje**.“\",\n      \"c3Author\": \"Azim\",\n      \"c4\": \"„**Odlično podjetje**, naredi veliko za svoje ljudi.“\",\n      \"c4Author\": \"Monika v. B.\",\n      \"c5\": \"„Zaposleni so **zelo prijazni in ustrežljivi**.“\",\n      \"c5Author\": \"Piera V.\",\n      \"c6\": \"„Strokovna ekipa in **odlična podpora strankam** na vseh ravneh.“\",\n      \"c6Author\": \"Sarah B.\"\n    },\n    \"ctaTitle\": \"Prepričajte se o naši storitvi.\",\n    \"ctaText\": \"Imate vprašanja o naših cevovodnih sistemih PPR ali želite z nami razpravljati o projektu? Naša ekipa iz Waldsolmsa je tu za vas.\",\n    \"ctaBtn\": \"Kontaktirajte nas zdaj\",\n    \"disclaimer\": \"Opomba o preverjanju ocen: Tukaj prikazane ocene izvirajo iz našega profila podjetja na Googlu. Google navaja: Ocene niso preverjene. Zaradi varstva podatkov (GDPR) smo imena avtorjev skrajšali.\""
+    }
+  ]
+}

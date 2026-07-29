@@ -1,0 +1,306 @@
+  "resources": {
+    "support": {
+      "title": "K Aqua Support",
+      "metaDesc": "Teknisk support och rådgivning för K Aqua-rörsystem. Våra experter hjälper dig med planering, installation och underhåll.",
+      "seoText": {
+        "p1": "Oavsett om det gäller komplexa rörledningsberäkningar eller monteringsfrågor på byggarbetsplatsen – vårt tekniska supportteam står vid din sida med djupgående expertis.",
+        "p2": "Vi erbjuder mer än bara produkter. Vi levererar kompletta lösningar och stöder dig genom varje fas av ditt projekt, från den första ritningen till den slutliga besiktningen.",
+        "p3": "Dra nytta av vår årtionden av erfarenhet inom bearbetning av PP-R. Vi hjälper dig att undvika fel, optimera prestanda och säkerställa en lång livslängd för ditt system."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Planering",
+            "desc": "Stöd vid dimensionering av rörnät, tryckfallsberäkningar och val av material."
+          },
+          {
+            "title": "BIM-Data",
+            "desc": "Direkt support för integration av våra Revit- och CAD-modeller i ditt TGA-projekt."
+          },
+          {
+            "title": "Svetsning",
+            "desc": "Tekniska riktlinjer och parametrar för perfekta muff- och stumsvetsningar."
+          },
+          {
+            "title": "Certifikat",
+            "desc": "Tillhandahållande av alla relevanta godkännanden, testcertifikat och materialdeklarationer."
+          }
+        ],
+        "eyebrow": "Dina kontaktpersoner"
+      }
+    },
+    "downloads": {
+      "kicker": "För planerare, arkitekter & utförare",
+      "title": "Biblioteket för <br /> systemingenjörer.",
+      "lead": "Du behöver inte gissa dig till K Aquas kvalitet. Bevisa det för dig själv. Teknisk data, CAD-modeller, anbudstexter (GAEB) och fullständiga listor över kemisk beständighet. Allt du behöver för att planera den perfekta tryckledningen.",
+      "all": "Alla",
+      "cad": "CAD-modeller (Revit / DWG)",
+      "tech": "Tekniska datablad",
+      "tender": "Anbudstexter (GAEB)",
+      "cert": "Godkännanden & Certifikat",
+      "cad_p1": "Importera våra rör och rördelar direkt till Revit eller AutoCAD.",
+      "cad_p2": "Milimeterexakt geometri och kollisionskontroll (BIM-ready).",
+      "tech_p1": "Djupdyk i termisk expansion, krypbeteende och viskositet.",
+      "tech_p2": "Inkluderar tabeller över kemisk beständighet för 300+ aggressiva medier.",
+      "tender_p1": "Rättssäkra, tillverkarspecifika och VOB-kompatibla (GAEB/ÖNORM).",
+      "tender_p2": "Eliminera kryphål i anbudsinbjudan och säkerställ premiumkvalitet.",
+      "cert_p1": "DVGW, SKZ, KIWA, och mycket mer. Originaldokumenten för besiktningar på byggarbetsplatsen.",
+      "cert_p2": "Inkluderar EPD:er och hälsointyg för hållbart byggande."
+    },
+    "bim": {
+      "hero": {
+        "kicker": "K Aqua BIM-Data",
+        "title": "Digitala tvillingar för din rörledning.",
+        "lead": "Planera med data, inte antaganden. Våra native Revit-familjer och 3D DWG-modeller är inte bara geometriskt exakta ner på millimetern – de innehåller alla termodynamiska och hydrauliska parametrar för perfekt kollisionskontroll och flödessimulering.",
+        "cta1": "Ladda ner hela paketet",
+        "cta2": "Kontakta BIM-support"
+      },
+      "manifesto": {
+        "title1": "Slutet på felaktig planering.",
+        "title2": "Byggt före första spadtaget.",
+        "p1": "I storskalig anläggningskonstruktion kan ett kollisionsfel bakom ett schakt som upptäcks för sent förstöra hela tidslinjen. Vi förstår att moderna arkitektur- och ingenjörsbyråer bygger ett projekt två gånger: först digitalt och därefter fysiskt.",
+        "p2": "Det är därför vi har skapat exakta digitala tvillingar av varje enskild K Aqua-rördel. De beter sig i simuleringen precis som det fysiska PP-R-materialet kommer att bete sig under press. Våra modeller är optimerade för prestanda: maximal datadensitet utan att överbelasta ditt renderingsprogram."
+      },
+      "bento": {
+        "eyebrow": "Modellfunktioner",
+        "title": "Klara för din mjukvara.",
+        "lead": "Inga importer med fel, inga skalningsproblem. Vi tillhandahåller data som sömlöst integreras i arbetsflödet hos professionella TGA-planerare.",
+        "items": [
+          {
+            "title": "Autodesk Revit (RFA/RVT)",
+            "desc": "Native parametriska familjer med korrekta anslutningspunkter (connectors) för automatisk rördragning och exakt fallberäkning i TGA-system."
+          },
+          {
+            "title": "AutoCAD (DWG/DXF)",
+            "desc": "Detaljerade 3D- och 2D-block för klassisk anläggningsplanering. Skalenliga, lagerstrukturerade och rensade för omedelbar integrering."
+          },
+          {
+            "title": "IFC Format",
+            "desc": "Öppen BIM-standard för plattformsoberoende samarbete. Perfekt för kollisionskontroll i Solibri eller Navisworks i tvärvetenskapliga team."
+          },
+          {
+            "title": "Inbyggd logik",
+            "desc": "Våra modeller vet sina gränser. Om du försöker böja ett PP-R-rör snävare än tillåten böjradie larmar systemet direkt."
+          },
+          {
+            "title": "Omfattande metadata",
+            "desc": "Artikelnummer, vikt (fylld/tom), tryckklasser och zeta-värden är direkt implementerade i objektet för automatiska materiallistor."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Detta ingår i datapaketet.",
+        "desc": "Ett nedladdningspaket ger dig omedelbart den kompletta katalogen i digital form. Från små hushållsrör till industriella flänsar.",
+        "items": [
+          {
+            "title": "Rör & Kompositrör",
+            "desc": "d20 upp till d125. Inkluderar expansionsvariabler för simulering av kall/varm längdutvidgning."
+          },
+          {
+            "title": "Böjar & Vinklar",
+            "desc": "45° och 90°, optimerade med korrekt internt motstånd för tryckfallsberäkningar."
+          },
+          {
+            "title": "T-kors & Förgreningar",
+            "desc": "Standard- och reducerade T-kors för perfekt avstickning utan felkalkylerade flödeshastigheter."
+          },
+          {
+            "title": "Övergångskopplingar",
+            "desc": "Plast till metall-övergångar (utvändig/invändig gänga) med exakta utrymmeskrav för montering med verktyg."
+          },
+          {
+            "title": "Ventiler & Kranar",
+            "desc": "Kulventiler och dolda ventiler, inklusive underhållsutrymme i modellen för att garantera framtida åtkomlighet."
+          },
+          {
+            "title": "Flänsar & Tätningar",
+            "desc": "Kompletta industriella anslutningar med exakt hålbild och skruvdimensioner för systemövergångar."
+          },
+          {
+            "title": "Korsningsstycken",
+            "desc": "Modellerade för korsande ledningar i trånga golv- eller vägginstallationer."
+          },
+          {
+            "title": "Fästelement",
+            "desc": "Klamrar och rörsvep för beräkning av fixerings- och glidpunkter längs rutten."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Redo för import.",
+        "desc": "Ladda ner det fullständiga arkivet för ditt CAD-system nu och börja planera rörnätet omedelbart. Filerna uppdateras kontinuerligt.",
+        "btn1": "Ladda ner CAD/BIM-data",
+        "btn2": "Till produktkatalogen"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Semantisk Routing",
+            "desc": "Våra Revit-familjer är utrustade med intelligenta routing-preferenser (Routing Preferences). Det innebär: När du drar ett rör virtuellt från punkt A till punkt B och gör en 90 graders böj, väljer programvaran automatiskt exakt rätt K Aqua-vinkel från katalogen, i rätt dimension. Detta automatiserade beteende sparar inte bara enormt mycket tid under grovplaneringen, utan förhindrar också att ingenjören använder rördelar som inte existerar i vårt verkliga sortiment."
+          },
+          {
+            "title": "Vätskedynamik inkluderad",
+            "desc": "Varje modell av en rördel har lagrade Zeta-värden (förlustkoefficienter). När du bygger ett komplext system för dricksvatten eller kyla i TGA-programmet, kan nätverkets hydraulik beräknas fullständigt. Du ser tryckfallet vid den mest avlägsna punkten i nätverket direkt i programvaran. Detta möjliggör exakt och energieffektiv dimensionering av tryckhöjningspumpar, utan att behöva lägga på onödiga säkerhetsmarginaler."
+          },
+          {
+            "title": "Underhålls- och monteringsutrymmen (Clearances)",
+            "desc": "Kollisionskontroll i 3D innebär mer än att rör inte får korsa varandra. Våra ventiler och svetsbara sadelförgreningar är försedda med osynliga 'Clearance'-zoner i modellen. Dessa zoner simulerar det utrymme montören behöver för svetsmaskinen eller skiftnyckeln. Om ett annat rör ligger i detta område under planeringen, markerar programmet detta som en kollision. Så säkerställer vi att systemet inte bara passar teoretiskt, utan också är praktiskt monteringsbart."
+          },
+          {
+            "title": "Automatiserade BoM (Bill of Materials)",
+            "desc": "Alla element är försedda med enhetliga K Aqua-artikelnummer och kortbeskrivningar. Med ett klick kan du extrahera hela stycklistan ur din modell. Denna lista motsvarar 100% vårt faktiska orderhanteringssystem. Avvikelsen mellan de planerade mängderna i systemet och de slutligen beställda delarna minimeras drastiskt, vilket effektivt förhindrar förseningar i bygget på grund av materialbrist."
+          },
+          {
+            "title": "Level of Detail (LOD 400)",
+            "desc": "Våra modeller är skalbara och certifierade enligt Level of Detail (LOD) 400. I den inledande designfasen representeras de förenklat för att hålla filstorleken nere och grafikkortet smidigt (LOD 200). Vid den slutliga genomförandeplaneringen visar de detaljer som gängstigningar och skruvhuvuden, vilket garanterar absolut förutsägbarhet inför tillverkning och montage. Prestanda när du behöver det, extrem detaljrikedom när det är nödvändigt."
+          }
+        ]
+      }
+    },
+    "common": {
+      "title": "Nedladdningar",
+      "search": "Sök dokument...",
+      "noResults": "Inga dokument hittades för \"{query}\"."
+    },
+    "ausschreibungstexte": {
+      "meta": {
+        "title": "K Aqua Anbudstexter (GAEB/ÖNORM)",
+        "desc": "Ladda ner VOB-kompatibla anbudstexter för K Aqua PP-R rörsystem. Tillgängliga i GAEB, ÖNORM och Datanorm för din AVA-mjukvara."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Steg 1",
+            "title": "Formatval",
+            "text": "Välj det datanorm- eller GAEB-format som din AVA-mjukvara (t.ex. ORCA, RIB iTWO) kräver."
+          },
+          {
+            "year": "Steg 2",
+            "title": "Nedladdning & Import",
+            "text": "Ladda ner paketet och importera det utan konverteringsförluster direkt till din anbudsprogramvara."
+          },
+          {
+            "year": "Steg 3",
+            "title": "Specifikation",
+            "text": "Integrera de rättssäkra modulerna i dina anbudsdokument."
+          },
+          {
+            "year": "Steg 4",
+            "title": "Anbud",
+            "text": "Publicera dina anbud med absolut säkerhet att materialkvaliteten är strikt definierad."
+          }
+        ],
+        "title": "Enkel integration.",
+        "desc": "Från nedladdning till färdigt anbud i fyra enkla steg. Våra filer är strukturerade för att minimera din manuella arbetsbörda."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Anbudstexter",
+        "title1": "Planering.",
+        "title2": "Juridiskt vattentät.",
+        "desc": "Överlåt inget åt slumpen. Våra GAEB/ÖNORM-anbudstexter definierar kraven så exakt att undermåliga material eller felaktigt utförande är juridiskt uteslutet redan från början.",
+        "cta1": "Ladda ner GAEB-texter",
+        "cta2": "Begär planeringsrådgivning"
+      },
+      "manifesto": {
+        "title1": "Slutet på tvetydighet.",
+        "title2": "Början på absolut kontroll.",
+        "p1": "Inom arkitektur för högbyggnation och industriell anläggningskonstruktion är vaga formuleringar den största existentiella risken. Ett enda oprecist ord i specifikationen kan vara skillnaden mellan ett decennielångt underhållsfritt system och katastrofala vattenskador i en 50-vånings skyskrapa.",
+        "p2": "Därför skriver vi inte bara anbudstexter, vi <span class=\"text-foreground font-medium font-semibold\">konstruerar</span> dem. Precis som varje enskild K Aqua-rördel är våra digitala datapaket utvecklade i Tyskland, och noggrant testade under extrema förhållanden. De översätter fysisk överlägsenhet till juridisk och ekonomisk oangriplighet."
+      },
+      "bento": {
+        "eyebrow": "Datans arkitektur",
+        "title": "Specifikationer som skyddar.",
+        "lead": "Utvecklade för VVS-planerare, arkitekter och visionära ingenjörer som inte kan tolerera några fel vid planering av miljardprojekt.",
+        "items": [
+          {
+            "title": "VOB/C & DIN 18381 kompatibel",
+            "desc": "Varje enskild punkt stämmer exakt överens med de senaste upphandlings- och avtalsreglerna för byggtjänster. Du är juridiskt helt säker och minimerar drastiskt riskerna för ansvar."
+          },
+          {
+            "title": "Native GAEB Formatt",
+            "desc": "XML, d81, d83. Perfekt importkompatibilitet för ORCA, RIB iTWO, Nevaris och alla standardiserade AVA-system. Inga syntaxfel, inga kringgående lösningar (workarounds)."
+          },
+          {
+            "title": "Tillverkarneutrala varianter",
+            "desc": "För offentlig upphandling erbjuder vi rättssäkra, absolut produktneutrala beskrivningar som sätter premiumstandarden utan att bryta mot upphandlingsregler."
+          },
+          {
+            "title": "Detaljerad tillbehörsmatris",
+            "desc": "Från komplexa rördelar till avstängningsventiler och termodynamiska rörsvep: Den fullständiga inventeringen av hela ekosystemet förhindrar dyra efterhandskrav."
+          },
+          {
+            "title": "BIM-Ready integration",
+            "desc": "Koppla sömlöst våra anbudstexter med våra mycket detaljerade Revit-modeller för kontinuerlig, kollisionsfri 5D-planering i realtid."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Anatomin av en specifikation.",
+        "desc": "Vi lämnar inget åt slumpen. Varje anbudspost är ett mästerverk av tysk ingenjörskonst komprimerad i textform. Här är vad våra texter täcker i detalj:",
+        "items": [
+          {
+            "title": "Rörsystem SDR 6 / SDR 7.4",
+            "desc": "PN 20. Fiberkompositteknologi med integrerad minimering av längdutvidgning för maximal formstabilitet."
+          },
+          {
+            "title": "Elektrosvetsmuffar",
+            "desc": "Helautomatisk svetsdokumentation och 100% homogena, oskiljaktiga och läckagesäkra anslutningar."
+          },
+          {
+            "title": "Övergångskopplingar",
+            "desc": "Avzinkningshärdig premiummässing (DZR), permanent och oförstörbart ingjuten i PP-R-matrisen."
+          },
+          {
+            "title": "Avstängningsventiler",
+            "desc": "Underhållsfria kul- och sätesventiler, flödesoptimerade och med minimerat dödutrymme för att förebygga legionella."
+          },
+          {
+            "title": "Fördelarsystem",
+            "desc": "Modulära, högkapacitetsfördelare för komplexa stigledningar och våningsanslutningar i stora projekt."
+          },
+          {
+            "title": "Isolering enligt byggnorm",
+            "desc": "Integrerade specifikationer för strikt förebyggande av värmeförlust och kondensbildning (underskridande av daggpunkt)."
+          },
+          {
+            "title": "Brandskyddsmanschetter",
+            "desc": "R90/R120-kompatibla, högreaktiva tätningssystem för säkra vägg- och takgenomföringar."
+          },
+          {
+            "title": "Systeminfästning",
+            "desc": "Exakta specifikationer för fasta och glidande punkter för kontrollerad absorption av termisk längdutvidgning."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Börja med specifikationen.",
+        "desc": "Få tillgång till vårt kompletta, ständigt uppdaterade bibliotek av anbudstexter. Garanterat felfritt, standardiserat och redo för användning i ditt nästa internationella megaprojekt.",
+        "btn1": "Till nedladdningsportalen",
+        "btn2": "Kontakta rådgivningsteamet"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Absolut rättssäkerhet (VOB/C)",
+            "desc": "I planeringen av internationella megaprojekt är tvetydighet fienden. Ett enda saknat ord i anbudsbeskrivningen kan innebära skillnaden mellan ett decennielångt underhållsfritt system och miljonskador. Våra anbudstexter är standardiserade på millimetern enligt VOB/C och DIN 18381. Varje artikel är så kalibrerad att tekniska kryphål, tolkningsutrymme och juridiska gråzoner är helt eliminerade. Detta garanterar att den kvalitet du specificerar på papper exakt är den kvalitet som installeras på byggarbetsplatsen."
+          },
+          {
+            "title": "100% GAEB- & ÖNORM-kompatibilitet",
+            "desc": "En modern planeringsprocess kräver sömlöst dataflöde. Våra datamängder är inte bara text, de är mycket strukturerade, maskinläsbara artefakter utformade för omedelbar integration i all professionell AVA-mjukvara (Anbud, Upphandling, Fakturering). Vi levererar native-format (GAEB 90, GAEB 2000, GAEB DA XML) samt Datanorm och ÖNORM. Inga konverteringsförluster. Ingen manuell omarbetning. Ett digitalt arbetsflöde som ökar effektiviteten i planeringsprocessen med upp till 40% och matematiskt utesluter överföringsfel."
+          },
+          {
+            "title": "Materialspecifikationen: PPR-C (Typ 3)",
+            "desc": "Vatteninfrastruktur är byggnadens nervsystem. Våra anbudstexter definierar tydligt och otvetydigt den överlägsna molekylstrukturen hos vår Polypropen Random Kopolymer (PPR-C Typ 3). De fixerar avgörande parametrar såsom kryphållfasthet, krypbeteende och termisk längdutvidgning. Det är bara med denna kompromisslösa detaljnivå du effektivt skyddar ditt projekt från sämre derivat och farliga kopior som oundvikligen skulle ge vika under topptryck på 20 bar eller vid temperaturfluktuationer."
+          },
+          {
+            "title": "Thermodynamisk och akustisk precision",
+            "desc": "Premiumarkitektur kräver premiumfysik. En professionell upphandling omfattar inte bara det nakna rörsystemet, utan hela det fysiska ekosystemet. Våra texter innehåller detaljerade specifikationer om värmeförlustkoefficienter enligt gällande energilagar (GEG/EnEV) samt strikta ljudisoleringsvärden (DIN 4109). Detta säkerställer att ditt system inte bara är mekaniskt extremt motståndskraftigt, utan också termodynamiskt mycket effektivt och fungerar akustiskt i det absoluta premiumsegmentet (viskande standard)."
+          },
+          {
+            "title": "Hållbarhetsmetrik (ESG & LEED)",
+            "desc": "Framtidens byggande är cirkulärt och koldioxidoptimerat. Anbud idag måste bevisa gröna standarder. K Aqua texter integrerar fullständiga miljövarudeklarationer (EPD) och livscykelanalyser. Vi definierar den exakta ekologiska fotavtrycket, återvinningsbarhet och energieffektivitet i extruderingen. Perfekt lämpad för byggnader som ska testas enligt DGNB, LEED, BREEAM eller WELL. Specificera grön prestanda, inte bara gröna löften."
+          }
+        ]
+      }
+    }
+  }

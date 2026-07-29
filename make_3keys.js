@@ -1,0 +1,135 @@
+const fs = require('fs');
+
+const data = {
+  "trustx": {
+    "stakeEyebrow": "Trust Center",
+    "stakeTitle": "Čísla namiesto sľubov.",
+    "stakeLead": "Naša otvorená kniha pre projektantov a inžinierov: Získajte všetky relevantné údaje z testov, certifikácie a modely pre návrhové systémy (BIM) priamo z prvej ruky, bez zdĺhavých dopytov od predaja.",
+    "stakeholders": [
+      {
+        "t": "Pre Inžinierov",
+        "d": "Modely pre AutoCAD a Revit, texty GAEB/VOB a údaje o tlakových stratách pre výpočet siete."
+      },
+      {
+        "t": "Pre Nákupcov",
+        "d": "Odolnosť, hrúbky stien a osvedčenia z laboratórií pre porovnania produktov s kovovými sieťami."
+      },
+      {
+        "t": "Pre Inšpektorov kvality",
+        "d": "Certifikáty ISO, SKZ, DVGW a KIWA. Dátumy platnosti a testovacie čísla priamo na stiahnutie."
+      }
+    ],
+    "certEyebrow": "Nezávisle testované",
+    "certTitle": "Trojitá certifikácia, bez slepých miest.",
+    "certLead": "Nie každé testovacie centrum meria to isté. Preto sa K Aqua vedome podrobuje požiadavkám DVGW pre pitnú vodu, skúškam SKZ pre odolnosť plastov voči starnutiu a normám KIWA v oblasti hygieny.",
+    "certs": [
+      {
+        "name": "DVGW",
+        "desc": "Certifikácia Nemeckého zväzu plynárenstva a vodárenstva potvrdzuje úplnú hygienickú bezpečnosť a dlhodobú stabilitu tlaku pre systémy pitnej vody."
+      },
+      {
+        "name": "SKZ",
+        "desc": "Juhonemecké plastové centrum (Süddeutsches Kunststoff-Zentrum) dôkladne testuje mechanické vlastnosti našich rúr v rámci extrémneho termického namáhania a zmien tlaku."
+      },
+      {
+        "name": "KIWA",
+        "desc": "Nezávislý testovací inštitút potvrdzuje, že potrubia a tvarovky K Aqua pre siete pitnej vody nepodporujú rast baktérií."
+      }
+    ],
+    "downEyebrow": "Centrum sťahovania (Downloads)",
+    "downTitle": "Technická dokumentácia.",
+    "downLead": "Získajte si svoj vlastný prehľad.",
+    "files": {
+      "katalog": "Hlavný katalóg K-Aqua",
+      "tech": "Technická príručka (Inštalácia & Parametre)",
+      "iso9": "Certifikát ISO 9001 (Kvalita)",
+      "iso14": "Certifikát ISO 14001 (Životné prostredie)",
+      "iso50": "Certifikát ISO 50001 (Energie)"
+    },
+    "lockedBtn": "Stiahnuť PDF",
+    "unlockedBtn": "Stiahnuť PDF",
+    "rfpEyebrow": "Pre projektantov a inžinierov",
+    "rfpTitle": "Balík textov pre verejné obstarávanie.",
+    "rfpLead": "Navrhujete stavebný projekt a potrebujete neutrálne texty pre verejné obstarávanie VOB/GAEB, prispôsobené pre PP-R a PP-RCT systémy? Náš balík pre projektantov obsahuje presné textové moduly a údaje pre návrhové systémy (BIM), ktoré môžete okamžite začať používať.",
+    "rfpIncludes": "Obsahuje:",
+    "rfpList": [
+      "Texty pre verejné obstarávanie kompatibilné s GAEB",
+      "Technické údaje",
+      "Materiálové charakteristiky a špecifikácie na stiahnutie",
+      "Dokumentácia k normám DIN 8077/8078 a ISO 15874"
+    ],
+    "rfpBtn": "Stiahnuť balík dokumentov",
+    "portalEyebrow": "BIM dátový portál",
+    "portalTitle": "Plánujte priamo v 3D.",
+    "portalLead": "Každý systémový diel K Aqua je k dispozícii ako digitálne dvojča, vďaka čomu sa do modelu budovy dostanú správne a presné prierezy, geometrie a tlakové triedy.",
+    "portalLink": "Otvoriť BIM portál na MEPcontent",
+    "contactTitle": "Nenašli ste svoj dokument?",
+    "contactLead": "Špecifické schválenia pre lode (DNV, Lloyd's) a špeciálne certifikáty krajín sú k dispozícii priamo od nášho inžinieringu na vyžiadanie.",
+    "contactBtn": "Kontaktovať technickú podporu"
+  },
+  "aboutx": {
+    "numEyebrow": "Nemecký inžiniering",
+    "numTitle": "Vyrobené v Strednom Hesensku.",
+    "numLead": "Sme nezávislý výrobca špecializujúci sa na potrubné systémy z polypropylénu so sídlom vo Waldsolmse v strednom Hesensku. Od roku 2013 tu vyrábame komplexné systémy pod taktovkou nemeckého inžinierstva, bez kompromisov.",
+    "numbers": [
+      {
+        "v": "30+",
+        "l": "Krajín",
+        "d": "Od strednej Európy až po Stredný východ a juhovýchodnú Áziu."
+      },
+      {
+        "v": "10",
+        "l": "Miliónov",
+        "d": "Produkovaných metrov potrubia z polypropylénu ročne."
+      },
+      {
+        "v": "13",
+        "l": "Rokov",
+        "d": "Zameranie na riešenia a vývoj výhradne na PP-R a PP-RCT od roku 2013."
+      }
+    ],
+    "facEyebrow": "Výrobné zariadenie vo Waldsolmse",
+    "facTitle": "Extrúzia na mikrometer presne.",
+    "facLead": "Vo Waldsolmse vyrábame v trojzmennej prevádzke na moderných nemeckých extrúznych strojoch. Týmto spôsobom zabezpečujeme stabilnú úroveň kvality pri úzkom prepojení laboratória a výrobného zariadenia.",
+    "fac1Title": "Vysokovýkonná extrúzia a stroje",
+    "fac1Text": "S vysokovýkonnými linkami typu KraussMaffei dosahujeme optimálnu taveninu - čo je predpokladom na to, aby boli vstrekované potrubia skutočne odolné. Laserové systémy na každej linke automaticky monitorujú špecifikácie.",
+    "fac2Title": "Kompletné portfólio z jedného zdroja",
+    "fac2Text": "Popri extrúzii potrubí od priemeru 20 mm až do d630 mm (SDR 11, SDR 9, SDR 7.4) u nás na formách od nemeckých a rakúskych konštruktérov vzniká aj najširšie portfólio tvaroviek vo svojej triede (Fittings). Každý cyklus je presne zdokumentovaný.",
+    "storyEyebrow": "Náš prístup k kvalite",
+    "storyTitle": "Zodpovednosť za každý meter.",
+    "storyLead": "Zlé potrubia odhalí čas, často až keď sa ukryjú v betóne. Preto kontrolujeme ich kvalitu ešte pred tým, ako opustia náš dvor.",
+    "story1Title": "Žiadne experimenty s materiálom",
+    "story1Text": "Pre nízke cenové tlaky mnoho výrobcov primiešava k polypropylénu nešpecifikované plnivá, čím znižuje odolnosť proti lomu a zhoršuje taviteľnosť. Používame len overené a certifikované PP-R kopolyméry (Typ 3) pre čistú a homogénnu taveninu, čo znamená skutočné molekulárne spojenie medzi rúrou a tvarovkou.",
+    "story2Title": "Plná dohľadateľnosť a laboratórne testy",
+    "story2Text": "Naše interné testovacie laboratórium kontroluje každú šaržu: index toku, čas indukcie oxidácie, skúšky ťahom a interné testovanie tlaku vo vodných kúpeľoch s teplotou 95 °C zabezpečujú odolnosť potrubí. Výsledkom sú extrémne presné rozmerové tolerancie podľa DIN 8077/8078 a dokonalá konzistencia materiálu v potrubí."
+  },
+  "partnerx": {
+    "ecoEyebrow": "Globálna sieť K Aqua",
+    "ecoTitle": "Ekosystém.",
+    "ecoLead": "Inštalácia v Dubaji. Podpora z Frankfurtu. Dôverujeme zavedenej, vzájomne sa rešpektujúcej spolupráci - s našimi dodávateľmi, distribučnými partnermi a nemeckými odborníkmi na plánovanie.",
+    "mapLabel": "Distribútori a partneri",
+    "valEyebrow": "Pre našich partnerov",
+    "valTitle": "Spolupráca namiesto diktátu podmienok.",
+    "valLead": "Budujeme dlhodobé, zmysluplné partnerstvá namiesto rýchlych jednorazových predajov.",
+    "values": [
+      {
+        "t": "Pre Distribútorov a Inštalatérov",
+        "d": "Odmeníme vaše regionálne znalosti spoľahlivými dodávkami priamo od výrobcu s vynikajúcimi podmienkami - od exkluzívnych distribučných práv po spoločný marketing a propagáciu."
+      },
+      {
+        "t": "Pre Inžinierske a Architektonické Kancelárie",
+        "d": "Od výberu prvej potrubnej siete v systémoch BIM až po verejné obstarávanie a finálnu stavbu: Pripravíme za vás dokumentáciu a prepočty strát trením, takže môžete spoľahlivo plánovať."
+      },
+      {
+        "t": "Pre Priemyselných Výrobcov a OEM Zákazníkov",
+        "d": "Naše znalosti materiálov pre špeciálne projekty: Potrebujete plastové potrubia integrovať priamo vo výrobe priemyselných strojov a máte prísne technické kritériá? Náš dizajn a laboratórne oddelenie vyvíjajú na mieru šité riešenia, presne v súlade so špecifikáciami komponentov."
+      }
+    ],
+    "distEyebrow": "Zastúpenie značky K-Aqua",
+    "distTitle": "Staňte sa našim certifikovaným distribútorom.",
+    "distLead": "Hľadáme veľkoobchodníkov a B2B predajcov s vynikajúcimi sieťami vo svojom regióne - od Ázie a Blízkeho Východu až po Afriku. Dávame vám do rúk potrubný systém najvyššej prémiovej triedy, spolu s predajným zaškolením, vzorkami a 10-ročnou systémovou zárukou.",
+    "distBtn": "Zaslať žiadosť o partnerstvo"
+  }
+};
+
+fs.writeFileSync('3keys_sk.json', JSON.stringify(data, null, 2));

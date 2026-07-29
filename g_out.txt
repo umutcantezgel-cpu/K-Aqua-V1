@@ -1,0 +1,109 @@
+    "glossar": {
+      "meta": {
+        "title": "Technisches Glossar | K Aqua",
+        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Fachbegriffe der PP-R Rohrtechnik."
+      },
+      "hero": {
+        "eyebrow": "Technisches Glossar",
+        "title1": "Terminologie der",
+        "title2": "Absoluten Sicherheit.",
+        "desc": "Willkommen im lexikalischen Kern der Rohrleitungstechnik. Hier decodieren wir die Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft und industrielle Autorität.",
+        "cta1": "Engineering kontaktieren",
+        "cta2": "Glossar erkunden"
+      },
+      "manifesto": {
+        "eyebrow": "Die Doktrin",
+        "title": "Die Architektur der Unfehlbarkeit.",
+        "lead": "Ein Rohrleitungssystem ist das kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet den infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht von Rohren, sondern von lebenswichtigen Industrie-Arterien. Jeder Begriff in diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+      },
+      "scroll": {
+        "eyebrow": "Kinematik & Materialwissenschaft",
+        "title": "Der K Aqua Prozess.",
+        "lead": "Von der molekularen Granulat-Ebene bis zur finalen Druckprüfung. Verstehen Sie die physikalischen Prinzipien, die unsere Systeme unzerstörbar machen.",
+        "items": [
+          {
+            "title": "Extrusionsdynamik unter Hochdruck",
+            "desc": "Die thermoplastische Verformung in unseren Werken unterliegt einer präzisen Temperaturkontrolle auf 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur, die mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- und Temperaturschwankungen absolut ausschließt. Wenn das Material unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
+          },
+          {
+            "title": "Hydrostatische Belastungstests",
+            "desc": "In unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt, die reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke, die jenseits jeder normativen Forderung liegen (bis zu 100 bar, abhängig von der SDR-Klasse). Dies sichert die Integrität der Schweißnähte und die molekular Elastizität des PP-R Materials über eine prognostizierte Lebensdauer von mehr als 50 Jahren in kritischen Infrastrukturen."
+          },
+          {
+            "title": "Polyfusions-Schweißtechnik",
+            "desc": "Verbindungen sind in herkömmlichen Systemen die Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. Auf molekularer Ebene verschmelzen Rohr und Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde, die korrodieren, keine Dichtungen, die versagen können. Das Resultat ist ein Rohrleitungssystem, das sich verhält, als wäre es aus einem einzigen Stück gegossen."
+          },
+          {
+            "title": "Kavitationsresistenz & Strömungsmechanik",
+            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Rohre den Strömungswiderstand gegen Null. Dies verhindert die Bildung von Biofilmen und eliminiert mikro-kavitative Effekte bei Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was die Energieeffizienz der angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenklatur",
+        "title": "Technische Parameter.",
+        "lead": "Die wichtigsten Vokabeln der industriellen Rohrleitungstechnik, destilliert auf ihre Essenz.",
+        "items": [
+          {
+            "title": "PP-R (Polypropylen Random Copolymer)",
+            "desc": "Die molekulare Basis. Ein hochkristallines thermoplastisches Polymer, das außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen und Drücke bietet. Es ist die DNA unserer Langlebigkeit."
+          },
+          {
+            "title": "Lineare thermische Ausdehnung",
+            "desc": "Die Längenänderung des Materials bei Temperaturwechsel. Unsere faserverstärkten (Faser) Rohre reduzieren diesen Wert auf ein absolutes Minimum (α = 0,035 mm/mK), was die strukturelle Stabilität in Schächten enorm erhöht."
+          },
+          {
+            "title": "Zeitstandfestigkeit",
+            "desc": "Die Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck bei spezifischen Temperaturen standzuhalten, ohne zu deformieren oder zu bersten. K Aqua Rohre werden auf 50+ Jahre kalibriert."
+          },
+          {
+            "title": "Druckverlust-Koeffizient",
+            "desc": "Ein mathematischer Wert, der den Energieverlust der Strömung durch Reibung an der Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert in K Aqua Systemen marginalisiert."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "Das Verhältnis zwischen dem Außendurchmesser (d) und der Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr. Die korrekte Wahl ist entscheidend für das System-Design.",
+            "label": "50+ YRS"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Regulatorische Härte.",
+        "desc": "Normen sind für uns keine Vorschriften, sondern der Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie der Zertifizierungen und Standards, die unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Normative Basis",
+            "text": "Die Grundlage der deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind bis zu 30 % strenger als von der DIN gefordert."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Globale Prüfung",
+            "text": "Das internationale Gütesiegel für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Standard Dimension Ratios",
+            "text": "Ein präzises Verhältnis von Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz bei optimaler Durchflussmenge zu garantieren."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Hygiene & Materialprüfung",
+            "text": "Zertifikate, die die absolute Lebensmittel- und Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik für höchste hygienische Ansprüche."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Zersetzungsresistenz im Extremfall.",
+        "p1": "In industriellen Applikationen entscheidet nicht der Normalbetrieb über die Qualität eines Rohrleitungssystems, sondern die Stabilität in den Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge und thermische Schocks sind die natürlichen Feinde herkömmlicher Installationen.",
+        "p2": "Die <span class=\"font-semibold\">K Aqua Matrix</span> isoliert das fluide Medium durch eine inerte Sperrschicht von der Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren von dem Moment an, in dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
+        "p3": "Der Begriff der <span class=\"font-semibold\">Spannungsrissbeständigkeit</span> (Environmental Stress Cracking Resistance, ESCR) ist in der Polymerchemie von zentraler Bedeutung. Wir modifizieren das Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen. Das Resultat ist ein System, das Erschütterungen, Vibrationen und Setzungen des Baukörpers absorbiert.",
+        "p4": "Wer die Terminologie der Rohrleitungstechnik verstanden hat, versteht auch, warum Kompromisse hier den Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern die Summe präziser, physikalischer Parameter, die wir in jedem einzelnen Zentimeter unserer Produktion manifestieren."
+      },
+      "cta": {
+        "title1": "Die Theorie beendet.",
+        "title2": "Die Praxis beginnt.",
+        "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
+        "button": "Engineering Briefing starten"
+      }
+    },

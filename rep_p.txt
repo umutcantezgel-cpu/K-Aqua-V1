@@ -1,0 +1,435 @@
+  "products": {
+  "narrative": {
+    "sizeRange": "",
+    "sizeSpecific": "",
+    "weights": "",
+    "packaging": "",
+    "rowCount": "",
+    "intro": "",
+    "outro": ""
+  },
+  "uniqueProductContext": "",
+  "heroDesc": "",
+  "articleNumbers": "",
+  "technicalSpecs": "",
+  "eyebrow": "",
+  "videoGuide": "",
+  "localAvailability": "",
+  "localDesc": "",
+  "allMarkets": "",
+  "title1": "",
+  "titleGrad": "",
+  "lead": "",
+  "ctaCatalog": "",
+  "ctaVideos": "",
+  "sysEyebrow": "",
+  "sysTitle": "",
+  "range": [],
+  "techEyebrow": "",
+  "techTitle": "",
+  "techLead": "",
+  "ctaFeatures": "",
+  "tableHead": [],
+  "tableRows": [],
+  "seoArticle": {
+    "pipes": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "seoTitle": "",
+      "faq": []
+    },
+    "fittings": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "seoTitle": ""
+    },
+    "valves": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "seoTitle": ""
+    },
+    "weldInSaddles": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "seoTitle": ""
+    },
+    "accessories": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "faq": [],
+      "seoTitle": ""
+    },
+    "tools": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": "",
+      "guideTitle": "",
+      "guideText": "",
+      "seoTitle": ""
+    },
+    "fallback": {
+      "areas": "",
+      "advTitle": "",
+      "advList": [],
+      "seoText": ""
+    }
+  },
+  "labels": {
+    "applicationAreas": "",
+    "advantages": "",
+    "technicalDescription": "",
+    "noResults": "",
+    "searchPlaceholder": "",
+    "faqTitle": "",
+    "faqFallbackQ1": "",
+    "faqFallbackA1": "",
+    "faqFallbackQ2": "",
+    "faqFallbackA2": "",
+    "faqFallbackQ3": "",
+    "faqFallbackA3": "",
+    "downloads": "",
+    "tds": "",
+    "tdsDesc": "",
+    "cert": "",
+    "certDesc": "",
+    "install": "",
+    "installDesc": "",
+    "range": "",
+    "rangeDesc": "",
+    "features": "",
+    "featuresDesc": ""
+  },
+  "specAndDim": "",
+  "certsAndNorms": "",
+  "approved": "",
+  "monitoring": "",
+  "certified": "",
+  "quickLinks": "",
+  "calcCo2": "",
+  "backToFinder": "",
+  "enterpriseCore": "",
+  "highPerformance": "",
+  "highPerformanceDesc": "",
+  "sysPressure": "",
+  "tempMax": "",
+  "material": "",
+  "norm": "",
+  "certification": "",
+  "lifespan": "",
+  "fiberTech": "",
+  "fiberTechDesc": "",
+  "compliance": "",
+  "dimensions": "",
+  "globalNetwork": "",
+  "globalNetworkDesc": "",
+  "whyChoose": "",
+  "tools": {
+    "metaTitle": "",
+    "metaDesc": "",
+    "heroEyebrow": "",
+    "heroTitle": "",
+    "heroSubtitle": "",
+    "heroDesc": "",
+    "heroBtnPrimary": "",
+    "heroBtnSecondary": "",
+    "bentoEyebrow": "",
+    "bentoTitle": "",
+    "bentoLead": "",
+    "bento1Title": "",
+    "bento1Desc": "",
+    "bento2Title": "",
+    "bento2Desc": "",
+    "bento3Title": "",
+    "bento3Desc": "",
+    "bento4Title": "",
+    "bento4Desc": "",
+    "scrollEyebrow": "",
+    "scrollTitle": "",
+    "scrollLead": "",
+    "scroll1Title": "",
+    "scroll1Desc": "",
+    "scroll2Title": "",
+    "scroll2Desc": "",
+    "scroll3Title": "",
+    "scroll3Desc": "",
+    "scroll4Title": "",
+    "scroll4Desc": "",
+    "timelineTitle": "",
+    "timelineDesc": "",
+    "timeline1Year": "",
+    "timeline1Title": "",
+    "timeline1Text": "",
+    "timeline2Year": "",
+    "timeline2Title": "",
+    "timeline2Text": "",
+    "timeline3Year": "",
+    "timeline3Title": "",
+    "timeline3Text": "",
+    "timeline4Year": "",
+    "timeline4Title": "",
+    "timeline4Text": "",
+    "specsTitle": "",
+    "specsP1": "",
+    "specsP2": "",
+    "specsList1": "",
+    "specsList2": "",
+    "specsList3": "",
+    "ctaTitle": "",
+    "ctaDesc": "",
+    "ctaBtn": "",
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    }
+  },
+  "valves": {
+    "metaTitle": "",
+    "metaDesc": "",
+    "heroEyebrow": "",
+    "heroTitle": "",
+    "heroSubtitle": "",
+    "heroDesc": "",
+    "heroBtnPrimary": "",
+    "heroBtnSecondary": "",
+    "manifestoTitle": "",
+    "manifestoP1": "",
+    "manifestoP2": "",
+    "scrollEyebrow": "",
+    "scrollTitle": "",
+    "scrollLead": "",
+    "scroll1Title": "",
+    "scroll1Desc": "",
+    "scroll2Title": "",
+    "scroll2Desc": "",
+    "scroll3Title": "",
+    "scroll3Desc": "",
+    "scroll4Title": "",
+    "scroll4Desc": "",
+    "showcaseEyebrow": "",
+    "showcaseTitle": "",
+    "showcaseP1": "",
+    "showcaseP2": "",
+    "showcaseList1": "",
+    "showcaseList2": "",
+    "showcaseList3": "",
+    "bentoEyebrow": "",
+    "bentoTitle": "",
+    "bentoLead": "",
+    "bento1Title": "",
+    "bento1Desc": "",
+    "bento2Title": "",
+    "bento2Desc": "",
+    "bento3Title": "",
+    "bento3Desc": "",
+    "bento4Title": "",
+    "bento4Desc": "",
+    "timelineEyebrow": "",
+    "timelineLead": "",
+    "timeline1Year": "",
+    "timeline1Title": "",
+    "timeline1Text": "",
+    "timeline2Year": "",
+    "timeline2Title": "",
+    "timeline2Text": "",
+    "timeline3Year": "",
+    "timeline3Title": "",
+    "timeline3Text": "",
+    "timeline4Year": "",
+    "timeline4Title": "",
+    "timeline4Text": "",
+    "timeline5Year": "",
+    "timeline5Title": "",
+    "timeline5Text": "",
+    "finalTitle": "",
+    "finalDesc": "",
+    "ctaTitle": "",
+    "ctaDesc": "",
+    "ctaBtnPrimary": "",
+    "ctaBtnSecondary": "",
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    }
+  },
+  "category": {
+    "allProducts": "",
+    "openInFinder": "",
+    "artNA": "",
+    "viewDetails": "",
+    "learnMoreKnowledge": "",
+    "learnMoreDesc": "",
+    "toKnowledgeBase": ""
+  },
+  "fittings": {
+    "meta": {
+      "title": "",
+      "desc": ""
+    },
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "intro": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "text1": "",
+      "text2": ""
+    },
+    "sticky": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "bento": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "timeline": {
+      "title": "",
+      "desc": "",
+      "items": []
+    },
+    "depth": {
+      "title": "",
+      "text": "",
+      "badge": ""
+    },
+    "cta": {
+      "title": "",
+      "desc": "",
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  "pipes": {
+    "meta": {
+      "title": "",
+      "desc": ""
+    },
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sticky": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "timeline": {
+      "title": "",
+      "desc": "",
+      "items": []
+    },
+    "bento": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "cta": {
+      "title": "",
+      "desc": "",
+      "primary": ""
+    }
+  },
+  "transitionFittings": {
+    "meta": {
+      "title": "",
+      "desc": ""
+    },
+    "hero": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "intro": {
+      "eyebrow": "",
+      "title": "",
+      "lead": ""
+    },
+    "sticky": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "bento": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "timeline": {
+      "title": "",
+      "desc": "",
+      "items": []
+    },
+    "stats": {
+      "eyebrow": "",
+      "title": "",
+      "lead": "",
+      "items": []
+    },
+    "cta": {
+      "title": "",
+      "desc": "",
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  "hero": {
+    "eyebrow": "",
+    "title1": "",
+    "title2": "",
+    "desc": ""
+  },
+  "sticky": {
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "items": []
+  },
+  "bento": {
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "items": []
+  },
+  "timeline": {
+    "title": "",
+    "desc": "",
+    "items": []
+  },
+  "sysLead": ""
+}
+}

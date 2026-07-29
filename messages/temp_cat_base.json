@@ -1,0 +1,53 @@
+{
+  "eyebrow": "Complete Product Catalog",
+  "faqTitle": "Frequently Asked Questions",
+  "title": "All 79 Article Families, with Real Article Numbers.",
+  "lead": "Pipes, fittings, transition fittings, valves, weld-in saddles, accessories, and tools, every line is taken from the binding K Aqua catalog. Select a category, expand the article, check the article number.",
+  "searchPlaceholder": "Search for article number or product name, e.g., \"AQ200P20\" or \"Elbow\"",
+  "noResults": "No results found, adjust search or select another category.",
+  "codesLabel": "Article Numbers",
+  "sizesLabel": "Sizes",
+  "materialLabel": "Material",
+  "sdrLabel": "SDR",
+  "seriesLabel": "Series",
+  "pressureLabel": "Operating Pressure",
+  "lenLabel": "Bar Length",
+  "cats": {
+    "pipes": {
+      "label": "Pipes",
+      "desc": "PPR and PPRCT pipes, standard, fiber-reinforced, and UV-stabilized, 12 series."
+    },
+    "fittings": {
+      "label": "Fittings",
+      "desc": "Socket fusion and electrofusion fittings, d20–d125, 13 article families."
+    },
+    "transitionFittings": {
+      "label": "Transition Fittings",
+      "desc": "Transitions to thread and brass, for existing connections and valves, 13 families."
+    },
+    "valves": {
+      "label": "Valves",
+      "desc": "Ball valves, concealed valves, manifold blocks, 9 article families."
+    },
+    "weldInSaddles": {
+      "label": "Weld-in Saddles",
+      "desc": "Branches without pipe separation, with and without threads, 3 families."
+    },
+    "accessories": {
+      "label": "Accessories",
+      "desc": "Pipe clamps, backing flanges, gaskets, plugs, 5 article families."
+    },
+    "tools": {
+      "label": "Tools",
+      "desc": "Pipe cutters, welding machines, and tools for all four joining methods, 14 families."
+    }
+  },
+  "rfq": {
+    "title": "Project Request",
+    "desc": "Request a quote directly for <span class=\"font-semibold\">{title}</span>.",
+    "button": "To Request"
+  },
+  "similar": {
+    "title": "More from {category}"
+  }
+}

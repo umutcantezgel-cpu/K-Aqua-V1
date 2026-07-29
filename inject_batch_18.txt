@@ -1,0 +1,181 @@
+,
+  "kontaktForm": {
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "160 1234567",
+    "phoneError": "Bitte Telefonnummer angeben",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "einkauf@firma.com",
+    "emailError": "Bitte gültige E-Mail angeben",
+    "chipsLabel": "Was benötigen Sie",
+    "send": "Anfrage senden",
+    "sendError": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut ili rufen Sie uns direkt an:",
+    "legal": "Keine Werbung, keine Weitergabe.",
+    "legalLink": "Zaštita podataka",
+    "doneTitle": "Danke, Ihre Anfrage ist da.",
+    "doneTitleSlim": "Danke, Anfrage ist da.",
+    "direct": "Eilig? Direktwahl",
+    "promise": "Antwort innerhalb eines Arbeitstages",
+    "ccAria": "Landesvorwahl",
+    "closeAria": "Schließen",
+    "fabAria": "Kontakt",
+    "interests": {
+      "rohrsysteme": "Rohrsysteme",
+      "trinkwassernetze": "Trinkwassernetze",
+      "bim": "BIM Daten",
+      "ersatzteile": "Ersatzteile",
+      "beratung": "Beratung"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "Hochleistungs-",
+    "heroTitleEm": "Rohrsysteme",
+    "heroLead": "za industrielle Anwendungen, Trinkwasserversorgung i Klimatizacija unter extremen Bedingungen.",
+    "telemetry": {
+      "pressureLabel": "Systemdruck",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Temperatur max.",
+      "tempNote": "PN20 · Dauerbetrieb",
+      "meta": [
+        [
+          "Materijal",
+          "K Aqua PP-R (Typ 3)"
+        ],
+        [
+          "Norm",
+          "DIN 8077/8078"
+        ],
+        [
+          "Zertifizierung",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Vek trajanja",
+          "> 50 Jahre"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "Faserverbund-Technologie",
+      "desc": "3-Schicht-Aufbau za minimierte Längsausdehnung i maximale Stabilität kod hohen Temperaturen.",
+      "ariaGroup": "Materialschichten",
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Außenschicht"
+        },
+        {
+          "t": "Faserverbund",
+          "d": "Mittelschicht"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Innenschicht"
+        }
+      ]
+    },
+    "comply": {
+      "title": "Compliance & Standardi",
+      "items": [
+        [
+          "DVGW",
+          "Pijaća voda-Zulassung"
+        ],
+        [
+          "SKZ",
+          "Güteüberwachung"
+        ],
+        [
+          "KIWA",
+          "Systemzertifizierung"
+        ],
+        [
+          "DIN 8077/8078",
+          "Rohrmaße & Toleranzen"
+        ]
+      ]
+    },
+    "rangeTitle": "Dimenzije",
+    "network": {
+      "title": "Globales Netzwerk",
+      "lead": "K Aqua Systeme sind weltweit u über 35 Ländern im Einsatz. od Waldsolms u   Welt.",
+      "chips": [
+        [
+          "35+",
+          "Länder"
+        ],
+        [
+          "3",
+          "Kontinente"
+        ],
+        [
+          "ISO",
+          "Zertifiziert"
+        ]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Industrielle Referenzprojekte",
+      "titlePlain": "Technik,   sich ",
+      "titleAccent": "beweist.",
+      "lead": "od Waldsolms u   Welt: K-Aqua PP-R i PP-RCT Systeme laufen seit Jahrzehnten u Hochhäusern, Krankenhäusern, Industrieanlagen i Schiffen, unter Bedingungen,   keinen zweiten Versuch zulassen. Technik,   sich beweist, u jedem Projekt.",
+      "cta1": "Referenzprojekte ansehen",
+      "cta2": "Prüfbericht anfordern"
+    },
+    "manifesto": {
+      "title": "Doktrin   Präzision",
+      "p1": "u einer Branche, u   Materialermüdung i Korrosion als unvermeidlich gelten, setzt unsere Fertigung einen anderen Maßstab. Wir betrachten jedes Rohr nicht als Bauteil, sondern als Ergebnis angewandter Werkstoffwissenschaft. Jede Charge PP-R Copolymer, jede Schweißnaht i jede Wanddicke durchläuft einen Prüfprozess,   Ausschuss lieber u Kauf nimmt als eine Toleranzüberschreitung.   ist   fundamentale Gesetz   <strong>K-Aqua Referenzklasse</strong>.",
+      "p2": "Unsere Systeme laufen u Umgebungen, u denen ein einziger Leckagepunkt   Betrieb eines ganzen Krankenhauses ili Hochhauses gefährdet. Wir setzen Langzeit-Innendruckprüfungen nach ISO 9080 nicht als Laborformalität ein, sondern als harte Vorgabe za jede freigegebene Dimension: Extrapolation na 50 Jahre Betriebsdauer kod spezifizierter Temperatur i Druckstufe: dokumentiert, nachvollziehbar, chargenrein zurückverfolgbar.",
+      "p3": "Wir verzichten bewusst na undurchsichtige Materialmischungen. Unsere Rezeptur ist über   gesamte Fertigungskette hinweg dokumentiert, od   Polymercharge do zur fertigen Rohrlänge. Wir kalibrieren Extrusionstemperaturen na   Grad genau, optimieren   Faserverbund-Mittelschicht gegen Längsausdehnung i protokollieren jede Heizwendel-Schweißung sa exakten Prozessparametern.   Resultat sind Systeme,   kod 70°C Dauerbetrieb i PN20 mühelos im Normbereich bleiben.",
+      "p4": "Qualitätssicherung ist kod uns kein nachgelagerter Prüfschritt, sondern Teil jeder Produktionsstufe. Durch   durchgängige Anwendung od DVGW-, SKZ- i KIWA-Zertifizierung na allen relevanten Dimenzije entziehen wir Ausfallrisiken proaktiv jede Angriffsfläche. Ein System,   nach DIN 8077/8078 gefertigt i dreifach zertifiziert ist, kann sich niemals als Schwachstelle erweisen."
+    },
+    "metrics": {
+      "eyebrow": "Technische Kennzahlen",
+      "title1": "Kompromisslose",
+      "title2": "Parameter",
+      "lead": "Unsere Systeme werden nicht beworben, sie werden geprüft. Dies sind   Kernkennzahlen unserer technologischen Doktrin.",
+      "items": {
+        "pressure": {
+          "title": "Langzeit-Druckprüfung nach ISO 9080",
+          "desc": "Jede freigegebene Dimension durchläuft Innendrucktests kod mehreren Temperaturstufen über tausende Betriebsstunden, extrapoliert na eine Regressionsgerade za 50 Jahre Vek trajanja.",
+          "placeholder": "Regressionskurve Langzeit-Innendruckprüfung"
+        },
+        "isolation": {
+          "title": "Lückenlose Chargen-Rückverfolgbarkeit",
+          "desc": "Jede Rohrlänge trägt eine Chargennummer,   do zur Polymer-Anlieferung zurückverfolgt werden kann, za lückenlose Dokumentation kod Bauabnahme i Gewährleistung."
+        },
+        "tolerance": {
+          "title": "Wanddicken-Toleranz im Mikrometerbereich",
+          "desc": "Kontinuierliche Ultraschall-Wanddickenmessung während   Extrusion hält jede Dimension exakt innerhalb   DIN 8077/8078 Toleranzfelder."
+        },
+        "network": {
+          "title": "Globales Vertriebs- i Servicenetz",
+          "desc": "od Waldsolms aus beliefern wir Projekte u über 35 Ländern i stellen technische Beratung, Schulung i Ersatzteilversorgung sicher, auch nach Bauabnahme.",
+          "placeholder": "Exportkarte K-Aqua Vertriebsnetz"
+        },
+        "welding": {
+          "title": "Kompromisslose Schweißnahtintegrität",
+          "desc": "Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen i Schliffbilder bestätigen   molekulare Verschmelzung od Rohr i Fitting: ohne Dichtungen, ohne Schwachstellen.",
+          "placeholder": "Schliffbild einer K-Aqua Muffenschweißverbindung"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Bereit za Ihr",
+      "title2": "nächstes Projekt",
+      "lead": "Planen Sie ein Hochhaus, eine Industrieanlage ili ein Krankenhausprojekt? Unsere Ingenieure erwarten Ihre Specifikacije sa belastbaren Prüfdaten statt Marketingversprechen.",
+      "btn1": "Prüfzertifikate anfordern",
+      "btn2": "Specifikacije senden"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  }

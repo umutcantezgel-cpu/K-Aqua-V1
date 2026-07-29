@@ -1,0 +1,1697 @@
+{
+  "catalogx": {
+    "eyebrow": "Pilns produktu katalogs",
+    "faqTitle": "Bieži uzdotie jautājumi",
+    "title": "Visas 79 preču grupas ar reāliem artikulu numuriem.",
+    "lead": "Caurules, veidgabali, pārejas savienojumi, armatūra, iemetināmie sēdekļi, piederumi un instrumenti, katra rinda ir no saistošā K Aqua kataloga. Izvēlieties kategoriju, atveriet preci, pārbaudiet artikula numuru.",
+    "searchPlaceholder": "Meklēt artikula numuru vai produkta nosaukumu, piemēram, \"AQ200P20\" vai \"Līkums\"",
+    "noResults": "Nav rezultātu. Pielāgojiet meklēšanu vai izvēlieties citu kategoriju.",
+    "codesLabel": "Artikulu numuri",
+    "sizesLabel": "Izmēri",
+    "materialLabel": "Materiāls",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Sērija",
+    "pressureLabel": "Darba spiediens",
+    "lenLabel": "Stieņa garums",
+    "cats": {
+      "pipes": {
+        "label": "Caurules",
+        "desc": "PPR un PPRCT caurules: standarta, ar stiklšķiedru pastiprinātas un UV stabilizētas, 12 sērijas."
+      },
+      "fittings": {
+        "label": "Veidgabali",
+        "desc": "Uzmavu un elektrosametināšanas veidgabali, d20–d125, 13 preču grupas."
+      },
+      "transitionFittings": {
+        "label": "Pārejas savienojumi",
+        "desc": "Pārejas uz vītnēm un misiņu, esošajiem pieslēgumiem un armatūrai, 13 grupas."
+      },
+      "valves": {
+        "label": "Armatūra",
+        "desc": "Lodveida vārsti, zemapmetuma vārsti, sadalītāju baterijas, 9 preču grupas."
+      },
+      "weldInSaddles": {
+        "label": "Iemetināmie sēdekļi",
+        "desc": "Atzari bez cauruļu pārgriešanas, ar un bez vītnes, 3 grupas."
+      },
+      "accessories": {
+        "label": "Piederumi",
+        "desc": "Cauruļu skavas, pretatloki, blīves, aizbāžņi: 5 preču grupas."
+      },
+      "tools": {
+        "label": "Instrumenti",
+        "desc": "Cauruļu griezēji, metināšanas iekārtas un instrumenti visām četrām savienošanas metodēm, 14 grupas."
+      }
+    },
+    "rfq": {
+      "title": "Projekta pieprasījums",
+      "desc": "Pieprasiet piedāvājumu tieši <span class=\"font-semibold\">{title}</span>.",
+      "button": "Pāriet uz pieprasījumu"
+    },
+    "similar": {
+      "title": "Vairāk no {category}"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "K Pipe PPR SDR 6 ir augstas veiktspējas caurule no mūsu visaptverošās cauruļvadu sistēmu kategorijas. Tā ir izstrādāta, lai droši un efektīvi tiktu galā ar sarežģītiem šķidrumu transportēšanas uzdevumiem.",
+        "seo_p2": "Šī caurule ir izgatavota no izturīga PPR materiāla un, atbilstoši SDR 6 (S 2.5 sērijas) klasifikācijai, tā ir paredzēta augstam darba spiedienam līdz pat 2,0 MPa pie 20°C. Standarta 4 metru garums ļauj veikt ātru uzstādīšanu.",
+        "seo_p3": "Pateicoties izcilajai ķīmiskajai un termiskajai izturībai, SDR 6 caurule ir ideāli piemērota industriāliem lietojumiem un dzeramā ūdens apgādei. Gludā iekšējā virsma līdz minimumam samazina spiediena zudumus un novērš nogulsnēšanos.",
+        "faq": [
+          {
+            "q": "Kādām darba temperatūrām ir piemērota SDR 6?",
+            "a": "Tā ir paredzēta nepārtrauktai darba temperatūrai līdz 70°C un nodrošina 20 bāru spiedienizturību pie 20°C."
+          },
+          {
+            "q": "Kādas priekšrocības sniedz lielais sienas biezums?",
+            "a": "SDR 6 (S 2.5) sērija nodrošina maksimālu spiedienizturību un mehānisko stabilitāti sistēmās ar lielu noslodzi."
+          },
+          {
+            "q": "Vai es varu izmantot šo cauruli aukstajam ūdenim?",
+            "a": "Jā, tā ir lieliski piemērota aukstā ūdens sistēmām, jo gludā virsma efektīvi novērš inkrustāciju un baktēriju vairošanos."
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "K Pipe PPRCT SDR 7.4 pārstāv nākamās paaudzes plastmasas cauruļvadu sistēmas. Tā apvieno uzlabotas materiāla īpašības ar optimizētu sienas biezumu maksimālam caurplūdumam.",
+        "seo_p2": "Izgatavota no ļoti kristāliska PPRCT, šī SDR 7.4 (S 3.2) caurule piedāvā iespaidīgu nominālo spiedienu 2,0 MPa pie 20°C. Samazinātais sienas biezums ietaupa svaru, nezaudējot stabilitāti.",
+        "seo_p3": "Tipiskās pielietojuma jomas ietver sarežģītas apkures, gaisa kondicionēšanas un sanitārās sistēmas. Pateicoties PPRCT materiālam, uzstādītāji iegūst lielāku ilgtermiņa izturību pat augstākā temperatūrā.",
+        "faq": [
+          {
+            "q": "Ko nozīmē PPRCT salīdzinājumā ar PPR?",
+            "a": "PPRCT nozīmē uzlabotu kristālisko struktūru, kas pieļauj augstāku spiedienu augstākās temperatūrās, padarot iespējamu plānāku sienu."
+          },
+          {
+            "q": "Vai caurplūdums SDR 7.4 ir lielāks?",
+            "a": "Jā, pateicoties samazinātam PPRCT sienas biezumam, ar to pašu ārējo diametru tiek panākta par 17% lielāka caurplūdes kapacitāte."
+          },
+          {
+            "q": "Vai SDR 7.4 ir piemērots apkures sistēmām?",
+            "a": "Pilnīgi noteikti, materiāls ir termiski ārkārtīgi izturīgs un tādējādi ideāli piemērots turpgaitas līnijām modernās apkures sistēmās."
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "K-Pipe PP-R SDR 11 ir standarta risinājums dažādiem sanitārajiem un apkures lietojumiem. To raksturo uzticamība un vienkārša apstrāde.",
+        "seo_p2": "Ar SDR 11 klasifikāciju (sērija S 5) šī PP-R caurule ir sertificēta darba spiedienam 1,2 MPa pie 20°C. 4 metru stieņus var metināt elastīgi un precīzi.",
+        "seo_p3": "To bieži izmanto aukstā ūdens sadalē un kā daudzpusīgu cauruli ēku inženierkomunikācijās. Homogēnais metinātais savienojums garantē hermētiskumu visa mūža garumā bez mehāniski vājām vietām.",
+        "faq": [
+          {
+            "q": "Vai caurule ir piemērota aukstajam un karstam ūdenim?",
+            "a": "SDR 11 caurule galvenokārt ir paredzēta aukstajam ūdenim (20°C pie 12 bāriem) un zema spiediena karstajam ūdenim (60°C pie 6 bāriem)."
+          },
+          {
+            "q": "Kā tiek ieklāta PP-R SDR 11 caurule?",
+            "a": "Tiek izmantota sildierīces uzmavu metināšanas metode, radot pilnīgi viendabīgus savienojumus bez noplūdēm."
+          },
+          {
+            "q": "Vai ir atšķirības svarā salīdzinājumā ar citām SDR klasēm?",
+            "a": "Jā, mazāka sienas biezuma dēļ caurule ir ievērojami vieglāka un vieglāk apstrādājama būvlaukumā."
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "Violets K-Pipe Purple PP-R SDR 11 tiek izmantots konkrētu cauruļvadu sistēmu skaidrai marķēšanai. Tas novērš neskaidrības atsevišķu ūdens ķēžu uzstādīšanas laikā.",
+        "seo_p2": "Violetā krāsa parasti apzīmē procesa ūdeni, lietus ūdeni vai apūdeņošanas sistēmas. Tehniski tā atbilst standarta PP-R ar SDR 11 (1,2 MPa pie 20°C) un piedāvā to pašu augsto kvalitāti.",
+        "seo_p3": "Izmantojot šo īpašo cauruli, tiek palielināta sistēmas drošība un vizuāli nodrošināta normatīviem atbilstoša dzeramā un tehniskā ūdens nodalīšana. Lieliski piemērots ilgtspējīgām ūdenssaimniecības sistēmām.",
+        "faq": [
+          {
+            "q": "Ko nozīmē violetā krāsa?",
+            "a": "Tā kalpo cauruļvadu sistēmu vizuālai atšķiršanai tehniskajam ūdenim, pelēkajam ūdenim vai lietus ūdens izmantošanai atbilstoši starptautiskajiem noteikumiem."
+          },
+          {
+            "q": "Vai šo cauruli var metināt ar parastiem PP-R veidgabaliem?",
+            "a": "Jā, violetā caurule ir saderīga ar visiem K Aqua standarta veidgabaliem un tiek metināta ar tādiem pašiem parametriem."
+          },
+          {
+            "q": "Vai krāsa ietekmē materiāla kvalitāti?",
+            "a": "Nē, fizikālās un ķīmiskās īpašības ir identiskas parastajai PP-R SDR 11 caurulei."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "K-Fiber Pipe PPRCT SDR 7.4 ir ultramoderna, ar šķiedrām stiegrota kompozītcaurule. Integrētais šķiedru slānis ievērojami samazina termisko izplešanos.",
+        "seo_p2": "Inovatīvā PPRCT bāze ir papildināta ar vidējo šķiedru slāni. Ar SDR 7.4 (S 3.2), caurule var izturēt spiedienu līdz 2,0 MPa pie 20°C, tajā pašā laikā samazinot termisko izplešanos par līdz pat 50%.",
+        "seo_p3": "Tas padara cauruli par ideālu izvēli stāvvadiem un garām trasēm ēku sistēmās, kur nepieciešams mazāk stiprinājuma punktu, tādējādi ietaupot uzstādīšanas laiku un materiālu izmaksas.",
+        "faq": [
+          {
+            "q": "Cik daudz šķiedra samazina termisko izplešanos garenvirzienā?",
+            "a": "Integrētais stikla šķiedras slānis samazina lineāro izplešanos par līdz pat 75%, salīdzinot ar masīvām PP-R caurulēm."
+          },
+          {
+            "q": "Vai šķiedru caurulei pirms metināšanas jānoņem virsējais slānis?",
+            "a": "Nē, atšķirībā no Stabi caurulēm ar alumīnija slāni, mūsu šķiedru cauruli var metināt tieši un bez iepriekšējas apstrādes."
+          },
+          {
+            "q": "Vai caurule ir piemērota centrālajiem stāvvadiem?",
+            "a": "Jā, pateicoties tās ārkārtīgi augstajai stingrībai un spiedienizturībai, tā ir optimāla izvēle lieliem stāvvadiem."
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "K-Fiberclima Pipe PPRCT SDR 11, kas specializējas dzesēšanas un apkures ūdens lietojumos, piedāvā optimālu veiktspēju klimata sistēmām. Tā ir izstrādāta termiskai efektivitātei un stabilitātei.",
+        "seo_p2": "Ar šķiedrām pastiprinātais PPRCT materiāls (SDR 11, S 5) nodrošina drošu darbību pie 1,6 MPa (20°C) un 0,8 MPa (70°C). Plānākās sienas pieļauj ārkārtīgi lielu caurplūdumu.",
+        "seo_p3": "Īpaši lielās HVAC sistēmās (apkure, ventilācija, gaisa kondicionēšana) šī caurule parāda savas stiprās puses. Tā novērš koroziju dzesēšanas ķēdē un nodrošina bezapkopes, energoefektīvu darbību.",
+        "faq": [
+          {
+            "q": "Kas padara šo cauruli ideāli piemērotu dzesēšanas ūdenim?",
+            "a": "PPRCT zemā siltumvadītspēja novērš kondensāta veidošanos ievērojami labāk nekā metāla caurules."
+          },
+          {
+            "q": "Kā tā uzvedas, cirkulējot antifrīzam?",
+            "a": "Tā ir ārkārtīgi izturīga pret parastajiem glikoliem un antifrīziem, kas novērš noplūdes materiāla noguruma dēļ."
+          },
+          {
+            "q": "Vai caurules var izmantot lieliem caurplūdumiem?",
+            "a": "Pateicoties plānākai sienai (SDR 11) ar maksimālu stabilitāti, tā pieļauj ārkārtīgi lielus caurplūdumus industriālajos tīklos."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "Klasiskā K-Fiber Pipe PP-R SDR 7.4 ir pārbaudīts risinājums, kad nepieciešams šķiedru stiegrojums un ārkārtēja spiedienizturība. Tā efektīvi samazina termisko izplešanos.",
+        "seo_p2": "Pateicoties PP-R un šķiedru tehnoloģijas apvienojumam, šī caurule (SDR 7.4, S 3.2) sasniedz maksimālo darba spiedienu 2,5 MPa pie 20°C. Tā piedāvā maksimālu stabilitāti prasīgiem tīkliem.",
+        "seo_p3": "Neatkarīgi no tā, vai tas ir rūpniecisko iekārtu celtniecībā vai sarežģītās karstā ūdens cirkulācijas sistēmās, šī caurule nodrošina stingru, bez deformācijām uzstādīšanu un visaugstāko darbības uzticamību gadu desmitiem.",
+        "faq": [
+          {
+            "q": "Vai SDR 7.4 ir apstiprināta augstām temperatūrām?",
+            "a": "Jā, tā pacieš temperatūru līdz 70°C ar nominālo spiedienu 1,0 MPa (10 bāri) un īslaicīgus lēcienus līdz 95°C."
+          },
+          {
+            "q": "Cik stiprinājuma skavas ir nepieciešamas lielos attālumos?",
+            "a": "Pateicoties šķiedru stiegrojumam, stiprinājumu atstatumus var krasi palielināt salīdzinājumā ar standarta caurulēm."
+          },
+          {
+            "q": "Vai ir korozijas risks mainīgas ūdens kvalitātes dēļ?",
+            "a": "Nē, PP-R materiāls ir 100% bez korozijas un neatkarīgs no transportējamās vides pH vērtības."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "K-Fiber Pipe PP-R SDR 9 aizpilda plaisu starp standarta un augstspiediena šķiedru caurulēm. Tā piedāvā lielisku līdzsvaru starp caurplūdi un spiedienizturību.",
+        "seo_p2": "Ar S 4 sēriju (SDR 9) PP-R šķiedru caurule ir apstiprināta spiedienam līdz 2,0 MPa pie 20°C. Sienu biezumi ir optimizēti vidējai un augstai slodzei.",
+        "seo_p3": "Šo cauruli bieži izmanto komerciālos un industriālos projektos, kur parastās caurules sasniedz savas robežas, bet SDR 7.4 ārkārtējās rezerves vēl nav nepieciešamas.",
+        "faq": [
+          {
+            "q": "Kāpēc izvēlēties SDR 9, nevis SDR 7.4?",
+            "a": "SDR 9 piedāvā lielisku kompromisu ar lielāku caurplūdi (plānāka siena) un joprojām ārkārtēju spiedienizturību."
+          },
+          {
+            "q": "Vai to var metināt ar standarta PP-R veidgabaliem?",
+            "a": "Pilnīgi noteikti, šķiedru caurule SDR 9 ir pilnībā saderīga ar mūsu K Aqua SDR 6 un SDR 7.4 PP-R veidgabaliem."
+          },
+          {
+            "q": "Vai tā ir apstiprināta dzeramā ūdens piegādei?",
+            "a": "Jā, tā atbilst visiem higiēnas standartiem karstam un aukstam dzeramajam ūdenim visā pasaulē."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "K-Fiber Pipe PP-R SDR 11 ir izstrādāta svara ziņā optimizētām un izmēros stabilām instalācijām. Tā apvieno šķiedru tehnoloģijas priekšrocības ar vieglu profilu.",
+        "seo_p2": "PP-R materiāls ar šķiedru ieliktni SDR 11 klasifikācijā pieļauj spiedienu līdz 1,6 MPa pie 20°C. Tas piedāvā optimālu iekšējo šķērsgriezumu lielam ūdens daudzumam.",
+        "seo_p3": "Tā ir ideāli piemērota dzesēšanas ūdenim un lieliem sadales cauruļvadiem. Pateicoties tās mazajam svaram un samazinātajiem stiprinājuma attālumiem, uzstādīšana ir ļoti ātra.",
+        "faq": [
+          {
+            "q": "Vai metināšanas laiks SDR 11 caurulēm ir īsāks?",
+            "a": "Jā, samazinātā sienas biezuma dēļ sildīšanas laiks uz sildierīces ir īsāks, kas paātrina darba procesu."
+          },
+          {
+            "q": "Kādi ir šīs SDR 11 caurules pielietošanas ierobežojumi?",
+            "a": "Tā ir paredzēta maksimālajam spiedienam 16 bāri pie 20°C un 8 bāri pie 60°C."
+          },
+          {
+            "q": "Vai dzesēšanas sistēmas iegūst no šīs caurules?",
+            "a": "Jā, lieliskā izolācijas vērtība ievērojami samazina enerģijas zudumus dzesēšanas tīklos."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "Lielā izmēra K-Fiber Pipe PP-R SDR 17 ir īpaši izstrādāta lielām industriālajām iekārtām un galvenajām piegādes līnijām. Tā piedāvā masīvus caurplūdes šķērsgriezumus.",
+        "seo_p2": "Ar diametru līdz 200 mm un S 8 sēriju (SDR 17), šī caurule var apstrādāt 1,0 MPa pie 20°C. Šķiedru stiegrojums nodrošina augstu izmēru stabilitāti pat pie šiem lielajiem izmēriem.",
+        "seo_p3": "Ideāli piemērota centralizētās dzesēšanas tīkliem, sadzīves ūdens apgādei vai kā galvenais stāvvads daudzstāvu ēkās. Tā ir pret koroziju izturīga alternatīva smagām metāla lielajām caurulēm.",
+        "faq": [
+          {
+            "q": "Vai SDR 17 ir piemērota augsta spiediena tīkliem?",
+            "a": "SDR 17 (PN 10) ir īpaši izstrādāta zemspiediena tīkliem ar milzīgiem apjomiem, piemēram, centralizētās dzesēšanas tīklos."
+          },
+          {
+            "q": "Kā tiek savienoti tik lieli izmēri?",
+            "a": "Lielās caurules (no 90 mm līdz 200 mm) vēlams savienot ar sadurmetināšanu vai ar elektrosametināšanas uzmavām."
+          },
+          {
+            "q": "Kāda ir galvenā priekšrocība salīdzinājumā ar tērauda caurulēm?",
+            "a": "PP-R caurule nerūsē, sver daļu no tērauda cauruļu svara un pastāvīgi saglabā perfektu caurplūdes šķērsgriezumu."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "K-Fiber UV Pipe PP-R SDR 7.4 atrisina UV noārdīšanās problēmu, veicot neaizsargātu ārējo uzstādīšanu. Tai ir īpašs, pret laikapstākļiem izturīgs ārējais slānis.",
+        "seo_p2": "Papildus termiski stabilizējošajam šķiedru vidusslānim un PP-R bāzei (SDR 7.4, 2,0 MPa), UV apvalks pastāvīgi aizsargā cauruli no tiešiem saules stariem un laikapstākļu ietekmes.",
+        "seo_p3": "Tas padara to lieliski piemērotu jumtu instalācijām, āra iekārtām vai tiltu cauruļvadiem. Papildu izolāciju vai krāsojumu UV aizsardzībai var pilnībā izlaist.",
+        "faq": [
+          {
+            "q": "Kā šai caurulei tiek panākta UV aizsardzība?",
+            "a": "Īpašs koekstrudēts melns ārējais slānis absorbē un bloķē kaitīgo UV starojumu, pirms tas var uzbrukt PP-R materiālam."
+          },
+          {
+            "q": "Vai UV slānis pirms metināšanas ir jānoņem?",
+            "a": "Nē, tā kā tas ir viendabīgs plastmasas slānis, tas uzmavu metināšanas laikā vienkārši saplūst ar veidgabalu."
+          },
+          {
+            "q": "Vai kalpošanas laiks ārpus telpām ir ierobežots?",
+            "a": "UV aizsargslānis novērš polimēru noārdīšanos, tādējādi 50 gadu kalpošanas laiks tiek garantēts pat tiešos saules staros."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Premium caurule K-Fiber UV Pipe PPRCT SDR 7.4 apvieno visas labākās īpašības: augstas veiktspējas materiālu, šķiedru stiegrojumu un integrētu UV aizsardzību vienā produktā.",
+        "seo_p2": "Pamatojoties uz PPRCT augstākajai temperatūras pretestībai (līdz 70°C pie 1,0 MPa) un aprīkota ar UV izturīgu apvalku, šī SDR 7.4 caurule ir universāls talants ekstremāliem apstākļiem.",
+        "seo_p3": "Neatkarīgi no tā, vai tie ir saules kolektoru pieslēgumi, dzesēšanas torņi uz rūpniecības ēkām vai prasīgas ārējās instalācijas karstā klimatā, šī caurule garantē maksimālu kalpošanas laiku bez materiāla noguruma.",
+        "faq": [
+          {
+            "q": "Vai šī caurule apvieno UV aizsardzību ar augstāku caurplūdi?",
+            "a": "Jā, pateicoties ļoti kristāliskajam PPRCT materiālam, var izmantot plānāku sienas biezumu, savukārt UV slānis nodrošina ārkārtēju ārējo aizsardzību."
+          },
+          {
+            "q": "Vai ir pieejami UV izturīgi K Aqua veidgabali?",
+            "a": "Veidgabali parasti ir aizsargāti ar izolāciju, krāsojumu vai UV aizsarglentēm, savukārt garās cauruļu trases ir aizsargātas rūpnīcā."
+          },
+          {
+            "q": "Vai šī caurule ir piemērota dzesēšanas torņiem?",
+            "a": "Tā ir optimāla izvēle, jo tā pastāvīgi iztur gan tiešus saules starus, gan ķīmiskās piedevas dzesēšanas ūdenī."
+          }
+        ]
+      },
+      "cap": {
+        "seo_p1": "Gala vāciņš (Cap) ir neaizstājams veidgabals mūsu veidgabalu kategorijā, paredzēts ilgstošai un drošai cauruļu galu noslēgšanai.",
+        "seo_p2": "Izgatavots no augstas kvalitātes PP-R materiāla, vāciņš atbilst parastajām cauruļu SDR klasēm un nodrošina visaugstāko spiedienizturību un izmēru precizitāti homogēnai metināšanai.",
+        "seo_p3": "Tas ir ideāli piemērots dzeramā ūdens un apkures tīklu cauruļvadu galīgai vai īslaicīgai noslēgšanai, garantējot absolūti hermētisku un bezapkopes blīvējumu.",
+        "faq": [
+          {
+            "q": "Vai gala vāciņu var izmantot spiediena pārbaudei?",
+            "a": "Jā, pēc pareizas metināšanas un atdzesēšanas gala vāciņš bez problēmām var izturēt pilnu sistēmas pārbaudes spiedienu (līdz 30 bāriem)."
+          },
+          {
+            "q": "Kā es varu noslēgt pagaidu līnijas?",
+            "a": "Pagaidu noslēgšanai mēs iesakām aizbāžņus ar vītni; gala vāciņš ir viendabīgi metināts un tāpēc paredzēts pastāvīgai noslēgšanai."
+          },
+          {
+            "q": "Vai gala vāciņš ir blīvs visās temperatūrās?",
+            "a": "Pateicoties termiskai saplūšanai, nav atšķirīgu izplešanās koeficientu, tāpēc tas paliek absolūti bez noplūdēm no 0°C līdz 95°C."
+          }
+        ]
+      },
+      "socket": {
+        "seo_p1": "Uzmava (Socket) ir mūsu veidgabalu pamata savienojuma elements, paredzēta vienkāršai un uzticamai taisnu cauruļu posmu pagarināšanai.",
+        "seo_p2": "Izgatavots no izturīga PP-R, šis veidgabals izveido viendabīgu un ārkārtīgi spiedienizturīgu savienojumu, izmantojot uzmavu metināšanu, kas ir lieliski saskaņots ar mūsu SDR cauruļu sēriju.",
+        "seo_p3": "Neatkarīgi no tā, vai tas ir privātajā sanitārajā sektorā vai rūpniecisko iekārtu celtniecībā, uzmava nodrošina vienmērīgu plūsmu bez šķērsgriezuma sašaurināšanās un novērš ilgstošus spiediena zudumus.",
+        "faq": [
+          {
+            "q": "Cik dziļi caurule jāievieto uzmavā?",
+            "a": "Ievietošanas dziļums ir precīzi definēts mūsu tehniskajās vadlīnijās, un tas ir jāatzīmē uz caurules, lai izvairītos no šķērsgriezuma sašaurināšanās."
+          },
+          {
+            "q": "Vai uzmavas var izmantot arī šķiedru caurulēm?",
+            "a": "Jā, mūsu standarta uzmavas ir pilnībā saderīgas ar visām K Aqua PP-R, PPRCT un šķiedru caurulēm."
+          },
+          {
+            "q": "Vai šuvē pastāv mikronoplūžu risks?",
+            "a": "Nē, jo polifūzija rada viendabīgu, molekulāru savienojumu, kas ir tikpat stiprs kā pati caurule."
+          }
+        ]
+      },
+      "elbow-45": {
+        "seo_p1": "45° līkums (Elbow 45°) ļauj maigi mainīt cauruļvada virzienu, un tas ir viens no mūsu visbiežāk izmantotajiem veidgabaliem.",
+        "seo_p2": "Pateicoties precīzai izturīga PP-R formēšanai, līkums garantē perfektu saderību ar visām K Aqua cauruļvadu sistēmām un iztur augstāko sistēmas spiedienu.",
+        "seo_p3": "Īpaši ar sarežģītu cauruļvadu izvietojumu šaurās šahtās vai izvairoties no šķēršļiem, šis 45 grādu līkums efektīvi samazina plūsmas pretestību.",
+        "faq": [
+          {
+            "q": "Kad man vajadzētu izmantot 45 grādu leņķi 90 grādu leņķa vietā?",
+            "a": "45 grādu līkums ievērojami samazina spiediena zudumu un plūsmas pretestību (Zeta vērtību) sistēmā un novērš trokšņa veidošanos."
+          },
+          {
+            "q": "Vai K Aqua līkumi ir optimizēti plūsmai?",
+            "a": "Jā, mūsu 45 grādu leņķu iekšējie rādiusi ir ārkārtīgi gludi un hidrauliski optimizēti, lai novērstu kavitāciju."
+          },
+          {
+            "q": "Vai divus 45 grādu līkumus var apvienot 90 grādu leņķī?",
+            "a": "Jā, šo praksi bieži izmanto lieliem izmēriem, lai izveidotu platus līkumus un samazinātu sūkņa pretestību."
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "seo_p1": "45° līkums ar iekšējo/ārējo metināšanas galu (Elbow 45° Female/Male) piedāvā maksimālu elastību šaurās telpās un tiešās savienojumu kombinācijās.",
+        "seo_p2": "PP-R veidgabalam ir viens uzmavas gals un viens spraudņa gals, kas ļauj to tieši sametināt ar citiem veidgabaliem bez papildu caurules gabala.",
+        "seo_p3": "Kompaktās sadales iekārtās vai būvējot šauras priekšsienu sistēmas, šī detaļa ietaupa vērtīgu montāžas laiku un samazina metināšanas vietu skaitu.",
+        "faq": [
+          {
+            "q": "Vai 90 grādu leņķis palielina nolietojumu plūsmas spiediena dēļ?",
+            "a": "Pateicoties sienu biezuma rezervēm un ārkārtīgi gludajām PP-R materiāla iekšējām virsmām, noberšanās izraisīts nolietojums ir praktiski neiespējams."
+          },
+          {
+            "q": "Vai uz K Aqua līkumiem ir virziena marķējumi?",
+            "a": "Jā, mūsu veidgabaliem bieži ir ražošanas marķējumi, kas palīdz precīzā aksiālā izlīdzināšanā būvlaukumā."
+          },
+          {
+            "q": "Vai 90 grādu līkumu var izmantot stāvvadiem?",
+            "a": "Jā, tas ir ideāli piemērots, lai novirzītu līnijas no šahtām uz attiecīgo stāvu."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90° līkums (Elbow 90°) ir standarta virziena mainītājs mūsu veidgabalu klāstā, paredzēts precīziem taisnleņķa atzariem.",
+        "seo_p2": "Šī izmēros stabilā PP-R detaļa ir izstrādāta tā, lai bez problēmām absorbētu sistēmas mehānisko un termisko slodzi un būtu saderīga ar visiem SDR līmeņiem.",
+        "seo_p3": "Lieliski piemērots stūru instalācijām un caurbraucieniem sienās visās ēku sistēmās, tas garantē blīvu un drošu 90 grādu līkumu bez plūsmu traucējošām malām.",
+        "faq": [
+          {
+            "q": "Ko šim līkumam nozīmē I/A (M/F)?",
+            "a": "Tas nozīmē iekšējais/ārējais (Male/Female). Vienu pusi metina kā uzmavu, otru pusi var tieši piemetināt citā veidgabalā."
+          },
+          {
+            "q": "Kāda ir I/A konstrukcijas priekšrocība?",
+            "a": "Tā ietaupa vietu un izvairās no nepieciešamības pēc papildu caurules gabala starp diviem veidgabaliem, kas ir ļoti svarīgi šaurās telpās."
+          },
+          {
+            "q": "Vai tas maina metināšanas procesu?",
+            "a": "Process paliek nemainīgs, vienkārši caurulei un veidgabalam vienlaicīgi izmanto sildīšanas spoguļa iekšējos un ārējos uzgaļus."
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "90° līkums ar iekšējo/ārējo metināšanas galu (Elbow 90° Female/Male) ir risinājums ultrakompaktiem stūra savienojumiem tieši pie citiem komponentiem.",
+        "seo_p2": "Šis viedais PP-R veidgabals apvieno parasto uzmavas galu ar spraudņa galu, lai nemanāmi īstenotu veidgabals-pie-veidgabala metināšanu.",
+        "seo_p3": "Īpaši, uzstādot armatūru vai apkures loku sadalītājus, šis dizains ievērojami samazina vietas nepieciešamību, kā arī materiālu un darba izmaksas.",
+        "faq": [
+          {
+            "q": "Vai 45 grādu I/A līkums ir piemērots paralēlām nobīdēm?",
+            "a": "Jā, apvienojumā ar standarta 45 grādu līkumu var izveidot ārkārtīgi kompaktas stāvu nobīdes."
+          },
+          {
+            "q": "Vai iekšējā/ārējā savienojuma spiedienizturība ir tikpat augsta?",
+            "a": "Homogēna polifūzijas metināšana arī šeit nodrošina 100 procentu spiedienizturību (PN 25) savienojuma vietā."
+          },
+          {
+            "q": "Kādiem izmēriem ir pieejams šis līkums?",
+            "a": "Tas parasti tiek ražots parastajiem izmēriem stāvu sadalē no 20 mm līdz 40 mm."
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "seo_p1": "Elektrosametināšanas uzmava (Electrofusion Socket) ir augstākās klases risinājums savienojumiem, kur parastā uzmavu metināšana nav iespējama vietas trūkuma dēļ.",
+        "seo_p2": "Aprīkots ar iebūvētiem sildīšanas vadiem no īpaša sakausējuma, šis PP-R veidgabals automātiski un ar datora vadību saplūst ar pamata cauruli.",
+        "seo_p3": "Ideāli piemērots remontdarbiem šahtās, vēlākiem paplašinājumiem vai ārkārtīgi grūti pieejamām vietām, tas piedāvā 100 procentu drošu un reģistrējamu savienojumu.",
+        "faq": [
+          {
+            "q": "Vai pirms elektrosametināšanas caurule ir jānomizo?",
+            "a": "Jā, oksīda slāņa noņemšana, izmantojot īpašu cauruļu mizotāju, ir absolūti nepieciešama nevainojamai saplūšanai."
+          },
+          {
+            "q": "Kādas metināšanas iekārtas var izmantot?",
+            "a": "Jāizmanto K Aqua vai universālās elektrosametināšanas iekārtas, kas spēj nolasīt uzmavas svītrkodu."
+          },
+          {
+            "q": "Kad elektrosametināšana ir labāka par sildierīces uzmavu metināšanu?",
+            "a": "Īpaši, ja ir ierobežota kustību brīvība (piem., šahtā), kur nav vietas sildierīcei uzmavu metināšanai."
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "seo_p1": "Atloka adapteris (Flange Adaptor) darbojas kā būtisks savienojuma elements drošai un noņemamai plastmasas cauruļu pievienošanai metāla atlokiem vai armatūrai.",
+        "seo_p2": "PP-R detaļa ir veidota tā, lai nodrošinātu perfektu piegulšanos brīvajiem atlokiem un vienmērīgi pārnestu lielo saskares spiedienu uz blīvi.",
+        "seo_p3": "Neaizstājams rūpniecisko cauruļvadu būvniecībā un lielās sadales sistēmās, atloka adapteris nodrošina drošu pāreju uz sūkņiem, lieliem vārstiem un tērauda sistēmām.",
+        "faq": [
+          {
+            "q": "Kādus atloku standartus atbalsta K Aqua atloka adapteris?",
+            "a": "Tas ir saderīgs ar standarta DIN/EN atlokiem (piem., PN10, PN16), un tam ir nepieciešams atbilstošs K Aqua brīvais atloks."
+          },
+          {
+            "q": "Vai man ir nepieciešama papildu blīve?",
+            "a": "Jā, starp PP-R atloka adapteri un pretatloku ir jāievieto piemērota EPDM plakanā blīve."
+          },
+          {
+            "q": "Kā atloka adapteris ir savienots ar cauruli?",
+            "a": "Tāpat kā parasto veidgabalu, to piemetina tieši pie caurules vai uzmavā, izmantojot sildierīces uzmavu metināšanu."
+          }
+        ]
+      },
+      "reducing-bush": {
+        "seo_p1": "Pārejas uzmava (Reducing Bush) nodrošina bezpakāpju pāreju starp dažādiem cauruļu izmēriem mūsu veidgabalu ģimenē.",
+        "seo_p2": "Izgatavota no augstas stiprības PP-R, šī pāreja ir izstrādāta, lai optimizētu plūsmu un izvairītos no kavitācijas šķērsgriezuma izmaiņu vietā.",
+        "seo_p3": "To bieži izmanto, lai sašaurinātu galvenās līnijas mazākos piegādes posmos, kas samazina materiālu izmaksas un precīzi līdzsvaro tīkla spiedienu.",
+        "faq": [
+          {
+            "q": "Vai es varu izlaist vairākus izmērus uzreiz?",
+            "a": "Jā, mēs piedāvājam pārejas, kas vienā komponentā veic daudzpakāpju šķērsgriezuma sašaurinājumus, piem., no 63 mm uz 32 mm."
+          },
+          {
+            "q": "Vai pārejas uzmava ir iemetināta caurulē vai uz tās?",
+            "a": "Pāreja parasti ir veidota kā Iekšējais/Ārējais (I/A) veidgabals: lielā puse iederas uzmavā, mazā puse iekļauj cauruli."
+          },
+          {
+            "q": "Vai sašaurinājums ietekmē darba spiedienu?",
+            "a": "Nē, K Aqua pāreju sienu biezumi ir izmēroti tā, lai atbilstu visas sistēmas nominālajam spiedienam (līdz PN 25)."
+          }
+        ]
+      },
+      "reducing-tee": {
+        "seo_p1": "Samazinātais T-veidgabals (Reducing Tee) apvieno 90 grādu atzaru ar vienlaicīgu šķērsgriezuma samazinājumu atzarā.",
+        "seo_p2": "Pateicoties monolītajam dizainam, šis daudzfunkcionālais PP-R veidgabals piedāvā visaugstāko stabilitāti un spiedienizturību, un ir piemērots visiem standarta SDR lietojumiem.",
+        "seo_p3": "Dzeramā un apkures ūdens sadalē stāvos, samazinātais T-veidgabals nodrošina efektīvu konstrukciju bez papildu pārejām, kas ievērojami paātrina uzstādīšanu.",
+        "faq": [
+          {
+            "q": "Kad es izmantoju samazinātu T-veidgabalu, nevis standarta T-veidgabalu ar pāreju?",
+            "a": "Samazināts T-veidgabals ietaupa papildu metināšanas šuvi un samazina uzstādīšanas telpu, padarot to efektīvāku un drošāku."
+          },
+          {
+            "q": "Vai atzars vienmēr ir samazinātā puse?",
+            "a": "Pārsvarā jā, jo no galvenās līnijas uz patērētājiem parasti tiek izvadīti mazāki atzari."
+          },
+          {
+            "q": "Vai šie T-veidgabali var radīt plūsmas troksni?",
+            "a": "Nē, iekšējie rādiusi ir hidrauliski optimizēti, lai samazinātu turbulenci un kavitācijas troksni šķērsgriezuma izmaiņu gadījumā."
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "seo_p1": "Samazinātais T-veidgabals lieliem izmēriem (Reducing Tee Large Sizes) ir īpaši izstrādāts industriālajām maģistrālajām līnijām ar lielu šķērsgriezumu.",
+        "seo_p2": "Šis masīvais PP-R komponents var izturēt ārkārtējus caurplūdumus un sistēmas spiedienu, un nodrošina drošu, sašaurinātu atzaru no lielām padeves līnijām.",
+        "seo_p3": "Bieži izmanto centralizētās dzesēšanas tīklos un galvenajos stāvvados, šis veidgabals garantē absolūtu stabilitāti un ilgstošu hermētiskumu pat vislielākās slodzes apstākļos.",
+        "faq": [
+          {
+            "q": "Kāds īpašs rīks ir nepieciešams uzstādīšanai?",
+            "a": "Precīzai cauruma izfrēzēšanai nepieciešams īpašs K Aqua urbis un sēdekļa metināšanas iekārta sildīšanai."
+          },
+          {
+            "q": "Vai sēdekli var uzstādīt uz caurules zem spiediena?",
+            "a": "Nē, cauruļvadu sistēmai ir jābūt iztukšotai un bez spiediena, pirms var veikt urbšanu un metināšanu."
+          },
+          {
+            "q": "Vai sēdekļa savienojums ir tikpat stiprs kā T-veidgabals?",
+            "a": "Jā, pateicoties dziļajai polifūzijas saplūšanai ar caurules sienu, sēdekļa atzars sasniedz tādu pašu spiediena klasi kā pamata caurule."
+          }
+        ]
+      },
+      "tee": {
+        "seo_p1": "Vienādsānu T-veidgabals (Tee) ir klasiskais atzara veidgabals simetriskai plūsmas sadalīšanai PP-R tīklos.",
+        "seo_p2": "Izgatavots no izturīga polipropilēna (PP-R), tas piedāvā trīs vienāda izmēra uzmavas galus, kas pilnībā atbalsta cauruļvadu sistēmas nominālo spiedienu.",
+        "seo_p3": "Tas ir katras gredzenveida un virknes sistēmas sirds sanitārajās iekārtās un nodrošina uzticamu vides sadali ar zemu spiediena zudumu.",
+        "faq": [
+          {
+            "q": "Vai T-veidgabals samazina caurules šķērsgriezumu?",
+            "a": "Nē, mūsu T-veidgabalu iekšējais dizains ir paredzēts pilnai caurplūdei, lai neierobežotu apjomu."
+          },
+          {
+            "q": "Vai T-veidgabals ir vairāk pakļauts nogulšņu veidošanai?",
+            "a": "Pateicoties ārkārtīgi gludajam PP-R materiālam (raupjuma vērtība 0,007 mm), kaļķim un bioplēvēm nav nekādu izredžu nogulsnēties arī atzaros."
+          },
+          {
+            "q": "Vai lieliem T-veidgabaliem ir nepieciešami atšķirīgi metināšanas laiki?",
+            "a": "Jā, sildīšanas, pārejas un dzesēšanas laiki ir atkarīgi no izmēra, un tie ir stingri jāievēro saskaņā ar DVS vadlīnijām."
+          }
+        ]
+      },
+      "cross": {
+        "seo_p1": "Krusta veidgabals (Cross) ļauj sadalīt galveno plūsmu trīs dažādos virzienos kompaktā uzstādīšanas līmenī.",
+        "seo_p2": "Šis četrkāršais PP-R veidgabals ir plūsmas optimizēts, lai samazinātu turbulenci, un nemanāmi iekļaujas mūsu augstspiediena SDR sērijā.",
+        "seo_p3": "Lieliski piemērots sarežģītiem sadales skapjiem un centrālajiem krustpunktiem ēku sistēmās, tas aizstāj vairākus T-veidgabalus un ietaupa vērtīgu uzstādīšanas vietu un laiku.",
+        "faq": [
+          {
+            "q": "Vai krusta veidgabals rada lielus spiediena zudumus?",
+            "a": "Tā kā četras plūsmas var satikties, Zeta vērtība ir augstāka nekā taisnām caurulēm, bet plašais iekšējais dizains samazina zudumus līdz minimumam."
+          },
+          {
+            "q": "Kādās situācijās krusts ir absolūti nepieciešams?",
+            "a": "Īpaši priekšsienu instalācijās vai grīdas apsildes kolektoros, kur nepieciešama ārkārtīgi plakana un simetriska konstrukcija."
+          },
+          {
+            "q": "Vai atzari vienmēr ir vienāda izmēra?",
+            "a": "Mūsu standarta krusta veidgabaliem visi četri savienojumi ir viena izmēra (piem., 4x 20mm)."
+          }
+        ]
+      },
+      "cross-over": {
+        "seo_p1": "Krustojuma pāreja (Cross-over) ir ģeniāls risinājums aukstā un karstā ūdens cauruļu šķērsošanai ļoti šaurās telpās.",
+        "seo_p2": "Izliektajai PP-R detaļai ir integrēti uzmavu gali un eleganta tilta forma, kas ļauj izvietot cauruļvadus vienā līmenī bez augstuma nobīdes.",
+        "seo_p3": "Tas novērš sadursmes sienu instalācijās un grīdas apkurē un garantē vienmērīgu plūsmu ar optiski perfektu, plakanu cauruļu izvietojumu.",
+        "faq": [
+          {
+            "q": "Cik liels ir kakla līkums?",
+            "a": "Līkums ir precīzi izmērīts tā, lai tas bez saskares pārlektu pāri šķērsojošai vienāda vai mazāka izmēra K Aqua caurulei."
+          },
+          {
+            "q": "Vai uzstādīšanai nepieciešamas īpašas uzmavas?",
+            "a": "Krustojuma pārejai parasti ir nemetināti cauruļu gali, un tā tiek integrēta sistēmā abās pusēs ar standarta uzmavām."
+          },
+          {
+            "q": "Vai es drīkstu ar karstumu pats izveidot krustojuma pāreju no taisnas PP-R caurules?",
+            "a": "Nē! Manuāla locīšana ar karstā gaisa pūtējiem iznīcina caurules molekulāro struktūru un nekavējoties anulē garantiju."
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "seo_p1": "Krustojuma pārejas caurule (Cross-over Pipe) ir krustojuma pārejas pagarināta versija, ideāli piemērota cauruļvadu tiltiem bez tiešiem uzmavu savienojumiem galos.",
+        "seo_p2": "Izgatavots no augstas kvalitātes PP-R, šis tilta komponents piedāvā tīrus spraudņu galus, kas nodrošina maksimālu elastību metināšanas uzmavu pozicionēšanā.",
+        "seo_p3": "Uzstādītāji izmanto šo komponentu sarežģītos krustojumos lielās sadales sistēmās, lai elastīgi pielāgotu izkārtojumu būvlaukuma apstākļiem.",
+        "faq": [
+          {
+            "q": "Kāda ir atšķirība starp Crossing Tee un krusta veidgabalu?",
+            "a": "Crossing Tee ļauj šķērsot līniju bez krustojuma, vienlaikus integrējot atzaru."
+          },
+          {
+            "q": "Kā tiek metināts šis komponents?",
+            "a": "Tas tiek integrēts cauruļvadu tīklā līdzīgi kā standarta veidgabali, izmantojot sildierīces uzmavu metināšanu."
+          },
+          {
+            "q": "Vai konstrukcija kavē plūsmu?",
+            "a": "Neskatoties uz kompakto ģeometriju, iekšpuse ir optimizēta plūsmai, lai nenotiktu būtiski šķērsgriezuma sašaurinājumi."
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "seo_p1": "Pārejas uzmava ar iekšējo vītni (Adaptor Socket Female Thread) veido būtisku saskarni starp metināto PP-R cauruļu sistēmu un metāla vītņu komponentiem.",
+        "seo_p2": "Tā apvieno izturīgu PP-R uzmavas korpusu ar augstas kvalitātes metāla ieliktni (iekšējo vītni). Tas nodrošina lielisku spiedienizturību standarta SDR līmeņos.",
+        "seo_p3": "Šis veidgabals ir neaizstājams, savienojot armatūru, manometrus un speciālos vārstus ēku instalācijās, lai garantētu pilnīgi hermētiskas pārejas.",
+        "faq": [
+          {
+            "q": "Kāds ir montāžas plāksnes mērķis?",
+            "a": "Integrētā plāksne ar urbumiem ļauj stingri, mehāniski nofiksēt līkumu tieši pie sienas vai montāžas elementa."
+          },
+          {
+            "q": "Vai metāla vītne ir pakļauta korozijai?",
+            "a": "Nē, metāla ieliktņi sastāv no augstas kvalitātes misiņa bez atcinkošanās, un tādējādi tie ir ļoti izturīgi pret koroziju."
+          },
+          {
+            "q": "Vai vītnes blīvēšanai drīkst izmantot kaņepes?",
+            "a": "Mēs iesakām izmantot teflona lenti (PTFE lenti). Kaņepes drīkst izmantot tikai ļoti taupīgi un ar neuzbriestošu pastu, lai nepārplēstu misiņa ieliktni."
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "seo_p1": "Pārejas uzmava ar ārējo vītni (Adaptor Socket Male Thread) nodrošina stingru un drošu PP-R tīkla savienojumu ar tālāk esošajiem metāla cauruļvadiem.",
+        "seo_p2": "Misiņa ārējās vītnes drošais stiprinājums augstas izturības polipropilēna korpusā novērš sagriešanos un garantē ārkārtēju izturību pie lielām temperatūras un spiediena svārstībām.",
+        "seo_p3": "Bieži tiek izmantota, pievienojot apkures katlus, siltumsūkņus vai filtrus, šī uzmava nodrošina ilgstošu un standartiem atbilstošu vītnes savienojumu.",
+        "faq": [
+          {
+            "q": "Vai iekšējā vītne visā garumā ir no misiņa?",
+            "a": "Jā, iekšējā vītne ir masīvs, augstas kvalitātes misiņa ieliktnis, kas ir stingri un pret sagriešanos izturīgi iesmidzināts PP-R materiālā."
+          },
+          {
+            "q": "Vai savienojumu var vajadzības gadījumā atvienot?",
+            "a": "Jā, metāla vītne ļauj jebkurā laikā droši demontēt pievienoto aprīkojumu, piemēram, sūkņus vai filtrus."
+          },
+          {
+            "q": "Cik liels ir maksimālais pievilkšanas griezes moments?",
+            "a": "Vītne jāpievelk ar tirdzniecībā pieejamiem instrumentiem un ar mēru, lai izvairītos no sprieguma plaisām apkārtējā plastmasā."
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "seo_p1": "90° pārejas līkums ar ārējo vītni (Elbow 90° Male Thread) apvieno taisnleņķa virziena maiņu ar tiešu vītnes savienojumu ar metāla detaļām.",
+        "seo_p2": "Šī izmēros stabilā PP-R detaļa ir aprīkota ar masīvu ārējās vītnes ieliktni, kas absorbē termisko izplešanos un atbilst SDR spiediena klašu augstajām prasībām.",
+        "seo_p3": "Ideāli piemērots šaurām uzstādīšanas situācijām pie iekārtām vai sadalītājiem, kur jārealizē tiešs 90 grādu savienojums bez papildu veidgabalu kombinācijām.",
+        "faq": [
+          {
+            "q": "Vai šis veidgabals apvieno divus darba soļus?",
+            "a": "Jā, tas apvieno 90 grādu virziena maiņu ar vītnes pāreju, kas ietaupa vietu, materiālu un vienu metināšanas šuvi."
+          },
+          {
+            "q": "Vai ārējā vītne ir raupja?",
+            "a": "Jā, K Aqua ārējās vītnes bieži ir nedaudz raupinātas rūpnīcā, lai blīvējuma lente (teflons) neslīdētu, to ieskrūvējot."
+          },
+          {
+            "q": "No kāda materiāla ir izgatavota ārējā vītne?",
+            "a": "Tā ir izgatavota no pret atcinkošanos izturīga īpašā misiņa, kas ir apstiprināts visaugstākajām higiēnas prasībām dzeramajam ūdenim."
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "seo_p1": "90° sienas diska līkums ar iekšējo vītni (Elbow Bracket 90° Female Thread) ir standarta komponents stabilai un drošai jaucējkrānu piestiprināšanai pie sienas.",
+        "seo_p2": "Pateicoties integrētajām montāžas cilpām uz PP-R korpusa un izturīgajai metāla iekšējai vītnei, tas droši novada visus sviras spēkus sienā.",
+        "seo_p3": "To plaši izmanto, uzstādot dušas, vannas vai izlietnes, lai jaucējkrānus uzstādītu precīzi un droši pret sagriešanos.",
+        "faq": [
+          {
+            "q": "Vai sienas disku var izmantot arī sausajā būvē?",
+            "a": "Jā, apvienojumā ar mūsu īpašajām K Aqua montāžas plāksnēm to var lieliski nostiprināt reģipša vai koka karkasa sienās."
+          },
+          {
+            "q": "Vai šai detaļai ir skaņas izolācija?",
+            "a": "Lai nodrošinātu optimālu skaņas izolāciju, mēs piedāvājam papildu gumijas skaņas izolācijas vāciņus, kas atdala sienas disku no ēkas konstrukcijas."
+          },
+          {
+            "q": "No kāda materiāla ir izgatavota iekšējā vītne?",
+            "a": "Mēs izmantojam tikai bezsvina vai pret atcinkošanos izturīgu (DZR) īpašu misiņu, kas atbilst visstingrākajiem dzeramā ūdens noteikumiem."
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "seo_p1": "Pagarinātais 90° sienas disks (Elbow Wall Bracket 90° Female Thread) piedāvā papildu elastību dziļākām zemapmetuma instalācijām, pateicoties lielākam atstatumam.",
+        "seo_p2": "Ar pagarinātu PP-R kaklu un augstas izturības misiņa iekšējo vītni šis komponents ir paredzēts instalācijām, kurām jāpārvar biezi apmetuma vai flīžu slāņi.",
+        "seo_p3": "Santehniķi izmanto šo elementu, ja armatūras savienojumi ir dziļi iegremdēti sausās būves sienās, lai saglabātu pilnīgu spiediena stabilitāti.",
+        "faq": [
+          {
+            "q": "Kad izmanto sienas disku ar ārējo vītni, nevis iekšējo vītni?",
+            "a": "Parasti to nepieciešams izmantot, ja tieši jāpievieno elastīgās šļūtenes (piemēram, no izlietnes armatūras) ar uzgriezni."
+          },
+          {
+            "q": "Vai montāžas plāksne ir pietiekami stabila spēcīgai vilkšanai?",
+            "a": "Jā, pateicoties trim integrētajām skrūvju cilpām, sviras spēks tiek izkliedēts lielā platībā, tādējādi sienas stiprinājums ir ārkārtīgi stabils."
+          },
+          {
+            "q": "Vai var pieskrūvēt pagarinājumus?",
+            "a": "Ja sienas disks atrodas pārāk dziļi sienā, bez problēmām var uzskrūvēt tirdzniecībā pieejamos misiņa krānu pagarinājumus."
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "seo_p1": "Savienojums ar dabīgā misiņa ārējo vītni (Metal Union Male Thread Yellow Brass) nodrošina noņemamus savienojumus starp PP-R un metālu visaugstākajā kvalitātes līmenī.",
+        "seo_p2": "Nepārklātais kvalitatīvais misiņš ir stingri savienots ar metināmo PP-R uzmavu. Integrēts blīvgredzens garantē drošību visos parastajos SDR spiediena līmeņos.",
+        "seo_p3": "To galvenokārt izmanto dzeramā ūdens sistēmās ūdens skaitītāju vai sūkņu pieslēgšanai, kuri apkopes nolūkos ir ātri jādemontē.",
+        "faq": [
+          {
+            "q": "Vai šis T-veidgabals ir piemērots iztukšošanas vārstu pievienošanai?",
+            "a": "Jā, iekšējā vītne atzarā ir standarta risinājums iztukšošanas vai KFE vārstu tiešai ieskrūvēšanai zemākajā punktā."
+          },
+          {
+            "q": "Vai misiņa ieliktnis ir stingri nostiprināts?",
+            "a": "Pateicoties īpašam rievojumam uz misiņa ieliktņa, tas ir nesaraujami iekapsulēts PP-R, kas novērš sagriešanos vītnes griešanas laikā."
+          },
+          {
+            "q": "Vai vītne samazina plūsmu galvenajā līnijā?",
+            "a": "Nē, T-veidgabala galvenā līnija ir ar pilnu šķērsgriezumu un optimizētu plūsmu."
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "seo_p1": "Savienojums ar dabīgā misiņa iekšējo vītni (Metal Union Female Thread Yellow Brass) ir ideāls risinājums ļoti noslogotiem, atdalāmiem cauruļu savienojumiem.",
+        "seo_p2": "Aprīkots ar augstas kvalitātes misiņa uzgriezni un PP-R metināšanas galu, šis savienojums nodrošina pilnīgi bez spriedzes un hermētisku savienojumu.",
+        "seo_p3": "To bieži izmanto, lai cauruļvadu tīklā integrētu apkopes elementus, filtrus vai vārstus, kas regulāri jātīra vai jāmaina.",
+        "faq": [
+          {
+            "q": "Kur parasti izmanto T-veidgabalu ar ārējo vītni?",
+            "a": "Tas ir ideāli piemērots, lai tieši atzarotu aprīkojumu ar iekšējām vītnēm vai uzgriežņiem (piem., netīrumu ķērājus vai nelielus cirkulācijas sūkņus)."
+          },
+          {
+            "q": "Vai ārējām vītnēm pastāv plastmasas plaisāšanas risks?",
+            "a": "Nē, jo ar ārējām vītnēm blīvēšanas materiāla (teflona) izplešanās spēks iedarbojas uz masīvo misiņa korpusu un nevis uz plastmasu."
+          },
+          {
+            "q": "Vai es varu to izmantot karstā ūdens sistēmās?",
+            "a": "Protams. Tāpat kā visi K Aqua pārejas veidgabali, tas ir apstiprināts pastāvīgai temperatūrai līdz 70°C un īslaicīgiem kāpumiem līdz 95°C."
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "seo_p1": "Niķelēts savienojums ar ārējo vītni (Metal Union Male Thread) apvieno elegantu izskatu ar izcilu tehnisko noņemamību starp plastmasas un metāla sistēmām.",
+        "seo_p2": "Niķelētais vītnes ieliktnis efektīvi aizsargā pret ārējām ietekmēm un koroziju, savukārt PP-R korpusam ir SDR caurulēm ierastā spiediena un temperatūras pretestība.",
+        "seo_p3": "Īpaši iecienīts redzamās priekšsienu instalācijās vai apkures sistēmās, tas garantē tīras pārejas uz metāla radiatoriem vai sadalītājiem.",
+        "faq": [
+          {
+            "q": "Kāda ir savienojuma (Union) priekšrocība salīdzinājumā ar pārejas uzmavu?",
+            "a": "Savienojums ir atdalāms. Tas nozīmē, ka pievienoto komponentu vēlāk var viegli demontēt, nepārgriežot PP-R cauruli."
+          },
+          {
+            "q": "Vai blīve ir iekļauta savienojumā?",
+            "a": "Jā, K Aqua savienojumi standartā tiek piegādāti ar augstas kvalitātes EPDM plakano blīvi (ūdenim)."
+          },
+          {
+            "q": "Vai uzgriezni drīkst pievilkt ar smagiem instrumentiem?",
+            "a": "To vajadzētu pievilkt ar piemērotu uzgriežņu atslēgu ar roku un papildus par ceturtdaļapgriezienu, lai nesaspiestu blīvi."
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "seo_p1": "Niķelēts savienojums ar iekšējo vītni (Metal Union Female Thread) ir augstākās kvalitātes savienojuma elements vizuāli pievilcīgām un atvienojamām sistēmu pārejām.",
+        "seo_p2": "Apvienojot niķelēta misiņa uzgriezni ar izturīgu polipropilēnu (PP-R), tiek izveidots formas ziņā stabils, pastāvīgi hermētisks savienojums augstiem tīkla spiediena līmeņiem.",
+        "seo_p3": "Šis veidgabals ir ieteicamā izvēle, pieslēdzot siltummaiņus vai sūkņu grupas apkures telpā, kur svarīga ir aizsardzība pret koroziju.",
+        "faq": [
+          {
+            "q": "Kur nepieciešams šis savienojums ar ārējo vītni?",
+            "a": "Bieži vien kā aprīkojuma savienojums ūdens skaitītājiem vai siltummaiņiem, kuriem korpusā ir iekšējā vītne."
+          },
+          {
+            "q": "Vai PP-R paliek bez spriedzes, to pievelkot?",
+            "a": "Jā, brīvais uzgrieznis absorbē vērpes spēkus pievilkšanas laikā, tāpēc metinātajā cauruļu tīklā netiek pārnests rotācijas spriegums."
+          },
+          {
+            "q": "Vai misiņa materiāls ir sertificēts dzeramajam ūdenim?",
+            "a": "Mēs ekskluzīvi izmantojam augstas tīrības DZR misiņu, kas atbilst visiem Eiropas dzeramā ūdens regulas (UBA saraksta) standartiem."
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "seo_p1": "90° T-veidgabals ar ārējo vītni (Tee 90° Male Thread) nodrošina vienmērīgu pāreju no nepārtrauktas PP-R līnijas uz metāla atzaru.",
+        "seo_p2": "T-veidgabala korpuss no PP-R nodrošina netraucētu garenisko plūsmu, savukārt atzarojošais metāla ieliktnis (ārējā vītne) iztur visaugstākos bīdes spēkus un sistēmas spiedienu.",
+        "seo_p3": "Ideāli piemērots sensoru, iztukšošanas vārstu vai manometru tiešai uzstādīšanai cauruļvada vidū, mehāniski nevājinot galveno tīklu.",
+        "faq": [
+          {
+            "q": "Kādas ir iemetināmā sēdekļa priekšrocības salīdzinājumā ar T-veidgabalu?",
+            "a": "Tas ļauj izveidot vēlākus atzarus, neatslēdzot galveno līniju, un samazina iejaukšanos sistēmas integritātē."
+          },
+          {
+            "q": "Kā tiek uzstādīts sēdeklis?",
+            "a": "Galvenajā caurulē tiek izurbts caurums ar speciālu urbi, pēc tam caurule un sēdeklis tiek vienlaikus uzkarsēti un precīzi sapludināti kopā."
+          },
+          {
+            "q": "Vai tas ir piemērots sprinkleru sistēmām?",
+            "a": "K Aqua sēdekļa atzars tiek veiksmīgi izmantots dažos starptautiskos tirgos sprinkleru galvu pievienošanai vieglās konstrukcijās."
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "seo_p1": "90° T-veidgabals ar iekšējo vītni (Tee 90° Female Thread) ir daudzpusīgs komponents armatūras vai sensora integrēšanai tieši nepārtrauktā PP-R caurulē.",
+        "seo_p2": "Ar divām metināšanas uzmavām plūsmai un masīvu iekšējās vītnes atzaru šis komponents atbilst visām stabilitātes prasībām SDR spiediena klasēs.",
+        "seo_p3": "Bieži tiek izmantots paraugu ņemšanas vārstu pievienošanai dzeramā ūdens sadales sistēmās vai kā interfeiss termometriem apkures sistēmās.",
+        "faq": [
+          {
+            "q": "Vai sēdeklis ar ārējo vītni piedāvā tādu pašu stiprību?",
+            "a": "Pilnīgi noteikti. Misiņa ieliktnis ir dziļi noenkurots PP-R matricā, kas saglabā komponentu pilnībā spiedienizturīgu (PN 25)."
+          },
+          {
+            "q": "Vai atzaru izmēram ir ierobežojumi?",
+            "a": "Tehnisku iemeslu dēļ sēdekļa atzara diametram vienmēr jābūt ievērojami mazākam par galvenās līnijas diametru (piem., 63 mm uz 1/2\")."
+          },
+          {
+            "q": "Vai sēdekli var piemetināt arī pie šķiedru caurulēm?",
+            "a": "Jā, pēc lokālas urbšanas tas ir vienlīdz piemērots visiem K Aqua cauruļu tipiem (Standarta, PPRCT, Šķiedru, UV)."
+          }
+        ]
+      },
+      "union": {
+        "seo_p1": "Pilnībā plastmasas savienojums (Union) ir savienojuma elements, kas pilnībā izgatavots no polipropilēna (PP-R), kas izveido atdalāmu savienojumu bez metāla detaļām.",
+        "seo_p2": "Ar uzticamu blīvēšanas sistēmu un izturīgiem plastmasas uzgriežņiem šis savienojums pilnībā iztur PP-R cauruļvadu sistēmas standarta darba spiedienu.",
+        "seo_p3": "Tas ir neaizstājams pilnīgi no korozijas brīvām sistēmām, piemēram, ķīmiskajā rūpniecībā vai ar agresīvām vidēm, kur stingri jāizvairās no saskares ar metālu.",
+        "faq": [
+          {
+            "q": "Kad man izvēlēties PP-R atloku, nevis metāla brīvo atloku?",
+            "a": "PP-R atloku izmanto, ja sūknējamā vide ir ļoti kodīga un jāizvairās no jebkādas saskares ar metālu (pilnībā plastmasas sistēma)."
+          },
+          {
+            "q": "Vai pilnībā plastmasas atlokiem ir spiediena ierobežojumi?",
+            "a": "Tā kā plastmasa ir elastīgāka par tēraudu, maksimālais nominālais spiediens plastmasas atlokiem lielākos izmēros ir nedaudz samazināts."
+          },
+          {
+            "q": "Vai skrūvēm ir nepieciešamas īpašas paplāksnes?",
+            "a": "Jā, ir ļoti ieteicams izmantot liela laukuma paplāksnes, lai vienmērīgi sadalītu skrūves spriegošanas spēku uz plastmasu."
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "seo_p1": "Ūdens skaitītāja savienojums (Union for Watermeters) tika īpaši izstrādāts integrēšanai PP-R caurulēs bez spriedzes un atbilstoši standartiem.",
+        "seo_p2": "Konstrukcijā ir iekļauts metināms PP-R gals un noplombēšanas iespēja uz masīvā uzgriežņa, kas paredzēts dzeramā ūdens sistēmu standarta tīkla spiedienam.",
+        "seo_p3": "Tas ļauj ātri un droši nomainīt skaitītāju vienības, nenolietojot instrumentus, un novērš noplūdes, pateicoties precīzi pieguļošai plakanajai blīvei.",
+        "faq": [
+          {
+            "q": "Ar ko izceļas ūdens skaitītāja savienojums?",
+            "a": "Tam parasti ir noplombēšanas iespēja un īpaši vītņu izmēri, kas ir precīzi saskaņoti ar standarta ūdens skaitītājiem."
+          },
+          {
+            "q": "Vai blīves ir paredzētas karstam ūdenim?",
+            "a": "Atkarībā no versijas piegādātās speciālās blīves ir paredzētas aukstā ūdens skaitītājiem vai karstam ūdenim (siltumenerģijas skaitītājiem)."
+          },
+          {
+            "q": "Vai PP-R caurule var noturēt ūdens skaitītāja svaru?",
+            "a": "Lielākiem un smagākiem skaitītājiem (māju pieslēgumiem) mēs iesakām atsevišķu skaitītāja balstu, lai mehāniski nenoslogotu cauruļvadu tīklu."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "seo_p1": "PP-R lodveida vārsts ar PP lodi (PP-R Ball Valve Ball in PP) ir pilnīgi bezkorozijas slēgierīce visaugstākajām higiēnas prasībām.",
+        "seo_p2": "Šim pilnībā plastmasas vārstam ir izturīgs PP-R korpuss un precīzi ražota lode no polipropilēna. Tas uzticami iztur SDR klašu sistēmas spiedienu.",
+        "seo_p3": "To bieži izmanto ķīmiskās rūpniecības iekārtās vai ar demineralizētu ūdeni, jo tas sistemātiski izslēdz jebkādu metāla saskari ar sūknējamo vidi.",
+        "faq": [
+          {
+            "q": "Kāda ir vārsta plastmasas lodes priekšrocība?",
+            "a": "Tā novērš koroziju un jonu izdalīšanos vidē, kas ir absolūti nepieciešams īpaši tīram ūdenim vai agresīvām ķīmiskām vielām."
+          },
+          {
+            "q": "Vai vārsts ir piemērots arī karstam ūdenim?",
+            "a": "Jā, lodes īpašā termoplastiskā plastmasa un teflona blīves (PTFE) garantē pilnu funkcionalitāti pat augstā temperatūrā."
+          },
+          {
+            "q": "Kā vārstam tiek veikta apkope?",
+            "a": "Pateicoties savai konstrukcijai, K Aqua PP-R lodveida vārstiem nav nepieciešama apkope, un tie ir paredzēti gadu desmitiem ilgai, netraucētai darbībai."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "seo_p1": "Lodveida vārsts ar hromētu misiņa lodi (PP-R Ball Valve Ball in Brass Chromium Plated) apvieno plastmasas metināmību ar metāla mehānisko cietību.",
+        "seo_p2": "Iestrādāta masīvā PP-R korpusā, īpaši spīdīgā hromētā misiņa lode nodrošina ārkārtīgi zemas berzes un bez nodiluma izslēgšanu pat pie lielām temperatūras atšķirībām.",
+        "seo_p3": "Šī ir standarta armatūra dzeramā ūdens un apkures tīklu galvenajiem slēgvārstiem, ko raksturo absolūta uzticamība un ilgs kalpošanas laiks bez apkopes.",
+        "faq": [
+          {
+            "q": "Vai misiņa lode piedāvā priekšrocības caurplūdumam?",
+            "a": "Jā, hromēto misiņa lodi var izgatavot ar plānāku sienas biezumu, kas nodrošina pilnu caurplūdi bez pretestības."
+          },
+          {
+            "q": "Vai misiņa lode ir piemērota dzeramajam ūdenim?",
+            "a": "Protams, mēs izmantojam tikai augstas tīrības, sertificētu DZR misiņu, kas dzeramajā ūdenī neizdala smagos metālus."
+          },
+          {
+            "q": "Vai vārstu var integrēt esošajos metāla cauruļu tīklos?",
+            "a": "Jā, apvienojumā ar pārejas uzmavām vai atlokiem to var viegli izmantot kā slēgvārstu jauktās instalācijās."
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "seo_p1": "90° T-veidgabals zemapmetuma vārstiem (Tee 90° Female Thread for Internal Valve) veido pamatu neredzamai un vietu taupošai armatūras uzstādīšanai sienā.",
+        "seo_p2": "Tas sastāv no PP-R plūsmas korpusa ar īpaši dziļi vilktu misiņa iekšējo vītni atzarā, kas ļauj ievietot vārstu augšējās daļas.",
+        "seo_p3": "Santehnikas profesionāļi šo komponentu izmanto priekšsienu instalācijās dušām un vannām, lai estētiski un droši integrētu slēgvārstus aiz flīzēm.",
+        "faq": [
+          {
+            "q": "Kāda ir zemapmetuma vārsta funkcija?",
+            "a": "Tas ļauj izslēgt atsevišķu mitro telpu (piem., vannas istabu vai virtuvi) padevi tieši uz vietas, neejot uz pagrabu."
+          },
+          {
+            "q": "Cik dziļi vārsts var atrasties sienā?",
+            "a": "Uzstādīšanas dziļums ir mainīgs. Ja biezā flīžu slāņa dēļ vārsts atrodas pārāk dziļi, mēs piedāvājam atbilstošus vārpstas pagarinājumus."
+          },
+          {
+            "q": "Vai vārpsta ir nomaināma?",
+            "a": "Jā, visu mehānisko iekšējo virsdaļu (vārpstu, blīvi) nepieciešamības gadījumā var izskrūvēt un nomainīt, neatverot sienu."
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "seo_p1": "Zemapmetuma vārsta virsdaļa vieglā hroma versijā (Concealed Valve Chrome Light Part) piedāvā elegantu vizuālu sastāvdaļu sienā integrētiem slēgvārstiem.",
+        "seo_p2": "Komplektā ietilpst rokturis un rozete, kas izgatavota no hromētas ABS plastmasas, un kas ir piemērota mūsu zemapmetuma armatūras korpusu standartizētajām misiņa vārpstām.",
+        "seo_p3": "To izmanto ērtai un vizuāli pievilcīgai ūdens noslēgšanai tieši mitrajā telpā, ideāli piemērots modernām un izmaksu ziņā izdevīgām komerciālām ēkām.",
+        "faq": [
+          {
+            "q": "Vai hromēts rokturis ir iekļauts komplektā?",
+            "a": "Jā, šajā komplektā ietilpst PP-R vārsta apakšējā daļa, kā arī pilns, īpaši spīdīgi hromēts redzamais komplekts, ieskaitot rozeti."
+          },
+          {
+            "q": "Vai rozeti var uzstādīt pēc flīzēšanas?",
+            "a": "Protams. Pamata korpuss tiek piemetināts zem apmetuma, un rozete un rokturis tiek uzlikti tikai pēc sienas pabeigšanas."
+          },
+          {
+            "q": "No kāda materiāla ir izgatavots rokturis?",
+            "a": "Grozāmais rokturis ir izgatavots no izturīga cinka lējuma sakausējuma (Zamak) ar ilgmūžīgu, viegli tīrāmu hroma pārklājumu."
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "seo_p1": "Smagā zemapmetuma vārsta virsdaļa, kas izgatavota no hromēta misiņa (Concealed Valve Chrome Heavy Part), ir augstākās klases izvēle ekskluzīvam vannas istabas aprīkojumam.",
+        "seo_p2": "Rozete un vadības rokturis ir izgatavoti no masīva, augsti pulēta hromēta misiņa, kas nodrošina maksimālu mehānisko izturību un cēlu sajūtu.",
+        "seo_p3": "Šī versija iztur intensīvu izmantošanu viesnīcās vai sabiedriskās sanitārajās telpās un saglabā savu nevainojamo spīdumu gadu desmitiem.",
+        "faq": [
+          {
+            "q": "Kāda ir atšķirība starp 'Long' modeli un standarta zemapmetuma vārstu?",
+            "a": "Pagarinātās vārpstas konstrukcija bez problēmām pārvar dziļas sienu konstrukcijas, piemēram, biezas marmora plāksnes vai sauso būvju dubultos apšuvumus."
+          },
+          {
+            "q": "Vai uz roktura ir krāsu marķējums?",
+            "a": "Jā, mūsu komplektos ir iekļauti maināmi krāsu marķējumi (sarkans/zils), lai viegli atšķirtu karstā un aukstā ūdens līnijas."
+          },
+          {
+            "q": "Kā tiek noblīvēts vārsta sēdeklis?",
+            "a": "Iekšējā virsdaļā mēs izmantojam īpaši karstumizturīgas EPDM profila blīves, kas ir ārkārtīgi izturīgas pret ķīmiskiem tīrīšanas līdzekļiem un termisko dezinfekciju."
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "seo_p1": "Slīpsēdekļa vārsta virsdaļa ar zaļu rokturi (Straight Seat Valve Upper Part Green Handle) ir pārbaudīts mehānisms precīzai plūsmas kontrolei.",
+        "seo_p2": "Aprīkots ar augstas kvalitātes misiņa vārpstu, izturīgu EPDM blīvi un izteiksmīgu zaļu rokas ratu, tas ir paredzēts augstam sistēmas spiedienam un temperatūrai.",
+        "seo_p3": "Ieskrūvēts attiecīgajās PP-R vārstu apakšējās daļās, tas kalpo drošai padeves izslēgšanai apkures telpās un ēku sistēmu galvenajos sadalītājos.",
+        "faq": [
+          {
+            "q": "Vai šis komponents ir rezerves daļa?",
+            "a": "Jā, tā ir visa zemapmetuma vārsta mehāniskā iekšējā daļa (virsdaļa), kas ideāli piemērota apkopes nolūkiem vai modulārai konstrukcijai."
+          },
+          {
+            "q": "Vai viss vārsts ir jāmaina noplūdes gadījumā?",
+            "a": "Nē, pietiek atslēgt ūdeni un nomainīt šo misiņa virsdaļu. PP-R pamata korpuss paliek sienā."
+          },
+          {
+            "q": "Cik bieži virsdaļa ir jāeļļo?",
+            "a": "Vārpstas vītnei rūpnīcā ir nodrošināta pārtikai nekaitīga pastāvīga eļļošana, turpmāka apkope nav nepieciešama."
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "seo_p1": "Pagarinājumi (Elongation Pieces) ir neaizstājami problēmu risinātāji, ja armatūras savienojumi ir paslēpti pārāk dziļi mūrī.",
+        "seo_p2": "Šie masīvie misiņa komponenti ar milimetra precizitāti pagarina zemapmetuma vārstu vītni uz ārpusi, nesamazinot plūsmas šķērsgriezumu vai neietekmējot spiedienizturību.",
+        "seo_p3": "Tie glābj instalācijas vēlāk paaugstinātu sienu konstrukciju vai biezu flīžu segumu gadījumā un nodrošina bezproblēmu redzamo vadības elementu montāžu.",
+        "faq": [
+          {
+            "q": "Kad man ir nepieciešams vārsta pagarinājums?",
+            "a": "Kad apmetums vai flīzes ir biezākas nekā plānots un zemapmetuma vārsta vārpsta vairs neizvirzās pietiekami tālu no sienas."
+          },
+          {
+            "q": "Vai var apvienot vairākus pagarinājumus?",
+            "a": "Tehniski tas ir iespējams, bet stabilitātes apsvērumu dēļ mēs iesakām tā vietā nekavējoties izmantot garo virsdaļu ('Long')."
+          },
+          {
+            "q": "Vai pagarinājuma vītne ir standartizēta?",
+            "a": "Jā, mūsu pagarinājumu vītnes precīzi atbilst K Aqua zemapmetuma vārstu standarta virsdaļām."
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "seo_p1": "Sadales baterija ar iekšējo vītni (Battery Female Thread) apvieno vairākas izejas vienā kompaktā, iepriekš samontētā PP-R komponentā.",
+        "seo_p2": "Izgatavota no vienlaidus polipropilēna korpusa ar integrētām misiņa iekšējām vītnēm, tā nodrošina absolūtu izmēru stabilitāti ar perfektu armatūras atstatumu.",
+        "seo_p3": "Šī baterija krasi paātrina izlietnes vai dušas jaucējkrānu uzstādīšanu, jo novērš nepieciešamību laikietilpīgai mērīšanai un atsevišķu sienas disku izlīdzināšanai.",
+        "faq": [
+          {
+            "q": "Kāds ir armatūras baterijas atstatums starp centriem?",
+            "a": "Tas ir fiksēts starptautiskajā standarta attālumā, kas ir 150 mm, un ir piemērots 99% visu tirdzniecībā pieejamo virsapmetuma jaucējkrānu."
+          },
+          {
+            "q": "Vai bateriju var saliekt?",
+            "a": "Nē, integrētais plastmasas tilts nodrošina stingrus, precīzus atstatumus. Atšķirīgiem izmēriem mēs iesakām atsevišķus sienas diskus."
+          },
+          {
+            "q": "Kā baterija tiek piestiprināta?",
+            "a": "Tajā ir vairākas iepriekš izurbtas montāžas cilpas, lai to droši piestiprinātu pie ķieģeļu, betona vai sausās būves sienām, izmantojot skrūves."
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "seo_p1": "Regulējamā sadales baterija (Adjustable Battery Female Thread) piedāvā maksimālu elastību, uzstādot sienas jaucējkrānus ar atšķirīgiem centra atstatumiem.",
+        "seo_p2": "Pateicoties bīdāmai PP-R sliežu sistēmai, integrēto iekšējo vītņu pozīcijas var precīzi pielāgot un pēc tam stingri nofiksēt.",
+        "seo_p3": "Tas ir ideāls risinājums renovācijas projektiem vai īpašai specializētai armatūrai, kur nevar piemērot standarta 150 mm attālumu.",
+        "faq": [
+          {
+            "q": "Cik elastīga ir attāluma regulēšana?",
+            "a": "Izmantojot bīdāmo sliedi, sienas diskus var nepārtraukti pielāgot tieši jaucējkrānam nepieciešamajam atstatumam."
+          },
+          {
+            "q": "Vai regulējamai versijai pastāv pārvietošanās risks?",
+            "a": "Kad pareizais izmērs ir iestatīts, sienas diski tiek stingri nofiksēti. Tas novērš to slīdēšanu flīzēšanas laikā."
+          },
+          {
+            "q": "Vai izlīdzināšanai ir nepieciešams līmeņrādis?",
+            "a": "Jā, tāpat kā visiem armatūras savienojumiem, montāžas plāksnei pirms galīgās nostiprināšanas ir jābūt rūpīgi izlīdzinātai ar līmeņrādi."
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "seo_p1": "Iemetināmais sēdeklis (Weld-in Saddle) ir revolucionārs risinājums vēlāku atzaru izveidei, nepārgriežot galveno līniju.",
+        "seo_p2": "Pēc cauruma izurbšanas galvenajā caurulē, sēdekļa formas PP-R veidgabals tiek piemetināts tieši pie caurules sienas. Tas garantē tādu pašu spiedienizturību kā oriģinālajai caurulei.",
+        "seo_p3": "Industriālajos tīklos un stāvvados šis komponents ietaupa milzīgu montāžas laiku, jo paplašināšanai nav pilnībā jādemontē galvenās līnijas.",
+        "faq": [
+          {
+            "q": "Kāda ir atšķirība no sēdekļa ar metāla vītni?",
+            "a": "Šim iemetināmajam sēdeklim ir tīrs PP-R atzars, kurā var tieši iemetināt cauruli vai citu veidgabalu (uzmavu)."
+          },
+          {
+            "q": "Vai galvenās caurules sienai jābūt ar minimālo biezumu?",
+            "a": "Nē, ja tas ir pareizi urbts, sēdekli var droši metināt pie visiem K Aqua spiediena līmeņiem (no SDR 6 līdz SDR 17)."
+          },
+          {
+            "q": "Cik ilgi notiek urbšanas un metināšanas process?",
+            "a": "Pieredzējušam uzstādītājam ir nepieciešamas ne vairāk kā 3-5 minūtes urbšanai, sildīšanai ar speciālo sēdekļa instrumentu un savienošanai."
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "seo_p1": "Iemetināmais sēdeklis ar iekšējo vītni (Weld-in Saddle Female Thread) apvieno ātras sēdekļa uzstādīšanas priekšrocības ar tiešu metāla savienojumu.",
+        "seo_p2": "Papildus PP-R sēdekļa korpusam šim veidgabalam ir stingri noenkurota misiņa iekšējā vītne, kas nodrošina pret sagriešanos īpaši izturīgu bāzi vārstiem.",
+        "seo_p3": "Ideāli piemērots iztukšošanas vārstu, atgaisotāju vai mērsensoru vēlākai uzstādīšanai tieši esošajās galvenajās līnijās bez sarežģītas cauruļvadu atdalīšanas.",
+        "faq": [
+          {
+            "q": "Kāda ir šī iemetināmā sēdekļa galvenā priekšrocība?",
+            "a": "Tas ļauj esošam cauruļvadam tieši uzstādīt metāla iekšējo vītni, kas ārkārtīgi ietaupa laiku un vietu."
+          },
+          {
+            "q": "Vai šeit var ieskrūvēt termometrus?",
+            "a": "Jā, sēdeklis ir ideāls interfeiss temperatūras sensoru vai mazu manometru pastāvīgai un drošai pret spiedienu integrācijai apkures tīklos."
+          },
+          {
+            "q": "Vai misiņa vītne ir aizsargāta pret izraušanu?",
+            "a": "Pilnīgi noteikti. Misiņa ieliktnis tiek iesmidzināts dziļi PP-R struktūrā un tiek mehāniski nesaraujami noenkurots ar speciālu rievojumu."
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "seo_p1": "Iemetināmais sēdeklis ar ārējo vītni (Weld-in Saddle Male Thread) ļauj nekavējoties pievienot sistēmas komponentus ar uzgriežņiem pie pamata caurules.",
+        "seo_p2": "Vienlaidus iemetinātais PP-R sēdeklis nes masīvu ārējo vītni no misiņa, kas spēj izturēt visaugstākos sviras spēkus un ilgstošas temperatūras svārstības.",
+        "seo_p3": "Šis komponents bieži tiek izmantots sadalītāju konstrukcijā, lai uzstādītu slēgvārstus vai sūkņu izejas ārkārtīgi kompaktā un plūsmai draudzīgā veidā.",
+        "faq": [
+          {
+            "q": "Kādiem savienojumiem ir piemērota ārējā vītne uz sēdekļa?",
+            "a": "Tā ir optimāla tiešai armatūras pievienošanai ar iekšējo vītni vai savienojumiem, kas nostiprināti ar uzgriezni."
+          },
+          {
+            "q": "Vai šis sēdeklis ir pieejams visiem cauruļu izmēriem?",
+            "a": "Iemetināmais sēdeklis ir pieejams galvenajām caurulēm no 40 mm līdz 125 mm, ar ārējo vītni parasti 1/2\" vai 3/4\"."
+          },
+          {
+            "q": "Kā tiek nodrošināts hermētiskums pēc urbšanas?",
+            "a": "Kausējot sēdekli un cauruli, tiek izveidots vienots materiāls, viendabīgs savienojums, kas ir 100% blīvs molekulārā līmenī."
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "seo_p1": "Cauruļu skavas (Pipe Clamps) veido mehānisko pamatu PP-R cauruļvadu sistēmu standartiem atbilstošai un ilgstošai stiprināšanai.",
+        "seo_p2": "Aprīkotas ar skaņu izolējošiem gumijas ieliktņiem un izturīgām tērauda eņģēm, šīs skavas droši absorbē caurules termisko garenisko izplešanos.",
+        "seo_p3": "Tās ir absolūti nepieciešamas, lai nostiprinātu cauruļvadus pie sienām vai griestiem un efektīvi izolētu cauruļu trokšņus no ēkas struktūras.",
+        "faq": [
+          {
+            "q": "Kādam nolūkam kalpo gumijas ieliktnis skavā?",
+            "a": "EPDM ieliktnis kalpo skaņas atdalīšanai saskaņā ar DIN 4109 un novērš plūsmas trokšņa pārnešanu uz mūri."
+          },
+          {
+            "q": "Vai skava jāuzstāda kā fiksēts punkts vai slīdošs punkts?",
+            "a": "Atkarībā no skrūvju pievilkšanas momenta skavu var izmantot gan kā stiprinājuma fiksētu punktu, gan kā slīdošu punktu termiskajai gareniskajai izplešanās iespējai."
+          },
+          {
+            "q": "Kāds vītnes savienojums ir cauruļu skavām?",
+            "a": "Mūsu standarta cauruļu skavām ir piemetināts kombinētais uzgrieznis (M8/M10), kas nodrošina elastīgu piestiprināšanu pie standarta pakaramo skrūvēm vai vītņstieņiem."
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "seo_p1": "PP tērauda brīvais atloks (Backing Flange PP/Steel SFBF) nodrošina augsti noslogojamu un izmēros stabilu atloka savienojumu lieliem cauruļu diametriem.",
+        "seo_p2": "Tērauda kodols, kas pilnībā pārklāts ar izturīgu polipropilēnu (PP), pilnībā novērš koroziju un liedz izliekšanos zem augsta saskares spiediena.",
+        "seo_p3": "Šis piederums ir izšķirošs, pārejot uz lieliem sūkņiem vai tērauda tvertnēm rūpniecības iekārtās, kur nepieciešams droši novirzīt ārkārtējus stiepes spēkus.",
+        "faq": [
+          {
+            "q": "Kāpēc tērauda kodols ir pārklāts ar polipropilēnu?",
+            "a": "Plastmasas pārklājums ilgstoši aizsargā augstas stiprības tēraudu pret koroziju, kas ir īpaši svarīgi mitros pagrabos vai agresīvā industriālā vidē."
+          },
+          {
+            "q": "Vai caurumu raksts atbilst parastajiem standartiem?",
+            "a": "Jā, mūsu brīvo atloku urbumu raksts ir precīzi saskaņots ar Eiropas DIN EN 1092-1 standartu un atbilst visiem tirdzniecībā pieejamajiem pretatlokiem."
+          },
+          {
+            "q": "Vai skrūves ir jāpievelk ar griezes momenta atslēgu?",
+            "a": "Mēs ļoti iesakām pievilkt šķērsām ar kalibrētu griezes momenta atslēgu, lai nodrošinātu vienmērīgu blīves saspiešanu."
+          }
+        ]
+      },
+      "flat-gasket": {
+        "seo_p1": "Plakanā blīve (Flat Gasket) ir būtiskākais blīvējuma elements visiem atloku savienojumiem mūsu PP-R sistēmā.",
+        "seo_p2": "Izgriezta no augstas kvalitātes EPDM vai citiem elastomēriem, blīve ir īpaši pielāgota atloku gludajām gala virsmām un iztur augstu tīkla spiedienu.",
+        "seo_p3": "Tā kompensē mikroskopiskus nelīdzenumus un nodrošina 100% bez noplūdes un ilgstošu savienojumu atloku pārejām rūpniecībā vai apkures tehnoloģijās.",
+        "faq": [
+          {
+            "q": "No kāda materiāla ir izgatavota plakanā blīve?",
+            "a": "Kā standartu mūsu atloku blīves ir izgatavotas no augstspiediena EPDM, kas ir lieliski piemērots dzeramajam un apkures ūdenim."
+          },
+          {
+            "q": "Vai blīvi drīkst izmantot atkārtoti?",
+            "a": "Nē, pēc atloka savienojuma atslābināšanas drošības apsvērumu dēļ obligāti jāievieto jauna plakanā blīve."
+          },
+          {
+            "q": "Vai blīve ir izturīga pret ķīmiskām vielām?",
+            "a": "EPDM piedāvā labu izturību pret daudziem ūdens šķīdumiem. Attiecībā uz īpašām rūpnieciskām ķīmiskām vielām, lūdzu, iepriekš pārbaudiet mūsu izturības sarakstus."
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "seo_p1": "Plakanā blīve savienojumiem (Flat Gasket for Unions PP-R) ir precīzi izmērīta mūsu plastmasas un metāla savienojumiem.",
+        "seo_p2": "Dzeramajam ūdenim apstiprinātais elastomēra materiāls nodrošina augstu atjaunošanās spēku un ir izturīgs pret pastāvīgām termiskām slodzēm karstā ūdens tīklos.",
+        "seo_p3": "Regulāra šīs blīves nomaiņa pēc vārstu vai sūkņu apkopes garantē skrūvju savienojuma ilgstošu hermētiskumu.",
+        "faq": [
+          {
+            "q": "Cik cieši var pievilkt savienojumu?",
+            "a": "Lai nesabojātu blīvi, uzgrieznis ir jāpievelk ar roku un pēc tam tikai nedaudz (apm. 1/4 apgrieziena) jāpievelk ar instrumentu."
+          },
+          {
+            "q": "Vai šīs blīves ir pieejamas arī no citiem materiāliem?",
+            "a": "Ekstrēmām temperatūras prasībām vai īpašām rūpnieciskām vidēm pēc pieprasījuma mēs varam piedāvāt arī blīves, kas izgatavotas no FKM (Viton) vai PTFE."
+          },
+          {
+            "q": "Vai šī blīve der citu zīmolu produktiem?",
+            "a": "Tā ir pielāgota K Aqua savienojumu rievas un mēlītes konstrukcijai, bet to var izmantot arī ar tāda paša izmēra trešo pušu savienojumiem."
+          }
+        ]
+      },
+      "plug": {
+        "seo_p1": "Noslēgs (Plug) tiek izmantots īslaicīgai vai pastāvīgai atvērto vītņu savienojumu aizvēršanai sanitārajās iekārtās.",
+        "seo_p2": "Izliets no izturīga PP-R un bieži vien aprīkots ar integrētu blīvgredzenu, noslēgs iztur pilnu pārbaudes spiedienu sistēmas pieņemšanas laikā.",
+        "seo_p3": "Tas pasargā cauruļu sistēmu no netīrumiem būvniecības fāzē un uzticami noslēdz sienas diskus līdz izplūdes veidgabalu galīgajai uzstādīšanai.",
+        "faq": [
+          {
+            "q": "Vai noslēgs iztur ūdens spiedienu būvniecības fāzē?",
+            "a": "Jā, tas ir izstrādāts, lai izturētu pilnu testa spiedienu (bieži vairāk nekā 15 bārus) cauruļu tīkla spiediena pārbaudes laikā."
+          },
+          {
+            "q": "Vai noslēgs papildus jānoblīvē ar teflonu?",
+            "a": "Mūsu noslēgiem parasti ir integrēts O-gredzens, tāpēc nav nepieciešama papildu blīvējuma lente, piemēram, teflons vai kaņepes."
+          },
+          {
+            "q": "Vai noslēgs var pastāvīgi palikt sienā?",
+            "a": "Tas galvenokārt ir izstrādāts kā celtniecības aizbāznis. Pastāvīgai noslēgšanai mēs iesakām izmantot atbilstošus misiņa noslēgus."
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "seo_p1": "Cauruļu griezējs d20-d40 (Pipe Cutter 20-40) ir būtisks precizitātes rīks tīriem šķērsgriezumiem maziem un vidējiem cauruļu izmēriem.",
+        "seo_p2": "Aprīkotas ar asmeni, kas pārklāts ar titānu, un mehānisko sviru, šķēres garantē absolūti taisnleņķa griezumu caur PP-R caurulēm bez materiāla deformācijas.",
+        "seo_p3": "Tīrs griezums bez atskarpēm ir pamatprasība atbilstošam un izturīgam metināšanas savienojumam. Šis rīks ir katra uzstādītāja pastāvīgs pavadonis.",
+        "faq": [
+          {
+            "q": "Kāpēc īpašs cauruļu griezējs ir tik svarīgs?",
+            "a": "Taisnleņķa griezums bez atskarpēm un saspiešanas ir absolūti nepieciešams, lai nodrošinātu perfektu, bez tukšumiem metināšanas savienojumu."
+          },
+          {
+            "q": "Vai asmeni var nomainīt?",
+            "a": "Jā, nodiluma vai bojājumu gadījumā augstas stiprības tērauda asmeni var viegli nomainīt pret oriģinālo rezerves daļu."
+          },
+          {
+            "q": "Vai šķēres darbojas arī aukstā temperatūrā?",
+            "a": "Spēka pārnešana darbojas vienmēr, bet PP-R cauruli nevajadzētu griezt sasalšanas temperatūrā, jo tā var sašķelties."
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "seo_p1": "Lielais cauruļu griezējs d50-d125 (Pipe Cutter 50-125) ir izturīgs rullīšu griešanas rīks liela apjoma plastmasas caurulēm.",
+        "seo_p2": "Tā masīvais tērauda korpuss un īpaši rūdītais griešanas ritenis bez pūlēm ar absolūtu plakanu paralēlismu iespiežas lielo SDR klašu biezajās cauruļu sieniņās.",
+        "seo_p3": "Ideāli piemērots galveno sadales līniju sagatavošanai rūpnieciskajā būvniecībā, šis griezējs novērš stresa izraisītas plaisas, kas varētu rasties ar vienkāršiem zāģa griezumiem.",
+        "faq": [
+          {
+            "q": "Kā notiek tik biezu cauruļu griešana?",
+            "a": "Instruments tiek nostiprināts ap cauruli, griešanas ritenis lēnām tiek padots, un griezējs vienmērīgām, rotējošām kustībām tiek virzīts ap cauruli."
+          },
+          {
+            "q": "Vai šis instruments griež arī šķiedru kompozītmateriālu caurules?",
+            "a": "Jā, īpaši rūdītais griešanas ritenis arī bez piepūles un ļoti precīzi pārgriež mūsu ar stikla šķiedru pastiprinātās PPRCT caurules."
+          },
+          {
+            "q": "Vai rullīšu griezējs aizstāj fāzēšanu?",
+            "a": "Uzmavu metināšanai nav nepieciešama fāzēšana. Pilnīgi taisnais šī instrumenta griezums ir ideāls sagatavošanās posms metināšanas procesam."
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "seo_p1": "Augstas veiktspējas cauruļu griezējs d50-d125 V1 (Pipe Cutter 50-125-1) ir pārveidota versija īpaši ātriem un ergonomiskiem griezumiem.",
+        "seo_p2": "Ar optimizētu vārpstas vadotni un integrētu ātrās atgriešanās mehānismu, tas ievērojami paātrina masīvu PP-R cauruļu griešanas procesu.",
+        "seo_p3": "Paredzēts būvniecības projektiem ar lielu cauruļu patēriņu ar diametru 50 mm un vairāk, šis rīks samazina fizisko slodzi lietotājam līdz minimumam.",
+        "faq": [
+          {
+            "q": "Ko nozīmē 'ātrās atgriešanās mehānisms'?",
+            "a": "Kad griešana ir pabeigta, griešanas riteni var nekavējoties atgriezt sākuma stāvoklī, nospiežot pogu, bez apnicīgas atpakaļgriešanas."
+          },
+          {
+            "q": "Vai šis modelis ir vairāk piemērots stacionārai lietošanai?",
+            "a": "Tas ir mobils, bet, pateicoties tās masīvajai konstrukcijai un precīzajai vārpstas vadotnei, to var lieliski izmantot stacionārai iepriekšējai sagatavošanai."
+          },
+          {
+            "q": "Vai šim cauruļu griezējam ir pieejamas rezerves daļas?",
+            "a": "Jā, gan griešanas ritenis, gan vadošie rullīši ir pastāvīgi pieejami kā oriģinālās rezerves daļas."
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "seo_p1": "Rokas metināšanas iekārta d20-d32 pilnā komplektācijā (Hand Welding Machine 20-32 Complete Set) ir profesionāla bāzes stacija maziem izmēriem.",
+        "seo_p2": "Tajā ietilpst ar termostatu vadāms 800 vatu sildelements, ar teflonu pārklāti metināšanas instrumenti un stabils statīvs izturīgā metāla korpusā.",
+        "seo_p3": "Ierīce, kas paredzēta ātrai un standartiem atbilstošai priekšsienu un stāvu uzstādīšanai, vienmēr saglabā absolūti nemainīgu nepieciešamo metināšanas temperatūru 260°C.",
+        "faq": [
+          {
+            "q": "Kāpēc elektroniskais termostats ir tik svarīgs?",
+            "a": "Tikai precīzs termostats garantē DVS saderīgu nepārtrauktu temperatūru, kas ir tieši 260°C, kas ir absolūti nepieciešams drošai PP-R saplūšanai."
+          },
+          {
+            "q": "Cik ilgi notiek sasilšanas fāze?",
+            "a": "Pateicoties spēcīgajam 800 vatu sildelementam, ierīce parasti sasniedz darba temperatūru mazāk nekā 10 minūtēs."
+          },
+          {
+            "q": "Kādi instrumenti ir iekļauti koferī?",
+            "a": "Komplektā ietilpst sildītājs, pamatne, teflona serdeņi 20, 25 un 32 mm caurulēm, sešskaldņu atslēga un montāžas skrūves tērauda koferī."
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "seo_p1": "Rokas metināšanas iekārta d20-d63 pilnā komplektācijā (Hand Welding Machine 20-63 Complete Set) aptver visu klasiskās ēku inženierijas klāstu.",
+        "seo_p2": "Ar lielāku sildīšanas jaudu un dubultajām ligzdām sildīšanas serdeņiem, šī ierīce ļauj vienlaicīgi sagatavot dažādus izmērus bez instrumentu maiņas.",
+        "seo_p3": "Izturīgais komplekts ir paredzēts skarbai ikdienas būvlaukuma dzīvei un nodrošina bezkompromisa precīzu metināšanas temperatūru pat nelabvēlīgos laika apstākļos.",
+        "faq": [
+          {
+            "q": "Vai var vienlaikus uzstādīt vairākus metināšanas instrumentus?",
+            "a": "Jā, platajā sildīšanas galviņā var vienlaikus uzstādīt līdz pat trim sildīšanas serdeņu pāriem nepārtrauktam darbam."
+          },
+          {
+            "q": "Vai ierīce dod signālu, kad temperatūra ir sasniegta?",
+            "a": "Labi redzama kontrollampiņa norāda lietotājam, tiklīdz darba temperatūra ir sasniegta un nostabilizējusies pie 260°C."
+          },
+          {
+            "q": "Vai iekārta ir piemērota nepārtrauktai darbībai lielos būvlaukumos?",
+            "a": "Pilnīgi noteikti. Ilgmūžīgais sildelements un karstumizturīgie vadi ir īpaši izstrādāti rūpnieciskām maiņām."
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "seo_p1": "Rokas metināšanas iekārta ar spoguli d50-d125 (Hand Welding Machine Mirror 50-125) ir īpaši izstrādāta lielai uzmavu metināšanai.",
+        "seo_p2": "Īpaši plakans, liels apsildāms spogulis garantē vienmērīgu masīvu veidgabalu un cauruļu sildīšanu. Vairāk nekā 1200 vatu jauda nodrošina ātru sasilšanas fāzi.",
+        "seo_p3": "Absolūti nepieciešams lielu rūpniecības padeves līniju manuālai apstrādei, kur temperatūras pazemināšanās metināšanas procesa laikā būtu katastrofāla.",
+        "faq": [
+          {
+            "q": "Kāpēc lielām caurulēm ir nepieciešams plakans spogulis?",
+            "a": "Lieliem diametriem (sākot no 50 mm) ir milzīga masa. Plakanais spogulis piedāvā ārkārtīgi lielu kontaktlaukumu, lai ātri un vienmērīgi ievadītu siltumu plastmasā."
+          },
+          {
+            "q": "Cik smaga ir ierīce?",
+            "a": "Neskatoties uz lielo jaudu, ierīce ir ergonomiski sabalansēta, bet precīzai cauruļu savienošanai no 90 mm parasti ir nepieciešami divi uzstādītāji."
+          },
+          {
+            "q": "Vai ir jātīra ar teflonu pārklātās virsmas?",
+            "a": "Jā, pēc katras lietošanas tās rūpīgi jānotīra ar drāniņu bez plūksnām vai speciālu koka lāpstiņu, kamēr tās vēl ir siltas."
+          }
+        ]
+      },
+      "welding-tool": {
+        "seo_p1": "Metināšanas instrumenti (Welding Tool) ir ar teflonu pārklāti sildīšanas serdeņi un uzmavas, kas veic faktisko PP-R materiāla kausēšanu.",
+        "seo_p2": "Izgatavoti no īpaši augstas siltumvadītspējas sakausējumiem un pārklāti ar īpašu nepiedegošu PTFE slāni, tie garantē perfektu, bezatlikumu molekulāro kausējumu.",
+        "seo_p3": "DVS prasīto savienojuma viendabīgumu 50 gadu kalpošanas laikam var panākt tikai ar nebojātiem un augstas kvalitātes metināšanas instrumentiem.",
+        "faq": [
+          {
+            "q": "Kad ir jānomaina metināšanas instruments?",
+            "a": "Tiklīdz teflona pārklājums ir saskrāpēts vai PP-R atlikumi piedeg, instruments ir jānomaina, lai izvairītos no bojātām metināšanas šuvēm."
+          },
+          {
+            "q": "Kāpēc es nedrīkstu noskrāpēt plastmasas atlikumus ar nazi?",
+            "a": "Nazis nekavējoties iznīcinās mikrosmalko PTFE pretpiedeguma pārklājumu. Uz karstā instrumenta izmantojiet tikai mīkstas drānas."
+          },
+          {
+            "q": "Vai K Aqua metināšanas instruments derēs uz trešo pušu ierīcēm?",
+            "a": "Montāžas atvere atbilst nozares standartiem, tādēļ mūsu instrumenti ir piemēroti gandrīz visām profesionālajām uzmavu metināšanas iekārtām."
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "seo_p1": "Galda metināšanas iekārta d50-d125 (Welding Machine 50-125 Complete Set) piedāvā stacionāru precizitāti lielu cauruļu komplektu iepriekšējai sagatavošanai.",
+        "seo_p2": "Tajā ir spīles, sviru mehānisms savienošanai bez piepūles, un digitāli kontrolēts sildīšanas elements absolūti precīzam savienošanas spiedienam un laikam.",
+        "seo_p3": "Sadalītāju vai sarežģītu rūpniecisko agregātu darbnīcas ražošanā šī mašīna novērš cilvēciskās kļūdas un palielina apstrādes ātrumu.",
+        "faq": [
+          {
+            "q": "Kāda ir stacionārās mašīnas priekšrocība salīdzinājumā ar rokas ierīci?",
+            "a": "Sviras mehānisms ļauj masīvās caurules iebīdīt pilnīgi taisni un bez sasvēršanās, kas, darot ar rokām, prasītu milzīgu piepūli."
+          },
+          {
+            "q": "Vai to var izmantot arī mazu cauruļu metināšanai?",
+            "a": "Tehniski jā, taču mašīna ir īpaši izstrādāta lieliem savienošanas spēkiem diametriem no 50 mm līdz 125 mm."
+          },
+          {
+            "q": "Kā caurule tiek nostiprināta?",
+            "a": "Universālās spīles ar dažādiem ieliktņiem satver cauruli maigi, bet absolūti stingri, lai nodrošinātu spēcīgu, aksiālu kustību."
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "seo_p1": "Sadurmetināšanas iekārta d90-d250 (Butt Welding Machine 90-250) ir augstākās klases sistēma liela formāta bezatloku cauruļu savienojumiem.",
+        "seo_p2": "Hidrauliskā presēšanas iekārta, CNC kontrolēts apsildāms spogulis un precīza cauruļu ēvele nodrošina pilnībā automatizētu, augstākā līmeņa metināšanu ar reģistrēšanu.",
+        "seo_p3": "Maģistrālajiem ūdensvadiem vai rūpnieciskajiem dzesēšanas ūdens tīkliem no 90 mm šī ierīce ir būtiska, lai veiktu sertificētus un apstiprināmus sadurmetinājumus.",
+        "faq": [
+          {
+            "q": "Kāda ir atšķirība starp uzmavu metināšanu un sadurmetināšanu?",
+            "a": "Sadurmetināšanā cauruļu gali tiek frēzēti plakaniski un sapludināti tieši kopā, bez papildu veidgabala (uzmavas)."
+          },
+          {
+            "q": "Vai metināšanas dati tiek saglabāti kvalitātes kontrolei?",
+            "a": "Jā, integrētā CNC vadība reģistrē katras atsevišķās metināšanas šuves temperatūru, spiedienu un laiku vēlākai izvērtēšanai."
+          },
+          {
+            "q": "Kāpēc ir iebūvēta ēvele?",
+            "a": "Pirms metināšanas ēvele frēzē abus cauruļu galus absolūti paralēli un bez oksidēšanās, kas ir absolūti nepieciešams ilgstošam molekulārajam savienojumam."
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "seo_p1": "Elektrosametināšanas iekārta (Electrofusion Machine) kontrolē sildīšanas uzmavu pilnībā automātisku metināšanas procesu ar elektrisko pretestības sildīšanu.",
+        "seo_p2": "Viedais mikroprocesors nolasa veidgabala svītrkodu ar skeneri un automātiski aprēķina precīzu spriegumu un metināšanas laiku atkarībā no apkārtējās vides temperatūras.",
+        "seo_p3": "Nepieciešama remontiem ārkārtīgi šaurās šahtās, vēlākiem savienojumiem vai pazemes instalācijām, kur klasiskā uzmavu metināšana vietas trūkuma dēļ nav iespējama.",
+        "faq": [
+          {
+            "q": "Kā mašīna nolasa metināšanas parametrus?",
+            "a": "Katrai elektriskajai metināšanas uzmavai ir svītrkods, ko lietotājs nolasa, izmantojot pievienoto skeneri. Iekārta pielāgojas pilnīgi automātiski."
+          },
+          {
+            "q": "Vai iekārta kompensē temperatūras svārstības būvlaukumā?",
+            "a": "Jā, apkārtējās vides sensors mēra temperatūru un automātiski pielāgo metināšanas laiku (ilgāks ziemā, īsāks vasarā)."
+          },
+          {
+            "q": "Vai caurule pirms elektrosametināšanas ir jānomizo?",
+            "a": "Obligāti! PP-R caurules oksīda slānis metināšanas zonā ir mehāniski jānoņem, izmantojot īpašu mizošanas rīku."
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "seo_p1": "Sēdekļa metināšanas instruments (Welding Tool for Weld-in Saddles) ir īpaši izstrādāts iemetināmo sēdekļu uzstādīšanai uz esošajām PP-R caurulēm.",
+        "seo_p2": "Tas sastāv no ieliekta sildīšanas serdeņa caurules sienai un izliektas sildīšanas uzmavas sēdeklim, abi ar augstas kvalitātes teflona pārklājumu.",
+        "seo_p3": "Tas uzsilda precīzi vajadzīgo laukumu uz pamatcaurules, lai viendabīgi un neatgriezeniski sapludinātu sēdekli ar cauruļvadu sistēmu.",
+        "faq": [
+          {
+            "q": "Kāpēc instrumentam ir ieliekta un izliekta puse?",
+            "a": "Ieliektā (izliektā uz iekšu) puse uzsilda apaļo ārējo cauruli, savukārt izliektā puse uzkarsē sēdekļveida atzaru precīzi līdz kušanas temperatūrai."
+          },
+          {
+            "q": "Vai viens instruments der visām caurulēm?",
+            "a": "Nē, katrai galvenās caurules-atzara kombinācijai (piem., 63 mm uz 20 mm) ir nepieciešams tieši atbilstošs sēdekļa metināšanas instruments."
+          },
+          {
+            "q": "Kā instruments tiek uzstādīts uz metināšanas iekārtas?",
+            "a": "To pieskrūvē tieši pie K Aqua rokas metināšanas iekārtas sildīšanas galviņas, izmantojot sešskaldņu skrūvi, tāpat kā parastu sildīšanas serdeni."
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "seo_p1": "Speciālais urbis iemetināmajiem sēdekļiem (Drilling Tool for Weld-in Saddle) ir precīzs sagatavošanas rīks sēdekļu atzariem.",
+        "seo_p2": "Tas ne tikai izurbj precīzi nepieciešamo caurumu ūdeni nesošajā galvenajā caurulē, bet tajā pašā laikā arī tīri izfrēzē malas zonu turpmākajai metināšanai.",
+        "seo_p3": "Ārkārtīgi ass un tīrs urbums ir ļoti svarīgs, lai novērstu plastmasas skaidu iekļūšanu cauruļvadu tīklā, vēlāk metinot sēdekli.",
+        "faq": [
+          {
+            "q": "Kāpēc es nevaru izmantot parastu koka vai metāla urbi?",
+            "a": "Standarta urbji saplēš plastmasu un rada nekontrolētas skaidas. Mūsu speciālais urbis izfrēzē caurumu un tīri uztver skaidas."
+          },
+          {
+            "q": "Vai urbis der standarta bezvada skrūvgriezim?",
+            "a": "Jā, urbim ir standarta sešstūra kāts, kas iekļaujas jebkurā standarta urbjpatronā."
+          },
+          {
+            "q": "Vai no urbuma ir jānoņem atskarpes?",
+            "a": "Nē, urbja frēzēšanas galva ir veidota tā, lai automātiski sagatavotu un izlīdzinātu cauruma malu turpmākajai metināšanai."
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "seo_p1": "Remonta metināšanas rīks (Welding Tool for Repairing Plug) ir īpaši specializēts uzgalis izurbtu cauruļu labošanai.",
+        "seo_p2": "Šī koniskā sildīšanas tapa mērķtiecīgi uzsilda bojātā urbuma iekšpusi un vienlaikus uzsilda attiecīgo PP-R remonta tapu līdz kušanas temperatūrai.",
+        "seo_p3": "Tas ir glābiņš katrā būvlaukumā, lai ātri un droši noslēgtu caurules, kas nejauši izurbtas (piemēram, montējot pie sienas).",
+        "faq": [
+          {
+            "q": "Kā tieši darbojas remonta tapa?",
+            "a": "Koniskais rīks izkausē urbumu. Tad arī uzkarsētais PP-R remonta aizbāznis tiek iespiests caurumā un neatgriezeniski saplūst kopā ar to."
+          },
+          {
+            "q": "Vai salabotā vieta ir patiešām droša?",
+            "a": "Jā, tā nav vienkārša līmēšana, bet gan molekulāra metināšana, kas iztur tādu pašu spiedienu kā nebojāta caurule."
+          },
+          {
+            "q": "Kādus urbumu diametrus var labot?",
+            "a": "Šis rīks ir ideāli piemērots tipiskiem urbšanas negadījumiem (dībeļu caurumiem) robežās no 7 mm līdz 11 mm."
+          }
+        ]
+      },
+      "repairing-plug": {
+        "seo_p1": "Remonta tapa (Repairing Plug) ir cieta PP-R tapa, kas apvienojumā ar speciālo metināšanas rīku palīdz novērst urbumu avārijas.",
+        "seo_p2": "Tas sastāv no tā paša materiāla, kas K Aqua cauruļu sistēma, un, ievietojot to bojātajā caurulē, saplūst absolūti viendabīgā masā.",
+        "seo_p3": "Tā vietā, lai lauztu lielas sienu platības, lai nomainītu cauruļu daļas, caurumu vienkārši aizmetina. Pēc tam remontētā vieta ir tikpat izturīga pret spiedienu kā oriģinālā caurule.",
+        "faq": [
+          {
+            "q": "No kāda materiāla ir izgatavota remonta tapa?",
+            "a": "Tas ir 100% izgatavots no augstas kvalitātes polipropilēna statiskā kopolimēra (PP-R) 3. tipa, tāpat kā mūsu K Aqua cauruļu sistēmas."
+          },
+          {
+            "q": "Vai pēc metināšanas tapa ir jānogriež?",
+            "a": "Jā, kad metināšana ir pilnībā atdzisusi, tapas izvirzītais gals tiek nogriezts vienā līmenī ar caurules sienu."
+          },
+          {
+            "q": "Vai es varu izmantot tapu, kad cauruļu tīkls ir pilns?",
+            "a": "Nē, skartajā zonā ūdens padeve ir pilnībā jāatvieno un caurulei urbuma zonā jābūt sausai."
+          }
+        ]
+      }
+    }
+  },
+  "toggle_theme_light": "Pārslēgties uz gaišo dizainu",
+  "toggle_theme_dark": "Pārslēgties uz tumšo dizainu",
+  "nav": {
+    "home": "Sākums",
+    "products": "Produkti",
+    "finder": "Produktu meklētājs",
+    "co2": "CO₂ kalkulators",
+    "markets": "Tirgi",
+    "trust": "Uzticības centrs",
+    "contact": "Kontakti",
+    "quote": "Pieprasīt piedāvājumu",
+    "menu": "Izvēlne",
+    "lang": "Valoda",
+    "skipToContent": "Pāriet uz saturu",
+    "menuPlaceholder": "Vietturis (Mega-izvēlne)",
+    "academy": "Akadēmija",
+    "service": "Serviss",
+    "about": "Uzņēmums",
+    "solutions": "Risinājumi",
+    "partners": "Partnerība",
+    "references": "Atsauces",
+    "career": "Karjera",
+    "news": "Jaunumi",
+    "knowledge_trust": "Zināšanas un uzticēšanās",
+    "mapAria": "Atvērt kartes navigāciju",
+    "sitemapAria": "Lapas kopsavilkums",
+    "pipes": "Caurules",
+    "fittings": "Veidgabali",
+    "valves": "Vārsti",
+    "accessories": "Piederumi",
+    "tools": "Instrumenti"
+  },
+  "groups": {
+    "tools": "Instrumenti",
+    "knowledge": "Zināšanas",
+    "company": "Uzņēmums",
+    "products": "Produkti",
+    "markets_solutions": "Tirgi un risinājumi",
+    "knowledge_resources": "Zināšanas un resursi"
+  },
+  "pages": {
+    "catalogOverview": "Pilns produktu katalogs",
+    "products": [
+      "Produkti un veidgabali",
+      "Atklājiet K Aqua pilnos plastmasas cauruļu sistēmas no d20 līdz d630 mm. Augstas veiktspējas PP-R un PPRCT caurules mājsaimniecībai un rūpniecībai."
+    ],
+    "finder": [
+      "Produktu meklētājs",
+      "Uzreiz atrodiet perfekto PP-R vai PPRCT cauruli, veidgabalu vai vārstu. Filtrējiet mūsu katalogu tiešsaistē pēc izmēra, spiediena klases un sienas biezuma."
+    ],
+    "finderGuideText": "<h2>Interaktīvais produktu meklētājs K-Aqua cauruļu sistēmām</h2><p>Izmantojiet mūsu inovatīvo produktu meklētāju, lai atrastu tieši to komponentu, kas nepieciešams jūsu konkrētajai cauruļvadu instalācijai. Neatkarīgi no tā, vai meklējat standarta PP-R caurules dzeramā ūdens instalācijai, ar šķiedru pastiprinātas PPRCT caurules prasīgām rūpniecības iekārtām vai īpašus pārejas veidgabalus un armatūru – mūsu rīks reāllaikā filtrē visu katalogu. Produktu meklēšana palīdz jums izvēlēties pēc diametra (d20 līdz d630), spiediena klases (SDR klase) un materiāla.</p><p>Labi strukturētai cauruļu sistēmai nepieciešama precīza plānošana un precīza cauruļu, veidgabalu (piemēram, uzmavu, līkumu un T-veidgabalu) un atbilstošo piederumu kombinācija. Mūsu produktu meklētājs novērš laikietilpīgu meklēšanu statiskos PDF katalogos un tā vietā sniedz tūlītējus, uzticamus datus par preču numuriem, iepakojuma vienībām un tehniskajām specifikācijām. Tikai ar dažiem klikšķiem jūs varat sastādīt materiālu sarakstu un nodrošināt dažādu komponentu saderību apkures, dzesēšanas un dzeramā ūdens sistēmām. Tas ne tikai optimizē jūsu plānošanas procesu, bet arī samazina kļūdas, pasūtot materiālus savam nākamajam būvniecības projektam.</p>",
+    "co2": [
+      "CO2 kalkulators",
+      "Salīdziniet K Aqua PP-R plastmasas cauruļu CO2 pēdu ar varu, nerūsējošo tēraudu un PVC. Pārbaudīts saskaņā ar ISO 14040/44 zaļajai būvniecībai."
+    ],
+    "solutions": [
+      "Materiālu priekšrocības",
+      "Uzziniet, kāpēc polipropilēns (PP-R/PPRCT) ir labākais materiāls ūdens apgādei. Ekoloģisks, tehniski progresīvs un ekonomisks."
+    ],
+    "academy": [
+      "K-Aqua Academy: PP-R metināšanas metodes un zināšanas",
+      "Apgūstiet profesionālas metināšanas metodes PP-R plastmasas caurulēm. Skatieties video pamācības un izpildiet mūsu metināšanas meistara testu."
+    ],
+    "trust": [
+      "Uzticības centrs",
+      "Piekļūstiet K Aqua kvalitātes dokumentācijai. Lejupielādējiet ISO sertifikātus, GENAU sistēmu un audita dokumentus savam projektam."
+    ],
+    "service": [
+      "Servisa un lejupielāžu centrs",
+      "Lejupielādējiet oficiālos K Aqua produktu katalogus, tehniskās datu lapas un uzstādīšanas vadlīnijas PP-R un PPRCT plastmasas cauruļu sistēmām."
+    ],
+    "partner": [
+      "KESSEL partnerība",
+      "K Aqua un KESSEL vieno gadu desmitiem ilga partnerība, kas vācu ražošanas standartus no drenāžas pārnes uz ūdensapgādi."
+    ],
+    "markets": [
+      "Tirgi un atrašanās vietas",
+      "K Aqua piegādā PP-R cauruļu sistēmas vairāk nekā 27 valstīm. Izmantojiet mūsu interaktīvo pasaules karti vietējiem standartiem, ūdens profiliem un loģistikas informācijai."
+    ],
+    "references": [
+      "Atsauces projekti",
+      "Atklājiet atsauces projektus visā pasaulē ar K-Aqua PP-R cauruļu sistēmām. Mūsu interaktīvais 3D globuss parāda mājas, komerciālās un rūpnieciskās instalācijas."
+    ],
+    "about": [
+      "Par KWT GmbH",
+      "KWT GmbH apvieno gadu desmitiem ilgu pieredzi, lai ražotu K Aqua premium cauruļu sistēmu. Vācijas inženierija augstākajai kvalitātei un inovācijām."
+    ],
+    "career": [
+      "Karjera K-Aqua",
+      "Kļūstiet par daļu no mūsu komandas Valdsolmsā. Aprēķiniet savas beznodokļu priekšrocības neto un 60 sekundēs pārbaudiet, vai K Aqua jums ir piemērots."
+    ],
+    "news": [
+      "Aktualitātes un jaunumi | K-Aqua uzņēmuma jaunumi",
+      "Esiet informēti par K Aqua inovācijām, produktiem, izstāžu apmeklējumiem un mūsu apņemšanos nodrošināt ražošanu ar trīskāršu ISO sertifikāciju."
+    ],
+    "contact": [
+      "Kontakti, pārdošana un atbalsts",
+      "Sazinieties ar K Aqua ekspertu komandu, lai uzzinātu par pārdošanas jautājumiem, atbalstu vai partnerību. Ātrs reakcijas laiks globālajiem B2B klientiem."
+    ],
+    "rfq": [
+      "Projekta pieprasījums",
+      "Pieprasiet nesaistošu piedāvājumu savam nākamajam cauruļu projektam četrās vienkāršās darbībās. Mūsu pārdošanas komanda ar jums sazināsies 24 stundu laikā."
+    ],
+    "home": [
+      "PP-R un PPRCT cauruļu sistēmas",
+      "K Aqua ražo augstākās klases PP-R un PPRCT plastmasas cauruļu sistēmas dzeramajam ūdenim un rūpnieciskiem lietojumiem. Vācijas inženierija globāliem projektiem."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Privātuma politika",
+        "K Aqua vietnes visaptveroša privātuma politika saskaņā ar VDAR vadlīnijām."
+      ],
+      "impressum": [
+        "Juridiskā informācija",
+        "Juridiska uzņēmuma informācija par KWT GmbH, K Aqua ražotāju."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Pārbaudīta kvalitāte",
+      "title1": "",
+      "titleHighlight": "GENAU",
+      "title2": " pārvaldības sistēma",
+      "p1": "GENAU pārvaldības sistēmas mērķis ir nepārtraukta arodveselības, drošības un vides aizsardzības uzlabošana uzņēmumā.",
+      "p2": "Visas uzņēmējdarbības darbības uzņēmumā KWT tiek veiktas, ņemot vērā resursu saglabāšanu, vides saderību un stingru atbilstību visām saistībām. GENAU pārvaldības sistēma atbilst augstajām ",
+      "p3": " un ",
+      "list1Title": "Ekoloģiskā atbildība",
+      "list1Desc": "Vides aizsardzība ir daļa no mūsu izpratnes par kvalitāti, kam ir uzticīgi visi KWT GmbH darbinieki.",
+      "list2Title": "Energoefektivitāte",
+      "list2Desc": "Mērķtiecīga risku identificēšana un pasākumu īstenošana energoefektivitātes optimizēšanai."
+    },
+    "pipes": [
+      "Caurules un sistēmas",
+      "Augstas veiktspējas PP-R un PP-RCT caurules mājsaimniecībai un rūpniecībai. Atklājiet visas SDR klases un izmērus savam nākamajam projektam."
+    ],
+    "fittings": [
+      "Veidgabali",
+      "Pilns veidgabalu klāsts visām K-Aqua cauruļu sistēmām. Atklājiet līkumus, T-veidgabalus, pārejas un uzmavas polifūzijai."
+    ],
+    "valves": [
+      "Armatūra un vārsti",
+      "Premium armatūra un piederumi cauruļvadu tīkliem. Augstas kvalitātes lodveida vārsti, zemapmetuma vārsti, slīpsēdekļa vārsti un pretvārsti."
+    ],
+    "tools": [
+      "Instrumenti un piederumi",
+      "Profesionāli metināšanas instrumenti un piederumi PP-R instalācijai. Atklājiet metināšanas iekārtas, cauruļu griezējus un īpašos instrumentus."
+    ],
+    "transition-fittings": [
+      "Pārejas",
+      "Uzticami pārejas veidgabali drošiem savienojumiem. Atklājiet misiņa pārejas veidgabalus ar vītņu vai atloku savienojumiem."
+    ]
+  },
+  "home": {
+    "chip": "pārbaudīts kopš 2025. gada oktobra",
+    "h1a": "Līderi",
+    "h1b": "K-Aqua PP-R cauruļu sistēmās",
+    "globeAria": "Interaktīvs globuss, velciet, lai pagrieztu",
+    "scrolly": [
+      {
+        "t": "Ražots Vācijā",
+        "d": "Izstrāde un ražošana Valdsolmsā katrai caurulei, katram veidgabalam."
+      },
+      {
+        "t": "d20 līdz d630",
+        "d": "Pilnīga sistēma: piecas spiediena klases, veidgabali, armatūra un metināšanas tehnoloģija."
+      },
+      {
+        "t": "Trīskārši pārbaudīts",
+        "d": "ISO 9001, 14001 un 50001: kvalitāte, vide un enerģija no vienas pārvaldības sistēmas."
+      },
+      {
+        "t": "27 tirgi visā pasaulē",
+        "d": "No Frankfurtes līdz NEOM: pārbaudīts atbilstoši vietējiem standartiem un ūdens profiliem."
+      }
+    ],
+    "lead": "K-Aqua izstrādā un ražo PP-R un PP-RCT cauruļu sistēmas dzeramajam ūdenim no 20 līdz 630 mm sadarbībā ar premium klases ražotāju KESSEL.",
+    "ctaProducts": "Atklāt produktu sistēmu",
+    "ctaContact": "Sazināties",
+    "toolsEyebrow": "Interaktīvie rīki",
+    "toolsTitle1": "Nekādu teksta tuksnešu.",
+    "toolsTitle2": "Instrumenti.",
+    "toolsLead": "Tīmekļa vietne strādā jūsu labā: filtrējiet, rēķiniet, mācieties.",
+    "bandTitle": "Vai esat gatavi nākamajai ūdensapgādes paaudzei?",
+    "bandLead": "Konsultējieties ar mūsu pārdošanas komandu par jūsu projektu – no plānošanas līdz metināšanas tehnoloģijai.",
+    "bandBtn": "Sākt projekta pieprasījumu",
+    "bandBtn2": "Lejupielādes un serviss"
+  },
+  "geo": {
+    "eyebrow": "Tirgi un atrašanās vietas",
+    "title1": "Pasaule, kas pilna ar",
+    "title2": "Tirgiem.",
+    "lead": "Atklājiet K-Aqua atrašanās vietas PP-R cauruļu sistēmām: {n} tirgi {c} valstīs, katram no tiem ir sava galvenā lapa par standartiem, ūdens profilu, pielietošanas gadījumiem un loģistiku. Satveriet pasauli un brīvi grieziet to; saraksts aizvedīs jūs tieši uz pilsētu.",
+    "all": "Visi",
+    "cityTitle": "PP-R/PPRCT cauruļu sistēmas pilsētā {city}.",
+    "cityLead": "Dzeramā ūdens sistēmas d20–d630, pārbaudītas atbilstoši vietējām prasībām.",
+    "allMarkets": "Visi tirgi",
+    "request": "Pieprasīt projektu",
+    "finder": "Produktu meklētājs",
+    "fromPlant": "km no rūpnīcas Valdsolmsā",
+    "regFrame": "Regulatīvais ietvars",
+    "water": "Ūdens profils un materiālu atbilde",
+    "typical": "Tipiski projekti pilsētā {city}",
+    "onSite": "Apstrāde uz vietas",
+    "onSiteText": "Metināšanas tehnoloģijas instruktāža un video dokumentācija jūsu komandai akadēmijā.",
+    "toAcademy": "Uz Akadēmiju",
+    "nearbyEyebrow": "Saistītie tirgi",
+    "nearby": "Tuvumā.",
+    "prodNote": "Ražošanas piezīme: Šīs lapas atbilst Programmatic-SEO veidnei (Datu griezums: Produkts × Regulatīvā informācija × Reģions). Programmā Next.js tās tiek ģenerētas, izmantojot ISR no Headless CMS, ieskaitot hreflang, Product-/Offer-Schema un semantisko iekšējo saistīšanu.",
+    "km": "km",
+    "seoExpansion": "K Aqua Valdsolmsā ražo PP-R un PPRCT cauruļu sistēmas augstākajām prasībām globālajā ēku un iekārtu inženierijā. Pateicoties bezkompromisa Vācijas inženierijai un vismodernākajām ražošanas tehnoloģijām, mūsu sistēmas garantē desmitiem gadu ilgu ekspluatācijas uzticamību bez apkopes. Katrs produkts no d20 līdz d630 iziet stingru kvalitātes kontroli un atbilst starptautiskajiem standartiem, piemēram, DVGW, KIWA un SKZ. Mēs piedāvājam ne tikai augstākās klases materiālus dzeramajam ūdenim, dzesēšanai un rūpniecībai, bet arī atbalstām plānotājus un uzstādītājus ar visaptverošu tehnisko atbalstu un apmācību uz vietas. Uzticieties sistēmai, kas pārliecina ar savu ārkārtīgo izturību, nekorodēšanu un absolūtu higiēnu.",
+    "seoExpansionDynamic": "Uzziniet vairāk par mūsu PP-R un PPRCT risinājumiem pilsētā {city}. Mēs atbilstam vietējiem standartiem ({regulator}) un piedāvājam optimālas sistēmas ūdens kvalitātei ({water}). Papildu piezīme: {note}.",
+    "cityMetaTitle": "PP-R cauruļu sistēmas pilsētā {city}",
+    "hubMetaTitle": "PP-R cauruļu sistēmas valstij {country}",
+    "hubH1": "Infrastruktūras risinājumi valstij {country}",
+    "hubLead": "K-Aqua piedāvā sertificētus PP-R un PP-RCT infrastruktūras risinājumus valstij {country}. Mūsu cauruļu sistēmas atbilst augstākajiem starptautiskajiem standartiem un ir optimizētas īpašajiem {country} izaicinājumiem.",
+    "hubContextTitle": "Reģionālais konteksts: {context}",
+    "hubContextBody": "Mūsu K-Aqua PP-R/PP-RCT cauruļu sistēmas no Vācijas ražošanas nodrošina ilgtspējīgus infrastruktūras risinājumus valstij {country}. Tās ir īpaši izstrādātas, lai atbilstu vietējiem infrastruktūras izaicinājumiem.",
+    "hubCitiesTitle": "Vietējās atrašanās vietas un atsauces pilsētas",
+    "hubs": {
+      "deutschland": {
+        "description": "Kā K-Aqua mājas tirgus, Vācija piedāvā augstākās prasības attiecībā uz būvniecības kvalitāti un ilgmūžību. Mūsu <span class=\"font-semibold\">PP-R un PP-RCT cauruļu sistēmas</span> efektīvi un ilgtspējīgi tiek galā ar steidzamajiem atjaunošanas darbiem Vācijas dzeramā ūdens un apkures infrastruktūrā. Izmantojot nerūsējošus, DVGW sertificētus materiālus, mēs samazinām uzturēšanas izmaksas un gadu desmitiem nodrošinām maksimālu sistēmas higiēnu lielos pašvaldību, komerciālos un privātos projektos.",
+        "metaDesc": "Sertificētas PP-R/PP-RCT cauruļu sistēmas Vācijai. Vācijas inženierija pret atjaunošanas darbu sastrēgumiem dzeramā ūdens un apkures infrastruktūrā."
+      },
+      "oesterreich": {
+        "description": "Austrijā prasīgā topogrāfija un stingrie vides noteikumi prasa bezkompromisa infrastruktūras risinājumus. Mūsu <span class=\"font-semibold\">K-Aqua cauruļu sistēmas</span> piedāvā augstākās kvalitātes izturīgus ūdens un centralizētās siltumapgādes tīklus Alpu reģionos. Ar ÖVGW apstiprinātu drošību un izcilu siltumizolāciju, mūsu PP-R un PP-RCT caurules garantē drošu pret sasalšanu un spiedienu veiktspēju pat ekstremālākajos Alpu klimatiskajos apstākļos.",
+        "metaDesc": "Premium PP-R/PP-RCT cauruļu sistēmas Austrijai. Droši pret sasalšanu un spiedienu risinājumi ūdens un centralizētās siltumapgādes tīkliem Alpu reģionos."
+      },
+      "schweiz": {
+        "description": "Šveice iestājas par precizitāti, ilgtspējību un augstākajiem kvalitātes standartiem. <span class=\"font-semibold\">K-Aqua PP-R un PP-RCT sistēmas</span> atbilst šīm prasībām, pateicoties pirmklasīgai materiālu tīrībai un SVGW sertificētai pārtikas nekaitīgumam. Mūsu pilnībā pārstrādājamās, plūsmai optimizētās plastmasas caurules nodrošina energoefektīvu sanitāro un gaisa kondicionēšanas tehnoloģiju progresīviem Minergie būvniecības projektiem visā Šveicē.",
+        "metaDesc": "Pirmklasīgas PP-R/PP-RCT cauruļu sistēmas Šveicei. SVGW sertificētas, pārstrādājamas plastmasas caurules ilgtspējīgiem Minergie būvprojektiem."
+      },
+      "uae": {
+        "description": "Apvienoto Arābu Emirātu ekstremālajos klimatiskajos apstākļos ūdens ir visvērtīgākais resurss. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT cauruļu sistēmas</span> piedāvā maksimālu aizsardzību pret koroziju un pārkaļķošanos pat tad, ja tiek izmantots atsāļots jūras ūdens (Reversā osmoze). Mūsu pret UV stariem un karstumu izturīgās augstas veiktspējas caurules nodrošina ilgtermiņa ūdens padevi Dubajas un Abū Dabī milzīgajos megaprojektos un debesskrāpjos.",
+        "metaDesc": "UV un karstumizturīgas PP-R/PP-RCT cauruļu sistēmas AAE. Augstākā aizsardzība pret koroziju un kalcija nogulsnēm tuksneša klimatā."
+      },
+      "ksa": {
+        "description": "Kā daļu no Vīzijas 2030 (Vision 2030), Saūda Arābija pārveido visu savu infrastruktūru. <span class=\"font-semibold\">K-Aqua nodrošina tam nepieciešamo ūdens infrastruktūru</span>. Mūsu liela kalibra PP-RCT caurules nodrošina drošu, bez noplūdēm un efektīvu ūdens sadali jaunās viedpilsētās, piemēram, NEOM. Sertificēti atbilstoši starptautiskajiem standartiem, mēs garantējam nepārtrauktu darbību ārkārtīgi augstā apkārtējās vides temperatūrā.",
+        "metaDesc": "Liela kalibra PP-RCT cauruļu sistēmas Saūda Arābijai. Uzticama ūdens infrastruktūra Vīzijai 2030 un tādiem megaprojektiem kā NEOM."
+      },
+      "singapur": {
+        "description": "Kā vienam no blīvāk apdzīvotajiem augsto tehnoloģiju pilsētvalstīm Āzijā, Singapūrai ir nepieciešama ļoti efektīva un vietu taupoša ēku tehnoloģija. <span class=\"font-semibold\">K-Aqua inovatīvās cauruļvadu sistēmas</span> atbalsta Singapūras ambiciozos zaļās būvniecības mērķus ar ievērojami samazinātiem spiediena zudumiem un optimālām termiskajām īpašībām. No augstceltņu gaisa kondicionēšanas (Atdzesēts ūdens) līdz īpaši tīra dzeramā ūdens piegādei mēs nosakām standartus Āzijā.",
+        "metaDesc": "Efektīvas PP-R/PP-RCT caurules Singapūras zaļajām ēkām. Specializētas sistēmas atdzesētam ūdenim un īpaši tīram dzeramajam ūdenim."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, līderis ūdensapgādē. PP-R/PP-RCT cauruļu sistēmas dzeramajam ūdenim, ko ražo KWT GmbH Valdsolmsā.",
+    "colTools": "Produkti un rīki",
+    "colCompany": "Uzņēmums",
+    "colContact": "Kontakti",
+    "directions": "Norādes un atrašanās vieta",
+    "rights": "Visas tiesības aizsargātas.",
+    "imprint": "Juridiskā informācija",
+    "privacy": "Privātuma politika",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Vācija",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Pieprasīt projektu",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R cauruļu standarti"
+      },
+      {
+        "t": "Ilgtspējība",
+        "s": "Videi draudzīgs"
+      },
+      {
+        "t": "GENAU sistēma",
+        "s": "Integrētā vadība"
+      },
+      {
+        "t": "Ražots Vācijā",
+        "s": "Ražošana Valdsolmsā"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Tīmekļa dizains no Coday",
+        "Coday Web Agency projekts",
+        "Coday Web Agency",
+        "Digitalizējis Coday"
+      ],
+      "srDesc": "Šo vietni izstrādāja un tehniski ieviesa Coday Web Agency, web dizaina un GEO eksperti Hesenē.",
+      "linkTitle": "Uz Coday Web Agency - Premium Webdesign"
+    }
+  }
+}

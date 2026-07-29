@@ -1,0 +1,409 @@
+const fs = require('fs');
+
+const products = {
+  "seoArticle": {
+    "pipes": {
+      "areas": "Instalacije pijaće vode, grejanje, klimatizacija, industrijska postrojenja, brodogradnja",
+      "advTitle": "Superiorna tehnologija cevovoda za svaki projekat",
+      "advList": [
+        "Bez korozije: 100% otporno na rupičastu koroziju i rđu.",
+        "Nizak gubitak pritiska: Izuzetno glatka unutrašnja površina minimizira trenje i štedi energiju pumpe.",
+        "Dug životni vek: Garantovano preko 50 godina bez održavanja u kontinuiranom radu.",
+        "Smanjenje buke: Odlična zvučna izolacija od buke protoka.",
+        "Higijenski: Ispunjava najstrože međunarodne standarde za pijaću vodu (DVGW, KIWA)."
+      ],
+      "seoText": "Naše cevi visokih performansi proizvode se u Waldsolmsu prema najvišim standardima kvaliteta. Kombinacija materijala PP-R i PPRCT obezbeđuje izuzetnu otpornost na temperaturu i pritisak. Bilo da se radi o kućnoj tehnici, izgradnji industrijskih postrojenja ili složenim rashladnim sistemima, ovaj sistem cevi pruža maksimalnu sigurnost i efikasnost. Jednostavna i bezbedna tehnologija zavarivanja garantuje apsolutno zaptivene spojeve.",
+      "guideTitle": "Sveobuhvatni vodič: Planiranje i instalacija K-Aqua PP-R i PPRCT sistema cevi",
+      "guideText": "<h2>Sveobuhvatni vodič: Planiranje, nauka o materijalima i instalacija K-Aqua PP-R i PPRCT sistema cevi</h2><p>Odabir pravog materijala za cevi je osnova za dugovečnost, operativnu pouzdanost i energetsku efikasnost modernih građevinskih i industrijskih infrastruktura. Naši <strong>PP-R i PPRCT sistemi cevi</strong> proizvedeni u Nemačkoj (Waldsolms) nude alternativu tradicionalnim metalnim cevima od bakra, čelika ili mesinga otpornu na budućnost, zahvaljujući svojim odličnim termičkim, hemijskim i mehaničkim svojstvima.</p><p>Bez obzira da li u kućnoj tehnici za mreže pijaće vode i grejanja, u izgradnji industrijskih postrojenja, rashladnim sistemima ili brodogradnji, K-Aqua cevi predstavljaju beskompromisno nemačko inženjerstvo i obezbeđuju rad bez curenja i održavanja decenijama.</p><h2>Inovacija materijala: PP-R i PPRCT u direktnom poređenju</h2><p>Dok standardni polipropilenski random kopolimer (PP-R) već ima odlična svojstva u pogledu otpornosti na koroziju i higijene, napredniji PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) postavlja nove standarde u tehnologiji cevovoda. Kroz ciljanu modifikaciju kristalne strukture u procesu polimerizacije, PPRCT nudi znatno veću otpornost na pritisak pri povišenim radnim temperaturama do 95°C.</p><p>Ova tehnička prednost materijala omogućava proizvodnju cevi sa znatno tanjim zidovima (više SDR klase) pod istim nominalnim pritiskom. Rezultati za korisnika su izvanredni:</p><ul><li><strong>Povećan hidraulički protok:</strong> Veći unutrašnji prečnik povećava zapreminu protoka do 17% u poređenju sa standardnim PP-R cevima.</li><li><strong>Smanjena težina cevi:</strong> Ušteda materijala znatno olakšava transport i rukovanje na gradilištu.</li><li><strong>Veće rezerve pritiska:</strong> Maksimalne sigurnosne rezerve čak i pri vršnim opterećenjima u kontinuiranoj upotrebi tople vode.</li></ul><h2>Tehnologija kompozitnih vlakana (K-Fiber) za minimalno toplotno širenje</h2><p>Centralni aspekt u planiranju vodova za toplu vodu i grejanje je toplotno širenje plastičnih cevi. K-Aqua se suočava sa ovim izazovom pomoću inovativne K-Fiber tehnologije kompozitnih vlakana. Troslojne K-Fiber cevi imaju srednji polipropilenski sloj koji je ojačan staklenim vlaknima visoke čvrstoće.</p><p>Ova mehanička stabilizacija smanjuje koeficijent linearnog toplotnog širenja na tačno 0,035 mm/(m·K), što odgovara smanjenju toplotnog širenja za oko 75% u poređenju sa neojačanim plastičnim cevima. Za projektante i instalatere to znači:</p><ul><li><strong>Manje kompenzatora širenja:</strong> Značajna ušteda na krivinama i kompenzacionim lukovima na trasi cevi.</li><li><strong>Veći razmaci pričvršćivanja:</strong> Ušteda na obujmicama za cevi i fiksnim tačkama prilikom postavljanja trase.</li><li><strong>Dimenzionalno stabilna instalacija:</strong> Nema ugiba cevi u otvorenim trasama ili vertikalama.</li></ul><h2>Homogeno polifuziono zavarivanje: Sigurnost od curenja 50+ godina</h2><p>Srce sistema K-Aqua cevi je trajna tehnologija spoja kroz termičku polifuziju. Tokom procesa zavarivanja, kraj cevi i muf fitinga se zagrevaju na tačno 260°C pomoću elektronski kontrolisanog aparata za zavarivanje. Pri tome se polimerni lanci obe komponente na površinama za spajanje tope.</p><p>Kada se spoje, rastopljeni makromolekuli se potpuno međusobno prepliću na molekularnom nivou. Nakon hlađenja, stvara se homogena, monolitna struktura materijala bez šavova, lepkova ili elastičnih zaptivki. Pošto se ne koriste gumeni O-prstenovi ili mehanički pres-spojevi, oštećenja usled starenja, smolarenja ili krutosti zaptivki su stvar prošlosti. Zavar izdržava iste pritiske kao i sama cev.</p><h2>Hidraulika, higijena i ekološka kompatibilnost</h2><p>Sigurnost pijaće vode i energetska efikasnost su glavni prioriteti za K-Aqua. Unutrašnja površina naših PP-R i PPRCT cevi, glatka kao ogledalo, ima izuzetno nisku hrapavost od samo k = 0,007 mm. Ovo efikasno sprečava lepljenje naslaga kamenca (inkrustacija) i stvaranje plodnog tla za biofilmove i legionele.</p><p>Pored toga, polipropilen je fiziološki potpuno bezopasan, bez ukusa i mirisa i bez teških metala i plastifikatora. K-Aqua sistemi cevi su sertifikovani širom sveta prema najstrožim standardima (uključujući DVGW, KIWA, WRAS). Sistem je takođe ekološki ubedljiv: polimer se 100% može reciklirati i ima odličan ekološki balans u procesu proizvodnje u poređenju sa metalnim cevima.</p><h2>Važne napomene o instalaciji i planiranju</h2><p>Da bi se obezbedilo pravilno funkcionisanje tokom garantovanog veka trajanja od 50 godina, tokom instalacije se mora obratiti pažnja na sledeće tačke:</p><ul><li><strong>Ispitivanje pritiska:</strong> Nakon završetka instalacije, mreža cevi mora biti podvrgnuta ispitivanju pritiska u skladu sa DIN 1988 / DIN EN 806.</li><li><strong>Toplotna izolacija:</strong> Cevi za toplu vodu i grejanje moraju biti profesionalno izolovane u skladu sa važećim propisima o uštedi energije kako bi se gubici toplote sveli na minimum.</li><li><strong>UV zaštita:</strong> Prilikom postavljanja napolju, moraju se koristiti cevi zaštićene od UV zračenja ili se mora obezbediti odgovarajući pokrivač.</li></ul>",
+      "seoTitle": "PP-R i PPRCT Sistemi Cevi Pregled",
+      "faq": [
+        {
+          "q": "Šta razlikuje PPRCT od konvencionalnog PP-R u sistemima cevovoda?",
+          "a": "PPRCT ima posebno modifikovanu kristalnu strukturu koja omogućava veću otpornost na pritisak pri povišenim radnim temperaturama. Kao rezultat toga, mogu se koristiti cevi sa tanjim zidovima pod istim nominalnim pritiskom, što povećava unutrašnji prečnik i kapacitet hidrauličkog protoka do 17%."
+        },
+        {
+          "q": "Kako tehnologija kompozitnih vlakana K-Fiber smanjuje toplotno širenje?",
+          "a": "Naše K-Fiber cevi imaju integrisani srednji sloj od polipropilena ojačanog staklenim vlaknima. Ovaj sloj mehanički stabilizuje cev i smanjuje koeficijent širenja na približno 0,035 mm/(m·K). Ovo odgovara smanjenju toplotnog širenja za 75% u poređenju sa standardnim plastičnim cevima."
+        },
+        {
+          "q": "Da li su K-Aqua PP-R sistemi cevi sertifikovani za pijaću vodu?",
+          "a": "Da, K-Aqua sistemi cevi ispunjavaju najstrože higijenske zahteve međunarodnih sertifikacionih tela kao što su DVGW, KIWA i WRAS. Materijal je potpuno bezopasan, bez ukusa i mirisa i efikasno sprečava stvaranje kamenca i biofilma."
+        },
+        {
+          "q": "Kako se stvara potpuno zaptiven zavar?",
+          "a": "Spoj se ostvaruje termičkom polifuzijom na 260°C. Cev i fiting se stapaju na molekularnom nivou u homogenu, nerazdvojivu celinu. Pošto se ne koriste gumene zaptivke ili pres-fitinzi podložni greškama, zavar ostaje potpuno zaptiven preko 50 godina."
+        },
+        {
+          "q": "Koje klase pritiska i dimenzije su dostupne za K-Aqua cevi?",
+          "a": "K-Aqua nudi sisteme cevi u klasama pritiska SDR 6, SDR 7.4, SDR 9 i SDR 11 (PN10 do PN25) i spoljašnjim prečnicima od 20 mm do 250 mm. Ovo omogućava realizaciju kako fine spratne distribucije, tako i masivnih glavnih i vertikalnih vodova."
+        }
+      ]
+    },
+    "fittings": {
+      "areas": "Mreža pijaće vode, sanitarne instalacije, industrijska distribucija, grejanje",
+      "advTitle": "Sigurni i homogeni spojevi",
+      "advList": [
+        "Homogeno zavarivanje: Cev i fiting se stapaju u nerazdvojnu celinu.",
+        "Nema potrebe za zaptivkama: Trajna veza ne zahteva O-prstenove sklone greškama.",
+        "Jednostavna montaža: Brza i sigurna obrada na gradilištu.",
+        "Pun protok: Nema suženja poprečnog preseka, što održava pritisak u sistemu.",
+        "Hemijska otpornost: Otpornost na razne agresivne medije."
+      ],
+      "seoText": "K-Aqua fitinzi su karika za pouzdane mreže cevi. Proizvedeni u Nemačkoj, ovi fitinzi nude najviši nivo preciznosti i tačnosti dimenzija. Tehnika zavarivanja (polifuzija) traje samo nekoliko sekundi i hladi se u vezu koja je jaka kao i sama cev. Ovo eliminiše rizik od mikro-curenja, koji se često može javiti kod presovanih ili utičnih sistema posle godina upotrebe.",
+      "guideTitle": "Tehnički vodič: Sigurni spojevi sa K-Aqua fitinzima",
+      "guideText": "<p>Fitinzi su srce svake složene mreže cevi. Sa visokokvalitetnim <strong>K-Aqua PP-R fitinzima</strong> možete realizovati instalacije koje mogu da izdrže najviše pritiske i temperature.</p><p>Prednosti homogenog zavarivanja su neosporne:</p><ul><li><strong>Čvrsta veza materijala:</strong> Kada se zagreju, fiting i cev se stapaju u jedan komad. Ovo dosledno eliminiše slabe tačke kao što su starenje O-prstenova ili mehaničko presovanje.</li><li><strong>Optimizacija protoka:</strong> Naši fitinzi su dizajnirani tako da se na spojevima održava poprečni presek. Ovo minimizira turbulenciju i smanjuje potrošnju energije cirkulacionih pumpi.</li><li><strong>Najviši kvalitet materijala:</strong> Korišćenjem prvoklasnog polipropilenskog random kopolimera, postiže se izuzetna hemijska i toplotna otpornost, koja daleko prevazilazi normativne specifikacije.</li></ul><p>Tokom obrade, mora se obezbediti čist rez bez neravnina i tačno poštovanje vremena zagrevanja i hlađenja. Ovo osigurava radno vreme bez održavanja od preko 50 godina u svim oblastima instalacije koje garantuje proizvođač.</p>",
+      "seoTitle": "Plastični Fitinzi & Oblikovni komadi"
+    },
+    "valves": {
+      "areas": "Zatvaranje vertikala, upravljanje sistemom, razvodni ormari, industrija",
+      "advTitle": "Precizna kontrola i dugotrajna funkcija",
+      "advList": [
+        "Bez održavanja: Mehanika je dizajnirana za decenije glatkog rada.",
+        "Pun prolaz: Kuglasti ventili sa punim poprečnim presekom minimiziraju gubitke pritiska.",
+        "Laka integracija: Mogu se zavariti direktno u PP-R sistem.",
+        "Visokokvalitetni materijali: Sedišta ventila i kugle od legura otpornih na koroziju.",
+        "Sigurno zatvaranje: 100% zaptivenost čak i pod ekstremnim promenama pritiska i temperature."
+      ],
+      "seoText": "K-Aqua ventili kombinuju dokazanu PP-R tehnologiju zavarivanja sa visokokvalitetnim mehaničkim komponentama. Oni omogućavaju preciznu kontrolu fluida i bezbednu izolaciju mrežnih sekcija radi održavanja. Svaki ventil se podvrgava strogom ispitivanju pritiska pre isporuke kako bi se osigurala maksimalna operativna sigurnost u kritičnim primenama.",
+      "guideTitle": "Stručni savetnik: Kontrola postrojenja pomoću K-Aqua ventila i armatura",
+      "guideText": "<p>Precizna kontrola i izolacija tokova materijala je neophodna u modernim mrežama za vodu i grejanje. <strong>K-Aqua ventili i armature</strong> kombinuju dugovečnost polipropilena sa preciznošću metalnih mehanizama za zaptivanje i podešavanje.</p><p>Šta treba da znate kada integrišete PP-R ventile:</p><ul><li><strong>Dizajn bez mrtvog prostora:</strong> Da bi se izbegla stagnacija vode i mikrobna kontaminacija (npr. legionela), naše armature su dizajnirane sa optimizovanim protokom i higijenske su, što ih čini idealnim za osetljive instalacije pijaće vode.</li><li><strong>Stabilnost pritiska i temperature:</strong> Masivna tela ventila i visokokvalitetne mesingane ili PP kugle osiguravaju 100% zaptivanje, čak i u slučaju ekstremnih udara pritiska i visokih temperatura protoka.</li><li><strong>Jednostavno održavanje:</strong> Čak i nakon višegodišnje neprekidne upotrebe, K-Aqua kuglasti ventili i kosi ventili mogu se upravljati glatko i precizno zahvaljujući zaptivnim elementima obloženim teflonom.</li></ul>",
+      "seoTitle": "Zaporni Ventili & Kuglasti Ventili"
+    },
+    "weldInSaddles": {
+      "areas": "Naknadne grane, proširenje mreže cevi, izgradnja distribucije",
+      "advTitle": "Weld-in Saddles (Sedla za zavarivanje) za maksimalnu fleksibilnost",
+      "advList": [
+        "Naknadna instalacija: Proširenje postojećih PP-R mreža cevi bez presecanja glavne cevi.",
+        "Ušteda vremena: Bušenje, zagrevanje, zavarivanje, gotovo za nekoliko minuta.",
+        "Otpornost na pritisak: Zavar sedla dostiže istu klasu pritiska kao osnovna cev.",
+        "Pun protok: Nema suženja poprečnog preseka u glavnom vodu.",
+        "Svestranost: Dostupno sa ili bez metalnog navojnog prelaza (UN/SN)."
+      ],
+      "seoText": "Weld-in Saddles (Sedla za zavarivanje) za maksimalnu fleksibilnost su savršeno rešenje za naknadne grane u postojećim mrežama cevi. Umesto mučnog presecanja glavne cevi i umetanja T-komada, cev se jednostavno izbuši i sedlo se homogeno zavari. Ova tehnika štedi ogromnu količinu vremena montaže i troškova materijala u industrijskim distributivnim sistemima.",
+      "guideTitle": "Vodič za instalaciju: Fleksibilnost kroz sedla za zavarivanje",
+      "guideText": "<p>Modifikacija ili proširenje postojećih industrijskih i komercijalnih cevnih mreža je često povezano sa velikim naporom. Ovde <strong>K-Aqua sedla za zavarivanje</strong> nude efikasno i izuzetno bezbedno rešenje za stvaranje naknadnih grana bez prekida linije.</p>",
+      "seoTitle": "Sedla za zavarivanje cevovoda"
+    },
+    "accessories": {
+      "areas": "Pričvršćivanje cevi, zaptivanje, prirubnički priključak, popravka",
+      "advTitle": "Accessories (Pribor) za standardizovanu instalaciju",
+      "advList": [
+        "Savršeno pristajanje: Sav pribor je geometrijski usklađen sa sistemom K-Aqua cevi.",
+        "Termodinamičko pričvršćivanje: Obujmice za cevi sa gumenim umetkom za fiksne i klizne ležajeve.",
+        "Visokokvalitetni prirubnički spojevi: Labave prirubnice i EPDM zaptivke za prelaz na metal.",
+        "Brza popravka: Čepovi za popravku slučajno probušenih cevi.",
+        "UV otpornost: Odabrani dodaci su specijalno stabilizovani za spoljašnju instalaciju."
+      ],
+      "seoText": "Pravi asortiman pribora je ključan za dugovečnost mreže cevi. K-Aqua nudi sveobuhvatnu matricu pribora: od termodinamičke obujmice za pričvršćivanje za kompenzaciju toplotnog širenja do EPDM ravne zaptivke za prirubničke spojeve.",
+      "guideTitle": "Stručni vodič: K-Aqua pribor za standardizovane instalacije",
+      "guideText": "<p>Visokokvalitetnom sistemu cevi je potreban jednako kvalitetan pribor. K-Aqua asortiman uključuje sve bitne komponente za osiguranje dugovečnosti, sigurnosti i usklađenosti sa svim građevinskim propisima.</p>",
+      "faq": [
+        {
+          "q": "Da li su dodaci pogodni za hladnu i toplu vodu?",
+          "a": "Da, naši dodaci poput obujmica za cevi i zaptivki su dizajnirani za upotrebu u sistemima hladne vode, tople vode i grejanja."
+        }
+      ],
+      "seoTitle": "Pribor za instalaciju cevi"
+    },
+    "tools": {
+      "areas": "Predfabriciranje, montaža na gradilištu, popravka, specijalne primene",
+      "advTitle": "Najviša preciznost za savršen spoj",
+      "advList": [
+        "Precizna kontrola temperature: Mikroprocesorski kontrolisani grejači održavaju tačno 260°C.",
+        "Premaz protiv lepljenja: Teflon PTFE za talinu bez ostataka.",
+        "Ergonomski dizajn: Smanjuje fizički napor instalatera.",
+        "Digitalna dokumentacija: Mašine za sučeono i elektrofuziono zavarivanje sa funkcijom evidentiranja.",
+        "Dug vek trajanja: Robusna mehanika za surove uslove na gradilištu."
+      ],
+      "seoText": "K-Aqua asortiman alata čini neophodnu osnovu za profesionalnu obradu naših sistema cevovoda. Od preciznih makaza za cevi do automatizovane CNC mašine za sučeono zavarivanje.",
+      "guideTitle": "Praktični vodič: Profesionalni alati za K-Aqua instalaciju cevi",
+      "guideText": "<p>Kvalitet ugradnje plastičnih cevi zavisi od preciznosti korišćenih alata. <strong>K-Aqua alati za zavarivanje i sečenje</strong> su specijalno dizajnirani za termoplastična svojstva PP-R i PPRCT.</p>",
+      "seoTitle": "Alati za Zavarivanje & Makaze za Cevi"
+    },
+    "fallback": {
+      "areas": "Univerzalna tehnologija instalacije, potrebe gradilišta",
+      "advTitle": "Savršen sistemski dodatak",
+      "advList": [
+        "Testiran kvalitet: Odgovara ISO 9001 sistemu upravljanja.",
+        "Sistemska kompatibilnost: Savršeno usklađeno sa K-Aqua sistemom cevi.",
+        "Izdržljivost: Robusni materijali."
+      ],
+      "seoText": "Kao dobavljač sistema, K-Aqua obezbeđuje ne samo cevi i fitinge, već i sve potrebne alate i pribor."
+    }
+  },
+  "labels": {
+    "applicationAreas": "Oblasti primene",
+    "advantages": "Vaše prednosti na prvi pogled",
+    "technicalDescription": "Tehnički profil i SEO",
+    "noResults": "Nema pronađenih proizvoda",
+    "searchPlaceholder": "Pretraga po naslovu ili broju artikla...",
+    "faqTitle": "Često postavljana pitanja (FAQ)",
+    "faqFallbackQ1": "Koje su glavne prednosti?",
+    "faqFallbackA1": "Sistem nudi ekstremnu dugovečnost, otpornost na koroziju i odlična higijenska svojstva za pijaću vodu.",
+    "faqFallbackQ2": "Da li je materijal ekološki prihvatljiv?",
+    "faqFallbackA2": "Da, PPRCT se može 100% reciklirati i ima veoma mali ugljenični otisak.",
+    "faqFallbackQ3": "Kako se vrši instalacija?",
+    "faqFallbackA3": "Instalacija se izvodi sigurno i bez curenja pomoću polifuzionog zavarivanja.",
+    "downloads": "Preuzimanja i dokumenti",
+    "tds": "Tehnički list",
+    "tdsDesc": "Specifikacije i mere (PDF)",
+    "cert": "Sertifikati i norme",
+    "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+    "install": "Vodič za instalaciju",
+    "installDesc": "Uputstva za zavarivanje (PDF)",
+    "range": "Asortiman proizvoda",
+    "rangeDesc": "Kompletan asortiman sa merama (PDF)",
+    "features": "Karakteristike proizvoda",
+    "featuresDesc": "Svojstva materijala (PDF)"
+  },
+  "specAndDim": "Specifikacije i dimenzije",
+  "certsAndNorms": "Sertifikati i norme",
+  "approved": "odobreno",
+  "monitoring": "nadgledano",
+  "certified": "sertifikovano",
+  "quickLinks": "Brzi linkovi",
+  "calcCo2": "Izračunaj CO2 otisak",
+  "backToFinder": "Nazad na pretragu",
+  "enterpriseCore": "Enterprise Core",
+  "highPerformance": "Sistemi cevi visokih performansi",
+  "highPerformanceDesc": "Za industrijske primene, snabdevanje pijaćom vodom i kontrolu klime u ekstremnim uslovima.",
+  "sysPressure": "Sistemski pritisak",
+  "tempMax": "Maks. temperatura",
+  "material": "Materijal",
+  "norm": "Standard",
+  "certification": "Sertifikacija",
+  "lifespan": "Životni vek",
+  "fiberTech": "Tehnologija kompozitnih vlakana",
+  "fiberTechDesc": "Troslojna struktura za minimalno linearno širenje.",
+  "compliance": "Usklađenost i standardi",
+  "dimensions": "Dimenzije",
+  "globalNetwork": "Globalna mreža",
+  "globalNetworkDesc": "K-Aqua sistemi se koriste u preko 40 zemalja sveta.",
+  "whyChoose": "Zašto je {product} pravi izbor",
+  "tools": {
+    "metaTitle": "Profesionalni alati i pribor za PP-R sisteme",
+    "metaDesc": "Otkrijte profesionalne K-Aqua alate.",
+    "heroEyebrow": "Nemačko inženjerstvo",
+    "heroTitle": "Alati i pribor.",
+    "heroSubtitle": "Apsolutna preciznost.",
+    "heroDesc": "Ovaj modul pruža beskompromisnu sigurnost za najzahtevnije projekte širom sveta.",
+    "heroBtnPrimary": "Zatražite projekat",
+    "heroBtnSecondary": "Tehnički podaci",
+    "bentoEyebrow": "K-Aqua ekosistem",
+    "bentoTitle": "Alati za globalne mega projekte.",
+    "bentoLead": "Kada međunarodni izvođači planiraju milijarde vredne projekte, oni se oslanjaju na činjenice.",
+    "bento1Title": "Aparati za polifuziono zavarivanje",
+    "bento1Desc": "Za dimenzije od 20 mm do 125 mm.",
+    "bento2Title": "Makaze i rezači cevi",
+    "bento2Desc": "Ergonomski dizajn za rad bez umora i savršene rezove pod uglom od 90°.",
+    "bento3Title": "Mašine za sučeono zavarivanje",
+    "bento3Desc": "Za prečnike do 250 mm. CNC kontrolisano.",
+    "bento4Title": "Setovi za popravku i pribor",
+    "bento4Desc": "Alati za naknadne priključke.",
+    "scrollEyebrow": "Duboka tehnologija",
+    "scrollTitle": "Nema prostora za tolerancije grešaka.",
+    "scrollLead": "Otkrijte tehnološke detalje.",
+    "scroll1Title": "Savršena termodinamika.",
+    "scroll1Desc": "Naši aparati za zavarivanje su opremljeni teflonom.",
+    "scroll2Title": "CNC kontrolisano sučeono zavarivanje.",
+    "scroll2Desc": "Za velike prečnike oslanjamo se na CNC mašine.",
+    "scroll3Title": "Precizne ljuštilice za cevi.",
+    "scroll3Desc": "Priprema je 80% posla zavarivanja.",
+    "scroll4Title": "Kružne testere za hladno sečenje.",
+    "scroll4Desc": "Za industrijsko sečenje bez deformacija materijala.",
+    "timelineTitle": "K-Aqua proces zavarivanja",
+    "timelineDesc": "Od sečenja do molekularne fuzije.",
+    "timeline1Year": "Faza 1: Priprema materijala",
+    "timeline1Title": "Savršen rez.",
+    "timeline1Text": "Bez neravnina.",
+    "timeline2Year": "Faza 2: Kalibracija",
+    "timeline2Title": "Uklanjanje oksidnog sloja.",
+    "timeline2Text": "Za savršenu površinu.",
+    "timeline3Year": "Faza 3: Termička fuzija",
+    "timeline3Title": "Molekularno stapanje.",
+    "timeline3Text": "Zagrevanje na tačno 260°C.",
+    "timeline4Year": "Faza 4: Veza",
+    "timeline4Title": "Doživotna sigurnost.",
+    "timeline4Text": "Neraskidiva homogena veza materijala.",
+    "specsTitle": "Industrijski autoritet. Do detalja.",
+    "specsP1": "Decenijama proizvodimo alat vrhunskog kvaliteta.",
+    "specsP2": "U najtežim uslovima naš materijal se dokazuje iz dana u dan.",
+    "specsList1": "ISO 9001 sertifikat",
+    "specsList2": "Teflon PTFE premaz",
+    "specsList3": "Digitalna kalibracija",
+    "ctaTitle": "Spremni za beskompromisni kvalitet?",
+    "ctaDesc": "Razgovarajte sa našim timom.",
+    "ctaBtn": "Započnite upit",
+    "hero": {
+      "eyebrow": "Alati i pribor",
+      "title": "Alati za zavarivanje za PP-R instalaciju",
+      "lead": "Profesionalni alati za K-Aqua sistem."
+    }
+  },
+  "valves": {
+    "metaTitle": "Visokokvalitetni ventili i armature",
+    "metaDesc": "Otkrijte K-Aqua ventile i armature za maksimalnu sigurnost.",
+    "heroEyebrow": "Klasa ventila",
+    "heroTitle": "Apsolutna kontrola.",
+    "heroSubtitle": "Pod najvišim pritiskom.",
+    "heroDesc": "Izrađeno da traje generacijama.",
+    "heroBtnPrimary": "Zatražite tehnologiju",
+    "heroBtnSecondary": "Otkrijte arhitekturu",
+    "manifestoTitle": "Kada materijal popusti, sistem se kvari.",
+    "manifestoP1": "Ventil nikada nije samo prekidač.",
+    "manifestoP2": "Naše armature su dizajnirane za ekstremne uslove.",
+    "scrollEyebrow": "Geneza savršenstva",
+    "scrollTitle": "Od sirovine do neuništive armature.",
+    "scrollLead": "Pratite proces nastanka K-Aqua ventila.",
+    "scroll1Title": "Besprekorna sirovina",
+    "scroll1Desc": "Stroge kontrole materijala.",
+    "scroll2Title": "Visoko precizna CNC obrada",
+    "scroll2Desc": "Tolerancije ispod mikrometra.",
+    "scroll3Title": "Protok bez kavitacije",
+    "scroll3Desc": "Unutrašnja arhitektura minimizuje turbulenciju.",
+    "scroll4Title": "100% Finalno testiranje.",
+    "scroll4Desc": "Svaki komad prolazi rigorozne testove.",
+    "showcaseEyebrow": "Anatomija pouzdanosti",
+    "showcaseTitle": "Nema slabih tačaka.",
+    "showcaseP1": "Dizajn bez mrtvih zona za bakterije.",
+    "showcaseP2": "Masivna zaptivna sedišta osiguravaju hermetičko zatvaranje.",
+    "showcaseList1": "Sertifikovano za pijaću vodu",
+    "showcaseList2": "Hermetičko zaptivanje",
+    "showcaseList3": "Spoljne zaptivke bez održavanja",
+    "bentoEyebrow": "Specifikacije",
+    "bentoTitle": "Brojevi superiornosti.",
+    "bentoLead": "Tehnički parametri koji naše ventile čine ultimativnim izborom.",
+    "bento1Title": "PN25 Konstantni pritisak",
+    "bento1Desc": "Dizajnirano za ekstremne skokove pritiska.",
+    "bento2Title": "Termička superiornost",
+    "bento2Desc": "Materijal zadržava punu elastičnost pri ekstremnim temperaturama.",
+    "bento3Title": "Hemijska otpornost",
+    "bento3Desc": "Otporno na hlorisanu i agresivnu vodu.",
+    "bento4Title": "Industrijska ergonomija",
+    "bento4Desc": "Masivne ručke za sigurno rukovanje.",
+    "timelineEyebrow": "Put kvaliteta.",
+    "timelineLead": "Vremenska linija proizvodnje.",
+    "timeline1Year": "Faza 01",
+    "timeline1Title": "Selekcija",
+    "timeline1Text": "Odabir metala i polimera.",
+    "timeline2Year": "Faza 02",
+    "timeline2Title": "CFD Optimizacija protoka",
+    "timeline2Text": "Simulacije za savršen hidraulički tok.",
+    "timeline3Year": "Faza 03",
+    "timeline3Title": "Klimatski stres test",
+    "timeline3Text": "Dugotrajni testovi na 120°C i 25 bar.",
+    "timeline4Year": "Faza 04",
+    "timeline4Title": "Robotizovana serijska proizvodnja",
+    "timeline4Text": "Industrija 4.0 proizvodna linija.",
+    "timeline5Year": "Faza 05",
+    "timeline5Title": "Globalna implementacija",
+    "timeline5Text": "Upotreba na najvećim svetskim gradilištima.",
+    "finalTitle": "Gradite za generacije.",
+    "finalDesc": "K-Aqua ventili se ugrađuju i zatim se na njih zaboravi. Zato što jednostavno rade.",
+    "ctaTitle": "Spremni za apsolutnu kontrolu?",
+    "ctaDesc": "Razgovarajte sa našim inženjerima.",
+    "ctaBtnPrimary": "Zatraži tehničko savetovanje",
+    "ctaBtnSecondary": "PDF specifikacije",
+    "hero": {
+      "eyebrow": "Ventili i armature",
+      "title": "PP-R armature i ventili za preciznu regulaciju",
+      "lead": "Pouzdana kontrola za sisteme tople i hladne vode."
+    }
+  },
+  "category": {
+    "allProducts": "Svi proizvodi",
+    "openInFinder": "Otvori u Finderu",
+    "artNA": "Art. N/A",
+    "viewDetails": "Prikaži detalje",
+    "learnMoreKnowledge": "Otkrijte PP-R sisteme u bazi znanja",
+    "learnMoreDesc": "Zaronite dublje u tehničku dokumentaciju i pročitajte stručne članke.",
+    "toKnowledgeBase": "Idi na K-Aqua akademiju"
+  },
+  "fittings": {
+    "meta": {
+      "title": "Fitinzi i oblikovni komadi | K-Aqua",
+      "desc": "K-Aqua fitinzi iz PP-R."
+    },
+    "hero": {
+      "eyebrow": "Fitinzi i oblikovni komadi",
+      "title": "PP-R fitinzi za trajno zaptivene spojeve",
+      "lead": "Od kolena do redukcije: K-Aqua fitinzi se molekularno stapaju sa cevi."
+    },
+    "intro": {
+      "eyebrow": "Industrijski autoritet",
+      "title": "Sigurnost nije slučajnost.",
+      "lead": "Postavljamo standarde koje drugi prate.",
+      "text1": "Naši proizvodi se dokazuju u najsurovijim pustinjama i industrijskim pogonima.",
+      "text2": "Spajanje molekula stvara mrežu bez slabih tačaka."
+    },
+    "sticky": {
+      "eyebrow": "Arhitektura savršenstva",
+      "title": "Anatomija pouzdanosti.",
+      "lead": "Dubinski pogled na fizička i hemijska svojstva.",
+      "items": [
+        {
+          "title": "Molekularna struktura",
+          "desc": "Otpornost na pucanje usled naprezanja."
+        },
+        {
+          "title": "Termoplastična preciznost",
+          "desc": "Homogen materijal, bez curenja."
+        },
+        {
+          "title": "Nulta tolerancija na greške",
+          "desc": "Ultrazvučno merenje debljine zida garantuje kvalitet."
+        }
+      ]
+    }
+  },
+  "pipes": {
+    "meta": {
+      "title": "PP-R & PPRCT Cevi | K-Aqua",
+      "desc": "K-Aqua cevi visokih performansi."
+    },
+    "hero": {
+      "eyebrow": "Cevi",
+      "title": "PP-R i PPRCT Cevi za pijaću vodu i grejanje",
+      "lead": "Izuzetna izdržljivost i higijenska sigurnost."
+    }
+  },
+  "transitionFittings": {
+    "metaTitle": "Prelazni fitinzi sa navojem",
+    "metaDesc": "K-Aqua prelazni komadi sa metalnim navojem.",
+    "heroEyebrow": "Prelazni komadi",
+    "heroTitle": "Pouzdani prelaz na metal",
+    "heroSubtitle": "Visokokvalitetni navoji.",
+    "heroDesc": "Apsolutna zaptivenost.",
+    "heroBtnPrimary": "Prikaži detalje",
+    "heroBtnSecondary": "Katalog proizvoda",
+    "hero": {
+      "eyebrow": "Prelazi",
+      "title": "Prelazni fitinzi na metal",
+      "lead": "Pouzdano spajanje plastike i metala."
+    }
+  },
+  "hero": {
+    "title": "Katalog Proizvoda",
+    "desc": "Istražite naš kompletan asortiman."
+  },
+  "sticky": {
+    "title": "Pregled portfolia",
+    "desc": "Sistemi za svaku primenu."
+  },
+  "bento": {
+    "title": "Istaknuti Proizvodi",
+    "desc": "Pronađite odgovarajuće komponente."
+  },
+  "timeline": {
+    "title": "Proces ugradnje",
+    "desc": "Korak po korak vodič."
+  },
+  "sysLead": "Glavne karakteristike K-Aqua PP-R sistema cevovoda za najzahtevnije projekte širom sveta."
+};
+
+const de = require('./messages/de.json');
+
+// Only inject what we defined
+let rawJson = JSON.stringify(products, null, 2);
+rawJson = rawJson.substring(1, rawJson.length - 1); // remove wrapping {}
+fs.writeFileSync('products_rest_sr.txt', ',' + rawJson);

@@ -1,0 +1,44 @@
+{
+  "finderx": {
+    "helpEyebrow": "Olvasási segédlet",
+    "helpTitle": "Így olvassa a táblázatot.",
+    "helpLead": "Öt kifejezés elegendő a szortiment minden sorának megértéséhez.",
+    "help": [
+      [
+        "d",
+        "Külső átmérő milliméterben: minden méret jellemzője d20-tól d630-ig."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio (szabványos méretarány) = d/s. A kisebb SDR vastagabb falat és magasabb névleges nyomást jelent."
+      ],
+      [
+        "Fal (s)",
+        "Falvastagság milliméterben: d és SDR hányadosa: s = d/SDR."
+      ],
+      [
+        "di",
+        "Belső átmérő = d − 2s. Meghatározó az áramlás és a nyomásveszteség szempontjából."
+      ],
+      [
+        "Névleges nyomás (PN)",
+        "Megengedett folyamatos üzemi nyomás bar-ban 20 °C-on a tervezési időtartam alatt: SDR 6 = PN 20-tól SDR 17 = PN 6-ig."
+      ]
+    ],
+    "flowTitle": "A szűrőtől az ajánlatig",
+    "flow": [
+      {
+        "t": "Szűrés és keresés",
+        "d": "Típus, SDR és maximális méret szűkítése, vagy egyszerűen írja be, hogy „d110” a keresőbe."
+      },
+      {
+        "t": "Ellenőrzés és exportálás",
+        "d": "Kattintson a sorra a falvastagság, a di és a névleges nyomás részleteiért. A találati lista CSV formátumban kerül a kalkulációjába."
+      },
+      {
+        "t": "Ajánlatkérés átadása",
+        "d": "A részletek ablakból közvetlenül a projektajánlat-kérésbe: A méreteket és a mennyiségeket közösen tisztázzuk."
+      }
+    ]
+  }
+}

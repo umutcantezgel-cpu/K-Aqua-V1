@@ -1,0 +1,120 @@
+  "tools": {
+    "meta": {
+      "title": "PP-R Svejseværktøj og Udstyr",
+      "desc": "Professionelt K Aqua svejseværktøj, rørskærere og maskiner til perfekt installation af PP-R og PPRCT rørsystemer."
+    },
+    "hero": {
+      "eyebrow": "Installationsteknik",
+      "title": "Værktøj: Præcision til den perfekte svejsesøm",
+      "lead": "Den bedste rørforbindelse er kun så god som det værktøj, den er lavet med. K Aqua tilbyder et komplet sortiment af professionelt svejse- og skæreværktøj til 100% lækagefrie installationer."
+    },
+    "intro": {
+      "eyebrow": "Den rigtige hardware",
+      "title": "Ingen kompromiser på byggepladsen.",
+      "lead": "Termisk polyfusion kræver nøjagtige temperaturer, præcise skærekanter og ren forarbejdning. Vores værktøj er designet til den hårde hverdag på byggepladsen og garanterer DVS-kompatible svejsninger."
+    },
+    "sticky": {
+      "eyebrow": "Værktøjsportefølje",
+      "title": "Udstyret til enhver dimension.",
+      "lead": "Fra det handy håndsvejseapparat til fordelingsboksen til den computerstyrede stuksvejsemaskine til industrielle hovedlinjer.",
+      "items": [
+        {
+          "title": "Muffesvejsning (20-125 mm)",
+          "desc": "Håndsvejseapparater og stationære bordsvejsemaskiner med mikroprocessorstyrede varmeelementer. Garanterer en konstant smeltetemperatur på 260°C for homogene forbindelser."
+        },
+        {
+          "title": "Elektrosvejsning (20-630 mm)",
+          "desc": "Fuldautomatiske elektrosvejsemaskiner med stregkodescanner. Læser de optimale svejseparametre direkte fra fittingen og dokumenterer hver enkelt svejsesøm til kvalitetssikring."
+        },
+        {
+          "title": "Stuksvejsning (90-630 mm)",
+          "desc": "Hydrauliske stuksvejsemaskiner til flangeløse storrørsforbindelser. Med integreret CNC-styring, rørhøvl og digital dataregistrering til kommunale projekter."
+        },
+        {
+          "title": "Rørskærere & Forberedelse",
+          "desc": "Sakse, rulleskærere og skrælværktøj i industriel kvalitet. Uundværlig for gratfrie, retvinklede snit og fjernelse af oxidlaget før elektrosvejsning."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Teknologiske fordele",
+      "title": "Sikkerhed indbygget.",
+      "lead": "Vores værktøjer er ikke bare tilbehør, de er kalibrerede instrumenter til at skabe en uadskillelig materialeforbindelse.",
+      "items": [
+        {
+          "title": "Teflon-belægning",
+          "desc": "Højkvalitets PTFE-belægning på alle varmeværktøjer forhindrer, at smeltet PP-R sætter sig fast, og sikrer restfri samling."
+        },
+        {
+          "title": "Temperaturkontrol",
+          "desc": "Elektroniske termostater og omgivelsessensorer forhindrer temperatursvingninger og underkøling af svejsesømmen i koldt vejr."
+        },
+        {
+          "title": "Ergonomi",
+          "desc": "Vægtreducerede enheder, optimerede håndtagsmekanismer og hurtig-tilbage funktioner beskytter installatøren ved højt rørforbrug."
+        },
+        {
+          "title": "Dokumentation",
+          "desc": "Store maskiner tilbyder USB-grænseflader og protokolprintere til gnidningsløs godkendelse af trykbærende systemer."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Muffesvejseprocessen",
+      "desc": "Standardiseret og ufejlbarlig. Sådan skaber du den perfekte forbindelse.",
+      "items": [
+        {
+          "year": "Trin 1",
+          "title": "Forberedelse",
+          "text": "Røret skæres vinkelret. Indstiksdybden markeres på røret for at undgå overopvarmning af materialet."
+        },
+        {
+          "year": "Trin 2",
+          "title": "Opvarmning",
+          "text": "Rør og fitting skubbes samtidigt ind i det forvarmede (260°C) varmeværktøj uden at dreje og holdes der i den foreskrevne opvarmningstid."
+        },
+        {
+          "year": "Trin 3",
+          "title": "Samling",
+          "text": "Efter opvarmningsfasen trækkes delene hurtigt af værktøjet og skubbes straks (uden at dreje) ind i hinanden op til markeringen."
+        },
+        {
+          "year": "Trin 4",
+          "title": "Fiksering",
+          "text": "Forbindelsen fikseres kort. Under afkølingsfasen smelter polymermolekylerne sammen og danner en uadskillelig, tryktæt enhed."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Driftsparametre",
+      "title": "Tal, der tæller.",
+      "lead": "Specifikationer, som en professionel installatør kan stole på.",
+      "items": [
+        {
+          "label": "Svejsetemperatur",
+          "value": "260°C",
+          "sub": "For PP-R og PPRCT"
+        },
+        {
+          "label": "Spændingsforsyning",
+          "value": "230 V / 110 V",
+          "sub": "Afhængigt af markedsversion"
+        },
+        {
+          "label": "Dimensioner",
+          "value": "20 - 630 mm",
+          "sub": "Komplet systemdækning"
+        },
+        {
+          "label": "Certificering",
+          "value": "CE mærket",
+          "sub": "Europæisk sikkerhedsstandard"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Har du brug for udstyr til dit projekt?",
+      "desc": "Vi rådgiver dig om det optimale værktøjsvalg til din rørdimension og tilbyder lejeudstyr til store projekter.",
+      "primary": "Forespørg om værktøj"
+    }
+  },

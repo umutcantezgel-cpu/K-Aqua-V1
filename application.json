@@ -1,0 +1,82 @@
+{
+  "tabs": {
+    "quick": "Schnellkontakt & Kultur",
+    "detailed": "Jobportal & Bewerbung"
+  },
+  "portal": {
+    "eyebrow": "Offene Stellen",
+    "title": "Werde Teil unseres",
+    "titleGrad": "Teams",
+    "lead": "Entdecke spannende Karrieremöglichkeiten bei K Aqua und bewirb dich in wenigen Minuten.",
+    "jobs": [
+      {
+        "id": "prod",
+        "title": "Produktionsmitarbeiter (m/w/d)",
+        "type": "Vollzeit / Schicht",
+        "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+      },
+      {
+        "id": "machine",
+        "title": "Maschinen- und Anlagenführer (m/w/d)",
+        "type": "Vollzeit",
+        "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+      },
+      {
+        "id": "logistics",
+        "title": "Fachkraft für Lagerlogistik (m/w/d)",
+        "type": "Vollzeit",
+        "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+      },
+      {
+        "id": "sales",
+        "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+        "type": "Vollzeit",
+        "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+      },
+      {
+        "id": "pm",
+        "title": "Produktmanager (m/w/d)",
+        "type": "Vollzeit",
+        "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+      },
+      {
+        "id": "init",
+        "title": "Initiativbewerbung",
+        "type": "Vollzeit / Teilzeit",
+        "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+      }
+    ],
+    "steps": {
+      "step1": "Persönliche Daten",
+      "step2": "Lebenslauf & Unterlagen",
+      "step3": "Überprüfung"
+    },
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "startDate": "Frühestmögliches Eintrittsdatum",
+      "uploadTitle": "PDF hochladen",
+      "uploadDesc": "Ziehe deinen Lebenslauf hierhin oder klicke zum Auswählen (max. 5MB)",
+      "builderTitle": "Oder: CV online erstellen",
+      "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
+      "workExp": "Berufserfahrung hinzufügen",
+      "education": "Ausbildung hinzufügen",
+      "company": "Unternehmen",
+      "role": "Position",
+      "school": "Schule / Uni",
+      "degree": "Abschluss",
+      "from": "Von",
+      "to": "Bis",
+      "skills": "Fähigkeiten (Kommagetrennt)",
+      "next": "Weiter",
+      "back": "Zurück",
+      "submit": "Bewerbung absenden",
+      "submitting": "Wird gesendet...",
+      "success": "Vielen Dank für deine Bewerbung!",
+      "successSub": "Wir haben deine Unterlagen erhalten und melden uns in Kürze bei dir.",
+      "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+    }
+  }
+}

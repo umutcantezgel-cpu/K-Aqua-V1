@@ -1,0 +1,120 @@
+    "schulungen": {
+      "metaTitle": "Strokovna usposabljanja in seminarji za cevne sisteme",
+      "metaDesc": "Strokovna usposabljanja K-Aqua za načrtovalce in inštalaterje. Naučite se, kako varno in učinkovito načrtovati in nameščati PP-R cevne sisteme.",
+      "heroEyebrow": "Izobraževanje",
+      "heroTitle": "Strokovno znanje. Iz prve roke.",
+      "heroSubtitle": "Vaša prednost na trgu.",
+      "heroDesc": "Tehnologija je lahko le tako dobra, kot je oseba, ki jo uporablja. V K-Aqua usposabljanjih prenašamo desetletja inženirskega znanja neposredno na vas. Za instalacije, ki prenesejo preizkus časa.",
+      "heroBtnPrimary": "Poiščite usposabljanje",
+      "heroBtnSecondary": "O programu",
+      "gridEyebrow": "Za strokovnjake",
+      "gridTitle": "Načrtovano za vašo prakso.",
+      "gridDesc": "Ne glede na to, ali ste na gradbišču, v inženirski pisarni ali za prodajnim pultom - naši seminarji so popolnoma prilagojeni vašim dnevnim izzivom.",
+      "grid1Title": "Za inštalaterje",
+      "grid1Desc": "Popolna obvladanost polifuzijskega varjenja, reševanje problemov na gradbišču in učinkovita namestitev po standardih DVS.",
+      "grid2Title": "Za inženirje",
+      "grid2Desc": "Hidravlični izračuni, upravljanje s termičnim raztezanjem in tehnične zasnove (specifikacije) po DIN/ISO.",
+      "grid3Title": "Za prodajalce",
+      "grid3Desc": "Argumentacija izdelkov, specifične tržne rešitve in poglobljeno tehnično poznavanje K-Aqua portfelja."
+    },
+    "zertifizierung": {
+      "metaTitle": "Uradno certificiranje K-Aqua za inštalaterje",
+      "metaDesc": "Postanite certificirani K-Aqua partner. Dokažite svojo strokovnost na področju PP-R instalacij in pridobite zaupanje pri večjih globalnih projektih.",
+      "heroEyebrow": "Preverjena kakovost",
+      "heroTitle": "Certificirana strokovnost.",
+      "heroSubtitle": "Vaš znak zaupanja.",
+      "heroDesc": "Na globalnih megaprojektih so certifikati ključnega pomena. Kot certificiran inštalater K-Aqua dokazujete najvišjo kompetenco pri ravnanju z našimi sistemi in odpirate vrata do ekskluzivnih pogodb.",
+      "heroBtnPrimary": "Prijavite se na certifikacijo",
+      "heroBtnSecondary": "Preberite več",
+      "timelineTitle": "Pot do certifikata",
+      "timelineDesc": "Standardiziran proces testiranja za maksimalno varnost namestitve.",
+      "timeline1Year": "Korak 01",
+      "timeline1Title": "Udeležba na usposabljanju",
+      "timeline1Text": "Uspešen zaključek naših uradnih osnovnih in nadaljevalnih usposabljanj.",
+      "timeline2Year": "Korak 02",
+      "timeline2Title": "Praktični preizkus",
+      "timeline2Text": "Dokazilo o obvladovanju tehnologije varjenja pod nadzorom naših inženirjev.",
+      "timeline3Year": "Korak 03",
+      "timeline3Title": "Teoretični izpit",
+      "timeline3Text": "Preverjanje tehničnega znanja o materialu PP-R in standardih namestitve.",
+      "timeline4Year": "Korak 04",
+      "timeline4Title": "Certifikacija",
+      "timeline4Text": "Podelitev uradnega certifikata in registracija kot preverjen K-Aqua partner."
+    },
+    "glossar": {
+      "metaTitle": "Tehnični slovar za polimerne cevne sisteme",
+      "metaDesc": "Pojasnila strokovnih izrazov, povezanih z PP-R cevmi in instalacijami. Tehnični slovar K-Aqua za inženirje in izvajalce.",
+      "heroEyebrow": "Slovar",
+      "heroTitle": "Tehnični izrazi.",
+      "heroSubtitle": "Preprosto razloženo.",
+      "heroDesc": "Od polifuzije do SDR razredov - tu boste našli natančne definicije in razlage najpomembnejših izrazov iz sveta polimernih cevnih sistemov.",
+      "searchPlaceholder": "Išči izraz...",
+      "noResults": "Za vaše iskanje ni bilo najdenih rezultatov."
+    },
+    "videos": {
+      "metaTitle": "Video navodila in vadnice za namestitev",
+      "metaDesc": "Uradna video navodila K-Aqua. Korak za korakom navodila za varjenje in namestitev naših PP-R in PP-RCT sistemov.",
+      "heroEyebrow": "Video portal",
+      "heroTitle": "Video navodila.",
+      "heroSubtitle": "Vizualno znanje.",
+      "heroDesc": "Teorija je dobra, praksa je boljša. V naših strokovnih video vadnicah vam korak za korakom pokažemo, kako na gradbišču varno in učinkovito nameščate, varite in preizkušate naše sisteme.",
+      "searchPlaceholder": "Išči video navodila...",
+      "categories": "Kategorije"
+    },
+    "intro": "Kratko preverjanje znanja:",
+    "start": "Začni kviz",
+    "qLabel": "Vprašanje",
+    "quiz": [
+      {
+        "q": "Pri kateri temperaturi varimo PP-R cevi K-Aqua z varilnim aparatom za mufasto varjenje?",
+        "options": [
+          "220°C",
+          "260°C",
+          "300°C"
+        ],
+        "answer": 1,
+        "explanation": "Pravilna temperatura varjenja za PP-R in PP-RCT je natanko 260°C (±5°C). Ta temperatura zagotavlja popolno molekularno zlitje cevi in fitinga."
+      },
+      {
+        "q": "Kaj pomeni kratica 'SDR' v cevni tehnologiji?",
+        "options": [
+          "Standard Dimension Ratio (Standardno razmerje dimenzij)",
+          "Safe Drinking Requirements (Varne zahteve za pitje)",
+          "System Design Rules (Pravila oblikovanja sistema)"
+        ],
+        "answer": 0,
+        "explanation": "SDR pomeni Standard Dimension Ratio in opisuje razmerje med zunanjim premerom in debelino stene cevi (SDR = d/s)."
+      },
+      {
+        "q": "Kakšna je glavna prednost polifuzijskega varjenja v primerjavi z mehanskimi spoji (npr. z O-obroči)?",
+        "options": [
+          "Je hitrejše.",
+          "Ustvari homogeno, neločljivo vez brez tesnil.",
+          "Je cenejše materialno."
+        ],
+        "answer": 1,
+        "explanation": "Največja prednost je homogena (materialna) vez. Ker tesnila (kot so O-obroči) niso potrebna, je odpravljena najpogostejša točka okvare pri sistemih cevovodov."
+      },
+      {
+        "q": "Kateri material se uporablja za kompozitne cevi s steklenimi vlakni (Faser cevi) K-Aqua za zmanjšanje toplotnega raztezanja?",
+        "options": [
+          "Aluminij",
+          "Zmes PP-RCT in steklenih vlaken",
+          "Ogljikova vlakna (Carbon)"
+        ],
+        "answer": 1,
+        "explanation": "Srednji sloj cevi Faser sestavlja posebna zmes (compound) iz PP-RCT in steklenih vlaken, ki zmanjša toplotno linearno raztezanje za 75 % v primerjavi s standardnimi PP-R cevmi."
+      },
+      {
+        "q": "Katere preskuse mora uspešno opraviti sistem za pitno vodo po vgradnji, preden se lahko zažene?",
+        "options": [
+          "Preverjanje temperature in merjenje dolžine",
+          "Tlačni preizkus in izpiranje sistema",
+          "Barvanje cevi in merjenje tlaka"
+        ],
+        "answer": 1,
+        "explanation": "Tlačni preizkus zagotavlja zatesnjenost celotnega sistema, izpiranje pa odstrani morebitno umazanijo iz faze gradnje, da se zagotovijo higienski standardi pitne vode."
+      }
+    ],
+    "resPerfect": "Odlično! Vi ste pravi PP-R strokovnjak.",
+    "resGood": "Dober rezultat! Svoje znanje lahko še poglobite na naši Akademiji."

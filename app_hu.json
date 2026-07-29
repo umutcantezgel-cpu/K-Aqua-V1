@@ -1,0 +1,84 @@
+{
+  "application": {
+    "tabs": {
+      "quick": "Gyors kapcsolat és Kultúra",
+      "detailed": "Állásportál és Jelentkezés"
+    },
+    "portal": {
+      "eyebrow": "Nyitott pozíciók",
+      "title": "Csatlakozzon a",
+      "titleGrad": "csapatunkhoz",
+      "lead": "Fedezzen fel izgalmas karrierlehetőségeket a K-Aqua-nál, és jelentkezzen percek alatt.",
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Termelési munkatárs (f/n/i)",
+          "type": "Teljes munkaidő / Műszakos",
+          "desc": "Támogasson minket a modern cső- és idomgyártásban."
+        },
+        {
+          "id": "machine",
+          "title": "Gép- és berendezéskezelő (f/n/i)",
+          "type": "Teljes munkaidő",
+          "desc": "Csúcstechnológiás extrudáló berendezéseink kezelése és felügyelete."
+        },
+        {
+          "id": "logistics",
+          "title": "Raktárlogisztikai szakember (f/n/i)",
+          "type": "Teljes munkaidő",
+          "desc": "Felelősség az áruk be- és kiadásáért, valamint a készletellenőrzésért."
+        },
+        {
+          "id": "sales",
+          "title": "Műszaki értékesítő (Terepmunka) (f/n/i)",
+          "type": "Teljes munkaidő",
+          "desc": "Kiemelt ügyfelek és projekttervezők támogatása nemzetközi szinten."
+        },
+        {
+          "id": "pm",
+          "title": "Termékmenedzser (f/n/i)",
+          "type": "Teljes munkaidő",
+          "desc": "Alakítsa PP-R csőrendszereink jövőjét."
+        },
+        {
+          "id": "init",
+          "title": "Spontán jelentkezés",
+          "type": "Teljes munkaidő / Részmunkaidő",
+          "desc": "Nincs megfelelő pozíció? Jelentkezzen spontán módon!"
+        }
+      ],
+      "steps": {
+        "step1": "Személyes adatok",
+        "step2": "Önéletrajz és Dokumentumok",
+        "step3": "Ellenőrzés"
+      },
+      "form": {
+        "firstName": "Keresztnév",
+        "lastName": "Vezetéknév",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "startDate": "Legkorábbi kezdési dátum",
+        "uploadTitle": "PDF feltöltése",
+        "uploadDesc": "Húzza ide az önéletrajzát, vagy kattintson a kiválasztáshoz (max. 5MB)",
+        "builderTitle": "Vagy: Önéletrajz online létrehozása",
+        "builderDesc": "Nincs kéznél PDF? Egyszerűen töltse ki itt a szakmai hátterét.",
+        "workExp": "Szakmai tapasztalat hozzáadása",
+        "education": "Tanulmányok hozzáadása",
+        "company": "Vállalat",
+        "role": "Pozíció",
+        "school": "Iskola / Egyetem",
+        "degree": "Végzettség",
+        "from": "-tól",
+        "to": "-ig",
+        "skills": "Készségek (vesszővel elválasztva)",
+        "next": "Tovább",
+        "back": "Vissza",
+        "submit": "Jelentkezés elküldése",
+        "submitting": "Küldés folyamatban...",
+        "success": "Köszönjük a jelentkezését!",
+        "successSub": "Megkaptuk a dokumentumait, és hamarosan felvesszük Önnel a kapcsolatot.",
+        "error": "Hiba történt. Kérjük, próbálja meg később újra."
+      }
+    }
+  }
+}

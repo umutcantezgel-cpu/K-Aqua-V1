@@ -1,0 +1,111 @@
+{
+  "trust": {
+    "eyebrow": "Trust Center",
+    "title1": "Trust is",
+    "titleGrad": "measurable.",
+    "lead": "Trust is measurable. Certificates, GENAU framework, and audit documents, as self service. No waiting for days for manual delivery.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Quality management"
+      ],
+      [
+        "ISO 14001:2015",
+        "Environmental management"
+      ],
+      [
+        "ISO 50001:2018",
+        "Energy management"
+      ]
+    ],
+    "accred": "DAkkS-accredited",
+    "certNo": "Certificate No.",
+    "valid": "Valid",
+    "download": "Download",
+    "genauEyebrow": "GENAU Framework",
+    "genauTitle": "Five letters. One system.",
+    "genauLead": "The GENAU management system is anchored in the House of KWT, click through the five pillars.",
+    "genau": [
+      [
+        "Health",
+        "Occupational health and safety with continuous hazard identification, every employee is required to actively report risks."
+      ],
+      [
+        "Energy",
+        "Optimization of energy efficiency according to ISO 50001, from the extruder to the closed cooling water circuit."
+      ],
+      [
+        "Sustainability",
+        "100% of offcuts and production waste go back into the recycling loop."
+      ],
+      [
+        "Work safety",
+        "Prevention and risk assessment as daily practice, not as an annual mandatory exercise."
+      ],
+      [
+        "Environment",
+        "Environmental management according to ISO 14001: Resource conservation is part of the quality understanding."
+      ]
+    ],
+    "rfpEyebrow": "Self Service",
+    "rfpTitle": "Your RFP Document Package.",
+    "rfpLead": "Assemble your audit and tender package yourself, instead of waiting for days for manual delivery.",
+    "docs": [
+      "ISO 9001:2015 Certificate (DE/EN)",
+      "ISO 14001:2015 Certificate (DE/EN)",
+      "ISO 50001:2018 Certificate (DE/EN)",
+      "GENAU Policy & Risk Assessment",
+      "Potable Water Conformity (DVGW/KTW)",
+      "EPD Data Sheets (Type III, EN 15804)",
+      "GAEB Tender Texts",
+      "Quality Assurance Manual"
+    ],
+    "inPackage": "Documents in the package.",
+    "pickLeft": "Select on the left.",
+    "requestZip": "Request as ZIP with one click:",
+    "requestBtn": "Request package",
+    "mailSubject": "RFP Document Package",
+    "mailBody": "Please send me the following documents:",
+    "scope3": "Scope 3 emissions data and raw EPD data upon request, proactive transparency instead of mere compliance."
+  },
+  "partner": {
+    "eyebrow": "Partnership",
+    "title1": "Two brands.",
+    "titleGrad": "One attitude.",
+    "lead": "Two brands. One attitude. The close, decades-long partnership with KESSEL transfers premium trust from drainage into water supply.",
+    "onionAria": "Onion shell model of the partnership",
+    "rings": [
+      {
+        "l": "Core brand",
+        "t": "KESSEL, Leading in Drainage",
+        "d": "Premium manufacturer of drainage technology. World-leading trade fairs like ISH, the PlannerPortal, and the CustomerForum make KESSEL the authority of the building services engineering industry."
+      },
+      {
+        "l": "System",
+        "t": "K Aqua, leading in water supply",
+        "d": "The supply side of the same engineering DNA: complete PP-R/PPRCT system d20–d630, manufactured in Germany. Drainage and supply from a community of values."
+      },
+      {
+        "l": "Service",
+        "t": "Shared ecosystem",
+        "d": "Planners profit twice: training, welding technology support, and digital planning tools, perspectively up to the parametric pipe network configurator."
+      }
+    ],
+    "whyEyebrow": "Why PP-R/PPRCT",
+    "whyTitle": "The backbone of the product promise.",
+    "cards": [
+      {
+        "t": "Absolute freedom from corrosion",
+        "d": "Immune to electrochemical corrosion, no pitting, no pipe bursts like with copper or galvanized steel."
+      },
+      {
+        "t": "Thermal efficiency",
+        "d": "Minimal heat loss in hot water circulation, direct energy savings over decades."
+      },
+      {
+        "t": "Hygienic neutrality",
+        "d": "Tasteless and odorless; the extremely smooth inner surface prevents biofilm and incrustation."
+      }
+    ]
+  }
+}

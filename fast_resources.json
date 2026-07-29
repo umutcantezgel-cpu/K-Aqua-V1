@@ -1,0 +1,524 @@
+{
+  "support": {
+    "title": "Technická podpora",
+    "metaDesc": "Využite technickú podporu K-Aqua. Podporujeme vaše mega projekty s nemeckým inžinierstvom, hydraulickým dizajnom a podporou zvárania na mieste.",
+    "seoText": {
+      "p1": "Technická podpora K Aqua je základom našich globálnych infraštruktúrnych projektov. Vieme, že pri inštalácii priemyselných potrubných systémov a vysokovýkonných rúr PP-R sa počíta každá sekunda. Náš tím odborníkov v oblasti fluidnej energie a polymérnych systémov podporuje medzinárodných generálnych dodávateľov, architektov a stavebných inžinierov na každom kroku.",
+      "p2": "Od prvotného plánovania a izometrického výpočtu cez návrh výpočtu tlakovej straty až po monitorovanie zváracích procesov na mieste: garantujeme bezchybnú realizáciu. Naše polypropylénové systémy náhodného kopolyméru (PP-R) vyžadujú najvyššiu úroveň remeselnej presnosti. Preto naša akadémia ponúka nepretržité školenia, zatiaľ čo podpora zasahuje pri zložitých tepelných lineárnych expanziách alebo špeciálnych požiadavkách na tlak prietoku.",
+      "p3": "Používaním najnovších diagnostických nástrojov a algoritmov prediktívnej údržby minimalizujeme prestoje na absolútne minimum. Bez ohľadu na to, či ide o systémy studenej vody v púštnych oblastiach, priemyselné zariadenia s vysokou čistotou alebo vykurovacie siete v arktických oblastiach: podporná infraštruktúra K Aqua zaisťuje bezproblémovú prevádzku a nekompromisnú životnosť vašej investície."
+    },
+    "sticky": {
+      "items": [
+        {
+          "title": "Prediktívne monitorovanie systému",
+          "desc": "Naše algoritmy neustále analyzujú anomálie v infraštruktúre. Pred dosiahnutím kritického stavu zasiahne náš tím 3. úrovne. Nulová tolerancia latencie. Nulová tolerancia porúch. Konáme skôr, ako dôjde k chybe."
+        },
+        {
+          "title": "Časy odozvy armády",
+          "desc": "SLA pre nás nie je usmernenie, ale fyzikálny zákon. V prípade kritických incidentov garantujeme počiatočné reakcie v milisekundách a okamžitú eskaláciu špecializovaným vedúcim technikom. Žiadne čakanie, len okamžitá realizácia."
+        },
+        {
+          "title": "Vaše systémy sú testované podľa najprísnejších noriem nemeckého inžinierstva. Škálovateľnosť, redundancia a spoľahlivosť sa overujú prostredníctvom prísnych záťažových testov. Zraniteľnosti sú odstránené, nie riadené.",
+          "desc": "Vaše systémy sú testované podľa najprísnejších noriem nemeckého inžinierstva. Škálovateľnosť, redundancia a spoľahlivosť sa overujú prostredníctvom prísnych záťažových testov. Zraniteľnosti sú odstránené, nie riadené."
+        },
+        {
+          "title": "Priamy prístup vývojára",
+          "desc": "Zabudnite na konvenčnú podporu. Pri komplexných systémových integráciách komunikujete priamo s našimi hlavnými vývojármi. Žiadny filter prvej úrovne, ale surová, nefiltrovaná technická odbornosť na okamžité riešenie problémov na úrovni zdrojového kódu."
+        }
+      ],
+      "eyebrow": "Eskalačné protokoly",
+      "title": "Suverenita v kríze",
+      "lead": "T-0:00"
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "T-0:00",
+          "title": "Detekcia anomálií",
+          "text": "Automatizované systémy detegujú mikroodchýlky v dátovom toku dlho pred viditeľnou poruchou."
+        },
+        {
+          "year": "T+0:02",
+          "title": "Diagnostické triedenie",
+          "text": "Analýza protokolov poháňaná AI izoluje chybový vektor. Priradenie do presne toho správneho klastra špecialistov."
+        },
+        {
+          "year": "T+0:15",
+          "title": "zásah",
+          "text": "Aplikovanie rýchlych opráv alebo automatické presmerovanie prevádzky na redundantné uzly s vysokou dostupnosťou."
+        },
+        {
+          "year": "T+1:00",
+          "title": "Analýza hlavnej príčiny",
+          "text": "Forenzné vyšetrovanie incidentu. Úprava základnej architektúry pre trvalú prevenciu."
+        },
+        {
+          "year": "Posmrtný protokol",
+          "title": "Posmrtný protokol",
+          "text": "Podrobná technická správa s kryptografickým podpisom pre úplnú transparentnosť a bezpečnosť auditu."
+        }
+      ],
+      "title": "Pohotovosť: kronika zásahu",
+      "desc": "Každá sekunda sa počíta. Náš štandardizovaný proces v prípade kritickej systémovej anomálie. Vypočítané za studena. Nemilosrdne popravený."
+    },
+    "hero": {
+      "eyebrow": "Technická podpora",
+      "title1": "Podpora,",
+      "title2": "myslí za seba.",
+      "desc": "Urobte žiadosť o projekt",
+      "btnPrimary": "Urobte žiadosť o projekt",
+      "btnGhost": "Zobraziť služby"
+    },
+    "intro": {
+      "title1": "Podpora nie je call centrum.",
+      "title2": "Je to inžiniersky tím.",
+      "p1": "Technickú podporu nevnímame ako nadväzujúcu službu, ale skôr ako integrálnu súčasť každého projektu. Ak je zvar na stavenisku nejasný alebo tlaková skúška nedopadne podľa predstáv, počíta sa každá hodina.",
+      "p2": "Naši inžinieri poznajú každú šaržu, každú normu a každý predpis spracovania našich systémov z prvej ruky. Kontrolujú izometriu, počítajú tlakové straty a pri uvádzaní do prevádzky stoja priamo pri potrubí.",
+      "p3": "Toto je tvrdenie nemeckého inžinierstva aplikované na skutočné stavby, nie na serverové racky."
+    },
+    "bento": {
+      "eyebrow": "Služby na prvý pohľad",
+      "title": "Podpora počas celého projektu",
+      "lead": "Od počiatočného plánovania až po priebežnú údržbu: náš tím sprevádza váš systém PP-R v každej fáze.",
+      "items": [
+        {
+          "title": "Pred začatím výstavby skontrolujeme vaše plánovacie dokumenty, vypočítame tlakové straty a rozmery a poskytneme spoľahlivý zoznam materiálov.",
+          "desc": "Pred začatím výstavby skontrolujeme vaše plánovacie dokumenty, vypočítame tlakové straty a rozmery a poskytneme spoľahlivý zoznam materiálov."
+        },
+        {
+          "title": "Technická podpora zvárania",
+          "desc": "Naši technici sprevádzajú hrdlové a elektrofúzne zváranie na mieste, kontrolujú parametre procesu a v prípade potreby zaškolia váš montážny tím priamo na stavbe."
+        },
+        {
+          "title": "Podporujeme realizáciu a dokumentáciu tlakovej skúšky podľa DIN 1988 a poskytujeme skúšobné protokoly potrebné na kolaudáciu stavby.",
+          "desc": "Podporujeme realizáciu a dokumentáciu tlakovej skúšky podľa DIN 1988 a poskytujeme skúšobné protokoly potrebné na kolaudáciu stavby."
+        },
+        {
+          "title": "Servis náhradných dielov a príslušenstva",
+          "desc": "Rýchla dodávka lisovaných dielov, armatúr a originálneho príslušenstva aj pre existujúce systémy a staršie šarže K-Aqua."
+        },
+        {
+          "title": "Diaľková diagnostika a použitie na mieste",
+          "desc": "Ak máte akékoľvek nezodpovedané otázky týkajúce sa spracovania alebo nejasné výsledky testov, naša technická podpora vám v krátkom čase zavolá späť, v prípade potreby aj s nadriadeným na mieste."
+        }
+      ]
+    },
+    "metrics": {
+      "badge": "Spoľahlivosť v číslach",
+      "title1": "Testované",
+      "title2": "Spoľahlivosť.",
+      "p1": "Pracujeme podľa princípov nemeckého inžinierstva: To, čo dodáme, musí vydržať za všetkých podmienok na stavenisku.",
+      "p2": "Každý systém K-Aqua je certifikovaný podľa DVGW, SKZ a KIWA. Každá šarža je sledovateľná a každý zvarový šev môže byť zdokumentovaný.",
+      "items": [
+        "Odpoveď na technické otázky do jedného pracovného dňa",
+        "Životnosť systému dokumentovaná viac ako 50 rokov pri správnej inštalácii",
+        "Priama linka na technický predaj bez čakania",
+        "Školenia a certifikácie prostredníctvom K-Aqua Academy"
+      ]
+    },
+    "cta": {
+      "title1": "Pripravené pre vaše",
+      "title2": "Projekt?",
+      "title3": "Projekt?",
+      "desc": "Nechajte svoj projekt podporiť inžiniermi, ktorí systémy PP-R nielen predávajú, ale aj sami vyvíjajú a vyrábajú.",
+      "btnPrimary": "Spustiť žiadosť",
+      "btnGhost": "Kontaktujte odborníkov"
+    },
+    "metaTitle": "sťahovanie"
+  },
+  "downloads": {
+    "title": "sťahovanie",
+    "metaDesc": "K Aqua Downloads: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Stiahnite si brožúry a dátové listy.",
+    "cta": {
+      "title": "Kvalita, ktorej môžete slepo dôverovať.",
+      "desc": "Stiahnite si naše oficiálne certifikáty alebo sa porozprávajte priamo s naším inžinierskym tímom o špecifikáciách vášho ďalšieho megaprojektu.",
+      "btn": "Vyhodnotiť projekt"
+    },
+    "meta": {
+      "title": "Na stiahnutie | K Aqua",
+      "desc": "K Aqua Downloads: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Stiahnite si brožúry a dátové listy."
+    },
+    "hero": {
+      "eyebrow": "K Aqua Resources",
+      "title1": "sťahovanie.",
+      "title2": "Skonštruované v Nemecku.",
+      "desc": "Tento modul poskytuje nekompromisné zabezpečenie pre najnáročnejšie projekty na celom svete. Vyrobené podľa najprísnejších priemyselných noriem, aby vydržali celé generácie. Tam, kde zlyhanie materiálu nie je možné, začínajú naše špecifikácie.",
+      "cta1": "Požiadajte o projekt",
+      "cta2": "K dokumentom"
+    },
+    "timeline": {
+      "title": "Evolúcia presnosti.",
+      "desc": "Ako už 30 rokov redefinujeme štandardy pre potrubné systémy.",
+      "items": [
+        {
+          "year": "1995",
+          "title": "Prvá technická dokumentácia",
+          "text": "Ako priekopník v oblasti vytláčania plastových rúr sme definovali prvé štandardy pre potrubné systémy PP-R v Nemecku. Naše špecifikácie sa stali vzorom pre priemysel."
+        },
+        {
+          "year": "2008",
+          "title": "ISO testovanie a globálne normy",
+          "text": "S medzinárodnou expanziou boli naše technické listy prispôsobené globálnym štandardom, vždy s predpokladom: Nemecká norma je absolútnou základňou, nie výnimkou."
+        },
+        {
+          "year": "2015",
+          "title": "BIM a digitálne dvojičky",
+          "text": "Zavedenie údajov z vysoko presného informačného modelovania budov (BIM). Projekty v hodnote miliárd sa teraz plánujú virtuálne so systémami K Aqua skôr, ako sa prelomová udalosť uskutoční v skutočnosti."
+        },
+        {
+          "year": "2026",
+          "title": "Údaje v reálnom čase a prediktívna analytika",
+          "text": "Naše aktuálne katalógy a technické listy sú dynamické dátové modely, ktoré integrujú parametre výkonu v reálnom čase z globálnych inštalácií. Nemecké inžinierstvo v digitálnom veku."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "DNA nemeckého inžinierstva.",
+      "title": "DNA nemeckého inžinierstva.",
+      "lead": "Údajový list K Aqua je viac než len stĺpce čísel. Je to prísľub, že každý nainštalovaný diel bude robiť presne to, čo inžinieri vypočítali.",
+      "items": [
+        {
+          "title": "Anatómia našich špecifikácií",
+          "desc": "Technický list K Aqua nie je len papier. Je to destilovaný výsledok tisícok hodín prísnych záťažových testov. Tolerancie dokumentujeme v rozsahu mikrometrov, pretože pri megaprojektoch môže mať odchýlka jedného milimetra katastrofálne následky."
+        },
+        {
+          "title": "Náuka o materiáloch: PPRCT v číslach",
+          "desc": "Naše súbory na stiahnutie poskytujú hĺbkové molekulárne analýzy. Presne zistíte, prečo zostáva kryštalická štruktúra nášho materiálu PPRCT stabilná viac ako 50 rokov pri nepretržitom zaťažení 90 °C. Údaje, ktoré poskytujú statikom a inžinierom absolútnu bezpečnosť."
+        },
+        {
+          "title": "Hydraulická presnosť",
+          "desc": "Rýchlosti prúdenia, tabuľky tlakových strát, limity kavitácie. Naše dokumenty poskytujú mechaniku tekutín na akademickej úrovni, pripravené na okamžitú praktickú aplikáciu. Určené pre výškové budovy, kde sa voda musí prepravovať proti extrémnej gravitácii."
+        },
+        {
+          "title": "skontrolované. celosvetovo.",
+          "desc": "SKZ, DVGW, WRAS, KIWA: naša sekcia na stiahnutie je trezorom celosvetových pečatí kvality. Každý certifikát je písomným dôkazom našej nekompromisnej politiky nulových chýb."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Databáza",
+      "title": "Špecifikácie bez kompromisov.",
+      "lead": "Keď medzinárodní generálni dodávatelia plánujú miliardové projekty, nespoliehajú sa na sľuby, ale na tvrdé fakty. Tu nájdete technické parametre, ktoré definujú naše vedúce postavenie na trhu.",
+      "items": [
+        {
+          "title": "Technické listy",
+          "desc": "Mikrometricky presné merania, tabuľky tlakových strát a koeficienty tepelnej rozťažnosti. Biblia pre každého plánovača."
+        },
+        {
+          "title": "Písomný dôkaz našej nulovej tolerancie voči chybám. Zdokumentovaná bezpečnosť podľa ISO, DVGW, SKZ a ďalších.",
+          "desc": "Písomný dôkaz našej nulovej tolerancie voči chybám. Zdokumentovaná bezpečnosť podľa ISO, DVGW, SKZ a ďalších."
+        },
+        {
+          "title": "BIM a CAD modely",
+          "desc": "Vysoko presné digitálne dvojičky našich potrubných systémov pre bezproblémovú integráciu do aplikácií Revit a ArchiCAD."
+        },
+        {
+          "title": "Katalógy produktov 2026",
+          "desc": "Celé portfólio K Aqua na viac ako 500 stranách. Od 20 mm rúr až po 500 mm priemyselné armatúry, plne zdokumentované."
+        }
+      ]
+    },
+    "methodology": {
+      "subtitle": "Metodika K Aqua",
+      "title": "Prečo sú naše údaje nedotknuteľné.",
+      "p1": "V stavebníctve sa chyby často prejavia až roky po dokončení. Ak zlyhá vodovodný systém v stenách 50-poschodového mrakodrapu, škody môžu ísť do miliónov.",
+      "p2": "Presne preto podrobujeme naše systémy extrémnym testom starnutia. V našich vysokotlakových laboratóriách simulujeme 50 rokov nepretržitého stresu. Výsledky plynú priamo do našich technických dokumentov.",
+      "card1": {
+        "title": "99,9 %",
+        "desc": "Rozmerová presnosť pri vytláčaní, dokumentovaná v každej šarži."
+      },
+      "card2": {
+        "title": "0 chýb",
+        "desc": "Tolerancia s našimi medzinárodnými testovacími certifikátmi."
+      }
+    },
+    "files": {
+      "eyebrow": "Priamy prístup",
+      "title": "Základné súbory na stiahnutie.",
+      "lead": "Stiahnite si priamo najdôležitejšie špecifikácie.",
+      "items": [
+        {
+          "title": "Hlavný katalóg 2026",
+          "type": "PDF, 42 MB"
+        },
+        {
+          "title": "Technické špecifikácie PPRCT",
+          "type": "PDF, 12 MB"
+        },
+        {
+          "title": "Tabuľky tlakových strát",
+          "type": "XLSX, 2 MB"
+        },
+        {
+          "title": "Knižnica BIM/Revit",
+          "type": "ZIP, 850 MB"
+        },
+        {
+          "title": "PDF, 1 MB",
+          "type": "PDF, 1 MB"
+        },
+        {
+          "title": "Schválenie pitnej vody DVGW",
+          "type": "PDF, 1,5 MB"
+        }
+      ]
+    }
+  },
+  "bim": {
+    "title": "BIM údaje",
+    "metaDesc": "K Aqua BIM dáta: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Prístup k našej BIM databáze.",
+    "sticky": {
+      "items": [
+        {
+          "title": "Plánovanie bez kolízie",
+          "desc": "Naše BIM modely ponúkajú nielen vysoko presné geometrické zobrazenie (LOD), ale predovšetkým neprekonateľnú hĺbku informácií (LOI). Každá rúra, armatúra a ventil obsahuje všetky kritické metadáta: špecifikácie materiálu, menovité tlaky, koeficienty tepelnej rozťažnosti a presné čísla položiek pre automatizované výberové konanie."
+        },
+        {
+          "title": "Plánovanie bez kolízie",
+          "desc": "V miliardových projektoch sa o detekcii kolízií nedá rokovať. Naše natívne súbory Revit a IFC zaručujú bezproblémovú integráciu do vášho Navisworks alebo Solibri. Presný vonkajší priemer vrátane tolerancií zvaru zabraňuje nákladným prekvapeniam na stavbe."
+        },
+        {
+          "title": "Parametrická inteligencia",
+          "desc": "K Aqua BIM rodiny sú plne parametrické. Dynamicky sa prispôsobujú vedeniu káblov, sklonom a rozmerom. Integrované automatické smerovanie automaticky vyberie správne redukcie a uhly oblúka v súlade s prísnymi špecifikáciami normy DIN EN ISO 15874."
+        },
+        {
+          "title": "Lifecycle & Facility Management",
+          "desc": "Digitálne dvojča sa odovzdaním budovy nekončí. Naše BIM objekty sú kompatibilné s COBie a poskytujú facility managementu všetky potrebné intervaly údržby, certifikáty a prevádzkové údaje pre bezpečný životný cyklus viac ako 50 rokov."
+        }
+      ],
+      "eyebrow": "Dokonalosť pracovného toku",
+      "title": "Digitálne dvojičky v dokonalosti.",
+      "lead": "Pohľad do hĺbky dát, ktorý eliminuje rozdiel medzi plánovaním a realitou."
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "1. fáza",
+          "title": "Integrácia základných geometrií K Aqua do raného dizajnu. Rýchle určenie hmotnosti a počiatočná kontrola kolízie pre koncepciu trasy v hlavnom pláne TGA.",
+          "text": "Integrácia základných geometrií K Aqua do raného dizajnu. Rýchle určenie hmotnosti a počiatočná kontrola kolízie pre koncepciu trasy v hlavnom pláne TGA."
+        },
+        {
+          "year": "2. fáza",
+          "title": "Plánovanie vykonávania",
+          "text": "Konverzia na LOI 400. Presné špecifikácie, rýchlosti prúdenia a výpočty tlakovej straty sú zahrnuté priamo do výpočtu hydraulickej siete budovy."
+        },
+        {
+          "year": "3. fáza",
+          "title": "Výberové konanie a oceňovanie",
+          "text": "Automatizované generovanie bezchybných kusovníkov (BOM) priamo z modelu. Každá armatúra je uložená s číslom výrobku K Aqua a údajmi VDI 3805."
+        },
+        {
+          "year": "4. fáza",
+          "title": "Prefabrikácia a montáž",
+          "text": "Export izometrických výkresov pre priemyselnú prefabrikáciu. Na milimeter presné výkresy cievok minimalizujú zváracie práce na stavbe na absolútne minimum."
+        },
+        {
+          "year": "5. fáza",
+          "title": "Po stavený a funkčný",
+          "text": "Odovzdanie hotového modelu. Digitálne dvojča slúži ako jediný zdroj pravdy pre facility management počas celej životnosti budovy."
+        }
+      ],
+      "title": "Životný cyklus údajov K Aqua BIM",
+      "desc": "Od prvého náčrtu až po desaťročia prevádzky. Naše údaje sprevádzajú váš projekt v každej fáze."
+    },
+    "hero": {
+      "desc": "Tento modul poskytuje nekompromisné zabezpečenie pre najnáročnejšie projekty na celom svete. Vyrobené podľa najprísnejších priemyselných noriem, aby vydržali celé generácie. Stiahnite si digitálne dvojča tam, kde zlyhanie materiálu nie je možné.",
+      "btnPrimary": "BIM knižnica (Revit/IFC)",
+      "btnGhost": "Požiadajte o BIM poradenstvo"
+    },
+    "intro": {
+      "title1": "DNA našich potrubných systémov.",
+      "title2": "Teraz v cloude.",
+      "p1": "BIM nechápeme len ako 3D výkresy. Pre spoločnosť K Aqua je informačné modelovanie budov prenosom našej nekompromisnej výrobnej presnosti do digitálneho priestoru. Keď medzinárodní generálni dodávatelia plánujú mrakodrapy, dátové centrá alebo prísne zabezpečené laboratóriá, nepotrebujú odhadované hodnoty, potrebujú fyzickú realitu vo forme dát.",
+      "p2": "Naše súbory údajov sú výsledkom desaťročí nemeckého inžinierstva. Každá hrúbka steny, každá dynamika tekutín a každá tepelná vlastnosť bola overená našimi inžiniermi a natívne preložená do rodín."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Natívne rodiny Revit®",
+          "desc": "Žiadne straty pri konverzii. Priamo naprogramované ako .rfa a .rvt pre najvyšší výkon a preferencie natívneho smerovania."
+        },
+        {
+          "title": "Zhoda s VDI 3805",
+          "desc": "Štandardizované produktové dáta pre bezproblémovú výmenu dát v rámci celého reťazca TGA."
+        },
+        {
+          "title": "Skúška IFC4",
+          "desc": "Maximálna interoperabilita prostredníctvom otvorených štandardov BIM (OpenBIM). Zaručená čitateľnosť v ArchiCAD, Allplan a Vectorworks."
+        },
+        {
+          "title": "Presné tepelné údaje",
+          "desc": "Integrované výpočtové modely pre lineárnu rozťažnosť, tepelnú vodivosť (0,24 W/mK) a tlakovú stratu trenia potrubia."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Stiahnite si balík K Aqua BIM.",
+      "desc": "Úplný prístup ku všetkým natívnym rodinám Revit, súborom IFC a súborom údajov VDI 3805. Zadarmo pre plánovačov a inžinierov.",
+      "btnPrimary": "Do centra sťahovania",
+      "btnOutline": "Kontaktujte BIM manažéra"
+    }
+  },
+  "common": {
+    "eyebrow": "K Aqua RESOURCE",
+    "subtitle": "Skonštruované v Nemecku.",
+    "lead": "Tento modul poskytuje nekompromisné zabezpečenie pre najnáročnejšie projekty na celom svete. Vyrobené podľa najprísnejších priemyselných noriem, aby vydržali celé generácie. Tam, kde zlyhanie materiálu neprichádza do úvahy.",
+    "btnProject": "Požiadajte o projekt",
+    "btnData": "Technické údaje",
+    "valEyebrow": "Nemecké inžinierstvo",
+    "valTitle": "Bezpečnosť bez kompromisov.",
+    "valLead": "Keď medzinárodní generálni dodávatelia plánujú miliardové projekty, nespoliehajú sa na sľuby, ale na tvrdé fakty.",
+    "valCardTitle": "Hodnotná ponuka 0{item}",
+    "valCardDesc": "Každý prvok opúšťa našu továreň s absolútnou nulovou toleranciou chýb. Precízne vyrobené podľa najprísnejších nemeckých noriem pre 100% voľnosť údržby.",
+    "authTitle": "Priemyselná autorita pre {modules}.",
+    "authP1": "Už desaťročia spájame hrdosť na remeselnú zručnosť s najmodernejšou, vysoko automatizovanou výrobnou technológiou v našom hlavnom závode v srdci Nemecka.",
+    "authP2": "Pri použití v najdrsnejších púštiach a najextrémnejších klimatických zónach na svete sa náš materiál osvedčuje každý deň. Stanovili sme štandard, ktorý bude zvyšok sveta nasledovať.",
+    "list1": "testované podľa DIN EN ISO 15874",
+    "list2": "Životnosť > 50 rokov",
+    "list3": "Bezúdržbový a odolný voči korózii",
+    "placeholder": "Ste pripravení na nekompromisnú kvalitu?",
+    "ctaTitle": "Porozprávajte sa s naším inžinierskym tímom o vašom ďalšom mega projekte.",
+    "ctaLead": "Porozprávajte sa s naším inžinierskym tímom o vašom ďalšom mega projekte."
+  },
+  "ausschreibungstexte": {
+    "meta": {
+      "title": "Oficiálne súťažné texty pre potrubné systémy PP-R",
+      "desc": "Stiahnite si podrobné texty ponúk K-Aqua. Ponúkame nekompromisnú bezpečnosť prostredníctvom nemeckého inžinierstva pre vaše globálne megaprojekty."
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Fáza 1: Parametrizácia",
+          "title": "Definícia dokonalosti.",
+          "text": "2. fáza: Ocenenie"
+        },
+        {
+          "year": "Fáza 2: Ocenenie",
+          "title": "Podanie bez kompromisov.",
+          "text": "3. fáza: Realizácia"
+        },
+        {
+          "year": "3. fáza: Realizácia",
+          "title": "Plán pre stavenisko.",
+          "text": "Súťažné texty slúžia ako záväzný právny poriadok pre vedenie stavby a montážnikov. Každý zvarový šev a každé upevnenie musí spĺňať špecifikované smernice DVS. Odchýlky sú nemožné."
+        },
+        {
+          "year": "Fáza 4: Životný cyklus",
+          "title": "50+ rokov absolútnej slobody údržby.",
+          "text": "Výsledkom bezchybnej špecifikácie je systém, ktorý je už desaťročia bezchybný. Maximálna odolnosť proti korózii, inkrustácii a chemickej degradácii. Medzigeneračné zabezpečenie vyvinuté v Nemecku."
+        }
+      ],
+      "title": "Od nežnosti až po večnosť.",
+      "desc": "Tendrový text od K Aqua nie je len dokument. Je to zdrojový kód pre vybudovanú realitu. Definuje, chráni a určuje celý životný cyklus budovy, od prvého náčrtu až po desaťročia používania."
+    },
+    "hero": {
+      "eyebrow": "K Aqua Resource Center",
+      "title1": "Skonštruované v Nemecku.",
+      "title2": "Skonštruované v Nemecku.",
+      "desc": "Architektúra začína myšlienkou. Inžinierstvo začína špecifikáciou. Naše texty výberových konaní K-Aqua sú právne záväzným základom pre potrubné systémy PP-R bez kompromisov. Milimetrová presnosť. Vyhovuje VOB. Bezpochyby.",
+      "cta1": "Stiahnite si texty GAEB",
+      "cta2": "Požiadajte o radu pri plánovaní"
+    },
+    "manifesto": {
+      "title1": "Koniec nejasnostiam.",
+      "title2": "Začiatok absolútnej kontroly.",
+      "p1": "V architektúre budov a inžinierstve priemyselných zariadení sú vágne formulácie najväčším existenčným rizikom. Jediné, nepresné slovo v popise služby môže znamenať rozdiel medzi desaťročia trvajúcim bezúdržbovým systémom a katastrofálnymi škodami spôsobenými vodou v 50-poschodovej výškovej budove.",
+      "p2": "Preto nežné texty len nepíšeme, ale ich <span class=\"text-foreground font-medium font-semibold\">konštruujeme</span>. Ako každý jeden kus potrubia K Aqua, aj naše balíčky digitálnych dát sú vyvinuté v Nemecku, testované a testované v extrémnych podmienkach. Fyzickú prevahu premieňajú na právnu a ekonomickú nespochybniteľnosť."
+    },
+    "bento": {
+      "eyebrow": "Architektúra údajov",
+      "title": "Špecifikácie, ktoré chránia.",
+      "lead": "Vyvinuté pre špecializovaných plánovačov TGA, architektov a vizionárskych inžinierov, ktorí nedokážu tolerovať chyby pri plánovaní miliardových projektov.",
+      "items": [
+        {
+          "title": "Vyhovuje VOB/C a DIN 18381",
+          "desc": "Každá jednotlivá položka presne zodpovedá najnovším obstarávacím a zmluvným predpisom pre stavebné služby. Ste právne na bezpečnej strane a drasticky minimalizujete riziko zodpovednosti."
+        },
+        {
+          "title": "XML, d81, d83. Perfektná importná kompatibilita pre ORCA, RIB iTWO, Nevaris a všetky bežné AVA systémy. Žiadne syntaktické chyby, žiadne riešenia.",
+          "desc": "XML, d81, d83. Perfektná importná kompatibilita pre ORCA, RIB iTWO, Nevaris a všetky bežné AVA systémy. Žiadne syntaktické chyby, žiadne riešenia."
+        },
+        {
+          "title": "Výrobne neutrálne varianty",
+          "desc": "Pre postupy verejného obstarávania ponúkame právne bezpečné, absolútne produktovo neutrálne popisy, ktoré stanovujú prémiový štandard bez toho, aby porušili pravidlá obstarávania."
+        },
+        {
+          "title": "Podrobná matrica príslušenstva",
+          "desc": "Od zložitého lisovaného dielu cez uzatvárací ventil až po termodynamickú upevňovaciu svorku: kompletný záznam celého ekosystému zabraňuje drahým prírastkom."
+        },
+        {
+          "title": "Integrácia pripravená na BIM",
+          "desc": "Bezproblémovo prepojte naše texty ponúk s našimi vysoko podrobnými modelmi Revit pre konzistentné 5D plánovanie bez konfliktov v reálnom čase."
+        }
+      ]
+    },
+    "grid": {
+      "title": "Anatómia výkonovej pozície.",
+      "desc": "Nenechávame nič na náhodu. Každá položka predstavenia je majstrovským dielom nemeckého inžinierstva zhusteného do textovej podoby. Tu je to, čo naše texty podrobne pokrývajú:",
+      "items": [
+        {
+          "title": "Potrubné systémy SDR 6 / SDR 7.4",
+          "desc": "PN 20. Technológia vláknového kompozitu s integrovanou minimalizáciou lineárnej rozťažnosti pre maximálnu rozmerovú stabilitu."
+        },
+        {
+          "title": "Elektrické zváracie zásuvky",
+          "desc": "Plne automatická zváracia dokumentácia a 100% homogénne, nerozoberateľné a nepriepustné spoje."
+        },
+        {
+          "title": "Prechodové skrutkové spoje",
+          "desc": "Bezodzinková prémiová mosadz (DZR), trvalo a neoddeliteľne zaliata do matrice PP-R."
+        },
+        {
+          "title": "Uzatváracie ventily",
+          "desc": "Bezúdržbové guľové a uhlové sedlové ventily s optimalizovaným prietokom a minimalizovaným mŕtvym priestorom, aby sa zabránilo legionele."
+        },
+        {
+          "title": "Distribučné systémy",
+          "desc": "Modulárne, vysokokapacitné rozvádzače pre zložité stúpačky a podlahové pripojenia vo veľkých projektoch."
+        },
+        {
+          "title": "Izolácia podľa GEG",
+          "desc": "Integrované špecifikácie pre prísne zamedzenie tepelným stratám a tvorbe kondenzácie (pod rosným bodom)."
+        },
+        {
+          "title": "Protipožiarne manžety",
+          "desc": "Vysoko reaktívne deliace systémy v súlade s R90/R120 pre bezpečné prestupy cez steny a stropy."
+        },
+        {
+          "title": "Systémové spojovacie prvky",
+          "desc": "Presné špecifikácie pevných a plávajúcich ložísk pre riadenú absorpciu tepelnej rozťažnosti."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Začnite so špecifikáciou.",
+      "desc": "Získajte prístup k našej kompletnej, neustále aktualizovanej knižnici textov ponúk. Zaručene bez chýb, v súlade so štandardmi a pripravený na použitie vo vašom ďalšom medzinárodnom megaprojekte.",
+      "btn1": "Na sťahovací portál",
+      "btn2": "Kontaktujte poradenský tím"
+    },
+    "deep": {
+      "items": [
+        {
+          "title": "Absolútna právna istota (VOB/C)",
+          "desc": "Pri plánovaní medzinárodných megaprojektov je nepriateľom nejednoznačnosť. Jediné chýbajúce slovo v popise služby môže znamenať rozdiel medzi systémom, ktorý je desaťročia bezúdržbový, a katastrofálnou stratou v hodnote miliónov. Naše súťažné texty sú na milimeter štandardizované podľa VOB/C a DIN 18381. Každý popis služby je kalibrovaný tak, aby boli úplne odstránené technické medzery, priestor na interpretáciu a právne šedé oblasti. Takto garantujeme, že kvalita, ktorú uvediete na papieri, je presne taká, aká bude na stavbe inštalovaná."
+        },
+        {
+          "title": "100% kompatibilita GAEB & ÖNORM",
+          "desc": "Špecifikácia materiálu: PPR-C (Typ 3)"
+        },
+        {
+          "title": "Vodná infraštruktúra je nervový systém budovy. Naše výkonnostné pozície jasne a jednoznačne definujú vynikajúcu molekulárnu štruktúru nášho polypropylénového náhodného kopolyméru (PPR-C typ 3). Stanovujú kľúčové parametre, ako je pevnosť pri tečení, správanie pri tečení a tepelná lineárna rozťažnosť. Len vďaka tejto nekompromisnej úrovni detailov môžete efektívne ochrániť svoj projekt pred podradnými derivátmi a nebezpečnými falzifikátmi, ktoré by nevyhnutne kapitulovali pri špičkových tlakoch 20 barov alebo pri kolísaní teploty.",
+          "desc": "Vodná infraštruktúra je nervový systém budovy. Naše výkonnostné pozície jasne a jednoznačne definujú vynikajúcu molekulárnu štruktúru nášho polypropylénového náhodného kopolyméru (PPR-C typ 3). Stanovujú kľúčové parametre, ako je pevnosť pri tečení, správanie pri tečení a tepelná lineárna rozťažnosť. Len vďaka tejto nekompromisnej úrovni detailov môžete efektívne ochrániť svoj projekt pred podradnými derivátmi a nebezpečnými falzifikátmi, ktoré by nevyhnutne kapitulovali pri špičkových tlakoch 20 barov alebo pri kolísaní teploty."
+        },
+        {
+          "title": "Termodynamická a akustická presnosť",
+          "desc": "Prémiová architektúra vyžaduje prémiovú fyziku. Profesionálny tender pokrýva nielen holý potrubný systém, ale celý fyzický ekosystém. Naše texty obsahujú podrobné špecifikácie koeficientov tepelných strát podľa zákona o energetike budov (GEG) / EnEV ako aj prísne rozmery zvukovej izolácie (DIN 4109). To zaisťuje, že váš systém je nielen extrémne odolný mechanicky, ale pracuje aj s vysokou termodynamickou účinnosťou a akustikou v absolútne prémiovom segmente (štandard šepotu)."
+        },
+        {
+          "title": "Metriky udržateľnosti (ESG a LEED)",
+          "desc": "Budúcnosť stavebníctva je kruhová a optimalizovaná pre CO2. Dnešné tendre musia preukázať ekologické štandardy. Texty K Aqua integrujú kompletné EPD (Environmental Product Declarations) a analýzy životného cyklu. Definujeme presnú ekologickú stopu, recyklovateľnosť a energetickú efektívnosť pri extrúzii. Dokonale sa hodí pre budovy, ktoré je potrebné testovať podľa DGNB, LEED, BREEAM alebo WELL. Špecifikujte zelený výkon, nielen zelené sľuby."
+        }
+      ]
+    }
+  }
+}

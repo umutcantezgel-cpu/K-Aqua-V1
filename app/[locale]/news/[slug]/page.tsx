@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   let newsTitle = resolveLocalized(newsItem.title, locale);
-  if (newsTitle.length > 45) {
-    newsTitle = newsTitle.substring(0, 42) + '...';
+  if (newsTitle.length > 55) {
+    newsTitle = newsTitle.substring(0, 52) + '...';
   }
 
   return constructMetadata({

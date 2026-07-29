@@ -63,6 +63,7 @@ export default async function TrustCenterPage({ params }: Props) {
     <>
       <JsonLd schema={jsonLd} />
       <div className="sr-only" aria-hidden="true">{meta[0]}</div>
+      <div className="sr-only" aria-hidden="true">{data.title1} {data.titleGrad}</div>
       <TrustCenter data={data} />
       <TrustDeep />
     </>

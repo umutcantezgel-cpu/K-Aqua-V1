@@ -1,0 +1,1529 @@
+{
+  "toggle_theme_light": "Açıq mövzuya keç",
+  "toggle_theme_dark": "Qaranlıq mövzuya keç",
+  "nav": {
+    "home": "Ana səhifə",
+    "products": "Məhsullar",
+    "finder": "Məhsul axtarıcı",
+    "co2": "CO₂ Kalkulyatoru",
+    "markets": "Bazarlar",
+    "trust": "Güvən Mərkəzi",
+    "contact": "Əlaqə",
+    "quote": "Təklif al",
+    "menu": "Menyu",
+    "lang": "Dil",
+    "skipToContent": "Məzmuna keç",
+    "menuPlaceholder": "Yer tutucu (Meqa-Menyu)",
+    "academy": "Akademiya",
+    "service": "Xidmət",
+    "about": "Şirkət",
+    "solutions": "Həllər",
+    "partners": "Tərəfdaşlıq",
+    "references": "İstinadlar",
+    "career": "Karyera",
+    "news": "Xəbərlər",
+    "knowledge_trust": "Bilik və Güvən",
+    "mapAria": "Xəritə naviqasiyasını aç",
+    "sitemapAria": "Sayt xəritəsi",
+    "pipes": "Borular",
+    "fittings": "Fitinqlər",
+    "valves": "Ventillər",
+    "accessories": "Aksesuarlar",
+    "tools": "Alətlər"
+  },
+  "groups": {
+    "tools": "Alətlər",
+    "knowledge": "Bilik",
+    "company": "Şirkət",
+    "products": "Məhsullar",
+    "markets_solutions": "Bazarlar və Həllər",
+    "knowledge_resources": "Bilik və Resurslar"
+  },
+  "pages": {
+    "catalogOverview": "Tam Məhsul Kataloqu",
+    "products": [
+      "Məhsullar və Fitinqlər",
+      "K Aqua-nın d20-dən d630 mm-ə qədər olan tam plastik boru sistemlərini kəşf edin. Məişət və sənaye üçün yüksək performanslı PP-R və PPRCT boruları."
+    ],
+    "finder": [
+      "Məhsul axtarıcı",
+      "İdeal PP-R və ya PPRCT borusunu, fitinqi və ya ventili dərhal tapın. Kataloqumuzu ölçü, təzyiq dərəcəsi və divar qalınlığına görə canlı filtrləyin."
+    ],
+    "finderGuideText": "<h2>K-Aqua Boru Sistemləri üçün İnteraktiv Məhsul Axtarıcısı</h2><p>Spesifik boru quraşdırmanız üçün tam uyğun gələn hissəni tapmaq üçün innovativ məhsul axtarıcımızdan istifadə edin. İçməli su quraşdırmaları üçün standart PP-R boruları, tələbkar sənaye sistemləri üçün liflə gücləndirilmiş PPRCT boruları və ya xüsusi keçid fitinqləri və armaturları axtarmağınızdan asılı olmayaraq – bizim alətimiz bütün kataloqu real vaxt rejimində filtrləyir. Məhsul axtarışı sizə diametr (d20-dən d630-a qədər), təzyiq dərəcəsi (SDR sinfi) və material üzrə seçim etməyə kömək edir.</p><p>Yaxşı strukturlaşdırılmış boru sistemi dəqiq planlaşdırma və boruların, formaların (məsələn, muftalar, dirsəklər və T-birləşmələr) və müvafiq aksesuarların dəqiq kombinasiyasını tələb edir. Bizim məhsul axtarıcımız statik PDF kataloqlarında vaxt aparan axtarış ehtiyacını aradan qaldırır və bunun əvəzinə məhsul nömrələri, qablaşdırma vahidləri və texniki xüsusiyyətlər barədə anında, etibarlı məlumatlar təqdim edir. Yalnız bir neçə kliklə siz material siyahınızı toplaya və isitmə, soyutma və içməli su sistemləri üçün müxtəlif komponentlərin uyğunluğuna əmin ola bilərsiniz. Bu, nəinki planlaşdırma prosesinizi optimallaşdırır, həm də növbəti tikinti layihəniz üçün material sifarişi zamanı xətaları minimuma endirir.</p>",
+    "co2": [
+      "CO2 Kalkulyatoru",
+      "K Aqua PP-R plastik borularının CO2 izini mis, paslanmayan polad və PVC ilə müqayisə edin. Yaşıl Bina (Green Building) üçün ISO 14040/44 standartlarına uyğun yoxlanılmışdır."
+    ],
+    "solutions": [
+      "Materialın üstünlükləri",
+      "Niyə Polipropilenin (PP-R/PPRCT) su təchizatı üçün üstün material olduğunu öyrənin. Ekoloji, texniki cəhətdən inkişaf etmiş və qənaətcil."
+    ],
+    "academy": [
+      "K-Aqua Akademiyası: PP-R qaynaq texnikası və mütəxəssis biliyi",
+      "PP-R plastik boruları üçün peşəkar qaynaq texnikalarını öyrənin. Video dərsliklərə baxın və Welding-Master viktorinamızı tamamlayın."
+    ],
+    "trust": [
+      "Güvən Mərkəzi",
+      "K Aqua-nın keyfiyyət sənədlərinə daxil olun. Layihəniz üçün ISO sertifikatlarını, GENAU sistemini və audit sənədlərini yükləyin."
+    ],
+    "service": [
+      "Xidmət və Yükləmə Mərkəzi",
+      "Rəsmi K Aqua məhsul kataloqlarını, texniki məlumat vərəqələrini və PP-R və PPRCT plastik boru sistemləri üçün quraşdırma qaydalarını yükləyin."
+    ],
+    "partner": [
+      "KESSEL Tərəfdaşlığı",
+      "K Aqua və KESSEL-i drenaj sistemlərindən tutmuş su təchizatına qədər alman istehsal standartlarını tətbiq edən onilliklər boyu davam edən tərəfdaşlıq birləşdirir."
+    ],
+    "markets": [
+      "Bazarlar və Məkanlar",
+      "K Aqua PP-R boru sistemlərini 27-dən çox ölkəyə tədarük edir. Yerli standartlar, su profilləri və logistika məlumatları üçün interaktiv dünya xəritəmizdən istifadə edin."
+    ],
+    "references": [
+      "İstinad Layihələri",
+      "K-Aqua PP-R boru sistemləri ilə dünya üzrə istinad layihələrini kəşf edin. İnteraktiv 3D qlobusumuz məişət, kommersiya və sənaye obyektlərini nümayiş etdirir."
+    ],
+    "about": [
+      "KWT GmbH Haqqında",
+      "KWT GmbH K Aqua premium boru sistemini istehsal etmək üçün onilliklərin təcrübəsini birləşdirir. Ən yüksək keyfiyyət və innovasiya üçün Alman mühəndisliyi."
+    ],
+    "career": [
+      "K-Aqua-da Karyera",
+      "Waldsolms-dakı komandamıza qoşulun. Vergisiz güzəştlərinizi xalis olaraq hesablayın və K Aqua-nın sizə uyğun olub-olmadığını 60 saniyə ərzində yoxlayın."
+    ],
+    "news": [
+      "Yeniliklər və Xəbərlər | K-Aqua Şirkət Məlumatları",
+      "K Aqua innovasiyaları, məhsulları, sərgiləri və üç qat ISO sertifikatlı istehsala olan sadiqliyimiz barədə yeniliklərdən xəbərdar olun."
+    ],
+    "contact": [
+      "Əlaqə, Satış və Dəstək",
+      "Satış sorğuları, dəstək və ya tərəfdaşlıq üçün K Aqua ekspert komandası ilə əlaqə saxlayın. Qlobal B2B müştəriləri üçün sürətli reaksiya müddətləri."
+    ],
+    "rfq": [
+      "Layihə sorğusu",
+      "Növbəti boru layihəniz üçün dörd sadə addımda heç bir öhdəlik olmadan təklif tələb edin. Satış komandamız 24 saat ərzində sizinlə əlaqə saxlayacaq."
+    ],
+    "home": [
+      "PP-R və PPRCT Boru Sistemləri",
+      "K Aqua içməli su və sənaye tətbiqləri üçün yüksək keyfiyyətli PP-R və PPRCT plastik boru sistemləri istehsal edir. Qlobal layihələr üçün Alman mühəndisliyi."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Məxfilik Siyasəti",
+        "DSGVO (GDPR) təlimatlarına uyğun olaraq K Aqua veb-saytı üçün əhatəli məxfilik siyasəti."
+      ],
+      "impressum": [
+        "İmprint və Hüquqi Məlumatlar",
+        "İmprint və K Aqua istehsalçısı olan KWT GmbH haqqında hüquqi şirkət məlumatları."
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "yoxlanılmış keyfiyyət",
+      "title1": " ",
+      "titleHighlight": "GENAU",
+      "title2": " İdarəetmə Sistemi",
+      "p1": "GENAU idarəetmə sisteminin məqsədi şirkətdə işin, ətraf mühitin və sağlamlığın qorunmasının davamlı şəkildə yaxşılaşdırılmasıdır.",
+      "p2": "KWT-dəki bütün korporativ fəaliyyətlər resursların qorunması, ekoloji uyğunluq və bütün öhdəliklərə ciddi riayət olunmaqla həyata keçirilir. Tətbiq edilən GENAU idarəetməsi yüksək tələblərə cavab verir ",
+      "p3": " və ",
+      "list1Title": "Ekoloji Məsuliyyət",
+      "list1Desc": "Ətraf mühitin qorunması, KWT GmbH-in bütün əməkdaşlarının sadiq olduğu keyfiyyət anlayışımızın bir hissəsidir.",
+      "list2Title": "Enerji Effektivliyi",
+      "list2Desc": "Risklərin məqsədyönlü şəkildə müəyyən edilməsi və enerji effektivliyini optimallaşdırmaq üçün tədbirlərin həyata keçirilməsi."
+    },
+    "pipes": [
+      "Borular və Sistemlər",
+      "Məişət və sənaye üçün yüksək performanslı PP-R və PP-RCT boruları. Növbəti layihəniz üçün bütün SDR siniflərini və ölçülərini kəşf edin."
+    ],
+    "fittings": [
+      "Hissələr və Fitinqlər",
+      "Bütün K-Aqua boru sistemləri üçün hissələrin tam çeşidi. Polifüzyon üçün dirsəkləri, T-birləşmələri, reduktorları və muftaları kəşf edin."
+    ],
+    "valves": [
+      "Armaturlar və Ventillər",
+      "Boru şəbəkələri üçün premium armaturlar və aksesuarlar. Yüksək keyfiyyətli kürəcik klapanları, gizli ventillər, bucaqlı oturacaq klapanları və yoxlama klapanları."
+    ],
+    "tools": [
+      "Alətlər və Aksesuarlar",
+      "PP-R quraşdırılması üçün peşəkar qaynaq alətləri və aksesuarlar. Qaynaq maşınlarını, boru kəsiciləri və xüsusi alətləri kəşf edin."
+    ],
+    "transition-fittings": [
+      "Keçidlər",
+      "Təhlükəsiz birləşmələr üçün etibarlı keçid hissələri. Yivli və ya flanş birləşmələri olan latun keçid hissələrini kəşf edin."
+    ]
+  },
+  "home": {
+    "chip": "oktyabr 2025-ci ildən yoxlanılmışdır",
+    "h1a": "Lider",
+    "h1b": "K-Aqua PP-R Boru Sistemləri",
+    "globeAria": "İnteraktiv qlobus, fırlatmaq üçün çəkin",
+    "scrolly": [
+      {
+        "t": "Almaniyada İstehsal Edilmişdir",
+        "d": "Hər bir boru və formanın inkişafı və istehsalı Waldsolms-da həyata keçirilir."
+      },
+      {
+        "t": "d20-dən d630-a qədər",
+        "d": "Tam bir sistem: beş təzyiq dərəcəsi, formalar, armaturlar və qaynaq texnologiyası."
+      },
+      {
+        "t": "Üçqat yoxlanılmış",
+        "d": "ISO 9001, 14001 və 50001: Keyfiyyət, ətraf mühit və enerji bir idarəetmə sistemindən."
+      },
+      {
+        "t": "Dünyada 27 Bazar",
+        "d": "Frankfurtdan NEOM-a qədər: yerli standartlara və su profillərinə qarşı sınaqdan keçirilmişdir."
+      }
+    ],
+    "lead": "K-Aqua, premium istehsalçı KESSEL ilə tərəfdaşlıq çərçivəsində, içməli su üçün 20 mm-dən 630 mm-ə qədər PP-R və PP-RCT boru sistemlərini inkişaf etdirir və istehsal edir.",
+    "ctaProducts": "Məhsul sistemini kəşf edin",
+    "ctaContact": "Əlaqə saxlayın",
+    "toolsEyebrow": "İnteraktiv alətlər",
+    "toolsTitle1": "Mətn səhrası deyil.",
+    "toolsTitle2": "Alətlər.",
+    "toolsLead": "Veb sayt sizin üçün işləyir: filtrləyin, hesablayın, öyrənin.",
+    "bandTitle": "Su təchizatının gələcək nəslinə hazırsınız?",
+    "bandLead": "Layihəniz, planlaşdırmadan qaynaq texnologiyasına qədər satış komandamızla danışın.",
+    "bandBtn": "Layihə sorğusuna başla",
+    "bandBtn2": "Yükləmələr və Xidmət"
+  },
+  "geo": {
+    "eyebrow": "Bazarlar və Məkanlar",
+    "title1": "Bazarlarla dolu",
+    "title2": "bir dünya.",
+    "lead": "PP-R boru sistemləri üçün K-Aqua məkanlarını kəşf edin: {c} ölkədə {n} bazar, hər birinin standartlar, su profili, istifadə halları və logistika üçün öz açılış səhifəsi var. Dünyanı tutun və sərbəst fırladın; siyahı sizi dəqiq bir şəhərə aparacaq.",
+    "all": "Bütün",
+    "cityTitle": "{city} şəhərində PP-R/PPRCT Boru Sistemləri.",
+    "cityLead": "İçməli su sistemləri d20–d630, yerli tələblərə qarşı sınaqdan keçirilmişdir.",
+    "allMarkets": "Bütün Bazarlar",
+    "request": "Layihə sorğusu",
+    "finder": "Məhsul axtarıcı",
+    "fromPlant": "Waldsolms zavodundan km",
+    "regFrame": "Tənzimləyici Çərçivə",
+    "water": "Su Profili və Material Uyğunluğu",
+    "typical": "{city} şəhərində tipik layihələr",
+    "onSite": "Yerində Emal",
+    "onSiteText": "Akademiyada komandanız üçün qaynaq texnikası təlimatı və video sənədləşdirmə.",
+    "toAcademy": "Akademiyaya",
+    "nearbyEyebrow": "Əlaqədar Bazarlar",
+    "nearby": "Yaxınlıqda.",
+    "prodNote": "İstehsal Qeydi: Bu səhifələr Programmatic-SEO şablonuna (Məlumat-Dilimi: Məhsul × Tənzimləyici × Region) uyğundur. Next.js-də onlar Başsız CMS-dən ISR vasitəsilə, hreflang, Product-/Offer-Schema və semantik daxili linklər daxil olmaqla yaradılır.",
+    "km": "km",
+    "seoExpansion": "K Aqua, Waldsolms-da qlobal bina və sistem texnologiyasının ən yüksək tələbləri üçün PP-R və PPRCT boru sistemləri istehsal edir. Güzəştsiz Alman Mühəndisliyi və ən müasir istehsal texnologiyası sayəsində sistemlərimiz onilliklər boyu texniki xidmət tələb etməyən əməliyyat etibarlılığına zəmanət verir. d20-dən d630-a qədər hər bir məhsul ciddi keyfiyyət nəzarətindən keçir və DVGW, KIWA və SKZ kimi beynəlxalq standartlara cavab verir. Biz nəinki içməli su, soyutma və sənaye üçün yüksək keyfiyyətli materiallar təqdim edirik, həm də planlaşdırıcıları və quraşdırıcıları hərtərəfli texniki dəstək və yerində təlimlərlə dəstəkləyirik. Həddindən artıq uzunömürlülüyü, korroziyaya məruz qalmaması və mütləq gigiyenası ilə inandıran bir sistemə etibar edin.",
+    "seoExpansionDynamic": "{city} şəhərindəki PP-R və PPRCT həllərimiz haqqında daha çox öyrənin. Biz yerli standartlara ({regulator}) cavab veririk və suyun keyfiyyəti üçün optimal sistemlər ({water}) təklif edirik. Əlavə qeyd: {note}.",
+    "cityMetaTitle": "{city} şəhərində PP-R Boru Sistemləri",
+    "hubMetaTitle": "{country} üçün PP-R Boru Sistemləri",
+    "hubH1": "{country} üçün İnfrastruktur Həlləri",
+    "hubLead": "K-Aqua {country} üçün sertifikatlı PP-R və PP-RCT infrastruktur həlləri təklif edir. Boru sistemlərimiz ən yüksək beynəlxalq standartlara cavab verir və {country}-dəki spesifik çağırışlar üçün optimallaşdırılmışdır.",
+    "hubContextTitle": "Regional Kontekst: {context}",
+    "hubContextBody": "Alman istehsalı olan K-Aqua PP-R/PP-RCT boru sistemlərimiz {country} üçün davamlı infrastruktur həlləri təqdim edir. Onlar yerli infrastruktur problemlərini həll etmək üçün xüsusi olaraq hazırlanmışdır.",
+    "hubCitiesTitle": "Yerli Məkanlar və İstinad Şəhərləri",
+    "hubs": {
+      "deutschland": {
+        "description": "K-Aqua-nın daxili bazarı olaraq, Almaniya tikinti keyfiyyəti və uzunömürlülük baxımından ən yüksək tələblərə malikdir. Bizim <span class=\"font-semibold\">PP-R və PP-RCT boru sistemlərimiz</span> Alman içməli su və isitmə infrastrukturunda təcili bərpa ehtiyaclarını effektiv və davamlı şəkildə həll edir. Korroziyasız, DVGW sertifikatlı materiallar vasitəsilə biz texniki xidmət xərclərini azaldır və bələdiyyə, kommersiya və özəl iri layihələrdə onilliklər boyu maksimum sistem gigiyenasını təmin edirik.",
+        "metaDesc": "Almaniya üçün sertifikatlı PP-R/PP-RCT boru sistemləri. İçməli su və isitmə infrastrukturunun bərpası üçün Alman Mühəndisliyi."
+      },
+      "oesterreich": {
+        "description": "Avstriyada tələbkar topoqrafiya və sərt ekoloji qaydalar güzəştsiz infrastruktur həlləri tələb edir. Bizim <span class=\"font-semibold\">K-Aqua boru sistemlərimiz</span> Alp regionlarında uzunömürlü su və regional isitmə şəbəkələri üçün premium keyfiyyət təklif edir. ÖVGW tərəfindən sınaqdan keçirilmiş təhlükəsizlik və mükəmməl istilik izolyasiyası ilə bizim PP-R və PP-RCT borularımız hətta Alp dağlarının ən ekstremal iqlim şəraitində şaxtaya və təzyiqə davamlı performansa zəmanət verir.",
+        "metaDesc": "Avstriya üçün Premium PP-R/PP-RCT boru sistemləri. Alp regionlarında su və regional isitmə şəbəkələri üçün şaxtaya və təzyiqə davamlı həllər."
+      },
+      "schweiz": {
+        "description": "İsveçrə dəqiqlik, davamlılıq və ən yüksək keyfiyyət standartlarını təmsil edir. <span class=\"font-semibold\">K-Aqua-nın PP-R və PP-RCT sistemləri</span> birinci dərəcəli material təmizliyi və SVGW sertifikatlı qida təhlükəsizliyi vasitəsilə bu tələblərə cavab verir. Tamamilə təkrar emal oluna bilən, axını optimallaşdırılmış plastik borularımız bütün İsveçrədə gələcəyə yönəlmiş Minergie tikinti layihələri üçün enerjiyə qənaət edən sanitar və iqlim texnologiyasına imkan verir.",
+        "metaDesc": "İsveçrə üçün birinci dərəcəli PP-R/PP-RCT boru sistemləri. Davamlı Minergie tikinti layihələri üçün SVGW sertifikatlı, təkrar emal oluna bilən plastik borular."
+      },
+      "uae": {
+        "description": "Birləşmiş Ərəb Əmirliklərinin ekstremal iqlim şəraitində su ən dəyərli resursdur. <span class=\"font-semibold\">K-Aqua PP-R/PP-RCT boru sistemləri</span> duzsuzlaşdırılmış dəniz suyundan (Reverse Osmosis) istifadə zamanı belə korroziya və kalsifikasiyaya qarşı mükəmməl qorunma təklif edir. Bizim UV və istiliyə davamlı yüksək performanslı borularımız Dubay və Əbu Dabi meqalayihələrində və göydələnlərində daimi su təchizatını təmin edir.",
+        "metaDesc": "BƏƏ üçün UV və istiliyə davamlı PP-R/PP-RCT boru sistemləri. Səhra iqlimlərində korroziya və kalsifikasiyaya qarşı ən yüksək qorunma."
+      },
+      "ksa": {
+        "description": "Vision 2030 çərçivəsində Səudiyyə Ərəbistanı bütün infrastrukturunu dəyişdirir. <span class=\"font-semibold\">K-Aqua bunun üçün vacib su infrastrukturunu təmin edir</span>. İri diametrli PP-RCT borularımız NEOM kimi yeni Ağıllı Şəhərlərdə təhlükəsiz, sızmasız və səmərəli su paylanmasına zəmanət verir. Beynəlxalq standartlara uyğun sertifikatlaşdırılmış, həddindən artıq yüksək mühit temperaturlarında kəsintisiz fəaliyyətə zəmanət veririk.",
+        "metaDesc": "Səudiyyə Ərəbistanı üçün iri diametrli PP-RCT boru sistemləri. Vision 2030 və NEOM kimi meqa-layihələr üçün etibarlı su infrastrukturu."
+      },
+      "singapur": {
+        "description": "Asiyanın ən sıx məskunlaşmış yüksək texnologiyalı şəhər dövlətlərindən biri kimi Sinqapur yüksək səmərəli və yerə qənaət edən bina texnologiyasına ehtiyac duyur. <span class=\"font-semibold\">K-Aqua-nın innovativ boru kəməri sistemləri</span> drastik şəkildə azaldılmış təzyiq itkisi və optimal istilik xüsusiyyətləri ilə Sinqapurun iddialı Yaşıl Bina (Green Building) məqsədlərini dəstəkləyir. Göydələnlərin kondisionerləşdirilməsindən (Chilled Water) ultra təmiz içməli su təchizatına qədər Asiyada standartlar müəyyən edirik.",
+        "metaDesc": "Sinqapurun Yaşıl Binaları üçün səmərəli PP-R/PP-RCT boruları. Chilled Water və ultra təmiz içməli su təchizatı üçün ixtisaslaşdırılmış sistemlər."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua, su təchizatında lider. İçməli su üçün PP-R/PP-RCT boru sistemləri, Waldsolms-da KWT GmbH tərəfindən istehsal olunur.",
+    "colTools": "Məhsullar və Alətlər",
+    "colCompany": "Şirkət",
+    "colContact": "Əlaqə",
+    "directions": "İstiqamətlər və Məkan",
+    "rights": "Bütün hüquqlar qorunur.",
+    "imprint": "İmprint",
+    "privacy": "Məxfilik",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Almaniya",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "Layihə sorğusu",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "PP-R Boru Standartları"
+      },
+      {
+        "t": "Davamlılıq",
+        "s": "Ətraf mühitə uyğun"
+      },
+      {
+        "t": "GENAU Sistemi",
+        "s": "İnteqrasiya edilmiş İdarəetmə"
+      },
+      {
+        "t": "Made in Germany",
+        "s": "Waldsolms-da istehsal olunub"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "Veb dizayn: Coday",
+        "Coday Web Agency layihəsi",
+        "Coday Web Agency",
+        "Coday tərəfindən rəqəmsallaşdırılıb"
+      ],
+      "srDesc": "Bu veb sayt Hessen-də Veb dizayn və GEO üzrə ekspertlər olan Coday Web Agency tərəfindən dizayn edilmiş və texniki cəhətdən həyata keçirilmişdir.",
+      "linkTitle": "Coday Web Agency-yə keçid - Premium Veb dizayn"
+    }
+  },
+  "regions": {
+    "dach": "DACH (Almaniya, Avstriya, İsveçrə)",
+    "europa": "Avropa",
+    "nahost": "Yaxın və Orta Şərq",
+    "global": "Afrika və Asiya-Sakit Okean"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "mm",
+        "l": "proqramda maksimal boru ölçüsü"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "Təzyiq dərəcələri: SDR 6 / 7,4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "Keyfiyyət, ətraf mühit və enerji yoxlanılmışdır"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "İstehsal tullantıları təkrar emal olunur"
+      }
+    ],
+    "heroBadgeLabel": "Boru ölçüləri, SDR 6-dan SDR 17-yə qədər",
+    "marquee": [
+      "Su təchizatında lider",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "Waldsolms-da istehsal olunub",
+      "100% Təkrar emal",
+      "Tərəfdaş: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "Məhsul axtarıcı",
+        "d": "170+ məhsul variantını canlı filtrləyin: Ölçü, SDR, divar qalınlığı dərhal.",
+        "cta": "İndi filtrlə"
+      },
+      {
+        "id": "co2",
+        "t": "CO₂ Kalkulyatoru",
+        "d": "Layihəniz mis, paslanmayan polad və PVC ilə müqayisədə, ağaclar və avtomobil kilometrləri ilə.",
+        "cta": "İndi hesabla"
+      },
+      {
+        "id": "academy",
+        "t": "Akademiya + Viktorina",
+        "d": "Dörd qaynaq prosesi videoda, sonra Qaynaq Ustası viktorinası.",
+        "cta": "Usta ol"
+      },
+      {
+        "id": "references",
+        "t": "İstinad Qlobusu",
+        "d": "Planeti fırladın, layihələri kəşf edin: Waldsolms-dan Sinqapura qədər.",
+        "cta": "Qlobusu fırlat"
+      },
+      {
+        "id": "trust",
+        "t": "Güvən Mərkəzi",
+        "d": "Sertifikatları yoxlayın və RFP sənəd paketini özünüz hazırlayın.",
+        "cta": "Paketi yarat"
+      },
+      {
+        "id": "career",
+        "t": "Faydalar Kalkulyatoru",
+        "d": "Vergisiz əlavələrin xalis gəliri, üstəgəl 60 saniyəlik Mədəniyyət Uyğunluğu.",
+        "cta": "Xalisi yoxla"
+      }
+    ],
+    "vsEyebrow": "Fərq",
+    "vsTitle": "Sənaye standartı K Aqua rəqəmsala qarşı.",
+    "vsBadTitle": "Sənaye bunu belə edir",
+    "vsGoodTitle": "K Aqua bunu belə edir",
+    "vsBad": [
+      "Axtarış imkanı olmayan 220 səhifəlik PDF kataloqlar",
+      "Sertifikatlar yalnız yazılı sorğu ilə",
+      "Texniki məlumatlar cədvəl cəngəlliklərində gizlənib",
+      "Karyera səhifəsi: yalnız bir poçt qutusu"
+    ],
+    "vsGood": [
+      "Məhsul axtarıcı: saniyələr ərzində filtrləyin",
+      "Güvən Mərkəzi: Öz-özünə xidmət kimi yükləmələr",
+      "CO₂ kalkulyatoru məlumatları arqumentə çevirir",
+      "Faydalar kalkulyatoru + Mədəniyyət Uyğunluğu"
+    ],
+    "coEyebrow": "Şirkət",
+    "coTitle1": "Tikinti materialı tədarükçüsü və istehsalçı:",
+    "coTitle2": "bir mənbədən.",
+    "coLead": "KWT GmbH su təchizatı üçün müxtəlif plastiklərdən borular və hissələr istehsal edir və beləliklə tikinti dəyər zəncirində həm tədarükçü, həm də istehsalçı kimi mövqe tutur.",
+    "kesselTitle": "KESSEL ilə güclü tərəfdaşlıq",
+    "kesselText": "Drenaj sistemlərində lider olan premium istehsalçı KESSEL ilə bizi sıx, uzun illərdir davam edən tərəfdaşlıq birləşdirir. Biz bu onilliklər boyu əldə etdiyimiz təcrübəni gələcəyə daşıyırıq.",
+    "kesselCta": "Tərəfdaşlıq haqqında daha çox",
+    "worldTitle": "Dünyada sübut edilmiş",
+    "worldText": "K Aqua məhsulları onilliklər ərzində dünyanın hər yerindəki layihələrdə dəfələrlə özünü sübut etmişdir.",
+    "worldCta": "İstinad Qlobusu",
+    "cards": [
+      {
+        "t": "GENAU İdarəetmə Sistemi",
+        "d": "DIN EN ISO 14001 və 50001 standartlarına uyğun olaraq əməyin mühafizəsi, ətraf mühit və sağlamlığın davamlı yaxşılaşdırılması."
+      },
+      {
+        "t": "Almaniyada İstehsal",
+        "d": "Waldsolms məkanında inkişaf və istehsal: keyfiyyət, xərclər və terminlər həmişə harmoniyadadır."
+      },
+      {
+        "t": "Ekoloji Məsuliyyət",
+        "d": "Resursların qorunması və ətraf mühitə uyğunluq keyfiyyət anlayışımızın ayrılmaz hissəsidir."
+      }
+    ],
+    "manifestTitle": "Missiyamız",
+    "manifestText": "Su bizim ən dəyərli resursumuzdur. Biz onu gələcəyə yönəlmiş boru sistemləri ilə qoruyuruq.",
+    "grEyebrow": "Qlobal Əhatə Dairəsi",
+    "grTitle1": "Beynəlxalq",
+    "grTitle2": "Ticarət marşrutları",
+    "grLead": "Almaniyadan dünyaya: Bizim K Aqua boru sistemlərimiz bütün dünyada ən müasir meqalayihələrin əsasını təşkil edir. Səudiyyə Ərəbistanındakı NEOM-dan tutmuş Sinqapurdakı yüksək mürəkkəb sənaye obyektlərinə qədər.",
+    "grHqLabel": "Qərargah və İstehsal",
+    "grHqValue": "Almaniya (Frankfurt)",
+    "grExportLabel": "Əsas İxrac Bazarları",
+    "grExportValue": "Səudiyyə Ərəbistanı (NEOM), BƏƏ, Qətər, Latın Amerikası",
+    "grCta": "Qlobal layihələri kəşf edin"
+  },
+  "products": {
+    "eyebrow": "Sistemin icmalı",
+    "title1": "K-Aqua",
+    "title2": "Plastik Boru Sistemləri.",
+    "lead": "K-Aqua PP-R və PPRCT sistemləri tikinti xidmətləri və sənayedə kompromissiz keyfiyyəti təmsil edir. d20-dən d630 mm-ə qədər, tam SDR təzyiq dərəcələri spektri daxil olmaqla, hər bir tələb üçün uyğun həlli təklif edirik.",
+    "groups": {
+      "pipes": {
+        "title": "Borular",
+        "desc": "Standart PP-R və PP-RCT-dən tutmuş mürəkkəb tətbiqlər üçün liflə gücləndirilmiş kompozit borulara qədər."
+      },
+      "fittings": {
+        "title": "Fitinqlər",
+        "desc": "Boru sistemlərində etibarlı və qalıcı birləşmələr üçün formalar və muftalar."
+      },
+      "valves": {
+        "title": "Ventillər",
+        "desc": "Sistemdə mükəmməl axın nəzarəti üçün klapanlar və kranlar."
+      },
+      "tools": {
+        "title": "Alətlər",
+        "desc": "Peşəkar quraşdırma və polifüzyon üçün qaynaq texnologiyası və kəsmə alətləri."
+      },
+      "transition-fittings": {
+        "title": "Keçidlər",
+        "desc": "Digər materiallara və armaturlara təhlükəsiz qoşulma üçün yivli və ya flanşlı hissələr."
+      }
+    },
+    "narrative": {
+      "sizeRange": "Bu komponent, maksimum çox yönlülüyü təmin edən, müxtəlif quraşdırma ssenarilərində geniş diapazonda – kompakt {minSize} mm-dən təsirli {maxSize} mm-ə qədər nominal ölçülərdə istehsal olunur.",
+      "sizeSpecific": "Bu komponent xüsusi olaraq {minSize} mm nominal ölçü üçün dəqiq dizayn edilmişdir və ixtisaslaşmış boru memarlıqlarında məqsədyönlü performans təklif edir.",
+      "weights": "Material səmərəliliyi bütün çeşid üzrə optimallaşdırılmışdır, vahid ağırlıqları seçilmiş ölçüdən asılı olaraq {minWeight} kq-dan {maxWeight} kq-a qədər dəyişir.",
+      "packaging": "Logistika qlobal daşınma və tikinti sahəsində səmərəli idarəetmə üçün nəzərdə tutulmuş standart qablaşdırma vahidləri ilə optimallaşdırılıb.",
+      "rowCount": "Texniki portfelimiz müasir maye nəqli sistemlərinin hidravlik və mexaniki tələblərinə cavab vermək üçün dəqiq ölçülü {count} yüksək ixtisaslaşmış ölçü variantında bu konfiqurasiyanı təqdim edir.",
+      "intro": "{title} məhsulu K Aqua-nın yüksək performanslı maye idarəetmə həllərinin təməl daşını təşkil edir. Rəsmi olaraq {codes} məhsul nömrələri altında kataloqlaşdırılmış hər bir variant, tədarükdən əvvəl Almaniya istehsal müəssisələrimizdə ciddi keyfiyyət təminatı protokollarından keçir.",
+      "outro": "Qabaqcıl polimer emalı texnologiyalarından istifadə edərək, {title}-in həndəsi dəqiqliyi optimal axın xüsusiyyətlərinə zəmanət verir, təzyiq itkilərini minimuma endirir və bütün istismar müddəti ərzində kalsifikasiya və ya korroziya riskini tamamilə aradan qaldırır. Material elminə olan bu kompromissiz sadiqlik hər bir birləşmənin hətta ekstremal termal və təzyiq dalğalanmalarında belə tam bütövlüyünü qorumasını təmin edir. İstər yüksək mərtəbəli yaşayış binalarında, kritik səhiyyə müəssisələrində, istərsə də mürəkkəb sənaye emal zavodlarında istifadə olunsun, bu məhsul mühəndislərin və quraşdırıcıların tam etibar edə biləcəyi texniki xidmət tələb etməyən etibarlılığı təmin edir."
+    },
+    "uniqueProductContext": "{title} məhsulu K Aqua {category} çeşidinin vacib hissəsidir. Maksimum uzunömürlülük və qüsursuz inteqrasiya üçün dizayn edilmiş bu məhsul müasir boru və santexnika tətbiqləri üçün ən yüksək beynəlxalq standartlara cavab verir. Bu xüsusi məhsulu aşağıdakı məhsul nömrəsi(ləri) ilə müəyyən edib sifariş edə bilərsiniz: {codes}. Əlavə sənədlər və ya dəstək üçün lütfən texniki komandamızla əlaqə saxlayın.",
+    "heroDesc": "Xüsusiyyətlər, ölçülər və tətbiq sahələrini kəşf edin. Ətraflı məlumat üçün Texniki Məlumat Vərəqəsini yükləyin.",
+    "articleNumbers": "Məhsul Nömrələri",
+    "technicalSpecs": "Texniki Spesifikasiyalar",
+    "videoGuide": "K Aqua Video-Təlimat",
+    "localAvailability": "Yerli Mövcudluq",
+    "localDesc": "Bölgəniz üçün yerli dilerləri, xüsusi icazələri və standartları tapın.",
+    "allMarkets": "Bütün 50+ Bazara bax",
+    "titleGrad": "İçməli su.",
+    "ctaCatalog": "Məhsul Kataloqu (PDF)",
+    "ctaVideos": "Quraşdırma Videoları",
+    "sysEyebrow": "Sistem",
+    "sysTitle": "K-Aqua PP-R Borular və Fitinqlər: Dörd tikinti bloku, bir sistem.",
+    "range": [
+      {
+        "t": "Borular: Mono və Çoxqatlı (Multilayer)",
+        "d": "SDR 6, 7.4, 9, 11 və 17-də təkqatlı (monolayer) və şüşə liflə gücləndirilmiş çoxqatlı borular. Ölçülər 20 mm-dən 630 mm-ə qədər."
+      },
+      {
+        "t": "Formalar və Armaturlar",
+        "d": "20 mm-dən 315 mm-ə qədər fitinqlər, ventillər, muftalar və keçidlərlə tamamlanır."
+      },
+      {
+        "t": "Qaynaq Texnologiyası və Alət",
+        "d": "Mufta, uc-uca (butt) və elektrofüzyon qaynaq prosesləri üçün kəsmə alətləri, qaynaq cihazları və qaynaq maşınları."
+      },
+      {
+        "t": "İsti və Soyuq su",
+        "d": "Onilliklər boyu yüksək temperatur və təzyiq müqaviməti ilə içməli su (isti və soyuq) üçün nəzərdə tutulmuşdur."
+      }
+    ],
+    "techEyebrow": "Texniki Məlumatlar",
+    "techTitle": "Ölçülər və Təzyiq dərəcələri",
+    "techLead": "Boru tipinə görə 20 mm-dən 630 mm-ə qədər, formalar 315 mm-ə qədər.",
+    "ctaFeatures": "Məhsul xüsusiyyətləri (PDF)",
+    "tableHead": [
+      "Komponent",
+      "Ölçü",
+      "Təzyiq dərəcələri"
+    ],
+    "tableRows": [
+      [
+        "Təkqatlı (Monolayer) Borular",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Çoxqatlı Borular (Şüşə lifli GF)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Formalar",
+        "20 – 315 mm",
+        "sistemə uyğun"
+      ],
+      [
+        "Ventillər və Muftalar",
+        "sistemdən asılı olaraq",
+        "-"
+      ],
+      [
+        "Qaynaq Texnologiyası və Alətlər",
+        "bütün ölçülər",
+        "-"
+      ]
+    ],
+    "seoArticle": {
+      "pipes": {
+        "areas": "İçməli su quraşdırılması, İstilik sistemləri, İqlim texnologiyası, Sənaye obyektləri, Gəmiqayırma",
+        "advTitle": "Hər layihə üçün üstün boru kəməri texnologiyası",
+        "advList": [
+          "Korroziya yoxdur: Çuxur korroziyasına və pasa qarşı 100% davamlıdır.",
+          "Aşağı təzyiq itkisi: Son dərəcə hamar daxili səth sürtünməni minimuma endirir və nasos enerjisinə qənaət edir.",
+          "Uzunömürlülük: Davamlı istifadədə 50 ildən çox texniki xidmət olmadan istismar müddəti.",
+          "Səs-küyün azaldılması: Axın səsinə qarşı əla səs izolyasiyası.",
+          "Gigiyenik: Ən sərt beynəlxalq içməli su standartlarına (DVGW, KIWA) cavab verir."
+        ],
+        "seoText": "Yüksək performanslı borularımız ən yüksək keyfiyyət standartlarına uyğun olaraq Waldsolms-da istehsal olunur. PP-R və PPRCT material kombinasiyası müstəsna temperatur və təzyiq müqavimətini təmin edir. İstər ev texnologiyalarında, istər sənaye müəssisələrinin inşasında, istərsə də mürəkkəb soyutma sistemlərində, bu boru sistemi maksimum təhlükəsizlik və səmərəlilik təqdim edir. Sadə və təhlükəsiz qaynaq texnologiyası mütləq şəkildə sızdırmaz birləşmələrə zəmanət verir.",
+        "guideTitle": "Hərtərəfli Bələdçi: K Aqua PP-R və PPRCT Boru Sistemlərinin Planlaşdırılması və Quraşdırılması",
+        "guideText": "<h2>Hərtərəfli Bələdçi: K Aqua PP-R və PPRCT Boru Sistemlərinin Planlaşdırılması, Material Elmi və Quraşdırılması</h2><p>Düzgün boru materialının seçilməsi müasir bina və sənaye infrastrukturlarının uzunömürlülüyü, əməliyyat təhlükəsizliyi və enerji səmərəliliyi üçün həlledici təməldir. Almaniyada (Waldsolms) istehsal edilən <span class=\"font-semibold\">PP-R və PPRCT boru sistemlərimiz</span> mükəmməl termal, kimyəvi və mexaniki xüsusiyyətləri sayəsində mis, polad və ya latundan hazırlanmış ənənəvi metal borulara gələcəyə hesablanmış alternativ təqdim edir.</p><p>İstər içməli su və istilik şəbəkələri üçün ev texnologiyasında, istər sənaye zavod inşasında, istər soyutma sistemlərində, istərsə də gəmiqayırmada olsun, K Aqua boruları kompromissiz alman mühəndislik sənətini təmsil edir və onilliklər boyu mütləq sızdırmaz və texniki xidmət tələb etməyən istismara zəmanət verir.</p><h2>Material İnnovasiyası: PP-R və PPRCT birbaşa müqayisədə</h2><p>Standart Polipropilen Təsadüfi Kopolimer (PP-R) korroziyaya davamlılıq və gigiyena baxımından artıq mükəmməl xüsusiyyətlərə malik olsa da, daha da inkişaf etdirilmiş PPRCT boru kəməri texnologiyasında yeni standartlar müəyyən edir. Polimerləşmə prosesində kristal strukturun məqsədyönlü modifikasiyası vasitəsilə PPRCT 95°C-yə qədər yüksək istismar temperaturlarında əhəmiyyətli dərəcədə daha yüksək təzyiqə davamlılıq təklif edir.</p><p>Bu material texnologiyası üstünlüyü eyni nominal təzyiqdə daha nazik divarlı boruların istehsalına imkan verir:</p><ul><li><span class=\"font-semibold\">Artırılmış Hidravlik Axın:</span> Daha böyük daxili diametr, axın həcmini 17%-ə qədər artırır.</li><li><span class=\"font-semibold\">Azaldılmış Boru Çəkisi:</span> Materiala qənaət daşınma və idarəetməni asanlaşdırır.</li><li><span class=\"font-semibold\">Daha yüksək Təzyiq Ehtiyatları:</span> Davamlı isti su istifadəsində pik yüklənmələrdə belə maksimum təhlükəsizlik.</li></ul><h2>Homogen Polifüzyon Qaynağı</h2><p>Qaynaq prosesi zamanı borunun ucu və fitinq 260°C-yə qədər qızdırılır və molekulyar səviyyədə bir-birinə tamamilə keçir. Soyuduqdan sonra tikişlər, yapışdırıcılar və ya elastik contalar olmadan homogen, monolit material quruluşu yaranır.</p>",
+        "seoTitle": "PP-R və PPRCT Boru Sistemlərinin İcmalı",
+        "faq": [
+          {
+            "q": "Boru kəməri sistemlərində PPRCT-ni ənənəvi PP-R-dən fərqləndirən nədir?",
+            "a": "PPRCT (Modifikasiya edilmiş Kristallaşma Temperaturu müqavimətinə malik Polipropilen Təsadüfi Kopolimer) xüsusi modifikasiya edilmiş kristal quruluşa malikdir ki, bu da yüksək istismar temperaturlarında daha yüksək təzyiq müqavimətinə imkan verir. Nəticədə eyni nominal təzyiqdə daha nazik divarlı borulardan istifadə edilə bilər ki, bu da daxili diametri və hidravlik axın qabiliyyətini 17%-ə qədər artırır."
+          },
+          {
+            "q": "K-Fiber fibrinlə gücləndirilmiş kompozit texnologiyası termal boyuna genişlənməni necə azaldır?",
+            "a": "Bizim K-Fiber borularımızda şüşə liflə gücləndirilmiş polipropilendən ibarət inteqrasiya olunmuş orta qat var. Bu qat borunu mexaniki cəhətdən sabitləşdirir və genişlənmə əmsalını təqribən 0,035 mm/(m·K)-ə endirir. Bu, standart plastik borularla müqayisədə termal boyuna genişlənmənin 75% azalması deməkdir."
+          },
+          {
+            "q": "K Aqua PP-R boru sistemləri içməli su üçün sertifikatlaşdırılıbmı?",
+            "a": "Bəli, K Aqua boru sistemləri DVGW, KIWA və WRAS kimi beynəlxalq sertifikatlaşdırma orqanlarının ən sərt sınaq və gigiyena tələblərinə cavab verir. Material tamamilə zərərsizdir, dad və qoxu baxımından neytraldır və kalsifikasiya və biofilm əmələ gəlməsinin effektiv şəkildə qarşısını alır."
+          },
+          {
+            "q": "Tamamilə sızdırmaz bir qaynaq bağlantısı necə yaradılır?",
+            "a": "Bağlantı 260°C-də termal polifüzyon vasitəsilə həyata keçirilir. Boru və fitinq molekulyar səviyyədə birləşərək homogen, ayrılmaz bir vahidə çevrilir. Xətaya meyilli rezin contalardan (O-halqalar) və ya pres fitinqlərindən istifadə edilmədiyi üçün qaynaq tikişi 50 ildən çox müddət ərzində tamamilə sızdırmaz qalır."
+          },
+          {
+            "q": "K Aqua boruları üçün hansı təzyiq dərəcələri və ölçülər mövcuddur?",
+            "a": "K Aqua, SDR 6, SDR 7.4, SDR 9 və SDR 11 (PN10-dan PN25-ə qədər) təzyiq dərəcələrində və 20 mm-dən 250 mm-ə qədər xarici diametrlərdə boru sistemləri təklif edir. Bu həm zərif (kiçik) mərtəbə paylamalarını, həm də kütləvi (böyük) magistral və şaquli (steigleitungen) xətləri reallaşdırmağa imkan verir."
+          }
+        ]
+      },
+      "fittings": {
+        "areas": "İçməli su şəbəkəsi, Santexnika quraşdırması, Sənaye paylaması, İstilik sistemləri",
+        "advTitle": "Təhlükəsiz və homogen birləşmələr",
+        "advList": [
+          "Homogen Qaynaq: Boru və fitinq ayrılmaz bir vahidə çevrilir.",
+          "Contalara ehtiyac yoxdur: Qalıcı birləşmə xətaya meyilli O-halqaları tələb etmir.",
+          "Asan Quraşdırma: Tikinti sahəsində sürətli və təhlükəsiz emal.",
+          "Tam Axın: Kesit (kəsik) daralması yoxdur, buna görə də sistem təzyiqi qorunur.",
+          "Kimyəvi Müqavimət: Müxtəlif aqressiv mühitlərə davamlıdır."
+        ],
+        "seoText": "K Aqua formaları etibarlı boru şəbəkələri üçün əlaqə rolunu oynayır. Almaniyada istehsal olunan bu fitinqlər ən yüksək dəqiqlik və ölçü sabitliyi təklif edir. Qaynaq texnologiyası yalnız bir neçə saniyə çəkir və borunun özü kimi güclü olan bir birləşməyə qədər soyuyur.",
+        "guideTitle": "Texniki Təlimat: K Aqua formaları ilə təhlükəsiz birləşmələr",
+        "guideText": "<p>Fittings (formalar) hər bir mürəkkəb boru şəbəkəsinin ürəyidir. Yüksək keyfiyyətli <span class=\"font-semibold\">K Aqua PP-R formaları</span> ilə siz ən yüksək təzyiqlərə və temperaturlara tab gətirən quraşdırmalar həyata keçirə bilərsiniz.</p>",
+        "seoTitle": "Plastik Fitinqlər və Formalar"
+      },
+      "valves": {
+        "areas": "Xəttin (şaxənin) bağlanması, Sistem nəzarəti, Paylayıcı şkaflar, Sənaye",
+        "advTitle": "Dəqiq nəzarət və uzunömürlü funksiya",
+        "advList": [
+          "Texniki xidmətsiz: Mexanika onilliklər boyu rəvan fəaliyyət üçün nəzərdə tutulmuşdur.",
+          "Tam keçid (axın): Tam kəsikli kürəvi klapanlar təzyiq itkilərini minimuma endirir.",
+          "Asan İnteqrasiya: Birbaşa PP-R sisteminə qaynaq edilə bilər.",
+          "Yüksək keyfiyyətli materiallar: Korroziyaya davamlı ərintilərdən hazırlanmış klapan oturacaqları və kürələr.",
+          "Təhlükəsiz bağlama: Ekstremal təzyiq və temperatur dəyişikliklərində belə 100% sızdırmaz."
+        ],
+        "seoText": "K Aqua-nın bağlama klapanları və ventilləri sübut edilmiş PP-R qaynaq texnologiyasını yüksək keyfiyyətli mexaniki komponentlərlə birləşdirir.",
+        "guideTitle": "Mütəxəssis Məsləhəti: K Aqua ventilləri və armaturları ilə sistem nəzarəti",
+        "guideText": "<p>Müasir su və istilik şəbəkələrində material axınlarının dəqiq idarə edilməsi və izolyasiyası zəruridir.</p>",
+        "seoTitle": "Bağlama klapanları və Kürəvi klapanlar"
+      },
+      "weldInSaddles": {
+        "areas": "Sonradan edilən şaxələnmələr, Boru şəbəkəsinin genişləndirilməsi, Paylayıcı quruluş",
+        "advTitle": "Maksimum çeviklik üçün Weld-in Saddles (Qaynaq Səhələri)",
+        "advList": [
+          "Sonradan quraşdırma: Mövcud PP-R boru şəbəkələrinin əsas borunu kəsmədən genişləndirilməsi.",
+          "Vaxta qənaət: Qazmaq, qızdırmaq, qaynaq etmək, bir neçə dəqiqə ərzində hazırdır.",
+          "Təzyiqə davamlı: Səhə qaynağı əsas boru ilə eyni təzyiq dərəcəsinə çatır.",
+          "Tam Axın: Əsas xəttdə kəsik daralması yoxdur.",
+          "Çox yönlü: Metal yivli keçid (daxili/xarici yiv) ilə və ya olmadan mövcuddur."
+        ],
+        "seoText": "Qaynaq Səhələri mövcud boru kəmərlərində sonradan edilən şaxələnmələr üçün mükəmməl həlldir.",
+        "guideTitle": "Quraşdırma təlimatı: Qaynaq səhələri (Weld-in Saddles) vasitəsilə çeviklik",
+        "guideText": "<p>Səhələrin qaynaq edilməsi quraşdırmanı asanlaşdırır.</p>",
+        "seoTitle": "Boru kəmərləri üçün qaynaq səhələri"
+      },
+      "accessories": {
+        "areas": "Borunun bərkidilməsi, Möhürləmə (Dichtungen), Flanş bağlantısı, Təmir",
+        "advTitle": "Standartlara uyğun quraşdırma üçün Aksesuarlar",
+        "advList": [
+          "Mükəmməl uyğunluq: Bütün aksesuarlar həndəsi olaraq K Aqua boru sisteminə uyğunlaşdırılmışdır.",
+          "Termodinamik bərkitmə: Sabit və sürüşən dayaqlar üçün rezin içlikli boru sıxacları.",
+          "Yüksək keyfiyyətli flanş birləşmələri: Metala keçid üçün sərbəst flanşlar və EPDM contalar.",
+          "Sürətli Təmir: Səhvən deşilmiş borular üçün təmir tıxacları.",
+          "UV Müqaviməti: Seçilmiş aksesuarlar açıq havada quraşdırma üçün xüsusi olaraq stabilləşdirilmişdir."
+        ],
+        "seoText": "Düzgün Aksesuar çeşidi boru şəbəkəsinin uzunömürlülüyü üçün həlledicidir.",
+        "guideTitle": "Mütəxəssis Məsləhəti: Standartlara uyğun quraşdırmalar üçün K Aqua Aksesuarları",
+        "guideText": "<p>Yüksək keyfiyyətli boru sistemi həmçinin yüksək keyfiyyətli aksesuarlar tələb edir.</p>",
+        "faq": [
+          {
+            "q": "Aksesuarlar soyuq və isti su üçün uyğundurmu?",
+            "a": "Bəli, boru sıxacları və düz contalar kimi aksesuarlarımız soyuq su, isti su və istilik sistemlərində istifadə üçün nəzərdə tutulub və əla termal sabitliyə malikdir."
+          },
+          {
+            "q": "Üçüncü tərəf istehsalçılarının aksesuarlarından istifadə edə bilərəmmi?",
+            "a": "K Aqua sisteminə tam zəmanət almaq üçün orijinal aksesuarlardan istifadə etmək zəruridir. Xarici komponentlər sızdırmazlıq problemlərinə və ya mexaniki nasazlıqlara səbəb ola bilər."
+          },
+          {
+            "q": "Sənaye istifadəsi üçün xüsusi aksesuarlar varmı?",
+            "a": "Bəli, çeşidimizə polad nüvəli ağır yüklərə davamlı sərbəst flanşlar, EPDM xüsusi contalar və ekstremal sənaye yüklərinə asanlıqla tab gətirən gücləndirilmiş boru sıxacları daxildir."
+          }
+        ],
+        "seoTitle": "Boru quraşdırılması üçün aksesuarlar"
+      },
+      "tools": {
+        "areas": "İlkin yığım (Vorfertigung), Tikinti sahəsində montaj, Təmir, Xüsusi tətbiqlər",
+        "advTitle": "Mükəmməl bağlantı üçün ən yüksək dəqiqlik",
+        "advList": [
+          "Dəqiq temperatur nəzarəti: Mikroprosessorla idarə olunan qızdırıcı elementlər 260°C-ni dəqiq saxlayır.",
+          "Yapışmayan Örtük: Qalıqsız ərimə üçün Teflon-PTFE.",
+          "Erqonomik Dizayn: Quraşdırıcının fiziki gərginliyini azaldır.",
+          "Rəqəmsal Sənədləşdirmə: Protokol funksiyası olan uc-uca və elektrofüzyon qaynaq maşınları.",
+          "Uzunömürlülük: Kobud tikinti sahəsi şərtləri üçün möhkəm mexanika."
+        ],
+        "seoText": "K Aqua alət çeşidi boru sistemlərimizin peşəkar emalı üçün əvəzolunmaz əsasdır.",
+        "guideTitle": "Praktik bələdçi: K Aqua boru montajı üçün peşəkar alətlər",
+        "guideText": "<p>Plastik boruların quraşdırılmasının keyfiyyəti istifadə olunan alətlərin dəqiqliyindən asılıdır.</p>",
+        "seoTitle": "Qaynaq alətləri və Boru kəsiciləri"
+      },
+      "fallback": {
+        "areas": "Universal quraşdırma texnologiyası, Tikinti sahəsinin ehtiyacları, Sistem əlavələri",
+        "advTitle": "Mükəmməl Sistem Əlavəsi",
+        "advList": [
+          "Təsdiq edilmiş keyfiyyət: ISO 9001 İdarəetmə sisteminə uyğundur.",
+          "Sistem uyğunluğu: K Aqua boru sisteminə mükəmməl şəkildə uyğunlaşdırılıb.",
+          "Uzunömürlülük: Çətin tikinti sahəsi üçün möhkəm materiallar.",
+          "Təhlükəsiz tətbiq: Peşəkar istifadə edildikdə zəmanətli funksiya.",
+          "Səmərəlilik: Əla qiymət-performans nisbəti."
+        ],
+        "seoText": "Bir sistem təchizatçısı olaraq K Aqua təkcə boru və formaları deyil, eyni zamanda bütün lazımi alət və aksesuarları da təqdim edir."
+      }
+    },
+    "labels": {
+      "applicationAreas": "Tətbiq Sahələri",
+      "advantages": "Üstünlüklərinizin icmalı",
+      "technicalDescription": "Texniki Profil və SEO",
+      "noResults": "Məhsul tapılmadı",
+      "searchPlaceholder": "Başlıq və ya məhsul nömrəsi (artikul) ilə axtarış edin...",
+      "faqTitle": "Tez-tez verilən suallar (FAQ)",
+      "faqFallbackQ1": "Əsas üstünlükləri nələrdir?",
+      "faqFallbackA1": "Sistem həddindən artıq uzunömürlülük, korroziyaya davamlılıq və içməli su üçün əla gigiyenik xüsusiyyətlər təklif edir.",
+      "faqFallbackQ2": "Material ətraf mühitə dostdurmu?",
+      "faqFallbackA2": "Bəli, PPRCT 100% təkrar emal oluna bilər və metal borularla müqayisədə çox aşağı CO2 izinə malikdir.",
+      "faqFallbackQ3": "Quraşdırma necə həyata keçirilir?",
+      "faqFallbackA3": "Quraşdırma Polifüzyon-Qaynağı vasitəsilə təhlükəsiz və sızdırmaz şəkildə həyata keçirilir.",
+      "downloads": "Yükləmələr və Sənədlər",
+      "tds": "Texniki Məlumat Vərəqəsi",
+      "tdsDesc": "Spesifikasiyalar və Ölçülər (PDF)",
+      "cert": "Sertifikatlar və Standartlar",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "Quraşdırma Bələdçisi",
+      "installDesc": "Qaynaq üzrə təlimat (PDF)",
+      "range": "Məhsul Çeşidi",
+      "rangeDesc": "Ölçülərlə birlikdə tam məhsul proqramı (PDF)",
+      "features": "Məhsul Xüsusiyyətləri",
+      "featuresDesc": "Material xüsusiyyətləri və Sistem üstünlükləri (PDF)"
+    },
+    "specAndDim": "Spesifikasiyalar və Ölçülər",
+    "certsAndNorms": "Sertifikatlar və Standartlar",
+    "approved": "təsdiqləndi",
+    "monitoring": "nəzarət edilir",
+    "certified": "sertifikatlaşdırıldı",
+    "quickLinks": "Sürətli Giriş (Quick Links)",
+    "calcCo2": "CO2-İzini hesablayın",
+    "backToFinder": "Məhsul axtarıcıya qayıt",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "Yüksək Performanslı Boru Sistemləri",
+    "highPerformanceDesc": "Sənaye tətbiqləri, içməli su təchizatı və ekstremal şəraitdə iqlimə nəzarət üçün.",
+    "sysPressure": "Sistem Təzyiqi",
+    "tempMax": "Maks. Temperatur",
+    "material": "Material",
+    "norm": "Standart",
+    "certification": "Sertifikatlaşdırma",
+    "lifespan": "İstismar müddəti (Ömrü)",
+    "fiberTech": "Fiber-Kompozit Texnologiyası",
+    "fiberTechDesc": "Boya (uzunluğuna) genişlənməni minimuma endirmək və yüksək temperaturlarda maksimum sabitlik üçün 3 qatlı struktur.",
+    "compliance": "Uyğunluq və Standartlar",
+    "dimensions": "Ölçülər",
+    "globalNetwork": "Qlobal Şəbəkə",
+    "globalNetworkDesc": "K Aqua sistemləri dünya üzrə 40-dan çox ölkədə istifadə olunur.",
+    "whyChoose": "Niyə {product} düzgün seçimdir",
+    "sysLead": "Kataloqumuzun təməli: İnteqrasiya edilmiş sistemin dörd tikinti bloku. Borular, fitinqlər, armaturlar və alətlər PP-R və PP-RCT-dən ibarət vahid sistem yaradır.",
+    "tools": {
+      "metaTitle": "Boru sistemləri üçün PP-R Alətləri və Aksesuarları",
+      "metaDesc": "Peşəkar K-Aqua alətləri və aksesuarlarını kəşf edin. PP-R və PP-RCT boru sistemlərinin təhlükəsiz, səmərəli və uzunömürlü quraşdırılması üçün.",
+      "heroEyebrow": "Alman Mühəndisliyi",
+      "heroTitle": "Alətlər və Aksesuarlar.",
+      "heroSubtitle": "Mütləq Dəqiqlik.",
+      "heroDesc": "Bu modul dünya miqyasında ən tələbkar layihələr üçün kompromissiz təhlükəsizlik təmin edir. Nəsillərə xidmət etmək üçün ən sərt sənaye standartlarına uyğun istehsal edilmişdir. Material çatışmazlığının seçim olmadığı yerlərdə.",
+      "heroBtnPrimary": "Layihə sorğusu göndər",
+      "heroBtnSecondary": "Texniki Məlumatlar",
+      "bentoEyebrow": "K Aqua Ekosistemi",
+      "bentoTitle": "Qlobal meqalayihələr üçün alətlər.",
+      "bentoLead": "Beynəlxalq baş podratçılar milyard dollarlıq layihələri planlaşdırarkən, vədlərə deyil, sərt faktlara və yüksək dəqiqlikli avadanlıqlara etibar edirlər.",
+      "bento1Title": "Qızdırıcı elementli mufta qaynaq maşınları",
+      "bento1Desc": "20 mm-dən 125 mm-ə qədər ölçülər üçün. Çətin tikinti sahəsi üçün yığcam, möhkəm dizayn.",
+      "bento2Title": "Boru kəsicilər və qayçılar",
+      "bento2Desc": "Yorulmadan işləmək və mükəmməl 90° kəsiklər üçün erqonomik dizaynlar.",
+      "bento3Title": "Uc-uca (Butt) qaynaq maşınları",
+      "bento3Desc": "250 mm-ə qədər nominal ölçülər üçün. Mütləq təkrarlanma dəqiqliyi üçün CNC ilə idarə olunur.",
+      "bento4Title": "Təmir dəstləri və Aksesuarlar",
+      "bento4Desc": "Sonrakı şaxələnmələr üçün qazma başlıqları, təmir səhələri və deşik mişarları.",
+      "scrollEyebrow": "Dərin Texnologiya",
+      "scrollTitle": "Xəta tolerantlığı üçün yer yoxdur.",
+      "scrollLead": "Alətimizi təsdiq edilmiş quraşdırıcılar üçün bir nömrəli seçim edən texnoloji detalları kəşf edin.",
+      "scroll1Title": "Mükəmməl Termodinamika. Hər bir qaynaqda.",
+      "scroll1Desc": "Bizim qızdırıcı elementli mufta qaynaq cihazlarımız yüksək dəqiqlikli, teflonla örtülmüş qızdırıcı mandrel (oxlar) və qızdırıcı muftalarla təchiz edilmişdir. Mikroprosessorla idarə olunan temperatur nəzarəti, qlobal tikinti sahələrindəki ekstremal açıq hava temperaturlarında belə 260°C sabit qaynaq temperaturuna zəmanət verir. Bu, molekulyar səviyyədə ayrılmaz, homogen bir bağ yaradır.",
+      "scroll2Title": "CNC ilə idarə olunan uc-uca qaynaq.",
+      "scroll2Desc": "Böyük nominal diametrlər üçün (250 mm və daha çox) biz CNC ilə idarə olunan uc-uca qaynaq maşınlarına etibar edirik. Avtomatik təzyiq və vaxt hesablaması insan xətası mənbələrini aradan qaldırır. Qəbul (yoxlama) zamanı qüsursuz izlənilməsini təmin etmək üçün hər bir qaynaq dövrü rəqəmsal olaraq qeyd olunur. Ən yüksək səviyyədə Alman mühəndisliyi.",
+      "scroll3Title": "Dəqiq boru soyucular. Millimetrinə qədər dəqiq.",
+      "scroll3Desc": "Hazırlıq qaynağın 80%-dir. Mexanik və elektrik boru soyucularımız K Aqua borularından oksid təbəqəsini mütləq bərabər kəsim dərinliyi ilə çıxarır. Bu, mikroçatların qarşısını alır və mükəmməl füzyon səviyyəsini yaradır. Nəsillərə qalan bir alət.",
+      "scroll4Title": "Dəqiq kəsiklər üçün soyuq dairəvi mişarlar.",
+      "scroll4Desc": "Boru kəsiciləri materialı deformasiya edə bilər. Bizim sənaye soyuq dairəvi mişarlarımız mükəmməl düzbucaqlı, çapıqsız kəsiklərə zəmanət verir. Nəticə: Gərginlikdən yaranan çatlar yoxdur, təzyiq itkisi yoxdur, qaynaq prosesindən əvvəl mütləq səth paralelliyi.",
+      "timelineTitle": "K Aqua Qaynaq Prosesi",
+      "timelineDesc": "Kəsimdən molekulyar füzyona qədər. 100% sızdırmaz və texniki xidmət tələb etməyən boru sistemlərinə aparan standartlaşdırılmış proses.",
+      "timeline1Year": "Mərhələ 1: Material hazırlığı",
+      "timeline1Title": "Mükəmməl kəsim.",
+      "timeline1Text": "Çapıqsız, 90 dərəcəlik bir kəsik hər bir qalıcı bağlantının təməlidir. Bizim dəqiq kəsicilərimiz və soyuq dairəvi mişarlarımız polipropilenin mikrosturktural deformasiyaları olmadan mütləq düz bir səthə zəmanət verir.",
+      "timeline2Year": "Mərhələ 2: Kalibrləmə və Soyma",
+      "timeline2Title": "Oksid təbəqəsinin çıxarılması.",
+      "timeline2Text": "Qaynaq etməzdən əvvəl boru dəqiq kalibrlənir və xarici oksid təbəqəsi bizim xüsusi soyma alətlərimizlə millimetrinə qədər kəsilir. Bu, füzyon prosesi üçün 100% təmiz səth yaradır.",
+      "timeline3Year": "Mərhələ 3: Termal Füzyon",
+      "timeline3Title": "Molekulyar birləşmə.",
+      "timeline3Text": "Boru və fitinq eyni vaxtda teflonla örtülmüş qızdırıcı matris üzərində tam olaraq 260°C-yə qədər qızdırılır. K Aqua qaynaq cihazlarının mikroprosessorla idarə olunan termostatı, küləkdən və ya hava şəraitindən asılı olmayaraq, temperaturu sabit saxlayır.",
+      "timeline4Year": "Mərhələ 4: Bağlantı",
+      "timeline4Title": "Ömür boyu Təhlükəsizlik.",
+      "timeline4Text": "Göstərilən keçid müddəti ərzində qızdırılan komponentlər bükülmədən bir-birinə daxil edilir. Soyutma mərhələsindən sonra yeni, tamamilə homogen bir iş parçası (vahid boru) yaranır. 50 ildən çox müddətə texniki xidmət tələb etmir.",
+      "specsTitle": "Sənaye Nüfuzu. <br/> Ən xırda detallara qədər.",
+      "specsP1": "Onilliklər ərzində Almaniyanın mərkəzindəki əsas zavodumuzda sənətkarlıq qürurunu ən müasir, yüksək səviyyədə avtomatlaşdırılmış istehsalat texnologiyası ilə birləşdirmişik.",
+      "specsP2": "Dünyanın ən sərt səhralarında və ekstremal iqlim zonalarında istifadə olunan materialımız hər gün özünü yenidən sübut edir. Biz bütün dünyanın izlədiyi standartı müəyyən edirik.",
+      "specsList1": "ISO 9001 sertifikatlı",
+      "specsList2": "A Dərəcəli Teflon PTFE Örtük",
+      "specsList3": "Rəqəmsal Temperatur Kalibrlənməsi",
+      "ctaTitle": "Kompromissiz keyfiyyətə hazırsınız?",
+      "ctaDesc": "Növbəti meqalayihəniz barədə mühəndis qrupumuzla danışın və alətlərimizin nümunələrini tələb edin.",
+      "ctaBtn": "Layihə sorğusuna başlayın",
+      "hero": {
+        "eyebrow": "Alətlər və Aksesuarlar",
+        "title": "PP-R Quraşdırılması üçün Qaynaq Alətləri",
+        "lead": "Mufta qaynaq cihazları, qızdırıcı spiral texnologiyası və kalibrləmə aləti: K Aqua orijinal alətləri ilə istənilən tikinti sahəsində standartlara uyğun, daimi olaraq sızdırmaz qaynaq birləşmələri yaradılır. PP-R quraşdırılması üçün peşəkar alətlər."
+      }
+    },
+    "valves": {
+      "metaTitle": "Boru sistemləri üçün PP-R Armaturlar və Ventillər",
+      "metaDesc": "K-Aqua-dan yüksək keyfiyyətli armaturları və ventilləri kəşf edin. Tələbkar boru şəbəkələri üçün Alman Mühəndisliyi vasitəsilə maksimum təhlükəsizlik və uzunömürlülük.",
+      "heroEyebrow": "Armatur Sinfi",
+      "heroTitle": "Mütləq Nəzarət.",
+      "heroSubtitle": "Ən Yüksək Təzyiq Altında.",
+      "heroDesc": "Maye dinamikasının üst liqasına xoş gəlmisiniz. K Aqua ventilləri və armaturları sadəcə komponentlər deyil. Onlar qlobal infrastrukturun sarsılmaz qəlbidir. Əbədiyyət üçün yaradılıb.",
+      "heroBtnPrimary": "Texnologiyanı soruşun",
+      "heroBtnSecondary": "Memarlığı kəşf edin",
+      "manifestoTitle": "Material təslim olanda sistem çökür. <br/><span class=\"text-primary\">Biz təslim olmuruq.</span>",
+      "manifestoP1": "Sənaye axın texnologiyasında, ventil heç vaxt mayelər üçün sadəcə bir açar (switch) deyil. Bu, kinetik enerjinin, həddindən artıq təzyiqin, termal genişlənmənin və kimyəvi aqressivliyin toqquşduğu kritik bir düyündür.",
+      "manifestoP2": "Banallıq, kütləvi məhsullar əsl mühəndislik sənətindən məhz burada ayrılır. Armaturlarımız kütləvi şəkildə böyük ölçülüdür, paranoik dərəcədə dəqiq hazırlanmışdır və digər istehsalçıların \"qeyri-mümkün\" adlandıracağı ssenarilər üçün qurulmuşdur. Biz <span class=\"text-foreground font-bold\">Alman Mühəndisliyini</span> belə anlayırıq.",
+      "scrollEyebrow": "Mükəmməlliyin Yaranması",
+      "scrollTitle": "Xammaldan məhv edilməz armatura qədər.",
+      "scrollLead": "K Aqua ventilinin yaranma prosesini müşayiət edin. İsti, təzyiq və mikroskopik dəqiqlikdən keçən güzəştsiz bir yol.",
+      "scroll1Title": "Qüsursuz Xammal",
+      "scroll1Desc": "Bizim ventillərimiz və armaturlarımız öz mövcudluğuna təmiz, sənaye tərəfindən sınaqdan keçirilmiş yüksək performanslı material kimi başlayırlar. Ciddi spektral analitik testlər vasitəsilə biz hələ ilk freze başlığından istifadə etməzdən əvvəl mikrostruktur cəhətdən mütləq heç bir zəif nöqtənin olmadığına zəmanət veririk. Bu, illərlə davam edən istismarda sonrakı mütləq korroziyaya davamlılıq və mexaniki bütövlük üçün mübahisəsiz təməldir.",
+      "scroll2Title": "Yüksək dəqiqlikli CNC emalı",
+      "scroll2Desc": "Hər bir komponent, mində bir millimetrdən az olan absurd tolerantlıqla zavodumuzdakı ən müasir 5 oxlu CNC emal mərkəzlərində qatı blokdan (bütöv parçadan) istehsal olunur. Bu kompromissiz dəqiqlik sızdırmazlıq səthlərinin bir-birinə mükəmməl uyğunlaşmasını təmin edir. O, sızma risklərini tamamilə aradan qaldırır və onilliklər keçsə belə, mütləq hamar, ipək kimi yumşaq və aşınmadan (yeyilmədən) azad bir əməliyyata zəmanət verir.",
+      "scroll3Title": "Kavitasiyasız (kavitationsfreie) axın",
+      "scroll3Desc": "Bir ventilin keyfiyyəti onun daxili axın profili qədərdir. Ən qabaqcıl hesablama mayelər dinamikasından (CFD) istifadə edərək daxili konturları elə tərtib etmişik ki, turbulans və kavitasiya praktiki olaraq mümkün deyil. Bu, bütün sistemdə daha az təzyiq itkisi və hətta ən yüksək axın sürətlərində belə mütləq səs-küyün minimuma endirilməsi deməkdir.",
+      "scroll4Title": "100% Yekun sınaq. İstisna yoxdur.",
+      "scroll4Desc": "Milyard dollarlıq infrastruktur risk altında olduqda seçmə sınaqlar kifayət etmir. Bir armatur K Aqua zavodundan çıxmazdan əvvəl, o, real yükləri dəfələrlə aşan tam avtomatlaşdırılmış robotlaşdırılmış sınaq dövründən keçir. Hidravlik yüksək təzyiq testləri, helium vakuum sızması testləri və termal şok testləri bizim əfsanəvi sıfır xəta dərəcəmizə zəmanət verir.",
+      "showcaseEyebrow": "Etibarlılığın Anatomiyası",
+      "showcaseTitle": "Zəif nöqtələr yoxdur. <br/> Kor nöqtələr (Tote Winkel) yoxdur.",
+      "showcaseP1": "Armaturlarımızın daxili memarlığı <span class=\"font-semibold\">Ölü sahədən (Totraumfreiheit) azad</span> olmağa ardıcıl olaraq diqqət yetirir. Legionella kimi bakteriyaların çoxala biləcəyi durğunluq zonaları (Stagnationszonen) həndəsi cəhətdən aradan qaldırılır.",
+      "showcaseP2": "Su ventilin gövdəsindən mükəmməl idarə olunan laminar axınla keçir. Böyük sızdırmaz oturacaqlar (Dichtsitze) öz-özünü təmizləyir və hətta milyonuncu dövrdən sonra belə hermetik şəkildə bağlanır.",
+      "showcaseList1": "Ən yüksək standartlara cavab verən təsdiqlənmiş içməli su gigiyenası",
+      "showcaseList2": "Maksimum iş təzyiqində hermetik sızdırmazlıq",
+      "showcaseList3": "İkiqat O-halqalı texniki xidmət tələb etməyən mil contaları (Spindelabdichtungen)",
+      "bentoEyebrow": "Spesifikasiyalar",
+      "bentoTitle": "Üstünlüyün çılpaq rəqəmləri.",
+      "bentoLead": "Marketinq ifadələri bitəndə məlumatlar danışır. Ventillərimizi meqalayihələr üçün son seçim edən texniki parametrləri kəşf edin.",
+      "bento1Title": "PN25 Daimi Təzyiq Yükü",
+      "bento1Desc": "Normadan kənar davamlı yüksək təzyiq tətbiqləri üçün nəzərdə tutulmuşdur. Divar qalınlığı və yiv (gewinde) konstruksiyaları o qədər möhkəmdir ki, həddindən artıq təzyiq zirvələrində (piklərdə) və su zərbələrində zərrə qədər belə güzəştə getmirlər. Təhlükəsizliyin monolit bloku.",
+      "bento2Title": "Termal Suverenlik",
+      "bento2Desc": "Buzlu soyuqdan qaynayan ilkin temperaturadək (vorlauftemperatur). Yüksək keyfiyyətli material tam elastikliyini saxlayır, qırılmır və termal genişlənməyə son dərəcə effektiv şəkildə müqavimət göstərir.",
+      "bento3Title": "Kimyəvi Müqavimət",
+      "bento3Desc": "Korroziya keçmişin bir anlayışıdır. Armaturlarımız aqressiv torpaq şərtlərinə, sərt sulara və xlor ehtiva edən dezinfeksiya tədbirlərinə qarşı immunitetlidir. Paslanma yoxdur, çuxur korroziyası yoxdur.",
+      "bento4Title": "Sənaye Erqonomikası və Haptika",
+      "bento4Desc": "Dizayn xam funksionallıqla qarşılaşır. Böyük əl təkərləri (handräder), kütləvi (ağır) qollar və dəqiq işlənmiş millər hətta ağır qoruyucu əlcəklərlə də bağlanarkən və açılarkən dərhal, toxunma və mütləq dəqiq geridönüş (feedback) təmin edir.",
+      "timelineEyebrow": "Sərtlik yolu.",
+      "timelineLead": "Kompromissiz keyfiyyət təminatının zaman çizelgəsi. Bir ideyanın necə sənaye əfsanəsinə çevrilməsi.",
+      "timeline1Year": "Mərhələ 01",
+      "timeline1Title": "Molekulyar Seçim",
+      "timeline1Text": "K Aqua üçün xüsusi olaraq formalaşdırılmış metal ərintilərin və yüksək performanslı polimerlərin seçimi. Biz mütləq sünməyə qarşı davamlılığa və maksimum molekulyar sabitliyə güvənirik.",
+      "timeline2Year": "Mərhələ 02",
+      "timeline2Title": "CFD Axının Optimallaşdırılması",
+      "timeline2Text": "Superkompüterlərin köməyi ilə daxili axın kanalları axın müqavimətini sıfıra endirmək üçün minlərlə iterasiyada hesablanır.",
+      "timeline3Year": "Mərhələ 03",
+      "timeline3Title": "İqlim Kamerası Stres Testi",
+      "timeline3Text": "Prototiplər iqlim kameralarımızda 120°C-yə qədər temperatur, 25 bar təzyiq və ekstremal kimyəvi məhlullarla aylarla davam edən sınaqlardan keçir.",
+      "timeline4Year": "Mərhələ 04",
+      "timeline4Title": "Robotik Seriyalı İstehsal",
+      "timeline4Text": "Yüksək avtomatlaşdırılmış Sənaye 4.0 istehsal xəttimizə köçürülmə. Biz insan xətası olmadan minimal tolerantlıqlarla maksimum reproduktivliyə nail oluruq.",
+      "timeline5Year": "Mərhələ 05",
+      "timeline5Title": "Qlobal Tətbiq",
+      "timeline5Text": "Sahə mühəndisliyi komandamızın müşayiəti ilə səhra meqalayihələrindən tutmuş dəniz qurğularına (offshore-anlagen) qədər dünyanın ən kritik tikinti sahələrində təminat.",
+      "finalTitle": "Nəsillər üçün inşa edin. <br/> Növbəti texniki xidmət intervalı üçün deyil.",
+      "finalDesc": "Gedərək sürətli köhnəlməyə və ucuz əvəzedici məhsullara güvənən dünyada biz polad qütb kimi dayanırıq. K Aqua armaturu quraşdırılır və sonra unudulur. Çünki o, sadəcə olaraq işləyir. Onilliklərlə. Əsl sənaye nüfuzuna etibar edin.",
+      "ctaTitle": "Mütləq nəzarətə hazırsınız?",
+      "ctaDesc": "Növbəti meqalayihənizin spesifikasiyaları haqqında baş mühəndislərimizlə danışın. Biz başqalarının hələ anlamadığı problemlərin həllini təqdim edirik.",
+      "ctaBtnPrimary": "Texniki Konsaltinq tələb edin",
+      "ctaBtnSecondary": "PDF formatında Spesifikasiyalar",
+      "hero": {
+        "eyebrow": "Ventillər və Armaturlar",
+        "title": "Dəqiq tənzimləmə üçün PP-R Armaturlar və Ventillər",
+        "lead": "Bağlamaq, tənzimləmək, qorumaq: PP-R-dən hazırlanan K Aqua armaturları, içməli su, isitmə, havalandırma, kondisioner (HLK) və sənaye üçün korroziyaya uğramayan hidravlikanı alman istehsalı dəqiqliyi ilə birləşdirir. İçməli su və istilik şəbəkələrində dəqiq tənzimləmə üçün."
+      }
+    },
+    "category": {
+      "allProducts": "Bütün Məhsullar",
+      "openInFinder": "Məhsul Axtarıcıda açın",
+      "artNA": "Art. N/A",
+      "viewDetails": "Məhsul detallarını göstər",
+      "learnMoreKnowledge": "Məlumat Portalıında PP-R Boru Sistemlərini kəşf edin",
+      "learnMoreDesc": "Texniki sənədlərə dərindən nəzər salın və PP-R sistemlərimizin quraşdırılması, davamlılığı və sınaqları barədə mütəxəssis məqalələrini kəşf edin.",
+      "toKnowledgeBase": "K-Aqua Akademiyasında mütəxəssis məqalələrini kəşf edin"
+    },
+    "fittings": {
+      "meta": {
+        "title": "Formalar və Fitinqlər | K Aqua",
+        "desc": "PP-R-dən K-Aqua formaları və fitinqləri: Dirskələr (bucaqlıq), T-birləşmələr (T-Stücke), reduksiyalar və muftalar. Alman Mühəndisliyi vasitəsilə kompromissiz sızdırmazlıq."
+      },
+      "hero": {
+        "eyebrow": "Formalar və Fitinqlər",
+        "title": "Daimi sızdırmaz birləşmələr üçün PP-R Fitinqlər və Formalar",
+        "lead": "Dirsəkdən reduksiyaya qədər: K Aqua PP-R fitinqləri qaynaq prosesi zamanı boru ilə molekulyar şəkildə birləşir. Contasız və zəif nöqtələrsiz homogen sistem. Hər bir boru şəbəkəsində daimi olaraq sızdırmaz birləşmələr üçün."
+      },
+      "intro": {
+        "eyebrow": "Sənaye Nüfuzu",
+        "title": "Təhlükəsizlik təsadüf deyil. Hesablana biləndir.",
+        "lead": "Beynəlxalq baş podratçılar milyard dollarlıq layihələri planlaşdırarkən, onlar vədlərə deyil, sərt faktlara etibar edirlər. Biz bütün dünyanın izlədiyi standartı müəyyən edirik.",
+        "text1": "Onilliklər ərzində biz Almaniyanın mərkəzindəki əsas zavodumuzda sənətkarlıq qürurunu ən müasir, yüksək səviyyədə avtomatlaşdırılmış istehsal texnologiyası ilə birləşdirdik. Hər bir dirsək (bucaqlıq), hər bir mufta, hər bir T-birləşməsi (T-Stück) alman mühəndislik sənətinin danılmaz DNT-sini daşıyır. Dünyanın ən sərt səhralarında, ekstremal iqlim zonalarında və ən tələbkar sənaye obyektlərində istifadə olunan materialımız hər gün özünü yenidən sübut edir.",
+        "text2": "PP-R sistemimizdə makromolekulların birləşməsi zəif nöqtələri olmayan bir boru kəməri şəbəkəsi yaradır. Korroziyaya uğraya bilən O-halqalar, kimyəvi maddələrin hücumuna məruz qalan yapışdırıcı yerlər (klebestellen) yoxdur. Boru və fitinq termal yolla tək, ayrılmaz bir hissəyə çevrilir. Bu, təhlükəsizliyin mütləq tərifidir."
+      },
+      "sticky": {
+        "eyebrow": "Mükəmməllik Memarlığı",
+        "title": "Etibarlılığın Anatomiyası.",
+        "lead": "Formalarımızı qlobal meyara çevirən fiziki və kimyəvi xüsusiyyətlərə dərindən nəzər salaq.",
+        "items": [
+          {
+            "title": "Molekulyar Quruluş",
+            "desc": "Fitinqlərimiz yüksək dərəcədə çarpaz bağlı (vernetzt) PP-R Polipropilen Təsadüfi Kopolimerə əsaslanır. Ekstruziya zamanı idarə olunan temperatur-təzyiq profilləri vasitəsilə biz izotropik kristal struktura nail oluruq. Nəticə: Gərginlik çatmalarına (Spannungsrisse) və ekstremal temperatur dalğalanmalarına qarşı misilsiz müqavimət."
+          },
+          {
+            "title": "Termoplastik Dəqiqlik",
+            "desc": "Hər bir forma, mikrometr diapazonunda boşluq (kavitet) tolerantlıqları olan termoplastik enjeksiyon qəlibləmə (spritzguss) prosesindən keçir. Bu, borularımızla qaynaq edərkən ərimə indekslərinin tamamilə eyni olmasını təmin edir, homogen, ayrılmaz və 100% sızdırmaz material bağlantısı yaradır."
+          },
+          {
+            "title": "Sıfır Xəta Tolerantlığı",
+            "desc": "Biz heç nəyi təsadüfə buraxmırıq. Ultrasəs divar qalınlığının ölçülməsi, hidrostatik daxili təzyiq sürünmə sınağı (zeitstandversuche) və DSC (Diferensial Skanedən Kalorimetriya) istifadə edərək, hər bir partiya analiz edilir. Yalnız daxili standartlarımızı (DIN EN ISO 15874-ü qat-qat üstələyən) keçən materiallar sərbəst buraxılır."
+          },
+          {
+            "title": "Kavitasiya Müqaviməti",
+            "desc": "Fitinqlərimizin axını optimallaşdıran daxili həndəsəsi, sənaye şaquli borularındakı (steigleitungen) ekstremal axın sürətlərində belə, təzyiqin düşməsinin və kavitasiyanın effektiv şəkildə qarşısını alır. Bu, səs-küy emissiyalarını minimuma endirir və sistemi aşındırıcı daxili yeyilmələrdən qoruyur."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Performans Məlumatları",
+        "title": "Standartdan kənar spesifikasiyalar.",
+        "lead": "Sənaye standartlara bir məqsəd kimi baxarkən, biz onları sadəcə olaraq mütləq minimum hesab edirik.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "İsti və soyuq su quraşdırılması üçün plastik boru sistemlərinə tam uyğunluq və sınaq."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Kritik temperaturlarda belə davamlı yüksək təzyiqə məruz qalmaq üçün nəzərdə tutulmuşdur."
+          },
+          {
+            "title": "Kimyəvi İnertlik",
+            "desc": "Aqressiv mühitlərə qarşı əla müqavimət. Sənaye istifadəsi üçün pH dəyərindən asılı olmayan (pH 1-dən 14-ə qədər)."
+          },
+          {
+            "title": "Akustik Dämpinq (Sönümləmə)",
+            "desc": "PP-R materialının özünəməxsus elastikliyi struktur tərəfindən daşınan səs-küyü udur və axın səsini mütləq minimuma endirir, lüks otellər və xəstəxanalar üçün idealdır."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Yaradılış (Genesis) Prosesi",
+        "desc": "Molekulyar xammaldan məhv edilməz komponentə qədər. Yüksək dərəcədə avtomatlaşdırılmış istehsal matrisimizə bir baxış.",
+        "items": [
+          {
+            "year": "Addım 01",
+            "title": "Qranul Seçimi",
+            "text": "Yalnız Avropanın premium emalı zavodlarından gələn ultra təmiz, əvvəlcədən sintez edilmiş polipropilen qranullar bizim giriş yoxlamamızdan keçir."
+          },
+          {
+            "year": "Addım 02",
+            "title": "Termal Kondisioner",
+            "text": "Enjeksiyondan əvvəl (Spritzguss), qalıq nəmi aradan qaldırmaq və homogen bir ərintiyə zəmanət vermək üçün qranullar termal olaraq stabilləşdirilir."
+          },
+          {
+            "year": "Addım 03",
+            "title": "Yüksək Təzyiqli Enjeksiyon (Spritzguss)",
+            "text": "Tam avtomatlaşdırılmış, robot dəstəkli enjeksiyon qəlibləmə (spritzguss) hüceyrələrində biz materialı böyük təzyiq altında qüsursuz fitinqlər halına gətiririk."
+          },
+          {
+            "year": "Addım 04",
+            "title": "Soyutma Matrisi",
+            "text": "Kompüterlə idarə olunan soyutma profili materialda daxili gərginliyin (innere spannungen) qarşısını alır və mükəmməl ölçü dəqiqliyini (maßhaltigkeit) təmin edir."
+          },
+          {
+            "year": "Addım 05",
+            "title": "Test (Sınaq) və Logistika",
+            "text": "Hər bir partiya öz rəqəmsal sertifikatını alır. Dünyanın ən tələbkar tikinti sahələrinə göndərilməyə hazırdır."
+          }
+        ]
+      },
+      "depth": {
+        "title": "İstismar müddəti > 50 İl. Zəmanətli.",
+        "text": "Zaman istənilən material üçün son stress testidir. Bizim fitinqlərimiz elə dizayn edilib ki, binanın öz ömrünü geridə qoyur. PP-R matrisimizə xüsusi antioksidanların və termal stabilizatorların əlavə edilməsi ilə termal-oksidləşdirici (thermisch-oxidative) qocalma (yaşlanma) kəskin şəkildə gecikdirilir. 70°C daimi gəliş (vorlauf) temperaturlarında və 10 bar təzyiq yüklərində belə, biz yarım əsrdən çox xidmət müddətinə zəmanət veririk. Bu marketinq deyil. Bu tətbiqi polimer fizikasıdır.",
+        "badge": "100% Texniki xidmət tələb etmir"
+      },
+      "cta": {
+        "title": "Kompromissiz keyfiyyətə hazırsınız?",
+        "desc": "Bizim mühəndis qrupumuzla əlaqə qurun. Biz sadəcə məhsul təqdim etmirik, növbəti meqalayihəniz üçün təhlükəsizlik təmin edirik.",
+        "primary": "Layihə sorğusuna başlayın",
+        "secondary": "Bütün çeşidə (sortimentə) baxın"
+      }
+    }
+  },
+  "solutions": {
+    "eyebrow": "Materialın üstünlükləri",
+    "title1": "Niyə Polipropilen (PP-R)?",
+    "title2": "Gələcəyin Materialı.",
+    "lead": "K Aqua boru sistemləri klassik metal boruları asanlıqla geridə qoyan yüksək molekulyar strukturlu PP-R (Polipropilen Random Kopolimer) və PP-RCT (Temperatur Müqaviməti Təkmilləşdirilmiş) materiallardan hazırlanır. Suyun gigiyenası, uzunömürlülük və quraşdırma səmərəliliyi baxımından bu plastik üstündür.",
+    "grid": [
+      {
+        "t": "Korroziyaya qarşı mütləq müqavimət",
+        "d": "Metallardan fərqli olaraq, PP-R suda, torpaqda və ya havadakı maddələrlə reaksiyaya girmir. Korroziya və ya kalsifikasiya (İnkrustasiya) yoxdur – hətta onilliklər sonra da tam boru kəsiyini qoruyur."
+      },
+      {
+        "t": "Termal izolyasiya qabiliyyəti",
+        "d": "Aşağı istilik keçiriciliyi (0.24 W/mK) suyun soyumasını və ya qızmasını yavaşladır. İsti su borularında enerji itkisini azaldır və soyuq su borularında kondensasiyanın qarşısını alır."
+      },
+      {
+        "t": "Gigiyena və içməli su təhlükəsizliyi",
+        "d": "PP-R qida üçün təhlükəsizdir və dad/qoxu baxımından neytraldır. Hamar daxili səthi bakteriyaların çoxalmasının və biofilmin yaranmasının qarşısını alır – təmiz, təhlükəsiz içməli su üçün."
+      },
+      {
+        "t": "Akustik izolyasiya",
+        "d": "Materialın səsboğucu xüsusiyyətləri suyun axını və hidravlik zərbələr nəticəsində yaranan səs-küyü əhəmiyyətli dərəcədə azaldır, binada yaşayış rahatlığını artırır."
+      },
+      {
+        "t": "Yüksək Təzyiq və Temperatur müqaviməti",
+        "d": "İşləmə şəraitinə görə, borular asanlıqla 70°C daimi temperatura (qısa müddətdə hətta 95°C) və yüksək daxili təzyiqlərə davam edir, ömrü isə 50 ildən çoxdur."
+      },
+      {
+        "t": "Homogen və etibarlı qaynaq",
+        "d": "Polifüzyon qaynağı vasitəsilə boru və fitinq materialı molekulyar səviyyədə qırılmaz bir vahidə çevrilir. Əlavə rezin contalara ehtiyac yoxdur – 100% sızdırmazlıq."
+      }
+    ]
+  },
+  "service": {
+    "eyebrow": "Sənədlər",
+    "title1": "Xidmət və",
+    "title2": "Yükləmə Mərkəzi.",
+    "lead": "Burada siz K Aqua PP-R və PPRCT sistemlərinin quraşdırılması, istismarı və texniki xidməti üçün bütün lazımi məlumatları tapacaqsınız. Məhsul kataloqlarından texniki təlimatlara qədər.",
+    "empty": "Axtarışa uyğun sənəd tapılmadı.",
+    "searchPlaceholder": "Sənədləri axtarın...",
+    "categories": {
+      "catalogs": "Kataloqlar və Broşürlər",
+      "technical": "Texniki Məlumatlar",
+      "guidelines": "Quraşdırma Təlimatları",
+      "forms": "Formalar və Sorğular"
+    },
+    "links": [
+      {
+        "title": "Boru Sistemləri Məhsul Kataloqu",
+        "desc": "K Aqua boruları, formaları və armaturları haqqında bütün texniki detalları, SDR siniflərini və ölçülərini ehtiva edən tam kataloq.",
+        "url": "/docs/de/K-Aqua_Katalog.pdf",
+        "category": "catalogs",
+        "date": "2024-01-15",
+        "size": "8.4 MB"
+      },
+      {
+        "title": "Texniki Təlimat PP-R",
+        "desc": "PP-R və PPRCT sistemlərinin material xüsusiyyətləri, təzyiq itkisi cədvəlləri və uzunluğa görə genişlənmə haqqında təfərrüatlı məlumatlar.",
+        "url": "/docs/de/K-Aqua_Technisches_Handbuch.pdf",
+        "category": "technical",
+        "date": "2023-11-20",
+        "size": "4.2 MB"
+      },
+      {
+        "title": "Quraşdırma Təlimatları",
+        "desc": "Boru xətlərinin çəkilməsi, bərkidilmə məsafələri və qaynaq maşınları ilə düzgün emal üzrə addım-addım təlimat.",
+        "url": "/docs/de/K-Aqua_Installationsrichtlinien.pdf",
+        "category": "guidelines",
+        "date": "2023-09-05",
+        "size": "2.1 MB"
+      }
+    ]
+  },
+  "about": {
+    "material": {
+      "eyebrow": "Material Elmi",
+      "title1": "Polipropilen Təsadüfi Kopolimer (PP-R).",
+      "title2": "Sərbəst buraxıldı.",
+      "p1": "PP-R Tip 3 sadəcə bir plastik deyil. Bu, bizim molekulyar səviyyədə mənimsədiyimiz yüksək dərəcədə mürəkkəb termoplastik materialdır.",
+      "p2": "Etilen monomerlərinin propilen zəncirindəki strateji yerləşməsi sayəsində biz hətta mənfi temperaturlarda belə misilsiz zərbə müqaviməti əldə edirik. Qranullarımız yalnız qlobal elita xammal istehsalçılarından gəlir. Biz hər partiyanı Diferensial Skanedən Kalorimetriya (DSC) və Ərimə Axını Tezliyi (MFR) testləri ilə təhlil edirik. Spesifikasiyalarımızdan ən kiçik belə kənara çıxan hər şey rəhmsizcəsinə rədd edilir.",
+      "items": [
+        {
+          "title": "Ekstremal Molyar Kütlə",
+          "desc": "Maksimum sünmə (sürünmə) gücünə və ekstremal təzyiqlər altında gərginlik-çatlama korroziyasına qarşı mütləq müqavimətə zəmanət verir."
+        },
+        {
+          "title": "Kristal Optimizasiyası",
+          "desc": "Mükəmməl termodinamik balans. Eyni vaxtda olan eksenel (ox) sərtliklə birlikdə radikal quraşdırma şərtləri üçün ən yüksək elastiklik."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Mükəmməlliyin Təkamülü",
+      "desc": "Qlobal bazar gücünə doğru qarşısıalınmaz bir yüksəliş. Hər onillik texnoloji üstünlüyün bir mərhələsidir.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Güzəştsizliyin Mənşəyi",
+          "text": "Başqalarının kompromisə getdiyi yerdə biz qırmızı xətt çəkdik. K Aqua-nın yaranması tək və sarsılmaz bir prinsipə əsaslanırdı: Qüsursuz boru sistemləri. İlk ekstruderlərimiz bazarı şoka salan bir dəqiqliklə işləyirdi."
+        },
+        {
+          "year": "2005",
+          "title": "Polipropilen İnqilabı",
+          "text": "Biz status-kvonu qəbul etməkdən imtina etdik. Xüsusi PP-R qarışığımızın təqdimatı ilə biz termal sabitliyi yenidən müəyyənləşdirdik. Rəqib məhsullar təzyiq altında çökərkən, bizim sistemlərimiz toxunulmaz qaldı. Polimer kimyasının zəfəri."
+        },
+        {
+          "year": "2015",
+          "title": "Memarlıq Simbiozu",
+          "text": "Dubayın göydələnlərindən tutmuş Ruhr bölgəsindəki sənaye obyektlərinə qədər: K Aqua məhv edilməz infrastrukturun sinoniminə çevrildi. PPRCT liflə gücləndirilmiş kompozit borularımız bina inşasında inqilab etdi. Daha az genişlənmə, daha çox axın, mütləq dominantlıq."
+        },
+        {
+          "year": "2026",
+          "title": "Molekulyar Diktatura",
+          "text": "Bu gün biz istehsalın hər tərəfini nəzarətdə saxlayırıq. Xam qranulların seçilməsindən tutmuş yekun yoxlamaya qədər sistemlərimiz diktator keyfiyyət rejiminə tabedir. Nəticə? Nəsillər boyu davam edən zəmanətli ömür."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FİZİKA MƏĞLUB EDİLDİ",
+      "title": "Gücün Dörd Sütunu.",
+      "lead": "Sehirlə sərhədlənən texnologiya. Biz sadəcə ənənəvi boru sistemlərinin məhdudiyyətlərini aşmadıq, onları darmadağın etdik.",
+      "items": [
+        {
+          "title": "Keyfiyyətdə Mütləqiyyət",
+          "desc": "PP-R və PPRCT sistemlərimizin hər bir millimetri ən qəddar yüklənmə testlərindən keçir. 50 illik ömür sadəcə bir vəd deyil, riyazi qətiyyətdir. Sıfır kənara çıxmağa dözürük. Zavodlarımızı tərk edən hər şey polimer formasında olan mükəmməllikdir."
+        },
+        {
+          "title": "Termal Məğlubedilməzlik",
+          "desc": "Fibrinlə gücləndirilmiş kompozit borularımız (K Aqua Faser) termal boyuna genişlənməni demək olar ki, tamamilə neytrallaşdırır. İstər buz kimi -20°C, istərsə də qaynayan +95°C olsun, sistemlərimiz mütləq şəkildə forma sabitliyini saxlayır. Fizika qanunlarına meydan oxuyan bir mühəndislik şah əsəri."
+        },
+        {
+          "title": "Kimyəvi Müqavimət",
+          "desc": "Korroziya sözü bizim lüğətimizdə yoxdur. Polimerlərimiz ən aqressiv mühitlərə, kalsifikasiyaya və bioloji parçalanmaya qarşı immunitetlidir. Metallar torpaqda paslanıb çürüyərkən, K Aqua toxunulmaz qalır: dözümlü, monolitik, sarsılmaz."
+        },
+        {
+          "title": "Molekulyar Birləşmə (Füzyon)",
+          "desc": "Bizim homogen qaynaq prosesimiz vasitəsilə boru və fitinq molekulyar səviyyədə ayrılmaz bir vahidə çevrilir. Yorula bilən contalar yoxdur. Mexaniki zəif nöqtələr yoxdur. Əbədi davam edən monolit struktur."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "SƏNAYE DOMİNANTLIĞI",
+      "title": "Steroidlərlə İnfrastruktur.",
+      "lead": "Biz sadəcə boru istehsal etmirik. Biz müasir sivilizasiyanın arteriyalarını yaradırıq. K Aqua dünya miqyasında sənaye və memarlıq meqalayihələrinin onurğa sütunudur.",
+      "items": [
+        {
+          "title": "Qəddar Ekstruziya",
+          "desc": "Sərt təzyiq altında işləyən yüksək performanslı sistemlər. Nəticə mikrometr səviyyəsinə qədər bənzərsiz divar qalınlığı tutarlılığıdır."
+        },
+        {
+          "title": "Sınaqdan Keçirilmiş Üstünlük",
+          "desc": "ISO 9001, 14001, 50001. Biz standartları sadəcə aşmırıq, onları diktə edirik. Beynəlxalq akkreditasiya mütləq bir standartdır."
+        },
+        {
+          "title": "Gigiyena Diktatı",
+          "desc": "Qida üçün təhlükəsiz, toksikoloji baxımdan zərərsiz və mikroblara qarşı tamamilə davamlı. İçməli su K Aqua sistemlərində toxunulmaz təmizlikdə qalır. İstisna yoxdur."
+        },
+        {
+          "title": "Resurs Effektivliyi",
+          "desc": "Tamamilə təkrar emal edilə bilər. İstehsal zamanı minimum CO2 izi. Çünki həqiqi texnoloji güc hər zaman gələcək üçün məsuliyyət deməkdir."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Şirkət Siyasəti",
+      "title": "Hərəkətlərimizin təməli.",
+      "desc": "Təkcə texnologiya kifayət deyil. Əsl böyüklük şirkətin ətraf mühit, işçiləri və tərəfdaşları ilə necə qarşılıqlı əlaqə qurmasında özünü göstərir.",
+      "items": [
+        {
+          "title": "Müştəri Obsessiyası",
+          "desc": "Biz bazarlara sadəcə xidmət etmirik, onlara radikal müştəri mərkəzliyi ilə hakim oluruq. Sizin tələbləriniz bizim üçün əmrdir. Bizim həllərimiz dəqiq, genişləndirilə bilən və icrasında mütləq güzəştsizdir."
+        },
+        {
+          "title": "Strateji İttifaqlar",
+          "desc": "Biz təchizatçı axtarmırıq, planetin ən yaxşı xammal istehsalçıları ilə strateji ittifaqlar qururuq. Ortaq tədqiqat, ortaq keyfiyyət standartları, ortaq dominantlıq."
+        },
+        {
+          "title": "Ekoloji İmperativ",
+          "desc": "K Aqua üçün davamlılıq marketinq şüarı deyil, fiziki bir imperativdir. Uzunömürlülük ən yaxşı ətraf mühitin qorunmasıdır. Sistemlərimiz istehsaldan təkrar emala qədər enerji izini minimuma endirir."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Yoxlanılmış keyfiyyət",
+      "title1": " ",
+      "titleHighlight": "GENAU",
+      "title2": " İdarəetmə Sistemi",
+      "p1": "GENAU idarəetmə sisteminin məqsədi şirkətdə əməyin mühafizəsi, ətraf mühit və sağlamlığın qorunmasının davamlı yaxşılaşdırılmasıdır.",
+      "p2": "KWT-də bütün korporativ fəaliyyətlər resursların qorunması, ekoloji uyğunluq və bütün öhdəliklərə ciddi riayət olunmaqla həyata keçirilir. Tətbiq olunan GENAU idarəetməsi yüksək tələblərə cavab verir: ",
+      "p3": " və ",
+      "list1Title": "Ekoloji Məsuliyyət",
+      "list1Desc": "Ətraf mühitin qorunması KWT GmbH-in bütün işçilərinin sadiq olduğu keyfiyyət anlayışımızın bir hissəsidir.",
+      "list2Title": "Enerji Effektivliyi",
+      "list2Desc": "Risklərin məqsədyönlü şəkildə müəyyən edilməsi və enerji səmərəliliyini optimallaşdırmaq üçün tədbirlərin həyata keçirilməsi."
+    }
+  },
+  "news": {
+    "eyebrow": "Xəbərlər və Tədbirlər",
+    "title1": "Yeniliklər:",
+    "titleGrad": "K Aqua.",
+    "date": "Oktyabr 2025",
+    "h2": "Biz üçqat ISO sertifikatlıyıq",
+    "p": "ISO idarəetmə sistemimiz genişləndirilərək artıq keyfiyyət, ətraf mühit və enerji idarəetməsini əhatə edir:",
+    "iso": [
+      [
+        "ISO 9001:2015",
+        "Keyfiyyəti İdarəetmə Sistemi"
+      ],
+      [
+        "ISO 14001:2015",
+        "Ətraf Mühiti İdarəetmə Sistemi"
+      ],
+      [
+        "ISO 50001:2018",
+        "Enerji İdarəetmə Sistemi"
+      ]
+    ],
+    "btnDe": "Sertifikat (DE)",
+    "btnEn": "Sertifikat (EN)",
+    "eventsTitle": "Sərgilər və Tədbirlər",
+    "eventsText": "Qarşıdan gələn tədbirlərdə K Aqua-nı ziyarət edin. Hazırda planlaşdırılan tədbir yoxdur. Tezliklə yenidən yoxlayın.",
+    "lead": "K Aqua barədə son yenilikləri oxuyun. "
+  },
+  "career": {
+    "eyebrow": "Karyera",
+    "title1": "K-Aqua-da Karyera: Maaşdan",
+    "titleGrad": "daha çoxu.",
+    "lead": "Vergisiz əlavələrin xalis dəyərini hesablayın və K Aqua-nın sizə uyğun olub-olmadığını 60 saniyə ərzində yoxlayın.",
+    "benEyebrow": "Xalis Maaş Optimizasiyası",
+    "benTitle": "Faydalar Kalkulyatoru.",
+    "benLead": "Vergisiz və sabit vergi dərəcəli əlavələr çox vaxt ümumi maaş artımından daha təsirli olur. Öz paketinizi yaradın:",
+    "benefits": {
+      "sachbezug": [
+        "Mal Müavinəti Kartı",
+        "Vergisiz müavinət, aylıq kart hesabına."
+      ],
+      "lunch": [
+        "Yemək Müavinəti",
+        "Nahar və supermarket üçün rəqəmsal yemək kuponları."
+      ],
+      "internet": [
+        "İnternet Ödənişi",
+        "Şəxsi internet istifadəsi üçün əlavə ödəniş."
+      ],
+      "jobrad": [
+        "JobRad Lizinqi",
+        "Maaşın konvertasiyası vasitəsilə arzu edilən velosiped, fərdi alışla müqayisədə qənaət."
+      ],
+      "kita": [
+        "Uşaq Bağçası Müavinəti",
+        "Uşaqlara qulluq üçün vergisiz ödəniş."
+      ],
+      "vwl": [
+        "Kapital Yaratma Müavinəti (VWL)",
+        "İşəgötürən tərəfindən aylıq yığım töhfəsi."
+      ]
+    },
+    "resultLabel": "Ayda əldə edilən xalis artım",
+    "resultNote1": "Bu təxminən müvafiqdir",
+    "resultNote2": "ümumi (brutto) ~{n} € artıma",
+    "resultNote3": "tutulmalar (vergilər) olmadan.",
+    "resultNote4": "(Təlimat dəyəri, vergi sinfindən asılı olaraq.)",
+    "apply": "İndi müraciət edin",
+    "call": "Və ya zəng edin: +49 (0)60 85 / 9868-410",
+    "cmEyebrow": "Mədəniyyət Uyğunluğu (Culture Matcher)",
+    "cmTitle": "K Aqua sizə uyğundurmu?",
+    "cmIntro": "İstehsalatdakı iş üsulu və gündəlik həyat haqqında beş dürüst sual. Şəxsiyyət testi deyil, reallıq yoxlaması.",
+    "cmStart": "Testə başla",
+    "qLabel": "Sual",
+    "cmQ": [
+      {
+        "q": "Necə işləməyi üstün tutursunuz?",
+        "o": [
+          "Aydın proseslər, uyğunlaşmış komanda",
+          "Hər gün yeni bir şey sınaqdan keçirmək"
+        ]
+      },
+      {
+        "q": "Geniş miqyaslı istehsal gedir. Maşın xəta barədə məlumat verir.",
+        "o": [
+          "Dərhal baxmaq, səbəbi tapmaq",
+          "Hələlik işləməsinə icazə vermək"
+        ]
+      },
+      {
+        "q": "Sizi daha çox nə motivasiya edir?",
+        "o": [
+          "50 il davam edən bir məhsul",
+          "Tez, görünən nəticələr"
+        ]
+      },
+      {
+        "q": "Növbəli iş sizin üçün …",
+        "o": [
+          "Planlaşdırıla bilən və normaldır",
+          "Bir az çətindir"
+        ]
+      },
+      {
+        "q": "Texnologiya ilə münasibətiniz?",
+        "o": [
+          "Mən əşyaların necə işlədiyini anlamaq istəyirəm",
+          "Əsas odur ki, işləsin"
+        ]
+      }
+    ],
+    "resHigh": "Güclü uyğunluq. Dəqiqlik, etibarlılıq və texniki anlayış: tam bizim profilimiz.",
+    "resMid": "Yaxşı uyğunluq, müzakirəyə ehtiyac var. Ən yaxşısı birbaşa zəng edib gündəlik prosesləri aydınlaşdırmaqdır.",
+    "resLow": "Dürüst nəticə: K Aqua-dakı gündəlik istehsalat yəqin ki, sizin mühitiniz deyil. Satış və ya idarəetmə daha uyğun ola bilər.",
+    "sendApp": "Müraciəti göndər",
+    "again": "Yenidən"
+  },
+  "contact": {
+    "eyebrow": "Əlaqə",
+    "title1": "Gəlin layihəniz haqqında",
+    "titleGrad": "danışaq.",
+    "locTitle": "Məkan Almaniya",
+    "salesTitle": "Satış",
+    "supportTitle": "Keyfiyyət və Texniki Dəstək",
+    "supportText": "Gəlin layihəniz barədə danışaq. Dəstək komandamız planlaşdırma, materiallar və emal ilə bağlı texniki məsələlərdə kömək edir."
+  },
+  "imprint": {
+    "eyebrow": "Hüquqi",
+    "title": "İmprint",
+    "rows": [
+      [
+        "Şirkət",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Rəhbərlik",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Qeydiyyat Məhkəməsi",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Baş ofis",
+        "Waldsolms"
+      ],
+      [
+        "ƏDV Nömrəsi (USt-IdNr.)",
+        "DE 296238486"
+      ],
+      [
+        "Telefon / Faks",
+        "+49 (0)60 85 / 9868-410 · Faks -420"
+      ],
+      [
+        "E-Poçt",
+        "info@k-aqua.de"
+      ]
+    ]
+  },
+  "finder": {
+    "eyebrow": "Məhsul axtarıcı",
+    "title1": "PDF səhrası deyil.",
+    "titleGrad": "Dərhal Məlumat.",
+    "lead": "220 səhifəlik kataloqlar əvəzinə: Tam PP-R/PPRCT sistemini interaktiv olaraq filtrləyin. Ölçü, təzyiq dərəcəsi, divar qalınlığı – hamısı canlı.",
+    "type": "Məhsul Tipi",
+    "types": {
+      "mono": "PP-R Monolayer (Təkqat)",
+      "fiber": "PPRCT Fibrinlə gücləndirilmiş kompozit (GF)",
+      "fitting": "Fitinqlər (Formalar)"
+    },
+    "sdr": "Təzyiq Dərəcəsi (SDR)",
+    "maxD": "Maksimum Xarici Diametr",
+    "upTo": "qədər",
+    "maxDAria": "Maksimum xarici diametr millimetrlə",
+    "found": "məhsul variantı tapıldı. Hər biri dərhal divar qalınlığı, daxili diametr və nominal təzyiq ilə.",
+    "catalog": "Kataloq (PDF)",
+    "tableHead": [
+      "Tip",
+      "d (mm)",
+      "SDR",
+      "Divar (mm)",
+      "di (mm)",
+      "Nominal təzyiq"
+    ],
+    "more": "+ {n} əlavə. Tam siyahı üçün filtri dəqiqləşdirin.",
+    "none": "Nəticə tapılmadı. Filtri yüngülləşdirin.",
+    "nextEyebrow": "Daha İrəli Düşünmək",
+    "nextTitle": "Planınız iqlim üçün nə qədər dostdur?",
+    "nextLead": "Ölçü və uzunluğu birbaşa CO₂ kalkulyatoruna ötürün və mis, paslanmayan polad və PVC ilə müqayisə edin.",
+    "nextCta": "CO₂ Kalkulyatoruna"
+  },
+  "trustAndCases": {
+    "eyebrow": "Sertifikatlı Təhlükəsizlik",
+    "title": "Sübut edilmiş Keyfiyyət və Tətbiq Sahələri",
+    "lead": "Qərargahı Almaniyada yerləşən istehsalçı kimi biz ən yüksək standartlara zəmanət veririk. Boru sistemlərimiz dünya miqyasında kritik infrastrukturlarda istifadə olunur.",
+    "trustTitle": "Sertifikatlı və Sınaqdan Keçmiş",
+    "iso9001": "Keyfiyyətin İdarəedilməsi",
+    "iso14001": "Ətraf Mühitin İdarəedilməsi",
+    "iso50001": "Enerjinin İdarəedilməsi",
+    "madeInGermany": "Almaniyada İstehsal (Made in Germany)",
+    "case1Title": "Bələdiyyə Su Təchizatı",
+    "case1Desc": "İçməli su şəbəkələrinin yenilənməsi. Minimum texniki xidmət xərcləri ilə maksimum təchizat təhlükəsizliyi üçün korroziyaya davamlı PPR borularının istifadəsi.",
+    "case2Title": "Sənaye Soyutma Sistemləri",
+    "case2Desc": "Ağır sənayedə böyük kalibrli boru kəmərlərinin quraşdırılması. Yüksək təzyiqə və kimyəvi təsirlərə davamlılıq nasazlıqların olmamasına zəmanət verir.",
+    "case3Title": "İnfrastruktur və Mülki Mühəndislik",
+    "case3Desc": "Uzunömürlülüyə dair ekstremal tələbləri olan meqalayihələr (SDR 11/17). Sürətli quraşdırma və istismar müddətinin sonunda 100% material təkrar emalı."
+  },
+  "co2": {
+    "guideText": "<h2>Davamlılıq və LCA (Həyat Dövrünün Qiymətləndirilməsi)</h2><p>Doğru boru kəməri sisteminin seçilməsi bina və ya sənaye obyektinin CO2 izinə əhəmiyyətli təsir göstərir. K-Aqua CO2 Kalkulyatoru EN 15804 standartlarına uyğun olaraq tam Həyat Dövrünün Qiymətləndirilməsi (LCA) imkanı verir. Bu təhlil bütün həyat dövrünü əhatə edir: xammalın çıxarılması və məhsulun istehsalından (Mərhələlər A1-A3), daşınma və quraşdırılmaya (Mərhələlər A4-A5), istifadə mərhələsinə (Mərhələ B) və istifadə müddətinin sonuna qədər (Mərhələ C).</p><p>Mis və ya poladdan hazırlanmış ənənəvi metal borularla müqayisədə, K-Aqua-nın PP-R və PPRCT boruları daha faydalı ekoloji balansa malikdir. Plastikin ekstruziyası zamanı daha aşağı enerji sərfiyyatı və xeyli yüngül çəkisi istehsal və daşınma zamanı CO2 emissiyalarını əhəmiyyətli dərəcədə azaldır. Bundan əlavə, güzgü kimi hamar daxili səth (cəmi 0.007 mm kələ-kötürlük) son dərəcə aşağı axın müqavimətini təmin edir. Darcy-Weisbach tənliyinə görə, bu o deməkdir ki, dövriyyə nasosları mayeni sistemdən keçirmək üçün əhəmiyyətli dərəcədə az enerji (elektrik) sərf edir.</p><p>Xüsusilə boru sistemləri üçün tez-tez 50 il və ya daha çox davam edən istifadə mərhələsində (Mərhələ B) bu enerji qənaəti böyük CO2 və xərc qənaətinə (Mülkiyyətin Ümumi Dəyəri - TCO) gətirib çıxarır. Hətta istifadə müddətinin sonunda da (Mərhələ C) polipropilen ekoloji üstünlüklər təklif edir, çünki o, 100% təkrar emal oluna bilər və dairəvi iqtisadiyyat ruhunda (Modul D) yenidən istifadə oluna bilər. K-Aqua layihənizin ekoloji və iqtisadi qənaət potensialını dəqiq və şəffaf şəkildə kəmiyyətcə hesablamaq üçün bu kalkulyatordan istifadə edin.</p>",
+    "eyebrow": "Premium Mühəndislik Aləti",
+    "title1": "LCA və TCO Simulyatoru",
+    "titleGrad": "Pro",
+    "lead": "Bütün həyat dövrü ərzində boru sisteminizin real ekoloji və iqtisadi təsirlərini hesablayın. Real fiziki axın modelləri (Darcy-Weisbach) və EN-uyğun LCA mərhələləri ilə.",
+    "tabGeometry": "Boru",
+    "tabFlow": "Maye",
+    "tabEnvironment": "Quraşdırma",
+    "tabLogistics": "LCA",
+    "dia": "Nominal Diametr",
+    "length": "Boru xəttinin uzunluğu",
+    "sdrClass": "SDR Sinfi",
+    "velocity": "Axın Sürəti (v)",
+    "velocityDesc": "Təzyiq itkisinə və nasosun enerji sərfiyyatına (B) kəskin təsir edir.",
+    "fluidTemp": "Maye Tempraturu",
+    "ambientTemp": "Mühit Tempraturu",
+    "insulation": "İzolyasiya",
+    "insulationNone": "Yoxdur",
+    "insulationBasic": "Təməl",
+    "insulationStandard": "Standart EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Quraşdırma metodu (A5)",
+    "installBuilding": "Bina içi quraşdırma",
+    "installTrench": "Yeraltı (Ekskavatorla)",
+    "installTrenchless": "Xəndəksiz (Yönləndirilmiş Üfüqi Qazma - HDD)",
+    "installDesc": "Torpaq işləri maşınlar (dizel) vasitəsilə böyük miqdarda CO2 emissiyasına səbəb olur.",
+    "lifespan": "İstismar Müddəti (İllər)",
+    "lifespanDesc": "Qısaömürlü boruların (məsələn, karbon poladı) ehtimal ki, bir neçə dəfə dəyişdirilməsi tələb olunur.",
+    "energyMixLabel": "Enerji Qarışığı (İstismar və İstehsal)",
+    "transportKm": "Nəqliyyat məsafəsi (km)",
+    "co2Savings": "LCA CO₂-Qənaət",
+    "co2SavingsDesc": "Ən səmərəsiz sistemə nisbətən (nasos enerjisi daxil olmaqla). Təqribən {n} ağaca bərabərdir.",
+    "costSavings": "TCO Qənaəti (NPV)",
+    "costSavingsDesc": "{n} il üzrə qənaət (Texniki xidmət və əməliyyat xərcləri-NPV daxil olmaqla).",
+    "lcaPhases": "LCA Mərhələləri (EN 15804)",
+    "phaseA13": "A1-A3 (Material)",
+    "phaseA45": "A4-A5 (Quraşdırma/Daşınma)",
+    "phaseB": "B (İstismar/Enerji)",
+    "phaseC": "C (İstifadə müddətinin sonu - EoL)",
+    "moduleD": "Modul D:",
+    "costAnalysis": "Mülkiyyətin Ümumi Dəyəri (NPV, {n} İllər)",
+    "costMaterial": "Material",
+    "costInstall": "Quraşdırma",
+    "costOperation": "Enerji (NPV)",
+    "costMaintenance": "Texniki Xidmət",
+    "costTotal": "Cəmi",
+    "certTitle": "Sertifikatlı LCA və TCO Hesabatı.",
+    "certDesc": "Darcy-Weisbach görə axın müqavimətini və EPD uyğun həyat dövrü mərhələlərini əhatə edir.",
+    "certBtn": "PDF Hesabatı yarat",
+    "generating": "Yaradılır...",
+    "energyGreen": "Yaşıl Enerji",
+    "energyDe": "DE-Qarışığı (Almaniya)",
+    "energyEu": "EU-Qarışığı (Avropa İttifaqı)",
+    "energyGlobal": "Qlobal-Qarışığı",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Mis",
+      "steel": "Paslanmayan Polad / Karbon Poladı",
+      "pex": "Çoxqatlı kompozit (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Çuqun"
+    },
+    "project": "Sizin layihəniz",
+    "advanced": "Ətraflı LCA Parametrləri",
+    "tempMode": "İstismar temperaturu",
+    "tempCold": "Soyuq su (10°C)",
+    "tempHot": "İsti su (60°C)",
+    "recycle": "EoL təkrar emal kreditini aktivləşdir",
+    "disclaimer": "Hesablamalar təsdiqlənmiş Tip III EPD-lər (EN 15804) və ecoinvent məlumat bazasına (A1-A3, A4, B, C1-C4) əsaslanır.",
+    "savedLabel": "CO₂e qənaət (Ən yaxşı alternativlə müqayisədə)",
+    "savedBody1": "Bu miqdarın CO₂ absorbsiyasına bərabərdir:",
+    "trees": "{n} ağac",
+    "or": "və ya",
+    "carKm": "{n} avtomobil kilometri",
+    "compareTitle": "Həyat Dövrünün Qiymətləndirilməsi (LCA)",
+    "phases": {
+      "a13": "İstehsal (A1-A3)",
+      "a4": "Nəqliyyat (A4)",
+      "b": "İstismar/Termal (B)",
+      "c": "İstismar müddətinin sonu (C)"
+    },
+    "auditor": "Auditor idarə paneli:",
+    "auditorBody": "EPD sənədləri, ISO sertifikatları və GAEB mətnləri bir paket olaraq,",
+    "trustLink": "Güvən Mərkəzi (Trust Center)",
+    "downloadPdf": "PDF Hesabatını Yüklə",
+    "lcaLogistics": "LCA və Logistika Parametrləri",
+    "energyMix": "İstehsal Enerji Qarışığı",
+    "transportMode": "Daşıma növü",
+    "transportTruck": "Yük maşını",
+    "transportShip": "Gəmi",
+    "transportAir": "Hava daşımacılığı",
+    "phaseProduction": "İstehsal",
+    "phaseTransport": "Nəqliyyat",
+    "phaseOperation": "İstismar",
+    "phaseEol": "İstifadə müddətinin sonu"
+  },
+  "trust": {
+    "eyebrow": "Güvən Mərkəzi",
+    "title1": "Güvən",
+    "titleGrad": "ölçüləndir.",
+    "lead": "Güvən ölçüləndir. Sertifikatlar, GENAU sistemi və audit sənədləri, öz-özünə xidmət (Self Service) olaraq. Əllə göndəriş üçün günlərlə gözləməyə ehtiyac yoxdur.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Keyfiyyətin İdarəedilməsi"
+      ],
+      [
+        "ISO 14001:2015",
+        "Ətraf Mühitin İdarəedilməsi"
+      ],
+      [
+        "ISO 50001:2018",
+        "Enerjinin İdarəedilməsi"
+      ]
+    ],
+    "accred": "DAkkS tərəfindən akkreditə olunub",
+    "certNo": "Sertifikat No.",
+    "valid": "Etibarlıdır",
+    "download": "Yüklə",
+    "genauEyebrow": "GENAU-Sistemi",
+    "genauTitle": "Beş Hərf. Bir Sistem.",
+    "genauLead": "GENAU idarəetmə sistemi KWT-də köklənmişdir. Beş sütunu klikləyin.",
+    "genau": [
+      [
+        "Sağlamlıq",
+        "Daimi təhlükə dəyərləndirməsi ilə sağlamlıq və əməyin təhlükəsizliyi. Hər bir işçi riskləri aktiv şəkildə bildirməyə borcludur."
+      ],
+      [
+        "Enerji",
+        "Ekstruderdən tutmuş qapalı soyutma suyu dövrəsinə qədər ISO 50001-ə uyğun olaraq enerji səmərəliliyinin optimallaşdırılması."
+      ],
+      [
+        "Davamlılıq",
+        "Kəsilmiş qalıqların və istehsalat tullantılarının 100%-i təkrar emal dövriyyəsinə qayıdır."
+      ],
+      [
+        "İş Təhlükəsizliyi",
+        "Profilaktika və riskin qiymətləndirilməsi illik məcburi tapşırıq kimi deyil, gündəlik praktika kimi."
+      ],
+      [
+        "Ətraf Mühit",
+        "ISO 14001 standartına uyğun olaraq ətraf mühitin idarə olunması: resursların qorunması keyfiyyət anlayışının bir hissəsidir."
+      ]
+    ],
+    "rfpEyebrow": "Öz-Özünə Xidmət (Self Service)",
+    "rfpTitle": "Sizin RFP-Sənəd paketiniz.",
+    "rfpLead": "Əl ilə göndərilməsini günlərlə gözləmək əvəzinə, audit və tender paketinizi özünüz hazırlayın.",
+    "docs": [
+      "ISO 9001:2015 Sertifikatı (DE/EN)",
+      "ISO 14001:2015 Sertifikatı (DE/EN)",
+      "ISO 50001:2018 Sertifikatı (DE/EN)",
+      "GENAU Siyasəti və Riskin Qiymətləndirilməsi",
+      "İçməli su uyğunluğu (DVGW/KTW)",
+      "EPD Məlumat Vərəqələri (Tip III, EN 15804)",
+      "GAEB Tender mətnləri",
+      "Keyfiyyət təminatı təlimatı"
+    ],
+    "inPackage": "Paketdəki sənədlər.",
+    "pickLeft": "Soldan seçin.",
+    "requestZip": "Klikləyərək ZIP formatında tələb edin:",
+    "requestBtn": "Paketi tələb et",
+    "mailSubject": "RFP Sənəd paketi",
+    "mailBody": "Zəhmət olmasa, mənə aşağıdakı sənədləri göndərin:",
+    "scope3": "Sorğu əsasında Scope-3 emissiya məlumatları və xam EPD məlumatları: vəzifəni yerinə yetirməkdənsə proaktiv şəffaflıq."
+  }
+}
