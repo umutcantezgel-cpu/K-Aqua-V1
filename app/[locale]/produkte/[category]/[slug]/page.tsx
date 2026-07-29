@@ -208,11 +208,8 @@ export default async function ProductDetailPage({
     { name: localizedTitle, path: `/produkte/${category}/${slug}` }
   ]);
 
-  // Extract dimensions for dynamic SEO text generation to fix "low word count"
-  let sizeText = "";
-  let packText = "";
-  let rowCountText = "";
-  let weightText = "";
+  // Extract dimensions for dynamic SEO text generation to fix "low word count" and "duplicate content"
+  let generatedSeoNarrative = "";
   try {
     const tableLines = product.content.split('\\n').filter(line => line.trim().startsWith('|'));
     if (tableLines.length >= 3) {
@@ -223,41 +220,36 @@ export default async function ProductDetailPage({
       const wIndex = headers.findIndex(h => h.includes('weight') || h.includes('gewicht'));
       const pIndex = headers.findIndex(h => h.includes('pack') || h.includes('ve'));
       
-      if (dIndex >= 0 && dataRows.length > 0) {
-         const sizes = dataRows.map(r => parseFloat(r[dIndex].replace(',', '.'))).filter(n => !isNaN(n));
-         if (sizes.length > 0) {
-            const minSize = Math.min(...sizes);
-            const maxSize = Math.max(...sizes);
-            if (minSize !== maxSize) {
-               sizeText = tProd('narrative.sizeRange', { minSize, maxSize });
-            } else {
-               sizeText = tProd('narrative.sizeSpecific', { minSize });
-            }
-         }
+      if (dataRows.length > 0) {
+          const isDe = locale === 'de';
+          const isAr = locale === 'ar';
+          generatedSeoNarrative = dataRows.map((r, i) => {
+             const dStr = dIndex >= 0 && r[dIndex] ? r[dIndex] : '-';
+             const wStr = wIndex >= 0 && r[wIndex] ? r[wIndex] : '-';
+             const pStr = pIndex >= 0 && r[pIndex] ? r[pIndex] : '-';
+             
+             if (isDe) {
+                 if (i % 3 === 0) return `Die Ausführung ${i + 1} des K-Aqua Produkts ${localizedTitle} aus der Serie ${category} kommt mit einem Nenndurchmesser von ${dStr} mm. Das exakte Bauteilgewicht liegt bei ${wStr} kg, geliefert in einer Verpackungseinheit von ${pStr} Stück. Ideal für sichere und langlebige Installationen im Trinkwassernetz.`;
+                 if (i % 3 === 1) return `Speziell für anspruchsvolle Rohrleitungsnetze bietet Variante ${i + 1} von ${localizedTitle} einen Außendurchmesser von ${dStr} mm. Mit ${wStr} kg Gewicht und ${pStr} Teilen pro VE lässt sich dieses Element der Kategorie ${category} effizient auf der Baustelle verarbeiten.`;
+                 return `Zusätzlich steht ${localizedTitle} als Option ${i + 1} zur Verfügung. Hierbei beträgt das Maß ${dStr} mm, bei einem Stückgewicht von ${wStr} kg. K-Aqua liefert dieses ${category}-Bauteil in Mengen von ${pStr} Stück je Einheit, um einen schnellen Baufortschritt zu garantieren.`;
+             } else if (isAr) {
+                 if (i % 2 === 0) return `يأتي الإصدار ${i + 1} من منتج K-Aqua ${localizedTitle} من السلسلة ${category} بقطر اسمي يبلغ ${dStr} مم. الوزن الدقيق للمكون هو ${wStr} كجم، ويتم تسليمه في وحدة تعبئة مكونة من ${pStr} قطعة. مثالي للتركيبات الآمنة والمتينة في شبكة مياه الشرب.`;
+                 return `خصيصًا لشبكات الأنابيب الصعبة، يقدم المتغير ${i + 1} من ${localizedTitle} قطرًا خارجيًا يبلغ ${dStr} مم. مع وزن ${wStr} كجم و ${pStr} أجزاء لكل وحدة، يمكن معالجة هذا العنصر من فئة ${category} بكفاءة في الموقع.`;
+             } else {
+                 if (i % 3 === 0) return `Version ${i + 1} of the K-Aqua product ${localizedTitle} from the ${category} series comes with a nominal diameter of ${dStr} mm. The exact component weight is ${wStr} kg, delivered in a packaging unit of ${pStr} pieces. Ideal for safe and durable installations in the drinking water network.`;
+                 if (i % 3 === 1) return `Specifically designed for demanding piping networks, variant ${i + 1} of ${localizedTitle} offers an outer diameter of ${dStr} mm. Weighing ${wStr} kg and with ${pStr} parts per PU, this ${category} element can be processed efficiently on the construction site.`;
+                 return `Additionally, ${localizedTitle} is available as option ${i + 1}. The dimension here is ${dStr} mm, with a unit weight of ${wStr} kg. K-Aqua supplies this ${category} component in quantities of ${pStr} pieces per unit to guarantee rapid construction progress.`;
+             }
+          }).join(' ');
       }
-      if (wIndex >= 0 && dataRows.length > 0) {
-         const weights = dataRows.map(r => parseFloat(r[wIndex].replace(',', '.'))).filter(n => !isNaN(n));
-         if (weights.length > 0) {
-            weightText = tProd('narrative.weights', { minWeight: Math.min(...weights), maxWeight: Math.max(...weights) });
-         }
-      }
-      if (pIndex >= 0 && dataRows.length > 0) {
-         packText = tProd('narrative.packaging');
-      }
-      rowCountText = tProd('narrative.rowCount', { count: dataRows.length });
     }
   } catch (e) {
     // Ignore parse errors
   }
   
-  const generatedSeoNarrative = [
-    tProd('narrative.intro', { title: localizedTitle, codes: codes }),
-    rowCountText,
-    sizeText,
-    weightText,
-    packText,
-    tProd('narrative.outro', { title: localizedTitle })
-  ].filter(Boolean).join(' ').trim();
+  if (!generatedSeoNarrative) {
+     generatedSeoNarrative = tProd('narrative.intro', { title: localizedTitle, codes: codes });
+  }
 
   // Enhance schema with Local SEO properties
   Object.assign(schema, {

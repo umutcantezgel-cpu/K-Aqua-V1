@@ -2239,5 +2239,1163 @@
       "ersatzteile": "Suku Cadang",
       "beratung": "Konsultasi"
     }
+  },
+  "catalogx": {
+    "eyebrow": "Katalog Produk Lengkap",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "title": "Semua 79 keluarga produk, dengan nomor bagian asli.",
+    "lead": "Pipa, fitting, fitting transisi, katup, sadel las, aksesori, dan peralatan, setiap baris berasal dari katalog K Aqua yang mengikat. Pilih kategori, buka produk, periksa nomor komponen.",
+    "searchPlaceholder": "Cari nomor komponen atau nama produk, misal 'AQ200P20' atau 'Siku'",
+    "noResults": "Tidak ada hasil. Sesuaikan pencarian atau pilih kategori lain.",
+    "codesLabel": "Nomor Bagian",
+    "sizesLabel": "Ukuran",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Seri",
+    "pressureLabel": "Tekanan Operasi",
+    "lenLabel": "Panjang Pipa",
+    "cats": {
+      "pipes": {
+        "label": "Pipa",
+        "desc": "Pipa PPR dan PPRCT: Standar, diperkuat serat dan distabilkan UV, 12 seri."
+      },
+      "fittings": {
+        "label": "Fitting",
+        "desc": "Pengelasan soket dan fitting elektrofusi dari d20 hingga d630."
+      },
+      "transition-fittings": {
+        "label": "Fitting Transisi",
+        "desc": "Koneksi ke logam (kuningan) dengan ulir dalam dan luar."
+      },
+      "valves": {
+        "label": "Katup",
+        "desc": "Katup stop, katup bola PP, dan dudukan katup miring, dipasang di dinding dan terbuka."
+      },
+      "weld-in-saddles": {
+        "label": "Sadel Las",
+        "desc": "Cabang selanjutnya pada pipa bertekanan hingga d630."
+      },
+      "accessories": {
+        "label": "Aksesori",
+        "desc": "Flensa, gasket, klip pipa, dan penutup untuk instalasi."
+      },
+      "tools": {
+        "label": "Alat Las",
+        "desc": "Mesin las soket, elektrofusi, dan las butt hingga d250."
+      }
+    },
+    "rfq": {
+      "title": "Kalkulasi langsung",
+      "desc": "Kumpulkan artikel dan minta penawaran harga tanpa kewajiban."
+    },
+    "similar": "Sering diminta dengan ini:",
+    "items": {}
+  },
+  "products": {
+    "narrative": "Setiap komponen adalah bagian dari sistem sempurna dan tertutup. Dari umpan hingga titik akhir, kami mengendalikan aliran air, bahan kimia, dan gas dengan keandalan tanpa henti.",
+    "uniqueProductContext": "Sistem Pipa Polypropylene Berkinerja Tinggi",
+    "heroDesc": "Infrastruktur untuk generasi masa depan.",
+    "articleNumbers": "Nomor Bagian",
+    "technicalSpecs": "Spesifikasi Teknis",
+    "eyebrow": "Sistem",
+    "videoGuide": "Panduan Video",
+    "localAvailability": "Ketersediaan Lokal",
+    "localDesc": "Tersedia",
+    "allMarkets": "Semua pasar",
+    "title1": "Inti dari kami",
+    "titleGrad": "Sistem Pipa",
+    "lead": "Sistem terintegrasi dari pipa, fitting, dan katup.",
+    "ctaCatalog": "Lihat Katalog Lengkap",
+    "ctaVideos": "Tonton Video Pengelasan",
+    "sysEyebrow": "Ikhtisar Sistem",
+    "sysTitle": "K-AQUA: Arsitektur air mutlak.",
+    "range": "Rentang",
+    "techEyebrow": "Detail Teknis",
+    "techTitle": "Keunggulan Teknologi.",
+    "techLead": "Data teknis pada tingkat rekayasa Jerman.",
+    "ctaFeatures": "Jelajahi Fitur",
+    "tableHead": ["Parameter", "Nilai"],
+    "tableRows": [
+      ["Material", "PP-R / PPRCT"],
+      ["Tekanan", "hingga PN25"]
+    ],
+    "seoArticle": "Baca lebih lanjut tentang PP-R.",
+    "labels": {
+      "article": "Artikel",
+      "size": "Ukuran",
+      "material": "Bahan"
+    },
+    "specAndDim": "Spesifikasi & Dimensi",
+    "certsAndNorms": "Sertifikat & Norma",
+    "approved": "Disetujui",
+    "monitoring": "Pemantauan",
+    "certified": "Tersertifikasi",
+    "quickLinks": "Tautan Cepat",
+    "calcCo2": "Hitung penghematan CO2",
+    "backToFinder": "Kembali ke Pencari Produk",
+    "enterpriseCore": "Inti Perusahaan",
+    "highPerformance": "Kinerja Tinggi",
+    "highPerformanceDesc": "Dirancang untuk ekstrem.",
+    "sysPressure": "Tekanan Sistem",
+    "tempMax": "Suhu Maks.",
+    "material": "Material Utama",
+    "norm": "Norma",
+    "certification": "Sertifikasi",
+    "lifespan": "Masa Pakai",
+    "fiberTech": "Teknologi Serat",
+    "fiberTechDesc": "Pipa dengan serat untuk ekspansi minimal.",
+    "compliance": "Kepatuhan",
+    "dimensions": "Dimensi",
+    "globalNetwork": "Jaringan Global",
+    "globalNetworkDesc": "Tersedia di lebih dari 50 negara.",
+    "whyChoose": "Mengapa memilih sistem ini?",
+    "tools": {
+      "title": "Alat Las",
+      "desc": "Peralatan presisi tinggi untuk instalasi aman."
+    },
+    "valves": {
+      "title": "Katup & Kontrol",
+      "desc": "Katup tugas berat yang tidak akan menimbulkan korosi."
+    },
+    "category": "Kategori",
+    "fittings": {
+      "title": "Soket & Fitting",
+      "desc": "Geometri sempurna untuk kehilangan tekanan minimal."
+    },
+    "pipes": {
+      "title": "Pipa PPR & PPRCT",
+      "desc": "Urat nadi yang tidak bisa dihancurkan."
+    },
+    "transitionFittings": {
+      "title": "Fitting Transisi",
+      "desc": "Transisi tanpa cacat dari plastik ke logam."
+    },
+    "hero": {
+      "eyebrow": "ARSITEKTUR SISTEM",
+      "title1": "K-AQUA: ARSITEKTUR",
+      "title2": "AIR MUTLAK.",
+      "desc": "Presisi pada tingkat molekuler. Direkayasa untuk bertahan lama."
+    },
+    "sticky": {
+      "eyebrow": "SPEKTRUM PRODUK",
+      "title": "REKAYASA TANPA KOMPROMI.",
+      "lead": "Setiap komponen adalah bagian dari sistem sempurna dan tertutup.",
+      "items": [
+        {
+          "title": "SISTEM PIPA PPR",
+          "desc": "Tulang punggung transportasi cairan modern."
+        },
+        {
+          "title": "FITTING",
+          "desc": "Kesempurnaan geometris dengan toleransi mikrometer."
+        },
+        {
+          "title": "KATUP & KONTROL",
+          "desc": "Kontrol mutlak di bawah kondisi tersulit."
+        },
+        {
+          "title": "PIPA KOMPOSIT",
+          "desc": "Sinergi aluminium dan polimer berkinerja tinggi."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "DATA KINERJA",
+      "title": "KEUNGGULAN TEKNOLOGI.",
+      "lead": "Jaringan kinerja tinggi untuk cairan.",
+      "items": [
+        {
+          "title": "Fusi Termal",
+          "desc": "Material menjadi satu, jaminan aman dari kebocoran."
+        },
+        {
+          "title": "Kekebalan Korosi",
+          "desc": "Tahan karat mutlak."
+        },
+        {
+          "title": "Optimasi Aliran",
+          "desc": "Kehilangan tekanan minimal berkat kehalusan 0.007mm."
+        },
+        {
+          "title": "Ketahanan Tekanan PN25+",
+          "desc": "Dirancang untuk tekanan tinggi dan umur panjang >50 tahun."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "PROSES INSTALASI.",
+      "desc": "Lebih cepat. Lebih aman. Lebih bersih.",
+      "items": [
+        {
+          "year": "FASE 01",
+          "title": "PERENCANAAN",
+          "text": "Perhitungan hidrolik yang tepat."
+        },
+        {
+          "year": "FASE 02",
+          "title": "PERSIAPAN",
+          "text": "Pemotongan tanpa serpihan."
+        },
+        {
+          "year": "FASE 03",
+          "title": "PENGELASAN SOKET",
+          "text": "Koneksi molekuler tak terpisahkan dalam hitungan detik."
+        },
+        {
+          "year": "FASE 04",
+          "title": "PENGUJIAN",
+          "text": "Uji tekanan ekstrem."
+        },
+        {
+          "year": "FASE 05",
+          "title": "PENGOPERASIAN",
+          "text": "Keandalan tanpa henti selama puluhan tahun."
+        }
+      ]
+    },
+    "sysLead": "Fondasi dari katalog kami: empat blok penyusun sistem terintegrasi.",
+    "items": {}
+  },
+  "solutions": {
+    "eyebrow": "Solusi",
+    "title1": "Sebuah produk",
+    "titleGrad": "yang bertanggung jawab",
+    "title2": ".",
+    "lead": "Mengapa Polypropylene adalah bahan yang tepat untuk pasokan air masa depan: ekologis, teknis, dan ekonomis.",
+    "benefits": [
+      {
+        "t": "Ramah Lingkungan",
+        "d": "Polypropylene terbuat dari gas yang dulunya dibakar sia-sia, sehingga secara drastis mengurangi polusi udara. Produksinya menggunakan air dalam sistem pendingin tertutup, melindungi sungai dan danau."
+      },
+      {
+        "t": "Dapat Didaur Ulang",
+        "d": "PP membawa Kode Daur Ulang '5' dan dapat dipisahkan berdasarkan jenisnya. Kami mendaur ulang semua limbah produksi dan potongan sisa."
+      },
+      {
+        "t": "Unggul Secara Teknis",
+        "d": "Sebagai plastik teknis, PP sangat tahan terhadap pelarut, alkali, dan asam, dan dapat dibentuk menjadi geometri kompleks dalam pencetakan injeksi dengan biaya rendah."
+      }
+    ],
+    "nextEyebrow": "Langkah Berikutnya",
+    "nextTitle": "Mulai Proyek Anda",
+    "nextLead": "Apakah Anda memiliki pertanyaan spesifik tentang solusi kami? Hubungi kami.",
+    "nextCta": "Hubungi Penjualan",
+    "index": {
+      "meta": {
+        "title": "Keunggulan Material dan Fisik PP-R",
+        "desc": "Temukan sistem polimer berkinerja tinggi kami untuk infrastruktur kritis."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Homogenitas Molekuler",
+            "p1": "Sistem PPR K-AQUA mengandalkan teknologi polifusi lanjutan.",
+            "p2": "Sintesis mulus ini menghilangkan titik lemah yang tak terhindarkan terjadi dengan koneksi mekanis."
+          },
+          {
+            "title": "Daya Tahan Termal",
+            "p1": "Fluktuasi suhu adalah musuh utama dari perpipaan konvensional.",
+            "p2": "Kapasitas panas spesifik dari material juga mengurangi kebutuhan akan isolasi ekstrem."
+          },
+          {
+            "title": "Kesempurnaan Hidrolik",
+            "p1": "Nilai kekasaran absolut hanya 0,007 mm mendefinisikan permukaan bagian dalam pipa K-AQUA.",
+            "p2": "Kehilangan aliran direduksi menjadi minimum fisik."
+          },
+          {
+            "title": "Kekebalan Kimia",
+            "p1": "Berbeda dengan sistem logam, jaringan PPR K-AQUA kebal terhadap oksidasi.",
+            "p2": "Bahkan dalam lingkungan industri yang sangat korosif."
+          }
+        ],
+        "header": {
+          "title": "Keunggulan Fisik.",
+          "desc": "Prinsip teknis yang memberikan umur panjang pada sistem K-AQUA."
+        }
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Fase 01",
+            "title": "Analisis Struktural",
+            "text": "Evaluasi persyaratan termodinamika dan dinamika fluida."
+          },
+          {
+            "year": "Fase 02",
+            "title": "Spesifikasi Material",
+            "text": "Pemilihan kopolimer PPR yang optimal."
+          },
+          {
+            "year": "Fase 03",
+            "title": "Sintesis Sistemik",
+            "text": "Pengelasan polifusi di bawah parameter termal yang dikontrol ketat."
+          },
+          {
+            "year": "Fase 04",
+            "title": "Keunggulan Operasional",
+            "text": "Operasi bebas perawatan selama puluhan tahun."
+          }
+        ],
+        "title": "ARSITEKTUR PROSES",
+        "desc": "Dari perhitungan matematis hingga keamanan operasional abadi."
+      },
+      "hero": {
+        "eyebrow": "SOLUSI INDUSTRI & KONSTRUKSI",
+        "title1": "ARSITEKTUR SISTEM",
+        "title2": "UNTUK KEABADIAN.",
+        "desc": "Temukan keunggulan material PP-R dari K-Aqua. Dikembangkan di bawah kondisi ekstrem, diverifikasi oleh rekayasa Jerman tanpa kompromi.",
+        "cta": "Hubungi kami"
+      },
+      "intro": {
+        "title": "Melampaui batas beban konvensional.",
+        "p1": "Di mana sistem logam gagal karena korosi, di situlah operasi K-AQUA dimulai.",
+        "p2": "Setiap milimeter dari sistem kami adalah hasil dari puluhan tahun penelitian."
+      },
+      "bento": {
+        "header": {
+          "title": "Vektor Aplikasi.",
+          "desc": "Solusi sistem terukur untuk sektor industri dan konstruksi."
+        },
+        "items": [
+          {
+            "title": "Kebersihan Air Minum & Sanitasi",
+            "desc": "Keamanan makanan mutlak dan kebersihan toksikologis."
+          },
+          {
+            "title": "HVAC & Pendingin Udara",
+            "desc": "Isolasi termal sangat efisien."
+          },
+          {
+            "title": "Jaringan Udara Terkompresi",
+            "desc": "Transmisi bebas bocor pada tekanan tinggi."
+          },
+          {
+            "title": "Pembuatan Kapal & Lepas Pantai",
+            "desc": "Tahan lingkungan asin dan getaran."
+          },
+          {
+            "title": "Transportasi Cairan Industri",
+            "desc": "Kinerja tanpa kompromi saat mentransfer bahan kimia agresif."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Tahun Umur Terjamin",
+          "desc": "Lebih dari 50 tahun."
+        },
+        "1": {
+          "label": "W/mK Konduktivitas Termal",
+          "desc": "Isolasi alami mencegah kehilangan energi."
+        },
+        "2": {
+          "label": "Sambungan Homogen",
+          "desc": "Bebas dari kebocoran berkat pengelasan molekuler."
+        },
+        "title": "Rekayasa dalam Angka."
+      },
+      "cta": {
+        "eyebrow": "INISIASI PROYEK",
+        "title1": "SIAP UNTUK",
+        "title2": "DIMENSI BERIKUTNYA.",
+        "desc": "Hubungi insinyur kami untuk evaluasi mendalam.",
+        "button1": "Hubungi Tim Teknik",
+        "button2": "Lihat Spesifikasi"
+      }
+    }
+  },
+  "service": {
+    "eyebrow": "Layanan K-Aqua",
+    "title1": "Dukungan Proyek",
+    "titleGrad": "Berkinerja Tinggi.",
+    "lead": "Kami tidak hanya memproduksi sistem pipa premium, kami juga memastikan penggunaannya berhasil.",
+    "dlEyebrow": "Unduhan & Sertifikat",
+    "dlTitle": "Dokumentasi Anda.",
+    "downloads": {
+      "catalog": "Katalog Utama",
+      "tech": "Manual Teknis",
+      "cert": "Sertifikat Kualitas"
+    },
+    "vidEyebrow": "Tutorial Pengelasan",
+    "vidTitle": "Pemrosesan Aman.",
+    "vidLead": "Video instruksional langkah demi langkah.",
+    "videos": [
+      {
+        "title": "Pengelasan Soket",
+        "desc": "Koneksi standar untuk diameter kecil hingga d125."
+      },
+      {
+        "title": "Pengelasan Elektro-fusi",
+        "desc": "Ideal untuk perbaikan dan ruang sempit."
+      },
+      {
+        "title": "Pengelasan Butt",
+        "desc": "Koneksi pipa besar dari d160."
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "impressum1": "Sistem pipa K Aqua PP-R dan PPRCT diproduksi dengan presisi tertinggi oleh KWT GmbH di Waldsolms, Jerman. Jejak kami menawarkan transparansi penuh kepada pelanggan kami.",
+      "impressum2": "Sebagai produsen global, kami berkomitmen untuk mematuhi semua standar hukum dan peraturan yang berlaku.",
+      "kontakt1": "Apakah Anda memiliki pertanyaan teknis tentang pipa PP-R/PPRCT kami atau membutuhkan dukungan pada proyek internasional? Tim kontak K Aqua di Waldsolms siap membantu Anda.",
+      "kontakt2": "Baik itu perhitungan isometrik, pelatihan pengelasan di tempat, atau pertanyaan komersial: teknisi dan staf penjualan kami akan merespons dengan cepat.",
+      "projektanfrage1": "Rencanakan infrastruktur pipa Anda dengan keandalan dari awal. Minta proyek sekarang."
+    },
+    "eyebrow": "Tentang Kami",
+    "title1": "Kami merekayasa pipa.",
+    "titleGrad": "Bukan kompromi.",
+    "lead": "K Aqua adalah singkatan dari rekayasa sistem PP-R tingkat tertinggi. Kami mengubah polimer berkinerja tinggi menjadi sistem pasokan cairan yang mendefinisikan standar industri.",
+    "h2": "Misi Kami",
+    "p1": "Kami tidak percaya pada solusi standar. Kami percaya pada keunggulan teknologi mutlak. Pabrik kami di Jerman bukan sekadar fasilitas produksi, melainkan pusat inovasi tempat kami mendefinisikan ulang batas fisik material perpipaan.",
+    "p2": "Dari gedung tertinggi hingga jaringan industri terkompleks: Di mana pun air, bahan kimia, atau gas harus diangkut dengan aman selama puluhan tahun, sistem K Aqua beroperasi di latar belakang. Tanpa lelah. Tanpa bocor. Tanpa kompromi.",
+    "polEyebrow": "Kebijakan Kami",
+    "polTitle": "Kebijakan Perusahaan yang Tegas",
+    "polLead": "Komitmen yang teguh terhadap kualitas, efisiensi, dan kelestarian lingkungan.",
+    "cards": [
+      {
+        "t": "Fokus Pelanggan",
+        "d": "Kepuasan pelanggan menentukan strategi kami. Kami memberikan solusi yang tepat, aman, dan efisien."
+      },
+      {
+        "t": "Aliansi Pemasok",
+        "d": "Hanya kemitraan terkuat yang dapat menjamin kualitas terbaik. Kami bekerja sama secara erat untuk berinovasi."
+      },
+      {
+        "t": "Perlindungan Lingkungan",
+        "d": "Tanggung jawab atas sumber daya kami tertanam kuat dalam semua proses KWT GmbH."
+      }
+    ],
+    "genauEyebrow": "Sistem GENAU",
+    "genauTitle": "Sistem Manajemen GENAU",
+    "genauLead": "Perbaikan terus-menerus dalam keselamatan kerja, perlindungan lingkungan, dan perlindungan kesehatan.",
+    "points": [
+      "Mengurangi risiko kesehatan di tempat kerja",
+      "Perbaikan berkelanjutan dari perlindungan lingkungan",
+      "Peningkatan efisiensi energi di seluruh proses"
+    ],
+    "certTitle": "Sertifikasi ISO",
+    "certText": "Sistem GENAU kami memenuhi persyaratan standar ISO 14001 dan ISO 50001 secara penuh.",
+    "meta": {
+      "title": "K Aqua | Produsen Sistem Pipa PP-R Buatan Jerman",
+      "desc": "K Aqua adalah produsen terkemuka sistem pipa polimer PP-R dan PPRCT. Kualitas tanpa kompromi."
+    },
+    "hero": {
+      "eyebrow": "TEKNOLOGI POLIMER MUTLAK",
+      "title1": "BUATAN",
+      "title2": "JERMAN.",
+      "desc": "Kami mendikte aliran. Sistem pipa PP-R dan PPRCT kami bukan sekadar saluran air, mereka adalah garis kehidupan yang tak dapat dihancurkan dari arsitektur modern.",
+      "cta": "Temukan rekayasa kami"
+    },
+    "intro": {
+      "title": "Dominasi melalui Kualitas.",
+      "p1": "Pabrik K Aqua di Waldsolms adalah benteng rekayasa Jerman.",
+      "p2": "Setiap butiran yang dilebur, setiap fitting yang dicetak, tunduk pada protokol jaminan kualitas yang keras. Kami membangun untuk setengah abad, bukan untuk pemeriksaan garansi berikutnya."
+    },
+    "material": {
+      "eyebrow": "Ilmu Material",
+      "title1": "Polypropylene Random Copolymerisat.",
+      "title2": "Dilepaskan.",
+      "p1": "PP-R Tipe 3 bukanlah sembarang plastik. Ini adalah bahan termoplastik yang sangat kompleks yang kami kuasai pada tingkat molekuler.",
+      "p2": "Granulat kami secara eksklusif berasal dari produsen bahan baku elit global. Kami menganalisis setiap batch, menghilangkan apapun yang gagal memenuhi spesifikasi kami.",
+      "items": [
+        {
+          "title": "Massa Molar Ekstrem",
+          "desc": "Menjamin ketahanan rayapan yang maksimum di bawah tekanan."
+        },
+        {
+          "title": "Optimasi Kristal",
+          "desc": "Keseimbangan termodinamika yang sempurna, fleksibilitas tertinggi."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Evolusi Kesempurnaan",
+      "desc": "Setiap dekade adalah tonggak keunggulan teknologi.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Asal Mula Tanpa Toleransi",
+          "text": "Kami menarik garis merah di mana yang lain berkompromi."
+        },
+        {
+          "year": "2005",
+          "title": "Revolusi Polypropylene",
+          "text": "Mendefinisikan ulang stabilitas termal dengan campuran PP-R kami."
+        },
+        {
+          "year": "2015",
+          "title": "Simbiosis Arsitektur",
+          "text": "Pipa komposit PPRCT kami merevolusi konstruksi bangunan."
+        },
+        {
+          "year": "2026",
+          "title": "Diktator Molekuler",
+          "text": "Mengendalikan setiap aspek produksi untuk masa pakai lintas generasi."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "FISIKA YANG DITAKLUKKAN",
+      "title": "Empat Pilar Kekuatan.",
+      "lead": "Teknologi yang berbatasan dengan sihir.",
+      "items": [
+        {
+          "title": "Absolutisme Kualitas",
+          "desc": "Masa pakai 50 tahun adalah kepastian matematis."
+        },
+        {
+          "title": "Kekebalan Termal",
+          "desc": "Kestabilan dimensi mutlak dari -20°C hingga +95°C."
+        },
+        {
+          "title": "Kekebalan Kimia",
+          "desc": "Kebal terhadap korosi, kalsifikasi, dan degradasi."
+        },
+        {
+          "title": "Fusi Molekuler",
+          "desc": "Menyatu secara molekuler menjadi struktur monolitik yang abadi."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "DOMINASI INDUSTRI",
+      "title": "Infrastruktur pada Steroid.",
+      "lead": "Kami menciptakan arteri bagi peradaban modern.",
+      "items": [
+        {
+          "title": "Ekstrusi Brutal",
+          "desc": "Konsistensi ketebalan dinding tak tertandingi."
+        },
+        {
+          "title": "Keunggulan Tersertifikasi",
+          "desc": "ISO 9001, 14001, 50001."
+        },
+        {
+          "title": "Diktat Kebersihan",
+          "desc": "Aman untuk makanan, murni, kebal kuman."
+        },
+        {
+          "title": "Efisiensi Sumber Daya",
+          "desc": "Jejak karbon minimum."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Kebijakan Perusahaan",
+      "title": "Dasar dari tindakan kami.",
+      "desc": "Teknologi saja tidak cukup.",
+      "items": [
+        {
+          "title": "Obsesi Pelanggan",
+          "desc": "Kebutuhan Anda adalah komando kami."
+        },
+        {
+          "title": "Aliansi Strategis",
+          "desc": "Bersekutu dengan produsen bahan baku terbaik."
+        },
+        {
+          "title": "Imperatif Ekologis",
+          "desc": "Keberlanjutan adalah imperatif fisik."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "Kualitas Tersertifikasi",
+      "title1": "Sistem Manajemen ",
+      "titleHighlight": "GENAU",
+      "title2": "",
+      "p1": "Tujuannya adalah perbaikan berkelanjutan.",
+      "p2": "Semua kegiatan memenuhi standar dari ",
+      "p3": " dan ",
+      "list1Title": "Tanggung Jawab Ekologis",
+      "list1Desc": "Perlindungan lingkungan adalah bagian dari kualitas.",
+      "list2Title": "Efisiensi Energi",
+      "list2Desc": "Identifikasi risiko untuk optimasi energi."
+    }
+  },
+  "co2": {
+    "guideText": "<h2>Keberlanjutan dan LCA (Life Cycle Assessment)</h2><p>Pemilihan sistem perpipaan yang tepat berdampak signifikan pada jejak CO2. Kalkulator CO2 K-Aqua memungkinkan penilaian siklus hidup (LCA) yang komprehensif sesuai dengan EN 15804.</p>",
+    "eyebrow": "Alat Rekayasa Premium",
+    "title1": "Simulator LCA & TCO",
+    "titleGrad": "Pro",
+    "lead": "Hitung dampak ekologi dan ekonomi nyata dari sistem perpipaan Anda di seluruh siklus hidupnya. Dengan model aliran fisik nyata (Darcy-Weisbach) dan fase LCA sesuai standar EN.",
+    "tabGeometry": "Pipa",
+    "tabFlow": "Cairan",
+    "tabEnvironment": "Pemasangan",
+    "tabLogistics": "LCA",
+    "dia": "Diameter Nominal",
+    "length": "Panjang Garis",
+    "sdrClass": "Kelas SDR",
+    "velocity": "Kecepatan Aliran (v)",
+    "velocityDesc": "Sangat mempengaruhi kehilangan tekanan dan daya pompa (B).",
+    "fluidTemp": "Suhu Cairan",
+    "ambientTemp": "Suhu Sekitar",
+    "insulation": "Isolasi",
+    "insulationNone": "Tidak ada",
+    "insulationBasic": "Dasar",
+    "insulationStandard": "Standar EnEV",
+    "insulationPremium": "Premium",
+    "installMethod": "Metode Pemasangan (A5)",
+    "installBuilding": "Instalasi Gedung",
+    "installTrench": "Parit (Ekskavator)",
+    "installTrenchless": "Tanpa Parit (HDD)",
+    "installDesc": "Pekerjaan tanah menyebabkan emisi CO2 yang besar melalui mesin (diesel).",
+    "lifespan": "Masa Pakai (Tahun)",
+    "lifespanDesc": "Pipa berumur pendek (misalnya, baja karbon) mungkin perlu diganti beberapa kali.",
+    "energyMixLabel": "Bauran Energi (Operasi & Produksi)",
+    "transportKm": "Jarak Transportasi (km)",
+    "co2Savings": "Penghematan CO₂ LCA",
+    "co2SavingsDesc": "Dibandingkan dengan sistem yang paling tidak efisien (termasuk tenaga pompa). Setara dengan sekitar {n} pohon.",
+    "costSavings": "Penghematan TCO (NPV)",
+    "costSavingsDesc": "Penghematan selama {n} tahun (termasuk perawatan dan NPV biaya operasi).",
+    "lcaPhases": "Fase LCA (EN 15804)",
+    "phaseA13": "A1-A3 (Bahan)",
+    "phaseA45": "A4-A5 (Pemasangan/Transportasi)",
+    "phaseB": "B (Operasi/Energi)",
+    "phaseC": "C (Akhir Masa Pakai)",
+    "moduleD": "Modul D:",
+    "costAnalysis": "Total Biaya Kepemilikan (NPV, {n} Tahun)",
+    "costMaterial": "Bahan",
+    "costInstall": "Pemasangan",
+    "costOperation": "Energi (NPV)",
+    "costMaintenance": "Perawatan",
+    "costTotal": "Total",
+    "certTitle": "Laporan LCA & TCO Tersertifikasi.",
+    "certDesc": "Termasuk hambatan aliran sesuai Darcy-Weisbach dan fase siklus hidup sesuai EPD.",
+    "certBtn": "Hasilkan Laporan PDF",
+    "generating": "Menghasilkan...",
+    "energyGreen": "Energi Hijau",
+    "energyDe": "Bauran DE",
+    "energyEu": "Bauran UE",
+    "energyGlobal": "Bauran Global",
+    "materials": {
+      "kaqua": "K Aqua PPRCT",
+      "pvc": "PVC-U",
+      "copper": "Tembaga",
+      "steel": "Baja Karbon / Baja Tahan Karat",
+      "pex": "Komposit Multilayer (PEX)",
+      "pehd": "PE 100 (HDPE)",
+      "castiron": "Besi Cor"
+    },
+    "project": "Proyek Anda",
+    "advanced": "Parameter LCA Lanjutan",
+    "tempMode": "Suhu operasi",
+    "tempCold": "Air dingin (10°C)",
+    "tempHot": "Air panas (60°C)",
+    "recycle": "Aktifkan kredit daur ulang Akhir Masa Pakai",
+    "disclaimer": "Perhitungan didasarkan pada EPD Tipe III yang divalidasi (EN 15804) dan basis data ecoinvent.",
+    "savedLabel": "Penghematan CO₂e vs. alternatif terbaik",
+    "savedBody1": "Setara dengan penyerapan CO₂ dari",
+    "trees": "{n} pohon",
+    "or": "atau",
+    "carKm": "{n} kilometer mobil",
+    "compareTitle": "Penilaian Siklus Hidup (LCA)",
+    "phases": {
+      "a13": "Produksi (A1-A3)",
+      "a4": "Transportasi (A4)",
+      "b": "Operasi/Termal (B)",
+      "c": "Akhir Masa Pakai (C)"
+    },
+    "auditor": "Kokpit Auditor:",
+    "auditorBody": "Bukti EPD, sertifikat ISO, dan teks GAEB sebagai paket di",
+    "trustLink": "Pusat Kepercayaan (Trust Center)",
+    "downloadPdf": "Unduh Laporan PDF",
+    "lcaLogistics": "Parameter Logistik & LCA",
+    "energyMix": "Bauran Energi Produksi",
+    "transportMode": "Mode Transportasi",
+    "transportTruck": "Truk",
+    "transportShip": "Kapal",
+    "transportAir": "Angkutan Udara",
+    "phaseProduction": "Produksi",
+    "phaseTransport": "Transportasi",
+    "phaseOperation": "Operasi",
+    "phaseEol": "Akhir Masa Pakai"
+  },
+  "trust": {
+    "eyebrow": "Pusat Kepercayaan",
+    "title1": "Kepercayaan itu",
+    "titleGrad": "terukur.",
+    "lead": "Kepercayaan itu terukur. Sertifikat, kerangka kerja GENAU, dan dokumen audit, sebagai layanan mandiri. Tidak perlu menunggu berhari-hari untuk pengiriman manual.",
+    "certs": [
+      [
+        "ISO 9001:2015",
+        "Manajemen Kualitas"
+      ],
+      [
+        "ISO 14001:2015",
+        "Manajemen Lingkungan"
+      ],
+      [
+        "ISO 50001:2018",
+        "Manajemen Energi"
+      ]
+    ],
+    "accred": "Terakreditasi DAkkS",
+    "certNo": "No. Sertifikat",
+    "valid": "Berlaku",
+    "download": "Unduh",
+    "genauEyebrow": "Kerangka Kerja GENAU",
+    "genauTitle": "Lima Huruf. Satu Sistem.",
+    "genauLead": "Sistem manajemen GENAU tertanam dalam perusahaan KWT. Klik melalui lima pilar.",
+    "genau": [
+      [
+        "Gesundheit (Kesehatan)",
+        "Kesehatan dan keselamatan kerja dengan identifikasi bahaya berkelanjutan. Setiap karyawan wajib melaporkan risiko."
+      ],
+      [
+        "Energie (Energi)",
+        "Optimalisasi efisiensi energi menurut ISO 50001, dari ekstruder hingga sirkuit air pendingin tertutup."
+      ],
+      [
+        "Nachhaltigkeit (Keberlanjutan)",
+        "100% potongan sisa dan limbah produksi dikembalikan ke siklus daur ulang."
+      ],
+      [
+        "Arbeitssicherheit (Keselamatan Kerja)",
+        "Pencegahan dan penilaian risiko sebagai praktik harian, bukan sekadar tugas tahunan."
+      ],
+      [
+        "Umwelt (Lingkungan)",
+        "Manajemen lingkungan menurut ISO 14001: Konservasi sumber daya adalah bagian dari kualitas."
+      ]
+    ],
+    "rfpEyebrow": "Layanan Mandiri",
+    "rfpTitle": "Paket Dokumen RFP Anda.",
+    "rfpLead": "Kompilasi sendiri paket audit dan tender Anda alih-alih menunggu pengiriman manual.",
+    "docs": [
+      "Sertifikat ISO 9001:2015 (DE/EN)",
+      "Sertifikat ISO 14001:2015 (DE/EN)",
+      "Sertifikat ISO 50001:2018 (DE/EN)",
+      "Kebijakan GENAU & Penilaian Risiko",
+      "Kepatuhan Air Minum (DVGW/KTW)",
+      "Lembar Data EPD (Tipe III, EN 15804)",
+      "Teks Tender GAEB",
+      "Manual Jaminan Kualitas"
+    ],
+    "inPackage": "Dokumen dalam paket.",
+    "pickLeft": "Pilih di sebelah kiri.",
+    "requestZip": "Minta sebagai ZIP dengan satu klik:",
+    "requestBtn": "Minta Paket",
+    "mailSubject": "Paket Dokumen RFP",
+    "mailBody": "Tolong kirimkan dokumen berikut kepada saya:",
+    "scope3": "Data emisi Scope 3 dan data mentah EPD berdasarkan permintaan: transparansi proaktif daripada pemenuhan kewajiban semata."
+  },
+  "partner": {
+    "eyebrow": "Kemitraan",
+    "title1": "Dua Merek.",
+    "titleGrad": "Satu Sikap.",
+    "lead": "Dua Merek. Satu Sikap. Kemitraan yang erat selama puluhan tahun antara K-Aqua dan KESSEL mentransfer kepercayaan premium dari drainase ke penyediaan air untuk sistem pipa PP-R.",
+    "onionAria": "Model kemitraan lapisan bawang",
+    "rings": [
+      {
+        "l": "Merek Inti",
+        "t": "KESSEL: Pemimpin dalam Drainase",
+        "d": "Produsen premium teknologi drainase. Pameran global menjadikan KESSEL otoritas di industri TGA."
+      },
+      {
+        "l": "Sistem",
+        "t": "K Aqua: Terdepan dalam Penyediaan Air",
+        "d": "Sisi penyediaan dari DNA teknik yang sama: sistem PP-R/PPRCT lengkap d20–d630, diproduksi di Jerman."
+      },
+      {
+        "l": "Layanan",
+        "t": "Ekosistem Bersama",
+        "d": "Perencana mendapat manfaat ganda: pelatihan, dukungan pengelasan, dan alat perencanaan digital."
+      }
+    ],
+    "whyEyebrow": "Mengapa PP-R/PPRCT",
+    "whyTitle": "Tulang punggung dari janji produk.",
+    "cards": [
+      {
+        "t": "Bebas korosi mutlak",
+        "d": "Kebal terhadap korosi elektrokimia: tidak ada titik korosi atau pipa pecah seperti pada tembaga atau baja galvanis."
+      },
+      {
+        "t": "Efisiensi termal",
+        "d": "Kehilangan panas minimal dalam sirkulasi air panas: penghematan energi langsung selama puluhan tahun."
+      },
+      {
+        "t": "Kenetralan higienis",
+        "d": "Tanpa rasa dan bau; permukaan dalam yang sangat halus mencegah biofilm dan inkrustasi."
+      }
+    ]
+  },
+  "academy": {
+    "schulungen": {
+      "meta": {
+        "title": "Pelatihan | K Aqua",
+        "desc": "Pelatihan K Aqua: Keamanan tanpa kompromi melalui Rekayasa Jerman untuk megaproyek global."
+      },
+      "hero": {
+        "eyebrow": "AKADEMI REKAYASA JERMAN",
+        "title1": "Menguji",
+        "title2": "Elit Industri.",
+        "desc": "Program pelatihan K Aqua bukanlah pendidikan biasa. Ini adalah inisiasi ke dunia konstruksi pipa Jerman yang tanpa kompromi. Kami mengajar dalam mikrometer, kami berpikir dalam beberapa dekade.",
+        "cta1": "Mulai Aplikasi Akademi",
+        "cta2": "Lihat Kurikulum"
+      },
+      "manifesto": {
+        "title1": "Presisi",
+        "title2": "<span className=\"text-primary\">bukanlah</span>",
+        "title3": "kebetulan.",
+        "p1": "Itu adalah hasil dari metodologi yang tanpa kompromi.",
+        "p2": "Siapa pun yang dilatih di akademi kami akan bertindak sebagai organ eksekutif dari sistem deterministik yang sempurna."
+      },
+      "bento": {
+        "eyebrow": "PILAR OTORITAS",
+        "title": "Pengetahuan sebagai senjata mutlak.",
+        "lead": "Modul pelatihan teknis kami dirancang untuk membasmi kesalahan tanpa ampun.",
+        "items": [
+          {
+            "title": "Fusi Bahan Homogen",
+            "desc": "Kami melatih kalibrasi suhu, tekanan, dan waktu yang tepat untuk menyatukan pipa dan fitting pada tingkat molekuler."
+          },
+          {
+            "title": "Analitik Destruktif",
+            "desc": "Untuk memahami batasnya, Anda harus melampauinya. Modul praktis dalam rig uji tekanan tinggi."
+          },
+          {
+            "title": "Ekspansi Panjang Termal",
+            "desc": "Kompensasi suhu dingin dalam proyek berskala besar."
+          },
+          {
+            "title": "Media Agresif & Stabilitas pH",
+            "desc": "Analisis mendalam mengenai ketahanan terhadap bahan kimia industri."
+          }
+        ]
+      },
+      "typography": {
+        "t1": "TOLERANSI",
+        "t2": "NOL KESALAHAN."
+      },
+      "curriculum": {
+        "eyebrow": "KURIKULUM",
+        "title": "Sikap Tanpa Kompromi Akademik.",
+        "lead": "Empat Modul. Satu Doktrin."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Modul Alpha: Mekanika & Kinetika Fluida",
+            "desc": "Matematika air."
+          },
+          {
+            "title": "Modul Beta: Desain Pipa Parametrik",
+            "desc": "Desain sistem perpipaan sebagai disiplin algoritmik."
+          },
+          {
+            "title": "Modul Gamma: Arsitektur Kebersihan & Mikrobiologi",
+            "desc": "Pencegahan Legionella pada tingkat struktural."
+          },
+          {
+            "title": "Modul Delta: Audit Akhir K Aqua",
+            "desc": "Hanya mereka yang membuktikan nol kesalahan mutlak yang membawa Sertifikat K Aqua."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Jalur Sertifikasi.",
+        "desc": "Transformasi dari instalatur menjadi Insinyur Ahli K Aqua bersertifikat.",
+        "items": [
+          {
+            "year": "FASE 01",
+            "title": "Fisika Material & Orientasi",
+            "text": "Pemahaman batas-batas fisik."
+          },
+          {
+            "year": "FASE 02",
+            "title": "Laboratorium & Uji Beban",
+            "text": "Destruksi Langsung."
+          },
+          {
+            "year": "FASE 03",
+            "title": "Doktrin Fusi",
+            "text": "Protokol pengelasan yang sempurna."
+          },
+          {
+            "year": "FASE 04",
+            "title": "Arsitektur Sistem",
+            "text": "Penskalaan dari segmen pipa sederhana ke infrastruktur gedung pencakar langit."
+          },
+          {
+            "year": "FASE 05",
+            "title": "Pemeriksaan Ahli",
+            "text": "Audit 48 jam di bawah pengawasan ketat insinyur kepala Jerman."
+          }
+        ]
+      },
+      "spec": {
+        "eyebrow": "STANDAR GLOBAL",
+        "title": "Tolok ukur global untuk keamanan.",
+        "desc": "Ujian kami bukan sekadar secarik kertas. Ini adalah janji tertulis dalam paduan titanium.",
+        "items": [
+          {
+            "title": "Validitas Internasional",
+            "text": "Diakui oleh otoritas bangunan terkemuka dunia."
+          },
+          {
+            "title": "Transparansi Audit",
+            "text": "Dokumentasi digital tanpa cela."
+          },
+          {
+            "title": "Otoritas Seumur Hidup",
+            "text": "Sekali diperoleh, membedakan insinyur sebagai elit."
+          }
+        ]
+      },
+      "cta": {
+        "title1": "Siap untuk",
+        "title2": "kontrol mutlak?",
+        "desc": "Tunduk pada tolok ukur rekayasa Jerman.",
+        "button": "Mulai Aplikasi"
+      }
+    },
+    "zertifizierung": {
+      "meta": {
+        "title": "Sertifikat & Norma | K Aqua",
+        "desc": "DVGW, SKZ, ISO dan banyak lagi."
+      },
+      "hero": {
+        "eyebrow": "Standar Rekayasa Jerman",
+        "title1": "Sertifikat.",
+        "title2": "Direkayasa di Jerman.",
+        "desc": "Modul ini memberikan keamanan tanpa kompromi.",
+        "cta1": "Minta proyek",
+        "cta2": "Manual Teknis"
+      },
+      "manifesto": {
+        "title1": "Sertifikat hanyalah kertas.",
+        "title2": "Proses di baliknya terbuat dari baja.",
+        "p1": "Banyak produsen melihat norma sebagai tujuan utama. Kami melihatnya sebagai batas bawah absolut."
+      },
+      "bento": {
+        "eyebrow": "Pilar Keamanan",
+        "title": "DNA dari sistem perpipaan yang sempurna.",
+        "lead": "Saat kontraktor internasional merencanakan megaproyek bernilai miliaran, mereka tidak mengandalkan janji pemasaran.",
+        "items": [
+          {
+            "title": "Ketahanan Tekanan Ekstrem",
+            "desc": "Diuji untuk beban kontinu hingga PN20/PN25."
+          },
+          {
+            "title": "Kedaulatan Termal",
+            "desc": "Tahan secara permanen dari -20°C hingga +95°C."
+          },
+          {
+            "title": "Kebersihan Mutlak",
+            "desc": "Tanpa korosi. Tanpa inkrustasi."
+          },
+          {
+            "title": "Perlindungan Kebakaran (B1/B2)",
+            "desc": "Sangat tahan api."
+          },
+          {
+            "title": "Jaminan Siklus Hidup",
+            "desc": "Masa pakai yang ditentukan selama 50 tahun."
+          }
+        ]
+      },
+      "certifications": {
+        "eyebrow": "Otoritas",
+        "title": "Auditor terkeras di dunia.",
+        "lead": "Hanya mereka yang lulus audit eksternal paling kritis yang diizinkan membawa label 'Rekayasa Jerman'.",
+        "items": [
+          {
+            "title": "DVGW: Otoritas tertinggi",
+            "p1": "Menetapkan standar global paling ketat untuk kebersihan air minum.",
+            "p2": "Setiap batch menjalani uji hidrostatik jangka panjang."
+          },
+          {
+            "title": "SKZ: Pemantauan Independen",
+            "p1": "SKZ bertindak sebagai auditor kami yang tidak dapat disuap.",
+            "p2": "Bukti kesempurnaan mekanis."
+          },
+          {
+            "title": "KTW-BWGL: Kemurnian Mutlak",
+            "p1": "Dasar penilaian untuk plastik yang bersentuhan dengan air minum.",
+            "p2": "Kualitas air mata air langsung dari keran."
+          },
+          {
+            "title": "ISO 9001 & 14001: Keunggulan Sistematis",
+            "p1": "Kualitas bukanlah kebetulan.",
+            "p2": "Konsumsi energi yang diminimalkan."
+          }
+        ]
+      },
+      "lab": {
+        "eyebrow": "Di dalam Lab",
+        "title1": "Anatomi",
+        "title2": "dari kesempurnaan.",
+        "desc": "Fasilitas canggih di mana material diuji secara ekstrem.",
+        "items": [
+          {
+            "title": "MFR (Melt Flow Rate)",
+            "desc": "Mengontrol laju aliran leleh."
+          },
+          {
+            "title": "OIT (Oxidation Induction Time)",
+            "desc": "Analisis termal."
+          },
+          {
+            "title": "Uji Tekanan Internal Creep",
+            "desc": "Pengujian pada suhu 95°C di bawah tekanan ekstrem."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Puluhan tahun Inovasi.",
+        "desc": "Standar kualitas kami tidak tercipta dalam semalam.",
+        "items": [
+          {
+            "year": "1990",
+            "title": "Kelahiran Standar",
+            "text": "Batu fondasi untuk budaya kualitas tanpa kompromi."
+          },
+          {
+            "year": "1995",
+            "title": "Integrasi ISO 9001",
+            "text": "Pengujian sistem manajemen kualitas kami secara penuh."
+          },
+          {
+            "year": "2005",
+            "title": "Ujian DVGW & SKZ",
+            "text": "Tanda resmi untuk kebersihan mutlak dan ketahanan tekanan ekstrem."
+          },
+          {
+            "year": "2015",
+            "title": "Norma Global (WRAS, KTW)",
+            "text": "Ekspansi sertifikasi untuk pasar internasional."
+          },
+          {
+            "year": "2024",
+            "title": "Analitik Kualitas Generasi Berikutnya",
+            "text": "Pengenalan uji coba OIT dan MFR yang sangat otomatis di laboratorium presisi sendiri."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Kualitas yang dapat Anda percayai secara membabi buta.",
+        "desc": "Unduh sertifikat resmi kami.",
+        "button1": "Unduh Sertifikat",
+        "button2": "Hubungi Dukungan Teknis"
+      }
+    },
+    "glossar": {
+      "meta": {
+        "title": "Glosarium Teknis | K Aqua",
+        "desc": "Keamanan tanpa kompromi melalui Rekayasa Jerman."
+      },
+      "hero": {
+        "eyebrow": "Glosarium Teknis",
+        "title1": "Terminologi",
+        "title2": "Keamanan Mutlak.",
+        "desc": "Selamat datang di inti leksikal teknologi pipa.",
+        "cta1": "Hubungi Teknisi",
+        "cta2": "Jelajahi Glosarium"
+      },
+      "manifesto": {
+        "eyebrow": "Doktrin",
+        "title": "Arsitektur Ketidakmungkinan.",
+        "lead": "Setiap istilah dalam glosarium ini mewakili pilar dari filosofi nol-kesalahan kami."
+      },
+      "scroll": {
+        "eyebrow": "Kinematika & Ilmu Material",
+        "title": "Proses K Aqua.",
+        "lead": "Pahami prinsip fisika yang membuat sistem kami tak terhancurkan.",
+        "items": [
+          {
+            "title": "Dinamika Ekstrusi di Bawah Tekanan Tinggi",
+            "desc": "Deformasi termoplastik memastikan struktur monolitik industri."
+          },
+          {
+            "title": "Uji Beban Hidrostatik",
+            "desc": "Menerapkan tekanan internal di luar persyaratan standar."
+          },
+          {
+            "title": "Teknologi Pengelasan Polifusi",
+            "desc": "Menghilangkan kelemahan dengan menyatukan pipa dan fitting."
+          },
+          {
+            "title": "Ketahanan Kavitasi",
+            "desc": "Dinding dalam yang sangat halus mencegah efek mikrokavitasi."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenklatur",
+        "title": "Parameter Teknis.",
+        "lead": "Kosakata terpenting diringkas menjadi esensinya.",
+        "items": [
+          {
+            "title": "PP-R",
+            "desc": "Dasar molekuler dari umur panjang sistem kami."
+          },
+          {
+            "title": "Ekspansi termal linier",
+            "desc": "Pipa serat komposit meminimalkan perubahan ini."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "Rasio ketebalan dinding yang dioptimalkan."
+          },
+          {
+            "title": "Kemurnian DVGW",
+            "desc": "Keamanan mikrobiologis."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Tidak Mengerti?",
+        "desc": "Insinyur kami selalu siap.",
+        "button1": "Tanya Insinyur",
+        "button2": "Ke Pengetahuan Pipa"
+      }
+    },
+    "eyebrow": "Akademi Pipa K Aqua",
+    "title1": "Pelatihan untuk",
+    "titleGrad": "Profesional",
+    "lead": "Tingkatkan keahlian Anda ke tingkat rekayasa Jerman. Pahami PPR.",
+    "videos": [
+      {
+        "t": "Mekanika Fusi Molekuler",
+        "d": "Dasar-dasar pengelasan soket."
+      },
+      {
+        "t": "Manajemen Tekanan Ekstrem",
+        "d": "Teknik pengelasan Butt."
+      }
+    ],
+    "quizEyebrow": "Sertifikasi Master",
+    "quizTitle": "Buktikan Keahlian Anda.",
+    "intro": "Lulus ujian dan buktikan kualifikasi sebagai Insinyur PPR Tipe 3.",
+    "start": "Mulai Ujian",
+    "qLabel": "Pertanyaan",
+    "quiz": [
+      {
+        "q": "Apa keunggulan utama dari Fusi Molekuler?",
+        "o": ["Koneksi tak terlihat", "Struktur monolitik tak terpisahkan", "Lebih murah daripada lem"],
+        "a": 1,
+        "e": "Pengelasan polifusi menciptakan unit tanpa sambungan yang sepenuhnya aman dari kebocoran."
+      },
+      {
+        "q": "Pada suhu berapa pengelasan PP-R berlangsung?",
+        "o": ["260°C", "100°C", "500°C"],
+        "a": 0,
+        "e": "Suhu harus 260°C untuk fusi optimal."
+      },
+      {
+        "q": "Apa arti SDR?",
+        "o": ["Standard Dimension Ratio", "System Data Rate", "Safe Diameter Radius"],
+        "a": 0,
+        "e": "SDR adalah rasio antara diameter luar pipa dan ketebalan dinding."
+      }
+    ],
+    "resPerfect": "Sempurna!",
+    "resGood": "Bagus, tetapi masih ada ruang untuk perbaikan.",
+    "resLow": "Coba pelajari modul pelatihan kembali.",
+    "retry": "Ulangi",
+    "titlePerfect": "Sertifikat Diberikan",
+    "titleGood": "Selamat Lulus"
   }
 }

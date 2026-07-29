@@ -1,0 +1,1405 @@
+,
+"catalogx": {
+    "eyebrow": "Complete Product Catalogue",
+    "faqTitle": "Frequently Asked Questions",
+    "title": "All 79 Article Families, with Real Article Numbers.",
+    "lead": "Pipes, fittings, transition fittings, valves, weld-in saddles, accessories, and tools, every line is taken from the binding K Aqua catalogue. Select a category, expand the article, check the article number.",
+    "searchPlaceholder": "Search for article number or product name, e.g., \"AQ200P20\" or \"Elbow\"",
+    "noResults": "No results found, adjust search or select another category.",
+    "codesLabel": "Article Numbers",
+    "sizesLabel": "Sizes",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Series",
+    "pressureLabel": "Operating Pressure",
+    "lenLabel": "Bar Length",
+    "cats": {
+      "pipes": {
+        "label": "Pipes",
+        "desc": "PPR and PPRCT pipes, standard, fiber-reinforced, and UV-stabilized, 12 series."
+      },
+      "fittings": {
+        "label": "Fittings",
+        "desc": "Socket fusion and electrofusion fittings, d20–d125, 13 article families."
+      },
+      "transitionFittings": {
+        "label": "Transition Fittings",
+        "desc": "Transitions to thread and brass, for existing connections and valves, 13 families."
+      },
+      "valves": {
+        "label": "Valves",
+        "desc": "Ball valves, concealed valves, manifold blocks, 9 article families."
+      },
+      "weldInSaddles": {
+        "label": "Weld-in Saddles",
+        "desc": "Branches without pipe separation, with and without threads, 3 families."
+      },
+      "accessories": {
+        "label": "Accessories",
+        "desc": "Pipe clamps, backing flanges, gaskets, plugs, 5 article families."
+      },
+      "tools": {
+        "label": "Tools",
+        "desc": "Pipe cutters, welding machines, and tools for all four joining methods, 14 families."
+      }
+    },
+    "rfq": {
+      "title": "Project Request",
+      "desc": "Request a quote directly for <span class=\"font-semibold\">{title}</span>.",
+      "button": "To Request"
+    },
+    "similar": {
+      "title": "More from {category}"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "The K Pipe PPR SDR 6 is a high-performance pipe from our comprehensive pipe system category. It is designed to handle demanding fluid transport safely and efficiently.",
+        "seo_p2": "This pipe is made of durable PPR material and is designed with the SDR 6 rating (Series S 2.5) for a high operating pressure of up to 2.0 MPa at 20°C. The standard length of 4 metres enables quick installation.",
+        "seo_p3": "Thanks to its excellent chemical and thermal resistance, the SDR 6 pipe is ideal for industrial applications and drinking water supply. The smooth inner surface minimizes pressure loss and prevents deposits.",
+        "faq": [
+          {
+            "q": "What operating temperatures is SDR 6 suitable for?",
+            "a": "It is designed for continuous operating temperatures up to 70°C and offers a pressure resistance of 20 bar at 20°C."
+          },
+          {
+            "q": "What are the advantages of the high wall thickness?",
+            "a": "The SDR 6 series (S 2.5) offers maximum pressure resistance and mechanical stability in heavily loaded systems."
+          },
+          {
+            "q": "Can I use this pipe for cold water?",
+            "a": "Yes, it is excellent for cold water systems because the smooth surface effectively prevents incrustations and bacterial growth."
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "The K Pipe PPRCT SDR 7.4 represents the next generation of plastic pipe systems. It combines improved material properties with optimized wall thickness for maximum flow rates.",
+        "seo_p2": "Made from highly crystalline PPRCT, this pipe offers an impressive nominal pressure of 2.0 MPa at 20°C at SDR 7.4 (S 3.2). The reduced wall thickness saves weight without compromising stability.",
+        "seo_p3": "Typical areas of application include complex heating, air conditioning, and sanitary systems. Thanks to the PPRCT material, installers benefit from higher long-term strength even at higher temperatures.",
+        "faq": [
+          {
+            "q": "What does PPRCT mean compared to PPR?",
+            "a": "PPRCT stands for an improved crystalline structure that allows for higher pressures at higher temperatures, enabling thinner wall thicknesses."
+          },
+          {
+            "q": "Is the flow rate higher with SDR 7.4?",
+            "a": "Yes, due to the reduced wall thickness of the PPRCT, an up to 17% higher flow capacity is achieved with the same outer diameter."
+          },
+          {
+            "q": "Is SDR 7.4 suitable for heating systems?",
+            "a": "Absolutely, the material is extremely thermally resistant and therefore ideal for supply lines in modern heating systems."
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "The K-Pipe PP-R SDR 11 is the standard solution for a variety of plumbing and heating applications. It is characterized by its reliability and ease of handling.",
+        "seo_p2": "With an SDR 11 classification (Series S 5), this PP-R pipe is certified for an operating pressure of 1.2 MPa at 20°C. The 4-metre lengths can be welded flexibly and precisely.",
+        "seo_p3": "It is frequently used in cold water distribution and as a versatile pipe in building technology. The homogeneous welded connection guarantees lifetime tightness without mechanical weak points.",
+        "faq": [
+          {
+            "q": "Is the pipe suitable for cold and hot water?",
+            "a": "The SDR 11 pipe is primarily designed for cold water (20°C at 12 bar) and the low-pressure hot water range (60°C at 6 bar)."
+          },
+          {
+            "q": "How is the PP-R SDR 11 pipe installed?",
+            "a": "Installation is carried out using the socket fusion welding process, which creates absolutely homogeneous, leak-free connections."
+          },
+          {
+            "q": "Are there weight differences compared to other SDR classes?",
+            "a": "Yes, due to the thinner wall, the pipe is significantly lighter and more flexible to handle on the construction site."
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "The purple-colored K-Pipe Purple PP-R SDR 11 is used for the clear identification of specific pipe systems. It prevents confusion during the installation of separate water circuits.",
+        "seo_p2": "The purple signal colour generally identifies process water, rainwater, or irrigation systems. Technically, it corresponds to standard PP-R with SDR 11 (1.2 MPa at 20°C) and offers the same high quality.",
+        "seo_p3": "The use of this special pipe increases system safety and visually ensures the standard-compliant separation of drinking and process water. Perfect for sustainable water management systems.",
+        "faq": [
+          {
+            "q": "What does the purple colour stand for?",
+            "a": "It is used to visually distinguish pipe systems for process water, grey water, or rainwater harvesting in accordance with international guidelines."
+          },
+          {
+            "q": "Can the pipe be welded with normal PP-R fittings?",
+            "a": "Yes, the purple pipe is compatible with all K Aqua standard fittings and is welded using the same parameters."
+          },
+          {
+            "q": "Does the colour affect the quality of the material?",
+            "a": "No, the physical and chemical properties are identical to the regular PP-R SDR 11 pipe."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "The K-Fiber Pipe PPRCT SDR 7.4 is a state-of-the-art, fiber-reinforced composite pipe. The integrated fiber layer significantly reduces linear expansion.",
+        "seo_p2": "The innovative PPRCT base is supplemented by a fiber middle layer. With SDR 7.4 (S 3.2), the pipe withstands pressures of up to 2.0 MPa at 20°C, with up to 50% less thermal expansion at the same time.",
+        "seo_p3": "This makes the pipe the perfect choice for risers and long runs in building technology, where fewer fastening points are required, which saves installation time and material costs.",
+        "faq": [
+          {
+            "q": "How much does the fiber reduce thermal linear expansion?",
+            "a": "The integrated glass fiber layer reduces linear expansion by up to 75% compared to solid PP-R pipes."
+          },
+          {
+            "q": "Does the fiber pipe need to be peeled before welding?",
+            "a": "No, unlike Stabi pipes with an aluminum layer, our fiber pipe can be welded directly and without pre-treatment."
+          },
+          {
+            "q": "Is the pipe suitable for central risers?",
+            "a": "Yes, due to its extremely high inherent stiffness and pressure resistance, it is the optimal choice for large risers."
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "Specialized for cooling and heating water applications, the K-Fiberclima Pipe PPRCT SDR 11 offers optimal performance for climate control systems. It is designed for thermal efficiency and stability.",
+        "seo_p2": "The fiber-reinforced PPRCT material (SDR 11, S 5) ensures safe operation at 1.6 MPa (20°C) and 0.8 MPa (70°C). The thinner walls allow for an extremely high flow rate.",
+        "seo_p3": "This pipe particularly shows its strengths in large HVAC systems (heating, ventilation, air conditioning). It prevents corrosion in the cooling circuit and ensures maintenance-free, energy-efficient operation.",
+        "faq": [
+          {
+            "q": "What makes the pipe ideal for chilled water in climate control systems?",
+            "a": "The low thermal conductivity of PPRCT prevents condensation significantly better than metallic pipes."
+          },
+          {
+            "q": "How does it behave with the circulation of antifreeze agents?",
+            "a": "It is highly resistant to common glycols and antifreeze agents, preventing leaks caused by material fatigue."
+          },
+          {
+            "q": "Can the pipes be used for large volume flows?",
+            "a": "Thanks to the thinner wall (SDR 11) with maximum stability, it allows for extremely large volume flows in industrial networks."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "The classic K-Fiber Pipe PP-R SDR 7.4 is the proven solution when fiber reinforcement and extreme pressure resistance are required. It effectively minimizes thermal expansion.",
+        "seo_p2": "By combining PP-R and fiber technology, this pipe (SDR 7.4, S 3.2) achieves a peak operating pressure of 2.5 MPa at 20°C. It offers maximum stability for demanding networks.",
+        "seo_p3": "Whether in industrial plant construction or complex domestic hot water circulation systems, this pipe ensures rigid, deformation-free installation and highest operational reliability over decades.",
+        "faq": [
+          {
+            "q": "Is SDR 7.4 approved for high temperatures?",
+            "a": "Yes, it tolerates temperatures up to 70°C at a nominal pressure of 1.0 MPa (10 bar) and short-term peaks of 95°C."
+          },
+          {
+            "q": "How many fastening clamps are required for long distances?",
+            "a": "Thanks to the fiber reinforcement, the fastening distances can be drastically increased compared to standard pipes."
+          },
+          {
+            "q": "Are there corrosion risks with changing water qualities?",
+            "a": "No, the PP-R material is 100% corrosion-free and independent of the pH value of the transported medium."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "The K-Fiber Pipe PP-R SDR 9 bridges the gap between standard and high-pressure fiber pipes. It offers an excellent balance of flow capacity and pressure resistance.",
+        "seo_p2": "With the S 4 (SDR 9) series, the PP-R fiber pipe is approved for pressures up to 2.0 MPa at 20°C. The wall thicknesses are optimized for medium to high loads.",
+        "seo_p3": "This pipe is often used in commercial and industrial projects where conventional pipes reach their limits, but the extreme reserves of SDR 7.4 are not yet needed.",
+        "faq": [
+          {
+            "q": "Why choose SDR 9 instead of SDR 7.4?",
+            "a": "SDR 9 offers an excellent compromise of higher flow capacity (thinner wall) while still providing extreme pressure resistance."
+          },
+          {
+            "q": "Can it be welded with standard PP-R fittings?",
+            "a": "Absolutely, the SDR 9 fiber pipe is fully compatible with our K Aqua SDR 6 and SDR 7.4 PP-R fittings."
+          },
+          {
+            "q": "Is it approved for drinking water supply?",
+            "a": "Yes, it meets all hygienic standards for hot and cold drinking water worldwide."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "The K-Fiber Pipe PP-R SDR 11 is designed for weight-optimized yet dimensionally stable installations. It combines the advantages of fiber technology with a lightweight profile.",
+        "seo_p2": "The PP-R material with fiber layer in the SDR 11 classification allows pressures up to 1.6 MPa at 20°C. It offers an optimal inner cross-section for large water volumes.",
+        "seo_p3": "It is ideally suited for climate chilled water and large distribution lines. Installation is very fast thanks to the low weight and reduced fastening distances.",
+        "faq": [
+          {
+            "q": "Are the welding times shorter for SDR 11 pipes?",
+            "a": "Yes, due to the reduced wall thickness, the heating times on the heating element are shortened, which speeds up the work process."
+          },
+          {
+            "q": "What are the application limits for this SDR 11 pipe?",
+            "a": "It is designed for maximum pressures of 16 bar at 20°C and 8 bar at 60°C."
+          },
+          {
+            "q": "Do cooling systems benefit from this pipe?",
+            "a": "Yes, the excellent insulation value significantly minimizes energy loss in cooling networks."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "The large-dimensioned K-Fiber Pipe PP-R SDR 17 was specially developed for large-scale industrial plants and main supply lines. It offers massive flow cross-sections.",
+        "seo_p2": "With diameters of up to 200 mm and the S 8 (SDR 17) series, this pipe can handle 1.0 MPa at 20°C. The fiber reinforcement ensures high dimensional stability even with these large dimensions.",
+        "seo_p3": "Ideal for district cooling networks, municipal water supply, or as a main riser in high-rise buildings. It is the corrosion-free alternative to heavy metallic large pipes.",
+        "faq": [
+          {
+            "q": "Is SDR 17 suitable for high network pressure levels?",
+            "a": "SDR 17 (PN 10) is specially designed for low-pressure networks with enormous volume flows, e.g., district cooling networks."
+          },
+          {
+            "q": "How are such large dimensions connected?",
+            "a": "Large pipes (from 90 mm to 200 mm) are preferably connected by heating element butt welding or with electrofusion sockets."
+          },
+          {
+            "q": "What is the main advantage over steel pipes?",
+            "a": "The PP-R pipe does not rust, weighs a fraction of steel pipes, and permanently maintains a perfect flow cross-section."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "The K-Fiber UV Pipe PP-R SDR 7.4 solves the problem of UV degradation in unprotected outdoor installations. It features a special, weather-resistant outer layer.",
+        "seo_p2": "In addition to the thermally stabilizing fiber middle layer and the PP-R base (SDR 7.4, 2.0 MPa), the UV jacket permanently protects the pipe against direct sunlight and weather influences.",
+        "seo_p3": "This makes it perfect for roof installations, outdoor plants, or bridge lines. Additional insulation or coatings for UV protection can be completely omitted.",
+        "faq": [
+          {
+            "q": "How is UV protection achieved with this pipe?",
+            "a": "A special, co-extruded black outer layer absorbs and blocks harmful UV radiation before it attacks the PP-R material."
+          },
+          {
+            "q": "Does the UV layer need to be removed before welding?",
+            "a": "No, since it is a homogeneous plastic layer, it is simply fused with the fitting during socket welding."
+          },
+          {
+            "q": "Is the outdoor service life limited?",
+            "a": "The UV protection layer prevents polymer degradation, ensuring the full service life of 50 years even in direct sunlight."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "The premium K-Fiber UV Pipe PPRCT SDR 7.4 combines all top features: high-performance material, fiber reinforcement, and integrated UV protection in a single product.",
+        "seo_p2": "Based on PPRCT for highest temperature resistance (up to 70°C at 1.0 MPa) and equipped with a UV-resistant shell, this SDR 7.4 pipe is the ultimate all-rounder for extreme conditions.",
+        "seo_p3": "Whether solar connection lines, cooling towers on industrial buildings, or demanding outdoor installations in hot climates, this pipe guarantees maximum service life without material fatigue.",
+        "faq": [
+          {
+            "q": "Does this pipe combine UV protection with higher flow capacity?",
+            "a": "Yes, thanks to the highly crystalline PPRCT material, a thinner wall thickness can be used while the UV layer provides extreme outdoor protection."
+          },
+          {
+            "q": "Are UV-resistant K Aqua fittings available?",
+            "a": "Fittings are usually protected by insulation, paint, or UV protection tapes, while the long pipe runs are factory-protected."
+          },
+          {
+            "q": "Is this pipe suitable for cooling towers?",
+            "a": "It is the optimal choice, as it permanently withstands both blazing sun and chemical additives in the cooling water."
+          }
+        ]
+      },
+      "cap": {
+        "seo_p1": "The Cap is an indispensable fitting within our fittings category, designed for the permanent and secure closure of pipe ends.",
+        "seo_p2": "Manufactured from high-quality PP-R material, the cap corresponds to the common SDR classes of the pipes and offers maximum pressure resistance and dimensional accuracy for a homogeneous weld.",
+        "seo_p3": "It is optimally suited for the final or temporary decommissioning of pipe sections in drinking water and heating networks, guaranteeing an absolutely leak-free and maintenance-free seal.",
+        "faq": [
+          {
+            "q": "Can the cap be used for a pressure test?",
+            "a": "Yes, after proper welding and cooling, the cap easily withstands the full test pressure of the system (up to 30 bar)."
+          },
+          {
+            "q": "How do I seal temporary lines?",
+            "a": "For temporary shut-offs, we recommend threaded plugs; the cap is homogeneously welded and is thus intended for permanent closure."
+          },
+          {
+            "q": "Is the cap leak-proof at all temperatures?",
+            "a": "Due to thermal fusion, there are no different expansion coefficients, which means it remains absolutely leak-free from 0°C to 95°C."
+          }
+        ]
+      },
+      "socket": {
+        "seo_p1": "The Socket is the fundamental connecting element of our fittings, developed for the simple and reliable extension of straight pipe sections.",
+        "seo_p2": "Made of robust PP-R, this fitting establishes a materially bonded and extremely pressure-resistant connection through socket welding, which is perfectly matched to our SDR pipe series.",
+        "seo_p3": "Whether in the private sanitary sector or in industrial plant construction, the socket ensures seamless flow without cross-sectional narrowing and prevents long-term pressure losses.",
+        "faq": [
+          {
+            "q": "How deep must the pipe be inserted into the socket?",
+            "a": "The insertion depth is exactly defined in our technical guidelines and should be marked on the pipe to avoid cross-sectional narrowing."
+          },
+          {
+            "q": "Can sockets also be used for fiber pipes?",
+            "a": "Yes, our standard sockets are fully compatible with all K Aqua PP-R, PPRCT, and fiber pipes."
+          },
+          {
+            "q": "Is there a risk of micro-leaks at the seam?",
+            "a": "No, because polyfusion creates a materially bonded, molecular connection that is as strong as the pipe itself."
+          }
+        ]
+      },
+      "elbow-45": {
+        "seo_p1": "The Elbow 45° allows gentle direction changes in the pipeline course and is one of our most frequently used fittings.",
+        "seo_p2": "Thanks to precise injection molding from durable PP-R, the elbow guarantees perfect compatibility with all K Aqua piping systems and withstands the highest system pressures.",
+        "seo_p3": "Particularly with complex pipe routings in narrow shafts or when bypassing obstacles, this 45-degree elbow effectively reduces flow resistance.",
+        "faq": [
+          {
+            "q": "When should I use a 45-degree instead of a 90-degree elbow?",
+            "a": "A 45-degree elbow significantly reduces pressure loss and flow resistance (Zeta value) in the system and prevents noise generation."
+          },
+          {
+            "q": "Are K Aqua elbows flow-optimized?",
+            "a": "Yes, the inner radii of our 45-degree elbows are extremely smooth and hydraulically optimized to prevent cavitation."
+          },
+          {
+            "q": "Can two 45-degree elbows be combined to form a 90-degree bend?",
+            "a": "Yes, this practice is often used with large dimensions to create wide bends and reduce pump resistance."
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "seo_p1": "The Elbow 45° Female/Male offers maximum flexibility in tight spaces and direct connection combinations.",
+        "seo_p2": "The PP-R fitting features a socket end and a spigot end, which allows direct welding to other fittings without an additional pipe piece.",
+        "seo_p3": "In compact manifold installations or when building narrow pre-wall systems, this component saves valuable assembly time and reduces the number of welds.",
+        "faq": [
+          {
+            "q": "Does a 90-degree elbow increase wear due to flow pressure?",
+            "a": "Thanks to the wall thickness reserves and the extremely smooth inner surfaces of the PP-R material, wear from abrasion is practically excluded."
+          },
+          {
+            "q": "Are there direction markings on the K Aqua elbows?",
+            "a": "Yes, our fittings often have production markings that help with exact axial alignment on the construction site."
+          },
+          {
+            "q": "Can the 90-degree elbow be used for riser pipes?",
+            "a": "Yes, it is ideal for branching lines off from shafts to the respective floor."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "The Elbow 90° is the standard direction changer in our fittings range, designed for precise, right-angled branches.",
+        "seo_p2": "This dimensionally stable PP-R component is constructed to easily absorb the mechanical and thermal loads of the system and is compatible with all SDR levels.",
+        "seo_p3": "Perfect for corner installations and wall penetrations throughout building services engineering, it guarantees a tight and secure 90-degree bend without edges that disturb the flow.",
+        "faq": [
+          {
+            "q": "What does M/F (Male/Female) mean for this elbow?",
+            "a": "One side is welded as a socket, the other side can be directly welded into another fitting."
+          },
+          {
+            "q": "What is the advantage of the M/F construction?",
+            "a": "It saves space and avoids an additional pipe piece between two fittings, which is crucial in tight spaces."
+          },
+          {
+            "q": "Does this change the welding process?",
+            "a": "The process remains the same, only the male and female dies on the welding mirror are used simultaneously for the pipe and fitting."
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "The Elbow 90° Female/Male is the solution for ultra-compact corner connections directly to other components.",
+        "seo_p2": "This intelligent PP-R fitting combines a regular socket end with an insertion end to seamlessly implement fitting-to-fitting welds.",
+        "seo_p3": "Especially when installing valves or heating circuit manifolds, this design significantly reduces space requirements and minimizes material and labor costs.",
+        "faq": [
+          {
+            "q": "Is the 45-degree M/F elbow suitable for parallel offsets?",
+            "a": "Yes, combined with a standard 45-degree elbow, extremely compact floor offsets can be realized."
+          },
+          {
+            "q": "Is the pressure resistance of the female/male connection just as high?",
+            "a": "The homogeneous polyfusion welding also ensures 100 percent pressure resistance (PN 25) at the joint here."
+          },
+          {
+            "q": "For which dimensions is this elbow available?",
+            "a": "It is typically produced for the common dimensions in floor distribution from 20 mm to 40 mm."
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "seo_p1": "The Electrofusion Socket is the premium solution for connections where conventional socket welding is not possible due to space constraints.",
+        "seo_p2": "Equipped with integrated heating wires made of a special alloy, this PP-R fitting automatically and computer-controlled fuses with the base pipe.",
+        "seo_p3": "Ideal for repair work in shafts, subsequent extensions, or extremely inaccessible areas, it offers a 100 percent secure and recordable connection.",
+        "faq": [
+          {
+            "q": "Does the pipe need to be peeled before electrofusion welding?",
+            "a": "Yes, removing the oxide layer using a special pipe peeler is absolutely necessary for flawless fusion."
+          },
+          {
+            "q": "Which welding machines can be used?",
+            "a": "K Aqua or universal electrofusion welding machines that can read the barcode on the socket must be used."
+          },
+          {
+            "q": "When is electrofusion welding better than heating element socket welding?",
+            "a": "Especially in confined spaces (e.g., in a shaft) where there is no room for the socket welding tool."
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "seo_p1": "The Flange Adaptor serves as an essential connecting element to securely and detachably connect plastic pipes to metallic flanges or valves.",
+        "seo_p2": "The PP-R component is shaped to provide a perfect fit for backing flanges and evenly transfers the high contact pressure to the gasket.",
+        "seo_p3": "Indispensable in industrial pipeline construction and large distribution systems, the flange adaptor enables the safe transition to pumps, large valves, and steel systems.",
+        "faq": [
+          {
+            "q": "Which flange standards does the K Aqua flange adaptor support?",
+            "a": "It is compatible with standard DIN/EN flanges (e.g., PN10, PN16) and requires the appropriate K Aqua backing flange."
+          },
+          {
+            "q": "Do I need an additional gasket?",
+            "a": "Yes, a suitable EPDM flat gasket must be inserted between the PP-R flange adaptor and the counter flange."
+          },
+          {
+            "q": "How is the flange adaptor connected to the pipe?",
+            "a": "It is welded directly onto the pipe or into a socket like a conventional fitting using heating element socket welding."
+          }
+        ]
+      },
+      "reducing-bush": {
+        "seo_p1": "The Reducing Bush enables a seamless transition between different pipe dimensions within our fittings family.",
+        "seo_p2": "Manufactured from high-strength PP-R, this reducer is designed to optimise flow and avoid cavitation at the cross-sectional change.",
+        "seo_p3": "It is frequently used to taper main lines into smaller supply branches, reducing material costs and precisely balancing network pressure.",
+        "faq": [
+          {
+            "q": "Can I skip several dimensions at once?",
+            "a": "Yes, we offer reducers that achieve multi-stage cross-sectional narrowing in one component, e.g., from 63 mm to 32 mm."
+          },
+          {
+            "q": "Is the reducing bush welded into or onto the pipe?",
+            "a": "The reducer is usually designed as a male/female (M/F) fitting: the large side fits into a socket, the small side accepts the pipe."
+          },
+          {
+            "q": "Does the reduction affect the operating pressure?",
+            "a": "No, the wall thicknesses of the K Aqua reducers are dimensioned to match the nominal pressure of the overall system (up to PN 25)."
+          }
+        ]
+      },
+      "reducing-tee": {
+        "seo_p1": "The Reducing Tee combines a 90-degree branch with a simultaneous cross-sectional reduction in the branch.",
+        "seo_p2": "This multifunctional PP-R fitting offers maximum stability and pressure resistance due to its monolithic design, suitable for all standard SDR applications.",
+        "seo_p3": "In the floor distribution of drinking and heating water, the reducing tee ensures an efficient setup without additional reducers, which significantly speeds up installation.",
+        "faq": [
+          {
+            "q": "When do I use a reducing tee instead of a standard tee with a reducer?",
+            "a": "A reducing tee saves an additional weld seam and reduces installation space, making it more efficient and safer."
+          },
+          {
+            "q": "Is the branch always the reduced side?",
+            "a": "Mostly yes, since smaller branches are typically led from the main line to the consumers."
+          },
+          {
+            "q": "Can these tees cause flow noise?",
+            "a": "No, the inner radii are hydraulically optimized to minimize turbulence and cavitation noise during cross-sectional changes."
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "seo_p1": "The Reducing Tee Large Sizes is specially designed for industrial main lines with large cross-sections.",
+        "seo_p2": "This massive PP-R component withstands extreme volume flows and system pressures and enables a safe, reduced branch from large supply lines.",
+        "seo_p3": "Often used in district cooling networks and main risers, this fitting guarantees absolute stability and permanent leak-tightness under the highest loads.",
+        "faq": [
+          {
+            "q": "What special tools are needed for installation?",
+            "a": "An exact hole milling requires a special K Aqua tapping drill, as well as a saddle welding tool for heating."
+          },
+          {
+            "q": "Can a saddle be mounted on a pressurized pipe?",
+            "a": "No, the piping system must be completely emptied and depressurized before tapping and welding takes place."
+          },
+          {
+            "q": "Is the saddle connection as strong as a tee?",
+            "a": "Yes, through the deep polyfusion welding on the pipe wall, the saddle branch achieves the same pressure rating as the base pipe."
+          }
+        ]
+      },
+      "tee": {
+        "seo_p1": "The Tee is the classic branch fitting for symmetrical flow division in PP-R networks.",
+        "seo_p2": "Made of robust polypropylene (PP-R), it offers three equally dimensioned socket ends that fully support the nominal pressure of the piping system.",
+        "seo_p3": "It is the heart of every ring and series line in sanitary installations and ensures reliable, low-pressure-loss distribution of the medium.",
+        "faq": [
+          {
+            "q": "Does the tee reduce the pipe cross-section?",
+            "a": "No, the interior design of our tees is designed for full bore so as not to throttle the volume flow."
+          },
+          {
+            "q": "Is a tee more susceptible to deposits?",
+            "a": "Thanks to the extremely smooth PP-R material (roughness value 0.007 mm), limescale and biofilms have no chance of settling even in the branches."
+          },
+          {
+            "q": "Are different welding times required for large tees?",
+            "a": "Yes, the heating, changeover, and cooling times depend on the dimension and must be strictly observed according to DVS guidelines."
+          }
+        ]
+      },
+      "cross": {
+        "seo_p1": "The Cross allows a main flow to be distributed in three different directions within a compact installation level.",
+        "seo_p2": "This four-way PP-R fitting is flow-optimized to minimize turbulence and seamlessly integrates into our high-pressure SDR series.",
+        "seo_p3": "Perfect for complex distribution cabinets and central crossing points in building services, it replaces multiple tees and thus saves valuable installation space and time.",
+        "faq": [
+          {
+            "q": "Does the cross cause high pressure losses?",
+            "a": "Since four flows can meet, the Zeta value is higher than with straight pipes, but the generous interior design keeps the loss minimal."
+          },
+          {
+            "q": "In which situations is a cross mandatory?",
+            "a": "Especially in pre-wall installations or underfloor heating manifolds, where construction must be extremely flat and symmetrical."
+          },
+          {
+            "q": "Are the branches always the same size?",
+            "a": "In our standard cross, all four connections have the same dimensions (e.g., 4x 20mm)."
+          }
+        ]
+      },
+      "cross-over": {
+        "seo_p1": "The Cross-over is a clever solution for crossing cold and hot water lines in confined spaces.",
+        "seo_p2": "The curved PP-R fitting features integrated socket ends and an elegant bridge shape that allows pipe routing on one level without height offset.",
+        "seo_p3": "It prevents collisions in wall installations and underfloor heating and guarantees smooth flow with a visually perfect, flat pipe layout.",
+        "faq": [
+          {
+            "q": "How big is the curve of the gooseneck?",
+            "a": "The bend is precisely dimensioned so that a crossing K Aqua pipe of the same or smaller dimension is bridged without contact."
+          },
+          {
+            "q": "Are special sockets needed for installation?",
+            "a": "The gooseneck (cross-over) typically has unwelded pipe ends and is integrated into the system on both sides with standard sockets."
+          },
+          {
+            "q": "Can I shape a straight PP-R pipe into a cross-over myself using heat?",
+            "a": "No! Manual bending with hot air guns destroys the molecular structure of the pipe and immediately voids the warranty."
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "seo_p1": "The Cross-over Pipe is the extended version of the cross-over, ideal for pipe bridges without direct socket connection at the ends.",
+        "seo_p2": "Manufactured from high-quality PP-R, this bridge component offers pure insertion ends that allow maximum flexibility when positioning the welding sockets.",
+        "seo_p3": "Installers use this component for difficult crossings in large distribution systems to flexibly adapt the routing to the conditions on site.",
+        "faq": [
+          {
+            "q": "What is the difference between the crossing tee and the cross?",
+            "a": "The crossing tee allows crossing a line without contact and integrates a branch at the same time."
+          },
+          {
+            "q": "How is this component welded?",
+            "a": "It is integrated into the pipeline network analogous to standard fittings by means of heating element socket welding."
+          },
+          {
+            "q": "Is the flow hindered by the construction?",
+            "a": "Despite the compact geometry, the interior is flow-optimized so that no significant cross-sectional narrowing occurs."
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "seo_p1": "The Adaptor Socket Female Thread forms an essential interface between the welded PP-R piping system and metallic threaded components.",
+        "seo_p2": "It combines a robust PP-R socket body with a high-quality metal insert (female thread). This ensures excellent pressure resistance at standard SDR levels.",
+        "seo_p3": "This fitting is indispensable when connecting valves, pressure gauges, and special fittings in building installations to guarantee permanently drip-free transitions.",
+        "faq": [
+          {
+            "q": "What is the mounting plate for?",
+            "a": "The integrated plate with holes enables the rigid, mechanical fixation of the elbow directly to the wall or a mounting element."
+          },
+          {
+            "q": "Is the metal thread susceptible to corrosion?",
+            "a": "No, the metallic inserts are made of high-quality, dezincification-resistant brass and are therefore highly corrosion-resistant."
+          },
+          {
+            "q": "Can I seal the thread with hemp?",
+            "a": "We recommend using Teflon tape (PTFE tape). If using hemp, it should only be used very sparingly and with non-swelling paste to avoid bursting the brass insert."
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "seo_p1": "The Adaptor Socket Male Thread allows the firm and secure connection of the PP-R network to subsequent metallic pipelines.",
+        "seo_p2": "A pull-out-proof anchoring of the brass male thread in the high-strength polypropylene body prevents twisting and guarantees extreme longevity at high temperature and pressure fluctuations.",
+        "seo_p3": "Frequently used when connecting boilers, heat pumps, or filters, this socket ensures a permanent and standard-compliant threaded connection.",
+        "faq": [
+          {
+            "q": "Is the female thread entirely made of brass?",
+            "a": "Yes, the female thread is a solid, high-quality brass insert securely and twist-proof molded into the PP-R material."
+          },
+          {
+            "q": "Can the connection be loosened if necessary?",
+            "a": "Yes, the metallic thread allows the safe disassembly of connected equipment such as pumps or filters at any time."
+          },
+          {
+            "q": "What is the maximum tightening torque?",
+            "a": "The thread should be tightened with standard tools and care to avoid stress cracks in the adjacent plastic."
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "seo_p1": "The Elbow 90° Male Thread combines a right-angled change of direction with a direct threaded connection to metal components.",
+        "seo_p2": "This dimensionally stable PP-R component is equipped with a solid male thread insert that absorbs thermal expansion and meets the high demands of SDR pressure classes.",
+        "seo_p3": "Ideal for tight installation situations on machines or manifolds where a direct 90-degree connection must be made without further fitting combinations.",
+        "faq": [
+          {
+            "q": "Does this fitting combine two work steps?",
+            "a": "Yes, it combines a change of direction by 90 degrees with a threaded transition, which saves space, material, and a weld seam."
+          },
+          {
+            "q": "Is the male thread roughened?",
+            "a": "Yes, K Aqua male threads are often slightly roughened at the factory so that the sealing tape (Teflon) does not slip off when screwed in."
+          },
+          {
+            "q": "What material is the male thread made of?",
+            "a": "It consists of dezincification-resistant special brass, which is approved for the highest hygiene requirements in the drinking water sector."
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "seo_p1": "The Elbow Bracket 90° Female Thread is the standard component for a stable and secure wall mounting of outlet valves.",
+        "seo_p2": "Thanks to the integrated mounting lugs on the PP-R body and the robust metal female thread, it safely transfers all leverage forces into the masonry.",
+        "seo_p3": "It is used across the board in the installation of showers, bathtubs, or sinks to mount faucets exactly and twist-proof.",
+        "faq": [
+          {
+            "q": "Can the wall bracket also be used in drywall?",
+            "a": "Yes, in combination with our special K Aqua mounting plates, it can be perfectly fixed in plasterboard or wooden stud walls."
+          },
+          {
+            "q": "Is there sound insulation for this component?",
+            "a": "For optimal sound insulation, we offer optional rubber sound insulation caps that decouple the wall bracket from the building structure."
+          },
+          {
+            "q": "What material is the female thread made of?",
+            "a": "We exclusively use lead-free or dezincification-resistant (DZR) special brass, compliant with the strictest drinking water regulations."
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "seo_p1": "The Extended Elbow Wall Bracket 90° Female Thread offers additional flexibility for deeper concealed installations due to its greater distance.",
+        "seo_p2": "With an extended PP-R neck and a high-strength brass female thread, this component is designed for installations that have to bridge thick plaster or tile thicknesses.",
+        "seo_p3": "Sanitary installers use this element when fitting connections are deeply recessed in drywall to maintain full pressure stability.",
+        "faq": [
+          {
+            "q": "When is a wall bracket with a male thread used instead of a female thread?",
+            "a": "It is typically required when flexible reinforced hoses (e.g., from washbasin fittings) are to be connected directly with a union nut."
+          },
+          {
+            "q": "Is the mounting plate stable enough under strong tension?",
+            "a": "Yes, thanks to the three integrated screw eyelets, the leverage is dissipated over a large area, making the wall mounting extremely stable."
+          },
+          {
+            "q": "Can extensions be screwed on?",
+            "a": "If the wall bracket sits too deep in the wall, standard brass tap extensions can easily be screwed on."
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "seo_p1": "The Metal Union Male Thread Yellow Brass enables detachable connections between PP-R and metal at the highest quality level.",
+        "seo_p2": "The uncoated quality brass is firmly connected to the weldable PP-R socket. An integrated sealing ring guarantees safety in all common SDR pressure classes.",
+        "seo_p3": "Used primarily in drinking water installations for connecting water metres or pumps that need to be dismantled quickly for maintenance purposes.",
+        "faq": [
+          {
+            "q": "Is this tee suitable for connecting drain valves?",
+            "a": "Yes, the female thread in the branch is the standard solution for directly screwing in drain or KFE valves at the lowest point."
+          },
+          {
+            "q": "Is the brass insert firmly anchored?",
+            "a": "Through a special knurling on the brass insert, it is permanently enclosed by the PP-R, which prevents twisting when threading."
+          },
+          {
+            "q": "Does the thread reduce the flow in the main line?",
+            "a": "No, the main line of the tee (the passage) has a full cross-section and is flow-optimized."
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "seo_p1": "The Metal Union Female Thread Yellow Brass is the ideal solution for highly resilient, separable pipe connections.",
+        "seo_p2": "Equipped with a high-quality brass union nut and a PP-R welding end, this union offers an absolutely tension-free and tight connection.",
+        "seo_p3": "It is frequently used to integrate maintenance elements, filters, or valves in the pipeline network that are regularly cleaned or replaced.",
+        "faq": [
+          {
+            "q": "Where is the tee with male thread typically used?",
+            "a": "It is ideal for directly branching off equipment with a female thread or union nuts (e.g., strainers or small circulation pumps)."
+          },
+          {
+            "q": "Is there a risk of cracking in the plastic with male threads?",
+            "a": "No, because with male threads the expansion force of the sealant (Teflon) acts on the solid brass body and not on the plastic."
+          },
+          {
+            "q": "Can I use it in hot water systems?",
+            "a": "Of course. Like all K Aqua transition fittings, it is approved for continuous temperatures up to 70°C and short-term peaks of 95°C."
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "seo_p1": "The nickel-plated Metal Union Male Thread combines an elegant appearance with outstanding technical detachability between plastic and metal systems.",
+        "seo_p2": "The nickel-plated threaded insert effectively protects against external influences and corrosion, while the PP-R body has the usual pressure and temperature resistance for SDR pipes.",
+        "seo_p3": "Particularly preferred in visible pre-wall installations or heating construction, it guarantees clean transitions to metallic radiators or manifolds.",
+        "faq": [
+          {
+            "q": "What is the advantage of a union compared to a transition socket?",
+            "a": "The union is separable. This means that the connected component can later be easily dismantled without cutting the PP-R pipe."
+          },
+          {
+            "q": "Is the seal included in the union?",
+            "a": "Yes, K Aqua unions are supplied as standard with a high-quality EPDM flat gasket (for water)."
+          },
+          {
+            "q": "May the union nut be tightened with heavy tools?",
+            "a": "It should be tightened hand-tight plus a quarter turn with a suitable open-end wrench so as not to crush the seal."
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "seo_p1": "The nickel-plated Metal Union Female Thread is the premium connecting element for visually demanding and detachable system transitions.",
+        "seo_p2": "The combination of a nickel-plated brass union nut and robust polypropylene (PP-R) creates a dimensionally stable, permanently sealed connection for high network pressure levels.",
+        "seo_p3": "This fitting is the preferred choice when connecting heat exchangers or pump groups in the heating cellar where corrosion protection is important.",
+        "faq": [
+          {
+            "q": "Where is this male thread union required?",
+            "a": "Often as a device connection fitting for water metres or heat exchangers that have a female thread on the housing."
+          },
+          {
+            "q": "Does the PP-R remain tension-free when tightened?",
+            "a": "Yes, the loose union nut absorbs the torsional forces during tightening, so that no torsional stress is transferred into the welded pipe network."
+          },
+          {
+            "q": "Is the brass material certified for drinking water?",
+            "a": "We exclusively use high-purity DZR brass, which meets all standards of the European Drinking Water Directive (UBA list)."
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "seo_p1": "The Tee 90° Male Thread enables a seamless transition from a continuous PP-R line to a metallic branch.",
+        "seo_p2": "The T-body made of PP-R ensures undisturbed longitudinal flow, while the branching metal insert (male thread) defies the highest shear forces and system pressures.",
+        "seo_p3": "Ideal for the direct installation of sensors, drain valves, or pressure gauges in the middle of the pipe run without mechanically weakening the main network.",
+        "faq": [
+          {
+            "q": "What are the advantages of the welding saddle over a tee?",
+            "a": "It allows subsequent branches without cutting the main line and minimizes the impact on system integrity."
+          },
+          {
+            "q": "How is the saddle mounted?",
+            "a": "The main pipe is tapped with a special drill, then the pipe and saddle are simultaneously heated and precisely fused."
+          },
+          {
+            "q": "Is it suitable for sprinkler systems?",
+            "a": "The K Aqua saddle branch is successfully used in some international markets for connecting sprinkler heads in lightweight construction."
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "seo_p1": "The Tee 90° Female Thread is a versatile component to integrate a valve or a sensor directly into a continuous PP-R line.",
+        "seo_p2": "With two welding sockets for the flow and a solid female thread branch, this component meets all stability requirements within the SDR pressure classes.",
+        "seo_p3": "Often used for connecting sampling valves in drinking water distributions or as an interface for thermometers in heating systems.",
+        "faq": [
+          {
+            "q": "Does the saddle with male thread offer the same strength?",
+            "a": "Absolutely. The brass insert is deeply anchored in the PP-R matrix, ensuring the component remains fully pressure resistant (PN 25)."
+          },
+          {
+            "q": "Are there limitations on the branch size?",
+            "a": "For technical reasons, the diameter of the saddle branch must always be significantly smaller than the diameter of the main line (e.g., 63 mm to 1/2\")."
+          },
+          {
+            "q": "Can the saddle also be welded to fiber pipes?",
+            "a": "Yes, it is equally suitable for all K Aqua pipe types (standard, PPRCT, fiber, UV) after local tapping."
+          }
+        ]
+      },
+      "union": {
+        "seo_p1": "The all-plastic Union is a connecting element made entirely of polypropylene (PP-R) that creates a detachable connection without metallic components.",
+        "seo_p2": "With a reliable sealing system and robust plastic union nuts, this union fully withstands the standard operating pressure of the PP-R piping system.",
+        "seo_p3": "It is indispensable for completely corrosion-free systems, such as in the chemical industry or with aggressive media where metal contact must be strictly avoided.",
+        "faq": [
+          {
+            "q": "When do I choose a PP-R flange instead of a metallic backing flange?",
+            "a": "A PP-R flange is used when the pumped medium is highly corrosive and any contact with metal must be avoided (all-plastic system)."
+          },
+          {
+            "q": "Are there pressure restrictions for all-plastic flanges?",
+            "a": "Since plastic is more flexible than steel, the maximum nominal pressures for plastic flanges are slightly reduced in the larger dimensions."
+          },
+          {
+            "q": "Are special washers required for the screws?",
+            "a": "Yes, it is strongly recommended to use large-area washers to distribute the clamping force of the screw evenly on the plastic."
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "seo_p1": "The Union for Watermeters was specifically developed for the tension-free and standard-compliant integration of water metres into PP-R pipelines.",
+        "seo_p2": "The design includes a weldable PP-R end and a sealing option on the solid union nut, designed for the standard network pressures of drinking water systems.",
+        "seo_p3": "It allows a quick and safe change of the counting units without tool wear and prevents leaks through a precisely fitting flat gasket.",
+        "faq": [
+          {
+            "q": "What distinguishes a water metre union?",
+            "a": "It typically has a sealing option and special thread dimensions that are exactly matched to standard water metres."
+          },
+          {
+            "q": "Are the seals designed for hot water?",
+            "a": "Depending on the version, the included special seals are specified for cold water metres or also for hot water (heat metres)."
+          },
+          {
+            "q": "Can the PP-R pipe bear the weight of the water metre?",
+            "a": "For larger and heavier metres (house connection), we recommend a separate support for the metre so as not to mechanically stress the pipe network."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "seo_p1": "The PP-R Ball Valve Ball in PP is a completely corrosion-free shut-off valve for the highest hygiene requirements.",
+        "seo_p2": "This all-plastic valve has a durable PP-R body and a precisely manufactured ball made of polypropylene. It reliably withstands the system pressures of the SDR classes.",
+        "seo_p3": "It is frequently used in chemical industrial plants or with demineralized water because it systematically eliminates any metal contact with the pumped medium.",
+        "faq": [
+          {
+            "q": "What is the advantage of a plastic ball in the valve?",
+            "a": "It prevents corrosion and ion release into the medium, which is absolutely necessary for ultrapure water or aggressive chemicals."
+          },
+          {
+            "q": "Is the valve also suitable for hot water?",
+            "a": "Yes, the special thermoplastic of the ball and the Teflon seals (PTFE) guarantee full function even at high temperatures."
+          },
+          {
+            "q": "How is the valve maintained?",
+            "a": "Thanks to their design, K Aqua PP-R ball valves are absolutely maintenance-free and designed for decades of trouble-free operation."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "seo_p1": "The PP-R Ball Valve Ball in Brass Chromium Plated combines the weldability of plastic with the mechanical hardness of metal.",
+        "seo_p2": "Embedded in a solid PP-R body, the high-gloss chrome-plated brass ball ensures extremely low-friction and wear-free shut-off even at high temperature differences.",
+        "seo_p3": "This is the standard valve for the main shut-off in drinking water and heating networks, characterized by absolute reliability and a long, maintenance-free service life.",
+        "faq": [
+          {
+            "q": "Does the brass ball offer flow advantages?",
+            "a": "Yes, the chrome-plated brass ball can be manufactured with thinner walls, allowing a full, resistance-free passage."
+          },
+          {
+            "q": "Is the brass ball suitable for drinking water?",
+            "a": "Of course, we exclusively use high-purity, certified DZR brass, which does not release heavy metals into the drinking water."
+          },
+          {
+            "q": "Can the valve be integrated into existing metal pipe networks?",
+            "a": "Yes, in combination with transition sockets or flanges, it can easily be used as a shut-off valve in mixed installations."
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "seo_p1": "The Tee 90° Female Thread for Internal Valve forms the basis for an invisible and space-saving valve installation in the wall.",
+        "seo_p2": "It consists of a PP-R flow body with a specially deep-drawn brass female thread in the branch that allows the accommodation of valve head parts.",
+        "seo_p3": "Sanitary professionals use this component in pre-wall installations for showers and bathtubs to integrate shut-off valves aesthetically and safely behind tiles.",
+        "faq": [
+          {
+            "q": "What is the function of the concealed valve?",
+            "a": "It allows line shut-off of individual wet rooms (e.g., bathroom or kitchen) directly on site without having to go to the basement."
+          },
+          {
+            "q": "How deep can the valve sit in the wall?",
+            "a": "The installation depth is variable. If the valve sits too deep due to thick tile construction, we offer corresponding spindle extensions."
+          },
+          {
+            "q": "Is the spindle replaceable?",
+            "a": "Yes, the entire mechanical internal head part (spindle, seal) can be unscrewed and replaced if necessary without opening the wall."
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "seo_p1": "The Concealed Valve Chrome Light Part offers an elegant visible component for wall-integrated shut-offs.",
+        "seo_p2": "The set includes a handle and a rosette made of chrome-plated ABS plastic, suitable for the standardized brass spindles of our concealed valve bodies.",
+        "seo_p3": "It serves for the comfortable and visually appealing water shut-off directly in the wet room, ideal for modern and cost-sensitive property constructions.",
+        "faq": [
+          {
+            "q": "Is the chrome handle included in the delivery?",
+            "a": "Yes, this set includes the PP-R valve base as well as the complete, high-gloss chrome-plated visible set including rosette."
+          },
+          {
+            "q": "Can the rosette be mounted after tiling?",
+            "a": "Of course. The base body is welded under plaster, the rosette and handle are only attached after the wall has been completed."
+          },
+          {
+            "q": "What material is the handle made of?",
+            "a": "The rotary handle consists of a robust zinc die-cast alloy (Zamak) with a durable, easy-care chrome coating."
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "seo_p1": "The heavy concealed valve upper part made of chrome-plated brass (Concealed Valve Chrome Heavy Part) is the premium choice for exclusive bathroom fittings.",
+        "seo_p2": "The rosette and operating handle are made of solid, high-gloss chrome-plated brass, which ensures maximum mechanical resilience and an elegant feel.",
+        "seo_p3": "This version withstands intensive use in hotels or public sanitary facilities and retains its flawless shine for decades.",
+        "faq": [
+          {
+            "q": "What distinguishes the 'Long' model from the standard concealed valve?",
+            "a": "The extended spindle design effortlessly bridges deep wall structures, such as thick marble slabs or double-layer drywall."
+          },
+          {
+            "q": "Does the handle have a colour marking?",
+            "a": "Yes, interchangeable colour markings (red/blue) are included with our sets for easy distinction between hot and cold water lines."
+          },
+          {
+            "q": "How is the valve seat sealed?",
+            "a": "We use highly heat-resistant EPDM profile seals in the inner upper part, which are extremely resistant to chemical cleaners and thermal disinfection."
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "seo_p1": "The straight seat valve upper part with green handle (Straight Seat Valve Upper Part Green Handle) is the proven mechanism for precise flow regulation.",
+        "seo_p2": "Equipped with a high-quality brass spindle, a durable EPDM seal, and the distinctive green handwheel, it is designed for high system pressures and temperatures.",
+        "seo_p3": "Screwed into the corresponding PP-R valve lower parts, it is used for safe branch shut-off in heating cellars and main distributions of building services.",
+        "faq": [
+          {
+            "q": "Is this component a spare part?",
+            "a": "Yes, it is the complete internal mechanical working (upper part) of the concealed valve, ideal for maintenance purposes or modular assembly."
+          },
+          {
+            "q": "Does the entire valve need to be replaced if it drips?",
+            "a": "No, it is sufficient to turn off the water and replace this brass upper part; the PP-R base body remains in the wall."
+          },
+          {
+            "q": "How often does the upper part need to be greased?",
+            "a": "The spindle thread is provided with a food-safe permanent lubrication ex works; subsequent maintenance is not required."
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "seo_p1": "The elongation pieces are indispensable problem solvers when fitting connections are hidden too deep in the masonry.",
+        "seo_p2": "These solid brass components extend the thread of concealed valves outwards with millimeter precision, without reducing the flow cross-section or compromising pressure resistance.",
+        "seo_p3": "They save installations in the event of subsequently increased wall structures or thick tile coverings and ensure the problem-free assembly of the visible operating elements.",
+        "faq": [
+          {
+            "q": "When do I need a valve extension?",
+            "a": "If the plaster or tiles turn out thicker than planned and the spindle of the concealed valve no longer protrudes far enough from the wall."
+          },
+          {
+            "q": "Can multiple extensions be combined?",
+            "a": "Technically this is possible, but for reasons of stability we recommend using a long upper part ('Long') immediately instead."
+          },
+          {
+            "q": "Is the extension thread standardized?",
+            "a": "Yes, the threads of our extensions fit exactly onto the standard upper parts of the K Aqua concealed valves."
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "seo_p1": "The distribution battery with female thread (Battery Female Thread) bundles several outlets in a compact, pre-assembled PP-R component.",
+        "seo_p2": "Made from a continuous polypropylene body with integrated brass female threads, it offers absolute dimensional stability with a perfect pitch for fittings.",
+        "seo_p3": "This battery drastically speeds up the installation of washbasin or shower fittings, as the time-consuming measuring and alignment of individual wall plates is eliminated.",
+        "faq": [
+          {
+            "q": "What is the pitch of the fitting battery?",
+            "a": "It is fixed to the international standard pitch of 150 mm, suitable for 99% of all standard surface-mounted mixer taps."
+          },
+          {
+            "q": "Can the battery be bent?",
+            "a": "No, the integrated plastic bridge ensures rigid, exact distances. For different dimensions we recommend individual wall plates."
+          },
+          {
+            "q": "How is the battery attached?",
+            "a": "It has several pre-drilled mounting eyelets to securely fix it to brick, concrete or drywall with screws."
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "seo_p1": "The adjustable distribution battery (Adjustable Battery Female Thread) offers maximum flexibility when installing wall fittings with different pitches.",
+        "seo_p2": "Thanks to a sliding PP-R rail system, the positions of the integrated female threads can be precisely adjusted and then firmly locked in place.",
+        "seo_p3": "It is the ideal solution for renovation projects or special specialized fittings where the standard pitch of 150 mm cannot be applied.",
+        "faq": [
+          {
+            "q": "How flexible is the distance adjustment?",
+            "a": "Thanks to the sliding rail, the wall plates can be infinitely adjusted to the exact pitch required for the mixer tap."
+          },
+          {
+            "q": "Is there a risk of displacement with the adjustable version?",
+            "a": "Once the correct dimension has been set, the wall plates are firmly locked in place. Slipping during tiling is therefore impossible."
+          },
+          {
+            "q": "Is a spirit level necessary for alignment?",
+            "a": "Yes, as with all fitting connections, the mounting plate should be carefully leveled with a spirit level before final fixing."
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "seo_p1": "The weld-in saddle is a revolutionary solution for creating subsequent branches without severing the main line.",
+        "seo_p2": "The saddle-shaped PP-R fitting is welded directly onto the pipe wall after the main pipe has been drilled. This guarantees the same pressure resistance as the original pipe.",
+        "seo_p3": "In industrial networks and risers, this component saves enormous assembly times, as main lines do not have to be completely dismantled for extensions.",
+        "faq": [
+          {
+            "q": "What is the difference to the saddle with metal thread?",
+            "a": "This weld-in saddle has a pure PP-R branch into which a pipe or another fitting (socket) can be welded directly."
+          },
+          {
+            "q": "Does the pipe wall of the main pipe have to have a minimum thickness?",
+            "a": "No, the saddle can be safely welded onto all K Aqua pressure levels (SDR 6 to SDR 17) if drilled correctly."
+          },
+          {
+            "q": "How long does the drilling and welding process take?",
+            "a": "An experienced installer needs a maximum of 3-5 minutes for drilling, heating with the special saddle tool, and joining."
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "seo_p1": "The weld-in saddle with female thread (Weld-in Saddle Female Thread) combines the advantages of fast saddle installation with a direct metal connection.",
+        "seo_p2": "In addition to the PP-R saddle body, this fitting features a firmly anchored brass female thread that provides an extremely twist-resistant base for valves.",
+        "seo_p3": "Ideal for the subsequent installation of drain valves, air vents or measuring sensors directly into existing main lines without time-consuming pipe network separation.",
+        "faq": [
+          {
+            "q": "What is the main advantage of this weld-in saddle?",
+            "a": "It enables the direct installation of a metal female thread on an existing pipeline, which is extremely time and space saving."
+          },
+          {
+            "q": "Can thermometers be screwed in here?",
+            "a": "Yes, the saddle is the ideal interface for integrating temperature sensors or small pressure gauges permanently and pressure-tight into heating networks."
+          },
+          {
+            "q": "Is the brass thread protected from tearing out?",
+            "a": "Absolutely. The brass insert is injected deep into the PP-R structure and anchored mechanically inseparably by special knurling."
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "seo_p1": "The weld-in saddle with male thread (Weld-in Saddle Male Thread) allows the immediate connection of system components with union nuts to a base pipe.",
+        "seo_p2": "The seamlessly welded PP-R saddle carries a solid brass male thread that withstands highest leverage forces and permanent temperature changes.",
+        "seo_p3": "This component is frequently used in manifold construction to mount shut-off valves or pump outlets extremely space-savingly and aerodynamically.",
+        "faq": [
+          {
+            "q": "For which connections is the male thread on the saddle suitable?",
+            "a": "It is optimally suited for the direct connection of fittings with female threads or for connections secured with a union nut."
+          },
+          {
+            "q": "Is this saddle available for all pipe dimensions?",
+            "a": "The weld-in saddle is available for main pipes from 40 mm to 125 mm, with the male thread typically being 1/2\" or 3/4\"."
+          },
+          {
+            "q": "How is the tightness ensured after drilling?",
+            "a": "The fusing of the saddle and pipe creates a cohesive, homogeneous connection that is 100% tight at the molecular level."
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "seo_p1": "The pipe clamps form the mechanical foundation for standardized and durable fastening of PP-R piping systems.",
+        "seo_p2": "Equipped with sound-decoupling rubber inserts and sturdy steel hinges, these clamps safely absorb the thermal linear expansion of the pipe.",
+        "seo_p3": "They are absolutely essential to fix pipe runs to walls or ceilings and to effectively isolate pipe noise from the building structure.",
+        "faq": [
+          {
+            "q": "What is the rubber insert in the clamp for?",
+            "a": "The EPDM insert serves for sound decoupling according to DIN 4109 and prevents the transmission of flow noise to the masonry."
+          },
+          {
+            "q": "Should the clamp be mounted as a fixed point or sliding point?",
+            "a": "Depending on the tightening torque of the screws, the clamp can be used both as a fixing fixed point and as a sliding sliding point for thermal linear expansion."
+          },
+          {
+            "q": "What thread connection do the pipe clamps have?",
+            "a": "Our standard pipe clamps have a welded combination nut (M8/M10), which allows flexible fastening to common hanger bolts or threaded rods."
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "seo_p1": "The PP/Steel backing flange (Backing Flange PP/Steel SFBF) ensures a highly resilient and dimensionally stable flange connection for large pipe diameters.",
+        "seo_p2": "A steel core, completely coated with robust polypropylene (PP), completely prevents corrosion and prevents bending under high contact pressure.",
+        "seo_p3": "This accessory is crucial for the transition to large pumps or steel tanks in industrial plants, where extreme tensile forces must be safely dissipated.",
+        "faq": [
+          {
+            "q": "Why is the steel core coated with polypropylene?",
+            "a": "The plastic coating permanently protects the high-strength steel from corrosion, which is particularly crucial in damp basements or aggressive industrial environments."
+          },
+          {
+            "q": "Does the hole pattern meet standard norms?",
+            "a": "Yes, the drilling pattern of our backing flanges is exactly aligned with the European DIN EN 1092-1 standard and fits all standard counter flanges."
+          },
+          {
+            "q": "Do the screws have to be tightened with a torque wrench?",
+            "a": "We strongly recommend cross-tightening with a calibrated torque wrench to ensure uniform compression of the seal."
+          }
+        ]
+      },
+      "flat-gasket": {
+        "seo_p1": "The flat gasket is the essential sealing element for all flange connections within our PP-R system.",
+        "seo_p2": "Punched from high-quality EPDM or other elastomers, the gasket is specially tailored to the smooth end faces of the flange adapters and withstands high mains pressure.",
+        "seo_p3": "It compensates for microscopic unevenness and ensures a 100% leak-free and durable connection for flange transitions in industry or heating technology.",
+        "faq": [
+          {
+            "q": "What material is the flat gasket made of?",
+            "a": "By default, our flange gaskets are made of high-pressure-resistant EPDM, which is excellently suited for drinking water and heating water."
+          },
+          {
+            "q": "Can the gasket be reused?",
+            "a": "No, for safety reasons a new flat gasket must always be used after a flange connection has been loosened."
+          },
+          {
+            "q": "Is the gasket resistant to chemicals?",
+            "a": "EPDM offers good resistance to many aqueous solutions. For specific industrial chemicals, please check our resistance lists beforehand."
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "seo_p1": "The flat gasket for unions (Flat Gasket for Unions PP-R) is precisely dimensioned for our plastic and metal unions.",
+        "seo_p2": "The elastomer material, approved for drinking water, offers a high restoring force and is resistant to permanent thermal loads in hot water networks.",
+        "seo_p3": "Regular replacement of this gasket after maintenance work on valves or pumps guarantees the permanent tightness of the screw connection.",
+        "faq": [
+          {
+            "q": "How tight can the union be tightened?",
+            "a": "To avoid destroying the seal, the union nut should be tightened hand-tight and then only slightly (approx. 1/4 turn) with a tool."
+          },
+          {
+            "q": "Are these gaskets also available in other materials?",
+            "a": "For extreme temperature requirements or special industrial media, we can also offer gaskets made of FKM (Viton) or PTFE upon request."
+          },
+          {
+            "q": "Does this gasket fit on other brands?",
+            "a": "It is tailor-made for the tongue and groove design of K Aqua unions, but can also be used for other unions with the same dimensions."
+          }
+        ]
+      },
+      "plug": {
+        "seo_p1": "The plug serves for the temporary or permanent closing of open threaded connections in sanitary installations.",
+        "seo_p2": "Injection-molded from stable PP-R and often provided with an integrated sealing ring, the plug withstands the full test pressure during system acceptance.",
+        "seo_p3": "It protects the piping system from dirt during the construction phase and reliably seals wall plates until the final assembly of the outlet fittings.",
+        "faq": [
+          {
+            "q": "Does the plug withstand the water pressure during the construction phase?",
+            "a": "Yes, it is designed to withstand the full test pressure (often more than 15 bar) during the pressure test of the pipe network."
+          },
+          {
+            "q": "Does the plug have to be additionally sealed with Teflon?",
+            "a": "Our plugs usually have an integrated O-ring, so no additional sealing tape such as Teflon or hemp is required."
+          },
+          {
+            "q": "Can the plug remain permanently in the wall?",
+            "a": "It is primarily designed as a construction plug. For permanent blind closures, we recommend corresponding brass blind plugs."
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "seo_p1": "The pipe cutter d20-d40 (Pipe Cutter 20-40) is the indispensable precision tool for clean cross-cuts on small to medium pipe dimensions.",
+        "seo_p2": "Equipped with a titanium-coated blade and mechanical leverage, the shears guarantee an absolutely right-angled cut through PP-R pipes without material deformation.",
+        "seo_p3": "A clean, burr-free cut is the basic prerequisite for a standardized and durable welded connection. This tool is the constant companion of every installer.",
+        "faq": [
+          {
+            "q": "Why is a special pipe cutter so important?",
+            "a": "A right-angled and burr-free cut without crushing is absolutely imperative to ensure a perfect, void-free welded connection."
+          },
+          {
+            "q": "Can the blade be replaced?",
+            "a": "Yes, in the event of wear or damage, the high-strength steel blade can easily be replaced with an original spare part."
+          },
+          {
+            "q": "Do the shears also work in cold temperatures?",
+            "a": "The power transmission always works, however the PP-R pipe should not be cut at freezing temperatures, as it could splinter."
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "seo_p1": "The large pipe cutter d50-d125 (Pipe Cutter 50-125) is a robust roller cutting tool for large-volume plastic pipes.",
+        "seo_p2": "Its solid steel body and specially hardened cutting wheel effortlessly penetrate thick pipe walls of the large SDR classes with absolute plane parallelism.",
+        "seo_p3": "Ideal for the preparation of main distribution lines in industrial construction, this cutter prevents stress-induced cracks that could occur with simple saw cuts.",
+        "faq": [
+          {
+            "q": "How does cutting such thick pipes work?",
+            "a": "The tool is clamped around the pipe, the cutting wheel is slowly advanced and the cutter is guided around the pipe in even turning movements."
+          },
+          {
+            "q": "Does this tool also cut fiber composite pipes?",
+            "a": "Yes, the specially hardened cutting wheel also cuts through our glass fiber reinforced PPRCT pipes effortlessly and extremely precisely."
+          },
+          {
+            "q": "Does the roller cutter replace chamfering?",
+            "a": "Socket welding requires no chamfering. The absolutely straight cut of this tool is the perfect preparation for the welding process."
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "seo_p1": "The high-performance pipe cutter d50-d125 V1 (Pipe Cutter 50-125-1) is a modified version for particularly fast and ergonomic cuts.",
+        "seo_p2": "With an optimized spindle guide and an integrated quick-return mechanism, it enormously accelerates the cutting process of massive PP-R pipes.",
+        "seo_p3": "Designed for construction projects with high pipe consumption from 50 mm diameter, this tool reduces the physical strain on the user to a minimum.",
+        "faq": [
+          {
+            "q": "What does 'quick-return mechanism' mean?",
+            "a": "After completion of the cut, the cutting wheel can be immediately returned to the starting position at the push of a button, without tedious cranking back."
+          },
+          {
+            "q": "Is this model better suited for stationary use?",
+            "a": "It is mobile, but thanks to its massive design and precise spindle guide, it can be excellently used for stationary prefabrication."
+          },
+          {
+            "q": "Are there spare parts for this pipe cutter?",
+            "a": "Yes, both the cutting wheel and the guide rollers are permanently available as original spare parts."
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "seo_p1": "The hand welding machine d20-d32 in a complete set (Hand Welding Machine 20-32 Complete Set) is the professional base station for small dimensions.",
+        "seo_p2": "It includes a thermostatically controlled 800-watt heating element, Teflon-coated welding tools and a stable stand in a robust metal case.",
+        "seo_p3": "Designed for fast and standardized pre-wall and floor installation, the device keeps the required welding temperature of 260°C absolutely constant at all times.",
+        "faq": [
+          {
+            "q": "Why is an electronic thermostat so important?",
+            "a": "Only a precise thermostat guarantees the DVS-compliant permanent temperature of exactly 260°C, which is absolutely necessary for a safe PP-R fusion."
+          },
+          {
+            "q": "How long does the heating phase take?",
+            "a": "Thanks to the powerful 800-watt heating element, the device usually reaches the operating temperature in under 10 minutes."
+          },
+          {
+            "q": "Which tools are included in the case?",
+            "a": "The set includes the heating device, the stand, Teflon mandrels for 20, 25 and 32 mm, Allen key and mounting screws in a steel case."
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "seo_p1": "The hand welding machine d20-d63 in a complete set (Hand Welding Machine 20-63 Complete Set) covers the entire range of classic building services.",
+        "seo_p2": "With a higher heating output and double slots for heating mandrels, this device enables the simultaneous preparation of different dimensions without changing tools.",
+        "seo_p3": "The robust complete set is designed for the rough everyday life on the construction site and delivers an uncompromisingly precise welding temperature even in adverse weather conditions.",
+        "faq": [
+          {
+            "q": "Can several welding tools be mounted at the same time?",
+            "a": "Yes, the wide heating sword head allows the simultaneous mounting of up to three heating mandrel pairs for uninterrupted work."
+          },
+          {
+            "q": "Does the device give a signal when the temperature is reached?",
+            "a": "A clearly visible indicator light signals to the user as soon as the operating temperature of 260°C has been reached and stabilized."
+          },
+          {
+            "q": "Is the device suitable for continuous operation on large construction sites?",
+            "a": "Absolutely. The durable heating element and heat-resistant wiring are specially designed for industrial shift operation."
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "seo_p1": "The hand welding machine with mirror d50-d125 (Hand Welding Machine Mirror 50-125) has been specially developed for large socket welds.",
+        "seo_p2": "An extremely flat, large-area heating mirror guarantees the even heating of solid fittings and pipes. The output of over 1200 watts ensures fast heating phases.",
+        "seo_p3": "Absolutely essential for the manual processing of large supply lines in industry, where temperature drops during the welding process would be catastrophic.",
+        "faq": [
+          {
+            "q": "Why is a flat mirror required for large pipes?",
+            "a": "Large diameters (from 50 mm) have an enormous mass. The flat mirror provides an extremely large contact area to bring the heat quickly and evenly into the plastic."
+          },
+          {
+            "q": "How heavy is the device?",
+            "a": "Despite its high performance, the device is ergonomically balanced, but for pipes from 90 mm it usually requires two installers for exact joining."
+          },
+          {
+            "q": "Do the Teflon-coated surfaces have to be cleaned?",
+            "a": "Yes, they should be carefully cleaned after each use while still warm with a lint-free paper towel or a special wooden spatula."
+          }
+        ]
+      },
+      "welding-tool": {
+        "seo_p1": "The welding tools (Welding Tool) are the Teflon-coated heating mandrels and heating sockets that take over the actual melting of the PP-R material.",
+        "seo_p2": "Made of highly thermally conductive alloys and provided with a special non-stick PTFE coating, they guarantee a perfect, residue-free molecular melt.",
+        "seo_p3": "Only with undamaged and high-quality welding tools can the homogeneity of the connection required by the DVS for a 50-year service life be achieved.",
+        "faq": [
+          {
+            "q": "When must a welding tool be replaced?",
+            "a": "As soon as the Teflon coating is scratched or PP-R residues burn firmly, the tool must be replaced in order to avoid faulty weld seams."
+          },
+          {
+            "q": "Why am I not allowed to scrape off plastic residues with a knife?",
+            "a": "A knife immediately destroys the micro-fine PTFE non-stick coating. Use only soft cloths on the still hot tool."
+          },
+          {
+            "q": "Does the K Aqua welding tool also fit on third-party devices?",
+            "a": "The mounting hole corresponds to the industrial standard, so that our tools fit on almost all professional socket welding machines."
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "seo_p1": "The table welding machine d50-d125 (Welding Machine 50-125 Complete Set) offers stationary precision for the prefabrication of large pipe assemblies.",
+        "seo_p2": "It has clamping jaws, a lever mechanism for energy-saving joining and a digitally controlled heating element for absolutely exact joining pressures and times.",
+        "seo_p3": "In the workshop production of manifolds or complex industrial assemblies, this machine eliminates human errors and maximizes processing speed.",
+        "faq": [
+          {
+            "q": "What is the advantage of the stationary machine compared to the hand tool?",
+            "a": "The lever mechanism allows an exactly linear, tilt-free insertion of the large pipes, which would be extremely strenuous by hand."
+          },
+          {
+            "q": "Can small pipes also be welded with it?",
+            "a": "Technically yes, however the machine is specially designed for the high joining forces of the dimensions 50 mm to 125 mm."
+          },
+          {
+            "q": "How is the pipe fixed?",
+            "a": "Universal clamping jaws with various inserts grip the pipe gently but absolutely firmly in order to guarantee a powerful, axial movement."
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "seo_p1": "The butt welding machine d90-d250 (Butt Welding Machine 90-250) is the high-end system for flangeless pipe-to-pipe connections in large format.",
+        "seo_p2": "A hydraulic press unit, a CNC-controlled heating mirror and a precise pipe planer ensure a fully automated, loggable weld seam at the highest level.",
+        "seo_p3": "For municipal main water pipes or industrial cooling water networks from 90 mm, this device is indispensable for carrying out certified and approvable butt welds.",
+        "faq": [
+          {
+            "q": "What is the difference between socket and butt welding?",
+            "a": "With butt welding, the pipe ends are milled flat and melted together directly without an additional fitting (socket)."
+          },
+          {
+            "q": "Are the welding data saved for quality control?",
+            "a": "Yes, the integrated CNC control logs temperature, pressure and time for each individual weld seam for later evaluation."
+          },
+          {
+            "q": "Why is a planer integrated?",
+            "a": "The planer mills both pipe ends absolutely parallel and oxidation-free before welding, which is strictly necessary for a permanent molecular connection."
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "seo_p1": "The electrofusion machine controls the fully automatic welding process of electrofusion sockets by electrical resistance heating.",
+        "seo_p2": "The intelligent microprocessor reads the barcode of the fitting via scanner and automatically calculates the exact voltage and welding time depending on the ambient temperature.",
+        "seo_p3": "Essential for repairs in extremely narrow shafts, subsequent connections or underground installations where classic socket welding is impossible due to space constraints.",
+        "faq": [
+          {
+            "q": "How does the machine read the welding parameters?",
+            "a": "Every electrofusion socket has a barcode, which the user reads with the connected scanner; the machine adjusts itself fully automatically."
+          },
+          {
+            "q": "Does the machine compensate for temperature fluctuations on the construction site?",
+            "a": "Yes, an ambient sensor measures the temperature and automatically adjusts the welding time (longer in winter, shorter in summer)."
+          },
+          {
+            "q": "Does the pipe have to be peeled before electrofusion?",
+            "a": "Absolutely! The oxide layer on the PP-R pipe must be mechanically removed in the welding area with a special peeling device."
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "seo_p1": "The saddle welding tool (Welding Tool for Weld-in Saddles) is specially designed for mounting weld-in saddles on existing PP-R pipes.",
+        "seo_p2": "It consists of a concavely shaped heating mandrel for the pipe wall and a convex heating socket for the saddle, both with high-quality Teflon coating.",
+        "seo_p3": "It heats exactly the required area on the base pipe in order to fuse the saddle homogeneously and inseparably with the piping system.",
+        "faq": [
+          {
+            "q": "Why does the tool have a concave and a convex side?",
+            "a": "The concave (arched) side heats the round outer pipe, while the convex side brings exactly the saddle-shaped branch to melting temperature."
+          },
+          {
+            "q": "Does one tool fit all pipes?",
+            "a": "No, you need an exactly fitting saddle welding tool for each main pipe/branch combination (e.g. 63 mm to 20 mm)."
+          },
+          {
+            "q": "How is the tool mounted on the welding machine?",
+            "a": "It is screwed directly onto the heating sword of the K Aqua hand welding machine like a normal heating mandrel with an Allen screw."
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "seo_p1": "The special drill for weld-in saddles (Drilling Tool for Weld-in Saddle) is the precise preparation tool for saddle branches.",
+        "seo_p2": "It not only drills the exactly required hole in the water-bearing main pipe, but also neatly mills out the edge area for the subsequent welding.",
+        "seo_p3": "An extremely sharp and clean drill hole is critical so that no plastic chips get into the pipe network during the later welding of the saddle.",
+        "faq": [
+          {
+            "q": "Why can't I use a normal wood or metal drill?",
+            "a": "Standard drills tear the plastic and produce uncontrolled chips. Our special drill mills the hole and cleanly catches the chip."
+          },
+          {
+            "q": "Does the drill fit in a standard cordless screwdriver?",
+            "a": "Yes, the drill has a standardized hexagonal shaft that fits into any standard drill chuck."
+          },
+          {
+            "q": "Does the hole have to be deburred?",
+            "a": "No, the milling head of the drill is designed in such a way that it automatically prepares and smooths the hole edge for the subsequent welding."
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "seo_p1": "The repair welding tool (Welding Tool for Repairing Plug) is a highly specialized attachment for repairing drilled pipes.",
+        "seo_p2": "This conical heating pin specifically heats the interior of a damaged drill hole and simultaneously the corresponding PP-R repair plug to melting temperature.",
+        "seo_p3": "It is the savior on every construction site to quickly and demonstrably tightly close accidentally drilled pipes (e.g. during wall mounting).",
+        "faq": [
+          {
+            "q": "How exactly does the repair pin work?",
+            "a": "The conical tool melts the drill hole. Afterwards, the also heated PP-R repair plug is pressed into the hole and fuses permanently."
+          },
+          {
+            "q": "Is the repaired spot really safe?",
+            "a": "Yes, it is not a mere bonding, but a molecular weld that withstands the same pressure as the undamaged pipe."
+          },
+          {
+            "q": "Which drill diameters can be repaired?",
+            "a": "The tool is ideal for typical drilling accidents (dowel holes) in the range of 7 mm to 11 mm."
+          }
+        ]
+      },
+      "repairing-plug": {
+        "seo_p1": "The repair plug (Repairing Plug) is a solid PP-R pin which, in combination with the special welding tool, repairs drill hole emergencies.",
+        "seo_p2": "It is made of the identical material as the K Aqua pipe system and fuses to an absolutely homogeneous mass when inserted into the damaged pipe.",
+        "seo_p3": "Instead of opening up walls over a large area to replace pipe sections, the hole is simply welded; the repaired spot is then just as pressure-resistant as the original pipe.",
+        "faq": [
+          {
+            "q": "What material is the repair plug made of?",
+            "a": "It consists of 100% high-quality Polypropylene Random Copolymer (PP-R) Type 3, exactly like our K Aqua pipe systems."
+          },
+          {
+            "q": "Must the plug be cut off after welding?",
+            "a": "Yes, after the welding spot has cooled down completely, the protruding end of the plug is cut off flush with the pipe wall."
+          },
+          {
+            "q": "Can I use the plug when the pipe network is filled?",
+            "a": "No, the water must be completely turned off on the affected line and the pipe must be dry in the area of the drill hole."
+          }
+        ]
+      }
+    }
+  }

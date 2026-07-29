@@ -1,516 +1,900 @@
-  }
-    "narrative": {
-      "sizeRange": "Denne komponent produceres i et omfattende udvalg af nominelle diametre fra kompakte {minSize} mm op til betydelige {maxSize} mm, hvilket sikrer maksimal alsidighed i en lang række installationsscenarier.",
-      "sizeSpecific": "Denne komponent er præcist designet til en specifik nominel diameter på {minSize} mm og tilbyder målrettet ydeevne til specialiserede rørlayouts.",
-      "weights": "Materialeeffektiviteten er optimeret på tværs af hele sortimentet med stykkevægte, der skalerer fra {minWeight} kg op til {maxWeight} kg afhængigt af den valgte dimension.",
-      "packaging": "Logistikken er optimeret gennem standardiserede emballageenheder designet til sikker global transport og effektiv håndtering på byggepladsen.",
-      "rowCount": "Vores tekniske portefølje tilbyder denne konfiguration i {count} højt specialiserede dimensionelle varianter, der er præcist skaleret til at imødekomme de hydrauliske og mekaniske krav i moderne væsketransportsystemer.",
-      "intro": "Produktet {title} udgør en hjørnesten i K Aquas højtydende løsninger til væskehåndtering. Officielt katalogiseret under varenumrene {codes} gennemgår hver variant strenge kvalitetssikringsprotokoller på vores tyske produktionsfaciliteter før levering.",
-      "outro": "Gennem brugen af avancerede polymerbehandlingsteknikker garanterer den geometriske præcision af {title} optimale flowegenskaber, minimerer tryktab og eliminerer fuldstændigt risikoen for kalkaflejringer eller korrosion over hele driftslevetiden. Dette kompromisløse engagement i materialevidenskab sikrer, at hver samling bevarer absolut integritet, selv under ekstreme termiske og trykmæssige udsving. Uanset om det bruges i beboelseshøjhuse, kritiske sundhedsfaciliteter eller krævende industrielle procesanlæg, leverer dette produkt en vedligeholdelsesfri pålidelighed, som ingeniører og installatører kan stole blindt på."
     },
-    "uniqueProductContext": "Produktet {title} er en integreret del af K Aquas {category}-sortiment. Udviklet til maksimal holdbarhed og problemfri integration opfylder det de højeste internationale standarder for moderne rør- og VVS-applikationer. Du kan identificere og bestille dette specifikke produkt ved hjælp af varenummeret/-numrene: {codes}. For yderligere dokumentation eller support bedes du kontakte vores tekniske team.",
-    "heroDesc": "Udforsk specifikationer, dimensioner og anvendelsesområder. For detaljeret information, download det tekniske datablad.",
-    "articleNumbers": "Varenumre",
-    "technicalSpecs": "Tekniske specifikationer",
-    "eyebrow": "Produkter",
-    "videoGuide": "K Aqua videovejledning",
-    "localAvailability": "Lokal tilgængelighed",
-    "localDesc": "Find lokale forhandlere, specifikke godkendelser og standarder for din region.",
-    "allMarkets": "Se alle 50+ markeder",
-    "title1": "PP-R/PPRCT Rør & Fittings til",
-    "titleGrad": "drikkevand.",
-    "lead": "Et komplet rørsystem til varmt og koldt drikkevand: fra rør over fitting til svejseteknologi. Fire byggesten, ét system.",
-    "ctaCatalog": "Produktkatalog (PDF)",
-    "ctaVideos": "Installationsvideoer",
-    "sysEyebrow": "Systemet",
-    "sysTitle": "K-Aqua PP-R Rør & Fittings: Fire byggesten, ét system.",
-    "range": [
-      {
-        "t": "Rør: Mono & Multilayer",
-        "d": "Monolayer- og glasfiberforstærkede multilayer-rør i SDR 6, 7,4, 9, 11 og 17. Dimensioner fra 20 mm til 630 mm."
-      },
-      {
-        "t": "Fittings & Ventiler",
-        "d": "Fittings fra 20 mm til 315 mm, suppleret med ventiler, forskruninger og overgangsstykker."
-      },
-      {
-        "t": "Svejseteknologi & Værktøj",
-        "d": "Skæreværktøjer, svejsemaskiner og svejseapparater til muffe-, stuk- og elektrosvejsning."
-      },
-      {
-        "t": "Varmt & koldt vand",
-        "d": "Designet til drikkevand (varmt og koldt) med høj temperatur- og trykmodstand over årtier."
-      }
-    ],
-    "techEyebrow": "Tekniske data",
-    "techTitle": "Dimensioner & trykklasser",
-    "techLead": "Afhængigt af rørtype fra 20 mm op til 630 mm, fittings op til 315 mm.",
-    "ctaFeatures": "Produktegenskaber (PDF)",
-    "tableHead": [
-      "Komponent",
-      "Dimension",
-      "Trykklasser"
-    ],
-    "tableRows": [
-      [
-        "Monolayer-rør",
-        "20 – 630 mm",
-        "SDR 6 / 7,4 / 9 / 11 / 17"
-      ],
-      [
-        "Multilayer-rør (GF-forstærket)",
-        "20 – 630 mm",
-        "SDR 6 / 7,4 / 9 / 11 / 17"
-      ],
-      [
-        "Fittings",
-        "20 – 315 mm",
-        "systemkompatibel"
-      ],
-      [
-        "Ventiler & forskruninger",
-        "systemafhængig",
-        "-"
-      ],
-      [
-        "Svejseteknologi & værktøj",
-        "alle dimensioner",
-        "-"
-      ]
-    ],
-    "labels": {
-      "specAndDim": "Specifikationer & Dimensioner",
-      "certsAndNorms": "Certifikater & Normer",
-      "approved": "Drikkevandsgodkendt",
-      "monitoring": "Løbende overvågning"
+  "about": {
+    "intro": {
+      "title1": "เราไม่ได้แค่จ่ายน้ำ",
+      "title2": "เราควบคุมมัน",
+      "desc": "กว่า 30 ปีที่เราได้ผลิตระบบท่อที่สร้างขึ้นเพื่อความคงทนตลอดไป ไม่มีพื้นที่สำหรับข้อผิดพลาด ไม่มีที่ว่างสำหรับความปานกลาง มีเพียงความแม่นยำที่บริสุทธิ์และไม่ประนีประนอม ซึ่งปรากฏอยู่ในข้อต่อทุกชิ้น"
     },
-    "specAndDim": "Specifikationer & Dimensioner",
-    "certsAndNorms": "Certifikater & Normer",
-    "approved": "godkendt",
-    "monitoring": "overvåget",
-    "norm": "Norm",
-    "certification": "Certificering",
-    "lifespan": "Levetid",
-    "fiberTech": "Fiber Teknologi",
-    "fiberTechDesc": "Glasfiberforstærket flerlagskonstruktion (Faser) for minimal længdeudvidelse og øget stabilitet.",
-    "compliance": "Overholdelse af standarder",
-    "dimensions": "Tilgængelige dimensioner",
-    "globalNetwork": "Globalt Netværk",
-    "globalNetworkDesc": "Vores logistikpartnere og lagerfaciliteter sikrer hurtig og pålidelig levering over hele verden.",
-    "whyChoose": "Hvorfor vælge",
-    "seoArticle": {
-      "valves": {
-        "areas": "Drikkevandsinstallationer, Varmesystemer, Industrianlæg, Kemikalieledninger",
-        "advTitle": "Maksimal pålidelighed i strømningsregulering",
-        "advList": [
-          "Dødvandsfrit design: Hygiejnisk konstruktion forhindrer mikrobiel vækst.",
-          "Højtryksbestandig: Massive PP-R/messing huse modstår enorme systemtryk.",
-          "Glat drift: Teflon-tætninger garanterer præcis regulering i årtier.",
-          "Korrosionsfri: Plastkomponenter eliminerer rust og belægninger indvendigt.",
-          "Homogen integration: Direkte indsvejsning i K Aqua-rørnetværket forhindrer lækager."
-        ],
-        "seoText": "K Aqua PP-R ventiler kombinerer korrosionsbestandigheden fra polymerer med præcisionen fra metalliske styremekanismer. Uanset om det er kugleventiler, skråsædeventiler eller indmurede ventiler – de sikrer en tabsfri og hygiejnisk fejlfri væskeregulering. Ideel til krævende drikkevands- og industrielle installationer, der kræver en vedligeholdelsesfri driftslevetid på mere end 50 år.",
-        "guideTitle": "Ekspertguide: Systemstyring med K Aqua ventiler og armaturer",
-        "guideText": "<p>Præcis styring og isolering af materialeflows er afgørende i moderne vand- og varmesystemer. <span class=\"font-semibold\">K Aqua afspærringsventiler</span> kombinerer polypropylens holdbarhed med præcisionen af metalliske tætnings- og styremekanismer.</p><p>Hvad du skal vide, når du integrerer PP-R ventiler:</p><ul><li><span class=\"font-semibold\">Dødvandsfrit design:</span> For at forhindre stagnerende vand og mikrobiel vækst (f.eks. legionella) er vores armaturer strømningsoptimerede og hygiejnisk designet, hvilket gør dem ideelle til følsomme drikkevandsinstallationer.</li><li><span class=\"font-semibold\">Tryk- og temperaturstabilitet:</span> De massive ventilhuse og de højkvalitets messing- eller PP-kugler garanterer en 100% tætning, selv ved ekstreme trykstød og høje fremløbstemperaturer.</li><li><span class=\"font-semibold\">Nem vedligeholdelse:</span> Selv efter mange år i kontinuerlig drift kan K Aqua kugleventiler og skråsædeventiler betjenes let og præcist takket være teflonbelagte tætningselementer.</li></ul><p>For maksimal systemtilgængelighed anbefaler vi, at ventilerne placeres strategisk allerede i planlægningsfasen, således at vedligeholdelse og skylning kan udføres uden omfattende netafbrydelser.</p>",
-        "faq": [
-          {
-            "q": "Kan K Aqua ventiler bruges til drikkevand?",
-            "a": "Ja, alle vandførende metaldele er fremstillet af afzinkningsbestandig messing, og plastdelene er KTW-godkendte, hvilket gør dem 100% egnede til drikkevand."
-          },
-          {
-            "q": "Er ventilerne kompatible med rør fra andre producenter?",
-            "a": "Ventilerne svejses, ligesom vores fittings, direkte på rørene og er designet udelukkende til homogene PP-R rørsystemer. Ved brug af tredjepartsrør bortfalder systemgarantien."
-          },
-          {
-            "q": "Er ventilerne egnede til varmeanlæg?",
-            "a": "Ja, takket være deres høje temperaturbestandighed er vores kugle- og skråsædeventiler ideelle til fremløb og retur i varmesystemer."
-          }
-        ],
-        "seoTitle": "PP-R Ventiler & Armaturer"
-      },
-      "accessories": {
-        "areas": "Fastgørelsesteknik, Tætning, Systemovergange, Reparation",
-        "advTitle": "Tilbehør til en standardkompatibel installation",
-        "advList": [
-          "Perfekt pasform: Alt tilbehør er geometrisk afstemt til K Aqua-rørsystemet.",
-          "Termodynamisk fastgørelse: Rørbøjler med gummiindlæg til fast- og glidebeslag.",
-          "Højkvalitets flangetilslutninger: Løse flanger og EPDM-pakninger til overgangen til metal.",
-          "Hurtig reparation: Reparationspropper til rør, der ved et uheld er boret igennem.",
-          "UV-bestandighed: Udvalgt tilbehør er specielt stabiliseret til udendørs installation."
-        ],
-        "seoText": "Det rigtige tilbehørssortiment er afgørende for et rørnetværks levetid. K Aqua tilbyder en omfattende tilbehørsmatrix: fra termodynamiske rørbøjler, der absorberer længdeudvidelser, til EPDM-fladpakninger til flangesamlinger. Kun med det perfekt afstemte K Aqua tilbehør sikrer du overholdelse af alle GEG- og DIN 18381-specifikationer.",
-        "guideTitle": "Ekspertguide: K Aqua tilbehør til standardkompatible installationer",
-        "guideText": "<p>Et højkvalitets rørsystem kræver ligeledes højkvalitets tilbehør. K Aqua-sortimentet omfatter alle væsentlige komponenter for at sikre lang levetid, sikkerhed og overholdelse af alle bygningsfysiske standarder.</p><p>De vigtigste aspekter ved korrekt brug af vores tilbehør:</p><ul><li><span class=\"font-semibold\">Kompensation for længdeudvidelse:</span> Ved temperaturændringer udvider plastrør sig. Målrettet brug af vores termodynamiske rørbøjler som fast- og glidebeslag absorberer disse bevægelser sikkert og beskytter systemet mod skadelige restspændinger. Dette er især afgørende for industrielle systemer og stigrør, hvor ukontrolleret udvidelse kan føre til strukturelle skader.</li><li><span class=\"font-semibold\">Tætte flangesamlinger:</span> For overgange til store ventiler, pumper eller tanke giver vores løse flanger og de præcist afstemte EPDM-fladpakninger absolut sikkerhed ved høje kontakttryk og kontinuerlige vibrationer. De garanterer en sømløs, væsketæt forbindelse og forhindrer dermed potentielt katastrofale lækager i kritiske infrastrukturer.</li><li><span class=\"font-semibold\">Reparationsløsninger:</span> Med vores innovative reparationsprop kan utilsigtet gennemborede rør (f.eks. på byggepladser) svejses homogent på få minutter, så røret genvinder sin fulde mekaniske styrke. En komplet udskiftning af rørsektionen er derfor ikke længere nødvendig.</li></ul><p>Ud over kompensation og tæthed spiller <span class=\"font-semibold\">isolering og brandbeskyttelse</span> en central rolle for en professionel installation. K Aquas tilbehørssortiment er designet til at minimere termiske tab og opfylde de højeste sikkerhedsstandarder. Vores specialpakninger og fastgørelseselementer er designet til effektivt at dæmpe lydtransmission og forhindre udbredelse af strukturstøj i murværk.</p><p>Ved udelukkende at bruge originale K Aqua tilbehørsdele sikrer du den fulde systemgaranti og undgår omkostningstunge defekter forårsaget af inkompatible tredjepartsprodukter. Invester i kompromisløs kvalitet for at sikre en problemfri drift af dit rørsystem i årtier frem.</p> Tilbehør til en standardkompatibel installation.",
-        "faq": [
-          {
-            "q": "Er tilbehørsdelene egnede til koldt og varmt vand?",
-            "a": "Ja, vores tilbehør som rørbøjler og fladpakninger er designet til brug i koldtvands-, varmtvands- og varmesystemer og udviser fremragende termisk stabilitet."
-          },
-          {
-            "q": "Kan jeg bruge tilbehør fra tredjepartsleverandører?",
-            "a": "For at gøre krav på den fulde K Aqua systemgaranti er det obligatorisk at bruge originale tilbehørsdele. Fremmede komponenter kan føre til tæthedsproblemer eller mekaniske svigt."
-          },
-          {
-            "q": "Er der specielt tilbehør til industriel brug?",
-            "a": "Ja, vores sortiment inkluderer kraftige løse flanger med stålkerne, specielle EPDM-pakninger og forstærkede rørbøjler, der nemt kan modstå ekstreme industrielle belastninger."
-          }
-        ],
-        "seoTitle": "Tilbehør til rørinstallation"
-      },
-      "tools": {
-        "areas": "Præfabrikation, Installation på byggeplads, Reparation, Specialapplikationer",
-        "advTitle": "Højeste præcision for den perfekte samling",
-        "advList": [
-          "Nøjagtig temperaturkontrol: Mikroprocessorstyrede varmelegemer opretholder præcis 260°C.",
-          "Non-stick belægning: Teflon-PTFE for restfri smeltning.",
-          "Ergonomisk design: Reducerer den fysiske belastning på installatøren.",
-          "Digital dokumentation: Stuksvejse- og elektrosvejsemaskiner med log-funktion.",
-          "Lang levetid: Robust mekanik til den hårde hverdag på byggepladsen."
-        ],
-        "seoText": "K Aquas værktøjssortiment udgør det uundværlige grundlag for professionel forarbejdning af vores rørsystemer. Fra den præcise rørsaks til den automatiserede CNC-stuksvejsemaskine, tilbyder vi det optimale udstyr til enhver dimension. Kun med kalibrerede originalværktøjer kan de samleparametre, der kræves af DVS, overholdes præcist for at garantere en levetid på over 50 år.",
-        "guideTitle": "Praktisk guide: Professionelt værktøj til K Aqua rørinstallation",
-        "guideText": "<p>Kvaliteten af en plastrørsinstallation står og falder med præcisionen af de anvendte værktøjer. <span class=\"font-semibold\">K Aqua svejse- og skæreværktøjer</span> er specielt afstemt efter de termoplastiske egenskaber af PP-R og PPRCT for at opnå fejlfrie resultater.</p><p>Hvorfor professionelt udstyr er uundværligt:</p><ul><li><span class=\"font-semibold\">Fejlfri forberedelse:</span> Et absolut retvinklet og gratfrit snit er grundforudsætningen for en tæt svejsesøm. Vores rørskærere og koldsave forhindrer materialekompressioner og mikroridser.</li><li><span class=\"font-semibold\">Termodynamisk præcision:</span> De mikroprocessorstyrede muffesvejseapparater holder den ideelle samletemperatur på 260°C konstant selv under vanskelige vejrforhold, hvilket pålideligt forhindrer nedbrydning af polymeren.</li><li><span class=\"font-semibold\">Automatiseret sikkerhed:</span> For store nominelle diametre eliminerer vores computerstyrede stuksvejse- og elektrosvejsemaskiner menneskelige fejl ved fuldautomatisk at regulere tryk, tid og temperatur, samt digitalt at dokumentere for bygningsgodkendelse.</li></ul><p>Regelmæssig vedligeholdelse og rengøring af de teflonbelagte varmeværktøjer er essentiel for at sikre en homogen smeltning og varigt belastbare, lækagefrie rørnetværk.</p>",
-        "seoTitle": "Svejseværktøj & Rørskærere"
-      },
-      "fallback": {
-        "areas": "Universel installationsteknik, Behov på byggepladsen, Systemtilføjelse",
-        "advTitle": "Perfekt systemtilføjelse",
-        "advList": [
-          "Godkendt kvalitet: Overholder ISO 9001 ledelsessystem.",
-          "Systemkompatibilitet: Perfekt afstemt til K Aqua-rørsystemet.",
-          "Lang levetid: Robuste materialer til den hårde hverdag på byggepladsen.",
-          "Sikker brug: Garanteret funktion ved professionel brug.",
-          "Økonomi: Fremragende forhold mellem pris og ydelse."
-        ],
-        "seoText": "Som systemleverandør leverer K Aqua ikke kun rør og fittings, men også alt det nødvendige værktøj og tilbehør. Fra det højpræcise svejseapparat til den pålidelige rørskærer: Vores værktøjer garanterer en standardkompatibel forarbejdning og maksimal installationssikkerhed. Stol på originalt tilbehør for at opretholde garantien for hele dit K Aqua system."
-      }
-    },
-    "certified": "certificeret",
-    "quickLinks": "Hurtig adgang",
-    "calcCo2": "Beregn CO2-aftryk",
-    "backToFinder": "Tilbage til produktfinder",
-    "enterpriseCore": "Enterprise Core",
-    "highPerformance": "Højtydende Rørsystemer",
-    "highPerformanceDesc": "Til industrielle applikationer, drikkevandsforsyning og klimastyring under ekstreme forhold.",
-    "sysPressure": "Systemtryk",
-    "tempMax": "Maks. Temperatur",
-    "material": "Materiale",
-    "sysLead": "Gennem en homogen svejseproces skaber vores PP-R og PP-RCT rør og fittings et absolut lækagefrit, korrosionsbestandigt og holdbart system – fra forsyning til det sidste tappested.",
-    "hero": {
-      "eyebrow": "Produktportefølje",
-      "title": "Ingeniørkunst formet i polymer.",
-      "lead": "Velkommen til den næste generation af væskehåndtering. Fra præcisionsekstruderede rør til højkomplekse hybridfittings – K Aqua leverer et 100% korrosionsfrit, fuldt integreret system til verdens mest krævende infrastrukturprojekter. Udforsk vores produktkategorier.",
-      "ctaPrimary": "Åbn produktkatalog",
-      "ctaSecondary": "Tekniske retningslinjer"
-    },
-    "sticky": {
-      "eyebrow": "Systemoverblik",
-      "title": "Én matrix. Uendelige muligheder.",
-      "lead": "Et rørnetværk er kun så stærkt som dets svageste led. Derfor er K Aqua-systemet kompromisløst integreret: Hver fitting, hver ventil og hvert stykke værktøj er designet til at danne en uadskillelig, molekylær enhed med røret.",
+    "material": {
+      "eyebrow": "วัสดุศาสตร์",
+      "title1": "โพลีโพรพิลีน แรนดอม โคโพลีเมอร์",
+      "title2": "ปลดปล่อยศักยภาพ",
+      "p1": "PP-R ประเภท 3 ไม่ใช่แค่พลาสติกทั่วไป แต่มันคือวัสดุเทอร์โมพลาสติกที่มีความซับซ้อนสูง ซึ่งเราเชี่ยวชาญในระดับโมเลกุล",
+      "p2": "ด้วยการจัดเรียงโมโนเมอร์เอทิลีนในห่วงโซ่โพรพิลีนอย่างมีกลยุทธ์ เราบรรลุความทนทานต่อแรงกระแทกที่ไม่มีใครเทียบได้ แม้ในอุณหภูมิติดลบ เม็ดพลาสติกของเรามาจากผู้ผลิตวัตถุดิบระดับแนวหน้าของโลกเท่านั้น เราวิเคราะห์แต่ละชุดการผลิตด้วยการทดสอบ Differential Scanning Calorimetry (DSC) และ Melt Flow Rate (MFR) สิ่งใดที่ไม่เป็นไปตามข้อกำหนดของเราแม้เพียงหนึ่งในพันส่วน จะถูกกำจัดทิ้งอย่างไม่ปรานี",
       "items": [
         {
-          "title": "Rørsystemer (PP-R & PPRCT)",
-          "desc": "Rygraden i din infrastruktur. Extruderet af premium polymerer, tilgængelig som mono- eller glasfiberforstærkede flerlagsrør (Faser). Absolut korrosionsfri og trykbestandig op til PN25."
+          "title": "มวลโมเลกุลสูงสุด",
+          "desc": "รับประกันความทนทานต่อการคืบสูงสุด (creep rupture strength) และทนทานต่อการแตกร้าวจากความเค้นภายใต้แรงดันสูง"
         },
         {
-          "title": "Polyfusion Fittings",
-          "desc": "Fra enkle bøjninger til komplekse fordelingsblokke. Vores fittings smeltes termisk sammen med rørene. Resultatet: Ingen pakninger, ingen gevind, ingen svage punkter. Kun kontinuerligt materiale."
-        },
-        {
-          "title": "Hybrid Overgangsteknologi",
-          "desc": "Interfacet til den metalliske verden. Med dybttrukne DZR-messingindsatser (CW617N) fast forankret i PP-R-kappen garanterer vi sikre gevind- og flangeforbindelser ved massive spidsbelastninger."
-        },
-        {
-          "title": "Ventiler & Armaturer",
-          "desc": "Præcisionsregulering møder polymer-hydraulik. Uanset om det er kugleventiler eller skråsædeventiler – vores armaturer integreres sømløst i rørnetværket og eliminerer risikoen for stagnerende vand."
-        }
-      ]
-    },
-    "bento": {
-      "eyebrow": "Materialevidenskab",
-      "title": "Hvorfor vores polymerer overgår metal.",
-      "lead": "I årtier var stål og kobber målestokken. I dag erstattes de i stigende grad af højteknologisk plast i industrielle og kommercielle applikationer.",
-      "items": [
-        {
-          "title": "Absolut Korrosionsfri",
-          "desc": "Modstandsdygtig over for aggressive vandkvaliteter, klor og kemikalier. Ingen grubetæring, ingen inkrustation, intet fald i flow over 50 år."
-        },
-        {
-          "title": "Termisk Isolering",
-          "desc": "Polypropylen isolerer naturligt. Varmetab minimeres, kondensdannelse på koldtvandsrør drastisk reduceres – ofte uden yderligere isolering."
-        },
-        {
-          "title": "Akustisk Dæmpning",
-          "desc": "Materialets iboende elasticitet dæmper vandhammerslag og strømningsstøj markant bedre end stive metallydsbroer. Ideelt til hoteller og boliger."
-        },
-        {
-          "title": "Hurtigere Installation",
-          "desc": "Polyfusion-svejsning tager sekunder og skaber en samling, der straks kan belastes med tryk. Betydelig tidsbesparelse sammenlignet med lodning eller presning."
+          "title": "การเพิ่มประสิทธิภาพผลึก (Crystalline)",
+          "desc": "ความสมดุลทางอุณหพลศาสตร์ที่สมบูรณ์แบบ ความยืดหยุ่นสูงสุดสำหรับเงื่อนไขการติดตั้งที่รุนแรง พร้อมความแข็งเกร็งตามแนวแกนในเวลาเดียวกัน"
         }
       ]
     },
     "timeline": {
-      "title": "Forbindelsens Anatomi",
-      "desc": "Sænk fejlraten på byggepladsen til nul. Sådan fungerer K Aquas molekylære sammensmeltning.",
+      "title": "วิวัฒนาการแห่งความสมบูรณ์แบบ",
+      "desc": "การก้าวขึ้นสู่อำนาจทางการตลาดระดับโลกอย่างไม่หยุดยั้ง ทุกทศวรรษคือจุดเริ่มต้นของความเหนือกว่าทางเทคโนโลยี",
       "items": [
         {
-          "year": "Trin 1",
-          "title": "Forberedelse",
-          "text": "Røret skæres vinkelret med kalibreret værktøj for at sikre en perfekt anlægsflade."
+          "year": "1990",
+          "title": "จุดกำเนิดของความไม่ประนีประนอม",
+          "text": "ที่ซึ่งผู้อื่นยอมประนีประนอม เราได้ขีดเส้นแบ่ง การก่อตั้ง K Aqua ตั้งอยู่บนหลักการเดียวที่แน่วแน่: ระบบท่อที่ไร้ที่ติ เครื่องอัดรีดเครื่องแรกของเราทำงานด้วยความแม่นยำที่สร้างความสั่นสะเทือนให้กับตลาด"
         },
         {
-          "year": "Trin 2",
-          "title": "Opvarmning",
-          "text": "Rør og fitting indsættes samtidigt i svejseværktøjet (260°C). Overfladerne plastificeres uden at smelte fuldstændigt."
+          "year": "2005",
+          "title": "การปฏิวัติโพลีโพรพิลีน",
+          "text": "เราปฏิเสธที่จะยอมรับสถานะที่เป็นอยู่ ด้วยการเปิดตัวส่วนผสม PP-R ที่เป็นกรรมสิทธิ์ของเรา เราได้กำหนดนิยามใหม่ของเสถียรภาพทางความร้อน ในขณะที่ผลิตภัณฑ์ของคู่แข่งพังทลายภายใต้แรงดัน ระบบของเรายังคงสภาพสมบูรณ์อย่างไม่สะทกสะท้าน ชัยชนะของเคมีโพลิเมอร์"
         },
         {
-          "year": "Trin 3",
-          "title": "Polyfusion",
-          "text": "Delene samles. Gennem det specifikke modtryk blandes polymerkæderne på molekylært niveau."
+          "year": "2015",
+          "title": "การอยู่ร่วมกันทางสถาปัตยกรรม",
+          "text": "จากเส้นขอบฟ้าในดูไบไปจนถึงโรงงานอุตสาหกรรมในภูมิภาครูห์ร: K Aqua กลายเป็นคำพ้องความหมายของโครงสร้างพื้นฐานที่ทำลายไม่ได้ ท่อคอมโพสิตไฟเบอร์ PPRCT ของเราปฏิวัติวิศวกรรมโครงสร้าง การขยายตัวน้อยลง, การไหลมากขึ้น, และอำนาจเบ็ดเสร็จ"
         },
         {
-          "year": "Trin 4",
-          "title": "Homogen Matrix",
-          "text": "Efter afkøling eksisterer der ikke længere to separate dele. Forbindelsen er nu en uadskillelig, kontinuerlig struktur."
+          "year": "2026",
+          "title": "เผด็จการระดับโมเลกุล",
+          "text": "วันนี้ เราควบคุมทุกแง่มุมของการผลิต ตั้งแต่การเลือกเม็ดพลาสติกดิบไปจนถึงการตรวจสอบขั้นสุดท้าย ระบบของเราอยู่ภายใต้ระบอบการควบคุมคุณภาพอย่างเข้มงวด ผลลัพธ์คืออะไร? อายุการใช้งานที่รับประกันได้ว่าจะคงทนไปหลายชั่วอายุคน"
         }
       ]
     },
+    "sticky": {
+      "eyebrow": "ฟิสิกส์ที่ถูกพิชิต",
+      "title": "เสาหลักแห่งอำนาจทั้งสี่",
+      "lead": "เทคโนโลยีที่ใกล้เคียงกับเวทมนตร์ เราไม่เพียงแต่เอาชนะข้อจำกัดของระบบท่อแบบเดิม แต่เรายังบดขยี้มัน",
+      "items": [
+        {
+          "title": "ความสมบูรณ์แบบสูงสุดในด้านคุณภาพ",
+          "desc": "ทุกมิลลิเมตรของระบบ PP-R และ PPRCT ของเราผ่านการทดสอบแรงเค้นที่โหดเหี้ยมที่สุด อายุการใช้งาน 50 ปีไม่ใช่แค่คำสัญญา แต่เป็นความแน่นอนทางคณิตศาสตร์ เราไม่ยอมให้มีความคลาดเคลื่อนแม้แต่น้อย สิ่งที่ออกจากโรงงานของเราคือความสมบูรณ์แบบในรูปแบบโพลิเมอร์"
+        },
+        {
+          "title": "ความคงทนต่อความร้อน",
+          "desc": "ท่อคอมโพสิตไฟเบอร์ของเรา (K Aqua Faser) ทำให้การขยายตัวเชิงเส้นจากความร้อนเกือบจะเป็นศูนย์ ไม่ว่าจะเย็นจัด -20°C หรือเดือดถึง +95°C ระบบของเรายังคงรักษารูปทรงได้อย่างสมบูรณ์แบบ ผลงานชิ้นเอกทางวิศวกรรมที่ดูเหมือนจะท้าทายกฎทางฟิสิกส์"
+        },
+        {
+          "title": "ความต้านทานต่อสารเคมี",
+          "desc": "การกัดกร่อนไม่มีอยู่ในพจนานุกรมของเรา โพลิเมอร์ของเรามีภูมิคุ้มกันต่อสารเคมีที่รุนแรงที่สุด, การเกาะตัวของหินปูน และการเสื่อมสภาพทางชีวภาพ ในขณะที่โลหะเกิดสนิมและผุกร่อนในดิน K Aqua ยังคงสภาพเดิม: แข็งแกร่ง, เป็นชิ้นเดียว, และทำลายไม่ได้"
+        },
+        {
+          "title": "การรวมตัวระดับโมเลกุล",
+          "desc": "ด้วยกระบวนการเชื่อมที่เป็นเนื้อเดียวกัน ท่อและข้อต่อของเราหลอมรวมกันในระดับโมเลกุลจนแยกไม่ออก ไม่มีซีลหรือปะเก็นที่อาจเสื่อมสภาพ ไม่มีจุดอ่อนทางกลไก เป็นโครงสร้างชิ้นเดียวที่คงทนตลอดไป"
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "ความโดดเด่นทางอุตสาหกรรม",
+      "title": "โครงสร้างพื้นฐานระดับสูงสุด",
+      "lead": "เราไม่ได้ผลิตแค่ท่อ เราสร้างเส้นเลือดแห่งอารยธรรมสมัยใหม่ K Aqua คือกระดูกสันหลังของโครงการอุตสาหกรรมและสถาปัตยกรรมขนาดใหญ่ทั่วโลก",
+      "items": [
+        {
+          "title": "การอัดรีดที่ทรงพลัง",
+          "desc": "ระบบประสิทธิภาพสูงที่ทำงานภายใต้แรงดันมหาศาล ผลลัพธ์คือความสม่ำเสมอของความหนาผนังที่ไม่มีใครเทียบได้จนถึงระดับไมโครเมตร"
+        },
+        {
+          "title": "ความเหนือกว่าที่ผ่านการทดสอบ",
+          "desc": "ISO 9001, 14001, 50001 เราไม่เพียงแค่ทำตามมาตรฐาน แต่เราเป็นผู้กำหนดมัน การรับรองระดับสากลถือเป็นมาตรฐานขั้นต่ำสำหรับเรา"
+        },
+        {
+          "title": "ข้อกำหนดด้านสุขอนามัย",
+          "desc": "ปลอดภัยสำหรับอาหาร, ปราศจากสารพิษ และต้านทานเชื้อโรคอย่างสมบูรณ์แบบ น้ำดื่มที่อยู่ในระบบ K Aqua จะยังคงบริสุทธิ์อย่างแท้จริง ไม่มีข้อยกเว้น"
+        },
+        {
+          "title": "ประสิทธิภาพด้านทรัพยากร",
+          "desc": "รีไซเคิลได้ 100% ปล่อยก๊าซคาร์บอนไดออกไซด์ (CO2) น้อยที่สุดในระหว่างการผลิต เพราะพลังทางเทคโนโลยีที่แท้จริงหมายถึงความรับผิดชอบต่ออนาคตเสมอ"
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "นโยบายองค์กร",
+      "title": "รากฐานของการดำเนินงานของเรา",
+      "desc": "เทคโนโลยีเพียงอย่างเดียวยังไม่พอ ความยิ่งใหญ่ที่แท้จริงแสดงออกผ่านวิธีการที่บริษัทมีปฏิสัมพันธ์กับสิ่งแวดล้อม พนักงาน และพันธมิตร",
+      "items": [
+        {
+          "title": "ความลุ่มหลงในลูกค้า",
+          "desc": "เราไม่เพียงแค่ให้บริการตลาด แต่เราครองตลาดด้วยการมุ่งเน้นที่ลูกค้าอย่างจริงจัง ความต้องการของคุณคือคำสั่งของเรา โซลูชันของเรามีความแม่นยำ ปรับขนาดได้ และไม่มีการประนีประนอมในการปฏิบัติงาน"
+        },
+        {
+          "title": "พันธมิตรเชิงกลยุทธ์",
+          "desc": "เราไม่ได้มองหาแค่ซัพพลายเออร์ แต่เราสร้างพันธมิตรเชิงกลยุทธ์กับผู้ผลิตวัตถุดิบที่ดีที่สุดในโลก การวิจัยร่วมกัน, มาตรฐานคุณภาพร่วมกัน, และความเป็นผู้นำร่วมกัน"
+        },
+        {
+          "title": "ความจำเป็นทางนิเวศวิทยา",
+          "desc": "ที่ K Aqua ความยั่งยืนไม่ใช่แค่สโลแกนการตลาด แต่เป็นสิ่งจำเป็นทางกายภาพ ความทนทานคือการปกป้องสิ่งแวดล้อมขั้นสูงสุด ระบบของเราช่วยลดรอยเท้าพลังงาน (energy footprint) ตั้งแต่การผลิตไปจนถึงการรีไซเคิล"
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "ผ่านการทดสอบคุณภาพ",
+      "title1": "ระบบการจัดการ ",
+      "titleHighlight": "GENAU",
+      "title2": " (Management System)",
+      "p1": "เป้าหมายของระบบการจัดการ GENAU คือการปรับปรุงอย่างต่อเนื่องในด้านอาชีวอนามัย ความปลอดภัย และการปกป้องสิ่งแวดล้อมภายในบริษัท",
+      "p2": "กิจกรรมทั้งหมดของบริษัทที่ KWT ดำเนินการโดยคำนึงถึงการอนุรักษ์ทรัพยากร ความเป็นมิตรต่อสิ่งแวดล้อม และการปฏิบัติตามภาระผูกพันทั้งหมดอย่างเคร่งครัด การบริหารจัดการ GENAU ที่นำมาใช้จริงนี้ ตอบสนองข้อกำหนดระดับสูงของ ",
+      "p3": " และ ",
+      "list1Title": "ความรับผิดชอบต่อระบบนิเวศ",
+      "list1Desc": "การปกป้องสิ่งแวดล้อมเป็นส่วนหนึ่งของความเข้าใจด้านคุณภาพของเรา ซึ่งพนักงานของ KWT GmbH ทุกคนมุ่งมั่นปฏิบัติตาม",
+      "list2Title": "ประสิทธิภาพการใช้พลังงาน",
+      "list2Desc": "การระบุความเสี่ยงอย่างตรงจุด และการนำมาตรการไปปฏิบัติเพื่อเพิ่มประสิทธิภาพการใช้พลังงานให้เหมาะสมที่สุด"
+    }
+  },
+  "footer": {
+    "tagline": "K-Aqua ผู้นำด้านการจ่ายน้ำ ท่อ PP-R/PP-RCT สำหรับน้ำดื่ม ผลิตโดย KWT GmbH ใน Waldsolms",
+    "colTools": "ผลิตภัณฑ์และเครื่องมือ",
+    "colCompany": "บริษัท",
+    "colContact": "ติดต่อ",
+    "directions": "แผนที่และที่ตั้ง",
+    "rights": "สงวนลิขสิทธิ์ทั้งหมด",
+    "imprint": "ข้อมูลทางกฎหมาย (Imprint)",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "phone": "+49 (0)60 85 / 9868-410",
+    "email": "info@k-aqua.de",
+    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "copyright": "© 2026 KWT GmbH.",
+    "projectCta": "สอบถามโครงการ",
+    "badges": [
+      {
+        "t": "SKZ-Cert",
+        "s": "ISO 9001 / 14001 / 50001"
+      },
+      {
+        "t": "DIN 8077/8078",
+        "s": "มาตรฐานท่อ PP-R"
+      },
+      {
+        "t": "ความยั่งยืน",
+        "s": "เป็นมิตรกับสิ่งแวดล้อม"
+      },
+      {
+        "t": "ระบบ GENAU",
+        "s": "การจัดการแบบบูรณาการ"
+      },
+      {
+        "t": "ผลิตในเยอรมนี",
+        "s": "ผลิตใน Waldsolms"
+      }
+    ],
+    "attribution": {
+      "texts": [
+        "ออกแบบเว็บไซต์โดย Coday",
+        "โครงการของ Coday Web Agency",
+        "Coday Web Agency",
+        "เข้าสู่ระบบดิจิทัลโดย Coday"
+      ],
+      "srDesc": "เว็บไซต์นี้ได้รับการออกแบบและพัฒนาทางเทคนิคโดย Coday Web Agency ผู้เชี่ยวชาญด้านการออกแบบเว็บไซต์และ GEO ในเฮสเซน",
+      "linkTitle": "ไปยัง Coday Web Agency - บริการออกแบบเว็บไซต์พรีเมียม"
+    }
+  },
+  "regions": {
+    "dach": "DACH (เยอรมนี, ออสเตรีย, สวิตเซอร์แลนด์)",
+    "europa": "ยุโรป",
+    "nahost": "ตะวันออกกลาง",
+    "global": "แอฟริกา และเอเชียแปซิฟิก"
+  },
+  "homex": {
+    "stats": [
+      {
+        "n": "630",
+        "u": "มม.",
+        "l": "ขนาดท่อสูงสุดในโปรแกรม"
+      },
+      {
+        "n": "5",
+        "u": "SDR",
+        "l": "ระดับแรงดัน: SDR 6 / 7.4 / 9 / 11 / 17"
+      },
+      {
+        "n": "3×",
+        "u": "ISO",
+        "l": "ตรวจสอบคุณภาพ สิ่งแวดล้อม และพลังงาน"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "ขยะจากการผลิตถูกนำไปรีไซเคิล"
+      }
+    ],
+    "heroBadgeLabel": "ขนาดท่อ ตั้งแต่ SDR 6 ถึง SDR 17",
+    "marquee": [
+      "ผู้นำด้านระบบน้ำ",
+      "d20 – d630",
+      "ISO 9001 · 14001 · 50001",
+      "ผลิตใน Waldsolms",
+      "รีไซเคิล 100%",
+      "พันธมิตร: KESSEL"
+    ],
+    "tools": [
+      {
+        "id": "finder",
+        "t": "ค้นหาผลิตภัณฑ์",
+        "d": "กรองมากกว่า 170 รายการแบบเรียลไทม์: ขนาด, SDR, ความหนาของผนัง ได้ทันที",
+        "cta": "กรองเลย"
+      },
+      {
+        "id": "co2",
+        "t": "เครื่องคำนวณ CO₂",
+        "d": "โครงการของคุณ เทียบกับทองแดง, สแตนเลส และ PVC ประเมินเป็นต้นไม้และกิโลเมตรรถยนต์",
+        "cta": "คำนวณเลย"
+      },
+      {
+        "id": "academy",
+        "t": "สถาบัน (Academy) + ควิซ",
+        "d": "ขั้นตอนการเชื่อมสี่วิธีในวิดีโอ ตามด้วยควิซผู้เชี่ยวชาญการเชื่อม",
+        "cta": "เป็นผู้เชี่ยวชาญ"
+      },
+      {
+        "id": "references",
+        "t": "ลูกโลกอ้างอิง",
+        "d": "หมุนโลก ค้นพบโครงการต่างๆ: ตั้งแต่ Waldsolms ถึงสิงคโปร์",
+        "cta": "หมุนลูกโลก"
+      },
+      {
+        "id": "trust",
+        "t": "ศูนย์ความเชื่อมั่น (Trust Center)",
+        "d": "ตรวจสอบใบรับรอง และรวบรวมเอกสาร RFP ด้วยตัวคุณเอง",
+        "cta": "สร้างแพ็กเกจ"
+      },
+      {
+        "id": "career",
+        "t": "เครื่องคำนวณสวัสดิการ",
+        "d": "สิทธิพิเศษปลอดภาษีเพิ่มรายได้สุทธิเท่าไหร่ พร้อมจับคู่วัฒนธรรมองค์กรใน 60 วินาที",
+        "cta": "เช็ครายได้สุทธิ"
+      }
+    ],
+    "vsEyebrow": "ความแตกต่าง",
+    "vsTitle": "มาตรฐานอุตสาหกรรม vs K Aqua ดิจิทัล",
+    "vsBadTitle": "วิธีที่อุตสาหกรรมทำ",
+    "vsGoodTitle": "วิธีที่ K Aqua ทำ",
+    "vsBad": [
+      "แคตตาล็อก PDF 220 หน้าที่ไม่มีระบบค้นหา",
+      "ใบรับรองได้เฉพาะเมื่อมีการร้องขอเป็นลายลักษณ์อักษร",
+      "ข้อมูลทางเทคนิคที่ซ่อนลึกอยู่ในตาราง",
+      "หน้าสมัครงาน: เป็นเพียงแค่กล่องจดหมาย"
+    ],
+    "vsGood": [
+      "ค้นหาผลิตภัณฑ์: กรองข้อมูลในไม่กี่วินาที",
+      "ศูนย์ความเชื่อมั่น: ดาวน์โหลดด้วยตนเองได้ทุกเวลา",
+      "เครื่องคำนวณ CO₂ ที่แปลงข้อมูลเป็นข้อโต้แย้งทางธุรกิจ",
+      "เครื่องคำนวณสวัสดิการ + จับคู่วัฒนธรรมองค์กร"
+    ],
+    "coEyebrow": "บริษัท",
+    "coTitle1": "ผู้จำหน่ายวัสดุก่อสร้างและผู้ผลิต:",
+    "coTitle2": "จากแหล่งเดียว",
+    "coLead": "KWT GmbH ผลิตท่อและข้อต่อพลาสติกหลายชนิดสำหรับระบบน้ำ โดยวางตำแหน่งในห่วงโซ่คุณค่าการก่อสร้างในฐานะซัพพลายเออร์และผู้ผลิตในเวลาเดียวกัน",
+    "kesselTitle": "พันธมิตรที่แข็งแกร่งกับ KESSEL",
+    "kesselText": "เรามีความร่วมมือที่ใกล้ชิดและยาวนานกับผู้ผลิตพรีเมียมอย่าง KESSEL ซึ่ง 'เป็นผู้นำด้านระบบระบายน้ำ' นำประสบการณ์หลายทศวรรษไปสู่อนาคต",
+    "kesselCta": "เพิ่มเติมเกี่ยวกับความเป็นพันธมิตร",
+    "worldTitle": "ได้รับการพิสูจน์แล้วทั่วโลก",
+    "worldText": "ผลิตภัณฑ์ของ K Aqua ได้รับการพิสูจน์แล้วในโครงการต่างๆ ทั่วโลกนับครั้งไม่ถ้วนมาตลอดหลายทศวรรษ",
+    "worldCta": "ลูกโลกอ้างอิง",
+    "cards": [
+      {
+        "t": "ระบบบริหารจัดการ GENAU",
+        "d": "การปรับปรุงอย่างต่อเนื่องด้านอาชีวอนามัย ความปลอดภัย และสิ่งแวดล้อม ตามมาตรฐาน DIN EN ISO 14001 และ 50001"
+      },
+      {
+        "t": "ผลิตในประเทศเยอรมนี",
+        "d": "การพัฒนาและผลิตใน Waldsolms: คุณภาพ ต้นทุน และเวลาที่สมดุลเสมอ"
+      },
+      {
+        "t": "ความรับผิดชอบต่อระบบนิเวศ",
+        "d": "การอนุรักษ์ทรัพยากรและความเป็นมิตรต่อสิ่งแวดล้อมเป็นส่วนสำคัญในความเข้าใจด้านคุณภาพของเรา"
+      }
+    ],
+    "manifestTitle": "พันธกิจของเรา",
+    "manifestText": "น้ำคือทรัพยากรที่มีค่าที่สุดของเรา เราปกป้องมันด้วยระบบท่อที่มุ่งสู่อนาคต",
+    "grEyebrow": "การเข้าถึงทั่วโลก",
+    "grTitle1": "เส้นทางการค้า",
+    "grTitle2": "ระดับนานาชาติ",
+    "grLead": "จากเยอรมนีสู่ทั่วโลก: ระบบท่อ K Aqua ของเราเป็นกระดูกสันหลังของโครงการยักษ์ใหญ่ที่ทันสมัยที่สุดทั่วโลก ตั้งแต่ NEOM ในซาอุดีอาระเบียไปจนถึงโรงงานอุตสาหกรรมที่ซับซ้อนในสิงคโปร์",
+    "grHqLabel": "สำนักงานใหญ่และการผลิต",
+    "grHqValue": "เยอรมนี (แฟรงก์เฟิร์ต)",
+    "grExportLabel": "ตลาดส่งออกหลัก",
+    "grExportValue": "ซาอุดีอาระเบีย (NEOM), สหรัฐอาหรับเอมิเรตส์, กาตาร์, ละตินอเมริกา",
+    "grCta": "ค้นพบโครงการทั่วโลก",
+    "labels": {
+      "applicationAreas": "พื้นที่การใช้งาน",
+      "advantages": "สรุปข้อดีของคุณ",
+      "technicalDescription": "โปรไฟล์ด้านเทคนิค & SEO",
+      "noResults": "ไม่พบผลิตภัณฑ์",
+      "searchPlaceholder": "ค้นหาตามชื่อหรือรหัสบทความ...",
+      "faqTitle": "คำถามที่พบบ่อย (FAQ)",
+      "faqFallbackQ1": "ข้อดีหลักคืออะไร?",
+      "faqFallbackA1": "ระบบนี้มีความทนทานสูง ทนต่อการกัดกร่อน และมีคุณสมบัติด้านสุขอนามัยที่ยอดเยี่ยมสำหรับน้ำดื่ม",
+      "faqFallbackQ2": "วัสดุเป็นมิตรต่อสิ่งแวดล้อมหรือไม่?",
+      "faqFallbackA2": "ใช่ PPRCT รีไซเคิลได้ 100% และมีปริมาณคาร์บอนฟุตพริ้นท์ต่ำมากเมื่อเทียบกับท่อโลหะ",
+      "faqFallbackQ3": "วิธีการติดตั้งเป็นอย่างไร?",
+      "faqFallbackA3": "การติดตั้งทำได้อย่างปลอดภัยและไม่มีการรั่วซึมผ่านการเชื่อมแบบ Polyfusion",
+      "downloads": "ดาวน์โหลด & เอกสาร",
+      "tds": "เอกสารข้อมูลทางเทคนิค",
+      "tdsDesc": "ข้อกำหนด & ขนาด (PDF)",
+      "cert": "ใบรับรอง & มาตรฐาน",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "คู่มือการติดตั้ง",
+      "installDesc": "คำแนะนำการเชื่อม (PDF)",
+      "range": "กลุ่มผลิตภัณฑ์",
+      "rangeDesc": "กลุ่มผลิตภัณฑ์ฉบับสมบูรณ์พร้อมขนาด (PDF)",
+      "features": "คุณสมบัติผลิตภัณฑ์",
+      "featuresDesc": "คุณสมบัติของวัสดุ & ข้อได้เปรียบของระบบ (PDF)"
+    },
+    "specAndDim": "ข้อมูลจำเพาะ & ขนาด",
+    "certsAndNorms": "ใบรับรอง & มาตรฐาน",
+    "approved": "อนุมัติแล้ว",
+    "monitoring": "อยู่ภายใต้การดูแล",
+    "certified": "ได้รับการรับรอง",
+    "quickLinks": "ลิงก์ด่วน",
+    "calcCo2": "คำนวณคาร์บอนฟุตพริ้นท์",
+    "backToFinder": "กลับไปที่ตัวค้นหาผลิตภัณฑ์",
+    "enterpriseCore": "หัวใจหลักระดับองค์กร",
+    "highPerformance": "ระบบท่อประสิทธิภาพสูง",
+    "highPerformanceDesc": "สำหรับการใช้งานในโรงงานอุตสาหกรรม, การจ่ายน้ำดื่ม, และระบบควบคุมสภาพอากาศภายใต้สภาวะรุนแรง",
+    "sysPressure": "แรงดันของระบบ",
+    "tempMax": "อุณหภูมิสูงสุด",
+    "material": "วัสดุ",
+    "norm": "มาตรฐาน",
+    "certification": "การรับรอง",
+    "lifespan": "อายุการใช้งาน",
+    "fiberTech": "เทคโนโลยีคอมโพสิตไฟเบอร์",
+    "fiberTechDesc": "โครงสร้าง 3 ชั้นเพื่อลดการขยายตัวเชิงเส้นและรับประกันความเสถียรสูงสุดที่อุณหภูมิสูง",
+    "compliance": "การปฏิบัติตามข้อกำหนด & มาตรฐาน",
+    "dimensions": "ขนาด",
+    "globalNetwork": "เครือข่ายทั่วโลก",
+    "globalNetworkDesc": "ระบบของ K Aqua ถูกใช้งานในกว่า 40 ประเทศทั่วโลก",
+    "whyChoose": "ทำไม {product} ถึงเป็นตัวเลือกที่เหมาะสม",
     "tools": {
+      "metaTitle": "เครื่องมือและอุปกรณ์เสริมสำหรับระบบท่อ PP-R",
+      "metaDesc": "ค้นพบเครื่องมือและอุปกรณ์เสริมระดับมืออาชีพของ K-Aqua สำหรับการติดตั้งระบบท่อ PP-R และ PP-RCT ที่ปลอดภัย มีประสิทธิภาพ และใช้งานได้ยาวนาน",
+      "heroEyebrow": "วิศวกรรมเยอรมัน",
+      "heroTitle": "เครื่องมือ & อุปกรณ์เสริม",
+      "heroSubtitle": "ความแม่นยำสูงสุด",
+      "heroDesc": "โมดูลนี้ให้ความปลอดภัยอย่างไม่มีเงื่อนไขสำหรับโครงการที่มีความต้องการสูงที่สุดทั่วโลก ผลิตตามมาตรฐานอุตสาหกรรมที่เข้มงวดที่สุดเพื่อการใช้งานที่ยาวนานหลายชั่วอายุคน ที่ซึ่งความล้มเหลวของวัสดุไม่ใช่ตัวเลือก",
+      "heroBtnPrimary": "สอบถามข้อมูลโครงการ",
+      "heroBtnSecondary": "ข้อมูลทางเทคนิค",
+      "bentoEyebrow": "ระบบนิเวศของ K Aqua",
+      "bentoTitle": "เครื่องมือสำหรับโครงการขนาดใหญ่ระดับโลก",
+      "bentoLead": "เมื่อผู้รับเหมาหลักระดับนานาชาติวางแผนโครงการระดับพันล้าน พวกเขาไม่เชื่อคำสัญญา แต่เชื่อในข้อเท็จจริงและอุปกรณ์ที่มีความแม่นยำสูง",
+      "bento1Title": "เครื่องเชื่อมท่อแบบสอด",
+      "bento1Desc": "สำหรับขนาด 20 มม. ถึง 125 มม. ดีไซน์กะทัดรัดและทนทานสำหรับการใช้งานหนักในสถานที่ก่อสร้าง",
+      "bento2Title": "กรรไกรและเครื่องตัดท่อ",
+      "bento2Desc": "การออกแบบตามหลักสรีรศาสตร์เพื่อการทำงานที่ไม่เมื่อยล้าและการตัด 90° ที่สมบูรณ์แบบ",
+      "bento3Title": "เครื่องเชื่อมชน (Butt Welding)",
+      "bento3Desc": "สำหรับเส้นผ่านศูนย์กลางสูงสุด 250 มม. ควบคุมด้วย CNC เพื่อความแม่นยำในการทำซ้ำที่แน่นอน",
+      "bento4Title": "ชุดซ่อมแซม & อุปกรณ์เสริม",
+      "bento4Desc": "หัวเจาะ, อานเชื่อมสำหรับซ่อมแซม, และเลื่อยเจาะรูสำหรับการต่อแยกในภายหลัง",
+      "scrollEyebrow": "เทคโนโลยีเชิงลึก",
+      "scrollTitle": "ไม่มีพื้นที่สำหรับความคลาดเคลื่อน",
+      "scrollLead": "ค้นพบรายละเอียดทางเทคโนโลยีที่ทำให้เครื่องมือของเราเป็นตัวเลือกแรกสำหรับช่างติดตั้งที่ผ่านการรับรอง",
+      "scroll1Title": "อุณหพลศาสตร์ที่สมบูรณ์แบบ ในทุกการเชื่อม",
+      "scroll1Desc": "เครื่องเชื่อมท่อแบบสอดของเรามาพร้อมกับหัวเชื่อมและปลอกเชื่อมที่เคลือบเทฟลอนความแม่นยำสูง การควบคุมอุณหภูมิด้วยไมโครโปรเซสเซอร์รับประกันอุณหภูมิการเชื่อมคงที่ที่ 260°C แม้ในอุณหภูมิภายนอกที่รุนแรงในสถานที่ก่อสร้างระดับโลก สิ่งนี้สร้างการเชื่อมต่อที่เป็นเนื้อเดียวกันในระดับโมเลกุล",
+      "scroll2Title": "การเชื่อมชนแบบควบคุมด้วย CNC",
+      "scroll2Desc": "สำหรับเส้นผ่านศูนย์กลางขนาดใหญ่ (สูงสุด 250 มม. ขึ้นไป) เราใช้เครื่องเชื่อมชนที่ควบคุมด้วย CNC การคำนวณแรงดันและเวลาอัตโนมัติช่วยขจัดข้อผิดพลาดของมนุษย์ แต่ละรอบการเชื่อมจะถูกบันทึกแบบดิจิทัลเพื่อให้แน่ใจว่าสามารถตรวจสอบย้อนกลับได้อย่างสมบูรณ์สำหรับการตรวจสอบอาคาร วิศวกรรมเยอรมันในระดับสูงสุด",
+      "scroll3Title": "เครื่องปอกท่อความแม่นยำสูง แม่นยำระดับมิลลิเมตร",
+      "scroll3Desc": "การเตรียมการคือ 80% ของการเชื่อม เครื่องปอกท่อแบบกลไกและไฟฟ้าของเราลบชั้นออกไซด์ของท่อ K Aqua ด้วยความลึกของการตัดที่สม่ำเสมออย่างสมบูรณ์แบบ สิ่งนี้ป้องกันรอยแตกขนาดเล็กและสร้างระนาบการหลอมรวมที่สมบูรณ์แบบ เครื่องมือที่ทนทานชั่วอายุคน",
+      "scroll4Title": "เลื่อยวงเดือนเย็นสำหรับการตัดที่แม่นยำ",
+      "scroll4Desc": "กรรไกรตัดท่อสามารถทำให้วัสดุเสียรูป เลื่อยวงเดือนเย็นสำหรับอุตสาหกรรมของเรารับประกันการตัดเป็นมุมฉากและปราศจากเสี้ยน ผลลัพธ์: ไม่มีรอยแตกจากความเค้น ไม่มีการสูญเสียแรงดัน มีความขนานกันอย่างสมบูรณ์ก่อนกระบวนการเชื่อม",
+      "timelineTitle": "กระบวนการเชื่อมของ K Aqua",
+      "timelineDesc": "ตั้งแต่การตัดไปจนถึงการหลอมรวมระดับโมเลกุล กระบวนการมาตรฐานที่นำไปสู่ระบบท่อที่ป้องกันการรั่วซึม 100% และไม่ต้องบำรุงรักษา",
+      "timeline1Year": "ระยะที่ 1: การเตรียมวัสดุ",
+      "timeline1Title": "การตัดที่สมบูรณ์แบบ",
+      "timeline1Text": "การตัด 90 องศาที่ปราศจากเสี้ยนเป็นรากฐานของการเชื่อมต่อที่ทนทานทุกจุด เครื่องตัดความแม่นยำและเลื่อยวงเดือนเย็นของเรารับประกันพื้นผิวที่เรียบสนิทโดยไม่มีการเสียรูปทางโครงสร้างจุลภาคของโพลีโพรพีลีน",
+      "timeline2Year": "ระยะที่ 2: การสอบเทียบ & การปอก",
+      "timeline2Title": "การเอาชั้นออกไซด์ออก",
+      "timeline2Text": "ก่อนการเชื่อม ท่อจะถูกสอบเทียบอย่างแม่นยำ และชั้นออกไซด์ภายนอกจะถูกเอาออกอย่างแม่นยำระดับมิลลิเมตรด้วยเครื่องมือปอกท่อพิเศษของเรา สิ่งนี้ช่วยให้ได้พื้นผิวที่บริสุทธิ์ 100% สำหรับกระบวนการหลอมรวม",
+      "timeline3Year": "ระยะที่ 3: การหลอมรวมด้วยความร้อน",
+      "timeline3Title": "การหลอมรวมระดับโมเลกุล",
+      "timeline3Text": "ท่อและข้อต่อจะถูกทำให้ร้อนพร้อมกันบนเมทริกซ์ความร้อนเคลือบเทฟลอนถึงอุณหภูมิ 260°C อย่างแม่นยำ เทอร์โมสแตทที่ควบคุมด้วยไมโครโปรเซสเซอร์ของเครื่องเชื่อม K Aqua ช่วยรักษาอุณหภูมิให้คงที่ ไม่ว่าจะมีลมหรือสภาพอากาศใดๆ",
+      "timeline4Year": "ระยะที่ 4: การเชื่อมต่อ",
+      "timeline4Title": "ความปลอดภัยตลอดชีวิต",
+      "timeline4Text": "ภายในเวลาเปลี่ยนผ่านที่กำหนด ส่วนประกอบที่ร้อนจะถูกประกอบเข้าด้วยกันโดยไม่บิดงอ หลังจากระยะการทำความเย็น จะได้ชิ้นงานใหม่ที่เป็นเนื้อเดียวกันอย่างสมบูรณ์ ไม่ต้องบำรุงรักษาเป็นเวลากว่า 50 ปี",
+      "specsTitle": "อำนาจทางอุตสาหกรรม <br/> จนถึงรายละเอียดสุดท้าย",
+      "specsP1": "เป็นเวลาหลายทศวรรษที่เราได้รวบรวมความภาคภูมิใจในงานฝีมือเข้ากับเทคโนโลยีการผลิตอัตโนมัติขั้นสูงที่โรงงานหลักของเราในใจกลางประเทศเยอรมนี",
+      "specsP2": "วัสดุของเราพิสูจน์ตัวเองทุกวันในทะเลทรายที่รุนแรงที่สุดและสภาพอากาศที่รุนแรงที่สุดในโลก เรากำหนดมาตรฐานให้ทั่วโลกปฏิบัติตาม",
+      "specsList1": "ผ่านการรับรอง ISO 9001",
+      "specsList2": "อุณหภูมิคงที่ระดับไมโครโปรเซสเซอร์",
+      "specsList3": "เคลือบเทฟลอนคุณภาพสูง",
+      "ctaPre": "อุปกรณ์ระดับมืออาชีพสำหรับผู้เชี่ยวชาญ",
+      "ctaTitle": "รับรองคุณภาพการเชื่อมของคุณ",
+      "ctaDesc": "การเชื่อมต่อที่สมบูรณ์แบบต้องการเครื่องมือที่สมบูรณ์แบบ สอบถามแคตตาล็อกเครื่องมือและอุปกรณ์เสริมฉบับสมบูรณ์ได้ทันที",
+      "ctaPrimary": "ดาวน์โหลดแคตตาล็อกอุปกรณ์",
+      "ctaSecondary": "ติดต่อฝ่ายสนับสนุนด้านเทคนิค"
+    },
+    "valves": {
       "meta": {
-        "title": "PP-R Svejseværktøj og Udstyr",
-        "desc": "Professionelt K Aqua svejseværktøj, rørskærere og maskiner til perfekt installation af PP-R og PPRCT rørsystemer."
+        "title": "PP-R วาล์ว & ระบบควบคุม",
+        "desc": "วาล์ว PP-R และวาล์วบอลโพลีเมอร์ประสิทธิภาพสูงของ K-Aqua การควบคุมการไหลสูงสุดเพื่อความต้องการทางอุตสาหกรรมและสุขาภิบาล"
       },
       "hero": {
-        "eyebrow": "Installationsteknik",
-        "title": "Værktøj: Præcision til den perfekte svejsesøm",
-        "lead": "Den bedste rørforbindelse er kun så god som det værktøj, den er lavet med. K Aqua tilbyder et komplet sortiment af professionelt svejse- og skæreværktøj til 100% lækagefrie installationer."
+        "eyebrow": "การควบคุมของเหลว",
+        "title": "วาล์วพลาสติก (PP-R): ควบคุมการไหลระดับอุตสาหกรรม",
+        "lead": "ตั้งแต่บอลวาล์วที่ปราศจากโซนอับน้ำ ไปจนถึงวาล์วใต้ผิวเคลือบที่แม่นยำ วาล์วและระบบควบคุม K Aqua ให้ความปลอดภัยอย่างสมบูรณ์ – ปราศจากการกัดกร่อนและเชื่อถือได้ในทุกระดับแรงดัน"
       },
       "intro": {
-        "eyebrow": "Den rigtige hardware",
-        "title": "Ingen kompromiser på byggepladsen.",
-        "lead": "Termisk polyfusion kræver nøjagtige temperaturer, præcise skærekanter og ren forarbejdning. Vores værktøj er designet til den hårde hverdag på byggepladsen og garanterer DVS-kompatible svejsninger."
+        "eyebrow": "สถานะเดิม",
+        "title": "คอขวดในระบบ",
+        "lead": "วาล์วโลหะแบบดั้งเดิมมักเป็นจุดอ่อนในเครือข่ายท่อ – เสี่ยงต่อการเกิดสนิม การกัดกร่อนแบบกัลวานิก และการตกตะกอน วาล์วพลาสติกขจัดจุดแตกหักเหล่านี้ทั้งหมด"
       },
       "sticky": {
-        "eyebrow": "Værktøjsportefølje",
-        "title": "Udstyret til enhver dimension.",
-        "lead": "Fra det handy håndsvejseapparat til fordelingsboksen til den computerstyrede stuksvejsemaskine til industrielle hovedlinjer.",
+        "eyebrow": "ความเหนือกว่าทางวิศวกรรม",
+        "title": "กลไกแห่งอำนาจควบคุม",
+        "lead": "เราไม่ได้ผลิตแค่ฝาปิด เราสร้างวาล์วควบคุมการไหลที่แม่นยำซึ่งทนทานต่อสภาวะทางอุตสาหกรรมที่รุนแรงและรับประกันคุณภาพน้ำดื่ม",
         "items": [
           {
-            "title": "Muffesvejsning (20-125 mm)",
-            "desc": "Håndsvejseapparater og stationære bordsvejsemaskiner med mikroprocessorstyrede varmeelementer. Garanterer en konstant smeltetemperatur på 260°C for homogene forbindelser."
+            "title": "ความเสถียรของบอลโพลีเมอร์แกนใน",
+            "desc": "บอลวาล์วทำจากพลาสติกทนแรงดัน ช่วยลดการสึกหรอ และรับประกันความแน่นหนาที่ปราศจากการเสียดสี แม้หลังจากรอบการทำงานหลายพันรอบ"
           },
           {
-            "title": "Elektrosvejsning (20-630 mm)",
-            "desc": "Fuldautomatiske elektrosvejsemaskiner med stregkodescanner. Læser de optimale svejseparametre direkte fra fittingen og dokumenterer hver enkelt svejsesøm til kvalitetssikring."
+            "title": "การผสานรวมเข้ากับระบบ 100%",
+            "desc": "ผ่านการเชื่อมแบบ Polyfusion วาล์วจะกลายเป็นส่วนหนึ่งของระบบท่อโดยสมบูรณ์ ไม่มีการต่อด้วยเกลียวที่อาจเกิดการรั่วไหล"
           },
           {
-            "title": "Stuksvejsning (90-630 mm)",
-            "desc": "Hydrauliske stuksvejsemaskiner til flangeløse storrørsforbindelser. Med integreret CNC-styring, rørhøvl og digital dataregistrering til kommunale projekter."
+            "title": "อนามัยของน้ำดื่มสูงสุด",
+            "desc": "โครงสร้างวาล์วป้องกันโซนน้ำนิ่ง ไม่มีความเสี่ยงจากเชื้อลีจิโอเนลลาในสาขาที่ปิดสนิท ได้รับการรับรองตามแนวทาง UBA"
           },
           {
-            "title": "Rørskærere & Forberedelse",
-            "desc": "Sakse, rulleskærere og skrælværktøj i industriel kvalitet. Uundværlig for gratfrie, retvinklede snit og fjernelse af oxidlaget før elektrosvejsning."
+            "title": "ความทนทานต่อสารเคมี",
+            "desc": "วาล์วมีความทนทานต่อสารเคมีแบบเดียวกับระบบท่อที่เหลือ เหมาะสำหรับสารที่มีฤทธิ์กัดกร่อนในโรงงานอุตสาหกรรม"
           }
         ]
       },
       "bento": {
-        "eyebrow": "Teknologiske fordele",
-        "title": "Sikkerhed indbygget.",
-        "lead": "Vores værktøjer er ikke bare tilbehør, de er kalibrerede instrumenter til at skabe en uadskillelig materialeforbindelse.",
+        "eyebrow": "การใช้งาน",
+        "title": "การควบคุมสากล",
+        "lead": "ไม่ว่าจะมองเห็นได้ในห้องหม้อไอน้ำ หรือฝังอย่างมองไม่เห็นไว้ใต้ปูนปลาสเตอร์ วาล์ว K Aqua ทำงานอย่างเงียบเชียบและไม่ลดละ",
         "items": [
           {
-            "title": "Teflon-belægning",
-            "desc": "Højkvalitets PTFE-belægning på alle varmeværktøjer forhindrer, at smeltet PP-R sætter sig fast, og sikrer restfri samling."
+            "title": "บอลวาล์ว PP-R",
+            "desc": "เปิด/ปิด การไหลเต็มอัตราที่เชื่อถือได้ พร้อมความสูญเสียแรงดันน้อยที่สุด ด้ามจับที่ปรับให้เหมาะสมตามหลักสรีรศาสตร์"
           },
           {
-            "title": "Temperaturkontrol",
-            "desc": "Elektroniske termostater og omgivelsessensorer forhindrer temperatursvingninger og underkøling af svejsesømmen i koldt vejr."
+            "title": "วาล์วใต้ผิวเคลือบ / ใต้ปูนปลาสเตอร์",
+            "desc": "ฝังลงในผนังอย่างสมบูรณ์ กลไกด้านบนสามารถเปลี่ยนได้โดยไม่ต้องทำลายผนัง เหมาะสำหรับโรงแรมหรูและที่พักอาศัย"
           },
           {
-            "title": "Ergonomi",
-            "desc": "Vægtreducerede enheder, optimerede håndtagsmekanismer og hurtig-tilbage funktioner beskytter installatøren ved højt rørforbrug."
+            "title": "เช็ควาล์ว",
+            "desc": "ป้องกันการไหลย้อนกลับของของเหลวในสถานีสูบน้ำได้อย่างปลอดภัย ตอบสนองรวดเร็วเพื่อหลีกเลี่ยงปรากฏการณ์แรงกระแทกจากน้ำ (water hammer)"
           },
           {
-            "title": "Dokumentation",
-            "desc": "Store maskiner tilbyder USB-grænseflader og protokolprintere til gnidningsløs godkendelse af trykbærende systemer."
+            "title": "วาล์วเอียง / โกลบวาล์ว",
+            "desc": "การควบคุมที่แม่นยำสำหรับปริมาณการไหล ลดความต้านทานแรงเสียดทานและพฤติกรรมการควบคุมตามสัดส่วนที่ปรับให้เหมาะสม"
           }
         ]
       },
       "timeline": {
-        "title": "Muffesvejseprocessen",
-        "desc": "Standardiseret og ufejlbarlig. Sådan skaber du den perfekte forbindelse.",
+        "title": "การพัฒนา",
+        "desc": "สถาปัตยกรรมของการพัฒนาวาล์ว K Aqua",
         "items": [
           {
-            "year": "Trin 1",
-            "title": "Forberedelse",
-            "text": "Røret skæres vinkelret. Indstiksdybden markeres på røret for at undgå overopvarmning af materialet."
+            "year": "ขั้นตอนที่ 1",
+            "title": "การวิเคราะห์พลศาสตร์ของไหล (CFD)",
+            "text": "ตัวเรือนวาล์วได้รับการเพิ่มประสิทธิภาพเชิงตัวเลขเพื่อขจัดคาวิเทชั่นและลดการสูญเสียแรงดันในตัววาล์วให้เหลือน้อยที่สุด"
           },
           {
-            "year": "Trin 2",
-            "title": "Opvarmning",
-            "text": "Rør og fitting skubbes samtidigt ind i det forvarmede (260°C) varmeværktøj uden at dreje og holdes der i den foreskrevne opvarmningstid."
+            "year": "ขั้นตอนที่ 2",
+            "title": "การทดสอบวัสดุแกน",
+            "text": "กลไกภายใน (บอล, สปินเดิล, ซีล O-Ring) จะต้องทนทานต่อการเคลื่อนไหวทางกลไกภายใต้แรงดันสูงกว่ามาตรฐานมากกว่า 100,000 รอบในห้องปฏิบัติการ"
           },
           {
-            "year": "Trin 3",
-            "title": "Samling",
-            "text": "Efter opvarmningsfasen trækkes delene hurtigt af værktøjet og skubbes straks (uden at dreje) ind i hinanden."
+            "year": "ขั้นตอนที่ 3",
+            "title": "การฉีดขึ้นรูปแกนกลาง",
+            "text": "การผลิตตัวเรือน PP-R แบบช่องเดียวโดยไม่มีข้อต่อรอยเชื่อมที่รับแรงดัน ทำให้รับประกันความต้านทานแรงดันในตัวเรือน"
           },
           {
-            "year": "Trin 4",
-            "title": "Fiksering & Afkøling",
-            "text": "Forbindelsen holdes kortvarigt og afkøles. Efter afkølingsfasen er samlingen fuldt belastbar."
+            "year": "ขั้นตอนที่ 4",
+            "title": "การประกอบและการทดสอบ",
+            "text": "การประกอบขั้นสุดท้าย ตามด้วยการทดสอบแรงดันอากาศและไฮดรอลิก 100% ของวาล์วทุกตัวที่ออกจากโรงงานผลิตของเรา"
+          }
+        ]
+      },
+      "cta": {
+        "title": "ควบคุมโครงการของคุณ.",
+        "desc": "คุณต้องการวาล์วทนสารเคมีพิเศษ หรือต้องการข้อมูลอ้างอิงเกี่ยวกับการใช้งานวาล์วใต้ผิวเคลือบของเราหรือไม่? ทีมเทคนิคของเราพร้อมช่วยเหลือคุณ",
+        "primary": "ขอเอกสารทางเทคนิค"
+      }
+    },
+    "category": {
+      "metaTitle": "{name} - ข้อมูลผลิตภัณฑ์และขนาด | K Aqua",
+      "metaDesc": "รายละเอียดทางเทคนิคของ K Aqua {name} ค้นพบข้อมูลผลิตภัณฑ์ทั้งหมด ตั้งแต่ความหนาของผนัง (SDR) ไปจนถึงแรงดันที่กำหนดและพื้นที่การใช้งาน",
+      "backTo": "กลับไปยังภาพรวมผลิตภัณฑ์",
+      "articleNumbers": "หมายเลขบทความ (Article Numbers)"
+    },
+    "fittings": {
+      "meta": {
+        "title": "ข้อต่อและอแดปเตอร์ PP-R | โพลีฟิวชั่นระดับโมเลกุล",
+        "desc": "ค้นพบกลุ่มผลิตภัณฑ์ข้อต่อ PP-R อันครอบคลุมของ K-Aqua ซึ่งรับประกันการเชื่อมต่อที่ปลอดภัย ไม่รั่วซึม และปราศจากการกัดกร่อน 100% สำหรับระบบท่อทั้งหมด"
+      },
+      "hero": {
+        "eyebrow": "เทคโนโลยีการเชื่อมต่อ",
+        "title": "ข้อต่อ PP-R: ความสมบูรณ์ระดับโมเลกุล",
+        "lead": "ลืมจุดที่อาจเกิดการรั่วไหล ด้วยการเชื่อมแบบ Polyfusion ข้อต่อและท่อ K Aqua ของเราจะหลอมรวมกันเป็นหนึ่งเดียว สร้างเครือข่ายอุทกพลศาสตร์ที่เป็นเนื้อเดียวกันอย่างสมบูรณ์แบบ"
+      },
+      "intro": {
+        "eyebrow": "ข้อบกพร่องของระบบเดิม",
+        "title": "จุดอ่อนถูกขจัดออกไป",
+        "lead": "ในระบบเดิม ข้อต่อถือเป็นจุดอ่อนที่สุด มักจะเกิดการรั่วไหล กัดกร่อน หรือเกิดการอุดตันจากแร่ธาตุ ข้อต่อพลาสติก PP-R ของเราขจัดความเสี่ยงเหล่านี้โดยสิ้นเชิง"
+      },
+      "sticky": {
+        "eyebrow": "ความเหนือกว่าทางวิศวกรรม",
+        "title": "สถาปัตยกรรมของการไหล",
+        "lead": "เราไม่ได้ออกแบบแค่เพียงมุมหรือรูปทรงตัว T แต่เราสร้างชิ้นส่วนไฮดรอลิกที่มีความแม่นยำเพื่อลดความต้านทานการไหลให้น้อยที่สุดและคงแรงดันไว้",
+        "items": [
+          {
+            "title": "การเชื่อมแบบเนื้อเดียว 100%",
+            "desc": "ไม่มีเกลียว ไม่มีโอริง ไม่มีกาว ท่อและข้อต่อหลอมรวมกันที่ระดับโมเลกุล การรั่วไหลจึงเป็นไปไม่ได้ในทางสรีรวิทยา"
+          },
+          {
+            "title": "อุทกพลศาสตร์ที่ปรับให้เหมาะสม",
+            "desc": "พื้นผิวเรียบเสมอกัน (ความขรุขระ 0.007 มม.) และการออกแบบโค้งมนช่วยให้แน่ใจว่าค่าสัมประสิทธิ์การเสียดสีต่ำสุด ป้องกันการเกิดคาวิเทชั่น"
+          },
+          {
+            "title": "ความเสถียรของมิติในอุณหภูมิสูง",
+            "desc": "แม้ในการทำงานอย่างต่อเนื่องที่อุณหภูมิ 70°C (สูงสุดชั่วคราวที่ 95°C) ข้อต่อของเรายังคงรักษารูปทรงและรับประกันความปลอดภัยของแรงดันสูงถึง PN25"
+          },
+          {
+            "title": "ทนทานต่อแรงสั่นสะเทือน",
+            "desc": "ต่างจากรอยเชื่อมโลหะที่เปราะบาง โครงสร้างโพลีเมอร์ที่เป็นเนื้อเดียวกันของ K Aqua สามารถดูดซับแรงกระแทกจากน้ำและแรงสั่นสะเทือนทางอุตสาหกรรมได้"
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "ขอบเขตผลิตภัณฑ์",
+        "title": "ความสมบูรณ์ในการทำงาน",
+        "lead": "ตั้งแต่ชิ้นส่วนเปลี่ยนทิศทางแบบธรรมดา ไปจนถึงชุดกระจายน้ำที่ซับซ้อน เรามีโซลูชันเรขาคณิตที่เหมาะสมสำหรับทุกความต้องการทางสถาปัตยกรรม",
+        "items": [
+          {
+            "title": "ข้อต่องอ & มุมโค้ง (Bends)",
+            "desc": "มีให้เลือกทั้ง 90° และ 45° ออกแบบตามหลักอากาศพลศาสตร์เพื่อการเปลี่ยนทิศทางของเหลวอย่างไร้การสูญเสีย"
+          },
+          {
+            "title": "ข้อต่อสามทาง (Tees) & ข้อต่อแยก",
+            "desc": "การลดขนาดที่แม่นยำและการกระจายอย่างสมมาตร ช่วยรักษาความสมดุลของแรงดันไฮดรอลิกในระบบ"
+          },
+          {
+            "title": "ข้อต่อลดขนาด (Reducers)",
+            "desc": "การเปลี่ยนผ่านที่ไร้รอยต่อระหว่างขนาดเส้นผ่านศูนย์กลางท่อที่แตกต่างกัน รับประกันการไหลที่ราบรื่นและไม่เกิดความปั่นป่วน"
+          },
+          {
+            "title": "อานเชื่อมซ่อมแซม & ข้อต่อแยก (Weld-in Saddles)",
+            "desc": "สำหรับการเพิ่มจุดขยายเครือข่ายในภายหลังในท่อที่มีอยู่ ปลอดภัยและรวดเร็วกว่าการตัดและใช้ข้อต่อสามทาง"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "วิศวกรรม",
+        "desc": "จากเม็ดพลาสติกสู่ชิ้นส่วนที่ไร้ที่ติ",
+        "items": [
+          {
+            "year": "ขั้นตอนที่ 1",
+            "title": "การออกแบบแม่พิมพ์ด้วยความแม่นยำ",
+            "text": "แม่พิมพ์ฉีดถูกผลิตด้วยความคลาดเคลื่อนระดับไมโครเมตร รับประกันความหนาของผนังที่สม่ำเสมอ โดยเฉพาะในบริเวณที่รับแรงดึง"
+          },
+          {
+            "year": "ขั้นตอนที่ 2",
+            "title": "การฉีดขึ้นรูป (Injection Molding)",
+            "text": "PP-R ที่ถูกหลอมเหลวจะถูกฉีดภายใต้แรงดันสูง ขจัดฟองอากาศในโครงสร้างจุลภาคเพื่อความหนาแน่นสูงสุด"
+          },
+          {
+            "year": "ขั้นตอนที่ 3",
+            "title": "การทำให้เย็นตัว (Annealing)",
+            "text": "กระบวนการทำความเย็นแบบควบคุมอุณหภูมิช่วยลดความเครียดภายในของพลาสติก เพื่อความทนทานต่อการแตกร้าวจากความเครียดในระยะยาว"
+          },
+          {
+            "year": "ขั้นตอนที่ 4",
+            "title": "การทดสอบการแตกหักด้วยไฮดรอลิก",
+            "text": "การทดสอบแบบสุ่มอย่างเข้มงวดเกินขีดจำกัดแรงดันที่ระบุไว้ พิสูจน์ให้เห็นว่าข้อต่อ K Aqua คือชิ้นส่วนที่ทนทานที่สุดของระบบ"
+          }
+        ]
+      },
+      "cta": {
+        "title": "เชื่อมต่อระบบของคุณอย่างปลอดภัย.",
+        "desc": "ต้องการรูปทรงเฉพาะ หรือมีข้อกำหนดเรขาคณิตแบบพิเศษสำหรับโครงการถัดไปของคุณหรือไม่? วิศวกรของเราพร้อมให้คำปรึกษาตลอดเวลา",
+        "primary": "แคตตาล็อกอุปกรณ์ข้อต่อ (PDF)"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "ระบบท่อ PP-R และ PPRCT",
+        "desc": "ระบบท่อ K-Aqua เสนอประสิทธิภาพการใช้งานระดับสูงสุดสำหรับอุตสาหกรรม น้ำดื่ม และการปรับอากาศ ทำจาก PP-R และ PPRCT คอมโพสิตไฟเบอร์"
+      },
+      "hero": {
+        "eyebrow": "ท่ออัจฉริยะ (Smart Pipelines)",
+        "title": "ระบบท่อ K Aqua: หลอดเลือดดำหลักของโลก",
+        "lead": "ในที่ที่วัสดุอื่นพังทลาย ระบบท่อ PP-R และ PPRCT ของเรากลับแข็งแกร่งกว่าเดิม ตั้งแต่ทะเลทรายในตะวันออกกลาง ไปจนถึงห้องเย็นใต้ดิน ท่อของเรายืนหยัดต่อแรงดัน สารเคมี และเวลา"
+      },
+      "intro": {
+        "eyebrow": "การเลียนแบบธรรมชาติ",
+        "title": "พัฒนามาเพื่อเอาชีวิตรอด",
+        "lead": "เมื่อโลหะเกิดสนิมและพลาสติกแบบเก่าเปราะบาง ท่อของเรายังคงยืนหยัด K Aqua นำเสนอความต้านทานแรงดัน ความเสถียรต่อความร้อน และความทนทานในระดับที่เหนือกว่ามาตรฐาน"
+      },
+      "sticky": {
+        "eyebrow": "วัสดุศาสตร์ชั้นสูง",
+        "title": "DNA ของระบบท่อ",
+        "lead": "ไม่มีท่อสองเส้นใดที่เหมือนกัน การวิจัยและพัฒนาของเราได้ผลิตโซลูชันเฉพาะที่ตอบโจทย์ความท้าทายทุกประเภทของการขนส่งของไหล",
+        "items": [
+          {
+            "title": "PPRCT เส้นใยคอมโพสิต",
+            "desc": "เทคโนโลยีล้ำสมัย 3 ชั้น ที่เสริมใยแก้วตรงกลาง ช่วยลดการขยายตัวเชิงเส้นได้อย่างมหาศาล และรองรับอุณหภูมิที่สูงขึ้นพร้อมกับการรักษาแรงดันที่เสถียร"
+          },
+          {
+            "title": "PP-R โมโนเลเยอร์ (ชั้นเดียว)",
+            "desc": "รากฐานที่มั่นคง บริสุทธิ์ และแข็งแกร่งที่สุดในระดับราคาเดียวกัน เป็นมาตรฐานระดับโลกสำหรับระบบประปาน้ำดื่มสุขาภิบาล"
+          },
+          {
+            "title": "ระบบป้องกันรังสี UV ภายนอก",
+            "desc": "ชั้นป้องกันพิเศษสำหรับการติดตั้งภายนอกอาคาร ช่วยปกป้องสายใยโมเลกุลจากการเสื่อมสภาพเนื่องจากรังสีอุลตราไวโอเล็ต"
+          },
+          {
+            "title": "คุณสมบัติยับยั้งแบคทีเรีย",
+            "desc": "การผสมผสานของสารเฉพาะในการผลิตป้องกันการก่อตัวของไบโอฟิล์ม มั่นใจในคุณภาพน้ำที่บริสุทธิ์ระดับโรงพยาบาล"
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "กลุ่มผลิตภัณฑ์",
+        "title": "มิติที่พร้อมทุกการใช้งาน",
+        "lead": "ตั้งแต่ระบบประปาในบ้านเรือน 20 มม. ไปจนถึงสายการขนส่งน้ำอุตสาหกรรมขนาดใหญ่ ระบบท่อของเราครอบคลุมทุกระดับอุปสงค์ไฮดรอลิก",
+        "items": [
+          {
+            "title": "เส้นผ่านศูนย์กลาง 20 ถึง 630 มม.",
+            "desc": "ความยืดหยุ่นเต็มรูปแบบ ไม่ว่าจะเป็นโครงการที่อยู่อาศัย อาคารสาธารณะ โรงพยาบาล หรือโรงงานเคมีขนาดใหญ่"
+          },
+          {
+            "title": "ระดับ SDR 6 ถึง 11",
+            "desc": "ระดับแรงดันที่ปรับให้เหมาะสม (PN10 ถึง PN25) ผ่าน Standard Dimension Ratios เพิ่มประสิทธิภาพการใช้วัสดุและการไหล"
+          },
+          {
+            "title": "สุขอนามัยน้ำดื่ม",
+            "desc": "สอดคล้องกับมาตรฐานยุโรปที่เข้มงวดที่สุด (UBA, DVGW) ปลอดภัยต่ออาหาร 100% ไร้รส ไร้กลิ่น พร้อมผิวเคลือบต้านเชื้อแบคทีเรียตัวเลือกเสริม"
+          },
+          {
+            "title": "ท่อทนรังสียูวีภายนอกอาคาร",
+            "desc": "สำหรับการติดตั้งภายนอกอาคารในเขตภูมิอากาศที่รุนแรง (เช่น ตะวันออกกลาง) เรานำเสนอท่อที่เสริมความต้านทานรังสี UV พิเศษ ชั้นนอกจะบล็อกรังสีและป้องกันการเสื่อมสภาพของพอลิเมอร์"
+          }
+        ]
+      },
+      "cta": {
+        "title": "ให้ผู้เชี่ยวชาญช่วยประเมินขนาดโครงการของคุณ.",
+        "desc": "ส่งแผนภาพ P&ID หรือ Isometrics ของคุณมาให้เรา ทีมวิศวกรรมของเราจะช่วยคำนวณด้านไฮดรอลิกและสร้างใบแจ้งรายการวัสดุ (BOM) สำหรับโครงการขนาดใหญ่ของคุณ",
+        "primary": "เริ่มต้นการสอบถามโครงการ"
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "ข้อต่อเปลี่ยนผ่าน PP-R และการเชื่อมต่อระบบ",
+        "desc": "ข้อต่อเปลี่ยนผ่าน K Aqua: การเชื่อมต่อไฮบริดระดับพรีเมียม เมื่อโลหะแข็งแกร่งมาบรรจบกับพลาสติกนวัตกรรม วิศวกรรมเยอรมัน"
+      },
+      "hero": {
+        "eyebrow": "การเปลี่ยนแปลงระบบ",
+        "title": "ข้อต่อเปลี่ยนผ่าน: เชื่อมโลหะกับ PP-R อย่างปลอดภัย",
+        "lead": "ทองเหลืองพบโพลีเมอร์: ข้อต่อเปลี่ยนผ่าน K Aqua เชื่อมต่อท่อโลหะที่มีอยู่เข้ากับระบบ PP-R ได้อย่างแน่นหนาและปราศจากการกัดกร่อน ผ่านการทดสอบเกินมาตรฐาน"
+      },
+      "intro": {
+        "eyebrow": "ความท้าทาย",
+        "title": "เมื่อสองโลกปะทะกัน",
+        "lead": "การเปลี่ยนจากระบบท่อโลหะที่แข็งแรงไปสู่เครือข่ายเทอร์โมพลาสติกสมัยใหม่ เป็นจุดอ่อนที่สุดในการติดตั้งอาคารและโรงงานอุตสาหกรรม ที่ซึ่งแรงเฉือนความร้อนและทางกลศาสตร์สูงสุดเกิดขึ้น"
+      },
+      "sticky": {
+        "eyebrow": "เทคโนโลยีเชิงลึก (Deep Tech)",
+        "title": "กายวิภาคของความทนทาน",
+        "lead": "เราไม่ได้มองข้อต่อเปลี่ยนผ่านเป็นแค่อุปกรณ์เสริม แต่เป็นอุปกรณ์ทางกลที่มีความซับซ้อนสูง ความหนาของผนังทุกมิลลิเมตร และทุกเกลียวล้วนเป็นผลจากการวิเคราะห์ Finite Element Analysis (FEA)",
+        "items": [
+          {
+            "title": "ความสัมพันธ์แบบพึ่งพาระหว่างโลหะและโพลีเมอร์",
+            "desc": "ความท้าทาย: สัมประสิทธิ์การขยายตัวที่แตกต่างกัน โซลูชัน: ร่องทางเรขาคณิตที่ออกแบบมาเป็นพิเศษเพื่อประสานทองเหลืองเข้ากับแกนพลาสติกอย่างไม่สามารถแยกออกได้"
+          },
+          {
+            "title": "ปราศจากแรงดึงหรือการบิดเบี้ยว",
+            "desc": "ระบบต้านการหมุนรูปหลายเหลี่ยมช่วยให้ข้อต่อทองเหลืองที่อยู่ด้านในสามารถทนต่อแรงบิดขันมหาศาล โดยไม่ถ่ายโอนแรงทำลายไปสู่ชิ้นส่วนพลาสติก"
+          },
+          {
+            "title": "เกลียวที่กลึงด้วยความแม่นยำสูง",
+            "desc": "เกลียวเรียวและทรงกระบอกตามมาตรฐาน ISO 7/1 หรือ ISO 228 ถูกตัดด้วยเครื่องจักรที่มีพิกัดความเผื่อที่ ±0.01 มม. เพื่อความสามารถในการซีลที่สมบูรณ์แบบ"
+          },
+          {
+            "title": "ป้องกันการกัดกร่อนแบบกัลวานิก 100%",
+            "desc": "วัสดุโลหะผสมของเราเลือกใช้เฉพาะโลหะปลอดการสกัดสังกะสี (DZR) ขจัดการสลายตัวของชิ้นส่วนโลหะแม้จะสัมผัสกับน้ำที่มีสภาวะเป็นกรด"
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "ข้อมูลจำเพาะ",
+        "title": "สถาปัตยกรรมแห่งประสิทธิภาพ",
+        "lead": "เมื่อคุณวางแผนโครงการระดับเมกะโปรเจกต์ที่มีการเชื่อมต่อนับหมื่นจุด ความปลอดภัยเชิงสถิติคือผลตอบแทน (ROI) ที่สำคัญที่สุด K Aqua มอบการรับประกันทางกายภาพเพื่อสิ่งนั้น",
+        "items": [
+          {
+            "title": "แกนทองเหลือง DZR",
+            "desc": "ทองเหลืองปลอดการสกัดสังกะสีคลาส CW617N (ตามมาตรฐาน DIN EN 12164) กำจัดความเสี่ยงของการกัดกร่อนเฉพาะจุดในสภาพน้ำที่รุนแรง"
+          },
+          {
+            "title": "การออกแบบต้านการหมุน",
+            "desc": "รอยบากทรงหลายเหลี่ยมสร้างการล็อคทางเรขาคณิต ซึ่งรับแรงบิดในการขันสูงโดยไม่สร้างความเครียดให้กับปลอกพลาสติก"
+          },
+          {
+            "title": "เกลียวดึงลึก",
+            "desc": "เกลียวเรียวและทรงกระบอกตามมาตรฐาน ISO 7/1 และ ISO 228 กลึงด้วยความคลาดเคลื่อน ±0.01 มม. เพื่อการซีลอย่างสมบูรณ์"
+          },
+          {
+            "title": "PPRCT แมทริกซ์",
+            "desc": "โครงสร้างผลึกสูงของ Polypropylene Random Copolymer มอบความเสถียรในระยะยาวที่เหนือกว่าเมื่อเผชิญกับอุณหภูมิสูง"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "รอบการผลิต",
+        "desc": "มองเข้าไปในโรงงานผลิตของเรา เส้นทางจากวัตถุดิบสู่ข้อต่อไฮบริดที่ผ่านการรับรอง คือการประสานกันของความร้อน แรงดัน และความแม่นยำขั้นสูงสุด",
+        "items": [
+          {
+            "year": "ขั้นตอนที่ 1",
+            "title": "การแปรรูปชิ้นงาน (CW617N)",
+            "text": "ทองเหลืองถูกกดที่ 750°C ลงในแม่พิมพ์ที่มีความแม่นยำสูง ตามด้วยการกลึง CNC ระดับไมโครเมตรเพื่อสร้างโปรไฟล์ซีล"
+          },
+          {
+            "year": "ขั้นตอนที่ 2",
+            "title": "การสร้างชั้นผิวป้องกัน (Surface Passivation)",
+            "text": "เพื่อขจัดการกัดกร่อนกัลวานิก ชิ้นส่วนเกลียวต้องผ่านกระบวนการเคลือบผิวหลายขั้นตอนในอ่างอัลตราโซนิกด้วยไฟฟ้า"
+          },
+          {
+            "year": "ขั้นตอนที่ 3",
+            "title": "การฉีดหุ้ม (Injection Molding)",
+            "text": "ในเครื่องฉีดขึ้นรูปแรงดันสูง (2,000 บาร์) PPRCT ที่หลอมละลายจะห่อหุ้มทองเหลือง พลาสติกเติมเต็มทุกซอกทุกมุมอย่างสมบูรณ์แบบ"
+          },
+          {
+            "year": "ขั้นตอนที่ 4",
+            "title": "การควบคุมอุณหภูมิความเย็น",
+            "text": "การลดอุณหภูมิเป็นขั้นตอนตามโปรแกรมป้องกันแรงตึงภายในโครงสร้างพลาสติก และคงรูปทรงเรขาคณิตตรงกลางของข้อต่อ"
+          },
+          {
+            "year": "ขั้นตอนที่ 5",
+            "title": "การทดสอบแรงดันและแรงบิด",
+            "text": "การสุ่มตรวจการทดสอบแรงระเบิดสูงสุด 120 บาร์ เช่นเดียวกับการทดสอบความล้า เพื่อจำลองการใช้งานในอุตสาหกรรมหนักยาวนานกว่า 50 ปี"
           }
         ]
       },
       "stats": {
-        "eyebrow": "Tekniske Data",
-        "title": "Svejseparametre (DVS 2207)",
-        "lead": "Følg de standardiserede værdier for optimale polyfusions-resultater.",
+        "eyebrow": "การรับรอง & พารามิเตอร์",
+        "title": "ข้อเท็จจริง.",
+        "lead": "เราไม่ได้ทดสอบตามมาตรฐานเท่านั้น เรากำหนดมาตรฐานเหล่านั้น โปรโตคอลการทดสอบภายในของเราสูงเกินกว่าข้อกำหนดของ DVGW, SKZ และ ISO ถึง 300%",
         "items": [
           {
-            "label": "Svejsetemperatur",
-            "value": "260°C",
-            "sub": "For muffesvejsning (± 10°C)"
+            "label": "แรงดันการทำงาน (PN)",
+            "value": "สูงสุด 25 บาร์",
+            "sub": "น้ำ 20°C"
           },
           {
-            "label": "Opvarmningstid (20mm)",
-            "value": "5 sek.",
-            "sub": "Ved 20°C omgivelsestemperatur"
+            "label": "ช่วงอุณหภูมิ",
+            "value": "-20°C ถึง +95°C",
+            "sub": "รองรับอุณหภูมิฉับพลันที่ 110°C"
           },
           {
-            "label": "Bearbejdningstid",
-            "value": "4 sek.",
-            "sub": "Max. tid for samling"
+            "label": "มาตรฐานเกลียว",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "เกลียวใน & เกลียวนอก"
           },
           {
-            "label": "Køletid",
-            "value": "2 min.",
-            "sub": "Før mekanisk belastning"
+            "label": "วงจรชีวิต",
+            "value": "> 50 ปี",
+            "sub": "ภายใต้เงื่อนไขอุตสาหกรรม"
+          },
+          {
+            "label": "โลหะผสมทองเหลือง",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / ต้านทานการสกัดสังกะสี"
+          },
+          {
+            "label": "พลาสติก",
+            "value": "PPRCT / PP-R",
+            "sub": "รองรับมาตรฐานน้ำดื่ม"
+          },
+          {
+            "label": "รับรองมาตรฐานน้ำดื่ม",
+            "value": "UBA, DVGW",
+            "sub": "รุ่นไร้สารตะกั่ว 100%"
+          },
+          {
+            "label": "การประกันคุณภาพ",
+            "value": "ISO 9001:2015",
+            "sub": "การติดตามล็อตผลิต 100%"
           }
         ]
       },
       "cta": {
-        "title": "Udstyr dit team.",
-        "desc": "Download den detaljerede svejsevejledning, eller anmod om et tilbud på vores værktøjspakker.",
-        "primary": "Hent Svejsevejledning (PDF)"
+        "title": "ข้อต่อที่แข็งแกร่งที่สุดสำหรับโครงการของคุณ.",
+        "desc": "พึ่งพาวิศวกรรมเยอรมันที่ผ่านการพิสูจน์แล้ว ติดต่อเราเพื่อขอข้อมูลทางเทคนิค โมเดล BIM หรือขอคำปรึกษาโครงการส่วนบุคคล",
+        "primary": "เริ่มการสอบถามโครงการ",
+        "secondary": "CAD & ข้อมูลจำเพาะ"
       }
     },
-    "valves": {
-      "metaTitle": "PP-R Ventiler & Armaturer til Rørsystemer",
-      "metaDesc": "Opdag professionelle K-Aqua ventiler og armaturer. Til sikre, effektive og langtidsholdbare installationer af PP-R og PP-RCT rørsystemer.",
-      "heroEyebrow": "Tysk Ingeniørkunst",
-      "heroTitle": "Absolut Kontrol.",
-      "heroSubtitle": "Under ekstremt tryk.",
-      "heroDesc": "Velkommen til den øverste liga inden for strømningsmekanik. K Aqua ventiler og armaturer er ikke bare komponenter. De er det ubestikkelige hjerte i global infrastruktur. Fremstillet for evigt.",
-      "heroBtnPrimary": "Forespørg om teknologi",
-      "heroBtnSecondary": "Opdag arkitekturen",
-      "manifestoTitle": "Når materialet giver efter, bryder systemet sammen. <br/><span class=\"text-primary\">Vi giver ikke efter.</span>",
-      "manifestoP1": "I industriel strømningsteknik er en ventil aldrig bare en afbryder til væsker. Det er det kritiske knudepunkt, hvor kinetisk energi, ekstremt tryk, termisk udvidelse og kemisk aggressivitet mødes.",
-      "manifestoP2": "Her skilles banal masseproduktion fra ægte ingeniørkunst. Vores armaturer er massivt overdimensionerede, paranoidt præcist fremstillede og bygget til scenarier, som andre producenter ville kalde \"umulige\". Det er vores forståelse af <span class=\"text-foreground font-bold\">German Engineering</span>.",
-      "scrollEyebrow": "Perfektionens Tilblivelse",
-      "scrollTitle": "Fra råmateriale til en uforgængelig armatur.",
-      "scrollLead": "Følg skabelsesprocessen for en K Aqua ventil. En kompromisløs rejse gennem varme, tryk og mikroskopisk præcision.",
-      "scroll1Title": "Fejlfrit Råmateriale",
-      "scroll1Desc": "Vores ventiler og armaturer starter deres eksistens som rent, industrielt testet højtydende materiale. Gennem strenge spektralanalytiske undersøgelser garanterer vi allerede før første fræsesnit, at der absolut ingen mikrostrukturelle svagheder er. Dette er det ufravigelige grundlag for den senere absolutte korrosionsbestandighed og mekaniske integritet gennem årelang kontinuerlig brug.",
-      "scroll2Title": "Højpræcisions CNC-bearbejdning",
-      "scroll2Desc": "Hver enkelt komponent fræses ud af et massivt stykke materiale på vores fabrik ved hjælp af topmoderne 5-aksede CNC-bearbejdningscentre med en absurd tolerance på under en tusindedel millimeter. Denne kompromisløse præcision sikrer, at tætningsfladerne passer perfekt sammen. Det eliminerer fuldstændigt risikoen for lækage og garanterer en absolut gnidningsfri, silkeblød og slidfri drift, selv efter årtier.",
-      "scroll3Title": "Kavitationsfri Strømning",
-      "scroll3Desc": "En ventil er kun så god som dens interne strømningsprofil. Ved hjælp af den mest avancerede numeriske strømningsmekanik (CFD) har vi designet de indvendige konturer, så turbulens og kavitation stort set er udelukket. Dette betyder mindre tryktab i det samlede system og absolut støjreduktion selv ved de højeste strømningshastigheder.",
-      "scroll4Title": "100% Slutkontrol. Ingen undtagelser.",
-      "scroll4Desc": "Stikprøver er ikke nok, når milliardinfrastrukturer er på spil. Før en armatur forlader K Aqua fabrikken, gennemgår den en fuldautomatisk, robotstyret testcyklus, der langt overstiger de reelle belastninger. Hydrauliske højtrykstests, helium-vakuum-lækagetests og termiske choktests garanterer vores legendariske nul-fejl-kvote.",
-      "showcaseEyebrow": "Pålidelighedens Anatomi",
-      "showcaseTitle": "Ingen svage punkter. <br/> Ingen blinde vinkler.",
-      "showcaseP1": "Den indre arkitektur i vores armaturer er konsekvent designet til at være <span class=\"font-semibold\">fri for døde rum</span>. Stagnationszoner, hvor bakterier som legionella kunne formere sig, er geometrisk elimineret.",
-      "showcaseP2": "Vandet skyder i en perfekt guidet laminar strømning gennem ventilhuset. De massive sæderinge er selvrensende og lukker hermetisk tæt, selv efter den millionte cyklus.",
-      "showcaseList1": "Testet drikkevandshygiejne efter de højeste standarder",
-      "showcaseList2": "Hermetisk tætning ved maksimalt driftstryk",
-      "showcaseList3": "Vedligeholdelsesfrie spindeltætninger med dobbelt O-ring",
-      "bentoEyebrow": "Specifikationer",
-      "bentoTitle": "Overlegenhedens nøgne tal.",
-      "bentoLead": "Når marketing-flosklerne slutter, taler dataene. Opdag de tekniske parametre, der gør vores ventiler til det ultimative valg for megaprojekter.",
-      "bento1Title": "PN25 Kontinuerlig Trykbelastning",
-      "bento1Desc": "Udviklet til vedvarende højtryksapplikationer ud over standarden. Vægtykkelserne og gevindkonstruktionerne er så massivt dimensionerede, at de ikke giver efter det mindste, selv ved ekstreme trykspidser og vandhammerslag. En monolitisk blok af sikkerhed.",
-      "bento2Title": "Termisk Suverænitet",
-      "bento2Desc": "Fra isnende kulde til kogende fremløbstemperaturer. High-end materialet bevarer sin fulde elasticitet, bliver ikke sprødt og modstår termisk udvidelse ekstremt effektivt.",
-      "bento3Title": "Kemisk Resistens",
-      "bento3Desc": "Korrosion er et koncept fra fortiden. Vores armaturer er immune over for aggressive jordforhold, hårdt vand og klorholdige desinfektionsmidler. Ingen rust, ingen grubetæring.",
-      "bento4Title": "Industriel Ergonomi & Haptik",
-      "bento4Desc": "Design møder rå funktionalitet. De massive håndhjul, tunge greb og præcist bearbejdede spindler giver – selv med kraftige beskyttelseshandsker – en øjeblikkelig, taktil og absolut præcis feedback ved åbning og lukning.",
-      "timelineEyebrow": "Vejen til Hårdhed.",
-      "timelineLead": "En tidslinje for kompromisløs kvalitetssikring. Hvordan en idé bliver til en industriel legende.",
-      "timeline1Year": "Fase 01",
-      "timeline1Title": "Molekylær Selektion",
-      "timeline1Text": "Valg af metallegeringer og højtydende polymerer, specifikt formuleret til K Aqua. Vi fokuserer på absolut krybestyrke og maksimal molekylær stabilitet.",
-      "timeline2Year": "Fase 02",
-      "timeline2Title": "CFD Strømningsoptimering",
-      "timeline2Text": "Ved hjælp af supercomputere beregnes de indre strømningskanaler i tusindvis af iterationer for at minimere strømningsmodstanden til tæt på nul.",
-      "timeline3Year": "Fase 03",
-      "timeline3Title": "Klimakammer-stresstest",
-      "timeline3Text": "Prototyper gennemgår måneders kontinuerlige belastningstests i vores klimakamre ved op til 120°C, 25 bars tryk og i ekstreme kemiske opløsninger.",
-      "timeline4Year": "Fase 04",
-      "timeline4Title": "Robotstyret Masseproduktion",
-      "timeline4Text": "Overgangen til vores højautomatiserede Industri 4.0 produktionslinje. Vi opnår maksimal reproducerbarhed med minimale tolerancer uden menneskelige fejlkilder.",
-      "timeline5Year": "Fase 05",
-      "timeline5Title": "Global Anvendelse",
-      "timeline5Text": "Implementering på de mest kritiske byggepladser i verden, fra ørken-megaprojekter til offshore-anlæg. Ledsaget af vores Field-Engineering Team.",
-      "finalTitle": "Byg til generationer. <br/>Ikke til næste vedligeholdelsesinterval.",
-      "finalDesc": "I en verden, der i stigende grad satser på hurtig forældelse og billige udskiftningsprodukter, står vi som en stålfast modpol. En K Aqua armatur installeres og glemmes. Fordi den bare fungerer. Årti efter årti. Stol på ægte industriel autoritet.",
-      "ctaTitle": "Klar til absolut kontrol?",
-      "ctaDesc": "Tal med vores chef-ingeniører om specifikationerne for dit næste megaprojekt. Vi leverer løsninger på problemer, som andre endnu ikke engang har forstået.",
-      "ctaBtnPrimary": "Anmod om teknisk rådgivning",
-      "ctaBtnSecondary": "Specifikationer som PDF",
-      "hero": {
-        "eyebrow": "Ventiler & Armaturer",
-        "title": "PP-R Armaturer & Ventiler til præcis regulering",
-        "lead": "Afspærring, regulering, sikring: K Aqua PP-R armaturer kombinerer korrosionsfri hydraulik med tysk produktionspræcision til drikkevand, VVS og industri. Til præcis regulering i drikkevands- og varmenetværk."
-      }
+    "hero": {
+      "eyebrow": "สถาปัตยกรรมระบบ",
+      "title1": "K-AQUA: สถาปัตยกรรม",
+      "title2": "น้ำที่สมบูรณ์แบบ",
+      "desc": "ความแม่นยำระดับโมเลกุล พัฒนามาเพื่อความเป็นนิรันดร์ ระบบท่อ ข้อต่อ และวาล์วของเรากำหนดมาตรฐานระดับโลกสำหรับโครงสร้างพื้นฐานน้ำสำหรับอุตสาหกรรมและพลเรือน ไม่มีข้อยกเว้น. ประสิทธิภาพล้วนๆ."
     },
-    "category": {
-      "allProducts": "Alle Produkter",
-      "openInFinder": "Åbn i Produktfinder",
-      "artNA": "Varenr. N/A",
-      "viewDetails": "Vis produktdetaljer",
-      "learnMoreKnowledge": "Opdag PP-R rørsystemer i vores vidensbase",
-      "learnMoreDesc": "Dyk dybere ned i den tekniske dokumentation og opdag fagartikler om installation, bæredygtighed og test af vores PP-R systemer.",
-      "toKnowledgeBase": "Opdag fagartikler i K-Aqua Academy"
-    },
-    "fittings": {
-      "intro": {
-        "text1": "I årtier har vi på vores hovedfabrik i hjertet af Tyskland forenet håndværksmæssig stolthed med topmoderne, højautomatiseret produktionsteknologi. Hver bøjning, hver muffe, hvert T-stykke bærer det umiskendelige DNA fra tysk ingeniørkunst. I brug i de hårdeste ørkener, mest ekstreme klimazoner og mest krævende industrianlæg i verden, beviser vores materiale sit værd hver eneste dag.",
-        "text2": "Sammensmeltningen af makromolekyler i vores PP-R system skaber et rørledningsnetværk uden svage punkter. Der er ingen pakningsringe, der kan korrodere, ingen limninger, der angribes af kemikalier. Rør og fitting smeltes termisk sammen til et enkelt, uadskilleligt emne. Dette er den absolutte definition af sikkerhed."
-      },
-      "timeline": {
-        "items": {
-          "4": {
-            "year": "Trin 04",
-            "title": "Kølings-matrix",
-            "text": "En computerstyret afkølingsprofil forhindrer indre spændinger i materialet og sikrer perfekt dimensionsstabilitet."
-          },
-          "5": {
-            "year": "Trin 05",
-            "title": "Test & Logistik",
-            "text": "Hver batch modtager sit digitale certifikat. Klar til forsendelse til de mest krævende byggepladser i verden."
-          }
+    "sticky": {
+      "eyebrow": "ช่วงผลิตภัณฑ์",
+      "title": "วิศวกรรมที่ไม่ประนีประนอม",
+      "lead": "ทุกองค์ประกอบเป็นส่วนหนึ่งของระบบที่สมบูรณ์แบบ ปิดสนิท ตั้งแต่จุดเข้าถึงจุดสิ้นสุด เราควบคุมการไหลของน้ำ สารเคมี และก๊าซด้วยความน่าเชื่อถืออย่างไม่ลดละ",
+      "items": [
+        {
+          "title": "ระบบท่อ PPR: เส้นเลือดที่ไม่มีวันถูกทำลาย",
+          "desc": "ระบบ K Aqua PPR (Polypropylene Random Copolymer) คือกระดูกสันหลังของการขนส่งของเหลวสมัยใหม่ หลอมด้วยความร้อนเข้าเป็นเนื้อเดียวกัน ทนทานต่อแรงดันสูง การกัดกร่อนของสารเคมี และสภาวะความร้อน ระบบที่ไม่รั่วไหล ไม่กัดกร่อน และใช้งานได้ยาวนานหลายทศวรรษ"
+        },
+        {
+          "title": "ข้อต่อ (FITTINGS): ความสมบูรณ์แบบทางเรขาคณิต",
+          "desc": "ทุกข้อต่อ K Aqua คือผลงานชิ้นเอกทางกลศาสตร์ของไหล การลดคาวิเทชั่น ความหนาของผนังที่ปรับให้เหมาะสม และความคลาดเคลื่อนระดับไมโครเมตรรับประกันการสูญเสียแรงดันที่น้อยที่สุดและความปลอดภัยสูงสุดของระบบ เราไม่ปล่อยให้กระแสน้ำเป็นเรื่องของความบังเอิญ"
+        },
+        {
+          "title": "วาล์ว & อุปกรณ์เสริม: การควบคุมสัมบูรณ์",
+          "desc": "เทคโนโลยีการปิดและควบคุมอุตสาหกรรมที่ทำงานภายใต้สภาวะรุนแรงที่สุดทั่วโลก บอลวาล์ว วาล์วปรับมุม และเช็ควาล์วของเราผ่านการทดสอบเป็นหมื่นรอบโดยไม่ทำให้ประสิทธิภาพลดลง ป้องกันการรั่วซึมสูงสุดที่โหลดสูงสุด"
+        },
+        {
+          "title": "ท่อคอมโพสิต: การทำงานร่วมกันของวัสดุ",
+          "desc": "อลูมิเนียมพบกับพอลิเมอร์ประสิทธิภาพสูง ท่อคอมโพสิตหลายชั้นของ K Aqua ผสมผสานความมั่นคงทางกลไกของโลหะเข้ากับความยืดหยุ่นและทนต่อสารเคมีของพลาสติก ป้องกันออกซิเจน 100% ขยายตัวเชิงเส้นน้อยที่สุด นี่คือโซลูชันที่ดีที่สุดสำหรับระบบ HVAC ที่ซับซ้อน"
         }
-      },
-      "depth": {
-        "title": "Levetid > 50 år. Garanteret.",
-        "text": "Tid er den ultimative stresstest for ethvert materiale. Vores fittings er designet til at overleve selve bygningens levetid. Gennem tilsætning af specielle antioxidanter og termiske stabilisatorer i vores PP-R matrix, forsinkes termisk-oxidativ aldring massivt. Selv ved kontinuerlige fremløbstemperaturer på 70°C og trykbelastninger på 10 bar garanterer vi en levetid på over et halvt århundrede. Det er ikke markedsføring. Det er anvendt polymerfysik.",
-        "badge": "100% vedligeholdelsesfri"
-      },
-      "cta": {
-        "secondary": "Se hele sortimentet"
-      }
+      ]
     },
-    "pipes": {
-      "timeline": {
-        "items": {
-          "4": {
-            "year": "Trin 05",
-            "title": "Test & Frigivelse",
-            "text": "Hydraulisk sprængtrykstest ved 95°C over 1000 timer. Trækforsøg, slagstyrke og toksikologisk sikkerhedstest. Kun hvis produktet overgår alle standarder (DIN 8077/8078, EN ISO 15874), forlader det vores fabrik."
-          }
+    "bento": {
+      "eyebrow": "ข้อมูลประสิทธิภาพ",
+      "title": "ความเหนือกว่าทางเทคโนโลยี สนับสนุนโดยข้อมูล",
+      "lead": "ระบบ K Aqua ไม่ใช่แค่ท่อ มันคือเครือข่ายประสิทธิภาพสูงสำหรับของเหลว พัฒนาตามมาตรฐานอุตสาหกรรมเยอรมันที่เข้มงวดที่สุด",
+      "items": [
+        {
+          "title": "การหลอมรวมด้วยความร้อน (Thermal Fusion)",
+          "desc": "รอยเชื่อมที่เป็นเนื้อเดียวกัน วัสดุหลอมเป็นชิ้นเดียว ไม่มีกาว ไม่มีโอริงที่เสี่ยงต่อความล้มเหลว รับประกันความปลอดภัยจากการรั่วไหล 100% ในระดับโมเลกุล"
+        },
+        {
+          "title": "การปกป้องจากการกัดกร่อน",
+          "desc": "ต้านทานการเกิดหลุม สนิม และการกัดกร่อนจากปฏิกิริยาไฟฟ้าเคมีอย่างแท้จริง ของเหลวที่ถูกลำเลียงยังคงความบริสุทธิ์สูงสุด"
+        },
+        {
+          "title": "การปรับปรุงประสิทธิภาพการไหล",
+          "desc": "เทคโนโลยีผนังเรียบ (ความขรุขระเพียง 0.007 มม.) ที่มีสัมประสิทธิ์ความต้านทานแรงเสียดทานน้อยที่สุดป้องกันการเกิดคราบตะกรันและลดการสูญเสียแรงดันได้อย่างมาก"
+        },
+        {
+          "title": "ความต้านทานแรงดันระดับ PN25+",
+          "desc": "ออกแบบมาเพื่อรับภาระสูงสุดในอาคารสูง โรงงานอุตสาหกรรม และโครงสร้างพื้นฐานที่สำคัญทางระบบ รองรับการใช้งานไร้ปัญหานานกว่า 50 ปี"
         }
-      }
-    }
-  },
+      ]
+    },
+    "timeline": {
+      "title": "กระบวนการติดตั้ง. นิยามใหม่.",
+      "desc": "เร็วกว่า. ปลอดภัยกว่า. สะอาดกว่า. ระบบของเราลดเวลาการติดตั้งลงอย่างมาก ในขณะที่ลดจุดที่อาจเกิดข้อผิดพลาดให้เหลือน้อยที่สุด ลำดับเวลาของประสิทธิภาพ",
+      "items": [
+        {
+          "year": "ระยะที่ 01",
+          "title": "การวางแผนและการระบุขนาด",
+          "text": "การคำนวณและออกแบบขนาดท่อทางไฮดรอลิกอย่างแม่นยำ หลีกเลี่ยงการใช้วัสดุที่เกินขนาดด้วยประสิทธิภาพการไหลที่เหนือกว่า"
+        },
+        {
+          "year": "ระยะที่ 02",
+          "title": "การตัดและการเตรียมตัว",
+          "text": "การตัดท่อโดยไม่ใช้ความร้อนและไม่ทำให้เกิดเสี้ยน รอยตัดที่สะอาดเรียบเนียนรับประกันการเตรียมพร้อมสำหรับการเชื่อมโดยไม่มีความเสี่ยงต่อการปนเปื้อน"
+        },
+        {
+          "year": "ระยะที่ 03",
+          "title": "การเชื่อมท่อด้วยความร้อน (SOCKET FUSION)",
+          "text": "เครื่องมือจะให้ความร้อนแก่ท่อและข้อต่อถึง 260°C อย่างแม่นยำ ในเวลาไม่กี่วินาทีการเชื่อมต่อระดับโมเลกุลจะก่อตัวขึ้นและไม่สามารถแยกออกได้อีก"
+        },
+        {
+          "year": "ระยะที่ 04",
+          "title": "การทดสอบแรงดันและการยอมรับ",
+          "text": "ระบบถูกนำไปทดสอบแรงดันขั้นรุนแรง ไม่มีความอดทนต่อรอยรั่ว K Aqua มอบความปลอดภัย 100% ตั้งแต่หยดแรก"
+        },
+        {
+          "year": "ระยะที่ 05",
+          "title": "การใช้งานยาวนานนับทศวรรษ",
+          "text": "ไม่ต้องบำรุงรักษา เสียงรบกวนต่ำ ระบบทำงานเงียบอยู่เบื้องหลังอาคารทันสมัยที่สุดของโลกด้วยความน่าเชื่อถือที่ไม่หยุดยั้ง"
+        }
+      ]
+    },
+    "sysLead": "รากฐานของแคตตาล็อกของเรา: บล็อกสี่ตัวของระบบที่บูรณาการ ท่อ, ข้อต่อ, วาล์ว, และเครื่องมือ ที่สร้างระบบหนึ่งเดียวจาก PP-R และ PP-RCT."
+  }
+}}

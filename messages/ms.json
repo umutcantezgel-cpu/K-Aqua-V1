@@ -1703,5 +1703,171 @@
         "a": "Ya, kami tidak menyimpan data pada pelayan."
       }
     ]
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "SISTEM PAIP",
+      "title1": "K-AQUA:",
+      "title2": "PRESTASI TINGGI.",
+      "desc": "Penyelesaian paip PP-R dan PPRCT untuk infrastruktur moden. Direka untuk ketahanan yang tidak tertandingi."
+    },
+    "sticky": {
+      "eyebrow": "KATEGORI PRODUK",
+      "title": "PENYELESAIAN LENGKAP",
+      "lead": "Sistem komprehensif untuk pengurusan bendalir.",
+      "items": [
+        {
+          "title": "PAIP PPR",
+          "desc": "Tahan tekanan tinggi dan kakisan."
+        },
+        {
+          "title": "PENYAMBUNG (FITTINGS)",
+          "desc": "Aliran yang dioptimumkan untuk mengurangkan kehilangan tekanan."
+        },
+        {
+          "title": "INJAP & AKSESORI",
+          "desc": "Kawalan bendalir yang boleh dipercayai."
+        },
+        {
+          "title": "PAIP KOMPOSIT",
+          "desc": "Gabungan plastik dan aluminium untuk kestabilan maksimum."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "PRESTASI",
+      "title": "DATA TEKNIKAL",
+      "lead": "Direka untuk jangka hayat melebihi 50 tahun.",
+      "items": [
+        {
+          "title": "Kimpalan Terma",
+          "desc": "Penyatuan molekul tanpa kebocoran."
+        },
+        {
+          "title": "Bebas Kakisan",
+          "desc": "Tahan bahan kimia dan karat."
+        },
+        {
+          "title": "Aliran Dioptimumkan",
+          "desc": "Geseran yang sangat rendah."
+        },
+        {
+          "title": "Rintangan Tekanan",
+          "desc": "Sesuai untuk pemasangan tekanan tinggi."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "PROSES PEMASANGAN",
+      "desc": "Mudah, selamat, dan pantas.",
+      "items": [
+        {
+          "year": "01",
+          "title": "Perancangan",
+          "text": "Reka bentuk sistem."
+        },
+        {
+          "year": "02",
+          "title": "Pemotongan",
+          "text": "Potongan tepat dan bersih."
+        },
+        {
+          "year": "03",
+          "title": "Kimpalan",
+          "text": "Pemanasan sehingga 260°C."
+        },
+        {
+          "year": "04",
+          "title": "Ujian Tekanan",
+          "text": "Jaminan tiada kebocoran."
+        },
+        {
+          "year": "05",
+          "title": "Operasi",
+          "text": "Jangka hayat yang panjang."
+        }
+      ]
+    },
+    "sysLead": "Komponen utama sistem K-Aqua: Paip, penyambung, dan injap."
+  },
+  "solutions": {
+    "hero": {
+      "eyebrow": "APLIKASI",
+      "title1": "PENYELESAIAN",
+      "title2": "INDUSTRI",
+      "desc": "Direka khas untuk pelbagai sektor. Daripada air minuman kepada bahan kimia industri."
+    },
+    "sticky": {
+      "eyebrow": "SEKTOR",
+      "title": "FLEKSIBILITI SISTEM",
+      "lead": "Sistem kami digunakan di seluruh dunia.",
+      "items": [
+        {
+          "title": "AIR MINUMAN",
+          "desc": "Pensijilan kebersihan tertinggi."
+        },
+        {
+          "title": "PENYEJUKAN",
+          "desc": "Sistem pengawal suhu berprestasi tinggi."
+        },
+        {
+          "title": "INDUSTRI",
+          "desc": "Tahan pelbagai bahan kimia agresif."
+        },
+        {
+          "title": "HOSPITAL",
+          "desc": "Pematuhan piawaian kesihatan."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "MANFAAT",
+      "title": "NILAI TAMBAH",
+      "lead": "Sebab utama mengapa perancang memilih K-Aqua.",
+      "items": [
+        {
+          "title": "Penjimatan Tenaga",
+          "desc": "Kurang kehilangan haba."
+        },
+        {
+          "title": "Jangka Hayat",
+          "desc": "Tahan lama dan bebas penyelenggaraan."
+        },
+        {
+          "title": "Kos Efektif",
+          "desc": "TCO yang lebih rendah."
+        },
+        {
+          "title": "Keselamatan",
+          "desc": "Rintangan tekanan tinggi."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "FASA PROJEK",
+      "desc": "Sokongan dari mula hingga akhir.",
+      "items": [
+        {
+          "year": "Perancangan",
+          "title": "Sokongan CAD",
+          "text": "Perkhidmatan reka bentuk."
+        },
+        {
+          "year": "Pembekalan",
+          "title": "Logistik",
+          "text": "Penghantaran tepat pada masanya."
+        },
+        {
+          "year": "Pemasangan",
+          "title": "Latihan",
+          "text": "Panduan kimpalan di tapak."
+        },
+        {
+          "year": "Penyelenggaraan",
+          "title": "Jaminan Kualiti",
+          "text": "Sokongan teknikal jangka panjang."
+        }
+      ]
+    }
   }
 }

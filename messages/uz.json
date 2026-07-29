@@ -2577,5 +2577,820 @@
         ]
       }
     }
+  },
+  "products": {
+    "uniqueProductContext": "{title} mahsuloti K Aqua {category} qatorining muhim qismidir. U maksimal ishonchlilik va mukammal integratsiya uchun yaratilgan bo'lib, zamonaviy quvur va santexnika tizimlari uchun eng yuqori xalqaro standartlarga javob beradi. Ushbu mahsulotni quyidagi artikul raqami(lari) orqali aniqlashingiz va buyurtma qilishingiz mumkin: {codes}. Qo'shimcha hujjatlar yoki yordam uchun texnik jamoamiz bilan bog'laning.",
+    "heroDesc": "Texnik xususiyatlar, o'lchamlar va qo'llanish sohalarini kashf eting. Batafsil ma'lumot uchun Texnik Ma'lumotlar Varag'ini (TDS) yuklab oling.",
+    "articleNumbers": "Artikul raqamlari",
+    "technicalSpecs": "Texnik xususiyatlar",
+    "eyebrow": "Mahsulotlar",
+    "videoGuide": "K Aqua video qo'llanmasi",
+    "localAvailability": "Mahalliy mavjudlik",
+    "localDesc": "Hududingizdagi dilerlarni, maxsus sertifikatlar va standartlarni toping.",
+    "allMarkets": "Barcha 50+ bozorlarni ko'rish",
+    "title1": "PP-R/PPRCT quvurlar va fittinglar",
+    "titleGrad": "Ichimlik suvi uchun.",
+    "lead": "Issiq va sovuq ichimlik suvi uchun to'liq quvurlar tizimi: quvurdan tortib fittinggacha va payvandlash texnologiyasigacha. To'rt blok, bitta tizim.",
+    "ctaCatalog": "Mahsulotlar katalogi (PDF)",
+    "ctaVideos": "O'rnatish videolari",
+    "sysEyebrow": "Tizim",
+    "sysTitle": "K-Aqua PP-R quvurlari va fittinglari: To'rt blok, bitta tizim.",
+    "range": [
+      {
+        "t": "Quvurlar: Yakkalik (Mono) va Ko'p qatlamli (Multi)",
+        "d": "SDR 6, 7.4, 9, 11 va 17 da bir qatlamli va shisha tolali ko'p qatlamli quvurlar. O'lchamlar 20 mm dan 630 mm gacha."
+      },
+      {
+        "t": "Fittinglar va armaturalar",
+        "d": "20 mm dan 315 mm gacha bo'lgan fittinglar, shuningdek ventillar, ulanish gaykalari va o'tish qismlari."
+      },
+      {
+        "t": "Payvandlash texnologiyasi va asboblar",
+        "d": "Mufali, uchma-uch va elektr payvandlash usullari uchun kesish asboblari, payvandlash uskunalari va mashinalari."
+      },
+      {
+        "t": "Issiq va sovuq suv",
+        "d": "Ichimlik suvi (issiq va sovuq) uchun mo'ljallangan, o'nlab yillar davomida yuqori harorat va bosimga chidamli."
+      }
+    ],
+    "techEyebrow": "Texnik ma'lumotlar",
+    "techTitle": "O'lchamlar va bosim darajalari",
+    "techLead": "Quvur turiga qarab 20 mm dan 630 mm gacha, fittinglar 315 mm gacha.",
+    "ctaFeatures": "Mahsulot xususiyatlari (PDF)",
+    "tableHead": [
+      "Komponent",
+      "O'lcham",
+      "Bosim darajasi"
+    ],
+    "tableRows": [
+      [
+        "Yakkalik (Mono) quvurlar",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Ko'p qatlamli (shisha tolali) quvurlar",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Fittinglar",
+        "20 – 315 mm",
+        "tizimga mos"
+      ],
+      [
+        "Ventillar va gaykali ulanishlar",
+        "tizimga bog'liq",
+        "-"
+      ],
+      [
+        "Payvandlash asboblari",
+        "barcha o'lchamlar",
+        "-"
+      ]
+    ],
+    "specAndDim": "Texnik xususiyatlar va O'lchamlar",
+    "certsAndNorms": "Sertifikatlar va Standartlar",
+    "approved": "tasdiqlangan",
+    "monitoring": "nazorat qilinadi",
+    "certified": "tasdiqlangan",
+    "quickLinks": "Tezkor havolalar",
+    "calcCo2": "CO2 izini hisoblash",
+    "backToFinder": "Mahsulot qidirishga qaytish",
+    "enterpriseCore": "Enterprise Core",
+    "highPerformance": "Yuqori unumdor quvur tizimlari",
+    "highPerformanceDesc": "Sanoat tarmoqlari, ichimlik suvi ta'minoti va ekstremal sharoitlarda iqlim nazorati uchun.",
+    "sysPressure": "Tizim bosimi",
+    "tempMax": "Maksimal harorat",
+    "material": "Material",
+    "norm": "Standart",
+    "certification": "Sertifikatlash",
+    "lifespan": "Xizmat muddati",
+    "fiberTech": "Shisha tolali kompozit texnologiyasi",
+    "fiberTechDesc": "Chiziqli kengayishni minimallashtirish va yuqori haroratlarda maksimal barqarorlikni ta'minlash uchun 3 qatlamli tuzilish.",
+    "compliance": "Muvofiqlik va Standartlar",
+    "dimensions": "O'lchamlar",
+    "globalNetwork": "Global tarmoq",
+    "globalNetworkDesc": "K Aqua tizimlari butun dunyo bo'ylab 40 dan ortiq mamlakatlarda qo'llanilmoqda.",
+    "whyChoose": "Nima uchun {product} - to'g'ri tanlov",
+    "sysLead": "Katalogimizning asosi: bitta integratsiyalashgan tizimning to'rtta bloki. Quvurlar, fittinglar, armaturalar va asboblar PP-R va PP-RCT dan yagona tizimni hosil qiladi.",
+    "labels": {
+      "applicationAreas": "Qo'llanish sohalari",
+      "advantages": "Sizning afzalliklaringiz qisqacha",
+      "technicalDescription": "Texnik profil va SEO",
+      "noResults": "Hech qanday mahsulot topilmadi",
+      "searchPlaceholder": "Nomi yoki artikul raqami bo'yicha qidirish...",
+      "faqTitle": "Ko'p beriladigan savollar (FAQ)",
+      "faqFallbackQ1": "Asosiy afzalliklari qanday?",
+      "faqFallbackA1": "Tizim favqulodda uzoq xizmat muddatini, korroziyaga qarshilikni va ichimlik suvi uchun ajoyib gigiyenik xususiyatlarni taqdim etadi.",
+      "faqFallbackQ2": "Material ekologik jihatdan tozami?",
+      "faqFallbackA2": "Ha, PPRCT 100% qayta ishlanishi mumkin va metall quvurlarga nisbatan juda past CO2 iziga ega.",
+      "faqFallbackQ3": "O'rnatish qanday amalga oshiriladi?",
+      "faqFallbackA3": "O'rnatish polifuzion payvandlash orqali xavfsiz va oqishsiz amalga oshiriladi.",
+      "downloads": "Yuklamalar va Hujjatlar",
+      "tds": "Texnik ma'lumotlar varag'i",
+      "tdsDesc": "Xususiyatlari va o'lchamlari (PDF)",
+      "cert": "Sertifikatlar va Standartlar",
+      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+      "install": "O'rnatish qo'llanmasi",
+      "installDesc": "Payvandlash bo'yicha ko'rsatmalar (PDF)",
+      "range": "Mahsulotlar qatori",
+      "rangeDesc": "O'lchamlari bilan to'liq mahsulotlar qatori (PDF)",
+      "features": "Mahsulot xususiyatlari",
+      "featuresDesc": "Material xususiyatlari va tizim afzalliklari (PDF)"
+    },
+    "category": {
+      "allProducts": "Barcha mahsulotlar",
+      "openInFinder": "Qidiruvchida (Finder) ochish",
+      "artNA": "Art. N/A",
+      "viewDetails": "Mahsulot tafsilotlarini ko'rish",
+      "learnMoreKnowledge": "Bilimlar portalida PP-R quvur tizimlarini kashf eting",
+      "learnMoreDesc": "Texnik hujjatlarni chuqurroq o'rganing va bizning PP-R tizimlarimizni o'rnatish, barqarorlik va sinovlar haqidagi texnik maqolalarni kashf eting.",
+      "toKnowledgeBase": "K-Aqua Akademiyasida texnik maqolalarni kashf eting"
+    },
+    "seoArticle": {
+      "pipes": {
+        "seoTitle": "PP-R va PPRCT Quvur Tizimlari",
+        "faq": [
+          {
+            "q": "PPRCT an'anaviy PP-R quvurlaridan nimasi bilan farq qiladi?",
+            "a": "PPRCT (Polypropylene Random Copolymer with Modified Crystallinity) maxsus o'zgartirilgan kristall strukturaga ega bo'lib, yuqori ish haroratlarida ko'proq bosimga chidamlilikni ta'minlaydi. Shu sababli bir xil nominal bosimda yupqaroq quvurlardan foydalanish mumkin, bu esa ichki diametr va oqim sig'imini 17% gacha oshiradi."
+          },
+          {
+            "q": "K-Fiber kompozit texnologiyasi chiziqli kengayishni qanday kamaytiradi?",
+            "a": "K-Fiber quvurlarimiz shisha tolali polipropilendan iborat markaziy qatlamga ega. Bu qatlam quvurni mexanik barqarorlashtiradi va kengayish koeffitsientini ~0.035 mm/(m·K) gacha pasaytiradi, bu standart plastik quvurlarga nisbatan 75% gacha kamayish demakdir."
+          },
+          {
+            "q": "K Aqua PP-R tizimlari ichimlik suvi uchun sertifikatlanganmi?",
+            "a": "Ha, K Aqua DVGW, KIWA va WRAS kabi xalqaro sertifikatlash tashkilotlarining eng qat'iy sinov va gigiyena talablariga javob beradi. Material butunlay xavfsiz, ta'm va hidsiz bo'lib, ohak (kalsiy) va bio-qoplamalar paydo bo'lishini oldini oladi."
+          },
+          {
+            "q": "Mutlaq oqishsiz chok qanday hosil qilinadi?",
+            "a": "Ulanish 260°C haroratda issiqlik polifuziyasi orqali amalga oshiriladi. Quvur va fitting molekulyar darajada erib, bir jinsli ajralmas yaxlitlikni hosil qiladi. Kauchuk qistirmalar (rezina) ishlatilmagani uchun chok 50 yildan ortiq mutlaq zich saqlanadi."
+          },
+          {
+            "q": "Qanday o'lcham va bosim darajalari mavjud?",
+            "a": "K Aqua quvur tizimlari SDR 6, SDR 7.4, SDR 9 va SDR 11 (PN10 dan PN25 gacha) bosim darajalarida va 20 mm dan 630 mm gacha bo'lgan tashqi diametrlarda taklif etiladi."
+          }
+        ]
+      },
+      "fittings": {
+        "areas": "Ichimlik suvi tarmog'i, Sanitariya inshootlari, Sanoat tarmoqlari, Isitish tizimlari",
+        "advTitle": "Xavfsiz va bir jinsli ulanishlar",
+        "advList": [
+          "Gomogen payvandlash: Quvur va fitting uzilmas yagona blokga aylanadi.",
+          "Qistirmalar kerak emas: Rezinali halqalarsiz, 100% ishonchli ulanish.",
+          "Oson montaj: Obyektda tez va xavfsiz o'rnatish jarayoni.",
+          "To'liq oqim: Kesimning torayishi yo'q, tizim bosimi barqaror saqlanadi.",
+          "Kimyoviy chidamlilik: Turli agressiv moddalarga nisbatan kuchli qarshilik."
+        ],
+        "seoText": "K Aqua fittinglari ishonchli quvur tarmoqlarining ajralmas qismidir. Germaniyada ishlab chiqarilgan bu qismlar eng yuqori aniqlik va o'lchov barqarorligini ta'minlaydi. Mufali payvandlash atigi bir necha soniya davom etadi va soviganidan keyin truba bilan bir xil quvvatdagi ulanishga aylanadi. Bu press (qisqich) tizimlarida yillar o'tib paydo bo'lishi mumkin bo'lgan mikro-oqish xavfini butunlay yo'q qiladi.",
+        "guideTitle": "Texnik qo'llanma: K Aqua fittinglari bilan xavfsiz ulanishlar",
+        "guideText": "<p>Professional suv tarmoqlarini o'rnatish sifatli fittinglarga bog'liq. K Aqua o'lchamlar va shakllarning to'liq spektrini taklif qiladi.</p>",
+        "faq": [
+          {
+            "q": "PP-R fittinglarining boshqa materiallardan qanday afzalliklari bor?",
+            "a": "Korroziv muhitda metall fittinglardan farqli o'laroq, PP-R hech qachon zanglamaydi, deyarli ishqalanmaydi (yeyilmaydi) va metall ionlarini suvga ajratmaydi."
+          },
+          {
+            "q": "Ular 100% zich (germetik) bo'lishi qanday ta'minlanadi?",
+            "a": "260°C issiqlik polifuziyasi quvur va fittingni molekulyar darajada to'liq birlashtirib, har qanday mikro bo'shliqlarni ham yo'q qiladi."
+          }
+        ],
+        "seoTitle": "PP-R Fittinglar va shaklli qismlar"
+      },
+      "valves": {
+        "areas": "Sanitariya inshootlari, Sanoat, Suv hisoblagichlari tarmoqlari",
+        "advTitle": "Aniq boshqaruv va yopish",
+        "advList": [
+          "Oson ishlash: Maxsus dizayn yordamida yengil burash va yuqori bosimda ishlash imkoniyati.",
+          "Uzoq xizmat muddati: Yemirlishi kam bo'lgan ehtiyot qismlari va yuqori sifatli latun mexanizmlar.",
+          "Mutlaq korroziyasizlik: Suv oqimi bilan aloqa qiluvchi metall qismlar zanglashdan himoyalangan.",
+          "Standartlarga muvofiqlik: Barcha mahsulotlar qat'iy Yevropa sinovlaridan o'tgan.",
+          "Estetik integratsiya: Hammom dizaynlariga mos tushuvchi yashirin (skritiy) ventillar."
+        ],
+        "seoText": "K Aqua ventillari va armaturalari tizimni ishonchli boshqarishni ta'minlaydi. Oson ochib-yopish, korroziyaga qarshi to'liq himoya va zamonaviy dizayn uni raqobatchilardan ajratib turadi.",
+        "guideTitle": "Valflar (Ventillar) bo'yicha amaliy qo'llanma",
+        "guideText": "<p>K Aqua ventillari bosim yo'qotilishini minimal darajaga tushirgan holda suvingizni aniq boshqarish uchun xizmat qiladi.</p>",
+        "faq": [
+          {
+            "q": "K Aqua ventillari yuqori bosimga chidaydimi?",
+            "a": "Ha, ko'pchilik ventillarimiz sanoat talablariga javob beradigan PN25 gacha bo'lgan kuchlanishga bardosh beradi."
+          },
+          {
+            "q": "Armaturalarda ishlatiladigan metall ichimlik suvi uchun xavfsizmi?",
+            "a": "Biz faqat UBA standartiga mos keladigan qo'rg'oshinsiz yoki kam qo'rg'oshinli dezrinkifikatsiyaga (DZR) chidamli latun (CW617N) dan foydalanamiz."
+          }
+        ],
+        "seoTitle": "PP-R Ventillar va Armaturalar"
+      },
+      "weldInSaddles": {
+        "seoTitle": "Payvandlanadigan egarlar (Weld-in saddles)",
+        "faq": []
+      },
+      "accessories": {
+        "areas": "O'rnatish texnikasi, Mahkamlash, Zichlash",
+        "advTitle": "Standartlarga mos o'rnatish uchun aksessuarlar",
+        "advList": [
+          "Mukammal moslik: Barcha aksessuarlar K Aqua quvurlari tizimiga geometrik moslashtirilgan.",
+          "Issiqlik deformatsiyalarini qoplash: Kauchuk qistirmali quvur qisqichlari (xomut).",
+          "Yuqori sifatli flanets ulanishlari: Metall tarmoqqa o'tish uchun po'lat yadroli flanetslar va EPDM qistirmalari.",
+          "Tezkor ta'mirlash: Teshilgan quvurlar uchun ta'mirlash tiqinlari.",
+          "UV nurlariga chidamlilik: Tashqi o'rnatish uchun maxsus turg'unlashtirilgan ehtiyot qismlar."
+        ],
+        "seoText": "Tog'ri aksessuarlar quvur tarmog'ining uzoq umr ko'rishida hal qiluvchi ahamiyatga ega. K Aqua keng qamrovli yordamchi qismlarni taklif etadi: kengayishni ushlab turuvchi qisqichlardan tortib EPDM zichlagichlargacha.",
+        "guideTitle": "Ekspert maslahati: Standart montaj uchun K Aqua aksessuarlari",
+        "guideText": "<p>Sifatli quvur tizimi sifatli aksessuarlarga ehtiyoj sezadi. Original qismlar uzoq xizmat muddati va kafolatni ta'minlaydi.</p>",
+        "faq": [
+          {
+            "q": "Aksessuarlar issiq va sovuq suv uchun mosmi?",
+            "a": "Ha, quvur qisqichlari va tekis qistirmalar kabi barcha qismlar mukammal issiqlik barqarorligiga ega."
+          },
+          {
+            "q": "Uchinchi tomon (boshqa brend) aksessuarlaridan foydalansam bo'ladimi?",
+            "a": "To'liq K Aqua tizim kafolatiga ega bo'lish uchun faqat original aksessuarlardan foydalanish qat'iyan talab etiladi."
+          }
+        ],
+        "seoTitle": "Quvur o'rnatish aksessuarlari"
+      },
+      "tools": {
+        "areas": "Oldindan yig'ish, Obyekt montaji, Ta'mirlash",
+        "advTitle": "Mukammal aloqa uchun eng yuqori aniqlik",
+        "advList": [
+          "Aniq harorat nazorati: Mikroprotsessor boshqaruvli isitgichlar roppa-rosa 260°C ni saqlaydi.",
+          "Yopishmaydigan qoplama: Qoldiqsiz erish uchun teflon-PTFE nosadkalari.",
+          "Ergonomik dizayn: Ustanovkaning jismoniy zo'riqishini kamaytiradi.",
+          "Raqamli hujjatlashtirish: Ma'lumotni saqlovchi elektr va uchma-uch payvandlash apparatlari."
+        ],
+        "seoText": "K Aqua vositalari tarmog'imizni professional montaj qilishning asosidir. Aniq quvur kesgichlardan tortib CNC payvandlash mashinalarigacha, har bir detal o'z vazifasini 100% aniqlik bilan bajaradi.",
+        "guideTitle": "Amaliy qo'llanma: K Aqua montaji uchun professional asboblar",
+        "guideText": "<p>Plastik quvurlarni o'rnatish sifati ishlatiladigan vositalarning aniqligiga bog'liq. Noto'g'ri kesish yoki isitish tizimni yaroqsiz holga keltirishi mumkin.</p>",
+        "faq": [],
+        "seoTitle": "Payvandlash va kesish asboblari"
+      },
+      "fallback": {
+        "areas": "Universal o'rnatish texnologiyasi, Tizim qo'shimchalari",
+        "advTitle": "Mukammal tizim integratsiyasi",
+        "advList": [
+          "Sertifikatlangan sifat: ISO 9001 tizimiga to'liq mos keladi.",
+          "Moslik: K Aqua tizimiga mukammal moslashtirilgan.",
+          "Chidamlilik: O'ta bardoshli materiallar."
+        ],
+        "seoText": "Tizim ta'minotchisi sifatida K Aqua nafaqat quvurlar va fittinglarni, balki barcha zarur vositalar va aksessuarlarni ham taklif qiladi.",
+        "faq": [],
+        "seoTitle": "K Aqua Tizim Aksessuarlari"
+      }
+    },
+    "tools": {
+      "areas": "Oldindan yig'ish, Obyekt montaji, Ta'mirlash",
+      "advTitle": "Mukammal ulanish uchun eng yuqori aniqlik",
+      "advList": [
+        "Aniq harorat nazorati: Mikroprotsessor boshqaruvli isitgichlar roppa-rosa 260°C ni saqlaydi.",
+        "Yopishmaydigan qoplama: Qoldiqsiz erish uchun teflon-PTFE.",
+        "Ergonomik dizayn: Jismoniy zo'riqishni kamaytiradi.",
+        "Raqamli hujjatlashtirish: Protokolga ega elektr payvandlash apparatlari.",
+        "Uzoq xizmat muddati: Qattiq sharoitlar uchun ishonchli mexanika."
+      ],
+      "seoText": "K Aqua asboblari tarmog'imizni professional tarzda o'rnatish uchun almashtirib bo'lmas tayanchdir.",
+      "guideTitle": "Amaliy qo'llanma: K Aqua quvurlarini montaj qilish asboblari",
+      "guideText": "<p>Sifat faqat to'g'ri asboblar bilan kafolatlanadi. PP-R va PPRCT xususiyatlariga to'liq moslashtirilgan kesgichlar yoriqlarning oldini oladi va chokni ideal holatga keltiradi.</p>",
+      "seoTitle": "Payvandlash va kesish asboblari"
+    },
+    "valves": {
+      "areas": "Sanitariya, Sanoat tarmoqlari, Loyihaviy inshootlar",
+      "advTitle": "Aniq boshqaruv va yopish",
+      "advList": [
+        "Oson ishlash: Bosim ostida ham silliq harakat.",
+        "Mutlaq korroziyasizlik: Zanglamaydigan mexanizmlar.",
+        "Premium komponentlar: DZR latun va yuqori gigiyena."
+      ],
+      "seoText": "K Aqua ventillari tizimdagi suyuqliklarni aniq boshqarish, xavfsiz to'sish va tarmoqni uzoq yillar xizmat ko'rsatishga sozlash imkonini beradi.",
+      "guideTitle": "Amaliy qo'llanma: K Aqua quvurlarini montaj qilish asboblari",
+      "guideText": "<p>Sifat faqat to'g'ri asboblar bilan kafolatlanadi. PP-R va PPRCT xususiyatlariga to'liq moslashtirilgan kesgichlar yoriqlarning oldini oladi va chokni ideal holatga keltiradi.</p>",
+      "seoTitle": "Payvandlash va kesish asboblari",
+      "metaTitle": "Quvur tizimlari uchun PP-R asboblar va aksessuarlar",
+      "metaDesc": "Professional K-Aqua asboblari va aksessuarlarini kashf eting. PP-R va PP-RCT quvur tizimlarini xavfsiz, samarali va uzoq muddatli o'rnatish uchun.",
+      "heroEyebrow": "Nemis muhandisligi",
+      "heroTitle": "Asboblar va Aksessuarlar.",
+      "heroSubtitle": "Mutlaq aniqlik.",
+      "heroDesc": "Ushbu modul butun dunyo bo'ylab eng talabchan loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlarga xizmat qilish uchun eng qat'iy sanoat standartlariga muvofiq ishlab chiqarilgan. Materialning ishdan chiqishi mumkin bo'lmagan joylar uchun.",
+      "heroBtnPrimary": "Loyiha so'rovi",
+      "heroBtnSecondary": "Texnik ma'lumotlar",
+      "bentoEyebrow": "K Aqua Ekotizimi",
+      "bentoTitle": "Global mega loyihalar uchun asboblar.",
+      "bentoLead": "Xalqaro bosh pudratchilar milliardlab dollarlik loyihalarni rejalashtirayotganda va'dalarga emas, balki qattiq dalillar va yuqori aniqlikdagi uskunalarga ishonadilar.",
+      "bento1Title": "Mufali payvandlash apparatlari",
+      "bento1Desc": "20 mm dan 125 mm gacha o'lchamlar uchun. Qattiq qurilish maydonchalarida foydalanish uchun ixcham, mustahkam dizayn.",
+      "bento2Title": "Quvur kesgichlar va qaychilar",
+      "bento2Desc": "Charchoqsiz ishlash va mukammal 90° burchak ostida kesish uchun ergonomik dizayn.",
+      "bento3Title": "Uchma-uch payvandlash mashinalari",
+      "bento3Desc": "Nominal diametri 250 mm gacha bo'lgan quvurlar uchun. Mutlaq takrorlanuvchanlik uchun CNC boshqaruviga ega.",
+      "bento4Title": "Ta'mirlash to'plamlari va Aksessuarlar",
+      "bento4Desc": "Burbul boshoqlari (sverlo), ta'mirlash egarlari (sedlo) va qo'shimcha tarmoqlar (otvod) uchun aylana arra.",
+      "scrollEyebrow": "Chuqur texnologiya",
+      "scrollTitle": "Xatolikka o'rin yo'q.",
+      "scrollLead": "Bizning asbobimizni sertifikatlangan o'rnatuvchilar uchun birinchi raqamli tanlovga aylantirgan texnologik detallarni kashf eting.",
+      "scroll1Title": "Mukammal termodinamika. Har bir payvandlashda.",
+      "scroll1Desc": "Mufali payvandlash apparatlarimiz yuqori aniqlikdagi teflon qoplamali isitish elementlari (matritsalar) bilan jihozlangan. Mikroprotsessorli harorat nazorati hatto global qurilish maydonchalaridagi ekstremal tashqi haroratlarda ham 260°C doimiy payvandlash haroratini kafolatlaydi. Shunday qilib, molekulyar darajada ajralmas, yaxlit ulanish yaratiladi.",
+      "scroll2Title": "CNC boshqaruvli uchma-uch payvandlash.",
+      "scroll2Desc": "Katta nominal diametrlar (250 mm gacha va undan katta) uchun biz CNC boshqaruvli uchma-uch payvandlash mashinalariga tayanamiz. Avtomatik bosim va vaqtni hisoblash inson xatosi manbalarini yo'q qiladi. Har bir payvandlash jarayoni qurilish qabulida to'liq kuzatuvni ta'minlash uchun raqamli ro'yxatga olinadi (protokollanadi). Eng yuqori darajadagi nemis muhandisligi.",
+      "scroll3Title": "Nozik quvur tozalagichlar. Millimetrgacha aniqlikda.",
+      "scroll3Desc": "Tayyorgarlik payvandlashning 80% qismidir. Mexanik va elektr quvurlarni tozalash (zavod) asboblarimiz K Aqua quvurlarining oksid qatlamini mutlaqo bir tekis kesish chuqurligi bilan olib tashlaydi. Bu mikro yoriqlarning oldini oladi va mukammal erish sirtini yaratadi. Avlodlarga xizmat qiladigan asbob.",
+      "scroll4Title": "Aniq kesish uchun Kaltkreissägen (Sovuq doiraviy arra).",
+      "scroll4Desc": "Quvur qaychilari materialni deformatsiya qilishi mumkin. Bizning sanoat sovuq doiraviy arralarimiz mukammal to'g'ri burchakli, qirindisiz (zausenes) kesishni kafolatlaydi. Natija: Hech qanday stress-indikatsiyalangan yoriqlar, bosimning yo'qolishi va payvandlashdan oldin mutlaq parallel sirtlar.",
+      "timelineTitle": "K Aqua Payvandlash Jarayoni",
+      "timelineDesc": "Kesishdan molekulyar erishgacha. 100% zich va texnik xizmat ko'rsatmaydigan quvur tizimlariga olib keladigan standartlashtirilgan jarayon.",
+      "timeline1Year": "1-Bosqich: Materialni tayyorlash",
+      "timeline1Title": "Mukammal kesim.",
+      "timeline1Text": "Silliq, 90 gradusli kesim har bir doimiy ulanishning poydevoridir. Bizning nozik kesgichlarimiz va sovuq doiraviy arralarimiz polipropilenning mikro-tuzilmaviy deformatsiyasiz butunlay tekis yuzani kafolatlaydi.",
+      "timeline2Year": "2-Bosqich: Kalibrlash va Tozalash",
+      "timeline2Title": "Oksid qatlamini olib tashlash.",
+      "timeline2Text": "Payvandlashdan oldin quvur aniq kalibrlanadi va tashqi oksid qatlami bizning maxsus tozalash asboblarimiz (shaver) yordamida millimetrgacha olib tashlanadi. Bu erish jarayoni uchun 100% toza yuzani ta'minlaydi.",
+      "timeline3Year": "3-Bosqich: Termik erish (Fuziya)",
+      "timeline3Title": "Molekulyar erish.",
+      "timeline3Text": "Quvur va fitting bir vaqtning o'zida teflon qoplamali isitish matritsasida roppa-rosa 260°C ga qizdiriladi. K Aqua payvandlash uskunasining mikroprotsessor bilan boshqariladigan termostati shamol yoki ob-havodan qat'i nazar haroratni doimiy ravishda ushlab turadi.",
+      "timeline4Year": "4-Bosqich: Ulanish",
+      "timeline4Title": "Bir umrlik xavfsizlik.",
+      "timeline4Text": "Belgilangan almashtirish vaqti ichida isitiladigan qismlar buramasdan bir-biriga kiritiladi. Sovutish bosqichidan so'ng yangi, mutlaqo bir jinsli qism yaratiladi. 50 yildan ortiq texnik xizmat ko'rsatishsiz (Wartungsfrei) ishlaydi.",
+      "specsTitle": "Sanoat avtoriteti. <br/> Eng kichik detallargacha.",
+      "specsP1": "O'nlab yillar davomida Germaniyaning qoq markazidagi bosh ofisimizda biz hunarmandchilik faxrini eng zamonaviy, to'liq avtomatlashtirilgan ishlab chiqarish texnologiyasi bilan birlashtirib kelamiz.",
+      "specsP2": "Dunyodagi eng qattiq cho'llarda va eng ekstremal iqlim sharoitida bizning materialimiz har kuni o'zini isbotlaydi. Biz butun dunyo ergashadigan standartni o'rnatdik.",
+      "specsList1": "ISO 9001 sertifikatlangan",
+      "specsList2": "A darajali Teflon PTFE qoplamasi",
+      "specsList3": "Raqamli harorat kalibrlash",
+      "ctaTitle": "Murosasiz sifatga tayyormisiz?",
+      "ctaDesc": "Muhandislik guruhimiz bilan keyingi mega loyihangiz haqida suhbatlashing va bizning asboblarimiz namunasini talab qiling.",
+      "ctaBtn": "Loyiha so'rovini boshlash",
+      "hero": {
+        "eyebrow": "Asboblar va Aksessuarlar",
+        "title": "PP-R o'rnatish uchun payvandlash asboblari",
+        "lead": "Mufali payvandlash apparatlari, isitish bobini texnologiyasi va kalibrlash vositalari: K Aqua original asboblari bilan har qanday qurilish maydonchasida standartlarga muvofiq, doimiy germetik payvand choklari yaratiladi."
+      }
+    },
+    "valves": {
+      "areas": "Sanitariya, Sanoat tarmoqlari, Loyihaviy inshootlar",
+      "advTitle": "Aniq boshqaruv va yopish",
+      "advList": [
+        "Oson ishlash: Bosim ostida ham silliq harakat.",
+        "Mutlaq korroziyasizlik: Zanglamaydigan mexanizmlar.",
+        "Premium komponentlar: DZR latun va yuqori gigiyena."
+      ],
+      "seoText": "K Aqua ventillari tizimdagi suyuqliklarni aniq boshqarish, xavfsiz to'sish va tarmoqni uzoq yillar xizmat ko'rsatishga sozlash imkonini beradi.",
+      "guideTitle": "Amaliyot: PP-R Ventillari",
+      "guideText": "<p>Ushbu ventillar yuqori haroratlar va bosim tebranishlarida ham o'z barqarorligini saqlab qoladi.</p>",
+      "seoTitle": "PP-R Ventillar va Armaturalar",
+      "metaTitle": "PP-R Ventillar va Armaturalar | K Aqua",
+      "metaDesc": "Aniq boshqaruv uchun PP-R ventillar va armaturalar. Ichimlik suvi, HLK (Isitish, shamollatish, konditsionerlash) va sanoat uchun korroziyasiz, yuqori chidamli klapanlar.",
+      "heroEyebrow": "Ventillar va Armaturalar",
+      "heroTitle": "Mutlaq nazorat.",
+      "heroSubtitle": "Eng yuqori bosim ostida.",
+      "heroDesc": "Oqim texnologiyasining oliy ligasiga xush kelibsiz. K Aqua klapanlari va armaturalari shunchaki komponentlar emas. Ular global infratuzilmaning sotib olinmas yuragidir. Abadiylik uchun ishlab chiqarilgan.",
+      "heroBtnPrimary": "Texnologiyani so'rash",
+      "heroBtnSecondary": "Arxitekturani kashf eting",
+      "manifestoTitle": "Agar material bo'shashsa, tizim buziladi. <br/><span class=\"text-primary\">Biz bo'shashmaymiz (taslim bo'lmaymiz).</span>",
+      "manifestoP1": "Sanoat oqimlari texnologiyasida ventil (klapan) hech qachon shunchaki suyuqliklar uchun uzgich (vyklyuchatel) emas. Bu kinetik energiya, haddan tashqari bosim, issiqlik kengayishi va kimyoviy agressivlik to'qnashadigan muhim tugundir.",
+      "manifestoP2": "Mana shu yerda oddiy ommaviy tovar haqiqiy muhandislik san'atidan ajralib turadi. Bizning armaturalarimiz kattalashtirilgan o'lchamlarda, o'ta aniqlikda ishlab chiqarilgan va boshqa ishlab chiqaruvchilar \"imkonsiz\" deb ataydigan stsenariylar uchun qurilgan. Bu bizning nazarimizda <span class=\"text-foreground font-bold\">Nemis Muhandisligi (German Engineering)</span> dir.",
+      "scrollEyebrow": "Mukammallik asosi",
+      "scrollTitle": "Xom ashyodan tortib, buzilmas armaturagacha.",
+      "scrollLead": "K Aqua ventilining yaratilish jarayonini kuzatib boring. Issiqlik, bosim va mikroskopik aniqlik orqali o'tadigan murosasiz yo'l.",
+      "scroll1Title": "Benuqson xom ashyo",
+      "scroll1Desc": "Bizning ventillar va armaturalarimiz toza, sanoatda sinovdan o'tgan yuqori unumdor material sifatida o'z hayotini boshlaydi. Qat'iy spektral analitik tekshiruvlar orqali biz freza birinchi marta ishlashidan oldinoq mikrotuzilmaviy zaifliklar umuman yo'qligiga kafolat beramiz. Bu yillar davomida uzluksiz foydalanishda mutlaq korroziyaga qarshilik va mexanik yaxlitlik uchun muzokara qilinmaydigan asosdir.",
+      "scroll2Title": "Yuqori aniqlikdagi CNC ishlov berish",
+      "scroll2Desc": "Har bir alohida qism fabrikamizda eng zamonaviy 5 o'qli CNC ishlov berish markazlarida millimetrning mingdan biridan kam bo'lgan absurd bag'rikenglik (tolerantlik) bilan qattiq materialdan tayyorlanadi. Bu murosasiz aniqlik zichlagich yuzalarining mukammal mos kelishini ta'minlaydi. U oqish xavfini butunlay yo'q qiladi va o'nlab yillar o'tgach ham mutlaqo silliq, ipakdek mayin va eskirishsiz ishlashni kafolatlaydi.",
+      "scroll3Title": "Kavitatsiyasiz oqim",
+      "scroll3Desc": "Ventilning sifati uning ichki oqim profili qandayligiga bog'liq. Eng ilg'or hisoblash oqimi dinamikasi (CFD) yordamida biz ichki konturlarni turbulentlik va kavitatsiyani amalda chiqarib tashlash uchun loyihalashtirdik. Bu butun tizimda bosim yo'qotilishining kamayishini va hatto eng yuqori oqim tezligida ham shovqinni mutlaq minimallashtirishni anglatadi.",
+      "scroll4Title": "100% Yakuniy tekshiruv. Istisnolarsiz.",
+      "scroll4Desc": "Milliardlab dollarlik infratuzilma xavf ostida bo'lganda tasodifiy tekshiruvlar etarli emas. Armatura K Aqua zavodidan chiqib ketishidan oldin, u real yuklanishlardan bir necha baravar yuqori bo'lgan to'liq avtomatlashtirilgan, robotlashtirilgan sinov tsiklidan o'tadi. Shlangli yuqori bosimli sinovlar, geliy-vakuum qochqinlari (utechka) sinovlari va termik zarba sinovlari afsonaviy Nol-xato darajamizni kafolatlaydi.",
+      "showcaseEyebrow": "Ishonchlilik anatomiyasi",
+      "showcaseTitle": "Zaif tomonlar yo'q. <br/> O'lik burchaklar yo'q.",
+      "showcaseP1": "Bizning armaturalarimizning ichki arxitekturasi doimiy ravishda <span class=\"font-semibold\">O'lik hududlarsizlik (Totraumfreiheit)</span> tamoyiliga qaratilgan. Legionella kabi bakteriyalar ko'payishi mumkin bo'lgan turg'unlik zonalari geometrik jihatdan yo'q qilingan.",
+      "showcaseP2": "Suv ventil tanasi bo'ylab mukammal yo'naltirilgan laminar oqimda otilib o'tadi. Massiv o'rindiqlar (Dichtsitze) o'zini o'zi tozalaydi va millioninchi tsikldan keyin ham germetik tarzda yopiladi.",
+      "showcaseList1": "Eng yuqori standartlarga muvofiq sertifikatlangan ichimlik suvi gigiyenasi",
+      "showcaseList2": "Maksimal ish bosimida germetik muhrlash (zichlash)",
+      "showcaseList3": "Ikki qavatli O-ring bilan texnik xizmat ko'rsatilmaydigan mil (shpindel) zichlamasi",
+      "bentoEyebrow": "Texnik xususiyatlar",
+      "bentoTitle": "Ustunlikning yalang'och raqamlari.",
+      "bentoLead": "Marketing iboralari tugagach, ma'lumotlar gapiradi. Ventillarimizni mega loyihalar uchun yakuniy tanlovga aylantiradigan texnik parametrlarni kashf eting.",
+      "bento1Title": "PN25 Doimiy bosim yuklanishi",
+      "bento1Desc": "Standartdan tashqari uzluksiz yuqori bosimli ilovalar uchun ishlab chiqilgan. Devor qalinligi va rezba konstruksiyalari shunchalik massiv yaratilganki, ular hatto haddan tashqari bosim ko'tarilishi va suv bolg'alanishida (gidroudar) ham zarracha bo'shashmaydi. Xavfsizlikning monolit bloki.",
+      "bento2Title": "Termal ustunlik",
+      "bento2Desc": "Muzdek sovuqdan qaynayotgan oqim haroratigacha. Yuqori sifatli material o'zining to'liq elastikligini saqlab qoladi, mo'rtlashmaydi (sinuvchan bo'lib qolmaydi) va issiqlik kengayishiga o'ta samarali bardosh beradi.",
+      "bento3Title": "Kimyoviy qarshilik",
+      "bento3Desc": "Korroziya - bu o'tmish tushunchasi. Bizning armaturalarimiz tuproqning agressiv sharoitlariga, qattiq suvlarga va xlorli dezinfeksiya choralariga qarshi immunitetga ega. Zanglamaydi, chuqur zanglash (Lochfraß) bo'lmaydi.",
+      "bento4Title": "Sanoat ergonomikasi va haptika (sezgi)",
+      "bento4Desc": "Dizayn xom funksionallikka mos keladi. Katta qo'l g'ildiraklari (rucheklar), massiv tutqichlar va nozik ishlangan shpindellar yopish va ochishda, hatto og'ir himoya qo'lqoplarida ham bir zumda, taktil va mutlaqo aniq sezish imkonini beradi.",
+      "timelineEyebrow": "Qiyinchiliklar yo'li.",
+      "timelineLead": "Murosasiz sifat kafolati xronologiyasi. G'oya qanday qilib sanoat afsonasiga aylanadi.",
+      "timeline1Year": "01-Bosqich",
+      "timeline1Title": "Molekulyar seleksiya (tanlash)",
+      "timeline1Text": "Maxsus K Aqua uchun ishlab chiqilgan metall qotishmalari va yuqori unumdor polimerlarni tanlash. Biz mutlaq sudralish qarshiligiga (kriechfestigkeit) va maksimal molekulyar barqarorlikka tayanamiz.",
+      "timeline2Year": "02-Bosqich",
+      "timeline2Title": "CFD Oqimni optimallashtirish",
+      "timeline2Text": "Superkompyuterlar yordamida oqim qarshiligini nolga tushirish uchun ichki oqim kanallari minglab iteratsiyalarda hisoblab chiqiladi.",
+      "timeline3Year": "03-Bosqich",
+      "timeline3Title": "Iqlim kamerasidagi stress-testi",
+      "timeline3Text": "Prototiplar bizning iqlim kameralarimizda 120°C gacha bo'lgan haroratda, 25 bar bosimda va ekstremal kimyoviy eritmalarda oylab uzluksiz yuklanish sinovlaridan o'tadi.",
+      "timeline4Year": "04-Bosqich",
+      "timeline4Title": "Robotlashtirilgan seriyali ishlab chiqarish",
+      "timeline4Text": "Bizning yuqori avtomatlashtirilgan Sanoat 4.0 ishlab chiqarish liniyamizga o'tish. Biz inson xatosi manbalarisiz minimal toleranslarda maksimal takrorlanuvchanlikka erishamiz.",
+      "timeline5Year": "05-Bosqich",
+      "timeline5Title": "Global foydalanish",
+      "timeline5Text": "Dunyodagi eng muhim qurilish maydonchalarida, cho'ldagi mega-loyihalardan tortib ofshor (offshore) obyektlarigacha yetkazib berish. Bizning Dala muhandislari (Field-Engineering) jamoamiz kuzatuvi ostida.",
+      "finalTitle": "Keyingi texnik xizmat ko'rsatish intervali uchun emas, <br/>Avlodlar uchun quring.",
+      "finalDesc": "Tobora tez eskiradigan va arzon zaxira qismlarga tayanadigan dunyoda biz po'latdek mustahkam qarama-qarshi qutb sifatida turibmiz. K Aqua armaturasi o'rnatiladi va keyin unutiladi. Chunki u shunchaki ishlaydi. O'n yilliklar davomida. Haqiqiy sanoat avtoritetiga ishoning.",
+      "ctaTitle": "Mutlaq nazoratga tayyormisiz?",
+      "ctaDesc": "Keyingi mega-loyihangiz spetsifikatsiyalari haqida bosh muhandislarimiz bilan gaplashing. Boshqalar hali tushunmagan muammolar uchun biz yechimlar keltiramiz.",
+      "ctaBtnPrimary": "Texnik konsalting so'rash",
+      "ctaBtnSecondary": "Spetsifikatsiyalar (PDF)",
+      "hero": {
+        "eyebrow": "Ventillar va Armaturalar",
+        "title": "Aniq boshqarish uchun PP-R Ventillari",
+        "lead": "Yopish, tartibga solish, xavfsizlash: PP-R dan tayyorlangan K Aqua armaturalari korroziyasiz gidravlikani ichimlik suvi, isitish, ventilyatsiya, konditsioner (HLK) va sanoat uchun nemis ishlab chiqarish aniqligi bilan birlashtiradi."
+      }
+    },
+    "fittings": {
+      "meta": {
+        "title": "Fittinglar va Shaklli Qismlar | K Aqua",
+        "desc": "PP-R dan tayyorlangan K-Aqua fittinglari: burchaklar, troyniklar, reduksiyalar va mufalar. Nemis muhandisligi tufayli murosasiz zichlik."
+      },
+      "hero": {
+        "eyebrow": "Fittinglar va Shaklli Qismlar",
+        "title": "Doimiy germetik ulanishlar uchun PP-R Fittinglar",
+        "lead": "Burchakdan tortib reduksiyagacha: K Aqua PP-R fittinglari payvandlash jarayonida quvur bilan molekulyar darajada birlashadi. Qistirmalarsiz va zaif tomonlarsiz yaxlit tizim."
+      },
+      "intro": {
+        "eyebrow": "Sanoat avtoriteti",
+        "title": "Xavfsizlik tasodif emas. U hisoblangan.",
+        "lead": "Xalqaro pudratchilar milliardlab dollarlik loyihalarni rejalashtirganda, va'dalarga emas, dalillarga ishonadilar. Biz butun dunyo ergashadigan standartni o'rnatamiz.",
+        "text1": "O'nlab yillar davomida Germaniyaning qoq markazidagi zavodimizda biz hunarmandlik faxrini eng zamonaviy, avtomatlashtirilgan ishlab chiqarish texnologiyasi bilan birlashtirib kelmoqdamiz. Har bir burchak, har bir mufa nemis muhandisligining DNKsini o'zida tashiydi.",
+        "text2": "Bizning PP-R tizimimizdagi makromolekulalarning erib birlashishi zaif joylarsiz quvurlar tarmog'ini yaratadi. Chirishi mumkin bo'lgan rezina halqalar yoki kimyoviy moddalar ta'sirida buziladigan yelimlar yo'q. Quvur va fitting issiqlik yordamida yagona yaxlit bo'lakka aylanadi."
+      },
+      "sticky": {
+        "eyebrow": "Mukammallik arxitekturasi",
+        "title": "Ishonchlilik anatomiyasi.",
+        "lead": "Bizning shaklli qismlarimizni butun dunyo uchun mezonga aylantiradigan fizik va kimyoviy xususiyatlarga chuqur nazar.",
+        "items": [
+          {
+            "title": "Molekulyar struktura",
+            "desc": "Bizning fittinglarimiz yuqori darajada ishlangan PP-R polipropileniga asoslangan. Ekstruziya jarayonidagi aniq harorat-bosim profillari yordamida izotropik kristall strukturaga erishamiz."
+          },
+          {
+            "title": "Termoplastik aniqlik",
+            "desc": "Har bir qism mikrometr aniqligidagi termoplastik bosim ostida qoliplash jarayonidan o'tadi. Bu quvurlar bilan payvandlashda erish indekslarining mutlaqo bir xil bo'lishini ta'minlaydi."
+          },
+          {
+            "title": "Nol xato bag'rikengligi (Tolerantlik)",
+            "desc": "Biz hech narsani tasodifga qoldirmaymiz. Ultratovush yordamida devor qalinligini o'lchash va ichki gidrostatik bosim sinovlari har bir partiya uchun amalga oshiriladi."
+          },
+          {
+            "title": "Kavitatsiyaga qarshilik",
+            "desc": "Fittinglarimizning oqim uchun optimallashtirilgan ichki geometriyasi bosim pasayishini va kavitatsiyani samarali ravishda oldini oladi."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Ishlash ma'lumotlari",
+        "title": "Standartlardan yuqori bo'lgan texnik xususiyatlar.",
+        "lead": "Sanoat standartlarga maqsad sifatida qarasa, biz ularni faqat eng kam minimal talab sifatida ko'ramiz.",
+        "items": [
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "Issiq va sovuq suv uchun plastik quvurlar tizimlariga to'liq moslik."
+          },
+          {
+            "title": "PN 20 / PN 25",
+            "desc": "Hatto kritik haroratlarda ham doimiy yuqori bosimga chidamli."
+          },
+          {
+            "title": "Kimyoviy inertlik",
+            "desc": "Agressiv muhitlarga ajoyib qarshilik. Sanoat uchun pH ga bog'liq bo'lmagan chidamlilik."
+          },
+          {
+            "title": "Akustik damping",
+            "desc": "PP-R materialining elastikligi struktura shovqinini yutadi va oqim shovqinini minimal darajaga tushiradi."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Yaratilish jarayoni",
+        "desc": "Molekulyar xom ashyodan tortib buzilmas komponentgacha.",
+        "items": [
+          {
+            "year": "01-Qadam",
+            "title": "Granulani tanlash",
+            "text": "Evropaning premium zavodlaridan kelgan faqat yuqori toza, oldindan sintez qilingan polipropilen granulalari qabul qilinadi."
+          },
+          {
+            "year": "02-Qadam",
+            "title": "Termik konditsionerlash",
+            "text": "Qolipga quyishdan oldin granulalar qoldiq namlikni yo'qotish va bir jinsli erishni ta'minlash uchun issiqlik bilan barqarorlashtiriladi."
+          },
+          {
+            "year": "03-Qadam",
+            "title": "Yuqori bosimli quyish",
+            "text": "To'liq avtomatlashtirilgan, robotlashtirilgan quyish xonalarida biz materialni ulkan bosim ostida mukammal fittinglarga aylantiramiz."
+          },
+          {
+            "year": "04-Qadam",
+            "title": "Sovutish matritsasi",
+            "text": "Kompyuter orqali boshqariladigan sovutish profili materialdagi ichki kuchlanishlarning oldini oladi va mukammal o'lcham barqarorligini ta'minlaydi."
+          },
+          {
+            "year": "05-Qadam",
+            "title": "Sinov va Logistika",
+            "text": "Har bir partiya raqamli sertifikat oladi. Dunyodagi eng talabchan qurilish maydonchalariga jo'natishga tayyor."
+          }
+        ]
+      },
+      "depth": {
+        "title": "Xizmat muddati > 50 yil. Kafolatlangan.",
+        "text": "Vaqt - bu har qanday material uchun yakuniy stress-testdir. Bizning fittinglarimiz binoning o'zidan uzoqroq xizmat qilish uchun mo'ljallangan. PP-R matritsamizga maxsus antioksidantlar va issiqlik stabilizatorlari qo'shilishi tufayli termal-oksidlanish qarishi sezilarli darajada kechiktiriladi. Bu marketing emas. Bu amaliy polimer fizikasi.",
+        "badge": "100% texnik xizmat ko'rsatishsiz"
+      },
+      "cta": {
+        "title": "Murosasiz sifatga tayyormisiz?",
+        "desc": "Bizning muhandislik jamoamiz bilan bog'laning. Biz nafaqat mahsulot, balki keyingi mega-loyihangiz xavfsizligini ham yetkazib beramiz.",
+        "primary": "Loyiha so'rovini yuborish",
+        "secondary": "Barcha assortimentni ko'rish"
+      }
+    },
+    "pipes": {
+      "meta": {
+        "title": "PP-R & PPRCT Quvur Tizimlari | K Aqua",
+        "desc": "PP-R va PPRCT dan yuqori unumdor quvur tizimlari. Ichimlik suvi, iqlim va sanoat uchun nemis muhandisligi."
+      },
+      "hero": {
+        "eyebrow": "Quvur tizimlari",
+        "title": "d20 dan d630 gacha bo'lgan PP-R & PPRCT quvurlar",
+        "lead": "K Aqua PP-R va PPRCT ko'p qatlamli quvurlari ichimlik suvi, isitish va sanoat uchun: Germaniyada DIN 8077/8078 bo'yicha ishlab chiqarilgan. d20 dan d630 gacha bo'lgan diametrlarda mavjud."
+      },
+      "sticky": {
+        "eyebrow": "Materialshunoslik",
+        "title": "Mukammallikdagi polimer muhandisligi.",
+        "lead": "PP-R va PPRCT quvurlarimizning molekulyar tuzilishi ekstremal termomexanik yuklanishlar uchun optimallashtirilgan. Nemis muhandisligi durdona asari.",
+        "items": [
+          {
+            "title": "PPRCT Ko'p qatlamli (Multilayer) arxitektura",
+            "desc": "Bizning eng so'nggi avlod PPRCT quvurlarimiz integratsiyalashgan shisha tolali qatlamga ega. Bu chiziqli kengayishni standart quvurlarga nisbatan 75% gacha kamaytiradi."
+          },
+          {
+            "title": "Bir jinsli payvandlash",
+            "desc": "Press yoki yelim ulanishlaridan farqli o'laroq, biz polifuzion payvandlashdan foydalanamiz. Quvur va fitting 260°C haroratda birlashadi. Bu 100% oqishsizlikni kafolatlaydi."
+          },
+          {
+            "title": "Mutlaq korroziyaga qarshilik",
+            "desc": "Metall tizimlar past pH yoki yuqori xlorid tarkibi kabi tajovuzkor suv sifatlariga taslim bo'ladi. K Aqua polimer quvurlari to'liq inert (reaksiyaga kirishmaydi)."
+          },
+          {
+            "title": "Termal va akustik izolyatsiya",
+            "desc": "PP-R ning past issiqlik o'tkazuvchanligi tufayli sovutish tizimlarida kondensatsiya sezilarli darajada kechiktiriladi. Bundan tashqari, suv shovqinlari yutiladi."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Nol xato bag'rikengligi",
+        "desc": "Quvurlarimizning har bir santimetri ekstruziya jarayonida nazorat qilinadi. Granuladan tayyor mahsulotgacha: Made in Germany sifati.",
+        "items": [
+          {
+            "year": "01-Qadam",
+            "title": "Premium xom ashyo",
+            "text": "Biz dunyodagi yetakchi polimer ishlab chiqaruvchilardan faqat yuqori toza PP-R va PPRCT granulalarini qayta ishlaymiz."
+          },
+          {
+            "year": "02-Qadam",
+            "title": "Aniq ekstruziya",
+            "text": "Bizning eng zamonaviy ekstruziya liniyalarimiz 3 qatlamli shisha tolali quvurlarni mikrometr aniqligi bilan ishlab chiqaradi."
+          },
+          {
+            "year": "03-Qadam",
+            "title": "Termik konditsionerlash",
+            "text": "Ekstruziyadan so'ng darhol quvurlar asta-sekin soviydi. Bu yumshoq sovutish materiali ichidagi stressni oldini oladi."
+          },
+          {
+            "year": "04-Qadam",
+            "title": "100% Kuzatuvchanlik",
+            "text": "Har bir quvurda partiya va ishlab chiqarish vaqtini ko'rsatuvchi o'chmas lazerli yozuv mavjud."
+          },
+          {
+            "year": "05-Qadam",
+            "title": "Sinov va tasdiqlash",
+            "text": "95°C da 1000 soat davomida gidravlik bosim sinovi. Mahsulot faqat barcha standartlardan o'tgandagina zavodimizni tark etadi."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Texnik xususiyatlar",
+        "title": "Har bir talab uchun o'lcham.",
+        "lead": "d20 uy ulanishlaridan tortib d500 sanoat tarmoqlarigacha. Bizning tizimimiz loyihangiz o'lchamlari bilan birga o'sadi.",
+        "items": [
+          {
+            "title": "d20 dan d500 gacha o'lchamlar",
+            "desc": "Quvurlar va fittinglarning uzluksiz portfeli. Barcha qismlarni bir manbadan yetkazib beramiz."
+          },
+          {
+            "title": "SDR sinflari 6 dan 11 gacha",
+            "desc": "Turli Standart O'lcham Nisbatlari (SDR) orqali PN10 dan PN25 gacha bosim darajalari."
+          },
+          {
+            "title": "Ichimlik suvi gigiyenasi",
+            "desc": "Eng qat'iy Yevropa standartlariga javob beradi. Ta'm va hidsiz."
+          },
+          {
+            "title": "UV-ga chidamli tashqi quvurlar",
+            "desc": "Ekstremal iqlim sharoitlarida ochiq havo inshootlari uchun biz maxsus UV stabillashtirilgan quvurlarni taklif qilamiz."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Loyihangizni mutaxassislarga o'lchatsangiz bo'ladi.",
+        "desc": "Bizga izometriya yoki P&ID rejalarini yuboring. Bizning muhandislik guruhimiz yirik loyihangiz uchun gidravlik hisoblashni o'z zimmasiga oladi.",
+        "primary": "Loyiha so'rovini boshlash"
+      }
+    },
+    "transitionFittings": {
+      "meta": {
+        "title": "O'tish Fittinglari | K Aqua",
+        "desc": "CW617N latun rezbali yuqori chidamli PP-R o'tish fittinglari. Plastmassadan metallga mukammal o'tish uchun."
+      },
+      "hero": {
+        "eyebrow": "O'tish Fittinglari",
+        "title": "Plastmassa va metall o'rtasidagi ko'prik",
+        "lead": "K Aqua o'tish fittinglari PPRCT tizimimizning termal xavfsizligini DZR latunining (CW617N) ulkan chidamliligi bilan birlashtiradi. Armaturalar, nasoslar va metall quvurlar tizimiga ulanishda mutlaq zichlik uchun."
+      },
+      "intro": {
+        "eyebrow": "Materiallar sinergiyasi",
+        "title": "Ikki dunyo. Ajralmas bog'liqlik.",
+        "lead": "Polimerning moslashuvchanligi metallning po'latdek qattiqligi bilan to'qnashganda, ulanish nuqtasi odatda tizimning Axilles tovoniga aylanadi. Lekin bizda emas.",
+        "text1": "Bizning o'tish fittinglarimiz oddiy buraladigan qismlar emas. Latun rezba profili yuqori bosimli quyish jarayonida PP-R/PPRCT matritsasi bilan to'liq qoplanadi. Latunning maxsus shakllantirilgan tishlari yordamida qism buralishga mutlaq chidamli bo'ladi.",
+        "text2": "Suv bolg'asi urilishi (gidroudar), ekstremal harorat tebranishlari yoki rezbani tortish paytidagi shafqatsiz buralish kuchlaridan qat'i nazar, K Aqua o'tish fittingi germetik yopiq qoladi. Bu bozordagi eng kuchli rezbali ulanishdir."
+      },
+      "timeline": {
+        "title": "Ishlab chiqarish texnologiyasi",
+        "desc": "Biz zaif nuqtalarni qanday yo'q qilamiz. Molekulyar bog'lanish jarayoni.",
+        "items": [
+          {
+            "year": "1-Bosqich",
+            "title": "Xom ashyoni qayta ishlash (CW617N)",
+            "text": "Latun 750°C da yuqori aniqlikdagi matritsalarda siqiladi, so'ngra zichlash profilini yaratish uchun mikrometr darajasida CNC mashinalarda kesiladi."
+          },
+          {
+            "year": "2-Bosqich",
+            "title": "Yuzani passivatsiya qilish",
+            "text": "Galvanik korroziyani yo'q qilish uchun rezbali qo'shimchalar elektrolitik ultratovush vannalarida ko'p bosqichli passivatsiya jarayonidan o'tadi."
+          },
+          {
+            "year": "3-Bosqich",
+            "title": "Qolipga quyish (Injection Molding)",
+            "text": "Yuqori bosimli quyish mashinalarida (2000 bar) suyuq PPRCT latunni qamrab oladi. Plastmassa har bir chuqurchani to'liq to'ldiradi."
+          },
+          {
+            "year": "4-Bosqich",
+            "title": "Nazorat ostida sovutish",
+            "text": "Dasturlashtirilgan, bosqichma-bosqich haroratni pasaytirish plastik panjaradagi ichki kuchlanishlarning oldini oladi va fittingning mukammal shaklini saqlaydi."
+          },
+          {
+            "year": "5-Bosqich",
+            "title": "Bosim va buralish sinovi",
+            "text": "120 bargacha bo'lgan bosim testlari va davomiy tebranish sinovlari eng agressiv sanoat sharoitidagi 50 yillik yuklanishni taqsimlaydi."
+          }
+        ]
+      },
+      "stats": {
+        "eyebrow": "Sertifikatlar va parametrlar",
+        "title": "Qat'iy dalillar.",
+        "lead": "Biz faqat standartlarga muvofiq sinov o'tkazmaymiz. Biz ularni aniqlaymiz. Bizning ichki sinov protokollarimiz DVGW, SKZ va ISO talablaridan 300% gacha oshadi.",
+        "items": [
+          {
+            "label": "Ish bosimi (PN)",
+            "value": "25 bar gacha",
+            "sub": "20°C suvda"
+          },
+          {
+            "label": "Harorat spektri",
+            "value": "-20°C dan +95°C gacha",
+            "sub": "Maksimal yuklanish 110°C gacha"
+          },
+          {
+            "label": "Rezba standartlari",
+            "value": "ISO 7/1, ISO 228",
+            "sub": "Ichki va tashqi rezba"
+          },
+          {
+            "label": "Xizmat muddati",
+            "value": "> 50 yil",
+            "sub": "Sanoat sharoitida"
+          },
+          {
+            "label": "Latun qotishmasi",
+            "value": "CW617N / CW614N",
+            "sub": "DZR / Ruxsizlanishga qarshi"
+          },
+          {
+            "label": "Plastik",
+            "value": "PPRCT / PP-R",
+            "sub": "Ichimlik suvi uchun sertifikatlangan"
+          },
+          {
+            "label": "Ichimlik suviga muvofiqlik",
+            "value": "UBA, DVGW",
+            "sub": "100% qo'rg'oshinsiz variantlar"
+          },
+          {
+            "label": "Sifat nazorati",
+            "value": "ISO 9001:2015",
+            "sub": "100% partiya kuzatuvi"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Loyihangizdagi eng kuchli bog'lanish.",
+        "desc": "Sinalgan nemis muhandisligiga tayanib ish ko'ring. Texnik ma'lumotlar varaqlari, BIM modellari yoki individual loyiha maslahatlari uchun biz bilan bog'laning.",
+        "primary": "Loyiha so'rovini boshlash",
+        "secondary": "CAD va texnik xususiyatlar"
+      }
+    },
+    "hero": {
+      "eyebrow": "TIZIM ARXITEKTURASI",
+      "title1": "K-AQUA: SUVNING MUTLAQ",
+      "title2": "ARXITEKTURASI.",
+      "desc": "Molekulyar darajadagi aniqlik. Abadiylik uchun yaratilgan. Quvurlarimiz, fittinglarimiz va klapanlarimiz sanoat va fuqarolik suv infratuzilmasi uchun global standartni belgilaydi. Murosaga o'rin yo'q. Faqat mukammallik."
+    },
+    "sticky": {
+      "eyebrow": "MAHSULOTLAR SPEKTRI",
+      "title": "MUROSASIZ MUHANDISLIK.",
+      "lead": "Har bir komponent yopiq, mukammal tizimning bir qismidir. Kiritish nuqtasidan boshlab oxirgi nuqtagacha suv, kimyoviy moddalar va gazlar oqimini mislsiz ishonchlilik bilan nazorat qilamiz.",
+      "items": [
+        {
+          "title": "PPR-QUVUR TIZIMLARI: BUZILMAS QON TOMIRLARI",
+          "desc": "K Aqua PPR (Polypropylene Random Copolymer) tizimi zamonaviy suyuqlik tashishning asosi hisoblanadi. Bir jinsli yaxlitlik sifatida issiqlik yordamida birlashtirilgan, u ekstremal bosimlarga, kimyoviy ta'sirlarga va termik yuklanishlarga bardosh beradi. Hech qachon oqmaydigan, zanglamaydigan va o'nlab yillar yashaydigan tizim."
+        },
+        {
+          "title": "FITTINGLAR: GEOMETRIK MUKAMMALLIK",
+          "desc": "Har bir K Aqua fittingi suyuqliklar mexanikasi durdona asaridir. Kamaytirilgan kavitatsiya, optimallashtirilgan devor qalinligi va mikrometr darajasidagi aniq toleranslar minimal bosim yo'qotilishini va maksimal tizim xavfsizligini ta'minlaydi."
+        },
+        {
+          "title": "VENTILLAR VA ARMATURALAR: MUTLAQ NAZORAT",
+          "desc": "Dunyodagi eng qattiq sharoitlarda ishlaydigan sanoat yopish va boshqarish texnologiyasi. Bizning sharli jo'mraklarimiz (sharoviy kran), qiya o'rindiqli ventillarimiz ish unumdorligini yo'qotmasdan o'n minglab davrlarga sinovdan o'tgan. Maksimal yuklanishda maksimal germetiklik."
+        },
+        {
+          "title": "KO'P QATLAMLI QUVURLAR: MATERIALLAR SINERGIYASI",
+          "desc": "Alyuminiy yuqori samarali polimer bilan uchrashganda. K Aqua ko'p qatlamli kompozit quvurlari metallning mexanik barqarorligini plastmassaning moslashuvchanligi va kimyoviy qarshiligi bilan birlashtiradi. 100% kislorod o'tkazmaydi. Minimal chiziqli kengayish. Murakkab iqlim tizimlari uchun yakuniy yechim."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "ISHLASH MA'LUMOTLARI",
+      "title": "TEXNOLOGIK USTUNLIK. MA'LUMOTLAR BILAN TASDIQLANGAN.",
+      "lead": "K Aqua tizimlari nafaqat quvurlardir. Ular suyuqliklar uchun yuqori unumdor tarmoqlardir. Germaniyaning eng qat'iy sanoat standartlariga muvofiq ishlab chiqilgan.",
+      "items": [
+        {
+          "title": "Termik termofuziya",
+          "desc": "Gomogen payvandlash choklari. Material bir butun bo'ladi. Hech qanday yelim, uzilishi mumkin bo'lgan rezina halqalar yo'q. Molekulyar asosda oqish xavfidan 100% xavfsizlik."
+        },
+        {
+          "title": "Korroziya immuniteti",
+          "desc": "Nuqtali zanglash (Lochfraß), zang va elektrokimyoviy korroziyaga mutlaqo chidamli. Tashilayotgan muhit eng sof holatida qoladi."
+        },
+        {
+          "title": "Oqimni optimallashtirish",
+          "desc": "Silliq devorli texnologiya (g'adir-budurlik 0.007 mm) minimal ishqalanish koeffitsienti bilan cho'kmalar paydo bo'lishining oldini oladi va bosim yo'qotilishini keskin kamaytiradi."
+        },
+        {
+          "title": "Bosim qarshiligi PN25+",
+          "desc": "Ko'p qavatli binolar, sanoat inshootlari va muhim infratuzilmalarda maksimal kuchlanish uchun mo'ljallangan. 50 yil davomida muammosiz ishlashga kafolatlangan."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "O'RNATISH JARAYONI. QAYTA DEFINITSIYALANDI.",
+      "desc": "Tezroq. Xavfsizroq. Tozaroq. Bizning tizimimiz o'rnatish vaqtini keskin qisqartiradi, xato manbalarini minimallashtiradi. Samaradorlik xronologiyasi.",
+      "items": [
+        {
+          "year": "01-BOSQICH",
+          "title": "REJALASHTIRISH VA O'LCHAMLARNI BELGILASH",
+          "text": "Aniq gidravlik hisoblash va quvur diametrlarini loyihalash. Oqimning yuqori xususiyatlari orqali ortiqcha kattalashtirishdan saqlanish."
+        },
+        {
+          "year": "02-BOSQICH",
+          "title": "KESISH VA TAYYORLASH",
+          "text": "Quvurlarni sovuq va qirindisiz kesish. Mutlaq toza kesilgan qirralar ifloslanish xavfisiz mukammal payvandlashga tayyorlashni kafolatlaydi."
+        },
+        {
+          "year": "03-BOSQICH",
+          "title": "ISITISH ELEMENTI BILAN PAYVANDLASH",
+          "text": "Asbob quvur va fittingni roppa-rosa 260°C gacha qizdiradi. Sanoqli soniyalarda ajralmas molekulyar bog'lanish yaratiladi."
+        },
+        {
+          "year": "04-BOSQICH",
+          "title": "BOSIM SINOVI VA QABUL QILISH",
+          "text": "Tizim ekstremal sinov bosimi ostiga olinadi. Oqishlar (suyulishlar) uchun hech qanday tolerantlik (bag'rikenglik) yo'q. K Aqua birinchi tomchidan boshlab 100% xavfsizlikni ta'minlaydi."
+        },
+        {
+          "year": "05-BOSQICH",
+          "title": "O'NLAB YILLAR DAVOMIDA FOYDALANISH",
+          "text": "Texnik xizmat ko'rsatilmaydi (Wartungsfrei). Shovqinsiz. Tizim dunyodagi eng zamonaviy binolar fonida beqiyos ishonchlilik bilan ishlaydi."
+        }
+      ]
+    }
   }
 }
