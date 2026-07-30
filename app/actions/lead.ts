@@ -1,8 +1,11 @@
 "use server";
 import { headers } from "next/headers";
+import { Resend } from "resend";
 import nodemailer from "nodemailer";
 
 export interface LeadResult { ok: boolean; error?: string }
+
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] as string));
@@ -61,7 +64,24 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
     <p>Ziel: Rückruf innerhalb von Minuten.</p>
   `;
 
-  if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) {
+  if (resend) {
+    try {
+      const { error } = await resend.emails.send({
+        from: process.env.RESEND_FROM || "K-Aqua Website <noreply@k-aqua.de>",
+        to: "info@k-aqua.de",
+        replyTo: email,
+        subject: `Neue Anfrage: ${interest || "Kontakt"} (${page})`,
+        html: htmlBody,
+      });
+      if (error) {
+        console.error("Lead-E-Mail (Resend) API Error", error);
+        return { ok: false, error: "send" };
+      }
+    } catch (error) {
+      console.error("Lead-E-Mail (Resend) Exception", error);
+      return { ok: false, error: "send" };
+    }
+  } else if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) {
     try {
       const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
