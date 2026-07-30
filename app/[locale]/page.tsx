@@ -135,7 +135,7 @@ export default async function Page({ params }: Props) {
 
   const webPageJsonLd = await getWebPageJsonLd(locale, "home");
   const messages = await getMessages();
-  const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers', 'kontaktBlocks', 'kontaktForm']);
+  const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers', 'kontaktBlocks', 'kontaktForm', 'nav']);
 
   return (
     <NextIntlClientProvider messages={pageMessages}>
@@ -463,7 +463,7 @@ export default async function Page({ params }: Props) {
 
       {/* Signature: Edge Index */}
       <EdgeIndex />
-      <DynamicSeoBlock title={`${tHome("h1a")} ${tHome("h1b")}`} h1={tHome("heroH1")} locale={locale} path="/" />
+      <DynamicSeoBlock title={`${tHome("h1a")} ${tHome("h1b")}`} h1={`${tHome("h1a")} ${tHome("h1b")}`} locale={locale} path="/" />
     </div>
     </NextIntlClientProvider>
   );
