@@ -16,6 +16,7 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { StatNumber } from "@/components/ui/StatNumber";
 import { CTABand } from "@/components/ui/CTABand";
+import { KontaktForm } from "@/components/kontakt/KontaktForm";
 import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
 import { Droplet, Thermometer, Factory, Layers, Flame, Wrench } from "@/components/ui/icon";
@@ -180,20 +181,31 @@ export default async function LoesungenPage({ params }: Props) {
         <section className="py-32 md:py-48 bg-background relative overflow-hidden border-t border-card-border">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,rgba(var(--primary),0.05)_0%,transparent_60%)] pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 relative z-10">
-            <CTABand className="py-20 md:py-32">
-              <div className="max-w-4xl flex flex-col items-start gap-8">
-                <span className="font-heading font-bold text-sm tracking-widest uppercase text-primary-foreground/70">
-                  {t('cta.eyebrow')}
-                </span>
-                <h2 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-black text-inverse-foreground tracking-tighter leading-[1.05]">
-                  {t('cta.title1')} <br/> <span className="text-primary-foreground opacity-90">{t('cta.title2')}</span>
-                </h2>
-                <p className="text-2xl text-inverse-foreground/80 leading-relaxed font-light max-w-2xl">
-                  {t('cta.desc')}
-                </p>
-                <div className="flex flex-wrap gap-6 mt-8">
-                  <Button variant="inverse" size="lg" href="/kontakt">{t('cta.button1')}</Button>
-                  <Button variant="ghost" size="lg" href="/produkte" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-surface/10 hover:border-inverse-foreground/50">{t('cta.button2')}</Button>
+            <CTABand className="py-20 md:py-32" fullWidth>
+              <div className="flex flex-col lg:flex-row gap-16 lg:items-center justify-between w-full">
+                <div className="max-w-xl flex flex-col items-start gap-8">
+                  <span className="font-heading font-bold text-sm tracking-widest uppercase text-primary-foreground/70">
+                    {t('cta.eyebrow')}
+                  </span>
+                  <h2 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-black text-inverse-foreground tracking-tighter leading-[1.05]">
+                    {t('cta.title1')} <br/> <span className="text-primary-foreground opacity-90">{t('cta.title2')}</span>
+                  </h2>
+                  <p className="text-2xl text-inverse-foreground/80 leading-relaxed font-light">
+                    {t('cta.desc')}
+                  </p>
+                  <div className="flex flex-wrap gap-6 mt-8">
+                    <Button variant="inverse" size="lg" href="/kontakt">{t('cta.button1')}</Button>
+                    <Button variant="ghost" size="lg" href="/produkte" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-surface/10 hover:border-inverse-foreground/50">{t('cta.button2')}</Button>
+                  </div>
+                </div>
+                
+                <div className="w-full lg:w-[450px] shrink-0 bg-background/5 p-8 rounded-2xl border border-inverse-foreground/10 text-inverse-foreground">
+                   <KontaktForm 
+                     slug="loesungen" 
+                     interest="Projekt-Initiierung" 
+                     done="Vielen Dank! Unsere Ingenieure werden Ihre Spezifikationen prüfen und sich in Kürze bei Ihnen melden." 
+                     layout="stack" 
+                   />
                 </div>
               </div>
             </CTABand>

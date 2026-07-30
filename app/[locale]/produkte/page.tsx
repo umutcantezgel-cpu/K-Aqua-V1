@@ -178,7 +178,7 @@ export default async function ProduktePage({ params }: Props) {
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep />
       <CatalogBrowser />
-      <DynamicSeoBlock title={title} h1={t("sysTitle")} locale={locale} path="/produkte" />
+      <DynamicSeoBlock title={meta[0] ?? "Produkte - K-Aqua"} h1={t("sysTitle")} locale={locale} path="/produkte" />
     </div>
     </NextIntlClientProvider>
   );
