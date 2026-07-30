@@ -1,0 +1,97 @@
+{
+  "electrofusion-machine": {
+    "seo_p1": "Das Elektroschweißgerät (Electrofusion Machine) steuert den vollautomatischen Verschweißungsprozess von Heizwendelmuffen durch elektrische Widerstandserwärmung.",
+    "seo_p2": "Der intelligente Mikroprozessor liest den Barcode des Fittings per Scanner ein und berechnet automatisch die exakte Spannung und Schweißzeit in Abhängigkeit der Umgebungstemperatur.",
+    "seo_p3": "Essentiell für Reparaturen in extrem engen Schächten, nachträgliche Anbindungen oder Erdverlegungen, wo klassisches Muffenschweißen aus Platzgründen unmöglich ist.",
+    "faq": [
+      {
+        "q": "Wie liest die Maschine die Schweißparameter?",
+        "a": "Jede Heizwendelmuffe verfügt über einen Barcode, den der Anwender mit dem angeschlossenen Scanner einliest. Die Maschine stellt sich vollautomatisch ein."
+      },
+      {
+        "q": "Gleicht die Maschine Temperaturschwankungen auf der Baustelle aus?",
+        "a": "Ja, ein Umgebungssensor misst die Temperatur und passt die Schweißdauer automatisch an (im Winter länger, im Sommer kürzer)."
+      },
+      {
+        "q": "Muss das Rohr vor der Elektroschweißung geschält werden?",
+        "a": "Zwingend! Die Oxidschicht auf dem PP-R Rohr muss im Schweißbereich mit einem speziellen Schälgerät mechanisch entfernt werden."
+      }
+    ]
+  },
+  "welding-tool-for-weld-in-saddles": {
+    "seo_p1": "Das Sattel-Schweißwerkzeug (Welding Tool for Weld-in Saddles) ist speziell für die Montage von Einschweißsätteln an bestehende PP-R Rohre konstruiert.",
+    "seo_p2": "Es besteht aus einem konkav geformten Heizdorn für die Rohrwandung und einer konvexen Heizbuchse für den Sattel, beide hochwertig teflonbeschichtet.",
+    "seo_p3": "Es erwärmt exakt die benötigte Fläche auf dem Basisrohr, um den Sattel homogen und unlösbar mit dem Leitungssystem zu verschmelzen.",
+    "faq": [
+      {
+        "q": "Warum hat das Werkzeug eine konkave und eine konvexe Seite?",
+        "a": "Die konkave (gewölbte) Seite erwärmt das runde Außenrohr, während die konvexe Seite exakt den sattelförmigen Abzweig auf Schmelztemperatur bringt."
+      },
+      {
+        "q": "Passt ein Werkzeug für alle Rohre?",
+        "a": "Nein, Sie benötigen für jede Hauptrohr-Abzweig-Kombination (z. B. 63 mm auf 20 mm) ein exakt passendes Sattel-Schweißwerkzeug."
+      },
+      {
+        "q": "Wie wird das Werkzeug auf dem Schweißgerät montiert?",
+        "a": "Es wird wie ein normaler Heizdorn mit einer Inbusschraube direkt auf das Heizschwert des K Aqua Handschweißgeräts geschraubt."
+      }
+    ]
+  },
+  "drilling-tool-for-weld-in-saddle": {
+    "seo_p1": "Der Spezialbohrer für Einschweißsättel (Drilling Tool for Weld-in Saddle) ist das präzise Vorbereitungswerkzeug für Sattelabzweige.",
+    "seo_p2": "Er bohrt nicht nur das exakt erforderliche Loch in das wasserführende Hauptrohr, sondern fräst gleichzeitig den Randbereich für die nachfolgende Schweißung sauber aus.",
+    "seo_p3": "Ein extrem scharfes und sauberes Bohrloch ist kritisch, um beim späteren Einschweißen des Sattels keine Kunststoffspäne in das Rohrnetz gelangen zu lassen.",
+    "faq": [
+      {
+        "q": "Warum kann ich keinen normalen Holz- oder Metallbohrer verwenden?",
+        "a": "Standardbohrer reißen den Kunststoff ein und erzeugen unkontrollierte Späne. Unser Spezialbohrer fräst das Loch und fängt den Span sauber ab."
+      },
+      {
+        "q": "Passt der Bohrer in einen handelsüblichen Akkuschrauber?",
+        "a": "Ja, der Bohrer verfügt über einen genormten Sechskantschaft, der in jedes handelsübliche Bohrfutter passt."
+      },
+      {
+        "q": "Muss das Loch entgratet werden?",
+        "a": "Nein, der Fräskopf des Bohrers ist so konstruiert, dass er die Lochkante automatisch für die nachfolgende Schweißung vorbereitet und glättet."
+      }
+    ]
+  },
+  "welding-tool-for-repairing-plug": {
+    "seo_p1": "Das Reparatur-Schweißwerkzeug (Welding Tool for Repairing Plug) ist ein hochspezialisierter Aufsatz für die Instandsetzung angebohrter Leitungen.",
+    "seo_p2": "Dieser konische Heizstift erwärmt gezielt das Innere eines beschädigten Bohrlochs und gleichzeitig den entsprechenden PP-R-Reparaturstopfen auf Schmelztemperatur.",
+    "seo_p3": "Er ist die Rettung auf jeder Baustelle, um versehentlich angebohrte Rohre (z. B. bei der Wandmontage) schnell und nachweislich dicht wieder zu verschließen.",
+    "faq": [
+      {
+        "q": "Wie genau funktioniert der Reparaturstift?",
+        "a": "Das konische Werkzeug schmilzt das Bohrloch auf. Danach wird der ebenfalls erwärmte PP-R Reparaturstopfen in das Loch gedrückt und verschmilzt dauerhaft."
+      },
+      {
+        "q": "Ist die reparierte Stelle wirklich sicher?",
+        "a": "Ja, es handelt sich nicht um eine bloße Verklebung, sondern um eine molekulare Verschweißung, die denselben Druck aushält wie das unbeschädigte Rohr."
+      },
+      {
+        "q": "Welche Bohrdurchmesser können repariert werden?",
+        "a": "Das Werkzeug ist ideal für typische Bohrunfälle (Dübellöcher) im Bereich von 7 mm bis 11 mm."
+      }
+    ]
+  },
+  "repairing-plug": {
+    "seo_p1": "Der Reparaturstopfen (Repairing Plug) ist ein massiver PP-R-Stift, der in Kombination mit dem speziellen Schweißwerkzeug Bohrlochnotfälle behebt.",
+    "seo_p2": "Er besteht aus dem identischen Material wie das K Aqua Rohrsystem und verschmilzt beim Einsetzen in das beschädigte Rohr zu einer absolut homogenen Masse.",
+    "seo_p3": "Statt Wände großflächig aufzustemmen, um Rohrabschnitte zu ersetzen, wird das Loch einfach verschweißt. Die reparierte Stelle ist danach genauso druckfest wie das Originalrohr.",
+    "faq": [
+      {
+        "q": "Aus welchem Material besteht der Reparaturstopfen?",
+        "a": "Er besteht zu 100% aus hochwertigem Polypropylen Random Copolymer (PP-R) Typ 3, genau wie unsere K Aqua Rohrsysteme."
+      },
+      {
+        "q": "Muss der Stopfen nach dem Einschweißen abgeschnitten werden?",
+        "a": "Ja, nachdem die Schweißstelle vollständig abgekühlt ist, wird das überstehende Ende des Stopfens bündig mit der Rohrwandung abgeschnitten."
+      },
+      {
+        "q": "Kann ich den Stopfen bei gefülltem Rohrnetz verwenden?",
+        "a": "Nein, das Wasser muss am betroffenen Strang vollständig abgestellt und das Rohr im Bereich des Bohrlochs trockengelegt sein."
+      }
+    ]
+  }
+}

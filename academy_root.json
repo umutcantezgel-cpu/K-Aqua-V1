@@ -1,0 +1,77 @@
+{
+  "eyebrow": "K-Aqua Academy",
+  "title1": "Wissen, das",
+  "titleGrad": "verbindet.",
+  "lead": "Vier PP-R Schweißtechniken im Video und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das in der K-Aqua Academy verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
+  "videos": [
+    {
+      "t": "Muffenschweißen von Hand",
+      "s": "bis d63: Handschweißgerät"
+    },
+    {
+      "t": "Muffenschweißen mit Maschine",
+      "s": "mittlere Dimensionen"
+    },
+    {
+      "t": "Elektroschweißen",
+      "s": "Heizwendelfittings"
+    },
+    {
+      "t": "Stumpfschweißen",
+      "s": "Großdimensionen bis d630"
+    }
+  ],
+  "quizEyebrow": "Schweißmeister-Quiz",
+  "quizTitle": "Fünf Fragen. Ein Abzeichen.",
+  "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
+  "start": "Quiz starten",
+  "qLabel": "Frage",
+  "quiz": [
+    {
+      "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
+      "o": [
+        "Muffenschweißen von Hand",
+        "Stumpfschweißen (Butt Fusion)",
+        "Kleben"
+      ]
+    },
+    {
+      "q": "Wofür steht SDR bei Rohrsystemen?",
+      "o": [
+        "Standard Dimension Ratio (d/s)",
+        "Static Density Rating",
+        "Sicherheits-Druck-Reserve"
+      ]
+    },
+    {
+      "q": "Was unterscheidet PPRCT von klassischem PP-R?",
+      "o": [
+        "Niedrigerer Preis",
+        "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
+        "Metallische Verstärkung"
+      ]
+    },
+    {
+      "q": "Welchen Recycling Code trägt Polypropylen?",
+      "o": [
+        "Code 3",
+        "Code 5",
+        "Code 7"
+      ]
+    },
+    {
+      "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
+      "o": [
+        "aus einem Heizelement-Spiegel",
+        "aus eingebetteten Heizwendeln im Fitting",
+        "aus Heißluft"
+      ]
+    }
+  ],
+  "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
+  "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
+  "resLow": "Die Videos oben helfen. Danach klappt der Meister.",
+  "retry": "Nochmal versuchen",
+  "titlePerfect": "Schweißmeister",
+  "titleGood": "Schweiß-Geselle"
+}

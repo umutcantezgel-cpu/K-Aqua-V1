@@ -1,0 +1,839 @@
+,
+  "products": {
+  "narrative": {
+    "sizeRange": "Este componente se fabrica en un amplio rango de tamaños, desde {minSize} mm hasta {maxSize} mm, asegurando máxima versatilidad en diversos escenarios de instalación.",
+    "sizeSpecific": "Este componente está diseñado con precisión para un tamaño específico de {minSize} mm, ofreciendo un rendimiento enfocado en arquitecturas de tuberías especializadas.",
+    "weights": "La eficiencia de materiales se optimiza en toda la gama, con pesos que varían de {minWeight} kg a {maxWeight} kg según la dimensión seleccionada.",
+    "packaging": "La logística se optimiza mediante unidades de embalaje estandarizadas, diseñadas para un transporte global seguro y un manejo eficiente en el lugar de trabajo.",
+    "rowCount": "Nuestro portafolio técnico ofrece esta configuración en {count} variantes dimensionales altamente especializadas, escaladas con precisión para satisfacer las demandas hidráulicas y mecánicas de los sistemas modernos de transporte de fluidos.",
+    "intro": "El producto {title} forma parte fundamental de las soluciones de gestión de fluidos de alto rendimiento de K-Aqua. Catalogada oficialmente bajo los números de artículo {codes}, cada variante pasa por estrictos protocolos de control de calidad en nuestras instalaciones de producción en Alemania antes de su envío.",
+    "outro": "Aprovechando técnicas avanzadas de procesamiento de polímeros, la precisión geométrica de {title} garantiza características de flujo óptimas, minimiza las caídas de presión y elimina por completo el riesgo de incrustaciones o corrosión durante toda su vida útil operativa. Esta dedicación inquebrantable a la ciencia de los materiales asegura que cada conexión mantenga su integridad absoluta incluso bajo extremas fluctuaciones térmicas y de presión. Ya sea en torres residenciales, instalaciones críticas de atención médica o complejos entornos de procesamiento industrial, este producto ofrece una fiabilidad libre de mantenimiento en la que ingenieros e instaladores pueden confiar ciegamente."
+  },
+  "uniqueProductContext": "El producto {title} es una parte esencial de la gama {category} de K-Aqua. Diseñado para una máxima durabilidad e integración perfecta, cumple con los más altos estándares internacionales para aplicaciones modernas de tuberías y plomería. Puede identificar y pedir este producto específico utilizando el/los número(s) de artículo: {codes}. Para obtener documentación adicional o asistencia, comuníquese con nuestro equipo técnico.",
+  "heroDesc": "Professional piping and fitting system for the highest demands in drinking water and climate technology. Guaranteed 100% leak-free and durable.",
+  "articleNumbers": "Article numbers:",
+  "technicalSpecs": "Technical Data",
+  "eyebrow": "Products",
+  "videoGuide": "Video tutorial de K-Aqua",
+  "localAvailability": "Disponibilidad Local",
+  "localDesc": "Encuentra distribuidores locales, aprobaciones específicas y estándares para tu región.",
+  "allMarkets": "Ver todos los más de 50 mercados",
+  "title1": "PP-R/PP-RCT pipes & fittings for",
+  "titleGrad": "drinking water.",
+  "lead": "A complete piping system for hot and cold drinking water: from pipe to fitting to welding technology.",
+  "ctaCatalog": "Product catalogue (PDF)",
+  "ctaVideos": "Installation videos",
+  "sysEyebrow": "The System",
+  "sysTitle": "Four building blocks, one system.",
+  "range": [
+    {
+      "t": "Pipes: mono & multilayer",
+      "d": "Monolayer and glass-fibre reinforced multilayer pipes in SDR 6, 7.4, 9, 11 and 17. Dimensions from 20 mm to 630 mm."
+    },
+    {
+      "t": "Fittings & valves",
+      "d": "Fittings from 20 mm to 315 mm, complemented by valves, unions and transition pieces."
+    },
+    {
+      "t": "Welding technology & tools",
+      "d": "Cutting tools, welding devices and welding machines for socket, butt and electrofusion welding."
+    },
+    {
+      "t": "Hot & cold water",
+      "d": "Designed for drinking water: hot and cold: with high temperature and pressure resistance over decades."
+    }
+  ],
+  "techEyebrow": "Technical Data",
+  "techTitle": "Dimensions & pressure classes",
+  "techLead": "Depending on pipe type from 20 mm to 630 mm: fittings up to 315 mm.",
+  "ctaFeatures": "Product features (PDF)",
+  "tableHead": [
+    "Component",
+    "Dimensión",
+    "Pressure classes"
+  ],
+  "tableRows": [
+    [
+      "Monolayer pipes",
+      "20: 630 mm",
+      "SDR 6 / 7.4 / 9 / 11 / 17"
+    ],
+    [
+      "Multilayer pipes (GF-reinforced)",
+      "20: 630 mm",
+      "SDR 6 / 7.4 / 9 / 11 / 17"
+    ],
+    [
+      "Fittings",
+      "20: 315 mm",
+      "system-compatible"
+    ],
+    [
+      "Valves & unions",
+      "system-dependent",
+      "-"
+    ],
+    [
+      "Welding technology & tools",
+      "all dimensions",
+      "-"
+    ]
+  ],
+  "seoArticle": {
+    "pipes": {
+      "areas": "Instalación de agua potable, calefacción, climatización, sistemas industriales, construcción naval",
+      "advTitle": "Tecnología de tuberías superior para cualquier proyecto",
+      "advList": [
+        "Sin corrosión: 100% resistente a la oxidación y picaduras.",
+        "Baja pérdida de presión: La superficie interna extremadamente lisa minimiza la fricción y ahorra energía de bombeo.",
+        "Larga vida útil: Garantizado por más de 50 años sin mantenimiento en uso continuo.",
+        "Reducción de ruido: Excelente aislamiento acústico contra el ruido de flujo.",
+        "Higiénico: Cumple con los más estrictos estándares internacionales de agua potable (DVGW, KIWA)."
+      ],
+      "seoText": "Nuestras tuberías de alto rendimiento se fabrican en Waldsolms bajo los más altos estándares de calidad. La combinación de materiales PP-R y PP-RCT proporciona una excepcional resistencia a la temperatura y presión. Ya sea en servicios de construcción, ingeniería de plantas industriales o sistemas de refrigeración complejos, este sistema de tuberías ofrece la máxima seguridad y eficiencia. La tecnología de soldadura simple y segura garantiza conexiones absolutamente libres de fugas.",
+      "guideTitle": "Guía completa: Planificación e instalación de sistemas de tuberías K Aqua PP-R y PPRCT",
+      "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <strong>PP-R und PPRCT Rohrsysteme</strong> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau: K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><strong>Erhöhter Hydraulikdurchfluss:</strong> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><strong>Reduziertes Rohrgewicht:</strong> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><strong>Höhere Druckreserven:</strong> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K): was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><strong>Weniger Dehnungsausgleicher:</strong> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><strong>Größere Befestigungsabstände:</strong> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><strong>Formstabile Verlegung:</strong> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><strong>Druckprüfung:</strong> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><strong>Wärmedämmung:</strong> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><strong>UV-Schutz:</strong> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
+      "seoTitle": "Resumen de Sistemas de Tuberías PP-R y PPRCT",
+      "faq": [
+        {
+          "q": "¿Qué diferencia al PPRCT del PP-R convencional en los sistemas de tuberías?",
+          "a": "El PPRCT (Copolímero Aleatorio de Polipropileno con resistencia a la Temperatura de Cristalinidad Modificada) tiene una estructura cristalina especialmente modificada que permite una mayor resistencia a la presión a temperaturas de funcionamiento elevadas. Esto permite utilizar tuberías de paredes más delgadas a la misma presión nominal, lo que aumenta el diámetro interior y la capacidad de flujo hidráulico hasta en un 17 %."
+        },
+        {
+          "q": "¿Cómo reduce la tecnología de compuestos reforzados K-Fiber la expansión térmica lineal?",
+          "a": "Nuestras tuberías K-Fiber tienen una capa intermedia integrada de polipropileno reforzado con fibra de vidrio. Esta capa estabiliza mecánicamente la tubería y reduce el coeficiente de expansión a aproximadamente 0,035 mm/(m·K). Esto corresponde a una reducción de la expansión térmica lineal del 75 % en comparación con las tuberías de plástico estándar."
+        },
+        {
+          "q": "¿Están certificados los sistemas de tuberías K Aqua PP-R para agua potable?",
+          "a": "Sí, los sistemas de tuberías K Aqua cumplen con los requisitos higiénicos y de prueba más estrictos de los organismos de certificación internacionales como DVGW, KIWA y WRAS. El material es completamente inofensivo, sin sabor ni olor, y previene eficazmente la formación de cal y biopelículas."
+        },
+        {
+          "q": "¿Cómo se realiza una conexión soldada absolutamente libre de fugas?",
+          "a": "La conexión se realiza por polifusión térmica a 260°C. La tubería y el accesorio se fusionan a nivel molecular para formar una unidad homogénea e inseparable. Dado que no se utilizan juntas de goma ni accesorios de prensado propensos a errores, la soldadura permanece completamente estanca durante más de 50 años."
+        },
+        {
+          "q": "¿Qué niveles de presión y dimensiones están disponibles para las tuberías K Aqua?",
+          "a": "K Aqua ofrece sistemas de tuberías en los niveles de presión SDR 6, SDR 7.4, SDR 9 y SDR 11 (PN10 a PN25) y en diámetros exteriores de 20 mm a 250 mm. Esto permite realizar tanto distribuciones de piso intrincadas como tuberías principales y verticales masivas."
+        }
+      ]
+    },
+    "fittings": {
+      "areas": "Redes de agua potable, instalación sanitaria, distribución industrial, sistemas de calefacción",
+      "advTitle": "Conexiones seguras y homogéneas",
+      "advList": [
+        "Soldadura homogénea: Tubo y accesorio se fusionan en una unidad inseparable.",
+        "No se requieren sellos: La conexión permanente no necesita juntas tóricas propensas a fallos.",
+        "Instalación fácil: Procesamiento rápido y seguro en el sitio de construcción.",
+        "Flujo completo: Sin reducción de la sección transversal, manteniendo la presión del sistema.",
+        "Resistencia química: Resistente a una amplia variedad de medios agresivos."
+      ],
+      "seoText": "Los accesorios de K-Aqua son el enlace para redes de tuberías fiables. Fabricados en Alemania, estos accesorios ofrecen la más alta precisión y estabilidad dimensional. La tecnología de soldadura (termofusión a encaje) dura solo unos segundos y se enfría hasta formar una conexión que es tan fuerte como el propio tubo. Esto elimina el riesgo de microfugas, que a menudo pueden ocurrir en sistemas a presión o a compresión después de varios años.",
+      "guideTitle": "Guía Técnica: Conexiones Seguras con Accesorios K Aqua",
+      "guideText": "<p>Los accesorios (fittings) son el núcleo de cualquier red de tuberías compleja. Con los <strong>accesorios K Aqua PP-R</strong> de alta calidad, puede crear instalaciones que soporten las presiones y temperaturas más altas.</p><p>Las ventajas de la soldadura homogénea son indiscutibles:</p><ul><li><strong>Conexión cohesiva:</strong> Al calentarse, el accesorio y la tubería se fusionan en una sola pieza. Esto elimina por completo puntos débiles como juntas tóricas envejecidas o prensados mecánicos.</li><li><strong>Optimización del flujo:</strong> Nuestros accesorios están diseñados para mantener la sección transversal en las juntas. Esto minimiza las turbulencias y reduce el consumo de energía de las bombas de circulación.</li><li><strong>Máxima calidad del material:</strong> El uso de Copolímero Aleatorio de Polipropileno de primera clase proporciona una resistencia química y térmica sobresaliente que supera con creces los estándares normativos.</li></ul><p>Durante la instalación, es fundamental asegurar cortes limpios y sin rebabas, y cumplir exactamente con los tiempos de calentamiento y enfriamiento. De esta forma, se garantiza una vida útil sin mantenimiento de más de 50 años en todas las áreas de instalación, tal como lo avala el fabricante.</p>",
+      "seoTitle": "Accesorios y Piezas de Plástico"
+    },
+    "valves": {
+      "areas": "Aislamiento de ramales, control de sistemas, colectores de distribución, industria",
+      "advTitle": "Control preciso y funcionalidad duradera",
+      "advList": [
+        "Libre de mantenimiento: La mecánica está diseñada para un funcionamiento suave durante décadas.",
+        "Paso total: Las válvulas de bola de paso total minimizan las pérdidas de presión.",
+        "Fácil integración: Soldable directamente en el sistema PP-R.",
+        "Materiales de alta calidad: Asientos de válvulas y bolas de aleaciones resistentes a la corrosión.",
+        "Cierre seguro: 100% a prueba de fugas incluso bajo fluctuaciones extremas de presión y temperatura."
+      ],
+      "seoText": "Las válvulas de aislamiento y de control de K-Aqua combinan la tecnología probada de soldadura PP-R con componentes mecánicos de alta calidad. Permiten un control preciso de los fluidos y el aislamiento seguro de las secciones de la red para trabajos de mantenimiento. Cada válvula se somete a estrictas pruebas de presión antes de la entrega para garantizar la máxima fiabilidad operativa en aplicaciones críticas.",
+      "guideTitle": "Guía de Expertos: Control del Sistema con Válvulas y Accesorios K Aqua",
+      "guideText": "<p>El control preciso y el aislamiento de los flujos de materiales son esenciales en las redes modernas de agua y calefacción. <strong>Las válvulas y llaves de paso K Aqua</strong> combinan la durabilidad del polipropileno con la precisión de los mecanismos de sellado y ajuste metálicos.</p><p>Lo que debe saber al integrar válvulas PP-R:</p><ul><li><strong>Diseño sin zonas muertas:</strong> Para evitar el agua estancada y la contaminación bacteriana (ej. Legionella), nuestras válvulas están diseñadas higiénicamente y optimizadas para el flujo, lo que las hace ideales para instalaciones de agua potable sensibles.</li><li><strong>Estabilidad de presión y temperatura:</strong> Los cuerpos de válvulas masivos y las esferas de latón o PP de alta calidad garantizan un sellado del 100%, incluso durante picos de presión extremos y altas temperaturas de suministro.</li><li><strong>Facilidad de mantenimiento:</strong> Incluso después de muchos años de uso continuo, las válvulas de bola y válvulas de asiento inclinado K Aqua se pueden operar de manera suave y precisa gracias a los elementos de sellado recubiertos de teflón.</li></ul><p>Para una máxima disponibilidad del sistema, recomendamos colocar estratégicamente las válvulas durante la fase de planificación, para permitir trabajos de mantenimiento y purga sin grandes interrupciones en la red.</p>",
+      "seoTitle": "Válvulas de Cierre y de Bola"
+    },
+    "weldInSaddles": {
+      "areas": "Derivaciones posteriores, expansión de la red de tuberías, construcción de distribución",
+      "advTitle": "Sillas de Derivación Soldables (Weld-in Saddles) para máxima flexibilidad",
+      "advList": [
+        "Instalación posterior: Expansión de redes de tuberías PP-R existentes sin cortar el tubo principal.",
+        "Ahorro de tiempo: Taladrar, calentar, soldar: listo en unos minutos.",
+        "Resistente a la presión: La soldadura de la silla alcanza el mismo nivel de presión que la tubería base.",
+        "Flujo total: Sin reducción de la sección transversal en la línea principal.",
+        "Versátil: Disponible con o sin transición de rosca metálica (Hembra/Macho)."
+      ],
+      "seoText": "Las sillas de derivación soldables (Weld-in Saddles) para máxima flexibilidad son la solución perfecta para crear ramificaciones posteriores en redes de tuberías existentes. En lugar de cortar laboriosamente la tubería principal e insertar conexiones en T, la tubería simplemente se perfora y la silla se suelda de manera homogénea. Esta técnica ahorra enormes tiempos de instalación y costos de materiales en sistemas de distribución industrial.",
+      "guideTitle": "Guía de Instalación: Flexibilidad mediante Sillas de Derivación (Weld-in Saddles)",
+      "guideText": "<p>Modificar o expandir las redes de tuberías industriales y comerciales existentes a menudo requiere un gran esfuerzo. En este caso, <strong>las sillas de derivación K Aqua</strong> ofrecen una solución eficiente y extremadamente segura para crear derivaciones posteriores sin interrumpir la línea.</p><p>Resumen de las principales ventajas técnicas:</p><ul><li><strong>Tiempo mínimo de instalación:</strong> En lugar de cortar la tubería principal e instalar conexiones en T convencionales, la tubería simplemente se perfora con precisión y la silla se suelda. Esto reduce drásticamente los costos de montaje.</li><li><strong>Mantenimiento de la integridad del sistema:</strong> Gracias a la polifusión, la silla de derivación se fusiona inseparablemente con la pared de la tubería, manteniendo así la presión original y la resistencia a la temperatura del sistema (hasta PN 25).</li><li><strong>Opciones de conexión flexibles:</strong> Disponibles como ramificación puramente de plástico o con rosca de metal integrada (Hembra/Macho), las sillas permiten la conexión directa de sensores, manómetros o líneas de derivación en los espacios más reducidos.</li></ul><p>Para garantizar una soldadura perfecta, es obligatorio el uso de las herramientas especiales de perforación y soldadura K Aqua, ya que garantizan la profundidad de fresado y el área de calentamiento exactos para una conexión impecable.</p>",
+      "seoTitle": "Sillas de Derivación para Tuberías"
+    },
+    "accessories": {
+      "areas": "Fijación de tuberías, sellado, conexión de brida, reparación",
+      "advTitle": "Accesorios para una instalación conforme a la normativa",
+      "advList": [
+        "Ajuste perfecto: Todos los accesorios están adaptados geométricamente al sistema de tuberías K Aqua.",
+        "Fijación termodinámica: Abrazaderas de tubería con inserción de goma para soportes fijos y móviles.",
+        "Conexiones de brida de alta calidad: Bridas locas y juntas EPDM para la transición al metal.",
+        "Reparación rápida: Tapones de reparación para tuberías perforadas accidentalmente.",
+        "Resistencia a los rayos UV: Algunos accesorios seleccionados están estabilizados especialmente para la instalación en exteriores."
+      ],
+      "seoText": "La gama correcta de accesorios (Accessories) es crucial para la longevidad de una red de tuberías. K Aqua ofrece una matriz completa de accesorios: desde abrazaderas de fijación termodinámica para absorber las expansiones lineales hasta juntas planas de EPDM para conexiones de bridas. Solo con los accesorios K Aqua perfectamente adaptados garantizará el cumplimiento de todas las especificaciones GEG y DIN 18381.",
+      "guideTitle": "Guía Profesional: Accesorios K Aqua para instalaciones conformes a la normativa",
+      "guideText": "<p>Un sistema de tuberías de alta calidad requiere accesorios de la misma calidad. La gama K Aqua incluye todos los componentes esenciales para garantizar la longevidad, la seguridad y el cumplimiento de todas las normas de la física de la construcción.</p><p>Los aspectos más importantes para el uso correcto de nuestros accesorios:</p><ul><li><strong>Compensación de la expansión lineal:</strong> Cuando cambia la temperatura, las tuberías de plástico se expanden. El uso específico de nuestras abrazaderas termodinámicas como soportes fijos y móviles absorbe de manera segura estos movimientos y protege al sistema de tensiones internas perjudiciales. Esto es especialmente importante en instalaciones industriales y tuberías ascendentes, donde las expansiones incontroladas podrían provocar daños estructurales.</li><li><strong>Conexiones de brida estancas:</strong> Para transiciones a válvulas grandes, bombas o tanques, nuestras bridas locas y las juntas planas de EPDM adaptadas con precisión ofrecen una seguridad absoluta bajo altas presiones de contacto y vibraciones continuas. Garantizan una conexión fluida y hermética, evitando así fugas potencialmente desastrosas en infraestructuras críticas.</li><li><strong>Soluciones de reparación:</strong> Con nuestro innovador tapón de reparación, las tuberías perforadas accidentalmente (por ejemplo, en obras de construcción) se pueden soldar homogéneamente en minutos, de modo que la tubería recupere toda su resistencia mecánica. Esto elimina la necesidad de reemplazar por completo la sección de la tubería.</li></ul><p>Además de la compensación y la estanqueidad, <strong>el aislamiento y la protección contra incendios</strong> juegan un papel central en la instalación profesional. La gama de accesorios de K Aqua está diseñada para minimizar las pérdidas térmicas y cumplir con los más altos estándares de seguridad. Nuestras juntas especiales y elementos de fijación están diseñados para amortiguar eficazmente la transmisión del sonido y evitar la propagación del sonido estructural en la mampostería.</p><p>Al utilizar exclusivamente accesorios originales K Aqua, usted asegura la garantía completa del sistema y evita defectos costosos causados por productos de terceros incompatibles. Invierta en calidad sin concesiones para garantizar el funcionamiento sin problemas de su sistema de tuberías durante décadas.</p> Accesorios para una instalación conforme a la normativa.",
+      "faq": [
+        {
+          "q": "¿Son los accesorios adecuados para agua fría y caliente?",
+          "a": "Sí, nuestros accesorios como abrazaderas de tubería y juntas planas están diseñados para su uso en sistemas de agua fría, agua caliente y calefacción, y exhiben una excelente estabilidad térmica."
+        },
+        {
+          "q": "¿Puedo utilizar accesorios de terceros?",
+          "a": "Para beneficiarse de la garantía total del sistema K Aqua, es obligatorio el uso de accesorios originales. Los componentes de terceros pueden provocar problemas de sellado o fallos mecánicos."
+        },
+        {
+          "q": "¿Existen accesorios especiales para uso industrial?",
+          "a": "Sí, nuestra gama incluye bridas locas de alta resistencia con núcleo de acero, juntas especiales de EPDM y abrazaderas de tubería reforzadas que soportan sin problemas cargas industriales extremas."
+        }
+      ],
+      "seoTitle": "Accesorios para la Instalación de Tuberías"
+    },
+    "tools": {
+      "areas": "Prefabricación, montaje en obra, reparación, aplicaciones especiales",
+      "advTitle": "Máxima precisión para la conexión perfecta",
+      "advList": [
+        "Control exacto de la temperatura: Elementos calefactores controlados por microprocesador mantienen exactamente 260°C.",
+        "Revestimiento antiadherente: Teflón-PTFE para una fusión sin residuos.",
+        "Diseño ergonómico: Reduce el esfuerzo físico del instalador.",
+        "Documentación digital: Máquinas de soldadura a tope y por electrofusión con función de registro.",
+        "Larga vida útil: Mecánica robusta para el duro trabajo diario en la obra."
+      ],
+      "seoText": "La gama de herramientas K Aqua forma la base indispensable para el procesamiento profesional de nuestros sistemas de tuberías. Desde las precisas tijeras cortatubos hasta la máquina automática de soldadura a tope CNC, ofrecemos el equipo óptimo para cada dimensión. Solo con herramientas originales calibradas se pueden mantener con exactitud los parámetros de unión exigidos por el DVS, para garantizar una vida útil de más de 50 años.",
+      "guideTitle": "Guía Práctica: Herramientas profesionales para la instalación de tuberías K Aqua",
+      "guideText": "<p>La calidad de una instalación de tuberías de plástico depende de la precisión de las herramientas utilizadas. <strong>Las herramientas de soldadura y corte de K Aqua</strong> están diseñadas específicamente para las propiedades termoplásticas del PP-R y PPRCT a fin de lograr resultados impecables.</p><p>Por qué el equipo profesional es indispensable:</p><ul><li><strong>Preparación impecable:</strong> Un corte absolutamente rectangular y sin rebabas es el requisito previo básico para una soldadura hermética. Nuestros cortatubos y sierras circulares en frío evitan la compresión del material y las microfisuras.</li><li><strong>Precisión termodinámica:</strong> Los equipos de soldadura a socket controlados por microprocesador mantienen constante la temperatura ideal de unión de 260°C incluso en condiciones climáticas adversas, lo que evita de manera confiable la degradación del polímero.</li><li><strong>Seguridad automatizada:</strong> Para diámetros nominales grandes, nuestras máquinas de soldadura a tope y por electrofusión controladas por computadora eliminan los errores humanos mediante la regulación totalmente automática de la presión, el tiempo y la temperatura, y la documentación digital para la inspección del sitio.</li></ul><p>El mantenimiento y la limpieza regulares de los mandriles calefactores recubiertos de teflón son esenciales para garantizar una fusión homogénea y redes de tuberías libres de fugas y duraderas.</p>",
+      "seoTitle": "Herramientas de Soldadura y Cortatubos"
+    },
+    "fallback": {
+      "areas": "Tecnología de instalación universal, equipos de obra, adiciones al sistema",
+      "advTitle": "Complemento perfecto del sistema",
+      "advList": [
+        "Calidad certificada: Cumple con el sistema de gestión ISO 9001.",
+        "Compatibilidad del sistema: Perfectamente coordinado con el sistema de tuberías K-Aqua.",
+        "Durabilidad: Materiales robustos para el exigente entorno de las obras de construcción.",
+        "Aplicación segura: Funcionalidad garantizada con un uso profesional.",
+        "Rentabilidad: Excelente relación calidad-precio."
+      ],
+      "seoText": "Como proveedor de sistemas, K-Aqua no solo suministra tuberías y accesorios, sino también todas las herramientas y elementos necesarios. Desde máquinas de soldar de alta precisión hasta cortatubos fiables: nuestras herramientas garantizan un procesamiento conforme a las normativas y la máxima seguridad de instalación. Confíe en los accesorios originales para mantener la garantía de su sistema completo K-Aqua."
+    }
+  },
+  "labels": {
+    "applicationAreas": "Áreas de aplicación",
+    "advantages": "Resumen de sus ventajas",
+    "technicalDescription": "Perfil Técnico y SEO",
+    "noResults": "No se encontraron productos",
+    "searchPlaceholder": "Buscar por título o número de artículo...",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faqFallbackQ1": "¿Cuáles son las principales ventajas?",
+    "faqFallbackA1": "El sistema ofrece extrema durabilidad, resistencia a la corrosión y excelentes propiedades higiénicas para el agua potable.",
+    "faqFallbackQ2": "¿El material es ecológico?",
+    "faqFallbackA2": "Sí, el PP-RCT es 100% reciclable y tiene una huella de carbono muy baja en comparación con las tuberías de metal.",
+    "faqFallbackQ3": "¿Cómo se realiza la instalación?",
+    "faqFallbackA3": "La instalación se realiza de forma segura y sin fugas mediante soldadura por polifusión.",
+    "downloads": "Descargas y Documentos",
+    "tds": "Ficha Técnica",
+    "tdsDesc": "Especificaciones y Dimensiones (PDF)",
+    "cert": "Certificados y Normas",
+    "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
+    "install": "Guía de Instalación",
+    "installDesc": "Instrucciones de soldadura (PDF)",
+    "range": "Product Range",
+    "rangeDesc": "Complete product range with dimensions (PDF)",
+    "features": "Product Features",
+    "featuresDesc": "Material properties & system benefits (PDF)"
+  },
+  "specAndDim": "Specifications & Dimensions",
+  "certsAndNorms": "Certificates & Standards",
+  "approved": "Approved",
+  "monitoring": "Quality Monitoring",
+  "certified": "tested",
+  "quickLinks": "Quick Links",
+  "calcCo2": "Calculate CO2 Savings",
+  "backToFinder": "Back to Finder",
+  "enterpriseCore": "Enterprise Core",
+  "highPerformance": "Sistemas de Tuberías de Alto Rendimiento",
+  "highPerformanceDesc": "Para aplicaciones industriales, suministro de agua potable y control climático bajo condiciones extremas.",
+  "sysPressure": "Presión del Sistema",
+  "tempMax": "Temperatura Máx.",
+  "material": "Material",
+  "norm": "Norma",
+  "certification": "Certificación",
+  "lifespan": "Vida útil",
+  "fiberTech": "Tecnología Compuesta de Fibra",
+  "fiberTechDesc": "Estructura de 3 capas para expansión lineal minimizada y máxima estabilidad a altas temperaturas.",
+  "compliance": "Cumplimiento y Estándares",
+  "dimensions": "Dimensiones",
+  "globalNetwork": "Red Global",
+  "globalNetworkDesc": "Los sistemas K-Aqua se utilizan en más de 40 países de todo el mundo.",
+  "whyChoose": "Por qué {product} es la elección correcta",
+  "tools": {
+    "metaTitle": "Herramientas y Accesorios | K-Aqua",
+    "metaDesc": "Herramientas y Accesorios K-Aqua: Seguridad sin concesiones gracias a la ingeniería alemana para megaproyectos globales.",
+    "heroEyebrow": "Ingeniería Alemana",
+    "heroTitle": "Herramientas y Accesorios.",
+    "heroSubtitle": "Precisión Absoluta.",
+    "heroDesc": "Este módulo ofrece una seguridad sin concesiones para los proyectos más exigentes de todo el mundo. Fabricado con los estándares más estrictos de la industria para durar generaciones. Donde el fallo del material no es una opción.",
+    "heroBtnPrimary": "Solicitar Proyecto",
+    "heroBtnSecondary": "Datos Técnicos",
+    "bentoEyebrow": "El Ecosistema K-Aqua",
+    "bentoTitle": "Herramientas para megaproyectos globales.",
+    "bentoLead": "Cuando los contratistas generales internacionales planifican proyectos de miles de millones de dólares, no se basan en promesas, sino en hechos concretos y equipos de alta precisión.",
+    "bento1Title": "Soldadores de enchufe de elemento calefactor",
+    "bento1Desc": "Para dimensiones de 20 mm a 125 mm. Diseño compacto y robusto para el uso en obras difíciles.",
+    "bento2Title": "Cortatubos y Cizallas",
+    "bento2Desc": "Diseños ergonómicos para trabajar sin fatiga y realizar cortes perfectos a 90°.",
+    "bento3Title": "Máquinas de soldadura a tope",
+    "bento3Desc": "Para diámetros nominales de hasta 250 mm. Controlado por CNC para una repetibilidad absoluta.",
+    "bento4Title": "Kits de Reparación y Accesorios",
+    "bento4Desc": "Cabezales de perforación, silletas de reparación y sierras de corona para ramificaciones posteriores.",
+    "scrollEyebrow": "Tecnología Profunda",
+    "scrollTitle": "Sin margen para tolerancias de error.",
+    "scrollLead": "Descubra los detalles tecnológicos que hacen de nuestras herramientas la primera opción para los instaladores certificados.",
+    "scroll1Title": "Termodinámica Perfecta. En cada soldadura.",
+    "scroll1Desc": "Nuestros dispositivos de soldadura por encaje de elementos calefactores están equipados con mandriles calefactores y casquillos calefactores recubiertos de teflón de alta precisión. La regulación de temperatura controlada por microprocesador garantiza una temperatura de soldadura constante de 260°C, incluso con temperaturas exteriores extremas en obras globales. Esto crea una conexión inseparable y homogénea a nivel molecular.",
+    "scroll2Title": "Soldadura a tope controlada por CNC.",
+    "scroll2Desc": "Para diámetros nominales grandes (hasta 250 mm y más) confiamos en máquinas de soldadura a tope controladas por CNC. El cálculo automático de la presión y el tiempo elimina el error humano. Cada ciclo de soldadura se registra digitalmente para garantizar la trazabilidad completa para la aceptación de la obra. Ingeniería alemana al más alto nivel.",
+    "scroll3Title": "Peladores de tubos de precisión. Exactos al milímetro.",
+    "scroll3Desc": "La preparación es el 80% de la soldadura. Nuestros peladores de tubos mecánicos y eléctricos eliminan la capa de óxido de los tubos K-Aqua con una profundidad de corte absolutamente uniforme. Esto evita las microgrietas y crea un plano de fusión perfecto. Una herramienta que durará generaciones.",
+    "scroll4Title": "Sierras circulares en frío para cortes exactos.",
+    "scroll4Desc": "Las cizallas para tubos pueden deformar el material. Nuestras sierras circulares en frío industriales garantizan cortes perfectamente en ángulo recto y sin rebabas. El resultado: Sin grietas inducidas por tensión, sin pérdida de presión, paralelismo de plano absoluto antes del proceso de soldadura.",
+    "timelineTitle": "El Proceso de Soldadura K-Aqua",
+    "timelineDesc": "Desde el corte hasta la fusión molecular. Un proceso estandarizado que da como resultado sistemas de tuberías 100% libres de fugas y sin mantenimiento.",
+    "timeline1Year": "Fase 1: Preparación del Material",
+    "timeline1Title": "El corte perfecto.",
+    "timeline1Text": "Un corte de 90 grados sin rebabas es la base de cualquier conexión permanente. Nuestras cortadoras de precisión y sierras circulares en frío garantizan una superficie absolutamente plana sin deformación microestructural del polipropileno.",
+    "timeline2Year": "Fase 2: Calibración y Pelado",
+    "timeline2Title": "Eliminación de la capa de óxido.",
+    "timeline2Text": "Antes de soldar, el tubo se calibra exactamente y la capa exterior de óxido se elimina al milímetro utilizando nuestras herramientas especiales de pelado. Esto permite una superficie 100% pura para el proceso de fusión.",
+    "timeline3Year": "Fase 3: Fusión Térmica",
+    "timeline3Title": "Fusión Molecular.",
+    "timeline3Text": "El tubo y el accesorio se calientan simultáneamente a exactamente 260°C en la matriz de calentamiento recubierta de teflón. El termostato controlado por microprocesador de los dispositivos de soldadura K-Aqua mantiene la temperatura constante, independientemente del viento o el clima.",
+    "timeline4Year": "Fase 4: La Conexión",
+    "timeline4Title": "Seguridad de por vida.",
+    "timeline4Text": "Dentro del tiempo de cambio especificado, los componentes calentados se unen sin torcerse. Tras la fase de enfriamiento, se crea una pieza nueva, absolutamente homogénea. Sin mantenimiento durante más de 50 años.",
+    "specsTitle": "Autoridad Industrial. <br/> Hasta el más mínimo detalle.",
+    "specsP1": "Durante décadas, hemos estado combinando el orgullo artesanal con la tecnología de fabricación más avanzada y altamente automatizada en nuestra planta principal en el corazón de Alemania.",
+    "specsP2": "Utilizado en los desiertos más duros y los climas más extremos del mundo, nuestro material demuestra su valía cada día. Establecemos el estándar que sigue el resto del mundo.",
+    "specsList1": "Certificado ISO 9001",
+    "specsList2": "Recubrimiento de PTFE Teflón de Grado A",
+    "specsList3": "Calibración de Temperatura Digital",
+    "ctaTitle": "¿Listo para una calidad sin concesiones?",
+    "ctaDesc": "Hable con nuestro equipo de ingeniería sobre su próximo megaproyecto y solicite muestras de nuestras herramientas.",
+    "ctaBtn": "Contactar al Soporte Técnico",
+    "hero": {
+      "eyebrow": "Tools & Accessories",
+      "title": "Welding Tools for PP-R Installation",
+      "lead": "Socket fusion machines, electrofusion technology and calibration tools: K-Aqua original tools deliver standard-compliant, permanently tight welded joints on every site."
+    }
+  },
+  "valves": {
+    "metaTitle": "Válvulas y Accesorios | Ingeniería Alemana | K-Aqua",
+    "metaDesc": "Válvulas y Accesorios K-Aqua: Seguridad sin concesiones gracias a la ingeniería alemana para megaproyectos globales. Explore la perfección técnica.",
+    "heroEyebrow": "La Clase de Válvulas",
+    "heroTitle": "Control Absoluto.",
+    "heroSubtitle": "Bajo presión máxima.",
+    "heroDesc": "Bienvenido a la primera división de la tecnología de fluidos. Las válvulas y accesorios K-Aqua no son simplemente componentes: son el corazón incorruptible de la infraestructura global. Construido para la eternidad.",
+    "heroBtnPrimary": "Solicitar Tecnología",
+    "heroBtnSecondary": "Descubrir la Arquitectura",
+    "manifestoTitle": "Cuando el material cede, el sistema se rompe. <br/><span class=\"text-primary\">Nosotros no cedemos.</span>",
+    "manifestoP1": "En la ingeniería de fluidos industriales, una válvula nunca es solo un interruptor para líquidos. Es el punto de unión crítico donde colisionan la energía cinética, la presión extrema, la expansión térmica y la agresividad química.",
+    "manifestoP2": "Aquí es donde los bienes banales producidos en masa se separan del verdadero arte de la ingeniería. Nuestras válvulas están masivamente sobredimensionadas, fabricadas con precisión paranoica y construidas para escenarios que otros fabricantes llamarían \"imposibles\". Esto es lo que entendemos por <strong class=\"text-foreground font-bold\">Ingeniería Alemana</strong>.",
+    "scrollEyebrow": "La Génesis de la Perfección",
+    "scrollTitle": "De la materia prima a una válvula indestructible.",
+    "scrollLead": "Acompañe el proceso de creación de una válvula K-Aqua. Un camino sin concesiones a través del calor, la presión y la precisión microscópica.",
+    "scroll1Title": "Materia Prima Impecable",
+    "scroll1Desc": "Nuestras válvulas y accesorios comienzan su existencia como material de alto rendimiento puro, certificado industrialmente. A través de estrictas investigaciones analíticas espectrales, garantizamos incluso antes de utilizar el primer cabezal de fresado que no existen en absoluto puntos débiles microestructurales. Esta es la base innegociable para la posterior resistencia absoluta a la corrosión y la integridad mecánica en años de uso continuo.",
+    "scroll2Title": "Mecanizado CNC de Alta Precisión",
+    "scroll2Desc": "Cada componente individual se fabrica a partir de material sólido en nuestra fábrica en centros de mecanizado CNC de 5 ejes de última generación con una tolerancia absurda de menos de una milésima de milímetro. Esta precisión sin concesiones garantiza que las superficies de sellado queden perfectamente superpuestas. Elimina por completo los riesgos de fugas y garantiza un funcionamiento absolutamente suave, sedoso y sin desgaste, incluso después de décadas.",
+    "scroll3Title": "Flujo Sin Cavitación",
+    "scroll3Desc": "Una válvula es tan buena como su perfil de flujo interno. Utilizando dinámica de fluidos computacional (CFD) avanzada, hemos diseñado los contornos internos para que las turbulencias y la cavitación se eliminen virtualmente. Esto significa una menor pérdida de presión en el sistema general y una minimización absoluta del ruido, incluso en las velocidades de flujo más altas.",
+    "scroll4Title": "100% Inspección Final. Sin Excepciones.",
+    "scroll4Desc": "Las muestras aleatorias no son suficientes cuando están en juego infraestructuras de miles de millones de dólares. Antes de que una válvula abandone la fábrica de K-Aqua, se somete a un ciclo de prueba robótico totalmente automatizado que supera con creces las cargas reales. Las pruebas hidráulicas de alta presión, las pruebas de fugas al vacío con helio y las pruebas de choque térmico garantizan nuestra legendaria tasa de cero defectos.",
+    "showcaseEyebrow": "Anatomía de la Confiabilidad",
+    "showcaseTitle": "Sin puntos débiles. <br/> Sin puntos ciegos.",
+    "showcaseP1": "La arquitectura interna de nuestras válvulas está diseñada consistentemente para lograr <strong>cero espacio muerto</strong>. Se eliminan geométricamente las zonas de estancamiento donde bacterias como la legionela podrían multiplicarse.",
+    "showcaseP2": "El agua se dispara a través del cuerpo de la válvula en un flujo laminar perfectamente guiado. Los asientos de sellado sólido son autolimpiables y se cierran herméticamente incluso después de un millón de ciclos.",
+    "showcaseList1": "Higiene del agua potable certificada según los más altos estándares",
+    "showcaseList2": "Sellado hermético a máxima presión de funcionamiento",
+    "showcaseList3": "Juntas de husillo sin mantenimiento con junta tórica doble",
+    "bentoEyebrow": "Especificaciones",
+    "bentoTitle": "Los números puros de la superioridad.",
+    "bentoLead": "Cuando terminan las frases de marketing, hablan los datos. Descubra los parámetros técnicos que hacen de nuestras válvulas la mejor opción para megaproyectos.",
+    "bento1Title": "Carga de Presión Continua PN25",
+    "bento1Desc": "Desarrollado para aplicaciones continuas de alta presión más allá de la norma. El espesor de las paredes y el diseño de las roscas tienen unas dimensiones tan masivas que no ceden en absoluto, ni siquiera en caso de picos extremos de presión y golpes de ariete. Un bloque monolítico de seguridad.",
+    "bento2Title": "Soberanía Térmica",
+    "bento2Desc": "Desde un frío gélido hasta temperaturas de flujo en ebullición. El material de alta gama conserva toda su elasticidad, no se vuelve quebradizo y resiste la expansión térmica con extrema eficacia.",
+    "bento3Title": "Resistencia Química",
+    "bento3Desc": "La corrosión es un concepto del pasado. Nuestras válvulas son inmunes a las condiciones agresivas del suelo, al agua dura y a las medidas de desinfección con cloro. Sin óxido, sin picaduras.",
+    "bento4Title": "Ergonomía y Háptica Industriales",
+    "bento4Desc": "El diseño se combina con la pura funcionalidad. Los robustos volantes, las palancas macizas y los husillos de precisión proporcionan una respuesta inmediata, táctil y absolutamente precisa al abrir y cerrar, incluso con guantes de protección pesados.",
+    "timelineEyebrow": "El Camino de la Dureza.",
+    "timelineLead": "Una cronología de garantía de calidad sin concesiones. Cómo una idea se convierte en una leyenda industrial.",
+    "timeline1Year": "Fase 01",
+    "timeline1Title": "Selección Molecular",
+    "timeline1Text": "Selección de aleaciones metálicas y polímeros de alto rendimiento formulados específicamente para K-Aqua. Apostamos por una resistencia absoluta a la fluencia y una máxima estabilidad molecular.",
+    "timeline2Year": "Fase 02",
+    "timeline2Title": "Optimización del Flujo CFD",
+    "timeline2Text": "Utilizando supercomputadoras, los canales de flujo internos se calculan en miles de iteraciones para minimizar la resistencia al flujo a cero.",
+    "timeline3Year": "Fase 03",
+    "timeline3Title": "Prueba de Estrés en Cámara Climática",
+    "timeline3Text": "Los prototipos se someten a meses de pruebas de resistencia en nuestras cámaras climáticas a hasta 120 °C, 25 bares de presión y soluciones químicas extremas.",
+    "timeline4Year": "Fase 04",
+    "timeline4Title": "Producción en Serie Robótica",
+    "timeline4Text": "La transferencia a nuestra línea de producción Industria 4.0 altamente automatizada. Logramos la máxima reproducibilidad con tolerancias mínimas y sin fuentes de error humano.",
+    "timeline5Year": "Fase 05",
+    "timeline5Title": "Despliegue Global",
+    "timeline5Text": "Despliegue en los sitios de construcción más críticos del mundo, desde megaproyectos en el desierto hasta instalaciones en alta mar. Acompañado por nuestro equipo de ingeniería de campo.",
+    "finalTitle": "Construya para generaciones. <br/>No para el próximo intervalo de mantenimiento.",
+    "finalDesc": "En un mundo que apuesta cada vez más por la obsolescencia rápida y los productos de sustitución baratos, nosotros nos erigimos como un polo opuesto de acero. Se instala una válvula K-Aqua... y luego se olvida. Porque simplemente funciona. Década tras década. Confíe en una verdadera autoridad industrial.",
+    "ctaTitle": "¿Listo para el control absoluto?",
+    "ctaDesc": "Hable con nuestros ingenieros jefe sobre las especificaciones de su próximo megaproyecto. Entregamos las soluciones para problemas que otros aún ni siquiera han entendido.",
+    "ctaBtnPrimary": "Solicitar Consultoría Técnica",
+    "ctaBtnSecondary": "Especificaciones en PDF",
+    "hero": {
+      "eyebrow": "Valves & Controls",
+      "title": "PP-R Valves for Precise Control",
+      "lead": "Shut off, regulate, secure: K-Aqua PP-R valves combine corrosion-free hydraulics with German manufacturing precision: for drinking water, HVAC and industry."
+    }
+  },
+  "category": {
+    "allProducts": "Todos los productos",
+    "openInFinder": "Abrir en el Finder",
+    "artNA": "Art. N/D",
+    "viewDetails": "Ver detalles",
+    "learnMoreKnowledge": "Obtenga más información en Conocimientos K-Aqua",
+    "learnMoreDesc": "Profundice en la documentación técnica y descubra artículos especializados sobre la instalación, sostenibilidad y certificación de nuestros sistemas.",
+    "toKnowledgeBase": "A la Base de Conocimientos"
+  },
+  "fittings": {
+    "meta": {
+      "title": "Accesorios y Piezas Formadas | K-Aqua",
+      "desc": "Accesorios K-Aqua: Seguridad sin concesiones a través de la Ingeniería Alemana para megaproyectos globales."
+    },
+    "hero": {
+      "eyebrow": "Fittings & Molded Parts",
+      "title": "PP-R Fittings & Molded Parts for Permanently Tight Joints",
+      "lead": "From elbows to reducers: K-Aqua PP-R fittings fuse molecularly with the pipe during welding: a homogeneous system with no gaskets and no weak points."
+    },
+    "intro": {
+      "eyebrow": "La Autoridad Industrial",
+      "title": "La seguridad no es coincidencia. Es calculable.",
+      "lead": "Cuando los contratistas generales internacionales planean proyectos de miles de millones de dólares, no confían en promesas, sino en hechos concretos. Establecemos el estándar que el resto del mundo sigue.",
+      "text1": "Durante décadas, hemos combinado el orgullo por la artesanía con tecnología de fabricación altamente automatizada de última generación en nuestra planta principal en el corazón de Alemania. Cada codo, cada manguito, cada pieza en T lleva el inconfundible ADN de la ingeniería alemana. Desplegado en los desiertos más duros, las zonas climáticas más extremas y las instalaciones industriales más exigentes del mundo, nuestro material demuestra su valía cada día.",
+      "text2": "La fusión de macromoléculas en nuestro sistema PP-R crea una red de tuberías sin puntos débiles. No hay anillos de sellado que puedan corroerse, ni juntas encoladas que puedan ser atacadas por productos químicos. El tubo y el accesorio se fusionan térmicamente en una sola pieza inseparable. Esta es la definición absoluta de seguridad."
+    },
+    "sticky": {
+      "eyebrow": "Arquitectura de la Perfección",
+      "title": "La Anatomía de la Confiabilidad.",
+      "lead": "Una inmersión profunda en las propiedades físicas y químicas que hacen de nuestros accesorios el punto de referencia mundial.",
+      "items": [
+        {
+          "title": "La estructura molecular",
+          "desc": "Nuestros accesorios se basan en un copolímero aleatorio de polipropileno PP-R altamente reticulado. Mediante perfiles controlados de temperatura-presión durante la extrusión, logramos una estructura cristalina isotrópica. El resultado: Una resistencia sin precedentes al agrietamiento por tensión y a las fluctuaciones extremas de temperatura."
+        },
+        {
+          "title": "Precisión Termoplástica",
+          "desc": "Cada pieza moldeada se somete a un proceso de moldeo por inyección termoplástica con tolerancias de cavidad en el rango micrométrico. Esto asegura que los índices de fluidez al soldar con nuestros tubos sean absolutamente idénticos: para una conexión de material homogénea, inseparable y 100% libre de fugas."
+        },
+        {
+          "title": "Tolerancia Cero Defectos",
+          "desc": "No dejamos nada al azar. Utilizando medición ultrasónica de espesor de pared, ensayos de fluencia de presión interna hidrostática y DSC (Calorimetría Diferencial de Barrido), se analiza cada lote. Solo se libera material que excede nuestros estándares internos, que están muy por encima de la norma DIN EN ISO 15874."
+        },
+        {
+          "title": "Resistencia a la Cavitación",
+          "desc": "La geometría interna optimizada para el flujo de nuestros accesorios previene eficazmente las caídas de presión y la cavitación, incluso a velocidades de flujo extremas en columnas montantes industriales. Esto minimiza las emisiones de ruido y protege el sistema del desgaste abrasivo desde el interior."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Datos de Rendimiento",
+      "title": "Especificaciones más allá del estándar.",
+      "lead": "Mientras la industria considera las normas como un objetivo, nosotros las vemos simplemente como el mínimo absoluto.",
+      "items": [
+        {
+          "title": "DIN EN ISO 15874",
+          "desc": "Pleno cumplimiento y certificación para sistemas de tuberías de plástico para instalaciones de agua fría y caliente."
+        },
+        {
+          "title": "PN 20 / PN 25",
+          "desc": "Diseñado para cargas permanentes de alta presión incluso a temperaturas críticas."
+        },
+        {
+          "title": "Inercia Química",
+          "desc": "Excelente resistencia a medios agresivos. Independiente del pH (pH 1 a 14) para uso industrial."
+        },
+        {
+          "title": "Amortiguación Acústica",
+          "desc": "La elasticidad inherente del material PP-R absorbe el ruido estructural y reduce el ruido de flujo a un mínimo absoluto, ideal para hoteles de lujo y hospitales."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "El Proceso de Génesis",
+      "desc": "De la masa cruda molecular al componente indestructible. Una mirada a nuestra matriz de fabricación altamente automatizada.",
+      "items": [
+        {
+          "year": "Paso 01",
+          "title": "Selección de Granulado",
+          "text": "Solo el granulado de polipropileno presintetizado de alta pureza de las principales refinerías europeas pasa nuestra inspección de entrada de mercancías."
+        },
+        {
+          "year": "Paso 02",
+          "title": "Acondicionamiento Térmico",
+          "text": "Antes del moldeo por inyección, el granulado se estabiliza térmicamente para eliminar la humedad residual y garantizar una masa fundida homogénea."
+        },
+        {
+          "year": "Paso 03",
+          "title": "Moldeo por Inyección de Alta Presión",
+          "text": "En células de moldeo por inyección totalmente automatizadas y asistidas por robot, damos forma al material bajo una presión enorme para obtener accesorios impecables."
+        },
+        {
+          "year": "Paso 04",
+          "title": "Matriz de Enfriamiento",
+          "text": "Un perfil de enfriamiento controlado por computadora evita tensiones internas en el material y garantiza una estabilidad dimensional perfecta."
+        },
+        {
+          "year": "Paso 05",
+          "title": "Certificación y Logística",
+          "text": "Cada lote recibe su certificado digital. Listo para su envío a las obras de construcción más exigentes del mundo."
+        }
+      ]
+    },
+    "depth": {
+      "title": "Vida útil > 50 años. Garantizada.",
+      "text": "El tiempo es la prueba de esfuerzo definitiva para cualquier material. Nuestros accesorios están diseñados para durar más que la vida útil del edificio en sí. Al agregar antioxidantes especiales y estabilizadores térmicos a nuestra matriz PP-R, el envejecimiento termo-oxidativo se retrasa enormemente. Incluso a temperaturas de flujo continuo de 70 °C y cargas de presión de 10 bar, garantizamos una vida útil de más de medio siglo. Eso no es marketing. Eso es física de polímeros aplicada.",
+      "badge": "100% Libre de Mantenimiento"
+    },
+    "cta": {
+      "title": "¿Listo para una calidad sin concesiones?",
+      "desc": "Conéctese con nuestro equipo de ingeniería. No solo entregamos productos, entregamos seguridad para su próximo megaproyecto.",
+      "primary": "Contactar Soporte Técnico",
+      "secondary": "Ver Rango Completo"
+    }
+  },
+  "pipes": {
+    "meta": {
+      "title": "Sistemas de tuberías PP-R y PP-RCT | K-Aqua",
+      "desc": "Sistemas de tuberías de alto rendimiento fabricados en PP-R y PP-RCT. Ingeniería alemana para el agua potable, el clima y la industria. Seguridad sin concesiones para megaproyectos."
+    },
+    "hero": {
+      "eyebrow": "Piping Systems",
+      "title": "PP-R & PP-RCT Pipes from d20 to d630",
+      "lead": "K-Aqua PP-R pipes and PP-RCT multilayer pipes for drinking water, heating and industry: mono and fiber-composite versions in every pressure class: made in Germany to DIN 8077/8078."
+    },
+    "sticky": {
+      "eyebrow": "Ciencias de los materiales",
+      "title": "Ingeniería de polímeros a la perfección.",
+      "lead": "La estructura molecular de nuestras tuberías PP-R y PP-RCT ha sido optimizada para cargas termomecánicas extremas. Una obra maestra de la ingeniería alemana.",
+      "items": [
+        {
+          "title": "Arquitectura multicapa PP-RCT",
+          "desc": "Nuestras tuberías de PP-RCT (Copolímeros aleatorios de polipropileno con cristalinidad modificada y resistencia a la temperatura) de última generación tienen una capa de compuesto de fibra de vidrio integrada. Esto reduce la expansión lineal térmica hasta en un 75% en comparación con las tuberías de PP-R estándar, mientras que la resistencia a la presión a altas temperaturas aumenta drásticamente. El resultado son espesores de pared más delgados con mayor capacidad de flujo."
+        },
+        {
+          "title": "Soldadura homogénea",
+          "desc": "A diferencia de los conexiones a presión o las uniones adhesivas, utilizamos el proceso de soldadura por polifusión. Las tuberías y los accesorios se fusionan a 260 °C para formar una unidad molecular única e inseparable. El sistema funciona completamente sin juntas tóricas ni sellos mecánicos. El punto de conexión es físicamente más resistente que la propia tubería: se garantiza una vida útil 100% libre de fugas."
+        },
+        {
+          "title": "Absoluta libertad frente a la corrosión",
+          "desc": "Los sistemas metálicos capitulan ante las cualidades agresivas del agua, los bajos valores de pH o los altos contenidos de cloruro. Las tuberías de polímero K-Aqua son completamente inertes. Las picaduras, la corrosión por fisuras, la corrosión galvánica o las incrustaciones son físicamente imposibles. La pérdida por fricción de la tubería (valor de rugosidad k=0,007 mm) se mantiene en el mismo nivel que el primer día, incluso después de 50 años de funcionamiento, lo que reduce enormemente la energía de la bomba."
+        },
+        {
+          "title": "Aislamiento térmico y acústico",
+          "desc": "Gracias a la baja conductividad térmica del PP-R (0,24 W/mK) en comparación con el acero (50 W/mK) o el cobre (380 W/mK), la formación de condensación en los sistemas de refrigeración se retrasa considerablemente y se minimizan las pérdidas de calor en los sistemas de calefacción. Además, nuestras tuberías de polímero de paredes gruesas absorben eficazmente el ruido del flujo y los golpes de ariete, perfeccionando el confort acústico en edificios de gran altura y hoteles."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Tolerancia cero a errores",
+      "desc": "Cada centímetro de nuestros tubos es monitoreado durante el proceso de extrusión. Desde el granulado hasta el producto acabado: calidad Made in Germany.",
+      "items": [
+        {
+          "year": "Nivel 01",
+          "title": "Materia prima de primera calidad",
+          "text": "Solo procesamos gránulos de PP-R y PP-RCT de alta pureza de los principales fabricantes de polímeros del mundo. Cada lote se somete a una prueba MFR (tasa de flujo de fusión) y una medición del tiempo de inducción oxidativa (OIT) en nuestro laboratorio interno antes de ser liberado para extrusión."
+        },
+        {
+          "year": "Nivel 02",
+          "title": "Extrusión de precisión",
+          "text": "Nuestros sistemas de extrusión de última generación producen tubos compuestos de fibra de 3 capas con precisión micrométrica. La medición ultrasónica del espesor de la pared en tiempo real en 360° garantiza que incluso con tubos SDR 6 no se cumplan las tolerancias mínimas permitidas."
+        },
+        {
+          "year": "Nivel 03",
+          "title": "Acondicionamiento térmico",
+          "text": "Inmediatamente después de la extrusión, los tubos se enfrían gradualmente en baños de agua especialmente templados. Este suave proceso de enfriamiento evita tensiones internas en el material y garantiza la máxima estabilidad dimensional en todas las dimensiones."
+        },
+        {
+          "year": "Nivel 04",
+          "title": "100% trazabilidad",
+          "text": "Cada tubo recibe una impresión láser indeleble con información exacta del lote y del tiempo de producción. Incluso después de décadas en la pared, el origen de cada tubo K-Aqua se remonta completamente al lote de granulado."
+        },
+        {
+          "year": "Nivel 05",
+          "title": "Certificación y liberación",
+          "text": "Prueba de presión de rotura hidráulica a 95°C durante 1000 horas. Ensayos de tracción, resistencia al impacto entallado y ensayos de seguridad toxicológica. Sólo si el producto supera todas las normas (DIN 8077/8078, EN ISO 15874) sale de nuestro taller."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Presupuesto",
+      "title": "Una dimensión para cada necesidad.",
+      "lead": "Escalable desde conexiones domésticas d20 hasta elevadores industriales d500. Nuestro sistema crece con las dimensiones de su proyecto.",
+      "items": [
+        {
+          "title": "Dimensiones de d20 a d500",
+          "desc": "Portafolio completo de tuberías y accesorios. No importa si se trata de piezas en T, reducciones o conexiones de brida de dimensiones gigantescas: suministramos el sistema completo de un solo proveedor. No hay concesiones en lo que respecta al sistema hidráulico."
+        },
+        {
+          "title": "DEG grados 6 a 11",
+          "desc": "Niveles de presión personalizados (PN10 a PN25) a través de varias relaciones de dimensiones estándar. Optimice el uso y el flujo de materiales."
+        },
+        {
+          "title": "Higiene del agua potable",
+          "desc": "Cumple con las normas europeas más estrictas (UBA, DVGW). Absolutamente apto para alimentos, insípido e inodoro. Revestimiento interior antibacteriano opcional."
+        },
+        {
+          "title": "Tubos exteriores resistentes a los rayos UV",
+          "desc": "Ofrecemos tuberías especiales estabilizadas contra los rayos UV para instalaciones exteriores en zonas climáticas extremas (por ejemplo, Oriente Medio). La capa exterior protectora bloquea la radiación UV y evita la degradación del polímero."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Deje que los expertos dimensionen su proyecto.",
+      "desc": "Envíanos tus planos isométricos o P&ID. Nuestro equipo de ingeniería se encarga del cálculo hidráulico y la creación de la lista de materiales para su gran proyecto.",
+      "primary": "Póngase en contacto con el soporte técnico"
+    }
+  },
+  "transitionFittings": {
+    "meta": {
+      "title": "Transiciones (Accesorios de transición) | K-Aqua",
+      "desc": "Transiciones K-Aqua: conectividad híbrida absoluta de primera clase. Cuando el metal de alta resistencia se encuentra con el plástico innovador. Ingeniería alemana."
+    },
+    "hero": {
+      "eyebrow": "System Transitions",
+      "title": "Transition Fittings: Safely from Metal to PP-R",
+      "lead": "Brass meets polymer: K-Aqua transition fittings connect existing metal pipework to the PP-R system permanently tight and corrosion-free: tested far beyond the standard."
+    },
+    "intro": {
+      "eyebrow": "El desafío",
+      "title": "Donde los mundos chocan.",
+      "lead": "La transición de sistemas de tuberías metálicas rígidas a redes termoplásticas modernas es el nervio de Aquiles de todo edificio e instalación industrial. Aquí actúan máximas fuerzas de corte térmicas y mecánicas."
+    },
+    "sticky": {
+      "eyebrow": "Tecnología profunda",
+      "title": "Anatomía de la indestructibilidad.",
+      "lead": "No consideramos un accesorio de transición como un accesorio, sino más bien como un instrumento mecánico muy complejo. Cada milímetro de espesor de pared y cada hilo es el resultado de innumerables análisis de elementos finitos (FEA).",
+      "items": [
+        {
+          "title": "La simbiosis del metal y el polímero.",
+          "desc": "Nuestros accesorios de transición combinan la implacable resistencia mecánica del latón CW617N resistente a la descincificación con la inercia química del PP-RCT. Esta fusión de materiales no se crea mediante un simple prensado, sino mediante un proceso de moldeo por inyección termomecánico que logra un entrelazamiento molecular inseparable."
+        },
+        {
+          "title": "Torsión y par extremos",
+          "desc": "Un criterio de falla crítico para los accesorios estándar es la sobrecarga de torque durante la instalación. Las transiciones K-Aqua integran un perfil de anclaje hexagonal patentado en la cubierta de plástico. El resultado: más de 300 Nm de resistencia a la torsión garantizada sin delaminación de la capa límite."
+        },
+        {
+          "title": "Coeficientes de expansión térmica en equilibrio.",
+          "desc": "Los metales y los plásticos se expanden de manera diferente cuando hay fluctuaciones de temperatura (Δα). Gracias a las microjuntas de dilatación calculadas con precisión en el inserto de latón, nuestros grifos compensan golpes extremos de -20 °C a +95 °C en milisegundos, absolutamente sin fugas."
+        },
+        {
+          "title": "Control de calidad de tolerancia cero",
+          "desc": "Cada componente híbrido pasa por una prueba de fuga de helio totalmente automatizada y una medición óptica 3D. Si el valor límite de 10^-5 mbar·l/s se ve afectado aunque sea remotamente, nuestro sistema excluye rigurosamente la pieza. La ingeniería alemana no tolera concesiones."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Presupuesto",
+      "title": "Arquitectura de la actuación.",
+      "lead": "Al planificar megaproyectos con decenas de miles de conexiones, la resiliencia estadística es el retorno de la inversión más importante. K-Aqua te proporciona la garantía física de ello.",
+      "items": [
+        {
+          "title": "Núcleo de latón DZR",
+          "desc": "El latón resistente a la descincificación de grado CW617N (según DIN EN 12164) elimina el riesgo de corrosión selectiva en calidades de agua agresivas."
+        },
+        {
+          "title": "Diseño anti rotación",
+          "desc": "Los cortes poligonales forman un bloqueo geométrico que absorbe pares de apriete extremos sin ejercer presión sobre la cubierta de plástico."
+        },
+        {
+          "title": "Hilo embutido",
+          "desc": "Roscas cónicas y cilíndricas ISO 7/1 o ISO 228, cortadas a máquina con una tolerancia de ±0,01 mm para un perfecto apriete."
+        },
+        {
+          "title": "Matriz PP-RCT",
+          "desc": "La estructura altamente cristalina de nuestro copolímero aleatorio de polipropileno ofrece una excelente resistencia a la fluencia a largo plazo a altas temperaturas."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "El ciclo de fabricación",
+      "desc": "Una mirada a nuestra fábrica. El camino desde la materia prima hasta la conexión híbrida certificada es una orquesta de calor, presión y precisión despiadada.",
+      "items": [
+        {
+          "year": "Fase 1",
+          "title": "Mecanizado en bruto (CW617N)",
+          "text": "El latón se prensa en matrices de alta precisión a 750 °C y luego se mecaniza en el rango micrométrico controlado por CNC para crear el perfil de sellado."
+        },
+        {
+          "year": "Fase 2",
+          "title": "Pasivación de superficies",
+          "text": "Para eliminar la corrosión galvánica, los insertos roscados se someten a un proceso de pasivación de varias etapas en baños electrolíticos de ultrasonidos."
+        },
+        {
+          "year": "Fase 3",
+          "title": "moldeo por inyección",
+          "text": "En las máquinas de moldeo por inyección de alta presión (2000 bar), el PP-RCT fundido rodea el latón. El plástico llena completamente cada socavación."
+        },
+        {
+          "year": "Fase 4",
+          "title": "Refrigeración controlada",
+          "text": "Una reducción gradual y programada de la temperatura evita tensiones internas en la rejilla de plástico y garantiza la forma concéntrica del herraje."
+        },
+        {
+          "year": "Fase 5",
+          "title": "Pruebas de presión y torsión",
+          "text": "Las pruebas de explosión aleatorias de hasta 120 bar, así como las pruebas de fatiga, simulan 50 años de las cargas industriales más agresivas."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Certificaciones y parámetros",
+      "title": "Hechos concretos.",
+      "lead": "No solo probamos según los estándares. Nosotros los definimos. Nuestros protocolos de prueba internos superan los requisitos de DVGW, SKZ e ISO hasta en un 300%.",
+      "items": [
+        {
+          "label": "Presión de funcionamiento (PN)",
+          "value": "Hasta 25 bares",
+          "sub": "A 20°C agua"
+        },
+        {
+          "label": "Espectro de temperatura",
+          "value": "-20°C a +95°C",
+          "sub": "Carga máxima hasta 110°C"
+        },
+        {
+          "label": "Estándares de hilo",
+          "value": "ISO 7/1, ISO 228",
+          "sub": "Rosca interna y rosca externa"
+        },
+        {
+          "label": "Ciclo vital",
+          "value": "> 50 años",
+          "sub": "En condiciones industriales"
+        },
+        {
+          "label": "aleación de latón",
+          "value": "CW617N / CW614N",
+          "sub": "Sin DZR / descincificación"
+        },
+        {
+          "label": "plástico",
+          "value": "PP-RCT/PP-R",
+          "sub": "Agua potable certificada"
+        },
+        {
+          "label": "Cumplimiento del agua potable",
+          "value": "UBA, DVGW",
+          "sub": "Opciones 100% libres de plomo"
+        },
+        {
+          "label": "Seguro de calidad",
+          "value": "Norma ISO 9001:2015",
+          "sub": "100% seguimiento de lotes"
+        }
+      ]
+    },
+    "cta": {
+      "title": "La conexión más fuerte en tu proyecto.",
+      "desc": "Confíe en la ingeniería alemana probada. Contáctenos para fichas técnicas, modelos BIM o asesoramiento individual sobre proyectos.",
+      "primary": "Iniciar solicitud de proyecto",
+      "secondary": "CAD y especificaciones"
+    }
+  },
+  "hero": {
+    "eyebrow": "ARQUITECTURA DE SISTEMAS",
+    "title1": "K-AQUA: LA ABSOLUTA",
+    "title2": "ARQUITECTURA DEL AGUA.",
+    "desc": "Precisión a nivel molecular. Diseñado para durar. Nuestros sistemas de tuberías, accesorios y válvulas definen el estándar global para la infraestructura de agua industrial y civil. Sin compromisos. Solo puro rendimiento."
+  },
+  "sticky": {
+    "eyebrow": "EL ESPECTRO DE PRODUCTOS",
+    "title": "INGENIERÍA SIN COMPROMISOS.",
+    "lead": "Cada componente es parte de un sistema cerrado y perfecto. Desde la fuente hasta el punto final, controlamos el flujo de agua, productos químicos y gases con una fiabilidad implacable.",
+    "items": [
+      {
+        "title": "SISTEMAS DE TUBERÍAS PPR: VENAS INDESTRUCTIBLES",
+        "desc": "El sistema PPR (Copolímero Aleatorio de Polipropileno) de K-Aqua es la columna vertebral del transporte moderno de fluidos. Termofusionado en una unidad homogénea, soporta presiones extremas, ataques químicos y estrés térmico. Un sistema que no gotea, no se corroe y dura décadas."
+      },
+      {
+        "title": "ACCESORIOS: PERFECCIÓN GEOMÉTRICA",
+        "desc": "Cada accesorio de K-Aqua es una obra maestra de la mecánica de fluidos. Cavitación reducida, espesores de pared optimizados y tolerancias exactas en el rango micrométrico garantizan mínimas pérdidas de presión y máxima seguridad del sistema. No dejamos el flujo al azar."
+      },
+      {
+        "title": "VÁLVULAS Y ACCESORIOS: CONTROL ABSOLUTO",
+        "desc": "Tecnología industrial de aislamiento y control que opera bajo las condiciones más duras del mundo. Nuestras válvulas de bola, válvulas de asiento inclinado y válvulas de retención están probadas para decenas de miles de ciclos sin degradación del rendimiento. Máxima estanqueidad bajo máxima carga."
+      },
+      {
+        "title": "TUBERÍAS COMPUESTAS: LA SINERGIA DE MATERIALES",
+        "desc": "El aluminio se encuentra con polímeros de alto rendimiento. Las tuberías compuestas multicapa de K-Aqua combinan la estabilidad mecánica del metal con la flexibilidad y resistencia química del plástico. 100% a prueba de oxígeno. Mínima expansión lineal. La solución definitiva para sistemas HVAC complejos."
+      }
+    ]
+  },
+  "bento": {
+    "eyebrow": "DATOS DE RENDIMIENTO",
+    "title": "SUPERIORIDAD TECNOLÓGICA. BASADA EN DATOS.",
+    "lead": "Los sistemas K-Aqua no son solo tuberías: son redes de alto rendimiento para fluidos. Desarrolladas según los más estrictos estándares industriales alemanes.",
+    "items": [
+      {
+        "title": "Fusión Térmica",
+        "desc": "Soldaduras homogéneas. El material se vuelve uno. Sin pegamento, sin anillos de sellado que puedan fallar. Seguridad al 100% contra fugas a nivel molecular."
+      },
+      {
+        "title": "Inmunidad a la Corrosión",
+        "desc": "Absolutamente resistente a la corrosión por picaduras, el óxido y la corrosión electroquímica. El medio transportado permanece en su estado más puro."
+      },
+      {
+        "title": "Optimización del Flujo",
+        "desc": "Tecnología de pared lisa (rugosidad 0,007 mm) con mínimo coeficiente de fricción, evita la acumulación y reduce masivamente la pérdida de presión."
+      },
+      {
+        "title": "Resistencia a la Presión PN25+",
+        "desc": "Diseñado para estrés máximo en rascacielos, plantas industriales e infraestructura crítica. Construido para un funcionamiento sin problemas durante más de 50 años."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "EL PROCESO DE INSTALACIÓN. REDEFINIDO.",
+    "desc": "Más rápido. Más seguro. Más limpio. Nuestro sistema reduce drásticamente el tiempo de instalación y minimiza las fuentes de error. Una cronología de eficiencia.",
+    "items": [
+      {
+        "year": "FASE 01",
+        "title": "PLANIFICACIÓN Y DIMENSIONAMIENTO",
+        "text": "Cálculo hidráulico exacto y diseño de los diámetros de tubería. Evitar el sobredimensionamiento gracias a propiedades de flujo superiores."
+      },
+      {
+        "year": "FASE 02",
+        "title": "CORTE Y PREPARACIÓN",
+        "text": "Corte en frío de las tuberías sin virutas. Bordes de corte absolutamente limpios garantizan una preparación perfecta para la soldadura sin riesgo de contaminación."
+      },
+      {
+        "year": "FASE 03",
+        "title": "TERMOFUSIÓN (FUSIÓN A ENCAJE)",
+        "text": "La herramienta calienta el tubo y el accesorio a exactamente 260°C. En segundos, se crea una conexión molecular que es inseparable."
+      },
+      {
+        "year": "FASE 04",
+        "title": "PRUEBA DE PRESIÓN E INSPECCIÓN",
+        "text": "El sistema se somete a una presión de prueba extrema. Cero tolerancia a fugas. K-Aqua ofrece un 100% de seguridad desde la primera gota."
+      },
+      {
+        "year": "FASE 05",
+        "title": "OPERACIÓN DURANTE DÉCADAS",
+        "text": "Libre de mantenimiento. Silencioso. El sistema opera en segundo plano en los edificios más modernos del mundo con una fiabilidad implacable."
+      }
+    ]
+  },
+  "sysLead": "La base de nuestro catálogo: cuatro pilares de integración de sistemas."
+}

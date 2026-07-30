@@ -1,0 +1,100 @@
+{
+  "academyx": {
+    "paramHead4": "Notes",
+    "procs": [
+      {
+        "title": "Socket Welding d20–d125",
+        "desc": "Ang standard na paggawa ng PP-R. Gumamit ng welding tool.",
+        "steps": [
+          {"t": "Gupitin ang tubo", "d": "Hiwain ang tubo ng 90 degrees."},
+          {"t": "Markahan", "d": "Sukatin ang welding depth at markahan."},
+          {"t": "Painitin", "d": "Itulak ang tubo at fitting sa heating tool."},
+          {"t": "Pagsamahin", "d": "Pagkatapos painitin, pagdugtungin ang tubo at fitting."}
+        ]
+      },
+      {
+        "title": "Electrofusion d20–d315",
+        "desc": "Gamitin ang electrofusion socket na may built-in na wire.",
+        "steps": [
+          {"t": "Ihanda", "d": "Balatan (scrape) ang ibabaw ng tubo."},
+          {"t": "Linisin", "d": "Gumamit ng isopropanol upang linisin."},
+          {"t": "I-plug", "d": "Ikabit ang tubo sa socket at ikonekta ang makina."},
+          {"t": "I-weld", "d": "Magsisimula ang makina sa pag-weld ayon sa barcode."}
+        ]
+      },
+      {
+        "title": "Butt Welding d90–d630",
+        "desc": "Para sa malalaking tubo.",
+        "steps": [
+          {"t": "Planing", "d": "I-plane ang dulo ng mga tubo."},
+          {"t": "Alignment", "d": "Siguraduhing naka-align ang dalawang tubo."},
+          {"t": "Heating", "d": "Gumamit ng heating plate (210°C)."},
+          {"t": "Welding", "d": "Pagsamahin ang mga tubo gamit ang tamang pressure."}
+        ]
+      },
+      {
+        "title": "Weld-in Saddles",
+        "desc": "Para magdagdag ng branch nang hindi pinuputol ang main pipe.",
+        "steps": [
+          {"t": "Bumutas", "d": "Gumamit ng drill tool para butasin ang pader ng tubo."},
+          {"t": "Painitin", "d": "Gamitin ang saddle welding tool para painitin ang butas at ang saddle."},
+          {"t": "Pagsamahin", "d": "Idiin ang saddle sa butas."}
+        ]
+      }
+    ]
+  },
+  "aboutx": {
+    "nums": [
+      {"n": "100", "u": "%", "l": "Produksyon sa Germany"},
+      {"n": "50", "u": "", "l": "Taong inaasahang buhay"},
+      {"n": "40", "u": "+", "l": "Bansa"},
+      {"n": "0.007", "u": "mm", "l": "Rauheit"}
+    ],
+    "house": [
+      {"t": "Kasaysayan", "d": "Ang KWT ay itinatag nang may pagmamahal sa kalidad."},
+      {"t": "Misyon", "d": "Laging una ang kalidad at serbisyo."},
+      {"t": "Kultura", "d": "Tinuturing naming kapamilya ang aming mga tauhan."},
+      {"t": "Hinaharap", "d": "Patuloy na pagpapabuti."}
+    ],
+    "miles": [
+      {"y": "1994", "t": "Pagtatatag", "d": "Nagsimula ang lahat sa isang maliit na ideya."},
+      {"y": "2008", "t": "Pandaigdig", "d": "Unang pag-export."},
+      {"y": "2024", "t": "Sustainability", "d": "ISO 14001 certification."},
+      {"y": "2025", "t": "Hinaharap", "d": "Patuloy na pagpapabuti."},
+      {"y": "2026", "t": "Hinaharap", "d": "Patuloy na pagpapabuti."}
+    ]
+  },
+  "newsx": {
+    "catNews": "Balita",
+    "catKnowledge": "Kaalaman",
+    "catCase": "Case Study",
+    "heroEyebrow": "Corporate News",
+    "heroTitle": "Balita at Updates.",
+    "heroLead": "Inobasyon ng produkto, mga insight, at ang pag-unlad ng aming production site sa Waldsolms.",
+    "articles": [],
+    "ishTitle": "Lugar ng Pagkikita para sa Industriya",
+    "ishText": "Ang TGA industry ay nagtitipon sa ISH sa Frankfurt, ang nangungunang pandaigdigang trade fair, kung saan palaging naroroon ang aming partner na KESSEL. Sa oras na maplano ang mga event ng K Aqua, iaanunsyo ang mga ito rito.",
+    "moreEyebrow": "Karagdagang Balita",
+    "moreTitle": "Mga Pinakabagong Update",
+    "moreLead": "Basahin ang aming mga artikulo.",
+    "readMore": "Magbasa pa",
+    "readLess": "Itago",
+    "posts": [
+      {"date": "2024-03-01", "cat": "News", "title": "Ang K Aqua sa ISH 2025", "desc": "Bumisita sa aming booth."},
+      {"date": "2024-02-15", "cat": "Knowledge", "title": "Ang kahalagahan ng SDR", "desc": "Paano piliin ang tamang SDR."},
+      {"date": "2023-11-20", "cat": "Case Study", "title": "Ospital sa Cape Town", "desc": "Matagumpay na pag-install."}
+    ]
+  },
+  "seoArticle": {
+    "transitionFittings": {
+      "seoTitle": "Transition Fittings",
+      "seoText": "Tuklasin ang K-Aqua transition fittings.",
+      "guideText": "<h2>Transition Fittings</h2><p>Ligtas na koneksyon.</p>"
+    },
+    "weldInSaddles": {
+      "seoTitle": "Weld-in Saddles",
+      "seoText": "K-Aqua weld-in saddles.",
+      "guideText": "<h2>Weld-in Saddles</h2><p>Mabilis na branching.</p>"
+    }
+  }
+}

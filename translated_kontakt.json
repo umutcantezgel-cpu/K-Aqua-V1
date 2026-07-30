@@ -1,0 +1,274 @@
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "Inisiasi Proyek",
+      "head": "Tinggalkan dimensi proyek Anda, kami urus sisanya.",
+      "short": "Minta Kalkulasi Beban Sistem Cepat",
+      "text": "Nomor telepon, email, satu klik pada spesialisasi tema Anda. Selebihnya akan kami paparkan saat berdiskusi via telepon atau dalam panggilan video.",
+      "interest": "Pusat Bantuan",
+      "done": "Terkirim! Tenaga ahli kami segera menghubungi Anda."
+    },
+    "unternehmen": {
+      "kicker": "Pusat Operasional K Aqua",
+      "head": "Langsung terhubung dengan manajemen pusat di Jerman.",
+      "short": "Jadwalkan Kunjungan ke Pabrik Kami",
+      "text": "Jika Anda merencanakan kemitraan distribusi, silakan tinggalkan detail kontak Anda untuk membahas opsi penyusunan logistik pabrik dan tinjauan fasilitas di Osnabrück.",
+      "interest": "Konsultasi Teknis",
+      "done": "Bagus! Tim pusat akan langsung merespons Anda."
+    },
+    "produkte_fittings": {
+      "kicker": "Spesifikasi Fitting",
+      "head": "Pertanyaan mengenai toleransi dimensi dan perilaku perpaduan (fusi)?",
+      "short": "Dapatkan Saran Teknis Penyambungan (Fusi)",
+      "text": "Apabila perencana instalasi membutuhkan parameter uji titik fusi pada T-pieces (Tee) reduksi atau spesifikasi adaptor flensa dengan dimensi khusus, segera isi formulir.",
+      "interest": "Teknis Polifusi",
+      "done": "Dokumen segera diproses dan teknisi pengelasan kami siap membantu."
+    },
+    "produkte_rohre": {
+      "kicker": "Dimensi Perpipaan",
+      "head": "Saran pemilihan seri SDR yang presisi bagi tekanan proyek Anda.",
+      "short": "Analisis Kelas Tekanan Pipa PP-R",
+      "text": "Air dingin, instalasi pabrik, ataupun pompa bertekanan tinggi? Terangkan spesifikasi batas maksimum tekanan dan rentang temperaturnya. Kami akan usulkan tipe pipa K Aqua yang paling sejalan dengan TCO terendah.",
+      "interest": "Pipa & Sistem",
+      "done": "Berhasil! Data SDR pipa kami segera menanti Anda."
+    },
+    "produkte_armaturen": {
+      "kicker": "Integrasi Katup",
+      "head": "Saran pengaturan aliran cairan hidrolik yang optimal tanpa korosi.",
+      "short": "Tanyakan Katup (Valve) PP-R Spesifik",
+      "text": "Kami mendesain ball valve, stopcock miring, maupun perlengkapan khusus perpipaan logam-ke-plastik bebas hambatan aliran. Para teknisi ahli sistem fluida kami siap memandu pemasangan yang akurat.",
+      "interest": "Produk Armatur",
+      "done": "Segera dihubungi! Kami akan meninjau rincian konfigurasi katup Anda."
+    },
+    "produkte_werkzeuge": {
+      "kicker": "Perlengkapan Las",
+      "head": "Penyelarasan instruksi alat las termofusi bagi perakit di lapangan.",
+      "short": "Bantuan Penggunaan Mesin Las Polifusi",
+      "text": "Baik mesin pengelasan manual hingga mesin elektro-fusi untuk pipa berskala 125mm. Sebutkan variasi kaliber instalasi Anda, kami akan arahkan alat uji las paling ideal untuk efisiensi kerja lapangan.",
+      "interest": "Alat Fusi Las",
+      "done": "Pesan diterima. Jadwal diskusi tim pelatihan mesin segera disiapkan."
+    },
+    "produkte_uebergaenge": {
+      "kicker": "Teknologi Sambungan Transisi",
+      "head": "Menjembatani baja dan tembaga dengan keandalan PP-R (plastik).",
+      "short": "Saran Persambungan Campuran Logam",
+      "text": "Saat instalasi lama dirombak, jembatan antara logam dan polimer jadi vital. Informasikan tipe instalasi yang ada, kami merespons lewat arahan ulir logam cetak presisi kami (CW617N).",
+      "interest": "Sistem Transisi",
+      "done": "Teknisi sistem material ganda kami akan memandu Anda segera."
+    },
+    "produkte_zubehoer": {
+      "kicker": "Komponen Pendukung",
+      "head": "Detail yang memastikan keamanan seluruh jaringan pipa.",
+      "short": "Tanya Tentang Klem dan Gasket",
+      "text": "Pertanyaan seputar batas toleransi pemuaian cincin gasket, atau kekuatan beban dinamis pada klem pipa gantung? Bagikan skenario pemasangan agar kami meninjau solusi pendukung terbaik.",
+      "interest": "Suku Cadang Tambahan",
+      "done": "Kami segera memberikan panduan aksesori instalasi."
+    },
+    "katalog": {
+      "kicker": "Buku Katalog & Harga",
+      "head": "Daftar rincian material beserta lembar spesifikasi pengadaan.",
+      "short": "Minta Katalog Produk Lengkap",
+      "text": "Menginginkan harga partai besar untuk pesanan lebih spesifik? Tim penjualan korporasi kami bersiap mengirimkan daftar rincian estimasi biaya secara individual pasca perbincangan awal.",
+      "interest": "Panduan Konsultasi",
+      "done": "Selesai! Tautan dokumen segera disematkan dalam kotak masuk Anda."
+    },
+    "finder": {
+      "kicker": "Cari Produk Terkait",
+      "head": "Tak temukan komponen yang pas? Hubungi penasihat material.",
+      "short": "Tanya Soal Komponen Terspesialisasi",
+      "text": "Bagi arsitek perancang spesifikasi atau pemburu material logistik. Cukup isikan ciri deskripsi komponen atau lampirkan foto teknisnya, lalu serahkan kepada staf spesialis gudang kami.",
+      "interest": "Pusat Bantuan Teknis",
+      "done": "Bantuan pencarian segera berjalan. Kami hubungi sebentar lagi."
+    },
+    "referenzen": {
+      "kicker": "Validasi Portofolio Proyek",
+      "head": "Minta penjelasan terperinci kasus penerapan (case study) proyek sejenis.",
+      "short": "Bedah Teknis Megaproyek Terkait",
+      "text": "Para ahli rancang infrastruktur K Aqua akan dengan leluasa membongkar kiat mengatasi hambatan hidrolika maupun proses perakitan khusus pada megaproyek yang relevan dengan kasus Anda.",
+      "interest": "Dukungan Konsultasi",
+      "done": "Luar biasa! Konsultan pengerjaan proyek K Aqua segera membalas."
+    },
+    "support": {
+      "kicker": "Dukungan Teknis",
+      "head": "Temukan jawaban untuk dilema instalasi terburuk Anda dari kami.",
+      "short": "Dukungan Teknisi Panggilan Cepat",
+      "text": "Masalah dalam pembacaan mesin las elektro-fusi? Butuh dukungan terkait parameter uji tekanan akhir sebelum semen ditutup? Sampaikan secepatnya keluhan kendala yang Anda hadapi.",
+      "interest": "Layanan Konsultasi Ahli",
+      "done": "Tiket masalah Anda diprioritaskan. Kami akan memandu jalan keluarnya."
+    },
+    "ausschreibungstexte": {
+      "kicker": "Rancangan Teks Tender",
+      "head": "Persingkat proses lelang berbekal format tender standar.",
+      "short": "Kirim Format Dokumen Lelang",
+      "text": "Cukup informasikan parameter tekanan yang diwajibkan (SDR) dan klasifikasi bidang aplikasinya (suhu ruang dingin atau ekstrem). K Aqua menyiapkan klausa format pelelangan berstandar internasional.",
+      "interest": "Dukungan Arsitek & Tender",
+      "done": "Dokumen tender sedang meluncur ke dalam daftar pekerjaan kami."
+    },
+    "service": {
+      "kicker": "Layanan Spesialis",
+      "head": "Temukan solusi jaminan mutu terpusat dari teknisi spesialis Jerman.",
+      "short": "Buat Janji Layanan Laboratorium",
+      "text": "Dukungan analisis umur pakai secara ilmiah yang dipercepat, pemetaan diagram beban struktural perpipaan, hingga evaluasi titik sambung las laboratorium bisa kami wujudkan saat dibutuhkan.",
+      "interest": "Bantuan Rekayasa Lanjut",
+      "done": "Permintaan uji lab teknis Anda akan segera diproses tim analis."
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "Infrastruktur Air Bersih",
+      "head": "Jaminan air bersih tanpa logam berat dan risiko mikroba.",
+      "short": "Laporan Standarisasi Air Minum DVGW",
+      "text": "Penuhi jaminan pasokan steril tanpa rasa pada hunian dan sektor pabrik dengan jaminan DVGW. Perpipaan K-Aqua takkan pernah meluruhkan endapan korosi ke saluran keran.",
+      "interest": "Uji Konsultasi Ahli",
+      "done": "Berhasil! Laboratorium spesialis kami segera mengonfirmasinya."
+    },
+    "maerkte_klima": {
+      "kicker": "Pendinginan Udara & HVAC",
+      "head": "Ucapkan selamat tinggal pada masalah kondensasi isolasi berulang.",
+      "short": "Evaluasi Isolasi Pendingin K Aqua",
+      "text": "Saat jaringan pendingin baja terperangkap korosi karena perbedaan suhu konstan udara luar, sifat peredam konduktivitas termal bahan PPR K Aqua mengeliminasi masalah itu seutuhnya.",
+      "interest": "Sistem Termoregulasi",
+      "done": "Pengkaji arsitektur beban HVAC segera memaparkan analisis solusinya."
+    },
+    "maerkte_industrie": {
+      "kicker": "Sistem Cairan Industri",
+      "head": "Bahas ketahanan ketebalan lapisan pipa terhadap sifat kimia asam.",
+      "short": "Evaluasi Kompatibilitas Kimiawi",
+      "text": "Instalasi pabrik petrokimia atau jalur pengisian cairan asam berat? Kami memiliki parameter basis data penunjang reaktivitas 500 macam bahan cair kimia atas polimer yang digunakan K Aqua.",
+      "interest": "Dukungan Konsultasi Manufaktur",
+      "done": "Laboratorium kami sedang merumuskan resistansi uji kompatibilitas cairan."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Galangan Kapal Laut",
+      "head": "Ringan, kedap resonansi bising mesin, plus bebas pengarat air asin.",
+      "short": "Sertifikasi Klasifikasi Bahtera",
+      "text": "Baik pengelolaan sistem pengolahan air pembuangan (gray/black) ataupun pemberat lambung. Kabarkan tipe kapal Anda, sertifikasi Lloyd's atau DNV pun kami edarkan segera.",
+      "interest": "Sertifikat Kelayakan Maritim",
+      "done": "Dokumen lisensi bersertifikat maritim segera meluncur dalam waktu singkat."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Irigasi Agrikultur Hijau",
+      "head": "Distribusi masif di ladang terbuka dengan saluran kebal penyumbatan.",
+      "short": "Saran Desain Jaringan Selang Agrikultur",
+      "text": "Kemukakan seberapa luas hektar ladang serta intensitas volume curah kebutuhan Anda. Saluran tahan gempuran embun beku K-Aqua menekan penumpukan dinding selang oleh lendir alga.",
+      "interest": "Rancangan Pipa Agro-Irigasi",
+      "done": "Pakar hidrolika sistem penanaman kami menyambung kembali tidak lama lagi."
+    },
+    "maerkte": {
+      "kicker": "Pasar Internasional Regional",
+      "head": "Lakukan konsultasi dengan delegasi pemasaran global di regional Anda.",
+      "short": "Arahan Lisensi Regional Setempat",
+      "text": "Kami mendistribusi menyebar jaringan ke ujung benua di bumi. Konfirmasikan di pelabuhan mana material akan tiba, waktu sandar kargo laut, plus anjuran biro logistik setempat pun siap diuraikan.",
+      "interest": "Jaringan Mitra Ekspor",
+      "done": "Direktur pemasaran wilayah kami tengah menjadwalkan panggilan dengan Anda."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "Gedung Pencakar Langit",
+      "head": "Tingkat kestabilan beban hidrodinamika sepanjang poros menara (shaft).",
+      "short": "Kalkulasi Beban Hilang Tekanan Gravitasi",
+      "text": "Hukum gerak mekanika gravitasi di bangunan menjulang sungguh tak kenal toleransi cacat. Konfirmasikan total tinggi struktur lantai, dan letak akurat unit kontrol katup pemutus redam tekanannya.",
+      "interest": "Analisis Model BIM",
+      "done": "Insinyur senior sistem aliran gedung bertingkat mulai membedah hitungannya."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Fasilitas Medis Rumah Sakit",
+      "head": "Kemurnian sterilitas ruang kritis demi perlawanan atas Legionella.",
+      "short": "Uji Konsultasi Mutu Higienitas Instalasi Medis",
+      "text": "Perlindungan terhadap lansia rentan sangat diwajibkan. Diskusikan ihwal pemakaian metode putaran konstan, pemberantasan ruang henti udara mati, plus teknik fluktuasi suci hama air suhu didih.",
+      "interest": "Rangkaian Perpipaan Steril",
+      "done": "Satgas penasihat tingkat kontrol kesterilan bakal berdikusi bersama Anda."
+    },
+    "loesungen_hotel": {
+      "kicker": "Resor & Hotel Mewah",
+      "head": "Isolasi gangguan gema bising instalasi perpipaan dari tamu menginap.",
+      "short": "Rekomendasi Isolator Akustik Redam Suara",
+      "text": "Deru arus selokan limbah maupun sedotan deras dari kamar mandi atas tidak boleh merusak istirahat nyaman ruangan yang lain. Izinkan K Aqua memutus transfer frekuensi gelombang getaran gema pipa secara efektif.",
+      "interest": "Dukungan Konsultasi Teknis",
+      "done": "Solusi rekomendasi penempatan penjepit peredam tengah disusun untuk Anda."
+    },
+    "loesungen": {
+      "kicker": "Terapan Sistem Khusus",
+      "head": "Penyesuaian rekayasa sistem khusus demi konstruksi arsitektur ganjil.",
+      "short": "Pesan Saran Konstruktif Rancangan Tak Lazim",
+      "text": "Susunan rakitan tipe pasaran biasa kadang tidak muat. Ilustrasikan detail hambatan lekuk area pemasangan, departemen spesialis fabrikasi Jerman merakit desain modifikasi baru penyesuaian lapangan.",
+      "interest": "Bantuan Penasihat",
+      "done": "Konseptor biro departemen khusus menelisik keluhan instalasi teknis Anda."
+    },
+    "co2_rechner": {
+      "kicker": "Rekap Jejak Emisi CO2",
+      "head": "Validasi perbandingan perolehan penghematan jejak karbon proyek Anda.",
+      "short": "Minta Keluaran Terperinci Neraca Sertifikasi Emisi",
+      "text": "Angka keluaran awal cukup untuk tahap penyisihan estimasi awal. Bagikan seluruh dimensi rinci BOM (Bills of Material) pipa besi lama untuk disejajarkan agar mengantongi nilai audit pengurangan emisi sah.",
+      "interest": "Konsultasi Kalkulasi",
+      "done": "Petugas pakar laporan berkesinambungan tengah menghitung konversi nilainya."
+    },
+    "trust_center": {
+      "kicker": "Norma & Dokumen Sertifikasi",
+      "head": "Perlu melampirkan berkas sertifikat bagi petugas survei inspektur gedung?",
+      "short": "Mohon Penyerahan Dokumen Tanda Lulus Pemeriksaan",
+      "text": "Manakala pengawas menagih bukti jaminan validitas persetujuan yang disahkan (seperti DVGW, SKZ, lembaga KIWA), ketik rujukan edisi nomor pasal undang-undangnya. Kami suguhkan lampiran wujud format salinan aslinya (PDF).",
+      "interest": "Kelengkapan Pustaka Data",
+      "done": "Tim pengarsipan menyisir rak dokumen untuk menyajikannya kepada Anda."
+    },
+    "projektanfrage": {
+      "kicker": "Peresmian Proyek Awal",
+      "head": "Tukar daftar parameter krusial proyek demi angka alokasi budget kilat.",
+      "short": "Pemintaan Estimasi Beban Anggaran Belanja",
+      "text": "Sematkan sekumpulan ringkasan sketsa bagan lantai instalasi cetak biru (blueprint) pada sesi ke depan, atau bacakan total kubikasi meter area lantai, Anda kami beri kalkulasi estimasi dana pengerjaan kasar.",
+      "interest": "Opsi Arsitektur Perpipaan",
+      "done": "Gugus kemitraan pengerjaan instalasi menjadwalkan pembahasan pagu anggaran."
+    },
+    "kontakt": {
+      "kicker": "Jalur Utama Darurat",
+      "head": "Jalan terpintar menembus pintu pusat komando operasional K Aqua.",
+      "short": "Telepon Rute Tol Ekspres Terbuka dari Area Konstruksi",
+      "text": "Absolut putus rantai mesin antrean panggilan suara mesin robot operator berbelit. Sisipkan detail barisan deret nomor, niscaya perwakilan tim garda terdepan merespons memanggil memandu Anda.",
+      "interest": "Konsultasi Terpandu Cepat",
+      "done": "Data diri sukses diproses sistem. Delegasi perantara teknis memanggil Anda."
+    },
+    "news": {
+      "kicker": "Hubungan Media Pres",
+      "head": "Ingin mengajukan konfirmasi ulasan wawancara perilisan pembaruan produk?",
+      "short": "Jalur Pintu Saluran Divisi Publikasi Wacana Publik",
+      "text": "Guna memesan cetak potret beresolusi super besar, diskusi bersama dewan eksekutif tertinggi K-Aqua, paparan kupas terperinci dari balik tirai peluncuran penemuan pabrik, sodorkan nomor identitas redaksi.",
+      "interest": "Panduan Informasi Terkini",
+      "done": "Biro dewan penerbit jurnal kabar lekas bersurat mengatur agenda jadwal temu."
+    },
+    "karriere": {
+      "kicker": "Kesempatan Karier di K Aqua",
+      "head": "Sisipkan ulasan singkat teka-teki lowongan slot staf jabatan purna waktu.",
+      "short": "Hotline Sambung Singkat Menuju Bidang Eksekutif Sumber Daya Manusia (HRD)",
+      "text": "Sanksi merasa sangsi, atau gundah apakah serangkaian CV sejalan beralur senapas dengan denyut jantung atmosfer kantor? Konselor SDM K-Aqua kami ringan hati menyambut sapaan lisan jarak jauh untuk mengulasnya.",
+      "interest": "Informasi Pekerjaan",
+      "done": "Agenda berbincang-bincang saling menyapa ringan segera terkonfirmasi, bersiaplah."
+    },
+    "partnerschaft": {
+      "kicker": "Keagenan Mitra Resmi",
+      "head": "Padati deret rak ruang pamer pangkalan distribusi jajaran produk pipa kasta teratas buatan Republik Jerman.",
+      "short": "Proposal Kerangka Margin Insentif Jatah Penjualan Skala Lebar",
+      "text": "Berstatus perusahaan importir logistik masif merindukan pasokan PP-R solid tanpa celah kualitas? Sebut garis zona wilayah kekuasaan niaga, manajer pemasaran kami mendikte jangkauan margin penawaran perjanjian spesial.",
+      "interest": "Pola Diskusi Berpartner",
+      "done": "Delegasi pimpinan relasi aliansi keagenan menelaah kerangka zona kemitraan."
+    },
+    "impressum": {
+      "kicker": "Detail Informasi Legalitas",
+      "head": "Ada tebersit kejanggalan dalam wewenang izin dasar hukum badan lisensi niaga operasional (Impressum) milik perusahaan ini?",
+      "short": "Saluran Formal Hubungan Menuju Lobi Sekretariat Besar K-Aqua",
+      "text": "Silakan menaruh jejak saluran telekomunikasi apabila dirasa Anda tersandung keraguan wacana kepastian pasal, maupun sekadar tuntutan pengesahan birokrasi korporasi administrasi badan persero legal administratif K-Aqua.",
+      "interest": "Tanya Jawab Laporan Penjelasan Klarifikasi Hak Asasi Badan Administrasi Formal",
+      "done": "Rangkaian surat tanda kejelasan balasan keterangan pengacara formal bergegas bertolak tiba."
+    },
+    "datenschutz": {
+      "kicker": "Keamanan & Pengawalan Data Hak Pribadi (Privasi)",
+      "head": "Berinteraksi langsung membahas ihwal seluk beluk rincian keamanan bersama kepala spesialis urusan perisai penjagaan perlindungan data diri (Privacy).",
+      "short": "Tuntutan Surat Transparansi Arsip Log Catatan Riwayat Sesi Aktivitas Data Diri",
+      "text": "Ketegasan pilar hak ranah perlindungan kawasan batasan hak data diri terpatri krusial mutlak kaku di tempat kami. Kiranya berkeinginan membredel, memeriksa seutuhnya silsilah siklus paparan lalu lintas arsip jejak diri, sertakan kontak.",
+      "interest": "Kajian Edukasi Arahan Undang Undang Konstitusi Kepastian Payung Aturan Keamanan",
+      "done": "Sang petugas komisaris kepolisian arsip penjaga kerahasiaan rincian proteksi siber menanggapi seruan tuntutan panggilan dalam selang sejenak."
+    },
+    "fallback": {
+      "kicker": "Area Sentral Komunikasi Bebas Kontak",
+      "head": "Suarakan berinteraksi mengobrol melempar aduan keluhan perihal permasalahan tanpa tabir dinding langsung menghadap jajaran meja insinyur kami.",
+      "short": "Sirkuit Jalur Panggilan Darurat Panas Kilat Bebas Hambatan Langsung Kepada Dewan Jajaran Barisan Pakar Rekayasa Teknisi Utama Ahli Mesin Pipa",
+      "text": "Identitas sandi digit (nomor telepon), papan surel, seret tuas opsi tombol spesialisasi fokus inti rincian keluhan persoalan Anda. Titik. Selanjutnya biar corong delegasi utusan insinyur ahli dewan mesin K-Aqua merakit konversinya lewat panggilan komunikasi interaktif dua arah diskusi di udara bebas (live).",
+      "interest": "Arahan Pendampingan Kepelatihan Navigasi Ulasan Mendalam Berantai",
+      "done": "Perwira utusan khusus pakar konselor mandataris berbekal sertifikasi K-Aqua membunyikan lonceng sinyal dering respons balik sebelum senja ufuk ufuk ujung jam pergantian tugas kerja tiba kelar (dalam interval tempo sesingkatnya satu kali dua puluh empat jam kerja hari biasa)."
+    }
+  }

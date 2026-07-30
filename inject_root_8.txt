@@ -1,0 +1,140 @@
+"homedeep": {
+  "plantEyebrow": "From the Waldsolms Plant",
+  "plantTitle": "Precision you can measure.",
+  "plant": [
+    {
+      "n": "14,000",
+      "u": "m/day",
+      "l": "pipe production per extrusion line: capacity for large projects"
+    },
+    {
+      "n": "0.007",
+      "u": "mm",
+      "l": "inner surface roughness: minimal pressure loss, hardly any biofilm"
+    },
+    {
+      "n": "50",
+      "u": "years",
+      "l": "design horizon per the long-term curves of DIN 8077/8078"
+    }
+  ],
+  "badges": [
+    "ISO 9001:2015",
+    "ISO 14001:2015",
+    "ISO 50001:2018",
+    "GENAU System",
+    "DIN 8077/8078",
+    "DIN EN ISO 15874"
+  ],
+  "badgeNote": "Certificates and audit documents as self-service in the Trust Center.",
+  "badgeCta": "To the Trust Center"
+},
+"co2x": {
+  "methEyebrow": "Methodology",
+  "methTitle": "How the calculator calculates.",
+  "methLead": "Transparency instead of a black box: four building blocks behind every result.",
+  "meth": [
+    {
+      "t": "Mass model from SDR geometry",
+      "d": "Pipe mass follows from ring cross-section × length × density (0.905 g/cm³): the same geometry as in the dimension tables."
+    },
+    {
+      "t": "Material factors",
+      "d": "The emission factors per material are demonstration values for the system comparison. Binding factors come from ecoinvent or product-specific Type III EPDs to EN 15804."
+    },
+    {
+      "t": "Tangible equivalents",
+      "d": "Converted at roughly 25 kg of CO₂ bound per tree per year and 0.15 kg CO₂e per car kilometre: orders of magnitude everyone in the project meeting understands."
+    },
+    {
+      "t": "A provable path",
+      "d": "For audits and certification, the document counts: EPD data sheets and scope-3 data are available in the Trust Center or on request."
+    }
+  ],
+  "certEyebrow": "Edificación Verde",
+  "certTitle": "Where the numbers pay in.",
+  "certLead": "CO₂ evidence is not an end in itself: it pays directly into building certifications.",
+  "certs": [
+    {
+      "t": "LEED",
+      "d": "EPDs to EN 15804 pay into the material credits: the calculator delivers the early argument, the EPD the proof."
+    },
+    {
+      "t": "BREEAM",
+      "d": "Life-cycle data of materials flows into the assessment: robust through Type III declarations."
+    },
+    {
+      "t": "DGNB",
+      "d": "The building’s life-cycle assessment decides entire criteria groups: low-GWP material choice acts directly."
+    }
+  ],
+  "scopeTitle": "Scope 1, 2, 3: in short",
+  "scopeText": "Scope 1 covers the plant’s direct emissions, scope 2 the purchased electricity, scope 3 the supply chain: including the pipes you buy. That is why K-Aqua provides scope-3 data and raw EPD data on request: proactive transparency for your own climate accounting.",
+  "statNote": "From industry studies: about half of B2B customers prefer to buy from demonstrably sustainable suppliers: the evidence becomes a procurement criterion."
+},
+"finderx": {
+  "helpEyebrow": "Reading Aid",
+  "helpTitle": "How to read the table.",
+  "helpLead": "Five terms are enough to understand every row of the range.",
+  "help": [
+    [
+      "d",
+      "Outer diameter in millimetres: the key size of every dimension from d20 to d630."
+    ],
+    [
+      "SDR",
+      "Standard Dimension Ratio = d/s. Smaller SDR means thicker wall and higher nominal pressure."
+    ],
+    [
+      "Wall (s)",
+      "Wall thickness in millimetres: follows from d and SDR: s = d/SDR."
+    ],
+    [
+      "di",
+      "Inner diameter = d − 2s. Decisive for flow rate and pressure loss."
+    ],
+    [
+      "Nominal pressure (PN)",
+      "Permissible continuous operating pressure in bar at 20 °C across the design horizon: SDR 6 = PN 20 down to SDR 17 = PN 6."
+    ]
+  ],
+  "flowTitle": "From Filter to Quote",
+  "flow": [
+    {
+      "t": "Filter & search",
+      "d": "Narrow down type, SDR and maximum dimension: or type \"d110\" straight into the search."
+    },
+    {
+      "t": "Check & export",
+      "d": "Click a row for wall thickness, di and nominal pressure in detail: the result list flows into your costing via CSV."
+    },
+    {
+      "t": "Hand over the enquiry",
+      "d": "From the detail panel straight into the project enquiry: we finalise dimensions and quantities together."
+    }
+  ]
+},
+"refsx": {
+  "secEyebrow": "Application Fields Worldwide",
+  "secTitle": "Where K-Aqua technology works.",
+  "secLead": "Over the past decades, K-Aqua products have proven themselves countless times in destinations all over the world: these building types shape the reference programme.",
+  "sectors": [
+    {
+      "t": "Hospitals",
+      "d": "Hygienic drinking-water distribution with a biofilm-inhibiting bore: as in the hospital build in Cape Town."
+    },
+    {
+      "t": "Hoteles",
+      "d": "Hot-water circulation in continuous operation, thermally efficient: as in the Istanbul hotel complex with fibre-composite pipe."
+    },
+    {
+      "t": "Industrial buildings",
+      "d": "Chemically resistant and corrosion-free for process and service water: from commercial builds to production halls."
+    },
+    {
+      "t": "Greenhouses & infrastructure",
+      "d": "UV-stabilised irrigation under glass and supply networks up to d630: as in the Singapore infrastructure project."
+    }
+  ]
+},
+"ANCHOR": "ANCHOR"

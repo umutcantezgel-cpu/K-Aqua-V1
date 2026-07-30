@@ -1,0 +1,722 @@
+,
+  "wissen": {
+    "meta": {
+      "title": "T",
+      "desc": "T"
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "T",
+          "desc": "T"
+        },
+        {
+          "title": "T",
+          "desc": "T"
+        },
+        {
+          "title": "T",
+          "desc": "T"
+        },
+        {
+          "title": "T",
+          "desc": "T"
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "T",
+          "title": "T",
+          "text": "T"
+        },
+        {
+          "year": "T",
+          "title": "T",
+          "text": "T"
+        },
+        {
+          "year": "T",
+          "title": "T",
+          "text": "T"
+        },
+        {
+          "year": "T",
+          "title": "T",
+          "text": "T"
+        }
+      ],
+      "title": "T",
+      "desc": "T"
+    },
+    "hero": {
+      "eyebrow": "T",
+      "title1": "T",
+      "title2": "T",
+      "desc": "T",
+      "status": "T",
+      "clearance": "T"
+    },
+    "deep": {
+      "badge": "T",
+      "title1": "T",
+      "title2": "T",
+      "desc": "T"
+    },
+    "grid": {
+      "badge": "T",
+      "title1": "T",
+      "title2": "T",
+      "desc": "T",
+      "read": "T"
+    },
+    "cta": {
+      "title1": "T",
+      "title2": "T",
+      "desc": "T",
+      "btn": "T"
+    }
+  },
+  "productNames": {
+    "accessories_backing-flange": "T",
+    "accessories_flat-gasket-for-unions": "T",
+    "accessories_flat-gasket": "T",
+    "accessories_pipe-clamps": "T",
+    "accessories_plug": "T",
+    "fittings_cap": "T",
+    "fittings_cross-over-pipe": "T",
+    "fittings_cross-over": "T",
+    "fittings_cross": "T",
+    "fittings_elbow-45-female-male": "T",
+    "fittings_elbow-45": "T",
+    "fittings_elbow-90-female-male": "T",
+    "fittings_elbow-90": "T",
+    "fittings_electrofusion-socket": "T",
+    "fittings_flange-adaptor": "T",
+    "fittings_reducing-bush": "T",
+    "fittings_reducing-tee-large": "T",
+    "fittings_reducing-tee": "T",
+    "fittings_socket": "T",
+    "fittings_tee": "T",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "T",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "T",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "T",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "T",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "T",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "T",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "T",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "T",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "T",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "T",
+    "pipes_k-pipe-pp-r-sdr-11": "T",
+    "pipes_k-pipe-pp-r-sdr-6": "T",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "T",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "T",
+    "tools_butt-welding-machine-90-250": "T",
+    "tools_drilling-tool-for-weld-in-saddle": "T",
+    "tools_electrofusion-machine": "T",
+    "tools_hand-welding-machine-20-32": "T",
+    "tools_hand-welding-machine-20-32_desc": "T",
+    "tools_hand-welding-machine-20-63": "T",
+    "tools_hand-welding-machine-20-63_desc": "T",
+    "tools_hand-welding-machine-mirror-50-125": "T",
+    "tools_pipe-cutter-20-40": "T",
+    "tools_pipe-cutter-50-125-114": "T",
+    "tools_pipe-cutter-50-125": "T",
+    "tools_repairing-plug": "T",
+    "tools_welding-machine-50-125": "T",
+    "tools_welding-tool-for-repairing-plug": "T",
+    "tools_welding-tool-for-weld-in-saddles": "T",
+    "tools_welding-tool": "T",
+    "transition-fittings_adaptor-socket-female-thread": "T",
+    "transition-fittings_adaptor-socket-male-thread": "T",
+    "transition-fittings_elbow-90-male-thread": "T",
+    "transition-fittings_elbow-bracket-90-female-thread": "T",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "T",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "T",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "T",
+    "transition-fittings_metal-union-female-thread-brass": "T",
+    "transition-fittings_metal-union-female-thread": "T",
+    "transition-fittings_metal-union-male-thread-brass": "T",
+    "transition-fittings_metal-union-male-thread": "T",
+    "transition-fittings_tee-90-female-thread": "T",
+    "transition-fittings_tee-90-male-thread": "T",
+    "transition-fittings_union-for-watermeters": "T",
+    "transition-fittings_union": "T",
+    "valves_adjustable-battery-female-thread": "T",
+    "valves_battery-female-thread": "T",
+    "valves_concealed-valve-chrome-heavy-part": "T",
+    "valves_concealed-valve-chrome-light-part": "T",
+    "valves_elongation-pieces": "T",
+    "valves_pp-r-ball-valve-ball-in-pp": "T",
+    "valves_pp-r-ball-valve-brass": "T",
+    "valves_straight-seat-valve-green-handle": "T",
+    "valves_tee-90-female-thread-internal-valve": "T",
+    "weld-in-saddles_weld-in-saddle-female-thread": "T",
+    "weld-in-saddles_weld-in-saddle-male-thread": "T",
+    "weld-in-saddles_weld-in-saddle": "T"
+  },
+  "customerReviews": {
+    "eyebrow": "T",
+    "title": "T",
+    "lead": "T",
+    "trustBadge": "T",
+    "trustStars": "T",
+    "trustBasedOn": "T",
+    "tabA": "T",
+    "tabB": "T",
+    "tabC": "T",
+    "reviews": {
+      "a1": "T",
+      "a1Author": "T",
+      "a2": "T",
+      "a2Author": "T",
+      "a3": "T",
+      "a3Author": "T",
+      "a4": "T",
+      "a4Author": "T",
+      "a5": "T",
+      "a5Author": "T",
+      "a6": "T",
+      "a6Author": "T",
+      "b1": "T",
+      "b1Author": "T",
+      "b2": "T",
+      "b2Author": "T",
+      "b3": "T",
+      "b3Author": "T",
+      "c1": "T",
+      "c1Author": "T",
+      "c2": "T",
+      "c2Author": "T",
+      "c3": "T",
+      "c3Author": "T",
+      "c4": "T",
+      "c4Author": "T",
+      "c5": "T",
+      "c5Author": "T",
+      "c6": "T",
+      "c6Author": "T"
+    },
+    "ctaTitle": "T",
+    "ctaText": "T",
+    "ctaBtn": "T",
+    "disclaimer": "T"
+  },
+  "seoArticle": {
+    "transitionFittings": {
+      "seoTitle": "T",
+      "seoText": "T",
+      "advTitle": "T",
+      "advList": [
+        "T",
+        "T",
+        "T"
+      ],
+      "guideText": "T"
+    },
+    "valves": {
+      "guideText": "T"
+    },
+    "fittings": {
+      "seoTitle": "T",
+      "seoText": "T",
+      "guideText": "T"
+    },
+    "weldInSaddles": {
+      "seoTitle": "T",
+      "seoText": "T",
+      "guideText": "T"
+    },
+    "tools": {
+      "seoTitle": "T",
+      "seoText": "T",
+      "guideText": "T"
+    },
+    "accessories": {
+      "seoTitle": "T",
+      "seoText": "T",
+      "guideText": "T"
+    }
+  },
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "unternehmen": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_fittings": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_rohre": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_armaturen": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_werkzeuge": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_uebergaenge": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte_zubehoer": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "katalog": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "finder": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "produkte": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "academy": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "referenzen": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "support": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "ausschreibungstexte": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "service": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte_klima": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte_industrie": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte_schiffbau": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "maerkte": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "loesungen_hochhaus": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "loesungen_hotel": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "loesungen": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "co2_rechner": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "trust_center": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "projektanfrage": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "kontakt": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "news": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "karriere": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "partnerschaft": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "impressum": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "datenschutz": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    },
+    "fallback": {
+      "kicker": "T",
+      "head": "T",
+      "short": "T",
+      "text": "T",
+      "interest": "T",
+      "done": "T"
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "T",
+    "phonePlaceholder": "T",
+    "phoneError": "T",
+    "emailLabel": "T",
+    "emailPlaceholder": "T",
+    "emailError": "T",
+    "chipsLabel": "T",
+    "send": "T",
+    "sendError": "T",
+    "legal": "T",
+    "legalLink": "T",
+    "doneTitle": "T",
+    "doneTitleSlim": "T",
+    "direct": "T",
+    "promise": "T",
+    "ccAria": "T",
+    "closeAria": "T",
+    "fabAria": "T",
+    "interests": {
+      "rohrsysteme": "T",
+      "trinkwassernetze": "T",
+      "bim": "T",
+      "ersatzteile": "T",
+      "beratung": "T"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "T",
+    "heroTitle": "T",
+    "heroTitleEm": "T",
+    "heroLead": "T",
+    "telemetry": {
+      "pressureLabel": "T",
+      "liveSuffix": "T",
+      "tempLabel": "T",
+      "tempNote": "T",
+      "meta": [
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ]
+      ]
+    },
+    "layers": {
+      "title": "T",
+      "desc": "T",
+      "ariaGroup": "T",
+      "items": [
+        {
+          "t": "T",
+          "d": "T"
+        },
+        {
+          "t": "T",
+          "d": "T"
+        },
+        {
+          "t": "T",
+          "d": "T"
+        }
+      ]
+    },
+    "comply": {
+      "title": "T",
+      "items": [
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ]
+      ]
+    },
+    "rangeTitle": "T",
+    "network": {
+      "title": "T",
+      "lead": "T",
+      "chips": [
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "T",
+          "T"
+        ]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "T",
+      "titlePlain": "T",
+      "titleAccent": "T",
+      "lead": "T",
+      "cta1": "T",
+      "cta2": "T"
+    },
+    "manifesto": {
+      "title": "T",
+      "p1": "T",
+      "p2": "T",
+      "p3": "T",
+      "p4": "T"
+    },
+    "metrics": {
+      "eyebrow": "T",
+      "title1": "T",
+      "title2": "T",
+      "lead": "T",
+      "items": {
+        "pressure": {
+          "title": "T",
+          "desc": "T",
+          "placeholder": "T"
+        },
+        "isolation": {
+          "title": "T",
+          "desc": "T"
+        },
+        "tolerance": {
+          "title": "T",
+          "desc": "T"
+        },
+        "network": {
+          "title": "T",
+          "desc": "T",
+          "placeholder": "T"
+        },
+        "welding": {
+          "title": "T",
+          "desc": "T",
+          "placeholder": "T"
+        }
+      }
+    },
+    "cta": {
+      "title1": "T",
+      "title2": "T",
+      "lead": "T",
+      "btn1": "T",
+      "btn2": "T"
+    },
+    "icons": {
+      "pressure": "T",
+      "isolation": "T",
+      "tolerance": "T",
+      "network": "T",
+      "welding": "T",
+      "manifesto": "T",
+      "cta": "T"
+    }
+  },
+  "seoExpansion": {
+    "t1": "T",
+    "p1": "T",
+    "t2": "T",
+    "p2": "T",
+    "t3": "T",
+    "p3": "T",
+    "t4": "T",
+    "p4": "T"
+  }

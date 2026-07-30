@@ -1,0 +1,89 @@
+  "enterprise": {
+    "telemetry": {
+      "meta": [
+        [
+          "Material",
+          "K Aqua PP-R (Typ 3)"
+        ],
+        [
+          "Norm",
+          "DIN 8077/8078"
+        ],
+        [
+          "Zertifizierung",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Lebensdauer",
+          "> 50 Jahre"
+        ]
+      ]
+    },
+    "layers": {
+      "items": [
+        {
+          "t": "PPRCT",
+          "d": "Außenschicht"
+        },
+        {
+          "t": "Faserverbund",
+          "d": "Mittelschicht"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Innenschicht"
+        }
+      ]
+    },
+    "comply": {
+      "items": [
+        [
+          "DVGW",
+          "Trinkwasser-Zulassung"
+        ],
+        [
+          "SKZ",
+          "Güteüberwachung"
+        ],
+        [
+          "KIWA",
+          "Systemzertifizierung"
+        ],
+        [
+          "DIN 8077/8078",
+          "Rohrmaße & Toleranzen"
+        ]
+      ]
+    },
+    "network": {
+      "chips": [
+        [
+          "35+",
+          "Länder"
+        ],
+        [
+          "3",
+          "Kontinente"
+        ],
+        [
+          "ISO",
+          "Zertifiziert"
+        ]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {},
+    "manifesto": {},
+    "metrics": {
+      "items": {
+        "pressure": {},
+        "isolation": {},
+        "tolerance": {},
+        "network": {},
+        "welding": {}
+      }
+    },
+    "cta": {},
+    "icons": {}
+  },

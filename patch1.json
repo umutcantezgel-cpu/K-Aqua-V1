@@ -1,322 +1,35 @@
-    "krankenhaus": {
-      "meta": {
-        "title": "Nemocničná a klinická infraštruktúra | K Aqua",
-        "desc": "K Aqua nemocnice: Nekompromisná bezpečnosť vďaka nemeckému inžinierstvu pre globálne megaprojekty. Objavte naše systémy pitnej vody pre nemocnice."
-      },
-      "scroll": {
-        "items": [
-          {
-            "title": "Najvyššia čistota vďaka nepriehľadnosti (Opacite)",
-            "desc": "Na rozdiel od bežných systémov sú potrubia K Aqua úplne nepriehľadné (100% ochrana proti svetlu). To znemožňuje fotosyntézu a masívne zabraňuje tvorbe rias a mikrobiologickej kontaminácii v systéme pitnej vody."
-          },
-          {
-            "title": "Žiadne hromadenie vodného kameňa a biofilmov",
-            "desc": "Kovové rúry korodujú a poskytujú ideálny povrch pre biofilmy – živnú pôdu pre legionely. Hladká vnútorná štruktúra z PP-R od K Aqua nedáva baktériám žiadnu šancu na uchytenie. Voda prichádza na vodovodný kohútik v presne takej kvalite, v akej opustila vodáreň."
-          },
-          {
-            "title": "Molekulárna termostabilita",
-            "desc": "Nemocnice vyžadujú pravidelné termické dezinfekcie, pri ktorých teplota vody stúpa nad 70°C. Polyméry K-Aqua s vysokou hustotou zvládajú tieto teplotné špičky bez toho, aby degradovali alebo uvoľňovali toxické zlúčeniny."
-          },
-          {
-            "title": "Absolútna absencia olova a ťažkých kovov",
-            "desc": "Pri konštrukcii celého systému sa nepoužíva žiadne olovo, nikel, ani iné nebezpečné ťažké kovy. Náš PP-R je pre potraviny bezpečný a chemicky inertný, na ochranu pacientov so zníženou imunitou."
-          }
-        ]
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Krok 1",
-            "title": "Analýza odberných bodov",
-            "text": "Naši inžinieri identifikujú v nemocnici všetky kritické miesta spotreby (napríklad operačné sály, JIS) a navrhujú okružné (Ring loop) a sériové potrubné systémy (Series loop), aby sa zabránilo stagnácii."
-          },
-          {
-            "year": "Krok 2",
-            "title": "Hygienické (sanitárne) dimenzovanie",
-            "text": "Aby sme zabránili poklesu tlaku a nadmerným dobám zdržania, vytvárame optimálne parametre hydraulického prietoku vo viacposchodových zdravotníckych zariadeniach (nemocniciach)."
-          },
-          {
-            "year": "Krok 3",
-            "title": "Bezzáhybová inštalácia",
-            "text": "Homogénne polyfúzne zváranie eliminuje O-krúžky a mŕtve zóny (totraum), v ktorých by sa mohli hromadiť patogény."
-          },
-          {
-            "year": "Krok 4",
-            "title": "Kontrola a uvedenie do prevádzky",
-            "text": "Prísna vizuálna kontrola a tlakové skúšky podľa medzinárodných sanitárnych predpisov (napr. DVGW) pred konečným schválením systému na lekárske použitie."
-          },
-          {
-            "year": "Fáza 05",
-            "title": "50 rokov bez údržby",
-            "text": "Po uvedení do prevádzky systém zmizne v stene a robí svoju prácu ticho a absolútne spoľahlivo, s garanciou minimálne 50 rokov bez akejkoľvek únavy materiálu."
-          }
-        ],
-        "title": "Protokol hygieny",
-        "desc": "Od dimenzovania rúr až po preplachovanie: Takto navrhujeme siete na prívod vody so sterilnou čistotou."
-      },
-      "hero": {
-        "eyebrow": "Klinická infraštruktúra vody",
-        "title1": "Hygiena bez kompromisov.",
-        "title2": "German Engineering.",
-        "desc": "V zdravotníckych zariadeniach nie je kvalita vody otázkou komfortu, ale prežitia. Vybavte svoje nemocničné projekty hygienicky najpokročilejšími potrubnými systémami z PP-R od K Aqua.",
-        "cta1": "Konzultovať projekt",
-        "cta2": "Stiahnuť certifikácie"
-      },
-      "section1": {
-        "eyebrow": "Infekčné riziko číslo 1",
-        "title": "Prečo staré vodovodné siete ohrozujú život.",
-        "lead": "Stagnácia, korózia a usadeniny vodného kameňa menia kovové potrubné systémy na živnú pôdu pre patogény."
-      },
-      "section2": {
-        "eyebrow": "Riešenie: K Aqua PP-R",
-        "title": "Antibakteriálne vďaka inžinierstvu.",
-        "lead": "Náš prístup: Zabrániť rastu baktérií už na mikroskopickej úrovni prostredníctvom vedy o polyméroch."
-      },
-      "bento": {
-        "items": [
-          {
-            "title": "UBA & DVGW zhoda",
-            "desc": "Všetky systémy na pitnú vodu spĺňajú najprísnejšie smernice Nemeckej agentúry pre životné prostredie (UBA) a sú certifikované podľa DVGW W270 / KTW pre použitie v pitnej vode."
-          },
-          {
-            "title": "Bezpečné zvary",
-            "desc": "Spoje nevytvárajú medzery (žiadne mŕtve zóny). Baktérie nenachádzajú žiadny úkryt pred preplachovaním a dezinfekciou systému.",
-            "badge": "100% tesnosť"
-          },
-          {
-            "title": "Extrémna chemická odolnosť",
-            "desc": "Na rozdiel od medi zvládne PP-R bez poškodenia chlórovanie (Chlorine-shock) a použitie iných dezinfekčných chemikálií (napr. oxid chloričitý).",
-            "badge": "PN20 / PN25"
-          },
-          {
-            "title": "Akustická izolácia pre zotavenie",
-            "desc": "Materiál PP-R pohlcuje hluk z tečúcej vody, čím minimalizuje hladinu hluku na oddeleniach pacientov, čo je životne dôležité pre zotavenie."
-          }
-        ]
-      },
-      "cta": {
-        "title": "Urobte svoju kliniku bezpečnou pre budúcnosť.",
-        "desc": "Náš inžiniersky tím pre zdravotníctvo vás podporí pri hygienickom dimenzovaní vodovodnej siete vašej nemocnice.",
-        "button": "Vyžiadať si koncepciu (Koncept)",
-        "eyebrow": "Zdravotnícke projekty"
-      },
-      "sticky": {
-        "items": [
-          {
-            "title": "Prevencia legionel na molekulárnej úrovni",
-            "desc": "V kritickej nemocničnej infraštruktúre hygiena vody nie je možnosťou, ale otázkou prežitia. Naše potrubné systémy K Aqua používajú extrémne hladké vnútorné povrchy bez pórov, ktoré fyzicky zabraňujú tvorbe biofilmov a množeniu legionel. Nemecké inžinierstvo tu znamená: prevencia prostredníctvom dokonalej materiálovej vedy, nie prostredníctvom chemického dodatočného ošetrenia."
-          },
-          {
-            "title": "Tepelná dezinfekcia bez únavy materiálu",
-            "desc": "Klinické štandardy vyžadujú pravidelnú tepelnú dezinfekciu pri teplotách nad 70°C. Kým bežné systémy tu rýchlo starnú, systém K Aqua PPR je navrhnutý na extrémne tepelné zaťaženie po celé desaťročia. Žiadne mikrotrhliny, žiadne krehnutie, žiadne kompromisy."
-          },
-          {
-            "title": "Absolútne sterilné spoje",
-            "desc": "Naše patentované zváranie výhrevným telesom zvarí rúru a tvarovku do homogénnej, úplne bezproblémovej jednotky. Neexistujú žiadne mŕtve priestory, v ktorých by sa mohla zhromažďovať stojatá voda. Výsledkom je potrubný systém z jedného kusu: absolútna fyzikálna bariéra proti kontaminácii."
-          },
-          {
-            "title": "Akustická izolácia pre jednotky intenzívnej starostlivosti",
-            "desc": "Hluk je obrovským stresovým faktorom pre pacientov a zdravotnícky personál. Systém K Aqua má inherentné vlastnosti pohlcovania zvuku. Hluk pri toku a tlakové rázy pohlcuje samotný materiál, čo zaručuje mimoriadne tichý prívod vody aj vo vysokotlakových aplikáciách: nevyhnutné pre operačné sály a jednotky intenzívnej starostlivosti."
-          }
-        ]
-      },
-      "intro": {
-        "title": "Kde jediná kvapka vody <br className=\"hidden md:block\"/> môže spôsobiť kolaps systému.",
-        "desc": "Hlavní dodávatelia čelia pri projektoch nemocníc neriešiteľnému paradoxu: Obrovský časový tlak pri výstavbe sa stretáva s najprísnejšími hygienickými predpismi v histórii ľudstva. Jediný mŕtvy priestor v potrubnej sieti, mikroskopická trhlina, korodujúci spoj: a miliónové investície sú ohrozené. Tento paradox riešime prostredníctvom čistého, nekompromisného nemeckého inžinierstva."
-      },
-      "stickySection": {
-        "eyebrow": "Technologická prevaha",
-        "title": "Anatómia bezpečnosti.",
-        "lead": "Nemocnicu nevnímame ako budovu, ale ako biologický organizmus. Systém K Aqua je jej nezničiteľný cievny systém. Každý milimeter nášho potrubia je kalibrovaný na absolútnu spoľahlivosť."
-      },
-      "bentoSection": {
-        "eyebrow": "ROI & Životný cyklus",
-        "title": "Efektivita vďaka dokonalosti.",
-        "lead": "Kvalita nie je nákladovým faktorom, ale jedinou cestou k ziskovosti v automatizácii budov. K Aqua minimalizuje celkové náklady na vlastníctvo na nevídanú úroveň a zároveň zaručuje maximálnu bezpečnosť pacientov."
-      },
-      "timelineSection": {
-        "title": "Štandard K Aqua.",
-        "desc": "Od prvého výkresu CAD až po poslednú kvapku vody je náš proces symfóniou precíznosti, ktorá nenecháva priestor náhode."
-      },
-      "specs": {
-        "eyebrow": "Špecifikácie",
-        "title": "Tvrdé fakty.",
-        "lead": "Pre inžinierov, projektantov a architektov: Fyzikálne a chemické limity nášho systému pre klinické využitie. Transparentnosť je základom dôvery.",
-        "therm": {
-          "title": "Tepelná odolnosť",
-          "items": [
-            { "label": "Teplota pri nepretržitej prevádzke", "value": "70°C" },
-            { "label": "Maximálna teplota pri poruche", "value": "95°C (100h)" },
-            { "label": "Tepelná vodivosť", "value": "0.24 W/mK" },
-            { "label": "Lineárny koeficient rozťažnosti", "value": "0.15 mm/mK" }
-          ]
-        },
-        "mech": {
-          "title": "Mechanické vlastnosti",
-          "items": [
-            { "label": "Hustota", "value": "0.895 g/cm³" },
-            { "label": "Pevnosť v ťahu", "value": "23 MPa" },
-            { "label": "Predĺženie pri pretrhnutí", "value": "> 50%" },
-            { "label": "Modul pružnosti", "value": "900 MPa" }
-          ]
-        }
-      },
-      "bim": {
-        "title": "Digitálne dvojča pre vašu kliniku",
-        "desc": "Stiahnite si naše objekty Revit a CAD dáta pre bezproblémovú integráciu do vášho plánovania TGA. Naša knižnica BIM obsahuje presné kolízne dáta a hydraulické parametre pre bezchybné digitálne overenie.",
-        "cta": "Prejsť do knižnice BIM"
-      }
+  "seoArticle": {
+    "fittings": {
+      "seoTitle": "Fittings for PP-R & PPRCT Pipes",
+      "seoText": "High-quality PP-R fittings from K-Aqua. Bends, T-pieces, sockets, and transition pieces with brass inserts for secure and leak-proof connections.",
+      "guideText": "\n    <h2>The Core of Your Installation</h2>\n    <p>Fittings are the critical joints where direction changes, branches are created, and connections to external fixtures are made. While a straight pipe run is straightforward, it is the quality of the fittings that truly determines the long-term integrity of a plumbing or HVAC network. K-Aqua offers an exhaustive selection of meticulously engineered fittings, ensuring a perfect, homogeneous connection for every possible configuration.</p>\n    <p>Our all-plastic fittings—including elbows, tees, sockets, and reducers—are manufactured from the same premium PP-R material as our pipes. When heat-fused, the pipe and fitting melt into a single, continuous piece of plastic. This molecular bond eliminates the possibility of micro-leaks, galvanic corrosion, or joint failure over decades of continuous pressure and thermal cycling. This homogeneous fusion is vastly superior to mechanical connections used with other materials.</p>\n    <p>For connections to metal components such as valves, pumps, or traditional fixtures, we offer a wide array of transition fittings. These feature high-grade, dezincification-resistant brass threads securely moulded directly into the PP-R body. The complex, grooved design of the brass insert ensures absolute structural stability against torsional forces during installation and prevents any potential leaks at the plastic-metal boundary.</p>\n    <ul>\n      <li>Homogeneous fusion: Creates a seamless, leak-proof, monolithic system.</li>\n      <li>Optimised flow dynamics: Designed to minimise pressure loss and turbulence at joints.</li>\n      <li>Dezincification-resistant brass inserts: Guarantees longevity in transition fittings, even with aggressive water.</li>\n      <li>Comprehensive range: From simple 90° elbows to complex distribution manifolds and flanged connections.</li>\n      <li>High-pressure tolerance: Engineered to withstand extreme spikes in system pressure.</li>\n    </ul>\n    <p>Whether you require standard socket fusion fittings for everyday residential plumbing, electrofusion fittings for complex tight-space repairs, or large-diameter butt-welded components for industrial applications, our catalogue covers every requirement. We also provide specialised items like wall-plate elbows for secure fixture mounting and saddle fittings for rapid, cost-effective branching on existing large mains.</p>\n    <p>With K-Aqua fittings, you are guaranteed that every turn, every branch, and every connection is as strong and reliable as the pipe itself. Our uncompromising manufacturing tolerances ensure perfectly snug fits before welding, providing the installer with confidence and delivering a flawless, permanent installation for the client.</p>\n  "
     },
-    "hotels": {
-      "meta": {
-        "title": "Luxusné hotely a rezorty | K Aqua",
-        "desc": "K Aqua Hotelová infraštruktúra: Nekompromisná bezpečnosť a komfort pre luxusné rezorty a pohostinstvo. Nemecké inžinierstvo na najvyššej úrovni."
-      },
-      "scroll": {
-        "items": [
-          {
-            "title": "Konštantný vysoký tlak na všetkých podlažiach",
-            "desc": "Hosťia v 5-hviezdičkových hoteloch očakávajú bezchybný zážitok zo sprchovania, dokonca aj na 50. poschodí, kým si tisíce iných ľudí v ten istý čas púšťajú vodu. Hladké vnútorné steny PP-R znižujú straty trením a zaručujú stabilný prietok v celom systéme."
-          },
-          {
-            "title": "Akustický dizajn: Tichý ako šepot",
-            "desc": "Vodné nárazy (Water hammer) a zvuky tečúcej vody ničia zážitok z luxusu. Rúry K Aqua PP-R majú vynikajúcu zvukovú izoláciu. Molekulárna štruktúra absorbuje zvuky prenášané konštrukciou podstatne lepšie ako kovové rúry a zabezpečuje pokoj v apartmáne."
-          },
-          {
-            "title": "Trvalé zásobovanie teplou vodou",
-            "desc": "Či už ide o kúpele, wellness alebo izbové služby: Nízka tepelná vodivosť našich rúr znamená obrovskú úsporu energie pre prevádzkovateľov hotelov. Teplá voda si zachováva svoju teplotu oveľa dlhšie s menšou potrebou prídavnej izolácie."
-          },
-          {
-            "title": "Rýchla inštalácia, rýchlejšia návratnosť investícií",
-            "desc": "Čas sú peniaze, najmä pri výstavbe hotelov. Rýchla polyfúzna technika zvárania masívne znižuje čas inštalácie, zatiaľ čo predvyrobené rozdeľovače K Aqua posúvajú váš projekt na rýchle uvedenie do prevádzky (otvorenie)."
-          }
-        ]
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Krok 1",
-            "title": "Simulácia špičkového zaťaženia",
-            "text": "Modelujeme súčasné scenáre odberu ráno a večer pre bezstratové dimenzovanie rozdeľovačov teplej a studenej vody."
-          },
-          {
-            "year": "Krok 2",
-            "title": "Optimalizácia teploty (cirkulácie)",
-            "text": "Návrh efektívnych cirkulačných potrubí, aby horúca voda dorazila na najvyššie poschodia bez čakania."
-          },
-          {
-            "year": "Krok 3",
-            "title": "Úspora priestoru v stúpačkách",
-            "text": "Kompaktné inštalácie z PP-R umožňujú užšie inštalačné šachty, čo otvára cenný priestor, ktorý je možné priamo premeniť na prenajímateľnú obytnú (úžitkovú) plochu."
-          },
-          {
-            "year": "Krok 4",
-            "title": "Skúšky tlaku a prevzatie (systému)",
-            "text": "Striktné overovanie celej inštalácie pomocou vodného tlaku pre udelenie K-Aqua garancie (záruky na systém)."
-          }
-        ],
-        "title": "Pohostinnosť (Hospitality) sa stretáva so strojárstvom",
-        "desc": "Od prvej kvapky po wellnes sprchu snov: Systémový návrh bez kompromisov."
-      },
-      "hero": {
-        "eyebrow": "Luxusné pohostinstvo (Hospitality)",
-        "title1": "Päť hviezdičiek pre vodu.",
-        "title2": "Nulové kompromisy.",
-        "desc": "V luxusnom hotelovom sektore a prémiových rezortoch definuje technológia prúdenia vody (potrubná technika) úroveň komfortu hosťa. K Aqua dodáva tichú, výkonnú a krištáľovo čistú vodu do každého apartmánu na celom svete.",
-        "cta1": "Pre hotelových developerov",
-        "cta2": "Skúsenosti a referencie"
-      },
-      "section1": {
-        "eyebrow": "Sťažnosti a údržba",
-        "title": "Keď staré potrubia narúšajú komfort.",
-        "lead": "Hrdzavá voda, kolísavý tlak a hlučné rúry (stúpačky) sú pre hotelových hostí a hodnotenia na internete katastrofou."
-      },
-      "section2": {
-        "eyebrow": "Zážitok K Aqua",
-        "title": "Neviditeľná dokonalosť za stenami.",
-        "lead": "Čistý tlak. Dokonalá hygiena. A to všetko v absolútnej tichosti (bezhlučne). Toto je luxus, pre ktorý sme vytvorili naše potrubia."
-      },
-      "bento": {
-        "items": [
-          {
-            "title": "Žiadne sfarbenie (hrdza)",
-            "desc": "100% nekorodujúci PP-R znamená žiadnu hnedú vodu na začiatku dňa. Vaše kúpeľňové vybavenie a keramika zostanú neporušené."
-          },
-          {
-            "title": "Certifikované pre prímorské rezorty",
-            "desc": "Či už ide o Maldivy alebo Dubaj, chlórovaná a odsoľovaná voda v prímorských strediskách je pre PP-R absolútne neškodná. Soľ a vlhkosť vzduchu ho nenarúšajú ani zvonku."
-          },
-          {
-            "title": "Ochrana proti legionelám v mŕtvej sezóne",
-            "desc": "Využitie našich premyslených kruhových vedení zamedzuje stagnácii, aj keď sú izby a sekcie v hoteli mimo sezóny prázdne."
-          },
-          {
-            "title": "Rýchle opravy pri obnove",
-            "desc": "Počas renovácií hotelov (Retrofiting) je potrubie K Aqua možné hladko spojiť s existujúcimi kovovými systémami pomocou nášho sortimentu prechodových tvaroviek."
-          }
-        ]
-      },
-      "cta": {
-        "title": "Povzneste pohodlie svojho hosťa na novú úroveň.",
-        "desc": "Kontaktujte náš technický tím a my navrhneme spoľahlivé PP-R potrubné riešenie pre váš rezort.",
-        "button": "Konzultovať dizajn hotela"
-      },
-      "intro": {
-        "title1": "Inštalatérstvo",
-        "title2": "ktoré definuje 5 hviezdičiek.",
-        "titleGrad": "Neviditeľne.",
-        "desc": "V segmente luxusného pohostinstva očakávajú hostia dokonalosť od momentu, keď otvoria vodovodný kohútik. Nespoľahlivý tlak, hluk v potrubí alebo zakalená voda môžu zničiť zážitok s piatimi hviezdičkami. Sme tichá nemecká technológia v pozadí najprestížnejších hotelových sietí na svete, ktorá zaručuje plynulý, bezchybný prietok vody, od kúpeľov v suteréne až po strešný bazén (Infinity Pool)."
-      },
-      "bentoSection": {
-        "eyebrow": "Dokonalosť služieb",
-        "title": "Zvyšovanie štandardov pohostinstva.",
-        "lead": "Navrhujeme systémy, ktoré minimalizujú prestoje v údržbe, maximalizujú energetickú účinnosť a neustále zaisťujú najvyššiu kvalitu vody."
-      },
-      "textSection": {
-        "title": "Odborná analýza: Ako inovácie potrubí pretvárajú hotelovú ziskovosť (Hotel Economics).",
-        "p1": "V hoteloch s viac ako 300 izbami predstavujú náklady na energiu a vodu pre budovu až 10 % z celkových prevádzkových výdavkov. Tu už výber potrubného materiálu nie je len inžinierskym rozhodnutím – je to finančná stratégia.",
-        "p2": "Údržba tradičných kovových systémov si nevyhnutne vyžaduje rozsiahle renovačné práce, vrátane otvárania stien, pričom blokuje príjmy z prenájmu izieb. Pri životnosti PP-R systémov presahujúcej 50 rokov sa kapitálové výdavky na výmenu (CaPex) posúvajú takmer na nulu.",
-        "p3": "Okrem toho, izolácia teplej vody dodávaná cez polyméry s nízkou tepelnou vodivosťou priamo znižuje denné požiadavky na energiu ohrievačov a obehových čerpadiel.",
-        "p4": "V odvetví, kde je kľúčový prevádzkový čas (Uptime), zaručujú homogénne fúzne spojenia neexistenciu mikroskopických netesností, čím chránia drahé interiéry a predchádzajú stratám v dôsledku rastu plesní a nespokojnosti hostí.",
-        "h3": "Integrácia systémov pre inteligentné hotely",
-        "p5": "Naša potrubná sieť je pripravená na prepojenie s BMS (Building Management Systems) s integrovanými prietokomermi a automatickými preplachovacími stanicami. PP-R je ideálnou sieťovou chrbtovou kosťou pre inteligentné monitorovanie spotreby.",
-        "p6": "Spoľahnite sa na nekompromisné nemecké inžinierstvo (German Engineering) na optimalizáciu vášho nasledujúceho rezortného alebo pohostinského vývoja (projektu) a posuňte zážitok a spokojnosť hostí na bezprecedentnú úroveň."
-      },
-      "stickySection": {
-        "eyebrow": "Výhody pre hostí",
-        "title": "Hmatateľný rozdiel.",
-        "lead": "Technológia je ukrytá v stenách, no zážitky cítite pri každom dotyku."
-      },
-      "sticky": {
-        "items": [
-          {
-            "title": "Akustický pokoj",
-            "p1": "Už žiadne vodné kladivá (Water Hammers), žiadne hučiace potrubia. Zvuky v potrubí sú pre hostí veľmi rušivé a vyrušujú ich počas oddychu.",
-            "p2": "Naša vlastná molekulárna štruktúra eliminuje vibrácie z tlaku vody a zaručuje úplný tichý chod (Silent operation)."
-          },
-          {
-            "title": "Okamžitá stabilita teploty",
-            "p1": "Hostia požadujú presné tepelné profily z ich dažďových spŕch bez toho, aby čakali, kým pritečie teplá voda.",
-            "p2": "Nízka vodivosť nášho systému znamená, že cirkulačné slučky zostávajú horúce a poskytujú okamžitý komfort a presnú teplotnú odozvu."
-          },
-          {
-            "title": "Neobmedzený prietok vody",
-            "p1": "Výkonnostné sprchy a wellness zariadenia sa nemôžu spoliehať na rúry obmedzujúce (šrtiace) tok a tlakové kolísanie.",
-            "p2": "Interiéry rúr s nulovým trením od K-Aqua udržujú najvyššie hydrodynamické limity a chránia maximálny tlak (pre zážitok hostí)."
-          },
-          {
-            "title": "Hygienická kvalita (Pure Water)",
-            "p1": "Najmä pri luxusných aplikáciách nesmie vo vode v žiadnom prípade pociťovať (chuť) hrdzu ani chemickú pachuť.",
-            "p2": "Odolnosť PP-R proti tvorbe biofilmov a inkrustácií zaručuje nedotknutú kvalitu pitnej vody, bez pachu a chuti po kove."
-          }
-        ]
-      },
-      "perf": {
-        "items": [
-          { "val": "100", "unit": "%", "title": "Bezhlučnosť", "desc": "Pre pokoj v rezorte" },
-          { "val": "0", "unit": " Netesností", "title": "Vylúčené zlyhanie", "desc": "Žiadna strata zisku z prenájmu" },
-          { "val": "50", "unit": "+", "title": "Rokov kvality", "desc": "Garantovaná čistota vody" },
-          { "val": "12", "unit": "%", "title": "Úspora energie", "desc": "Nízka tepelná vodivosť" }
-        ]
-      }
+    "tools": {
+      "seoTitle": "Welding Tools & Pipe Cutters for PP-R",
+      "seoText": "Professional K-Aqua tools for pipe installation. Discover welding equipment and pipe cutters for highest precision and perfect connections.",
+      "guideText": "\n    <h2>Precision in Every Cut</h2>\n    <p>Supreme precision for the perfect connection is the hallmark of our tools. The reliability of any polyfusion plumbing system is entirely dependent on the precision of the installation tools. K-Aqua provides a comprehensive suite of professional-grade cutting and welding equipment, designed to eliminate human error and guarantee perfect, homogeneous joints at every single connection, from 20 mm residential lines up to massive 250 mm industrial mains.</p>\n    <p>A flawless weld begins with a perfectly square, clean cut. Our ratcheting and rotary pipe cutters ensure a burr-free, 90-degree edge, which is absolutely essential for the pipe to seat correctly within the fitting socket. If a pipe is cut at an angle, the resulting weld will be uneven, potentially leading to flow restriction or long-term structural failure. Our cutters are built with hardened steel blades to withstand the rigours of the job site.</p>\n    <p>For the welding process, K-Aqua’s hand-held welding machines and heavy-duty hydraulic welding stations feature electronically controlled heating elements. These thermostats strictly maintain the critical 260°C temperature required for optimal molecular bonding, preventing the plastic from degrading due to overheating or forming brittle, weak joints due to underheating.</p>\n    <ul>\n      <li>Electronically regulated thermostats guarantee precise welding temperatures.</li>\n      <li>High-quality Teflon (PTFE) coating prevents plastic from sticking to the dies.</li>\n      <li>Ratcheting pipe cutters reduce hand fatigue and ensure perfectly square cuts.</li>\n      <li>Heavy-duty hydraulic machines provide the immense force needed for large-diameter pipes.</li>\n      <li>Electrofusion machines offer automated, documented welding for critical applications.</li>\n    </ul>\n    <p>The heating dies themselves are coated with premium, non-stick Teflon (PTFE) to ensure a clean transfer of heat and to prevent tearing the melted plastic upon removal. By using K-Aqua's original automated electrofusion machines, butt-welding machines, and specialised saddle tools, contractors can maximise their on-site efficiency, significantly reduce physical fatigue, and provide their clients with documented, 100% leak-proof quality assurance.</p>\n    <p>Investing in professional K-Aqua tools is an investment in the longevity and integrity of your work. They are engineered to perform reliably in the harshest environments, ensuring that you can deliver German-engineered perfection on every project, regardless of scale or complexity.</p>\n  "
+    },
+    "accessories": {
+      "seoTitle": "Accessories for PP-R Pipe Installations",
+      "seoText": "Professional accessories from K-Aqua for your pipe installation. Discover pipe clamps, seals, repair plugs, and counter flanges for maximum safety.",
+      "guideText": "\n    <h2>The Finishing Touch</h2>\n    <p>Accessories for a compliant installation transform a functional plumbing system into a professional masterpiece. While the pipes and fittings form the core of the network, the supporting accessories are crucial for managing thermal expansion, mitigating vibration, and ensuring secure integration into the building's infrastructure. K-Aqua offers a comprehensive ecosystem of accessories designed to harmonise perfectly with our PP-R and PPRCT products.</p>\n    <p>One of the most critical aspects of any hot water or heating installation is managing the linear expansion of the pipes. Our specialised pipe clamps are engineered to act as either fixed anchor points or sliding guides, allowing the pipe to smoothly expand and contract without damaging the joints or stressing the building structure. These clamps feature thick rubber linings that provide excellent acoustic insulation, preventing the transmission of flow noise through the walls.</p>\n    <p>Furthermore, our range includes high-quality EPDM flat gaskets, specialised weld-neck flanges with steel cores for industrial connections, and robust repair plugs that provide quick and permanent fixes should a pipe be accidentally punctured during construction.</p>\n    <ul>\n      <li>Acoustically lined pipe clamps eliminate the transmission of flow noise.</li>\n      <li>Proper anchoring systems manage thermal expansion and contraction safely.</li>\n      <li>Steel-reinforced weld-neck flanges ensure a secure connection to heavy machinery.</li>\n      <li>Premium EPDM gaskets provide resilient, long-lasting seals at flanged joints.</li>\n      <li>Specialised repair plugs offer a permanent solution for accidental drill holes.</li>\n    </ul>\n    <p>Using generic or incompatible accessories can severely compromise the performance of a premium piping system. For example, using unlined clamps on a hot water line can cause irritating clicking noises as the pipe expands, while improper anchoring can cause the pipe to bow or even snap under thermal stress. K-Aqua accessories undergo rigorous testing to ensure they meet our exacting standards.</p>\n    <p>By utilising our full range of accessories, installers can guarantee that their work not only meets but exceeds local building codes and industry standards. It is the attention to these small details that defines a truly professional installation and ensures decades of flawless operation.</p>\n  "
+    },
+    "transitionFittings": {
+      "seoTitle": "Transition Fittings made of Brass & PP-R",
+      "seoText": "Transition fittings serve as the crucial bridge between K-Aqua's advanced PP-R/PPRCT pipes and existing steel, copper, or brass components. These fittings require an extraordinary level of engineering.",
+      "advTitle": "Secure and homogeneous connections",
+      "advList": [
+        "DZR brass inserts offer superior resistance to dezincification.",
+        "Anti-twist design withstands high torques.",
+        "An inseparable connection between plastic and metal ensures leak-free performance."
+      ],
+      "guideText": "\n    <h2>Bridging the Gap</h2>\n    <p>When connecting modern polymer systems to traditional metallic infrastructure, secure and homogeneous connections are of absolute importance. Transition fittings serve as the crucial bridge between K-Aqua's advanced PP-R/PPRCT pipes and existing steel, copper, or brass components such as boilers, chillers, and sanitary fixtures. These fittings require an extraordinary level of engineering to ensure that the connection between metal and plastic remains completely leak-proof even under extreme thermal cycling and mechanical stress.</p>\n    <p>K-Aqua transition fittings feature deeply embedded, anti-twist DZR (Dezincification Resistant) brass inserts. During the injection moulding process, the hot PP-R is moulded directly around the complex geometric profile of the brass insert. As the plastic cools and shrinks, it grips the brass with immense force, forming an inseparable mechanical bond. This design prevents the brass insert from twisting or pulling out, even when subjected to the high torque of a plumber's wrench during installation.</p>\n    <p>Furthermore, the premium DZR brass ensures that the metallic portion of the fitting is highly resistant to aggressive water conditions, preventing the premature corrosion that often plagues standard brass fittings. This is especially critical in hot water systems, where the rate of reaction is significantly accelerated.</p>\n    <ul>\n      <li>DZR brass inserts offer superior resistance to dezincification and corrosion.</li>\n      <li>Anti-twist design easily withstands high torques during threaded installations.</li>\n      <li>An inseparable connection between plastic and metal ensures lifelong, leak-free performance.</li>\n      <li>Available in a wide range of male and female thread configurations.</li>\n      <li>Perfect for connecting PP-R networks to metallic pumps, valves, and boilers.</li>\n    </ul>\n    <p>Whether you need to adapt a massive 125 mm industrial cooling line to a steel flange or simply connect a 20 mm residential water pipe to a chrome angle valve, K-Aqua provides the exact transition piece required.</p>\n  "
+    },
+    "valves": {
+      "guideText": "\n    <h2>Absolute Flow Control</h2>\n    <p>Precise control and long-lasting functionality are essential for the management of modern sanitary networks. Effective fluid management requires robust, reliable control points that integrate seamlessly into the main distribution network. K-Aqua offers a comprehensive range of high-performance isolation valves, including full-bore ball valves, concealed valves, and precision valves, all designed specifically for direct polyfusion into PP-R piping.</p>\n    <p>By manufacturing the valve body from the exact same PP-R polymer as the surrounding pipes, we eliminate the need for threaded transition pieces when installing isolation points. This drastically speeds up installation time, reduces material costs, and removes potential weak points in the system. The internal mechanical components, such as precision-machined brass balls, stainless steel spindles, and premium Teflon (PTFE) seat rings, are engineered to provide incredibly smooth, maintenance-free operation for decades.</p>\n    <p>Unlike traditional metallic gate valves, which often jam after years of inactivity or leak at the packing gland, K-Aqua's plastic-encapsulated valves are immune to external corrosion, making them perfect for damp plant rooms, buried installations, or humid industrial environments.</p>\n    <ul>\n      <li>Full-bore design prevents any restriction of fluid flow.</li>\n      <li>Corrosion-resistant plastic bodies protect internal metal components.</li>\n      <li>Direct polyfusion eliminates the need for vulnerable threaded joints.</li>\n      <li>Ergonomic handles and precision mechanics ensure smooth operation.</li>\n      <li>Available in a variety of sizes to meet both residential and industrial needs.</li>\n    </ul>\n    <p>Our full-bore design ensures that when the valve is open, hydraulic flow is unrestricted, maintaining optimal system pressure and maximising the efficiency of circulation pumps. Whether you need to isolate a single sanitary fixture or control the main supply line of a commercial building, K-Aqua valves deliver the required reliability and performance.</p>\n    <p>Every valve undergoes rigorous pressure testing before packaging to ensure it meets our uncompromising quality standards. Trust K-Aqua for the control mechanisms that keep your fluid networks operating safely and efficiently, day after day and year after year.</p>\n  "
+    },
+    "weldInSaddles": {
+      "seoTitle": "Weld-in Saddles & Branches for PP-R Pipes",
+      "seoText": "K-Aqua weld-in saddles enable simple and secure retroactive branches without interrupting the line. Minimal installation time and maximum system integrity.",
+      "guideText": "\n    <h2>Simple Branching</h2>\n    <p>When it comes to expanding or modifying an existing pipeline, weld-in saddles offer an unparalleled solution for maximum flexibility. K-Aqua's weld-in saddles are an innovative and highly efficient method for creating new branches in existing PP-R and PPRCT networks. Instead of cutting out a large section of the main pipe and installing a bulky, expensive tee, a saddle allows you to simply drill a hole in the side of the pipe and weld the branch directly onto the outer wall.</p>\n    <p>This process saves a tremendous amount of time, labour, and material, especially when working with large-diameter industrial pipes. The saddle features a concave base that perfectly matches the curvature of the main pipe, ensuring a large surface area for the polyfusion process. Once welded, the saddle becomes a permanent, integral part of the main pipe, possessing the exact same strength and pressure rating as a factory-moulded tee.</p>\n    <p>For contractors retrofitting older buildings or adding new equipment to an active plant room, weld-in saddles are an absolute game-changer. They require significantly less space around the pipe and allow for modifications even in tight, confined spaces where manoeuvring a large cutting tool would be impossible.</p>\n    <ul>\n      <li>Drastically reduces material costs compared to large-diameter tees.</li>\n      <li>Minimises downtime during retrofits and system expansions.</li>\n      <li>Requires less physical space for installation in crowded plant rooms.</li>\n      <li>Maintains the structural integrity and pressure rating of the main line.</li>\n      <li>Available with brass threaded inserts for direct connection to sensors or valves.</li>\n    </ul>\n    <p>We provide specialised drilling tools and contoured heating dies specifically designed for use with our saddles. This ensures that every hole is perfectly round and every weld seam is evenly heated, guaranteeing a flawless, leak-free connection every time. Our weld-in saddles embody K-Aqua's commitment to practical, intelligent engineering.</p>\n    <p>Whether you are adding a new sensor port, a drainage line, or an entirely new manifold branch, K-Aqua weld-in saddles offer the structural strength and operational simplicity required to get the job done right the first time.</p>\n  "
     }

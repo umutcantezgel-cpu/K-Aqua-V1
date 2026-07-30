@@ -1,0 +1,440 @@
+  },
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "Direktang Kontak",
+      "head": "Simulan ang iyong susunod na proyekto na may maaasahang numero.",
+      "short": "Makipag-usap nang direkta sa produksyon",
+      "text": "Ibigay sa amin ang mga pangunahing parameter tulad ng diameter ng tubo at haba ng ruta. Susuriin namin ang aming kapasidad ng produksyon sa Germany at bibigyan ka namin ng makatotohanang oras ng paghahatid.",
+      "interest": "Rohrsysteme",
+      "done": "Susuriin ng isa sa aming mga engineer ang iyong mga parameter at makikipag-ugnayan agad."
+    },
+    "unternehmen": {
+      "kicker": "Pagbisita sa Pabrika at Payo",
+      "head": "Personal na makilala ang produksyon sa likod ng K Aqua.",
+      "short": "Mag-iskedyul ng pagbisita",
+      "text": "Bilang isang kumpanyang pinapatakbo ng pamilya, malugod naming binubuksan ang aming mga pintuan sa mga tagaplano. Iwanan ang iyong detalye para ma-iskedyul ang pagbisita sa pabrika sa Waldsolms.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan kami upang ayusin ang iyong pagbisita sa Waldsolms."
+    },
+    "produkte_fittings": {
+      "kicker": "Mga Formteil at Fitting",
+      "head": "Pagsusuri ng listahan ng mga piyesa (BOM) para sa fittings.",
+      "short": "Magtanong tungkol sa fittings",
+      "text": "Ipadala sa amin ang dimensyon at dami ng kinakailangang fittings. Tatantyahin namin ang availability at magmumungkahi ng optimization para sa hydraulic balancing kung nais.",
+      "interest": "Ersatzteile",
+      "done": "Ang aming technical sales team ay makikipag-ugnayan upang pag-usapan ang listahan."
+    },
+    "produkte_rohre": {
+      "kicker": "Mga Tubong PP-R",
+      "head": "Dimensyon at oras ng paghahatid para sa proyekto.",
+      "short": "Mga tanong tungkol sa PP-R pipes",
+      "text": "Ibigay sa amin ang pressure class, medium, at haba ng ruta. Susuriin ng aming mga inhinyero ang availability at bibigyan ka ng eksaktong petsa ng delivery.",
+      "interest": "Rohrsysteme",
+      "done": "Isang inhinyero ang tatawag sa iyo sa loob ng isang business day."
+    },
+    "produkte_armaturen": {
+      "kicker": "Mga Balbula at Armature",
+      "head": "Ang tamang balbula para sa iyong hydraulic na pangangailangan.",
+      "short": "Hanapin ang mga balbula",
+      "text": "Ilarawan nang maikli ang maximum na operating pressure at medium. Ipapasa namin ang mga kaukulang data sheet at availability.",
+      "interest": "Ersatzteile",
+      "done": "Isang eksperto sa balbula ang magpapadala ng mga specification sa lalong madaling panahon."
+    },
+    "produkte_werkzeuge": {
+      "kicker": "Mga Welding Tool",
+      "head": "Siguraduhing tama ang kagamitan para sa ganap na selyadong mga welding.",
+      "short": "Umarkila o bumili ng tools",
+      "text": "Maging ito ay socket welding o electrofusion: ipaalam sa amin kung anong mga dimensyon ang gagamitin. Kami na ang bahala sa tamang makinarya.",
+      "interest": "Beratung",
+      "done": "Susuriin ng aming equipment team ang imbentaryo at makikipag-ugnayan agad."
+    },
+    "produkte_uebergaenge": {
+      "kicker": "Mga System Transition",
+      "head": "Ligtas na paglipat ng materyal mula metal papuntang plastic.",
+      "short": "Transition fittings",
+      "text": "Ibigay sa amin ang eksaktong sukat ng thread at materyal ng lumang tubo. Irerekomenda namin ang mga transition na walang corrosion.",
+      "interest": "Rohrsysteme",
+      "done": "Tatawag sa iyo ang isang technician upang piliin ang tamang transition."
+    },
+    "produkte_zubehoer": {
+      "kicker": "Mga Aksesorya at Fastening",
+      "head": "Kumpletuhin ang iyong instalasyon gamit ang mga orihinal na aksesorya.",
+      "short": "Magtanong tungkol sa aksesorya",
+      "text": "Mula pipe clamps hanggang insulation material: Sabihin sa amin ang kailangan mo. Sisiguraduhin naming magkakatugma ang lahat sa sistema ng K Aqua.",
+      "interest": "Ersatzteile",
+      "done": "Kasalukuyan nang inihahanda ang iyong alok para sa mga aksesorya."
+    },
+    "katalog": {
+      "kicker": "Buong Katalogo",
+      "head": "Lahat ng numero ng artikulo at sukat.",
+      "short": "Tulong sa paghahanap ng artikulo",
+      "text": "Hindi mahanap ang espesyal na sukat sa katalogo? Ilarawan nang maikli ang kailangan mong bahagi, hahanapin namin ito sa imbentaryo para sa iyo.",
+      "interest": "Beratung",
+      "done": "Sasaliksikin namin ang hinahanap mong bahagi at tatawagan ka."
+    },
+    "finder": {
+      "kicker": "Product Finder",
+      "head": "Hayaan mong paikliin namin ang paghahanap ng tamang system.",
+      "short": "Direktang tulong sa product finder",
+      "text": "Kung ang iyong parameter (temperatura, presyon) ay nasa limitasyon, kami na ang magdedisenyo nito para sa iyo. Kadalasan, isang tawag lang ay nakakatipid ng oras.",
+      "interest": "Beratung",
+      "done": "Tatawagan ka ng isang system planner para sa eksaktong disenyo."
+    },
+    "produkte": {
+      "kicker": "Hanay ng Produkto",
+      "head": "May mga katanungan tungkol sa compatibility ng aming PP-R components?",
+      "short": "System advice para sa K Aqua",
+      "text": "Bigyan kami ng pangkalahatang-ideya kung anong mga system ang gusto mong ikonekta. Ipapakita namin kung paano bubuuin ang pasilidad na homogenous at walang tagas.",
+      "interest": "Rohrsysteme",
+      "done": "Makikipag-ugnayan kami kasama ang mga teknikal na detalye ng compatibility."
+    },
+    "academy": {
+      "kicker": "Pagsasanay at Sertipikasyon",
+      "head": "Mag-book ng praktikal na seminar para sa iyong mga tauhan.",
+      "short": "Magtanong tungkol sa K Aqua Academy",
+      "text": "Tiyakin ang warranty sa pamamagitan ng propesyonal na pagproseso. Ipaalam ang bilang ng iyong mga empleyado at mag-aalok kami ng petsa para sa pagsasanay.",
+      "interest": "Beratung",
+      "done": "Mag-aalok ang Academy team ng mga petsa ng pagsasanay."
+    },
+    "referenzen": {
+      "kicker": "Mga Katulad na Proyekto",
+      "head": "Makinabang sa aming karanasan mula sa mga sangguniang proyekto.",
+      "short": "Humingi ng reference data",
+      "text": "Nagpaplano ka ba ng katulad na gusali o industrial hall? Masaya naming ibabahagi ang aming lessons learned at best practices mula sa aming malalaking proyekto.",
+      "interest": "BIM Daten",
+      "done": "Tatawag ang isang project manager para sa pagpapalitan ng karanasan."
+    },
+    "support": {
+      "kicker": "Teknikal na Suporta",
+      "head": "Agarang tulong sa mga hamon sa site.",
+      "short": "Mabilisang solusyon sa problema",
+      "text": "May problema ba sa welding seam o resulta sa pressure test? Iwan ang iyong numero, at tatawag agad ang aming technical support para sa remote diagnosis.",
+      "interest": "Beratung",
+      "done": "Naalerto na ang technical support at tatawag sila sa lalong madaling panahon."
+    },
+    "ausschreibungstexte": {
+      "kicker": "LV-Texts & Pagpaplano",
+      "head": "Kumuha ng manufacturer-neutral na tender texts sa loob ng ilang minuto.",
+      "short": "Tulong sa mga tender document",
+      "text": "Nagbibigay kami ng GAEB-compliant files o Word templates. Ipaalam ang uri ng proyekto at magpapadala kami ng angkop na text blocks.",
+      "interest": "BIM Daten",
+      "done": "Ipinapadala na ang kaukulang tender texts."
+    },
+    "service": {
+      "kicker": "Serbisyo On-site",
+      "head": "Suporta mula sa K Aqua technicians sa iyong site.",
+      "short": "Humingi ng on-site briefing",
+      "text": "Kailangan ba ng iyong team ng machine briefing on-site? Magpapadala kami ng superbisor para gabayan ang iyong proyekto sa kritikal na yugto ng pagsisimula.",
+      "interest": "Beratung",
+      "done": "Sinusuri ng aming service team ang availability ng superbisor."
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "Zero Leakage Networks",
+      "head": "Bawat porsyento ng nawawalang tubig ay may katumbas na halaga.",
+      "short": "Pagkalkula ng loss sa iyong network",
+      "text": "Ilarawan ang sukat ng network at climate zone. Kalkulahin namin kung gaano karaming tubig at budget ang isasalba ng K Aqua.",
+      "interest": "Trinkwassernetze",
+      "done": "Makikipag-ugnayan ang isang network planner para sa paunang loss calculation."
+    },
+    "maerkte_klima": {
+      "kicker": "HVAC & Pagpapalamig (Cooling)",
+      "head": "Siguraduhin ang mataas na daloy ng walang panganib ng corrosion.",
+      "short": "Magplano ng efficient cooling circuits",
+      "text": "Ibigay ang cooling capacity at flow temperature. Ididisenyo namin ang cross-section upang maiwasan ang pressure losses sa iyong HVAC system.",
+      "interest": "Rohrsysteme",
+      "done": "Makikipag-ugnayan ang isang HVAC expert tungkol sa disenyo."
+    },
+    "maerkte_industrie": {
+      "kicker": "Pang-industriyang Pasilidad",
+      "head": "Lumalaban sa kemikal (Chemical resistance) para sa mapanghamong media.",
+      "short": "Humingi ng chemical resistance check",
+      "text": "Nagpo-proseso ng mga asido o purong tubig? Ipadala ang kemikal na komposisyon at ikukumpirma ng aming laboratoryo ang kakayahan ng aming tubo.",
+      "interest": "Beratung",
+      "done": "Sinusuri ng laboratoryo at makikipag-ugnayan sa iyo."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Paggawa ng Barko & Marine",
+      "head": "Magaan at matibay sa vibration para sa mga network sa barko.",
+      "short": "Humingi ng marine approvals",
+      "text": "Grey, black, o ballast water man yan: Ipaalam ang class ng barko. Magpapadala kami ng classification certificates (DNV, Lloyd's).",
+      "interest": "Beratung",
+      "done": "Isang marine expert ang magpapadala sa iyo ng mga sertipiko."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Agrikultura & Greenhouse",
+      "head": "Matibay na network ng patubig (irrigation) para sa pinakamataas na ani.",
+      "short": "Disenyo ng irrigation system",
+      "text": "Sabihin ang bilang ng ektarya at pangangailangan sa tubig. Kami ay magdidisenyo ng PP-R network na nagtatagal at pumipigil sa pamumuo ng lumot (algae).",
+      "interest": "Trinkwassernetze",
+      "done": "Makikipag-ugnayan kami upang talakayin ang iyong irrigation network."
+    },
+    "maerkte": {
+      "kicker": "Rehiyonal na Merkado",
+      "head": "Makipag-usap sa export specialist para sa iyong rehiyon.",
+      "short": "Logistik at pag-apruba (approval)",
+      "text": "Kami ay nag-e-export sa buong mundo. Ipaalam ang bansa, at bibigyan ka namin ng impormasyon tungkol sa mga lokal na pamantayan at oras ng paghahatid.",
+      "interest": "Beratung",
+      "done": "Isang export manager ang tatawag sa iyo."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "Pagtatayo ng High-rise (Matataas na gusali)",
+      "head": "Pag-stabilize ng presyon sa matataas na riser.",
+      "short": "Kalkulahin ang pressure loss sa mga gusali",
+      "text": "Walang puwang para magkamali sa hydromechanics ng mga matataas na gusali. Ibigay ang taas at palapag, tutulungan ka namin sa pagposisyon ng pressure reducers.",
+      "interest": "BIM Daten",
+      "done": "Makikipag-ugnayan ang isang hydraulic specialist."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Mga Ospital",
+      "head": "Pagpigil sa mikrobyo at Legionella sa ospital.",
+      "short": "Kalinisan ng inuming tubig (Drinking water hygiene)",
+      "text": "Pangunahing prayoridad ang proteksyon ng mga pasyente. Tutulungan ka namin tungkol sa ring mains, pag-iwas sa dead legs at thermal disinfection.",
+      "interest": "Trinkwassernetze",
+      "done": "Isang eksperto sa kalinisan (hygiene expert) ang tatawag agad."
+    },
+    "loesungen_hotel": {
+      "kicker": "Mga Pasilidad ng Hotel",
+      "head": "Acoustic decoupling para sa mapayapang tulog ng iyong mga bisita.",
+      "short": "Sound insulation (pagkakabukod ng tunog) sa hotel",
+      "text": "Ang ingay ng daloy ay nagdudulot ng reklamo. Sabihin ang wall structures, irerekomenda namin ang sound-insulating na mga mounting.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan kami para i-optimize ang sound insulation."
+    },
+    "loesungen": {
+      "kicker": "Mga Espesyal na Solusyon",
+      "head": "Pasadyang system solutions para sa mga kumplikadong proyekto.",
+      "short": "Teknikal na payo",
+      "text": "Hindi sapat ang standard na solusyon? Ibalangkas ang hamon, ang aming design department ay gagawa ng mga pasadyang bahagi.",
+      "interest": "Beratung",
+      "done": "Tiningnan na ng design department ang iyong request."
+    },
+    "co2_rechner": {
+      "kicker": "Pagtitipid ng CO2",
+      "head": "Hayaan mong patunayan namin ang footprint ng iyong proyekto.",
+      "short": "Humingi ng detalyadong CO2 footprint",
+      "text": "Ang calculator ay nagbibigay lamang ng gabay. Ipadala ang BOM, at bibigyan ka namin ng sertipiko ng natipid na CO2 para sa sustainability audit mo.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan ang isang sustainability officer para ibigay ang sertipiko."
+    },
+    "trust_center": {
+      "kicker": "Mga Sertipiko at Norms",
+      "head": "Kailangan mo ba ng partikular na sertipiko para sa inspeksyon?",
+      "short": "Humingi ng sertipiko",
+      "text": "Kung hihingi ang inspektor ng patunay (DVGW, SKZ, KIWA), ibigay sa amin ang pamantayan at ipapadala namin ang up-to-date na dokumento sa pamamagitan ng PDF.",
+      "interest": "BIM Daten",
+      "done": "Hinahanap na ang sertipiko at ipapadala na sa iyo."
+    },
+    "projektanfrage": {
+      "kicker": "Simula ng Proyekto",
+      "head": "Ibigay ang mga pangunahing data, kami na ang magbibigay ng badyet (budget).",
+      "short": "Mabilis na pagtatantya",
+      "text": "Mag-upload ng mga plano o tawagan kami para sa square meters. Bibigyan ka namin ng paunang framework sa presyo.",
+      "interest": "Rohrsysteme",
+      "done": "Tatawag ang project team para pag-usapan ang budget."
+    },
+    "kontakt": {
+      "kicker": "Direktang Linya",
+      "head": "Ang pinakamabilis na daan patungong K Aqua HQ.",
+      "short": "Tatawagan ka namin",
+      "text": "Walang waiting loops. Ibigay ang iyong numero at paksa, ang tamang espesyalista ay agad na makikipag-ugnayan.",
+      "interest": "Beratung",
+      "done": "Natanggap na ang iyong request. Tatawag ang aming consultant."
+    },
+    "news": {
+      "kicker": "Media",
+      "head": "May mga katanungan tungkol sa press release o bagong produkto?",
+      "short": "Kontakin ang Corporate Communications",
+      "text": "Para sa mga larawan, panayam, o teknikal na background, iwanan lang ang iyong detalye.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan ang aming press department sa lalong madaling panahon."
+    },
+    "karriere": {
+      "kicker": "Karera sa K-Aqua",
+      "head": "Magtanong tungkol sa aming mga bakante.",
+      "short": "Direktang tawag sa HR",
+      "text": "Hindi sigurado kung nababagay ang iyong profile? Sasagutin ng aming HR team ang lahat ng tanong mo sa telepono bago ka mag-apply.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan ang HR department para sa isang maikling pagpapakilala."
+    },
+    "partnerschaft": {
+      "kicker": "Maging Dealer",
+      "head": "Idagdag ang German premium pipes sa iyong mga produkto.",
+      "short": "Magtanong ng kondisyon para sa dealer",
+      "text": "Ikaw ba ay wholesaler na naghahanap ng maaasahang PP-R supplier? Ipaalam ang iyong rehiyon at pag-uusapan natin ang mga dealer condition.",
+      "interest": "Beratung",
+      "done": "Tatawag ang aming Sales Manager for Partnerships."
+    },
+    "impressum": {
+      "kicker": "Legal",
+      "head": "Mga katanungan sa impormasyon ng aming kumpanya?",
+      "short": "Kontakin ang K Aqua Secretariat",
+      "text": "Iwanan ang iyong numero rito para sa mga legal o pormal na tanong.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan kami upang linawin ang iyong katanungan."
+    },
+    "datenschutz": {
+      "kicker": "Patakaran sa Privacy",
+      "head": "Kausapin ang aming Data Protection Officer.",
+      "short": "Humingi ng impormasyon tungkol sa iyong data",
+      "text": "Seryoso namin ang iyong privacy. Iwanan ang detalye para sa pagbura o impormasyon sa iyong data.",
+      "interest": "Beratung",
+      "done": "Makikipag-ugnayan agad sa iyo ang Data Protection Officer."
+    },
+    "fallback": {
+      "kicker": "Kontak",
+      "head": "Direktang makipag-usap sa aming mga inhinyero.",
+      "short": "Direktang linya",
+      "text": "Numero ng telepono, email, at isang click sa iyong paksa. Wala nang iba pang kailangan.",
+      "interest": "Beratung",
+      "done": "Isang teknikal na tagapayo (advisor) ang makikipag-ugnayan sa iyo sa loob ng isang araw."
+    }
+  },
+  "kontaktForm": {
+    "phoneLabel": "Telepono",
+    "phonePlaceholder": "0917 1234567",
+    "phoneError": "Pakilagay ang iyong numero ng telepono",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "purchasing@company.com",
+    "emailError": "Pakilagay ang wastong E-Mail",
+    "chipsLabel": "Ano ang iyong kailangan?",
+    "send": "Ipadala ang pagtatanong",
+    "sendError": "Nabigo ang pagpapadala. Mangyaring subukan muli o tawagan kami nang direkta:",
+    "legal": "Walang ad, hindi ipapasa sa iba.",
+    "legalLink": "Patakaran sa Privacy",
+    "doneTitle": "Salamat, natanggap namin ang pagtatanong.",
+    "doneTitleSlim": "Salamat, natanggap na ito.",
+    "direct": "Nagmamadali? Direktang tawag",
+    "promise": "Sagot sa loob ng isang business day",
+    "ccAria": "Country Code",
+    "closeAria": "Isara",
+    "fabAria": "Kontak",
+    "interests": {
+      "rohrsysteme": "Pipe Systems",
+      "trinkwassernetze": "Drinking Water Networks",
+      "bim": "BIM Data",
+      "ersatzteile": "Spare Parts",
+      "beratung": "Pagkonsulta"
+    }
+  },
+  "enterprise": {
+    "eyebrow": "Enterprise Core",
+    "heroTitle": "High-Performance",
+    "heroTitleEm": "Pipe Systems",
+    "heroLead": "Para sa mga pang-industriyang aplikasyon, suplay ng inuming tubig, at air conditioning sa ilalim ng matitinding kondisyon.",
+    "telemetry": {
+      "pressureLabel": "System Pressure",
+      "liveSuffix": "MPa live",
+      "tempLabel": "Max. Temperature",
+      "tempNote": "PN20 · Continuous operation",
+      "meta": [
+        ["Materyal", "K Aqua PP-R (Type 3)"],
+        ["Norm", "DIN 8077/8078"],
+        ["Sertipikasyon", "DVGW, SKZ, KIWA"],
+        ["Buhay (Lifespan)", "> 50 Taon"]
+      ]
+    },
+    "layers": {
+      "title": "Teknolohiya ng Fiber-Composite",
+      "desc": "3-layer na estruktura para maiwasan ang linear expansion at magbigay ng maximum stability sa matataas na temperatura.",
+      "ariaGroup": "Material Layers",
+      "items": [
+        {"t": "PPRCT", "d": "Outer layer"},
+        {"t": "Fiber-composite", "d": "Middle layer"},
+        {"t": "PPRCT", "d": "Inner layer"}
+      ]
+    },
+    "comply": {
+      "title": "Compliance at Mga Pamantayan",
+      "items": [
+        ["DVGW", "Drinking Water Approval"],
+        ["SKZ", "Quality Monitoring"],
+        ["KIWA", "System Certification"],
+        ["DIN 8077/8078", "Pipe Dimensions & Tolerances"]
+      ]
+    },
+    "rangeTitle": "Mga Dimensyon",
+    "network": {
+      "title": "Global na Network",
+      "lead": "Ginagamit ang mga sistema ng K Aqua sa mahigit 35 bansa sa buong mundo. Mula Waldsolms hanggang sa buong mundo.",
+      "chips": [
+        ["35+", "Bansa"],
+        ["3", "Kontinente"],
+        ["ISO", "Sertipikado"]
+      ]
+    }
+  },
+  "referenzenPage": {
+    "hero": {
+      "eyebrow": "Mga Pang-industriyang Reference Project",
+      "titlePlain": "Teknolohiyang nagpapatunay ",
+      "titleAccent": "sa sarili.",
+      "lead": "Mula Waldsolms hanggang sa buong mundo: Ang K-Aqua PP-R at PP-RCT systems ay ginagamit na sa matataas na gusali, ospital, at barko sa loob ng ilang dekada, sa ilalim ng mga kondisyon na hindi pumapayag sa ikalawang pagkakataon.",
+      "cta1": "Tingnan ang mga proyekto",
+      "cta2": "Humiling ng test report"
+    },
+    "manifesto": {
+      "title": "Doktrina ng Presisyon",
+      "p1": "Sa isang industriya kung saan karaniwan ang pagkapagod (fatigue) at corrosion ng materyales, nagtatakda ang aming produksyon ng ibang pamantayan. Bawat tubo ay resulta ng applied materials science. Ito ang pangunahing batas ng <span class=\"font-semibold\">K-Aqua Reference Class</span>.",
+      "p2": "Tumatakbo ang aming mga sistema sa mga lugar kung saan ang isang simpleng tagas ay maaaring magpahamak sa isang buong ospital o gusali. Sumasailalim ang mga ito sa long-term internal pressure tests alinsunod sa ISO 9080.",
+      "p3": "Sinasadya naming iwasan ang mga malabong timpla (mix) ng materyales. Dokumentado ang aming recipe sa buong production chain. Ang mga extrusion temperatures ay kinakalibrate at ang bawat welding seam ay itinatala, upang walang aberya kahit sa 70°C at PN20.",
+      "p4": "Ang quality assurance para sa amin ay hindi lamang isang huling yugto ng pagsusuri, kundi bahagi ng bawat antas ng produksyon. Ang pagiging tatlong-beses na sertipikado (DVGW, SKZ, KIWA) ay nangangahulugan na hindi kailanman magiging kahinaan ang aming system."
+    },
+    "metrics": {
+      "eyebrow": "Teknikal na Sukatan (Metrics)",
+      "title1": "Walang kompromisong",
+      "title2": "mga Parameter",
+      "lead": "Ang aming mga sistema ay hindi ina-advertise; sinusuri ang mga ito. Narito ang mga pangunahing basehan.",
+      "items": {
+        "pressure": {
+          "title": "Long-term pressure test ayon sa ISO 9080",
+          "desc": "Ang bawat dimensyon ay dumadaan sa internal pressure tests na ina-extrapolate para sa 50 taon ng buhay.",
+          "placeholder": "Regression curve long-term internal pressure test"
+        },
+        "isolation": {
+          "title": "Seamless na traceability ng batch",
+          "desc": "Bawat tubo ay may batch number na pwedeng masubaybayan hanggang sa delivery ng polymer."
+        },
+        "tolerance": {
+          "title": "Micrometer-level na tolerance sa kapal (wall thickness)",
+          "desc": "Isang tuluy-tuloy na ultrasound measurement ang isinasagawa sa panahon ng extrusion upang panatilihin ang dimensyon sa DIN 8077/8078."
+        },
+        "network": {
+          "title": "Global sales at service network",
+          "desc": "Nagde-deliver kami sa higit 35 bansa at nagbibigay ng teknikal na suporta.",
+          "placeholder": "Export map ng K-Aqua sales network"
+        },
+        "welding": {
+          "title": "Integridad ng Welding Seam",
+          "desc": "Bawat socket welding ay sinusunod ang isang documented na profile ng oras, temperatura, at presyon.",
+          "placeholder": "Micrograph ng K-Aqua socket weld"
+        }
+      }
+    },
+    "cta": {
+      "title1": "Handa para sa",
+      "title2": "susunod mong proyekto",
+      "lead": "Nagpaplano ka ba ng matataas na gusali o pasilidad pang-industriya? Hinihintay ng aming mga inhinyero ang iyong specifications kasama ng solidong test data at hindi puro pangako ng marketing.",
+      "btn1": "Humingi ng mga test certificate",
+      "btn2": "Ipadala ang specifications"
+    },
+    "icons": {
+      "pressure": "Gauge",
+      "isolation": "ShieldCheck",
+      "tolerance": "Ruler",
+      "network": "Globe2",
+      "welding": "Flame",
+      "manifesto": "Droplet",
+      "cta": "Factory"
+    }
+  },
+  "seoExpansion": {
+    "t1": "High-Performance Pipe Systems at Fluid Management",
+    "p1": "Bilang nangungunang pandaigdigang tagagawa ng PP-R at PPRCT pipe systems, nag-aalok ang K-Aqua ng matibay, maaasahan at highly efficient na fluid management solutions para sa inuming tubig, heating, at cooling networks. Tinitiyak ng aming mga tubo (mula SDR 11 hanggang PP-RCT na may fiber glass reinforcement) na ang network ay mananatiling leak-free sa loob ng 50 taon. Ligtas ang aming inuming tubig, sertipikado ng internasyonal na mga tanggapan, at pumipigil sa pagdami ng Legionella.",
+    "t2": "Advanced na Fittings, Balbula at Tool sa Pag-install",
+    "p2": "Bilang karagdagan sa piping architecture, nagbibigay rin ang K-Aqua ng kumpletong hanay ng mga injection-molded fitting, transition fitting at balbula. Ang lahat ay gumagawa ng hindi masisirang (indestructible) kemikal na koneksyon sa pamamagitan ng welding. Para sa ligtas na instalasyon, nag-aalok kami ng propesyonal na polyfusion welding tools – tiyak na kumpletong ekosistema para sa bawat construction project.",
+    "t3": "Sustainability, Life Cycle at CO2 Reduction",
+    "p3": "Ang pagpapanatili (Sustainability) ay nakaukit na sa pagdidisenyo ng aming mga sistema. Dahil sa 0.007 mm roughness, mas mababa ang pressure loss, at nakakatipid sa energy consumption ng mga bomba (pumps). Makikita ito sa CO2 savings, mas mababang total cost of ownership (TCO) at sa Environmental Product Declarations (EPD) para sa LEED at BREEAM certifications. Ang aming PP-R pipe ay 100% nare-recycle rin.",
+    "t4": "Global Reach, German Engineering at Mga Sertipikasyon",
+    "p4": "Eksklusibong ginagawa sa Germany at nagtataglay ng ISO 9001, 14001, 50001, nagluluwas kami sa mahigit 50 bansa. Kinikilala ng DVGW, KIWA, SKZ at WRAS ang aming dedikasyon sa kalidad. Nagbibigay kami sa mga inhinyero at arkitekto ng CAD/BIM libraries at maaasahang suporta para matiyak ang makinis at tagumpay ng inyong proyekto."
+  }
+}

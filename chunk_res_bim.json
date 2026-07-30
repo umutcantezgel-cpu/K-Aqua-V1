@@ -1,0 +1,99 @@
+{
+  "resources": {
+    "bim": {
+      "title": "BIM-Daten",
+      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Greifen Sie auf unsere BIM-Datenbank zu.",
+      "sticky": {
+        "items": [
+          {
+            "title": "Maximale Datentiefe (LOI 500)",
+            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+          },
+          {
+            "title": "Kollisionsfreie Planung",
+            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+          },
+          {
+            "title": "Parametrische Intelligenz",
+            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+          },
+          {
+            "title": "Lifecycle & Facility Management",
+            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+          }
+        ],
+        "eyebrow": "Workflow Excellence",
+        "title": "Digitale Zwillinge in Perfektion.",
+        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Konzeption & TGA-Planung",
+            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Ausführungsplanung",
+            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Ausschreibung & Vergabe",
+            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Vorfertigung & Montage",
+            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+          },
+          {
+            "year": "Phase 5",
+            "title": "As-Built & Betrieb",
+            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+          }
+        ],
+        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
+        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+      },
+      "hero": {
+        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
+        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
+        "btnGhost": "BIM Consulting anfragen"
+      },
+      "intro": {
+        "title1": "Die DNA unserer Rohrsysteme.",
+        "title2": "Jetzt in der Cloud.",
+        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität in Form von Daten.",
+        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Native Revit® Familien",
+            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+          },
+          {
+            "title": "VDI 3805 Konformität",
+            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+          },
+          {
+            "title": "IFC4 Prüfung",
+            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+          },
+          {
+            "title": "Exakte thermische Daten",
+            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
+        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
+        "btnPrimary": "Zum Download-Center",
+        "btnOutline": "BIM-Manager kontaktieren"
+      }
+    }
+  }
+}

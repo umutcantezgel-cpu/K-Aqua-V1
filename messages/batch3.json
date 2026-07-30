@@ -1,225 +1,892 @@
 {
-  "refsx": {
-    "secEyebrow": "Einsatzfelder weltweit",
-    "secTitle": "Wo K Aqua-Technik arbeitet.",
-    "secLead": "Über Jahrzehnte haben sich K Aqua-Produkte unzählige Male in Destinationen auf der ganzen Welt bewährt. Diese Gebäudetypen prägen das Referenzprogramm.",
-    "sectors": [
+  "seo": {
+    "impressum1": "Die K Aqua PP-R und PPRCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, mit höchster Präzision hergestellt. Unser Impressum bietet unseren Kunden und Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur, die gesetzlichen Vertreter und alle relevanten Handelsregisterdaten. Wir legen größten Wert auf eine offene Kommunikation und die Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr. Die auf unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft und aktualisiert, um Ihnen stets korrekte technische und kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
+    "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser, Heizungs- und Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen und regulatorischen Standards. Dies schließt den Datenschutz, faire Wettbewerbsbedingungen und internationale Handelsrichtlinien mit ein. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt und Struktur der K Aqua Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen, technischen Datenblättern oder Installationsrichtlinien bedarf der vorherigen Zustimmung.",
+    "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
+    "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen: unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
+    "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage für K Aqua PP-R und PPRCT Rohrsysteme. Unsere technische Abteilung in Waldsolms ist auf die Auslegung und Dimensionierung von Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, hygienisch sensible Krankenhäuser, weitreichende Fernkältenetze und komplexe industrielle Kühl- und Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir die spezifischen hydraulischen und thermischen Anforderungen, die an die Infrastruktur moderner Bauwerke gestellt werden. Mit K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
+    "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne oder Isometrien mitteilen, beginnen unsere Fachingenieure mit einer tiefgehenden Analyse. Wir unterstützen Sie bei komplexen Druckverlustberechnungen, der Ermittlung von thermischen Längenausdehnungen und der exakten Positionierung von Fest- und Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) und konzipieren maßgeschneiderte Übergangsfittings für die Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen, das den Energieverbrauch Ihrer Pumpen minimiert und eine wartungsfreie Lebensdauer von über 50 Jahren garantiert.",
+    "projektanfrage3": "Diskretion und Zuverlässigkeit stehen bei uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt und ausschließlich von unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus die weltweite Logistik und gewährleisten, dass unsere High End-Rohre und Formteile termingerecht und unbeschadet auf Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass die Installation exakt nach den Vorgaben des German Engineerings ausgeführt wird. Mit K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit und die Langlebigkeit Ihres gesamten Rohrleitungssystems.",
+    "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
+    "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
+  },
+  "eyebrow": "Über uns",
+  "title1": "Erfahrung ist Ihr",
+  "titleGrad": "Vorteil.",
+  "lead": "Neue Strategien, gewachsenes Wissen: Als Hersteller von K-Aqua verbindet die KWT GmbH jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
+  "h2": "K Aqua: führend in der Wasserversorgung",
+  "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
+  "p2": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
+  "polEyebrow": "Unternehmenspolitik",
+  "polTitle": "Nutzen entsteht im Zusammenspiel.",
+  "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+  "cards": [
+    {
+      "t": "Menschen im Mittelpunkt",
+      "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden. Qualität bleibt dabei stets mit Kosten und Terminen vereinbar."
+    },
+    {
+      "t": "Verlässlichkeit",
+      "d": "Wünsche von Kunden und allen Interessierten werden unter Einhaltung gesetzlicher und sozialer Standards erkannt, ernst genommen und umgesetzt."
+    },
+    {
+      "t": "Ökologische Verantwortung",
+      "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
+    }
+  ],
+  "genauEyebrow": "GENAU-Managementsystem",
+  "genauTitle": "Genau hinschauen. Genau verbessern.",
+  "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+  "points": [
+    "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
+    "Optimierung der Energieeffizienz",
+    "Prävention, laufende Gefahrenermittlung und Risikobewertung",
+    "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
+  ],
+  "certTitle": "geprüft nach Norm",
+  "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001, seit Oktober 2025 ergänzt um ISO 9001:2015.",
+  "meta": {
+    "title": "Über KWT GmbH: Experten für Rohrherstellung",
+    "desc": "Die KWT GmbH in Waldsolms vereint deutsche Ingenieurskunst mit modernster Fertigung. Dreifach ISO-zertifiziert produzieren wir K-Aqua PP-R Rohrsysteme."
+  },
+  "hero": {
+    "eyebrow": "Die K Aqua Doktrin",
+    "title1": "German Engineering.",
+    "title2": "Kompromisslos.",
+    "desc": "Wir machen keine Kompromisse. Wir definieren den globalen Standard für PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+  },
+  "intro": {
+    "title1": "WIR LEITEN NICHT NUR WASSER.",
+    "title2": "WIR KONTROLLIEREN ES.",
+    "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+  },
+  "material": {
+    "eyebrow": "Materialwissenschaft",
+    "title1": "Polypropylen Random Copolymerisat.",
+    "title2": "Entfesselt.",
+    "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
+    "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+    "items": [
       {
-        "t": "Krankenhäuser",
-        "d": "Hygienische Trinkwasserverteilung mit biofilm-hemmender Innenfläche, wie beim Krankenhausneubau in Kapstadt."
+        "title": "Extreme Molmasse",
+        "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
       },
       {
-        "t": "Hotels",
-        "d": "Warmwasser-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul mit Faserverbundrohr."
-      },
-      {
-        "t": "Industriegebäude",
-        "d": "Chemisch beständig und korrosionsfrei für Prozess- und Brauchwasser, vom Gewerbebau bis zur Fertigungshalle."
-      },
-      {
-        "t": "Gewächshäuser & Infrastruktur",
-        "d": "UV-stabilisierte Bewässerung unter Glas und Versorgungsnetze bis d630, wie im Infrastrukturprojekt Singapur."
+        "title": "Kristalline Optimierung",
+        "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
       }
     ]
   },
-  "finderx": {
-    "helpEyebrow": "Lesehilfe",
-    "helpTitle": "So lesen Sie die Tabelle.",
-    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
-    "help": [
-      [
-        "d",
-        "Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630."
-      ],
-      [
-        "SDR",
-        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck."
-      ],
-      [
-        "Wand (s)",
-        "Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR."
-      ],
-      [
-        "di",
-        "Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust."
-      ],
-      [
-        "Nenndruck (PN)",
-        "Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6."
-      ]
-    ],
-    "flowTitle": "Vom Filter zum Angebot",
-    "flow": [
+  "timeline": {
+    "title": "Die Evolution der Perfektion",
+    "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+    "items": [
       {
-        "t": "Filtern & suchen",
-        "d": "Typ, SDR und maximale Dimension eingrenzen oder direkt „d110\" in die Suche tippen."
+        "year": "1990",
+        "title": "Der Ursprung der Toleranzlosigkeit",
+        "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
       },
       {
-        "t": "Prüfen & exportieren",
-        "d": "Zeile anklicken für Wandstärke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation."
+        "year": "2005",
+        "title": "Die Polypropylen-Revolution",
+        "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
       },
       {
-        "t": "Anfrage übergeben",
-        "d": "Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam."
+        "year": "2015",
+        "title": "Die architektonische Symbiose",
+        "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+      },
+      {
+        "year": "2026",
+        "title": "Die Molekulare Diktatur",
+        "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
       }
     ]
   },
-  "co2x": {
-    "methEyebrow": "Methodik",
-    "methTitle": "So rechnet der Rechner.",
-    "methLead": "Transparenz statt Blackbox: vier Bausteine hinter jedem Ergebnis.",
-    "meth": [
+  "sticky": {
+    "eyebrow": "DIE PHYSIK BEZWUNGEN",
+    "title": "Die Vier Säulen der Macht.",
+    "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+    "items": [
       {
-        "t": "Massenmodell aus der SDR-Geometrie",
-        "d": "Die Rohrmasse folgt aus Ringquerschnitt × Länge × Dichte (0,905 g/cm³), dieselbe Geometrie wie in den Dimensionstabellen."
+        "title": "Absolutismus in der Qualität",
+        "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
       },
       {
-        "t": "Materialfaktoren",
-        "d": "Die Emissionsfaktoren je Werkstoff sind Demonstrationswerte für den Systemvergleich. Verbindliche Faktoren liefern ecoinvent bzw. produktspezifische Typ-III-EPDs nach EN 15804."
+        "title": "Thermische Unverwundbarkeit",
+        "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
       },
       {
-        "t": "Anschauliche Äquivalente",
-        "d": "Umrechnung mit rund 25 kg CO₂ Jahresbindung je Baum und 0,15 kg CO₂e je Pkw-Kilometer, Größenordnungen, die jeder im Projektmeeting versteht."
+        "title": "Chemische Resistenz",
+        "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
       },
       {
-        "t": "Belegbarer Pfad",
-        "d": "Für Audit und Prüfung zählt das Dokument: EPD-Datenblätter und Scope-3-Daten gibt es im Trust Center bzw. auf Anfrage."
+        "title": "Molekulare Fusion",
+        "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
       }
-    ],
-    "certEyebrow": "Green Building",
-    "certTitle": "Wo die Zahlen einzahlen.",
-    "certLead": "CO₂-Nachweise sind kein Selbstzweck: sie zahlen direkt auf Gebäudezertifizierungen ein.",
-    "certs": [
-      {
-        "t": "LEED",
-        "d": "EPDs nach EN 15804 zahlen auf die Material-Credits ein. Der Rechner liefert das Vorab-Argument, die EPD den Nachweis."
-      },
-      {
-        "t": "BREEAM",
-        "d": "Lebenszyklusdaten der Materialien fließen in die Bewertung, belastbar durch Typ-III-Deklarationen."
-      },
-      {
-        "t": "DGNB",
-        "d": "Die Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen. Materialwahl mit niedrigem GWP wirkt direkt."
-      }
-    ],
-    "scopeTitle": "Scope 1, 2, 3: kurz erklärt",
-    "scopeText": "Scope 1 umfasst direkte Emissionen des Werks, Scope 2 den eingekauften Strom, Scope 3 die Lieferkette, also auch Ihre eingekauften Rohre. Deshalb stellt K Aqua Scope-3-Daten und EPD-Rohdaten auf Anfrage bereit: proaktive Transparenz für Ihre eigene Klimabilanz.",
-    "statNote": "Aus Branchenstudien: Rund die Hälfte der B2B-Kunden kauft bevorzugt bei nachweislich nachhaltigen Lieferanten. Der Nachweis wird zum Beschaffungskriterium."
+    ]
   },
-  "homedeep": {
-    "plantEyebrow": "Aus dem Werk Waldsolms",
-    "plantTitle": "Präzision, die man messen kann.",
-    "plant": [
+  "bento": {
+    "eyebrow": "INDUSTRIELLE DOMINANZ",
+    "title": "Infrastruktur auf Steroiden.",
+    "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+    "items": [
       {
-        "n": "14.000",
-        "u": "m/Tag",
-        "l": "Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte"
+        "title": "Brachiale Extrusion",
+        "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
       },
       {
-        "n": "0,007",
-        "u": "mm",
-        "l": "Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm"
+        "title": "geprüfte Überlegenheit",
+        "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
       },
       {
-        "n": "50",
-        "u": "Jahre",
-        "l": "Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078"
+        "title": "Hygiene-Diktat",
+        "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+      },
+      {
+        "title": "Ressourcen-Effizienz",
+        "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
       }
-    ],
-    "badges": [
-      "ISO 9001:2015",
-      "ISO 14001:2015",
-      "ISO 50001:2018",
-      "GENAU-System",
-      "DIN 8077/8078",
-      "DIN EN ISO 15874"
-    ],
-    "badgeNote": "Zertifikate und Audit Dokumente als Self Service im Trust Center.",
-    "badgeCta": "Zum Trust Center"
+    ]
   },
-  "legal": {
-    "impressum": {
-      "title": "Impressum",
-      "sections": [
-        {
-          "id": "section-contact",
-          "title": "Angaben gemäß § 5 TMG",
-          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
-        },
-        {
-          "id": "section-management",
-          "title": "Geschäftsführung",
-          "content": "Philipp Nickel, Marcello Gallio"
-        },
-        {
-          "id": "section-registry",
-          "title": "Registergericht & Sitz",
-          "content": "Wetzlar HRB 6732\n\nSitz der Gesellschaft:\nWaldsolms"
-        },
-        {
-          "id": "section-vat",
-          "title": "Umsatzsteuer-ID",
-          "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 296238486"
-        },
-        {
-          "id": "section-disclaimer",
-          "title": "Rechtliche Hinweise & Disclaimer",
-          "content": "K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.\n\nHaftung für Links\nUnsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
-        },
-        {
-          "id": "section-faq",
-          "title": "Häufig gestellte Fragen (Impressum & Service)",
-          "content": "Wie kann ich den technischen Support kontaktieren?\nSie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.\n\nWo finde ich detaillierte Zertifikate und Zulassungen?\nAlle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.\n\nWelche Gewährleistung bietet K Aqua?\nK Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu."
-        }
-      ]
-    },
-    "datenschutz": {
-      "title": "Datenschutzerklärung",
-      "sections": [
-        {
-          "id": "sec-1",
-          "title": "1. Datenschutz auf einen Blick",
-          "content": "Diese Datenschutzerklärung informiert Sie darüber, welche personenbezogenen Daten auf dieser Website tatsächlich verarbeitet werden und zu welchem Zweck.\n\nKurz zusammengefasst: Wir verarbeiten personenbezogene Daten nur, wenn Sie uns diese aktiv über unsere Kontakt- und Anfrageformulare mitteilen, sowie in technisch notwendigem Umfang beim Aufruf der Website (Server-Logdaten unseres Hosting-Anbieters). Analyse- oder Marketing-Dienste Dritter setzen wir derzeit nicht ein; entsprechende Technologien würden ausschließlich nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner geladen."
-        },
-        {
-          "id": "sec-2",
-          "title": "2. Verantwortliche Stelle",
-          "content": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelefon: +49 (0)60 85 / 9868-410\nE-Mail: info@k-aqua.de\n\nVerantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
-        },
-        {
-          "id": "sec-3",
-          "title": "3. Datenschutzbeauftragter",
-          "content": "Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nTelefon: +49 2861 80847 700\nE-Mail: info@sila-consulting.de"
-        },
-        {
-          "id": "sec-4",
-          "title": "4. Hosting und Server-Logfiles",
-          "content": "Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.\n\nDiese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework."
-        },
-        {
-          "id": "sec-5",
-          "title": "5. Kontakt- und Anfrageformulare",
-          "content": "Wenn Sie eines unserer Anfrageformulare nutzen, verarbeiten wir die dort angegebenen Daten: Telefonnummer, E-Mail-Adresse, das von Ihnen gewählte Anliegen sowie die Seite, von der die Anfrage gesendet wurde. Diese Daten werden per E-Mail an info@k-aqua.de übermittelt und (sofern ein CRM-System angebunden ist) dort zur Bearbeitung Ihrer Anfrage gespeichert.\n\nBei Bewerbungen über das Karriereformular werden die von Ihnen angegebenen Bewerbungsdaten (Name, Kontaktdaten, Lebenslauf bzw. Angaben zu Erfahrung und Ausbildung) per E-Mail an unsere Personalabteilung übermittelt.\n\nZweck der Verarbeitung ist ausschließlich die Bearbeitung Ihrer Anfrage bzw. Bewerbung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.\n\nZum Schutz vor automatisierten Spam-Einsendungen setzen wir eine unsichtbare technische Prüfung (Honeypot-Feld und Zeitschwelle) ein, ohne Captcha-Dienste Dritter."
-        },
-        {
-          "id": "sec-6",
-          "title": "6. Cookies und Einwilligung",
-          "content": "Diese Website verwendet technisch notwendige Cookies bzw. vergleichbare Speichertechnologien, etwa zur Speicherung Ihrer Sprach- und Darstellungseinstellungen sowie Ihrer Cookie-Entscheidung. Diese sind für den Betrieb der Website erforderlich (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO bzw. § 25 Abs. 2 TDDDG).\n\nÜber den Cookie-Banner können Sie zusätzlich den Kategorien \"Analyse\" und \"Marketing\" zustimmen. Derzeit setzen wir keine Analyse- oder Marketing-Dienste ein; sollten solche Dienste künftig eingebunden werden, werden sie ausschließlich nach Ihrer Einwilligung geladen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen."
-        },
-        {
-          "id": "sec-7",
-          "title": "7. Ihre Rechte",
-          "content": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:\n\n- Auskunft über Ihre gespeicherten personenbezogenen Daten (Art. 15 DSGVO)\n- Berichtigung unrichtiger Daten (Art. 16 DSGVO)\n- Löschung (Art. 17 DSGVO)\n- Einschränkung der Verarbeitung (Art. 18 DSGVO)\n- Datenübertragbarkeit (Art. 20 DSGVO)\n- Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n- Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)\n\nWenden Sie sich hierzu an die oben genannte verantwortliche Stelle oder unseren Datenschutzbeauftragten. Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (für uns: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI), Wiesbaden)."
-        },
-        {
-          "id": "sec-8",
-          "title": "8. SSL- bzw. TLS-Verschlüsselung",
-          "content": "Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte (etwa Ihrer Anfragen an uns) eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \"https://\" und dem Schloss-Symbol in der Adresszeile Ihres Browsers. Bei aktivierter Verschlüsselung können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
-        }
-      ]
-    },
-    "toc": "Inhalt",
-    "eyebrow": "Rechtliches"
+  "values": {
+    "eyebrow": "Unternehmenspolitik",
+    "title": "Das Fundament unseres Handelns.",
+    "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+    "items": [
+      {
+        "title": "Kunden-Obsession",
+        "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+      },
+      {
+        "title": "Strategische Allianzen",
+        "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+      },
+      {
+        "title": "Ökologischer Imperativ",
+        "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+      }
+    ]
+  },
+  "genauManagement": {
+    "eyebrow": "geprüfte Qualität",
+    "title1": "Das ",
+    "titleHighlight": "GENAU",
+    "title2": " Management System",
+    "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
+    "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
+    "p3": " und ",
+    "list1Title": "Ökologische Verantwortung",
+    "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
+    "list2Title": "Energieeffizienz",
+    "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
   }
+}
+{
+  "pipesEyebrow": "Rohrprogramm",
+  "pipesTitle": "Drei Rohrfamilien, ein Systemgedanke.",
+  "pipesLead": "Monolayer, PPRCT und glasfaserverstärkter Faserverbund, plus UV-stabilisierte Ausführungen für Anwendungen im Freien.",
+  "pipes": [
+    {
+      "t": "K-Pipe PP-R Monolayer",
+      "d": "Der bewährte Standard für Trinkwasser heiß und kalt. Einschichtiger Aufbau, volle SDR-Bandbreite in den gängigen Dimensionen: wirtschaftlich für Wohn- und Objektbau.",
+      "tags": [
+        "d20–d630",
+        "SDR 6–17"
+      ]
+    },
+    {
+      "t": "K-Pipe PPRCT",
+      "d": "Modifizierte Kristallstruktur für mehr Temperatur- und Druckreserve: SDR 7,4 ist für 70 °C Dauerbetrieb bei 10 bar (1,0 MPa) ausgelegt, die Wahl für Warmwasser und Zirkulation.",
+      "tags": [
+        "70 °C · 10 bar",
+        "Warmwasser"
+      ]
+    },
+    {
+      "t": "K-Fiber Pipe (GF-Multilayer)",
+      "d": "Glasfaserverstärkter Kern zwischen zwei PP-Schichten: Wärmeausdehnung auf rund ein Viertel reduziert, größere Schellenabstände, formstabil bis d630, bis 20 bar (2,0 MPa) bei 20 °C in SDR 6.",
+      "tags": [
+        "GF-Kern",
+        "d20–d630"
+      ]
+    },
+    {
+      "t": "UV-stabilisierte Ausführung",
+      "d": "Für Installationen mit Sonnenexposition (etwa Gewächshäuser oder Freileitungen) ist das Programm in UV-beständiger Ausführung verfügbar.",
+      "tags": [
+        "Außenbereich",
+        "Agrar"
+      ]
+    }
+  ],
+  "dimEyebrow": "Dimensionstabellen",
+  "dimTitle": "Jede Dimension, jede Wandstärke.",
+  "dimLead": "Wählen Sie die Druckstufe. Die Tabelle zeigt alle lieferbaren Dimensionen mit Wandstärke, Innendurchmesser, Nenndruck, Wasserinhalt und Metergewicht.",
+  "dimTabAria": "Druckstufe wählen",
+  "dimHead": [
+    "d (mm)",
+    "Wand s (mm)",
+    "di (mm)",
+    "Nenndruck",
+    "Wasserinhalt (l/m)",
+    "Gewicht (kg/m)"
+  ],
+  "dimNote": "Rechenwerte aus der SDR-Geometrie (s = d/SDR, Dichte 0,905 g/cm³) nach den Reihen der DIN 8077. Verbindlich sind Produktkatalog und projektspezifische Datenblätter.",
+  "anchorsTitle": "Verbindliche Auslegungsanker aus dem Programm",
+  "anchors": [
+    {
+      "v": "20 bar",
+      "t": "K-Fiber Pipe PP-R · SDR 6",
+      "c": "2,0 MPa Dauerbetrieb bei 20 °C: Kaltwasser über den 50-Jahre-Auslegungshorizont."
+    },
+    {
+      "v": "10 bar",
+      "t": "K-Pipe PPRCT · SDR 7,4",
+      "c": "1,0 MPa Dauerbetrieb bei 70 °C: Warmwasser und Zirkulation ohne Reserveverlust."
+    }
+  ],
+  "matEyebrow": "Werkstoffdaten",
+  "matTitle": "Was den Werkstoff auszeichnet.",
+  "matLead": "Die wichtigsten Kennwerte des PP-R/PPRCT-Systems, und warum sie in der Planung zählen.",
+  "matHead": [
+    "Eigenschaft",
+    "Wert",
+    "Bedeutung für Ihr Projekt"
+  ],
+  "matRows": [
+    [
+      "Dichte",
+      "0,905 g/cm³",
+      "Rund ein Zehntel von Kupfer: leichter Transport, einfache Montage ohne Hebezeug bei kleinen und mittleren Dimensionen."
+    ],
+    [
+      "Innenrauheit",
+      "0,007 mm",
+      "Extrem glatte Oberfläche: minimaler Druckverlust, kaum Inkrustation und Biofilm-Bildung."
+    ],
+    [
+      "Wärmeleitfähigkeit",
+      "0,24 W/(m·K)",
+      "Geringe Wärmeverluste in der Warmwasser-Zirkulation: dauerhafte Energieeinsparung gegenüber Metall."
+    ],
+    [
+      "Längenausdehnung (Monolayer)",
+      "≈ 0,15 mm/(m·K)",
+      "Wird konstruktiv über Dehnungsschenkel und Fixpunkte aufgenommen."
+    ],
+    [
+      "Längenausdehnung (K-Fiber, GF)",
+      "≈ 0,04 mm/(m·K)",
+      "Rund ein Viertel des Monolayer-Werts: größere Schellenabstände, ruhigeres Leitungsbild."
+    ],
+    [
+      "Medientemperatur",
+      "kalt bis 70 °C Dauerbetrieb",
+      "Trinkwasser heiß und kalt; Auslegungsanker: PPRCT SDR 7,4 bei 70 °C · 10 bar."
+    ],
+    [
+      "Chemische Beständigkeit",
+      "Lösungsmittel, Laugen, Säuren",
+      "Als technischer Kunststoff ungewöhnlich beständig: korrosionsfrei ohne Lochfraß-Risiko."
+    ],
+    [
+      "Recycling",
+      "Code 5 (PP)",
+      "Sortenrein trennbar; 100 % der Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
+    ]
+  ],
+  "fitEyebrow": "Formteile & Systemkomponenten",
+  "fitTitle": "Das System um das Rohr herum.",
+  "fitLead": "Formteile von d20 bis d315, Armaturen, Übergänge und die komplette Schweißtechnik: alles aus einer Hand, alles systemkompatibel.",
+  "fitGroups": [
+    {
+      "t": "Formteile d20–d315",
+      "items": [
+        "Winkel 90° und 45°",
+        "T-Stücke, auch reduziert",
+        "Muffen und Überschiebmuffen",
+        "Reduzierungen",
+        "Endkappen"
+      ]
+    },
+    {
+      "t": "Übergänge & Verschraubungen",
+      "items": [
+        "Übergangsstücke mit Messing-Innengewinde",
+        "Übergangsstücke mit Messing-Außengewinde",
+        "Verschraubungen (lösbar)",
+        "Anschluss an Bestandsleitungen aus Metall"
+      ]
+    },
+    {
+      "t": "Armaturen",
+      "items": [
+        "Ventile",
+        "Kugelhähne",
+        "Absperrungen für Steig- und Verteilleitungen"
+      ]
+    },
+    {
+      "t": "Schweißtechnik & Werkzeug",
+      "items": [
+        "Handschweißgeräte (bis d63)",
+        "Muffenschweißmaschinen",
+        "Elektroschweißgeräte",
+        "Stumpfschweißmaschinen für Großdimensionen",
+        "Rohrschneider und Schneidwerkzeuge"
+      ]
+    }
+  ],
+  "normEyebrow": "Normen & Nachweise",
+  "normTitle": "Geprüft gegen die Regelwerke.",
+  "normLead": "Das K Aqua-System wird gegen die einschlägigen Normen der Rohrleitungstechnik gefertigt und geprüft. Jede Charge unter ISO-9001-Qualitätsauflagen.",
+  "normHead": [
+    "Norm",
+    "Titel",
+    "Bedeutung"
+  ],
+  "norms": [
+    [
+      "DIN 8077",
+      "Rohre aus Polypropylen: Maße",
+      "Definiert Durchmesser- und Wandstärkenreihen (SDR) für PP-Rohre."
+    ],
+    [
+      "DIN 8078",
+      "Rohre aus Polypropylen: Anforderungen",
+      "Allgemeine Güteanforderungen und Prüfungen für PP-R/PPRCT-Rohre."
+    ],
+    [
+      "DIN EN ISO 15874",
+      "Kunststoffrohrleitungssysteme",
+      "Systemnorm für Warm- und Kaltwasserinstallationen aus Polypropylen."
+    ],
+    [
+      "DVS 2207-11",
+      "Schweißen von PP",
+      "Richtwerte für Muffen-, Elektro- und Stumpfschweißen: Basis der Academy-Inhalte."
+    ],
+    [
+      "DVGW / KTW",
+      "Trinkwasserkontakt",
+      "Konformitätsnachweise für den Kontakt mit Trinkwasser: im Trust Center anforderbar."
+    ],
+    [
+      "EN 15804",
+      "EPD (Typ III)",
+      "Umweltproduktdeklarationen als Datenbasis für LEED, BREEAM und DGNB."
+    ],
+    [
+      "ISO 9001 / 14001 / 50001",
+      "Managementsysteme",
+      "Qualität, Umwelt und Energie: dreifach geprüft seit Oktober 2025, DAkkS-akkreditiert."
+    ],
+    [
+      "GENAU",
+      "Integriertes Managementsystem",
+      "Das hauseigene System im House of KWT verbindet Arbeitsschutz, Umwelt und Energie im Alltag."
+    ]
+  ],
+  "faqEyebrow": "Häufige Fragen",
+  "faqTitle": "Antworten für Planung und Einkauf.",
+  "faq": [
+    {
+      "q": "Für welche Medien ist das System ausgelegt?",
+      "a": "Für Trinkwasser (heiß und kalt) mit hoher Temperatur- und Druckbeständigkeit über Jahrzehnte. Durch die Beständigkeit von PP gegen Lösungsmittel, Laugen und Säuren sind auch Industrieanwendungen möglich; diese prüfen wir projektspezifisch mit Ihnen."
+    },
+    {
+      "q": "Wofür stehen die fünf SDR-Klassen?",
+      "a": "SDR ist das Verhältnis von Außendurchmesser zu Wandstärke (d/s). Kleiner SDR = dickere Wand = höherer Nenndruck: SDR 6 entspricht PN 20, SDR 17 entspricht PN 6. So wählen Sie je Anwendung genau die Reserve, die Sie brauchen, ohne Überdimensionierung."
+    },
+    {
+      "q": "Wann Monolayer, wann K-Fiber?",
+      "a": "Monolayer ist der wirtschaftliche Standard für die meisten Anwendungen. Der glasfaserverstärkte Faserverbund reduziert die Wärmeausdehnung auf rund ein Viertel, erlaubt größere Schellenabstände und bleibt bei Großdimensionen und Heißwasser formstabil, die Wahl für Steigstränge, Zirkulation und d ≥ 160."
+    },
+    {
+      "q": "Wie werden die Rohre verbunden?",
+      "a": "Stoffschlüssig durch Schweißen: Muffenschweißen von Hand (bis d63) oder mit Maschine, Elektroschweißen über Heizwendelfittings und Stumpfschweißen für Großdimensionen bis d630. Die passenden Geräte und Werkzeuge gehören zum Programm; alle vier Verfahren zeigt die Academy im Video."
+    },
+    {
+      "q": "Ist das System trinkwasserkonform?",
+      "a": "Das System ist für Trinkwasser entwickelt; Polypropylen ist geschmacks- und geruchsneutral. Die Konformitätsnachweise für den Trinkwasserkontakt (DVGW/KTW) stellen wir im Trust Center als Teil des RFP-Dokumentenpakets bereit."
+    },
+    {
+      "q": "Welche Lebensdauer liegt der Auslegung zugrunde?",
+      "a": "Die Druckstufen basieren auf den Zeitstand-Regressionskurven der DIN 8077/8078 mit einem Auslegungshorizont von 50 Jahren Betriebsdauer, inklusive Sicherheitsfaktor. Die beiden Programm-Anker: SDR 6 mit 20 bar bei 20 °C und PPRCT SDR 7,4 mit 10 bar bei 70 °C."
+    },
+    {
+      "q": "Wo bekomme ich verbindliche Artikeldaten?",
+      "a": "Im Produktfinder filtern Sie alle Varianten live und exportieren sie als CSV. Verbindliche Werte liefert der Produktkatalog (PDF); für Projektkonditionen führt die Projektanfrage in fünf Schritten direkt zum Vertrieb. Antwort innerhalb eines Werktags."
+    }
+  ]
+}
+{
+  "segEyebrow": "Einsatzfelder",
+  "segTitle": "Bewährt, wo Wasser kritisch ist.",
+  "segLead": "K Aqua-Systeme arbeiten weltweit in Projekten vom Krankenhaus bis zum Gewächshaus. Jedes Einsatzfeld nutzt andere Stärken des Werkstoffs.",
+  "segments": [
+    {
+      "t": "Krankenhäuser & Gesundheitsbau",
+      "d": "Hygiene ist hier nicht verhandelbar: Die glatte Innenfläche (0,007 mm) hemmt Biofilm und Inkrustation, der Werkstoff bleibt geschmacks- und geruchsneutral.",
+      "pts": [
+        "Hygienische Neutralität",
+        "Korrosionsfrei: kein Lochfraß",
+        "Referenz: Krankenhausneubau Kapstadt"
+      ]
+    },
+    {
+      "t": "Hotels & Wohnhochbau",
+      "d": "Warmwasser-Zirkulation rund um die Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PPRCT hält 70 °C Dauerbetrieb.",
+      "pts": [
+        "Thermische Effizienz",
+        "PPRCT für Zirkulation",
+        "Referenz: Hotelkomplex Istanbul"
+      ]
+    },
+    {
+      "t": "Industrie & Gewerbebau",
+      "d": "Beständig gegen Lösungsmittel, Laugen und Säuren. Wo Metallleitungen korrodieren, bleibt Polypropylen unbeeindruckt.",
+      "pts": [
+        "Chemische Beständigkeit",
+        "Lange Wartungsintervalle",
+        "Prozess- und Brauchwasser"
+      ]
+    },
+    {
+      "t": "Gewächshäuser & Agrar",
+      "d": "UV-stabilisierte Ausführungen für die Bewässerung unter Glas und im Freien: leicht, schnell verlegt, frostunempfindlicher als starre Systeme.",
+      "pts": [
+        "UV-beständige Ausführung",
+        "Geringes Gewicht",
+        "Einsatzfeld aus dem Referenzprogramm"
+      ]
+    },
+    {
+      "t": "Kommunale Infrastruktur",
+      "d": "Versorgungsleitungen und Netze in Großdimensionen bis d630: stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.",
+      "pts": [
+        "d bis 630 mm",
+        "Stumpfschweißen (Butt Fusion)",
+        "Referenz: Infrastruktur Singapur"
+      ]
+    },
+    {
+      "t": "Sanierung & Austausch",
+      "d": "Ersatz korrodierter Metall- oder PVC-Bestandsleitungen: Übergangsstücke mit Messing-Gewinde binden den Bestand sauber an das neue System an.",
+      "pts": [
+        "Übergänge auf Metall-Gewinde",
+        "Abschnittsweise Sanierung",
+        "Korrosionsproblem dauerhaft gelöst"
+      ]
+    }
+  ],
+  "cmpEyebrow": "Werkstoffvergleich",
+  "cmpTitle": "PP-R/PPRCT im Vergleich.",
+  "cmpLead": "Vier Leitungswerkstoffe, acht Kriterien: eine vereinfachte Gegenüberstellung als Startpunkt für die projektspezifische Werkstoffwahl.",
+  "cmpHead": [
+    "Kriterium",
+    "K Aqua PP-R/PPRCT",
+    "Kupfer",
+    "Edelstahl",
+    "PVC-C"
+  ],
+  "cmpRows": [
+    [
+      "Korrosion",
+      "korrosionsfrei: immun gegen elektrochemische Korrosion",
+      "Lochfraß möglich",
+      "beständig (güteabhängig)",
+      "korrosionsfrei"
+    ],
+    [
+      "Inkrustation & Biofilm",
+      "sehr gering: Innenrauheit 0,007 mm",
+      "möglich",
+      "gering",
+      "gering"
+    ],
+    [
+      "Wärmeleitfähigkeit",
+      "0,24 W/(m·K): geringe Verluste",
+      "≈ 390 W/(m·K)",
+      "≈ 15 W/(m·K)",
+      "≈ 0,14 W/(m·K)"
+    ],
+    [
+      "Dichte / Gewicht",
+      "0,905 g/cm³",
+      "8,9 g/cm³",
+      "7,9 g/cm³",
+      "1,55 g/cm³"
+    ],
+    [
+      "Verbindungstechnik",
+      "stoffschlüssig geschweißt: homogener Strang",
+      "gelötet / gepresst",
+      "gepresst / geschweißt",
+      "geklebt"
+    ],
+    [
+      "Geschmack & Geruch",
+      "neutral",
+      "Metallabgabe möglich",
+      "neutral",
+      "neutral"
+    ],
+    [
+      "CO₂ (Errichtung)",
+      "niedrig, im CO₂-Rechner vergleichen",
+      "hoch",
+      "hoch",
+      "mittel"
+    ],
+    [
+      "Recycling",
+      "Code 5, sortenrein: 100 % Produktionsabfälle im Kreislauf",
+      "Schrottkreislauf",
+      "Schrottkreislauf",
+      "eingeschränkt"
+    ]
+  ],
+  "cmpNote": "Vereinfachte Gegenüberstellung mit typischen Werkstoffkennwerten; die Werkstoffwahl bleibt projektspezifisch. Zahlenbasis für den CO₂-Vergleich: siehe CO₂-Rechner und EPD-Datenblätter.",
+  "lifeEyebrow": "Lebenszyklus",
+  "lifeTitle": "Vom Rohgas bis zum Rezyklat.",
+  "lifeLead": "Verantwortung über den gesamten Zyklus: vier Stationen, die das Produkt ökologisch tragfähig machen.",
+  "life": [
+    {
+      "t": "Rohstoff mit Geschichte",
+      "d": "Polypropylen entsteht aus Gasen, die früher nutzlos abgefackelt wurden. Die Nutzung als Werkstoff reduziert Luftverschmutzung an der Quelle."
+    },
+    {
+      "t": "Fertigung im Kreislauf",
+      "d": "Die Produktion in Waldsolms kühlt im geschlossenen Wasserkreislauf und schützt damit Flüsse, Bäche und Seen; die Energieeffizienz steuert ISO 50001."
+    },
+    {
+      "t": "50 Jahre im Betrieb",
+      "d": "Ausgelegt nach den Zeitstandkurven der DIN 8077/8078 auf 50 Jahre Betriebsdauer: pflegeleicht, verschleißfest, alterungsbeständig."
+    },
+    {
+      "t": "Zurück in den Kreislauf",
+      "d": "Recycling Code 5: sortenrein trennbar bei hoher Nachfrage nach PP-Rezyklat. 100 % der Schnittreste und Produktionsabfälle werden recycelt."
+    }
+  ]
+}
+{
+  "stakeEyebrow": "Für Ihr Buying Center",
+  "stakeTitle": "Jede Rolle prüft anders.",
+  "stakeLead": "Ein B2B-Beschaffungsgremium besteht im Schnitt aus 11 bis 20 Personen. Technik, Einkauf und Nachhaltigkeit brauchen unterschiedliche Nachweise. Hier ist die Landkarte.",
+  "stakeHead": [
+    "Rolle",
+    "Worauf es ankommt",
+    "Relevante Nachweise"
+  ],
+  "stakeRows": [
+    [
+      "Ingenieur / Fachplaner",
+      "Druckstufen und Dimensionen (d20–d630), Toxizitätsfreiheit, Schweißbarkeit, Langlebigkeit der Charge",
+      "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Dimensionstabellen"
+    ],
+    [
+      "Einkauf / Procurement",
+      "Lieferfähigkeit, Risikominimierung, harte RFP-Kriterien, Total Cost of Ownership",
+      "ISO 9001 als „Ticket-to-Play\" · QS-Handbuch · GAEB-Texte"
+    ],
+    [
+      "Nachhaltigkeit / Compliance",
+      "CO₂-Bilanz, Scope-1/2/3-Emissionen, Green Procurement, Energieeffizienz der Fertigung",
+      "ISO 14001 · ISO 50001 · EPD (EN 15804) · Scope-3-Daten auf Anfrage"
+    ]
+  ],
+  "statEyebrow": "Warum Self Service",
+  "statTitle": "Beschaffung hat sich verändert.",
+  "stats": [
+    {
+      "n": "70",
+      "u": "%",
+      "l": "der B2B-Käufer recherchieren anonym, bevor sie den Vertrieb kontaktieren"
+    },
+    {
+      "n": "11–20",
+      "u": "",
+      "l": "Stakeholder bilden das typische Buying Center eines Projekts"
+    },
+    {
+      "n": "87",
+      "u": "",
+      "l": "Touchpoints kann eine B2B-Kaufentscheidung umfassen"
+    },
+    {
+      "n": "50",
+      "u": "%",
+      "l": "der B2B-Kunden kaufen bevorzugt bei nachweislich nachhaltigen Lieferanten"
+    }
+  ],
+  "statNote": "Kennzahlen aus Branchenstudien zur B2B-Beschaffung. Deshalb stehen alle Nachweise hier zum Selbstabruf bereit statt „auf schriftliche Anfrage\".",
+  "instEyebrow": "Prüfpartner",
+  "instTitle": "Wer hinter den Nachweisen steht.",
+  "inst": [
+    {
+      "t": "DAkkS-akkreditierte Prüfung",
+      "d": "Die ISO-Zertifikate 9001, 14001 und 50001 stammen von einer durch die Deutsche Akkreditierungsstelle (DAkkS) akkreditierten Zertifizierungsgesellschaft: Gültigkeit 10/2025 bis 10/2028."
+    },
+    {
+      "t": "SKZ: Süddeutsches Kunststoff-Zentrum",
+      "d": "Die Qualitätssicherung der Rohrsysteme wird durch das renommierte Kunststoff-Prüfinstitut begleitet: unabhängige Prüfungen statt Eigenlob."
+    },
+    {
+      "t": "DVGW / KTW: Trinkwasserkontakt",
+      "d": "Konformitätsnachweise für den Kontakt mit Trinkwasser gehören zum RFP-Dokumentenpaket und werden auf Anfrage bereitgestellt."
+    }
+  ],
+  "auditEyebrow": "Audit-Fahrplan",
+  "auditTitle": "Von der Anfrage zur Freigabe.",
+  "auditLead": "So läuft eine Lieferantenqualifizierung mit K Aqua: planbar und ohne Wartezeiten.",
+  "audit": [
+    {
+      "t": "Dokumentenpaket schnüren",
+      "d": "Stellen Sie oben Ihr RFP-Paket zusammen: Zertifikate, GENAU-Politik, EPD, GAEB und QS-Handbuch, als ZIP angefordert."
+    },
+    {
+      "t": "Rückfragen klären",
+      "d": "Qualität und technischer Support antworten unter support@k-aqua.de, innerhalb eines Werktags."
+    },
+    {
+      "t": "Werksaudit vereinbaren",
+      "d": "Auditieren Sie Fertigung, Prüflabor und GENAU-Praxis vor Ort in Waldsolms: Termin nach Vereinbarung."
+    },
+    {
+      "t": "Freigabe & Requalifizierung",
+      "d": "Nach der Listung begleiten Überwachungsaudits den 3-Jahres-Zyklus der Zertifikate. Ihre Unterlagen bleiben aktuell."
+    }
+  ],
+  "faqEyebrow": "Compliance-FAQ",
+  "faqTitle": "Die häufigsten Prüffragen.",
+  "faq": [
+    {
+      "q": "Wie lange sind die ISO-Zertifikate gültig?",
+      "a": "Drei Jahre. Der aktuelle Zyklus läuft von 10/2025 bis 10/2028, begleitet von jährlichen Überwachungsaudits der Zertifizierungsgesellschaft."
+    },
+    {
+      "q": "Was bedeutet „DAkkS-akkreditiert\"?",
+      "a": "Die Deutsche Akkreditierungsstelle (DAkkS) ist die nationale Akkreditierungsstelle Deutschlands. Sie überwacht die Zertifizierungsgesellschaften selbst. Die Akkreditierung macht das Zertifikat international belastbar."
+    },
+    {
+      "q": "Wie verifiziere ich ein Zertifikat?",
+      "a": "Jedes Zertifikat trägt eine Zertifikat-Nummer (z. B. Q-2025-6732) und die ausstellende Stelle. Mit beiden Angaben lässt sich die Gültigkeit direkt bei der Zertifizierungsgesellschaft prüfen. Oder Sie fragen unter support@k-aqua.de an."
+    },
+    {
+      "q": "Gibt es Scope-3- und EPD-Rohdaten?",
+      "a": "Ja, Scope-3-Emissionsdaten und EPD-Rohdaten stellen wir auf Anfrage bereit. Proaktive Transparenz statt Pflichterfüllung: Ihr Nachhaltigkeits-Team erhält belastbare Zahlen für die eigene Bilanz."
+    },
+    {
+      "q": "Liefern Sie GAEB-Ausschreibungstexte?",
+      "a": "Ja, GAEB-Texte gehören zum RFP-Dokumentenpaket. Damit wandert das K Aqua-System ohne Reibung in Ihre AVA-Software und die Leistungsverzeichnisse."
+    },
+    {
+      "q": "Was ist eine EPD nach EN 15804?",
+      "a": "Eine Umweltproduktdeklaration (Typ III) mit geprüften Ökobilanzdaten über den Lebenszyklus. Sie ist die Datenbasis für Gebäudezertifizierungen wie LEED, BREEAM und DGNB, und für CO₂-adjustierte Beschaffungsmodelle."
+    }
+  ]
+}
+{
+  "ecoEyebrow": "Das KESSEL-Ökosystem",
+  "ecoTitle": "Wovon K Aqua-Kunden profitieren.",
+  "ecoLead": "KESSEL hat über Jahrzehnte die Infrastruktur einer Premiummarke aufgebaut. K Aqua bringt dieselbe Haltung in die Wasserversorgung.",
+  "eco": [
+    {
+      "t": "ISH Frankfurt",
+      "d": "KESSEL zeigt Präsenz auf der Weltleitmesse der TGA-Branche, der Bühne, auf der Entwässerung und Versorgung zusammen gedacht werden."
+    },
+    {
+      "t": "PlanerPortal",
+      "d": "Die digitale Plattform für Fachplaner ist das Herzstück der täglichen Planerbindung: Vorbild für die digitalen Werkzeuge von K Aqua."
+    },
+    {
+      "t": "KundenForum",
+      "d": "Physische und hybride Schulungen an dedizierten Standorten, unter anderem in Lenting und Hamburg. Wissenstransfer ist Bindung."
+    },
+    {
+      "t": "Planungshandbuch",
+      "d": "Das redaktionell gepflegte Planungswissen von KESSEL ist Referenz dafür, wie K Aqua seinen Wissensbereich für Planer ausbaut: von der Academy bis zu den Dimensionstabellen."
+    }
+  ],
+  "flowEyebrow": "Zwei Ströme, ein Gebäude",
+  "flowTitle": "Versorgung rein, Entwässerung raus.",
+  "flowLead": "Jedes Gebäude braucht beide Richtungen. Die Partnerschaft deckt den kompletten Wasserweg mit einer gemeinsamen Ingenieurs-DNA ab.",
+  "flow": [
+    {
+      "t": "K Aqua: Leading in Water Supply",
+      "d": "Trinkwasserversorgung d20–d630: Rohre, Formteile, Armaturen und Schweißtechnik, gefertigt in Waldsolms."
+    },
+    {
+      "t": "KESSEL: Leading in Drainage",
+      "d": "Der Premiumhersteller der Entwässerungstechnik: Rückstauschutz, Hebeanlagen, Abscheider. Die Autorität der TGA-Branche."
+    },
+    {
+      "t": "Gemeinsames Gewerk",
+      "d": "Planer und Verarbeiter arbeiten mit einer Wertegemeinschaft: gleiche Qualitätsphilosophie, abgestimmter Support, kurze Wege."
+    }
+  ],
+  "roadEyebrow": "Gemeinsame Roadmap",
+  "roadTitle": "Vom Schulungsvideo zum Konfigurator.",
+  "road": [
+    {
+      "t": "Academy & Videos",
+      "d": "Vier Schweißverfahren als Videodokumentation plus Quiz: heute verfügbar, baustellenoptimiert.",
+      "s": "Heute"
+    },
+    {
+      "t": "Schweißtechnik-Support",
+      "d": "Geräte, Werkzeuge und Einweisung für Ihre Kolonne, direkt vom Hersteller.",
+      "s": "Heute"
+    },
+    {
+      "t": "Digitale Planungswerkzeuge",
+      "d": "Produktfinder, CO₂-Rechner und Trust Center als Self Service, im Ausbau nach dem Vorbild PlanerPortal.",
+      "s": "Im Ausbau"
+    },
+    {
+      "t": "Parametrischer Rohrnetz-Konfigurator",
+      "d": "Die Perspektive: Rohrnetze parametrisch konfigurieren und direkt in Stückliste und Anfrage überführen.",
+      "s": "Perspektive"
+    }
+  ],
+  "specEyebrow": "Für Ihre Spezifikation",
+  "specTitle": "Daten dahin, wo entschieden wird.",
+  "specLead": "Die Produktspezifikation entscheidet sich in AVA- und CAD-Software. Dort liefern wir hin.",
+  "spec": [
+    {
+      "t": "GAEB-Ausschreibungstexte",
+      "d": "Fertige Texte für Ihr Leistungsverzeichnis: Teil des RFP-Pakets im Trust Center."
+    },
+    {
+      "t": "BIM- & CAD-Daten",
+      "d": "Planungsdaten für die modellbasierte Arbeit, auf Anfrage über den Vertrieb, Ausbau läuft."
+    },
+    {
+      "t": "Datenblätter & Muster",
+      "d": "Produktkatalog und Eigenschaften als PDF, Muster und Projektberatung direkt vom Werk."
+    }
+  ]
+}
+{
+  "libEyebrow": "Dokumentenbibliothek",
+  "libTitle": "Alle Unterlagen, ein Überblick.",
+  "libLead": "Drei Kataloge zum direkten Download, Zertifikate in zwei Sprachen und die Audit Dokumente als Self Service im Trust Center.",
+  "libHead": [
+    "Dokument",
+    "Inhalt",
+    "Sprache",
+    "Zugriff"
+  ],
+  "libRows": [
+    {
+      "t": "K Aqua Produktprogramm",
+      "s": "Vollständiger Katalog: Dimensionen, Artikel, Systemübersicht",
+      "lang": "EN",
+      "href": "/pdf/k-aqua-product-range-en.pdf"
+    },
+    {
+      "t": "K Aqua Produkteigenschaften",
+      "s": "Technische Eigenschaften und Materialdaten",
+      "lang": "EN",
+      "href": "/pdf/k-aqua-product-features-en.pdf"
+    },
+    {
+      "t": "K Aqua Qualitätssicherung",
+      "s": "Prüfverfahren und Qualitätsstandards",
+      "lang": "EN",
+      "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+    },
+    {
+      "t": "ISO-Zertifikate (Deutsch)",
+      "s": "ISO 9001 · 14001 · 50001, DAkkS-akkreditiert",
+      "lang": "DE",
+      "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+    },
+    {
+      "t": "ISO Certificates (English)",
+      "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+      "lang": "EN",
+      "href": "/pdf/kwt-iso-certificates-en.pdf"
+    },
+    {
+      "t": "GENAU-Politik & Risikobewertung",
+      "s": "Managementsystem, Prävention, Gefährdungsermittlung",
+      "lang": "DE/EN",
+      "href": null
+    },
+    {
+      "t": "EPD-Datenblätter (Typ III, EN 15804)",
+      "s": "Ökobilanzdaten für LEED, BREEAM, DGNB",
+      "lang": "DE/EN",
+      "href": null
+    },
+    {
+      "t": "GAEB-Ausschreibungstexte",
+      "s": "Fertige Texte für Leistungsverzeichnisse",
+      "lang": "DE",
+      "href": null
+    },
+    {
+      "t": "Qualitätssicherungs-Handbuch",
+      "s": "QS-Prozesse für Lieferantenaudits",
+      "lang": "DE/EN",
+      "href": null
+    }
+  ],
+  "libOpen": "Download",
+  "libRequest": "Im Trust Center anfordern",
+  "supEyebrow": "Support-Wege",
+  "supTitle": "Drei Wege zur Antwort.",
+  "supLead": "Je nach Anliegen führt ein anderer Weg am schnellsten zum Ziel, alle mit Antwort innerhalb eines Werktags.",
+  "sup": [
+    {
+      "t": "Vertrieb & Projekte",
+      "d": "Angebote, Konditionen, Lieferzeiten und Projektberatung. Oder direkt die Projektanfrage in fünf Schritten.",
+      "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+      "href": "mailto:info@k-aqua.de"
+    },
+    {
+      "t": "Qualität & technischer Support",
+      "d": "Material-, Planungs- und Verarbeitungsfragen, Zertifikatsprüfung, Reklamationen nach QS-Handbuch.",
+      "c": "support@k-aqua.de",
+      "href": "mailto:support@k-aqua.de"
+    },
+    {
+      "t": "Verarbeitung & Academy",
+      "d": "Vier Schweißverfahren als Video plus Parametertabellen: Einweisung für Ihre Kolonne nach Absprache.",
+      "c": "Zur Academy",
+      "href": null
+    }
+  ],
+  "faqEyebrow": "Service-FAQ",
+  "faqTitle": "Schnelle Antworten.",
+  "faq": [
+    {
+      "q": "Welche Unterlagen brauche ich für die Planung?",
+      "a": "Produktprogramm (Dimensionen und Artikel), Produkteigenschaften (Materialdaten) und je nach Projekt die Dimensionstabellen auf der Produktseite. Für Ausschreibungen ergänzen GAEB-Texte und EPD das Paket. Beides im Trust Center."
+    },
+    {
+      "q": "Wo finde ich die Schweißparameter?",
+      "a": "Die Richtwerte nach DVS 2207-11 stehen in der Academy, inklusive Schritt-für-Schritt-Anleitungen und Fehlerkunde. Verbindlich sind immer die Angaben Ihres Schweißgeräte-Herstellers."
+    },
+    {
+      "q": "Wie erhalte ich Zertifikate und Audit Dokumente?",
+      "a": "ISO-Zertifikate laden Sie hier direkt herunter (DE/EN). GENAU-Politik, EPD, GAEB und QS-Handbuch schnüren Sie im Trust Center als RFP-Paket: per Klick angefordert statt tagelang gewartet."
+    },
+    {
+      "q": "An wen richte ich technische Rückfragen?",
+      "a": "An support@k-aqua.de. Das Team für Qualität und technischen Support antwortet innerhalb eines Werktags zu Material, Planung und Verarbeitung."
+    },
+    {
+      "q": "Wie komme ich am schnellsten zum Angebot?",
+      "a": "Über die Projektanfrage: fünf Schritte, unverbindlich, mit persönlicher Rückmeldung des Vertriebs innerhalb eines Werktags. Direkt vom Hersteller, ohne Zwischenhandel."
+    },
+    {
+      "q": "In welchen Sprachen gibt es die Unterlagen?",
+      "a": "Kataloge aktuell auf Englisch, Zertifikate auf Deutsch und Englisch. Diese Website arbeitet dreisprachig (DE/EN/AR). Weitere Dokumentsprachen auf Anfrage über den Vertrieb."
+    }
+  ]
 }

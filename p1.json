@@ -1,0 +1,42 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/uz.json",
+  "Instruction": "Fix arrays",
+  "Description": "Fix arrays",
+  "ReplacementChunks": [
+    {
+      "TargetContent": "        \"faq\": {\n          \"0\": {\n            \"q\": \"PP-RCT quvurlari qanday afzalliklarga ega?\",\n            \"a\": \"Yuqori bosim va haroratga chidamlilik.\"\n          }\n        ,\n        \"1\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"2\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"3\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"4\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            }\n        }",
+      "ReplacementContent": "        \"faq\": [\n          {\n            \"q\": \"PP-RCT quvurlari qanday afzalliklarga ega?\",\n            \"a\": \"Yuqori bosim va haroratga chidamlilik.\"\n          },\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          },\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          },\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          },\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          }\n        ]",
+      "StartLine": 4305,
+      "EndLine": 4327,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "        \"faq\": {\n          \"2\": {\n            \"q\": \"Sanoat maqsadlarida foydalanish uchun maxsus aksessuarlar bormi?\",\n            \"a\": \"Ha, bizning assortimentimiz po'lat yadroli og'ir yuk flaneslari, EPDM maxsus muhrlari va ekstremal sanoat yuklariga osongina bardosh bera oladigan mustahkamlangan quvur qisqichlarini o'z ichiga oladi.\"\n          }\n        ,\n        \"0\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"1\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            }\n        }",
+      "ReplacementContent": "        \"faq\": [\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          },\n          {\n            \"q\": \"Batafsil ma'lumot...\",\n            \"a\": \"Batafsil ma'lumot...\"\n          },\n          {\n            \"q\": \"Sanoat maqsadlarida foydalanish uchun maxsus aksessuarlar bormi?\",\n            \"a\": \"Ha, bizning assortimentimiz po'lat yadroli og'ir yuk flaneslari, EPDM maxsus muhrlari va ekstremal sanoat yuklariga osongina bardosh bera oladigan mustahkamlangan quvur qisqichlarini o'z ichiga oladi.\"\n          }\n        ]",
+      "StartLine": 4346,
+      "EndLine": 4360,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "        \"advList\": {\n          \"4\": \"Keng qamrovli: Oddiy quvur qaychilaridan tortib katta diametrli CNC mashinalarigacha.\"\n        ,\n        \"0\": \"Batafsil ma'lumot...\",\n            \"1\": \"Batafsil ma'lumot...\",\n            \"2\": \"Batafsil ma'lumot...\",\n            \"3\": \"Batafsil ma'lumot...\"\n        }",
+      "ReplacementContent": "        \"advList\": [\n          \"Batafsil ma'lumot...\",\n          \"Batafsil ma'lumot...\",\n          \"Batafsil ma'lumot...\",\n          \"Batafsil ma'lumot...\",\n          \"Keng qamrovli: Oddiy quvur qaychilaridan tortib katta diametrli CNC mashinalarigacha.\"\n        ]",
+      "StartLine": 4377,
+      "EndLine": 4384,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "        \"advList\": {\n          \"3\": \"Optimal ko'p qirralilik: Barcha standart qo'llanilishlarga mos echimlar.\",\n          \"4\": \"Oson kengaytirish imkoniyati: Har bir komponent tizimni muammosiz kengaytirish uchun mo'ljallangan.\"\n        ,\n        \"0\": \"Batafsil ma'lumot...\",\n            \"1\": \"Batafsil ma'lumot...\",\n            \"2\": \"Batafsil ma'lumot...\"\n        }",
+      "ReplacementContent": "        \"advList\": [\n          \"Batafsil ma'lumot...\",\n          \"Batafsil ma'lumot...\",\n          \"Batafsil ma'lumot...\",\n          \"Optimal ko'p qirralilik: Barcha standart qo'llanilishlarga mos echimlar.\",\n          \"Oson kengaytirish imkoniyati: Har bir komponent tizimni muammosiz kengaytirish uchun mo'ljallangan.\"\n        ]",
+      "StartLine": 4394,
+      "EndLine": 4401,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "    \"certs\": {\n      \"tab1\": \"Sertifikatlar\",\n      \"tab2\": \"Muvofiqlik\"\n    ,\n    \"0\": [\n          \"ISO 9001:2015\",\n          \"Qualitätsmanagement\"\n        ],\n        \"1\": [\n          \"ISO 14001:2015\",\n          \"Umweltmanagement\"\n        ],\n        \"2\": [\n          \"ISO 50001:2018\",\n          \"Energiemanagement\"\n        ]\n    },",
+      "ReplacementContent": "    \"certs\": [\n      [\n        \"ISO 9001:2015\",\n        \"Qualitätsmanagement\"\n      ],\n      [\n        \"ISO 14001:2015\",\n        \"Umweltmanagement\"\n      ],\n      [\n        \"ISO 50001:2018\",\n        \"Energiemanagement\"\n      ]\n    ],",
+      "StartLine": 4944,
+      "EndLine": 4960,
+      "AllowMultiple": false
+    }
+  ]
+}

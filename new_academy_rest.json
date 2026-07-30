@@ -1,0 +1,77 @@
+{
+  "eyebrow": "K-Aqua Academy",
+  "title1": "Kaalamang",
+  "titleGrad": "nag-uugnay.",
+  "lead": "Apat na PP-R welding techniques sa video at isang pagsusulit na gagawa sa iyong master welder. Kaalaman na nag-uugnay sa K-Aqua Academy. Na-optimize para sa construction site: malalaking target, mataas na contrast.",
+  "videos": [
+    {
+      "t": "Socket welding sa pamamagitan ng kamay",
+      "s": "hanggang d63: Hand welding tool"
+    },
+    {
+      "t": "Socket welding na may makina",
+      "s": "katamtamang dimensyon"
+    },
+    {
+      "t": "Electrofusion welding",
+      "s": "Electrofusion fittings"
+    },
+    {
+      "t": "Butt welding",
+      "s": "Malalaking dimensyon hanggang d630"
+    }
+  ],
+  "quizEyebrow": "Master Welder Quiz",
+  "quizTitle": "Limang Tanong. Isang Badge.",
+  "intro": "Subukan ang iyong kaalaman sa pagproseso ng PP-R/PPRCT. Walang mali = Titulong 'Master Welder'.",
+  "start": "Simulan ang Pagsusulit",
+  "qLabel": "Tanong",
+  "quiz": [
+    {
+      "q": "Aling proseso ng welding ang pamantayan para sa malalaking dimensyon (hal. d630)?",
+      "o": [
+        "Socket welding sa pamamagitan ng kamay",
+        "Butt welding (Butt Fusion)",
+        "Pagdidikit (Gluing)"
+      ]
+    },
+    {
+      "q": "Ano ang ibig sabihin ng SDR sa mga piping system?",
+      "o": [
+        "Standard Dimension Ratio (d/s)",
+        "Static Density Rating",
+        "Safety Pressure Reserve"
+      ]
+    },
+    {
+      "q": "Ano ang pagkakaiba ng PPRCT sa klasikong PP-R?",
+      "o": [
+        "Mas mababang presyo",
+        "Binagong istraktura ng kristal → mas maraming temperatura at pressure reserve",
+        "Metalikong pampatibay"
+      ]
+    },
+    {
+      "q": "Aling recycling code ang ginagamit para sa Polypropylene?",
+      "o": [
+        "Code 3",
+        "Code 5",
+        "Code 7"
+      ]
+    },
+    {
+      "q": "Sa electrofusion welding, ang init ay nagmumula sa...",
+      "o": [
+        "isang heating element mirror",
+        "mga naka-embed na heating coil sa fitting",
+        "mainit na hangin"
+      ]
+    }
+  ],
+  "resPerfect": "Perpekto! Nakuha mo ang titulong 'Master Welder'!",
+  "resGood": "Magaling! Nakuha mo ang titulong 'Journeyman Welder'. Para sa Master: kailangan tama lahat ng lima.",
+  "resLow": "Makatutulong ang mga video sa itaas. Pagkatapos nito, magagawa mo ang Master.",
+  "retry": "Subukang Muli",
+  "titlePerfect": "Master Welder",
+  "titleGood": "Journeyman Welder"
+}

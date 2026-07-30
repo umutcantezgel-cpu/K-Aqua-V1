@@ -25,6 +25,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { getMessages } from 'next-intl/server';
 import pick from 'lodash/pick';
+import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 const DOT = '•';
 const SPACE = ' ';
@@ -462,6 +463,7 @@ export default async function Page({ params }: Props) {
 
       {/* Signature: Edge Index */}
       <EdgeIndex />
+      <DynamicSeoBlock title={metaTitle} h1={tHome("heroH1")} locale={locale} path="/" />
     </div>
     </NextIntlClientProvider>
   );

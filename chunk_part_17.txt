@@ -1,0 +1,1405 @@
+,
+  "catalogx": {
+  "eyebrow": "Full Product Catalogue",
+  "faqTitle": "Preguntas frecuentes",
+  "title": "All 79 article families: with real article numbers.",
+  "lead": "Pipes, fittings, transition fittings, valves, weld-in saddles, accessories and tools: every row comes from the binding K-Aqua catalogue. Pick a category, expand an article, check the code.",
+  "searchPlaceholder": "Search article number or product name: e.g. \"AQ200P20\" or \"Elbow\"",
+  "noResults": "No matches: adjust the search or pick another category.",
+  "codesLabel": "Article codes",
+  "sizesLabel": "Sizes",
+  "materialLabel": "Material",
+  "sdrLabel": "SDR",
+  "seriesLabel": "Series",
+  "pressureLabel": "Operating pressure",
+  "lenLabel": "Bar length",
+  "cats": {
+    "pipes": {
+      "label": "Pipes",
+      "desc": "PP-R and PP-RCT pipes: standard, fibre-reinforced and UV-stabilised, 12 series."
+    },
+    "fittings": {
+      "label": "Fittings",
+      "desc": "Socket-fusion and electrofusion fittings, d20–d125, 13 article families."
+    },
+    "transitionFittings": {
+      "label": "Transition Fittings",
+      "desc": "Transitions to thread and brass: for legacy connections and valves, 13 families."
+    },
+    "valves": {
+      "label": "Valves",
+      "desc": "Ball valves, concealed valves, distribution manifolds: 9 article families."
+    },
+    "weldInSaddles": {
+      "label": "Weld-in Saddles",
+      "desc": "Branch connections without cutting the pipe: threaded and unthreaded, 3 families."
+    },
+    "accessories": {
+      "label": "Accessories",
+      "desc": "Pipe clamps, backing flanges, gaskets, plugs: 5 article families."
+    },
+    "tools": {
+      "label": "Tools",
+      "desc": "Pipe cutters, welding machines and dies for all four jointing methods, 14 families."
+    }
+  },
+  "rfq": {
+    "title": "Solicitud de proyecto",
+    "desc": "Solicite un presupuesto directamente para <strong>{title}</strong>.",
+    "button": "Ir a la solicitud"
+  },
+  "similar": {
+    "title": "Más de {category}"
+  },
+  "items": {
+    "k-pipe-pp-r-sdr-6": {
+      "seo_p1": "El tubo K-Pipe PP-R SDR 6 es una solución líder en nuestra categoría de tuberías, diseñado para ofrecer un rendimiento superior en instalaciones críticas de agua. Esta tubería monocapa representa la calidad de ingeniería alemana, asegurando una integración perfecta en redes complejas de distribución.",
+      "seo_p2": "Fabricado con polipropileno copolímero al azar (PP-R) de alta pureza, este tubo cuenta con una clase de presión SDR 6. Esta especificación garantiza una resistencia excepcional a altas presiones y temperaturas, manteniendo una estabilidad dimensional óptima sin riesgo de deformación bajo estrés continuo.",
+      "seo_p3": "Ideal para redes de agua potable, sistemas de calefacción y procesos industriales exigentes, su superficie interna lisa minimiza las pérdidas de carga y evita la acumulación de incrustaciones. Su instalación térmica homogénea asegura conexiones 100% libres de fugas para una vida útil prolongada y libre de mantenimiento.",
+      "faq": [
+        {
+          "q": "¿Para qué temperaturas de funcionamiento es adecuado el SDR 6?",
+          "a": "Está diseñado para temperaturas de funcionamiento continuo de hasta 70 °C y ofrece una resistencia a la presión de 20 bar a 20 °C."
+        },
+        {
+          "q": "¿Cuáles son las ventajas del gran espesor de pared?",
+          "a": "La serie SDR 6 (S 2.5) ofrece la máxima resistencia a la presión y estabilidad mecánica en instalaciones con altas exigencias."
+        },
+        {
+          "q": "¿Puedo utilizar este tubo para agua fría?",
+          "a": "Sí, es excelente para sistemas de agua fría ya que su superficie lisa previene eficazmente las incrustaciones y el crecimiento bacteriano."
+        }
+      ]
+    },
+    "k-pipe-pp-rct-sdr-74": {
+      "seo_p1": "El K-Pipe PP-RCT SDR 7.4 destaca dentro de nuestra gama de tuberías avanzadas, ofreciendo un equilibrio perfecto entre capacidad hidráulica y durabilidad estructural. Este modelo de nueva generación está pensado para infraestructuras que exigen la máxima fiabilidad operativa en el suministro de fluidos.",
+      "seo_p2": "Este producto utiliza la tecnología PP-RCT (Polipropileno Copolímero al Azar con Estructura Cristalina Modificada) y presenta una clasificación SDR 7.4. Su innovadora estructura molecular permite paredes más delgadas sin comprometer la resistencia, mejorando significativamente el caudal volumétrico frente al PP-R estándar.",
+      "seo_p3": "Es la elección preferida para sistemas centrales de climatización, distribución de agua potable y rascacielos. Su diseño optimizado reduce el peso total de la instalación, facilita un manejo más ágil en obra y garantiza una eficiencia energética superior en sistemas de bombeo a gran escala.",
+      "faq": [
+        {
+          "q": "¿Qué significa PPRCT en comparación con PPR?",
+          "a": "El PPRCT presenta una estructura cristalina mejorada que permite presiones más altas a temperaturas más elevadas, haciendo posibles espesores de pared más delgados."
+        },
+        {
+          "q": "¿Es mayor el caudal con SDR 7.4?",
+          "a": "Sí, gracias a los espesores de pared reducidos del PPRCT, se logra un aumento en la capacidad de caudal de hasta un 17% con el mismo diámetro exterior."
+        },
+        {
+          "q": "¿Es adecuado el SDR 7.4 para sistemas de calefacción?",
+          "a": "Absolutamente, el material es extremadamente resistente a nivel térmico y por lo tanto ideal para tuberías de impulsión en sistemas de calefacción modernos."
+        }
+      ]
+    },
+    "k-pipe-pp-r-sdr-11": {
+      "seo_p1": "Nuestra tubería K-Pipe PP-R SDR 11 es el estándar confiable para el transporte general de agua dentro de nuestra familia de tuberías. Ofrece una solución versátil y económica para proyectos de construcción civil que requieren durabilidad probada y calidad constante a lo largo del tiempo.",
+      "seo_p2": "Construida íntegramente en material PP-R de primera calidad, esta serie opera bajo la clasificación SDR 11. Sus propiedades térmicas y mecánicas están calibradas para soportar condiciones operativas estándar de baja y media presión, resistiendo eficazmente la corrosión y el desgaste mecánico diario.",
+      "seo_p3": "Se utiliza ampliamente en instalaciones sanitarias residenciales, sistemas de agua fría y líneas de distribución secundarias. Destaca por su excelente atenuación acústica frente al ruido del flujo de agua y por garantizar una pureza higiénica total, cumpliendo con las más estrictas normativas internacionales.",
+      "faq": [
+        {
+          "q": "¿Es el tubo adecuado para agua fría y caliente?",
+          "a": "El tubo SDR 11 está diseñado principalmente para agua fría (20 °C a 12 bar) y aplicaciones de agua caliente a baja presión (60 °C a 6 bar)."
+        },
+        {
+          "q": "¿Cómo se instala la tubería de PP-R SDR 11?",
+          "a": "La instalación se realiza mediante polifusión por termoelemento, creando conexiones absolutamente homogéneas y libres de fugas."
+        },
+        {
+          "q": "¿Existen diferencias de peso respecto a otras clases SDR?",
+          "a": "Sí, debido a su menor espesor de pared, el tubo es significativamente más ligero y flexible de manejar en la obra."
+        }
+      ]
+    },
+    "k-pipe-purple-pp-r-sdr-11": {
+      "seo_p1": "El K-Pipe Purple PP-R SDR 11 es una tubería especializada, diseñada específicamente para la identificación visual rápida y segura de fluidos no potables. Su característico color violeta lo distingue instantáneamente en instalaciones mecánicas complejas, evitando cruces accidentales de líneas.",
+      "seo_p2": "Mantiene todas las propiedades mecánicas excepcionales del PP-R tradicional bajo la clase SDR 11. Su formulación garantiza una alta resistencia a la corrosión química y ambiental, asegurando que las presiones operativas y las características de flujo sean idénticas a las de nuestras líneas estándar.",
+      "seo_p3": "Es la tubería óptima para sistemas de agua reciclada, recolección de agua de lluvia, riego de paisajes y redes de agua de servicio industrial. Su uso asegura el cumplimiento normativo en proyectos ecológicos y de certificación LEED que requieren separación estricta de las redes de agua potable.",
+      "faq": [
+        {
+          "q": "¿Qué significa el color violeta?",
+          "a": "Sirve para distinguir visualmente los sistemas de tuberías destinados a agua industrial, aguas grises o recolección de agua de lluvia según especificaciones internacionales."
+        },
+        {
+          "q": "¿Se puede soldar el tubo con accesorios normales de PP-R?",
+          "a": "Sí, el tubo violeta es compatible con todos los accesorios estándar K-Aqua y se suelda con los mismos parámetros."
+        },
+        {
+          "q": "¿Afecta el color a la calidad del material?",
+          "a": "No, las propiedades físicas y químicas son idénticas a las del tubo regular PP-R SDR 11."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-rct-sdr-74": {
+      "seo_p1": "El K-Fiber Pipe PP-RCT SDR 7.4 es el pináculo de la innovación en tuberías compuestas, diseñado para instalaciones que sufren variaciones térmicas extremas. Forma parte vital de nuestra serie de tubos reforzados con fibra, ofreciendo una estabilidad lineal sin precedentes en redes extensas.",
+      "seo_p2": "Esta tubería de tres capas está compuesta por PP-RCT reforzado con una capa intermedia de fibra de vidrio y clasificada como SDR 7.4. Esta avanzada arquitectura de materiales reduce la dilatación térmica lineal en aproximadamente un 75% en comparación con los tubos de polipropileno monocapa.",
+      "seo_p3": "Su aplicación es indispensable en redes de calefacción de distrito, sistemas industriales de alta temperatura y líneas de distribución largas donde la expansión térmica es crítica. Requiere menos soportes y abrazaderas durante la instalación, lo que se traduce en un ahorro sustancial de tiempo y costos de montaje.",
+      "faq": [
+        {
+          "q": "¿Cuánto reduce la fibra la expansión térmica lineal?",
+          "a": "La capa de fibra de vidrio integrada reduce la expansión lineal hasta en un 75% en comparación con las tuberías masivas de PP-R."
+        },
+        {
+          "q": "¿Es necesario pelar el tubo de fibra antes de soldarlo?",
+          "a": "No, a diferencia de los tubos Stabi con capa de aluminio, nuestro tubo de fibra se puede soldar directamente y sin tratamiento previo."
+        },
+        {
+          "q": "¿Es el tubo adecuado para montantes principales?",
+          "a": "Sí, gracias a su rigidez inherente y extrema resistencia a la presión, es la opción óptima para montantes verticales de gran tamaño."
+        }
+      ]
+    },
+    "k-fiberclima-pipe-pp-rct-sdr-11": {
+      "seo_p1": "Diseñado específicamente para el sector HVAC, el K-Fiberclima Pipe PP-RCT SDR 11 es una tubería de vanguardia para el control climático. Su diseño se enfoca en maximizar la eficiencia en el transporte de fluidos de refrigeración y calefacción en edificaciones modernas de gran volumen.",
+      "seo_p2": "Fabricado con la tecnología PP-RCT y reforzado con una capa intermedia de fibra (SDR 11), proporciona una robustez superior y una sección transversal interna ampliada. La estructura compuesta asegura una estabilidad dimensional excepcional incluso cuando se somete a ciclos continuos de calor y frío.",
+      "seo_p3": "Ideal para techos fríos, sistemas de aire acondicionado centralizados y distribución de agua refrigerada. Su baja conductividad térmica natural previene significativamente la formación de condensación exterior y minimiza las pérdidas de energía, haciendo que todo el sistema HVAC opere de manera más eficiente.",
+      "faq": [
+        {
+          "q": "¿Qué hace que el tubo sea ideal para agua fría de climatización?",
+          "a": "La baja conductividad térmica del PPRCT previene la formación de condensación mucho mejor que los tubos metálicos."
+        },
+        {
+          "q": "¿Cómo se comporta al circular anticongelantes?",
+          "a": "Es extremadamente resistente a glicoles y anticongelantes comunes, evitando fugas por fatiga del material."
+        },
+        {
+          "q": "¿Pueden usarse estos tubos para grandes caudales volumétricos?",
+          "a": "Debido a su pared más delgada (SDR 11) con máxima estabilidad, permite flujos volumétricos extremadamente grandes en redes industriales."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-74": {
+      "seo_p1": "El K-Fiber Pipe PP-R SDR 7.4 es una tubería compuesta altamente resistente, pensada para soportar las presiones más altas dentro de nuestra gama reforzada. Es la solución definitiva para instalaciones donde tanto la alta presión como las fluctuaciones de temperatura son constantes.",
+      "seo_p2": "Combina la probada fiabilidad del material PP-R con un núcleo estabilizador de fibra de vidrio bajo una clasificación estructural SDR 7.4. Esta configuración de múltiples capas bloquea la expansión térmica y aumenta drásticamente la rigidez del tubo, manteniendo la facilidad de soldadura.",
+      "seo_p3": "Altamente recomendado para columnas montantes de agua caliente sanitaria en edificios de gran altura y procesos industriales presurizados. Su rigidez mejorada permite una alineación perfecta en falsos techos y conductos verticales, asegurando una red de tuberías segura, recta y estéticamente limpia.",
+      "faq": [
+        {
+          "q": "¿Está el SDR 7.4 aprobado para altas temperaturas?",
+          "a": "Sí, tolera temperaturas de hasta 70 °C a una presión nominal de 1.0 MPa (10 bar) y picos a corto plazo de 95 °C."
+        },
+        {
+          "q": "¿Cuántas abrazaderas de fijación son necesarias en tramos largos?",
+          "a": "Gracias al refuerzo de fibra, las distancias de fijación pueden ampliarse drásticamente en comparación con los tubos estándar."
+        },
+        {
+          "q": "¿Existen riesgos de corrosión con calidades de agua variables?",
+          "a": "No, el material PP-R es 100% libre de corrosión e independiente del valor de pH del medio transportado."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-9": {
+      "seo_p1": "El K-Fiber Pipe PP-R SDR 9 representa un equilibrio óptimo en nuestra familia de tuberías compuestas, diseñado para satisfacer las demandas de caudal y resistencia térmica simultáneamente. Es un componente fundamental para proyectos de ingeniería de servicios de construcción medianos y grandes.",
+      "seo_p2": "Con una matriz de PP-R enriquecida con tecnología de fibra de vidrio y una dimensión SDR 9, este tubo optimiza la relación entre el espesor de pared y el diámetro interior. Garantiza una restricción efectiva de la elongación por temperatura mientras mantiene una presión de rotura excepcional.",
+      "seo_p3": "Perfecto para sistemas combinados de plomería, distribución de agua potable y aplicaciones industriales generales. Su peso reducido, comparado con alternativas metálicas, facilita una instalación rápida y ergonómica, eliminando los riesgos de corrosión y prolongando significativamente la vida útil de la infraestructura.",
+      "faq": [
+        {
+          "q": "¿Por qué elegir SDR 9 en lugar de SDR 7.4?",
+          "a": "El SDR 9 ofrece un excelente equilibrio entre una mayor capacidad de caudal (pared más delgada) y una resistencia a la presión extrema."
+        },
+        {
+          "q": "¿Se puede soldar con accesorios estándar de PP-R?",
+          "a": "Absolutamente, el tubo de fibra SDR 9 es totalmente compatible con nuestros accesorios K-Aqua PP-R SDR 6 y SDR 7.4."
+        },
+        {
+          "q": "¿Está aprobado para suministro de agua potable?",
+          "a": "Sí, cumple con todos los estándares higiénicos mundiales para agua potable caliente y fría."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-11": {
+      "seo_p1": "Nuestra tubería K-Fiber Pipe PP-R SDR 11 es la solución estándar reforzada con fibra para aplicaciones de agua y climatización de media presión. Ofrece todas las ventajas de la tecnología de baja expansión lineal en un formato altamente económico para instalaciones convencionales.",
+      "seo_p2": "Este tubo tricapa integra PP-R de alta calidad con un núcleo de fibra de vidrio estable, diseñado según las especificaciones SDR 11. Su perfil delgado maximiza la capacidad volumétrica interna, mientras que la capa de fibra neutraliza el alargamiento natural asociado con los termoplásticos.",
+      "seo_p3": "Se utiliza excelentemente en sistemas de aire comprimido, redes de agua fría industrial y circuitos cerrados de climatización. La reducción drástica de la expansión lineal significa menos juntas de dilatación requeridas en el diseño de la red, simplificando la planificación e instalación de todo el sistema.",
+      "faq": [
+        {
+          "q": "¿Son más cortos los tiempos de soldadura con tubos SDR 11?",
+          "a": "Sí, debido al reducido grosor de pared, los tiempos de calentamiento en el elemento térmico se acortan, lo que acelera el proceso de trabajo."
+        },
+        {
+          "q": "¿Cuáles son los límites de aplicación para este tubo SDR 11?",
+          "a": "Está diseñado para presiones máximas de 16 bar a 20 °C y 8 bar a 60 °C."
+        },
+        {
+          "q": "¿Se benefician los sistemas de refrigeración con este tubo?",
+          "a": "Sí, su excelente valor de aislamiento minimiza significativamente la pérdida de energía en las redes de refrigeración."
+        }
+      ]
+    },
+    "k-fiber-pipe-pp-r-sdr-17": {
+      "seo_p1": "El K-Fiber Pipe PP-R SDR 17 es la respuesta de nuestra categoría a las necesidades de transporte de grandes volúmenes de fluidos a baja presión. Este tubo de gran diámetro está diseñado para servir como colector principal y línea de distribución primaria en megaproyectos de infraestructura.",
+      "seo_p2": "Estructurado con compuesto PP-R y fibra de vidrio, y clasificado como SDR 17, ofrece una pared interior extremadamente delgada pero reforzada, que maximiza el diámetro interior disponible. Esta arquitectura está optimizada para caudales masivos minimizando completamente la caída de presión del sistema.",
+      "seo_p3": "Esencial para plantas de tratamiento de agua, sistemas de enfriamiento industrial y suministro central de agua municipal. A pesar de su gran tamaño, el tubo mantiene una ligereza notable que permite una manipulación en obra mucho más sencilla y segura que las tuberías tradicionales de acero o hierro fundido.",
+      "faq": [
+        {
+          "q": "¿Es adecuado el SDR 17 para presiones de red altas?",
+          "a": "El SDR 17 (PN 10) está especialmente diseñado para redes de baja presión con caudales enormes, como por ejemplo en redes de refrigeración urbana."
+        },
+        {
+          "q": "¿Cómo se realiza la conexión en dimensiones tan grandes?",
+          "a": "Los tubos grandes (de 90 mm a 200 mm) se unen preferiblemente mediante soldadura a tope o utilizando manguitos electrosoldables."
+        },
+        {
+          "q": "¿Cuál es la principal ventaja respecto a los tubos de acero?",
+          "a": "El tubo de PP-R no se oxida, pesa una fracción de los tubos de acero y mantiene de forma permanente una sección de paso perfecta."
+        }
+      ]
+    },
+    "k-fiber-uv-pipe-pp-r-sdr-74": {
+      "seo_p1": "El K-Fiber UV Pipe PP-R SDR 7.4 está diseñado específicamente para instalaciones en exteriores, combinando resistencia a la intemperie con nuestra avanzada tecnología de estabilización. Es el pilar de nuestra categoría de tuberías expuestas, ofreciendo protección total contra los elementos ambientales.",
+      "seo_p2": "Esta tubería de alto rendimiento está fabricada con PP-R y un núcleo de fibra, e incorpora una capa exterior negra altamente estabilizada contra los rayos UV, en formato SDR 7.4. Esta barrera bloquea la radiación solar, previniendo la degradación del polímero y el crecimiento de algas en el interior.",
+      "seo_p3": "Ideal para instalaciones en tejados expuestos, redes de distribución al aire libre y sistemas solares térmicos. Elimina la necesidad de aplicar costosos revestimientos o cintas protectoras adicionales, ofreciendo una solución duradera y libre de mantenimiento bajo las condiciones climáticas más extremas.",
+      "faq": [
+        {
+          "q": "¿Cómo se consigue la protección UV en este tubo?",
+          "a": "Una capa exterior negra especial y coextruida absorbe y bloquea la radiación UV dañina antes de que pueda atacar el material PP-R."
+        },
+        {
+          "q": "¿Es necesario quitar la capa UV antes de soldar?",
+          "a": "No, dado que es una capa plástica homogénea, simplemente se funde con el accesorio durante la soldadura por polifusión."
+        },
+        {
+          "q": "¿Se ve limitada la vida útil en exteriores?",
+          "a": "La capa de protección UV previene la degradación del polímero, garantizando una vida útil completa de 50 años incluso bajo luz solar directa."
+        }
+      ]
+    },
+    "k-fiber-uv-pipe-pp-rct-sdr-74": {
+      "seo_p1": "Como la evolución definitiva para aplicaciones exteriores, el K-Fiber UV Pipe PP-RCT SDR 7.4 combina la resistencia máxima a los rayos ultravioleta con una capacidad hidráulica superior. Lidera nuestra línea de productos para el tendido de redes de alto rendimiento al aire libre.",
+      "seo_p2": "Integra la tecnología de núcleo de cristal modificado PP-RCT, refuerzo de fibra de vidrio y una robusta cubierta estabilizada contra UV (SDR 7.4). Esta cuádruple ventaja técnica proporciona la mayor resistencia térmica y mecánica disponible, al tiempo que es completamente inmune al daño por radiación solar.",
+      "seo_p3": "Perfecto para enfriadoras montadas en techo, tuberías industriales exteriores y redes de agua potable en climas tropicales intensos. Garantiza que la temperatura superficial extrema del sol no comprometa la integridad estructural ni afecte la calidad higiénica del agua transportada durante décadas.",
+      "faq": [
+        {
+          "q": "¿Combina este tubo protección UV con una mayor capacidad de caudal?",
+          "a": "Sí, gracias al material PPRCT altamente cristalino se puede utilizar un espesor de pared más delgado, mientras que la capa UV proporciona protección exterior extrema."
+        },
+        {
+          "q": "¿Existen accesorios K-Aqua resistentes a los rayos UV?",
+          "a": "Los accesorios generalmente se protegen mediante aislamiento, pintura o cintas de protección UV, mientras que los tramos largos de tubería vienen protegidos de fábrica."
+        },
+        {
+          "q": "¿Es adecuado este tubo para torres de refrigeración?",
+          "a": "Es la elección óptima, ya que resiste de forma duradera tanto la exposición al sol abrasador como los aditivos químicos del agua de refrigeración."
+        }
+      ]
+    },
+    "cap": {
+      "seo_p1": "El Cap (Tapón) es un accesorio fundamental en nuestra categoría de piezas formadas, diseñado para sellar herméticamente el final de una línea de tubería. Representa el estándar de seguridad y fiabilidad alemana en el cierre de circuitos presurizados de agua y otros fluidos.",
+      "seo_p2": "Fabricado íntegramente en material PP-R/PP-RCT, este accesorio es compatible con todos los espesores de pared (SDR) del sistema. Su diseño de encaje para soldadura por termofusión asegura una conexión a nivel molecular que iguala la resistencia de la propia tubería.",
+      "seo_p3": "Se aplica ampliamente en extremos muertos de tuberías, pruebas temporales de presión y cierres permanentes de futuros puntos de conexión. Su uso garantiza una estanqueidad del 100%, eliminando completamente cualquier riesgo de fuga o filtración en redes críticas de agua potable y climatización.",
+      "faq": [
+        {
+          "q": "¿Se puede utilizar el tapón para una prueba de presión?",
+          "a": "Sí, después de una soldadura adecuada y tras enfriarse, el tapón resiste sin problemas la presión de prueba completa del sistema (hasta 30 bar)."
+        },
+        {
+          "q": "¿Cómo cierro líneas temporales?",
+          "a": "Para cierres temporales recomendamos tapones roscados; el tapón de terminación se suelda homogéneamente y, por tanto, está pensado para un cierre permanente."
+        },
+        {
+          "q": "¿Es estanco el tapón a todas las temperaturas?",
+          "a": "Debido a la fusión térmica no existen coeficientes de dilatación diferentes, lo que lo hace absolutamente libre de fugas desde 0 °C hasta 95 °C."
+        }
+      ]
+    },
+    "socket": {
+      "seo_p1": "El Socket (Manguito) es la pieza de conexión recta esencial dentro de nuestra gama de accesorios termoplásticos. Su función es unir dos segmentos de tubería de manera lineal, asegurando una continuidad de flujo ininterrumpida y segura en cualquier instalación hidrosanitaria.",
+      "seo_p2": "Producido a partir de polipropileno (PP-R/PP-RCT) de calidad premium, su geometría interna está diseñada para adaptarse perfectamente a las dimensiones de las tuberías estándar (cualquier SDR). El proceso de soldadura a encaje proporciona un área de fusión extensa que soporta tensiones mecánicas severas.",
+      "seo_p3": "Indispensable para extender líneas de suministro en tramos largos, ya sea en instalaciones industriales, comerciales o residenciales. La soldadura homogénea resultante evita caídas de presión y turbulencias, manteniendo la integridad total de la red durante más de 50 años de vida útil operativa.",
+      "faq": [
+        {
+          "q": "¿Qué profundidad debe tener el tubo al insertarse en el manguito?",
+          "a": "La profundidad de inserción está definida exactamente en nuestras directrices técnicas y debe marcarse en el tubo para evitar el estrechamiento de la sección transversal."
+        },
+        {
+          "q": "¿Se pueden usar manguitos también para tubos de fibra?",
+          "a": "Sí, nuestros manguitos estándar son totalmente compatibles con todos los tubos K-Aqua de PP-R, PPRCT y de fibra."
+        },
+        {
+          "q": "¿Existe riesgo de microfugas en la costura?",
+          "a": "No, dado que la polifusión crea una conexión molecular cohesiva que es tan fuerte como el tubo en sí."
+        }
+      ]
+    },
+    "elbow-45": {
+      "seo_p1": "El Elbow 45° (Codo de 45°) es una pieza angular indispensable en nuestra categoría de accesorios, desarrollada para redireccionar el flujo de manera suave y eficiente. Es una solución clave para sortear obstáculos estructurales en redes complejas sin generar turbulencias severas.",
+      "seo_p2": "Inyectado en polipropileno puro PP-R/PP-RCT de alto rendimiento, este accesorio se integra a la perfección con todas las clases de presión (SDR). Su diseño interno hidrodinámico minimiza la fricción del fluido, asegurando una transición direccional precisa a 45 grados bajo cualquier condición térmica.",
+      "seo_p3": "Utilizado extensamente en cuartos de máquinas, galerías técnicas y trazados de tuberías en espacios reducidos. Contribuye a un diseño de red más eficiente energéticamente al reducir significativamente las pérdidas de carga en comparación con las desviaciones abruptas de 90 grados, optimizando el bombeo.",
+      "faq": [
+        {
+          "q": "¿Cuándo debería usar un codo de 45 grados en lugar de uno de 90 grados?",
+          "a": "Un codo de 45 grados reduce significativamente la pérdida de presión y la resistencia al flujo (valor Zeta) en el sistema, y previene la generación de ruido."
+        },
+        {
+          "q": "¿Están los codos K-Aqua optimizados para el flujo?",
+          "a": "Sí, los radios internos de nuestros codos de 45 grados son extremadamente lisos y están optimizados hidráulicamente para prevenir la cavitación."
+        },
+        {
+          "q": "¿Se pueden combinar dos codos de 45 grados para formar una curva de 90 grados?",
+          "a": "Sí, esta práctica se utiliza a menudo en grandes dimensiones para crear curvas amplias y reducir la resistencia de la bomba."
+        }
+      ]
+    },
+    "elbow-45-femalemale": {
+      "seo_p1": "El Elbow 45° (Female/Male) es un codo reductor de espacio que combina conexiones macho y hembra, destacando por su versatilidad dentro de nuestros accesorios. Está diseñado para ofrecer flexibilidad direccional inmediata cuando el espacio de instalación es extremadamente limitado.",
+      "seo_p2": "Compuesto de termoplástico PP-R/PP-RCT superior, este codo de 45 grados (independiente del SDR) cuenta con un extremo tipo manguito (hembra) y otro que se inserta directamente (macho). Esta configuración única permite ensamblarse directamente en otro accesorio sin requerir un segmento corto de tubo intermedio.",
+      "seo_p3": "Perfecto para instalaciones compactas en plenos de techos, ejes de tuberías estrechos y conexiones directas a equipos compactos. Su aplicación reduce drásticamente el tiempo de montaje, la cantidad de soldaduras necesarias y el volumen total ocupado por el sistema de tuberías.",
+      "faq": [
+        {
+          "q": "¿Aumenta un codo de 90 grados el desgaste por presión de flujo?",
+          "a": "Gracias a las reservas de espesor de pared y a las superficies internas extremadamente lisas del material PP-R, el desgaste por abrasión queda prácticamente excluido."
+        },
+        {
+          "q": "¿Existen marcas de dirección en los codos K-Aqua?",
+          "a": "Sí, nuestros accesorios a menudo presentan marcas de producción que ayudan a una alineación axial exacta en la obra."
+        },
+        {
+          "q": "¿Se puede usar el codo de 90 grados para montantes?",
+          "a": "Sí, es ideal para desviar tuberías desde huecos técnicos hacia cada planta respectiva."
+        }
+      ]
+    },
+    "elbow-90": {
+      "seo_p1": "El Elbow 90° (Codo de 90°) es el componente de cambio direccional más utilizado en nuestra gama de accesorios. Fabricado bajo tolerancias estrictas, permite realizar giros ortogonales perfectos para estructurar redes de tuberías organizadas, limpias y altamente profesionales.",
+      "seo_p2": "Construido con PP-R/PP-RCT macizo para una durabilidad insuperable en cualquier clase SDR. Su cavidad interna está diseñada utilizando dinámica de fluidos para minimizar la pérdida de presión inherente a los cambios de dirección cerrados, asegurando una fusión térmica profunda y homogénea en ambos extremos.",
+      "seo_p3": "Es vital para cambios de dirección en paredes, esquinas de edificios y derivaciones principales en sistemas de plomería. Asegura una adaptación perfecta a la arquitectura del edificio, proporcionando un canal robusto, libre de corrosión y hermético a largo plazo para el suministro de agua fría y caliente.",
+      "faq": [
+        {
+          "q": "¿Qué significa I/A (M/H) en este codo?",
+          "a": "Significa Interior/Exterior (Macho/Hembra). Un lado se suelda como manguito y el otro puede insertarse y soldarse directamente en otro accesorio."
+        },
+        {
+          "q": "¿Qué ventaja ofrece la construcción I/A?",
+          "a": "Ahorra espacio y evita el uso de un trozo de tubo adicional entre dos accesorios, lo cual es crucial en espacios reducidos."
+        },
+        {
+          "q": "¿Cambia esto el proceso de soldadura?",
+          "a": "El proceso sigue siendo el mismo, simplemente se utilizan simultáneamente la matriz y el macho en el espejo de soldadura para tubo y accesorio."
+        }
+      ]
+    },
+    "elbow-90-femalemale": {
+      "seo_p1": "El Elbow 90° (Female/Male) es un codo de ángulo recto que optimiza el espacio de ensamblaje en nuestra familia de piezas formadas. Su diseño asimétrico resuelve desafíos críticos de instalación donde los componentes tradicionales ocuparían demasiado espacio estructural.",
+      "seo_p2": "Moldeado en material PP-R/PP-RCT para compatibilidad universal con todos los SDR, este codo de 90 grados presenta una conexión hembra y una macho. Esta ingeniería inteligente elimina la necesidad de un niple de tubería adicional, fusionándose directamente con otros accesorios o válvulas.",
+      "seo_p3": "Ideal para la creación de colectores compactos, desvíos ajustados y conexiones inmediatas detrás de paredes o mamparas sanitarias. Reduce exponencialmente los posibles puntos de fallo al disminuir las uniones soldadas, ahorrando valioso tiempo y material en la obra.",
+      "faq": [
+        {
+          "q": "¿Es adecuado el codo de 45 grados I/A para desplazamientos paralelos?",
+          "a": "Sí, en combinación con un codo estándar de 45 grados, permite realizar desvíos de piso extremadamente compactos."
+        },
+        {
+          "q": "¿Es la resistencia a la presión de la conexión Interior/Exterior igual de alta?",
+          "a": "La soldadura homogénea por polifusión garantiza también aquí un 100% de resistencia a la presión (PN 25) en el punto de conexión."
+        },
+        {
+          "q": "¿Para qué dimensiones está disponible este codo?",
+          "a": "Típicamente se produce para las dimensiones habituales en la distribución de pisos, desde 20 mm hasta 40 mm."
+        }
+      ]
+    },
+    "electrofusion-socket": {
+      "seo_p1": "El Electrofusion Socket (Manguito Electrosoldable) es una pieza de tecnología de unión avanzada en nuestra oferta de accesorios. Proporciona una solución de soldadura automatizada y segura en situaciones donde el uso de máquinas de soldadura a encaje tradicionales no es viable.",
+      "seo_p2": "Equipado con un filamento de resistencia eléctrica incrustado en su interior y fabricado en polietileno/PP-R de alta densidad (compatible con varios SDR). Al aplicarle corriente eléctrica, el filamento funde el material interior y el exterior del tubo simultáneamente, controlando la temperatura con precisión milimétrica.",
+      "seo_p3": "Es la solución indispensable para reparaciones en espacios confinados, fosas estrechas o instalaciones de gran diámetro donde mover las tuberías es imposible. Garantiza una soldadura trazable, documentada y completamente hermética, vital en infraestructuras de gas y redes críticas de suministro de agua municipal.",
+      "faq": [
+        {
+          "q": "¿Se debe pelar el tubo antes de la electrosoldadura?",
+          "a": "Sí, eliminar la capa de óxido mediante un pelatubos especial es estrictamente necesario para una fusión impecable."
+        },
+        {
+          "q": "¿Qué equipos de soldadura se pueden utilizar?",
+          "a": "Se deben emplear equipos de electrosoldadura de K-Aqua o universales que sean capaces de leer el código de barras en el manguito."
+        },
+        {
+          "q": "¿Cuándo es mejor la electrosoldadura que la soldadura a tope por termoelemento?",
+          "a": "Especialmente cuando hay una libertad de movimiento limitada (por ejemplo, en conductos cerrados), donde no hay espacio para la máquina de soldadura por manguito."
+        }
+      ]
+    },
+    "flange-adaptor": {
+      "seo_p1": "El Flange Adaptor (Portabridas) es el componente de transición crucial para nuestra categoría de accesorios de interconexión. Sirve como base robusta para crear uniones embridadas desmontables, conectando nuestros modernos sistemas de tuberías de plástico con infraestructuras metálicas pesadas.",
+      "seo_p2": "Fabricado con PP-R/PP-RCT inyectado, diseñado con un collar liso que soporta el empuje de la brida de respaldo metálica (adecuado para diferentes presiones SDR). Su extremo para soldar garantiza la unión homogénea con la tubería de plástico, mientras que la cara plana sella perfectamente contra la junta.",
+      "seo_p3": "Fundamental para la conexión a válvulas de mariposa metálicas, bombas de gran tamaño y depósitos industriales. Permite el montaje y desmontaje rápido de componentes del sistema para un mantenimiento eficiente, manteniendo una integridad de sellado absoluta sin riesgo de corrosión bimetálica.",
+      "faq": [
+        {
+          "q": "¿Qué normas de bridas admite el portabridas de K-Aqua?",
+          "a": "Es compatible con bridas estándar DIN/EN comerciales (por ejemplo, PN10, PN16) y requiere la brida loca K-Aqua correspondiente."
+        },
+        {
+          "q": "¿Necesito una junta adicional?",
+          "a": "Sí, entre el portabridas de PP-R y la brida contraria debe colocarse obligatoriamente una junta plana de EPDM adecuada."
+        },
+        {
+          "q": "¿Cómo se conecta el portabridas al tubo?",
+          "a": "Se suelda como un accesorio convencional mediante soldadura por manguito con termoelemento, directamente al tubo o en un manguito."
+        }
+      ]
+    },
+    "reducing-bush": {
+      "seo_p1": "El Reducing Bush (Casquillo Reductor) es una pieza de transición clave en nuestra gama de accesorios, diseñada para realizar reducciones concéntricas de diámetro en la red de tuberías. Es fundamental para adaptar los caudales desde las líneas principales hacia ramales más pequeños.",
+      "seo_p2": "Inyectado con precisión en PP-R/PP-RCT de alta calidad, permite unir un manguito de diámetro mayor con un tubo de diámetro menor. Su diseño escalonado garantiza que el grosor de pared coincida con los requisitos de la clase de presión (SDR) del sistema en ambos extremos.",
+      "seo_p3": "Ampliamente utilizado en sistemas de distribución de agua y calefacción para equilibrar la presión hidrodinámica a medida que la red se ramifica hacia los puntos de consumo. Su instalación por termofusión garantiza una unión permanente y sin fugas que no restringe el flujo de manera abrupta.",
+      "faq": [
+        {
+          "q": "¿Qué significa una reducción I/A?",
+          "a": "El lado mayor (exterior, macho) se introduce directamente en un accesorio. El lado menor (interior, hembra) funciona como manguito y acoge el tubo que continúa."
+        },
+        {
+          "q": "¿Están disponibles estas reducciones para todos los diámetros de tubo?",
+          "a": "Sí, existen desde pequeñas reducciones de 25/20 mm hasta saltos de gran volumen para montantes."
+        },
+        {
+          "q": "¿Tienen estos casquillos la misma resistencia a la presión que un manguito estándar?",
+          "a": "Gracias al diseño uniforme y al polipropileno puro PP-R/PP-RCT, garantizamos en todo momento una presión nominal completa (PN 25)."
+        }
+      ]
+    },
+    "reducing-tee": {
+      "seo_p1": "El Reducing Tee (Te Reducida) es un componente de derivación esencial dentro de nuestra oferta de piezas formadas. Permite dividir el flujo principal creando un ramal secundario de menor diámetro en un ángulo perfecto de 90 grados.",
+      "seo_p2": "Fabricado en polipropileno PP-R/PP-RCT, este accesorio en forma de T soporta las más altas exigencias mecánicas para cualquier clasificación SDR. Su arquitectura interna cuenta con transiciones suaves que reducen significativamente las turbulencias y la cavitación en el punto de derivación.",
+      "seo_p3": "Es el estándar en instalaciones de plomería para conectar lavabos, inodoros o ramales de piso a las tuberías ascendentes principales. Garantiza que el volumen de agua distribuido sea el adecuado sin necesidad de utilizar múltiples accesorios adaptadores, ahorrando espacio y costos de soldadura.",
+      "faq": [
+        {
+          "q": "¿La reducción está en el paso recto o en el ramal?",
+          "a": "En la pieza en T reducida estándar, por lo general se reduce solo la salida del ramal medio, pero también ofrecemos modelos con reducción lateral (por ejemplo, 25/20/20)."
+        },
+        {
+          "q": "¿Puedo utilizar una pieza en T reducida también como pieza mezcladora?",
+          "a": "Sí, al invertir la dirección del flujo, los fluidos se pueden unir desde dos líneas para formar un caudal principal."
+        },
+        {
+          "q": "¿Por qué no construir la pieza en T a partir de elementos individuales?",
+          "a": "Nuestra solución de una sola pieza ahorra dos procesos de soldadura adicionales y minimiza tanto los errores como los costes de material."
+        }
+      ]
+    },
+    "reducing-tee-large-sizes": {
+      "seo_p1": "El Reducing Tee (Large Sizes) es una te de reducción diseñada específicamente para tuberías principales de gran diámetro, formando el núcleo de nuestra infraestructura industrial. Facilita la creación de derivaciones secundarias significativas desde los colectores principales.",
+      "seo_p2": "Moldeada en PP-R/PP-RCT de alta resistencia, esta Te de gran formato está reforzada para tolerar altos esfuerzos mecánicos en conexiones de varios SDR. A pesar de su gran tamaño, el proceso de termofusión asegura que se fusione molecularmente con la red, evitando el uso de bridas o accesorios mecánicos.",
+      "seo_p3": "Ideal para centrales de bombeo, plantas de tratamiento de agua y sistemas de climatización industrial. Permite una distribución eficiente de altos volúmenes de fluidos hacia diferentes secciones del edificio, asegurando una mínima pérdida de carga a lo largo de toda la matriz principal.",
+      "faq": [
+        {
+          "q": "¿Las piezas en T de gran tamaño están unidas o inyectadas sin costuras?",
+          "a": "En K-Aqua damos importancia a las piezas moldeadas por inyección, ya que presentan una mayor estabilidad a largo plazo bajo picos de presión en comparación con las variantes soldadas a mano."
+        },
+        {
+          "q": "¿Cómo se sueldan las piezas en T más grandes?",
+          "a": "A partir de un diámetro exterior de 160 mm se deben utilizar exclusivamente máquinas de soldadura a tope, que nosotros mismos suministramos."
+        },
+        {
+          "q": "¿Necesito reforzar el tubo en el área del ramal?",
+          "a": "Nuestros diseños ya cuentan con el refuerzo estático integrado en las paredes para soportar de manera segura el flujo turbulento."
+        }
+      ]
+    },
+    "tee": {
+      "seo_p1": "La Tee (Te Igual) es un pilar fundamental en nuestra familia de accesorios para la distribución de fluidos. Diseñada para ramificar el flujo principal en dos direcciones con exactamente el mismo diámetro, manteniendo la simetría de la red.",
+      "seo_p2": "Desarrollada en polipropileno PP-R/PP-RCT de la más alta calidad, esta Te simétrica es totalmente compatible con todas las clases de presión (SDR). Su diseño interno ha sido optimizado hidrodinámicamente para asegurar que el fluido se divida con la menor resistencia y pérdida de presión posible.",
+      "seo_p3": "Es el accesorio de elección en la construcción de redes de rociadores, sistemas de distribución de agua potable simétrica y circuitos de anillo para calefacción. Su fiabilidad asegura un rendimiento constante y a prueba de fugas, incluso en sistemas sometidos a continuos ciclos térmicos y de presión.",
+      "faq": [
+        {
+          "q": "¿Existen diferentes modelos de piezas en T?",
+          "a": "Básicamente diferenciamos entre piezas en T con salidas de igual tamaño (isosceles) y piezas en T reducidas."
+        },
+        {
+          "q": "¿Cuál es la pérdida de presión en una desviación de 90°?",
+          "a": "Debido a las superficies lisas de PP-R, las pérdidas son minúsculas; los valores Zeta precisos se pueden encontrar en el software de planificación de K-Aqua."
+        },
+        {
+          "q": "¿Se suelda la pieza en T en la misma fase de trabajo?",
+          "a": "Las tres conexiones se pueden calentar y soldar sucesivamente, respetando estrictamente los correspondientes tiempos de enfriamiento."
+        }
+      ]
+    },
+    "cross": {
+      "seo_p1": "La Cross (Cruz) es un accesorio de distribución especializado en nuestra gama, concebido para aplicaciones donde el flujo debe dividirse en tres direcciones simultáneamente. Permite crear nodos de intersección complejos de manera limpia y compacta.",
+      "seo_p2": "Construida con PP-R/PP-RCT masivo, esta cruz de cuatro vías soporta tensiones multiaxiales, operando perfectamente bajo cualquier SDR del sistema. Su geometría interna previene eficazmente los estancamientos de agua, cumpliendo con los estándares de higiene para agua potable.",
+      "seo_p3": "Especialmente útil en la creación de colectores de distribución centrales y cruces de líneas múltiples en un mismo plano estructural. Reduce drásticamente la cantidad de accesorios y soldaduras necesarias en intersecciones complejas, minimizando el riesgo de errores de instalación y posibles fugas.",
+      "faq": [
+        {
+          "q": "¿Para qué instalaciones resulta rentable una pieza en cruz?",
+          "a": "Especialmente cuando múltiples líneas de extracción, por ejemplo, hacia diferentes cabinas de ducha, deben alimentarse simultáneamente y ahorrando espacio desde una línea principal."
+        },
+        {
+          "q": "¿Se influyen mutuamente los flujos en la pieza en cruz?",
+          "a": "Un diseño asimétrico de la tubería puede provocar desequilibrios hidráulicos; en este caso recomendamos el equilibrado hidráulico."
+        },
+        {
+          "q": "¿Es la pieza en cruz más susceptible a problemas de presión?",
+          "a": "No, está diseñada de tal manera que puede absorber de forma segura los picos de presión (golpe de ariete) procedentes de cuatro direcciones."
+        }
+      ]
+    },
+    "cross-over": {
+      "seo_p1": "El Cross Over (Curva de Desvío) es una solución inteligente en nuestra categoría de piezas, diseñada para resolver la superposición de tuberías en un mismo plano. Evita que las líneas que se cruzan interfieran entre sí en espacios confinados.",
+      "seo_p2": "Inyectado en PP-R/PP-RCT de calidad superior, este accesorio arqueado está calibrado para mantener el diámetro interior constante durante el desvío, independientemente de la clase SDR. Cuenta con extremos tipo manguito para una integración directa y sencilla por soldadura térmica.",
+      "seo_p3": "Es imprescindible en la instalación de tuberías de radiadores, sistemas de suelo radiante y distribuciones empotradas complejas donde los tubos de agua caliente y fría deben cruzarse. Garantiza un flujo sin restricciones y evita por completo el contacto y la fricción entre las tuberías adyacentes.",
+      "faq": [
+        {
+          "q": "¿Por qué necesito un salto de tubo en lugar de curvar la tubería yo mismo?",
+          "a": "Doblar manualmente tubos de PP-R a menudo provoca dobleces incontrolables. Nuestra curva puente prefabricada garantiza una sección transversal 100% inalterada."
+        },
+        {
+          "q": "¿Se puede utilizar esta curva de salto tanto para agua caliente como fría?",
+          "a": "Sí, es idónea para cruzar líneas de agua fría y caliente en un espacio mínimo, sin tocarse."
+        },
+        {
+          "q": "¿Existen diferentes alturas para la curva puente?",
+          "a": "Nuestra geometría estándar está dimensionada con la precisión suficiente para pasar de forma segura por encima de los diámetros de tubo PP-R convencionales."
+        }
+      ]
+    },
+    "cross-over-pipe": {
+      "seo_p1": "El Cross Over Pipe (Tubo de Desvío Corto) complementa nuestras soluciones de desvío ofreciendo un tramo alargado para cruzar obstáculos más anchos u otras tuberías principales. Proporciona mayor flexibilidad geométrica durante la instalación en obra.",
+      "seo_p2": "Fabricado en PP-R/PP-RCT, su estructura extendida está reforzada para resistir flexiones sin comprometer la integridad estructural para cualquier SDR. A diferencia del desvío estándar, sus extremos son de tipo macho, lo que requiere manguitos adicionales para su conexión al sistema.",
+      "seo_p3": "Ideal para saltar colectores, vigas estructurales o grupos densos de tuberías. Su uso garantiza que se mantenga el espesor de aislamiento adecuado alrededor de los tubos que se cruzan, evitando la pérdida de energía térmica y asegurando un diseño de red impecablemente ordenado.",
+      "faq": [
+        {
+          "q": "¿Qué diferencia hay entre este y el salto corto estándar?",
+          "a": "El salto largo tiene extremos de tubo lisos para permitir el corte exacto y la inserción directa en un accesorio (por ejemplo, pieza en T)."
+        },
+        {
+          "q": "¿Ahorra tiempo en la obra el salto largo?",
+          "a": "Sí, ya que al conectarse directamente se ahorran manguitos intermedios. Es la solución óptima para grandes instalaciones de calefacción por suelo radiante o montaje en pared."
+        },
+        {
+          "q": "¿Es la resistencia al flujo idéntica a la del salto corto?",
+          "a": "Debido a los arcos amplios y redondeados del salto largo, la dinámica de flujo suele ser incluso ligeramente mejor."
+        }
+      ]
+    },
+    "adaptor-socket-female-thread": {
+      "seo_p1": "El Adaptor Socket (Female Thread) es una pieza de transición vital en nuestra gama de accesorios roscados. Permite conectar de manera segura y definitiva el sistema de tuberías de plástico con componentes metálicos que poseen roscas macho.",
+      "seo_p2": "Combina un cuerpo termoplástico de PP-R/PP-RCT para soldar con una inserción de latón niquelado de alta calidad que aloja la rosca hembra. Su diseño de anclaje antitorsión asegura que la parte metálica no gire ni se desprenda bajo tensiones mecánicas o térmicas severas (SDR universal).",
+      "seo_p3": "Ampliamente empleado para conectar la red de tuberías a válvulas de ángulo, grifos de paso, mangueras flexibles y manómetros. Garantiza una transición 100% libre de fugas y resistente a la corrosión bimetálica, protegiendo las conexiones críticas en lavabos, duchas e instalaciones industriales.",
+      "faq": [
+        {
+          "q": "¿De qué material es el inserto roscado?",
+          "a": "Utilizamos latón CW617N niquelado para garantizar la máxima seguridad en agua potable y resistencia contra el descincado."
+        },
+        {
+          "q": "¿Cómo se inyecta la rosca de forma segura?",
+          "a": "Nuestra protección especial antigiro y el contorno del inserto metálico impiden la torsión, incluso bajo cargas altas."
+        },
+        {
+          "q": "¿Se puede atornillar y desatornillar con frecuencia el accesorio de transición?",
+          "a": "Sí, el núcleo de latón robusto permite el montaje y desmontaje repetido de la contraparte sin dañar la rosca interior."
+        }
+      ]
+    },
+    "adaptor-socket-male-thread": {
+      "seo_p1": "El Adaptor Socket (Male Thread) es la contraparte indispensable para transiciones metálicas en nuestro catálogo de accesorios. Facilita la conexión directa de nuestra tubería de polipropileno a válvulas, accesorios o equipos que disponen de conexión roscada hembra.",
+      "seo_p2": "Fabricado mediante sobreinyección, este adaptador encapsula de manera permanente una rosca macho de latón resistente a la desgalvanización dentro de una matriz de PP-R/PP-RCT (apto para cualquier SDR). Este proceso garantiza una estanqueidad absoluta entre el plástico y el metal, eliminando las microfugas.",
+      "seo_p3": "Es el componente ideal para conectar calentadores de agua, tanques de expansión, y colectores de metal. Proporciona una interfaz extremadamente robusta que soporta fuerzas de torsión durante el apriete, asegurando la durabilidad mecánica de la transición durante toda la vida útil de la instalación.",
+      "faq": [
+        {
+          "q": "¿Es cónica o cilíndrica la rosca exterior?",
+          "a": "Proporcionamos principalmente roscas de tubo cilíndricas estándar según EN 10226, por lo que recomendamos sellado con cinta de teflón."
+        },
+        {
+          "q": "¿Se afloja el inserto metálico a altas temperaturas?",
+          "a": "No, gracias a las zonas especiales de expansión alrededor del latón, el componente compensa las fluctuaciones térmicas (de 0 a 90 °C) sin fugas."
+        },
+        {
+          "q": "¿Qué ocurre al apretar excesivamente?",
+          "a": "Un apriete excesivo con herramientas inadecuadas puede sobrecargar el plástico exterior. ¡Siga siempre las especificaciones de torsión de K-Aqua!"
+        }
+      ]
+    },
+    "elbow-90-male-thread": {
+      "seo_p1": "El Elbow 90° (Male Thread) es un codo de transición angular dentro de nuestra selección de accesorios. Permite realizar un giro de 90 grados al mismo tiempo que efectúa una transición de la tubería de plástico a una conexión metálica con rosca exterior.",
+      "seo_p2": "Integra un cuerpo de PP-R/PP-RCT hidrodinámico con un inserto macho de latón niquelado anclado firmemente (compatible con cualquier SDR). Su diseño reduce la necesidad de unir múltiples piezas (un codo más un adaptador recto), eliminando puntos potenciales de falla.",
+      "seo_p3": "Perfecto para la conexión de radiadores, calderas de pared y accesorios sanitarios donde el espacio de montaje es escaso. Su arquitectura compacta facilita una instalación rápida, asegurando un cambio de dirección fluido y una conexión roscada extremadamente fuerte y duradera.",
+      "faq": [
+        {
+          "q": "¿Cuándo se usa este ángulo de transición?",
+          "a": "Es ideal para conectar calentadores, válvulas o calderas que salen de la pared directamente en ángulo recto con rosca macho."
+        },
+        {
+          "q": "¿Se reduce el flujo debido al inserto metálico?",
+          "a": "Nuestros insertos de latón están optimizados hidráulicamente de tal manera que las turbulencias en el cambio de sección se minimizan."
+        },
+        {
+          "q": "¿Tienen estos ángulos llaves Allen para el montaje?",
+          "a": "Están diseñados en parte con una forma de tuerca exterior fundida, para permitir un apriete seguro con la llave sin dañar el tubo."
+        }
+      ]
+    },
+    "elbow-bracket-90-female-thread": {
+      "seo_p1": "El Elbow Bracket 90° (Female Thread) es un codo con soporte de fijación incorporado, diseñado para montajes en pared de alta resistencia. Es una pieza estrella en nuestra gama para asegurar conexiones sanitarias estables y precisas.",
+      "seo_p2": "Compuesto por PP-R/PP-RCT de alta densidad con una inserción de rosca hembra de latón, cuenta con aletas de fijación pretaladradas (ideal para el SDR del sistema). Su estructura sólida transfiere eficientemente las fuerzas de tracción y torsión hacia la pared, protegiendo la tubería de plástico.",
+      "seo_p3": "Esencial para la instalación de griferías de ducha, conexiones de bañera y tomas de agua debajo del fregadero. Garantiza que las conexiones de agua queden fijadas de forma rígida a la mampostería, evitando vibraciones, aflojamientos y posibles daños por el uso constante del usuario.",
+      "faq": [
+        {
+          "q": "¿Qué ventajas tiene la placa de montaje integrada?",
+          "a": "Permite atornillar sólidamente a la mampostería o al bloque de instalación, garantizando que el grifo quede libre de torsiones y oscilaciones al accionarse."
+        },
+        {
+          "q": "¿Está la rosca hembra niquelada?",
+          "a": "Sí, nuestros insertos estándar de latón están niquelados para una protección extra contra la corrosión exterior, algo ideal en cuartos húmedos."
+        },
+        {
+          "q": "¿Cómo sello el grifo aquí?",
+          "a": "Selle las roscas de conexión siempre con cinta de teflón o hilo de sellado adecuado. ¡Evite el cáñamo, ya que al hincharse puede dañar el inserto de latón!"
+        }
+      ]
+    },
+    "elbowwall-bracket-90-female-thread": {
+      "seo_p1": "El Elbow/Wall Bracket 90° (Female Thread) es una evolución de nuestro codo con soporte, optimizado para instalaciones sobre paneles de yeso y tabiques secos. Es la solución perfecta para asegurar las terminaciones de agua en construcciones ligeras modernas.",
+      "seo_p2": "Su cuerpo de PP-R/PP-RCT aloja una rosca hembra de latón y presenta una placa base extendida o un diseño de soporte modificado que permite una distribución de carga más amplia. Compatible con todos los espesores de pared (SDR), garantiza una fijación robusta sin dañar la pared hueca.",
+      "seo_p3": "Imprescindible en sistemas de pre-muro, baños prefabricados y renovaciones ligeras. Su instalación asegura que los mezcladores y grifos queden perfectamente alineados y sólidamente anclados, soportando fácilmente las fuerzas aplicadas al abrir o cerrar válvulas diariamente.",
+      "faq": [
+        {
+          "q": "¿Cuándo elijo el codo placa prolongado?",
+          "a": "Es ideal para paredes premurales o enlucidos gruesos donde la tubería está muy profunda y una placa estándar quedaría demasiado atrás en la pared."
+        },
+        {
+          "q": "¿La longitud adicional requiere una fijación distinta?",
+          "a": "No, las pletinas de fijación son idénticas al modelo estándar, lo que permite un montaje rápido con anclajes convencionales."
+        },
+        {
+          "q": "¿Se ve afectado el aislamiento por la prolongación?",
+          "a": "Al contrario, el cuello alargado suele facilitar colocar con exactitud los manguitos aislantes estándar hasta la parte posterior de los azulejos."
+        }
+      ]
+    },
+    "metal-union-male-thread-yellow-brass": {
+      "seo_p1": "El Metal Union - Male Thread (Yellow Brass) es una conexión de tres piezas de grado industrial dentro de nuestra gama de uniones. Permite la desconexión rápida y sencilla de tramos de tuberías o equipos sin tener que cortar la línea de polipropileno.",
+      "seo_p2": "Se compone de una cola de soldadura de PP-R/PP-RCT, una tuerca tensora y una rosca macho de latón amarillo sólido (DZR). Su junta de anillo O (O-ring) asegura un sellado perfecto (apto para sistemas de alto SDR) bajo condiciones extremas de vibración y expansión térmica.",
+      "seo_p3": "Utilizado habitualmente para conectar bombas, sistemas de filtración, contadores y equipos que requieren mantenimiento o reemplazo periódico. Proporciona un punto de desmontaje seguro y rápido, minimizando los tiempos de inactividad de la planta y facilitando enormemente el mantenimiento.",
+      "faq": [
+        {
+          "q": "¿Por qué latón natural y no niquelado?",
+          "a": "El latón natural es exigido por algunas normativas nacionales o regionales específicas de agua potable para evitar posibles aportes de níquel."
+        },
+        {
+          "q": "¿Cuándo empleo una unión roscada en lugar de un manguito de transición rígido?",
+          "a": "Las uniones roscadas son indispensables en equipos que requieren mantenimiento, como bombas o filtros, que deben poder desmontarse posteriormente."
+        },
+        {
+          "q": "¿Lleva incluida la unión roscada una junta?",
+          "a": "Sí, se suministra de fábrica con una junta de alta calidad apta para agua potable."
+        }
+      ]
+    },
+    "metal-union-female-thread-yellow-brass": {
+      "seo_p1": "El Metal Union - Female Thread (Yellow Brass) es el equivalente de rosca interior de nuestra unión de tres piezas premium. Combina la flexibilidad de una conexión desmontable con la versatilidad de una transición hacia componentes metálicos macho.",
+      "seo_p2": "Fabricada con un extremo de PP-R/PP-RCT para soldar y latón amarillo resistente a la desgalvanización para la rosca hembra y la tuerca. Diseñada para mantener la integridad de la presión del SDR especificado, la unión absorbe efectivamente los choques térmicos sin perder hermeticidad.",
+      "seo_p3": "Ideal para la conexión a válvulas mezcladoras centrales, calentadores y tuberías de servicio metálicas. Su robusta construcción previene el agrietamiento por tensión, asegurando un punto de acceso fiable y repetible para inspecciones o sustituciones de componentes críticos de la red.",
+      "faq": [
+        {
+          "q": "¿Qué ventaja tiene esta unión roscada?",
+          "a": "Al igual que el modelo de rosca macho, permite la extracción sencilla de componentes, pero presenta una conexión interior en el lado del metal."
+        },
+        {
+          "q": "¿Está la pieza libre de plomo?",
+          "a": "Utilizamos latón de la más alta calidad y bajo en plomo que cumple con los estrictos límites europeos para componentes de agua potable."
+        },
+        {
+          "q": "¿Se necesita una herramienta especial para apretar?",
+          "a": "Una llave de grifo o de boca estándar es suficiente. Evite las llaves para tubos sin mordazas de plástico para no rayar el latón."
+        }
+      ]
+    },
+    "metal-union-male-thread": {
+      "seo_p1": "El Metal Union - Male Thread es nuestra unión roscada desmontable estándar, ofreciendo un excelente equilibrio entre rendimiento industrial y rentabilidad. Es una pieza clave en nuestra familia de transición para facilitar el servicio de las instalaciones hidrosanitarias.",
+      "seo_p2": "Consta de componentes termoplásticos PP-R/PP-RCT y latón niquelado, integrando una junta de sellado elastomérica de alto rendimiento. Soporta consistentemente las demandas de las clases de presión SDR del sistema y garantiza un sellado absoluto al apretar la tuerca de unión.",
+      "seo_p3": "Perfecto para la conexión de baterías de contadores de agua, válvulas de retención e intercambiadores de calor. Permite a los instaladores ensamblar y desensamblar partes del sistema con solo una llave inglesa, agilizando enormemente los procesos de reparación y actualización de la red.",
+      "faq": [
+        {
+          "q": "¿Qué diferencia hay con la unión de latón natural?",
+          "a": "El inserto de latón está adicionalmente niquelado en su exterior, lo que lo hace estéticamente atractivo y proporciona resistencia frente a la corrosión en atmósferas agresivas."
+        },
+        {
+          "q": "¿Es la tuerca de apriete resistente a roturas?",
+          "a": "Sí, la pesada tuerca metálica está forjada macizamente para absorber sin problemas pares de apriete altos durante el sellado."
+        },
+        {
+          "q": "¿Cómo se sella en el lado de la conexión?",
+          "a": "La rosca macho suele requerir cinta de teflón, mientras que la separación dentro de la unión se realiza a través de la junta plana insertada."
+        }
+      ]
+    },
+    "metal-union-female-thread": {
+      "seo_p1": "El Metal Union - Female Thread es la unión desmontable con rosca interior que completa nuestra oferta de accesorios de transición modulares. Facilita una interfaz desmontable directamente a conexiones roscadas externas, garantizando el máximo rendimiento del sistema.",
+      "seo_p2": "Combina soldadura a encaje en PP-R/PP-RCT con un inserto roscado hembra de latón niquelado. El sistema de unión de tuerca libre permite alinear perfectamente la rosca antes del apriete final, evitando dañar la rosca y asegurando una junta estanca que respeta los parámetros SDR.",
+      "seo_p3": "Ampliamente utilizado en colectores de distribución, estaciones de medición y control, y bombas de circulación. Garantiza que cualquier sustitución de hardware se realice de manera limpia, rápida y sin requerir trabajos de corte o soldadura de las líneas principales.",
+      "faq": [
+        {
+          "q": "¿Es esta unión adecuada para depósitos de agua caliente?",
+          "a": "Sí, la combinación de PP-R de alta resistencia térmica y la sólida rosca interior metálica la hace ideal para la conexión directa a depósitos de inercia."
+        },
+        {
+          "q": "¿Debe comprobarse la junta después de un tiempo?",
+          "a": "Una junta correctamente apretada no suele requerir mantenimiento, pero es ventajoso poder volver a apretar o cambiarla sin problemas en todo momento."
+        },
+        {
+          "q": "¿Están disponibles las uniones roscadas también en dimensiones más grandes?",
+          "a": "En la variante niquelada ofrecemos una amplia gama, habitual desde 20 mm hasta los grandes diámetros de montante."
+        }
+      ]
+    },
+    "tee-90-male-thread": {
+      "seo_p1": "La Tee 90° (Male Thread) es un accesorio de derivación con transición metálica en nuestra familia de piezas. Permite crear una salida lateral a 90 grados directamente con una rosca macho exterior, ideal para instalar accesorios sobre la marcha.",
+      "seo_p2": "Fabricada en resistente PP-R/PP-RCT, incorpora un núcleo macho de latón niquelado en el brazo de la Te, firmemente anclado en la matriz plástica. Este diseño (compatible con los distintos SDR) resiste altas fuerzas de torsión durante la conexión sin riesgo de delaminación o fugas.",
+      "seo_p3": "Muy recomendada para incorporar purgadores de aire, manómetros, termómetros y válvulas de drenaje directamente en la línea principal. Simplifica enormemente la instalación de instrumentación, proporcionando conexiones seguras y compactas sin comprometer el flujo del agua.",
+      "faq": [
+        {
+          "q": "¿En qué se diferencia esta pieza en T de las demás?",
+          "a": "El ramal de la T no es un manguito de soldar, sino un inserto roscado macho directo. Ideal para acoplar tuberías metálicas sin conexiones adicionales."
+        },
+        {
+          "q": "¿Cómo está asegurado el inserto contra torsión?",
+          "a": "Al igual que en todos nuestros conectores de transición, el núcleo de latón está inyectado con un perfil poligonal especial en el plástico."
+        },
+        {
+          "q": "¿Hay reducciones disponibles para el ramal roscado?",
+          "a": "Sí, a menudo suministramos esta pieza en T con una rosca reducida, por ejemplo, un tubo de 25 mm con una salida roscada de 1/2 pulgada."
+        }
+      ]
+    },
+    "tee-90-female-thread": {
+      "seo_p1": "La Tee 90° (Female Thread) es una te de derivación equipada con una rosca hembra en su brazo central. Es uno de nuestros accesorios más populares para crear puntos de consumo directamente desde tuberías colectoras de pared.",
+      "seo_p2": "Con un cuerpo en T de PP-R/PP-RCT de flujo optimizado y una robusta inserción hembra de latón, garantiza que la conexión respete las especificaciones de presión SDR del sistema completo. La inyección profunda del metal en el plástico garantiza que nunca gire bajo tensión.",
+      "seo_p3": "Esencial para el montaje de griferías, válvulas angulares o conexiones para lavadoras directamente desde conductos ascendentes. Su diseño directo minimiza el uso de piezas adicionales, asegurando una conexión hermética, rápida y estéticamente limpia en cualquier baño o cocina.",
+      "faq": [
+        {
+          "q": "¿Se utiliza este accesorio para sondas de temperatura?",
+          "a": "Absolutamente. La rosca hembra es perfecta para atornillar directamente y a ras de la tubería fundas de inmersión o sondas en la corriente principal."
+        },
+        {
+          "q": "¿Puedo conectar un ramal de cobre a esta pieza?",
+          "a": "Sí, con una transición roscada correspondiente en la tubería de cobre, se logra un desvío sin interrupciones."
+        },
+        {
+          "q": "¿Cuáles son las presiones máximas para esta pieza en T?",
+          "a": "Está diseñada según los parámetros estándar de nuestro sistema PN 25 y resiste presiones operativas completas, tanto en frío como en caliente."
+        }
+      ]
+    },
+    "union": {
+      "seo_p1": "La Union (Unión de Plástico) es un accesorio de tres piezas completamente termoplástico dentro de nuestro sistema. Proporciona la capacidad de desmontar tramos de tuberías sin necesidad de transiciones metálicas, manteniendo la red 100% libre de corrosión.",
+      "seo_p2": "Completamente inyectada en polipropileno PP-R/PP-RCT superior, consiste en dos extremos para soldar y una gran tuerca plástica de unión. Su junta tórica interna garantiza un sellado perfecto que cumple y supera las exigencias de presión de la clasificación SDR del circuito completo.",
+      "seo_p3": "Ideal para industrias químicas, laboratorios y plantas de procesamiento de alimentos donde se deben evitar a toda costa los componentes metálicos expuestos. Facilita la limpieza profunda, el mantenimiento de equipos en línea y la reconfiguración de la red con un mínimo esfuerzo.",
+      "faq": [
+        {
+          "q": "¿Por qué una unión hecha completamente de plástico?",
+          "a": "Es ideal para fluidos o entornos industriales en los que el metal pueda corroerse, por ejemplo, en caso de aguas agresivas o atmósferas salinas."
+        },
+        {
+          "q": "¿Cómo sella esta unión roscada?",
+          "a": "También cuenta con un asiento de sellado y una junta tórica o plana insertada, y la presión de contacto se genera de forma segura a través de la tuerca de plástico."
+        },
+        {
+          "q": "¿Se pueden apretar firmemente las tuercas de plástico?",
+          "a": "Sí, pero se recomienda cuidado: es mejor apretar a mano con firmeza o con una llave de correa suave en lugar de una llave para tubos agresiva."
+        }
+      ]
+    },
+    "union-for-watermeters": {
+      "seo_p1": "La Union for Watermeters (Unión para Contadores de Agua) es una pieza de conexión especializada en nuestra gama, diseñada expresamente para facilitar la instalación y calibración de dispositivos de medición en líneas de agua potable.",
+      "seo_p2": "Cuenta con una espiga de PP-R/PP-RCT para soldadura y una tuerca loca de latón niquelado o plástico adaptada a las roscas estándar de los contadores de agua. Dispone de un asiento plano para junta, asegurando un sellado óptimo bajo la presión operativa de cualquier SDR estándar.",
+      "seo_p3": "Es el estándar industrial indiscutible para la instalación de medidores de flujo residenciales y comerciales. Su diseño permite a las empresas de servicios públicos instalar y reemplazar contadores de agua de manera rápida, segura y repetible, garantizando que el punto de medición permanezca completamente libre de fugas.",
+      "faq": [
+        {
+          "q": "¿Encaja esta unión roscada en todos los contadores de agua?",
+          "a": "Tiene una tuerca de unión normalizada que se adapta con precisión a las roscas habituales en la red de los contadores de agua de uso doméstico."
+        },
+        {
+          "q": "¿Lleva esta unión roscada junta de plomo?",
+          "a": "Nuestras uniones roscadas, a diferencia de los conexiones metálicos tradicionales que requieren perforaciones para precintar, están pensadas para una instalación y sellado limpios delante del contador. (Los precintos los proporciona el proveedor de agua sobre sus componentes)."
+        },
+        {
+          "q": "¿Absorbe esta pieza en T vibraciones?",
+          "a": "Sí, el material PP-R absorbe naturalmente el ruido y las vibraciones que puedan ser transmitidas por el contador de agua."
+        }
+      ]
+    },
+    "pp-r-ball-valve-ball-in-pp": {
+      "seo_p1": "La PP-R Ball Valve (Ball in PP) es una válvula de bola completamente plástica que ofrece un control de flujo fiable y económico en nuestra categoría de válvulas. Su diseño 100% libre de metales en contacto con el fluido la hace excepcional para aplicaciones donde la pureza es prioritaria.",
+      "seo_p2": "El cuerpo y la esfera interna están moldeados con precisión en polipropileno PP-R/PP-RCT, operando bajo las estrictas exigencias de presión (SDR) del sistema general. Cuenta con sellos de EPDM que aseguran una maniobrabilidad suave de la maneta y un cierre estanco, incluso tras largos períodos de inactividad.",
+      "seo_p3": "Ampliamente demandada en la industria farmacéutica, plantas desalinizadoras y redes de distribución de agua desmineralizada. Al no contener componentes metálicos internos, elimina absolutamente cualquier riesgo de lixiviación de metales pesados o corrosión galvánica, garantizando un flujo inalterado y puro.",
+      "faq": [
+        {
+          "q": "¿Cuál es la ventaja de una bola de plástico en la válvula?",
+          "a": "Evita la corrosión y la liberación de iones al medio, lo cual es obligatorio para el agua ultrapura o productos químicos agresivos."
+        },
+        {
+          "q": "¿La válvula también es adecuada para agua caliente?",
+          "a": "Sí, el termoplástico especial de la bola y las juntas de teflón (PTFE) garantizan un funcionamiento pleno incluso a altas temperaturas."
+        },
+        {
+          "q": "¿Cómo se realiza el mantenimiento de la válvula?",
+          "a": "Las válvulas de bola PP-R de K Aqua no requieren absolutamente ningún mantenimiento gracias a su diseño, estando concebidas para funcionar sin problemas durante décadas."
+        }
+      ]
+    },
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+      "seo_p1": "La PP-R Ball Valve (Ball in Brass, Chromium Plated) es nuestra válvula de bola premium, combinando un cuerpo termoplástico con un núcleo metálico mecanizado de precisión. Ofrece un rendimiento industrial de servicio pesado para el aislamiento crítico de líneas.",
+      "seo_p2": "El cuerpo exterior de PP-R/PP-RCT se fusiona térmicamente con la tubería, mientras que el interior alberga una esfera de latón macizo cromado. Este diseño híbrido garantiza un par de operación consistentemente bajo y resiste altas presiones y picos térmicos, cumpliendo con los estándares SDR más exigentes.",
+      "seo_p3": "Es el estándar para válvulas de corte principales, salas de bombas e instalaciones de climatización (HVAC). La esfera de latón cromado previene la acumulación de incrustaciones de calcio y garantiza un sellado perfecto a prueba de goteo, ofreciendo décadas de control de flujo sin requerir mantenimiento.",
+      "faq": [
+        {
+          "q": "¿La bola de latón ofrece ventajas en el caudal?",
+          "a": "Sí, la bola de latón cromado puede fabricarse con paredes de menor grosor, lo que permite un paso completo y sin resistencias."
+        },
+        {
+          "q": "¿Es apta para agua potable la bola de latón?",
+          "a": "Por supuesto, utilizamos exclusivamente latón DZR certificado de gran pureza que no libera metales pesados al agua potable."
+        },
+        {
+          "q": "¿Se puede integrar la válvula en redes de tuberías metálicas existentes?",
+          "a": "Sí, en combinación con manguitos de transición o bridas, se puede utilizar fácilmente como válvula de corte en instalaciones mixtas."
+        }
+      ]
+    },
+    "tee-90-female-thread-for-internal-valve": {
+      "seo_p1": "La Tee 90° (Female Thread) for Internal Valve es un accesorio especializado diseñado para alojar válvulas de asiento empotradas o monturas interiores. Facilita la creación de puntos de control de flujo estéticos y accesibles directamente desde la pared.",
+      "seo_p2": "Combina una matriz en forma de T de PP-R/PP-RCT con un inserto roscado hembra profundo de latón niquelado. Está diseñada para mantener la integridad de la presión (SDR) mientras proporciona la profundidad de rosca exacta requerida para alojar los mecanismos internos de válvulas estándar.",
+      "seo_p3": "Esencial en la construcción de baños modernos, cuartos de baño de hoteles y hospitales donde las válvulas de cierre deben estar ocultas pero ser accesibles tras rosetones cromados. Permite una instalación de pre-muro limpia, asegurando que la grifería final quede perfectamente alineada con los azulejos.",
+      "faq": [
+        {
+          "q": "¿Qué función cumple la válvula empotrada?",
+          "a": "Permite cerrar la tubería de cuartos húmedos individuales (por ejemplo, el baño o la cocina) directamente en el lugar, sin tener que ir al sótano."
+        },
+        {
+          "q": "¿A qué profundidad puede estar instalada la válvula en la pared?",
+          "a": "La profundidad de montaje es variable. Si la válvula queda demasiado profunda debido al grosor de los azulejos, ofrecemos las correspondientes prolongaciones para el eje."
+        },
+        {
+          "q": "¿Se puede cambiar el eje?",
+          "a": "Sí, toda la pieza superior mecánica (eje, junta) puede desenroscarse y sustituirse si es necesario, sin necesidad de abrir la pared."
+        }
+      ]
+    },
+    "concealed-valve-chrome-light-part": {
+      "seo_p1": "La Concealed Valve Chrome: Light Part es la sección exterior visible (embellecedor y maneta) para nuestras válvulas empotradas. Representa el toque final de diseño, aportando elegancia y funcionalidad a cualquier cuarto de baño de alta gama.",
+      "seo_p2": "Fabricada en metal fundido o aleaciones de alta calidad y recubierta con un acabado de cromo brillante de múltiples capas. Está diseñada para encajar con precisión sobre nuestros mecanismos de válvulas internas de PP-R, garantizando una protección total contra la humedad y el polvo.",
+      "seo_p3": "Imprescindible para terminar instalaciones de duchas, bañeras y sistemas de bidé empotrados. Su superficie cromada resistente a los arañazos no solo facilita la limpieza, sino que proporciona un aspecto arquitectónico pulido que se integra a la perfección con la grifería moderna.",
+      "faq": [
+        {
+          "q": "¿Se incluye la maneta cromada en el volumen de suministro?",
+          "a": "Sí, este kit incluye la parte inferior de la válvula de PP-R así como todo el conjunto visto cromado brillante, roseta incluida."
+        },
+        {
+          "q": "¿Puede montarse la roseta después de alicatar?",
+          "a": "Naturalmente. El cuerpo principal se suelda debajo del revoque, y la roseta y la maneta no se acoplan hasta que la pared está terminada."
+        },
+        {
+          "q": "¿De qué material es la maneta?",
+          "a": "El mando giratorio está fabricado en una robusta aleación de zinc fundido a presión (Zamak) con un revestimiento de cromo duradero y de fácil mantenimiento."
+        }
+      ]
+    },
+    "concealed-valve-chrome-heavy-part": {
+      "seo_p1": "La Concealed Valve Chrome: Heavy Part forma el cuerpo mecánico interno robusto para nuestras válvulas de corte empotradas. Es el corazón del control de agua oculto, diseñado para un rendimiento infalible tras las paredes terminadas.",
+      "seo_p2": "El mecanismo incluye una montura de latón de alta precisión, juntas tóricas resistentes a la temperatura y un vástago mecanizado, todo alojado dentro de un cuerpo compatible con soldadura PP-R. Soporta las variaciones de presión típicas (acordes al SDR) sin desgaste perceptible.",
+      "seo_p3": "Se instala en la fase de obra gruesa de la construcción para proporcionar aislamiento de agua localizado en cabinas de ducha y cocinas. Su durabilidad extrema asegura que no será necesario romper la pared o los azulejos para realizar mantenimientos, garantizando tranquilidad a los propietarios e instaladores.",
+      "faq": [
+        {
+          "q": "¿Qué diferencia al modelo 'Long' de la válvula empotrada estándar?",
+          "a": "El diseño de vástago prolongado salva fácilmente la distancia en montajes de pared profundos, como placas de mármol gruesas o recubrimientos dobles de paneles de yeso."
+        },
+        {
+          "q": "¿La maneta cuenta con alguna marca de color?",
+          "a": "Sí, para distinguir fácilmente entre las tuberías de agua caliente y fría, nuestras guarniciones incluyen marcas de color intercambiables (rojo/azul)."
+        },
+        {
+          "q": "¿Cómo se sella el asiento de la válvula?",
+          "a": "Utilizamos juntas perfiladas de EPDM altamente resistentes al calor en la parte superior, que son extremadamente resistentes frente a limpiadores químicos y desinfección térmica."
+        }
+      ]
+    },
+    "straight-seat-valve-upper-part-green-handle": {
+      "seo_p1": "El Straight Seat Valve: Upper Part (Green Handle) es el mecanismo de control para nuestras válvulas de asiento recto de montaje en superficie. Se reconoce inmediatamente por su robusta manivela verde, simbolizando eficiencia y flujo ecológico.",
+      "seo_p2": "Consta de un eje de latón resistente a la desgalvanización, un sello de asiento reemplazable de EPDM y una maneta de polímero ergonómica. Su diseño de asiento ascendente permite una regulación precisa del caudal de agua y es resistente a golpes de ariete bajo altas presiones operativas.",
+      "seo_p3": "Perfecto para aislar montantes de agua, calderas y ramales de servicio en cuartos de instalaciones. A diferencia de las válvulas de bola, su diseño de asiento recto permite el estrangulamiento del flujo y un cierre gradual, protegiendo todo el sistema de tuberías contra ondas de choque hidráulicas.",
+      "faq": [
+        {
+          "q": "¿Es este componente una pieza de repuesto?",
+          "a": "Sí, es el mecanismo interno completo (parte superior) de la válvula empotrada, ideal para fines de mantenimiento o ensamblaje modular."
+        },
+        {
+          "q": "¿Hay que cambiar toda la válvula si gotea?",
+          "a": "No, basta con cortar el agua y cambiar esta parte superior de latón: el cuerpo básico de PP-R permanece en la pared."
+        },
+        {
+          "q": "¿Con qué frecuencia hay que engrasar la parte superior?",
+          "a": "La rosca del husillo viene provista de fábrica de una lubricación permanente apta para uso alimentario, por lo que no requiere ningún mantenimiento posterior."
+        }
+      ]
+    },
+    "elongation-pieces": {
+      "seo_p1": "Los Elongation Pieces (Piezas de Extensión) son accesorios solucionadores de problemas diseñados para extender ejes de válvulas empotradas cuando las paredes o revestimientos resultan más gruesos de lo planificado. Salvan el espacio entre la válvula y el acabado final.",
+      "seo_p2": "Mecanizados en latón macizo y equipados con estrías de precisión, estos extensores se acoplan a la perfección a los ejes estándar de nuestras válvulas ocultas. Su robusta metalurgia garantiza que el par de giro se transmita sin flexión ni pérdida de fuerza motriz.",
+      "seo_p3": "Son la salvación en obras de renovación y construcciones donde se añaden múltiples capas de aislamiento, tableros o piedra natural gruesa. Permiten al instalador ajustar la profundidad de la válvula después del alicatado, evitando costosas demoliciones y asegurando un ajuste perfecto de los embellecedores cromados.",
+      "faq": [
+        {
+          "q": "¿Cuándo necesito un prolongador de válvula?",
+          "a": "Cuando el yeso o los azulejos son más gruesos de lo previsto y el vástago de la válvula empotrada no sobresale lo suficiente de la pared."
+        },
+        {
+          "q": "¿Se pueden combinar varias prolongaciones?",
+          "a": "Técnicamente es posible, pero por razones de estabilidad recomendamos utilizar directamente una parte superior larga ('Long')."
+        },
+        {
+          "q": "¿La rosca de prolongación está estandarizada?",
+          "a": "Sí, las roscas de nuestras prolongaciones encajan exactamente en las partes superiores estándar de las válvulas empotradas de K Aqua."
+        }
+      ]
+    },
+    "battery-female-thread": {
+      "seo_p1": "La Battery (Female Thread) es un colector o plantilla de montaje fijo de pared con salidas roscadas hembra. Está diseñada para proporcionar el espaciado exacto estandarizado (usualmente 150 mm) requerido para la instalación de grifos mezcladores de ducha y bañera.",
+      "seo_p2": "Construida a partir de una placa base de PP-R sólida que integra dos adaptadores hembra de latón rígidamente posicionados. Esta estructura monolítica absorbe todas las tensiones durante el apriete de los accesorios (apto para el SDR estándar), evitando que las tuberías conectadas se tuerzan o desplacen.",
+      "seo_p3": "Fundamental en la construcción residencial, hoteles y proyectos multifamiliares para garantizar que las tomas de agua fría y caliente estén siempre perfectamente niveladas y espaciadas. Su uso reduce significativamente el tiempo de replanteo y montaje, asegurando una instalación final de grifería sin contratiempos.",
+      "faq": [
+        {
+          "q": "¿Qué distancia entre ejes (medida de conexión) tiene la batería de grifería?",
+          "a": "Está fijada a la distancia internacional estándar de 150 mm, adecuada para el 99% de todas las griferías mezcladoras de superficie comerciales."
+        },
+        {
+          "q": "¿Se puede doblar la batería?",
+          "a": "No, el puente de plástico integrado garantiza unas distancias rígidas y exactas. Para medidas diferentes, recomendamos usar codos de placa individuales."
+        },
+        {
+          "q": "¿Cómo se fija la batería?",
+          "a": "Cuenta con múltiples orificios de montaje preperforados para fijarla de forma segura con tornillos a paredes de ladrillo, hormigón o paneles de yeso."
+        }
+      ]
+    },
+    "adjustable-battery-female-thread": {
+      "seo_p1": "La Adjustable Battery (Female Thread) es una versión avanzada de nuestra placa de montaje, ofreciendo flexibilidad en el espaciado de las salidas de agua. Está diseñada para adaptarse a griferías no estándar o requisitos arquitectónicos específicos.",
+      "seo_p2": "Compuesta por soportes independientes de PP-R/PP-RCT con insertos de latón hembra que se deslizan y bloquean sobre un raíl de montaje de acero o polímero rígido. Garantiza la misma resistencia a la presión (SDR) y torque que el modelo fijo, pero con un rango de ajuste horizontal milimétrico.",
+      "seo_p3": "Ideal para instalaciones de baño de diseño, grifos de bañera especiales o proyectos de renovación donde las antiguas tuberías de suministro determinan ubicaciones atípicas. Proporciona a los instaladores la versatilidad necesaria para alinear perfectamente las tomas sin importar las irregularidades de la pared.",
+      "faq": [
+        {
+          "q": "¿Hasta qué punto es flexible el ajuste de la distancia?",
+          "a": "Mediante el riel deslizante, los conectores de pared pueden ajustarse de forma continua a la medida de conexión exacta que requiera la grifería mezcladora."
+        },
+        {
+          "q": "¿Existe riesgo de desplazamiento en la versión ajustable?",
+          "a": "Una vez ajustada la medida correcta, las fijaciones de pared se bloquean firmemente. Por lo tanto, es imposible que se deslicen durante el alicatado."
+        },
+        {
+          "q": "¿Es necesario utilizar un nivel de burbuja para la alineación?",
+          "a": "Sí, como en todas las conexiones de grifería, la placa de montaje debe nivelarse horizontalmente con cuidado usando un nivel antes de su fijación final."
+        }
+      ]
+    },
+    "weld-in-saddle": {
+      "seo_p1": "El Weld-in Saddle (Silleta para Soldar) es un accesorio revolucionario en nuestra categoría de derivaciones. Permite crear una nueva salida o ramal en una tubería principal existente sin tener que cortar el tubo ni instalar una Te convencional.",
+      "seo_p2": "Moldeada en PP-R/PP-RCT superior, la silleta presenta una curvatura que coincide perfectamente con el radio exterior de la tubería principal (disponible para todos los SDR). La soldadura fusiona tanto la superficie convexa del tubo como el orificio perforado, creando una unión increíblemente fuerte.",
+      "seo_p3": "Transforma la forma en que se realizan ampliaciones y modernizaciones en redes industriales y columnas montantes de edificios. Reduce el tiempo de inactividad del sistema y el volumen de drenaje al mínimo, permitiendo añadir sensores, válvulas o nuevos ramales con una rapidez y seguridad inigualables.",
+      "faq": [
+        {
+          "q": "¿Cuál es la diferencia con la silleta de rosca metálica?",
+          "a": "Esta silleta para soldar dispone de una derivación de PP-R puro en la que se puede soldar directamente un tubo u otro accesorio (manguito)."
+        },
+        {
+          "q": "¿La pared del tubo principal debe tener un grosor mínimo?",
+          "a": "No, si se perfora de forma profesional, la silleta se puede soldar de forma segura en todas las clases de presión de K Aqua (desde SDR 6 hasta SDR 17)."
+        },
+        {
+          "q": "¿Cuánto tiempo lleva el proceso de taladrado y soldadura?",
+          "a": "Un instalador con experiencia necesita como máximo entre 3 y 5 minutos para perforar, calentar con la herramienta especial para silletas y ensamblar."
+        }
+      ]
+    },
+    "weld-in-saddle-female-thread": {
+      "seo_p1": "El Weld-in Saddle (Female Thread) combina la tecnología de derivación por soldadura en silleta con una transición metálica directa. Proporciona un punto de acceso roscado hembra en cualquier punto de una línea principal de gran diámetro.",
+      "seo_p2": "Consta de un cuerpo curvo termoplástico de PP-R/PP-RCT que alberga firmemente un inserto roscado de latón niquelado. Tras perforar la tubería y soldar la silleta (adecuada para la clase de presión SDR de la red), la rosca interior queda lista para conectar accesorios, soportando altos torques.",
+      "seo_p3": "Es la solución de ingeniería perfecta para la instalación posterior de manómetros, termómetros o válvulas de purga en colectores industriales. Evita el uso de pesadas bridas o grandes tés reductoras, optimizando los costos de material y el espacio de instalación en cuartos de máquinas.",
+      "faq": [
+        {
+          "q": "¿Cuál es la principal ventaja de esta silleta para soldar?",
+          "a": "Permite la instalación directa de una rosca hembra metálica en una tubería existente, lo cual ahorra muchísimo tiempo y espacio."
+        },
+        {
+          "q": "¿Se pueden enroscar termómetros aquí?",
+          "a": "Sí, la silleta es la interfaz ideal para integrar de forma permanente y estanca sensores de temperatura o pequeños manómetros en redes de calefacción."
+        },
+        {
+          "q": "¿Está la rosca de latón protegida contra el desgarro?",
+          "a": "Absolutamente. El inserto de latón está inyectado profundamente en la estructura de PP-R y anclado mecánicamente de forma inseparable mediante un moleteado especial."
+        }
+      ]
+    },
+    "weld-in-saddle-male-thread": {
+      "seo_p1": "El Weld-in Saddle (Male Thread) es la variante de rosca exterior de nuestra innovadora silleta de derivación. Está pensada para conectar mangueras, válvulas de retención o equipos que requieren una conexión de rosca macho directa desde el tubo principal.",
+      "seo_p2": "Fabricado con precisión combinando una base soldable de polipropileno (PP-R/PP-RCT) y una rosca macho de latón resistente a la corrosión. El proceso de fusión en un solo paso sella la pared de la tubería principal (cualquier SDR) y asegura el accesorio, garantizando una salida hermética.",
+      "seo_p3": "Ampliamente utilizado en redes de distribución de agua agrícola, sistemas de aire comprimido industrial y circuitos de refrigeración abiertos. Permite la integración modular de válvulas de cierre y ramales de servicio directo, simplificando drásticamente el diseño y la ejecución de expansiones de red.",
+      "faq": [
+        {
+          "q": "¿Para qué conexiones es adecuada la rosca exterior de la silleta?",
+          "a": "Es óptima para la conexión directa de griferías con rosca interior o para uniones aseguradas con una tuerca loca (de unión)."
+        },
+        {
+          "q": "¿Existe esta silleta para todas las dimensiones de tubería?",
+          "a": "La silleta para soldar está disponible para tuberías principales de 40 mm a 125 mm, donde la rosca exterior es típicamente de 1/2\" o 3/4\"."
+        },
+        {
+          "q": "¿Cómo se garantiza la estanqueidad tras la perforación?",
+          "a": "Al fundir la silleta y el tubo, se crea una unión material homogénea que es 100% estanca a nivel molecular."
+        }
+      ]
+    },
+    "pipe-clamps": {
+      "seo_p1": "Las Pipe Clamps (Abrazaderas para Tubos) son los componentes fundamentales para la sujeción estructural de nuestro sistema de tuberías. Diseñadas específicamente para acomodar el comportamiento de los tubos termoplásticos, aseguran una instalación rígida, organizada y segura.",
+      "seo_p2": "Construidas en acero galvanizado robusto o polímeros de alta resistencia, suelen incorporar un revestimiento interior de EPDM. Esta goma protege el tubo de PP-R/PP-RCT contra arañazos, permite el deslizamiento axial durante la dilatación térmica y atenúa eficazmente las vibraciones mecánicas.",
+      "seo_p3": "Imprescindibles en cualquier proyecto, desde pequeñas viviendas hasta extensas galerías industriales. Su correcta disposición previene la flacidez de las tuberías largas, absorbe los golpes de ariete y gestiona la expansión térmica (junto con tubos de fibra SDR), garantizando la longevidad estructural de toda la red.",
+      "faq": [
+        {
+          "q": "¿Para qué sirve el inserto de goma de la abrazadera?",
+          "a": "El inserto de EPDM sirve para el aislamiento acústico conforme a la norma DIN 4109, evitando la transmisión de los ruidos de flujo a la mampostería."
+        },
+        {
+          "q": "¿Debe montarse la abrazadera como punto fijo o como punto móvil?",
+          "a": "Dependiendo del par de apriete de los tornillos, la abrazadera puede utilizarse tanto como punto fijo inmovilizador o como punto móvil deslizante para la expansión térmica longitudinal."
+        },
+        {
+          "q": "¿Qué conexión roscada tienen las abrazaderas de tubo?",
+          "a": "Nuestras abrazaderas estándar cuentan con una tuerca combinada soldada (M8/M10), lo que permite una fijación flexible en pernos de doble rosca o varillas roscadas comunes."
+        }
+      ]
+    },
+    "backing-flange-pp-steel-sfbf": {
+      "seo_p1": "El Backing Flange PP-Steel (SF/BF) es una brida de respaldo de alta resistencia que combina la resistencia del acero con la protección contra la corrosión del polipropileno. Forma el soporte mecánico necesario para las uniones embridadas en nuestro sistema de tuberías.",
+      "seo_p2": "Presenta un núcleo de acero sólido completamente encapsulado en polipropileno PP-R reforzado con fibra de vidrio. Esta construcción híbrida soporta inmensas presiones de apriete de los pernos (adecuado para conexiones industriales SDR 11 y 7.4), mientras que el recubrimiento evita que el acero se oxide en ambientes húmedos.",
+      "seo_p3": "Esencial para conectar tuberías de plástico de gran diámetro a válvulas pesadas, bombas centrífugas y depósitos. Su revestimiento de PP asegura que ninguna pieza metálica quede expuesta a atmósferas corrosivas en plantas químicas, de tratamiento de aguas o ambientes marinos, eliminando el mantenimiento.",
+      "faq": [
+        {
+          "q": "¿Por qué el núcleo de acero está recubierto de polipropileno?",
+          "a": "El revestimiento de plástico protege el acero de alta resistencia contra la corrosión de forma duradera, algo crucial en sótanos húmedos o entornos industriales agresivos."
+        },
+        {
+          "q": "¿El patrón de orificios cumple con las normas comunes?",
+          "a": "Sí, el patrón de perforación de nuestras bridas sueltas se ajusta exactamente a la norma europea DIN EN 1092-1 y encaja con todas las contrabridas estándar."
+        },
+        {
+          "q": "¿Tienen que apretarse los tornillos con llave dinamométrica?",
+          "a": "Recomendamos encarecidamente apretar en cruz con una llave dinamométrica calibrada para garantizar una compresión uniforme de la junta."
+        }
+      ]
+    },
+    "flat-gasket": {
+      "seo_p1": "El Flat Gasket (Junta Plana) es el elemento de sellado crítico para todas nuestras conexiones embridadas. Actúa como la barrera primaria contra fugas, comprimiéndose entre dos caras de brida para sellar imperfecciones microscópicas y garantizar la estanqueidad.",
+      "seo_p2": "Cortada con precisión a partir de elastómeros de grado superior como EPDM, NBR o PTFE, dependiendo del fluido transportado. Su grosor y módulo de elasticidad están calculados para formar un sello hermético con el torque de apriete recomendado, soportando las presiones operativas de todas las clases SDR.",
+      "seo_p3": "Utilizada en cada conexión de brida dentro de sistemas de agua potable, distribución de productos químicos e instalaciones de climatización. Garantiza que las uniones atornilladas permanezcan 100% libres de goteos bajo vibración mecánica o expansión térmica, salvaguardando la integridad de la red industrial.",
+      "faq": [
+        {
+          "q": "¿De qué material es la junta plana?",
+          "a": "De manera estándar, nuestras juntas para bridas son de EPDM altamente resistente a la presión, el cual es idóneo para agua potable y agua de calefacción."
+        },
+        {
+          "q": "¿Se puede reutilizar la junta?",
+          "a": "No, tras aflojar una conexión bridada es obligatorio, por motivos de seguridad, instalar una nueva junta plana."
+        },
+        {
+          "q": "¿Es la junta resistente a los productos químicos?",
+          "a": "El EPDM ofrece una buena resistencia a muchas soluciones acuosas. Para productos químicos industriales especiales, consulte previamente nuestras listas de resistencias."
+        }
+      ]
+    },
+    "flat-gasket-for-unions-pp-r": {
+      "seo_p1": "El Flat Gasket for Unions PP-R es una junta de sellado elastomérica diseñada específicamente para adaptarse a la perfección dentro de nuestras uniones roscadas y de plástico de tres piezas. Asegura una estanqueidad impecable en conexiones de diámetro más pequeño.",
+      "seo_p2": "Fabricada en EPDM apto para agua potable u otro caucho sintético resistente a la temperatura, se moldea para asentar exactamente en la ranura de mecanizado de la unión. Mantiene su resiliencia elástica a lo largo del tiempo, soportando ciclos térmicos extremos y presiones consistentes con la clasificación SDR.",
+      "seo_p3": "Indispensable durante el montaje de contadores de agua, válvulas en línea y transiciones a equipos en espacios residenciales y comerciales. Su alta calidad previene fallos prematuros del sello por endurecimiento o agrietamiento, asegurando que las uniones puedan desmontarse y volver a sellarse sin problemas.",
+      "faq": [
+        {
+          "q": "¿Con qué fuerza debe apretarse la unión roscada?",
+          "a": "Para no destruir la junta, la tuerca loca debe apretarse firmemente a mano y después apretar ligeramente (aprox. 1/4 de vuelta) con una herramienta."
+        },
+        {
+          "q": "¿Están disponibles estas juntas en otros materiales?",
+          "a": "Para exigencias extremas de temperatura o fluidos industriales especiales, también podemos suministrar juntas de FKM (Viton) o PTFE bajo petición."
+        },
+        {
+          "q": "¿Encaja esta junta en productos de otros fabricantes?",
+          "a": "Está hecha a medida para el diseño de lengüeta y ranura de las uniones K Aqua, pero también puede emplearse en uniones de otros fabricantes de idénticas dimensiones."
+        }
+      ]
+    },
+    "plug": {
+      "seo_p1": "El Plug (Tapón Roscado) es un accesorio simple pero vital en nuestra categoría, diseñado para cerrar temporal o permanentemente conexiones con rosca hembra. Es una pieza indispensable para pruebas de presión y cierres de puntos de consumo futuros.",
+      "seo_p2": "Inyectado en polipropileno PP-R resistente y equipado con una rosca exterior macho precisa y una junta tórica integrada. Garantiza un cierre completamente hermético que resiste fácilmente las presiones de prueba hidráulica (a menudo superiores al SDR normal del sistema) sin requerir cinta de teflón adicional.",
+      "seo_p3": "Muy utilizado durante la fase de construcción en bruto para sellar salidas de grifería en baños y cocinas, permitiendo que la red sea presurizada y probada antes del alicatado. También sirve como cierre limpio y estético para válvulas en T reservadas para futuras expansiones del sistema.",
+      "faq": [
+        {
+          "q": "¿Soporta el tapón la presión del agua durante la fase de obra?",
+          "a": "Sí, está diseñado para resistir íntegramente la presión de prueba (a menudo más de 15 bares) durante la prueba de presión de la red de tuberías."
+        },
+        {
+          "q": "¿Hay que sellar adicionalmente el tapón con teflón?",
+          "a": "Nuestros tapones suelen disponer de una junta tórica (O-ring) integrada, por lo que no es necesaria cinta de sellado adicional como teflón o cáñamo."
+        },
+        {
+          "q": "¿Puede quedarse el tapón en la pared de forma permanente?",
+          "a": "Está concebido principalmente como tapón de obra. Para taponamientos ciegos permanentes, recomendamos los correspondientes tapones ciegos de latón."
+        }
+      ]
+    },
+    "pipe-cutter-2040": {
+      "seo_p1": "El Pipe Cutter 20–40 (Cortatubos) encabeza nuestra gama de herramientas manuales esenciales. Diseñado específicamente para tubos de termoplástico, garantiza un corte recto, limpio y sin rebabas, que es el primer paso crítico para una soldadura perfecta.",
+      "seo_p2": "Con un cuerpo de aleación ligera de aluminio y una cuchilla de acero inoxidable afilada en un ángulo óptimo para penetrar el PP-R/PP-RCT sin deformarlo. Su mecanismo de trinquete multiplica la fuerza de la mano, permitiendo cortes a escuadra precisos en tubos de diámetros de 20 mm a 40 mm (cualquier SDR).",
+      "seo_p3": "Es la herramienta de bolsillo imprescindible para todo instalador profesional. Su uso correcto evita cortes en ángulo que causan una profundidad de inserción irregular en el manguito térmico, previniendo cuellos de botella en el flujo interno y asegurando conexiones homogéneas y garantizadas.",
+      "faq": [
+        {
+          "q": "¿Por qué es tan importante usar un cortatubos especial?",
+          "a": "Un corte perpendicular, sin rebabas y sin aplastamientos es absolutamente obligatorio para garantizar una soldadura perfecta y libre de huecos."
+        },
+        {
+          "q": "¿Se puede sustituir la cuchilla?",
+          "a": "Sí, en caso de desgaste o daño, la cuchilla de acero de alta resistencia se puede reemplazar fácilmente por un repuesto original."
+        },
+        {
+          "q": "¿Funciona la tijera también con bajas temperaturas?",
+          "a": "La transmisión de fuerza funciona siempre, sin embargo, el tubo PP-R no debe cortarse a temperaturas de congelación ya que podría astillarse."
+        }
+      ]
+    },
+    "pipe-cutter-50125": {
+      "seo_p1": "El Pipe Cutter 50–125 (Cortatubos Industrial) es una herramienta de precisión para tubos de diámetro medio a grande. Sustituye el uso de sierras convencionales para garantizar cortes perpendiculares limpios en aplicaciones industriales y columnas montantes.",
+      "seo_p2": "Fabricado con un robusto marco de acero o aluminio fundido y cuchillas giratorias de carburo endurecido. Su diseño de rodillos de guía asegura que la herramienta rastree perfectamente alrededor de la circunferencia del tubo de PP-R/PP-RCT (hasta SDR 7.4), cortando limpiamente sin generar virutas plásticas.",
+      "seo_p3": "Fundamental para trabajos en plantas de tratamiento, rascacielos y colectores principales. Elimina por completo las rebabas y el polvo plástico en el interior de la tubería, lo que acelera dramáticamente el proceso de preparación y garantiza una superficie de fusión inmaculada antes de soldar.",
+      "faq": [
+        {
+          "q": "¿Cómo se cortan tubos tan gruesos?",
+          "a": "La herramienta se sujeta alrededor del tubo, la cuchilla circular se va aproximando lentamente y el cortador se hace girar uniformemente alrededor del tubo."
+        },
+        {
+          "q": "¿Corta esta herramienta también tubos de material compuesto (fibra)?",
+          "a": "Sí, la rueda de corte especialmente endurecida corta sin esfuerzo y de forma extremadamente precisa incluso nuestros tubos PPRCT reforzados con fibra de vidrio."
+        },
+        {
+          "q": "¿Sustituye el cortatubos circular el proceso de achaflanar?",
+          "a": "La soldadura a enchufe no requiere biselado. El corte absolutamente recto de esta herramienta es la preparación perfecta para el proceso de soldadura."
+        }
+      ]
+    },
+    "pipe-cutter-50125-1": {
+      "seo_p1": "El Pipe Cutter 50–125 (1¼) es una versión optimizada de nuestro cortatubos de rodillo, diseñada para un manejo rápido y eficiente en entornos de instalación exigentes. Garantiza la calidad de corte absoluta que exigen las soldaduras a tope y a encaje de gran diámetro.",
+      "seo_p2": "Incorpora un mecanismo de ajuste rápido y rodillos con cojinetes de precisión que estabilizan los gruesos tubos de PP-R/PP-RCT. La cuchilla de corte en bisel penetra fácilmente en las gruesas paredes de los tubos clasificados SDR, requiriendo un esfuerzo mínimo por parte del operador.",
+      "seo_p3": "Ideal para contratistas de HVAC y mecánicos que manejan extensas redes de distribución. Un corte perpendicular perfecto asegura que el tubo se asiente uniformemente contra el tope del accesorio durante el calentamiento, previniendo acumulaciones de material interno que podrían generar ruido o turbulencias de flujo.",
+      "faq": [
+        {
+          "q": "¿Qué significa 'mecanismo de retorno rápido'?",
+          "a": "Una vez terminado el corte, la cuchilla circular puede volver a su posición inicial inmediatamente con solo presionar un botón, sin el tedioso retroceso manual girando la manivela."
+        },
+        {
+          "q": "¿Es este modelo más adecuado para uso estacionario?",
+          "a": "Es móvil, pero gracias a su construcción maciza y a la precisa guía del husillo, resulta excelente para tareas de prefabricación estacionaria."
+        },
+        {
+          "q": "¿Hay repuestos disponibles para este cortatubos?",
+          "a": "Sí, tanto la rueda de corte como los rodillos guía están siempre disponibles como piezas de repuesto originales."
+        }
+      ]
+    },
+    "hand-welding-machine-2032-complete-set": {
+      "seo_p1": "La Hand Welding Machine 20-32 Complete Set (Máquina de Soldar Manual) es la estación base profesional para dimensiones pequeñas.",
+      "seo_p2": "Incluye un elemento calefactor de 800 vatios controlado por termostato, herramientas de soldadura recubiertas de teflón y un soporte estable en un robusto maletín de metal.",
+      "seo_p3": "Diseñado para instalaciones de pared y planta rápidas y conforme a las normas, el dispositivo mantiene la temperatura de soldadura requerida de 260°C absolutamente constante en todo momento.",
+      "faq": [
+        {
+          "q": "¿Por qué es tan importante un termostato electrónico?",
+          "a": "Solo un termostato preciso garantiza la temperatura continua conforme a DVS de exactamente 260°C, la cual es obligatoria para una fusión segura del PP-R."
+        },
+        {
+          "q": "¿Cuánto dura la fase de calentamiento?",
+          "a": "Gracias al potente elemento calefactor de 800 vatios, el aparato suele alcanzar la temperatura de funcionamiento en menos de 10 minutos."
+        },
+        {
+          "q": "¿Qué herramientas incluye el maletín?",
+          "a": "El kit incluye la máquina de soldar, el soporte, matrices de teflón para 20, 25 y 32 mm, llave Allen y tornillos de montaje en un maletín de acero."
+        }
+      ]
+    },
+    "hand-welding-machine-2063-complete-set": {
+      "seo_p1": "La Hand Welding Machine 20-63 Complete Set cubre toda la gama de la ingeniería de servicios de construcción clásica.",
+      "seo_p2": "Con una mayor potencia térmica y enchufes dobles para las matrices, este dispositivo permite la preparación simultánea de diferentes dimensiones sin necesidad de cambiar de herramienta.",
+      "seo_p3": "El robusto kit completo está diseñado para el duro día a día en la obra y ofrece una temperatura de soldadura precisa y sin concesiones incluso en condiciones climáticas adversas.",
+      "faq": [
+        {
+          "q": "¿Se pueden montar varias herramientas de soldadura al mismo tiempo?",
+          "a": "Sí, el ancho cabezal de calentamiento permite montar simultáneamente hasta tres pares de matrices para trabajar sin interrupciones."
+        },
+        {
+          "q": "¿Emite el aparato alguna señal al alcanzar la temperatura?",
+          "a": "Un indicador luminoso muy visible avisa al usuario en cuanto se alcanza y estabiliza la temperatura de funcionamiento de 260°C."
+        },
+        {
+          "q": "¿Es el equipo adecuado para un uso continuo en grandes obras?",
+          "a": "Absolutamente. El elemento calefactor duradero y el cableado resistente al calor están diseñados específicamente para el trabajo industrial por turnos."
+        }
+      ]
+    },
+    "hand-welding-machine-mirror-50125": {
+      "seo_p1": "La Hand Welding Machine Mirror 50-125 (Máquina de Soldar Manual con Espejo) se ha desarrollado especialmente para grandes soldaduras por encaje.",
+      "seo_p2": "Un espejo calefactor extremadamente plano y de gran superficie garantiza el calentamiento uniforme de tuberías y accesorios macizos. Su potencia de más de 1200 vatios asegura fases de calentamiento rápidas.",
+      "seo_p3": "Esencial para el procesamiento manual de grandes líneas de suministro en la industria, donde las caídas de temperatura durante el proceso de soldadura serían catastróficas.",
+      "faq": [
+        {
+          "q": "¿Por qué se necesita un espejo plano para tubos grandes?",
+          "a": "Los grandes diámetros (a partir de 50 mm) tienen una enorme masa. El espejo plano ofrece una superficie de contacto extremadamente grande para transferir el calor al plástico de forma rápida y uniforme."
+        },
+        {
+          "q": "¿Cuánto pesa el equipo?",
+          "a": "A pesar de su gran potencia, el dispositivo está equilibrado ergonómicamente, aunque para tubos a partir de 90 mm generalmente se requieren dos instaladores para una unión exacta."
+        },
+        {
+          "q": "¿Hay que limpiar las superficies recubiertas de teflón?",
+          "a": "Sí, después de cada uso, mientras aún están calientes, deben limpiarse cuidadosamente con una toallita de papel sin pelusa o una espátula de madera especial."
+        }
+      ]
+    },
+    "welding-tool": {
+      "seo_p1": "Las Welding Tools (Herramientas de Soldadura) son los mandriles y enchufes calentadores recubiertos de teflón que se encargan de la fusión real del material PP-R.",
+      "seo_p2": "Fabricados a partir de aleaciones altamente conductoras del calor y provistos de una capa especial de PTFE antiadherente, garantizan una fusión molecular perfecta y sin residuos.",
+      "seo_p3": "Solo con herramientas de soldadura intactas y de alta calidad se puede lograr la homogeneidad de la conexión requerida por la norma DVS para una vida útil de 50 años.",
+      "faq": [
+        {
+          "q": "¿Cuándo se debe sustituir una herramienta de soldadura?",
+          "a": "En cuanto el recubrimiento de teflón se raye o se quemen restos de PP-R adheridos, es obligatorio cambiar la herramienta para evitar soldaduras defectuosas."
+        },
+        {
+          "q": "¿Por qué no debo raspar los restos de plástico con un cuchillo?",
+          "a": "Un cuchillo destruye inmediatamente el recubrimiento antiadherente microfino de PTFE. Utilice únicamente paños suaves sobre la herramienta aún caliente."
+        },
+        {
+          "q": "¿La herramienta de soldar de K Aqua sirve también para máquinas de otras marcas?",
+          "a": "El orificio de fijación se ajusta al estándar de la industria, por lo que nuestras herramientas encajan en casi todos los equipos de termofusión profesionales."
+        }
+      ]
+    },
+    "welding-machine-50125-complete-set": {
+      "seo_p1": "La Welding Machine 50-125 Complete Set (Máquina de Soldar de Mesa) ofrece precisión estacionaria para la prefabricación de grandes conjuntos de tuberías.",
+      "seo_p2": "Cuenta con mordazas de sujeción, un mecanismo de palanca para una unión que ahorra fuerza y un elemento calefactor controlado digitalmente para presiones y tiempos de unión absolutamente exactos.",
+      "seo_p3": "En la producción de talleres de distribuidores o conjuntos industriales complejos, esta máquina elimina el error humano y maximiza la velocidad de procesamiento.",
+      "faq": [
+        {
+          "q": "¿Qué ventaja ofrece la máquina estacionaria frente a la herramienta manual?",
+          "a": "El mecanismo de palanca permite insertar tubos grandes de forma exactamente lineal y sin ladeos, lo cual requeriría muchísima fuerza si se hiciera a mano."
+        },
+        {
+          "q": "¿Se pueden soldar también tubos pequeños con ella?",
+          "a": "Técnicamente sí, sin embargo la máquina está diseñada específicamente para las altas fuerzas de unión en las dimensiones de 50 mm a 125 mm."
+        },
+        {
+          "q": "¿Cómo se fija el tubo?",
+          "a": "Unas mordazas universales con diferentes insertos sujetan el tubo de forma suave pero totalmente firme, garantizando un movimiento axial potente."
+        }
+      ]
+    },
+    "butt-welding-machine-90250": {
+      "seo_p1": "La Butt Welding Machine 90-250 (Máquina de Soldadura a Tope) es el sistema de alta gama para uniones tubo a tubo sin bridas de gran formato.",
+      "seo_p2": "Una unidad de prensado hidráulico, un espejo de calentamiento controlado por CNC y un cepillo preciso para tubos garantizan un cordón de soldadura totalmente automatizado y registrable al más alto nivel.",
+      "seo_p3": "Para redes principales de agua municipales o sistemas de refrigeración industrial a partir de 90 mm, este dispositivo es esencial para realizar soldaduras a tope certificadas.",
+      "faq": [
+        {
+          "q": "¿Cuál es la diferencia entre la soldadura a enchufe (termofusión) y la soldadura a tope?",
+          "a": "En la soldadura a tope, los extremos de los tubos se fresan de forma plana y se funden directamente entre sí a tope, sin accesorios (manguitos) adicionales."
+        },
+        {
+          "q": "¿Se guardan los datos de soldadura para el control de calidad?",
+          "a": "Sí, el control CNC integrado registra la temperatura, la presión y el tiempo de cada soldadura individual para su posterior evaluación."
+        },
+        {
+          "q": "¿Por qué lleva incorporada una refrentadora (cepillo)?",
+          "a": "La refrentadora fresa ambos extremos del tubo dejándolos absolutamente paralelos y libres de oxidación antes de soldar, algo imprescindible para lograr una unión molecular duradera."
+        }
+      ]
+    },
+    "electrofusion-machine": {
+      "seo_p1": "La Electrofusion Machine (Máquina de Electrosoldadura) controla el proceso de soldadura totalmente automático de los manguitos mediante calentamiento por resistencia eléctrica.",
+      "seo_p2": "El microprocesador inteligente lee el código de barras del accesorio a través de un escáner y calcula automáticamente el voltaje exacto y el tiempo de soldadura en función de la temperatura ambiente.",
+      "seo_p3": "Esencial para reparaciones en pozos extremadamente estrechos, conexiones posteriores o tendido subterráneo, donde la soldadura clásica a encaje resulta imposible por falta de espacio.",
+      "faq": [
+        {
+          "q": "¿Cómo lee la máquina los parámetros de soldadura?",
+          "a": "Cada accesorio electrosoldable dispone de un código de barras que el usuario lee con el escáner conectado; la máquina se configura de forma totalmente automática."
+        },
+        {
+          "q": "¿Compensa la máquina las variaciones de temperatura en la obra?",
+          "a": "Sí, un sensor ambiental mide la temperatura y ajusta automáticamente el tiempo de soldadura (más largo en invierno, más corto en verano)."
+        },
+        {
+          "q": "¿Hay que raspar el tubo antes de la electrosoldadura?",
+          "a": "¡Obligatoriamente! La capa de óxido del tubo PP-R debe eliminarse mecánicamente en la zona de soldadura usando un raspador especial."
+        }
+      ]
+    },
+    "welding-tool-for-weld-in-saddles": {
+      "seo_p1": "La Welding Tool for Weld-in Saddles (Herramienta de Soldadura para Silletas) está diseñada específicamente para montar silletas en tuberías de PP-R existentes.",
+      "seo_p2": "Consta de un mandril calefactor cóncavo para la pared de la tubería y un casquillo calefactor convexo para la silleta, ambos recubiertos de teflón de alta calidad.",
+      "seo_p3": "Calienta exactamente la superficie requerida en el tubo base para fusionar la silleta de forma homogénea e inseparable al sistema de tuberías.",
+      "faq": [
+        {
+          "q": "¿Por qué tiene la herramienta un lado cóncavo y otro convexo?",
+          "a": "El lado cóncavo (arqueado hacia adentro) calienta el exterior redondo del tubo, mientras que el lado convexo lleva exactamente a la temperatura de fusión el injerto en forma de silleta."
+        },
+        {
+          "q": "¿Sirve una herramienta para todos los tubos?",
+          "a": "No, se necesita una herramienta de soldar silletas que encaje exactamente para cada combinación de tubo principal y ramal (p. ej. 63 mm a 20 mm)."
+        },
+        {
+          "q": "¿Cómo se monta la herramienta en la máquina de soldar?",
+          "a": "Se atornilla directamente a la placa calefactora del equipo de termofusión manual de K Aqua usando un tornillo Allen, al igual que una matriz normal."
+        }
+      ]
+    },
+    "drilling-tool-for-weld-in-saddle": {
+      "seo_p1": "El Drilling Tool for Weld-in Saddle (Broca Especial para Silletas) es la herramienta de preparación precisa para derivaciones con silleta.",
+      "seo_p2": "No solo taladra el orificio exactamente necesario en la tubería de agua principal, sino que simultáneamente fresa el área del borde limpiamente para la posterior soldadura.",
+      "seo_p3": "Un agujero extremadamente limpio y afilado es crítico para asegurar que no entren virutas de plástico en la red al soldar la silleta.",
+      "faq": [
+        {
+          "q": "¿Por qué no puedo usar una broca normal para madera o metal?",
+          "a": "Las brocas estándar rasgan el plástico y generan virutas incontroladas. Nuestra broca especial fresa el agujero y atrapa limpiamente la viruta."
+        },
+        {
+          "q": "¿Encaja la broca en un taladro inalámbrico convencional?",
+          "a": "Sí, la broca dispone de un vástago hexagonal estandarizado que se adapta a cualquier portabrocas común."
+        },
+        {
+          "q": "¿Es necesario desbarbar el agujero?",
+          "a": "No, el cabezal fresador de la broca está diseñado de tal forma que prepara y alisa automáticamente el borde del orificio para la posterior soldadura."
+        }
+      ]
+    },
+    "welding-tool-for-repairing-plug": {
+      "seo_p1": "La Welding Tool for Repairing Plug (Herramienta de Soldadura para Tapones de Reparación) es un accesorio altamente especializado para reparar líneas perforadas accidentalmente.",
+      "seo_p2": "Este pin calefactor cónico calienta de manera específica el interior de un pozo dañado y simultáneamente eleva a temperatura de fusión el correspondiente tapón de PP-R.",
+      "seo_p3": "Es la salvación en cualquier obra para volver a sellar tuberías que han sido perforadas por error (por ejemplo, durante el montaje en la pared) de forma rápida y probada.",
+      "faq": [
+        {
+          "q": "¿Cómo funciona exactamente la varilla de reparación?",
+          "a": "La herramienta cónica funde el agujero perforado. A continuación, el tapón de reparación de PP-R, también calentado, se introduce a presión en el orificio y se fusiona permanentemente."
+        },
+        {
+          "q": "¿Es realmente segura la zona reparada?",
+          "a": "Sí, no se trata de un simple pegado, sino de una soldadura molecular que soporta la misma presión que el tubo intacto."
+        },
+        {
+          "q": "¿Qué diámetros de perforación se pueden reparar?",
+          "a": "La herramienta es ideal para los típicos accidentes de taladro (agujeros de tacos) en un rango de 7 mm a 11 mm."
+        }
+      ]
+    },
+    "repairing-plug": {
+      "seo_p1": "El Repairing Plug (Tapón de Reparación) es un pasador macizo de PP-R que, junto con la herramienta de soldadura especial, resuelve urgencias por orificios de perforación.",
+      "seo_p2": "Está fabricado exactamente con el mismo material que el sistema de tuberías K Aqua y se funde en una masa absolutamente homogénea al introducirlo en el tubo dañado.",
+      "seo_p3": "En lugar de picar grandes áreas de pared para reemplazar tramos de tubo, simplemente se suelda el agujero: la zona reparada queda tan resistente a la presión como el tubo original.",
+      "faq": [
+        {
+          "q": "¿De qué material está hecho el tapón de reparación?",
+          "a": "Está compuesto 100% por Polipropileno Copolímero Random (PP-R) Tipo 3 de alta calidad, exactamente igual que nuestros sistemas de tuberías K Aqua."
+        },
+        {
+          "q": "¿Hay que cortar el tapón una vez soldado?",
+          "a": "Sí, una vez que la soldadura se ha enfriado por completo, el extremo sobrante del tapón se corta al ras de la pared de la tubería."
+        },
+        {
+          "q": "¿Puedo usar el tapón si la red de tuberías está llena?",
+          "a": "No, es imprescindible cerrar el agua por completo en ese ramal y secar el tubo en la zona de la perforación."
+        }
+      ]
+    }
+  }
+}

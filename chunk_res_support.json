@@ -1,0 +1,131 @@
+{
+  "resources": {
+    "support": {
+      "title": "Technischer Support",
+      "metaDesc": "Profitieren Sie vom technischen Support von K-Aqua. Wir begleiten Ihre Megaprojekte mit German Engineering, Hydraulikauslegung und Vor-Ort-Schweißbetreuung.",
+      "seoText": {
+        "p1": "Der technische Support von K Aqua ist das Rückgrat unserer weltweiten Infrastrukturprojekte. Wir wissen, dass bei der Installation von industriellen Rohrleitungssystemen und PP-R Hochleistungsleitungen jede Sekunde zählt. Unser Expertenteam für Fluidtechnik und Polymersysteme steht internationalen Generalunternehmern, Architekten und Bauingenieuren bei jedem Schritt zur Seite.",
+        "p2": "Von der initialen Planung und isometrischen Kalkulation über die Auslegung der Druckverlustberechnung bis hin zur Überwachung der Schweißprozesse vor Ort: wir garantieren eine fehlerfreie Implementierung. Unsere Polypropylen Random Copolymerisat (PP-R) Systeme erfordern höchste handwerkliche Präzision. Deshalb bietet unsere Academy kontinuierliche Schulungen, während der Support bei komplexen thermischen Längenausdehnungen oder speziellen Fließdruckanforderungen eingreift.",
+        "p3": "Durch den Einsatz modernster Diagnosewerkzeuge und vorausschauender Wartungsalgorithmen minimieren wir Ausfallzeiten auf ein absolutes Minimum. Egal ob es sich um Kaltwassersysteme in Wüstenregionen, hochreine Industrieanlagen oder Heizungsnetzwerke in arktischen Zonen handelt: die K Aqua Support-Infrastruktur sichert den reibungslosen Betrieb und die kompromisslose Langlebigkeit Ihrer Investition."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Prädiktive Systemüberwachung",
+            "desc": "Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht."
+          },
+          {
+            "title": "Militärische Reaktionszeiten",
+            "desc": "Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution."
+          },
+          {
+            "title": "Architektur-Audits",
+            "desc": "Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet."
+          },
+          {
+            "title": "Direkter Entwickler-Zugang",
+            "desc": "Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene."
+          }
+        ],
+        "eyebrow": "Eskalations-Protokolle",
+        "title": "Souveränität in der Krise",
+        "lead": "Wie wir Systemintegrität unter extremen Last-Bedingungen aufrechterhalten."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomalie-Erkennung",
+            "text": "Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostische Triage",
+            "text": "KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Intervention",
+            "text": "Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Root-Cause-Analyse",
+            "text": "Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem-Protokoll",
+            "text": "Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit."
+          }
+        ],
+        "title": "Der Ernstfall: Chronik einer Intervention",
+        "desc": "Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert."
+      },
+      "hero": {
+        "eyebrow": "Technischer Support",
+        "title1": "Support, der",
+        "title2": "mitdenkt.",
+        "desc": "Von der Rohrauslegung bis zur Bauabnahme: Unser technischer Support begleitet Planer und Installateure durch jede Phase eines PP-R-Projekts, mit direktem Draht zu den Ingenieuren, die das System entwickelt haben. Support, der mitdenkt, von der Planung bis zur Inbetriebnahme.",
+        "btnPrimary": "Projektanfrage stellen",
+        "btnGhost": "Leistungen ansehen"
+      },
+      "intro": {
+        "title1": "Support ist kein Callcenter.",
+        "title2": "Es ist ein Ingenieursteam.",
+        "p1": "Wir betrachten technischen Support nicht als nachgelagerten Service, sondern als festen Bestandteil jedes Projekts. Wenn auf der Baustelle eine Schweißnaht unklar ist oder eine Druckprüfung nicht wie erwartet ausfällt, zählt jede Stunde.",
+        "p2": "Unsere Ingenieure kennen jede Charge, jede Norm und jede Verarbeitungsvorschrift unserer Systeme aus erster Hand. Sie prüfen Isometrien, rechnen Druckverluste nach und stehen bei der Inbetriebnahme direkt am Rohr.",
+        "p3": "Das ist der Anspruch deutscher Ingenieurskunst, angewendet auf reale Baustellen, nicht auf Server-Racks."
+      },
+      "bento": {
+        "eyebrow": "Leistungen im Überblick",
+        "title": "Support entlang des gesamten Projekts",
+        "lead": "Von der ersten Planung bis zur laufenden Wartung: unser Team begleitet Ihr PP-R-System durch jede Phase.",
+        "items": [
+          {
+            "title": "Hydraulische Auslegung & Isometrien",
+            "desc": "Wir prüfen Ihre Planungsunterlagen, rechnen Druckverluste und Dimensionierung nach und liefern eine belastbare Materialliste vor Baubeginn."
+          },
+          {
+            "title": "Schweißtechnische Betreuung",
+            "desc": "Unsere Techniker begleiten die Muffen- und Heizwendel-Schweißung vor Ort, kontrollieren Prozessparameter und schulen Ihr Montageteam auf Wunsch direkt auf der Baustelle."
+          },
+          {
+            "title": "Druckprüfung & Abnahme",
+            "desc": "Wir unterstützen bei Durchführung und Dokumentation der Druckprüfung nach DIN 1988 und stellen die für die Bauabnahme benötigten Prüfprotokolle bereit."
+          },
+          {
+            "title": "Ersatzteil- & Zubehörservice",
+            "desc": "Schnelle Lieferung von Formteilen, Armaturen und Originalzubehör, auch für Bestandsanlagen und ältere K-Aqua-Chargen."
+          },
+          {
+            "title": "Ferndiagnose & Vor-Ort-Einsatz",
+            "desc": "Bei ungeklärten Fragen zur Verarbeitung oder unklaren Prüfergebnissen ruft unser technischer Support kurzfristig zurück, bei Bedarf mit Einsatz eines Richtmeisters vor Ort."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Verlässlichkeit in Zahlen",
+        "title1": "Geprüfte",
+        "title2": "Zuverlässigkeit.",
+        "p1": "Wir arbeiten nach den Prinzipien deutscher Ingenieurskunst: Was wir liefern, muss halten, unter allen Baustellenbedingungen.",
+        "p2": "Jedes K-Aqua-System ist nach DVGW, SKZ und KIWA zertifiziert. Jede Charge ist rückverfolgbar, jede Schweißnaht dokumentierbar.",
+        "items": [
+          "Antwort auf technische Anfragen innerhalb eines Arbeitstages",
+          "Über 50 Jahre dokumentierte Systemlebensdauer bei sachgerechter Installation",
+          "Direkter Draht zum technischen Vertrieb ohne Warteschleife",
+          "Schulungen und Zertifizierungen über die K-Aqua Academy"
+        ]
+      },
+      "cta": {
+        "title1": "Bereit für Ihr",
+        "title2": "nächstes",
+        "title3": "Projekt?",
+        "desc": "Lassen Sie Ihr Vorhaben von Ingenieuren begleiten, die PP-R-Systeme nicht nur verkaufen, sondern selbst entwickeln und fertigen.",
+        "btnPrimary": "Anfrage starten",
+        "btnGhost": "Experten kontaktieren"
+      },
+      "metaTitle": "Technischer Support & Service für PP-R Rohrsysteme"
+    }
+  }
+}

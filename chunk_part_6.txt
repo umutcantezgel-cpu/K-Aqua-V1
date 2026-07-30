@@ -1,0 +1,80 @@
+,
+  "wissen": {
+  "meta": {
+    "title": "Datos de experiencia e ingeniería | K-Aqua",
+    "desc": "Experiencia técnica profunda, análisis arquitectónicos de sistemas y datos de ingeniería inflexibles sobre los sistemas de tuberías K-Aqua."
+  },
+  "scroll": {
+    "items": [
+      {
+        "title": "Arquitectura matricial PP-RCT",
+        "desc": "La integridad estructural de nuestros copolímeros aleatorios de polipropileno con cristalinidad modificada (PP-RCT) redefine los límites de la resiliencia térmica. Bajo ciclos extremos de presión y temperatura, nuestra estructura de celosía hexagonal proporciona una distribución microscópica de la tensión que prácticamente elimina la fatiga del material. Un cambio de paradigma en la mecánica de fluidos."
+      },
+      {
+        "title": "Aislamiento termodinámico",
+        "desc": "Nuestras capas aislantes coextruidas se basan en tecnología de poliuretano de celda cerrada. El coeficiente de transferencia de calor (valor U) se reduce a un mínimo teórico. La pérdida de energía ya no es una variable en el cálculo de sus sistemas: la arquitectura de nuestro sistema la elimina de raíz. Control térmico absoluto."
+      },
+      {
+        "title": "Esterilidad certificada",
+        "desc": "No hay concesiones en la infraestructura de agua potable. Nuestros sistemas no sólo cuentan con la certificación DVGW, sino que superan con creces los requisitos del Reglamento sobre agua potable (TrinkwV). La superficie interior ultralisa (valor de rugosidad k=0,007 mm) evita la adhesión microbiana y la formación de biopelículas. Pureza a nivel molecular."
+      },
+      {
+        "title": "Ensayos no destructivos (END)",
+        "desc": "Cada sistema de tuberías pasa por nuestro diagnóstico automatizado por ultrasonido y rayos X. Analizamos cordones de soldadura a nivel submilimétrico. Las anomalías, huecos o inclusiones se identifican mediante la detección de defectos impulsada por IA antes de que el producto salga de la línea de producción. 100% trazabilidad. Tolerancia cero ante los defectos."
+      }
+    ]
+  },
+  "timeline": {
+    "items": [
+      {
+        "year": "FASE I",
+        "title": "Síntesis molecular",
+        "text": "El proceso comienza a nivel atómico. La polimerización catalítica en condiciones de presión extrema forma los gránulos básicos de PP-RCT. Agentes de nucleación específicos inducen la formación de la estructura cristalina beta resistente."
+      },
+      {
+        "year": "FASE II",
+        "title": "Coextrusión de precisión",
+        "text": "Los gránulos se funden a 240°C y se prensan con herramientas calibradas. La extrusión simultánea de varias capas funcionales (compuesto de fibra de vidrio, capa superior) se realiza con control láser con precisión micrométrica."
+      },
+      {
+        "year": "FASE III",
+        "title": "Estabilización térmica",
+        "text": "Un complejo protocolo de enfriamiento fija la orientación macromolecular. El gradiente de temperatura controlado evita tensiones internas y garantiza una estabilidad dimensional absoluta de la geometría de la tubería."
+      },
+      {
+        "year": "FASE IV",
+        "title": "Hiperauditoría",
+        "text": "Ensayos de presión de rotura hidráulica, ensayos de presión interna de fluencia a 95°C y análisis de materiales no destructivos. Sólo los sistemas que superan el límite de carga estándar en un 300 % reciben la aprobación final."
+      }
+    ],
+    "title": "Génesis de la integridad",
+    "desc": "Del catalizador molecular al producto final hiperauditado. Una mirada secuencial a nuestra inflexible matriz de fabricación."
+  },
+  "hero": {
+    "eyebrow": "Inteligencia del sistema",
+    "title1": "El técnico",
+    "title2": "base de conocimientos",
+    "desc": "Precisión sin concesiones. Análisis basado en datos. No hay lugar para la tolerancia al error. Sumérgete en la ingeniería pura y verificada de la arquitectura del sistema K-Aqua.",
+    "status": "Estado del sistema: en línea",
+    "clearance": "Nivel de autorización 4"
+  },
+  "deep": {
+    "badge": "Especificaciones principales",
+    "title1": "Ciencia de Materiales y",
+    "title2": "Protocolos",
+    "desc": "No dejamos nada al azar. Cada especificación es el resultado de investigaciones empíricas y rigurosas pruebas de estrés en las condiciones industriales más extremas."
+  },
+  "grid": {
+    "badge": "Publicaciones",
+    "title1": "Certificado",
+    "title2": "saber",
+    "desc": "Acceso a artículos técnicos detallados, documentos técnicos y análisis de arquitectura de sistemas. Datos verificados para ingenieros y planificadores.",
+    "read": "Leer"
+  },
+  "cta": {
+    "title1": "INTEGRIDAD DEL SISTEMA",
+    "title2": "CONFIRMADO.",
+    "desc": "Has llegado al final de las especificaciones. ¿Listo para convertir la teoría en realidad industrial?",
+    "btn": "Iniciar contacto"
+  }
+}

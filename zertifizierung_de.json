@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Zertifikate & Normen | K Aqua",
+    "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
+  },
+  "hero": {
+    "eyebrow": "German Engineering Standards",
+    "title1": "Zertifikate.",
+    "title2": "Engineered in Germany.",
+    "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
+    "cta1": "Projekt anfragen",
+    "cta2": "Technisches Handbuch"
+  },
+  "manifesto": {
+    "title1": "Ein Zertifikat ist nur Papier.",
+    "title2": "Der Prozess dahinter ist aus Stahl.",
+    "p1": "Viele Hersteller sehen Normen als das ultimative Ziel. Wir sehen sie als die absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als das, was DVGW, ISO oder SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es auf Molekularebene analysiert, mit extremen Drücken gefoltert und thermisch ans absolute Limit getrieben."
+  },
+  "bento": {
+    "eyebrow": "Die Säulen der Sicherheit",
+    "title": "Die DNA eines perfekten Rohrsystems.",
+    "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+    "items": [
+      {
+        "title": "Extreme Druckbeständigkeit",
+        "desc": "geprüft für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
+      },
+      {
+        "title": "Thermische Souveränität",
+        "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung, auch bei extremen thermischen Schocks."
+      },
+      {
+        "title": "Absolute Hygiene",
+        "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
+      },
+      {
+        "title": "Brandschutz (B1/B2)",
+        "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
+      },
+      {
+        "title": "Lebenszyklus-Garantie",
+        "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Die Instanzen",
+    "title": "Die härtesten Prüfer der Welt.",
+    "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
+    "items": [
+      {
+        "title": "DVGW: Die höchste Instanz",
+        "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
+        "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
+      },
+      {
+        "title": "SKZ: Unabhängige Überwachung",
+        "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
+        "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
+      },
+      {
+        "title": "KTW-BWGL: Absolute Reinheit",
+        "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
+        "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+      },
+      {
+        "title": "ISO 9001 & 14001: Systematische Exzellenz",
+        "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement von der Rohstoffannahme bis zur weltweiten Warenauslieferung.",
+        "p2": "Mit ISO 14001 beweisen wir, dass industrielle Höchstleistung und ökologische Verantwortung Hand in Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung und die 100%ige Recyclingfähigkeit unserer PP-Produkte."
+      }
+    ]
+  },
+  "lab": {
+    "eyebrow": "Inside the Lab",
+    "title1": "Die Anatomie",
+    "title2": "der Perfektion.",
+    "desc": "Bevor ein K Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
+    "items": [
+      {
+        "title": "MFR (Melt Flow Rate)",
+        "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
+      },
+      {
+        "title": "OIT (Oxidation Induction Time)",
+        "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
+      },
+      {
+        "title": "Zeitstand-Innendruckversuch",
+        "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert, für tausende von Stunden. Ohne Riss. Ohne Bruch."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Jahrzehnte der Innovation.",
+    "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
+    "items": [
+      {
+        "year": "1990",
+        "title": "Die Geburtsstunde der Norm",
+        "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
+      },
+      {
+        "year": "1995",
+        "title": "ISO 9001 Integration",
+        "text": "Die vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
+      },
+      {
+        "year": "2005",
+        "title": "DVGW & SKZ Prüfung",
+        "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-geprüften Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
+      },
+      {
+        "year": "2015",
+        "title": "Globale Normen (WRAS, KTW)",
+        "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard für internationale Megaprojekte."
+      },
+      {
+        "year": "2024",
+        "title": "Next-Gen Quality Analytics",
+        "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null Fehler-Quote."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Qualität, der Sie blind vertrauen können.",
+    "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.",
+    "button1": "Zertifikate herunterladen",
+    "button2": "Technischen Support kontaktieren"
+  }
+}

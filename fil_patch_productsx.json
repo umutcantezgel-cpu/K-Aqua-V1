@@ -1,0 +1,103 @@
+    "pipesEyebrow": "Serye ng Tubo",
+    "pipesTitle": "Tatlong uri ng tubo, isang sistema.",
+    "pipesLead": "Monolayer, PPRCT at glass-fiber reinforced composite, at UV-stabilized para sa labas.",
+    "pipes": [
+      {
+        "t": "K-Pipe PP-R Monolayer",
+        "d": "Ang standard para sa mainit at malamig na tubig. Single-layer na disenyo para sa residential at commercial.",
+        "tags": ["d20–d630", "SDR 6–17"]
+      },
+      {
+        "t": "K-Pipe PPRCT",
+        "d": "Binagong crystal structure para sa higit pang temperatura at presyon: SDR 7.4 ay para sa 70°C na tuloy-tuloy.",
+        "tags": ["70 °C · 10 bar", "Mainit na Tubig"]
+      },
+      {
+        "t": "K-Fiber Pipe (GF-Multilayer)",
+        "d": "Glass-fiber reinforced core sa pagitan ng dalawang PP layer: Binabawasan ang thermal expansion.",
+        "tags": ["GF-Core", "d20–d630"]
+      },
+      {
+        "t": "UV-stabilized na Disenyo",
+        "d": "Available din ang tubo na may UV-resistant na disenyo para sa labas.",
+        "tags": ["Labas (Outdoor)", "Agrikultura"]
+      }
+    ],
+    "dimEyebrow": "Dimension Tables",
+    "dimTitle": "Lahat ng dimension at kapal ng pader.",
+    "dimLead": "Piliin ang pressure rating. Ipinapakita ng talahanayan ang mga dimensyon, presyon, dami ng tubig, at bigat.",
+    "dimTabAria": "Piliin ang pressure rating",
+    "dimHead": [
+      "d (mm)",
+      "Pader s (mm)",
+      "di (mm)",
+      "Nominal na Presyon",
+      "Tubig (l/m)",
+      "Bigat (kg/m)"
+    ],
+    "dimNote": "Mga kalkuladong halaga mula sa SDR-geometry (s = d/SDR).",
+    "anchorsTitle": "Disenyo ng Programa",
+    "anchors": [
+      {
+        "v": "20 bar",
+        "t": "K-Fiber Pipe PP-R · SDR 6",
+        "c": "2.0 MPa tuloy-tuloy sa 20 °C: Malamig na tubig para sa 50 taon."
+      },
+      {
+        "v": "10 bar",
+        "t": "K-Pipe PPRCT · SDR 7.4",
+        "c": "1.0 MPa tuloy-tuloy sa 70 °C: Mainit na tubig na walang pagbaba ng resistensya."
+      }
+    ],
+    "matEyebrow": "Data ng Materyales",
+    "matTitle": "Kung ano ang nagpapa-espesyal sa materyal.",
+    "matLead": "Ang pinakamahalagang values ng sistema at kung bakit sila mahalaga.",
+    "matHead": [
+      "Property",
+      "Halaga",
+      "Kahalagahan sa iyong proyekto"
+    ],
+    "matRows": [
+      ["Density", "0.905 g/cm³", "Kagaanang dalhin at madaling pag-install."],
+      ["Inner roughness", "0.007 mm", "Makinis na surface: walang pressure loss at biofilm."],
+      ["Thermal conductivity", "0.24 W/(m·K)", "Mababang pagkawala ng init: matipid sa enerhiya."],
+      ["Linear expansion (Monolayer)", "≈ 0.15 mm/(m·K)", "Inaasahan sa pamamagitan ng expansion loops."],
+      ["Linear expansion (K-Fiber)", "≈ 0.04 mm/(m·K)", "Mas mababa nang isang-kapat kaysa Monolayer."],
+      ["Media temperature", "Malamig hanggang 70°C", "Para sa inuming tubig na mainit at malamig."],
+      ["Chemical resistance", "Solvents, alkalis, acids", "Walang panganib na kalawangin."],
+      ["Recycling", "Code 5 (PP)", "100% recyclable ang production waste."]
+    ],
+    "fitEyebrow": "Fittings at System Components",
+    "fitTitle": "Ang sistema sa paligid ng tubo.",
+    "fitLead": "Mga fitting mula d20 hanggang d315, transition, at kumpletong welding technology.",
+    "fitGroups": [
+      {"t": "Fittings d20–d315", "items": ["Elbow 90° at 45°", "Tees at reducers", "Sockets", "Reducers", "End caps"]},
+      {"t": "Transitions", "items": ["Transitions (female brass thread)", "Transitions (male brass thread)", "Unions", "Koneksyon sa mga tubo na gawa sa metal"]},
+      {"t": "Valves", "items": ["Valves", "Ball valves", "Shut-off para sa risers"]},
+      {"t": "Welding Technology & Tools", "items": ["Hand welding (hanggang d63)", "Socket welding", "Electrofusion", "Butt welding", "Pipe cutters"]}
+    ],
+    "normEyebrow": "Mga Pamantayan",
+    "normTitle": "Subok laban sa mga pamantayan.",
+    "normLead": "Ang K-Aqua system ay sinusubok ayon sa pamantayan. Bawat batch ay ginagawa sa ilalim ng ISO-9001.",
+    "normHead": ["Pamantayan", "Pamagat", "Kahalagahan"],
+    "norms": [
+      ["DIN 8077", "PP Pipes: Dimensions", "Tinutukoy ang diameter at kapal (SDR)."],
+      ["DIN 8078", "PP Pipes: Requirements", "Mga pagsusuri para sa PP-R/PPRCT pipes."],
+      ["DIN EN ISO 15874", "Plastic piping systems", "Standard para sa mainit at malamig na tubig."],
+      ["DVS 2207-11", "Welding of PP", "Guidelines sa welding."],
+      ["DVGW / KTW", "Drinking water contact", "Ligtas para sa inuming tubig."],
+      ["EN 15804", "EPD (Type III)", "Data para sa LEED at BREEAM."],
+      ["ISO 9001 / 14001 / 50001", "Management systems", "Kalidad, Kapaligiran at Enerhiya."],
+      ["GENAU", "Integrated management", "Proteksyon sa kalusugan, kapaligiran at enerhiya."]
+    ],
+    "faqEyebrow": "Madalas na Katanungan",
+    "faqTitle": "Mga sagot para sa pagpaplano at pagbili.",
+    "faq": [
+      {"q": "Para sa anong media ito?", "a": "Para sa inuming tubig (mainit at malamig) na may mataas na temperatura at pressure. Dahil resistyente ang PP sa chemicals, pwede rin ito sa industriya."},
+      {"q": "Ano ang ibig sabihin ng limang SDR class?", "a": "SDR ay ratio ng diameter at kapal (d/s). Mas maliit na SDR = makapal na pader = mas mataas na presyon."},
+      {"q": "Kailan gagamitin ang Monolayer, kailan K-Fiber?", "a": "Monolayer ang standard. Binabawasan ng K-Fiber ang paglawak ng tubo, mainam para sa mga malalaking riser at mainit na tubig."},
+      {"q": "Paano pinagdidikit ang mga tubo?", "a": "Sa pamamagitan ng welding: socket welding (hanggang d63), electrofusion, o butt welding."},
+      {"q": "Ito ba ay ligtas sa inuming tubig?", "a": "Oo, idinisenyo ito para sa inuming tubig at may DVGW/KTW na sertipiko."},
+      {"q": "Gaano katagal ang buhay nito?", "a": "Nagbibigay ito ng 50 taon na buhay sa operasyon, batay sa pamantayan ng DIN."},
+      {"q": "Saan makakakuha ng artikulong data?", "a": "Maaaring hanapin sa Product Finder at i-export bilang CSV."}
+    ]

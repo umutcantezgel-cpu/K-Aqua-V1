@@ -1,0 +1,178 @@
+"rfq": {
+    "eyebrow": "Báo giá nhanh (RFQ)",
+    "title1": "Cấu hình",
+    "titleGrad": "Yêu cầu Dự án.",
+    "lead": "Gửi cho chúng tôi Danh sách Số lượng (BOQ) hoặc yêu cầu báo giá cụ thể. Đội ngũ kỹ thuật của chúng tôi sẽ phân tích dữ liệu và cung cấp báo giá trong vòng 48 giờ.",
+    "steps": [
+      "Loại dự án",
+      "Nhu cầu",
+      "Lịch trình & Khu vực",
+      "Liên hệ"
+    ],
+    "types": [
+      {
+        "t": "Xây mới / Xây dựng nhà",
+        "d": "Lắp đặt nước uống trong các tòa nhà dân cư hoặc thương mại."
+      },
+      {
+        "t": "Cơ sở hạ tầng / Kỹ thuật Xây dựng dân dụng",
+        "d": "Đường ống cấp nước, kích thước lớn, mạng lưới."
+      },
+      {
+        "t": "Cải tạo / Thay thế",
+        "d": "Thay thế các đường ống kim loại hoặc PVC hiện có."
+      },
+      {
+        "t": "Thương mại / Bán lẻ",
+        "d": "Phân phối, kho bãi hoặc kinh doanh dự án."
+      }
+    ],
+    "fType": "Loại dự án",
+    "fDims": "Kích thước cần thiết",
+    "fMeters": "Chiều dài ống ước tính",
+    "dimsHint": "Thông tin sơ bộ là đủ, chúng ta sẽ cụ thể hóa cùng nhau. Có thể chọn nhiều tùy chọn.",
+    "fTime": "Khung thời gian dự kiến",
+    "fRegion": "Khu vực giao hàng",
+    "timelines": [
+      "Ngay lập tức / đang diễn ra",
+      "Trong 1–3 tháng",
+      "Trong 3–6 tháng",
+      "Giai đoạn lập kế hoạch"
+    ],
+    "regions": [
+      "Đức",
+      "DACH",
+      "Châu Âu",
+      "Trung & Cận Đông",
+      "Toàn thế giới"
+    ],
+    "fName": "Tên",
+    "fCompany": "Công ty",
+    "fEmail": "E-Mail",
+    "fPhone": "Điện thoại",
+    "fMsg": "Tin nhắn (tùy chọn)",
+    "privacy": "Bằng cách gửi, bạn sẽ mở một email được điền sẵn gửi tới info@k-aqua.de. Không có dữ liệu nào được lưu trữ trên trang web này.",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "send": "Gửi Yêu cầu",
+    "mailSubject": "Yêu cầu Dự án K Aqua",
+    "promise": [
+      "Trả lời < 24 h",
+      "Không ràng buộc",
+      "Trực tiếp từ nhà sản xuất"
+    ],
+    "doneTitle": "Gần xong rồi.",
+    "doneText": "Chương trình email của bạn đã mở với yêu cầu được điền sẵn. Vui lòng gửi nó đi. Chúng tôi sẽ liên hệ lại với bạn trong vòng một ngày làm việc. Bạn có muốn trao đổi trực tiếp không?",
+    "doneBack": "Quay lại Trang chủ",
+    "infoTitle": "Về yêu cầu dự án",
+    "infoText1": "Sử dụng công cụ yêu cầu của chúng tôi để điều phối sớm dự án xây dựng hoặc dự án công nghiệp của bạn với các chuyên gia của chúng tôi. Bất kể bạn đang trong giai đoạn lập kế hoạch hay đã có danh sách vật liệu cụ thể, chúng tôi hỗ trợ bạn trong việc xác định kích thước và lựa chọn vật liệu.",
+    "infoText2": "Thông qua sự hợp tác chặt chẽ với đội ngũ bán hàng của K Aqua, bạn sẽ không chỉ nhận được các báo giá chính xác mà còn nhận được những tư vấn kỹ thuật giá trị về các cấp áp suất (lớp SDR), quy trình lắp đặt và các phụ kiện tương thích với hệ thống. Hãy gửi cho chúng tôi dữ liệu khung của bạn, và chúng tôi sẽ liên hệ lại với bạn trong vòng một ngày làm việc.",
+    "faqTitle": "Các câu hỏi thường gặp về yêu cầu",
+    "faqs": [
+      {
+        "q": "Yêu cầu dự án có tính phí không?",
+        "a": "Không, việc sử dụng công cụ này và việc đội ngũ bán hàng của chúng tôi lập báo giá sau đó là hoàn toàn miễn phí và không ràng buộc."
+      },
+      {
+        "q": "Điều gì xảy ra sau khi gửi yêu cầu?",
+        "a": "Yêu cầu của bạn sẽ được chuyển thẳng đến bộ phận hỗ trợ bán hàng của chúng tôi. Một chuyên viên sẽ liên hệ với bạn trong vòng 24 giờ để giải đáp bất kỳ thắc mắc nào hoặc cung cấp cho bạn một báo giá được điều chỉnh trực tiếp."
+      },
+      {
+        "q": "Tôi có thể gửi yêu cầu với tư cách cá nhân không?",
+        "a": "K Aqua chủ yếu hướng đến các nhà bán buôn, nhà lập kế hoạch và thợ lắp đặt chuyên nghiệp trong lĩnh vực B2B. Chúng tôi rất sẵn lòng chuyển tiếp các khách hàng cá nhân đến các đối tác chuyên nghiệp trong khu vực của chúng tôi."
+      },
+      {
+        "q": "Dữ liệu của tôi an toàn đến mức nào?",
+        "a": "Dữ liệu của bạn không được lưu trữ trên máy chủ, mà được truyền trực tiếp đến chương trình email của bạn, từ đó bạn có thể gửi yêu cầu một cách an toàn cho chúng tôi. Chúng tôi xử lý dữ liệu của bạn một cách bảo mật tuyệt đối theo các nguyên tắc GDPR hiện hành."
+      }
+    ]
+  },
+  "legal": {
+    "impressum": {
+      "title": "Dấu ấn (Impressum)",
+      "sections": [
+        {
+          "id": "section-company",
+          "title": "KWT GmbH (Nhà máy chính Waldsolms)",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nĐức"
+        },
+        {
+          "id": "section-contact",
+          "title": "Thông tin Liên hệ",
+          "content": "Điện thoại: +49 (0)60 85 / 9868-410\nFax: +49 (0)60 85 / 9868-412\nE-Mail: info@k-aqua.de\nInternet: www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Ban Giám đốc",
+          "content": "Jens E. Kramer"
+        },
+        {
+          "id": "section-registration",
+          "title": "Đăng ký Kinh doanh",
+          "content": "Đăng ký thương mại: Tòa án Quận Wetzlar\nSố đăng ký: HRB 4335\nMã số Thuế GTGT (Ust.-ID-Nr.): DE 213 147 622\nSố thuế: 3923831818"
+        },
+        {
+          "id": "section-liability",
+          "title": "Miễn trừ Trách nhiệm",
+          "content": "Dù đã kiểm tra kỹ lưỡng nội dung, chúng tôi không chịu trách nhiệm đối với nội dung của các liên kết bên ngoài. Các nhà điều hành của các trang được liên kết chịu trách nhiệm duy nhất về nội dung của họ. Thông tin kỹ thuật, số liệu áp suất và khuyến nghị lắp đặt hệ thống PP-R/PPRCT của chúng tôi dựa trên các thông số kỹ thuật nội bộ hiện tại và các tiêu chuẩn DIN/ISO áp dụng. Có thể thay đổi kỹ thuật. Không có yêu cầu pháp lý nào có thể được đưa ra từ dữ liệu trên trang web."
+        },
+        {
+          "id": "section-copyright",
+          "title": "Bản quyền & Nhãn hiệu",
+          "content": "Thiết kế, đồ họa, dữ liệu kỹ thuật, bảng, bản vẽ CAD và hình ảnh sản phẩm (đặc biệt là đối với K Aqua PP-R, phụ kiện PP-RCT và dụng cụ hàn) được trình bày ở đây là tài sản trí tuệ của KWT GmbH. Bất kỳ sự sao chép, chỉnh sửa, phân phối hoặc khai thác nào khác bên ngoài giới hạn của luật bản quyền đều phải có sự đồng ý bằng văn bản của KWT GmbH. K-AQUA® là nhãn hiệu đã đăng ký."
+        },
+        {
+          "id": "section-faq",
+          "title": "Các Câu hỏi Thường gặp (Impressum & Dịch vụ)",
+          "content": "Làm cách nào để liên hệ với bộ phận hỗ trợ kỹ thuật?\nBạn có thể liên hệ với bộ phận hỗ trợ kỹ thuật của chúng tôi về các câu hỏi liên quan đến ống PP-R, các thông số hàn hoặc sản phẩm tùy chỉnh qua địa chỉ e-mail ở trên hoặc qua điện thoại trong giờ làm việc của chúng tôi.\n\nTôi có thể tìm chứng chỉ và phê duyệt chi tiết ở đâu?\nTất cả các chứng chỉ DVGW, KIWA và SKZ cho hệ thống đường ống của chúng tôi đều có sẵn để tải xuống trong phần 'Tài nguyên' hoặc trực tiếp trên các trang chi tiết sản phẩm tương ứng.\n\nK Aqua cung cấp bảo hành gì?\nK Aqua cung cấp bảo hành hệ thống toàn diện cho tất cả các ống và phụ kiện PP-R và PPRCT, miễn là chúng được lắp đặt và hàn chuyên nghiệp bằng các công cụ K Aqua chính hãng. Chúng tôi rất vui lòng gửi cho bạn các điều kiện bảo hành chi tiết theo yêu cầu."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Chính sách Bảo mật",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Sơ lược về Quyền riêng tư Dữ liệu",
+          "content": "Chính sách bảo mật này thông báo cho bạn về dữ liệu cá nhân nào được thực sự xử lý trên trang web này và cho mục đích gì.\n\nTóm lại: Chúng tôi chỉ xử lý dữ liệu cá nhân nếu bạn chủ động cung cấp dữ liệu đó cho chúng tôi qua các biểu mẫu liên hệ và yêu cầu của chúng tôi, cũng như trong phạm vi cần thiết về mặt kỹ thuật khi bạn truy cập trang web (dữ liệu nhật ký máy chủ từ nhà cung cấp dịch vụ lưu trữ của chúng tôi). Chúng tôi hiện không sử dụng dịch vụ phân tích hoặc tiếp thị của bên thứ ba; các công nghệ tương ứng sẽ chỉ được tải sau khi bạn có sự đồng ý rõ ràng qua biểu ngữ cookie."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Cơ quan Chịu trách nhiệm",
+          "content": "Cơ quan chịu trách nhiệm xử lý dữ liệu trên trang web này là:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nĐiện thoại: +49 (0)60 85 / 9868-410\nE-mail: info@k-aqua.de\n\nCơ quan chịu trách nhiệm là cá nhân hoặc pháp nhân một mình hoặc cùng với những người khác quyết định mục đích và phương tiện xử lý dữ liệu cá nhân."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Cán bộ Bảo vệ Dữ liệu",
+          "content": "Chúng tôi đã chỉ định một Cán bộ Bảo vệ Dữ liệu cho công ty của mình:\n\nSILA Consulting GmbH\nÔng Roland Nießing\nLandwehr 103-105\n46325 Borken\nĐiện thoại: +49 2861 80847 700\nE-mail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Lưu trữ và Nhật ký Máy chủ",
+          "content": "Trang web này được lưu trữ bởi Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, Hoa Kỳ. Khi bạn truy cập trang web, nhà cung cấp dịch vụ lưu trữ sẽ tự động xử lý dữ liệu truy cập kỹ thuật trong cái gọi là nhật ký máy chủ: Địa chỉ IP, ngày và giờ truy cập, trang được truy cập, loại và phiên bản trình duyệt và hệ điều hành.\n\nDữ liệu này chỉ phục vụ mục đích phân phối trang web một cách an toàn, ổn định và để phân tích lỗi; nó không được hợp nhất với các nguồn dữ liệu khác. Cơ sở pháp lý là Điều 6 (1) (f) GDPR (lợi ích hợp pháp trong việc cung cấp an toàn ưu đãi trực tuyến của chúng tôi). Có một hợp đồng xử lý dữ liệu với Vercel; việc chuyển dữ liệu sang Hoa Kỳ dựa trên các Điều khoản Hợp đồng Tiêu chuẩn của Liên minh Châu Âu hoặc Khung Quyền riêng tư Dữ liệu EU-Hoa Kỳ."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Biểu mẫu Liên hệ và Yêu cầu",
+          "content": "Nếu bạn sử dụng một trong các biểu mẫu yêu cầu của chúng tôi, chúng tôi sẽ xử lý dữ liệu được cung cấp ở đó: Số điện thoại, địa chỉ e-mail, chủ đề bạn đã chọn và trang mà từ đó yêu cầu được gửi. Dữ liệu này được truyền qua e-mail đến info@k-aqua.de và (nếu hệ thống CRM được kết nối) được lưu trữ ở đó để xử lý yêu cầu của bạn.\n\nĐối với các ứng dụng qua biểu mẫu nghề nghiệp, dữ liệu ứng dụng bạn đã cung cấp (Tên, thông tin liên hệ, CV hoặc thông tin về kinh nghiệm và giáo dục) sẽ được gửi qua e-mail cho bộ phận nhân sự của chúng tôi.\n\nMục đích xử lý hoàn toàn là để giải quyết yêu cầu hoặc đơn xin việc của bạn. Cơ sở pháp lý là Điều 6 (1) (b) GDPR (thực hiện các biện pháp trước hợp đồng) hoặc Điều 6 (1) (f) GDPR. Dữ liệu sẽ bị xóa ngay khi không còn cần thiết cho mục đích đó và không có nghĩa vụ lưu giữ theo luật định nào ngăn cản việc đó.\n\nĐể chống lại việc gửi thư rác tự động, chúng tôi sử dụng kỹ thuật kiểm tra vô hình (trường honeypot và ngưỡng thời gian) mà không cần dịch vụ captcha của bên thứ ba."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookie và Sự đồng ý",
+          "content": "Trang web này sử dụng cookie hoặc các công nghệ lưu trữ tương đương cần thiết về mặt kỹ thuật, ví dụ như để lưu các cài đặt ngôn ngữ và hiển thị cũng như quyết định về cookie của bạn. Những thứ này là bắt buộc đối với hoạt động của trang web (cơ sở pháp lý: Điều 6 (1) (f) GDPR hoặc § 25 (2) TDDDG).\n\nQua biểu ngữ cookie, bạn cũng có thể đồng ý với các danh mục \"Phân tích\" và \"Tiếp thị\". Chúng tôi hiện không sử dụng bất kỳ dịch vụ phân tích hoặc tiếp thị nào; nếu các dịch vụ như vậy được tích hợp trong tương lai, chúng sẽ chỉ được tải khi có sự đồng ý của bạn (Điều 6 (1) (a) GDPR, § 25 (1) TDDDG). Bạn có thể thu hồi bất kỳ sự đồng ý nào đã được cấp vào bất kỳ lúc nào với hiệu lực trong tương lai qua các cài đặt cookie."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Quyền của Bạn",
+          "content": "Theo khuôn khổ của các quy định pháp luật hiện hành, bạn có quyền vào bất kỳ lúc nào để:\n\n- Yêu cầu thông tin về dữ liệu cá nhân đã lưu trữ của bạn (Điều 15 GDPR)\n- Yêu cầu sửa dữ liệu không chính xác (Điều 16 GDPR)\n- Yêu cầu xóa dữ liệu (Điều 17 GDPR)\n- Yêu cầu hạn chế xử lý (Điều 18 GDPR)\n- Khả năng di chuyển dữ liệu (Điều 20 GDPR)\n- Phản đối quá trình xử lý dựa trên lợi ích hợp pháp (Điều 21 GDPR)\n- Thu hồi sự đồng ý với hiệu lực cho tương lai (Điều 7 (3) GDPR)\n\nĐể thực hiện điều này, vui lòng liên hệ với cơ quan chịu trách nhiệm được nêu ở trên hoặc Nhân viên Bảo vệ Dữ liệu của chúng tôi. Bạn cũng có quyền khiếu nại với cơ quan giám sát có thẩm quyền (đối với chúng tôi: Ủy viên Hessian về Bảo vệ Dữ liệu và Tự do Thông tin (HBDI), Wiesbaden)."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. Mã hóa SSL hoặc TLS",
+          "content": "Vì lý do bảo mật và để bảo vệ việc truyền các nội dung bí mật (như các yêu cầu của bạn với chúng tôi), trang web này sử dụng mã hóa SSL hoặc TLS. Bạn có thể nhận ra một kết nối được mã hóa bằng \"https://\" và biểu tượng ổ khóa trong thanh địa chỉ của trình duyệt. Nếu mã hóa được kích hoạt, dữ liệu mà bạn truyền cho chúng tôi sẽ không thể bị các bên thứ ba đọc được."
+        }
+      ]
+    },
+    "toc": "Nội dung",
+    "eyebrow": "Pháp lý"
+  }

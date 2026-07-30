@@ -1,0 +1,16 @@
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / TrinkwV",
+      "water": "ນ້ຳກະດ້າງ: PP-R ຊ່ວຍປ້ອງກັນການເກີດຕະກອນຫີນປູນ.",
+      "focus": ["ອາຄານສູງ", "ໂຮງແຮມ", "ສູນຂໍ້ມູນ"],
+      "note": "ຈັດສົ່ງໄວໃນພາກພື້ນ Rhein-Main.",
+      "focusHeading": "ໂຄງການທົ່ວໄປໃນ Frankfurt"
+    },
+    "berlin": {
+      "regulator": "DVGW",
+      "water": "ນ້ຳປານກາງ: ປ້ອງກັນການເກີດໄບໂອຟິມ (Biofilm).",
+      "focus": ["ທີ່ພັກອາໄສ", "ໂຮງຮຽນ", "ປັບປຸງອາຄານເກົ່າ"],
+      "note": "ຈັດສົ່ງພາຍໃນ 24 ຊົ່ວໂມງໃນເຂດນະຄອນຫຼວງ.",
+      "focusHeading": "ໂຄງການທົ່ວໄປໃນ Berlin"
+    }
+  }

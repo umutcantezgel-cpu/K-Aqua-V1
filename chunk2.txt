@@ -1,104 +1,109 @@
-  "certified": "certificeret",
-  "quickLinks": "Hurtig adgang",
-  "calcCo2": "Beregn CO2-aftryk",
-  "backToFinder": "Tilbage til produktfinder",
-  "enterpriseCore": "Enterprise Core",
-  "highPerformance": "Højtydende Rørsystemer",
-  "highPerformanceDesc": "Til industrielle applikationer, drikkevandsforsyning og klimastyring under ekstreme forhold.",
-  "sysPressure": "Systemtryk",
-  "tempMax": "Maks. Temperatur",
-  "material": "Materiale",
-  "norm": "Standard",
-  "certification": "Certificering",
-  "lifespan": "Levetid",
-  "fiberTech": "Fiberkomposit-teknologi",
-  "fiberTechDesc": "3-lags struktur til minimeret lineær udvidelse og maksimal stabilitet ved høje temperaturer.",
-  "compliance": "Overholdelse & Standarder",
-  "dimensions": "Dimensioner",
-  "globalNetwork": "Globalt Netværk",
-  "globalNetworkDesc": "K Aqua systemer er i brug i over 40 lande verden over.",
-  "whyChoose": "Hvorfor {product} er det rigtige valg",
-  "sysLead": "Fundamentet i vores katalog: fire byggeklodser i et integreret system. Rør, fittings, ventiler og værktøj udgør et system af PP-R og PP-RCT.",
-  "hero": {
-    "eyebrow": "SYSTEMARKITEKTUR",
-    "title1": "K-AQUA: DEN ABSOLUTTE",
-    "title2": "VANDARKITEKTUR.",
-    "desc": "Præcision på molekylært niveau. Designet for evigt. Vores rørsystemer, fittings og ventiler definerer den globale standard for industriel og civil vandinfrastruktur. Ingen kompromiser. Kun ren ydeevne."
-  },
-  "sticky": {
-    "eyebrow": "PRODUKTSPEKTRET",
-    "title": "KOMPROMISLØS INGENIØRKUNST.",
-    "lead": "Hver komponent er en del af et lukket, perfekt system. Fra forsyning til slutpunkt kontrollerer vi strømmen af vand, kemikalier og gasser med ubarmhjertig pålidelighed.",
-    "items": [
-      {
-        "title": "PPR-RØRSYSTEMER: UOPSLIDELIGE ÅRER",
-        "desc": "K Aqua PPR-systemet (Polypropylene Random Copolymer) er rygraden i moderne væsketransport. Termisk smeltet til en homogen enhed, modstår det ekstreme tryk, kemiske angreb og termiske belastninger. Et system, der ikke lækker, ikke korroderer og holder i årtier."
+    "glossar": {
+      "meta": {
+        "title": "Technical Glossary | K Aqua",
+        "desc": "K Aqua Glossary: Explore essential terminology, technical definitions, and industry standards for German-engineered PP-R piping systems."
       },
-      {
-        "title": "FITTINGS: GEOMETRISK PERFEKTION",
-        "desc": "Hver K Aqua fitting er et mesterværk inden for strømningsmekanik. Reduceret kavitation, optimerede vægtykkelser og nøjagtige tolerancer i mikrometerområdet garanterer minimale tryktab og maksimal systemsikkerhed. Vi overlader ikke strømningen til tilfældighederne."
+      "hero": {
+        "eyebrow": "Technical Glossary",
+        "title1": "Terminology of",
+        "title2": "Absolute Safety.",
+        "desc": "Welcome to the lexical core of pipeline engineering. Here we decode the principles of German Engineering. No marketing. Only physical facts, material science, and industrial authority.",
+        "cta1": "Contact Engineering",
+        "cta2": "Explore Glossary"
       },
-      {
-        "title": "VENTILER & ARMATURER: ABSOLUT KONTROL",
-        "desc": "Industriel afspærrings- og reguleringsteknologi, der opererer under de hårdeste forhold over hele verden. Vores kugleventiler, skråsædeventiler og kontraventiler er testet til titusindvis af cyklusser uden forringelse af ydeevnen. Maksimal tæthed ved maksimal belastning."
+      "manifesto": {
+        "eyebrow": "The Doctrine",
+        "title": "The Architecture of Infallibility.",
+        "lead": "A piping system is the cardiovascular system of any megaproject. A failure means an infrastructural heart attack. That is why we do not speak of pipes, but of vital industrial arteries. Every term in this glossary represents a pillar of our zero-defect philosophy."
       },
-      {
-        "title": "MULTILAYER RØR: MATERIALERNES SYNERGI",
-        "desc": "Aluminium møder højtydende polymer. K Aqua flerlags kompositrør kombinerer den mekaniske stabilitet fra metal med plastens fleksibilitet og kemiske resistens. 100 % ilttæt. Minimal længdeudvidelse. Den ultimative løsning til komplekse VVS-systemer."
+      "scroll": {
+        "eyebrow": "Kinematics & Material Science",
+        "title": "The K Aqua Process.",
+        "lead": "From the molecular granulate level to the final pressure test. Understand the physical principles that make our systems indestructible.",
+        "items": [
+          {
+            "title": "High-Pressure Extrusion Dynamics",
+            "desc": "Thermoplastic deformation in our plants is subject to precise temperature control accurate to 0.1 °C. This crystalline perfection guarantees a flawless, homogeneous molecular structure that absolutely excludes microscopic cracking (stress cracking) even under extreme pressure and temperature fluctuations. When the material leaves our extruder, it is no longer a simple plastic; it is an industrial monolith."
+          },
+          {
+            "title": "Hydrostatic Stress Tests",
+            "desc": "In our testing laboratories, every pipe is subjected to a hydrostatic simulation that exceeds real conditions many times over. We apply internal pressures that are beyond any normative requirement (up to 100 bar, depending on the SDR class). This ensures the integrity of the welds and the molecular elasticity of the PP-R material over a projected lifespan of more than 50 years in critical infrastructures."
+          },
+          {
+            "title": "Polyfusion Welding Technology",
+            "desc": "Connections are the weak point in conventional systems. K Aqua eliminates this risk through polyfusion. At the molecular level, pipe and fitting fuse into an inseparable, continuous unit. There are no threads to corrode, no seals that can fail. The result is a piping system that behaves as if it were cast from a single piece."
+          },
+          {
+            "title": "Cavitation Resistance & Fluid Mechanics",
+            "desc": "Thanks to an ultra-smooth inner wall (roughness < 0.007 mm), K Aqua pipes minimize flow resistance to almost zero. This prevents the formation of biofilms and eliminates micro-cavitational effects at high flow velocities. Pressure losses in the system are drastically reduced, maximizing the energy efficiency of connected pumping systems on an industrial scale."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Nomenclature",
+        "title": "Technical Parameters.",
+        "lead": "The most important vocabulary of industrial pipeline technology, distilled to its essence.",
+        "items": [
+          {
+            "title": "PP-R (Polypropylene Random Copolymer)",
+            "desc": "The molecular basis. A highly crystalline thermoplastic polymer that offers exceptional resistance to high temperatures and pressures. It is the DNA of our longevity."
+          },
+          {
+            "title": "Linear Thermal Expansion",
+            "desc": "The change in length of the material during temperature changes. Our fiber-reinforced pipes reduce this value to an absolute minimum (α = 0.035 mm/mK), which enormously increases structural stability in shafts."
+          },
+          {
+            "title": "Creep Rupture Strength",
+            "desc": "The ability of the system to withstand constant internal pressure at specific temperatures over decades without deforming or bursting. K Aqua pipes are calibrated for 50+ years."
+          },
+          {
+            "title": "Pressure Loss Coefficient",
+            "desc": "A mathematical value that describes the energy loss of the flow due to friction on the inner pipe wall. Thanks to nano-smooth surfaces, this value is marginalized in K Aqua systems."
+          },
+          {
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "The ratio between the outer diameter (d) and the wall thickness (s). An SDR 6 pipe withstands massively higher pressures than an SDR 11 pipe. The correct choice is crucial for system design.",
+            "label": "50+ YRS"
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Regulatory Rigor.",
+        "desc": "Standards are not rules for us, but the starting point of our engineering art. A chronology of the certifications and standards that our systems not only fulfill, but dominate.",
+        "items": [
+          {
+            "year": "DIN 8077/8078",
+            "title": "Normative Basis",
+            "text": "The foundation of German piping standards. We consider these standards not as a goal, but as the absolute minimum. Our internal tolerances are up to 30% stricter than required by DIN."
+          },
+          {
+            "year": "ISO 15874",
+            "title": "Global Testing",
+            "text": "The international seal of quality for plastic piping systems for hot and cold water installations. Proof of the uncompromising global applicability of our systems."
+          },
+          {
+            "year": "SDR 6 - SDR 11",
+            "title": "Standard Dimension Ratios",
+            "text": "A precise ratio of outer diameter to wall thickness. Our engineers calibrate every batch to guarantee maximum pressure resistance with optimal flow rate."
+          },
+          {
+            "year": "SKZ & DVGW",
+            "title": "Hygiene & Material Testing",
+            "text": "Certificates attesting to absolute food and drinking water safety. No heavy metals, no leaching. Pure, uncontaminated fluid dynamics for the highest hygienic requirements."
+          }
+        ]
+      },
+      "conclusion": {
+        "title": "Decomposition Resistance in Extreme Cases.",
+        "p1": "In industrial applications, it is not normal operation that determines the quality of a piping system, but stability at the limits. Chemical corrosion, cavitation from water hammer, and thermal shocks are the natural enemies of conventional installations.",
+        "p2": "The <span class=\"font-semibold\">K Aqua Matrix</span> isolates the fluid medium from the environment with an inert barrier layer. There is no ion exchange. Metallic systems degrade from the moment water flows through them. They sacrifice themselves to function. Our PP-R system remains flawless inside even after decades.",
+        "p3": "The concept of <span class=\"font-semibold\">Environmental Stress Cracking Resistance (ESCR)</span> is of central importance in polymer chemistry. We modify the molecular weight of our copolymer so that it cushions load peaks instead of breaking under them. The result is a system that absorbs shocks, vibrations, and structural settlements.",
+        "p4": "Anyone who has understood the terminology of pipeline technology also understands why compromises here can mean ruin. German Engineering is not an empty promise, but the sum of precise, physical parameters that we manifest in every single centimeter of our production."
+      },
+      "cta": {
+        "title1": "The theory ends.",
+        "title2": "The practice begins.",
+        "desc": "Confront our engineers with your toughest technical requirements. We deliver the system architecture.",
+        "button": "Start Engineering Briefing"
       }
-    ]
-  },
-  "bento": {
-    "eyebrow": "YDEEVNEDATA",
-    "title": "TEKNOLOGISK OVERLEGENHED. DATADREVET.",
-    "lead": "K Aqua systemer er ikke bare rør. De er højtydende netværk til væsker. Udviklet efter de strengeste tyske industristandarder.",
-    "items": [
-      {
-        "title": "Termisk Fusion",
-        "desc": "Homogene svejsesømme. Materialet bliver ét. Ingen lim, ingen tætningsringe, der kan svigte. 100 % sikkerhed mod lækager på molekylær basis."
-      },
-      {
-        "title": "Korrosionsimmunitet",
-        "desc": "Absolut modstandsdygtig over for grubetæring, rust og elektrokemisk korrosion. Det transporterede medie forbliver i sin reneste form."
-      },
-      {
-        "title": "Strømningsoptimering",
-        "desc": "Glatvægsteknologi (ruhed 0,007 mm) med minimal friktionskoefficient forhindrer aflejringer og minimerer tryktab massivt."
-      },
-      {
-        "title": "Trykmodstand PN25+",
-        "desc": "Designet til maksimal belastning i højhuse, industrianlæg og kritisk infrastruktur. Designet til problemfri drift over 50 år."
-      }
-    ]
-  },
-  "timeline": {
-    "title": "INSTALLATIONSPROCESSEN. OMDIFINERET.",
-    "desc": "Hurtigere. Sikrere. Renere. Vores system reducerer installationstiden drastisk, samtidig med at fejlkilder reduceres til et minimum. En kronologi af effektivitet.",
-    "items": [
-      {
-        "year": "FASE 01",
-        "title": "PLANLÆGNING & DIMENSIONERING",
-        "text": "Nøjagtig hydraulisk beregning og dimensionering af rørdiametre. Undgå overdimensionering gennem overlegne flowegenskaber."
-      },
-      {
-        "year": "FASE 02",
-        "title": "SKÆRING & FORBEREDELSE",
-        "text": "Kold og spånfri skæring af rørene. Absolut rene skærekanter garanterer en perfekt svejseforberedelse uden risiko for kontaminering."
-      },
-      {
-        "year": "FASE 03",
-        "title": "VARMEELEMENT-MUFFESVEJSNING",
-        "text": "Værktøjet opvarmer præcist rør og fitting til 260°C. På sekunder skabes en molekylær forbindelse, der er uadskillelig."
-      },
-      {
-        "year": "FASE 04",
-        "title": "TRYKPRØVNING & GODKENDELSE",
-        "text": "Systemet sættes under ekstremt prøvetryk. Ingen tolerance over for lækager. K Aqua leverer 100 % sikkerhed fra den første dråbe."
-      },
-      {
-        "year": "FASE 05",
-        "title": "DRIFT I ÅRTIER",
-        "text": "Vedligeholdelsesfri. Støjsvag. Systemet arbejder i baggrunden af verdens mest moderne bygninger med ubarmhjertig pålidelighed."
-      }
-    ]
-  },
+    },

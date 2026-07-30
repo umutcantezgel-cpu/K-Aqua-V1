@@ -1,0 +1,63 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/uz.json",
+  "Instruction": "Inject missing keys Part 1",
+  "Description": "Adding first batch of missing keys",
+  "ReplacementChunks": [
+    {
+      "AllowMultiple": false,
+      "StartLine": 4299,
+      "EndLine": 4299,
+      "TargetContent": "        }",
+      "ReplacementContent": "        ,\n        \"1\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"2\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"3\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"4\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            }\n        }"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4334,
+      "EndLine": 4334,
+      "TargetContent": "    },",
+      "ReplacementContent": "    ,\n    \"fittings\": {\n          \"areas\": \"Batafsil ma'lumot...\",\n          \"advTitle\": \"Batafsil ma'lumot...\",\n          \"advList\": [\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\"\n          ],\n          \"seoText\": \"Batafsil ma'lumot...\",\n          \"guideTitle\": \"Batafsil ma'lumot...\",\n          \"guideText\": \"Batafsil ma'lumot...\",\n          \"seoTitle\": \"Batafsil ma'lumot...\"\n        },\n        \"valves\": {\n          \"areas\": \"Batafsil ma'lumot...\",\n          \"advTitle\": \"Batafsil ma'lumot...\",\n          \"advList\": [\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\"\n          ],\n          \"seoText\": \"Batafsil ma'lumot...\",\n          \"guideTitle\": \"Batafsil ma'lumot...\",\n          \"guideText\": \"Batafsil ma'lumot...\",\n          \"seoTitle\": \"Batafsil ma'lumot...\"\n        }\n    },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4314,
+      "EndLine": 4314,
+      "TargetContent": "      },",
+      "ReplacementContent": "      ,\n      \"seoTitle\": \"Batafsil ma'lumot...\"\n      },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4322,
+      "EndLine": 4322,
+      "TargetContent": "      },",
+      "ReplacementContent": "      ,\n      \"areas\": \"Batafsil ma'lumot...\",\n          \"advTitle\": \"Batafsil ma'lumot...\",\n          \"advList\": [\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\",\n            \"Batafsil ma'lumot...\"\n          ],\n          \"seoText\": \"Batafsil ma'lumot...\",\n          \"guideTitle\": \"Batafsil ma'lumot...\",\n          \"guideText\": \"Batafsil ma'lumot...\",\n          \"seoTitle\": \"Batafsil ma'lumot...\"\n      },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4321,
+      "EndLine": 4321,
+      "TargetContent": "        }",
+      "ReplacementContent": "        ,\n        \"0\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            },\n            \"1\": {\n              \"q\": \"Batafsil ma'lumot...\",\n              \"a\": \"Batafsil ma'lumot...\"\n            }\n        }"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4327,
+      "EndLine": 4327,
+      "TargetContent": "      },",
+      "ReplacementContent": "      ,\n      \"areas\": \"Batafsil ma'lumot...\",\n          \"advTitle\": \"Batafsil ma'lumot...\",\n          \"seoText\": \"Batafsil ma'lumot...\",\n          \"guideTitle\": \"Batafsil ma'lumot...\",\n          \"guideText\": \"Batafsil ma'lumot...\",\n          \"seoTitle\": \"Batafsil ma'lumot...\"\n      },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4326,
+      "EndLine": 4326,
+      "TargetContent": "        }",
+      "ReplacementContent": "        ,\n        \"0\": \"Batafsil ma'lumot...\",\n            \"1\": \"Batafsil ma'lumot...\",\n            \"2\": \"Batafsil ma'lumot...\",\n            \"3\": \"Batafsil ma'lumot...\"\n        }"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 4333,
+      "EndLine": 4333,
+      "TargetContent": "      }",
+      "ReplacementContent": "      ,\n      \"areas\": \"Batafsil ma'lumot...\",\n          \"advTitle\": \"Perfekte Systemergänzung\",\n          \"seoText\": \"Batafsil ma'lumot...\"\n      }"
+    }
+  ]
+}

@@ -1,1074 +1,439 @@
 {
-  "trust": {
-    "eyebrow": "Trust Center",
-    "title1": "Vertrauen ist",
-    "titleGrad": "messbar.",
-    "lead": "Vertrauen ist messbar. Zertifikate, GENAU-Framework und Audit Dokumente, als Self Service. Kein tagelanges Warten auf manuelle Zusendung.",
-    "certs": [
-      [
-        "ISO 9001:2015",
-        "Qualitätsmanagement"
-      ],
-      [
-        "ISO 14001:2015",
-        "Umweltmanagement"
-      ],
-      [
-        "ISO 50001:2018",
-        "Energiemanagement"
-      ]
-    ],
-    "accred": "DAkkS-akkreditiert",
-    "certNo": "Zertifikat-Nr.",
-    "valid": "Gültig",
-    "download": "Download",
-    "genauEyebrow": "GENAU-Framework",
-    "genauTitle": "Fünf Buchstaben. Ein System.",
-    "genauLead": "Das GENAU-Managementsystem ist im House of KWT verankert. Klicken Sie sich durch die fünf Säulen.",
-    "genau": [
-      [
-        "Gesundheit",
-        "Arbeits- und Gesundheitsschutz mit kontinuierlicher Gefahrenermittlung. Jeder Mitarbeitende ist verpflichtet, Risiken aktiv zu melden."
-      ],
-      [
-        "Energie",
-        "Optimierung der Energieeffizienz nach ISO 50001, vom Extruder bis zum geschlossenen Kühlwasserkreislauf."
-      ],
-      [
-        "Nachhaltigkeit",
-        "100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf."
-      ],
-      [
-        "Arbeitssicherheit",
-        "Prävention und Risikobewertung als tägliche Praxis, nicht als jährliche Pflichtübung."
-      ],
-      [
-        "Umwelt",
-        "Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses."
-      ]
-    ],
-    "rfpEyebrow": "Self Service",
-    "rfpTitle": "Ihr RFP-Dokumentenpaket.",
-    "rfpLead": "Stellen Sie Ihr Audit- und Ausschreibungspaket selbst zusammen, statt tagelang auf manuelle Zusendung zu warten.",
-    "docs": [
-      "ISO 9001:2015 Zertifikat (DE/EN)",
-      "ISO 14001:2015 Zertifikat (DE/EN)",
-      "ISO 50001:2018 Zertifikat (DE/EN)",
-      "GENAU-Politik & Risikobewertung",
-      "Trinkwasser-Konformität (DVGW/KTW)",
-      "EPD-Datenblätter (Typ III, EN 15804)",
-      "GAEB-Ausschreibungstexte",
-      "Qualitätssicherungs-Handbuch"
-    ],
-    "inPackage": "Dokumente im Paket.",
-    "pickLeft": "Wählen Sie links aus.",
-    "requestZip": "Per Klick als ZIP anfordern:",
-    "requestBtn": "Paket anfordern",
-    "mailSubject": "RFP-Dokumentenpaket",
-    "mailBody": "Bitte senden Sie mir folgende Dokumente:",
-    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+  "markets": {
+    "industrie": {
+      "timeline5Title": "장기 운영",
+      "ctaTitle": "산업 인프라에 대한 논의",
+      "ctaDesc": "고압 시스템 및 유체 저항성에 대해 엔지니어와 상담하십시오.",
+      "ctaBtn": "지금 문의하기"
+    },
+    "trinkwasser": {
+      "metaTitle": "식수 배관 시스템",
+      "metaDesc": "타협 없는 안전성과 위생을 갖춘 K-Aqua PP-R 식수 배관",
+      "heroEyebrow": "식수 솔루션",
+      "heroTitle": "타협 없는 식수 인프라",
+      "heroSubtitle": "위생과 안전의 완벽한 조화",
+      "heroDesc": "DVGW 등 국제 최고 수준의 인증을 통과한 K-Aqua 솔루션입니다.",
+      "heroBtnPrimary": "데이터시트 다운로드",
+      "heroBtnSecondary": "전문가 상담 예약",
+      "section1Eyebrow": "핵심 자원 보호",
+      "section1Title": "위생 기준의 새로운 정의",
+      "section1Lead": "수질 보호와 미생물 통제는 인프라 설계의 핵심입니다.",
+      "section2Eyebrow": "제품 기술력",
+      "section2Title": "오염 없는 안전한 운송",
+      "section2Lead": "내화학성 및 비독성 소재로 수질을 완벽하게 유지합니다.",
+      "scroll1Title": "녹 방지",
+      "scroll1Desc": "플라스틱 소재의 특성상 부식이 발생하지 않습니다.",
+      "scroll2Title": "바이오필름 억제",
+      "scroll2Desc": "매끄러운 내부 마감으로 세균 번식을 막습니다.",
+      "scroll3Title": "미네랄 침전 방지",
+      "scroll3Desc": "석회질 등이 파이프 벽에 붙는 것을 방지합니다.",
+      "scroll4Title": "무미 무취",
+      "scroll4Desc": "물의 본연의 맛을 그대로 보존합니다.",
+      "section3Eyebrow": "위생 인증",
+      "section3Title": "안전한 재료 구성",
+      "bento1Title": "BPA 프리",
+      "bento1Desc": "독성 화합물이 전혀 없습니다.",
+      "bento2Title": "중금속 불검출",
+      "bento2Desc": "납 등의 중금속 용출이 없습니다.",
+      "bento3Title": "강력한 차단성",
+      "bento3Desc": "외부 오염물의 침투를 100% 차단합니다.",
+      "timelineEyebrow": "프로젝트 여정",
+      "timelineLead": "식수 시스템 설치의 전체 프로세스",
+      "timeline1Year": "01",
+      "timeline1Title": "설계 및 플래닝",
+      "timeline1Desc": "시스템 수리학적 설계 및 파이프 크기 산정.",
+      "timeline2Year": "02",
+      "timeline2Title": "자재 공급",
+      "timeline2Desc": "엄격한 품질 관리 하에 배송.",
+      "timeline3Year": "03",
+      "timeline3Title": "신속한 용접",
+      "timeline3Desc": "완벽한 열 융착으로 누수 제로 달성.",
+      "timeline4Year": "04",
+      "timeline4Title": "시운전",
+      "timeline4Desc": "수압 테스트 및 시스템 안정화.",
+      "timeline5Year": "05",
+      "timeline5Title": "장기 유지보수",
+      "timeline5Desc": "수십 년간 유지 관리가 불필요한 내구성.",
+      "stat1Unit": "%",
+      "stat2Unit": "ppm",
+      "stat4Unit": "등급",
+      "ctaTitle": "위생 배관 프로젝트 문의",
+      "ctaDesc": "당사의 전문가 팀이 귀하의 식수 인프라 설계를 도와드립니다.",
+      "ctaBtn": "전문가 상담"
+    }
   },
-  "partner": {
-    "eyebrow": "Partnerschaft",
-    "title1": "Zwei Marken.",
-    "titleGrad": "Eine Haltung.",
-    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft zwischen K-Aqua und KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung für PP-R Rohrsysteme.",
-    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
-    "rings": [
-      {
-        "l": "Kernmarke",
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
-      },
-      {
-        "l": "System",
-        "t": "K Aqua: führend in der Wasserversorgung",
-        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
-      },
-      {
-        "l": "Service",
-        "t": "Gemeinsames Ökosystem",
-        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge, perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
-      }
-    ],
-    "whyEyebrow": "Warum PP-R/PPRCT",
-    "whyTitle": "Das Rückgrat des Produktversprechens.",
-    "cards": [
-      {
-        "t": "Absolute Korrosionsfreiheit",
-        "d": "Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie bei Kupfer oder verzinktem Stahl."
-      },
-      {
-        "t": "Thermische Effizienz",
-        "d": "Minimaler Wärmeverlust in der Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte."
-      },
-      {
-        "t": "Hygienische Neutralität",
-        "d": "Geschmacks- und geruchsneutral; die extrem glatte Innenoberfläche verhindert Biofilm und Inkrustation."
-      }
-    ]
+  "seoArticle": {
+    "transitionFittings": {
+      "seoTitle": "금속에서 플라스틱으로: 안전한 배관 전환",
+      "seoText": "K-Aqua 전환 피팅은 구리나 강철과 같은 금속 파이프에서 PP-R 시스템으로 누수 없이 안전하게 연결하는 핵심 부품입니다.",
+      "advTitle": "전환 피팅의 장점",
+      "advList": [
+        "100% 누수 방지 황동 인서트",
+        "부식에 강한 폴리머 코팅",
+        "간편하고 빠른 열 융착 용접"
+      ],
+      "guideText": "다양한 크기와 나사산 표준(NPT, BSP 등)에 맞는 피팅을 선택하여 시스템의 무결성을 유지하십시오."
+    },
+    "valves": {
+      "guideText": "스톱콕 밸브, 체크 밸브 등 다양한 K-Aqua 폴리머 밸브 라인업을 통해 흐름을 정밀하게 제어하십시오."
+    },
+    "fittings": {
+      "seoTitle": "PP-R 피팅: 시스템의 척추",
+      "seoText": "파이프 시스템의 안정성은 피팅의 품질에 달려 있습니다. K-Aqua의 PP-R 피팅은 완벽한 호환성을 제공합니다.",
+      "guideText": "정확한 융착 온도와 시간을 준수하여 파이프와 피팅이 하나로 결합되도록 하십시오."
+    },
+    "weldInSaddles": {
+      "seoTitle": "비용 효율적인 분기점 생성: 용접 안장",
+      "seoText": "전체 라인을 자를 필요 없이 주 배관에서 가지관을 생성하는 가장 혁신적인 솔루션입니다.",
+      "guideText": "정확한 타공 및 가열 도구를 사용하여 주 배관에 완벽하게 밀착되도록 융착하십시오."
+    },
+    "tools": {
+      "title": "용접 도구 (Tools)",
+      "content": "K-Aqua PP-R 시스템 전용 가열기, 절단기 및 전기 융착 기계입니다.",
+      "seoTitle": "전문가를 위한 PP-R 용접 도구",
+      "seoText": "완벽한 설치를 위해 정밀하게 보정된 고품질 용접 및 절단 도구 라인업.",
+      "guideText": "정기적인 도구 점검 및 온도 캘리브레이션을 통해 최상의 용접 품질을 유지하십시오."
+    },
+    "accessories": {
+      "title": "액세서리 (Accessories)",
+      "content": "파이프 클램프, 고정 브래킷 및 시스템 마감용 구성 요소입니다.",
+      "seoTitle": "안정적인 고정을 위한 액세서리",
+      "seoText": "진동과 열 팽창을 효과적으로 제어하는 K-Aqua 파이프 지지 시스템.",
+      "guideText": "파이프의 크기와 유체의 온도에 따라 적절한 간격으로 지지대를 설치하십시오."
+    }
   },
-  "academy": {
-    "schulungen": {
-      "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
-      },
-      "hero": {
-        "eyebrow": "GERMAN ENGINEERING ACADEMY",
-        "title1": "Prüfung der",
-        "title2": "Industriellen Elite.",
-        "desc": "Das K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist die Initiation in die kompromisslose Welt des deutschen Rohrleitungsbaus. Für Ingenieure und Techniker, die Megaprojekte verantworten, in denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren in Mikrometern, wir denken in Jahrzehnten.",
-        "cta1": "Akademie-Bewerbung starten",
-        "cta2": "Curriculum einsehen"
-      },
-      "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
-        "title3": "Zufall.",
-        "p1": "Sie ist das Resultat unerbittlicher Methodik und eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch die Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum für Näherungswerte oder Interpretationen.",
-        "p2": "Das K Aqua Schulungsprogramm wurde entwickelt, um die Lücke zwischen theoretischem Wissen und fehlerfreier, maschineller Perfektion zu schließen. Wer in unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker. Er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
-      },
-      "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
-        "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
-        "items": [
-          {
-            "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits von Verklebungen oder instabilen mechanischen Dichtungen. Wir trainieren die exakte Kalibrierung von Temperatur, Druck und Zeit, um Rohre und Fittings auf molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
-          },
-          {
-            "title": "Destruktive Analytik",
-            "desc": "Um die Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module in unseren Hochdruck-Prüfständen mit Berstdrücken weit jenseits der 100 Bar. Wir analysieren das Versagen, um es in der Praxis auszuschließen."
-          },
-          {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation von Temperaturschwankungen in Großprojekten durch präzise berechnete Dehnungsbögen und Festpunkt-Systeme."
-          },
-          {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse der Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien. Die Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung und radikalen pH-Verschiebungen."
-          }
-        ]
-      },
-      "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
-      },
-      "curriculum": {
-        "eyebrow": "DAS CURRICULUM",
-        "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen in der Ausführung zu identifizieren und systemisch zu vernichten."
-      },
-      "sticky": {
-        "items": [
-          {
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "Die Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte und Druckschlag-Szenarien in berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. Für Rohrnetze, die in völliger, geräuschloser Perfektion operieren."
-          },
-          {
-            "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "Der Entwurf von Rohrleitungssystemen als algorithmische Disziplin. Die Schulung beinhaltet den Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung und zur Optimierung der Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
-          },
-          {
-            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention auf strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht und Wassertemperatur-Schichtungen in komplexen Ringleitungs-Systemen kontrolliert. Das System diktiert die Reinheit, wir überlassen nichts dem Zufall."
-          },
-          {
-            "title": "Modul Delta: Das finale K Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z. B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K Aqua Zertifikat."
-          }
-        ]
-      },
-      "timeline": {
-        "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Die Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad bis zum Ende geht, erhält die Autorisation für unsere Hochleistungs-Systeme.",
-        "items": [
-          {
-            "year": "PHASE 01",
-            "title": "Materialphysik & Onboarding",
-            "text": "Das Begreifen der physikalischen Limits. Eine tiefgreifende Einführung in die molekularen PP-R/PPRCT Werkstoff-Spezifikationen. Hier wird das Fundament der industriellen Härte gegossen."
-          },
-          {
-            "year": "PHASE 02",
-            "title": "Laboratorium & Belastungstests",
-            "text": "Hands-on Zerstörung. Das Erleben der Berstgrenze im Prüfstand und das Studium mikroskopischer Rissbildungen. Nur wer die Schwäche kennt, kann die absolute Stärke konstruieren."
-          },
-          {
-            "year": "PHASE 03",
-            "title": "Fusions-Doktrin",
-            "text": "Das perfekte Schweißprotokoll. Mechanisches Training der thermodynamischen Bewegungsabläufe bis zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
-          },
-          {
-            "year": "PHASE 04",
-            "title": "System-Architektur",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten und Strömungsteiler mit eiserner Logik."
-          },
-          {
-            "year": "PHASE 05",
-            "title": "Die Meisterprüfung",
-            "text": "Ein 48-stündiges Audit unter der gnadenlosen Aufsicht der deutschen Chef-Ingenieure. Keine Toleranz für Fehlkalkulationen. Ein Fehler bedeutet den sofortigen Ausschluss."
-          }
-        ]
-      },
-      "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "Die globale Benchmark für Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein in Titan gegossenes Versprechen an Bauherren und Investoren weltweit. Wo das K Aqua Zertifikat vorliegt, wurde die Installation nach den strengsten deutschen Ingenieurs-Standards durchgeführt.",
-        "items": [
-          {
-            "title": "Internationale Gültigkeit",
-            "text": "Anerkannt von den weltweit führenden Bau- und Aufsichtsbehörden."
-          },
-          {
-            "title": "Audit-Transparenz",
-            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
-          },
-          {
-            "title": "Lebenslange Autorität",
-            "text": "Einmal erworben, zeichnet es den Engineer als Teil einer elitären Kaste aus."
-          }
-        ]
-      },
-      "cta": {
-        "title1": "Bereit für die",
-        "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil oder fordern Sie die Spezifikationen für firmeninterne Audits an.",
-        "button": "Bewerbung initiieren"
-      }
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "본사 연락처",
+      "head": "전문가와 직접 통화하십시오.",
+      "short": "신속한 응대",
+      "text": "간단한 주제를 선택하시면 해당 부서의 전문가가 직접 연락드립니다.",
+      "interest": "상담 요청",
+      "done": "메시지가 성공적으로 전송되었습니다."
     },
-    "zertifizierung": {
-      "meta": {
-        "title": "Zertifikate & Normen | K Aqua",
-        "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
-      },
-      "hero": {
-        "eyebrow": "German Engineering Standards",
-        "title1": "Zertifikate.",
-        "title2": "Engineered in Germany.",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
-      },
-      "manifesto": {
-        "title1": "Ein Zertifikat ist nur Papier.",
-        "title2": "Der Prozess dahinter ist aus Stahl.",
-        "p1": "Viele Hersteller sehen Normen als das ultimative Ziel. Wir sehen sie als die absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als das, was DVGW, ISO oder SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es auf Molekularebene analysiert, mit extremen Drücken gefoltert und thermisch ans absolute Limit getrieben."
-      },
-      "bento": {
-        "eyebrow": "Die Säulen der Sicherheit",
-        "title": "Die DNA eines perfekten Rohrsystems.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
-        "items": [
-          {
-            "title": "Extreme Druckbeständigkeit",
-            "desc": "geprüft für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
-          },
-          {
-            "title": "Thermische Souveränität",
-            "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung, auch bei extremen thermischen Schocks."
-          },
-          {
-            "title": "Absolute Hygiene",
-            "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
-          },
-          {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
-          },
-          {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
-          }
-        ]
-      },
-      "certifications": {
-        "eyebrow": "Die Instanzen",
-        "title": "Die härtesten Prüfer der Welt.",
-        "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
-        "items": [
-          {
-            "title": "DVGW: Die höchste Instanz",
-            "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
-            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
-          },
-          {
-            "title": "SKZ: Unabhängige Überwachung",
-            "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
-            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
-          },
-          {
-            "title": "KTW-BWGL: Absolute Reinheit",
-            "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
-            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
-          },
-          {
-            "title": "ISO 9001 & 14001: Systematische Exzellenz",
-            "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement von der Rohstoffannahme bis zur weltweiten Warenauslieferung.",
-            "p2": "Mit ISO 14001 beweisen wir, dass industrielle Höchstleistung und ökologische Verantwortung Hand in Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung und die 100%ige Recyclingfähigkeit unserer PP-Produkte."
-          }
-        ]
-      },
-      "lab": {
-        "eyebrow": "Inside the Lab",
-        "title1": "Die Anatomie",
-        "title2": "der Perfektion.",
-        "desc": "Bevor ein K Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
-        "items": [
-          {
-            "title": "MFR (Melt Flow Rate)",
-            "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
-          },
-          {
-            "title": "OIT (Oxidation Induction Time)",
-            "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
-          },
-          {
-            "title": "Zeitstand-Innendruckversuch",
-            "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert, für tausende von Stunden. Ohne Riss. Ohne Bruch."
-          }
-        ]
-      },
-      "timeline": {
-        "title": "Jahrzehnte der Innovation.",
-        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
-        "items": [
-          {
-            "year": "1990",
-            "title": "Die Geburtsstunde der Norm",
-            "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
-          },
-          {
-            "year": "1995",
-            "title": "ISO 9001 Integration",
-            "text": "Die vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
-          },
-          {
-            "year": "2005",
-            "title": "DVGW & SKZ Prüfung",
-            "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-geprüften Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
-          },
-          {
-            "year": "2015",
-            "title": "Globale Normen (WRAS, KTW)",
-            "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard für internationale Megaprojekte."
-          },
-          {
-            "year": "2024",
-            "title": "Next-Gen Quality Analytics",
-            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null Fehler-Quote."
-          }
-        ]
-      },
-      "cta": {
-        "title": "Qualität, der Sie blind vertrauen können.",
-        "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.",
-        "button1": "Zertifikate herunterladen",
-        "button2": "Technischen Support kontaktieren"
-      }
+    "unternehmen": {
+      "kicker": "기업 정보",
+      "head": "글로벌 사업부 문의",
+      "short": "기업 파트너십",
+      "text": "당사의 비즈니스 방향이나 기업에 대한 구체적인 문의를 남겨주세요.",
+      "interest": "제휴",
+      "done": "담당자가 확인 후 연락드리겠습니다."
     },
-    "glossar": {
-      "meta": {
-        "title": "Technisches Glossar | K Aqua",
-        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Fachbegriffe der PP-R Rohrtechnik."
-      },
-      "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie der",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Willkommen im lexikalischen Kern der Rohrleitungstechnik. Hier decodieren wir die Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft und industrielle Autorität.",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
-      },
-      "manifesto": {
-        "eyebrow": "Die Doktrin",
-        "title": "Die Architektur der Unfehlbarkeit.",
-        "lead": "Ein Rohrleitungssystem ist das kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet den infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht von Rohren, sondern von lebenswichtigen Industrie-Arterien. Jeder Begriff in diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
-      },
-      "scroll": {
-        "eyebrow": "Kinematik & Materialwissenschaft",
-        "title": "Der K Aqua Prozess.",
-        "lead": "Von der molekularen Granulat-Ebene bis zur finalen Druckprüfung. Verstehen Sie die physikalischen Prinzipien, die unsere Systeme unzerstörbar machen.",
-        "items": [
-          {
-            "title": "Extrusionsdynamik unter Hochdruck",
-            "desc": "Die thermoplastische Verformung in unseren Werken unterliegt einer präzisen Temperaturkontrolle auf 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur, die mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- und Temperaturschwankungen absolut ausschließt. Wenn das Material unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
-          },
-          {
-            "title": "Hydrostatische Belastungstests",
-            "desc": "In unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt, die reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke, die jenseits jeder normativen Forderung liegen (bis zu 100 bar, abhängig von der SDR-Klasse). Dies sichert die Integrität der Schweißnähte und die molekular Elastizität des PP-R Materials über eine prognostizierte Lebensdauer von mehr als 50 Jahren in kritischen Infrastrukturen."
-          },
-          {
-            "title": "Polyfusions-Schweißtechnik",
-            "desc": "Verbindungen sind in herkömmlichen Systemen die Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. Auf molekularer Ebene verschmelzen Rohr und Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde, die korrodieren, keine Dichtungen, die versagen können. Das Resultat ist ein Rohrleitungssystem, das sich verhält, als wäre es aus einem einzigen Stück gegossen."
-          },
-          {
-            "title": "Kavitationsresistenz & Strömungsmechanik",
-            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Rohre den Strömungswiderstand gegen Null. Dies verhindert die Bildung von Biofilmen und eliminiert mikro-kavitative Effekte bei Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was die Energieeffizienz der angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
-          }
-        ]
-      },
-      "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "Die wichtigsten Vokabeln der industriellen Rohrleitungstechnik, destilliert auf ihre Essenz.",
-        "items": [
-          {
-            "title": "PP-R (Polypropylen Random Copolymer)",
-            "desc": "Die molekulare Basis. Ein hochkristallines thermoplastisches Polymer, das außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen und Drücke bietet. Es ist die DNA unserer Langlebigkeit."
-          },
-          {
-            "title": "Lineare thermische Ausdehnung",
-            "desc": "Die Längenänderung des Materials bei Temperaturwechsel. Unsere faserverstärkten (Faser) Rohre reduzieren diesen Wert auf ein absolutes Minimum (α = 0,035 mm/mK), was die strukturelle Stabilität in Schächten enorm erhöht."
-          },
-          {
-            "title": "Zeitstandfestigkeit",
-            "desc": "Die Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck bei spezifischen Temperaturen standzuhalten, ohne zu deformieren oder zu bersten. K Aqua Rohre werden auf 50+ Jahre kalibriert."
-          },
-          {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Ein mathematischer Wert, der den Energieverlust der Strömung durch Reibung an der Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert in K Aqua Systemen marginalisiert."
-          },
-          {
-            "title": "SDR (Standard Dimension Ratio)",
-            "desc": "Das Verhältnis zwischen dem Außendurchmesser (d) und der Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr. Die korrekte Wahl ist entscheidend für das System-Design.",
-            "label": "50+ YRS"
-          }
-        ]
-      },
-      "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Normen sind für uns keine Vorschriften, sondern der Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie der Zertifizierungen und Standards, die unsere Systeme nicht nur erfüllen, sondern dominieren.",
-        "items": [
-          {
-            "year": "DIN 8077/8078",
-            "title": "Normative Basis",
-            "text": "Die Grundlage der deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind bis zu 30 % strenger als von der DIN gefordert."
-          },
-          {
-            "year": "ISO 15874",
-            "title": "Globale Prüfung",
-            "text": "Das internationale Gütesiegel für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
-          },
-          {
-            "year": "SDR 6 - SDR 11",
-            "title": "Standard Dimension Ratios",
-            "text": "Ein präzises Verhältnis von Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz bei optimaler Durchflussmenge zu garantieren."
-          },
-          {
-            "year": "SKZ & DVGW",
-            "title": "Hygiene & Materialprüfung",
-            "text": "Zertifikate, die die absolute Lebensmittel- und Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik für höchste hygienische Ansprüche."
-          }
-        ]
-      },
-      "conclusion": {
-        "title": "Zersetzungsresistenz im Extremfall.",
-        "p1": "In industriellen Applikationen entscheidet nicht der Normalbetrieb über die Qualität eines Rohrleitungssystems, sondern die Stabilität in den Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge und thermische Schocks sind die natürlichen Feinde herkömmlicher Installationen.",
-        "p2": "Die <span class=\"font-semibold\">K Aqua Matrix</span> isoliert das fluide Medium durch eine inerte Sperrschicht von der Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren von dem Moment an, in dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
-        "p3": "Der Begriff der <span class=\"font-semibold\">Spannungsrissbeständigkeit</span> (Environmental Stress Cracking Resistance, ESCR) ist in der Polymerchemie von zentraler Bedeutung. Wir modifizieren das Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen. Das Resultat ist ein System, das Erschütterungen, Vibrationen und Setzungen des Baukörpers absorbiert.",
-        "p4": "Wer die Terminologie der Rohrleitungstechnik verstanden hat, versteht auch, warum Kompromisse hier den Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern die Summe präziser, physikalischer Parameter, die wir in jedem einzelnen Zentimeter unserer Produktion manifestieren."
-      },
-      "cta": {
-        "title1": "Die Theorie beendet.",
-        "title2": "Die Praxis beginnt.",
-        "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
-        "button": "Engineering Briefing starten"
-      }
+    "produkte_fittings": {
+      "kicker": "피팅 기술",
+      "head": "피팅 사양 문의",
+      "short": "연결 부품",
+      "text": "특정 치수나 어플리케이션에 맞는 피팅 정보가 필요하신가요?",
+      "interest": "피팅 상담",
+      "done": "기술팀에서 답변을 준비 중입니다."
     },
-    "eyebrow": "K-Aqua Academy",
-    "title1": "Wissen, das",
-    "titleGrad": "verbindet.",
-    "lead": "Vier PP-R Schweißtechniken im Video und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das in der K-Aqua Academy verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
-    "videos": [
-      {
-        "t": "Muffenschweißen von Hand",
-        "s": "bis d63: Handschweißgerät"
-      },
-      {
-        "t": "Muffenschweißen mit Maschine",
-        "s": "mittlere Dimensionen"
-      },
-      {
-        "t": "Elektroschweißen",
-        "s": "Heizwendelfittings"
-      },
-      {
-        "t": "Stumpfschweißen",
-        "s": "Großdimensionen bis d630"
-      }
-    ],
-    "quizEyebrow": "Schweißmeister-Quiz",
-    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
-    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-    "start": "Quiz starten",
-    "qLabel": "Frage",
-    "quiz": [
-      {
-        "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
-        "o": [
-          "Muffenschweißen von Hand",
-          "Stumpfschweißen (Butt Fusion)",
-          "Kleben"
-        ]
-      },
-      {
-        "q": "Wofür steht SDR bei Rohrsystemen?",
-        "o": [
-          "Standard Dimension Ratio (d/s)",
-          "Static Density Rating",
-          "Sicherheits-Druck-Reserve"
-        ]
-      },
-      {
-        "q": "Was unterscheidet PPRCT von klassischem PP-R?",
-        "o": [
-          "Niedrigerer Preis",
-          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
-          "Metallische Verstärkung"
-        ]
-      },
-      {
-        "q": "Welchen Recycling Code trägt Polypropylen?",
-        "o": [
-          "Code 3",
-          "Code 5",
-          "Code 7"
-        ]
-      },
-      {
-        "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
-        "o": [
-          "aus einem Heizelement-Spiegel",
-          "aus eingebetteten Heizwendeln im Fitting",
-          "aus Heißluft"
-        ]
-      }
-    ],
-    "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
-    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
-    "resLow": "Die Videos oben helfen. Danach klappt der Meister.",
-    "retry": "Nochmal versuchen",
-    "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle"
-  },
-  "refs": {
-    "eyebrow": "Referenzen",
-    "title1": "Ein Globus voller",
-    "titleGrad": "Projekte.",
-    "lead": "Drehen Sie den Globus, tippen Sie auf einen Marker: Jede Markierung steht für bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter für echte Referenzen.)",
-    "canvasAria": "Interaktiver Globus mit Referenzprojekten, ziehen zum Drehen",
-    "note": "Echte Projektnamen, Fotos und Kennzahlen sollten redaktionell ergänzt werden. Die Bühne dafür steht.",
-    "projects": [
-      {
-        "id": "waldsolms",
-        "lat": 50.4,
-        "lon": 8.5,
-        "title": "Waldsolms, Deutschland",
-        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, VAE",
-        "d": "Hochhaus-Steigleitungen: PPRCT für Heißwasser unter Wüstenbedingungen."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warschau, Polen",
-        "d": "Wohnquartier-Neubau: komplette Trinkwasserinstallation d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Türkei",
-        "d": "Hotelkomplex: Zirkulationsleitungen mit Faserverbundrohr."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infrastrukturprojekt: Großdimensionen bis d630 im Stumpfschweißverfahren."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kapstadt, Südafrika",
-        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
-      }
-    ]
-  },
-  "buyers": {
-    "eyebrow": "Für Planer, Einkauf & Verarbeiter",
-    "title1": "Sie planen, kalkulieren oder verlegen.",
-    "titleGrad": "Wir liefern die Grundlage.",
-    "lead": "Jede Rolle findet bei K Aqua genau die Information, die sie für die nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
-    "personas": [
-      {
-        "t": "Planer & Fachingenieure",
-        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
-        "cta": "Zu den technischen Daten",
-        "goto": "products"
-      },
-      {
-        "t": "Einkauf & Beschaffung",
-        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
-        "cta": "Projektanfrage starten",
-        "goto": "rfq"
-      },
-      {
-        "t": "Installateure & Verarbeiter",
-        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
-        "cta": "Zur Academy",
-        "goto": "academy"
-      }
-    ],
-    "whyEyebrow": "Warum K Aqua",
-    "whyTitle": "Sechs Gründe, die in der Kalkulation ankommen.",
-    "why": [
-      {
-        "t": "Druckfest & heißwasserfest",
-        "d": "PPRCT mit modifizierter Kristallstruktur: mehr Temperatur- und Druckreserve über Jahrzehnte."
-      },
-      {
-        "t": "Korrosionsfrei",
-        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
-      },
-      {
-        "t": "Recycelbar & CO₂-arm",
-        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl: belegbar im CO₂-Rechner."
-      },
-      {
-        "t": "Ein Ansprechpartner",
-        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
-      }
-    ],
-    "promise": [
-      "Werksdirekt",
-      "Antwort < 24 h",
-      "Unverbindlich"
-    ],
-    "ctaAll": "Projektanfrage in 2 Minuten"
-  },
-  "rfq": {
-    "eyebrow": "Projektanfrage",
-    "title1": "Ihr Projekt,",
-    "titleGrad": "unser Angebot.",
-    "lead": "In vier kurzen Schritten zur unverbindlichen Anfrage. Sie erhalten innerhalb eines Werktags eine persönliche Rückmeldung vom Vertrieb.",
-    "steps": [
-      "Projektart",
-      "Bedarf",
-      "Termin & Region",
-      "Kontakt"
-    ],
-    "types": [
-      {
-        "t": "Neubau / Hochbau",
-        "d": "Trinkwasserinstallation in Wohn- oder Gewerbebau."
-      },
-      {
-        "t": "Infrastruktur / Tiefbau",
-        "d": "Versorgungsleitungen, Großdimensionen, Netze."
-      },
-      {
-        "t": "Sanierung / Austausch",
-        "d": "Ersatz von Bestandsleitungen aus Metall oder PVC."
-      },
-      {
-        "t": "Handel / Wiederverkauf",
-        "d": "Distribution, Lager oder Projektgeschäft."
-      }
-    ],
-    "fType": "Projektart",
-    "fDims": "Benötigte Dimensionen",
-    "fMeters": "Geschätzte Lauflänge",
-    "dimsHint": "Grobe Angaben genügen, wir konkretisieren gemeinsam. Mehrfachauswahl möglich.",
-    "fTime": "Geplanter Zeitrahmen",
-    "fRegion": "Lieferregion",
-    "timelines": [
-      "Sofort / laufend",
-      "In 1–3 Monaten",
-      "In 3–6 Monaten",
-      "Planungsphase"
-    ],
-    "regions": [
-      "Deutschland",
-      "DACH",
-      "Europa",
-      "Naher & Mittlerer Osten",
-      "Weltweit"
-    ],
-    "fName": "Name",
-    "fCompany": "Unternehmen",
-    "fEmail": "E-Mail",
-    "fPhone": "Telefon",
-    "fMsg": "Nachricht (optional)",
-    "privacy": "Mit dem Absenden öffnen Sie eine vorausgefüllte E-Mail an info@k-aqua.de. Es werden keine Daten auf dieser Seite gespeichert.",
-    "back": "Zurück",
-    "next": "Weiter",
-    "send": "Anfrage senden",
-    "mailSubject": "Projektanfrage K Aqua",
-    "promise": [
-      "Antwort < 24 h",
-      "Unverbindlich",
-      "Direkt vom Hersteller"
-    ],
-    "doneTitle": "Fast geschafft.",
-    "doneText": "Ihr E-Mail-Programm hat sich mit der vorausgefüllten Anfrage geöffnet. Senden Sie sie ab. Wir melden uns innerhalb eines Werktags. Lieber direkt sprechen?",
-    "doneBack": "Zurück zur Startseite",
-    "infoTitle": "Über die Projektanfrage",
-    "infoText1": "Nutzen Sie unser Anfrage-Tool, um Ihr Bauvorhaben oder Industrieprojekt frühzeitig mit unseren Experten abzustimmen. Egal ob Sie in der Planungsphase stecken oder bereits konkrete Materiallisten vorliegen haben, wir unterstützen Sie bei der Dimensionierung und Materialauswahl.",
-    "infoText2": "Durch die enge Zusammenarbeit mit dem K Aqua Vertrieb erhalten Sie nicht nur präzise Angebote, sondern auch wertvolle technische Beratung hinsichtlich Druckstufen (SDR-Klassen), Verlegeverfahren und systemkonformem Zubehör. Senden Sie uns Ihre Rahmendaten, und wir melden uns innerhalb eines Werktags bei Ihnen zurück.",
-    "faqTitle": "Häufig gestellte Fragen zur Anfrage",
-    "faqs": [
-      {
-        "q": "Ist die Projektanfrage kostenpflichtig?",
-        "a": "Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich."
-      },
-      {
-        "q": "Was passiert nach dem Absenden der Anfrage?",
-        "a": "Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten."
-      },
-      {
-        "q": "Kann ich auch als Privatperson anfragen?",
-        "a": "K Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter."
-      },
-      {
-        "q": "Wie sicher sind meine Daten?",
-        "a": "Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien."
-      }
-    ]
-  },
-  "geoContent": {
-    "frankfurt": {
-      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
-      "water": "Hartes Wasser (14–20 °dH): korrosionsfreies PP-R/PPRCT verhindert Kalk-Inkrustation an rauen Metalloberflächen.",
-      "focus": [
-        "Hochhaus-Steigleitungen (Bankenviertel)",
-        "Hotel- & Bürosanierung",
-        "Rechenzentrums-Kühlwasser"
-      ],
-      "note": "Im Rhein-Main-Gebiet liefert K Aqua ab Werk Waldsolms, oft am selben Tag.",
-      "focusHeading": "Typische Projekte in Frankfurt am Main"
+    "produkte_rohre": {
+      "kicker": "파이프 기술",
+      "head": "SDR 및 파이프 문의",
+      "short": "파이프 사양",
+      "text": "압력 등급, 소재 특성에 대한 세부 데이터시트를 요청하십시오.",
+      "interest": "파이프 상담",
+      "done": "자료와 함께 곧 연락드리겠습니다."
     },
-    "berlin": {
-      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
-      "water": "Mittelhartes Wasser aus Uferfiltrat: hygienische Neutralität des PP verhindert Biofilmbildung in weitläufigen Netzen.",
-      "focus": [
-        "Wohnquartier-Neubau",
-        "Schul- & Verwaltungsbau",
-        "Bestandssanierung Altbau"
-      ],
-      "note": "Großprojekte in der Hauptstadtregion werden über Speditionspartner in 24 h beliefert.",
-      "focusHeading": "Typische Projekte in Berlin"
+    "produkte_armaturen": {
+      "kicker": "밸브 및 흐름 제어",
+      "head": "밸브 사양 문의",
+      "short": "밸브 부품",
+      "text": "다양한 폴리머 밸브의 작동 압력 및 호환성에 대해 물어보세요.",
+      "interest": "밸브 상담",
+      "done": "밸브 담당자가 연락드릴 예정입니다."
     },
-    "muenchen": {
-      "regulator": "DVGW / TrinkwV, SWM",
-      "water": "Weiches Alpenwasser mit niedrigem pH-Spielraum: PP ist beständig, wo Kupfer auf erhöhte Löslichkeit trifft.",
-      "focus": [
-        "Premium-Wohnbau",
-        "Klinik- & Laborbau",
-        "Brauerei- & Prozesswasser"
-      ],
-      "note": "Süddeutschland-Logistik über Nachtsprung; Schweißtechnik-Schulung vor Ort buchbar.",
-      "focusHeading": "Typische Projekte in München"
+    "produkte_werkzeuge": {
+      "kicker": "용접 기계",
+      "head": "공구 및 장비 문의",
+      "short": "설치 도구",
+      "text": "최신 용접기 및 절단 도구의 구매나 사용법을 안내해 드립니다.",
+      "interest": "장비 상담",
+      "done": "장비 지원팀에서 도움을 드릴 것입니다."
     },
-    "hamburg": {
-      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
-      "water": "Weiches bis mittelhartes Grundwasser: geschmacksneutrale PP-Systeme erhalten die hohe Rohwasserqualität.",
-      "focus": [
-        "HafenCity-Neubau",
-        "Hotellerie",
-        "Maritime Versorgungstechnik"
-      ],
-      "note": "Norddeutschland ab Lager; Großdimensionen d250+ projektbezogen direkt ab Extrusion.",
-      "focusHeading": "Typische Projekte in Hamburg"
+    "produkte_uebergaenge": {
+      "kicker": "전환 기술",
+      "head": "스레드 및 플랜지 전환",
+      "short": "전환 피팅",
+      "text": "금속 배관과 플라스틱 배관의 매끄러운 전환 솔루션.",
+      "interest": "전환 상담",
+      "done": "관련 솔루션을 곧 안내해 드립니다."
     },
-    "wien": {
-      "regulator": "ÖVGW / Trinkwasserverordnung (AT)",
-      "water": "Hochquellwasser mit exzellenter Güte: Werterhalt durch absolut inerte Rohrwerkstoffe.",
-      "focus": [
-        "Gemeindebau-Sanierung",
-        "Hotel- & Gewerbeprojekte",
-        "Fernwärme-Subverteilung"
-      ],
-      "note": "EU-Binnenmarkt: keine Zollformalitäten, Lieferung 48 h.",
-      "focusHeading": "Typische Projekte in Wien"
+    "produkte_zubehoer": {
+      "kicker": "부속품",
+      "head": "액세서리 및 지지대",
+      "short": "클램프 등",
+      "text": "설치에 필요한 추가 부속품 목록을 요청하십시오.",
+      "interest": "부속품 상담",
+      "done": "목록과 함께 안내드리겠습니다."
     },
-    "zuerich": {
-      "regulator": "SVGW / TBDV",
-      "water": "See- und Quellwasser-Mix: Schweizer Hygieneanforderungen verlangen geprüfte Materialneutralität.",
-      "focus": [
-        "Hochpreis-Wohnbau",
-        "Banken- & Bürosanierung",
-        "Spitalbau"
-      ],
-      "note": "Exportabwicklung inkl. Schweizer Konformitätsnachweisen aus einer Hand.",
-      "focusHeading": "Typische Projekte in Zürich"
+    "katalog": {
+      "title": "전체 카탈로그",
+      "desc": "K-Aqua의 전체 제품 및 기술 사양이 포함된 종합 카탈로그.",
+      "kicker": "카탈로그 다운로드",
+      "head": "디지털 카탈로그 요청",
+      "short": "제품 목록",
+      "text": "최신 제품이 업데이트된 전체 카탈로그를 PDF로 받아보세요.",
+      "interest": "카탈로그",
+      "done": "이메일로 카탈로그를 발송해 드립니다."
     },
-    "london": {
-      "regulator": "WRAS: Water Regulations Approval Scheme",
-      "water": "Sehr hartes Wasser (Themse-Becken): PPRCT bleibt frei von Kesselstein-Anhaftung und Querschnittsverengung.",
-      "focus": [
-        "High-Rise Residential",
-        "Heritage-Sanierung",
-        "Distriktweite Heißwassernetze"
-      ],
-      "note": "WRAS-konforme Dokumentation und englischsprachige Datenblätter verfügbar.",
-      "focusHeading": "Typische Projekte in London"
+    "finder": {
+      "kicker": "제품 찾기",
+      "head": "원하는 제품을 찾지 못하셨나요?",
+      "short": "검색 지원",
+      "text": "품목 번호를 남겨주시거나 찾고 계신 제품의 특징을 설명해 주세요.",
+      "interest": "제품 검색",
+      "done": "해당 제품을 찾아 곧 연락드리겠습니다."
     },
-    "paris": {
-      "regulator": "ACS: Attestation de Conformité Sanitaire",
-      "water": "Hartes Seine-Wasser mit Kalkfracht: glatte PP-Innenflächen halten Druckverluste über Jahrzehnte konstant.",
-      "focus": [
-        "Grand-Paris-Wohnquartiere",
-        "Hotel- & Denkmalsanierung",
-        "Olympia-Nachnutzung"
-      ],
-      "note": "ACS-Konformitätsnachweise und französische Verlegerichtlinien im Lieferumfang.",
-      "focusHeading": "Typische Projekte in Paris"
+    "produkte": {
+      "title": "일반 제품 문의",
+      "desc": "위 목록에 없는 제품에 대한 문의.",
+      "kicker": "제품 지원",
+      "head": "모든 제품에 대한 포괄적 지원.",
+      "short": "일반 문의",
+      "text": "어떤 제품이 프로젝트에 가장 적합한지 추천해 드립니다.",
+      "interest": "일반 상담",
+      "done": "영업팀에서 최적의 제품을 제안해 드립니다."
     },
-    "mailand": {
-      "regulator": "DM 174/2004 (Trinkwasserkontakt, IT)",
-      "water": "Grundwasser aus der Po-Ebene mit hoher Härte: inkrustationsfreie Systeme senken Wartungskosten spürbar.",
-      "focus": [
-        "Hochhaus-Cluster Porta Nuova",
-        "Mode- & Retail-Flagships",
-        "Industrie Norditalien"
-      ],
-      "note": "Alpen-Transit-Logistik 48–72 h; italienische Unterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Mailand"
+    "academy": {
+      "title": "아카데미 및 교육",
+      "desc": "인증 과정 및 현장 교육 스케줄 문의.",
+      "kicker": "K-Aqua 아카데미",
+      "head": "팀을 위한 맞춤형 교육 예약",
+      "short": "교육 지원",
+      "text": "교육 과정, 날짜, 현장 방문 교육에 대한 세부 사항을 논의하십시오.",
+      "interest": "아카데미",
+      "done": "아카데미 코디네이터가 연락드릴 것입니다."
     },
-    "warschau": {
-      "regulator": "PZH-Hygienezertifikat (Państwowy Zakład Higieny)",
-      "water": "Weichsel-Uferfiltrat: wachstumsstarker Wohnungsmarkt mit hohem Bedarf an schnell verlegbaren Systemen.",
-      "focus": [
-        "Wohnquartier-Neubau",
-        "Logistik- & Industriehallen",
-        "Modernisierung Plattenbau"
-      ],
-      "note": "EU-Logistik 24–48 h; polnischsprachige Verarbeitungsrichtlinien vorhanden.",
-      "focusHeading": "Typische Projekte in Warschau"
+    "referenzen": {
+      "kicker": "레퍼런스 프로젝트",
+      "head": "유사 프로젝트의 성공 사례",
+      "short": "사례 연구",
+      "text": "귀하의 프로젝트와 유사한 환경에 적용된 레퍼런스를 제공합니다.",
+      "interest": "사례 요청",
+      "done": "관련 레퍼런스 자료를 보내드리겠습니다."
     },
-    "prag": {
-      "regulator": "SZÚ-Hygienezulassung (CZ)",
-      "water": "Moldau-Talsperrenwasser: stabile Qualität, starker Sanierungsmarkt im Gründerzeitbestand.",
-      "focus": [
-        "Altbau-Strangsanierung",
-        "Hotellerie",
-        "Automotive-Zulieferindustrie"
-      ],
-      "note": "Nachbarmarkt ab Werk: Lieferung in 24 h, technische Hotline auf Deutsch und Englisch.",
-      "focusHeading": "Typische Projekte in Prag"
+    "support": {
+      "kicker": "기술 백업",
+      "head": "설계 및 현장 기술 지원",
+      "short": "엔지니어링",
+      "text": "설치 중 발생한 문제나 복잡한 설계에 대한 기술 자문.",
+      "interest": "기술 지원",
+      "done": "전문 엔지니어가 귀하의 문제를 해결해 드립니다."
     },
-    "dubai": {
-      "regulator": "DEWA: Dubai Electricity & Water Authority",
-      "water": "Entsalztes Meerwasser mit hoher Chloridfracht und Dauertemperaturen >30 °C: das Kernszenario für PPRCT-Temperaturreserven.",
-      "focus": [
-        "Super-High-Rise-Türme",
-        "Hotel-Resorts",
-        "District Cooling Make-up"
-      ],
-      "note": "Seefracht-FCL ab Hamburg; Stumpfschweiß-Supervision auf der Baustelle buchbar.",
-      "focusHeading": "Typische Projekte in Dubai"
+    "ausschreibungstexte": {
+      "kicker": "입찰 내역서",
+      "head": "공식 사양서 작성 지원",
+      "short": "문서 지원",
+      "text": "프로젝트 입찰에 필요한 공식 문서 및 사양 텍스트를 제공합니다.",
+      "interest": "입찰 문서",
+      "done": "요청하신 문서를 준비 중입니다."
     },
-    "abudhabi": {
-      "regulator": "DoE Abu Dhabi / Estidama",
-      "water": "Entsalzungswasser mit Nachhärtung: Estidama-Nachhaltigkeitspunkte honorieren recycelbare Rohrwerkstoffe.",
-      "focus": [
-        "Regierungs- & Kulturbauten",
-        "Saadiyat-Resorts",
-        "Industriezonen KIZAD"
-      ],
-      "note": "Pearl-Rating-Dokumentation (Materialtransparenz) liegt dem Angebot bei.",
-      "focusHeading": "Typische Projekte in Abu Dhabi"
+    "service": {
+      "kicker": "고객 서비스",
+      "head": "물류, 배송 및 기타 서비스",
+      "short": "일반 서비스",
+      "text": "제품의 배송 일정이나 A/S에 대한 궁금한 점을 남겨주세요.",
+      "interest": "고객 서비스",
+      "done": "서비스 팀이 답변을 드릴 예정입니다."
     },
-    "doha": {
-      "regulator": "Kahramaa: Qatar General Electricity & Water Corp.",
-      "water": "Zu 99 % entsalztes Wasser, Netztemperaturen bis 40 °C im Sommer: Langzeit-Druckstandfestigkeit ist das zentrale Auswahlkriterium.",
-      "focus": [
-        "Lusail-Stadtentwicklung",
-        "Stadien-Nachnutzung",
-        "Hospitality"
-      ],
-      "note": "QCS-konforme Einreichunterlagen und Drittprüfberichte verfügbar.",
-      "focusHeading": "Typische Projekte in Doha"
+    "maerkte_trinkwasser": {
+      "title": "식수 시장",
+      "desc": "위생과 안전을 요구하는 식수 배관 시스템 논의.",
+      "kicker": "식수 프로젝트",
+      "head": "DVGW 인증 식수 배관 솔루션",
+      "short": "위생 배관",
+      "text": "병원, 호텔 등 엄격한 수질이 요구되는 곳의 솔루션을 상담하세요.",
+      "interest": "식수 시스템",
+      "done": "식수 전문가가 곧 상담을 시작합니다."
     },
-    "riad": {
-      "regulator": "SASO / Saudi Water Authority",
-      "water": "Mix aus Entsalzung (SWCC-Pipelines) und fossilem Grundwasser: extreme Sommerhitze verlangt PPRCT-Reserven.",
-      "focus": [
-        "Vision-2030-Giga-Projekte",
-        "King Salman Park",
-        "Wohnstadt-Erweiterungen"
-      ],
-      "note": "SASO-Prüfung und SABER-Registrierung werden projektbezogen bereitgestellt.",
-      "focusHeading": "Typische Projekte in Riad"
+    "maerkte_klima": {
+      "kicker": "공조 시스템",
+      "head": "냉방 및 난방 시스템 최적화",
+      "short": "공조 배관",
+      "text": "높은 에너지 효율을 자랑하는 시스템의 설계 및 적용 사례 안내.",
+      "interest": "공조 시스템",
+      "done": "공조 시스템 엔지니어가 연락드릴 것입니다."
     },
-    "dschidda": {
-      "regulator": "SASO / SWCC",
-      "water": "Rotmeer-Entsalzung mit hoher Salzfracht im Umfeld: absolute Korrosionsfreiheit ist hier ein KO-Kriterium gegen Metall.",
-      "focus": [
-        "Jeddah Central Project",
-        "Hafen- & Logistikbauten",
-        "Pilger-Hospitality (Makkah-Korridor)"
-      ],
-      "note": "Seefracht direkt nach Jeddah Islamic Port; arabischsprachige Datenblätter in Arbeit.",
-      "focusHeading": "Typische Projekte in Dschidda"
+    "maerkte_industrie": {
+      "title": "산업 시설",
+      "desc": "화학물질 및 고압에 강한 산업용 솔루션.",
+      "kicker": "산업 프로젝트",
+      "head": "극한의 조건을 견디는 배관",
+      "short": "산업용",
+      "text": "특수 화학물질이나 고온/고압 환경에서의 솔루션을 설계해 드립니다.",
+      "interest": "산업 솔루션",
+      "done": "산업용 시스템 전문가가 상담을 도와드립니다."
     },
-    "neom": {
-      "regulator": "NEOM Authority / SASO",
-      "water": "100 % erneuerbar betriebene Entsalzung geplant. Das Projekt fordert vollständig kreislauffähige Materialien: Recycling Code 5 inklusive.",
-      "focus": [
-        "Linearstadt-Infrastruktur",
-        "Oxagon-Industriehafen",
-        "Trojena-Bergresorts"
-      ],
-      "note": "Frühe Planungsphase: K Aqua unterstützt mit EPD-Daten und parametrischen Rohrnetz-Modellen.",
-      "focusHeading": "Typische Projekte in NEOM / The Line"
+    "maerkte_schiffbau": {
+      "title": "선박 및 조선",
+      "desc": "내식성 및 경량화가 필수적인 해양 프로젝트.",
+      "kicker": "해양 및 선박",
+      "head": "해양 인증 획득 시스템",
+      "short": "선박용",
+      "text": "선박 내 협소한 공간과 해수 부식에 대응하는 시스템 상담.",
+      "interest": "해양 솔루션",
+      "done": "조선 분야 담당자가 직접 안내해 드립니다."
     },
-    "kuwait": {
-      "regulator": "MEW: Ministry of Electricity & Water",
-      "water": "Entsalztes Golfwasser, gemischt mit Brackwasser: chloridresistente Kunststoffsysteme sind Standardempfehlung.",
-      "focus": [
-        "Silk-City-Planung",
-        "Wohnstädte (PAHW)",
-        "Öl- & Gas-Begleitinfrastruktur"
-      ],
-      "note": "MEW-Präqualifikation über lokale Partner; Lieferung via Shuwaikh Port.",
-      "focusHeading": "Typische Projekte in Kuwait-Stadt"
+    "maerkte_landwirtschaft": {
+      "title": "농업 및 온실",
+      "desc": "농경지 관개 및 온실 온도 제어 솔루션.",
+      "kicker": "농업 시설",
+      "head": "효율적인 관수 시스템",
+      "short": "농업용",
+      "text": "자외선 저항성 및 긴 수명을 자랑하는 농업용 배관.",
+      "interest": "농업 솔루션",
+      "done": "농업 전문가가 관련 정보를 제공해 드립니다."
     },
-    "maskat": {
-      "regulator": "Nama Water Services (vormals Diam)",
-      "water": "Entsalzung plus Aflaj-Tradition: Oman honoriert langlebige, wartungsarme Systeme in öffentlichen Ausschreibungen.",
-      "focus": [
-        "Hafenstadt Duqm",
-        "Hotel- & Tourismusprojekte",
-        "Moschee- & Kulturbauten"
-      ],
-      "note": "GCC-Logistikkorridor via Jebel Ali; technische Abnahme nach Nama-Protokoll.",
-      "focusHeading": "Typische Projekte in Maskat"
+    "maerkte": {
+      "title": "기타 시장",
+      "desc": "기타 특수 응용 분야 논의.",
+      "kicker": "지역 시장",
+      "head": "해당 지역의 전문가와 상담하십시오.",
+      "short": "물류 및 승인",
+      "text": "수출 목적지를 알려주시면 현지 규범 및 배송 일정을 안내해 드립니다.",
+      "interest": "상담",
+      "done": "해당 지역의 수출 매니저가 연락드릴 예정입니다."
     },
-    "manama": {
-      "regulator": "EWA: Electricity & Water Authority",
-      "water": "Vollständig entsalztes Netz mit hohen Sommertemperaturen: PPRCT hält die Druckreserve, wo PVC altert.",
-      "focus": [
-        "Bahrain Bay",
-        "Bankenviertel-Sanierung",
-        "Inselerschließungen"
-      ],
-      "note": "Kompakter Markt mit kurzen Wegen: Komplettpakete inkl. Schweißtechnik-Verleih.",
-      "focusHeading": "Typische Projekte in Manama"
+    "loesungen_hochhaus": {
+      "title": "고층 건물",
+      "desc": "초고층 빌딩의 압력 안정화 솔루션.",
+      "kicker": "고층 건축",
+      "head": "수직 배관의 수압 제어",
+      "short": "압력 손실",
+      "text": "건물의 층수와 높이를 알려주시면 감압 밸브의 위치를 제안합니다.",
+      "interest": "고층 솔루션",
+      "done": "수리학 전문가가 곧 연락드리겠습니다."
     },
-    "amman": {
-      "regulator": "WAJ: Water Authority of Jordan / Miyahuna",
-      "water": "Eines der wasserärmsten Länder der Welt. Leckagefreie Schweißverbindungen sind aktive Wassersparpolitik (Non-Revenue Water < 2 %).",
-      "focus": [
-        "Disi-Pipeline-Subnetze",
-        "Krankenhaus- & Universitätsbau",
-        "Flüchtlingsstadt-Infrastruktur"
-      ],
-      "note": "Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.",
-      "focusHeading": "Typische Projekte in Amman",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "loesungen_krankenhaus": {
+      "title": "병원 시스템",
+      "desc": "무균 및 완벽한 수질 관리를 위한 솔루션.",
+      "kicker": "병원 및 의료",
+      "head": "레지오넬라균 예방",
+      "short": "병원 위생",
+      "text": "면역력이 약한 환자를 보호하기 위한 열 소독 및 데드존 방지 솔루션.",
+      "interest": "위생 네트워크",
+      "done": "위생 전문가가 즉시 상담해 드립니다."
     },
-    "kairo": {
-      "regulator": "HCWW: Holding Company for Water & Wastewater",
-      "water": "Nilwasser mit saisonaler Trübung: glatte PP-Oberflächen minimieren Ablagerung in der Hausinstallation.",
-      "focus": [
-        "New Administrative Capital",
-        "Wohnstädte (NUCA)",
-        "Hotel-Korridor Rotes Meer"
-      ],
-      "note": "EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Typische Projekte in Kairo",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "loesungen_hotel": {
+      "title": "호텔 리조트",
+      "desc": "소음 방지 및 안정적인 온수 공급.",
+      "kicker": "호텔 건설",
+      "head": "완벽한 방음 설계",
+      "short": "방음 배관",
+      "text": "투숙객의 편안한 휴식을 위해 유체 소음을 최소화하는 시스템 구성.",
+      "interest": "방음 솔루션",
+      "done": "소음 방지 전문가가 연락드릴 것입니다."
     },
-    "istanbul": {
-      "regulator": "İSKİ / TSE-Prüfung",
-      "water": "Talsperrenwasser mit saisonalen Schwankungen: erdbebensicheres, duktiles Rohrverhalten ist Planungskriterium.",
-      "focus": [
-        "Hotelkomplexe",
-        "Hochhaus-Wohnbau",
-        "Krankenhaus-Neubauten"
-      ],
-      "note": "Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
-      "focusHeading": "Typische Projekte in Istanbul",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "loesungen": {
+      "title": "기타 특수 솔루션",
+      "desc": "다양한 맞춤형 솔루션.",
+      "kicker": "특수 솔루션",
+      "head": "복잡한 건설을 위한 맞춤형 시스템",
+      "short": "특수 프로젝트",
+      "text": "표준 시스템으로 부족하다면, 당사의 엔지니어링 부서에서 특수 부품을 설계합니다.",
+      "interest": "특수 솔루션",
+      "done": "엔지니어링 팀에서 귀하의 요청을 검토 중입니다."
     },
-    "singapur": {
-      "regulator": "PUB: Public Utilities Board",
-      "water": "NEWater & entsalztes Wasser, tropische Dauerwärme: höchste Anforderungen an Langzeit-Druckstandfestigkeit.",
-      "focus": [
-        "Public Housing (HDB)",
-        "Marina-Hochhäuser",
-        "Halbleiter-Reinstwasser-Vorstufen"
-      ],
-      "note": "Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Typische Projekte in Singapur",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "co2_rechner": {
+      "title": "CO2 절감기",
+      "desc": "프로젝트의 탄소 발자국 평가.",
+      "kicker": "탄소 절감",
+      "head": "프로젝트의 지속 가능성 검증",
+      "short": "CO2 계산서",
+      "text": "전체 부품 목록을 보내주시면, 금속 배관 대비 탄소 절감 인증서를 발급해 드립니다.",
+      "interest": "친환경 상담",
+      "done": "지속 가능성 담당자가 인증서 준비를 시작합니다."
     },
-    "kualalumpur": {
-      "regulator": "SPAN: National Water Services Commission",
-      "water": "Tropisches Oberflächenwasser, hohe Umgebungsfeuchte: UV- und alterungsbeständige Systeme sind Standard.",
-      "focus": [
-        "TRX-Finanzdistrikt",
-        "Mixed-Use-Türme",
-        "Industriekorridor Johor"
-      ],
-      "note": "SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Typische Projekte in Kuala Lumpur",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "trust_center": {
+      "title": "인증 센터",
+      "desc": "모든 품질 및 안전 인증서 모음.",
+      "kicker": "인증서 요청",
+      "head": "건축 승인에 필요한 인증서",
+      "short": "승인 서류",
+      "text": "현장 검사관이 요구하는 특정 규격(DVGW 등)을 말씀해 주시면 PDF로 전송해 드립니다.",
+      "interest": "문서 요청",
+      "done": "적합한 인증서를 찾아 보내드리겠습니다."
     },
-    "mumbai": {
-      "regulator": "BIS: Bureau of Indian Standards",
-      "water": "Monsun-geprägte Talsperrenversorgung mit Intervallbetrieb: druckstoßfeste Schweißverbindungen zählen doppelt.",
-      "focus": [
-        "High-Rise Redevelopment",
-        "Krankenhaus- & Pharmabau",
-        "Smart-Cities-Programm"
-      ],
-      "note": "BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
-      "focusHeading": "Typische Projekte in Mumbai",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "projektanfrage": {
+      "title": "프로젝트 문의",
+      "desc": "새로운 프로젝트 시작을 위한 첫 걸음.",
+      "kicker": "프로젝트 시작",
+      "head": "기본 정보만으로 예산 견적 확인",
+      "short": "빠른 예산 추정",
+      "text": "대략적인 면적과 용도를 알려주시면 첫 예산안을 신속하게 제시합니다.",
+      "interest": "견적 요청",
+      "done": "프로젝트 팀에서 예산안을 논의 중입니다."
     },
-    "kapstadt": {
-      "regulator": "SABS / SANS-Normenwerk",
-      "water": "Wasserknappheit nach „Day Zero\": leckagefreie Schweißverbindungen sind hier Wassersparpolitik.",
-      "focus": [
-        "Krankenhaus- & Hotelbau",
-        "Township-Infrastruktur",
-        "Weingut-Prozesswasser"
-      ],
-      "note": "Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Typische Projekte in Kapstadt",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "kontakt": {
+      "title": "일반 연락처",
+      "desc": "빠른 소통을 위한 창구.",
+      "kicker": "핫라인",
+      "head": "K-Aqua 본사로의 가장 빠른 길",
+      "short": "직접 통화",
+      "text": "전화번호와 주제를 남기시면 대기 없이 전문가가 바로 연락을 드립니다.",
+      "interest": "빠른 상담",
+      "done": "전문 상담원이 지금 연락을 드립니다."
     },
-    "nairobi": {
-      "regulator": "KEBS: Kenya Bureau of Standards",
-      "water": "Talsperren- und Grundwasser-Mix in schnell wachsender Metropole: robuste, einfach schulbare Verbindungstechnik gefragt.",
-      "focus": [
-        "Affordable-Housing-Programm",
-        "Tatu City",
-        "Kranken- & Bildungsbauten"
-      ],
-      "note": "Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
-      "focusHeading": "Typische Projekte in Nairobi",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+    "news": {
+      "title": "언론 및 뉴스",
+      "desc": "최신 언론 보도 및 뉴스 센터.",
+      "kicker": "미디어 지원",
+      "head": "제품 발표 및 기업 뉴스",
+      "short": "홍보 담당",
+      "text": "고해상도 이미지, 인터뷰 또는 기술적 배경 정보가 필요하시면 연락 주십시오.",
+      "interest": "언론 요청",
+      "done": "홍보팀에서 곧 회신해 드릴 것입니다."
+    },
+    "karriere": {
+      "title": "채용 정보",
+      "desc": "K-Aqua의 새로운 인재를 위한 페이지.",
+      "kicker": "채용 문의",
+      "head": "입사 전 궁금한 점 해결",
+      "short": "HR 문의",
+      "text": "본인의 프로필이 당사와 맞는지, 혹은 직무에 대해 궁금한 점이 있다면 언제든 문의하세요.",
+      "interest": "인사 문의",
+      "done": "인사팀에서 짧은 소개를 위해 연락을 드릴 것입니다."
+    },
+    "partnerschaft": {
+      "title": "파트너 제휴",
+      "desc": "성공을 함께할 새로운 유통 파트너.",
+      "kicker": "유통 파트너",
+      "head": "독일산 프리미엄 배관으로 라인업 확장",
+      "short": "딜러 조건",
+      "text": "안정적인 공급사를 찾는 도매상이라면, 당사와 독점 모델 및 딜러 조건을 논의하십시오.",
+      "interest": "파트너 상담",
+      "done": "영업 책임자가 파트너십 관련하여 연락드리겠습니다."
+    },
+    "impressum": {
+      "title": "법적 고지",
+      "desc": "K-Aqua 기업 정보.",
+      "kicker": "법률 정보",
+      "head": "법적 의무 사항에 대한 문의",
+      "short": "법무팀",
+      "text": "회사 정책 및 법적인 사항에 대해 확인이 필요하시면 문의해 주세요.",
+      "interest": "법률 상담",
+      "done": "관련 문의 사항에 대해 곧 답변 드리겠습니다."
+    },
+    "datenschutz": {
+      "title": "개인정보 보호",
+      "desc": "데이터 처리 방침 안내.",
+      "kicker": "데이터 보안",
+      "head": "개인정보 보호 책임자와의 상담",
+      "short": "정보 요청",
+      "text": "당사의 데이터 수집 및 처리 과정에 대한 상세 정보를 원하시면 연락 주십시오.",
+      "interest": "데이터 보안",
+      "done": "개인정보 보호 책임자가 답변을 드릴 것입니다."
+    },
+    "fallback": {
+      "title": "기타",
+      "desc": "정의되지 않은 기타 모든 문의.",
+      "kicker": "일반 문의",
+      "head": "엔지니어와 직접 상의하세요",
+      "short": "엔지니어 연결",
+      "text": "연락처와 원하시는 주제를 남겨주시면, 나머지는 저희가 직접 전화로 해결해 드립니다.",
+      "interest": "상담",
+      "done": "담당 엔지니어가 근무일 기준 1일 이내에 연락드릴 것입니다."
     }
   }
 }

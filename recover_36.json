@@ -1,0 +1,12 @@
+{
+  "AllowMultiple": "false",
+  "Description": "\"Fix syntax error in sticky items array\"",
+  "EndLine": "1490",
+  "Instruction": "\"Fix syntax error by correctly closing the item in the array\"",
+  "ReplacementContent": "\"    \\\"sticky\\\": {\\n      \\\"eyebrow\\\": \\\"ช่วงผลิตภัณฑ์\\\",\\n      \\\"title\\\": \\\"วิศวกรรมที่ไม่ประนีประนอม\\\",\\n      \\\"lead\\\": \\\"ทุกองค์ประกอบเป็นส่วนหนึ่งของระบบที่สมบูรณ์แบบ ปิดสนิท ตั้งแต่จุดเข้าถึงจุดสิ้นสุด เราควบคุมการไหลของน้ำ สารเคมี และก๊าซด้วยความน่าเชื่อถืออย่างไม่ลดละ\\\",\\n      \\\"items\\\": [\\n        {\\n          \\\"title\\\": \\\"ระบบท่อ PPR: เส้นเลือดที่ไม่มีวันถูกทำลาย\\\",\\n          \\\"desc\\\": \\\"แก้ไขชั่วคราว\\\"\\n        }\\n      ]\\n    },\"",
+  "StartLine": "1481",
+  "TargetContent": "\"    \\\"sticky\\\": {\\n      \\\"eyebrow\\\": \\\"ช่วงผลิตภัณฑ์\\\",\\n      \\\"title\\\": \\\"วิศวกรรมที่ไม่ประนีประนอม\\\",\\n      \\\"lead\\\": \\\"ทุกองค์ประกอบเป็นส่วนหนึ่งของระบบที่สมบูรณ์แบบ ปิดสนิท ตั้งแต่จุดเข้าถึงจุดสิ้นสุด เราควบคุมการไหลของน้ำ สารเคมี และก๊าซด้วยความน่าเชื่อถืออย่างไม่ลดละ\\\",\\n      \\\"items\\\": [\\n        {\\n          \\\"title\\\": \\\"ระบบท่อ PPR: เส้นเลือดที่ไม่มีวันถูกทำลาย\\\",\\n      ]\\n    },\"",
+  "TargetFile": "\"/Users/umurey/Downloads/K-Aqua-V1-main/messages/th.json\"",
+  "toolAction": "\"Editing file\"",
+  "toolSummary": "\"Fix JSON syntax error in sticky\""
+}

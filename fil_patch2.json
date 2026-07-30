@@ -1,0 +1,141 @@
+  },
+  "refsx": {
+    "secEyebrow": "Mga Application Worldwide",
+    "secTitle": "Kung saan ginagamit ang teknolohiya ng K Aqua.",
+    "secLead": "Sa loob ng maraming dekada, napakaraming beses nang napatunayan ng mga produkto ng K Aqua ang kanilang halaga sa buong mundo. Hinuhubog ng mga uri ng gusaling ito ang aming programang pang-reference.",
+    "sectors": [
+      {
+        "t": "Mga Ospital",
+        "d": "Hygienic na distribusyon ng inuming tubig na may biofilm-inhibiting na ibabaw sa loob, gaya sa bagong hospital sa Cape Town."
+      },
+      {
+        "t": "Mga Hotel",
+        "d": "Patuloy na sirkulasyon ng mainit na tubig, thermically efficient: tulad ng sa hotel complex sa Istanbul gamit ang aming fiber-composite pipe."
+      },
+      {
+        "t": "Mga Pang-industriyang Gusali",
+        "d": "Lumalaban sa kemikal at walang corrosion na supply para sa process water, mula commercial buildings hanggang sa mga factory hall."
+      },
+      {
+        "t": "Mga Greenhouse & Imprastraktura",
+        "d": "UV-stabilized na patubig (irrigation) sa mga greenhouse at supply networks hanggang d630, tulad sa isang proyekto ng imprastraktura sa Singapore."
+      }
+    ]
+  },
+  "finderx": {
+    "helpEyebrow": "Gabay sa Pagbasa",
+    "helpTitle": "Paano basahin ang talahanayan (table).",
+    "helpLead": "Limang salita lang ang kailangan para maintindihan ang bawat linya sa hanay ng produkto.",
+    "help": [
+      [
+        "d",
+        "Outer diameter sa millimeters: ang pangunahing sukat para sa bawat dimensyon mula d20 hanggang d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Ang mas mababang SDR ay nangangahulugang mas makapal ang pader (wall) at mas mataas ang nominal na presyon."
+      ],
+      [
+        "Pader (s)",
+        "Wall thickness sa millimeters: kinakalkula mula sa d at SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Inner diameter = d - 2s. Mapagpasya para sa daloy at pressure loss."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Pinahihintulutang continuous operating pressure sa bar sa 20 °C sa kabuuan ng design horizon: SDR 6 = PN 20 hanggang SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Mula Filter hanggang Quote",
+    "flow": [
+      {
+        "t": "Mag-filter & maghanap",
+        "d": "Piliin ang uri, SDR, at maximum na dimensyon o i-type nang direkta ang \"d110\" sa search bar."
+      },
+      {
+        "t": "Suriin & i-export",
+        "d": "I-click ang linya para sa detalye ng wall thickness, di, at nominal pressure. Ang listahan ng mga resulta ay maaaring ilipat via CSV sa iyong kalkulasyon."
+      },
+      {
+        "t": "Ipasa ang katanungan (inquiry)",
+        "d": "Mula sa detalye, maaari ka nang magpadala ng katanungan sa proyekto: sama-sama nating tutukuyin ang mga dimensyon at dami."
+      }
+    ]
+  },
+  "co2x": {
+    "methEyebrow": "Metodolohiya",
+    "methTitle": "Paano nagkalkula ang calculator.",
+    "methLead": "Transparensya sa halip na black box: apat na building blocks sa likod ng bawat resulta.",
+    "meth": [
+      {
+        "t": "Mass model mula sa SDR geometry",
+        "d": "Ang bigat ng tubo ay kinalkula mula sa ring cross-section × haba × density (0.905 g/cm³), na siyang parehong geometry sa dimension tables."
+      },
+      {
+        "t": "Mga Material Factors",
+        "d": "Ang emission factors para sa bawat materyal ay halimbawa lang para sa paghahambing ng system. Ang tunay at kapani-paniwalang factors ay nagmumula sa ecoinvent o sa product-specific na Type-III EPDs ayon sa EN 15804."
+      },
+      {
+        "t": "Malinaw na Equivalents",
+        "d": "Pagkalkula na may humigit-kumulang 25 kg CO₂ na napipigil bawat puno kada taon at 0.15 kg CO₂e kada kilometro ng sasakyan, mga sukat na naiintindihan ng lahat sa isang meeting ng proyekto."
+      },
+      {
+        "t": "Katibayang Landas",
+        "d": "Para sa mga audit, ang dokumento ang mahalaga: EPD data sheets at Scope 3 data ay maa-access sa Trust Center o sa pamamagitan ng pag-request."
+      }
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Saan napupunta ang mga numero.",
+    "certLead": "Ang katibayan ng CO₂ ay hindi lang basta ginawa: direktang nakakatulong ang mga ito sa mga sertipikasyon ng gusali.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "Ang EPDs na sumusunod sa EN 15804 ay ginagamit para sa mga material credits. Nagbibigay ang calculator ng initial na argumento, at ang EPD ang nagsisilbing patunay."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Kasama ang life-cycle data ng mga materyales sa pagtatasa, suportado ng maaasahang Type III declarations."
+      },
+      {
+        "t": "DGNB",
+        "d": "Ang life cycle assessment ng gusali ay siyang nagtatakda sa buong kategorya ng mga pamantayan. Ang pagpili ng materyal na may mababang GWP ay may direktang epekto rito."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: maikling paliwanag",
+    "scopeText": "Sinasaklaw ng Scope 1 ang direktang emissions mula sa pabrika, ang Scope 2 ay ang biniling kuryente, at ang Scope 3 ay ang supply chain, na sumasaklaw din sa mga tubong binili ninyo. Kaya naman ang K Aqua ay nagbibigay ng Scope 3 data at raw EPD data kapag nirequest: proaktibong transparensya para sa iyong carbon footprint.",
+    "statNote": "Mula sa mga pag-aaral sa industriya: Halos kalahati ng mga B2B customer ay mas gustong bumili mula sa mga mapapatunayang napapanatiling (sustainable) na supplier. Ang patunay na ito ay nagiging batayan na ng pagbili."
+  },
+  "homedeep": {
+    "plantEyebrow": "Mula sa pabrika ng Waldsolms",
+    "plantTitle": "Presisyon na maaaring masukat.",
+    "plant": [
+      {
+        "n": "14,000",
+        "u": "m/Araw",
+        "l": "Produksyon ng tubo bawat extrusion line: Kapasidad para sa mga malalaking proyekto"
+      },
+      {
+        "n": "0.007",
+        "u": "mm",
+        "l": "Inner roughness ng ibabaw ng tubo: minimal pressure loss, halos walang biofilm"
+      },
+      {
+        "n": "50",
+        "u": "Taon",
+        "l": "Design horizon (tagal ng buhay) batay sa creep rupture curves ng DIN 8077/8078"
+      }
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Mga sertipiko at Audit documents bilang Self Service sa Trust Center.",
+    "badgeCta": "Pumunta sa Trust Center"
+  }
+}

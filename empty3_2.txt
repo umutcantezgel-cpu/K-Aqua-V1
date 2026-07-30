@@ -1,0 +1,505 @@
+
+  "cross": {
+    "name": "Simpang 4 (Cross)",
+    "desc": "Pertemuan 4 lajur silang bertekanan stabil.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "cross-over": {
+    "name": "Crossover Belokan Bawah",
+    "desc": "Mekanis putar lekuk lompatan untuk persilangan sistem yang bertindihan.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "cross-over-pipe": {
+    "name": "Pipa Lompatan Bending",
+    "desc": "Ruas loncatan silang bebas resistensi aliran.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "adaptor-socket-female-thread": {
+    "name": "Soket Transisi Ulir Dalam (IG)",
+    "desc": "Adpator perpaduan bahan logam dan resin berulir tanam.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "adaptor-socket-male-thread": {
+    "name": "Soket Transisi Ulir Luar (AG)",
+    "desc": "Jembatan konektor drat logam tertonjol utuh.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "elbow-90-male-thread": {
+    "name": "Siku Bending 90° Ulir Luar (AG)",
+    "desc": "Komponen tikungan bertransisi paku putar luar (AG).",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "elbow-bracket-90-female-thread": {
+    "name": "Siku Dudukan Dinding 90° Ulir Dalam (IG)",
+    "desc": "Jangkar pengikat siku pemasangan tapak dinding satu bilah.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "elbowwall-bracket-90-female-thread": {
+    "name": "Siku Dudukan Penopang Ganda 90° (IG)",
+    "desc": "Instalasi sekrup jangkar ganda tapak tembok stabil.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "metal-union-male-thread-yellow-brass": {
+    "name": "Persambungan Kuningan Ulir Luar (CW617N)",
+    "desc": "Rangkaian sekat jepit komponen kuningan kelas satu (AG).",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "metal-union-female-thread-yellow-brass": {
+    "name": "Persambungan Kuningan Ulir Dalam (CW617N)",
+    "desc": "Modul rakitan kuningan kelas atas tipe drat jepit tanam (IG).",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "metal-union-male-thread": {
+    "name": "Persambungan Logam Campuran Ulir Luar",
+    "desc": "Sambungan putar drat eksterior.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "metal-union-female-thread": {
+    "name": "Persambungan Logam Campuran Ulir Dalam",
+    "desc": "Koneksi fusi jepit mur penanam interior.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "tee-90-male-thread": {
+    "name": "T-Stück 90° Transisi (AG)",
+    "desc": "Tee simpang cabang tipe ulir ulir jantan.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "tee-90-female-thread": {
+    "name": "T-Stück 90° Transisi (IG)",
+    "desc": "Tee perempatan cabang drat betina jepit dalam.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "union": {
+    "name": "Persambungan Mur PP-R Mutlak",
+    "desc": "Sekat fusi penyekat sambung antar dua tabung PP-R murni.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "union-for-watermeters": {
+    "name": "Soket Meteran Pengukur Air",
+    "desc": "Penyelarasan dudukan komponen pelacak alat baca hidrolik.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "pp-r-ball-valve-ball-in-pp": {
+    "name": "Katup Peluru (Ball Valve) Bola PP",
+    "desc": "Mekanisme pengatur tuas tutup aliran polimer murni 100%.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+    "name": "Katup Peluru Bola Kuningan Lapis Krom",
+    "desc": "Katup inti metalik (Kuningan/Krom) tangguh penahan arus industri berat.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "tee-90-female-thread-for-internal-valve": {
+    "name": "Tee 90° (IG) Dudukan Katup Tanam (UP)",
+    "desc": "Titik persimpangan khusus jalur katup instalasi sirna (concealed).",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "concealed-valve-chrome-light-part": {
+    "name": "Katup Tanam Krom (Beban Ringan)",
+    "desc": "Pengontrol sembunyi (concealed) unit putar lapisan pilar berbobot enteng.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "concealed-valve-chrome-heavy-part": {
+    "name": "Katup Tanam Krom (Beban Ekstra)",
+    "desc": "Tumpuan kontrol penekan beban berat lapis pelindung pilar solid krom.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "straight-seat-valve-upper-part-green-handle": {
+    "name": "Dudukan Katup Miring Pemutar Hijau",
+    "desc": "Sektor hulu kendali batas putar instalasi penghenti arus hidraulik.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "elongation-pieces": {
+    "name": "Tabung Sambung Pemanjang",
+    "desc": "Ragam modul pengulur ruas tambahan pilar keran.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },
+  "battery-female-thread": {
+    "name": "Unit Baterai (IG)",
+    "desc": "Konfigurasi jepit tanam pengunci instalasi sekat khusus.",
+    "seo_p1": "-",
+    "seo_p2": "-",
+    "seo_p3": "-",
+    "faq": [
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      },
+      {
+        "q": "-",
+        "a": "-"
+      }
+    ]
+  },

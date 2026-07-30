@@ -37,11 +37,7 @@ for (const k of missing) {
 
 for (const top in grouped) {
     console.log(`Top key: ${top} (missing ${grouped[top].length} keys)`);
-    if (grouped[top].length <= 5) {
-        console.log('   ', grouped[top].join(', '));
-    } else {
-        console.log('   ', grouped[top].slice(0, 3).join(', '), '...');
-    }
+    console.log('   ', grouped[top].join(', '));
 }
 if (missing.length === 0) {
     console.log("0 missing keys");

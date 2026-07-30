@@ -1,0 +1,97 @@
+const fs = require('fs');
+const combined = fs.readFileSync('combined_str.txt', 'utf8');
+const target = `  },
+  "seoArticle": {
+    "eyebrow": "Sanoat bilimi",
+    "title": "Nega butun dunyo bo'ylab yirik loyihalar K Aqua tizimiga ishonadi",
+    "lead": "PP-R va PP-RCT quvur tizimlari muhandisligini chuqur tahlil qilish",
+    "readTime": "O'qish vaqti 8 daqiqa",
+    "p1": "Zamonaviy muhandislik sohasida suvni taqsimlash va iqlim nazorati bo'yicha talablar har qachongidan ham yuqori. Bosim barqarorligi, korroziyaga qarshilik va izolyatsiya haqida gap ketganda, PPR (Polipropilen Random Kopolimer) o'zini eng maqbul material sifatida tasdiqladi.",
+    "h2_1": "PPR va PPR-CT: Materiallar farqi",
+    "p2": "An'anaviy materiallardan (masalan, mis yoki galvanizli po'lat) farqli o'laroq, PPR quvurlari mutlaq korroziyasiz ishlashni ta'minlaydi. O'zining silliq ichki yuzasi tufayli ohak hosil bo'lishi sezilarli darajada kamayadi. Eng so'nggi avlod, PPR-CT (yuqori haroratga chidamli) kristalli tuzilishi orqali yanada yuqori bosim barqarorligini va kichikroq devor qalinligini ta'minlaydi.",
+    "h2_2": "Termik payvandlashning ustunligi",
+    "p3": "K Aqua quvur tizimining eng katta texnik afzalligi ulanish texnikasidir. Polifuzion payvandlash jarayonida quvur va fitting qizdiriladi va bir hil birlikka aylanadi. Kauchuk qistirmalarga (O-ringlarga) tayanadigan press fitting tizimlaridan farqli o'laroq, payvandlash orqali potentsial zaif nuqtalar 100% yo'q qilinadi.",
+    "listTitle": "Polifuziya ulanishining asosiy afzalliklari:",
+    "li1": "Ishlash muddati tugagunga qadar uzluksiz oqishsiz",
+    "li2": "Alohida muhrlash qistirmalari yo'q (O-ringning eskirishi istisno qilinadi)",
+    "li3": "Butun tarmoq bo'ylab to'liq materiallar uyg'unligi",
+    "h2_3": "Barqarorlik va samaradorlik",
+    "p4": "PP-R va PP-RCT nafaqat chidamlilik jihatidan ekologik jihatdan toza materiallardir, balki ularni ishlab chiqarishda metallarga qaraganda ancha kam energiya talab qilinadi. K Aqua tizimlarining mukammal izolyatsiyasi tarmoq bo'ylab issiqlik yo'qotilishini kamaytiradi va shu bilan butun binoning energiya samaradorligini oshiradi.",
+    "author": "K Aqua Muhandislik Jamoasi",
+    "date": "Sentabr 2023"
+  },
+  "kontaktBlocks": {
+    "b1Title": "Global Bosh Qarorgoh",
+    "b1Desc": "Germaniyadagi zamonaviy ishlab chiqarish va texnik qo'llab-quvvatlash markazimiz.",
+    "b2Title": "Savdo va Eksport",
+    "b2Desc": "Xalqaro loyihalar va dunyo bo'ylab hamkorlar uchun to'g'ridan-to'g'ri bog'lanish.",
+    "b3Title": "Muhandislik va Yordam",
+    "b3Desc": "Loyihalashtirishda yordam, tender hujjatlari va texnik maslahat."
+  },
+  "kontaktForm": {
+    "title": "Bizga xabar yuboring",
+    "name": "To'liq ismingiz",
+    "email": "Biznes e-pochta",
+    "company": "Kompaniya (ixtiyoriy)",
+    "topic": "Mavzu",
+    "topicOpt1": "Umumiy so'rov",
+    "topicOpt2": "Loyiha bo'yicha so'rov (Tender)",
+    "topicOpt3": "Hamkorlik",
+    "topicOpt4": "Texnik yordam",
+    "message": "Xabaringiz",
+    "submit": "Xabarni yuborish",
+    "success": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi. Biz tez orada siz bilan bog'lanamiz.",
+    "error": "Xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring yoki bizga to'g'ridan-to'g'ri e-pochta orqali yozing."
+  },
+  "enterprise": {
+    "metaTitle": "Enterprise va Yirik loyihalar | K Aqua",
+    "metaDesc": "Sanoat loyihalari, baland binolar va infratuzilmalar uchun K Aqua quvur tizimlari. Moslashtirilgan muhandislik, ishonchlilik va logistika.",
+    "heroEyebrow": "K Aqua Enterprise",
+    "heroTitle": "Yirik loyihalar uchun yechimlar",
+    "heroLead": "Mega loyihalar nol bag'rikenglikni talab qiladi. Shuning uchun global muhandislar, pudratchilar va rejalashtiruvchilar K Aqua-ning Germaniyada ishlab chiqarilgan murosasiz sifatiga ishonishadi.",
+    "heroBtn": "Loyihani muhokama qilish",
+    "featuresTitle": "Nega yirik loyihalar uchun K Aqua?",
+    "f1Title": "100% Oqishsiz",
+    "f1Desc": "Kauchuk muhrlarsiz bir hil payvandlash, tizim xavfsizligini ta'minlaydi - hatto o'nlab yillar o'tgach ham.",
+    "f2Title": "Tezkor O'rnatish",
+    "f2Desc": "Yengil material va asboblarni qulay ishlatish ish soatlarining sezilarli darajada tejashiga olib keladi.",
+    "f3Title": "Katta O'lchamlar",
+    "f3Desc": "Diametri 250 mm gacha bo'lgan PP-R va PP-RCT quvurlari baland binolar va sanoat korxonalari uchun mavjud.",
+    "f4Title": "Global Logistika",
+    "f4Desc": "Dunyodagi eng yirik qurilish maydonchalariga o'z vaqtida yetkazib berish. Biz logistikani bilamiz.",
+    "ctaTitle": "Sizning Mega loyihangiz",
+    "ctaDesc": "Biz muhandislik va logistikada sizni qo'llab-quvvatlashga tayyormiz.",
+    "ctaBtn": "Muhandislik guruhiga murojaat qilish"
+  },
+  "referenzenPage": {
+    "metaTitle": "Xalqaro Referensiyalar | K Aqua Loyihalari",
+    "metaDesc": "Turar-joy majmualaridan tortib sanoat inshootlarigacha - butun dunyo bo'ylab K Aqua tizimlari qayerda qo'llanilishini bilib oling.",
+    "heroEyebrow": "K Aqua Referensiyalari",
+    "heroTitle": "Loyihalar va Case Studies",
+    "heroLead": "Baland binolar, kasalxonalar, stadionlar - K Aqua butun dunyo bo'ylab eng talabchan infratuzilma loyihalarining ishonchli asosi hisoblanadi.",
+    "filterAll": "Barchasi",
+    "filterHotel": "Mehmonxonalar",
+    "filterHospital": "Kasalxonalar",
+    "filterResidential": "Turar-joy",
+    "filterIndustrial": "Sanoat"
+  },
+  "seoExpansion": {
+    "title": "Quvur tizimlari muhandisligining kengayishi",
+    "desc": "Texnik bilimingizni boyitish uchun SEO va loyiha muhandisligi bo'yicha qo'shimcha ma'lumotlar va tavsiflar."
+  }
+}`;
+
+const req = {
+  Description: "Replace dummy objects with full translations",
+  Instruction: "Fix missing keys",
+  ReplacementChunks: [
+    {
+      StartLine: 7074,
+      EndLine: 7156,
+      TargetContent: target,
+      ReplacementContent: "  },\n" + combined + "\n}",
+      AllowMultiple: false
+    }
+  ]
+};
+fs.writeFileSync('req.json', JSON.stringify(req, null, 2));

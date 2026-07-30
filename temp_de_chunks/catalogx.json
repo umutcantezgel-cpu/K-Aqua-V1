@@ -1,0 +1,1406 @@
+{
+  "catalogx": {
+    "eyebrow": "Vollst\u00e4ndiger Produktkatalog",
+    "faqTitle": "H\u00e4ufig gestellte Fragen",
+    "title": "Alle 79 Artikelfamilien, mit echten Artikelnummern.",
+    "lead": "Rohre, Formteile, \u00dcbergangsfittings, Armaturen, Einschwei\u00dfsattel, Zubeh\u00f6r und Werkzeuge, jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie w\u00e4hlen, Artikel aufklappen, Artikelnummer pr\u00fcfen.",
+    "searchPlaceholder": "Artikelnummer oder Produktname suchen, z. B. \u201eAQ200P20\" oder \u201eElbow\"",
+    "noResults": "Keine Treffer. Suche anpassen oder andere Kategorie w\u00e4hlen.",
+    "codesLabel": "Artikelnummern",
+    "sizesLabel": "Gr\u00f6\u00dfen",
+    "materialLabel": "Material",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Baureihe",
+    "pressureLabel": "Betriebsdruck",
+    "lenLabel": "Stabl\u00e4nge",
+    "cats": {
+      "pipes": {
+        "label": "Rohre",
+        "desc": "PPR und PPRCT Rohre: Standard, faserverst\u00e4rkt und UV-stabilisiert, 12 Baureihen."
+      },
+      "fittings": {
+        "label": "Formteile",
+        "desc": "Muffenschwei\u00df und Elektroschwei\u00dfformteile, d20\u2013d125, 13 Artikelfamilien."
+      },
+      "transitionFittings": {
+        "label": "\u00dcbergangsfittings",
+        "desc": "\u00dcberg\u00e4nge auf Gewinde und Messing, f\u00fcr Bestandsanschl\u00fcsse und Armaturen, 13 Familien."
+      },
+      "valves": {
+        "label": "Armaturen",
+        "desc": "Kugelh\u00e4hne, Unterputzventile, Verteilerbatterien, 9 Artikelfamilien."
+      },
+      "weldInSaddles": {
+        "label": "Einschwei\u00dfsattel",
+        "desc": "Abzweige ohne Rohrtrennung, mit und ohne Gewinde, 3 Familien."
+      },
+      "accessories": {
+        "label": "Zubeh\u00f6r",
+        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+      },
+      "tools": {
+        "label": "Werkzeuge",
+        "desc": "Rohrschneider, Schwei\u00dfger\u00e4te und -werkzeuge f\u00fcr alle vier F\u00fcgeverfahren, 14 Familien."
+      }
+    },
+    "rfq": {
+      "title": "Projektanfrage",
+      "desc": "Fordern Sie direkt ein Angebot f\u00fcr <span class=\"font-semibold\">{title}</span> an.",
+      "button": "Zur Anfrage"
+    },
+    "similar": {
+      "title": "Weitere aus {category}"
+    },
+    "items": {
+      "k-pipe-pp-r-sdr-6": {
+        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsf\u00e4higes Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Fl\u00fcssigkeitstransporte sicher und effizient zu bew\u00e4ltigen.",
+        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) f\u00fcr einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20\u00b0C ausgelegt. Die Standardl\u00e4nge von 4 Metern erm\u00f6glicht eine schnelle Installation.",
+        "seo_p3": "Dank der hervorragenden chemischen und thermischen Best\u00e4ndigkeit eignet sich das SDR 6 Rohr ideal f\u00fcr industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfl\u00e4che minimiert Druckverluste und verhindert Ablagerungen.",
+        "faq": [
+          {
+            "q": "F\u00fcr welche Betriebstemperaturen ist SDR 6 geeignet?",
+            "a": "Es ist f\u00fcr Dauerbetriebstemperaturen bis zu 70\u00b0C ausgelegt und bietet bei 20\u00b0C eine Druckfestigkeit von 20 Bar."
+          },
+          {
+            "q": "Welche Vorteile bietet die hohe Wandst\u00e4rke?",
+            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilit\u00e4t bei stark beanspruchten Anlagen."
+          },
+          {
+            "q": "Kann ich dieses Rohr f\u00fcr Kaltwasser nutzen?",
+            "a": "Ja, es eignet sich exzellent f\u00fcr Kaltwassersysteme, da die glatte Oberfl\u00e4che Inkrustationen und Bakterienwachstum effektiv verhindert."
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Das K Pipe PPRCT SDR 7.4 repr\u00e4sentiert die n\u00e4chste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandst\u00e4rke f\u00fcr maximale Durchflussmengen.",
+        "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20\u00b0C. Die reduzierte Wandst\u00e4rke spart Gewicht, ohne Kompromisse bei der Stabilit\u00e4t einzugehen.",
+        "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanit\u00e4ranlagen. Durch das PPRCT Material profitieren Installateure von einer h\u00f6heren Langzeitfestigkeit auch bei h\u00f6heren Temperaturen.",
+        "faq": [
+          {
+            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
+            "a": "PPRCT steht f\u00fcr eine verbesserte kristalline Struktur, die h\u00f6here Dr\u00fccke bei h\u00f6heren Temperaturen erlaubt, sodass d\u00fcnnere Wandst\u00e4rken m\u00f6glich sind."
+          },
+          {
+            "q": "Ist die Durchflussmenge bei SDR 7.4 h\u00f6her?",
+            "a": "Ja, durch die reduzierten Wandst\u00e4rken des PPRCT wird bei gleichem Au\u00dfendurchmesser eine bis zu 17 % h\u00f6here Durchflusskapazit\u00e4t erreicht."
+          },
+          {
+            "q": "Eignet sich SDR 7.4 f\u00fcr Heizsysteme?",
+            "a": "Absolut, das Material ist thermisch extrem widerstandsf\u00e4hig und daher ideal f\u00fcr Vorlaufleitungen in modernen Heizanlagen."
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "seo_p1": "Das K-Pipe PP-R SDR 11 ist die Standardl\u00f6sung f\u00fcr eine Vielzahl von Sanit\u00e4r- und Heizungsanwendungen. Es zeichnet sich durch seine Zuverl\u00e4ssigkeit und einfache Handhabung aus.",
+        "seo_p2": "Mit einer SDR 11 Klassifizierung (Baureihe S 5) ist dieses PP-R Rohr f\u00fcr einen Betriebsdruck von 1.2 MPa bei 20\u00b0C zertifiziert. Die 4-Meter-Stangen lassen sich flexibel und passgenau verschwei\u00dfen.",
+        "seo_p3": "Es wird h\u00e4ufig in Kaltwasserverteilungen und als vielseitige Leitung in der Haustechnik eingesetzt. Die homogene Schwei\u00dfverbindung garantiert eine lebenslange Dichtigkeit ohne mechanische Schwachstellen.",
+        "faq": [
+          {
+            "q": "Ist das Rohr f\u00fcr Kalt- und Warmwasser geeignet?",
+            "a": "Das SDR 11 Rohr ist haupts\u00e4chlich f\u00fcr Kaltwasser (20\u00b0C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60\u00b0C bei 6 Bar) konzipiert."
+          },
+          {
+            "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
+            "a": "Die Verlegung erfolgt \u00fcber das Heizelement-Muffenschwei\u00dfverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+          },
+          {
+            "q": "Gibt es Gewichtsabweichungen gegen\u00fcber anderen SDR-Klassen?",
+            "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "seo_p1": "Das violett eingef\u00e4rbte K-Pipe Purple PP-R SDR 11 dient der eindeutigen Kennzeichnung spezifischer Leitungssysteme. Es verhindert Verwechslungen bei der Installation von getrennten Wasserkreisl\u00e4ufen.",
+        "seo_p2": "Die violette Signalfarbe kennzeichnet in der Regel Betriebswasser, Regenwasser oder Bew\u00e4sserungsanlagen. Technisch entspricht es dem Standard-PP-R mit SDR 11 (1.2 MPa bei 20\u00b0C) und bietet dieselbe hohe Qualit\u00e4t.",
+        "seo_p3": "Durch den Einsatz dieses speziellen Rohrs wird die Anlagensicherheit erh\u00f6ht und die normgerechte Trennung von Trink- und Brauchwasser visuell sichergestellt. Perfekt f\u00fcr nachhaltige Wassermanagement-Systeme.",
+        "faq": [
+          {
+            "q": "Wof\u00fcr steht die violette Farbe?",
+            "a": "Sie dient der optischen Unterscheidung von Leitungssystemen f\u00fcr Betriebswasser, Grauwasser oder Regenwassernutzung gem\u00e4\u00df internationalen Vorgaben."
+          },
+          {
+            "q": "Kann das Rohr mit normalen PP-R Fittings verschwei\u00dft werden?",
+            "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschwei\u00dft."
+          },
+          {
+            "q": "Beeinflusst die Farbe die Qualit\u00e4t des Materials?",
+            "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regul\u00e4ren PP-R SDR 11 Rohr."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Das K-Fiber Pipe PPRCT SDR 7.4 ist ein hochmodernes, faserverst\u00e4rktes Verbundrohr. Die integrierte Faserschicht reduziert die L\u00e4ngenausdehnung erheblich.",
+        "seo_p2": "Die innovative PPRCT-Basis wird durch eine Faser-Mittelschicht erg\u00e4nzt. Mit SDR 7.4 (S 3.2) h\u00e4lt das Rohr Dr\u00fccken von bis zu 2.0 MPa bei 20\u00b0C stand, bei gleichzeitig bis zu 50 % geringerer thermischer Ausdehnung.",
+        "seo_p3": "Dies macht das Rohr zur perfekten Wahl f\u00fcr Steigleitungen und lange Trassen in der Geb\u00e4udetechnik, bei denen weniger Befestigungspunkte erforderlich sind, was Installationszeit und Materialkosten spart.",
+        "faq": [
+          {
+            "q": "Wie stark reduziert die Faser die thermische L\u00e4ngenausdehnung?",
+            "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Rohren um bis zu 75 %."
+          },
+          {
+            "q": "Muss das Faserrohr vor dem Schwei\u00dfen gesch\u00e4lt werden?",
+            "a": "Nein, im Gegensatz zu Stabi-Rohren mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschwei\u00dft werden."
+          },
+          {
+            "q": "Ist das Rohr f\u00fcr zentrale Steigleitungen geeignet?",
+            "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbest\u00e4ndigkeit ist es die optimale Wahl f\u00fcr gro\u00dfe Steigstr\u00e4nge."
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "seo_p1": "Spezialisiert auf K\u00fchl- und Heizwasseranwendungen bietet das K-Fiberclima Pipe PPRCT SDR 11 optimale Performance f\u00fcr Klimasysteme. Es ist auf thermische Effizienz und Stabilit\u00e4t ausgelegt.",
+        "seo_p2": "Das faserverst\u00e4rkte PPRCT Material (SDR 11, S 5) gew\u00e4hrleistet einen sicheren Betrieb bei 1.6 MPa (20\u00b0C) und 0.8 MPa (70\u00b0C). Die d\u00fcnneren W\u00e4nde erlauben einen extrem hohen Volumenstrom.",
+        "seo_p3": "Besonders in gro\u00dfen HLK-Anlagen (Heizung, L\u00fcftung, Klima) spielt dieses Rohr seine St\u00e4rken aus. Es verhindert Korrosion im K\u00fchlkreislauf und sorgt f\u00fcr einen wartungsfreien, energieeffizienten Betrieb.",
+        "faq": [
+          {
+            "q": "Was macht das Rohr ideal f\u00fcr Klimakaltwasser?",
+            "a": "Die geringe W\u00e4rmeleitf\u00e4higkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Rohren."
+          },
+          {
+            "q": "Wie verh\u00e4lt es sich bei der Zirkulation von Frostschutzmitteln?",
+            "a": "Es ist \u00e4u\u00dferst best\u00e4ndig gegen g\u00e4ngige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialerm\u00fcdung verhindert werden."
+          },
+          {
+            "q": "K\u00f6nnen die Rohre f\u00fcr gro\u00dfe Volumenstr\u00f6me genutzt werden?",
+            "a": "Durch die d\u00fcnnere Wandung (SDR 11) bei maximaler Stabilit\u00e4t erm\u00f6glicht es extrem gro\u00dfe Volumenstr\u00f6me in Industrienetzen."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "seo_p1": "Das klassische K-Fiber Pipe PP-R SDR 7.4 ist die bew\u00e4hrte L\u00f6sung, wenn Faserverst\u00e4rkung und extreme Druckfestigkeit gefordert sind. Es minimiert thermische Dehnungen effektiv.",
+        "seo_p2": "Durch die Kombination von PP-R und Fasertechnologie erreicht dieses Rohr (SDR 7.4, S 3.2) einen Spitzenbetriebsdruck von 2.5 MPa bei 20\u00b0C. Es bietet maximale Stabilit\u00e4t f\u00fcr anspruchsvolle Netze.",
+        "seo_p3": "Ob im industriellen Anlagenbau oder bei komplexen Warmwasser-Zirkulationssystemen, dieses Rohr sorgt f\u00fcr eine starre, deformationsfreie Verlegung und h\u00f6chste Betriebssicherheit \u00fcber Jahrzehnte.",
+        "faq": [
+          {
+            "q": "Ist SDR 7.4 f\u00fcr hohe Temperaturen zugelassen?",
+            "a": "Ja, es toleriert Temperaturen bis 70\u00b0C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95\u00b0C."
+          },
+          {
+            "q": "Wie viele Befestigungsschellen sind bei langen Strecken n\u00f6tig?",
+            "a": "Dank der Faserverst\u00e4rkung k\u00f6nnen die Befestigungsabst\u00e4nde im Vergleich zu Standardrohren drastisch vergr\u00f6\u00dfert werden."
+          },
+          {
+            "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualit\u00e4ten?",
+            "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabh\u00e4ngig vom pH-Wert des transportierten Mediums."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schlie\u00dft die L\u00fccke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazit\u00e4t und Druckbest\u00e4ndigkeit.",
+        "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr f\u00fcr Dr\u00fccke von bis zu 2.0 MPa bei 20\u00b0C zugelassen. Die Wandst\u00e4rken sind f\u00fcr mittlere bis hohe Belastungen optimiert.",
+        "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herk\u00f6mmliche Rohre an ihre Grenzen sto\u00dfen, aber die extremen Reserven von SDR 7.4 noch nicht ben\u00f6tigt werden.",
+        "faq": [
+          {
+            "q": "Warum SDR 9 anstelle von SDR 7.4 w\u00e4hlen?",
+            "a": "SDR 9 bietet einen exzellenten Kompromiss aus h\u00f6herer Durchflusskapazit\u00e4t (d\u00fcnnere Wand) und immer noch extremer Druckbest\u00e4ndigkeit."
+          },
+          {
+            "q": "Kann es mit Standard-PP-R Formteilen verschwei\u00dft werden?",
+            "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
+          },
+          {
+            "q": "Ist es f\u00fcr die Trinkwasserversorgung zugelassen?",
+            "a": "Ja, es erf\u00fcllt alle hygienischen Standards f\u00fcr hei\u00dfes und kaltes Trinkwasser weltweit."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "seo_p1": "F\u00fcr gewichtsoptimierte und dennoch formstabile Verlegungen ist das K-Fiber Pipe PP-R SDR 11 konzipiert. Es verbindet die Vorteile der Fasertechnologie mit einem leichten Profil.",
+        "seo_p2": "Das PP-R Material mit Fasereinlage in der SDR 11 Klassifizierung erlaubt Dr\u00fccke bis 1.6 MPa bei 20\u00b0C. Es bietet einen optimalen inneren Querschnitt f\u00fcr gro\u00dfe Wassermengen.",
+        "seo_p3": "Es eignet sich hervorragend f\u00fcr Klimakaltwasser und gro\u00dfe Verteilerleitungen. Die Installation verl\u00e4uft dank des geringen Gewichts und der reduzierten Befestigungsabst\u00e4nde sehr z\u00fcgig.",
+        "faq": [
+          {
+            "q": "Sind die Schwei\u00dfzeiten bei SDR 11 Rohren k\u00fcrzer?",
+            "a": "Ja, aufgrund der reduzierten Wanddicke verk\u00fcrzen sich die Aufw\u00e4rmzeiten am Heizelement, was den Arbeitsprozess beschleunigt."
+          },
+          {
+            "q": "Was sind die Einsatzgrenzen f\u00fcr dieses SDR 11 Rohr?",
+            "a": "Es ist auf maximale Dr\u00fccke von 16 Bar bei 20\u00b0C und 8 Bar bei 60\u00b0C ausgelegt."
+          },
+          {
+            "q": "Profitieren K\u00fchlsysteme von diesem Rohr?",
+            "a": "Ja, der hervorragende Isolationswert minimiert den Energieverlust in K\u00fchlnetzen signifikant."
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "seo_p1": "Das gro\u00dfdimensionierte K-Fiber Pipe PP-R SDR 17 ist speziell f\u00fcr industrielle Gro\u00dfanlagen und Hauptversorgungsstr\u00e4nge entwickelt worden. Es bietet massive Durchflussquerschnitte.",
+        "seo_p2": "Mit Durchmessern von bis zu 200 mm und der Baureihe S 8 (SDR 17) bew\u00e4ltigt dieses Rohr 1.0 MPa bei 20\u00b0C. Die Faserverst\u00e4rkung sorgt selbst bei diesen gro\u00dfen Dimensionen f\u00fcr hohe Dimensionsstabilit\u00e4t.",
+        "seo_p3": "Ideal f\u00fcr Fernk\u00e4ltenetze, kommunale Wasserversorgung oder als Hauptsteigleitung in Hochh\u00e4usern. Es ist die korrosionsfreie Alternative zu schweren metallischen Gro\u00dfrohren.",
+        "faq": [
+          {
+            "q": "Ist SDR 17 f\u00fcr hohe Netzdruckstufen geeignet?",
+            "a": "SDR 17 (PN 10) ist speziell f\u00fcr Niederdrucknetze mit enormen Volumenstr\u00f6men konzipiert, z. B. bei Fernk\u00e4ltenetzen."
+          },
+          {
+            "q": "Wie erfolgt die Verbindung von solch gro\u00dfen Dimensionen?",
+            "a": "Gro\u00dfrohre (ab 90 mm bis 200 mm) werden vorzugsweise durch Heizelement-Stumpfschwei\u00dfen oder mit Elektroschwei\u00dfmuffen verbunden."
+          },
+          {
+            "q": "Was ist der Hauptvorteil gegen\u00fcber Stahlrohren?",
+            "a": "Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "Das K-Fiber UV Pipe PP-R SDR 7.4 l\u00f6st das Problem der UV-Degradation bei ungesch\u00fctzter Au\u00dfenverlegung. Es verf\u00fcgt \u00fcber eine spezielle, wetterfeste Au\u00dfenschicht.",
+        "seo_p2": "Neben der thermisch stabilisierenden Faser-Mittelschicht und der PP-R-Basis (SDR 7.4, 2.0 MPa) sch\u00fctzt der UV-Mantel das Rohr dauerhaft vor direkter Sonneneinstrahlung und Witterungseinfl\u00fcssen.",
+        "seo_p3": "Dadurch ist es perfekt f\u00fcr Dachinstallationen, Freiluftanlagen oder Br\u00fcckenleitungen geeignet. Zus\u00e4tzliche Isolierungen oder Anstriche zum UV-Schutz k\u00f6nnen komplett entfallen.",
+        "faq": [
+          {
+            "q": "Wie wird der UV-Schutz bei diesem Rohr erreicht?",
+            "a": "Eine spezielle, co-extrudierte schwarze Au\u00dfenschicht absorbiert und blockiert sch\u00e4dliche UV-Strahlung, bevor sie das PP-R Material angreift."
+          },
+          {
+            "q": "Muss die UV-Schicht vor dem Schwei\u00dfen entfernt werden?",
+            "a": "Nein, da es sich um eine homogene Kunststoffschicht handelt, wird sie beim Muffenschwei\u00dfen einfach mit dem Fitting verschmolzen."
+          },
+          {
+            "q": "Ist die Lebensdauer im Freien eingeschr\u00e4nkt?",
+            "a": "Die UV-Schutzschicht verhindert die Polymer-Degradation, sodass die volle Lebensdauer von 50 Jahren auch bei direkter Sonneneinstrahlung gew\u00e4hrleistet ist."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Das Premiumrohr K-Fiber UV Pipe PPRCT SDR 7.4 vereint alle Top-Eigenschaften: Hochleistungsmaterial, Faserverst\u00e4rkung und integrierten UV-Schutz in einem einzigen Produkt.",
+        "seo_p2": "Basierend auf PPRCT f\u00fcr h\u00f6chste Temperaturbest\u00e4ndigkeit (bis zu 70\u00b0C bei 1.0 MPa) und ausgestattet mit einer UV-resistenten Schale, ist dieses SDR 7.4 Rohr das ultimative Allround-Talent f\u00fcr extreme Bedingungen.",
+        "seo_p3": "Ob solare Anbindeleitungen, K\u00fchlt\u00fcrme auf Industriegeb\u00e4uden oder anspruchsvolle Au\u00dfeninstallationen in hei\u00dfen Klimazonen, dieses Rohr garantiert maximale Lebensdauer ohne Materialerm\u00fcdung.",
+        "faq": [
+          {
+            "q": "Kombiniert dieses Rohr UV-Schutz mit h\u00f6herer Durchflussleistung?",
+            "a": "Ja, durch das hochkristalline PPRCT Material kann eine d\u00fcnnere Wandst\u00e4rke verwendet werden, w\u00e4hrend die UV-Schicht extremen Au\u00dfenschutz bietet."
+          },
+          {
+            "q": "Sind UV-best\u00e4ndige K Aqua Formteile verf\u00fcgbar?",
+            "a": "Die Formteile werden in der Regel durch Isolierung, Farbanstrich oder UV-Schutzb\u00e4nder gesch\u00fctzt, w\u00e4hrend die langen Rohrtrassen werksseitig gesch\u00fctzt sind."
+          },
+          {
+            "q": "Eignet sich dieses Rohr f\u00fcr K\u00fchlt\u00fcrme?",
+            "a": "Es ist die optimale Wahl, da es sowohl der prallen Sonne als auch den chemischen Zus\u00e4tzen im K\u00fchlwasser dauerhaft standh\u00e4lt."
+          }
+        ]
+      },
+      "cap": {
+        "seo_p1": "Die Endkappe (Cap) ist ein unverzichtbares Formteil innerhalb unserer Fittings-Kategorie, das f\u00fcr den dauerhaften und sicheren Abschluss von Leitungsenden konzipiert wurde.",
+        "seo_p2": "Gefertigt aus hochwertigem PP-R-Material, entspricht die Kappe den g\u00e4ngigen SDR-Klassen der Rohre und bietet h\u00f6chste Druckbest\u00e4ndigkeit sowie Ma\u00dfgenauigkeit f\u00fcr eine homogene Verschwei\u00dfung.",
+        "seo_p3": "Sie eignet sich optimal f\u00fcr die endg\u00fcltige oder vor\u00fcbergehende Stilllegung von Rohrstr\u00e4ngen in Trinkwasser- und Heizungsnetzen, wobei eine absolut leckagefreie und wartungsfreie Abdichtung garantiert wird.",
+        "faq": [
+          {
+            "q": "Kann die Endkappe f\u00fcr eine Druckpr\u00fcfung genutzt werden?",
+            "a": "Ja, nach ordnungsgem\u00e4\u00dfer Verschwei\u00dfung und Abk\u00fchlung h\u00e4lt die Endkappe dem vollen Pr\u00fcfdruck des Systems (bis zu 30 Bar) problemlos stand."
+          },
+          {
+            "q": "Wie verschlie\u00dfe ich tempor\u00e4re Leitungen?",
+            "a": "F\u00fcr tempor\u00e4re Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschwei\u00dft und ist somit f\u00fcr den permanenten Verschluss gedacht."
+          },
+          {
+            "q": "Ist die Endkappe bei allen Temperaturen dicht?",
+            "a": "Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0\u00b0C bis 95\u00b0C absolut leckagefrei bleibt."
+          }
+        ]
+      },
+      "socket": {
+        "seo_p1": "Die Muffe (Socket) ist das grundlegende Verbindungselement unserer Fittings, entwickelt f\u00fcr die einfache und zuverl\u00e4ssige Verl\u00e4ngerung von geraden Rohrstrecken.",
+        "seo_p2": "Aus robustem PP-R gefertigt, stellt dieses Formteil durch Muffenschwei\u00dfung eine stoffschl\u00fcssige und extrem druckfeste Verbindung her, die perfekt auf unsere SDR-Rohrserien abgestimmt ist.",
+        "seo_p3": "Ob im privaten Sanit\u00e4rbereich oder im industriellen Anlagenbau, die Muffe sorgt f\u00fcr einen nahtlosen Durchfluss ohne Querschnittsverengung und verhindert langfristige Druckverluste.",
+        "faq": [
+          {
+            "q": "Wie tief muss das Rohr in die Muffe eingef\u00fchrt werden?",
+            "a": "Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden."
+          },
+          {
+            "q": "K\u00f6nnen Muffen auch f\u00fcr Faserrohre verwendet werden?",
+            "a": "Ja, unsere Standard-Muffen sind f\u00fcr alle K Aqua PP-R, PPRCT und Faserrohre uneingeschr\u00e4nkt kompatibel."
+          },
+          {
+            "q": "Besteht die Gefahr von Mikroleckagen an der Naht?",
+            "a": "Nein, da durch die Polyfusion eine stoffschl\u00fcssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist."
+          }
+        ]
+      },
+      "elbow-45": {
+        "seo_p1": "Der 45\u00b0-Winkel (Elbow 45\u00b0) erm\u00f6glicht schonende Richtungs\u00e4nderungen im Leitungsverlauf und geh\u00f6rt zu unseren am h\u00e4ufigsten verwendeten Fittings.",
+        "seo_p2": "Dank pr\u00e4zisem Spritzguss aus langlebigem PP-R garantiert der Winkel eine perfekte Kompatibilit\u00e4t mit allen K Aqua Rohrsystemen und h\u00e4lt h\u00f6chsten Systemdr\u00fccken stand.",
+        "seo_p3": "Besonders bei komplexen Leitungsf\u00fchrungen in engen Sch\u00e4chten oder bei der Umgehung von Hindernissen reduziert dieser 45-Grad-Winkel Str\u00f6mungswiderst\u00e4nde effektiv.",
+        "faq": [
+          {
+            "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
+            "a": "Ein 45-Grad-Winkel reduziert den Druckverlust und den Str\u00f6mungswiderstand (Zeta-Wert) im System deutlich und beugt Ger\u00e4uschentwicklung vor."
+          },
+          {
+            "q": "Sind K Aqua Winkel str\u00f6mungsoptimiert?",
+            "a": "Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern."
+          },
+          {
+            "q": "K\u00f6nnen zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
+            "a": "Ja, diese Praxis wird oft bei gro\u00dfen Dimensionen angewendet, um weite B\u00f6gen zu kreieren und den Pumpenwiderstand zu senken."
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "seo_p1": "Der 45\u00b0-Winkel mit Innen-/Au\u00dfenschwei\u00dfende (Elbow 45\u00b0 Female/Male) bietet maximale Flexibilit\u00e4t bei beengten Platzverh\u00e4ltnissen und direkten Anschlusskombinationen.",
+        "seo_p2": "Das PP-R Formteil verf\u00fcgt \u00fcber ein Muffenende und ein Spitzende, was eine direkte Verschwei\u00dfung mit anderen Fittings ohne ein zus\u00e4tzliches Rohrst\u00fcck erm\u00f6glicht.",
+        "seo_p3": "In der kompakten Verteilerinstallation oder beim Bau von engen Vorwandsystemen spart dieses Bauteil wertvolle Montagezeit und reduziert die Anzahl der Schwei\u00dfstellen.",
+        "faq": [
+          {
+            "q": "Erh\u00f6ht ein 90-Grad-Winkel den Verschlei\u00df durch Str\u00f6mungsdruck?",
+            "a": "Dank der Wandst\u00e4rkenreserven und der extrem glatten Innenfl\u00e4chen des PP-R Materials ist Verschlei\u00df durch Abrasion praktisch ausgeschlossen."
+          },
+          {
+            "q": "Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?",
+            "a": "Ja, unsere Formteile weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen."
+          },
+          {
+            "q": "Kann der 90-Grad-Winkel f\u00fcr Steigleitungen genutzt werden?",
+            "a": "Ja, er ist ideal, um Str\u00e4nge aus Sch\u00e4chten auf die jeweilige Etage abzuwinkeln."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Der 90\u00b0-Winkel (Elbow 90\u00b0) ist der Standard-Richtungswechsler in unserem Fittings-Sortiment, ausgelegt f\u00fcr pr\u00e4zise, rechtwinklige Abzweigungen.",
+        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es die mechanischen und thermischen Belastungen des Systems problemlos aufnimmt und mit allen SDR-Stufen kompatibel ist.",
+        "seo_p3": "Perfekt f\u00fcr Eckverlegungen und Wanddurchf\u00fchrungen in der gesamten Geb\u00e4udetechnik, es garantiert einen dichten und sicheren 90-Grad-Knick ohne str\u00f6mungsst\u00f6rende Kanten.",
+        "faq": [
+          {
+            "q": "Was bedeutet I/A (M/F) bei diesem Winkel?",
+            "a": "Es bedeutet Innen/Au\u00dfen (Male/Female). Eine Seite wird als Muffe geschwei\u00dft, die andere Seite kann direkt in einen anderen Fitting eingeschwei\u00dft werden."
+          },
+          {
+            "q": "Welchen Vorteil bietet die I/A-Konstruktion?",
+            "a": "Sie spart Platz und vermeidet ein zus\u00e4tzliches Rohrst\u00fcck zwischen zwei Fittings, was bei engen Platzverh\u00e4ltnissen entscheidend ist."
+          },
+          {
+            "q": "\u00c4ndert sich dadurch der Schwei\u00dfvorgang?",
+            "a": "Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schwei\u00dfspiegel gleichzeitig f\u00fcr Rohr und Fitting genutzt."
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "Der 90\u00b0-Winkel mit Innen-/Au\u00dfenschwei\u00dfende (Elbow 90\u00b0 Female/Male) ist die L\u00f6sung f\u00fcr ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
+        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein regul\u00e4res Muffenende mit einem Einsteckende, um Formteil-an-Formteil-Schwei\u00dfungen nahtlos umzusetzen.",
+        "seo_p3": "Insbesondere bei der Montage von Armaturen oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
+        "faq": [
+          {
+            "q": "Eignet sich der 45-Grad I/A Winkel f\u00fcr parallele Verspr\u00fcnge?",
+            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel k\u00f6nnen so extrem kompakte Etagenverspr\u00fcnge realisiert werden."
+          },
+          {
+            "q": "Ist die Druckbest\u00e4ndigkeit der Innen-/Au\u00dfen-Verbindung genauso hoch?",
+            "a": "Die homogene Polyfusionsschwei\u00dfung gew\u00e4hrleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
+          },
+          {
+            "q": "F\u00fcr welche Dimensionen ist dieser Winkel verf\u00fcgbar?",
+            "a": "Er wird typischerweise f\u00fcr die g\u00e4ngigen Dimensionen in der Etagenverteilung von 20 mm bis 40 mm produziert."
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "seo_p1": "Die Heizwendelschwei\u00dfmuffe (Electrofusion Socket) ist die Premiuml\u00f6sung f\u00fcr Verbindungen, bei denen konventionelles Muffenschwei\u00dfen aus Platzgr\u00fcnden nicht m\u00f6glich ist.",
+        "seo_p2": "Ausgestattet mit integrierten Heizdr\u00e4hten aus einer speziellen Legierung, verschmilzt dieses PP-R Fitting automatisch und computergesteuert mit dem Basisrohr.",
+        "seo_p3": "Ideal f\u00fcr Reparaturarbeiten in Sch\u00e4chten, nachtr\u00e4gliche Erweiterungen oder extrem schwer zug\u00e4ngliche Bereiche, sie bietet eine 100-prozentig sichere und protokollierbare Verbindung.",
+        "faq": [
+          {
+            "q": "Muss das Rohr vor dem Elektroschwei\u00dfen gesch\u00e4lt werden?",
+            "a": "Ja, das Entfernen der Oxidschicht mittels eines speziellen Rohrsch\u00e4lers ist zwingend erforderlich f\u00fcr eine einwandfreie Verschmelzung."
+          },
+          {
+            "q": "Welche Schwei\u00dfger\u00e4te k\u00f6nnen verwendet werden?",
+            "a": "Es m\u00fcssen K Aqua oder universelle Elektroschwei\u00dfger\u00e4te verwendet werden, die den Barcode auf der Muffe auslesen k\u00f6nnen."
+          },
+          {
+            "q": "Wann ist Elektroschwei\u00dfen besser als Heizelementmuffenschwei\u00dfen?",
+            "a": "Besonders bei eingeschr\u00e4nkter Bewegungsfreiheit (z. B. im Schacht), wo das Ger\u00e4t f\u00fcr die Muffenschwei\u00dfung keinen Platz findet."
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "seo_p1": "Der Bundkragen (Flange Adaptor) fungiert als wesentliches Verbindungselement, um Kunststoffrohre sicher und l\u00f6sbar an metallische Flansche oder Armaturen anzubinden.",
+        "seo_p2": "Das PP-R Bauteil ist so geformt, dass es einen perfekten Sitz f\u00fcr Losflansche bietet und den hohen Anpressdruck gleichm\u00e4\u00dfig auf die Dichtung \u00fcbertr\u00e4gt.",
+        "seo_p3": "Unverzichtbar im industriellen Rohrleitungsbau und bei gro\u00dfen Verteileranlagen, erm\u00f6glicht der Bundkragen den sicheren \u00dcbergang auf Pumpen, Gro\u00dfventile und Stahlsysteme.",
+        "faq": [
+          {
+            "q": "Welche Flanschnormen unterst\u00fctzt der K Aqua Bundkragen?",
+            "a": "Er ist kompatibel mit handels\u00fcblichen DIN/EN-Flanschen (z. B. PN10, PN16) und erfordert den passenden K Aqua Losflansch."
+          },
+          {
+            "q": "Ben\u00f6tige ich eine zus\u00e4tzliche Dichtung?",
+            "a": "Ja, zwischen dem PP-R Bundkragen und der Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden."
+          },
+          {
+            "q": "Wie wird der Bundkragen mit dem Rohr verbunden?",
+            "a": "Er wird wie ein herk\u00f6mmlicher Fitting durch Heizelementmuffenschwei\u00dfen direkt auf das Rohr oder in eine Muffe geschwei\u00dft."
+          }
+        ]
+      },
+      "reducing-bush": {
+        "seo_p1": "Die Reduziermuffe (Reducing Bush) erm\u00f6glicht den stufenlosen \u00dcbergang zwischen unterschiedlichen Rohrdimensionen innerhalb unserer Fittings-Familie.",
+        "seo_p2": "Hergestellt aus hochfestem PP-R, ist dieses Reduzierst\u00fcck so konstruiert, dass der Str\u00f6mungsverlauf optimiert und Kavitation an der Querschnittsver\u00e4nderung vermieden wird.",
+        "seo_p3": "Sie wird h\u00e4ufig eingesetzt, um Hauptleitungen in kleinere Versorgungsstr\u00e4nge zu verj\u00fcngen, wodurch Materialkosten gesenkt und der Netzdruck pr\u00e4zise ausbalanciert wird.",
+        "faq": [
+          {
+            "q": "Kann ich mehrere Dimensionen auf einmal \u00fcberspringen?",
+            "a": "Ja, wir bieten Reduktionen an, die mehrstufige Querschnittsverengungen in einem Bauteil realisieren, z. B. von 63 mm auf 32 mm."
+          },
+          {
+            "q": "Wird die Reduziermuffe in oder auf das Rohr geschwei\u00dft?",
+            "a": "Die Reduzierung ist in der Regel als Innen/Au\u00dfen (I/A) Fitting konzipiert: Die gro\u00dfe Seite passt in eine Muffe, die kleine Seite nimmt das Rohr auf."
+          },
+          {
+            "q": "Hat die Verj\u00fcngung Einfluss auf den Betriebsdruck?",
+            "a": "Nein, die Wandst\u00e4rken der K Aqua Reduktionen sind so dimensioniert, dass sie dem Nenndruck des Gesamtsystems (bis PN 25) entsprechen."
+          }
+        ]
+      },
+      "reducing-tee": {
+        "seo_p1": "Das reduzierte T-St\u00fcck (Reducing Tee) vereint eine 90-Grad-Abzweigung mit einer gleichzeitigen Querschnittsverj\u00fcngung im Abzweig.",
+        "seo_p2": "Dieses multifunktionale PP-R Fitting bietet durch sein monolithisches Design h\u00f6chste Stabilit\u00e4t und Druckfestigkeit, passend f\u00fcr alle Standard-SDR-Anwendungen.",
+        "seo_p3": "In der Etagenverteilung von Trink- und Heizungswasser sorgt das reduzierte T-St\u00fcck f\u00fcr einen effizienten Aufbau ohne zus\u00e4tzliche Reduzierst\u00fccke, was die Installation deutlich beschleunigt.",
+        "faq": [
+          {
+            "q": "Wann nutze ich ein reduziertes T-St\u00fcck anstelle eines Standard-T-St\u00fccks mit Reduktion?",
+            "a": "Ein reduziertes T-St\u00fcck spart eine zus\u00e4tzliche Schwei\u00dfnaht und verringert den Bauraum, was es effizienter und sicherer macht."
+          },
+          {
+            "q": "Ist der Abzweig immer die reduzierte Seite?",
+            "a": "Meistens ja, da typischerweise von der Hauptleitung kleinere Abzweige zu den Verbrauchern gef\u00fchrt werden."
+          },
+          {
+            "q": "K\u00f6nnen diese T-St\u00fccke str\u00f6mungstechnische Ger\u00e4usche verursachen?",
+            "a": "Nein, die Innenradien sind hydraulisch optimiert, um Turbulenzen und Kavitationsger\u00e4usche bei Querschnitts\u00e4nderungen zu minimieren."
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "seo_p1": "Das reduzierte T-St\u00fcck f\u00fcr Gro\u00dfdimensionen (Reducing Tee Large Sizes) ist speziell f\u00fcr industrielle Hauptleitungen mit gro\u00dfen Querschnitten konzipiert.",
+        "seo_p2": "Dieses massiv ausgelegte PP-R Bauteil h\u00e4lt extremen Volumenstr\u00f6men und Systemdr\u00fccken stand und erm\u00f6glicht einen sicheren, verj\u00fcngten Abzweig aus gro\u00dfen Versorgungsstr\u00e4ngen.",
+        "seo_p3": "H\u00e4ufig verwendet in Fernk\u00e4ltenetzen und Hauptsteigleitungen, garantiert dieses Fitting absolute Stabilit\u00e4t und dauerhafte Dichtigkeit bei h\u00f6chsten Belastungen.",
+        "faq": [
+          {
+            "q": "Welches Spezialwerkzeug wird f\u00fcr die Montage ben\u00f6tigt?",
+            "a": "F\u00fcr die exakte Fr\u00e4sung des Loches ist ein spezieller K Aqua Anbohrer erforderlich, sowie ein Sattelschwei\u00dfwerkzeug zur Erw\u00e4rmung."
+          },
+          {
+            "q": "Kann ein Sattel auf einem unter Druck stehenden Rohr montiert werden?",
+            "a": "Nein, das Leitungssystem muss zwingend entleert und drucklos sein, bevor die Anbohrung und Schwei\u00dfung erfolgt."
+          },
+          {
+            "q": "Ist die Sattelverbindung so stark wie ein T-St\u00fcck?",
+            "a": "Ja, durch die tiefe Polyfusionsverschmelzung an der Rohrwandung erreicht der Sattelabzweig dieselbe Druckstufe wie das Basisrohr."
+          }
+        ]
+      },
+      "tee": {
+        "seo_p1": "Das gleichschenklige T-St\u00fcck (Tee) ist das klassische Abzweig-Fitting f\u00fcr eine symmetrische Str\u00f6mungsteilung in PP-R Netzwerken.",
+        "seo_p2": "Gefertigt aus robustem Polypropylen (PP-R), bietet es drei gleich dimensionierte Muffenenden, die den Nenndruck des Rohrsystems vollumf\u00e4nglich unterst\u00fctzen.",
+        "seo_p3": "Es ist das Herzst\u00fcck jeder Ring- und Reihenleitung in Sanit\u00e4rinstallationen und gew\u00e4hrleistet eine zuverl\u00e4ssige, druckverlustarme Verteilung des Mediums.",
+        "faq": [
+          {
+            "q": "Verringert das T-St\u00fcck den Leitungsquerschnitt?",
+            "a": "Nein, das Innendesign unserer T-St\u00fccke ist auf vollen Durchgang ausgelegt, um den Volumenstrom nicht zu drosseln."
+          },
+          {
+            "q": "Ist ein T-St\u00fcck anf\u00e4lliger f\u00fcr Ablagerungen?",
+            "a": "Durch das extrem glatte PP-R Material (Rauigkeitswert 0,007 mm) haben Kalk und Biofilme auch in den Abzweigen keine Chance sich festzusetzen."
+          },
+          {
+            "q": "Werden bei gro\u00dfen T-St\u00fccken andere Schwei\u00dfzeiten ben\u00f6tigt?",
+            "a": "Ja, die Anw\u00e4rm-, Umstell- und Abk\u00fchlzeiten sind abh\u00e4ngig von der Dimension und strikt nach den DVS-Richtlinien einzuhalten."
+          }
+        ]
+      },
+      "cross": {
+        "seo_p1": "Das Kreuzst\u00fcck (Cross) erm\u00f6glicht die Verteilung eines Hauptstroms in drei unterschiedliche Richtungen innerhalb einer kompakten Installationsebene.",
+        "seo_p2": "Dieses vierfache PP-R Fitting ist str\u00f6mungstechnisch optimiert, um Turbulenzen zu minimieren, und f\u00fcgt sich nahtlos in unsere hochdruckfesten SDR-Serien ein.",
+        "seo_p3": "Perfekt f\u00fcr komplexe Verteilerschr\u00e4nke und zentrale Kreuzungspunkte in der Haustechnik, es ersetzt mehrere T-St\u00fccke und spart so wertvollen Bauraum und Installationszeit.",
+        "faq": [
+          {
+            "q": "Verursacht das Kreuzst\u00fcck hohe Druckverluste?",
+            "a": "Da vier Str\u00f6me aufeinandertreffen k\u00f6nnen, ist der Zeta-Wert h\u00f6her als bei geraden Rohren, das gro\u00dfz\u00fcgige Innendesign h\u00e4lt den Verlust jedoch minimal."
+          },
+          {
+            "q": "In welchen Situationen ist ein Kreuz zwingend?",
+            "a": "Besonders in Vorwandinstallationen oder Fu\u00dfbodenheizungsverteilern, wo extrem flach und symmetrisch gebaut werden muss."
+          },
+          {
+            "q": "Sind die Abzweige immer gleich gro\u00df?",
+            "a": "Bei unserem Standard-Kreuzst\u00fcck sind alle vier Anschl\u00fcsse gleich dimensioniert (z. B. 4x 20mm)."
+          }
+        ]
+      },
+      "cross-over": {
+        "seo_p1": "Das \u00dcberspringst\u00fcck (Cross-over) ist eine clevere L\u00f6sung f\u00fcr Kreuzungen von Kalt- und Warmwasserleitungen auf engstem Raum.",
+        "seo_p2": "Das geschwungene PP-R Formteil verf\u00fcgt \u00fcber integrierte Muffenenden und eine elegante Br\u00fcckenform, die die Leitungsf\u00fchrung auf einer Ebene ohne H\u00f6henversatz erm\u00f6glicht.",
+        "seo_p3": "Es verhindert Kollisionen bei Wandinstallationen und Fu\u00dfbodenheizungen und garantiert einen reibungslosen Durchfluss bei optisch perfekter, flacher Leitungsverlegung.",
+        "faq": [
+          {
+            "q": "Wie gro\u00df ist der Bogen des Schwanenhalses?",
+            "a": "Die Biegung ist exakt so dimensioniert, dass ein kreuzendes K Aqua Rohr gleicher oder kleinerer Dimension ber\u00fchrungsfrei \u00fcbersprungen wird."
+          },
+          {
+            "q": "Werden f\u00fcr die Installation spezielle Muffen ben\u00f6tigt?",
+            "a": "Der Schwanenhals (\u00dcberbogen) verf\u00fcgt typischerweise \u00fcber ungeschwei\u00dfte Rohrenden und wird beidseitig mit Standard-Muffen in das System integriert."
+          },
+          {
+            "q": "Darf ich ein gerades PP-R Rohr selbst mit Hitze zum \u00dcberbogen formen?",
+            "a": "Nein! Manuelles Biegen mit Hei\u00dfluftgebl\u00e4sen zerst\u00f6rt die molekulare Struktur des Rohres und f\u00fchrt zum sofortigen Erl\u00f6schen der Gew\u00e4hrleistung."
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "seo_p1": "Das \u00dcberspringrohr (Cross-over Pipe) ist die verl\u00e4ngerte Version des \u00dcberspringst\u00fccks, ideal f\u00fcr Leitungsbr\u00fccken ohne direkte Muffenanbindung an den Enden.",
+        "seo_p2": "Hergestellt aus hochwertigem PP-R, bietet dieses Br\u00fcckenbauteil reine Einsteckenden, die maximale Flexibilit\u00e4t beim Positionieren der Schwei\u00dfmuffen erlauben.",
+        "seo_p3": "Installateure nutzen dieses Bauteil bei schwierigen Kreuzungen in gro\u00dfen Verteilersystemen, um die Verlegung flexibel an die Gegebenheiten der Baustelle anzupassen.",
+        "faq": [
+          {
+            "q": "Was unterscheidet das Crossing Tee vom Kreuzst\u00fcck?",
+            "a": "Das Crossing Tee erm\u00f6glicht das kreuzungsfreie \u00dcberspringen einer Leitung und integriert gleichzeitig einen Abzweig."
+          },
+          {
+            "q": "Wie wird dieses Bauteil verschwei\u00dft?",
+            "a": "Es wird analog zu Standard-Fittings mittels Heizelementmuffenschwei\u00dfen in das Leitungsnetz eingebunden."
+          },
+          {
+            "q": "Wird der Durchfluss durch die Konstruktion gehemmt?",
+            "a": "Trotz der kompakten Geometrie ist das Innere str\u00f6mungsoptimiert, sodass keine signifikanten Querschnittsverengungen entstehen."
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "seo_p1": "Die \u00dcbergangsmuffe mit Innengewinde (Adaptor Socket Female Thread) bildet eine essenzielle Schnittstelle zwischen dem verschwei\u00dften PP-R Rohrsystem und metallischen Gewindekomponenten.",
+        "seo_p2": "Sie vereint einen robusten PP-R-Muffenk\u00f6rper mit einem hochwertigen Metalleinsatz (Innengewinde). Dies sichert eine hervorragende Druckbest\u00e4ndigkeit bei den Standard-SDR-Stufen.",
+        "seo_p3": "Dieses Formteil ist unverzichtbar beim Anschluss von Armaturen, Manometern und speziellen Ventilen in der Geb\u00e4udeinstallation, um dauerhaft tropffreie \u00dcberg\u00e4nge zu garantieren.",
+        "faq": [
+          {
+            "q": "Wozu dient die Montageplatte?",
+            "a": "Die integrierte Platte mit Bohrungen erm\u00f6glicht die starre, mechanische Fixierung des Winkels direkt an der Wand oder einem Montageelement."
+          },
+          {
+            "q": "Ist das Metallgewinde korrosionsanf\u00e4llig?",
+            "a": "Nein, die metallischen Eins\u00e4tze bestehen aus hochwertigem, entzinkungsfreiem Messing und sind somit hochgradig korrosionsbest\u00e4ndig."
+          },
+          {
+            "q": "Darf ich das Gewinde mit Hanf abdichten?",
+            "a": "Wir empfehlen die Verwendung von Teflonband (PTFE-Band). Bei Hanf darf nur sehr sparsam und mit nicht-quellender Paste gearbeitet werden, um den Messingeinsatz nicht zu sprengen."
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "seo_p1": "Die \u00dcbergangsmuffe mit Au\u00dfengewinde (Adaptor Socket Male Thread) erm\u00f6glicht den festen und sicheren Anschluss des PP-R Netzes an weiterf\u00fchrende metallische Rohrleitungen.",
+        "seo_p2": "Eine auszugssichere Verankerung des Messing-Au\u00dfengewindes im hochfesten Polypropylen-K\u00f6rper verhindert Verdrehungen und garantiert extreme Langlebigkeit bei hohen Temperatur- und Druckschwankungen.",
+        "seo_p3": "H\u00e4ufig verwendet beim Anschluss von Heizkesseln, W\u00e4rmepumpen oder Filtern, stellt diese Muffe eine dauerhafte und normgerechte Gewindeverbindung sicher.",
+        "faq": [
+          {
+            "q": "Ist das Innengewinde durchg\u00e4ngig aus Messing?",
+            "a": "Ja, das Innengewinde ist ein massiver, hochwertiger Messingeinsatz, der fest und verdrehsicher in das PP-R Material eingespritzt ist."
+          },
+          {
+            "q": "Kann die Verbindung bei Bedarf gel\u00f6st werden?",
+            "a": "Ja, das metallische Gewinde erm\u00f6glicht jederzeit die sichere Demontage angeschlossener Apparaturen wie Pumpen oder Filter."
+          },
+          {
+            "q": "Wie hoch ist das maximale Anzugsdrehmoment?",
+            "a": "Das Gewinde sollte mit handels\u00fcblichem Werkzeug und Gef\u00fchl angezogen werden, um Spannungsrisse im angrenzenden Kunststoff zu vermeiden."
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "seo_p1": "Der 90\u00b0-\u00dcbergangswinkel mit Au\u00dfengewinde (Elbow 90\u00b0 Male Thread) kombiniert eine rechtwinklige Richtungs\u00e4nderung mit einem direkten Gewindeanschluss an Metallkomponenten.",
+        "seo_p2": "Dieses formstabile PP-R Bauteil ist mit einem massiven Au\u00dfengewinde-Einsatz versehen, der thermische Dehnungen aufnimmt und die hohen Anforderungen der SDR-Druckklassen erf\u00fcllt.",
+        "seo_p3": "Ideal f\u00fcr enge Montagesituationen an Maschinen oder Verteilern, bei denen ein unmittelbarer 90-Grad-Anschluss ohne weitere Fitting-Kombinationen realisiert werden muss.",
+        "faq": [
+          {
+            "q": "Kombiniert dieser Fitting zwei Arbeitsschritte?",
+            "a": "Ja, er vereint einen Richtungswechsel um 90 Grad mit einem Gewinde\u00fcbergang, was Platz, Material und eine Schwei\u00dfnaht spart."
+          },
+          {
+            "q": "Ist das Au\u00dfengewinde geraut?",
+            "a": "Ja, K Aqua Au\u00dfengewinde sind oft werkseitig leicht angeraut, damit das Dichtband (Teflon) beim Einschrauben nicht abrutscht."
+          },
+          {
+            "q": "Aus welchem Material besteht das Au\u00dfengewinde?",
+            "a": "Es besteht aus entzinkungsbest\u00e4ndigem Spezialmessing, das f\u00fcr h\u00f6chste hygienische Anspr\u00fcche im Trinkwasserbereich zugelassen ist."
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "seo_p1": "Der 90\u00b0-Wandscheibenwinkel mit Innengewinde (Elbow Bracket 90\u00b0 Female Thread) ist das Standard-Bauteil f\u00fcr eine stabile und sichere Wandbefestigung von Auslaufarmaturen.",
+        "seo_p2": "Dank der integrierten Befestigungslaschen am PP-R-K\u00f6rper und dem robusten Innengewinde aus Metall \u00fcbertr\u00e4gt es alle Hebelkr\u00e4fte sicher in das Mauerwerk.",
+        "seo_p3": "Es wird fl\u00e4chendeckend bei der Installation von Duschen, Badewannen oder Sp\u00fclbecken eingesetzt, um Wasserh\u00e4hne exakt und verdrehsicher zu montieren.",
+        "faq": [
+          {
+            "q": "Kann die Wandscheibe auch im Trockenbau verwendet werden?",
+            "a": "Ja, in Kombination mit unseren speziellen K Aqua Montageplatten l\u00e4sst sie sich hervorragend in Gipskarton- oder Holzst\u00e4nderw\u00e4nden fixieren."
+          },
+          {
+            "q": "Gibt es einen Schallschutz f\u00fcr dieses Bauteil?",
+            "a": "F\u00fcr optimale Schalld\u00e4mmung bieten wir optionale Gummi-Schallschutzkappen an, die die Wandscheibe vom Bauk\u00f6rper entkoppeln."
+          },
+          {
+            "q": "Aus welchem Material besteht das Innengewinde?",
+            "a": "Wir verwenden ausschlie\u00dflich bleifreies oder entzinkungsbest\u00e4ndiges (DZR) Spezialmessing, konform mit den strengsten Trinkwasservorgaben."
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "seo_p1": "Die verl\u00e4ngerte 90\u00b0-Wandscheibe (Elbow Wall Bracket 90\u00b0 Female Thread) bietet durch einen gr\u00f6\u00dferen Abstand zus\u00e4tzliche Flexibilit\u00e4t f\u00fcr tiefere Unterputzinstallationen.",
+        "seo_p2": "Mit verl\u00e4ngertem PP-R-Hals und hochfestem Messing-Innengewinde ist dieses Bauteil f\u00fcr Installationen ausgelegt, die dicke Putz- oder Fliesenst\u00e4rken \u00fcberbr\u00fccken m\u00fcssen.",
+        "seo_p3": "Sanit\u00e4rinstallateure nutzen dieses Element, wenn Armaturenanschl\u00fcsse in Trockenbauw\u00e4nden tief versenkt werden, um die volle Druckstabilit\u00e4t zu erhalten.",
+        "faq": [
+          {
+            "q": "Wann wird eine Wandscheibe mit Au\u00dfengewinde anstelle eines Innengewindes verwendet?",
+            "a": "Sie wird typischerweise ben\u00f6tigt, wenn flexible Panzerschl\u00e4uche (z. B. von Waschtischarmaturen) mit \u00dcberwurfmutter direkt angeschlossen werden sollen."
+          },
+          {
+            "q": "Ist die Montageplatte bei starkem Zug stabil genug?",
+            "a": "Ja, durch die drei integrierten Schraub\u00f6sen wird die Hebelkraft gro\u00dffl\u00e4chig abgeleitet, sodass die Wandbefestigung extrem stabil ist."
+          },
+          {
+            "q": "K\u00f6nnen Verl\u00e4ngerungen aufgeschraubt werden?",
+            "a": "Sollte die Wandscheibe zu tief in der Wand sitzen, k\u00f6nnen problemlos handels\u00fcbliche Hahnverl\u00e4ngerungen aus Messing aufgeschraubt werden."
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "seo_p1": "Die Verschraubung mit Au\u00dfengewinde aus Messing natur (Metal Union Male Thread Yellow Brass) erm\u00f6glicht l\u00f6sbare Verbindungen zwischen PP-R und Metall auf h\u00f6chstem Qualit\u00e4tsniveau.",
+        "seo_p2": "Das unbeschichtete Qualit\u00e4tsmessing ist fest mit der verschwei\u00dfbaren PP-R-Muffe verbunden. Ein integrierter Dichtring garantiert Sicherheit in allen g\u00e4ngigen SDR-Druckstufen.",
+        "seo_p3": "Eingesetzt vornehmlich in Trinkwasserinstallationen f\u00fcr den Anschluss von Wasserz\u00e4hlern oder Pumpen, die zu Wartungszwecken schnell demontiert werden m\u00fcssen.",
+        "faq": [
+          {
+            "q": "Eignet sich dieses T-St\u00fcck f\u00fcr den Anschluss von Entleerungsventilen?",
+            "a": "Ja, das Innengewinde im Abzweig ist die Standardl\u00f6sung zur direkten Einschraubung von Entleerungs- oder KFE-H\u00e4hnen am tiefsten Punkt."
+          },
+          {
+            "q": "Ist der Messingeinsatz fest verankert?",
+            "a": "Durch eine spezielle R\u00e4ndelung am Messingeinsatz wird dieser unl\u00f6sbar vom PP-R umschlossen, was Verdrehen beim Gewindeschneiden verhindert."
+          },
+          {
+            "q": "Reduziert das Gewinde den Durchfluss im Hauptstrang?",
+            "a": "Nein, der Hauptstrang des T-St\u00fccks (der Durchgang) ist vollquerschnittig und str\u00f6mungsoptimiert."
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "seo_p1": "Die Verschraubung mit Innengewinde aus Messing natur (Metal Union Female Thread Yellow Brass) ist die ideale L\u00f6sung f\u00fcr hochbelastbare, trennbare Rohrverbindungen.",
+        "seo_p2": "Ausgestattet mit einer hochwertigen Messing-\u00dcberwurfmutter und einem PP-R-Anschwei\u00dfende, bietet diese Verschraubung eine absolut spannungsfreie und dichte Verbindung.",
+        "seo_p3": "Sie wird h\u00e4ufig eingesetzt, um Wartungselemente, Filter oder Ventile im Leitungsnetz einzubinden, die regelm\u00e4\u00dfig gereinigt oder ausgetauscht werden.",
+        "faq": [
+          {
+            "q": "Wo wird das T-St\u00fcck mit Au\u00dfengewinde typischerweise eingesetzt?",
+            "a": "Es ist ideal, um Apparaturen mit Innengewinde oder \u00dcberwurfmuttern (z. B. Schmutzf\u00e4nger oder kleine Umw\u00e4lzpumpen) direkt abzweigen zu lassen."
+          },
+          {
+            "q": "Gibt es bei Au\u00dfengewinden Rissgefahr im Kunststoff?",
+            "a": "Nein, da bei Au\u00dfengewinden die Expansionskraft des Dichtmittels (Teflon) auf den massiven Messingk\u00f6rper und nicht auf den Kunststoff wirkt."
+          },
+          {
+            "q": "Kann ich es in Warmwassersystemen nutzen?",
+            "a": "Selbstverst\u00e4ndlich. Wie alle K Aqua \u00dcbergangsfittings ist es f\u00fcr Dauertemperaturen bis 70\u00b0C und kurzzeitige Spitzen von 95\u00b0C zugelassen."
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "seo_p1": "Die vernickelte Verschraubung mit Au\u00dfengewinde (Metal Union Male Thread) vereint eine edle Optik mit herausragender technischer L\u00f6sbarkeit zwischen Kunststoff- und Metallsystemen.",
+        "seo_p2": "Der vernickelte Gewindeeinsatz sch\u00fctzt effektiv vor \u00e4u\u00dferen Einfl\u00fcssen und Korrosion, w\u00e4hrend der PP-R-K\u00f6rper die gewohnte Druck- und Temperaturresistenz f\u00fcr SDR-Leitungen aufweist.",
+        "seo_p3": "Besonders in der sichtbaren Vorwandinstallation oder im Heizungsbau bevorzugt, garantiert sie saubere \u00dcberg\u00e4nge zu metallischen Heizk\u00f6rpern oder Verteilern.",
+        "faq": [
+          {
+            "q": "Was ist der Vorteil einer Verschraubung (Union) gegen\u00fcber einer \u00dcbergangsmuffe?",
+            "a": "Die Verschraubung ist trennbar. Das bedeutet, das verbundene Bauteil kann sp\u00e4ter ohne Auftrennen des PP-R Rohres einfach demontiert werden."
+          },
+          {
+            "q": "Ist die Dichtung in der Verschraubung enthalten?",
+            "a": "Ja, K Aqua Verschraubungen werden standardm\u00e4\u00dfig mit einer hochwertigen EPDM-Flachdichtung (f\u00fcr Wasser) geliefert."
+          },
+          {
+            "q": "Darf die \u00dcberwurfmutter mit schwerem Werkzeug angezogen werden?",
+            "a": "Sie sollte mit einem passenden Maulschl\u00fcssel handfest plus eine Vierteldrehung angezogen werden, um die Dichtung nicht zu quetschen."
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "seo_p1": "Die vernickelte Verschraubung mit Innengewinde (Metal Union Female Thread) ist das Premium-Verbindungselement f\u00fcr optisch anspruchsvolle und l\u00f6sbare System\u00fcberg\u00e4nge.",
+        "seo_p2": "Durch die Kombination aus vernickelter Messing-\u00dcberwurfmutter und robustem Polypropylen (PP-R) entsteht eine formstabile, dauerhaft abgedichtete Verbindung f\u00fcr hohe Netzdruckstufen.",
+        "seo_p3": "Dieses Formteil ist die bevorzugte Wahl bei der Anbindung von W\u00e4rmetauschern oder Pumpengruppen im Heizungskeller, bei denen Korrosionsschutz wichtig ist.",
+        "faq": [
+          {
+            "q": "Wo wird diese Au\u00dfengewinde-Verschraubung ben\u00f6tigt?",
+            "a": "Oft als Ger\u00e4teanschlussverschraubung bei Wasserz\u00e4hlern oder W\u00e4rmetauschern, die ein Innengewinde am Geh\u00e4use aufweisen."
+          },
+          {
+            "q": "Bleibt das PP-R beim Festziehen spannungsfrei?",
+            "a": "Ja, die lose \u00dcberwurfmutter f\u00e4ngt die Torsionskr\u00e4fte beim Anziehen auf, sodass keine Drehspannung in das verschwei\u00dfte Rohrnetz \u00fcbertragen wird."
+          },
+          {
+            "q": "Ist das Messingmaterial trinkwasserzertifiziert?",
+            "a": "Wir verarbeiten exklusiv hochreines DZR-Messing, welches alle Normen der europ\u00e4ischen Trinkwasserverordnung (UBA-Liste) erf\u00fcllt."
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "seo_p1": "Das 90\u00b0-T-St\u00fcck mit Au\u00dfengewinde (Tee 90\u00b0 Male Thread) erm\u00f6glicht den nahtlosen \u00dcbergang von einem durchgehenden PP-R Strang auf einen metallischen Abzweig.",
+        "seo_p2": "Der T-K\u00f6rper aus PP-R gew\u00e4hrleistet eine ungest\u00f6rte L\u00e4ngsstr\u00f6mung, w\u00e4hrend der abzweigende Metalleinsatz (Au\u00dfengewinde) h\u00f6chsten Scherkr\u00e4ften und Systemdr\u00fccken trotzt.",
+        "seo_p3": "Ideal f\u00fcr die direkte Installation von Sensoren, Entleerungsventilen oder Manometern mitten im Leitungsverlauf, ohne das Hauptnetz mechanisch zu schw\u00e4chen.",
+        "faq": [
+          {
+            "q": "Welche Vorteile hat der Einschwei\u00dfsattel gegen\u00fcber einem T-St\u00fcck?",
+            "a": "Er erm\u00f6glicht nachtr\u00e4gliche Abzweige ohne Trennung der Hauptleitung und minimiert den Eingriff in die Systemintegrit\u00e4t."
+          },
+          {
+            "q": "Wie wird der Sattel montiert?",
+            "a": "Das Hauptrohr wird mit einem Spezialbohrer angebohrt, anschlie\u00dfend werden Rohr und Sattel zeitgleich erw\u00e4rmt und passgenau verschmolzen."
+          },
+          {
+            "q": "Eignet er sich f\u00fcr Sprinkleranlagen?",
+            "a": "Der K Aqua Sattelabzweig wird in einigen internationalen M\u00e4rkten erfolgreich f\u00fcr die Anbindung von Sprinklerk\u00f6pfen im Leichtbau eingesetzt."
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "seo_p1": "Das 90\u00b0-T-St\u00fcck mit Innengewinde (Tee 90\u00b0 Female Thread) ist eine vielseitige Komponente, um eine Armatur oder einen F\u00fchler direkt in eine durchgehende PP-R Leitung zu integrieren.",
+        "seo_p2": "Mit zwei Schwei\u00dfmuffen f\u00fcr den Durchfluss und einem massiven Innengewinde-Abzweig erf\u00fcllt dieses Bauteil alle Anforderungen an die Stabilit\u00e4t innerhalb der SDR-Druckklassen.",
+        "seo_p3": "Oft verwendet f\u00fcr den Anschluss von Probenahmeventilen in Trinkwasserverteilungen oder als Schnittstelle f\u00fcr Thermometer in Heizungssystemen.",
+        "faq": [
+          {
+            "q": "Bietet der Sattel mit Au\u00dfengewinde die gleiche Festigkeit?",
+            "a": "Absolut. Der Messingeinsatz ist tief in der PP-R Matrix verankert, wodurch das Bauteil voll druckfest (PN 25) bleibt."
+          },
+          {
+            "q": "Gibt es Limitierungen bei der Abzweiggr\u00f6\u00dfe?",
+            "a": "Der Durchmesser des Sattelabzweigs muss technisch bedingt immer signifikant kleiner sein als der Durchmesser der Hauptleitung (z. B. 63 mm auf 1/2\")."
+          },
+          {
+            "q": "Kann der Sattel auch an Faserrohre geschwei\u00dft werden?",
+            "a": "Ja, er ist f\u00fcr alle K Aqua Rohrtypen (Standard, PPRCT, Faser, UV) nach lokaler Anbohrung gleicherma\u00dfen geeignet."
+          }
+        ]
+      },
+      "union": {
+        "seo_p1": "Die Vollkunststoff-Verschraubung (Union) ist ein komplett aus Polypropylen (PP-R) gefertigtes Verbindungselement, das eine l\u00f6sbare Verbindung ohne metallische Bauteile schafft.",
+        "seo_p2": "Mit einem zuverl\u00e4ssigen Dichtsystem und robusten \u00dcberwurfmuttern aus Kunststoff h\u00e4lt diese Verschraubung dem Standard-Betriebsdruck des PP-R Rohrsystems voll stand.",
+        "seo_p3": "Sie ist unverzichtbar f\u00fcr vollkommen korrosionsfreie Systeme, wie in der chemischen Industrie oder bei aggressiven Medien, wo Metallkontakt strikt vermieden werden muss.",
+        "faq": [
+          {
+            "q": "Wann w\u00e4hle ich einen PP-R Flansch anstelle eines metallischen Losflansches?",
+            "a": "Ein PP-R Flansch wird genutzt, wenn das F\u00f6rdermedium stark korrosiv ist und jeglicher Kontakt mit Metall vermieden werden muss (Vollkunststoffsystem)."
+          },
+          {
+            "q": "Gibt es Druckeinschr\u00e4nkungen bei Voll-Kunststoffflanschen?",
+            "a": "Da Kunststoff flexibler als Stahl ist, sind die maximalen Nenndr\u00fccke bei Kunststoffflanschen in den gr\u00f6\u00dferen Dimensionen leicht reduziert."
+          },
+          {
+            "q": "Werden spezielle Unterlegscheiben f\u00fcr die Schrauben ben\u00f6tigt?",
+            "a": "Ja, es wird dringend empfohlen, gro\u00dffl\u00e4chige Unterlegscheiben zu nutzen, um die Spannkraft der Schraube gleichm\u00e4\u00dfig auf den Kunststoff zu verteilen."
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "seo_p1": "Die Wasserz\u00e4hler-Verschraubung (Union for Watermeters) wurde spezifisch f\u00fcr die spannungsfreie und normgerechte Einbindung von Wasserz\u00e4hlern in PP-R Leitungen entwickelt.",
+        "seo_p2": "Die Konstruktion umfasst ein verschwei\u00dfbares PP-R Ende und eine Plombierm\u00f6glichkeit an der massiven \u00dcberwurfmutter, ausgelegt auf die Standard-Netzdr\u00fccke von Trinkwassersystemen.",
+        "seo_p3": "Sie erlaubt einen schnellen und sicheren Wechsel der Z\u00e4hleinheiten ohne Werkzeugverschlei\u00df und verhindert Leckagen durch eine passgenaue Flachdichtung.",
+        "faq": [
+          {
+            "q": "Was zeichnet eine Wasserz\u00e4hlerverschraubung aus?",
+            "a": "Sie verf\u00fcgt typischerweise \u00fcber eine Plombierm\u00f6glichkeit und spezielle Gewindedimensionen, die exakt auf genormte Wasserz\u00e4hler abgestimmt sind."
+          },
+          {
+            "q": "Sind die Dichtungen f\u00fcr Hei\u00dfwasser ausgelegt?",
+            "a": "Die mitgelieferten Spezialdichtungen sind je nach Ausf\u00fchrung f\u00fcr Kaltwasserz\u00e4hler oder auch f\u00fcr Hei\u00dfwasser (W\u00e4rmemengenz\u00e4hler) spezifiziert."
+          },
+          {
+            "q": "Kann das PP-R Rohr das Gewicht des Wasserz\u00e4hlers tragen?",
+            "a": "Bei gr\u00f6\u00dferen und schwereren Z\u00e4hlern (Hausanschluss) empfehlen wir eine separate Abst\u00fctzung des Z\u00e4hlers, um das Rohrnetz nicht mechanisch zu belasten."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "seo_p1": "Der PP-R Kugelhahn mit PP-Kugel (PP-R Ball Valve Ball in PP) ist eine vollst\u00e4ndig korrosionsfreie Absperrarmatur f\u00fcr h\u00f6chste hygienische Anspr\u00fcche.",
+        "seo_p2": "Dieses Vollkunststoffventil verf\u00fcgt \u00fcber einen langlebigen PP-R-K\u00f6rper und eine pr\u00e4zise gefertigte Kugel aus Polypropylen. Es h\u00e4lt den Systemdr\u00fccken der SDR-Klassen zuverl\u00e4ssig stand.",
+        "seo_p3": "Es wird h\u00e4ufig in chemischen Industrieanlagen oder bei demineralisiertem Wasser eingesetzt, da es jeglichen Metallkontakt mit dem gef\u00f6rderten Medium systematisch ausschlie\u00dft.",
+        "faq": [
+          {
+            "q": "Was ist der Vorteil einer Kunststoffkugel im Ventil?",
+            "a": "Sie verhindert Korrosion und Ionenabgabe an das Medium, was f\u00fcr Reinstwasser oder aggressive Chemikalien zwingend erforderlich ist."
+          },
+          {
+            "q": "Ist das Ventil auch f\u00fcr Hei\u00dfwasser geeignet?",
+            "a": "Ja, der spezielle thermoplastische Kunststoff der Kugel und die Teflon-Dichtungen (PTFE) garantieren auch bei hohen Temperaturen volle Funktion."
+          },
+          {
+            "q": "Wie wird das Ventil gewartet?",
+            "a": "Die K Aqua PP-R Kugelh\u00e4hne sind durch ihre Konstruktion absolut wartungsfrei und auf jahrzehntelangen, reibungslosen Betrieb ausgelegt."
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "seo_p1": "Der Kugelhahn mit verchromter Messingkugel (PP-R Ball Valve Ball in Brass Chromium Plated) vereint die Schwei\u00dfbarkeit von Kunststoff mit der mechanischen H\u00e4rte von Metall.",
+        "seo_p2": "Eingebettet in einen massiven PP-R-K\u00f6rper sorgt die hochglanzverchromte Messingkugel f\u00fcr extrem reibungsarmes und verschlei\u00dffreies Absperren selbst bei hohen Temperaturdifferenzen.",
+        "seo_p3": "Dies ist die Standardarmatur f\u00fcr die Hauptabsperrung in Trinkwasser- und Heizungsnetzen, die sich durch absolute Zuverl\u00e4ssigkeit und eine lange, wartungsfreie Lebensdauer auszeichnet.",
+        "faq": [
+          {
+            "q": "Bietet die Messingkugel Vorteile beim Durchfluss?",
+            "a": "Ja, die verchromte Messingkugel kann mit geringeren Wandst\u00e4rken gefertigt werden, was einen vollen, widerstandsfreien Durchgang erm\u00f6glicht."
+          },
+          {
+            "q": "Ist die Messingkugel trinkwassergeeignet?",
+            "a": "Selbstverst\u00e4ndlich, wir verwenden ausschlie\u00dflich hochreines, zertifiziertes DZR-Messing, das keine Schwermetalle an das Trinkwasser abgibt."
+          },
+          {
+            "q": "Kann das Ventil in bestehende Metallrohrnetze integriert werden?",
+            "a": "Ja, in Kombination mit \u00dcbergangsmuffen oder Flanschen l\u00e4sst es sich problemlos als Absperrventil in Mischinstallationen einsetzen."
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "seo_p1": "Das 90\u00b0-T-St\u00fcck f\u00fcr Unterputzventile (Tee 90\u00b0 Female Thread for Internal Valve) bildet die Basis f\u00fcr eine unsichtbare und platzsparende Armatureninstallation in der Wand.",
+        "seo_p2": "Es besteht aus einem PP-R-Durchflussk\u00f6rper mit einem speziell tiefgezogenen Messing-Innengewinde im Abzweig, das die Aufnahme von Ventiloberteilen erm\u00f6glicht.",
+        "seo_p3": "Sanit\u00e4rprofis nutzen dieses Bauteil in Vorwandinstallationen f\u00fcr Duschen und Wannen, um Absperrventile \u00e4sthetisch und sicher hinter Fliesen zu integrieren.",
+        "faq": [
+          {
+            "q": "Welche Funktion erf\u00fcllt das Unterputzventil?",
+            "a": "Es erm\u00f6glicht die Strangabsperrung einzelner Nasszellen (z. B. Bad oder K\u00fcche) direkt vor Ort, ohne in den Keller gehen zu m\u00fcssen."
+          },
+          {
+            "q": "Wie tief darf das Ventil in der Wand sitzen?",
+            "a": "Die Einbautiefe ist variabel. Sollte das Ventil durch dicken Fliesenaufbau zu tief sitzen, bieten wir entsprechende Spindelverl\u00e4ngerungen an."
+          },
+          {
+            "q": "Ist die Spindel austauschbar?",
+            "a": "Ja, das gesamte mechanical Innenoberteil (Spindel, Dichtung) kann bei Bedarf herausgeschraubt und ausgetauscht werden, ohne die Wand zu \u00f6ffnen."
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "seo_p1": "Das Unterputzventil-Oberteil in leichter Chromausf\u00fchrung (Concealed Valve Chrome Light Part) bietet eine elegante Sichtkomponente f\u00fcr wandintegrierte Absperrungen.",
+        "seo_p2": "Das Set umfasst einen Griff und eine Rosette aus verchromtem ABS-Kunststoff, passend f\u00fcr die standardisierten Messing-Spindeln unserer Unterputz-Armaturenk\u00f6rper.",
+        "seo_p3": "Es dient der komfortablen und optisch ansprechenden Wasserabsperrung direkt in der Nasszelle, ideal f\u00fcr moderne und kostensensible Objektbauten.",
+        "faq": [
+          {
+            "q": "Ist der Chromgriff im Lieferumfang enthalten?",
+            "a": "Ja, dieses Set beinhaltet das PP-R Ventilunterteil sowie die komplette, hochglanzverchromte Sichtgarnitur inklusive Rosette."
+          },
+          {
+            "q": "Kann die Rosette nach dem Fliesen montiert werden?",
+            "a": "Selbstverst\u00e4ndlich. Der Grundk\u00f6rper wird unter Putz geschwei\u00dft, die Rosette und der Griff werden erst nach Fertigstellung der Wand aufgesteckt."
+          },
+          {
+            "q": "Aus welchem Material besteht der Griff?",
+            "a": "Der Drehgriff besteht aus einer robusten Zinkdruckguss-Legierung (Zamak) mit einer langlebigen, pflegeleichten Chrombeschichtung."
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "seo_p1": "Das schwere Unterputzventil-Oberteil aus verchromtem Messing (Concealed Valve Chrome Heavy Part) ist die Premium-Wahl f\u00fcr exklusive Badezimmerausstattungen.",
+        "seo_p2": "Rosette und Bediengriff sind aus massivem, hochglanzverchromtem Messing gefertigt, was h\u00f6chste mechanische Belastbarkeit und eine edle Haptik sicherstellt.",
+        "seo_p3": "Diese Ausf\u00fchrung widersteht intensiver Beanspruchung in Hotels oder \u00f6ffentlichen Sanit\u00e4ranlagen und bewahrt \u00fcber Jahrzehnte ihren makellosen Glanz.",
+        "faq": [
+          {
+            "q": "Was unterscheidet das 'Long' Modell vom Standard-Unterputzventil?",
+            "a": "Die verl\u00e4ngerte Spindelkonstruktion \u00fcberbr\u00fcckt problemlos tiefe Wandaufbauten, wie dicke Marmorplatten oder Trockenbau-Doppelbeplankungen."
+          },
+          {
+            "q": "Verf\u00fcgt der Griff \u00fcber eine Farbmarkierung?",
+            "a": "Ja, zur einfachen Unterscheidung von Hei\u00df- und Kaltwasserstr\u00e4ngen liegen unseren Garnituren austauschbare Farbmarkierungen (Rot/Blau) bei."
+          },
+          {
+            "q": "Wie wird der Ventilsitz abgedichtet?",
+            "a": "Wir verwenden hochhitzebest\u00e4ndige EPDM-Profildichtungen im Innenoberteil, die extrem resistent gegen chemische Reiniger und thermische Desinfektion sind."
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "seo_p1": "Das Schr\u00e4gsitzventil-Oberteil mit gr\u00fcnem Griff (Straight Seat Valve Upper Part Green Handle) ist die bew\u00e4hrte Mechanik f\u00fcr eine pr\u00e4zise Durchflussregulierung.",
+        "seo_p2": "Ausgestattet mit einer hochwertigen Messingspindel, einer langlebigen EPDM-Dichtung und dem markanten gr\u00fcnen Handrad, ist es f\u00fcr hohe Systemdr\u00fccke und Temperaturen konzipiert.",
+        "seo_p3": "Eingeschraubt in die entsprechenden PP-R-Ventilunterteile dient es der sicheren Strangabsperrung in Heizungskellern und Hauptverteilungen der Geb\u00e4udetechnik.",
+        "faq": [
+          {
+            "q": "Handelt es sich bei diesem Bauteil um ein Ersatzteil?",
+            "a": "Ja, es ist das komplette mechanische Innenleben (Oberteil) des Unterputzventils, ideal f\u00fcr Wartungszwecke oder den modularen Aufbau."
+          },
+          {
+            "q": "Muss bei einem Tropfen das ganze Ventil getauscht werden?",
+            "a": "Nein, es gen\u00fcgt, das Wasser abzustellen und dieses Messing-Oberteil auszutauschen. Der PP-R Grundk\u00f6rper bleibt in der Wand."
+          },
+          {
+            "q": "Wie oft muss das Oberteil gefettet werden?",
+            "a": "Das Spindelgewinde ist werkseitig mit einer lebensmittelechten Dauerschmierung versehen, eine nachtr\u00e4gliche Wartung ist nicht erforderlich."
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "seo_p1": "Die Verl\u00e4ngerungsst\u00fccke (Elongation Pieces) sind unverzichtbare Probleml\u00f6ser, wenn Armaturenanschl\u00fcsse zu tief im Mauerwerk verborgen sind.",
+        "seo_p2": "Diese massiven Messingkomponenten verl\u00e4ngern das Gewinde von Unterputzventilen millimetergenau nach au\u00dfen, ohne den Flie\u00dfquerschnitt zu verringern oder die Druckfestigkeit zu beeintr\u00e4chtigen.",
+        "seo_p3": "Sie retten Installationen bei nachtr\u00e4glich erh\u00f6hten Wandaufbauten oder dicken Fliesenbel\u00e4gen und stellen die problemlose Montage der sichtbaren Bedienelemente sicher.",
+        "faq": [
+          {
+            "q": "Wann ben\u00f6tige ich eine Ventil-Verl\u00e4ngerung?",
+            "a": "Wenn der Putz oder die Fliesen dicker ausfallen als geplant und die Spindel des Unterputzventils nicht mehr weit genug aus der Wand ragt."
+          },
+          {
+            "q": "K\u00f6nnen mehrere Verl\u00e4ngerungen kombiniert werden?",
+            "a": "Technisch ist das m\u00f6glich, aus Stabilit\u00e4tsgr\u00fcnden empfehlen wir jedoch, stattdessen sofort ein langes Oberteil ('Long') zu verwenden."
+          },
+          {
+            "q": "Ist das Verl\u00e4ngerungsgewinde genormt?",
+            "a": "Ja, die Gewinde unserer Verl\u00e4ngerungen passen exakt auf die Standard-Oberteile der K Aqua Unterputzventile."
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "seo_p1": "Die Verteilerbatterie mit Innengewinde (Battery Female Thread) b\u00fcndelt mehrere Abg\u00e4nge in einem kompakten, vormontierten PP-R-Bauteil.",
+        "seo_p2": "Hergestellt aus einem durchgehenden Polypropylen-K\u00f6rper mit integrierten Messing-Innengewinden, bietet sie absolute Formstabilit\u00e4t bei perfektem Stichma\u00df f\u00fcr Armaturen.",
+        "seo_p3": "Diese Batterie beschleunigt die Installation von Waschtisch- oder Duscharmaturen drastisch, da aufwendiges Einmessen und Ausrichten einzelner Wandscheiben entf\u00e4llt.",
+        "faq": [
+          {
+            "q": "Welches Stichma\u00df weist die Armaturenbatterie auf?",
+            "a": "Sie ist auf das internationale Standard-Stichma\u00df von 150 mm fixiert, passend f\u00fcr 99% aller handels\u00fcblichen Aufputz-Mischarmaturen."
+          },
+          {
+            "q": "Kann die Batterie gebogen werden?",
+            "a": "Nein, die integrierte Kunststoffbr\u00fccke sorgt f\u00fcr starre, exakte Abst\u00e4nde. F\u00fcr abweichende Ma\u00dfe empfehlen wir Einzelwandscheiben."
+          },
+          {
+            "q": "Wie wird die Batterie befestigt?",
+            "a": "Sie verf\u00fcgt \u00fcber mehrere vorgebohrte Montage\u00f6sen, um sie mit Schrauben sicher an Ziegel-, Beton- oder Trockenbauw\u00e4nden zu fixieren."
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "seo_p1": "Die einstellbare Verteilerbatterie (Adjustable Battery Female Thread) bietet maximale Flexibilit\u00e4t bei der Installation von Wandarmaturen mit abweichenden Stichma\u00dfen.",
+        "seo_p2": "Dank eines verschiebbaren PP-R-Schienensystems lassen sich die Positionen der integrierten Innengewinde pr\u00e4zise justieren und anschlie\u00dfend fest arretieren.",
+        "seo_p3": "Sie ist die ideale L\u00f6sung f\u00fcr Sanierungsprojekte oder spezielle Spezialarmaturen, bei denen das Standard-Stichma\u00df von 150 mm nicht angewendet werden kann.",
+        "faq": [
+          {
+            "q": "Wie flexibel ist die Abstandsverstellung?",
+            "a": "Durch die gleitende Schiene lassen sich die Wandscheiben stufenlos auf das exakt ben\u00f6tigte Stichma\u00df der Mischarmatur einstellen."
+          },
+          {
+            "q": "Besteht bei der verstellbaren Version die Gefahr von Verschiebungen?",
+            "a": "Nachdem das korrekte Ma\u00df eingestellt wurde, werden die Wandscheiben fest arretiert. Ein Verrutschen w\u00e4hrend des Fliesenlegens ist somit ausgeschlossen."
+          },
+          {
+            "q": "Ist eine Wasserwaage zur Ausrichtung n\u00f6tig?",
+            "a": "Ja, wie bei allen Armaturenanschl\u00fcssen sollte die Montageplatte vor dem endg\u00fcltigen Fixieren sorgf\u00e4ltig mit einer Wasserwaage horizontiert werden."
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "seo_p1": "Der Einschwei\u00dfsattel (Weld-in Saddle) ist eine revolution\u00e4re L\u00f6sung, um nachtr\u00e4gliche Abzweige ohne das Durchtrennen der Hauptleitung zu realisieren.",
+        "seo_p2": "Das sattelf\u00f6rmige PP-R-Formteil wird nach dem Anbohren des Hauptrohres direkt auf die Rohrwandung aufgeschwei\u00dft. Dies garantiert dieselbe Druckfestigkeit wie das Originalrohr.",
+        "seo_p3": "In industriellen Netzwerken und Steigleitungen spart dieses Bauteil enorme Montagezeiten, da Hauptstr\u00e4nge f\u00fcr Erweiterungen nicht komplett demontiert werden m\u00fcssen.",
+        "faq": [
+          {
+            "q": "Was ist der Unterschied zum Sattel mit Metallgewinde?",
+            "a": "Dieser Einschwei\u00dfsattel verf\u00fcgt \u00fcber einen reinen PP-R Abzweig, in den direkt ein Rohr oder ein weiterer Fitting (Muffe) eingeschwei\u00dft werden kann."
+          },
+          {
+            "q": "Muss die Rohrwand des Hauptrohres eine Mindestst\u00e4rke haben?",
+            "a": "Nein, der Sattel kann bei fachgerechter Anbohrung auf alle K Aqua Druckstufen (SDR 6 bis SDR 17) sicher aufgeschwei\u00dft werden."
+          },
+          {
+            "q": "Wie lange dauert der Anbohr- und Schwei\u00dfvorgang?",
+            "a": "Ein erfahrener Installateur ben\u00f6tigt f\u00fcr das Anbohren, das Erw\u00e4rmen mit dem speziellen Sattelwerkzeug und das F\u00fcgen maximal 3-5 Minuten."
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "seo_p1": "Der Einschwei\u00dfsattel mit Innengewinde (Weld-in Saddle Female Thread) kombiniert die Vorteile der schnellen Sattelmontage mit einem direkten Metallanschluss.",
+        "seo_p2": "Zus\u00e4tzlich zum PP-R-Sattelk\u00f6rper verf\u00fcgt dieses Fitting \u00fcber ein fest verankertes Messing-Innengewinde, das eine extrem verdrehsichere Basis f\u00fcr Ventile bietet.",
+        "seo_p3": "Ideal f\u00fcr die nachtr\u00e4gliche Installation von Entleerungsventilen, Entl\u00fcftern oder Messf\u00fchlern direkt in bestehende Hauptleitungen ohne aufwendige Rohrnetztrennung.",
+        "faq": [
+          {
+            "q": "Worin besteht der Hauptvorteil dieses Einschwei\u00dfsattels?",
+            "a": "Er erm\u00f6glicht die direkte Installation eines Metall-Innengewindes an einer bestehenden Rohrleitung, was extrem zeit- und platzsparend ist."
+          },
+          {
+            "q": "K\u00f6nnen hier Thermometer eingeschraubt werden?",
+            "a": "Ja, der Sattel ist die ideale Schnittstelle, um Temperatursensoren oder kleine Manometer dauerhaft und druckdicht in Heizungsnetze zu integrieren."
+          },
+          {
+            "q": "Ist das Messinggewinde vor Ausrei\u00dfen gesch\u00fctzt?",
+            "a": "Absolut. Der Messingeinsatz ist tief in die PP-R-Struktur eingespritzt und durch eine spezielle R\u00e4ndelung mechanisch unl\u00f6sbar verankert."
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "seo_p1": "Der Einschwei\u00dfsattel mit Au\u00dfengewinde (Weld-in Saddle Male Thread) erlaubt den sofortigen Anschluss von Systemkomponenten mit \u00dcberwurfmuttern an ein Basisrohr.",
+        "seo_p2": "Der nahtlos eingeschwei\u00dfte PP-R-Sattel tr\u00e4gt ein massives Au\u00dfengewinde aus Messing, das h\u00f6chsten Hebelkr\u00e4ften und dauerhaften Temperaturwechseln standh\u00e4lt.",
+        "seo_p3": "Diese Komponente wird h\u00e4ufig im Verteilerbau eingesetzt, um Absperrventile oder Pumpenabg\u00e4nge extrem platzsparend und str\u00f6mungsg\u00fcnstig zu montieren.",
+        "faq": [
+          {
+            "q": "F\u00fcr welche Verbindungen eignet sich das Au\u00dfengewinde am Sattel?",
+            "a": "Es ist optimal f\u00fcr den direkten Anschluss von Armaturen mit Innengewinde oder f\u00fcr Verbindungen, die mit einer \u00dcberwurfmutter gesichert werden."
+          },
+          {
+            "q": "Gibt es diesen Sattel f\u00fcr alle Rohrdimensionen?",
+            "a": "Der Einschwei\u00dfsattel ist f\u00fcr Hauptrohre von 40 mm bis 125 mm verf\u00fcgbar, wobei das Au\u00dfengewinde typischerweise 1/2\" oder 3/4\" betr\u00e4gt."
+          },
+          {
+            "q": "Wie wird die Dichtigkeit nach der Anbohrung sichergestellt?",
+            "a": "Durch das Verschmelzen von Sattel und Rohr entsteht eine stoffschl\u00fcssige, homogene Verbindung, die auf molekularer Ebene 100% dicht ist."
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "seo_p1": "Die Rohrschellen (Pipe Clamps) bilden das mechanische Fundament f\u00fcr eine normgerechte und langlebige Befestigung der PP-R-Rohrleitungssysteme.",
+        "seo_p2": "Ausgestattet mit schallentkoppelnden Gummieinlagen und stabilen Stahlscharnieren, nehmen diese Schellen die thermische L\u00e4ngenausdehnung des Rohres sicher auf.",
+        "seo_p3": "Sie sind zwingend erforderlich, um Rohrstr\u00e4nge an W\u00e4nden oder Decken zu fixieren und dabei Rohrger\u00e4usche effektiv von der Geb\u00e4udestruktur zu isolieren.",
+        "faq": [
+          {
+            "q": "Wozu dient die Gummieinlage in der Schelle?",
+            "a": "Die EPDM-Einlage dient der Schallentkopplung gem\u00e4\u00df DIN 4109 und verhindert die \u00dcbertragung von Flie\u00dfger\u00e4uschen auf das Mauerwerk."
+          },
+          {
+            "q": "Sollte die Schelle als Festpunkt oder Losspunkt montiert werden?",
+            "a": "Je nach Anzugsmoment der Schrauben kann die Schelle sowohl als fixierender Festpunkt als auch als gleitender Losspunkt f\u00fcr die thermische L\u00e4ngenausdehnung genutzt werden."
+          },
+          {
+            "q": "Welchen Gewindeanschluss haben die Rohrschellen?",
+            "a": "Unsere Standard-Rohrschellen verf\u00fcgen \u00fcber eine aufgeschwei\u00dfte Kombimutter (M8/M10), die eine flexible Befestigung an g\u00e4ngigen Stockschrauben oder Gewindestangen erm\u00f6glicht."
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "seo_p1": "Der PP-Stahl-Losflansch (Backing Flange PP/Steel SFBF) sorgt f\u00fcr eine hochbelastbare und formstabile Flanschverbindung bei gro\u00dfen Rohrdurchmessern.",
+        "seo_p2": "Ein st\u00e4hlerner Kern, der vollst\u00e4ndig mit robustem Polypropylen (PP) ummantelt ist, verhindert Korrosion komplett und verhindert ein Verbiegen unter hohem Anpressdruck.",
+        "seo_p3": "Dieses Zubeh\u00f6rteil ist entscheidend f\u00fcr den \u00dcbergang auf Gro\u00dfpumpen oder Stahlbeh\u00e4lter in industriellen Anlagen, wo extreme Zugkr\u00e4fte sicher abgeleitet werden m\u00fcssen.",
+        "faq": [
+          {
+            "q": "Warum wird der Stahlkern mit Polypropylen ummantelt?",
+            "a": "Die Kunststoffummantelung sch\u00fctzt den hochfesten Stahl dauerhaft vor Korrosion, was besonders in feuchten Kellern oder aggressiven Industrieumgebungen entscheidend ist."
+          },
+          {
+            "q": "Entspricht das Lochbild den g\u00e4ngigen Normen?",
+            "a": "Ja, das Bohrbild unserer Losflansche ist exakt auf die europ\u00e4ische DIN EN 1092-1 Norm abgestimmt und passt auf alle handels\u00fcblichen Gegenflansche."
+          },
+          {
+            "q": "M\u00fcssen die Schrauben mit einem Drehmomentschl\u00fcssel angezogen werden?",
+            "a": "Wir empfehlen dringend das kreuzweise Anziehen mit einem kalibrierten Drehmomentschl\u00fcssel, um eine gleichm\u00e4\u00dfige Verpressung der Dichtung zu gew\u00e4hrleisten."
+          }
+        ]
+      },
+      "flat-gasket": {
+        "seo_p1": "Die Flachdichtung (Flat Gasket) ist das essentielle Dichtelement f\u00fcr alle Flanschverbindungen innerhalb unseres PP-R Systems.",
+        "seo_p2": "Aus hochwertigem EPDM oder anderen Elastomeren gestanzt, ist die Dichtung speziell auf die glatten Stirnfl\u00e4chen der Bundkragen abgestimmt und h\u00e4lt hohem Netzdruck stand.",
+        "seo_p3": "Sie gleicht mikroskopische Unebenheiten aus und sorgt bei Flansch\u00fcberg\u00e4ngen in der Industrie oder Heizungstechnik f\u00fcr eine 100-prozentig leckagefreie und langlebige Verbindung.",
+        "faq": [
+          {
+            "q": "Aus welchem Material besteht die Flachdichtung?",
+            "a": "Standardm\u00e4\u00dfig bestehen unsere Flanschdichtungen aus hochdruckfestem EPDM, das f\u00fcr Trinkwasser und Heizungswasser hervorragend geeignet ist."
+          },
+          {
+            "q": "Darf die Dichtung wiederverwendet werden?",
+            "a": "Nein, nach dem L\u00f6sen einer Flanschverbindung muss aus Sicherheitsgr\u00fcnden zwingend eine neue Flachdichtung eingesetzt werden."
+          },
+          {
+            "q": "Ist die Dichtung best\u00e4ndig gegen Chemikalien?",
+            "a": "EPDM bietet eine gute Best\u00e4ndigkeit gegen viele w\u00e4ssrige L\u00f6sungen. F\u00fcr spezielle industrielle Chemikalien pr\u00fcfen Sie bitte vorab unsere Best\u00e4ndigkeitslisten."
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "seo_p1": "Die Flachdichtung f\u00fcr Verschraubungen (Flat Gasket for Unions PP-R) ist pr\u00e4zise f\u00fcr unsere Kunststoff- und Metallverschraubungen dimensioniert.",
+        "seo_p2": "Das trinkwasserzugelassene Elastomermaterial bietet eine hohe R\u00fcckstellkraft und ist resistent gegen\u00fcber dauerhaften thermischen Belastungen in Warmwassernetzen.",
+        "seo_p3": "Ein regelm\u00e4\u00dfiger Austausch dieser Dichtung nach Wartungsarbeiten an Ventilen oder Pumpen garantiert die dauerhafte Dichtigkeit der Schraubverbindung.",
+        "faq": [
+          {
+            "q": "Wie stark darf die Verschraubung angezogen werden?",
+            "a": "Um die Dichtung nicht zu zerst\u00f6ren, sollte die \u00dcberwurfmutter handfest und anschlie\u00dfend mit Werkzeug nur leicht (ca. 1/4 Drehung) nachgezogen werden."
+          },
+          {
+            "q": "Gibt es diese Dichtungen auch in anderen Materialien?",
+            "a": "F\u00fcr extreme Temperaturanforderungen oder spezielle industrielle Medien k\u00f6nnen wir auf Anfrage auch Dichtungen aus FKM (Viton) oder PTFE anbieten."
+          },
+          {
+            "q": "Passt diese Dichtung auf Fremdfabrikate?",
+            "a": "Sie ist ma\u00dfgeschneidert f\u00fcr die Nut- und Federkonstruktion der K Aqua Verschraubungen, kann aber auch bei ma\u00dfgleichen Fremdverschraubungen verwendet werden."
+          }
+        ]
+      },
+      "plug": {
+        "seo_p1": "Der Verschlussstopfen (Plug) dient dem tempor\u00e4ren oder dauerhaften Verschlie\u00dfen von offenen Gewindeanschl\u00fcssen in der Sanit\u00e4rinstallation.",
+        "seo_p2": "Aus stabilem PP-R gespritzt und oft mit einem integrierten Dichtring versehen, widersteht der Stopfen dem vollen Pr\u00fcfdruck bei der Anlagenabnahme.",
+        "seo_p3": "Er sch\u00fctzt das Leitungssystem w\u00e4hrend der Bauphase vor Verschmutzungen und verschlie\u00dft Wandscheiben zuverl\u00e4ssig bis zur endg\u00fcltigen Montage der Auslaufarmaturen.",
+        "faq": [
+          {
+            "q": "H\u00e4lt der Stopfen dem Wasserdruck w\u00e4hrend der Bauphase stand?",
+            "a": "Ja, er ist so konstruiert, dass er dem vollen Pr\u00fcfdruck (oftmals mehr als 15 bar) bei der Druckprobe des Leitungsnetzes standh\u00e4lt."
+          },
+          {
+            "q": "Muss der Stopfen zus\u00e4tzlich mit Teflon abgedichtet werden?",
+            "a": "Unsere Stopfen verf\u00fcgen meist \u00fcber einen integrierten O-Ring, sodass kein zus\u00e4tzliches Dichtband wie Teflon oder Hanf ben\u00f6tigt wird."
+          },
+          {
+            "q": "Kann der Stopfen dauerhaft in der Wand verbleiben?",
+            "a": "Er ist prim\u00e4r als Baustopfen konzipiert. F\u00fcr dauerhafte Blindverschl\u00fcsse empfehlen wir entsprechende Messing-Blindstopfen."
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "seo_p1": "Der Rohrschneider d20-d40 (Pipe Cutter 20-40) ist das unerl\u00e4ssliche Pr\u00e4zisionswerkzeug f\u00fcr saubere Kappschnitte bei kleinen bis mittleren Rohrdimensionen.",
+        "seo_p2": "Ausgestattet mit einer titanbeschichteten Klinge und einer mechanischen Hebel\u00fcbersetzung, garantiert die Schere einen absolut rechtwinkligen Schnitt durch PP-R Rohre ohne Materialverformung.",
+        "seo_p3": "Ein sauberer, gratfreier Schnitt ist die Grundvoraussetzung f\u00fcr eine normgerechte und langlebige Schwei\u00dfverbindung. Dieses Werkzeug ist der st\u00e4ndige Begleiter jedes Installateurs.",
+        "faq": [
+          {
+            "q": "Warum ist ein spezieller Rohrschneider so wichtig?",
+            "a": "Ein rechtwinkliger und gratfreier Schnitt ohne Quetschungen ist absolut zwingend, um eine perfekte, hohlraumfreie Schwei\u00dfverbindung zu gew\u00e4hrleisten."
+          },
+          {
+            "q": "Kann die Klinge ausgetauscht werden?",
+            "a": "Ja, bei Verschlei\u00df oder Besch\u00e4digung l\u00e4sst sich die hochfeste Stahlklinge problemlos durch ein Original-Ersatzteil austauschen."
+          },
+          {
+            "q": "Funktioniert die Schere auch bei kalten Temperaturen?",
+            "a": "Die Kraft\u00fcbersetzung funktioniert immer, jedoch sollte das PP-R Rohr bei Frosttemperaturen nicht geschnitten werden, da es splittern k\u00f6nnte."
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "seo_p1": "Der gro\u00dfe Rohrschneider d50-d125 (Pipe Cutter 50-125) ist ein robustes Rollenschneidwerkzeug f\u00fcr gro\u00dfvolumige Kunststoffrohre.",
+        "seo_p2": "Sein massiver Stahlk\u00f6rper und das speziell geh\u00e4rtete Schneidrad durchdringen m\u00fchelos dicke Rohrwandungen der gro\u00dfen SDR-Klassen mit absoluter Planparallelit\u00e4t.",
+        "seo_p3": "Ideal f\u00fcr die Vorbereitung von Hauptverteilungsleitungen im Industriebau, verhindert dieser Schneider spannungsinduzierte Risse, die bei einfachen S\u00e4geschnitten auftreten k\u00f6nnten.",
+        "faq": [
+          {
+            "q": "Wie funktioniert das Schneiden von derart dicken Rohren?",
+            "a": "Das Werkzeug wird um das Rohr gespannt, das Schneidrad wird langsam zugestellt und der Schneider wird in gleichm\u00e4\u00dfigen Drehbewegungen um das Rohr gef\u00fchrt."
+          },
+          {
+            "q": "Schneidet dieses Werkzeug auch Faserverbundrohre?",
+            "a": "Ja, das speziell geh\u00e4rtete Schneidrad durchtrennt auch unsere glasfaserverst\u00e4rkten PPRCT Rohre m\u00fchelos und extrem pr\u00e4zise."
+          },
+          {
+            "q": "Ersetzt der Rollenschneider das Anfasen?",
+            "a": "Das Muffenschwei\u00dfen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung f\u00fcr den Schwei\u00dfprozess."
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "seo_p1": "Der Hochleistungs-Rohrschneider d50-d125 V1 (Pipe Cutter 50-125-1) ist eine modifizierte Version f\u00fcr besonders schnelle und ergonomische Schnitte.",
+        "seo_p2": "Mit einer optimierten Spindelf\u00fchrung und einem integrierten Schnellr\u00fccklauf-Mechanismus beschleunigt er den Schneidprozess massiver PP-R Rohre enorm.",
+        "seo_p3": "F\u00fcr Bauprojekte mit hohem Rohrverbrauch ab 50 mm Durchmesser konzipiert, reduziert dieses Werkzeug die physische Belastung des Anwenders auf ein Minimum.",
+        "faq": [
+          {
+            "q": "Was bedeutet 'Schnellr\u00fccklauf-Mechanismus'?",
+            "a": "Nach Beendigung des Schnitts kann das Schneidrad per Knopfdruck sofort in die Ausgangsposition gefahren werden, ohne l\u00e4stiges Zur\u00fcckkurbeln."
+          },
+          {
+            "q": "Eignet sich dieses Modell besser f\u00fcr den station\u00e4ren Einsatz?",
+            "a": "Es ist mobil, l\u00e4sst sich aber dank seiner massiven Bauform und der pr\u00e4zisen Spindelf\u00fchrung hervorragend f\u00fcr station\u00e4re Vorfertigungen nutzen."
+          },
+          {
+            "q": "Gibt es Ersatzteile f\u00fcr diesen Rohrschneider?",
+            "a": "Ja, sowohl das Schneidrad als auch die F\u00fchrungsrollen sind als Original-Ersatzteile dauerhaft lieferbar."
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "seo_p1": "Das Handschwei\u00dfger\u00e4t d20-d32 im Komplettset (Hand Welding Machine 20-32 Complete Set) ist die professionelle Basisstation f\u00fcr kleine Dimensionen.",
+        "seo_p2": "Es beinhaltet ein thermostatgesteuertes 800-Watt-Heizelement, teflonbeschichtete Schwei\u00dfwerkzeuge sowie einen stabilen St\u00e4nder in einem robusten Metallkoffer.",
+        "seo_p3": "Konzipiert f\u00fcr die schnelle und normgerechte Vorwand- und Etageninstallation, h\u00e4lt das Ger\u00e4t die erforderliche Schwei\u00dftemperatur von 260\u00b0C jederzeit absolut konstant.",
+        "faq": [
+          {
+            "q": "Warum ist ein elektronisches Thermostat so wichtig?",
+            "a": "Nur ein pr\u00e4zises Thermostat garantiert die DVS-konforme Dauertemperatur von exakt 260\u00b0C, die f\u00fcr eine sichere PP-R Verschmelzung zwingend n\u00f6tig ist."
+          },
+          {
+            "q": "Wie lange dauert die Aufheizphase?",
+            "a": "Dank des starken 800-Watt-Heizelements erreicht das Ger\u00e4t die Betriebstemperatur in der Regel in unter 10 Minuten."
+          },
+          {
+            "q": "Welche Werkzeuge sind im Koffer enthalten?",
+            "a": "Das Set umfasst das Heizger\u00e4t, den Standfu\u00df, Teflondorne f\u00fcr 20, 25 und 32 mm, Inbusschl\u00fcssel und Montageschrauben im Stahlkoffer."
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "seo_p1": "Das Handschwei\u00dfger\u00e4t d20-d63 im Komplettset (Hand Welding Machine 20-63 Complete Set) deckt die gesamte Bandbreite der klassischen Haustechnik ab.",
+        "seo_p2": "Mit einer h\u00f6heren Heizleistung und doppelten Steckpl\u00e4tzen f\u00fcr Heizdorne erm\u00f6glicht dieses Ger\u00e4t das simultane Vorbereiten verschiedener Dimensionen ohne Werkzeugwechsel.",
+        "seo_p3": "Das robuste Komplettset ist f\u00fcr den rauen Baustellenalltag konzipiert und liefert auch bei widrigen Witterungsbedingungen eine kompromisslos pr\u00e4zise Schwei\u00dftemperatur.",
+        "faq": [
+          {
+            "q": "K\u00f6nnen mehrere Schwei\u00dfwerkzeuge gleichzeitig montiert werden?",
+            "a": "Ja, der breite Heizschwert-Kopf erlaubt die simultane Montage von bis zu drei Heizdorn-Paaren f\u00fcr ein unterbrechungsfreies Arbeiten."
+          },
+          {
+            "q": "Gibt das Ger\u00e4t ein Signal bei Erreichen der Temperatur?",
+            "a": "Eine gut sichtbare Kontrollleuchte signalisiert dem Anwender, sobald die Betriebstemperatur von 260\u00b0C erreicht und stabilisiert ist."
+          },
+          {
+            "q": "Ist das Ger\u00e4t f\u00fcr den Dauerbetrieb auf Gro\u00dfbaustellen geeignet?",
+            "a": "Absolut. Das langlebige Heizelement und die hitzebest\u00e4ndige Verkabelung sind speziell f\u00fcr den industriellen Schichtbetrieb ausgelegt."
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "seo_p1": "Das Handschwei\u00dfger\u00e4t mit Spiegel d50-d125 (Hand Welding Machine Mirror 50-125) ist speziell f\u00fcr gro\u00dfe Muffenschwei\u00dfungen entwickelt worden.",
+        "seo_p2": "Ein extrem flacher, gro\u00dffl\u00e4chiger Heizspiegel garantiert die gleichm\u00e4\u00dfige Erw\u00e4rmung massiver Fittings und Rohre. Die Leistung von \u00fcber 1200 Watt sichert schnelle Aufheizphasen.",
+        "seo_p3": "Zwingend erforderlich f\u00fcr die manuelle Verarbeitung gro\u00dfer Versorgungsstr\u00e4nge in der Industrie, bei denen Temperaturabf\u00e4lle w\u00e4hrend des Schwei\u00dfvorgangs katastrophal w\u00e4ren.",
+        "faq": [
+          {
+            "q": "Warum ben\u00f6tigt man f\u00fcr gro\u00dfe Rohre einen Flachspiegel?",
+            "a": "Gro\u00dfe Durchmesser (ab 50 mm) haben eine enorme Masse. Der flache Spiegel bietet eine extrem gro\u00dfe Kontaktfl\u00e4che, um die Hitze schnell und gleichm\u00e4\u00dfig in den Kunststoff einzubringen."
+          },
+          {
+            "q": "Wie schwer ist das Ger\u00e4t?",
+            "a": "Trotz der hohen Leistung ist das Ger\u00e4t ergonomisch ausbalanciert, erfordert bei Rohren ab 90 mm jedoch meist zwei Installateure zum exakten F\u00fcgen."
+          },
+          {
+            "q": "M\u00fcssen die teflonbeschichteten Fl\u00e4chen gereinigt werden?",
+            "a": "Ja, sie sollten nach jedem Einsatz im noch warmen Zustand mit einem fusselfreien Papiertuch oder einem speziellen Holzspatel vorsichtig gereinigt werden."
+          }
+        ]
+      },
+      "welding-tool": {
+        "seo_p1": "Die Schwei\u00dfwerkzeuge (Welding Tool) sind die teflonbeschichteten Heizdorne und Heizbuchsen, die das eigentliche Schmelzen des PP-R Materials \u00fcbernehmen.",
+        "seo_p2": "Gefertigt aus hochw\u00e4rmeleitf\u00e4higen Legierungen und mit einer speziellen Antihaft-PTFE-Schicht versehen, garantieren sie eine perfekte, r\u00fcckstandsfreie molekulare Schmelze.",
+        "seo_p3": "Nur mit unbesch\u00e4digten und hochwertigen Schwei\u00dfwerkzeugen l\u00e4sst sich die vom DVS geforderte Homogenit\u00e4t der Verbindung f\u00fcr eine 50-j\u00e4hrige Lebensdauer erzielen.",
+        "faq": [
+          {
+            "q": "Wann muss ein Schwei\u00dfwerkzeug ausgetauscht werden?",
+            "a": "Sobald die Teflonbeschichtung zerkratzt ist oder sich PP-R-Reste festbrennen, muss das Werkzeug zwingend getauscht werden, um fehlerhafte Schwei\u00dfn\u00e4hte zu vermeiden."
+          },
+          {
+            "q": "Warum darf ich Kunststoffreste nicht mit dem Messer abkratzen?",
+            "a": "Ein Messer zerst\u00f6rt sofort die mikrofeine PTFE-Antihaftbeschichtung. Nutzen Sie ausschlie\u00dflich weiche T\u00fccher auf dem noch hei\u00dfen Werkzeug."
+          },
+          {
+            "q": "Passt das K Aqua Schwei\u00dfwerkzeug auch auf Fremdger\u00e4te?",
+            "a": "Die Befestigungsbohrung entspricht dem Industriestandard, sodass unsere Werkzeuge auf fast alle professionellen Muffenschwei\u00dfger\u00e4te passen."
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "seo_p1": "Die Tisch-Schwei\u00dfmaschine d50-d125 (Welding Machine 50-125 Complete Set) bietet station\u00e4re Pr\u00e4zision f\u00fcr die Vorfertigung gro\u00dfer Rohrbaugruppen.",
+        "seo_p2": "Sie verf\u00fcgt \u00fcber Spannbacken, eine Hebelmechanik zum kraftsparenden F\u00fcgen und ein digital geregeltes Heizelement f\u00fcr absolut exakte F\u00fcgedr\u00fccke und -zeiten.",
+        "seo_p3": "In der Werkstattfertigung von Verteilern oder komplexen industriellen Baugruppen eliminiert diese Maschine menschliche Fehler und maximiert die Verarbeitungsgeschwindigkeit.",
+        "faq": [
+          {
+            "q": "Welchen Vorteil bietet die station\u00e4re Maschine gegen\u00fcber dem Handger\u00e4t?",
+            "a": "Die Hebelmechanik erm\u00f6glicht ein exakt lineares, verkantungsfreies Einschieben der gro\u00dfen Rohre, was per Hand extrem kraftaufwendig w\u00e4re."
+          },
+          {
+            "q": "K\u00f6nnen damit auch kleine Rohre geschwei\u00dft werden?",
+            "a": "Technisch ja, die Maschine ist jedoch speziell f\u00fcr die hohen F\u00fcgekr\u00e4fte der Dimensionen 50 mm bis 125 mm konzipiert."
+          },
+          {
+            "q": "Wie wird das Rohr fixiert?",
+            "a": "Universal-Spannbacken mit verschiedenen Eins\u00e4tzen greifen das Rohr schonend aber absolut fest, um eine kraftvolle, axiale Bewegung zu garantieren."
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "seo_p1": "Die Stumpfschwei\u00dfmaschine d90-d250 (Butt Welding Machine 90-250) ist das High End-System f\u00fcr flanschlose Rohr-an-Rohr-Verbindungen im Gro\u00dfformat.",
+        "seo_p2": "Eine hydraulische Presseinheit, ein CNC-gesteuerter Heizspiegel und ein pr\u00e4ziser Rohrhobel sorgen f\u00fcr eine vollautomatisierte, protokollierbare Schwei\u00dfnaht auf h\u00f6chstem Niveau.",
+        "seo_p3": "F\u00fcr kommunale Hauptwasserleitungen oder industrielle K\u00fchlwassernetze ab 90 mm ist dieses Ger\u00e4t unverzichtbar, um zertifizierte und abnahmef\u00e4hige Stumpfschwei\u00dfungen durchzuf\u00fchren.",
+        "faq": [
+          {
+            "q": "Was ist der Unterschied zwischen Muffen- und Stumpfschwei\u00dfen?",
+            "a": "Beim Stumpfschwei\u00dfen werden die Rohrenden plan gefr\u00e4st und direkt ohne zus\u00e4tzlichen Fitting (Muffe) auf Sto\u00df miteinander verschmolzen."
+          },
+          {
+            "q": "Werden die Schwei\u00dfdaten f\u00fcr die Qualit\u00e4tskontrolle gespeichert?",
+            "a": "Ja, die integrierte CNC-Steuerung protokolliert Temperatur, Druck und Zeit f\u00fcr jede einzelne Schwei\u00dfnaht zur sp\u00e4teren Auswertung."
+          },
+          {
+            "q": "Warum ist ein Hobel integriert?",
+            "a": "Der Hobel fr\u00e4st beide Rohrenden vor dem Schwei\u00dfen absolut parallel und oxidationsfrei, was f\u00fcr eine dauerhafte molekulare Verbindung zwingend erforderlich ist."
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "seo_p1": "Das Elektroschwei\u00dfger\u00e4t (Electrofusion Machine) steuert den vollautomatischen Verschwei\u00dfungsprozess von Heizwendelmuffen durch elektrische Widerstandserw\u00e4rmung.",
+        "seo_p2": "Der intelligente Mikroprozessor liest den Barcode des Fittings per Scanner ein und berechnet automatisch die exakte Spannung und Schwei\u00dfzeit in Abh\u00e4ngigkeit der Umgebungstemperatur.",
+        "seo_p3": "Essentiell f\u00fcr Reparaturen in extrem engen Sch\u00e4chten, nachtr\u00e4gliche Anbindungen oder Erdverlegungen, wo klassisches Muffenschwei\u00dfen aus Platzgr\u00fcnden unm\u00f6glich ist.",
+        "faq": [
+          {
+            "q": "Wie liest die Maschine die Schwei\u00dfparameter?",
+            "a": "Jede Heizwendelmuffe verf\u00fcgt \u00fcber einen Barcode, den der Anwender mit dem angeschlossenen Scanner einliest. Die Maschine stellt sich vollautomatisch ein."
+          },
+          {
+            "q": "Gleicht die Maschine Temperaturschwankungen auf der Baustelle aus?",
+            "a": "Ja, ein Umgebungssensor misst die Temperatur und passt die Schwei\u00dfdauer automatisch an (im Winter l\u00e4nger, im Sommer k\u00fcrzer)."
+          },
+          {
+            "q": "Muss das Rohr vor der Elektroschwei\u00dfung gesch\u00e4lt werden?",
+            "a": "Zwingend! Die Oxidschicht auf dem PP-R Rohr muss im Schwei\u00dfbereich mit einem speziellen Sch\u00e4lger\u00e4t mechanisch entfernt werden."
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "seo_p1": "Das Sattel-Schwei\u00dfwerkzeug (Welding Tool for Weld-in Saddles) ist speziell f\u00fcr die Montage von Einschwei\u00dfs\u00e4tteln an bestehende PP-R Rohre konstruiert.",
+        "seo_p2": "Es besteht aus einem konkav geformten Heizdorn f\u00fcr die Rohrwandung und einer konvexen Heizbuchse f\u00fcr den Sattel, beide hochwertig teflonbeschichtet.",
+        "seo_p3": "Es erw\u00e4rmt exakt die ben\u00f6tigte Fl\u00e4che auf dem Basisrohr, um den Sattel homogen und unl\u00f6sbar mit dem Leitungssystem zu verschmelzen.",
+        "faq": [
+          {
+            "q": "Warum hat das Werkzeug eine konkave und eine konvexe Seite?",
+            "a": "Die konkave (gew\u00f6lbte) Seite erw\u00e4rmt das runde Au\u00dfenrohr, w\u00e4hrend die konvexe Seite exakt den sattelf\u00f6rmigen Abzweig auf Schmelztemperatur bringt."
+          },
+          {
+            "q": "Passt ein Werkzeug f\u00fcr alle Rohre?",
+            "a": "Nein, Sie ben\u00f6tigen f\u00fcr jede Hauptrohr-Abzweig-Kombination (z. B. 63 mm auf 20 mm) ein exakt passendes Sattel-Schwei\u00dfwerkzeug."
+          },
+          {
+            "q": "Wie wird das Werkzeug auf dem Schwei\u00dfger\u00e4t montiert?",
+            "a": "Es wird wie ein normaler Heizdorn mit einer Inbusschraube direkt auf das Heizschwert des K Aqua Handschwei\u00dfger\u00e4ts geschraubt."
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "seo_p1": "Der Spezialbohrer f\u00fcr Einschwei\u00dfs\u00e4ttel (Drilling Tool for Weld-in Saddle) ist das pr\u00e4zise Vorbereitungswerkzeug f\u00fcr Sattelabzweige.",
+        "seo_p2": "Er bohrt nicht nur das exakt erforderliche Loch in das wasserf\u00fchrende Hauptrohr, sondern fr\u00e4st gleichzeitig den Randbereich f\u00fcr die nachfolgende Schwei\u00dfung sauber aus.",
+        "seo_p3": "Ein extrem scharfes und sauberes Bohrloch ist kritisch, um beim sp\u00e4teren Einschwei\u00dfen des Sattels keine Kunststoffsp\u00e4ne in das Rohrnetz gelangen zu lassen.",
+        "faq": [
+          {
+            "q": "Warum kann ich keinen normalen Holz- oder Metallbohrer verwenden?",
+            "a": "Standardbohrer rei\u00dfen den Kunststoff ein und erzeugen unkontrollierte Sp\u00e4ne. Unser Spezialbohrer fr\u00e4st das Loch und f\u00e4ngt den Span sauber ab."
+          },
+          {
+            "q": "Passt der Bohrer in einen handels\u00fcblichen Akkuschrauber?",
+            "a": "Ja, der Bohrer verf\u00fcgt \u00fcber einen genormten Sechskantschaft, der in jedes handels\u00fcbliche Bohrfutter passt."
+          },
+          {
+            "q": "Muss das Loch entgratet werden?",
+            "a": "Nein, der Fr\u00e4skopf des Bohrers ist so konstruiert, dass er die Lochkante automatisch f\u00fcr die nachfolgende Schwei\u00dfung vorbereitet und gl\u00e4ttet."
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "seo_p1": "Das Reparatur-Schwei\u00dfwerkzeug (Welding Tool for Repairing Plug) ist ein hochspezialisierter Aufsatz f\u00fcr die Instandsetzung angebohrter Leitungen.",
+        "seo_p2": "Dieser konische Heizstift erw\u00e4rmt gezielt das Innere eines besch\u00e4digten Bohrlochs und gleichzeitig den entsprechenden PP-R-Reparaturstopfen auf Schmelztemperatur.",
+        "seo_p3": "Er ist die Rettung auf jeder Baustelle, um versehentlich angebohrte Rohre (z. B. bei der Wandmontage) schnell und nachweislich dicht wieder zu verschlie\u00dfen.",
+        "faq": [
+          {
+            "q": "Wie genau funktioniert der Reparaturstift?",
+            "a": "Das konische Werkzeug schmilzt das Bohrloch auf. Danach wird der ebenfalls erw\u00e4rmte PP-R Reparaturstopfen in das Loch gedr\u00fcckt und verschmilzt dauerhaft."
+          },
+          {
+            "q": "Ist die reparierte Stelle wirklich sicher?",
+            "a": "Ja, es handelt sich nicht um eine blo\u00dfe Verklebung, sondern um eine molekulare Verschwei\u00dfung, die denselben Druck aush\u00e4lt wie das unbesch\u00e4digte Rohr."
+          },
+          {
+            "q": "Welche Bohrdurchmesser k\u00f6nnen repariert werden?",
+            "a": "Das Werkzeug ist ideal f\u00fcr typische Bohrunf\u00e4lle (D\u00fcbell\u00f6cher) im Bereich von 7 mm bis 11 mm."
+          }
+        ]
+      },
+      "repairing-plug": {
+        "seo_p1": "Der Reparaturstopfen (Repairing Plug) ist ein massiver PP-R-Stift, der in Kombination mit dem speziellen Schwei\u00dfwerkzeug Bohrlochnotf\u00e4lle behebt.",
+        "seo_p2": "Er besteht aus dem identischen Material wie das K Aqua Rohrsystem und verschmilzt beim Einsetzen in das besch\u00e4digte Rohr zu einer absolut homogenen Masse.",
+        "seo_p3": "Statt W\u00e4nde gro\u00dffl\u00e4chig aufzustemmen, um Rohrabschnitte zu ersetzen, wird das Loch einfach verschwei\u00dft. Die reparierte Stelle ist danach genauso druckfest wie das Originalrohr.",
+        "faq": [
+          {
+            "q": "Aus welchem Material besteht der Reparaturstopfen?",
+            "a": "Er besteht zu 100% aus hochwertigem Polypropylen Random Copolymer (PP-R) Typ 3, genau wie unsere K Aqua Rohrsysteme."
+          },
+          {
+            "q": "Muss der Stopfen nach dem Einschwei\u00dfen abgeschnitten werden?",
+            "a": "Ja, nachdem die Schwei\u00dfstelle vollst\u00e4ndig abgek\u00fchlt ist, wird das \u00fcberstehende Ende des Stopfens b\u00fcndig mit der Rohrwandung abgeschnitten."
+          },
+          {
+            "q": "Kann ich den Stopfen bei gef\u00fclltem Rohrnetz verwenden?",
+            "a": "Nein, das Wasser muss am betroffenen Strang vollst\u00e4ndig abgestellt und das Rohr im Bereich des Bohrlochs trockengelegt sein."
+          }
+        ]
+      }
+    }
+  }
+}

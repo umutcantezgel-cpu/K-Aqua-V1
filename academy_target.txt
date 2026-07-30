@@ -1,0 +1,60 @@
+  "academy": {
+    "schulungen": {
+      "meta": { "title": "သင်တန်းများ", "description": "K Aqua သင်တန်းများ" },
+      "hero": { "title": "သင်တန်းများ", "subtitle": "လေ့လာသင်ယူပါ" },
+      "manifesto": { "title": "အခြေခံ", "text": "အခြေခံအချက်များ", "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "bento": { "title": "အကြောင်းအရာများ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "typography": { "title": "အသုံးအနှုန်းများ" },
+      "curriculum": { "title": "သင်ရိုးညွှန်းတမ်း", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "sticky": { "title": "အသေးစိတ်", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "timeline": { "title": "အချိန်ဇယား", "items": [], "desc": "အခြေခံ" },
+      "spec": { "title": "သတ်မှတ်ချက်များ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "cta": { "title": "ဆက်သွယ်ရန်", "title1": "Title 1", "title2": "Title 2", "desc": "Desc", "button": "Button" }
+    },
+    "zertifizierung": {
+      "meta": { "title": "အသိအမှတ်ပြုလက်မှတ်", "description": "K Aqua အသိအမှတ်ပြုလက်မှတ်" },
+      "hero": { "title": "လက်မှတ်", "subtitle": "အောင်မြင်မှု", "eyebrow": "အခြေခံ", "desc": "အခြေခံ" },
+      "manifesto": { "title": "အခြေခံ", "text": "အခြေခံအချက်များ", "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "bento": { "title": "အကြောင်းအရာများ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "certifications": { "title": "လက်မှတ်များ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "lab": { "title": "ဓာတ်ခွဲခန်း", "lead": "အခြေခံ", "eyebrow": "အခြေခံ", "items": [] },
+      "timeline": { "title": "အချိန်ဇယား", "items": [], "desc": "အခြေခံ" },
+      "cta": { "title": "ဆက်သွယ်ရန်", "title1": "Title 1", "title2": "Title 2", "desc": "Desc", "button": "Button" }
+    },
+    "glossar": {
+      "meta": { "title": "ဝေါဟာရ", "description": "K Aqua ဝေါဟာရ" },
+      "hero": { "title": "ဝေါဟာရ", "subtitle": "လေ့လာသင်ယူပါ", "eyebrow": "အခြေခံ", "desc": "အခြေခံ", "cta1": "Button", "cta2": "Button" },
+      "manifesto": { "title": "အခြေခံ", "text": "အခြေခံအချက်များ", "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "scroll": { "title": "အကြောင်းအရာများ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "bento": { "title": "အကြောင်းအရာများ", "items": [], "lead": "အခြေခံ", "eyebrow": "အခြေခံ" },
+      "timeline": { "title": "အချိန်ဇယား", "items": [], "desc": "အခြေခံ" },
+      "conclusion": { "title": "နိဂုံး", "p1": "Text", "p2": "Text", "p3": "Text", "p4": "Text" },
+      "cta": { "title": "ဆက်သွယ်ရန်", "title1": "Title 1", "title2": "Title 2", "desc": "Desc", "button": "Button" }
+    },
+    "videos": [
+      { "title": "ဗီဒီယို ၁", "id": "1", "desc": "Desc" },
+      { "title": "ဗီဒီယို ၂", "id": "2", "desc": "Desc" },
+      { "title": "ဗီဒီယို ၃", "id": "3", "desc": "Desc" },
+      { "title": "ဗီဒီယို ၄", "id": "4", "desc": "Desc" }
+    ],
+    "quiz": [
+      { "q": "မေးခွန်း ၁", "o": ["1", "2"] },
+      { "q": "မေးခွန်း ၂", "o": ["1", "2"] },
+      { "q": "မေးခွန်း ၃", "o": ["1", "2"] },
+      { "q": "မေးခွန်း ၄", "o": ["1", "2"] },
+      { "q": "မေးခွန်း ၅", "o": ["1", "2"] }
+    ],
+    "eyebrow": "အကယ်ဒမီ",
+    "title1": "အကောင်းဆုံးဖြစ်အောင် ",
+    "titleGrad": "လေ့ကျင့်ပါ။",
+    "quizEyebrow": "စစ်ဆေးမှု",
+    "quizTitle": "သင့်အရည်အချင်းကို စစ်ဆေးပါ",
+    "intro": "စစ်ဆေးမှုစတင်ရန် အဆင်သင့်ဖြစ်ပြီလား?",
+    "start": "စတင်ရန်",
+    "qLabel": "မေးခွန်း",
+    "resPerfect": "အလွန်ကောင်းမွန်သည်!",
+    "resGood": "ကောင်းမွန်သည်!",
+    "resLow": "ကြိုးစားကြည့်ပါ!",
+    "retry": "ထပ်မံကြိုးစားရန်",
+    "titlePerfect": "ပြီးပြည့်စုံသော",
+    "titleGood": "ကောင်းမွန်သော"

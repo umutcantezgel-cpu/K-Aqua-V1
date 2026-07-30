@@ -1,0 +1,150 @@
+    "segEyebrow": "Einsatzfelder",
+    "segTitle": "Subok kung saan mahalaga ang tubig.",
+    "segLead": "Ang K-Aqua ay ginagamit sa buong mundo mula sa mga ospital hanggang sa mga greenhouse.",
+    "segments": [
+      {"t": "Mga Ospital at Kalusugan", "d": "Ang kalinisan ay hindi napagkakasunduan: Pinipigilan ang biofilm, walang amoy at lasa ang materyal.", "pts": ["Hygienic neutrality", "Corrosion-free", "Reference: Hospital Cape Town"]},
+      {"t": "Mga Hotel at Gusali", "d": "Mainit na tubig sa buong orasan: nagtitipid ng enerhiya, hanggang 70°C na tuloy-tuloy.", "pts": ["Thermal efficiency", "PPRCT para sa sirkulasyon", "Reference: Hotel Istanbul"]},
+      {"t": "Industriya at Komersyal", "d": "Matibay laban sa solvents, alkalis at acids. Hindi kinakalawang tulad ng metal.", "pts": ["Chemical resistance", "Mahabang maintenance intervals", "Process water"]},
+      {"t": "Agrikultura at Greenhouses", "d": "UV-stabilized para sa irrigation sa labas: magaan at madaling i-install.", "pts": ["UV-resistant", "Magaan", "Agriculture reference"]},
+      {"t": "Imprastraktura (Municipal)", "d": "Mga supply line hanggang d630: butt-welded para sa matibay at walang-tagas na tubo.", "pts": ["d hanggang 630 mm", "Butt fusion", "Reference: Singapore"]},
+      {"t": "Renovation at Pagpapalit", "d": "Pagpapalit sa mga kinakalawang na metal: ang transition pieces ay madaling ikabit sa bagong sistema.", "pts": ["Metal thread transitions", "Renovation in sections", "Solved corrosion problem"]}
+    ],
+    "cmpEyebrow": "Paghahambing ng Materyales",
+    "cmpTitle": "PP-R/PPRCT kumpara sa iba.",
+    "cmpLead": "Apat na materyales, walong kriterya: simpleng paghahambing para sa iyong proyekto.",
+    "cmpHead": ["Kriterya", "K Aqua PP-R/PPRCT", "Copper", "Stainless Steel", "PVC-C"],
+    "cmpRows": [
+      ["Korosyon", "Walang korosyon (corrosion-free)", "Maaaring kalawangin", "Matibay", "Walang korosyon"],
+      ["Incrustation & Biofilm", "Napakababa: 0.007 mm", "Maaari", "Mababa", "Mababa"],
+      ["Thermal conductivity", "0.24 W/(m·K): mababang pagkawala", "≈ 390", "≈ 15", "≈ 0.14"],
+      ["Density / Bigat", "0.905 g/cm³", "8.9 g/cm³", "7.9 g/cm³", "1.55 g/cm³"],
+      ["Teknik sa pagdugtong", "Welded homogeneously", "Soldered/pressed", "Pressed/welded", "Glued"],
+      ["Lasa at Amoy", "Neutral", "Maaaring mag-iwan ng lasa", "Neutral", "Neutral"],
+      ["CO₂ (Production)", "Mababa", "Mataas", "Mataas", "Katamtaman"],
+      ["Recycling", "Code 5: 100% recyclable", "Scrap cycle", "Scrap cycle", "Limitado"]
+    ],
+    "cmpNote": "Pinadaling paghahambing gamit ang mga karaniwang value ng materyal.",
+    "lifeEyebrow": "Siklo ng Buhay",
+    "lifeTitle": "Mula gas hanggang recycled material.",
+    "lifeLead": "Responsibilidad sa buong cycle: apat na yugto para sa ekolohiya.",
+    "life": [
+      {"t": "Materyal na may Kasaysayan", "d": "Ang Polypropylene ay nagmula sa gas na noon ay sinusunog lamang."},
+      {"t": "Paggawa sa isang Loop", "d": "Gumagamit ang aming pabrika ng closed water cycle para protektahan ang kalikasan."},
+      {"t": "50 Taon sa Operasyon", "d": "Inaasahang buhay ng tubo ay 50 taon: matibay at di kinakalawang."},
+      {"t": "Bumabalik sa Cycle", "d": "Recycling Code 5: 100% ng natirang materyal sa pabrika ay nire-recycle."}
+    ]
+  },
+  "trustx": {
+    "imprint": {
+      "title": "Imprint",
+      "p": "Responsible para sa content ayon sa § 5 TMG:",
+      "c": "K Aqua KWT GmbH\nPhilipp-Reis-Straße 2\n35647 Waldsolms\nGermany",
+      "r": "Rehistradong Opisina: Waldsolms\nRegister Court: Wetzlar, HRB 12345",
+      "m": "Managing Directors: [Pangalan]"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "p": "Sineseryoso namin ang proteksyon ng iyong personal na data. Sumusunod kami sa GDPR at iba pang batas.",
+      "c": "Data collection at the website...",
+      "r": "Contact details of Data Protection Officer...",
+      "m": "Your rights regarding personal data..."
+    },
+    "quality": {
+      "title": "Quality Policy",
+      "p": "K Aqua is committed to the highest quality standards. (DIN EN ISO 9001)",
+      "c": "Continuous improvement...",
+      "r": "Certifications available upon request.",
+      "m": "Zero defect tolerance."
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "p": "General Terms and Conditions for K Aqua KWT GmbH.",
+      "c": "Pricing, delivery...",
+      "r": "Warranty and liability...",
+      "m": "Governing law: Germany"
+    },
+    "stakeEyebrow": "Stakeholders",
+    "stakeTitle": "Para sa bawat desisyon.",
+    "stakeLead": "Nagbibigay ng tamang dokumento sa bawat propesyonal.",
+    "stakeHead": ["Stakeholder", "Pokus", "Dokumento"],
+    "stakeRows": [
+      ["Buyer", "Compliance at Supplier", "ISO Certificates, GAEB"],
+      ["Planner", "Teknikal at Specs", "Data Sheets, BIM"],
+      ["Installer", "Reliability", "Welding guidelines"],
+      ["Sustainability", "CO₂ at ESG", "EPD, Scope-3 Data"]
+    ],
+    "statEyebrow": "Bakit Self Service",
+    "statTitle": "Nagbago na ang pamimili.",
+    "stats": [
+      {"n": "70", "u": "%", "l": "ng mga B2B buyer ay nananaliksik online."},
+      {"n": "11–20", "u": "", "l": "stakeholders sa isang proyekto."},
+      {"n": "87", "u": "", "l": "touchpoints para sa isang B2B purchase."},
+      {"n": "50", "u": "%", "l": "ng B2B customers ay bumibili sa sustainable suppliers."}
+    ],
+    "statNote": "Data batay sa B2B procurement studies.",
+    "instEyebrow": "Testing Partners",
+    "instTitle": "Ang mga nasa likod ng sertipikasyon.",
+    "inst": [
+      {"t": "DAkkS-accredited", "d": "ISO 9001, 14001, at 50001 (hanggang 10/2028)."},
+      {"t": "SKZ", "d": "Quality assurance ng piping systems."},
+      {"t": "DVGW / KTW", "d": "Kaligtasan para sa inuming tubig."}
+    ],
+    "auditEyebrow": "Audit Roadmap",
+    "auditTitle": "Mula pagtatanong hanggang approval.",
+    "auditLead": "Ganito kabilis maging supplier ang K Aqua.",
+    "audit": [
+      {"t": "Maghanda ng RFP", "d": "Kunin ang ZIP package na may GAEB, EPD, ISO."},
+      {"t": "Klaripikasyon", "d": "Makipag-ugnayan sa support@k-aqua.de."},
+      {"t": "Factory Audit", "d": "I-audit kami mismo sa Waldsolms."},
+      {"t": "Pag-apruba", "d": "3-year cycle ng sertipiko."}
+    ],
+    "faqEyebrow": "Compliance FAQ",
+    "faqTitle": "Madalas itanong na compliance.",
+    "faq": [
+      {"q": "Gaano katagal ang ISO certs?", "a": "Tatlong taon (10/2025 hanggang 10/2028)."},
+      {"q": "Ano ang DAkkS?", "a": "German national accreditation body na kumikilala sa aming mga sertipiko sa buong mundo."},
+      {"q": "Paano i-verify?", "a": "Maaari itong i-check online o i-email kami."},
+      {"q": "May Scope-3 data ba?", "a": "Oo, ibinibigay namin kapag hiningi."},
+      {"q": "Nagbibigay ba kayo ng GAEB texts?", "a": "Oo, nasa aming RFP package ito."},
+      {"q": "Ano ang EPD?", "a": "Environmental Product Declaration (Type III) para sa LEED, BREEAM."}
+    ]
+  },
+  "partnerx": {
+    "ctaButton": "Tingnan ang KESSEL",
+    "ctaDesc": "Alamin ang higit pa tungkol sa aming drainage partner.",
+    "ctaTitle": "Makipagtulungan sa aming partner.",
+    "ecoEyebrow": "KESSEL Ecosystem",
+    "ecoTitle": "Paano nakikinabang ang aming mga customer.",
+    "ecoLead": "Inihahatid ng K-Aqua ang kalidad ng KESSEL sa water supply.",
+    "eco": [
+      {"t": "ISH Frankfurt", "d": "Nandito ang KESSEL sa pinakamalaking trade fair ng industriya."},
+      {"t": "PlanerPortal", "d": "Digital platform para sa mga planner."},
+      {"t": "KundenForum", "d": "Mga training at edukasyon."},
+      {"t": "Planungshandbuch", "d": "Manwal sa pagpaplano."}
+    ],
+    "flowEyebrow": "Dalawang Daloy, Isang Gusali",
+    "flowTitle": "Water supply at drainage.",
+    "flowLead": "Ang partnership ay para sa kabuuan ng daloy ng tubig.",
+    "flow": [
+      {"t": "K Aqua: Leading in Water Supply", "d": "Water supply d20–d630, gawa sa Waldsolms."},
+      {"t": "KESSEL: Leading in Drainage", "d": "Premium drainage, backwater protection."},
+      {"t": "Sama-samang Kalidad", "d": "Iisang pilosopiya ng kalidad at suporta."}
+    ],
+    "roadEyebrow": "Pagsasamang Plano",
+    "roadTitle": "Mula training hanggang configurator.",
+    "road": [
+      {"t": "Academy & Videos", "d": "Dokumentasyon ng welding", "s": "Ngayon"},
+      {"t": "Welding Support", "d": "Mula mismo sa pabrika.", "s": "Ngayon"},
+      {"t": "Digital Tools", "d": "Product finder, CO₂ calculator.", "s": "Pinapalawak"},
+      {"t": "Network Configurator", "d": "Configurator ng tubo.", "s": "Pananaw"}
+    ],
+    "specEyebrow": "Para sa Iyong Specs",
+    "specTitle": "Data kung saan kailangan.",
+    "specLead": "Sa AVA at CAD software.",
+    "spec": [
+      {"t": "GAEB texts", "d": "Mga tender text para sa LV."},
+      {"t": "BIM at CAD data", "d": "Para sa 3D model-based na trabaho."},
+      {"t": "Data sheets at Samples", "d": "PDF catalogs at pisikal na sample."}
+    ]
+  },
+  "academyx": {

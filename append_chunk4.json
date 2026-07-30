@@ -1,0 +1,42 @@
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW",
+      "water": "ນ້ຳກະດ້າງ",
+      "focus": ["ອາຄານ", "ໂຮງແຮມ", "ສູນຂໍ້ມູນ"],
+      "note": "ສົ່ງໄວ",
+      "focusHeading": "ໂຄງການ"
+    },
+    "berlin": {
+      "regulator": "DVGW",
+      "water": "ນ້ຳປານກາງ",
+      "focus": ["ບ້ານ", "ໂຮງຮຽນ", "ປັບປຸງ"],
+      "note": "ສົ່ງພາຍໃນ 24 ຊມ",
+      "focusHeading": "ໂຄງການ"
+    },
+    "muenchen": { "regulator": "DVGW", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "hamburg": { "regulator": "DVGW", "water": "ນ້ຳອ່ອນ", "focus": [], "note": "", "focusHeading": "" },
+    "wien": { "regulator": "ÖVGW", "water": "ນ້ຳພູ", "focus": [], "note": "", "focusHeading": "" },
+    "zuerich": { "regulator": "SVGW", "water": "ນ້ຳສະອາດ", "focus": [], "note": "", "focusHeading": "" },
+    "london": { "regulator": "WRAS", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "paris": { "regulator": "CSTB", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "mailand": { "regulator": "UNI", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "warschau": { "regulator": "PZH", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "prag": { "regulator": "SZU", "water": "ນ້ຳກະດ້າງ", "focus": [], "note": "", "focusHeading": "" },
+    "dubai": { "regulator": "DCL", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "abudhabi": { "regulator": "ADQCC", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "doha": { "regulator": "Kahramaa", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "riad": { "regulator": "SASO", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "dschidda": { "regulator": "SASO", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "neom": { "regulator": "SASO", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "kuwait": { "regulator": "MEW", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "maskat": { "regulator": "PAEW", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "manama": { "regulator": "EWA", "water": "ນ້ຳທະເລ", "focus": [], "note": "", "focusHeading": "" },
+    "amman": { "regulator": "WAJ", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "kairo": { "regulator": "HCWW", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "istanbul": { "regulator": "TSE", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "singapur": { "regulator": "PUB", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "kualalumpur": { "regulator": "SPAN", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "mumbai": { "regulator": "BIS", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "kapstadt": { "regulator": "SABS", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" },
+    "nairobi": { "regulator": "KEBS", "water": "ນ້ຳ", "focus": [], "note": "", "focusHeading": "" }
+  }

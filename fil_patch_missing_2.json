@@ -1,0 +1,111 @@
+    "paramEyebrow": "Welding Parameters",
+    "paramTitle": "Standard na Parameter (DVS 2207-11)",
+    "paramLead": "Temperatura ng heating tool: 260°C (± 10°C).",
+    "paramHead": ["d (mm)", "Heating time (sec)", "Changeover time max (sec)", "Cooling time (min)"],
+    "paramNote": "Batay sa ambient temp na 20°C. Kapag mababa sa 5°C, pahabain ang heating time ng 50%.",
+    "stepEyebrow": "Step-by-step",
+    "stepTitle": "Paano Mag-weld",
+    "stepLead": "Sundan ang mga hakbang na ito para sa tamang proseso.",
+    "procTabs": [
+      {"id": "socket", "label": "Socket Welding"},
+      {"id": "electro", "label": "Electrofusion"},
+      {"id": "butt", "label": "Butt Welding"},
+      {"id": "saddle", "label": "Weld-in Saddles"}
+    ],
+    "procs": {
+      "socket": {
+        "title": "Socket Welding d20–d125",
+        "desc": "Ang standard na paggawa ng PP-R. Gumamit ng welding tool.",
+        "steps": [
+          {"t": "Gupitin ang tubo", "d": "Hiwain ang tubo ng 90 degrees."},
+          {"t": "Markahan", "d": "Sukatin ang welding depth at markahan."},
+          {"t": "Painitin", "d": "Itulak ang tubo at fitting sa heating tool."},
+          {"t": "Pagsamahin", "d": "Pagkatapos painitin, pagdugtungin ang tubo at fitting."}
+        ]
+      },
+      "electro": {
+        "title": "Electrofusion d20–d315",
+        "desc": "Gamitin ang electrofusion socket na may built-in na wire.",
+        "steps": [
+          {"t": "Ihanda", "d": "Balatan (scrape) ang ibabaw ng tubo."},
+          {"t": "Linisin", "d": "Gumamit ng isopropanol upang linisin."},
+          {"t": "I-plug", "d": "Ikabit ang tubo sa socket at ikonekta ang makina."},
+          {"t": "I-weld", "d": "Magsisimula ang makina sa pag-weld ayon sa barcode."}
+        ]
+      },
+      "butt": {
+        "title": "Butt Welding d90–d630",
+        "desc": "Para sa malalaking tubo.",
+        "steps": [
+          {"t": "Planing", "d": "I-plane ang dulo ng mga tubo."},
+          {"t": "Alignment", "d": "Siguraduhing naka-align ang dalawang tubo."},
+          {"t": "Heating", "d": "Gumamit ng heating plate (210°C)."},
+          {"t": "Welding", "d": "Pagsamahin ang mga tubo gamit ang tamang pressure."}
+        ]
+      },
+      "saddle": {
+        "title": "Weld-in Saddles",
+        "desc": "Para magdagdag ng branch nang hindi pinuputol ang main pipe.",
+        "steps": [
+          {"t": "Bumutas", "d": "Gumamit ng drill tool para butasin ang pader ng tubo."},
+          {"t": "Painitin", "d": "Gamitin ang saddle welding tool para painitin ang butas at ang saddle."},
+          {"t": "Pagsamahin", "d": "Idiin ang saddle sa butas."}
+        ]
+      }
+    }
+  },
+  "aboutx": {
+    "numEyebrow": "K Aqua sa mga Numero",
+    "numTitle": "Mga Katotohanan",
+    "numLead": "Kami ay isang kumpanya na nakabase sa Waldsolms na may global na epekto.",
+    "nums": [
+      {"v": "100%", "t": "Produksyon sa Germany", "d": "Ginagawa ang lahat sa aming planta sa Waldsolms."},
+      {"v": "50", "t": "Taong inaasahang buhay", "d": "Ayon sa DIN standards."},
+      {"v": "40+", "t": "Bansa", "d": "Inie-export ang K Aqua sa buong mundo."},
+      {"v": "0.007", "t": "mm Rauheit", "d": "Para sa tuluy-tuloy na daloy ng tubig."}
+    ],
+    "prodEyebrow": "Paggawa (Production)",
+    "prodTitle": "Advanced Manufacturing",
+    "prodLead": "Ginagamit namin ang makabagong teknolohiya.",
+    "prod": [
+      {"t": "Extrusion", "d": "Gumagawa kami ng PP-R pipes gamit ang high-tech extruders."},
+      {"t": "Injection Molding", "d": "Para sa paggawa ng fittings."},
+      {"t": "Quality Control", "d": "Bawat batch ay sinusuri sa lab."},
+      {"t": "Logistics", "d": "Mabilisang pagpapadala sa buong mundo."}
+    ],
+    "houseEyebrow": "House of KWT",
+    "houseTitle": "Isang Pamilya",
+    "houseLead": "Ang aming kumpanya ay higit pa sa produkto.",
+    "house": [
+      {"t": "Kasaysayan", "d": "Ang KWT ay itinatag nang may pagmamahal sa kalidad."},
+      {"t": "Misyon", "d": "Laging una ang kalidad at serbisyo."},
+      {"t": "Kultura", "d": "Tinuturing naming kapamilya ang aming mga tauhan."}
+    ],
+    "mileEyebrow": "Milestones",
+    "mileTitle": "Ang Aming Paglalakbay",
+    "miles": [
+      {"y": "1994", "t": "Pagtatatag", "d": "Nagsimula ang lahat sa isang maliit na ideya."},
+      {"y": "2008", "t": "Pandaigdig", "d": "Unang pag-export."},
+      {"y": "2024", "t": "Sustainability", "d": "ISO 14001 certification."}
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "Karagdagang Balita",
+    "moreTitle": "Mga Pinakabagong Update",
+    "moreLead": "Basahin ang aming mga artikulo.",
+    "readMore": "Magbasa pa",
+    "readLess": "Itago",
+    "posts": [
+      {"date": "2024-03-01", "cat": "News", "title": "Ang K Aqua sa ISH 2025", "desc": "Bumisita sa aming booth."},
+      {"date": "2024-02-15", "cat": "Knowledge", "title": "Ang kahalagahan ng SDR", "desc": "Paano piliin ang tamang SDR."},
+      {"date": "2023-11-20", "cat": "Case Study", "title": "Ospital sa Cape Town", "desc": "Matagumpay na pag-install."}
+    ]
+  },
+  "markets": {
+    "landwirtschaft": {},
+    "schiffbau": {},
+    "klima": {},
+    "industrie": {},
+    "trinkwasser": {}
+  }
+}

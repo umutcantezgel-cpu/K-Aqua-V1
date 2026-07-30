@@ -1,0 +1,82 @@
+{
+  "career.benefits": {
+    "sachbezug": [
+      "Sachbezugskarte",
+      "Steuerfreier Sachbezug, monatlich aufs Kartenkonto."
+    ],
+    "lunch": [
+      "Essenszuschuss",
+      "Digitale Essensmarken für Mittagessen & Supermarkt."
+    ],
+    "internet": [
+      "Internetpauschale",
+      "Zuschuss zur privaten Internetnutzung."
+    ],
+    "jobrad": [
+      "JobRad-Leasing",
+      "Wunschrad per Gehaltsumwandlung, Ersparnis vs. Privatkauf."
+    ],
+    "kita": [
+      "Kita-Zuschuss",
+      "Steuerfreier Zuschuss zur Kinderbetreuung."
+    ],
+    "vwl": [
+      "Vermögenswirksame Leistungen",
+      "Monatlicher Sparbeitrag vom Arbeitgeber."
+    ]
+  },
+  "career.resultLabel": "Netto mehr pro Monat",
+  "career.resultNote1": "Das entspricht grob einer",
+  "career.resultNote2": "Bruttoerhöhung von ~{n} €",
+  "career.resultNote3": "ohne Abzüge.",
+  "career.resultNote4": "(Richtwert, abhängig von Steuerklasse.)",
+  "career.apply": "Jetzt bewerben",
+  "career.call": "Oder anrufen: +49 (0)60 85 / 9868-410",
+  "career.cmEyebrow": "Culture Matcher",
+  "career.cmTitle": "Passt K Aqua zu Ihnen?",
+  "career.cmIntro": "Fünf ehrliche Fragen zu Arbeitsweise und Alltag in der Fertigung. Kein Persönlichkeitstest, ein Realitätscheck.",
+  "career.cmStart": "Test starten",
+  "career.qLabel": "Frage",
+  "career.cmQ": [
+    {
+      "q": "Wie arbeiten Sie am liebsten?",
+      "o": [
+        "Klare Abläufe, eingespieltes Team",
+        "Jeden Tag etwas Neues ausprobieren"
+      ]
+    },
+    {
+      "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+      "o": [
+        "Sofort hinschauen, Ursache finden",
+        "Erstmal weiterlaufen lassen"
+      ]
+    },
+    {
+      "q": "Was motiviert Sie mehr?",
+      "o": [
+        "Ein Produkt, das 50 Jahre hält",
+        "Schnelle, sichtbare Ergebnisse"
+      ]
+    },
+    {
+      "q": "Schichtarbeit ist für Sie …",
+      "o": [
+        "Planbar und okay",
+        "Eher schwierig"
+      ]
+    },
+    {
+      "q": "Ihr Verhältnis zu Technik?",
+      "o": [
+        "Ich will verstehen, wie Dinge funktionieren",
+        "Hauptsache es läuft"
+      ]
+    }
+  ],
+  "career.resHigh": "Starkes Match. Präzision, Verlässlichkeit und Technikverständnis: genau unser Profil.",
+  "career.resMid": "Gutes Match mit Gesprächsbedarf. Am besten direkt anrufen und den Alltag klären.",
+  "career.resLow": "Ehrliches Ergebnis: Fertigungsalltag bei K Aqua ist vermutlich nicht Ihr Umfeld. Vertrieb oder Verwaltung könnten besser passen.",
+  "career.sendApp": "Bewerbung senden",
+  "career.again": "Nochmal"
+}

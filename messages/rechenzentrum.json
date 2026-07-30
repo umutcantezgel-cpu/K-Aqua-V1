@@ -1,100 +1,102 @@
 {
-  "meta": {
-    "title": "Rechenzentren Infrastruktur | K Aqua",
-    "desc": "K Aqua Rechenzentren: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Lösungen für moderne Rechenzentren."
-  },
-  "scroll": {
-    "items": [
-      {
-        "title": "Die thermische Herausforderung von KI und HPC",
-        "desc": "Moderne High-Performance Computing (HPC) und Künstliche Intelligenz (KI) Racks produzieren immense Abwärme. Luftkühlung allein stößt an ihre physikalischen Grenzen. Die Zukunft gehört Liquid Cooling und damit Wasser als kritischem Wärmeträgermedium direkt am Chip."
-      },
-      {
-        "title": "Korrosion ist der Feind der Verfügbarkeit",
-        "desc": "Metallische Rohrleitungssysteme unterliegen im Dauerbetrieb Lochfraß, Rost und chemischer Zersetzung. Ein Mikroriss in einem Rechenzentrum kann Millionenschäden durch Serverausfälle verursachen. K Aqua eliminiert dieses Risiko durch zu 100 % korrosionsfreies Polypropylen Random Copolymer (PP-R)."
-      },
-      {
-        "title": "Ultraschall-verschweißte Molekularverbindungen",
-        "desc": "Wo herkömmliche Rohre auf fehleranfällige Dichtungen oder Schraubverbindungen setzen, verschmelzen K Aqua Systeme auf molekularer Ebene. Das Resultat: Ein vollkommen homogenes, absolut leckagefreies Pipelinenetzwerk. Zero-Tolerance für Undichtigkeiten."
-      },
-      {
-        "title": "Nachhaltigkeit & PUE-Optimierung",
-        "desc": "Ein niedriger PUE-Wert (Power Usage Effectiveness) ist der Heilige Gral der Data-Center-Betreiber. K Aqua Rohre verfügen über exzellente thermodynamische Eigenschaften. Geringere Rohrreibungsverluste und optimale Wärmeisolation minimieren Energieverluste bei der Kühlwasserzirkulation massiv."
-      }
-    ]
-  },
-  "timeline": {
-    "items": [
-      {
-        "year": "Phase 1",
-        "title": "Strömungssimulation & Design",
-        "text": "Unsere Ingenieure analysieren die Kühlungsanforderungen des Rechenzentrums. Wir berechnen Volumenströme, eliminieren Flaschenhälse und dimensionieren das Rohrnetz auf maximale hydrodynamische Effizienz."
-      },
-      {
-        "year": "Phase 2",
-        "title": "Präzisions-Vorfertigung",
-        "text": "Im Stammwerk in Deutschland werden komplexe Verteiler-Spools nach Maß vorgefertigt. Zentimetergenau, vollautomatisiert und unter Laborbedingungen qualitätsgesichert."
-      },
-      {
-        "year": "Phase 3",
-        "title": "Just-In-Time Logistik",
-        "text": "Megaprojekte verzeihen keine Lieferverzögerungen. Wir koordinieren die weltweite Logistik direkt auf das Baufeld, synchronisiert mit dem strengen Takt der Generalunternehmer."
-      },
-      {
-        "year": "Phase 4",
-        "title": "Homogene Verschweißung",
-        "text": "Lokale Installationsteams werden durch K Aqua Master-Schweißer geprüft. Die molekulare Verschweißung auf der Baustelle garantiert eine 100 % leckagefreie, homogene Leitungsstruktur ohne Schwachstellen."
-      },
-      {
-        "year": "Phase 5",
-        "title": "Druckprüfung & Prüfung",
-        "text": "Vor der Übergabe erfolgt eine unerbittliche hydraulische Druck- und Belastungsprüfung. Erst wenn das System diese Tests besteht, erteilen wir die Freigabe und übernehmen die volle Systemgarantie."
-      }
-    ],
-    "title": "Der Engineering-Prozess",
-    "desc": "Von der hydrodynamischen Skizze bis zur finalen Abnahme: Wie wir globale Hyperscale-Infrastrukturen ohne Kompromisse und in Rekordzeit realisieren."
-  },
-  "hero": {
-    "eyebrow": "Hyperscale & Colocation Infrastructure",
-    "title1": "Zero-Downtime Infrastruktur.",
-    "title2": "Engineered in Germany.",
-    "desc": "Wenn Kühlsysteme das Herzstück globaler Rechenzentren bilden, ist Materialversagen keine Option. Entdecken Sie die sicherste, effizienteste und skalierbarste PP-R Leitungslösung für geschäftskritische Kälte- und Klimatechnik.",
-    "cta1": "Projekt anfragen",
-    "cta2": "Technisches Whitepaper"
-  },
-  "section1": {
-    "eyebrow": "Mission-Critical Cooling",
-    "title": "Warum klassische Rohre scheitern.",
-    "lead": "Die Anforderungen moderner Hyperscaler und KI-Cluster überschreiten die physikalischen Grenzen traditioneller Metallsysteme."
-  },
-  "section2": {
-    "eyebrow": "Die Überlegenheit von PP-R",
-    "title": "Materialwissenschaft für das 21. Jahrhundert.",
-    "lead": "Jedes atomare Detail unseres Systems wurde für absolute Ausfallsicherheit und Dauerhaftigkeit optimiert."
-  },
-  "bento": {
-    "items": [
-      {
-        "title": "Chemische Neutralität & Reinheit",
-        "desc": "Geschlossene Kühlkreisläufe benötigen Konditionierungsmittel. K Aqua verhält sich absolut inert gegenüber aggressiven Additiven und verhindert Algen- sowie Biofilmbildung vollständig. Keine chemische Zersetzung, keine Partikel im Kühlwasser."
-      },
-      {
-        "title": "Druckresilienz im Hochhaus",
-        "desc": "Ausgelegt für konstante Höchstlasten unter extremen PN10 / PN20 Druckbedingungen in vertikalen Hochhaus-Rechenzentren."
-      },
-      {
-        "title": "Deutsche Vorfertigung",
-        "desc": "Wir schweißen komplexe Verteilerblöcke in unserem Stammwerk in Deutschland vor. Plug-and-Play Lieferung für drastisch verkürzte Bauzeiten."
-      },
-      {
-        "title": "Erdbebensicher (Seismic Resistance)",
-        "desc": "Im Gegensatz zu starren Metallsystemen verfügt unser PP-R-System über eine definierte intrinsische Elastizität. Schockwellen und massive Vibrationen durch Notstromaggregate oder starke seismische Aktivitäten werden absorbiert statt zerstörerische Brüche zu verursachen."
-      }
-    ]
-  },
-  "cta": {
-    "title": "Bereit für kompromisslose Sicherheit?",
-    "desc": "Verbinden Sie sich mit unserem Engineering Team. Wir analysieren Ihr nächstes Rechenzentrums-Megaprojekt und liefern die Infrastruktur der Zukunft.",
-    "button": "Engineering-Gespräch vereinbaren"
+  "rechenzentrum": {
+    "meta": {
+      "title": "Data Center Infrastructure | K-Aqua",
+      "desc": "K-Aqua Data Center Solutions: Secure mission-critical infrastructure with leak-proof cooling systems and German-engineered reliability."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "The Thermal Challenge of AI and HPC",
+          "desc": "Modern High-Performance Computing (HPC) and Artificial Intelligence (AI) racks produce immense waste heat. Air cooling alone reaches its physical limits. The future belongs to liquid cooling, and thus water as a critical heat transfer medium directly at the chip."
+        },
+        {
+          "title": "Corrosion is the Enemy of Availability",
+          "desc": "Metallic piping systems are subject to pitting, rust, and chemical degradation during continuous operation. A micro-crack in a data center can cause millions in damages through server downtime. K-Aqua eliminates this risk through 100% corrosion-free Polypropylene Random Copolymer (PP-R)."
+        },
+        {
+          "title": "Ultrasonically Welded Molecular Connections",
+          "desc": "Where conventional pipes rely on failure-prone gaskets or mechanical joints, K-Aqua systems fuse at the molecular level. The result: a completely homogeneous, absolutely leak-free piping network. Zero tolerance for leaks."
+        },
+        {
+          "title": "Sustainability & PUE Optimization",
+          "desc": "A low Power Usage Effectiveness (PUE) is the holy grail for data center operators. K-Aqua pipes feature excellent thermodynamic properties. Lower pipe friction losses and optimal thermal insulation massively minimize energy loss during cooling water circulation."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "Phase 1",
+          "title": "Flow Simulation & Design",
+          "text": "Our engineers analyze the cooling requirements of the data center. We calculate volumetric flow rates, eliminate bottlenecks, and dimension the piping network for maximum hydrodynamic efficiency."
+        },
+        {
+          "year": "Phase 2",
+          "title": "Precision Prefabrication",
+          "text": "At our main plant in Germany, complex manifold spools are prefabricated to measure. Centimeter-precise, fully automated, and quality-assured under laboratory conditions."
+        },
+        {
+          "year": "Phase 3",
+          "title": "Just-In-Time Logistics",
+          "text": "Megaprojects forgive no delivery delays. We coordinate global logistics directly to the construction site, synchronized with the strict cadence of general contractors."
+        },
+        {
+          "year": "Phase 4",
+          "title": "Homogeneous Welding",
+          "text": "Local installation teams are audited by K-Aqua Master Welders. Molecular welding on site guarantees a 100% leak-free, homogeneous piping structure with zero weak points."
+        },
+        {
+          "year": "Phase 5",
+          "title": "Pressure Testing & Inspection",
+          "text": "Prior to handover, relentless hydraulic pressure and stress testing is performed. Only when the system passes these tests do we grant approval and assume full system warranty."
+        }
+      ],
+      "title": "The Engineering Process",
+      "desc": "From hydrodynamic draft to final acceptance: How we realize global hyperscale infrastructures without compromises and in record time."
+    },
+    "hero": {
+      "eyebrow": "Hyperscale & Colocation Infrastructure",
+      "title1": "Zero-Downtime Infrastructure.",
+      "title2": "Engineered in Germany.",
+      "desc": "When cooling systems form the heartbeat of global data centers, material failure is not an option. Discover the safest, most efficient, and scalable PP-R piping solution for mission-critical cooling and HVAC technology.",
+      "cta1": "Inquire Project",
+      "cta2": "Technical Whitepaper"
+    },
+    "section1": {
+      "eyebrow": "Mission-Critical Cooling",
+      "title": "Why Traditional Pipes Fail.",
+      "lead": "The requirements of modern hyperscalers and AI clusters exceed the physical boundaries of traditional metallic systems."
+    },
+    "section2": {
+      "eyebrow": "The Superiority of PP-R",
+      "title": "Material Science for the 21st Century.",
+      "lead": "Every atomic detail of our system was optimized for absolute reliability and permanent durability."
+    },
+    "bento": {
+      "items": [
+        {
+          "title": "Chemical Neutrality & Purity",
+          "desc": "Closed cooling loops require conditioning agents. K-Aqua behaves completely inert to aggressive additives and entirely prevents algae and biofilm formation. No chemical degradation, no particles in cooling water."
+        },
+        {
+          "title": "High-Rise Pressure Resilience",
+          "desc": "Designed for constant peak loads under extreme PN10 / PN20 pressure conditions in vertical high-rise data centers."
+        },
+        {
+          "title": "German Prefabrication",
+          "desc": "We pre-weld complex manifold blocks at our main factory in Germany. Plug-and-play delivery for drastically reduced construction timelines."
+        },
+        {
+          "title": "Seismic Resistance",
+          "desc": "Unlike rigid metallic systems, our PP-R system possesses defined intrinsic elasticity. Shockwaves and massive vibrations from emergency backup generators or strong seismic activity are absorbed instead of causing destructive fractures."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready for Uncompromising Safety?",
+      "desc": "Connect with our engineering team. We will analyze your next data center megaproject and deliver the infrastructure of the future.",
+      "button": "Schedule Engineering Consultation"
+    }
   }
 }

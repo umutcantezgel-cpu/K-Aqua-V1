@@ -1,151 +1,153 @@
 {
-  "meta": {
-    "title": "Hochhausbau Infrastruktur | K Aqua",
-    "desc": "K Aqua Hochhausbau: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Erfahren Sie mehr über unsere Hochhauslösungen."
-  },
-  "hero": {
-    "eyebrow": "Die vertikale Grenze",
-    "title1": "Hochhausbau.",
-    "title2": "Engineered in Germany.",
-    "desc": "Megaprojekte erfordern mehr als nur Rohre. Sie erfordern ein makelloses, wartungsfreies Kreislaufsystem, das dem extremen hydrostatischen Druck und den tektonischen Schwankungen standhält. K Aqua liefert kompromisslose Sicherheit für die anspruchsvollsten Gebäude der Welt.",
-    "cta1": "Projekt anfragen",
-    "cta2": "Technische Spezifikationen"
-  },
-  "intro": {
-    "eyebrow": "Die Anatomie von Megabauten",
-    "title": "Ein Gebäude ist nur so stark wie seine Adern.",
-    "lead": "In 500 Metern Höhe verzeiht die Physik keine Konstruktionsfehler. Ein Haarriss in einer Steigleitung bedeutet katastrophale Schäden in Millionenhöhe. Deshalb überlassen wir bei K Aqua nichts dem Zufall.",
-    "p1": "Hochhäuser sind vertikale Städte. Sie pulsieren, sie bewegen sich, sie atmen. Mit jedem Stockwerk steigt der hydrostatische Druck exponentiell an. Windlasten verursachen Mikroschwingungen in der gesamten Struktur. Temperaturunterschiede zwischen dem eisigen Fundament und der sonnenüberfluteten Spitze führen zu gewaltigen thermischen Längenausdehnungen.",
-    "p2": "Traditionelle metallische Rohrleitungssysteme stoßen hier an ihre absoluten physikalischen Grenzen. Korrosion, Lochfraß, Inkrustation und Ermüdungsbrüche an den Schweißnähten sind keine Frage des \"Ob\", sondern des \"Wann\". Im Hochhausbau ist ein Leck nicht einfach nur ein technisches Problem. Es ist ein finanzielles Risiko, das ein gesamtes Projekt gefährden kann.",
-    "p3": "K Aqua Hochleistungspolymere (PP-R & PPRCT) verändern die Spielregeln der Hochhaus-Infrastruktur fundamental. Sie korrodieren nicht. Sie verkalken nicht. Und durch unsere homogene thermische Schweißtechnik verschmelzen Rohr und Fitting auf molekularer Ebene zu einer einzigen, unzertrennbaren Einheit. Das Kreislaufsystem wird so stark wie das Material selbst."
-  },
-  "sticky": {
-    "eyebrow": "Extrembedingungen",
-    "title": "Die Physik der Höhe meistern.",
-    "lead": "Vier fundamentale Herausforderungen im Hochhausbau und wie die deutsche Ingenieurskunst von K Aqua sie überwindet.",
-    "items": [
-      {
-        "title": "Extremer Hydrostatischer Druck",
-        "desc": "Mit jedem Meter Höhe wächst die Wassersäule. In Megatalls entstehen Drücke jenseits von 30 bar. K Aqua PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) Rohre bieten eine bis zu 50% höhere Druckfestigkeit bei hohen Temperaturen im Vergleich zu Standard-PP-R. Sie fungieren als unverwüstliches Rückgrat der Wasserversorgung, selbst in Zonen maximaler statischer Belastung."
-      },
-      {
-        "title": "Thermische Längenausdehnung & Spannungskontrolle",
-        "desc": "Das Pumpen von heißem Wasser durch ein 300 Meter langes Rohr erzeugt immense Längenausdehnungen und Scherkräfte. Unsere Faserverbundtechnologie reduziert die thermische Ausdehnung um bis zu 75%. Das bedeutet weniger Befestigungspunkte, keine Dehnungsschleifen und ultimative strukturelle Integrität, verpackt in einem leichten, leicht zu montierenden System."
-      },
-      {
-        "title": "Molekulare Homogenität (Leckagefreiheit)",
-        "desc": "Wo O-Ringe oder Pressfittings aus Elastomeren verbaut sind, entstehen unweigerlich Leckagen durch Alterung. K Aqua eliminiert Dichtungen komplett. Durch das thermische Heizelementmuffenschweißen verschmelzen Rohr und Fitting bei exakt 260°C. Die resultierende Verbindung ist mechanisch genauso stark wie das Rohr selbst. Null Leckagen. Garantiert auf Lebenszeit."
-      },
-      {
-        "title": "Akkustische Entkopplung (Schallschutz)",
-        "desc": "In Luxus-Penthouses und High End Offices ist Stille das ultimative Gut. Fließgeräusche und Druckschläge müssen eliminiert werden. Die hohe Materialdichte und die schallabsorbierenden Eigenschaften unserer PP-R Polymere dämpfen Körperschall und Fließgeräusche massiv und übertreffen die strengen Anforderungen der DIN 4109 und VDI 4100 bei Weitem."
-      }
-    ]
-  },
-  "bento": {
-    "eyebrow": "Spezifikationen",
-    "title": "Architektur für die Ewigkeit.",
-    "lead": "Präzisionsgefertigt nach strengsten deutschen Maßstäben für 100% Wartungsfreiheit. Wir definieren den globalen Standard im Segment der Rohrleitungssysteme für Wolkenkratzer.",
-    "items": [
-      {
-        "title": "Die PPRCT Revolution",
-        "desc": "Die nächste Generation des Polypropylens. Modifizierte kristalline Struktur für nie dagewesene Druck- und Temperaturbeständigkeit bei reduzierter Wandstärke. Maximiert den Durchfluss, minimiert das Gewicht, ein entscheidender Faktor bei der Statik großer Gebäude."
-      },
-      {
-        "title": "DIN EN ISO 15874",
-        "desc": "geprüfte Sicherheit durch unabhängige deutsche Prüfinstitute wie SKZ und DVGW. Höchste Trinkwassergüte, keine Auswaschungen."
-      },
-      {
-        "title": "Absolute Korrosionsresistenz",
-        "desc": "Unempfindlich gegen pH-Wert-Schwankungen, aggressive Wasserqualitäten, Chlorierung und elektrochemische Korrosion (Lochfraß)."
-      },
-      {
-        "title": "Vollständige Vorfertigung (Prefabrication)",
-        "desc": "Zeit ist das teuerste Gut auf der Baustelle. Wir liefern millimetergenau vorgefertigte Verteiler-Arrays, Zählerbalken und Steigleitungskomponenten direkt 'Just-in-Time'. Reduziert die Installationszeit um bis zu 60% und eliminiert Fehlerquellen auf der Baustelle."
-      }
-    ]
-  },
-  "timeline": {
-    "title": "Der Projektzyklus",
-    "desc": "Von der ersten Strömungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.",
-    "items": [
-      {
-        "year": "Phase 1",
-        "title": "Engineering & BIM",
-        "text": "Unsere Ingenieure unterstützen bei der Auslegung der Steigleitungen, der Berechnung der Druckzonen und stellen vollständige BIM-Daten (Revit) zur Kollisionsprüfung und TGA-Planung bereit."
-      },
-      {
-        "year": "Phase 2",
-        "title": "Präzisionsextrusion",
-        "text": "In unseren hochmodernen Anlagen in Deutschland werden Rohre und Fittings unter ständiger Ultraschall-Wanddickenkontrolle und strengster Laborüberwachung gefertigt. Jede Charge ist 100% nachverfolgbar."
-      },
-      {
-        "year": "Phase 3",
-        "title": "Just-in-Time Logistik",
-        "text": "Durch unser weltweites Vertriebsnetzwerk stellen wir sicher, dass das Material taktgenau auf der Baustelle eintrifft, egal ob in der Wüste von Dubai, in Singapur oder in Frankfurt am Main."
-      },
-      {
-        "year": "Phase 4",
-        "title": "Homogene Verschmelzung",
-        "text": "Lokale Installateure werden von unseren Technikern vor Ort geschult. Die thermischen Schweißverbindungen werden in Sekundenschnelle gesetzt und sind sofort nach dem Auskühlen voll druckbelastbar."
-      },
-      {
-        "year": "Jahrzehnte",
-        "title": "Wartungsfreier Betrieb",
-        "text": "Nach der finalen Druckprüfung verschwinden unsere Systeme im Schacht oder Beton. Für die nächsten 50+ Jahre werden Sie nie wieder an sie denken müssen. Ein unsichtbares, perfektes Netzwerk."
-      }
-    ]
-  },
-  "data": {
-    "eyebrow": "Die Daten",
-    "title": "Faktenbasierte Überlegenheit.",
-    "lead": "Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).",
-    "h3_1": "Molekulare Beständigkeit",
-    "p1": "Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchenüblichen Standardvorgaben gehen von einer 50-jährigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit für eine Lebensdauer von über 100 Jahren. Das K Aqua PPRCT Material verzögert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.",
-    "h3_2": "Hydraulische Strömungsdynamik",
-    "p2": "Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand für die Förderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberflächenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfläche bleibt über die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften können.",
-    "stats": [
-      {
-        "label": "Dichte (g/cm³)",
-        "val": "0.905",
-        "standard": "ISO 1183"
-      },
-      {
-        "label": "Schmelzindex (g/10min)",
-        "val": "0.3",
-        "standard": "ISO 1133"
-      },
-      {
-        "label": "Zug-E-Modul (MPa)",
-        "val": "800 / 900 (RCT)",
-        "standard": "ISO 527"
-      },
-      {
-        "label": "Wärmeleitfähigkeit (W/mK)",
-        "val": "0.24",
-        "standard": "DIN 52612"
-      },
-      {
-        "label": "Längenausdehnungskoeffizient (mm/mK)",
-        "val": "0.15 (Standard) / 0.035 (Faser)",
-        "standard": "DIN 53752"
-      },
-      {
-        "label": "Oberflächenrauigkeit k (mm)",
-        "val": "0.007",
-        "standard": "Prüfstand"
-      },
-      {
-        "label": "Chemische Beständigkeit",
-        "val": "Ph-Wert 1 bis 14",
-        "standard": "DIN 8078"
-      }
-    ]
-  },
-  "cta": {
-    "title": "Bereit, die Skyline der Zukunft zu prägen?",
-    "desc": "Sprechen Sie mit unserem dedizierten Hochhaus-Engineering Team über Strömungsberechnungen, statische Auslegungen und maßgeschneiderte Prefab-Lösungen für Ihr nächstes Megaprojekt.",
-    "button1": "Projekt anfragen",
-    "button2": "Technischen Support kontaktieren"
+  "hochhaus": {
+    "meta": {
+      "title": "High-Rise Infrastructure | K Aqua",
+      "desc": "K-Aqua High-Rise Construction: German-engineered PP-R piping solutions delivering optimal pressure resistance for towering skyscrapers."
+    },
+    "hero": {
+      "eyebrow": "The Vertical Frontier",
+      "title1": "High-Rise Construction.",
+      "title2": "Engineered in Germany.",
+      "desc": "Megaprojects demand more than just pipes. They require a flawless, maintenance-free circulatory system capable of standing up to extreme hydrostatic pressure and tectonic shifts. K-Aqua delivers uncompromising safety for the world's most demanding buildings.",
+      "cta1": "Inquire Project",
+      "cta2": "Technical Specifications"
+    },
+    "intro": {
+      "eyebrow": "The Anatomy of Megastructures",
+      "title": "A Building Is Only as Strong as Its Veins.",
+      "lead": "At a height of 500 meters, physics forgives no design flaws. A hairline crack in a riser means millions in catastrophic damage. That is why at K-Aqua, we leave nothing to chance.",
+      "p1": "High-rises are vertical cities. They pulse, move, and breathe. With every floor, hydrostatic pressure increases exponentially. Wind loads cause micro-vibrations throughout the structure. Temperature variations between the icy foundation and sun-drenched summit lead to massive thermal expansion.",
+      "p2": "Traditional metallic piping systems reach their absolute physical limits here. Corrosion, pitting, encrustation, and fatigue fractures at weld seams are not a question of 'if', but 'when'. In high-rise construction, a leak is not merely a technical issue, it is a financial risk that can endanger an entire project.",
+      "p3": "K-Aqua high-performance polymers (PP-R & PPRCT) fundamentally change the rules of high-rise infrastructure. They do not corrode. They do not calcify. And through our homogeneous thermal welding technology, pipe and fitting merge on a molecular level into a single, inseparable unit. The circulatory system becomes as strong as the material itself."
+    },
+    "sticky": {
+      "eyebrow": "Extreme Conditions",
+      "title": "Mastering the Physics of Height.",
+      "lead": "Four fundamental challenges in high-rise construction, and how German engineering from K-Aqua overcomes them.",
+      "items": [
+        {
+          "title": "Extreme Hydrostatic Pressure",
+          "desc": "With every meter of elevation, the water column grows. In megatalls, pressures exceed 30 bar. K-Aqua PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) pipes offer up to 50% higher pressure resistance at high temperatures compared to standard PP-R. They act as the indestructible backbone of water supply, even in zones of maximum static load."
+        },
+        {
+          "title": "Thermal Expansion & Stress Control",
+          "desc": "Pumping hot water through a 300-meter pipe generates immense thermal expansion and shear forces. Our fiber composite technology reduces thermal expansion by up to 75%. That means fewer fixing points, no expansion loops, and ultimate structural integrity packaged in a lightweight, easy-to-install system."
+        },
+        {
+          "title": "Molecular Homogeneity (Leak-Free Performance)",
+          "desc": "Where O-rings or press fittings made of elastomers are used, leaks inevitably occur due to aging. K-Aqua eliminates seals completely. Thermal socket fusion merges pipe and fitting at exactly 260°C. The resulting joint is mechanically as strong as the pipe itself. Zero leaks. Guaranteed for life."
+        },
+        {
+          "title": "Acoustic Decoupling (Sound Insulation)",
+          "desc": "In luxury penthouses and high-end offices, silence is the ultimate luxury. Flow noises and pressure surges must be eliminated. The high material density and sound-absorbing properties of our PP-R polymers damp structure-borne noise and flow sounds significantly, far exceeding the strict requirements of DIN 4109 and VDI 4100."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "Specifications",
+      "title": "Architecture for Eternity.",
+      "lead": "Precision-manufactured to the strictest German standards for 100% maintenance-free performance. We define the global standard in the skyscraper piping segment.",
+      "items": [
+        {
+          "title": "The PPRCT Revolution",
+          "desc": "The next generation of polypropylene. Modified crystalline structure for unprecedented pressure and temperature resistance with reduced wall thickness. Maximizes flow rate, minimizes weight, a crucial factor in building statics."
+        },
+        {
+          "title": "DIN EN ISO 15874",
+          "desc": "Certified safety through independent German testing institutes such as SKZ and DVGW. Highest drinking water quality, no leaching."
+        },
+        {
+          "title": "Absolute Corrosion Resistance",
+          "desc": "Insensitive to pH fluctuations, aggressive water qualities, chlorination, and electrochemical corrosion (pitting)."
+        },
+        {
+          "title": "Full Prefabrication",
+          "desc": "Time is the most expensive asset on site. We deliver millimeter-precise prefabricated manifold arrays, meter banks, and riser components just-in-time. Reduces installation time by up to 60% and eliminates error sources on site."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "The Project Cycle",
+      "desc": "From the initial flow simulation to decades of maintenance-free operation. How the K-Aqua engineering team accompanies your megaproject from concept to commissioning.",
+      "items": [
+        {
+          "year": "Phase 1",
+          "title": "Engineering & BIM",
+          "text": "Our engineers assist with riser design, pressure zone calculation, and supply complete BIM data (Revit) for collision checking and MEP planning."
+        },
+        {
+          "year": "Phase 2",
+          "title": "Precision Extrusion",
+          "text": "In our state-of-the-art facilities in Germany, pipes and fittings are produced under continuous ultrasonic wall thickness control and strict laboratory supervision. Every batch is 100% traceable."
+        },
+        {
+          "year": "Phase 3",
+          "title": "Just-in-Time Logistics",
+          "text": "Through our global distribution network, we ensure material arrives precisely on schedule at the site, whether in the desert of Dubai, Singapore, or Frankfurt am Main."
+        },
+        {
+          "year": "Phase 4",
+          "title": "Homogeneous Fusion",
+          "text": "Local installers are trained on site by our technicians. Thermal fusion joints are made in seconds and are fully pressure-resistant immediately after cooling."
+        },
+        {
+          "year": "Decades",
+          "title": "Maintenance-Free Operation",
+          "text": "After final pressure testing, our systems disappear into shafts or concrete. For the next 50+ years, you will never have to think about them again. An invisible, perfect network."
+        }
+      ]
+    },
+    "data": {
+      "eyebrow": "The Data",
+      "title": "Fact-Based Superiority.",
+      "lead": "General contractors do not believe marketing promises. They believe in tensile strength, creep rupture curves, dynamic pressure resistance, and FNCT (Full Notch Creep Tests).",
+      "h3_1": "Molecular Durability",
+      "p1": "The service life of a plastic pipe under pressure and temperature is determined by internal hydrostatic pressure strength (creep curves). Industry standard specifications assume a 50-year operating life. Our internal lab tests and thermal-oxidative aging simulations verify a service life exceeding 100 years. The K-Aqua PPRCT material significantly delays the onset of thermal-oxidative degradation, even in circulation lines with permanently high temperatures.",
+      "h3_2": "Hydraulic Flow Dynamics",
+      "p2": "Metal pipes become rough over the years due to corrosion and encrustation. Pipe friction losses increase, cross-sections narrow, and pump energy consumption skyrockets. K-Aqua pipes feature an absolute surface roughness of k = 0.007 mm. This mirror-smooth surface remains absolutely constant over the entire service life. The result: minimal pressure loss, massive energy savings in pump operation, and absolute hygiene as neither biofilm nor Legionella can attach.",
+      "stats": [
+        {
+          "label": "Density (g/cm³)",
+          "val": "0.905",
+          "standard": "ISO 1183"
+        },
+        {
+          "label": "Melt Flow Index (g/10min)",
+          "val": "0.3",
+          "standard": "ISO 1133"
+        },
+        {
+          "label": "Tensile Modulus (MPa)",
+          "val": "800 / 900 (RCT)",
+          "standard": "ISO 527"
+        },
+        {
+          "label": "Thermal Conductivity (W/mK)",
+          "val": "0.24",
+          "standard": "DIN 52612"
+        },
+        {
+          "label": "Linear Expansion Coefficient (mm/mK)",
+          "val": "0.15 (Standard) / 0.035 (Fiber)",
+          "standard": "DIN 53752"
+        },
+        {
+          "label": "Surface Roughness k (mm)",
+          "val": "0.007",
+          "standard": "Test Bench"
+        },
+        {
+          "label": "Chemical Resistance",
+          "val": "Ph Value 1 to 14",
+          "standard": "DIN 8078"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Shape the Skyline of the Future?",
+      "desc": "Speak with our dedicated high-rise engineering team about flow calculations, structural layouts, and customized prefab solutions for your next megaproject.",
+      "button1": "Inquire Project",
+      "button2": "Contact Technical Support"
+    }
   }
 }

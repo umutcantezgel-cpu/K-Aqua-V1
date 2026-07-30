@@ -1,5 +1,5 @@
 {
-  "academy.schulungen": {
+  "schulungen": {
     "meta": {
       "title": "Schulungen | K Aqua",
       "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
@@ -128,7 +128,7 @@
       "button": "Bewerbung initiieren"
     }
   },
-  "academy.zertifizierung": {
+  "zertifizierung": {
     "meta": {
       "title": "Zertifikate & Normen | K Aqua",
       "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
@@ -258,7 +258,7 @@
       "button2": "Technischen Support kontaktieren"
     }
   },
-  "academy.glossar": {
+  "glossar": {
     "meta": {
       "title": "Technisches Glossar | K Aqua",
       "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Fachbegriffe der PP-R Rohrtechnik."
@@ -366,70 +366,5 @@
       "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
       "button": "Engineering Briefing starten"
     }
-  },
-  "academy.videos": [
-    {
-      "t": "Muffenschweißen von Hand",
-      "s": "bis d63: Handschweißgerät"
-    },
-    {
-      "t": "Muffenschweißen mit Maschine",
-      "s": "mittlere Dimensionen"
-    },
-    {
-      "t": "Elektroschweißen",
-      "s": "Heizwendelfittings"
-    },
-    {
-      "t": "Stumpfschweißen",
-      "s": "Großdimensionen bis d630"
-    }
-  ],
-  "academy.intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-  "academy.start": "Quiz starten",
-  "academy.qLabel": "Frage",
-  "academy.quiz": [
-    {
-      "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
-      "o": [
-        "Muffenschweißen von Hand",
-        "Stumpfschweißen (Butt Fusion)",
-        "Kleben"
-      ]
-    },
-    {
-      "q": "Wofür steht SDR bei Rohrsystemen?",
-      "o": [
-        "Standard Dimension Ratio (d/s)",
-        "Static Density Rating",
-        "Sicherheits-Druck-Reserve"
-      ]
-    },
-    {
-      "q": "Was unterscheidet PPRCT von klassischem PP-R?",
-      "o": [
-        "Niedrigerer Preis",
-        "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
-        "Metallische Verstärkung"
-      ]
-    },
-    {
-      "q": "Welchen Recycling Code trägt Polypropylen?",
-      "o": [
-        "Code 3",
-        "Code 5",
-        "Code 7"
-      ]
-    },
-    {
-      "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
-      "o": [
-        "aus einem Heizelement-Spiegel",
-        "aus eingebetteten Heizwendeln im Fitting",
-        "aus Heißluft"
-      ]
-    }
-  ],
-  "academy.resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
-  "academy.resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig."
+  }
 }

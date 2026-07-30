@@ -8,6 +8,7 @@ import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -59,10 +60,9 @@ export default async function AcademyPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx'])}>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">{meta[0]}</div>
-      <div className="sr-only">{data.title1} {data.titleGrad}</div>
       <Academy data={data} />
       <AcademyDeep />
+      <DynamicSeoBlock title={meta[0]} h1={`${data.title1} ${data.titleGrad}`} locale={locale} path="/academy" />
     </NextIntlClientProvider>
   );
 }

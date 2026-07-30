@@ -1,0 +1,142 @@
+{
+  "sticky": {
+    "items": [
+      {
+        "title": "Pag-iwas sa Legionella sa Molecular Level",
+        "desc": "Sa kritikal na imprastraktura ng ospital, ang kalinisan ng tubig ay hindi isang opsyon, kundi isang isyu ng kaligtasan. Ang aming mga K Aqua piping system ay gumagamit ng napakakinis at walang-butas na panloob na ibabaw na pisikal na pumipigil sa pagbuo ng biofilm at pagdami ng legionella. Dito, nangangahulugan ang Inhenyeriya ng Alemanya: Pag-iwas sa pamamagitan ng perpektong materyal na agham, hindi sa pamamagitan ng kemikal na panggagamot."
+      },
+      {
+        "title": "Thermal Disinfection nang Walang Material Fatigue",
+        "desc": "Ang mga klinikal na pamantayan ay nangangailangan ng regular na thermal disinfection sa temperatura na higit sa 70°C. Habang ang mga kumbensyonal na sistema ay mabilis na humihina rito, ang K Aqua PPR system ay sadyang ginawa para sa matitinding thermal stress na tumatagal nang mga dekada. Walang micro-cracks, walang brittleness, walang kompromiso."
+      },
+      {
+        "title": "Ganap na Sterile na Koneksyon",
+        "desc": "Pinagsasama ng aming patentadong heating element socket welding ang tubo at fitting tungo sa isang homogenous at ganap na walang-tahing yunit. Wala itong naiiwang dead spaces kung saan maaaring maipon ang stagnant na tubig. Ang resulta ay isang piping system na ginawa bilang isang piraso: ang ganap na pisikal na harang laban sa kontaminasyon."
+      },
+      {
+        "title": "Acoustic Isolation para sa mga Intensive Care Unit",
+        "desc": "Ang ingay ay isang malaking stress factor para sa mga pasyente at kawani ng medikal. Ang K Aqua system ay may sariling mga katangiang sumisipsip ng tunog. Ang ingay ng daloy at pressure surges ay kinokonsumo ng mismong materyal, na gumagarantiya ng napakatahimik na supply ng tubig kahit sa mga high-pressure application: mahalaga para sa mga operating room at intensive care unit."
+      }
+    ]
+  },
+  "timeline": {
+    "items": [
+      {
+        "year": "Phase 01",
+        "title": "System Dimensioning at Hydraulics",
+        "text": "Tumpak na pag-kalkula ng mga cross-section ng tubo upang maiwasan ang stagnation zones. Ang bawat milimetro ng pagbaba ng presyon ay ginagaya at inaalis sa panahon ng yugto ng pagpaplano ng aming mga inhinyerong Aleman gamit ang isang digital twin."
+      },
+      {
+        "year": "Phase 02",
+        "title": "Material Specification",
+        "text": "Pagpili ng mga partikular na K Aqua polymer blend, na na-optimize para sa mga klinikal na pangangailangan. Ang aming mga raw material ay dumadaan sa 42 na hakbang sa quality assurance bago pa man ito umabot sa extruder."
+      },
+      {
+        "year": "Phase 03",
+        "title": "Prefabrication at Cleanroom Handling",
+        "text": "Pre-assembly ng mga kumplikadong manifold sa ilalim ng kinokontrol na kapaligiran. Ang pagbawas sa mga welding seam sa mismong site ay gumagarantiya ng hanggang 40% na mas mabilis at walang-maling pag-install sa mga kondisyon ng cleanroom."
+      },
+      {
+        "year": "Phase 04",
+        "title": "Commissioning at Testing",
+        "text": "Kumpletong hydrostatic pressure test at paunang thermal disinfection. Ang paglipat sa general contractor ay ginagawa na may komprehensibo at digital na dokumentasyon ng bawat welding seam."
+      },
+      {
+        "year": "Phase 05",
+        "title": "50 Taon ng Maintenance-Free",
+        "text": "Matapos mapagana, nakatago ang sistema sa dingding at gumagana nang tahimik at maaasahan, na garantisadong tatagal nang hindi bababa sa 50 taon na walang anumang pagkahapo ng materyal."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Mission-Critical Infrastructure",
+    "title1": "Mga Ospital.",
+    "title2": "Zero Fault Tolerance.",
+    "desc": "Sa maximum medical care, ang imprastraktura ang nagpapasya kung buhay o kamatayan. Ibinibigay ng K Aqua ang hydrological na nervous system para sa mga pinakamodernong proyekto ng klinika sa mundo. Ginawa sa Alemanya. Binuo para sa walang hanggan.",
+    "cta1": "Engineering Consulting",
+    "cta2": "I-download ang BIM Data"
+  },
+  "intro": {
+    "title": "Kung saan ang isang patak ng tubig <br className=\"hidden md:block\"/> ay maaaring magpabagsak sa sistema.",
+    "desc": "Nahaharap ang mga general contractor sa isang hindi malutas na kabalintunaan sa mga proyekto ng klinika: Ang matinding panggigipit sa oras sa panahon ng pagtatayo at ang mahigpit na mga kinakailangan sa kalinisan sa kasaysayan ng tao. Ang iisang dead space sa pipe network, ang microscopic na bitak, o anumang naagnas na koneksyon: at ang milyun-milyong puhunan ay mapapahamak. Nilulutas namin ang kabalintunaang ito sa pamamagitan ng dalisay at walang-kompromisong sining ng Inhenyeriya ng Alemanya."
+  },
+  "stickySection": {
+    "eyebrow": "Teknolohikal na Pangingibabaw",
+    "title": "Ang Anatomiya ng Kaligtasan.",
+    "lead": "Hindi namin nakikita ang ospital bilang isang gusali, kundi isang biyolohikal na organismo. Ang K Aqua system ay ang hindi masisira nitong vascular system. Ang bawat milimetro ng aming mga tubo ay naka-calibrate para sa ganap na pagiging maaasahan."
+  },
+  "bentoSection": {
+    "eyebrow": "ROI & Lifecycle",
+    "title": "Pang-ekonomiyang Kahusayan sa Pamamagitan ng Perpeksyon.",
+    "lead": "Ang kalidad ay hindi isang salik sa gastos, kundi ang tanging daan tungo sa kakayahang kumita sa building automation. Pinaliit ng K Aqua ang Total Cost of Ownership sa isang hindi pa nagagawang antas habang ginagarantiya ang maximum na kaligtasan ng pasyente."
+  },
+  "bento": {
+    "items": [
+      {
+        "title": "100% Corrosion Resistance",
+        "desc": "Hindi tulad ng mga metal pipe, ang K Aqua ay ganap na immune sa electrochemical corrosion, pitting, at hard water. Walang incrustation, walang pagbaba ng presyon sa loob ng 50 taon ng tuluy-tuloy na pagpapatakbo."
+      },
+      {
+        "title": "Napakabilis na Pag-install",
+        "desc": "Ang magaang timbang at homogenous welding technology ay nagpapabawas sa oras ng pag-install ng hanggang 40%. Mas kaunting man-days, mas mababang panganib sa mismong site.",
+        "badge": "-40% Oras"
+      },
+      {
+        "title": "Kakayahang Umangkop sa Lindol",
+        "desc": "Ang modular na istruktura ng materyal sa molecular level ay nagbibigay-daan dito na sumipsip ng mga seismic shock at pag-upo ng gusali nang hindi nababasag. Mahalaga ito para sa mga ospital sa mga mapanganib na lugar.",
+        "badge": "Seismic Grade"
+      },
+      {
+        "title": "Sertipikadong Kalidad ng Tubig Inumin",
+        "desc": "Natutugunan at nahihigitan ang pinakamahihigpit na pamantayan sa mundo (DIN, DVGW, SKZ, WRAS) para sa transportasyon ng ultra-pure water at napakasensitibong klinikal na media."
+      }
+    ]
+  },
+  "timelineSection": {
+    "title": "Ang Pamantayan ng K Aqua.",
+    "desc": "Mula sa unang CAD drawing hanggang sa huling patak ng tubig, ang aming proseso ay isang symphony ng katumpakan na walang iniiwang puwang para sa pagkakataon."
+  },
+  "specs": {
+    "eyebrow": "Mga Detalye",
+    "title": "Ang Mga Tunay na Detalye.",
+    "lead": "Para sa mga inhinyero, planner, at arkitekto: Ang mga pisikal at kemikal na limitasyon ng aming sistema para sa klinikal na paggamit. Ang transparency ang batayan para sa tiwala.",
+    "therm": {
+      "title": "Thermal Load Capacity",
+      "items": [
+        {
+          "label": "Continuous Operating Temperature",
+          "value": "70°C"
+        },
+        {
+          "label": "Maximum Incident Temperature",
+          "value": "95°C (100h)"
+        },
+        {
+          "label": "Thermal Conductivity",
+          "value": "0.24 W/mK"
+        },
+        {
+          "label": "Linear Expansion Coefficient",
+          "value": "0.15 mm/mK"
+        }
+      ]
+    },
+    "mech": {
+      "title": "Mga Pisikal na Katangian",
+      "items": [
+        {
+          "label": "Surface Roughness",
+          "value": "0.007 mm"
+        },
+        {
+          "label": "Density",
+          "value": "0.90 g/cm³"
+        },
+        {
+          "label": "Fire Protection Class",
+          "value": "B2 (DIN 4102)"
+        }
+      ]
+    }
+  }
+}

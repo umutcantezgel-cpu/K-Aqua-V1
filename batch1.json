@@ -1,382 +1,225 @@
 {
-  "k-pipe-pp-r-sdr-6": {
-    "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-    "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-    "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
-    "faq": [
+  "refsx": {
+    "secEyebrow": "Einsatzfelder weltweit",
+    "secTitle": "Wo K Aqua-Technik arbeitet.",
+    "secLead": "Über Jahrzehnte haben sich K Aqua-Produkte unzählige Male in Destinationen auf der ganzen Welt bewährt. Diese Gebäudetypen prägen das Referenzprogramm.",
+    "sectors": [
       {
-        "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-        "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+        "t": "Krankenhäuser",
+        "d": "Hygienische Trinkwasserverteilung mit biofilm-hemmender Innenfläche, wie beim Krankenhausneubau in Kapstadt."
       },
       {
-        "q": "Welche Vorteile bietet die hohe Wandstärke?",
-        "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+        "t": "Hotels",
+        "d": "Warmwasser-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul mit Faserverbundrohr."
       },
       {
-        "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-        "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+        "t": "Industriegebäude",
+        "d": "Chemisch beständig und korrosionsfrei für Prozess- und Brauchwasser, vom Gewerbebau bis zur Fertigungshalle."
+      },
+      {
+        "t": "Gewächshäuser & Infrastruktur",
+        "d": "UV-stabilisierte Bewässerung unter Glas und Versorgungsnetze bis d630, wie im Infrastrukturprojekt Singapur."
       }
     ]
   },
-  "k-pipe-pp-rct-sdr-74": {
-    "seo_p1": "Das K Pipe PPRCT SDR 7.4 repräsentiert die nächste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandstärke für maximale Durchflussmengen.",
-    "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20°C. Die reduzierte Wandstärke spart Gewicht, ohne Kompromisse bei der Stabilität einzugehen.",
-    "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanitäranlagen. Durch das PPRCT Material profitieren Installateure von einer höheren Langzeitfestigkeit auch bei höheren Temperaturen.",
-    "faq": [
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie die Tabelle.",
+    "helpLead": "Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
       {
-        "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-        "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR und maximale Dimension eingrenzen oder direkt „d110\" in die Suche tippen."
       },
       {
-        "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-        "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+        "t": "Prüfen & exportieren",
+        "d": "Zeile anklicken für Wandstärke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation."
       },
       {
-        "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-        "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+        "t": "Anfrage übergeben",
+        "d": "Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam."
       }
     ]
   },
-  "k-pipe-pp-r-sdr-11": {
-    "seo_p1": "Das K-Pipe PP-R SDR 11 ist die Standardlösung für eine Vielzahl von Sanitär- und Heizungsanwendungen. Es zeichnet sich durch seine Zuverlässigkeit und einfache Handhabung aus.",
-    "seo_p2": "Mit einer SDR 11 Klassifizierung (Baureihe S 5) ist dieses PP-R Rohr für einen Betriebsdruck von 1.2 MPa bei 20°C zertifiziert. Die 4-Meter-Stangen lassen sich flexibel und passgenau verschweißen.",
-    "seo_p3": "Es wird häufig in Kaltwasserverteilungen und als vielseitige Leitung in der Haustechnik eingesetzt. Die homogene Schweißverbindung garantiert eine lebenslange Dichtigkeit ohne mechanische Schwachstellen.",
-    "faq": [
+  "co2x": {
+    "methEyebrow": "Methodik",
+    "methTitle": "So rechnet der Rechner.",
+    "methLead": "Transparenz statt Blackbox: vier Bausteine hinter jedem Ergebnis.",
+    "meth": [
       {
-        "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
-        "a": "Das SDR 11 Rohr ist hauptsächlich für Kaltwasser (20°C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60°C bei 6 Bar) konzipiert."
+        "t": "Massenmodell aus der SDR-Geometrie",
+        "d": "Die Rohrmasse folgt aus Ringquerschnitt × Länge × Dichte (0,905 g/cm³), dieselbe Geometrie wie in den Dimensionstabellen."
       },
       {
-        "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
-        "a": "Die Verlegung erfolgt über das Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+        "t": "Materialfaktoren",
+        "d": "Die Emissionsfaktoren je Werkstoff sind Demonstrationswerte für den Systemvergleich. Verbindliche Faktoren liefern ecoinvent bzw. produktspezifische Typ-III-EPDs nach EN 15804."
       },
       {
-        "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-        "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+        "t": "Anschauliche Äquivalente",
+        "d": "Umrechnung mit rund 25 kg CO₂ Jahresbindung je Baum und 0,15 kg CO₂e je Pkw-Kilometer, Größenordnungen, die jeder im Projektmeeting versteht."
+      },
+      {
+        "t": "Belegbarer Pfad",
+        "d": "Für Audit und Prüfung zählt das Dokument: EPD-Datenblätter und Scope-3-Daten gibt es im Trust Center bzw. auf Anfrage."
       }
-    ]
+    ],
+    "certEyebrow": "Green Building",
+    "certTitle": "Wo die Zahlen einzahlen.",
+    "certLead": "CO₂-Nachweise sind kein Selbstzweck: sie zahlen direkt auf Gebäudezertifizierungen ein.",
+    "certs": [
+      {
+        "t": "LEED",
+        "d": "EPDs nach EN 15804 zahlen auf die Material-Credits ein. Der Rechner liefert das Vorab-Argument, die EPD den Nachweis."
+      },
+      {
+        "t": "BREEAM",
+        "d": "Lebenszyklusdaten der Materialien fließen in die Bewertung, belastbar durch Typ-III-Deklarationen."
+      },
+      {
+        "t": "DGNB",
+        "d": "Die Ökobilanz des Gebäudes entscheidet ganze Kriteriengruppen. Materialwahl mit niedrigem GWP wirkt direkt."
+      }
+    ],
+    "scopeTitle": "Scope 1, 2, 3: kurz erklärt",
+    "scopeText": "Scope 1 umfasst direkte Emissionen des Werks, Scope 2 den eingekauften Strom, Scope 3 die Lieferkette, also auch Ihre eingekauften Rohre. Deshalb stellt K Aqua Scope-3-Daten und EPD-Rohdaten auf Anfrage bereit: proaktive Transparenz für Ihre eigene Klimabilanz.",
+    "statNote": "Aus Branchenstudien: Rund die Hälfte der B2B-Kunden kauft bevorzugt bei nachweislich nachhaltigen Lieferanten. Der Nachweis wird zum Beschaffungskriterium."
   },
-  "k-pipe-purple-pp-r-sdr-11": {
-    "seo_p1": "Das violett eingefärbte K-Pipe Purple PP-R SDR 11 dient der eindeutigen Kennzeichnung spezifischer Leitungssysteme. Es verhindert Verwechslungen bei der Installation von getrennten Wasserkreisläufen.",
-    "seo_p2": "Die violette Signalfarbe kennzeichnet in der Regel Betriebswasser, Regenwasser oder Bewässerungsanlagen. Technisch entspricht es dem Standard-PP-R mit SDR 11 (1.2 MPa bei 20°C) und bietet dieselbe hohe Qualität.",
-    "seo_p3": "Durch den Einsatz dieses speziellen Rohrs wird die Anlagensicherheit erhöht und die normgerechte Trennung von Trink- und Brauchwasser visuell sichergestellt. Perfekt für nachhaltige Wassermanagement-Systeme.",
-    "faq": [
+  "homedeep": {
+    "plantEyebrow": "Aus dem Werk Waldsolms",
+    "plantTitle": "Präzision, die man messen kann.",
+    "plant": [
       {
-        "q": "Wofür steht die violette Farbe?",
-        "a": "Sie dient der optischen Unterscheidung von Leitungssystemen für Betriebswasser, Grauwasser oder Regenwassernutzung gemäß internationalen Vorgaben."
+        "n": "14.000",
+        "u": "m/Tag",
+        "l": "Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte"
       },
       {
-        "q": "Kann das Rohr mit normalen PP-R Fittings verschweißt werden?",
-        "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschweißt."
+        "n": "0,007",
+        "u": "mm",
+        "l": "Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm"
       },
       {
-        "q": "Beeinflusst die Farbe die Qualität des Materials?",
-        "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regulären PP-R SDR 11 Rohr."
+        "n": "50",
+        "u": "Jahre",
+        "l": "Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078"
       }
-    ]
+    ],
+    "badges": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ISO 50001:2018",
+      "GENAU-System",
+      "DIN 8077/8078",
+      "DIN EN ISO 15874"
+    ],
+    "badgeNote": "Zertifikate und Audit Dokumente als Self Service im Trust Center.",
+    "badgeCta": "Zum Trust Center"
   },
-  "k-fiber-pipe-pp-rct-sdr-74": {
-    "seo_p1": "Das K-Fiber Pipe PPRCT SDR 7.4 ist ein hochmodernes, faserverstärktes Verbundrohr. Die integrierte Faserschicht reduziert die Längenausdehnung erheblich.",
-    "seo_p2": "Die innovative PPRCT-Basis wird durch eine Faser-Mittelschicht ergänzt. Mit SDR 7.4 (S 3.2) hält das Rohr Drücken von bis zu 2.0 MPa bei 20°C stand, bei gleichzeitig bis zu 50 % geringerer thermischer Ausdehnung.",
-    "seo_p3": "Dies macht das Rohr zur perfekten Wahl für Steigleitungen und lange Trassen in der Gebäudetechnik, bei denen weniger Befestigungspunkte erforderlich sind, was Installationszeit und Materialkosten spart.",
-    "faq": [
-      {
-        "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
-        "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Rohren um bis zu 75 %."
-      },
-      {
-        "q": "Muss das Faserrohr vor dem Schweißen geschält werden?",
-        "a": "Nein, im Gegensatz zu Stabi-Rohren mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschweißt werden."
-      },
-      {
-        "q": "Ist das Rohr für zentrale Steigleitungen geeignet?",
-        "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbeständigkeit ist es die optimale Wahl für große Steigstränge."
-      }
-    ]
-  },
-  "k-fiberclima-pipe-pp-rct-sdr-11": {
-    "seo_p1": "Spezialisiert auf Kühl- und Heizwasseranwendungen bietet das K-Fiberclima Pipe PPRCT SDR 11 optimale Performance für Klimasysteme. Es ist auf thermische Effizienz und Stabilität ausgelegt.",
-    "seo_p2": "Das faserverstärkte PPRCT Material (SDR 11, S 5) gewährleistet einen sicheren Betrieb bei 1.6 MPa (20°C) und 0.8 MPa (70°C). Die dünneren Wände erlauben einen extrem hohen Volumenstrom.",
-    "seo_p3": "Besonders in großen HLK-Anlagen (Heizung, Lüftung, Klima) spielt dieses Rohr seine Stärken aus. Es verhindert Korrosion im Kühlkreislauf und sorgt für einen wartungsfreien, energieeffizienten Betrieb.",
-    "faq": [
-      {
-        "q": "Was macht das Rohr ideal für Klimakaltwasser?",
-        "a": "Die geringe Wärmeleitfähigkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Rohren."
-      },
-      {
-        "q": "Wie verhält es sich bei der Zirkulation von Frostschutzmitteln?",
-        "a": "Es ist äußerst beständig gegen gängige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialermüdung verhindert werden."
-      },
-      {
-        "q": "Können die Rohre für große Volumenströme genutzt werden?",
-        "a": "Durch die dünnere Wandung (SDR 11) bei maximaler Stabilität ermöglicht es extrem große Volumenströme in Industrienetzen."
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-74": {
-    "seo_p1": "Das klassische K-Fiber Pipe PP-R SDR 7.4 ist die bewährte Lösung, wenn Faserverstärkung und extreme Druckfestigkeit gefordert sind. Es minimiert thermische Dehnungen effektiv.",
-    "seo_p2": "Durch die Kombination von PP-R und Fasertechnologie erreicht dieses Rohr (SDR 7.4, S 3.2) einen Spitzenbetriebsdruck von 2.5 MPa bei 20°C. Es bietet maximale Stabilität für anspruchsvolle Netze.",
-    "seo_p3": "Ob im industriellen Anlagenbau oder bei komplexen Warmwasser-Zirkulationssystemen, dieses Rohr sorgt für eine starre, deformationsfreie Verlegung und höchste Betriebssicherheit über Jahrzehnte.",
-    "faq": [
-      {
-        "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
-        "a": "Ja, es toleriert Temperaturen bis 70°C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95°C."
-      },
-      {
-        "q": "Wie viele Befestigungsschellen sind bei langen Strecken nötig?",
-        "a": "Dank der Faserverstärkung können die Befestigungsabstände im Vergleich zu Standardrohren drastisch vergrößert werden."
-      },
-      {
-        "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualitäten?",
-        "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabhängig vom pH-Wert des transportierten Mediums."
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-9": {
-    "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schließt die Lücke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazität und Druckbeständigkeit.",
-    "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr für Drücke von bis zu 2.0 MPa bei 20°C zugelassen. Die Wandstärken sind für mittlere bis hohe Belastungen optimiert.",
-    "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herkömmliche Rohre an ihre Grenzen stoßen, aber die extremen Reserven von SDR 7.4 noch nicht benötigt werden.",
-    "faq": [
-      {
-        "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
-        "a": "SDR 9 bietet einen exzellenten Kompromiss aus höherer Durchflusskapazität (dünnere Wand) und immer noch extremer Druckbeständigkeit."
-      },
-      {
-        "q": "Kann es mit Standard-PP-R Formteilen verschweißt werden?",
-        "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
-      },
-      {
-        "q": "Ist es für die Trinkwasserversorgung zugelassen?",
-        "a": "Ja, es erfüllt alle hygienischen Standards für heißes und kaltes Trinkwasser weltweit."
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-11": {
-    "seo_p1": "Für gewichtsoptimierte und dennoch formstabile Verlegungen ist das K-Fiber Pipe PP-R SDR 11 konzipiert. Es verbindet die Vorteile der Fasertechnologie mit einem leichten Profil.",
-    "seo_p2": "Das PP-R Material mit Fasereinlage in der SDR 11 Klassifizierung erlaubt Drücke bis 1.6 MPa bei 20°C. Es bietet einen optimalen inneren Querschnitt für große Wassermengen.",
-    "seo_p3": "Es eignet sich hervorragend für Klimakaltwasser und große Verteilerleitungen. Die Installation verläuft dank des geringen Gewichts und der reduzierten Befestigungsabstände sehr zügig.",
-    "faq": [
-      {
-        "q": "Sind die Schweißzeiten bei SDR 11 Rohren kürzer?",
-        "a": "Ja, aufgrund der reduzierten Wanddicke verkürzen sich die Aufwärmzeiten am Heizelement, was den Arbeitsprozess beschleunigt."
-      },
-      {
-        "q": "Was sind die Einsatzgrenzen für dieses SDR 11 Rohr?",
-        "a": "Es ist auf maximale Drücke von 16 Bar bei 20°C und 8 Bar bei 60°C ausgelegt."
-      },
-      {
-        "q": "Profitieren Kühlsysteme von diesem Rohr?",
-        "a": "Ja, der hervorragende Isolationswert minimiert den Energieverlust in Kühlnetzen signifikant."
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-17": {
-    "seo_p1": "Das großdimensionierte K-Fiber Pipe PP-R SDR 17 ist speziell für industrielle Großanlagen und Hauptversorgungsstränge entwickelt worden. Es bietet massive Durchflussquerschnitte.",
-    "seo_p2": "Mit Durchmessern von bis zu 200 mm und der Baureihe S 8 (SDR 17) bewältigt dieses Rohr 1.0 MPa bei 20°C. Die Faserverstärkung sorgt selbst bei diesen großen Dimensionen für hohe Dimensionsstabilität.",
-    "seo_p3": "Ideal für Fernkältenetze, kommunale Wasserversorgung oder als Hauptsteigleitung in Hochhäusern. Es ist die korrosionsfreie Alternative zu schweren metallischen Großrohren.",
-    "faq": [
-      {
-        "q": "Ist SDR 17 für hohe Netzdruckstufen geeignet?",
-        "a": "SDR 17 (PN 10) ist speziell für Niederdrucknetze mit enormen Volumenströmen konzipiert, z. B. bei Fernkältenetzen."
-      },
-      {
-        "q": "Wie erfolgt die Verbindung von solch großen Dimensionen?",
-        "a": "Großrohre (ab 90 mm bis 200 mm) werden vorzugsweise durch Heizelement-Stumpfschweißen oder mit Elektroschweißmuffen verbunden."
-      },
-      {
-        "q": "Was ist der Hauptvorteil gegenüber Stahlrohren?",
-        "a": "Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt."
-      }
-    ]
-  },
-  "k-fiber-uv-pipe-pp-r-sdr-74": {
-    "seo_p1": "Das K-Fiber UV Pipe PP-R SDR 7.4 löst das Problem der UV-Degradation bei ungeschützter Außenverlegung. Es verfügt über eine spezielle, wetterfeste Außenschicht.",
-    "seo_p2": "Neben der thermisch stabilisierenden Faser-Mittelschicht und der PP-R-Basis (SDR 7.4, 2.0 MPa) schützt der UV-Mantel das Rohr dauerhaft vor direkter Sonneneinstrahlung und Witterungseinflüssen.",
-    "seo_p3": "Dadurch ist es perfekt für Dachinstallationen, Freiluftanlagen oder Brückenleitungen geeignet. Zusätzliche Isolierungen oder Anstriche zum UV-Schutz können komplett entfallen.",
-    "faq": [
-      {
-        "q": "Wie wird der UV-Schutz bei diesem Rohr erreicht?",
-        "a": "Eine spezielle, co-extrudierte schwarze Außenschicht absorbiert und blockiert schädliche UV-Strahlung, bevor sie das PP-R Material angreift."
-      },
-      {
-        "q": "Muss die UV-Schicht vor dem Schweißen entfernt werden?",
-        "a": "Nein, da es sich um eine homogene Kunststoffschicht handelt, wird sie beim Muffenschweißen einfach mit dem Fitting verschmolzen."
-      },
-      {
-        "q": "Ist die Lebensdauer im Freien eingeschränkt?",
-        "a": "Die UV-Schutzschicht verhindert die Polymer-Degradation, sodass die volle Lebensdauer von 50 Jahren auch bei direkter Sonneneinstrahlung gewährleistet ist."
-      }
-    ]
-  },
-  "k-fiber-uv-pipe-pp-rct-sdr-74": {
-    "seo_p1": "Das Premiumrohr K-Fiber UV Pipe PPRCT SDR 7.4 vereint alle Top-Eigenschaften: Hochleistungsmaterial, Faserverstärkung und integrierten UV-Schutz in einem einzigen Produkt.",
-    "seo_p2": "Basierend auf PPRCT für höchste Temperaturbeständigkeit (bis zu 70°C bei 1.0 MPa) und ausgestattet mit einer UV-resistenten Schale, ist dieses SDR 7.4 Rohr das ultimative Allround-Talent für extreme Bedingungen.",
-    "seo_p3": "Ob solare Anbindeleitungen, Kühltürme auf Industriegebäuden oder anspruchsvolle Außeninstallationen in heißen Klimazonen, dieses Rohr garantiert maximale Lebensdauer ohne Materialermüdung.",
-    "faq": [
-      {
-        "q": "Kombiniert dieses Rohr UV-Schutz mit höherer Durchflussleistung?",
-        "a": "Ja, durch das hochkristalline PPRCT Material kann eine dünnere Wandstärke verwendet werden, während die UV-Schicht extremen Außenschutz bietet."
-      },
-      {
-        "q": "Sind UV-beständige K Aqua Formteile verfügbar?",
-        "a": "Die Formteile werden in der Regel durch Isolierung, Farbanstrich oder UV-Schutzbänder geschützt, während die langen Rohrtrassen werksseitig geschützt sind."
-      },
-      {
-        "q": "Eignet sich dieses Rohr für Kühltürme?",
-        "a": "Es ist die optimale Wahl, da es sowohl der prallen Sonne als auch den chemischen Zusätzen im Kühlwasser dauerhaft standhält."
-      }
-    ]
-  },
-  "cap": {
-    "seo_p1": "Die Endkappe (Cap) ist ein unverzichtbares Formteil innerhalb unserer Fittings-Kategorie, das für den dauerhaften und sicheren Abschluss von Leitungsenden konzipiert wurde.",
-    "seo_p2": "Gefertigt aus hochwertigem PP-R-Material, entspricht die Kappe den gängigen SDR-Klassen der Rohre und bietet höchste Druckbeständigkeit sowie Maßgenauigkeit für eine homogene Verschweißung.",
-    "seo_p3": "Sie eignet sich optimal für die endgültige oder vorübergehende Stilllegung von Rohrsträngen in Trinkwasser- und Heizungsnetzen, wobei eine absolut leckagefreie und wartungsfreie Abdichtung garantiert wird.",
-    "faq": [
-      {
-        "q": "Kann die Endkappe für eine Druckprüfung genutzt werden?",
-        "a": "Ja, nach ordnungsgemäßer Verschweißung und Abkühlung hält die Endkappe dem vollen Prüfdruck des Systems (bis zu 30 Bar) problemlos stand."
-      },
-      {
-        "q": "Wie verschließe ich temporäre Leitungen?",
-        "a": "Für temporäre Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschweißt und ist somit für den permanenten Verschluss gedacht."
-      },
-      {
-        "q": "Ist die Endkappe bei allen Temperaturen dicht?",
-        "a": "Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0°C bis 95°C absolut leckagefrei bleibt."
-      }
-    ]
-  },
-  "socket": {
-    "seo_p1": "Die Muffe (Socket) ist das grundlegende Verbindungselement unserer Fittings, entwickelt für die einfache und zuverlässige Verlängerung von geraden Rohrstrecken.",
-    "seo_p2": "Aus robustem PP-R gefertigt, stellt dieses Formteil durch Muffenschweißung eine stoffschlüssige und extrem druckfeste Verbindung her, die perfekt auf unsere SDR-Rohrserien abgestimmt ist.",
-    "seo_p3": "Ob im privaten Sanitärbereich oder im industriellen Anlagenbau, die Muffe sorgt für einen nahtlosen Durchfluss ohne Querschnittsverengung und verhindert langfristige Druckverluste.",
-    "faq": [
-      {
-        "q": "Wie tief muss das Rohr in die Muffe eingeführt werden?",
-        "a": "Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden."
-      },
-      {
-        "q": "Können Muffen auch für Faserrohre verwendet werden?",
-        "a": "Ja, unsere Standard-Muffen sind für alle K Aqua PP-R, PPRCT und Faserrohre uneingeschränkt kompatibel."
-      },
-      {
-        "q": "Besteht die Gefahr von Mikroleckagen an der Naht?",
-        "a": "Nein, da durch die Polyfusion eine stoffschlüssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist."
-      }
-    ]
-  },
-  "elbow-45": {
-    "seo_p1": "Der 45°-Winkel (Elbow 45°) ermöglicht schonende Richtungsänderungen im Leitungsverlauf und gehört zu unseren am häufigsten verwendeten Fittings.",
-    "seo_p2": "Dank präzisem Spritzguss aus langlebigem PP-R garantiert der Winkel eine perfekte Kompatibilität mit allen K Aqua Rohrsystemen und hält höchsten Systemdrücken stand.",
-    "seo_p3": "Besonders bei komplexen Leitungsführungen in engen Schächten oder bei der Umgehung von Hindernissen reduziert dieser 45-Grad-Winkel Strömungswiderstände effektiv.",
-    "faq": [
-      {
-        "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
-        "a": "Ein 45-Grad-Winkel reduziert den Druckverlust und den Strömungswiderstand (Zeta-Wert) im System deutlich und beugt Geräuschentwicklung vor."
-      },
-      {
-        "q": "Sind K Aqua Winkel strömungsoptimiert?",
-        "a": "Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern."
-      },
-      {
-        "q": "Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
-        "a": "Ja, diese Praxis wird oft bei großen Dimensionen angewendet, um weite Bögen zu kreieren und den Pumpenwiderstand zu senken."
-      }
-    ]
-  },
-  "elbow-45-femalemale": {
-    "seo_p1": "Der 45°-Winkel mit Innen-/Außenschweißende (Elbow 45° Female/Male) bietet maximale Flexibilität bei beengten Platzverhältnissen und direkten Anschlusskombinationen.",
-    "seo_p2": "Das PP-R Formteil verfügt über ein Muffenende und ein Spitzende, was eine direkte Verschweißung mit anderen Fittings ohne ein zusätzliches Rohrstück ermöglicht.",
-    "seo_p3": "In der kompakten Verteilerinstallation oder beim Bau von engen Vorwandsystemen spart dieses Bauteil wertvolle Montagezeit und reduziert die Anzahl der Schweißstellen.",
-    "faq": [
-      {
-        "q": "Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?",
-        "a": "Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
-      },
-      {
-        "q": "Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?",
-        "a": "Ja, unsere Formteile weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen."
-      },
-      {
-        "q": "Kann der 90-Grad-Winkel für Steigleitungen genutzt werden?",
-        "a": "Ja, er ist ideal, um Stränge aus Schächten auf die jeweilige Etage abzuwinkeln."
-      }
-    ]
-  },
-  "elbow-90": {
-    "seo_p1": "Der 90°-Winkel (Elbow 90°) ist der Standard-Richtungswechsler in unserem Fittings-Sortiment, ausgelegt für präzise, rechtwinklige Abzweigungen.",
-    "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es die mechanischen und thermischen Belastungen des Systems problemlos aufnimmt und mit allen SDR-Stufen kompatibel ist.",
-    "seo_p3": "Perfekt für Eckverlegungen und Wanddurchführungen in der gesamten Gebäudetechnik, es garantiert einen dichten und sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
-    "faq": [
-      {
-        "q": "Was bedeutet I/A (M/F) bei diesem Winkel?",
-        "a": "Es bedeutet Innen/Außen (Male/Female). Eine Seite wird als Muffe geschweißt, die andere Seite kann direkt in einen anderen Fitting eingeschweißt werden."
-      },
-      {
-        "q": "Welchen Vorteil bietet die I/A-Konstruktion?",
-        "a": "Sie spart Platz und vermeidet ein zusätzliches Rohrstück zwischen zwei Fittings, was bei engen Platzverhältnissen entscheidend ist."
-      },
-      {
-        "q": "Ändert sich dadurch der Schweißvorgang?",
-        "a": "Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schweißspiegel gleichzeitig für Rohr und Fitting genutzt."
-      }
-    ]
-  },
-  "elbow-90-femalemale": {
-    "seo_p1": "Der 90°-Winkel mit Innen-/Außenschweißende (Elbow 90° Female/Male) ist die Lösung für ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
-    "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende mit einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
-    "seo_p3": "Insbesondere bei der Montage von Armaturen oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
-    "faq": [
-      {
-        "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
-        "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
-      },
-      {
-        "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
-        "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
-      },
-      {
-        "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
-        "a": "Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung von 20 mm bis 40 mm produziert."
-      }
-    ]
-  },
-  "electrofusion-socket": {
-    "seo_p1": "Die Heizwendelschweißmuffe (Electrofusion Socket) ist die Premiumlösung für Verbindungen, bei denen konventionelles Muffenschweißen aus Platzgründen nicht möglich ist.",
-    "seo_p2": "Ausgestattet mit integrierten Heizdrähten aus einer speziellen Legierung, verschmilzt dieses PP-R Fitting automatisch und computergesteuert mit dem Basisrohr.",
-    "seo_p3": "Ideal für Reparaturarbeiten in Schächten, nachträgliche Erweiterungen oder extrem schwer zugängliche Bereiche, sie bietet eine 100-prozentig sichere und protokollierbare Verbindung.",
-    "faq": [
-      {
-        "q": "Muss das Rohr vor dem Elektroschweißen geschält werden?",
-        "a": "Ja, das Entfernen der Oxidschicht mittels eines speziellen Rohrschälers ist zwingend erforderlich für eine einwandfreie Verschmelzung."
-      },
-      {
-        "q": "Welche Schweißgeräte können verwendet werden?",
-        "a": "Es müssen K Aqua oder universelle Elektroschweißgeräte verwendet werden, die den Barcode auf der Muffe auslesen können."
-      },
-      {
-        "q": "Wann ist Elektroschweißen besser als Heizelementmuffenschweißen?",
-        "a": "Besonders bei eingeschränkter Bewegungsfreiheit (z. B. im Schacht), wo das Gerät für die Muffenschweißung keinen Platz findet."
-      }
-    ]
-  },
-  "flange-adaptor": {
-    "seo_p1": "Der Bundkragen (Flange Adaptor) fungiert als wesentliches Verbindungselement, um Kunststoffrohre sicher und lösbar an metallische Flansche oder Armaturen anzubinden.",
-    "seo_p2": "Das PP-R Bauteil ist so geformt, dass es einen perfekten Sitz für Losflansche bietet und den hohen Anpressdruck gleichmäßig auf die Dichtung überträgt.",
-    "seo_p3": "Unverzichtbar im industriellen Rohrleitungsbau und bei großen Verteileranlagen, ermöglicht der Bundkragen den sicheren Übergang auf Pumpen, Großventile und Stahlsysteme.",
-    "faq": [
-      {
-        "q": "Welche Flanschnormen unterstützt der K Aqua Bundkragen?",
-        "a": "Er ist kompatibel mit handelsüblichen DIN/EN-Flanschen (z. B. PN10, PN16) und erfordert den passenden K Aqua Losflansch."
-      },
-      {
-        "q": "Benötige ich eine zusätzliche Dichtung?",
-        "a": "Ja, zwischen dem PP-R Bundkragen und der Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden."
-      },
-      {
-        "q": "Wie wird der Bundkragen mit dem Rohr verbunden?",
-        "a": "Er wird wie ein herkömmlicher Fitting durch Heizelementmuffenschweißen direkt auf das Rohr oder in eine Muffe geschweißt."
-      }
-    ]
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "sections": [
+        {
+          "id": "section-contact",
+          "title": "Angaben gemäß § 5 TMG",
+          "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
+        },
+        {
+          "id": "section-management",
+          "title": "Geschäftsführung",
+          "content": "Philipp Nickel, Marcello Gallio"
+        },
+        {
+          "id": "section-registry",
+          "title": "Registergericht & Sitz",
+          "content": "Wetzlar HRB 6732\n\nSitz der Gesellschaft:\nWaldsolms"
+        },
+        {
+          "id": "section-vat",
+          "title": "Umsatzsteuer-ID",
+          "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 296238486"
+        },
+        {
+          "id": "section-disclaimer",
+          "title": "Rechtliche Hinweise & Disclaimer",
+          "content": "K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.\n\nHaftung für Links\nUnsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.\n\nUrheberrecht\nDie durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+        },
+        {
+          "id": "section-faq",
+          "title": "Häufig gestellte Fragen (Impressum & Service)",
+          "content": "Wie kann ich den technischen Support kontaktieren?\nSie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.\n\nWo finde ich detaillierte Zertifikate und Zulassungen?\nAlle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.\n\nWelche Gewährleistung bietet K Aqua?\nK Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu."
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "1. Datenschutz auf einen Blick",
+          "content": "Diese Datenschutzerklärung informiert Sie darüber, welche personenbezogenen Daten auf dieser Website tatsächlich verarbeitet werden und zu welchem Zweck.\n\nKurz zusammengefasst: Wir verarbeiten personenbezogene Daten nur, wenn Sie uns diese aktiv über unsere Kontakt- und Anfrageformulare mitteilen, sowie in technisch notwendigem Umfang beim Aufruf der Website (Server-Logdaten unseres Hosting-Anbieters). Analyse- oder Marketing-Dienste Dritter setzen wir derzeit nicht ein; entsprechende Technologien würden ausschließlich nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner geladen."
+        },
+        {
+          "id": "sec-2",
+          "title": "2. Verantwortliche Stelle",
+          "content": "Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\n\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\nTelefon: +49 (0)60 85 / 9868-410\nE-Mail: info@k-aqua.de\n\nVerantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet."
+        },
+        {
+          "id": "sec-3",
+          "title": "3. Datenschutzbeauftragter",
+          "content": "Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:\n\nSILA Consulting GmbH\nHerr Roland Nießing\nLandwehr 103-105\n46325 Borken\nTelefon: +49 2861 80847 700\nE-Mail: info@sila-consulting.de"
+        },
+        {
+          "id": "sec-4",
+          "title": "4. Hosting und Server-Logfiles",
+          "content": "Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.\n\nDiese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework."
+        },
+        {
+          "id": "sec-5",
+          "title": "5. Kontakt- und Anfrageformulare",
+          "content": "Wenn Sie eines unserer Anfrageformulare nutzen, verarbeiten wir die dort angegebenen Daten: Telefonnummer, E-Mail-Adresse, das von Ihnen gewählte Anliegen sowie die Seite, von der die Anfrage gesendet wurde. Diese Daten werden per E-Mail an info@k-aqua.de übermittelt und (sofern ein CRM-System angebunden ist) dort zur Bearbeitung Ihrer Anfrage gespeichert.\n\nBei Bewerbungen über das Karriereformular werden die von Ihnen angegebenen Bewerbungsdaten (Name, Kontaktdaten, Lebenslauf bzw. Angaben zu Erfahrung und Ausbildung) per E-Mail an unsere Personalabteilung übermittelt.\n\nZweck der Verarbeitung ist ausschließlich die Bearbeitung Ihrer Anfrage bzw. Bewerbung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.\n\nZum Schutz vor automatisierten Spam-Einsendungen setzen wir eine unsichtbare technische Prüfung (Honeypot-Feld und Zeitschwelle) ein, ohne Captcha-Dienste Dritter."
+        },
+        {
+          "id": "sec-6",
+          "title": "6. Cookies und Einwilligung",
+          "content": "Diese Website verwendet technisch notwendige Cookies bzw. vergleichbare Speichertechnologien, etwa zur Speicherung Ihrer Sprach- und Darstellungseinstellungen sowie Ihrer Cookie-Entscheidung. Diese sind für den Betrieb der Website erforderlich (Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO bzw. § 25 Abs. 2 TDDDG).\n\nÜber den Cookie-Banner können Sie zusätzlich den Kategorien \"Analyse\" und \"Marketing\" zustimmen. Derzeit setzen wir keine Analyse- oder Marketing-Dienste ein; sollten solche Dienste künftig eingebunden werden, werden sie ausschließlich nach Ihrer Einwilligung geladen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft über die Cookie-Einstellungen widerrufen."
+        },
+        {
+          "id": "sec-7",
+          "title": "7. Ihre Rechte",
+          "content": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:\n\n- Auskunft über Ihre gespeicherten personenbezogenen Daten (Art. 15 DSGVO)\n- Berichtigung unrichtiger Daten (Art. 16 DSGVO)\n- Löschung (Art. 17 DSGVO)\n- Einschränkung der Verarbeitung (Art. 18 DSGVO)\n- Datenübertragbarkeit (Art. 20 DSGVO)\n- Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n- Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)\n\nWenden Sie sich hierzu an die oben genannte verantwortliche Stelle oder unseren Datenschutzbeauftragten. Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (für uns: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI), Wiesbaden)."
+        },
+        {
+          "id": "sec-8",
+          "title": "8. SSL- bzw. TLS-Verschlüsselung",
+          "content": "Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte (etwa Ihrer Anfragen an uns) eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an \"https://\" und dem Schloss-Symbol in der Adresszeile Ihres Browsers. Bei aktivierter Verschlüsselung können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+        }
+      ]
+    },
+    "toc": "Inhalt",
+    "eyebrow": "Rechtliches"
   }
 }

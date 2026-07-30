@@ -1,0 +1,162 @@
+  "kontaktBlocks": {
+    "home": {
+      "kicker": "Klausimai projektui?",
+      "head": "Tiesioginis kontaktas be ilgų laukimų.",
+      "short": "Gaukite tiesioginę techninę konsultaciją",
+      "text": "Trumpai apibūdinkite savo iššūkį arba tiesiog palikite savo telefono numerį. Mūsų inžinieriai su jumis susisieks, paprastai per vieną darbo dieną.",
+      "interest": "Konsultacija",
+      "done": "Gauta. Mes su jumis susisieksime!"
+    },
+    "default": {
+      "kicker": "Susisiekite",
+      "head": "Susisiekite su K-Aqua ekspertu.",
+      "short": "Užklauskite techninės konsultacijos",
+      "text": "Nesvarbu, ar tai matmenys, slėgio klasės, ar suvirinimo technika – mes atsakome tiesiogiai. Palikite savo numerį, mes jums paskambinsime.",
+      "interest": "Konsultacija",
+      "done": "Vienas iš mūsų inžinierių netrukus su jumis susisieks."
+    },
+    "maerkte_chemie": {
+      "kicker": "Chemija ir pramonė",
+      "head": "Medžiagų atsparumas agresyvioms terpėms.",
+      "short": "Užklausti atsparumo sąrašus",
+      "text": "Kokie skysčiai transportuojami? Kokia temperatūra ir slėgiu? Pateikite pagrindinius parametrus. Mūsų laboratorija patikrins atsparumą pagal DIN 8078.",
+      "interest": "Konsultacija",
+      "done": "Mūsų laboratorija patikrins atsparumą ir susisieks su jumis."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Laivų statyba ir jūra",
+      "head": "Lengva konstrukcija ir atsparumas vibracijai laivų tinklams.",
+      "short": "Prašyti laivų statybos patvirtinimų",
+      "text": "Nesvarbu, ar tai pilkas, juodas ar balastinis vanduo: pasakykite mums laivo klasę. Atsiųsime jums atitinkamus klasifikavimo sertifikatus (DNV, Lloyd's) mūsų sistemai.",
+      "interest": "Konsultacija",
+      "done": "Jūrų ekspertas atsiųs jums atitinkamus sertifikatus."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Žemės ūkis ir šiltnamiai",
+      "head": "Tvirti laistymo tinklai maksimaliam derliui.",
+      "short": "Suprojektuokite laistymo sistemą",
+      "text": "Pasakykite mums hektarų skaičių ir vandens poreikį. Suprojektuosime šalčiui atsparų, ilgaamžį PP-R tinklą, kuris dėl visiško šviesos nepralaidumo apsaugo nuo užsikimšimo dėl dumblių augimo.",
+      "interest": "Geriamojo vandens tinklai",
+      "done": "Netrukus susisieksime su jumis aptarti jūsų laistymo tinklo."
+    },
+    "maerkte": {
+      "kicker": "Regioninės rinkos",
+      "head": "Pasikalbėkite su eksporto specialistu savo regione.",
+      "short": "Logistika ir patvirtinimas jūsų šaliai",
+      "text": "Eksportuojame visame pasaulyje. Pasakykite mums paskirties šalį, ir mes informuosime jus apie vietinius standartus, pardavimų partnerius vietoje ir realų krovinių gabenimo jūra laiką iš mūsų gamyklos.",
+      "interest": "Konsultacija",
+      "done": "Jūsų regiono eksporto vadybininkas susisieks su jumis."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "Aukštybinių pastatų statyba",
+      "head": "Slėgio stabilizavimas ekstremaliuose stovuose.",
+      "short": "Apskaičiuoti slėgio kritimą aukštybiniuose pastatuose",
+      "text": "Aukštybinių pastatų hidromechanika netoleruoja klaidų. Pasakykite mums pastato aukštį ir aukštų skaičių, padėsime išdėstyti slėgio reduktorius ir kompensatorius.",
+      "interest": "BIM duomenys",
+      "done": "Aukštybinių pastatų hidraulikos specialistas susisieks su jumis."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Ligoninės",
+      "head": "Sterilumas ir legionelių prevencija klinikoje.",
+      "short": "Geriamojo vandens higiena klinikoms",
+      "text": "Pacientų su nusilpusiu imunitetu apsauga yra svarbiausias prioritetas. Konsultuojame apie žiedinius vamzdynus, tuščių erdvių išvengimą ir terminę dezinfekciją naudojant mūsų PP-R sistemą.",
+      "interest": "Geriamojo vandens tinklai",
+      "done": "Geriamojo vandens higienos ekspertas netrukus susisieks."
+    },
+    "loesungen_hotel": {
+      "kicker": "Viešbučių kompleksai",
+      "head": "Akustinis atskyrimas netrikdomam svečių miegui.",
+      "short": "Garso izoliacija viešbučių statyboje",
+      "text": "Srauto triukšmas gretimuose kambariuose sukelia skundus. Pasakykite mums sienų struktūrą, ir mes rekomenduosime garsą izoliuojančius tvirtinimus ir srauto optimizavimą.",
+      "interest": "Konsultacija",
+      "done": "Mes susisieksime su jumis dėl garso izoliacijos optimizavimo jūsų objekte."
+    },
+    "loesungen": {
+      "kicker": "Specialūs sprendimai",
+      "head": "Individualūs sistemų sprendimai sudėtingiems statybos projektams.",
+      "short": "Techninė konsultacija jūsų specialiam projektui",
+      "text": "Standartinių sprendimų jūsų projektui nepakanka? Apibūdinkite iššūkį, mūsų projektavimo skyrius sukurs pritaikytus skirstytuvus ir specialius komponentus.",
+      "interest": "Konsultacija",
+      "done": "Mūsų projektavimo skyrius peržiūrės jūsų užklausą ir susisieks."
+    },
+    "co2_rechner": {
+      "kicker": "CO2 sutaupymas",
+      "head": "Leiskite mums patvirtinti jūsų projekto pėdsaką.",
+      "short": "Prašyti išsamaus CO2 balanso",
+      "text": "Skaičiuoklė pateikia pirmines orientacines vertes. Atsiųskite mums tikslų dalių sąrašą, ir mes parengsime išsamų sertifikatą apie CO2 sutaupymą, palyginti su metaliniais vamzdžiais, jūsų tvarumo auditui.",
+      "interest": "Konsultacija",
+      "done": "Tvarumo atstovas susisieks su jumis dėl sertifikato."
+    },
+    "trust_center": {
+      "kicker": "Sertifikatai ir normos",
+      "head": "Ar jums reikia konkretaus sertifikato statybos priėmimui?",
+      "short": "Prašyti sertifikatų statybos priėmimui",
+      "text": "Jei inspektorius statybvietėje prašo konkretaus įrodymo (DVGW, SKZ, KIWA), nurodykite mums standartą. Atsiųsime jums atnaujintą dokumentą tiesiogiai PDF formatu.",
+      "interest": "BIM duomenys",
+      "done": "Mes surasime tinkamą sertifikatą ir atsiųsime jums."
+    },
+    "projektanfrage": {
+      "kicker": "Projekto pradžia",
+      "head": "Pateikite mums pagrindinius duomenis, mes pateiksime pirminį biudžetą.",
+      "short": "Greitas biudžeto įvertinimas statytojams",
+      "text": "Kitame žingsnyje įkelkite savo planus arba iš anksto nurodykite apytikslį kvadratinių metrų skaičių ir naudojimo tipą telefonu. Mes pateiksime jums pradinę kainos ribą.",
+      "interest": "Vamzdynų sistemos",
+      "done": "Projekto komanda susisieks su jumis aptarti biudžetą."
+    },
+    "kontakt": {
+      "kicker": "Tiesioginė linija",
+      "head": "Jūsų trumpiausias kelias į K-Aqua būstinę.",
+      "short": "Mes paskambinsime jums į statybvietę",
+      "text": "Jokių laukimo linijų. Įveskite savo numerį ir nurodykite pagrindinę temą. Tinkamas techninis ar pardavimų patarėjas netrukus susisieks su jumis.",
+      "interest": "Konsultacija",
+      "done": "Jūsų užklausa gauta. Tinkamas patarėjas netrukus susisieks."
+    },
+    "news": {
+      "kicker": "Spauda ir medija",
+      "head": "Klausimai apie pranešimą spaudai ar produkto naujovę?",
+      "short": "Susisiekite su įmonės komunikacija",
+      "text": "Dėl didelės raiškos nuotraukų, interviu su vadovybe ar techninės informacijos apie mūsų naujoves tiesiog palikite savo kontaktinius duomenis.",
+      "interest": "Konsultacija",
+      "done": "Mūsų spaudos skyrius netrukus su jumis susisieks."
+    },
+    "karriere": {
+      "kicker": "Karjera K-Aqua",
+      "head": "Užduokite neformalų klausimą apie mūsų laisvas darbo vietas.",
+      "short": "Tiesioginė linija į personalo skyrių",
+      "text": "Nesate tikri, ar jūsų profilis tinka, ar norite prieš teikdami paraišką pasiaiškinti kasdienio darbo detales? Mūsų HR komanda lengvai atsakys į jūsų klausimus telefonu.",
+      "interest": "Konsultacija",
+      "done": "Personalo skyrius susisieks su jumis trumpam susipažinimui."
+    },
+    "partnerschaft": {
+      "kicker": "Tapkite platintoju",
+      "head": "Išplėskite savo asortimentą vokišku Premium vamzdžiu.",
+      "short": "Prašyti sąlygų pardavimų partneriams",
+      "text": "Esate didmenininkas ir ieškote patikimo PP-R tiekėjo? Nurodykite savo regioną ir tikslinę grupę, aptarsime išskirtinumo modelius ir prekybos sąlygas.",
+      "interest": "Konsultacija",
+      "done": "Mūsų pardavimų vadovas partnerystėms susisieks su jumis."
+    },
+    "impressum": {
+      "kicker": "Teisinė informacija",
+      "head": "Klausimai apie mūsų įmonės informaciją?",
+      "short": "Susisiekite su K-Aqua sekretoriatu",
+      "text": "Palikite savo numerį čia, jei turite teisinių ar formalių klausimų apie mūsų įmonę.",
+      "interest": "Konsultacija",
+      "done": "Mes susisieksime su jumis, kad išsiaiškintume jūsų klausimą."
+    },
+    "datenschutz": {
+      "kicker": "Duomenų apsauga",
+      "head": "Pasikalbėkite su mūsų duomenų apsaugos pareigūnu.",
+      "short": "Prašyti informacijos apie jūsų duomenis",
+      "text": "Mes rimtai žiūrime į jūsų privatumą. Jei norite gauti informaciją, ištrinti ar sužinoti išsamią informaciją apie jūsų duomenų tvarkymą, palikite savo kontaktinius duomenis.",
+      "interest": "Konsultacija",
+      "done": "Duomenų apsaugos pareigūnas nedelsiant susisieks su jumis."
+    },
+    "fallback": {
+      "kicker": "Kontaktas",
+      "head": "Kalbėkite tiesiogiai su mūsų inžinieriais.",
+      "short": "Tiesioginis ryšys su inžinieriais",
+      "text": "Telefono numeris, el. paštas, vienas paspaudimas ant temos. Daugiau nieko nereikia, likusius klausimus išsiaiškinsime pokalbio metu.",
+      "interest": "Konsultacija",
+      "done": "Techninis patarėjas susisieks su jumis per vieną darbo dieną."
+    }
+  },

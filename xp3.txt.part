@@ -1,0 +1,624 @@
+  ,
+  "academyx": {
+    "heroEyebrow": "បណ្តុះបណ្តាល",
+    "heroTitle": "វិជ្ជាជីវៈ",
+    "heroLead": "វគ្គសិក្សាសម្រាប់អ្នកជំនាញ PP-R។",
+    "bentoEyebrow": "វគ្គសិក្សា",
+    "bentoTitle": "កម្មវិធី",
+    "bentoLead": "ជ្រើសរើសវគ្គសិក្សា។",
+    "bentoItems": [
+      {"title":"ការផ្សារមូលដ្ឋាន","desc":"សម្រាប់អ្នកចាប់ផ្តើម។"},
+      {"title":"ការផ្សារកម្រិតខ្ពស់","desc":"សម្រាប់អ្នកជំនាញ។"},
+      {"title":"ការគ្រប់គ្រងគុណភាព","desc":"ត្រួតពិនិត្យ។"},
+      {"title":"វិញ្ញាបនប័ត្រ","desc":"បញ្ជាក់គុណភាព។"}
+    ],
+    "timelineEyebrow": "ដំណើរការ",
+    "timelineTitle": "ការសិក្សា",
+    "timelineLead": "ពីទ្រឹស្តីដល់ការអនុវត្ត។",
+    "timelineEvents": [
+      {"year":"១","title":"ទ្រឹស្តី","desc":"សិក្សាមូលដ្ឋានគ្រឹះ។"},
+      {"year":"២","title":"អនុវត្ត","desc":"ការផ្សារផ្ទាល់។"},
+      {"year":"៣","title":"ប្រឡង","desc":"វាយតម្លៃ។"}
+    ],
+    "ctaEyebrow": "ចុះឈ្មោះ",
+    "ctaTitle": "ចាប់ផ្តើម",
+    "ctaLead": "ចុះឈ្មោះចូលរៀន។",
+    "ctaPrimary": "ចុះឈ្មោះ",
+    "ctaSecondary": "មើលវគ្គសិក្សា",
+    "paramEyebrow": "x",
+    "paramTitle": "x",
+    "paramLead": "x",
+    "paramHead": "["x","x","x","x","x"]",
+    "paramNote": "x",
+    "stepEyebrow": "x",
+    "stepTitle": "x",
+    "stepLead": "x",
+    "procTabs": "["x","x","x","x"]",
+    "procs": [
+      {
+        "t": "x",
+        "steps": [
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"}
+        ]
+      },
+      {
+        "t": "x",
+        "steps": [
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"}
+        ]
+      },
+      {
+        "t": "x",
+        "steps": [
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"}
+        ]
+      },
+      {
+        "t": "x",
+        "steps": [
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"},
+          {"t":"x","d":"x"}
+        ]
+      }
+    ],
+    "errEyebrow": "x",
+    "errTitle": "x",
+    "errHead": "["x","x","x"]",
+    "errRows": [
+      "["x","x","x"]",
+      "["x","x","x"]",
+      "["x","x","x"]",
+      "["x","x","x"]",
+      "["x","x","x"]",
+      "["x","x","x"]"
+    ],
+    "glossEyebrow": "x",
+    "glossTitle": "x",
+    "gloss": [
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]"
+    ]
+  },
+  "servicex": {
+    "heroEyebrow": "សេវាកម្ម",
+    "heroTitle": "ការគាំទ្រ",
+    "heroLead": "យើងតែងតែនៅទីនេះដើម្បីអ្នក។",
+    "bentoEyebrow": "ផ្នែក",
+    "bentoTitle": "ជំនួយ",
+    "bentoLead": "ទាក់ទងផ្នែកពាក់ព័ន្ធ។",
+    "bentoItems": [
+      {"title":"បច្ចេកទេស","desc":"សម្រាប់សំណួរបច្ចេកទេស។"},
+      {"title":"ការលក់","desc":"សម្រាប់ការបញ្ជាទិញ។"},
+      {"title":"ភស្តុភារ","desc":"សម្រាប់ការដឹកជញ្ជូន។"},
+      {"title":"ទីផ្សារ","desc":"សម្រាប់ឯកសារ។"}
+    ],
+    "timelineEyebrow": "ដំណើរការ",
+    "timelineTitle": "ការដោះស្រាយ",
+    "timelineLead": "លឿននិងមានប្រសិទ្ធភាព។",
+    "timelineEvents": [
+      {"year":"១","title":"ទទួល","desc":"ទទួលសំណួរ។"},
+      {"year":"២","title":"វិភាគ","desc":"ស្វែងរកដំណោះស្រាយ។"}
+    ],
+    "ctaEyebrow": "ទាក់ទង",
+    "ctaTitle": "ជំនួយ",
+    "ctaLead": "ទាក់ទងមកយើង។",
+    "ctaPrimary": "ទាក់ទង",
+    "ctaSecondary": "សំណួរញឹកញាប់",
+    "libEyebrow": "x",
+    "libTitle": "x",
+    "libLead": "x",
+    "libHead": "["x","x","x","x"]",
+    "libRows": [
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"},
+      {"t":"x","s":"x","lang":"x","href":"x"}
+    ],
+    "libOpen": "x",
+    "libRequest": "x",
+    "supEyebrow": "x",
+    "supTitle": "x",
+    "supLead": "x",
+    "sup": [
+      {"t":"x","d":"x","c":"x","href":"x"},
+      {"t":"x","d":"x","c":"x","href":"x"},
+      {"t":"x","d":"x","c":"x","href":"x"}
+    ],
+    "faqEyebrow": "x",
+    "faqTitle": "x",
+    "faq": [
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"}
+    ]
+  },
+  "aboutx": {
+    "heroEyebrow": "អំពីយើង",
+    "heroTitle": "ប្រវត្តិ K-Aqua",
+    "heroLead": "ក្រុមហ៊ុនផលិតបំពង់ឈានមុខគេ។",
+    "bentoEyebrow": "ព័ត៌មាន",
+    "bentoTitle": "ទិន្នន័យ",
+    "bentoLead": "ចំណុចសំខាន់ៗ។",
+    "bentoItems": [
+      {"title":"ទីតាំង","desc":"អាល្លឺម៉ង់។"},
+      {"title":"បទពិសោធន៍","desc":"ជាង ៣០ ឆ្នាំ។"},
+      {"title":"បុគ្គលិក","desc":"ជាង ៥០០ នាក់។"},
+      {"title":"ទីផ្សារ","desc":"សកល។"}
+    ],
+    "mileEyebrow": "ព្រឹត្តិការណ៍",
+    "mileTitle": "របកគំហើញ",
+    "miles": [
+      {"y":"១៩៩០","t":"បង្កើត","d":"ចាប់ផ្តើម។"},
+      {"y":"២០០០","t":"ពង្រីក","d":"ទីផ្សារ។"},
+      {"y":"២០២០","t":"នវានុវត្តន៍","d":"បច្ចេកវិទ្យាថ្មី។"},
+      {"y":"២០២៥","t":"អនាគត","d":"ឌីជីថល។"},
+      {"y":"x","t":"x","d":"x"}
+    ],
+    "numEyebrow": "x",
+    "numTitle": "x",
+    "numLead": "x",
+    "nums": [
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"}
+    ],
+    "prodEyebrow": "x",
+    "prodTitle": "x",
+    "prodLead": "x",
+    "prod": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "houseEyebrow": "x",
+    "houseTitle": "x",
+    "houseLead": "x",
+    "house": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ]
+  },
+  "newsx": {
+    "moreEyebrow": "ព័ត៌មាន",
+    "moreTitle": "ថ្មីៗ",
+    "moreLead": "ព័ត៌មាន និងអត្ថបទបច្ចេកទេស។",
+    "readMore": "អានបន្ថែម",
+    "readLess": "បង្រួម",
+    "posts": [
+      {
+        "date": "តុលា ២០២៥",
+        "tag": "ក្រុមហ៊ុន",
+        "t": "វិញ្ញាបនប័ត្រ ISO ៣ មុខ",
+        "teaser": "ទទួលបាន ISO 9001, 14001, 50001។",
+        "body": "["ទទួលស្គាល់ជាផ្លូវការ។","គុណភាពកំពូល។","x"]"
+      },
+      {
+        "date": "២០១៨",
+        "tag": "ផលិតកម្ម",
+        "t": "ការតាមដានគុណភាព",
+        "teaser": "បោះពុម្ពកូដលើបំពង់។",
+        "body": "["ងាយស្រួលតាមដាន។","x"]"
+      },
+      {
+        "date": "ចំណេះដឹង",
+        "tag": "សម្ភារៈ",
+        "t": "ហេតុអ្វី PP-R?",
+        "teaser": "គុណសម្បត្តិ PP-R ។",
+        "body": "["ធន់យូរ","អនាម័យ។","x"]"
+      },
+      {
+        "date": "x",
+        "tag": "x",
+        "t": "x",
+        "teaser": "x",
+        "body": "["x","x"]"
+      }
+    ],
+    "ishTitle": "ពិព័រណ៍",
+    "ishText": "ជួបគ្នានៅ ISH ។"
+  },
+  "contactx": {
+    "routeEyebrow": "ទំនាក់ទំនង",
+    "routeTitle": "ផ្នែកនានា",
+    "routeLead": "ទាក់ទងមកយើង។",
+    "routes": [
+      {"t":"ការលក់","d":"ទិញផលិតផល។","c":"info@k-aqua.de","href":"mailto:info@k-aqua.de"},
+      {"t":"បច្ចេកទេស","d":"ជំនួយបច្ចេកទេស។","c":"support@k-aqua.de","href":"mailto:support@k-aqua.de"},
+      {"t":"ការងារ","d":"ស្វែងរកការងារ។","c":"hr@k-aqua.de","href":"mailto:hr@k-aqua.de"}
+    ],
+    "factsTitle": "គួរយល់ដឹង",
+    "facts": [
+      "["ឆ្លើយតប","ក្នុងរយៈពេល ១ ថ្ងៃ"]",
+      "["ទីតាំង","អាល្លឺម៉ង់"]",
+      "["ភាសា","អាល្លឺម៉ង់ អង់គ្លេស"]",
+      "["ទូរស័ព្ទ","+49 123 456"]",
+      "["x","x"]"
+    ],
+    "mapLabel": "ផែនទី",
+    "faqEyebrow": "សំណួរ",
+    "faqTitle": "សំណួរញឹកញាប់",
+    "faq": [
+      {"q":"ត្រូវការអ្វីខ្លះ?","a":"ព័ត៌មានគម្រោង។"},
+      {"q":"ឆ្លើយតបលឿនទេ?","a":"១ ថ្ងៃ។"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"}
+    ]
+  },
+  "careerx": {
+    "heroEyebrow": "អាជីព",
+    "heroTitle": "ការងារ",
+    "heroLead": "ចូលរួមជាមួយក្រុមរបស់យើង។",
+    "bentoEyebrow": "អត្ថប្រយោជន៍",
+    "bentoTitle": "ហេតុអ្វីជ្រើសរើសយើង?",
+    "bentoLead": "បរិយាកាសការងារល្អ។",
+    "bentoItems": [
+      {"title":"ក្រុមការងារ","desc":"សហការគ្នា។"},
+      {"title":"អភិវឌ្ឍន៍","desc":"រៀនសូត្រ។"},
+      {"title":"ប្រាក់ខែ","desc":"ប្រកួតប្រជែង។"},
+      {"title":"អត្ថប្រយោជន៍","desc":"ធានារ៉ាប់រង។"}
+    ],
+    "jobsTitle": "ការងារបច្ចុប្បន្ន",
+    "jobs": [
+      {"t":"វិស្វករ","d":"វិស្វកម្មគម្រោង។","loc":"Waldsolms"},
+      {"t":"អ្នកលក់","d":"ផ្នែកលក់អន្តរជាតិ។","loc":"Waldsolms"}
+    ],
+    "ctaEyebrow": "ដាក់ពាក្យ",
+    "ctaTitle": "ផ្ញើប្រវត្តិរូប",
+    "ctaLead": "ផ្ញើមកយើងឥឡូវនេះ។",
+    "ctaPrimary": "ដាក់ពាក្យ",
+    "ctaSecondary": "ទាក់ទង",
+    "areaEyebrow": "x",
+    "areaTitle": "x",
+    "areaLead": "x",
+    "areas": [
+      {"t":"x","d":"x","p":"x"},
+      {"t":"x","d":"x","p":"x"},
+      {"t":"x","d":"x","p":"x"},
+      {"t":"x","d":"x","p":"x"}
+    ],
+    "areaNote": "x",
+    "whyEyebrow": "x",
+    "whyTitle": "x",
+    "why": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "procEyebrow": "x",
+    "procTitle": "x",
+    "proc": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "procContact": "x"
+  },
+  "refsx": {
+    "heroEyebrow": "ឯកសារយោង",
+    "heroTitle": "គម្រោង",
+    "heroLead": "គម្រោងដែលយើងបានបញ្ចប់។",
+    "listTitle": "គម្រោងលេចធ្លោ",
+    "list": [
+      {"t":"មន្ទីរពេទ្យ","d":"ប្រព័ន្ធទឹកស្អាត។","c":"ប្រទេសអាល្លឺម៉ង់"},
+      {"t":"សណ្ឋាគារ","d":"ប្រព័ន្ធទឹកក្តៅ។","c":"អារ៉ាប់រួម"},
+      {"t":"អគារខ្ពស់","d":"ប្រព័ន្ធសម្ពាធខ្ពស់។","c":"សិង្ហបុរី"}
+    ],
+    "secEyebrow": "x",
+    "secTitle": "x",
+    "secLead": "x",
+    "sectors": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ]
+  },
+  "finderx": {
+    "title": "កម្មវិធីស្វែងរក",
+    "lead": "ស្វែងរកផលិតផលយ៉ាងងាយស្រួល។",
+    "search": "ស្វែងរក",
+    "results": "លទ្ធផល",
+    "noMatch": "រកមិនឃើញផលិតផល។",
+    "helpEyebrow": "x",
+    "helpTitle": "x",
+    "helpLead": "x",
+    "help": [
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]",
+      "["x","x"]"
+    ],
+    "flowTitle": "x",
+    "flow": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ]
+  },
+  "co2x": {
+    "title": "គណនា CO2",
+    "lead": "គណនាការបញ្ចេញឧស្ម័នកាបូនិក។",
+    "calc": "គណនា",
+    "result": "លទ្ធផល CO2",
+    "info": "ប្រៀបធៀប PP-R ជាមួយលោហៈ។",
+    "methEyebrow": "x",
+    "methTitle": "x",
+    "methLead": "x",
+    "meth": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "certEyebrow": "x",
+    "certTitle": "x",
+    "certLead": "x",
+    "certs": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "scopeTitle": "x",
+    "scopeText": "x",
+    "statNote": "x"
+  },
+  "homedeep": {
+    "welcome": "សូមស្វាគមន៍មកកាន់ K-Aqua",
+    "desc": "ប្រព័ន្ធបំពង់ PP-R កម្រិតកំពូល។",
+    "explore": "ស្វែងយល់បន្ថែម",
+    "plantEyebrow": "x",
+    "plantTitle": "x",
+    "plant": [
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"}
+    ],
+    "badges": "["x","x","x","x","x","x"]",
+    "badgeNote": "x",
+    "badgeCta": "x"
+  },
+  "resources": {
+    "title": "ធនធាន",
+    "lead": "ទាញយកឯកសារ",
+    "items": [
+      {"t":"កាតាឡុក","d":"កាតាឡុកផលិតផល។"},
+      {"t":"សៀវភៅណែនាំ","d":"របៀបដំឡើង។"}
+    ],
+    "ausschreibungstexte": {
+      "hero": {"title":"អត្ថបទដេញថ្លៃ","lead":"ឯកសារសម្រាប់គម្រោង។","p1":"ច្បាស់លាស់។","p2":"ជៀសវាងកំហុស។","eyebrow":"x","title1":"x","title2":"x","desc":"x","cta1":"x","cta2":"x"},
+      "bento": {
+        "eyebrow": "គុណភាព",
+        "title": "ស្តង់ដារ",
+        "lead": "សម្រាប់អ្នករចនា។",
+        "items": [
+          {"title":"VOB/C","desc":"ស្របច្បាប់។"},
+          {"title":"GAEB","desc":"ទម្រង់ឌីជីថល។"},
+          {"title":"អព្យាក្រឹត","desc":"សម្រាប់រដ្ឋ។"},
+          {"title":"លម្អិត","desc":"គ្រប់គ្រឿងបន្លាស់។"},
+          {"title":"BIM","desc":"គំរូ 3D។"}
+        ]
+      },
+      "grid": {
+        "title": "ព័ត៌មានលម្អិត",
+        "desc": "អ្វីដែលយើងផ្តល់ជូន។",
+        "items": [
+          {"title":"បំពង់ SDR 6","desc":"PN20។"},
+          {"title":"ការផ្សារ","desc":"១០០%។"},
+          {"title":"ការតភ្ជាប់","desc":"ស្ពាន់គុណភាពខ្ពស់។"},
+          {"title":"វ៉ាល់","desc":"គ្មានការថែទាំ។"},
+          {"title":"ឧបករណ៍បែងចែក","desc":"ម៉ូឌុល។"},
+          {"title":"អ៊ីសូឡង់","desc":"សន្សំថាមពល។"},
+          {"title":"ការពារភ្លើង","desc":"R90/R120។"},
+          {"title":"គ្រឿងទប់","desc":"ទប់ការពង្រីក។"}
+        ]
+      },
+      "cta": {"title":"ចាប់ផ្តើម","desc":"ទាញយកឥឡូវនេះ។","btn1":"ទាញយក","btn2":"ទាក់ទងយើង"},
+      "deep": {
+        "items": [
+          {"title":"ស្របច្បាប់","desc":"មិនមានភាពស្រពិចស្រពិល។"},
+          {"title":"GAEB","desc":"ប្រើប្រាស់បានជាមួយកម្មវិធី AVA។"},
+          {"title":"សម្ភារៈ","desc":"PP-R គុណភាពខ្ពស់។"},
+          {"title":"កម្តៅនិងសំឡេង","desc":"ការពារសំឡេងរំខាន។"},
+          {"title":"បរិស្ថាន","desc":"វិញ្ញាបនប័ត្របៃតង។"}
+        ]
+      },
+      "meta": {"title":"x","desc":"x"},
+      "timeline": {
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ],
+        "title": "x",
+        "desc": "x"
+      },
+      "manifesto": {"title1":"x","title2":"x","p1":"x","p2":"x"}
+    },
+    "support": {
+      "title": "x",
+      "metaDesc": "x",
+      "seoText": {"p1":"x","p2":"x","p3":"x"},
+      "sticky": {
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ],
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x"
+      },
+      "timeline": {
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ],
+        "title": "x",
+        "desc": "x"
+      },
+      "hero": {"eyebrow":"x","title1":"x","title2":"x","desc":"x","btnPrimary":"x","btnGhost":"x"},
+      "intro": {"title1":"x","title2":"x","p1":"x","p2":"x","p3":"x"},
+      "bento": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "metrics": {
+        "badge": "x",
+        "title1": "x",
+        "title2": "x",
+        "p1": "x",
+        "p2": "x",
+        "items": "["x","x","x","x"]"
+      },
+      "cta": {"title1":"x","title2":"x","title3":"x","desc":"x","btnPrimary":"x","btnGhost":"x"},
+      "metaTitle": "x"
+    },
+    "downloads": {
+      "title": "x",
+      "metaDesc": "x",
+      "cta": {"title":"x","desc":"x","btn":"x"},
+      "meta": {"title":"x","desc":"x"},
+      "hero": {"eyebrow":"x","title1":"x","title2":"x","desc":"x","cta1":"x","cta2":"x"},
+      "timeline": {
+        "title": "x",
+        "desc": "x",
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ]
+      },
+      "sticky": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "bento": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "methodology": {
+        "subtitle": "x",
+        "title": "x",
+        "p1": "x",
+        "p2": "x",
+        "card1": {"title":"x","desc":"x"},
+        "card2": {"title":"x","desc":"x"}
+      },
+      "files": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","type":"x"},
+          {"title":"x","type":"x"},
+          {"title":"x","type":"x"},
+          {"title":"x","type":"x"},
+          {"title":"x","type":"x"},
+          {"title":"x","type":"x"}
+        ]
+      }
+    },
+    "bim": {
+      "title": "x",
+      "metaDesc": "x",
+      "sticky": {
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ],
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x"
+      },
+      "timeline": {
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ],
+        "title": "x",
+        "desc": "x"
+      },
+      "hero": {"desc":"x","btnPrimary":"x","btnGhost":"x"},
+      "intro": {"title1":"x","title2":"x","p1":"x","p2":"x"},
+      "bento": {
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "cta": {"title":"x","desc":"x","btnPrimary":"x","btnOutline":"x"}
+    },
+    "common": {"eyebrow":"x","subtitle":"x","lead":"x","btnProject":"x","btnData":"x","valEyebrow":"x","valTitle":"x","valLead":"x","valCardTitle":"x","valCardDesc":"x","authTitle":"x","authP1":"x","authP2":"x","list1":"x","list2":"x","list3":"x","placeholder":"x","ctaTitle":"x","ctaLead":"x"}
+  }
