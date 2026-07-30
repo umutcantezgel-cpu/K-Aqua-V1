@@ -1,0 +1,144 @@
+    "k-pipe-pp-r-sdr-6": {
+      "name": "K-Pipe Pipa PP-R SDR 6",
+      "desc": "Sistem perpipaan Polypropylene serbaguna untuk instalasi kelas tekanan tinggi (SDR 6)."
+    },
+    "k-pipe-pp-rct-sdr-74": {
+      "name": "K-Pipe Pipa PPRCT SDR 7.4",
+      "desc": "Sistem perpipaan berteknologi struktur matriks kokoh (PPRCT) tekanan SDR 7.4."
+    },
+    "k-pipe-pp-r-sdr-11": {
+      "name": "K-Pipe Pipa PP-R SDR 11",
+      "desc": "Pipa pasokan standar (SDR 11) instalasi sanitasi yang mengedepankan kualitas hampa polutan."
+    },
+    "k-pipe-purple-pp-r-sdr-11": {
+      "name": "K-Pipe Ungu PP-R SDR 11",
+      "desc": "Varian warna lila ungu, spesifik penanda jalur sumber air limbah olahan (reclaimed water)."
+    },
+    "k-fiber-pipe-pp-rct-sdr-74": {
+      "name": "K-Fiber Pipa PPRCT SDR 7.4",
+      "desc": "Tipe PP-RCT lapisan serat (fiber) penangkal ekspansi panjang termal berkinerja tinggi."
+    },
+    "k-fiberclima-pipe-pp-rct-sdr-11": {
+      "name": "K-Fiberclima Pipa PPRCT SDR 11",
+      "desc": "Jaringan infrastruktur khusus suplai cairan penyejuk (AC) untuk tekanan SDR 11."
+    },
+    "k-fiber-pipe-pp-r-sdr-74": {
+      "name": "K-Fiber Pipa PP-R SDR 7.4",
+      "desc": "Sistem penyokong pipa serat komposit SDR 7.4."
+    },
+    "k-fiber-pipe-pp-r-sdr-9": {
+      "name": "K-Fiber Pipa PP-R SDR 9",
+      "desc": "Seri komposit penahan kontraksi kelas berat SDR 9."
+    },
+    "k-fiber-pipe-pp-r-sdr-11": {
+      "name": "K-Fiber Pipa PP-R SDR 11",
+      "desc": "Instalasi pipa pengurang beban statis tekanan sedang."
+    },
+    "k-fiber-pipe-pp-r-sdr-17": {
+      "name": "K-Fiber Pipa PP-R SDR 17",
+      "desc": "Jalur kelancaran tingkat hidrolika maksimal SDR 17."
+    },
+    "k-fiber-uv-pipe-pp-r-sdr-74": {
+      "name": "K-Fiber UV Pipa PP-R SDR 7.4",
+      "desc": "Material pipa komposit pelapis pelindung radiasi ultra-violet luaran (outdoor)."
+    },
+    "k-fiber-uv-pipe-pp-rct-sdr-74": {
+      "name": "K-Fiber UV Pipa PPRCT SDR 7.4",
+      "desc": "Instalasi berpelindung isolasi eksterior pencegah korosi sinar UV ekstrem (PPRCT)."
+    },
+    "cap": {
+      "name": "Penutup Ujung PP-R",
+      "desc": "Aksesori penutup rongga terminasi akhir sambungan mati."
+    },
+    "socket": {
+      "name": "Soket Sambungan PP-R",
+      "desc": "Konektor selongsong (soket) perangkai sejalur."
+    },
+    "elbow-45": {
+      "name": "Siku Bending 45°",
+      "desc": "Fitting kurva penyimpangan arah 45 derajat homogen."
+    },
+    "elbow-45-femalemale": {
+      "name": "Siku Bending 45° (Dril Internal/Eksternal)",
+      "desc": "Persambungan siku perpaduan ukuran."
+    },
+    "elbow-90": {
+      "name": "Siku Bending 90°",
+      "desc": "Modul belokan kurva patah 90 derajat."
+    },
+    "elbow-90-femalemale": {
+      "name": "Siku Bending 90° (Dril Internal/Eksternal)",
+      "desc": "Koneksi pembelok paduan asimetris."
+    },
+    "electrofusion-socket": {
+      "name": "Soket Kumparan Pemanas Elektro-fusi",
+      "desc": "Tipe las elektro-fusi untuk menyolder di ruang terbatas."
+    },
+    "flange-adaptor": {
+      "name": "Adaptor Bund (Flensa)",
+      "desc": "Lengan penjepit leher bagi sekrup mur."
+    },
+    "reducing-bush": {
+      "name": "Modul Reducer",
+      "desc": "Tingkat persambungan pemangkasan besaran aliran (diameter)."
+    },
+    "reducing-tee": {
+      "name": "Tee Reduksi",
+      "desc": "Percabangan 3 arah bervariasi kaliber."
+    },
+    "reducing-tee-large-sizes": {
+      "name": "Tee Reduksi (Dimensi Skala Lebar)",
+      "desc": "Persilangan tiga cabang pemangkas laju kubikasi industri."
+    },
+    "tee": {
+      "name": "Tee Simetris PP-R",
+      "desc": "Penghubung perempatan belah arah simetris."
+    },
+    "cross": {
+      "name": "Simpang 4 (Cross)",
+      "desc": "Pertemuan 4 lajur silang bertekanan stabil."
+    },
+    "cross-over": {
+      "name": "Crossover Belokan Bawah",
+      "desc": "Mekanis putar lekuk lompatan untuk persilangan sistem yang bertindihan."
+    },
+    "cross-over-pipe": {
+      "name": "Pipa Lompatan Bending",
+      "desc": "Ruas loncatan silang bebas resistensi aliran."
+    },
+    "adaptor-socket-female-thread": {
+      "name": "Soket Transisi Ulir Dalam (IG)",
+      "desc": "Adpator perpaduan bahan logam dan resin berulir tanam."
+    },
+    "adaptor-socket-male-thread": {
+      "name": "Soket Transisi Ulir Luar (AG)",
+      "desc": "Jembatan konektor drat logam tertonjol utuh."
+    },
+    "elbow-90-male-thread": {
+      "name": "Siku Bending 90° Ulir Luar (AG)",
+      "desc": "Komponen tikungan bertransisi paku putar luar (AG)."
+    },
+    "elbow-bracket-90-female-thread": {
+      "name": "Siku Dudukan Dinding 90° Ulir Dalam (IG)",
+      "desc": "Jangkar pengikat siku pemasangan tapak dinding satu bilah."
+    },
+    "elbowwall-bracket-90-female-thread": {
+      "name": "Siku Dudukan Penopang Ganda 90° (IG)",
+      "desc": "Instalasi sekrup jangkar ganda tapak tembok stabil."
+    },
+    "metal-union-male-thread-yellow-brass": {
+      "name": "Persambungan Kuningan Ulir Luar (CW617N)",
+      "desc": "Rangkaian sekat jepit komponen kuningan kelas satu (AG)."
+    },
+    "metal-union-female-thread-yellow-brass": {
+      "name": "Persambungan Kuningan Ulir Dalam (CW617N)",
+      "desc": "Modul rakitan kuningan kelas atas tipe drat jepit tanam (IG)."
+    },
+    "metal-union-male-thread": {
+      "name": "Persambungan Logam Campuran Ulir Luar",
+      "desc": "Sambungan putar drat eksterior."
+    },
+    "metal-union-female-thread": {
+      "name": "Persambungan Logam Campuran Ulir Dalam",
+      "desc": "Koneksi fusi jepit mur penanam interior."
+    },

@@ -20,6 +20,7 @@ import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
 import { Droplet, Thermometer, Factory, Layers, Flame, Wrench } from "@/components/ui/icon";
 import { setRequestLocale } from 'next-intl/server';
+import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -199,6 +200,7 @@ export default async function LoesungenPage({ params }: Props) {
           </div>
         </section>
 
+        <DynamicSeoBlock title={t('meta.title')} h1={t('hero.title1')} locale={locale} path="/loesungen" />
       </div>
     </>
   );

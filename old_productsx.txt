@@ -1,0 +1,72 @@
+  "productsx": {
+    "pipesEyebrow": "파이프 시스템",
+    "pipesTitle": "기본을 다루다.",
+    "pipesLead": "가장 엄격한 요구 사항을 위한 PP-R 파이프입니다.",
+    "pipes": [
+      {
+        "name": "K-Pipe PP-R SDR 6",
+        "desc": "고압(25 bar) 응용 분야를 위한 파이프입니다."
+      },
+      {
+        "name": "K-Fiber Pipe PP-RCT SDR 7.4",
+        "desc": "유리 섬유 보강으로 열팽창을 줄인 파이프입니다."
+      }
+    ],
+    "dimEyebrow": "규격",
+    "dimTitle": "광범위한 포트폴리오",
+    "dimLead": "20mm에서 400mm까지 모든 크기를 제공합니다.",
+    "dimTabAria": "규격 탭",
+    "dimHead": {
+      "metric": "미터법 규격",
+      "imperial": "임페리얼 규격"
+    },
+    "dimNote": "요청 시 특수 규격 제공 가능.",
+    "anchorsTitle": "바로가기",
+    "anchors": {
+      "pipes": "파이프",
+      "fittings": "피팅",
+      "valves": "밸브",
+      "tools": "도구"
+    },
+    "matEyebrow": "소재 기술",
+    "matTitle": "고급 폴리머.",
+    "matLead": "독일의 첨단 소재를 사용하여 탁월한 내구성을 보장합니다.",
+    "matHead": {
+      "prop": "물성",
+      "value": "값"
+    },
+    "matRows": [
+      { "prop": "열전도율", "value": "0.24 W/mK" },
+      { "prop": "표면 거칠기", "value": "0.007 mm" }
+    ],
+    "fitEyebrow": "피팅 기술",
+    "fitTitle": "모든 연결의 완벽함.",
+    "fitLead": "수천 개의 호환 가능한 피팅 시스템.",
+    "fitGroups": [
+      {
+        "title": "엘보우 및 티",
+        "desc": "방향 전환 및 분기."
+      },
+      {
+        "title": "금속 전환 피팅",
+        "desc": "기존 시스템과의 통합."
+      }
+    ],
+    "normEyebrow": "인증 및 표준",
+    "normTitle": "전 세계적으로 인정받는 품질.",
+    "normLead": "엄격한 글로벌 표준을 초과 달성합니다.",
+    "normHead": {
+      "std": "표준",
+      "desc": "설명"
+    },
+    "norms": [
+      { "std": "DIN EN ISO 15874", "desc": "플라스틱 파이프 시스템 품질" },
+      { "std": "DVGW", "desc": "식수 위생 안전성 보장" }
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "자주 묻는 질문",
+    "faq": [
+      { "q": "K-Aqua 시스템의 수명은?", "a": "정상 조건에서 50년 이상입니다." },
+      { "q": "금속 파이프와 호환되나요?", "a": "예, 전환 피팅을 사용하여 쉽게 호환 가능합니다." }
+    ]
+  },

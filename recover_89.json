@@ -1,0 +1,8 @@
+{
+  "Description": "\"Add hochhaus section to solutions\"",
+  "Instruction": "\"Insert hochhaus translation into solutions block\"",
+  "ReplacementChunks": "[{\"AllowMultiple\":false,\"EndLine\":3973,\"ReplacementContent\":\"    \\\"hochhaus\\\": {\\n      \\\"meta\\\": {\\n        \\\"title\\\": \\\"ระบบท่อสำหรับอาคารสูงและตึกระฟ้า | K Aqua\\\",\\n        \\\"desc\\\": \\\"เอาชนะแรงโน้มถ่วง: เครือข่ายท่อที่มีความทนทานต่อแรงดันสูง ทนความร้อนสูง และไร้เสียงรบกวน 100% สำหรับการออกแบบตึกระฟ้า\\\"\\n      },\\n      \\\"hero\\\": {\\n        \\\"eyebrow\\\": \\\"วิศวกรรมอาคารสูง (High-Rise Engineering)\\\",\\n        \\\"title1\\\": \\\"เครือข่ายไฮดรอลิก\\\",\\n        \\\"title2\\\": \\\"เหนือเมฆ\\\",\\n        \\\"desc\\\": \\\"สถาปัตยกรรมระดับเมกะทอลล์ (Megatall) ขับเคลื่อนฟิสิกส์ให้ถึงขีดจำกัด เมื่อความดันในท่อแนวดิ่งสูงเกิน 30 บาร์ วัสดุแบบเดิมจะล้มเหลว K Aqua นำเสนอเครือข่ายโพลีเมอร์ที่พัฒนาขึ้นเป็นพิเศษสำหรับแรงกดดันทางน้ำ (hydrostatic stresses) สูงสุด\\\",\\n        \\\"cta1\\\": \\\"เริ่มต้นการประเมินโครงการ\\\",\\n        \\\"cta2\\\": \\\"เอกสารข้อมูล SDR 6\\\"\\n      },\\n      \\\"intro\\\": {\\n        \\\"title\\\": \\\"สถิติไม่เคยโกหก\\\",\\n        \\\"desc\\\": \\\"ตั้งแต่ตึกระฟ้าในดูไบจนถึงอาคารสำนักงานสูงในแฟรงก์เฟิร์ต โครงสร้างพื้นฐานทางน้ำเป็นระบบที่เปราะบาง\n<truncated 17607 bytes>",
+  "TargetFile": "\"/Users/umurey/Downloads/K-Aqua-V1-main/messages/th.json\"",
+  "toolAction": "\"Editing file\"",
+  "toolSummary": "\"Add hochhaus section\""
+}

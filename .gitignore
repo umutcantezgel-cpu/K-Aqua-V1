@@ -76,3 +76,15 @@ export-*/
 
 # Internal documents — never ship or commit
 docs/confidential/
+
+# Ignore all non-core locales to save Vercel upload limits
+/messages/*.json
+!/messages/de.json
+!/messages/en.json
+!/messages/ar.json
+
+/messages/seo/*
+!/messages/seo/de
+!/messages/seo/en
+!/messages/seo/ar
+

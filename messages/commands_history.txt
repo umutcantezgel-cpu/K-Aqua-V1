@@ -1,0 +1,230 @@
+jq '{cookieConsent, seoExpansion}' de.json
+jq '{cookieConsent, seoExpansion}' ka.json
+node -e "
+const fs = require('fs');
+const file = 'ka.json';
+const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+
+data.cookieConsent = {
+  title: 'კონფიდენციალურობის პარამეტრები და Cookie-ფაილები',
+  description: 'ჩვენ ვიყენებთ Cookie-ფაილებს და მსგავს ტექნოლოგიებს (როგორიცაა პიქსელები და ლოკალური მეხსიერება) ჩვენს პლატფორმაზე საუკეთესო გამოცდილების უზრუნველსაყოფად. ზოგიერთი მათგანი აუცილებელია, ხოლო სხვები გვეხმარება ამ ვებსაიტის გაუმჯობესებაში. თქვენ ყოველთვის გაქვთ სრული კონტროლი.',
+  customize: 'პარამეტრების მორგება',
+  declineAll: 'მხოლოდ აუცილებელი',
+  acceptAll: 'ყველას მიღება',
+  acceptSelected: 'არჩევანის შენახვა',
+  essentialTitle: 'აუცილებელი (ტექნიკურად აუცილებელი)',
+  essentialDesc: 'ეს Cookie-ფაილები აუცილებელია ვებსაიტის გამართული ფუნქციონირებისთვის (მაგ. ნავიგაცია, უსაფრთხოება, თქვენი კონფიდენციალურობის პრეფერენციების შენახვა). ამ ტექნოლოგიების გარეშე K-Aqua ვერ იმუშავებს სწორად. ისინი არ ინახავენ პერსონალურ საიდენტიფიკაციო მონაცემებს.',
+  analyticsTitle: 'სტატისტიკა და ანალიტიკა',
+  analyticsDesc: 'ეს Cookie-ფაილები გვეხმარება გავიგოთ ჩვენი ვიზიტორების ქცევა. ჩვენ ვაგროვებთ ფსევდონიმირებულ მონაცემებს იმის შესახებ, თუ როგორ ურთიერთობენ მომხმარებლები K-Aqua-სთან (მაგ. ყველაზე ხშირად მონახულებული გვერდები, ვიზიტის ხანგრძლივობა, შეცდომის შეტყობინებები). ეს გვეხმარება შეცდომების გამოსწორებასა და პლატფორმის მუდმივ გაუმჯობესებაში.',
+  marketingTitle: 'მარკეტინგი და პერსონალიზაცია',
+  marketingDesc: 'ჩვენ ვიყენებთ ამ ტექნოლოგიებს, რათა გაჩვენოთ უფრო რელევანტური კონტენტი და რეკლამები (მათ შორის გარე პლატფორმებზე). თუ ამას გამორთავთ, მაინც ნახავთ რეკლამებს, მაგრამ ისინი ნაკლებად იქნება მორგებული თქვენს ინტერესებზე.',
+  vendorListTitle: 'Cookie-ფაილების დეტალური სიის ნახვა',
+  backToSimple: 'მიმოხილვაზე დაბრუნება'
+};
+
+data.seoExpansion = {
+  t1: 'მაღალი წარმადობის მილების სისტემები და სითხეების მართვა',
+  p1: 'როგორც PP-R და PP-RCT მილების სისტემების წამყვანი გლობალური მწარმოებელი, K-Aqua გთავაზობთ მტკიცე, გამძლე და მაღალეფექტურ სითხეების მართვის გადაწყვეტილებებს სასმელი წყლის, გათბობისა და გაგრილების ქსელებისთვის. ჩვენი პროდუქციის პორტფელი მოიცავს სტანდარტულ PP-R მილებს SDR 11-დან სპეციალურ მინაბოჭკოვანი მრავალშრიან მილებამდე (PP-RCT), რომლებიც უზრუნველყოფენ განსაკუთრებულ გამძლეობას ექსტრემალური ტემპერატურისა და მაღალი წნევის მიმართ. საყოფაცხოვრებო ინსტალაციებიდან დაწყებული სითხის განაწილების მასიური ინდუსტრიული ქსელებით დამთავრებული, ჩვენი მილები უზრუნველყოფს მაქსიმალურ საოპერაციო უსაფრთხოებას. თითოეული მილი, რომელიც ექსტრუდირებულია უახლესი გერმანული დანადგარებით, შექმნილია იმისათვის, რომ იყოს აბსოლუტურად გაჟონვისგან დაცული 50-ზე მეტი წლის განმავლობაში. ჰიგიენაზე ფოკუსირებით, ჩვენი სასმელი წყლის მილები სერტიფიცირებულია მკაცრი საერთაშორისო სატესტო სააგენტოების მიერ ლეგიონელას ბაქტერიების ზრდის პრევენციისა და საავადმყოფოებში, სასტუმროებსა და საჯარო ინფრასტრუქტურაში სასმელი წყლის სისუფთავისა და გემოს შენარჩუნების მიზნით.',
+  t2: 'მოწინავე ფიტინგები, სარქველები და სამონტაჟო ინსტრუმენტები',
+  p2: 'მილების საბაზისო არქიტექტურის მიღმა, K-Aqua გთავაზობთ ჩამოსხმული ფიტინგების, გადამყვანი შეერთებებისა და მაღალი გამძლეობის სარქველების უკიდურესად ყოვლისმომცველ ასორტიმენტს. ჩვენი PP-R და PP-RCT ფიტინგები მოიცავს მუხლებს, სამკაპებს, გადამყვანებსა და ელექტროშედუღების ქუროებს, რომლებიც შეუფერხებლად ერწყმის მილების ინფრასტრუქტურას, ქმნის რა მონოლითურ, ქიმიურად შეერთებულ ქსელს, რომელიც პრაქტიკულად ურღვევია. ჩვენ ვაინტეგრირებთ მაღალი სიზუსტით დამუშავებულ თითბერსა და თუთიის გამოყოფის მიმართ მდგრად (DZR) ლითონის ხრახნებს არსებულ ლითონის სანტექნიკის კომპონენტებთან სრულყოფილი თავსებადობისთვის. გლუვი ინსტალაციის უზრუნველსაყოფად, ჩვენ გთავაზობთ პროფესიონალურ პოლიფუზიური შედუღების ინსტრუმენტებს, დაწყებული ხელის შედუღების აპარატებიდან მასიურ ჰიდრავლიკურ კონტაქტური შედუღების მანქანებამდე. ეს სრული ეკოსისტემა უზრუნველყოფს, რომ სამშენებლო კომპანიებსა და ინჟინრებს შეუძლიათ დაეყრდნონ ერთიან, სტანდარტიზებულ სისტემურ არქიტექტურას ნებისმიერი რთული სამონტაჟო მოთხოვნისთვის.',
+  t3: 'მდგრადობა, სიცოცხლის ციკლის შეფასება (LCA) და CO2-ის შემცირება',
+  p3: 'მდგრადობა ღრმად არის ფესვგადგმული ჩვენი PP-R და PP-RCT სისტემების მოლეკულურ ინჟინერიაში. 0.007 მმ შიდა ზედაპირის შესანიშნავი სიგლუვის უზრუნველყოფით, ჩვენი მილები მკვეთრად ამცირებს ჰიდრავლიკურ ხახუნსა და წნევის დანაკარგს მთელ ქსელში. დარსი-ვეისბახის დინამიური ნაკადის მოდელების მიხედვით, ეს მინიმალური წინააღმდეგობა პირდაპირ იწვევს ცირკულაციის ტუმბოების ენერგიის მოხმარების მასიურ შემცირებას. 50-წლიანი საოპერაციო სასიცოცხლო ციკლის განმავლობაში, ეს ეფექტურობა განაპირობებს CO2-ის უპრეცედენტო დაზოგვას და მნიშვნელოვნად ამცირებს მფლობელობის მთლიან ღირებულებას (TCO) შენობებისა და ობიექტების ოპერატორებისთვის. გარდა ამისა, პოლიპროპილენი 100%-ით გადამუშავებადია. ჩვენი დადასტურებული ტიპი III გარემოსდაცვითი პროდუქტის დეკლარაციებით (EPD) EN 15804-ის შესაბამისად, ჩვენ ვთავაზობთ არქიტექტორებსა და მწვანე მშენებლობის დამგეგმავებს გამჭვირვალე, რაოდენობრივ მონაცემებს LEED, BREEAM და DGNB სერტიფიცირებისთვის.',
+  t4: 'გლობალური წვდომა, გერმანული ინჟინერია და სერტიფიცირება',
+  p4: 'დამზადებულია მთლიანად გერმანიაში ხარისხისა და გარემოსდაცვითი მართვის მკაცრი ISO 9001, ISO 14001 და ISO 50001 პროტოკოლების დაცვით, K-Aqua-ს პრემიუმ მილების გადაწყვეტილებების ექსპორტი ხორციელდება 50-ზე მეტ ქვეყანაში მსოფლიოს მასშტაბით. ჩვენი ლოგისტიკური ქსელი უზრუნველყოფს სრული სისტემების სწრაფ და უსაფრთხო მიწოდებას მეგაპროექტებისთვის ახლო აღმოსავლეთში, სამხრეთ-აღმოსავლეთ აზიასა და მთელ ევროპაში. ჩვენი დაუღალავი ერთგულება ხარისხისადმი დადასტურებულია ძირითადი საერთაშორისო სერტიფიცირების ორგანოების მიერ, მათ შორის DVGW, SKZ, WRAS და KIWA. ჩვენ მხარს ვუჭერთ ინჟინერ-კონსულტანტებს, BIM-მოდელიერებსა და მსხვილ კონტრაქტორებს დეტალური CAD/BIM ბიბლიოთეკებით, ინტელექტუალური გაანგარიშების პროგრამული უზრუნველყოფითა და ყოვლისმომცველი ტექნიკური მხარდაჭერით, პროექტის შეუფერხებელი განხორციელების უზრუნველსაყოფად. K-Aqua წარმოადგენს მოწინავე პოლიმერული მეცნიერების, მდგრადი ინჟინერიისა და სითხეების მართვაში უკომპრომისო საიმედოობის საბოლოო სინთეზს.'
+};
+
+fs.writeFileSync(file, JSON.stringify(data, null, 2));
+"
+jq '{seo, seoArticle}' de.json
+jq '{seo, seoArticle}' ka.json
+tail -n 20 ka.json
+jq '.seo' de.json
+jq '.seoArticle' de.json
+cat ka.json | grep -n '"seo"'
+cat ka.json | grep -n '"seo"' || cat ka.json | grep -n 'seo'
+jq 'keys' ka.json | grep seo
+tail -n 5 ka.json
+jq '{trustx, rfq}' de.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '.catalogx' de.json | wc -l
+jq '.catalogx | keys' de.json
+jq '.catalogx.items | length' de.json
+jq '.catalogx.items[0]' de.json
+jq '.catalogx.items | keys' de.json
+jq '.catalogx.items["adaptor-socket-female-thread"]' de.json
+jq '.products | keys' de.json
+jq 'del(.items) | .catalogx' de.json
+jq 'del(.catalogx.items) | .catalogx' de.json
+jq '{legal, trustx, geo}' de.json
+jq '.legal' de.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '.trustx' de.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+tail -n 5 ka.json
+tail -n 10 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{enterprise, referenzenPage}' de.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{wissen, customerReviews, seoArticle}' de.json
+jq '{wissen, customerReviews, seoArticle}' de.json > tmp_chunks.json
+cat tmp_chunks.json
+node -e 'const fs=require("fs"); const d = JSON.parse(fs.readFileSync("de.json")); fs.writeFileSync("wissen.json", JSON.stringify(d.wissen, null, 2)); fs.writeFileSync("customerReviews.json", JSON.stringify(d.customerReviews, null, 2)); fs.writeFileSync("seoArticle.json", JSON.stringify(d.seoArticle, null, 2));'
+cat wissen.json && echo "---" && cat customerReviews.json && echo "---" && cat seoArticle.json
+cat wissen.json
+cat customerReviews.json
+cat seoArticle.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{kontaktForm, pages, productNames}' de.json > small_chunks2.json
+cat small_chunks2.json
+tail -n 5 ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{pages, kontaktForm}' de.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '.seoArticle' ka.json
+jq '{solutions}' de.json > solutions_chunk.json
+cat solutions_chunk.json
+jq '.solutions | keys' de.json
+jq '{eyebrow: .solutions.eyebrow, title1: .solutions.title1, titleGrad: .solutions.titleGrad, title2: .solutions.title2, lead: .solutions.lead, nextEyebrow: .solutions.nextEyebrow, nextTitle: .solutions.nextTitle, nextLead: .solutions.nextLead, nextCta: .solutions.nextCta}' de.json
+jq '.solutions.benefits | keys' de.json
+jq '.solutions.benefits' de.json
+jq '.solutions.index' de.json
+jq '.solutions | keys' de.json
+jq '{co2}' de.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{seoArticle}' de.json
+jq '.seoArticle.transitionFittings' de.json
+jq '.seoArticle.transitionFittings' ka.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{application, about, productsx}' de.json > small_chunks3.json
+cat small_chunks3.json
+jq '{application}' de.json > application.json
+cat application.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '{about}' de.json > about.json
+cat about.json
+jq 'keys' de.json
+grep -n '"pipes": \[' de.json
+sed -n '1535,1545p' de.json
+jq 'paths | select(.[-1] == "genauManagement")' de.json
+jq '.pages' de.json | head -n 30
+jq '.pages.pipes' de.json
+jq '{about, productsx, geoContent}' de.json > chunk3.json
+jq '.geoContent' de.json | head -n 40
+jq '.productsx' de.json
+jq '.geoContent | keys' de.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '.pages | keys' ka.json
+jq '.about.seo' de.json
+jq '.about.seo' de.json > about_seo.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+jq '.about | keys' de.json
+jq '.about' de.json > about_full.json
+cat about_full.json
+head -n 40 about_full.json
+sed -n '40,60p' about_full.json
+REPLACE: /Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json
+sed -n '1980,2000p' ka.json
+git checkout ka.json
+ls -la
+grep 'replace_file_content' /Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript.jsonl | tail -n 20
+jq -c 'select(.tool_calls != null) | .tool_calls[] | select(.name == "replace_file_content")' /Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript.jsonl | wc -l
+ls -l /Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/
+ls -la ka*
+ls -la ../.idea ../.vscode
+grep -A 20 '"TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/ka.json"' /Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl | head -n 50
+grep 'cat ka.json' /Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl
+node -e '
+const fs = require("fs");
+const lines = fs.readFileSync("/Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl", "utf8").split("\n").filter(Boolean);
+let count = 0;
+for (const line of lines) {
+  const parsed = JSON.parse(line);
+  if (parsed.tool_calls) {
+    for (const call of parsed.tool_calls) {
+      if (call.name === "replace_file_content" && call.args.TargetFile.endsWith("ka.json")) {
+        count++;
+      }
+    }
+  }
+}
+console.log("Count:", count);
+'
+node -e '
+const fs = require("fs");
+const lines = fs.readFileSync("/Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl", "utf8").split("\n").filter(Boolean);
+let count = 0;
+for (const line of lines) {
+  const parsed = JSON.parse(line);
+  if (parsed.tool_calls) {
+    for (const call of parsed.tool_calls) {
+      if (call.name === "multi_replace_file_content" && call.args.TargetFile.endsWith("ka.json")) {
+        count++;
+      }
+    }
+  }
+}
+console.log("Multi Count:", count);
+'
+node -e '
+const fs = require("fs");
+const lines = fs.readFileSync("/Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl", "utf8").split("\n").filter(Boolean);
+let count = 0;
+for (const line of lines) {
+  const parsed = JSON.parse(line);
+  if (parsed.tool_calls) {
+    for (const call of parsed.tool_calls) {
+      if (call.name === "run_command" && call.args.CommandLine.includes("ka.json")) {
+        console.log(call.args.CommandLine);
+      }
+    }
+  }
+}
+'
+node -e '
+const fs = require("fs");
+const lines = fs.readFileSync("/Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl", "utf8").split("\n").filter(Boolean);
+for (const line of lines) {
+  const parsed = JSON.parse(line);
+  if (parsed.tool_calls) {
+    for (const call of parsed.tool_calls) {
+      if (call.name === "run_command" && call.args.CommandLine.includes("fs.writeFileSync")) {
+        console.log("----");
+        console.log(call.args.CommandLine);
+      }
+    }
+  }
+}
+' > recover.txt
+cat recover.txt
+ls -la *_inject.txt
+cat tmp_wissen_inject.txt
+ls -la ka_*.json
+node -e '
+const fs = require("fs");
+const lines = fs.readFileSync("/Users/umurey/.gemini/antigravity/brain/d0897114-d182-4b18-a066-5892d8a60c80/.system_generated/logs/transcript_full.jsonl", "utf8").split("\n").filter(Boolean);
+let maxLen = 0;
+let bestLine = null;
+for (const line of lines) {
+  const parsed = JSON.parse(line);
+  if (parsed.type === "TOOL_CALL_RESPONSE" && parsed.responses) {
+    for (const res of parsed.responses) {
+      if (res.name === "run_command" && res.response && res.response.output && res.response.output.includes("\"cookieConsent\"")) {
+        if (res.response.output.length > maxLen) {
+          maxLen = res.response.output.length;
+          bestLine = res.response.output;
+        }
+      }
+    }
+  }
+}
+console.log("Max length found with cookieConsent:", maxLen);
+if (maxLen > 1000) {
+  fs.writeFileSync("ka_recovered.json", bestLine);
+}
+'

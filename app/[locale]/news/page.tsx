@@ -1,14 +1,14 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Card } from "@/components/ui/Card";
-import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
-import { Check, Download, MapPin } from "@/components/ui/icon";
 import { NewsDeep } from "@/components/sections/NewsDeep";
 import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import { getAllNews } from "@/content/news";
+import { BlogGrid } from "@/components/sections/BlogGrid";
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -27,10 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-const CERT_DE_URL = "/pdf/kwt-iso-zertifikat-de.pdf";
-const CERT_EN_URL = "/pdf/kwt-iso-certificates-en.pdf";
-const DASH = " | ";
-
 export default async function NewsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -38,128 +34,44 @@ export default async function NewsPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "news" });
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("news") as string[];
-
-  const iso = t.raw("iso") as string[][];
-
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
+  const allPosts = getAllNews();
+
   return (
     <>
       <JsonLd schema={jsonLd} />
       <div className="sr-only">{meta[0]}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
-        {/* Hero Section */}
-        <section className="relative overflow-hidden py-16 lg:py-20 border-b border-card-border">
-          <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
-          <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
+        {/* Redesigned Hero Section */}
+        <section className="relative overflow-hidden pt-24 pb-16 lg:pt-32 lg:pb-24 border-b border-card-border bg-background-subtle">
+          <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none opacity-60" />
+          <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-center flex flex-col items-center">
             <Reveal>
               <Eyebrow>{t("eyebrow")}</Eyebrow>
             </Reveal>
             <Reveal delay={0.06}>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
+              <h1 className="text-h1 lg:text-[4rem] font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-6 mb-6">
                 {t("title1")}{" "}
                 <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                   {t("titleGrad")}
                 </span>
                 <span className="sr-only"> - {t("lead")}</span>
               </h1>
-              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
+              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] mx-auto font-normal">
                 {t("lead")}
               </p>
             </Reveal>
           </div>
         </section>
 
-        {/* News Content Section */}
-        <section className="py-20 bg-background">
-          <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-8 items-start">
-              {/* Primary News Release */}
-              <Reveal>
-                <Card className="p-8 text-start flex flex-col gap-6">
-                  <div>
-                    <span className="text-[13.5px] font-semibold text-muted-foreground">
-                      {t("date")}
-                    </span>
-                    <h2 className="font-heading font-extrabold text-2xl lg:text-3xl text-foreground mt-2 mb-4 leading-snug">
-                      {t("h2")}
-                    </h2>
-                    <p className="text-body text-muted-foreground leading-relaxed" data-nosnippet="true">
-                      {t("p")}
-                    </p>
-                  </div>
-                  <ul className="flex flex-col gap-3">
-                    {iso.map(([code, label]) => (
-                      <li key={code} className="flex gap-3 items-center text-muted-foreground">
-                        <span className="text-accent-strong shrink-0">
-                          <Check className="w-5 h-5" />
-                        </span>
-                        <span className="text-body leading-normal">
-                          <span className="text-foreground font-semibold">{code}</span>
-                          {DASH}
-                          {label}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="flex flex-wrap gap-4 pt-2">
-                    <Button
-                      size="sm"
-                      href={CERT_DE_URL}
-                      icon={<Download className="w-4 h-4" />}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t("btnDe")}
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="ghost"
-                      href={CERT_EN_URL}
-                      icon={<Download className="w-4 h-4" />}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t("btnEn")}
-                    </Button>
-                  </div>
-                </Card>
-              </Reveal>
+        {/* Dynamic Blog Grid */}
+        <BlogGrid posts={allPosts} locale={locale} />
 
-              {/* Sidebar events */}
-              <Reveal delay={0.12}>
-                <Card tint className="p-8 text-start flex flex-col gap-6">
-                  <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0">
-                    <MapPin className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h2 className="font-heading font-bold text-xl text-foreground mb-3">
-                      {t("eventsTitle")}
-                    </h2>
-                    <p className="text-body text-muted-foreground leading-relaxed">
-                      {t("eventsText")}
-                    </p>
-                  </div>
-                </Card>
-              </Reveal>
-            </div>
-          </div>
-        </section>
-        {/* Deep Content am Ende der News Seite */}
+        {/* Deep Content */}
         <NewsDeep />
 
         {/* Dynamic SEO Text Blocks */}
-        <div className="sr-only">
-          <p>
-            {locale === 'de' ? 'K-Aqua bleibt stets an der Spitze der Innovation in der Kunststoffrohr-Industrie.' : locale === 'ar' ? 'تبقى K-Aqua دائمًا في طليعة الابتكار في صناعة الأنابيب البلاستيكية.' : 'K-Aqua always remains at the forefront of innovation in the plastic pipe industry.'}
-          </p>
-          <p>
-            {locale === 'de' ? 'In unseren News informieren wir Sie über neueste Zertifizierungen, Produktlaunches und Unternehmensentwicklungen.' : locale === 'ar' ? 'في أخبارنا، نبلغك بأحدث الشهادات وإطلاق المنتجات وتطورات الشركة.' : 'In our news, we inform you about the latest certifications, product launches, and company developments.'}
-          </p>
-          <p>
-            {locale === 'de' ? 'Unsere ISO-Zertifizierungen belegen unseren unermüdlichen Einsatz für höchste Qualität und nachhaltige Produktionsverfahren.' : locale === 'ar' ? 'تثبت شهادات ISO الخاصة بنا التزامنا الدؤوب بأعلى جودة وعمليات إنتاج مستدامة.' : 'Our ISO certifications prove our tireless commitment to the highest quality and sustainable production processes.'}
-          </p>
-        </div>
+        <DynamicSeoBlock title={meta[0]} h1={meta[0]} locale={locale} path="/news" />
       </div>
     </>
   );

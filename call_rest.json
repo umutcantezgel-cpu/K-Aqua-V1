@@ -1,0 +1,63 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/uz.json",
+  "Instruction": "Inject missing keys",
+  "Description": "Adding rest of missing keys",
+  "ReplacementChunks": [
+    {
+      "AllowMultiple": false,
+      "StartLine": 4359,
+      "EndLine": 4359,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"schulungen\": {\n      \"title\": \"Treninglar\",\n      \"desc\": \"O'rnatuvchilar va muhandislar uchun amaliy darslar va sertifikatlashtirish.\"\n    },\n    \"zertifizierung\": {\n      \"title\": \"Sertifikatlash\",\n      \"desc\": \"K-Aqua rasmiy sertifikatiga ega bo'lish orqali malakangizni oshiring.\"\n    },\n    \"glossar\": {\n      \"title\": \"Glossariy\",\n      \"desc\": \"PP-R va sanitariya texnologiyalari bo'yicha texnik atamalar lug'ati.\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7093,
+      "EndLine": 7093,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"transitionFittings\": {\n      \"title\": \"O'tish qismlari\",\n      \"desc\": \"Plastik va metall quvurlar o'rtasida ishonchli va germetik ulanish.\"\n    },\n    \"valves\": {\n      \"title\": \"Klapanlar\",\n      \"desc\": \"Yuqori bosimli tizimlar uchun ishonchli boshqaruv va xavfsizlik klapanlari.\"\n    },\n    \"fittings\": {\n      \"title\": \"Fittinglar\",\n      \"desc\": \"Har qanday loyiha uchun keng qamrovli PP-R va PPRCT fittinglari.\"\n    },\n    \"weldInSaddles\": {\n      \"title\": \"Payvandlanadigan egarlar\",\n      \"desc\": \"Quvur tarmoqlarini kengaytirish va qo'shimcha tarmoqlar yaratish.\"\n    },\n    \"tools\": {\n      \"title\": \"Asboblar\",\n      \"desc\": \"K-Aqua tizimlarini o'rnatish uchun professional asbob-uskunalar.\"\n    },\n    \"accessories\": {\n      \"title\": \"Aksessuarlar\",\n      \"desc\": \"O'rnatish jarayonini osonlashtiruvchi qo'shimcha komponentlar.\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7101,
+      "EndLine": 7101,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"home\": {\n      \"title\": \"Bosh sahifa\"\n    },\n    \"unternehmen\": {\n      \"title\": \"Kompaniya\"\n    },\n    \"produkte_fittings\": {\n      \"title\": \"Fittinglar\"\n    },\n    \"produkte_rohre\": {\n      \"title\": \"Quvurlar\"\n    },\n    \"produkte_armaturen\": {\n      \"title\": \"Armaturalar\"\n    },\n    \"produkte_werkzeuge\": {\n      \"title\": \"Asboblar\"\n    },\n    \"produkte_uebergaenge\": {\n      \"title\": \"O'tish qismlari\"\n    },\n    \"produkte_zubehoer\": {\n      \"title\": \"Aksessuarlar\"\n    },\n    \"katalog\": {\n      \"title\": \"Katalog\"\n    },\n    \"finder\": {\n      \"title\": \"Mahsulot qidiruvchi\"\n    },\n    \"produkte\": {\n      \"title\": \"Mahsulotlar\"\n    },\n    \"academy\": {\n      \"title\": \"Akademiya\"\n    },\n    \"referenzen\": {\n      \"title\": \"Loyihalar\"\n    },\n    \"support\": {\n      \"title\": \"Qo'llab-quvvatlash\"\n    },\n    \"ausschreibungstexte\": {\n      \"title\": \"Tender matnlari\"\n    },\n    \"service\": {\n      \"title\": \"Xizmat\"\n    },\n    \"maerkte_trinkwasser\": {\n      \"title\": \"Ichimlik suvi\"\n    },\n    \"maerkte_klima\": {\n      \"title\": \"Iqlim nazorati\"\n    },\n    \"maerkte_industrie\": {\n      \"title\": \"Sanoat\"\n    },\n    \"maerkte_schiffbau\": {\n      \"title\": \"Kema qurilishi\"\n    },\n    \"maerkte_landwirtschaft\": {\n      \"title\": \"Qishloq xo'jaligi\"\n    },\n    \"maerkte\": {\n      \"title\": \"Bozorlar\"\n    },\n    \"loesungen_hochhaus\": {\n      \"title\": \"Ko'p qavatli binolar\"\n    },\n    \"loesungen_krankenhaus\": {\n      \"title\": \"Kasalxonalar\"\n    },\n    \"loesungen_hotel\": {\n      \"title\": \"Mehmonxonalar\"\n    },\n    \"loesungen\": {\n      \"title\": \"Yechimlar\"\n    },\n    \"co2_rechner\": {\n      \"title\": \"CO2 Hisoblagich\"\n    },\n    \"trust_center\": {\n      \"title\": \"Trust Center\"\n    },\n    \"projektanfrage\": {\n      \"title\": \"Loyiha so'rovi\"\n    },\n    \"kontakt\": {\n      \"title\": \"Aloqa\"\n    },\n    \"news\": {\n      \"title\": \"Yangiliklar\"\n    },\n    \"karriere\": {\n      \"title\": \"Karyera\"\n    },\n    \"partnerschaft\": {\n      \"title\": \"Hamkorlik\"\n    },\n    \"impressum\": {\n      \"title\": \"Impressum\"\n    },\n    \"datenschutz\": {\n      \"title\": \"Maxfiylik siyosati\"\n    },\n    \"fallback\": {\n      \"title\": \"Umumiy so'rov\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7116,
+      "EndLine": 7116,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"phoneLabel\": \"Telefon raqami\",\n    \"phonePlaceholder\": \"+998 90 123 45 67\",\n    \"phoneError\": \"Iltimos, yaroqli telefon raqamini kiriting\",\n    \"emailLabel\": \"E-pochta\",\n    \"emailPlaceholder\": \"ism@kompaniya.uz\",\n    \"emailError\": \"Yaroqli elektron pochta manzilini kiriting\",\n    \"chipsLabel\": \"Qiziqishlaringiz\",\n    \"send\": \"Xabarni yuborish\",\n    \"sendError\": \"Yuborishda xatolik yuz berdi\",\n    \"legal\": \"Men maxfiylik siyosatiga roziman\",\n    \"legalLink\": \"Maxfiylik siyosatini o'qish\",\n    \"doneTitle\": \"Rahmat!\",\n    \"doneTitleSlim\": \"Xabaringiz yuborildi\",\n    \"direct\": \"To'g'ridan-to'g'ri aloqa\",\n    \"promise\": \"Biz ma'lumotlaringizni xavfsiz saqlaymiz.\",\n    \"ccAria\": \"Nusxa olish\",\n    \"closeAria\": \"Yopish\",\n    \"fabAria\": \"Aloqa tugmasi\",\n    \"interests\": {\n      \"1\": \"Mahsulotlar\",\n      \"2\": \"Hamkorlik\",\n      \"3\": \"Texnik yordam\",\n      \"4\": \"Boshqa\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7136,
+      "EndLine": 7136,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"eyebrow\": \"K-Aqua Enterprise\",\n    \"heroTitleEm\": \"Sanoat standarti\",\n    \"telemetry\": {\n      \"title\": \"Telemetriya va monitoring\",\n      \"desc\": \"Tizim holati haqida real vaqtda ma'lumot oling.\"\n    },\n    \"layers\": {\n      \"title\": \"Ko'p qatlamli himoya\",\n      \"desc\": \"Maksimal xavfsizlik va chidamlilik uchun ilg'or texnologiyalar.\"\n    },\n    \"comply\": {\n      \"title\": \"Muvofiqlik\",\n      \"desc\": \"Xalqaro sifat va ekologiya standartlariga to'liq moslik.\"\n    },\n    \"rangeTitle\": \"Mahsulot assortimenti\",\n    \"network\": {\n      \"title\": \"Global tarmoq\",\n      \"desc\": \"Dunyodagi eng yirik loyihalar uchun ishonchli ta'minot tarmog'i.\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7148,
+      "EndLine": 7148,
+      "TargetContent": "  },",
+      "ReplacementContent": "  ,\n    \"hero\": {\n      \"title\": \"Loyihalar\",\n      \"desc\": \"Butun dunyo bo'ylab K-Aqua ishtirok etgan eng muhim inshootlar.\"\n    },\n    \"manifesto\": {\n      \"title\": \"Bizning yondashuvimiz\",\n      \"desc\": \"Har bir loyiha - mukammallik va ishonchlilik dalili.\"\n    },\n    \"metrics\": {\n      \"title\": \"Raqamlarda\",\n      \"desc\": \"Bizning yutuqlarimiz va ta'sirimiz haqida ma'lumot.\"\n    },\n    \"cta\": {\n      \"title\": \"Sizning loyihangiz\",\n      \"desc\": \"Biz bilan bog'laning va loyihangizni birgalikda amalga oshiramiz.\"\n    },\n    \"icons\": {\n      \"building\": \"Bino\",\n      \"water\": \"Suv\",\n      \"energy\": \"Energiya\"\n    }\n  },"
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7153,
+      "EndLine": 7153,
+      "TargetContent": "  }\n  ",
+      "ReplacementContent": "  ,\n    \"t1\": \"Barqarorlik\",\n    \"p1\": \"K-Aqua atrof-muhitni muhofaza qilishni o'zining asosiy maqsadlaridan biri deb biladi.\",\n    \"t2\": \"Sifat kafolati\",\n    \"p2\": \"Har bir mahsulot qat'iy sifat nazoratidan o'tadi.\",\n    \"t3\": \"Innovatsiyalar\",\n    \"p3\": \"Biz materialshunoslik va quvur tizimlari sohasidagi so'nggi yutuqlarni qo'llaymiz.\",\n    \"t4\": \"Texnik yordam\",\n    \"p4\": \"Bizning muhandislar jamoasi har doim yordamga tayyor.\"\n  }\n  "
+    },
+    {
+      "AllowMultiple": false,
+      "StartLine": 7155,
+      "EndLine": 7155,
+      "TargetContent": "}",
+      "ReplacementContent": ",\n    \"geoContent\": {\n      \"germany\": {\n        \"title\": \"Germaniya\",\n        \"desc\": \"Bosh ofis va ishlab chiqarish bazasi.\"\n      },\n      \"zuerich\": {\n        \"regulator\": \"SVGW / TBDV\"\n      },\n      \"dschidda\": {\n        \"regulator\": \"SASO / SWCC\"\n      }\n    }\n}"
+    }
+  ]
+}

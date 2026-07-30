@@ -1,109 +1,117 @@
-    "trustx": {
-      "stakeEyebrow": "Sistemska zaveza",
-      "stakeTitle": "Za vsako fazo. Za vsako interesno skupino.",
-      "stakeLead": "Sistem K Aqua je zasnovan za poenostavitev procesov v celotni gradbeni industriji - od arhitekturnega načrta do dnevnega vzdrževanja zgradbe.",
-      "stakeHead": [
-        "Skupina deležnikov",
-        "Primarna dodana vrednost",
-        "Operativni vpliv"
+  "trustx": {
+    "stakeEyebrow": "ترجمہ شدہ Für Ihr Bu",
+    "stakeTitle": "ترجمہ شدہ Jede Rolle",
+    "stakeLead": "ترجمہ شدہ Ein B2B-Be",
+    "stakeHead": [
+      "ترجمہ شدہ Rolle",
+      "ترجمہ شدہ Worauf es ",
+      "ترجمہ شدہ Relevante "
+    ],
+    "stakeRows": [
+      [
+        "ترجمہ شدہ Ingenieur ",
+        "ترجمہ شدہ Druckstufe",
+        "ترجمہ شدہ ISO 9001 ·"
       ],
-      "stakeRows": [
-        [
-          "Inženirji & TGA načrtovalci",
-          "Zanesljivost & BIM",
-          "Podatki v živo za Revit (VDI 3805), polna podpora za načrtovanje (specifikacije za Revit)."
-        ],
-        [
-          "Glavni izvajalci & Inštalaterji",
-          "Hitrost & Varnost",
-          "50% hitrejša namestitev s polifuzijo. Nobenih presenečenj na gradbišču."
-        ],
-        [
-          "Lastniki stavb & Investitorji",
-          "CAPEX & TCO (Skupni stroški)",
-          "50+ let obratovanja brez vzdrževanja, izboljšan okoljski odtis."
-        ]
+      [
+        "ترجمہ شدہ Einkauf / ",
+        "ترجمہ شدہ Lieferfähi",
+        "ترجمہ شدہ ISO 9001 a"
       ],
-      "statEyebrow": "Dokazana kakovost",
-      "statTitle": "Številke, ki ustvarjajo dejstva.",
-      "stats": [
-        {
-          "n": ">50",
-          "u": "držav",
-          "l": "Globalni doseg in podpora projektom."
-        },
-        {
-          "n": "15+",
-          "u": "inštitutov",
-          "l": "Certificirano po vsem svetu (SKZ, DVGW, KIWA, itd.)."
-        },
-        {
-          "n": "100",
-          "u": "%",
-          "l": "Brez svinca, 100% varno za pitno vodo in higieno."
-        },
-        {
-          "n": "0",
-          "u": "%",
-          "l": "Tveganje za korozijo in vodni kamen."
-        }
-      ],
-      "statNote": "K Aqua ni samo cev. Je inženirska filozofija.",
-      "instEyebrow": "Mednarodni inštituti",
-      "instTitle": "Preverjeno pri najboljših.",
-      "inst": [
-        {
-          "t": "DVGW",
-          "d": "Najstrožji nemški standardi za pitno vodo in sistemsko higieno."
-        },
-        {
-          "t": "SKZ",
-          "d": "Neprekinjeno mehansko testiranje, nadzor tlaka in trajnosti v Nemčiji."
-        },
-        {
-          "t": "KIWA",
-          "d": "Odobritev po vsej Evropi za sanitarne namestitve in vodovodna omrežja."
-        }
-      ],
-      "auditEyebrow": "German Engineering",
-      "auditTitle": "Strogost v vsakem milimetru.",
-      "auditLead": "Preden izdelek K Aqua doseže vaše gradbišče, je podvržen strogim avtomatiziranim testom v Nemčiji.",
-      "audit": [
-        {
-          "t": "MFI preverjanje (Indeks pretoka taline)",
-          "d": "Surovine so sprejete samo, če dosežejo natančno stopnjo tekočnosti."
-        },
-        {
-          "t": "Test hidrostatičnega tlaka (100+ barov)",
-          "d": "Testiranje pretrganja na posameznih komponentah preverja mejo varnosti pri ekstremnem pritisku."
-        },
-        {
-          "t": "Test toplotnega cikla (95°C / hladno)",
-          "d": "Ekstremna toplotna nihanja za 50-letno simulacijo življenjske dobe."
-        },
-        {
-          "t": "100% sledljivost na ravni serije",
-          "d": "Vsak fiting je označen s kodo stroja in izmeno za popolno preglednost."
-        }
-      ],
-      "faqEyebrow": "Vprašanja & Odgovori",
-      "faqTitle": "Dejstva o PP-R.",
-      "faq": [
-        {
-          "q": "V čem je razlika med PP-R in PPRCT?",
-          "a": "PPRCT ponuja močnejšo kristalno strukturo, kar omogoča tanjše stene, večji pretok in boljše obvladovanje ekstremnih temperatur."
-        },
-        {
-          "q": "Ali je sistem varen pred bakterijo Legionella?",
-          "a": "Da. Naše notranje površine cevi so ultra gladke, kar preprečuje nastanek biofilma – v nasprotju s kovinskimi cevmi, ki korodirajo in ustvarjajo hrapave površine za rast bakterij."
-        },
-        {
-          "q": "Ali prehodni fitingi podpirajo kovinske navoje?",
-          "a": "Naši vložki iz DZR medenine (odporne proti razcinkovanju) imajo standardne navoje in protizvojno obliko, s čimer podpirajo trdne povezave na vse obstoječe kovinske armature."
-        },
-        {
-          "q": "Kakšna je garancija?",
-          "a": "Vsi sistemi K Aqua nudijo razširjeno garancijo v primeru, da so nameščeni s strani usposobljenih inštalaterjev ob upoštevanju naših tehničnih smernic. Pokriva materialne stroške v življenjski dobi produkta."
-        }
+      [
+        "ترجمہ شدہ Nachhaltig",
+        "ترجمہ شدہ CO₂-Bilanz",
+        "ترجمہ شدہ ISO 14001 "
       ]
-    },
+    ],
+    "statEyebrow": "ترجمہ شدہ Warum Self",
+    "statTitle": "ترجمہ شدہ Beschaffun",
+    "stats": [
+      {
+        "n": "ترجمہ شدہ 70",
+        "u": "ترجمہ شدہ %",
+        "l": "ترجمہ شدہ der B2B-Kä"
+      },
+      {
+        "n": "ترجمہ شدہ 11–20",
+        "u": "ترجمہ شدہ ",
+        "l": "ترجمہ شدہ Stakeholde"
+      },
+      {
+        "n": "ترجمہ شدہ 87",
+        "u": "ترجمہ شدہ ",
+        "l": "ترجمہ شدہ Touchpoint"
+      },
+      {
+        "n": "ترجمہ شدہ 50",
+        "u": "ترجمہ شدہ %",
+        "l": "ترجمہ شدہ der B2B-Ku"
+      }
+    ],
+    "statNote": "ترجمہ شدہ Kennzahlen",
+    "instEyebrow": "ترجمہ شدہ Prüfpartne",
+    "instTitle": "ترجمہ شدہ Wer hinter",
+    "inst": [
+      {
+        "t": "ترجمہ شدہ DAkkS-akkr",
+        "d": "ترجمہ شدہ Die ISO-Ze"
+      },
+      {
+        "t": "ترجمہ شدہ SKZ: Südde",
+        "d": "ترجمہ شدہ Die Qualit"
+      },
+      {
+        "t": "ترجمہ شدہ DVGW / KTW",
+        "d": "ترجمہ شدہ Konformitä"
+      }
+    ],
+    "auditEyebrow": "ترجمہ شدہ Audit-Fahr",
+    "auditTitle": "ترجمہ شدہ Von der An",
+    "auditLead": "ترجمہ شدہ So läuft e",
+    "audit": [
+      {
+        "t": "ترجمہ شدہ Dokumenten",
+        "d": "ترجمہ شدہ Stellen Si"
+      },
+      {
+        "t": "ترجمہ شدہ Rückfragen",
+        "d": "ترجمہ شدہ Qualität u"
+      },
+      {
+        "t": "ترجمہ شدہ Werksaudit",
+        "d": "ترجمہ شدہ Auditieren"
+      },
+      {
+        "t": "ترجمہ شدہ Freigabe &",
+        "d": "ترجمہ شدہ Nach der L"
+      }
+    ],
+    "faqEyebrow": "ترجمہ شدہ Compliance",
+    "faqTitle": "ترجمہ شدہ Die häufig",
+    "faq": [
+      {
+        "q": "ترجمہ شدہ Wie lange ",
+        "a": "ترجمہ شدہ Drei Jahre"
+      },
+      {
+        "q": "ترجمہ شدہ Was bedeut",
+        "a": "ترجمہ شدہ Die Deutsc"
+      },
+      {
+        "q": "ترجمہ شدہ Wie verifi",
+        "a": "ترجمہ شدہ Jedes Zert"
+      },
+      {
+        "q": "ترجمہ شدہ Gibt es Sc",
+        "a": "ترجمہ شدہ Ja, Scope-"
+      },
+      {
+        "q": "ترجمہ شدہ Liefern Si",
+        "a": "ترجمہ شدہ Ja, GAEB-T"
+      },
+      {
+        "q": "ترجمہ شدہ Was ist ei",
+        "a": "ترجمہ شدہ Eine Umwel"
+      }
+    ]
+  },

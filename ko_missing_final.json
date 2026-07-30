@@ -1,0 +1,344 @@
+{
+  "academy": {
+    "glossar": {
+      "timeline": {
+        "items": [
+          {},
+          {},
+          {
+            "year": "단계 03",
+            "text": "정확히 260°C에서 부품을 녹이는 과정."
+          },
+          {
+            "year": "단계 04",
+            "text": "두 부품을 비틀지 않고 똑바로 밀어 넣는 과정."
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "support": {
+      "seoText": {
+        "p3": "단순한 기술 데이터에서부터 복잡한 시스템 플래닝까지 모든 지원을 제공합니다."
+      },
+      "sticky": {
+        "items": [],
+        "eyebrow": "직접 지원",
+        "lead": "귀하의 프로젝트를 위한 전담 엔지니어."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "설계 단계",
+            "text": "수리학적 계산, SDR 선택 및 BIM 데이터를 통해 엔지니어를 지원합니다."
+          },
+          {
+            "year": "입찰 단계",
+            "text": "명확한 프로젝트 사양을 위해 텍스트 작성 및 RFP 문서를 제공합니다."
+          },
+          {
+            "year": "물류 단계",
+            "text": "전 세계적으로 원활하고 정확한 자재 배송을 조율합니다."
+          },
+          {
+            "year": "설치 단계",
+            "text": "용접 교육, 도구 설정 및 현장 문제 해결을 지원합니다."
+          },
+          {
+            "year": "시운전 단계",
+            "text": "시스템 압력 테스트 지침 및 필요한 인증서를 제공합니다."
+          }
+        ],
+        "desc": "K-Aqua는 제품 공급업체를 넘어 모든 프로젝트 라이프사이클에서 전문적인 지원을 제공합니다."
+      },
+      "hero": {
+        "eyebrow": "기술 지원",
+        "title1": "솔루션을",
+        "title2": "직접 제공합니다.",
+        "btnPrimary": "전문가 상담",
+        "btnGhost": "글로벌 연락처 찾기"
+      }
+    },
+    "downloads": {
+      "cta": {
+        "title": "추가 문서가 필요하십니까?",
+        "desc": "프로젝트별 특수 인증서나 사양이 필요한 경우 언제든지 문의하십시오.",
+        "btn1": "기술 지원팀에 연락",
+        "btn2": "카탈로그 보기"
+      },
+      "meta": {
+        "title": "다운로드 센터",
+        "desc": "K-Aqua PP-R 시스템에 대한 모든 제품 카탈로그 및 기술 사양을 다운로드하십시오."
+      },
+      "hero": {
+        "eyebrow": "다운로드 포털",
+        "title1": "문서 및",
+        "title2": "사양.",
+        "cta1": "카탈로그 다운로드",
+        "cta2": "데이터시트 검색"
+      },
+      "timeline": {
+        "items": []
+      },
+      "sticky": {
+        "items": []
+      },
+      "bento": {
+        "items": []
+      },
+      "methodology": {
+        "items": []
+      },
+      "files": {
+        "items": []
+      }
+    },
+    "bim": {
+      "sticky": {
+        "items": [],
+        "eyebrow": "BIM 데이터",
+        "lead": "건축가를 위한 완벽한 플래닝 데이터베이스."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "01",
+            "text": "프로젝트 요구 사항을 지정하고 당사에 문의하여 적합한 데이터 패키지를 받으십시오."
+          },
+          {
+            "year": "02",
+            "text": "정확한 외부 치수 및 피팅 형상을 사용하여 구성 요소를 소프트웨어에 로드하십시오."
+          },
+          {
+            "year": "03",
+            "text": "건물의 다른 기술 설비(TGA)와 간섭이 없는지 식별하고 수정하십시오."
+          },
+          {
+            "year": "04",
+            "text": "모델에서 빠르고 정확하게 수량을 추출하여 예산 및 주문을 최적화하십시오."
+          },
+          {
+            "year": "05",
+            "text": "정확한 수량 데이터를 기반으로 발주 및 시공 계획을 수립하십시오."
+          }
+        ],
+        "desc": "성공적인 BIM 플래닝을 위한 단계별 가이드."
+      },
+      "hero": {
+        "btnPrimary": "BIM 데이터 다운로드",
+        "btnGhost": "전문가 상담"
+      }
+    },
+    "ausschreibungstexte": {
+      "timeline": {
+        "items": [
+          {
+            "year": "01",
+            "text": "시스템(예: 식수 또는 냉각)을 정의하여 관련 문서를 선택하십시오."
+          },
+          {
+            "year": "02",
+            "text": "다양한 형식(GAEB 등)으로 제공되는 텍스트를 즉시 다운로드하십시오."
+          },
+          {
+            "year": "03",
+            "text": "성능 설명을 RFP 또는 AVA 소프트웨어에 원활하게 복사하십시오."
+          },
+          {
+            "year": "04",
+            "text": "특수한 요구 사항이 있거나 검토가 필요한 경우 기술 팀에 문의하십시오."
+          }
+        ]
+      },
+      "hero": {
+        "eyebrow": "입찰 문서",
+        "title1": "완벽한 사양서",
+        "title2": "작성 지원.",
+        "cta1": "RFP 다운로드",
+        "cta2": "사양서 지원 요청"
+      },
+      "bento": {
+        "eyebrow": "입찰 텍스트 이점",
+        "lead": "우리의 사양서가 프로젝트에 미치는 실질적인 가치.",
+        "items": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "title": "호환성 보장",
+            "desc": "가장 많이 사용되는 AVA 플랫폼과 완벽하게 호환되는 형식."
+          }
+        ]
+      },
+      "grid": {
+        "desc": "프로젝트에 필요한 문서를 카테고리별로 검색하십시오.",
+        "items": []
+      },
+      "cta": {
+        "title": "전문가의 도움이 필요하십니까?",
+        "desc": "입찰 문서 작성 중 질문이 있거나 특별한 조건이 필요한 경우 엔지니어와 상담하십시오.",
+        "btn1": "지원 요청하기",
+        "btn2": "전체 제품 보기"
+      },
+      "deep": {
+        "items": []
+      }
+    }
+  },
+  "markets": {
+    "landwirtschaft": {
+      "section2Eyebrow": "견고한 기술력",
+      "section2Title": "농업의 극한 환경을 위한 설계.",
+      "section2Lead": "현대 농업의 복잡한 관개 및 온도 조절 시스템을 위한 K-Aqua의 혁신.",
+      "section3Eyebrow": "농업용 파이프 성능",
+      "section3Lead": "장기적인 내구성과 신뢰성을 제공하는 완벽한 시스템 특성.",
+      "bento1Title": "조류 번식 억제",
+      "bento1Desc": "파이프 내부를 완전히 어둡게 유지하여 빛에 의한 조류 성장을 방지합니다.",
+      "bento2Title": "내화학성",
+      "bento2Desc": "비료, 살충제 및 기타 농업용 화학 물질에 대한 탁월한 저항성.",
+      "bento3Title": "유연한 라우팅",
+      "bento3Desc": "불규칙한 지형과 넓은 온실 구조에 맞춘 유연한 설치 옵션.",
+      "bento4Title": "긴 수명 보장",
+      "bento4Desc": "기후 변화와 자외선 노출에도 견딜 수 있는 강력한 폴리머 혼합물.",
+      "section4Title": "수확량을 높이는 수자원 관리.",
+      "section4Highlight": "효율성 및 수명",
+      "section4P1": "온실과 농경지는 지속적이고 신뢰할 수 있는 물 공급 시스템이 필수적입니다. 미세한 누수도 농작물 수확에 큰 영향을 미칠 수 있습니다.",
+      "section4P2": "K-Aqua PP-R 파이프는 토양 매립부터 온실의 지붕 구조물에 이르기까지 어떠한 환경에서도 완벽한 성능을 발휘합니다.",
+      "section4Stat1Val": "0%",
+      "section4Stat1Lbl": "부식률",
+      "section4Stat2Val": "50년+",
+      "section4Stat2Lbl": "최소 기대 수명",
+      "timelineTitle": "관개 시스템 구축 과정",
+      "timelineDesc": "초기 설계에서부터 다년간의 수확에 이르기까지 완벽하게 지원합니다.",
+      "timeline1Year": "01단계",
+      "timeline1Title": "지형 및 수압 분석",
+      "timeline1Text": "농경지 지형을 바탕으로 최적의 펌프 압력 및 파이프 크기를 산정합니다.",
+      "timeline2Year": "02단계",
+      "timeline2Title": "자재 공급 및 라우팅",
+      "timeline2Text": "정확한 길이에 맞춰 자재를 절단하고 유연하게 배치합니다.",
+      "timeline3Year": "03단계",
+      "timeline3Title": "신속한 용접 결합",
+      "timeline3Text": "누수를 완벽하게 차단하는 폴리 퓨전 방식의 빠른 접합 공정.",
+      "timeline4Year": "04단계",
+      "timeline4Title": "시운전 및 수압 테스트",
+      "timeline4Text": "극한의 수압을 가해 파이프 네트워크의 무결성을 검증합니다.",
+      "timeline5Year": "05단계",
+      "timeline5Title": "무정비 가동",
+      "timeline5Text": "오랜 기간 동안 별도의 유지 보수 없이 안정적인 수분 공급을 실현합니다.",
+      "section5Title": "검증된 농업 파트너",
+      "section5Desc": "수많은 글로벌 농업 프로젝트에서 증명된 시스템.",
+      "section5List1": "자외선 저항성 강화 (UV-resilience)",
+      "section5List2": "저온 및 동파 방지",
+      "section5List3": "최대 110mm 이상의 다양한 배관 사이즈",
+      "section5List4": "화학 비료 및 산성 토양 저항",
+      "section5List5": "친환경 100% 재활용 소재",
+      "ctaBtn1": "농업 전문가 문의",
+      "ctaBtn2": "시스템 카탈로그 다운로드"
+    },
+    "klimaanlagen": {
+      "section1P1": "데이터 센터, 대형 상업 시설 및 주거 단지의 온도를 안정적으로 제어하는 것은 현대 건축의 기본입니다.",
+      "section1P2": "당사의 냉수 배관 시스템은 낮은 열전도율을 통해 불필요한 에너지 손실과 결로 문제를 완벽하게 차단합니다.",
+      "section2Eyebrow": "공조 시스템의 기초",
+      "section2Title": "완벽한 단열, 완벽한 성능.",
+      "section2Lead": "현대 공조 기술에서 결로 방지 및 에너지 효율성은 가장 중요한 요소입니다. 금속 배관의 한계를 뛰어넘는 폴리머 시스템을 만나보십시오.",
+      "bentoHeader": "핵심 이점",
+      "bentoSubheader": "냉각수 파이프의 성능 지표.",
+      "bento1Title": "탁월한 단열성",
+      "bento1Desc": "본질적으로 낮은 열전도율을 가져 별도의 값비싼 단열재 사용을 줄여줍니다.",
+      "bento2Title": "부식 제로",
+      "bento2Desc": "강철 파이프에서 흔히 발생하는 응결로 인한 외부 부식이나 내부 녹 발생이 없습니다.",
+      "bento3Title": "가벼운 무게",
+      "bento3Desc": "금속 파이프 대비 매우 가벼워 높은 천장이나 복잡한 공간의 설치가 용이합니다.",
+      "bento4Title": "소음 흡수",
+      "bento4Desc": "유체의 흐름 소음과 펌프의 진동을 효과적으로 흡수하여 조용한 환경을 조성합니다.",
+      "timelineEyebrow": "냉수 프로젝트 사이클",
+      "timelineLead": "초기 설계에서부터 오랜 기간 동안의 유지 보수 없는 가동에 이르기까지.",
+      "timeline1Year": "01",
+      "timeline1Title": "부하 계산 및 설계",
+      "timeline1Desc": "건물의 열 부하를 기반으로 정확한 파이프 크기와 펌프 용량을 산출합니다.",
+      "timeline2Year": "02",
+      "timeline2Title": "자재 조달 및 사전 제작",
+      "timeline2Desc": "정밀한 압출 공정으로 제조된 파이프와 피팅을 현장으로 조달합니다.",
+      "timeline3Year": "03",
+      "timeline3Title": "신속한 융착 조립",
+      "timeline3Desc": "화재 위험 없이 빠르고 안전하게 파이프를 접합합니다.",
+      "timeline4Year": "04",
+      "timeline4Title": "단열 및 시운전",
+      "timeline4Desc": "필요한 최소한의 추가 단열을 마친 후 압력 및 누수 테스트를 진행합니다.",
+      "timeline5Year": "05",
+      "timeline5Title": "효율적인 운영",
+      "timeline5Desc": "결로와 압력 손실 없는 효율적인 기후 제어 시스템 운영.",
+      "section3Eyebrow": "규격 및 신뢰성",
+      "section3P1": "당사의 PP-R 시스템은 냉수 순환과 관련된 모든 주요 국제 표준을 충족하거나 상회합니다.",
+      "section3P2": "안정적인 소재의 다층 구조는 열 팽창을 최소화하여 긴 직진 구간에서도 안정성을 유지합니다.",
+      "card1Title": "DIN 8077/8078 기준",
+      "card1Desc": "독일 표준화 기구의 엄격한 규격을 준수합니다.",
+      "card2Title": "무결성 보증",
+      "card2Desc": "설치 완료 후 최대 10년의 시스템 보증을 제공합니다.",
+      "card3Title": "결로 제어",
+      "card3Desc": "금속 대비 200배 낮은 열전도율로 결로를 근본적으로 방지합니다.",
+      "card4Title": "유속 향상",
+      "card4Desc": "매끄러운 내부 벽을 통해 유체 저항을 최소화합니다.",
+      "ctaBtn1": "냉각 프로젝트 문의",
+      "ctaBtn2": "성능 데이터 확인"
+    },
+    "schiffbau": {
+      "metaTitle": "선박 및 해양 엔지니어링 파이프",
+      "metaDesc": "K-Aqua 조선용 파이프 시스템: DNV 승인, 부식 없는 완벽한 해양 솔루션.",
+      "heroTitle": "해양 인프라 파이프.",
+      "heroSubtitle": "가볍고 부식에 강한 구조.",
+      "heroDesc": "국제 선급 인증(DNV, LR, ABS)을 획득한 K-Aqua 파이프 시스템. 극한의 해양 환경에서도 부식과 진동을 견디는 선박용 솔루션.",
+      "heroBtnPrimary": "선급 인증서 보기",
+      "heroBtnSecondary": "해양 전문가 상담",
+      "section1Eyebrow": "해양 어플리케이션",
+      "section1Title": "극한 환경을 위한 설계",
+      "section1Lead": "염수, 진동 및 공간적 제약을 이겨내는 가볍고 내구성 강한 폴리머 파이프.",
+      "timeline1Title": "선급 승인 설계",
+      "timeline1Desc": "IMO 및 해양 선급 규정에 완벽히 부합하는 배관 설계.",
+      "timeline2Title": "협소 공간 설치",
+      "timeline2Desc": "가벼운 무게와 빠르고 유연한 용접으로 제한된 공간에서 설치 용이.",
+      "timeline3Title": "진동 흡수",
+      "timeline3Desc": "금속 파이프의 피로 파괴 원인인 엔진 진동을 효과적으로 흡수.",
+      "timeline4Title": "염수 저항 및 무정비",
+      "timeline4Desc": "녹 방지는 물론, 염분 및 부식성 화학물질에 완벽한 내성 제공.",
+      "section5Title": "증명된 조선 기술력",
+      "section5Desc": "세계적인 크루즈 및 상선의 필수 인프라로 채택된 시스템의 신뢰성을 확인하십시오.",
+      "ctaTitle": "조선 프로젝트를 위한 파트너",
+      "ctaDesc": "해양 엔지니어링 전문가가 기술적 요구사항 및 국제 규정 준수에 대해 상담해 드립니다.",
+      "ctaBtn": "프로젝트 문의하기"
+    },
+    "industrie": {
+      "metaTitle": "산업용 배관 솔루션",
+      "metaDesc": "K-Aqua 산업용 솔루션: 고압 및 내화학성이 요구되는 메가 프로젝트를 위한 독일 엔지니어링 파이프.",
+      "heroEyebrow": "최고 수준의 산업용 파이프",
+      "heroTitle": "산업용 배관.",
+      "heroSubtitle": "Engineered in Germany.",
+      "heroDesc": "가동 중단이 허용되지 않는 산업 환경에서 K-Aqua의 PP-R 및 PPRCT 파이프는 극강의 내화학성과 고압 저항성을 제공합니다.",
+      "heroBtnPrimary": "프로젝트 문의",
+      "heroBtnSecondary": "기술 사양 확인",
+      "section1Eyebrow": "무결성 아키텍처",
+      "section1Title": "타협 없는 안전의 핵심",
+      "section1Lead": "단 1mm의 오차도 허용되지 않는 산업 현장에서 우리의 파이프 시스템은 장기간의 신뢰성을 보장합니다.",
+      "bento1Title": "열가소성 폴리머 탄성",
+      "bento1Desc": "지속적인 온도 변화 및 부식성 매체에서도 분자 구조가 손상되지 않습니다.",
+      "bento2Title": "100% 압력 저항",
+      "bento2Desc": "열 융착을 통해 조인트를 완벽하게 결합하여 압력 손실이나 누수 지점을 차단합니다.",
+      "bento3Title": "탁월한 화학적 불활성",
+      "bento3Desc": "수백 가지의 강산, 알칼리 및 용매에 대한 내성을 가지며 화학 플랜트에 적합합니다.",
+      "bento4Title": "소음 및 진동 감소",
+      "bento4Desc": "두꺼운 벽과 소재 고유의 특성으로 유체 흐름에 의한 워터 해머와 진동 소음을 최소화합니다.",
+      "timeline1Year": "단계 01",
+      "timeline1Title": "수리학 및 내화학성 설계",
+      "timeline2Year": "단계 02",
+      "timeline2Title": "사전 제작 및 자재 준비",
+      "timeline3Year": "단계 03",
+      "timeline3Title": "신속한 현장 라우팅",
+      "timeline4Year": "단계 04",
+      "timeline4Title": "압력 검사 및 시운전",
+      "timeline5Year": "단계 05",
+      "timeline5Title": "무정비 가동 유지"
+    }
+  }
+}

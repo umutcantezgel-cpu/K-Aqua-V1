@@ -29,7 +29,12 @@
     "fittings": "Fittings",
     "valves": "Valves",
     "accessories": "Accessories",
-    "tools": "Tools"
+    "tools": "Tools",
+    "edgeArticles": "{count} Articles",
+    "edgeLiveFilter": "Live Filter",
+    "edgeComparisons": "3 Comparisons",
+    "edgeMarkets": "{count} Markets",
+    "edgePageIndex": "Page Index"
   },
   "groups": {
     "tools": "Tools",
@@ -7740,11 +7745,6 @@
   "backHome": "Back to Home"
 },
   "seoArticle": {
-    "pipes": {
-      "seoTitle": "PP-R & PPRCT Pipes – Highest Quality from Germany",
-      "seoText": "Discover our PP-R Monolayer and PPRCT Fibre Composite pipes. Perfect for drinking water, heating, and cooling systems. Durable, reliable, and made in Germany.",
-      "guideText": "\n    <h2>Uncompromising Quality</h2>\n    <p>For decades, K-Aqua has been the benchmark for superior piping systems in building services worldwide. The foundation of any reliable water or HVAC installation lies in the fundamental quality of the pipes themselves. Our comprehensive range of PP-R (Polypropylene Random Copolymer) and PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) pipes is strictly manufactured in Germany, guaranteeing exceptional durability, hygiene, and performance in the most demanding environments.</p>\n    <p>Our classic PP-R Monolayer pipes are the industry standard for safe and hygienic potable water distribution. With their exceptionally smooth inner surface, they prevent limescale buildup and ensure flawless water quality from the source to the tap. For more extreme conditions, our PPRCT Fibre Composite pipes feature a multi-layer construction with a fibreglass-reinforced core. This innovative structure drastically reduces linear expansion under high temperatures while increasing pressure capacity, making them ideal for heavy-duty heating networks, chilled water systems, and industrial applications.</p>\n    <p>The core advantage of our systems is the homogeneous fusion welding process. Unlike metal pipes that rely on threads, solder, or mechanical press fittings—all potential weak points for leaks—our PP-R and PPRCT pipes are fused together at a molecular level. This creates a monolithic, seamless network that will outlast the building itself.</p>\n    <ul>\n      <li>100% corrosion-resistant: No rusting, pitting, or degradation over time.</li>\n      <li>Absolute hygiene: Certified for drinking water, maintaining pure water taste and quality.</li>\n      <li>Low thermal conductivity: Minimises heat loss in hot water lines and condensation in chilled systems.</li>\n      <li>Exceptional acoustic insulation: Dramatically reduces the noise of flowing water compared to metal pipes.</li>\n      <li>Fibreglass technology: PPRCT pipes offer increased structural stability and reduced thermal expansion.</li>\n    </ul>\n    <p>Choosing the right pipe is critical for the long-term success of your project. For standard hot and cold water plumbing, our SDR 7.4 or SDR 6 Monolayer pipes provide unmatched reliability. When designing main risers, district heating connections, or complex chiller lines, our SDR 9 or SDR 11 Fibre Composite pipes offer the necessary structural integrity and flow efficiency. We provide pipe diameters ranging from 20 mm for residential use up to massive 250 mm industrial dimensions.</p>\n    <p>By selecting K-Aqua pipes, you are investing in a system that eliminates maintenance headaches, prevents costly water damage, and ensures the continuous, safe delivery of essential fluids. Experience the peace of mind that comes with true German engineering.</p>\n  "
-    },
     "fittings": {
       "seoTitle": "Fittings for PP-R & PPRCT Pipes",
       "seoText": "High-quality PP-R fittings from K-Aqua. Bends, T-pieces, sockets, and transition pieces with brass inserts for secure and leak-proof connections.",
@@ -7759,6 +7759,25 @@
       "seoTitle": "Accessories for PP-R Pipe Installations",
       "seoText": "Professional accessories from K-Aqua for your pipe installation. Discover pipe clamps, seals, repair plugs, and counter flanges for maximum safety.",
       "guideText": "\n    <h2>The Finishing Touch</h2>\n    <p>Accessories for a compliant installation transform a functional plumbing system into a professional masterpiece. While the pipes and fittings form the core of the network, the supporting accessories are crucial for managing thermal expansion, mitigating vibration, and ensuring secure integration into the building's infrastructure. K-Aqua offers a comprehensive ecosystem of accessories designed to harmonise perfectly with our PP-R and PPRCT products.</p>\n    <p>One of the most critical aspects of any hot water or heating installation is managing the linear expansion of the pipes. Our specialised pipe clamps are engineered to act as either fixed anchor points or sliding guides, allowing the pipe to smoothly expand and contract without damaging the joints or stressing the building structure. These clamps feature thick rubber linings that provide excellent acoustic insulation, preventing the transmission of flow noise through the walls.</p>\n    <p>Furthermore, our range includes high-quality EPDM flat gaskets, specialised weld-neck flanges with steel cores for industrial connections, and robust repair plugs that provide quick and permanent fixes should a pipe be accidentally punctured during construction.</p>\n    <ul>\n      <li>Acoustically lined pipe clamps eliminate the transmission of flow noise.</li>\n      <li>Proper anchoring systems manage thermal expansion and contraction safely.</li>\n      <li>Steel-reinforced weld-neck flanges ensure a secure connection to heavy machinery.</li>\n      <li>Premium EPDM gaskets provide resilient, long-lasting seals at flanged joints.</li>\n      <li>Specialised repair plugs offer a permanent solution for accidental drill holes.</li>\n    </ul>\n    <p>Using generic or incompatible accessories can severely compromise the performance of a premium piping system. For example, using unlined clamps on a hot water line can cause irritating clicking noises as the pipe expands, while improper anchoring can cause the pipe to bow or even snap under thermal stress. K-Aqua accessories undergo rigorous testing to ensure they meet our exacting standards.</p>\n    <p>By utilising our full range of accessories, installers can guarantee that their work not only meets but exceeds local building codes and industry standards. It is the attention to these small details that defines a truly professional installation and ensures decades of flawless operation.</p>\n  "
+    },
+    "transitionFittings": {
+      "seoTitle": "Transition Fittings made of Brass & PP-R",
+      "seoText": "Transition fittings serve as the crucial bridge between K-Aqua's advanced PP-R/PPRCT pipes and existing steel, copper, or brass components. These fittings require an extraordinary level of engineering.",
+      "advTitle": "Secure and homogeneous connections",
+      "advList": [
+        "DZR brass inserts offer superior resistance to dezincification.",
+        "Anti-twist design withstands high torques.",
+        "An inseparable connection between plastic and metal ensures leak-free performance."
+      ],
+      "guideText": "\n    <h2>Bridging the Gap</h2>\n    <p>When connecting modern polymer systems to traditional metallic infrastructure, secure and homogeneous connections are of absolute importance. Transition fittings serve as the crucial bridge between K-Aqua's advanced PP-R/PPRCT pipes and existing steel, copper, or brass components such as boilers, chillers, and sanitary fixtures. These fittings require an extraordinary level of engineering to ensure that the connection between metal and plastic remains completely leak-proof even under extreme thermal cycling and mechanical stress.</p>\n    <p>K-Aqua transition fittings feature deeply embedded, anti-twist DZR (Dezincification Resistant) brass inserts. During the injection moulding process, the hot PP-R is moulded directly around the complex geometric profile of the brass insert. As the plastic cools and shrinks, it grips the brass with immense force, forming an inseparable mechanical bond. This design prevents the brass insert from twisting or pulling out, even when subjected to the high torque of a plumber's wrench during installation.</p>\n    <p>Furthermore, the premium DZR brass ensures that the metallic portion of the fitting is highly resistant to aggressive water conditions, preventing the premature corrosion that often plagues standard brass fittings. This is especially critical in hot water systems, where the rate of reaction is significantly accelerated.</p>\n    <ul>\n      <li>DZR brass inserts offer superior resistance to dezincification and corrosion.</li>\n      <li>Anti-twist design easily withstands high torques during threaded installations.</li>\n      <li>An inseparable connection between plastic and metal ensures lifelong, leak-free performance.</li>\n      <li>Available in a wide range of male and female thread configurations.</li>\n      <li>Perfect for connecting PP-R networks to metallic pumps, valves, and boilers.</li>\n    </ul>\n    <p>Whether you need to adapt a massive 125 mm industrial cooling line to a steel flange or simply connect a 20 mm residential water pipe to a chrome angle valve, K-Aqua provides the exact transition piece required.</p>\n  "
+    },
+    "valves": {
+      "guideText": "\n    <h2>Absolute Flow Control</h2>\n    <p>Precise control and long-lasting functionality are essential for the management of modern sanitary networks. Effective fluid management requires robust, reliable control points that integrate seamlessly into the main distribution network. K-Aqua offers a comprehensive range of high-performance isolation valves, including full-bore ball valves, concealed valves, and precision valves, all designed specifically for direct polyfusion into PP-R piping.</p>\n    <p>By manufacturing the valve body from the exact same PP-R polymer as the surrounding pipes, we eliminate the need for threaded transition pieces when installing isolation points. This drastically speeds up installation time, reduces material costs, and removes potential weak points in the system. The internal mechanical components, such as precision-machined brass balls, stainless steel spindles, and premium Teflon (PTFE) seat rings, are engineered to provide incredibly smooth, maintenance-free operation for decades.</p>\n    <p>Unlike traditional metallic gate valves, which often jam after years of inactivity or leak at the packing gland, K-Aqua's plastic-encapsulated valves are immune to external corrosion, making them perfect for damp plant rooms, buried installations, or humid industrial environments.</p>\n    <ul>\n      <li>Full-bore design prevents any restriction of fluid flow.</li>\n      <li>Corrosion-resistant plastic bodies protect internal metal components.</li>\n      <li>Direct polyfusion eliminates the need for vulnerable threaded joints.</li>\n      <li>Ergonomic handles and precision mechanics ensure smooth operation.</li>\n      <li>Available in a variety of sizes to meet both residential and industrial needs.</li>\n    </ul>\n    <p>Our full-bore design ensures that when the valve is open, hydraulic flow is unrestricted, maintaining optimal system pressure and maximising the efficiency of circulation pumps. Whether you need to isolate a single sanitary fixture or control the main supply line of a commercial building, K-Aqua valves deliver the required reliability and performance.</p>\n    <p>Every valve undergoes rigorous pressure testing before packaging to ensure it meets our uncompromising quality standards. Trust K-Aqua for the control mechanisms that keep your fluid networks operating safely and efficiently, day after day and year after year.</p>\n  "
+    },
+    "weldInSaddles": {
+      "seoTitle": "Weld-in Saddles & Branches for PP-R Pipes",
+      "seoText": "K-Aqua weld-in saddles enable simple and secure retroactive branches without interrupting the line. Minimal installation time and maximum system integrity.",
+      "guideText": "\n    <h2>Simple Branching</h2>\n    <p>When it comes to expanding or modifying an existing pipeline, weld-in saddles offer an unparalleled solution for maximum flexibility. K-Aqua's weld-in saddles are an innovative and highly efficient method for creating new branches in existing PP-R and PPRCT networks. Instead of cutting out a large section of the main pipe and installing a bulky, expensive tee, a saddle allows you to simply drill a hole in the side of the pipe and weld the branch directly onto the outer wall.</p>\n    <p>This process saves a tremendous amount of time, labour, and material, especially when working with large-diameter industrial pipes. The saddle features a concave base that perfectly matches the curvature of the main pipe, ensuring a large surface area for the polyfusion process. Once welded, the saddle becomes a permanent, integral part of the main pipe, possessing the exact same strength and pressure rating as a factory-moulded tee.</p>\n    <p>For contractors retrofitting older buildings or adding new equipment to an active plant room, weld-in saddles are an absolute game-changer. They require significantly less space around the pipe and allow for modifications even in tight, confined spaces where manoeuvring a large cutting tool would be impossible.</p>\n    <ul>\n      <li>Drastically reduces material costs compared to large-diameter tees.</li>\n      <li>Minimises downtime during retrofits and system expansions.</li>\n      <li>Requires less physical space for installation in crowded plant rooms.</li>\n      <li>Maintains the structural integrity and pressure rating of the main line.</li>\n      <li>Available with brass threaded inserts for direct connection to sensors or valves.</li>\n    </ul>\n    <p>We provide specialised drilling tools and contoured heating dies specifically designed for use with our saddles. This ensures that every hole is perfectly round and every weld seam is evenly heated, guaranteeing a flawless, leak-free connection every time. Our weld-in saddles embody K-Aqua's commitment to practical, intelligent engineering.</p>\n    <p>Whether you are adding a new sensor port, a drainage line, or an entirely new manifold branch, K-Aqua weld-in saddles offer the structural strength and operational simplicity required to get the job done right the first time.</p>\n  "
     }
   },
   "kontaktForm": {
@@ -8119,6 +8138,150 @@
       "text": "Phone number, email, one click on your topic. That's all it takes, we'll clarify the rest in conversation.",
       "interest": "Consulting",
       "done": "A technical consultant will get back to you within one working day."
+    },
+    "home": {
+      "kicker": "Support",
+      "head": "Find the right contact person for your project phase.",
+      "short": "General inquiry",
+      "text": "Whether you are in the middle of planning, on the construction site, or need spare parts – leave us your contact details and the topic. We will connect you directly with the right engineer or planner.",
+      "interest": "Consulting",
+      "done": "Thank you. The appropriate contact person will reach out to you shortly."
+    },
+    "unternehmen": {
+      "kicker": "Factory Visit",
+      "head": "Experience German engineering firsthand.",
+      "short": "Arrange a factory visit",
+      "text": "As a family-run company, we are happy to open our doors to planners and builders. Leave your contact details to arrange a visit to our Waldsolms factory.",
+      "interest": "Consulting",
+      "done": "We will contact you to coordinate your visit to Waldsolms."
+    },
+    "produkte_fittings": {
+      "kicker": "Fittings & Components",
+      "head": "Bill of materials review for your fittings and connections.",
+      "short": "Request fittings for your PP-R system",
+      "text": "Send us the dimensions and quantities of your required fittings. We will estimate availability and, if desired, recommend optimisations for hydraulic balancing.",
+      "interest": "Spare Parts",
+      "done": "Our technical sales team will contact you to discuss the bill of materials."
+    },
+    "produkte_rohre": {
+      "kicker": "PP-R Pipes",
+      "head": "Sizing and delivery times for your piping project.",
+      "short": "Questions about PP-R pipes for your project",
+      "text": "Give us a rough idea of the pressure rating, medium, and route length over the phone. Our engineers will check sizing and factory availability, and provide a reliable delivery date.",
+      "interest": "Piping Systems",
+      "done": "A pipeline engineering expert will get back to you within one working day."
+    },
+    "produkte_armaturen": {
+      "kicker": "Valves & Fittings",
+      "head": "The right valve for your hydraulic requirements.",
+      "short": "Find valves for complex networks",
+      "text": "Isolation, control, or special valves: Briefly describe the maximum operating pressure and the medium. We will forward the appropriate data sheets and availability to you.",
+      "interest": "Spare Parts",
+      "done": "A valve expert will send you the required specifications shortly."
+    },
+    "produkte_werkzeuge": {
+      "kicker": "Welding Tools",
+      "head": "Secure the right tool for absolutely leak-proof seams.",
+      "short": "Rent or buy welding tools",
+      "text": "Whether socket fusion or electrofusion technology: Let us know what dimensions you are dealing with on site. We will take care of the appropriate machines for rent or purchase.",
+      "interest": "Consulting",
+      "done": "Our equipment team will check inventory and get in touch promptly."
+    },
+    "produkte_uebergaenge": {
+      "kicker": "System Transitions",
+      "head": "Secure material transitions from metal to plastic.",
+      "short": "Transition pieces for your installation",
+      "text": "Provide us with the exact thread dimensions and the material of the existing pipes. We will recommend corrosion-free transitions that guarantee long-term tightness.",
+      "interest": "Piping Systems",
+      "done": "A technician will contact you to select the appropriate transition."
+    },
+    "produkte_zubehoer": {
+      "kicker": "Accessories & Fastening",
+      "head": "Complete your installation with original accessories.",
+      "short": "Request fastenings and accessories",
+      "text": "From pipe clamps to insulation material: Let us know what you need. We will ensure that the accessories fit seamlessly with the rest of the K-Aqua system.",
+      "interest": "Spare Parts",
+      "done": "Your accessories quote is currently being compiled."
+    },
+    "katalog": {
+      "kicker": "Complete Catalogue",
+      "head": "All part numbers and dimensions for your procurement.",
+      "short": "Assistance with finding items",
+      "text": "Can't find a specific custom size in the catalogue? Briefly describe the required component, and we will search our entire inventory for you.",
+      "interest": "Consulting",
+      "done": "We are researching the requested component and will call you back."
+    },
+    "finder": {
+      "kicker": "Product Finder",
+      "head": "Let's speed up the search for the right system.",
+      "short": "Direct help with the product finder",
+      "text": "If your parameters (temperature, pressure, medium) are borderline, we will gladly take over the system design. A phone call often saves hours of independent research.",
+      "interest": "Consulting",
+      "done": "A system planner will call you back for a precise design."
+    },
+    "academy": {
+      "kicker": "Training & Certification",
+      "head": "Book a practical seminar for your installers.",
+      "short": "Request places in the K-Aqua Academy",
+      "text": "Ensure your warranty by securing professional installation. Tell us the number of your employees and we will suggest dates for an in-house or factory training course.",
+      "interest": "Consulting",
+      "done": "The Academy team will contact you with proposed training dates."
+    },
+    "referenzen": {
+      "kicker": "Similar Projects",
+      "head": "Benefit from our experience with reference buildings.",
+      "short": "Request experience values for your project",
+      "text": "Are you planning a similar high-rise building or an industrial hall? We will gladly share anonymised lessons learned and best practices from the large-scale projects shown here.",
+      "interest": "BIM Data",
+      "done": "A project manager will contact you to exchange experiences."
+    },
+    "support": {
+      "kicker": "Technical Support",
+      "head": "Immediate help with challenges on the construction site.",
+      "short": "Fast problem solving for installers",
+      "text": "Are there problems with the weld seam or unclear pressure test results? Leave your number, our technical support will call you back immediately for remote diagnostics.",
+      "interest": "Consulting",
+      "done": "Technical support has been alerted and will call you back shortly."
+    },
+    "ausschreibungstexte": {
+      "kicker": "BoQ Texts & Planning",
+      "head": "Receive vendor-neutral tender texts in minutes.",
+      "short": "Help with creating the Bill of Quantities",
+      "text": "We will provide you with compliant files or Word templates for your BoQ. Tell us the project type, and we will send you tailored text blocks.",
+      "interest": "BIM Data",
+      "done": "The appropriate BoQ texts will be sent to you promptly."
+    },
+    "service": {
+      "kicker": "On-Site Service",
+      "head": "Support from K-Aqua technicians on your construction site.",
+      "short": "Request on-site briefing",
+      "text": "Does your team need a briefing on the machines directly at the installation site? We will coordinate one of our master fitters to accompany your project during the critical start phase.",
+      "interest": "Consulting",
+      "done": "Our service team is checking the availability of a master fitter."
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "Zero Leakage Networks",
+      "head": "Every lost percentage of drinking water costs your network money.",
+      "short": "Loss calculation for your drinking water network",
+      "text": "Briefly describe your network size and climate zone. We will calculate how much water and budget a K-Aqua field will save compared to your existing system, including operational years.",
+      "interest": "Potable Water Networks",
+      "done": "A network planner will get back to you within one working day with an initial loss calculation."
+    },
+    "maerkte_klima": {
+      "kicker": "HVAC & Cooling",
+      "head": "Ensure high flow rates without the risk of corrosion.",
+      "short": "Plan cooling circuits more efficiently",
+      "text": "Tell us the cooling capacity and flow temperature. We will design the cross-section to minimise cavitation and pressure losses in your HVAC system.",
+      "interest": "Piping Systems",
+      "done": "An HVAC expert will contact you regarding the cross-section design."
+    },
+    "maerkte_industrie": {
+      "kicker": "Industrial Plants",
+      "head": "Chemical resistance for demanding media.",
+      "short": "Request a resistance check",
+      "text": "Are you processing aggressive acids, alkalis, or ultrapure water? Send us the chemical composition, and our laboratory will confirm the resistance of our PP-R pipes in writing.",
+      "interest": "Consulting",
+      "done": "Our laboratory is testing the resistance and will contact you."
     }
   }
 }

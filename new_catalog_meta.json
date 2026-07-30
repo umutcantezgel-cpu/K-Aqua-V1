@@ -1,0 +1,53 @@
+{
+  "eyebrow": "Kumpletong Katalogo ng Produkto",
+  "faqTitle": "Mga Madalas Itanong (FAQ)",
+  "title": "Lahat ng 79 pamilya ng item, na may mga tunay na article number.",
+  "lead": "Mga tubo, fitting, transition fitting, balbula, weld-in saddle, aksesorya at kagamitan, ang bawat hilera ay nagmumula sa opisyal na katalogo ng K Aqua. Pumili ng kategorya, palawakin ang item, suriin ang article number.",
+  "searchPlaceholder": "Maghanap ng article number o pangalan ng produkto, hal. \"AQ200P20\" o \"Elbow\"",
+  "noResults": "Walang nakitang resulta. Isaayos ang paghahanap o pumili ng ibang kategorya.",
+  "codesLabel": "Mga Article Number",
+  "sizesLabel": "Mga Sukat",
+  "materialLabel": "Materyal",
+  "sdrLabel": "SDR",
+  "seriesLabel": "Serye",
+  "pressureLabel": "Operating Pressure",
+  "lenLabel": "Haba ng Tubo",
+  "cats": {
+    "pipes": {
+      "label": "Mga Tubo",
+      "desc": "Mga tubo ng PPR at PPRCT: Standard, fiber-reinforced at UV-stabilized, 12 serye."
+    },
+    "fittings": {
+      "label": "Mga Fitting",
+      "desc": "Socket welding at electrofusion fittings, d20–d125, 13 pamilya ng item."
+    },
+    "transitionFittings": {
+      "label": "Mga Transition Fitting",
+      "desc": "Mga transition para sa threads at tanso, para sa mga umiiral na koneksyon at balbula, 13 pamilya."
+    },
+    "valves": {
+      "label": "Mga Balbula",
+      "desc": "Mga ball valve, concealed valve, manifold batteries, 9 pamilya ng item."
+    },
+    "weldInSaddles": {
+      "label": "Mga Weld-in Saddle",
+      "desc": "Mga branch na hindi pinuputol ang tubo, mayroon at walang thread, 3 pamilya."
+    },
+    "accessories": {
+      "label": "Mga Aksesorya",
+      "desc": "Mga pipe clamp, counter flange, seal, plug: 5 pamilya ng item."
+    },
+    "tools": {
+      "label": "Mga Kagamitan",
+      "desc": "Mga pamutol ng tubo, welding machine at tools para sa lahat ng apat na paraan ng pagsasama, 14 na pamilya."
+    }
+  },
+  "rfq": {
+    "title": "Katanungan sa Proyekto",
+    "desc": "Direktang humiling ng panipi para sa <span class=\"font-semibold\">{title}</span>.",
+    "button": "Pumunta sa Katanungan"
+  },
+  "similar": {
+    "title": "Higit pa mula sa {category}"
+  }
+}

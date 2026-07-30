@@ -1,0 +1,313 @@
+  },
+  "resources": {
+    "support": {
+      "title": "Teknikal na Suporta",
+      "metaDesc": "Makinabang sa teknikal na suporta mula sa K-Aqua. Sinasamahan namin ang iyong mga megaproject gamit ang German Engineering.",
+      "seoText": {
+        "p1": "Ang teknikal na suporta ng K Aqua ang gulugod ng aming pandaigdigang mga proyekto sa imprastraktura. Alam namin na sa pag-install, mahalaga ang bawat segundo.",
+        "p2": "Mula sa paunang pagpaplano at isometrikong kalkulasyon hanggang sa on-site na pagsubaybay sa welding: ginagarantiya namin ang walang-sablay na pagpapatupad.",
+        "p3": "Sa pamamagitan ng paggamit ng mga advanced na tool sa pag-diagnose, pinapaliit namin ang downtime sa pinakamababa."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Predictive na Pagsubaybay",
+            "desc": "Patuloy na sinusuri ng aming mga algorithm ang mga anomalya sa imprastraktura. Bago pa man umabot sa kritikal, kumikilos na kami."
+          },
+          {
+            "title": "Mga Oras ng Pagtugon (Response times)",
+            "desc": "Walang waiting loops. Ang agarang pag-escalate sa mga senior engineer ay ginagarantiyahan sa loob ng mga millisecond."
+          },
+          {
+            "title": "Mga Audit sa Arkitektura",
+            "desc": "Sinusubok ang iyong mga system ayon sa pinakamahigpit na pamantayan ng German engineering."
+          },
+          {
+            "title": "Direktang Pag-access sa Developer",
+            "desc": "Kalimutan ang kumbensyonal na suporta. Direktang makipag-ugnayan sa aming core developers para sa teknikal na kadalubhasaan."
+          }
+        ],
+        "eyebrow": "Mga Protocol ng Pag-escalate",
+        "title": "Soberanya sa Oras ng Krisis",
+        "lead": "Kung paano namin pinapanatili ang integridad ng sistema sa ilalim ng matitinding kondisyon."
+      },
+      "timeline": {
+        "items": [
+          {"year": "T-0:00", "title": "Pag-detect ng Anomalya", "text": "Nadedetect ng mga awtomatikong system ang mga mikro-anomalya."},
+          {"year": "T+0:02", "title": "Diagnostic Triage", "text": "Isinasagawa ang pagsusuri ng log na pinapagana ng AI."},
+          {"year": "T+0:15", "title": "Pamamagitan (Intervention)", "text": "Pagpapatupad ng mga hotfix o awtomatikong rerouting."},
+          {"year": "T+1:00", "title": "Pagsusuri sa Sanhi (Root Cause)", "text": "Masusing pagsusuri at pag-iwas para sa hinaharap."},
+          {"year": "T+4:00", "title": "Post-Mortem Protocol", "text": "Detalyadong ulat na may cryptographic signature."}
+        ],
+        "title": "Ang Emergency: Salaysay ng Pamamagitan",
+        "desc": "Bawat segundo ay mahalaga. Ang aming pamantayang pamamaraan kung may kritikal na aberya."
+      },
+      "hero": {
+        "eyebrow": "Teknikal na Suporta",
+        "title1": "Suportang",
+        "title2": "nakikiisa.",
+        "desc": "Sinasamahan ng aming suporta ang mga tagaplano sa bawat yugto ng proyekto. Direktang linya sa mga inhinyero.",
+        "btnPrimary": "Humingi ng Proyekto",
+        "btnGhost": "Tingnan ang Serbisyo"
+      },
+      "intro": {
+        "title1": "Ang suporta ay hindi call center.",
+        "title2": "Ito ay koponan ng mga inhinyero.",
+        "p1": "Tinitingnan namin ang teknikal na suporta bilang isang mahalagang bahagi ng bawat proyekto.",
+        "p2": "Alam ng aming mga inhinyero ang bawat batch at regulasyon mula sa unang kamay.",
+        "p3": "Iyan ang pamantayan ng German engineering na inilalapat sa mga totoong construction site."
+      },
+      "bento": {
+        "eyebrow": "Buod ng Mga Serbisyo",
+        "title": "Suporta sa Buong Proyekto",
+        "lead": "Mula unang pagpaplano hanggang sa pagpapanatili.",
+        "items": [
+          {"title": "Hydraulic Design at Isometrics", "desc": "Sinisiyasat namin ang iyong pagpaplano at pagkalkula."},
+          {"title": "Suporta sa Welding", "desc": "Gumagabay ang aming mga technician on-site."},
+          {"title": "Pressure Testing at Pag-apruba", "desc": "Tinutulungan ka namin sa dokumentasyon at pagsusuri."},
+          {"title": "Serbisyo ng Spare Parts", "desc": "Mabilisang paghahatid ng mga fitting at valve."},
+          {"title": "Remote Diagnosis", "desc": "Mabilis na tawag pabalik sa kaso ng anumang kalituhan."}
+        ]
+      },
+      "metrics": {
+        "badge": "Pagiging maaasahan sa mga Numero",
+        "title1": "Subok na",
+        "title2": "pagiging maaasahan.",
+        "p1": "Nagtatrabaho kami ayon sa prinsipyo ng German engineering: Kung ano ang ibibigay namin ay dapat tumagal.",
+        "p2": "Bawat sistema ng K-Aqua ay sertipikado ng DVGW, SKZ at KIWA.",
+        "items": [
+          "Sagot sa teknikal na katanungan sa loob ng isang araw",
+          "Higit 50 taong dokumentadong buhay ng system",
+          "Direktang linya para sa teknikal na benta",
+          "Mga pagsasanay sa K-Aqua Academy"
+        ]
+      },
+      "cta": {
+        "title1": "Handa na para sa iyong",
+        "title2": "susunod na",
+        "title3": "proyekto?",
+        "desc": "Samahan ang iyong proyekto ng mga inhinyero na siya mismong bumuo at gumawa ng sistema.",
+        "btnPrimary": "Simulan ang Pagtatanong",
+        "btnGhost": "Kontakin ang mga Eksperto"
+      },
+      "metaTitle": "Teknikal na Suporta at Serbisyo"
+    },
+    "downloads": {
+      "title": "Mga Download",
+      "metaDesc": "I-download ang mga brochure at technical data sheet.",
+      "cta": {
+        "title": "Kalidad na mapagkakatiwalaan mo.",
+        "desc": "I-download ang aming mga sertipiko o makipag-usap sa aming Engineering Team.",
+        "btn": "Suriin ang proyekto"
+      },
+      "meta": {
+        "title": "Mga Download | K Aqua",
+        "desc": "Mga K Aqua Download: Walang kompromisong seguridad."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Resources",
+        "title1": "Mga Download.",
+        "title2": "Engineered in Germany.",
+        "desc": "Ligtas na impormasyon para sa mga hinihingi ng bawat proyekto.",
+        "cta1": "Humingi ng Proyekto",
+        "cta2": "Pumunta sa Dokumento"
+      },
+      "timeline": {
+        "title": "Ebolusyon ng Presisyon.",
+        "desc": "Paano namin binago ang pamantayan sa loob ng 30 taon.",
+        "items": [
+          {"year": "1995", "title": "Ang unang teknikal na dokumentasyon", "text": "Nagtakda kami ng mga pamantayan para sa PP-R."},
+          {"year": "2008", "title": "Pag-apruba ng ISO", "text": "Pandaigdigang pagpapalawak ng mga pamantayan."},
+          {"year": "2015", "title": "BIM at Digital Twins", "text": "Ang bilyong pisong proyekto ay pinaplano nang virtual."},
+          {"year": "2026", "title": "Real-time na Data", "text": "German Engineering sa digital na panahon."}
+        ]
+      },
+      "sticky": {
+        "eyebrow": "Malalim na Pananaw",
+        "title": "Ang DNA ng German Engineering.",
+        "lead": "Ang isang K Aqua data sheet ay higit pa sa numero. Ito ay isang pangako.",
+        "items": [
+          {"title": "Anatomiya ng aming Specifications", "desc": "Dokumentado ang bawat mikrometro."},
+          {"title": "Material Science: PPRCT", "desc": "Mga malalalim na molekular na pagsusuri."},
+          {"title": "Hydraulic Precision", "desc": "Ang mechanics ay dinisenyo sa akademikong antas."},
+          {"title": "Subok na sa buong mundo.", "desc": "SKZ, DVGW, WRAS, KIWA."}
+        ]
+      },
+      "bento": {
+        "eyebrow": "Batayan ng Datos",
+        "title": "Walang Kompromisong Pamantayan.",
+        "lead": "Narito ang mga teknikal na parameter na nagpapatunay ng aming kalidad.",
+        "items": [
+          {"title": "Teknikal na Data Sheets", "desc": "Mga mikrometro na sukat at pressure loss tables."},
+          {"title": "Sertipiko at Norms", "desc": "ISO, DVGW, SKZ."},
+          {"title": "BIM at CAD Models", "desc": "Seamless na integrasyon para sa Revit."},
+          {"title": "Katalogo 2026", "desc": "Kumpletong portfolio."}
+        ]
+      },
+      "methodology": {
+        "subtitle": "Ang Metodolohiya ng K Aqua",
+        "title": "Bakit hindi matatawaran ang aming datos.",
+        "p1": "Sinusubukan namin ang mga tubo nang 50 taon nang paulit-ulit.",
+        "p2": "Ito ang dahilan kung bakit kami ang pinakamahusay.",
+        "card1": {"title": "99.9%", "desc": "Dimensyonal na katumpakan."},
+        "card2": {"title": "0 Error", "desc": "Tolerasyon sa pagsubok."}
+      },
+      "files": {
+        "eyebrow": "Direktang Pag-access",
+        "title": "Mahalagang Mga Download.",
+        "lead": "I-download ang mga pangunahing specifications dito.",
+        "items": [
+          {"title": "Main Catalog 2026", "type": "PDF, 42 MB"},
+          {"title": "Technical Specs PPRCT", "type": "PDF, 12 MB"},
+          {"title": "Pressure Loss Tables", "type": "XLSX, 2 MB"},
+          {"title": "BIM/Revit Library", "type": "ZIP, 850 MB"},
+          {"title": "SKZ Certificate (GER)", "type": "PDF, 1 MB"},
+          {"title": "DVGW Drinking Water", "type": "PDF, 1.5 MB"}
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM Data",
+      "metaDesc": "K Aqua BIM Data para sa global megaprojects.",
+      "sticky": {
+        "items": [
+          {"title": "Maximum na Lalim (LOI 500)", "desc": "Ang aming mga BIM model ay may eksaktong impormasyon."},
+          {"title": "Pagpaplano na walang banggaan", "desc": "Native na Revit file at IFC format."},
+          {"title": "Parametric Intelligence", "desc": "Ang aming pamilya ay awtomatikong umaangkop."},
+          {"title": "Lifecycle at Facility Management", "desc": "Para sa maayos na pagpapatakbo sa loob ng 50 taon."}
+        ],
+        "eyebrow": "Workflow Excellence",
+        "title": "Perpektong Digital Twins.",
+        "lead": "Tinatanggal ang pagkakaiba ng pagpaplano at realidad."
+      },
+      "timeline": {
+        "items": [
+          {"year": "Yugto 1", "title": "Konsepto at TGA", "text": "Pag-integrate sa paunang disenyo."},
+          {"year": "Yugto 2", "title": "Detalyadong Pagpaplano", "text": "Mga pag-evaluate ng hydraulic network."},
+          {"year": "Yugto 3", "title": "Tender at Pagpaparaya", "text": "Walang error na Bill of Materials."},
+          {"year": "Yugto 4", "title": "Prefabrication at Pagpupulong", "text": "Export ng isometric drawings."},
+          {"year": "Yugto 5", "title": "As-Built at Operasyon", "text": "Pagpasa ng as-built model."}
+        ],
+        "title": "Siklo ng Buhay ng K Aqua BIM",
+        "desc": "Mula unang guhit hanggang sa panghabang-buhay na operasyon."
+      },
+      "hero": {
+        "desc": "Walang katapat na kaligtasan. I-download ang aming mga BIM asset.",
+        "btnPrimary": "BIM Library (Revit/IFC)",
+        "btnGhost": "Humingi ng BIM Consulting"
+      },
+      "intro": {
+        "title1": "Ang DNA ng aming tubo.",
+        "title2": "Ngayon nasa Cloud na.",
+        "p1": "Naiintindihan namin na ang BIM ay hindi lang 3D drawing.",
+        "p2": "Bawat detalye ng aming datos ay nasuri ng German engineers."
+      },
+      "bento": {
+        "items": [
+          {"title": "Native Revit Families", "desc": "Direktang .rfa at .rvt para sa pinakamahusay na performance."},
+          {"title": "VDI 3805 Compliant", "desc": "Standard na produkto para makipagpalitan ng datos."},
+          {"title": "IFC4 Certified", "desc": "Mababasa rin sa ArchiCAD at Allplan."},
+          {"title": "Eksaktong Thermal na Datos", "desc": "Mababasa ang pagpapalawak ng init."}
+        ]
+      },
+      "cta": {
+        "title": "I-download ang K Aqua BIM Package.",
+        "desc": "Libre para sa mga tagaplano at inhinyero.",
+        "btnPrimary": "Download Center",
+        "btnOutline": "Kontakin ang BIM Manager"
+      }
+    },
+    "common": {
+      "eyebrow": "K Aqua RESOURCE",
+      "subtitle": "Engineered in Germany.",
+      "lead": "Nagbibigay kami ng kaligtasang walang kompromiso.",
+      "btnProject": "Humiling ng Proyekto",
+      "btnData": "Teknikal na Datos",
+      "valEyebrow": "German Engineering",
+      "valTitle": "Seguridad na Walang Kompromiso.",
+      "valLead": "Para sa matibay at maaasahang katotohanan.",
+      "valCardTitle": "Bentahe 0{item}",
+      "valCardDesc": "Umaalis sa aming pabrika na may zero fault tolerance.",
+      "authTitle": "Ang pang-industriyang awtoridad para sa {module}.",
+      "authP1": "Pinagsasama namin ang craftsmanship sa advanced na teknolohiya.",
+      "authP2": "Ginagamit sa pinakamainit at pinakamahirap na klimang lugar sa buong mundo.",
+      "list1": "Nasubok ayon sa DIN EN ISO 15874",
+      "list2": "Buhay na higit 50 Taon",
+      "list3": "Walang maintenance at walang corrosion",
+      "placeholder": "Visual Asset Placeholder",
+      "ctaTitle": "Handa sa kalidad?",
+      "ctaLead": "Makipag-usap sa aming Engineering Team."
+    },
+    "ausschreibungstexte": {
+      "meta": {
+        "title": "Opisyal na Tender Texts",
+        "desc": "I-download ang mga tender texts ng K-Aqua."
+      },
+      "timeline": {
+        "items": [
+          {"year": "Phase 1: Parametrisation", "title": "Kahulugan ng Perpeksyon.", "text": "Mula sa paunang pagtukoy ng PN at SDR."},
+          {"year": "Phase 2: Pagpaparaya", "title": "Pagsusumite na Walang Kompromiso.", "text": "Pagpapakita ng tamang materyal."},
+          {"year": "Phase 3: Pagpapatupad", "title": "Blueprint para sa Site.", "text": "Bawat detalye ng tubo ay inilalagay nang eksakto."},
+          {"year": "Phase 4: Siklo ng Buhay", "title": "50+ taong Walang Maintenance.", "text": "Ang resulta ng walang pagkakamaling system."}
+        ],
+        "title": "Mula sa tender patungo sa kawalang-hanggan.",
+        "desc": "Hindi lang dokumento, ito ay gabay sa buong buhay ng gusali."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Resource Center",
+        "title1": "Mga Tender Text.",
+        "title2": "Engineered in Germany.",
+        "desc": "Ang aming tender texts ay ang legal na pundasyon ng PP-R systems.",
+        "cta1": "I-download ang GAEB Texts",
+        "cta2": "Tulong sa Pagpaplano"
+      },
+      "manifesto": {
+        "title1": "Wakas ng Kalituhan.",
+        "title2": "Simula ng Kontrol.",
+        "p1": "Naiiwasan namin ang kalabuan sa lahat ng aspeto ng pagpaplano.",
+        "p2": "Hindi kami basta nagsusulat, ine-engineer namin ang bawat salita."
+      },
+      "bento": {
+        "eyebrow": "Arkitektura ng Datos",
+        "title": "Mga Spekulasyon na Nagpoprotekta.",
+        "lead": "Dinisenyo para sa mga arkitekto at inhinyero na hindi tumatanggap ng pagkakamali.",
+        "items": [
+          {"title": "Sumusunod sa VOB/C at DIN 18381", "desc": "Nakatutugon sa pinakabagong pamantayan."},
+          {"title": "Native GAEB Formats", "desc": "XML, d81, d83."},
+          {"title": "Mga Manufacturer-Neutral na Variant", "desc": "Ligal at produktong-neutral na paglalarawan."},
+          {"title": "Detalyadong Aksesorya", "desc": "Mga detalyeng walang naiiwan."},
+          {"title": "BIM-Ready", "desc": "Konektado nang walang putol."}
+        ]
+      },
+      "grid": {
+        "title": "Ang Anatomiya ng aming Teksto.",
+        "desc": "Walang iniiwan sa tsansa. Sakop nito ang:",
+        "items": [
+          {"title": "Pipe Systems SDR 6 / SDR 7.4", "desc": "Fiber-composite para sa katatagan."},
+          {"title": "Electrofusion Sockets", "desc": "Para sa walang-singaw na mga koneksyon."},
+          {"title": "Transition Fittings", "desc": "Dezincification-free premium brass (DZR)."},
+          {"title": "Isolation Valves", "desc": "Walang-maintenance na mga balbula."},
+          {"title": "Manifold Systems", "desc": "Modular na mga manifold."},
+          {"title": "Insulation", "desc": "Ayon sa GEG."},
+          {"title": "Fire Protection Collars", "desc": "Sumusunod sa R90/R120."},
+          {"title": "System Fixings", "desc": "Para sa thermal expansion."}
+        ]
+      },
+      "cta": {
+        "title": "Simulan sa Pagtutukoy.",
+        "desc": "Makinabang mula sa aming patuloy na nag-a-update na library.",
+        "btn1": "Pumunta sa Download Portal",
+        "btn2": "Kontakin ang Advisory Team"
+      },
+      "deep": {
+        "items": [
+          {"title": "Ligal na Seguridad", "desc": "Ganap na naaayon sa batas at pamantayan upang maiwasan ang mga pananagutan."},
+          {"title": "100% GAEB at ÖNORM", "desc": "Tugma ang data sa AVA software na nagpapabilis ng proseso."},
+          {"title": "Detalye ng Materyales (PPR-C Typ 3)", "desc": "Pinoprotektahan ang iyong proyekto sa mahinang klase ng materyales."},
+          {"title": "Thermodynamic at Acoustic", "desc": "Nakakatulong sa pagpapababa ng tunog (DIN 4109) at init."},
+          {"title": "Sustainability Metrics", "desc": "Kabilang ang mga detalyadong EPD para sa mas mabuting mundo."}
+        ]
+      }
+    }
+  }
+}

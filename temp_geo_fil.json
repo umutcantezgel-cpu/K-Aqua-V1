@@ -1,0 +1,312 @@
+{
+  "geoContent": {
+    "frankfurt": {
+      "regulator": "DVGW / Drinking Water Ordinance (TrinkwV)",
+      "water": "Matigas na tubig (14–20 °dH): ang corrosion-free na PP-R/PPRCT ay pumipigil sa pamumuo ng limescale sa magaspang na metal surfaces.",
+      "focus": [
+        "High-rise risers (banking district)",
+        "Hotel & office renovation",
+        "Data center cooling water"
+      ],
+      "note": "Sa rehiyon ng Rhine-Main, ang K Aqua ay naghahatid mula sa pabrika ng Waldsolms, kadalasan sa parehong araw.",
+      "focusHeading": "Mga karaniwang proyekto sa Frankfurt am Main"
+    },
+    "berlin": {
+      "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+      "water": "Katamtamang-tigas na tubig mula sa bank filtration: pinipigilan ng kalinisan ng PP ang pagbuo ng biofilm sa malalawak na network.",
+      "focus": [
+        "Bagong residential construction",
+        "Pagtatayo ng paaralan at administrasyon",
+        "Pag-renovate ng lumang gusali"
+      ],
+      "note": "Ang mga malalaking proyekto sa rehiyon ng kabisera ay naihahatid sa pamamagitan ng shipping partners sa loob ng 24 oras.",
+      "focusHeading": "Mga karaniwang proyekto sa Berlin"
+    },
+    "muenchen": {
+      "regulator": "DVGW / TrinkwV, SWM",
+      "water": "Malambot na tubig ng Alps na may mababang margin ng pH: Ang PP ay lumalaban kung saan ang tanso ay maaaring matunaw.",
+      "focus": [
+        "Premium residential construction",
+        "Pagtatayo ng klinika at laboratoryo",
+        "Brewery at process water"
+      ],
+      "note": "Logistik sa Southern Germany sa pamamagitan ng overnight shipping; maaaring mag-book ng welding training sa mismong lokasyon.",
+      "focusHeading": "Mga karaniwang proyekto sa Munich"
+    },
+    "hamburg": {
+      "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+      "water": "Malambot hanggang katamtamang-tigas na tubig sa lupa: pinapanatili ng mga walang-lasang PP system ang mataas na kalidad ng hilaw na tubig.",
+      "focus": [
+        "Bagong konstruksyon sa HafenCity",
+        "Industriya ng hotel",
+        "Teknolohiya ng maritime supply"
+      ],
+      "note": "Northern Germany mula sa bodega; malalaking dimensyon d250+ na ibinibigay nang direkta mula sa extrusion para sa proyekto.",
+      "focusHeading": "Mga karaniwang proyekto sa Hamburg"
+    },
+    "wien": {
+      "regulator": "ÖVGW / Drinking Water Ordinance (AT)",
+      "water": "Mataas na kalidad ng spring water: pagpapanatili ng halaga sa pamamagitan ng ganap na walang reaksyong pipe materials.",
+      "focus": [
+        "Renovation ng pampublikong pabahay",
+        "Bagong hospital",
+        "Pagpapalawak ng imprastraktura"
+      ],
+      "note": "Pagpapadala patungong Austria kasama ang partner logistics. Handa nang ibigay ang mga teknikal na datasheet alinsunod sa mga pamantayan ng ÖVGW.",
+      "focusHeading": "Mga karaniwang proyekto sa Vienna"
+    },
+    "zuerich": {
+      "regulator": "SVGW / SVGW guidelines",
+      "water": "Limestone water na may iba't ibang tigas: makinis na ibabaw (Ra < 0.007 µm) ang nag-aalis ng inkrustasyon.",
+      "focus": [
+        "Mga office complex (Zürich-West)",
+        "Laboratory at unibersidad",
+        "Paglamig gamit ang tubig mula sa lawa"
+      ],
+      "note": "Koneksyon sa pamilihan ng Switzerland. Angkop ang piping para sa mahigpit na mga kinakailangan sa kalidad ng tubig sa Switzerland.",
+      "focusHeading": "Mga karaniwang proyekto sa Zurich"
+    },
+    "london": {
+      "regulator": "WRAS / Water Supply Regulations",
+      "water": "Matigas na tubig sa London: ang PPRCT ay nag-aalok ng mabilis na pag-install para sa matataas na gusali nang walang scale build-up.",
+      "focus": [
+        "Mga luxury apartment",
+        "Mga commercial skyscraper",
+        "Mga proyekto ng imprastraktura"
+      ],
+      "note": "Available ang mga sertipikasyon ng WRAS. Maaaring ipadala ang mga malalaking pre-fabricated assemblies papuntang UK.",
+      "focusHeading": "Mga karaniwang proyekto sa London"
+    },
+    "paris": {
+      "regulator": "ACS / Ministère de la Santé",
+      "water": "Pinoprosesong tubig sa ilog (Seine/Marne): Ligtas na ipinapamahagi ng mga K Aqua system nang walang takot sa chlorine corrosion.",
+      "focus": [
+        "Mga makasaysayang renovation ng gusali",
+        "Mga ospital sa Paris (AP-HP)",
+        "Mga pampublikong pasilidad"
+      ],
+      "note": "Nakakatugon sa mga pamantayan ng ACS para sa kaligtasan ng inuming tubig sa France.",
+      "focusHeading": "Mga karaniwang proyekto sa Paris"
+    },
+    "mailand": {
+      "regulator": "Ministerial Decree 174/2004",
+      "water": "Katamtamang tigas ng tubig: mainam ang PP-R/PPRCT para sa pagkontrol ng temperatura sa mga gusali nang walang thermal loss.",
+      "focus": [
+        "District heating at cooling",
+        "Mga industrial park",
+        "Mga residential tower"
+      ],
+      "note": "Mabilis na paghahatid sa Northern Italy. Kumpleto ang mga suporta para sa mga Italian engineering standards.",
+      "focusHeading": "Mga karaniwang proyekto sa Milan"
+    },
+    "warschau": {
+      "regulator": "PZH / Polish building regulations",
+      "water": "Mataas na iron content: maiiwasan ang kalawang dahil non-metallic ang aming piping system.",
+      "focus": [
+        "Mga bagong gusali (Wola)",
+        "Imprastraktura ng transportasyon",
+        "Pang-industriya at warehouse"
+      ],
+      "note": "Ganap na sertipikado ng PZH (National Institute of Hygiene) para sa ligtas na paggamit sa Poland.",
+      "focusHeading": "Mga karaniwang proyekto sa Warsaw"
+    },
+    "prag": {
+      "regulator": "Státní zdravotní ústav (SZÚ)",
+      "water": "Ligtas na pamamahagi ng katamtamang-tigas na tubig mula sa mga planta ng paggamot (Vltava).",
+      "focus": [
+        "Modernisasyon ng distrito",
+        "Mga hotel at turismo",
+        "Food processing"
+      ],
+      "note": "Karaniwang pagpipilian para sa malalaking komersyal na pagpapaunlad sa rehiyon ng Czechia.",
+      "focusHeading": "Mga karaniwang proyekto sa Prague"
+    },
+    "dubai": {
+      "regulator": "Dubai Municipality / ESMA",
+      "water": "Desalinated na tubig (mataas na chlorine): PPRCT ay perpekto laban sa pitting corrosion na sumisira sa mga metal.",
+      "focus": [
+        "Mga mega skyscraper",
+        "Mga luxury resort",
+        "District cooling networks"
+      ],
+      "note": "Malawak na track record sa rehiyon ng Gulf. Pinakamahusay na solusyon para sa matitinding pagbabago ng temperatura.",
+      "focusHeading": "Mga karaniwang proyekto sa Dubai"
+    },
+    "abudhabi": {
+      "regulator": "ADQCC / Estidama",
+      "water": "Tubig mula sa RO (Reverse Osmosis): pinoprotektahan ng K Aqua pipe ang purity ng tubig nang walang inkrustasyon.",
+      "focus": [
+        "Mga gusali ng gobyerno",
+        "Mga complex na pangkalusugan",
+        "Sustainable urban development"
+      ],
+      "note": "Sumusunod sa Estidama pearl rating para sa green buildings at sustainability.",
+      "focusHeading": "Mga karaniwang proyekto sa Abu Dhabi"
+    },
+    "doha": {
+      "regulator": "Kahramaa / QCS",
+      "water": "Desalinated water system: pinipigilan ang pagtagas dahil sa 100% homogenously welded joints.",
+      "focus": [
+        "Mga pasilidad ng palakasan at stadium",
+        "Mga hotel at hospitality",
+        "Imprastraktura ng edukasyon"
+      ],
+      "note": "Sertipikado para magamit sa Kahramaa projects at nakakatugon sa Qatar Construction Specifications (QCS).",
+      "focusHeading": "Mga karaniwang proyekto sa Doha"
+    },
+    "riad": {
+      "regulator": "SASO / SBC (Saudi Building Code)",
+      "water": "Pinoprotektahan ng K-Fiber piping ang water supply laban sa extreme na init ng disyerto at malaking pressure.",
+      "focus": [
+        "Giga-projects",
+        "Residential masterplans",
+        "Mga sentro ng pananalapi"
+      ],
+      "note": "Ganap na suporta sa SASO at Saudi Building Code para sa mabilis na paglaki ng sektor ng konstruksyon ng KSA.",
+      "focusHeading": "Mga karaniwang proyekto sa Riyadh"
+    },
+    "dschidda": {
+      "regulator": "SASO / NWC",
+      "water": "Pag-supply ng tubig sa baybayin: lumalaban ang PP-R sa anumang asin o kahalumigmigan sa hangin sa labas ng mga gusali.",
+      "focus": [
+        "Coastal resorts",
+        "Mga pasilidad ng pantalan",
+        "Mga commercial plaza"
+      ],
+      "note": "Tamang-tama para sa halumigmig at mahirap na klima sa tabing-dagat.",
+      "focusHeading": "Mga karaniwang proyekto sa Jeddah"
+    },
+    "neom": {
+      "regulator": "NEOM Authority Standards",
+      "water": "Advanced water networks: Ang PP-R/PPRCT ay kumakatawan sa teknolohiyang nakaharap sa hinaharap para sa mga smart city.",
+      "focus": [
+        "The Line infrastructure",
+        "Desalination distribution",
+        "Sustainable smart housing"
+      ],
+      "note": "Sumasabay ang teknolohiya ng K Aqua sa mahigpit na sustainability goals ng NEOM.",
+      "focusHeading": "Mga karaniwang proyekto sa NEOM"
+    },
+    "kuwait": {
+      "regulator": "MEW (Ministry of Electricity and Water)",
+      "water": "Ligtas na pamamahagi para sa pampublikong suplay ng tubig, lumalaban sa matataas na temperatura tuwing tag-init.",
+      "focus": [
+        "Mga ministry complex",
+        "Bagong lungsod at urbanisasyon",
+        "Malaking mga ospital"
+      ],
+      "note": "Nakakatugon sa mga pamantayan ng MEW para sa malakihang pamamahagi ng tubig.",
+      "focusHeading": "Mga karaniwang proyekto sa Kuwait City"
+    },
+    "maskat": {
+      "regulator": "Diam / PAEW",
+      "water": "Walang-korosyon at mapagkakatiwalaang supply para sa patuloy na nagbabagong pressure sa network.",
+      "focus": [
+        "Pag-unlad ng turismo",
+        "Royal infrastructure",
+        "Commercial centers"
+      ],
+      "note": "Mataas na durability sa klima ng Oman at madaling pag-install gamit ang fusion welding.",
+      "focusHeading": "Mga karaniwang proyekto sa Muscat"
+    },
+    "manama": {
+      "regulator": "EWA (Electricity and Water Authority)",
+      "water": "Mataas na pag-asa sa desalination: hindi maaapektuhan ng kaunting pagbabago sa kalidad ng tubig ang PP pipes.",
+      "focus": [
+        "Island resorts",
+        "High-rise flats",
+        "Mga financial hub"
+      ],
+      "note": "Naaangkop para sa matataas at mahigpit na standards sa Bahrain.",
+      "focusHeading": "Mga karaniwang proyekto sa Manama"
+    },
+    "amman": {
+      "regulator": "WAJ / JISM",
+      "water": "Mahusay na paggamit ng limitadong yamang-tubig dahil sa zero-leakage system.",
+      "focus": [
+        "Mga pagamutan (hospitals)",
+        "Pampublikong imprastraktura",
+        "Residential complexes"
+      ],
+      "note": "Ang ganap na selyadong sistema ay nagpoprotekta laban sa anumang pagtagas.",
+      "focusHeading": "Mga karaniwang proyekto sa Amman"
+    },
+    "kairo": {
+      "regulator": "National Research Centre / Egyptian Code",
+      "water": "Maaasahang water transport system para sa paglaki ng populasyon at malaking demand.",
+      "focus": [
+        "New Administrative Capital",
+        "Mga pamantasan",
+        "Mass housing projects"
+      ],
+      "note": "Ang piping system ay maaaring makayanan ang mataas na demand sa mga pinakamalaking development projects sa Egypt.",
+      "focusHeading": "Mga karaniwang proyekto sa Cairo"
+    },
+    "istanbul": {
+      "regulator": "TSE / ISKI",
+      "water": "Mataas na flexibility laban sa mga pagyanig: ang PP pipes ay mas resilient kumpara sa matigas na metal.",
+      "focus": [
+        "Seismic-safe hospitals",
+        "Mega-airport infrastructure",
+        "Bosphorus developments"
+      ],
+      "note": "Sumusunod sa mga earthquake regulations at nakakatugon sa pamantayan ng TSE.",
+      "focusHeading": "Mga karaniwang proyekto sa Istanbul"
+    },
+    "singapur": {
+      "regulator": "PUB / SS (Singapore Standards)",
+      "water": "Para sa NEWater at recycled water: perpektong kemikal na resistensya ng K Aqua.",
+      "focus": [
+        "HDB housing upgrades",
+        "High-tech industrial parks",
+        "Changi expansions"
+      ],
+      "note": "Sertipikado para magamit sa mga malalaking proyekto ng PUB.",
+      "focusHeading": "Mga karaniwang proyekto sa Singapore"
+    },
+    "kualalumpur": {
+      "regulator": "SPAN / SIRIM",
+      "water": "Pinipigilan ng magandang thermal insulation ang kondensasyon sa mainit at mahalumigmig na klima.",
+      "focus": [
+        "Mga skyscraper",
+        "Transport hubs (LRT/MRT)",
+        "Luxury condominiums"
+      ],
+      "note": "Pinapasa ang lahat ng mahigpit na pagsusuri mula sa SIRIM at aprubado ng SPAN.",
+      "focusHeading": "Mga karaniwang proyekto sa Kuala Lumpur"
+    },
+    "mumbai": {
+      "regulator": "BIS / BMC",
+      "water": "Mataas na daloy ng tubig at mapagkakatiwalaang lakas laban sa patuloy na pagbabago ng pressure.",
+      "focus": [
+        "Mga commercial towers",
+        "Premium residential complexes",
+        "Healthcare facilities"
+      ],
+      "note": "Konektado at pinagkakatiwalaan para sa malalaking proyekto sa buong India.",
+      "focusHeading": "Mga karaniwang proyekto sa Mumbai"
+    },
+    "kapstadt": {
+      "regulator": "SABS / Water Services Act",
+      "water": "Nakatutulong sa pagtitipid ng tubig sa pamamagitan ng 100% leak-proof pipe joints.",
+      "focus": [
+        "Mga shopping center",
+        "Mga pampublikong pasilidad",
+        "Hospital upgrades"
+      ],
+      "note": "Sinubok at aprubado ng SABS, handa para sa hamon ng water conservation sa South Africa.",
+      "focusHeading": "Mga karaniwang proyekto sa Cape Town"
+    },
+    "nairobi": {
+      "regulator": "KEBS",
+      "water": "Matibay, pangmatagalan at abot-kayang solusyon sa imprastraktura ng inuming tubig.",
+      "focus": [
+        "Urban residential blocks",
+        "Government ministries",
+        "Commercial hubs"
+      ],
+      "note": "Inaalok bilang pangunahing piping system sa umuunlad na rehiyon ng East Africa.",
+      "focusHeading": "Mga karaniwang proyekto sa Nairobi"
+    }
+  }
+}

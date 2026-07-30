@@ -1,0 +1,587 @@
+{
+  "academy": {
+    "schulungen": {
+      "title": "វគ្គបណ្តុះបណ្តាល",
+      "desc": "សម្រាប់អ្នកជំនាញ។",
+      "meta": {"title":"x","desc":"x"},
+      "hero": {"eyebrow":"x","title1":"x","title2":"x","desc":"x","cta1":"x","cta2":"x"},
+      "manifesto": {"title1":"x","title2":"x","title3":"x","p1":"x","p2":"x"},
+      "bento": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "typography": {"t1":"x","t2":"x"},
+      "curriculum": {"eyebrow":"x","title":"x","lead":"x"},
+      "sticky": {
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "timeline": {
+        "title": "x",
+        "desc": "x",
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ]
+      },
+      "spec": {
+        "eyebrow": "x",
+        "title": "x",
+        "desc": "x",
+        "items": [
+          {"title":"x","text":"x"},
+          {"title":"x","text":"x"},
+          {"title":"x","text":"x"}
+        ]
+      },
+      "cta": {"title1":"x","title2":"x","desc":"x","button":"x"}
+    },
+    "zertifizierung": {
+      "title": "វិញ្ញាបនប័ត្រ",
+      "desc": "បញ្ជាក់គុណភាព។",
+      "meta": {"title":"x","desc":"x"},
+      "hero": {"eyebrow":"x","title1":"x","title2":"x","desc":"x","cta1":"x","cta2":"x"},
+      "manifesto": {"title1":"x","title2":"x","p1":"x"},
+      "bento": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "certifications": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","p1":"x","p2":"x"},
+          {"title":"x","p1":"x","p2":"x"},
+          {"title":"x","p1":"x","p2":"x"},
+          {"title":"x","p1":"x","p2":"x"}
+        ]
+      },
+      "lab": {
+        "eyebrow": "x",
+        "title1": "x",
+        "title2": "x",
+        "desc": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "timeline": {
+        "title": "x",
+        "desc": "x",
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ]
+      },
+      "cta": {"title":"x","desc":"x","button1":"x","button2":"x"}
+    },
+    "glossar": {
+      "title": "សទ្ទានុក្រម",
+      "desc": "ពាក្យបច្ចេកទេស។",
+      "meta": {"title":"x","desc":"x"},
+      "hero": {"eyebrow":"x","title1":"x","title2":"x","desc":"x","cta1":"x","cta2":"x"},
+      "manifesto": {"eyebrow":"x","title":"x","lead":"x"},
+      "scroll": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"}
+        ]
+      },
+      "bento": {
+        "eyebrow": "x",
+        "title": "x",
+        "lead": "x",
+        "items": [
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x"},
+          {"title":"x","desc":"x","label":"x"}
+        ]
+      },
+      "timeline": {
+        "title": "x",
+        "desc": "x",
+        "items": [
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"},
+          {"year":"x","title":"x","text":"x"}
+        ]
+      },
+      "conclusion": {"title":"x","p1":"x","p2":"x","p3":"x","p4":"x"},
+      "cta": {"title1":"x","title2":"x","desc":"x","button":"x"}
+    },
+    "title1": "បណ្តុះបណ្តាល",
+    "titleGrad": "វិជ្ជាជីវៈ។",
+    "videos": [
+      {"t":"វីដេអូ ១","s":"ការផ្សារដៃ"},
+      {"t":"វីដេអូ ២","s":"ការផ្សារម៉ាស៊ីន"},
+      {"t":"វីដេអូ ៣","s":"ការផ្សារអគ្គិសនី"},
+      {"t":"វីដេអូ ៤","s":"ការផ្សារធំ"}
+    ],
+    "quizEyebrow": "សំណួរ",
+    "quizTitle": "សាកល្បងចំណេះដឹង",
+    "intro": "ឆ្លើយសំណួរដើម្បីទទួលបានវិញ្ញាបនប័ត្រ។",
+    "start": "ចាប់ផ្តើម",
+    "qLabel": "សំណួរ",
+    "quiz": [
+      {
+        "q": "សំណួរ ១",
+        "o": "["ចម្លើយ ១","ចម្លើយ ២","ចម្លើយ ៣"]"
+      },
+      {
+        "q": "សំណួរ ២",
+        "o": "["ចម្លើយ ១","ចម្លើយ ២","ចម្លើយ ៣"]"
+      },
+      {
+        "q": "សំណួរ ៣",
+        "o": "["ចម្លើយ ១","ចម្លើយ ២","ចម្លើយ ៣"]"
+      },
+      {
+        "q": "សំណួរ ៤",
+        "o": "["ចម្លើយ ១","ចម្លើយ ២","ចម្លើយ ៣"]"
+      },
+      {
+        "q": "សំណួរ ៥",
+        "o": "["ចម្លើយ ១","ចម្លើយ ២","ចម្លើយ ៣"]"
+      }
+    ],
+    "resPerfect": "អស្ចារ្យ!",
+    "resGood": "ល្អណាស់!",
+    "resLow": "ព្យាយាមម្តងទៀត។",
+    "retry": "ធ្វើម្តងទៀត",
+    "titlePerfect": "អ្នកជំនាញ",
+    "titleGood": "អ្នកចេះដឹង",
+    "eyebrow": "x",
+    "lead": "x"
+  },
+  "geoContent": {
+    "dach": {
+      "regulator": "DVGW",
+      "water": "គុណភាពទឹកខ្ពស់។",
+      "focus": "["កំដៅ","ទឹកស្អាត","ឧស្សាហកម្ម"]",
+      "note": "ផលិតនៅអាល្លឺម៉ង់។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ទីផ្សារ DACH ។"
+    },
+    "nordic": {
+      "regulator": "KIWA",
+      "water": "សីតុណ្ហភាពត្រជាក់។",
+      "focus": "["មន្ទីរពេទ្យ","កំដៅ","នាវា"]",
+      "note": "ធន់នឹងភាពត្រជាក់។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់តំបន់ Nordic ។"
+    },
+    "mea": {
+      "regulator": "ISO",
+      "water": "សីតុណ្ហភាពក្តៅ។",
+      "focus": "["អគារខ្ពស់","សណ្ឋាគារ","ហេដ្ឋារចនាសម្ព័ន្ធ"]",
+      "note": "ប្រព័ន្ធធន់នឹងកម្តៅ។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់តំបន់ MEA ។"
+    },
+    "uae": {
+      "regulator": "ESMA",
+      "water": "ទឹកសមុទ្រ។",
+      "focus": "["សណ្ឋាគារ","មន្ទីរពេទ្យ","អគារខ្ពស់"]",
+      "note": "ធន់នឹងសម្ពាធ។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ UAE ។"
+    },
+    "ksa": {
+      "regulator": "SASO",
+      "water": "ទឹកស្អាត។",
+      "focus": "["គម្រោងយក្ស","អគារខ្ពស់","ឧស្សាហកម្ម"]",
+      "note": "ស្តង់ដារគុណភាពខ្ពស់។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ KSA ។"
+    },
+    "qatar": {
+      "regulator": "Kahramaa",
+      "water": "កម្តៅខ្លាំង។",
+      "focus": "["កីឡដ្ឋាន","អគារពាណិជ្ជកម្ម","សណ្ឋាគារ"]",
+      "note": "ភាពរឹងមាំយូរអង្វែង។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Qatar ។"
+    },
+    "kuwait": {
+      "regulator": "MEW",
+      "water": "កម្តៅខ្ពស់។",
+      "focus": "["មន្ទីរពេទ្យ","អគារខ្ពស់","សាកលវិទ្យាល័យ"]",
+      "note": "សម្រាប់ទីផ្សារគុយវ៉ែត។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Kuwait ។"
+    },
+    "egypt": {
+      "regulator": "EOS",
+      "water": "ទឹកស្អាត។",
+      "focus": "["ទីក្រុងថ្មី","សណ្ឋាគារ","ឧស្សាហកម្ម"]",
+      "note": "ចែកចាយរហ័ស។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Egypt ។"
+    },
+    "singapur": {
+      "regulator": "PUB",
+      "water": "សំណើមខ្ពស់។",
+      "focus": "["អគារខ្ពស់","ឧស្សាហកម្ម","មន្ទីរពេទ្យ"]",
+      "note": "គុណភាពកំពូល។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Singapore ។"
+    },
+    "kualalumpur": {
+      "regulator": "SPAN",
+      "water": "តំបន់ត្រូពិច។",
+      "focus": "["អគារខ្ពស់","ពាណិជ្ជកម្ម","សណ្ឋាគារ"]",
+      "note": "ចែកចាយក្នុងតំបន់។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Kuala Lumpur ។"
+    },
+    "mumbai": {
+      "regulator": "BIS",
+      "water": "សម្ពាធទឹក។",
+      "focus": "["ទីក្រុងឆ្លាតវៃ","មន្ទីរពេទ្យ","ឧស្សាហកម្ម"]",
+      "note": "ប្រព័ន្ធធន់នឹងសម្ពាធ។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Mumbai ។"
+    },
+    "kapstadt": {
+      "regulator": "SABS",
+      "water": "ទឹកស្អាត។",
+      "focus": "["សណ្ឋាគារ","មន្ទីរពេទ្យ","ឧស្សាហកម្ម"]",
+      "note": "គុណភាព។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Cape Town ។"
+    },
+    "nairobi": {
+      "regulator": "KEBS",
+      "water": "ទីក្រុងថ្មី។",
+      "focus": "["អគារខ្ពស់","ពាណិជ្ជកម្ម","មន្ទីរពេទ្យ"]",
+      "note": "ធន់នឹងសម្ពាធ។",
+      "focusHeading": "គម្រោង",
+      "extendedMarketText": "សម្រាប់ Nairobi ។"
+    },
+    "frankfurt": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "berlin": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "muenchen": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "hamburg": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "wien": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "zuerich": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "london": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "paris": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "mailand": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "warschau": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "prag": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "dubai": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "abudhabi": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "doha": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "riad": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "dschidda": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "neom": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "maskat": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "manama": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x"
+    },
+    "amman": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x",
+      "extendedMarketText": "x"
+    },
+    "kairo": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x",
+      "extendedMarketText": "x"
+    },
+    "istanbul": {
+      "regulator": "x",
+      "water": "x",
+      "focus": "["x","x","x"]",
+      "note": "x",
+      "focusHeading": "x",
+      "extendedMarketText": "x"
+    }
+  },
+  "trustx": {
+    "metaTitle": "ទំនុកចិត្ត",
+    "metaDesc": "វិញ្ញាបនប័ត្រ K-Aqua។",
+    "heroEyebrow": "គុណភាព",
+    "heroTitle": "វិញ្ញាបនប័ត្រ។",
+    "heroLead": "សាកល្បងដោយស្ថាប័នពិភពលោក។",
+    "bentoEyebrow": "ស្តង់ដារ",
+    "bentoTitle": "ឯកសារ",
+    "bentoLead": "បញ្ជាក់។",
+    "bentoItems": [
+      {"title":"DVGW","desc":"អាល្លឺម៉ង់។"},
+      {"title":"KIWA","desc":"អឺរ៉ុប។"},
+      {"title":"ISO","desc":"សកល។"},
+      {"title":"BSI","desc":"អង់គ្លេស។"}
+    ],
+    "timelineEyebrow": "ប្រវត្តិ",
+    "timelineTitle": "ការសាកល្បង",
+    "timelineLead": "ពីដំបូងដល់បច្ចុប្បន្ន។",
+    "timelineEvents": [
+      {"year":"1990","title":"ចាប់ផ្តើម","desc":"ISO 9001។"},
+      {"year":"2000","title":"DVGW","desc":"ទឹកស្អាត។"},
+      {"year":"2010","title":"សកល","desc":"KIWA។"}
+    ],
+    "ctaEyebrow": "ទាញយក",
+    "ctaTitle": "ឯកសារ",
+    "ctaLead": "ទាញយកវិញ្ញាបនប័ត្រ។",
+    "ctaPrimary": "ទាញយក",
+    "ctaSecondary": "ទំនាក់ទំនង",
+    "stakeEyebrow": "x",
+    "stakeTitle": "x",
+    "stakeLead": "x",
+    "stakeHead": "["x","x","x"]",
+    "stakeRows": [
+      "["x","x","x"]",
+      "["x","x","x"]",
+      "["x","x","x"]"
+    ],
+    "statEyebrow": "x",
+    "statTitle": "x",
+    "stats": [
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"},
+      {"n":"x","u":"x","l":"x"}
+    ],
+    "statNote": "x",
+    "instEyebrow": "x",
+    "instTitle": "x",
+    "inst": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "auditEyebrow": "x",
+    "auditTitle": "x",
+    "auditLead": "x",
+    "audit": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "faqEyebrow": "x",
+    "faqTitle": "x",
+    "faq": [
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"},
+      {"q":"x","a":"x"}
+    ]
+  },
+  "partnerx": {
+    "heroEyebrow": "ដៃគូ",
+    "heroTitle": "បណ្តាញ",
+    "heroLead": "ដៃគូ K-Aqua នៅទូទាំងពិភពលោក។",
+    "bentoEyebrow": "តំបន់",
+    "bentoTitle": "ពិភពលោក",
+    "bentoLead": "ចែកចាយទូទាំងសកល។",
+    "bentoItems": [
+      {"title":"អឺរ៉ុប","desc":"ទីផ្សារធំ។"},
+      {"title":"អាស៊ី","desc":"កំពុងលូតលាស់។"},
+      {"title":"មជ្ឈិមបូព៌ា","desc":"តម្រូវការខ្ពស់។"},
+      {"title":"អាហ្រ្វិក","desc":"គម្រោងអភិវឌ្ឍន៍។"}
+    ],
+    "timelineEyebrow": "កិច្ចសហការ",
+    "timelineTitle": "ប្រវត្តិ",
+    "timelineLead": "ភាពជាដៃគូរឹងមាំ។",
+    "timelineEvents": [
+      {"year":"2000","title":"ចាប់ផ្តើម","desc":"ការកសាងបណ្តាញ។"},
+      {"year":"2010","title":"ពង្រីក","desc":"ទីផ្សារអន្តរជាតិ។"}
+    ],
+    "ctaEyebrow": "ចូលរួម",
+    "ctaTitle": "ក្លាយជាដៃគូ",
+    "ctaLead": "ទាក់ទងមកយើងថ្ងៃនេះ។",
+    "ctaPrimary": "ដាក់ពាក្យ",
+    "ctaSecondary": "ស្វែងយល់បន្ថែម",
+    "ecoEyebrow": "x",
+    "ecoTitle": "x",
+    "ecoLead": "x",
+    "eco": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "flowEyebrow": "x",
+    "flowTitle": "x",
+    "flowLead": "x",
+    "flow": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ],
+    "roadEyebrow": "x",
+    "roadTitle": "x",
+    "road": [
+      {"t":"x","d":"x","s":"x"},
+      {"t":"x","d":"x","s":"x"},
+      {"t":"x","d":"x","s":"x"},
+      {"t":"x","d":"x","s":"x"}
+    ],
+    "specEyebrow": "x",
+    "specTitle": "x",
+    "specLead": "x",
+    "spec": [
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"},
+      {"t":"x","d":"x"}
+    ]
+  }
+}

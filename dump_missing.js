@@ -1,61 +1,68 @@
+const fs = require('fs');
 const de = require('./messages/de.json');
-const uz = require('./messages/uz.json');
-const keys = [
-  "products.narrative",
-  "products.transitionFittings.sticky",
-  "products.transitionFittings.bento",
-  "solutions.krankenhaus.sticky",
-  "solutions.krankenhaus.timeline",
-  "solutions.krankenhaus.intro",
-  "solutions.krankenhaus.stickySection",
-  "solutions.krankenhaus.bentoSection",
-  "solutions.krankenhaus.bento",
-  "solutions.krankenhaus.timelineSection",
-  "solutions.krankenhaus.specs",
-  "solutions.krankenhaus.bim",
-  "solutions.krankenhaus.cta",
-  "solutions.hotels.intro",
-  "solutions.hotels.bentoSection",
-  "solutions.hotels.bento",
-  "solutions.hotels.textSection",
-  "solutions.hotels.stickySection",
-  "solutions.hotels.sticky",
-  "solutions.hotels.perf",
-  "solutions.hotels.timelineSection",
-  "solutions.hotels.timeline",
-  "solutions.hotels.research",
-  "solutions.hotels.certs",
-  "solutions.hotels.cta",
-  "solutions.vorfertigung.hero.badge",
-  "solutions.vorfertigung.intro",
-  "solutions.vorfertigung.sticky",
-  "solutions.vorfertigung.bento",
-  "solutions.vorfertigung.visual",
-  "solutions.vorfertigung.timeline",
-  "solutions.vorfertigung.manifesto",
-  "solutions.vorfertigung.cta",
-  "solutions.hochhaus.intro",
-  "solutions.hochhaus.sticky",
-  "solutions.hochhaus.bento",
-  "solutions.hochhaus.timeline",
-  "solutions.hochhaus.data",
-  "solutions.hochhaus.cta",
-  "solutions.index.meta",
-  "solutions.index.sticky",
-  "solutionsx"
-];
-let out = {};
-for (const key of keys) {
-  let parts = key.split('.');
-  let obj = de;
-  for (let p of parts) obj = obj[p];
-  
-  let target = out;
-  for (let i = 0; i < parts.length - 1; i++) {
-    target[parts[i]] = target[parts[i]] || {};
-    target = target[parts[i]];
+const my = require('./messages/my.json');
+
+function findMissing(source, target) {
+  let missing = {};
+  let hasMissing = false;
+  for (let key in source) {
+    if (typeof source[key] === 'object' && source[key] !== null && !Array.isArray(source[key])) {
+      if (!target || !target[key]) {
+        missing[key] = source[key];
+        hasMissing = true;
+      } else {
+        let nested = findMissing(source[key], target[key]);
+        if (nested !== null) {
+          missing[key] = nested;
+          hasMissing = true;
+        }
+      }
+    } else if (Array.isArray(source[key])) {
+        if (!target || !target[key]) {
+            missing[key] = source[key];
+            hasMissing = true;
+        } else {
+            // Check array elements (assuming object elements)
+            let arrMissing = [];
+            let arrHasMissing = false;
+            for(let i=0; i<source[key].length; i++) {
+                if (typeof source[key][i] === 'object' && source[key][i] !== null) {
+                    if (!target[key][i]) {
+                        arrMissing[i] = source[key][i];
+                        arrHasMissing = true;
+                    } else {
+                        let nested = findMissing(source[key][i], target[key][i]);
+                        if (nested !== null) {
+                            arrMissing[i] = nested;
+                            arrHasMissing = true;
+                        } else {
+                            arrMissing[i] = {}; // empty object to keep index
+                        }
+                    }
+                } else {
+                    if (target[key][i] === undefined) {
+                        arrMissing[i] = source[key][i];
+                        arrHasMissing = true;
+                    } else {
+                        arrMissing[i] = target[key][i]; // keeping it for structure? Or leave undefined
+                    }
+                }
+            }
+            if (arrHasMissing) {
+                missing[key] = arrMissing;
+                hasMissing = true;
+            }
+        }
+    } else {
+      if (!target || target[key] === undefined) {
+        missing[key] = source[key];
+        hasMissing = true;
+      }
+    }
   }
-  target[parts[parts.length-1]] = obj;
+  return hasMissing ? missing : null;
 }
-require('fs').writeFileSync('temp_missing_uz.json', JSON.stringify(out, null, 2));
-console.log("Done");
+
+const missingKeys = findMissing(de, my);
+fs.writeFileSync('scratch/missing_my.json', JSON.stringify(missingKeys, null, 2));
+console.log("Missing keys dumped to scratch/missing_my.json");

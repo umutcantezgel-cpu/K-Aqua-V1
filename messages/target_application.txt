@@ -1,0 +1,44 @@
+    "tabs": {},
+    "portal": {
+      "jobs": [
+        {
+          "id": "prod",
+          "title": "Produktionsmitarbeiter (m/w/d)",
+          "type": "Vollzeit / Schicht",
+          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+        },
+        {
+          "id": "machine",
+          "title": "Maschinen- und Anlagenführer (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+        },
+        {
+          "id": "logistics",
+          "title": "Fachkraft für Lagerlogistik (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+        },
+        {
+          "id": "sales",
+          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+        },
+        {
+          "id": "pm",
+          "title": "Produktmanager (m/w/d)",
+          "type": "Vollzeit",
+          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+        },
+        {
+          "id": "init",
+          "title": "Initiativbewerbung",
+          "type": "Vollzeit / Teilzeit",
+          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+        }
+      ],
+      "steps": {},
+      "form": {}
+    }
+  },

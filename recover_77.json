@@ -1,0 +1,8 @@
+{
+  "Description": "\"Add badge to hero, eyebrow and lead to intro\"",
+  "Instruction": "\"Add missing keys to vorfertigung hero and intro\"",
+  "ReplacementChunks": "[{\"AllowMultiple\":false,\"EndLine\":3685,\"ReplacementContent\":\"      \\\"hero\\\": {\\n        \\\"badge\\\": \\\"วิศวกรรมเยอรมัน ผลกระทบระดับโลก\\\",\\n        \\\"eyebrow\\\": \\\"การประกอบล่วงหน้าแบบอุตสาหกรรม (Industrial Prefabrication)\\\",\",\"StartLine\":3684,\"TargetContent\":\"      \\\"hero\\\": {\\n        \\\"eyebrow\\\": \\\"การประกอบล่วงหน้าแบบอุตสาหกรรม (Industrial Prefabrication)\\\",\"},{\"AllowMultiple\":false,\"EndLine\":3693,\"ReplacementContent\":\"      \\\"intro\\\": {\\n        \\\"eyebrow\\\": \\\"ปรัชญาแห่งความสมบูรณ์แบบ\\\",\\n        \\\"title\\\": \\\"สถาปัตยกรรมระดับมิลลิเมตร\\\",\\n        \\\"lead\\\": \\\"เมื่อคุณออกแบบอาคารระฟ้า หรือโรงพยาบาลที่ทุกวินาทีมีความหมาย คุณไม่อาจพึ่งพาตัวแปรที่ผันผวนจากการก่อสร้างหน้างานได้ คุณต้องการความแม่นยำระดับคลินิกของการผลิตชิ้นส่วนสำเร็จรูประดับอุตสาหกรรม\\\",\",\"StartLine\":3692,\"TargetContent\":\"      \\\"intro\\\": {\\n        \\\"title\\\": \\\"สถาปัตยกรรมระดับมิลลิเมตร\\\",\"}]",
+  "TargetFile": "\"/Users/umurey/Downloads/K-Aqua-V1-main/messages/th.json\"",
+  "toolAction": "\"Editing file\"",
+  "toolSummary": "\"Add missing keys to vorfertigung\""
+}

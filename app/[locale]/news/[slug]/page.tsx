@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { setRequestLocale } from 'next-intl/server';
 import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
-import { Reveal } from "@/components/ui/Reveal";
-import { Eyebrow } from "@/components/ui/Eyebrow";
+import { ArticleHero } from "@/components/ui/ArticleHero";
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -81,42 +81,32 @@ export default async function NewsDetailPage({ params }: Props) {
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={[breadcrumb, articleSchema]} />
-      {/* Article Hero */}
-      <section className="relative overflow-hidden pt-20 pb-12 lg:pt-28 lg:pb-16 border-b border-card-border bg-background-subtle">
-        <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <Reveal>
-            <div className="flex items-center gap-3 text-small font-semibold text-faint-foreground mb-4">
-              <span>K-Aqua</span>
-              <span className="text-muted-foreground/40">·</span>
-              <span>{newsItem.date}</span>
-              <span className="rounded-full bg-primary-soft px-3 py-1 font-bold text-primary">{newsItem.tag || newsItem.category || "News"}</span>
-            </div>
-          </Reveal>
-          <h1 className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-[1.15] mt-2 mb-4 animate-reveal">
-            {resolveLocalized(newsItem.title, locale)}
-          </h1>
-          <p className="text-body lg:text-lead text-muted-foreground max-w-[800px] leading-relaxed font-body font-normal mb-6 animate-reveal">
-            <span className="font-bold text-foreground">{resolveLocalized(newsItem.title, locale)}</span> &ndash; {resolveLocalized(newsItem.teaser || newsItem.excerpt, locale)}
-          </p>
-        </div>
-      </section>
+      
+      {/* Redesigned Article Hero */}
+      <ArticleHero post={newsItem} locale={locale} />
 
       {/* Article Content & Sidebar */}
-      <section className="py-12 lg:py-20 bg-background">
+      <section className="py-16 lg:py-24 bg-background">
         <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16 items-start">
-            {/* Content Area (kein globaler prose wrapper mehr, Artikel steuern Design selbst) */}
-            <div className="w-full min-w-0">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-20 items-start">
+            {/* Content Area */}
+            <div className="w-full min-w-0 max-w-[800px]">
               {newsItem.content}
             </div>
 
-            {/* Sticky Sidebar */}
-            <aside className="sticky top-24 w-full">
+            <aside className="sticky top-28 w-full flex flex-col gap-8">
+              {/* Optional: We can add an Author block or TableOfContents here in the future */}
               <KontaktBlock slug="news" variant="sidebar" tone="glass" />
             </aside>
           </div>
         </div>
       </section>
+      <DynamicSeoBlock 
+        title={resolveLocalized(newsItem.title, locale)} 
+        h1={resolveLocalized(newsItem.title, locale)} 
+        locale={locale} 
+        path={`/news/${slug}`} 
+      />
     </div>
   );
 }

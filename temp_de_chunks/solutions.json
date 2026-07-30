@@ -1,0 +1,849 @@
+{
+  "solutions": {
+    "eyebrow": "L\u00f6sungen",
+    "title1": "Ein",
+    "titleGrad": "verantwortungsvolles",
+    "title2": "Produkt.",
+    "lead": "Warum Polypropylen das richtige Material f\u00fcr die Wasserversorgung von morgen ist: \u00f6kologisch, technisch und wirtschaftlich.",
+    "benefits": [
+      {
+        "t": "Umweltfreundlich",
+        "d": "Polypropylen entsteht aus Gasen, die fr\u00fcher nutzlos verbrannt wurden, und reduziert so die Luftverschmutzung drastisch. Die Produktion nutzt Wasser im geschlossenen K\u00fchlkreislauf und sch\u00fctzt Fl\u00fcsse, B\u00e4che und Seen."
+      },
+      {
+        "t": "Recycelbar",
+        "d": "PP tr\u00e4gt den Recycling Code \u201e5\" und l\u00e4sst sich sortenrein trennen. Wir recyceln s\u00e4mtliche Produktionsabf\u00e4lle und Verschnitte, bei hoher Nachfrage nach PP-Rezyklat."
+      },
+      {
+        "t": "\u00dcberlegen",
+        "d": "Als technischer Kunststoff ist PP ungew\u00f6hnlich best\u00e4ndig gegen L\u00f6sungsmittel, Laugen und S\u00e4uren und formt im Spritzguss komplexe Geometrien bei niedrigen Kosten und hohen St\u00fcckzahlen."
+      },
+      {
+        "t": "Langlebig",
+        "d": "PP-Produkte halten deutlich l\u00e4nger als vergleichbare Materialien: pflegeleicht, verschlei\u00dffest und best\u00e4ndig gegen Alterung und Temperaturextreme."
+      }
+    ],
+    "nextEyebrow": "N\u00e4chster Schritt",
+    "nextTitle": "Vom Material zum System.",
+    "nextLead": "Sehen Sie, wie diese Materialvorteile im K Aqua Produktprogramm konkret werden.",
+    "nextCta": "Zum Produktprogramm",
+    "krankenhaus": {
+      "sticky": {
+        "items": [
+          {
+            "title": "Legionellenpr\u00e4vention auf molekularer Ebene",
+            "desc": "In der kritischen Krankenhausinfrastruktur ist Wasserhygiene keine Option, sondern eine \u00dcberlebensfrage. Unsere K Aqua Rohrsysteme nutzen extrem glatte, porenfreie Innenoberfl\u00e4chen, die die Bildung von Biofilmen und die Proliferation von Legionellen physikalisch unterbinden. German Engineering bedeutet hier: Pr\u00e4vention durch perfekte Materialwissenschaft, nicht durch chemische Nachbehandlung."
+          },
+          {
+            "title": "Thermische Desinfektion ohne Materialerm\u00fcdung",
+            "desc": "Klinische Standards erfordern regelm\u00e4\u00dfige thermische Desinfektionen bei Temperaturen \u00fcber 70\u00b0C. W\u00e4hrend herk\u00f6mmliche Systeme hierbei rasch altern, ist das K Aqua PPR-System f\u00fcr extreme thermische Belastungen \u00fcber Jahrzehnte hinweg ausgelegt. Keine Mikrorisse, keine Verspr\u00f6dung, keine Kompromisse."
+          },
+          {
+            "title": "Absolut sterile Verbindungen",
+            "desc": "Unsere patentierte Heizelement-Muffenschwei\u00dfung verschmilzt Rohr und Fitting zu einer homogenen, vollkommen nahtlosen Einheit. Es entstehen keinerlei Totr\u00e4ume, in denen sich Stagnationswasser sammeln k\u00f6nnte. Das Ergebnis ist ein Leitungssystem aus einem Guss: die absolute physikalische Barriere gegen Kontamination."
+          },
+          {
+            "title": "Akustische Isolation f\u00fcr Intensivstationen",
+            "desc": "L\u00e4rm ist ein massiver Stressfaktor f\u00fcr Patienten und medizinisches Personal. Das K Aqua System besitzt inh\u00e4rente schallabsorbierende Eigenschaften. Flie\u00dfger\u00e4usche und Druckst\u00f6\u00dfe werden vom Material selbst geschluckt, was eine fl\u00fcsterleise Wasserversorgung selbst bei Hochdruckanwendungen garantiert: essenziell f\u00fcr Operationss\u00e4le und Intensivstationen."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 01",
+            "title": "Systemdimensionierung & Hydraulik",
+            "text": "Pr\u00e4zise Berechnung der Leitungsquerschnitte zur Vermeidung von Stagnationszonen. Jeder Millimeter Druckverlust wird in der Planungsphase durch unsere deutschen Ingenieure am digitalen Zwilling simuliert und eliminiert."
+          },
+          {
+            "year": "Phase 02",
+            "title": "Materialspezifikation",
+            "text": "Auswahl der spezifischen K Aqua Polymerblends, optimiert f\u00fcr klinische Anforderungen. Unsere Rohstoffe durchlaufen 42 Qualit\u00e4tssicherungsschritte, bevor sie \u00fcberhaupt den Extruder erreichen."
+          },
+          {
+            "year": "Phase 03",
+            "title": "Vorfertigung & Reinraum-Handling",
+            "text": "Vorkonfektionierung von komplexen Verteilern in kontrollierten Umgebungen. Minimierung der Schwei\u00dfn\u00e4hte auf der Baustelle garantiert eine bis zu 40% schnellere, fehlerfreie Installation unter Reinraumbedingungen."
+          },
+          {
+            "year": "Phase 04",
+            "title": "Inbetriebnahme & Pr\u00fcfung",
+            "text": "Vollst\u00e4ndige hydrostatische Druckpr\u00fcfung und thermische Initialdesinfektion. Die \u00dcbergabe an den Generalunternehmer erfolgt mit einer l\u00fcckenlosen, digitalen Dokumentation jeder einzelnen Schwei\u00dfnaht."
+          },
+          {
+            "year": "Phase 05",
+            "title": "50 Jahre Wartungsfreiheit",
+            "text": "Nach der Inbetriebnahme verschwindet das System in der Wand und verrichtet lautlos und absolut zuverl\u00e4ssig seinen Dienst, garantiert f\u00fcr mindestens 50 Jahre ohne jegliche Materialerm\u00fcdung."
+          }
+        ]
+      },
+      "hero": {
+        "eyebrow": "Mission-Critical Infrastructure",
+        "title1": "Krankenh\u00e4user.",
+        "title2": "Null Fehlertoleranz.",
+        "desc": "In der medizinischen Maximalversorgung entscheidet die Infrastruktur \u00fcber Leben und Tod. K Aqua liefert das hydrologische Nervensystem f\u00fcr die fortschrittlichsten Klinik-Megaprojekte der Welt. Gefertigt in Deutschland. Gebaut f\u00fcr die Ewigkeit.",
+        "cta1": "Engineering Consulting",
+        "cta2": "BIM Daten herunterladen"
+      },
+      "intro": {
+        "title": "Wo ein Tropfen Wasser <br className=\"hidden md:block\"/> das System kollabieren l\u00e4sst.",
+        "desc": "Generalunternehmer stehen bei Klinikprojekten vor einem unl\u00f6sbaren Paradox: Enormer Zeitdruck bei der Errichtung trifft auf die strengsten hygienischen Vorgaben der Menschheitsgeschichte. Ein einziger Totraum im Rohrnetz, ein mikroskopischer Riss, eine korrodierende Verbindung: und Millioneninvestitionen sind gef\u00e4hrdet. Wir l\u00f6sen dieses Paradox durch reine, kompromisslose deutsche Ingenieurskunst."
+      },
+      "stickySection": {
+        "eyebrow": "Technologische \u00dcberlegenheit",
+        "title": "Die Anatomie der Sicherheit.",
+        "lead": "Wir betrachten ein Krankenhaus nicht als Geb\u00e4ude, sondern als biologischen Organismus. Das K Aqua System ist sein unzerst\u00f6rbares Gef\u00e4\u00dfsystem. Jeder Millimeter unserer Rohrleitungen ist auf absolute Ausfallsicherheit kalibriert."
+      },
+      "bentoSection": {
+        "eyebrow": "ROI & Lebenszyklus",
+        "title": "Wirtschaftlichkeit durch Perfektion.",
+        "lead": "Qualit\u00e4t ist kein Kostenfaktor, sondern der einzige Weg zur Profitabilit\u00e4t in der Geb\u00e4udeautomation. K Aqua minimiert die Total Cost of Ownership auf ein beispielloses Niveau und garantiert gleichzeitig maximale Patientensicherheit."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "100% Korrosionsresistenz",
+            "desc": "Im Gegensatz zu metallischen Rohren ist K Aqua vollst\u00e4ndig immun gegen elektrochemische Korrosion, Lochfra\u00df und kalkhaltiges Wasser. Keine Inkrustation, kein Druckverlust \u00fcber 50 Jahre Dauerbetrieb."
+          },
+          {
+            "title": "Blitzschnelle Installation",
+            "desc": "Das geringe Eigengewicht und die homogene Schwei\u00dftechnik reduzieren die Installationszeit um bis zu 40%. Weniger Manntage, geringeres Risiko auf der Baustelle.",
+            "badge": "-40% Time"
+          },
+          {
+            "title": "Erdbebensichere Flexibilit\u00e4t",
+            "desc": "Die modulare molekulare Struktur des Materials erlaubt es, seismische Schocks und Geb\u00e4udesetzungen zu absorbieren, ohne zu brechen. Essenziell f\u00fcr Krankenh\u00e4user in Risikogebieten.",
+            "badge": "Seismic Grade"
+          },
+          {
+            "title": "gepr\u00fcfte Trinkwasserg\u00fcte",
+            "desc": "Erf\u00fcllt und \u00fcbertrifft die weltweit strengsten Normen (DIN, DVGW, SKZ, WRAS) f\u00fcr den Transport von Reinstwasser und hochsensiblen klinischen Medien."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Der K Aqua Standard.",
+        "desc": "Von der ersten CAD-Zeichnung bis zum letzten Wassertropfen ist unser Prozess eine Symphonie der Pr\u00e4zision, die keinen Raum f\u00fcr Zuf\u00e4lle l\u00e4sst."
+      },
+      "specs": {
+        "eyebrow": "Spezifikationen",
+        "title": "Die harten Fakten.",
+        "lead": "F\u00fcr Ingenieure, Planer und Architekten: Die physikalischen und chemischen Grenzwerte unseres Systems f\u00fcr den klinischen Einsatz. Transparenz ist die Basis f\u00fcr Vertrauen.",
+        "therm": {
+          "title": "Thermische Belastbarkeit",
+          "items": [
+            {
+              "label": "Dauerbetriebstemperatur",
+              "value": "70\u00b0C"
+            },
+            {
+              "label": "Maximale St\u00f6rfalltemperatur",
+              "value": "95\u00b0C (100h)"
+            },
+            {
+              "label": "W\u00e4rmeleitf\u00e4higkeit",
+              "value": "0.24 W/mK"
+            },
+            {
+              "label": "Linearer Ausdehnungskoeffizient",
+              "value": "0.15 mm/mK"
+            }
+          ]
+        },
+        "mech": {
+          "title": "Mechanische Eigenschaften",
+          "items": [
+            {
+              "label": "Dichte",
+              "value": "0.895 g/cm\u00b3"
+            },
+            {
+              "label": "Zugfestigkeit",
+              "value": "23 MPa"
+            },
+            {
+              "label": "Bruchdehnung",
+              "value": "> 50%"
+            },
+            {
+              "label": "Elastizit\u00e4tsmodul",
+              "value": "800 MPa"
+            }
+          ]
+        }
+      },
+      "bim": {
+        "title": "BIM & CAD Ressourcen",
+        "desc": "Laden Sie detaillierte Revit-Familien, AutoCAD-Dateien und vollst\u00e4ndige hydraulische Datens\u00e4tze f\u00fcr Ihre Geb\u00e4udeinformationsmodellierung (BIM) herunter. Millimetergenaue Planungssicherheit f\u00fcr Ihr Projekt.",
+        "cta": "Zum Download-Center"
+      },
+      "cta": {
+        "eyebrow": "Next Steps",
+        "title": "Bereit f\u00fcr das n\u00e4chste Megaprojekt?",
+        "desc": "Unsere Application Engineers stehen bereit, um die komplexesten hydraulischen Herausforderungen Ihres Klinikprojekts zu l\u00f6sen. Kein Projekt ist zu gro\u00df, kein Standard zu streng.",
+        "button": "Engineering Team kontaktieren"
+      }
+    },
+    "hotels": {
+      "hero": {
+        "eyebrow": "HOTELS & RESORTS INFRASTRUKTUR",
+        "title1": "Die Architektur der Stille.",
+        "title2": "Engineered in Germany.",
+        "desc": "Wenn Milliarden in die Entwicklung globaler Luxusresorts investiert werden, darf das Unsichtbare niemals zum Risiko werden. K Aqua liefert kompromisslose Rohrleitungssysteme f\u00fcr die anspruchsvollsten Hotelprojekte der Welt. Gefertigt f\u00fcr die Ewigkeit, konzipiert f\u00fcr absolute Sicherheit.",
+        "cta1": "Projekt evaluieren",
+        "cta2": "Technisches Whitepaper"
+      },
+      "intro": {
+        "title1": "Wahrer Luxus",
+        "title2": "ist unsichtbar.",
+        "titleGrad": "Und unh\u00f6rbar.",
+        "desc": "Ein F\u00fcnf-Sterne-Erlebnis duldet keine Kompromisse. Weder beim Service noch in der Bausubstanz. Unsere hochverdichteten PP-R Polymere eliminieren Flie\u00dfger\u00e4usche, verhindern thermischen Verlust und garantieren mikrobiologische Reinheit. Willkommen in der Referenzklasse der Fluidtechnik."
+      },
+      "bentoSection": {
+        "eyebrow": "Die Anatomie der Perfektion",
+        "title": "Spezifikationen, die den Industriestandard dekonstruieren.",
+        "lead": "Wir haben jedes Element der klassischen Rohrleitung hinterfragt und durch materialwissenschaftliche Meisterleistungen ersetzt."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Akustische Isolation der Referenzklasse",
+            "desc": "Schallschutz ist im High End-Hotelsegment das ultimative Qualit\u00e4tsmerkmal. Unsere propriet\u00e4re dreischichtige Polymerstruktur absorbiert K\u00f6rperschall und Flie\u00dfger\u00e4usche unmittelbar an der Quelle. Kein Fl\u00fcstern des Wassers dringt in die Suiten Ihrer G\u00e4ste. gepr\u00fcft nach DIN 4109."
+          },
+          {
+            "title": "Thermische Resilienz",
+            "desc": "Minimaler W\u00e4rmeverlust bei maximaler Effizienz. Die molekulare Dichte von K Aqua PP-R isoliert nativ und reduziert den Bedarf an sekund\u00e4rer D\u00e4mmung drastisch. Das Resultat: Massive Einsparungen bei den OPEX."
+          },
+          {
+            "title": "100% Korrosionsfreiheit",
+            "desc": "Aggressives Wasser, chlorierte Pools oder extreme Salinit\u00e4t in K\u00fcstenresorts? Wo Metalle kapitulieren, beh\u00e4lt K Aqua seine strukturelle Integrit\u00e4t. Ein halbes Jahrhundert lang."
+          },
+          {
+            "title": "Mikrobiologische Festung",
+            "desc": "Legionellen und Biofilme entstehen durch mikroskopische Unebenheiten. Die Innenoberfl\u00e4che von K Aqua Rohren ist auf molekularer Ebene derart glatt, dass sich Bakterien schlichtweg nicht anheften k\u00f6nnen. Klinische Reinheit f\u00fcr die Trinkwasserversorgung Ihres Resorts."
+          }
+        ]
+      },
+      "textSection": {
+        "title": "Die Ingenieurskunst hinter der Stille",
+        "p1": "In Wolkenkratzern und weitl\u00e4ufigen Resort-Anlagen herrschen extreme physikalische Bedingungen. Wasserdruck, der hunderte Meter in die H\u00f6he gepumpt wird. Temperaturdifferenzen, die traditionelle Materialien an ihre Belastungsgrenzen bringen.",
+        "p2": "Traditionelle Kupfersysteme weisen bei hohen Flie\u00dfgeschwindigkeiten signifikante Erosionserscheinungen auf. Die Kavitation, verursacht durch Druckschwankungen in Steigleitungen von Hochhaushotels, f\u00fchrt unweigerlich zu Mikrorissen, Lochfra\u00df und letztlich zu katastrophalen Wassersch\u00e4den, die ganze Etagen lahmlegen k\u00f6nnen. F\u00fcr einen Hotelbetreiber bedeutet dies nicht nur massive Sanierungskosten, sondern einen irreparablen Reputationsverlust.",
+        "p3": "K Aqua geht einen radikal anderen Weg.",
+        "p4": "Unsere Systeme basieren auf Polypropylen Random Copolymerisat (PP-R) der neuesten Generation. Durch einen hochkomplexen Extrusionsprozess in unserem deutschen Stammwerk richten wir die Polymerketten so aus, dass sie eine beispiellose Kombination aus Flexibilit\u00e4t und extremer Druckresistenz aufweisen. Wenn es im System zu Druckschl\u00e4gen (Water Hammer) kommt, f\u00e4ngt das Material diese kinetische Energie elastisch ab, anstatt sie als akustischen Schock oder mechanischen Riss an die Bausubstanz weiterzugeben.",
+        "h3": "Homogene Schwei\u00dfverbindungen: Das Ende der Leckage",
+        "p5": "Das schw\u00e4chste Glied in jedem Rohrleitungssystem ist die Verbindung. Gewinde korrodieren, Dichtungsringe werden por\u00f6s, Klebeverbindungen erm\u00fcden durch thermische Zyklisierung.",
+        "p6": "Wir nutzen das Prinzip der molekularen Fusion. Rohr und Fitting werden thermisch auf exakt 260\u00b0C erhitzt und anschlie\u00dfend zusammengef\u00fcgt. Innerhalb von Sekundenbruchteilen verschmelzen die Polymerketten beider Bauteile zu einer unzertrennlichen, monolithischen Einheit. Das Resultat: Es gibt keine \"Verbindung\" mehr. Rohr und Fitting sind ein einziges, durchgehendes St\u00fcck Material. Ohne Dichtung, ohne Schwachstelle, mit einer Ausfallsicherheit von 100%."
+      },
+      "stickySection": {
+        "eyebrow": "Die 4 S\u00e4ulen",
+        "title": "Die DNA eines Masterpieces.",
+        "lead": "Wie wir die gr\u00f6\u00dften Herausforderungen der modernen Hotel-Infrastruktur durch radikale Ingenieurskunst l\u00f6sen."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "1. Legionellen-Pr\u00e4vention auf Molekularebene",
+            "p1": "In ausgedehnten Hotelnetzwerken kann stagnierendes Wasser in tempor\u00e4r ungenutzten Suiten zur t\u00f6dlichen Falle werden. Legionellen proliferieren in Biofilmen, die sich an rauen Rohrw\u00e4nden bilden.",
+            "p2": "Die mikroskopische Oberfl\u00e4chenrauheit von K Aqua PP-R liegt bei 0.007 mm. Es gibt keine Poren, keine Nischen, keine Ankerpunkte. In Kombination mit thermischer Desinfektion bieten wir das sterilste Umfeld, das physikalisch m\u00f6glich ist."
+          },
+          {
+            "title": "2. Absolute Schallabsorption",
+            "p1": "Jedes Dezibel z\u00e4hlt. In Luxusresorts darf der Toilettensp\u00fclvorgang oder das Duschen in der Nachbarsuite nicht wahrnehmbar sein.",
+            "p2": "Durch die hohe Dichte unseres Verbundmaterials (K Aqua Faserverbund) und den hohen inneren D\u00e4mpfungsfaktor reduzieren wir den K\u00f6rperschall um bis zu 80% gegen\u00fcber metallischen Systemen. Ein Unterschied, den Ihre G\u00e4ste nicht h\u00f6ren werden."
+          },
+          {
+            "title": "3. Hochdruck-Resilienz in Skyscrapern",
+            "p1": "Hotels mit 80, 100 oder 120 Stockwerken stellen extreme Anforderungen an die Steigleitungen. Der hydrostatische Druck im unteren Bereich des Geb\u00e4udes ist enorm.",
+            "p2": "K Aqua bietet spezielle Druckstufen (SDR 6 / PN 20) in Kombination mit Faserverst\u00e4rkung, die auch bei Temperaturen von 70\u00b0C eine Lebensdauer von \u00fcber 50 Jahren unter Dauerlast garantieren. Wir bezwingen die Schwerkraft."
+          },
+          {
+            "title": "4. Thermal Management & District Cooling",
+            "p1": "In W\u00fcstenregionen wie Dubai oder Riad ist K\u00e4lte das teuerste Gut. District Cooling Systeme transportieren gek\u00fchltes Wasser \u00fcber weite Strecken zum Resort.",
+            "p2": "Die exzellenten Isolationswerte von PP-R verhindern Kondensatbildung und minimieren den K\u00fchlverlust massiv. Keine durchgerosteten Chiller-Pipes mehr, keine tropfenden Decken. Nur reine, unverf\u00e4lschte Effizienz."
+          }
+        ]
+      },
+      "perf": {
+        "items": [
+          {
+            "val": "0.007",
+            "unit": "mm",
+            "title": "Oberfl\u00e4chenrauheit",
+            "desc": "Absolute Resistenz gegen Biofilme und Inkrustation."
+          },
+          {
+            "val": "100",
+            "unit": "%",
+            "title": "Homogene Fusion",
+            "desc": "Schwei\u00dfverbindungen, die auf molekularer Ebene verschmelzen."
+          },
+          {
+            "val": ">50",
+            "unit": "J",
+            "title": "Jahre Lebensdauer",
+            "desc": "Gepr\u00fcft und gepr\u00fcft nach den strengsten ISO-Normen."
+          },
+          {
+            "val": "0",
+            "unit": "",
+            "title": "Wartungsaufwand",
+            "desc": "Installieren, versiegeln und f\u00fcr immer vergessen."
+          }
+        ]
+      },
+      "timelineSection": {
+        "title": "Referenzen, die Geschichte schreiben.",
+        "desc": "Von k\u00fcnstlichen Inseln im Persischen Golf bis hin zu den exklusivsten Ski-Resorts der Alpen. Wo das Unm\u00f6gliche gebaut wird, ist K Aqua bereits vor Ort."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Dubai",
+            "title": "The Palm Jumeirah Ultra-Luxury Resort",
+            "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinit\u00e4t und Umgebungstemperaturen von bis zu 50\u00b0C erforderten maximale thermische und chemische Best\u00e4ndigkeit. K Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
+          },
+          {
+            "year": "Schweiz",
+            "title": "Alpine Retreat St. Moritz",
+            "text": "Ein 6-Sterne Resort auf 2.000 Metern H\u00f6he. Die Herausforderung: Extreme Frostgefahr w\u00e4hrend der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische L\u00e4ngen\u00e4nderungen souver\u00e4n und garantierten lautlosen Betrieb."
+          },
+          {
+            "year": "Singapur",
+            "title": "Vertical Forest Hotel",
+            "text": "Ein 65-st\u00f6ckiges Meisterwerk \u00f6kologischer Architektur. Das komplexe Bew\u00e4sserungssystem f\u00fcr tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K Aqua realisiert. Die homogene Schwei\u00dftechnik bewahrte das Geb\u00e4ude vor mikroskopischen Leckagen."
+          },
+          {
+            "year": "Malediven",
+            "title": "Zero-Emission Island Resort",
+            "text": "Direkt \u00fcber dem Riff erbaut, war absolute Umweltvertr\u00e4glichkeit gefordert. K Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschlei\u00df."
+          },
+          {
+            "year": "Zukunft",
+            "title": "Ihr n\u00e4chstes Megaprojekt",
+            "text": "Die Grenzen der Architektur verschieben sich t\u00e4glich. Wir sind bereit, das Fundament f\u00fcr Ihre k\u00fchnsten Visionen zu gie\u00dfen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
+          }
+        ]
+      },
+      "research": {
+        "eyebrow": "Forschung & Entwicklung",
+        "title": "Die Chemie <br/> der Unzerst\u00f6rbarkeit.",
+        "desc": "Unsere F&E Abteilung in Deutschland arbeitet unerm\u00fcdlich an der Perfektionierung der Polymer-Matrix. Durch die Zugabe von propriet\u00e4ren Additiven und speziellen Glasfaser-Compounds extrudieren wir Rohre, die eine extrem geringe L\u00e4ngenausdehnung aufweisen, vergleichbar mit metallischen Rohren, jedoch ohne deren eklatante Nachteile.",
+        "items": [
+          "Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)",
+          "Erh\u00f6hter Durchflussquerschnitt durch d\u00fcnnere Wandst\u00e4rken bei gleicher Druckstufe",
+          "Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich",
+          "Toxikologisch v\u00f6llig unbedenklich, lebensmittelecht gepr\u00fcft"
+        ]
+      },
+      "certs": {
+        "eyebrow": "Compliance & Zertifizierungen",
+        "title": "Die h\u00e4rtesten Normen der Welt? Wir \u00fcbertreffen sie.",
+        "lead": "Internationale Projekte erfordern internationale Zulassungen. K Aqua ist weltweit gepr\u00fcft, gepr\u00fcft und freigegeben von den striktesten Regulierungsbeh\u00f6rden."
+      },
+      "cta": {
+        "title": "Bauen Sie f\u00fcr die Ewigkeit.",
+        "desc": "Verlassen Sie sich bei Ihrem n\u00e4chsten Hotel- oder Resort-Projekt nicht auf den Standard. Definieren Sie ihn neu. Kontaktieren Sie unsere leitenden Ingenieure f\u00fcr eine tiefe technische Evaluierung.",
+        "button1": "Projekt evaluieren lassen",
+        "button2": "Direktkontakt Sales"
+      }
+    },
+    "vorfertigung": {
+      "meta": {
+        "title": "Vorfertigung Infrastruktur | K Aqua",
+        "desc": "K Aqua Vorfertigung: Kompromisslose Sicherheit durch German Engineering f\u00fcr globale Megaprojekte. Entdecken Sie unsere Vorfertigungsl\u00f6sungen."
+      },
+      "hero": {
+        "badge": "German Engineering. Global Impact.",
+        "title1": "Vorfertigung.",
+        "title2": "Neu definiert.",
+        "desc": "Die industrielle Autorit\u00e4t f\u00fcr makellose, vorgefertigte Rohrleitungssysteme. Entwickelt, um Generationen zu \u00fcberdauern, gefertigt mit der Pr\u00e4zision, die den Weltmarkt anf\u00fchrt. Wo Fehler keine Option sind, beginnt K Aqua.",
+        "cta1": "Projekt anfragen",
+        "cta2": "Technische Spezifikationen"
+      },
+      "intro": {
+        "eyebrow": "Die Philosophie der Perfektion",
+        "title": "Warum der Weltmarkt auf K Aqua vertraut.",
+        "lead": "Wenn Sie ein Geb\u00e4ude entwerfen, das den Himmel kratzt, oder ein Krankenhaus, in dem jede Sekunde z\u00e4hlt, k\u00f6nnen Sie sich nicht auf die Variablen der Baustellenfertigung verlassen. Sie ben\u00f6tigen die klinische Pr\u00e4zision einer industriellen Vorfertigung.",
+        "p1": "In der modernen Bauindustrie sind Zeit, Qualit\u00e4t und Sicherheit die wertvollsten Ressourcen. Traditionelle Rohrmontage auf der Baustelle birgt unkalkulierbare Risiken: Wetterbedingungen, schwankende handwerkliche Qualit\u00e4t, Platzmangel und unvorhersehbare Verz\u00f6gerungen. K Aqua eliminiert diese Variablen vollst\u00e4ndig.",
+        "p2": "Unsere Vorfertigungsl\u00f6sungen transformieren das unberechenbare Handwerk der Rohrinstallation in einen hochgradig kontrollierten, industriellen Prozess. In unseren deutschen Produktionsst\u00e4tten herrschen optimale Bedingungen. Temperatur, Luftfeuchtigkeit, Sauberkeit: alles ist exakt auf den Schwei\u00dfprozess unserer PPR-C (Polypropylen Random Copolymer) Systeme abgestimmt.",
+        "quote": "\"Wir verkaufen keine Rohre. Wir verkaufen die absolute Gewissheit, dass ein System f\u00fcr die n\u00e4chsten 50 Jahre wartungsfrei funktionieren wird.\"",
+        "p3": "Von komplexen Verteilerstationen \u00fcber Steigleitungen bis hin zu ma\u00dfgeschneiderten Sonderl\u00f6sungen f\u00fcr industrielle K\u00fchlanlagen. Wir fertigen nach Ihren ISO-Zeichnungen oder entwickeln gemeinsam mit Ihrem Engineering Team den optimalen digitalen Zwilling, der dann in physische Realit\u00e4t umgesetzt wird."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Milliardenprojekte verzeihen keine Fehler.",
+            "desc": "In der Welt der globalen Bau-Infrastruktur, ob in den W\u00fcstenmetropolen des Nahen Ostens oder in europ\u00e4ischen Hochtechnologiezentren, ist Ausfallzeit gleichbedeutend mit katastrophalen Verlusten. Unsere Vorfertigungssysteme werden f\u00fcr eine Realit\u00e4t entwickelt, in der Materialversagen absolut ausgeschlossen sein muss."
+          },
+          {
+            "title": "Digitale Pr\u00e4zision trifft deutsche Ingenieurskunst.",
+            "desc": "Jedes Rohrleitungssystem, jeder Verteiler und jedes Sondermodul wird als digitaler Zwilling in unseren hochmodernen BIM-Umgebungen (Building Information Modeling) auf den Millimeter genau geplant. Erst wenn die simulation perfekte Str\u00f6mungsdynamik und absolute Belastbarkeit unter Extrembedingungen best\u00e4tigt, beginnt die Fertigung."
+          },
+          {
+            "title": "Homogene Verschmelzung auf molekularer Ebene.",
+            "desc": "Im Gegensatz zu mechanischen Verbindungen oder geklebten Systemen nutzen wir fortschrittlichste thermische Polyfusionsschwei\u00dfverfahren. Rohr und Fitting verschmelzen zu einer einzigen, unzertrennbaren Einheit. Das Resultat ist eine stoffschl\u00fcssige Verbindung, die st\u00e4rker ist als das eigentliche Rohr selbst."
+          },
+          {
+            "title": "100% Pr\u00fcfprotokoll. Keine Ausnahmen.",
+            "desc": "Bevor ein vorgefertigtes K Aqua Modul unser Werk verl\u00e4sst, durchl\u00e4uft es ein drakonisches Testprogramm. Von hydrostatischen Druckpr\u00fcfungen weit \u00fcber den industriellen Standard hinaus, \u00fcber Ultraschall-Schwei\u00dfnahtkontrollen, bis hin zur optischen 3D-Vermessung. Deutsche Null Fehlertoleranz in Reinform."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Technische \u00dcberlegenheit",
+        "title": "Die DNA unserer Systeme.",
+        "lead": "gepr\u00fcft nach DIN EN ISO 15874. Konzipiert f\u00fcr die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.",
+        "items": [
+          {
+            "title": "PPR-C (Typ 3) Material",
+            "desc": "Unser Ausgangsmaterial bietet eine beispiellose thermische und chemische Best\u00e4ndigkeit. Es widersteht extremen Temperaturen und aggressiven Medien ohne Degradation."
+          },
+          {
+            "title": "Absolute Korrosionsfreiheit",
+            "desc": "W\u00e4hrend metallische Systeme ab dem ersten Tag der Installation langsam degradieren, bleibt unser Polymer-System v\u00f6llig immun gegen Korrosion, Lochfra\u00df und Inkrustation."
+          },
+          {
+            "title": "Akustische D\u00e4mmung",
+            "desc": "Die molekulare Struktur von K Aqua Rohren absorbiert Schallwellen signifikant besser als Metall, was zu fl\u00fcsterleisen Systemen f\u00fchrt, essenziell in Luxushotels und Krankenh\u00e4usern."
+          },
+          {
+            "title": "Geringer Druckverlust",
+            "desc": "Eine Innenraumrauheit von nur 0,007 mm garantiert minimale Reibung, verhindert Ablagerungen und reduziert den Energiebedarf der Pumpensysteme drastisch."
+          }
+        ]
+      },
+      "visual": {
+        "title1": "Die \u00c4sthetik der",
+        "title2": "Stoffschl\u00fcssigkeit.",
+        "p1": "Betrachten Sie die Schwei\u00dfnaht eines K Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes St\u00fcck Material sehen.",
+        "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer gepr\u00fcften Kunststoffschwei\u00dfer. Jeder Parameter: Temperatur, Aufw\u00e4rmzeit, F\u00fcgedruck und Abk\u00fchlzeit, wird pedantisch \u00fcberwacht.",
+        "p3": "Es ist diese mikroskopische Besessenheit f\u00fcr Details, die unsere makroskopische Garantie von \u00fcber 50 Jahren st\u00f6rungsfreiem Betrieb erm\u00f6glicht.",
+        "items": [
+          "Pr\u00e4zisionsfr\u00e4sen der Rohrenden",
+          "Computergesteuerte Erhitzung (260\u00b0C)",
+          "Exakte F\u00fcgung unter Hochdruck"
+        ]
+      },
+      "timeline": {
+        "eyebrow": "Prozessarchitektur",
+        "title": "Von der CAD-Zeichnung zur Baustelle.",
+        "lead": "Ein transparenter, rigider Prozess, der Just-in-Time-Lieferungen rund um den Globus garantiert.",
+        "events": [
+          {
+            "title": "Phase 1: Engineering & BIM",
+            "desc": "Nahtlose Integration in die architektonischen Modelle. Kollisionspr\u00fcfung und Str\u00f6mungssimulation.",
+            "date": "Woche 1-2"
+          },
+          {
+            "title": "Phase 2: CNC-Zuschnitt",
+            "desc": "Millimetergenauer Zuschnitt der PPR-C Materialien durch lasergest\u00fctzte CNC-Anlagen.",
+            "date": "Woche 3"
+          },
+          {
+            "title": "Phase 3: Polyfusion",
+            "desc": "Robotergest\u00fctzte und handwerkliche Meisterschwei\u00dfungen unter streng kontrollierten klimatischen Bedingungen im Werkstattumfeld.",
+            "date": "Woche 4-5"
+          },
+          {
+            "title": "Phase 4: QA & Druckpr\u00fcfung",
+            "desc": "Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und gepr\u00fcft.",
+            "date": "Woche 6"
+          },
+          {
+            "title": "Phase 5: Global Logistics",
+            "desc": "Sichere Verpackung und weltweiter Versand mit Just-in-Time Lieferung auf die Baustelle.",
+            "date": "Woche 7+"
+          }
+        ]
+      },
+      "manifesto": {
+        "eyebrow": "Das Manifest der Langlebigkeit",
+        "title": "Zugelassen f\u00fcr die anspruchsvollsten Umgebungen des Planeten.",
+        "p1": "K Aqua Vorfertigungen sind nicht f\u00fcr den Durchschnitt gemacht. Sie sind f\u00fcr das Extreme entworfen. Wenn die Au\u00dfentemperaturen in Dubai auf 50\u00b0C steigen oder in skandinavischen Wintern tief unter den Gefrierpunkt fallen, bleibt die Integrit\u00e4t unserer Polypropylen-Strukturen unangetastet.",
+        "p2": "Unsere Trinkwassersysteme erf\u00fcllen die strengsten hygienischen Anforderungen weltweit, einschlie\u00dflich KTW-BWGL und W270. Das Material gibt keinerlei Geruch, Geschmack oder Schadstoffe an das Wasser ab. Es verhindert proaktiv das Wachstum von Legionellen durch seine extrem glatte innere Oberfl\u00e4che, die keine N\u00e4hrb\u00f6den f\u00fcr Biofilme bietet.",
+        "p3": "Gleichzeitig sind unsere industriellen K\u00fchl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.",
+        "p4": "Wir betrachten Vorfertigung nicht als blo\u00dfe Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit f\u00fcr gro\u00dffl\u00e4chige Materiallagerung auf der Baustelle."
+      },
+      "cta": {
+        "title": "Bereit f\u00fcr kompromisslose Qualit\u00e4t?",
+        "desc": "Verlassen Sie sich bei Ihrem n\u00e4chsten Megaprojekt auf die absolute Verl\u00e4sslichkeit industrieller deutscher Vorfertigung. Unser Engineering Team wartet auf Ihre CAD-Modelle.",
+        "button1": "Projekt anfragen",
+        "button2": "Technischen Support kontaktieren"
+      }
+    },
+    "hochhaus": {
+      "meta": {
+        "title": "Hochhausbau Infrastruktur | K Aqua",
+        "desc": "K Aqua Hochhausbau: Kompromisslose Sicherheit durch German Engineering f\u00fcr globale Megaprojekte. Erfahren Sie mehr \u00fcber unsere Hochhausl\u00f6sungen."
+      },
+      "hero": {
+        "eyebrow": "Die vertikale Grenze",
+        "title1": "Hochhausbau.",
+        "title2": "Engineered in Germany.",
+        "desc": "Megaprojekte erfordern mehr als nur Rohre. Sie erfordern ein makelloses, wartungsfreies Kreislaufsystem, das dem extremen hydrostatischen Druck und den tektonischen Schwankungen standh\u00e4lt. K Aqua liefert kompromisslose Sicherheit f\u00fcr die anspruchsvollsten Geb\u00e4ude der Welt.",
+        "cta1": "Projekt anfragen",
+        "cta2": "Technische Spezifikationen"
+      },
+      "intro": {
+        "eyebrow": "Die Anatomie von Megabauten",
+        "title": "Ein Geb\u00e4ude ist nur so stark wie seine Adern.",
+        "lead": "In 500 Metern H\u00f6he verzeiht die Physik keine Konstruktionsfehler. Ein Haarriss in einer Steigleitung bedeutet katastrophale Sch\u00e4den in Millionenh\u00f6he. Deshalb \u00fcberlassen wir bei K Aqua nichts dem Zufall.",
+        "p1": "Hochh\u00e4user sind vertikale St\u00e4dte. Sie pulsieren, sie bewegen sich, sie atmen. Mit jedem Stockwerk steigt der hydrostatische Druck exponentiell an. Windlasten verursachen Mikroschwingungen in der gesamten Struktur. Temperaturunterschiede zwischen dem eisigen Fundament und der sonnen\u00fcberfluteten Spitze f\u00fchren zu gewaltigen thermischen L\u00e4ngenausdehnungen.",
+        "p2": "Traditionelle metallische Rohrleitungssysteme sto\u00dfen hier an ihre absoluten physikalischen Grenzen. Korrosion, Lochfra\u00df, Inkrustation und Erm\u00fcdungsbr\u00fcche an den Schwei\u00dfn\u00e4hten sind keine Frage des \"Ob\", sondern des \"Wann\". Im Hochhausbau ist ein Leck nicht einfach nur ein technisches Problem. Es ist ein finanzielles Risiko, das ein gesamtes Projekt gef\u00e4hrden kann.",
+        "p3": "K Aqua Hochleistungspolymere (PP-R & PPRCT) ver\u00e4ndern die Spielregeln der Hochhaus-Infrastruktur fundamental. Sie korrodieren nicht. Sie verkalken nicht. Und durch unsere homogene thermische Schwei\u00dftechnik verschmelzen Rohr und Fitting auf molekularer Ebene zu einer einzigen, unzertrennbaren Einheit. Das Kreislaufsystem wird so stark wie das Material selbst."
+      },
+      "sticky": {
+        "eyebrow": "Extrembedingungen",
+        "title": "Die Physik der H\u00f6he meistern.",
+        "lead": "Vier fundamentale Herausforderungen im Hochhausbau und wie die deutsche Ingenieurskunst von K Aqua sie \u00fcberwindet.",
+        "items": [
+          {
+            "title": "Extremer Hydrostatischer Druck",
+            "desc": "Mit jedem Meter H\u00f6he w\u00e4chst die Wassers\u00e4ule. In Megatalls entstehen Dr\u00fccke jenseits von 30 bar. K Aqua PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) Rohre bieten eine bis zu 50% h\u00f6here Druckfestigkeit bei hohen Temperaturen im Vergleich zu Standard-PP-R. Sie fungieren als unverw\u00fcstliches R\u00fcckgrat der Wasserversorgung, selbst in Zonen maximaler statischer Belastung."
+          },
+          {
+            "title": "Thermische L\u00e4ngenausdehnung & Spannungskontrolle",
+            "desc": "Das Pumpen von hei\u00dfem Wasser durch ein 300 Meter langes Rohr erzeugt immense L\u00e4ngenausdehnungen und Scherkr\u00e4fte. Unsere Faserverbundtechnologie reduziert die thermische Ausdehnung um bis zu 75%. Das bedeutet weniger Befestigungspunkte, keine Dehnungsschleifen und ultimative strukturelle Integrit\u00e4t, verpackt in einem leichten, leicht zu montierenden System."
+          },
+          {
+            "title": "Molekulare Homogenit\u00e4t (Leckagefreiheit)",
+            "desc": "Wo O-Ringe oder Pressfittings aus Elastomeren verbaut sind, entstehen unweigerlich Leckagen durch Alterung. K Aqua eliminiert Dichtungen komplett. Durch das thermische Heizelementmuffenschwei\u00dfen verschmelzen Rohr und Fitting bei exakt 260\u00b0C. Die resultierende Verbindung ist mechanisch genauso stark wie das Rohr selbst. Null Leckagen. Garantiert auf Lebenszeit."
+          },
+          {
+            "title": "Akkustische Entkopplung (Schallschutz)",
+            "desc": "In Luxus-Penthouses und High End Offices ist Stille das ultimative Gut. Flie\u00dfger\u00e4usche und Druckschl\u00e4ge m\u00fcssen eliminiert werden. Die hohe Materialdichte und die schallabsorbierenden Eigenschaften unserer PP-R Polymere d\u00e4mpfen K\u00f6rperschall und Flie\u00dfger\u00e4usche massiv und \u00fcbertreffen die strengen Anforderungen der DIN 4109 und VDI 4100 bei Weitem."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Spezifikationen",
+        "title": "Architektur f\u00fcr die Ewigkeit.",
+        "lead": "Pr\u00e4zisionsgefertigt nach strengsten deutschen Ma\u00dfst\u00e4ben f\u00fcr 100% Wartungsfreiheit. Wir definieren den globalen Standard im Segment der Rohrleitungssysteme f\u00fcr Wolkenkratzer.",
+        "items": [
+          {
+            "title": "Die PPRCT Revolution",
+            "desc": "Die n\u00e4chste Generation des Polypropylens. Modifizierte kristalline Struktur f\u00fcr nie dagewesene Druck- und Temperaturbest\u00e4ndigkeit bei reduzierter Wandst\u00e4rke. Maximiert den Durchfluss, minimiert das Gewicht, ein entscheidender Faktor bei der Statik gro\u00dfer Geb\u00e4ude."
+          },
+          {
+            "title": "DIN EN ISO 15874",
+            "desc": "gepr\u00fcfte Sicherheit durch unabh\u00e4ngige deutsche Pr\u00fcfinstitute wie SKZ und DVGW. H\u00f6chste Trinkwasserg\u00fcte, keine Auswaschungen."
+          },
+          {
+            "title": "Absolute Korrosionsresistenz",
+            "desc": "Unempfindlich gegen pH-Wert-Schwankungen, aggressive Wasserqualit\u00e4ten, Chlorierung und elektrochemische Korrosion (Lochfra\u00df)."
+          },
+          {
+            "title": "Vollst\u00e4ndige Vorfertigung (Prefabrication)",
+            "desc": "Zeit ist das teuerste Gut auf der Baustelle. Wir liefern millimetergenau vorgefertigte Verteiler-Arrays, Z\u00e4hlerbalken und Steigleitungskomponenten direkt 'Just-in-Time'. Reduziert die Installationszeit um bis zu 60% und eliminiert Fehlerquellen auf der Baustelle."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Der Projektzyklus",
+        "desc": "Von der ersten Str\u00f6mungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.",
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Engineering & BIM",
+            "text": "Unsere Ingenieure unterst\u00fctzen bei der Auslegung der Steigleitungen, der Berechnung der Druckzonen und stellen vollst\u00e4ndige BIM-Daten (Revit) zur Kollisionspr\u00fcfung und TGA-Planung bereit."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Pr\u00e4zisionsextrusion",
+            "text": "In unseren hochmodernen Anlagen in Deutschland werden Rohre und Fittings unter st\u00e4ndiger Ultraschall-Wanddickenkontrolle und strengster Labor\u00fcberwachung gefertigt. Jede Charge ist 100% nachverfolgbar."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Just-in-Time Logistik",
+            "text": "Durch unser weltweites Vertriebsnetzwerk stellen wir sicher, dass das Material taktgenau auf der Baustelle eintrifft, egal ob in der W\u00fcste von Dubai, in Singapur oder in Frankfurt am Main."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Homogene Verschmelzung",
+            "text": "Lokale Installateure werden von unseren Technikern vor Ort geschult. Die thermischen Schwei\u00dfverbindungen werden in Sekundenschnelle gesetzt und sind sofort nach dem Ausk\u00fchlen voll druckbelastbar."
+          },
+          {
+            "year": "Jahrzehnte",
+            "title": "Wartungsfreier Betrieb",
+            "text": "Nach der finalen Druckpr\u00fcfung verschwinden unsere Systeme im Schacht oder Beton. F\u00fcr die n\u00e4chsten 50+ Jahre werden Sie nie wieder an sie denken m\u00fcssen. Ein unsichtbares, perfektes Netzwerk."
+          }
+        ]
+      },
+      "data": {
+        "eyebrow": "Die Daten",
+        "title": "Faktenbasierte \u00dcberlegenheit.",
+        "lead": "Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).",
+        "h3_1": "Molekulare Best\u00e4ndigkeit",
+        "p1": "Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchen\u00fcblichen Standardvorgaben gehen von einer 50-j\u00e4hrigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit f\u00fcr eine Lebensdauer von \u00fcber 100 Jahren. Das K Aqua PPRCT Material verz\u00f6gert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.",
+        "h3_2": "Hydraulische Str\u00f6mungsdynamik",
+        "p2": "Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand f\u00fcr die F\u00f6rderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberfl\u00e4chenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfl\u00e4che bleibt \u00fcber die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften k\u00f6nnen.",
+        "stats": [
+          {
+            "label": "Dichte (g/cm\u00b3)",
+            "val": "0.905",
+            "standard": "ISO 1183"
+          },
+          {
+            "label": "Schmelzindex (g/10min)",
+            "val": "0.3",
+            "standard": "ISO 1133"
+          },
+          {
+            "label": "Zug-E-Modul (MPa)",
+            "val": "800 / 900 (RCT)",
+            "standard": "ISO 527"
+          },
+          {
+            "label": "W\u00e4rmeleitf\u00e4higkeit (W/mK)",
+            "val": "0.24",
+            "standard": "DIN 52612"
+          },
+          {
+            "label": "L\u00e4ngenausdehnungskoeffizient (mm/mK)",
+            "val": "0.15 (Standard) / 0.035 (Faser)",
+            "standard": "DIN 53752"
+          },
+          {
+            "label": "Oberfl\u00e4chenrauigkeit k (mm)",
+            "val": "0.007",
+            "standard": "Pr\u00fcfstand"
+          },
+          {
+            "label": "Chemische Best\u00e4ndigkeit",
+            "val": "Ph-Wert 1 bis 14",
+            "standard": "DIN 8078"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bereit, die Skyline der Zukunft zu pr\u00e4gen?",
+        "desc": "Sprechen Sie mit unserem dedizierten Hochhaus-Engineering Team \u00fcber Str\u00f6mungsberechnungen, statische Auslegungen und ma\u00dfgeschneiderte Prefab-L\u00f6sungen f\u00fcr Ihr n\u00e4chstes Megaprojekt.",
+        "button1": "Projekt anfragen",
+        "button2": "Technischen Support kontaktieren"
+      }
+    },
+    "index": {
+      "meta": {
+        "title": "PP-R Materialvorteile und Physikalische \u00dcberlegenheit",
+        "desc": "Entdecken Sie unsere Hochleistungspolymersysteme f\u00fcr kritische Infrastrukturen. K-Aqua bietet ma\u00dfgeschneiderte PP-R L\u00f6sungen f\u00fcr industrielle Anwendungen."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Molekulare Homogenit\u00e4t",
+            "p1": "Das K-AQUA PPR-System beruht auf fortgeschrittener Polyfusionstechnologie. Durch exakt kalibrierte Erhitzung verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren, koh\u00e4renten Einheit.",
+            "p2": "Diese l\u00fcckenlose Synthese eliminiert jegliche Schwachstellen, die bei mechanischen Verbindungen oder Klebeverfahren unweigerlich entstehen. Das Resultat ist eine Infrastruktur von absoluter Integrit\u00e4t, die hydraulischen Schocks und extremen Druckspitzen souver\u00e4n widersteht."
+          },
+          {
+            "title": "Thermische Ausdauer",
+            "p1": "Thermische Fluktuationen sind der Hauptfeind konventioneller Rohrleitungssysteme. K-AQUA Polymere sind durch ein hochverdichtetes Kristallgitter strukturiert, das selbst bei permanenten Betriebstemperaturen von bis zu 95\u00b0C strukturelle Deformationen verhindert.",
+            "p2": "Die spezifische W\u00e4rmekapazit\u00e4t des Materials reduziert zudem die Notwendigkeit extremer Isolierungen, was die Energieeffizienz des Gesamtsystems signifikant steigert."
+          },
+          {
+            "title": "Hydraulische Perfektion",
+            "p1": "Ein absoluter Rauheitswert von lediglich 0,007 mm definiert die Innenoberfl\u00e4che der K-AQUA Rohre. Diese mikroskopisch glatte Topografie verhindert jegliche Inkrustation, Mineralablagerungen oder Biofilmbildung.",
+            "p2": "Str\u00f6mungsverluste werden auf ein physikalisches Minimum reduziert, was den Energiebedarf der Pumpensysteme \u00fcber Jahrzehnte hinweg drastisch senkt. Der konstante Innendurchmesser garantiert eine perpetuelle, unverminderte Durchflussrate."
+          },
+          {
+            "title": "Chemische Immunit\u00e4t",
+            "p1": "Im Gegensatz zu metallischen Systemen ist das K-AQUA PPR-Netzwerk vollst\u00e4ndig immun gegen Oxidation, Lochfra\u00df und galvanische Korrosion. Die inerten Eigenschaften des Copolymers widerstehen einer extremen Bandbreite hochaggressiver Chemikalien und variierender pH-Werte.",
+            "p2": "Selbst in hochkorrosiven industriellen Umgebungen oder bei der Bef\u00f6rderung aggressiver Fluide bleibt die molekulare Integrit\u00e4t der Leitung unangetastet."
+          }
+        ],
+        "header": {
+          "title": "Physikalische \u00dcberlegenheit.",
+          "desc": "Die technischen Prinzipien, die K-AQUA Systemen ihre \u00fcberragende Langlebigkeit und operative Sicherheit verleihen."
+        }
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 01",
+            "title": "Strukturelle Analyse",
+            "text": "Evaluation der thermodynamischen und fluiddynamischen Anforderungen. Pr\u00e4zise Berechnung von Druckstufen, thermischer L\u00e4ngenausdehnung und hydraulischen Widerst\u00e4nden durch unsere Ingenieure."
+          },
+          {
+            "year": "Phase 02",
+            "title": "Materialspezifikation",
+            "text": "Selektion des optimalen PPR-Copolymers. Abstimmung der Wandst\u00e4rken und Dimensionen (20mm bis 160mm) auf die spezifischen Belastungsprofile der industriellen Anwendung."
+          },
+          {
+            "year": "Phase 03",
+            "title": "Systemische Synthese",
+            "text": "Polyfusionsschwei\u00dfung unter streng kontrollierten thermischen Parametern. Erschaffung eines monolithischen Netzwerks ohne Dichtungen oder mechanische Schwachstellen."
+          },
+          {
+            "year": "Phase 04",
+            "title": "Betriebsexzellenz",
+            "text": "Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberfl\u00e4chen verhindern Inkrustation, w\u00e4hrend die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert."
+          }
+        ],
+        "title": "PROZESS-ARCHITEKTUR",
+        "desc": "Von der mathematischen Kalkulation bis zur ewigen Betriebssicherheit. Der Lebenszyklus einer K-AQUA Installation verl\u00e4uft nach strengen ingenieurstechnischen Protokollen."
+      },
+      "hero": {
+        "eyebrow": "INDUSTRIELLE & BAUTECHNISCHE L\u00d6SUNGEN",
+        "title1": "SYSTEMARCHITEKTUR",
+        "title2": "F\u00dcR DIE EWIGKEIT.",
+        "desc": "Entdecken Sie die PP-R Materialvorteile und die physikalische \u00dcberlegenheit unserer Hochleistungspolymersysteme von K-Aqua. Entwickelt unter extremen Bedingungen, verifiziert durch kompromisslose deutsche Ingenieurskunst. Diese Systemarchitektur ist f\u00fcr die Ewigkeit konzipiert.",
+        "cta": "Kontakt aufnehmen"
+      },
+      "intro": {
+        "title": "Jenseits konventioneller Belastungsgrenzen.",
+        "p1": "Wo metallische Rohrsysteme durch Korrosion, Inkrustation und thermische Materialerm\u00fcdung kapitulieren, beginnt das operative Spektrum von K-AQUA. Unsere Polypropylen Random Copolymer (PPR) Infrastrukturen definieren die physikalischen Grenzen des Fluidtransports neu.",
+        "p2": "Jeder Millimeter unseres Systems ist das Resultat jahrzehntelanger materialwissenschaftlicher Forschung. Wir liefern keine simplen Rohre; wir implementieren makellose, monolithische Lebensadern f\u00fcr Anlagen, die keinen Raum f\u00fcr Ausf\u00e4lle tolerieren. Von arktischer K\u00e4lte bis hin zu siedenden industriellen Prozessen ist K-AQUA die architektonische Antwort auf extreme ingenieurstechnische Herausforderungen."
+      },
+      "bento": {
+        "header": {
+          "title": "Anwendungsvektoren.",
+          "desc": "Skalierbare Systeml\u00f6sungen f\u00fcr spezifische industrielle und bautechnische Sektoren."
+        },
+        "items": [
+          {
+            "title": "Trinkwasserhygiene & Sanit\u00e4r",
+            "desc": "Absolute Lebensmittelechtheit und toxikologische Unbedenklichkeit. Verhinderung von Legionellenbildung durch opakes, lichtundurchl\u00e4ssiges Materialdesign."
+          },
+          {
+            "title": "HVAC & Klimatechnik",
+            "desc": "Hocheffiziente thermische Isolation durch geringe W\u00e4rmeleitf\u00e4higkeit. Kondensatminimierung bei K\u00fchlwasserleitungen."
+          },
+          {
+            "title": "Druckluftnetzwerke",
+            "desc": "Leckagefreie \u00dcbertragung bei extremen Arbeitsdr\u00fccken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel."
+          },
+          {
+            "title": "Schiffbau & Offshore",
+            "desc": "Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen."
+          },
+          {
+            "title": "Industrieller Fluidtransport",
+            "desc": "Kompromisslose Performance beim Transport aggressiver Chemikalien, abrasiver Schl\u00e4mme oder hochreiner Prozessfl\u00fcssigkeiten. Das K-AQUA System garantiert eine ununterbrochene, sichere Produktion."
+          }
+        ]
+      },
+      "stats": {
+        "0": {
+          "label": "Jahre garantierte Lebensdauer",
+          "desc": "Unter Standard-Betriebsbedingungen (20\u00b0C / 10 bar) \u00fcbersteigt die Haltbarkeit von K-AQUA PPR-Systemen problemlos ein halbes Jahrhundert ohne signifikante Materialdegradation."
+        },
+        "1": {
+          "label": "W/mK W\u00e4rmeleitf\u00e4higkeit",
+          "desc": "Im Vergleich zu Kupfer (380 W/mK) oder Stahl (50 W/mK) isoliert K-AQUA von Natur aus, was massive Einsparungen bei externer D\u00e4mmung und Energieverlusten bedeutet."
+        },
+        "2": {
+          "label": "Homogene Verbindungen",
+          "desc": "Durch molekulares Schwei\u00dfen entsteht ein absolut nahtloses System. Das Rohr und der Fitting werden zu einer einzigen, untrennbaren Komponente fusioniert."
+        },
+        "title": "Ingenieurskunst in Zahlen."
+      },
+      "cta": {
+        "eyebrow": "PROJEKT-INITIIERUNG",
+        "title1": "BEREIT F\u00dcR DIE",
+        "title2": "N\u00c4CHSTE DIMENSION.",
+        "desc": "Kontaktieren Sie unsere Ingenieure f\u00fcr eine detaillierte technische Evaluation Ihrer Spezifikationen und Herausforderungen.",
+        "button1": "Ingenieursteam kontaktieren",
+        "button2": "Spezifikationen ansehen"
+      }
+    },
+    "rechenzentrum": {
+      "meta": {
+        "title": "Rechenzentren Infrastruktur | K Aqua",
+        "desc": "K Aqua Rechenzentren: Kompromisslose Sicherheit durch German Engineering f\u00fcr globale Megaprojekte. Entdecken Sie L\u00f6sungen f\u00fcr moderne Rechenzentren."
+      },
+      "scroll": {
+        "items": [
+          {
+            "title": "Die thermische Herausforderung von KI und HPC",
+            "desc": "Moderne High-Performance Computing (HPC) und K\u00fcnstliche Intelligenz (KI) Racks produzieren immense Abw\u00e4rme. Luftk\u00fchlung allein st\u00f6\u00dft an ihre physikalischen Grenzen. Die Zukunft geh\u00f6rt Liquid Cooling und damit Wasser als kritischem W\u00e4rmetr\u00e4germedium direkt am Chip."
+          },
+          {
+            "title": "Korrosion ist der Feind der Verf\u00fcgbarkeit",
+            "desc": "Metallische Rohrleitungssysteme unterliegen im Dauerbetrieb Lochfra\u00df, Rost und chemischer Zersetzung. Ein Mikroriss in einem Rechenzentrum kann Millionensch\u00e4den durch Serverausf\u00e4lle verursachen. K Aqua eliminiert dieses Risiko durch zu 100 % korrosionsfreies Polypropylen Random Copolymer (PP-R)."
+          },
+          {
+            "title": "Ultraschall-verschwei\u00dfte Molekularverbindungen",
+            "desc": "Wo herk\u00f6mmliche Rohre auf fehleranf\u00e4llige Dichtungen oder Schraubverbindungen setzen, verschmelzen K Aqua Systeme auf molekularer Ebene. Das Resultat: Ein vollkommen homogenes, absolut leckagefreies Pipelinenetzwerk. Zero-Tolerance f\u00fcr Undichtigkeiten."
+          },
+          {
+            "title": "Nachhaltigkeit & PUE-Optimierung",
+            "desc": "Ein niedriger PUE-Wert (Power Usage Effectiveness) ist der Heilige Gral der Data-Center-Betreiber. K Aqua Rohre verf\u00fcgen \u00fcber exzellente thermodynamische Eigenschaften. Geringere Rohrreibungsverluste und optimale W\u00e4rmeisolation minimieren Energieverluste bei der K\u00fchlwasserzirkulation massiv."
+          }
+        ]
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Phase 1",
+            "title": "Str\u00f6mungssimulation & Design",
+            "text": "Unsere Ingenieure analysieren die K\u00fchlungsanforderungen des Rechenzentrums. Wir berechnen Volumenstr\u00f6me, eliminieren Flaschenh\u00e4lse und dimensionieren das Rohrnetz auf maximale hydrodynamische Effizienz."
+          },
+          {
+            "year": "Phase 2",
+            "title": "Pr\u00e4zisions-Vorfertigung",
+            "text": "Im Stammwerk in Deutschland werden komplexe Verteiler-Spools nach Ma\u00df vorgefertigt. Zentimetergenau, vollautomatisiert und unter Laborbedingungen qualit\u00e4tsgesichert."
+          },
+          {
+            "year": "Phase 3",
+            "title": "Just-In-Time Logistik",
+            "text": "Megaprojekte verzeihen keine Lieferverz\u00f6gerungen. Wir koordinieren die weltweite Logistik direkt auf das Baufeld, synchronisiert mit dem strengen Takt der Generalunternehmer."
+          },
+          {
+            "year": "Phase 4",
+            "title": "Homogene Verschwei\u00dfung",
+            "text": "Lokale Installationsteams werden durch K Aqua Master-Schwei\u00dfer gepr\u00fcft. Die molekulare Verschwei\u00dfung auf der Baustelle garantiert eine 100 % leckagefreie, homogene Leitungsstruktur ohne Schwachstellen."
+          },
+          {
+            "year": "Phase 5",
+            "title": "Druckpr\u00fcfung & Pr\u00fcfung",
+            "text": "Vor der \u00dcbergabe erfolgt eine unerbittliche hydraulische Druck- und Belastungspr\u00fcfung. Erst wenn das System diese Tests besteht, erteilen wir die Freigabe und \u00fcbernehmen die volle Systemgarantie."
+          }
+        ],
+        "title": "Der Engineering-Prozess",
+        "desc": "Von der hydrodynamischen Skizze bis zur finalen Abnahme: Wie wir globale Hyperscale-Infrastrukturen ohne Kompromisse und in Rekordzeit realisieren."
+      },
+      "hero": {
+        "eyebrow": "Hyperscale & Colocation Infrastructure",
+        "title1": "Zero-Downtime Infrastruktur.",
+        "title2": "Engineered in Germany.",
+        "desc": "Wenn K\u00fchlsysteme das Herzst\u00fcck globaler Rechenzentren bilden, ist Materialversagen keine Option. Entdecken Sie die sicherste, effizienteste und skalierbarste PP-R Leitungsl\u00f6sung f\u00fcr gesch\u00e4ftskritische K\u00e4lte- und Klimatechnik.",
+        "cta1": "Projekt anfragen",
+        "cta2": "Technisches Whitepaper"
+      },
+      "section1": {
+        "eyebrow": "Mission-Critical Cooling",
+        "title": "Warum klassische Rohre scheitern.",
+        "lead": "Die Anforderungen moderner Hyperscaler und KI-Cluster \u00fcberschreiten die physikalischen Grenzen traditioneller Metallsysteme."
+      },
+      "section2": {
+        "eyebrow": "Die \u00dcberlegenheit von PP-R",
+        "title": "Materialwissenschaft f\u00fcr das 21. Jahrhundert.",
+        "lead": "Jedes atomare Detail unseres Systems wurde f\u00fcr absolute Ausfallsicherheit und Dauerhaftigkeit optimiert."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Chemische Neutralit\u00e4t & Reinheit",
+            "desc": "Geschlossene K\u00fchlkreisl\u00e4ufe ben\u00f6tigen Konditionierungsmittel. K Aqua verh\u00e4lt sich absolut inert gegen\u00fcber aggressiven Additiven und verhindert Algen- sowie Biofilmbildung vollst\u00e4ndig. Keine chemische Zersetzung, keine Partikel im K\u00fchlwasser."
+          },
+          {
+            "title": "Druckresilienz im Hochhaus",
+            "desc": "Ausgelegt f\u00fcr konstante H\u00f6chstlasten unter extremen PN10 / PN20 Druckbedingungen in vertikalen Hochhaus-Rechenzentren."
+          },
+          {
+            "title": "Deutsche Vorfertigung",
+            "desc": "Wir schwei\u00dfen komplexe Verteilerbl\u00f6cke in unserem Stammwerk in Deutschland vor. Plug-and-Play Lieferung f\u00fcr drastisch verk\u00fcrzte Bauzeiten."
+          },
+          {
+            "title": "Erdbebensicher (Seismic Resistance)",
+            "desc": "Im Gegensatz zu starren Metallsystemen verf\u00fcgt unser PP-R-System \u00fcber eine definierte intrinsische Elastizit\u00e4t. Schockwellen und massive Vibrationen durch Notstromaggregate oder starke seismische Aktivit\u00e4ten werden absorbiert statt zerst\u00f6rerische Br\u00fcche zu verursachen."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bereit f\u00fcr kompromisslose Sicherheit?",
+        "desc": "Verbinden Sie sich mit unserem Engineering Team. Wir analysieren Ihr n\u00e4chstes Rechenzentrums-Megaprojekt und liefern die Infrastruktur der Zukunft.",
+        "button": "Engineering-Gespr\u00e4ch vereinbaren"
+      }
+    }
+  }
+}

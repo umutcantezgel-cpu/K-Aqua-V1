@@ -1,184 +1,186 @@
 {
-  "seo": {
-    "impressum1": "The K Aqua PP-R and PPRCT piping systems are manufactured by KWT GmbH in Waldsolms, Germany, with the highest precision. Our imprint offers our customers and business partners complete transparency about our corporate structure, the legal representatives, and all relevant commercial register data. We attach great importance to open communication and compliance with all legal requirements in national and international business transactions. The information provided on our pages is continuously checked and updated to always provide you with correct technical and commercial data for our plastic piping systems.",
-    "impressum2": "As a globally operating manufacturer of premium plastic pipe solutions for drinking water, heating and cooling systems as well as highly complex industrial applications, we are committed to strict compliance with all legal and regulatory standards. This includes data protection, fair conditions of competition and international trade guidelines. However, no liability or guarantee can be assumed for the topicality, correctness and completeness of the information provided and software tools for hydraulic calculation. The content and structure of the K Aqua websites are protected by copyright. The reproduction of information, technical data sheets or installation guidelines requires prior consent.",
-    "kontakt1": "Do you have technical questions about our PP-R/PPRCT pipes or do you need support for an international project? The K Aqua contact team in Waldsolms will be happy to assist you.",
-    "kontakt2": "Whether isometric calculations, on-site welder training or commercial inquiries, our engineers and sales representatives reply promptly to ensure the success of your project.",
-    "projektanfrage1": "Are you planning a pioneering construction project? Send us your project request for K Aqua PP-R and PPRCT piping systems. Our technical department in Waldsolms specializes in the design and dimensioning of large installations. This includes demanding high-rise buildings, hygienically sensitive hospitals, extensive district cooling networks and complex industrial cooling and heating systems. Thanks to our decades of experience in polymer engineering, we understand the specific hydraulic and thermal requirements placed on the infrastructure of modern buildings. With K Aqua you choose not just a product, but a holistic system solution.",
-    "projektanfrage2": "As soon as you provide us with your detailed project specifications, P&ID plans or isometrics, our specialist engineers begin a deep analysis. We support you with complex pressure loss calculations, the determination of thermal linear expansion and the exact positioning of fixed and sliding points. We also create precise bills of materials and design tailor-made transition fittings for connecting to large metal components. Our goal is to design a hydraulically perfectly balanced pipe network for you that minimizes the energy consumption of your pumps and guarantees a maintenance-free service life of over 50 years.",
-    "projektanfrage3": "Discretion and reliability are our top priorities. Every project inquiry is treated strictly confidentially and processed exclusively by our qualified German engineering team. We also coordinate global logistics and ensure that our high-end pipes and fittings arrive at your construction site on time and undamaged. In addition, we offer on-site welder training by our certified instructors to ensure that the installation is carried out exactly according to the specifications of German Engineering. With K Aqua you ensure maximum efficiency, absolute freedom from leaks and the longevity of your entire piping system.",
-    "news1": "Stay up to date with the latest news from K Aqua. We regularly publish updates on new PP-R/PPRCT product developments, international trade fair appearances and global major projects.",
-    "news2": "Our news section also informs you about technical innovations in socket welding, material science advances in Polypropylene Random Copolymer and sustainability initiatives at our plant in Waldsolms."
-  },
-  "eyebrow": "About Us",
-  "title1": "Experience is your",
-  "titleGrad": "Advantage.",
-  "lead": "New strategies, grown knowledge: KWT GmbH combines decades of manufacturing experience with a clear view ahead.",
-  "h2": "K Aqua, leading in water supply",
-  "p1": "The business area of KWT GmbH is the production of pipes and fittings for water supply from various plastics. Thus, the company positions itself in the construction value chain as a building materials supplier and manufacturer.",
-  "p2": "With the premium manufacturer KESSEL, \"Leading in drainage\", there is a close and long-standing partnership. With this experience from decades, we carry our success into the future.",
-  "polEyebrow": "Corporate Policy",
-  "polTitle": "Value is created through interaction.",
-  "polLead": "No customer benefit without employee benefit, no employee benefit without company benefit, and no company benefit without benefit for the environment and the world around us.",
-  "cards": [
-    {
-      "t": "People in focus",
-      "d": "All employees are involved in the continuous improvement process, while quality always remains compatible with costs and deadlines."
+  "about": {
+    "seo": {
+      "impressum1": "Die K Aqua PP-R und PPRCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, mit höchster Präzision hergestellt. Unser Impressum bietet unseren Kunden und Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur, die gesetzlichen Vertreter und alle relevanten Handelsregisterdaten. Wir legen größten Wert auf eine offene Kommunikation und die Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr. Die auf unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft und aktualisiert, um Ihnen stets korrekte technische und kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
+      "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser, Heizungs- und Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen und regulatorischen Standards. Dies schließt den Datenschutz, faire Wettbewerbsbedingungen und internationale Handelsrichtlinien mit ein. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt und Struktur der K Aqua Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen, technischen Datenblättern oder Installationsrichtlinien bedarf der vorherigen Zustimmung.",
+      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
+      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen: unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
+      "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage für K Aqua PP-R und PPRCT Rohrsysteme. Unsere technische Abteilung in Waldsolms ist auf die Auslegung und Dimensionierung von Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, hygienisch sensible Krankenhäuser, weitreichende Fernkältenetze und komplexe industrielle Kühl- und Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir die spezifischen hydraulischen und thermischen Anforderungen, die an die Infrastruktur moderner Bauwerke gestellt werden. Mit K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
+      "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne oder Isometrien mitteilen, beginnen unsere Fachingenieure mit einer tiefgehenden Analyse. Wir unterstützen Sie bei komplexen Druckverlustberechnungen, der Ermittlung von thermischen Längenausdehnungen und der exakten Positionierung von Fest- und Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) und konzipieren maßgeschneiderte Übergangsfittings für die Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen, das den Energieverbrauch Ihrer Pumpen minimiert und eine wartungsfreie Lebensdauer von über 50 Jahren garantiert.",
+      "projektanfrage3": "Diskretion und Zuverlässigkeit stehen bei uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt und ausschließlich von unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus die weltweite Logistik und gewährleisten, dass unsere High End-Rohre und Formteile termingerecht und unbeschadet auf Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass die Installation exakt nach den Vorgaben des German Engineerings ausgeführt wird. Mit K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit und die Langlebigkeit Ihres gesamten Rohrleitungssystems.",
+      "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
+      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
     },
-    {
-      "t": "Reliability",
-      "d": "Wishes of customers and all interested parties are identified, taken seriously and implemented in compliance with legal and social standards."
+    "eyebrow": "Über uns",
+    "title1": "Erfahrung ist Ihr",
+    "titleGrad": "Vorteil.",
+    "lead": "Neue Strategien, gewachsenes Wissen: Als Hersteller von K-Aqua verbindet die KWT GmbH jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
+    "h2": "K Aqua: führend in der Wasserversorgung",
+    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
+    "p2": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
+    "polEyebrow": "Unternehmenspolitik",
+    "polTitle": "Nutzen entsteht im Zusammenspiel.",
+    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+    "cards": [
+      {
+        "t": "Menschen im Mittelpunkt",
+        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden. Qualität bleibt dabei stets mit Kosten und Terminen vereinbar."
+      },
+      {
+        "t": "Verlässlichkeit",
+        "d": "Wünsche von Kunden und allen Interessierten werden unter Einhaltung gesetzlicher und sozialer Standards erkannt, ernst genommen und umgesetzt."
+      },
+      {
+        "t": "Ökologische Verantwortung",
+        "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
+      }
+    ],
+    "genauEyebrow": "GENAU-Managementsystem",
+    "genauTitle": "Genau hinschauen. Genau verbessern.",
+    "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+    "points": [
+      "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
+      "Optimierung der Energieeffizienz",
+      "Prävention, laufende Gefahrenermittlung und Risikobewertung",
+      "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
+    ],
+    "certTitle": "geprüft nach Norm",
+    "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001, seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "meta": {
+      "title": "Über KWT GmbH: Experten für Rohrherstellung",
+      "desc": "Die KWT GmbH in Waldsolms vereint deutsche Ingenieurskunst mit modernster Fertigung. Dreifach ISO-zertifiziert produzieren wir K-Aqua PP-R Rohrsysteme."
     },
-    {
-      "t": "Ecological Responsibility",
-      "d": "All company activities are carried out taking into account resource conservation, environmental compatibility and strict compliance with all obligations."
+    "hero": {
+      "eyebrow": "Die K Aqua Doktrin",
+      "title1": "German Engineering.",
+      "title2": "Kompromisslos.",
+      "desc": "Wir machen keine Kompromisse. Wir definieren den globalen Standard für PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+    },
+    "intro": {
+      "title1": "WIR LEITEN NICHT NUR WASSER.",
+      "title2": "WIR KONTROLLIEREN ES.",
+      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+    },
+    "material": {
+      "eyebrow": "Materialwissenschaft",
+      "title1": "Polypropylen Random Copolymerisat.",
+      "title2": "Entfesselt.",
+      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
+      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "items": [
+        {
+          "title": "Extreme Molmasse",
+          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+        },
+        {
+          "title": "Kristalline Optimierung",
+          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Die Evolution der Perfektion",
+      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "items": [
+        {
+          "year": "1990",
+          "title": "Der Ursprung der Toleranzlosigkeit",
+          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+        },
+        {
+          "year": "2005",
+          "title": "Die Polypropylen-Revolution",
+          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+        },
+        {
+          "year": "2015",
+          "title": "Die architektonische Symbiose",
+          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+        },
+        {
+          "year": "2026",
+          "title": "Die Molekulare Diktatur",
+          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+        }
+      ]
+    },
+    "sticky": {
+      "eyebrow": "DIE PHYSIK BEZWUNGEN",
+      "title": "Die Vier Säulen der Macht.",
+      "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "items": [
+        {
+          "title": "Absolutismus in der Qualität",
+          "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+        },
+        {
+          "title": "Thermische Unverwundbarkeit",
+          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+        },
+        {
+          "title": "Chemische Resistenz",
+          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+        },
+        {
+          "title": "Molekulare Fusion",
+          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+        }
+      ]
+    },
+    "bento": {
+      "eyebrow": "INDUSTRIELLE DOMINANZ",
+      "title": "Infrastruktur auf Steroiden.",
+      "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+      "items": [
+        {
+          "title": "Brachiale Extrusion",
+          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+        },
+        {
+          "title": "geprüfte Überlegenheit",
+          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+        },
+        {
+          "title": "Hygiene-Diktat",
+          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+        },
+        {
+          "title": "Ressourcen-Effizienz",
+          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Unternehmenspolitik",
+      "title": "Das Fundament unseres Handelns.",
+      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+      "items": [
+        {
+          "title": "Kunden-Obsession",
+          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+        },
+        {
+          "title": "Strategische Allianzen",
+          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+        },
+        {
+          "title": "Ökologischer Imperativ",
+          "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+        }
+      ]
+    },
+    "genauManagement": {
+      "eyebrow": "geprüfte Qualität",
+      "title1": "Das ",
+      "titleHighlight": "GENAU",
+      "title2": " Management System",
+      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
+      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
+      "p3": " und ",
+      "list1Title": "Ökologische Verantwortung",
+      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
+      "list2Title": "Energieeffizienz",
+      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
     }
-  ],
-  "genauEyebrow": "GENAU Management System",
-  "genauTitle": "Look closely. Improve exactly.",
-  "genauLead": "The GENAU management system is integrated into the House of KWT and thus a central element of our philosophy.",
-  "points": [
-    "Continuous improvement of occupational, environmental and health protection",
-    "Optimization of energy efficiency",
-    "Prevention, ongoing hazard identification and risk assessment",
-    "Every employee is obliged to report hazards and actively participate"
-  ],
-  "certTitle": "certified according to standard",
-  "certText": "The practiced GENAU management fulfills the requirements of DIN EN ISO 14001 and 50001, supplemented by ISO 9001:2015 since October 2025.",
-  "meta": {
-    "title": "About K-Aqua | Company Profile & German Engineering",
-    "desc": "KWT GmbH in Waldsolms combines German engineering excellence with cutting-edge manufacturing. Triple ISO-certified, we produce K-Aqua PP-R piping systems."
-  },
-  "hero": {
-    "eyebrow": "The K Aqua Doctrine",
-    "title1": "German Engineering.",
-    "title2": "Uncompromising.",
-    "desc": "We make no compromises. We define the global standard for PP-R piping systems. Welcome to the epicenter of German Engineering."
-  },
-  "intro": {
-    "title1": "WE DON'T JUST ROUTE WATER.",
-    "title2": "WE CONTROL IT.",
-    "desc": "For over 30 years we have been manufacturing piping systems built to last forever. No room for error. No room for mediocrity. Only pure, relentless precision manifesting itself in every single fitting."
-  },
-  "material": {
-    "eyebrow": "Materials Science",
-    "title1": "Polypropylene Random Copolymer.",
-    "title2": "Unleashed.",
-    "p1": "PP-R Type 3 is not just a plastic. It is a highly complex, thermoplastic material that we master at the molecular level.",
-    "p2": "Through the strategic arrangement of ethylene monomers in the propylene chain, we achieve unmatched impact strength, even at sub-zero temperatures. Our granulates come exclusively from the global elite of raw material producers. We analyze every batch using Differential Scanning Calorimetry (DSC) and Melt Flow Rate (MFR) tests. Anything that misses our specifications by even a fraction of a percent is mercilessly eliminated.",
-    "items": [
-      {
-        "title": "Extreme molar mass",
-        "desc": "Guarantees maximum creep strength and absolute resistance to stress corrosion cracking under extreme pressures."
-      },
-      {
-        "title": "Crystalline optimization",
-        "desc": "The perfect thermodynamic balance. Highest flexibility for radical laying conditions with simultaneous axial stiffness."
-      }
-    ]
-  },
-  "timeline": {
-    "title": "The Evolution of Perfection",
-    "desc": "An unstoppable rise to global market power. Every decade a milestone of technological superiority.",
-    "items": [
-      {
-        "year": "1990",
-        "title": "The origin of zero tolerance",
-        "text": "Where others made compromises, we drew a red line. The founding of K Aqua was based on a single, unshakable principle: Flawless piping systems. Our first extruders ran with a precision that shocked the market."
-      },
-      {
-        "year": "2005",
-        "title": "The Polypropylene Revolution",
-        "text": "We refused to accept the status quo. With the introduction of our proprietary PP-R blend, we redefined thermal stability. While competitor products collapsed under pressure, our systems remained stoically intact. A triumph of polymer chemistry."
-      },
-      {
-        "year": "2015",
-        "title": "The architectural symbiosis",
-        "text": "From the skylines in Dubai to the industrial plants in the Ruhr area, K Aqua became synonymous with indestructible infrastructure. Our PPRCT fiber composite pipes revolutionized building construction. Less expansion, more flow, absolute dominance."
-      },
-      {
-        "year": "2026",
-        "title": "The Molecular Dictatorship",
-        "text": "Today we control every aspect of production. From the selection of raw granulates to the final inspection, our systems are subject to a dictatorial quality regime. The result? A guaranteed service life that outlasts generations."
-      }
-    ]
-  },
-  "sticky": {
-    "eyebrow": "PHYSICS CONQUERED",
-    "title": "The Four Pillars of Power.",
-    "lead": "Technology bordering on magic. We haven't just overcome the limitations of conventional piping systems, we've pulverized them.",
-    "items": [
-      {
-        "title": "Absolutism in quality",
-        "desc": "Every millimeter of our PP-R and PPRCT systems goes through brutal stress tests. A 50-year service life is not a promise, but a mathematical certainty. We tolerate zero deviations. What leaves our halls is perfection in polymer form."
-      },
-      {
-        "title": "Thermal invulnerability",
-        "desc": "Our fiber composite pipes (K Aqua Fiber) neutralize thermal linear expansion almost completely. Whether freezing -20°C or boiling +95°C, our systems remain absolutely dimensionally stable. An engineering masterpiece that seems to defy the laws of physics."
-      },
-      {
-        "title": "Chemical resistance",
-        "desc": "Corrosion does not exist in our vocabulary. Our polymers are immune to the most aggressive media, incrustation and biological decomposition. While metals rust and decay in the ground, K Aqua remains untouched, stoic, monolithic, indestructible."
-      },
-      {
-        "title": "Molecular fusion",
-        "desc": "Through our homogeneous welding process, pipe and fitting fuse at the molecular level into an inseparable unit. No seals that can fatigue. No mechanical weak points. A monolithic structure that lasts forever."
-      }
-    ]
-  },
-  "bento": {
-    "eyebrow": "INDUSTRIAL DOMINANCE",
-    "title": "Infrastructure on steroids.",
-    "lead": "We don't just manufacture pipes. We create the arteries of modern civilization. K Aqua is the backbone of industrial and architectural megaprojects worldwide.",
-    "items": [
-      {
-        "title": "Brutal extrusion",
-        "desc": "High-performance systems operating under brutal pressure. The result is unsurpassed wall thickness consistency down to the micrometer level."
-      },
-      {
-        "title": "certified superiority",
-        "desc": "ISO 9001, 14001, 50001. We don't just exceed the standards, we dictate them. International accreditation as an absolute standard."
-      },
-      {
-        "title": "Hygiene dictate",
-        "desc": "Food-safe, toxicologically harmless and absolutely germ-resistant. Drinking water remains untouched and pure in K Aqua systems. No exception."
-      },
-      {
-        "title": "Resource efficiency",
-        "desc": "Fully recyclable. Minimal CO2 footprint during manufacturing. Because true technological power always means responsibility for the future."
-      }
-    ]
-  },
-  "values": {
-    "eyebrow": "Corporate Policy",
-    "title": "The foundation of our actions.",
-    "desc": "Technology alone is not enough. True greatness manifests itself in the way a company interacts with its environment, its employees, and its partners.",
-    "items": [
-      {
-        "title": "Customer obsession",
-        "desc": "We don't just serve markets, we dominate them through radical customer focus. Your requirements are our command. Our solutions are precise, scalable, and absolutely uncompromising in their execution."
-      },
-      {
-        "title": "Strategic alliances",
-        "desc": "We don't look for suppliers, we form strategic alliances with the best raw material producers on the planet. Joint research, joint quality standards, joint dominance."
-      },
-      {
-        "title": "Ecological imperative",
-        "desc": "At K Aqua, sustainability is not a marketing slogan, but a physical imperative. Longevity is the ultimate environmental protection. Our systems minimize the energy footprint from production to recycling."
-      }
-    ]
-  },
-  "genauManagement": {
-    "eyebrow": "certified quality",
-    "title1": "The ",
-    "titleHighlight": "GENAU",
-    "title2": " Management System",
-    "p1": "The goal of the GENAU Management System is the continuous improvement of occupational, environmental, and health protection in the company.",
-    "p2": "All company activities at KWT are carried out taking into account resource conservation, environmental compatibility, and strict compliance with all obligations. The practiced GENAU management fulfills the high requirements of ",
-    "p3": " and ",
-    "list1Title": "Ecological Responsibility",
-    "list1Desc": "Environmental protection is part of our quality understanding, to which all KWT GmbH employees are committed.",
-    "list2Title": "Energy efficiency",
-    "list2Desc": "Targeted identification of risks and implementation of measures to optimize energy efficiency."
   }
 }

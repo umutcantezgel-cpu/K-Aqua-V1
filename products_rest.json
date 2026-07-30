@@ -1,13 +1,4 @@
 {
-  "category": {
-    "allProducts": "Alle Produkte",
-    "openInFinder": "Im Finder öffnen",
-    "artNA": "Art. N/A",
-    "viewDetails": "Produktdetails anzeigen",
-    "learnMoreKnowledge": "PP-R Rohrsysteme im Fachwissen-Portal entdecken",
-    "learnMoreDesc": "Tauchen Sie tiefer in die technische Dokumentation ein und entdecken Sie Fachartikel zur Installation, Nachhaltigkeit und Prüfung unserer PP-R Systeme.",
-    "toKnowledgeBase": "Fachartikel in der K-Aqua Academy entdecken"
-  },
   "fittings": {
     "meta": {
       "title": "Formteile & Fittings | K Aqua",
@@ -352,5 +343,14 @@
       "primary": "Projektanfrage starten",
       "secondary": "CAD & Spezifikationen"
     }
+  },
+  "category": {
+    "allProducts": "Alle Produkte",
+    "openInFinder": "Im Finder öffnen",
+    "artNA": "Art. N/A",
+    "viewDetails": "Produktdetails anzeigen",
+    "learnMoreKnowledge": "PP-R Rohrsysteme im Fachwissen-Portal entdecken",
+    "learnMoreDesc": "Tauchen Sie tiefer in die technische Dokumentation ein und entdecken Sie Fachartikel zur Installation, Nachhaltigkeit und Prüfung unserer PP-R Systeme.",
+    "toKnowledgeBase": "Fachartikel in der K-Aqua Academy entdecken"
   }
 }

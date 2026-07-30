@@ -1,0 +1,238 @@
+  },
+  "academy": {
+
+  "eyebrow": "K-Aqua Akadēmija",
+  "title1": "Zināšanas, kas",
+  "titleGrad": "savieno.",
+  "lead": "Četri PP-R metināšanas paņēmieni video formātā un viktorīna, kas padarīs jūs par metināšanas meistaru. Zināšanas, kas savieno K-Aqua Akadēmijā. Optimizēts būvlaukumam: lieli mērķi, augsts kontrasts.",
+  "quizEyebrow": "Metināšanas meistara viktorīna",
+  "quizTitle": "Pieci jautājumi. Viena nozīmīte.",
+  "intro": "Pārbaudiet savas zināšanas par PP-R/PPRCT apstrādi. Bez kļūdām = Tituls 'Metināšanas meistars'.",
+  "start": "Sākt viktorīnu",
+  "qLabel": "Jautājums",
+  "resPerfect": "Ideāli! Nopelnīts 'Metināšanas meistara' tituls!",
+  "resGood": "Pārliecinoši! 'Metinātāja zeļļa' tituls nodrošināts. Meistara titulam: visi pieci pareizi.",
+  "resLow": "Iepriekš redzamie videoklipi palīdzēs. Pēc tam meistara tituls izdosies.",
+  "retry": "Mēģināt vēlreiz",
+  "titlePerfect": "Metināšanas meistars",
+  "titleGood": "Metinātāja zellis"
+    ,
+    "videos": 
+[
+  {
+    "t": "Uzmavu metināšana ar rokām",
+    "s": "līdz d63: Rokas metināšanas iekārta"
+  },
+  {
+    "t": "Uzmavu metināšana ar mašīnu",
+    "s": "vidēji izmēri"
+  },
+  {
+    "t": "Elektrosakausēšana",
+    "s": "Elektrosakausējamie veidgabali"
+  },
+  {
+    "t": "Sadurmetināšana",
+    "s": "Lieli izmēri līdz d630"
+  }
+]
+    ,
+    "quiz": 
+[
+  {
+    "q": "Kurš metināšanas process ir standarts lieliem diametriem (piemēram, d630)?",
+    "o": [
+      "Uzmavu metināšana ar rokām",
+      "Sadurmetināšana (Butt Fusion)",
+      "Līmēšana"
+    ]
+  },
+  {
+    "q": "Ko apzīmē SDR cauruļu sistēmās?",
+    "o": [
+      "Standard Dimension Ratio (d/s) - Standarta izmēru attiecība",
+      "Static Density Rating - Statiskā blīvuma novērtējums",
+      "Sicherheits-Druck-Reserve - Drošības spiediena rezerve"
+    ]
+  },
+  {
+    "q": "Ar ko PPRCT atšķiras no klasiskā PP-R?",
+    "o": [
+      "Zemāka cena",
+      "Modificēta kristāla struktūra → lielāka temperatūras un spiediena rezerve",
+      "Metālisks pastiprinājums"
+    ]
+  },
+  {
+    "q": "Kāds ir polipropilēna pārstrādes kods?",
+    "o": [
+      "Kods 3",
+      "Kods 5",
+      "Kods 7"
+    ]
+  },
+  {
+    "q": "Elektrosakausēšanas laikā (Electrofusion) siltums nāk no...",
+    "o": [
+      "sildelementa spoguļa",
+      "veidgabalā iestrādātām sildīšanas spirālēm",
+      "karstā gaisa"
+    ]
+  }
+]
+    ,
+    "schulungen": 
+{
+  "meta": {
+    "title": "Apmācības | K Aqua",
+    "desc": "K Aqua apmācības: Bezkompromisa drošība, ko nodrošina Vācijas inženierija globāliem megaprojektiem. Piedalieties mūsu ekspertu apmācībās."
+  },
+  "hero": {
+    "eyebrow": "GERMAN ENGINEERING ACADEMY",
+    "title1": "Rūpnieciskās elites",
+    "title2": "pārbaude.",
+    "desc": "K Aqua apmācību programma nav parasta tālākizglītība. Tā ir iniciācija bezkompromisa Vācijas cauruļvadu būvniecības pasaulē. Inženieriem un tehniķiem, kuri ir atbildīgi par megaprojektiem, kuros materiālu kļūme nav iespēja, bet gan absolūta katastrofa. Mēs mācām mikrometros, mēs domājam gadu desmitos.",
+    "cta1": "Sākt akadēmijas pieteikšanos",
+    "cta2": "Skatīt mācību programmu"
+  },
+  "manifesto": {
+    "title1": "Precizitāte",
+    "title2": "nav",
+    "title3": "nejaušība.",
+    "p1": "Tas ir nerimstošas metodoloģijas un aukstas, industriālas disciplīnas rezultāts. Ja tūkstošiem kubikmetru ūdens zem milzīga spiediena tiek sūknēts cauri 100 stāvu debesskrāpja asinsritei, nav vietas aptuvenām vērtībām vai interpretācijām.",
+    "p2": "K Aqua apmācību programma tika izstrādāta, lai pārvarētu plaisu starp teorētiskajām zināšanām un nevainojamu mašīnas pilnību. Ikviens, kurš ir apmācīts mūsu akadēmijā, vairs nerīkojas kā vienkāršs amatnieks. Viņš kļūst par perfektas, deterministiskas sistēmas izpildinstitūciju."
+  },
+  "bento": {
+    "eyebrow": "AUTORITĀTES PĪLĀRI",
+    "title": "Zināšanas kā absolūts ierocis.",
+    "lead": "Mūsu tehniskās apmācības moduļi nav paredzēti, lai atvieglotu Jūsu darbu. Tie ir paredzēti, lai nežēlīgi izskaustu kļūdas.",
+    "items": [
+      {
+        "title": "Viendabīga materiālu saplūšana",
+        "desc": "Ārpus līmēšanas vai nestabiliem mehāniskiem blīvējumiem. Mēs apmācām Jūs precīzai temperatūras, spiediena un laika kalibrēšanai, lai molekulārā līmenī apvienotu caurules un veidgabalus neatdalāmā, monolītā struktūrā."
+      },
+      {
+        "title": "Kavitācijas novēršana",
+        "desc": "Izprotiet sarežģītu cauruļu tīklu straumes dinamiku un hidrauliskās īpašības. Apgūstiet to kā novērst spiediena samazināšanos, kas izraisa kavitāciju un iznīcina sistēmas integritāti."
+      },
+      {
+        "title": "Sprieguma kontrole un ģeometrija",
+        "desc": "Sistēmai, kas kalpo > 50 gadus, pilnībā jāatrisina un jāabsorbē materiāla izplešanās lēcieni un saraušanās lēcieni. Mēs mācām asimetrisku sadali, enkura punktus un sarežģītu Z loka konstrukciju."
+      }
+    ]
+  },
+  "cta": {
+    "title1": "IEGŪSTIET",
+    "title2": "PRECĪZU KONTROLI.",
+    "desc": "Kļūstiet par Vācijas tehnoloģiju standartu apguvēju.",
+    "btn": "Pieteikties uz akadēmiju"
+  }
+}
+    ,
+    "zertifizierung": 
+{
+  "meta": {
+    "title": "Sertifikāti un Normas | K Aqua",
+    "desc": "DVGW, SKZ, ISO un citi. Atklājiet K Aqua cauruļvadu sistēmu bezkompromisa drošību un Vācijas inženierijas kvalitāti."
+  },
+  "hero": {
+    "eyebrow": "Vācijas inženierijas standarti (German Engineering Standards)",
+    "title1": "Sertifikāti.",
+    "title2": "Engineered in Germany.",
+    "desc": "Šis modulis nodrošina bezkompromisa drošību pasaulē visprasīgākajiem projektiem. Ražots atbilstoši stingrākajiem nozares standartiem, lai kalpotu paaudzēm. Jo materiālu atteice nekad nav pieļaujama.",
+    "cta1": "Projekta pieprasījums",
+    "cta2": "Tehniskā rokasgrāmata"
+  },
+  "manifesto": {
+    "title1": "Sertifikāts ir tikai papīrs.",
+    "title2": "Process aiz tā ir no tērauda.",
+    "p1": "Daudzi ražotāji normas uzskata par galveno mērķi. Mēs tās redzam kā absolūtu apakšējo robežu. Mūsu iekšējās pielaides ir daudzkārt stingrākas par to, ko prasa DVGW, ISO vai SKZ. Kad K Aqua caurule atstāj mūsu rūpnīcu, tā ir analizēta molekulārā līmenī, spīdzināta ar ārkārtēju spiedienu un termiski virzīta līdz absolūtajai robežai."
+  },
+  "bento": {
+    "eyebrow": "Drošības pīlāri",
+    "title": "Sistēmas DNS pilnība.",
+    "lead": "Kad starptautiskie ģenerāluzņēmēji plāno miljardu dolāru projektus, viņi nepaļaujas uz mārketinga solījumiem. Viņi pieprasa cietus, fiziski izmērāmus faktus.",
+    "items": [
+      {
+        "title": "Ekstrēma spiediena izturība",
+        "desc": "Pārbaudīts nepārtrauktai slodzei līdz PN20/PN25. Mūsu plīšanas spiediena testi pierāda rezerves, kas tālu pārsniedz standartus. Cauruļu plīsumi ir pagātne."
+      },
+      {
+        "title": "Termiskā suverenitāte",
+        "desc": "Ilgstoši izturīgs no -20°C līdz +95°C. Nav materiāla noguruma, nav strukturālas pavājināšanās pat pie ekstrēmiem termiskiem šokiem."
+      },
+      {
+        "title": "Absolūta dzeramā ūdens higiēna",
+        "desc": "Tīrākās kvalitātes polipropilēns, nesatur plastifikatorus un smagos metālus. Iekšējo virsmu raupjums novērš bioplēves un legionellas veidošanos."
+      },
+      {
+        "title": "Imunitāte pret koroziju",
+        "desc": "Simtprocentīga aizsardzība pret bedrīškoroziju, rūsu un degradāciju no agresīva ķīmiskā ūdens. Izstrādāts visskarbākajiem reģioniem pasaulē."
+      }
+    ]
+  },
+  "cta": {
+    "title1": "IEGŪSTIET",
+    "title2": "CIETUS FAKTUS.",
+    "desc": "Neuzticieties solījumiem. Uzticieties Vācijas inženierijas (German Engineering) sniegtajiem fiziskajiem datiem.",
+    "btn": "Visu sertifikātu (ZIP)"
+  }
+}
+    ,
+    "glossar": 
+{
+  "meta": {
+    "title": "Tehniskais glosārijs | K Aqua",
+    "desc": "K Aqua glosārijs: Bezkompromisa drošība, ko nodrošina Vācijas inženierija globāliem megaprojektiem. Atklājiet PP-R cauruļu tehnoloģijas tehniskos terminus."
+  },
+  "hero": {
+    "eyebrow": "Tehniskais glosārijs",
+    "title1": "Absolūtās drošības",
+    "title2": "terminoloģija.",
+    "desc": "Laipni lūdzam cauruļvadu inženierijas leksikas kodolā. Šeit mēs atkodējam Vācijas inženierijas principus. Bez mārketinga. Tikai fiziski fakti, materiālzinātne un industriālā autoritāte.",
+    "cta1": "Sazināties ar inženieriem",
+    "cta2": "Izpētīt glosāriju"
+  },
+  "manifesto": {
+    "eyebrow": "Doktrīna",
+    "title": "Nekļūdīguma arhitektūra.",
+    "lead": "Cauruļvadu sistēma ir katra megaprojekta sirds un asinsvadu sistēma. Kļūme nozīmē infrastruktūras sirdslēkmi. Tāpēc mēs runājam nevis par caurulēm, bet gan par vitāli svarīgām industriālajām artērijām. Katrs jēdziens šajā glosārijā atspoguļo mūsu nulles kļūdu filozofijas pīlāru."
+  },
+  "scroll": {
+    "eyebrow": "Kinemātika un materiālzinātne",
+    "title": "K Aqua process.",
+    "lead": "No granulu molekulārā līmeņa līdz galīgajai spiediena pārbaudei. Izprotiet fizikālos principus, kas padara mūsu sistēmas neiznīcināmas.",
+    "items": [
+      {
+        "title": "Ekstrūzijas dinamika zem augsta spiediena",
+        "desc": "Termoplastisko deformāciju mūsu rūpnīcās pakļauj precīzai temperatūras kontrolei līdz pat 0,1 °C precizitātei. Šī kristāliskā pilnība garantē nevainojamu, homogēnu molekulāro struktūru, kas pilnībā izslēdz mikroskopisku plaisu veidošanos (stresa plaisāšanu) pat ārkārtēju spiediena un temperatūras svārstību ietekmē. Kad materiāls atstāj mūsu ekstrūderi, tā vairs nav vienkārša plastmasa. Tas ir industriāls monolīts."
+      },
+      {
+        "title": "Hidrostatiskās slodzes testi",
+        "desc": "Mūsu testēšanas laboratorijās katrai caurulei tiek veikta hidrostatiskā simulācija, kas daudzkārt pārsniedz reālos apstākļus. Mēs pielietojam iekšējo spiedienu, kas pārsniedz jebkuru normatīvo prasību (līdz 100 bāriem, atkarībā no SDR klases). Tas nodrošina metināto šuvju integritāti un PP-R materiāla molekulāro elastību paredzētajam kalpošanas laikam – vairāk nekā 50 gadiem kritiskajā infrastruktūrā."
+      },
+      {
+        "title": "Molekulārā saplūšana (polifūzija)",
+        "desc": "K Aqua nepaļaujas uz mehāniskiem blīvējumiem vai atsevišķiem savienotājelementiem. Izmantojot polifūzijas procesu, caurule un veidgabals 260 °C temperatūrā tiek pilnībā sakausēti makromolekulārā līmenī. Savienojuma punkts pēc atdzišanas kļūst stiprāks par pašu cauruli. Sistēma nesastāv no tūkstošiem atsevišķu detaļu, bet kļūst par vienu vienotu komponentu. Noplūde kļūst fiziski neiespējama."
+      },
+      {
+        "title": "Plūsmas ģeometrijas optimizācija",
+        "desc": "Vācijā ražots hidrauliskais perfekcionisms: Mūsu veidgabalu un vārstu iekšējās virsmas ir izstrādātas tā, lai izslēgtu kavitāciju, vājinātu turbulenci un samazinātu spiediena zudumus līdz absolūtam minimumam. Tas ne tikai pagarina cauruļu tīkla kalpošanas laiku, bet arī masveidā optimizē sūkņu sistēmu energoefektivitāti visā ēkas dzīves ciklā."
+      }
+    ]
+  },
+  "content": {
+    "eyebrow": "Ekspertu leksikons",
+    "title": "Terminoloģija.",
+    "lead": "Izprotiet terminus, kas definē Vācijas augstas veiktspējas PP-R sistēmas."
+  },
+  "cta": {
+    "eyebrow": "Sistēmas kompetence",
+    "title1": "IEGŪSTIET FAKTUS,",
+    "title2": "KAS PIERĀDĀS.",
+    "desc": "Sazinieties ar K Aqua inženieriem tehniskai konsultācijai, kas sniedzas tālāk par šo glosāriju.",
+    "btn": "Tehniskais atbalsts"
+  }
+}
+  }
+}

@@ -4,7 +4,7 @@ import { defineRouting } from 'next-intl/routing';
 import { ALL_LOCALE_CODES, FULLY_CURATED_LOCALES } from '@/lib/i18n/languages';
 
 export const coreLocales = FULLY_CURATED_LOCALES;
-export const lazyLocales = ALL_LOCALE_CODES.filter(code => !coreLocales.includes(code as any));
+export const lazyLocales = process.env.VERCEL ? [] : ALL_LOCALE_CODES.filter(code => !coreLocales.includes(code as any));
 
 export const routing = defineRouting({
   // A list of all locales that are supported

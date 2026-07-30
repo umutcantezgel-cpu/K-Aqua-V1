@@ -1,196 +1,183 @@
-{
-  "narrative": {
-    "sizeRange": "Ang sangkap na ito ay ginagawa sa isang malawak na hanay ng mga sukat (nominal size) mula sa compact na {minSize} mm hanggang sa kahanga-hangang {maxSize} mm, na nagtitiyak ng pinakamataas na versatility sa iba't ibang mga sitwasyon ng pag-install.",
-    "sizeSpecific": "Ang sangkap na ito ay tumpak na idinisenyo para sa partikular na sukat (nominal size) na {minSize} mm at nag-aalok ng target na pagganap para sa mga espesyal na arkitektura ng tubo.",
-    "weights": "Ang kahusayan ng materyales ay ino-optimize sa buong linya ng produkto, kung saan ang mga bigat bawat piraso ay sumusukat mula {minWeight} kg hanggang {maxWeight} kg depende sa piniling dimensyon.",
-    "packaging": "Ang logistik ay ino-optimize sa pamamagitan ng mga standardized packaging unit na idinisenyo para sa ligtas na pandaigdigang transportasyon at episyenteng paghawak sa construction site.",
-    "rowCount": "Nag-aalok ang aming teknikal na portfolio ng configuration na ito sa {count} lubos na dalubhasang mga dimensional na variant na tumpak na pinalaki upang matugunan ang hydraulic at mechanical na mga pangangailangan ng modernong fluid transport systems.",
-    "intro": "Ang produktong {title} ay bumubuo ng isang pundasyon ng mga high-performance na solusyon sa pamamahala ng fluid ng K Aqua. Opisyal na nakalista sa ilalim ng mga item number na {codes}, ang bawat variant ay sumasailalim sa mahigpit na quality assurance protocols sa aming mga pasilidad sa produksyon sa Germany bago i-deliver.",
-    "outro": "Sa pamamagitan ng paggamit ng mga advanced na pamamaraan sa pagproseso ng polymer, ang geometric precision ng {title} ay gumagarantiya ng mga pinakamahusay na katangian ng daloy, nagpapaliit ng pagbaba ng pressure, at ganap na inaalis ang panganib ng calcification o corrosion sa buong operational lifespan nito. Tinitiyak ng walang kompromisong dedikasyong ito sa material science na ang bawat koneksyon ay nagpapanatili ng ganap na integridad, kahit na sa ilalim ng matinding pabagu-bago ng temperatura at pressure. Mapa-high-rise residential buildings, kritikal na healthcare facilities, o mapanghamong industrial processing plants, ang produktong ito ay nagbibigay ng maintenance-free na pagiging maaasahan na lubos na mapagkakatiwalaan ng mga engineer at installer."
+  "trust": {
+    "eyebrow": "ໄດ້ຮັບການຮັບຮອງທົ່ວໂລກ",
+    "title1": "ຄວາມປອດໄພທີ່ໄດ້ຮັບການຢັ້ງຢືນສຳລັບ",
+    "titleGrad": "ທຸກຕະຫຼາດ.",
+    "lead": "ISO, DVGW, SKZ ແລະ ອື່ນໆອີກ. ລະບົບຂອງພວກເຮົາເກີນມາດຕະຖານສາກົນ ແລະ ສະໜອງຄວາມປອດໄພໃນການວາງແຜນໃຫ້ແກ່ສະຖາປະນິກ ແລະ ວິສະວະກອນ.",
+    "genau": {
+      "title": "ລະບົບການຈັດການ GENAU",
+      "desc": "ຈຸດສູງສຸດຂອງນະໂຍບາຍຄຸນນະພາບຂອງພວກເຮົາ: ໂຄງຮ່າງປະສົມປະສານສຳລັບຄວາມປອດໄພໃນການເຮັດວຽກ, ສິ່ງແວດລ້ອມ ແລະ ການປົກປ້ອງສຸຂະພາບ. ພວກເຮົາບໍ່ພຽງແຕ່ປະຕິບັດຕາມມາດຕະຖານ – ພວກເຮົາກຳນົດມາດຕະຖານ."
+    },
+    "certifications": [
+      {
+        "title": "ISO 9001",
+        "desc": "ການຈັດການຄຸນນະພາບ",
+        "image": "/images/certifications/iso-9001.webp"
+      },
+      {
+        "title": "ISO 14001",
+        "desc": "ການຈັດການສິ່ງແວດລ້ອມ",
+        "image": "/images/certifications/iso-14001.webp"
+      },
+      {
+        "title": "ISO 50001",
+        "desc": "ການຈັດການພະລັງງານ",
+        "image": "/images/certifications/iso-50001.webp"
+      },
+      {
+        "title": "SKZ",
+        "desc": "ຜ່ານການທົດສອບຄຸນນະພາບສຳລັບຜະລິດຕະພັນພາດສະຕິກ (ເຢຍລະມັນ)",
+        "image": "/images/certifications/skz.webp"
+      },
+      {
+        "title": "DVGW",
+        "desc": "ມາດຕະຖານສູງສຸດສຳລັບນ້ຳດື່ມ (ເຢຍລະມັນ)",
+        "image": "/images/certifications/dvgw.webp"
+      },
+      {
+        "title": "AENOR",
+        "desc": "ການຢັ້ງຢືນລະບົບການຈັດການ (ສະເປນ)",
+        "image": "/images/certifications/aenor.webp"
+      },
+      {
+        "title": "BSI",
+        "desc": "ສະຖາບັນມາດຕະຖານອັງກິດ (ສະຫະລາຊະອານາຈັກ)",
+        "image": "/images/certifications/bsi.webp"
+      },
+      {
+        "title": "WRAS",
+        "desc": "ການອະນຸມັດລະບຽບການແນະນຳກ່ຽວກັບນ້ຳ (ສະຫະລາຊະອານາຈັກ)",
+        "image": "/images/certifications/wras.webp"
+      },
+      {
+        "title": "CERTIF",
+        "desc": "ສະມາຄົມການຢັ້ງຢືນ (ປອກຕຸຍການ)",
+        "image": "/images/certifications/certif.webp"
+      },
+      {
+        "title": "CSTB",
+        "desc": "ສູນວິທະຍາສາດເຕັກນິກ ແລະ ການກໍ່ສ້າງ (ຝຣັ່ງ)",
+        "image": "/images/certifications/cstb.webp"
+      },
+      {
+        "title": "DIN",
+        "desc": "ສະຖາບັນການມາດຕະຖານຂອງເຢຍລະມັນ (ເຢຍລະມັນ)",
+        "image": "/images/certifications/din.webp"
+      },
+      {
+        "title": "EBS",
+        "desc": "ໃບຢັ້ງຢືນການປົກປ້ອງສິ່ງແວດລ້ອມ ແລະ ຄວາມປອດໄພ",
+        "image": "/images/certifications/ebs.webp"
+      },
+      {
+        "title": "GL",
+        "desc": "Germanischer Lloyd - ການຢັ້ງຢືນທາງທະເລ",
+        "image": "/images/certifications/gl.webp"
+      },
+      {
+        "title": "GOST",
+        "desc": "ມາດຕະຖານແຫ່ງລັດ (ຣັດເຊຍ/CIS)",
+        "image": "/images/certifications/gost.webp"
+      },
+      {
+        "title": "IIP",
+        "desc": "ສະຖາບັນພາດສະຕິກແຫ່ງອິຕາລີ (ອິຕາລີ)",
+        "image": "/images/certifications/iip.webp"
+      },
+      {
+        "title": "NSF",
+        "desc": "ມາດຕະຖານດ້ານສຸຂະພາບສາທາລະນະ ແລະ ຄວາມປອດໄພ (ສະຫະລັດອາເມລິກາ)",
+        "image": "/images/certifications/nsf.webp"
+      },
+      {
+        "title": "OFI",
+        "desc": "ສະຖາບັນຄົ້ນຄວ້າເຕັກໂນໂລຢີ ແລະ ນະວັດຕະກຳ (ອົອດສະເຕຣຍ)",
+        "image": "/images/certifications/ofi.webp"
+      },
+      {
+        "title": "SABs",
+        "desc": "ສຳນັກງານມາດຕະຖານອາຟຣິກາໃຕ້ (ອາຟຣິກາໃຕ້)",
+        "image": "/images/certifications/sabs.webp"
+      },
+      {
+        "title": "SAI",
+        "desc": "ໃບຢັ້ງຢືນມາດຕະຖານລະດັບໂລກ",
+        "image": "/images/certifications/sai.webp"
+      },
+      {
+        "title": "SITAC",
+        "desc": "ການອະນຸມັດທາງດ້ານເຕັກນິກຂອງສະວີເດັນ (ສະວີເດັນ)",
+        "image": "/images/certifications/sitac.webp"
+      },
+      {
+        "title": "TÜV",
+        "desc": "ສະມາຄົມກວດສອບເຕັກນິກ (ເຢຍລະມັນ)",
+        "image": "/images/certifications/tuev.webp"
+      },
+      {
+        "title": "Watermark",
+        "desc": "ການຢັ້ງຢືນສຳລັບລະບົບທໍ່ປະປາ ແລະ ການລະບາຍນ້ຳ (ອົດສະຕຣາລີ)",
+        "image": "/images/certifications/watermark.webp"
+      }
+    ],
+    "disclaimer": "ການອະນຸມັດບາງຢ່າງອາດຈະໃຊ້ສະເພາະກັບບາງສາຍຜະລິດຕະພັນເທົ່ານັ້ນ. ກະລຸນາຕິດຕໍ່ພວກເຮົາສຳລັບໃບຢັ້ງຢືນລາຍລະອຽດທີ່ກ່ຽວຂ້ອງກັບໂຄງການຂອງທ່ານ.",
+    "cta": "ໄປທີ່ສູນດາວໂຫຼດ",
+    "ctaIcon": "ດາວໂຫຼດ"
   },
-  "tools": {
-    "metaTitle": "Mga Tool sa PP-R at Accessory para sa Pipe Systems",
-    "metaDesc": "Tuklasin ang mga propesyonal na tool at accessory ng K-Aqua. Para sa ligtas, episyente, at matibay na installation ng mga PP-R at PP-RCT piping system.",
-    "heroEyebrow": "German Engineering",
-    "heroTitle": "Mga Tool at Accessory.",
-    "heroSubtitle": "Ganap na Katumpakan.",
-    "heroDesc": "Nag-aalok ang module na ito ng walang kompromisong kaligtasan para sa pinakamapanghamong mga proyekto sa buong mundo. Ginawa ayon sa pinakamahigpit na pamantayan sa industriya upang tumagal sa maraming henerasyon. Sa mga lugar kung saan ang materyal na bumibigay ay hindi opsyon.",
-    "heroBtnPrimary": "Magtanong ng Proyekto",
-    "heroBtnSecondary": "Technical Data",
-    "bentoEyebrow": "Ang Ekosistema ng K Aqua",
-    "bentoTitle": "Mga Tool para sa mga Pandaigdigang Megaproject.",
-    "bentoLead": "Kapag nagpaplano ang mga international general contractor ng mga proyektong bilyong-pisong halaga, hindi sila nagtitiwala sa mga pangako, kundi sa mga batayang impormasyon at kagamitang may mataas na katumpakan.",
-    "bento1Title": "Heating Element Socket Welding Devices",
-    "bento1Desc": "Para sa mga dimensyong 20 mm hanggang 125 mm. Compact at matibay na disenyo para sa mahirap na paggamit sa construction site.",
-    "bento2Title": "Pipe Cutters at Shears",
-    "bento2Desc": "Mga ergonomic na disenyo para sa pagtatrabaho nang walang pagod at mga perpektong 90° na hiwa.",
-    "bento3Title": "Butt Welding Machines",
-    "bento3Desc": "Para sa nominal sizes hanggang 250 mm. CNC-controlled para sa ganap na repeatability.",
-    "bento4Title": "Repair Kits at Accessories",
-    "bento4Desc": "Mga drill head, repair saddle, at hole saw para sa kasunod na mga pagkakabit.",
-    "scrollEyebrow": "Malalim na Teknolohiya",
-    "scrollTitle": "Walang Puwang para sa Error Tolerance.",
-    "scrollLead": "Tuklasin ang mga teknolohikal na detalye na gumagawa sa aming tool bilang unang pagpipilian para sa mga sertipikadong installer.",
-    "scroll1Title": "Perpektong Thermodynamics. Sa Bawat Welding.",
-    "scroll1Desc": "Ang aming mga heating element socket welding device ay nilagyan ng mga high-precision na Teflon-coated na mga heating mandrel at socket. Ginagarantiyahan ng microprocessor-controlled na temperature regulation ang isang pare-parehong welding temperature na 260°C, kahit na sa matinding temperatura sa labas sa mga pandaigdigang construction site. Lumilikha ito ng isang hindi mapaghihiwalay at homogenous na koneksyon sa molecular level.",
-    "scroll2Title": "CNC-Controlled Butt Welding.",
-    "scroll2Desc": "Para sa malalaking nominal size (hanggang 250 mm at higit pa), gumagamit kami ng CNC-controlled na butt welding machine. Ang awtomatikong pagkalkula ng presyon at oras ay nag-aalis ng mga pinagmumulan ng pagkakamali ng tao. Ang bawat welding cycle ay digital na nai-log upang matiyak ang tuluy-tuloy na traceability para sa pag-apruba ng gusali. German Engineering sa pinakamataas na antas.",
-    "scroll3Title": "Precision Pipe Peeler. Tumpak hanggang Milimetro.",
-    "scroll3Desc": "Ang paghahanda ay bumubuo ng 80% ng proseso ng welding. Ang aming mechanical at electrical pipe peelers ay nag-aalis ng oxide layer mula sa mga K Aqua pipe nang may pare-parehong lalim ng paghiwa. Pinipigilan nito ang mga microcrack at bumubuo ng isang perpektong fusion surface. Isang tool na idinisenyo para tumagal sa maraming henerasyon.",
-    "scroll4Title": "Cold Circular Saws para sa Tumpak na mga Hiwa.",
-    "scroll4Desc": "Maaaring ma-deform ang materyales gamit ang pipe shears. Ginagarantiyahan ng aming pang-industriyang cold circular saws ang perpektong nakasentro, at walang duming mga hiwa. Ang resulta: Walang mga stress-induced na bitak, walang pagbaba ng pressure, at ganap na parallel flatness bago ang pag-weld.",
-    "timelineTitle": "Ang Proseso ng Pag-weld ng K Aqua",
-    "timelineDesc": "Mula sa pagputol hanggang sa molecular fusion. Isang standardized na proseso na nagreresulta sa 100% leak-proof at maintenance-free na pipe systems.",
-    "timeline1Year": "Phase 1: Paghahanda ng Materyal",
-    "timeline1Title": "Ang Perpektong Hiwa.",
-    "timeline1Text": "Isang malinis na 90-degree cut ang pundasyon ng bawat pangmatagalang koneksyon. Ang aming mga precision cutter at cold circular saw ay gumagarantiya ng isang ganap na patag na ibabaw na walang microstructural deformations ng polypropylene.",
-    "timeline2Year": "Phase 2: Pag-calibrate at Pagbabalat",
-    "timeline2Title": "Pag-aalis ng Oxide Layer.",
-    "timeline2Text": "Bago ang pag-weld, ang tubo ay tumpak na kinakalibrate at ang panlabas na oxide layer ay iniaalis gamit ang aming espesyal na peeling tools upang maging eksakto hanggang milimetro. Nagbibigay ito ng 100% malinis na ibabaw para sa proseso ng pagkatunaw.",
-    "timeline3Year": "Phase 3: Thermal Fusion",
-    "timeline3Title": "Molecular na Pagsasanib.",
-    "timeline3Text": "Ang tubo at fitting ay sabay na iniinit sa teflon-coated na heating matrix sa eksaktong 260°C. Ang microprocessor-controlled na thermostat ng mga K Aqua welding device ay nagpapanatili ng pare-parehong temperatura, anuman ang hangin o panahon.",
-    "timeline4Year": "Phase 4: Ang Koneksyon",
-    "timeline4Title": "Panghabambuhay na Kaligtasan.",
-    "timeline4Text": "Sa loob ng tinukoy na transition time, ang mga ininit na bahagi ay ipinapasok sa isa't isa nang walang pag-ikot. Matapos ang bahagi ng pagpapalamig, isang bago at ganap na homogenous na workpiece ang nabubuo. Walang-maintenance sa loob ng mahigit 50 taon.",
-    "specsTitle": "Industriyal na Awtoridad. <br/> Hanggang sa Pinakamaliit na Detalye.",
-    "specsP1": "Sa loob ng maraming dekada, pinagsasama namin sa aming pangunahing planta sa gitna ng Germany ang kasanayan sa sining na may state-of-the-art, at lubos na automated na teknolohiya ng produksyon.",
-    "specsP2": "Ginagamit sa pinakamahihirap na disyerto at pinakamatinding rehiyon ng klima sa mundo, pinapatunayan ng aming materyal ang sarili nito araw-araw. Nagtatakda kami ng mga pamantayan na sinusunod ng buong mundo.",
-    "specsList1": "ISO 9001 Tested",
-    "specsList2": "Grade A Teflon PTFE Coating",
-    "specsList3": "Digital na Temperature Calibration",
-    "ctaTitle": "Handa para sa Walang Kompromisong Kalidad?",
-    "ctaDesc": "Makipag-usap sa aming Engineering Team tungkol sa iyong susunod na megaproject at humingi ng mga sample ng aming mga tool.",
-    "ctaBtn": "Simulan ang Pagtatanong sa Proyekto",
-    "hero": {
-      "eyebrow": "Mga Tool at Accessory",
-      "title": "Welding Tools para sa PP-R Installation",
-      "lead": "Socket welding machines, heating coil technology, at calibration tools: Gamit ang mga orihinal na tool ng K Aqua, maaari kang lumikha ng nakakatugon sa pamantayan, at permanenteng leak-proof na welding joints sa alinmang construction site. Propesyonal na mga tool para sa pag-install ng PP-R."
+  "partner": {
+    "eyebrow": "ເຄືອຂ່າຍ B2B",
+    "title1": "ຮ່ວມກັນສູ່",
+    "titleGrad": "ຄວາມສຳເລັດ.",
+    "lead": "ກາຍເປັນສ່ວນໜຶ່ງຂອງເຄືອຂ່າຍທົ່ວໂລກຂອງພວກເຮົາ. K Aqua ສະໜອງເງື່ອນໄຂພິເສດ, ການສະໜັບສະໜູນໂຄງການ ແລະ ການຮ່ວມມືແບບຮ່ວມມືສຳລັບຜູ້ຄ້າສົ່ງ ແລະ ຄູ່ຮ່ວມງານການແຈກຢາຍ.",
+    "benefits": [
+      {
+        "title": "ການປົກປ້ອງໂຄງການ",
+        "desc": "ພວກເຮົາຮັບປະກັນຄວາມໄດ້ປຽບດ້ານລາຄາ ແລະ ເງື່ອນໄຂສຳລັບໂຄງການທີ່ທ່ານລົງທະບຽນ."
+      },
+      {
+        "title": "ສະໜັບສະໜູນດ້ານການຕະຫຼາດ",
+        "desc": "ເຂົ້າເຖິງເອກະສານ, ໂປສເຕີ ແລະ ເອກະສານສົ່ງເສີມການຂາຍທີ່ມີຍີ່ຫໍ້ຮ່ວມກັນ."
+      },
+      {
+        "title": "ການຝຶກອົບຮົມບຸລິມະສິດ",
+        "desc": "ການເຂົ້າເຖິງຫຼັກສູດ K Aqua Academy ຟຣີສຳລັບພະນັກງານ ແລະ ລູກຄ້າຊັ້ນນຳຂອງທ່ານ."
+      }
+    ],
+    "cta": "ກາຍເປັນຄູ່ຮ່ວມງານ",
+    "form": {
+      "company": "ຊື່ບໍລິສັດ",
+      "website": "ເວັບໄຊທ໌",
+      "country": "ປະເທດ",
+      "contact": "ຜູ້ຕິດຕໍ່",
+      "email": "ອີເມວ B2B",
+      "submit": "ຮ້ອງຂໍການຮ່ວມມື"
     }
   },
-  "seoArticle": {
-    "pipes": {
-      "areas": "Instalasyon ng inuming tubig, Pag-install ng heating, Air conditioning technology, Pang-industriyang pasilidad, Paggawa ng barko",
-      "advTitle": "Superior na Teknolohiya ng Tubo para sa anumang proyekto",
-      "advList": [
-        "Walang corrosion: 100% resistant laban sa pitting at kalawang.",
-        "Mababang pagbaba ng pressure: Ang napakakinis na inner surface ay nagpapababa sa friction at nagtitipid sa pump energy.",
-        "Mahabang buhay: Garantisadong walang maintenance ng mahigit 50 taon sa tuluy-tuloy na paggamit.",
-        "Pagbabawas ng ingay: Mahusay na sound insulation laban sa flow noises.",
-        "Hygienic: Natutugunan ang pinakamahigpit na internasyonal na pamantayan ng inuming tubig (DVGW, KIWA)."
-      ],
-      "seoText": "Ang aming mga high-performance pipe ay ginagawa sa Waldsolms ayon sa pinakamataas na kalidad ng mga pamantayan. Tinitiyak ng kombinasyon ng materyal na PP-R at PPRCT ang pambihirang resistensya sa temperatura at pressure. Mapa-building technology, industrial plant engineering, o kumplikadong cooling systems, ang pipe system na ito ay naghahatid ng pinakamataas na kaligtasan at kahusayan. Ang simple at ligtas na welding technology ay gumagarantiya ng ganap na walang tagas na mga koneksyon.",
-      "guideTitle": "Komprehensibong Gabay: Pagpaplano at Pag-install ng K Aqua PP-R at PPRCT Pipe Systems",
-      "guideText": "<h2>Komprehensibong Gabay: Pagpaplano, Material Science, at Pag-install ng K Aqua PP-R at PPRCT Pipe Systems</h2><p>Ang pagpili ng tamang materyal sa tubo ay ang kritikal na pundasyon para sa tibay, operational safety, at energy efficiency sa modernong imprastraktura ng gusali at industriya. Ang aming mga <span class=\"font-semibold\">PP-R at PPRCT pipe system</span> na ginawa sa Germany (Waldsolms) ay nag-aalok ng future-proof na alternatibo sa mga nakasanayang metal pipe na gawa sa copper, steel, o brass dahil sa mahuhusay nitong katangian sa thermal, chemical, at mechanical.</p><p>Mapa-building technology para sa inuming tubig at heating network, sa industrial plant engineering, sa cooling systems, o sa paggawa ng barko, ang K Aqua pipe ay kumakatawan sa walang kompromisong German engineering at nagtitiyak ng ganap na leak-free at maintenance-free na operasyon sa loob ng maraming dekada.</p><h2>Inobasyon sa Materyales: Direktang Paghahambing ng PP-R at PPRCT</h2><p>Habang nag-aalok na ang standard Polypropylene Random Copolymer (PP-R) ng mahuhusay na feature patungkol sa corrosion resistance at hygiene, ang mas maunlad na PPRCT (Polypropylene Random Copolymer with Modified Crystallinity and Temperature resistance) ay nagtatakda ng mga bagong pamantayan sa pipeline technology. Sa pamamagitan ng target na modipikasyon ng crystal structure sa polymerization process, nag-aalok ang PPRCT ng mas mataas na compressive strength sa malalaking operating temperature na hanggang 95°C.</p><p>Nagbibigay-daan ang materyal na bentahe na ito para sa paggawa ng mga pipe na may mas manipis na wall thickness (mas mataas na SDR classes) sa parehong nominal pressure. Ang mga resulta para sa user ay napakaganda:</p><ul><li><span class=\"font-semibold\">Pinaigting na hydraulic flow:</span> Ang mas malaking internal diameter ay nagpapataas ng flow volume nang hanggang 17% kumpara sa karaniwang PP-R pipe.</li><li><span class=\"font-semibold\">Bawas na bigat ng pipe:</span> Ang pagtitipid ng materyal ay lubos na nagpapadali sa transportasyon at paghawak sa construction site.</li><li><span class=\"font-semibold\">Mas mataas na reserbang pressure:</span> Pinakamataas na safety reserve kahit na sa peak loads sa patuloy na hot water applications.</li></ul><h2>Fiber Composite Technology (K-Fiber) para sa Minimal na Thermal Expansion</h2><p>Isang pangunahing aspeto sa pagpaplano ng mainit na tubig at heating pipe ay ang thermal linear expansion ng mga plastic pipe. Tinutugunan ng K Aqua ang hamong ito gamit ang makabagong teknolohiyang K-Fiber composite. Nagtatampok ang three-layer na K-Fiber pipe ng isang gitnang layer ng polypropylene na pinatibay ng high-strength glass fibers.</p><p>Ang mechanical stabilization na ito ay nagpapababa ng linear thermal expansion coefficient patungo sa eksaktong 0.035 mm/(m·K), na tumutumbas sa humigit-kumulang 75% pagbawas sa thermal expansion kumpara sa hindi reinforced na solid plastic pipe. Para sa mga espesyalista at installer, nangangahulugan ito na:</p><ul><li><span class=\"font-semibold\">Kaunting expansion compensator:</span> Malaking pagtitipid sa mga bending leg at expansion loop sa pipe routing.</li><li><span class=\"font-semibold\">Mas malalaking espasyo ng fastening:</span> Pagtitipid sa mga pipe clamp at anchor point kapag niruruta ang piping.</li><li><span class=\"font-semibold\">Pag-install na nagpapanatili ng hugis:</span> Walang pag-laylay ng tubo sa open routing o risers.</li></ul><h2>Homogenous na Polyfusion Welding: Leak Safety sa loob ng 50+ Taon</h2><p>Ang sentro ng K Aqua pipe system ay ang hindi matatanggal at material-bonded na pamamaraan ng koneksyon sa pamamagitan ng thermal polyfusion. Habang isinasagawa ang proseso ng pag-weld, ang dulo ng tubo at ang socket ng fitting ay ininit sa eksaktong 260°C gamit ang electronically controlled na welding device. Tinutunaw nito ang polymer chains ng parehong components sa mga mating surface.</p><p>Kapag pinagdikit, ang mga tinunaw na macromolecule ay buong magkakabit sa molecular level. Matapos lumamig, isang homogenous at monolithic na istraktura ng materyal ay nabubuo na walang anumang seams, adhesives, o elastic seals. Dahil walang anumang rubber O-rings o mechanical press connections na ginagamit, hindi na magaganap ang pagkasira sa pagtanda, paghina, o embrittlement ng mga seal. Kayang tagalan ng welded na joint ang parehong presyon na tulad sa mismong tubo.</p><h2>Hydraulics, Hygiene, at Ekolohikal na Pagiging Tugma</h2><p>Ang kaligtasan ng inuming tubig at energy efficiency ay kabilang sa mga nangungunang priyoridad ng K Aqua. Ang mala-salamin na makinis na internal surface ng aming mga PP-R at PPRCT pipe ay may napakababang roughness na k = 0.007 mm lang. Ito ay epektibong pumipigil sa pagdikit ng limescale deposits (incrustation) at tinatanggalan ng pamamahay ang breeding grounds ng biofilms at Legionella.</p><p>Bilang karagdagan, ang materyal na polypropylene ay ganap na ligtas sa aspetong physiological, walang lasa o amoy, at walang anumang heavy metal o plasticizers. Ang mga K Aqua pipe system ay may sertipikasyon sa buong mundo ayon sa pinakamahigpit na testing standards (tulad ng DVGW, KIWA, WRAS). Ekologikal din ang system: 100% recyclable ang polymer at nagtatampok ng pambihirang life cycle assessment sa manufacturing process kumpara sa mga metal pipe.</p><h2>Mahalagang Gabay sa Pagpaplano at Pag-install</h2><p>Upang matiyak ang perpektong pagganap sa tinukoy na panahong may garantiya na 50 taon, dapat mapansin ang mga sumusunod na punto sa panahon ng pag-install:</p><ul><li><span class=\"font-semibold\">Pressure Test:</span> Matapos makumpleto ang pag-install, ang pipe network ay kailangang sumailalim sa pressure test ayon sa DIN 1988 / DIN EN 806.</li><li><span class=\"font-semibold\">Thermal Insulation:</span> Ayon sa naangkop na mga regulasyon sa pagtitipid ng enerhiya (tulad ng GEG), ang mga tubo para sa mainit na tubig at heating ay dapat na nakahiwalay nang wasto upang mabawasan ang pagkawala ng init.</li><li><span class=\"font-semibold\">Proteksyon sa UV:</span> Kapag ini-install nang nakalantad sa labas, dapat gamitin ang UV-protected na mga pipe o ilapat ang mga angkop na takip.</li></ul>",
-      "seoTitle": "Buod ng PP-R & PPRCT Pipe System",
-      "faq": [
-        {
-          "q": "Ano ang ipinagkakaiba ng PPRCT mula sa karaniwang PP-R sa pipe systems?",
-          "a": "Nagtatampok ang PPRCT (Polypropylene Random Copolymer with Modified Crystallinity and Temperature resistance) ng espesyal na binagong istraktura ng kristal na nagbibigay-daan sa mas mataas na pressure resistance sa mataas na operating temperatures. Nagbibigay-daan ito sa paggamit ng mga thinner-walled na pipe sa parehong nominal pressure, na nagpapataas sa inner diameter at hydraulic flow capacity nang hanggang 17%."
-        },
-        {
-          "q": "Paano pinapababa ng K-Fiber composite technology ang thermal linear expansion?",
-          "a": "Nagtataglay ang aming mga K-Fiber pipe ng pinagsama-samang middle layer ng glass-fiber reinforced polypropylene. Ang layer na ito ay pinapatibay ang pipe nang mekanikal at nagpapababa sa expansion coefficient patungo sa 0.035 mm/(m·K). Sumasalamin ito sa 75% pagbawas sa thermal expansion kumpara sa standard na mga plastic pipe."
-        },
-        {
-          "q": "Sertipikado ba ang K Aqua PP-R pipe system para sa inuming tubig?",
-          "a": "Oo, tinutugunan ng mga K Aqua pipe system ang pinakamahigpit na pamantayan sa pagsusuri at kalinisan ng mga international certification body tulad ng DVGW, KIWA, at WRAS. Ang materyal ay ganap na ligtas, walang amoy, walang lasa, at epektibong humahadlang sa pamumuo ng limescale at biofilm."
-        },
-        {
-          "q": "Paano ginagawa ang ganap na leak-free welded na koneksyon?",
-          "a": "Ang koneksyon ay nililikha sa pamamagitan ng thermal polyfusion sa 260°C. Ang tubo at fitting ay natutunaw sa molecular level para maging isa at hindi mapaghihiwalay na piraso. Dahil walang anumang rubber seals o press fittings na madaling masira ang ginagamit, ang welding seam ay nananatiling ganap na protektado sa tagas nang mahigit 50 taon."
-        },
-        {
-          "q": "Anong mga pressure rating at dimensyon ang available para sa mga K Aqua pipe?",
-          "a": "Ang K Aqua ay nag-aalok ng mga piping system sa pressure classes na SDR 6, SDR 7.4, SDR 9, at SDR 11 (PN10 hanggang PN25) gayundin sa mga outer diameter mula 20 mm hanggang 250 mm. Pinapayagan nito ang paglikha ng detalyadong floor distribution networks at gayundin ang paggawa ng mga dambuhalang main at riser pipe."
-        }
-      ]
-    },
-    "fittings": {
-      "areas": "Drinking water network, Sanitary installation, Industrial distribution, Heating construction",
-      "advTitle": "Ligtas at homogenous na mga koneksyon",
-      "advList": [
-        "Homogenous na pag-weld: Ang pipe at fitting ay nag-iisa para maging hindi mapaghihiwalay na piraso.",
-        "Walang kailangang seals: Ang permanenteng koneksyon ay hindi na nangangailangan ng O-rings na madaling masira.",
-        "Simpleng instalasyon: Mabilis at ligtas na pagproseso sa mismong construction site.",
-        "Buong flow rate: Walang nangyayaring paninikip ng cross-section, na siyang nagpapanatili ng system pressure.",
-        "Resistensya sa kemikal: Lumalaban sa malawak na uri ng mga agresibong likido."
-      ],
-      "seoText": "Ang mga fitting ng K Aqua ay ang batayan para sa maaasahang pipe networks. Ginawa sa Germany, nag-aalok ang mga fitting na ito ng pinakamataas na katumpakan at dimensional stability. Ang proseso ng welding (socket welding) ay nangangailangan lamang ng ilang segundo at lumalamig sa isang koneksyon na kasintibay ng mismong tubo. Inaalis nito ang panganib ng mga micro-leak, na kadalasang maaaring mangyari sa press o plug-in system pagkalipas ng mga taon.",
-      "guideTitle": "Teknikal na Gabay: Ligtas na mga koneksyon gamit ang K Aqua Fittings",
-      "guideText": "<p>Fittings ang sentro ng anumang kumplikadong network ng pipe. Sa tulong ng de-kalidad na <span class=\"font-semibold\">K Aqua PP-R fittings</span>, nakakalikha ka ng mga pag-install na kayang labanan ang pinakamataas na pressure at temperatura.</p><p>Hindi mapapabulaanan ang mga bentahe ng homogenous na welding:</p><ul><li><span class=\"font-semibold\">Material-bonded na koneksyon:</span> Sa proseso ng pag-init, ang fitting at pipe ay nag-iisa para maging iisang workpiece. Maaasahang tinatanggal nito ang mga lugar na may kahinaan tulad ng mabilis na malumang O-rings o mechanical pressings.</li><li><span class=\"font-semibold\">Flow optimization:</span> Idinisenyo ang aming mga fitting upang mapanatili ang cross-section sa mga koneksyon. Pinapababa nito ang turbulence at binabawasan ang ginagamit na enerhiya ng circulation pumps.</li><li><span class=\"font-semibold\">Pinakamataas na kalidad ng materyales:</span> Sa pamamagitan ng paggamit ng first-class Polypropylene Random Copolymer, nakakamit ang namumukod-tanging katangian laban sa mga pagbabago sa kemikal at thermal na higit na lumalampas sa mga pamantayan.</li></ul><p>Habang isinasagawa ang proseso, mahalagang tiyakin na malinis at walang natirang dumi ang mga paghiwa at mahigpit na sinusunod ang panahong kinakailangan sa pag-init at pagpapalamig. Sa ganitong paraan, magagarantiyahan ang pinangakong maintenance-free service life ng tagagawa na higit 50 taon sa lahat ng larangan ng instalasyon.</p>",
-      "seoTitle": "Plastic Fittings at Form Parts"
-    },
-    "valves": {
-      "areas": "Line shut-off, System control, Distribution cabinets, Industry",
-      "advTitle": "Tumpak na kontrol at matagalang pag-andar",
-      "advList": [
-        "Walang-maintenance: Ang mga mekanika ay idinisenyo para sa maayos at dekada nang paggana.",
-        "Buong daanan: Ang mga ball valve na may buong cross-section ay nagpapaliit ng pressure loss.",
-        "Madaling integrasyon: Maaaring direktang i-weld papunta sa PP-R system.",
-        "De-kalidad na mga materyales: Valve seats at balls na gawa sa corrosion-resistant alloys.",
-        "Ligtas na shut-off: 100% walang tagas kahit sa ilalim ng matinding pagbabago ng pressure at temperature."
-      ],
-      "seoText": "Pinagsasama ng K Aqua shut-off armatures at valves ang subok na PP-R welding technology at mga de-kalidad na mekanikal na sangkap. Nagbibigay ang mga ito ng tumpak na pagkontrol sa mga likido at ligtas na isolasyon sa mga parte ng network para sa maintenance. Sumasailalim ang bawat armature sa mahigpit na pressure tests bago ipadala, para matiyak ang pinakamataas na kaligtasan ng operasyon sa mga kritikal na aplikasyon.",
-      "guideTitle": "Gabay ng Eksperto: System control gamit ang mga K Aqua Valve at Armature",
-      "guideText": "<p>Ang tumpak na pagkontrol at pag-isolate ng material flows ay napakahalaga sa modernong tubig at heating networks. Pinagsasama ng <span class=\"font-semibold\">K Aqua shut-off armatures at valves</span> ang haba ng buhay ng polypropylene at ang katumpakan ng metallic sealing at adjustment mechanisms.</p><p>Ang kailangan mong malaman kapag isinasama ang mga PP-R valve:</p><ul><li><span class=\"font-semibold\">Disenyong walang tagong espasyo (Dead-space-free):</span> Para maiwasan ang stagnation water at bacterial growth (hal., Legionella), ang aming mga armature ay flow-optimized at idinisenyo para sa kalinisan, kaya perpekto ang mga ito para sa sensitibong aplikasyon sa pag-install ng inuming tubig.</li><li><span class=\"font-semibold\">Katatagan sa Pressure at Temperature:</span> Tinitiyak ng malalaking valve body at de-kalidad na brass o PP na mga bola ang 100% seal, kahit na magkaroon pa ng extreme pressure surges at matataas na flow temperatures.</li><li><span class=\"font-semibold\">Madaling Maintain:</span> Kahit pagkatapos ng maraming taon sa tuluy-tuloy na paggana, maaaring maayos at eksaktong gamitin ang K Aqua ball valves at slant seat valves salamat sa teflon-coated sealing elements.</li></ul><p>Para sa maximum system availability, nirerekomenda naming istratehikong iposisyon ang mga armature sa panahon pa lamang ng pagpaplano upang maisagawa ang maintenance work at flushing processes nang walang malalaking abala sa network.</p>",
-      "seoTitle": "Shut-off Valves at Ball Valves"
-    },
-    "weldInSaddles": {
-      "areas": "Kasunod na mga sangay, Pipe network extension, Distribution setup",
-      "advTitle": "Weld-in Saddles para sa pinakamataas na flexibility",
-      "advList": [
-        "Kasunod na instalasyon: Pagpapalawak ng mga umiiral na PP-R pipe network nang hindi pinuputol ang main pipe.",
-        "Nakatitipid ng oras: Pagbabarena, pag-init, pag-weld, tapos sa loob lang ng ilang minuto.",
-        "Pressure resistant: Ang saddle welding ay umabot sa parehong pressure rating ng base pipe.",
-        "Buong flow rate: Walang paninikip sa cross-section ng main line.",
-        "Maraming gamit: Available nang mayroon o walang metallic thread transition (IG/AG)."
-      ],
-      "seoText": "Ang Weld-in Saddles para sa pinakamataas na flexibility ang perpektong solusyon pagdating sa mga karagdagang sangay sa mga umiiral nang piping networks. Sa halip na puwersahang hatiin ang main pipe at lagyan ng T-pieces, binabarenahan lang ang pipe at homogenously ini-weld ang saddle rito. Ang paraang ito ay nakatitipid ng malaking oras ng instalasyon at materyales na magagamit sa industrial distribution systems.",
-      "guideTitle": "Gabay sa Pag-install: Kakayahang umangkop sa pamamagitan ng Weld-in Saddles",
-      "guideText": "<p>Ang modipikasyon o pagpapalawak ng mga umiiral na pipe network sa industriya at komersyo ay madalas na nangangailangan ng maraming pagsisikap. Dito nag-aalok ang <span class=\"font-semibold\">K Aqua weld-in saddles</span> ng isang episyente at napakaligtas na solusyon upang makagawa ng mga karagdagang sangay nang walang nangyayaring pagkagambala sa linya.</p><p>Ang pangunahing mga teknikal na benepisyo sa isang sulyap:</p><ul><li><span class=\"font-semibold\">Kaunting oras ng pag-install:</span> Sa halip na putulin ang main pipe at i-install ang conventional T-pieces, ang tubo ay eksaktong binabarenahan at ini-weld ang saddle rito. Mabisang pinababa nito ang gastos sa pag-assemble.</li><li><span class=\"font-semibold\">Pinapanatili ang integridad ng sistema:</span> Sa pamamagitan ng polyfusion, hindi na mapaghihiwalay na idinidikit ang weld-in saddle at ang pader ng tubo, pinapanatili ang orihinal na resistensya sa pressure at temperature nito (hanggang PN 25).</li><li><span class=\"font-semibold\">Flexible na pamamaraan sa pagdudugtong:</span> Available bilang purong plastic branch o may integrated metal thread (IG/AG), binibigyang-daan ng mga saddle ang direktang pagkabit ng sensors, pressure gauges, o branch lines sa makikipot na lugar.</li></ul><p>Upang matiyak ang walang bahid na pag-weld, ang paggamit ng mga espesyal na K Aqua drilling at welding tool ay sapilitan, dahil ginagarantiyahan nito ang eksaktong milling depth at heating surface para sa isang perpektong koneksyon.</p>",
-      "seoTitle": "Weld-in Saddles para sa mga Pipe"
-    },
-    "accessories": {
-      "areas": "Pagkakabit ng tubo, Pag-seal, Koneksyon ng Flange, Pag-repair",
-      "advTitle": "Accessories (Mga accessory) para sa isang sumusunod sa pamantayang pag-install",
-      "advList": [
-        "Perpektong sukat: Ang lahat ng mga accessory ay tugma sa geometry sa K Aqua pipe system.",
-        "Thermodynamic na pagkabit: Pipe clamps na may rubber inlay para sa fixed at loose bearings.",
-        "De-kalidad na koneksyon ng flange: Loose flanges at EPDM seals para sa pagdugtong ng mga bakal.",
-        "Mabilis na pagkukumpuni: Repair plugs para sa mga di-sinasadyang nabaon na tubo.",
-        "Lumalaban sa UV: Ang mga piling accessory ay partikular na pinatibay para sa outdoor installation."
-      ],
-      "seoText": "Ang tamang hanay ng mga Accessories (Mga accessory) ay napakahalaga para sa mahabang buhay ng isang pipe network. Ang K Aqua ay nag-aalok ng komprehensibong matrix ng mga accessory: mula sa thermodynamic mounting clamp upang tugunan ang linear expansion, patungo sa EPDM flat seal para sa koneksyon ng mga flange. Kapag ang ginamit lamang ay mga perpektong pinagbagay na accessory ng K Aqua maaari mong matiyak ang pagsunod sa lahat ng kinakailangan ng GEG at DIN 18381.",
-      "guideTitle": "Gabay ng Eksperto: Mga accessory ng K Aqua para sa mga nakasusunod sa pamantayang pag-install",
-      "guideText": "<p>Ang isang de-kalidad na pipe system ay nangangailangan ng de-kalidad din na mga accessory. Ang portfolio ng K Aqua ay kabilang ang lahat ng mahalagang component na gumagarantiya ng tibay, kaligtasan, at pagsunod sa lahat ng structural at pisikal na standards.</p><p>Ang pinakamahalagang mga aspeto para sa wastong paggamit ng aming mga accessory:</p><ul><li><span class=\"font-semibold\">Kompensasyon ng linear expansion:</span> Ang mga plastic pipe ay lumalaki kapag nagbabago ang temperatura. Ang nilalayong paggamit ng aming mga thermodynamic pipe clamp bilang fixed at loose bearings ay ligtas na nakakasipsip sa mga paggalaw na ito at nagpoprotekta sa system mula sa nakakapinsalang internal stress. Ito ay lalong mahalaga sa mga industrial plant at risers, kung saan ang walang pigil na expansion ay maaaring magdulot ng structural damage.</li><li><span class=\"font-semibold\">Tight flange connections:</span> Para sa pagdugtong ng malalaking balbula, pumps o tank, nag-aalok ang aming loose flanges at eksaktong nababagay na EPDM flat seals ng ganap na kaligtasan sa matinding contact pressure at tuluy-tuloy na mga pag-vibrate. Sila ay gumagarantiya ng maayos at liquid-tight na koneksyon, dahilan upang mapigilan ang potensyal na maging mapaminsalang pagtagas sa mahahalagang imprastraktura.</li><li><span class=\"font-semibold\">Mga solusyon sa pagkukumpuni:</span> Sa aming makabagong repair plug, ang mga hindi sadyang nabutasan na tubo (hal., sa mga construction site) ay maaaring mai-weld nang maayos sa loob lamang ng ilang minuto, nanunumbalik ang buong structural strength ng tubo. Dahil dito, hindi na kinakailangan pang palitan ang buong seksyon ng tubo.</li></ul><p>Bukod sa kompensasyon at pagiging selyado, ang <span class=\"font-semibold\">insulation at proteksyon sa sunog (fire protection)</span> ay isang mahalagang sangkap din para sa isang maayos na instalasyon. Ang hanay ng accessory ng K Aqua ay dinisenyo upang pakuntiin ang pagkawala ng init at matugunan ang pinakamataas na standards sa kaligtasan. Ang aming mga espesyal na seal at pangkabit na elemento ay ginawa para mapigilan nang tuluyan ang ingay at harangin ang transmission of structure-borne noise sa brickwork.</p><p>Sa paggamit lang ng orihinal na K Aqua accessories masisiguro mo ang buong system warranty at makakaiwas ka sa mga mamahaling depekto na nagmumula sa hindi tugmang third-party products. Mag-invest sa kalidad na walang kompromiso upang magarantiya ang walang problemang operasyon ng iyong pipeline system sa darating pang maraming dekada.</p> Accessories para sa mga instalasyong sumusunod sa pamantayan.",
-      "faq": [
-        {
-          "q": "Angkop ba ang mga accessory na ito para sa malamig at mainit na tubig?",
-          "a": "Oo, ang aming accessories katulad ng pipe clamps at flat seals ay dinesenyo para gamitin sa cold water, hot water at heating systems at nagtataglay ng kahanga-hangang thermal stability."
-        },
-        {
-          "q": "Puwede ba akong gumamit ng third-party accessories?",
-          "a": "Para mapakinabangan ang buong K Aqua system warranty, kinakailangang gumamit ng mga orihinal na accessory lamang. Ang mga sangkap mula sa mga third party ay maaaring maging sanhi ng mga isyu sa pagtagas at pagpalya sa istraktura ng tubo."
-        },
-        {
-          "q": "Mayroon bang mga espesyal na accessory para sa gamit pang-industriya?",
-          "a": "Oo, kasama sa aming mga materyales ang heavy-duty na loose flanges na may steel core, EPDM special seals at reinforced pipe clamps, na lahat ay kaya ang matinding bigat o pang-industriyang pamamaraan nang walang nagiging problema."
-        }
-      ],
-      "seoTitle": "Accessories para sa Pipe Installation"
-    },
-    "fallback": {
-      "areas": "Universal na teknolohiya sa pag-install, Kinakailangan sa construction site, System supplement",
-      "advTitle": "Perpektong karagdagan sa system",
-      "advList": [
-        "Subok na kalidad: Sumusunod sa ISO 9001 management system.",
-        "Compatibility ng system: Perpektong iniakma sa K Aqua pipe system.",
-        "Mahabang buhay: Matitibay na materyales para sa magaspang na kapaligiran ng construction site.",
-        "Ligtas na paggamit: Garantisadong gumagana sa wastong propesyonal na aplikasyon.",
-        "Ekonomikal: Magandang ratio sa halaga at pagganap."
-      ],
-      "seoText": "Bilang system provider, ang K Aqua ay hindi lamang nagbibigay ng mga tubo at fitting, ngunit maging ang lahat ng kinakailangang mga tool at accessory. Mula sa highly-precise welding device hanggang sa maaasahang pipe cutter: ang aming mga tool ay gumagarantiya ng standard na pagproseso at pinakamataas na kaligtasan sa pag-install. Umasa sa mga orihinal na accessory upang mapanatili ang warranty ng iyong buong K Aqua system."
-    }
+  "academy": {
+    "eyebrow": "K Aqua Academy",
+    "title1": "ຄວາມຮູ້ສ້າງ",
+    "titleGrad": "ຄວາມໝັ້ນໃຈ.",
+    "lead": "ຕັ້ງແຕ່ພື້ນຖານດ້ານວັດສະດຸ ໄປຈົນເຖິງເຕັກນິກການເຊື່ອມຂັ້ນສູງ. K Aqua Academy ຈະຝຶກອົບຮົມຜູ້ຕິດຕັ້ງ, ນັກວາງແຜນ ແລະ ຜູ້ຄ້າໃຫ້ກາຍເປັນຜູ້ຊ່ຽວຊານ PP-R.",
+    "courses": [
+      {
+        "level": "ຂັ້ນພື້ນຖານ",
+        "title": "ວັດສະດຸ ແລະ ລະບົບ",
+        "desc": "ຄວາມເຂົ້າໃຈກ່ຽວກັບຄວາມແຕກຕ່າງລະຫວ່າງ PP-R ແລະ PPRCT, ລະດັບແຮງດັນ (SDR) ແລະ ຂົງເຂດການນຳໃຊ້.",
+        "duration": "2 ຊົ່ວໂມງ"
+      },
+      {
+        "level": "ຂັ້ນສູງ",
+        "title": "ເຕັກນິກການເຊື່ອມຂັ້ນສູງ",
+        "desc": "ການຝຶກອົບຮົມພາກປະຕິບັດ: ການເຊື່ອມແບບສອດ (Socket fusion), ການເຊື່ອມຊົນ (Butt fusion), ແລະ ການເຊື່ອມດ້ວຍໄຟຟ້າ (Electrofusion) ເພື່ອຮັບປະກັນການເຊື່ອມຕໍ່ທີ່ສົມບູນແບບ.",
+        "duration": "1 ມື້"
+      },
+      {
+        "level": "ຜູ້ຊ່ຽວຊານ",
+        "title": "ການວາງແຜນ ແລະ ສຸຂະອະນາໄມ",
+        "desc": "ການກຳນົດຂະໜາດທີ່ຖືກຕ້ອງ, ການນຳໃຊ້ເຄື່ອງມືຄຳນວນ CO2 ແລະ ຫຼັກການການຮັກສາຄຸນນະພາບນ້ຳດື່ມ.",
+        "duration": "2 ມື້"
+      }
+    ],
+    "cta": "ເບິ່ງວິດີໂອການຝຶກອົບຮົມ",
+    "certificate": "ຫຼັງຈາກສຳເລັດຫຼັກສູດ, ຜູ້ເຂົ້າຮ່ວມຈະໄດ້ຮັບໃບຢັ້ງຢືນ K Aqua",
+    "titleGood": "ຊ່າງເຊື່ອມຊຳນານງານ"
   }
-}

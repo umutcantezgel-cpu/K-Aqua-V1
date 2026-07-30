@@ -1,0 +1,207 @@
+  },
+  "wissen": {
+    "meta": {
+      "title": "Kaalaman at Teknikal na Datos | K Aqua",
+      "desc": "Malalim na teknikal na kaalaman, system architectural analysis, at walang kompromisong data ng inhinyero."
+    },
+    "scroll": {
+      "items": [
+        {
+          "title": "PPRCT Matrix Architecture",
+          "desc": "Ang structural integrity ng aming PPRCT ay muling tumutukoy sa limitasyon ng thermal capacity. Sa ilalim ng matinding pressure at temperature cycles, inaalis ng aming hexagonal lattice structure ang material fatigue."
+        },
+        {
+          "title": "Thermodynamic Isolation",
+          "desc": "Ang aming coextruded insulation layers ay batay sa closed-cell polyurethane technology. Nababawasan sa pinakamababa ang U-value, kaya walang nawawalang enerhiya."
+        },
+        {
+          "title": "Subok na Kalinisan (Sterility)",
+          "desc": "Walang kompromiso sa imprastraktura ng inuming tubig. Ang ultra-smooth na panloob na ibabaw (k=0.007 mm) ay pumipigil sa pagdami ng mikrobyo at biofilm."
+        },
+        {
+          "title": "Non-Destructive Testing (NDT)",
+          "desc": "Bawat piping system ay dumadaan sa awtomatikong ultrasound at X-ray diagnostics. 100% Traceability. Zero tolerance para sa depekto."
+        }
+      ]
+    },
+    "timeline": {
+      "items": [
+        {
+          "year": "PHASE I",
+          "title": "Molecular Synthesis",
+          "text": "Nagsisimula ang proseso sa atomic level. Ang catalytic polymerization ay bumubuo sa base ng PPRCT granulate."
+        },
+        {
+          "year": "PHASE II",
+          "title": "Precision Coextrusion",
+          "text": "Ang granulate ay tinutunaw sa 240°C. Ang simultaneous extrusion ng maraming layer ay may laser control na eksakto hanggang micrometer."
+        },
+        {
+          "year": "PHASE III",
+          "title": "Thermal Stabilization",
+          "text": "Inaayos ng isang cooling protocol ang macromolecular na direksyon upang maiwasan ang internal stress."
+        },
+        {
+          "year": "PHASE IV",
+          "title": "Hyper-Auditing",
+          "text": "Mga burst pressure test at materyal na pagsusuri. Tanging ang mga nakakalagpas sa limitasyon nang 300% ang nakakapasa."
+        }
+      ],
+      "title": "Simula ng Integridad",
+      "desc": "Mula sa molecular catalyst hanggang sa huling produkto. Isang silip sa aming paggawa na walang kompromiso."
+    },
+    "hero": {
+      "eyebrow": "System Intelligence",
+      "title1": "Ang Teknikal na",
+      "title2": "Database ng Kaalaman",
+      "desc": "Katumpakang walang kompromiso. Data-driven na pagsusuri. Walang puwang para magkamali. Tuklasin ang purong inhinyerya ng K Aqua.",
+      "status": "System Status: Online",
+      "clearance": "Clearance Level 4"
+    },
+    "deep": {
+      "badge": "Mga Pangunahing Specs",
+      "title1": "Material Science at",
+      "title2": "Mga Protocol",
+      "desc": "Wala kaming iniiwan sa tsansa. Ang bawat specification ay resulta ng pananaliksik at mahigpit na stress tests sa ilalim ng pinakamatinding kondisyon."
+    },
+    "grid": {
+      "badge": "Mga Lathalain",
+      "title1": "Na-verify na",
+      "title2": "Kaalaman",
+      "desc": "Access sa malalalim na teknikal na artikulo at whitepaper. Na-verify na data para sa mga inhinyero.",
+      "read": "Magbasa"
+    },
+    "cta": {
+      "title1": "SYSTEM INTEGRITY",
+      "title2": "NAKUMPIRMA.",
+      "desc": "Narating mo na ang dulo ng mga specification. Handa na bang gawing realidad ang teorya?",
+      "btn": "Simulan ang Kontak"
+    }
+  },
+  "productNames": {
+    "accessories_backing-flange": "PP-Steel Backing Flange (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Flat Gasket para sa PP-R Unions",
+    "accessories_flat-gasket": "Flat Gasket",
+    "accessories_pipe-clamps": "Pipe Clamps",
+    "accessories_plug": "PP-R Pipe Plug",
+    "fittings_cap": "PP-R End Cap",
+    "fittings_cross-over-pipe": "PP-R Cross-over Pipe",
+    "fittings_cross-over": "PP-R Cross-over",
+    "fittings_cross": "PP-R Cross",
+    "fittings_elbow-45-female-male": "PP-R Elbow 45° (Female/Male)",
+    "fittings_elbow-45": "PP-R Standard Elbow 45°",
+    "fittings_elbow-90-female-male": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_electrofusion-socket": "Electrofusion Socket",
+    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_reducing-bush": "Reducing Bush",
+    "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+    "fittings_reducing-tee": "PP-R Reducing Tee",
+    "fittings_socket": "PP-R Socket",
+    "fittings_tee": "PP-R Tee",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Multilayer composite pipe na may espesyal na UV protection coat para sa outdoor (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "High-performance composite pipe (PPRCT) na may itim na UV layer para sa outdoor (SDR 7.4).",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PPRCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PPRCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool para sa Weld-in Saddles",
+    "tools_electrofusion-machine": "Electrofusion Machine",
+    "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "Compact socket welder bilang complete set para sa maliit na dimensyon (d20-d32 mm).",
+    "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "Versatile socket welder sa isang set (heating plate, stand, dies) para sa d20-d63 mm.",
+    "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Mirror only) 50-125",
+    "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50-125-114": "Pipe Cutter 1 1/4",
+    "tools_pipe-cutter-50-125": "Pro Pipe Cutter d50-d125",
+    "tools_repairing-plug": "Repairing Plug",
+    "tools_welding-machine-50-125": "Welding Machine d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Welding Tool para sa Repair Plug",
+    "tools_welding-tool-for-weld-in-saddles": "Welding Tool para sa Weld-in Saddles",
+    "tools_welding-tool": "Welding Tool",
+    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male Thread)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Elbow Wall Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "One-sided elbow wall bracket para sa ligtas na pag-mount (Female).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Double Elbow Wall Bracket 90° (Female Thread)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Two-sided wall mounting para sa napakatatag na koneksyon.",
+    "transition-fittings_metal-union-female-thread-brass": "Metal Union (Brass CW617N, Female)",
+    "transition-fittings_metal-union-female-thread": "Union na may PP-R Nut (Female Thread)",
+    "transition-fittings_metal-union-male-thread-brass": "Metal Union (Brass CW617N, Male)",
+    "transition-fittings_metal-union-male-thread": "Union na may PP-R Nut (Male Thread)",
+    "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_union-for-watermeters": "Water Meter Union",
+    "transition-fittings_union": "PP-R Pipe Union",
+    "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+    "valves_battery-female-thread": "Battery (Female Thread)",
+    "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome: Heavy Part",
+    "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome: Light Part",
+    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Ball Valve (PP Ball)",
+    "valves_pp-r-ball-valve-brass": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_straight-seat-valve-green-handle": "Straight-Seat Valve (Top Part)",
+    "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female) para sa Concealed Valve",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
+  },
+  "customerReviews": {
+    "eyebrow": "Kalidad na nag-uugnay",
+    "title": "Ano ang sinasabi ng aming mga customer at partner",
+    "lead": "Mula sa mga builder hanggang sa mga kumpanya ng transportasyon at mga empleyado: Ang K Aqua KWT GmbH ay kumakatawan sa pinakamataas na katumpakan mula sa Waldsolms. Basahin kung ano ang naranasan nila araw-araw sa aming serbisyo at produktong 'Made in Germany'.",
+    "trustBadge": "Mga Review sa Google",
+    "trustStars": "4.9 / 5",
+    "trustBasedOn": "(Batay sa 44 na review)",
+    "tabA": "Kalidad at 'Made in Germany'",
+    "tabB": "Logistik at Paghahatid",
+    "tabC": "Serbisyo sa Customer at Koponan",
+    "reviews": {
+      "a1": "“Isang pabrika sa Waldsolms, Germany, dalubhasa sa PPR pipes at fittings na **Made in Germany**. Mahusay na tauhan.”",
+      "a1Author": "Giulio C.",
+      "a2": "“**Kalidad na German** sa PPR coatings at fittings, napakabait na staff.”",
+      "a2Author": "Veronica P.",
+      "a3": "“**Makabagong kumpanya**. Gumagawa ng mga plastic pipe sa lahat ng laki at aksesorya.”",
+      "a3Author": "Ewald S.",
+      "a4": "“PPR pipes at fittings mula sa **produksyon sa Germany**, mahusay na empleyado at produkto.”",
+      "a4Author": "Kais S.",
+      "a5": "“**Mataas na kalidad na produkto** at napakagandang pabrika sa Germany.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "“Napakagandang mga produkto, **maaasahang kalidad** at on-time na paghahatid.”",
+      "a6Author": "Klaus T.",
+      "b1": "“Napakabait makitungo, **mabilis na pag-unload**. Pinayagan akong magpahinga dito. Inalok din ako ng shower at toilet. Pinapahalagahan ka rito bilang truck driver. **Pinapahalagahan**. Masaya akong babalik.”",
+      "b1Author": "Michael S.",
+      "b2": "“Ang kasalukuyang coordinates para sa pasukan ay **50.428210, 8.499154**. May parking lot na mga 100 metro ang layo. Friendly na staff.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "“**Mabilis na pag-unload**, friendly at matulungin na staff.”",
+      "b3Author": "Bogdan M.",
+      "c1": "“**Napakagandang serbisyo**, astig na ginagawa pa rin ito sa Germany.”",
+      "c1Author": "Daniel",
+      "c2": "“**Napakabait** at matulungin na staff. Sinasagot agad ang mga e-mail.”",
+      "c2Author": "Mohamed M.",
+      "c3": "“Mula sa chairman hanggang sa ordinaryong manggagawa: sila ay **mabubuting tao**.”",
+      "c3Author": "Azim",
+      "c4": "“**Kahanga-hangang kumpanya**, marami silang ginagawa para sa kanilang mga tao.”",
+      "c4Author": "Monika v. B.",
+      "c5": "“Ang mga empleyado ay **napakabait at matulungin**.”",
+      "c5Author": "Piera V.",
+      "c6": "“Kompetenteng team at **napakahusay na customer care** sa lahat ng antas.”",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Suriin mo mismo ang aming serbisyo.",
+    "ctaText": "Mayroon ka bang mga katanungan tungkol sa aming PPR pipe systems o gusto mong pag-usapan ang isang proyekto? Nandito ang aming team sa Waldsolms para sa iyo.",
+    "ctaBtn": "Makipag-ugnayan ngayon",
+    "disclaimer": "Tandaan tungkol sa pag-verify ng mga review: Ang mga review na ipinapakita rito ay nagmula sa aming Google Business Profile. Sinasabi ng Google: Hindi vine-verify ang mga review. Pinaikli namin ang mga pangalan ng may-akda para sa proteksyon ng data (GDPR)."
+  }
+}

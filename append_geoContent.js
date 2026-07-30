@@ -1,0 +1,328 @@
+const fs = require('fs');
+const msPath = 'messages/ms.json';
+const msStr = fs.readFileSync(msPath, 'utf8');
+
+const geoContent = {
+  "frankfurt": {
+    "regulator": "DVGW / Ordinan Air Minuman (TrinkwV)",
+    "water": "Air keras (14–20 °dH): PP-R/PPRCT bebas kakisan mencegah kerak kapur pada permukaan logam yang kasar.",
+    "focus": [
+      "Paip menegak bangunan tinggi (Daerah perbankan)",
+      "Ubah suai hotel & pejabat",
+      "Air penyejuk pusat data"
+    ],
+    "note": "Di kawasan Rhine-Main, K-Aqua dihantar dari kilang Waldsolms, selalunya pada hari yang sama.",
+    "focusHeading": "Projek tipikal di Frankfurt am Main"
+  },
+  "berlin": {
+    "regulator": "DVGW / TrinkwV, Berliner Wasserbetriebe",
+    "water": "Air sederhana keras dari penapisan tebing: Sifat neutral bersih PP mencegah pembentukan biofilm dalam rangkaian yang luas.",
+    "focus": [
+      "Pembangunan kawasan perumahan baharu",
+      "Bangunan sekolah & pentadbiran",
+      "Pengubahsuaian bangunan lama"
+    ],
+    "note": "Projek besar di wilayah ibu kota dihantar melalui rakan logistik dalam masa 24 jam.",
+    "focusHeading": "Projek tipikal di Berlin"
+  },
+  "muenchen": {
+    "regulator": "DVGW / TrinkwV, SWM",
+    "water": "Air Alps yang lembut dengan toleransi pH yang rendah: PP adalah tahan, manakala kuprum mengalami keterlarutan yang tinggi.",
+    "focus": [
+      "Perumahan premium",
+      "Bangunan klinik & makmal",
+      "Kilang bir & air proses"
+    ],
+    "note": "Logistik Jerman Selatan semalaman; latihan kimpalan di tapak boleh ditempah.",
+    "focusHeading": "Projek tipikal di Munich"
+  },
+  "hamburg": {
+    "regulator": "DVGW / TrinkwV, Hamburg Wasser",
+    "water": "Air bawah tanah lembut hingga sederhana keras: Sistem PP tanpa bau mengekalkan kualiti air mentah yang tinggi.",
+    "focus": [
+      "Pembangunan baharu HafenCity",
+      "Industri perhotelan",
+      "Kejuruteraan marin"
+    ],
+    "note": "Utara Jerman terus dari gudang; dimensi besar d250+ untuk projek khas terus dari penyemperitan.",
+    "focusHeading": "Projek tipikal di Hamburg"
+  },
+  "wien": {
+    "regulator": "ÖVGW / Ordinan Air Minuman (AT)",
+    "water": "Air mata air pergunungan berkualiti tinggi: Pengekalan nilai melalui paip bahan lengai sepenuhnya.",
+    "focus": [
+      "Pengubahsuaian perumahan awam",
+      "Projek hotel & komersial",
+      "Sub-pengagihan pemanasan daerah"
+    ],
+    "note": "Pasaran tunggal EU: tiada formaliti kastam, penghantaran 48 jam.",
+    "focusHeading": "Projek tipikal di Vienna"
+  },
+  "zuerich": {
+    "regulator": "SVGW / TBDV",
+    "water": "Campuran air tasik dan mata air: Keperluan kebersihan Switzerland menuntut keneutralan bahan yang diuji.",
+    "focus": [
+      "Perumahan harga tinggi",
+      "Pengubahsuaian bank & pejabat",
+      "Bangunan hospital"
+    ],
+    "note": "Pengendalian eksport termasuk sijil pematuhan Switzerland dari satu sumber.",
+    "focusHeading": "Projek tipikal di Zurich"
+  },
+  "london": {
+    "regulator": "WRAS: Skim Kelulusan Peraturan Air",
+    "water": "Air yang sangat keras (Lembangan Thames): PPRCT kekal bebas dari kerak mendapan dan penyempitan keratan rentas.",
+    "focus": [
+      "Perumahan Bertingkat Tinggi",
+      "Pengubahsuaian Warisan",
+      "Rangkaian air panas seluruh daerah"
+    ],
+    "note": "Dokumentasi mematuhi WRAS dan helaian data bahasa Inggeris tersedia.",
+    "focusHeading": "Projek tipikal di London"
+  },
+  "paris": {
+    "regulator": "ACS: Attestation de Conformité Sanitaire",
+    "water": "Air keras Sungai Seine dengan beban kalsium: permukaan dalaman PP yang licin mengekalkan penurunan tekanan yang rendah dan malar selama berdekad.",
+    "focus": [
+      "Kawasan perumahan Grand-Paris",
+      "Pengubahsuaian hotel & monumen",
+      "Penggunaan pasca-Olimpik"
+    ],
+    "note": "Sijil pematuhan ACS dan panduan pemasangan Perancis disertakan dalam penghantaran.",
+    "focusHeading": "Projek tipikal di Paris"
+  },
+  "mailand": {
+    "regulator": "DM 174/2004 (Sentuhan air minuman, IT)",
+    "water": "Air bawah tanah dari Lembah Po dengan kekerasan tinggi: sistem bebas kerak mengurangkan kos penyelenggaraan dengan ketara.",
+    "focus": [
+      "Kelompok bangunan tinggi Porta Nuova",
+      "Kedai utama fesyen & runcit",
+      "Industri di Utara Itali"
+    ],
+    "note": "Logistik transit Alps 48–72 jam; dokumen bahasa Itali tersedia.",
+    "focusHeading": "Projek tipikal di Milan"
+  },
+  "warschau": {
+    "regulator": "Sijil Kebersihan PZH (Państwowy Zakład Higieny)",
+    "water": "Air tapisan tebing Sungai Vistula: pasaran perumahan yang pesat membangun dengan permintaan tinggi untuk sistem pemasangan pantas.",
+    "focus": [
+      "Pembangunan kawasan perumahan baharu",
+      "Dewan logistik & industri",
+      "Pemodenan bangunan panel siap (Plattenbau)"
+    ],
+    "note": "Logistik EU 24–48 jam; panduan pemprosesan bahasa Poland tersedia.",
+    "focusHeading": "Projek tipikal di Warsaw"
+  },
+  "prag": {
+    "regulator": "Kelulusan Kebersihan SZÚ (CZ)",
+    "water": "Air empangan Vltava: kualiti stabil, pasaran pengubahsuaian yang kuat dalam bangunan bersejarah (Gründerzeit).",
+    "focus": [
+      "Pengubahsuaian paip menegak bangunan lama",
+      "Industri perhotelan",
+      "Industri pembekalan automotif"
+    ],
+    "note": "Pasaran jiran terus dari kilang: penghantaran dalam 24 jam, talian bantuan teknikal dalam bahasa Jerman dan Inggeris.",
+    "focusHeading": "Projek tipikal di Prague"
+  },
+  "dubai": {
+    "regulator": "DEWA: Pihak Berkuasa Elektrik & Air Dubai",
+    "water": "Air laut dinyahgaram dengan beban klorida tinggi dan suhu berterusan >30 °C: senario teras untuk rizab suhu PPRCT.",
+    "focus": [
+      "Menara super tinggi (Super-High-Rise)",
+      "Resort hotel",
+      "Solekan Penyejukan Daerah (District Cooling Make-up)"
+    ],
+    "note": "FCL pengangkutan laut dari Hamburg; penyeliaan kimpalan punggung di tapak pembinaan boleh ditempah.",
+    "focusHeading": "Projek tipikal di Dubai"
+  },
+  "abudhabi": {
+    "regulator": "DoE Abu Dhabi / Estidama",
+    "water": "Air nyahgaram dengan pasca-pengerasan: Mata kelestarian Estidama mengiktiraf bahan paip kitar semula.",
+    "focus": [
+      "Bangunan kerajaan & kebudayaan",
+      "Resort Saadiyat",
+      "Zon industri KIZAD"
+    ],
+    "note": "Dokumentasi Penarafan Pearl (Ketelusan bahan) dilampirkan bersama tawaran.",
+    "focusHeading": "Projek tipikal di Abu Dhabi"
+  },
+  "doha": {
+    "regulator": "Kahramaa: Perbadanan Elektrik & Air Awam Qatar",
+    "water": "99% air dinyahgaram, suhu rangkaian sehingga 40 °C pada musim panas: ketahanan tekanan jangka panjang adalah kriteria pemilihan utama.",
+    "focus": [
+      "Pembangunan bandar Lusail",
+      "Penggunaan pasca-stadium",
+      "Hospitaliti"
+    ],
+    "note": "Dokumen penyerahan mematuhi QCS dan laporan ujian pihak ketiga tersedia.",
+    "focusHeading": "Projek tipikal di Doha"
+  },
+  "riad": {
+    "regulator": "SASO / Pihak Berkuasa Air Saudi",
+    "water": "Campuran nyahgaram (Paip SWCC) dan air bawah tanah fosil: haba musim panas ekstrem memerlukan rizab PPRCT.",
+    "focus": [
+      "Projek mega Wawasan 2030",
+      "Taman Raja Salman",
+      "Peluasan bandar perumahan"
+    ],
+    "note": "Ujian SASO dan pendaftaran SABER disediakan mengikut projek.",
+    "focusHeading": "Projek tipikal di Riyadh"
+  },
+  "dschidda": {
+    "regulator": "SASO / SWCC",
+    "water": "Nyahgaram Laut Merah dengan beban garam yang tinggi di persekitaran: rintangan kakisan mutlak adalah kriteria penting berbanding logam.",
+    "focus": [
+      "Projek Pusat Jeddah",
+      "Bangunan pelabuhan & logistik",
+      "Hospitaliti Jemaah Haji (Koridor Makkah)"
+    ],
+    "note": "Pengangkutan laut terus ke Pelabuhan Islam Jeddah; helaian data bahasa Arab sedang dalam proses.",
+    "focusHeading": "Projek tipikal di Jeddah"
+  },
+  "neom": {
+    "regulator": "Pihak Berkuasa NEOM / SASO",
+    "water": "Rancangan nyahgaram beroperasi dengan 100% tenaga boleh diperbaharui. Projek menuntut bahan ekonomi kitaran sepenuhnya: Kod Kitar Semula 5 disertakan.",
+    "focus": [
+      "Infrastruktur bandar linear (The Line)",
+      "Pelabuhan perindustrian Oxagon",
+      "Resort pergunungan Trojena"
+    ],
+    "note": "Fasa perancangan awal: K-Aqua menyokong dengan data EPD dan model rangkaian paip parametrik.",
+    "focusHeading": "Projek tipikal di NEOM / The Line"
+  },
+  "kuwait": {
+    "regulator": "MEW: Kementerian Elektrik & Air",
+    "water": "Air teluk dinyahgaram, dicampur dengan air payau: sistem plastik tahan klorida adalah cadangan standard.",
+    "focus": [
+      "Perancangan Bandar Sutera (Silk City)",
+      "Bandar perumahan (PAHW)",
+      "Infrastruktur sampingan Minyak & Gas"
+    ],
+    "note": "Pra-kelayakan MEW melalui rakan kongsi tempatan; penghantaran melalui Pelabuhan Shuwaikh.",
+    "focusHeading": "Projek tipikal di Bandar Kuwait"
+  },
+  "maskat": {
+    "regulator": "Nama Water Services (sebelum ini Diam)",
+    "water": "Nyahgaram ditambah dengan tradisi Aflaj: Oman mengiktiraf sistem tahan lama, penyelenggaraan rendah dalam tender awam.",
+    "focus": [
+      "Bandar pelabuhan Duqm",
+      "Projek hotel & pelancongan",
+      "Masjid & bangunan kebudayaan"
+    ],
+    "note": "Koridor logistik GCC melalui Jebel Ali; penerimaan teknikal menurut protokol Nama.",
+    "focusHeading": "Projek tipikal di Muscat"
+  },
+  "manama": {
+    "regulator": "EWA: Pihak Berkuasa Elektrik & Air",
+    "water": "Rangkaian nyahgaram sepenuhnya dengan suhu musim panas yang tinggi: PPRCT mengekalkan rizab tekanan, di mana PVC menua.",
+    "focus": [
+      "Bahrain Bay",
+      "Pengubahsuaian daerah perbankan",
+      "Pembangunan pulau"
+    ],
+    "note": "Pasaran padat dengan jarak pendek: Pakej lengkap termasuk penyewaan peralatan kimpalan.",
+    "focusHeading": "Projek tipikal di Manama"
+  }
+};
+
+const extText = "Infrastruktur bandar di rantau ini menetapkan keperluan khas untuk ketahanan dan kebolehpercayaan sistem paip. Dengan keadaan iklim yang melampau dan keperluan yang tinggi untuk kebersihan air, penyelesaian PP-R dan PPRCT dari K-Aqua menawarkan kelebihan yang menentukan. Paip logam tradisional sering mengalami kakisan dan mendapan mineral, yang membawa kepada penurunan tekanan yang ketara dan pembaziran air akibat kebocoran. Sebaliknya, sistem K-Aqua, hasil dari bahan yang bebas kakisan dan kimpalan polifusi homogen, menjamin pemasangan yang padat mutlak dan bebas penyelenggaraan untuk lebih dari 50 tahun. Di samping itu, permukaan dalaman yang licin membolehkan ciri aliran hidraulik yang optimum, yang mengurangkan keperluan tenaga secara drastik untuk pam peredaran. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel berskala besar, hospital, loji penyejukan industri, dan projek kediaman berkualiti tinggi di sektor bandar.";
+
+geoContent.amman = {
+  "regulator": "WAJ: Pihak Berkuasa Air Jordan / Miyahuna",
+  "water": "Salah satu negara paling kurang air di dunia. Sambungan kimpalan bebas kebocoran adalah dasar penjimatan air aktif (Air Tanpa Hasil < 2%).",
+  "focus": [
+    "Sub-rangkaian Paip Disi",
+    "Bangunan hospital & universiti",
+    "Infrastruktur bandar pelarian"
+  ],
+  "note": "Projek yang dibiayai bank pembangunan: K-Aqua menyediakan dokumentasi yang mematuhi tender.",
+  "focusHeading": "Projek tipikal di Amman",
+  "extendedMarketText": extText
+};
+geoContent.kairo = {
+  "regulator": "HCWW: Syarikat Induk untuk Air & Air Sisa",
+  "water": "Air Sungai Nil dengan kekeruhan bermusim: permukaan PP yang licin meminimumkan mendapan dalam pemasangan rumah.",
+  "focus": [
+    "Ibu Kota Pentadbiran Baharu (New Administrative Capital)",
+    "Bandar perumahan (NUCA)",
+    "Koridor Hotel Laut Merah"
+  ],
+  "note": "Pendaftaran EOS melalui rakan tempatan; pengangkutan laut Mediterranean dari Hamburg 10–14 hari.",
+  "focusHeading": "Projek tipikal di Kaherah",
+  "extendedMarketText": extText
+};
+geoContent.istanbul = {
+  "regulator": "İSKİ / Ujian TSE",
+  "water": "Air empangan dengan turun naik bermusim: ketahanan gempa bumi, sifat paip mulur (duktil) adalah kriteria perancangan.",
+  "focus": [
+    "Kompleks hotel",
+    "Perumahan bangunan tinggi",
+    "Bangunan hospital baharu"
+  ],
+  "note": "Rantaian bekalan fleksibel melalui jalan darat (5–7 hari) atau pengangkutan laut.",
+  "focusHeading": "Projek tipikal di Istanbul",
+  "extendedMarketText": extText
+};
+geoContent.singapur = {
+  "regulator": "PUB: Lembaga Kemudahan Awam",
+  "water": "NEWater & air nyahgaram, haba berterusan tropika: tuntutan tertinggi ke atas rintangan tekanan jangka panjang.",
+  "focus": [
+    "Perumahan Awam (HDB)",
+    "Bangunan Tinggi Marina",
+    "Tahap prapemprosesan air ultra tulen separa pengalir"
+  ],
+  "note": "Pengangkutan laut dari Hamburg; dokumen penyerahan PUB lengkap tersedia.",
+  "focusHeading": "Projek tipikal di Singapura",
+  "extendedMarketText": extText
+};
+geoContent.kualalumpur = {
+  "regulator": "SPAN: Suruhanjaya Perkhidmatan Air Negara",
+  "water": "Air permukaan tropika, kelembapan persekitaran tinggi: UV dan sistem tahan penuaan adalah standard.",
+  "focus": [
+    "Daerah kewangan TRX",
+    "Menara kegunaan campuran",
+    "Koridor industri Johor"
+  ],
+  "note": "Penyenaraian SPAN melalui rakan pengedaran; hab ASEAN untuk rantau ini.",
+  "focusHeading": "Projek tipikal di Kuala Lumpur",
+  "extendedMarketText": extText
+};
+geoContent.mumbai = {
+  "regulator": "BIS: Biro Piawaian India",
+  "water": "Bekalan empangan beriklim monsun dengan operasi berselang: rintangan kejutan tekanan pada sambungan kimpalan sangat penting.",
+  "focus": [
+    "Pembangunan semula bangunan tinggi",
+    "Bangunan hospital & farmaseutikal",
+    "Program Bandar Pintar (Smart Cities)"
+  ],
+  "note": "Pematuhan BIS untuk projek tertentu; latihan teknikal jauh + di tapak.",
+  "focusHeading": "Projek tipikal di Mumbai",
+  "extendedMarketText": extText
+};
+geoContent.kapstadt = {
+  "regulator": "Rangka kerja piawaian SABS / SANS",
+  "water": "Kekurangan air selepas \"Day Zero\": sambungan kimpalan bebas kebocoran merupakan polisi penjimatan air di sini.",
+  "focus": [
+    "Bangunan hospital & hotel",
+    "Infrastruktur kawasan perbandaran (Township)",
+    "Air proses estet wain"
+  ],
+  "note": "Perniagaan projek dengan rangkaian rakan tempatan; latihan untuk pasukan kimpalan disertakan.",
+  "focusHeading": "Projek tipikal di Cape Town",
+  "extendedMarketText": extText
+};
+geoContent.nairobi = {
+  "regulator": "KEBS: Biro Piawaian Kenya",
+  "water": "Campuran air empangan dan bawah tanah dalam metropolis yang pesat membangun: teknik sambungan yang kukuh dan mudah dilatih diperlukan.",
+  "focus": [
+    "Program Perumahan Mampu Milik",
+    "Tatu City",
+    "Bangunan hospital & pendidikan"
+  ],
+  "note": "Hab Afrika Timur: Penghantaran melalui Mombasa; latihan kimpalan sebagai pembinaan kapasiti.",
+  "focusHeading": "Projek tipikal di Nairobi",
+  "extendedMarketText": extText
+};
+
+const geoContentStr = JSON.stringify(geoContent, null, 2);
+fs.writeFileSync('geoContent_ms.json', geoContentStr);

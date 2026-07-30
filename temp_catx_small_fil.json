@@ -1,0 +1,51 @@
+    "eyebrow": "Kumpletong Katalogo ng Produkto",
+    "faqTitle": "Mga Madalas Itanong (FAQ)",
+    "title": "Lahat ng 79 pamilya ng produkto, na may mga tunay na numero ng artikulo.",
+    "lead": "Tubo, fitting, transition fitting, balbula, weld-in saddle, accessories, at tools, bawat linya ay nagmula sa opisyal na K Aqua catalog. Pumili ng kategorya, palawakin ang produkto, tingnan ang numero ng artikulo.",
+    "searchPlaceholder": "Maghanap ng numero ng artikulo o pangalan ng produkto, hal. 'AQ200P20' o 'Elbow'",
+    "noResults": "Walang nakitang resulta. Baguhin ang iyong paghahanap o pumili ng ibang kategorya.",
+    "codesLabel": "Mga Numero ng Artikulo",
+    "sizesLabel": "Mga Sukat",
+    "materialLabel": "Materyal",
+    "sdrLabel": "SDR",
+    "seriesLabel": "Serye",
+    "pressureLabel": "Operating Pressure",
+    "lenLabel": "Haba ng Tubo",
+    "cats": {
+      "pipes": {
+        "label": "Tubo",
+        "desc": "Mga tubong PPR at PPRCT: Standard, fiber-reinforced at UV-stabilized, 12 serye."
+      },
+      "fittings": {
+        "label": "Fittings",
+        "desc": "Socket fusion at electrofusion fittings, d20–d125, 13 pamilya ng produkto."
+      },
+      "transitionFittings": {
+        "label": "Transition Fittings",
+        "desc": "Transisyon sa thread at tanso, para sa mga kasalukuyang koneksyon at balbula, 13 pamilya."
+      },
+      "valves": {
+        "label": "Mga Balbula",
+        "desc": "Ball valves, concealed valves, distribution manifolds, 9 pamilya ng produkto."
+      },
+      "weldInSaddles": {
+        "label": "Weld-in Saddles",
+        "desc": "Mga sanga nang walang pipe cutting, mayroon at walang thread, 3 pamilya."
+      },
+      "accessories": {
+        "label": "Mga Accessory",
+        "desc": "Pipe clamps, counter flanges, seals, plugs: 5 pamilya ng produkto."
+      },
+      "tools": {
+        "label": "Mga Tool",
+        "desc": "Pipe cutters, welding machines at tools para sa lahat ng apat na proseso ng welding, 14 pamilya."
+      }
+    },
+    "rfq": {
+      "title": "Paghiling ng Proyekto",
+      "desc": "Humiling nang direkta ng quote para sa <span class=\"font-semibold\">{title}</span>.",
+      "button": "Pumunta sa Pagtatanong"
+    },
+    "similar": {
+      "title": "Iba pa mula sa {category}"
+    }

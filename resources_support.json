@@ -1,0 +1,131 @@
+{
+  "resources": {
+    "support": {
+      "title": "Texnik qo'llab-quvvatlash",
+      "metaDesc": "K-Aqua kompaniyasining texnik yordamidan foydalaning. Biz sizning yirik loyihalaringizni Germaniya muhandisligi, gidravlik hisob-kitoblar va joyida payvandlashni nazorat qilish bilan qo'llab-quvvatlaymiz.",
+      "seoText": {
+        "p1": "K Aqua texnik yordami bizning global infratuzilma loyihalarimizning tayanchidir. Biz sanoat quvurlari tizimlari va PP-R yuqori samarali quvurlarni o'rnatishda har bir soniya muhimligini bilamiz. Bizning suyuqlik texnologiyasi va polimer tizimlari bo'yicha mutaxassislar guruhimiz xalqaro bosh pudratchilar, me'morlar va muhandis-quruvchilarni har qadamda qo'llab-quvvatlaydi.",
+        "p2": "Dastlabki rejalashtirish va izometrik hisob-kitoblardan tortib, bosim yo'qotilishini hisoblash va joyida payvandlash jarayonlarini nazorat qilishgacha: biz xatosiz amalga oshirishni kafolatlaymiz. Bizning Polypropylene Random Copolymer (PP-R) tizimlarimiz eng yuqori hunarmandchilik aniqligini talab qiladi. Shuning uchun Akademiya doimiy ravishda o'qitishni taklif qiladi, shu bilan birga texnik yordam murakkab termal kengayish yoki maxsus oqim bosimi talablari paydo bo'lganda aralashadi.",
+        "p3": "Eng zamonaviy diagnostika vositalari va prognozli texnik xizmat ko'rsatish algoritmlaridan foydalanib, biz to'xtab qolish vaqtini minimal darajaga tushiramiz. Cho'l hududlaridagi sovuq suv tizimlari bo'ladimi, o'ta toza sanoat korxonalari yoki arktika zonalaridagi isitish tarmoqlari bo'ladimi: K Aqua qo'llab-quvvatlash infratuzilmasi investitsiyangizning uzluksiz ishlashini va murosasiz chidamliligini ta'minlaydi."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Tizimni prognozli kuzatish",
+            "desc": "Bizning algoritmlarimiz infratuzilmadagi anomaliyalarni doimiy ravishda tahlil qiladi. Kritik holatga kelishidan oldin bizning 3-darajali (Level-3) jamoamiz aralashadi. Kechikishlarga toqat yo'q. Muvaffaqiyatsizlikka toqat yo'q. Biz xato yuzaga kelishidan oldin harakat qilamiz."
+          },
+          {
+            "title": "Harbiy javob vaqtlari",
+            "desc": "SLA biz uchun shunchaki ko'rsatma emas, balki jismoniy qonundir. Kritik hodisalar yuz berganda biz millisekundlarda dastlabki javobni va zudlik bilan maxsus katta muhandislarga ekskalatsiyani kafolatlaymiz. Kutish navbatlari yo'q, faqat darhol ijro etish."
+          },
+          {
+            "title": "Arxitektura auditlari",
+            "desc": "Sizning tizimlaringiz Germaniya muhandisligining eng qat'iy standartlariga muvofiq sinovdan o'tkaziladi. Masshtablilik, zaxira tizimi va ishonchlilik qat'iy stress testlari orqali tekshiriladi. Zaif tomonlar boshqarilmaydi, ular bartaraf etiladi."
+          },
+          {
+            "title": "To'g'ridan-to'g'ri dasturchilarga kirish",
+            "desc": "An'anaviy yordamni unuting. Murakkab tizim integratsiyalarida siz to'g'ridan-to'g'ri bizning asosiy dasturchilarimiz (muhandislarimiz) bilan bog'lanasiz. Birinchi darajali filtrlar yo'q, aksincha muammolarni manbada darhol hal qilish uchun sof, filtrlanmagan texnik tajriba."
+          }
+        ],
+        "eyebrow": "Eskalatsiya protokollari",
+        "title": "Inqirozda suverenitet",
+        "lead": "Ekstremal yuklamalar sharoitida tizim butunligini qanday saqlaymiz."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomaliyani aniqlash",
+            "text": "Avtomatlashtirilgan tizimlar ma'lumotlar oqimidagi mikro-og'ishlarni ko'rinadigan nosozlikdan ancha oldin aniqlaydi."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostik saralash (Triage)",
+            "text": "Sun'iy intellektga asoslangan jurnallarni tahlil qilish (Log-Analyse) xato vektorini ajratib ko'rsatadi. Aynan mos keladigan mutaxassislar guruhiga tayinlash."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Aralashuv (Intervention)",
+            "text": "Shoshilinch tuzatishlarni (Hotfixes) kiritish yoki trafikni yuqori ishonchlilikdagi zaxira tugunlarga avtomatik yo'naltirish."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Asosiy sababni tahlil qilish",
+            "text": "Hodisani sud-tibbiy tekshiruvi. Doimiy profilaktika uchun yadro arxitekturasini o'zgartirish."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem protokoli",
+            "text": "Mutlaq shaffoflik va audit xavfsizligi uchun kriptografik imzo bilan batafsil texnik hisobot."
+          }
+        ],
+        "title": "Favqulodda holat: Aralashuv xronikasi",
+        "desc": "Har bir soniya muhim. Kritik tizim anomaliyasi holatida bizning standartlashtirilgan jarayonimiz. Sovuqqonlik bilan hisoblangan. Shafqatsizlarcha ijro etilgan."
+      },
+      "hero": {
+        "eyebrow": "Texnik yordam",
+        "title1": "O'ylaydigan",
+        "title2": "yordam.",
+        "desc": "Quvurlarni loyihalashtirishdan tortib to ob'ektni qabul qilishgacha: Bizning texnik yordamimiz rejalashtiruvchilar va o'rnatuvchilarga tizimni ishlab chiqqan muhandislar bilan to'g'ridan-to'g'ri aloqada bo'lgan holda, PP-R loyihasining har bir bosqichida hamrohlik qiladi. Rejalashtirishdan ishga tushirishgacha o'ylaydigan yordam.",
+        "btnPrimary": "Loyiha so'rovini yuborish",
+        "btnGhost": "Xizmatlarni ko'rish"
+      },
+      "intro": {
+        "title1": "Yordam markazi bu qo'ng'iroqlar markazi emas.",
+        "title2": "Bu muhandislar jamoasi.",
+        "p1": "Biz texnik yordamni quyi xizmat sifatida emas, balki har bir loyihaning ajralmas qismi sifatida ko'ramiz. Agar qurilish maydonchasida payvand choki aniq bo'lmasa yoki bosim sinovi kutilgandek bo'lmasa, har bir soat muhim ahamiyatga ega.",
+        "p2": "Muhandislarimiz har bir partiya, har bir standart va tizimlarimizni qayta ishlash bo'yicha ko'rsatmalarni bevosita bilishadi. Ular izometriyani tekshiradilar, bosim yo'qotishlarini hisoblab chiqadilar va ishga tushirish jarayonida bevosita quvurlar oldida turadilar.",
+        "p3": "Bu Germaniya muhandisligining standartidir – u serverlarga emas, balki haqiqiy qurilish maydonchalariga tatbiq etilgan."
+      },
+      "bento": {
+        "eyebrow": "Xizmatlar xulosasi",
+        "title": "Butun loyiha davomida yordam",
+        "lead": "Dastlabki rejalashtirishdan doimiy texnik xizmat ko'rsatishgacha: jamoamiz sizning PP-R tizimingizga har bir bosqichda hamrohlik qiladi.",
+        "items": [
+          {
+            "title": "Gidravlik dizayn va izometriya",
+            "desc": "Biz sizning rejalashtirish hujjatlaringizni tekshiramiz, bosimning yo'qolishi va o'lchamlarini qayta hisoblaymiz hamda qurilish boshlanishidan oldin ishonchli materiallar ro'yxatini taqdim etamiz."
+          },
+          {
+            "title": "Payvandlash bo'yicha texnik yordam",
+            "desc": "Texniklarimiz joyida mufta (Muffen) va isitish batareyasi (Heizwendel) payvandlash jarayonlariga hamrohlik qiladi, jarayon parametrlarini nazorat qiladi va so'rov bo'yicha o'rnatish guruhini to'g'ridan-to'g'ri qurilish maydonchasida o'qitadi."
+          },
+          {
+            "title": "Bosim sinovi va qabul qilish",
+            "desc": "Biz DIN 1988 ga muvofiq bosim sinovini o'tkazish va hujjatlashtirishda yordam beramiz va bino qurilishini qabul qilish uchun zarur bo'lgan sinov protokollarini taqdim etamiz."
+          },
+          {
+            "title": "Ehtiyot qismlar va aksessuarlar xizmati",
+            "desc": "Fittinglar, armaturalar va original aksessuarlarni tezkor yetkazib berish, hatto mavjud tizimlar va eski K-Aqua partiyalari uchun ham."
+          },
+          {
+            "title": "Masofaviy diagnostika va joyida aralashuv",
+            "desc": "Qayta ishlash yoki tushunarsiz sinov natijalari bo'yicha hal qilinmagan savollar tug'ilganda, texnik yordam xizmatimiz tezda qayta qo'ng'iroq qiladi, kerak bo'lsa, mutaxassisni joyiga yuboradi."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Raqamlarda ishonchlilik",
+        "title1": "Tasdiqlangan",
+        "title2": "ishonchlilik.",
+        "p1": "Biz Germaniya muhandislik tamoyillari bo'yicha ishlaymiz: biz yetkazib beradigan narsa har qanday qurilish sharoitlariga bardosh berishi kerak.",
+        "p2": "Har bir K-Aqua tizimi DVGW, SKZ va KIWA bo'yicha sertifikatlangan. Har bir partiya kuzatilishi mumkin, har bir payvand choki hujjatlashtirilishi mumkin.",
+        "items": [
+          "Texnik so'rovlarga bir ish kuni ichida javob beriladi",
+          "To'g'ri o'rnatilganda hujjatlashtirilgan 50 yildan ortiq tizim muddati",
+          "Kutishlarsiz texnik savdo bo'limi bilan to'g'ridan-to'g'ri aloqa",
+          "K-Aqua Akademiyasi orqali o'qitish va sertifikatlash"
+        ]
+      },
+      "cta": {
+        "title1": "Keyingi",
+        "title2": "loyihangizga",
+        "title3": "tayyormisiz?",
+        "desc": "Loyihangiz PP-R tizimlarini nafaqat sotadigan, balki ularni ishlab chiqadigan va ishlab chiqaradigan muhandislar tomonidan boshqarilishiga ruxsat bering.",
+        "btnPrimary": "So'rovni boshlash",
+        "btnGhost": "Mutaxassislar bilan bog'lanish"
+      },
+      "metaTitle": "PP-R quvur tizimlari uchun texnik yordam va xizmat"
+    }
+  }
+}

@@ -1,0 +1,523 @@
+    ]
+  },
+  "notFound": {
+    "title": "404 - Hindi nakita ang pahina",
+    "desc": "Hindi nakita ang pahinang hinahanap mo.",
+    "button": "Bumalik sa Homepage"
+  },
+  "productsx": {
+    "sysEyebrow": "Sistemang PP-R/PPRCT",
+    "sysTitle1": "Isang teknolohiya.",
+    "sysTitleGrad": "Apat na aplikasyon.",
+    "sysLead": "Isang materyal na gumaganap sa pagitan ng -20 °C at +95 °C. Isang hanay ng mga dimension mula d20 hanggang d630. Isang paraan ng koneksyon na ganap na lumalaban sa pressure.",
+    "sys": [
+      {
+        "t": "Industriya",
+        "d": "Walang-korosyon na pamamahagi para sa pagproseso ng tubig, compressed air at kemikal. Lumalaban sa pitting at inkrustasyon, maging sa mataas na temperatura."
+      },
+      {
+        "t": "Inuming Tubig (Drinking Water)",
+        "d": "DVGW at KIWA certified. Ganap na walang-amoy at walang-lasa, pinipigilan ng makinis na ibabaw (Ra < 0.007 µm) ang pamumuo ng biofilm."
+      },
+      {
+        "t": "Klima at Pagpapalamig (HVAC)",
+        "d": "Walang pagtagas na linya ng pagpapalamig na may mababang thermal conductivity. Ang K-Fiber pipe ay nagpapababa ng paglawak ng hanggang 75% sa mahahabang distansya."
+      },
+      {
+        "t": "Paggawa ng Barko (Shipbuilding)",
+        "d": "Inaprubahan para sa maritime use (kabilang ang Bureau Veritas). Magaan, lumalaban sa tubig-alat at walang maintenance para sa marine water supply."
+      }
+    ],
+    "sysButton": "Pumunta sa Katalogo",
+    "famEyebrow": "Sistemang Pangkalawakan (System Universe)",
+    "famTitle1": "Mula sa tubo",
+    "famTitleGrad": "hanggang sa saddle.",
+    "famLead": "Ang K Aqua ay hindi lang tubo at fitting, ito ay isang kumpletong teknolohiya ng pag-install. Lahat mula sa iisang pinagmulan, sumusunod sa pamantayan.",
+    "fam": [
+      {
+        "t": "Tubo",
+        "d": "Solid-wall pipe (PP-R/PPRCT), fiber composite (K-Fiber) at mga piping panlaban sa UV. 12 serye (SDR 6 hanggang 17) para sa iba't ibang pangangailangan sa presyon at temperatura."
+      },
+      {
+        "t": "Fittings",
+        "d": "Mga bahagi para sa socket at electrofusion welding. Ang dimension at serye ay eksaktong nakatugma sa pressure rating ng mga tubo."
+      },
+      {
+        "t": "Mga Transition",
+        "d": "Direktang welded transitions na may brass (tanso) o stainless steel thread, para sa pamamahagi at koneksyon sa mga kagamitan at kagamitang metal."
+      },
+      {
+        "t": "Mga Balbula at Saddle",
+        "d": "Mga PP-R ball valve, flush valves at weld-in saddles para sa pagdaragdag ng sanga (branch) nang hindi pinuputol ang piping."
+      }
+    ],
+    "dataEyebrow": "Teknikal na Data",
+    "dataTitle": "Pumili ng serye. I-dimension.",
+    "dataLead": "SDR at Series – Piliin ang teknolohiya at suriin ang operating pressure, bigat, at dami ng tubig (water volume) ayon sa ISO 15874 at DIN 8077/8078.",
+    "tabs": [
+      {
+        "id": "sdr6",
+        "label": "PP-R SDR 6"
+      },
+      {
+        "id": "sdr74",
+        "label": "PPRCT SDR 7.4"
+      },
+      {
+        "id": "sdr9",
+        "label": "PPRCT SDR 9"
+      },
+      {
+        "id": "sdr11",
+        "label": "PPRCT SDR 11"
+      }
+    ],
+    "tableHead": [
+      "Panlabas na Ø (d)",
+      "Kapal ng Pader (s)",
+      "Panloob na Ø (di)",
+      "Dami ng Tubig",
+      "Bigat (Tubo)",
+      "Bigat (may tubig)"
+    ],
+    "tableFootnote": "Batay sa PP-R/PPRCT (density 0.9 g/cm³) at tubig sa 10 °C. Pakitingnan ang K Aqua manual para sa eksaktong parameter ng pagkalkula.",
+    "valSdr6": {
+      "desc": "Ang karaniwang pamantayan para sa mga installation ng mainit at malamig na tubig sa mga gusali. (S 2.5 / PN 20)",
+      "d20": ["20.0", "3.4", "13.2", "0.137", "0.170", "0.307"],
+      "d25": ["25.0", "4.2", "16.6", "0.216", "0.266", "0.482"],
+      "d32": ["32.0", "5.4", "21.2", "0.353", "0.435", "0.788"],
+      "d40": ["40.0", "6.7", "26.6", "0.556", "0.673", "1.229"],
+      "d50": ["50.0", "8.3", "33.4", "0.876", "1.040", "1.916"],
+      "d63": ["63.0", "10.5", "42.0", "1.385", "1.660", "3.045"],
+      "d75": ["75.0", "12.5", "50.0", "1.963", "2.360", "4.323"],
+      "d90": ["90.0", "15.0", "60.0", "2.827", "3.390", "6.217"],
+      "d110": ["110.0", "18.3", "73.4", "4.231", "5.060", "9.291"]
+    },
+    "valSdr74": {
+      "desc": "Ang makabagong standard ng PPRCT: Parehong performance ng pressure na may mas malaking internal na diameter. (S 3.2)",
+      "d20": ["20.0", "2.8", "14.4", "0.163", "0.148", "0.311"],
+      "d25": ["25.0", "3.5", "18.0", "0.254", "0.230", "0.484"],
+      "d32": ["32.0", "4.4", "23.2", "0.423", "0.370", "0.793"],
+      "d40": ["40.0", "5.5", "29.0", "0.661", "0.575", "1.236"],
+      "d50": ["50.0", "6.9", "36.2", "1.029", "0.896", "1.925"],
+      "d63": ["63.0", "8.6", "45.8", "1.647", "1.410", "3.057"],
+      "d75": ["75.0", "10.3", "54.4", "2.324", "2.010", "4.334"],
+      "d90": ["90.0", "12.3", "65.4", "3.359", "2.880", "6.239"],
+      "d110": ["110.0", "15.1", "79.8", "5.001", "4.320", "9.321"],
+      "d125": ["125.0", "17.1", "90.8", "6.475", "5.560", "12.035"]
+    },
+    "valSdr9": {
+      "desc": "Ang balanse para sa malaking demand ng mainit na tubig at mahusay na paggamit ng materyal. (S 4)",
+      "d20": ["20.0", "2.3", "15.4", "0.186", "0.125", "0.311"],
+      "d25": ["25.0", "2.8", "19.4", "0.296", "0.191", "0.487"],
+      "d32": ["32.0", "3.6", "24.8", "0.483", "0.311", "0.794"],
+      "d40": ["40.0", "4.5", "31.0", "0.755", "0.486", "1.241"],
+      "d50": ["50.0", "5.6", "38.8", "1.182", "0.755", "1.937"],
+      "d63": ["63.0", "7.1", "48.8", "1.870", "1.200", "3.070"],
+      "d75": ["75.0", "8.4", "58.2", "2.660", "1.690", "4.350"],
+      "d90": ["90.0", "10.1", "69.8", "3.826", "2.440", "6.266"],
+      "d110": ["110.0", "12.3", "85.4", "5.728", "3.620", "9.348"],
+      "d125": ["125.0", "14.0", "97.0", "7.390", "4.690", "12.080"],
+      "d160": ["160.0", "17.9", "124.2", "12.115", "7.670", "19.785"]
+    },
+    "valSdr11": {
+      "desc": "Mainam para sa malalamig na tubig, cooling systems, at pagproseso ng tubig na may mataas na flow cross-section. (S 5 / PN 10)",
+      "d20": ["20.0", "1.9", "16.2", "0.206", "0.107", "0.313"],
+      "d25": ["25.0", "2.3", "20.4", "0.327", "0.162", "0.489"],
+      "d32": ["32.0", "2.9", "26.2", "0.539", "0.258", "0.797"],
+      "d40": ["40.0", "3.7", "32.6", "0.835", "0.407", "1.242"],
+      "d50": ["50.0", "4.6", "40.8", "1.307", "0.634", "1.941"],
+      "d63": ["63.0", "5.8", "51.4", "2.075", "1.010", "3.085"],
+      "d75": ["75.0", "6.8", "61.4", "2.961", "1.410", "4.371"],
+      "d90": ["90.0", "8.2", "73.6", "4.254", "2.030", "6.284"],
+      "d110": ["110.0", "10.0", "90.0", "6.362", "3.010", "9.372"],
+      "d125": ["125.0", "11.4", "102.2", "8.203", "3.910", "12.113"],
+      "d160": ["160.0", "14.6", "130.8", "13.437", "6.390", "19.827"],
+      "d200": ["200.0", "18.2", "163.6", "21.021", "9.940", "30.961"],
+      "d250": ["250.0", "22.7", "204.6", "32.877", "15.500", "48.377"]
+    },
+    "pressEyebrow": "SDR vs. Teknolohiya",
+    "pressTitle": "Lakas sa ilalim ng presyon.",
+    "pressLead": "Ipinapakita ng paghahambing kung paano naiiba ang K-Aqua PPRCT mula sa conventional na PP-R sa SDR 7.4. Ang resulta: mas manipis na pader at mas mataas na daloy habang pinapanatili ang parehong pressure limit.",
+    "press": {
+      "t1": "PPR",
+      "t2": "PPRCT",
+      "subtitle": "Pinakamataas na operating pressure sa bar"
+    },
+    "pressLegend": [
+      {
+        "l": "50 taon sa 20 °C (Kalamigang Tubig)"
+      },
+      {
+        "l": "50 taon sa 70 °C (Inuming Mainit na Tubig)"
+      }
+    ],
+    "appTableTitle": "System Matrix: SDR by Application",
+    "appTableDesc": "Inirerekumendang series ayon sa DVGW at ISO 15874 batay sa temperature (T) at operating pressure (P).",
+    "appCols": [
+      "Aplikasyon",
+      "Dimension",
+      "Standard (K-Pipe)",
+      "Fibre (K-Fiber)",
+      "UV (K-Oxy)"
+    ],
+    "appRows": [
+      [
+        "Inuming Tubig (Kalamigan)",
+        "d20–d250",
+        "SDR 11",
+        "—",
+        "—"
+      ],
+      [
+        "Inuming Tubig (Mainit) < 70°C",
+        "d20–d125",
+        "SDR 6 / 7.4 / 9",
+        "SDR 7.4 / 9",
+        "—"
+      ],
+      [
+        "Pag-init (Heating) < 80°C",
+        "d20–d125",
+        "SDR 6 / 7.4",
+        "SDR 7.4 / 9",
+        "SDR 7.4 / 9"
+      ],
+      [
+        "Pagpapalamig (Cooling) / Chilled Water",
+        "d20–d250",
+        "SDR 11",
+        "SDR 11",
+        "SDR 11"
+      ],
+      [
+        "Industrial Compressed Air",
+        "d20–d110",
+        "SDR 9 / 11",
+        "SDR 9",
+        "—"
+      ],
+      [
+        "Open Air Installation",
+        "d20–d125",
+        "—",
+        "—",
+        "SDR 7.4 / 9"
+      ]
+    ]
+  },
+  "solutionsx": {
+    "list": {
+      "eyebrow": "Industriya at Aplikasyon",
+      "title": "Apat na Pagsusuri. Isang Sistema.",
+      "lead": "Ipinapakita ng pagpili ang aplikasyon ng PP-R/PPRCT sa iba't ibang teknikal na industriya.",
+      "cards": [
+        {
+          "slug": "hotels",
+          "title": "Hotel at Hospitality",
+          "desc": "Walang-ingay na piping, kalinisan ng inuming tubig (DVGW) at mabilis na pag-install, mainam para sa mga palaging inookupahang kwarto (occupancy).",
+          "cta": "Mga Hotel"
+        },
+        {
+          "slug": "krankenhaus",
+          "title": "Klinika at Ospital",
+          "desc": "Lumalaban sa Legionella (thermal disinfection), biofilm prevention, perpekto para sa mataas na kalinisan.",
+          "cta": "Ospital"
+        },
+        {
+          "slug": "rechenzentrum",
+          "title": "Data Center",
+          "desc": "Zero leak cooling water distribution, mabilis na welding procedure sa ilalim ng raise floor, walang residue at kalawang.",
+          "cta": "Data Center"
+        }
+      ]
+    }
+  },
+  "trustx": {
+    "privacy": "Impormasyon ng Bisita at Privacy Policy ng K Aqua",
+    "terms": "Mga Tuntunin sa Paggamit ng Website ng K Aqua",
+    "imprint": "Imprint (Impressum) - Responsable ayon sa batas",
+    "quality": "Patakaran sa Kalidad at GENAU-Framework (DE/EN)"
+  },
+  "partnerx": {
+    "ctaTitle": "Magkasama tayong bubuo ng hinaharap",
+    "ctaDesc": "Gusto mo bang malaman ang higit pa tungkol sa K-Aqua at mga produkto nito?",
+    "ctaButton": "Makipag-ugnayan"
+  },
+  "academyx": {
+    "introEyebrow": "K Aqua Academy",
+    "introTitle1": "Apat na paraan.",
+    "introTitleGrad": "Isang pamantayan.",
+    "introLead": "Sinisira ng maling welding ang pinakamagandang tubo. Ipinapakita namin ang apat na DVS-compliant na proseso ng welding: ang mga parameter, mga tool, at ang proseso ng pagkatunaw (fusion).",
+    "weldEyebrow": "Mga Proseso ng Welding",
+    "weldTitle": "Mula d20 hanggang d630.",
+    "weldCards": [
+      {
+        "t": "Socket Welding (Muffenschweißen)",
+        "d": "Ang standard para sa d20–d125. Pagpainit sa pamamagitan ng socket at mandrel, mabilis at tiyak.",
+        "icon": "socket"
+      },
+      {
+        "t": "Electrofusion Welding (Elektroschweißen)",
+        "d": "Computer-controlled na pamamaraan na may heating coils sa fitting. Ideal para sa mahihirap abutin na lugar.",
+        "icon": "electro"
+      },
+      {
+        "t": "Butt Welding (Stumpfschweißen)",
+        "d": "Standard para sa mga malalaking tubo > d125. Walang-limitasyon, direktang pagkonekta.",
+        "icon": "butt"
+      },
+      {
+        "t": "Saddle Welding (Sattelschweißen)",
+        "d": "Pagdaragdag ng branch sa kasalukuyang network nang walang pamumutol ng piping. Mabilis na pag-branch.",
+        "icon": "saddle"
+      }
+    ],
+    "weldParamEyebrow": "Reference Parameters",
+    "weldParamTitle": "Socket Welding (DVS 2207-11)",
+    "weldParamLead": "Ang mga reference values para sa PP-R/PPRCT sa labas na temperatura ng 20 °C, ayon sa DVS. Depende sa panahon (hangin/temperatura), maaaring magbago ang oras ng pag-init (heating time).",
+    "weldParamHead": [
+      "Ext. Ø (mm)",
+      "Insertion (mm)",
+      "Heating (s)",
+      "Processing (s)",
+      "Cooling (min)"
+    ],
+    "weldParamRows": [
+      ["20", "14.5", "5", "4", "2"],
+      ["25", "16.0", "7", "4", "2"],
+      ["32", "18.0", "8", "6", "4"],
+      ["40", "20.5", "12", "6", "4"],
+      ["50", "23.5", "18", "6", "4"],
+      ["63", "27.5", "24", "8", "6"],
+      ["75", "30.0", "30", "8", "8"],
+      ["90", "33.0", "40", "8", "8"],
+      ["110", "37.0", "50", "10", "8"],
+      ["125", "40.0", "60", "10", "8"]
+    ],
+    "weldStepsEyebrow": "Proseso ng Pag-uugnay",
+    "weldStepsTitle": "Limang Segundo.",
+    "weldStepsLead": "Nagagawa ang socket welding sa pamamagitan ng pag-uugnay ng tubo at fitting sa isang tiyak na temperatura (260°C).",
+    "weldSteps": [
+      {
+        "t": "Paglilinis at Pag-marka",
+        "d": "Parehong dulo ay dapat walang gasgas at malinis. Markahan ang haba ng pagpasok (insertion length) para maiwasan ang pumasok ng sobra."
+      },
+      {
+        "t": "Pag-init (Heating)",
+        "d": "Itulak ang tubo at fitting papunta sa heating unit (260 °C). Huwag ipihit kapag itinutulak."
+      },
+      {
+        "t": "Pag-transition at Pagsali",
+        "d": "Mabilis na alisin sa heater at ipasok nang mabilis, pantay, at walang-pihit (axial)."
+      },
+      {
+        "t": "Pagpapalamig (Cooling)",
+        "d": "Hintaying lumamig nang walang paggalaw. Pagkatapos lamang ng kumpletong oras ng paglamig (cooling time) ito ganap na hihigpit at kakapit."
+      }
+    ],
+    "errEyebrow": "Pag-iwas sa pagkakamali",
+    "errTitle": "Anim na pinakamahal na pagkakamali at ang pag-iwas dito.",
+    "errHead": [
+      "Pagkakamali",
+      "Epekto",
+      "Pag-iwas"
+    ],
+    "errRows": [
+      [
+        "Masyadong mahabang pag-init",
+        "Lumalaki ang bead papasok, lumiliit ang daloy ng tubig",
+        "Sundan ang table, huwag gawing tantya ang oras ng pag-init"
+      ],
+      [
+        "Pag-pihit (twisting) habang inuugnay",
+        "Nasira ang natunaw na texture, may posibleng tagas",
+        "Tanging tuwid na pagtulak, gamitin ang marka bilang gabay"
+      ],
+      [
+        "Nakalimutang pag-deburr (paglinis ng hiwa)",
+        "Hindi pantay na junction, naipon ang materyal",
+        "Kaskasin (deburr) ang bawat hiwa: bahagi ito ng sistema"
+      ],
+      [
+        "Maruming heating element",
+        "Nasunog ang mga dumikit na dumi at nasama sa welding",
+        "Linisin ang heater gamit ang malinis na tela bago mag-weld"
+      ],
+      [
+        "Masyadong maagang ginalaw",
+        "Nasira ang form ng dugtungan (seam) bago pa tumigas",
+        "Sundan ang oras ng paglamig: halimbawa, 8 minuto para sa d110"
+      ],
+      [
+        "Maling lalim ng pagpasok",
+        "Masyadong maikli: maliit ang kapit · masyadong malalim: maliit ang daloy ng tubig",
+        "Laging markahan ang insertion depth, huwag tantyahin"
+      ]
+    ],
+    "glossEyebrow": "Glossary",
+    "glossTitle": "Ang mga terminolohiya sa piping technology.",
+    "gloss": [
+      [
+        "SDR",
+        "Standard Dimension Ratio = Outer diameter hinati sa thickness ng wall (d/s). Maliit na SDR = mas makapal na pader = mas mataas na presyon."
+      ],
+      [
+        "PN",
+        "Nominal pressure in bar sa 20 °C: ang SDR 6 ay PN 20, ang SDR 17 ay PN 6."
+      ],
+      [
+        "d / di / s",
+        "Outer diameter / Inner diameter / Wall thickness sa mm. di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylene Random Copolymer: standard na materyal para sa inuming tubig."
+      ],
+      [
+        "PPRCT",
+        "PP-R na may binagong crystal structure: mas mataas ang reserve ng temperature at presyon sa parehong wall thickness."
+      ],
+      [
+        "K-Fiber / GF",
+        "Glass-fiber reinforced multi-layer construction: pinapababa ng 75% ang thermal expansion."
+      ],
+      [
+        "Socket Welding",
+        "Muffenschweißen: Tubo at fitting ay pinapainit gamit ang heating bush at mandrel saka idinudugtong."
+      ],
+      [
+        "Electrofusion",
+        "Elektroschweißen: ang heating coil na nasa loob mismo ng fitting ang nagpapainit gamit ang computer parameter."
+      ],
+      [
+        "Butt Welding",
+        "Stumpfschweißen: pag-init at pagdugtong ng dalawang tubo nang direkta (harap-harapan) nang walang fitting, hanggang d630."
+      ],
+      [
+        "DVS 2207-11",
+        "Standard ng Germany para sa pag-weld ng polypropylene: batayan ng mga guidelines dito."
+      ]
+    ]
+  },
+  "servicex": {
+    "libEyebrow": "Dokumentasyon",
+    "libTitle": "Lahat ng dokumento, isang pangkalahatang-ideya.",
+    "libLead": "Tatlong direktang download ng catalog, mga sertipiko sa 2 wika, at audit documents sa pamamagitan ng Self Service sa Trust Center.",
+    "libHead": [
+      "Dokumento",
+      "Lalaman",
+      "Wika",
+      "Access"
+    ],
+    "libRows": [
+      {
+        "t": "K Aqua Product Range",
+        "s": "Kumpletong catalog: Dimensions, articles, system overview",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-range-en.pdf"
+      },
+      {
+        "t": "K Aqua Product Features",
+        "s": "Technical properties at material data",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-product-features-en.pdf"
+      },
+      {
+        "t": "K Aqua Quality Assurance",
+        "s": "Test procedures at quality standards",
+        "lang": "EN",
+        "href": "/pdf/k-aqua-quality-assurance-en.pdf"
+      },
+      {
+        "t": "ISO-Zertifikate (Deutsch)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-akkreditiert",
+        "lang": "DE",
+        "href": "/pdf/kwt-iso-zertifikat-de.pdf"
+      },
+      {
+        "t": "ISO Certificates (English)",
+        "s": "ISO 9001 · 14001 · 50001, DAkkS-accredited",
+        "lang": "EN",
+        "href": "/pdf/kwt-iso-certificates-en.pdf"
+      },
+      {
+        "t": "GENAU Policy & Risk Assessment",
+        "s": "Management system, prevention, risk assessment",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "EPD Data Sheets (Type III, EN 15804)",
+        "s": "LCA data para sa LEED, BREEAM, DGNB",
+        "lang": "DE/EN",
+        "href": null
+      },
+      {
+        "t": "GAEB-Ausschreibungstexte",
+        "s": "Handa na para sa mga tender",
+        "lang": "DE",
+        "href": null
+      },
+      {
+        "t": "Manual ng Quality Assurance",
+        "s": "QA processes para sa supplier audits",
+        "lang": "DE/EN",
+        "href": null
+      }
+    ],
+    "libOpen": "I-download",
+    "libRequest": "Humiling sa Trust Center",
+    "supEyebrow": "Support Channels",
+    "supTitle": "Tatlong paraan sa sagot.",
+    "supLead": "May partikular na paraan para sa iba't ibang katanungan, lahat may tugon sa loob ng isang araw.",
+    "sup": [
+      {
+        "t": "Sales at Mga Proyekto",
+        "d": "Mga quote, presyo, oras ng paghahatid, at konsultasyon. O gumawa nang direktang Paghiling ng Proyekto sa 5 hakbang.",
+        "c": "info@k-aqua.de · +49 (0)60 85 / 9868-410",
+        "href": "mailto:info@k-aqua.de"
+      },
+      {
+        "t": "Kalidad at Technical Support",
+        "d": "Mga katanungan sa pag-install, materyal, pagpaplano, pagsusuri sa sertipiko, at pag-claim (reklamasyon).",
+        "c": "support@k-aqua.de",
+        "href": "mailto:support@k-aqua.de"
+      },
+      {
+        "t": "Pagproseso at Academy",
+        "d": "Apat na video sa pag-weld kasama ang table of parameters. Pagsasanay (training) para sa iyong grupo nang may kasunduan.",
+        "c": "Pumunta sa Academy",
+        "href": null
+      }
+    ],
+    "faqEyebrow": "Service FAQ",
+    "faqTitle": "Mabilisang Sagot.",
+    "faq": [
+      {
+        "q": "Anong mga dokumento ang kailangan ko sa pagpaplano?",
+        "a": "Product Range (mga article at dimension), Product Features (material data), at mga dimension tables. Para sa tenders, nariyan ang GAEB text at EPD. Maa-access lahat sa Trust Center."
+      },
+      {
+        "q": "Saan ko mahahanap ang welding parameters?",
+        "a": "Nasa Academy ang mga guideline na nakabatay sa DVS 2207-11, kasama ang step-by-step guide at mga error prevention. Gayunpaman, ang manufacturer ng iyong machine ang pangunahing susundin."
+      },
+      {
+        "q": "Paano ko makukuha ang certificates at audit documents?",
+        "a": "Dito mo maaaring i-download nang direkta ang mga ISO-Certificate (DE/EN). Para sa GENAU-policy, EPD, at QA manuals, kunin sila sa Trust Center gamit ang 1-click Request package."
+      },
+      {
+        "q": "Sino ang makakasagot sa mga teknikal na tanong?",
+        "a": "Sumulat sa support@k-aqua.de. Ang Quality and Tech Support Team ay magre-reply sa loob ng 24 oras (isang araw)."
+      },
+      {
+        "q": "Ano ang pinakamabilis na paraan para makakuha ng quotation (alok)?",
+        "a": "Sa pamamagitan ng Paghiling ng Proyekto: limang hakbang lang, walang obligasyon, may reply mula sa sales sa loob ng 24 oras. Direkta mula sa manufacturer, walang middleman."
+      },
+      {
+        "q": "Anong mga wika meron ang mga dokumento?",
+        "a": "Nasa English ang mga catalog, habang ang mga certificate ay German/English. Ang website ay available sa tatlong wika (DE/EN/AR). Ang ibang wika ng manual ay available sa pamamagitan ng pag-request."
+      }
+    ]
+  }
+}

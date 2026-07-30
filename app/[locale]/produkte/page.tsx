@@ -20,6 +20,7 @@ import { constructMetadata, getProductCatalogJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -73,7 +74,7 @@ export default async function ProduktePage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, ['products', 'catalog', 'productsx', 'catalogx'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
-      <h1 className="sr-only">{tProducts("title1")}</h1>
+      <div className="sr-only">{tProducts("title1")}</div>
       <div className="sr-only">{meta[0]}</div>
 
       {/* 5. Legacy Range System & Data Tables (Original Requirement) */}
@@ -177,6 +178,7 @@ export default async function ProduktePage({ params }: Props) {
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep />
       <CatalogBrowser />
+      <DynamicSeoBlock title={title} h1={t("sysTitle")} locale={locale} path="/produkte" />
     </div>
     </NextIntlClientProvider>
   );

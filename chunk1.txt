@@ -1,249 +1,529 @@
-  "products": {
-    "narrative": {
-      "sizeRange": "Denne komponent produceres i et omfattende udvalg af nominelle diametre fra kompakte {minSize} mm op til betydelige {maxSize} mm, hvilket sikrer maksimal alsidighed i en lang række installationsscenarier.",
-      "sizeSpecific": "Denne komponent er præcist designet til en specifik nominel diameter på {minSize} mm og tilbyder målrettet ydeevne til specialiserede rørlayouts.",
-      "weights": "Materialeeffektiviteten er optimeret på tværs af hele sortimentet med stykkevægte, der skalerer fra {minWeight} kg op til {maxWeight} kg afhængigt af den valgte dimension.",
-      "packaging": "Logistikken er optimeret gennem standardiserede emballageenheder designet til sikker global transport og effektiv håndtering på byggepladsen.",
-      "rowCount": "Vores tekniske portefølje tilbyder denne konfiguration i {count} højt specialiserede dimensionelle varianter, der er præcist skaleret til at imødekomme de hydrauliske og mekaniske krav i moderne væsketransportsystemer.",
-      "intro": "Produktet {title} udgør en hjørnesten i K Aquas højtydende løsninger til væskehåndtering. Officielt katalogiseret under varenumrene {codes} gennemgår hver variant strenge kvalitetssikringsprotokoller på vores tyske produktionsfaciliteter før levering.",
-      "outro": "Gennem brugen af avancerede polymerbehandlingsteknikker garanterer den geometriske præcision af {title} optimale flowegenskaber, minimerer tryktab og eliminerer fuldstændigt risikoen for kalkaflejringer eller korrosion over hele driftslevetiden. Dette kompromisløse engagement i materialevidenskab sikrer, at hver samling bevarer absolut integritet, selv under ekstreme termiske og trykmæssige udsving. Uanset om det bruges i beboelseshøjhuse, kritiske sundhedsfaciliteter eller krævende industrielle procesanlæg, leverer dette produkt en vedligeholdelsesfri pålidelighed, som ingeniører og installatører kan stole blindt på."
-    },
-    "uniqueProductContext": "Produktet {title} er en integreret del af K Aquas {category}-sortiment. Udviklet til maksimal holdbarhed og problemfri integration opfylder det de højeste internationale standarder for moderne rør- og VVS-applikationer. Du kan identificere og bestille dette specifikke produkt ved hjælp af varenummeret/-numrene: {codes}. For yderligere dokumentation eller support bedes du kontakte vores tekniske team.",
-    "heroDesc": "Udforsk specifikationer, dimensioner og anvendelsesområder. For detaljeret information, download det tekniske datablad.",
-    "articleNumbers": "Varenumre",
-    "technicalSpecs": "Tekniske specifikationer",
-    "eyebrow": "Produkter",
-    "videoGuide": "K Aqua videovejledning",
-    "localAvailability": "Lokal tilgængelighed",
-    "localDesc": "Find lokale forhandlere, specifikke godkendelser og standarder for din region.",
-    "allMarkets": "Se alle 50+ markeder",
-    "title1": "PP-R/PPRCT Rør & Fittings til",
-    "titleGrad": "drikkevand.",
-    "lead": "Et komplet rørsystem til varmt og koldt drikkevand: fra rør over fitting til svejseteknologi. Fire byggesten, ét system.",
-    "ctaCatalog": "Produktkatalog (PDF)",
-    "ctaVideos": "Installationsvideoer",
-    "sysEyebrow": "Systemet",
-    "sysTitle": "K-Aqua PP-R Rør & Fittings: Fire byggesten, ét system.",
-    "range": [
-      {
-        "t": "Rør: Mono & Multilayer",
-        "d": "Monolayer- og glasfiberforstærkede multilayer-rør i SDR 6, 7,4, 9, 11 og 17. Dimensioner fra 20 mm til 630 mm."
+,
+  "seoExpansion": {
+  "t1": "Sistemas sostenibles de alta calidad para el éxito de su proyecto",
+  "p1": "K-Aqua proporciona una gama completa de productos PP-R y PP-RCT excepcionalmente duraderos que superan las expectativas de la industria. Nuestra ingeniería de precisión en Alemania garantiza la calidad del agua a la vez que optimiza los costes a largo plazo.",
+  "t2": "Soluciones de instalación adaptables para cada desafío",
+  "p2": "Ya sea para plomería residencial o entornos industriales exigentes, las conexiones especializadas de K-Aqua ofrecen una flexibilidad y seguridad de instalación sin precedentes. Mitigamos el riesgo y la complejidad con componentes diseñados por expertos.",
+  "t3": "Construyendo un futuro más limpio y ecológico juntos",
+  "p3": "Las construcciones modernas requieren materiales sostenibles. Al reemplazar los metales propensos a la corrosión con nuestros avanzados polímeros, contribuye a reducir las emisiones de carbono y promueve una economía de infraestructura verdaderamente circular.",
+  "t4": "Innovación y soporte global de un socio comprometido",
+  "p4": "En K-Aqua, la colaboración no termina en el momento de la entrega. Nuestra red de soporte global y capacitación especializada empodera a su equipo para lograr instalaciones impecables y eficiencia operativa de por vida."
+},
+  "referenzenPage": {
+  "hero": {
+    "eyebrow": "Industrial Reference Projects",
+    "titlePlain": "Engineering that ",
+    "titleAccent": "proves itself.",
+    "lead": "From Waldsolms to the world: K-Aqua PP-R and PP-RCT systems have been running for decades in high-rises, hospitals, industrial plants, and ships: under conditions that allow no second attempt.",
+    "cta1": "View Reference Projects",
+    "cta2": "Request Test Report"
+  },
+  "manifesto": {
+    "title": "The Doctrine of Precision",
+    "p1": "In an industry where material fatigue and corrosion are treated as inevitable, our manufacturing sets a different standard. We regard every pipe not as a component, but as the outcome of applied materials science. Every batch of PP-R copolymer, every weld, and every wall thickness passes through a testing process that would rather accept scrap than a tolerance breach. This is the fundamental law of the <strong>K-Aqua Reference Class</strong>.",
+    "p2": "Our systems operate in environments where a single point of leakage can jeopardize the operation of an entire hospital or high-rise. We apply long-term internal pressure testing to ISO 9080 not as a laboratory formality, but as a hard requirement for every approved dimension: extrapolated to a 50-year service life at specified temperature and pressure rating: documented, traceable, and batch-pure.",
+    "p3": "We deliberately avoid opaque material blends. Our formulation is documented across the entire manufacturing chain: from polymer batch to finished pipe length. We calibrate extrusion temperatures to the degree, optimize the fiber-composite middle layer against longitudinal expansion, and log every electrofusion weld with exact process parameters. The result: systems that stay comfortably within spec under continuous operation at 70°C and PN20.",
+    "p4": "For us, quality assurance is not a downstream inspection step: it is built into every stage of production. By consistently applying DVGW, SKZ, and KIWA certification across all relevant dimensions, we proactively close off every avenue of failure risk. A system manufactured to DIN 8077/8078 and triple-certified can never become the weak link."
+  },
+  "metrics": {
+    "eyebrow": "Technical Metrics",
+    "title1": "Uncompromising",
+    "title2": "Parameters",
+    "lead": "Our systems aren't advertised: they're tested. These are the core metrics behind our engineering doctrine.",
+    "items": {
+      "pressure": {
+        "title": "Long-Term Pressure Testing to ISO 9080",
+        "desc": "Every approved dimension undergoes internal pressure testing at multiple temperature levels over thousands of operating hours: extrapolated along a regression line to a 50-year service life.",
+        "placeholder": "Long-term internal pressure test regression curve"
       },
-      {
-        "t": "Fittings & Ventiler",
-        "d": "Fittings fra 20 mm til 315 mm, suppleret med ventiler, forskruninger og overgangsstykker."
+      "isolation": {
+        "title": "Seamless Batch Traceability",
+        "desc": "Every pipe length carries a batch number traceable all the way back to the polymer delivery: ensuring complete documentation for project acceptance and warranty claims."
       },
-      {
-        "t": "Svejseteknologi & Værktøj",
-        "d": "Skæreværktøjer, svejsemaskiner og svejseapparater til muffe-, stuk- og elektrosvejsning."
+      "tolerance": {
+        "title": "Wall-Thickness Tolerance in the Micrometer Range",
+        "desc": "Continuous ultrasonic wall-thickness measurement during extrusion keeps every dimension precisely within DIN 8077/8078 tolerance fields."
       },
-      {
-        "t": "Varmt & koldt vand",
-        "d": "Designet til drikkevand (varmt og koldt) med høj temperatur- og trykmodstand over årtier."
+      "network": {
+        "title": "Global Distribution and Service Network",
+        "desc": "From Waldsolms, we supply projects in more than 35 countries, providing technical consultation, training, and spare-parts supply: well beyond project handover.",
+        "placeholder": "K-Aqua distribution network export map"
+      },
+      "welding": {
+        "title": "Uncompromising Weld Integrity",
+        "desc": "Every heating-element socket weld follows a documented time-temperature-pressure profile. Random-sample tensile tests and microsection images confirm the molecular fusion of pipe and fitting: no seals, no weak points.",
+        "placeholder": "Microsection image of a K-Aqua socket weld joint"
       }
+    }
+  },
+  "cta": {
+    "title1": "Ready for Your",
+    "title2": "Next Project",
+    "lead": "Planning a high-rise, an industrial facility, or a hospital project? Our engineers are ready for your specifications: backed by solid test data, not marketing promises.",
+    "btn1": "Request Test Certificates",
+    "btn2": "Submit Specifications"
+  },
+  "icons": {
+    "pressure": "Gauge",
+    "isolation": "ShieldCheck",
+    "tolerance": "Ruler",
+    "network": "Globe2",
+    "welding": "Flame",
+    "manifesto": "Droplet",
+    "cta": "Factory"
+  }
+},
+  "kontaktBlocks": {
+  "home": {
+    "kicker": "Direct Contact",
+    "head": "Start your next piping project with reliable figures.",
+    "short": "Talk directly to production",
+    "text": "Hand over rough parameters such as pipe diameter and route length. We check manufacturing capacity at our German plant and give you realistic delivery times.",
+    "interest": "Rohrsysteme",
+    "done": "One of our engineers will review your parameters and get back to you promptly."
+  },
+  "unternehmen": {
+    "kicker": "Factory Tours & Consulting",
+    "head": "Get to know the manufacturing behind K-Aqua in person.",
+    "short": "Schedule a factory visit",
+    "text": "As a family-run company, we are happy to open our doors to planners and building owners. Leave your contact details to arrange a visit to our Waldsolms plant.",
+    "interest": "Beratung",
+    "done": "We will get in touch to coordinate your visit to Waldsolms."
+  },
+  "produkte_fittings": {
+    "kicker": "Molded Parts & Fittings",
+    "head": "Bill-of-materials check for your fittings and connections.",
+    "short": "Request fittings for your PP-R system",
+    "text": "Send us the dimensions and quantities of the fittings you need. We assess availability and, on request, recommend optimizations for hydraulic balancing.",
+    "interest": "Ersatzteile",
+    "done": "Our technical sales team will contact you to discuss the bill of materials."
+  },
+  "produkte_rohre": {
+    "kicker": "PP-R Pipes",
+    "head": "Sizing and delivery times for your piping project.",
+    "short": "Questions about PP-R pipes for your project",
+    "text": "Give us the pressure rating, medium, and rough route length over the phone. Our engineers check sizing and ex-works availability and give you a reliable delivery date.",
+    "interest": "Rohrsysteme",
+    "done": "A piping engineer will get back to you within one business day."
+  },
+  "produkte_armaturen": {
+    "kicker": "Valves & Controls",
+    "head": "The right valve for your hydraulic requirements.",
+    "short": "Find valves for complex networks",
+    "text": "Shut-off, control, or specialty valves: briefly describe the maximum operating pressure and the conveyed medium. We forward you the matching data sheets and availability.",
+    "interest": "Ersatzteile",
+    "done": "A valve expert will send you the requested specifications shortly."
+  },
+  "produkte_werkzeuge": {
+    "kicker": "Welding Tools",
+    "head": "Secure the right tool for absolutely leak-tight joints.",
+    "short": "Rent or buy welding tools",
+    "text": "Whether socket fusion or electrofusion technology: tell us which dimensions are coming up on site. We take care of the right machines for rent or purchase.",
+    "interest": "Beratung",
+    "done": "Our equipment team will check stock and get back to you promptly."
+  },
+  "produkte_uebergaenge": {
+    "kicker": "System Transitions",
+    "head": "Reliable material transitions from metal to plastic.",
+    "short": "Transition fittings for your installation",
+    "text": "Give us the exact thread dimensions and the material of the existing pipes. We recommend corrosion-free transition fittings that guarantee lasting leak-tightness.",
+    "interest": "Rohrsysteme",
+    "done": "A technician will contact you to select the right transition fitting."
+  },
+  "produkte_zubehoer": {
+    "kicker": "Accessories & Fastening",
+    "head": "Complete your installation with original accessories.",
+    "short": "Request fasteners and accessories",
+    "text": "From pipe clamps to insulation material: tell us what you need. We make sure the accessories integrate seamlessly with the rest of your K-Aqua system.",
+    "interest": "Ersatzteile",
+    "done": "Your accessories quote is being prepared."
+  },
+  "katalog": {
+    "kicker": "Complete Catalog",
+    "head": "All item numbers and dimensions for your procurement.",
+    "short": "Help finding the right item",
+    "text": "Can't find a special custom size in the catalog? Briefly describe the component you need and we will search our entire inventory for you.",
+    "interest": "Beratung",
+    "done": "We will research the requested component and call you."
+  },
+  "finder": {
+    "kicker": "Product Finder",
+    "head": "Let us shortcut the search for the right system.",
+    "short": "Direct help with the product finder",
+    "text": "If your parameters (temperature, pressure, medium) are borderline, we are happy to take over the system design. One call often saves hours of research.",
+    "interest": "Beratung",
+    "done": "A system planner will call you back for the precise design."
+  },
+  "produkte": {
+    "kicker": "Product Range",
+    "head": "Questions about the compatibility of our PP-R components?",
+    "short": "System consulting for K-Aqua products",
+    "text": "Give us a quick overview of which systems you want to connect. We show you how to build a homogeneous, leak-tight installation with our portfolio.",
+    "interest": "Rohrsysteme",
+    "done": "We will get back to you with technical details on system compatibility."
+  },
+  "academy": {
+    "kicker": "Training & Certification",
+    "head": "Book a hands-on seminar for your installers.",
+    "short": "Request seats at the K-Aqua Academy",
+    "text": "Secure your warranty through professional workmanship. Tell us the number of employees and we will propose dates for an in-house or factory training session.",
+    "interest": "Beratung",
+    "done": "The Academy team will get back to you with proposed training dates."
+  },
+  "referenzen": {
+    "kicker": "Similar Projects",
+    "head": "Benefit from our experience on reference projects.",
+    "short": "Request project insights for your build",
+    "text": "Planning a similar high-rise or industrial facility? We are happy to share anonymized lessons learned and best practices from the large-scale projects shown here.",
+    "interest": "BIM Daten",
+    "done": "A project manager will get in touch to share experience."
+  },
+  "support": {
+    "kicker": "Technical Support",
+    "head": "Immediate help with challenges on the construction site.",
+    "short": "Fast troubleshooting for installers",
+    "text": "Problems with a weld seam or unclear pressure test results? Leave your number and our technical support will call back immediately for a remote diagnosis.",
+    "interest": "Beratung",
+    "done": "Technical support has been alerted and will call back shortly."
+  },
+  "ausschreibungstexte": {
+    "kicker": "Tender Texts & Planning",
+    "head": "Receive manufacturer-neutral tender specifications in minutes.",
+    "short": "Help creating your bill of quantities",
+    "text": "We provide VOB-compliant GAEB files or Word templates for your tender documents. Tell us the project type and we will send you tailored specification texts.",
+    "interest": "BIM Daten",
+    "done": "The matching tender texts will be sent to you promptly."
+  },
+  "service": {
+    "kicker": "On-Site Service",
+    "head": "Support from K-Aqua technicians on your construction site.",
+    "short": "Request an on-site briefing",
+    "text": "Does your team need machine instruction directly at the installation site? We coordinate one of our site supervisors to support your project through the critical start-up phase.",
+    "interest": "Beratung",
+    "done": "Our service team is checking the availability of a site supervisor."
+  },
+  "maerkte_trinkwasser": {
+    "kicker": "Zero-Leakage Networks",
+    "head": "Every percent of drinking water lost costs your network real money.",
+    "short": "Loss calculation for your drinking water network",
+    "text": "Briefly describe your network size and climate zone. We calculate how much water and budget a K-Aqua installation saves compared to your existing network, including years of operation.",
+    "interest": "Redes de agua potable",
+    "done": "A network planner will get back to you within one business day with an initial loss calculation."
+  },
+  "maerkte_klima": {
+    "kicker": "HVAC & Cooling",
+    "head": "Secure high flow rates without corrosion risk.",
+    "short": "Plan cooling circuits more efficiently",
+    "text": "Tell us the cooling capacity and supply temperature. We size the pipe cross-section to minimize cavitation and pressure losses in your HVAC system.",
+    "interest": "Rohrsysteme",
+    "done": "An HVAC expert will contact you about cross-section sizing."
+  },
+  "maerkte_industrie": {
+    "kicker": "Industrial Plants",
+    "head": "Chemical resistance for demanding process media.",
+    "short": "Request a chemical resistance check",
+    "text": "Handling aggressive acids, alkalis, or ultrapure water? Send us the chemical composition and our laboratory will confirm the resistance of our PP-R pipes in writing.",
+    "interest": "Beratung",
+    "done": "Our laboratory is checking the resistance and will get back to you."
+  },
+  "maerkte_schiffbau": {
+    "kicker": "Shipbuilding & Marine",
+    "head": "Lightweight construction and vibration resistance for shipboard networks.",
+    "short": "Request marine approvals",
+    "text": "Whether grey water, black water, or ballast water: tell us the ship class. We send you the corresponding classification certificates (DNV, Lloyd's) for our system.",
+    "interest": "Beratung",
+    "done": "A marine expert will send you the relevant certificates."
+  },
+  "maerkte_landwirtschaft": {
+    "kicker": "Agriculture & Greenhouses",
+    "head": "Robust irrigation networks for maximum yields.",
+    "short": "Have your irrigation system designed",
+    "text": "Tell us your acreage and water demand. We design a frost-proof, long-lasting PP-R network whose complete opacity prevents clogging caused by algae growth.",
+    "interest": "Redes de agua potable",
+    "done": "We will contact you shortly to discuss your irrigation network."
+  },
+  "maerkte": {
+    "kicker": "Regional Markets",
+    "head": "Talk to an export specialist for your region.",
+    "short": "Logistics and approvals for your country",
+    "text": "We export worldwide. Tell us the destination country and we will inform you about local standards, distribution partners on the ground, and realistic sea freight lead times from our plant.",
+    "interest": "Beratung",
+    "done": "An export manager for your region will get in touch with you."
+  },
+  "loesungen_hochhaus": {
+    "kicker": "High-Rise Construction",
+    "head": "Pressure stabilization in extreme riser pipes.",
+    "short": "Calculate pressure loss in high-rise buildings",
+    "text": "Hydromechanics in high-rise construction leaves no room for error. Tell us the building height and number of floors, and we help position pressure reducers and expansion loops.",
+    "interest": "BIM Daten",
+    "done": "A specialist in high-rise hydraulics will contact you to discuss the details."
+  },
+  "loesungen_krankenhaus": {
+    "kicker": "Hospitals",
+    "head": "Sterility and Legionella prevention in clinical operations.",
+    "short": "Drinking water hygiene for clinics",
+    "text": "Protecting immunocompromised patients is the top priority. We advise you on ring mains, dead-leg avoidance, and thermal disinfection with our PP-R system.",
+    "interest": "Redes de agua potable",
+    "done": "An expert in drinking water hygiene will contact you immediately."
+  },
+  "loesungen_hotel": {
+    "kicker": "Hotel Facilities",
+    "head": "Acoustic decoupling for your guests' undisturbed sleep.",
+    "short": "Sound insulation in hotel construction",
+    "text": "Flow noise in adjacent rooms leads to complaints. Tell us the wall constructions and we recommend sound-insulating fixings and flow optimizations.",
+    "interest": "Beratung",
+    "done": "We will get in touch to optimize the sound insulation in your facility."
+  },
+  "loesungen": {
+    "kicker": "Special Solutions",
+    "head": "Custom system solutions for complex construction projects.",
+    "short": "Technical consulting for your special project",
+    "text": "Standard solutions not enough for your project? Outline the challenge and our engineering design department will develop custom manifolds and special components.",
+    "interest": "Beratung",
+    "done": "Our engineering design department is reviewing your inquiry and will get back to you."
+  },
+  "co2_rechner": {
+    "kicker": "CO2 Savings",
+    "head": "Let us validate your project's carbon footprint.",
+    "short": "Request a detailed CO2 balance",
+    "text": "The calculator provides initial guide values. Send us the exact bill of materials and we will prepare a detailed certificate of the CO2 savings versus metal pipes for your sustainability audit.",
+    "interest": "Beratung",
+    "done": "A sustainability officer will contact you about preparing the certificate."
+  },
+  "trust_center": {
+    "kicker": "Certificates & Standards",
+    "head": "Need a specific certificate for building acceptance?",
+    "short": "Request certificates for building acceptance",
+    "text": "If the inspector on site asks for a specific document (DVGW, SKZ, KIWA), tell us the standard. We send you the current version directly as a PDF.",
+    "interest": "BIM Daten",
+    "done": "We will locate the right certificate and send it to you."
+  },
+  "projektanfrage": {
+    "kicker": "Project Start",
+    "head": "Hand over the key data and we deliver an initial budget.",
+    "short": "Fast budget estimate for building owners",
+    "text": "Upload your plans in the next step, or give us the rough square meters and type of use by phone in advance. We will give you an initial price range.",
+    "interest": "Rohrsysteme",
+    "done": "The project team will contact you to discuss the budget."
+  },
+  "kontakt": {
+    "kicker": "Direct Line",
+    "head": "Your shortest route to K-Aqua headquarters.",
+    "short": "We call you on the construction site",
+    "text": "No hold queues. Enter your number and select the rough topic. The right specialist from sales or engineering will get back to you immediately.",
+    "interest": "Beratung",
+    "done": "Your inquiry has been received. The right advisor will be in touch right away."
+  },
+  "news": {
+    "kicker": "Press & Media",
+    "head": "Questions about a press release or product launch?",
+    "short": "Contact corporate communications",
+    "text": "For high-resolution images, interviews with the management team, or technical background on our innovations, simply leave your contact details.",
+    "interest": "Beratung",
+    "done": "Our press department will get in touch with you shortly."
+  },
+  "karriere": {
+    "kicker": "Careers at K-Aqua",
+    "head": "Ask an informal question about our vacancies.",
+    "short": "Direct line to HR",
+    "text": "Not sure whether your profile fits, or want to clarify details about the day-to-day work before applying? Our HR team answers your questions informally by phone.",
+    "interest": "Beratung",
+    "done": "The HR department will get in touch for a brief introduction."
+  },
+  "partnerschaft": {
+    "kicker": "Become a Distributor",
+    "head": "Expand your range with premium German-made pipe.",
+    "short": "Request distributor terms",
+    "text": "You are a wholesaler looking for a reliable PP-R supplier? Tell us your region and target group, and we will discuss exclusivity models and distributor terms.",
+    "interest": "Beratung",
+    "done": "Our head of partnership sales will contact you."
+  },
+  "impressum": {
+    "kicker": "Legal",
+    "head": "Questions about our company information?",
+    "short": "Contact the K-Aqua front office",
+    "text": "Leave your number here if you have legal or formal questions about our company.",
+    "interest": "Beratung",
+    "done": "We will get in touch to clarify your question."
+  },
+  "datenschutz": {
+    "kicker": "Data Privacy",
+    "head": "Speak with our data protection officer.",
+    "short": "Request information about your data",
+    "text": "We take your privacy seriously. If you would like disclosure, deletion, or details about the processing of your data, please leave your contact details.",
+    "interest": "Beratung",
+    "done": "Our data protection officer will contact you immediately."
+  },
+  "fallback": {
+    "kicker": "Contact",
+    "head": "Speak directly with our engineers.",
+    "short": "Direct line to our engineers",
+    "text": "Phone number, email, one click on your topic. That is all it takes; we clarify the rest in conversation.",
+    "interest": "Beratung",
+    "done": "A specialist advisor will get back to you within one business day."
+  }
+},
+  "seoArticle": {
+  "transitionFittings": {
+    "seoTitle": "Accesorios de transición en latón y PP-R",
+    "seoText": "Los accesorios de transición sirven como puente vital entre las tuberías avanzadas PP-R/PPRCT de K Aqua y los componentes existentes de acero, cobre o latón. Estos accesorios requieren un nivel extraordinario de ingeniería.",
+    "advTitle": "Conexiones seguras y homogéneas",
+    "advList": [
+      "Los insertos de latón DZR ofrecen una resistencia superior contra la descincificación.",
+      "El diseño antitorsión soporta altos torques.",
+      "Una conexión inseparable entre el plástico y el metal garantiza un rendimiento sin fugas."
     ],
-    "techEyebrow": "Tekniske data",
-    "techTitle": "Dimensioner & trykklasser",
-    "techLead": "Afhængigt af rørtype fra 20 mm til 630 mm, fittings op til 315 mm.",
-    "ctaFeatures": "Produktegenskaber (PDF)",
-    "tableHead": [
-      "Komponent",
-      "Dimension",
-      "Trykklasser"
-    ],
-    "tableRows": [
-      [
-        "Monolayer-rør",
-        "20 – 630 mm",
-        "SDR 6 / 7,4 / 9 / 11 / 17"
-      ],
-      [
-        "Multilayer-rør (GF-forstærket)",
-        "20 – 630 mm",
-        "SDR 6 / 7,4 / 9 / 11 / 17"
-      ],
-      [
-        "Fittings",
-        "20 – 315 mm",
-        "systemkompatibel"
-      ],
-      [
-        "Ventiler & forskruninger",
-        "systemafhængig",
-        "-"
-      ],
-      [
-        "Svejseteknologi & Værktøjer",
-        "alle dimensioner",
-        "-"
-      ]
-    ],
-    "labels": {
-      "applicationAreas": "Anvendelsesområder",
-      "advantages": "Dine fordele i et overblik",
-      "technicalDescription": "Teknisk profil & SEO",
-      "noResults": "Ingen produkter fundet",
-      "searchPlaceholder": "Søg efter titel eller varenummer...",
-      "faqTitle": "Ofte stillede spørgsmål (FAQ)",
-      "faqFallbackQ1": "Hvad er de vigtigste fordele?",
-      "faqFallbackA1": "Systemet tilbyder ekstrem holdbarhed, korrosionsbestandighed og fremragende hygiejniske egenskaber til drikkevand.",
-      "faqFallbackQ2": "Er materialet miljøvenligt?",
-      "faqFallbackA2": "Ja, PPRCT er 100 % genanvendeligt og har et meget lavt CO2-aftryk sammenlignet med metalrør.",
-      "faqFallbackQ3": "Hvordan foregår installationen?",
-      "faqFallbackA3": "Installationen foretages sikkert og lækagefrit ved hjælp af polyfusionssvejsning.",
-      "downloads": "Downloads & Dokumenter",
-      "tds": "Teknisk datablad",
-      "tdsDesc": "Specifikationer & mål (PDF)",
-      "cert": "Certifikater & Standarder",
-      "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
-      "install": "Installationsvejledning",
-      "installDesc": "Vejledning til svejsning (PDF)",
-      "range": "Produktsortiment",
-      "rangeDesc": "Komplet produktsortiment med mål (PDF)",
-      "features": "Produktegenskaber",
-      "featuresDesc": "Materialeegenskaber & systemfordele (PDF)"
-    },
-    "specAndDim": "Specifikationer & Dimensioner",
-    "certsAndNorms": "Certifikater & Standarder",
-    "approved": "godkendt",
-    "monitoring": "overvåget",
-    "seoArticle": {
-      "pipes": {
-        "areas": "Trinkwasser (varmt/koldt), Varmeanlæg, Koldtvandskredsløb, Trykluft, Geotermi",
-        "advTitle": "Ingeniørkunst uden kompromiser",
-        "advList": [
-          "Ekstrem holdbarhed: Designet til over 50 års vedligeholdelsesfri drift.",
-          "Absolut hygiejnisk sikkerhed: Neutral over for smag og lugt, forhindrer legionellavækst.",
-          "Reduceret tryktab: Ultraglatte indervægge forhindrer aflejringer og minimerer pumpeenergi.",
-          "Høj tryk- og temperaturmodstand: Ideel til industrielle belastninger og stigrør.",
-          "Hurtig installation: Polyfusionssvejsning muliggør fuldstændig lækagefrie samlinger på få sekunder."
-        ],
-        "seoText": "K Aqua PP-R og PPRCT rør repræsenterer den tyske ingeniørkunsts absolutte top inden for industriel rørinstallation. Hvad enten det gælder rent drikkevand, korrosive industrielle medier eller komplekse klimakredsløb, garanterer vores rør maksimal mekanisk belastbarhed. Gennem fiberkompositteknologi minimeres termisk længdeudvidelse markant. Bygherrer på store internationale projekter stoler på 100 % genanvendelige materialer med ISO-, DVGW- og KIWA-certificeringer for at garantere fremtidssikre investeringer.",
-        "guideTitle": "Installationsvejledning: Maksimering af sikkerheden i komplekse rørnetværk",
-        "guideText": "<p>Planlægning og installation af infrastruktur til store bygninger kræver materialer, der under ekstreme betingelser opretholder en nulfejlsrate. <span class=\"font-semibold\">K Aqua PP-R rørsystemer</span> er designet præcis til disse krav.</p><p>De afgørende fordele for dit projekt:</p><ul><li><span class=\"font-semibold\">Molekylær sikkerhed:</span> I modsætning til metalliske systemer, der samles via gevind, press-samlinger eller O-ringe, samles K Aqua rør udelukkende gennem termisk polyfusion. Rør og fitting smelter sammen til én homogen, uadskillelig struktur – en garanti mod lækager over årtier.</li><li><span class=\"font-semibold\">PPRCT højtydende materiale:</span> Til trykkritiske zoner, især ved høje temperaturer i stigrør, giver PPRCT-rør afgørende stabilitetsreserver. Den modificerede krystalstruktur muliggør større indvendige diametre og dermed forbedrede hydrauliske strømninger.</li><li><span class=\"font-semibold\">Absolut korrosionsfrihed:</span> Metalrør reagerer aggressivt på afsaltet vand eller fluktuerende pH-værdier. Vores plastsystemer er fuldstændigt inerte; de ruster ikke, de kalker ikke til og forringer aldrig drikkevandskvaliteten.</li></ul><p>Uanset om du planlægger et skyskraberprojekt, en industripark eller et hospital, leverer K Aqua dig rørsystemet og ingeniørsupporten, der gør din installation holdbar og sikker mod fejl.</p>",
-        "seoTitle": "PP-R & PPRCT Rørsystemer Oversigt",
-        "faq": [
-          {
-            "q": "Hvad adskiller PPRCT fra konventionel PP-R i rørsystemer?",
-            "a": "PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) har en specielt modificeret krystalstruktur, som muliggør en højere trykmodstand ved forhøjede driftstemperaturer. Dette gør det muligt at anvende rør med tyndere vægge ved samme nominelle tryk, hvilket øger den indvendige diameter og den hydrauliske gennemstrømningskapacitet med op til 17 %."
-          },
-          {
-            "q": "Hvordan reducerer K-Fiber komposit-teknologien den termiske længdeudvidelse?",
-            "a": "Vores K-Fiber rør har et integreret mellemlag af glasfiberforstærket polypropylen. Dette lag stabiliserer røret mekanisk og sænker udvidelseskoefficienten til ca. 0,035 mm/(m·K). Dette svarer til en reduktion af den termiske længdeudvidelse på 75 % i forhold til standard plastrør."
-          },
-          {
-            "q": "Er K Aqua PP-R rørsystemer certificeret til drikkevand?",
-            "a": "Ja, K Aqua rørsystemer opfylder de strengeste test- og hygiejnekrav fra internationale certificeringsorganer som DVGW, KIWA og WRAS. Materialet er fuldstændig harmløst, smags- og lugtneutralt og forhindrer effektivt dannelse af kalk og biofilm."
-          },
-          {
-            "q": "Hvordan laves en fuldstændig lækagefri svejsesamling?",
-            "a": "Samlingen foretages gennem termisk polyfusion ved 260°C. Rør og fitting smelter sammen på molekylært niveau til en homogen, uopløselig enhed. Da der ikke anvendes fejltilbøjelige gummipakninger eller pressfittings, forbliver svejsesømmen fuldstændig tæt i mere end 50 år."
-          },
-          {
-            "q": "Hvilke trykklasser og dimensioner er tilgængelige for K Aqua rør?",
-            "a": "K Aqua tilbyder rørsystemer i trykklasserne SDR 6, SDR 7.4, SDR 9 og SDR 11 (PN10 til PN25) og i udvendige diametre fra 20 mm til 250 mm. Dette gør det muligt at realisere både detaljerede etagefordelinger og massive hoved- og stigrør."
-          }
-        ]
-      },
-      "fittings": {
-        "areas": "Drikkevandsnet, VVS-installation, Industriel fordeling, Varmeanlæg",
-        "advTitle": "Sikre og homogene samlinger",
-        "advList": [
-          "Homogen svejsning: Rør og fitting smelter sammen til en uadskillelig enhed.",
-          "Ingen behov for pakninger: Den permanente forbindelse kræver ingen fejltilbøjelige O-ringe.",
-          "Nem installation: Hurtig og sikker håndtering på byggepladsen.",
-          "Fuld gennemstrømning: Ingen indsnævring af tværsnittet, hvorved systemtrykket opretholdes.",
-          "Kemisk bestandighed: Modstandsdygtig over for en bred vifte af aggressive medier."
-        ],
-        "seoText": "K Aquas fittings er bindeleddet for pålidelige rørnetværk. Fremstillet i Tyskland, tilbyder disse fittings den højeste præcision og dimensionelle nøjagtighed. Svejseprocessen (muffesvejsning) tager kun få sekunder og afkøles til en samling, der er lige så stærk som selve røret. Dermed eliminerer du risikoen for mikrolækager, som ofte kan forekomme med press- eller push-fit systemer efter år.",
-        "guideTitle": "Teknisk vejledning: Sikre forbindelser med K Aqua fittings",
-        "guideText": "<p>Fittings er hjertet i ethvert komplekst rørnetværk. Med de højeste kvalitets <span class=\"font-semibold\">K Aqua PP-R fittings</span> kan du realisere installationer, der kan modstå de højeste tryk og temperaturer.</p><p>Fordelene ved homogen svejsning er ubestridte:</p><ul><li><span class=\"font-semibold\">Materialefusion:</span> Under opvarmning smelter fitting og rør sammen til ét enkelt arbejdsstykke. Dette eliminerer konsekvent svagheder som aldrende O-ringe eller mekanisk presning.</li><li><span class=\"font-semibold\">Strømningsoptimering:</span> Vores fittings er designet således, at tværsnittet opretholdes ved samlingspunkterne. Dette minimerer turbulens og reducerer energiforbruget for cirkulationspumper.</li><li><span class=\"font-semibold\">Højeste materialekvalitet:</span> Gennem brugen af premium Polypropylene Random Copolymer opnås en fremragende kemisk og termisk modstandsdygtighed, der ligger langt over normative krav.</li></ul><p>Under forarbejdningen skal der lægges vægt på rene, gratfrie snit og nøje overholdelse af opvarmnings- og afkølingstider. På denne måde sikrer du producentens garanterede vedligeholdelsesfri levetid på over 50 år på tværs af alle anvendelsesområder.</p>",
-        "seoTitle": "Plastfittings & Formstøbte dele"
-      },
-      "valves": {
-        "areas": "Rørafspærring, Systemstyring, Fordelerskabe, Industri",
-        "advTitle": "Præcis styring og langtidsholdbar funktion",
-        "advList": [
-          "Vedligeholdelsesfri: Mekanikken er designet til årtiers problemfri drift.",
-          "Fuld gennemgang: Kugleventiler med fuldt tværsnit minimerer tryktab.",
-          "Nem integration: Kan svejses direkte ind i PP-R-systemet.",
-          "Højtydende materialer: Ventilsæder og kugler lavet af korrosionsbestandige legeringer.",
-          "Sikker afspærring: 100% tæt, selv under ekstreme tryk- og temperaturudsving."
-        ],
-        "seoText": "K Aquas afspærringsventiler kombinerer den afprøvede PP-R-svejseteknologi med mekaniske komponenter af høj kvalitet. De muliggør præcis styring af væsker og sikker isolering af netværkssektioner til vedligeholdelsesarbejde. Hver ventil gennemgår strenge tryktests inden levering for at sikre maksimal driftssikkerhed i kritiske applikationer.",
-        "guideTitle": "Ekspertguide: Systemstyring med K Aqua ventiler og armaturer",
-        "guideText": "<p>Præcis styring og isolering af materialeflows er afgørende i moderne vand- og varmesystemer. <span class=\"font-semibold\">K Aqua afspærringsventiler</span> kombinerer polypropylens holdbarhed med præcisionen af metalliske tætnings- og styremekanismer.</p><p>Hvad du skal vide, når du integrerer PP-R ventiler:</p><ul><li><span class=\"font-semibold\">Dødvandsfrit design:</span> For at forhindre stagnerende vand og mikrobiel vækst (f.eks. legionella) er vores armaturer strømningsoptimerede og hygiejnisk designet, hvilket gør dem ideelle til følsomme drikkevandsinstallationer.</li><li><span class=\"font-semibold\">Tryk- og temperaturstabilitet:</span> De massive ventilhuse og de højkvalitets messing- eller PP-kugler garanterer en 100% tætning, selv ved ekstreme trykstød og høje fremløbstemperaturer.</li><li><span class=\"font-semibold\">Nem vedligeholdelse:</span> Selv efter mange år i kontinuerlig drift kan K Aqua kugleventiler og skråsædeventiler betjenes let og præcist takket være teflonbelagte tætningselementer.</li></ul><p>For maksimal systemtilgængelighed anbefaler vi, at ventilerne placeres strategisk allerede i planlægningsfasen, således at vedligeholdelse og skylning kan udføres uden omfattende netafbrydelser.</p>",
-        "seoTitle": "Afspærringsventiler & Kuglehaner"
-      },
-      "weldInSaddles": {
-        "areas": "Rørudvidelser, Sensorintegration, Fordelere, Hovedrør",
-        "advTitle": "Afgreninger uden røradskillelse",
-        "advList": [
-          "Tidsbesparelse: Eftermonterede afgreninger uden overskæring af hovedrøret.",
-          "Materialebesparelse: Erstatter dyre, voluminøse T-stykker ved store diametre.",
-          "Fuldstændig tæthed: Homogen svejsning i rørvæggen.",
-          "Høj modstandsdygtighed: Bevarer systemets fulde trykmodstand.",
-          "Alsidighed: Fås med PP-R svejsemuffer eller overgangsgevind (indvendig/udvendig)."
-        ],
-        "seoText": "K Aqua indsvejsningssadler (Weld-in Saddles) revolutionerer skabelsen af rørafgreninger. I stedet for at kappe en eksisterende hovedledning og besværligt installere et T-stykke, bores et præcist hul, hvorefter sadlen svejses direkte ind i rørvæggen. Denne metode sparer enormt med tid og materiale, især ved store diametre.",
-        "guideTitle": "Innovation i praksis: Fordelene ved indsvejsningssadler",
-        "guideText": "<p>Skabelsen af afgreninger i rørnetværk med store diametre er traditionelt forbundet med høje materialeomkostninger og et enormt tidsforbrug. <span class=\"font-semibold\">K Aqua indsvejsningssadler</span> tilbyder en overlegen, ukompliceret løsning til nybyggeri og eftermontering.</p><p>Hvorfor indsvejsningssadler er fremtiden for fordelingsinstallationer:</p><ul><li><span class=\"font-semibold\">Massive materialebesparelser:</span> Især ved store dimensioner (f.eks. en 20 mm afgrening fra et 160 mm hovedrør) erstatter en lille, billig saddel et stort, tungt og dyrt T-stykke.</li><li><span class=\"font-semibold\">Eftermontering på eksisterende rør:</span> Skal et anlæg udvides? I stedet for at dræne hele rørsystemet, skære det over og flytte det, kan sadlen svejses ind på det ønskede sted med minimal indsats. Dette minimerer nedetiden i industrielle anlæg enormt.</li><li><span class=\"font-semibold\">Optimal hydraulik og pladsbehov:</span> Sadler tillader afgreninger på de trangeste steder (f.eks. i fordelerskabe) og skaber et væsentligt lavere tryktab end store fittings.</li></ul><p>For en tæt samling kræves specielt værktøj: K Aquas sadelbor for at skabe et rent, gratfrit hul og det tilsvarende formstøbte svejseværktøj for at opvarme rørvæggen og sadlen jævnt.</p>",
-        "seoTitle": "Indsvejsningssadler for effektive afgreninger"
-      },
-      "accessories": {
-        "areas": "Rørfastgørelse, Flangetilslutninger, Systemreparation, Isolering",
-        "advTitle": "Tilbehør til en standardkompatibel installation",
-        "advList": [
-          "Perfekt pasform: Alt tilbehør er geometrisk afstemt til K Aqua-rørsystemet.",
-          "Termodynamisk fastgørelse: Rørbøjler med gummiindlæg til fast- og glidebeslag.",
-          "Højkvalitets flangetilslutninger: Løse flanger og EPDM-pakninger til overgangen til metal.",
-          "Hurtig reparation: Reparationspropper til rør, der ved et uheld er boret igennem.",
-          "UV-bestandighed: Udvalgt tilbehør er specielt stabiliseret til udendørs installation."
-        ],
-        "seoText": "Det rigtige tilbehørssortiment er afgørende for et rørnetværks levetid. K Aqua tilbyder en omfattende tilbehørsmatrix: fra termodynamiske rørbøjler, der absorberer længdeudvidelser, til EPDM-fladpakninger til flangesamlinger. Kun med det perfekt afstemte K Aqua tilbehør sikrer du overholdelse af alle GEG- og DIN 18381-specifikationer.",
-        "guideTitle": "Ekspertguide: K Aqua tilbehør til standardkompatible installationer",
-        "guideText": "<p>Et højkvalitets rørsystem kræver ligeledes højkvalitets tilbehør. K Aqua-sortimentet omfatter alle væsentlige komponenter for at sikre lang levetid, sikkerhed og overholdelse af alle bygningsfysiske standarder.</p><p>De vigtigste aspekter ved korrekt brug af vores tilbehør:</p><ul><li><span class=\"font-semibold\">Kompensation for længdeudvidelse:</span> Ved temperaturændringer udvider plastrør sig. Målrettet brug af vores termodynamiske rørbøjler som fast- og glidebeslag absorberer disse bevægelser sikkert og beskytter systemet mod skadelige restspændinger. Dette er især afgørende for industrielle systemer og stigrør, hvor ukontrolleret udvidelse kan føre til strukturelle skader.</li><li><span class=\"font-semibold\">Tætte flangesamlinger:</span> For overgange til store ventiler, pumper eller tanke giver vores løse flanger og de præcist afstemte EPDM-fladpakninger absolut sikkerhed ved høje kontakttryk og kontinuerlige vibrationer. De garanterer en sømløs, væsketæt forbindelse og forhindrer dermed potentielt katastrofale lækager i kritiske infrastrukturer.</li><li><span class=\"font-semibold\">Reparationsløsninger:</span> Med vores innovative reparationsprop kan utilsigtet gennemborede rør (f.eks. på byggepladser) svejses homogent på få minutter, så røret genvinder sin fulde mekaniske styrke. En komplet udskiftning af rørsektionen er derfor ikke længere nødvendig.</li></ul><p>Ud over kompensation og tæthed spiller <span class=\"font-semibold\">isolering og brandbeskyttelse</span> en central rolle for en professionel installation. K Aquas tilbehørssortiment er designet til at minimere termiske tab og opfylde de højeste sikkerhedsstandarder. Vores specialpakninger og fastgørelseselementer er designet til effektivt at dæmpe lydtransmission og forhindre udbredelse af strukturstøj i murværk.</p><p>Ved udelukkende at bruge originale K Aqua tilbehørsdele sikrer du den fulde systemgaranti og undgår omkostningstunge defekter forårsaget af inkompatible tredjepartsprodukter. Invester i kompromisløs kvalitet for at sikre en problemfri drift af dit rørsystem i årtier frem.</p> Tilbehør til en standardkompatibel installation.",
-        "faq": [
-          {
-            "q": "Er tilbehørsdelene egnede til koldt og varmt vand?",
-            "a": "Ja, vores tilbehør som rørbøjler og fladpakninger er designet til brug i koldtvands-, varmtvands- og varmesystemer og udviser fremragende termisk stabilitet."
-          },
-          {
-            "q": "Kan jeg bruge tilbehør fra tredjepartsleverandører?",
-            "a": "For at gøre krav på den fulde K Aqua systemgaranti er det obligatorisk at bruge originale tilbehørsdele. Fremmede komponenter kan føre til tæthedsproblemer eller mekaniske svigt."
-          },
-          {
-            "q": "Er der specielt tilbehør til industriel brug?",
-            "a": "Ja, vores sortiment inkluderer kraftige løse flanger med stålkerne, specielle EPDM-pakninger og forstærkede rørbøjler, der nemt kan modstå ekstreme industrielle belastninger."
-          }
-        ],
-        "seoTitle": "Tilbehør til rørinstallation"
-      },
-      "tools": {
-        "areas": "Præfabrikation, Installation på byggeplads, Reparation, Specialapplikationer",
-        "advTitle": "Højeste præcision for den perfekte samling",
-        "advList": [
-          "Nøjagtig temperaturkontrol: Mikroprocessorstyrede varmelegemer opretholder præcis 260°C.",
-          "Non-stick belægning: Teflon-PTFE for restfri smeltning.",
-          "Ergonomisk design: Reducerer den fysiske belastning på installatøren.",
-          "Digital dokumentation: Stuksvejse- og elektrosvejsemaskiner med log-funktion.",
-          "Lang levetid: Robust mekanik til den hårde hverdag på byggepladsen."
-        ],
-        "seoText": "K Aquas værktøjssortiment udgør det uundværlige grundlag for professionel forarbejdning af vores rørsystemer. Fra den præcise rørsaks til den automatiserede CNC-stuksvejsemaskine, tilbyder vi det optimale udstyr til enhver dimension. Kun med kalibrerede originalværktøjer kan de samleparametre, der kræves af DVS, overholdes præcist for at garantere en levetid på over 50 år.",
-        "guideTitle": "Praktisk guide: Professionelt værktøj til K Aqua rørinstallation",
-        "guideText": "<p>Kvaliteten af en plastrørsinstallation står og falder med præcisionen af de anvendte værktøjer. <span class=\"font-semibold\">K Aqua svejse- og skæreværktøjer</span> er specielt afstemt efter de termoplastiske egenskaber af PP-R og PPRCT for at opnå fejlfrie resultater.</p><p>Hvorfor professionelt udstyr er uundværligt:</p><ul><li><span class=\"font-semibold\">Fejlfri forberedelse:</span> Et absolut retvinklet og gratfrit snit er grundforudsætningen for en tæt svejsesøm. Vores rørskærere og koldsave forhindrer materialekompressioner og mikroridser.</li><li><span class=\"font-semibold\">Termodynamisk præcision:</span> De mikroprocessorstyrede muffesvejseapparater holder den ideelle samletemperatur på 260°C konstant selv under vanskelige vejrforhold, hvilket pålideligt forhindrer nedbrydning af polymeren.</li><li><span class=\"font-semibold\">Automatiseret sikkerhed:</span> For store nominelle diametre eliminerer vores computerstyrede stuksvejse- og elektrosvejsemaskiner menneskelige fejl ved fuldautomatisk at regulere tryk, tid og temperatur, samt digitalt at dokumentere for bygningsgodkendelse.</li></ul><p>Regelmæssig vedligeholdelse og rengøring af de teflonbelagte varmeværktøjer er essentiel for at sikre en homogen smeltning og varigt belastbare, lækagefrie rørnetværk.</p>",
-        "seoTitle": "Svejseværktøj & Rørskærere"
-      },
-      "fallback": {
-        "areas": "Universel installationsteknik, Behov på byggepladsen, Systemtilføjelse",
-        "advTitle": "Perfekt systemtilføjelse",
-        "advList": [
-          "Godkendt kvalitet: Overholder ISO 9001 ledelsessystem.",
-          "Systemkompatibilitet: Perfekt afstemt til K Aqua-rørsystemet.",
-          "Lang levetid: Robuste materialer til den hårde hverdag på byggepladsen.",
-          "Sikker brug: Garanteret funktion ved professionel brug.",
-          "Økonomi: Fremragende forhold mellem pris og ydelse."
-        ],
-        "seoText": "Som systemleverandør leverer K Aqua ikke kun rør og fittings, men også alt det nødvendige værktøj og tilbehør. Fra det højpræcise svejseapparat til den pålidelige rørskærer: Vores værktøjer garanterer en standardkompatibel forarbejdning og maksimal installationssikkerhed. Stol på originalt tilbehør for at opretholde garantien for hele dit K Aqua system."
-      }
-    },
+    "guideText": "\n    <h2>Cerrando la brecha</h2>\n    <p>Cuando se trata de conectar sistemas de polímeros modernos con la infraestructura metálica tradicional, las conexiones seguras y homogéneas son de absoluta importancia. Los accesorios de transición sirven como un puente vital entre las tuberías avanzadas PP-R/PPRCT de K Aqua y los componentes existentes de acero, cobre o latón como calderas, enfriadores y accesorios de plomería. Estos accesorios requieren un nivel extraordinario de ingeniería para garantizar que la conexión entre el metal y el plástico permanezca completamente libre de fugas incluso bajo ciclos térmicos extremos y estrés mecánico.</p>\n    <p>Los accesorios de transición K Aqua cuentan con insertos de latón DZR (resistentes a la descincificación) profundamente incrustados y antitorsión. Durante el proceso de moldeo por inyección, el PP-R caliente se moldea directamente alrededor del complejo perfil geométrico del inserto de latón. A medida que el plástico se enfría y se contrae, agarra el latón con una fuerza enorme, formando una unión mecánica inseparable. Este diseño evita que el inserto de latón se tuerza o se salga, incluso cuando se somete al alto torque de una llave de plomero durante la instalación.</p>\n    <p>Además, el latón DZR de alta calidad garantiza que la porción metálica del accesorio sea extremadamente resistente a las condiciones agresivas del agua, previniendo la corrosión prematura que a menudo afecta a los accesorios de latón estándar. Esto es especialmente crítico en sistemas de agua caliente, donde la velocidad de reacción se acelera significativamente.</p>\n    <ul>\n      <li>Los insertos de latón DZR ofrecen una resistencia superior contra la descincificación y la corrosión.</li>\n      <li>El diseño antitorsión maneja altos torques durante instalaciones roscadas sin problemas.</li>\n      <li>Una unión inseparable de plástico a metal garantiza un rendimiento sin fugas durante toda su vida útil.</li>\n      <li>Disponibles en una amplia gama de configuraciones roscadas macho y hembra.</li>\n      <li>Perfectos para conectar redes PP-R a bombas metálicas, válvulas y calderas.</li>\n    </ul>\n    <p>Ya sea que necesite adaptar una tubería de refrigeración industrial masiva de 125 mm a una brida de acero, o simplemente conectar una línea de agua residencial de 20 mm a una válvula angular cromada, K Aqua tiene la pieza de transición exacta requerida.</p>\n  "
+  },
+  "valves": {
+    "seoTitle": "Válvulas de cierre para PP-R y PP-RCT",
+    "seoText": "Las válvulas de bola y válvulas empotradas de K-Aqua ofrecen un control de flujo absoluto. Resistentes a la corrosión y perfectamente integrables en su sistema de tuberías.",
+    "guideText": "\n    <h2>Control absoluto de flujo</h2>\n    <p>Un sistema de tuberías avanzado es tan eficaz como los mecanismos que controlan el flujo. Las válvulas de cierre, las válvulas de compuerta y los colectores son los puntos de control de la infraestructura, lo que permite a los administradores de las instalaciones aislar las secciones del sistema para realizar tareas de mantenimiento, equilibrar las presiones y garantizar la seguridad de la planta. K Aqua ofrece una amplia gama de válvulas de alto rendimiento diseñadas específicamente para integrarse perfectamente en nuestros sistemas de tuberías de PP-R y PPRCT.</p>\n    <p>La ventaja más importante de las válvulas K Aqua es que su cuerpo está fabricado con el mismo polipropileno de alta calidad que nuestras tuberías y accesorios. Esto significa que se pueden soldar directamente a la red de tuberías mediante polifusión, eliminando así cualquier conexión mecánica o roscada entre la tubería y el cuerpo de la válvula. El resultado es una estructura de material continua y monolítica que garantiza la estanqueidad y reduce drásticamente los costes de mantenimiento. Nuestras válvulas están diseñadas para soportar las mismas rigurosas clasificaciones de temperatura y presión que el propio sistema de tuberías, lo que proporciona un funcionamiento increíblemente suave y sin mantenimiento durante décadas.</p>\n    <p>A diferencia de las válvulas de compuerta metálicas tradicionales, que a menudo se atascan o gotean por el prensaestopas después de años de inactividad, las válvulas revestidas de plástico de K Aqua son inmunes a la corrosión externa, lo que las hace perfectas para salas de máquinas húmedas, instalaciones enterradas o entornos industriales húmedos.</p>\n    <ul>\n      <li>El diseño de paso total evita cualquier restricción del flujo de fluidos.</li>\n      <li>Los cuerpos de plástico resistentes a la corrosión protegen los componentes metálicos internos.</li>\n      <li>La polifusión directa elimina la necesidad de conexiones roscadas vulnerables.</li>\n      <li>Las manijas ergonómicas y la ingeniería de precisión garantizan un funcionamiento suave.</li>\n      <li>Disponible en una amplia gama de tamaños para adaptarse a las necesidades residenciales e industriales.</li>\n    </ul>\n    <p>Nuestro diseño de paso total garantiza que, cuando la válvula está abierta, el flujo hidráulico no se restringe, lo que mantiene la presión óptima del sistema y maximiza la eficiencia de las bombas de circulación. Ya sea que necesite aislar un solo accesorio sanitario o controlar la línea de suministro principal de un edificio comercial, las válvulas K Aqua brindan la confiabilidad y el rendimiento necesarios.</p>\n    <p>Cada válvula se somete a rigurosas pruebas de presión antes del embalaje para garantizar que cumpla con nuestros estrictos estándares de calidad. Confíe en K Aqua cuando se trata de los mecanismos de control que mantienen sus redes de fluidos funcionando de manera segura y eficiente día tras día, año tras año.</p>\n  "
+  },
+  "fittings": {
+    "seoTitle": "Accesorios y conexiones de plástico para PP-R",
+    "seoText": "Conexiones seguras y homogéneas con accesorios K-Aqua PP-R. Descubra nuestra amplia gama de accesorios para los más altos estándares en instalación de tuberías.",
+    "guideText": "\n    <h2>Conexiones seguras</h2>\n    <p>Las conexiones seguras y homogéneas forman el eslabón crucial en cualquier red de tuberías confiable. La verdadera fortaleza del sistema de tuberías K Aqua radica en su revolucionaria tecnología de unión. A diferencia de los sistemas convencionales que se basan en compresión mecánica, soldadura o adhesivos químicos volátiles, K Aqua utiliza la polifusión térmica. Nuestra amplia gama de accesorios: desde simples codos y accesorios en T hasta complejos colectores y accesorios de transición roscados: está diseñada para fusionarse directamente con la tubería a nivel molecular.</p>\n    <p>Durante el proceso de soldadura a encaje, tanto la pared exterior de la tubería como la pared interior del accesorio se calientan simultáneamente a exactamente 260 °C. Cuando se unen, las cadenas de polímero fundido se entrecruzan y se solidifican en una masa continua y homogénea. La unión resultante es óptica y físicamente casi indistinguible de la tubería misma y se convierte en el punto más fuerte de toda la red. Esto elimina por completo el riesgo de microfugas que ocurren a menudo en los sistemas de encaje a presión o a presión después de años de uso.</p>\n    <p>Esto elimina por completo la necesidad de juntas tóricas de goma, empaquetaduras o sellos internos que inevitablemente se deterioran, secan o fallan con el transcurso de décadas de ciclos térmicos. Debido a que el accesorio se desliza sobre la tubería, no hay absolutamente ninguna reducción en el área de la sección transversal interna, lo que significa que no hay restricción de flujo ni pérdida de presión en las uniones.</p>\n    <ul>\n      <li>Conexiones moleculares permanentes que eliminan el riesgo de fugas.</li>\n      <li>Sin reducción en el diámetro de flujo, preservando la presión del agua.</li>\n      <li>Resistencia contra picos de presión extremos y efectos de golpe de ariete.</li>\n      <li>Proceso de instalación rápido y eficiente en comparación con la soldadura o el roscado.</li>\n      <li>Gama completa de formas y ángulos para cualquier diseño arquitectónico.</li>\n    </ul>\n    <p>Además, nuestros accesorios de transición para la conexión a la infraestructura metálica existente cuentan con insertos de latón DZR profundamente incrustados y a prueba de torsión que pueden soportar fácilmente los pares extremos al instalar válvulas pesadas y accesorios sanitarios. Cada accesorio se somete a rigurosas pruebas de tensión y dimensiones antes de salir de nuestra fábrica para garantizar que funcione sin problemas en su sitio de construcción.</p>\n    <p>Al elegir accesorios K Aqua, invierte en la integridad de todo el sistema de plomería. Nuestro riguroso control de calidad garantiza que cada conexión que realice sea de la que nunca tendrá que preocuparse de nuevo, proporcionando una solución duradera para todas las aplicaciones.</p>\n  "
+  },
+  "weldInSaddles": {
+    "seoTitle": "Injertos de soldadura para tuberías PP-R",
+    "seoText": "Los injertos de soldadura K-Aqua permiten ramificaciones posteriores fáciles y seguras sin interrumpir la línea. Mínimo tiempo de instalación y máxima integridad del sistema.",
+    "guideText": "\n    <h2>Ramificación simplificada</h2>\n    <p>Cuando se trata de expandir o modificar una tubería existente, los injertos de soldadura ofrecen una solución sin igual para la máxima flexibilidad. Los injertos de soldadura de K Aqua son un método innovador y altamente eficiente para crear nuevas ramificaciones en redes PP-R y PPRCT existentes. En lugar de cortar una gran sección de la tubería principal e instalar una conexión en T costosa y voluminosa, un injerto le permite simplemente perforar un agujero en el costado de la tubería y soldar la ramificación directamente a la pared exterior.</p>\n    <p>Este proceso ahorra enormes cantidades de tiempo, mano de obra y material, especialmente cuando se trabaja con tuberías industriales de gran diámetro. El injerto cuenta con una base cóncava que se adapta perfectamente a la curvatura de la tubería principal, proporcionando una gran área de superficie para el proceso de polifusión. Una vez soldado, el injerto se convierte en una parte permanente e integral de la tubería principal, presumiendo de la misma exactitud en clasificación de presión y fuerza que una T moldeada de fábrica.</p>\n    <p>Para los contratistas que renuevan edificios antiguos o agregan nuevos equipos a una sala de máquinas activa, los injertos de soldadura son un verdadero cambio en las reglas del juego. Requieren significativamente menos espacio libre alrededor de la tubería, lo que permite realizar modificaciones en espacios reducidos y confinados donde sería imposible maniobrar con una herramienta de corte grande.</p>\n    <ul>\n      <li>Reduce drásticamente los costos de material en comparación con las conexiones en T de gran diámetro.</li>\n      <li>Minimiza el tiempo de inactividad durante renovaciones y expansiones del sistema.</li>\n      <li>Requiere menos espacio físico para la instalación en salas de máquinas abarrotadas.</li>\n      <li>Mantiene la integridad estructural y la clasificación de presión de la línea principal.</li>\n      <li>Disponible con insertos roscados de latón para conexión directa a sensores o válvulas.</li>\n    </ul>\n    <p>Ofrecemos herramientas de perforación especializadas y matrices de calentamiento contorneadas diseñadas específicamente para su uso con nuestros injertos. Esto asegura que cada orificio sea perfectamente redondo y cada soldadura se caliente uniformemente, garantizando una conexión impecable y sin fugas en todo momento. Nuestros injertos de soldadura ejemplifican el compromiso de K Aqua con la ingeniería práctica e inteligente.</p>\n    <p>Ya sea que esté agregando un nuevo puerto de sensor, una línea de drenaje o una rama de colector completamente nueva, los injertos de soldadura K Aqua proporcionan la resistencia estructural y la simplicidad operativa necesarias para hacer el trabajo bien desde la primera vez.</p>\n  "
+  },
+  "tools": {
+    "seoTitle": "Herramientas de Soldadura y Cortatubos para PP-R",
+    "seoText": "Herramientas profesionales K-Aqua para la instalación de tuberías. Descubra máquinas de soldar y cortatubos para la máxima precisión y conexiones perfectas.",
+    "guideText": "\n    <h2>Precisión en cada corte</h2>\n    <p>La máxima precisión para la conexión perfecta es el sello distintivo de nuestras herramientas. La fiabilidad de cualquier sistema sanitario de polifusión depende completamente de la precisión de las herramientas de instalación. K Aqua ofrece una amplia gama de equipos profesionales de corte y soldadura diseñados para eliminar los errores humanos y garantizar uniones perfectas y homogéneas en cada conexión, desde tuberías residenciales de 20 mm hasta enormes redes principales industriales de 250 mm.</p>\n    <p>Una soldadura impecable comienza con un corte perfectamente rectangular y limpio. Nuestros cortatubos de trinquete y sierras circulares rotativas proporcionan un borde sin rebabas a 90 grados, que es absolutamente necesario para que el tubo asiente correctamente en el accesorio. Si un tubo se corte en ángulo, la soldadura resultante es irregular, lo que puede provocar restricciones de flujo o fallas estructurales a largo plazo. Nuestros cortadores están construidos con acero endurecido para soportar los rigores de la obra.</p>\n    <p>Para el proceso de soldadura, las máquinas de soldadura manual y las estaciones de soldadura hidráulicas de alto rendimiento de K Aqua cuentan con elementos calefactores controlados electrónicamente. Estos termostatos mantienen estrictamente la temperatura crítica de 260°C requerida para una unión molecular óptima, evitando así que el plástico se degrade por sobrecalentamiento o forme conexiones débiles y quebradizas por falta de calor.</p>\n    <ul>\n      <li>Los termostatos controlados electrónicamente garantizan temperaturas de soldadura precisas.</li>\n      <li>Un recubrimiento de teflón (PTFE) de alta calidad evita que el plástico se adhiera a las matrices.</li>\n      <li>Los cortatubos de trinquete reducen la fatiga de las manos y garantizan cortes perfectamente cuadrados.</li>\n      <li>Los equipos hidráulicos de alto rendimiento proporcionan la inmensa fuerza requerida para tuberías de gran diámetro.</li>\n      <li>Las máquinas de electrofusión ofrecen soldadura automatizada y documentada para aplicaciones críticas.</li>\n    </ul>\n    <p>Las matrices de calentamiento en sí están recubiertas con teflón (PTFE) antiadherente de alta calidad para garantizar una transferencia de calor limpia y evitar que el plástico fundido se rasgue al retirarlas. Mediante el uso de máquinas automatizadas de electrofusión, equipos de soldadura a tope y herramientas especiales para sillas de derivación originales de K Aqua, los contratistas pueden maximizar su eficiencia en el sitio, reducir significativamente la fatiga física y ofrecer a sus clientes un aseguramiento de calidad documentado y 100% libre de fugas.</p>\n    <p>Invertir en herramientas profesionales K Aqua es una inversión en la longevidad y la integridad de su trabajo. Están diseñadas para funcionar de manera confiable incluso en los entornos más hostiles, garantizando que pueda ofrecer perfección desarrollada en Alemania en cada proyecto, independientemente de su tamaño o complejidad.</p>\n  "
+  },
+  "accessories": {
+    "seoTitle": "Accesorios para Instalaciones de Tuberías PP-R",
+    "seoText": "Accesorios profesionales de K-Aqua para su instalación de tuberías. Descubra abrazaderas de tubería, juntas, tapones de reparación y bridas de respaldo para máxima seguridad.",
+    "guideText": "\n    <h2>El toque final</h2>\n    <p>Los accesorios para una instalación conforme a la normativa transforman un sistema sanitario funcional en una obra maestra profesional. Mientras que las tuberías y los accesorios forman el núcleo de la red, los accesorios de soporte son cruciales para compensar la expansión térmica, amortiguar las vibraciones y garantizar una integración segura en la infraestructura del edificio. K Aqua ofrece un ecosistema completo de accesorios diseñados para armonizar perfectamente con nuestros productos PP-R y PPRCT.</p>\n    <p>Uno de los aspectos más importantes en cualquier sistema de agua caliente o calefacción es el control de la expansión lineal de las tuberías. Nuestras abrazaderas de tubería especiales están diseñadas para actuar como puntos fijos o como guías deslizantes, permitiendo que la tubería se expanda y contraiga suavemente sin dañar las juntas o la estructura del edificio por tensión. Estas abrazaderas cuentan con gruesos revestimientos de goma que proporcionan un excelente aislamiento acústico y evitan la transmisión del ruido del flujo a través de las paredes.</p>\n    <p>Además, nuestra gama incluye juntas planas de EPDM de alta calidad, bridas con cuello para soldar especiales con núcleo de acero para conexiones industriales y tapones de reparación robustos que permiten reparaciones rápidas y duraderas en caso de que una tubería se perfore accidentalmente durante la construcción.</p>\n    <ul>\n      <li>Las abrazaderas de tubería con revestimiento acústico eliminan la transmisión de los ruidos del flujo.</li>\n      <li>Los sistemas de anclaje adecuados controlan de forma segura la expansión y contracción térmica.</li>\n      <li>Las bridas con cuello para soldar reforzadas con acero garantizan una conexión segura a la maquinaria pesada.</li>\n      <li>Las juntas de EPDM de alta calidad garantizan sellados resistentes y duraderos en uniones embridadas.</li>\n      <li>Los tapones de reparación especiales ofrecen una solución permanente para las perforaciones accidentales.</li>\n    </ul>\n    <p>El uso de accesorios genéricos o incompatibles puede comprometer seriamente el rendimiento de un sistema de tuberías premium. Por ejemplo, el uso de abrazaderas sin revestimiento de goma en una tubería de agua caliente puede provocar ruidos molestos de chasquidos a medida que la tubería se expande, mientras que un anclaje inadecuado puede hacer que la tubería se doble o incluso se rompa bajo tensión térmica. Los accesorios K Aqua se someten a rigurosas pruebas para garantizar que cumplan con nuestros exigentes estándares.</p>\n    <p>Al utilizar nuestra gama completa de accesorios, los instaladores pueden garantizar que su trabajo no solo cumple, sino que supera los códigos de construcción locales y los estándares de la industria. Es la atención a estos pequeños detalles lo que constituye una instalación verdaderamente profesional y garantiza décadas de funcionamiento impecable.</p>\n  "
+  }
+},
+  "customerReviews": {
+  "eyebrow": "Quality that Connects",
+  "title": "What our Customers and Partners Say",
+  "lead": "From builders to logistics partners and long-standing employees: K-Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself the experiences people have every day with our service and our 'Made in Germany' products.",
+  "trustBadge": "Google Reviews",
+  "trustStars": "4.9 / 5",
+  "trustBasedOn": "(Based on 44 reviews)",
+  "tabA": "Quality & Made in Germany",
+  "tabB": "Logistics & Delivery",
+  "tabC": "Service & People",
+  "reviews": {
+    "a1": "“A factory in Waldsolms, Germany, specialized in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
+    "a1Author": "Giulio C.",
+    "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
+    "a2Author": "Veronica P.",
+    "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
+    "a3Author": "Ewald S.",
+    "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
+    "a4Author": "Kais S.",
+    "a5": "“**High-quality products** and a top German factory.”",
+    "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+    "a6": "“Muy buenos productos, **calidad confiable** y entrega puntual.”",
+    "a6Author": "Klaus T.",
+    "b1": "“Very nice handling, **fast unloading**. I was able to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I would love to come back here again.”",
+    "b1Author": "Michael S.",
+    "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. There is a parking lot about 100 meters away. Friendly staff.”",
+    "b2Author": "Oleg M. / Hasan S.",
+    "b3": "“**Fast unloading**, friendly and helpful staff.”",
+    "b3Author": "Bogdan M.",
+    "c1": "“**Very good service**: great that they still produce in Germany.”",
+    "c1Author": "Daniel",
+    "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
+    "c2Author": "Mohamed M.",
+    "c3": "“From the chairman to the regular workers: they are **good people**.”",
+    "c3Author": "Azim",
+    "c4": "“**Great company**, does a lot for its people.”",
+    "c4Author": "Monika v. B.",
+    "c5": "“The employees are **very friendly and helpful**.”",
+    "c5Author": "Piera V.",
+    "c6": "“Equipo competente y una **excelente atención al cliente** en todos los niveles.”",
+    "c6Author": "Sarah B."
+  },
+  "ctaTitle": "Convince yourself of our service.",
+  "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team in Waldsolms is there for you.",
+  "ctaBtn": "Get in touch now",
+  "disclaimer": "Note on the verification of reviews: The reviews displayed here are from our Google Business Profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
+},
+  "productNames": {
+  "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
+  "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
+  "accessories_flat-gasket": "Flat Gasket",
+  "accessories_pipe-clamps": "Pipe Clamps",
+  "accessories_plug": "PP-R Pipe Plug",
+  "fittings_cap": "PP-R End Cap",
+  "fittings_cross-over-pipe": "PP-R Crossover Pipe Component",
+  "fittings_cross-over": "PP-R Pipe Crossover",
+  "fittings_cross": "PP-R Cross Fitting",
+  "fittings_elbow-45-female-male": "PP-R Street Elbow 45° (F/M)",
+  "fittings_elbow-45": "PP-R Standard Elbow 45°",
+  "fittings_elbow-90-female-male": "PP-R Street Elbow 90° (F/M)",
+  "fittings_elbow-90": "PP-R Standard Elbow 90°",
+  "fittings_electrofusion-socket": "Electrofusion Socket",
+  "fittings_flange-adaptor": "Flange Adaptor",
+  "fittings_reducing-bush": "Reducing Bush",
+  "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
+  "fittings_reducing-tee": "Reducing Tee",
+  "fittings_socket": "PP-R Pipe Socket",
+  "fittings_tee": "PP-R Tee Fitting",
+  "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+  "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
+  "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
+  "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",
+  "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Pipe PP-RCT SDR 7.4",
+  "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV Pipe PP-R SDR 7.4",
+  "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Tubo compuesto multicapa con cubierta especial de protección UV para exteriores (SDR 7.4 PP-R).",
+  "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+  "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Tubo compuesto de alto rendimiento (PPRCT) con capa de protección UV negra para instalaciones exteriores exigentes (SDR 7.4).",
+  "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Pipe PP-RCT SDR 11",
+  "pipes_k-pipe-pp-r-sdr-11": "K-Pipe PP-R SDR 11",
+  "pipes_k-pipe-pp-r-sdr-6": "K-Pipe PP-R SDR 6",
+  "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe PP-RCT SDR 7.4",
+  "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Purple PP-R SDR 11",
+  "tools_butt-welding-machine-90-250": "Butt Welding Machine d90-d250",
+  "tools_drilling-tool-for-weld-in-saddle": "Drilling Tool for Weld-in Saddle",
+  "tools_electrofusion-machine": "Electrofusion Machine",
+  "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
+  "tools_hand-welding-machine-20-32_desc": "Aparato de soldar a encaje compacto como juego completo para pequeñas dimensiones de d20 a d32 mm.",
+  "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
+  "tools_hand-welding-machine-20-63_desc": "Aparato de soldar a encaje versátil en juego (placa calefactora, soporte, matrices) para tuberías de d20 a d63 mm.",
+  "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Only Mirror) 50–125",
+  "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
+  "tools_pipe-cutter-50-125-114": "Alternative Pipe Cutter 1 1/4",
+  "tools_pipe-cutter-50-125": "Heavy-Duty Pipe Cutter d50-d125",
+  "tools_repairing-plug": "Repairing Plug",
+  "tools_welding-machine-50-125": "Socket Welding Machine d50-d125",
+  "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
+  "tools_welding-tool-for-weld-in-saddles": "Welding Tool for Weld-in Saddles",
+  "tools_welding-tool": "Welding Tool",
+  "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
+  "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+  "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male)",
+  "transition-fittings_elbow-bracket-90-female-thread": "Elbow Bracket 90° (Female Thread)",
+  "transition-fittings_elbow-bracket-90-female-thread_desc": "Soporte mural de ángulo simple para el montaje seguro de accesorios en la pared (rosca interior).",
+  "transition-fittings_elbow-wall-bracket-90-female-thread": "Elbow/Wall Bracket 90° (Female Thread)",
+  "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Fijación mural doble para conexiones extremadamente estables y firmemente atornilladas.",
+  "transition-fittings_metal-union-female-thread-brass": "Metal Union in Brass CW617N (Female)",
+  "transition-fittings_metal-union-female-thread": "Metal Union with PP-R Nut (Female Thread)",
+  "transition-fittings_metal-union-male-thread-brass": "Metal Union in Brass CW617N (Male)",
+  "transition-fittings_metal-union-male-thread": "Metal Union with PP-R Nut (Male Thread)",
+  "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
+  "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+  "transition-fittings_union-for-watermeters": "Union for Watermeters",
+  "transition-fittings_union": "PP-R Pipe Union",
+  "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
+  "valves_battery-female-thread": "Battery (Female Thread)",
+  "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome: Heavy Part",
+  "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome: Light Part",
+  "valves_elongation-pieces": "Elongation Pieces",
+  "valves_pp-r-ball-valve-ball-in-pp": "PP-R Valve (PP Core)",
+  "valves_pp-r-ball-valve-brass": "PP-R Valve (Brass Core, Chromium Plated)",
+  "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Upper Part)",
+  "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
+  "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
+  "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
+  "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
+}

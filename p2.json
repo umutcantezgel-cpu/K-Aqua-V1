@@ -1,0 +1,35 @@
+{
+  "TargetFile": "/Users/umurey/Downloads/K-Aqua-V1-main/messages/uz.json",
+  "Instruction": "Fix arrays",
+  "Description": "Fix arrays",
+  "ReplacementChunks": [
+    {
+      "TargetContent": "    \"genau\": {\n      \"title1\": \"Xom ashyo nazorati\",\n      \"desc1\": \"Har bir partiya sinovdan o'tkaziladi. Oqim indeksi, zichlik va barqarorlik tekshiriladi.\",\n      \"title2\": \"In-line nazorat\",\n      \"desc2\": \"Lazerli o'lchov va ultratovush tekshiruvi. Barcha parametrlarning uzluksiz monitoringi.\",\n      \"title3\": \"Laboratoriya sinovlari\",\n      \"desc3\": \"Zarba sinovi, termik tsikl va bosim ostida uzoq muddatli barqarorlik.\",\n      \"title4\": \"Kuzatiluvchanlik\",\n      \"desc4\": \"Barcha quvurlar va fittinglar seriya raqami va shtrix kod orqali to'liq kuzatilishi mumkin.\"\n    ,\n    \"0\": [\n          \"Gesundheit\",\n          \"Batafsil ma'lumot...\"\n        ],\n        \"1\": [\n          \"Energie\",\n          \"Batafsil ma'lumot...\"\n        ],\n        \"2\": [\n          \"Nachhaltigkeit\",\n          \"Batafsil ma'lumot...\"\n        ],\n        \"3\": [\n          \"Arbeitssicherheit\",\n          \"Batafsil ma'lumot...\"\n        ],\n        \"4\": [\n          \"Umwelt\",\n          \"Batafsil ma'lumot...\"\n        ]\n    },",
+      "ReplacementContent": "    \"genau\": [\n      [\n        \"Gesundheit\",\n        \"Batafsil ma'lumot...\"\n      ],\n      [\n        \"Energie\",\n        \"Batafsil ma'lumot...\"\n      ],\n      [\n        \"Nachhaltigkeit\",\n        \"Batafsil ma'lumot...\"\n      ],\n      [\n        \"Arbeitssicherheit\",\n        \"Batafsil ma'lumot...\"\n      ],\n      [\n        \"Umwelt\",\n        \"Batafsil ma'lumot...\"\n      ]\n    ],",
+      "StartLine": 4968,
+      "EndLine": 4998,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "    \"docs\": {\n      \"title\": \"Tender hujjatlari\",\n      \"desc\": \"Me'morlar va rejalashtiruvchilar uchun texnik matnlar, SAPR ma'lumotlari va tender hujjatlari to'plami.\"\n    ,\n    \"0\": \"Batafsil ma'lumot...\",\n        \"1\": \"Batafsil ma'lumot...\",\n        \"2\": \"Batafsil ma'lumot...\",\n        \"3\": \"Batafsil ma'lumot...\",\n        \"4\": \"Batafsil ma'lumot...\",\n        \"5\": \"Batafsil ma'lumot...\",\n        \"6\": \"GAEB-Ausschreibungstexte\",\n        \"7\": \"Batafsil ma'lumot...\"\n    },",
+      "ReplacementContent": "    \"docs\": [\n      \"Batafsil ma'lumot...\",\n      \"Batafsil ma'lumot...\",\n      \"Batafsil ma'lumot...\",\n      \"Batafsil ma'lumot...\",\n      \"Batafsil ma'lumot...\",\n      \"Batafsil ma'lumot...\",\n      \"GAEB-Ausschreibungstexte\",\n      \"Batafsil ma'lumot...\"\n    ],",
+      "StartLine": 5002,
+      "EndLine": 5014,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "    \"rings\": {\n      \"center\": \"K-Aqua Bosh ofisi\",\n      \"ring1\": \"Yevropa Distribyutorlari\",\n      \"ring2\": \"Global Hamkorlar\",\n      \"ring3\": \"Xalqaro Loyihalar\"\n    ,\n    \"0\": {\n          \"l\": \"Kernmarke\",\n          \"t\": \"Batafsil ma'lumot...\",\n          \"d\": \"Batafsil ma'lumot...\"\n        },\n        \"1\": {\n          \"l\": \"System\",\n          \"t\": \"Batafsil ma'lumot...\",\n          \"d\": \"Batafsil ma'lumot...\"\n        },\n        \"2\": {\n          \"l\": \"Service\",\n          \"t\": \"Gemeinsames Ökosystem\",\n          \"d\": \"Batafsil ma'lumot...\"\n        }\n    },",
+      "ReplacementContent": "    \"rings\": [\n      {\n        \"l\": \"Kernmarke\",\n        \"t\": \"Batafsil ma'lumot...\",\n        \"d\": \"Batafsil ma'lumot...\"\n      },\n      {\n        \"l\": \"System\",\n        \"t\": \"Batafsil ma'lumot...\",\n        \"d\": \"Batafsil ma'lumot...\"\n      },\n      {\n        \"l\": \"Service\",\n        \"t\": \"Gemeinsames Ökosystem\",\n        \"d\": \"Batafsil ma'lumot...\"\n      }\n    ],",
+      "StartLine": 5034,
+      "EndLine": 5055,
+      "AllowMultiple": false
+    },
+    {
+      "TargetContent": "    \"cards\": {\n      \"1\": {\n        \"title\": \"Texnik yordam\",\n        \"desc\": \"Loyiha bosqichida va o'rnatish jarayonida doimiy maslahat.\"\n      ,\n      \"t\": \"Thermische Effizienz\",\n          \"d\": \"Batafsil ma'lumot...\"\n      },\n      \"2\": {\n        \"title\": \"Sertifikatlangan Sifat\",\n        \"desc\": \"Mahsulotlarimiz barcha xalqaro standartlarga javob beradi.\"\n      ,\n      \"t\": \"Hygienische Neutralität\",\n          \"d\": \"Batafsil ma'lumot...\"\n      },\n      \"3\": {\n        \"title\": \"Global Logistika\",\n        \"desc\": \"Dunyodagi istalgan nuqtaga tez va ishonchli yetkazib berish.\"\n      },\n      \"4\": {\n        \"title\": \"Innovatsiyalar\",\n        \"desc\": \"Tadqiqot va rivojlanish markazimiz eng so'nggi texnologiyalarni yaratadi.\"\n      }\n    ,\n    \"0\": {\n          \"t\": \"Batafsil ma'lumot...\",\n          \"d\": \"Batafsil ma'lumot...\"\n        }\n    }",
+      "ReplacementContent": "    \"cards\": [\n      {\n        \"t\": \"Batafsil ma'lumot...\",\n        \"d\": \"Batafsil ma'lumot...\"\n      },\n      {\n        \"title\": \"Texnik yordam\",\n        \"desc\": \"Loyiha bosqichida va o'rnatish jarayonida doimiy maslahat.\",\n        \"t\": \"Thermische Effizienz\",\n        \"d\": \"Batafsil ma'lumot...\"\n      },\n      {\n        \"title\": \"Sertifikatlangan Sifat\",\n        \"desc\": \"Mahsulotlarimiz barcha xalqaro standartlarga javob beradi.\",\n        \"t\": \"Hygienische Neutralität\",\n        \"d\": \"Batafsil ma'lumot...\"\n      },\n      {\n        \"title\": \"Global Logistika\",\n        \"desc\": \"Dunyodagi istalgan nuqtaga tez va ishonchli yetkazib berish.\"\n      },\n      {\n        \"title\": \"Innovatsiyalar\",\n        \"desc\": \"Tadqiqot va rivojlanish markazimiz eng so'nggi texnologiyalarni yaratadi.\"\n      }\n    ]",
+      "StartLine": 5058,
+      "EndLine": 5086,
+      "AllowMultiple": false
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+"welding-tool": {
+  "seo_p1": "Las Welding Tools (Herramientas de Soldadura) son los mandriles y enchufes calentadores recubiertos de teflón que se encargan de la fusión real del material PP-R.",
+  "seo_p2": "Fabricados a partir de aleaciones altamente conductoras del calor y provistos de una capa especial de PTFE antiadherente, garantizan una fusión molecular perfecta y sin residuos.",
+  "seo_p3": "Solo con herramientas de soldadura intactas y de alta calidad se puede lograr la homogeneidad de la conexión requerida por la norma DVS para una vida útil de 50 años.",
+  "faq": [
+    {
+      "q": "¿Cuándo se debe sustituir una herramienta de soldadura?",
+      "a": "En cuanto el recubrimiento de teflón se raye o se quemen restos de PP-R adheridos, es obligatorio cambiar la herramienta para evitar soldaduras defectuosas."
+    },
+    {
+      "q": "¿Por qué no debo raspar los restos de plástico con un cuchillo?",
+      "a": "Un cuchillo destruye inmediatamente el recubrimiento antiadherente microfino de PTFE. Utilice únicamente paños suaves sobre la herramienta aún caliente."
+    },
+    {
+      "q": "¿La herramienta de soldar de K Aqua sirve también para máquinas de otras marcas?",
+      "a": "El orificio de fijación se ajusta al estándar de la industria, por lo que nuestras herramientas encajan en casi todos los equipos de termofusión profesionales."
+    }
+  ]
+},
+"welding-machine-50125-complete-set": {
+  "seo_p1": "La Welding Machine 50-125 Complete Set (Máquina de Soldar de Mesa) ofrece precisión estacionaria para la prefabricación de grandes conjuntos de tuberías.",
+  "seo_p2": "Cuenta con mordazas de sujeción, un mecanismo de palanca para una unión que ahorra fuerza y un elemento calefactor controlado digitalmente para presiones y tiempos de unión absolutamente exactos.",
+  "seo_p3": "En la producción de talleres de distribuidores o conjuntos industriales complejos, esta máquina elimina el error humano y maximiza la velocidad de procesamiento.",
+  "faq": [
+    {
+      "q": "¿Qué ventaja ofrece la máquina estacionaria frente a la herramienta manual?",
+      "a": "El mecanismo de palanca permite insertar tubos grandes de forma exactamente lineal y sin ladeos, lo cual requeriría muchísima fuerza si se hiciera a mano."
+    },
+    {
+      "q": "¿Se pueden soldar también tubos pequeños con ella?",
+      "a": "Técnicamente sí, sin embargo la máquina está diseñada específicamente para las altas fuerzas de unión en las dimensiones de 50 mm a 125 mm."
+    },
+    {
+      "q": "¿Cómo se fija el tubo?",
+      "a": "Unas mordazas universales con diferentes insertos sujetan el tubo de forma suave pero totalmente firme, garantizando un movimiento axial potente."
+    }
+  ]
+},
+"butt-welding-machine-90250": {
+  "seo_p1": "La Butt Welding Machine 90-250 (Máquina de Soldadura a Tope) es el sistema de alta gama para uniones tubo a tubo sin bridas de gran formato.",
+  "seo_p2": "Una unidad de prensado hidráulico, un espejo de calentamiento controlado por CNC y un cepillo preciso para tubos garantizan un cordón de soldadura totalmente automatizado y registrable al más alto nivel.",
+  "seo_p3": "Para redes principales de agua municipales o sistemas de refrigeración industrial a partir de 90 mm, este dispositivo es esencial para realizar soldaduras a tope certificadas.",
+  "faq": [
+    {
+      "q": "¿Cuál es la diferencia entre la soldadura a enchufe (termofusión) y la soldadura a tope?",
+      "a": "En la soldadura a tope, los extremos de los tubos se fresan de forma plana y se funden directamente entre sí a tope, sin accesorios (manguitos) adicionales."
+    },
+    {
+      "q": "¿Se guardan los datos de soldadura para el control de calidad?",
+      "a": "Sí, el control CNC integrado registra la temperatura, la presión y el tiempo de cada soldadura individual para su posterior evaluación."
+    },
+    {
+      "q": "¿Por qué lleva incorporada una refrentadora (cepillo)?",
+      "a": "La refrentadora fresa ambos extremos del tubo dejándolos absolutamente paralelos y libres de oxidación antes de soldar, algo imprescindible para lograr una unión molecular duradera."
+    }
+  ]
+},
+"electrofusion-machine": {
+  "seo_p1": "La Electrofusion Machine (Máquina de Electrosoldadura) controla el proceso de soldadura totalmente automático de los manguitos mediante calentamiento por resistencia eléctrica.",
+  "seo_p2": "El microprocesador inteligente lee el código de barras del accesorio a través de un escáner y calcula automáticamente el voltaje exacto y el tiempo de soldadura en función de la temperatura ambiente.",
+  "seo_p3": "Esencial para reparaciones en pozos extremadamente estrechos, conexiones posteriores o tendido subterráneo, donde la soldadura clásica a encaje resulta imposible por falta de espacio.",
+  "faq": [
+    {
+      "q": "¿Cómo lee la máquina los parámetros de soldadura?",
+      "a": "Cada accesorio electrosoldable dispone de un código de barras que el usuario lee con el escáner conectado; la máquina se configura de forma totalmente automática."
+    },
+    {
+      "q": "¿Compensa la máquina las variaciones de temperatura en la obra?",
+      "a": "Sí, un sensor ambiental mide la temperatura y ajusta automáticamente el tiempo de soldadura (más largo en invierno, más corto en verano)."
+    },
+    {
+      "q": "¿Hay que raspar el tubo antes de la electrosoldadura?",
+      "a": "¡Obligatoriamente! La capa de óxido del tubo PP-R debe eliminarse mecánicamente en la zona de soldadura usando un raspador especial."
+    }
+  ]
+},
+"welding-tool-for-weld-in-saddles": {
+  "seo_p1": "La Welding Tool for Weld-in Saddles (Herramienta de Soldadura para Silletas) está diseñada específicamente para montar silletas en tuberías de PP-R existentes.",
+  "seo_p2": "Consta de un mandril calefactor cóncavo para la pared de la tubería y un casquillo calefactor convexo para la silleta, ambos recubiertos de teflón de alta calidad.",
+  "seo_p3": "Calienta exactamente la superficie requerida en el tubo base para fusionar la silleta de forma homogénea e inseparable al sistema de tuberías.",
+  "faq": [
+    {
+      "q": "¿Por qué tiene la herramienta un lado cóncavo y otro convexo?",
+      "a": "El lado cóncavo (arqueado hacia adentro) calienta el exterior redondo del tubo, mientras que el lado convexo lleva exactamente a la temperatura de fusión el injerto en forma de silleta."
+    },
+    {
+      "q": "¿Sirve una herramienta para todos los tubos?",
+      "a": "No, se necesita una herramienta de soldar silletas que encaje exactamente para cada combinación de tubo principal y ramal (p. ej. 63 mm a 20 mm)."
+    },
+    {
+      "q": "¿Cómo se monta la herramienta en la máquina de soldar?",
+      "a": "Se atornilla directamente a la placa calefactora del equipo de termofusión manual de K Aqua usando un tornillo Allen, al igual que una matriz normal."
+    }
+  ]
+},
+"ANCHOR_ITEMS": "ANCHOR"

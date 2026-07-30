@@ -1,0 +1,526 @@
+{
+  "resources": {
+    "support": {
+      "title": "Texnik qo'llab-quvvatlash",
+      "metaDesc": "K-Aqua kompaniyasining texnik yordamidan foydalaning. Biz sizning yirik loyihalaringizni Germaniya muhandisligi, gidravlik hisob-kitoblar va joyida payvandlashni nazorat qilish bilan qo'llab-quvvatlaymiz.",
+      "seoText": {
+        "p1": "K Aqua texnik yordami bizning global infratuzilma loyihalarimizning tayanchidir. Biz sanoat quvurlari tizimlari va PP-R yuqori samarali quvurlarni o'rnatishda har bir soniya muhimligini bilamiz. Bizning suyuqlik texnologiyasi va polimer tizimlari bo'yicha mutaxassislar guruhimiz xalqaro bosh pudratchilar, me'morlar va muhandis-quruvchilarni har qadamda qo'llab-quvvatlaydi.",
+        "p2": "Dastlabki rejalashtirish va izometrik hisob-kitoblardan tortib, bosim yo'qotilishini hisoblash va joyida payvandlash jarayonlarini nazorat qilishgacha: biz xatosiz amalga oshirishni kafolatlaymiz. Bizning Polypropylene Random Copolymer (PP-R) tizimlarimiz eng yuqori hunarmandchilik aniqligini talab qiladi. Shuning uchun Akademiya doimiy ravishda o'qitishni taklif qiladi, shu bilan birga texnik yordam murakkab termal kengayish yoki maxsus oqim bosimi talablari paydo bo'lganda aralashadi.",
+        "p3": "Eng zamonaviy diagnostika vositalari va prognozli texnik xizmat ko'rsatish algoritmlaridan foydalanib, biz to'xtab qolish vaqtini minimal darajaga tushiramiz. Cho'l hududlaridagi sovuq suv tizimlari bo'ladimi, o'ta toza sanoat korxonalari yoki arktika zonalaridagi isitish tarmoqlari bo'ladimi: K Aqua qo'llab-quvvatlash infratuzilmasi investitsiyangizning uzluksiz ishlashini va murosasiz chidamliligini ta'minlaydi."
+      },
+      "sticky": {
+        "items": [
+          {
+            "title": "Tizimni prognozli kuzatish",
+            "desc": "Bizning algoritmlarimiz infratuzilmadagi anomaliyalarni doimiy ravishda tahlil qiladi. Kritik holatga kelishidan oldin bizning 3-darajali (Level-3) jamoamiz aralashadi. Kechikishlarga toqat yo'q. Muvaffaqiyatsizlikka toqat yo'q. Biz xato yuzaga kelishidan oldin harakat qilamiz."
+          },
+          {
+            "title": "Harbiy javob vaqtlari",
+            "desc": "SLA biz uchun shunchaki ko'rsatma emas, balki jismoniy qonundir. Kritik hodisalar yuz berganda biz millisekundlarda dastlabki javobni va zudlik bilan maxsus katta muhandislarga ekskalatsiyani kafolatlaymiz. Kutish navbatlari yo'q, faqat darhol ijro etish."
+          },
+          {
+            "title": "Arxitektura auditlari",
+            "desc": "Sizning tizimlaringiz Germaniya muhandisligining eng qat'iy standartlariga muvofiq sinovdan o'tkaziladi. Masshtablilik, zaxira tizimi va ishonchlilik qat'iy stress testlari orqali tekshiriladi. Zaif tomonlar boshqarilmaydi, ular bartaraf etiladi."
+          },
+          {
+            "title": "To'g'ridan-to'g'ri dasturchilarga kirish",
+            "desc": "An'anaviy yordamni unuting. Murakkab tizim integratsiyalarida siz to'g'ridan-to'g'ri bizning asosiy dasturchilarimiz (muhandislarimiz) bilan bog'lanasiz. Birinchi darajali filtrlar yo'q, aksincha muammolarni manbada darhol hal qilish uchun sof, filtrlanmagan texnik tajriba."
+          }
+        ],
+        "eyebrow": "Eskalatsiya protokollari",
+        "title": "Inqirozda suverenitet",
+        "lead": "Ekstremal yuklamalar sharoitida tizim butunligini qanday saqlaymiz."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "T-0:00",
+            "title": "Anomaliyani aniqlash",
+            "text": "Avtomatlashtirilgan tizimlar ma'lumotlar oqimidagi mikro-og'ishlarni ko'rinadigan nosozlikdan ancha oldin aniqlaydi."
+          },
+          {
+            "year": "T+0:02",
+            "title": "Diagnostik saralash (Triage)",
+            "text": "Sun'iy intellektga asoslangan jurnallarni tahlil qilish (Log-Analyse) xato vektorini ajratib ko'rsatadi. Aynan mos keladigan mutaxassislar guruhiga tayinlash."
+          },
+          {
+            "year": "T+0:15",
+            "title": "Aralashuv (Intervention)",
+            "text": "Shoshilinch tuzatishlarni (Hotfixes) kiritish yoki trafikni yuqori ishonchlilikdagi zaxira tugunlarga avtomatik yo'naltirish."
+          },
+          {
+            "year": "T+1:00",
+            "title": "Asosiy sababni tahlil qilish",
+            "text": "Hodisani sud-tibbiy tekshiruvi. Doimiy profilaktika uchun yadro arxitekturasini o'zgartirish."
+          },
+          {
+            "year": "T+4:00",
+            "title": "Post-Mortem protokoli",
+            "text": "Mutlaq shaffoflik va audit xavfsizligi uchun kriptografik imzo bilan batafsil texnik hisobot."
+          }
+        ],
+        "title": "Favqulodda holat: Aralashuv xronikasi",
+        "desc": "Har bir soniya muhim. Kritik tizim anomaliyasi holatida bizning standartlashtirilgan jarayonimiz. Sovuqqonlik bilan hisoblangan. Shafqatsizlarcha ijro etilgan."
+      },
+      "hero": {
+        "eyebrow": "Texnik yordam",
+        "title1": "O'ylaydigan",
+        "title2": "yordam.",
+        "desc": "Quvurlarni loyihalashtirishdan tortib to ob'ektni qabul qilishgacha: Bizning texnik yordamimiz rejalashtiruvchilar va o'rnatuvchilarga tizimni ishlab chiqqan muhandislar bilan to'g'ridan-to'g'ri aloqada bo'lgan holda, PP-R loyihasining har bir bosqichida hamrohlik qiladi. Rejalashtirishdan ishga tushirishgacha o'ylaydigan yordam.",
+        "btnPrimary": "Loyiha so'rovini yuborish",
+        "btnGhost": "Xizmatlarni ko'rish"
+      },
+      "intro": {
+        "title1": "Yordam markazi bu qo'ng'iroqlar markazi emas.",
+        "title2": "Bu muhandislar jamoasi.",
+        "p1": "Biz texnik yordamni quyi xizmat sifatida emas, balki har bir loyihaning ajralmas qismi sifatida ko'ramiz. Agar qurilish maydonchasida payvand choki aniq bo'lmasa yoki bosim sinovi kutilgandek bo'lmasa, har bir soat muhim ahamiyatga ega.",
+        "p2": "Muhandislarimiz har bir partiya, har bir standart va tizimlarimizni qayta ishlash bo'yicha ko'rsatmalarni bevosita bilishadi. Ular izometriyani tekshiradilar, bosim yo'qotishlarini hisoblab chiqadilar va ishga tushirish jarayonida bevosita quvurlar oldida turadilar.",
+        "p3": "Bu Germaniya muhandisligining standartidir – u serverlarga emas, balki haqiqiy qurilish maydonchalariga tatbiq etilgan."
+      },
+      "bento": {
+        "eyebrow": "Xizmatlar xulosasi",
+        "title": "Butun loyiha davomida yordam",
+        "lead": "Dastlabki rejalashtirishdan doimiy texnik xizmat ko'rsatishgacha: jamoamiz sizning PP-R tizimingizga har bir bosqichda hamrohlik qiladi.",
+        "items": [
+          {
+            "title": "Gidravlik dizayn va izometriya",
+            "desc": "Biz sizning rejalashtirish hujjatlaringizni tekshiramiz, bosimning yo'qolishi va o'lchamlarini qayta hisoblaymiz hamda qurilish boshlanishidan oldin ishonchli materiallar ro'yxatini taqdim etamiz."
+          },
+          {
+            "title": "Payvandlash bo'yicha texnik yordam",
+            "desc": "Texniklarimiz joyida mufta (Muffen) va isitish batareyasi (Heizwendel) payvandlash jarayonlariga hamrohlik qiladi, jarayon parametrlarini nazorat qiladi va so'rov bo'yicha o'rnatish guruhini to'g'ridan-to'g'ri qurilish maydonchasida o'qitadi."
+          },
+          {
+            "title": "Bosim sinovi va qabul qilish",
+            "desc": "Biz DIN 1988 ga muvofiq bosim sinovini o'tkazish va hujjatlashtirishda yordam beramiz va bino qurilishini qabul qilish uchun zarur bo'lgan sinov protokollarini taqdim etamiz."
+          },
+          {
+            "title": "Ehtiyot qismlar va aksessuarlar xizmati",
+            "desc": "Fittinglar, armaturalar va original aksessuarlarni tezkor yetkazib berish, hatto mavjud tizimlar va eski K-Aqua partiyalari uchun ham."
+          },
+          {
+            "title": "Masofaviy diagnostika va joyida aralashuv",
+            "desc": "Qayta ishlash yoki tushunarsiz sinov natijalari bo'yicha hal qilinmagan savollar tug'ilganda, texnik yordam xizmatimiz tezda qayta qo'ng'iroq qiladi, kerak bo'lsa, mutaxassisni joyiga yuboradi."
+          }
+        ]
+      },
+      "metrics": {
+        "badge": "Raqamlarda ishonchlilik",
+        "title1": "Tasdiqlangan",
+        "title2": "ishonchlilik.",
+        "p1": "Biz Germaniya muhandislik tamoyillari bo'yicha ishlaymiz: biz yetkazib beradigan narsa har qanday qurilish sharoitlariga bardosh berishi kerak.",
+        "p2": "Har bir K-Aqua tizimi DVGW, SKZ va KIWA bo'yicha sertifikatlangan. Har bir partiya kuzatilishi mumkin, har bir payvand choki hujjatlashtirilishi mumkin.",
+        "items": [
+          "Texnik so'rovlarga bir ish kuni ichida javob beriladi",
+          "To'g'ri o'rnatilganda hujjatlashtirilgan 50 yildan ortiq tizim muddati",
+          "Kutishlarsiz texnik savdo bo'limi bilan to'g'ridan-to'g'ri aloqa",
+          "K-Aqua Akademiyasi orqali o'qitish va sertifikatlash"
+        ]
+      },
+      "cta": {
+        "title1": "Keyingi",
+        "title2": "loyihangizga",
+        "title3": "tayyormisiz?",
+        "desc": "Loyihangiz PP-R tizimlarini nafaqat sotadigan, balki ularni ishlab chiqadigan va ishlab chiqaradigan muhandislar tomonidan boshqarilishiga ruxsat bering.",
+        "btnPrimary": "So'rovni boshlash",
+        "btnGhost": "Mutaxassislar bilan bog'lanish"
+      },
+      "metaTitle": "PP-R quvur tizimlari uchun texnik yordam va xizmat"
+    },
+    "downloads": {
+      "title": "Yuklanmalar",
+      "metaDesc": "K Aqua Yuklanmalari: Global yirik loyihalar uchun Germaniya muhandisligi orqali murosasiz xavfsizlik. Broshyuralar va ma'lumotlar varaqlarini hozir yuklab oling.",
+      "cta": {
+        "title": "Siz ko'r-ko'rona ishonishingiz mumkin bo'lgan sifat.",
+        "desc": "Rasmiy sertifikatlarimizni yuklab oling yoki keyingi yirik loyihangizning spetsifikatsiyalari haqida to'g'ridan-to'g'ri muhandislik guruhimiz bilan gaplashing.",
+        "btn": "Loyihani baholash"
+      },
+      "meta": {
+        "title": "Yuklanmalar | K Aqua",
+        "desc": "K Aqua Yuklanmalari: Global yirik loyihalar uchun Germaniya muhandisligi orqali murosasiz xavfsizlik. Broshyuralar va ma'lumotlar varaqlarini hozir yuklab oling."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Resurslari",
+        "title1": "Yuklanmalar.",
+        "title2": "Engineered in Germany.",
+        "desc": "Ushbu modul butun dunyo bo'ylab eng talabgor loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlarga xizmat qilish uchun eng qat'iy sanoat standartlariga muvofiq ishlab chiqarilgan. Materialning ishdan chiqishi mumkin bo'lmagan joyda, bizning spetsifikatsiyalarimiz boshlanadi.",
+        "cta1": "Loyihani so'rash",
+        "cta2": "Hujjatlarga o'tish"
+      },
+      "timeline": {
+        "title": "Aniqlik evolyutsiyasi.",
+        "desc": "30 yildan beri quvur tizimlari standartlarini qanday qayta belgilab kelmoqdamiz.",
+        "items": [
+          {
+            "year": "1995",
+            "title": "Birinchi texnik hujjat",
+            "text": "Plastik quvurlar ekstruziyasi sohasida kashshof sifatida biz Germaniyada PP-R quvur tizimlari uchun birinchi standartlarni belgilab berdik. Bizning spetsifikatsiyalarimiz sanoatning rejasiga aylandi."
+          },
+          {
+            "year": "2008",
+            "title": "ISO sinovi va Global standartlar",
+            "text": "Xalqaro kengayish bilan bizning texnik ma'lumotlar varaqlarimiz global standartlarga moslashtirildi, har doim shu shart bilan: Germaniya standarti mutlaq asosdir, hech qanday istisnosiz."
+          },
+          {
+            "year": "2015",
+            "title": "BIM va Raqamli egizaklar",
+            "text": "Yuqori aniqlikdagi Building Information Modeling (BIM) ma'lumotlarini joriy etish. Milliardlik loyihalar endi K Aqua tizimlari bilan haqiqiy poydevor qo'yilishidan oldin virtual tarzda rejalashtirilmoqda."
+          },
+          {
+            "year": "2026",
+            "title": "Haqiqiy vaqt ma'lumotlari va Prognozli tahlil",
+            "text": "Bizning bugungi kataloglarimiz va texnik varaqlarimiz global o'rnatishlardan olingan haqiqiy vaqt ishlash parametrlarini o'z ichiga olgan dinamik ma'lumotlar modellaridir. Raqamli asrda Germaniya muhandisligi."
+          }
+        ]
+      },
+      "sticky": {
+        "eyebrow": "Chuqur tushunchalar",
+        "title": "Germaniya muhandisligining DNKsi.",
+        "lead": "K Aqua ma'lumotlar varag'i shunchaki raqamlar ustunidan ko'proq. Bu o'rnatilgan har bir qism aynan muhandislar hisoblaganidek ishlashiga va'dadir.",
+        "items": [
+          {
+            "title": "Bizning spetsifikatsiyalarimiz anatomiyasi",
+            "desc": "K Aqua ma'lumotlar varag'i shunchaki qog'oz emas. Bu minglab soatlik qattiq yuklanish sinovlarining ajratib olingan natijasidir. Biz mikrometr diapazonidagi tolerantliklarni hujjatlashtiramiz, chunki yirik loyihalarda bir millimetr og'ish halokatli oqibatlarga olib kelishi mumkin."
+          },
+          {
+            "title": "Materialshunoslik: PPRCT raqamlarda",
+            "desc": "Bizning yuklanmalarimiz chuqur molekulyar tahlillarni taqdim etadi. Siz bizning PPRCT materialimizning kristalli tuzilishi nima uchun 90°C doimiy yuklanishda 50 yildan ortiq barqaror qolishini aniq bilib olasiz. Qurilish muhandislari va arxitektorlarga mutlaq xavfsizlikni ta'minlaydigan ma'lumotlar."
+          },
+          {
+            "title": "Gidravlik aniqlik",
+            "desc": "Oqim tezligi, bosim yo'qolishi jadvallari, kavitatsiya chegaralari. Bizning hujjatlarimiz amalda darhol foydalanish uchun tayyorlangan akademik darajadagi suyuqliklar mexanikasini taklif etadi. Suv ekstremal tortishish kuchiga qarshi tashilishi kerak bo'lgan baland binolar uchun mo'ljallangan."
+          },
+          {
+            "title": "Butun dunyo bo'ylab sinovdan o'tgan.",
+            "desc": "SKZ, DVGW, WRAS, KIWA: bizning yuklab olish bo'limimiz global sifat muhrlarining omboridir. Har bir sertifikat bizning murosasiz Nol Xato siyosatimizning yozma dalilidir."
+          }
+        ]
+      },
+      "bento": {
+        "eyebrow": "Ma'lumotlar bazasi",
+        "title": "Murosasiz spetsifikatsiyalar.",
+        "lead": "Xalqaro bosh pudratchilar milliardlik loyihalarni rejalashtirganda, ular va'dalarga emas, balki qat'iy faktlarga ishonadilar. Bu erda siz bizning bozor etakchiligimizni belgilaydigan texnik parametrlarni topasiz.",
+        "items": [
+          {
+            "title": "Texnik ma'lumotlar varaqlari",
+            "desc": "Mikrometr darajasidagi aniq o'lchamlar, bosim yo'qotish jadvallari va termal kengayish koeffitsientlari. Har bir rejalashtiruvchining İnjili."
+          },
+          {
+            "title": "Sertifikatlar va Standartlar",
+            "desc": "Nol xato bag'rikengligimizning yozma dalili. ISO, DVGW, SKZ va boshqalarga muvofiq hujjatlashtirilgan xavfsizlik."
+          },
+          {
+            "title": "BIM va CAD modellari",
+            "desc": "Revit va ArchiCAD ga uzluksiz integratsiya qilish uchun quvur tizimlarimizning yuqori aniqlikdagi raqamli egizaklari."
+          },
+          {
+            "title": "Mahsulotlar katalogi 2026",
+            "desc": "Butun K Aqua portfeli 500 dan ortiq sahifalarda. 20 mm quvurdan 500 mm sanoat klapanigacha, to'liq hujjatlashtirilgan."
+          }
+        ]
+      },
+      "methodology": {
+        "subtitle": "K Aqua metodologiyasi",
+        "title": "Nima uchun bizning ma'lumotlarimiz daxlsiz.",
+        "p1": "Qurilish sanoatida xatolar ko'pincha qurib bitkazilgandan yillar o'tib ko'rinadi. Agar 50 qavatli osmono'par binoning devorlarida quvur tizimi ishdan chiqsa, etkazilgan zarar millionlarni tashkil etadi.",
+        "p2": "Aynan shuning uchun biz tizimlarimizni ekstremal qarish sinovlaridan o'tkazamiz. Biz yuqori bosimli laboratoriyalarimizda 50 yillik doimiy yuklanishni simulyatsiya qilamiz. Natijalar to'g'ridan-to'g'ri texnik hujjatlarimizga kiritiladi.",
+        "card1": {
+          "title": "99.9%",
+          "desc": "Har bir partiyada hujjatlashtirilgan ekstruziyadagi o'lchov barqarorligi."
+        },
+        "card2": {
+          "title": "0 Xato",
+          "desc": "Bizning xalqaro sinov sertifikatlarimizdagi tolerantlik."
+        }
+      },
+      "files": {
+        "eyebrow": "To'g'ridan-to'g'ri kirish",
+        "title": "Muhim yuklanmalar.",
+        "lead": "Eng muhim spetsifikatsiyalarni to'g'ridan-to'g'ri yuklab oling.",
+        "items": [
+          {
+            "title": "Asosiy katalog 2026",
+            "type": "PDF, 42 MB"
+          },
+          {
+            "title": "Texnik spetsifikatsiyalar PPRCT",
+            "type": "PDF, 12 MB"
+          },
+          {
+            "title": "Bosim yo'qotish jadvallari",
+            "type": "XLSX, 2 MB"
+          },
+          {
+            "title": "BIM/Revit kutubxonasi",
+            "type": "ZIP, 850 MB"
+          },
+          {
+            "title": "SKZ sertifikati (GER)",
+            "type": "PDF, 1 MB"
+          },
+          {
+            "title": "DVGW Ichimlik suvi ruxsatnomasi",
+            "type": "PDF, 1.5 MB"
+          }
+        ]
+      }
+    },
+    "bim": {
+      "title": "BIM-Ma'lumotlari",
+      "metaDesc": "K Aqua BIM ma'lumotlari: Global yirik loyihalar uchun Germaniya muhandisligi orqali murosasiz xavfsizlik. BIM ma'lumotlar bazamizga kiring.",
+      "sticky": {
+        "items": [
+          {
+            "title": "Maksimal ma'lumot chuqurligi (LOI 500)",
+            "desc": "Bizning BIM modellarimiz nafaqat yuqori aniqlikdagi geometrik tasvirni (LOD), balki birinchi navbatda mislsiz axborot chuqurligini (LOI) taqdim etadi. Har bir quvur, har bir fitting va har bir klapanda barcha muhim metama'lumotlar mavjud: material spetsifikatsiyalari, bosim ko'rsatkichlari, termal kengayish koeffitsientlari va avtomatlashtirilgan tender uchun aniq maqola raqamlari."
+          },
+          {
+            "title": "To'qnashuvsiz rejalashtirish",
+            "desc": "Milliard dollarlik loyihalarda to'qnashuvlarni aniqlash (Clash-Detection) bahslashib bo'lmaydigan qoidadir. Bizning mahalliy Revit va IFC fayllarimiz Navisworks yoki Solibri ga uzluksiz integratsiyani kafolatlaydi. Payvand chokining tolerantliklarini o'z ichiga olgan aniq tashqi diametrlar qurilish maydonchasida qimmatbaho kutilmagan hodisalarning oldini oladi."
+          },
+          {
+            "title": "Parametrik intellekt",
+            "desc": "K Aqua BIM oilalari to'liq parametrikdir. Ular quvurlarni yotqizish, qiyaliklar va o'lchamlarga dinamik ravishda moslashadi. O'rnatilgan avtomatik marshrutlash DIN EN ISO 15874 qat'iy xususiyatlariga muvofiq to'g'ri pasayish va egilish burchaklarini avtomatik ravishda tanlaydi."
+          },
+          {
+            "title": "Hayot aylanishi va ob'ektlarni boshqarish (Lifecycle & Facility Management)",
+            "desc": "Raqamli egizak binoni topshirish bilan tugamaydi. Bizning BIM ob'ektlarimiz COBie bilan mos keladi va 50 yildan ortiq xavfsiz hayot aylanishi uchun zarur bo'lgan barcha texnik xizmat ko'rsatish oraliqlari, sertifikatlar va operatsion ma'lumotlar bilan ob'ektlarni boshqarishni ta'minlaydi."
+          }
+        ],
+        "eyebrow": "A'lo ish jarayoni (Workflow Excellence)",
+        "title": "Raqamli egizaklar mukammallikda.",
+        "lead": "Rejalashtirish va haqiqat o'rtasidagi farqni yo'q qiladigan ma'lumotlar chuqurligi haqida tushuncha."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Bosqich 1",
+            "title": "Kontseptsiya va TGA rejalashtirish",
+            "text": "K Aqua asosiy geometriyalarini dastlabki dizaynga integratsiya qilish. TGA bosh rejasidagi marshrut konsepsiyasi uchun ommaviy hajmni tezda aniqlash va dastlabki to'qnashuvlarni tekshirish."
+          },
+          {
+            "year": "Bosqich 2",
+            "title": "Batafsil rejalashtirish",
+            "text": "LOI 400 ga o'tish. Aniq spetsifikatsiyalar, oqim tezligi va bosim yo'qolishi hisob-kitoblari to'g'ridan-to'g'ri binoning gidravlik tarmoq hisob-kitobiga kiritiladi."
+          },
+          {
+            "year": "Bosqich 3",
+            "title": "Tender va Pudrat",
+            "text": "To'g'ridan-to'g'ri modeldan xatosiz Materiallar Ro'yxatini (BOM) avtomatlashtirilgan yaratish. Har bir fittingda K Aqua buyum raqami va VDI 3805 ma'lumotlari saqlanadi."
+          },
+          {
+            "year": "Bosqich 4",
+            "title": "Oldindan yig'ish va O'rnatish",
+            "text": "Sanoat prefabrikatsiyasi uchun izometrik chizmalarni eksport qilish. Millimetr aniqlikdagi chizmalar qurilish maydonchasida payvandlash ishlarini minimal darajaga tushiradi."
+          },
+          {
+            "year": "Bosqich 5",
+            "title": "As-Built va Foydalanish",
+            "text": "As-Built modelini topshirish. Raqamli egizak binoning butun xizmat muddati davomida Ob'ektni boshqarish uchun yagona haqiqat manbai (Single Source of Truth) bo'lib xizmat qiladi."
+          }
+        ],
+        "title": "K Aqua BIM ma'lumotlarining hayot aylanishi",
+        "desc": "Dastlabki eskizdan tortib o'nlab yillar davomida ishlashgacha. Bizning ma'lumotlarimiz har bir bosqichda loyihangizga hamroh bo'ladi."
+      },
+      "hero": {
+        "desc": "Ushbu modul butun dunyo bo'ylab eng talabgor loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlarga xizmat qilish uchun eng qat'iy sanoat standartlariga muvofiq ishlab chiqarilgan. Materiallar nosozligi variant bo'lmagan joyda raqamli egizakni yuklab oling.",
+        "btnPrimary": "BIM kutubxonasi (Revit/IFC)",
+        "btnGhost": "BIM konsaltingini so'rash"
+      },
+      "intro": {
+        "title1": "Bizning quvur tizimlarimiz DNKsi.",
+        "title2": "Endi bulutda.",
+        "p1": "Biz BIM ni shunchaki 3D chizma deb bilmaymiz. K Aqua uchun Building Information Modeling bu ishlab chiqarishdagi murosasiz aniqligimizni raqamli makonga o'tkazishdir. Xalqaro bosh pudratchilar osmono'par binolar, ma'lumotlar markazlari yoki yuqori xavfsizlik darajasidagi laboratoriyalarni rejalashtirayotganda, ular taxminiy qiymatlarga emas, balki ma'lumotlar ko'rinishidagi jismoniy haqiqatga muhtoj.",
+        "p2": "Bizning ma'lumotlar to'plamimiz o'n yillik Germaniya muhandisligining natijasidir. Har bir devor qalinligi, har bir oqim dinamikasi va har bir issiqlik xususiyati muhandislarimiz tomonidan tasdiqlangan va tabiiy ravishda ob'ektlarga (oilalarga) kiritilgan."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Native Revit® oilalari",
+            "desc": "Konversiya yo'qotishlari yo'q. Eng yuqori ishlash va mahalliy marshrutlash afzalliklari uchun to'g'ridan-to'g'ri .rfa va .rvt sifatida dasturlashtirilgan."
+          },
+          {
+            "title": "VDI 3805 muvofiqligi",
+            "desc": "Butun TGA zanjirida ma'lumotlarning silliq almashinuvi uchun standartlashtirilgan mahsulot ma'lumotlari."
+          },
+          {
+            "title": "IFC4 sinovi",
+            "desc": "Ochiq BIM standartlari (OpenBIM) orqali maksimal o'zaro ishlash. ArchiCAD, Allplan va Vectorworks da mutlaqo o'qilishiga kafolat."
+          },
+          {
+            "title": "Aniq issiqlik ma'lumotlari",
+            "desc": "Chiziqli kengayish, issiqlik o'tkazuvchanligi (0,24 Vt/mK) va quvur ishqalanishi bosimining pasayishi uchun integral hisoblash modellari."
+          }
+        ]
+      },
+      "cta": {
+        "title": "K Aqua BIM paketini yuklab oling.",
+        "desc": "Barcha asosiy Revit oilalari, IFC fayllari va VDI 3805 ma'lumotlar to'plamlariga to'liq kirish. Rejalashtiruvchilar va muhandislar uchun bepul.",
+        "btnPrimary": "Yuklab olish markaziga",
+        "btnOutline": "BIM menejeriga murojaat qiling"
+      }
+    },
+    "common": {
+      "eyebrow": "K Aqua RESOURCE",
+      "subtitle": "Engineered in Germany.",
+      "lead": "Ushbu modul butun dunyo bo'ylab eng talabgor loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlarga xizmat qilish uchun eng qat'iy sanoat standartlariga muvofiq ishlab chiqarilgan. Materiallar nosozligi variant bo'lmagan joyda.",
+      "btnProject": "Loyihani so'rash",
+      "btnData": "Texnik ma'lumotlar",
+      "valEyebrow": "Germaniya muhandisligi",
+      "valTitle": "Murosasiz xavfsizlik.",
+      "valLead": "Xalqaro bosh pudratchilar milliardlik loyihalarni rejalashtirganda, ular va'dalarga emas, balki qat'iy faktlarga ishonadilar.",
+      "valCardTitle": "Foyda va'dasi 0{item}",
+      "valCardDesc": "Har bir element bizning zavodimizdan mutlaq nol xato bardoshlik bilan chiqib ketadi. 100% texnik xizmat ko'rsatmaslik uchun eng qat'iy nemis standartlariga muvofiq aniq ishlab chiqarilgan.",
+      "authTitle": "{module} uchun sanoat vakolati.",
+      "authP1": "O'nlab yillar davomida biz Germaniyaning qoq markazida joylashgan bosh zavodimizda hunarmandchilik g'ururini eng zamonaviy, yuqori avtomatlashtirilgan ishlab chiqarish texnologiyasi bilan birlashtirib kelmoqdamiz.",
+      "authP2": "Dunyodagi eng qattiq cho'llar va eng ekstremal iqlim zonalarida ishlatilib, bizning materialimiz har kuni o'zini isbotlaydi. Biz dunyoning qolgan qismi ergashadigan standartni o'rnatamiz.",
+      "list1": "DIN EN ISO 15874 ga muvofiq sinovdan o'tgan",
+      "list2": "Xizmat muddati > 50 yil",
+      "list3": "Texnik xizmat ko'rsatmaydi va korroziyaga chidamli",
+      "placeholder": "Vizual aktivning joylashuvi (Visual Asset Placeholder)",
+      "ctaTitle": "Murosasiz sifatga tayyormisiz?",
+      "ctaLead": "Sizning keyingi yirik loyihangiz haqida bizning muhandislik guruhimiz bilan gaplashing."
+    },
+    "ausschreibungstexte": {
+      "meta": {
+        "title": "PP-R quvurlari tizimlari uchun rasmiy tender matnlari",
+        "desc": "Batafsil K-Aqua tender matnlarini yuklab oling. Biz global yirik loyihalaringiz uchun Germaniya muhandisligi orqali murosasiz xavfsizlikni taklif etamiz."
+      },
+      "timeline": {
+        "items": [
+          {
+            "year": "Bosqich 1: Parametrlash",
+            "title": "Mukammallik ta'rifi.",
+            "text": "Jarayon TGA rejalashtirishda boshlanadi. Issiq va sovuq suv uchun nominal diametrlar, bosim sinflari (PN) va SDR sinflarining aniq ta'rifi. Biz hech qanday kulrang zonalarni qoldirmaymiz. Har bir fitting, har bir qisqich, har bir mufta matematik aniqlik bilan qayd etiladi."
+          },
+          {
+            "year": "Bosqich 2: Pudrat",
+            "title": "Murosasiz taqdimot.",
+            "text": "Matnlarimizning donador, ko'zgudek tiniq tuzilishi orqali takliflar haqiqatan ham taqqoslanadigan bo'ladi. Sifatsiz materiallar yoki yashirin tushirib qoldirishlar orqali amalga oshiriladigan demping narxlari darhol seziladi. Bug'doy somondan ajraladi."
+          },
+          {
+            "year": "Bosqich 3: Ijro",
+            "title": "Qurilish maydonchasi uchun reja (Blueprint).",
+            "text": "Tender matnlari qurilishni boshqarish va o'rnatuvchilar uchun qonuniy majburiy bo'lgan hujjat bo'lib xizmat qiladi. Har bir payvand choki, har bir mahkamlash ko'rsatilgan DVS ko'rsatmalariga muvofiq bo'lishi kerak. Og'ishlarga yo'l qo'yilmaydi."
+          },
+          {
+            "year": "Bosqich 4: Hayot aylanishi",
+            "title": "50+ yil mutlaq texnik xizmat ko'rsatmaslik.",
+            "text": "Benuqson spetsifikatsiyaning natijasi o'nlab yillar davomida xatosiz tizimdir. Korroziya, qatlamlanish va kimyoviy buzilishlarga nisbatan maksimal chidamlilik. Germaniyada ishlab chiqilgan, avlodlar bo'ylab xavfsizlik."
+          }
+        ],
+        "title": "Tenderdan abadiyatgacha.",
+        "desc": "K Aqua tender matni shunchaki hujjat emas. Bu qurilgan haqiqatning manba kodi. U binoning birinchi eskizdan tortib o'nlab yillar foydalanishgacha bo'lgan butun hayot aylanishini belgilaydi, himoya qiladi va boshqaradi."
+      },
+      "hero": {
+        "eyebrow": "K Aqua Resurs Markazi",
+        "title1": "Tender matnlari.",
+        "title2": "Engineered in Germany.",
+        "desc": "Arxitektura fikrdan boshlanadi. Muhandislik spetsifikatsiyadan boshlanadi. Bizning K-Aqua tender matnlarimiz PP-R quvur tizimlari uchun murosasiz qonuniy asosdir. Millimetr aniqligida. VOB ga mos. Inkor etib bo'lmas.",
+        "cta1": "GAEB matnlarini yuklab olish",
+        "cta2": "Rejalashtirish bo'yicha maslahat so'rash"
+      },
+      "manifesto": {
+        "title1": "Noaniqlikning oxiri.",
+        "title2": "Mutlaq nazoratning boshlanishi.",
+        "p1": "Bino arxitekturasi va sanoat ob'ektlari qurilishida noaniq formulalar eng katta ekzistensial xavf hisoblanadi. Texnik shartlarda bitta noaniq so'z o'nlab yillar davomida texnik xizmat ko'rsatmaydigan tizim va 50 qavatli osmono'par binodagi halokatli suv shikastlanishi o'rtasidagi farqni anglatishi mumkin.",
+        "p2": "Shuning uchun biz tender matnlarini shunchaki yozmaymiz, biz ularni <span class=\"text-foreground font-medium font-semibold\">muhandislik qilamiz (engineeren)</span>. Xuddi K Aqua quvurining har bir qismi kabi, bizning raqamli ma'lumotlar paketlarimiz ham Germaniyada ishlab chiqiladi, o'ta og'ir sharoitlarda sinaladi va tekshiriladi. Ular fizik ustunlikni qonuniy va iqtisodiy inkor etib bo'lmaslikka aylantiradi."
+      },
+      "bento": {
+        "eyebrow": "Ma'lumotlar arxitekturasi",
+        "title": "Himoya qiluvchi spetsifikatsiyalar.",
+        "lead": "Milliard dollarlik loyihalarni rejalashtirishda xatolarga toqat qilolmaydigan TGA mutaxassis-rejalashtiruvchilari, me'morlar va vizyoner muhandislar uchun ishlab chiqilgan.",
+        "items": [
+          {
+            "title": "VOB/C va DIN 18381 standartlariga muvofiq",
+            "desc": "Har bir pozitsiya qurilish xizmatlari uchun eng so'nggi xarid va shartnoma qoidalariga to'liq mos keladi. Siz qonuniy jihatdan mutlaqo xavfsizsiz va javobgarlik xavfini keskin kamaytirasiz."
+          },
+          {
+            "title": "Asl GAEB formatlari",
+            "desc": "XML, d81, d83. ORCA, RIB iTWO, Nevaris va barcha keng tarqalgan AVA tizimlari uchun mukammal import mosligi. Sintaksis xatolari yo'q, vaqtinchalik yechimlar yo'q."
+          },
+          {
+            "title": "Ishlab chiqaruvchi neytral variantlar",
+            "desc": "Davlat xarid qilish tartib-qoidalari uchun biz xarid qilish yo'riqnomalarini buzmagan holda, qonuniy kuchga ega, mutlaqo mahsulot neytral bo'lgan tavsiflarni taklif qilamiz, bu esa yuqori standartni belgilaydi."
+          },
+          {
+            "title": "Batafsil aksessuarlar matritsasi",
+            "desc": "Murakkab fittingdan tortib, to'xtatuvchi valfgacha (Absperrarmatur), termodinamik mahkamlash qisqichigacha: butun ekotizimning uzluksiz qayd etilishi qimmatbaho qo'shimcha to'lovlarni oldini oladi."
+          },
+          {
+            "title": "BIM-Ready integratsiyasi",
+            "desc": "Haqiqiy vaqt rejimida to'qnashuvsiz 5D rejalashtirish uchun bizning tender matnlarimizni yuqori batafsil Revit modellarimiz bilan muammosiz bog'lang."
+          }
+        ]
+      },
+      "grid": {
+        "title": "Xizmat ko'rsatish pozitsiyasining anatomiyasi.",
+        "desc": "Biz hech narsani tasodifga qoldirmaymiz. Har bir pozitsiya matn shaklida siqilgan nemis muhandisligi san'atining durdona asaridir. Mana matnlarimiz batafsil qamrab oladigan narsalar:",
+        "items": [
+          {
+            "title": "Quvur tizimlari SDR 6 / SDR 7.4",
+            "desc": "PN 20. Maksimal shakl barqarorligi uchun o'rnatilgan chiziqli kengayishni minimallashtiruvchi tola kompozit texnologiyasi."
+          },
+          {
+            "title": "Elektr payvandlash muftalari",
+            "desc": "To'liq avtomatik payvandlash hujjatlari va 100% bir xil, ajralmas va oqish o'tkazmaydigan ulanishlar."
+          },
+          {
+            "title": "O'tish fittinglari",
+            "desc": "Sinkni olib tashlamaydigan yuqori sifatli jez (DZR), uzoq muddatli va PP-R matritsasiga ajralmas tarzda quyilgan."
+          },
+          {
+            "title": "Zadvijkalar va klapanlar",
+            "desc": "Legionellani oldini olish uchun texnik xizmat ko'rsatmaydigan sharli va qiya o'rindiqli klapanlar, oqim optimallashtirilgan va o'lik joylari minimallashtirilgan."
+          },
+          {
+            "title": "Taqsimlovchi (Kollektor) tizimlari",
+            "desc": "Yirik loyihalarda murakkab ko'targichlar (Steigstränge) va qavat ulanishlari uchun modulli, yuqori sig'imli kollektorlar."
+          },
+          {
+            "title": "GEG bo'yicha izolyatsiya",
+            "desc": "Issiqlik yo'qotilishi va kondensatsiya paydo bo'lishining oldini olish uchun (shudring nuqtasidan pastga tushish) qat'iy ko'rsatmalar."
+          },
+          {
+            "title": "Yong'indan himoya qiluvchi manjetlar",
+            "desc": "Xavfsiz devor va shift penetratsiyasi uchun R90/R120 mos keladigan, yuqori reaktiv yopish tizimlari."
+          },
+          {
+            "title": "Tizim mahkamlagichlari",
+            "desc": "Termik chiziqli kengayishni boshqariladigan tarzda o'zlashtirish uchun aniq mahkamlash (Festlager) va sirpanish joylari (Loslager) xususiyatlari."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Spetsifikatsiya bilan boshlang.",
+        "desc": "Bizning to'liq, doimiy ravishda yangilanib turuvchi tender matnlari kutubxonamizga kiring. Xatosizligi kafolatlangan, standartlarga mos va keyingi xalqaro yirik loyihangizda foydalanishga tayyor.",
+        "btn1": "Yuklab olish portaliga",
+        "btn2": "Konsalting jamoasi bilan bog'lanish"
+      },
+      "deep": {
+        "items": [
+          {
+            "title": "Mutlaq qonuniy xavfsizlik (VOB/C)",
+            "desc": "Xalqaro yirik loyihalarni rejalashtirishda noaniqlik bu dushmandir. Texnik shartlarda bitta etishmayotgan so'z o'nlab yillar davomida texnik xizmat ko'rsatmaydigan tizim va halokatli million dollarlik zarar o'rtasidagi farqni anglatishi mumkin. Bizning tender matnlarimiz VOB/C va DIN 18381 standartlariga muvofiq millimetr aniqligida standartlashtirilgan. Har bir xizmat tavsifi texnik bo'shliqlarni, talqin qilish imkoniyatlarini va huquqiy kulrang zonalarni to'liq bartaraf etish uchun kalibrlangan. Shunday qilib, qog'ozda ko'rsatgan sifatingiz aniq qurilish maydonchasida o'rnatilgan sifat bo'lishini kafolatlaymiz."
+          },
+          {
+            "title": "100% GAEB va ÖNORM mosligi",
+            "desc": "Zamonaviy rejalashtirish jarayoni uzluksiz ma'lumotlar oqimini talab qiladi. Bizning ma'lumotlar to'plamlarimiz shunchaki matn emas, ular har qanday professional AVA (tender, pudrat, buxgalteriya) dasturiy ta'minotiga zudlik bilan integratsiya qilish uchun mo'ljallangan yuqori darajada tuzilgan, mashina o'qiydigan artefaktlardir. Biz Datanorm va ÖNORM kabi tabiiy formatlarni (GAEB 90, GAEB 2000, GAEB DA XML) yetkazib beramiz. Konversiya yo'qotishlari yo'q. Hech qanday qo'lda tuzatish ishlari yo'q. Rejalashtirish jarayonida samaradorlikni 40% gacha oshiradigan va shu bilan birga uzatish xatolarini matematik jihatdan oldini oladigan raqamli ish jarayoni."
+          },
+          {
+            "title": "Material spetsifikatsiyasi: PPR-C (Typ 3)",
+            "desc": "Suv infratuzilmasi binoning asab tizimidir. Bizning xizmat pozitsiyalarimiz polipropilen tasodifiy kopolimer (Polypropylens Random Copolymer - PPR-C Tip 3) ning ustun molekulyar tuzilishini aniq va aniq belgilaydi. Ular sudralib yurish kuchi (Zeitstandfestigkeit), kavitatsiya xatti-harakati va termik chiziqli kengayish kabi muhim parametrlarni o'rnatadilar. Faqatgina ushbu murosasiz tafsilotlar darajasi orqali siz loyihangizni past sifatli hosilalar va xavfli plagiatlardan samarali himoya qilasiz, ular 20 barlik cho'qqi bosimlari yoki harorat o'zgarishlarida muqarrar ravishda ishdan chiqishi aniq."
+          },
+          {
+            "title": "Termodinamik va akustik aniqlik",
+            "desc": "Premium arxitektura Premium fizikani talab qiladi. Professional tender nafaqat yalang'och quvur tizimini, balki butun jismoniy ekotizimni ham qamrab oladi. Bizning matnlarimizda Bino energiyasi to'g'risidagi qonun (GEG) / EnEV ga muvofiq issiqlik yo'qotish koeffitsientlari, shuningdek, ovoz yalıtımı qat'iy o'lchovlari (DIN 4109) bo'yicha batafsil spetsifikatsiyalar mavjud. Bu sizning tizimingiz nafaqat mexanik jihatdan nihoyatda bardoshli bo'lishini, balki termodinamik jihatdan yuqori samaradorlikni va akustik jihatdan mutlaq yuqori segmentda (Pichirlash standarti) ishlashini ta'minlaydi."
+          },
+          {
+            "title": "Barqarorlik ko'rsatkichlari (ESG va LEED)",
+            "desc": "Qurilishning kelajagi aylanma va CO2-optimallashtirilgan. Bugungi kunda tenderlarda yashil standartlar (Green Standards) ko'rsatilishi kerak. K Aqua matnlari to'liq EPDs (Environmental Product Declarations) va hayot tsiklini tahlil qilishni birlashtiradi. Biz aniq ekologik iz, qayta ishlanuvchanlik va ekstruziyadagi energiya samaradorligini belgilaymiz. DGNB, LEED, BREEAM yoki WELL bo'yicha tekshirilishi kerak bo'lgan binolar uchun juda mos keladi. Shunchaki yashil va'dalarni emas, balki yashil samaradorlikni aniqlang."
+          }
+        ]
+      }
+    }
+  }
+}

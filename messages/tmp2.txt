@@ -1,0 +1,74 @@
+{
+  "finder": {
+    "kicker": "Produktfinder",
+    "head": "Lassen Sie uns die Suche nach dem passenden System abkürzen.",
+    "short": "Direkthilfe beim Produktfinder",
+    "text": "Wenn Ihre Parameter (Temperatur, Druck, Medium) grenzwertig sind, übernehmen wir gerne die Auslegung. Ein Anruf spart oft Stunden der Eigenrecherche.",
+    "interest": "Beratung",
+    "done": "Ein Systemplaner ruft Sie zur genauen Auslegung zurück."
+  },
+  "produkte": {
+    "kicker": "Produktsortiment",
+    "head": "Fragen zur Kompatibilität unserer PP-R Komponenten?",
+    "short": "Systemberatung für K Aqua Produkte",
+    "text": "Geben Sie uns einen kurzen Überblick, welche Systeme Sie verbinden möchten. Wir zeigen Ihnen, wie Sie mit unserem Portfolio eine homogene und dichte Anlage aufbauen.",
+    "interest": "Rohrsysteme",
+    "done": "Wir melden uns mit technischen Details zur Systemkompatibilität."
+  },
+  "academy": {
+    "kicker": "Schulung & Zertifizierung",
+    "head": "Buchen Sie ein Praxisseminar für Ihre Monteure.",
+    "short": "Plätze in der K Aqua Academy anfragen",
+    "text": "Sichern Sie die Gewährleistung durch fachgerechte Verarbeitung. Nennen Sie uns die Anzahl Ihrer Mitarbeiter und wir schlagen Ihnen Termine für eine Inhouse- oder Werks-Schulung vor.",
+    "interest": "Beratung",
+    "done": "Das Academy-Team meldet sich mit Terminvorschlägen zur Schulung."
+  },
+  "referenzen": {
+    "kicker": "Ähnliche Projekte",
+    "head": "Profitieren Sie von unseren Erfahrungswerten aus Referenzbauten.",
+    "short": "Erfahrungswerte für Ihr Projekt anfragen",
+    "text": "Planen Sie einen ähnlichen Hochhausbau oder eine Industriehalle? Wir teilen gerne anonymisierte Lessons-Learned und Best-Practices aus den hier gezeigten Großprojekten mit Ihnen.",
+    "interest": "BIM Daten",
+    "done": "Ein Projektleiter meldet sich für einen Erfahrungsaustausch."
+  },
+  "support": {
+    "kicker": "Technischer Support",
+    "head": "Soforthilfe bei Herausforderungen auf der Baustelle.",
+    "short": "Schnelle Problemlösung für Monteure",
+    "text": "Gibt es Probleme bei der Schweißnaht oder unklare Druckprüfungsergebnisse? Hinterlassen Sie Ihre Nummer, unser technischer Support ruft umgehend für eine Ferndiagnose zurück.",
+    "interest": "Beratung",
+    "done": "Der technische Support wurde alarmiert und ruft in Kürze zurück."
+  },
+  "ausschreibungstexte": {
+    "kicker": "LV-Texte & Planung",
+    "head": "Erhalten Sie herstellerneutrale Ausschreibungstexte in Minuten.",
+    "short": "Hilfe bei der Leistungsverzeichnis-Erstellung",
+    "text": "Wir stellen Ihnen VOB-konforme GAEB-Dateien oder Word-Vorlagen für Ihr LV zur Verfügung. Nennen Sie uns die Projektart, und wir senden Ihnen maßgeschneiderte Textbausteine.",
+    "interest": "BIM Daten",
+    "done": "Die passenden LV-Texte werden Ihnen zeitnah zugesendet."
+  },
+  "service": {
+    "kicker": "Vor Ort Service",
+    "head": "Unterstützung durch K Aqua Techniker auf Ihrer Baustelle.",
+    "short": "Baustelleneinweisung anfragen",
+    "text": "Benötigt Ihr Team eine Einweisung an den Maschinen direkt am Einbauort? Wir koordinieren einen unserer Richtmeister, der Ihr Projekt in der kritischen Startphase begleitet.",
+    "interest": "Beratung",
+    "done": "Unser Service-Team prüft die Verfügbarkeit eines Richtmeisters."
+  },
+  "maerkte_trinkwasser": {
+    "kicker": "Null Leckage Netze",
+    "head": "Jedes verlorene Prozent Trinkwasser kostet Ihr Netz bares Geld.",
+    "short": "Verlustrechnung für Ihr Trinkwassernetz",
+    "text": "Schildern Sie uns kurz Netzgröße und Klimazone. Wir rechnen Ihnen vor, wie viel Wasser und Budget ein K Aqua Feld gegenüber dem Bestand sichert, inklusive Betriebsjahren.",
+    "interest": "Trinkwassernetze",
+    "done": "Ein Netzplaner meldet sich innerhalb eines Arbeitstages mit einer ersten Verlustrechnung."
+  },
+  "maerkte_klima": {
+    "kicker": "HVAC & Kühlung",
+    "head": "Sichern Sie hohe Durchflussmengen ohne Korrosionsrisiko.",
+    "short": "Kühlkreisläufe effizienter planen",
+    "text": "Nennen Sie uns die Kühlleistung und Vorlauftemperatur. Wir legen den Querschnitt so aus, dass Kavitation und Druckverluste in Ihrem Klimasystem minimiert werden.",
+    "interest": "Rohrsysteme",
+    "done": "Ein HVAC-Experte wird sich zur Querschnittsauslegung melden."
+  }
+}

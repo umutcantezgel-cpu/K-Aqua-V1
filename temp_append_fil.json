@@ -1,0 +1,143 @@
+    },
+    "buyers": {
+      "eyebrow": "Para sa mga Planner, Mamimili at Installer",
+      "title1": "Ikaw ang nagpaplano, nagkakalkula o nag-i-install.",
+      "titleGrad": "Kami ang nagbibigay ng pundasyon.",
+      "lead": "Nakikita ng bawat papel sa K Aqua ang eksaktong impormasyong kailangan para sa susunod na desisyon, nang walang pag-scroll sa mga PDF, nang walang paghihintay sa tawag.",
+      "personas": [
+        {
+          "t": "Mga Planner at Inhinyero",
+          "d": "Standard-compliant na teknikal na data, SDR tables at CO₂ certificates para sa mga tender, direktang magagamit.",
+          "cta": "Pumunta sa Teknikal na Data",
+          "goto": "products"
+        },
+        {
+          "t": "Pagbili at Pagkuha (Procurement)",
+          "d": "Paghahatid nang direkta mula sa pabrika, napaplanong logistik mula sa Waldsolms at isang taong makakausap sa halip na mga middleman.",
+          "cta": "Magsimula ng Paghiling ng Proyekto",
+          "goto": "rfq"
+        },
+        {
+          "t": "Mga Installer",
+          "d": "Apat na welding procedures bilang video, pangkalahatang-ideya ng tool at malinaw na limitasyon sa pagpoproseso, kaligtasan sa construction site.",
+          "cta": "Pumunta sa Academy",
+          "goto": "academy"
+        }
+      ],
+      "whyEyebrow": "Bakit K Aqua",
+      "whyTitle": "Anim na dahilan na umaabot sa kalkulasyon.",
+      "why": [
+        {
+          "t": "Lumalaban sa Presyon at Mainit na Tubig",
+          "d": "PPRCT na may binagong istraktura ng kristal: higit na temperatura at reserbang presyon sa mga dekada."
+        },
+        {
+          "t": "Walang Korosyon",
+          "d": "Walang kalawang, walang inkrustasyon, walang panganib ng pitting gaya sa mga metal pipe."
+        },
+        {
+          "t": "Recyclable at Mababang CO₂",
+          "d": "Recycling Code 5, higit na mas maliit na footprint kaysa tanso o bakal: napatutunayan sa CO₂ calculator."
+        },
+        {
+          "t": "Isang Taong Makakausap",
+          "d": "Tubo, fitting, balbula at welding technology mula sa isang pinanggalingan, mula sa pabrika, hindi sa middleman."
+        }
+      ],
+      "promise": [
+        "Direkta sa Pabrika",
+        "Tugon < 24 oras",
+        "Walang Obligasyon"
+      ],
+      "ctaAll": "Paghiling ng Proyekto sa 2 Minuto"
+    },
+    "rfq": {
+      "eyebrow": "Paghiling ng Proyekto",
+      "title1": "Ang Iyong Proyekto,",
+      "titleGrad": "aming alok.",
+      "lead": "Sa apat na maikling hakbang tungo sa walang-obligasyong pagtatanong. Makakatanggap ka ng personal na tugon mula sa sales sa loob ng isang araw ng pagtatrabaho.",
+      "steps": [
+        "Uri ng Proyekto",
+        "Pangangailangan",
+        "Petsa at Rehiyon",
+        "Kontak"
+      ],
+      "types": [
+        {
+          "t": "Bagong Konstruksyon / Mga Gusali",
+          "d": "Instalasyon ng inuming tubig sa mga residential o commercial na gusali."
+        },
+        {
+          "t": "Imprastraktura / Civil Engineering",
+          "d": "Mga linya ng supply, malalaking dimensyon, mga network."
+        },
+        {
+          "t": "Renovation / Pagpapalit",
+          "d": "Pagpapalit ng kasalukuyang metal o PVC na tubo."
+        },
+        {
+          "t": "Kalakalan / Resale",
+          "d": "Pamamahagi (Distribution), warehouse, o negosyo ng proyekto."
+        }
+      ],
+      "fType": "Uri ng Proyekto",
+      "fDims": "Mga Kinakailangang Dimensyon",
+      "fMeters": "Tinatayang Haba",
+      "dimsHint": "Sapat na ang tinatayang impormasyon, tayo ay magiging tiyak nang magkasama. Posible ang maramihang pagpili.",
+      "fTime": "Planadong Timeframe",
+      "fRegion": "Rehiyon ng Paghahatid",
+      "timelines": [
+        "Kaagad / Patuloy",
+        "Sa 1–3 buwan",
+        "Sa 3–6 buwan",
+        "Yugto ng pagpaplano"
+      ],
+      "regions": [
+        "Germany",
+        "DACH",
+        "Europe",
+        "Middle East",
+        "Buong Mundo"
+      ],
+      "fName": "Pangalan",
+      "fCompany": "Kumpanya",
+      "fEmail": "E-Mail",
+      "fPhone": "Telepono",
+      "fMsg": "Mensahe (Opsyonal)",
+      "privacy": "Sa pagpapadala, magbubukas ka ng pre-filled na email patungo sa info@k-aqua.de. Walang data na ise-save sa pahinang ito.",
+      "back": "Bumalik",
+      "next": "Susunod",
+      "send": "Ipadala ang Pagtatanong",
+      "mailSubject": "K Aqua Paghiling ng Proyekto",
+      "promise": [
+        "Tugon < 24 oras",
+        "Walang Obligasyon",
+        "Direkta sa Tagagawa"
+      ],
+      "doneTitle": "Malapit na matapos.",
+      "doneText": "Ang iyong email program ay bumukas na may pre-filled na pagtatanong. Ipadala ito. Babalikan ka namin sa loob ng isang araw ng pagtatrabaho. Mas gusto mo bang makipag-usap nang direkta?",
+      "doneBack": "Bumalik sa Homepage",
+      "infoTitle": "Tungkol sa paghiling ng proyekto",
+      "infoText1": "Gamitin ang aming tool sa pagtatanong upang mai-coordinate ang iyong proyekto sa gusali o pang-industriya sa aming mga eksperto nang maaga. Maging ikaw ay nasa yugto ng pagpaplano o mayroon nang mga listahan ng materyal, tutulungan ka namin sa pagpili ng materyal at pag-dimension.",
+      "infoText2": "Dahil sa malapit na pakikipagtulungan sa K Aqua sales, makakatanggap ka ng hindi lamang eksaktong quotation, kundi pati na rin ng mahalagang payong teknikal tungkol sa pressure classes (SDR), paraan ng pag-install at naaangkop na mga accessory. Ipadala sa amin ang iyong paunang data, at kami ay babalik sa iyo sa loob ng isang araw ng pagtatrabaho.",
+      "faqTitle": "Mga madalas itanong tungkol sa pagtatanong",
+      "faqs": [
+        {
+          "q": "Libre ba ang paghiling ng proyekto?",
+          "a": "Oo, ang paggamit ng tool na ito at ang paggawa ng alok ng aming sales team ay ganap na libre at walang obligasyon."
+        },
+        {
+          "q": "Ano ang mangyayari pagkatapos ipadala ang pagtatanong?",
+          "a": "Ang iyong pagtatanong ay direktang ipapadala sa aming panloob na sales team. Makikipag-ugnayan sa iyo ang isang personal na contact person sa loob ng 24 oras upang linawin ang mga katanungan o upang direktang bigyan ka ng pasadyang alok."
+        },
+        {
+          "q": "Maaari ba akong magtanong bilang pribadong indibidwal?",
+          "a": "Ang K Aqua ay pangunahing nakatuon sa mga wholesaler, planner at installer sa sektor ng B2B. Ikalulugod naming i-redirect ang mga pribadong customer sa aming regional partners."
+        },
+        {
+          "q": "Gaano kaligtas ang aking data?",
+          "a": "Ang iyong inilagay ay hindi ise-save sa server, ngunit direktang ililipat sa iyong email program, kung saan ipapadala mo ito sa amin nang ligtas. Mahigpit na kumpidensyal ang pagtrato namin sa iyong data ayon sa kasalukuyang mga patakaran ng DSGVO."
+        }
+      ]
+    }
+  }

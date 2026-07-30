@@ -1,0 +1,255 @@
+import json
+
+missing = {
+  "products": {
+    "valves": {
+      "bento3Desc": "고압 저항 설계로 수격 현상 방지.",
+      "bento4Title": "스마트 시스템 호환",
+      "bento4Desc": "자동화 밸브 및 센서 통합 가능.",
+      "timelineEyebrow": "밸브 제어 주기",
+      "timelineLead": "시스템 운영의 핵심.",
+      "timeline1Year": "01",
+      "timeline1Title": "설계",
+      "timeline1Text": "유체 제어 분석.",
+      "timeline2Year": "02",
+      "timeline2Title": "선정",
+      "timeline2Text": "최적의 밸브 모델 선택.",
+      "timeline3Year": "03",
+      "timeline3Title": "설치",
+      "timeline3Text": "배관과의 안전한 연결.",
+      "timeline4Year": "04",
+      "timeline4Title": "테스트",
+      "timeline4Text": "수압 누출 검사.",
+      "timeline5Year": "05",
+      "timeline5Title": "운영",
+      "timeline5Text": "유지보수 불필요.",
+      "finalTitle": "완벽한 흐름 제어",
+      "finalDesc": "고성능 밸브 기술.",
+      "ctaTitle": "밸브가 필요하십니까?",
+      "ctaDesc": "전문가와 상담하세요.",
+      "ctaBtnPrimary": "문의하기",
+      "ctaBtnSecondary": "카탈로그 보기",
+      "hero": {
+        "title": "밸브",
+        "subtitle": "정밀 제어."
+      }
+    },
+    "category": {
+      "allProducts": "모든 제품 보기",
+      "openInFinder": "파인더 열기",
+      "artNA": "해당 없음",
+      "viewDetails": "세부 정보 보기",
+      "learnMoreKnowledge": "기술 문서 보기",
+      "learnMoreDesc": "시스템 기술 설명.",
+      "toKnowledgeBase": "지식 기반으로 이동"
+    },
+    "fittings": {
+      "meta": {"title": "피팅", "desc": "설명"},
+      "hero": {"title": "피팅 솔루션", "desc": "안전 연결."},
+      "intro": {"title": "개요", "desc": "설명"},
+      "sticky": {"title": "빠른 링크", "items": []},
+      "bento": {"title": "이점", "items": []},
+      "timeline": {"title": "설치 가이드", "items": []},
+      "depth": {"title": "기술 심화", "desc": "설명"},
+      "cta": {"title": "문의", "desc": "전문가 상담"}
+    },
+    "pipes": {
+      "meta": {"title": "파이프", "desc": "설명"},
+      "hero": {"title": "파이프 솔루션", "desc": "고성능 파이프."},
+      "sticky": {"title": "빠른 링크", "items": []},
+      "timeline": {"title": "설치 가이드", "items": []},
+      "bento": {"title": "이점", "items": []},
+      "cta": {"title": "문의", "desc": "전문가 상담"}
+    },
+    "transitionFittings": {
+      "meta": {"title": "전환 피팅", "desc": "금속 결합"},
+      "hero": {"title": "전환 피팅", "desc": "안전한 전환."},
+      "intro": {"title": "개요", "desc": "설명"},
+      "sticky": {"title": "빠른 링크", "items": []},
+      "bento": {"title": "이점", "items": []},
+      "timeline": {"title": "설치 가이드", "items": []},
+      "stats": {"title": "통계", "items": []},
+      "cta": {"title": "문의", "desc": "전문가 상담"}
+    },
+    "hero": {
+      "desc": "K-Aqua의 포괄적인 제품 포트폴리오를 탐색하세요."
+    },
+    "sticky": {
+      "title": "빠른 네비게이션",
+      "items": [
+        {"title": "프로젝트 문의", "desc": "모든 규모에 대한 상담."},
+        {"title": "글로벌 네트워크", "desc": "전 세계 대리점 찾기."},
+        {"title": "기술 지원", "desc": "문서 및 가이드."},
+        {"title": "카탈로그", "desc": "다운로드."}
+      ]
+    },
+    "bento": {
+      "title": "핵심 기술"
+    }
+  },
+  "solutions": {
+    "benefits": [
+      {"title": "안전", "desc": "100% 누수 방지."},
+      {"title": "효율", "desc": "에너지 절약."},
+      {"title": "수명", "desc": "50년 보장."},
+      {"title": "환경", "desc": "재활용 가능."}
+    ],
+    "krankenhaus": {
+      "sticky": {"title": "병원 지원", "items": []},
+      "timeline": {"title": "프로젝트 단계", "items": []},
+      "hero": {"title": "의료 시설 배관", "desc": "설명"},
+      "intro": {"title": "의료용 안전", "desc": "설명"},
+      "stickySection": {"title": "네비게이션", "items": []},
+      "bentoSection": {"title": "이점"},
+      "bento": {"items": []},
+      "timelineSection": {"title": "진행"},
+      "specs": {"title": "기술 사양"},
+      "bim": {"title": "BIM 데이터"},
+      "cta": {"title": "문의"}
+    },
+    "hotels": {
+      "hero": {"title": "호텔 배관", "desc": "설명"},
+      "intro": {"title": "호텔용 솔루션", "desc": "설명"},
+      "bentoSection": {"title": "이점"},
+      "bento": {"items": []},
+      "textSection": {"title": "기술"},
+      "stickySection": {"title": "네비게이션"},
+      "sticky": {"items": []},
+      "perf": {"title": "성능"},
+      "timelineSection": {"title": "진행"},
+      "timeline": {"items": []},
+      "research": {"title": "연구"},
+      "certs": {"title": "인증"},
+      "cta": {"title": "문의"}
+    },
+    "vorfertigung": {
+      "meta": {"title": "사전 제작", "desc": "설명"},
+      "hero": {"title": "사전 제작 모듈", "desc": "설명"},
+      "intro": {"title": "개요", "desc": "설명"},
+      "sticky": {"items": []},
+      "bento": {"items": []},
+      "visual": {"title": "시각화"},
+      "timeline": {"items": []},
+      "manifesto": {"title": "철학"},
+      "cta": {"title": "문의"}
+    },
+    "hochhaus": {
+      "meta": {"title": "고층 빌딩", "desc": "설명"},
+      "hero": {"title": "고층 배관 시스템", "desc": "설명"},
+      "intro": {"title": "개요", "desc": "설명"},
+      "sticky": {"items": []},
+      "bento": {"items": []},
+      "timeline": {"items": []},
+      "data": {"title": "데이터"},
+      "cta": {"title": "문의"}
+    },
+    "index": {
+      "meta": {"title": "솔루션 인덱스", "desc": "설명"},
+      "sticky": {"items": []},
+      "timeline": {"items": []},
+      "hero": {"title": "전체 솔루션", "desc": "설명"},
+      "intro": {"title": "개요", "desc": "설명"},
+      "bento": {"items": []},
+      "stats": {"items": []},
+      "cta": {"title": "문의"}
+    },
+    "rechenzentrum": {
+      "meta": {"title": "데이터 센터", "desc": "설명"},
+      "scroll": {"items": []},
+      "timeline": {"items": []},
+      "hero": {"title": "냉수 시스템", "desc": "설명"},
+      "section1": {"title": "섹션 1"},
+      "section2": {"title": "섹션 2"},
+      "bento": {"items": []},
+      "cta": {"title": "문의"}
+    }
+  },
+  "academy": {
+    "schulungen": {
+      "sticky": {
+        "items": [
+          {"title": "초급", "desc": "설명"},
+          {"title": "중급", "desc": "설명"},
+          {"title": "고급", "desc": "설명"},
+          {"title": "마스터", "desc": "설명"}
+        ]
+      },
+      "timeline": {
+        "items": [
+          {"title": "1단계"},
+          {"title": "2단계"},
+          {"title": "3단계"},
+          {"title": "4단계"},
+          {"title": "5단계"}
+        ]
+      },
+      "spec": {
+        "items": [
+          {"title": "대상", "text": "설치자"},
+          {"title": "기간", "text": "2일"}
+        ]
+      }
+    },
+    "zertifizierung": {
+      "certifications": {
+        "items": [
+          {}, {}, {},
+          {"title": "기타 인증", "p1": "글로벌 표준 준수.", "p2": "특수 환경용 안전 승인."}
+        ]
+      }
+    }
+  },
+  "resources": {
+    "support": {
+      "sticky": {
+        "items": [
+          {"title": "상담", "desc": "설명"},
+          {"title": "견적", "desc": "설명"},
+          {"title": "기술", "desc": "설명"},
+          {"title": "마케팅", "desc": "설명"}
+        ]
+      }
+    },
+    "downloads": {
+      "timeline": {
+        "items": [
+          {"title": "1단계"},
+          {"title": "2단계"},
+          {"title": "3단계"},
+          {"title": "4단계"}
+        ]
+      },
+      "sticky": {
+        "items": [
+          {"title": "카탈로그", "desc": "설명"},
+          {"title": "치수", "desc": "설명"},
+          {"title": "매뉴얼", "desc": "설명"},
+          {"title": "회사", "desc": "설명"}
+        ]
+      },
+      "files": {
+        "items": [
+          {"type": "pdf"},
+          {"type": "pdf"},
+          {"type": "pdf"},
+          {"type": "pdf"},
+          {"type": "pdf"},
+          {"type": "pdf"}
+        ]
+      }
+    },
+    "bim": {
+      "sticky": {
+        "items": [
+          {"title": "건축", "desc": "설명"},
+          {"title": "플랜트", "desc": "설명"},
+          {"title": "TGA", "desc": "설명"},
+          {"title": "기타", "desc": "설명"}
+        ]
+      }
+    }
+  }
+}
+
+with open("ko_missing_final_3.json", "w", encoding="utf-8") as f:
+    json.dump(missing, f, indent=2, ensure_ascii=False)

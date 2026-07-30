@@ -1,0 +1,75 @@
+  
+  "productNames": {
+    "pipes": "PP-R va PP-RCT quvurlari",
+    "fittings": "Soketli payvandlash (Muffenschweißen) uchun fittinglar",
+    "buttWeldFittings": "Tugma payvandlash (Stumpfschweißen) uchun fittinglar",
+    "electrofusionFittings": "Elektro-fuzion fittinglar",
+    "transitionFittings": "O'tish fittinglari",
+    "valves": "Valflar va kranlar",
+    "accessories": "Aksessuarlar",
+    "weldInSaddles": "Payvandlash egar-fittinglari",
+    "flanges": "Gardish ulanishlari (Flanschverbindungen)",
+    "tools": "Asboblar va jihozlar",
+    "threadedFittings": "Tishli fittinglar",
+    "manifolds": "Tarqatuvchi bloklar",
+    "repairKits": "Ta'mirlash to'plamlari",
+    "pipeClamps": "Quvur qisqichlari (Rohrschellen)",
+    "insulation": "Izolyatsiya materiallari",
+    "weldingMachines": "Payvandlash mashinalari",
+    "cutters": "Quvur kesgichlar",
+    "peelers": "Tozalash asboblari",
+    "chamferingTools": "Qirra kesish asboblari",
+    "cleaningWipes": "Tozalash salfetkalari",
+    "pressureTestKits": "Bosim sinovi to'plamlari",
+    "pipe": "PP-R va PP-RCT quvuri",
+    "fitting": "Soketli payvandlash (Muffenschweißen) uchun fitting",
+    "buttWeldFitting": "Tugma payvandlash (Stumpfschweißen) uchun fitting",
+    "electrofusionFitting": "Elektro-fuzion fitting",
+    "transitionFitting": "O'tish fittingi",
+    "valve": "Valf / kran",
+    "accessory": "Aksessuar",
+    "weldInSaddle": "Payvandlash egar-fittingi",
+    "flange": "Gardish ulanishi (Flanschverbindung)",
+    "tool": "Asbob / jihoz",
+    "threadedFitting": "Tishli fitting",
+    "manifold": "Tarqatuvchi blok",
+    "repairKit": "Ta'mirlash to'plami",
+    "pipeClamp": "Quvur qisqichi (Rohrschelle)",
+    "insulationPiece": "Izolyatsiya materiali",
+    "weldingMachine": "Payvandlash mashinasi",
+    "cutter": "Quvur kesgich",
+    "peeler": "Tozalash asbobi",
+    "chamferingTool": "Qirra kesish asbobi",
+    "cleaningWipe": "Tozalash salfetkasi",
+    "pressureTestKit": "Bosim sinovi to'plami",
+    "description_pipes": "Ichimlik suvi, isitish, sovutish va sanoat ilovalari uchun mo'ljallangan, ekstremal bardoshli va korroziyaga chidamli K Aqua quvurlari.",
+    "description_fittings": "100% oqishsiz polifuziya ulanishlari uchun ideal mos keladigan fittinglar.",
+    "description_valves": "K Aqua quvurlar tizimi uchun sanoat standarti valflar va to'xtatish moslamalari.",
+    "description_transitionFittings": "Yuqori sifatli mis (DZR) tishli qo'shimchalarga ega bo'lgan metall tizimlarga xavfsiz o'tishlar.",
+    "description_accessories": "K Aqua quvurlar tizimi uchun mos aksessuarlar.",
+    "description_weldInSaddles": "Katta quvurlarni tez va xavfsiz filiallash uchun maxsus fittinglar.",
+    "description_buttWeldFittings": "Yuqori bosim barqarorligi bilan yirik quvurlar (Katta o'lchamlar) uchun ulanishlar.",
+    "description_tools": "K Aqua tizimlarini xavfsiz va samarali o'rnatish uchun professional asboblar.",
+    "fallback": "K Aqua mahsuloti"
+  },
+  "customerReviews": {
+    "title": "Mijozlar nima deyishadi",
+    "subtitle": "Butun dunyo bo'ylab K Aqua ishonchi.",
+    "reviews": [
+      {
+        "name": "Maykl T.",
+        "role": "Loyihalashtiruvchi muhandis, Dubay",
+        "text": "Biz eng yirik loyihalarimizdan birida sovuq suvni taqsimlash uchun K Aqua tizimlaridan foydalandik. O'rnatish tezligi va ulanishlarning mutlaq xavfsizligi bizni ishontirdi."
+      },
+      {
+        "name": "Sara H.",
+        "role": "Menejer, Berlin",
+        "text": "K Aqua bizga ofis binosi uchun mustahkam va samarali yechim taqdim etdi. Quvurlar chidamli va mukammal issiqlik izolyatsiyasini ta'minlaydi."
+      },
+      {
+        "name": "Xuan M.",
+        "role": "Pudratchi, Madrid",
+        "text": "Men uzoq yillardan beri K Aqua mahsulotlariga ishonaman. O-ringlarning (qistirma) yo'qligi va oson ulanishi bizga ko'p vaqt va muammolarni tejaydi."
+      }
+    ]
+  }

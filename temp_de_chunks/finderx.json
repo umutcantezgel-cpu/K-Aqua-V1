@@ -1,0 +1,44 @@
+{
+  "finderx": {
+    "helpEyebrow": "Lesehilfe",
+    "helpTitle": "So lesen Sie die Tabelle.",
+    "helpLead": "F\u00fcnf Begriffe gen\u00fcgen, um jede Zeile des Sortiments zu verstehen.",
+    "help": [
+      [
+        "d",
+        "Au\u00dfendurchmesser in Millimetern: die Kenngr\u00f6\u00dfe jeder Dimension von d20 bis d630."
+      ],
+      [
+        "SDR",
+        "Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und h\u00f6heren Nenndruck."
+      ],
+      [
+        "Wand (s)",
+        "Wandst\u00e4rke in Millimetern: ergibt sich aus d und SDR: s = d/SDR."
+      ],
+      [
+        "di",
+        "Innendurchmesser = d \u2212 2s. Ma\u00dfgeblich f\u00fcr Durchfluss und Druckverlust."
+      ],
+      [
+        "Nenndruck (PN)",
+        "Zul\u00e4ssiger Dauerbetriebsdruck in bar bei 20 \u00b0C \u00fcber den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6."
+      ]
+    ],
+    "flowTitle": "Vom Filter zum Angebot",
+    "flow": [
+      {
+        "t": "Filtern & suchen",
+        "d": "Typ, SDR und maximale Dimension eingrenzen oder direkt \u201ed110\" in die Suche tippen."
+      },
+      {
+        "t": "Pr\u00fcfen & exportieren",
+        "d": "Zeile anklicken f\u00fcr Wandst\u00e4rke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation."
+      },
+      {
+        "t": "Anfrage \u00fcbergeben",
+        "d": "Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen kl\u00e4ren wir gemeinsam."
+      }
+    ]
+  }
+}

@@ -1,0 +1,5366 @@
+{
+  "": {
+    "startLine": 1,
+    "endLine": 9155
+  },
+  "nav": {
+    "startLine": 4,
+    "endLine": 33
+  },
+  "groups": {
+    "startLine": 34,
+    "endLine": 41
+  },
+  "pages": {
+    "startLine": 42,
+    "endLine": 163
+  },
+  "pages.co2": {
+    "startLine": 43,
+    "endLine": 46
+  },
+  "pages.solutions": {
+    "startLine": 47,
+    "endLine": 50
+  },
+  "pages.products": {
+    "startLine": 52,
+    "endLine": 55
+  },
+  "pages.finder": {
+    "startLine": 56,
+    "endLine": 59
+  },
+  "pages.academy": {
+    "startLine": 61,
+    "endLine": 64
+  },
+  "pages.trust": {
+    "startLine": 65,
+    "endLine": 68
+  },
+  "pages.service": {
+    "startLine": 69,
+    "endLine": 72
+  },
+  "pages.partner": {
+    "startLine": 73,
+    "endLine": 76
+  },
+  "pages.markets": {
+    "startLine": 77,
+    "endLine": 80
+  },
+  "pages.references": {
+    "startLine": 81,
+    "endLine": 84
+  },
+  "pages.about": {
+    "startLine": 85,
+    "endLine": 88
+  },
+  "pages.career": {
+    "startLine": 89,
+    "endLine": 92
+  },
+  "pages.news": {
+    "startLine": 93,
+    "endLine": 96
+  },
+  "pages.contact": {
+    "startLine": 97,
+    "endLine": 100
+  },
+  "pages.rfq": {
+    "startLine": 101,
+    "endLine": 104
+  },
+  "pages.home": {
+    "startLine": 105,
+    "endLine": 108
+  },
+  "pages.legal": {
+    "startLine": 109,
+    "endLine": 118
+  },
+  "pages.legal.datenschutz": {
+    "startLine": 110,
+    "endLine": 113
+  },
+  "pages.legal.impressum": {
+    "startLine": 114,
+    "endLine": 117
+  },
+  "pages.genauManagement": {
+    "startLine": 119,
+    "endLine": 142
+  },
+  "pages.pipes": {
+    "startLine": 143,
+    "endLine": 146
+  },
+  "pages.fittings": {
+    "startLine": 147,
+    "endLine": 150
+  },
+  "pages.valves": {
+    "startLine": 151,
+    "endLine": 154
+  },
+  "pages.tools": {
+    "startLine": 155,
+    "endLine": 158
+  },
+  "pages.transition-fittings": {
+    "startLine": 159,
+    "endLine": 162
+  },
+  "home": {
+    "startLine": 164,
+    "endLine": 198
+  },
+  "home.scrolly": {
+    "startLine": 169,
+    "endLine": 186
+  },
+  "home.scrolly.0": {
+    "startLine": 170,
+    "endLine": 173
+  },
+  "home.scrolly.d": {
+    "startLine": 182,
+    "endLine": 185
+  },
+  "geo": {
+    "startLine": 199,
+    "endLine": 262
+  },
+  "geo.hubs": {
+    "startLine": 236,
+    "endLine": 261
+  },
+  "geo.hubs.deutschland": {
+    "startLine": 237,
+    "endLine": 240
+  },
+  "geo.hubs.oesterreich": {
+    "startLine": 241,
+    "endLine": 244
+  },
+  "geo.hubs.schweiz": {
+    "startLine": 245,
+    "endLine": 248
+  },
+  "geo.hubs.uae": {
+    "startLine": 249,
+    "endLine": 252
+  },
+  "geo.hubs.ksa": {
+    "startLine": 253,
+    "endLine": 256
+  },
+  "geo.hubs.singapur": {
+    "startLine": 257,
+    "endLine": 260
+  },
+  "footer": {
+    "startLine": 263,
+    "endLine": 309
+  },
+  "footer.badges": {
+    "startLine": 277,
+    "endLine": 298
+  },
+  "footer.badges.0": {
+    "startLine": 278,
+    "endLine": 281
+  },
+  "footer.badges.s": {
+    "startLine": 294,
+    "endLine": 297
+  },
+  "footer.attribution": {
+    "startLine": 299,
+    "endLine": 308
+  },
+  "footer.attribution.texts": {
+    "startLine": 300,
+    "endLine": 305
+  },
+  "regions": {
+    "startLine": 310,
+    "endLine": 315
+  },
+  "homex": {
+    "startLine": 316,
+    "endLine": 437
+  },
+  "homex.stats": {
+    "startLine": 317,
+    "endLine": 338
+  },
+  "homex.stats.0": {
+    "startLine": 318,
+    "endLine": 322
+  },
+  "homex.stats.l": {
+    "startLine": 333,
+    "endLine": 337
+  },
+  "homex.marquee": {
+    "startLine": 340,
+    "endLine": 347
+  },
+  "homex.tools": {
+    "startLine": 348,
+    "endLine": 385
+  },
+  "homex.tools.0": {
+    "startLine": 349,
+    "endLine": 354
+  },
+  "homex.tools.cta": {
+    "startLine": 379,
+    "endLine": 384
+  },
+  "homex.vsBad": {
+    "startLine": 390,
+    "endLine": 395
+  },
+  "homex.vsGood": {
+    "startLine": 396,
+    "endLine": 401
+  },
+  "homex.cards": {
+    "startLine": 412,
+    "endLine": 425
+  },
+  "homex.cards.0": {
+    "startLine": 413,
+    "endLine": 416
+  },
+  "homex.cards.d": {
+    "startLine": 421,
+    "endLine": 424
+  },
+  "solutions": {
+    "startLine": 438,
+    "endLine": 1349
+  },
+  "solutions.benefits": {
+    "startLine": 448,
+    "endLine": 465
+  },
+  "solutions.benefits.0": {
+    "startLine": 449,
+    "endLine": 452
+  },
+  "solutions.benefits.d": {
+    "startLine": 461,
+    "endLine": 464
+  },
+  "solutions.krankenhaus": {
+    "startLine": 466,
+    "endLine": 626
+  },
+  "solutions.krankenhaus.meta": {
+    "startLine": 467,
+    "endLine": 470
+  },
+  "solutions.krankenhaus.hero": {
+    "startLine": 471,
+    "endLine": 478
+  },
+  "solutions.krankenhaus.sticky": {
+    "startLine": 479,
+    "endLine": 498
+  },
+  "solutions.krankenhaus.sticky.items": {
+    "startLine": 480,
+    "endLine": 497
+  },
+  "solutions.krankenhaus.sticky.items.0": {
+    "startLine": 481,
+    "endLine": 484
+  },
+  "solutions.krankenhaus.sticky.items.desc": {
+    "startLine": 493,
+    "endLine": 496
+  },
+  "solutions.krankenhaus.timeline": {
+    "startLine": 499,
+    "endLine": 527
+  },
+  "solutions.krankenhaus.timeline.items": {
+    "startLine": 500,
+    "endLine": 526
+  },
+  "solutions.krankenhaus.timeline.items.0": {
+    "startLine": 501,
+    "endLine": 505
+  },
+  "solutions.krankenhaus.timeline.items.text": {
+    "startLine": 521,
+    "endLine": 525
+  },
+  "solutions.krankenhaus.intro": {
+    "startLine": 528,
+    "endLine": 531
+  },
+  "solutions.krankenhaus.stickySection": {
+    "startLine": 532,
+    "endLine": 536
+  },
+  "solutions.krankenhaus.bentoSection": {
+    "startLine": 537,
+    "endLine": 541
+  },
+  "solutions.krankenhaus.bento": {
+    "startLine": 542,
+    "endLine": 563
+  },
+  "solutions.krankenhaus.bento.items": {
+    "startLine": 543,
+    "endLine": 562
+  },
+  "solutions.krankenhaus.bento.items.0": {
+    "startLine": 544,
+    "endLine": 547
+  },
+  "solutions.krankenhaus.bento.items.desc": {
+    "startLine": 548,
+    "endLine": 552
+  },
+  "solutions.krankenhaus.bento.items.badge": {
+    "startLine": 558,
+    "endLine": 561
+  },
+  "solutions.krankenhaus.timelineSection": {
+    "startLine": 564,
+    "endLine": 567
+  },
+  "solutions.krankenhaus.specs": {
+    "startLine": 568,
+    "endLine": 614
+  },
+  "solutions.krankenhaus.specs.therm": {
+    "startLine": 572,
+    "endLine": 592
+  },
+  "solutions.krankenhaus.specs.therm.items": {
+    "startLine": 574,
+    "endLine": 591
+  },
+  "solutions.krankenhaus.specs.therm.items.0": {
+    "startLine": 575,
+    "endLine": 578
+  },
+  "solutions.krankenhaus.specs.therm.items.value": {
+    "startLine": 587,
+    "endLine": 590
+  },
+  "solutions.krankenhaus.specs.mech": {
+    "startLine": 593,
+    "endLine": 613
+  },
+  "solutions.krankenhaus.specs.mech.items": {
+    "startLine": 595,
+    "endLine": 612
+  },
+  "solutions.krankenhaus.specs.mech.items.0": {
+    "startLine": 596,
+    "endLine": 599
+  },
+  "solutions.krankenhaus.specs.mech.items.value": {
+    "startLine": 608,
+    "endLine": 611
+  },
+  "solutions.krankenhaus.bim": {
+    "startLine": 615,
+    "endLine": 619
+  },
+  "solutions.krankenhaus.cta": {
+    "startLine": 620,
+    "endLine": 625
+  },
+  "solutions.hotels": {
+    "startLine": 627,
+    "endLine": 793
+  },
+  "solutions.hotels.meta": {
+    "startLine": 628,
+    "endLine": 631
+  },
+  "solutions.hotels.hero": {
+    "startLine": 632,
+    "endLine": 639
+  },
+  "solutions.hotels.intro": {
+    "startLine": 640,
+    "endLine": 645
+  },
+  "solutions.hotels.textSection": {
+    "startLine": 646,
+    "endLine": 655
+  },
+  "solutions.hotels.stickySection": {
+    "startLine": 656,
+    "endLine": 660
+  },
+  "solutions.hotels.sticky": {
+    "startLine": 661,
+    "endLine": 684
+  },
+  "solutions.hotels.sticky.items": {
+    "startLine": 662,
+    "endLine": 683
+  },
+  "solutions.hotels.sticky.items.0": {
+    "startLine": 663,
+    "endLine": 667
+  },
+  "solutions.hotels.sticky.items.p2": {
+    "startLine": 678,
+    "endLine": 682
+  },
+  "solutions.hotels.perf": {
+    "startLine": 685,
+    "endLine": 712
+  },
+  "solutions.hotels.perf.items": {
+    "startLine": 686,
+    "endLine": 711
+  },
+  "solutions.hotels.perf.items.0": {
+    "startLine": 687,
+    "endLine": 692
+  },
+  "solutions.hotels.perf.items.desc": {
+    "startLine": 705,
+    "endLine": 710
+  },
+  "solutions.hotels.timelineSection": {
+    "startLine": 713,
+    "endLine": 716
+  },
+  "solutions.hotels.timeline": {
+    "startLine": 717,
+    "endLine": 745
+  },
+  "solutions.hotels.timeline.items": {
+    "startLine": 718,
+    "endLine": 744
+  },
+  "solutions.hotels.timeline.items.0": {
+    "startLine": 719,
+    "endLine": 723
+  },
+  "solutions.hotels.timeline.items.text": {
+    "startLine": 739,
+    "endLine": 743
+  },
+  "solutions.hotels.bentoSection": {
+    "startLine": 746,
+    "endLine": 750
+  },
+  "solutions.hotels.bento": {
+    "startLine": 751,
+    "endLine": 770
+  },
+  "solutions.hotels.bento.items": {
+    "startLine": 752,
+    "endLine": 769
+  },
+  "solutions.hotels.bento.items.0": {
+    "startLine": 753,
+    "endLine": 756
+  },
+  "solutions.hotels.bento.items.desc": {
+    "startLine": 765,
+    "endLine": 768
+  },
+  "solutions.hotels.research": {
+    "startLine": 771,
+    "endLine": 781
+  },
+  "solutions.hotels.research.items": {
+    "startLine": 775,
+    "endLine": 780
+  },
+  "solutions.hotels.certs": {
+    "startLine": 782,
+    "endLine": 786
+  },
+  "solutions.hotels.cta": {
+    "startLine": 787,
+    "endLine": 792
+  },
+  "solutions.vorfertigung": {
+    "startLine": 794,
+    "endLine": 918
+  },
+  "solutions.vorfertigung.meta": {
+    "startLine": 795,
+    "endLine": 798
+  },
+  "solutions.vorfertigung.hero": {
+    "startLine": 799,
+    "endLine": 807
+  },
+  "solutions.vorfertigung.intro": {
+    "startLine": 808,
+    "endLine": 816
+  },
+  "solutions.vorfertigung.sticky": {
+    "startLine": 817,
+    "endLine": 836
+  },
+  "solutions.vorfertigung.sticky.items": {
+    "startLine": 818,
+    "endLine": 835
+  },
+  "solutions.vorfertigung.sticky.items.0": {
+    "startLine": 819,
+    "endLine": 822
+  },
+  "solutions.vorfertigung.sticky.items.desc": {
+    "startLine": 831,
+    "endLine": 834
+  },
+  "solutions.vorfertigung.bento": {
+    "startLine": 837,
+    "endLine": 859
+  },
+  "solutions.vorfertigung.bento.items": {
+    "startLine": 841,
+    "endLine": 858
+  },
+  "solutions.vorfertigung.bento.items.0": {
+    "startLine": 842,
+    "endLine": 845
+  },
+  "solutions.vorfertigung.bento.items.desc": {
+    "startLine": 854,
+    "endLine": 857
+  },
+  "solutions.vorfertigung.visual": {
+    "startLine": 860,
+    "endLine": 871
+  },
+  "solutions.vorfertigung.visual.items": {
+    "startLine": 866,
+    "endLine": 870
+  },
+  "solutions.vorfertigung.timeline": {
+    "startLine": 872,
+    "endLine": 903
+  },
+  "solutions.vorfertigung.timeline.events": {
+    "startLine": 876,
+    "endLine": 902
+  },
+  "solutions.vorfertigung.timeline.events.0": {
+    "startLine": 877,
+    "endLine": 881
+  },
+  "solutions.vorfertigung.timeline.events.date": {
+    "startLine": 897,
+    "endLine": 901
+  },
+  "solutions.vorfertigung.manifesto": {
+    "startLine": 904,
+    "endLine": 911
+  },
+  "solutions.vorfertigung.cta": {
+    "startLine": 912,
+    "endLine": 917
+  },
+  "solutions.hochhaus": {
+    "startLine": 919,
+    "endLine": 1069
+  },
+  "solutions.hochhaus.meta": {
+    "startLine": 920,
+    "endLine": 923
+  },
+  "solutions.hochhaus.hero": {
+    "startLine": 924,
+    "endLine": 931
+  },
+  "solutions.hochhaus.intro": {
+    "startLine": 932,
+    "endLine": 939
+  },
+  "solutions.hochhaus.sticky": {
+    "startLine": 940,
+    "endLine": 962
+  },
+  "solutions.hochhaus.sticky.items": {
+    "startLine": 944,
+    "endLine": 961
+  },
+  "solutions.hochhaus.sticky.items.0": {
+    "startLine": 945,
+    "endLine": 948
+  },
+  "solutions.hochhaus.sticky.items.desc": {
+    "startLine": 957,
+    "endLine": 960
+  },
+  "solutions.hochhaus.bento": {
+    "startLine": 963,
+    "endLine": 985
+  },
+  "solutions.hochhaus.bento.items": {
+    "startLine": 967,
+    "endLine": 984
+  },
+  "solutions.hochhaus.bento.items.0": {
+    "startLine": 968,
+    "endLine": 971
+  },
+  "solutions.hochhaus.bento.items.desc": {
+    "startLine": 980,
+    "endLine": 983
+  },
+  "solutions.hochhaus.timeline": {
+    "startLine": 986,
+    "endLine": 1016
+  },
+  "solutions.hochhaus.timeline.items": {
+    "startLine": 989,
+    "endLine": 1015
+  },
+  "solutions.hochhaus.timeline.items.0": {
+    "startLine": 990,
+    "endLine": 994
+  },
+  "solutions.hochhaus.timeline.items.text": {
+    "startLine": 1010,
+    "endLine": 1014
+  },
+  "solutions.hochhaus.data": {
+    "startLine": 1017,
+    "endLine": 1062
+  },
+  "solutions.hochhaus.data.stats": {
+    "startLine": 1025,
+    "endLine": 1061
+  },
+  "solutions.hochhaus.data.stats.0": {
+    "startLine": 1026,
+    "endLine": 1030
+  },
+  "solutions.hochhaus.data.stats.standard": {
+    "startLine": 1056,
+    "endLine": 1060
+  },
+  "solutions.hochhaus.cta": {
+    "startLine": 1063,
+    "endLine": 1068
+  },
+  "solutions.index": {
+    "startLine": 1070,
+    "endLine": 1192
+  },
+  "solutions.index.meta": {
+    "startLine": 1071,
+    "endLine": 1074
+  },
+  "solutions.index.sticky": {
+    "startLine": 1075,
+    "endLine": 1102
+  },
+  "solutions.index.sticky.items": {
+    "startLine": 1076,
+    "endLine": 1097
+  },
+  "solutions.index.sticky.items.0": {
+    "startLine": 1077,
+    "endLine": 1081
+  },
+  "solutions.index.sticky.items.p2": {
+    "startLine": 1092,
+    "endLine": 1096
+  },
+  "solutions.index.sticky.header": {
+    "startLine": 1098,
+    "endLine": 1101
+  },
+  "solutions.index.bento": {
+    "startLine": 1103,
+    "endLine": 1130
+  },
+  "solutions.index.bento.header": {
+    "startLine": 1104,
+    "endLine": 1107
+  },
+  "solutions.index.bento.items": {
+    "startLine": 1108,
+    "endLine": 1129
+  },
+  "solutions.index.bento.items.0": {
+    "startLine": 1109,
+    "endLine": 1112
+  },
+  "solutions.index.bento.items.desc": {
+    "startLine": 1125,
+    "endLine": 1128
+  },
+  "solutions.index.stats": {
+    "startLine": 1131,
+    "endLine": 1145
+  },
+  "solutions.index.stats.0": {
+    "startLine": 1132,
+    "endLine": 1135
+  },
+  "solutions.index.stats.1": {
+    "startLine": 1136,
+    "endLine": 1139
+  },
+  "solutions.index.stats.2": {
+    "startLine": 1140,
+    "endLine": 1143
+  },
+  "solutions.index.cta": {
+    "startLine": 1146,
+    "endLine": 1153
+  },
+  "solutions.index.timeline": {
+    "startLine": 1154,
+    "endLine": 1179
+  },
+  "solutions.index.timeline.items": {
+    "startLine": 1155,
+    "endLine": 1176
+  },
+  "solutions.index.timeline.items.0": {
+    "startLine": 1156,
+    "endLine": 1160
+  },
+  "solutions.index.timeline.items.text": {
+    "startLine": 1171,
+    "endLine": 1175
+  },
+  "solutions.index.hero": {
+    "startLine": 1180,
+    "endLine": 1186
+  },
+  "solutions.index.intro": {
+    "startLine": 1187,
+    "endLine": 1191
+  },
+  "solutions.core": {
+    "startLine": 1193,
+    "endLine": 1248
+  },
+  "solutions.core.meta": {
+    "startLine": 1194,
+    "endLine": 1197
+  },
+  "solutions.core.hero": {
+    "startLine": 1198,
+    "endLine": 1205
+  },
+  "solutions.core.bento1": {
+    "startLine": 1206,
+    "endLine": 1224
+  },
+  "solutions.core.bento1.items": {
+    "startLine": 1210,
+    "endLine": 1223
+  },
+  "solutions.core.bento1.items.0": {
+    "startLine": 1211,
+    "endLine": 1214
+  },
+  "solutions.core.bento1.items.desc": {
+    "startLine": 1219,
+    "endLine": 1222
+  },
+  "solutions.core.stats": {
+    "startLine": 1225,
+    "endLine": 1239
+  },
+  "solutions.core.stats.0": {
+    "startLine": 1226,
+    "endLine": 1229
+  },
+  "solutions.core.stats.1": {
+    "startLine": 1230,
+    "endLine": 1233
+  },
+  "solutions.core.stats.2": {
+    "startLine": 1234,
+    "endLine": 1237
+  },
+  "solutions.core.cta": {
+    "startLine": 1240,
+    "endLine": 1247
+  },
+  "solutions.rechenzentrum": {
+    "startLine": 1249,
+    "endLine": 1348
+  },
+  "solutions.rechenzentrum.meta": {
+    "startLine": 1250,
+    "endLine": 1253
+  },
+  "solutions.rechenzentrum.scroll": {
+    "startLine": 1254,
+    "endLine": 1273
+  },
+  "solutions.rechenzentrum.scroll.items": {
+    "startLine": 1255,
+    "endLine": 1272
+  },
+  "solutions.rechenzentrum.scroll.items.0": {
+    "startLine": 1256,
+    "endLine": 1259
+  },
+  "solutions.rechenzentrum.scroll.items.desc": {
+    "startLine": 1268,
+    "endLine": 1271
+  },
+  "solutions.rechenzentrum.timeline": {
+    "startLine": 1274,
+    "endLine": 1304
+  },
+  "solutions.rechenzentrum.timeline.items": {
+    "startLine": 1275,
+    "endLine": 1301
+  },
+  "solutions.rechenzentrum.timeline.items.0": {
+    "startLine": 1276,
+    "endLine": 1280
+  },
+  "solutions.rechenzentrum.timeline.items.text": {
+    "startLine": 1296,
+    "endLine": 1300
+  },
+  "solutions.rechenzentrum.hero": {
+    "startLine": 1305,
+    "endLine": 1312
+  },
+  "solutions.rechenzentrum.section1": {
+    "startLine": 1313,
+    "endLine": 1317
+  },
+  "solutions.rechenzentrum.section2": {
+    "startLine": 1318,
+    "endLine": 1322
+  },
+  "solutions.rechenzentrum.bento": {
+    "startLine": 1323,
+    "endLine": 1342
+  },
+  "solutions.rechenzentrum.bento.items": {
+    "startLine": 1324,
+    "endLine": 1341
+  },
+  "solutions.rechenzentrum.bento.items.0": {
+    "startLine": 1325,
+    "endLine": 1328
+  },
+  "solutions.rechenzentrum.bento.items.desc": {
+    "startLine": 1337,
+    "endLine": 1340
+  },
+  "solutions.rechenzentrum.cta": {
+    "startLine": 1343,
+    "endLine": 1347
+  },
+  "service": {
+    "startLine": 1350,
+    "endLine": 1392
+  },
+  "service.downloads": {
+    "startLine": 1357,
+    "endLine": 1370
+  },
+  "service.downloads.0": {
+    "startLine": 1358,
+    "endLine": 1361
+  },
+  "service.downloads.s": {
+    "startLine": 1366,
+    "endLine": 1369
+  },
+  "service.videos": {
+    "startLine": 1374,
+    "endLine": 1391
+  },
+  "service.videos.0": {
+    "startLine": 1375,
+    "endLine": 1378
+  },
+  "service.videos.s": {
+    "startLine": 1387,
+    "endLine": 1390
+  },
+  "about": {
+    "startLine": 1393,
+    "endLine": 1591
+  },
+  "about.seo": {
+    "startLine": 1394,
+    "endLine": 1404
+  },
+  "about.cards": {
+    "startLine": 1415,
+    "endLine": 1428
+  },
+  "about.cards.0": {
+    "startLine": 1416,
+    "endLine": 1419
+  },
+  "about.cards.d": {
+    "startLine": 1424,
+    "endLine": 1427
+  },
+  "about.points": {
+    "startLine": 1432,
+    "endLine": 1437
+  },
+  "about.meta": {
+    "startLine": 1440,
+    "endLine": 1443
+  },
+  "about.hero": {
+    "startLine": 1444,
+    "endLine": 1449
+  },
+  "about.intro": {
+    "startLine": 1450,
+    "endLine": 1454
+  },
+  "about.material": {
+    "startLine": 1455,
+    "endLine": 1471
+  },
+  "about.material.items": {
+    "startLine": 1461,
+    "endLine": 1470
+  },
+  "about.material.items.0": {
+    "startLine": 1462,
+    "endLine": 1465
+  },
+  "about.material.items.desc": {
+    "startLine": 1466,
+    "endLine": 1469
+  },
+  "about.timeline": {
+    "startLine": 1472,
+    "endLine": 1497
+  },
+  "about.timeline.items": {
+    "startLine": 1475,
+    "endLine": 1496
+  },
+  "about.timeline.items.0": {
+    "startLine": 1476,
+    "endLine": 1480
+  },
+  "about.timeline.items.text": {
+    "startLine": 1491,
+    "endLine": 1495
+  },
+  "about.sticky": {
+    "startLine": 1498,
+    "endLine": 1520
+  },
+  "about.sticky.items": {
+    "startLine": 1502,
+    "endLine": 1519
+  },
+  "about.sticky.items.0": {
+    "startLine": 1503,
+    "endLine": 1506
+  },
+  "about.sticky.items.desc": {
+    "startLine": 1515,
+    "endLine": 1518
+  },
+  "about.bento": {
+    "startLine": 1521,
+    "endLine": 1543
+  },
+  "about.bento.items": {
+    "startLine": 1525,
+    "endLine": 1542
+  },
+  "about.bento.items.0": {
+    "startLine": 1526,
+    "endLine": 1529
+  },
+  "about.bento.items.desc": {
+    "startLine": 1538,
+    "endLine": 1541
+  },
+  "about.values": {
+    "startLine": 1544,
+    "endLine": 1562
+  },
+  "about.values.items": {
+    "startLine": 1548,
+    "endLine": 1561
+  },
+  "about.values.items.0": {
+    "startLine": 1549,
+    "endLine": 1552
+  },
+  "about.values.items.desc": {
+    "startLine": 1557,
+    "endLine": 1560
+  },
+  "about.genauManagement": {
+    "startLine": 1577,
+    "endLine": 1590
+  },
+  "news": {
+    "startLine": 1592,
+    "endLine": 1618
+  },
+  "news.iso": {
+    "startLine": 1599,
+    "endLine": 1612
+  },
+  "news.iso.0": {
+    "startLine": 1600,
+    "endLine": 1603
+  },
+  "news.iso.1": {
+    "startLine": 1604,
+    "endLine": 1607
+  },
+  "news.iso.2": {
+    "startLine": 1608,
+    "endLine": 1611
+  },
+  "career": {
+    "startLine": 1619,
+    "endLine": 1707
+  },
+  "career.benefits": {
+    "startLine": 1627,
+    "endLine": 1652
+  },
+  "career.benefits.sachbezug": {
+    "startLine": 1628,
+    "endLine": 1631
+  },
+  "career.benefits.lunch": {
+    "startLine": 1632,
+    "endLine": 1635
+  },
+  "career.benefits.internet": {
+    "startLine": 1636,
+    "endLine": 1639
+  },
+  "career.benefits.jobrad": {
+    "startLine": 1640,
+    "endLine": 1643
+  },
+  "career.benefits.kita": {
+    "startLine": 1644,
+    "endLine": 1647
+  },
+  "career.benefits.vwl": {
+    "startLine": 1648,
+    "endLine": 1651
+  },
+  "career.cmQ": {
+    "startLine": 1665,
+    "endLine": 1701
+  },
+  "career.cmQ.0": {
+    "startLine": 1666,
+    "endLine": 1672
+  },
+  "career.cmQ.0.o": {
+    "startLine": 1668,
+    "endLine": 1671
+  },
+  "career.cmQ.1": {
+    "startLine": 1673,
+    "endLine": 1679
+  },
+  "career.cmQ.1.o": {
+    "startLine": 1675,
+    "endLine": 1678
+  },
+  "career.cmQ.2": {
+    "startLine": 1680,
+    "endLine": 1686
+  },
+  "career.cmQ.2.o": {
+    "startLine": 1682,
+    "endLine": 1685
+  },
+  "career.cmQ.3": {
+    "startLine": 1687,
+    "endLine": 1693
+  },
+  "career.cmQ.3.o": {
+    "startLine": 1689,
+    "endLine": 1692
+  },
+  "career.cmQ.4": {
+    "startLine": 1694,
+    "endLine": 1700
+  },
+  "career.cmQ.4.o": {
+    "startLine": 1696,
+    "endLine": 1699
+  },
+  "contact": {
+    "startLine": 1708,
+    "endLine": 1716
+  },
+  "imprint": {
+    "startLine": 1717,
+    "endLine": 1750
+  },
+  "imprint.rows": {
+    "startLine": 1720,
+    "endLine": 1749
+  },
+  "imprint.rows.0": {
+    "startLine": 1721,
+    "endLine": 1724
+  },
+  "imprint.rows.1": {
+    "startLine": 1725,
+    "endLine": 1728
+  },
+  "imprint.rows.2": {
+    "startLine": 1729,
+    "endLine": 1732
+  },
+  "imprint.rows.3": {
+    "startLine": 1733,
+    "endLine": 1736
+  },
+  "imprint.rows.4": {
+    "startLine": 1737,
+    "endLine": 1740
+  },
+  "imprint.rows.5": {
+    "startLine": 1741,
+    "endLine": 1744
+  },
+  "imprint.rows.6": {
+    "startLine": 1745,
+    "endLine": 1748
+  },
+  "finder": {
+    "startLine": 1751,
+    "endLine": 1782
+  },
+  "finder.types": {
+    "startLine": 1757,
+    "endLine": 1761
+  },
+  "finder.tableHead": {
+    "startLine": 1768,
+    "endLine": 1775
+  },
+  "catalogx": {
+    "startLine": 1783,
+    "endLine": 3285
+  },
+  "catalogx.cats": {
+    "startLine": 1797,
+    "endLine": 1925
+  },
+  "catalogx.cats.pipes": {
+    "startLine": 1798,
+    "endLine": 1801
+  },
+  "catalogx.cats.fittings": {
+    "startLine": 1802,
+    "endLine": 1805
+  },
+  "catalogx.cats.transitionFittings": {
+    "startLine": 1806,
+    "endLine": 1908
+  },
+  "catalogx.cats.transitionFittings.meta": {
+    "startLine": 1810,
+    "endLine": 1813
+  },
+  "catalogx.cats.transitionFittings.hero": {
+    "startLine": 1814,
+    "endLine": 1818
+  },
+  "catalogx.cats.transitionFittings.intro": {
+    "startLine": 1819,
+    "endLine": 1823
+  },
+  "catalogx.cats.transitionFittings.timeline": {
+    "startLine": 1824,
+    "endLine": 1854
+  },
+  "catalogx.cats.transitionFittings.timeline.items": {
+    "startLine": 1827,
+    "endLine": 1853
+  },
+  "catalogx.cats.transitionFittings.timeline.items.0": {
+    "startLine": 1828,
+    "endLine": 1832
+  },
+  "catalogx.cats.transitionFittings.timeline.items.text": {
+    "startLine": 1848,
+    "endLine": 1852
+  },
+  "catalogx.cats.transitionFittings.stats": {
+    "startLine": 1855,
+    "endLine": 1901
+  },
+  "catalogx.cats.transitionFittings.stats.items": {
+    "startLine": 1859,
+    "endLine": 1900
+  },
+  "catalogx.cats.transitionFittings.stats.items.0": {
+    "startLine": 1860,
+    "endLine": 1864
+  },
+  "catalogx.cats.transitionFittings.stats.items.sub": {
+    "startLine": 1895,
+    "endLine": 1899
+  },
+  "catalogx.cats.transitionFittings.cta": {
+    "startLine": 1902,
+    "endLine": 1907
+  },
+  "catalogx.cats.valves": {
+    "startLine": 1909,
+    "endLine": 1912
+  },
+  "catalogx.cats.weldInSaddles": {
+    "startLine": 1913,
+    "endLine": 1916
+  },
+  "catalogx.cats.accessories": {
+    "startLine": 1917,
+    "endLine": 1920
+  },
+  "catalogx.cats.tools": {
+    "startLine": 1921,
+    "endLine": 1924
+  },
+  "catalogx.rfq": {
+    "startLine": 1926,
+    "endLine": 1930
+  },
+  "catalogx.similar": {
+    "startLine": 1931,
+    "endLine": 1933
+  },
+  "catalogx.items": {
+    "startLine": 1934,
+    "endLine": 3284
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-6": {
+    "startLine": 1935,
+    "endLine": 1953
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-6.faq": {
+    "startLine": 1939,
+    "endLine": 1952
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-6.faq.0": {
+    "startLine": 1940,
+    "endLine": 1943
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-6.faq.a": {
+    "startLine": 1948,
+    "endLine": 1951
+  },
+  "catalogx.items.k-pipe-pp-rct-sdr-74": {
+    "startLine": 1954,
+    "endLine": 1972
+  },
+  "catalogx.items.k-pipe-pp-rct-sdr-74.faq": {
+    "startLine": 1958,
+    "endLine": 1971
+  },
+  "catalogx.items.k-pipe-pp-rct-sdr-74.faq.0": {
+    "startLine": 1959,
+    "endLine": 1962
+  },
+  "catalogx.items.k-pipe-pp-rct-sdr-74.faq.a": {
+    "startLine": 1967,
+    "endLine": 1970
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-11": {
+    "startLine": 1973,
+    "endLine": 1991
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-11.faq": {
+    "startLine": 1977,
+    "endLine": 1990
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-11.faq.0": {
+    "startLine": 1978,
+    "endLine": 1981
+  },
+  "catalogx.items.k-pipe-pp-r-sdr-11.faq.a": {
+    "startLine": 1986,
+    "endLine": 1989
+  },
+  "catalogx.items.k-pipe-purple-pp-r-sdr-11": {
+    "startLine": 1992,
+    "endLine": 2010
+  },
+  "catalogx.items.k-pipe-purple-pp-r-sdr-11.faq": {
+    "startLine": 1996,
+    "endLine": 2009
+  },
+  "catalogx.items.k-pipe-purple-pp-r-sdr-11.faq.0": {
+    "startLine": 1997,
+    "endLine": 2000
+  },
+  "catalogx.items.k-pipe-purple-pp-r-sdr-11.faq.a": {
+    "startLine": 2005,
+    "endLine": 2008
+  },
+  "catalogx.items.k-fiber-pipe-pp-rct-sdr-74": {
+    "startLine": 2011,
+    "endLine": 2029
+  },
+  "catalogx.items.k-fiber-pipe-pp-rct-sdr-74.faq": {
+    "startLine": 2015,
+    "endLine": 2028
+  },
+  "catalogx.items.k-fiber-pipe-pp-rct-sdr-74.faq.0": {
+    "startLine": 2016,
+    "endLine": 2019
+  },
+  "catalogx.items.k-fiber-pipe-pp-rct-sdr-74.faq.a": {
+    "startLine": 2024,
+    "endLine": 2027
+  },
+  "catalogx.items.k-fiberclima-pipe-pp-rct-sdr-11": {
+    "startLine": 2030,
+    "endLine": 2048
+  },
+  "catalogx.items.k-fiberclima-pipe-pp-rct-sdr-11.faq": {
+    "startLine": 2034,
+    "endLine": 2047
+  },
+  "catalogx.items.k-fiberclima-pipe-pp-rct-sdr-11.faq.0": {
+    "startLine": 2035,
+    "endLine": 2038
+  },
+  "catalogx.items.k-fiberclima-pipe-pp-rct-sdr-11.faq.a": {
+    "startLine": 2043,
+    "endLine": 2046
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-74": {
+    "startLine": 2049,
+    "endLine": 2067
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-74.faq": {
+    "startLine": 2053,
+    "endLine": 2066
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-74.faq.0": {
+    "startLine": 2054,
+    "endLine": 2057
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-74.faq.a": {
+    "startLine": 2062,
+    "endLine": 2065
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-9": {
+    "startLine": 2068,
+    "endLine": 2086
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-9.faq": {
+    "startLine": 2072,
+    "endLine": 2085
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-9.faq.0": {
+    "startLine": 2073,
+    "endLine": 2076
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-9.faq.a": {
+    "startLine": 2081,
+    "endLine": 2084
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-11": {
+    "startLine": 2087,
+    "endLine": 2105
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq": {
+    "startLine": 2091,
+    "endLine": 2104
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.0": {
+    "startLine": 2092,
+    "endLine": 2095
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.a": {
+    "startLine": 2100,
+    "endLine": 2103
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-17": {
+    "startLine": 2106,
+    "endLine": 2124
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq": {
+    "startLine": 2110,
+    "endLine": 2123
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.0": {
+    "startLine": 2111,
+    "endLine": 2114
+  },
+  "catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.a": {
+    "startLine": 2119,
+    "endLine": 2122
+  },
+  "catalogx.items.cap": {
+    "startLine": 2125,
+    "endLine": 2143
+  },
+  "catalogx.items.cap.faq": {
+    "startLine": 2129,
+    "endLine": 2142
+  },
+  "catalogx.items.cap.faq.0": {
+    "startLine": 2130,
+    "endLine": 2133
+  },
+  "catalogx.items.cap.faq.a": {
+    "startLine": 2138,
+    "endLine": 2141
+  },
+  "catalogx.items.socket": {
+    "startLine": 2144,
+    "endLine": 2162
+  },
+  "catalogx.items.socket.faq": {
+    "startLine": 2148,
+    "endLine": 2161
+  },
+  "catalogx.items.socket.faq.0": {
+    "startLine": 2149,
+    "endLine": 2152
+  },
+  "catalogx.items.socket.faq.a": {
+    "startLine": 2157,
+    "endLine": 2160
+  },
+  "catalogx.items.elbow-45": {
+    "startLine": 2163,
+    "endLine": 2181
+  },
+  "catalogx.items.elbow-45.faq": {
+    "startLine": 2167,
+    "endLine": 2180
+  },
+  "catalogx.items.elbow-45.faq.0": {
+    "startLine": 2168,
+    "endLine": 2171
+  },
+  "catalogx.items.elbow-45.faq.a": {
+    "startLine": 2176,
+    "endLine": 2179
+  },
+  "catalogx.items.elbow-45-femalemale": {
+    "startLine": 2182,
+    "endLine": 2200
+  },
+  "catalogx.items.elbow-45-femalemale.faq": {
+    "startLine": 2186,
+    "endLine": 2199
+  },
+  "catalogx.items.elbow-45-femalemale.faq.0": {
+    "startLine": 2187,
+    "endLine": 2190
+  },
+  "catalogx.items.elbow-45-femalemale.faq.a": {
+    "startLine": 2195,
+    "endLine": 2198
+  },
+  "catalogx.items.elbow-90": {
+    "startLine": 2201,
+    "endLine": 2219
+  },
+  "catalogx.items.elbow-90.faq": {
+    "startLine": 2205,
+    "endLine": 2218
+  },
+  "catalogx.items.elbow-90.faq.0": {
+    "startLine": 2206,
+    "endLine": 2209
+  },
+  "catalogx.items.elbow-90.faq.a": {
+    "startLine": 2214,
+    "endLine": 2217
+  },
+  "catalogx.items.elbow-90-femalemale": {
+    "startLine": 2220,
+    "endLine": 2238
+  },
+  "catalogx.items.elbow-90-femalemale.faq": {
+    "startLine": 2224,
+    "endLine": 2237
+  },
+  "catalogx.items.elbow-90-femalemale.faq.0": {
+    "startLine": 2225,
+    "endLine": 2228
+  },
+  "catalogx.items.elbow-90-femalemale.faq.a": {
+    "startLine": 2233,
+    "endLine": 2236
+  },
+  "catalogx.items.electrofusion-socket": {
+    "startLine": 2239,
+    "endLine": 2257
+  },
+  "catalogx.items.electrofusion-socket.faq": {
+    "startLine": 2243,
+    "endLine": 2256
+  },
+  "catalogx.items.electrofusion-socket.faq.0": {
+    "startLine": 2244,
+    "endLine": 2247
+  },
+  "catalogx.items.electrofusion-socket.faq.a": {
+    "startLine": 2252,
+    "endLine": 2255
+  },
+  "catalogx.items.flange-adaptor": {
+    "startLine": 2258,
+    "endLine": 2276
+  },
+  "catalogx.items.flange-adaptor.faq": {
+    "startLine": 2262,
+    "endLine": 2275
+  },
+  "catalogx.items.flange-adaptor.faq.0": {
+    "startLine": 2263,
+    "endLine": 2266
+  },
+  "catalogx.items.flange-adaptor.faq.a": {
+    "startLine": 2271,
+    "endLine": 2274
+  },
+  "catalogx.items.reducing-bush": {
+    "startLine": 2277,
+    "endLine": 2295
+  },
+  "catalogx.items.reducing-bush.faq": {
+    "startLine": 2281,
+    "endLine": 2294
+  },
+  "catalogx.items.reducing-bush.faq.0": {
+    "startLine": 2282,
+    "endLine": 2285
+  },
+  "catalogx.items.reducing-bush.faq.a": {
+    "startLine": 2290,
+    "endLine": 2293
+  },
+  "catalogx.items.reducing-tee": {
+    "startLine": 2296,
+    "endLine": 2314
+  },
+  "catalogx.items.reducing-tee.faq": {
+    "startLine": 2300,
+    "endLine": 2313
+  },
+  "catalogx.items.reducing-tee.faq.0": {
+    "startLine": 2301,
+    "endLine": 2304
+  },
+  "catalogx.items.reducing-tee.faq.a": {
+    "startLine": 2309,
+    "endLine": 2312
+  },
+  "catalogx.items.reducing-tee-large-sizes": {
+    "startLine": 2315,
+    "endLine": 2333
+  },
+  "catalogx.items.reducing-tee-large-sizes.faq": {
+    "startLine": 2319,
+    "endLine": 2332
+  },
+  "catalogx.items.reducing-tee-large-sizes.faq.0": {
+    "startLine": 2320,
+    "endLine": 2323
+  },
+  "catalogx.items.reducing-tee-large-sizes.faq.a": {
+    "startLine": 2328,
+    "endLine": 2331
+  },
+  "catalogx.items.tee": {
+    "startLine": 2334,
+    "endLine": 2352
+  },
+  "catalogx.items.tee.faq": {
+    "startLine": 2338,
+    "endLine": 2351
+  },
+  "catalogx.items.tee.faq.0": {
+    "startLine": 2339,
+    "endLine": 2342
+  },
+  "catalogx.items.tee.faq.a": {
+    "startLine": 2347,
+    "endLine": 2350
+  },
+  "catalogx.items.cross": {
+    "startLine": 2353,
+    "endLine": 2371
+  },
+  "catalogx.items.cross.faq": {
+    "startLine": 2357,
+    "endLine": 2370
+  },
+  "catalogx.items.cross.faq.0": {
+    "startLine": 2358,
+    "endLine": 2361
+  },
+  "catalogx.items.cross.faq.a": {
+    "startLine": 2366,
+    "endLine": 2369
+  },
+  "catalogx.items.adaptor-socket-female-thread": {
+    "startLine": 2372,
+    "endLine": 2390
+  },
+  "catalogx.items.adaptor-socket-female-thread.faq": {
+    "startLine": 2376,
+    "endLine": 2389
+  },
+  "catalogx.items.adaptor-socket-female-thread.faq.0": {
+    "startLine": 2377,
+    "endLine": 2380
+  },
+  "catalogx.items.adaptor-socket-female-thread.faq.a": {
+    "startLine": 2385,
+    "endLine": 2388
+  },
+  "catalogx.items.adaptor-socket-male-thread": {
+    "startLine": 2391,
+    "endLine": 2409
+  },
+  "catalogx.items.adaptor-socket-male-thread.faq": {
+    "startLine": 2395,
+    "endLine": 2408
+  },
+  "catalogx.items.adaptor-socket-male-thread.faq.0": {
+    "startLine": 2396,
+    "endLine": 2399
+  },
+  "catalogx.items.adaptor-socket-male-thread.faq.a": {
+    "startLine": 2404,
+    "endLine": 2407
+  },
+  "catalogx.items.elbow-90-male-thread": {
+    "startLine": 2410,
+    "endLine": 2428
+  },
+  "catalogx.items.elbow-90-male-thread.faq": {
+    "startLine": 2414,
+    "endLine": 2427
+  },
+  "catalogx.items.elbow-90-male-thread.faq.0": {
+    "startLine": 2415,
+    "endLine": 2418
+  },
+  "catalogx.items.elbow-90-male-thread.faq.a": {
+    "startLine": 2423,
+    "endLine": 2426
+  },
+  "catalogx.items.elbow-bracket-90-female-thread": {
+    "startLine": 2429,
+    "endLine": 2447
+  },
+  "catalogx.items.elbow-bracket-90-female-thread.faq": {
+    "startLine": 2433,
+    "endLine": 2446
+  },
+  "catalogx.items.elbow-bracket-90-female-thread.faq.0": {
+    "startLine": 2434,
+    "endLine": 2437
+  },
+  "catalogx.items.elbow-bracket-90-female-thread.faq.a": {
+    "startLine": 2442,
+    "endLine": 2445
+  },
+  "catalogx.items.elbowwall-bracket-90-female-thread": {
+    "startLine": 2448,
+    "endLine": 2466
+  },
+  "catalogx.items.elbowwall-bracket-90-female-thread.faq": {
+    "startLine": 2452,
+    "endLine": 2465
+  },
+  "catalogx.items.elbowwall-bracket-90-female-thread.faq.0": {
+    "startLine": 2453,
+    "endLine": 2456
+  },
+  "catalogx.items.elbowwall-bracket-90-female-thread.faq.a": {
+    "startLine": 2461,
+    "endLine": 2464
+  },
+  "catalogx.items.metal-union-male-thread-yellow-brass": {
+    "startLine": 2467,
+    "endLine": 2485
+  },
+  "catalogx.items.metal-union-male-thread-yellow-brass.faq": {
+    "startLine": 2471,
+    "endLine": 2484
+  },
+  "catalogx.items.metal-union-male-thread-yellow-brass.faq.0": {
+    "startLine": 2472,
+    "endLine": 2475
+  },
+  "catalogx.items.metal-union-male-thread-yellow-brass.faq.a": {
+    "startLine": 2480,
+    "endLine": 2483
+  },
+  "catalogx.items.metal-union-female-thread-yellow-brass": {
+    "startLine": 2486,
+    "endLine": 2504
+  },
+  "catalogx.items.metal-union-female-thread-yellow-brass.faq": {
+    "startLine": 2490,
+    "endLine": 2503
+  },
+  "catalogx.items.metal-union-female-thread-yellow-brass.faq.0": {
+    "startLine": 2491,
+    "endLine": 2494
+  },
+  "catalogx.items.metal-union-female-thread-yellow-brass.faq.a": {
+    "startLine": 2499,
+    "endLine": 2502
+  },
+  "catalogx.items.metal-union-male-thread": {
+    "startLine": 2505,
+    "endLine": 2523
+  },
+  "catalogx.items.metal-union-male-thread.faq": {
+    "startLine": 2509,
+    "endLine": 2522
+  },
+  "catalogx.items.metal-union-male-thread.faq.0": {
+    "startLine": 2510,
+    "endLine": 2513
+  },
+  "catalogx.items.metal-union-male-thread.faq.a": {
+    "startLine": 2518,
+    "endLine": 2521
+  },
+  "catalogx.items.metal-union-female-thread": {
+    "startLine": 2524,
+    "endLine": 2542
+  },
+  "catalogx.items.metal-union-female-thread.faq": {
+    "startLine": 2528,
+    "endLine": 2541
+  },
+  "catalogx.items.metal-union-female-thread.faq.0": {
+    "startLine": 2529,
+    "endLine": 2532
+  },
+  "catalogx.items.metal-union-female-thread.faq.a": {
+    "startLine": 2537,
+    "endLine": 2540
+  },
+  "catalogx.items.tee-90-male-thread": {
+    "startLine": 2543,
+    "endLine": 2561
+  },
+  "catalogx.items.tee-90-male-thread.faq": {
+    "startLine": 2547,
+    "endLine": 2560
+  },
+  "catalogx.items.tee-90-male-thread.faq.0": {
+    "startLine": 2548,
+    "endLine": 2551
+  },
+  "catalogx.items.tee-90-male-thread.faq.a": {
+    "startLine": 2556,
+    "endLine": 2559
+  },
+  "catalogx.items.tee-90-female-thread": {
+    "startLine": 2562,
+    "endLine": 2580
+  },
+  "catalogx.items.tee-90-female-thread.faq": {
+    "startLine": 2566,
+    "endLine": 2579
+  },
+  "catalogx.items.tee-90-female-thread.faq.0": {
+    "startLine": 2567,
+    "endLine": 2570
+  },
+  "catalogx.items.tee-90-female-thread.faq.a": {
+    "startLine": 2575,
+    "endLine": 2578
+  },
+  "catalogx.items.union": {
+    "startLine": 2581,
+    "endLine": 2599
+  },
+  "catalogx.items.union.faq": {
+    "startLine": 2585,
+    "endLine": 2598
+  },
+  "catalogx.items.union.faq.0": {
+    "startLine": 2586,
+    "endLine": 2589
+  },
+  "catalogx.items.union.faq.a": {
+    "startLine": 2594,
+    "endLine": 2597
+  },
+  "catalogx.items.union-for-watermeters": {
+    "startLine": 2600,
+    "endLine": 2618
+  },
+  "catalogx.items.union-for-watermeters.faq": {
+    "startLine": 2604,
+    "endLine": 2617
+  },
+  "catalogx.items.union-for-watermeters.faq.0": {
+    "startLine": 2605,
+    "endLine": 2608
+  },
+  "catalogx.items.union-for-watermeters.faq.a": {
+    "startLine": 2613,
+    "endLine": 2616
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-pp": {
+    "startLine": 2619,
+    "endLine": 2637
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-pp.faq": {
+    "startLine": 2623,
+    "endLine": 2636
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-pp.faq.0": {
+    "startLine": 2624,
+    "endLine": 2627
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-pp.faq.a": {
+    "startLine": 2632,
+    "endLine": 2635
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated": {
+    "startLine": 2638,
+    "endLine": 2656
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq": {
+    "startLine": 2642,
+    "endLine": 2655
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.0": {
+    "startLine": 2643,
+    "endLine": 2646
+  },
+  "catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.a": {
+    "startLine": 2651,
+    "endLine": 2654
+  },
+  "catalogx.items.tee-90-female-thread-for-internal-valve": {
+    "startLine": 2657,
+    "endLine": 2675
+  },
+  "catalogx.items.tee-90-female-thread-for-internal-valve.faq": {
+    "startLine": 2661,
+    "endLine": 2674
+  },
+  "catalogx.items.tee-90-female-thread-for-internal-valve.faq.0": {
+    "startLine": 2662,
+    "endLine": 2665
+  },
+  "catalogx.items.tee-90-female-thread-for-internal-valve.faq.a": {
+    "startLine": 2670,
+    "endLine": 2673
+  },
+  "catalogx.items.concealed-valve-chrome-light-part": {
+    "startLine": 2676,
+    "endLine": 2694
+  },
+  "catalogx.items.concealed-valve-chrome-light-part.faq": {
+    "startLine": 2680,
+    "endLine": 2693
+  },
+  "catalogx.items.concealed-valve-chrome-light-part.faq.0": {
+    "startLine": 2681,
+    "endLine": 2684
+  },
+  "catalogx.items.concealed-valve-chrome-light-part.faq.a": {
+    "startLine": 2689,
+    "endLine": 2692
+  },
+  "catalogx.items.concealed-valve-chrome-heavy-part": {
+    "startLine": 2695,
+    "endLine": 2713
+  },
+  "catalogx.items.concealed-valve-chrome-heavy-part.faq": {
+    "startLine": 2699,
+    "endLine": 2712
+  },
+  "catalogx.items.concealed-valve-chrome-heavy-part.faq.0": {
+    "startLine": 2700,
+    "endLine": 2703
+  },
+  "catalogx.items.concealed-valve-chrome-heavy-part.faq.a": {
+    "startLine": 2708,
+    "endLine": 2711
+  },
+  "catalogx.items.straight-seat-valve-upper-part-green-handle": {
+    "startLine": 2714,
+    "endLine": 2732
+  },
+  "catalogx.items.straight-seat-valve-upper-part-green-handle.faq": {
+    "startLine": 2718,
+    "endLine": 2731
+  },
+  "catalogx.items.straight-seat-valve-upper-part-green-handle.faq.0": {
+    "startLine": 2719,
+    "endLine": 2722
+  },
+  "catalogx.items.straight-seat-valve-upper-part-green-handle.faq.a": {
+    "startLine": 2727,
+    "endLine": 2730
+  },
+  "catalogx.items.elongation-pieces": {
+    "startLine": 2733,
+    "endLine": 2751
+  },
+  "catalogx.items.elongation-pieces.faq": {
+    "startLine": 2737,
+    "endLine": 2750
+  },
+  "catalogx.items.elongation-pieces.faq.0": {
+    "startLine": 2738,
+    "endLine": 2741
+  },
+  "catalogx.items.elongation-pieces.faq.a": {
+    "startLine": 2746,
+    "endLine": 2749
+  },
+  "catalogx.items.battery-female-thread": {
+    "startLine": 2752,
+    "endLine": 2770
+  },
+  "catalogx.items.battery-female-thread.faq": {
+    "startLine": 2756,
+    "endLine": 2769
+  },
+  "catalogx.items.battery-female-thread.faq.0": {
+    "startLine": 2757,
+    "endLine": 2760
+  },
+  "catalogx.items.battery-female-thread.faq.a": {
+    "startLine": 2765,
+    "endLine": 2768
+  },
+  "catalogx.items.adjustable-battery-female-thread": {
+    "startLine": 2771,
+    "endLine": 2789
+  },
+  "catalogx.items.adjustable-battery-female-thread.faq": {
+    "startLine": 2775,
+    "endLine": 2788
+  },
+  "catalogx.items.adjustable-battery-female-thread.faq.0": {
+    "startLine": 2776,
+    "endLine": 2779
+  },
+  "catalogx.items.adjustable-battery-female-thread.faq.a": {
+    "startLine": 2784,
+    "endLine": 2787
+  },
+  "catalogx.items.weld-in-saddle": {
+    "startLine": 2790,
+    "endLine": 2808
+  },
+  "catalogx.items.weld-in-saddle.faq": {
+    "startLine": 2794,
+    "endLine": 2807
+  },
+  "catalogx.items.weld-in-saddle.faq.0": {
+    "startLine": 2795,
+    "endLine": 2798
+  },
+  "catalogx.items.weld-in-saddle.faq.a": {
+    "startLine": 2803,
+    "endLine": 2806
+  },
+  "catalogx.items.weld-in-saddle-female-thread": {
+    "startLine": 2809,
+    "endLine": 2827
+  },
+  "catalogx.items.weld-in-saddle-female-thread.faq": {
+    "startLine": 2813,
+    "endLine": 2826
+  },
+  "catalogx.items.weld-in-saddle-female-thread.faq.0": {
+    "startLine": 2814,
+    "endLine": 2817
+  },
+  "catalogx.items.weld-in-saddle-female-thread.faq.a": {
+    "startLine": 2822,
+    "endLine": 2825
+  },
+  "catalogx.items.weld-in-saddle-male-thread": {
+    "startLine": 2828,
+    "endLine": 2846
+  },
+  "catalogx.items.weld-in-saddle-male-thread.faq": {
+    "startLine": 2832,
+    "endLine": 2845
+  },
+  "catalogx.items.weld-in-saddle-male-thread.faq.0": {
+    "startLine": 2833,
+    "endLine": 2836
+  },
+  "catalogx.items.weld-in-saddle-male-thread.faq.a": {
+    "startLine": 2841,
+    "endLine": 2844
+  },
+  "catalogx.items.pipe-clamps": {
+    "startLine": 2847,
+    "endLine": 2865
+  },
+  "catalogx.items.pipe-clamps.faq": {
+    "startLine": 2851,
+    "endLine": 2864
+  },
+  "catalogx.items.pipe-clamps.faq.0": {
+    "startLine": 2852,
+    "endLine": 2855
+  },
+  "catalogx.items.pipe-clamps.faq.a": {
+    "startLine": 2860,
+    "endLine": 2863
+  },
+  "catalogx.items.backing-flange-pp-steel-sfbf": {
+    "startLine": 2866,
+    "endLine": 2884
+  },
+  "catalogx.items.backing-flange-pp-steel-sfbf.faq": {
+    "startLine": 2870,
+    "endLine": 2883
+  },
+  "catalogx.items.backing-flange-pp-steel-sfbf.faq.0": {
+    "startLine": 2871,
+    "endLine": 2874
+  },
+  "catalogx.items.backing-flange-pp-steel-sfbf.faq.a": {
+    "startLine": 2879,
+    "endLine": 2882
+  },
+  "catalogx.items.flat-gasket": {
+    "startLine": 2885,
+    "endLine": 2903
+  },
+  "catalogx.items.flat-gasket.faq": {
+    "startLine": 2889,
+    "endLine": 2902
+  },
+  "catalogx.items.flat-gasket.faq.0": {
+    "startLine": 2890,
+    "endLine": 2893
+  },
+  "catalogx.items.flat-gasket.faq.a": {
+    "startLine": 2898,
+    "endLine": 2901
+  },
+  "catalogx.items.flat-gasket-for-unions-pp-r": {
+    "startLine": 2904,
+    "endLine": 2922
+  },
+  "catalogx.items.flat-gasket-for-unions-pp-r.faq": {
+    "startLine": 2908,
+    "endLine": 2921
+  },
+  "catalogx.items.flat-gasket-for-unions-pp-r.faq.0": {
+    "startLine": 2909,
+    "endLine": 2912
+  },
+  "catalogx.items.flat-gasket-for-unions-pp-r.faq.a": {
+    "startLine": 2917,
+    "endLine": 2920
+  },
+  "catalogx.items.plug": {
+    "startLine": 2923,
+    "endLine": 2941
+  },
+  "catalogx.items.plug.faq": {
+    "startLine": 2927,
+    "endLine": 2940
+  },
+  "catalogx.items.plug.faq.0": {
+    "startLine": 2928,
+    "endLine": 2931
+  },
+  "catalogx.items.plug.faq.a": {
+    "startLine": 2936,
+    "endLine": 2939
+  },
+  "catalogx.items.pipe-cutter-2040": {
+    "startLine": 2942,
+    "endLine": 2960
+  },
+  "catalogx.items.pipe-cutter-2040.faq": {
+    "startLine": 2946,
+    "endLine": 2959
+  },
+  "catalogx.items.pipe-cutter-2040.faq.0": {
+    "startLine": 2947,
+    "endLine": 2950
+  },
+  "catalogx.items.pipe-cutter-2040.faq.a": {
+    "startLine": 2955,
+    "endLine": 2958
+  },
+  "catalogx.items.pipe-cutter-50125": {
+    "startLine": 2961,
+    "endLine": 2979
+  },
+  "catalogx.items.pipe-cutter-50125.faq": {
+    "startLine": 2965,
+    "endLine": 2978
+  },
+  "catalogx.items.pipe-cutter-50125.faq.0": {
+    "startLine": 2966,
+    "endLine": 2969
+  },
+  "catalogx.items.pipe-cutter-50125.faq.a": {
+    "startLine": 2974,
+    "endLine": 2977
+  },
+  "catalogx.items.pipe-cutter-50125-1": {
+    "startLine": 2980,
+    "endLine": 2998
+  },
+  "catalogx.items.pipe-cutter-50125-1.faq": {
+    "startLine": 2984,
+    "endLine": 2997
+  },
+  "catalogx.items.pipe-cutter-50125-1.faq.0": {
+    "startLine": 2985,
+    "endLine": 2988
+  },
+  "catalogx.items.pipe-cutter-50125-1.faq.a": {
+    "startLine": 2993,
+    "endLine": 2996
+  },
+  "catalogx.items.hand-welding-machine-2032-complete-set": {
+    "startLine": 2999,
+    "endLine": 3017
+  },
+  "catalogx.items.hand-welding-machine-2032-complete-set.faq": {
+    "startLine": 3003,
+    "endLine": 3016
+  },
+  "catalogx.items.hand-welding-machine-2032-complete-set.faq.0": {
+    "startLine": 3004,
+    "endLine": 3007
+  },
+  "catalogx.items.hand-welding-machine-2032-complete-set.faq.a": {
+    "startLine": 3012,
+    "endLine": 3015
+  },
+  "catalogx.items.hand-welding-machine-2063-complete-set": {
+    "startLine": 3018,
+    "endLine": 3036
+  },
+  "catalogx.items.hand-welding-machine-2063-complete-set.faq": {
+    "startLine": 3022,
+    "endLine": 3035
+  },
+  "catalogx.items.hand-welding-machine-2063-complete-set.faq.0": {
+    "startLine": 3023,
+    "endLine": 3026
+  },
+  "catalogx.items.hand-welding-machine-2063-complete-set.faq.a": {
+    "startLine": 3031,
+    "endLine": 3034
+  },
+  "catalogx.items.hand-welding-machine-mirror-50125": {
+    "startLine": 3037,
+    "endLine": 3055
+  },
+  "catalogx.items.hand-welding-machine-mirror-50125.faq": {
+    "startLine": 3041,
+    "endLine": 3054
+  },
+  "catalogx.items.hand-welding-machine-mirror-50125.faq.0": {
+    "startLine": 3042,
+    "endLine": 3045
+  },
+  "catalogx.items.hand-welding-machine-mirror-50125.faq.a": {
+    "startLine": 3050,
+    "endLine": 3053
+  },
+  "catalogx.items.welding-tool": {
+    "startLine": 3056,
+    "endLine": 3074
+  },
+  "catalogx.items.welding-tool.faq": {
+    "startLine": 3060,
+    "endLine": 3073
+  },
+  "catalogx.items.welding-tool.faq.0": {
+    "startLine": 3061,
+    "endLine": 3064
+  },
+  "catalogx.items.welding-tool.faq.a": {
+    "startLine": 3069,
+    "endLine": 3072
+  },
+  "catalogx.items.welding-machine-50125-complete-set": {
+    "startLine": 3075,
+    "endLine": 3093
+  },
+  "catalogx.items.welding-machine-50125-complete-set.faq": {
+    "startLine": 3079,
+    "endLine": 3092
+  },
+  "catalogx.items.welding-machine-50125-complete-set.faq.0": {
+    "startLine": 3080,
+    "endLine": 3083
+  },
+  "catalogx.items.welding-machine-50125-complete-set.faq.a": {
+    "startLine": 3088,
+    "endLine": 3091
+  },
+  "catalogx.items.butt-welding-machine-90250": {
+    "startLine": 3094,
+    "endLine": 3112
+  },
+  "catalogx.items.butt-welding-machine-90250.faq": {
+    "startLine": 3098,
+    "endLine": 3111
+  },
+  "catalogx.items.butt-welding-machine-90250.faq.0": {
+    "startLine": 3099,
+    "endLine": 3102
+  },
+  "catalogx.items.butt-welding-machine-90250.faq.a": {
+    "startLine": 3107,
+    "endLine": 3110
+  },
+  "catalogx.items.electrofusion-machine": {
+    "startLine": 3113,
+    "endLine": 3131
+  },
+  "catalogx.items.electrofusion-machine.faq": {
+    "startLine": 3117,
+    "endLine": 3130
+  },
+  "catalogx.items.electrofusion-machine.faq.0": {
+    "startLine": 3118,
+    "endLine": 3121
+  },
+  "catalogx.items.electrofusion-machine.faq.a": {
+    "startLine": 3126,
+    "endLine": 3129
+  },
+  "catalogx.items.welding-tool-for-weld-in-saddles": {
+    "startLine": 3132,
+    "endLine": 3150
+  },
+  "catalogx.items.welding-tool-for-weld-in-saddles.faq": {
+    "startLine": 3136,
+    "endLine": 3149
+  },
+  "catalogx.items.welding-tool-for-weld-in-saddles.faq.0": {
+    "startLine": 3137,
+    "endLine": 3140
+  },
+  "catalogx.items.welding-tool-for-weld-in-saddles.faq.a": {
+    "startLine": 3145,
+    "endLine": 3148
+  },
+  "catalogx.items.drilling-tool-for-weld-in-saddle": {
+    "startLine": 3151,
+    "endLine": 3169
+  },
+  "catalogx.items.drilling-tool-for-weld-in-saddle.faq": {
+    "startLine": 3155,
+    "endLine": 3168
+  },
+  "catalogx.items.drilling-tool-for-weld-in-saddle.faq.0": {
+    "startLine": 3156,
+    "endLine": 3159
+  },
+  "catalogx.items.drilling-tool-for-weld-in-saddle.faq.a": {
+    "startLine": 3164,
+    "endLine": 3167
+  },
+  "catalogx.items.welding-tool-for-repairing-plug": {
+    "startLine": 3170,
+    "endLine": 3188
+  },
+  "catalogx.items.welding-tool-for-repairing-plug.faq": {
+    "startLine": 3174,
+    "endLine": 3187
+  },
+  "catalogx.items.welding-tool-for-repairing-plug.faq.0": {
+    "startLine": 3175,
+    "endLine": 3178
+  },
+  "catalogx.items.welding-tool-for-repairing-plug.faq.a": {
+    "startLine": 3183,
+    "endLine": 3186
+  },
+  "catalogx.items.repairing-plug": {
+    "startLine": 3189,
+    "endLine": 3207
+  },
+  "catalogx.items.repairing-plug.faq": {
+    "startLine": 3193,
+    "endLine": 3206
+  },
+  "catalogx.items.repairing-plug.faq.0": {
+    "startLine": 3194,
+    "endLine": 3197
+  },
+  "catalogx.items.repairing-plug.faq.a": {
+    "startLine": 3202,
+    "endLine": 3205
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74": {
+    "startLine": 3208,
+    "endLine": 3226
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq": {
+    "startLine": 3212,
+    "endLine": 3225
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.0": {
+    "startLine": 3213,
+    "endLine": 3216
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.a": {
+    "startLine": 3221,
+    "endLine": 3224
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74": {
+    "startLine": 3227,
+    "endLine": 3245
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq": {
+    "startLine": 3231,
+    "endLine": 3244
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.0": {
+    "startLine": 3232,
+    "endLine": 3235
+  },
+  "catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.a": {
+    "startLine": 3240,
+    "endLine": 3243
+  },
+  "catalogx.items.cross-over": {
+    "startLine": 3246,
+    "endLine": 3264
+  },
+  "catalogx.items.cross-over.faq": {
+    "startLine": 3250,
+    "endLine": 3263
+  },
+  "catalogx.items.cross-over.faq.0": {
+    "startLine": 3251,
+    "endLine": 3254
+  },
+  "catalogx.items.cross-over.faq.a": {
+    "startLine": 3259,
+    "endLine": 3262
+  },
+  "catalogx.items.cross-over-pipe": {
+    "startLine": 3265,
+    "endLine": 3283
+  },
+  "catalogx.items.cross-over-pipe.faq": {
+    "startLine": 3269,
+    "endLine": 3282
+  },
+  "catalogx.items.cross-over-pipe.faq.0": {
+    "startLine": 3270,
+    "endLine": 3273
+  },
+  "catalogx.items.cross-over-pipe.faq.a": {
+    "startLine": 3278,
+    "endLine": 3281
+  },
+  "products": {
+    "startLine": 3286,
+    "endLine": 4646
+  },
+  "products.range": {
+    "startLine": 3303,
+    "endLine": 3320
+  },
+  "products.range.0": {
+    "startLine": 3304,
+    "endLine": 3307
+  },
+  "products.range.d": {
+    "startLine": 3316,
+    "endLine": 3319
+  },
+  "products.tableHead": {
+    "startLine": 3325,
+    "endLine": 3329
+  },
+  "products.tableRows": {
+    "startLine": 3330,
+    "endLine": 3356
+  },
+  "products.tableRows.0": {
+    "startLine": 3331,
+    "endLine": 3335
+  },
+  "products.tableRows.1": {
+    "startLine": 3336,
+    "endLine": 3340
+  },
+  "products.tableRows.2": {
+    "startLine": 3341,
+    "endLine": 3345
+  },
+  "products.tableRows.3": {
+    "startLine": 3346,
+    "endLine": 3350
+  },
+  "products.tableRows.4": {
+    "startLine": 3351,
+    "endLine": 3355
+  },
+  "products.labels": {
+    "startLine": 3382,
+    "endLine": 3406
+  },
+  "products.category": {
+    "startLine": 3407,
+    "endLine": 3415
+  },
+  "products.seoArticle": {
+    "startLine": 4290,
+    "endLine": 4438
+  },
+  "products.seoArticle.pipes": {
+    "startLine": 4291,
+    "endLine": 4328
+  },
+  "products.seoArticle.pipes.faq": {
+    "startLine": 4305,
+    "endLine": 4327
+  },
+  "products.seoArticle.pipes.faq.0": {
+    "startLine": 4306,
+    "endLine": 4309
+  },
+  "products.seoArticle.pipes.faq.a": {
+    "startLine": 3470,
+    "endLine": 3473
+  },
+  "products.seoArticle.fittings": {
+    "startLine": 4408,
+    "endLine": 4422
+  },
+  "products.seoArticle.fittings.advList": {
+    "startLine": 4411,
+    "endLine": 4417
+  },
+  "products.seoArticle.fittings.faq": {
+    "startLine": 3489,
+    "endLine": 3498
+  },
+  "products.seoArticle.fittings.faq.0": {
+    "startLine": 3490,
+    "endLine": 3493
+  },
+  "products.seoArticle.fittings.faq.a": {
+    "startLine": 3494,
+    "endLine": 3497
+  },
+  "products.seoArticle.valves": {
+    "startLine": 4423,
+    "endLine": 4437
+  },
+  "products.seoArticle.valves.advList": {
+    "startLine": 4426,
+    "endLine": 4432
+  },
+  "products.seoArticle.valves.faq": {
+    "startLine": 3514,
+    "endLine": 3523
+  },
+  "products.seoArticle.valves.faq.0": {
+    "startLine": 3515,
+    "endLine": 3518
+  },
+  "products.seoArticle.valves.faq.a": {
+    "startLine": 3519,
+    "endLine": 3522
+  },
+  "products.seoArticle.weldInSaddles": {
+    "startLine": 4329,
+    "endLine": 4344
+  },
+  "products.seoArticle.weldInSaddles.faq": {
+    "startLine": 3528,
+    "endLine": 3528
+  },
+  "products.seoArticle.accessories": {
+    "startLine": 4345,
+    "endLine": 4375
+  },
+  "products.seoArticle.accessories.advList": {
+    "startLine": 4364,
+    "endLine": 4370
+  },
+  "products.seoArticle.accessories.faq": {
+    "startLine": 4346,
+    "endLine": 4360
+  },
+  "products.seoArticle.accessories.faq.0": {
+    "startLine": 4352,
+    "endLine": 4355
+  },
+  "products.seoArticle.accessories.faq.a": {
+    "startLine": 3570,
+    "endLine": 3573
+  },
+  "products.seoArticle.tools": {
+    "startLine": 4376,
+    "endLine": 4392
+  },
+  "products.seoArticle.tools.advList": {
+    "startLine": 4377,
+    "endLine": 4384
+  },
+  "products.seoArticle.tools.faq": {
+    "startLine": 3627,
+    "endLine": 3627
+  },
+  "products.seoArticle.fallback": {
+    "startLine": 4393,
+    "endLine": 4406
+  },
+  "products.seoArticle.fallback.advList": {
+    "startLine": 4394,
+    "endLine": 4401
+  },
+  "products.seoArticle.fallback.faq": {
+    "startLine": 3657,
+    "endLine": 3657
+  },
+  "products.tools": {
+    "startLine": 4439,
+    "endLine": 4498
+  },
+  "products.tools.advList": {
+    "startLine": 3730,
+    "endLine": 3736
+  },
+  "products.valves": {
+    "startLine": 3813,
+    "endLine": 3893
+  },
+  "products.valves.advList": {
+    "startLine": 3816,
+    "endLine": 3820
+  },
+  "products.valves.hero": {
+    "startLine": 3888,
+    "endLine": 3892
+  },
+  "products.fittings": {
+    "startLine": 3894,
+    "endLine": 3999
+  },
+  "products.fittings.meta": {
+    "startLine": 3895,
+    "endLine": 3898
+  },
+  "products.fittings.hero": {
+    "startLine": 3899,
+    "endLine": 3903
+  },
+  "products.fittings.intro": {
+    "startLine": 3904,
+    "endLine": 3910
+  },
+  "products.fittings.sticky": {
+    "startLine": 3911,
+    "endLine": 3933
+  },
+  "products.fittings.sticky.items": {
+    "startLine": 3915,
+    "endLine": 3932
+  },
+  "products.fittings.sticky.items.0": {
+    "startLine": 3916,
+    "endLine": 3919
+  },
+  "products.fittings.sticky.items.desc": {
+    "startLine": 3928,
+    "endLine": 3931
+  },
+  "products.fittings.bento": {
+    "startLine": 3934,
+    "endLine": 3956
+  },
+  "products.fittings.bento.items": {
+    "startLine": 3938,
+    "endLine": 3955
+  },
+  "products.fittings.bento.items.0": {
+    "startLine": 3939,
+    "endLine": 3942
+  },
+  "products.fittings.bento.items.desc": {
+    "startLine": 3951,
+    "endLine": 3954
+  },
+  "products.fittings.timeline": {
+    "startLine": 3957,
+    "endLine": 3987
+  },
+  "products.fittings.timeline.items": {
+    "startLine": 3960,
+    "endLine": 3986
+  },
+  "products.fittings.timeline.items.0": {
+    "startLine": 3961,
+    "endLine": 3965
+  },
+  "products.fittings.timeline.items.text": {
+    "startLine": 3981,
+    "endLine": 3985
+  },
+  "products.fittings.depth": {
+    "startLine": 3988,
+    "endLine": 3992
+  },
+  "products.fittings.cta": {
+    "startLine": 3993,
+    "endLine": 3998
+  },
+  "products.pipes": {
+    "startLine": 4000,
+    "endLine": 4092
+  },
+  "products.pipes.meta": {
+    "startLine": 4001,
+    "endLine": 4004
+  },
+  "products.pipes.hero": {
+    "startLine": 4005,
+    "endLine": 4009
+  },
+  "products.pipes.sticky": {
+    "startLine": 4010,
+    "endLine": 4032
+  },
+  "products.pipes.sticky.items": {
+    "startLine": 4014,
+    "endLine": 4031
+  },
+  "products.pipes.sticky.items.0": {
+    "startLine": 4015,
+    "endLine": 4018
+  },
+  "products.pipes.sticky.items.desc": {
+    "startLine": 4027,
+    "endLine": 4030
+  },
+  "products.pipes.timeline": {
+    "startLine": 4033,
+    "endLine": 4063
+  },
+  "products.pipes.timeline.items": {
+    "startLine": 4036,
+    "endLine": 4062
+  },
+  "products.pipes.timeline.items.0": {
+    "startLine": 4037,
+    "endLine": 4041
+  },
+  "products.pipes.timeline.items.text": {
+    "startLine": 4057,
+    "endLine": 4061
+  },
+  "products.pipes.bento": {
+    "startLine": 4064,
+    "endLine": 4086
+  },
+  "products.pipes.bento.items": {
+    "startLine": 4068,
+    "endLine": 4085
+  },
+  "products.pipes.bento.items.0": {
+    "startLine": 4069,
+    "endLine": 4072
+  },
+  "products.pipes.bento.items.desc": {
+    "startLine": 4081,
+    "endLine": 4084
+  },
+  "products.pipes.cta": {
+    "startLine": 4087,
+    "endLine": 4091
+  },
+  "products.transitionFittings": {
+    "startLine": 4499,
+    "endLine": 4645
+  },
+  "products.transitionFittings.meta": {
+    "startLine": 4547,
+    "endLine": 4550
+  },
+  "products.transitionFittings.hero": {
+    "startLine": 4551,
+    "endLine": 4555
+  },
+  "products.transitionFittings.intro": {
+    "startLine": 4556,
+    "endLine": 4560
+  },
+  "products.transitionFittings.timeline": {
+    "startLine": 4561,
+    "endLine": 4591
+  },
+  "products.transitionFittings.timeline.items": {
+    "startLine": 4564,
+    "endLine": 4590
+  },
+  "products.transitionFittings.timeline.items.0": {
+    "startLine": 4565,
+    "endLine": 4569
+  },
+  "products.transitionFittings.timeline.items.text": {
+    "startLine": 4585,
+    "endLine": 4589
+  },
+  "products.transitionFittings.stats": {
+    "startLine": 4592,
+    "endLine": 4638
+  },
+  "products.transitionFittings.stats.items": {
+    "startLine": 4596,
+    "endLine": 4637
+  },
+  "products.transitionFittings.stats.items.0": {
+    "startLine": 4597,
+    "endLine": 4601
+  },
+  "products.transitionFittings.stats.items.sub": {
+    "startLine": 4632,
+    "endLine": 4636
+  },
+  "products.transitionFittings.cta": {
+    "startLine": 4639,
+    "endLine": 4644
+  },
+  "products.hero": {
+    "startLine": 4195,
+    "endLine": 4200
+  },
+  "products.sticky": {
+    "startLine": 4201,
+    "endLine": 4223
+  },
+  "products.sticky.items": {
+    "startLine": 4205,
+    "endLine": 4222
+  },
+  "products.sticky.items.0": {
+    "startLine": 4206,
+    "endLine": 4209
+  },
+  "products.sticky.items.desc": {
+    "startLine": 4218,
+    "endLine": 4221
+  },
+  "products.bento": {
+    "startLine": 4224,
+    "endLine": 4246
+  },
+  "products.bento.items": {
+    "startLine": 4228,
+    "endLine": 4245
+  },
+  "products.bento.items.0": {
+    "startLine": 4229,
+    "endLine": 4232
+  },
+  "products.bento.items.desc": {
+    "startLine": 4241,
+    "endLine": 4244
+  },
+  "products.timeline": {
+    "startLine": 4247,
+    "endLine": 4277
+  },
+  "products.timeline.items": {
+    "startLine": 4250,
+    "endLine": 4276
+  },
+  "products.timeline.items.0": {
+    "startLine": 4251,
+    "endLine": 4255
+  },
+  "products.timeline.items.text": {
+    "startLine": 4271,
+    "endLine": 4275
+  },
+  "products.narrative": {
+    "startLine": 4279,
+    "endLine": 4289
+  },
+  "products.seoArticle.pipes.advList": {
+    "startLine": 4294,
+    "endLine": 4300
+  },
+  "products.seoArticle.pipes.faq.1": {
+    "startLine": 4311,
+    "endLine": 4314
+  },
+  "products.seoArticle.pipes.faq.2": {
+    "startLine": 4315,
+    "endLine": 4318
+  },
+  "products.seoArticle.pipes.faq.3": {
+    "startLine": 4319,
+    "endLine": 4322
+  },
+  "products.seoArticle.pipes.faq.4": {
+    "startLine": 4323,
+    "endLine": 4326
+  },
+  "products.seoArticle.weldInSaddles.advList": {
+    "startLine": 4332,
+    "endLine": 4338
+  },
+  "products.seoArticle.accessories.faq.2": {
+    "startLine": 4347,
+    "endLine": 4350
+  },
+  "products.seoArticle.accessories.faq.1": {
+    "startLine": 4356,
+    "endLine": 4359
+  },
+  "products.tools.hero": {
+    "startLine": 4493,
+    "endLine": 4497
+  },
+  "products.transitionFittings.sticky": {
+    "startLine": 4500,
+    "endLine": 4522
+  },
+  "products.transitionFittings.sticky.items": {
+    "startLine": 4504,
+    "endLine": 4521
+  },
+  "products.transitionFittings.sticky.items.0": {
+    "startLine": 4505,
+    "endLine": 4508
+  },
+  "products.transitionFittings.sticky.items.desc": {
+    "startLine": 4517,
+    "endLine": 4520
+  },
+  "products.transitionFittings.bento": {
+    "startLine": 4523,
+    "endLine": 4545
+  },
+  "products.transitionFittings.bento.items": {
+    "startLine": 4527,
+    "endLine": 4544
+  },
+  "products.transitionFittings.bento.items.0": {
+    "startLine": 4528,
+    "endLine": 4531
+  },
+  "products.transitionFittings.bento.items.desc": {
+    "startLine": 4540,
+    "endLine": 4543
+  },
+  "solutionsx": {
+    "startLine": 4647,
+    "endLine": 4797
+  },
+  "solutionsx.segments": {
+    "startLine": 4651,
+    "endLine": 4706
+  },
+  "solutionsx.segments.0": {
+    "startLine": 4652,
+    "endLine": 4660
+  },
+  "solutionsx.segments.0.pts": {
+    "startLine": 4655,
+    "endLine": 4659
+  },
+  "solutionsx.segments.1": {
+    "startLine": 4661,
+    "endLine": 4669
+  },
+  "solutionsx.segments.1.pts": {
+    "startLine": 4664,
+    "endLine": 4668
+  },
+  "solutionsx.segments.2": {
+    "startLine": 4670,
+    "endLine": 4678
+  },
+  "solutionsx.segments.2.pts": {
+    "startLine": 4673,
+    "endLine": 4677
+  },
+  "solutionsx.segments.3": {
+    "startLine": 4679,
+    "endLine": 4687
+  },
+  "solutionsx.segments.3.pts": {
+    "startLine": 4682,
+    "endLine": 4686
+  },
+  "solutionsx.segments.4": {
+    "startLine": 4688,
+    "endLine": 4696
+  },
+  "solutionsx.segments.4.pts": {
+    "startLine": 4691,
+    "endLine": 4695
+  },
+  "solutionsx.segments.5": {
+    "startLine": 4697,
+    "endLine": 4705
+  },
+  "solutionsx.segments.5.pts": {
+    "startLine": 4700,
+    "endLine": 4704
+  },
+  "solutionsx.cmpHead": {
+    "startLine": 4710,
+    "endLine": 4716
+  },
+  "solutionsx.cmpRows": {
+    "startLine": 4717,
+    "endLine": 4774
+  },
+  "solutionsx.cmpRows.0": {
+    "startLine": 4718,
+    "endLine": 4724
+  },
+  "solutionsx.cmpRows.1": {
+    "startLine": 4725,
+    "endLine": 4731
+  },
+  "solutionsx.cmpRows.2": {
+    "startLine": 4732,
+    "endLine": 4738
+  },
+  "solutionsx.cmpRows.3": {
+    "startLine": 4739,
+    "endLine": 4745
+  },
+  "solutionsx.cmpRows.4": {
+    "startLine": 4746,
+    "endLine": 4752
+  },
+  "solutionsx.cmpRows.5": {
+    "startLine": 4753,
+    "endLine": 4759
+  },
+  "solutionsx.cmpRows.6": {
+    "startLine": 4760,
+    "endLine": 4766
+  },
+  "solutionsx.cmpRows.7": {
+    "startLine": 4767,
+    "endLine": 4773
+  },
+  "solutionsx.life": {
+    "startLine": 4779,
+    "endLine": 4796
+  },
+  "solutionsx.life.0": {
+    "startLine": 4780,
+    "endLine": 4783
+  },
+  "solutionsx.life.d": {
+    "startLine": 4792,
+    "endLine": 4795
+  },
+  "trustAndCases": {
+    "startLine": 4798,
+    "endLine": 4813
+  },
+  "co2": {
+    "startLine": 4814,
+    "endLine": 4911
+  },
+  "co2.materials": {
+    "startLine": 4869,
+    "endLine": 4877
+  },
+  "co2.phases": {
+    "startLine": 4891,
+    "endLine": 4896
+  },
+  "trust": {
+    "startLine": 4913,
+    "endLine": 5022
+  },
+  "trust.bento": {
+    "startLine": 4918,
+    "endLine": 4942
+  },
+  "trust.bento.thermo": {
+    "startLine": 4919,
+    "endLine": 4923
+  },
+  "trust.bento.hydraulics": {
+    "startLine": 4924,
+    "endLine": 4928
+  },
+  "trust.bento.conclusion": {
+    "startLine": 4929,
+    "endLine": 4935
+  },
+  "trust.bento.cta": {
+    "startLine": 4936,
+    "endLine": 4941
+  },
+  "trust.certs": {
+    "startLine": 4944,
+    "endLine": 4960
+  },
+  "trust.certs.0": {
+    "startLine": 4948,
+    "endLine": 4951
+  },
+  "trust.certs.1": {
+    "startLine": 4952,
+    "endLine": 4955
+  },
+  "trust.certs.2": {
+    "startLine": 4956,
+    "endLine": 4959
+  },
+  "trust.genau": {
+    "startLine": 4968,
+    "endLine": 4998
+  },
+  "trust.genau.0": {
+    "startLine": 4978,
+    "endLine": 4981
+  },
+  "trust.genau.1": {
+    "startLine": 4982,
+    "endLine": 4985
+  },
+  "trust.genau.2": {
+    "startLine": 4986,
+    "endLine": 4989
+  },
+  "trust.genau.3": {
+    "startLine": 4990,
+    "endLine": 4993
+  },
+  "trust.genau.4": {
+    "startLine": 4994,
+    "endLine": 4997
+  },
+  "trust.docs": {
+    "startLine": 5002,
+    "endLine": 5014
+  },
+  "partner": {
+    "startLine": 5023,
+    "endLine": 5087
+  },
+  "partner.rings": {
+    "startLine": 5034,
+    "endLine": 5055
+  },
+  "partner.rings.0": {
+    "startLine": 5040,
+    "endLine": 5044
+  },
+  "partner.rings.1": {
+    "startLine": 5045,
+    "endLine": 5049
+  },
+  "partner.rings.2": {
+    "startLine": 5050,
+    "endLine": 5054
+  },
+  "partner.cards": {
+    "startLine": 5058,
+    "endLine": 5086
+  },
+  "partner.cards.1": {
+    "startLine": 5059,
+    "endLine": 5065
+  },
+  "partner.cards.2": {
+    "startLine": 5066,
+    "endLine": 5072
+  },
+  "partner.cards.3": {
+    "startLine": 5073,
+    "endLine": 5076
+  },
+  "partner.cards.4": {
+    "startLine": 5077,
+    "endLine": 5080
+  },
+  "partner.cards.0": {
+    "startLine": 5082,
+    "endLine": 5085
+  },
+  "academy": {
+    "startLine": 5088,
+    "endLine": 5533
+  },
+  "academy.videos": {
+    "startLine": 5093,
+    "endLine": 5110
+  },
+  "academy.videos.0": {
+    "startLine": 5094,
+    "endLine": 5097
+  },
+  "academy.videos.s": {
+    "startLine": 5106,
+    "endLine": 5109
+  },
+  "academy.quiz": {
+    "startLine": 5116,
+    "endLine": 5157
+  },
+  "academy.quiz.0": {
+    "startLine": 5117,
+    "endLine": 5124
+  },
+  "academy.quiz.0.o": {
+    "startLine": 5119,
+    "endLine": 5123
+  },
+  "academy.quiz.1": {
+    "startLine": 5125,
+    "endLine": 5132
+  },
+  "academy.quiz.1.o": {
+    "startLine": 5127,
+    "endLine": 5131
+  },
+  "academy.quiz.2": {
+    "startLine": 5133,
+    "endLine": 5140
+  },
+  "academy.quiz.2.o": {
+    "startLine": 5135,
+    "endLine": 5139
+  },
+  "academy.quiz.3": {
+    "startLine": 5141,
+    "endLine": 5148
+  },
+  "academy.quiz.3.o": {
+    "startLine": 5143,
+    "endLine": 5147
+  },
+  "academy.quiz.4": {
+    "startLine": 5149,
+    "endLine": 5156
+  },
+  "academy.quiz.4.o": {
+    "startLine": 5151,
+    "endLine": 5155
+  },
+  "academy.schulungen": {
+    "startLine": 5165,
+    "endLine": 5293
+  },
+  "academy.schulungen.meta": {
+    "startLine": 5166,
+    "endLine": 5169
+  },
+  "academy.schulungen.hero": {
+    "startLine": 5170,
+    "endLine": 5177
+  },
+  "academy.schulungen.manifesto": {
+    "startLine": 5178,
+    "endLine": 5184
+  },
+  "academy.schulungen.bento": {
+    "startLine": 5185,
+    "endLine": 5207
+  },
+  "academy.schulungen.bento.items": {
+    "startLine": 5189,
+    "endLine": 5206
+  },
+  "academy.schulungen.bento.items.0": {
+    "startLine": 5190,
+    "endLine": 5193
+  },
+  "academy.schulungen.bento.items.desc": {
+    "startLine": 5202,
+    "endLine": 5205
+  },
+  "academy.schulungen.typography": {
+    "startLine": 5208,
+    "endLine": 5211
+  },
+  "academy.schulungen.curriculum": {
+    "startLine": 5212,
+    "endLine": 5216
+  },
+  "academy.schulungen.sticky": {
+    "startLine": 5217,
+    "endLine": 5236
+  },
+  "academy.schulungen.sticky.items": {
+    "startLine": 5218,
+    "endLine": 5235
+  },
+  "academy.schulungen.sticky.items.0": {
+    "startLine": 5219,
+    "endLine": 5222
+  },
+  "academy.schulungen.sticky.items.desc": {
+    "startLine": 5231,
+    "endLine": 5234
+  },
+  "academy.schulungen.timeline": {
+    "startLine": 5237,
+    "endLine": 5267
+  },
+  "academy.schulungen.timeline.items": {
+    "startLine": 5240,
+    "endLine": 5266
+  },
+  "academy.schulungen.timeline.items.0": {
+    "startLine": 5241,
+    "endLine": 5245
+  },
+  "academy.schulungen.timeline.items.text": {
+    "startLine": 5261,
+    "endLine": 5265
+  },
+  "academy.schulungen.spec": {
+    "startLine": 5268,
+    "endLine": 5286
+  },
+  "academy.schulungen.spec.items": {
+    "startLine": 5272,
+    "endLine": 5285
+  },
+  "academy.schulungen.spec.items.0": {
+    "startLine": 5273,
+    "endLine": 5276
+  },
+  "academy.schulungen.spec.items.text": {
+    "startLine": 5281,
+    "endLine": 5284
+  },
+  "academy.schulungen.cta": {
+    "startLine": 5287,
+    "endLine": 5292
+  },
+  "academy.zertifizierung": {
+    "startLine": 5294,
+    "endLine": 5423
+  },
+  "academy.zertifizierung.meta": {
+    "startLine": 5295,
+    "endLine": 5298
+  },
+  "academy.zertifizierung.hero": {
+    "startLine": 5299,
+    "endLine": 5306
+  },
+  "academy.zertifizierung.manifesto": {
+    "startLine": 5307,
+    "endLine": 5311
+  },
+  "academy.zertifizierung.bento": {
+    "startLine": 5312,
+    "endLine": 5338
+  },
+  "academy.zertifizierung.bento.items": {
+    "startLine": 5316,
+    "endLine": 5337
+  },
+  "academy.zertifizierung.bento.items.0": {
+    "startLine": 5317,
+    "endLine": 5320
+  },
+  "academy.zertifizierung.bento.items.desc": {
+    "startLine": 5333,
+    "endLine": 5336
+  },
+  "academy.zertifizierung.certifications": {
+    "startLine": 5339,
+    "endLine": 5365
+  },
+  "academy.zertifizierung.certifications.items": {
+    "startLine": 5343,
+    "endLine": 5364
+  },
+  "academy.zertifizierung.certifications.items.0": {
+    "startLine": 5344,
+    "endLine": 5348
+  },
+  "academy.zertifizierung.certifications.items.p2": {
+    "startLine": 5359,
+    "endLine": 5363
+  },
+  "academy.zertifizierung.lab": {
+    "startLine": 5366,
+    "endLine": 5385
+  },
+  "academy.zertifizierung.lab.items": {
+    "startLine": 5371,
+    "endLine": 5384
+  },
+  "academy.zertifizierung.lab.items.0": {
+    "startLine": 5372,
+    "endLine": 5375
+  },
+  "academy.zertifizierung.lab.items.desc": {
+    "startLine": 5380,
+    "endLine": 5383
+  },
+  "academy.zertifizierung.timeline": {
+    "startLine": 5386,
+    "endLine": 5416
+  },
+  "academy.zertifizierung.timeline.items": {
+    "startLine": 5389,
+    "endLine": 5415
+  },
+  "academy.zertifizierung.timeline.items.0": {
+    "startLine": 5390,
+    "endLine": 5394
+  },
+  "academy.zertifizierung.timeline.items.text": {
+    "startLine": 5410,
+    "endLine": 5414
+  },
+  "academy.zertifizierung.cta": {
+    "startLine": 5417,
+    "endLine": 5422
+  },
+  "academy.glossar": {
+    "startLine": 5424,
+    "endLine": 5532
+  },
+  "academy.glossar.meta": {
+    "startLine": 5425,
+    "endLine": 5428
+  },
+  "academy.glossar.hero": {
+    "startLine": 5429,
+    "endLine": 5436
+  },
+  "academy.glossar.manifesto": {
+    "startLine": 5437,
+    "endLine": 5441
+  },
+  "academy.glossar.scroll": {
+    "startLine": 5442,
+    "endLine": 5464
+  },
+  "academy.glossar.scroll.items": {
+    "startLine": 5446,
+    "endLine": 5463
+  },
+  "academy.glossar.scroll.items.0": {
+    "startLine": 5447,
+    "endLine": 5450
+  },
+  "academy.glossar.scroll.items.desc": {
+    "startLine": 5459,
+    "endLine": 5462
+  },
+  "academy.glossar.bento": {
+    "startLine": 5465,
+    "endLine": 5492
+  },
+  "academy.glossar.bento.items": {
+    "startLine": 5469,
+    "endLine": 5491
+  },
+  "academy.glossar.bento.items.0": {
+    "startLine": 5470,
+    "endLine": 5473
+  },
+  "academy.glossar.bento.items.desc": {
+    "startLine": 5486,
+    "endLine": 5490
+  },
+  "academy.glossar.timeline": {
+    "startLine": 5493,
+    "endLine": 5518
+  },
+  "academy.glossar.timeline.items": {
+    "startLine": 5496,
+    "endLine": 5517
+  },
+  "academy.glossar.timeline.items.0": {
+    "startLine": 5497,
+    "endLine": 5501
+  },
+  "academy.glossar.timeline.items.text": {
+    "startLine": 5512,
+    "endLine": 5516
+  },
+  "academy.glossar.conclusion": {
+    "startLine": 5519,
+    "endLine": 5525
+  },
+  "academy.glossar.cta": {
+    "startLine": 5526,
+    "endLine": 5531
+  },
+  "refs": {
+    "startLine": 5534,
+    "endLine": 5592
+  },
+  "refs.projects": {
+    "startLine": 5541,
+    "endLine": 5591
+  },
+  "refs.projects.0": {
+    "startLine": 5542,
+    "endLine": 5548
+  },
+  "refs.projects.d": {
+    "startLine": 5584,
+    "endLine": 5590
+  },
+  "buyers": {
+    "startLine": 5593,
+    "endLine": 5644
+  },
+  "buyers.personas": {
+    "startLine": 5598,
+    "endLine": 5617
+  },
+  "buyers.personas.0": {
+    "startLine": 5599,
+    "endLine": 5604
+  },
+  "buyers.personas.goto": {
+    "startLine": 5611,
+    "endLine": 5616
+  },
+  "buyers.why": {
+    "startLine": 5620,
+    "endLine": 5637
+  },
+  "buyers.why.0": {
+    "startLine": 5621,
+    "endLine": 5624
+  },
+  "buyers.why.d": {
+    "startLine": 5633,
+    "endLine": 5636
+  },
+  "buyers.promise": {
+    "startLine": 5638,
+    "endLine": 5642
+  },
+  "rfq": {
+    "startLine": 5645,
+    "endLine": 5733
+  },
+  "rfq.steps": {
+    "startLine": 5650,
+    "endLine": 5655
+  },
+  "rfq.types": {
+    "startLine": 5656,
+    "endLine": 5673
+  },
+  "rfq.types.0": {
+    "startLine": 5657,
+    "endLine": 5660
+  },
+  "rfq.types.d": {
+    "startLine": 5669,
+    "endLine": 5672
+  },
+  "rfq.timelines": {
+    "startLine": 5680,
+    "endLine": 5685
+  },
+  "rfq.regions": {
+    "startLine": 5686,
+    "endLine": 5692
+  },
+  "rfq.promise": {
+    "startLine": 5703,
+    "endLine": 5707
+  },
+  "rfq.faqs": {
+    "startLine": 5715,
+    "endLine": 5732
+  },
+  "rfq.faqs.0": {
+    "startLine": 5716,
+    "endLine": 5719
+  },
+  "rfq.faqs.a": {
+    "startLine": 5728,
+    "endLine": 5731
+  },
+  "notFound": {
+    "startLine": 5734,
+    "endLine": 5738
+  },
+  "productsx": {
+    "startLine": 5739,
+    "endLine": 5965
+  },
+  "productsx.pipes": {
+    "startLine": 5743,
+    "endLine": 5764
+  },
+  "productsx.pipes.0": {
+    "startLine": 5744,
+    "endLine": 5748
+  },
+  "productsx.pipes.0.tags": {
+    "startLine": 5747,
+    "endLine": 5747
+  },
+  "productsx.pipes.1": {
+    "startLine": 5749,
+    "endLine": 5753
+  },
+  "productsx.pipes.1.tags": {
+    "startLine": 5752,
+    "endLine": 5752
+  },
+  "productsx.pipes.2": {
+    "startLine": 5754,
+    "endLine": 5758
+  },
+  "productsx.pipes.2.tags": {
+    "startLine": 5757,
+    "endLine": 5757
+  },
+  "productsx.pipes.3": {
+    "startLine": 5759,
+    "endLine": 5763
+  },
+  "productsx.pipes.3.tags": {
+    "startLine": 5762,
+    "endLine": 5762
+  },
+  "productsx.dimHead": {
+    "startLine": 5769,
+    "endLine": 5776
+  },
+  "productsx.anchors": {
+    "startLine": 5779,
+    "endLine": 5790
+  },
+  "productsx.anchors.0": {
+    "startLine": 5780,
+    "endLine": 5784
+  },
+  "productsx.anchors.c": {
+    "startLine": 5785,
+    "endLine": 5789
+  },
+  "productsx.matHead": {
+    "startLine": 5794,
+    "endLine": 5798
+  },
+  "productsx.matRows": {
+    "startLine": 5799,
+    "endLine": 5840
+  },
+  "productsx.matRows.0": {
+    "startLine": 5800,
+    "endLine": 5804
+  },
+  "productsx.matRows.1": {
+    "startLine": 5805,
+    "endLine": 5809
+  },
+  "productsx.matRows.2": {
+    "startLine": 5810,
+    "endLine": 5814
+  },
+  "productsx.matRows.3": {
+    "startLine": 5815,
+    "endLine": 5819
+  },
+  "productsx.matRows.4": {
+    "startLine": 5820,
+    "endLine": 5824
+  },
+  "productsx.matRows.5": {
+    "startLine": 5825,
+    "endLine": 5829
+  },
+  "productsx.matRows.6": {
+    "startLine": 5830,
+    "endLine": 5834
+  },
+  "productsx.matRows.7": {
+    "startLine": 5835,
+    "endLine": 5839
+  },
+  "productsx.fitGroups": {
+    "startLine": 5844,
+    "endLine": 5882
+  },
+  "productsx.fitGroups.0": {
+    "startLine": 5845,
+    "endLine": 5854
+  },
+  "productsx.fitGroups.0.items": {
+    "startLine": 5847,
+    "endLine": 5853
+  },
+  "productsx.fitGroups.1": {
+    "startLine": 5855,
+    "endLine": 5863
+  },
+  "productsx.fitGroups.1.items": {
+    "startLine": 5857,
+    "endLine": 5862
+  },
+  "productsx.fitGroups.2": {
+    "startLine": 5864,
+    "endLine": 5871
+  },
+  "productsx.fitGroups.2.items": {
+    "startLine": 5866,
+    "endLine": 5870
+  },
+  "productsx.fitGroups.3": {
+    "startLine": 5872,
+    "endLine": 5881
+  },
+  "productsx.fitGroups.3.items": {
+    "startLine": 5874,
+    "endLine": 5880
+  },
+  "productsx.normHead": {
+    "startLine": 5886,
+    "endLine": 5890
+  },
+  "productsx.norms": {
+    "startLine": 5891,
+    "endLine": 5932
+  },
+  "productsx.norms.0": {
+    "startLine": 5892,
+    "endLine": 5896
+  },
+  "productsx.norms.1": {
+    "startLine": 5897,
+    "endLine": 5901
+  },
+  "productsx.norms.2": {
+    "startLine": 5902,
+    "endLine": 5906
+  },
+  "productsx.norms.3": {
+    "startLine": 5907,
+    "endLine": 5911
+  },
+  "productsx.norms.4": {
+    "startLine": 5912,
+    "endLine": 5916
+  },
+  "productsx.norms.5": {
+    "startLine": 5917,
+    "endLine": 5921
+  },
+  "productsx.norms.6": {
+    "startLine": 5922,
+    "endLine": 5926
+  },
+  "productsx.norms.7": {
+    "startLine": 5927,
+    "endLine": 5931
+  },
+  "productsx.faq": {
+    "startLine": 5935,
+    "endLine": 5964
+  },
+  "productsx.faq.0": {
+    "startLine": 5936,
+    "endLine": 5939
+  },
+  "productsx.faq.a": {
+    "startLine": 5960,
+    "endLine": 5963
+  },
+  "trustx": {
+    "startLine": 5966,
+    "endLine": 6082
+  },
+  "trustx.stakeHead": {
+    "startLine": 5970,
+    "endLine": 5974
+  },
+  "trustx.stakeRows": {
+    "startLine": 5975,
+    "endLine": 5991
+  },
+  "trustx.stakeRows.0": {
+    "startLine": 5976,
+    "endLine": 5980
+  },
+  "trustx.stakeRows.1": {
+    "startLine": 5981,
+    "endLine": 5985
+  },
+  "trustx.stakeRows.2": {
+    "startLine": 5986,
+    "endLine": 5990
+  },
+  "trustx.stats": {
+    "startLine": 5994,
+    "endLine": 6015
+  },
+  "trustx.stats.0": {
+    "startLine": 5995,
+    "endLine": 5999
+  },
+  "trustx.stats.l": {
+    "startLine": 6010,
+    "endLine": 6014
+  },
+  "trustx.inst": {
+    "startLine": 6019,
+    "endLine": 6032
+  },
+  "trustx.inst.0": {
+    "startLine": 6020,
+    "endLine": 6023
+  },
+  "trustx.inst.d": {
+    "startLine": 6028,
+    "endLine": 6031
+  },
+  "trustx.audit": {
+    "startLine": 6036,
+    "endLine": 6053
+  },
+  "trustx.audit.0": {
+    "startLine": 6037,
+    "endLine": 6040
+  },
+  "trustx.audit.d": {
+    "startLine": 6049,
+    "endLine": 6052
+  },
+  "trustx.faq": {
+    "startLine": 6056,
+    "endLine": 6081
+  },
+  "trustx.faq.0": {
+    "startLine": 6057,
+    "endLine": 6060
+  },
+  "trustx.faq.a": {
+    "startLine": 6077,
+    "endLine": 6080
+  },
+  "partnerx": {
+    "startLine": 6083,
+    "endLine": 6163
+  },
+  "partnerx.eco": {
+    "startLine": 6087,
+    "endLine": 6104
+  },
+  "partnerx.eco.0": {
+    "startLine": 6088,
+    "endLine": 6091
+  },
+  "partnerx.eco.d": {
+    "startLine": 6100,
+    "endLine": 6103
+  },
+  "partnerx.flow": {
+    "startLine": 6108,
+    "endLine": 6121
+  },
+  "partnerx.flow.0": {
+    "startLine": 6109,
+    "endLine": 6112
+  },
+  "partnerx.flow.d": {
+    "startLine": 6117,
+    "endLine": 6120
+  },
+  "partnerx.road": {
+    "startLine": 6124,
+    "endLine": 6145
+  },
+  "partnerx.road.0": {
+    "startLine": 6125,
+    "endLine": 6129
+  },
+  "partnerx.road.s": {
+    "startLine": 6140,
+    "endLine": 6144
+  },
+  "partnerx.spec": {
+    "startLine": 6149,
+    "endLine": 6162
+  },
+  "partnerx.spec.0": {
+    "startLine": 6150,
+    "endLine": 6153
+  },
+  "partnerx.spec.d": {
+    "startLine": 6158,
+    "endLine": 6161
+  },
+  "academyx": {
+    "startLine": 6164,
+    "endLine": 6370
+  },
+  "academyx.paramHead": {
+    "startLine": 6168,
+    "endLine": 6174
+  },
+  "academyx.procTabs": {
+    "startLine": 6179,
+    "endLine": 6184
+  },
+  "academyx.procs": {
+    "startLine": 6185,
+    "endLine": 6286
+  },
+  "academyx.procs.0": {
+    "startLine": 6186,
+    "endLine": 6210
+  },
+  "academyx.procs.0.steps": {
+    "startLine": 6188,
+    "endLine": 6209
+  },
+  "academyx.procs.0.steps.0": {
+    "startLine": 6189,
+    "endLine": 6192
+  },
+  "academyx.procs.0.steps.d": {
+    "startLine": 6205,
+    "endLine": 6208
+  },
+  "academyx.procs.d": {
+    "startLine": 6261,
+    "endLine": 6285
+  },
+  "academyx.procs.d.steps": {
+    "startLine": 6263,
+    "endLine": 6284
+  },
+  "academyx.procs.d.steps.0": {
+    "startLine": 6264,
+    "endLine": 6267
+  },
+  "academyx.procs.d.steps.d": {
+    "startLine": 6280,
+    "endLine": 6283
+  },
+  "academyx.errHead": {
+    "startLine": 6289,
+    "endLine": 6293
+  },
+  "academyx.errRows": {
+    "startLine": 6294,
+    "endLine": 6325
+  },
+  "academyx.errRows.0": {
+    "startLine": 6295,
+    "endLine": 6299
+  },
+  "academyx.errRows.1": {
+    "startLine": 6300,
+    "endLine": 6304
+  },
+  "academyx.errRows.2": {
+    "startLine": 6305,
+    "endLine": 6309
+  },
+  "academyx.errRows.3": {
+    "startLine": 6310,
+    "endLine": 6314
+  },
+  "academyx.errRows.4": {
+    "startLine": 6315,
+    "endLine": 6319
+  },
+  "academyx.errRows.5": {
+    "startLine": 6320,
+    "endLine": 6324
+  },
+  "academyx.gloss": {
+    "startLine": 6328,
+    "endLine": 6369
+  },
+  "academyx.gloss.0": {
+    "startLine": 6329,
+    "endLine": 6332
+  },
+  "academyx.gloss.1": {
+    "startLine": 6333,
+    "endLine": 6336
+  },
+  "academyx.gloss.2": {
+    "startLine": 6337,
+    "endLine": 6340
+  },
+  "academyx.gloss.3": {
+    "startLine": 6341,
+    "endLine": 6344
+  },
+  "academyx.gloss.4": {
+    "startLine": 6345,
+    "endLine": 6348
+  },
+  "academyx.gloss.5": {
+    "startLine": 6349,
+    "endLine": 6352
+  },
+  "academyx.gloss.6": {
+    "startLine": 6353,
+    "endLine": 6356
+  },
+  "academyx.gloss.7": {
+    "startLine": 6357,
+    "endLine": 6360
+  },
+  "academyx.gloss.8": {
+    "startLine": 6361,
+    "endLine": 6364
+  },
+  "academyx.gloss.9": {
+    "startLine": 6365,
+    "endLine": 6368
+  },
+  "servicex": {
+    "startLine": 6371,
+    "endLine": 6490
+  },
+  "servicex.libHead": {
+    "startLine": 6375,
+    "endLine": 6380
+  },
+  "servicex.libRows": {
+    "startLine": 6381,
+    "endLine": 6436
+  },
+  "servicex.libRows.0": {
+    "startLine": 6382,
+    "endLine": 6387
+  },
+  "servicex.libRows.href": {
+    "startLine": 6430,
+    "endLine": 6435
+  },
+  "servicex.sup": {
+    "startLine": 6442,
+    "endLine": 6461
+  },
+  "servicex.sup.0": {
+    "startLine": 6443,
+    "endLine": 6448
+  },
+  "servicex.sup.href": {
+    "startLine": 6455,
+    "endLine": 6460
+  },
+  "servicex.faq": {
+    "startLine": 6464,
+    "endLine": 6489
+  },
+  "servicex.faq.0": {
+    "startLine": 6465,
+    "endLine": 6468
+  },
+  "servicex.faq.a": {
+    "startLine": 6485,
+    "endLine": 6488
+  },
+  "aboutx": {
+    "startLine": 6491,
+    "endLine": 6588
+  },
+  "aboutx.nums": {
+    "startLine": 6495,
+    "endLine": 6516
+  },
+  "aboutx.nums.0": {
+    "startLine": 6496,
+    "endLine": 6500
+  },
+  "aboutx.nums.l": {
+    "startLine": 6511,
+    "endLine": 6515
+  },
+  "aboutx.prod": {
+    "startLine": 6520,
+    "endLine": 6537
+  },
+  "aboutx.prod.0": {
+    "startLine": 6521,
+    "endLine": 6524
+  },
+  "aboutx.prod.d": {
+    "startLine": 6533,
+    "endLine": 6536
+  },
+  "aboutx.house": {
+    "startLine": 6541,
+    "endLine": 6558
+  },
+  "aboutx.house.0": {
+    "startLine": 6542,
+    "endLine": 6545
+  },
+  "aboutx.house.d": {
+    "startLine": 6554,
+    "endLine": 6557
+  },
+  "aboutx.miles": {
+    "startLine": 6561,
+    "endLine": 6587
+  },
+  "aboutx.miles.0": {
+    "startLine": 6562,
+    "endLine": 6566
+  },
+  "aboutx.miles.d": {
+    "startLine": 6582,
+    "endLine": 6586
+  },
+  "newsx": {
+    "startLine": 6589,
+    "endLine": 6641
+  },
+  "newsx.posts": {
+    "startLine": 6595,
+    "endLine": 6638
+  },
+  "newsx.posts.0": {
+    "startLine": 6596,
+    "endLine": 6606
+  },
+  "newsx.posts.0.body": {
+    "startLine": 6601,
+    "endLine": 6605
+  },
+  "newsx.posts.1": {
+    "startLine": 6607,
+    "endLine": 6616
+  },
+  "newsx.posts.1.body": {
+    "startLine": 6612,
+    "endLine": 6615
+  },
+  "newsx.posts.2": {
+    "startLine": 6617,
+    "endLine": 6627
+  },
+  "newsx.posts.2.body": {
+    "startLine": 6622,
+    "endLine": 6626
+  },
+  "newsx.posts.3": {
+    "startLine": 6628,
+    "endLine": 6637
+  },
+  "newsx.posts.3.body": {
+    "startLine": 6633,
+    "endLine": 6636
+  },
+  "contactx": {
+    "startLine": 6642,
+    "endLine": 6710
+  },
+  "contactx.routes": {
+    "startLine": 6646,
+    "endLine": 6665
+  },
+  "contactx.routes.0": {
+    "startLine": 6647,
+    "endLine": 6652
+  },
+  "contactx.routes.href": {
+    "startLine": 6659,
+    "endLine": 6664
+  },
+  "contactx.facts": {
+    "startLine": 6667,
+    "endLine": 6688
+  },
+  "contactx.facts.0": {
+    "startLine": 6668,
+    "endLine": 6671
+  },
+  "contactx.facts.1": {
+    "startLine": 6672,
+    "endLine": 6675
+  },
+  "contactx.facts.2": {
+    "startLine": 6676,
+    "endLine": 6679
+  },
+  "contactx.facts.3": {
+    "startLine": 6680,
+    "endLine": 6683
+  },
+  "contactx.facts.4": {
+    "startLine": 6684,
+    "endLine": 6687
+  },
+  "contactx.faq": {
+    "startLine": 6692,
+    "endLine": 6709
+  },
+  "contactx.faq.0": {
+    "startLine": 6693,
+    "endLine": 6696
+  },
+  "contactx.faq.a": {
+    "startLine": 6705,
+    "endLine": 6708
+  },
+  "careerx": {
+    "startLine": 6711,
+    "endLine": 6775
+  },
+  "careerx.areas": {
+    "startLine": 6715,
+    "endLine": 6736
+  },
+  "careerx.areas.0": {
+    "startLine": 6716,
+    "endLine": 6720
+  },
+  "careerx.areas.p": {
+    "startLine": 6731,
+    "endLine": 6735
+  },
+  "careerx.why": {
+    "startLine": 6740,
+    "endLine": 6757
+  },
+  "careerx.why.0": {
+    "startLine": 6741,
+    "endLine": 6744
+  },
+  "careerx.why.d": {
+    "startLine": 6753,
+    "endLine": 6756
+  },
+  "careerx.proc": {
+    "startLine": 6760,
+    "endLine": 6773
+  },
+  "careerx.proc.0": {
+    "startLine": 6761,
+    "endLine": 6764
+  },
+  "careerx.proc.d": {
+    "startLine": 6769,
+    "endLine": 6772
+  },
+  "refsx": {
+    "startLine": 6776,
+    "endLine": 6798
+  },
+  "refsx.sectors": {
+    "startLine": 6780,
+    "endLine": 6797
+  },
+  "refsx.sectors.0": {
+    "startLine": 6781,
+    "endLine": 6784
+  },
+  "refsx.sectors.d": {
+    "startLine": 6793,
+    "endLine": 6796
+  },
+  "finderx": {
+    "startLine": 6799,
+    "endLine": 6840
+  },
+  "finderx.help": {
+    "startLine": 6803,
+    "endLine": 6824
+  },
+  "finderx.help.0": {
+    "startLine": 6804,
+    "endLine": 6807
+  },
+  "finderx.help.1": {
+    "startLine": 6808,
+    "endLine": 6811
+  },
+  "finderx.help.2": {
+    "startLine": 6812,
+    "endLine": 6815
+  },
+  "finderx.help.3": {
+    "startLine": 6816,
+    "endLine": 6819
+  },
+  "finderx.help.4": {
+    "startLine": 6820,
+    "endLine": 6823
+  },
+  "finderx.flow": {
+    "startLine": 6826,
+    "endLine": 6839
+  },
+  "finderx.flow.0": {
+    "startLine": 6827,
+    "endLine": 6830
+  },
+  "finderx.flow.d": {
+    "startLine": 6835,
+    "endLine": 6838
+  },
+  "co2x": {
+    "startLine": 6841,
+    "endLine": 6883
+  },
+  "co2x.meth": {
+    "startLine": 6845,
+    "endLine": 6862
+  },
+  "co2x.meth.0": {
+    "startLine": 6846,
+    "endLine": 6849
+  },
+  "co2x.meth.d": {
+    "startLine": 6858,
+    "endLine": 6861
+  },
+  "co2x.certs": {
+    "startLine": 6866,
+    "endLine": 6879
+  },
+  "co2x.certs.0": {
+    "startLine": 6867,
+    "endLine": 6870
+  },
+  "co2x.certs.d": {
+    "startLine": 6875,
+    "endLine": 6878
+  },
+  "homedeep": {
+    "startLine": 6884,
+    "endLine": 6914
+  },
+  "homedeep.plant": {
+    "startLine": 6887,
+    "endLine": 6903
+  },
+  "homedeep.plant.0": {
+    "startLine": 6888,
+    "endLine": 6892
+  },
+  "homedeep.plant.l": {
+    "startLine": 6898,
+    "endLine": 6902
+  },
+  "homedeep.badges": {
+    "startLine": 6904,
+    "endLine": 6911
+  },
+  "legal": {
+    "startLine": 6915,
+    "endLine": 6998
+  },
+  "legal.impressum": {
+    "startLine": 6916,
+    "endLine": 6950
+  },
+  "legal.impressum.sections": {
+    "startLine": 6918,
+    "endLine": 6949
+  },
+  "legal.impressum.sections.0": {
+    "startLine": 6919,
+    "endLine": 6923
+  },
+  "legal.impressum.sections.content": {
+    "startLine": 6944,
+    "endLine": 6948
+  },
+  "legal.datenschutz": {
+    "startLine": 6951,
+    "endLine": 6995
+  },
+  "legal.datenschutz.sections": {
+    "startLine": 6953,
+    "endLine": 6994
+  },
+  "legal.datenschutz.sections.0": {
+    "startLine": 6954,
+    "endLine": 6958
+  },
+  "legal.datenschutz.sections.content": {
+    "startLine": 6989,
+    "endLine": 6993
+  },
+  "navigation": {
+    "startLine": 6999,
+    "endLine": 7004
+  },
+  "cookieConsent": {
+    "startLine": 7005,
+    "endLine": 7020
+  },
+  "seo": {
+    "startLine": 7021,
+    "endLine": 7034
+  },
+  "seo.extendedProductText": {
+    "startLine": 7022,
+    "endLine": 7026
+  },
+  "seo.extendedMarketText": {
+    "startLine": 7027,
+    "endLine": 7033
+  },
+  "application": {
+    "startLine": 7035,
+    "endLine": 7116
+  },
+  "application.tabs": {
+    "startLine": 7036,
+    "endLine": 7039
+  },
+  "application.portal": {
+    "startLine": 7040,
+    "endLine": 7115
+  },
+  "application.portal.jobs": {
+    "startLine": 7045,
+    "endLine": 7082
+  },
+  "application.portal.jobs.0": {
+    "startLine": 7046,
+    "endLine": 7051
+  },
+  "application.portal.jobs.desc": {
+    "startLine": 7076,
+    "endLine": 7081
+  },
+  "application.portal.steps": {
+    "startLine": 7083,
+    "endLine": 7087
+  },
+  "application.portal.form": {
+    "startLine": 7088,
+    "endLine": 7114
+  },
+  "menu": {
+    "startLine": 7117,
+    "endLine": 7123
+  },
+  "resources": {
+    "startLine": 7126,
+    "endLine": 7649
+  },
+  "resources.support": {
+    "startLine": 7127,
+    "endLine": 7253
+  },
+  "resources.support.seoText": {
+    "startLine": 7130,
+    "endLine": 7134
+  },
+  "resources.support.sticky": {
+    "startLine": 7135,
+    "endLine": 7157
+  },
+  "resources.support.sticky.items": {
+    "startLine": 7136,
+    "endLine": 7153
+  },
+  "resources.support.sticky.items.0": {
+    "startLine": 7137,
+    "endLine": 7140
+  },
+  "resources.support.sticky.items.desc": {
+    "startLine": 7149,
+    "endLine": 7152
+  },
+  "resources.support.timeline": {
+    "startLine": 7158,
+    "endLine": 7188
+  },
+  "resources.support.timeline.items": {
+    "startLine": 7159,
+    "endLine": 7185
+  },
+  "resources.support.timeline.items.0": {
+    "startLine": 7160,
+    "endLine": 7164
+  },
+  "resources.support.timeline.items.text": {
+    "startLine": 7180,
+    "endLine": 7184
+  },
+  "resources.support.hero": {
+    "startLine": 7189,
+    "endLine": 7196
+  },
+  "resources.support.intro": {
+    "startLine": 7197,
+    "endLine": 7203
+  },
+  "resources.support.bento": {
+    "startLine": 7204,
+    "endLine": 7230
+  },
+  "resources.support.bento.items": {
+    "startLine": 7208,
+    "endLine": 7229
+  },
+  "resources.support.bento.items.0": {
+    "startLine": 7209,
+    "endLine": 7212
+  },
+  "resources.support.bento.items.desc": {
+    "startLine": 7225,
+    "endLine": 7228
+  },
+  "resources.support.metrics": {
+    "startLine": 7231,
+    "endLine": 7243
+  },
+  "resources.support.metrics.items": {
+    "startLine": 7237,
+    "endLine": 7242
+  },
+  "resources.support.cta": {
+    "startLine": 7244,
+    "endLine": 7251
+  },
+  "resources.downloads": {
+    "startLine": 7254,
+    "endLine": 7391
+  },
+  "resources.downloads.cta": {
+    "startLine": 7257,
+    "endLine": 7261
+  },
+  "resources.downloads.meta": {
+    "startLine": 7262,
+    "endLine": 7265
+  },
+  "resources.downloads.hero": {
+    "startLine": 7266,
+    "endLine": 7273
+  },
+  "resources.downloads.timeline": {
+    "startLine": 7274,
+    "endLine": 7299
+  },
+  "resources.downloads.timeline.items": {
+    "startLine": 7277,
+    "endLine": 7298
+  },
+  "resources.downloads.timeline.items.0": {
+    "startLine": 7278,
+    "endLine": 7282
+  },
+  "resources.downloads.timeline.items.text": {
+    "startLine": 7293,
+    "endLine": 7297
+  },
+  "resources.downloads.sticky": {
+    "startLine": 7300,
+    "endLine": 7322
+  },
+  "resources.downloads.sticky.items": {
+    "startLine": 7304,
+    "endLine": 7321
+  },
+  "resources.downloads.sticky.items.0": {
+    "startLine": 7305,
+    "endLine": 7308
+  },
+  "resources.downloads.sticky.items.desc": {
+    "startLine": 7317,
+    "endLine": 7320
+  },
+  "resources.downloads.bento": {
+    "startLine": 7323,
+    "endLine": 7345
+  },
+  "resources.downloads.bento.items": {
+    "startLine": 7327,
+    "endLine": 7344
+  },
+  "resources.downloads.bento.items.0": {
+    "startLine": 7328,
+    "endLine": 7331
+  },
+  "resources.downloads.bento.items.desc": {
+    "startLine": 7340,
+    "endLine": 7343
+  },
+  "resources.downloads.methodology": {
+    "startLine": 7346,
+    "endLine": 7359
+  },
+  "resources.downloads.methodology.card1": {
+    "startLine": 7351,
+    "endLine": 7354
+  },
+  "resources.downloads.methodology.card2": {
+    "startLine": 7355,
+    "endLine": 7358
+  },
+  "resources.downloads.files": {
+    "startLine": 7360,
+    "endLine": 7390
+  },
+  "resources.downloads.files.items": {
+    "startLine": 7364,
+    "endLine": 7389
+  },
+  "resources.downloads.files.items.0": {
+    "startLine": 7365,
+    "endLine": 7368
+  },
+  "resources.downloads.files.items.type": {
+    "startLine": 7385,
+    "endLine": 7388
+  },
+  "resources.bim": {
+    "startLine": 7392,
+    "endLine": 7486
+  },
+  "resources.bim.sticky": {
+    "startLine": 7395,
+    "endLine": 7417
+  },
+  "resources.bim.sticky.items": {
+    "startLine": 7396,
+    "endLine": 7413
+  },
+  "resources.bim.sticky.items.0": {
+    "startLine": 7397,
+    "endLine": 7400
+  },
+  "resources.bim.sticky.items.desc": {
+    "startLine": 7409,
+    "endLine": 7412
+  },
+  "resources.bim.timeline": {
+    "startLine": 7418,
+    "endLine": 7448
+  },
+  "resources.bim.timeline.items": {
+    "startLine": 7419,
+    "endLine": 7445
+  },
+  "resources.bim.timeline.items.0": {
+    "startLine": 7420,
+    "endLine": 7424
+  },
+  "resources.bim.timeline.items.text": {
+    "startLine": 7440,
+    "endLine": 7444
+  },
+  "resources.bim.hero": {
+    "startLine": 7449,
+    "endLine": 7453
+  },
+  "resources.bim.intro": {
+    "startLine": 7454,
+    "endLine": 7459
+  },
+  "resources.bim.bento": {
+    "startLine": 7460,
+    "endLine": 7479
+  },
+  "resources.bim.bento.items": {
+    "startLine": 7461,
+    "endLine": 7478
+  },
+  "resources.bim.bento.items.0": {
+    "startLine": 7462,
+    "endLine": 7465
+  },
+  "resources.bim.bento.items.desc": {
+    "startLine": 7474,
+    "endLine": 7477
+  },
+  "resources.bim.cta": {
+    "startLine": 7480,
+    "endLine": 7485
+  },
+  "resources.common": {
+    "startLine": 7487,
+    "endLine": 7507
+  },
+  "resources.ausschreibungstexte": {
+    "startLine": 7508,
+    "endLine": 7648
+  },
+  "resources.ausschreibungstexte.meta": {
+    "startLine": 7509,
+    "endLine": 7512
+  },
+  "resources.ausschreibungstexte.timeline": {
+    "startLine": 7513,
+    "endLine": 7538
+  },
+  "resources.ausschreibungstexte.timeline.items": {
+    "startLine": 7514,
+    "endLine": 7535
+  },
+  "resources.ausschreibungstexte.timeline.items.0": {
+    "startLine": 7515,
+    "endLine": 7519
+  },
+  "resources.ausschreibungstexte.timeline.items.text": {
+    "startLine": 7530,
+    "endLine": 7534
+  },
+  "resources.ausschreibungstexte.hero": {
+    "startLine": 7539,
+    "endLine": 7546
+  },
+  "resources.ausschreibungstexte.manifesto": {
+    "startLine": 7547,
+    "endLine": 7552
+  },
+  "resources.ausschreibungstexte.bento": {
+    "startLine": 7553,
+    "endLine": 7579
+  },
+  "resources.ausschreibungstexte.bento.items": {
+    "startLine": 7557,
+    "endLine": 7578
+  },
+  "resources.ausschreibungstexte.bento.items.0": {
+    "startLine": 7558,
+    "endLine": 7561
+  },
+  "resources.ausschreibungstexte.bento.items.desc": {
+    "startLine": 7574,
+    "endLine": 7577
+  },
+  "resources.ausschreibungstexte.grid": {
+    "startLine": 7580,
+    "endLine": 7617
+  },
+  "resources.ausschreibungstexte.grid.items": {
+    "startLine": 7583,
+    "endLine": 7616
+  },
+  "resources.ausschreibungstexte.grid.items.0": {
+    "startLine": 7584,
+    "endLine": 7587
+  },
+  "resources.ausschreibungstexte.grid.items.desc": {
+    "startLine": 7612,
+    "endLine": 7615
+  },
+  "resources.ausschreibungstexte.cta": {
+    "startLine": 7618,
+    "endLine": 7623
+  },
+  "resources.ausschreibungstexte.deep": {
+    "startLine": 7624,
+    "endLine": 7647
+  },
+  "resources.ausschreibungstexte.deep.items": {
+    "startLine": 7625,
+    "endLine": 7646
+  },
+  "resources.ausschreibungstexte.deep.items.0": {
+    "startLine": 7626,
+    "endLine": 7629
+  },
+  "resources.ausschreibungstexte.deep.items.desc": {
+    "startLine": 7642,
+    "endLine": 7645
+  },
+  "markets": {
+    "startLine": 7650,
+    "endLine": 7992
+  },
+  "markets.landwirtschaft": {
+    "startLine": 7651,
+    "endLine": 7721
+  },
+  "markets.schiffbau": {
+    "startLine": 7722,
+    "endLine": 7779
+  },
+  "markets.klimaanlagen": {
+    "startLine": 7780,
+    "endLine": 7848
+  },
+  "markets.industrie": {
+    "startLine": 7849,
+    "endLine": 7912
+  },
+  "markets.trinkwasser": {
+    "startLine": 7913,
+    "endLine": 7991
+  },
+  "wissen": {
+    "startLine": 7993,
+    "endLine": 8071
+  },
+  "wissen.meta": {
+    "startLine": 7994,
+    "endLine": 7997
+  },
+  "wissen.scroll": {
+    "startLine": 7998,
+    "endLine": 8017
+  },
+  "wissen.scroll.items": {
+    "startLine": 7999,
+    "endLine": 8016
+  },
+  "wissen.scroll.items.0": {
+    "startLine": 8000,
+    "endLine": 8003
+  },
+  "wissen.scroll.items.desc": {
+    "startLine": 8012,
+    "endLine": 8015
+  },
+  "wissen.timeline": {
+    "startLine": 8018,
+    "endLine": 8043
+  },
+  "wissen.timeline.items": {
+    "startLine": 8019,
+    "endLine": 8040
+  },
+  "wissen.timeline.items.0": {
+    "startLine": 8020,
+    "endLine": 8024
+  },
+  "wissen.timeline.items.text": {
+    "startLine": 8035,
+    "endLine": 8039
+  },
+  "wissen.hero": {
+    "startLine": 8044,
+    "endLine": 8051
+  },
+  "wissen.deep": {
+    "startLine": 8052,
+    "endLine": 8057
+  },
+  "wissen.grid": {
+    "startLine": 8058,
+    "endLine": 8064
+  },
+  "wissen.cta": {
+    "startLine": 8065,
+    "endLine": 8070
+  },
+  "productNames": {
+    "startLine": 8072,
+    "endLine": 8201
+  },
+  "customerReviews": {
+    "startLine": 8202,
+    "endLine": 8248
+  },
+  "customerReviews.reviews": {
+    "startLine": 8212,
+    "endLine": 8243
+  },
+  "seoArticle": {
+    "startLine": 8249,
+    "endLine": 8302
+  },
+  "seoArticle.transitionFittings": {
+    "startLine": 8268,
+    "endLine": 8278
+  },
+  "seoArticle.transitionFittings.advList": {
+    "startLine": 8272,
+    "endLine": 8276
+  },
+  "seoArticle.valves": {
+    "startLine": 8279,
+    "endLine": 8281
+  },
+  "seoArticle.fittings": {
+    "startLine": 8282,
+    "endLine": 8286
+  },
+  "seoArticle.weldInSaddles": {
+    "startLine": 8287,
+    "endLine": 8291
+  },
+  "seoArticle.tools": {
+    "startLine": 8292,
+    "endLine": 8296
+  },
+  "seoArticle.accessories": {
+    "startLine": 8297,
+    "endLine": 8301
+  },
+  "kontaktBlocks": {
+    "startLine": 8303,
+    "endLine": 8599
+  },
+  "kontaktBlocks.home": {
+    "startLine": 8311,
+    "endLine": 8318
+  },
+  "kontaktBlocks.unternehmen": {
+    "startLine": 8319,
+    "endLine": 8326
+  },
+  "kontaktBlocks.produkte_fittings": {
+    "startLine": 8327,
+    "endLine": 8334
+  },
+  "kontaktBlocks.produkte_rohre": {
+    "startLine": 8335,
+    "endLine": 8342
+  },
+  "kontaktBlocks.produkte_armaturen": {
+    "startLine": 8343,
+    "endLine": 8350
+  },
+  "kontaktBlocks.produkte_werkzeuge": {
+    "startLine": 8351,
+    "endLine": 8358
+  },
+  "kontaktBlocks.produkte_uebergaenge": {
+    "startLine": 8359,
+    "endLine": 8366
+  },
+  "kontaktBlocks.produkte_zubehoer": {
+    "startLine": 8367,
+    "endLine": 8374
+  },
+  "kontaktBlocks.katalog": {
+    "startLine": 8375,
+    "endLine": 8382
+  },
+  "kontaktBlocks.finder": {
+    "startLine": 8383,
+    "endLine": 8390
+  },
+  "kontaktBlocks.produkte": {
+    "startLine": 8391,
+    "endLine": 8398
+  },
+  "kontaktBlocks.academy": {
+    "startLine": 8399,
+    "endLine": 8406
+  },
+  "kontaktBlocks.referenzen": {
+    "startLine": 8407,
+    "endLine": 8414
+  },
+  "kontaktBlocks.support": {
+    "startLine": 8415,
+    "endLine": 8422
+  },
+  "kontaktBlocks.ausschreibungstexte": {
+    "startLine": 8423,
+    "endLine": 8430
+  },
+  "kontaktBlocks.service": {
+    "startLine": 8431,
+    "endLine": 8438
+  },
+  "kontaktBlocks.maerkte_trinkwasser": {
+    "startLine": 8439,
+    "endLine": 8446
+  },
+  "kontaktBlocks.maerkte_klima": {
+    "startLine": 8447,
+    "endLine": 8454
+  },
+  "kontaktBlocks.maerkte_industrie": {
+    "startLine": 8455,
+    "endLine": 8462
+  },
+  "kontaktBlocks.maerkte_schiffbau": {
+    "startLine": 8463,
+    "endLine": 8470
+  },
+  "kontaktBlocks.maerkte_landwirtschaft": {
+    "startLine": 8471,
+    "endLine": 8478
+  },
+  "kontaktBlocks.maerkte": {
+    "startLine": 8479,
+    "endLine": 8486
+  },
+  "kontaktBlocks.loesungen_hochhaus": {
+    "startLine": 8487,
+    "endLine": 8494
+  },
+  "kontaktBlocks.loesungen_krankenhaus": {
+    "startLine": 8495,
+    "endLine": 8502
+  },
+  "kontaktBlocks.loesungen_hotel": {
+    "startLine": 8503,
+    "endLine": 8510
+  },
+  "kontaktBlocks.loesungen": {
+    "startLine": 8511,
+    "endLine": 8518
+  },
+  "kontaktBlocks.co2_rechner": {
+    "startLine": 8519,
+    "endLine": 8526
+  },
+  "kontaktBlocks.trust_center": {
+    "startLine": 8527,
+    "endLine": 8534
+  },
+  "kontaktBlocks.projektanfrage": {
+    "startLine": 8535,
+    "endLine": 8542
+  },
+  "kontaktBlocks.kontakt": {
+    "startLine": 8543,
+    "endLine": 8550
+  },
+  "kontaktBlocks.news": {
+    "startLine": 8551,
+    "endLine": 8558
+  },
+  "kontaktBlocks.karriere": {
+    "startLine": 8559,
+    "endLine": 8566
+  },
+  "kontaktBlocks.partnerschaft": {
+    "startLine": 8567,
+    "endLine": 8574
+  },
+  "kontaktBlocks.impressum": {
+    "startLine": 8575,
+    "endLine": 8582
+  },
+  "kontaktBlocks.datenschutz": {
+    "startLine": 8583,
+    "endLine": 8590
+  },
+  "kontaktBlocks.fallback": {
+    "startLine": 8591,
+    "endLine": 8598
+  },
+  "kontaktForm": {
+    "startLine": 8600,
+    "endLine": 8640
+  },
+  "kontaktForm.interests": {
+    "startLine": 8633,
+    "endLine": 8639
+  },
+  "enterprise": {
+    "startLine": 8641,
+    "endLine": 8746
+  },
+  "enterprise.telemetry": {
+    "startLine": 8663,
+    "endLine": 8686
+  },
+  "enterprise.telemetry.meta": {
+    "startLine": 8668,
+    "endLine": 8685
+  },
+  "enterprise.telemetry.meta.0": {
+    "startLine": 8669,
+    "endLine": 8672
+  },
+  "enterprise.telemetry.meta.1": {
+    "startLine": 8673,
+    "endLine": 8676
+  },
+  "enterprise.telemetry.meta.2": {
+    "startLine": 8677,
+    "endLine": 8680
+  },
+  "enterprise.telemetry.meta.3": {
+    "startLine": 8681,
+    "endLine": 8684
+  },
+  "enterprise.layers": {
+    "startLine": 8687,
+    "endLine": 8705
+  },
+  "enterprise.layers.items": {
+    "startLine": 8691,
+    "endLine": 8704
+  },
+  "enterprise.layers.items.0": {
+    "startLine": 8692,
+    "endLine": 8695
+  },
+  "enterprise.layers.items.d": {
+    "startLine": 8700,
+    "endLine": 8703
+  },
+  "enterprise.comply": {
+    "startLine": 8706,
+    "endLine": 8726
+  },
+  "enterprise.comply.items": {
+    "startLine": 8708,
+    "endLine": 8725
+  },
+  "enterprise.comply.items.0": {
+    "startLine": 8709,
+    "endLine": 8712
+  },
+  "enterprise.comply.items.1": {
+    "startLine": 8713,
+    "endLine": 8716
+  },
+  "enterprise.comply.items.2": {
+    "startLine": 8717,
+    "endLine": 8720
+  },
+  "enterprise.comply.items.3": {
+    "startLine": 8721,
+    "endLine": 8724
+  },
+  "enterprise.network": {
+    "startLine": 8728,
+    "endLine": 8745
+  },
+  "enterprise.network.chips": {
+    "startLine": 8731,
+    "endLine": 8744
+  },
+  "enterprise.network.chips.0": {
+    "startLine": 8732,
+    "endLine": 8735
+  },
+  "enterprise.network.chips.1": {
+    "startLine": 8736,
+    "endLine": 8739
+  },
+  "enterprise.network.chips.2": {
+    "startLine": 8740,
+    "endLine": 8743
+  },
+  "referenzenPage": {
+    "startLine": 8747,
+    "endLine": 8821
+  },
+  "referenzenPage.hero": {
+    "startLine": 8759,
+    "endLine": 8766
+  },
+  "referenzenPage.manifesto": {
+    "startLine": 8767,
+    "endLine": 8773
+  },
+  "referenzenPage.metrics": {
+    "startLine": 8774,
+    "endLine": 8804
+  },
+  "referenzenPage.metrics.items": {
+    "startLine": 8779,
+    "endLine": 8803
+  },
+  "referenzenPage.metrics.items.pressure": {
+    "startLine": 8780,
+    "endLine": 8784
+  },
+  "referenzenPage.metrics.items.isolation": {
+    "startLine": 8785,
+    "endLine": 8788
+  },
+  "referenzenPage.metrics.items.tolerance": {
+    "startLine": 8789,
+    "endLine": 8792
+  },
+  "referenzenPage.metrics.items.network": {
+    "startLine": 8793,
+    "endLine": 8797
+  },
+  "referenzenPage.metrics.items.welding": {
+    "startLine": 8798,
+    "endLine": 8802
+  },
+  "referenzenPage.cta": {
+    "startLine": 8805,
+    "endLine": 8811
+  },
+  "referenzenPage.icons": {
+    "startLine": 8812,
+    "endLine": 8820
+  },
+  "seoExpansion": {
+    "startLine": 8822,
+    "endLine": 8834
+  },
+  "geoContent": {
+    "startLine": 8837,
+    "endLine": 9154
+  },
+  "geoContent.frankfurt": {
+    "startLine": 8838,
+    "endLine": 8848
+  },
+  "geoContent.frankfurt.focus": {
+    "startLine": 8841,
+    "endLine": 8845
+  },
+  "geoContent.berlin": {
+    "startLine": 8849,
+    "endLine": 8859
+  },
+  "geoContent.berlin.focus": {
+    "startLine": 8852,
+    "endLine": 8856
+  },
+  "geoContent.muenchen": {
+    "startLine": 8860,
+    "endLine": 8870
+  },
+  "geoContent.muenchen.focus": {
+    "startLine": 8863,
+    "endLine": 8867
+  },
+  "geoContent.hamburg": {
+    "startLine": 8871,
+    "endLine": 8881
+  },
+  "geoContent.hamburg.focus": {
+    "startLine": 8874,
+    "endLine": 8878
+  },
+  "geoContent.wien": {
+    "startLine": 8882,
+    "endLine": 8892
+  },
+  "geoContent.wien.focus": {
+    "startLine": 8885,
+    "endLine": 8889
+  },
+  "geoContent.zuerich": {
+    "startLine": 8893,
+    "endLine": 8903
+  },
+  "geoContent.zuerich.focus": {
+    "startLine": 8896,
+    "endLine": 8900
+  },
+  "geoContent.london": {
+    "startLine": 8904,
+    "endLine": 8914
+  },
+  "geoContent.london.focus": {
+    "startLine": 8907,
+    "endLine": 8911
+  },
+  "geoContent.paris": {
+    "startLine": 8915,
+    "endLine": 8925
+  },
+  "geoContent.paris.focus": {
+    "startLine": 8918,
+    "endLine": 8922
+  },
+  "geoContent.mailand": {
+    "startLine": 8926,
+    "endLine": 8936
+  },
+  "geoContent.mailand.focus": {
+    "startLine": 8929,
+    "endLine": 8933
+  },
+  "geoContent.warschau": {
+    "startLine": 8937,
+    "endLine": 8947
+  },
+  "geoContent.warschau.focus": {
+    "startLine": 8940,
+    "endLine": 8944
+  },
+  "geoContent.prag": {
+    "startLine": 8948,
+    "endLine": 8958
+  },
+  "geoContent.prag.focus": {
+    "startLine": 8951,
+    "endLine": 8955
+  },
+  "geoContent.dubai": {
+    "startLine": 8959,
+    "endLine": 8969
+  },
+  "geoContent.dubai.focus": {
+    "startLine": 8962,
+    "endLine": 8966
+  },
+  "geoContent.abudhabi": {
+    "startLine": 8970,
+    "endLine": 8980
+  },
+  "geoContent.abudhabi.focus": {
+    "startLine": 8973,
+    "endLine": 8977
+  },
+  "geoContent.doha": {
+    "startLine": 8981,
+    "endLine": 8991
+  },
+  "geoContent.doha.focus": {
+    "startLine": 8984,
+    "endLine": 8988
+  },
+  "geoContent.riad": {
+    "startLine": 8992,
+    "endLine": 9002
+  },
+  "geoContent.riad.focus": {
+    "startLine": 8995,
+    "endLine": 8999
+  },
+  "geoContent.dschidda": {
+    "startLine": 9003,
+    "endLine": 9013
+  },
+  "geoContent.dschidda.focus": {
+    "startLine": 9006,
+    "endLine": 9010
+  },
+  "geoContent.neom": {
+    "startLine": 9014,
+    "endLine": 9024
+  },
+  "geoContent.neom.focus": {
+    "startLine": 9017,
+    "endLine": 9021
+  },
+  "geoContent.kuwait": {
+    "startLine": 9025,
+    "endLine": 9035
+  },
+  "geoContent.kuwait.focus": {
+    "startLine": 9028,
+    "endLine": 9032
+  },
+  "geoContent.maskat": {
+    "startLine": 9036,
+    "endLine": 9046
+  },
+  "geoContent.maskat.focus": {
+    "startLine": 9039,
+    "endLine": 9043
+  },
+  "geoContent.manama": {
+    "startLine": 9047,
+    "endLine": 9057
+  },
+  "geoContent.manama.focus": {
+    "startLine": 9050,
+    "endLine": 9054
+  },
+  "geoContent.amman": {
+    "startLine": 9058,
+    "endLine": 9069
+  },
+  "geoContent.amman.focus": {
+    "startLine": 9061,
+    "endLine": 9065
+  },
+  "geoContent.kairo": {
+    "startLine": 9070,
+    "endLine": 9081
+  },
+  "geoContent.kairo.focus": {
+    "startLine": 9073,
+    "endLine": 9077
+  },
+  "geoContent.istanbul": {
+    "startLine": 9082,
+    "endLine": 9093
+  },
+  "geoContent.istanbul.focus": {
+    "startLine": 9085,
+    "endLine": 9089
+  },
+  "geoContent.singapur": {
+    "startLine": 9094,
+    "endLine": 9105
+  },
+  "geoContent.singapur.focus": {
+    "startLine": 9097,
+    "endLine": 9101
+  },
+  "geoContent.kualalumpur": {
+    "startLine": 9106,
+    "endLine": 9117
+  },
+  "geoContent.kualalumpur.focus": {
+    "startLine": 9109,
+    "endLine": 9113
+  },
+  "geoContent.mumbai": {
+    "startLine": 9118,
+    "endLine": 9129
+  },
+  "geoContent.mumbai.focus": {
+    "startLine": 9121,
+    "endLine": 9125
+  },
+  "geoContent.kapstadt": {
+    "startLine": 9130,
+    "endLine": 9141
+  },
+  "geoContent.kapstadt.focus": {
+    "startLine": 9133,
+    "endLine": 9137
+  },
+  "geoContent.nairobi": {
+    "startLine": 9142,
+    "endLine": 9153
+  },
+  "geoContent.nairobi.focus": {
+    "startLine": 9145,
+    "endLine": 9149
+  }
+}

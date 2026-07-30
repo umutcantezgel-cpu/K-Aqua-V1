@@ -1,0 +1,135 @@
+unternehmen
+{
+  "kicker": "Werksführung & Beratung",
+  "head": "Lernen Sie die Fertigung hinter K Aqua persönlich kennen.",
+  "short": "Termin für Werksbesuch vereinbaren",
+  "text": "Als familiengeführtes Unternehmen öffnen wir unsere Tore gerne für Planer und Bauherren. Hinterlassen Sie Ihre Kontaktdaten, um einen Besuch im Werk Waldsolms abzustimmen.",
+  "interest": "Beratung",
+  "done": "Wir melden uns zur Koordination Ihres Besuchstermins in Waldsolms."
+}
+produkte_rohre
+{
+  "kicker": "PP-R Rohre",
+  "head": "Dimensionierung und Lieferzeit für Ihr Leitungsprojekt.",
+  "short": "Fragen zu PP-R Rohren für Ihr Projekt",
+  "text": "Nennen Sie uns Druckstufe, Medium und Trassenlänge grob per Telefon. Unsere Ingenieure prüfen Dimensionierung und Verfügbarkeit ab Werk und nennen Ihnen einen belastbaren Liefertermin.",
+  "interest": "Rohrsysteme",
+  "done": "Ein Ingenieur aus dem Leitungsbau meldet sich innerhalb eines Arbeitstages."
+}
+produkte_armaturen
+{
+  "kicker": "Ventile & Armaturen",
+  "head": "Die passende Armatur für Ihre hydraulischen Anforderungen.",
+  "short": "Armaturen für komplexe Netze finden",
+  "text": "Absperr-, Regel- oder Spezialventile: Beschreiben Sie uns kurz den maximalen Betriebsdruck und das Fördermedium. Wir leiten Ihnen die passenden Datenblätter und Verfügbarkeiten weiter.",
+  "interest": "Ersatzteile",
+  "done": "Ein Ventil-Experte sendet Ihnen in Kürze die gewünschten Spezifikationen."
+}
+produkte_werkzeuge
+{
+  "kicker": "Schweißwerkzeuge",
+  "head": "Sichern Sie sich das richtige Werkzeug für absolut dichte Nähte.",
+  "short": "Schweißwerkzeuge leihen oder kaufen",
+  "text": "Ob Muffenschweißen oder Heizwendel-Technik: Teilen Sie uns mit, welche Dimensionen auf der Baustelle anstehen. Wir kümmern uns um die passenden Maschinen zur Miete oder zum Kauf.",
+  "interest": "Beratung",
+  "done": "Unser Equipment-Team prüft den Bestand und meldet sich zeitnah."
+}
+produkte_uebergaenge
+{
+  "kicker": "Systemübergänge",
+  "head": "Sichere Materialübergänge von Metall auf Kunststoff.",
+  "short": "Übergangsstücke für Ihre Installation",
+  "text": "Geben Sie uns die genauen Gewindemaße und das Material der Bestandsrohre durch. Wir empfehlen Ihnen korrosionsfreie Übergänge, die dauerhaft Dichtigkeit garantieren.",
+  "interest": "Rohrsysteme",
+  "done": "Ein Techniker meldet sich bei Ihnen zur Auswahl des passenden Übergangs."
+}
+produkte_zubehoer
+{
+  "kicker": "Zubehör & Befestigung",
+  "head": "Komplettieren Sie Ihre Installation mit originalem Zubehör.",
+  "short": "Befestigungen und Zubehör anfragen",
+  "text": "Von Rohrschellen bis hin zu Isolationsmaterial: Nennen Sie uns Ihren Bedarf. Wir sorgen dafür, dass das Zubehör nahtlos zum restlichen K Aqua System passt.",
+  "interest": "Ersatzteile",
+  "done": "Ihr Zubehör-Angebot wird gerade zusammengestellt."
+}
+katalog
+{
+  "kicker": "Gesamtkatalog",
+  "head": "Alle Artikelnummern und Maße für Ihre Beschaffung.",
+  "short": "Unterstützung bei der Artikelsuche",
+  "text": "Finden Sie ein spezielles Sondermaß nicht im Katalog? Beschreiben Sie uns kurz das benötigte Bauteil, wir durchsuchen unser gesamtes Inventar für Sie.",
+  "interest": "Beratung",
+  "done": "Wir recherchieren das gewünschte Bauteil und rufen Sie an."
+}
+finder
+{
+  "kicker": "Produktfinder",
+  "head": "Lassen Sie uns die Suche nach dem passenden System abkürzen.",
+  "short": "Direkthilfe beim Produktfinder",
+  "text": "Wenn Ihre Parameter (Temperatur, Druck, Medium) grenzwertig sind, übernehmen wir gerne die Auslegung. Ein Anruf spart oft Stunden der Eigenrecherche.",
+  "interest": "Beratung",
+  "done": "Ein Systemplaner ruft Sie zur genauen Auslegung zurück."
+}
+referenzen
+{
+  "kicker": "Ähnliche Projekte",
+  "head": "Profitieren Sie von unseren Erfahrungswerten aus Referenzbauten.",
+  "short": "Erfahrungswerte für Ihr Projekt anfragen",
+  "text": "Planen Sie einen ähnlichen Hochhausbau oder eine Industriehalle? Wir teilen gerne anonymisierte Lessons-Learned und Best-Practices aus den hier gezeigten Großprojekten mit Ihnen.",
+  "interest": "BIM Daten",
+  "done": "Ein Projektleiter meldet sich für einen Erfahrungsaustausch."
+}
+support
+{
+  "kicker": "Technischer Support",
+  "head": "Soforthilfe bei Herausforderungen auf der Baustelle.",
+  "short": "Schnelle Problemlösung für Monteure",
+  "text": "Gibt es Probleme bei der Schweißnaht oder unklare Druckprüfungsergebnisse? Hinterlassen Sie Ihre Nummer, unser technischer Support ruft umgehend für eine Ferndiagnose zurück.",
+  "interest": "Beratung",
+  "done": "Der technische Support wurde alarmiert und ruft in Kürze zurück."
+}
+ausschreibungstexte
+{
+  "kicker": "LV-Texte & Planung",
+  "head": "Erhalten Sie herstellerneutrale Ausschreibungstexte in Minuten.",
+  "short": "Hilfe bei der Leistungsverzeichnis-Erstellung",
+  "text": "Wir stellen Ihnen VOB-konforme GAEB-Dateien oder Word-Vorlagen für Ihr LV zur Verfügung. Nennen Sie uns die Projektart, und wir senden Ihnen maßgeschneiderte Textbausteine.",
+  "interest": "BIM Daten",
+  "done": "Die passenden LV-Texte werden Ihnen zeitnah zugesendet."
+}
+service
+{
+  "kicker": "Vor Ort Service",
+  "head": "Unterstützung durch K Aqua Techniker auf Ihrer Baustelle.",
+  "short": "Baustelleneinweisung anfragen",
+  "text": "Benötigt Ihr Team eine Einweisung an den Maschinen direkt am Einbauort? Wir koordinieren einen unserer Richtmeister, der Ihr Projekt in der kritischen Startphase begleitet.",
+  "interest": "Beratung",
+  "done": "Unser Service-Team prüft die Verfügbarkeit eines Richtmeisters."
+}
+maerkte_trinkwasser
+{
+  "kicker": "Null Leckage Netze",
+  "head": "Jedes verlorene Prozent Trinkwasser kostet Ihr Netz bares Geld.",
+  "short": "Verlustrechnung für Ihr Trinkwassernetz",
+  "text": "Schildern Sie uns kurz Netzgröße und Klimazone. Wir rechnen Ihnen vor, wie viel Wasser und Budget ein K Aqua Feld gegenüber dem Bestand sichert, inklusive Betriebsjahren.",
+  "interest": "Trinkwassernetze",
+  "done": "Ein Netzplaner meldet sich innerhalb eines Arbeitstages mit einer ersten Verlustrechnung."
+}
+maerkte_klima
+{
+  "kicker": "HVAC & Kühlung",
+  "head": "Sichern Sie hohe Durchflussmengen ohne Korrosionsrisiko.",
+  "short": "Kühlkreisläufe effizienter planen",
+  "text": "Nennen Sie uns die Kühlleistung und Vorlauftemperatur. Wir legen den Querschnitt so aus, dass Kavitation und Druckverluste in Ihrem Klimasystem minimiert werden.",
+  "interest": "Rohrsysteme",
+  "done": "Ein HVAC-Experte wird sich zur Querschnittsauslegung melden."
+}
+maerkte_industrie
+{
+  "kicker": "Industrieanlagen",
+  "head": "Chemische Beständigkeit für anspruchsvolle Fördermedien.",
+  "short": "Beständigkeitsprüfung anfragen",
+  "text": "Verarbeiten Sie aggressive Säuren, Laugen oder Reinstwasser? Senden Sie uns die chemische Zusammensetzung, und unser Labor bestätigt Ihnen schriftlich die Beständigkeit unserer PP-R Rohre.",
+  "interest": "Beratung",
+  "done": "Unser Labor prüft die Beständigkeit und meldet sich bei Ihnen."
+}

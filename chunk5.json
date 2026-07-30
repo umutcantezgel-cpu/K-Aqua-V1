@@ -1,324 +1,191 @@
 {
-  "flat-gasket": {
-    "seo_p1": "Die Flachdichtung (Flat Gasket) ist das essentielle Dichtelement für alle Flanschverbindungen innerhalb unseres PP-R Systems.",
-    "seo_p2": "Aus hochwertigem EPDM oder anderen Elastomeren gestanzt, ist die Dichtung speziell auf die glatten Stirnflächen der Bundkragen abgestimmt und hält hohem Netzdruck stand.",
-    "seo_p3": "Sie gleicht mikroskopische Unebenheiten aus und sorgt bei Flanschübergängen in der Industrie oder Heizungstechnik für eine 100-prozentig leckagefreie und langlebige Verbindung.",
+  "reducing-bush": {
+    "seo_p1": "Die Reduziermuffe (Reducing Bush) ermöglicht den stufenlosen Übergang zwischen unterschiedlichen Rohrdimensionen innerhalb unserer Fittings-Familie.",
+    "seo_p2": "Hergestellt aus hochfestem PP-R, ist dieses Reduzierstück so konstruiert, dass der Strömungsverlauf optimiert und Kavitation an der Querschnittsveränderung vermieden wird.",
+    "seo_p3": "Sie wird häufig eingesetzt, um Hauptleitungen in kleinere Versorgungsstränge zu verjüngen, wodurch Materialkosten gesenkt und der Netzdruck präzise ausbalanciert wird.",
     "faq": [
       {
-        "q": "Aus welchem Material besteht die Flachdichtung?",
-        "a": "Standardmäßig bestehen unsere Flanschdichtungen aus hochdruckfestem EPDM, das für Trinkwasser und Heizungswasser hervorragend geeignet ist."
+        "q": "Kann ich mehrere Dimensionen auf einmal überspringen?",
+        "a": "Ja, wir bieten Reduktionen an, die mehrstufige Querschnittsverengungen in einem Bauteil realisieren, z. B. von 63 mm auf 32 mm."
       },
       {
-        "q": "Darf die Dichtung wiederverwendet werden?",
-        "a": "Nein, nach dem Lösen einer Flanschverbindung muss aus Sicherheitsgründen zwingend eine neue Flachdichtung eingesetzt werden."
+        "q": "Wird die Reduziermuffe in oder auf das Rohr geschweißt?",
+        "a": "Die Reduzierung ist in der Regel als Innen/Außen (I/A) Fitting konzipiert: Die große Seite passt in eine Muffe, die kleine Seite nimmt das Rohr auf."
       },
       {
-        "q": "Ist die Dichtung beständig gegen Chemikalien?",
-        "a": "EPDM bietet eine gute Beständigkeit gegen viele wässrige Lösungen. Für spezielle industrielle Chemikalien prüfen Sie bitte vorab unsere Beständigkeitslisten."
+        "q": "Hat die Verjüngung Einfluss auf den Betriebsdruck?",
+        "a": "Nein, die Wandstärken der K Aqua Reduktionen sind so dimensioniert, dass sie dem Nenndruck des Gesamtsystems (bis PN 25) entsprechen."
       }
     ]
   },
-  "flat-gasket-for-unions-pp-r": {
-    "seo_p1": "Die Flachdichtung für Verschraubungen (Flat Gasket for Unions PP-R) ist präzise für unsere Kunststoff- und Metallverschraubungen dimensioniert.",
-    "seo_p2": "Das trinkwasserzugelassene Elastomermaterial bietet eine hohe Rückstellkraft und ist resistent gegenüber dauerhaften thermischen Belastungen in Warmwassernetzen.",
-    "seo_p3": "Ein regelmäßiger Austausch dieser Dichtung nach Wartungsarbeiten an Ventilen oder Pumpen garantiert die dauerhafte Dichtigkeit der Schraubverbindung.",
+  "reducing-tee": {
+    "seo_p1": "Das reduzierte T-Stück (Reducing Tee) vereint eine 90-Grad-Abzweigung mit einer gleichzeitigen Querschnittsverjüngung im Abzweig.",
+    "seo_p2": "Dieses multifunktionale PP-R Fitting bietet durch sein monolithisches Design höchste Stabilität und Druckfestigkeit, passend für alle Standard-SDR-Anwendungen.",
+    "seo_p3": "In der Etagenverteilung von Trink- und Heizungswasser sorgt das reduzierte T-Stück für einen effizienten Aufbau ohne zusätzliche Reduzierstücke, was die Installation deutlich beschleunigt.",
     "faq": [
       {
-        "q": "Wie stark darf die Verschraubung angezogen werden?",
-        "a": "Um die Dichtung nicht zu zerstören, sollte die Überwurfmutter handfest und anschließend mit Werkzeug nur leicht (ca. 1/4 Drehung) nachgezogen werden."
+        "q": "Wann nutze ich ein reduziertes T-Stück anstelle eines Standard-T-Stücks mit Reduktion?",
+        "a": "Ein reduziertes T-Stück spart eine zusätzliche Schweißnaht und verringert den Bauraum, was es effizienter und sicherer macht."
       },
       {
-        "q": "Gibt es diese Dichtungen auch in anderen Materialien?",
-        "a": "Für extreme Temperaturanforderungen oder spezielle industrielle Medien können wir auf Anfrage auch Dichtungen aus FKM (Viton) oder PTFE anbieten."
+        "q": "Ist der Abzweig immer die reduzierte Seite?",
+        "a": "Meistens ja, da typischerweise von der Hauptleitung kleinere Abzweige zu den Verbrauchern geführt werden."
       },
       {
-        "q": "Passt diese Dichtung auf Fremdfabrikate?",
-        "a": "Sie ist maßgeschneidert für die Nut- und Federkonstruktion der K Aqua Verschraubungen, kann aber auch bei maßgleichen Fremdverschraubungen verwendet werden."
+        "q": "Können diese T-Stücke strömungstechnische Geräusche verursachen?",
+        "a": "Nein, die Innenradien sind hydraulisch optimiert, um Turbulenzen und Kavitationsgeräusche bei Querschnittsänderungen zu minimieren."
       }
     ]
   },
-  "plug": {
-    "seo_p1": "Der Verschlussstopfen (Plug) dient dem temporären oder dauerhaften Verschließen von offenen Gewindeanschlüssen in der Sanitärinstallation.",
-    "seo_p2": "Aus stabilem PP-R gespritzt und oft mit einem integrierten Dichtring versehen, widersteht der Stopfen dem vollen Prüfdruck bei der Anlagenabnahme.",
-    "seo_p3": "Er schützt das Leitungssystem während der Bauphase vor Verschmutzungen und verschließt Wandscheiben zuverlässig bis zur endgültigen Montage der Auslaufarmaturen.",
+  "reducing-tee-large-sizes": {
+    "seo_p1": "Das reduzierte T-Stück für Großdimensionen (Reducing Tee Large Sizes) ist speziell für industrielle Hauptleitungen mit großen Querschnitten konzipiert.",
+    "seo_p2": "Dieses massiv ausgelegte PP-R Bauteil hält extremen Volumenströmen und Systemdrücken stand und ermöglicht einen sicheren, verjüngten Abzweig aus großen Versorgungssträngen.",
+    "seo_p3": "Häufig verwendet in Fernkältenetzen und Hauptsteigleitungen, garantiert dieses Fitting absolute Stabilität und dauerhafte Dichtigkeit bei höchsten Belastungen.",
     "faq": [
       {
-        "q": "Hält der Stopfen dem Wasserdruck während der Bauphase stand?",
-        "a": "Ja, er ist so konstruiert, dass er dem vollen Prüfdruck (oftmals mehr als 15 bar) bei der Druckprobe des Leitungsnetzes standhält."
+        "q": "Welches Spezialwerkzeug wird für die Montage benötigt?",
+        "a": "Für die exakte Fräsung des Loches ist ein spezieller K Aqua Anbohrer erforderlich, sowie ein Sattelschweißwerkzeug zur Erwärmung."
       },
       {
-        "q": "Muss der Stopfen zusätzlich mit Teflon abgedichtet werden?",
-        "a": "Unsere Stopfen verfügen meist über einen integrierten O-Ring, sodass kein zusätzliches Dichtband wie Teflon oder Hanf benötigt wird."
+        "q": "Kann ein Sattel auf einem unter Druck stehenden Rohr montiert werden?",
+        "a": "Nein, das Leitungssystem muss zwingend entleert und drucklos sein, bevor die Anbohrung und Schweißung erfolgt."
       },
       {
-        "q": "Kann der Stopfen dauerhaft in der Wand verbleiben?",
-        "a": "Er ist primär als Baustopfen konzipiert. Für dauerhafte Blindverschlüsse empfehlen wir entsprechende Messing-Blindstopfen."
+        "q": "Ist die Sattelverbindung so stark wie ein T-Stück?",
+        "a": "Ja, durch die tiefe Polyfusionsverschmelzung an der Rohrwandung erreicht der Sattelabzweig dieselbe Druckstufe wie das Basisrohr."
       }
     ]
   },
-  "pipe-cutter-2040": {
-    "seo_p1": "Der Rohrschneider d20-d40 (Pipe Cutter 20-40) ist das unerlässliche Präzisionswerkzeug für saubere Kappschnitte bei kleinen bis mittleren Rohrdimensionen.",
-    "seo_p2": "Ausgestattet mit einer titanbeschichteten Klinge und einer mechanischen Hebelübersetzung, garantiert die Schere einen absolut rechtwinkligen Schnitt durch PP-R Rohre ohne Materialverformung.",
-    "seo_p3": "Ein sauberer, gratfreier Schnitt ist die Grundvoraussetzung für eine normgerechte und langlebige Schweißverbindung. Dieses Werkzeug ist der ständige Begleiter jedes Installateurs.",
+  "tee": {
+    "seo_p1": "Das gleichschenklige T-Stück (Tee) ist das klassische Abzweig-Fitting für eine symmetrische Strömungsteilung in PP-R Netzwerken.",
+    "seo_p2": "Gefertigt aus robustem Polypropylen (PP-R), bietet es drei gleich dimensionierte Muffenenden, die den Nenndruck des Rohrsystems vollumfänglich unterstützen.",
+    "seo_p3": "Es ist das Herzstück jeder Ring- und Reihenleitung in Sanitärinstallationen und gewährleistet eine zuverlässige, druckverlustarme Verteilung des Mediums.",
     "faq": [
       {
-        "q": "Warum ist ein spezieller Rohrschneider so wichtig?",
-        "a": "Ein rechtwinkliger und gratfreier Schnitt ohne Quetschungen ist absolut zwingend, um eine perfekte, hohlraumfreie Schweißverbindung zu gewährleisten."
+        "q": "Verringert das T-Stück den Leitungsquerschnitt?",
+        "a": "Nein, das Innendesign unserer T-Stücke ist auf vollen Durchgang ausgelegt, um den Volumenstrom nicht zu drosseln."
       },
       {
-        "q": "Kann die Klinge ausgetauscht werden?",
-        "a": "Ja, bei Verschleiß oder Beschädigung lässt sich die hochfeste Stahlklinge problemlos durch ein Original-Ersatzteil austauschen."
+        "q": "Ist ein T-Stück anfälliger für Ablagerungen?",
+        "a": "Durch das extrem glatte PP-R Material (Rauigkeitswert 0,007 mm) haben Kalk und Biofilme auch in den Abzweigen keine Chance sich festzusetzen."
       },
       {
-        "q": "Funktioniert die Schere auch bei kalten Temperaturen?",
-        "a": "Die Kraftübersetzung funktioniert immer, jedoch sollte das PP-R Rohr bei Frosttemperaturen nicht geschnitten werden, da es splittern könnte."
+        "q": "Werden bei großen T-Stücken andere Schweißzeiten benötigt?",
+        "a": "Ja, die Anwärm-, Umstell- und Abkühlzeiten sind abhängig von der Dimension und strikt nach den DVS-Richtlinien einzuhalten."
       }
     ]
   },
-  "pipe-cutter-50125": {
-    "seo_p1": "Der große Rohrschneider d50-d125 (Pipe Cutter 50-125) ist ein robustes Rollenschneidwerkzeug für großvolumige Kunststoffrohre.",
-    "seo_p2": "Sein massiver Stahlkörper und das speziell gehärtete Schneidrad durchdringen mühelos dicke Rohrwandungen der großen SDR-Klassen mit absoluter Planparallelität.",
-    "seo_p3": "Ideal für die Vorbereitung von Hauptverteilungsleitungen im Industriebau, verhindert dieser Schneider spannungsinduzierte Risse, die bei einfachen Sägeschnitten auftreten könnten.",
+  "cross": {
+    "seo_p1": "Das Kreuzstück (Cross) ermöglicht die Verteilung eines Hauptstroms in drei unterschiedliche Richtungen innerhalb einer kompakten Installationsebene.",
+    "seo_p2": "Dieses vierfache PP-R Fitting ist strömungstechnisch optimiert, um Turbulenzen zu minimieren, und fügt sich nahtlos in unsere hochdruckfesten SDR-Serien ein.",
+    "seo_p3": "Perfekt für komplexe Verteilerschränke und zentrale Kreuzungspunkte in der Haustechnik, es ersetzt mehrere T-Stücke und spart so wertvollen Bauraum und Installationszeit.",
     "faq": [
       {
-        "q": "Wie funktioniert das Schneiden von derart dicken Rohren?",
-        "a": "Das Werkzeug wird um das Rohr gespannt, das Schneidrad wird langsam zugestellt und der Schneider wird in gleichmäßigen Drehbewegungen um das Rohr geführt."
+        "q": "Verursacht das Kreuzstück hohe Druckverluste?",
+        "a": "Da vier Ströme aufeinandertreffen können, ist der Zeta-Wert höher als bei geraden Rohren, das großzügige Innendesign hält den Verlust jedoch minimal."
       },
       {
-        "q": "Schneidet dieses Werkzeug auch Faserverbundrohre?",
-        "a": "Ja, das speziell gehärtete Schneidrad durchtrennt auch unsere glasfaserverstärkten PPRCT Rohre mühelos und extrem präzise."
+        "q": "In welchen Situationen ist ein Kreuz zwingend?",
+        "a": "Besonders in Vorwandinstallationen oder Fußbodenheizungsverteilern, wo extrem flach und symmetrisch gebaut werden muss."
       },
       {
-        "q": "Ersetzt der Rollenschneider das Anfasen?",
-        "a": "Das Muffenschweißen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung für den Schweißprozess."
+        "q": "Sind die Abzweige immer gleich groß?",
+        "a": "Bei unserem Standard-Kreuzstück sind alle vier Anschlüsse gleich dimensioniert (z. B. 4x 20mm)."
       }
     ]
   },
-  "pipe-cutter-50125-1": {
-    "seo_p1": "Der Hochleistungs-Rohrschneider d50-d125 V1 (Pipe Cutter 50-125-1) ist eine modifizierte Version für besonders schnelle und ergonomische Schnitte.",
-    "seo_p2": "Mit einer optimierten Spindelführung und einem integrierten Schnellrücklauf-Mechanismus beschleunigt er den Schneidprozess massiver PP-R Rohre enorm.",
-    "seo_p3": "Für Bauprojekte mit hohem Rohrverbrauch ab 50 mm Durchmesser konzipiert, reduziert dieses Werkzeug die physische Belastung des Anwenders auf ein Minimum.",
+  "cross-over": {
+    "seo_p1": "Das Überspringstück (Cross-over) ist eine clevere Lösung für Kreuzungen von Kalt- und Warmwasserleitungen auf engstem Raum.",
+    "seo_p2": "Das geschwungene PP-R Formteil verfügt über integrierte Muffenenden und eine elegante Brückenform, die die Leitungsführung auf einer Ebene ohne Höhenversatz ermöglicht.",
+    "seo_p3": "Es verhindert Kollisionen bei Wandinstallationen und Fußbodenheizungen und garantiert einen reibungslosen Durchfluss bei optisch perfekter, flacher Leitungsverlegung.",
     "faq": [
       {
-        "q": "Was bedeutet 'Schnellrücklauf-Mechanismus'?",
-        "a": "Nach Beendigung des Schnitts kann das Schneidrad per Knopfdruck sofort in die Ausgangsposition gefahren werden, ohne lästiges Zurückkurbeln."
+        "q": "Wie groß ist der Bogen des Schwanenhalses?",
+        "a": "Die Biegung ist exakt so dimensioniert, dass ein kreuzendes K Aqua Rohr gleicher oder kleinerer Dimension berührungsfrei übersprungen wird."
       },
       {
-        "q": "Eignet sich dieses Modell besser für den stationären Einsatz?",
-        "a": "Es ist mobil, lässt sich aber dank seiner massiven Bauform und der präzisen Spindelführung hervorragend für stationäre Vorfertigungen nutzen."
+        "q": "Werden für die Installation spezielle Muffen benötigt?",
+        "a": "Der Schwanenhals (Überbogen) verfügt typischerweise über ungeschweißte Rohrenden und wird beidseitig mit Standard-Muffen in das System integriert."
       },
       {
-        "q": "Gibt es Ersatzteile für diesen Rohrschneider?",
-        "a": "Ja, sowohl das Schneidrad als auch die Führungsrollen sind als Original-Ersatzteile dauerhaft lieferbar."
+        "q": "Darf ich ein gerades PP-R Rohr selbst mit Hitze zum Überbogen formen?",
+        "a": "Nein! Manuelles Biegen mit Heißluftgebläsen zerstört die molekulare Struktur des Rohres und führt zum sofortigen Erlöschen der Gewährleistung."
       }
     ]
   },
-  "hand-welding-machine-2032-complete-set": {
-    "seo_p1": "Das Handschweißgerät d20-d32 im Komplettset (Hand Welding Machine 20-32 Complete Set) ist die professionelle Basisstation für kleine Dimensionen.",
-    "seo_p2": "Es beinhaltet ein thermostatgesteuertes 800-Watt-Heizelement, teflonbeschichtete Schweißwerkzeuge sowie einen stabilen Ständer in einem robusten Metallkoffer.",
-    "seo_p3": "Konzipiert für die schnelle und normgerechte Vorwand- und Etageninstallation, hält das Gerät die erforderliche Schweißtemperatur von 260°C jederzeit absolut konstant.",
+  "cross-over-pipe": {
+    "seo_p1": "Das Überspringrohr (Cross-over Pipe) ist die verlängerte Version des Überspringstücks, ideal für Leitungsbrücken ohne direkte Muffenanbindung an den Enden.",
+    "seo_p2": "Hergestellt aus hochwertigem PP-R, bietet dieses Brückenbauteil reine Einsteckenden, die maximale Flexibilität beim Positionieren der Schweißmuffen erlauben.",
+    "seo_p3": "Installateure nutzen dieses Bauteil bei schwierigen Kreuzungen in großen Verteilersystemen, um die Verlegung flexibel an die Gegebenheiten der Baustelle anzupassen.",
     "faq": [
       {
-        "q": "Warum ist ein elektronisches Thermostat so wichtig?",
-        "a": "Nur ein präzises Thermostat garantiert die DVS-konforme Dauertemperatur von exakt 260°C, die für eine sichere PP-R Verschmelzung zwingend nötig ist."
+        "q": "Was unterscheidet das Crossing Tee vom Kreuzstück?",
+        "a": "Das Crossing Tee ermöglicht das kreuzungsfreie Überspringen einer Leitung und integriert gleichzeitig einen Abzweig."
       },
       {
-        "q": "Wie lange dauert die Aufheizphase?",
-        "a": "Dank des starken 800-Watt-Heizelements erreicht das Gerät die Betriebstemperatur in der Regel in unter 10 Minuten."
+        "q": "Wie wird dieses Bauteil verschweißt?",
+        "a": "Es wird analog zu Standard-Fittings mittels Heizelementmuffenschweißen in das Leitungsnetz eingebunden."
       },
       {
-        "q": "Welche Werkzeuge sind im Koffer enthalten?",
-        "a": "Das Set umfasst das Heizgerät, den Standfuß, Teflondorne für 20, 25 und 32 mm, Inbusschlüssel und Montageschrauben im Stahlkoffer."
+        "q": "Wird der Durchfluss durch die Konstruktion gehemmt?",
+        "a": "Trotz der kompakten Geometrie ist das Innere strömungsoptimiert, sodass keine signifikanten Querschnittsverengungen entstehen."
       }
     ]
   },
-  "hand-welding-machine-2063-complete-set": {
-    "seo_p1": "Das Handschweißgerät d20-d63 im Komplettset (Hand Welding Machine 20-63 Complete Set) deckt die gesamte Bandbreite der klassischen Haustechnik ab.",
-    "seo_p2": "Mit einer höheren Heizleistung und doppelten Steckplätzen für Heizdorne ermöglicht dieses Gerät das simultane Vorbereiten verschiedener Dimensionen ohne Werkzeugwechsel.",
-    "seo_p3": "Das robuste Komplettset ist für den rauen Baustellenalltag konzipiert und liefert auch bei widrigen Witterungsbedingungen eine kompromisslos präzise Schweißtemperatur.",
+  "adaptor-socket-female-thread": {
+    "seo_p1": "Die Übergangsmuffe mit Innengewinde (Adaptor Socket Female Thread) bildet eine essenzielle Schnittstelle zwischen dem verschweißten PP-R Rohrsystem und metallischen Gewindekomponenten.",
+    "seo_p2": "Sie vereint einen robusten PP-R-Muffenkörper mit einem hochwertigen Metalleinsatz (Innengewinde). Dies sichert eine hervorragende Druckbeständigkeit bei den Standard-SDR-Stufen.",
+    "seo_p3": "Dieses Formteil ist unverzichtbar beim Anschluss von Armaturen, Manometern und speziellen Ventilen in der Gebäudeinstallation, um dauerhaft tropffreie Übergänge zu garantieren.",
     "faq": [
       {
-        "q": "Können mehrere Schweißwerkzeuge gleichzeitig montiert werden?",
-        "a": "Ja, der breite Heizschwert-Kopf erlaubt die simultane Montage von bis zu drei Heizdorn-Paaren für ein unterbrechungsfreies Arbeiten."
+        "q": "Wozu dient die Montageplatte?",
+        "a": "Die integrierte Platte mit Bohrungen ermöglicht die starre, mechanische Fixierung des Winkels direkt an der Wand oder einem Montageelement."
       },
       {
-        "q": "Gibt das Gerät ein Signal bei Erreichen der Temperatur?",
-        "a": "Eine gut sichtbare Kontrollleuchte signalisiert dem Anwender, sobald die Betriebstemperatur von 260°C erreicht und stabilisiert ist."
+        "q": "Ist das Metallgewinde korrosionsanfällig?",
+        "a": "Nein, die metallischen Einsätze bestehen aus hochwertigem, entzinkungsfreiem Messing und sind somit hochgradig korrosionsbeständig."
       },
       {
-        "q": "Ist das Gerät für den Dauerbetrieb auf Großbaustellen geeignet?",
-        "a": "Absolut. Das langlebige Heizelement und die hitzebeständige Verkabelung sind speziell für den industriellen Schichtbetrieb ausgelegt."
+        "q": "Darf ich das Gewinde mit Hanf abdichten?",
+        "a": "Wir empfehlen die Verwendung von Teflonband (PTFE-Band). Bei Hanf darf nur sehr sparsam und mit nicht-quellender Paste gearbeitet werden, um den Messingeinsatz nicht zu sprengen."
       }
     ]
   },
-  "hand-welding-machine-mirror-50125": {
-    "seo_p1": "Das Handschweißgerät mit Spiegel d50-d125 (Hand Welding Machine Mirror 50-125) ist speziell für große Muffenschweißungen entwickelt worden.",
-    "seo_p2": "Ein extrem flacher, großflächiger Heizspiegel garantiert die gleichmäßige Erwärmung massiver Fittings und Rohre. Die Leistung von über 1200 Watt sichert schnelle Aufheizphasen.",
-    "seo_p3": "Zwingend erforderlich für die manuelle Verarbeitung großer Versorgungsstränge in der Industrie, bei denen Temperaturabfälle während des Schweißvorgangs katastrophal wären.",
+  "adaptor-socket-male-thread": {
+    "seo_p1": "Die Übergangsmuffe mit Außengewinde (Adaptor Socket Male Thread) ermöglicht den festen und sicheren Anschluss des PP-R Netzes an weiterführende metallische Rohrleitungen.",
+    "seo_p2": "Eine auszugssichere Verankerung des Messing-Außengewindes im hochfesten Polypropylen-Körper verhindert Verdrehungen und garantiert extreme Langlebigkeit bei hohen Temperatur- und Druckschwankungen.",
+    "seo_p3": "Häufig verwendet beim Anschluss von Heizkesseln, Wärmepumpen oder Filtern, stellt diese Muffe eine dauerhafte und normgerechte Gewindeverbindung sicher.",
     "faq": [
       {
-        "q": "Warum benötigt man für große Rohre einen Flachspiegel?",
-        "a": "Große Durchmesser (ab 50 mm) haben eine enorme Masse. Der flache Spiegel bietet eine extrem große Kontaktfläche, um die Hitze schnell und gleichmäßig in den Kunststoff einzubringen."
+        "q": "Ist das Innengewinde durchgängig aus Messing?",
+        "a": "Ja, das Innengewinde ist ein massiver, hochwertiger Messingeinsatz, der fest und verdrehsicher in das PP-R Material eingespritzt ist."
       },
       {
-        "q": "Wie schwer ist das Gerät?",
-        "a": "Trotz der hohen Leistung ist das Gerät ergonomisch ausbalanciert, erfordert bei Rohren ab 90 mm jedoch meist zwei Installateure zum exakten Fügen."
+        "q": "Kann die Verbindung bei Bedarf gelöst werden?",
+        "a": "Ja, das metallische Gewinde ermöglicht jederzeit die sichere Demontage angeschlossener Apparaturen wie Pumpen oder Filter."
       },
       {
-        "q": "Müssen die teflonbeschichteten Flächen gereinigt werden?",
-        "a": "Ja, sie sollten nach jedem Einsatz im noch warmen Zustand mit einem fusselfreien Papiertuch oder einem speziellen Holzspatel vorsichtig gereinigt werden."
+        "q": "Wie hoch ist das maximale Anzugsdrehmoment?",
+        "a": "Das Gewinde sollte mit handelsüblichem Werkzeug und Gefühl angezogen werden, um Spannungsrisse im angrenzenden Kunststoff zu vermeiden."
       }
     ]
   },
-  "welding-tool": {
-    "seo_p1": "Die Schweißwerkzeuge (Welding Tool) sind die teflonbeschichteten Heizdorne und Heizbuchsen, die das eigentliche Schmelzen des PP-R Materials übernehmen.",
-    "seo_p2": "Gefertigt aus hochwärmeleitfähigen Legierungen und mit einer speziellen Antihaft-PTFE-Schicht versehen, garantieren sie eine perfekte, rückstandsfreie molekulare Schmelze.",
-    "seo_p3": "Nur mit unbeschädigten und hochwertigen Schweißwerkzeugen lässt sich die vom DVS geforderte Homogenität der Verbindung für eine 50-jährige Lebensdauer erzielen.",
+  "elbow-90-male-thread": {
+    "seo_p1": "Der 90°-Übergangswinkel mit Außengewinde (Elbow 90° Male Thread) kombiniert eine rechtwinklige Richtungsänderung mit einem direkten Gewindeanschluss an Metallkomponenten.",
+    "seo_p2": "Dieses formstabile PP-R Bauteil ist mit einem massiven Außengewinde-Einsatz versehen, der thermische Dehnungen aufnimmt und die hohen Anforderungen der SDR-Druckklassen erfüllt.",
+    "seo_p3": "Ideal für enge Montagesituationen an Maschinen oder Verteilern, bei denen ein unmittelbarer 90-Grad-Anschluss ohne weitere Fitting-Kombinationen realisiert werden muss.",
     "faq": [
       {
-        "q": "Wann muss ein Schweißwerkzeug ausgetauscht werden?",
-        "a": "Sobald die Teflonbeschichtung zerkratzt ist oder sich PP-R-Reste festbrennen, muss das Werkzeug zwingend getauscht werden, um fehlerhafte Schweißnähte zu vermeiden."
+        "q": "Kombiniert dieser Fitting zwei Arbeitsschritte?",
+        "a": "Ja, er vereint einen Richtungswechsel um 90 Grad mit einem Gewindeübergang, was Platz, Material und eine Schweißnaht spart."
       },
       {
-        "q": "Warum darf ich Kunststoffreste nicht mit dem Messer abkratzen?",
-        "a": "Ein Messer zerstört sofort die mikrofeine PTFE-Antihaftbeschichtung. Nutzen Sie ausschließlich weiche Tücher auf dem noch heißen Werkzeug."
+        "q": "Ist das Außengewinde geraut?",
+        "a": "Ja, K Aqua Außengewinde sind oft werkseitig leicht angeraut, damit das Dichtband (Teflon) beim Einschrauben nicht abrutscht."
       },
       {
-        "q": "Passt das K Aqua Schweißwerkzeug auch auf Fremdgeräte?",
-        "a": "Die Befestigungsbohrung entspricht dem Industriestandard, sodass unsere Werkzeuge auf fast alle professionellen Muffenschweißgeräte passen."
-      }
-    ]
-  },
-  "welding-machine-50125-complete-set": {
-    "seo_p1": "Die Tisch-Schweißmaschine d50-d125 (Welding Machine 50-125 Complete Set) bietet stationäre Präzision für die Vorfertigung großer Rohrbaugruppen.",
-    "seo_p2": "Sie verfügt über Spannbacken, eine Hebelmechanik zum kraftsparenden Fügen und ein digital geregeltes Heizelement für absolut exakte Fügedrücke und -zeiten.",
-    "seo_p3": "In der Werkstattfertigung von Verteilern oder komplexen industriellen Baugruppen eliminiert diese Maschine menschliche Fehler und maximiert die Verarbeitungsgeschwindigkeit.",
-    "faq": [
-      {
-        "q": "Welchen Vorteil bietet die stationäre Maschine gegenüber dem Handgerät?",
-        "a": "Die Hebelmechanik ermöglicht ein exakt lineares, verkantungsfreies Einschieben der großen Rohre, was per Hand extrem kraftaufwendig wäre."
-      },
-      {
-        "q": "Können damit auch kleine Rohre geschweißt werden?",
-        "a": "Technisch ja, die Maschine ist jedoch speziell für die hohen Fügekräfte der Dimensionen 50 mm bis 125 mm konzipiert."
-      },
-      {
-        "q": "Wie wird das Rohr fixiert?",
-        "a": "Universal-Spannbacken mit verschiedenen Einsätzen greifen das Rohr schonend aber absolut fest, um eine kraftvolle, axiale Bewegung zu garantieren."
-      }
-    ]
-  },
-  "butt-welding-machine-90250": {
-    "seo_p1": "Die Stumpfschweißmaschine d90-d250 (Butt Welding Machine 90-250) ist das High End-System für flanschlose Rohr-an-Rohr-Verbindungen im Großformat.",
-    "seo_p2": "Eine hydraulische Presseinheit, ein CNC-gesteuerter Heizspiegel und ein präziser Rohrhobel sorgen für eine vollautomatisierte, protokollierbare Schweißnaht auf höchstem Niveau.",
-    "seo_p3": "Für kommunale Hauptwasserleitungen oder industrielle Kühlwassernetze ab 90 mm ist dieses Gerät unverzichtbar, um zertifizierte und abnahmefähige Stumpfschweißungen durchzuführen.",
-    "faq": [
-      {
-        "q": "Was ist der Unterschied zwischen Muffen- und Stumpfschweißen?",
-        "a": "Beim Stumpfschweißen werden die Rohrenden plan gefräst und direkt ohne zusätzlichen Fitting (Muffe) auf Stoß miteinander verschmolzen."
-      },
-      {
-        "q": "Werden die Schweißdaten für die Qualitätskontrolle gespeichert?",
-        "a": "Ja, die integrierte CNC-Steuerung protokolliert Temperatur, Druck und Zeit für jede einzelne Schweißnaht zur späteren Auswertung."
-      },
-      {
-        "q": "Warum ist ein Hobel integriert?",
-        "a": "Der Hobel fräst beide Rohrenden vor dem Schweißen absolut parallel und oxidationsfrei, was für eine dauerhafte molekulare Verbindung zwingend erforderlich ist."
-      }
-    ]
-  },
-  "electrofusion-machine": {
-    "seo_p1": "Das Elektroschweißgerät (Electrofusion Machine) steuert den vollautomatischen Verschweißungsprozess von Heizwendelmuffen durch elektrische Widerstandserwärmung.",
-    "seo_p2": "Der intelligente Mikroprozessor liest den Barcode des Fittings per Scanner ein und berechnet automatisch die exakte Spannung und Schweißzeit in Abhängigkeit der Umgebungstemperatur.",
-    "seo_p3": "Essentiell für Reparaturen in extrem engen Schächten, nachträgliche Anbindungen oder Erdverlegungen, wo klassisches Muffenschweißen aus Platzgründen unmöglich ist.",
-    "faq": [
-      {
-        "q": "Wie liest die Maschine die Schweißparameter?",
-        "a": "Jede Heizwendelmuffe verfügt über einen Barcode, den der Anwender mit dem angeschlossenen Scanner einliest. Die Maschine stellt sich vollautomatisch ein."
-      },
-      {
-        "q": "Gleicht die Maschine Temperaturschwankungen auf der Baustelle aus?",
-        "a": "Ja, ein Umgebungssensor misst die Temperatur und passt die Schweißdauer automatisch an (im Winter länger, im Sommer kürzer)."
-      },
-      {
-        "q": "Muss das Rohr vor der Elektroschweißung geschält werden?",
-        "a": "Zwingend! Die Oxidschicht auf dem PP-R Rohr muss im Schweißbereich mit einem speziellen Schälgerät mechanisch entfernt werden."
-      }
-    ]
-  },
-  "welding-tool-for-weld-in-saddles": {
-    "seo_p1": "Das Sattel-Schweißwerkzeug (Welding Tool for Weld-in Saddles) ist speziell für die Montage von Einschweißsätteln an bestehende PP-R Rohre konstruiert.",
-    "seo_p2": "Es besteht aus einem konkav geformten Heizdorn für die Rohrwandung und einer konvexen Heizbuchse für den Sattel, beide hochwertig teflonbeschichtet.",
-    "seo_p3": "Es erwärmt exakt die benötigte Fläche auf dem Basisrohr, um den Sattel homogen und unlösbar mit dem Leitungssystem zu verschmelzen.",
-    "faq": [
-      {
-        "q": "Warum hat das Werkzeug eine konkave und eine konvexe Seite?",
-        "a": "Die konkave (gewölbte) Seite erwärmt das runde Außenrohr, während die konvexe Seite exakt den sattelförmigen Abzweig auf Schmelztemperatur bringt."
-      },
-      {
-        "q": "Passt ein Werkzeug für alle Rohre?",
-        "a": "Nein, Sie benötigen für jede Hauptrohr-Abzweig-Kombination (z. B. 63 mm auf 20 mm) ein exakt passendes Sattel-Schweißwerkzeug."
-      },
-      {
-        "q": "Wie wird das Werkzeug auf dem Schweißgerät montiert?",
-        "a": "Es wird wie ein normaler Heizdorn mit einer Inbusschraube direkt auf das Heizschwert des K Aqua Handschweißgeräts geschraubt."
-      }
-    ]
-  },
-  "drilling-tool-for-weld-in-saddle": {
-    "seo_p1": "Der Spezialbohrer für Einschweißsättel (Drilling Tool for Weld-in Saddle) ist das präzise Vorbereitungswerkzeug für Sattelabzweige.",
-    "seo_p2": "Er bohrt nicht nur das exakt erforderliche Loch in das wasserführende Hauptrohr, sondern fräst gleichzeitig den Randbereich für die nachfolgende Schweißung sauber aus.",
-    "seo_p3": "Ein extrem scharfes und sauberes Bohrloch ist kritisch, um beim späteren Einschweißen des Sattels keine Kunststoffspäne in das Rohrnetz gelangen zu lassen.",
-    "faq": [
-      {
-        "q": "Warum kann ich keinen normalen Holz- oder Metallbohrer verwenden?",
-        "a": "Standardbohrer reißen den Kunststoff ein und erzeugen unkontrollierte Späne. Unser Spezialbohrer fräst das Loch und fängt den Span sauber ab."
-      },
-      {
-        "q": "Passt der Bohrer in einen handelsüblichen Akkuschrauber?",
-        "a": "Ja, der Bohrer verfügt über einen genormten Sechskantschaft, der in jedes handelsübliche Bohrfutter passt."
-      },
-      {
-        "q": "Muss das Loch entgratet werden?",
-        "a": "Nein, der Fräskopf des Bohrers ist so konstruiert, dass er die Lochkante automatisch für die nachfolgende Schweißung vorbereitet und glättet."
-      }
-    ]
-  },
-  "welding-tool-for-repairing-plug": {
-    "seo_p1": "Das Reparatur-Schweißwerkzeug (Welding Tool for Repairing Plug) ist ein hochspezialisierter Aufsatz für die Instandsetzung angebohrter Leitungen.",
-    "seo_p2": "Dieser konische Heizstift erwärmt gezielt das Innere eines beschädigten Bohrlochs und gleichzeitig den entsprechenden PP-R-Reparaturstopfen auf Schmelztemperatur.",
-    "seo_p3": "Er ist die Rettung auf jeder Baustelle, um versehentlich angebohrte Rohre (z. B. bei der Wandmontage) schnell und nachweislich dicht wieder zu verschließen.",
-    "faq": [
-      {
-        "q": "Wie genau funktioniert der Reparaturstift?",
-        "a": "Das konische Werkzeug schmilzt das Bohrloch auf. Danach wird der ebenfalls erwärmte PP-R Reparaturstopfen in das Loch gedrückt und verschmilzt dauerhaft."
-      },
-      {
-        "q": "Ist die reparierte Stelle wirklich sicher?",
-        "a": "Ja, es handelt sich nicht um eine bloße Verklebung, sondern um eine molekulare Verschweißung, die denselben Druck aushält wie das unbeschädigte Rohr."
-      },
-      {
-        "q": "Welche Bohrdurchmesser können repariert werden?",
-        "a": "Das Werkzeug ist ideal für typische Bohrunfälle (Dübellöcher) im Bereich von 7 mm bis 11 mm."
-      }
-    ]
-  },
-  "repairing-plug": {
-    "seo_p1": "Der Reparaturstopfen (Repairing Plug) ist ein massiver PP-R-Stift, der in Kombination mit dem speziellen Schweißwerkzeug Bohrlochnotfälle behebt.",
-    "seo_p2": "Er besteht aus dem identischen Material wie das K Aqua Rohrsystem und verschmilzt beim Einsetzen in das beschädigte Rohr zu einer absolut homogenen Masse.",
-    "seo_p3": "Statt Wände großflächig aufzustemmen, um Rohrabschnitte zu ersetzen, wird das Loch einfach verschweißt. Die reparierte Stelle ist danach genauso druckfest wie das Originalrohr.",
-    "faq": [
-      {
-        "q": "Aus welchem Material besteht der Reparaturstopfen?",
-        "a": "Er besteht zu 100% aus hochwertigem Polypropylen Random Copolymer (PP-R) Typ 3, genau wie unsere K Aqua Rohrsysteme."
-      },
-      {
-        "q": "Muss der Stopfen nach dem Einschweißen abgeschnitten werden?",
-        "a": "Ja, nachdem die Schweißstelle vollständig abgekühlt ist, wird das überstehende Ende des Stopfens bündig mit der Rohrwandung abgeschnitten."
-      },
-      {
-        "q": "Kann ich den Stopfen bei gefülltem Rohrnetz verwenden?",
-        "a": "Nein, das Wasser muss am betroffenen Strang vollständig abgestellt und das Rohr im Bereich des Bohrlochs trockengelegt sein."
+        "q": "Aus welchem Material besteht das Außengewinde?",
+        "a": "Es besteht aus entzinkungsbeständigem Spezialmessing, das für höchste hygienische Ansprüche im Trinkwasserbereich zugelassen ist."
       }
     ]
   }

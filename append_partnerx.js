@@ -1,0 +1,85 @@
+const fs = require('fs');
+
+const partnerx = {
+  "ecoEyebrow": "Ekosistem KESSEL",
+  "ecoTitle": "Apa kelebihan yang diperolehi oleh pelanggan K-Aqua.",
+  "ecoLead": "KESSEL telah membina infrastruktur jenama premium selama berdekad lamanya. K-Aqua membawa falsafah yang sama dalam bekalan air.",
+  "eco": [
+    {
+      "t": "ISH Frankfurt",
+      "d": "KESSEL mempamerkan kehadiran di pameran perdagangan terkemuka dunia untuk industri pembinaan dan perkhidmatan bangunan (TGA), pentas di mana saliran dan bekalan dihubungkan bersama."
+    },
+    {
+      "t": "PlanerPortal",
+      "d": "Platform digital untuk perancang pakar adalah teras pengekalan perancang harian: model untuk alatan digital K-Aqua."
+    },
+    {
+      "t": "KundenForum",
+      "d": "Latihan secara fizikal dan hibrid di lokasi khas, termasuk di Lenting dan Hamburg. Pemindahan pengetahuan adalah kunci jalinan hubungan."
+    },
+    {
+      "t": "Planungshandbuch",
+      "d": "Buku panduan pengetahuan perancangan yang disusun secara editorial oleh KESSEL menjadi rujukan bagaimana K-Aqua memperluaskan skop pengetahuannya untuk para perancang: daripada Akademi sehingga kepada jadual ukuran dimensi."
+    }
+  ],
+  "flowEyebrow": "Dua Aliran, Satu Bangunan",
+  "flowTitle": "Bekalan masuk, saliran keluar.",
+  "flowLead": "Setiap bangunan memerlukan kedua-dua arah ini. Perkongsian ini merangkumi keseluruhan sistem laluan air dengan DNA kejuruteraan yang sama.",
+  "flow": [
+    {
+      "t": "K-Aqua: Peneraju dalam Bekalan Air (Leading in Water Supply)",
+      "d": "Bekalan air minuman d20–d630: Paip, pemasangan lekapan, injap dan teknologi kimpalan, dikilangkan di Waldsolms."
+    },
+    {
+      "t": "KESSEL: Peneraju dalam Sistem Saliran (Leading in Drainage)",
+      "d": "Pengeluar premium teknologi saliran: Perlindungan aliran balik, stesen pam, pemisah (separators). Autoriti tertinggi industri perkhidmatan bangunan (TGA)."
+    },
+    {
+      "t": "Kerja Bersama",
+      "d": "Perancang dan pemproses bekerjasama dengan satu komuniti nilai: falsafah kualiti yang sama, sokongan terselaras, proses tanpa birokrasi."
+    }
+  ],
+  "roadEyebrow": "Hala Tuju Bersama",
+  "roadTitle": "Daripada video latihan kepada alat konfigurator.",
+  "road": [
+    {
+      "t": "Akademi & Video",
+      "d": "Empat kaedah kimpalan dalam bentuk dokumentasi video berserta kuiz: tersedia hari ini, dioptimumkan untuk tapak pembinaan.",
+      "s": "Hari ini"
+    },
+    {
+      "t": "Sokongan Teknologi Kimpalan",
+      "d": "Peralatan, alatan perkakasan dan taklimat latihan untuk pasukan/kumpulan anda, secara langsung daripada pihak pengeluar.",
+      "s": "Hari ini"
+    },
+    {
+      "t": "Alat Perancangan Digital",
+      "d": "Pencari produk, kalkulator jejak karbon (CO₂) dan Pusat Amanah (Trust Center) secara layan diri, dalam fasa peluasan mengikut model Portal Perancang (PlanerPortal).",
+      "s": "Dalam fasa peluasan"
+    },
+    {
+      "t": "Konfigurator Rangkaian Paip Parametrik",
+      "d": "Prospek masa depan: Mengkonfigurasi rangkaian paip secara parametrik dan terus memindahkannya kepada bentuk bil bahan/komponen berserta sebut harga (Bill of Materials and RFQ).",
+      "s": "Prospek masa depan"
+    }
+  ],
+  "specEyebrow": "Untuk Spesifikasi Anda",
+  "specTitle": "Data dihantar tepat ke tempat keputusan dibuat.",
+  "specLead": "Spesifikasi produk diputuskan melalui perisian AVA dan CAD. Di situlah kami menyampaikannya.",
+  "spec": [
+    {
+      "t": "Teks Tender GAEB",
+      "d": "Teks siap sedia untuk spesifikasi perkhidmatan anda (Bill of Quantities): Sebahagian daripada pakej RFP (Request For Proposal) dalam Pusat Amanah (Trust Center)."
+    },
+    {
+      "t": "Data BIM & CAD",
+      "d": "Data perancangan untuk kerja berasaskan model, atas permintaan melalui jualan, proses pembinaan dan perkembangan sedang dijalankan."
+    },
+    {
+      "t": "Helaian Data & Sampel",
+      "d": "Katalog produk dan spesifikasi cirinya dalam bentuk PDF, sampel dan perundingan projek terus daripada kilang."
+    }
+  ]
+};
+
+fs.writeFileSync('partnerx_ms.json', JSON.stringify(partnerx, null, 2));
