@@ -8,6 +8,7 @@ import GeoCity from "@/components/sections/GeoCity";
 import { constructMetadata, getGeoCityJsonLd, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import { setRequestLocale } from 'next-intl/server';
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string; hubSlug: string; citySlug: string }>;
@@ -170,31 +171,7 @@ export default async function GeoCityPage({ params }: Props) {
       )}
 
       {/* Dynamic SEO Text Blocks */}
-      <div className="sr-only">
-        <p>
-          {locale === 'de' ? 'Das K-Aqua Vertriebsnetz in' : locale === 'ar' ? 'شبكة مبيعات K-Aqua في' : 'The K-Aqua sales network in'} {market.city} {locale === 'de' ? 'bietet maßgeschneiderte PP-R Rohrsysteme und Lösungen an.' : locale === 'ar' ? 'توفر أنظمة أنابيب وحلول PP-R مخصصة.' : 'offers tailored PP-R piping systems and solutions.'}
-        </p>
-        <p>
-          {locale === 'de' ? 'Unsere Produkte erfüllen die lokalen Anforderungen, wie' : locale === 'ar' ? 'تلبي منتجاتنا المتطلبات المحلية، مثل' : 'Our products meet local requirements, such as'} {localizedData.regulator} {locale === 'de' ? 'und sind ideal für die lokale Wasserqualität:' : locale === 'ar' ? 'ومثالية لجودة المياه المحلية:' : 'and are ideal for the local water quality:'} {localizedData.water}.
-        </p>
-        <p>
-          {locale === 'de' ? 'Kontaktieren Sie unsere Partner in' : locale === 'ar' ? 'اتصل بشركائنا في' : 'Contact our partners in'} {market.city}{locale === 'de' ? ' für Ihr nächstes Infrastruktur- oder Bauprojekt mit höchsten Qualitätsstandards.' : locale === 'ar' ? ' لمشروع البنية التحتية أو البناء القادم الخاص بك بأعلى معايير الجودة.' : ' for your next infrastructure or construction project with the highest quality standards.'}
-        </p>
-        <p>
-          {locale === 'de'
-            ? `Egal ob Neubauprojekte, Modernisierungen oder industrielle Anlagen in ${market.city} – K-Aqua stellt sicher, dass alle PP-R und PP-RCT Installationen höchste deutsche Ingenieursstandards erfüllen. Die extrem widerstandsfähigen Rohrleitungen sind korrosionsfrei und sorgen für einen verlustfreien Transport von Trinkwasser und Klimakaltwasser. Durch modernste Schweißtechnik (Heizelementmuffenschweißung) garantieren unsere Bauteile dauerhafte Sicherheit. Investoren und Bauherren in ${market.city} vertrauen auf unsere jahrzehntelange Erfahrung im Bereich der Wasserversorgung.`
-            : locale === 'ar'
-            ? `سواء كانت مشاريع بناء جديدة أو تحديثات أو مرافق صناعية في ${market.city} - تضمن K-Aqua أن جميع تركيبات PP-R و PP-RCT تلبي أعلى المعايير الهندسية الألمانية. خطوط الأنابيب شديدة المقاومة خالية من التآكل وتضمن النقل الخالي من الفقد لمياه الشرب ومياه التبريد. بفضل أحدث تقنيات اللحام، تضمن مكوناتنا الأمان الدائم. يثق المستثمرون والبناة في ${market.city} في خبرتنا التي تمتد لعقود في مجال إمدادات المياه.`
-            : `Whether for new construction projects, modernizations, or industrial facilities in ${market.city} - K-Aqua ensures that all PP-R and PP-RCT installations meet the highest German engineering standards. The extremely resistant pipelines are corrosion-free and ensure the lossless transport of drinking water and chilled water. Thanks to state-of-the-art welding technology (socket fusion welding), our components guarantee permanent safety. Investors and builders in ${market.city} trust our decades of experience in the field of water supply.`}
-        </p>
-        <p>
-          {locale === 'de'
-            ? `Um den spezifischen Klimabedingungen in ${hub.name} gerecht zu werden, sind unsere Rohrsysteme temperatur- und druckbeständig konzipiert. Zertifizierungen wie DVGW oder SKZ belegen unsere globale Führungsposition. K-Aqua bietet Bauleitern und Architekten in ${market.city} zudem vollumfänglichen technischen Support, von der ersten Planung (BIM, CAD) bis hin zur Installation vor Ort. Entscheiden Sie sich für nachhaltige, langlebige Haustechnik mit K-Aqua.`
-            : locale === 'ar'
-            ? `لتلبية الظروف المناخية المحددة في ${hub.name}، تم تصميم أنظمة الأنابيب لدينا لتكون مقاومة لدرجات الحرارة والضغط. تثبت شهادات مثل DVGW أو SKZ ريادتنا العالمية. توفر K-Aqua أيضًا لمديري البناء والمهندسين المعماريين في ${market.city} دعمًا فنيًا شاملاً، بدءًا من التخطيط الأولي (BIM ،CAD) ووصولاً إلى التثبيت في الموقع. اختر تكنولوجيا البناء المستدامة والمتينة مع K-Aqua.`
-            : `To meet the specific climate conditions in ${hub.name}, our piping systems are designed to be temperature and pressure resistant. Certifications such as DVGW or SKZ prove our global leadership position. K-Aqua also offers construction managers and architects in ${market.city} comprehensive technical support, from initial planning (BIM, CAD) to on-site installation. Choose sustainable, durable building technology with K-Aqua.`}
-        </p>
-      </div>
+      <DynamicSeoBlock title={title} h1={geoTrans.cityTitle} locale={locale} path={`/maerkte/${hubSlug}/${citySlug}`} />
     </>
   );
 }
