@@ -171,7 +171,7 @@ export default async function GeoCityPage({ params }: Props) {
       )}
 
       {/* Dynamic SEO Text Blocks */}
-      <DynamicSeoBlock title={title} h1={geoTrans.cityTitle} locale={locale} path={`/maerkte/${hubSlug}/${citySlug}`} />
+      <DynamicSeoBlock title={geoTrans.cityTitle} h1={geoTrans.cityTitle} locale={locale} path={`/maerkte/${hubSlug}/${citySlug}`} />
     </>
   );
 }

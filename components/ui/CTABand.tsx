@@ -1,10 +1,12 @@
 import React from "react";
 import clsx from "clsx";
 
-export type CTABandProps = React.HTMLAttributes<HTMLDivElement>;
+export interface CTABandProps extends React.HTMLAttributes<HTMLDivElement> {
+  fullWidth?: boolean;
+}
 
 export const CTABand = React.forwardRef<HTMLDivElement, CTABandProps>(
-  ({ className, children, ...props }, ref) => {
+  ({ className, fullWidth, children, ...props }, ref) => {
     return (
       <div
         ref={ref}
@@ -15,7 +17,7 @@ export const CTABand = React.forwardRef<HTMLDivElement, CTABandProps>(
         )}
         {...props}
       >
-        <div className="relative z-10 flex flex-col gap-6 max-w-[620px]">
+        <div className={clsx("relative z-10", fullWidth ? "w-full" : "flex flex-col gap-6 max-w-[620px]")}>
           {children}
         </div>
       </div>

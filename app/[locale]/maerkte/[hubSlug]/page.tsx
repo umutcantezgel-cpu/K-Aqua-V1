@@ -121,7 +121,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <DynamicSeoBlock title={title} h1={tGeo("hubH1", { country: hub.name, hub: hub.name })} locale={locale} path={`/maerkte/${hubSlug}`} />
+        <DynamicSeoBlock title={tGeo("hubH1", { country: hub.name, hub: hub.name })} h1={tGeo("hubH1", { country: hub.name, hub: hub.name })} locale={locale} path={`/maerkte/${hubSlug}`} />
 
       </div>
     </div>

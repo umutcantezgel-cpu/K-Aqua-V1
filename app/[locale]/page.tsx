@@ -135,7 +135,7 @@ export default async function Page({ params }: Props) {
 
   const webPageJsonLd = await getWebPageJsonLd(locale, "home");
   const messages = await getMessages();
-  const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers']);
+  const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers', 'kontaktBlocks', 'kontaktForm']);
 
   return (
     <NextIntlClientProvider messages={pageMessages}>
