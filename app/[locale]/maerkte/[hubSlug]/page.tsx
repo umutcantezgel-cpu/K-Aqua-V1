@@ -8,6 +8,7 @@ import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import { Link } from "@/lib/i18n/navigation";
 import { Globe } from "lucide-react";
+import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string; hubSlug: string }>;
@@ -120,17 +121,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <div className="sr-only">
-          <p>
-            {locale === 'de' ? 'K-Aqua Rohrsysteme und Lösungen in' : locale === 'ar' ? 'أنظمة أنابيب وحلول K-Aqua في' : 'K-Aqua Piping Systems and solutions in'} {hub.name} {locale === 'de' ? 'bieten erstklassige PP-R und PP-RCT Qualität.' : locale === 'ar' ? 'توفر جودة PP-R و PP-RCT من الدرجة الأولى.' : 'provide premium PP-R and PP-RCT quality.'}
-          </p>
-          <p>
-            {locale === 'de' ? 'Als internationaler Partner für den Markt' : locale === 'ar' ? 'كشريك دولي للسوق' : 'As an international partner for the market'} {hub.name}{locale === 'de' ? ' sichern wir lokale Expertise und höchste Trinkwasser-Qualitätsstandards.' : locale === 'ar' ? '، نضمن الخبرة المحلية وأعلى معايير جودة مياه الشرب.' : ', we ensure local expertise and the highest drinking water quality standards.'}
-          </p>
-          <p>
-            {locale === 'de' ? `Kontaktieren Sie unsere ${hub.name}-Repräsentanten für Ihr nächstes Bauprojekt in ${hub.name}. K-Aqua liefert zertifizierte PP-R Rohrsysteme in die Region ${hub.name}.` : locale === 'ar' ? `اتصل بممثلينا في ${hub.name} لمشروع البناء القادم الخاص بك في ${hub.name}. K-Aqua توفر أنظمة أنابيب PP-R معتمدة في منطقة ${hub.name}.` : `Contact our ${hub.name} representatives for your next construction project in ${hub.name}. K-Aqua delivers certified PP-R piping systems to the ${hub.name} region.`}
-          </p>
-        </div>
+        <DynamicSeoBlock title={title} h1={tGeo("hubH1", { country: hub.name, hub: hub.name })} locale={locale} path={`/maerkte/${hubSlug}`} />
 
       </div>
     </div>

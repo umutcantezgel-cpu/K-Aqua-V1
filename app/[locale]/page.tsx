@@ -463,7 +463,7 @@ export default async function Page({ params }: Props) {
 
       {/* Signature: Edge Index */}
       <EdgeIndex />
-      <DynamicSeoBlock title={metaTitle} h1={tHome("heroH1")} locale={locale} path="/" />
+      <DynamicSeoBlock title={`${tHome("h1a")} ${tHome("h1b")}`} h1={tHome("heroH1")} locale={locale} path="/" />
     </div>
     </NextIntlClientProvider>
   );
