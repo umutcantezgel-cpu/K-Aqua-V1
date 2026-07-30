@@ -58,7 +58,7 @@ export default async function AcademyPage({ params }: Props) {
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx'])}>
+    <NextIntlClientProvider messages={pick(messages, ['academy', 'academyx', 'kontaktBlocks', 'kontaktForm'])}>
       <JsonLd schema={jsonLd} />
       <Academy data={data} />
       <AcademyDeep />
