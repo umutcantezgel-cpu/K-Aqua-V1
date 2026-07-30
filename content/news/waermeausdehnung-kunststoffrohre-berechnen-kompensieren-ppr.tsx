@@ -13,7 +13,7 @@ import { MoveHorizontal, Ruler, Info } from "@/components/ui/icon";
 export const waermeausdehnungKunststoffrohre: NewsPost = {
   slug: "waermeausdehnung-kunststoffrohre-berechnen-kompensieren-ppr",
   title: {
-    de: "Wärmeausdehnung bei PP-R: Berechnung & Kompensation",
+    de: "PP-R Wärmeausdehnung berechnen",
     en: "Thermal Expansion in PPR Pipes",
     ar: "التمدد الحراري في أنابيب PPR",
   },

@@ -54,19 +54,11 @@ export default async function SitemapPage({ params }: Props) {
              : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
              : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
           </h1>
-          <div className="sr-only">
-            {locale === 'de' ? 'K-Aqua HTML Sitemap - Alle Seiten im Überblick'
-             : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
-             : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
-          </div>
           <p className="text-xl text-muted-foreground font-normal mb-6">
             {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
              : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
              : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'}
             <span className="sr-only"> - K-Aqua HTML Sitemap</span>
-          </p>
-          <p className="sr-only">
-            {`HTML Sitemap ${locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.' : 'مرحبًا بك في خريطة موقع HTML الشاملة الخاصة بنا. ستجد هنا جميع الصفحات والصفحات الفرعية المتاحة لموقعنا مدرجة بوضوح وهيكلة لتسهيل التوجيه.'} - K-Aqua HTML Sitemap`}
           </p>
           <div className="mt-6 space-y-4 text-lg text-muted-foreground">
             <p>
