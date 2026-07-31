@@ -15,7 +15,7 @@ export default function Footer() {
 
   return (
     <>
-    <footer className="bg-[#050505] text-white relative overflow-hidden pt-24 pb-6 md:pt-40 md:pb-8 selection:bg-white/20">
+    <footer className="bg-[#050505] text-white relative overflow-hidden pt-24 pb-6 md:pt-40 md:pb-8 selection:bg-white/20" data-nosnippet="true">
       {/* Background Glow */}
       <div className="absolute w-[1200px] h-[1200px] start-[-400px] bottom-[-800px] bg-[radial-gradient(circle,oklch(0.35_0.15_260_/_0.12),transparent_70%)] pointer-events-none" />
       

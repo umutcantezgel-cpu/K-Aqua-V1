@@ -15,12 +15,11 @@ import { Layers, Wrench, Flame, Thermometer, Download } from "@/components/ui/ic
 import { Shield, Activity } from "lucide-react";
 
 import { ProductsDeep } from "@/components/sections/ProductsDeep";
-import { CatalogBrowser } from "@/components/tools/CatalogBrowser";
+import { CatalogBrowser } from '@/components/tools/CatalogBrowser';
 import { constructMetadata, getProductCatalogJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -178,7 +177,7 @@ export default async function ProduktePage({ params }: Props) {
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep />
       <CatalogBrowser />
-      <DynamicSeoBlock title={meta[0] ?? "Produkte - K-Aqua"} h1={t("sysTitle")} locale={locale} path="/produkte" />
+      
     </div>
     </NextIntlClientProvider>
   );

@@ -100,7 +100,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     </button>
   );
 
-  const legal = <span className="kqk-legal">{t("legal")} <Link href="/datenschutz">{t("legalLink")}</Link></span>;
+  const legal = <span className="kqk-legal" data-nosnippet="true">{t("legal")} <Link href="/datenschutz">{t("legalLink")}</Link></span>;
 
   const errorBanner = state === "error" ? (
     <div className="kqk-error" role="alert">

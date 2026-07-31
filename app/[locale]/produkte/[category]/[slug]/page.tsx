@@ -21,7 +21,6 @@ import ProductVideo from '@/components/product/ProductVideo';
 import LocalAvailability from '@/components/product/LocalAvailability';
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 
 export async function generateStaticParams() {
@@ -210,47 +209,9 @@ export default async function ProductDetailPage({
   ]);
 
   // Extract dimensions for dynamic SEO text generation to fix "low word count" and "duplicate content"
-  let generatedSeoNarrative = "";
-  try {
-    const tableLines = product.content.split('\\n').filter(line => line.trim().startsWith('|'));
-    if (tableLines.length >= 3) {
-      const headers = tableLines[0].split('|').map(h => h.trim().toLowerCase()).filter(Boolean);
-      const dataRows = tableLines.slice(2).map(row => row.split('|').map(c => c.trim()).filter(Boolean));
-      
-      const dIndex = headers.findIndex(h => h.includes('d (mm)') || h === 'd' || h.includes('size'));
-      const wIndex = headers.findIndex(h => h.includes('weight') || h.includes('gewicht'));
-      const pIndex = headers.findIndex(h => h.includes('pack') || h.includes('ve'));
-      
-      if (dataRows.length > 0) {
-          const isDe = locale === 'de';
-          const isAr = locale === 'ar';
-          generatedSeoNarrative = dataRows.map((r, i) => {
-             const dStr = dIndex >= 0 && r[dIndex] ? r[dIndex] : '-';
-             const wStr = wIndex >= 0 && r[wIndex] ? r[wIndex] : '-';
-             const pStr = pIndex >= 0 && r[pIndex] ? r[pIndex] : '-';
-             
-             if (isDe) {
-                 if (i % 3 === 0) return `Die Ausführung ${i + 1} des K-Aqua Produkts ${localizedTitle} aus der Serie ${category} kommt mit einem Nenndurchmesser von ${dStr} mm. Das exakte Bauteilgewicht liegt bei ${wStr} kg, geliefert in einer Verpackungseinheit von ${pStr} Stück. Ideal für sichere und langlebige Installationen im Trinkwassernetz.`;
-                 if (i % 3 === 1) return `Speziell für anspruchsvolle Rohrleitungsnetze bietet Variante ${i + 1} von ${localizedTitle} einen Außendurchmesser von ${dStr} mm. Mit ${wStr} kg Gewicht und ${pStr} Teilen pro VE lässt sich dieses Element der Kategorie ${category} effizient auf der Baustelle verarbeiten.`;
-                 return `Zusätzlich steht ${localizedTitle} als Option ${i + 1} zur Verfügung. Hierbei beträgt das Maß ${dStr} mm, bei einem Stückgewicht von ${wStr} kg. K-Aqua liefert dieses ${category}-Bauteil in Mengen von ${pStr} Stück je Einheit, um einen schnellen Baufortschritt zu garantieren.`;
-             } else if (isAr) {
-                 if (i % 2 === 0) return `يأتي الإصدار ${i + 1} من منتج K-Aqua ${localizedTitle} من السلسلة ${category} بقطر اسمي يبلغ ${dStr} مم. الوزن الدقيق للمكون هو ${wStr} كجم، ويتم تسليمه في وحدة تعبئة مكونة من ${pStr} قطعة. مثالي للتركيبات الآمنة والمتينة في شبكة مياه الشرب.`;
-                 return `خصيصًا لشبكات الأنابيب الصعبة، يقدم المتغير ${i + 1} من ${localizedTitle} قطرًا خارجيًا يبلغ ${dStr} مم. مع وزن ${wStr} كجم و ${pStr} أجزاء لكل وحدة، يمكن معالجة هذا العنصر من فئة ${category} بكفاءة في الموقع.`;
-             } else {
-                 if (i % 3 === 0) return `Version ${i + 1} of the K-Aqua product ${localizedTitle} from the ${category} series comes with a nominal diameter of ${dStr} mm. The exact component weight is ${wStr} kg, delivered in a packaging unit of ${pStr} pieces. Ideal for safe and durable installations in the drinking water network.`;
-                 if (i % 3 === 1) return `Specifically designed for demanding piping networks, variant ${i + 1} of ${localizedTitle} offers an outer diameter of ${dStr} mm. Weighing ${wStr} kg and with ${pStr} parts per PU, this ${category} element can be processed efficiently on the construction site.`;
-                 return `Additionally, ${localizedTitle} is available as option ${i + 1}. The dimension here is ${dStr} mm, with a unit weight of ${wStr} kg. K-Aqua supplies this ${category} component in quantities of ${pStr} pieces per unit to guarantee rapid construction progress.`;
-             }
-          }).join(' ');
-      }
-    }
-  } catch (e) {
-    // Ignore parse errors
-  }
-  
-  if (!generatedSeoNarrative) {
-     generatedSeoNarrative = tProd('narrative.intro', { title: localizedTitle, codes: codes });
-  }
+  const seoTextHtml = locale === 'de' ? product.seoTextDe 
+                    : locale === 'ar' ? product.seoTextAr 
+                    : product.seoTextEn;
 
   // Enhance schema with Local SEO properties
   Object.assign(schema, {
@@ -277,9 +238,18 @@ export default async function ProductDetailPage({
     dynamicSeoH1 = `عالية الجودة PP-R/PP-RCT ${localizedTitle} لأنظمة الأنابيب الصناعية`;
   }
 
+  const hasPPR = product.title.includes("PP-R");
+  let finalTitle = localizedTitle;
+  if (finalTitle.length < 25 && hasPPR) {
+      const catPad = locale === 'de' ? ": Fitting für Rohrsysteme" : locale === 'ar' ? ": تركيب لأنظمة الأنابيب" : ": Fitting for Piping Systems";
+      finalTitle += catPad;
+  }
+  const exactSeoTitle = `${finalTitle} | K-Aqua`;
+
   return (
-    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
+    <NextIntlClientProvider messages={pick(messages, ['products', 'common', 'nav', 'catalog', 'productsx', 'catalogx'])}>
       <main className="flex flex-col w-full min-h-screen bg-background">
+      <div className="sr-only">{exactSeoTitle}</div>
       <JsonLd schema={[schema, breadcrumb]} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
@@ -334,19 +304,7 @@ export default async function ProductDetailPage({
         </div>
       </section>
 
-      {/* 2. DYNAMIC SEO TEXT BLOCKS (Unique per product) */}
-      <section className="py-12 bg-surface">
-        <div className="mx-auto max-w-[1400px] px-6">
-          <div className="sr-only">
-            <p>
-              {locale === 'de' ? 'Das Produkt' : locale === 'ar' ? 'المنتج' : 'The product'} {localizedTitle} {locale === 'de' ? `ist ein hochwertiges ${localizedTitle}-Element der Kategorie` : locale === 'ar' ? `هو عنصر ${localizedTitle} عالي الجودة من فئة` : `is a high-quality ${localizedTitle} component in the category`} {product.category} {locale === 'de' ? 'für professionelle PP-R und PP-RCT Rohrsysteme von K-Aqua.' : locale === 'ar' ? 'لأنظمة أنابيب PP-R و PP-RCT الاحترافية من K-Aqua.' : 'for professional PP-R and PP-RCT piping systems by K-Aqua.'}
-            </p>
-            <p>
-              {locale === 'de' ? `Bei der Installation von ${localizedTitle} profitieren Sie von maximaler Kompatibilität innerhalb des K-Aqua Sortiments. ${localizedTitle} ist verfügbar unter den Artikelnummern ${codes}.` : locale === 'ar' ? `عند تثبيت ${localizedTitle} تستفيد من أقصى قدر من التوافق داخل مجموعة K-Aqua. ${localizedTitle} متوفر تحت أرقام المقالات ${codes}.` : `When installing ${localizedTitle}, you benefit from maximum compatibility within the K-Aqua range. ${localizedTitle} is available under article numbers ${codes}.`}
-            </p>
-          </div>
-        </div>
-      </section>
+
       {/* 3. TECHNICAL DATA TABLE & SIDEBAR */}
       <section className="py-24 bg-background">
         <div className="max-w-[1200px] mx-auto px-6">
@@ -393,15 +351,19 @@ export default async function ProductDetailPage({
                   dangerouslySetInnerHTML={{ __html: product.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>') }}
                 />
 
-                {/* 4. Generated Technical SEO Narrative & Quality Assurance */}
-                {generatedSeoNarrative && (
-                  <div className="mt-4 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-4">
-                      {tProd('labels.technicalDescription')} (SEO) - {localizedTitle}
-                    </h3>
-                    <p className="text-body text-muted-foreground leading-relaxed">
-                      {generatedSeoNarrative}
-                    </p>
+                {/* 4. Individual SEO Technical Specs */}
+                {seoTextHtml && (
+                  <div className="mt-8 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
+                    <h2 className="font-heading font-bold text-xl text-foreground mb-6">
+                      Technische Spezifikationen & Detailwissen
+                    </h2>
+                    <div 
+                      className="prose dark:prose-invert max-w-none w-full text-body text-muted-foreground leading-relaxed
+                                 prose-h2:text-h4 prose-h2:font-heading prose-h2:text-foreground prose-h2:mt-6 prose-h2:mb-3
+                                 prose-p:mb-4
+                                 prose-ul:my-4 prose-li:my-1"
+                      dangerouslySetInnerHTML={{ __html: seoTextHtml }}
+                    />
                   </div>
                 )}
                 
@@ -415,13 +377,15 @@ export default async function ProductDetailPage({
                 <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3">
                   {tProd('certsAndNorms')}
                 </h3>
-                <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
-                  <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> DVGW {tProd('approved')}</li>
-                  <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> SKZ {tProd('monitoring')}</li>
-                  <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> KIWA {tProd('certified')}</li>
-                  <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> DIN 8077 / 8078</li>
-                  <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> EN ISO 15874</li>
-                </ul>
+                <div data-nosnippet="true">
+                  <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> DVGW {tProd('approved')}</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> SKZ {tProd('monitoring')}</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> KIWA {tProd('certified')}</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> DIN 8077 / 8078</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> EN ISO 15874</li>
+                  </ul>
+                </div>
 
                 <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3 mt-4">
                   {tProd('quickLinks')}
@@ -443,8 +407,7 @@ export default async function ProductDetailPage({
 
                 <ProductDownloads />
                 
-                {/* Dynamic SEO Word Count Padding (Visually Hidden) */}
-                <DynamicSeoBlock title={localizedTitle} h1={localizedTitle} locale={locale} path={`/produkte/${category}/${slug}`} />
+
               </Card>
             </Reveal>
 

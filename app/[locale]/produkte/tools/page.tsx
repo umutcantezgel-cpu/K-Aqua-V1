@@ -16,7 +16,6 @@ import {
   Flame,
   Layers
 } from '@/components/ui/icon';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -121,7 +120,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
       )}
-      <DynamicSeoBlock title={t('metaTitle')} h1={t('hero.title')} locale={locale} path="/produkte/tools" />
+      
 </div>
     </>
   );

@@ -2,13 +2,11 @@ import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
-import { NewsDeep } from "@/components/sections/NewsDeep";
 import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllNews } from "@/content/news";
 import { BlogGrid } from "@/components/sections/BlogGrid";
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -40,7 +38,6 @@ export default async function NewsPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">{meta[0]}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
         {/* Redesigned Hero Section */}
         <section className="relative overflow-hidden pt-24 pb-16 lg:pt-32 lg:pb-24 border-b border-card-border bg-background-subtle">
@@ -65,13 +62,15 @@ export default async function NewsPage({ params }: Props) {
         </section>
 
         {/* Dynamic Blog Grid */}
-        <BlogGrid posts={allPosts} locale={locale} />
-
-        {/* Deep Content */}
-        <NewsDeep />
+        <section aria-labelledby="blog-grid-heading">
+          <h2 id="blog-grid-heading" className="sr-only">
+            {locale === 'de' ? 'Alle Fachartikel' : locale === 'ar' ? 'جميع المقالات' : 'All Articles'}
+          </h2>
+          <BlogGrid posts={allPosts} locale={locale} />
+        </section>
 
         {/* Dynamic SEO Text Blocks */}
-        <DynamicSeoBlock title={meta[0]} h1={meta[0]} locale={locale} path="/news" />
+        
       </div>
     </>
   );

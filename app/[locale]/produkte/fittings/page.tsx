@@ -6,7 +6,6 @@ import { CTABand } from '@/components/ui/CTABand';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 const titles: Record<string, [string, string]> = {
   de: ['PP-R Formteile & Fittings für Rohrsysteme', 'K-Aqua PP-R Formteile und Fittings für hochdruckfeste, korrosionsfreie Rohrverbindungen. Zertifiziert nach DVGW.'],
@@ -100,7 +99,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
       )}
-      <DynamicSeoBlock title={titles[locale]?.[0] || titles['en'][0]} h1={t('hero.title')} locale={locale} path="/produkte/fittings" />
+      
 </div>
   );
 }

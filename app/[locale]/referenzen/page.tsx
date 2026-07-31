@@ -4,7 +4,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 import type { Metadata } from "next";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
@@ -201,7 +200,7 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
-      <DynamicSeoBlock title={t('meta.title')} h1={t('hero.title1')} locale={locale} path="/referenzen" />
+      
     </main>
     </NextIntlClientProvider>
   );

@@ -49,11 +49,16 @@ export default async function SitemapPage({ params }: Props) {
       <section className="relative overflow-hidden pt-32 pb-16 lg:py-40 border-b border-card-border">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">
-          <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
+          <h1 className="text-4xl lg:text-5xl font-heading font-extrabold tracking-tight text-foreground mb-6">
             {locale === 'de' ? 'K-Aqua HTML Sitemap - Alle Seiten im Überblick'
              : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
              : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
           </h1>
+          <p className="sr-only">
+            {locale === 'de' ? 'K-Aqua HTML Sitemap - Alle Seiten im Überblick'
+             : locale === 'en' ? 'K-Aqua HTML Sitemap - Overview of all Pages'
+             : 'خريطة موقع K-Aqua - نظرة عامة على جميع الصفحات'}
+          </p>
           <p className="text-xl text-muted-foreground font-normal mb-6">
             {locale === 'de' ? 'Willkommen auf unserer vollumfänglichen HTML Sitemap. Hier finden Sie sämtliche verfügbaren Seiten und Unterseiten unserer Webpräsenz auf einen Blick übersichtlich und strukturiert aufgelistet, um Ihnen die Orientierung zu erleichtern.' 
              : locale === 'en' ? 'Welcome to our comprehensive HTML Sitemap. Here you will find all available pages and subpages of our website listed clearly and structured at a glance to make orientation easier for you.'
@@ -108,18 +113,9 @@ export default async function SitemapPage({ params }: Props) {
             <div className="flex flex-col gap-6">
               {Object.entries(productsByCategory).map(([category, prods]) => (
                 <div key={category}>
-                  <Link href={`/produkte/${category}`} className="block text-lg font-bold mb-3 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={`/produkte/${category}`} className="block text-lg font-bold mb-1 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
                     {category}
                   </Link>
-                  <ul className="flex flex-col gap-2">
-                    {prods.map(p => (
-                      <li key={p.slug}>
-                        <Link href={`/produkte/${category}/${p.slug}`} className="hover:text-primary transition-colors text-sm">
-                          {p.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               ))}
             </div>

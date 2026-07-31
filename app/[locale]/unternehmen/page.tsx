@@ -13,7 +13,6 @@ import LiquidHeadline from '@/components/signature/LiquidHeadline';
 import { getWebPageJsonLd, constructMetadata } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -207,7 +206,7 @@ export default async function UnternehmenPage({ params }: Props) {
         </section>
         {/* Deep Content am Ende der Unternehmens-Seite */}
         <AboutDeep />
-        <DynamicSeoBlock title={metaTitle} h1={`${t("title1")} ${t("titleGrad")}`} locale={locale} path="/unternehmen" />
+        
       </div>
     </NextIntlClientProvider>
   );

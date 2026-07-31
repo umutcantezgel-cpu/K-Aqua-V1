@@ -39,7 +39,7 @@ export default function LocalAvailability({ locale }: LocalAvailabilityProps) {
   }
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4" data-nosnippet="true">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3 mt-4 flex items-center gap-2">
         <MapPin className="w-5 h-5 text-primary" />
         {t('localAvailability') || 'Local Availability'}

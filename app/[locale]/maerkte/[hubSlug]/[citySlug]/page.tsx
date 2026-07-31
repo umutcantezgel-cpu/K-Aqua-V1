@@ -8,7 +8,6 @@ import GeoCity from "@/components/sections/GeoCity";
 import { constructMetadata, getGeoCityJsonLd, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string; hubSlug: string; citySlug: string }>;
@@ -144,9 +143,12 @@ export default async function GeoCityPage({ params }: Props) {
   
   const allSchemas = [...schemas, breadcrumb];
 
+  const baseTitle = tGeo("cityMetaTitle", { city: market.city });
+
   return (
     <>
       <JsonLd schema={allSchemas} />
+      <div className="sr-only">{baseTitle} | K-Aqua</div>
 
       <GeoCity
         locale={locale}
@@ -171,7 +173,7 @@ export default async function GeoCityPage({ params }: Props) {
       )}
 
       {/* Dynamic SEO Text Blocks */}
-      <DynamicSeoBlock title={geoTrans.cityTitle} h1={geoTrans.cityTitle} locale={locale} path={`/maerkte/${hubSlug}/${citySlug}`} />
+      
     </>
   );
 }

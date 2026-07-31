@@ -49,6 +49,7 @@ export default async function Co2RechnerPage({ params }: Props) {
       <h1 className="text-h3 md:text-h2 font-heading font-extrabold text-foreground leading-[1.1] container mx-auto px-4 mt-8 mb-2">
         {meta[0] ?? "CO2-Rechner & Emissionsanalyse"}
       </h1>
+      <h2 className="sr-only">{meta[1] ?? "PP-R Rohrsysteme Emissionsvergleich berechnen"}</h2>
       <Co2DashboardWrapper />
       {guideText && (
         <section className="container mx-auto px-4 py-12 border-t border-border mt-8">
