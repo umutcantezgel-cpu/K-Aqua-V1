@@ -47,7 +47,7 @@ export const rechenzentrumKuehlung: NewsPost = {
                 </div>
               }
               title="Maximale Ausfallsicherheit in Rechenzentrumkühlsystemen"
-              lead="Hyperscale Rechenzentren verbrauchen gewaltige Mengen an Energie, ein großer Teil davon fließt in moderne Kaltwassersätze und Direct to Chip Kühlung zur verlässlichen Temperierung der Server Racks. Ein Rohrbruch oder auch nur eine minimale Leckage im Doppelbereich kann irreversible Schäden in Millionenhöhe und kritische Systemausfälle auslösen. K Aqua PPRCT Rohrleitungssysteme garantieren durch ihre homogene, stoffschlüssige Schweißverbindung absolute Dichtigkeit und dauerhafte Korrosionsbeständigkeit für anspruchsvollste Data Center Infrastrukturen."
+              lead="Hyperscale Rechenzentren verbrauchen gewaltige Mengen an Energie, ein großer Teil davon fließt in moderne Kaltwassersätze und Direct to Chip Kühlung zur verlässlichen Temperierung der Server Racks. Ein Rohrbruch oder auch nur eine minimale Leckage im Doppelbereich kann irreversible Schäden in Millionenhöhe und kritische Systemausfälle auslösen. Um maximale Ausfallsicherheit in Rechenzentrumkühlsystemen zu gewährleisten, ist die Rechenzentrumkühlung mit PPRCT die optimale Lösung. K Aqua PPRCT Rohrleitungssysteme garantieren durch ihre homogene, stoffschlüssige Schweißverbindung absolute Dichtigkeit und dauerhafte Korrosionsbeständigkeit für anspruchsvollste Data Center Infrastrukturen."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

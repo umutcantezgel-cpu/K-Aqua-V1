@@ -47,7 +47,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
                 </div>
               }
               title="Kompromisslose Reinheit für Lebensmittel"
-              lead="Ob in Molkereien, Brauereien oder der industriellen Trinkwasserabfüllung: Rohrleitungen haben direkten Einfluss auf die Produktqualität. Der Branchenstandard ist oft kostenintensiver Edelstahl (316L). K Aqua PPR bietet eine hochgradig zertifizierte, absolut korrosionsfreie und chemisch resistente Alternative, die weder den Geschmack verfälscht noch Mikroplastik an die Medien abgibt."
+              lead="Ob in Molkereien, Brauereien oder der industriellen Trinkwasserabfüllung in der Lebensmittelindustrie: Hygiene-Rohrleitungen haben direkten Einfluss auf die Produktqualität. Kompromisslose Reinheit für Lebensmittel ist hierbei unerlässlich. Der Branchenstandard ist oft kostenintensiver Edelstahl (316L). K Aqua PPR bietet eine hochgradig zertifizierte, absolut korrosionsfreie und chemisch resistente Alternative, die weder den Geschmack verfälscht noch Mikroplastik an die Medien abgibt."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

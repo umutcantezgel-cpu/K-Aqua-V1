@@ -40,7 +40,7 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
                 </div>
               }
               title="Höchste Reinheit, wenn es um Leben geht"
-              lead="In Krankenhäusern, Pflegeheimen und Rehakliniken ist das Immunsystem der Patienten oft stark geschwächt. Trinkwasser muss hier absolut steril und frei von Krankheitserregern wie Legionella pneumophila oder Pseudomonas aeruginosa sein. K Aqua PPR Kunststoffrohrleitungssysteme bieten durch ihre porenfreie Oberfläche, absolute Korrosionsfreiheit und dauerhafte thermische Belastbarkeit die sicherste Infrastruktur für anspruchsvolle medizinische Einrichtungen."
+              lead="In Krankenhäusern, Pflegeheimen und Rehakliniken ist das Immunsystem der Patienten oft stark geschwächt. Für eine sichere Krankenhaus-Wasserversorgung und effektive Bakterienprävention muss das Trinkwasser hier absolut steril und frei von Krankheitserregern wie Legionella pneumophila oder Pseudomonas aeruginosa sein. Höchste Reinheit ist entscheidend, wenn es um Leben geht. K Aqua PPR Kunststoffrohrleitungssysteme bieten durch ihre porenfreie Oberfläche, absolute Korrosionsfreiheit und dauerhafte thermische Belastbarkeit die sicherste Infrastruktur für anspruchsvolle medizinische Einrichtungen."
             />
           </div>
         </div>

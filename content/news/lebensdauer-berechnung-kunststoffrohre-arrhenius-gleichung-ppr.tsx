@@ -64,7 +64,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
         <div className="max-w-4xl mx-auto px-4 md:px-8 prose prose-lg dark:prose-invert">
           <h2>Die Physik der Langlebigkeit: Wie die Lebensdauer von PP-R Kunststoffen berechnet wird</h2>
           <p>
-            In der Bau- und Immobilienwirtschaft ist die Frage nach der Lebensdauer der technischen Gebäudeausrüstung (TGA) von zentraler Bedeutung. Investoren, Planer und Bauherren fordern Garantien, dass hinter Wänden und in Schächten verbaute Rohrsysteme nicht nach zwanzig Jahren kostspielig saniert werden müssen. K Aqua garantiert für seine PP-R (Polypropylen Random-Copolymer) Systeme eine Nutzungsdauer von über 50 Jahren. Diese Zahl ist jedoch kein Marketing-Gag, sondern das direkte Resultat strenger materialwissenschaftlicher und thermodynamischer Prüfverfahren, verankert in internationalen Normen wie der ISO 9080.
+            In der Bau- und Immobilienwirtschaft ist die Frage nach der Lebensdauer der technischen Gebäudeausrüstung (TGA) von zentraler Bedeutung. Die zuverlässige Lebensdauerberechnung von K-Aqua Kunststoffrohren zeigt, dass Investoren, Planer und Bauherren sich auf Garantien verlassen können, dass hinter Wänden und in Schächten verbaute Rohrsysteme nicht nach zwanzig Jahren kostspielig saniert werden müssen. K-Aqua garantiert für seine PP-R (Polypropylen Random-Copolymer) Systeme eine Nutzungsdauer von über 50 Jahren. Diese Zahl ist jedoch kein Marketing-Gag, sondern das direkte Resultat strenger materialwissenschaftlicher und thermodynamischer Prüfverfahren, verankert in internationalen Normen wie der ISO 9080.
           </p>
           
           <h3>Der Feind des Kunststoffs: Temperatur und Innendruck</h3>

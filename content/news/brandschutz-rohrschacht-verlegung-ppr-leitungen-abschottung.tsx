@@ -54,7 +54,7 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
         <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
           <h2 className="text-2xl font-bold text-foreground mb-4">Das Prinzip der Brandabschnittsbildung</h2>
           <p>
-            Der bauliche Brandschutz zielt darauf ab, ein Gebäude in definierte Brandabschnitte zu unterteilen. Diese Abschnitte (getrennt durch massive Wände und Decken) sollen verhindern, dass sich Feuer und vor allem das hochgiftige Rauchgas ungehindert im gesamten Gebäude ausbreiten können. Das Problem für die technische Gebäudeausrüstung (TGA): Rohrleitungen, Lüftungskanäle und Stromkabel müssen diese Brandabschnitte unweigerlich durchdringen (sogenannte Leitungsanlagen-Richtlinie - MLAR).
+            Der bauliche Brandschutz zielt darauf ab, ein Gebäude in definierte Brandabschnitte zu unterteilen. Diese Abschnitte (getrennt durch massive Wände und Decken) sollen verhindern, dass sich Feuer und vor allem das hochgiftige Rauchgas ungehindert im gesamten Gebäude ausbreiten können. Gerade der Brandschutz im Rohrschacht mit PPR erfordert besondere Aufmerksamkeit, da hier Installationen gebündelt verlaufen. Das Problem für die technische Gebäudeausrüstung (TGA): Rohrleitungen, Lüftungskanäle und Stromkabel müssen diese Brandabschnitte unweigerlich durchdringen (sogenannte Leitungsanlagen-Richtlinie - MLAR).
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Materialverhalten von Polypropylen im Brandfall</h3>
           <p>

@@ -15,10 +15,7 @@ export function BlogCard({ post, locale }: BlogCardProps) {
   const tag = post.tag || post.category;
 
   return (
-    <Link
-      href={`/${locale}/news/${post.slug}`}
-      className="group relative flex flex-col justify-between h-full bg-card hover:bg-card-tint border border-card-border hover:border-primary transition-all duration-300 rounded-[24px] p-8 overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring shadow-diffuse hover:shadow-lift"
-    >
+    <div className="group relative flex flex-col justify-between h-full bg-card hover:bg-card-tint border border-card-border hover:border-primary transition-all duration-300 rounded-[24px] p-8 overflow-hidden focus-visible:outline-none focus-within:ring-2 focus-within:ring-ring shadow-diffuse hover:shadow-lift">
       <div className="flex flex-col gap-5">
         {/* Meta Info */}
         <div className="flex items-center gap-3 text-small text-muted-foreground font-semibold">
@@ -33,20 +30,24 @@ export function BlogCard({ post, locale }: BlogCardProps) {
 
         {/* Content */}
         <div>
-          <div className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3">
-            {title}
-          </div>
-          <p className="text-body text-muted-foreground line-clamp-3 leading-relaxed">
+          <h3 className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3 relative z-10">
+            <Link
+              href={`/${locale}/news/${post.slug}`}
+              className="before:absolute before:-inset-8 focus-visible:outline-none"
+            >
+              {title}
+            </Link>
+          </h3>
+          <p className="text-body text-muted-foreground line-clamp-3 leading-relaxed relative z-10 pointer-events-none">
             {excerpt}
           </p>
         </div>
       </div>
 
-      <div className="mt-8 flex items-center gap-2 text-primary font-bold text-small tracking-wide">
-        <span>{locale === 'de' ? `Fachartikel lesen` : locale === 'ar' ? `اقرأ المقال` : `Read article`}</span>
-        <span className="sr-only"> - {title}</span>
-        <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+      <div className="mt-8 flex items-center gap-2 text-primary font-bold text-small tracking-wide relative z-10 pointer-events-none" aria-hidden="true">
+        <span className="truncate">{locale === 'de' ? `Artikel lesen: ${title}` : locale === 'ar' ? `اقرأ المقال: ${title}` : `Read article: ${title}`}</span>
+        <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform shrink-0" />
       </div>
-    </Link>
+    </div>
   );
 }

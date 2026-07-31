@@ -80,6 +80,18 @@ export default async function MaerktePage({ params }: Props) {
         regionsTrans={regionsTrans}
         geoContentTrans={geoContentTrans}
       />
+      {/* Hidden SEO navigation to ensure all market pages are easily crawlable */}
+      <nav aria-label="Markets Directory" className="sr-only">
+        <ul>
+          {GEO_MARKETS.map((market) => (
+            <li key={market.slug}>
+              <a href={`/${locale}/maerkte/${market.hubSlug}/${market.slug}`}>
+                {market.city}, {market.country}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </>
   );
 }

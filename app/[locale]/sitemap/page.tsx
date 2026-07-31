@@ -86,11 +86,11 @@ export default async function SitemapPage({ params }: Props) {
       </section>
 
       <section className="py-20 bg-background">
-        <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
           {/* Main Pages */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Hauptseiten</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Unternehmen & Navigation</h2>
             <ul className="flex flex-col gap-3">
               <li><Link href="/" className="hover:text-primary transition-colors">{t('home') || 'Startseite'}</Link></li>
               <li><Link href="/produkte" className="hover:text-primary transition-colors">{t('products') || 'Produkte'}</Link></li>
@@ -121,10 +121,10 @@ export default async function SitemapPage({ params }: Props) {
             </div>
           </div>
 
-          {/* News & Academy */}
+          {/* News */}
           <div>
             <h2 className="text-2xl font-bold mb-6 font-heading text-primary">News & Presse</h2>
-            <ul className="flex flex-col gap-2 mb-12">
+            <ul className="flex flex-col gap-2">
               {news.map(n => (
                 <li key={n.slug}>
                   <Link href={`/news/${n.slug}`} className="hover:text-primary transition-colors text-sm">
@@ -133,7 +133,10 @@ export default async function SitemapPage({ params }: Props) {
                 </li>
               ))}
             </ul>
+          </div>
 
+          {/* Markets & Regions */}
+          <div>
             <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Märkte & Regionen</h2>
             <div className="flex flex-col gap-6">
               {GEO_HUBS.map(hub => {

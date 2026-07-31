@@ -62,7 +62,7 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
 
           <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">PP-R als chemisch inerter Werkstoff</h2>
           <p>
-            Polypropylen Random Copolymer (PP-R) verhält sich gegenüber diesen Herausforderungen völlig unbeeindruckt. Als Kunststoff ist es von Natur aus zu 100 % korrosionsfrei. 
+            Polypropylen Random Copolymer (PP-R) verhält sich gegenüber diesen Herausforderungen völlig unbeeindruckt. Als Kunststoff ist es von Natur aus zu 100 % korrosionsfrei. Durch den gezielten Einsatz für PPR Rohre in Sportstätten & Schwimmbädern wird die kritische Schwachstelle metallischer Systeme komplett eliminiert.
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Molekulare Beständigkeit gegen Oxidationsmittel</h3>
           <p>

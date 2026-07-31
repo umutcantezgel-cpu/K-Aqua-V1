@@ -13,7 +13,7 @@ import { Factory, Droplets, Leaf, TestTube } from "@/components/ui/icon";
 export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
   slug: "umweltfreundliche-kuehlwasserleitungen-prozessindustrie-ppr-chemie",
   title: {
-    de: "PPRKühlwasserleitungen für die Industrie",
+    de: "PPR-Kühlwasserleitungen für die Industrie",
     en: "PPR Cooling Water Pipes for the Industry",
     ar: "أنابيب مياه التبريد PPR للصناعة"
   },
@@ -158,7 +158,7 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
       <section className="py-12 prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
         <h2 className="text-3xl font-heading font-extrabold text-foreground mt-8 mb-4">Industriekühlung im Wandel: Die Grenzen metallischer Rohrleitungen</h2>
         <p>
-          Die Prozessindustrie, von der chemischen Synthese über die pharmazeutische Produktion bis hin zur Lebensmittel- und Getränkeabfüllung, verlässt sich auf kontinuierlich arbeitende, gigantische Kühlwasserkreisläufe. Um immense thermische Lasten abzuführen, werden tausende Kubikmeter Kühlwasser permanent umgewälzt. Historisch bedingt bestehen diese Netze häufig aus C-Stahl oder verzinktem Stahl. Diese metallischen Rohrwerkstoffe weisen jedoch eine fundamentale Schwäche auf: Sie korrodieren unter dem Einfluss von Wasser und Sauerstoff rasend schnell. Um den unabdingbaren Lochfraß, die Zusetzung durch Rostknollen (Inkrustationen) und den finalen Rohrleitungsbruch hinauszuzögern, greift die Industrie auf eine hochproblematische Lösung zurück: die ständige Zudosierung toxischer Korrosionsinhibitoren. K-Aqua PP-R (Polypropylen-Random-Copolymer) bricht diesen Teufelskreis aus Korrosion und Umweltbelastung endgültig.
+          Die Prozessindustrie, von der chemischen Synthese über die pharmazeutische Produktion bis hin zur Lebensmittel- und Getränkeabfüllung, verlässt sich auf kontinuierlich arbeitende, gigantische Kühlwasserkreisläufe. Um immense thermische Lasten abzuführen, werden tausende Kubikmeter Kühlwasser permanent umgewälzt. Historisch bedingt bestehen diese Netze häufig aus C-Stahl oder verzinktem Stahl. Moderne PPR-Kühlwasserleitungen für die Industrie bieten hierzu eine zukunftsweisende und ökologisch sinnvolle Alternative. Diese metallischen Rohrwerkstoffe weisen jedoch eine fundamentale Schwäche auf: Sie korrodieren unter dem Einfluss von Wasser und Sauerstoff rasend schnell. Um den unabdingbaren Lochfraß, die Zusetzung durch Rostknollen (Inkrustationen) und den finalen Rohrleitungsbruch hinauszuzögern, greift die Industrie auf eine hochproblematische Lösung zurück: die ständige Zudosierung toxischer Korrosionsinhibitoren. K-Aqua PP-R (Polypropylen-Random-Copolymer) bricht diesen Teufelskreis aus Korrosion und Umweltbelastung endgültig.
         </p>
 
         <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das toxische Dilemma herkömmlicher Kühlwasserbehandlung</h3>

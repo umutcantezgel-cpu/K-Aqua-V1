@@ -48,7 +48,7 @@ export const erdverlegungGrabenlos: NewsPost = {
                 </div>
               }
               title="Unterirdisch zum Ziel: Die HDD-Revolution"
-              lead="Die offene Bauweise, also das massive Aufreißen von Straßenkreuzungen, Gehwegen und asphaltierten Industrieflächen, verschlingt beim Bau von Nahwärmenetzen, Kühlwasserleitungen oder industriellen Medientrassen oftmals weit über 70% des gesamten Projektbudgets. Das grabenlose Horizontalspülbohrverfahren (HDD - Horizontal Directional Drilling) stellt hier die weitaus elegantere, wirtschaftlichere und umweltschonendere Alternative dar. K-Aqua PP-R Systeme sind durch ihre enorme Zähigkeit, materialspezifische Flexibilität und absolute Längskraftschlüssigkeit (Zugfestigkeit durch Polyfusion) die prädestinierte Wahl für diese anspruchsvolle, unterirdische Verlegetechnik."
+              lead="Die offene Bauweise, also das massive Aufreißen von Straßenkreuzungen, Gehwegen und asphaltierten Industrieflächen, verschlingt beim Bau von Nahwärmenetzen, Kühlwasserleitungen oder industriellen Medientrassen oftmals weit über 70% des gesamten Projektbudgets. Wenn es um die Erdverlegung geht, ist der grabenlose Rohrleitungsbau & HDD (Horizontal Directional Drilling) die weitaus elegantere, wirtschaftlichere und umweltschonendere Alternative. K-Aqua PP-R Systeme sind durch ihre enorme Zähigkeit, materialspezifische Flexibilität und absolute Längskraftschlüssigkeit (Zugfestigkeit durch Polyfusion) die prädestinierte Wahl für diese anspruchsvolle, unterirdische Verlegetechnik."
             />
           </div>
           <div className="flex-1 flex justify-center items-center opacity-90 pointer-events-none">

@@ -144,7 +144,7 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
                       title={it.title}
                       lead={it.note || ""}
                       specs={specs}
-                      cta={`${it.title} – ${viewDetails || "Produktdetails und Spezifikationen"}`}
+                      cta={`${viewDetails || "Produktdetails"}: ${it.title}`}
                       href={`/produkte/${active!.id}/${it.slug}`}
                     />
                   </Reveal>

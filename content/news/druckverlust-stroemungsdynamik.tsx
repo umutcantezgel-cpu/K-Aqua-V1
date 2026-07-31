@@ -43,7 +43,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
                 In großen Gebäudekomplexen, Krankenhäusern und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen die Schwerkraft und den Leitungswiderstand (Rohrreibung) zu fördern, leisten elektrische Umwälzpumpen kontinuierlich Schwerstarbeit. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl">
-                Genau hier an dieser unsichtbaren Schnittstelle zwischen Strömungsmechanik und Energietechnik entscheidet die Wahl des Rohrleitungsmaterials über die langfristige Wirtschaftlichkeit einer gesamten Anlage. Ein scheinbar kleines Detail, die minimale Oberflächenrauheit von K-Aqua PP-R, definiert, ob Ihr Gebäude in den kommenden Jahrzehnten zum stromfressenden Albtraum oder zum hocheffizienten Energiewunder wird.
+                Genau hier an dieser unsichtbaren Schnittstelle zwischen Strömungsmechanik und Energietechnik entscheidet die Wahl des Rohrleitungsmaterials über die langfristige Wirtschaftlichkeit einer gesamten Anlage. Indem man Druckverlust & Strömungsdynamik durch das richtige Rohrsystem optimiert, kann man Pumpstrom radikal sparen. Ein scheinbar kleines Detail, die minimale Oberflächenrauheit von K-Aqua PP-R, definiert, ob Ihr Gebäude in den kommenden Jahrzehnten zum stromfressenden Albtraum oder zum hocheffizienten Energiewunder wird.
               </p>
             </div>
           </div>

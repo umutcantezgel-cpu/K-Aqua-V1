@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-no-literals, @typescript-eslint/no-explicit-any */
 import { notFound, redirect } from 'next/navigation';
+
+export const revalidate = 86400;
 import { getProductBySlug, getAllProducts } from '@/lib/products';
 import { Card } from '@/components/ui/Card';
 import { Reveal } from '@/components/ui/Reveal';
