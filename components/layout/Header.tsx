@@ -102,14 +102,18 @@ export default function Header() {
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Rohrsysteme</span>
-                  <FluidLink href="/produkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
-                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Übersicht aller K Aqua PPR Lösungen</span>
-                  </FluidLink>
-                  <FluidLink href="/loesungen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between">{t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" /></span>
-                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Industriespezifische Applikationen</span>
-                  </FluidLink>
+                  <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <FluidLink href="/produkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
+                      Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                    </FluidLink>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Übersicht aller K Aqua PPR Lösungen</span>
+                  </div>
+                  <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <FluidLink href="/loesungen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
+                      {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                    </FluidLink>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Industriespezifische Applikationen</span>
+                  </div>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Digitale Tools</span>
@@ -175,14 +179,18 @@ export default function Header() {
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Globaler Fußabdruck</span>
-                  <FluidLink href="/maerkte" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Globale Märkte</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Zertifizierte Regionen</span>
-                  </FluidLink>
-                  <FluidLink href="/referenzen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Referenzprojekte</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Erfolgreiche Installationen</span>
-                  </FluidLink>
+                  <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <FluidLink href="/maerkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors before:absolute before:inset-0">
+                      Globale Märkte
+                    </FluidLink>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Zertifizierte Regionen</span>
+                  </div>
+                  <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <FluidLink href="/referenzen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors before:absolute before:inset-0">
+                      Referenzprojekte
+                    </FluidLink>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Erfolgreiche Installationen</span>
+                  </div>
                 </div>
               </div>
             </div>

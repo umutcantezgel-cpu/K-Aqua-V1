@@ -14,6 +14,14 @@ Die Regulierungen des South African Bureau of Standards (SABS) und die SANS-Norm
 4. **Energieeffizienz durch hervorragende Isolation**: Insbesondere in den heißen Sommermonaten Südafrikas ist die Kühlung von Gebäuden essenziell. K-Aqua Rohre besitzen eine sehr geringe Wärmeleitfähigkeit. In Kaltwassernetzen für Klimaanlagen wird so die Kondenswasserbildung drastisch minimiert. Gleichzeitig geht bei Warmwasserleitungen kaum Wärme verloren. Das spart wertvolle Energie, senkt die Betriebskosten (OPEX) und verbessert die CO2-Bilanz der Bauprojekte deutlich.
 5. **Geringer hydraulischer Widerstand**: Die glatten Innenwände reduzieren die Reibungsverluste des fließenden Wassers. Dadurch können Umwälzpumpen kleiner dimensioniert oder mit geringerer Leistung betrieben werden, was weitere Energieeinsparungen mit sich bringt. 
 
+## Klimaanpassung und beständige Haltbarkeit an der Kap-Halbinsel
+
+Das mediterrane, aber oft raue Klima der Kap-Region mit seinen starken Südostwinden (dem "Cape Doctor") und den intensiven Sonneneinstrahlungen verlangt nach Baumaterialien, die extrem robust sind. K-Aqua PP-R und PP-RCT Systeme bieten eine herausragende Widerstandsfähigkeit gegen thermische und mechanische Belastungen. Selbst bei Installationen, die extremen Temperaturschwankungen ausgesetzt sind, bewahrt das Polypropylen-Random-Copolymer seine Formstabilität und Flexibilität. Es versprödet nicht und ist unempfindlich gegenüber den salzhaltigen Küstenwinden, die herkömmliche Metalle schnell korrodieren lassen. Die außergewöhnliche Langzeithaltbarkeit von über 50 Jahren stellt sicher, dass die Wasserinfrastruktur nicht nur den heutigen Anforderungen entspricht, sondern auch zukünftigen klimatischen Herausforderungen in Südafrika souverän begegnet.
+
+## Kompromisslose Hygiene in Zeiten von Wasserknappheit
+
+Wenn Wasser zu einer so kostbaren Ressource wird, darf die Qualität beim Transport durch das Gebäude unter keinen Umständen beeinträchtigt werden. Die stagnierenden Wassermassen in unregelmäßig genutzten Leitungen bergen stets die Gefahr von bakterieller Kontamination. K-Aqua begegnet diesem Risiko mit einer porenfreien, extrem glatten Rohrinnenfläche, die das Einnisten von Biofilmen, Algen und pathogenen Erregern wie Legionellen praktisch unmöglich macht. Das Material ist 100 % lebensmittelecht und gibt keinerlei Mikroplastik, Schwermetalle oder chemische Weichmacher an das Trinkwasser ab. So wird garantiert, dass das aufbereitete Wasser der kommunalen Versorger bis zum letzten Tropfen absolut rein, geruchs- und geschmacksneutral am Wasserhahn ankommt – eine grundlegende Voraussetzung für den Gesundheitssektor und die gehobene Hotellerie in Kapstadt.
+
 ## Typische Anwendungsgebiete in Kapstadt
 
 In Kapstadt und der umliegenden Provinz Westkap kommen die robusten K-Aqua Systeme in vielfältigen Projekten zum Einsatz:

@@ -52,7 +52,7 @@ export default async function UnternehmenPage({ params }: Props) {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
-    <NextIntlClientProvider messages={pick(messages, ['about'])}>
+    <NextIntlClientProvider messages={pick(messages, ['about', 'homex'])}>
       <JsonLd schema={jsonLd} />
       <div className="sr-only">{metaTitle}</div>
       <div className="flex flex-col w-full min-h-screen bg-background">
