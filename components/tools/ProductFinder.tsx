@@ -206,7 +206,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                         </tr>
                       </thead>
                       <tbody>
-                        {(isMounted ? rows : rows.slice(0, 20)).map((r, i) => {
+                        {rows.map((r, i) => {
                           const slugOnly = r.slug.includes("/") ? r.slug.split("/").pop() : r.slug;
                           return (
                           <tr
