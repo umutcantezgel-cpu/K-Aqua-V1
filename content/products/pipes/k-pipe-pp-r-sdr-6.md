@@ -7,7 +7,7 @@ article_codes: ["AQ200P20", "AQ200P25", "AQ200P32", "AQ200P40", "AQ200P50"]
 
 # K-Pipe PP-R SDR 6
 
-**S 2.5** - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
+S 2.5 - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
 Length: 4 m per bar
 
 ## Article Table
@@ -35,9 +35,9 @@ Das K-Pipe PP-R SDR 6 Rohrsystem repräsentiert die Spitze der modernen Installa
 #### Technische Exzellenz und Spezifikationen
 
 Das SDR (Standard Dimension Ratio) 6 steht für ein besonders robustes Verhältnis zwischen Außendurchmesser und Wandstärke, klassifiziert als Rohrserie S 2.5. Diese Auslegung ist gezielt für Anwendungen mit hohem Nenndruck konzipiert. 
-- **Maximale Betriebssicherheit:** Bei einer Wassertemperatur von 20°C hält das Rohr einem Betriebsdruck von bis zu 2.0 MPa (20 bar) stand. Selbst bei erhöhten Temperaturen von 70°C bleibt eine beachtliche Druckfestigkeit von 1.0 MPa (10 bar) erhalten.
-- **Durchmesser und Dimensionen:** Das K-Pipe PP-R SDR 6 ist in Außendurchmessern von 20 mm, 25 mm, 32 mm, 40 mm bis hin zu 50 mm erhältlich. Die entsprechenden Wandstärken (3.4 mm bis 8.3 mm) garantieren enorme Stabilität und Langlebigkeit.
-- **Lieferform:** Standardmäßig in Stangen von 4 Metern Länge geliefert, was den Transport erleichtert und gleichzeitig eine effiziente Verlegung mit minimalem Verschnitt auf der Baustelle ermöglicht.
+- Maximale Betriebssicherheit: Bei einer Wassertemperatur von 20°C hält das Rohr einem Betriebsdruck von bis zu 2.0 MPa (20 bar) stand. Selbst bei erhöhten Temperaturen von 70°C bleibt eine beachtliche Druckfestigkeit von 1.0 MPa (10 bar) erhalten.
+- Durchmesser und Dimensionen: Das K-Pipe PP-R SDR 6 ist in Außendurchmessern von 20 mm, 25 mm, 32 mm, 40 mm bis hin zu 50 mm erhältlich. Die entsprechenden Wandstärken (3.4 mm bis 8.3 mm) garantieren enorme Stabilität und Langlebigkeit.
+- Lieferform: Standardmäßig in Stangen von 4 Metern Länge geliefert, was den Transport erleichtert und gleichzeitig eine effiziente Verlegung mit minimalem Verschnitt auf der Baustelle ermöglicht.
 
 #### Überragende Materialeigenschaften von PP-R
 
@@ -48,10 +48,10 @@ Darüber hinaus ist das Material geschmacks- und geruchsneutral, was es zur idea
 #### Vielfältige Anwendungsbereiche in der Praxis
 
 Dank der hohen Druck- und Temperaturbeständigkeit (S 2.5 / SDR 6) eignet sich das K-Pipe System für ein breites Spektrum an Installationen:
-- **Kalt- und Warmwasserinstallationen:** In Wohn-, Gewerbe- und öffentlichen Gebäuden. Die hohe thermische Belastbarkeit sorgt für absolute Sicherheit auch bei Zirkulationsleitungen.
-- **Klimaanlagen und Heizungssysteme:** Als Verteilerleitungen in Zentralheizungen oder zur Anbindung von Heizkörpern. Die wärmeisolierenden Eigenschaften von PP-R reduzieren Energieverluste.
-- **Industrielle Anlagen:** Für den Transport von aggressiven Flüssigkeiten oder Druckluft, da PP-R gegen eine Vielzahl von Chemikalien resistent ist.
-- **Landwirtschaft und Gewächshäuser:** Für langlebige und sichere Bewässerungssysteme unter hohem Druck.
+- Kalt- und Warmwasserinstallationen: In Wohn-, Gewerbe- und öffentlichen Gebäuden. Die hohe thermische Belastbarkeit sorgt für absolute Sicherheit auch bei Zirkulationsleitungen.
+- Klimaanlagen und Heizungssysteme: Als Verteilerleitungen in Zentralheizungen oder zur Anbindung von Heizkörpern. Die wärmeisolierenden Eigenschaften von PP-R reduzieren Energieverluste.
+- Industrielle Anlagen: Für den Transport von aggressiven Flüssigkeiten oder Druckluft, da PP-R gegen eine Vielzahl von Chemikalien resistent ist.
+- Landwirtschaft und Gewächshäuser: Für langlebige und sichere Bewässerungssysteme unter hohem Druck.
 
 #### Installation und Verarbeitungstechnik
 
@@ -71,9 +71,9 @@ The K-Pipe PP-R SDR 6 piping system represents the pinnacle of modern installati
 #### Technical Excellence and Specifications
 
 The SDR (Standard Dimension Ratio) 6 classification signifies an exceptionally robust ratio between the outer diameter and the wall thickness, categorized under the pipe series S 2.5. This structural design is specifically engineered for high-pressure applications.
-- **Maximum Operational Safety:** At a water temperature of 20°C, the pipe can withstand an operating pressure of up to 2.0 MPa (20 bar). Even under elevated temperatures of 70°C, it maintains a remarkable pressure resistance of 1.0 MPa (10 bar).
-- **Diameters and Dimensions:** The K-Pipe PP-R SDR 6 is available in outer diameters ranging from 20 mm, 25 mm, 32 mm, 40 mm, up to 50 mm. The corresponding wall thicknesses (from 3.4 mm up to 8.3 mm) guarantee enormous structural stability and longevity.
-- **Delivery Format:** Supplied as standard in 4-meter straight lengths, which facilitates easy transportation while allowing for efficient installation with minimal waste on the construction site.
+- Maximum Operational Safety: At a water temperature of 20°C, the pipe can withstand an operating pressure of up to 2.0 MPa (20 bar). Even under elevated temperatures of 70°C, it maintains a remarkable pressure resistance of 1.0 MPa (10 bar).
+- Diameters and Dimensions: The K-Pipe PP-R SDR 6 is available in outer diameters ranging from 20 mm, 25 mm, 32 mm, 40 mm, up to 50 mm. The corresponding wall thicknesses (from 3.4 mm up to 8.3 mm) guarantee enormous structural stability and longevity.
+- Delivery Format: Supplied as standard in 4-meter straight lengths, which facilitates easy transportation while allowing for efficient installation with minimal waste on the construction site.
 
 #### Superior Material Properties of PP-R
 
@@ -84,10 +84,10 @@ Furthermore, the material is completely tasteless and odorless, rendering it an 
 #### Diverse Practical Application Areas
 
 Thanks to its high pressure and temperature resistance (S 2.5 / SDR 6), the K-Pipe system is suitable for a very broad spectrum of installations:
-- **Cold and Hot Water Installations:** In residential, commercial, and public buildings. The high thermal load capacity ensures absolute safety, even in continuous hot water circulation lines.
-- **Air Conditioning and Heating Systems:** Used as distribution lines in central heating networks or for connecting radiators. The natural thermal insulation properties of PP-R help in reducing heat loss and saving energy.
-- **Industrial Plants:** Ideal for transporting aggressive fluids, chemicals, or compressed air, as PP-R demonstrates excellent chemical resistance against a wide variety of substances.
-- **Agriculture and Greenhouses:** Providing durable and secure high-pressure irrigation systems capable of withstanding harsh environmental conditions.
+- Cold and Hot Water Installations: In residential, commercial, and public buildings. The high thermal load capacity ensures absolute safety, even in continuous hot water circulation lines.
+- Air Conditioning and Heating Systems: Used as distribution lines in central heating networks or for connecting radiators. The natural thermal insulation properties of PP-R help in reducing heat loss and saving energy.
+- Industrial Plants: Ideal for transporting aggressive fluids, chemicals, or compressed air, as PP-R demonstrates excellent chemical resistance against a wide variety of substances.
+- Agriculture and Greenhouses: Providing durable and secure high-pressure irrigation systems capable of withstanding harsh environmental conditions.
 
 #### Installation and Joining Technology
 
@@ -107,9 +107,9 @@ Choosing the K-Pipe PP-R SDR 6 system is a decision for enduring quality and saf
 #### التميز الفني والمواصفات
 
 يشير تصنيف SDR (نسبة الأبعاد القياسية) 6 إلى نسبة قوية جداً بين القطر الخارجي وسماكة الجدار، ويُصنف ضمن سلسلة الأنابيب S 2.5. تم تصميم هذا الهيكل البنيوي خصيصاً لتحمل تطبيقات الضغط العالي بكفاءة تامة.
-- **أقصى درجات الأمان التشغيلي:** عند درجة حرارة مياه تبلغ 20 درجة مئوية، يمكن للأنبوب تحمل ضغط تشغيلي يصل إلى 2.0 ميجاباسكال (20 بار). وحتى عند درجات الحرارة المرتفعة التي تصل إلى 70 درجة مئوية، فإنه يحافظ على مقاومة ضغط مذهلة تبلغ 1.0 ميجاباسكال (10 بار).
-- **الأقطار والأبعاد:** يتوفر أنبوب K-Pipe PP-R SDR 6 بأقطار خارجية تتراوح بين 20 مم، 25 مم، 32 مم، 40 مم، وصولاً إلى 50 مم. تضمن سماكات الجدران المقابلة (من 3.4 مم إلى 8.3 مم) استقراراً هيكلياً هائلاً وعمراً افتراضياً طويلاً.
-- **شكل التسليم:** يتم توريد الأنابيب بشكل قياسي على هيئة قطع مستقيمة بطول 4 أمتار، مما يسهل عملية النقل ويسمح في الوقت نفسه بتركيب فعال مع تقليل الهدر في موقع العمل.
+- أقصى درجات الأمان التشغيلي: عند درجة حرارة مياه تبلغ 20 درجة مئوية، يمكن للأنبوب تحمل ضغط تشغيلي يصل إلى 2.0 ميجاباسكال (20 بار). وحتى عند درجات الحرارة المرتفعة التي تصل إلى 70 درجة مئوية، فإنه يحافظ على مقاومة ضغط مذهلة تبلغ 1.0 ميجاباسكال (10 بار).
+- الأقطار والأبعاد: يتوفر أنبوب K-Pipe PP-R SDR 6 بأقطار خارجية تتراوح بين 20 مم، 25 مم، 32 مم، 40 مم، وصولاً إلى 50 مم. تضمن سماكات الجدران المقابلة (من 3.4 مم إلى 8.3 مم) استقراراً هيكلياً هائلاً وعمراً افتراضياً طويلاً.
+- شكل التسليم: يتم توريد الأنابيب بشكل قياسي على هيئة قطع مستقيمة بطول 4 أمتار، مما يسهل عملية النقل ويسمح في الوقت نفسه بتركيب فعال مع تقليل الهدر في موقع العمل.
 
 #### الخصائص الفائقة لمادة البولي بروبيلين PP-R
 
@@ -120,10 +120,10 @@ Choosing the K-Pipe PP-R SDR 6 system is a decision for enduring quality and saf
 #### مجالات التطبيق العملي المتنوعة
 
 بفضل مقاومته العالية للضغط والحرارة (S 2.5 / SDR 6)، يعد نظام K-Pipe مناسباً لمجموعة واسعة جداً من التركيبات:
-- **تركيبات المياه الباردة والساخنة:** في المباني السكنية والتجارية والمرافق العامة. تضمن قدرة التحمل الحراري العالية أماناً مطلقاً، حتى في خطوط تدوير المياه الساخنة المستمرة.
-- **أنظمة التكييف والتدفئة:** يستخدم كخطوط توزيع في شبكات التدفئة المركزية أو لتوصيل المشعات الحرارية. تساعد خصائص العزل الحراري الطبيعية لمادة PP-R في تقليل فقدان الحرارة وتوفير الطاقة بشكل ملحوظ.
-- **المنشآت الصناعية:** يعتبر مثالياً لنقل السوائل العدوانية والمواد الكيميائية أو الهواء المضغوط، حيث يظهر PP-R مقاومة كيميائية ممتازة ضد مجموعة متنوعة من المواد الخطرة.
-- **الزراعة والصوبات الزجاجية (البيوت المحمية):** توفير أنظمة ري متينة وآمنة تحت ضغط عالٍ قادرة على تحمل الظروف البيئية القاسية للزراعة.
+- تركيبات المياه الباردة والساخنة: في المباني السكنية والتجارية والمرافق العامة. تضمن قدرة التحمل الحراري العالية أماناً مطلقاً، حتى في خطوط تدوير المياه الساخنة المستمرة.
+- أنظمة التكييف والتدفئة: يستخدم كخطوط توزيع في شبكات التدفئة المركزية أو لتوصيل المشعات الحرارية. تساعد خصائص العزل الحراري الطبيعية لمادة PP-R في تقليل فقدان الحرارة وتوفير الطاقة بشكل ملحوظ.
+- المنشآت الصناعية: يعتبر مثالياً لنقل السوائل العدوانية والمواد الكيميائية أو الهواء المضغوط، حيث يظهر PP-R مقاومة كيميائية ممتازة ضد مجموعة متنوعة من المواد الخطرة.
+- الزراعة والصوبات الزجاجية (البيوت المحمية): توفير أنظمة ري متينة وآمنة تحت ضغط عالٍ قادرة على تحمل الظروف البيئية القاسية للزراعة.
 
 #### تكنولوجيا التركيب والتوصيل
 

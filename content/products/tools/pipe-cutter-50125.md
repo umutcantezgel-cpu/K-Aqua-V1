@@ -27,16 +27,16 @@ Im anspruchsvollen Arbeitsalltag auf der Baustelle muss ein Werkzeug extremen Be
 
 #### Anwendungsbereiche und technische Spezifikationen
 Dieser Rohrschneider eignet sich hervorragend für:
-- **Industrielle und gewerbliche Rohrinstallationen:** Perfekt für dicke PP-R-Rohre, die in großen Kühlsystemen, Heizungsanlagen und Druckluftnetzen verwendet werden.
-- **Sanitär- und Wasserversorgungstechnik:** Präzises Ablängen von Hauptversorgungsleitungen im Trink- und Brauchwasserbereich.
-- **Instandhaltung und Wartung:** Schnelle und zuverlässige Reparaturen von bestehenden Rohrnetzen durch exakte Schnitte.
+- Industrielle und gewerbliche Rohrinstallationen: Perfekt für dicke PP-R-Rohre, die in großen Kühlsystemen, Heizungsanlagen und Druckluftnetzen verwendet werden.
+- Sanitär- und Wasserversorgungstechnik: Präzises Ablängen von Hauptversorgungsleitungen im Trink- und Brauchwasserbereich.
+- Instandhaltung und Wartung: Schnelle und zuverlässige Reparaturen von bestehenden Rohrnetzen durch exakte Schnitte.
 
-**Technische Daten im Überblick:**
-- **Kompatibilität:** Polypropylen (PP-R) und vergleichbare Kunststoffrohre
-- **Schnittkapazität:** Ø 50 mm bis 125 mm
-- **Artikelnummer:** AQ975125
-- **Werkzeugkategorie:** Heavy-Duty Installationswerkzeuge
-- **Klingenmaterial:** Hochleistungs-Werkzeugstahl, spezialgehärtet
+Technische Daten im Überblick:
+- Kompatibilität: Polypropylen (PP-R) und vergleichbare Kunststoffrohre
+- Schnittkapazität: Ø 50 mm bis 125 mm
+- Artikelnummer: AQ975125
+- Werkzeugkategorie: Heavy-Duty Installationswerkzeuge
+- Klingenmaterial: Hochleistungs-Werkzeugstahl, spezialgehärtet
 
 #### Wirtschaftlichkeit und Arbeitssicherheit vereint
 Zeit ist ein entscheidender Kostenfaktor bei jedem Installationsprojekt. Durch den Einsatz dieses hochpräzisen Rohrabschneiders reduzieren sich die Nachbearbeitungszeiten der Rohrenden auf ein absolutes Minimum. Das gratfreie Schnittbild ermöglicht eine sofortige Weiterverarbeitung und Verschweißung der PP-R-Rohre, was die Gesamteffizienz des Projekts deutlich steigert. Zudem sorgt das sichere Klemmsystem des Abschneiders dafür, dass das Rohr während des Schneidvorgangs sicher fixiert ist, wodurch ein Abrutschen verhindert und das Verletzungsrisiko für den Anwender minimiert wird. Investieren Sie in Profi-Qualität und sichern Sie sich langlebige und normgerechte Rohrverbindungen für alle zukünftigen Installationen.
@@ -56,16 +56,16 @@ In the demanding daily routine of construction and plumbing work, a tool must wi
 
 #### Key Applications and Technical Specifications
 This professional-grade pipe cutter is ideally suited for:
-- **Industrial and Commercial Pipe Installations:** Perfect for cutting thick-walled PP-R pipes used in heavy-duty cooling systems, heating plants, and compressed air distribution networks.
-- **Sanitary and Water Supply Engineering:** Accurate cross-cutting of main supply lines for potable drinking water and process water applications.
-- **Maintenance and Repair Tasks:** Fast, reliable, and clean cuts for repairing and upgrading existing pipe infrastructure.
+- Industrial and Commercial Pipe Installations: Perfect for cutting thick-walled PP-R pipes used in heavy-duty cooling systems, heating plants, and compressed air distribution networks.
+- Sanitary and Water Supply Engineering: Accurate cross-cutting of main supply lines for potable drinking water and process water applications.
+- Maintenance and Repair Tasks: Fast, reliable, and clean cuts for repairing and upgrading existing pipe infrastructure.
 
-**Technical Data Overview:**
-- **Material Compatibility:** Polypropylene (PP-R) and similar heavy-duty plastic pipes
-- **Cutting Capacity (Range):** Ø 50 mm to 125 mm
-- **Article Code:** AQ975125
-- **Tool Category:** Professional Heavy-Duty Installation Tools
-- **Blade Material:** Specially hardened, high-performance alloy steel
+Technical Data Overview:
+- Material Compatibility: Polypropylene (PP-R) and similar heavy-duty plastic pipes
+- Cutting Capacity (Range): Ø 50 mm to 125 mm
+- Article Code: AQ975125
+- Tool Category: Professional Heavy-Duty Installation Tools
+- Blade Material: Specially hardened, high-performance alloy steel
 
 #### Combining Cost-Effectiveness with Workplace Safety
 Time is a critical cost factor in any major installation project. By utilizing this high-precision pipe cutter, the need for time-consuming post-cut deburring and edge preparation is reduced to an absolute minimum. The perfectly straight and burr-free cut allows for immediate processing, socket fusion, or butt welding of the PP-R pipes, drastically increasing overall project efficiency. Furthermore, the secure clamping mechanism of the cutter ensures that the pipe is firmly held in place during the cutting motion, preventing slipping and significantly minimizing the risk of injury to the operator. Invest in true professional quality and guarantee long-lasting, standard-compliant pipe connections for all your future plumbing installations.
@@ -85,16 +85,16 @@ To ensure the Heavy-Duty Pipe Cutter 50-125 maintains its peak cutting performan
 
 #### التطبيقات الرئيسية والمواصفات الفنية
 تعتبر قاطعة الأنابيب الاحترافية هذه مناسبة بشكل مثالي لـ:
-- **تركيبات الأنابيب الصناعية والتجارية:** مثالية لقطع أنابيب PP-R ذات الجدران السميكة المستخدمة في أنظمة التبريد شديدة التحمل ومحطات التدفئة وشبكات توزيع الهواء المضغوط.
-- **الهندسة الصحية وإمدادات المياه:** القطع العرضي الدقيق لخطوط الإمداد الرئيسية لمياه الشرب الصالحة للشرب وتطبيقات مياه المعالجة.
-- **مهام الصيانة والإصلاح:** عمليات قطع سريعة وموثوقة ونظيفة لإصلاح وتحديث البنية التحتية الحالية للأنابيب.
+- تركيبات الأنابيب الصناعية والتجارية: مثالية لقطع أنابيب PP-R ذات الجدران السميكة المستخدمة في أنظمة التبريد شديدة التحمل ومحطات التدفئة وشبكات توزيع الهواء المضغوط.
+- الهندسة الصحية وإمدادات المياه: القطع العرضي الدقيق لخطوط الإمداد الرئيسية لمياه الشرب الصالحة للشرب وتطبيقات مياه المعالجة.
+- مهام الصيانة والإصلاح: عمليات قطع سريعة وموثوقة ونظيفة لإصلاح وتحديث البنية التحتية الحالية للأنابيب.
 
-**نظرة عامة على البيانات الفنية:**
-- **توافق المواد:** البولي بروبيلين (PP-R) والأنابيب البلاستيكية المماثلة للخدمة الشاقة
-- **قدرة القطع (النطاق):** بقطر 50 مم إلى 125 مم
-- **رمز المنتج:** AQ975125
-- **فئة الأداة:** أدوات التركيب الاحترافية للخدمة الشاقة
-- **مادة الشفرة:** سبائك فولاذية عالية الأداء ومقواة خصيصًا
+نظرة عامة على البيانات الفنية:
+- توافق المواد: البولي بروبيلين (PP-R) والأنابيب البلاستيكية المماثلة للخدمة الشاقة
+- قدرة القطع (النطاق): بقطر 50 مم إلى 125 مم
+- رمز المنتج: AQ975125
+- فئة الأداة: أدوات التركيب الاحترافية للخدمة الشاقة
+- مادة الشفرة: سبائك فولاذية عالية الأداء ومقواة خصيصًا
 
 #### الجمع بين الفعالية من حيث التكلفة والسلامة في مكان العمل
 الوقت عامل تكلفة حاسم في أي مشروع تركيب كبير. من خلال استخدام قاطعة الأنابيب عالية الدقة هذه، يتم تقليل الحاجة إلى إزالة الحواف وإعداد الحواف بعد القطع الذي يستغرق وقتًا طويلاً إلى الحد الأدنى المطلق. يسمح القطع المستقيم والخالي من النتوءات تمامًا بالمعالجة الفورية، أو دمج المقبس، أو اللحام التناكبي لأنابيب PP-R، مما يزيد بشكل كبير من كفاءة المشروع الإجمالية. علاوة على ذلك، تضمن آلية التثبيت الآمنة للقاطعة تثبيت الأنبوب بإحكام في مكانه أثناء حركة القطع، مما يمنع الانزلاق ويقلل بشكل كبير من خطر إصابة المشغل. استثمر في الجودة الاحترافية الحقيقية واضمن توصيلات أنابيب طويلة الأمد ومتوافقة مع المعايير لجميع تركيبات السباكة المستقبلية.

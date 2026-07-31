@@ -58,11 +58,11 @@ Die passgenaue Fertigung der Dichtungen ist von enormer Bedeutung, da eine zu gr
 
 Die Vielseitigkeit und Zuverlässigkeit der K-Aqua EPDM Flachdichtungen machen sie zu einer bevorzugten Wahl in zahlreichen Anwendungsgebieten:
 
-- **Trinkwasserinstallationen:** Dank der hohen hygienischen Standards und der Beständigkeit gegenüber Chlor und anderen Wasserbehandlungsmitteln eignen sich die EPDM Dichtungen hervorragend für Kalt- und Warmwasser-Trinkwassernetze in Wohn- und Gewerbegebäuden.
-- **Heizungs- und Kühlsysteme:** Die exzellente Temperaturbeständigkeit gewährleistet einen sicheren Betrieb in Heizkreisläufen, Fernwärmeübergabestationen sowie in Klimatisierungs- und Kühlanlagen.
-- **Industrielle Prozessleitungen:** In der chemischen Industrie, der Lebensmittel- und Getränkeproduktion sowie in der Pharmaindustrie, wo aggressive oder sensible Medien transportiert werden, bietet EPDM eine sichere Barriere gegen Leckagen.
-- **Wasseraufbereitung und Schwimmbadtechnik:** Die Resistenz gegen Ozon und verschiedene Chemikalien macht die Dichtungen ideal für Anlagen zur Wasseraufbereitung, Filtration und für die komplexe Verrohrung in öffentlichen und privaten Schwimmbädern.
-- **Landwirtschaft und Bewässerung:** In großflächigen Bewässerungssystemen widerstehen die EPDM Dichtungen den Witterungseinflüssen, UV-Strahlung und Düngemitteln im Wasser, was eine langfristig wartungsfreie Nutzung ermöglicht.
+- Trinkwasserinstallationen: Dank der hohen hygienischen Standards und der Beständigkeit gegenüber Chlor und anderen Wasserbehandlungsmitteln eignen sich die EPDM Dichtungen hervorragend für Kalt- und Warmwasser-Trinkwassernetze in Wohn- und Gewerbegebäuden.
+- Heizungs- und Kühlsysteme: Die exzellente Temperaturbeständigkeit gewährleistet einen sicheren Betrieb in Heizkreisläufen, Fernwärmeübergabestationen sowie in Klimatisierungs- und Kühlanlagen.
+- Industrielle Prozessleitungen: In der chemischen Industrie, der Lebensmittel- und Getränkeproduktion sowie in der Pharmaindustrie, wo aggressive oder sensible Medien transportiert werden, bietet EPDM eine sichere Barriere gegen Leckagen.
+- Wasseraufbereitung und Schwimmbadtechnik: Die Resistenz gegen Ozon und verschiedene Chemikalien macht die Dichtungen ideal für Anlagen zur Wasseraufbereitung, Filtration und für die komplexe Verrohrung in öffentlichen und privaten Schwimmbädern.
+- Landwirtschaft und Bewässerung: In großflächigen Bewässerungssystemen widerstehen die EPDM Dichtungen den Witterungseinflüssen, UV-Strahlung und Düngemitteln im Wasser, was eine langfristig wartungsfreie Nutzung ermöglicht.
 
 #### Installation und Wartung
 
@@ -103,11 +103,11 @@ The precision manufacturing of these gaskets is of utmost importance, as an inco
 
 The versatility, durability, and reliability of the K-Aqua EPDM flat gaskets make them a preferred choice across numerous application domains:
 
-- **Potable Water Installations:** Owing to their compliance with high hygienic standards and exceptional resistance to chlorine and other standard water treatment chemicals, EPDM gaskets are outstanding for cold and hot potable water networks in residential, commercial, and institutional buildings.
-- **Heating and Cooling Systems:** The excellent temperature resistance guarantees safe and efficient operation in central heating circuits, district heating transfer stations, as well as in demanding air conditioning and industrial cooling systems.
-- **Industrial Process Piping:** In the chemical processing industry, food and beverage manufacturing, and pharmaceutical sectors, where the safe transport of aggressive or sensitive media is required, EPDM provides a highly secure barrier against leakage.
-- **Water Treatment and Pool Technology:** The innate resistance to ozone, UV light, and various harsh chemicals makes these gaskets ideal for water purification plants, filtration systems, and the complex piping infrastructures required in public and private swimming pools.
-- **Agriculture and Irrigation:** In large-scale agricultural irrigation systems, EPDM gaskets withstand harsh weather conditions, intense UV exposure, and the presence of fertilizers in the water, enabling long-term, maintenance-free operation.
+- Potable Water Installations: Owing to their compliance with high hygienic standards and exceptional resistance to chlorine and other standard water treatment chemicals, EPDM gaskets are outstanding for cold and hot potable water networks in residential, commercial, and institutional buildings.
+- Heating and Cooling Systems: The excellent temperature resistance guarantees safe and efficient operation in central heating circuits, district heating transfer stations, as well as in demanding air conditioning and industrial cooling systems.
+- Industrial Process Piping: In the chemical processing industry, food and beverage manufacturing, and pharmaceutical sectors, where the safe transport of aggressive or sensitive media is required, EPDM provides a highly secure barrier against leakage.
+- Water Treatment and Pool Technology: The innate resistance to ozone, UV light, and various harsh chemicals makes these gaskets ideal for water purification plants, filtration systems, and the complex piping infrastructures required in public and private swimming pools.
+- Agriculture and Irrigation: In large-scale agricultural irrigation systems, EPDM gaskets withstand harsh weather conditions, intense UV exposure, and the presence of fertilizers in the water, enabling long-term, maintenance-free operation.
 
 #### Installation and Maintenance Guidelines
 
@@ -148,11 +148,11 @@ The production of K-Aqua EPDM flat gaskets is subject to continuous and rigorous
 
 إن تعدد الاستخدامات والمتانة والموثوقية لحشيات K-Aqua المسطحة من EPDM تجعلها الخيار المفضل عبر العديد من مجالات التطبيق:
 
-- **تركيبات مياه الشرب:** بفضل توافقها مع المعايير الصحية العالية ومقاومتها الاستثنائية للكلور والمواد الكيميائية القياسية الأخرى لمعالجة المياه، تعد حشيات EPDM ممتازة لشبكات مياه الشرب الباردة والساخنة في المباني السكنية والتجارية والمؤسسية.
-- **أنظمة التدفئة والتبريد:** تضمن المقاومة الممتازة لدرجات الحرارة التشغيل الآمن والفعال في دوائر التدفئة المركزية، ومحطات نقل التدفئة في المناطق، بالإضافة إلى أنظمة تكييف الهواء والتبريد الصناعي الصعبة.
-- **أنابيب العمليات الصناعية:** في صناعة المعالجة الكيميائية، وتصنيع الأغذية والمشروبات، وقطاعات الأدوية، حيث يُطلب النقل الآمن للوسائط العدوانية أو الحساسة، يوفر EPDM حاجزًا آمنًا للغاية ضد التسرب.
-- **معالجة المياه وتكنولوجيا حمامات السباحة:** المقاومة الفطرية للأوزون والأشعة فوق البنفسجية والمواد الكيميائية القاسية المختلفة تجعل هذه الحشيات مثالية لمحطات تنقية المياه وأنظمة الترشيح والبنية التحتية المعقدة للأنابيب المطلوبة في حمامات السباحة العامة والخاصة.
-- **الزراعة والري:** في أنظمة الري الزراعي واسعة النطاق، تتحمل حشيات EPDM الظروف الجوية القاسية، والتعرض الشديد للأشعة فوق البنفسجية، ووجود الأسمدة في الماء، مما يتيح تشغيلًا طويل الأمد وخاليًا من الصيانة.
+- تركيبات مياه الشرب: بفضل توافقها مع المعايير الصحية العالية ومقاومتها الاستثنائية للكلور والمواد الكيميائية القياسية الأخرى لمعالجة المياه، تعد حشيات EPDM ممتازة لشبكات مياه الشرب الباردة والساخنة في المباني السكنية والتجارية والمؤسسية.
+- أنظمة التدفئة والتبريد: تضمن المقاومة الممتازة لدرجات الحرارة التشغيل الآمن والفعال في دوائر التدفئة المركزية، ومحطات نقل التدفئة في المناطق، بالإضافة إلى أنظمة تكييف الهواء والتبريد الصناعي الصعبة.
+- أنابيب العمليات الصناعية: في صناعة المعالجة الكيميائية، وتصنيع الأغذية والمشروبات، وقطاعات الأدوية، حيث يُطلب النقل الآمن للوسائط العدوانية أو الحساسة، يوفر EPDM حاجزًا آمنًا للغاية ضد التسرب.
+- معالجة المياه وتكنولوجيا حمامات السباحة: المقاومة الفطرية للأوزون والأشعة فوق البنفسجية والمواد الكيميائية القاسية المختلفة تجعل هذه الحشيات مثالية لمحطات تنقية المياه وأنظمة الترشيح والبنية التحتية المعقدة للأنابيب المطلوبة في حمامات السباحة العامة والخاصة.
+- الزراعة والري: في أنظمة الري الزراعي واسعة النطاق، تتحمل حشيات EPDM الظروف الجوية القاسية، والتعرض الشديد للأشعة فوق البنفسجية، ووجود الأسمدة في الماء، مما يتيح تشغيلًا طويل الأمد وخاليًا من الصيانة.
 
 #### إرشادات التركيب والصيانة
 

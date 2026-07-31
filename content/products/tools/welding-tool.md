@@ -34,25 +34,25 @@ Das K-Aqua Schweißwerkzeug (Welding Tool) ist die ultimative Lösung für präz
 Das Werkzeugset besteht aus einem hochwertigen Heizdorn und einer Heizmuffe, die speziell für das Muffenschweißen (Socket Fusion) von PP-R (Polypropylen Random Copolymer) Rohren und Fittings entwickelt wurden. Diese Komponenten sind für Temperaturen ausgelegt, die ein sicheres, leckagefreies Verschmelzen von Rohr und Fitting ermöglichen.
 
 #### Technische Spezifikationen und Merkmale
-- **Materialqualität**: Gefertigt aus erstklassigen, wärmeleitenden Legierungen, die eine schnelle und gleichmäßige Hitzeverteilung gewährleisten.
-- **Antihaftbeschichtung**: Eine langlebige PTFE-Beschichtung verhindert das Anhaften von geschmolzenem Kunststoff, was die Reinigung erleichtert und die Lebensdauer des Werkzeugs verlängert.
-- **Präzisionsfertigung**: Exakt kalibriert, um den perfekten Schweißdruck und eine formschlüssige Verbindung zu sichern, die den höchsten industriellen Standards entspricht.
-- **Verfügbare Durchmesser**: Eine breite Palette an Größen deckt jeden Bedarf ab: 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, 75 mm und 90 mm.
-- **Kompatibilität**: Optimal abgestimmt auf marktübliche Hand-Schweißgeräte (Polyfusions-Schweißgeräte).
+- Materialqualität: Gefertigt aus erstklassigen, wärmeleitenden Legierungen, die eine schnelle und gleichmäßige Hitzeverteilung gewährleisten.
+- Antihaftbeschichtung: Eine langlebige PTFE-Beschichtung verhindert das Anhaften von geschmolzenem Kunststoff, was die Reinigung erleichtert und die Lebensdauer des Werkzeugs verlängert.
+- Präzisionsfertigung: Exakt kalibriert, um den perfekten Schweißdruck und eine formschlüssige Verbindung zu sichern, die den höchsten industriellen Standards entspricht.
+- Verfügbare Durchmesser: Eine breite Palette an Größen deckt jeden Bedarf ab: 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, 75 mm und 90 mm.
+- Kompatibilität: Optimal abgestimmt auf marktübliche Hand-Schweißgeräte (Polyfusions-Schweißgeräte).
 
 #### Anwendungsbereiche
 Das Socket Fusion Die Set ist unentbehrlich in verschiedenen Einsatzgebieten:
-1. **Trinkwasserinstallationen**: Für hygienisch einwandfreie, nahtlose Verbindungen in Kalt- und Warmwassersystemen.
-2. **Heizungsanlagen**: Dauerhafte Dichtigkeit bei hohen Temperaturen in Heiznetzen.
-3. **Industrielle Rohrleitungssysteme**: Transport von chemischen Medien, Druckluft und anderen industriellen Flüssigkeiten.
-4. **Klimatechnik**: Verlässliche Verbindungen in Kühlsystemen.
+1. Trinkwasserinstallationen: Für hygienisch einwandfreie, nahtlose Verbindungen in Kalt- und Warmwassersystemen.
+2. Heizungsanlagen: Dauerhafte Dichtigkeit bei hohen Temperaturen in Heiznetzen.
+3. Industrielle Rohrleitungssysteme: Transport von chemischen Medien, Druckluft und anderen industriellen Flüssigkeiten.
+4. Klimatechnik: Verlässliche Verbindungen in Kühlsystemen.
 
 #### Vorteile des K-Aqua Schweißwerkzeugs
 Die Wahl des richtigen Werkzeugs entscheidet über die Sicherheit des gesamten Rohrsystems. Das K-Aqua Schweißwerkzeug bietet Installateuren und Ingenieuren entscheidende Vorteile:
-- **Effizienz auf der Baustelle**: Schnelles Aufheizen und geringer Temperaturverlust beschleunigen den Arbeitsprozess enorm.
-- **Langlebige Verbindungen**: Durch die exakte Passgenauigkeit von Dorn und Muffe entsteht eine homogene Schweißnaht, die stärker ist als das Rohr selbst.
-- **Wirtschaftlichkeit**: Die Robustheit der PTFE-Beschichtung reduziert den Verschleiß drastisch, sodass weniger Ersatzwerkzeuge benötigt werden.
-- **Fehlerprävention**: Dank genauer Toleranzen wird das Risiko von Verengungen im Rohrquerschnitt durch überschüssiges Material minimiert.
+- Effizienz auf der Baustelle: Schnelles Aufheizen und geringer Temperaturverlust beschleunigen den Arbeitsprozess enorm.
+- Langlebige Verbindungen: Durch die exakte Passgenauigkeit von Dorn und Muffe entsteht eine homogene Schweißnaht, die stärker ist als das Rohr selbst.
+- Wirtschaftlichkeit: Die Robustheit der PTFE-Beschichtung reduziert den Verschleiß drastisch, sodass weniger Ersatzwerkzeuge benötigt werden.
+- Fehlerprävention: Dank genauer Toleranzen wird das Risiko von Verengungen im Rohrquerschnitt durch überschüssiges Material minimiert.
 
 #### Wartung und Pflege
 Um die optimale Leistungsfähigkeit der Heizdorne und Heizmuffen zu erhalten, empfehlen wir eine regelmäßige Pflege:
@@ -74,25 +74,25 @@ The K-Aqua Welding Tool is the ultimate solution for creating precise, durable, 
 The tool set consists of a high-quality heating mandrel (male die) and a socket die (female die) specifically designed for the socket fusion welding of PP-R (Polypropylene Random Copolymer) pipes and fittings. These components are engineered to withstand and distribute the high temperatures required to securely melt and fuse the pipe and fitting into a single, homogeneous piece.
 
 #### Technical Specifications and Key Features
-- **Premium Material Quality**: Manufactured from top-tier, heat-conductive alloys that ensure rapid and completely uniform heat distribution across the welding surface.
-- **Non-Stick Coating**: Features a highly durable PTFE (Teflon) coating that prevents molten plastic from sticking. This ensures clean welds, easy maintenance, and significantly extends the tool's lifespan.
-- **Precision Engineering**: Exactly calibrated to ensure the perfect welding pressure and dimensional fit, meeting and exceeding the highest international plumbing standards.
-- **Comprehensive Size Range**: Available in a wide spectrum of diameters to cover every project requirement: 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, 75 mm, and 90 mm.
-- **Universal Compatibility**: Perfectly adapted for use with standard manual polyfusion welding machines used in the industry.
+- Premium Material Quality: Manufactured from top-tier, heat-conductive alloys that ensure rapid and completely uniform heat distribution across the welding surface.
+- Non-Stick Coating: Features a highly durable PTFE (Teflon) coating that prevents molten plastic from sticking. This ensures clean welds, easy maintenance, and significantly extends the tool's lifespan.
+- Precision Engineering: Exactly calibrated to ensure the perfect welding pressure and dimensional fit, meeting and exceeding the highest international plumbing standards.
+- Comprehensive Size Range: Available in a wide spectrum of diameters to cover every project requirement: 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, 75 mm, and 90 mm.
+- Universal Compatibility: Perfectly adapted for use with standard manual polyfusion welding machines used in the industry.
 
 #### Areas of Application
 The Socket Fusion Die Set is absolutely indispensable across a variety of demanding applications:
-1. **Potable Water Installations**: Ensures hygienically safe, seamless joints in both cold and hot water domestic systems.
-2. **Heating Systems**: Provides permanent leak-tightness even under high temperature and pressure conditions in central heating networks.
-3. **Industrial Piping**: Ideal for systems transporting chemical media, compressed air, and other industrial fluids safely.
-4. **Air Conditioning & HVAC**: Reliable connections for cooling and chilled water distribution systems.
+1. Potable Water Installations: Ensures hygienically safe, seamless joints in both cold and hot water domestic systems.
+2. Heating Systems: Provides permanent leak-tightness even under high temperature and pressure conditions in central heating networks.
+3. Industrial Piping: Ideal for systems transporting chemical media, compressed air, and other industrial fluids safely.
+4. Air Conditioning & HVAC: Reliable connections for cooling and chilled water distribution systems.
 
 #### Advantages of Using the K-Aqua Welding Tool
 Choosing the right fusion tool is critical for the safety and longevity of the entire piping network. The K-Aqua Welding Tool offers installers, plumbers, and engineers decisive advantages:
-- **Maximum On-Site Efficiency**: Rapid heat-up times and excellent heat retention drastically accelerate the welding process, saving valuable labor hours.
-- **Indestructible Joints**: The exact fit between the mandrel, socket, and pipe creates a homogeneous weld seam that is functionally stronger than the pipe itself.
-- **Cost-Effectiveness**: The robustness of the non-stick coating minimizes wear and tear, reducing the frequency and cost of replacing tools.
-- **Error Prevention**: Highly precise manufacturing tolerances minimize the risk of internal bore restriction caused by excessive melted material, ensuring optimal flow rates.
+- Maximum On-Site Efficiency: Rapid heat-up times and excellent heat retention drastically accelerate the welding process, saving valuable labor hours.
+- Indestructible Joints: The exact fit between the mandrel, socket, and pipe creates a homogeneous weld seam that is functionally stronger than the pipe itself.
+- Cost-Effectiveness: The robustness of the non-stick coating minimizes wear and tear, reducing the frequency and cost of replacing tools.
+- Error Prevention: Highly precise manufacturing tolerances minimize the risk of internal bore restriction caused by excessive melted material, ensuring optimal flow rates.
 
 #### Maintenance and Care Guidelines
 To maintain peak performance and ensure the longevity of your heating dies, regular and proper care is strongly recommended:
@@ -114,25 +114,25 @@ K-Aqua welding tools are subject to stringent quality control measures to ensure
 تتكون مجموعة الأدوات من عمود تسخين عالي الجودة (قالب ذكر) وقالب مقبس (قالب أنثى) مصمم خصيصًا للحام الاندماجي (المقبسي) لأنابيب ووصلات PP-R (البولي بروبيلين العشوائي). تمت هندسة هذه المكونات لتحمل وتوزيع درجات الحرارة العالية المطلوبة لإذابة الأنبوب والوصلة بشكل آمن ودمجهما في قطعة واحدة متجانسة وقوية.
 
 #### المواصفات الفنية والميزات الرئيسية
-- **جودة المواد الممتازة**: مصنعة من سبائك عالية الجودة موصلة للحرارة تضمن توزيعًا سريعًا وموحدًا للحرارة عبر سطح اللحام بأكمله.
-- **طلاء مانع للالتصاق**: تتميز بطلاء PTFE (تفلون) متين للغاية يمنع التصاق البلاستيك المنصهر. هذا يضمن لحامًا نظيفًا، وسهولة في الصيانة، ويطيل بشكل كبير من العمر الافتراضي للأداة.
-- **هندسة دقيقة**: تمت معايرتها بدقة متناهية لضمان ضغط اللحام المثالي والملاءمة البُعدية، مما يلبي بل ويتجاوز أعلى معايير السباكة الدولية.
-- **نطاق أحجام شامل**: متوفرة في مجموعة واسعة من الأقطار لتغطية كل متطلبات المشروع: 20 مم، 25 مم، 32 مم، 40 مم، 50 مم، 63 مم، 75 مم، و 90 مم.
-- **توافق عالمي**: تتكيف بشكل مثالي للاستخدام مع آلات اللحام اليدوية القياسية (Polyfusion) المستخدمة في الصناعة.
+- جودة المواد الممتازة: مصنعة من سبائك عالية الجودة موصلة للحرارة تضمن توزيعًا سريعًا وموحدًا للحرارة عبر سطح اللحام بأكمله.
+- طلاء مانع للالتصاق: تتميز بطلاء PTFE (تفلون) متين للغاية يمنع التصاق البلاستيك المنصهر. هذا يضمن لحامًا نظيفًا، وسهولة في الصيانة، ويطيل بشكل كبير من العمر الافتراضي للأداة.
+- هندسة دقيقة: تمت معايرتها بدقة متناهية لضمان ضغط اللحام المثالي والملاءمة البُعدية، مما يلبي بل ويتجاوز أعلى معايير السباكة الدولية.
+- نطاق أحجام شامل: متوفرة في مجموعة واسعة من الأقطار لتغطية كل متطلبات المشروع: 20 مم، 25 مم، 32 مم، 40 مم، 50 مم، 63 مم، 75 مم، و 90 مم.
+- توافق عالمي: تتكيف بشكل مثالي للاستخدام مع آلات اللحام اليدوية القياسية (Polyfusion) المستخدمة في الصناعة.
 
 #### مجالات التطبيق
 تعتبر مجموعة قوالب اللحام الاندماجي لا غنى عنها على الإطلاق في مجموعة متنوعة من التطبيقات الصعبة:
-1. **تركيبات مياه الشرب**: تضمن وصلات سلسة وآمنة صحيًا في كل من أنظمة المياه المنزلية الباردة والساخنة.
-2. **أنظمة التدفئة**: توفر إحكامًا دائمًا ضد التسرب حتى في ظل ظروف درجات الحرارة والضغط العالية في شبكات التدفئة المركزية.
-3. **الأنابيب الصناعية**: مثالية للأنظمة التي تنقل المواد الكيميائية والهواء المضغوط والسوائل الصناعية الأخرى بأمان.
-4. **تكييف الهواء والتدفئة والتهوية (HVAC)**: وصلات موثوقة لأنظمة التبريد وتوزيع المياه المبردة.
+1. تركيبات مياه الشرب: تضمن وصلات سلسة وآمنة صحيًا في كل من أنظمة المياه المنزلية الباردة والساخنة.
+2. أنظمة التدفئة: توفر إحكامًا دائمًا ضد التسرب حتى في ظل ظروف درجات الحرارة والضغط العالية في شبكات التدفئة المركزية.
+3. الأنابيب الصناعية: مثالية للأنظمة التي تنقل المواد الكيميائية والهواء المضغوط والسوائل الصناعية الأخرى بأمان.
+4. تكييف الهواء والتدفئة والتهوية (HVAC): وصلات موثوقة لأنظمة التبريد وتوزيع المياه المبردة.
 
 #### مزايا استخدام أداة اللحام K-Aqua
 يعد اختيار أداة اللحام المناسبة أمرًا بالغ الأهمية لسلامة وطول عمر شبكة الأنابيب بأكملها. توفر أداة اللحام K-Aqua للمركبين والسباكين والمهندسين مزايا حاسمة:
-- **أقصى درجات الكفاءة في الموقع**: تعمل أوقات التسخين السريعة والاحتفاظ الممتاز بالحرارة على تسريع عملية اللحام بشكل كبير، مما يوفر ساعات عمل قيمة.
-- **وصلات غير قابلة للتدمير**: يؤدي التوافق الدقيق بين عمود التسخين والمقبس والأنبوب إلى إنشاء خط لحام متجانس يكون أقوى من الناحية الوظيفية من الأنبوب نفسه.
-- **الفعالية من حيث التكلفة**: تقلل متانة الطلاء المانع للالتصاق من التآكل والتلف، مما يقلل من وتيرة وتكلفة استبدال الأدوات.
-- **منع الأخطاء**: تقلل تفاوتات التصنيع الدقيقة للغاية من خطر تضييق التجويف الداخلي الناتج عن المواد المنصهرة الزائدة، مما يضمن معدلات تدفق مثالية.
+- أقصى درجات الكفاءة في الموقع: تعمل أوقات التسخين السريعة والاحتفاظ الممتاز بالحرارة على تسريع عملية اللحام بشكل كبير، مما يوفر ساعات عمل قيمة.
+- وصلات غير قابلة للتدمير: يؤدي التوافق الدقيق بين عمود التسخين والمقبس والأنبوب إلى إنشاء خط لحام متجانس يكون أقوى من الناحية الوظيفية من الأنبوب نفسه.
+- الفعالية من حيث التكلفة: تقلل متانة الطلاء المانع للالتصاق من التآكل والتلف، مما يقلل من وتيرة وتكلفة استبدال الأدوات.
+- منع الأخطاء: تقلل تفاوتات التصنيع الدقيقة للغاية من خطر تضييق التجويف الداخلي الناتج عن المواد المنصهرة الزائدة، مما يضمن معدلات تدفق مثالية.
 
 #### إرشادات الصيانة والعناية
 للحفاظ على ذروة الأداء وضمان طول عمر قوالب التسخين الخاصة بك، يوصى بشدة بالعناية المنتظمة والسليمة:

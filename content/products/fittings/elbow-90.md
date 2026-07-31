@@ -38,17 +38,17 @@ Der PP-R Standard Winkel 90° ist in einer Vielzahl von Dimensionen erhältlich,
 Ein entscheidender Faktor für die Zuverlässigkeit des PP-R Systems ist das Muffenschweißverfahren. Bei dieser Technik werden sowohl das Rohr als auch das Innere der Muffe des Winkels 90° mit einem speziellen Schweißgerät erwärmt, bis das Material schmilzt. Anschließend werden die beiden Teile ineinandergefügt. Nach dem Abkühlen entsteht eine homogene, unlösbare Verbindung, die auf molekularer Ebene verschmolzen ist. Diese Fügetechnik eliminiert Schwachstellen und garantiert eine absolute Dichtheit über Jahrzehnte hinweg. Es werden keine zusätzlichen Dichtungsmaterialien oder Klebstoffe benötigt, was die Installation vereinfacht und Fehlerquellen minimiert.
 
 #### Besondere Merkmale bei der Montage
-*   **Schnelligkeit:** Die Schweißverbindung kann innerhalb von Sekunden hergestellt werden.
-*   **Sicherheit:** Es gibt keine losen Teile wie Dichtringe, die verrutschen oder beschädigt werden könnten.
-*   **Belastbarkeit:** Die Schweißnaht ist genauso stark wie das Rohr selbst, was höchste Druckfestigkeit garantiert.
+*   Schnelligkeit: Die Schweißverbindung kann innerhalb von Sekunden hergestellt werden.
+*   Sicherheit: Es gibt keine losen Teile wie Dichtringe, die verrutschen oder beschädigt werden könnten.
+*   Belastbarkeit: Die Schweißnaht ist genauso stark wie das Rohr selbst, was höchste Druckfestigkeit garantiert.
 
 ### Anwendungsbereiche in der Haustechnik und Industrie
 Die Einsatzmöglichkeiten des PP-R Winkels 90° sind äußerst vielfältig. Zu den primären Anwendungsbereichen gehören:
-*   **Trinkwasserinstallationen:** Dank der hygienischen Unbedenklichkeit und der Lebensmittelzulassung von PP-R ist der Winkel ideal für die Verteilung von kaltem und warmem Trinkwasser. Er bewahrt die Wasserqualität und verhindert mikrobiologisches Wachstum.
-*   **Heizungssysteme:** Die hohe Temperaturbeständigkeit prädestiniert den Fitting für den Einsatz in Radiatoranbindungen, Fußbodenheizungen und zentralen Heizungsverteilungen.
-*   **Klimaanlagen und Kühlwassernetze:** PP-R Rohre und Fittings eignen sich auch hervorragend für Kaltwassersysteme, da das Material nicht korrodiert und weniger anfällig für Kondenswasserbildung ist als Metall.
-*   **Industrielle Anwendungen:** In der Industrie wird das System häufig für den Transport von Druckluft und bestimmten chemischen Flüssigkeiten eingesetzt.
-*   **Schwimmbadtechnik:** Die Chlorbeständigkeit macht PP-R zu einer bevorzugten Wahl für die Wasserumwälzung in Schwimmbädern.
+*   Trinkwasserinstallationen: Dank der hygienischen Unbedenklichkeit und der Lebensmittelzulassung von PP-R ist der Winkel ideal für die Verteilung von kaltem und warmem Trinkwasser. Er bewahrt die Wasserqualität und verhindert mikrobiologisches Wachstum.
+*   Heizungssysteme: Die hohe Temperaturbeständigkeit prädestiniert den Fitting für den Einsatz in Radiatoranbindungen, Fußbodenheizungen und zentralen Heizungsverteilungen.
+*   Klimaanlagen und Kühlwassernetze: PP-R Rohre und Fittings eignen sich auch hervorragend für Kaltwassersysteme, da das Material nicht korrodiert und weniger anfällig für Kondenswasserbildung ist als Metall.
+*   Industrielle Anwendungen: In der Industrie wird das System häufig für den Transport von Druckluft und bestimmten chemischen Flüssigkeiten eingesetzt.
+*   Schwimmbadtechnik: Die Chlorbeständigkeit macht PP-R zu einer bevorzugten Wahl für die Wasserumwälzung in Schwimmbädern.
 
 ### Nachhaltigkeit und Wirtschaftlichkeit
 Die Entscheidung für ein PP-R Rohrleitungssystem mit Standard Winkeln 90° ist auch unter wirtschaftlichen und ökologischen Gesichtspunkten sinnvoll. Das Material ist recycelbar und hat im Vergleich zu metallischen Systemen einen geringeren ökologischen Fußabdruck in der Herstellung. Die lange Lebensdauer von 50 Jahren oder mehr reduziert die Austausch- und Wartungskosten erheblich. Die schnelle und einfache Installation durch das Polyfusionsverfahren spart zudem wertvolle Arbeitszeit auf der Baustelle. Die thermische Isolierung des Materials verringert Wärmeverluste, was langfristig Energiekosten senkt.
@@ -70,17 +70,17 @@ The PP-R Standard Elbow 90° is available in a comprehensive range of dimensions
 A critical factor in the absolute reliability of the PP-R system is the socket fusion welding method. In this technique, both the exterior of the pipe and the interior of the 90° elbow socket are simultaneously heated using a specialized welding tool until the material reaches a molten state. Subsequently, the two components are quickly pushed together. Once cooled, a seamless, unbreakable joint is formed, fused at the molecular level. This joining technique completely eliminates physical weak points and guarantees absolute water tightness for decades. No additional sealing materials, O-rings, or chemical adhesives are required, which dramatically simplifies the installation process and minimizes potential points of failure.
 
 #### Key Installation Advantages
-*   **Speed:** The fusion connection can be completed within seconds, accelerating overall project timelines.
-*   **Safety:** The absence of loose parts like rubber gaskets eliminates the risk of displacement or degradation over time.
-*   **Durability:** The welded joint achieves the same strength as the pipe body itself, providing exceptional pressure tolerance.
+*   Speed: The fusion connection can be completed within seconds, accelerating overall project timelines.
+*   Safety: The absence of loose parts like rubber gaskets eliminates the risk of displacement or degradation over time.
+*   Durability: The welded joint achieves the same strength as the pipe body itself, providing exceptional pressure tolerance.
 
 ### Application Areas in Building Services and Industry
 The application possibilities for the PP-R Elbow 90° are remarkably diverse. The primary areas of use include:
-*   **Potable Water Installations:** Due to its strict hygienic properties and food-grade safety certifications, the PP-R elbow is ideal for distributing both cold and hot domestic water. It preserves water quality without imparting any taste or odor.
-*   **Heating Systems:** The high thermal stability makes this fitting perfect for radiator connections, radiant floor heating loops, and centralized heating distribution manifolds.
-*   **Air Conditioning and Chilled Water Networks:** PP-R pipes and fittings are also highly suitable for chilled water systems, as the plastic material does not corrode and is much less prone to condensation buildup compared to traditional metal piping.
-*   **Industrial Applications:** In the industrial sector, the PP-R system is frequently employed for the safe transport of compressed air and specific chemical fluids, owing to its robust chemical resistance.
-*   **Swimming Pool Technology:** The material's resistance to chlorine and other water treatment chemicals makes PP-R a preferred choice for swimming pool circulation systems.
+*   Potable Water Installations: Due to its strict hygienic properties and food-grade safety certifications, the PP-R elbow is ideal for distributing both cold and hot domestic water. It preserves water quality without imparting any taste or odor.
+*   Heating Systems: The high thermal stability makes this fitting perfect for radiator connections, radiant floor heating loops, and centralized heating distribution manifolds.
+*   Air Conditioning and Chilled Water Networks: PP-R pipes and fittings are also highly suitable for chilled water systems, as the plastic material does not corrode and is much less prone to condensation buildup compared to traditional metal piping.
+*   Industrial Applications: In the industrial sector, the PP-R system is frequently employed for the safe transport of compressed air and specific chemical fluids, owing to its robust chemical resistance.
+*   Swimming Pool Technology: The material's resistance to chlorine and other water treatment chemicals makes PP-R a preferred choice for swimming pool circulation systems.
 
 ### Sustainability and Economic Efficiency
 Choosing a PP-R piping system utilizing Standard 90° Elbows is a highly sensible decision from both economic and ecological perspectives. The material is fully recyclable and possesses a significantly lower environmental footprint during production compared to metallic alternatives like copper or steel. The exceptionally long service life—typically 50 years or more under standard operating conditions—drastically reduces long-term replacement and maintenance costs. The fast and straightforward installation facilitated by the polyfusion process also saves valuable labor time on the construction site. Moreover, the inherent thermal insulation properties of the PP-R material reduce heat loss in hot water systems, leading to lower energy consumption over time.
@@ -102,17 +102,17 @@ In summary, the PP-R Standard Elbow 90° is an indispensable component for any s
 العامل الحاسم في الموثوقية المطلقة لنظام PP-R هو طريقة لحام الانصهار. في هذه التقنية، يتم تسخين كل من الجزء الخارجي للأنبوب والجزء الداخلي لمقبس الكوع بزاوية 90 درجة في وقت واحد باستخدام أداة لحام متخصصة حتى تصل المادة إلى حالة الانصهار. بعد ذلك، يتم دفع المكونين معًا بسرعة. بمجرد أن يبرد، يتم تشكيل مفصل سلس وغير قابل للكسر، مدمج على المستوى الجزيئي بقوة لا تضاهى. تقضي تقنية الربط هذه تمامًا على نقاط الضعف المادية وتضمن إحكامًا مطلقًا للمياه لعقود طويلة. لا حاجة إلى مواد مانعة للتسرب إضافية أو حلقات دائرية أو مواد لاصقة كيميائية، مما يبسط عملية التثبيت بشكل كبير ويقلل من نقاط الفشل المحتملة.
 
 #### مزايا التركيب الرئيسية
-*   **السرعة:** يمكن إكمال اتصال اللحام في غضون ثوان، مما يسرع الجداول الزمنية للمشروع بشكل عام.
-*   **السلامة:** عدم وجود أجزاء فضفاضة مثل الحشيات المطاطية يقضي على خطر الإزاحة أو التدهور بمرور الوقت.
-*   **المتانة:** يحقق المفصل الملحوم نفس قوة جسم الأنبوب نفسه، مما يوفر تحملاً استثنائيًا للضغط العالي والتقلبات الحرارية المستمرة.
+*   السرعة: يمكن إكمال اتصال اللحام في غضون ثوان، مما يسرع الجداول الزمنية للمشروع بشكل عام.
+*   السلامة: عدم وجود أجزاء فضفاضة مثل الحشيات المطاطية يقضي على خطر الإزاحة أو التدهور بمرور الوقت.
+*   المتانة: يحقق المفصل الملحوم نفس قوة جسم الأنبوب نفسه، مما يوفر تحملاً استثنائيًا للضغط العالي والتقلبات الحرارية المستمرة.
 
 ### مجالات التطبيق في خدمات البناء والصناعة
 إمكانيات التطبيق للكوع PP-R بزاوية 90 درجة متنوعة بشكل ملحوظ وواسعة النطاق. تشمل مجالات الاستخدام الأساسية ما يلي:
-*   **تركيبات مياه الشرب:** نظرًا لخصائصها الصحية الصارمة وشهادات السلامة الغذائية، فإن كوع PP-R مثالي لتوزيع المياه المنزلية الباردة والساخنة. يحافظ على جودة المياه دون إضفاء أي طعم أو رائحة غير مرغوبة.
-*   **أنظمة التدفئة:** الثبات الحراري العالي يجعل هذا التركيب مثاليًا لتوصيلات الرادياتير، وحلقات التدفئة الأرضية المشعة، ومشعبات توزيع التدفئة المركزية في المباني السكنية والتجارية.
-*   **تكييف الهواء وشبكات المياه المبردة:** أنابيب ووصلات PP-R مناسبة جدًا أيضًا لأنظمة المياه المبردة، حيث أن المادة البلاستيكية لا تتآكل وتكون أقل عرضة لتراكم التكثيف مقارنة بالأنابيب المعدنية التقليدية المستخدمة سابقاً.
-*   **التطبيقات الصناعية:** في القطاع الصناعي، يتم استخدام نظام PP-R بشكل متكرر للنقل الآمن للهواء المضغوط وسوائل كيميائية محددة، نظرًا لمقاومته الكيميائية القوية الفعالة.
-*   **تكنولوجيا حمامات السباحة:** إن مقاومة المادة للكلور والمواد الكيميائية الأخرى لمعالجة المياه تجعل من PP-R الخيار المفضل لأنظمة دوران حمامات السباحة المتطورة.
+*   تركيبات مياه الشرب: نظرًا لخصائصها الصحية الصارمة وشهادات السلامة الغذائية، فإن كوع PP-R مثالي لتوزيع المياه المنزلية الباردة والساخنة. يحافظ على جودة المياه دون إضفاء أي طعم أو رائحة غير مرغوبة.
+*   أنظمة التدفئة: الثبات الحراري العالي يجعل هذا التركيب مثاليًا لتوصيلات الرادياتير، وحلقات التدفئة الأرضية المشعة، ومشعبات توزيع التدفئة المركزية في المباني السكنية والتجارية.
+*   تكييف الهواء وشبكات المياه المبردة: أنابيب ووصلات PP-R مناسبة جدًا أيضًا لأنظمة المياه المبردة، حيث أن المادة البلاستيكية لا تتآكل وتكون أقل عرضة لتراكم التكثيف مقارنة بالأنابيب المعدنية التقليدية المستخدمة سابقاً.
+*   التطبيقات الصناعية: في القطاع الصناعي، يتم استخدام نظام PP-R بشكل متكرر للنقل الآمن للهواء المضغوط وسوائل كيميائية محددة، نظرًا لمقاومته الكيميائية القوية الفعالة.
+*   تكنولوجيا حمامات السباحة: إن مقاومة المادة للكلور والمواد الكيميائية الأخرى لمعالجة المياه تجعل من PP-R الخيار المفضل لأنظمة دوران حمامات السباحة المتطورة.
 
 ### الاستدامة والكفاءة الاقتصادية
 يعد اختيار نظام أنابيب PP-R باستخدام الأكواع القياسية بزاوية 90 درجة قرارًا معقولًا للغاية من الناحيتين الاقتصادية والبيئية. المادة قابلة لإعادة التدوير بالكامل ولها بصمة بيئية أقل بكثير أثناء الإنتاج مقارنة بالبدائل المعدنية مثل النحاس أو الصلب. العمر الافتراضي الطويل بشكل استثنائي - عادة 50 عامًا أو أكثر في ظل ظروف التشغيل القياسية - يقلل بشكل كبير من تكاليف الاستبدال والصيانة على المدى الطويل. كما يوفر التثبيت السريع والمباشر الذي تسهله عملية الانصهار المتعدد وقتًا ثمينًا للعمل في موقع البناء. علاوة على ذلك، فإن خصائص العزل الحراري المتأصلة لمادة PP-R تقلل من فقدان الحرارة في أنظمة الماء الساخن، مما يؤدي إلى انخفاض استهلاك الطاقة بمرور الوقت وتوفير نفقات التشغيل.

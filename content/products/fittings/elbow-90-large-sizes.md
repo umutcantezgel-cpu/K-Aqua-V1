@@ -37,11 +37,11 @@ Die Verbindung dieser großformatigen Winkel mit den entsprechenden PP-R Rohren 
 
 ### Anwendungsfelder für Großdimensionen
 Die PP-R Winkel 90° in 90 mm bis 160 mm finden ihren Einsatz vor allem in Projekten, bei denen große Flüssigkeitsmengen sicher transportiert werden müssen:
-* **Zentrale Wasserversorgung:** In Hochhäusern, Hotels und Krankenhäusern dienen sie als Richtungsänderungen in den Hauptverteilungsleitungen für Kalt- und Warmwasser.
-* **Industrielle Kühlkreisläufe:** Die exzellente chemische Beständigkeit und Kälteschlagzähigkeit machen sie ideal für Kühlwassersysteme in Produktionsanlagen und Rechenzentren.
-* **Klimatisierungssysteme (HVAC):** Für den Transport von aufbereitetem Kaltwasser zu großen Klimaregistern in Gewerbeimmobilien.
-* **Prozessindustrie:** Zum sicheren Transport von aggressiven Medien, Druckluft oder demineralisiertem Wasser, da PP-R keine Ionen an das Medium abgibt.
-* **Schiffbau und Offshore:** Das geringe Eigengewicht des Kunststoffs im Vergleich zu Metall ist im maritimen Bereich ein entscheidender Konstruktionsvorteil.
+* Zentrale Wasserversorgung: In Hochhäusern, Hotels und Krankenhäusern dienen sie als Richtungsänderungen in den Hauptverteilungsleitungen für Kalt- und Warmwasser.
+* Industrielle Kühlkreisläufe: Die exzellente chemische Beständigkeit und Kälteschlagzähigkeit machen sie ideal für Kühlwassersysteme in Produktionsanlagen und Rechenzentren.
+* Klimatisierungssysteme (HVAC): Für den Transport von aufbereitetem Kaltwasser zu großen Klimaregistern in Gewerbeimmobilien.
+* Prozessindustrie: Zum sicheren Transport von aggressiven Medien, Druckluft oder demineralisiertem Wasser, da PP-R keine Ionen an das Medium abgibt.
+* Schiffbau und Offshore: Das geringe Eigengewicht des Kunststoffs im Vergleich zu Metall ist im maritimen Bereich ein entscheidender Konstruktionsvorteil.
 
 ### Fazit und Wirtschaftlichkeitsbetrachtung
 Der PP-R Winkel 90° in großen Dimensionen ist eine technologisch überlegene und wirtschaftlich hochattraktive Lösung für den modernen Rohrleitungsbau. Die initialen Materialkosten und der vergleichsweise geringe Installationsaufwand (dank des niedrigen Gewichts und der effizienten Schweißtechnik) machen diese Systeme unschlagbar. Die außergewöhnliche Langlebigkeit von über 50 Jahren, die absolute Wartungsfreiheit und die konstante Energieeffizienz aufgrund ausbleibender Inkrustationen sorgen für einen unübertroffenen Return on Investment. Für Ingenieure, Planer und Bauherren, die höchste Ansprüche an Sicherheit, Hygiene und Nachhaltigkeit stellen, führt an diesen großformatigen PP-R Fittings kein Weg vorbei.
@@ -60,11 +60,11 @@ The connection of these large-format elbows to the corresponding PP-R pipes is p
 
 ### Application Fields for Large Dimensions
 PP-R 90° elbows ranging from 90 mm to 160 mm are predominantly utilized in large-scale engineering projects where immense volumes of liquids must be transported reliably:
-* **Central Water Supply:** In high-rise residential buildings, luxury hotels, and hospitals, they serve as crucial directional changes in the main distribution lines and risers for both cold and hot potable water.
-* **Industrial Cooling Circuits:** The excellent chemical resistance and low-temperature impact strength make them ideal for chilled water systems in manufacturing plants, data centers, and heavy industry.
-* **HVAC Systems:** They are the perfect choice for transporting treated chilled water to large air handling units in commercial real estate.
-* **Process Industry:** For the safe and unpolluted transport of aggressive liquid media, compressed air, or demineralized water, since PP-R does not leach any ions or contaminants into the fluid.
-* **Shipbuilding and Offshore:** The remarkably low intrinsic weight of the plastic compared to steel or copper is a decisive structural advantage in marine engineering and offshore platforms.
+* Central Water Supply: In high-rise residential buildings, luxury hotels, and hospitals, they serve as crucial directional changes in the main distribution lines and risers for both cold and hot potable water.
+* Industrial Cooling Circuits: The excellent chemical resistance and low-temperature impact strength make them ideal for chilled water systems in manufacturing plants, data centers, and heavy industry.
+* HVAC Systems: They are the perfect choice for transporting treated chilled water to large air handling units in commercial real estate.
+* Process Industry: For the safe and unpolluted transport of aggressive liquid media, compressed air, or demineralized water, since PP-R does not leach any ions or contaminants into the fluid.
+* Shipbuilding and Offshore: The remarkably low intrinsic weight of the plastic compared to steel or copper is a decisive structural advantage in marine engineering and offshore platforms.
 
 ### Conclusion and Economic Viability
 The PP-R Elbow 90° in large sizes is a technologically superior and economically highly attractive solution for modern pipeline construction. The initial material costs and the comparatively low installation effort—thanks to the light weight of the polymer and the highly efficient welding technology—make these systems virtually unbeatable. The exceptional longevity of over 50 years, the absolute freedom from maintenance, and the constant energy efficiency due to the absence of encrustations ensure an unsurpassed Return on Investment (ROI). For engineers, planners, and building owners who demand the highest standards of safety, hygiene, and sustainability, there is no viable alternative to these large-format PP-R fittings.
@@ -83,11 +83,11 @@ The PP-R Elbow 90° in large sizes is a technologically superior and economicall
 
 ### مجالات التطبيق للأبعاد الكبيرة
 يتم استخدام أكواع PP-R بزاوية 90 درجة التي تتراوح من 90 مم إلى 160 مم بشكل أساسي في المشاريع الهندسية الكبيرة حيث يجب نقل كميات هائلة من السوائل بشكل موثوق:
-* **إمدادات المياه المركزية:** في المباني السكنية الشاهقة، والفنادق الفخمة، والمستشفيات، تعمل بمثابة تغييرات اتجاهية حاسمة في خطوط التوزيع الرئيسية والصواعد لكل من مياه الشرب الباردة والساخنة.
-* **دوائر التبريد الصناعية:** المقاومة الكيميائية الممتازة وقوة التأثير في درجات الحرارة المنخفضة تجعلها مثالية لأنظمة المياه المبردة في مصانع التصنيع، ومراكز البيانات، والصناعات الثقيلة.
-* **أنظمة التدفئة والتهوية وتكييف الهواء (HVAC):** إنها الخيار الأمثل لنقل المياه المبردة المعالجة إلى وحدات معالجة الهواء الكبيرة في العقارات التجارية.
-* **صناعة العمليات:** للنقل الآمن وغير الملوث للوسائط السائلة العدوانية، أو الهواء المضغوط، أو المياه منزوعة المعادن، حيث لا يقوم PP-R بتسريب أي أيونات أو ملوثات في السائل.
-* **بناء السفن والمنصات البحرية:** يعد الوزن الذاتي المنخفض بشكل ملحوظ للبلاستيك مقارنة بالصلب أو النحاس ميزة هيكلية حاسمة في الهندسة البحرية والمنصات البحرية.
+* إمدادات المياه المركزية: في المباني السكنية الشاهقة، والفنادق الفخمة، والمستشفيات، تعمل بمثابة تغييرات اتجاهية حاسمة في خطوط التوزيع الرئيسية والصواعد لكل من مياه الشرب الباردة والساخنة.
+* دوائر التبريد الصناعية: المقاومة الكيميائية الممتازة وقوة التأثير في درجات الحرارة المنخفضة تجعلها مثالية لأنظمة المياه المبردة في مصانع التصنيع، ومراكز البيانات، والصناعات الثقيلة.
+* أنظمة التدفئة والتهوية وتكييف الهواء (HVAC): إنها الخيار الأمثل لنقل المياه المبردة المعالجة إلى وحدات معالجة الهواء الكبيرة في العقارات التجارية.
+* صناعة العمليات: للنقل الآمن وغير الملوث للوسائط السائلة العدوانية، أو الهواء المضغوط، أو المياه منزوعة المعادن، حيث لا يقوم PP-R بتسريب أي أيونات أو ملوثات في السائل.
+* بناء السفن والمنصات البحرية: يعد الوزن الذاتي المنخفض بشكل ملحوظ للبلاستيك مقارنة بالصلب أو النحاس ميزة هيكلية حاسمة في الهندسة البحرية والمنصات البحرية.
 
 ### الاستنتاج والجدوى الاقتصادية
 يعد كوع PP-R بزاوية 90 درجة في الأحجام الكبيرة حلاً متفوقًا تقنيًا وجذابًا للغاية من الناحية الاقتصادية لبناء خطوط الأنابيب الحديثة. إن التكاليف الأولية للمواد وجهد التركيب المنخفض نسبيًا - بفضل الوزن الخفيف للبوليمر وتكنولوجيا اللحام عالية الكفاءة - يجعل هذه الأنظمة لا تقبل المنافسة تقريبًا. إن طول العمر الاستثنائي الذي يزيد عن 50 عامًا، والتحرر المطلق من الصيانة، وكفاءة الطاقة المستمرة بسبب عدم وجود قشور، تضمن عائدًا غير مسبوق على الاستثمار (ROI). بالنسبة للمهندسين والمخططين وأصحاب المباني الذين يطالبون بأعلى معايير السلامة والنظافة والاستدامة، لا يوجد بديل قابل للتطبيق لهذه التجهيزات الكبيرة من PP-R.

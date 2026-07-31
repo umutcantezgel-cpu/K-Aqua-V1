@@ -247,7 +247,7 @@ export default async function ProductDetailPage({
   const exactSeoTitle = `${finalTitle} | K-Aqua`;
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['products', 'common', 'nav', 'catalog', 'productsx', 'catalogx'])}>
+    <NextIntlClientProvider messages={pick(messages, ['common', 'nav'])}>
       <main className="flex flex-col w-full min-h-screen bg-background">
       <div className="sr-only">{exactSeoTitle}</div>
       <JsonLd schema={[schema, breadcrumb]} />
@@ -402,10 +402,22 @@ export default async function ProductDetailPage({
                 </div>
 
                 <div className="mt-2">
-                  <LocalAvailability locale={locale} />
+                  <LocalAvailability locale={locale} translations={{
+                    localAvailability: tProd('localAvailability') || 'Local Availability',
+                    localDesc: tProd('localDesc') || 'Find local distributors, projects, and specific water quality info in your region.',
+                    allMarkets: tProd('allMarkets') || 'View all 50+ Markets'
+                  }} />
                 </div>
 
-                <ProductDownloads />
+                <ProductDownloads translations={{
+                  downloads: tProd('labels.downloads'),
+                  range: tProd('labels.range'),
+                  rangeDesc: tProd('labels.rangeDesc'),
+                  cert: tProd('labels.cert'),
+                  certDesc: tProd('labels.certDesc'),
+                  features: tProd('labels.features'),
+                  featuresDesc: tProd('labels.featuresDesc'),
+                }} />
                 
 
               </Card>

@@ -33,9 +33,9 @@ export function BlogCard({ post, locale }: BlogCardProps) {
 
         {/* Content */}
         <div>
-          <h3 className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3">
+          <div className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3">
             {title}
-          </h3>
+          </div>
           <p className="text-body text-muted-foreground line-clamp-3 leading-relaxed">
             {excerpt}
           </p>

@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, MessageCircleQuestion } from 'lucide-react';
-import { useTranslations } from 'next-intl';
 
 interface FAQItemProps {
   question: string;
@@ -47,39 +46,11 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
 }
 
 interface Props {
-  category: string;
+  title: string;
+  faqs: { q: string, a: string }[];
 }
 
-export default function ProductFAQ({ category }: Props) {
-  const t = useTranslations('products');
-  const lowerCat = category.toLowerCase();
-  
-  // Resolve dynamic category for FAQ
-  let faqCat = 'fallback';
-  if (lowerCat.includes('pipes')) faqCat = 'pipes';
-  else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) faqCat = 'fittings';
-  else if (lowerCat.includes('valve')) faqCat = 'valves';
-  else if (lowerCat.includes('accessories')) faqCat = 'accessories';
-  else if (lowerCat.includes('tools')) faqCat = 'tools';
-
-  // Extract FAQ items safely
-  let rawFaqs: { q: string, a: string }[] = [];
-  try {
-    if (t.has(`seoArticle.${faqCat}.faq`)) {
-      rawFaqs = t.raw(`seoArticle.${faqCat}.faq`) || [];
-    }
-  } catch {
-    // Fallback if translations don't exist yet
-    rawFaqs = [];
-  }
-
-  // Fallback content if empty
-  const faqs = Array.isArray(rawFaqs) && rawFaqs.length > 0 ? rawFaqs : [
-    { q: t('labels.faqFallbackQ1') || "Was sind die Hauptvorteile?", a: t('labels.faqFallbackA1') || "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser." },
-    { q: t('labels.faqFallbackQ2') || "Ist das Material umweltfreundlich?", a: t('labels.faqFallbackA2') || "Ja, PP-RCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren." },
-    { q: t('labels.faqFallbackQ3') || "Wie erfolgt die Installation?", a: t('labels.faqFallbackA3') || "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen." }
-  ];
-
+export default function ProductFAQ({ title, faqs }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -89,7 +60,7 @@ export default function ProductFAQ({ category }: Props) {
           <MessageCircleQuestion className="w-5 h-5" />
         </div>
         <h3 className="font-heading font-bold text-h3 text-foreground">
-          {t('labels.faqTitle') || "Häufig gestellte Fragen (FAQ)"}
+          {title}
         </h3>
       </div>
       

@@ -40,18 +40,18 @@ Der K-Aqua PP-R Winkel 45° Female/Male minimiert hydraulische Schocks (Drucksch
 
 #### Technische Spezifikationen und Druckbeständigkeit (PN20 / SDR6)
 Der K-Aqua PP-R Winkel 45° Innen-/Außengewinde (Female/Male) wird aus feinstem, hochmolekularem Polypropylen-Random-Copolymer (PP-R) gefertigt. Dieses Material zeichnet sich durch außergewöhnliche thermische und mechanische Stabilität aus.
-- **Druckstufe:** PN20 (SDR6) – Dieses Fitting ist für Hochdruckanwendungen konzipiert und hält Betriebsdrücken von bis zu 20 bar bei Umgebungstemperaturen mühelos stand.
-- **Dimensionen:** Verfügbar in den essenziellen Durchmessern 20 mm (AQ04520FM), 25 mm (AQ04525FM) und 32 mm (AQ04532FM), passend für die gängigsten Verteilungs- und Anbindungsleitungen.
-- **Gewicht:** Extrem leicht (nur 0,02 kg für 20/25 mm und 0,05 kg für 32 mm), was die Handhabung auf der Baustelle, insbesondere bei Überkopfarbeiten, enorm erleichtert.
-- **Korrosionsresistenz:** PP-R ist absolut immun gegen elektrochemische Korrosion, Rost und Lochfraß, selbst bei aggressiven Wasserqualitäten oder industriellen Medien.
-- **Inkrustationsfreiheit:** Die extrem glatten Innenwände verhindern die Ablagerung von Kalk, Schmutz oder Biofilmen, was eine dauerhaft konstante Durchflussrate und ein Höchstmaß an Trinkwasserhygiene garantiert.
+- Druckstufe: PN20 (SDR6) – Dieses Fitting ist für Hochdruckanwendungen konzipiert und hält Betriebsdrücken von bis zu 20 bar bei Umgebungstemperaturen mühelos stand.
+- Dimensionen: Verfügbar in den essenziellen Durchmessern 20 mm (AQ04520FM), 25 mm (AQ04525FM) und 32 mm (AQ04532FM), passend für die gängigsten Verteilungs- und Anbindungsleitungen.
+- Gewicht: Extrem leicht (nur 0,02 kg für 20/25 mm und 0,05 kg für 32 mm), was die Handhabung auf der Baustelle, insbesondere bei Überkopfarbeiten, enorm erleichtert.
+- Korrosionsresistenz: PP-R ist absolut immun gegen elektrochemische Korrosion, Rost und Lochfraß, selbst bei aggressiven Wasserqualitäten oder industriellen Medien.
+- Inkrustationsfreiheit: Die extrem glatten Innenwände verhindern die Ablagerung von Kalk, Schmutz oder Biofilmen, was eine dauerhaft konstante Durchflussrate und ein Höchstmaß an Trinkwasserhygiene garantiert.
 
 #### Anwendungsbereiche des PP-R 45° Female/Male Winkels
 Dank seiner einzigartigen Konstruktion und der hervorragenden Materialeigenschaften ist dieser Winkel extrem vielseitig einsetzbar:
-1. **Trinkwasserinstallationen:** Gemäß strengster hygienischer Standards für Kalt- und Warmwasserleitungen, bei denen kompakte Installationen in Bädern und Küchen gefordert sind.
-2. **Heizungs- und Klimasysteme:** Ideal für den Aufbau von komplexen Heizkreisverteilern, Chiller-Anbindungen und Fußbodenheizungsverteilern, wo der Platzverbrauch auf ein Minimum reduziert werden muss.
-3. **Industrielle Prozesskühlung:** Die hohe chemische Beständigkeit macht den Winkel zur perfekten Wahl für den Transport von Kühlmitteln, Druckluft und verschiedenen Industriechemikalien.
-4. **Schiffbau und Landwirtschaft:** Auch in rauen Umgebungen beweist der Winkel dank seiner Langlebigkeit und mechanischen Festigkeit seine Zuverlässigkeit.
+1. Trinkwasserinstallationen: Gemäß strengster hygienischer Standards für Kalt- und Warmwasserleitungen, bei denen kompakte Installationen in Bädern und Küchen gefordert sind.
+2. Heizungs- und Klimasysteme: Ideal für den Aufbau von komplexen Heizkreisverteilern, Chiller-Anbindungen und Fußbodenheizungsverteilern, wo der Platzverbrauch auf ein Minimum reduziert werden muss.
+3. Industrielle Prozesskühlung: Die hohe chemische Beständigkeit macht den Winkel zur perfekten Wahl für den Transport von Kühlmitteln, Druckluft und verschiedenen Industriechemikalien.
+4. Schiffbau und Landwirtschaft: Auch in rauen Umgebungen beweist der Winkel dank seiner Langlebigkeit und mechanischen Festigkeit seine Zuverlässigkeit.
 
 #### Die Perfektion der Polyfusionsschweißung
 Die Verbindungstechnik des K-Aqua PP-R Systems basiert auf der thermischen Polyfusion. Dabei werden sowohl die Muffen- als auch die Einsteckseite des Fittings sowie das anzuschließende Rohr (oder das aufnehmende Fitting) mittels eines speziellen Schweißgerätes zeitgleich erhitzt. Nach dem Zusammenfügen verschmelzen die makromolekularen Strukturen der Kunststoffteile zu einer einzigen, unlösbaren und homogenen Einheit.
@@ -73,18 +73,18 @@ The K-Aqua PP-R Elbow 45° Female/Male dramatically minimizes hydraulic shocks (
 
 #### Technical Specifications and Unyielding Pressure Resistance (PN20 / SDR6)
 The K-Aqua PP-R Elbow 45° Female/Male is manufactured from the highest grade, high-molecular-weight Polypropylene Random Copolymer (PP-R). This premium material is renowned for its exceptional thermal stability and mechanical robustness.
-- **Pressure Rating:** PN20 (SDR6) – This robust fitting is engineered for high-pressure applications, effortlessly withstanding operating pressures up to 20 bar at ambient temperatures.
-- **Dimensions:** Available in the most essential diameters of 20 mm (AQ04520FM), 25 mm (AQ04525FM), and 32 mm (AQ04532FM), perfectly suited for standard distribution and connection lines.
-- **Weight:** Extremely lightweight (a mere 0.02 kg for 20/25 mm and 0.05 kg for 32 mm sizes), drastically facilitating handling and maneuverability on the construction site, especially during challenging overhead installations.
-- **Corrosion Immunity:** PP-R is entirely immune to electrochemical corrosion, rusting, and pitting, ensuring structural integrity even when exposed to aggressive water qualities or harsh industrial media.
-- **Zero Incrustation:** The highly polished, ultra-smooth internal walls prevent the buildup of limescale, debris, or biofilms. This guarantees a permanently constant flow rate and highest standards of drinking water hygiene over decades.
+- Pressure Rating: PN20 (SDR6) – This robust fitting is engineered for high-pressure applications, effortlessly withstanding operating pressures up to 20 bar at ambient temperatures.
+- Dimensions: Available in the most essential diameters of 20 mm (AQ04520FM), 25 mm (AQ04525FM), and 32 mm (AQ04532FM), perfectly suited for standard distribution and connection lines.
+- Weight: Extremely lightweight (a mere 0.02 kg for 20/25 mm and 0.05 kg for 32 mm sizes), drastically facilitating handling and maneuverability on the construction site, especially during challenging overhead installations.
+- Corrosion Immunity: PP-R is entirely immune to electrochemical corrosion, rusting, and pitting, ensuring structural integrity even when exposed to aggressive water qualities or harsh industrial media.
+- Zero Incrustation: The highly polished, ultra-smooth internal walls prevent the buildup of limescale, debris, or biofilms. This guarantees a permanently constant flow rate and highest standards of drinking water hygiene over decades.
 
 #### Comprehensive Applications of the PP-R 45° Street Elbow
 Thanks to its ingenious construction and the superior properties of the K-Aqua PP-R material, this elbow is incredibly versatile:
-1. **Potable Water Installations:** Compliant with the strictest global hygiene standards for hot and cold domestic water lines, particularly where compact plumbing in modern bathrooms and kitchens is demanded.
-2. **Heating and HVAC Systems:** The perfect solution for constructing intricate heating manifolds, chiller connections, and underfloor heating distribution hubs where maximizing space is critical.
-3. **Industrial Process Cooling:** Its high chemical resistance makes this fitting an excellent choice for transporting coolants, compressed air, and various industrial chemicals safely.
-4. **Shipbuilding and Agriculture:** Even in the harshest environments, the elbow proves its enduring reliability thanks to its mechanical strength and longevity.
+1. Potable Water Installations: Compliant with the strictest global hygiene standards for hot and cold domestic water lines, particularly where compact plumbing in modern bathrooms and kitchens is demanded.
+2. Heating and HVAC Systems: The perfect solution for constructing intricate heating manifolds, chiller connections, and underfloor heating distribution hubs where maximizing space is critical.
+3. Industrial Process Cooling: Its high chemical resistance makes this fitting an excellent choice for transporting coolants, compressed air, and various industrial chemicals safely.
+4. Shipbuilding and Agriculture: Even in the harshest environments, the elbow proves its enduring reliability thanks to its mechanical strength and longevity.
 
 #### The Perfection of Polyfusion Welding
 The joining technology behind the K-Aqua PP-R system relies on thermal polyfusion. In this process, the socket, the spigot, and the connecting pipe or fitting are simultaneously heated using a specialized calibrated welding tool. Once pushed together, the macromolecular structures of the plastic components melt and fuse into a single, inseparable, and continuous homogeneous unit.
@@ -106,18 +106,18 @@ In conclusion, the K-Aqua PP-R Elbow 45° Female/Male (AQ04520FM, AQ04525FM, AQ0
 
 #### المواصفات الفنية ومقاومة الضغط الثابتة (PN20 / SDR6)
 يتم تصنيع كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى) من أجود أنواع البولي بروبيلين العشوائي (PP-R) ذو الوزن الجزيئي العالي. تشتهر هذه المادة الممتازة باستقرارها الحراري الاستثنائي وقوتها الميكانيكية.
-- **تصنيف الضغط:** PN20 (SDR6) - تم تصميم هذه الوصلة القوية لتطبيقات الضغط العالي، وتتحمل بسهولة ضغوط التشغيل التي تصل إلى 20 بار في درجات الحرارة المحيطة.
-- **الأبعاد:** متوفر بالأقطار الأساسية 20 مم (AQ04520FM)، 25 مم (AQ04525FM)، و 32 مم (AQ04532FM)، ومناسبة تماماً لخطوط التوزيع والتوصيل القياسية.
-- **الوزن:** خفيف الوزن للغاية (فقط 0.02 كجم للمقاسات 20/25 مم و 0.05 كجم للمقاس 32 مم)، مما يسهل بشكل كبير التعامل والمناورة في موقع البناء، خاصة أثناء التركيبات العلوية الصعبة.
-- **المناعة ضد التآكل:** PP-R محصن تماماً ضد التآكل الكهروكيميائي والصدأ والتنقير، مما يضمن السلامة الهيكلية حتى عند التعرض لصفات المياه العدوانية أو الوسائط الصناعية القاسية.
-- **خالي من الترسبات:** تمنع الجدران الداخلية الملساء والمصقولة للغاية تراكم الترسبات الكلسية أو الحطام أو الأغشية الحيوية. وهذا يضمن معدل تدفق ثابت بشكل دائم وأعلى معايير نظافة مياه الشرب على مدى عقود.
+- تصنيف الضغط: PN20 (SDR6) - تم تصميم هذه الوصلة القوية لتطبيقات الضغط العالي، وتتحمل بسهولة ضغوط التشغيل التي تصل إلى 20 بار في درجات الحرارة المحيطة.
+- الأبعاد: متوفر بالأقطار الأساسية 20 مم (AQ04520FM)، 25 مم (AQ04525FM)، و 32 مم (AQ04532FM)، ومناسبة تماماً لخطوط التوزيع والتوصيل القياسية.
+- الوزن: خفيف الوزن للغاية (فقط 0.02 كجم للمقاسات 20/25 مم و 0.05 كجم للمقاس 32 مم)، مما يسهل بشكل كبير التعامل والمناورة في موقع البناء، خاصة أثناء التركيبات العلوية الصعبة.
+- المناعة ضد التآكل: PP-R محصن تماماً ضد التآكل الكهروكيميائي والصدأ والتنقير، مما يضمن السلامة الهيكلية حتى عند التعرض لصفات المياه العدوانية أو الوسائط الصناعية القاسية.
+- خالي من الترسبات: تمنع الجدران الداخلية الملساء والمصقولة للغاية تراكم الترسبات الكلسية أو الحطام أو الأغشية الحيوية. وهذا يضمن معدل تدفق ثابت بشكل دائم وأعلى معايير نظافة مياه الشرب على مدى عقود.
 
 #### تطبيقات شاملة لكوع الشارع PP-R بزاوية 45 درجة
 بفضل بنيته المبتكرة والخصائص الفائقة لمادة K-Aqua PP-R، يعتبر هذا الكوع متعدد الاستخدامات بشكل لا يصدق:
-1. **تركيبات مياه الشرب:** متوافق مع أكثر معايير النظافة العالمية صرامة لخطوط المياه المنزلية الساخنة والباردة، لا سيما في الأماكن التي يُطلب فيها سباكة مدمجة في الحمامات والمطابخ الحديثة.
-2. **أنظمة التدفئة والتهوية وتكييف الهواء (HVAC):** الحل الأمثل لبناء موزعات التدفئة المعقدة، ووصلات المبردات (Chillers)، ومراكز توزيع التدفئة تحت الأرضية حيث يكون زيادة المساحة أمراً بالغ الأهمية.
-3. **تبريد العمليات الصناعية:** مقاومته الكيميائية العالية تجعل هذه الوصلة خياراً ممتازاً لنقل المبردات والهواء المضغوط والمواد الكيميائية الصناعية المختلفة بأمان.
-4. **بناء السفن والزراعة:** حتى في أقسى البيئات، يثبت الكوع موثوقيته الدائمة بفضل قوته الميكانيكية وطول عمره.
+1. تركيبات مياه الشرب: متوافق مع أكثر معايير النظافة العالمية صرامة لخطوط المياه المنزلية الساخنة والباردة، لا سيما في الأماكن التي يُطلب فيها سباكة مدمجة في الحمامات والمطابخ الحديثة.
+2. أنظمة التدفئة والتهوية وتكييف الهواء (HVAC): الحل الأمثل لبناء موزعات التدفئة المعقدة، ووصلات المبردات (Chillers)، ومراكز توزيع التدفئة تحت الأرضية حيث يكون زيادة المساحة أمراً بالغ الأهمية.
+3. تبريد العمليات الصناعية: مقاومته الكيميائية العالية تجعل هذه الوصلة خياراً ممتازاً لنقل المبردات والهواء المضغوط والمواد الكيميائية الصناعية المختلفة بأمان.
+4. بناء السفن والزراعة: حتى في أقسى البيئات، يثبت الكوع موثوقيته الدائمة بفضل قوته الميكانيكية وطول عمره.
 
 #### كمال اللحام بالانصهار المتعدد (Polyfusion Welding)
 تعتمد تقنية التوصيل الكامنة وراء نظام K-Aqua PP-R على الانصهار الحراري المتعدد. في هذه العملية، يتم تسخين كل من المقبس وطرف الإدخال والأنبوب أو الوصلة المتصلة في وقت واحد باستخدام أداة لحام متخصصة ومعايرة. بمجرد دفعها معاً، تذوب الهياكل الجزيئية الكبيرة للمكونات البلاستيكية وتندمج في وحدة متجانسة واحدة غير قابلة للفصل ومستمرة.

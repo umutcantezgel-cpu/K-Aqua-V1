@@ -32,16 +32,16 @@ Eines der herausragendsten Merkmale dieser Verteilerbatterie ist die Möglichkei
 
 #### Technische Spezifikationen und Dimensionen
 Die K-Aqua einstellbare Verteilerbatterie mit Innengewinde ist in den gängigen Größen 20 mm und 25 mm (Außendurchmesser der Rohranschlüsse) erhältlich. Der Innengewindeanschluss (Rp) beträgt bei beiden Modellen ½ Zoll. Dies ermöglicht eine nahtlose Integration in bestehende Systeme und die Kompatibilität mit einer Vielzahl von Armaturen und Ventilen. 
-- **Artikelcode AQ64ARCG20**: Rohraußendurchmesser (d) 20 mm, Innengewinde (Rp) ½".
-- **Artikelcode AQ64ARCG25**: Rohraußendurchmesser (d) 25 mm, Innengewinde (Rp) ½".
+- Artikelcode AQ64ARCG20: Rohraußendurchmesser (d) 20 mm, Innengewinde (Rp) ½".
+- Artikelcode AQ64ARCG25: Rohraußendurchmesser (d) 25 mm, Innengewinde (Rp) ½".
 
 Diese präzisen Dimensionierungen garantieren eine dichte, sichere und dauerhafte Verbindung. Das Innengewinde ist robust ausgeführt, um hohen Drehmomenten bei der Installation standzuhalten und langfristige Dichtheit zu gewährleisten.
 
 #### Anwendungsbereiche
 Dank ihrer robusten Bauweise und der vielseitigen Anpassungsmöglichkeiten eignet sich die K-Aqua einstellbare Verteilerbatterie ideal für:
-1. **Trinkwasserinstallationen**: Für die sichere Verteilung von kaltem und warmem Trinkwasser in Wohn- und Gewerbegebäuden.
-2. **Heizungssysteme**: Als zuverlässiger Verteiler für Radiatoren oder Flächenheizungen.
-3. **Industrielle Anwendungen**: Für den Transport von Prozesswasser oder anderen nicht-aggressiven Flüssigkeiten, bei denen PP-R aufgrund seiner chemischen Beständigkeit gefordert ist.
+1. Trinkwasserinstallationen: Für die sichere Verteilung von kaltem und warmem Trinkwasser in Wohn- und Gewerbegebäuden.
+2. Heizungssysteme: Als zuverlässiger Verteiler für Radiatoren oder Flächenheizungen.
+3. Industrielle Anwendungen: Für den Transport von Prozesswasser oder anderen nicht-aggressiven Flüssigkeiten, bei denen PP-R aufgrund seiner chemischen Beständigkeit gefordert ist.
 
 #### Fazit
 Die Entscheidung für die K-Aqua einstellbare Verteilerbatterie mit Innengewinde ist eine Investition in Qualität, Sicherheit und Effizienz. Installateure profitieren von der enormen Zeitersparnis durch den variablen Mittenabstand, während Endkunden sich auf ein langlebiges, korrosionsfreies und wartungsarmes System verlassen können. Die strengen Qualitätskontrollen bei der Herstellung garantieren, dass jedes Bauteil den höchsten internationalen Standards entspricht. 
@@ -59,16 +59,16 @@ One of the most outstanding features of this distribution manifold is its adjust
 
 #### Technical Specifications and Dimensions
 The K-Aqua Adjustable Battery with female thread is available in the standard pipe outer diameters of 20 mm and 25 mm, catering to the most common installation requirements. Both models feature a standard ½" internal thread (Rp), ensuring seamless integration into existing systems and broad compatibility with a wide range of valves and fixtures.
-- **Article Code AQ64ARCG20**: Pipe outer diameter (d) 20 mm, female thread (Rp) ½".
-- **Article Code AQ64ARCG25**: Pipe outer diameter (d) 25 mm, female thread (Rp) ½".
+- Article Code AQ64ARCG20: Pipe outer diameter (d) 20 mm, female thread (Rp) ½".
+- Article Code AQ64ARCG25: Pipe outer diameter (d) 25 mm, female thread (Rp) ½".
 
 These precise dimensions guarantee a tight, secure, and permanent connection. The metallic female thread insert is durably constructed to withstand high torque during installation, ensuring long-term leak prevention and system integrity.
 
 #### Wide Range of Applications
 Thanks to its robust construction and versatile adjustment capabilities, the K-Aqua Adjustable Battery is ideally suited for:
-1. **Potable Water Installations**: Ensuring the safe and hygienic distribution of hot and cold drinking water in residential, commercial, and institutional buildings.
-2. **Heating Systems**: Serving as a reliable distribution manifold for radiator networks or radiant floor heating systems.
-3. **Industrial Applications**: Facilitating the transport of process water, compressed air, or other non-aggressive fluids where the chemical resistance of PP-R is advantageous.
+1. Potable Water Installations: Ensuring the safe and hygienic distribution of hot and cold drinking water in residential, commercial, and institutional buildings.
+2. Heating Systems: Serving as a reliable distribution manifold for radiator networks or radiant floor heating systems.
+3. Industrial Applications: Facilitating the transport of process water, compressed air, or other non-aggressive fluids where the chemical resistance of PP-R is advantageous.
 
 #### Conclusion
 Opting for the K-Aqua Adjustable Battery with Female Thread is an investment in quality, safety, and installation efficiency. Plumbers and contractors benefit immensely from the time saved due to the variable centre distance, while end-users can rely on a durable, corrosion-free, and virtually maintenance-free system. Manufactured under strict quality control protocols, every K-Aqua manifold meets the highest international standards, providing peace of mind for every project.
@@ -86,16 +86,16 @@ Opting for the K-Aqua Adjustable Battery with Female Thread is an investment in 
 
 #### المواصفات الفنية والأبعاد
 تتوفر بطارية K-Aqua القابلة للتعديل بسن داخلي بأقطار خارجية قياسية للأنابيب تبلغ 20 مم و 25 مم، لتلبية متطلبات التركيب الأكثر شيوعاً. يتميز كلا الطرازين بسن داخلي قياسي بحجم ½ بوصة (Rp)، مما يضمن التكامل السلس في الأنظمة الحالية والتوافق الواسع مع مجموعة كبيرة من الصمامات والتركيبات.
-- **كود المنتج AQ64ARCG20**: القطر الخارجي للأنبوب (d) 20 مم، السن الداخلي (Rp) ½ بوصة.
-- **كود المنتج AQ64ARCG25**: القطر الخارجي للأنبوب (d) 25 مم، السن الداخلي (Rp) ½ بوصة.
+- كود المنتج AQ64ARCG20: القطر الخارجي للأنبوب (d) 20 مم، السن الداخلي (Rp) ½ بوصة.
+- كود المنتج AQ64ARCG25: القطر الخارجي للأنبوب (d) 25 مم، السن الداخلي (Rp) ½ بوصة.
 
 تضمن هذه الأبعاد الدقيقة توصيلاً محكماً وآمناً ودائماً. تم تصميم الملحق المعدني ذو السن الداخلي بشكل متين لتحمل عزم الدوران العالي أثناء التركيب، مما يضمن منع التسرب على المدى الطويل وسلامة النظام بشكل عام.
 
 #### مجموعة واسعة من التطبيقات
 بفضل بنيتها القوية وقدرات التعديل المتنوعة، فإن بطارية K-Aqua القابلة للتعديل مناسبة بشكل مثالي لـ:
-1. **تركيبات مياه الشرب**: ضمان التوزيع الآمن والصحي لمياه الشرب الساخنة والباردة في المباني السكنية والتجارية والمؤسسية.
-2. **أنظمة التدفئة**: تعمل كمجمع توزيع موثوق لشبكات المشعات الحرارية أو أنظمة التدفئة الأرضية المشعة.
-3. **التطبيقات الصناعية**: تسهيل نقل مياه العمليات أو الهواء المضغوط أو غيرها من السوائل غير العدوانية حيث تكون المقاومة الكيميائية لمادة PP-R مفيدة للغاية.
+1. تركيبات مياه الشرب: ضمان التوزيع الآمن والصحي لمياه الشرب الساخنة والباردة في المباني السكنية والتجارية والمؤسسية.
+2. أنظمة التدفئة: تعمل كمجمع توزيع موثوق لشبكات المشعات الحرارية أو أنظمة التدفئة الأرضية المشعة.
+3. التطبيقات الصناعية: تسهيل نقل مياه العمليات أو الهواء المضغوط أو غيرها من السوائل غير العدوانية حيث تكون المقاومة الكيميائية لمادة PP-R مفيدة للغاية.
 
 #### الاستنتاج
 إن اختيار بطارية K-Aqua القابلة للتعديل بسن داخلي هو استثمار حقيقي في الجودة والسلامة وكفاءة التركيب. يستفيد السباكون والمقاولون بشكل كبير من الوقت الموفر بفضل المسافة المركزية المتغيرة، بينما يمكن للمستخدمين النهائيين الاعتماد على نظام متين وخالٍ من التآكل ولا يحتاج تقريباً إلى صيانة. صُنعت تحت بروتوكولات صارمة لمراقبة الجودة، وكل مجمع K-Aqua يلبي أعلى المعايير الدولية، مما يوفر راحة البال التامة لكل مشروع وتركيب.

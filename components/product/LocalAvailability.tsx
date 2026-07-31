@@ -1,18 +1,20 @@
 'use client';
 
 import React from 'react';
-import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/i18n/navigation';
 import { MapPin, ArrowRight } from 'lucide-react';
 import { GEO_MARKETS } from '@/lib/data/geo';
 
 interface LocalAvailabilityProps {
   locale: string;
+  translations: {
+    localAvailability: string;
+    localDesc: string;
+    allMarkets: string;
+  };
 }
 
-export default function LocalAvailability({ locale }: LocalAvailabilityProps) {
-  const t = useTranslations('products');
-  
+export default function LocalAvailability({ locale, translations }: LocalAvailabilityProps) {
   // Simple heuristic: 
   // If locale is 'de', show top DACH markets.
   // If locale is 'ar', show top NAHOST markets.
@@ -42,10 +44,10 @@ export default function LocalAvailability({ locale }: LocalAvailabilityProps) {
     <div className="flex flex-col gap-4" data-nosnippet="true">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3 mt-4 flex items-center gap-2">
         <MapPin className="w-5 h-5 text-primary" />
-        {t('localAvailability') || 'Local Availability'}
+        {translations.localAvailability}
       </h3>
       <p className="text-sm text-muted-foreground leading-relaxed">
-        {t('localDesc') || 'Find local distributors, projects, and specific water quality info in your region.'}
+        {translations.localDesc}
       </p>
       
       <div className="flex flex-col gap-2 mt-2">
@@ -68,7 +70,7 @@ export default function LocalAvailability({ locale }: LocalAvailabilityProps) {
           href="/maerkte" 
           className="text-center text-sm font-semibold text-primary hover:text-primary-strong transition-colors mt-2"
         >
-          {t('allMarkets') || 'View all 50+ Markets'}
+          {translations.allMarkets}
         </Link>
       </div>
     </div>

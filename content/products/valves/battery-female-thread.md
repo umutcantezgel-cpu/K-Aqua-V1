@@ -28,17 +28,17 @@ Eine Verteiler-Batterie, auch Heizkreisverteiler oder Wasserverteiler genannt, d
 
 #### Technische Spezifikationen und Varianten im Detail
 Unsere PP-R Verteiler-Batterien mit Innengewinde sind in den gängigsten Größen für professionelle Installationen in Wohn- und Gewerbegebäuden erhältlich. Konkret umfasst das Sortiment:
-* **Artikel AQ64RCG20:** Durchmesser (d) 20 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
-* **Artikel AQ64RCG25:** Durchmesser (d) 25 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
+* Artikel AQ64RCG20: Durchmesser (d) 20 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
+* Artikel AQ64RCG25: Durchmesser (d) 25 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
 
 Diese Präzisionsbauteile zeichnen sich durch ihre exakten Maße und eine extrem robuste Bauweise aus. Der Innengewinde-Anschluss von ½ Zoll bietet höchste Kompatibilität mit Standard-Fittings und Übergangsstücken aus Messing oder Edelstahl. Die Länge von 166 mm ermöglicht eine kompakte Bauweise, selbst in engen Verteilerkästen.
 
 #### Warum PP-R? Die unschlagbaren Vorteile des Materials
 Polypropylen-Random-Copolymer (PP-R) hat sich in den letzten Jahrzehnten als eines der absolut besten Materialien für die Sanitär- und Heizungsinstallation etabliert. Die Gründe dafür sind vielfältig:
-1. **Korrosionsbeständigkeit:** Im Gegensatz zu Verteilern aus Stahl oder Messing rostet PP-R nicht. Dies garantiert eine extrem lange Lebensdauer ohne Querschnittsverengungen durch Ablagerungen (Inkrustation) oder gar Lochfraß. Die Wasserqualität wird nicht durch abgelöste Metallpartikel beeinträchtigt.
-2. **Chemische Resistenz:** Das Material widersteht einer Vielzahl von Chemikalien, was es ideal für unterschiedlichste Wasserqualitäten, pH-Werte und industrielle Anwendungen macht. 
-3. **Geringe Wärmeleitfähigkeit:** PP-R isoliert auf natürliche Weise. Bei der Verteilung von Heizungswasser, beispielsweise für eine Fußbodenheizung, geht weniger Energie über den Verteiler selbst verloren. Bei Kaltwasseranwendungen wird die Bildung von Kondenswasser signifikant reduziert, was das Risiko von Schimmelbildung und Feuchtigkeitsschäden in Wänden und Böden minimiert.
-4. **Schalldämmung:** Fließgeräusche und Druckschläge werden durch den flexiblen Kunststoff stark gedämpft, was den Wohnkomfort in hellhörigen Gebäuden erheblich steigert.
+1. Korrosionsbeständigkeit: Im Gegensatz zu Verteilern aus Stahl oder Messing rostet PP-R nicht. Dies garantiert eine extrem lange Lebensdauer ohne Querschnittsverengungen durch Ablagerungen (Inkrustation) oder gar Lochfraß. Die Wasserqualität wird nicht durch abgelöste Metallpartikel beeinträchtigt.
+2. Chemische Resistenz: Das Material widersteht einer Vielzahl von Chemikalien, was es ideal für unterschiedlichste Wasserqualitäten, pH-Werte und industrielle Anwendungen macht. 
+3. Geringe Wärmeleitfähigkeit: PP-R isoliert auf natürliche Weise. Bei der Verteilung von Heizungswasser, beispielsweise für eine Fußbodenheizung, geht weniger Energie über den Verteiler selbst verloren. Bei Kaltwasseranwendungen wird die Bildung von Kondenswasser signifikant reduziert, was das Risiko von Schimmelbildung und Feuchtigkeitsschäden in Wänden und Böden minimiert.
+4. Schalldämmung: Fließgeräusche und Druckschläge werden durch den flexiblen Kunststoff stark gedämpft, was den Wohnkomfort in hellhörigen Gebäuden erheblich steigert.
 
 #### Perfekt für die Fußbodenheizung (Underfloor Heating)
 Die Flächenheizung, allen voran die Fußbodenheizung, ist in modernen, energieeffizienten Gebäuden der absolute Standard geworden. Die PP-R Verteiler-Batterie ist für diesen Einsatzzweck regelrecht prädestiniert. Durch die präzise Verarbeitung und das äußerst haltbare 1/2" Innengewinde lassen sich Heizkreisventile, Durchflussmesser und Stellantriebe zur Einzelraumregelung problemlos und dauerhaft dicht montieren. Die Verteilung des Heizwassers erfolgt dadurch gleichmäßig, sicher und absolut leckagefrei über Jahrzehnte hinweg.
@@ -64,17 +64,17 @@ A distribution manifold, or battery, serves as a central hub or nexus within a c
 
 #### Technical Specifications and Available Variants in Detail
 Our highly engineered PP-R batteries with female threads are available in the most common dimensions to perfectly suit professional installation requirements in both residential and commercial buildings. Specifically, our comprehensive product range includes the following standard configurations:
-* **Article Code AQ64RCG20:** Pipe diameter (d) 20 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
-* **Article Code AQ64RCG25:** Pipe diameter (d) 25 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
+* Article Code AQ64RCG20: Pipe diameter (d) 20 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
+* Article Code AQ64RCG25: Pipe diameter (d) 25 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
 
 These precision-engineered components stand out remarkably due to their exact dimensional tolerances and incredibly rugged construction. The ½" female thread connection ensures maximum, hassle-free compatibility with standard industry fittings and transition pieces made of brass or stainless steel. The compact length of 166 mm allows for space-saving installations, even within tight, concealed manifold cabinets.
 
 #### Why Choose PP-R? The Unbeatable Material Advantages
 Polypropylene Random Copolymer (PP-R) has firmly established itself over the past decades as one of the premier, go-to materials for plumbing, heating, and cooling installations worldwide. The reasons for this dominance are manifold:
-1. **Unmatched Corrosion Resistance:** Unlike traditional manifolds made of steel or brass, PP-R simply does not rust, ever. This guarantees an exceptionally long service life and completely prevents any reduction in the internal cross-section due to scale build-up (incrustation) or pitting corrosion. Furthermore, the water quality is never compromised by dissolved metal particles.
-2. **Chemical Resilience:** The material boasts excellent, robust resistance to a wide variety of chemicals. This makes it ideal for handling varying water qualities, fluctuating pH levels, and numerous demanding industrial applications.
-3. **Low Thermal Conductivity:** PP-R acts as a highly effective natural insulator. When distributing hot water, such as in an underfloor heating system, far less thermal energy is lost directly through the manifold body itself. Conversely, in cold water and chilled cooling applications, the formation of external condensation is significantly mitigated, reducing the risk of mold and structural moisture damage.
-4. **Superior Acoustic Insulation:** The rushing flow noise of water and the shock of water hammer are heavily dampened by the flexible plastic material, leading to a much quieter system and dramatically increasing acoustic living comfort in modern, noise-sensitive buildings.
+1. Unmatched Corrosion Resistance: Unlike traditional manifolds made of steel or brass, PP-R simply does not rust, ever. This guarantees an exceptionally long service life and completely prevents any reduction in the internal cross-section due to scale build-up (incrustation) or pitting corrosion. Furthermore, the water quality is never compromised by dissolved metal particles.
+2. Chemical Resilience: The material boasts excellent, robust resistance to a wide variety of chemicals. This makes it ideal for handling varying water qualities, fluctuating pH levels, and numerous demanding industrial applications.
+3. Low Thermal Conductivity: PP-R acts as a highly effective natural insulator. When distributing hot water, such as in an underfloor heating system, far less thermal energy is lost directly through the manifold body itself. Conversely, in cold water and chilled cooling applications, the formation of external condensation is significantly mitigated, reducing the risk of mold and structural moisture damage.
+4. Superior Acoustic Insulation: The rushing flow noise of water and the shock of water hammer are heavily dampened by the flexible plastic material, leading to a much quieter system and dramatically increasing acoustic living comfort in modern, noise-sensitive buildings.
 
 #### Perfect for Underfloor Heating Systems (Surface Heating)
 Surface heating, primarily underfloor heating, has rapidly become the absolute gold standard in modern, energy-efficient building design and green architecture. The PP-R battery is practically predestined and tailor-made for this specific application. Thanks to its precise manufacturing and the highly durable 1/2" female threads, heating circuit valves, flow meters, and thermal actuators for precise individual room temperature control can be mounted effortlessly and securely. The distribution of the heating water thus remains perfectly even, exceptionally reliable, and absolutely leak-proof over decades of continuous, demanding operation.
@@ -100,17 +100,17 @@ With the PP-R Battery (Female Thread) available in the highly requested 20 mm an
 
 #### المواصفات الفنية والمتغيرات المتاحة بالتفصيل
 تتوفر بطاريات PP-R ذات السنون الداخلية والمصممة هندسياً بعناية فائقة لدينا بالأبعاد الأكثر شيوعاً لتلبي متطلبات التركيب الاحترافي في كل من المباني السكنية والتجارية بدقة متناهية. ويشمل نطاق منتجاتنا الشامل التكوينات القياسية التالية تحديداً:
-* **رمز المنتج AQ64RCG20:** قطر الأنبوب (d) 20 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
-* **رمز المنتج AQ64RCG25:** قطر الأنبوب (d) 25 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
+* رمز المنتج AQ64RCG20: قطر الأنبوب (d) 20 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
+* رمز المنتج AQ64RCG25: قطر الأنبوب (d) 25 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
 
 تتميز هذه المكونات المصممة هندسياً بدقة بأبعادها المضبوطة وبنيتها القوية للغاية. يضمن السن الداخلي بحجم ½ بوصة أقصى درجات التوافق الخالي من المتاعب مع التركيبات القياسية والقطع الانتقالية المتوفرة في الأسواق والمصنوعة من النحاس الأصفر أو الفولاذ المقاوم للصدأ. كما يسمح الطول المدمج البالغ 166 ملم بتركيبات موفرة للمساحة، حتى داخل خزائن المجمعات الضيقة والمخفية.
 
 #### لماذا تختار مادة PP-R؟ المزايا التي لا تقبل المنافسة
 أثبت البولي بروبيلين العشوائي (PP-R) مكانته الراسخة على مدى العقود الماضية كواحد من أفضل المواد وأكثرها اعتمادية في تركيبات السباكة والتدفئة والتبريد في جميع أنحاء العالم. وتتعدد أسباب هذه الهيمنة:
-1. **مقاومة لا مثيل لها للتآكل:** على عكس المجمعات التقليدية المصنوعة من الفولاذ أو النحاس، فإن مادة PP-R لا تصدأ إطلاقاً في أي وقت. وهذا يضمن عمراً افتراضياً طويلاً للغاية ويمنع تماماً أي تقلص أو انسداد في القطر الداخلي للأنبوب نتيجة تراكم الترسبات الكلسية (التكلس) أو التآكل النقطي. علاوة على ذلك، لا تتأثر جودة المياه أبداً بجزيئات المعدن الذائبة.
-2. **المرونة والمقاومة الكيميائية:** تتميز المادة بمقاومة ممتازة وقوية لمجموعة واسعة من المواد الكيميائية. وهذا يجعلها مثالية للتعامل مع مختلف درجات جودة المياه، ومستويات الأس الهيدروجيني (pH) المتقلبة، وللاستخدام في العديد من التطبيقات الصناعية الصعبة.
-3. **انخفاض التوصيل الحراري:** تعمل مادة PP-R كعازل طبيعي فعال للغاية. فعند توزيع الماء الساخن، كما هو الحال في نظام التدفئة الأرضية، تُفقد طاقة حرارية أقل بكثير عبر جسم المجمع نفسه. وفي المقابل، عند استخدامها في تطبيقات المياه الباردة وأنظمة التبريد، يقل تكون التكثف الخارجي بشكل ملحوظ، مما يقلل من مخاطر نمو العفن والأضرار الهيكلية الناتجة عن الرطوبة.
-4. **عزل صوتي فائق:** يتم كتم ضوضاء تدفق المياه المندفعة وصدمات المطرقة المائية بشكل كبير بفضل المادة البلاستيكية المرنة، مما يؤدي إلى نظام أكثر هدوءاً ويرفع من مستوى الراحة الصوتية في المعيشة في المباني الحديثة الحساسة للضوضاء.
+1. مقاومة لا مثيل لها للتآكل: على عكس المجمعات التقليدية المصنوعة من الفولاذ أو النحاس، فإن مادة PP-R لا تصدأ إطلاقاً في أي وقت. وهذا يضمن عمراً افتراضياً طويلاً للغاية ويمنع تماماً أي تقلص أو انسداد في القطر الداخلي للأنبوب نتيجة تراكم الترسبات الكلسية (التكلس) أو التآكل النقطي. علاوة على ذلك، لا تتأثر جودة المياه أبداً بجزيئات المعدن الذائبة.
+2. المرونة والمقاومة الكيميائية: تتميز المادة بمقاومة ممتازة وقوية لمجموعة واسعة من المواد الكيميائية. وهذا يجعلها مثالية للتعامل مع مختلف درجات جودة المياه، ومستويات الأس الهيدروجيني (pH) المتقلبة، وللاستخدام في العديد من التطبيقات الصناعية الصعبة.
+3. انخفاض التوصيل الحراري: تعمل مادة PP-R كعازل طبيعي فعال للغاية. فعند توزيع الماء الساخن، كما هو الحال في نظام التدفئة الأرضية، تُفقد طاقة حرارية أقل بكثير عبر جسم المجمع نفسه. وفي المقابل، عند استخدامها في تطبيقات المياه الباردة وأنظمة التبريد، يقل تكون التكثف الخارجي بشكل ملحوظ، مما يقلل من مخاطر نمو العفن والأضرار الهيكلية الناتجة عن الرطوبة.
+4. عزل صوتي فائق: يتم كتم ضوضاء تدفق المياه المندفعة وصدمات المطرقة المائية بشكل كبير بفضل المادة البلاستيكية المرنة، مما يؤدي إلى نظام أكثر هدوءاً ويرفع من مستوى الراحة الصوتية في المعيشة في المباني الحديثة الحساسة للضوضاء.
 
 #### مثالية لأنظمة التدفئة الأرضية (التدفئة السطحية)
 أصبحت التدفئة السطحية، وخاصة التدفئة الأرضية، المعيار الذهبي المطلق في تصميم المباني الحديثة الموفرة للطاقة والعمارة الخضراء. وبطارية PP-R مصممة عملياً ومخصصة لهذا التطبيق بالتحديد. فبفضل تصنيعها الدقيق والسنون الداخلية المتينة بحجم 1/2 بوصة، يمكن تركيب صمامات دوائر التدفئة، ومقاييس التدفق، والمشغلات الحرارية (Actuators) للتحكم الفردي الدقيق في درجات حرارة الغرف بسهولة وأمان. ويظل توزيع مياه التدفئة بالتالي متساوياً وموثوقاً تماماً ومقاوماً للتسرب لعقود من التشغيل المستمر والمتطلب.

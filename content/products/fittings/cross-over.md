@@ -35,9 +35,9 @@ Ein PP-R Sprungbogen ist ein speziell geformtes Rohrformteil, das eine markante,
 
 Unsere K-Aqua PP-R Sprungbögen sind in den gängigsten Durchmessern erhältlich, um eine maximale Kompatibilität mit Standard-Rohrsystemen zu gewährleisten. Die Artikelnummern für unsere hochwertigen Crossover-Fittings lauten AQ26720, AQ26725 und AQ26732. Diese entsprechen den Außendurchmessern 20 mm, 25 mm und 32 mm. 
 
-- **Größe 20 mm (Artikelcode: AQ26720):** Ideal für Standard-Trinkwasserinstallationen im Einfamilienhaus oder für die Anbindung von Einzelverbrauchern. Verpackungseinheit: 90 Stück.
-- **Größe 25 mm (Artikelcode: AQ26725):** Wird häufig für Steigleitungen oder bei höherem Volumenstrombedarf eingesetzt, beispielsweise in Mehrfamilienhäusern. Verpackungseinheit: 90 Stück.
-- **Größe 32 mm (Artikelcode: AQ26732):** Perfekt für industrielle Anwendungen, Hauptverteilungsleitungen oder größere kommerzielle Projekte, bei denen ein hoher Durchfluss gewährleistet sein muss. Verpackungseinheit: 65 Stück.
+- Größe 20 mm (Artikelcode: AQ26720): Ideal für Standard-Trinkwasserinstallationen im Einfamilienhaus oder für die Anbindung von Einzelverbrauchern. Verpackungseinheit: 90 Stück.
+- Größe 25 mm (Artikelcode: AQ26725): Wird häufig für Steigleitungen oder bei höherem Volumenstrombedarf eingesetzt, beispielsweise in Mehrfamilienhäusern. Verpackungseinheit: 90 Stück.
+- Größe 32 mm (Artikelcode: AQ26732): Perfekt für industrielle Anwendungen, Hauptverteilungsleitungen oder größere kommerzielle Projekte, bei denen ein hoher Durchfluss gewährleistet sein muss. Verpackungseinheit: 65 Stück.
 
 Die präzise Fertigung dieser Fittings garantiert einen reibungslosen Schweißprozess und eine exakte Passform, wodurch die Installationszeit erheblich reduziert wird.
 
@@ -45,21 +45,21 @@ Die präzise Fertigung dieser Fittings garantiert einen reibungslosen Schweißpr
 
 Die Einsatzmöglichkeiten des PP-R Sprungbogens sind äußerst vielfältig. Zu den wichtigsten Anwendungsbereichen gehören:
 
-1. **Trinkwasserinstallationen (Kalt- und Warmwasser):** Beim Verlegen von Warm- und Kaltwasserleitungen kreuzen sich die Wege häufig im Bereich von Verteilern oder Steigsträngen. Der Sprungbogen verhindert den physischen Kontakt der Rohre und erleichtert die normgerechte Isolierung.
-2. **Heizungssysteme:** In Heizkreisläufen, insbesondere bei Heizkörperanbindungen oder in Heizungsverteilern, müssen Vor- und Rücklauf oft gekreuzt werden. Der Crossover sorgt hier für eine elegante und hydraulisch effiziente Lösung.
-3. **Klimaanlagen und Kaltwassersätze:** Auch in der Klimatechnik, wo PP-R aufgrund seiner Kondensationsresistenz und guten Isoliereigenschaften geschätzt wird, kommen Sprungbögen bei der Leitungsführung zum Einsatz.
-4. **Industrielle Rohrleitungsnetze:** In Industrieanlagen, wo chemische Beständigkeit gefragt ist, bietet der PP-R Sprungbogen eine sichere Überkreuzung von Prozessleitungen.
+1. Trinkwasserinstallationen (Kalt- und Warmwasser): Beim Verlegen von Warm- und Kaltwasserleitungen kreuzen sich die Wege häufig im Bereich von Verteilern oder Steigsträngen. Der Sprungbogen verhindert den physischen Kontakt der Rohre und erleichtert die normgerechte Isolierung.
+2. Heizungssysteme: In Heizkreisläufen, insbesondere bei Heizkörperanbindungen oder in Heizungsverteilern, müssen Vor- und Rücklauf oft gekreuzt werden. Der Crossover sorgt hier für eine elegante und hydraulisch effiziente Lösung.
+3. Klimaanlagen und Kaltwassersätze: Auch in der Klimatechnik, wo PP-R aufgrund seiner Kondensationsresistenz und guten Isoliereigenschaften geschätzt wird, kommen Sprungbögen bei der Leitungsführung zum Einsatz.
+4. Industrielle Rohrleitungsnetze: In Industrieanlagen, wo chemische Beständigkeit gefragt ist, bietet der PP-R Sprungbogen eine sichere Überkreuzung von Prozessleitungen.
 
 #### Vorteile des PP-R Materials für Überspringungsfittings
 
 Polypropylen Random-Copolymer (PP-R) ist ein thermoplastischer Kunststoff, der sich durch herausragende physikalische und chemische Eigenschaften auszeichnet. Die Verwendung von PP-R für Sprungbögen bietet zahlreiche Vorteile:
 
-- **Korrosionsbeständigkeit:** PP-R korrodiert nicht. Weder Lochfraß noch Rost können die Integrität der Rohre und Fittings gefährden, was eine Lebensdauer von über 50 Jahren ermöglicht.
-- **Geringer Druckverlust:** Die glatte Innenoberfläche des PP-R Sprungbogens minimiert den Strömungswiderstand und reduziert Kalkablagerungen sowie Biofilmbildung. Die strömungsoptimierte Form des Crossovers trägt dazu bei, den Druckabfall an der Kreuzungsstelle so gering wie möglich zu halten.
-- **Chemische Resistenz:** PP-R ist beständig gegenüber einer Vielzahl von Säuren, Laugen und anderen aggressiven Medien, was den Einsatz in industriellen Umgebungen prädestiniert.
-- **Temperatur- und Druckbeständigkeit:** PP-R Systeme halten hohen Betriebsdrücken und Wassertemperaturen stand, was sie sowohl für Kaltwasser als auch für Heizungswasser sicher macht.
-- **Hervorragende Hygiene:** PP-R ist lebensmittelecht und ungiftig, wodurch es die strengsten Anforderungen für den Transport von Trinkwasser erfüllt.
-- **Geringe Geräuschentwicklung:** Im Vergleich zu metallischen Rohren absorbiert PP-R Fließgeräusche und Druckschläge deutlich besser, was zu einer ruhigeren Hausinstallation führt.
+- Korrosionsbeständigkeit: PP-R korrodiert nicht. Weder Lochfraß noch Rost können die Integrität der Rohre und Fittings gefährden, was eine Lebensdauer von über 50 Jahren ermöglicht.
+- Geringer Druckverlust: Die glatte Innenoberfläche des PP-R Sprungbogens minimiert den Strömungswiderstand und reduziert Kalkablagerungen sowie Biofilmbildung. Die strömungsoptimierte Form des Crossovers trägt dazu bei, den Druckabfall an der Kreuzungsstelle so gering wie möglich zu halten.
+- Chemische Resistenz: PP-R ist beständig gegenüber einer Vielzahl von Säuren, Laugen und anderen aggressiven Medien, was den Einsatz in industriellen Umgebungen prädestiniert.
+- Temperatur- und Druckbeständigkeit: PP-R Systeme halten hohen Betriebsdrücken und Wassertemperaturen stand, was sie sowohl für Kaltwasser als auch für Heizungswasser sicher macht.
+- Hervorragende Hygiene: PP-R ist lebensmittelecht und ungiftig, wodurch es die strengsten Anforderungen für den Transport von Trinkwasser erfüllt.
+- Geringe Geräuschentwicklung: Im Vergleich zu metallischen Rohren absorbiert PP-R Fließgeräusche und Druckschläge deutlich besser, was zu einer ruhigeren Hausinstallation führt.
 
 #### Installation und Montage
 
@@ -91,9 +91,9 @@ A PP-R Crossover is a precisely engineered pipe fitting featuring a distinct, cu
 
 Our premium K-Aqua PP-R crossover fittings are manufactured to the highest standards and are available in the most commonly required diameters for residential and commercial plumbing. The article codes for our crossovers are AQ26720, AQ26725, and AQ26732, corresponding to their respective outer diameters of 20 mm, 25 mm, and 32 mm.
 
-- **Size 20 mm (Article Code: AQ26720):** This size is the standard choice for most domestic potable water systems, branch lines, and single-fixture connections. It comes in a convenient packing size of 90 pieces per carton.
-- **Size 25 mm (Article Code: AQ26725):** Frequently used for main distribution lines within apartments, riser pipes, and medium-flow requirements. Also packed at 90 pieces per carton.
-- **Size 32 mm (Article Code: AQ26732):** The ideal solution for larger residential buildings, commercial installations, or industrial applications where higher flow rates and lower pressure drops are critical. Packed at 65 pieces per carton.
+- Size 20 mm (Article Code: AQ26720): This size is the standard choice for most domestic potable water systems, branch lines, and single-fixture connections. It comes in a convenient packing size of 90 pieces per carton.
+- Size 25 mm (Article Code: AQ26725): Frequently used for main distribution lines within apartments, riser pipes, and medium-flow requirements. Also packed at 90 pieces per carton.
+- Size 32 mm (Article Code: AQ26732): The ideal solution for larger residential buildings, commercial installations, or industrial applications where higher flow rates and lower pressure drops are critical. Packed at 65 pieces per carton.
 
 These dimensions ensure full compatibility with standard PP-R piping systems, allowing installers to execute complex pipe crossings without sacrificing flow efficiency.
 
@@ -101,20 +101,20 @@ These dimensions ensure full compatibility with standard PP-R piping systems, al
 
 The versatility of the PP-R Crossover makes it a go-to fitting across various sectors of the construction and plumbing industry:
 
-1. **Potable Water Supply (Hot and Cold):** When routing hot and cold water lines to bathrooms or kitchens, the pipes frequently need to cross. The crossover prevents physical interference between the two lines and allows for proper thermal insulation to be applied independently.
-2. **Heating Systems:** In radiator connections, underfloor heating manifolds, or central heating distribution, supply and return lines inevitably cross paths. The crossover fitting provides a neat, hydraulically sound method of bypassing these lines.
-3. **Air Conditioning and Chilled Water:** PP-R is highly regarded for chilled water applications due to its excellent insulation properties and condensation resistance. Crossovers help manage the intricate piping required for HVAC systems.
-4. **Industrial and Chemical Transport:** Because PP-R exhibits exceptional chemical resistance, crossover fittings are utilized in industrial plants to navigate complex mazes of chemical or process fluid lines safely.
+1. Potable Water Supply (Hot and Cold): When routing hot and cold water lines to bathrooms or kitchens, the pipes frequently need to cross. The crossover prevents physical interference between the two lines and allows for proper thermal insulation to be applied independently.
+2. Heating Systems: In radiator connections, underfloor heating manifolds, or central heating distribution, supply and return lines inevitably cross paths. The crossover fitting provides a neat, hydraulically sound method of bypassing these lines.
+3. Air Conditioning and Chilled Water: PP-R is highly regarded for chilled water applications due to its excellent insulation properties and condensation resistance. Crossovers help manage the intricate piping required for HVAC systems.
+4. Industrial and Chemical Transport: Because PP-R exhibits exceptional chemical resistance, crossover fittings are utilized in industrial plants to navigate complex mazes of chemical or process fluid lines safely.
 
 #### Advantages of PP-R Crossovers Over Traditional Materials
 
 Polypropylene Random Copolymer (PP-R) has revolutionized the piping industry. Choosing PP-R crossover fittings over traditional metal alternatives (like copper or galvanized steel) offers a multitude of benefits:
 
-- **Absolute Corrosion Resistance:** Unlike metals, PP-R does not rust, corrode, or suffer from pitting. It can withstand aggressive water chemistries, guaranteeing a service life of 50 years or more under standard operating conditions.
-- **Optimized Hydraulics and Low Pressure Loss:** The exceptionally smooth internal surface of the PP-R crossover minimizes friction and prevents the buildup of limescale and biofilms. The smooth curvature of the arch ensures that pressure loss is kept to an absolute minimum compared to angular bypass assemblies.
-- **Thermal and Acoustic Insulation:** PP-R naturally dampens water flow noise and water hammer effects, leading to much quieter plumbing systems. Furthermore, its low thermal conductivity reduces heat loss in hot water lines and minimizes condensation on cold water lines.
-- **High Temperature and Pressure Tolerance:** Designed to handle the rigors of modern plumbing, PP-R crossovers maintain their structural integrity even under continuous high temperatures and internal pressures, making them perfectly suited for both sanitary and heating applications.
-- **Hygienic and Non-Toxic:** PP-R is a food-grade material. It does not impart any taste, odor, or harmful chemicals to the water, ensuring the highest standards of drinking water hygiene.
+- Absolute Corrosion Resistance: Unlike metals, PP-R does not rust, corrode, or suffer from pitting. It can withstand aggressive water chemistries, guaranteeing a service life of 50 years or more under standard operating conditions.
+- Optimized Hydraulics and Low Pressure Loss: The exceptionally smooth internal surface of the PP-R crossover minimizes friction and prevents the buildup of limescale and biofilms. The smooth curvature of the arch ensures that pressure loss is kept to an absolute minimum compared to angular bypass assemblies.
+- Thermal and Acoustic Insulation: PP-R naturally dampens water flow noise and water hammer effects, leading to much quieter plumbing systems. Furthermore, its low thermal conductivity reduces heat loss in hot water lines and minimizes condensation on cold water lines.
+- High Temperature and Pressure Tolerance: Designed to handle the rigors of modern plumbing, PP-R crossovers maintain their structural integrity even under continuous high temperatures and internal pressures, making them perfectly suited for both sanitary and heating applications.
+- Hygienic and Non-Toxic: PP-R is a food-grade material. It does not impart any taste, odor, or harmful chemicals to the water, ensuring the highest standards of drinking water hygiene.
 
 #### Installation Guidelines for Seamless Crossing
 
@@ -146,9 +146,9 @@ All PP-R crossover fittings undergo rigorous quality control procedures during t
 
 تتوفر وصلات العبور K-Aqua PP-R بأكثر الأقطار شيوعاً لضمان أقصى درجات التوافق مع أنظمة الأنابيب القياسية في المشاريع السكنية والتجارية. أرقام المقالات الخاصة بوصلات العبور عالية الجودة لدينا هي AQ26720 و AQ26725 و AQ26732، والتي تتوافق مع الأقطار الخارجية 20 مم، 25 مم، و 32 مم على التوالي.
 
-- **حجم 20 مم (رمز المنتج: AQ26720):** يعتبر هذا الحجم الخيار القياسي لتركيبات مياه الشرب في المنازل أو لتوصيل نقاط الاستهلاك الفردية. يتوفر هذا الحجم في عبوات تحتوي على 90 قطعة، مما يجعله مثالياً للمشاريع واسعة النطاق.
-- **حجم 25 مم (رمز المنتج: AQ26725):** يُستخدم بشكل متكرر في الخطوط الرئيسية داخل الشقق، أو في أنابيب الصعود (الروايزر)، أو في التطبيقات التي تتطلب معدل تدفق أعلى للمياه. يتوفر أيضاً في عبوات تحتوي على 90 قطعة.
-- **حجم 32 مم (رمز المنتج: AQ26732):** الحل المثالي للمباني السكنية الكبيرة، التطبيقات التجارية، أو المشاريع الصناعية حيث يجب ضمان تدفق عالٍ للمياه وتقليل فقدان الضغط إلى أدنى حد. يتوفر في عبوات تحتوي على 65 قطعة.
+- حجم 20 مم (رمز المنتج: AQ26720): يعتبر هذا الحجم الخيار القياسي لتركيبات مياه الشرب في المنازل أو لتوصيل نقاط الاستهلاك الفردية. يتوفر هذا الحجم في عبوات تحتوي على 90 قطعة، مما يجعله مثالياً للمشاريع واسعة النطاق.
+- حجم 25 مم (رمز المنتج: AQ26725): يُستخدم بشكل متكرر في الخطوط الرئيسية داخل الشقق، أو في أنابيب الصعود (الروايزر)، أو في التطبيقات التي تتطلب معدل تدفق أعلى للمياه. يتوفر أيضاً في عبوات تحتوي على 90 قطعة.
+- حجم 32 مم (رمز المنتج: AQ26732): الحل المثالي للمباني السكنية الكبيرة، التطبيقات التجارية، أو المشاريع الصناعية حيث يجب ضمان تدفق عالٍ للمياه وتقليل فقدان الضغط إلى أدنى حد. يتوفر في عبوات تحتوي على 65 قطعة.
 
 يضمن التصنيع الدقيق لهذه الوصلات عملية لحام سلسة وملاءمة دقيقة، مما يقلل بشكل كبير من الوقت اللازم للتركيب.
 
@@ -156,20 +156,20 @@ All PP-R crossover fittings undergo rigorous quality control procedures during t
 
 تتعدد استخدامات وصلة العبور PP-R بشكل كبير في قطاع البناء والتشييد:
 
-1. **أنظمة مياه الشرب (الباردة والساخنة):** عند تمديد خطوط المياه الباردة والساخنة، تتقاطع مسارات الأنابيب بشكل متكرر. تمنع وصلة العبور التداخل المادي بين الأنابيب وتسهل عملية العزل الحراري لكل أنبوب على حدة وفقاً للمعايير الهندسية.
-2. **أنظمة التدفئة المركزية:** في دوائر التدفئة، وخاصة عند توصيلات المشعات (الرادياتير) أو مجمعات التدفئة، غالباً ما تتقاطع خطوط الإمداد والعودة. توفر وصلة العبور حلاً أنيقاً وفعالاً من الناحية الهيدروليكية لتجاوز هذه الخطوط.
-3. **تكييف الهواء وأنظمة المياه المبردة:** نظراً لمقاومة مادة PP-R الممتازة للتكثف وخصائص العزل الجيدة، تُستخدم وصلات العبور في توجيه الأنابيب المعقدة في أنظمة التدفئة والتهوية وتكييف الهواء (HVAC).
-4. **شبكات الأنابيب الصناعية:** في المنشآت الصناعية حيث تكون المقاومة الكيميائية مطلوبة بشدة، توفر وصلات العبور PP-R تقاطعاً آمناً لخطوط المعالجة والمواد الكيميائية.
+1. أنظمة مياه الشرب (الباردة والساخنة): عند تمديد خطوط المياه الباردة والساخنة، تتقاطع مسارات الأنابيب بشكل متكرر. تمنع وصلة العبور التداخل المادي بين الأنابيب وتسهل عملية العزل الحراري لكل أنبوب على حدة وفقاً للمعايير الهندسية.
+2. أنظمة التدفئة المركزية: في دوائر التدفئة، وخاصة عند توصيلات المشعات (الرادياتير) أو مجمعات التدفئة، غالباً ما تتقاطع خطوط الإمداد والعودة. توفر وصلة العبور حلاً أنيقاً وفعالاً من الناحية الهيدروليكية لتجاوز هذه الخطوط.
+3. تكييف الهواء وأنظمة المياه المبردة: نظراً لمقاومة مادة PP-R الممتازة للتكثف وخصائص العزل الجيدة، تُستخدم وصلات العبور في توجيه الأنابيب المعقدة في أنظمة التدفئة والتهوية وتكييف الهواء (HVAC).
+4. شبكات الأنابيب الصناعية: في المنشآت الصناعية حيث تكون المقاومة الكيميائية مطلوبة بشدة، توفر وصلات العبور PP-R تقاطعاً آمناً لخطوط المعالجة والمواد الكيميائية.
 
 #### مميزات استخدام مادة PP-R في وصلات العبور
 
 لقد أحدث البولي بروبيلين العشوائي (PP-R) ثورة في صناعة الأنابيب. يوفر استخدام مادة PP-R لوصلات العبور مزايا عديدة مقارنة بالمواد التقليدية مثل النحاس أو الحديد المجلفن:
 
-- **مقاومة مطلقة للتآكل والصدأ:** على عكس المعادن، لا يصدأ PP-R أو يتآكل. يمكنه تحمل المياه ذات الطبيعة القاسية، مما يضمن عمراً افتراضياً يتجاوز 50 عاماً تحت ظروف التشغيل القياسية.
-- **فقدان ضغط منخفض وهيدروليكا محسنة:** السطح الداخلي الأملس جداً لوصلة العبور يقلل من مقاومة الاحتكاك ويمنع تراكم الترسبات الكلسية والأغشية الحيوية. كما يضمن التصميم الانسيابي للقوس بقاء انخفاض الضغط عند نقطة التقاطع عند الحد الأدنى.
-- **العزل الحراري والصوتي:** تعمل مادة PP-R بشكل طبيعي على امتصاص ضوضاء تدفق المياه وتقليل تأثير المطرقة المائية، مما يؤدي إلى تركيبات أكثر هدوءاً. علاوة على ذلك، فإن التوصيل الحراري المنخفض يقلل من فقدان الحرارة في خطوط المياه الساخنة.
-- **مقاومة عالية للحرارة والضغط:** صُممت أنظمة PP-R لتحمل ضغوط التشغيل العالية ودرجات حرارة المياه المرتفعة، مما يجعلها آمنة تماماً لكل من مياه الشرب ومياه التدفئة.
-- **نظافة استثنائية:** مادة PP-R آمنة غذائياً وغير سامة. فهي لا تنقل أي طعم أو رائحة أو مواد كيميائية ضارة إلى الماء، مما يلبي أعلى متطلبات نظافة مياه الشرب.
+- مقاومة مطلقة للتآكل والصدأ: على عكس المعادن، لا يصدأ PP-R أو يتآكل. يمكنه تحمل المياه ذات الطبيعة القاسية، مما يضمن عمراً افتراضياً يتجاوز 50 عاماً تحت ظروف التشغيل القياسية.
+- فقدان ضغط منخفض وهيدروليكا محسنة: السطح الداخلي الأملس جداً لوصلة العبور يقلل من مقاومة الاحتكاك ويمنع تراكم الترسبات الكلسية والأغشية الحيوية. كما يضمن التصميم الانسيابي للقوس بقاء انخفاض الضغط عند نقطة التقاطع عند الحد الأدنى.
+- العزل الحراري والصوتي: تعمل مادة PP-R بشكل طبيعي على امتصاص ضوضاء تدفق المياه وتقليل تأثير المطرقة المائية، مما يؤدي إلى تركيبات أكثر هدوءاً. علاوة على ذلك، فإن التوصيل الحراري المنخفض يقلل من فقدان الحرارة في خطوط المياه الساخنة.
+- مقاومة عالية للحرارة والضغط: صُممت أنظمة PP-R لتحمل ضغوط التشغيل العالية ودرجات حرارة المياه المرتفعة، مما يجعلها آمنة تماماً لكل من مياه الشرب ومياه التدفئة.
+- نظافة استثنائية: مادة PP-R آمنة غذائياً وغير سامة. فهي لا تنقل أي طعم أو رائحة أو مواد كيميائية ضارة إلى الماء، مما يلبي أعلى متطلبات نظافة مياه الشرب.
 
 #### إرشادات التركيب واللحام
 

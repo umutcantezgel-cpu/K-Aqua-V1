@@ -28,10 +28,10 @@ Das PP-R T-Stück 90° mit Innengewinde (Tee 90° Female Thread) ist eine essenz
 #### Technische Spezifikationen und Konstruktionsmerkmale
 Das Übergangs-T-Stück zeichnet sich durch zwei Schweißmuffen (Socket Fusion Ends) und einen 90-Grad-Abzweig mit zylindrischem Innengewinde aus. Diese Konstruktion ermöglicht die nahtlose Integration von Armaturen, Sensoren, Ventilen oder metallischen Rohrleitungen in ein bestehendes PP-R-Netzwerk.
 Die verfügbaren Dimensionen umfassen die gängigsten Größen für vielseitige Anwendungen:
-- **20 mm x ½" (Artikelnummer AQ13RP20)**: Ideal für feine Abzweigungen und den Anschluss von Standard-Sanitärarmaturen.
-- **25 mm x ¾" (Artikelnummer AQ13RP25)**: Perfekt für Steigleitungen und Heizungsverteiler mit mittlerem Durchfluss.
-- **32 mm x 1" (Artikelnummer AQ13RP32)**: Geeignet für Hauptversorgungsleitungen und industrielle Anwendungen, die ein größeres Volumen erfordern.
-- **40 mm x 1¼" (Artikelnummer AQ13RP40)**: Entwickelt für Hochleistungsnetze, große Verteileranlagen und kommunale Wasserversorgungssysteme.
+- 20 mm x ½" (Artikelnummer AQ13RP20): Ideal für feine Abzweigungen und den Anschluss von Standard-Sanitärarmaturen.
+- 25 mm x ¾" (Artikelnummer AQ13RP25): Perfekt für Steigleitungen und Heizungsverteiler mit mittlerem Durchfluss.
+- 32 mm x 1" (Artikelnummer AQ13RP32): Geeignet für Hauptversorgungsleitungen und industrielle Anwendungen, die ein größeres Volumen erfordern.
+- 40 mm x 1¼" (Artikelnummer AQ13RP40): Entwickelt für Hochleistungsnetze, große Verteileranlagen und kommunale Wasserversorgungssysteme.
 
 Das Metallgewinde ist so in den Kunststoffkörper eingegossen, dass es extrem hohen Torsionskräften standhält und ein Mitdrehen beim Einschrauben von Metallfittings absolut verhindert wird. Dies wird durch ein spezielles Verankerungsdesign im Inneren des Bauteils erreicht, das höchste Stabilität gewährleistet.
 
@@ -45,11 +45,11 @@ Beim Anschluss der metallischen Komponente an das Innengewinde ist darauf zu ach
 
 ### Anwendungsbereiche und Einsatzgebiete
 Dank seiner robusten Bauweise und hygienischen Unbedenklichkeit ist das PP-R T-Stück mit Innengewinde extrem vielseitig einsetzbar:
-1. **Trinkwasserinstallationen**: Das Material ist lebensmittelecht und gibt keinerlei Geschmack oder Geruch an das Trinkwasser ab, weshalb es weltweit zertifiziert ist.
-2. **Heizungs- und Klimasysteme**: Die hohe Temperaturbeständigkeit (oft bis zu 95°C bei entsprechendem Betriebsdruck) macht es ideal für Warmwasserheizungen und Kaltwassersätze.
-3. **Industrieanlagen**: Die Resistenz gegen zahlreiche Chemikalien erlaubt den Transport verschiedenster Prozessmedien unter extremen Bedingungen.
-4. **Druckluftnetze**: Das System bietet eine leckagefreie und sichere Lösung für pneumatische Anwendungen in Werkstätten und Fabriken.
-5. **Landwirtschaft und Bewässerung**: Widerstandsfähigkeit gegenüber Umwelteinflüssen und mechanischen Belastungen prädestinieren es für den Einsatz in Gewächshäusern und großflächigen Bewässerungsanlagen.
+1. Trinkwasserinstallationen: Das Material ist lebensmittelecht und gibt keinerlei Geschmack oder Geruch an das Trinkwasser ab, weshalb es weltweit zertifiziert ist.
+2. Heizungs- und Klimasysteme: Die hohe Temperaturbeständigkeit (oft bis zu 95°C bei entsprechendem Betriebsdruck) macht es ideal für Warmwasserheizungen und Kaltwassersätze.
+3. Industrieanlagen: Die Resistenz gegen zahlreiche Chemikalien erlaubt den Transport verschiedenster Prozessmedien unter extremen Bedingungen.
+4. Druckluftnetze: Das System bietet eine leckagefreie und sichere Lösung für pneumatische Anwendungen in Werkstätten und Fabriken.
+5. Landwirtschaft und Bewässerung: Widerstandsfähigkeit gegenüber Umwelteinflüssen und mechanischen Belastungen prädestinieren es für den Einsatz in Gewächshäusern und großflächigen Bewässerungsanlagen.
 
 #### Warum dieses Fitting die richtige Wahl ist
 Die Entscheidung für dieses spezifische Übergangsfitting ist eine Investition in die Betriebssicherheit. Die Kombination aus der Langlebigkeit des Kunststoffs und der Stabilität des Metallgewindes bietet das Beste aus zwei Welten. Bauherren, Installateure und Ingenieure schätzen die einfache Handhabung, das geringe Gewicht und die absolute Zuverlässigkeit. Durch die Reduzierung von Wartungskosten und die Vermeidung von Leckagen amortisiert sich der Einsatz dieser hochwertigen PP-R Komponenten in kürzester Zeit. Vertrauen Sie auf zertifizierte Qualität und modernste Fertigungstechnik für Ihre Rohrleitungsprojekte.
@@ -61,10 +61,10 @@ The PP-R Tee 90° with Female Thread is an essential component in modern plumbin
 #### Technical Specifications and Advanced Design Features
 This specialized transition tee is characterized by two socket fusion ends and a 90-degree branch outlet featuring a cylindrical female thread. This intelligent construction allows for the seamless integration of fixtures, pressure sensors, valves, or metallic pipes directly into an existing PP-R network without compromising the structural integrity of the system.
 The available dimensions cover the most critical sizes for versatile applications across various sectors:
-- **20 mm x ½" (Article Code: AQ13RP20)**: Ideal for precise, smaller-scale branching and the connection of standard sanitary fixtures, faucets, and localized distribution points.
-- **25 mm x ¾" (Article Code: AQ13RP25)**: Perfectly suited for riser pipes, secondary distribution lines, and heating manifolds requiring moderate flow rates.
-- **32 mm x 1" (Article Code: AQ13RP32)**: Highly recommended for primary supply lines, commercial applications, and industrial setups that demand a larger volumetric flow.
-- **40 mm x 1¼" (Article Code: AQ13RP40)**: Specifically engineered for heavy-duty networks, large-scale distribution systems, and municipal water supply infrastructure.
+- 20 mm x ½" (Article Code: AQ13RP20): Ideal for precise, smaller-scale branching and the connection of standard sanitary fixtures, faucets, and localized distribution points.
+- 25 mm x ¾" (Article Code: AQ13RP25): Perfectly suited for riser pipes, secondary distribution lines, and heating manifolds requiring moderate flow rates.
+- 32 mm x 1" (Article Code: AQ13RP32): Highly recommended for primary supply lines, commercial applications, and industrial setups that demand a larger volumetric flow.
+- 40 mm x 1¼" (Article Code: AQ13RP40): Specifically engineered for heavy-duty networks, large-scale distribution systems, and municipal water supply infrastructure.
 
 The metallic thread is intricately molded and deeply anchored into the plastic body during the manufacturing process. This exceptional design ensures that the metal insert can withstand extremely high torsional forces, completely preventing it from turning or coming loose when metallic fittings are screwed in. This guarantees structural stability even under demanding operational pressures.
 
@@ -78,11 +78,11 @@ When connecting the metallic component to the female thread, it is absolutely im
 
 ### Areas of Application and Industrial Uses
 Thanks to its robust construction, pressure tolerance, and sanitary safety, the PP-R Tee with Female Thread is incredibly versatile and can be deployed in a multitude of scenarios:
-1. **Potable Water Installations**: The material is fully food-grade certified, non-toxic, and does not impart any foreign taste, odor, or harmful chemicals to the drinking water.
-2. **Heating and Cooling Systems**: Its remarkable thermal stability (capable of handling temperatures up to 95°C under appropriate operating pressures) makes it the ideal choice for central heating loops and chilled water air conditioning circuits.
-3. **Industrial Processing Plants**: The high resistance to a wide spectrum of chemicals allows for the safe and efficient transport of various processing media and industrial fluids.
-4. **Compressed Air Networks**: The fusion-welded system provides a completely leak-free and secure solution for pneumatic applications, reducing energy waste associated with air leaks.
-5. **Agriculture and Irrigation**: Unyielding resistance to harsh environmental factors, UV degradation (when properly shielded), and mechanical stress make it perfect for greenhouse plumbing and expansive irrigation systems.
+1. Potable Water Installations: The material is fully food-grade certified, non-toxic, and does not impart any foreign taste, odor, or harmful chemicals to the drinking water.
+2. Heating and Cooling Systems: Its remarkable thermal stability (capable of handling temperatures up to 95°C under appropriate operating pressures) makes it the ideal choice for central heating loops and chilled water air conditioning circuits.
+3. Industrial Processing Plants: The high resistance to a wide spectrum of chemicals allows for the safe and efficient transport of various processing media and industrial fluids.
+4. Compressed Air Networks: The fusion-welded system provides a completely leak-free and secure solution for pneumatic applications, reducing energy waste associated with air leaks.
+5. Agriculture and Irrigation: Unyielding resistance to harsh environmental factors, UV degradation (when properly shielded), and mechanical stress make it perfect for greenhouse plumbing and expansive irrigation systems.
 
 #### Why This Fitting is the Ultimate Choice
 Choosing this specific transition fitting is a long-term investment in operational reliability and peace of mind. The strategic combination of the plastic's incredible longevity and the metal thread's mechanical stability truly offers the best of both worlds. Architects, building contractors, certified installers, and mechanical engineers highly value its straightforward handling, remarkably low weight, and absolute dependability. By drastically reducing maintenance costs, accelerating installation times, and completely eliminating the risk of hidden leaks, the deployment of these premium PP-R components pays for itself in record time. Trust in certified, industry-leading quality and state-of-the-art manufacturing technology for all your critical piping projects.
@@ -94,10 +94,10 @@ Choosing this specific transition fitting is a long-term investment in operation
 #### المواصفات الفنية وميزات التصميم المتقدمة
 تتميز هذه الوصلة الانتقالية المتخصصة بنهايتين للّحام الحراري (Socket Fusion Ends) ومخرج فرعي بزاوية 90 درجة يحتوي على سن داخلي أسطواني. يسمح هذا التصميم الذكي بالدمج السلس للتركيبات، أو أجهزة استشعار الضغط، أو الصمامات، أو الأنابيب المعدنية مباشرة في شبكة PP-R الحالية دون المساس بالسلامة الهيكلية للنظام.
 تغطي الأبعاد المتاحة الأحجام الأكثر أهمية لتطبيقات متعددة الاستخدامات في مختلف القطاعات:
-- **20 مم × ½ بوصة (رمز المقال: AQ13RP20)**: مثالي للتفريعات الدقيقة والصغيرة الحجم وتوصيل تركيبات الصرف الصحي القياسية وصنابير المياه ونقاط التوزيع المحلية في المنازل.
-- **25 مم × ¾ بوصة (رمز المقال: AQ13RP25)**: مناسب تماماً للأنابيب الصاعدة، وخطوط التوزيع الثانوية، ومشعبات التدفئة التي تتطلب معدلات تدفق متوسطة ومستقرة.
-- **32 مم × 1 بوصة (رمز المقال: AQ13RP32)**: يوصى به بشدة لخطوط الإمداد الرئيسية، والتطبيقات التجارية، والمنشآت الصناعية التي تتطلب تدفقاً حجمياً أكبر وقوة تحمل أعلى.
-- **40 مم × 1¼ بوصة (رمز المقال: AQ13RP40)**: مصمم خصيصاً للشبكات شديدة التحمل، وأنظمة التوزيع واسعة النطاق، والبنية التحتية لإمدادات المياه البلدية والمشاريع الكبيرة.
+- 20 مم × ½ بوصة (رمز المقال: AQ13RP20): مثالي للتفريعات الدقيقة والصغيرة الحجم وتوصيل تركيبات الصرف الصحي القياسية وصنابير المياه ونقاط التوزيع المحلية في المنازل.
+- 25 مم × ¾ بوصة (رمز المقال: AQ13RP25): مناسب تماماً للأنابيب الصاعدة، وخطوط التوزيع الثانوية، ومشعبات التدفئة التي تتطلب معدلات تدفق متوسطة ومستقرة.
+- 32 مم × 1 بوصة (رمز المقال: AQ13RP32): يوصى به بشدة لخطوط الإمداد الرئيسية، والتطبيقات التجارية، والمنشآت الصناعية التي تتطلب تدفقاً حجمياً أكبر وقوة تحمل أعلى.
+- 40 مم × 1¼ بوصة (رمز المقال: AQ13RP40): مصمم خصيصاً للشبكات شديدة التحمل، وأنظمة التوزيع واسعة النطاق، والبنية التحتية لإمدادات المياه البلدية والمشاريع الكبيرة.
 
 يتم تشكيل السن المعدني وتثبيته بعمق داخل الهيكل البلاستيكي أثناء عملية التصنيع. يضمن هذا التصميم الاستثنائي قدرة الجزء المعدني الداخلي على تحمل قوى الالتواء العالية جداً، مما يمنعه تماماً من الدوران أو التخلخل عند تثبيت المكونات المعدنية فيه. هذا يضمن استقراراً هيكلياً حتى تحت ضغوط التشغيل الصعبة للغاية.
 
@@ -111,11 +111,11 @@ Choosing this specific transition fitting is a long-term investment in operation
 
 ### مجالات التطبيق والاستخدامات الصناعية
 بفضل بنيتها القوية، وقدرتها على تحمل الضغط العالي، وسلامتها الصحية التي لا تضاهى، فإن وصلة تي من PP-R بسن داخلي متعددة الاستخدامات بشكل لا يصدق ويمكن نشرها في العديد من السيناريوهات والمشاريع المختلفة:
-1. **منشآت مياه الشرب**: المادة معتمدة بالكامل ومناسبة للمواد الغذائية، وغير سامة، ولا تنقل أي طعم أو رائحة غريبة أو مواد كيميائية ضارة إلى مياه الشرب، مما يجعلها الخيار الأول عالمياً.
-2. **أنظمة التدفئة والتبريد**: استقرارها الحراري الملحوظ (قادرة على التعامل مع درجات حرارة تصل إلى 95 درجة مئوية تحت ضغوط التشغيل المناسبة) يجعلها الخيار المثالي لحلقات التدفئة المركزية ودوائر تكييف الهواء بالماء المبرد.
-3. **مصانع المعالجة الصناعية**: تتيح المقاومة العالية لمجموعة واسعة من المواد الكيميائية النقل الآمن والفعال لوسائط المعالجة المختلفة والسوائل الصناعية في أشد الظروف قسوة.
-4. **شبكات الهواء المضغوط**: يوفر النظام الملحوم بالانصهار حلاً خالياً تماماً من التسرب وآمناً للتطبيقات الهوائية، مما يقلل بشكل هائل من هدر الطاقة المرتبط بتسرب الهواء المضغوط من الوصلات.
-5. **الزراعة والري**: المقاومة الثابتة للعوامل البيئية القاسية، والتدهور بسبب الأشعة فوق البنفسجية (عند حمايتها بشكل صحيح تحت الأرض أو بطلاء)، والإجهاد الميكانيكي يجعلها مثالية لسباكة الدفيئات وأنظمة الري التوسعية.
+1. منشآت مياه الشرب: المادة معتمدة بالكامل ومناسبة للمواد الغذائية، وغير سامة، ولا تنقل أي طعم أو رائحة غريبة أو مواد كيميائية ضارة إلى مياه الشرب، مما يجعلها الخيار الأول عالمياً.
+2. أنظمة التدفئة والتبريد: استقرارها الحراري الملحوظ (قادرة على التعامل مع درجات حرارة تصل إلى 95 درجة مئوية تحت ضغوط التشغيل المناسبة) يجعلها الخيار المثالي لحلقات التدفئة المركزية ودوائر تكييف الهواء بالماء المبرد.
+3. مصانع المعالجة الصناعية: تتيح المقاومة العالية لمجموعة واسعة من المواد الكيميائية النقل الآمن والفعال لوسائط المعالجة المختلفة والسوائل الصناعية في أشد الظروف قسوة.
+4. شبكات الهواء المضغوط: يوفر النظام الملحوم بالانصهار حلاً خالياً تماماً من التسرب وآمناً للتطبيقات الهوائية، مما يقلل بشكل هائل من هدر الطاقة المرتبط بتسرب الهواء المضغوط من الوصلات.
+5. الزراعة والري: المقاومة الثابتة للعوامل البيئية القاسية، والتدهور بسبب الأشعة فوق البنفسجية (عند حمايتها بشكل صحيح تحت الأرض أو بطلاء)، والإجهاد الميكانيكي يجعلها مثالية لسباكة الدفيئات وأنظمة الري التوسعية.
 
 #### لماذا تعتبر هذه الوصلة الخيار الأمثل على الإطلاق
 إن اختيار هذه الوصلة الانتقالية المحددة هو استثمار استراتيجي طويل الأجل في الموثوقية التشغيلية وراحة البال لكل من المقاول والمالك. يوفر الجمع الاستراتيجي بين طول العمر المذهل للبلاستيك والاستقرار الميكانيكي للسن المعدني أفضل ما في العالمين حقاً. يقدر المهندسون المعماريون ومقاولو البناء وعمال التركيب المعتمدون والمهندسون الميكانيكيون تقديراً عالياً سهولة التعامل معها، ووزنها الخفيف بشكل ملحوظ مما يسهل النقل، وموثوقيتها المطلقة في أداء وظيفتها. من خلال تقليل تكاليف الصيانة المستقبلية بشكل كبير، وتسريع أوقات التركيب الأولية، والقضاء تماماً على خطر التسريبات المخفية التي قد تدمر المباني، فإن نشر مكونات PP-R المتميزة هذه يغطي تكاليفه في وقت قياسي. ثق في الجودة المعتمدة عالمياً والرائدة في الصناعة وتكنولوجيا التصنيع الحديثة لجميع مشاريع الأنابيب الحيوية الخاصة بك، لأن البنية التحتية السليمة تبدأ بوصلات لا تقبل المساومة على الجودة.

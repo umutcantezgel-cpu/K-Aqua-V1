@@ -12,7 +12,7 @@
 // Eigener State (aktive SDR) -> "use client".
 "use client";
 import React, { useState } from "react";
-import { useTranslations, useLocale } from "next-intl";
+import { useLocale } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Card } from "@/components/ui/Card";
@@ -33,19 +33,51 @@ interface Anchor {
   c: string;
 }
 
-export function ProductsDeep() {
-  const t = useTranslations("productsx");
+export interface ProductsDeepTranslations {
+  pipes: PipeFamily[];
+  anchors: Anchor[];
+  matHead: string[];
+  matRows: string[][];
+  normHead: string[];
+  norms: string[][];
+  faq: Array<{ q: string; a: string }>;
+  dimHead: string[];
+  pipesEyebrow: string;
+  pipesTitle: string;
+  pipesLead: string;
+  pipesCta: string;
+  dimEyebrow: string;
+  dimTitle: string;
+  dimLead: string;
+  dimTabAria: string;
+  dimNote: string;
+  anchorsTitle: string;
+  matEyebrow: string;
+  matTitle: string;
+  matLead: string;
+  normEyebrow: string;
+  normTitle: string;
+  normLead: string;
+  faqEyebrow: string;
+  faqTitle: string;
+}
+
+interface ProductsDeepProps {
+  translations: ProductsDeepTranslations;
+}
+
+export function ProductsDeep({ translations }: ProductsDeepProps) {
   const locale = useLocale() as "de" | "en" | "ar";
   const [sdr, setSdr] = useState<number>(6);
 
-  const pipes = (t.raw("pipes") || []) as PipeFamily[];
-  const anchors = (t.raw("anchors") || []) as Anchor[];
-  const matHead = (t.raw("matHead") || []) as string[];
-  const matRows = (t.raw("matRows") || []) as string[][];
-  const normHead = (t.raw("normHead") || []) as string[];
-  const norms = (t.raw("norms") || []) as string[][];
-  const faq = (t.raw("faq") || []) as Array<{ q: string; a: string }>;
-  const dimHead = (t.raw("dimHead") || []) as string[];
+  const {
+    pipes, anchors, matHead, matRows, normHead, norms, faq, dimHead,
+    pipesEyebrow, pipesTitle, pipesLead, pipesCta,
+    dimEyebrow, dimTitle, dimLead, dimTabAria, dimNote, anchorsTitle,
+    matEyebrow, matTitle, matLead,
+    normEyebrow, normTitle, normLead,
+    faqEyebrow, faqTitle
+  } = translations;
 
   const fmtSdr = (s: number) => "SDR " + (locale === "de" ? String(s).replace(".", ",") : String(s));
   const rows = tableForSdr(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
@@ -56,7 +88,7 @@ export function ProductsDeep() {
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-pipe-families">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>
-            <SectionHead eyebrow={t("pipesEyebrow")} title={t("pipesTitle")} lead={t("pipesLead")} />
+            <SectionHead eyebrow={pipesEyebrow} title={pipesTitle} lead={pipesLead} />
           </Reveal>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
             {pipes.map((p, i) => (
@@ -71,7 +103,7 @@ export function ProductsDeep() {
                     else if (tg.includes("d")) label = "Dimension";
                     return { label, value: tg };
                   })}
-                  cta={t("pipesCta") || "Produktsystem entdecken"}
+                  cta={pipesCta || "Produktsystem entdecken"}
                   href={`/produkte`}
                 />
               </Reveal>
@@ -111,10 +143,10 @@ export function ProductsDeep() {
       <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="products-dimensions">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>
-            <SectionHead eyebrow={t("dimEyebrow")} title={t("dimTitle")} lead={t("dimLead")} />
+            <SectionHead eyebrow={dimEyebrow} title={dimTitle} lead={dimLead} />
           </Reveal>
           <Reveal delay={0.08}>
-            <div className="mb-5 flex flex-wrap gap-2" role="tablist" aria-label={t("dimTabAria")}>
+            <div className="mb-5 flex flex-wrap gap-2" role="tablist" aria-label={dimTabAria}>
               {SDRS.map((s) => (
                 <button
                   key={s}
@@ -134,7 +166,7 @@ export function ProductsDeep() {
             </div>
           </Reveal>
           <Reveal delay={0.12}>
-            <DeepMatrix head={dimHead} rows={rows} heroCol={3} note={t("dimNote")} />
+            <DeepMatrix head={dimHead} rows={rows} heroCol={3} note={dimNote} />
           </Reveal>
           <div className="mt-6 grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-4">
             {anchors.map((a, i) => (
@@ -147,7 +179,7 @@ export function ProductsDeep() {
               </Reveal>
             ))}
           </div>
-          <p className="mt-3 text-tiny leading-relaxed text-faint-foreground">{t("anchorsTitle")}</p>
+          <p className="mt-3 text-tiny leading-relaxed text-faint-foreground">{anchorsTitle}</p>
         </div>
       </section>
 
@@ -155,7 +187,7 @@ export function ProductsDeep() {
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-material">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>
-            <SectionHead eyebrow={t("matEyebrow")} title={t("matTitle")} lead={t("matLead")} />
+            <SectionHead eyebrow={matEyebrow} title={matTitle} lead={matLead} />
           </Reveal>
           <Reveal delay={0.08}>
             <DeepMatrix head={matHead} rows={matRows} heroCol={1} />
@@ -167,7 +199,7 @@ export function ProductsDeep() {
       <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="products-norms">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>
-            <SectionHead eyebrow={t("normEyebrow")} title={t("normTitle")} lead={t("normLead")} />
+            <SectionHead eyebrow={normEyebrow} title={normTitle} lead={normLead} />
           </Reveal>
           <Reveal delay={0.08}>
             <DeepMatrix head={normHead} rows={norms} heroCol={0} />
@@ -179,7 +211,7 @@ export function ProductsDeep() {
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-faq">
         <div className="mx-auto max-w-[820px] px-6">
           <Reveal>
-            <SectionHead eyebrow={t("faqEyebrow")} title={t("faqTitle")} />
+            <SectionHead eyebrow={faqEyebrow} title={faqTitle} />
           </Reveal>
           <Reveal delay={0.08}>
             <DeepFAQ items={faq} />

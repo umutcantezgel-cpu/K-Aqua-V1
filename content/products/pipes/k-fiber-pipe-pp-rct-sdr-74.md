@@ -7,7 +7,7 @@ article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50"]
 
 # K-Fiber Pipe PP-RCT SDR 7.4
 
-**S 3.2** - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
+S 3.2 - Working pressure: 20°C / 2.0 MPa - 70°C / 1.0 MPa  
 Length: 4 m per bar. Fiber-reinforced middle layer reduces thermal expansion.
 
 ## Article Table
@@ -38,16 +38,16 @@ Eines der größten Probleme bei Kunststoffrohren unter Temperatureinfluss ist d
 
 #### Technische Spezifikationen und Leistungsdaten im Detail
 Das K-Fiber Pipe in der SDR 7.4 / S 3.2 Klassifikation ist für höchste Beanspruchungen ausgelegt. 
-*   **Druck- und Temperaturbeständigkeit:** Bei einer Medientemperatur von 20°C hält das System einem Betriebsdruck von bis zu 2,0 MPa (20 bar) stand. Selbst bei erhöhten Temperaturen von 70°C, wie sie typischerweise in Heizungs- und Warmwassernetzen vorkommen, garantiert das Rohr noch einen sicheren Betriebsdruck von 1,0 MPa (10 bar).
-*   **Dimensionen und Maße:** Das Rohr wird in praktischen Stangen zu 4 Metern geliefert, was das Handling auf der Baustelle und den Transport erleichtert. Es ist in den Durchmessern 20 mm, 25 mm, 32 mm, 40 mm und 50 mm erhältlich, mit entsprechenden Wandstärken von 2,8 mm bis 6,9 mm. Dies ermöglicht eine flexible Dimensionierung des Rohrnetzes.
-*   **Gewichtsoptimierung:** Trotz seiner enormen Stabilität ist das Rohr ein Leichtgewicht. Bei einem Durchmesser von 20 mm wiegt es lediglich 0,16 kg/m, was die Überkopfmontage enorm vereinfacht.
+*   Druck- und Temperaturbeständigkeit: Bei einer Medientemperatur von 20°C hält das System einem Betriebsdruck von bis zu 2,0 MPa (20 bar) stand. Selbst bei erhöhten Temperaturen von 70°C, wie sie typischerweise in Heizungs- und Warmwassernetzen vorkommen, garantiert das Rohr noch einen sicheren Betriebsdruck von 1,0 MPa (10 bar).
+*   Dimensionen und Maße: Das Rohr wird in praktischen Stangen zu 4 Metern geliefert, was das Handling auf der Baustelle und den Transport erleichtert. Es ist in den Durchmessern 20 mm, 25 mm, 32 mm, 40 mm und 50 mm erhältlich, mit entsprechenden Wandstärken von 2,8 mm bis 6,9 mm. Dies ermöglicht eine flexible Dimensionierung des Rohrnetzes.
+*   Gewichtsoptimierung: Trotz seiner enormen Stabilität ist das Rohr ein Leichtgewicht. Bei einem Durchmesser von 20 mm wiegt es lediglich 0,16 kg/m, was die Überkopfmontage enorm vereinfacht.
 
 #### Vielfältige Anwendungsbereiche des K-Fiber Pipe PP-RCT
 Die herausragenden Eigenschaften machen das K-Fiber Pipe PP-RCT SDR 7.4 zu einem universellen Allrounder für anspruchsvolle Projekte:
-1.  **Trinkwasserinstallationen:** Dank der hohen hygienischen Standards und der Korrosionsfreiheit des PP-RCT Materials eignet sich das Rohr perfekt für die Kalt- und Warmwasserverteilung in Wohn- und Gewerbegebäuden. Es gibt keine geschmacklichen oder geruchlichen Beeinträchtigungen des Wassers.
-2.  **Heizungs- und Kühlsysteme:** Die Beständigkeit gegenüber hohen Temperaturen und die reduzierte Längenausdehnung prädestinieren das Faserverbundrohr für den Einsatz in Zentralheizungsnetzen, Fußbodenheizungsanbindungen und Klimakaltwassernetzen.
-3.  **Industrielle Anwendungen:** In der Industrie, wo oft aggressive Medien oder Prozesswasser unter Druck transportiert werden müssen, bietet das K-Fiber Pipe eine chemisch beständige und langlebige Alternative zu metallischen Rohren.
-4.  **Druckluftanlagen:** Die hohe Druckfestigkeit und die glatten Innenwände, die Druckverluste minimieren, machen es auch für Druckluftnetze hochinteressant.
+1.  Trinkwasserinstallationen: Dank der hohen hygienischen Standards und der Korrosionsfreiheit des PP-RCT Materials eignet sich das Rohr perfekt für die Kalt- und Warmwasserverteilung in Wohn- und Gewerbegebäuden. Es gibt keine geschmacklichen oder geruchlichen Beeinträchtigungen des Wassers.
+2.  Heizungs- und Kühlsysteme: Die Beständigkeit gegenüber hohen Temperaturen und die reduzierte Längenausdehnung prädestinieren das Faserverbundrohr für den Einsatz in Zentralheizungsnetzen, Fußbodenheizungsanbindungen und Klimakaltwassernetzen.
+3.  Industrielle Anwendungen: In der Industrie, wo oft aggressive Medien oder Prozesswasser unter Druck transportiert werden müssen, bietet das K-Fiber Pipe eine chemisch beständige und langlebige Alternative zu metallischen Rohren.
+4.  Druckluftanlagen: Die hohe Druckfestigkeit und die glatten Innenwände, die Druckverluste minimieren, machen es auch für Druckluftnetze hochinteressant.
 
 #### Vorteile bei der Installation und Verarbeitung
 Installateure schätzen das K-Fiber Pipe besonders wegen seiner hervorragenden Verarbeitungseigenschaften. Wie alle K-Aqua PP-R(CT) Rohre wird auch dieses Faserrohr durch das bewährte Muffenschweißverfahren verbunden. Dabei verschmelzen Rohr und Fitting zu einer homogenen, untrennbaren und dauerhaft dichten Einheit. Die faserverstärkte Schicht muss vor dem Schweißen in der Regel nicht aufwendig abgeschält werden (je nach genauer Herstellerspezifikation), was wertvolle Arbeitszeit spart. Zudem sorgt die hohe Eigensteifigkeit des Rohres dafür, dass größere Stützweiten bei der Befestigung realisiert werden können, was wiederum Material und Zeit bei der Installation einspart.
@@ -67,16 +67,16 @@ One of the most significant challenges when using plastic pipes under fluctuatin
 
 #### Technical Specifications and Performance Data in Detail
 The K-Fiber Pipe, classified as SDR 7.4 / S 3.2, is designed for maximum stress and demanding operational environments.
-*   **Pressure and Temperature Resistance:** At a fluid temperature of 20°C, the system effortlessly withstands a working pressure of up to 2.0 MPa (20 bar). Even at elevated temperatures of 70°C, which are typical in heating and domestic hot water networks, the pipe still guarantees a safe working pressure of 1.0 MPa (10 bar).
-*   **Dimensions and Measurements:** The pipe is supplied in practical 4-meter lengths, which facilitates easy handling on the construction site and convenient transportation. It is available in outer diameters of 20 mm, 25 mm, 32 mm, 40 mm, and 50 mm, with corresponding wall thicknesses ranging from 2.8 mm to 6.9 mm. This allows for flexible and precise sizing of the pipe network.
-*   **Weight Optimization:** Despite its immense structural stability, the pipe is remarkably lightweight. At a diameter of 20 mm, it weighs only 0.16 kg/m, making overhead installations significantly easier and less physically demanding for the installers.
+*   Pressure and Temperature Resistance: At a fluid temperature of 20°C, the system effortlessly withstands a working pressure of up to 2.0 MPa (20 bar). Even at elevated temperatures of 70°C, which are typical in heating and domestic hot water networks, the pipe still guarantees a safe working pressure of 1.0 MPa (10 bar).
+*   Dimensions and Measurements: The pipe is supplied in practical 4-meter lengths, which facilitates easy handling on the construction site and convenient transportation. It is available in outer diameters of 20 mm, 25 mm, 32 mm, 40 mm, and 50 mm, with corresponding wall thicknesses ranging from 2.8 mm to 6.9 mm. This allows for flexible and precise sizing of the pipe network.
+*   Weight Optimization: Despite its immense structural stability, the pipe is remarkably lightweight. At a diameter of 20 mm, it weighs only 0.16 kg/m, making overhead installations significantly easier and less physically demanding for the installers.
 
 #### Versatile Application Areas of the K-Fiber Pipe PP-RCT
 Its outstanding properties make the K-Fiber Pipe PP-RCT SDR 7.4 a universal all-rounder for a wide variety of demanding projects:
-1.  **Potable Water Installations:** Due to the highest hygienic standards and the corrosion-free nature of the PP-RCT material, the pipe is perfectly suited for the distribution of cold and hot potable water in residential and commercial buildings. It ensures that the water remains completely free of any taste or odor impairment.
-2.  **Heating and Cooling Systems:** The exceptional resistance to high temperatures and the drastically reduced thermal expansion make the fiber composite pipe ideal for central heating networks, underfloor heating connections, and chilled water lines in air conditioning systems.
-3.  **Industrial Applications:** In industrial settings, where aggressive fluids or pressurized process water often need to be transported, the K-Fiber Pipe offers a chemically resistant, durable, and highly reliable alternative to traditional metallic piping.
-4.  **Compressed Air Systems:** The high pressure resistance coupled with smooth inner walls that minimize friction and pressure loss makes this pipe highly interesting for compressed air distribution networks.
+1.  Potable Water Installations: Due to the highest hygienic standards and the corrosion-free nature of the PP-RCT material, the pipe is perfectly suited for the distribution of cold and hot potable water in residential and commercial buildings. It ensures that the water remains completely free of any taste or odor impairment.
+2.  Heating and Cooling Systems: The exceptional resistance to high temperatures and the drastically reduced thermal expansion make the fiber composite pipe ideal for central heating networks, underfloor heating connections, and chilled water lines in air conditioning systems.
+3.  Industrial Applications: In industrial settings, where aggressive fluids or pressurized process water often need to be transported, the K-Fiber Pipe offers a chemically resistant, durable, and highly reliable alternative to traditional metallic piping.
+4.  Compressed Air Systems: The high pressure resistance coupled with smooth inner walls that minimize friction and pressure loss makes this pipe highly interesting for compressed air distribution networks.
 
 #### Advantages in Installation and Processing
 Installers highly appreciate the K-Fiber Pipe due to its excellent processing characteristics. Like all K-Aqua PP-R and PP-RCT pipes, this fiber-reinforced pipe is joined using the proven socket fusion welding method. During this process, the pipe and the fitting fuse together to form a homogeneous, inseparable, and permanently leak-proof unit. Unlike some older composite pipes, the fiber-reinforced layer typically does not require tedious peeling or scraping before welding (depending on specific manufacturer instructions), saving valuable labor time. 
@@ -97,16 +97,16 @@ In summary, the K-Aqua K-Fiber Pipe PP-RCT SDR 7.4 is the intelligent choice for
 
 #### المواصفات الفنية وبيانات الأداء بالتفصيل
 تم تصميم أنبوب K-Fiber، المصنف تحت SDR 7.4 / S 3.2، لتحمل أقصى درجات الضغط وبيئات التشغيل الصعبة.
-*   **مقاومة الضغط والحرارة:** عند درجة حرارة سائل تبلغ 20 درجة مئوية، يتحمل النظام بسهولة ضغط تشغيل يصل إلى 2.0 ميجا باسكال (20 بار). وحتى عند درجات الحرارة المرتفعة التي تصل إلى 70 درجة مئوية، والتي تعتبر نموذجية في شبكات التدفئة وإمدادات المياه الساخنة المنزلية، يضمن الأنبوب ضغط تشغيل آمن يبلغ 1.0 ميجا باسكال (10 بار).
-*   **الأبعاد والقياسات:** يتم توريد الأنبوب في قضبان عملية بطول 4 أمتار، مما يسهل التعامل معه في موقع البناء وعملية النقل. وهو متوفر بأقطار خارجية تبلغ 20 مم، 25 مم، 32 مم، 40 مم، و 50 مم، مع سماكات جدار مقابلة تتراوح من 2.8 مم إلى 6.9 مم. يتيح ذلك مرونة كبيرة في تحديد حجم شبكة الأنابيب وتصميمها.
-*   **تحسين الوزن:** على الرغم من استقراره الهيكلي الهائل، فإن الأنبوب خفيف الوزن بشكل ملحوظ. عند قطر 20 مم، يزن فقط 0.16 كجم/م، مما يجعل التركيبات العلوية (في الأسقف) أسهل بكثير وأقل إرهاقًا بدنيًا للمركبين.
+*   مقاومة الضغط والحرارة: عند درجة حرارة سائل تبلغ 20 درجة مئوية، يتحمل النظام بسهولة ضغط تشغيل يصل إلى 2.0 ميجا باسكال (20 بار). وحتى عند درجات الحرارة المرتفعة التي تصل إلى 70 درجة مئوية، والتي تعتبر نموذجية في شبكات التدفئة وإمدادات المياه الساخنة المنزلية، يضمن الأنبوب ضغط تشغيل آمن يبلغ 1.0 ميجا باسكال (10 بار).
+*   الأبعاد والقياسات: يتم توريد الأنبوب في قضبان عملية بطول 4 أمتار، مما يسهل التعامل معه في موقع البناء وعملية النقل. وهو متوفر بأقطار خارجية تبلغ 20 مم، 25 مم، 32 مم، 40 مم، و 50 مم، مع سماكات جدار مقابلة تتراوح من 2.8 مم إلى 6.9 مم. يتيح ذلك مرونة كبيرة في تحديد حجم شبكة الأنابيب وتصميمها.
+*   تحسين الوزن: على الرغم من استقراره الهيكلي الهائل، فإن الأنبوب خفيف الوزن بشكل ملحوظ. عند قطر 20 مم، يزن فقط 0.16 كجم/م، مما يجعل التركيبات العلوية (في الأسقف) أسهل بكثير وأقل إرهاقًا بدنيًا للمركبين.
 
 #### مجالات التطبيق المتنوعة لأنبوب K-Fiber Pipe PP-RCT
 خصائصه البارزة تجعل أنبوب K-Fiber Pipe PP-RCT SDR 7.4 حلاً شاملاً ومتعدد الاستخدامات لمجموعة واسعة من المشاريع الصعبة:
-1.  **تركيبات مياه الشرب:** نظرًا لأعلى معايير النظافة والطبيعة الخالية من التآكل لمادة PP-RCT، فإن الأنبوب مناسب تمامًا لتوزيع مياه الشرب الباردة والساخنة في المباني السكنية والتجارية. فهو يضمن بقاء الماء خاليًا تمامًا من أي تغير في الطعم أو الرائحة.
-2.  **أنظمة التدفئة والتبريد:** المقاومة الاستثنائية لدرجات الحرارة العالية والتمدد الحراري المنخفض بشكل كبير تجعل الأنبوب المركب المقوى بالألياف مثاليًا لشبكات التدفئة المركزية، وتوصيلات التدفئة الأرضية، وخطوط المياه المبردة في أنظمة تكييف الهواء.
-3.  **التطبيقات الصناعية:** في البيئات الصناعية، حيث تتطلب الحاجة غالبًا نقل السوائل القاسية أو مياه العمليات المضغوطة، يوفر أنبوب K-Fiber بديلاً مقاوماً للمواد الكيميائية، ومتيناً، وموثوقاً للغاية مقارنة بالأنابيب المعدنية التقليدية.
-4.  **أنظمة الهواء المضغوط:** مقاومة الضغط العالي المقترنة بالجدران الداخلية الملساء التي تقلل الاحتكاك وفقدان الضغط تجعل هذا الأنبوب مثيرًا للاهتمام للغاية لشبكات توزيع الهواء المضغوط.
+1.  تركيبات مياه الشرب: نظرًا لأعلى معايير النظافة والطبيعة الخالية من التآكل لمادة PP-RCT، فإن الأنبوب مناسب تمامًا لتوزيع مياه الشرب الباردة والساخنة في المباني السكنية والتجارية. فهو يضمن بقاء الماء خاليًا تمامًا من أي تغير في الطعم أو الرائحة.
+2.  أنظمة التدفئة والتبريد: المقاومة الاستثنائية لدرجات الحرارة العالية والتمدد الحراري المنخفض بشكل كبير تجعل الأنبوب المركب المقوى بالألياف مثاليًا لشبكات التدفئة المركزية، وتوصيلات التدفئة الأرضية، وخطوط المياه المبردة في أنظمة تكييف الهواء.
+3.  التطبيقات الصناعية: في البيئات الصناعية، حيث تتطلب الحاجة غالبًا نقل السوائل القاسية أو مياه العمليات المضغوطة، يوفر أنبوب K-Fiber بديلاً مقاوماً للمواد الكيميائية، ومتيناً، وموثوقاً للغاية مقارنة بالأنابيب المعدنية التقليدية.
+4.  أنظمة الهواء المضغوط: مقاومة الضغط العالي المقترنة بالجدران الداخلية الملساء التي تقلل الاحتكاك وفقدان الضغط تجعل هذا الأنبوب مثيرًا للاهتمام للغاية لشبكات توزيع الهواء المضغوط.
 
 #### مزايا في التركيب والمعالجة
 يقدر فنيو التركيب أنبوب K-Fiber بشكل كبير بسبب خصائص معالجته الممتازة. مثل جميع أنابيب K-Aqua من نوع PP-R و PP-RCT، يتم توصيل هذا الأنبوب المقوى بالألياف باستخدام طريقة اللحام بالانصهار الحراري (اللحام بالمقبس) المجربة والموثوقة. خلال هذه العملية، يندمج الأنبوب والوصلة معًا لتشكيل وحدة متجانسة لا يمكن فصلها ومضادة للتسرب بشكل دائم. وعلى عكس بعض الأنابيب المركبة القديمة، فإن الطبقة المقواة بالألياف لا تتطلب عادةً تقشيرًا أو كشطًا شاقًا قبل اللحام، مما يوفر وقت العمل الثمين.

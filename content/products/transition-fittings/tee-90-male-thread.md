@@ -32,20 +32,20 @@ In der modernen Sanitär- und Heizungstechnik spielen Rohrleitungssysteme aus Po
 ### Technische Spezifikationen und Funktionsweise
 Das T-Stück 90° mit Außengewinde besteht aus einem T-förmigen PP-R-Grundkörper. Zwei Enden sind als Schweißmuffen (Socket Fusion Ends) ausgeführt, während der 90-Grad-Abzweig mit einem R-Außengewinde ausgestattet ist. Die Schweißverbindung (Polyfusion) sorgt für eine absolute und dauerhafte Dichtigkeit, da Rohr und Fitting materialgleich miteinander verschmelzen. Das Außengewinde hingegen ermöglicht eine einfache Verschraubung nach ISO-Normen.
 Das Produkt ist in verschiedenen Größen erhältlich, um sich den gängigen Rohrdurchmessern optimal anzupassen:
-* **Artikel AQ13R20**: 20 mm Rohrdurchmesser mit ½" (Zoll) Außengewinde. Ideal für feine Abzweigungen im Trinkwasserbereich.
-* **Artikel AQ13R25**: 25 mm Rohrdurchmesser mit ¾" (Zoll) Außengewinde. Oft verwendet in Etagenverteilungen und Heizungsanbindungen.
-* **Artikel AQ13R32**: 32 mm Rohrdurchmesser mit 1" (Zoll) Außengewinde. Geeignet für Steigleitungen und größere Volumenströme.
-* **Artikel AQ13R40**: 40 mm Rohrdurchmesser mit 1¼" (Zoll) Außengewinde. Perfekt für Hauptverteiler und industrielle Prozesswasserleitungen.
+* Artikel AQ13R20: 20 mm Rohrdurchmesser mit ½" (Zoll) Außengewinde. Ideal für feine Abzweigungen im Trinkwasserbereich.
+* Artikel AQ13R25: 25 mm Rohrdurchmesser mit ¾" (Zoll) Außengewinde. Oft verwendet in Etagenverteilungen und Heizungsanbindungen.
+* Artikel AQ13R32: 32 mm Rohrdurchmesser mit 1" (Zoll) Außengewinde. Geeignet für Steigleitungen und größere Volumenströme.
+* Artikel AQ13R40: 40 mm Rohrdurchmesser mit 1¼" (Zoll) Außengewinde. Perfekt für Hauptverteiler und industrielle Prozesswasserleitungen.
 
 #### Herausragende Materialeigenschaften
 Die Verwendung von PP-R als Grundmaterial verleiht dem T-Stück herausragende thermische und mechanische Eigenschaften. PP-R ist korrosionsfrei, chemisch beständig und verhindert Ablagerungen (Inkrustationen) im Rohrinneren, was eine konstant hohe Durchflussrate gewährleistet. Das integrierte Metallgewinde ist fest in den Kunststoff eingespritzt und durch spezielle Riffelungen gegen Verdrehen und Ausreißen gesichert. Selbst bei Temperaturwechselbeanspruchungen, wie sie in Heizungs- oder Warmwassersystemen vorkommen, bleibt die Verbindung zwischen Kunststoff und Metall absolut dicht.
 
 ### Anwendungsbereiche und Einsatzgebiete
 Das T-Stück 90° mit Außengewinde wird weltweit in unterschiedlichsten Projekten eingesetzt:
-1. **Trinkwasserinstallationen (Sanitär)**: Durch die hygienischen Eigenschaften von PP-R eignet sich das T-Stück hervorragend für kaltes und warmes Leitungswasser. Das Gewinde ermöglicht den schnellen Anschluss von Auslaufventilen, Wasserzählern oder Filtern.
-2. **Heizungssysteme und Klimatisierung**: Die hohe Temperaturbeständigkeit (oft bis 95°C je nach Druckstufe) macht das Bauteil ideal für Heizungsverteiler und Kühlwassersysteme.
-3. **Industrielle Rohrleitungen**: In der Industrie werden oft aggressive Medien, Druckluft oder chemische Fluide transportiert. PP-R bietet hier eine hohe chemische Resistenz, und das Gewinde ermöglicht die Integration von Messgeräten oder Absperrklappen.
-4. **Landwirtschaft und Bewässerung**: Auch in Gewächshäusern oder landwirtschaftlichen Betrieben sorgt das T-Stück für verlässliche Verbindungen bei der Wasserverteilung.
+1. Trinkwasserinstallationen (Sanitär): Durch die hygienischen Eigenschaften von PP-R eignet sich das T-Stück hervorragend für kaltes und warmes Leitungswasser. Das Gewinde ermöglicht den schnellen Anschluss von Auslaufventilen, Wasserzählern oder Filtern.
+2. Heizungssysteme und Klimatisierung: Die hohe Temperaturbeständigkeit (oft bis 95°C je nach Druckstufe) macht das Bauteil ideal für Heizungsverteiler und Kühlwassersysteme.
+3. Industrielle Rohrleitungen: In der Industrie werden oft aggressive Medien, Druckluft oder chemische Fluide transportiert. PP-R bietet hier eine hohe chemische Resistenz, und das Gewinde ermöglicht die Integration von Messgeräten oder Absperrklappen.
+4. Landwirtschaft und Bewässerung: Auch in Gewächshäusern oder landwirtschaftlichen Betrieben sorgt das T-Stück für verlässliche Verbindungen bei der Wasserverteilung.
 
 ### Vorteile für Installateure und Anlagenbauer
 Für Fachhandwerker bietet dieses Bauteil signifikante Zeit- und Kostenvorteile. Anstatt mehrere Einzelkomponenten (wie ein normales T-Stück und einen separaten Gewindeübergang) verwenden zu müssen, kombiniert das T-Stück 90° mit Außengewinde beide Funktionen in einem einzigen Formteil. Das spart Platz, reduziert die Anzahl der potenziellen Leckagestellen und minimiert den Schweißaufwand. Die Installation erfolgt schnell, sauber und geruchlos durch das etablierte Polyfusionsschweißen.
@@ -65,20 +65,20 @@ In modern plumbing, heating, and industrial piping technology, Polypropylene Ran
 ### Technical Specifications and Functionality
 The Tee 90° (Male Thread) consists of a T-shaped PP-R main body. Two of the ends are designed as socket fusion ends, meaning they are thermally welded directly onto the PP-R pipes. The 90-degree branch outlet is equipped with an "R" type male thread. The thermal fusion process (polyfusion) ensures an absolute and permanent seal, as the pipe and fitting melt together to form a single, homogenous material. The external thread, on the other hand, allows for standard screw connections complying with international ISO norms.
 The product is available in several carefully selected sizes to match common pipe diameters and threading standards:
-* **Article AQ13R20**: 20 mm pipe diameter with a ½" (inch) male thread. Ideal for fine branching in domestic drinking water systems.
-* **Article AQ13R25**: 25 mm pipe diameter with a ¾" (inch) male thread. Frequently used in floor distribution lines and radiator connections.
-* **Article AQ13R32**: 32 mm pipe diameter with a 1" (inch) male thread. Highly suitable for rising mains and pipelines requiring larger volume flows.
-* **Article AQ13R40**: 40 mm pipe diameter with a 1¼" (inch) male thread. Perfect for main distribution manifolds and industrial process water networks.
+* Article AQ13R20: 20 mm pipe diameter with a ½" (inch) male thread. Ideal for fine branching in domestic drinking water systems.
+* Article AQ13R25: 25 mm pipe diameter with a ¾" (inch) male thread. Frequently used in floor distribution lines and radiator connections.
+* Article AQ13R32: 32 mm pipe diameter with a 1" (inch) male thread. Highly suitable for rising mains and pipelines requiring larger volume flows.
+* Article AQ13R40: 40 mm pipe diameter with a 1¼" (inch) male thread. Perfect for main distribution manifolds and industrial process water networks.
 
 #### Outstanding Material Properties
 The use of PP-R as the primary material gives the tee exceptional thermal and mechanical properties. PP-R is completely corrosion-free, highly chemical-resistant, and prevents internal scaling (incrustation), which guarantees a consistently high flow rate over the system's entire lifespan. The integrated metallic thread is securely injection-molded into the plastic base and safeguarded against twisting, turning, or pulling out by special ribbed interlocking mechanisms. Even under severe temperature fluctuations commonly seen in central heating or hot water circuits, the bond between the plastic and the metal remains perfectly intact and leak-free.
 
 ### Areas of Application and Use Cases
 The Tee 90° (Male Thread) is utilized worldwide in a vast array of engineering and construction projects:
-1. **Potable Water Installations (Sanitary)**: Because PP-R is non-toxic and highly hygienic, this tee is perfectly suited for transporting cold and hot drinking water. The threaded branch allows plumbers to quickly connect faucets, water meters, or filtration units.
-2. **Heating Systems and Air Conditioning**: The impressive temperature resistance (often up to 95°C depending on the pressure rating) makes this fitting ideal for heating manifolds, radiator piping, and chilled water networks in HVAC systems.
-3. **Industrial Piping Networks**: Industries frequently transport aggressive chemicals, compressed air, or specialized fluids. PP-R offers superior chemical resistance, and the threaded outlet provides a secure connection point for pressure gauges, sensors, or industrial shut-off valves.
-4. **Agriculture and Irrigation**: In greenhouses or agricultural facilities, the tee ensures reliable, leak-free water distribution even in harsh environmental conditions.
+1. Potable Water Installations (Sanitary): Because PP-R is non-toxic and highly hygienic, this tee is perfectly suited for transporting cold and hot drinking water. The threaded branch allows plumbers to quickly connect faucets, water meters, or filtration units.
+2. Heating Systems and Air Conditioning: The impressive temperature resistance (often up to 95°C depending on the pressure rating) makes this fitting ideal for heating manifolds, radiator piping, and chilled water networks in HVAC systems.
+3. Industrial Piping Networks: Industries frequently transport aggressive chemicals, compressed air, or specialized fluids. PP-R offers superior chemical resistance, and the threaded outlet provides a secure connection point for pressure gauges, sensors, or industrial shut-off valves.
+4. Agriculture and Irrigation: In greenhouses or agricultural facilities, the tee ensures reliable, leak-free water distribution even in harsh environmental conditions.
 
 ### Benefits for Plumbers and Engineers
 For professional installers, this specific fitting offers significant time and cost savings. Instead of having to install multiple individual components (such as a standard all-plastic tee followed by a separate threaded transition adapter), the Tee 90° (Male Thread) combines both functions into a single, compact mold. This saves valuable installation space, reduces the number of potential leakage points, and minimizes welding time. The installation is fast, clean, and odorless, utilizing the widely established socket fusion welding technique.
@@ -98,20 +98,20 @@ Each Tee 90° with a Male Thread undergoes rigorous quality control testing to m
 ### المواصفات الفنية وآلية العمل
 تتكون وصلة تي 90 درجة (ذكر) من هيكل أساسي من مادة PP-R على شكل حرف T. تم تصميم طرفين من الوصلة ليكونا أطراف لحام بالانصهار الحراري (Socket Fusion)، مما يعني أنه يتم لحامهما حرارياً بشكل مباشر مع أنابيب PP-R. أما المخرج الفرعي بزاوية 90 درجة، فهو مزود بسن معدني خارجي من النوع "R". تضمن عملية اللحام الحراري (البولي فيوجن) إغلاقاً محكماً ودائماً تماماً، حيث ينصهر الأنبوب والوصلة معاً ليشكلا مادة واحدة متجانسة لا تقبل التسريب. من ناحية أخرى، يسمح السن الخارجي بإجراء توصيلات لولبية قياسية تتوافق مع المعايير الدولية (ISO)، مما يسهل عملية ربط الملحقات المعدنية.
 يتوفر هذا المنتج بعدة مقاسات مدروسة بعناية لتتناسب مع أقطار الأنابيب الشائعة ومعايير التسنين:
-* **رمز المنتج AQ13R20**: لقطر أنبوب 20 مم مع سن خارجي ½ بوصة. مثالي للتفريعات الدقيقة في أنظمة مياه الشرب المنزلية.
-* **رمز المنتج AQ13R25**: لقطر أنبوب 25 مم مع سن خارجي ¾ بوصة. يُستخدم بكثرة في خطوط التوزيع الطابقية وتوصيلات شبكات التدفئة.
-* **رمز المنتج AQ13R32**: لقطر أنبوب 32 مم مع سن خارجي 1 بوصة. مناسب جداً للخطوط الصاعدة (الرئيسية) والأنابيب التي تتطلب تدفقاً كبيراً للمياه.
-* **رمز المنتج AQ13R40**: لقطر أنبوب 40 مم مع سن خارجي 1¼ بوصة. ممتاز لمجمعات التوزيع الرئيسية وشبكات المياه الصناعية والعمليات الكبرى.
+* رمز المنتج AQ13R20: لقطر أنبوب 20 مم مع سن خارجي ½ بوصة. مثالي للتفريعات الدقيقة في أنظمة مياه الشرب المنزلية.
+* رمز المنتج AQ13R25: لقطر أنبوب 25 مم مع سن خارجي ¾ بوصة. يُستخدم بكثرة في خطوط التوزيع الطابقية وتوصيلات شبكات التدفئة.
+* رمز المنتج AQ13R32: لقطر أنبوب 32 مم مع سن خارجي 1 بوصة. مناسب جداً للخطوط الصاعدة (الرئيسية) والأنابيب التي تتطلب تدفقاً كبيراً للمياه.
+* رمز المنتج AQ13R40: لقطر أنبوب 40 مم مع سن خارجي 1¼ بوصة. ممتاز لمجمعات التوزيع الرئيسية وشبكات المياه الصناعية والعمليات الكبرى.
 
 #### خصائص استثنائية للمواد
 إن استخدام PP-R كمادة أساسية يمنح الوصلة خصائص حرارية وميكانيكية استثنائية. يتميز PP-R بأنه مقاوم تماماً للتآكل والصدأ، ومقاوم للمواد الكيميائية، ويمنع تراكم الرواسب والتكلسات داخل الأنبوب، مما يضمن الحفاظ على معدل تدفق عالٍ وثابت طوال العمر الافتراضي للنظام. يتم دمج السن المعدني بإحكام شديد داخل القاعدة البلاستيكية عبر عملية حقن متطورة، وهو مؤمن ضد الالتواء أو الدوران أو الانفصال بفضل آليات تعشيق مضلعة خاصة. حتى في ظل التقلبات الكبيرة في درجات الحرارة التي تحدث عادة في أنظمة التدفئة المركزية أو دوائر المياه الساخنة، تظل الرابطة بين البلاستيك والمعدن متماسكة تماماً وخالية من أي تسريب.
 
 ### مجالات التطبيق والاستخدامات
 تُستخدم وصلة تي 90 درجة (ذكر) على نطاق واسع عالمياً في مجموعة متنوعة من المشاريع الهندسية والإنشائية:
-1. **تركيبات مياه الشرب (الأدوات الصحية)**: نظراً لأن PP-R مادة غير سامة وصحية للغاية، فإن هذه الوصلة مناسبة تماماً لنقل مياه الشرب الباردة والساخنة. يسمح المخرج المسنن للسباكين بتوصيل الصنابير، أو عدادات المياه، أو وحدات الفلترة بسرعة وسهولة.
-2. **أنظمة التدفئة والتكييف**: إن المقاومة المذهلة لدرجات الحرارة المرتفعة (التي تصل غالباً إلى 95 درجة مئوية حسب تصنيف الضغط) تجعل هذا المنتج مثالياً لمجمعات التدفئة، وأنابيب المشعات، وشبكات المياه المبردة في أنظمة التدفئة والتهوية وتكييف الهواء (HVAC).
-3. **شبكات الأنابيب الصناعية**: كثيراً ما تقوم المصانع بنقل مواد كيميائية قوية، أو هواء مضغوط، أو سوائل خاصة. يوفر PP-R مقاومة كيميائية فائقة، في حين يوفر المخرج المسنن نقطة توصيل آمنة لمقاييس الضغط، أو المستشعرات، أو صمامات الإغلاق الصناعية.
-4. **الزراعة والري**: في البيوت البلاستيكية أو المرافق الزراعية، تضمن الوصلة توزيعاً موثوقاً للمياه دون تسريب حتى في الظروف البيئية القاسية.
+1. تركيبات مياه الشرب (الأدوات الصحية): نظراً لأن PP-R مادة غير سامة وصحية للغاية، فإن هذه الوصلة مناسبة تماماً لنقل مياه الشرب الباردة والساخنة. يسمح المخرج المسنن للسباكين بتوصيل الصنابير، أو عدادات المياه، أو وحدات الفلترة بسرعة وسهولة.
+2. أنظمة التدفئة والتكييف: إن المقاومة المذهلة لدرجات الحرارة المرتفعة (التي تصل غالباً إلى 95 درجة مئوية حسب تصنيف الضغط) تجعل هذا المنتج مثالياً لمجمعات التدفئة، وأنابيب المشعات، وشبكات المياه المبردة في أنظمة التدفئة والتهوية وتكييف الهواء (HVAC).
+3. شبكات الأنابيب الصناعية: كثيراً ما تقوم المصانع بنقل مواد كيميائية قوية، أو هواء مضغوط، أو سوائل خاصة. يوفر PP-R مقاومة كيميائية فائقة، في حين يوفر المخرج المسنن نقطة توصيل آمنة لمقاييس الضغط، أو المستشعرات، أو صمامات الإغلاق الصناعية.
+4. الزراعة والري: في البيوت البلاستيكية أو المرافق الزراعية، تضمن الوصلة توزيعاً موثوقاً للمياه دون تسريب حتى في الظروف البيئية القاسية.
 
 ### فوائد للسباكين ومهندسي التركيبات
 بالنسبة للمتخصصين والمقاولين، تقدم هذه الوصلة المحددة توفيراً كبيراً في الوقت والتكلفة. بدلاً من الاضطرار إلى تركيب مكونات فردية متعددة (مثل تركيب وصلة تي بلاستيكية قياسية متبوعة بمحول انتقال مسنن منفصل)، تجمع وصلة تي 90 درجة (ذكر) بين كلتا الوظيفتين في قالب واحد مدمج. هذا يوفر مساحة تركيب قيمة، ويقلل من عدد نقاط التسريب المحتملة، ويقلل من وقت اللحام بشكل كبير. تتم عملية التركيب بسرعة ونظافة ودون روائح مزعجة باستخدام تقنية لحام الانصهار الحراري المعتمدة.

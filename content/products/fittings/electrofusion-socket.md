@@ -33,17 +33,17 @@ Die PP-R Elektroschweißmuffe zeichnet sich durch ein intelligentes Design aus u
 
 #### Technische Spezifikationen, Dimensionen und Materialgüte
 Unsere Elektroschweißmuffen werden nach höchsten Qualitätsstandards gefertigt und sind für ein breites Spektrum an Rohrdurchmessern ausgelegt, um höchste Präzision bei jedem Projekt zu garantieren. Die verfügbaren Größen decken sämtliche Standardanforderungen in der Industrie und Haustechnik ab:
-- **Verfügbare Rohrdurchmesser (d):** 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm und 75 mm. Diese Bandbreite ermöglicht eine enorme Flexibilität bei der Rohrnetzplanung.
-- **Länge (L) und Dimensionen:** Die Längen variieren je nach Nenndurchmesser, beispielsweise von kompakten 38 mm (für die Dimension d 20 mm) bis hin zu 72 mm (für die Dimension d 63 mm), um jederzeit eine optimale Fügezone zu gewährleisten.
-- **Artikelnummern zur einfachen Identifikation:** Die Serie AQ27E20 bis AQ27E75 erleichtert die präzise Zuordnung, die Projektplanung und die unkomplizierte Nachbestellung.
-- **Materialzusammensetzung:** Hergestellt aus hochwertigem PP-R, das sich branchenübergreifend durch seine hervorragende chemische Beständigkeit, absolute Korrosionsfreiheit, hohe thermische Stabilität und unübertroffene Langlebigkeit auszeichnet.
+- Verfügbare Rohrdurchmesser (d): 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm und 75 mm. Diese Bandbreite ermöglicht eine enorme Flexibilität bei der Rohrnetzplanung.
+- Länge (L) und Dimensionen: Die Längen variieren je nach Nenndurchmesser, beispielsweise von kompakten 38 mm (für die Dimension d 20 mm) bis hin zu 72 mm (für die Dimension d 63 mm), um jederzeit eine optimale Fügezone zu gewährleisten.
+- Artikelnummern zur einfachen Identifikation: Die Serie AQ27E20 bis AQ27E75 erleichtert die präzise Zuordnung, die Projektplanung und die unkomplizierte Nachbestellung.
+- Materialzusammensetzung: Hergestellt aus hochwertigem PP-R, das sich branchenübergreifend durch seine hervorragende chemische Beständigkeit, absolute Korrosionsfreiheit, hohe thermische Stabilität und unübertroffene Langlebigkeit auszeichnet.
 
 #### Vielfältige Anwendungsbereiche in der Praxis
 Dank der herausragenden Materialeigenschaften des Polypropylens und der 100-prozentig zuverlässigen Verbindungstechnik finden unsere Elektroschweißmuffen in unzähligen industriellen, gewerblichen und haustechnischen Bereichen Anwendung:
-1. **Trinkwasser- und Sanitärinstallationen:** Da PP-R von Natur aus lebensmittelecht, geschmacksneutral und hygienisch absolut unbedenklich ist, eignet sich die Elektroschweißmuffe ideal für die Konstruktion von Kalt- und Warmwassersystemen.
-2. **Klima-, Kälte- und Heizungstechnik (HVAC):** Die beachtliche Temperaturbeständigkeit des Materials sorgt für eine sichere und verlustfreie Übertragung von Heizungswasser, Kühlflüssigkeiten und anderen thermischen Medien.
-3. **Industrielle Prozessanlagen:** Bei der Förderung von Druckluft oder bestimmten aggressiven Chemikalien spielt die homogene Schweißverbindung eine absolut kritische Rolle für die Aufrechterhaltung der Anlagensicherheit und den Umweltschutz.
-4. **Schwer zugängliche Baustellenbereiche:** Überall dort, wo ein herkömmliches Schweißgerät aus akutem Platzmangel nicht eingesetzt werden kann (etwa in engen Installationsschächten, Gräben oder bei nachträglichen Umbauten), ist die Elektroschweißmuffe oft nicht nur die beste, sondern die einzig machbare Lösung.
+1. Trinkwasser- und Sanitärinstallationen: Da PP-R von Natur aus lebensmittelecht, geschmacksneutral und hygienisch absolut unbedenklich ist, eignet sich die Elektroschweißmuffe ideal für die Konstruktion von Kalt- und Warmwassersystemen.
+2. Klima-, Kälte- und Heizungstechnik (HVAC): Die beachtliche Temperaturbeständigkeit des Materials sorgt für eine sichere und verlustfreie Übertragung von Heizungswasser, Kühlflüssigkeiten und anderen thermischen Medien.
+3. Industrielle Prozessanlagen: Bei der Förderung von Druckluft oder bestimmten aggressiven Chemikalien spielt die homogene Schweißverbindung eine absolut kritische Rolle für die Aufrechterhaltung der Anlagensicherheit und den Umweltschutz.
+4. Schwer zugängliche Baustellenbereiche: Überall dort, wo ein herkömmliches Schweißgerät aus akutem Platzmangel nicht eingesetzt werden kann (etwa in engen Installationsschächten, Gräben oder bei nachträglichen Umbauten), ist die Elektroschweißmuffe oft nicht nur die beste, sondern die einzig machbare Lösung.
 
 #### Überragende Vorteile gegenüber herkömmlichen Schweißverfahren
 Der gezielte Einsatz einer Elektroschweißmuffe bringt eine ganze Reihe von entscheidenden Vorteilen für den Installateur und den planenden Ingenieur mit sich. Zum einen entfällt die Notwendigkeit, schweres, heißes und unhandliches Schweißwerkzeug direkt an der oft schwer erreichbaren Fügestelle zu positionieren. Die Muffe kann bequem vorab auf die Rohrenden aufgesteckt werden, und der eigentliche Schweißvorgang erfolgt anschließend durch den elektronischen Impuls des Steuergeräts vollautomatisch. Dieses intelligente Steuergerät überwacht dabei in Echtzeit Parameter wie die Schweißzeit, die Umgebungstemperatur und den Energieeintrag. Dadurch werden menschliche Fehler drastisch minimiert und eine konstant hohe, reproduzierbare Verbindungsqualität sichergestellt.
@@ -59,17 +59,17 @@ The PP-R Electrofusion Socket is designed with integrated heating coils (electri
 
 #### Technical Specifications and Dimensions
 Our Electrofusion Sockets are meticulously engineered for a wide spectrum of pipe diameters, guaranteeing highest precision and compatibility for various project scopes. The available size range covers all standard industrial and domestic requirements:
-- **Available Pipe Diameters (d):** 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, and 75 mm.
-- **Length (L):** Dimensions vary based on diameter, ranging from 38 mm (for the 20 mm size) up to 72 mm (for the 63 mm size).
-- **Article Codes:** AQ27E20 through AQ27E75, facilitating easy identification, inventory management, and reordering.
-- **Material Composition:** Manufactured from high-grade PP-R, which is globally renowned for its exceptional chemical resistance, absolute freedom from corrosion, and unparalleled longevity even under harsh operating conditions.
+- Available Pipe Diameters (d): 20 mm, 25 mm, 32 mm, 40 mm, 50 mm, 63 mm, and 75 mm.
+- Length (L): Dimensions vary based on diameter, ranging from 38 mm (for the 20 mm size) up to 72 mm (for the 63 mm size).
+- Article Codes: AQ27E20 through AQ27E75, facilitating easy identification, inventory management, and reordering.
+- Material Composition: Manufactured from high-grade PP-R, which is globally renowned for its exceptional chemical resistance, absolute freedom from corrosion, and unparalleled longevity even under harsh operating conditions.
 
 #### Diverse Applications and Industry Solutions
 Thanks to the outstanding material properties of PP-R and the failsafe reliability of the electrofusion joining technique, these sockets are extensively utilized across a vast array of industrial, commercial, and domestic sectors:
-1. **Potable Water Installations:** Because PP-R is food-safe, non-toxic, and hygienically impeccable, the electrofusion socket is the ideal choice for both cold and hot domestic water distribution networks.
-2. **HVAC Systems (Heating, Ventilation, and Air Conditioning):** The material's high temperature resistance ensures the safe and continuous transmission of heating water and cooling fluids without the risk of thermal degradation.
-3. **Industrial Piping Networks:** When transporting compressed air or specific aggressive chemicals, the homogeneous fusion joint plays a critical role in maintaining overall system safety and preventing hazardous leaks.
-4. **Confined and Difficult-to-Reach Areas:** In scenarios where a conventional socket fusion welding tool cannot be maneuvered due to space constraints (such as in narrow shafts, trenches, or retrofitting projects), the electrofusion socket provides the optimal, and often the only, viable solution.
+1. Potable Water Installations: Because PP-R is food-safe, non-toxic, and hygienically impeccable, the electrofusion socket is the ideal choice for both cold and hot domestic water distribution networks.
+2. HVAC Systems (Heating, Ventilation, and Air Conditioning): The material's high temperature resistance ensures the safe and continuous transmission of heating water and cooling fluids without the risk of thermal degradation.
+3. Industrial Piping Networks: When transporting compressed air or specific aggressive chemicals, the homogeneous fusion joint plays a critical role in maintaining overall system safety and preventing hazardous leaks.
+4. Confined and Difficult-to-Reach Areas: In scenarios where a conventional socket fusion welding tool cannot be maneuvered due to space constraints (such as in narrow shafts, trenches, or retrofitting projects), the electrofusion socket provides the optimal, and often the only, viable solution.
 
 #### Superior Advantages Over Traditional Welding Methods
 The utilization of an Electrofusion Socket introduces a multitude of decisive advantages for installers and engineers. Firstly, it completely removes the necessity of positioning heavy and cumbersome welding equipment directly at the physical joint location. The socket can be pre-assembled onto the pipe ends, and the actual fusion process is subsequently executed fully automatically by the electrical impulse from the control unit. This advanced control unit actively monitors the welding time, ambient temperature, and energy input, thereby virtually eliminating human error and ensuring a consistently high quality of the joint every single time.
@@ -85,17 +85,17 @@ In summary, the PP-R Electrofusion Socket represents an advanced, highly secure,
 
 #### المواصفات الفنية، الأبعاد، وجودة المواد
 تم تصميم وتصنيع مقابس اللحام الكهربائي لدينا بدقة متناهية وفقاً لأعلى معايير الجودة لتلائم مجموعة واسعة من أقطار الأنابيب، مما يضمن أعلى درجات الدقة والتوافق في مختلف المشاريع. يغطي نطاق الأحجام المتوفرة جميع المتطلبات الصناعية والمنزلية القياسية:
-- **أقطار الأنابيب المتاحة (d):** 20 مم، 25 مم، 32 مم، 40 مم، 50 مم، 63 مم، و 75 مم. يتيح هذا التنوع مرونة كبيرة في تخطيط شبكات الأنابيب.
-- **الطول (L) والأبعاد:** تختلف الأبعاد بناءً على القطر، وتتراوح من 38 مم (لحجم 20 مم) إلى 72 مم (لحجم 63 مم)، مما يضمن دائماً منطقة تلاحم مثالية.
-- **رموز المنتج لسهولة التحديد:** السلسلة من AQ27E20 إلى AQ27E75 تسهل عملية التحديد الدقيق، وإدارة المخزون، وإعادة الطلب بسلاسة.
-- **تركيبة المواد:** مُصنعة من مادة PP-R عالية الجودة، والمعروفة عالمياً بمقاومتها الاستثنائية للمواد الكيميائية، والخلو التام من التآكل أو الصدأ، والاستقرار الحراري العالي، وطول العمر الافتراضي حتى تحت ظروف التشغيل القاسية.
+- أقطار الأنابيب المتاحة (d): 20 مم، 25 مم، 32 مم، 40 مم، 50 مم، 63 مم، و 75 مم. يتيح هذا التنوع مرونة كبيرة في تخطيط شبكات الأنابيب.
+- الطول (L) والأبعاد: تختلف الأبعاد بناءً على القطر، وتتراوح من 38 مم (لحجم 20 مم) إلى 72 مم (لحجم 63 مم)، مما يضمن دائماً منطقة تلاحم مثالية.
+- رموز المنتج لسهولة التحديد: السلسلة من AQ27E20 إلى AQ27E75 تسهل عملية التحديد الدقيق، وإدارة المخزون، وإعادة الطلب بسلاسة.
+- تركيبة المواد: مُصنعة من مادة PP-R عالية الجودة، والمعروفة عالمياً بمقاومتها الاستثنائية للمواد الكيميائية، والخلو التام من التآكل أو الصدأ، والاستقرار الحراري العالي، وطول العمر الافتراضي حتى تحت ظروف التشغيل القاسية.
 
 #### التطبيقات المتنوعة والحلول الصناعية
 بفضل الخصائص المادية البارزة لمادة البولي بروبيلين والموثوقية الفائقة لتقنية اللحام الكهربائي، تُستخدم هذه المقابس على نطاق واسع عبر مجموعة كبيرة من القطاعات الصناعية والتجارية والمنزلية:
-1. **تركيبات مياه الشرب:** نظراً لأن مادة PP-R آمنة غذائياً وغير سامة وصحية تماماً، فإن مقبس اللحام الكهربائي هو الخيار الأمثل لشبكات توزيع المياه المنزلية الباردة والساخنة.
-2. **أنظمة التدفئة والتهوية وتكييف الهواء (HVAC):** تضمن المقاومة العالية للحرارة التي تتميز بها المادة النقل الآمن والمستمر لمياه التدفئة وسوائل التبريد دون التعرض لخطر التدهور الحراري.
-3. **شبكات الأنابيب الصناعية:** عند نقل الهواء المضغوط أو بعض المواد الكيميائية القاسية، تلعب وصلة اللحام المتجانسة دوراً حاسماً في الحفاظ على السلامة العامة للنظام ومنع التسربات الخطيرة.
-4. **الأماكن الضيقة والتي يصعب الوصول إليها:** في السيناريوهات التي لا يمكن فيها المناورة بأداة اللحام التقليدية بسبب ضيق المساحة (مثل الخنادق الضيقة أو أعمال التجديد)، يوفر مقبس اللحام الكهربائي الحل الأمثل، وغالباً ما يكون الحل الوحيد الممكن.
+1. تركيبات مياه الشرب: نظراً لأن مادة PP-R آمنة غذائياً وغير سامة وصحية تماماً، فإن مقبس اللحام الكهربائي هو الخيار الأمثل لشبكات توزيع المياه المنزلية الباردة والساخنة.
+2. أنظمة التدفئة والتهوية وتكييف الهواء (HVAC): تضمن المقاومة العالية للحرارة التي تتميز بها المادة النقل الآمن والمستمر لمياه التدفئة وسوائل التبريد دون التعرض لخطر التدهور الحراري.
+3. شبكات الأنابيب الصناعية: عند نقل الهواء المضغوط أو بعض المواد الكيميائية القاسية، تلعب وصلة اللحام المتجانسة دوراً حاسماً في الحفاظ على السلامة العامة للنظام ومنع التسربات الخطيرة.
+4. الأماكن الضيقة والتي يصعب الوصول إليها: في السيناريوهات التي لا يمكن فيها المناورة بأداة اللحام التقليدية بسبب ضيق المساحة (مثل الخنادق الضيقة أو أعمال التجديد)، يوفر مقبس اللحام الكهربائي الحل الأمثل، وغالباً ما يكون الحل الوحيد الممكن.
 
 #### المزايا الفائقة مقارنة بطرق اللحام التقليدية
 يقدم استخدام مقبس اللحام الكهربائي مجموعة من المزايا الحاسمة لفنيي التركيب والمهندسين. أولاً وقبل كل شيء، فإنه يلغي تماماً الحاجة إلى وضع معدات لحام ثقيلة وساخنة ومرهقة مباشرة في موقع المفصل الفعلي. يمكن تجميع المقبس مسبقاً على نهايات الأنابيب، وبعد ذلك تتم عملية اللحام الفعلية بشكل أوتوماتيكي بالكامل من خلال النبض الكهربائي الصادر من وحدة التحكم. تراقب وحدة التحكم الذكية هذه بشكل نشط وفي الوقت الفعلي معايير مهمة مثل وقت اللحام ودرجة الحرارة المحيطة ومدخلات الطاقة، مما يقلل بشكل كبير من الأخطاء البشرية ويضمن جودة عالية ومستمرة للوصلة في كل مرة.
