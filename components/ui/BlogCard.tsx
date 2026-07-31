@@ -10,7 +10,8 @@ interface BlogCardProps {
 
 export function BlogCard({ post, locale }: BlogCardProps) {
   const title = resolveLocalized(post.title, locale);
-  const excerpt = resolveLocalized(post.teaser || post.excerpt, locale);
+  const rawExcerpt = resolveLocalized(post.teaser || post.excerpt, locale);
+  const excerpt = rawExcerpt.length > 120 ? rawExcerpt.substring(0, 117) + "..." : rawExcerpt;
   const tag = post.tag || post.category;
 
   return (
