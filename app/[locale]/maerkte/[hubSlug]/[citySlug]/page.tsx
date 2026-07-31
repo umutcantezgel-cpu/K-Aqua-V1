@@ -1,5 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
+
+export const revalidate = 86400;
 import type { Metadata } from "next";
 import { GEO_MARKETS, GEO_HUBS, nearestMarkets } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";

@@ -47,7 +47,7 @@ export const bimBuildingInformationModeling: NewsPost = {
         <div className="max-w-[800px] mx-auto text-muted-foreground leading-relaxed text-lg space-y-6">
           <h2 className="text-2xl font-bold text-foreground mb-4">Warum BIM bei PP-R Installationen den entscheidenden Unterschied macht</h2>
           <p>
-            Im konventionellen Rohrleitungsbau treten häufig Diskrepanzen zwischen der Planung und der tatsächlichen Ausführung auf. Leitungen kollidieren mit Lüftungskanälen oder Kabeltrassen, was auf der Baustelle zu teuren Verzögerungen, Umplanungen und Materialverschwendung führt. Durch den Einsatz von Building Information Modeling (BIM) werden solche Konflikte durch die sogenannte Clash Detection (Kollisionsprüfung) vollständig eliminiert, lange bevor der erste Spatenstich erfolgt.
+            Im konventionellen Rohrleitungsbau treten häufig Diskrepanzen zwischen der Planung und der tatsächlichen Ausführung auf. Leitungen kollidieren mit Lüftungskanälen oder Kabeltrassen, was auf der Baustelle zu teuren Verzögerungen, Umplanungen und Materialverschwendung führt. Durch den Einsatz von Building Information Modeling (BIM) werden solche Konflikte durch die sogenannte Clash Detection (Kollisionsprüfung) vollständig eliminiert, lange bevor der erste Spatenstich erfolgt. Gerade die BIM in der PPR Rohrleitungsplanung ermöglicht eine bisher unerreichte Präzision und maximale Effizienz für alle nachfolgenden Installationsschritte.
           </p>
           
           <h3 className="text-xl font-semibold text-foreground mt-6">Intelligente Revit-Familien und IFC-Daten</h3>

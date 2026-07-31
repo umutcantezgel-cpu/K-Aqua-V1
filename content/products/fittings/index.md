@@ -33,11 +33,11 @@ PP-R socket fusion and electrofusion fittings. All fittings are compatible with 
 PP-R (Polypropylene Random Copolymer) - socket fusion welding system, compatible with SF and BF tools.
 
 ## SEO-CONTENT-DE
-### Hochwertige PP-R Fittings für maximale Sicherheit in der Sanitär- und Heizungsinstallation
+## Hochwertige PP-R Fittings für maximale Sicherheit in der Sanitär- und Heizungsinstallation
 
 Wenn es um die Zuverlässigkeit, Dichtigkeit und Langlebigkeit von modernen Rohrleitungssystemen geht, spielen die passenden Verbindungsstücke – auch Rohrformstücke oder Fittings genannt – eine absolut entscheidende Rolle. Die K-Aqua PP-R Fittings (Polypropylen-Random-Copolymer) bieten eine unübertroffene Qualität und Leistung für höchste Installationsanforderungen weltweit. Sie bilden das Herzstück jedes K-Aqua PP-R Rohrleitungssystems und sorgen zuverlässig dafür, dass alle Rohrkomponenten nahtlos, hygienisch und dauerhaft absolut dicht miteinander verschweißt werden. Egal ob im privaten Wohnungsbau, in gewerblichen Großprojekten wie Hotels und Krankenhäusern oder in hochkomplexen industriellen Anlagen – unsere Premium-Rohrformstücke garantieren eine jederzeit sichere, verlustfreie und effiziente Wasserverteilung. Polypropylen-Random-Copolymer zeichnet sich durch seine außergewöhnliche molekulare Struktur aus, die dem Material sowohl eine hohe Flexibilität als auch eine immense Widerstandsfähigkeit gegenüber mechanischen und thermischen Belastungen verleiht.
 
-#### Warum K-Aqua PP-R Rohrformstücke die beste Wahl für Profis sind
+### Warum K-Aqua PP-R Rohrformstücke die beste Wahl für Profis sind
 
 Der Einsatz von K-Aqua PP-R Fittings bringt eine Vielzahl von entscheidenden Vorteilen mit sich, die herkömmliche Materialien wie Kupfer, Stahl oder Messing weit in den Schatten stellen. Zu den wichtigsten Eigenschaften gehören:
 
@@ -47,7 +47,7 @@ Der Einsatz von K-Aqua PP-R Fittings bringt eine Vielzahl von entscheidenden Vor
 *   Thermische und akustische Isolierung: PP-R verfügt über hervorragende Dämmeigenschaften. Es reduziert den Wärmeverlust bei Warmwasserleitungen erheblich und dämpft Fließgeräusche des Wassers auf ein Minimum, was den Wohnkomfort drastisch erhöht.
 *   Extrem lange Lebensdauer: Bei fachgerechter Installation und Einhaltung der vorgegebenen Betriebsbedingungen bieten K-Aqua PP-R Fittings eine garantierte Lebensdauer von über 50 Jahren – selbst bei hohen Dauerbelastungen.
 
-### Das umfangreiche Sortiment an K-Aqua Formteilen
+## Das umfangreiche Sortiment an K-Aqua Formteilen
 
 Unser Produktsortiment im Bereich der Fittings ist so konzipiert, dass es für jede noch so komplexe bauliche Herausforderung die passende Lösung bietet. Wir decken ein breites Spektrum an Durchmessern ab, von kompakten 20 mm für einfache Haushaltsanschlüsse bis hin zu massiven 125 mm für industrielle Hauptversorgungsleitungen. 
 
@@ -58,11 +58,11 @@ Unser Produktsortiment im Bereich der Fittings ist so konzipiert, dass es für j
 *   Flanschadapter (Flange Adaptors): Für die sichere, lösbare Verbindung von großdimensionierten PP-R Rohren mit Pumpen, Ventilen oder metallischen Großanlagen.
 *   Elektroschweißmuffen (Electrofusion Sockets): Die ultimative Lösung für schwer zugängliche Stellen oder Reparaturen. Hier erfolgt die Verschweißung durch integrierte Heizdrähte, die elektronisch gesteuert erhitzt werden.
 
-#### Heizelementmuffenschweißung (Socket Fusion) – Eine Verbindung für die Ewigkeit
+### Heizelementmuffenschweißung (Socket Fusion) – Eine Verbindung für die Ewigkeit
 
 Das Geheimnis der absoluten Dichtigkeit des K-Aqua Systems liegt in der Verbindungstechnik. Bei der Heizelementmuffenschweißung (Socket Fusion) werden Rohr und Fitting mithilfe eines speziellen Schweißgeräts kurzzeitig bis zum Schmelzpunkt erhitzt und anschließend ineinandergefügt. Innerhalb weniger Sekunden kühlt das Material ab und verschmilzt zu einer einzigen, unzertrennlichen homogenen Einheit. Es gibt keine Gewinde, die undicht werden könnten, keine Klebstoffe, die aushärten oder sich lösen könnten, und keine Dichtungsringe, die im Laufe der Jahre porös werden. Diese stoffschlüssige Verbindung ist genauso stark und belastbar wie das Rohr selbst.
 
-### Anwendungsbereiche der PP-R Fittings
+## Anwendungsbereiche der PP-R Fittings
 
 Dank ihrer herausragenden physikalischen und chemischen Eigenschaften sind K-Aqua PP-R Rohrformstücke extrem vielseitig einsetzbar:
 
@@ -75,11 +75,11 @@ Zusammenfassend lässt sich sagen, dass K-Aqua PP-R Fittings das absolute Maß d
 
 
 ## SEO-CONTENT-EN
-### Premium PP-R Fittings for Maximum Reliability in Plumbing and Heating Systems
+## Premium PP-R Fittings for Maximum Reliability in Plumbing and Heating Systems
 
 When it comes to the reliability, leak-tightness, and longevity of modern piping networks, the connecting components – also known as pipe fittings – play an absolutely crucial role. K-Aqua PP-R (Polypropylene Random Copolymer) fittings offer unsurpassed quality and performance, engineered to meet the highest global installation standards. They form the essential core of every K-Aqua PP-R piping system, ensuring that all pipe segments are seamlessly, hygienically, and permanently fused together to form a completely leak-proof network. Whether deployed in residential housing, large-scale commercial projects like hotels and hospitals, or highly complex industrial facilities, our premium pipe fittings guarantee safe, efficient, and loss-free water distribution at all times. Polypropylene Random Copolymer is characterized by its exceptional molecular structure, which provides the material with both high flexibility and immense resistance to mechanical and thermal stress.
 
-#### Why K-Aqua PP-R Pipe Fittings Are the Ultimate Choice for Professionals
+### Why K-Aqua PP-R Pipe Fittings Are the Ultimate Choice for Professionals
 
 The utilization of K-Aqua PP-R fittings brings a multitude of decisive advantages that easily outshine traditional materials such as copper, galvanized steel, or brass. The most significant properties include:
 
@@ -89,7 +89,7 @@ The utilization of K-Aqua PP-R fittings brings a multitude of decisive advantage
 *   Thermal and Acoustic Insulation: PP-R possesses excellent natural insulating properties. It significantly reduces heat loss in hot water lines and dampens the noise of flowing water to an absolute minimum, thereby drastically increasing residential acoustic comfort.
 *   Extremely Long Service Life: When installed correctly by professionals and operated within the specified conditions, K-Aqua PP-R fittings offer a guaranteed lifespan of over 50 years – even under continuous high-stress operations.
 
-### The Comprehensive Range of K-Aqua Pipe Fittings
+## The Comprehensive Range of K-Aqua Pipe Fittings
 
 Our product portfolio in the fittings category is meticulously designed to provide the perfect solution for even the most complex structural plumbing challenges. We cover a broad spectrum of diameters, ranging from compact 20 mm sizes for standard household connections all the way up to massive 125 mm dimensions for heavy-duty industrial main supply lines.
 
@@ -100,11 +100,11 @@ Our product portfolio in the fittings category is meticulously designed to provi
 *   Flange Adaptors: Designed for the secure, detachable connection of large-diameter PP-R pipes to heavy machinery, circulation pumps, large valves, or extensive metallic plant infrastructure.
 *   Electrofusion Sockets: The ultimate high-tech solution for hard-to-reach areas or critical repair work. Here, the welding is achieved through integrated heating wires within the fitting that are heated electronically via a specialized control unit.
 
-#### Socket Fusion Welding – A Connection Designed to Last Forever
+### Socket Fusion Welding – A Connection Designed to Last Forever
 
 The true secret behind the absolute leak-tightness of the K-Aqua system lies in its advanced connection technology. During the socket fusion welding process, both the outer surface of the pipe and the inner surface of the fitting are simultaneously heated to their melting point using a specialized heating tool. They are then immediately joined together. Within seconds, the material cools down and fuses to become a single, inseparable, homogenous unit. There are no threads that could eventually leak, no toxic glues that could dry out or fail, and no rubber O-rings or gaskets that become porous over the years. This cohesive, molecular bond is just as strong and resilient as the pipe itself.
 
-### Primary Application Areas of PP-R Fittings
+## Primary Application Areas of PP-R Fittings
 
 Thanks to their outstanding physical and chemical characteristics, K-Aqua PP-R pipe fittings are extremely versatile and suitable for a wide array of applications:
 
@@ -117,11 +117,11 @@ In summary, K-Aqua PP-R fittings represent the absolute gold standard in modern 
 
 
 ## SEO-CONTENT-AR
-### قطع توصيل ووصلات PP-R فائقة الجودة لضمان أقصى درجات الأمان في أنظمة السباكة والتدفئة
+## قطع توصيل ووصلات PP-R فائقة الجودة لضمان أقصى درجات الأمان في أنظمة السباكة والتدفئة وتوزيع المياه
 
 عندما يتعلق الأمر بالموثوقية، ومنع التسرب، والعمر الافتراضي الطويل لشبكات الأنابيب الحديثة، فإن المكونات الرابطة – والمعروفة أيضاً باسم قطع التوصيل أو "الفيتنجز" – تلعب دوراً حاسماً للغاية. تقدم وصلات K-Aqua PP-R (البولي بروبيلين العشوائي المشترك) جودة وأداءً لا مثيل لهما، وتم تصميمها لتلبية أعلى معايير التركيب العالمية. إنها تشكل القلب النابض والأساس الصلب لكل نظام أنابيب K-Aqua، مما يضمن دمج جميع أجزاء الأنابيب معاً بسلاسة، وبطريقة صحية، وبشكل دائم لتشكيل شبكة خالية تماماً من أي تسرب. سواء تم استخدامها في الإسكان السكني الخاص، أو المشاريع التجارية الضخمة مثل الفنادق والمستشفيات، أو المنشآت الصناعية شديدة التعقيد، فإن قطع التوصيل الممتازة لدينا تضمن توزيعاً آمناً وفعالاً للمياه في جميع الأوقات دون أي هدر. يتميز البولي بروبيلين بتركيبته الجزيئية الاستثنائية التي تمنح المادة مرونة عالية ومقاومة هائلة للإجهاد الميكانيكي والحراري.
 
-#### لماذا تعتبر وصلات K-Aqua PP-R الخيار الأمثل والمفضل للمحترفين؟
+### لماذا تعتبر وصلات K-Aqua PP-R الخيار الأمثل والمفضل للمحترفين؟
 
 إن استخدام قطع توصيل K-Aqua PP-R يجلب معه مجموعة واسعة من المزايا الحاسمة التي تتفوق بسهولة على المواد التقليدية مثل النحاس أو الفولاذ المجلفن أو النحاس الأصفر. وتشمل أهم الخصائص ما يلي:
 
@@ -131,7 +131,7 @@ In summary, K-Aqua PP-R fittings represent the absolute gold standard in modern 
 *   عزل حراري وصوتي متفوق: يمتلك PP-R خصائص عزل طبيعية ممتازة. فهو يقلل بشكل كبير من فقدان الحرارة في خطوط المياه الساخنة، كما أنه يمتص ويخمد ضوضاء المياه المتدفقة إلى الحد الأدنى، مما يزيد بشكل كبير من الراحة الصوتية داخل المباني السكنية.
 *   عمر افتراضي طويل للغاية: عند تركيبها بشكل صحيح من قبل متخصصين وتشغيلها ضمن الظروف المحددة، توفر وصلات K-Aqua PP-R عمراً افتراضياً مضموناً يتجاوز 50 عاماً – حتى تحت ظروف التشغيل الشاقة والمستمرة.
 
-### المجموعة الشاملة والمتكاملة من قطع توصيل K-Aqua
+## المجموعة الشاملة والمتكاملة من قطع توصيل K-Aqua
 
 تم تصميم مجموعة منتجاتنا في فئة الوصلات بعناية فائقة لتوفير الحل المثالي حتى لأكثر تحديات السباكة الإنشائية تعقيداً. نحن نغطي طيفاً واسعاً من الأقطار، بدءاً من الأحجام المدمجة 20 مم للتوصيلات المنزلية القياسية، وصولاً إلى الأقطار الضخمة 125 مم لخطوط الإمداد الرئيسية الصناعية الثقيلة.
 
@@ -142,11 +142,11 @@ In summary, K-Aqua PP-R fittings represent the absolute gold standard in modern 
 *   محولات الفلنجات (Flange Adaptors): مصممة للتوصيل الآمن والقابل للفصل لأنابيب PP-R ذات الأقطار الكبيرة بالآلات الثقيلة، أو مضخات التدوير، أو الصمامات الكبيرة، أو البنية التحتية للمصانع المعدنية الواسعة.
 *   جلب اللحام الكهربائي (Electrofusion Sockets): الحل التكنولوجي المتقدم والأمثل للمناطق التي يصعب الوصول إليها أو لأعمال الإصلاح الحرجة. هنا، يتم اللحام من خلال أسلاك تسخين مدمجة داخل الوصلة يتم تسخينها إلكترونياً عبر وحدة تحكم متخصصة.
 
-#### اللحام الحراري (Socket Fusion) – اتصال صُمم ليدوم للأبد
+### اللحام الحراري (Socket Fusion) – اتصال صُمم ليدوم للأبد
 
 السر الحقيقي وراء منع التسرب المطلق في نظام K-Aqua يكمن في تقنية الاتصال المتقدمة الخاصة به. أثناء عملية اللحام الحراري (Socket Fusion)، يتم تسخين كل من السطح الخارجي للأنبوب والسطح الداخلي لقطعة التوصيل في وقت واحد حتى نقطة الانصهار باستخدام أداة تسخين متخصصة (مكواة لحام). ثم يتم ضمهما معاً على الفور. في غضون ثوانٍ معدودة، تبرد المادة وتلتحم لتصبح وحدة متجانسة واحدة لا يمكن فصلها. لا توجد أسنان لولبية يمكن أن تتسرب بمرور الوقت، ولا مواد لاصقة كيميائية يمكن أن تجف أو تفشل، ولا حلقات منع تسرب مطاطية (O-rings) تصبح مسامية أو تتشقق عبر السنين. هذا الرابط الجزيئي المتماسك قوي ومرن تماماً مثل الأنبوب نفسه.
 
-### مجالات التطبيق الأساسية لوصلات PP-R
+## مجالات التطبيق الأساسية لوصلات PP-R
 
 بفضل خصائصها الفيزيائية والكيميائية المتميزة، تعتبر وصلات أنابيب K-Aqua PP-R متعددة الاستخدامات للغاية ومناسبة لمجموعة واسعة من التطبيقات:
 

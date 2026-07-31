@@ -40,7 +40,7 @@ export const warumPpr: NewsPost = {
             <div className="relative z-10">
               <Eyebrow text="Die Wissenschaft der Langlebigkeit" className="mb-6 text-primary" />
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
-                Wenn man heute eine moderne Großbaustelle betritt, fallen sofort die markanten Rohrleitungen ins Auge. Der Werkstoff, aus dem diese technologischen Meisterwerke gefertigt sind, nennt sich Polypropylen Random Copolymer. Doch wie wurde aus einem einstigen Nebenprodukt der Erdölförderung der wohl wichtigste Kunststoff für die globale Wasserinstallation? Eine faszinierende Reise durch die moderne Chemie und den unbedingten Willen zur Perfektion.
+                Wenn man heute eine moderne Großbaustelle betritt, fallen sofort die markanten Rohrleitungen ins Auge. Der Werkstoff, aus dem diese technologischen Meisterwerke gefertigt sind, nennt sich Polypropylen Random Copolymer. Um dessen Erfolg zu verstehen, ist ein Blick auf die PPR Materialkunde und ihre Grundlagen unerlässlich. Doch wie wurde aus einem einstigen Nebenprodukt der Erdölförderung der wohl wichtigste Kunststoff für die globale Wasserinstallation? Eine faszinierende Reise durch die moderne Chemie und den unbedingten Willen zur Perfektion.
               </p>
             </div>
           </div>

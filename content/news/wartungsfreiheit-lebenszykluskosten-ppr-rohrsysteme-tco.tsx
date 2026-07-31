@@ -45,7 +45,7 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">CAPEX vs. OPEX: Eine ganzheitliche Betrachtung</h3>
           <p>
-            Ein Rohrleitungssystem ist auf eine Lebensdauer von 50 Jahren und mehr ausgelegt. In dieser Zeit summieren sich Kosten für Pumpenstrom, Wärmeverluste, chemische Wasserbehandlungen, Korrosionsschutz, Überprüfung von Dichtungen, Reparaturen von Leckagen und im schlimmsten Fall aufwendige Komplettsanierungen bei Systemversagen. Eine TCO-Betrachtung (Total Cost of Ownership) bezieht all diese Faktoren mit ein. Genau hier spielt Polypropylen (PP-R) seine überragende Wirtschaftlichkeit aus.
+            Ein Rohrleitungssystem ist auf eine Lebensdauer von 50 Jahren und mehr ausgelegt. In dieser Zeit summieren sich Kosten für Pumpenstrom, Wärmeverluste, chemische Wasserbehandlungen, Korrosionsschutz, Überprüfung von Dichtungen, Reparaturen von Leckagen und im schlimmsten Fall aufwendige Komplettsanierungen bei Systemversagen. Eine TCO-Betrachtung (Total Cost of Ownership) bezieht all diese Faktoren mit ein. Wartungsfreiheit und Langzeit-Wirtschaftlichkeit von PPR-Netzen stehen im direkten Gegensatz zu diesen fortlaufenden Aufwendungen. Genau hier spielt Polypropylen (PP-R) seine überragende Wirtschaftlichkeit aus.
           </p>
 
           <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Die versteckten Kosten von Metallrohren</h2>

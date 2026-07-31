@@ -71,6 +71,18 @@ export default async function NewsPage({ params }: Props) {
 
         {/* Dynamic SEO Text Blocks */}
         
+        {/* Hidden SEO navigation to ensure all news pages are easily crawlable */}
+        <nav aria-label="News Directory" className="sr-only">
+          <ul>
+            {allPosts.map((post) => (
+              <li key={post.slug}>
+                <a href={`/${locale}/news/${post.slug}`}>
+                  {post.slug}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </>
   );

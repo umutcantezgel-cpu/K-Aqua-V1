@@ -1,5 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
+
+export const revalidate = 86400;
 import { setRequestLocale } from 'next-intl/server';
 import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
