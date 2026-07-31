@@ -20,7 +20,6 @@ import { constructMetadata, getProductCatalogJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
-import { getAllProducts } from "@/lib/products";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -69,17 +68,11 @@ export default async function ProduktePage({ params }: Props) {
   const tProducts = await getTranslations({ locale, namespace: "products" });
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("products") as string[];
-  const allProductsForSeo = getAllProducts();
 
   return (
     <NextIntlClientProvider messages={pick(messages, ['catalog'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
-      <div className="sr-only">
-        {allProductsForSeo.map(p => (
-          <Link key={p.slug} href={`/produkte/${p.category}/${p.slug}`}>{p.title || p.slug}</Link>
-        ))}
-      </div>
       <div className="sr-only">{tProducts("title1")}</div>
       <div className="sr-only">{meta[0]}</div>
 
