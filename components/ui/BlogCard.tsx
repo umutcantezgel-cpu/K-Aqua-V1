@@ -30,14 +30,14 @@ export function BlogCard({ post, locale }: BlogCardProps) {
 
         {/* Content */}
         <div>
-          <h3 className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3 relative z-10">
+          <div className="font-heading font-extrabold text-[22px] leading-[1.25] tracking-tight text-foreground group-hover:text-primary transition-colors mb-3 line-clamp-3 relative z-10">
             <Link
               href={`/${locale}/news/${post.slug}`}
               className="before:absolute before:-inset-8 focus-visible:outline-none"
             >
               {title}
             </Link>
-          </h3>
+          </div>
           <p className="text-body text-muted-foreground line-clamp-3 leading-relaxed relative z-10 pointer-events-none">
             {excerpt}
           </p>

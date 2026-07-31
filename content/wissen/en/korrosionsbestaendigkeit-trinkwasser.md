@@ -13,24 +13,39 @@ When designing drinking water installations for hospitals, hotels, or residentia
 
 Historically, metallic systems (such as galvanized steel or copper) have frequently been used. However, these materials carry a massive long-term risk that can compromise drinking water quality: corrosion.
 
-## The Problem with Metallic Pipes
+## The Complex Mechanisms of Corrosion in Metallic Systems
 
-As soon as water and oxygen come into contact with metal, a natural electrochemical process begins. Even with stainless steel or high-quality copper, pitting corrosion, rust formation, or the release of heavy metal ions into the drinking water can occur under certain conditions (e.g., due to fluctuating water qualities, pH values, or incorrect flow velocities).
+To understand the full extent of the danger, one must consider the different types of corrosion that can occur in metallic piping systems:
 
-The consequences are dramatic:
-* Water discoloration ("brown water")
-* Incrustations: Calcium and rust deposits reduce the pipe cross-section, increase the energy demand of pumps, and promote the growth of Legionella.
-* Pipe bursts: Pitting inevitably leads to leaks, which often results in immense water damage and expensive renovation costs.
+### 1. Uniform Corrosion
+This is the most well-known type, where the entire surface of the metal is worn away evenly. Although this often happens slowly, it leads to a steady increase in the concentration of heavy metals in the drinking water and reduces the wall thickness of the pipes over time.
 
-## The Solution: Plastic (PP-RCT)
+### 2. Pitting Corrosion
+This is the most dangerous form of corrosion. It occurs highly localized and literally eats its way through the pipe wall. Even in thick metal pipes, pitting can lead to micro-leaks or catastrophic pipe bursts within a few months. The cause is often local defects in the metal's oxide layer, frequently triggered by chloride ions in the water.
 
-K-Aqua piping systems are made of high-performance polypropylene (PP-RCT). This material is an insulator and does not enter into any electrochemical reaction with the transported water. 
+### 3. Galvanic Corrosion (Bimetallic Corrosion)
+Modern building technology often combines different metals (e.g., copper pipes with galvanized steel components). When water flows as an electrolyte between these metals, the less noble metal sacrifices itself for the more noble one – a rapidly progressing decay process begins that can destroy entire system components in a short time.
 
-The advantages at a glance:
-1. 100% corrosion-free: PP-RCT physically cannot rust. The inner wall of the pipe remains exactly as smooth on day 18,250 (50 years later) as it was on day 1.
-2. Chemically inert: The material does not react with the substances in the water. It does not release metal ions into the water, preserving the water's smell and taste in its natural form.
-3. Food-safe: Our systems hold the strictest international approvals (DVGW, KIWA, SKZ) for unrestricted use in contact with drinking water.
+## Microbiologically Influenced Corrosion (MIC) and Biofilm Formation
 
-> "Anyone who still installs metal in large drinking water installations today is simultaneously installing the renovation project of the future."
+An often-overlooked factor is microbial growth. The rough inner surfaces of metallic pipes, often covered with corrosion products, provide ideal breeding grounds for biofilms. These slimy layers not only harbor health-threatening bacteria like Legionella or Pseudomonas but also sulfate-reducing bacteria. These microorganisms excrete aggressive metabolic products that drastically accelerate the corrosion of the metal. This creates a vicious circle of corrosion and bacterial contamination.
 
-By switching to K-Aqua PP-RCT systems (e.g., our [high-quality pipes](/en/produkte/pipes) and [fittings](/en/produkte/fittings)), architects, planners, and building owners protect themselves against the risk of corrosion and guarantee the highest drinking water hygiene for decades to come.
+## The Material Science Superiority of K-Aqua PP-RCT
+
+The solution to this multi-layered problem does not lie in treating the water or attempting to better coat the metals, but in the consistent choice of a material that physically and chemically cannot rust: Polypropylene Random Copolymer with modified Crystallinity (PP-RCT).
+
+### The Molecular Structure
+PP-RCT is a thermoplastic whose molecular framework consists entirely of carbon and hydrogen atoms. It has no free electrons, which are absolutely necessary for the electrochemical process of corrosion. The material acts as a perfect electrical insulator. Even stray currents, which often lead to inexplicable corrosion damage to metal pipes in large buildings, have absolutely no effect on PP-RCT.
+
+### Maximum Surface Smoothness Against Biofilm
+K-Aqua's extrusion technology produces inner pipe walls of microscopic smoothness. Because the material does not corrode, this smoothness is maintained over the entire service life of more than 50 years. For microorganisms and limescale, this means: there is no surface to attack. Biofilm buildup is reduced to an absolute minimum, making the thermal and chemical disinfection of the drinking water system extremely efficient and safe.
+
+## Economic and Ecological Sustainability
+
+Choosing K-Aqua PP-RCT systems is not just a question of hygiene, but also of economic sense:
+
+1. **Elimination of Renovation Costs**: Water damage caused by corrosion-related leaks is a thing of the past. The expensive opening of walls and shafts is eliminated.
+2. **Constant Pump Performance**: Because no incrustations narrow the pipe cross-section, the pressure loss in the system remains consistently low for decades. This saves massively on electrical energy for the circulation pumps.
+3. **Conservation of Drinking Water Resources**: No water needs to be drained (flushed) unused due to brown discoloration or hygienic deficiencies.
+
+Our high-quality [pipes](/en/produkte/pipes) and [fittings](/en/produkte/fittings) form the most secure foundation for future-proof buildings. K-Aqua provides you with the technology to protect the most valuable resource – pure drinking water – without compromise.
