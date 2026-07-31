@@ -113,9 +113,18 @@ export default async function SitemapPage({ params }: Props) {
             <div className="flex flex-col gap-6">
               {Object.entries(productsByCategory).map(([category, prods]) => (
                 <div key={category}>
-                  <Link href={`/produkte/${category}`} className="block text-lg font-bold mb-1 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={`/produkte/${category}`} className="block text-lg font-bold mb-3 uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors">
                     {category}
                   </Link>
+                  <ul className="flex flex-col gap-2">
+                    {prods.map(p => (
+                      <li key={p.slug}>
+                        <Link href={`/produkte/${category}/${p.slug}`} className="hover:text-primary transition-colors text-sm">
+                          {p.title || p.slug}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
