@@ -13,24 +13,39 @@ Bei der Planung von Trinkwasserinstallationen für Krankenhäuser, Hotels oder W
 
 Historisch gesehen wurden häufig metallische Systeme (wie verzinkter Stahl oder Kupfer) eingesetzt. Doch diese Materialien bergen ein massives Langzeit-Risiko, das die Trinkwassergüte gefährden kann: Korrosion.
 
-## Das Problem mit metallischen Rohren
+## Die komplexen Mechanismen der Korrosion in metallischen Systemen
 
-Sobald Wasser und Sauerstoff mit Metall in Kontakt kommen, beginnt ein natürlicher, elektrochemischer Prozess. Selbst bei Edelstahl oder hochwertigem Kupfer kann es unter bestimmten Bedingungen (z.B. durch schwankende Wasserqualitäten, pH-Werte oder falsche Fließgeschwindigkeiten) zu Lochfraß, Rostbildung oder der Abgabe von Schwermetallionen in das Trinkwasser kommen.
+Um das volle Ausmaß der Gefahr zu verstehen, muss man die verschiedenen Arten der Korrosion betrachten, die in metallischen Rohrleitungssystemen auftreten können:
 
-Die Folgen sind dramatisch:
-* Verfärbung des Wassers ("braunes Wasser")
-* Inkrustationen: Kalk- und Rostablagerungen verringern den Rohrquerschnitt, erhöhen den Energiebedarf der Pumpen und fördern das Wachstum von Legionellen.
-* Rohrbrüche: Lochfraß führt unweigerlich zu Leckagen, was oft in immensen Wasserschäden und teuren Sanierungskosten endet.
+### 1. Flächenkorrosion
+Dies ist der bekannteste Typ, bei dem die gesamte Oberfläche des Metalls gleichmäßig abgetragen wird. Obwohl dies oft langsam geschieht, führt es zu einer stetigen Erhöhung der Schwermetallkonzentration im Trinkwasser und verringert die Wandstärke der Rohre im Laufe der Zeit.
 
-## Die Lösung: Kunststoff (PP-RCT)
+### 2. Lochfraßkorrosion (Pitting)
+Dies ist die gefährlichste Form der Korrosion. Sie tritt hochgradig lokalisiert auf und frisst sich regelrecht durch die Rohrwand. Selbst bei dicken Metallrohren kann Lochfraß innerhalb von wenigen Monaten zu Mikroleckagen oder kapitalen Rohrbrüchen führen. Ursache sind oft lokale Störstellen in der Oxidschicht des Metalls, häufig ausgelöst durch Chloridionen im Wasser.
 
-K-Aqua Rohrsysteme bestehen aus Hochleistungs-Polypropylen (PP-RCT). Dieses Material ist ein Isolator und geht keinerlei elektrochemische Reaktion mit dem geförderten Wasser ein. 
+### 3. Kontaktkorrosion (Bimetallkorrosion)
+In der modernen Gebäudetechnik werden oft verschiedene Metalle kombiniert (z. B. Kupferrohre mit verzinkten Stahlbauteilen). Fließt Wasser als Elektrolyt zwischen diesen Metallen, opfert sich das unedlere Metall für das edlere – ein rapid fortschreitender Zerfallsprozess beginnt, der ganze Anlagenkomponenten in kurzer Zeit zerstören kann.
 
-Die Vorteile auf einen Blick:
-1. 100% korrosionsfrei: PP-RCT kann physikalisch nicht rosten. Die Innenwand des Rohres bleibt von Tag 1 bis Tag 18.250 (50 Jahre später) exakt gleich glatt.
-2. Chemisch inert: Das Material reagiert nicht mit den Inhaltsstoffen des Wassers. Es gibt keine Metallionen an das Wasser ab, wodurch der Geruch und Geschmack des Wassers in seiner natürlichen Form erhalten bleiben.
-3. Lebensmittelecht: Unsere Systeme besitzen die strengsten internationalen Zulassungen (DVGW, KIWA, SKZ) für den uneingeschränkten Einsatz im Kontakt mit Trinkwasser.
+## Mikrobiologisch induzierte Korrosion (MIC) und Biofilmbildung
 
-> "Wer heute noch Metall in großen Trinkwasserinstallationen verbaut, baut das Sanierungsprojekt der Zukunft gleich mit ein."
+Ein oft übersehener Faktor ist das mikrobielle Wachstum. Auf den rauen, oft von Korrosionsprodukten übersäten Innenflächen metallischer Rohre bilden sich ideale Haftgründe für Biofilme. In diesen schleimigen Schichten siedeln sich nicht nur gesundheitsgefährdende Bakterien wie Legionellen oder Pseudomonaden an, sondern auch sulfatreduzierende Bakterien. Diese Mikroorganismen scheiden aggressive Stoffwechselprodukte aus, die die Korrosion des Metalls weiter drastisch beschleunigen. Es entsteht ein Teufelskreis aus Korrosion und bakterieller Kontamination.
 
-Mit dem Umstieg auf K-Aqua PP-RCT Systeme (z.B. unsere [hochwertigen Rohre](/de/produkte/pipes) und [Fittings](/de/produkte/fittings)) sichern sich Architekten, Planer und Bauherren gegen das Risiko Korrosion ab und garantieren höchste Trinkwasserhygiene über Jahrzehnte hinweg.
+## Die materialwissenschaftliche Überlegenheit von K-Aqua PP-RCT
+
+Die Lösung für dieses vielschichtige Problem liegt nicht in der Behandlung des Wassers oder dem Versuch, die Metalle besser zu beschichten, sondern in der konsequenten Wahl eines Werkstoffs, der physikalisch und chemisch nicht rosten kann: Polypropylen Random-Copolymer mit modifizierter Kristallinität (PP-RCT).
+
+### Die molekulare Struktur
+PP-RCT ist ein thermoplastischer Kunststoff, dessen molekulares Gerüst vollständig aus Kohlenstoff- und Wasserstoffatomen. Es besitzt keine freien Elektronen, die für den elektrochemischen Prozess der Korrosion zwingend erforderlich sind. Das Material agiert als perfekter elektrischer Isolator. Selbst vagabundierende Ströme, die in großen Gebäuden oft zu unerklärlichen Korrosionsschäden an Metallrohren führen, haben auf PP-RCT keinerlei Auswirkung.
+
+### Maximale Oberflächengüte gegen Biofilm
+Die Extrusionstechnik von K-Aqua erzeugt Rohrinnenwände von mikroskopischer Glätte. Da das Material nicht korrodiert, bleibt diese Glätte über die gesamte Lebensdauer von mehr als 50 Jahren erhalten. Für Mikroorganismen und Kalk bedeutet dies: Es gibt keine Angriffsfläche. Der Biofilmaufbau wird auf ein absolutes Minimum reduziert, was die thermische und chemische Desinfektion des Trinkwassersystems extrem effizient und sicher macht.
+
+## Wirtschaftliche und ökologische Nachhaltigkeit
+
+Die Entscheidung für K-Aqua PP-RCT Systeme ist nicht nur eine Frage der Hygiene, sondern auch der ökonomischen Vernunft:
+
+1. **Wegfall von Sanierungskosten**: Wasserschäden durch korrosionsbedingte Leckagen gehören der Vergangenheit an. Die teure Öffnung von Wänden und Schächten entfällt.
+2. **Konstante Pumpenleistung**: Da keine Inkrustationen den Rohrquerschnitt verengen, bleibt der Druckverlust im System über Jahrzehnte hinweg konstant niedrig. Dies spart massiv elektrische Energie für die Zirkulationspumpen.
+3. **Schonung der Ressource Trinkwasser**: Es muss kein Wasser aufgrund von brauner Verfärbung oder hygienischer Mängel ungenutzt abgelassen (gespült) werden.
+
+Unsere hochwertigen [Rohre](/de/produkte/pipes) und [Fittings](/de/produkte/fittings) bilden das sicherste Fundament für zukunftssichere Bauwerke. K-Aqua liefert Ihnen die Technologie, um das höchste Gut – reines Trinkwasser – kompromisslos zu schützen.
