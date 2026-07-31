@@ -38,21 +38,21 @@ Die Integration der PP-R Mutter ist ein Meisterstück der Konstruktion. PP-R (Po
 
 Um den unterschiedlichen Anforderungen von Bau- und Industrieprojekten gerecht zu werden, bieten wir die Metall-Verschraubung in einer Vielzahl von Dimensionen an. Die verfügbaren Größen decken Rohraußendurchmesser (d) von 20 mm bis 50 mm ab und sind mit den entsprechenden Außengewinden (R) gepaart:
 
-- **AQ71R20:** Durchmesser 20 mm mit einem ½" Außengewinde. Ideal für feine Hausinstallationen und Anschlussleitungen an Waschbecken oder Toiletten.
-- **AQ71R25:** Durchmesser 25 mm mit einem ¾" Außengewinde. Die Standardgröße für Hauptversorgungsleitungen im Wohnbereich.
-- **AQ71R32:** Durchmesser 32 mm mit einem 1" Außengewinde. Perfekt für Verteilnetzwerke und mittelgroße Heizungssysteme.
-- **AQ71R40:** Durchmesser 40 mm mit einem 1¼" Außengewinde. Geeignet für industrielle Anwendungen und größere Gebäudekomplexe.
-- **AQ71R50:** Durchmesser 50 mm mit einem 1½" Außengewinde. Die optimale Lösung für Hauptsteigleitungen und Hochleistungs-Kühlsysteme.
+- AQ71R20: Durchmesser 20 mm mit einem ½" Außengewinde. Ideal für feine Hausinstallationen und Anschlussleitungen an Waschbecken oder Toiletten.
+- AQ71R25: Durchmesser 25 mm mit einem ¾" Außengewinde. Die Standardgröße für Hauptversorgungsleitungen im Wohnbereich.
+- AQ71R32: Durchmesser 32 mm mit einem 1" Außengewinde. Perfekt für Verteilnetzwerke und mittelgroße Heizungssysteme.
+- AQ71R40: Durchmesser 40 mm mit einem 1¼" Außengewinde. Geeignet für industrielle Anwendungen und größere Gebäudekomplexe.
+- AQ71R50: Durchmesser 50 mm mit einem 1½" Außengewinde. Die optimale Lösung für Hauptsteigleitungen und Hochleistungs-Kühlsysteme.
 
 Diese breite Palette an Artikelcodes (AQ71R20 bis AQ71R50) stellt sicher, dass Installateure und Ingenieure stets das genau passende Bauteil für ihre spezifischen Durchflussanforderungen und Anschlussgrößen zur Hand haben.
 
 ### Anwendungsbereiche und Einsatzgebiete
 
-Die Vielseitigkeit dieser Metall-Verschraubung mit PP-R Mutter macht sie zu einer bevorzugten Wahl in zahlreichen Anwendungsgebieten. Im Bereich der **Trinkwasserversorgung** sorgt das Bauteil für höchste hygienische Standards. Das PP-R Material verhindert die Bildung von Biofilmen, während das Messing geschmacks- und geruchsneutral bleibt. 
+Die Vielseitigkeit dieser Metall-Verschraubung mit PP-R Mutter macht sie zu einer bevorzugten Wahl in zahlreichen Anwendungsgebieten. Im Bereich der Trinkwasserversorgung sorgt das Bauteil für höchste hygienische Standards. Das PP-R Material verhindert die Bildung von Biofilmen, während das Messing geschmacks- und geruchsneutral bleibt. 
 
-In **Heizungs- und Klimasystemen** (HVAC) bewährt sich die Verschraubung durch ihre außergewöhnliche Temperaturbeständigkeit. Sie hält sowohl den hohen Temperaturen von Vorlaufleitungen als auch den niedrigen Temperaturen von Kühlkreisläufen problemlos stand, ohne spröde zu werden. Die thermische Ausdehnung wird durch das smarte Design kompensiert, wodurch Spannungen im Rohrnetzwerk minimiert werden.
+In Heizungs- und Klimasystemen (HVAC) bewährt sich die Verschraubung durch ihre außergewöhnliche Temperaturbeständigkeit. Sie hält sowohl den hohen Temperaturen von Vorlaufleitungen als auch den niedrigen Temperaturen von Kühlkreisläufen problemlos stand, ohne spröde zu werden. Die thermische Ausdehnung wird durch das smarte Design kompensiert, wodurch Spannungen im Rohrnetzwerk minimiert werden.
 
-Auch in **industriellen Anlagen** spielt dieses Fitting seine Stärken aus. Egal ob es um den Transport von Druckluft, aufbereitetem Wasser oder milden chemischen Lösungen geht – die Kombination aus robustem Metall und widerstandsfähigem Kunststoff bietet eine langlebige und wartungsarme Lösung. Die einfache Demontage durch die Überwurfmutter ermöglicht zudem schnelle Wartungsarbeiten an angeschlossenen Pumpen, Ventilen oder Filtern.
+Auch in industriellen Anlagen spielt dieses Fitting seine Stärken aus. Egal ob es um den Transport von Druckluft, aufbereitetem Wasser oder milden chemischen Lösungen geht – die Kombination aus robustem Metall und widerstandsfähigem Kunststoff bietet eine langlebige und wartungsarme Lösung. Die einfache Demontage durch die Überwurfmutter ermöglicht zudem schnelle Wartungsarbeiten an angeschlossenen Pumpen, Ventilen oder Filtern.
 
 ### Installation: Effizient und Sicher
 
@@ -79,21 +79,21 @@ The integration of the PP-R nut is a true masterpiece of engineering. PP-R is gl
 
 To fully accommodate the diverse and specific requirements of various construction and industrial projects, we offer the Metal Union with PP-R Nut in a comprehensive range of dimensions. The available sizes perfectly cover pipe outer diameters (d) ranging from 20 mm up to 50 mm, each paired with the precise male thread (R) specification:
 
-- **AQ71R20:** A 20 mm diameter combined with a ½" male thread. This is the ideal choice for fine residential plumbing, such as connecting supply lines to sinks, toilets, and individual fixtures.
-- **AQ71R25:** A 25 mm diameter with a ¾" male thread. This serves as the standard size for primary water supply distribution lines within residential and small commercial buildings.
-- **AQ71R32:** A 32 mm diameter featuring a 1" male thread. Perfectly suited for larger distribution networks, risers, and mid-sized central heating systems.
-- **AQ71R40:** A 40 mm diameter with a 1¼" male thread. Highly recommended for heavy-duty industrial applications, extensive HVAC systems, and large building complexes.
-- **AQ71R50:** A 50 mm diameter paired with a 1½" male thread. The ultimate solution for major main lines, high-capacity cooling systems, and demanding fluid transport requirements.
+- AQ71R20: A 20 mm diameter combined with a ½" male thread. This is the ideal choice for fine residential plumbing, such as connecting supply lines to sinks, toilets, and individual fixtures.
+- AQ71R25: A 25 mm diameter with a ¾" male thread. This serves as the standard size for primary water supply distribution lines within residential and small commercial buildings.
+- AQ71R32: A 32 mm diameter featuring a 1" male thread. Perfectly suited for larger distribution networks, risers, and mid-sized central heating systems.
+- AQ71R40: A 40 mm diameter with a 1¼" male thread. Highly recommended for heavy-duty industrial applications, extensive HVAC systems, and large building complexes.
+- AQ71R50: A 50 mm diameter paired with a 1½" male thread. The ultimate solution for major main lines, high-capacity cooling systems, and demanding fluid transport requirements.
 
 This extensive array of article codes (AQ71R20 through AQ71R50) ensures that plumbers, installers, and engineers always have the exact right component at their fingertips, perfectly matching their specific flow rate requirements and connection dimensions.
 
 ### Wide-Ranging Applications and Use Cases
 
-The remarkable versatility of this Metal Union makes it the preferred choice across a multitude of application fields. In the critical sector of **potable water supply**, this fitting guarantees the highest hygienic standards. The smooth internal surface of the PP-R material prevents the formation of biofilms and scaling, while the premium brass remains completely neutral in taste and odor.
+The remarkable versatility of this Metal Union makes it the preferred choice across a multitude of application fields. In the critical sector of potable water supply, this fitting guarantees the highest hygienic standards. The smooth internal surface of the PP-R material prevents the formation of biofilms and scaling, while the premium brass remains completely neutral in taste and odor.
 
-Within **heating, ventilation, and air conditioning (HVAC) systems**, the union proves its worth through exceptional temperature resistance. It easily withstands the high temperatures of heating supply lines as well as the low temperatures of chilled water circuits without becoming brittle or failing. Thermal expansion is naturally compensated for by the smart material combination, thereby minimizing stress on the overall pipe network.
+Within heating, ventilation, and air conditioning (HVAC) systems, the union proves its worth through exceptional temperature resistance. It easily withstands the high temperatures of heating supply lines as well as the low temperatures of chilled water circuits without becoming brittle or failing. Thermal expansion is naturally compensated for by the smart material combination, thereby minimizing stress on the overall pipe network.
 
-Moreover, this fitting demonstrates significant strength in **industrial facilities**. Whether the task involves transporting compressed air, treated industrial water, or mild chemical solutions, the robust combination of metal and resilient plastic provides a highly durable and low-maintenance solution. A key advantage is the union nut design, which allows for rapid disassembly. This feature makes maintenance work on connected pumps, valves, flow meters, or filters incredibly fast and straightforward, reducing system downtime.
+Moreover, this fitting demonstrates significant strength in industrial facilities. Whether the task involves transporting compressed air, treated industrial water, or mild chemical solutions, the robust combination of metal and resilient plastic provides a highly durable and low-maintenance solution. A key advantage is the union nut design, which allows for rapid disassembly. This feature makes maintenance work on connected pumps, valves, flow meters, or filters incredibly fast and straightforward, reducing system downtime.
 
 ### Efficient and Secure Installation
 
@@ -120,21 +120,21 @@ In conclusion, the Metal Union with PP-R Nut (Male Thread) is a pinnacle of conn
 
 لتلبية المتطلبات المتنوعة والمحددة لمختلف المشاريع الإنشائية والصناعية بشكل كامل، نقدم الوصلة المعدنية مع صامولة PP-R في مجموعة شاملة من الأبعاد. تغطي الأحجام المتوفرة بشكل مثالي الأقطار الخارجية للأنابيب (d) التي تتراوح من 20 مم إلى 50 مم، وكل منها مقترن بمواصفات السن الخارجي (R) الدقيقة:
 
-- **AQ71R20:** قطر 20 مم مدمج مع سن خارجي ½ بوصة. هذا هو الخيار المثالي للسباكة السكنية الدقيقة، مثل توصيل خطوط الإمداد بالأحواض والمراحيض والتركيبات الفردية.
-- **AQ71R25:** قطر 25 مم مع سن خارجي ¾ بوصة. يعمل هذا كحجم قياسي لخطوط توزيع إمدادات المياه الأولية داخل المباني السكنية والتجارية الصغيرة.
-- **AQ71R32:** قطر 32 مم يتميز بسن خارجي 1 بوصة. مناسب تماماً لشبكات التوزيع الأكبر، والأنابيب الصاعدة، وأنظمة التدفئة المركزية متوسطة الحجم.
-- **AQ71R40:** قطر 40 مم مع سن خارجي 1¼ بوصة. يوصى به بشدة للتطبيقات الصناعية الشاقة، وأنظمة التدفئة والتهوية وتكييف الهواء الواسعة، والمجمعات السكنية الكبيرة.
-- **AQ71R50:** قطر 50 مم مقترن بسن خارجي 1½ بوصة. الحل النهائي للخطوط الرئيسية الكبرى، وأنظمة التبريد عالية السعة، ومتطلبات نقل السوائل الصعبة.
+- AQ71R20: قطر 20 مم مدمج مع سن خارجي ½ بوصة. هذا هو الخيار المثالي للسباكة السكنية الدقيقة، مثل توصيل خطوط الإمداد بالأحواض والمراحيض والتركيبات الفردية.
+- AQ71R25: قطر 25 مم مع سن خارجي ¾ بوصة. يعمل هذا كحجم قياسي لخطوط توزيع إمدادات المياه الأولية داخل المباني السكنية والتجارية الصغيرة.
+- AQ71R32: قطر 32 مم يتميز بسن خارجي 1 بوصة. مناسب تماماً لشبكات التوزيع الأكبر، والأنابيب الصاعدة، وأنظمة التدفئة المركزية متوسطة الحجم.
+- AQ71R40: قطر 40 مم مع سن خارجي 1¼ بوصة. يوصى به بشدة للتطبيقات الصناعية الشاقة، وأنظمة التدفئة والتهوية وتكييف الهواء الواسعة، والمجمعات السكنية الكبيرة.
+- AQ71R50: قطر 50 مم مقترن بسن خارجي 1½ بوصة. الحل النهائي للخطوط الرئيسية الكبرى، وأنظمة التبريد عالية السعة، ومتطلبات نقل السوائل الصعبة.
 
 تضمن هذه المجموعة الواسعة من رموز المقالات (AQ71R20 إلى AQ71R50) أن يكون لدى السباكين والمركبين والمهندسين دائماً المكون الصحيح الدقيق في متناول أيديهم، مما يطابق تماماً متطلبات معدل التدفق المحددة وأبعاد التوصيل الخاصة بهم.
 
 ### تطبيقات واسعة النطاق وحالات الاستخدام
 
-إن التنوع الملحوظ لهذه الوصلة المعدنية يجعلها الخيار المفضل عبر العديد من مجالات التطبيق. في القطاع الحاسم لـ **إمدادات مياه الشرب**، تضمن هذه الوصلة أعلى معايير النظافة. يمنع السطح الداخلي الأملس لمادة PP-R تكوين الأغشية الحيوية والقشور، بينما يبقى النحاس الممتاز محايداً تماماً في الذوق والرائحة.
+إن التنوع الملحوظ لهذه الوصلة المعدنية يجعلها الخيار المفضل عبر العديد من مجالات التطبيق. في القطاع الحاسم لـ إمدادات مياه الشرب، تضمن هذه الوصلة أعلى معايير النظافة. يمنع السطح الداخلي الأملس لمادة PP-R تكوين الأغشية الحيوية والقشور، بينما يبقى النحاس الممتاز محايداً تماماً في الذوق والرائحة.
 
-ضمن **أنظمة التدفئة والتهوية وتكييف الهواء (HVAC)**، تثبت الوصلة جدارتها من خلال مقاومة استثنائية لدرجات الحرارة. فهي تتحمل بسهولة درجات الحرارة العالية لخطوط إمداد التدفئة بالإضافة إلى درجات الحرارة المنخفضة لدوائر المياه المبردة دون أن تصبح هشة أو تفشل. يتم تعويض التمدد الحراري بشكل طبيعي من خلال تركيبة المواد الذكية، وبالتالي تقليل الضغط على شبكة الأنابيب الإجمالية.
+ضمن أنظمة التدفئة والتهوية وتكييف الهواء (HVAC)، تثبت الوصلة جدارتها من خلال مقاومة استثنائية لدرجات الحرارة. فهي تتحمل بسهولة درجات الحرارة العالية لخطوط إمداد التدفئة بالإضافة إلى درجات الحرارة المنخفضة لدوائر المياه المبردة دون أن تصبح هشة أو تفشل. يتم تعويض التمدد الحراري بشكل طبيعي من خلال تركيبة المواد الذكية، وبالتالي تقليل الضغط على شبكة الأنابيب الإجمالية.
 
-علاوة على ذلك، يُظهر هذا التركيب قوة كبيرة في **المرافق الصناعية**. سواء كانت المهمة تنطوي على نقل الهواء المضغوط، أو المياه الصناعية المعالجة، أو المحاليل الكيميائية الخفيفة، فإن المزيج القوي بين المعدن والبلاستيك المرن يوفر حلاً متيناً للغاية ومنخفض الصيانة. الميزة الرئيسية هي تصميم صامولة الوصلة، والذي يسمح بالتفكيك السريع. تجعل هذه الميزة أعمال الصيانة على المضخات أو الصمامات أو مقاييس التدفق أو الفلاتر المتصلة سريعة ومباشرة بشكل لا يصدق، مما يقلل من وقت توقف النظام.
+علاوة على ذلك، يُظهر هذا التركيب قوة كبيرة في المرافق الصناعية. سواء كانت المهمة تنطوي على نقل الهواء المضغوط، أو المياه الصناعية المعالجة، أو المحاليل الكيميائية الخفيفة، فإن المزيج القوي بين المعدن والبلاستيك المرن يوفر حلاً متيناً للغاية ومنخفض الصيانة. الميزة الرئيسية هي تصميم صامولة الوصلة، والذي يسمح بالتفكيك السريع. تجعل هذه الميزة أعمال الصيانة على المضخات أو الصمامات أو مقاييس التدفق أو الفلاتر المتصلة سريعة ومباشرة بشكل لا يصدق، مما يقلل من وقت توقف النظام.
 
 ### تركيب فعال وآمن
 

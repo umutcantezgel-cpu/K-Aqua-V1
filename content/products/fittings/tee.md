@@ -1,5 +1,7 @@
 ---
-title: "PP-R Tee Fitting"
+title: "PP-R Equal Tee Fitting"
+titleDE: "PP-R T-Stück (Gleichschenklig)"
+titleAR: "وصلة تيه متساوية PP-R"
 category: "Fittings"
 slug: "fittings/tee"
 article_codes: ["AQ13020", "AQ13025", "AQ13032", "AQ13040", "AQ13050", "AQ13063", "AQ13075"]
@@ -35,10 +37,10 @@ Die Verbindungstechnologie der Heizelement-Muffenschweißung (Socket Fusion) ist
 
 ### Anwendungsbereiche und Einsatzgebiete
 Dank der hervorragenden Materialeigenschaften von PP-R ist das T-Stück extrem vielseitig einsetzbar:
-*   **Trinkwasserinstallationen:** PP-R ist absolut lebensmittelecht, geschmacks- und geruchsneutral und erfüllt höchste hygienische Standards.
-*   **Heizungs- und Kühlsysteme:** Die exzellente thermische Isolationsfähigkeit von PP-R reduziert Energieverluste signifikant und verhindert Kondenswasserbildung.
-*   **Industrielle Anwendungen:** Das Material ist chemisch resistent gegenüber einer Vielzahl von aggressiven Medien und eignet sich daher hervorragend für industrielle Prozesswasser- und Chemikalienleitungen.
-*   **Klima- und Lüftungstechnik:** Auch in Kaltwassernetzen für Klimaanlagen beweist das PP-R T-Stück seine Überlegenheit durch Korrosionsfreiheit.
+*   Trinkwasserinstallationen: PP-R ist absolut lebensmittelecht, geschmacks- und geruchsneutral und erfüllt höchste hygienische Standards.
+*   Heizungs- und Kühlsysteme: Die exzellente thermische Isolationsfähigkeit von PP-R reduziert Energieverluste signifikant und verhindert Kondenswasserbildung.
+*   Industrielle Anwendungen: Das Material ist chemisch resistent gegenüber einer Vielzahl von aggressiven Medien und eignet sich daher hervorragend für industrielle Prozesswasser- und Chemikalienleitungen.
+*   Klima- und Lüftungstechnik: Auch in Kaltwassernetzen für Klimaanlagen beweist das PP-R T-Stück seine Überlegenheit durch Korrosionsfreiheit.
 
 ### Materialeigenschaften und Langlebigkeit
 Polypropylen Random-Copolymer (PP-R) zeichnet sich durch seine außergewöhnliche Beständigkeit aus. Es ist immun gegen elektrochemische Korrosion, was ein häufiges Problem bei metallischen Rohrsystemen darstellt. Zudem verhindert die glatte Innenoberfläche des T-Stücks Inkrustationen und Ablagerungen. Dies führt zu einem dauerhaft geringen Reibungswiderstand und sorgt dafür, dass der Durchflussquerschnitt über die gesamte Lebensdauer des Systems konstant bleibt. Druckverluste und Pumpenenergie werden so auf ein Minimum reduziert. Auch bei hohen Fließgeschwindigkeiten treten keine störenden Strömungsgeräusche auf, was den Wohnkomfort in Gebäuden signifikant erhöht.
@@ -57,10 +59,10 @@ The socket fusion connection technology is the core element of safety and reliab
 
 ### Areas of Application
 Thanks to the outstanding material properties of PP-R, the tee fitting is exceptionally versatile and suitable for numerous applications:
-*   **Potable Water Installations:** PP-R is completely food-safe, tasteless, and odorless, meeting the most stringent hygienic standards for drinking water networks.
-*   **Heating and Cooling Systems:** The excellent thermal insulation properties of PP-R significantly reduce energy losses and effectively prevent the formation of condensation on the pipe exterior.
-*   **Industrial Applications:** The material exhibits high chemical resistance against a wide variety of aggressive media, making it perfectly suited for industrial process water and chemical transport lines.
-*   **Air Conditioning Networks:** In chilled water networks for HVAC systems, the PP-R tee proves its superiority through absolute corrosion resistance and durability.
+*   Potable Water Installations: PP-R is completely food-safe, tasteless, and odorless, meeting the most stringent hygienic standards for drinking water networks.
+*   Heating and Cooling Systems: The excellent thermal insulation properties of PP-R significantly reduce energy losses and effectively prevent the formation of condensation on the pipe exterior.
+*   Industrial Applications: The material exhibits high chemical resistance against a wide variety of aggressive media, making it perfectly suited for industrial process water and chemical transport lines.
+*   Air Conditioning Networks: In chilled water networks for HVAC systems, the PP-R tee proves its superiority through absolute corrosion resistance and durability.
 
 ### Material Properties and Longevity
 Polypropylene Random Copolymer (PP-R) is characterized by its extraordinary durability. It is completely immune to electrochemical corrosion, which is a prevalent issue in traditional metallic piping systems. Furthermore, the extremely smooth internal surface of the tee fitting prevents the buildup of incrustations and scale deposits. This results in a consistently low friction coefficient and ensures that the internal flow cross-section remains constant throughout the entire service life of the system. Consequently, pressure drops are minimized, and the energy required for pumping fluids is significantly reduced over time. Additionally, the excellent acoustic dampening properties of PP-R ensure that water flow remains remarkably quiet, even at higher velocities.
@@ -79,10 +81,10 @@ The PP-R tee fitting is far more than a simple connector; it is a critical compo
 
 ### مجالات التطبيق
 بفضل خصائص المواد المتميزة لـ PP-R، فإن وصلة التيه متعددة الاستخدامات بشكل استثنائي ومناسبة للعديد من التطبيقات:
-*   **تركيبات مياه الشرب:** مادة PP-R آمنة تماماً للمواد الغذائية، ولا طعم لها، وعديمة الرائحة، وتلبي أكثر المعايير الصحية صرامة لمياه الشرب.
-*   **أنظمة التدفئة والتبريد:** تقلل خصائص العزل الحراري الممتازة لـ PP-R بشكل كبير من فقدان الطاقة وتمنع بشكل فعال تكوين التكثيف على السطح الخارجي للأنبوب.
-*   **التطبيقات الصناعية:** تُظهر المادة مقاومة كيميائية عالية ضد مجموعة متنوعة من الوسائط العدوانية، مما يجعلها مناسبة تماماً لمياه العمليات الصناعية وخطوط النقل الكيميائي.
-*   **شبكات تكييف الهواء:** في شبكات المياه المبردة لأنظمة التدفئة والتهوية وتكييف الهواء، تثبت وصلة تيه PP-R تفوقها من خلال المقاومة المطلقة للتآكل والصدأ.
+*   تركيبات مياه الشرب: مادة PP-R آمنة تماماً للمواد الغذائية، ولا طعم لها، وعديمة الرائحة، وتلبي أكثر المعايير الصحية صرامة لمياه الشرب.
+*   أنظمة التدفئة والتبريد: تقلل خصائص العزل الحراري الممتازة لـ PP-R بشكل كبير من فقدان الطاقة وتمنع بشكل فعال تكوين التكثيف على السطح الخارجي للأنبوب.
+*   التطبيقات الصناعية: تُظهر المادة مقاومة كيميائية عالية ضد مجموعة متنوعة من الوسائط العدوانية، مما يجعلها مناسبة تماماً لمياه العمليات الصناعية وخطوط النقل الكيميائي.
+*   شبكات تكييف الهواء: في شبكات المياه المبردة لأنظمة التدفئة والتهوية وتكييف الهواء، تثبت وصلة تيه PP-R تفوقها من خلال المقاومة المطلقة للتآكل والصدأ.
 
 ### خصائص المواد وطول العمر
 يتميز البولي بروبلين العشوائي (PP-R) بمتانته الاستثنائية. إنه محصن تماماً ضد التآكل الكهروكيميائي، وهي مشكلة سائدة في أنظمة الأنابيب المعدنية التقليدية. علاوة على ذلك، يمنع السطح الداخلي الأملس للغاية لوصلة التيه تراكم القشور والرواسب. ينتج عن هذا معامل احتكاك منخفض باستمرار ويضمن بقاء المقطع العرضي للتدفق الداخلي ثابتاً طوال عمر الخدمة بالكامل للنظام. وبالتالي، يتم تقليل انخفاض الضغط إلى الحد الأدنى، وتقل الطاقة المطلوبة لضخ السوائل بشكل كبير بمرور الوقت. كما أن خصائص العزل الصوتي الممتازة لـ PP-R تضمن بقاء تدفق المياه هادئاً بشكل ملحوظ، حتى عند السرعات العالية.

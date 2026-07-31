@@ -35,13 +35,13 @@ Der K-Aqua Sprungbogen mit Muffe wird aus hochwertigem Polypropylen Random-Copol
 
 Um eine maximale Flexibilität bei der Rohrinstallation zu gewährleisten, ist der K-Aqua Sprungbogen mit Muffe in den gängigsten Durchmessern erhältlich. Diese umfassen 20 mm, 25 mm und 32 mm, wodurch fast alle Standardanwendungen im Wohnungs- und Gewerbebau abgedeckt werden.
 
-1. **Dimension 20 mm (Artikelcode: AQ29520):** Diese Größe ist ideal für die Endverteilung in Einfamilienhäusern oder für den direkten Anschluss von Einzelverbrauchern. Die integrierten Muffen sorgen für eine schnelle Verarbeitung bei Standard-Trinkwasserleitungen.
-2. **Dimension 25 mm (Artikelcode: AQ29525):** Die 25-mm-Ausführung eignet sich besonders für Verteilerleitungen oder Steigstränge, bei denen ein höherer Wasserdurchfluss gefordert ist. Hier profitieren Installateure von der Robustheit und der platzsparenden Bauform.
-3. **Dimension 32 mm (Artikelcode: AQ29532):** In Mehrfamilienhäusern, gewerblichen Einrichtungen oder bei Hauptleitungen kommt die 32-mm-Version zum Einsatz. Sie gewährleistet trotz der Überkreuzung einen hervorragenden Volumenstrom bei minimalem Druckabfall.
+1. Dimension 20 mm (Artikelcode: AQ29520): Diese Größe ist ideal für die Endverteilung in Einfamilienhäusern oder für den direkten Anschluss von Einzelverbrauchern. Die integrierten Muffen sorgen für eine schnelle Verarbeitung bei Standard-Trinkwasserleitungen.
+2. Dimension 25 mm (Artikelcode: AQ29525): Die 25-mm-Ausführung eignet sich besonders für Verteilerleitungen oder Steigstränge, bei denen ein höherer Wasserdurchfluss gefordert ist. Hier profitieren Installateure von der Robustheit und der platzsparenden Bauform.
+3. Dimension 32 mm (Artikelcode: AQ29532): In Mehrfamilienhäusern, gewerblichen Einrichtungen oder bei Hauptleitungen kommt die 32-mm-Version zum Einsatz. Sie gewährleistet trotz der Überkreuzung einen hervorragenden Volumenstrom bei minimalem Druckabfall.
 
 #### Vielfältige Anwendungsbereiche in der Haustechnik
 
-Die Einsatzmöglichkeiten des Sprungbogens mit Muffe sind extrem breit gefächert. In **Trinkwasserinstallationen** ermöglicht er die saubere Trennung und Überkreuzung von Kalt- und Warmwasserleitungen, beispielsweise in Installationsschächten oder Vorwandelementen. In **Heizungssystemen** ist das Fitting unverzichtbar, wenn Vor- und Rücklaufleitungen, etwa bei der Anbindung von Heizkörpern oder Fußbodenheizungsverteilern, den Weg kreuzen. Da PP-R eine sehr hohe Temperatur- und Druckbeständigkeit aufweist, ist der Sprungbogen für diese thermisch anspruchsvollen Anwendungen bestens gerüstet. Auch in **Klimaanlagen und Kühlsystemen** bietet das Material PP-R durch seine hervorragenden Isoliereigenschaften Vorteile, da die Bildung von Kondenswasser stark reduziert wird.
+Die Einsatzmöglichkeiten des Sprungbogens mit Muffe sind extrem breit gefächert. In Trinkwasserinstallationen ermöglicht er die saubere Trennung und Überkreuzung von Kalt- und Warmwasserleitungen, beispielsweise in Installationsschächten oder Vorwandelementen. In Heizungssystemen ist das Fitting unverzichtbar, wenn Vor- und Rücklaufleitungen, etwa bei der Anbindung von Heizkörpern oder Fußbodenheizungsverteilern, den Weg kreuzen. Da PP-R eine sehr hohe Temperatur- und Druckbeständigkeit aufweist, ist der Sprungbogen für diese thermisch anspruchsvollen Anwendungen bestens gerüstet. Auch in Klimaanlagen und Kühlsystemen bietet das Material PP-R durch seine hervorragenden Isoliereigenschaften Vorteile, da die Bildung von Kondenswasser stark reduziert wird.
 
 #### Effiziente Montage durch Polyfusionsschweißung
 
@@ -67,13 +67,13 @@ The K-Aqua Cross Over with Socket is manufactured from premium Polypropylene Ran
 
 To ensure maximum flexibility in pipe installation, the K-Aqua Cross Over with Socket is available in the most common diameters. These include 20 mm, 25 mm, and 32 mm, covering almost all standard applications in residential and commercial construction.
 
-1. **Dimension 20 mm (Article Code: AQ29520):** This size is ideal for end distribution in single-family homes or for the direct connection of individual consumers. The integrated sockets ensure fast processing for standard potable water lines.
-2. **Dimension 25 mm (Article Code: AQ29525):** The 25 mm version is particularly suitable for distribution lines or riser pipes where a higher water flow is required. Here, installers benefit from its robustness and space-saving design.
-3. **Dimension 32 mm (Article Code: AQ29532):** In apartment buildings, commercial facilities, or for main lines, the 32 mm version is used. It ensures an excellent volume flow with minimal pressure drop despite the crossover.
+1. Dimension 20 mm (Article Code: AQ29520): This size is ideal for end distribution in single-family homes or for the direct connection of individual consumers. The integrated sockets ensure fast processing for standard potable water lines.
+2. Dimension 25 mm (Article Code: AQ29525): The 25 mm version is particularly suitable for distribution lines or riser pipes where a higher water flow is required. Here, installers benefit from its robustness and space-saving design.
+3. Dimension 32 mm (Article Code: AQ29532): In apartment buildings, commercial facilities, or for main lines, the 32 mm version is used. It ensures an excellent volume flow with minimal pressure drop despite the crossover.
 
 #### Diverse Application Areas in Building Services
 
-The possible applications for the crossover with socket are extremely broad. In **potable water installations**, it enables the clean separation and crossing of cold and hot water pipes, for example in installation shafts or pre-wall elements. In **heating systems**, the fitting is indispensable when supply and return lines, such as when connecting radiators or underfloor heating manifolds, cross paths. Since PP-R has a very high temperature and pressure resistance, the crossover is perfectly equipped for these thermally demanding applications. Even in **air conditioning and cooling systems**, the PP-R material offers advantages due to its excellent insulating properties, as the formation of condensation is greatly reduced.
+The possible applications for the crossover with socket are extremely broad. In potable water installations, it enables the clean separation and crossing of cold and hot water pipes, for example in installation shafts or pre-wall elements. In heating systems, the fitting is indispensable when supply and return lines, such as when connecting radiators or underfloor heating manifolds, cross paths. Since PP-R has a very high temperature and pressure resistance, the crossover is perfectly equipped for these thermally demanding applications. Even in air conditioning and cooling systems, the PP-R material offers advantages due to its excellent insulating properties, as the formation of condensation is greatly reduced.
 
 #### Efficient Installation via Polyfusion Welding
 
@@ -99,13 +99,13 @@ The production of the crossover pipe is subject to state-of-the-art monitoring p
 
 لضمان أقصى قدر من المرونة في تركيب الأنابيب، يتوفر أنبوب التقاطع مع الجلبة من K-Aqua بأكثر الأقطار شيوعًا. وتشمل هذه الأقطار 20 مم، 25 مم، و 32 مم، والتي تغطي تقريبًا جميع التطبيقات القياسية في البناء السكني والتجاري.
 
-1. **البعد 20 مم (رمز المقال: AQ29520):** هذا الحجم مثالي للتوزيع النهائي في منازل الأسرة الواحدة أو للتوصيل المباشر للمستهلكين الأفراد. تضمن الجلب المدمجة معالجة سريعة لخطوط مياه الشرب القياسية.
-2. **البعد 25 مم (رمز المقال: AQ29525):** إصدار 25 مم مناسب بشكل خاص لخطوط التوزيع أو الأنابيب الصاعدة حيث يتطلب تدفق مياه أعلى. هنا، يستفيد عمال التركيب من متانتها وتصميمها الموفر للمساحة.
-3. **البعد 32 مم (رمز المقال: AQ29532):** في المباني السكنية المتعددة العائلات، أو المنشآت التجارية، أو للخطوط الرئيسية، يتم استخدام إصدار 32 مم. إنه يضمن تدفق حجم ممتاز مع الحد الأدنى من انخفاض الضغط على الرغم من التقاطع.
+1. البعد 20 مم (رمز المقال: AQ29520): هذا الحجم مثالي للتوزيع النهائي في منازل الأسرة الواحدة أو للتوصيل المباشر للمستهلكين الأفراد. تضمن الجلب المدمجة معالجة سريعة لخطوط مياه الشرب القياسية.
+2. البعد 25 مم (رمز المقال: AQ29525): إصدار 25 مم مناسب بشكل خاص لخطوط التوزيع أو الأنابيب الصاعدة حيث يتطلب تدفق مياه أعلى. هنا، يستفيد عمال التركيب من متانتها وتصميمها الموفر للمساحة.
+3. البعد 32 مم (رمز المقال: AQ29532): في المباني السكنية المتعددة العائلات، أو المنشآت التجارية، أو للخطوط الرئيسية، يتم استخدام إصدار 32 مم. إنه يضمن تدفق حجم ممتاز مع الحد الأدنى من انخفاض الضغط على الرغم من التقاطع.
 
 #### مجالات التطبيق المتنوعة في خدمات البناء
 
-إن إمكانيات تطبيق أنبوب التقاطع مع الجلبة واسعة للغاية. في **تركيبات مياه الشرب**، فإنه يتيح الفصل والتقاطع النظيف لأنابيب المياه الباردة والساخنة، على سبيل المثال في أعمدة التثبيت أو عناصر ما قبل الجدار. في **أنظمة التدفئة**، لا غنى عن الوصلة عندما تتقاطع خطوط الإمداد والعودة، مثل عند توصيل المشعات أو مشعبات التدفئة تحت الأرضية. نظرًا لأن PP-R يتمتع بمقاومة عالية جدًا لدرجات الحرارة والضغط، فإن أنبوب التقاطع مجهز تمامًا لهذه التطبيقات الصعبة حراريًا. حتى في **أنظمة تكييف الهواء والتبريد**، تقدم مادة PP-R مزايا بسبب خصائص العزل الممتازة، حيث يتم تقليل تكوين التكثيف بشكل كبير.
+إن إمكانيات تطبيق أنبوب التقاطع مع الجلبة واسعة للغاية. في تركيبات مياه الشرب، فإنه يتيح الفصل والتقاطع النظيف لأنابيب المياه الباردة والساخنة، على سبيل المثال في أعمدة التثبيت أو عناصر ما قبل الجدار. في أنظمة التدفئة، لا غنى عن الوصلة عندما تتقاطع خطوط الإمداد والعودة، مثل عند توصيل المشعات أو مشعبات التدفئة تحت الأرضية. نظرًا لأن PP-R يتمتع بمقاومة عالية جدًا لدرجات الحرارة والضغط، فإن أنبوب التقاطع مجهز تمامًا لهذه التطبيقات الصعبة حراريًا. حتى في أنظمة تكييف الهواء والتبريد، تقدم مادة PP-R مزايا بسبب خصائص العزل الممتازة، حيث يتم تقليل تكوين التكثيف بشكل كبير.
 
 #### تركيب فعال عبر اللحام بالانصهار (Polyfusion)
 

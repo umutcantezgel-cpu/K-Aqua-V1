@@ -1,32 +1,43 @@
 import React from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { FileText, Download, FileArchive, ShieldCheck } from 'lucide-react';
 
-export default function ProductDownloads() {
-  const t = useTranslations('products');
+interface ProductDownloadsProps {
+  translations: {
+    downloads: string;
+    range: string;
+    rangeDesc: string;
+    cert: string;
+    certDesc: string;
+    features: string;
+    featuresDesc: string;
+  };
+}
+
+export default function ProductDownloads({ translations }: ProductDownloadsProps) {
   const locale = useLocale();
   const certIsGerman = locale === 'de';
 
   const downloads = [
     {
-      title: t('labels.range'),
-      desc: t('labels.rangeDesc'),
+      title: translations.range,
+      desc: translations.rangeDesc,
       icon: FileText,
       href: '/pdf/k-aqua-product-range-en.pdf',
       size: '1.2 MB',
       lang: 'EN',
     },
     {
-      title: t('labels.cert'),
-      desc: t('labels.certDesc'),
+      title: translations.cert,
+      desc: translations.certDesc,
       icon: ShieldCheck,
       href: certIsGerman ? '/pdf/kwt-iso-zertifikat-de.pdf' : '/pdf/kwt-iso-certificates-en.pdf',
       size: certIsGerman ? '0.3 MB' : '0.4 MB',
       lang: certIsGerman ? 'DE' : 'EN',
     },
     {
-      title: t('labels.features'),
-      desc: t('labels.featuresDesc'),
+      title: translations.features,
+      desc: translations.featuresDesc,
       icon: FileArchive,
       href: '/pdf/k-aqua-product-features-en.pdf',
       size: '1.8 MB',
@@ -37,7 +48,7 @@ export default function ProductDownloads() {
   return (
     <section className="w-full flex flex-col gap-6 mt-12" data-nosnippet="true">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3">
-        {t('labels.downloads')}
+        {translations.downloads}
       </h3>
 
       <div className="flex flex-col gap-3">

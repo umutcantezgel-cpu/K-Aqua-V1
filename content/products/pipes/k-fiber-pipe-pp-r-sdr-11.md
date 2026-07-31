@@ -7,7 +7,7 @@ article_codes: ["AQ11PF20", "AQ11PF25", "AQ11PF32", "AQ11PF40", "AQ11PF50"]
 
 # K-Fiber Pipe PP-R SDR 11
 
-**S 5** - Working pressure: 20°C / 1.6 MPa - 60°C / 0.8 MPa  
+S 5 - Working pressure: 20°C / 1.6 MPa - 60°C / 0.8 MPa  
 Length: 4 m per bar.
 
 ## Article Table
@@ -38,21 +38,21 @@ Ein wesentliches Merkmal dieses Rohrsystems ist die integrierte Faserverbund-Mit
 ### Verfügbare Dimensionen und Flexibilität in der Anwendung
 
 Das K-Fiber Pipe PP-R SDR 11 wird in Standardlängen von 4 Metern pro Stange geliefert und ist in einer Vielzahl von Durchmessern erhältlich, um den unterschiedlichsten Anforderungen gerecht zu werden. Die verfügbaren Außendurchmesser (d) und Wandstärken (s) umfassen:
-- **20 mm (Code: AQ11PF20)**: Wandstärke 1.8 mm, ideal für kleinere Verteilungsleitungen.
-- **25 mm (Code: AQ11PF25)**: Wandstärke 2.0 mm, oft verwendet für Hauptversorgungsleitungen in Einfamilienhäusern.
-- **32 mm (Code: AQ11PF32)**: Wandstärke 2.5 mm, perfekt für Steigleitungen und größere Verteilersysteme.
-- **40 mm (Code: AQ11PF40)**: Wandstärke 3.2 mm, geeignet für gewerbliche Installationen und Hauptverteiler.
-- **50 mm (Code: AQ11PF50)**: Wandstärke 4.0 mm, optimal für industrielle Anwendungen mit hohem Durchflussbedarf.
+- 20 mm (Code: AQ11PF20): Wandstärke 1.8 mm, ideal für kleinere Verteilungsleitungen.
+- 25 mm (Code: AQ11PF25): Wandstärke 2.0 mm, oft verwendet für Hauptversorgungsleitungen in Einfamilienhäusern.
+- 32 mm (Code: AQ11PF32): Wandstärke 2.5 mm, perfekt für Steigleitungen und größere Verteilersysteme.
+- 40 mm (Code: AQ11PF40): Wandstärke 3.2 mm, geeignet für gewerbliche Installationen und Hauptverteiler.
+- 50 mm (Code: AQ11PF50): Wandstärke 4.0 mm, optimal für industrielle Anwendungen mit hohem Durchflussbedarf.
 
 Jede Dimension ist sorgfältig kalibriert, um eine nahtlose Kompatibilität mit dem umfassenden Sortiment an PP-R Fittings zu gewährleisten. Die thermische Verschweißung (Muffenschweißen) garantiert eine homogene, stoffschlüssige und dauerhaft dichte Verbindung, die jegliche Leckagerisiken eliminiert.
 
 ### Anwendungsbereiche und Einsatzgebiete
 
 Dank seiner herausragenden Materialeigenschaften ist das K-Fiber Pipe PP-R SDR 11 extrem vielseitig einsetzbar. Es eignet sich hervorragend für:
-- **Trinkwasserinstallationen**: Das Material ist physiologisch unbedenklich, geschmacks- und geruchsneutral und erfüllt höchste hygienische Standards.
-- **Heizungssysteme**: Die geringe thermische Ausdehnung und hohe Temperaturbeständigkeit prädestinieren es für den Einsatz in Zentralheizungsnetzen.
-- **Klimasysteme (HVAC)**: Ideal für den Transport von Kühlwasser aufgrund der hervorragenden Isolierungseigenschaften, die Kondensation minimieren.
-- **Industrielle Anlagen**: Beständig gegen eine Vielzahl von Chemikalien, macht es das Rohrsystem zu einer sicheren Wahl für den Transport aggressiver Medien.
+- Trinkwasserinstallationen: Das Material ist physiologisch unbedenklich, geschmacks- und geruchsneutral und erfüllt höchste hygienische Standards.
+- Heizungssysteme: Die geringe thermische Ausdehnung und hohe Temperaturbeständigkeit prädestinieren es für den Einsatz in Zentralheizungsnetzen.
+- Klimasysteme (HVAC): Ideal für den Transport von Kühlwasser aufgrund der hervorragenden Isolierungseigenschaften, die Kondensation minimieren.
+- Industrielle Anlagen: Beständig gegen eine Vielzahl von Chemikalien, macht es das Rohrsystem zu einer sicheren Wahl für den Transport aggressiver Medien.
 
 ### Nachhaltigkeit und Umweltfreundlichkeit
 
@@ -75,21 +75,21 @@ A key feature of this piping system is the integrated fiber composite middle lay
 ### Available Dimensions and Flexibility in Application
 
 The K-Fiber Pipe PP-R SDR 11 is supplied in standard lengths of 4 meters per bar and is available in a variety of diameters to meet a wide range of requirements. The available outer diameters (d) and wall thicknesses (s) include:
-- **20 mm (Code: AQ11PF20)**: Wall thickness 1.8 mm, ideal for smaller distribution lines.
-- **25 mm (Code: AQ11PF25)**: Wall thickness 2.0 mm, often used for main supply lines in residential homes.
-- **32 mm (Code: AQ11PF32)**: Wall thickness 2.5 mm, perfect for risers and larger distribution systems.
-- **40 mm (Code: AQ11PF40)**: Wall thickness 3.2 mm, suitable for commercial installations and main distributors.
-- **50 mm (Code: AQ11PF50)**: Wall thickness 4.0 mm, optimal for industrial applications with high flow requirements.
+- 20 mm (Code: AQ11PF20): Wall thickness 1.8 mm, ideal for smaller distribution lines.
+- 25 mm (Code: AQ11PF25): Wall thickness 2.0 mm, often used for main supply lines in residential homes.
+- 32 mm (Code: AQ11PF32): Wall thickness 2.5 mm, perfect for risers and larger distribution systems.
+- 40 mm (Code: AQ11PF40): Wall thickness 3.2 mm, suitable for commercial installations and main distributors.
+- 50 mm (Code: AQ11PF50): Wall thickness 4.0 mm, optimal for industrial applications with high flow requirements.
 
 Each dimension is carefully calibrated to ensure seamless compatibility with the comprehensive range of PP-R fittings. Thermal welding (socket welding) guarantees a homogeneous, cohesive, and permanently leak-proof joint that eliminates any risk of leakage.
 
 ### Areas of Application and Fields of Use
 
 Thanks to its outstanding material properties, the K-Fiber Pipe PP-R SDR 11 is extremely versatile. It is exceptionally well-suited for:
-- **Potable Water Installations**: The material is physiologically safe, tasteless, and odorless, meeting the highest hygienic standards.
-- **Heating Systems**: The low thermal expansion and high temperature resistance predispose it for use in central heating networks.
-- **Air Conditioning Systems (HVAC)**: Ideal for transporting chilled water due to excellent insulation properties that minimize condensation.
-- **Industrial Plants**: Resistant to a wide variety of chemicals, making the piping system a safe choice for transporting aggressive media.
+- Potable Water Installations: The material is physiologically safe, tasteless, and odorless, meeting the highest hygienic standards.
+- Heating Systems: The low thermal expansion and high temperature resistance predispose it for use in central heating networks.
+- Air Conditioning Systems (HVAC): Ideal for transporting chilled water due to excellent insulation properties that minimize condensation.
+- Industrial Plants: Resistant to a wide variety of chemicals, making the piping system a safe choice for transporting aggressive media.
 
 ### Sustainability and Environmental Friendliness
 
@@ -112,21 +112,21 @@ In summary, the K-Fiber Pipe PP-R SDR 11 is an investment in quality, safety, an
 ### الأبعاد المتاحة والمرونة في التطبيق
 
 يتم توفير أنبوب K-Fiber Pipe PP-R SDR 11 بأطوال قياسية تبلغ 4 أمتار لكل شريط وهو متوفر بمجموعة متنوعة من الأقطار لتلبية مجموعة واسعة من المتطلبات. تشمل الأقطار الخارجية (d) وسماكات الجدران (s) المتاحة:
-- **20 مم (الرمز: AQ11PF20)**: سماكة الجدار 1.8 مم، مثالي لخطوط التوزيع الصغيرة.
-- **25 مم (الرمز: AQ11PF25)**: سماكة الجدار 2.0 مم، غالبًا ما يُستخدم لخطوط الإمداد الرئيسية في المنازل السكنية.
-- **32 مم (الرمز: AQ11PF32)**: سماكة الجدار 2.5 مم، مثالي للأنابيب الصاعدة وأنظمة التوزيع الأكبر.
-- **40 مم (الرمز: AQ11PF40)**: سماكة الجدار 3.2 مم، مناسب للتركيبات التجارية والموزعين الرئيسيين.
-- **50 مم (الرمز: AQ11PF50)**: سماكة الجدار 4.0 مم، الأمثل للتطبيقات الصناعية ذات متطلبات التدفق العالي.
+- 20 مم (الرمز: AQ11PF20): سماكة الجدار 1.8 مم، مثالي لخطوط التوزيع الصغيرة.
+- 25 مم (الرمز: AQ11PF25): سماكة الجدار 2.0 مم، غالبًا ما يُستخدم لخطوط الإمداد الرئيسية في المنازل السكنية.
+- 32 مم (الرمز: AQ11PF32): سماكة الجدار 2.5 مم، مثالي للأنابيب الصاعدة وأنظمة التوزيع الأكبر.
+- 40 مم (الرمز: AQ11PF40): سماكة الجدار 3.2 مم، مناسب للتركيبات التجارية والموزعين الرئيسيين.
+- 50 مم (الرمز: AQ11PF50): سماكة الجدار 4.0 مم، الأمثل للتطبيقات الصناعية ذات متطلبات التدفق العالي.
 
 يتم معايرة كل بعد بعناية لضمان التوافق السلس مع المجموعة الشاملة من تركيبات PP-R. يضمن اللحام الحراري (لحام المقبس) مفصلًا متجانسًا ومتماسكًا ومقاومًا للتسرب بشكل دائم يقضي على أي خطر للتسرب.
 
 ### مجالات التطبيق ومجالات الاستخدام
 
 بفضل خصائص مواده المتميزة، فإن أنبوب K-Fiber Pipe PP-R SDR 11 متعدد الاستخدامات للغاية. إنه مناسب تمامًا لـ:
-- **تركيبات مياه الشرب**: المادة آمنة من الناحية الفسيولوجية، ولا طعم لها، وعديمة الرائحة، وتلبي أعلى المعايير الصحية.
-- **أنظمة التدفئة**: التمدد الحراري المنخفض ومقاومة درجات الحرارة العالية تجعله مهيئًا مسبقًا للاستخدام في شبكات التدفئة المركزية.
-- **أنظمة تكييف الهواء (HVAC)**: مثالي لنقل المياه المبردة بسبب خصائص العزل الممتازة التي تقلل من التكثيف.
-- **المنشآت الصناعية**: مقاوم لمجموعة واسعة من المواد الكيميائية، مما يجعل نظام الأنابيب خيارًا آمنًا لنقل الوسائط العدوانية.
+- تركيبات مياه الشرب: المادة آمنة من الناحية الفسيولوجية، ولا طعم لها، وعديمة الرائحة، وتلبي أعلى المعايير الصحية.
+- أنظمة التدفئة: التمدد الحراري المنخفض ومقاومة درجات الحرارة العالية تجعله مهيئًا مسبقًا للاستخدام في شبكات التدفئة المركزية.
+- أنظمة تكييف الهواء (HVAC): مثالي لنقل المياه المبردة بسبب خصائص العزل الممتازة التي تقلل من التكثيف.
+- المنشآت الصناعية: مقاوم لمجموعة واسعة من المواد الكيميائية، مما يجعل نظام الأنابيب خيارًا آمنًا لنقل الوسائط العدوانية.
 
 ### الاستدامة والصداقة للبيئة
 

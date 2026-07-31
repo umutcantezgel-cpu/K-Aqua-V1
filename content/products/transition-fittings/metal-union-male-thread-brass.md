@@ -38,30 +38,30 @@ Diese Konstruktion ermöglicht einen flexiblen und gleichzeitig äußerst sicher
 
 Ein entscheidendes Qualitätsmerkmal dieser Metallverschraubung ist das verwendete Material CW617N (CuZn40Pb2). Hierbei handelt es sich um eine standardisierte Kupfer-Zink-Legierung (Gelbmessing), die speziell für die Warmumformung und die spanende Bearbeitung optimiert wurde. 
 
-**Vorteile von CW617N in der Übersicht:**
-- **Exzellente Zerspanbarkeit:** Ermöglicht die Fertigung von äußerst präzisen Gewindegängen, die für eine absolut dichte Verbindung bei der Montage mit Gewindedichtmitteln (wie Teflonband oder Hanf) unerlässlich sind.
-- **Hohe mechanische Festigkeit:** CW617N hält hohen Systemdrücken und mechanischen Belastungen stand, die beispielsweise durch thermische Längenausdehnung der angeschlossenen Rohrleitungen entstehen können.
-- **Korrosionsbeständigkeit:** Obwohl es sich um ein Standard-Messing handelt, bietet es eine sehr gute Widerstandsfähigkeit gegenüber normalem Leitungswasser und zahlreichen anderen flüssigen Medien. 
-- **Temperaturstabilität:** Das Messing behält seine Festigkeitswerte auch bei den maximal zulässigen Betriebstemperaturen von PP-R-Systemen (bis zu 95°C bei kurzzeitiger Spitzenbelastung) vollständig bei.
+Vorteile von CW617N in der Übersicht:
+- Exzellente Zerspanbarkeit: Ermöglicht die Fertigung von äußerst präzisen Gewindegängen, die für eine absolut dichte Verbindung bei der Montage mit Gewindedichtmitteln (wie Teflonband oder Hanf) unerlässlich sind.
+- Hohe mechanische Festigkeit: CW617N hält hohen Systemdrücken und mechanischen Belastungen stand, die beispielsweise durch thermische Längenausdehnung der angeschlossenen Rohrleitungen entstehen können.
+- Korrosionsbeständigkeit: Obwohl es sich um ein Standard-Messing handelt, bietet es eine sehr gute Widerstandsfähigkeit gegenüber normalem Leitungswasser und zahlreichen anderen flüssigen Medien. 
+- Temperaturstabilität: Das Messing behält seine Festigkeitswerte auch bei den maximal zulässigen Betriebstemperaturen von PP-R-Systemen (bis zu 95°C bei kurzzeitiger Spitzenbelastung) vollständig bei.
 
 #### Spezifikationen und Dimensionsvielfalt
 
 Unsere Metallverschraubung mit PP-R Mutter und Außengewinde deckt ein breites Spektrum an Dimensionen ab, um für jedes Projekt die passende Lösung bereitzustellen. Die verfügbaren Kombinationen aus Rohr-Außendurchmesser (d in mm) und Gewindegröße (R in Zoll) gewährleisten höchste Kompatibilität mit Standard-Installationsmaterialien:
 
-- **AQ70R20:** d 20 mm x ½" (Halbzoll) Außengewinde – Ideal für den Etagenbau, Einzelzapfstellen und Heizkörperanbindungen.
-- **AQ70R25:** d 25 mm x ¾" (Dreiviertelzoll) Außengewinde – Perfekt für Steigleitungen und mittlere Verteilernetze.
-- **AQ70R32:** d 32 mm x 1" (Einzoll) Außengewinde – Eingesetzt bei Hauptverteilungen und in gewerblichen Sanitäranlagen.
-- **AQ70R40:** d 40 mm x 1¼" (Einviertelzoll) Außengewinde – Für industrielle Anwendungen und große Volumenströme.
-- **AQ70R50:** d 50 mm x 1½" (Eineinhalbzoll) Außengewinde – Maßgeschneidert für Hauptanschlussleitungen und industrielle Kühlsysteme.
+- AQ70R20: d 20 mm x ½" (Halbzoll) Außengewinde – Ideal für den Etagenbau, Einzelzapfstellen und Heizkörperanbindungen.
+- AQ70R25: d 25 mm x ¾" (Dreiviertelzoll) Außengewinde – Perfekt für Steigleitungen und mittlere Verteilernetze.
+- AQ70R32: d 32 mm x 1" (Einzoll) Außengewinde – Eingesetzt bei Hauptverteilungen und in gewerblichen Sanitäranlagen.
+- AQ70R40: d 40 mm x 1¼" (Einviertelzoll) Außengewinde – Für industrielle Anwendungen und große Volumenströme.
+- AQ70R50: d 50 mm x 1½" (Eineinhalbzoll) Außengewinde – Maßgeschneidert für Hauptanschlussleitungen und industrielle Kühlsysteme.
 
 #### Anwendungsbereiche und Einsatzgebiete
 
 Dank der herausragenden Kombination aus chemisch beständigem PP-R und druckfestem CW617N-Messing eignet sich diese Verschraubung für eine Vielzahl anspruchsvoller Einsatzgebiete:
 
-1. **Trinkwasserinstallationen:** PP-R ist physiologisch unbedenklich und entspricht höchsten hygienischen Standards. Es verändert weder Geschmack noch Geruch des Trinkwassers.
-2. **Heizungs- und Klimatechnik:** Der problemlose Übergang auf Metallarmaturen macht dieses Fitting unverzichtbar beim Anschluss von Heizkesseln, Wärmepumpen, Verteilern und Klimakaltwasser-Systemen.
-3. **Industrieller Rohrleitungsbau:** Bei der Förderung von Druckluft, aufbereitetem Wasser oder nicht-aggressiven Chemikalien punktet die Verschraubung durch ihre Wartungsfreundlichkeit und Dichtigkeit.
-4. **Schiffbau und Agrartechnik:** Selbst in speziellen Segmenten wird diese Rohrverschraubung aufgrund ihrer Robustheit und der einfachen Demontagemöglichkeit geschätzt.
+1. Trinkwasserinstallationen: PP-R ist physiologisch unbedenklich und entspricht höchsten hygienischen Standards. Es verändert weder Geschmack noch Geruch des Trinkwassers.
+2. Heizungs- und Klimatechnik: Der problemlose Übergang auf Metallarmaturen macht dieses Fitting unverzichtbar beim Anschluss von Heizkesseln, Wärmepumpen, Verteilern und Klimakaltwasser-Systemen.
+3. Industrieller Rohrleitungsbau: Bei der Förderung von Druckluft, aufbereitetem Wasser oder nicht-aggressiven Chemikalien punktet die Verschraubung durch ihre Wartungsfreundlichkeit und Dichtigkeit.
+4. Schiffbau und Agrartechnik: Selbst in speziellen Segmenten wird diese Rohrverschraubung aufgrund ihrer Robustheit und der einfachen Demontagemöglichkeit geschätzt.
 
 #### Montagehinweise für Fachhandwerker
 
@@ -85,30 +85,30 @@ This construction enables a flexible yet highly secure transition from plastic p
 
 A crucial quality feature of this metal union is the material used: CW617N (CuZn40Pb2). This is a standardized copper-zinc alloy (yellow brass) specifically optimized for hot stamping and machining operations.
 
-**Overview of CW617N Advantages:**
-- **Excellent Machinability:** Allows for the production of highly precise threads, which are indispensable for an absolutely tight seal when assembled with thread sealants (such as Teflon tape or hemp).
-- **High Mechanical Strength:** CW617N withstands high system pressures and mechanical loads that may arise from the thermal linear expansion of the connected pipes.
-- **Corrosion Resistance:** Although it is a standard brass alloy, it provides very good resistance to normal tap water and numerous other liquid media.
-- **Thermal Stability:** The brass maintains its structural integrity even at the maximum permissible operating temperatures of PP-R systems (up to 95°C during short-term peak loads).
+Overview of CW617N Advantages:
+- Excellent Machinability: Allows for the production of highly precise threads, which are indispensable for an absolutely tight seal when assembled with thread sealants (such as Teflon tape or hemp).
+- High Mechanical Strength: CW617N withstands high system pressures and mechanical loads that may arise from the thermal linear expansion of the connected pipes.
+- Corrosion Resistance: Although it is a standard brass alloy, it provides very good resistance to normal tap water and numerous other liquid media.
+- Thermal Stability: The brass maintains its structural integrity even at the maximum permissible operating temperatures of PP-R systems (up to 95°C during short-term peak loads).
 
 #### Specifications and Dimensional Variety
 
 Our metal union with PP-R nut and male thread covers a wide spectrum of dimensions to provide the right solution for every project. The available combinations of pipe outer diameter (d in mm) and thread size (R in inches) guarantee the highest compatibility with standard plumbing materials:
 
-- **AQ70R20:** d 20 mm x ½" male thread – Ideal for residential floor distribution, individual tap points, and radiator connections.
-- **AQ70R25:** d 25 mm x ¾" male thread – Perfect for risers and medium-sized distribution networks.
-- **AQ70R32:** d 32 mm x 1" male thread – Used in main distribution lines and commercial sanitary facilities.
-- **AQ70R40:** d 40 mm x 1¼" male thread – For industrial applications and large volume flows.
-- **AQ70R50:** d 50 mm x 1½" male thread – Tailor-made for main supply lines and industrial cooling systems.
+- AQ70R20: d 20 mm x ½" male thread – Ideal for residential floor distribution, individual tap points, and radiator connections.
+- AQ70R25: d 25 mm x ¾" male thread – Perfect for risers and medium-sized distribution networks.
+- AQ70R32: d 32 mm x 1" male thread – Used in main distribution lines and commercial sanitary facilities.
+- AQ70R40: d 40 mm x 1¼" male thread – For industrial applications and large volume flows.
+- AQ70R50: d 50 mm x 1½" male thread – Tailor-made for main supply lines and industrial cooling systems.
 
 #### Fields of Application and Usage
 
 Thanks to the outstanding combination of chemically resistant PP-R and pressure-resistant CW617N brass, this union fitting is suitable for a variety of demanding applications:
 
-1. **Potable Water Installations:** PP-R is physiologically harmless and meets the highest hygiene standards. It does not alter the taste or odor of drinking water.
-2. **Heating and HVAC Systems:** The seamless transition to metal valves makes this fitting indispensable when connecting boilers, heat pumps, manifolds, and chilled water systems.
-3. **Industrial Piping:** When conveying compressed air, treated water, or non-aggressive chemicals, the union scores highly due to its ease of maintenance and absolute tightness.
-4. **Shipbuilding and Agriculture:** Even in specialized sectors, this pipe union is highly valued for its robust construction and simple disassembly capabilities.
+1. Potable Water Installations: PP-R is physiologically harmless and meets the highest hygiene standards. It does not alter the taste or odor of drinking water.
+2. Heating and HVAC Systems: The seamless transition to metal valves makes this fitting indispensable when connecting boilers, heat pumps, manifolds, and chilled water systems.
+3. Industrial Piping: When conveying compressed air, treated water, or non-aggressive chemicals, the union scores highly due to its ease of maintenance and absolute tightness.
+4. Shipbuilding and Agriculture: Even in specialized sectors, this pipe union is highly valued for its robust construction and simple disassembly capabilities.
 
 #### Installation Guidelines for Professionals
 
@@ -132,30 +132,30 @@ In summary, the metal union with PP-R nut and male thread made of CW617N yellow 
 
 ميزة الجودة الحاسمة لهذه الوصلة المعدنية هي المادة المستخدمة: CW617N (CuZn40Pb2). هذه سبيكة قياسية من النحاس والزنك (النحاس الأصفر) تم تحسينها خصيصًا لعمليات الختم الساخن والتشغيل الآلي.
 
-**نظرة عامة على مزايا CW617N:**
-- **قابلية تشغيل ممتازة:** تسمح بإنتاج خيوط (أسنان) دقيقة للغاية، وهو أمر لا غنى عنه للحصول على ختم محكم تمامًا عند تجميعها مع مانعات تسرب السنون (مثل شريط التيفلون أو القنب).
-- **قوة ميكانيكية عالية:** يتحمل CW617N ضغوط النظام العالية والأحمال الميكانيكية التي قد تنشأ عن التمدد الحراري الخطي للأنابيب المتصلة.
-- **مقاومة التآكل:** على الرغم من أنها سبيكة نحاسية قياسية، إلا أنها توفر مقاومة جيدة جدًا لمياه الصنبور العادية والعديد من الوسائط السائلة الأخرى.
-- **الاستقرار الحراري:** يحافظ النحاس على سلامته الهيكلية حتى عند أقصى درجات حرارة التشغيل المسموح بها لأنظمة PP-R (حتى 95 درجة مئوية خلال أحمال الذروة قصيرة الأجل).
+نظرة عامة على مزايا CW617N:
+- قابلية تشغيل ممتازة: تسمح بإنتاج خيوط (أسنان) دقيقة للغاية، وهو أمر لا غنى عنه للحصول على ختم محكم تمامًا عند تجميعها مع مانعات تسرب السنون (مثل شريط التيفلون أو القنب).
+- قوة ميكانيكية عالية: يتحمل CW617N ضغوط النظام العالية والأحمال الميكانيكية التي قد تنشأ عن التمدد الحراري الخطي للأنابيب المتصلة.
+- مقاومة التآكل: على الرغم من أنها سبيكة نحاسية قياسية، إلا أنها توفر مقاومة جيدة جدًا لمياه الصنبور العادية والعديد من الوسائط السائلة الأخرى.
+- الاستقرار الحراري: يحافظ النحاس على سلامته الهيكلية حتى عند أقصى درجات حرارة التشغيل المسموح بها لأنظمة PP-R (حتى 95 درجة مئوية خلال أحمال الذروة قصيرة الأجل).
 
 #### المواصفات وتنوع الأبعاد
 
 تغطي وصلتنا المعدنية ذات صامولة PP-R والسن الخارجي طيفًا واسعًا من الأبعاد لتوفير الحل المناسب لكل مشروع. تضمن التركيبات المتاحة للقطر الخارجي للأنبوب (d بالملليمتر) وحجم السن (R بالبوصة) أعلى توافق مع مواد السباكة القياسية:
 
-- **AQ70R20:** قطر 20 مم × ½ بوصة سن خارجي - مثالي لتوزيع الطوابق السكنية، ونقاط الحنفيات الفردية، وتوصيلات المشعات (الرادياتير).
-- **AQ70R25:** قطر 25 مم × ¾ بوصة سن خارجي - مثالي للأنابيب الصاعدة وشبكات التوزيع متوسطة الحجم.
-- **AQ70R32:** قطر 32 مم × 1 بوصة سن خارجي - يستخدم في خطوط التوزيع الرئيسية والمرافق الصحية التجارية.
-- **AQ70R40:** قطر 40 مم × 1¼ بوصة سن خارجي - للتطبيقات الصناعية وتدفقات الحجم الكبير.
-- **AQ70R50:** قطر 50 مم × 1½ بوصة سن خارجي - مصمم خصيصًا لخطوط الإمداد الرئيسية وأنظمة التبريد الصناعية.
+- AQ70R20: قطر 20 مم × ½ بوصة سن خارجي - مثالي لتوزيع الطوابق السكنية، ونقاط الحنفيات الفردية، وتوصيلات المشعات (الرادياتير).
+- AQ70R25: قطر 25 مم × ¾ بوصة سن خارجي - مثالي للأنابيب الصاعدة وشبكات التوزيع متوسطة الحجم.
+- AQ70R32: قطر 32 مم × 1 بوصة سن خارجي - يستخدم في خطوط التوزيع الرئيسية والمرافق الصحية التجارية.
+- AQ70R40: قطر 40 مم × 1¼ بوصة سن خارجي - للتطبيقات الصناعية وتدفقات الحجم الكبير.
+- AQ70R50: قطر 50 مم × 1½ بوصة سن خارجي - مصمم خصيصًا لخطوط الإمداد الرئيسية وأنظمة التبريد الصناعية.
 
 #### مجالات التطبيق والاستخدام
 
 بفضل المزيج الرائع من PP-R المقاوم كيميائيًا والنحاس CW617N المقاوم للضغط، فإن هذه الوصلة مناسبة لمجموعة متنوعة من التطبيقات الصعبة:
 
-1. **تركيبات مياه الشرب:** مادة PP-R غير ضارة فسيولوجيًا وتلبي أعلى معايير النظافة. إنها لا تغير طعم أو رائحة مياه الشرب.
-2. **أنظمة التدفئة والتهوية وتكييف الهواء:** الانتقال السلس إلى الصمامات المعدنية يجعل هذه الوصلة لا غنى عنها عند توصيل الغلايات، والمضخات الحرارية، والمجمعات، وأنظمة المياه المبردة.
-3. **الأنابيب الصناعية:** عند نقل الهواء المضغوط، أو المياه المعالجة، أو المواد الكيميائية غير العدوانية، تحقق الوصلة درجات عالية بفضل سهولة صيانتها وإحكامها المطلق.
-4. **بناء السفن والزراعة:** حتى في القطاعات المتخصصة، تحظى هذه الوصلة الأنبوبية بتقدير كبير لبنيتها القوية وقدرات التفكيك البسيطة.
+1. تركيبات مياه الشرب: مادة PP-R غير ضارة فسيولوجيًا وتلبي أعلى معايير النظافة. إنها لا تغير طعم أو رائحة مياه الشرب.
+2. أنظمة التدفئة والتهوية وتكييف الهواء: الانتقال السلس إلى الصمامات المعدنية يجعل هذه الوصلة لا غنى عنها عند توصيل الغلايات، والمضخات الحرارية، والمجمعات، وأنظمة المياه المبردة.
+3. الأنابيب الصناعية: عند نقل الهواء المضغوط، أو المياه المعالجة، أو المواد الكيميائية غير العدوانية، تحقق الوصلة درجات عالية بفضل سهولة صيانتها وإحكامها المطلق.
+4. بناء السفن والزراعة: حتى في القطاعات المتخصصة، تحظى هذه الوصلة الأنبوبية بتقدير كبير لبنيتها القوية وقدرات التفكيك البسيطة.
 
 #### إرشادات التثبيت للمحترفين
 

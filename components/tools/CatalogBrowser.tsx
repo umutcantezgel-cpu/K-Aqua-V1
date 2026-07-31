@@ -15,7 +15,6 @@
 "use client";
 /* eslint-disable react/jsx-no-literals */
 import React, { useState } from "react";
-import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import EngineeredCard from "@/components/ui/EngineeredCard";
@@ -28,14 +27,46 @@ interface CatalogTabMeta {
   title?: string;
 }
 
-export function CatalogBrowser() {
-  const t = useTranslations("catalogx");
+export interface CatalogBrowserTranslations {
+  cats: Record<string, CatalogTabMeta>;
+  eyebrow: string;
+  title: string;
+  lead: string;
+  searchPlaceholder: string;
+  noResults: string;
+  materialLabel: string;
+  sdrLabel: string;
+  seriesLabel: string;
+  pressureLabel: string;
+  lenLabel: string;
+  viewDetails: string;
+}
+
+interface CatalogBrowserProps {
+  translations: CatalogBrowserTranslations;
+}
+
+export function CatalogBrowser({ translations }: CatalogBrowserProps) {
   const [cat, setCat] = useState(0);
   const [q, setQ] = useState("");
 
+  const {
+    cats: catsMeta,
+    eyebrow,
+    title,
+    lead,
+    searchPlaceholder,
+    noResults,
+    materialLabel,
+    sdrLabel,
+    seriesLabel,
+    pressureLabel,
+    lenLabel,
+    viewDetails
+  } = translations;
+
   const CATS = CATALOG;
   const active = CATS[cat] ?? CATS[0];
-  const catsMeta = t.raw("cats") as Record<string, CatalogTabMeta>;
   const activeMeta = catsMeta[active!.id];
 
   const items: CatalogItem[] = active!.items.filter((it) => {
@@ -48,11 +79,11 @@ export function CatalogBrowser() {
     <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-catalog">
       <div className="mx-auto max-w-[1200px] px-6">
         <Reveal>
-          <SectionHead eyebrow={t("eyebrow")} title={t("title")} lead={t("lead")} />
+          <SectionHead eyebrow={eyebrow} title={title} lead={lead} />
         </Reveal>
 
         <Reveal delay={0.08}>
-          <div className="mb-8 flex flex-wrap gap-2" role="tablist" aria-label={t("eyebrow")}>
+          <div className="mb-8 flex flex-wrap gap-2" role="tablist" aria-label={eyebrow}>
             {CATS.map((c, i) => (
               <button
                 key={c.id}
@@ -85,24 +116,24 @@ export function CatalogBrowser() {
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder={t("searchPlaceholder")}
-            aria-label={t("searchPlaceholder")}
+            placeholder={searchPlaceholder}
+            aria-label={searchPlaceholder}
             className="mb-6 block min-h-12 w-full max-w-[520px] rounded-lg border border-card-border bg-card px-4 text-body text-foreground outline-none focus-visible:ring-2 focus-visible:ring-ring"
           />
         </Reveal>
 
         <div className="flex flex-col gap-2">
           {items.length === 0 ? (
-            <p className="text-body text-muted-foreground">{t("noResults")}</p>
+            <p className="text-body text-muted-foreground">{noResults}</p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {items.map((it, i) => {
                 const specs = [];
-                if (it.material) specs.push({ label: t("materialLabel"), value: it.material });
-                if (it.sdr) specs.push({ label: t("sdrLabel"), value: String(it.sdr) });
-                if (it.series) specs.push({ label: t("seriesLabel"), value: it.series });
-                if (it.pressure) specs.push({ label: t("pressureLabel"), value: it.pressure });
-                if (it.len) specs.push({ label: t("lenLabel"), value: it.len });
+                if (it.material) specs.push({ label: materialLabel, value: it.material });
+                if (it.sdr) specs.push({ label: sdrLabel, value: String(it.sdr) });
+                if (it.series) specs.push({ label: seriesLabel, value: it.series });
+                if (it.pressure) specs.push({ label: pressureLabel, value: it.pressure });
+                if (it.len) specs.push({ label: lenLabel, value: it.len });
 
                 return (
                   <Reveal key={it.slug} delay={i * 0.05}>
@@ -113,7 +144,7 @@ export function CatalogBrowser() {
                       title={it.title}
                       lead={it.note || ""}
                       specs={specs}
-                      cta={`${it.title} – ${t("viewDetails") || "Produktdetails und Spezifikationen"}`}
+                      cta={`${it.title} – ${viewDetails || "Produktdetails und Spezifikationen"}`}
                       href={`/produkte/${active!.id}/${it.slug}`}
                     />
                   </Reveal>

@@ -150,6 +150,7 @@ export default async function CategoryPage({ params }: Props) {
   };
 
   const tc = await getTranslations({ locale, namespace: "products.category" });
+  const tProd = await getTranslations({ locale, namespace: "products" });
 
   let heroImage = "";
   if (lowerCat.includes('pipes')) heroImage = "/images/new-k-aqua/pipes-profil.png";
@@ -162,8 +163,25 @@ export default async function CategoryPage({ params }: Props) {
 
   const messages = await getMessages();
 
+  let rawFaqs: { q: string, a: string }[] = [];
+  try {
+    if (tProd.has(`seoArticle.${catKey}.faq`)) {
+      rawFaqs = tProd.raw(`seoArticle.${catKey}.faq`) || [];
+    }
+  } catch {
+    rawFaqs = [];
+  }
+
+  const faqs = Array.isArray(rawFaqs) && rawFaqs.length > 0 ? rawFaqs : [
+    { q: tProd('labels.faqFallbackQ1') || "Was sind die Hauptvorteile?", a: tProd('labels.faqFallbackA1') || "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser." },
+    { q: tProd('labels.faqFallbackQ2') || "Ist das Material umweltfreundlich?", a: tProd('labels.faqFallbackA2') || "Ja, PP-RCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren." },
+    { q: tProd('labels.faqFallbackQ3') || "Wie erfolgt die Installation?", a: tProd('labels.faqFallbackA3') || "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen." }
+  ];
+
+  const faqTitle = tProd('labels.faqTitle') || "Häufig gestellte Fragen (FAQ)";
+
   return (
-    <NextIntlClientProvider messages={pick(messages, 'products', 'common', 'nav')}>
+    <NextIntlClientProvider messages={pick(messages, 'common', 'nav')}>
         <JsonLd schema={webPageSchema} />
         <div className="sr-only">{metaTitleExact}</div>
         <div className="sr-only">{seoTitle}</div>
@@ -282,7 +300,7 @@ export default async function CategoryPage({ params }: Props) {
       {/* FAQ Section */}
       <section className="py-20 bg-background-subtle border-t border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
-          <ProductFAQ category={catKey} />
+          <ProductFAQ title={faqTitle} faqs={faqs} />
         </div>
       </section>
 

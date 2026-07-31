@@ -70,7 +70,7 @@ export default async function ProduktePage({ params }: Props) {
   const meta = tPages.raw("products") as string[];
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['products', 'catalog', 'productsx', 'catalogx'])}>
+    <NextIntlClientProvider messages={pick(messages, ['catalog'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
       <div className="sr-only">{tProducts("title1")}</div>
@@ -175,8 +175,48 @@ export default async function ProduktePage({ params }: Props) {
       </section>
 
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
-      <ProductsDeep />
-      <CatalogBrowser />
+      <ProductsDeep translations={{
+        pipes: (messages as any).productsx?.pipes || [],
+        anchors: (messages as any).productsx?.anchors || [],
+        matHead: (messages as any).productsx?.matHead || [],
+        matRows: (messages as any).productsx?.matRows || [],
+        normHead: (messages as any).productsx?.normHead || [],
+        norms: (messages as any).productsx?.norms || [],
+        faq: (messages as any).productsx?.faq || [],
+        dimHead: (messages as any).productsx?.dimHead || [],
+        pipesEyebrow: (messages as any).productsx?.pipesEyebrow || '',
+        pipesTitle: (messages as any).productsx?.pipesTitle || '',
+        pipesLead: (messages as any).productsx?.pipesLead || '',
+        pipesCta: (messages as any).productsx?.pipesCta || '',
+        dimEyebrow: (messages as any).productsx?.dimEyebrow || '',
+        dimTitle: (messages as any).productsx?.dimTitle || '',
+        dimLead: (messages as any).productsx?.dimLead || '',
+        dimTabAria: (messages as any).productsx?.dimTabAria || '',
+        dimNote: (messages as any).productsx?.dimNote || '',
+        anchorsTitle: (messages as any).productsx?.anchorsTitle || '',
+        matEyebrow: (messages as any).productsx?.matEyebrow || '',
+        matTitle: (messages as any).productsx?.matTitle || '',
+        matLead: (messages as any).productsx?.matLead || '',
+        normEyebrow: (messages as any).productsx?.normEyebrow || '',
+        normTitle: (messages as any).productsx?.normTitle || '',
+        normLead: (messages as any).productsx?.normLead || '',
+        faqEyebrow: (messages as any).productsx?.faqEyebrow || '',
+        faqTitle: (messages as any).productsx?.faqTitle || '',
+      }} />
+      <CatalogBrowser translations={{
+        cats: (messages as any).catalogx?.cats || {},
+        eyebrow: (messages as any).catalogx?.eyebrow || '',
+        title: (messages as any).catalogx?.title || '',
+        lead: (messages as any).catalogx?.lead || '',
+        searchPlaceholder: (messages as any).catalogx?.searchPlaceholder || '',
+        noResults: (messages as any).catalogx?.noResults || '',
+        materialLabel: (messages as any).catalogx?.materialLabel || '',
+        sdrLabel: (messages as any).catalogx?.sdrLabel || '',
+        seriesLabel: (messages as any).catalogx?.seriesLabel || '',
+        pressureLabel: (messages as any).catalogx?.pressureLabel || '',
+        lenLabel: (messages as any).catalogx?.lenLabel || '',
+        viewDetails: (messages as any).catalogx?.viewDetails || '',
+      }} />
       
     </div>
     </NextIntlClientProvider>

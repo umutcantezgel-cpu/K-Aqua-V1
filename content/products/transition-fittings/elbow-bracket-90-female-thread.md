@@ -31,26 +31,26 @@ Der PP-R Wandwinkel 90° (Elbow Bracket 90° Female Thread) ist eine der wichtig
 ### Warum PP-R für Ihre Installationen die beste Wahl ist
 Polypropylen-Random-Copolymer (PP-R) hat die Sanitärbranche revolutioniert. Es ist bekannt für seine hervorragenden thermischen und mechanischen Eigenschaften. Bei der Verwendung des PP-R Wandwinkels 90° mit Innengewinde profitieren Installateure und Endkunden gleichermaßen von zahlreichen Vorteilen:
 
-*   **Korrosionsbeständigkeit:** Im Gegensatz zu traditionellen Metallrohren rostet oder korrodiert PP-R nicht. Das integrierte Metallgewinde ist in der Regel aus hochwertigem, entzinkungsbeständigem Messing gefertigt, was zusätzlich vor Rostablagerungen schützt und die Wasserqualität aufrechterhält.
-*   **Hygienisch und sicher:** PP-R ist lebensmittelecht und eignet sich hervorragend für Trinkwasserinstallationen. Es gibt keine toxischen Stoffe an das Wasser ab und verhindert das Wachstum von Bakterien und Legionellen im Rohrnetz.
-*   **Geringer Strömungswiderstand:** Die extrem glatte Innenfläche des PP-R-Fittings minimiert den Druckverlust und verhindert Kalkablagerungen. Dies garantiert einen konstanten und gleichmäßigen Wasserdruck an den angeschlossenen Armaturen.
-*   **Geräuschdämmung:** PP-R verfügt über exzellente schallabsorbierende Eigenschaften. Fließgeräusche und Druckschläge (Wasserschlag) werden drastisch reduziert, was zu einem ruhigeren und komfortableren Wohnumfeld führt.
+*   Korrosionsbeständigkeit: Im Gegensatz zu traditionellen Metallrohren rostet oder korrodiert PP-R nicht. Das integrierte Metallgewinde ist in der Regel aus hochwertigem, entzinkungsbeständigem Messing gefertigt, was zusätzlich vor Rostablagerungen schützt und die Wasserqualität aufrechterhält.
+*   Hygienisch und sicher: PP-R ist lebensmittelecht und eignet sich hervorragend für Trinkwasserinstallationen. Es gibt keine toxischen Stoffe an das Wasser ab und verhindert das Wachstum von Bakterien und Legionellen im Rohrnetz.
+*   Geringer Strömungswiderstand: Die extrem glatte Innenfläche des PP-R-Fittings minimiert den Druckverlust und verhindert Kalkablagerungen. Dies garantiert einen konstanten und gleichmäßigen Wasserdruck an den angeschlossenen Armaturen.
+*   Geräuschdämmung: PP-R verfügt über exzellente schallabsorbierende Eigenschaften. Fließgeräusche und Druckschläge (Wasserschlag) werden drastisch reduziert, was zu einem ruhigeren und komfortableren Wohnumfeld führt.
 
 ### Vielseitige Anwendungsbereiche des 90° Wandwinkels
 Dank seiner robusten Bauweise und der einfachen Montage ist der Elbow Bracket 90° in verschiedensten Einsatzbereichen die erste Wahl:
 
-1.  **Trinkwassersysteme (Kalt- und Warmwasser):** Ideal für den Anschluss von Waschbecken, Duschen, Badewannen und Küchenspülen. Die sichere Wandbefestigung garantiert, dass Armaturen auch bei häufiger Nutzung fest sitzen.
-2.  **Heizungsinstallationen:** Der Wandwinkel kann auch für bestimmte Heizkreisläufe oder den Anschluss von Heizkörpern verwendet werden, sofern die Temperaturspezifikationen eingehalten werden.
-3.  **Industrielle Anwendungen:** In der Industrie wird das Fitting für den Transport von Druckluft oder verschiedenen Flüssigkeiten eingesetzt, bei denen eine feste Wandmontage erforderlich ist.
-4.  **Klimaanlagen und Kühlung:** Die thermische Beständigkeit macht PP-R auch zu einer ausgezeichneten Option für Kaltwassersätze und Klimasysteme.
+1.  Trinkwassersysteme (Kalt- und Warmwasser): Ideal für den Anschluss von Waschbecken, Duschen, Badewannen und Küchenspülen. Die sichere Wandbefestigung garantiert, dass Armaturen auch bei häufiger Nutzung fest sitzen.
+2.  Heizungsinstallationen: Der Wandwinkel kann auch für bestimmte Heizkreisläufe oder den Anschluss von Heizkörpern verwendet werden, sofern die Temperaturspezifikationen eingehalten werden.
+3.  Industrielle Anwendungen: In der Industrie wird das Fitting für den Transport von Druckluft oder verschiedenen Flüssigkeiten eingesetzt, bei denen eine feste Wandmontage erforderlich ist.
+4.  Klimaanlagen und Kühlung: Die thermische Beständigkeit macht PP-R auch zu einer ausgezeichneten Option für Kaltwassersätze und Klimasysteme.
 
 ### Technische Spezifikationen und verfügbare Größen
 Der PP-R Wandwinkel 90° mit Innengewinde ist in einer Vielzahl von Dimensionen erhältlich, um den Anforderungen unterschiedlicher Rohrnetze gerecht zu werden. Die Kompatibilität zwischen dem Außendurchmesser des PP-R-Rohres (d) und dem Innengewinde (Rp) ist entscheidend:
 
-*   **d 20 mm x Rp ½":** Die Standardgröße für die meisten Auslaufventile, Duscharmaturen und Waschbecken in privaten Haushalten.
-*   **d 25 mm x Rp ¾":** Häufig verwendet für Leitungen mit höherem Durchflussbedarf, wie zum Beispiel bei Hauptanschlüssen für Badezimmer oder größere Gewerbeküchen.
-*   **d 32 mm x Rp 1":** Ideal für Steigleitungen, industrielle Anwendungen oder den Anschluss von Verteilern.
-*   **d 40 mm x Rp 1¼" & d 50 mm x Rp 1½":** Diese größeren Dimensionen werden primär in großen industriellen oder gewerblichen Projekten eingesetzt, wo maximale Durchflussmengen und stabile Wandverankerungen unter hohem Druck gefordert sind.
+*   d 20 mm x Rp ½": Die Standardgröße für die meisten Auslaufventile, Duscharmaturen und Waschbecken in privaten Haushalten.
+*   d 25 mm x Rp ¾": Häufig verwendet für Leitungen mit höherem Durchflussbedarf, wie zum Beispiel bei Hauptanschlüssen für Badezimmer oder größere Gewerbeküchen.
+*   d 32 mm x Rp 1": Ideal für Steigleitungen, industrielle Anwendungen oder den Anschluss von Verteilern.
+*   d 40 mm x Rp 1¼" & d 50 mm x Rp 1½": Diese größeren Dimensionen werden primär in großen industriellen oder gewerblichen Projekten eingesetzt, wo maximale Durchflussmengen und stabile Wandverankerungen unter hohem Druck gefordert sind.
 
 Der integrierte Flansch (Bracket) verfügt über vorgefertigte Schraublöcher, die eine exakte und feste Positionierung auf Putz oder unter Putz ermöglichen. Das Innengewinde entspricht den gängigen Standards und sorgt für eine dichte, verdrehsichere Verbindung mit den angeschlossenen Ventilen oder Flexschläuchen.
 
@@ -71,26 +71,26 @@ The PP-R Elbow Bracket 90° (Female Thread) is one of the most critical componen
 ### Why PP-R is the Ultimate Choice for Plumbing Systems
 Polypropylene Random Copolymer (PP-R) has completely transformed the plumbing and pipe-fitting industry. It is highly regarded for its exceptional thermal and mechanical properties. When utilizing the PP-R Elbow Bracket 90° with a female thread, professional plumbers, contractors, and end-users benefit from a wide array of advantages:
 
-*   **Exceptional Corrosion Resistance:** Unlike traditional metal pipes such as galvanized steel or copper, PP-R does not rust or corrode. The integrated metal thread is typically manufactured from high-grade, dezincification-resistant brass. This protects the fitting from internal corrosion, prevents scale buildup, and ensures that the water quality remains pristine over decades of use.
-*   **Hygienic and Safe for Potable Water:** PP-R is a food-grade, non-toxic material, making it perfectly suited for drinking water installations. It does not leach any harmful chemicals into the water and its smooth surface actively prevents the growth of bacteria and biofilm, including Legionella, within the piping network.
-*   **Minimal Flow Resistance:** The extremely smooth interior surface of the PP-R fitting minimizes friction and pressure loss while actively preventing calcification and scaling. This guarantees a consistent, even water pressure at all connected fixtures and taps.
-*   **Superior Acoustic Insulation:** PP-R possesses excellent sound-absorbing properties. Noise generated by water flow and the disruptive effects of water hammer (hydraulic shock) are drastically reduced, resulting in a significantly quieter and more comfortable living or working environment.
+*   Exceptional Corrosion Resistance: Unlike traditional metal pipes such as galvanized steel or copper, PP-R does not rust or corrode. The integrated metal thread is typically manufactured from high-grade, dezincification-resistant brass. This protects the fitting from internal corrosion, prevents scale buildup, and ensures that the water quality remains pristine over decades of use.
+*   Hygienic and Safe for Potable Water: PP-R is a food-grade, non-toxic material, making it perfectly suited for drinking water installations. It does not leach any harmful chemicals into the water and its smooth surface actively prevents the growth of bacteria and biofilm, including Legionella, within the piping network.
+*   Minimal Flow Resistance: The extremely smooth interior surface of the PP-R fitting minimizes friction and pressure loss while actively preventing calcification and scaling. This guarantees a consistent, even water pressure at all connected fixtures and taps.
+*   Superior Acoustic Insulation: PP-R possesses excellent sound-absorbing properties. Noise generated by water flow and the disruptive effects of water hammer (hydraulic shock) are drastically reduced, resulting in a significantly quieter and more comfortable living or working environment.
 
 ### Versatile Applications of the 90° Wall Bracket
 Thanks to its robust construction and user-friendly installation process, the Elbow Bracket 90° is the preferred choice for a vast range of applications across residential, commercial, and industrial sectors:
 
-1.  **Potable Water Systems (Hot and Cold):** It is the ideal fitting for connecting washbasins, showers, bathtubs, and kitchen sinks. The secure wall fastening ensures that faucets and showerheads remain firmly anchored, even under heavy, daily use.
-2.  **Heating Installations:** The bracket elbow can also be utilized for specific heating circuits or radiator connections, provided that the system's temperature and pressure specifications align with the fitting's operational limits.
-3.  **Industrial Fluid Transport:** In industrial settings, the fitting is frequently used for compressed air networks or the transport of various aggressive and non-aggressive fluids where a rigid, wall-mounted connection point is mandatory.
-4.  **Air Conditioning and Chilled Water:** The outstanding thermal resistance and insulating properties of PP-R make this fitting an excellent option for chilled water lines and HVAC systems, reducing the risk of exterior condensation.
+1.  Potable Water Systems (Hot and Cold): It is the ideal fitting for connecting washbasins, showers, bathtubs, and kitchen sinks. The secure wall fastening ensures that faucets and showerheads remain firmly anchored, even under heavy, daily use.
+2.  Heating Installations: The bracket elbow can also be utilized for specific heating circuits or radiator connections, provided that the system's temperature and pressure specifications align with the fitting's operational limits.
+3.  Industrial Fluid Transport: In industrial settings, the fitting is frequently used for compressed air networks or the transport of various aggressive and non-aggressive fluids where a rigid, wall-mounted connection point is mandatory.
+4.  Air Conditioning and Chilled Water: The outstanding thermal resistance and insulating properties of PP-R make this fitting an excellent option for chilled water lines and HVAC systems, reducing the risk of exterior condensation.
 
 ### Technical Specifications and Available Dimensions
 The PP-R Elbow Bracket 90° (Female Thread) is manufactured in a comprehensive range of dimensions to meet the precise requirements of diverse piping networks. The compatibility between the outer diameter of the PP-R pipe (d) and the internal female thread (Rp) is a crucial factor for a successful installation:
 
-*   **d 20 mm x Rp ½":** This is the standard, most frequently used size for domestic draw-off points, including shower mixers, washing machine valves, and standard sink taps in private residences.
-*   **d 25 mm x Rp ¾":** Commonly utilized for plumbing lines that demand a higher flow rate, such as main distribution branches for large bathrooms or connections in commercial kitchens.
-*   **d 32 mm x Rp 1":** Perfectly suited for riser pipes, industrial applications, or connecting main distribution manifolds where significant water volume is required.
-*   **d 40 mm x Rp 1¼" & d 50 mm x Rp 1½":** These larger, heavy-duty dimensions are primarily deployed in extensive industrial or commercial projects. They are essential where maximum flow capacities and highly robust wall anchoring are required under elevated system pressures.
+*   d 20 mm x Rp ½": This is the standard, most frequently used size for domestic draw-off points, including shower mixers, washing machine valves, and standard sink taps in private residences.
+*   d 25 mm x Rp ¾": Commonly utilized for plumbing lines that demand a higher flow rate, such as main distribution branches for large bathrooms or connections in commercial kitchens.
+*   d 32 mm x Rp 1": Perfectly suited for riser pipes, industrial applications, or connecting main distribution manifolds where significant water volume is required.
+*   d 40 mm x Rp 1¼" & d 50 mm x Rp 1½": These larger, heavy-duty dimensions are primarily deployed in extensive industrial or commercial projects. They are essential where maximum flow capacities and highly robust wall anchoring are required under elevated system pressures.
 
 The integrated mounting flange (bracket) is engineered with pre-drilled screw holes, allowing for precise, rigid positioning on either exposed wall surfaces or concealed behind plaster and tiles. The female thread complies with international standard specifications, ensuring a leak-proof, torsion-resistant connection with all standard metallic valves, taps, or flexible hoses.
 
@@ -111,26 +111,26 @@ Every PP-R Elbow Bracket with Female Thread undergoes stringent quality control 
 ### لماذا يعتبر PP-R الخيار الأمثل لأنظمة السباكة؟
 لقد أحدث البولي بروبيلين العشوائي المشترك (PP-R) ثورة حقيقية في صناعة السباكة وتركيب الأنابيب. فهو يحظى بتقدير كبير لخصائصه الحرارية والميكانيكية الاستثنائية. عند استخدام كوع التثبيت PP-R بزاوية 90 درجة مع التسنين الداخلي، يستفيد السباكون المحترفون والمقاولون والمستخدمون النهائيون من مجموعة واسعة من المزايا:
 
-*   **مقاومة استثنائية للتآكل:** على عكس الأنابيب المعدنية التقليدية مثل الصلب المجلفن أو النحاس، فإن مادة PP-R لا تصدأ أو تتآكل. عادة ما يُصنع السن المعدني المدمج من النحاس عالي الجودة المقاوم لإزالة الزنك. هذا يحمي الوصلة من التآكل الداخلي، ويمنع تراكم الترسبات، ويضمن بقاء جودة المياه نقية على مدار عقود من الاستخدام.
-*   **صحي وآمن لمياه الشرب:** PP-R هي مادة صالحة للطعام وغير سامة، مما يجعلها مناسبة تمامًا لتركيبات مياه الشرب. فهي لا تطلق أي مواد كيميائية ضارة في الماء، كما أن سطحها الأملس يمنع بشكل فعال نمو البكتيريا والأغشية الحيوية، بما في ذلك بكتيريا الليجيونيلا، داخل شبكة الأنابيب.
-*   **الحد الأدنى من مقاومة التدفق:** يقلل السطح الداخلي الأملس للغاية لوصلة PP-R من الاحتكاك وفقدان الضغط مع منع التكلس والترسبات بفعالية. وهذا يضمن ضغط مياه ثابتًا ومتساويًا في جميع التركيبات والصنابير المتصلة.
-*   **عزل صوتي فائق:** تمتلك مادة PP-R خصائص ممتازة لامتصاص الصوت. يتم تقليل الضوضاء الناتجة عن تدفق المياه والآثار المزعجة للمطرقة المائية (الصدمة الهيدروليكية) بشكل كبير، مما يؤدي إلى بيئة معيشية أو بيئة عمل أكثر هدوءًا وراحة.
+* مقاومة استثنائية للتآكل: على عكس الأنابيب المعدنية التقليدية مثل الصلب المجلفن أو النحاس، فإن مادة PP-R لا تصدأ أو تتآكل. عادة ما يُصنع السن المعدني المدمج من النحاس عالي الجودة المقاوم لإزالة الزنك. هذا يحمي الوصلة من التآكل الداخلي، ويمنع تراكم الترسبات، ويضمن بقاء جودة المياه نقية على مدار عقود من الاستخدام.
+* صحي وآمن لمياه الشرب: PP-R هي مادة صالحة للطعام وغير سامة، مما يجعلها مناسبة تمامًا لتركيبات مياه الشرب. فهي لا تطلق أي مواد كيميائية ضارة في الماء، كما أن سطحها الأملس يمنع بشكل فعال نمو البكتيريا والأغشية الحيوية، بما في ذلك بكتيريا الليجيونيلا، داخل شبكة الأنابيب.
+* الحد الأدنى من مقاومة التدفق: يقلل السطح الداخلي الأملس للغاية لوصلة PP-R من الاحتكاك وفقدان الضغط مع منع التكلس والترسبات بفعالية. وهذا يضمن ضغط مياه ثابتًا ومتساويًا في جميع التركيبات والصنابير المتصلة.
+* عزل صوتي فائق: تمتلك مادة PP-R خصائص ممتازة لامتصاص الصوت. يتم تقليل الضوضاء الناتجة عن تدفق المياه والآثار المزعجة للمطرقة المائية (الصدمة الهيدروليكية) بشكل كبير، مما يؤدي إلى بيئة معيشية أو بيئة عمل أكثر هدوءًا وراحة.
 
 ### التطبيقات المتنوعة لكوع التثبيت الجداري 90 درجة
 بفضل بنيته القوية وعملية تركيبه السهلة، يُعد كوع التثبيت 90 درجة الخيار المفضل لمجموعة واسعة من التطبيقات في القطاعات السكنية والتجارية والصناعية:
 
-1.  **أنظمة مياه الشرب (الساخنة والباردة):** إنه الوصلة المثالية لتوصيل أحواض الغسيل والاستحمام وأحواض الاستحمام وأحواض المطبخ. يضمن التثبيت الآمن على الحائط بقاء الصنابير ورؤوس الدش مثبتة بإحكام، حتى في ظل الاستخدام اليومي المكثف.
-2.  **تركيبات التدفئة:** يمكن أيضًا استخدام كوع التثبيت لدوائر تدفئة معينة أو وصلات الرادياتير، بشرط أن تتوافق مواصفات درجة الحرارة والضغط الخاصة بالنظام مع حدود التشغيل الخاصة بالوصلة.
-3.  **نقل السوائل الصناعية:** في البيئات الصناعية، تُستخدم الوصلة بشكل متكرر لشبكات الهواء المضغوط أو نقل السوائل المختلفة حيث تكون نقطة التوصيل الصلبة والمثبتة على الحائط إلزامية.
-4.  **تكييف الهواء والمياه المبردة:** المقاومة الحرارية وخصائص العزل المتميزة لمادة PP-R تجعل هذه الوصلة خيارًا ممتازًا لخطوط المياه المبردة وأنظمة التدفئة والتهوية وتكييف الهواء (HVAC)، مما يقلل من خطر التكثيف الخارجي.
+1.  أنظمة مياه الشرب (الساخنة والباردة): إنه الوصلة المثالية لتوصيل أحواض الغسيل والاستحمام وأحواض الاستحمام وأحواض المطبخ. يضمن التثبيت الآمن على الحائط بقاء الصنابير ورؤوس الدش مثبتة بإحكام، حتى في ظل الاستخدام اليومي المكثف.
+2.  تركيبات التدفئة: يمكن أيضًا استخدام كوع التثبيت لدوائر تدفئة معينة أو وصلات الرادياتير، بشرط أن تتوافق مواصفات درجة الحرارة والضغط الخاصة بالنظام مع حدود التشغيل الخاصة بالوصلة.
+3.  نقل السوائل الصناعية: في البيئات الصناعية، تُستخدم الوصلة بشكل متكرر لشبكات الهواء المضغوط أو نقل السوائل المختلفة حيث تكون نقطة التوصيل الصلبة والمثبتة على الحائط إلزامية.
+4.  تكييف الهواء والمياه المبردة: المقاومة الحرارية وخصائص العزل المتميزة لمادة PP-R تجعل هذه الوصلة خيارًا ممتازًا لخطوط المياه المبردة وأنظمة التدفئة والتهوية وتكييف الهواء (HVAC)، مما يقلل من خطر التكثيف الخارجي.
 
 ### المواصفات الفنية والأبعاد المتوفرة
 يتم تصنيع كوع التثبيت PP-R بزاوية 90 درجة (بسن داخلي) في مجموعة شاملة من الأبعاد لتلبية المتطلبات الدقيقة لشبكات الأنابيب المتنوعة. يعد التوافق بين القطر الخارجي لأنبوب PP-R (d) والسن الداخلي (Rp) عاملاً حاسمًا لنجاح التركيب:
 
-*   **قطر 20 مم × سن ½ بوصة:** هذا هو الحجم القياسي والأكثر استخدامًا لنقاط السحب المنزلية، بما في ذلك خلاطات الدش، وصمامات الغسالات، وصنابير الأحواض القياسية في المساكن الخاصة.
-*   **قطر 25 مم × سن ¾ بوصة:** يُستخدم بشكل شائع لخطوط السباكة التي تتطلب معدل تدفق أعلى، مثل فروع التوزيع الرئيسية للحمامات الكبيرة أو التوصيلات في المطابخ التجارية.
-*   **قطر 32 مم × سن 1 بوصة:** مناسب تمامًا للأنابيب الصاعدة، أو التطبيقات الصناعية، أو توصيل مجمعات التوزيع الرئيسية حيث يلزم حجم مياه كبير.
-*   **قطر 40 مم × سن 1¼ بوصة و قطر 50 مم × سن 1½ بوصة:** تُستخدم هذه الأبعاد الأكبر والمخصصة للخدمة الشاقة بشكل أساسي في المشاريع الصناعية أو التجارية الواسعة. وهي ضرورية حيث تكون السعات القصوى للتدفق والتثبيت الجداري القوي للغاية مطلوبة تحت ضغوط النظام المرتفعة.
+*   قطر 20 مم × سن ½ بوصة: هذا هو الحجم القياسي والأكثر استخدامًا لنقاط السحب المنزلية، بما في ذلك خلاطات الدش، وصمامات الغسالات، وصنابير الأحواض القياسية في المساكن الخاصة.
+*   قطر 25 مم × سن ¾ بوصة: يُستخدم بشكل شائع لخطوط السباكة التي تتطلب معدل تدفق أعلى، مثل فروع التوزيع الرئيسية للحمامات الكبيرة أو التوصيلات في المطابخ التجارية.
+*   قطر 32 مم × سن 1 بوصة: مناسب تمامًا للأنابيب الصاعدة، أو التطبيقات الصناعية، أو توصيل مجمعات التوزيع الرئيسية حيث يلزم حجم مياه كبير.
+*   قطر 40 مم × سن 1¼ بوصة و قطر 50 مم × سن 1½ بوصة: تُستخدم هذه الأبعاد الأكبر والمخصصة للخدمة الشاقة بشكل أساسي في المشاريع الصناعية أو التجارية الواسعة. وهي ضرورية حيث تكون السعات القصوى للتدفق والتثبيت الجداري القوي للغاية مطلوبة تحت ضغوط النظام المرتفعة.
 
 تم تصميم شفة التثبيت المدمجة بفتحات مسامير مثقوبة مسبقًا، مما يسمح بوضع دقيق وصلب إما على أسطح الجدران المكشوفة أو مخفية خلف الجص والبلاط. يتوافق السن الداخلي مع المواصفات القياسية الدولية، مما يضمن اتصالاً مانعًا للتسرب ومقاومًا للالتواء مع جميع الصمامات المعدنية القياسية، أو الصنابير، أو الخراطيم المرنة.
 
