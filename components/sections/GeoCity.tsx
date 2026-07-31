@@ -11,6 +11,7 @@ import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { SeoExpand } from "@/components/seo/SeoExpand";
+import { MarketSeoBlock } from "@/components/seo/MarketSeoBlock";
 import {
   ArrowRight,
   Globe as GlobeIcon,
@@ -336,9 +337,11 @@ export default function GeoCity({
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start">
             <h2 className="font-bold text-foreground mb-4 text-base">K-Aqua PP-R / PP-RCT {geoTrans.cityTitle}</h2>
-            <p className="mb-4">
-              {geoTrans.seoExpansion}
-            </p>
+            {geoTrans.seoExpansion.split(/(?<=\\.)\\s+/).map((sentence, idx) => {
+              if (!sentence.trim()) return null;
+              return <p key={idx} className="mb-4">{sentence}</p>;
+            })}
+            <MarketSeoBlock locale={locale} locationName={market.city} isCity={true} />
           </div>
         </div>
       </section>

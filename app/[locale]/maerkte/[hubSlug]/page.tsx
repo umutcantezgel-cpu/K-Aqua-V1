@@ -7,6 +7,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import { Link } from "@/lib/i18n/navigation";
+import { MarketSeoBlock } from "@/components/seo/MarketSeoBlock";
 import { Globe } from "lucide-react";
 
 interface Props {
@@ -85,14 +86,18 @@ export default async function GeoHubPage({ params }: Props) {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
             {tGeo("hubH1", { country: hub.name, hub: hub.name })}
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl">
-            <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name, hub: hub.name })}</span> &ndash;{" "}
+          <div className="text-xl text-muted-foreground max-w-3xl space-y-4">
+            <p>
+              <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name, hub: hub.name })}</span> &ndash;
+            </p>
             {tGeo.has(`hubs.${hub.slug}.description`) ? (
-               <span dangerouslySetInnerHTML={{ __html: tGeo.raw(`hubs.${hub.slug}.description`, { country: hub.name, hub: hub.name }) }} />
+               <div dangerouslySetInnerHTML={{ 
+                 __html: `<p>${tGeo.raw(`hubs.${hub.slug}.description`, { country: hub.name, hub: hub.name }).replace(/\\. /g, '.</p><p>')}</p>` 
+               }} />
             ) : (
-               tGeo("hubLead", { country: hub.name, hub: hub.name })
+               <p>{tGeo("hubLead", { country: hub.name, hub: hub.name })}</p>
             )}
-          </p>
+          </div>
           
         </div>
 
@@ -120,7 +125,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        
+        <MarketSeoBlock locale={locale} locationName={hub.name} />
 
       </div>
     </div>
