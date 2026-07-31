@@ -80,7 +80,7 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
           <p className="mb-4">
             <span className="font-semibold">PIR (Polyisocyanurat)</span> stellt die technologische Weiterentwicklung von PUR dar. Durch ein geändertes Mischungsverhältnis und spezielle Katalysatoren entstehen bei der Herstellung Ringstrukturen (Isocyanurat-Ringe), die dem Material eine enorm hohe thermische und chemische Stabilität verleihen. PIR hält Dauerbelastungen von bis zu +150 °C stand und ist damit prädestiniert für Hochtemperatur-Fernwärmenetze. Noch entscheidender ist jedoch das stark verbesserte Brandverhalten: Im Brandfall schmilzt PIR nicht ab, sondern verkohlt an der Oberfläche. Diese schützende Kohleschicht verzögert ein weiteres Durchbrennen erheblich.
           </p>
-          <h4 className="text-lg font-medium text-foreground mb-2">Wirtschaftliche Aspekte der Dämmstoffwahl</h4>
+          <h3 className="text-lg font-medium text-foreground mb-2">Wirtschaftliche Aspekte der Dämmstoffwahl</h3>
           <p>
             Da PIR einen noch niedrigeren Lambdawert (bis zu 0,022 W/mK) als PUR und EPS aufweist, kann die vorgeschriebene Isolierwirkung mit einer deutlich geringeren Dämmstoffdicke erreicht werden. Dies ist insbesondere in engen Installationsschächten, abgehängten Decken und bei der Verlegung im Fußbodenaufbau ein unschätzbarer Vorteil. Der Platzgewinn ermöglicht schlankere Architektur und reduziert den baulichen Aufwand bei Kernbohrungen und Durchbrüchen. So amortisieren sich die leicht höheren Materialkosten für Hochleistungs-PIR-Schäume in der Regel sehr schnell durch die Einsparungen bei der Bauzeit und dem gewonnenen Nutzraum.
           </p>

@@ -172,19 +172,19 @@ export const lebenszykluskostenTco: NewsPost = {
             </h2>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Ist PP-R in der Anschaffung teurer als herkömmliche Materialien?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Ist PP-R in der Anschaffung teurer als herkömmliche Materialien?</h3>
                 <p className="text-muted-foreground">
                   Im direkten Materialvergleich sind PP-R Rohre oft hochgradig kompetitiv zu Kupfer oder Edelstahl, insbesondere bei großen Nennweiten. Wenn man die Einsparungen bei der schnellen Installation (keine schweren Maschinen, schnelles Schweißen) hinzurechnet, ist der initiale CAPEX meist sogar geringer oder gleichwertig.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Wie verhält es sich mit den Recyclingkosten am Ende der Lebensdauer?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Wie verhält es sich mit den Recyclingkosten am Ende der Lebensdauer?</h3>
                 <p className="text-muted-foreground">
                   Polypropylen ist ein thermoplastischer Kunststoff, der sich zu 100% recyceln lässt. Im Gegensatz zu Verbundrohren (wie PEX-Al-PEX), die sich nur schwer trennen lassen, kann homogenes PP-R geschreddert und als Rezyklat für sekundäre Anwendungen (z.B. Paletten, Kabeltrommeln) wiederverwendet werden, was Entsorgungskosten minimiert.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Warum amortisiert sich die Investition besonders in Hotels?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Warum amortisiert sich die Investition besonders in Hotels?</h3>
                 <p className="text-muted-foreground">
                   Hotels haben einen enormen Warmwasserbedarf (Zirkulationsleitungen). Die exzellente Eigendämmung von PP-R (Wärmeleitfähigkeit nur ca. 0,24 W/mK) reduziert den Wärmeverlust dramatisch im Vergleich zu ungedämmten Metallrohren. Das entlastet die Heizanlage jeden einzelnen Tag.
                 </p>

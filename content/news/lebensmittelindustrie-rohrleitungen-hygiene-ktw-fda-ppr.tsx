@@ -99,15 +99,15 @@ export const lebensmittelindustrieHygiene: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur Lebensmittelindustrie und PP-R</h3>
-          <h4>Können PP-R Rohre bei extremen Temperaturen eingesetzt werden?</h4>
+          <h3>Können PP-R Rohre bei extremen Temperaturen eingesetzt werden?</h3>
           <p>
             Ja, K Aqua PP-R Systeme sind für einen Dauerbetrieb bei hohen Temperaturen ausgelegt, was sie ideal für Heißwasser- und CIP-Anwendungen macht. Sie halten Temperaturen bis zu 95 °C stand und bieten auch bei kurzzeitigen Temperaturspitzen höchste Sicherheit.
           </p>
-          <h4>Wie verhält sich PP-R im Vergleich zu Edelstahl 316L?</h4>
+          <h3>Wie verhält sich PP-R im Vergleich zu Edelstahl 316L?</h3>
           <p>
             Während Edelstahl 316L bei Chloriden korrosionsanfällig ist und eine aufwendige Schweißtechnik erfordert, ist PP-R chemisch inert, korrosionsfrei und lässt sich schnell und emissionsfrei verarbeiten. Zudem sind die Material- und Installationskosten bei PP-R signifikant geringer.
           </p>
-          <h4>Gibt PP-R Mikroplastik ab?</h4>
+          <h3>Gibt PP-R Mikroplastik ab?</h3>
           <p>
             Nein. Die stabile molekulare Struktur von Polypropylen Random-Copolymer verhindert jeglichen Abrieb und die Migration von Mikroplastik in die Flüssigkeiten. Dies ist ein entscheidender Vorteil gegenüber vielen minderwertigen Kunststoffen.
           </p>

@@ -1,5 +1,7 @@
 ---
 title: "PP-R Pipe Crossover"
+titleDE: "PP-R Sprungbogen"
+titleAR: "وصلة عبور الأنابيب PP-R"
 category: "Fittings"
 slug: "fittings/cross-over"
 article_codes: ["AQ26720", "AQ26725", "AQ26732"]
@@ -72,6 +74,10 @@ K-Aqua steht für höchste Qualität in der Kunststoffrohrtechnik. Unsere Crosso
 
 Zusammenfassend lässt sich sagen, dass der PP-R Sprungbogen (Cross Over) ein essentielles Fitting für jede professionelle Rohrinstallation ist. Er löst das alltägliche Problem sich kreuzender Leitungen auf elegante, platzsparende und dauerhaft dichte Weise. Dank der überlegenen Materialeigenschaften von PP-R, der Verfügbarkeit in den Standardgrößen 20 mm, 25 mm und 32 mm sowie der einfachen Verschweißung, ist dieses Bauteil aus der modernen Sanitär- und Heizungstechnik nicht mehr wegzudenken. Vertrauen Sie auf K-Aqua für Ihre nächste Installation und profitieren Sie von jahrzehntelanger Sicherheit und Effizienz.
 
+#### Qualitätssicherung und Normenkonformität
+
+Alle PP-R Sprungbögen durchlaufen während des Produktionsprozesses strenge Qualitätskontrollen, um den internationalen Standards für Trinkwasser- und Heizungssysteme zu entsprechen. Regelmäßige Berst- und Druckprüfungen gewährleisten eine außergewöhnliche mechanische Festigkeit und Dimensionsstabilität der Rohrformteile. Die Einhaltung der geltenden ISO-Normen stellt sicher, dass Installateure sich auf eine gleichbleibend hohe Fertigungsqualität verlassen können. Dadurch werden Ausfallrisiken im späteren Anlagenbetrieb minimiert und eine wartungsfreie Nutzung über die gesamte Lebensdauer der Installation garantiert.
+
 ## SEO-CONTENT-EN
 ### The Comprehensive Guide to PP-R Crossover Pipe Fittings
 
@@ -123,6 +129,10 @@ K-Aqua is synonymous with excellence in plastic piping systems. Our crossover fi
 
 In conclusion, the PP-R Crossover pipe fitting is a vital component for achieving clean, professional, and reliable pipe layouts. By enabling pipes to cross without connection, it solves spatial routing challenges elegantly. With its superior material properties, availability in essential sizes (20 mm, 25 mm, 32 mm), and leak-proof fusion welding, the PP-R crossover is an indispensable asset for any modern plumbing or heating project.
 
+#### Quality Assurance and Standards Compliance
+
+All PP-R crossover fittings undergo rigorous quality control procedures during the production process to meet international standards for potable water and heating systems. Regular burst and pressure tests ensure exceptional mechanical strength and dimensional stability of the pipe fittings. Strict adherence to applicable ISO standards guarantees that installers can rely on consistently high manufacturing quality. This minimizes the risk of failure during subsequent system operation and guarantees a maintenance-free lifespan across the entire plumbing installation.
+
 ## SEO-CONTENT-AR
 ### الدليل الشامل لوصلات عبور الأنابيب PP-R (Crossover)
 
@@ -173,3 +183,7 @@ In conclusion, the PP-R Crossover pipe fitting is a vital component for achievin
 #### خلاصة القول حول وصلات عبور الأنابيب
 
 في الختام، تُعد وصلة العبور (Crossover) المصنوعة من PP-R عنصراً أساسياً لكل تركيب احترافي للأنابيب. فهي تحل مشكلة تقاطع الخطوط بطريقة أنيقة وموفرة للمساحة ومانعة للتسرب بشكل دائم. بفضل الخصائص الفائقة لمادة PP-R، وتوفرها بالأحجام القياسية 20 مم، 25 مم، و 32 مم، وسهولة اللحام، أصبحت هذه القطعة لا غنى عنها في تقنيات السباكة والتدفئة الحديثة. ثق في K-Aqua لمشروعك القادم واستمتع بعقود من الأمان والكفاءة.
+
+#### ضمان الجودة والامتثال للمعايير
+
+تخضع جميع وصلات العبور PP-R لإجراءات صارمة لمراقبة الجودة أثناء عملية الإنتاج لتلبية المعايير الدولية لأنظمة مياه الشرب والتدفئة. تضمن اختبارات الانفجار والضغط المنتظمة قوة ميكانيكية استثنائية واستقرارًا في الأبعاد لتجهيزات الأنابيب. يضمن الالتزام الصارم بمعايير الأيزو (ISO) المعمول بها أن يتمكن فنيو التركيب من الاعتماد على جودة تصنيع عالية باستمرار. هذا يقلل من خطر الفشل أثناء تشغيل النظام اللاحق ويضمن عمرًا خاليًا من الصيانة عبر عملية تركيب السباكة بأكملها.

@@ -171,19 +171,19 @@ export const messingPolypropylen: NewsPost = {
             </h2>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Wie vermeide ich Kontaktkorrosion (Galvanische Korrosion)?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Wie vermeide ich Kontaktkorrosion (Galvanische Korrosion)?</h3>
                 <p className="text-muted-foreground">
                   Kontaktkorrosion entsteht, wenn zwei unedle und edle Metalle (z. B. Kupfer und verzinkter Stahl) in Anwesenheit eines Elektrolyten (Wasser) direkt verbunden werden. Da PP-R ein elektrischer Isolator ist, unterbricht das Rohrleitungssystem den Stromkreis. Es kommt zu keiner Spannungsreihe im Rohrnetz selbst. Das integrierte Messing im Fitting fungiert als sicherer Puffer, da DZR-Messing in den meisten Trinkwasserinstallationen mit Kupfer oder Edelstahl kompatibel ist.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Welche Dichtmittel sind bei Messing-PPR-Gewinden zugelassen?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Welche Dichtmittel sind bei Messing-PPR-Gewinden zugelassen?</h3>
                 <p className="text-muted-foreground">
                   Es wird dringend empfohlen, handelsübliches Teflonband (PTFE-Band) oder speziell freigegebene Dichtfäden zu verwenden. Hanf in Kombination mit aggressiven Dichtpasten sollte vermieden werden, da einige Pasten chemisch mit dem Kunststoff reagieren können und bei übermäßiger Quellung des Hanfs enorme Sprengkräfte auf das Gewinde wirken.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Welche Drehmomente hält der Fitting aus?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Welche Drehmomente hält der Fitting aus?</h3>
                 <p className="text-muted-foreground">
                   Dank der extrem tiefen Verzahnung im Spritzgussprozess hält der Fitting branchenüblichen Anzugsmomenten mühelos stand. Das Überdrehen mit übergroßen Rohrzangen ("Gewaltmontage") ist dennoch zu vermeiden, um die Lebensdauer der Gewindegänge nicht zu gefährden.
                 </p>

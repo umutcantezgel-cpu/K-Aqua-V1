@@ -173,19 +173,19 @@ export const druckverlustStroemungsdynamik: NewsPost = {
             </h2>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Gibt es Fließgeschwindigkeitsbegrenzungen bei PP-R?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Gibt es Fließgeschwindigkeitsbegrenzungen bei PP-R?</h3>
                 <p className="text-muted-foreground">
                   Im Gegensatz zu Kupfer, wo hohe Strömungsgeschwindigkeiten (oft begrenzt auf max. 1,0 - 1,5 m/s) die schützende Oxidschicht abtragen und zu Kavitationskorrosion führen, ist PP-R gegen Erosionskorrosion völlig immun. Die Fließgeschwindigkeiten in Kunststoffrohren werden de facto nur durch die akustischen Komfortgrenzen (Schallschutz nach DIN 4109) limitiert, weshalb in bestimmten Bereichen höhere Strömungsgeschwindigkeiten (bis 2,0 m/s und mehr) zulässig sind.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Wie verhält sich der Druckverlust bei den Schweißmuffen?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Wie verhält sich der Druckverlust bei den Schweißmuffen?</h3>
                 <p className="text-muted-foreground">
                   Die Muffenschweißung bei PP-R ist so konzipiert, dass bei korrekter Ausführung (Einhaltung der Aufwärm- und Einstecktiefe) kein Wulst im Inneren des Rohres entsteht, der den Querschnitt signifikant verjüngt. Der Strömungswiderstand eines perfekt geschweißten K-Aqua Fittings ist minimal und in den Zeta-Werten der Planungssoftware exakt hinterlegt.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Muss ich die Pumpengröße bei PP-R anders berechnen als bei Stahl?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Muss ich die Pumpengröße bei PP-R anders berechnen als bei Stahl?</h3>
                 <p className="text-muted-foreground">
                   Unbedingt. Werden einfach die alten Berechnungen für Stahlrohre übernommen, ist die Pumpe im PP-R System gnadenlos überdimensioniert, was Energie verschwendet. Die hydraulische Berechnung nach DIN 1988-300 muss zwingend mit der materialspezifischen Rauheit (0,007 mm) des Kunststoffrohres erfolgen.
                 </p>

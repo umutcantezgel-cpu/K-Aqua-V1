@@ -65,7 +65,7 @@ export const recyclingPpr: NewsPost = {
           <p className="mb-4">
             K-Aqua PPR-Systeme hingegen basieren auf dem Prinzip der absoluten Sortenreinheit. Da sowohl die Rohre (auch die glasfaserverstärkten Varianten) als auch die Fittings aus demselben Basispolymer (Polypropylen) bestehen und durch Polyfusion (Schweißen) ohne zusätzliche Klebstoffe, Dichtungen oder metallische Presshülsen verbunden werden, entsteht ein 100% homogenes Netzwerk. Dieses sortenreine Material lässt sich nach dem Ausbau in Schredderanlagen problemlos mahlen, waschen und wieder aufschmelzen.
           </p>
-          <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die Bedeutung für Gebäudezertifizierungen (DGNB, LEED, BREEAM)</h4>
+          <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Die Bedeutung für Gebäudezertifizierungen (DGNB, LEED, BREEAM)</h3>
           <p>
             Für Architekten und Projektentwickler wird die Nachweisbarkeit ökologischer Baumaterialien immer erfolgskritischer. Zertifizierungssysteme wie DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen) oder LEED vergeben entscheidende Punkte für Produkte, die über eine zertifizierte Umweltproduktdeklaration (EPD) verfügen und Cradle-to-Cradle-Ansätze unterstützen. Der Einsatz vollständig recycelbarer, schadstofffreier PPR-Rohre (ohne bedenkliche Weichmacher oder Halogene) trägt maßgeblich dazu bei, Gebäude in den höchsten Nachhaltigkeitsklassen zu zertifizieren, was den Marktwert der Immobilie signifikant steigert.
           </p>

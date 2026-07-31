@@ -90,15 +90,15 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
             </p>
 
             <h3>Häufig gestellte Fragen (FAQ) zum Industrie-Einsatz</h3>
-            <h4>Wie prüfe ich, ob PP-R für meine spezifische Prozesschemikalie geeignet ist?</h4>
+            <h3>Wie prüfe ich, ob PP-R für meine spezifische Prozesschemikalie geeignet ist?</h3>
             <p>
               K Aqua stellt umfangreiche Beständigkeitslisten nach DIN 8078 (Beiblatt 1) zur Verfügung. Darin sind hunderte von Chemikalien in Abhängigkeit von Konzentration und Betriebstemperatur gelistet. Unser Engineering-Team übernimmt diese Prüfung gerne für Ihr Projekt.
             </p>
-            <h4>Was passiert bei statischer Aufladung in Gefahrenzonen (ATEX)?</h4>
+            <h3>Was passiert bei statischer Aufladung in Gefahrenzonen (ATEX)?</h3>
             <p>
               PP-R ist ein elektrischer Isolator. Beim Transport hochgradig brennbarer oder explosiver Medien (z.B. Lösungsmittel) in explosionsgefährdeten Bereichen (ATEX-Zonen) müssen Maßnahmen gegen statische Aufladung getroffen werden, weshalb Standard-PP-R hier nicht primär eingesetzt wird. Für die meisten Prozess- und Kühlwässer ist diese Eigenschaft jedoch irrelevant oder sogar vorteilhaft (kein elektrischer Überschlag).
             </p>
-            <h4>Können PP-R Ventile in das System integriert werden?</h4>
+            <h3>Können PP-R Ventile in das System integriert werden?</h3>
             <p>
               Ja, K Aqua bietet ein komplettes Vollkunststoff-Sortiment an, inklusive PP-R Kugelhähnen, Membranventilen und Rückschlagklappen. So bleibt das gesamte industrielle System vom ersten bis zum letzten Meter vollkommen metallfrei und korrosionssicher.
             </p>

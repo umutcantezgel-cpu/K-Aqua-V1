@@ -84,7 +84,7 @@ export const wasserstoffH2Ready: NewsPost = {
             K-Aqua PPR-Systeme nutzen das Prinzip der homogenen Polyfusion (Heizelementmuffenschweißung). Bei diesem Verfahren werden Rohr und Fitting durch Wärme aufgeschmolzen und zu einer untrennbaren, stoffschlüssigen Einheit verbunden, ganz ohne Dichtungen, Kleber oder O-Ringe. Das Leitungsnetz wird zu einem einzigen, endlosen Kunststoffrohr. Diese fugenlose Architektur minimiert das Risiko von Mikroleckagen an den kritischen Verbindungsstellen auf ein absolutes Minimum, was PPR zur idealen Wahl für komplexe, verzweigte Verteilnetze macht.
           </p>
 
-          <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Anwendungsbereiche in der Wasserstoffökonomie</h4>
+          <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Anwendungsbereiche in der Wasserstoffökonomie</h3>
           <p>
             Wo liegt also der Haupteinsatzbereich für PPR-Rohre in der H2-Infrastruktur? Für gigantische Hochdruck-Übertragungsnetze (Pipelines mit über 80 bar) ist Kunststoff aufgrund der Druckanforderungen natürlich nicht geeignet. Die große Stärke von K-Aqua PPR und PPRCT (faserverstärkt) liegt in den Niederdrucknetzen und Peripherieanlagen. Wenn dezentrale Elektrolyseure Kühlwasser, hochreines VE-Wasser (Demineralisiertes Wasser) oder milde H2-Gasströme mit wenigen Bar Betriebsdruck auf dem Werksgelände verteilen müssen, bietet vollverschweißtes Polypropylen eine unschlagbar sichere, korrosionsfreie und hochwirtschaftliche Lösung. Auch für Pilotprojekte zur lokalen H2-Beimischung im kommunalen Bereich sind die Systeme eine Zukunftsinvestition.
           </p>

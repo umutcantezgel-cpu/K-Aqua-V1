@@ -93,15 +93,15 @@ export const fernwaermeNahwaerme: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur Nahwärme mit PP-RCT</h3>
-          <h4>Welche Vorlauftemperaturen hält das PP-RCT System aus?</h4>
+          <h3>Welche Vorlauftemperaturen hält das PP-RCT System aus?</h3>
           <p>
             K Aqua PP-RCT ist für typische moderne Nahwärmenetze (Low-Ex-Netze) ideal geeignet. Es ist für Dauerbetriebstemperaturen von bis zu 80 °C (Spitzen bis 90 °C) bei entsprechenden Drücken ausgelegt. Für klassische Hochtemperatur-Fernwärme (über 120 °C) ist es jedoch nicht geeignet.
           </p>
-          <h4>Braucht das System Kompensatoren für die Längenausdehnung?</h4>
+          <h3>Braucht das System Kompensatoren für die Längenausdehnung?</h3>
           <p>
             Nein. Bei unterirdischer Verlegung im Erdreich reibt sich der PE-HD Mantel fest im Sandbett ein (Reibschluss). Die durch Temperaturänderungen entstehenden Ausdehnungskräfte werden in axiale Druckspannungen im Material umgewandelt. Das Rohr ist im Erdreich eingespannt und bewegt sich nicht.
           </p>
-          <h4>Wie erfolgt die Anbindung an die Gebäude?</h4>
+          <h3>Wie erfolgt die Anbindung an die Gebäude?</h3>
           <p>
             Über flexible oder starre Hauseinführungen. Im Keller des Endverbrauchers (Übergabestation) kann problemlos mit herkömmlichen K Aqua Fittings und Flanschen auf die Hausinstallation übergegangen werden.
           </p>

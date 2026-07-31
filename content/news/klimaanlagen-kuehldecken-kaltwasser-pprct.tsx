@@ -71,7 +71,7 @@ export const klimaanlagenKuehldecken: NewsPost = {
             Mit <span className="font-semibold">K-Aqua PPRCT-Rohren</span> (wie der K-Faser Serie) gehört dieses Risiko endgültig der Vergangenheit an. Polypropylen ist ein inerter, nicht-metallischer Werkstoff. Er reagiert nicht mit Wasser oder Sauerstoff. Selbst wenn die Isolierung beschädigt ist und sich Schwitzwasser auf dem PPRCT-Rohr bildet, kann das Material nicht oxidieren. Das Rohr rostet nicht, es behält seine volle Wandstärke und die Integrität des Kühlsystems bleibt über Jahrzehnte unangetastet.
           </p>
 
-          <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die natürliche Eigendämmung spart wertvollen Bauplatz</h4>
+          <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Die natürliche Eigendämmung spart wertvollen Bauplatz</h3>
           <p>
             Zusätzlich zum absoluten Korrosionsschutz bieten Kunststoffrohre einen gewaltigen thermodynamischen Vorteil. Metall ist ein exzellenter Wärmeleiter (Kupfer hat eine Wärmeleitfähigkeit von ca. 380 W/mK, Stahl ca. 50 W/mK). Ein Metallrohr gibt die Kälte des Wassers sofort ungebremst an die Rohraußenwand weiter, weshalb es extrem schnell kondensiert. Polypropylen hingegen ist ein Isolator (λ = 0,24 W/mK). Die äußere Rohroberfläche eines PPRCT-Rohres ist deutlich wärmer als das eiskalte Wasser im Inneren. 
           </p>

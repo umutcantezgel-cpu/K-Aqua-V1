@@ -3948,7 +3948,7 @@
     "case3Desc": "Großprojekte mit extremen Anforderungen an Langlebigkeit (SDR 11/17). Schnelle Verlegung und 100% stoffliche Verwertbarkeit am Ende der Lebensdauer."
   },
   "co2": {
-    "guideText": "<h2>Der K-Aqua CO2-Rechner: Präzise Emissionsanalyse für nachhaltige Rohrnetze</h2><p>Unser CO2-Rechner ist ein leistungsstarkes Werkzeug zur Ermittlung des ökologischen Fußabdrucks von Rohrleitungssystemen. Mit steigenden Umweltanforderungen und strengeren Bauvorschriften wird es für Planer und Bauherren immer wichtiger, die CO2-Emissionen über den gesamten Lebenszyklus eines Gebäudes (Life Cycle Assessment, LCA) zu verstehen. Dieser Rechner berücksichtigt sämtliche entscheidenden Parameter, von der Rohstoffgewinnung über die Produktion und den Transport bis hin zur Nutzungsphase und eventuellen Entsorgung oder dem Recycling.</p><p>Die Wahl des richtigen Rohrmaterials hat erhebliche Auswirkungen auf die Energieeffizienz eines Gebäudes. PP-R und PPRCT Rohre von K-Aqua zeichnen sich durch extrem glatte Innenflächen aus, was den Reibungswiderstand und somit die benötigte Pumpenleistung signifikant reduziert. Darüber hinaus ist der Energieaufwand bei der Herstellung von Polypropylen deutlich geringer als bei vergleichbaren metallischen Rohren wie Kupfer oder Stahl. Mit unserem Rechner können Sie verschiedene Szenarien, SDR-Klassen und Dämmstärken simulieren, um die energetisch und ökologisch optimale Lösung für Ihr Projekt zu finden. So sichern Sie sich nicht nur Green-Building-Zertifikate wie LEED oder BREEAM, sondern leisten einen aktiven Beitrag zum Umweltschutz.</p>",
+    "guideText": "<h2>Nachhaltigkeit und LCA (Life Cycle Assessment)</h2><p>Die Wahl des richtigen Rohrleitungssystems hat signifikante Auswirkungen auf den CO2-Fußabdruck eines Gebäudes oder einer Industrieanlage. Der K-Aqua CO2-Rechner ermöglicht eine vollumfängliche Lebenszyklusanalyse (LCA) gemäß den Standards der EN 15804. Diese Analyse deckt den gesamten Lebenszyklus ab: von der Rohstoffgewinnung und Produktherstellung (Phasen A1-A3) über den Transport und die Installation (Phasen A4-A5) bis hin zur Nutzungsphase (Phase B) und dem End-of-Life (Phase C).</p><p>Im Vergleich zu herkömmlichen Metallrohren aus Kupfer oder Stahl weisen PP-R und PPRCT Rohre von K-Aqua eine deutlich vorteilhaftere Ökobilanz auf. Der geringere Energieaufwand bei der Extrusion des Kunststoffs sowie das wesentlich geringere Gewicht reduzieren die CO2-Emissionen bei Produktion und Transport erheblich. Darüber hinaus sorgt die spiegelglatte Innenoberfläche (Rauhigkeit von nur 0,007 mm) für einen extrem geringen Strömungswiderstand. Nach der Darcy-Weisbach-Gleichung bedeutet dies, dass Umwälzpumpen deutlich weniger Energie (Strom) aufwenden müssen, um die Flüssigkeit durch das System zu fördern.</p><p>Gerade in der Nutzungsphase (Phase B), die bei Rohrleitungssystemen oft 50 Jahre oder länger dauert, summiert sich diese Energieeinsparung zu massiven CO2- und Kosteneinsparungen (Total Cost of Ownership, TCO). Auch am Ende der Lebensdauer (Phase C) bietet Polypropylen ökologische Vorteile, da es zu 100 % recycelbar ist und im Sinne der Kreislaufwirtschaft (Modul D) wiederverwertet werden kann. Nutzen Sie diesen Rechner, um die ökologischen und ökonomischen Einsparpotenziale Ihres K-Aqua Projekts präzise und transparent zu quantifizieren.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4017,7 +4017,6 @@
     "tempCold": "Cold water (10°C)",
     "tempHot": "Hot water (60°C)",
     "recycle": "Enable End-of-Life recycling credit",
-    "guideText": "<h2>Nachhaltigkeit und LCA (Life Cycle Assessment)</h2><p>Die Wahl des richtigen Rohrleitungssystems hat signifikante Auswirkungen auf den CO2-Fußabdruck eines Gebäudes oder einer Industrieanlage. Der K-Aqua CO2-Rechner ermöglicht eine vollumfängliche Lebenszyklusanalyse (LCA) gemäß den Standards der EN 15804. Diese Analyse deckt den gesamten Lebenszyklus ab: von der Rohstoffgewinnung und Produktherstellung (Phasen A1-A3) über den Transport und die Installation (Phasen A4-A5) bis hin zur Nutzungsphase (Phase B) und dem End-of-Life (Phase C).</p><p>Im Vergleich zu herkömmlichen Metallrohren aus Kupfer oder Stahl weisen PP-R und PPRCT Rohre von K-Aqua eine deutlich vorteilhaftere Ökobilanz auf. Der geringere Energieaufwand bei der Extrusion des Kunststoffs sowie das wesentlich geringere Gewicht reduzieren die CO2-Emissionen bei Produktion und Transport erheblich. Darüber hinaus sorgt die spiegelglatte Innenoberfläche (Rauhigkeit von nur 0,007 mm) für einen extrem geringen Strömungswiderstand. Nach der Darcy-Weisbach-Gleichung bedeutet dies, dass Umwälzpumpen deutlich weniger Energie (Strom) aufwenden müssen, um die Flüssigkeit durch das System zu fördern.</p><p>Gerade in der Nutzungsphase (Phase B), die bei Rohrleitungssystemen oft 50 Jahre oder länger dauert, summiert sich diese Energieeinsparung zu massiven CO2- und Kosteneinsparungen (Total Cost of Ownership, TCO). Auch am Ende der Lebensdauer (Phase C) bietet Polypropylen ökologische Vorteile, da es zu 100 % recycelbar ist und im Sinne der Kreislaufwirtschaft (Modul D) wiederverwertet werden kann. Nutzen Sie diesen Rechner, um die ökologischen und ökonomischen Einsparpotenziale Ihres K-Aqua Projekts präzise und transparent zu quantifizieren.</p>",
     "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
     "savedLabel": "CO₂e Savings vs. best alternative",
     "savedBody1": "Equals the CO₂ absorption of",
@@ -7695,7 +7694,15 @@
     "valves_tee-90-female-thread-internal-valve": "T-Stück 90° (IG) für UP-Ventil",
     "weld-in-saddles_weld-in-saddle-female-thread": "Einschweißsattel (IG)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Einschweißsattel (AG)",
-    "weld-in-saddles_weld-in-saddle": "Einschweißsattel"
+    "weld-in-saddles_weld-in-saddle": "Einschweißsattel",
+    "accessories_backing-flange-pp-steel-sfbf": "Losflansch PP-Stahl (SF/BF)",
+    "tools_pipe-cutter-50125": "Rohrabschneider d50-d125",
+    "tools_hand-welding-machine-2032-complete-set": "Hand-Schweißgerät d20-d32",
+    "valves_tee-90-female-thread-for-internal-valve": "T-Stück 90° (IG) für UP-Ventil",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Kugelhahn (Messing/Chrom)",
+    "fittings_cross-over-with-socket": "PP-R Übersprungsbogen mit Muffe",
+    "fittings_elbow-90-femalemale": "PP-R Winkel 90° IG/AG",
+    "fittings_elbow-90-large-sizes": "PP-R Standard Winkel 90° (Groß)"
   },
   "customerReviews": {
     "eyebrow": "Qualität, die verbindet",

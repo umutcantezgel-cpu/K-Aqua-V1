@@ -1,5 +1,7 @@
 ---
 title: "PP-R Crossover with Socket"
+titleDE: "PP-R Sprungbogen mit Muffe"
+titleAR: "أنبوب تقاطع PP-R مع جلبة"
 category: "Fittings"
 slug: "fittings/cross-over-with-socket"
 article_codes: ["AQ29520", "AQ29525", "AQ29532"]
@@ -49,6 +51,9 @@ Der größte Vorteil dieses speziellen Fittings liegt in den integrierten Muffen
 
 Mit einer erwarteten Lebensdauer von über 50 Jahren stellt das K-Aqua PP-R System eine nachhaltige und sichere Investition dar. Der K-Aqua PP-R Sprungbogen mit Muffe vereint intelligente Formgebung mit überlegenen Materialeigenschaften und einer zeitsparenden Verbindungstechnik. Für jeden professionellen Installateur, der Wert auf Sicherheit, Effizienz und Langlebigkeit legt, ist dieses Fitting die perfekte Wahl zur Bewältigung komplexer Rohrkreuzungen.
 
+#### Zertifizierte Sicherheitsstandards und Qualität
+Die Produktion des Sprungbogens unterliegt modernsten Überwachungsprozessen, um höchste Maßgenauigkeit und Fehlerfreiheit zu garantieren. Durch den Einsatz erstklassiger Rohstoffe ist das Fitting resistent gegen Korrosion und chemische Einflüsse. Dies erhöht nicht nur die Betriebssicherheit der gesamten Anlage, sondern minimiert auch die Folgekosten für Wartung und Austausch. Die integrierten Muffen sorgen zudem für eine unschlagbare mechanische Belastbarkeit an den Knotenpunkten des Rohrnetzes.
+
 ## SEO-CONTENT-EN
 ### The K-Aqua PP-R Cross Over with Socket: The Intelligent Solution for Crossing Pipelines
 
@@ -78,6 +83,9 @@ The greatest advantage of this specific fitting lies in the integrated sockets. 
 
 With an expected lifespan of over 50 years, the K-Aqua PP-R system represents a sustainable and secure investment. The K-Aqua PP-R Cross Over with Socket combines intelligent design with superior material properties and a time-saving connection technology. For any professional installer who values safety, efficiency, and longevity, this fitting is the perfect choice for managing complex pipe crossings.
 
+#### Certified Safety Standards and Quality
+The production of the crossover pipe is subject to state-of-the-art monitoring processes to guarantee the highest dimensional accuracy and flawless execution. By using premium raw materials, the fitting is highly resistant to corrosion and chemical influences. This not only increases the operational safety of the entire system but also minimizes follow-up costs for maintenance and replacement. The integrated sockets also ensure unbeatable mechanical resilience at the nodes of the piping network.
+
 ## SEO-CONTENT-AR
 ### أنبوب التقاطع مع الجلبة (Cross Over with Socket) من K-Aqua: الحل الذكي لتقاطع خطوط الأنابيب
 
@@ -106,3 +114,6 @@ With an expected lifespan of over 50 years, the K-Aqua PP-R system represents a 
 #### طول العمر والخلاصة
 
 مع عمر متوقع يزيد عن 50 عامًا، يمثل نظام K-Aqua PP-R استثمارًا مستدامًا وآمنًا. يجمع أنبوب التقاطع مع الجلبة من K-Aqua بين التصميم الذكي وخصائص المواد الفائقة وتقنية التوصيل الموفرة للوقت. لأي عامل تركيب محترف يقدر السلامة والكفاءة وطول العمر، فإن هذه الوصلة هي الخيار الأمثل لإدارة تقاطعات الأنابيب المعقدة بمهنية عالية.
+
+#### معايير السلامة والجودة المعتمدة
+يخضع إنتاج أنبوب التقاطع لأحدث عمليات المراقبة لضمان أعلى دقة في الأبعاد والتنفيذ الخالي من العيوب. من خلال استخدام مواد خام ممتازة، تتمتع الوصلة بمقاومة عالية للتآكل والتأثيرات الكيميائية. وهذا لا يزيد من السلامة التشغيلية للنظام بأكمله فحسب، بل يقلل أيضًا من تكاليف المتابعة للصيانة والاستبدال. كما تضمن الجلب المدمجة مرونة ميكانيكية لا تقبل المنافسة في العقد الخاصة بشبكة الأنابيب.

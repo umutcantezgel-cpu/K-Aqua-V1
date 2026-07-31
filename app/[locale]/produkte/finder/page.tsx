@@ -63,6 +63,7 @@ export default async function FinderPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, ['finder', 'finderx'])}>
       <JsonLd schema={webPageSchema} />
+      <h1 className="sr-only">{meta[0] || "Produktfinder"}</h1>
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">
           <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary"></div>

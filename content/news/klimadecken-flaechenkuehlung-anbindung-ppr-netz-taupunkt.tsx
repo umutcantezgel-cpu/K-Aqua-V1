@@ -80,7 +80,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             Wenn Wasser mit 16 °C durch ein Steigrohr fließt, besteht stets die große physikalische Gefahr, dass die Rohroberflächentemperatur den Taupunkt der warmen Schachtluft unterschreitet und es zur Bildung von Tropfen (Kondenswasser) kommt. Bei metallischen Verteilleitungen aus Kupfer oder Stahl würde dies sofort zu nasser Dämmung und aggressiver Korrosion (Rost) führen. Da K-Aqua PPR-Vollkunststoffrohre einen extrem schlechten Wärmeleitwert (0,24 W/mK) aufweisen, wirkt das Rohr selbst schon stark isolierend. Es beschlägt bei weitem nicht so schnell wie Metall, benötigt deshalb deutlich geringere Dämmschichtdicken zur Taupunktunterschreitung und rostet auch dann nicht, wenn es im schlimmsten Fall klitschnass wird.
           </p>
           
-          <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Taupunktüberwachung in der Praxis</h4>
+          <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Taupunktüberwachung in der Praxis</h3>
           <p>
             Um Kondenswasser an der Klimadecke selbst zu verhindern, verbauen Systemintegratoren Taupunktwächter. Diese intelligenten Sensoren messen permanent die relative Luftfeuchtigkeit und die Raumtemperatur. Steigt die Feuchtigkeit (etwa, wenn an einem schwülen Tag das Fenster geöffnet wird) und droht der Taupunkt unterschritten zu werden, reagiert die Gebäudeleittechnik (GLT) sofort. Das Mischventil im Keller wird angesteuert, und die Vorlauftemperatur im K-Aqua PPR-Netz wird völlig stufenlos um ein bis zwei Grad angehoben, lange bevor sich auch nur ein einziger Kondensattropfen bilden kann.
           </p>

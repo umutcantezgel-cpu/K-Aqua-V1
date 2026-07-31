@@ -181,19 +181,19 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
             </h2>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Hält K-Aqua PP-R chemischen Desinfektionen stand?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Hält K-Aqua PP-R chemischen Desinfektionen stand?</h3>
                 <p className="text-muted-foreground">
                   Sollte eine Anlage extrem kontaminiert sein, fordert das Gesundheitsamt oft eine Stoßdesinfektion (z. B. mit Chlorbleichlauge oder Wasserstoffperoxid). PP-R Systeme halten diesen temporären, hochkonzentrierten chemischen Belastungen gemäß DVGW-Richtlinien (bei Einhaltung der maximalen Dosierungen und Einwirkzeiten) hervorragend stand, ohne im Gegensatz zu Kupferrohren Lochfraß zu erleiden.
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Sind die Kunststoffrohre trinkwasserzertifiziert?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Sind die Kunststoffrohre trinkwasserzertifiziert?</h3>
                 <p className="text-muted-foreground">
                   Absolut. Die K-Aqua PP-R Systeme unterliegen den strengsten KTW-BWGL (Bewertungsgrundlage für Kunststoffe im Kontakt mit Trinkwasser) des Umweltbundesamtes (UBA). Sie geben keinerlei Weichmacher, Schwermetalle oder Mikroplastik an das Wasser ab und verändern weder Geschmack noch Geruch (sensorisch absolut neutral).
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-foreground mb-2">Wie verhindere ich Totleitungen bei der Montage?</h4>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Wie verhindere ich Totleitungen bei der Montage?</h3>
                 <p className="text-muted-foreground">
                   Hygiene beginnt bei der Planung. Sogenannte "Totstrecken" (ungenutzte Leitungsabschnitte) müssen strikt vermieden oder unmittelbar abgetrennt werden. Durch die enorme Flexibilität von PP-R bei der Vorfertigung lassen sich Ring- und Reihenleitungssysteme sehr einfach installieren. Diese zwingen das Wasser bei jeder Betätigung einer Armatur zum Fließen, wodurch Stagnation im gesamten Strangsystem effektiv verhindert wird.
                 </p>

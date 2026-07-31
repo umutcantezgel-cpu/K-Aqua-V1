@@ -1,5 +1,7 @@
 ---
 title: "PP-R Elbow 90° Female/Male"
+titleDE: "PP-R Winkel 90° Innen/Außen"
+titleAR: "كوع PP-R زاوية 90 درجة أنثى/ذكر"
 category: "Fittings"
 slug: "fittings/elbow-90-femalemale"
 article_codes: ["AQ09020FM", "AQ09025FM", "AQ09032FM"]
