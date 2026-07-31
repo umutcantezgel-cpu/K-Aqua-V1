@@ -79,15 +79,15 @@ export const schallschutzAkustik: NewsPost = {
             </p>
 
             <h3>Häufig gestellte Fragen (FAQ) zur Rohr-Akustik</h3>
-            <h4>Erfüllt PP-R die Anforderungen an den erhöhten Schallschutz?</h4>
+            <h3>Erfüllt PP-R die Anforderungen an den erhöhten Schallschutz?</h3>
             <p>
               Ja. In Verbindung mit fachgerecht installierten, schallentkoppelten Rohrschellen (mit Gummieinlage) unterschreiten K Aqua Systeme die strengen Vorgaben der DIN 4109 (Schallschutz im Hochbau) sowie die erhöhten Anforderungen der VDI 4100 (Schallschutzstufe III) oft mühelos.
             </p>
-            <h4>Warum sind Abflussrohre oft so viel lauter als Druckrohre?</h4>
+            <h3>Warum sind Abflussrohre oft so viel lauter als Druckrohre?</h3>
             <p>
               In Abflussrohren (Fallrohren) fällt Wasser mit Luft vermischt in die Tiefe und prallt an Abzweigen hart gegen die Rohrwand. In Druckrohren (Trinkwasser) fließt das Wasser komplett gefüllt. Dennoch überträgt ein Druckrohr aus Metall Körperschall wesentlich besser als ein schalldämmendes Kunststoffabflussrohr. Deshalb ist die Wahl von K Aqua PP-R für das Drucknetz der entscheidende Schritt zur Gesamtruhe im Bad.
             </p>
-            <h4>Reicht es nicht, Metallrohre einfach in Dämmung einzupacken?</h4>
+            <h3>Reicht es nicht, Metallrohre einfach in Dämmung einzupacken?</h3>
             <p>
               Rohrisolierung (meist zur Wärmedämmung) hilft zwar marginal, reduziert aber den Körperschall im starren Metall kaum. Die Übertragung geschieht hauptsächlich über die Kontaktpunkte der Befestigungsschellen an die Wand. PP-R löst das Problem materialimmanent, anstatt es nur zu umhüllen.
             </p>

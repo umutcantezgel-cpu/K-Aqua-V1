@@ -84,15 +84,15 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
             </p>
 
             <h3>Häufig gestellte Fragen (FAQ) zur Ökobilanz</h3>
-            <h4>Ist PP-R umweltfreundlich, obwohl es aus Erdöl hergestellt wird?</h4>
+            <h3>Ist PP-R umweltfreundlich, obwohl es aus Erdöl hergestellt wird?</h3>
             <p>
               Ja, wenn man die Gesamtlebensdauer betrachtet. Der Einsatz von Erdöl für langlebige Infrastruktur (wie Rohre, die 50 Jahre Energie sparen) ist weitaus ökologischer, als es als Treibstoff in wenigen Minuten zu verbrennen. Die massive Einsparung an grauer Energie gegenüber Metallen macht PP-R zur nachhaltigeren Wahl.
             </p>
-            <h4>Können PPR-Systeme helfen, LEED- oder DGNB-Punkte zu sammeln?</h4>
+            <h3>Können PPR-Systeme helfen, LEED- oder DGNB-Punkte zu sammeln?</h3>
             <p>
               Absolut. Da K Aqua Rohre frei von toxischen Emissionen, VOCs (Flüchtige organische Verbindungen) und Halogenen sind, tragen sie positiv zur Bewertung der Raumluftqualität und der ökologischen Materialwahl in allen gängigen Zertifizierungssystemen (Green Building) bei.
             </p>
-            <h4>Wie wirkt sich das geringe Gewicht auf die Umwelt aus?</h4>
+            <h3>Wie wirkt sich das geringe Gewicht auf die Umwelt aus?</h3>
             <p>
               PP-R ist fast 9-mal leichter als Kupfer. Das bedeutet: Für den Transport der Rohre von der Fabrik zur Baustelle wird massiv weniger LKW-Treibstoff benötigt, was den Carbon Footprint in der Logistikkette drastisch senkt.
             </p>

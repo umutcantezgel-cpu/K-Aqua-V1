@@ -99,15 +99,15 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur Legionellenprävention</h3>
-          <h4>Dürfen Zirkulationspumpen nachts abgeschaltet werden?</h4>
+          <h3>Dürfen Zirkulationspumpen nachts abgeschaltet werden?</h3>
           <p>
             Nein, aus hygienischen Gründen dürfen Zirkulationspumpen gemäß VDI 6023 maximal für 8 Stunden in 24 Stunden abgeschaltet werden, Experten raten jedoch dringend zu einem 24/7 Dauerbetrieb, um Stagnation und ein Absinken der Temperatur unter 55°C absolut auszuschließen.
           </p>
-          <h4>Was ist eine Totleitung?</h4>
+          <h3>Was ist eine Totleitung?</h3>
           <p>
             Eine Totleitung (oder Stagnationsstrecke) ist ein Rohrabschnitt, der nicht durchströmt wird (z. B. eine abgeschnittene Leitung nach dem Rückbau eines Waschbeckens). Diese Leitungen müssen unmittelbar am abzweigenden T-Stück der Hauptleitung (ohne Restvolumen) getrennt werden, da das stehende Wasser die Hauptleitung rückwirkend verkeimen würde.
           </p>
-          <h4>Warum ist die Reihen- oder Ringinstallation besser als die T-Stück-Installation?</h4>
+          <h3>Warum ist die Reihen- oder Ringinstallation besser als die T-Stück-Installation?</h3>
           <p>
             Bei der klassischen T-Stück-Installation endet jede Leitung blind an einer Zapfstelle. Wird das Gäste-WC Wochen nicht genutzt, stagniert das Wasser dort. Bei der Ring- oder Reiheninstallation wird die Leitung "durchgeschleift". Wenn die letzte Zapfstelle (idealerweise die Toilette) gespült wird, wird das Wasser in allen Rohren davor ausgetauscht.
           </p>

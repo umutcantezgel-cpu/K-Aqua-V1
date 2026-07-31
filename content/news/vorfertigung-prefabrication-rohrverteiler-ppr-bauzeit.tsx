@@ -97,15 +97,15 @@ export const vorfertigungPrefabrication: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur Vorfertigung</h3>
-          <h4>Wie groß dürfen die vorgefertigten Module sein?</h4>
+          <h3>Wie groß dürfen die vorgefertigten Module sein?</h3>
           <p>
             Die Grenzen setzt allein die Logistik. Die Dimensionen der Module müssen auf Standard-LKW passen (meist max. 2,40 m Breite und 12 m Länge) und durch die vorhandenen Gebäudeöffnungen (Türen, Fenster, Schächte) passen. Intelligente Planung teilt riesige Verteiler in handliche Sektionen.
           </p>
-          <h4>Lohnt sich Prefabrication auch für kleinere Projekte?</h4>
+          <h3>Lohnt sich Prefabrication auch für kleinere Projekte?</h3>
           <p>
             Ja, definitiv. Bereits die Vorfertigung von standardisierten Steigsträngen für den Wohnungsbau (z.B. Vor- und Rücklauf Heizung plus Kalt- und Warmwasser nebeneinander) auf einem Montagerahmen spart immens Zeit, wenn sich der Aufbau in jedem Stockwerk wiederholt (Serieneffekt).
           </p>
-          <h4>Wer haftet für die Dichtigkeit?</h4>
+          <h3>Wer haftet für die Dichtigkeit?</h3>
           <p>
             Dies ist ein weiterer massiver Vorteil: Wenn die Baugruppe bereits im Werk unter Prüfdruck getestet und abgenommen wurde, verlagert sich das Haftungsrisiko von der chaotischen Baustelle in den streng dokumentierten Qualitätszyklus der Werkstatt.
           </p>

@@ -94,15 +94,15 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
             </p>
 
             <h3>Häufig gestellte Fragen (FAQ) zum Brandschutz</h3>
-            <h4>Was bedeutet B1 nach DIN 4102-1 genau?</h4>
+            <h3>Was bedeutet B1 nach DIN 4102-1 genau?</h3>
             <p>
               B1 steht für "schwer entflammbar". Das Material kann zwar brennen, wenn es einer permanenten starken Zündquelle ausgesetzt ist, es brennt aber nicht von alleine weiter, sobald die Zündquelle entfernt wird. Es trägt nicht zur Brandausbreitung bei.
             </p>
-            <h4>Ist PP-R für Fluchtwege zugelassen?</h4>
+            <h3>Ist PP-R für Fluchtwege zugelassen?</h3>
             <p>
               In Verbindung mit den entsprechenden, zertifizierten Brandschutzmanschetten (Brandschottungen) können PP-R Rohre sicher durch Brandabschnitte und Fluchtwege geführt werden. Die Manschetten schäumen im Brandfall auf und verschließen die Rohröffnung hermetisch gegen Feuer und Rauch.
             </p>
-            <h4>Welche Gase entstehen, wenn PP-R doch verbrennt?</h4>
+            <h3>Welche Gase entstehen, wenn PP-R doch verbrennt?</h3>
             <p>
               Da PP-R (Polypropylen) ein reiner Kohlenwasserstoff ist, entstehen bei der vollständigen Verbrennung lediglich CO2 (Kohlendioxid) und H2O (Wasserdampf). Es werden keine toxischen Halogene wie bei PVC freigesetzt.
             </p>

@@ -1,5 +1,7 @@
 ---
 title: "PP-R Standard Elbow 90° Large Sizes"
+titleDE: "PP-R Winkel 90° Große Dimensionen"
+titleAR: "كوع PP-R زاوية 90 درجة مقاسات كبيرة"
 category: "Fittings"
 slug: "fittings/elbow-90-large-sizes"
 article_codes: ["AQ09090", "AQ09110", "AQ09125", "AQ09160"]

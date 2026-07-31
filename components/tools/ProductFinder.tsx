@@ -99,12 +99,12 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
             </span>
           </Reveal>
           <Reveal delay={0.06}>
-            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+            <h2 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
               {t("title1")}{" "}
               <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                 Katalog
               </span>
-            </h1>
+            </h2>
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">

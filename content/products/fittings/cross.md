@@ -1,5 +1,7 @@
 ---
 title: "PP-R Cross Fitting"
+titleDE: "PP-R Kreuzstück"
+titleAR: "وصلة تصالب PP-R"
 category: "Fittings"
 slug: "fittings/cross"
 article_codes: ["AQ18025", "AQ18032"]
@@ -58,6 +60,9 @@ Um die volle Leistungsfähigkeit der PP-R Kreuzstücke auszuschöpfen, ist eine 
 ### Warum Sie sich für unsere PP-R Kreuzstücke entscheiden sollten
 Unsere PP-R Kreuzstücke sind das Ergebnis jahrelanger Forschung und Entwicklung im Bereich der Kunststoff-Rohrleitungssysteme. Sie bieten Installateuren und Bauherren ein Höchstmaß an Sicherheit, Effizienz und Wirtschaftlichkeit. Die einfache Verarbeitung, die lange Lebensdauer und die hervorragenden hydraulischen Eigenschaften machen sie zur idealen Lösung für jedes anspruchsvolle Installationsprojekt. Vertrauen Sie auf Qualität und setzen Sie bei Ihrem nächsten Projekt auf unsere bewährten PP-R Kreuzstücke (AQ18025 und AQ18032).
 
+### Strenge Qualitätskontrolle und Zertifizierungen
+Jedes PP-R Kreuzstück wird im Rahmen der Produktion umfangreichen Qualitätstests unterzogen, um maximale Sicherheit und Zuverlässigkeit in komplexen Rohrnetzen zu gewährleisten. Regelmäßige Druckprüfungen und materialwissenschaftliche Analysen stellen sicher, dass die Formteile den internationalen Normen (wie ISO 15874) entsprechen. Die kontinuierliche Überwachung der Wandstärken und Oberflächenbeschaffenheit verhindert Schwachstellen im Leitungssystem, garantiert eine optimale Verschweißbarkeit und sichert die langfristige Funktionstüchtigkeit selbst unter anspruchsvollen Bedingungen in Industrie- und Wohnanlagen.
+
 ## SEO-CONTENT-EN
 PP-R cross fittings are indispensable components in modern plumbing and heating installations. They allow for the efficient and safe distribution of fluids in four different directions and are specifically designed for use in Polypropylene Random Copolymer (PP-R) piping systems. In this comprehensive guide, you will learn everything you need to know about the technical specifications, application areas, and installation of PP-R cross fittings.
 
@@ -97,6 +102,9 @@ To maximize the performance of PP-R cross fittings, proper installation is essen
 ### Why You Should Choose Our PP-R Cross Fittings
 Our PP-R cross fittings are the result of years of research and development in the field of plastic piping systems. They offer installers and building owners the highest level of safety, efficiency, and cost-effectiveness. Their easy handling, long service life, and excellent hydraulic properties make them the ideal solution for any demanding installation project. Trust in quality and choose our proven PP-R cross fittings (AQ18025 and AQ18032) for your next project.
 
+### Strict Quality Control and Certifications
+Every PP-R cross fitting undergoes comprehensive quality testing during production to ensure maximum safety and reliability in complex pipe networks. Regular pressure testing and materials science analyses ensure that the fittings comply with international standards (such as ISO 15874). Continuous monitoring of wall thickness and surface finish prevents weak points in the piping system, guarantees optimal weldability, and ensures long-term functionality even under demanding operational conditions in industrial and residential applications.
+
 ## SEO-CONTENT-AR
 تعتبر وصلات التصالب (Cross Fittings) المصنوعة من مادة البولي بروبيلين العشوائي (PP-R) مكونات لا غنى عنها في منشآت السباكة والتدفئة الحديثة. فهي تتيح التوزيع الفعال والآمن للسوائل في أربعة اتجاهات مختلفة، وقد تم تصميمها خصيصًا للاستخدام في أنظمة أنابيب البولي بروبيلين العشوائي. في هذا الدليل الشامل، ستتعرف على كل ما تحتاج لمعرفته حول المواصفات الفنية ومجالات التطبيق وكيفية تركيب وصلات التصالب PP-R.
 
@@ -135,3 +143,6 @@ Our PP-R cross fittings are the result of years of research and development in t
 
 ### لماذا يجب عليك اختيار وصلات التصالب PP-R الخاصة بنا
 إن وصلات التصالب PP-R الخاصة بنا هي نتيجة سنوات من البحث والتطوير في مجال أنظمة الأنابيب البلاستيكية. إنها توفر للقائمين بالتركيب وأصحاب المباني أعلى مستوى من الأمان والكفاءة والفعالية من حيث التكلفة. التعامل السهل معها وعمرها التشغيلي الطويل وخصائصها الهيدروليكية الممتازة تجعلها الحل المثالي لأي مشروع تركيب متطلب. ثق في الجودة واختر وصلات التصالب PP-R المجربة الخاصة بنا (AQ18025 و AQ18032) لمشروعك القادم.
+
+### مراقبة الجودة الصارمة والشهادات
+تخضع كل وصلة تصالب PP-R لاختبارات جودة شاملة أثناء الإنتاج لضمان أقصى درجات الأمان والموثوقية في شبكات الأنابيب المعقدة. تضمن اختبارات الضغط المنتظمة وتحليلات علوم المواد أن الوصلات تتوافق مع المعايير الدولية (مثل ISO 15874). تمنع المراقبة المستمرة لسمك الجدار وإنهاء السطح نقاط الضعف في نظام الأنابيب، وتضمن قابلية اللحام المثلى، وتضمن الأداء الوظيفي على المدى الطويل حتى في ظل ظروف التشغيل الصعبة في التطبيقات الصناعية والسكنية.

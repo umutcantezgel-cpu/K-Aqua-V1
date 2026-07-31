@@ -95,15 +95,15 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur PP-R Lebensdauer</h3>
-          <h4>Was passiert mit dem Rohr nach 50 Jahren?</h4>
+          <h3>Was passiert mit dem Rohr nach 50 Jahren?</h3>
           <p>
             Die 50 Jahre sind eine normative Basisauslegungslebensdauer. Das bedeutet nicht, dass sich das Rohr nach 50 Jahren und einem Tag auflöst. Es ist lediglich der Zeithorizont, den die Norm (ISO 9080) zur Zertifizierung für den Dauerbetrieb abdeckt. In der Praxis, besonders bei Kaltwasser, hält PP-R bei sachgemäßer Installation ein Vielfaches dieser Zeit.
           </p>
-          <h4>Wie wirkt sich freies Chlor im Trinkwasser auf die Lebensdauer aus?</h4>
+          <h3>Wie wirkt sich freies Chlor im Trinkwasser auf die Lebensdauer aus?</h3>
           <p>
             Hohe Konzentrationen von freiem Chlor oder Chlordioxid (oft zur dauerhaften Wasserdesinfektion eingesetzt) wirken hochgradig oxidativ und können die Kunststoffketten vorzeitig angreifen, insbesondere bei heißem Wasser. K Aqua PP-R Systeme beinhalten hochwirksame Antioxidantien (Wärmestabilisatoren), die diese Effekte drastisch verlangsamen und das Material schützen.
           </p>
-          <h4>Kann ein zu hoher Wasserdruck die Lebensdauer verkürzen?</h4>
+          <h3>Kann ein zu hoher Wasserdruck die Lebensdauer verkürzen?</h3>
           <p>
             Ja. Der Innendruck erzeugt eine mechanische Ringspannung (Hoop Stress). Wenn der Betriebsdruck der Anlage dauerhaft weit über dem Auslegungsdruck des gewählten Rohres (PN-Stufe) liegt, sinkt die theoretische Lebensdauer. Die Wahl der richtigen Rohrwandstärke (SDR-Klasse) in der Planungsphase ist daher essenziell.
           </p>

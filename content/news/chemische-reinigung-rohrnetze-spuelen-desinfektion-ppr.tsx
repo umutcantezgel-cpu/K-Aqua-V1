@@ -73,7 +73,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
           <p className="mb-4">
             Diese Oxidationsmittel zerstören gnadenlos die Zellwände der Bakterien, sie greifen jedoch bei falscher Handhabung auch das Rohrmaterial an. Polypropylen (PPR) ist von Natur aus äußerst chemikalienbeständig. Es verträgt Stoßdesinfektionen nach den gängigen Regelwerken problemlos. Die Lebensdauer des Rohrsystems hängt in solchen Fällen jedoch extrem von der Disziplin des ausführenden Personals ab.
           </p>
-          <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die fatale Gefahr der Überdosierung</h4>
+          <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Die fatale Gefahr der Überdosierung</h3>
           <p className="mb-4">
             "Viel hilft viel" ist der gefährlichste Irrtum in der chemischen Desinfektion von Kunststoffrohren. Wenn eine Chlorlösung beispielsweise in doppelter Konzentration oder über Tage hinweg im Rohrsystem belassen wird (statt der vorgeschriebenen 12 bis 24 Stunden), greifen die radikalen Oxidationsmittel die molekularen Stabilisatoren des Polypropylens an. Das Material altert vorzeitig, versprödet und kann im schlimmsten Fall Haarrisse bilden. Deshalb ist eine minutiöse Überwachung der Konzentration, eine strikte Einhaltung der Einwirkzeit und ein anschließendes, restloses Freispülen des Systems absolut überlebenswichtig für die Integrität der Anlage.
           </p>

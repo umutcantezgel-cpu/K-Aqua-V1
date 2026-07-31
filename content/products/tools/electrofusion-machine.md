@@ -1,5 +1,7 @@
 ---
 title: "Electrofusion Machine"
+titleDE: "Elektroschweißgerät"
+titleAR: "آلة اللحام الكهربائي"
 category: "Tools"
 slug: "tools/electrofusion-machine"
 article_codes: ["AQ990"]

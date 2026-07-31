@@ -91,15 +91,15 @@ export const geothermieErdwaerme: NewsPost = {
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur Geothermie</h3>
-          <h4>Was ist der Unterschied zwischen Sonden und Kollektoren?</h4>
+          <h3>Was ist der Unterschied zwischen Sonden und Kollektoren?</h3>
           <p>
             Erdwärmesonden werden vertikal (meist 50 bis 100 Meter) in die Tiefe gebohrt. Sie benötigen extrem wenig Platz auf dem Grundstück und profitieren von konstanten Temperaturen. Erdwärmekollektoren werden horizontal (wie eine Fußbodenheizung) in ca. 1,5 Metern Tiefe im Garten vergraben. Hierfür wird viel Fläche benötigt, und die Wärmequelle reagiert stärker auf die Jahreszeiten. K Aqua Rohre sind für beide Systeme perfekt geeignet.
           </p>
-          <h4>Was passiert bei einem Phasenwechsel (Gefrieren) im Rohr?</h4>
+          <h3>Was passiert bei einem Phasenwechsel (Gefrieren) im Rohr?</h3>
           <p>
             Wenn die Sole ausfällt und reines Wasser im Rohr gefriert (z.B. in Eisspeichersystemen), dehnt sich das Eis aus und würde Metalle sofort sprengen. PP-R ist zäh und elastisch. Es toleriert das Gefrieren des Mediums in gewissem Maße, ohne sofort zu platzen, was eine zusätzliche Sicherheitsreserve für die Anlage darstellt.
           </p>
-          <h4>Ist PP-R beständig gegen Ethylen- oder Propylenglykol?</h4>
+          <h3>Ist PP-R beständig gegen Ethylen- oder Propylenglykol?</h3>
           <p>
             Ja, vollkommen. Die molekulare Struktur von K Aqua PP-R ist hochgradig resistent gegen die branchenüblichen Frostschutzmittel (Glykole), Inhibitoren und Korrosionsschutzzusätze. Es findet keine chemische Zersetzung statt.
           </p>

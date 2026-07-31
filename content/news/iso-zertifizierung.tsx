@@ -60,7 +60,7 @@ export const isoZertifizierung: NewsPost = {
             <p className="mb-4">
               Kunststoffextrusion ist ein energieintensiver Prozess. Granulat muss geschmolzen und anschließend kontrolliert wieder abgekühlt werden. Die ISO 50001 Norm fordert von uns die kontinuierliche Analyse und Verbesserung unserer energiebezogenen Leistung. Das Resultat: Wir setzen ausschließlich modernste Extrudermotoren der höchsten Effizienzklasse ein, gesteuert durch intelligente Frequenzumrichter. Zudem nutzen wir hochkomplexe Wärmerückgewinnungssysteme, die die Abwärme der Maschinenanlagen aufnehmen und in das Heizsystem unserer Produktionshallen einspeisen. Jeder eingesparte Kilowatt Strom senkt nicht nur unsere Produktionskosten, sondern reduziert aktiv den globalen CO2-Ausstoß.
             </p>
-            <h4 className="text-xl font-semibold text-foreground mt-6 mb-2">Die Bedeutung der DAkkS-Akkreditierung für unsere Partner</h4>
+            <h3 className="text-xl font-semibold text-foreground mt-6 mb-2">Die Bedeutung der DAkkS-Akkreditierung für unsere Partner</h3>
             <p>
               Nicht jedes Zertifikat ist gleich viel wert. Unsere Zertifizierungen sind durch die Deutsche Akkreditierungsstelle (DAkkS) überwacht. Für unsere Kunden, Baukonzerne, TGA-Planer und Architekten, ist das entscheidend. Bei öffentlichen Ausschreibungen und Großprojekten im internationalen Rahmen (wie LEED- oder DGNB-zertifizierten Green Buildings) ist ein gültiger, akkreditierter Nachweis dieser Normen eine Grundvoraussetzung für die Auftragsvergabe. Mit K-Aqua als Partner sind Sie hier rechtlich und qualitativ immer auf der sicheren Seite.
             </p>
