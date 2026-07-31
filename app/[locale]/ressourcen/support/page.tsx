@@ -34,7 +34,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">{tMeta('metaTitle')}</div>
+      <div className="sr-only">
+        {locale === 'de' ? 'Technischer Support & Kundenservice | K-Aqua' : locale === 'ar' ? 'الدعم الفني وخدمة العملاء | K-Aqua' : 'Technical Support & Customer Service | K-Aqua'}
+      </div>
       <div className="sr-only">{t('support.hero.title1')} {t('support.hero.title2')}</div>
       <div className="flex flex-col w-full min-h-screen bg-background text-foreground">
       

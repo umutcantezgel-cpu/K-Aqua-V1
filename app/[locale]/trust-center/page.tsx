@@ -6,7 +6,6 @@ import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -63,9 +62,12 @@ export default async function TrustCenterPage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <div className="sr-only">
+        {locale === 'de' ? 'Trust Center: Zertifikate & Sicherheit | K-Aqua' : locale === 'ar' ? 'مركز الثقة: الشهادات والأمان | K-Aqua' : 'Trust Center: Certificates & Security | K-Aqua'}
+      </div>
       <TrustCenter data={data} />
       <TrustDeep />
-      <DynamicSeoBlock title={meta[0]} h1={`${data.title1} ${data.titleGrad}`} locale={locale} path="/trust-center" />
+      
     </>
   );
 }

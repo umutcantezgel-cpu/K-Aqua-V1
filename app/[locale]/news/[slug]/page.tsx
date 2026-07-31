@@ -4,7 +4,6 @@ import { setRequestLocale } from 'next-intl/server';
 import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
 import { ArticleHero } from "@/components/ui/ArticleHero";
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -101,12 +100,7 @@ export default async function NewsDetailPage({ params }: Props) {
           </div>
         </div>
       </section>
-      <DynamicSeoBlock 
-        title={resolveLocalized(newsItem.title, locale)} 
-        h1={resolveLocalized(newsItem.title, locale)} 
-        locale={locale} 
-        path={`/news/${slug}`} 
-      />
+      
     </div>
   );
 }

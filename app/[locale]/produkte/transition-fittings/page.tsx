@@ -7,7 +7,6 @@ import { CTABand } from '@/components/ui/CTABand';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 const titles: Record<string, [string, string]> = {
   de: ['PP-R Übergangsformteile: Metall-Kunststoff-Verbindungen', 'K-Aqua PP-R Übergangsformteile für sichere Verbindungen zwischen Metall- und Kunststoffrohren. Messing und Edelstahl.'],
@@ -113,7 +112,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
       )}
-      <DynamicSeoBlock title={titles[locale]?.[0] || titles['en'][0]} h1={t('hero.title')} locale={locale} path="/produkte/transition-fittings" />
+      
 </div>
   );
 }

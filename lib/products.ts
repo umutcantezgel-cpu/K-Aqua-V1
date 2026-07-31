@@ -15,6 +15,9 @@ export interface ProductData {
   article_codes?: string;
   [key: string]: unknown;
   content: string;
+  seoTextDe?: string;
+  seoTextEn?: string;
+  seoTextAr?: string;
 }
 
 export function getProductCategories(): string[] {
@@ -62,22 +65,49 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   const product = products.find(p => p.slug === slug);
   if (!product) return null;
 
-  // Convert markdown to HTML
+  let rawContent = product.content;
+  
+  // Extract SEO blocks
+  let seoTextDe = '';
+  let seoTextEn = '';
+  let seoTextAr = '';
+
+  const seoMatchDe = rawContent.match(/##\s*SEO-CONTENT-DE\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(EN|AR)|$)/i);
+  if (seoMatchDe) seoTextDe = seoMatchDe[1].trim();
+
+  const seoMatchEn = rawContent.match(/##\s*SEO-CONTENT-EN\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(DE|AR)|$)/i);
+  if (seoMatchEn) seoTextEn = seoMatchEn[1].trim();
+
+  const seoMatchAr = rawContent.match(/##\s*SEO-CONTENT-AR\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(DE|EN)|$)/i);
+  if (seoMatchAr) seoTextAr = seoMatchAr[1].trim();
+
+  // Remove SEO sections from rawContent
+  rawContent = rawContent.replace(/##\s*SEO-CONTENT-(DE|EN|AR)[\s\S]*?(?=##\s*SEO-CONTENT-(DE|EN|AR)|$)/gi, '').trim();
+
   // We strip the english description at the top of the MD files to avoid Duplicate Content across locales.
-  let cleanContent = product.content;
+  let cleanContent = rawContent;
   const match = cleanContent.match(/(?:## Article Table|## Available Sizes|\|.*\|)/i);
   if (match && match.index !== undefined) {
     cleanContent = cleanContent.substring(match.index);
   }
 
-  const processedContent = await remark()
-    .use(remarkGfm)
-    .use(html)
-    .process(cleanContent);
+  const processMd = async (md: string) => {
+    if (!md) return '';
+    const res = await remark().use(remarkGfm).use(html).process(md);
+    return res.toString();
+  };
+
+  const processedContent = await processMd(cleanContent);
+  const processedSeoDe = await processMd(seoTextDe);
+  const processedSeoEn = await processMd(seoTextEn);
+  const processedSeoAr = await processMd(seoTextAr);
     
   return {
     ...product,
-    content: processedContent.toString()
+    content: processedContent,
+    seoTextDe: processedSeoDe,
+    seoTextEn: processedSeoEn,
+    seoTextAr: processedSeoAr,
   };
 }
 

@@ -140,7 +140,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
 
 export default function FooterSitemap() {
   return (
-    <div className="w-full relative z-10 text-inverse-foreground">
+    <div className="w-full relative z-10 text-inverse-foreground" data-nosnippet="true">
       <div className="w-full">
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 lg:gap-y-12"

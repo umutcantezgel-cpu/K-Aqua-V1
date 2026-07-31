@@ -274,8 +274,9 @@ export default function GeoCity({
                   href="/academy" 
                   className="inline-flex items-center gap-2 text-primary font-semibold hover:underline mt-4 group min-h-[44px]"
                 >
-                  <span className="sr-only">{geoTrans.toAcademy} {market.city}</span>
-                  <span aria-hidden="true">{geoTrans.toAcademy}</span>
+                  <span>
+                    {locale === 'de' ? 'PP-R Schulungen & Weiterbildung in der K-Aqua Academy' : locale === 'ar' ? 'تدريب وتعليم PP-R في أكاديمية K-Aqua' : 'PP-R Training & Education at the K-Aqua Academy'}
+                  </span>
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1 group-hover:rtl:-translate-x-1" />
                 </Link>
               </Card>

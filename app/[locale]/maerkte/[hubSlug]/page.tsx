@@ -8,7 +8,6 @@ import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import { Link } from "@/lib/i18n/navigation";
 import { Globe } from "lucide-react";
-import { DynamicSeoBlock } from "@/components/seo/DynamicSeoBlock";
 
 interface Props {
   params: Promise<{ locale: string; hubSlug: string }>;
@@ -121,7 +120,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <DynamicSeoBlock title={tGeo("hubH1", { country: hub.name, hub: hub.name })} h1={tGeo("hubH1", { country: hub.name, hub: hub.name })} locale={locale} path={`/maerkte/${hubSlug}`} />
+        
 
       </div>
     </div>

@@ -41,9 +41,9 @@ export function BlogCard({ post, locale }: BlogCardProps) {
         </div>
       </div>
 
-      {/* Footer CTA */}
       <div className="mt-8 flex items-center gap-2 text-primary font-bold text-small tracking-wide">
-        <span>{locale === 'de' ? 'Weiterlesen' : locale === 'ar' ? 'اقرأ المزيد' : 'Read more'}</span>
+        <span>{locale === 'de' ? `Fachartikel lesen` : locale === 'ar' ? `اقرأ المقال` : `Read article`}</span>
+        <span className="sr-only"> - {title}</span>
         <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
       </div>
     </Link>

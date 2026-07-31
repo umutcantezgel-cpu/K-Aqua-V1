@@ -35,7 +35,7 @@ export default function ProductDownloads() {
   ];
 
   return (
-    <section className="w-full flex flex-col gap-6 mt-12">
+    <section className="w-full flex flex-col gap-6 mt-12" data-nosnippet="true">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3">
         {t('labels.downloads')}
       </h3>

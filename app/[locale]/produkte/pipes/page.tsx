@@ -6,7 +6,6 @@ import { CTABand } from '@/components/ui/CTABand';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
-import { DynamicSeoBlock } from '@/components/seo/DynamicSeoBlock';
 
 const titles: Record<string, [string, string]> = {
   de: ['PP-R & PP-RCT Rohre: Hochleistungs-Rohrsysteme', 'Entdecken Sie das K-Aqua Sortiment an PP-R und PP-RCT Rohren für Trinkwasser, Heizung und Industrie. Made in Germany.'],
@@ -79,7 +78,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
       )}
-      <DynamicSeoBlock title={titles[locale]?.[0] || titles['en'][0]} h1={t('hero.title')} locale={locale} path="/produkte/pipes" />
+      
 </div>
   );
 }

@@ -22,7 +22,6 @@ import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeIn
 import SignatureInitializer from '@/components/signature/SignatureInitializer';
 
 import { FluidTransitionProvider } from '@/components/ui/FluidTransition';
-import SeoHiddenSitemap from '@/components/seo/SeoHiddenSitemap';
 
 import '../kontakt.css';
 import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
@@ -124,7 +123,6 @@ export default async function LocaleLayout({
             <KontaktFab />
             <KontaktModal />
             <Footer />
-            <SeoHiddenSitemap />
 
             <CookieBanner />
           </NextIntlClientProvider>

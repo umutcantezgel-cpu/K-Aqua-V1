@@ -156,7 +156,8 @@ export default function LiquidMagneticButton({
   const fillT = { duration: reduce ? 0.001 : fillMs / 1000, ease: SOFT };
   const wave = { repeat: Infinity, duration: 3.4, ease: 'linear' as const };
 
-  const MotionComponent = href ? motion.a : motion.button;
+  // Use span for links to prevent invalid <a> inside <a> HTML, as FluidLink renders an <a>
+  const MotionComponent = href ? motion.span : motion.button;
   const commonProps = {
     ref: btn as any,
     type: href ? undefined : "button",
@@ -232,7 +233,7 @@ export default function LiquidMagneticButton({
 
   if (href) {
     return (
-      <FluidLink href={href} passHref legacyBehavior>
+      <FluidLink href={href} className="inline-block focus-visible:outline-none">
         <MotionComponent {...commonProps as any}>{content}</MotionComponent>
       </FluidLink>
     );

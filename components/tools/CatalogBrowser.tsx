@@ -61,7 +61,6 @@ export function CatalogBrowser() {
                 aria-selected={cat === i}
                 onClick={() => {
                   setCat(i);
-                  setOpenIdx(-1);
                 }}
                 className={
                   cat === i
@@ -114,7 +113,7 @@ export function CatalogBrowser() {
                       title={it.title}
                       lead={it.note || ""}
                       specs={specs}
-                      cta={t("viewDetails") || "Produktdetails und Spezifikationen"}
+                      cta={`${it.title} – ${t("viewDetails") || "Produktdetails und Spezifikationen"}`}
                       href={`/produkte/${active!.id}/${it.slug}`}
                     />
                   </Reveal>
