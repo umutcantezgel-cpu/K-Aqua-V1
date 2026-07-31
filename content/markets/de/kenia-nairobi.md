@@ -14,6 +14,14 @@ Das Kenya Bureau of Standards (KEBS) und die Bauvorschriften der National Constr
 4. **Widerstandsfähigkeit und Flexibilität**: K-Aqua PP-RCT Rohre zeichnen sich durch eine hervorragende Druckstandfestigkeit auch bei höheren Temperaturen aus. Gleichzeitig verleiht die hohe Flexibilität des Materials den Rohrsystemen eine exzellente Widerstandsfähigkeit gegenüber Druckstößen (Wasserschlag) und leichten Bodenbewegungen, die in der Region auftreten können.
 5. **Einfacher Transport und schnelle Verlegung**: Polypropylen-Rohre sind deutlich leichter als herkömmliche Metallrohre. Dies senkt nicht nur die Logistikkosten – besonders bei der Lieferung über das ostafrikanische Drehkreuz Mombasa –, sondern erleichtert und beschleunigt auch das Handling und die Installation auf der Baustelle vor Ort enorm.
 
+## Maximale Klimaanpassung und Langzeithaltbarkeit am Äquator
+
+Nairobis äquatoriales Höhenklima sorgt für intensive Sonneneinstrahlung und teils markante Temperaturwechsel zwischen Tag und Nacht. Für K-Aqua PP-R und PP-RCT Systeme stellen diese Bedingungen kein Problem dar. Das speziell entwickelte Polymer-Material ist außerordentlich temperatur- und witterungsbeständig. Die Rohre dehnen sich bei Temperaturschwankungen kalkulierbar aus und ziehen sich wieder zusammen, ohne dass es zu strukturellen Schäden wie Rissen oder Brüchen kommt, die bei starreren Materialien oft vorprogrammiert sind. Diese überlegene Anpassungsfähigkeit an das lokale Klima sichert eine extrem lange Lebensdauer der Wasserversorgungssysteme von mehr als 50 Jahren. Dies bedeutet eine enorme Kostenersparnis für Immobilienbesitzer und Stadtplaner in Kenia, da der Wartungsaufwand auf ein absolutes Minimum reduziert wird und teure Systemausfälle praktisch der Vergangenheit angehören.
+
+## Erstklassiger Hygieneschutz für die moderne Wasserversorgung
+
+Die stetig wachsende Bevölkerung in Nairobi erfordert nicht nur mehr Wasser, sondern vor allem auch sicheres und hygienisch einwandfreies Wasser. K-Aqua leistet hier einen essenziellen Beitrag zur öffentlichen Gesundheit. Die innere Struktur der Polypropylen-Rohre ist völlig frei von Poren und Mikro-Kavitäten, was bedeutet, dass sich weder Schmutzpartikel absetzen noch schädliche Bakterienkulturen bilden können. Selbst bei stehendem Wasser oder höheren Wassertemperaturen bleibt das System resistent gegen die Bildung von Biofilmen. Da K-Aqua Systeme zu 100 % aus lebensmittelechten, ungiftigen Materialien bestehen, wird das kostbare Trinkwasser auf seinem Weg durch das Gebäude nicht durch abgegebene Schadstoffe, Schwermetalle oder Mikroplastik verunreinigt. Das Resultat ist eine dauerhaft exzellente, geschmacksneutrale Wasserqualität an jeder Entnahmestelle.
+
 ## Vielfältige Einsatzgebiete in Nairobi
 
 Die Vielseitigkeit der K-Aqua PP-R und PP-RCT Systeme macht sie zur bevorzugten Wahl für zahlreiche Bau- und Infrastrukturvorhaben in und um Nairobi:
