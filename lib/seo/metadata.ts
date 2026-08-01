@@ -131,24 +131,7 @@ export function constructMetadata({
   } else {
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
-      const hasPPR = lowerTitle.includes("pp-r") || lowerTitle.includes("ppr");
 
-      // Step 1: Add PP-R context FIRST for short titles (before brand suffix)
-      if (finalTitle.length < 25 && !hasPPR) {
-          const pad = locale === 'de' ? " PP-R Rohrsysteme" : locale === 'ar' ? " أنظمة أنابيب PP-R" : " PP-R Piping";
-          if (finalTitle.length + pad.length <= 50) {
-              finalTitle += pad;
-          }
-      }
-      
-      // Step 1b: For ultra-short titles that already have PP-R (e.g. "PP-R Muffe"), add descriptive context
-      if (finalTitle.length < 25 && hasPPR) {
-          const catPad = locale === 'de' ? ": Fitting für Rohrsysteme" : locale === 'ar' ? ": تركيب لأنظمة الأنابيب" : ": Fitting for Piping Systems";
-          if (finalTitle.length + catPad.length <= 50) {
-              finalTitle += catPad;
-          }
-      }
-      
       // Step 2: Add brand suffix last
       // Use 58 chars as max to stay safely under 580px pixel width
       const MAX_TITLE_CHARS = 58;

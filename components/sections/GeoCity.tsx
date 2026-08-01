@@ -40,6 +40,7 @@ interface GeoCityProps {
     focus: string[];
     note: string;
     focusHeading: string;
+    extendedMarketText?: string;
   };
   geoTrans: {
     eyebrow: string;
@@ -341,6 +342,9 @@ export default function GeoCity({
               if (!sentence.trim()) return null;
               return <p key={idx} className="mb-4">{sentence}</p>;
             })}
+            {localizedData.extendedMarketText && (
+              <p className="mb-4">{localizedData.extendedMarketText}</p>
+            )}
             <MarketSeoBlock locale={locale} locationName={market.city} isCity={true} />
           </div>
         </div>

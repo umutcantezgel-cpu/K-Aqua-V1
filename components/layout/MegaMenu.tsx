@@ -310,20 +310,25 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                     key={item.id}
                     variants={itemVariants}
                   >
-                    <FluidLink
-                      href={item.href}
+                    <div
                       className={`k-mega-item ${isActive ? 'is-active' : ''}`}
-                      aria-current={isActive ? 'page' : undefined}
-                      onClick={onClose}
+                      style={{ position: 'relative' }}
                     >
+                      <FluidLink
+                        href={item.href}
+                        aria-current={isActive ? 'page' : undefined}
+                        onClick={onClose}
+                        aria-label={title}
+                        style={{ position: 'absolute', inset: 0, zIndex: 10 }}
+                      />
                       <span className="k-mega-icon" aria-hidden="true">
                         <IconComp size={20} strokeWidth={1.8} />
                       </span>
-                      <span className="k-mega-text">
+                      <span className="k-mega-text" aria-hidden="true">
                         <span className="t">{title}</span>
                         {subtitle && <span className="s">{subtitle}</span>}
                       </span>
-                    </FluidLink>
+                    </div>
                   </motion.div>
                 );
               })}
