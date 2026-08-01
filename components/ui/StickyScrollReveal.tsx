@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-no-literals */
 'use client';
 
-import React, { useRef, useState } from "react";
-import { useMotionValueEvent, useScroll, motion } from "framer-motion";
+import React from "react";
 import { cn } from "@/lib/utils/cn";
+import { motion } from "framer-motion";
 
 export const StickyScrollReveal = ({
   content,
@@ -22,85 +22,35 @@ export const StickyScrollReveal = ({
   }[];
   contentClassName?: string;
 }) => {
-  const [activeCard, setActiveCard] = React.useState(0);
-  const ref = useRef<any>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end start"],
-  });
-
   const actualContent = content || items || [];
-  const cardLength = actualContent.length;
 
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    const cardsBreakpoints = actualContent.map((_, index) => index / cardLength);
-    const closestBreakpointIndex = cardsBreakpoints.reduce(
-      (acc, breakpoint, index) => {
-        const distance = Math.abs(latest - breakpoint);
-        if (distance < Math.abs(latest - cardsBreakpoints[acc])) {
-          return index;
-        }
-        return acc;
-      },
-      0
-    );
-    setActiveCard(closestBreakpointIndex);
-  });
+  if (actualContent.length === 0) return null;
 
   return (
-    <div
-      ref={ref}
-      className="relative flex flex-col lg:flex-row gap-10 lg:gap-16 rounded-2xl p-6 lg:p-10 bg-background border border-card-border"
-    >
-      <div className="relative flex items-start px-2 lg:px-4">
-        <div className="max-w-xl w-full">
-          {actualContent.map((item, index) => (
-            <div key={item.title + index} className="min-h-[70vh] flex flex-col justify-center py-10">
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-3xl font-heading font-bold text-foreground"
-              >
-                {item.title}
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-lg text-muted-foreground mt-6 max-w-sm leading-relaxed"
-              >
-                {item.description}
-              </motion.div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="hidden lg:block w-[40rem] shrink-0">
-        <div
-          className={cn(
-            "h-[30rem] rounded-2xl bg-card border border-card-border sticky top-(--header-h) overflow-hidden shadow-2xl",
-            contentClassName
-          )}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full py-8">
+      {actualContent.map((item, index) => (
+        <motion.div 
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+          className="flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all group"
         >
-          <motion.div
-            key={activeCard}
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-            className="w-full h-full flex items-center justify-center"
-          >
-            {actualContent[activeCard]?.content ?? (
-              <div className="text-muted-foreground/50 font-heading tracking-widest uppercase">
-                {"Visual Asset Placeholder "}{activeCard + 1}
-              </div>
-            )}
-          </motion.div>
-        </div>
-      </div>
+          {item.content && (
+            <div className={cn("h-48 w-full bg-background-subtle flex items-center justify-center p-6 border-b border-card-border overflow-hidden relative", contentClassName)}>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              {item.content}
+            </div>
+          )}
+          <div className="p-6 lg:p-8 flex-1 flex flex-col">
+            <h3 className="text-xl font-bold font-heading text-foreground mb-4 leading-snug">{item.title}</h3>
+            <div className="text-muted-foreground text-base leading-relaxed">
+              {item.description}
+            </div>
+          </div>
+        </motion.div>
+      ))}
     </div>
   );
 };

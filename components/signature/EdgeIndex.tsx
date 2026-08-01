@@ -93,22 +93,23 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
   return (
     <nav className={`ka-edgeindex ${className}`} aria-label={t('edgePageIndex')} data-ka-init="1">
       {rows.map((r) => (
-        <Link
+        <div
           key={r.num}
           className="row"
           data-tone={r.tone}
-          href={r.href}
           onPointerEnter={handleEnter}
           onPointerLeave={handleLeave}
+          style={{ position: 'relative' }}
         >
-          <i>{r.num}</i>
-          <span className="font-bold">{r.label}</span>
-          <span className="meta">{r.meta}</span>
+          <Link href={r.href} style={{ position: 'absolute', inset: 0, zIndex: 10 }} aria-label={r.label} />
+          <i aria-hidden="true">{r.num}</i>
+          <span className="font-bold" aria-hidden="true">{r.label}</span>
+          <span className="meta" aria-hidden="true">{r.meta}</span>
           <span className="arrow" aria-hidden="true">→</span>
           <span className="ov" aria-hidden="true">
             <span className="track">{marquee(r.marqueeText)}</span>
           </span>
-        </Link>
+        </div>
       ))}
     </nav>
   );

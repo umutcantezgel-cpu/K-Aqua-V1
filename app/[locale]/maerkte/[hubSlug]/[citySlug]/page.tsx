@@ -85,6 +85,7 @@ export default async function GeoCityPage({ params }: Props) {
     focus: string[];
     note: string;
     focusHeading: string;
+    extendedMarketText?: string;
   }>;
 
   const localizedData = {
@@ -92,7 +93,8 @@ export default async function GeoCityPage({ params }: Props) {
     water: geoContentTrans[citySlug]?.water || market.water,
     focus: geoContentTrans[citySlug]?.focus || market.focus,
     note: geoContentTrans[citySlug]?.note || market.note,
-    focusHeading: geoContentTrans[citySlug]?.focusHeading || tGeo("typical", { city: market.city })
+    focusHeading: geoContentTrans[citySlug]?.focusHeading || tGeo("typical", { city: market.city }),
+    extendedMarketText: geoContentTrans[citySlug]?.extendedMarketText || ""
   };
 
   const geoTrans = {
