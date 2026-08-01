@@ -176,6 +176,10 @@ export default function Header() {
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">News & Presse</span>
                     <span className="text-xs text-muted-foreground mt-0.5">Aktuelle Pressemitteilungen</span>
                   </FluidLink>
+                  <FluidLink href="/sitemap" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Sitemap</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">Strukturübersicht</span>
+                  </FluidLink>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Globaler Fußabdruck</span>

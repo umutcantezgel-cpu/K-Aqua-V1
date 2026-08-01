@@ -3,6 +3,7 @@
 import { useId, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
+import { motion, AnimatePresence } from "framer-motion";
 import { submitLead } from "@/app/actions/lead";
 import { INTERESSEN, DIREKTWAHL_DISPLAY, DIREKTWAHL_TEL } from "@/content/kontakt-bloecke";
 
@@ -103,9 +104,9 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   const legal = <span className="kqk-legal" data-nosnippet="true">{t("legal")} <Link href="/datenschutz">{t("legalLink")}</Link></span>;
 
   const errorBanner = state === "error" ? (
-    <div className="kqk-error" role="alert">
+    <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="kqk-error" role="alert">
       {t("sendError")} <a href={`tel:${DIREKTWAHL_TEL}`}>{DIREKTWAHL_DISPLAY}</a>
-    </div>
+    </motion.div>
   ) : null;
 
   const renderForm = () => {
@@ -153,24 +154,38 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
 
   return (
     <div className={`kqk-right${state === "success" ? " success-inner" : ""}`} aria-live="polite">
-      {state !== "success" ? renderForm() : (
-        slimDone ? (
-          <div className="kqk-done slim" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
-            <div className="ring"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg></div>
-            <div>
-              <div className="font-heading font-bold text-lg mb-2">{t("doneTitleSlim")}</div>
-              <p>{done}</p>
-            </div>
-          </div>
+      <AnimatePresence mode="wait">
+        {state !== "success" ? (
+          <motion.div key="form" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 20 }} transition={{ duration: 0.4, ease: "anticipate" }}>
+            {renderForm()}
+          </motion.div>
         ) : (
-          <div className="kqk-done" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
-            <div className="ring"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg></div>
-            <div className="font-heading font-bold text-xl mb-4">{t("doneTitle")}</div>
-            <p>{done}</p>
-            <div className="alt">{t("direct")} <a href={`tel:${DIREKTWAHL_TEL}`}>{DIREKTWAHL_DISPLAY}</a></div>
-          </div>
-        )
-      )}
+          <motion.div key="success" initial={{ opacity: 0, scale: 0.95, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ type: "spring", stiffness: 300, damping: 25, delay: 0.1 }} className="flex justify-center items-center h-full w-full">
+            {slimDone ? (
+              <div className="kqk-done slim shadow-2xl border border-primary/20 bg-card/80 backdrop-blur-md rounded-2xl p-6" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
+                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.3 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-12 h-12 rounded-full mb-4 mx-auto">
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg>
+                </motion.div>
+                <div className="text-center">
+                  <div className="font-heading font-bold text-lg mb-2 text-foreground">{t("doneTitleSlim")}</div>
+                  <p className="text-muted-foreground text-sm">{done}</p>
+                </div>
+              </div>
+            ) : (
+              <div className="kqk-done shadow-2xl border border-primary/20 bg-card/80 backdrop-blur-md rounded-3xl p-10 text-center" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
+                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.3 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-16 h-16 rounded-full mb-6 mx-auto">
+                  <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg>
+                </motion.div>
+                <div className="font-heading font-bold text-2xl mb-4 text-foreground">{t("doneTitle")}</div>
+                <p className="text-muted-foreground mb-6">{done}</p>
+                <div className="alt text-sm font-medium text-foreground bg-background/50 rounded-xl p-4 border border-card-border">
+                  {t("direct")} <a href={`tel:${DIREKTWAHL_TEL}`} className="text-primary hover:underline">{DIREKTWAHL_DISPLAY}</a>
+                </div>
+              </div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

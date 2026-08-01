@@ -90,7 +90,29 @@ export function KAquaMapsSuite() {
     }
   }, []);
 
-  // Initialize HQ Map (Karte 1)
+  const mapStyle = [
+  { elementType: "geometry", stylers: [{ color: "#0a0a0a" }] },
+  { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+  { elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
+  { elementType: "labels.text.stroke", stylers: [{ color: "#212121" }] },
+  { featureType: "administrative", elementType: "geometry", stylers: [{ color: "#757575" }] },
+  { featureType: "administrative.country", elementType: "labels.text.fill", stylers: [{ color: "#9e9e9e" }] },
+  { featureType: "administrative.land_parcel", stylers: [{ visibility: "off" }] },
+  { featureType: "administrative.locality", elementType: "labels.text.fill", stylers: [{ color: "#bdbdbd" }] },
+  { featureType: "poi", elementType: "labels.text.fill", stylers: [{ color: "#757575" }] },
+  { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#181818" }] },
+  { featureType: "poi.park", elementType: "labels.text.fill", stylers: [{ color: "#616161" }] },
+  { featureType: "poi.park", elementType: "labels.text.stroke", stylers: [{ color: "#1b1b1b" }] },
+  { featureType: "road", elementType: "geometry.fill", stylers: [{ color: "#121212" }] },
+  { featureType: "road.local", elementType: "labels.text.fill", stylers: [{ color: "#8a8a8a" }] },
+  { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#1a1a1a" }] },
+  { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#1c1c1c" }] },
+  { featureType: "road.highway.controlled_access", elementType: "geometry", stylers: [{ color: "#1e1e1e" }] },
+  { featureType: "water", elementType: "geometry", stylers: [{ color: "#000000" }] },
+  { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#3d3d3d" }] }
+];
+
+// Initialize HQ Map (Karte 1)
   useEffect(() => {
     if (!scriptLoaded || activeTab !== 'hq' || !hqMapRef.current) return;
 
@@ -101,6 +123,7 @@ export function KAquaMapsSuite() {
         mapId: 'DEMO_MAP_ID',
         disableDefaultUI: true,
         zoomControl: true,
+        styles: mapStyle,
       });
 
       hqInstanceRef.current = map;
@@ -108,10 +131,10 @@ export function KAquaMapsSuite() {
       // Distance Rings
       [10000, 25000, 50000].forEach((r) => {
         new google.maps.Circle({
-          strokeColor: '#005b94',
-          strokeOpacity: 0.4,
-          strokeWeight: 1.5,
-          fillColor: '#005b94',
+          strokeColor: '#00b0ff',
+          strokeOpacity: 0.5,
+          strokeWeight: 1,
+          fillColor: '#00b0ff',
           fillOpacity: 0.05,
           map,
           center: HQ_SITE.position,
@@ -151,6 +174,7 @@ export function KAquaMapsSuite() {
         mapId: 'DEMO_MAP_ID',
         disableDefaultUI: true,
         zoomControl: true,
+        styles: mapStyle,
       });
 
       refsInstanceRef.current = map;
@@ -193,6 +217,7 @@ export function KAquaMapsSuite() {
         mapId: 'DEMO_MAP_ID',
         disableDefaultUI: true,
         zoomControl: true,
+        styles: mapStyle,
       });
 
       specInstanceRef.current = map;
