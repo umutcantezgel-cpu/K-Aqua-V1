@@ -54,7 +54,7 @@ export const messingPolypropylen: NewsPost = {
               Der kritische Moment des Systemwechsels
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-8 w-full">
             <Card className="p-8 lg:p-12 border-card-border bg-card">
               <Shield className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Altlast der Metalle</h3>
@@ -210,7 +210,7 @@ export const messingPolypropylen: NewsPost = {
       {/* Sectional Renovation */}
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col gap-12 w-full">
             <div>
               <Eyebrow text="Abschnittsweise Sanierung" />
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 mb-6 text-foreground leading-tight">

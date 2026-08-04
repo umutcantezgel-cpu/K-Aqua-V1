@@ -90,7 +90,7 @@ export const chemischeReinigungDesinfektion: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Stagger className="flex flex-col gap-6">
             <Reveal key="1">
               <div className="p-6 rounded-2xl border border-card-border bg-card">
                 <h3 className="text-xl font-bold mb-2">Stufe 1: Spülen mit filtriertem Trinkwasser</h3>

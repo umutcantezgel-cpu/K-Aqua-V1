@@ -130,7 +130,7 @@ export const lebensdauerBerechnungPpr: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Stagger className="flex flex-col gap-6">
             <Reveal key="1">
               <div className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3 h-full">
                 <h3 className="text-xl font-bold">1. Beschleunigte Alterung (Test)</h3>

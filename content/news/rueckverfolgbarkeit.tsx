@@ -57,7 +57,7 @@ export const rueckverfolgbarkeit: NewsPost = {
       {/* The Danger of Invisible Errors */}
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col gap-12 w-full">
             <div className="h-full min-h-[450px]">
               <PremiumAssetPlaceholder label="Industrielle Rohrinstallation Hochbau" image="/images/new-k-aqua/fertigung-pipes.jpg" />
             </div>
@@ -152,7 +152,7 @@ export const rueckverfolgbarkeit: NewsPost = {
       {/* Digital Archive & Big Data */}
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-8 w-full">
             <Card className="p-8 lg:p-12 border-card-border bg-card hover:border-primary/50 transition-colors">
               <FileText className="w-12 h-12 text-primary mb-6" />
               <h3 className="text-2xl font-bold font-heading mb-4">Das digitale Archiv</h3>

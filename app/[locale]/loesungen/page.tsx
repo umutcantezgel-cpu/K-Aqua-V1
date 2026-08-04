@@ -11,16 +11,13 @@ import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { Button } from "@/components/ui/Button";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
-import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { StatNumber } from "@/components/ui/StatNumber";
 import { CTABand } from "@/components/ui/CTABand";
 import { KontaktForm } from "@/components/kontakt/KontaktForm";
-import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
-import { Droplet, Thermometer, Factory, Layers, Flame, Wrench } from "@/components/ui/icon";
 import { setRequestLocale } from 'next-intl/server';
+import { Droplet, Thermometer, Factory, Flame, Wrench } from "@/components/ui/icon";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -39,42 +36,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const bentoIcons = [Droplet, Thermometer, Wrench, Factory, Flame];
-const bentoAssets: { image?: string; video?: string }[] = [
-  { image: '/images/new-k-aqua/was-ist-ppr.jpg' },
-  { image: '/images/new-k-aqua/valves-profil.png' },
-  { image: '/images/new-k-aqua/pipes-profil.png' },
-  { image: '/images/new-k-aqua/big5-messe-saudi-arabien.webp' },
-  { video: '/videos/factory.mp4' },
-];
 
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "solutions.index" });
   const messages = await getMessages();
   const jsonLd = await getWebPageJsonLd(locale, "solutions", "WebPage", { title: t('meta.title'), description: t('meta.desc') });
+  
   const stickyItemsRaw = t.raw('sticky.items');
   const stickyItems = Array.isArray(stickyItemsRaw) ? stickyItemsRaw as Array<{ title: string; p1: string; p2: string }> : [];
 
-  const stickyAssets: { image?: string; video?: string }[] = [
-    { image: '/images/new-k-aqua/was-ist-ppr.jpg' },
-    { image: '/images/new-k-aqua/fertigung-pipes.jpg' },
-    { image: '/images/new-k-aqua/pipes-profil.png' },
-    { image: '/images/new-k-aqua/ppr-rohre-vorteile.jpg' },
-  ];
-
-  const stickyContent = stickyItems.map((item, index) => ({
-    title: item.title,
-    description: (
-      <div className="flex flex-col gap-6 text-base lg:text-lg text-muted-foreground leading-relaxed">
-        <p>{item.p1}</p>
-        <p>{item.p2}</p>
-      </div>
-    ),
-    content: <PremiumAssetPlaceholder label={item.title} {...stickyAssets[index]} />
-  }));
-
   const timelineItemsRaw = t.raw('timeline.items');
   const timelineItems = Array.isArray(timelineItemsRaw) ? timelineItemsRaw as Array<{ year: string; title: string; text: string }> : [];
+  
   const bentoItemsRaw = t.raw('bento.items');
   const bentoItems = Array.isArray(bentoItemsRaw) ? bentoItemsRaw as Array<{ title: string; desc: string }> : [];
 
@@ -99,7 +73,6 @@ export default async function LoesungenPage({ params }: Props) {
 
         {/* 2) Intro */}
         <section className="py-32 md:py-48 bg-background border-b border-card-border relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(var(--primary),0.03)_0%,transparent_70%)] pointer-events-none" />
           <div className="mx-auto max-w-[1000px] px-6 relative z-10 text-center">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-black tracking-tighter mb-10 leading-[1.1]">
               {t('intro.title')}
@@ -118,38 +91,44 @@ export default async function LoesungenPage({ params }: Props) {
           items={timelineItems}
         />
 
-        {/* 4) Sticky material-science scrollytelling */}
+        {/* 4) Material Science */}
         <section className="py-32 bg-background border-b border-card-border">
-          <div className="mx-auto max-w-[1400px] px-6">
-            <StickyScrollReveal content={stickyContent} />
+          <div className="mx-auto max-w-[1000px] px-6">
+            <div className="flex flex-col gap-16">
+              {stickyItems.map((item, index) => (
+                <div key={index} className="flex flex-col gap-6">
+                  <h3 className="text-3xl font-heading font-bold">{item.title}</h3>
+                  <div className="flex flex-col gap-4 text-lg text-muted-foreground leading-relaxed">
+                    <p>{item.p1}</p>
+                    <p>{item.p2}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* 5) Bento: application vectors */}
+        {/* 5) Application Vectors */}
         <section className="py-32 md:py-48 bg-card/40 border-b border-card-border relative overflow-hidden">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:6rem_6rem] pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 relative z-10">
             <SectionHead
               title={t('bento.header.title')}
               lead={t('bento.header.desc')}
               align="center"
             />
-            <div className="mt-16">
-              <BentoGrid>
-                {bentoItems.map((item, index) => {
-                  const Icon = bentoIcons[index] ?? Layers;
-                  return (
-                    <BentoGridItem
-                      key={item.title}
-                      title={item.title}
-                      description={item.desc}
-                      icon={<Icon className="w-8 h-8 text-primary" />}
-                      colSpan={index === bentoItems.length - 1 ? 3 : index < 2 ? 2 : 1}
-                      header={<PremiumAssetPlaceholder label={item.title} {...bentoAssets[index]} />}
-                    />
-                  );
-                })}
-              </BentoGrid>
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {bentoItems.map((item, index) => {
+                const Icon = bentoIcons[index] || Factory;
+                return (
+                  <div key={item.title} className="flex flex-col gap-6 p-8 rounded-2xl bg-card border border-card-border">
+                    <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10">
+                      <Icon className="w-6 h-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-heading font-bold">{item.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -171,14 +150,13 @@ export default async function LoesungenPage({ params }: Props) {
           </div>
         </section>
 
-        {/* 7) Enterprise / Tech Deep Dive (Sub-components) */}
+        {/* 7) Enterprise / Tech Deep Dive */}
         <NextIntlClientProvider messages={pick(messages, 'enterprise')}>
           <SolutionsDeep />
         </NextIntlClientProvider>
 
         {/* 8) Final CTA */}
         <section className="py-32 md:py-48 bg-background relative overflow-hidden border-t border-card-border">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,rgba(var(--primary),0.05)_0%,transparent_60%)] pointer-events-none" />
           <div className="mx-auto max-w-[1400px] px-6 relative z-10">
             <CTABand className="py-20 md:py-32" fullWidth>
               <div className="flex flex-col lg:flex-row gap-16 lg:items-center justify-between w-full">
@@ -211,7 +189,6 @@ export default async function LoesungenPage({ params }: Props) {
           </div>
         </section>
 
-        
       </div>
     </>
   );

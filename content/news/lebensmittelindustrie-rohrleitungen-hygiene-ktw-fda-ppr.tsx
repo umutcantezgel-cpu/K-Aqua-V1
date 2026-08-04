@@ -122,7 +122,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Stagger className="flex flex-col gap-6">
             <Reveal key="1">
               <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
                 <div>
