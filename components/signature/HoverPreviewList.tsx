@@ -17,7 +17,9 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
         
         return (
           <div key={idx} className="row" data-label={imgTag} style={{ position: 'relative' }}>
-            <Link href={`/referenzen#${proj.id}`} style={{ position: 'absolute', inset: 0, zIndex: 10 }} aria-label={proj.title} />
+            <Link href={`/referenzen#${proj.id}`} style={{ position: 'absolute', inset: 0, zIndex: 10 }} aria-label={proj.title}>
+              <span className="sr-only">{proj.title}</span>
+            </Link>
             <span className="font-bold" aria-hidden="true">{proj.title}</span>
             <span aria-hidden="true">{proj.d}</span>
           </div>
