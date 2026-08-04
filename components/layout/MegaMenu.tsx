@@ -320,7 +320,9 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                         onClick={onClose}
                         aria-label={title}
                         style={{ position: 'absolute', inset: 0, zIndex: 10 }}
-                      />
+                      >
+                        <span className="sr-only">{title}</span>
+                      </FluidLink>
                       <span className="k-mega-icon" aria-hidden="true">
                         <IconComp size={20} strokeWidth={1.8} />
                       </span>

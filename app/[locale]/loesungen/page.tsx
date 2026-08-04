@@ -97,7 +97,7 @@ export default async function LoesungenPage({ params }: Props) {
             <div className="flex flex-col gap-16">
               {stickyItems.map((item, index) => (
                 <div key={index} className="flex flex-col gap-6">
-                  <h3 className="text-3xl font-heading font-bold">{item.title}</h3>
+                  <div className="text-3xl font-heading font-bold">{item.title}</div>
                   <div className="flex flex-col gap-4 text-lg text-muted-foreground leading-relaxed">
                     <p>{item.p1}</p>
                     <p>{item.p2}</p>
@@ -124,7 +124,7 @@ export default async function LoesungenPage({ params }: Props) {
                     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10">
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h3 className="text-xl font-heading font-bold">{item.title}</h3>
+                    <div className="text-xl font-heading font-bold">{item.title}</div>
                     <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
                   </div>
                 );
