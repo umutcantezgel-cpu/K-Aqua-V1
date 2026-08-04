@@ -361,7 +361,8 @@ export default async function ProductDetailPage({
                     </h2>
                     <div 
                       className="prose dark:prose-invert max-w-none w-full text-body text-muted-foreground leading-relaxed
-                                 prose-h2:text-h4 prose-h2:font-heading prose-h2:text-foreground prose-h2:mt-6 prose-h2:mb-3
+                                 prose-headings:font-heading prose-headings:text-foreground prose-headings:font-bold prose-headings:mt-8 prose-headings:mb-4
+                                 prose-h1:text-h4 prose-h2:text-h4 prose-h3:text-lg prose-h4:text-base
                                  prose-p:mb-4
                                  prose-ul:my-4 prose-li:my-1"
                       dangerouslySetInnerHTML={{ __html: seoTextHtml }}

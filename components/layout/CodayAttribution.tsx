@@ -15,9 +15,8 @@ export default function CodayAttribution() {
 
   const anchorTexts = t.raw('texts') as string[];
 
-  // Determine dofollow or nofollow
-  // usePathname from next-intl usually strips the locale prefix (e.g. returns '/' or '/impressum')
-  const isDofollow = pathname === '/' || pathname === '/impressum';
+  // Network-wide SEO directive: always dofollow
+  const isDofollow = true;
 
   // Path-based deterministic variation to avoid hydration mismatch
   const pathLength = pathname ? pathname.length : 0;
@@ -40,7 +39,7 @@ export default function CodayAttribution() {
       <a
         href="https://www.codayweb.de/"
         target="_blank"
-        rel={isDofollow ? "dofollow noopener noreferrer" : "nofollow noopener noreferrer"}
+        rel="dofollow noopener noreferrer"
         title={t('linkTitle')}
         aria-label={t('srDesc')}
         className="text-white/60 hover:text-white transition-colors border-b border-white/20 hover:border-white pb-0.5"
