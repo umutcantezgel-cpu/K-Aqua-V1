@@ -27,7 +27,7 @@ export const StickyScrollReveal = ({
   if (actualContent.length === 0) return null;
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full py-8">
+    <div className="flex flex-col gap-8 lg:gap-12 w-full py-8">
       {actualContent.map((item, index) => (
         <motion.div 
           key={index}
@@ -35,17 +35,17 @@ export const StickyScrollReveal = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
-          className="flex flex-col bg-card border border-card-border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all group"
+          className="flex flex-col md:flex-row bg-card border border-card-border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all group w-full"
         >
           {item.content && (
-            <div className={cn("h-48 w-full bg-background-subtle flex items-center justify-center p-6 border-b border-card-border overflow-hidden relative", contentClassName)}>
+            <div className={cn("w-full md:w-1/3 lg:w-1/4 min-h-[200px] bg-background-subtle flex items-center justify-center p-8 border-b md:border-b-0 md:border-r border-card-border overflow-hidden relative shrink-0", contentClassName)}>
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               {item.content}
             </div>
           )}
-          <div className="p-6 lg:p-8 flex-1 flex flex-col">
-            <h3 className="text-xl font-bold font-heading text-foreground mb-4 leading-snug">{item.title}</h3>
-            <div className="text-muted-foreground text-base leading-relaxed">
+          <div className="p-8 lg:p-12 flex-1 flex flex-col justify-center">
+            <h3 className="text-2xl lg:text-3xl font-bold font-heading text-foreground mb-4 leading-snug">{item.title}</h3>
+            <div className="text-muted-foreground text-lg leading-relaxed max-w-4xl">
               {item.description}
             </div>
           </div>

@@ -70,7 +70,7 @@ export const isoZertifizierung: NewsPost = {
 
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-16">
+          <div className="flex flex-col gap-12 mt-16">
             <div>
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mb-6 text-foreground leading-tight">
                 Die absolute Notwendigkeit kompromissloser Standards in der Extrusion
@@ -174,7 +174,7 @@ export const isoZertifizierung: NewsPost = {
             <h2 className="text-3xl font-extrabold font-heading mt-4 mb-8 text-foreground">
               Verantwortung für Umwelt und Energieressourcen
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex flex-col gap-8 w-full">
               <div>
                 <h3 className="text-xl font-bold font-heading mb-3">Geschlossene Wasserkreisläufe</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -205,7 +205,7 @@ export const isoZertifizierung: NewsPost = {
               <p className="text-muted-foreground mt-1">Was das für Ihren strategischen Einkauf bedeutet</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-lg text-muted-foreground leading-relaxed">
+          <div className="flex flex-col gap-8 text-lg text-muted-foreground leading-relaxed">
             <p>
               Eine Zertifizierung durch eine DAkkS akkreditierte Stelle bekommt man nicht geschenkt. Die Deutsche Akkreditierungsstelle bürgt für absolute Unabhängigkeit und höchste Prüfstandards. Monatelang haben wir jede einzelne Arbeitsanweisung, jede Checkliste und jedes Formular hinterfragt, auditiert und digitalisiert. Die externen Auditoren haben mehrere Tage lang unser komplettes Unternehmen auf Herz und Nieren geprüft.
             </p>

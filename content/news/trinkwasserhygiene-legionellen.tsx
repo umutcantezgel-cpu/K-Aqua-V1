@@ -64,7 +64,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               Nach den strengen Vorgaben der VDI 6023 und DVGW W 551 führen mikrostrukturelle Unebenheiten, Stagnation und falsche Temperaturen zur rasanten Vermehrung von Pathogenen im Trinkwassersystem.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-8 w-full">
             <Card className="p-8 lg:p-12 border-card-border bg-card">
               <Layers className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die raue Oberfläche metallischer Rohre</h3>

@@ -47,7 +47,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
       {/* 2. Global Certifications & Globe */}
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col gap-12 w-full">
             <div>
               <Eyebrow text="Weltweite Anerkennung" />
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground mb-6">
@@ -147,7 +147,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
       {/* 4. DeepFAQ for Planners */}
       <section className="mt-8">
         <Reveal>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="flex flex-col gap-12">
             <div className="lg:col-span-1">
               <div className="sticky top-24">
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">

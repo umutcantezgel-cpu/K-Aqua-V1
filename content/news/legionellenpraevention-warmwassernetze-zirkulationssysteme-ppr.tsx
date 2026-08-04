@@ -122,7 +122,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <Stagger className="flex flex-col gap-8">
             <Reveal key="1">
               <div className="p-6 rounded-2xl bg-card border border-card-border h-full flex flex-col justify-start">
                 <h3 className="text-xl font-bold mb-3">1. Temperaturhaltung</h3>

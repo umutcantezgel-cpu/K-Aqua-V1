@@ -11,14 +11,12 @@ import ThemeToggle from './ThemeToggle';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import MegaMenu from './MegaMenu';
 import { Globe, ArrowRight } from '@/components/ui/icon';
-import GlobeHub from '@/components/navigation/GlobeHub';
 import { ChevronDown, Map, Compass, Box, Settings, HardHat } from 'lucide-react';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const locale = useLocale();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [globeHubOpen, setGlobeHubOpen] = useState(false);
   const pathname = usePathname();
   const t = useTranslations('nav');
   const shouldReduceMotion = useReducedMotion();
@@ -34,17 +32,16 @@ export default function Header() {
 
   useEffect(() => {
     setMenuOpen(false);
-    setGlobeHubOpen(false);
   }, [pathname]);
 
   useEffect(() => {
-    if (menuOpen || globeHubOpen) {
+    if (menuOpen) {
       document.body.style.overflow = 'hidden';
       return () => {
         document.body.style.overflow = '';
       };
     }
-  }, [menuOpen, globeHubOpen]);
+  }, [menuOpen]);
 
   const toggleMenu = useCallback(() => {
     setMenuOpen((prev) => !prev);
@@ -202,15 +199,6 @@ export default function Header() {
 
           {/* Action bar (Unified Menu & Globe) */}
           <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 shrink-0">
-            {/* Globe Hub Trigger */}
-            <button
-              onClick={() => setGlobeHubOpen(true)}
-              aria-label="Open Map Navigation"
-              title="Global Map"
-              className="flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
-            >
-              <Map className="w-5 h-5 shrink-0" />
-            </button>
 
             {/* Language Switcher - always visible */}
             <Link href="/language" title={t('lang') || 'Language'} aria-label={t('lang') || 'Language'} className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer">
@@ -269,22 +257,6 @@ export default function Header() {
             }}
           >
             <MegaMenu onClose={closeMenu} />
-          </motion.div>
-        )}
-      </AnimatePresence>
-      <AnimatePresence mode="wait">
-        {globeHubOpen && (
-          <motion.div
-            key="globe-hub-overlay"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{
-              duration: shouldReduceMotion ? 0 : 0.25,
-              ease: [0.25, 0.1, 0.25, 1],
-            }}
-          >
-            <GlobeHub onClose={() => setGlobeHubOpen(false)} />
           </motion.div>
         )}
       </AnimatePresence>

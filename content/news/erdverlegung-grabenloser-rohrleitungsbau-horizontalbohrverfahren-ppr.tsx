@@ -90,7 +90,7 @@ export const erdverlegungGrabenlos: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Stagger className="flex flex-col gap-6">
             <Reveal key="1" className="p-6 rounded-2xl border border-card-border bg-card flex flex-col gap-3">
               <h3 className="text-xl font-bold text-foreground">1. Die gesteuerte Pilotbohrung</h3>
               <p className="text-muted-foreground leading-relaxed">Ein asymmetrischer, steuerbarer Bohrkopf bohrt sich punktgenau von der Start- zur Zielgrube. Dank elektromagnetischer Ortungstechnik an der Oberfläche kann der Bohrkopf bestehenden Hindernissen (Gasleitungen, Stromkabel, Findlinge) unterirdisch dreidimensional ausweichen.</p>

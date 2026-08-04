@@ -115,7 +115,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
               Aggressive Medien vs Rohrleitung
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-8">
             <Card className="p-8 lg:p-12 border-card-border bg-card">
               <Layers className="w-12 h-12 text-muted-foreground mb-6 opacity-50" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die Zerstörungskraft auf Metalle</h3>

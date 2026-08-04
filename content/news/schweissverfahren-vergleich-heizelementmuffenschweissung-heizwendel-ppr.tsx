@@ -131,7 +131,7 @@ export const schweissverfahrenVergleich: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Stagger className="flex flex-col gap-6">
             <Reveal key="1">
               <div className="p-6 rounded-2xl bg-card border border-card-border">
                 <h3 className="text-xl font-bold mb-2">1. Oxidschicht zwingend abschälen</h3>

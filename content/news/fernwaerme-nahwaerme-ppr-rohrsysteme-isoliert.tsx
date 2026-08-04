@@ -161,7 +161,7 @@ export const fernwaermeNahwaerme: NewsPost = {
           lead="Ein geschlossenes System für maximale Effizienz."
           align="center"
         />
-        <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+        <Stagger className="flex flex-col gap-6 mt-8">
           <Reveal key="1">
             <div className="p-6 rounded-2xl border border-card-border bg-card h-full">
               <h3 className="text-xl font-bold mb-2">1. Das Mediumrohr</h3>

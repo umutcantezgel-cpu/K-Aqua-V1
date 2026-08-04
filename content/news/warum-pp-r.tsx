@@ -129,7 +129,7 @@ export const warumPpr: NewsPost = {
       {/* Insulation and Acoustics - Split Cards */}
       <section>
         <Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-8 w-full">
             <Card className="p-8 lg:p-12 border-card-border bg-card">
               <Thermometer className="w-12 h-12 text-primary mb-6" />
               <h3 className="text-2xl font-bold font-heading mb-4">Natürliche Wärmedämmung</h3>

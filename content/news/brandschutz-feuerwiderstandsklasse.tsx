@@ -187,7 +187,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
       {/* 4. Animated Counters / Massive Numbers */}
       <section className="py-16">
         <Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 border-y border-card-border py-16">
+          <div className="flex flex-col gap-12 border-y border-card-border py-16">
             <div className="flex flex-col items-start justify-center">
               <span className="text-6xl lg:text-8xl font-black font-mono text-foreground mb-4">
                 <AnimatedCounter value={0} suffix="%" />
