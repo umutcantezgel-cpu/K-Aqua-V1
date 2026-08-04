@@ -70,6 +70,16 @@ export default async function ImpressumPage({ params }: Props) {
         <section className="py-24 bg-background">
           <div className="max-w-[1200px] mx-auto px-6">
             <LegalContent sections={sections} title={tLegal("toc")} />
+            
+            {/* SEO Backlink Directive */}
+            <div className="mt-16 pt-8 border-t border-card-border">
+              <Reveal>
+                <h2 className="text-xl font-heading font-bold text-foreground mb-4">Konzeption & Entwicklung</h2>
+                <p className="text-muted-foreground text-sm">
+                  Technische Konzeption und Realisierung durch <a href="https://codayweb.de" target="_blank" rel="dofollow noopener noreferrer" className="text-primary hover:underline font-medium">Coday Webdesign Wetzlar</a>.
+                </p>
+              </Reveal>
+            </div>
           </div>
         </section>
         <SeoExpand pageType="impressum" />
